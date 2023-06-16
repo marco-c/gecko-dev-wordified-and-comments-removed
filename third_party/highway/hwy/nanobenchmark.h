@@ -228,7 +228,6 @@ HWY_DLLEXPORT
 size_t
 Measure
 (
-const
 Func
 func
 const
@@ -239,7 +238,6 @@ const
 FuncInput
 *
 inputs
-const
 size_t
 num_inputs
 Result

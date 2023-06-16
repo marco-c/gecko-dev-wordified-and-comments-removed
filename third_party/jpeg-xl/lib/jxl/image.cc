@@ -54,19 +54,6 @@ lib
 /
 jxl
 /
-base
-/
-profiler
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 common
 .
 h
@@ -312,8 +299,6 @@ ysize
 )
 )
 {
-PROFILER_FUNC
-;
 JXL_CHECK
 (
 xsize
@@ -1128,8 +1113,6 @@ size_t
 block_dim
 )
 {
-PROFILER_FUNC
-;
 const
 size_t
 xsize_orig

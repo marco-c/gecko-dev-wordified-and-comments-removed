@@ -86,10 +86,6 @@ HWY_RESTRICT
 keys
 size_t
 num
-uint64_t
-*
-HWY_RESTRICT
-buf
 )
 {
 #
@@ -125,7 +121,6 @@ d
 st
 keys
 num
-buf
 )
 ;
 #
@@ -139,11 +134,6 @@ keys
 void
 )
 num
-;
-(
-void
-)
-buf
 ;
 HWY_ASSERT
 (
@@ -174,12 +164,7 @@ Sort128Asc
 ;
 }
 void
-Sorter
-:
-:
-operator
-(
-)
+VQSort
 (
 uint128_t
 *
@@ -189,7 +174,6 @@ size_t
 n
 SortAscending
 )
-const
 {
 HWY_DYNAMIC_DISPATCH
 (
@@ -207,12 +191,6 @@ keys
 n
 *
 2
-Get
-<
-uint64_t
->
-(
-)
 )
 ;
 }

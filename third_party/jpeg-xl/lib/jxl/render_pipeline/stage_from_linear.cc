@@ -609,13 +609,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-FromLinear
-"
-)
-;
 const
 HWY_FULL
 (

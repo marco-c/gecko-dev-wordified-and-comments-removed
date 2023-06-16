@@ -310,13 +310,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-Gaborish
-"
-)
-;
 const
 HWY_FULL
 (

@@ -21,13 +21,6 @@ h
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -43,11 +36,6 @@ h
 include
 <
 random
->
-#
-include
-<
-utility
 >
 #
 undef
@@ -604,6 +592,11 @@ T
 >
 (
 N
+)
+;
+HWY_ASSERT
+(
+lanes
 )
 ;
 Store

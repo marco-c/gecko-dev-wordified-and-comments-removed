@@ -11262,7 +11262,7 @@ IsSlightlyBelow
 (
 0
 .
-79f
+9273f
 )
 )
 ;
@@ -13354,7 +13354,7 @@ IsSlightlyBelow
 (
 0
 .
-7f
+72f
 )
 )
 ;
@@ -13740,7 +13740,7 @@ IsSlightlyBelow
 (
 1
 .
-7f
+74444f
 )
 )
 ;

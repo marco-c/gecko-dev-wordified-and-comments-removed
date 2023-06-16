@@ -211,6 +211,8 @@ const
 Rect
 &
 rect
+float
+original_butteraugli
 ImageF
 *
 quant_field

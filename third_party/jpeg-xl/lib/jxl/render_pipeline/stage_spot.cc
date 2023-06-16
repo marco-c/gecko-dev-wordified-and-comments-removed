@@ -85,13 +85,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-RenderSpotColors
-"
-)
-;
 float
 scale
 =

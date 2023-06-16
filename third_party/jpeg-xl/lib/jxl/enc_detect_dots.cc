@@ -127,19 +127,6 @@ jxl
 /
 base
 /
-profiler
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
-base
-/
 status
 .
 h
@@ -995,8 +982,6 @@ ThreadPool
 pool
 )
 {
-PROFILER_FUNC
-;
 Image3F
 forig
 (
@@ -1259,8 +1244,6 @@ double
 threshold
 )
 {
-PROFILER_FUNC
-;
 static
 const
 std
@@ -1670,8 +1653,6 @@ int
 extra
 )
 {
-PROFILER_FUNC
-;
 maxEnergy
 =
 0
@@ -2050,8 +2031,6 @@ Pixel
 pixels
 )
 {
-PROFILER_FUNC
-;
 JXL_ASSERT
 (
 !
@@ -2194,8 +2173,6 @@ double
 minScore
 )
 {
-PROFILER_FUNC
-;
 const
 int
 kExtraRect
@@ -2588,8 +2565,6 @@ Image3F
 background
 )
 {
-PROFILER_FUNC
-;
 const
 int
 rectBounds
@@ -3300,8 +3275,6 @@ Image3F
 background
 )
 {
-PROFILER_FUNC
-;
 constexpr
 bool
 leastSqIntensity
@@ -4816,8 +4789,6 @@ ThreadPool
 pool
 )
 {
-PROFILER_FUNC
-;
 std
 :
 :

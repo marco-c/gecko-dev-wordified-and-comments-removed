@@ -71,19 +71,6 @@ jxl
 /
 base
 /
-profiler
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
-base
-/
 status
 .
 h
@@ -213,8 +200,6 @@ OpsinParams
 opsin_params
 )
 {
-PROFILER_FUNC
-;
 JXL_CHECK_IMAGE_INITIALIZED
 (
 *
@@ -473,8 +458,6 @@ OpsinParams
 opsin_params
 )
 {
-PROFILER_FUNC
-;
 JXL_ASSERT
 (
 SameSize

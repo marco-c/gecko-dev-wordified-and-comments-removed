@@ -7442,9 +7442,6 @@ output_dir
 "
 -
 -
-noprofiler
--
--
 show_progress
 -
 -

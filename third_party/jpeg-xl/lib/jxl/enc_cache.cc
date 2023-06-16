@@ -74,19 +74,6 @@ jxl
 /
 base
 /
-profiler
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
-base
-/
 span
 .
 h
@@ -306,8 +293,6 @@ AuxOut
 aux_out
 )
 {
-PROFILER_FUNC
-;
 PassesSharedState
 &
 JXL_RESTRICT
@@ -1530,8 +1515,6 @@ InitOnce
 (
 )
 {
-PROFILER_FUNC
-;
 if
 (
 num_nzeroes
