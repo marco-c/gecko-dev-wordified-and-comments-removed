@@ -3594,6 +3594,14 @@ skipReason
 "
 TRR_NXDOMAIN
 "
+|
+|
+skipReason
+=
+=
+"
+TRR_RCODE_FAIL
+"
 )
 {
 descriptionTag
