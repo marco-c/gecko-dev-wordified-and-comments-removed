@@ -1567,7 +1567,6 @@ CLANG_CC
 ;
 then
 if
-test
 "
 {
 OS_TARGET
