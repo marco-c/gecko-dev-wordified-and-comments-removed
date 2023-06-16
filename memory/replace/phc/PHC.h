@@ -163,6 +163,10 @@ mFreeStack
 }
 }
 ;
+extern
+AddrInfo
+gAddrInfo
+;
 }
 }
 #
