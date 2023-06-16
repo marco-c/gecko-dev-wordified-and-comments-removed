@@ -4312,6 +4312,16 @@ return
 }
 }
 }
+if
+(
+aAccessible
+-
+>
+IsActiveWidget
+(
+)
+)
+{
 FocusMgr
 (
 )
@@ -4356,6 +4366,7 @@ aAccessible
 }
 #
 endif
+}
 }
 }
 void
