@@ -526,6 +526,9 @@ class
 JitcodeGlobalTable
 ;
 class
+PerfSpewerRangeRecorder
+;
+class
 JitRuntime
 {
 private
@@ -1071,6 +1074,9 @@ masm
 VMWrapperOffsets
 &
 offsets
+PerfSpewerRangeRecorder
+&
+rangeRecorder
 )
 ;
 bool
@@ -1082,6 +1088,9 @@ cx
 MacroAssembler
 &
 masm
+PerfSpewerRangeRecorder
+&
+rangeRecorder
 )
 ;
 uint32_t

@@ -1052,6 +1052,15 @@ script
 )
 ;
 void
+recordVMWrapperOffset
+(
+const
+char
+*
+name
+)
+;
+void
 collectRangesForJitCode
 (
 JitCode
