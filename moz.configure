@@ -3716,8 +3716,6 @@ INSTALL_NAME_TOOL
 plain_llvm_or_prefixed
 (
 "
-llvm
--
 install
 -
 name
