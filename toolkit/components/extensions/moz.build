@@ -258,13 +258,6 @@ sys
 mjs
 "
 "
-PerformanceCounters
-.
-sys
-.
-mjs
-"
-"
 ProxyChannelFilter
 .
 sys
