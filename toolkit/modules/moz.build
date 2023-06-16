@@ -1624,7 +1624,7 @@ jsesc
 /
 jsesc
 .
-js
+mjs
 "
 ]
 EXTRA_JS_MODULES
