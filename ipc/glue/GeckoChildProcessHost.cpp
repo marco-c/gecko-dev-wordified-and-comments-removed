@@ -6103,7 +6103,7 @@ get
 ;
 #
 elif
-OS_MACOSX
+XP_DARWIN
 nsCString
 new_dyld_lib_path
 (

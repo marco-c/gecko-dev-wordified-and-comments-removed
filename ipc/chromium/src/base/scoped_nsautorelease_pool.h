@@ -17,7 +17,7 @@ h
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 if
@@ -50,7 +50,7 @@ if
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 ScopedNSAutoreleasePool
 (

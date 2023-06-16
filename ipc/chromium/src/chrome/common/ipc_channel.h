@@ -352,7 +352,7 @@ CloseClientFileDescriptor
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 void
 SetOtherMachTask
@@ -442,7 +442,7 @@ enum
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 RECEIVED_FDS_MESSAGE_TYPE
 =

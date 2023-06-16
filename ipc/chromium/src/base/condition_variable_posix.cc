@@ -98,7 +98,7 @@ if
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -195,7 +195,7 @@ ConditionVariable
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 {
 Lock
@@ -352,7 +352,7 @@ kNanosecondsPerMicrosecond
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 int
 rv

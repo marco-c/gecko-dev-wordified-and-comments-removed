@@ -43,7 +43,7 @@ h
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -89,7 +89,7 @@ endif
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 |
 |
@@ -1011,7 +1011,7 @@ true
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 last_pending_fd_id_
 =
@@ -1288,7 +1288,7 @@ false
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 if
 (
@@ -2268,7 +2268,7 @@ false
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 auto
 fdAck
@@ -2509,7 +2509,7 @@ other_pid
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 }
 else
@@ -2578,7 +2578,7 @@ m
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 if
 (
@@ -2763,7 +2763,7 @@ isNothing
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 if
 (
@@ -2854,7 +2854,7 @@ Length
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 if
 (
@@ -3353,7 +3353,7 @@ break
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 |
 |
@@ -3610,7 +3610,7 @@ reset
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 if
 (
@@ -4100,7 +4100,7 @@ return
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 void
 Channel
@@ -4581,7 +4581,7 @@ clear
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 pending_fds_
 .
@@ -4600,7 +4600,7 @@ endif
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 void
 Channel
@@ -6046,7 +6046,7 @@ IsClosed
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 void
 Channel

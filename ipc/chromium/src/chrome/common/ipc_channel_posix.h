@@ -335,7 +335,7 @@ pipe_
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 void
 SetOtherMachTask
@@ -566,7 +566,7 @@ override
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 void
 CloseDescriptors
@@ -965,7 +965,7 @@ chan_cap_
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 struct
 PendingDescriptors

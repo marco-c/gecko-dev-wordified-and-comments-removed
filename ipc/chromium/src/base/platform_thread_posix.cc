@@ -25,7 +25,7 @@ h
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -80,7 +80,7 @@ if
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -131,7 +131,7 @@ h
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 namespace
 base
@@ -196,7 +196,7 @@ CurrentId
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 mach_port_t
 port
@@ -374,7 +374,7 @@ remaining
 }
 #
 ifndef
-OS_MACOSX
+XP_DARWIN
 void
 PlatformThread
 :
@@ -435,7 +435,7 @@ thread_handle
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 base
 :

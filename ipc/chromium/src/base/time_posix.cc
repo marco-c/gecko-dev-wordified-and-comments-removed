@@ -9,7 +9,7 @@ h
 "
 #
 ifdef
-OS_MACOSX
+XP_DARWIN
 #
 include
 <
@@ -653,7 +653,7 @@ absolute_micro
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 static
 mach_timebase_info_data_t

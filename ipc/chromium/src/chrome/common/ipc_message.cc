@@ -189,7 +189,7 @@ seqno
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 header
 (
@@ -886,7 +886,7 @@ ports
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 bool
 Message
