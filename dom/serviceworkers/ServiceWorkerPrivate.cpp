@@ -3189,12 +3189,16 @@ The
 WorkerPrivate
 '
 s
+"
+"
 ShouldResistFingerprinting
 function
 for
 the
 ServiceWorker
 depends
+"
+"
 on
 this
 boolean
