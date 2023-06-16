@@ -123,9 +123,12 @@ aKeySystem
 bool
 GetCapabilities
 (
+nsTArray
+<
 KeySystemConfig
+>
 &
-aConfig
+aOutConfigs
 )
 ;
 using
