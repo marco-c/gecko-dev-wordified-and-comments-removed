@@ -137,7 +137,7 @@ sys
 .
 mjs
 "
-element
+dom
 :
 "
 chrome
@@ -148,9 +148,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-element
+DOM
 .
 sys
 .
@@ -247,7 +247,9 @@ content
 /
 marionette
 /
-element
+web
+-
+reference
 .
 sys
 .
@@ -1274,7 +1276,7 @@ visible
 =
 lazy
 .
-element
+dom
 .
 isVisible
 (
@@ -1380,7 +1382,7 @@ c
 =
 lazy
 .
-element
+dom
 .
 coordinates
 (
@@ -1904,7 +1906,7 @@ c
 =
 lazy
 .
-element
+dom
 .
 coordinates
 (
@@ -2117,7 +2119,7 @@ c
 =
 lazy
 .
-element
+dom
 .
 coordinates
 (
@@ -2247,7 +2249,7 @@ c
 =
 lazy
 .
-element
+dom
 .
 coordinates
 (

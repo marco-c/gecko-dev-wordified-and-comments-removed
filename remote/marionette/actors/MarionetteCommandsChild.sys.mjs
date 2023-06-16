@@ -160,7 +160,7 @@ sys
 .
 mjs
 "
-element
+dom
 :
 "
 chrome
@@ -171,9 +171,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-element
+DOM
 .
 sys
 .
@@ -1651,7 +1651,7 @@ defaultView
 return
 lazy
 .
-element
+dom
 .
 find
 (
@@ -1768,7 +1768,7 @@ defaultView
 return
 lazy
 .
-element
+dom
 .
 find
 (
@@ -2005,7 +2005,7 @@ if
 (
 lazy
 .
-element
+dom
 .
 isBooleanAttribute
 (
@@ -2650,7 +2650,7 @@ scroll
 {
 lazy
 .
-element
+dom
 .
 scrollIntoView
 (
@@ -2762,7 +2762,7 @@ options
 return
 lazy
 .
-element
+dom
 .
 getShadowRoot
 (

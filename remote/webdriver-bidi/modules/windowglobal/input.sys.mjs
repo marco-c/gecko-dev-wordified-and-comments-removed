@@ -137,7 +137,7 @@ sys
 .
 mjs
 "
-element
+dom
 :
 "
 chrome
@@ -148,9 +148,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-element
+DOM
 .
 sys
 .
@@ -618,7 +618,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isElement
 (

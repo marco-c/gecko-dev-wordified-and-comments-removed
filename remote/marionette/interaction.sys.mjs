@@ -156,7 +156,7 @@ sys
 .
 mjs
 "
-element
+dom
 :
 "
 chrome
@@ -167,9 +167,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-element
+DOM
 .
 sys
 .
@@ -838,7 +838,7 @@ if
 (
 lazy
 .
-element
+dom
 .
 isXULElement
 (
@@ -964,7 +964,7 @@ containerEl
 =
 lazy
 .
-element
+dom
 .
 getContainer
 (
@@ -980,7 +980,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isInView
 (
@@ -990,7 +990,7 @@ containerEl
 {
 lazy
 .
-element
+dom
 .
 scrollIntoView
 (
@@ -1051,7 +1051,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isInView
 (
@@ -1101,7 +1101,7 @@ clickPoint
 =
 lazy
 .
-element
+dom
 .
 getInViewCentrePoint
 (
@@ -1116,7 +1116,7 @@ if
 (
 lazy
 .
-element
+dom
 .
 isObscured
 (
@@ -1445,7 +1445,7 @@ visibilityCheckEl
 =
 lazy
 .
-element
+dom
 .
 getContainer
 (
@@ -1458,7 +1458,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isVisible
 (
@@ -1581,7 +1581,7 @@ centre
 =
 lazy
 .
-element
+dom
 .
 getInViewCentrePoint
 (
@@ -1818,7 +1818,7 @@ if
 (
 lazy
 .
-element
+dom
 .
 isXULElement
 (
@@ -1875,7 +1875,7 @@ containerEl
 =
 lazy
 .
-element
+dom
 .
 getContainer
 (
@@ -2241,7 +2241,7 @@ if
 (
 lazy
 .
-element
+dom
 .
 isDisabled
 (
@@ -2274,7 +2274,7 @@ if
 (
 lazy
 .
-element
+dom
 .
 isReadOnly
 (
@@ -2310,7 +2310,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isEditable
 (
@@ -2349,7 +2349,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isInView
 (
@@ -2359,7 +2359,7 @@ el
 {
 lazy
 .
-element
+dom
 .
 scrollIntoView
 (
@@ -2372,7 +2372,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isInView
 (
@@ -2408,7 +2408,7 @@ if
 (
 lazy
 .
-element
+dom
 .
 isEditingHost
 (
@@ -2484,7 +2484,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isMutableFormControl
 (
@@ -3001,7 +3001,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isDOMElement
 (
@@ -4018,7 +4018,7 @@ containerEl
 =
 lazy
 .
-element
+dom
 .
 getContainer
 (
@@ -4027,7 +4027,7 @@ el
 ;
 lazy
 .
-element
+dom
 .
 scrollIntoView
 (
@@ -4356,7 +4356,7 @@ visibilityCheckEl
 =
 lazy
 .
-element
+dom
 .
 getContainer
 (
@@ -4369,7 +4369,7 @@ if
 !
 lazy
 .
-element
+dom
 .
 isVisible
 (
@@ -4649,7 +4649,7 @@ if
 (
 lazy
 .
-element
+dom
 .
 isXULElement
 (
@@ -4966,7 +4966,7 @@ selected
 =
 lazy
 .
-element
+dom
 .
 isSelected
 (
