@@ -738,13 +738,15 @@ ModuleRtpRtcpImpl2
 :
 IncomingRtcpPacket
 (
+rtc
+:
+:
+ArrayView
+<
 const
 uint8_t
-*
+>
 rtcp_packet
-const
-size_t
-length
 )
 {
 RTC_DCHECK_RUN_ON
@@ -758,7 +760,6 @@ rtcp_receiver_
 IncomingPacket
 (
 rtcp_packet
-length
 )
 ;
 }
