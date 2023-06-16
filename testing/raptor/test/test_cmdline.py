@@ -107,18 +107,6 @@ debug
 True
 "
         
-power_test
-=
-False
-        
-cpu_test
-=
-False
-        
-memory_test
-=
-False
-        
 chimera
 =
 False
@@ -272,18 +260,6 @@ host
 sophie
 "
         
-power_test
-=
-False
-        
-cpu_test
-=
-False
-        
-memory_test
-=
-False
-        
 chimera
 =
 False
@@ -401,18 +377,6 @@ host
 "
 sophie
 "
-        
-power_test
-=
-False
-        
-cpu_test
-=
-False
-        
-memory_test
-=
-False
         
 chimera
 =
@@ -532,18 +496,6 @@ host
 sophie
 "
         
-power_test
-=
-False
-        
-cpu_test
-=
-False
-        
-memory_test
-=
-False
-        
 chimera
 =
 False
@@ -658,18 +610,6 @@ host
 sophie
 "
         
-power_test
-=
-False
-        
-cpu_test
-=
-True
-        
-memory_test
-=
-False
-        
 chimera
 =
 False
@@ -777,18 +717,6 @@ host
 "
 sophie
 "
-        
-power_test
-=
-False
-        
-cpu_test
-=
-False
-        
-memory_test
-=
-False
         
 chimera
 =

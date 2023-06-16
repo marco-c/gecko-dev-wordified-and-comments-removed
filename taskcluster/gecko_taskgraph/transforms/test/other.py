@@ -2298,14 +2298,6 @@ suite
 "
 raptor
 "
-or
-"
--
--
-webext
-"
-in
-extra_options
 :
             
 yield
