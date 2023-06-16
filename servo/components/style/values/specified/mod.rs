@@ -1837,6 +1837,10 @@ All
 impl
 Number
 {
+#
+[
+inline
+]
 fn
 new_with_clamping_mode
 (
@@ -1884,6 +1888,10 @@ self
 calc_clamping_mode
 )
 }
+#
+[
+inline
+]
 pub
 fn
 new
