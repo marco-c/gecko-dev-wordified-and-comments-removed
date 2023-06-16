@@ -400,7 +400,7 @@ ClassificationEnum
 )
 :
     
-NO_FISSION
+FISSION
 =
 {
 "
@@ -408,8 +408,6 @@ value
 "
 :
 "
-no
--
 fission
 "
 "
@@ -1227,7 +1225,7 @@ return
             
 Variants
 .
-NO_FISSION
+FISSION
 .
 value
 :
@@ -1238,7 +1236,7 @@ query
 "
 :
 "
-'
+!
 nofis
 "
                 
@@ -1247,7 +1245,7 @@ negation
 "
 :
 "
-!
+'
 nofis
 "
                 
@@ -1614,7 +1612,7 @@ variants
                     
 Variants
 .
-NO_FISSION
+FISSION
 .
 value
                     
@@ -1982,7 +1980,6 @@ restrictions
 "
 :
 {
-                    
 Suites
 .
 RAPTOR
@@ -1992,11 +1989,10 @@ value
 [
 Variants
 .
-NO_FISSION
+FISSION
 .
 value
 ]
-                
 }
                 
 "
@@ -2113,7 +2109,6 @@ restrictions
 "
 :
 {
-                    
 Suites
 .
 RAPTOR
@@ -2123,11 +2118,10 @@ value
 [
 Variants
 .
-NO_FISSION
+FISSION
 .
 value
 ]
-                
 }
                 
 "
@@ -2697,7 +2691,6 @@ restrictions
 "
 :
 {
-                    
 Suites
 .
 RAPTOR
@@ -2707,11 +2700,10 @@ value
 [
 Variants
 .
-NO_FISSION
+FISSION
 .
 value
 ]
-                
 }
                 
 "
