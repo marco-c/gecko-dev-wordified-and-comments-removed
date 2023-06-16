@@ -51,8 +51,6 @@ com
 ;
 gURLBar
 .
-inputField
-.
 value
 =
 "

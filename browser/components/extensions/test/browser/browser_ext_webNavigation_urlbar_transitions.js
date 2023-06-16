@@ -493,8 +493,6 @@ typed
 ;
 gURLBar
 .
-inputField
-.
 value
 =
 inputValue
