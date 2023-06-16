@@ -185,7 +185,6 @@ CoseError
 UnexpectedType
 )
 }
-;
 )
 }
 fn
