@@ -760,7 +760,9 @@ getBreakpointPositionsForSource
 state
 location
 .
-sourceId
+source
+.
+id
 )
 ;
 if

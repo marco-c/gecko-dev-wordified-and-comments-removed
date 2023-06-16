@@ -1069,7 +1069,9 @@ column
 &
 location
 .
-sourceId
+source
+.
+id
 =
 =
 source
@@ -1103,7 +1105,9 @@ bp
 .
 location
 .
-sourceId
+source
+.
+id
 )
 .
 toEqual
