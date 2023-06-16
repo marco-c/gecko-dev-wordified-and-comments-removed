@@ -3134,10 +3134,16 @@ report
 .
 filename
 =
+JS
+:
+:
+ConstUTF8CharsZ
+(
 filenameStr
 .
 get
 (
+)
 )
 ;
 report
