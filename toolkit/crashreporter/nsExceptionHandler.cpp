@@ -17834,11 +17834,17 @@ aTargetAnnotations
 child_annotations
 )
 ;
+if
+(
+child_annotations
+)
+{
 mozannotation_free
 (
 child_annotations
 )
 ;
+}
 targetMinidump
 .
 forget
