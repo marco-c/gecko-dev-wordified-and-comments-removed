@@ -11704,7 +11704,7 @@ onboardingExperience
 .
 enabled
 "
-true
+false
 )
 ;
 pref
