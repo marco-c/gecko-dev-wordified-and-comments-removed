@@ -70,6 +70,9 @@ interface
 nsILoadContextInfo
 ;
 interface
+nsIApplicationCache
+;
+interface
 nsIEventTarget
 ;
 interface

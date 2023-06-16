@@ -131,6 +131,9 @@ window
 thawed
 "
 class
+nsDOMOfflineResourceList
+;
+class
 nsGlobalWindowInner
 ;
 class
@@ -1657,6 +1660,15 @@ mozilla
 ErrorResult
 &
 aError
+)
+=
+0
+;
+virtual
+nsDOMOfflineResourceList
+*
+GetApplicationCache
+(
 )
 =
 0
