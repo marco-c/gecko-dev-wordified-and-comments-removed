@@ -9398,7 +9398,12 @@ aInfo
 mContent
 -
 >
-IsInChromeDocument
+OwnerDoc
+(
+)
+-
+>
+ChromeRulesEnabled
 (
 )
 )
