@@ -210,6 +210,16 @@ aReason
 const
 {
 {
+auto
+callback
+=
+Maybe
+<
+PingTestCallback
+>
+(
+)
+;
 GetCallbackMapLock
 (
 )
@@ -225,7 +235,6 @@ auto
 lock
 )
 {
-auto
 callback
 =
 lock
@@ -238,6 +247,9 @@ ref
 Extract
 (
 mId
+)
+;
+}
 )
 ;
 if
@@ -255,9 +267,6 @@ aReason
 )
 ;
 }
-}
-)
-;
 }
 fog_submit_ping_by_id
 (
