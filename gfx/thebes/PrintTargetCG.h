@@ -93,6 +93,10 @@ final
 nsresult
 BeginPage
 (
+const
+IntSize
+&
+aSizeInPoints
 )
 final
 ;
