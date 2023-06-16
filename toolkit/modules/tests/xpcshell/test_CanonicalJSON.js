@@ -5,7 +5,7 @@ CanonicalJSON
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 CanonicalJSON
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

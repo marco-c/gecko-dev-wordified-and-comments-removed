@@ -125,7 +125,9 @@ mjs
 "
 IDBHelpers
 .
-jsm
+sys
+.
+mjs
 "
 "
 remote
@@ -165,7 +167,9 @@ mjs
 "
 SharedUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 SyncHistory

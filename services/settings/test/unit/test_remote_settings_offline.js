@@ -57,7 +57,7 @@ SharedUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -70,7 +70,9 @@ settings
 /
 SharedUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

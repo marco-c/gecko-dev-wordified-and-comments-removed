@@ -125,9 +125,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -144,7 +144,9 @@ settings
 /
 SharedUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
