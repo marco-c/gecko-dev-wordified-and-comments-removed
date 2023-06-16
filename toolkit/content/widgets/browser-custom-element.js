@@ -6502,6 +6502,9 @@ _isSyntheticDocument
 "
 _originalURI
 "
+"
+_userTypedValue
+"
 ]
 )
 ;
