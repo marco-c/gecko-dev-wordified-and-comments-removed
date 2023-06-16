@@ -183,9 +183,9 @@ Level
 [
 Svc
 .
-Prefs
+PrefBranch
 .
-get
+getCharPref
 (
 "
 log
@@ -194,6 +194,7 @@ logger
 .
 addonutils
 "
+null
 )
 ]
 ;

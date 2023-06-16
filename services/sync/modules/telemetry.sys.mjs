@@ -5258,9 +5258,9 @@ lazy
 .
 Svc
 .
-Prefs
+PrefBranch
 .
-get
+getIntPref
 (
 "
 telemetry
@@ -5278,9 +5278,9 @@ lazy
 .
 Svc
 .
-Prefs
+PrefBranch
 .
-get
+getIntPref
 (
 "
 telemetry
@@ -5297,9 +5297,9 @@ lazy
 .
 Svc
 .
-Prefs
+PrefBranch
 .
-get
+getIntPref
 (
 "
 telemetry
