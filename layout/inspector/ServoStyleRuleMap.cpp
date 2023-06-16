@@ -506,12 +506,6 @@ StyleCssRuleType
 :
 FontPaletteValues
 :
-case
-StyleCssRuleType
-:
-:
-Viewport
-:
 break
 ;
 }
@@ -780,12 +774,6 @@ StyleCssRuleType
 :
 :
 FontPaletteValues
-:
-case
-StyleCssRuleType
-:
-:
-Viewport
 :
 break
 ;

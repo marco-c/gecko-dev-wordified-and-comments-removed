@@ -37,10 +37,6 @@ extern
 crate
 bitflags
 ;
-#
-[
-macro_use
-]
 extern
 crate
 cssparser
@@ -329,14 +325,6 @@ macro_use
 pub
 mod
 values
-;
-#
-[
-macro_use
-]
-pub
-mod
-viewport
 ;
 pub
 mod
