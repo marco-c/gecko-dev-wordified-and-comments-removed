@@ -98,14 +98,6 @@ Temporal
 "
         
 "
-regexp
--
-v
--
-flag
-"
-        
-"
 decorators
 "
         
