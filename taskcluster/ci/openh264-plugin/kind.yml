@@ -149,6 +149,13 @@ revision
 '
 31c4d2e4a037526fd30d4e5c39f60885986cf865
 '
+use
+-
+system
+-
+python
+:
+false
 worker
 :
 chain
