@@ -62,6 +62,9 @@ try
 -
 perf
 mozperftest
+perf
+-
+sheriffing
 raptor
 talos
 Performance
@@ -156,6 +159,13 @@ perf
 doc
 :
 mozperftest
+*
+:
+doc
+:
+perf
+-
+sheriffing
 *
 :
 doc
