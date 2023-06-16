@@ -1254,9 +1254,10 @@ IsTableRow
 const
 {
 return
-mGenericTypes
-&
+HasGenericType
+(
 eTableRow
+)
 ;
 }
 bool
@@ -1278,9 +1279,10 @@ IsTable
 const
 {
 return
-mGenericTypes
-&
+HasGenericType
+(
 eTable
+)
 ;
 }
 bool
