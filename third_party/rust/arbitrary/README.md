@@ -568,7 +568,7 @@ to
 avoid
 a
 custom
-funciton
+function
 )
 #
 [
