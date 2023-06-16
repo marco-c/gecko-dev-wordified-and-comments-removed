@@ -31612,16 +31612,6 @@ pref
 "
 reader
 .
-has_used_toolbar
-"
-false
-)
-;
-pref
-(
-"
-reader
-.
 toolbar
 .
 vertical
