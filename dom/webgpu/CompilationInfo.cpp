@@ -40,6 +40,7 @@ GPU_IMPL_CYCLE_COLLECTION
 (
 CompilationInfo
 mParent
+mMessages
 )
 GPU_IMPL_JS_WRAP
 (

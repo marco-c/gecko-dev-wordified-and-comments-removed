@@ -60,6 +60,7 @@ GPU_IMPL_CYCLE_COLLECTION
 (
 ShaderModule
 mParent
+mCompilationInfo
 )
 GPU_IMPL_JS_WRAP
 (
