@@ -518,7 +518,7 @@ XP_LINUX
 |
 defined
 (
-OS_SOLARIS
+XP_SOLARIS
 )
 static
 const

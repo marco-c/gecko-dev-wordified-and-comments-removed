@@ -6510,7 +6510,7 @@ OS_BSD
 |
 defined
 (
-OS_SOLARIS
+XP_SOLARIS
 )
 int
 childCrashFd
