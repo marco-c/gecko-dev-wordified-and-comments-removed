@@ -1559,15 +1559,6 @@ browser
 .
 ini
 "
-"
-browser
-/
-perfmetrics
-/
-browser
-.
-ini
-"
 ]
 TEST_HARNESS_FILES
 .
