@@ -786,8 +786,7 @@ source_dir
 target_dir
 ignore_missing
 =
-(
-)
+None
 )
 :
     
@@ -808,6 +807,13 @@ target_list
 difference_found
 =
 False
+    
+ignore_missing
+=
+ignore_missing
+or
+(
+)
     
 left_diff
 =
