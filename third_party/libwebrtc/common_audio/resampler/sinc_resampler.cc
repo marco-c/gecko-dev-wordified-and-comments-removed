@@ -149,6 +149,12 @@ GetCPUInfo
 (
 kAVX2
 )
+&
+&
+GetCPUInfo
+(
+kFMA3
+)
 )
 convolve_proc_
 =

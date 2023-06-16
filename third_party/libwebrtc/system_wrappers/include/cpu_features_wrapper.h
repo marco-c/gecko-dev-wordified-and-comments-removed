@@ -20,6 +20,7 @@ enum
 kSSE2
 kSSE3
 kAVX2
+kFMA3
 }
 CPUFeature
 ;
