@@ -13511,27 +13511,6 @@ useLSan
 )
         
 if
-hasattr
-(
-options
-"
-topobjdir
-"
-)
-:
-            
-browserEnv
-[
-"
-MOZ_DEVELOPER_OBJ_DIR
-"
-]
-=
-options
-.
-topobjdir
-        
-if
 options
 .
 headless

@@ -119,6 +119,17 @@ config
 .
 topsrcdir
     
+d
+[
+"
+topobjdir
+"
+]
+=
+config
+.
+topobjdir
+    
 if
 config
 .
