@@ -393,9 +393,6 @@ MFCDMMediaCapability
 ]
 videoCapabilities
 ;
-bool
-hwSecure
-;
 }
 ;
 struct

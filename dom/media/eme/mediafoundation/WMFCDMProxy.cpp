@@ -472,7 +472,6 @@ mConfig
 mInitDataTypes
 mPersistentStateRequired
 mDistinctiveIdentifierRequired
-false
 mProxyCallback
 GenerateMFCDMMediaCapabilities
 (
