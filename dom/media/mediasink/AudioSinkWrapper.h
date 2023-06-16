@@ -550,6 +550,12 @@ Invalid
 (
 )
 ;
+media
+:
+:
+TimeUnit
+mLastPacketEndTime
+;
 bool
 mAudioEnded
 =
