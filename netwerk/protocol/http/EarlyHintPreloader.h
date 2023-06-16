@@ -291,9 +291,6 @@ nsACString
 aCSPHeader
 uint64_t
 aBrowsingContextID
-nsIInterfaceRequestor
-*
-aCallbacks
 )
 ;
 bool
@@ -418,9 +415,6 @@ nsICookieJarSettings
 aCookieJarSettings
 uint64_t
 aBrowsingContextID
-nsIInterfaceRequestor
-*
-aCallbacks
 )
 ;
 void
