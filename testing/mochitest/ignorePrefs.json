@@ -203,4 +203,13 @@ telemetry
 .
 cachedClientID
 "
+"
+ui
+.
+osk
+.
+debug
+.
+keyboardDisplayReason
+"
 ]
