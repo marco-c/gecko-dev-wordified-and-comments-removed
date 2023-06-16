@@ -468,11 +468,7 @@ PerformanceNavigationTiming
 :
 RedirectStart
 (
-Maybe
-<
 nsIPrincipal
-*
->
 &
 aSubjectPrincipal
 )
@@ -495,11 +491,7 @@ PerformanceNavigationTiming
 :
 RedirectEnd
 (
-Maybe
-<
 nsIPrincipal
-*
->
 &
 aSubjectPrincipal
 )

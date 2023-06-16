@@ -270,11 +270,8 @@ aDocument
 JSContext
 *
 aCx
-Maybe
-<
 nsIPrincipal
-*
->
+&
 aPrincipal
 )
 ;
