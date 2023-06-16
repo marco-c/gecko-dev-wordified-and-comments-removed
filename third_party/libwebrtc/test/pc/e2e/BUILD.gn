@@ -2783,6 +2783,10 @@ metric_metadata_keys
 "
 "
 :
+network_quality_metrics_reporter
+"
+"
+:
 peerconnection_quality_test
 "
 "
