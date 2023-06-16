@@ -246,6 +246,15 @@ InflightAssetsMessageProvider
 .
 jsm
 "
+"
+test
+/
+NimbusRolloutMessageProvider
+.
+sys
+.
+mjs
+"
 ]
 SPHINX_TREES
 [
