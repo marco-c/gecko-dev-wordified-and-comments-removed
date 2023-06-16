@@ -2031,6 +2031,8 @@ hidden
 -
 arrow
 "
+!
+!
 this
 .
 currentScreen
@@ -7455,6 +7457,9 @@ toggle
 "
 simulateContent
 "
+!
+!
+(
 this
 .
 page
@@ -7471,6 +7476,7 @@ this
 theme
 .
 simulateContent
+)
 )
 ;
 for
