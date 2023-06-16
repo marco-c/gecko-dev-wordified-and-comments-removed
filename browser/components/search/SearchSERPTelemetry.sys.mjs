@@ -210,6 +210,13 @@ SEARCH_TELEMETRY_PRIVATE_BROWSING_KEY_SUFFIX
 pb
 "
 ;
+/
+/
+Exported
+for
+tests
+.
+export
 const
 TELEMETRY_SETTINGS_KEY
 =
