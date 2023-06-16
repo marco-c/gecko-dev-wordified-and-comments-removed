@@ -3029,8 +3029,6 @@ ReduceTimePrecisionAsUSecsWrapper
 (
 double
 aTime
-bool
-aShouldResistFingerprinting
 JSContext
 *
 aCx
@@ -3065,7 +3063,16 @@ callerType
 ;
 if
 (
-aShouldResistFingerprinting
+global
+-
+>
+ShouldResistFingerprinting
+(
+RFPTarget
+:
+:
+Unknown
+)
 )
 {
 callerType
