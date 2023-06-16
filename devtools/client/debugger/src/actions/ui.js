@@ -4,7 +4,7 @@ getActiveSearch
 getPaneCollapse
 getQuickOpenEnabled
 getSource
-getSourceContent
+getSourceTextContent
 getMainThread
 getIgnoreListSourceUrls
 getSourceByURL
@@ -945,7 +945,7 @@ getState
 const
 content
 =
-getSourceContent
+getSourceTextContent
 (
 getState
 (
