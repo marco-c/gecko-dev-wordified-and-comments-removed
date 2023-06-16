@@ -3213,7 +3213,7 @@ if
 !
 defined
 (
-ARCH_CPU_64_BITS
+HAVE_64BIT_BUILD
 )
 bool
 StringToInt

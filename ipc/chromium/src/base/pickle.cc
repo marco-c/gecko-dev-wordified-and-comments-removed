@@ -2612,7 +2612,7 @@ memberAlignmentType
 ;
 #
 ifdef
-ARCH_CPU_64_BITS
+HAVE_64BIT_BUILD
 DCHECK_LE
 (
 length
