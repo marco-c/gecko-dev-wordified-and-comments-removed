@@ -44,7 +44,7 @@ HTTP_LOCAL
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 SUCCESS
 }
@@ -90,7 +90,7 @@ HTTP_PRIVATE
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 SUCCESS
 }
@@ -136,7 +136,7 @@ HTTP_PUBLIC
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 SUCCESS
 }
@@ -182,7 +182,7 @@ HTTP_LOCAL
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 FAILURE
 }
@@ -226,7 +226,7 @@ HTTP_PRIVATE
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 SUCCESS
 }
@@ -272,7 +272,7 @@ HTTP_PUBLIC
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 SUCCESS
 }
@@ -318,7 +318,7 @@ HTTP_LOCAL
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 FAILURE
 }
@@ -362,7 +362,7 @@ HTTP_PRIVATE
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 FAILURE
 }
@@ -406,7 +406,7 @@ HTTP_PUBLIC
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 SUCCESS
 }
@@ -455,7 +455,7 @@ HTTP_LOCAL
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 FAILURE
 }
@@ -508,7 +508,7 @@ HTTP_PRIVATE
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 FAILURE
 }
@@ -561,7 +561,7 @@ HTTP_PUBLIC
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 SUCCESS
 }
@@ -624,7 +624,7 @@ HTTP_LOCAL
 }
 expected
 :
-IframeTestResult
+FrameTestResult
 .
 SUCCESS
 }
