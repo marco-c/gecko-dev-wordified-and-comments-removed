@@ -13454,16 +13454,6 @@ false
 pref
 (
 "
-plugin
-.
-override_internal_types
-"
-false
-)
-;
-pref
-(
-"
 gestures
 .
 enable_single_finger_input
