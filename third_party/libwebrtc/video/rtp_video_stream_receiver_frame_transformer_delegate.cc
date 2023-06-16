@@ -114,6 +114,18 @@ ssrc_
 ssrc
 )
 {
+metadata_
+.
+SetCsrcs
+(
+frame_
+-
+>
+Csrcs
+(
+)
+)
+;
 }
 ~
 TransformableVideoReceiverFrame
@@ -362,7 +374,6 @@ RtpFrameObject
 >
 frame_
 ;
-const
 VideoFrameMetadata
 metadata_
 ;
