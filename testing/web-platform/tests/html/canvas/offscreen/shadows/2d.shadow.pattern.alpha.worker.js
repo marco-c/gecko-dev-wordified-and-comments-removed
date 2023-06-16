@@ -187,6 +187,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -263,7 +264,6 @@ fillRect
 )
 ;
 }
-t_fail
 )
 ;
 }

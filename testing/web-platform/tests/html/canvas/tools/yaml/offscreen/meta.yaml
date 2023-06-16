@@ -1391,6 +1391,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -1426,7 +1427,6 @@ s
 5
 ;
 }
-t_fail
 )
 ;
 }
@@ -1648,6 +1648,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -1721,7 +1722,6 @@ s
 5
 ;
 }
-t_fail
 )
 ;
 }
@@ -2236,6 +2236,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -2291,7 +2292,6 @@ s
 5
 ;
 }
-t_fail
 )
 ;
 }
@@ -2778,6 +2778,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -2830,7 +2831,6 @@ s
 5
 ;
 }
-t_fail
 )
 ;
 }

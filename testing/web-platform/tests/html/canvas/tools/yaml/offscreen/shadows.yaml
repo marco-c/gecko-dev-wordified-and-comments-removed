@@ -3467,6 +3467,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -3500,7 +3501,6 @@ pixel
 255
 ;
 }
-t_fail
 )
 ;
 }
@@ -3656,6 +3656,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -3689,7 +3690,6 @@ pixel
 255
 ;
 }
-t_fail
 )
 ;
 }
@@ -3866,6 +3866,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -3941,7 +3942,6 @@ pixel
 255
 ;
 }
-t_fail
 )
 ;
 }
@@ -4097,6 +4097,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -4131,7 +4132,6 @@ pixel
 255
 ;
 }
-t_fail
 )
 ;
 }
@@ -4288,6 +4288,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -4352,7 +4353,6 @@ pixel
 255
 ;
 }
-t_fail
 )
 ;
 }
@@ -4506,6 +4506,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -4571,7 +4572,6 @@ pixel
 255
 ;
 }
-t_fail
 )
 ;
 }
@@ -5242,6 +5242,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -5318,7 +5319,6 @@ fillRect
 )
 ;
 }
-t_fail
 )
 ;
 }
@@ -5459,6 +5459,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -5535,7 +5536,6 @@ fillRect
 )
 ;
 }
-t_fail
 )
 ;
 }
@@ -5660,6 +5660,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -5788,7 +5789,6 @@ pixel
 255
 ;
 }
-t_fail
 )
 ;
 }
@@ -5911,6 +5911,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -5987,7 +5988,6 @@ fillRect
 )
 ;
 }
-t_fail
 )
 ;
 }
