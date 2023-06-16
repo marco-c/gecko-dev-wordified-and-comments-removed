@@ -989,6 +989,7 @@ createContext
 =
 createContext
 ;
+async
 function
 selectSource
 (
@@ -1038,6 +1039,7 @@ getState
 )
 )
 ;
+await
 dbg
 .
 actions
@@ -1052,6 +1054,11 @@ source
 line
 }
 )
+{
+keepContext
+:
+false
+}
 )
 ;
 return
