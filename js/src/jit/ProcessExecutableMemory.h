@@ -115,6 +115,7 @@ enum
 class
 ProtectionSetting
 {
+Protected
 Writable
 Executable
 }

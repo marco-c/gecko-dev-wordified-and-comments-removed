@@ -121,17 +121,6 @@ baseline
 -
 eager
 "
-"
--
--
-write
--
-protect
--
-code
-=
-off
-"
 ]
         
 [
@@ -226,17 +215,6 @@ baseline
 -
 eager
 "
-"
--
--
-write
--
-protect
--
-code
-=
-off
-"
 ]
         
 [
@@ -285,17 +263,6 @@ ion
 baseline
 -
 eager
-"
-"
--
--
-write
--
-protect
--
-code
-=
-off
 "
 ]
         
@@ -377,17 +344,6 @@ compartments
 baseline
 -
 eager
-"
-"
--
--
-write
--
-protect
--
-code
-=
-off
 "
 ]
     
