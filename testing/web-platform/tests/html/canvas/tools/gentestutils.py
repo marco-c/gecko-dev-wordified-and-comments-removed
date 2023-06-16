@@ -13,6 +13,8 @@ import
 pathlib
 import
 sys
+import
+textwrap
 try
 :
     
@@ -1626,6 +1628,21 @@ test
 code
 '
 ]
+.
+strip
+(
+)
+)
+    
+code
+=
+textwrap
+.
+indent
+(
+code
+'
+'
 )
     
 expectation_html
