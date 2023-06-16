@@ -186,17 +186,6 @@ USVString
 base
 )
 ;
-static
-boolean
-canParse
-(
-USVString
-url
-optional
-USVString
-base
-)
-;
 [
 SetterThrows
 ]
