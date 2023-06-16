@@ -1013,6 +1013,9 @@ oleaut32
 secur32
 "
 "
+shcore
+"
+"
 strmiids
 "
 "

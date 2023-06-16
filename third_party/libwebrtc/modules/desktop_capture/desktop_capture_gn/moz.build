@@ -1553,6 +1553,9 @@ iphlpapi
 secur32
 "
 "
+shcore
+"
+"
 winmm
 "
 ]
