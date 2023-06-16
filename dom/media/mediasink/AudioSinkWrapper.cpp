@@ -1019,7 +1019,7 @@ AudioStream
 "
 )
 ;
-mAudioSinkEndedPromise
+mAudioSinkEndedRequest
 .
 DisconnectIfExists
 (
@@ -1758,7 +1758,7 @@ OnAudioEnded
 >
 Track
 (
-mAudioSinkEndedPromise
+mAudioSinkEndedRequest
 )
 ;
 }
@@ -1785,7 +1785,7 @@ mAudioSink
 MOZ_ASSERT
 (
 !
-mAudioSinkEndedPromise
+mAudioSinkEndedRequest
 .
 Exists
 (
@@ -2288,7 +2288,7 @@ mAudioEnded
 =
 true
 ;
-mAudioSinkEndedPromise
+mAudioSinkEndedRequest
 .
 DisconnectIfExists
 (
@@ -2417,7 +2417,7 @@ IsResolve
 )
 )
 ;
-mAudioSinkEndedPromise
+mAudioSinkEndedRequest
 .
 Complete
 (

@@ -559,7 +559,7 @@ MozPromiseRequestHolder
 <
 EndedPromise
 >
-mAudioSinkEndedPromise
+mAudioSinkEndedRequest
 ;
 MediaQueue
 <
