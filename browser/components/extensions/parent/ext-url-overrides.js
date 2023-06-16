@@ -205,13 +205,6 @@ newTabControlled
 .
 message2
 "
-learnMoreMessageId
-:
-"
-newTabControlled
-.
-learnMore
-"
 learnMoreLink
 :
 "

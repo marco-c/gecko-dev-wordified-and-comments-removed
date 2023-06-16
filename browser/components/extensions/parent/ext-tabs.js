@@ -289,13 +289,6 @@ image
 )
 ;
 }
-learnMoreMessageId
-:
-"
-tabHideControlled
-.
-learnMore
-"
 learnMoreLink
 :
 "

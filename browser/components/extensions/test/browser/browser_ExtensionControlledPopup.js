@@ -486,13 +486,6 @@ newTabControlled
 .
 message2
 "
-learnMoreMessageId
-:
-"
-newTabControlled
-.
-learnMore
-"
 learnMoreLink
 :
 "
@@ -1031,7 +1024,9 @@ description
 querySelector
 (
 "
-label
+a
+.
+learnMore
 "
 )
 ;
