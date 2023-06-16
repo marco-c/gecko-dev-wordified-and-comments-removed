@@ -513,12 +513,6 @@ syn
 "
 :
 2
-    
-"
-synstructure
-"
-:
-2
 }
 class
 VendorRust

@@ -13,7 +13,7 @@ version
 .
 1
 .
-2
+3
 "
 authors
 =
@@ -81,13 +81,13 @@ syn
 version
 =
 "
-1
+2
 "
 features
 =
 [
 "
-full
+parsing
 "
 ]
 }
@@ -96,5 +96,5 @@ synstructure
 "
 0
 .
-12
+13
 "
