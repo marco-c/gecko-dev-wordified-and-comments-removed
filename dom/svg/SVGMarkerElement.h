@@ -338,10 +338,7 @@ SetOrientToAngle
 (
 DOMSVGAngle
 &
-angle
-ErrorResult
-&
-rv
+aAngle
 )
 ;
 protected

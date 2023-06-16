@@ -269,9 +269,6 @@ setOrientToAuto
 (
 )
 ;
-[
-Throws
-]
 undefined
 setOrientToAngle
 (
