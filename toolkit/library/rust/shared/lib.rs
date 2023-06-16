@@ -84,6 +84,10 @@ cert_storage
 ;
 extern
 crate
+crypto_hash
+;
+extern
+crate
 chardetng_c
 ;
 extern
