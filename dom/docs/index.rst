@@ -44,6 +44,9 @@ index
 navigation
 /
 index
+push
+/
+index
 scriptSecurity
 /
 index
@@ -58,3 +61,4 @@ webIdlBindings
 index
 ioutils_migration
 fedcm
+streams
