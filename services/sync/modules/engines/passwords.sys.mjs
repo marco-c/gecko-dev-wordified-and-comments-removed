@@ -588,9 +588,9 @@ legacyValue
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-reset
+clearUserPref
 (
 this
 .

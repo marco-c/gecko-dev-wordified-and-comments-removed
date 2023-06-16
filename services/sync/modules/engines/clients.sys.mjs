@@ -944,9 +944,9 @@ lastRecordUpload
 return
 Svc
 .
-Prefs
+PrefBranch
 .
-get
+getIntPref
 (
 this
 .
@@ -968,9 +968,9 @@ value
 {
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 this
 .
@@ -4495,9 +4495,9 @@ count
 {
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 prefName
 count
