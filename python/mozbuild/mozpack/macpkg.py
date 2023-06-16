@@ -15,6 +15,10 @@ struct
 import
 zlib
 from
+collections
+import
+namedtuple
+from
 xml
 .
 etree
@@ -22,12 +26,6 @@ etree
 ElementTree
 import
 XML
-from
-mozbuild
-.
-util
-import
-ReadOnlyNamespace
 class
 ZlibFile
 (
@@ -1190,6 +1188,28 @@ result
         
 return
 result
+CpioInfo
+=
+namedtuple
+(
+"
+CpioInfo
+"
+[
+"
+mode
+"
+"
+nlink
+"
+"
+dev
+"
+"
+ino
+"
+]
+)
 def
 uncpio
 (
@@ -1499,7 +1519,7 @@ filesize
         
 yield
 name
-ReadOnlyNamespace
+CpioInfo
 (
 mode
 =
