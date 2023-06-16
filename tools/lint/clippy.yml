@@ -258,6 +258,13 @@ mozannotation_client
 -
 toolkit
 /
+crashreporter
+/
+mozannotation_server
+/
+-
+toolkit
+/
 components
 /
 kvstore

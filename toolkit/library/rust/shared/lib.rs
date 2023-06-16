@@ -401,6 +401,10 @@ extern
 crate
 mozannotation_client
 ;
+extern
+crate
+mozannotation_server
+;
 #
 [
 cfg
