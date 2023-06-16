@@ -2086,13 +2086,13 @@ kotlinx
 -
 coroutines
 -
-android
+test
 :
 1
 .
-6
+7
 .
-4
+1
 "
 androidTestImplementation
 '
