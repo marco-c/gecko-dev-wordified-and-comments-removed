@@ -324,8 +324,6 @@ i
 example
 .
 com
-:
-HSTS
 \
 t
 +

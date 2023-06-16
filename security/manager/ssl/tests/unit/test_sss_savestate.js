@@ -194,8 +194,6 @@ includesubdomains
 preloaded
 .
 test
-:
-HSTS
 "
 ]
 [
@@ -219,8 +217,6 @@ includesubdomains
 preloaded
 .
 test
-:
-HSTS
 "
 ]
 [
@@ -244,8 +240,6 @@ a
 example
 .
 com
-:
-HSTS
 "
 ]
 [
@@ -269,8 +263,6 @@ a
 example
 .
 com
-:
-HSTS
 "
 ]
 [
@@ -294,8 +286,6 @@ b
 example
 .
 com
-:
-HSTS
 "
 ]
 [
@@ -319,8 +309,6 @@ b
 example
 .
 com
-:
-HSTS
 "
 ]
 [
@@ -346,8 +334,6 @@ c
 example
 .
 com
-:
-HSTS
 "
 ]
 [
@@ -373,8 +359,6 @@ c
 example
 .
 com
-:
-HSTS
 "
 ]
 [
@@ -398,8 +382,6 @@ d
 example
 .
 com
-:
-HSTS
 "
 ]
 [
@@ -423,8 +405,6 @@ d
 example
 .
 com
-:
-HSTS
 "
 ]
 [

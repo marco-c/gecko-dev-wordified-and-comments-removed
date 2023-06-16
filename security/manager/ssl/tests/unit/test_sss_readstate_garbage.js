@@ -363,8 +363,6 @@ example1
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -440,8 +438,6 @@ t
 example
 .
 com
-:
-HSTS
 \
 t
 \
@@ -463,8 +459,6 @@ example3
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -485,8 +479,6 @@ example2
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -505,8 +497,6 @@ comma
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -526,8 +516,6 @@ statestring
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -543,8 +531,6 @@ statestring
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -559,8 +545,6 @@ statestring
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -579,8 +563,6 @@ expirytime
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -600,8 +582,6 @@ securitypropertystate
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -620,8 +600,6 @@ securitypropertystate
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -640,8 +618,6 @@ includesubdomains
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -660,8 +636,6 @@ includesubdomains
 example
 .
 com
-:
-HSTS
 \
 t0
 \
