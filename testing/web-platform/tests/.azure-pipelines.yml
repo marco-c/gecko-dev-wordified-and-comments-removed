@@ -282,6 +282,10 @@ safari_stable
 triggers
 /
 safari_preview
+-
+triggers
+/
+wktr_preview
 #
 Set
 safaridriver_diagnose
@@ -5038,12 +5042,15 @@ info
 -
 -
 channel
-main
+experimental
 -
 -
 install
 -
 browser
+-
+-
+yes
 wktr
 displayName
 :
