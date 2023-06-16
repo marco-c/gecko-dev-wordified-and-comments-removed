@@ -5962,6 +5962,8 @@ translations
 -
 manage
 -
+language
+-
 download
 -
 button
@@ -5979,6 +5981,8 @@ deleteButton
 translations
 -
 manage
+-
+language
 -
 delete
 -
