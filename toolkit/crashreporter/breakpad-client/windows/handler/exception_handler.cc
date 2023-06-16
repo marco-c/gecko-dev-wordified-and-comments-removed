@@ -72,13 +72,6 @@ MOZ_PHC
 #
 include
 "
-mozmemory
-.
-h
-"
-#
-include
-"
 replace_malloc_bridge
 .
 h
@@ -3147,14 +3140,6 @@ nullptr
 #
 ifdef
 MOZ_PHC
-if
-(
-!
-jemalloc_is_working
-(
-)
-)
-{
 addr_info
 =
 &
@@ -3172,7 +3157,6 @@ exinfo
 addr_info
 )
 ;
-}
 #
 endif
 if

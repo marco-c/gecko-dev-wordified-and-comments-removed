@@ -241,11 +241,6 @@ void
 jemalloc_ptr_info_t
 *
 )
-MALLOC_DECL
-(
-jemalloc_is_working
-bool
-)
 #
 endif
 #
