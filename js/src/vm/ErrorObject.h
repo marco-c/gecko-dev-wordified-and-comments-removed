@@ -641,6 +641,13 @@ isMagic
 (
 JS_ERROR_WITHOUT_CAUSE
 )
+|
+|
+value
+.
+isPrivateGCThing
+(
+)
 )
 {
 return
