@@ -82,11 +82,6 @@ return
 {
 source
 sourceActor
-sourceId
-:
-source
-.
-id
 sourceActorId
 :
 sourceActor

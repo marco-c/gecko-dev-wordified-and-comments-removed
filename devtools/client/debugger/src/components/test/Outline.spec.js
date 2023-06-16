@@ -513,7 +513,6 @@ startLine
 column
 :
 undefined
-sourceId
 source
 :
 {
@@ -1309,7 +1308,6 @@ line
 column
 :
 undefined
-sourceId
 source
 :
 {

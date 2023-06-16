@@ -916,11 +916,6 @@ toEqual
 (
 {
 source
-sourceId
-:
-source
-.
-id
 line
 :
 7
