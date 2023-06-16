@@ -112,6 +112,11 @@ sys
 .
 mjs
 "
+{
+loadInDevToolsLoader
+:
+false
+}
 )
 .
 ExtensionParent
@@ -152,6 +157,11 @@ sys
 .
 mjs
 "
+{
+loadInDevToolsLoader
+:
+false
+}
 )
 .
 ExtensionProcessScript
@@ -192,6 +202,11 @@ sys
 .
 mjs
 "
+{
+loadInDevToolsLoader
+:
+false
+}
 )
 .
 ExtensionStorageIDB
