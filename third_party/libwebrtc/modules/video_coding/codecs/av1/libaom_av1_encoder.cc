@@ -376,7 +376,7 @@ kRtpTicksPerSecond
 90000
 ;
 constexpr
-float
+double
 kMinimumFrameRate
 =
 1
