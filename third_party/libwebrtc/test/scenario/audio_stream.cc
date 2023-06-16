@@ -1166,17 +1166,6 @@ AUDIO
 ;
 recv_config
 .
-rtp
-.
-extensions
-=
-GetAudioRtpExtensions
-(
-config
-)
-;
-recv_config
-.
 decoder_factory
 =
 decoder_factory

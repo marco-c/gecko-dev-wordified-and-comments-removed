@@ -2100,17 +2100,6 @@ local_ssrc
 =
 local_ssrc
 ;
-recv
-.
-rtp
-.
-extensions
-=
-GetVideoRtpExtensions
-(
-config
-)
-;
 RTC_DCHECK
 (
 !
