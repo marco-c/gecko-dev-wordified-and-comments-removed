@@ -269,6 +269,8 @@ DataRate
 probe_bitrate
 DataRate
 upper_link_capacity
+bool
+in_alr
 )
 ;
 private
@@ -543,6 +545,11 @@ bound_by_upper_link_capacity_when_loss_limited
 =
 false
 ;
+bool
+not_use_acked_rate_in_alr
+=
+false
+;
 }
 ;
 struct
@@ -676,6 +683,8 @@ ChannelParameters
 >
 GetCandidates
 (
+bool
+in_alr
 )
 const
 ;

@@ -3110,6 +3110,11 @@ DataRate
 PlusInfinity
 (
 )
+alr_start_time
+.
+has_value
+(
+)
 )
 ;
 if
