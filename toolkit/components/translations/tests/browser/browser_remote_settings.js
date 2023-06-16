@@ -36,7 +36,7 @@ firefoxFullVersion
 =
 AppConstants
 .
-MOZ_APP_VERSION
+MOZ_APP_VERSION_DISPLAY
 ;
 const
 firefoxMajorVersion
@@ -163,10 +163,10 @@ name
 env
 .
 version
-<
+=
 =
 {
-firefoxMajorVersion
+firefoxFullVersion
 }
 filter_expression
 :
@@ -178,11 +178,11 @@ versionCompare
 (
 '
 {
-firefoxMajorVersion
+firefoxFullVersion
 }
 '
 )
-<
+=
 =
 0
 }
