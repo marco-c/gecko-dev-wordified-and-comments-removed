@@ -65,14 +65,6 @@ FileSystemDataManager
 class
 FileSystemFileManager
 ;
-using
-FileSystemConnection
-=
-fs
-:
-:
-ResultConnection
-;
 class
 FileSystemDatabaseManagerVersion001
 :
