@@ -631,14 +631,13 @@ ok
 (
 getBreakpoint
 (
+createLocation
+(
 {
-sourceId
-:
 source
-.
-id
 line
 }
+)
 )
 "
 Breakpoint
