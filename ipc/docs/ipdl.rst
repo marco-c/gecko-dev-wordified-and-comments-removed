@@ -2143,9 +2143,7 @@ code
 block
 :
 :
-c
-+
-+
+python
 IPDL_SOURCES
 +
 =
@@ -2261,9 +2259,6 @@ code
 block
 :
 :
-c
-+
-+
 c
 :
 /
@@ -4864,7 +4859,8 @@ AnotherMsg
 MyActorEnum
 aEnum
 int32_t
-aNumber
+a
+number
 )
 returns
 (
@@ -10182,7 +10178,8 @@ Tainted
 int32_t
 >
 &
-aNumber
+a
+number
 AnotherMsgResolver
 &
 &
@@ -10620,7 +10617,8 @@ MyActorEnum
 &
 aEnum
 int32_t
-aNumber
+a
+number
 )
 ;
 /
@@ -10652,7 +10650,8 @@ MyActorEnum
 &
 aEnum
 int32_t
-aNumber
+a
+number
 ResolveCallback
 <
 MyOtherData
