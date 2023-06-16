@@ -748,3 +748,14 @@ Firefox
 Http3
 "
 )
+HTTP_ATOM
+(
+X_Frame_Options
+"
+X
+-
+Frame
+-
+Options
+"
+)
