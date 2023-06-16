@@ -1457,12 +1457,6 @@ configuration
 DOMString
 jsepSessionErrors
 ;
-DOMString
-localSdp
-;
-DOMString
-remoteSdp
-;
 /
 /
 TODO
