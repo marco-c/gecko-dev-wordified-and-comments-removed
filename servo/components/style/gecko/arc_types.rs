@@ -140,7 +140,8 @@ addref
 (
 obj
 :
-&
+*
+const
 ty
 )
 {
@@ -177,7 +178,8 @@ release
 (
 obj
 :
-&
+*
+const
 ty
 )
 {
