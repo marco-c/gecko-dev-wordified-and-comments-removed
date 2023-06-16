@@ -327,6 +327,7 @@ devPixelsPerPx
 0
 "
 )
+;
 user_pref
 (
 "
@@ -340,6 +341,7 @@ threads
 "
 4
 )
+;
 user_pref
 (
 "
