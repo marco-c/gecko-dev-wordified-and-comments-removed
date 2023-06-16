@@ -14281,6 +14281,7 @@ GetChannelCreationURI
 mChannel
 aReferrerPolicy
 aCSPHeader
+this
 )
 ;
 return
