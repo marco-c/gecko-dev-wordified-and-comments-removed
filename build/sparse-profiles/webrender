@@ -33,3 +33,9 @@ scripts
 /
 misc
 /
+path
+:
+xpcom
+/
+rust
+/
