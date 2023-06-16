@@ -71,9 +71,6 @@ filter_v
 3
 ]
 ;
-uint8_t
-sgr_idx
-;
 int8_t
 sgr_weights
 [

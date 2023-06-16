@@ -250,9 +250,9 @@ version
 '
 1
 .
-1
+2
 .
-0
+1
 '
 default_options
 :
@@ -297,7 +297,7 @@ dav1d_soname_version
 '
 6
 .
-8
+9
 .
 0
 '

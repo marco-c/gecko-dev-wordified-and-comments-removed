@@ -667,8 +667,8 @@ clip_20b_max
 :
 dd
 0x7ffff
+const
 idct64_mul_16bpc
-:
 dd
 4095
 101

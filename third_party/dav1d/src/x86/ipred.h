@@ -385,12 +385,6 @@ ipred_smooth_v
 ssse3
 )
 ;
-#
-if
-BITDEPTH
-=
-=
-8
 init_angular_ipred_fn
 (
 Z1_PRED
@@ -412,8 +406,6 @@ ipred_z3
 ssse3
 )
 ;
-#
-endif
 init_angular_ipred_fn
 (
 FILTER_PRED

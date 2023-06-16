@@ -675,10 +675,6 @@ have_seq_hdr
 {
 Dav1dSequenceHeader
 seq
-=
-{
-0
-}
 ;
 int
 err
