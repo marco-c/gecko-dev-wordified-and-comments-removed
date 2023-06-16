@@ -714,7 +714,6 @@ mochi
 .
 test
 /
-redirect
 }
 {
 heuristic
@@ -744,6 +743,7 @@ mochi
 .
 test
 /
+redirect
 }
 ]
 )
