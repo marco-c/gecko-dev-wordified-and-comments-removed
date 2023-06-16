@@ -254,10 +254,6 @@ is
 available
 ]
 (
-running
--
-tests
-/
 chrome
 -
 chromium
