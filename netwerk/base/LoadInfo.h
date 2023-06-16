@@ -133,6 +133,9 @@ namespace
 net
 {
 class
+EarlyHintPreloader
+;
+class
 LoadInfoArgs
 ;
 class
@@ -959,6 +962,16 @@ class
 :
 :
 nsDocShell
+;
+friend
+class
+mozilla
+:
+:
+net
+:
+:
+EarlyHintPreloader
 ;
 void
 UpdateBrowsingContextID

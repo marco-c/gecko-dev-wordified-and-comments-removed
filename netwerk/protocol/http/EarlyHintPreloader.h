@@ -289,6 +289,8 @@ const
 nsACString
 &
 aCSPHeader
+uint64_t
+aBrowsingContextID
 )
 ;
 bool
@@ -411,6 +413,8 @@ aReferrerInfo
 nsICookieJarSettings
 *
 aCookieJarSettings
+uint64_t
+aBrowsingContextID
 )
 ;
 void
