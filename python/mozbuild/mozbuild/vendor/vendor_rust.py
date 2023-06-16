@@ -3375,15 +3375,13 @@ ret
 def
 vendor
 (
-        
 self
 ignore_modified
 =
 False
-build_peers_said_large_imports_were_ok
+force
 =
 False
-    
 )
 :
         
@@ -4955,6 +4953,9 @@ True
         
 if
 failed
+and
+not
+force
 :
             
 return
@@ -5329,6 +5330,9 @@ _check_licenses
 (
 vendor_dir
 )
+and
+not
+force
 :
             
 self
@@ -5477,9 +5481,6 @@ f
         
 if
 large_files
-and
-not
-build_peers_said_large_imports_were_ok
 :
             
 self
@@ -5627,6 +5628,11 @@ clean_directory
 vendor_dir
 )
             
+if
+not
+force
+:
+                
 return
 False
         
