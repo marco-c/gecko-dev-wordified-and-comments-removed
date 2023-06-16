@@ -31,15 +31,6 @@ platform_thread
 .
 h
 "
-#
-include
-"
-build
-/
-build_config
-.
-h
-"
 class
 Lock
 {

@@ -12,15 +12,6 @@ stdarg
 h
 >
 #
-include
-"
-build
-/
-build_config
-.
-h
-"
-#
 ifdef
 _MSC_VER
 #

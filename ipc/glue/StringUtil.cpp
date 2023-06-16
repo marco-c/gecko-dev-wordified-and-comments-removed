@@ -35,15 +35,6 @@ string_util
 h
 "
 #
-include
-"
-build
-/
-build_config
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

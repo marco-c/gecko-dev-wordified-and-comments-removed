@@ -5,15 +5,6 @@ BASE_PLATFORM_FILE_H_
 define
 BASE_PLATFORM_FILE_H_
 #
-include
-"
-build
-/
-build_config
-.
-h
-"
-#
 if
 defined
 (
