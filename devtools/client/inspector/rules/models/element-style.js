@@ -1162,8 +1162,16 @@ important
 "
 &
 &
-!
 computedProp
+.
+textProp
+.
+rule
+.
+inherited
+=
+=
+earlier
 .
 textProp
 .
