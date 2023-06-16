@@ -648,7 +648,7 @@ CSSCoord
 ComputeRayUsedDistance
 (
 const
-RayFunction
+StyleRayFunction
 &
 aRay
 const
@@ -1457,6 +1457,7 @@ OffsetPathData
 :
 Ray
 (
+*
 path
 .
 AsRay
@@ -1717,6 +1718,7 @@ OffsetPathData
 :
 Ray
 (
+*
 aPath
 .
 AsRay

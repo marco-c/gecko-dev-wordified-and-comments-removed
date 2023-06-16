@@ -465,14 +465,6 @@ ByteBuf
 output
 )
 ;
-using
-RayFunction
-=
-StyleRayFunction
-<
-StyleAngle
->
-;
 BASIC_SERDE_FUNCS
 (
 LengthPercentage
