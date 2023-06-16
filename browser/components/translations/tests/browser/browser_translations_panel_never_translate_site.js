@@ -496,7 +496,7 @@ assertTranslationsButton
 {
 button
 :
-true
+false
 }
 "
 The
@@ -1292,7 +1292,7 @@ assertTranslationsButton
 {
 button
 :
-true
+false
 }
 "
 The

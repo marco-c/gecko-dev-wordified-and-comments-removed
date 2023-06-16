@@ -2507,11 +2507,15 @@ mjs
 events
 :
 {
-pagehide
+pageshow
 :
 {
 }
-pageshow
+DOMHeadElementParsed
+:
+{
+}
+DOMDocElementInserted
 :
 {
 }

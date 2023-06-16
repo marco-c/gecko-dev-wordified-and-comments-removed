@@ -23724,7 +23724,7 @@ gBrowser
 .
 currentURI
 .
-scheme
+spec
 )
 )
 {

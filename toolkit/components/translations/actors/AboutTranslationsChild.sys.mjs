@@ -1092,8 +1092,6 @@ getTranslationsChild
 )
 .
 isTranslationsEngineSupported
-(
-)
 )
 ;
 }
