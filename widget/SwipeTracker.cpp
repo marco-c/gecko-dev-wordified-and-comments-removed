@@ -1099,11 +1099,11 @@ FlushType
 Style
 )
 ;
-}
 mRegisteredWithRefreshDriver
 =
 false
 ;
+}
 }
 WidgetSimpleGestureEvent
 SwipeTracker
