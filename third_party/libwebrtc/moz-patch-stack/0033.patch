@@ -287,10 +287,10 @@ device_info_linux
 .
 cc
 index
-9c12b2183e
+56da475bf3
 .
 .
-4821cbccd5
+cae63c7c2d
 100644
 -
 -
@@ -632,10 +632,10 @@ video_capture_linux
 .
 cc
 index
-4895a1ab71
+23a8f4f3f3
 .
 .
-f3324a8e68
+b2c206d775
 100644
 -
 -
