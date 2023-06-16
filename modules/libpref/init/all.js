@@ -3867,17 +3867,6 @@ pref
 "
 accessibility
 .
-usetexttospeech
-"
-"
-"
-)
-;
-pref
-(
-"
-accessibility
-.
 typeaheadfind
 "
 true
