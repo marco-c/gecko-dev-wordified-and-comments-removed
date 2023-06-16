@@ -963,6 +963,8 @@ GetEncoderInfo
 (
 )
 const
+=
+0
 ;
 }
 ;

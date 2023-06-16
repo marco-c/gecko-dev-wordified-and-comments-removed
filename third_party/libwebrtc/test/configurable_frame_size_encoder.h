@@ -196,6 +196,13 @@ parameters
 )
 override
 ;
+EncoderInfo
+GetEncoderInfo
+(
+)
+const
+override
+;
 int32_t
 SetFrameSize
 (
