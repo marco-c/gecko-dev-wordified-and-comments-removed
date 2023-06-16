@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-cce00501451ce9d755f08501dad6c4b33b2bab2b
+c6a838a2bce41e63a15a99d9831b0eb75a4f8395
 '
 #
 Fetch
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-a77d8fe58e62b8e4f65408cb66217896707f24a4
+146f709b33b8d58af0241ab8bea83bbdaa63fd86
 '
 '
 src
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-dfad7173d7429628cef470744dcccfa16ff8cee2
+7f97028c5370e5df676bd53a37a1afc907136f16
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-4d7e94b7ae8a3b852e1cab3fd7c34effaa0b5003
+166db27fd0d53afc0c716b1ae9c15725e380871f
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-f73bea5c47f409b7daee09c7b57ff6eec1673c3d
+4578a3fe755e4149b12f906d88e503401105571a
 '
 '
 src
@@ -1710,7 +1710,7 @@ third_party
 freetype2
 .
 git
-0eca6ead82b4e6f739b57e49a3029d0b31fd1652
+bbfcd79eacb4985d4b68783565f4b494aa64516b
 '
 '
 src
@@ -1955,7 +1955,7 @@ deps
 icu
 .
 git
-266a46937f05303da1ac4c68f2c94f9a1caa3f76
+c6b68522318204f795a8f04caebf6c0beb679cc4
 '
 }
 '
@@ -2532,7 +2532,7 @@ external
 perfetto
 .
 git
-1046bf928b4441cb79549691d76eeabec48e7274
+58600633967db2ab113cf205eb2be6b76aef97d4
 '
 '
 src
@@ -2778,9 +2778,7 @@ version
 '
 :
 '
-CNzcoXA0246FgCmus3Uk0w
--
-NXoGjqjHku8jocP5AcuUC
+EzD88AUfNs2DWG8ytv86PmRrgkNmeLLaiQOrNNLUWwAC
 '
 }
 ]
@@ -2964,7 +2962,7 @@ chromium
 src
 /
 tools
-ad17ea6930f1b2b4cce75108ba3594d1bc955e11
+04e6a398f0e9eda0297a1154edc7f50fde75bf36
 '
 '
 src
@@ -3346,11 +3344,11 @@ version
 '
 :
 '
-j8ODeb19OPYNvR6IH59xZ0BX66U8NNWdnyl
+sqHSBvyXtC4EY8qIZO
 -
-IOL6
+IN73yr3to_kvN
 -
-ikC
+gNZ_CfZzJgC
 '
 }
 ]
