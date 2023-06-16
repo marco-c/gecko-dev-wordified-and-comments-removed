@@ -4094,12 +4094,6 @@ off
 ;
 if
 (
-FormAutofill
-.
-isAutofillCreditCardsAvailable
-&
-&
-(
 !
 isAutoCompleteOff
 |
@@ -4107,7 +4101,6 @@ isAutoCompleteOff
 FormAutofill
 .
 creditCardsAutocompleteOff
-)
 )
 {
 fieldNames
@@ -4125,12 +4118,6 @@ CREDIT_CARD_FIELDNAMES
 }
 if
 (
-FormAutofill
-.
-isAutofillAddressesAvailable
-&
-&
-(
 !
 isAutoCompleteOff
 |
@@ -4138,7 +4125,6 @@ isAutoCompleteOff
 FormAutofill
 .
 addressesAutocompleteOff
-)
 )
 {
 fieldNames
