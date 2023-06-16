@@ -184,6 +184,14 @@ JSMathFdlibm
 )
 ITEM_VALUE
 (
+Gamepad
+1u
+<
+<
+23
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

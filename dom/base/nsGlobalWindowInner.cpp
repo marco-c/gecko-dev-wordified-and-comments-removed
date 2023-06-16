@@ -23131,6 +23131,10 @@ GetBlockingAll
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 )
 ;
@@ -31884,6 +31888,10 @@ if
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Gamepad
 )
 )
 {
