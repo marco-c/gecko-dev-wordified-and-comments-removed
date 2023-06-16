@@ -4613,6 +4613,7 @@ forget
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 already_AddRefed
 <
 ReadableStream
@@ -4725,6 +4726,7 @@ forget
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ReadableStream
 :

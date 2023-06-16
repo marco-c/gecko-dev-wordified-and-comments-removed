@@ -360,7 +360,6 @@ WebTransport
 aWebTransport
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Init
 (
@@ -495,6 +494,20 @@ const
 {
 return
 mOutgoingMaxDataSize
+;
+}
+void
+SetMaxDatagramSize
+(
+const
+uint64_t
+&
+aMaxDatagramSize
+)
+{
+mOutgoingMaxDataSize
+=
+aMaxDatagramSize
 ;
 }
 double
@@ -658,7 +671,7 @@ mOutgoingHighWaterMark
 .
 0
 ;
-int64_t
+uint64_t
 mOutgoingMaxDataSize
 =
 1024

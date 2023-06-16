@@ -557,7 +557,6 @@ JSObject
 aReturnObject
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
@@ -592,7 +591,6 @@ aRv
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpByteNative
 (
@@ -617,7 +615,6 @@ aRv
 ;
 public
 :
-MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <

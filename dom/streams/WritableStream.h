@@ -677,7 +677,6 @@ aReturnObject
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpNative
 (
@@ -702,7 +701,6 @@ aRv
 ;
 public
 :
-MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
