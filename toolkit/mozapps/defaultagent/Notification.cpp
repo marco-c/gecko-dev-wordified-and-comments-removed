@@ -2690,6 +2690,8 @@ const
 wchar_t
 *
 aumi
+bool
+force
 )
 {
 NotificationActivities
@@ -2754,9 +2756,13 @@ if
 (
 !
 initialNotificationShown
+|
+|
+force
 )
 {
 if
+(
 (
 browserInfo
 .
@@ -2778,6 +2784,10 @@ Browser
 :
 :
 Firefox
+)
+|
+|
+force
 )
 {
 return

@@ -67,6 +67,8 @@ const
 wchar_t
 *
 aumi
+bool
+force
 )
 ;
 std
