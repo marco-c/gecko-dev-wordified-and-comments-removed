@@ -2748,6 +2748,11 @@ case
 removeLogin
 "
 :
+case
+"
+importLogins
+"
+:
 this
 .
 score
