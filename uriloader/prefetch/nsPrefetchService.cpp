@@ -179,13 +179,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 nsIAsyncVerifyRedirectCallback
 .
 h
@@ -681,9 +674,9 @@ httpChannel
 SetRequestHeader
 (
 "
-X
+Sec
 -
-Moz
+Purpose
 "
 _ns
 "
@@ -1437,9 +1430,9 @@ httpChannel
 SetRequestHeader
 (
 "
-X
+Sec
 -
-Moz
+Purpose
 "
 _ns
 "
