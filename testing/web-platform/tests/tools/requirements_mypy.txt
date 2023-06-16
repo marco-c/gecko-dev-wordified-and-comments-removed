@@ -79,7 +79,7 @@ PyYAML
 .
 12
 .
-9
+10
 types
 -
 requests
