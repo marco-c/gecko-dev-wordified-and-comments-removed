@@ -63,6 +63,7 @@ waitForMigrationWizard
 window
 )
 ;
+await
 SMATestUtils
 .
 executeAndValidateAction
@@ -121,6 +122,7 @@ waitForMigrationWizard
 window
 )
 ;
+await
 SMATestUtils
 .
 executeAndValidateAction
