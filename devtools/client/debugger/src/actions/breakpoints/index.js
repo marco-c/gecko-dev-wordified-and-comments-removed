@@ -899,11 +899,6 @@ createLocation
 source
 :
 selectedSource
-sourceUrl
-:
-selectedSource
-.
-url
 line
 }
 )
@@ -969,11 +964,6 @@ createLocation
 (
 {
 source
-sourceUrl
-:
-source
-.
-url
 column
 :
 undefined

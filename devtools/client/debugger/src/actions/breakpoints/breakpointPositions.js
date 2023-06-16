@@ -342,11 +342,6 @@ line
 )
 column
 source
-sourceUrl
-:
-source
-.
-url
 }
 )
 )

@@ -71,10 +71,6 @@ line
 =
 0
 column
-sourceUrl
-=
-"
-"
 }
 )
 {
@@ -90,7 +86,6 @@ sourceActor
 id
 line
 column
-sourceUrl
 }
 ;
 }
@@ -120,11 +115,6 @@ column
 location
 .
 column
-sourceUrl
-:
-location
-.
-sourceUrl
 }
 ;
 }
@@ -360,11 +350,6 @@ createLocation
 .
 location
 source
-sourceUrl
-:
-source
-.
-url
 }
 )
 ;

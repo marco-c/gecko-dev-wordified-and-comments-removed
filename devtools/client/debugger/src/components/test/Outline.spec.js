@@ -526,10 +526,6 @@ null
 sourceActorId
 :
 undefined
-sourceUrl
-:
-"
-"
 }
 )
 ;
@@ -1321,10 +1317,6 @@ null
 sourceActorId
 :
 undefined
-sourceUrl
-:
-"
-"
 }
 )
 ;

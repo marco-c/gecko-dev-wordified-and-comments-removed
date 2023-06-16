@@ -212,7 +212,9 @@ breakpoint
 .
 location
 .
-sourceUrl
+source
+.
+url
 replacedSource
 .
 url
@@ -452,7 +454,9 @@ breakpoint
 .
 location
 .
-sourceUrl
+source
+.
+url
 newSource
 .
 url
