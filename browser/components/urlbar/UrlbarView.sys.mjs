@@ -22793,10 +22793,8 @@ isConnected
 {
 this
 .
-#
-selectElement
+clearSelection
 (
-null
 )
 ;
 }

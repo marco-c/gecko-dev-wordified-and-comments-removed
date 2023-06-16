@@ -2479,7 +2479,7 @@ topSites
 pageProxyState
 :
 "
-invalid
+valid
 "
 value
 :
