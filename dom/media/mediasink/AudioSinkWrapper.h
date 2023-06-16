@@ -90,8 +90,10 @@ std
 :
 function
 <
+UniquePtr
+<
 AudioSink
-*
+>
 (
 )
 >
