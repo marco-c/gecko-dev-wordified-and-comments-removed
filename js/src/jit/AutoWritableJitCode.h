@@ -122,6 +122,9 @@ addr_
 size_t
 size_
 ;
+AutoMarkJitCodeWritableForThread
+writableForThread_
+;
 public
 :
 AutoWritableJitCodeFallible

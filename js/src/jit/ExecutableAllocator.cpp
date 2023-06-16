@@ -1270,6 +1270,10 @@ isMarked
 }
 #
 endif
+{
+AutoMarkJitCodeWritableForThread
+writable
+;
 for
 (
 size_t
@@ -1391,6 +1395,7 @@ i
 size
 )
 ;
+}
 }
 for
 (

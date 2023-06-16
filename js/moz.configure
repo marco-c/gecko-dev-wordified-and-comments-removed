@@ -2904,6 +2904,16 @@ MOZ_AARCH64_JSCVT
 "
 aarch64_jscvt
 )
+set_define
+(
+"
+JS_USE_APPLE_FAST_WX
+"
+True
+when
+=
+is_apple_silicon
+)
 depends
 (
 js_standalone
