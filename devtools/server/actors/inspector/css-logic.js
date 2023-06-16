@@ -1365,7 +1365,7 @@ element
 =
 element
 .
-parentNode
+flattenedTreeParentNode
 )
 &
 &
@@ -1848,7 +1848,7 @@ element
 =
 element
 .
-parentNode
+flattenedTreeParentNode
 )
 &
 &
