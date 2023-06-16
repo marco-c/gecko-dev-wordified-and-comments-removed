@@ -139,6 +139,13 @@ sys
 mjs
 "
 "
+RemoteSettings
+.
+worker
+.
+mjs
+"
+"
 RemoteSettingsClient
 .
 sys
@@ -151,11 +158,6 @@ RemoteSettingsComponents
 sys
 .
 mjs
-"
-"
-RemoteSettingsWorker
-.
-js
 "
 "
 RemoteSettingsWorker

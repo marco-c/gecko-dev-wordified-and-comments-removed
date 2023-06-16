@@ -460,6 +460,13 @@ ChromeWorker
 this
 .
 source
+{
+type
+:
+"
+module
+"
+}
 )
 ;
 this
@@ -1553,9 +1560,11 @@ services
 -
 settings
 /
-RemoteSettingsWorker
+RemoteSettings
 .
-js
+worker
+.
+mjs
 "
 )
 ;
