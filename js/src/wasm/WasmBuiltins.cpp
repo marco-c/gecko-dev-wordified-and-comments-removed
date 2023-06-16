@@ -10732,11 +10732,11 @@ realm
 )
 -
 >
-behaviors
+creationOptions
 (
 )
 .
-shouldResistFingerprinting
+alwaysUseFdlibm
 (
 )
 )

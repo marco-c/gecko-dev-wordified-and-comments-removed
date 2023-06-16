@@ -2253,7 +2253,7 @@ timeZoneId
 DateTimeInfo
 :
 :
-shouldRFP
+forceUTC
 (
 cx
 -
@@ -2375,7 +2375,7 @@ getRawOffsetMs
 DateTimeInfo
 :
 :
-shouldRFP
+forceUTC
 (
 cx
 -
@@ -2541,7 +2541,7 @@ timeZoneId
 DateTimeInfo
 :
 :
-shouldRFP
+forceUTC
 (
 cx
 -

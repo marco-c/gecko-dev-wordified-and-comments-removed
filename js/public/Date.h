@@ -371,7 +371,6 @@ double
 )
 (
 double
-bool
 JSContext
 *
 )

@@ -15,7 +15,7 @@ g
 newGlobal
 (
 {
-shouldResistFingerprinting
+alwaysUseFdlibm
 :
 true
 }

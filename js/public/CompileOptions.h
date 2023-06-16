@@ -306,7 +306,7 @@ forceStrictMode_
 false
 ;
 bool
-shouldResistFingerprinting_
+alwaysUseFdlibm_
 =
 false
 ;
@@ -515,13 +515,13 @@ mutedErrors_
 ;
 }
 bool
-shouldResistFingerprinting
+alwaysUseFdlibm
 (
 )
 const
 {
 return
-shouldResistFingerprinting_
+alwaysUseFdlibm_
 ;
 }
 bool
@@ -780,7 +780,7 @@ forceStrictMode_
 ;
 PrintFields_
 (
-shouldResistFingerprinting_
+alwaysUseFdlibm_
 )
 ;
 PrintFields_
