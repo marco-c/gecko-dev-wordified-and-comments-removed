@@ -4419,7 +4419,11 @@ equal
 (
 detail
 .
-element
+elementWeakRef
+.
+get
+(
+)
 testCaseDetails
 [
 index
@@ -4427,7 +4431,7 @@ index
 .
 elementWeakRef
 .
-deref
+get
 (
 )
 "
@@ -4575,8 +4579,9 @@ field
 .
 elementWeakRef
 =
-new
-WeakRef
+Cu
+.
+getWeakReference
 (
 elementRef
 )

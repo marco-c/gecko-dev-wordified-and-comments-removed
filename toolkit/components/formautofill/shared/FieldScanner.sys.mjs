@@ -373,8 +373,9 @@ this
 .
 elementWeakRef
 =
-new
-WeakRef
+Cu
+.
+getWeakReference
 (
 element
 )
@@ -468,7 +469,7 @@ this
 .
 elementWeakRef
 .
-deref
+get
 (
 )
 ;
@@ -635,8 +636,9 @@ this
 #
 elementsWeakRef
 =
-new
-WeakRef
+Cu
+.
+getWeakReference
 (
 elements
 )
@@ -661,7 +663,7 @@ this
 #
 elementsWeakRef
 .
-deref
+get
 (
 )
 ;

@@ -7241,7 +7241,11 @@ element
 =
 field
 .
-element
+elementWeakRef
+.
+get
+(
+)
 ;
 if
 (

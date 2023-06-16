@@ -1740,7 +1740,11 @@ _markAsAutofillField
 (
 detail
 .
-element
+elementWeakRef
+.
+get
+(
+)
 )
 )
 ;
