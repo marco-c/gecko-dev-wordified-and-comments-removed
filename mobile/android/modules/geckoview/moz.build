@@ -48,7 +48,9 @@ mjs
 "
 GeckoViewAutocomplete
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewAutofill
