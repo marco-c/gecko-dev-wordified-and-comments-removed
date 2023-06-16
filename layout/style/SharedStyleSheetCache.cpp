@@ -715,13 +715,6 @@ SetComplete
 (
 )
 ;
-data
--
->
-ScheduleLoadEventIfNeeded
-(
-)
-;
 }
 else
 if
@@ -771,6 +764,13 @@ mSheet
 ;
 }
 }
+data
+-
+>
+ScheduleLoadEventIfNeeded
+(
+)
+;
 aDatasToNotify
 .
 AppendElement
