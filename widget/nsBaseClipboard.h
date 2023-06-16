@@ -405,6 +405,8 @@ virtual
 nsBaseClipboard
 (
 )
+=
+default
 ;
 NS_IMETHOD
 GetNativeClipboardData
