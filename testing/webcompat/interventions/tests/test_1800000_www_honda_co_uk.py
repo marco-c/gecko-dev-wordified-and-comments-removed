@@ -1,4 +1,6 @@
 import
+time
+import
 pytest
 from
 webdriver
@@ -124,6 +126,15 @@ client
 await_element_hidden
 (
 cookies
+)
+    
+time
+.
+sleep
+(
+0
+.
+5
 )
     
 down
