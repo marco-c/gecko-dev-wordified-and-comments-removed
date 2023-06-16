@@ -578,7 +578,7 @@ action
 let
 menuId
 =
-menu_
+menubar_menu_
 {
 sidebarActionId
 }

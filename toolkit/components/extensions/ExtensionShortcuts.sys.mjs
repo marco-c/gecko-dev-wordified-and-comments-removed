@@ -2562,9 +2562,11 @@ SidebarUI
 updateShortcut
 (
 {
-key
+keyId
 :
 sidebarKey
+.
+id
 }
 )
 ;
