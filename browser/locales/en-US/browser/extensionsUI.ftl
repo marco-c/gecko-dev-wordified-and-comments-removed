@@ -53,16 +53,6 @@ MPL
 0
 /
 .
-webext
--
-perms
--
-learn
--
-more
-=
-Learn
-more
 #
 Variables
 :
