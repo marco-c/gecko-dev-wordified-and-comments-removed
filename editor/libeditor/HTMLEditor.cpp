@@ -11513,6 +11513,7 @@ inspect
 (
 )
 .
+template
 AtSplitPoint
 <
 EditorDOMPoint
