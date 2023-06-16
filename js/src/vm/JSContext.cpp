@@ -2355,6 +2355,10 @@ report
 -
 >
 filename
+.
+c_str
+(
+)
 )
 ;
 }
@@ -3540,6 +3544,10 @@ note
 -
 >
 filename
+.
+c_str
+(
+)
 )
 {
 JS
