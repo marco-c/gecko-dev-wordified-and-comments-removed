@@ -3332,7 +3332,7 @@ inspect
 (
 )
 .
-IsSet
+IsSetAndValid
 (
 )
 )
