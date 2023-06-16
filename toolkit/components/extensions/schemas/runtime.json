@@ -2308,7 +2308,7 @@ implement
 surveys
 .
 Maximum
-255
+1023
 characters
 .
 "
@@ -2348,7 +2348,7 @@ true
 maxLength
 "
 :
-255
+1023
 "
 description
 "
