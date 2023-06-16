@@ -4663,8 +4663,6 @@ aInLength
 bArg
 "
 :
--
-[
 "
 u
 "
