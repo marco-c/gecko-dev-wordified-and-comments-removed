@@ -865,11 +865,6 @@ Regular
 )
 ;
 void
-Reset
-(
-)
-;
-void
 SetVolume
 (
 double
