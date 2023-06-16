@@ -13,7 +13,7 @@ Parser
 ]
 #
 [
-command
+clap
 (
 author
 version
@@ -28,7 +28,7 @@ Cli
 {
 #
 [
-arg
+clap
 (
 short
 long

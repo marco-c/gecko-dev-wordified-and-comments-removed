@@ -1,4 +1,7 @@
 mod
+arg_enum
+;
+mod
 args
 ;
 mod
@@ -10,9 +13,6 @@ parser
 mod
 subcommand
 ;
-mod
-value_enum
-;
 pub
 use
 self
@@ -22,6 +22,13 @@ parser
 :
 :
 derive_parser
+;
+pub
+use
+arg_enum
+:
+:
+derive_arg_enum
 ;
 pub
 use
@@ -36,11 +43,4 @@ subcommand
 :
 :
 derive_subcommand
-;
-pub
-use
-value_enum
-:
-:
-derive_value_enum
 ;

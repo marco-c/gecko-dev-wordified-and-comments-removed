@@ -96,9 +96,9 @@ stdout
 )
 "
 {
-err
 }
 "
+err
 )
 .
 map_err
@@ -197,6 +197,7 @@ cli
 .
 try_get_matches_from
 (
+&
 args
 )
 .
@@ -411,6 +412,10 @@ cli
 -
 >
 Command
+<
+'
+static
+>
 {
 const
 PARSER_TEMPLATE

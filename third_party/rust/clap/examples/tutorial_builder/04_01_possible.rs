@@ -43,7 +43,7 @@ in
 "
 )
 .
-value_parser
+possible_values
 (
 [
 "
@@ -63,12 +63,7 @@ get_matches
 match
 matches
 .
-get_one
-:
-:
-<
-String
->
+value_of
 (
 "
 MODE
@@ -91,10 +86,6 @@ if
 its
 missing
 "
-)
-.
-as_str
-(
 )
 {
 "

@@ -112,12 +112,7 @@ is
 "
 sub_matches
 .
-get_one
-:
-:
-<
-String
->
+value_of
 (
 "
 NAME

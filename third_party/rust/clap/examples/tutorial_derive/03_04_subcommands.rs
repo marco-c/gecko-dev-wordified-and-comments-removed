@@ -16,7 +16,7 @@ Parser
 ]
 #
 [
-command
+clap
 (
 author
 version
@@ -28,7 +28,7 @@ None
 ]
 #
 [
-command
+clap
 (
 propagate_version
 =
@@ -40,7 +40,7 @@ Cli
 {
 #
 [
-command
+clap
 (
 subcommand
 )
@@ -114,11 +114,11 @@ name
 is
 :
 {
-name
 :
 ?
 }
 "
+name
 )
 }
 }

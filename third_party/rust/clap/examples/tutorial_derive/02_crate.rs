@@ -13,7 +13,7 @@ Parser
 ]
 #
 [
-command
+clap
 (
 author
 version
@@ -28,7 +28,7 @@ Cli
 {
 #
 [
-arg
+clap
 (
 long
 )
@@ -38,7 +38,7 @@ two
 String
 #
 [
-arg
+clap
 (
 long
 )
