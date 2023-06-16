@@ -158,6 +158,8 @@ nsAString
 &
 aValue
 bool
+aIsCropped
+bool
 aNotify
 )
 ;
@@ -181,6 +183,11 @@ dom
 Text
 >
 mTextNode
+;
+bool
+mCropped
+=
+false
 ;
 }
 ;
