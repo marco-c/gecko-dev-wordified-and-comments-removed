@@ -11665,6 +11665,7 @@ gBrowser
 .
 contentPrincipal
 null
+false
 )
 ;
 }

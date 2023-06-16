@@ -11103,6 +11103,7 @@ speculativeConnect
 searchURI
 principal
 callbacks
+false
 )
 ;
 }
@@ -11192,6 +11193,7 @@ speculativeConnect
 suggestURI
 principal
 callbacks
+false
 )
 ;
 }

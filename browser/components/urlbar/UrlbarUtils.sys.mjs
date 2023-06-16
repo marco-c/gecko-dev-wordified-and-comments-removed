@@ -4982,6 +4982,7 @@ gBrowser
 .
 contentPrincipal
 null
+false
 )
 ;
 }

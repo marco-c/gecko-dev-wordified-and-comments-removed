@@ -3246,6 +3246,7 @@ SpeculativeConnect
 targetURI
 principal
 nullptr
+false
 )
 ;
 if
@@ -5772,6 +5773,7 @@ SpeculativeConnect
 uri
 principal
 this
+false
 )
 ;
 predicted
