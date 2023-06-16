@@ -2028,9 +2028,9 @@ Weave
 .
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 "
 scheduler
@@ -2046,9 +2046,9 @@ Weave
 .
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 "
 scheduler
@@ -2064,9 +2064,9 @@ Weave
 .
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 "
 scheduler
@@ -2082,9 +2082,9 @@ Weave
 .
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 "
 syncThreshold
