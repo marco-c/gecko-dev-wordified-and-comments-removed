@@ -15,7 +15,6 @@ TmpD
 "
 [
 ]
-true
 )
 ;
 let

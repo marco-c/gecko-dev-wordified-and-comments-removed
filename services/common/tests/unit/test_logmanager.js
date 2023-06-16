@@ -1090,7 +1090,6 @@ weave
 logs
 "
 ]
-true
 )
 ;
 let
@@ -1930,7 +1929,6 @@ weave
 logs
 "
 ]
-true
 )
 ;
 let

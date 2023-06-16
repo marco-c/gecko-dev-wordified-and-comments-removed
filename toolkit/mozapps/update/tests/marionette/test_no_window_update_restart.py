@@ -970,7 +970,21 @@ updates
 0
 "
 ]
-true
+)
+;
+            
+statusFile
+.
+create
+(
+Ci
+.
+nsIFile
+.
+DIRECTORY_TYPE
+FileUtils
+.
+PERMS_DIRECTORY
 )
 ;
             
