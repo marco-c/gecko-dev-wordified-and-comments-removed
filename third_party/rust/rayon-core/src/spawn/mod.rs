@@ -338,10 +338,7 @@ registry
 .
 inject
 (
-&
-[
 job_ref
-]
 )
 }
 mem
