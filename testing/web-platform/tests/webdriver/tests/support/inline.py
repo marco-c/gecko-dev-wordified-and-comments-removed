@@ -253,6 +253,7 @@ xml
 def
 build_inline
 (
+    
 build_url
 src
 doctype
@@ -264,6 +265,9 @@ mime
 =
 None
 charset
+=
+None
+parameters
 =
 None
 *
@@ -298,6 +302,17 @@ UTF
 -
 8
 "
+    
+if
+parameters
+is
+None
+:
+        
+parameters
+=
+{
+}
     
 doc
 =
@@ -335,6 +350,13 @@ charset
 :
 charset
 }
+    
+query
+.
+update
+(
+parameters
+)
     
 return
 build_url

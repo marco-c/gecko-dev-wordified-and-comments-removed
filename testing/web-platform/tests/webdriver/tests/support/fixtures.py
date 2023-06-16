@@ -1654,6 +1654,10 @@ shadow_root_mode
 "
 open
 "
+        
+*
+*
+kwargs
     
 )
 :
@@ -2276,13 +2280,23 @@ if
 as_frame
 :
             
-return
-inline
-(
+iframe_data
+=
 iframe
 (
 page_data
+*
+*
+kwargs
 )
+            
+return
+inline
+(
+iframe_data
+*
+*
+kwargs
 )
         
 else
@@ -2292,6 +2306,9 @@ return
 inline
 (
 page_data
+*
+*
+kwargs
 )
     
 return
