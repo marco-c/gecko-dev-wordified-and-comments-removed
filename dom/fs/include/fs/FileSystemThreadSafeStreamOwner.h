@@ -22,8 +22,11 @@ mozilla
 :
 :
 dom
-:
-:
+{
+class
+FileSystemWritableFileStream
+;
+namespace
 fs
 {
 class
@@ -31,9 +34,11 @@ FileSystemThreadSafeStreamOwner
 {
 public
 :
-explicit
 FileSystemThreadSafeStreamOwner
 (
+FileSystemWritableFileStream
+*
+aWritableFileStream
 nsCOMPtr
 <
 nsIRandomAccessStream
@@ -86,6 +91,11 @@ default
 ;
 private
 :
+FileSystemWritableFileStream
+*
+MOZ_NON_OWNING_REF
+mWritableFileStream
+;
 nsCOMPtr
 <
 nsIRandomAccessStream
@@ -97,6 +107,7 @@ mClosed
 ;
 }
 ;
+}
 }
 #
 endif
