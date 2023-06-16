@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+let_underscore_untyped
+)
+]
 use
 syn
 :
@@ -34,6 +45,7 @@ test_peek
 (
 )
 {
+let
 _
 =
 |
@@ -42,6 +54,7 @@ input
 ParseStream
 |
 {
+let
 _
 =
 input
@@ -51,6 +64,7 @@ peek
 Ident
 )
 ;
+let
 _
 =
 input
@@ -63,6 +77,7 @@ Ident
 peek_any
 )
 ;
+let
 _
 =
 input

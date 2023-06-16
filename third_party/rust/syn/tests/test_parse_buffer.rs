@@ -23,15 +23,6 @@ TokenTree
 }
 ;
 use
-std
-:
-:
-iter
-:
-:
-FromIterator
-;
-use
 syn
 :
 :

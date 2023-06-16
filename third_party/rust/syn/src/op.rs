@@ -39,6 +39,10 @@ derive
 )
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 BinOp
@@ -391,7 +395,7 @@ The
 +
 =
 operator
-AddEq
+AddAssign
 (
 Token
 !
@@ -407,7 +411,7 @@ The
 -
 =
 operator
-SubEq
+SubAssign
 (
 Token
 !
@@ -423,7 +427,7 @@ The
 *
 =
 operator
-MulEq
+MulAssign
 (
 Token
 !
@@ -439,7 +443,7 @@ The
 /
 =
 operator
-DivEq
+DivAssign
 (
 Token
 !
@@ -455,7 +459,7 @@ The
 %
 =
 operator
-RemEq
+RemAssign
 (
 Token
 !
@@ -471,7 +475,7 @@ The
 ^
 =
 operator
-BitXorEq
+BitXorAssign
 (
 Token
 !
@@ -487,7 +491,7 @@ The
 &
 =
 operator
-BitAndEq
+BitAndAssign
 (
 Token
 !
@@ -503,7 +507,7 @@ The
 |
 =
 operator
-BitOrEq
+BitOrAssign
 (
 Token
 !
@@ -520,7 +524,7 @@ The
 <
 =
 operator
-ShlEq
+ShlAssign
 (
 Token
 !
@@ -538,7 +542,7 @@ The
 >
 =
 operator
-ShrEq
+ShrAssign
 (
 Token
 !
@@ -589,6 +593,10 @@ derive
 )
 )
 )
+]
+#
+[
+non_exhaustive
 ]
 pub
 enum
@@ -657,6 +665,9 @@ parsing
 )
 ]
 pub
+(
+crate
+)
 mod
 parsing
 {
@@ -1308,7 +1319,7 @@ map
 BinOp
 :
 :
-AddEq
+AddAssign
 )
 }
 else
@@ -1336,7 +1347,7 @@ map
 BinOp
 :
 :
-SubEq
+SubAssign
 )
 }
 else
@@ -1364,7 +1375,7 @@ map
 BinOp
 :
 :
-MulEq
+MulAssign
 )
 }
 else
@@ -1392,7 +1403,7 @@ map
 BinOp
 :
 :
-DivEq
+DivAssign
 )
 }
 else
@@ -1420,7 +1431,7 @@ map
 BinOp
 :
 :
-RemEq
+RemAssign
 )
 }
 else
@@ -1448,7 +1459,7 @@ map
 BinOp
 :
 :
-BitXorEq
+BitXorAssign
 )
 }
 else
@@ -1476,7 +1487,7 @@ map
 BinOp
 :
 :
-BitAndEq
+BitAndAssign
 )
 }
 else
@@ -1504,7 +1515,7 @@ map
 BinOp
 :
 :
-BitOrEq
+BitOrAssign
 )
 }
 else
@@ -1533,7 +1544,7 @@ map
 BinOp
 :
 :
-ShlEq
+ShlAssign
 )
 }
 else
@@ -1562,7 +1573,7 @@ map
 BinOp
 :
 :
-ShrEq
+ShrAssign
 )
 }
 else
@@ -2057,7 +2068,7 @@ tokens
 BinOp
 :
 :
-AddEq
+AddAssign
 (
 t
 )
@@ -2072,7 +2083,7 @@ tokens
 BinOp
 :
 :
-SubEq
+SubAssign
 (
 t
 )
@@ -2087,7 +2098,7 @@ tokens
 BinOp
 :
 :
-MulEq
+MulAssign
 (
 t
 )
@@ -2102,7 +2113,7 @@ tokens
 BinOp
 :
 :
-DivEq
+DivAssign
 (
 t
 )
@@ -2117,7 +2128,7 @@ tokens
 BinOp
 :
 :
-RemEq
+RemAssign
 (
 t
 )
@@ -2132,7 +2143,7 @@ tokens
 BinOp
 :
 :
-BitXorEq
+BitXorAssign
 (
 t
 )
@@ -2147,7 +2158,7 @@ tokens
 BinOp
 :
 :
-BitAndEq
+BitAndAssign
 (
 t
 )
@@ -2162,7 +2173,7 @@ tokens
 BinOp
 :
 :
-BitOrEq
+BitOrAssign
 (
 t
 )
@@ -2177,7 +2188,7 @@ tokens
 BinOp
 :
 :
-ShlEq
+ShlAssign
 (
 t
 )
@@ -2192,7 +2203,7 @@ tokens
 BinOp
 :
 :
-ShrEq
+ShrAssign
 (
 t
 )

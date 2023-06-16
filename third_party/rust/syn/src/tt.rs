@@ -21,6 +21,9 @@ Hasher
 }
 ;
 pub
+(
+crate
+)
 struct
 TokenTreeHelper
 <
@@ -633,6 +636,9 @@ h
 }
 }
 pub
+(
+crate
+)
 struct
 TokenStreamHelper
 <

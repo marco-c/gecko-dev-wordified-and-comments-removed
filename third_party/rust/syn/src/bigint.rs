@@ -11,6 +11,9 @@ MulAssign
 }
 ;
 pub
+(
+crate
+)
 struct
 BigInt
 {
@@ -25,6 +28,9 @@ impl
 BigInt
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -46,6 +52,9 @@ new
 }
 }
 pub
+(
+crate
+)
 fn
 to_string
 (

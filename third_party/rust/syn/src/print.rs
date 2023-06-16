@@ -11,6 +11,9 @@ quote
 ToTokens
 ;
 pub
+(
+crate
+)
 struct
 TokensOrDefault
 <

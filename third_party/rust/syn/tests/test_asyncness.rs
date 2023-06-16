@@ -1,4 +1,15 @@
 #
+!
+[
+allow
+(
+clippy
+:
+:
+uninlined_format_args
+)
+]
+#
 [
 macro_use
 ]
@@ -54,6 +65,9 @@ Fn
 {
 vis
 :
+Visibility
+:
+:
 Inherited
 sig
 :
@@ -71,6 +85,9 @@ generics
 :
 Generics
 output
+:
+ReturnType
+:
 :
 Default
 }
@@ -125,6 +142,9 @@ asyncness
 :
 Some
 output
+:
+ReturnType
+:
 :
 Default
 body

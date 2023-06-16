@@ -10,6 +10,9 @@ parsing
 )
 ]
 pub
+(
+crate
+)
 mod
 lookahead
 {

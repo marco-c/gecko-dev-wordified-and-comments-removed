@@ -26,6 +26,7 @@ Ipv4Addr
 :
 LOCALHOST
 ;
+let
 _
 =
 quote

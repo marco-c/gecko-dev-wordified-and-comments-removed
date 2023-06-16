@@ -125,7 +125,7 @@ version
 .
 0
 .
-51
+59
 "
 authors
 =
@@ -372,6 +372,18 @@ version
 default_features
 =
 false
+[
+dev
+-
+dependencies
+.
+rustversion
+]
+version
+=
+"
+1
+"
 [
 features
 ]

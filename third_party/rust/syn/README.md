@@ -823,7 +823,7 @@ supports
 rustc
 1
 .
-31
+56
 and
 up
 .
@@ -1054,7 +1054,7 @@ dependencies
 syn
 =
 "
-1
+2
 .
 0
 "
@@ -1191,17 +1191,6 @@ of
 a
 derive
 macro
-.
-It
-works
-on
-any
-Rust
-compiler
-1
-.
-31
-+
 .
 The
 example

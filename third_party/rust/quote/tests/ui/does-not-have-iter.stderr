@@ -59,10 +59,8 @@ b
 |
 |
 expected
-struct
 HasIterator
 found
-struct
 ThereIsNoIteratorInRepetition
 |
 expected

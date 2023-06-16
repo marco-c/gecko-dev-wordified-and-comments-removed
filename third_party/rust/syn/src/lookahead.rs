@@ -99,6 +99,9 @@ str
 >
 }
 pub
+(
+crate
+)
 fn
 new
 (
@@ -530,6 +533,9 @@ self
 }
 }
 pub
+(
+crate
+)
 fn
 is_delimiter
 (
