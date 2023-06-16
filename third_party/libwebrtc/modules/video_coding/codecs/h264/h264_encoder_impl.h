@@ -492,6 +492,15 @@ max_payload_size_
 int32_t
 number_of_cores_
 ;
+absl
+:
+:
+optional
+<
+int
+>
+encoder_thread_limit_
+;
 EncodedImageCallback
 *
 encoded_image_callback_
