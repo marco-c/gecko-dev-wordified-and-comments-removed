@@ -279,15 +279,6 @@ nullptr
 )
 MARKUPMAP
 (
-code
-New_HyperText
-roles
-:
-:
-CODE
-)
-MARKUPMAP
-(
 dd
 New_HTMLDtOrDd
 <
