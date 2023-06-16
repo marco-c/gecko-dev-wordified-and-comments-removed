@@ -361,7 +361,16 @@ CONFIG
 MOZ_CRASHREPORTER
 "
 ]
-and
+:
+gkrust_features
++
+=
+[
+'
+crashreporter
+'
+]
+if
 CONFIG
 [
 '

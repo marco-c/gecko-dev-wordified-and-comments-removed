@@ -1296,6 +1296,9 @@ crashreporter
 /
 mozannotation_client
 "
+optional
+=
+true
 }
 mozannotation_server
 =
@@ -1316,6 +1319,9 @@ crashreporter
 /
 mozannotation_server
 "
+optional
+=
+true
 }
 gecko
 -
@@ -2639,6 +2645,16 @@ oxidized_breakpad
 [
 "
 rust_minidump_writer_linux
+"
+]
+crashreporter
+=
+[
+"
+mozannotation_client
+"
+"
+mozannotation_server
 "
 ]
 with_dbus
