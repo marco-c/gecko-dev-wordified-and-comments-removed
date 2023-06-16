@@ -1668,8 +1668,6 @@ RequestIMEToCommitComposition
 (
 bool
 cancel
-uint32_t
-aCompositionId
 )
 returns
 (
@@ -1689,8 +1687,6 @@ OnEventNeedingAckHandled
 (
 EventMessage
 message
-uint32_t
-compositionId
 )
 ;
 async

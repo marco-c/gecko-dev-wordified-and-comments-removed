@@ -2432,11 +2432,6 @@ mNativeIMEContext
 EventMessage
 mOriginalMessage
 ;
-uint32_t
-mCompositionId
-=
-0
-;
 void
 AssignCompositionEventData
 (

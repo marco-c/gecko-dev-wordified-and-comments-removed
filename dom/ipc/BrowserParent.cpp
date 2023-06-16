@@ -12568,10 +12568,6 @@ const
 EventMessage
 &
 aMessage
-const
-uint32_t
-&
-aCompositionId
 )
 {
 nsCOMPtr
@@ -12599,7 +12595,6 @@ OnEventNeedingAckHandled
 (
 widget
 aMessage
-aCompositionId
 )
 ;
 return
@@ -15731,8 +15726,6 @@ SendCompositionEvent
 WidgetCompositionEvent
 &
 aEvent
-uint32_t
-aCompositionId
 )
 {
 if
@@ -15744,20 +15737,6 @@ return
 false
 ;
 }
-MOZ_ASSERT
-(
-aCompositionId
-!
-=
-0
-)
-;
-aEvent
-.
-mCompositionId
-=
-aCompositionId
-;
 if
 (
 !
@@ -16577,10 +16556,6 @@ const
 bool
 &
 aCancel
-const
-uint32_t
-&
-aCompositionId
 bool
 *
 aIsCommitted
@@ -16625,7 +16600,6 @@ RequestIMEToCommitComposition
 (
 widget
 aCancel
-aCompositionId
 *
 aCommittedString
 )
