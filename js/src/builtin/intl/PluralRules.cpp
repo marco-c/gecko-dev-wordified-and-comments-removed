@@ -325,9 +325,6 @@ Intl_PluralRules_select
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -339,8 +336,6 @@ Intl_PluralRules_selectRange
 2
 0
 )
-#
-endif
 JS_FN
 (
 js_toSource_str

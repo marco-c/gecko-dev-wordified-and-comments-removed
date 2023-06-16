@@ -959,9 +959,6 @@ maximumSignificantDigits
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 DefineDataProperty
 (
 result
@@ -995,8 +992,6 @@ internals
 trailingZeroDisplay
 )
 ;
-#
-endif
 var
 internalsPluralCategories
 =
@@ -1071,9 +1066,6 @@ pluralCategories
 pluralCategories
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 DefineDataProperty
 (
 result
@@ -1085,8 +1077,6 @@ internals
 roundingPriority
 )
 ;
-#
-endif
 return
 result
 ;
