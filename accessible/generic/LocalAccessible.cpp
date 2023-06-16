@@ -14497,7 +14497,7 @@ ChildCount
 )
 ;
 }
-LocalAccessible
+Accessible
 *
 LocalAccessible
 :
@@ -14552,7 +14552,7 @@ nullptr
 ;
 }
 return
-LocalChildAt
+ChildAt
 (
 aIndex
 )

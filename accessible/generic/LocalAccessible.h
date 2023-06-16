@@ -978,7 +978,7 @@ EmbeddedChildCount
 override
 ;
 virtual
-LocalAccessible
+Accessible
 *
 EmbeddedChildAt
 (
