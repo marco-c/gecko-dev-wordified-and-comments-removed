@@ -265,8 +265,9 @@ NotifyNotUsed
 )
 override
 ;
-bool
-IsWrappingBufferTextureHost
+BufferTextureHost
+*
+AsBufferTextureHost
 (
 )
 override
