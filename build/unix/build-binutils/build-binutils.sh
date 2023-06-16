@@ -514,6 +514,9 @@ w64
 -
 mingw32
 "
+gcc_major
+=
+8
 if
 [
 -
@@ -556,7 +559,7 @@ c
 +
 +
 /
-7
+gcc_major
 ]
 |
 |
@@ -597,7 +600,7 @@ c
 +
 +
 /
-7
+gcc_major
 -
 isystem
 MOZ_FETCHES_DIR
@@ -618,7 +621,7 @@ c
 +
 +
 /
-7
+gcc_major
 "
 fi
 #

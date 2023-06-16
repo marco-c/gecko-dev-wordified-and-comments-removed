@@ -428,7 +428,7 @@ Current
 minimal
 requirement
 -
-7
+8
 .
 1
 -

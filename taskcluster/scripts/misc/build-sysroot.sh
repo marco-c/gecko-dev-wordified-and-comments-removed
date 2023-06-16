@@ -123,7 +123,7 @@ PACKAGES_TASKS
 then
 gcc_version
 =
-7
+8
 else
 gcc_version
 =
