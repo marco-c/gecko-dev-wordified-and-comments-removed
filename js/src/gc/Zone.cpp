@@ -1114,8 +1114,6 @@ rt
 gc
 )
 ;
-updateNurseryAllocFlags
-(
 rt
 -
 >
@@ -1124,6 +1122,10 @@ gc
 nursery
 (
 )
+.
+setAllocFlagsForZone
+(
+this
 )
 ;
 }
