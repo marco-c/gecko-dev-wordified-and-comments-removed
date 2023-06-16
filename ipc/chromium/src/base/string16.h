@@ -29,7 +29,7 @@ h
 if
 defined
 (
-WCHAR_T_IS_UTF16
+XP_WIN
 )
 typedef
 wchar_t
@@ -43,11 +43,7 @@ wstring
 string16
 ;
 #
-elif
-defined
-(
-WCHAR_T_IS_UTF32
-)
+else
 typedef
 uint16_t
 char16

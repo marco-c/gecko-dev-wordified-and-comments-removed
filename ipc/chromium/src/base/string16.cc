@@ -11,7 +11,7 @@ h
 if
 defined
 (
-WCHAR_T_IS_UTF16
+XP_WIN
 )
 #
 error
@@ -28,11 +28,7 @@ byte
 wchar_t
 systems
 #
-elif
-defined
-(
-WCHAR_T_IS_UTF32
-)
+else
 #
 include
 "

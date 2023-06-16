@@ -176,7 +176,7 @@ wchar_t
 if
 defined
 (
-WCHAR_T_IS_UTF16
+XP_WIN
 )
 typedef
 unsigned
@@ -184,11 +184,7 @@ short
 Unsigned
 ;
 #
-elif
-defined
-(
-WCHAR_T_IS_UTF32
-)
+else
 typedef
 uint32_t
 Unsigned
@@ -455,7 +451,7 @@ endptr
 if
 defined
 (
-WCHAR_T_IS_UTF16
+XP_WIN
 )
 return
 wcstol
@@ -466,11 +462,7 @@ kBase
 )
 ;
 #
-elif
-defined
-(
-WCHAR_T_IS_UTF32
-)
+else
 std
 :
 :
@@ -1650,7 +1642,7 @@ if
 !
 defined
 (
-WCHAR_T_IS_UTF16
+XP_WIN
 )
 bool
 IsStringASCII
