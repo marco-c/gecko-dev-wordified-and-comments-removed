@@ -791,7 +791,7 @@ update
 .
 download
 .
-promptMaxAttempts
+maxAttempts
 "
 2
 )
@@ -803,9 +803,9 @@ app
 .
 update
 .
-elevation
+elevate
 .
-promptMaxAttempts
+maxAttempts
 "
 2
 )
