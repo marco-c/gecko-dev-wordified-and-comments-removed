@@ -871,6 +871,15 @@ webrtc
 CryptoOptions
 (
 )
+webrtc
+:
+:
+AudioCodecPairId
+:
+:
+Create
+(
+)
 )
 ;
 media_engine_

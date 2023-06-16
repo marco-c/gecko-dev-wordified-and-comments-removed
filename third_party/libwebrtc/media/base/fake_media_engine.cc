@@ -2639,6 +2639,11 @@ webrtc
 CryptoOptions
 &
 crypto_options
+webrtc
+:
+:
+AudioCodecPairId
+codec_pair_id
 )
 {
 if

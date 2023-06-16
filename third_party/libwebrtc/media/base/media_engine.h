@@ -447,6 +447,11 @@ webrtc
 CryptoOptions
 &
 crypto_options
+webrtc
+:
+:
+AudioCodecPairId
+codec_pair_id
 )
 {
 RTC_CHECK_NOTREACHED
@@ -510,6 +515,15 @@ call
 config
 options
 crypto_options
+webrtc
+:
+:
+AudioCodecPairId
+:
+:
+Create
+(
+)
 )
 ;
 }

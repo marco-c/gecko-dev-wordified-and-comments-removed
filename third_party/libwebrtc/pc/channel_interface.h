@@ -140,15 +140,6 @@ AsVoiceChannel
 0
 ;
 virtual
-MediaChannel
-*
-media_channel
-(
-)
-=
-0
-;
-virtual
 MediaSendChannelInterface
 *
 media_send_channel
