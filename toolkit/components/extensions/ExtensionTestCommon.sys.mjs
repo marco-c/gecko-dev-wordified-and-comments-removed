@@ -3923,7 +3923,9 @@ API
 via
 ExtensionBrowsingData
 .
-jsm
+sys
+.
+mjs
 )
 .
 /

@@ -36,7 +36,7 @@ AppUiTestDelegate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ common
 /
 AppUiTestDelegate
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

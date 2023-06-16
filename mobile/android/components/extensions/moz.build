@@ -15,7 +15,9 @@ EXTRA_JS_MODULES
 "
 ExtensionBrowsingData
 .
-jsm
+sys
+.
+mjs
 "
 ]
 EXTRA_COMPONENTS

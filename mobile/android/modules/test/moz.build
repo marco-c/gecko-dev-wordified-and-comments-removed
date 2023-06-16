@@ -60,6 +60,8 @@ TESTING_JS_MODULES
 "
 AppUiTestDelegate
 .
-jsm
+sys
+.
+mjs
 "
 ]
