@@ -1960,6 +1960,16 @@ dll
 "
 ALL_VERSIONS
 )
+DllBlocklistEntry
+(
+"
+aswhook
+.
+dll
+"
+ALL_VERSIONS
+BLOCK_WIN7_AND_OLDER
+)
 ]
 UTILITY_PROCESSES_TESTS
 +
