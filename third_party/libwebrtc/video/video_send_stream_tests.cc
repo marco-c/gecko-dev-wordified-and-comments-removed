@@ -19725,6 +19725,8 @@ RtpExtension
 :
 kTransportSequenceNumberUri
 unique_id_generator
+.
+GenerateNumber
 (
 )
 )

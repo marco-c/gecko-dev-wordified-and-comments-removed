@@ -323,6 +323,8 @@ values
 push_back
 (
 generator
+.
+Generate
 (
 )
 )
@@ -449,6 +451,8 @@ known_values
 push_back
 (
 generator1
+.
+Generate
 (
 )
 )
@@ -512,6 +516,8 @@ values
 push_back
 (
 generator2
+.
+Generate
 (
 )
 )
@@ -646,6 +652,8 @@ known_values
 push_back
 (
 generator1
+.
+Generate
 (
 )
 )
@@ -728,6 +736,8 @@ values
 push_back
 (
 generator2
+.
+Generate
 (
 )
 )
@@ -831,6 +841,8 @@ value_type
 id
 =
 generator1
+.
+Generate
 (
 )
 ;
@@ -886,6 +898,8 @@ value_type
 id
 =
 generator1
+.
+Generate
 (
 )
 ;
@@ -951,6 +965,8 @@ value_type
 id
 =
 generator1
+.
+Generate
 (
 )
 ;
@@ -1042,7 +1058,7 @@ Current
 ;
 generator
 .
-GenerateNumber
+Generate
 (
 )
 ;
@@ -1077,7 +1093,7 @@ initial_fake_task_queue
 ;
 generator
 .
-GenerateNumber
+Generate
 (
 )
 ;
@@ -1088,7 +1104,7 @@ EXPECT_DEATH
 (
 generator
 .
-GenerateNumber
+Generate
 (
 )
 "

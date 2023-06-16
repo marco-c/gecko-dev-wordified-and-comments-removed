@@ -873,6 +873,8 @@ rids
 push_back
 (
 rid_generator
+.
+GenerateString
 (
 )
 )

@@ -6746,6 +6746,8 @@ encoding
 rid
 =
 rid_generator
+.
+GenerateString
 (
 )
 ;

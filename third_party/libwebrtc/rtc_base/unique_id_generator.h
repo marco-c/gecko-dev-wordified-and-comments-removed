@@ -112,9 +112,7 @@ GenerateNumber
 )
 ;
 TIntegral
-operator
-(
-)
+Generate
 (
 )
 {
@@ -217,9 +215,7 @@ GenerateId
 )
 ;
 uint32_t
-operator
-(
-)
+Generate
 (
 )
 {
@@ -306,9 +302,7 @@ std
 :
 :
 string
-operator
-(
-)
+Generate
 (
 )
 {
