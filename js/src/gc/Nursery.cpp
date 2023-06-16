@@ -2206,11 +2206,10 @@ updateAllZoneAllocFlags
 {
 for
 (
-ZonesIter
+AllZonesIter
 zone
 (
 gc
-SkipAtoms
 )
 ;
 !
