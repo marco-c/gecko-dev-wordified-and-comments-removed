@@ -3055,10 +3055,6 @@ mClaimed
 =
 true
 ;
-MaybeDispatchSelectClientAuthCertificate
-(
-)
-;
 return
 NS_OK
 ;
