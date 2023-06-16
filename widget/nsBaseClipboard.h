@@ -312,6 +312,7 @@ int32_t
 aWhichClipboard
 )
 override
+final
 ;
 NS_IMETHOD
 GetData
