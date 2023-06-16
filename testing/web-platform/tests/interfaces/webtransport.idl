@@ -439,6 +439,12 @@ WebTransportSendStream
 :
 WritableStream
 {
+attribute
+long
+long
+?
+sendOrder
+;
 Promise
 <
 WebTransportSendStreamStats
@@ -577,7 +583,8 @@ source
 ;
 readonly
 attribute
-octet
+unsigned
+long
 ?
 streamErrorCode
 ;
@@ -596,7 +603,8 @@ stream
 [
 Clamp
 ]
-octet
+unsigned
+long
 ?
 streamErrorCode
 =
