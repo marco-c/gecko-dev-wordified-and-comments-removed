@@ -1405,6 +1405,10 @@ const
 EventMessage
 &
 aMessage
+const
+uint32_t
+&
+aCompositionId
 )
 ;
 mozilla
@@ -1420,6 +1424,10 @@ const
 bool
 &
 aCancel
+const
+uint32_t
+&
+aCompositionId
 bool
 *
 aIsCommitted
@@ -2575,6 +2583,8 @@ mozilla
 WidgetCompositionEvent
 &
 aEvent
+uint32_t
+aCompositionId
 )
 ;
 bool

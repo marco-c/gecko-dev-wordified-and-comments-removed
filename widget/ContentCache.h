@@ -2030,6 +2030,8 @@ nsIWidget
 aWidget
 EventMessage
 aMessage
+uint32_t
+aCompositionId
 )
 ;
 bool
@@ -2040,6 +2042,8 @@ nsIWidget
 aWidget
 bool
 aCancel
+uint32_t
+aCompositionId
 nsAString
 &
 aCommittedString
