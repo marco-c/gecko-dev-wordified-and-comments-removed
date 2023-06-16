@@ -608,6 +608,14 @@ crc
 DEFINES
 [
 '
+MOZ_SKIA
+'
+]
+=
+True
+DEFINES
+[
+'
 SKIA_IMPLEMENTATION
 '
 ]
