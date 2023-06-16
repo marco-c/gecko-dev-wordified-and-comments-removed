@@ -106,11 +106,6 @@ expressions
 js
 "
 "
-getCallStackFrames
-.
-js
-"
-"
 index
 .
 js
