@@ -1015,6 +1015,15 @@ mLatestRenderedTextureHost
 std
 :
 :
+deque
+<
+CompositableTextureHostRef
+>
+mReleasingRenderedTextureHosts
+;
+std
+:
+:
 stack
 <
 UniquePtr
