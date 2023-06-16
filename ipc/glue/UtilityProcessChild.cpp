@@ -587,17 +587,10 @@ SandboxingKind
 GENERIC_UTILITY
 )
 {
-JS
-:
-:
-DisableJitBackend
-(
-)
-;
 if
 (
 !
-JS_Init
+JS_FrontendOnlyInit
 (
 )
 )
@@ -692,7 +685,7 @@ SandboxingKind
 GENERIC_UTILITY
 )
 {
-JS_ShutDown
+JS_FrontendOnlyShutDown
 (
 )
 ;
