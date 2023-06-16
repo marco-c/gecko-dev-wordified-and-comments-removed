@@ -147,10 +147,6 @@ session
 new
 '
 {
-capabilities
-:
-{
-}
 }
 )
 ;

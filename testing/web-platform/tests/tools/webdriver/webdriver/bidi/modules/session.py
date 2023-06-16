@@ -46,28 +46,14 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
-{
-}
-        
-params
-[
-"
-capabilities
-"
-]
-=
-capabilities
-        
 return
-params
+{
+"
+capabilities
+"
+:
+capabilities
+}
     
 new
 .
@@ -96,7 +82,7 @@ result
 get
 (
 "
-sessionId
+session_id
 "
 )
 result
