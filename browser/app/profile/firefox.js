@@ -11971,16 +11971,6 @@ pref
 "
 pdfjs
 .
-firstRun
-"
-true
-)
-;
-pref
-(
-"
-pdfjs
-.
 previousHandler
 .
 preferredAction
