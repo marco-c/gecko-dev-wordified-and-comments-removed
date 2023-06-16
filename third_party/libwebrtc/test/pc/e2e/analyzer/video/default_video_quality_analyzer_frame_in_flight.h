@@ -377,7 +377,7 @@ encoded_image_size
 uint32_t
 target_encode_bitrate
 int
-spatial_layer
+stream_index
 int
 qp
 StreamCodecInfo
@@ -650,7 +650,7 @@ map
 int
 SamplesStatsCounter
 >
-spatial_layers_qp_
+stream_layers_qp_
 ;
 absl
 :
