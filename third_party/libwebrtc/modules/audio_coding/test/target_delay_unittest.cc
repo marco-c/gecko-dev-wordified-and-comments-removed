@@ -117,7 +117,10 @@ TargetDelayTest
 :
 receiver_
 (
-AudioCodingModule
+acm2
+:
+:
+AcmReceiver
 :
 :
 Config

@@ -68,12 +68,6 @@ AudioCodingModule
 :
 Create
 (
-AudioCodingModule
-:
-:
-Config
-(
-)
 )
 )
 encoder_queue_

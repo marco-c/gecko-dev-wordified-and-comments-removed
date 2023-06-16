@@ -151,7 +151,10 @@ webrtc
 {
 namespace
 {
-AudioCodingModule
+acm2
+:
+:
+AcmReceiver
 :
 :
 Config
@@ -167,7 +170,10 @@ AudioDecoderFactory
 decoder_factory
 )
 {
-AudioCodingModule
+acm2
+:
+:
+AcmReceiver
 :
 :
 Config

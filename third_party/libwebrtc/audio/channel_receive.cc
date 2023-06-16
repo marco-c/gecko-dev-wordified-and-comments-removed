@@ -469,7 +469,10 @@ kVoiceEngineMaxMinPlayoutDelayMs
 =
 10000
 ;
-AudioCodingModule
+acm2
+:
+:
+AcmReceiver
 :
 :
 Config
@@ -500,7 +503,10 @@ bool
 jitter_buffer_fast_playout
 )
 {
-AudioCodingModule
+acm2
+:
+:
+AcmReceiver
 :
 :
 Config
