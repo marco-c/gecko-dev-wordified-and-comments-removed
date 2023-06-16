@@ -4300,10 +4300,10 @@ nsGkAtoms
 :
 meter
 ATK_ROLE_LEVEL_BAR
+NSAccessibilityLevelIndicatorRole
 "
-AXLevelIndicator
+AXMeter
 "
-NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_PROGRESSBAR
 ROLE_SYSTEM_PROGRESSBAR
 java
