@@ -412,6 +412,17 @@ DOMString
 url
 )
 ;
+undefined
+registerAdBeacon
+(
+record
+<
+DOMString
+USVString
+>
+map
+)
+;
 }
 ;
 dictionary
