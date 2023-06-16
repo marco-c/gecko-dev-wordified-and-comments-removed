@@ -791,6 +791,10 @@ StylePositionOrAuto
 &
 aAnchor
 const
+StyleOffsetPosition
+&
+aPosition
+const
 CSSPoint
 &
 aTransformOrigin
