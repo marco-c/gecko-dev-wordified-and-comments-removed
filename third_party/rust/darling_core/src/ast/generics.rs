@@ -35,7 +35,7 @@ type
 TypeParam
 ;
 type
-LifetimeDef
+LifetimeParam
 ;
 type
 ConstParam
@@ -60,7 +60,7 @@ TypeParam
 None
 }
 fn
-as_lifetime_def
+as_lifetime_param
 (
 &
 self
@@ -73,7 +73,7 @@ Option
 Self
 :
 :
-LifetimeDef
+LifetimeParam
 >
 {
 None
@@ -115,12 +115,12 @@ syn
 TypeParam
 ;
 type
-LifetimeDef
+LifetimeParam
 =
 syn
 :
 :
-LifetimeDef
+LifetimeParam
 ;
 type
 ConstParam
@@ -175,7 +175,7 @@ None
 }
 }
 fn
-as_lifetime_def
+as_lifetime_param
 (
 &
 self
@@ -188,7 +188,7 @@ Option
 Self
 :
 :
-LifetimeDef
+LifetimeParam
 >
 {
 if
@@ -280,7 +280,7 @@ syn
 TypeParam
 ;
 type
-LifetimeDef
+LifetimeParam
 =
 (
 )
@@ -339,7 +339,7 @@ L
 syn
 :
 :
-LifetimeDef
+LifetimeParam
 C
 =
 syn
@@ -550,7 +550,7 @@ TypeParam
 T
 ;
 type
-LifetimeDef
+LifetimeParam
 =
 L
 ;
@@ -598,7 +598,7 @@ None
 }
 }
 fn
-as_lifetime_def
+as_lifetime_param
 (
 &
 self

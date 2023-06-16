@@ -263,9 +263,6 @@ r
 expect
 !
 [
-[
-r
-#
 "
 Encoded
 text
@@ -281,10 +278,8 @@ at
 line
 1
 column
-5
+4
 "
-#
-]
 ]
 )
 ;
@@ -308,9 +303,6 @@ zz
 expect
 !
 [
-[
-r
-#
 "
 Invalid
 last
@@ -323,10 +315,8 @@ at
 line
 1
 column
-6
+5
 "
-#
-]
 ]
 )
 ;

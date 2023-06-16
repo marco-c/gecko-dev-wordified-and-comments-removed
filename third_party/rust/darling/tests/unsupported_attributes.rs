@@ -128,7 +128,7 @@ flatten
 assert_eq
 !
 (
-3
+1
 errors
 .
 len
@@ -247,7 +247,7 @@ flatten
 assert_eq
 !
 (
-2
+1
 errors
 .
 len

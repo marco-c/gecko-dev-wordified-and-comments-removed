@@ -1,7 +1,3 @@
-extern
-crate
-proc_macro
-;
 use
 darling_core
 :

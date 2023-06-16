@@ -1,4 +1,13 @@
 use
+core
+:
+:
+iter
+:
+:
+Iterator
+;
+use
 darling
 :
 :
@@ -23,15 +32,6 @@ quote
 :
 :
 ToTokens
-;
-use
-std
-:
-:
-iter
-:
-:
-Iterator
 ;
 use
 syn
@@ -188,7 +188,6 @@ Sized
 derive
 (
 FromDeriveInput
-Debug
 )
 ]
 #

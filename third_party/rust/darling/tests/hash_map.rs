@@ -100,13 +100,7 @@ meta
 =
 attr
 .
-parse_meta
-(
-)
-.
-unwrap
-(
-)
+meta
 ;
 let
 map

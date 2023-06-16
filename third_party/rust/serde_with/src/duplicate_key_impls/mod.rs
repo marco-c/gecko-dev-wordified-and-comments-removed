@@ -7,13 +7,6 @@ first_value_wins
 mod
 last_value_wins
 ;
-#
-[
-allow
-(
-deprecated
-)
-]
 pub
 use
 self
@@ -30,10 +23,7 @@ PreventDuplicateInsertsSet
 first_value_wins
 :
 :
-{
 DuplicateInsertsFirstWinsMap
-DuplicateInsertsFirstWinsSet
-}
 last_value_wins
 :
 :

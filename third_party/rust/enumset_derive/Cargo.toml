@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2018
+2021
 "
 name
 =
@@ -112,7 +112,7 @@ version
 "
 0
 .
-6
+8
 .
 1
 "
@@ -196,6 +196,11 @@ Lymia
 /
 enumset
 "
+resolver
+=
+"
+1
+"
 [
 lib
 ]
@@ -214,7 +219,7 @@ version
 "
 0
 .
-14
+20
 "
 default
 -
@@ -268,7 +273,7 @@ syn
 version
 =
 "
-1
+2
 "
 [
 features
