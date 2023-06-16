@@ -2554,11 +2554,11 @@ feedbacks
 TimeDelta
 pending_time
 =
+max_recv_time
+-
 packet_feedback
 .
 receive_time
--
-max_recv_time
 ;
 TimeDelta
 rtt
