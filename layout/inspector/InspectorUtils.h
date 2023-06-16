@@ -47,9 +47,6 @@ namespace
 mozilla
 {
 class
-BindingStyleRule
-;
-class
 StyleSheet
 ;
 namespace
@@ -78,10 +75,13 @@ InspectorFontFace
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
+class
+CSSStyleRule
+;
 class
 InspectorUtils
 {
@@ -130,7 +130,7 @@ nsTArray
 <
 RefPtr
 <
-BindingStyleRule
+CSSStyleRule
 >
 >
 &
@@ -201,7 +201,7 @@ GetSelectorCount
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 )
@@ -213,7 +213,7 @@ GetSelectorText
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t
@@ -233,7 +233,7 @@ GetSpecificity
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t
@@ -253,7 +253,7 @@ aGlobal
 Element
 &
 aElement
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t
@@ -808,7 +808,6 @@ aNamespaceURI
 ;
 }
 ;
-}
 }
 #
 endif

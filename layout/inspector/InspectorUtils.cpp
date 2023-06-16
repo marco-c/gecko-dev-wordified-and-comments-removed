@@ -1269,7 +1269,7 @@ nsTArray
 <
 RefPtr
 <
-BindingStyleRule
+CSSStyleRule
 >
 >
 &
@@ -1869,7 +1869,7 @@ GetSelectorCount
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 )
@@ -1891,7 +1891,7 @@ GetSelectorText
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t
@@ -1924,7 +1924,7 @@ GetSpecificity
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t
@@ -1964,7 +1964,7 @@ aGlobalObject
 Element
 &
 aElement
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t

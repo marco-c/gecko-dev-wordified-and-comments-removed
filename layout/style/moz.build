@@ -392,11 +392,6 @@ AnimationCollection
 h
 "
 "
-BindingStyleRule
-.
-h
-"
-"
 CachedInheritingStyles
 .
 h
@@ -861,11 +856,6 @@ UNIFIED_SOURCES
 [
 "
 AnimationCollection
-.
-cpp
-"
-"
-BindingStyleRule
 .
 cpp
 "
