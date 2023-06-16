@@ -3133,6 +3133,12 @@ id
 webpackBootstrapFrame
 "
 "
+location
+"
+:
+Object
+{
+"
 source
 "
 :
@@ -3153,6 +3159,7 @@ webpack
 bootstrap
 01d88449ca6e9335a66f
 "
+}
 }
 }
 Object
@@ -3167,6 +3174,12 @@ id
 webpackBundleFrame
 "
 "
+location
+"
+:
+Object
+{
+"
 source
 "
 :
@@ -3191,6 +3204,7 @@ js
 "
 }
 }
+}
 Object
 {
 "
@@ -3202,6 +3216,12 @@ id
 -
 webpackBootstrapFrame
 "
+"
+location
+"
+:
+Object
+{
 "
 source
 "
@@ -3225,6 +3245,7 @@ bootstrap
 "
 }
 }
+}
 Object
 {
 "
@@ -3236,6 +3257,12 @@ id
 -
 webpackBundleFrame
 "
+"
+location
+"
+:
+Object
+{
 "
 source
 "
@@ -3259,6 +3286,7 @@ bundle
 .
 js
 "
+}
 }
 }
 ]
@@ -6410,7 +6438,6 @@ line
 "
 :
 55
-}
 "
 source
 "
@@ -6434,6 +6461,7 @@ mahscripts
 .
 js
 "
+}
 }
 }
 }
