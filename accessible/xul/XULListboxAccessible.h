@@ -18,7 +18,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -153,7 +153,7 @@ XULListboxAccessible
 public
 XULSelectControlAccessible
 public
-TableAccessibleBase
+TableAccessible
 {
 public
 :
@@ -310,9 +310,9 @@ this
 ;
 }
 virtual
-TableAccessibleBase
+TableAccessible
 *
-AsTableBase
+AsTable
 (
 )
 override

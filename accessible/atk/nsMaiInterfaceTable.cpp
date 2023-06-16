@@ -19,7 +19,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -141,7 +141,7 @@ cell
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -246,7 +246,7 @@ gint
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -314,7 +314,7 @@ gint
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -381,7 +381,7 @@ gint
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -434,7 +434,7 @@ gint
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -486,7 +486,7 @@ gint
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -559,7 +559,7 @@ gint
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -617,7 +617,7 @@ gint
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -669,7 +669,7 @@ caption
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -730,7 +730,7 @@ autoStr
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -797,7 +797,7 @@ GetColumnHeader
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 aColIdx
@@ -855,7 +855,7 @@ autoStr
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -922,7 +922,7 @@ GetRowHeader
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 aRowIdx
@@ -1003,7 +1003,7 @@ cols
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -1136,7 +1136,7 @@ rows
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -1255,7 +1255,7 @@ gboolean
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -1309,7 +1309,7 @@ gboolean
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -
@@ -1365,7 +1365,7 @@ gboolean
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 -

@@ -51,7 +51,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -83,7 +83,7 @@ mozilla
 :
 a11y
 ;
-TableAccessibleBase
+TableAccessible
 *
 ia2AccessibleTable
 :
@@ -106,7 +106,7 @@ acc
 acc
 -
 >
-AsTableBase
+AsTable
 (
 )
 :
@@ -290,7 +290,7 @@ aAccessible
 =
 nullptr
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -378,7 +378,7 @@ aChildIdx
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -484,7 +484,7 @@ aDescription
 =
 nullptr
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -605,7 +605,7 @@ aSpan
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -753,7 +753,7 @@ aColIdx
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -837,7 +837,7 @@ aColCount
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -891,7 +891,7 @@ aRowCount
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -963,7 +963,7 @@ aColCount
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1017,7 +1017,7 @@ aRowCount
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1073,7 +1073,7 @@ aDescription
 =
 nullptr
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1194,7 +1194,7 @@ aSpan
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1342,7 +1342,7 @@ aRowIdx
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1441,7 +1441,7 @@ aNChildren
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1654,7 +1654,7 @@ aIsSelected
 =
 false
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1737,7 +1737,7 @@ aIsSelected
 =
 false
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1822,7 +1822,7 @@ aIsSelected
 =
 false
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -2032,7 +2032,7 @@ aIsSelected
 =
 false
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -2193,7 +2193,7 @@ aCell
 =
 nullptr
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -2279,7 +2279,7 @@ aCellCount
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -2347,7 +2347,7 @@ aNSelectedCells
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -2530,7 +2530,7 @@ aNColumns
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -2675,7 +2675,7 @@ aNRows
 =
 0
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =

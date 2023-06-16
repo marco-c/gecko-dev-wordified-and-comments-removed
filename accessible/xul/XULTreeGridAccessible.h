@@ -11,7 +11,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 a11y
 /
-TableCellAccessibleBase
+TableCellAccessible
 .
 h
 "
@@ -48,7 +48,7 @@ XULTreeGridAccessible
 public
 XULTreeAccessible
 public
-TableAccessibleBase
+TableAccessible
 {
 public
 :
@@ -293,9 +293,9 @@ aColIdx
 override
 ;
 virtual
-TableAccessibleBase
+TableAccessible
 *
-AsTableBase
+AsTable
 (
 )
 override
@@ -495,7 +495,7 @@ XULTreeGridCellAccessible
 public
 LeafAccessible
 public
-TableCellAccessibleBase
+TableCellAccessible
 {
 public
 :
@@ -540,9 +540,9 @@ Shutdown
 override
 ;
 virtual
-TableCellAccessibleBase
+TableCellAccessible
 *
-AsTableCellBase
+AsTableCell
 (
 )
 override
@@ -662,7 +662,7 @@ aName
 override
 ;
 virtual
-TableAccessibleBase
+TableAccessible
 *
 Table
 (

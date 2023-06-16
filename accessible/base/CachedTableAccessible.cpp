@@ -1202,7 +1202,7 @@ CachedTableAccessible
 parent
 -
 >
-AsTableBase
+AsTable
 (
 )
 )
@@ -1296,7 +1296,7 @@ return
 acc
 ;
 }
-TableAccessibleBase
+TableAccessible
 *
 CachedTableCellAccessible
 :
@@ -1329,7 +1329,7 @@ Parent
 {
 if
 (
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -1343,7 +1343,7 @@ acc
 )
 -
 >
-AsTableBase
+AsTable
 (
 )
 )

@@ -109,7 +109,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -120,7 +120,7 @@ mozilla
 /
 a11y
 /
-TableCellAccessibleBase
+TableCellAccessible
 .
 h
 "
@@ -497,16 +497,16 @@ IPCAccessibilityActive
 if
 (
 const
-TableCellAccessibleBase
+TableCellAccessible
 *
 cell
 =
-AsTableCellBase
+AsTableCell
 (
 )
 )
 {
-TableAccessibleBase
+TableAccessible
 *
 table
 =

@@ -1,9 +1,9 @@
 #
 ifndef
-TABLE_ACCESSIBLE_BASE_H
+TABLE_ACCESSIBLE_H
 #
 define
-TABLE_ACCESSIBLE_BASE_H
+TABLE_ACCESSIBLE_H
 #
 include
 "
@@ -28,7 +28,7 @@ class
 Accessible
 ;
 class
-TableAccessibleBase
+TableAccessible
 {
 public
 :

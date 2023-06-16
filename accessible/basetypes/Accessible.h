@@ -88,10 +88,10 @@ class
 RemoteAccessible
 ;
 class
-TableAccessibleBase
+TableAccessible
 ;
 class
-TableCellAccessibleBase
+TableCellAccessible
 ;
 enum
 ENameValueFlag
@@ -1993,9 +1993,9 @@ nullptr
 ;
 }
 virtual
-TableAccessibleBase
+TableAccessible
 *
-AsTableBase
+AsTable
 (
 )
 {
@@ -2004,9 +2004,9 @@ nullptr
 ;
 }
 virtual
-TableCellAccessibleBase
+TableCellAccessible
 *
-AsTableCellBase
+AsTableCell
 (
 )
 {

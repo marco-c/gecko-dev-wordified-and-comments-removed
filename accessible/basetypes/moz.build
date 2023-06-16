@@ -17,12 +17,12 @@ HyperTextAccessibleBase
 h
 "
 "
-TableAccessibleBase
+TableAccessible
 .
 h
 "
 "
-TableCellAccessibleBase
+TableCellAccessible
 .
 h
 "

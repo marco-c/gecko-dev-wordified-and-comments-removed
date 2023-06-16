@@ -128,7 +128,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -2471,7 +2471,7 @@ check
 }
 }
 }
-TableAccessibleBase
+TableAccessible
 *
 XULTreeGridCellAccessible
 :
@@ -2500,7 +2500,7 @@ return
 grandParent
 -
 >
-AsTableBase
+AsTable
 (
 )
 ;
@@ -2694,7 +2694,7 @@ AccAttributes
 (
 )
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
