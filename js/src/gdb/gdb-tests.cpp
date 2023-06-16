@@ -212,10 +212,6 @@ report
 -
 >
 filename
-.
-c_str
-(
-)
 :
 "
 <

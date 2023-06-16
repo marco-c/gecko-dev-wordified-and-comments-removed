@@ -231,10 +231,9 @@ message_
 ;
 public
 :
-JS
-:
-:
-ConstUTF8CharsZ
+const
+char
+*
 filename
 ;
 unsigned
