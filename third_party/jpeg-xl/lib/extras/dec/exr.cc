@@ -363,16 +363,7 @@ catch
 )
 {
 return
-JXL_FAILURE
-(
-"
-OpenEXR
-failed
-to
-parse
-input
-"
-)
+false
 ;
 }
 OpenEXR

@@ -2637,6 +2637,16 @@ encode_internal
 h
 jpegli
 /
+encode_streaming
+.
+cc
+jpegli
+/
+encode_streaming
+.
+h
+jpegli
+/
 entropy_coding
 -
 inl

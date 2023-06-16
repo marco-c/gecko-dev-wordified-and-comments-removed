@@ -868,12 +868,6 @@ max_lum_
 ;
 const
 float
-b_
-=
-min_lum_
-;
-const
-float
 inv_one_minus_ks_
 =
 1

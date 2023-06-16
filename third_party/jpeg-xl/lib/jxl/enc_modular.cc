@@ -5287,16 +5287,6 @@ palette_colors
 !
 =
 0
-&
-&
-cparams_
-.
-speed_tier
-<
-SpeedTier
-:
-:
-kFalcon
 )
 {
 if
@@ -5359,7 +5349,7 @@ std
 :
 min
 (
-200
+256
 (
 int
 )
@@ -5368,7 +5358,7 @@ xsize
 *
 ysize
 /
-8
+2
 )
 )
 std
@@ -5381,7 +5371,7 @@ cparams_
 palette_colors
 )
 /
-16
+4
 )
 ;
 maybe_palette
