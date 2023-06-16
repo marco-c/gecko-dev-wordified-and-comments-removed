@@ -247,7 +247,7 @@ video_coding
 /
 timing
 /
-codec_timer
+decode_time_percentile_filter
 .
 cc
 "
@@ -1472,6 +1472,6 @@ True
 Library
 (
 "
-codec_timer_gn
+decode_time_percentile_filter_gn
 "
 )

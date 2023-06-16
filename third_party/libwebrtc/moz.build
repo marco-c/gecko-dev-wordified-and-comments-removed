@@ -3551,7 +3551,7 @@ video_coding
 /
 timing
 /
-codec_timer_gn
+decode_time_percentile_filter_gn
 "
 "
 /
