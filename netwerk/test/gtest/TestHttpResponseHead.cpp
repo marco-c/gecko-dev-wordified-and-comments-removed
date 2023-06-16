@@ -182,8 +182,8 @@ aHead
 ;
 ASSERT_EQ
 (
-aHead
 copied
+aHead
 )
 ;
 }
