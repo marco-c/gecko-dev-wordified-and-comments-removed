@@ -926,7 +926,6 @@ args
 false
 aRedirectFlags
 aLoadFlags
-cp
 std
 :
 :
