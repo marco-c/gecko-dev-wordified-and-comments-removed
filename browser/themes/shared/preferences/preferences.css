@@ -2456,6 +2456,16 @@ support
 link
 "
 ]
+:
+not
+(
+.
+sidebar
+-
+footer
+-
+link
+)
 {
 display
 :

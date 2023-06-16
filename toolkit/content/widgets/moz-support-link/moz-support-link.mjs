@@ -411,6 +411,12 @@ l10n
 id
 "
 )
+&
+&
+!
+this
+.
+childElementCount
 )
 {
 document
