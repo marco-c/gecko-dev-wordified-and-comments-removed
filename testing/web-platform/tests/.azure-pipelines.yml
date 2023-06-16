@@ -4251,6 +4251,9 @@ displayName
 Run
 tests
 '
+retryCountOnTaskFailure
+:
+2
 -
 task
 :
@@ -4668,6 +4671,9 @@ displayName
 Run
 tests
 '
+retryCountOnTaskFailure
+:
+2
 -
 task
 :
