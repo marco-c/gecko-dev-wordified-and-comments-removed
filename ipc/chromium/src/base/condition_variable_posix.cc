@@ -114,7 +114,7 @@ OS_NACL
 (
 defined
 (
-OS_ANDROID
+ANDROID
 )
 &
 &
@@ -506,7 +506,7 @@ tv_sec
 if
 defined
 (
-OS_ANDROID
+ANDROID
 )
 &
 &
