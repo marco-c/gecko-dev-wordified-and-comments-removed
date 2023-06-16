@@ -2056,8 +2056,6 @@ processCSSRules
 rule
 )
 ;
-continue
-;
 }
 if
 (

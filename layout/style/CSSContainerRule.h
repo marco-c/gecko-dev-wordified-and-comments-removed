@@ -106,6 +106,15 @@ StyleContainerRule
 >
 )
 ;
+already_AddRefed
+<
+StyleLockedCssRules
+>
+GetOrCreateRawRules
+(
+)
+final
+;
 StyleCssRuleType
 Type
 (
