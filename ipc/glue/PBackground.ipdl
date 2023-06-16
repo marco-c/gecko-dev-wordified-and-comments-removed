@@ -1313,6 +1313,16 @@ PFetch
 (
 )
 ;
+async
+RequestCameraAccess
+(
+)
+returns
+(
+nsresult
+rv
+)
+;
 child
 :
 async
