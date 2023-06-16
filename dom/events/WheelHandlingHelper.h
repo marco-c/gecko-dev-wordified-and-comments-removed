@@ -320,6 +320,16 @@ sEventTargetFrame
 ;
 }
 static
+bool
+HandledByApz
+(
+)
+{
+return
+sHandledByApz
+;
+}
+static
 void
 EndTransaction
 (
@@ -520,6 +530,10 @@ sScrollTargetFrame
 static
 AutoWeakFrame
 sEventTargetFrame
+;
+static
+bool
+sHandledByApz
 ;
 static
 uint32_t

@@ -16058,6 +16058,15 @@ COMPUTE_DEFAULT_ACTION_TARGET_WITH_AUTO_DIR
 if
 (
 scrollTarget
+&
+&
+!
+WheelTransaction
+:
+:
+HandledByApz
+(
+)
 )
 {
 scrollTarget
