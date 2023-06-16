@@ -267,6 +267,9 @@ features
 =
 [
 "
+errhandlingapi
+"
+"
 wincrypt
 "
 ]
