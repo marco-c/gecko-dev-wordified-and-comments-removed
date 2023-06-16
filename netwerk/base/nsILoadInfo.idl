@@ -2101,10 +2101,6 @@ attribute
 AString
 cspNonce
 ;
-attribute
-AString
-integrityMetadata
-;
 const
 uint32_t
 BLOCKING_REASON_NONE

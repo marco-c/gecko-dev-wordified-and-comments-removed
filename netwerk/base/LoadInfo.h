@@ -805,10 +805,6 @@ const
 nsAString
 &
 aCspNonce
-const
-nsAString
-&
-aIntegrityMetadata
 bool
 aSkipContentSniffing
 uint32_t
@@ -1335,9 +1331,6 @@ false
 ;
 nsString
 mCspNonce
-;
-nsString
-mIntegrityMetadata
 ;
 bool
 mSkipContentSniffing

@@ -2251,9 +2251,6 @@ in
 nsICSPEventListener
 aCSPEventListener
 in
-nsILoadInfo
-aLoadInfo
-in
 nsIURI
 aContentLocation
 in
@@ -2262,6 +2259,12 @@ aOriginalURIIfRedirect
 in
 bool
 aSendViolationReports
+in
+AString
+aNonce
+in
+boolean
+aParserCreated
 )
 ;
 %

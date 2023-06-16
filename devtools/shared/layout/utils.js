@@ -3214,8 +3214,9 @@ nsIContentPolicy
 .
 TYPE_SUBDOCUMENT
 null
-null
 uri
+null
+false
 null
 false
 )
