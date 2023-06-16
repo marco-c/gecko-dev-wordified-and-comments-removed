@@ -281,6 +281,7 @@ setWindowState
 (
 newWin
 test_state
+true
 )
 ;
 let
