@@ -655,7 +655,7 @@ mMonitor
 )
 ;
 void
-CloseWithError
+InduceConnectionError
 (
 )
 MOZ_EXCLUDES

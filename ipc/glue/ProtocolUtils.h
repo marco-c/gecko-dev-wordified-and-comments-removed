@@ -1750,11 +1750,6 @@ Close
 )
 ;
 void
-CloseWithError
-(
-)
-;
-void
 SetReplyTimeoutMs
 (
 int32_t

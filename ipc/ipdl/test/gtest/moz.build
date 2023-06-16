@@ -53,6 +53,11 @@ TestBasic
 cpp
 "
 "
+TestInduceConnectionError
+.
+cpp
+"
+"
 TestManyHandles
 .
 cpp
@@ -69,6 +74,11 @@ ipdl
 "
 "
 PTestBasic
+.
+ipdl
+"
+"
+PTestInduceConnectionError
 .
 ipdl
 "

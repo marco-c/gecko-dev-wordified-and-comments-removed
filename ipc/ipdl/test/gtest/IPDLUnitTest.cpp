@@ -1020,8 +1020,10 @@ Port
 (
 )
 ;
-auto
-*
+RefPtr
+<
+IToplevelProtocol
+>
 child
 =
 allocChildActor
