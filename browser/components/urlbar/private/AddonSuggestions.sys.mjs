@@ -1806,7 +1806,7 @@ return
 commands
 ;
 }
-handlePossibleCommand
+handleCommand
 (
 queryContext
 result

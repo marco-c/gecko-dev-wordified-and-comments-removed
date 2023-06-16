@@ -449,6 +449,15 @@ mjs
 "
 private
 /
+PocketSuggestions
+.
+sys
+.
+mjs
+"
+"
+private
+/
 QuickSuggestRemoteSettings
 .
 sys

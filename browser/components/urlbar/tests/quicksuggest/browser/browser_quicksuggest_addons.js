@@ -2821,9 +2821,7 @@ UrlbarTestUtils
 getButtonForResultIndex
 (
 window
-"
 0
-"
 resultIndex
 )
 ;

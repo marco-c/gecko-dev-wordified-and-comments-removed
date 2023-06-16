@@ -711,6 +711,8 @@ merino_wikipedia
 remote_tab
 rs_adm_nonsponsored
 rs_adm_sponsored
+rs_amo
+rs_pocket
 search_engine
 search_history
 search_suggest
@@ -1311,6 +1313,8 @@ merino_wikipedia
 remote_tab
 rs_adm_nonsponsored
 rs_adm_sponsored
+rs_amo
+rs_pocket
 search_engine
 search_history
 search_shortcut_button
@@ -1711,6 +1715,8 @@ merino_wikipedia
 remote_tab
 rs_adm_nonsponsored
 rs_adm_sponsored
+rs_amo
+rs_pocket
 search_engine
 search_history
 search_suggest
@@ -2424,6 +2430,8 @@ merino_wikipedia
 remote_tab
 rs_adm_nonsponsored
 rs_adm_sponsored
+rs_amo
+rs_pocket
 search_engine
 search_history
 search_suggest
