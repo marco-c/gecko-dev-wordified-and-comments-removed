@@ -9,6 +9,17 @@ include
 <
 string
 >
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 cricket
 {
@@ -28,6 +39,7 @@ SELECTED_CONNECTION_DESTROYED
 ICE_CONTROLLER_RECHECK
 }
 ;
+RTC_EXPORT
 std
 :
 :

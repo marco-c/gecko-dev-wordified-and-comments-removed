@@ -63,6 +63,17 @@ ice_transport_internal
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 cricket
 {
@@ -70,6 +81,7 @@ struct
 IceFieldTrials
 ;
 struct
+RTC_EXPORT
 IceRecheckEvent
 {
 IceRecheckEvent
