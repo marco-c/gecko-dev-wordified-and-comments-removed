@@ -1882,11 +1882,6 @@ id
 foo
 "
 }
-sourceId
-:
-"
-foo
-"
 sourceActorId
 :
 undefined
@@ -2022,7 +2017,6 @@ id
 :
 sourceId
 }
-sourceId
 sourceActorId
 :
 undefined
@@ -2703,9 +2697,6 @@ source
 {
 id
 }
-sourceId
-:
-id
 sourceActorId
 :
 undefined
@@ -2883,9 +2874,6 @@ source
 {
 id
 }
-sourceId
-:
-id
 sourceActorId
 :
 undefined
@@ -3065,9 +3053,6 @@ source
 {
 id
 }
-sourceId
-:
-id
 sourceActorId
 :
 undefined
