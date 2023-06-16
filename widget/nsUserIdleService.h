@@ -193,9 +193,6 @@ nsIObserver
 >
 mCategoryObservers
 ;
-bool
-mShutdownInProgress
-;
 PRTime
 mExpectedTriggerTime
 ;
@@ -243,6 +240,13 @@ PollIdleTime
 uint32_t
 *
 aIdleTime
+)
+;
+public
+:
+void
+SetDisabledForShutdown
+(
 )
 ;
 private
