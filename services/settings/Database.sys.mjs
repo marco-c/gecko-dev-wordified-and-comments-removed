@@ -2036,16 +2036,6 @@ e
 }
 )
 ;
-console
-.
-error
-(
-"
-allRecords
-"
-allRecords
-)
-;
 /
 /
 Compare
