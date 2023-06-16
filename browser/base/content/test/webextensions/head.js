@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 AddonTestUtils
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ common
 /
 AddonTestUtils
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 const

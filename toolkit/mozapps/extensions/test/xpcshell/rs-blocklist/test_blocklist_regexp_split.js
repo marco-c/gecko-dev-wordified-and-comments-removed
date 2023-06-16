@@ -291,7 +291,7 @@ BlocklistPrivate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -304,7 +304,9 @@ modules
 /
 Blocklist
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -978,7 +980,7 @@ Blocklist
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -991,7 +993,9 @@ modules
 /
 Blocklist
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

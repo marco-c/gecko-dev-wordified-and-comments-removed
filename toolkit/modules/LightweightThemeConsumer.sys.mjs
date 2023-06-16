@@ -917,7 +917,7 @@ LightweightThemeManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -930,7 +930,9 @@ modules
 /
 LightweightThemeManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

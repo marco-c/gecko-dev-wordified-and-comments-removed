@@ -89,7 +89,7 @@ AddonRepository
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -104,7 +104,9 @@ addons
 /
 AddonRepository
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

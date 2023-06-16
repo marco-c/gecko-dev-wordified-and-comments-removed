@@ -5,7 +5,7 @@ AddonUpdateChecker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -20,7 +20,9 @@ addons
 /
 AddonUpdateChecker
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
