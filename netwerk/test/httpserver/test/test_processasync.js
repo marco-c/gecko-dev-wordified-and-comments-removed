@@ -1253,7 +1253,9 @@ step
 (
 )
 {
-gThreadManager
+Services
+.
+tm
 .
 dispatchToMainThread
 (
