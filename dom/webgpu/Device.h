@@ -317,14 +317,12 @@ const
 aParent
 RawId
 aId
-UniquePtr
-<
+const
 ffi
 :
 :
 WGPULimits
->
-aRawLimits
+&
 )
 ;
 RefPtr
