@@ -4631,11 +4631,6 @@ OfflineAudioContext
 webidl
 "
 "
-OfflineResourceList
-.
-webidl
-"
-"
 OffscreenCanvas
 .
 webidl
