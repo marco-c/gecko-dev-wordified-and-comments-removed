@@ -91,11 +91,10 @@ index
 :
 doc
 :
-Ignore
-a
-source
+Ignoring
+sources
 <
-ignore_a_source
+ignoring_sources
 /
 index
 >

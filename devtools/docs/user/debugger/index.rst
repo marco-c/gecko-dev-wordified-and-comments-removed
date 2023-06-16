@@ -575,14 +575,12 @@ index
 :
 doc
 :
-Black
-box
-a
-source
+Ignoring
+sources
 <
 how_to
 /
-ignore_a_source
+ignoring_sources
 /
 index
 >
