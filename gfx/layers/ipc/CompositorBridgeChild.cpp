@@ -533,6 +533,10 @@ mActorDestroyed
 (
 false
 )
+mPaused
+(
+false
+)
 mFwdTransactionId
 (
 0
@@ -1627,6 +1631,10 @@ return
 false
 ;
 }
+mPaused
+=
+true
+;
 return
 PCompositorBridgeChild
 :
@@ -1654,6 +1662,10 @@ return
 false
 ;
 }
+mPaused
+=
+false
+;
 return
 PCompositorBridgeChild
 :
@@ -1681,6 +1693,10 @@ return
 false
 ;
 }
+mPaused
+=
+false
+;
 return
 PCompositorBridgeChild
 :

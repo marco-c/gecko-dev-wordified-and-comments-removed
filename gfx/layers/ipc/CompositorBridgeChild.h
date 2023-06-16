@@ -515,6 +515,16 @@ return
 mCanSend
 ;
 }
+bool
+IsPaused
+(
+)
+const
+{
+return
+mPaused
+;
+}
 static
 void
 ShutDown
@@ -859,6 +869,9 @@ mCanSend
 ;
 bool
 mActorDestroyed
+;
+bool
+mPaused
 ;
 uint64_t
 mFwdTransactionId
