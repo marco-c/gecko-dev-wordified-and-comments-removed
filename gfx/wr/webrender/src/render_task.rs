@@ -929,6 +929,10 @@ pub
 clip_node_range
 :
 ClipNodeRange
+pub
+needs_scissor_rect
+:
+bool
 }
 #
 [
@@ -2645,6 +2649,9 @@ QuadFlags
 clip_node_range
 :
 ClipNodeRange
+needs_scissor_rect
+:
+bool
 )
 -
 >
@@ -2665,6 +2672,7 @@ transform_id
 edge_flags
 quad_flags
 clip_node_range
+needs_scissor_rect
 }
 )
 }
