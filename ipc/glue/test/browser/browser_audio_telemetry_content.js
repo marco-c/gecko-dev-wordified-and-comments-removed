@@ -73,9 +73,6 @@ false
 expectRDD
 :
 false
-expectError
-:
-true
 }
 )
 ;
@@ -121,7 +118,7 @@ disabled
 "
 ;
 await
-verifyNoTelemetryForProcess
+verifyTelemetryForProcess
 (
 "
 tab
