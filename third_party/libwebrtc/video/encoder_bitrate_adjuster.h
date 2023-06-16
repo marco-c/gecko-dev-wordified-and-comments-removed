@@ -126,7 +126,7 @@ OnEncodedFrame
 DataSize
 size
 int
-spatial_index
+stream_index
 int
 temporal_index
 )

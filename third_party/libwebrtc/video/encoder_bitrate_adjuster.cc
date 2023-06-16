@@ -1237,6 +1237,8 @@ LS_VERBOSE
 Utilization
 factors
 for
+simulcast
+/
 spatial
 index
 "
@@ -1767,7 +1769,7 @@ OnEncodedFrame
 DataSize
 size
 int
-spatial_index
+stream_index
 int
 temporal_index
 )
@@ -1782,7 +1784,7 @@ detector
 =
 overshoot_detectors_
 [
-spatial_index
+stream_index
 ]
 [
 temporal_index
