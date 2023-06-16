@@ -148,10 +148,7 @@ clap
 version
 =
 "
-~
-3
-.
-1
+4
 "
 default
 -
@@ -172,6 +169,9 @@ suggestions
 "
 "
 wrap_help
+"
+"
+string
 "
 ]
 }
