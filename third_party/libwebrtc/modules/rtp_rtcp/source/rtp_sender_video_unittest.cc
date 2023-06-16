@@ -1264,6 +1264,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoRotation
@@ -1406,6 +1408,8 @@ kCaptureTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoSendTiming
@@ -1512,6 +1516,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 )
 ;
@@ -1546,6 +1552,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 )
 ;
@@ -1635,6 +1643,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 )
 ;
@@ -1663,6 +1673,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 )
 ;
@@ -3333,6 +3345,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -3520,6 +3534,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_EQ
@@ -3931,6 +3947,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -4029,6 +4047,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_EQ
@@ -4225,6 +4245,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -4448,6 +4470,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -4706,6 +4730,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -4797,6 +4823,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -4871,6 +4899,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -5225,6 +5255,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -5365,6 +5397,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 RtpGenericFrameDescriptor
@@ -5592,6 +5626,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_EQ
@@ -5760,6 +5796,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoLayersAllocation
@@ -5806,6 +5844,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_TRUE
@@ -5942,6 +5982,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_TRUE
@@ -5981,6 +6023,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_FALSE
@@ -6019,6 +6063,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoLayersAllocation
@@ -6198,6 +6244,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_TRUE
@@ -6287,6 +6335,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoLayersAllocation
@@ -6456,6 +6506,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_TRUE
@@ -6514,6 +6566,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoLayersAllocation
@@ -6685,6 +6739,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_TRUE
@@ -6743,6 +6799,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoLayersAllocation
@@ -6883,6 +6941,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoLayersAllocation
@@ -6929,6 +6989,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_FALSE
@@ -6967,6 +7029,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_TRUE
@@ -7133,6 +7197,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_FALSE
@@ -7169,6 +7235,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_TRUE
@@ -7244,6 +7312,8 @@ kAbsoluteCaptureTimestampMs
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 absl
@@ -7395,6 +7465,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 for
@@ -7509,6 +7581,8 @@ kAbsoluteCaptureTimestampMs
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 absl
@@ -7681,6 +7755,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 absl
@@ -7845,6 +7921,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_FALSE
@@ -7896,6 +7974,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 VideoPlayoutDelay
@@ -7955,6 +8035,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_TRUE
@@ -7993,6 +8075,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 EXPECT_FALSE
@@ -8032,6 +8116,8 @@ kTimestamp
 kFrame
 hdr
 kDefaultExpectedRetransmissionTimeMs
+{
+}
 )
 ;
 ASSERT_TRUE
@@ -8123,6 +8209,8 @@ absl
 :
 :
 nullopt
+{
+}
 )
 )
 ;
@@ -8228,6 +8316,8 @@ absl
 :
 :
 nullopt
+{
+}
 )
 )
 ;
@@ -8345,6 +8435,8 @@ absl
 :
 :
 nullopt
+{
+}
 )
 )
 ;
