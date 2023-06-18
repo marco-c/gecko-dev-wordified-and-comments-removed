@@ -8656,6 +8656,12 @@ rowheader
 &
 &
 !
+IsTable
+(
+)
+&
+&
+!
 nsAccUtils
 :
 :
