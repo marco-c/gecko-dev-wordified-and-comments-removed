@@ -61,10 +61,4 @@ dependencies
 ]
     
 ]
-    
-"
-max_build_output_timeout
-"
-:
-0
 }
