@@ -213,6 +213,7 @@ ClientInfo
 &
 aRight
 )
+noexcept
 :
 mData
 (
@@ -241,6 +242,7 @@ ClientInfo
 &
 aRight
 )
+noexcept
 {
 mData
 .
@@ -619,6 +621,7 @@ PrincipalInfo
 TContentPrincipalInfo
 :
 {
+const
 auto
 &
 p
@@ -662,6 +665,7 @@ PrincipalInfo
 TNullPrincipalInfo
 :
 {
+const
 auto
 &
 p
@@ -719,13 +723,6 @@ GetPrincipal
 )
 const
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 return
 PrincipalInfoToPrincipal
 (
