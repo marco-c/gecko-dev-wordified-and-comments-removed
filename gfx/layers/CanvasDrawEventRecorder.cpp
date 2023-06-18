@@ -38,7 +38,7 @@ layers
 {
 static
 const
-int32_t
+uint8_t
 kCheckpointEventType
 =
 -
@@ -1682,7 +1682,7 @@ return
 false
 ;
 }
-int32_t
+uint8_t
 CanvasEventRingBuffer
 :
 :
@@ -1690,7 +1690,7 @@ ReadNextEvent
 (
 )
 {
-int32_t
+uint8_t
 nextEvent
 ;
 ReadElement

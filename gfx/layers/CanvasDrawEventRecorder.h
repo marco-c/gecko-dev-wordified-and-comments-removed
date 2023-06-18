@@ -250,7 +250,7 @@ int32_t
 aRetryCount
 )
 ;
-int32_t
+uint8_t
 ReadNextEvent
 (
 )
