@@ -15700,6 +15700,15 @@ ProcessStableStateQueue
 }
 NS_WARNING_ASSERTION
 (
+!
+mParams
+.
+LogThisCC
+(
+mShutdownCount
+)
+|
+|
 i
 <
 NORMAL_SHUTDOWN_COLLECTIONS
