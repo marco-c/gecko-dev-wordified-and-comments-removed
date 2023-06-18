@@ -533,11 +533,6 @@ mDisplayHeight
 =
 0
 ;
-bool
-mIsEnableDcompMode
-=
-false
-;
 float
 mPlaybackRate
 =
