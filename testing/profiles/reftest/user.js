@@ -636,16 +636,6 @@ xml
 user_pref
 (
 "
-media
-.
-openUnsupportedTypeWithExternalApp
-"
-false
-)
-;
-user_pref
-(
-"
 places
 .
 history
