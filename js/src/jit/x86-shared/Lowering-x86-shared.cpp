@@ -5440,7 +5440,7 @@ wasm
 SimdOp
 :
 :
-F32x4RelaxedFma
+F32x4RelaxedMadd
 :
 case
 wasm
@@ -5449,7 +5449,7 @@ wasm
 SimdOp
 :
 :
-F32x4RelaxedFnma
+F32x4RelaxedNmadd
 :
 case
 wasm
@@ -5458,7 +5458,7 @@ wasm
 SimdOp
 :
 :
-F64x2RelaxedFma
+F64x2RelaxedMadd
 :
 case
 wasm
@@ -5467,7 +5467,7 @@ wasm
 SimdOp
 :
 :
-F64x2RelaxedFnma
+F64x2RelaxedNmadd
 :
 {
 auto

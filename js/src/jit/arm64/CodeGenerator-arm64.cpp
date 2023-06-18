@@ -20570,7 +20570,7 @@ wasm
 SimdOp
 :
 :
-F32x4RelaxedFma
+F32x4RelaxedMadd
 :
 masm
 .
@@ -20614,7 +20614,7 @@ wasm
 SimdOp
 :
 :
-F32x4RelaxedFnma
+F32x4RelaxedNmadd
 :
 masm
 .
@@ -20658,7 +20658,7 @@ wasm
 SimdOp
 :
 :
-F64x2RelaxedFma
+F64x2RelaxedMadd
 :
 masm
 .
@@ -20702,7 +20702,7 @@ wasm
 SimdOp
 :
 :
-F64x2RelaxedFnma
+F64x2RelaxedNmadd
 :
 masm
 .
