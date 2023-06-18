@@ -122,7 +122,7 @@ async
 function
 startTests
 (
-setupFun
+setupAndCompletionFn
 name
 )
 {
@@ -178,11 +178,15 @@ waitForFullscreenExit
 document
 )
 ;
-setupFun
+let
+promiseSetup
+=
+setupAndCompletionFn
 (
 browser
 )
 ;
+await
 SpecialPowers
 .
 spawn
@@ -236,6 +240,9 @@ click
 ;
 }
 )
+;
+await
+promiseSetup
 ;
 await
 promiseFsState
@@ -309,7 +316,6 @@ spawn
 aBrowsingContext
 [
 ]
-async
 function
 (
 )
@@ -373,11 +379,11 @@ tab
 }
 startTests
 (
-async
 browser
 =
 >
 {
+return
 WaitRemoveDocumentAndCloseTab
 (
 browser
@@ -398,6 +404,7 @@ browser
 =
 >
 {
+return
 WaitRemoveDocumentAndCloseTab
 (
 browser
@@ -419,11 +426,11 @@ tab_close_middle_frame
 ;
 startTests
 (
-async
 browser
 =
 >
 {
+return
 WaitRemoveDocumentAndCloseTab
 (
 browser
