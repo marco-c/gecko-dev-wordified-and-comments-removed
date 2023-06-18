@@ -5644,6 +5644,10 @@ for
 prop
 in
 properties
+.
+values
+(
+)
 :
         
 add_css_property_counters
