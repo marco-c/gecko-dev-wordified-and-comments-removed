@@ -196,7 +196,8 @@ if
 shouldEnterFullscreen
 )
 {
-lastFullscreenPromise
+const
+fullscreenElement
 =
 document
 .
@@ -206,6 +207,16 @@ getElementById
 fullscreen
 "
 )
+;
+fullscreenElement
+.
+focus
+(
+)
+;
+lastFullscreenPromise
+=
+fullscreenElement
 .
 requestFullscreen
 (
