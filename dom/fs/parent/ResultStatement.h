@@ -295,12 +295,9 @@ aValue
 {
 if
 (
-0u
-=
-=
 aValue
 .
-Length
+IsVoid
 (
 )
 )
@@ -309,10 +306,9 @@ return
 mStmt
 -
 >
-BindUTF8StringByName
+BindNullByName
 (
 aField
-aValue
 )
 ;
 }
@@ -320,7 +316,7 @@ return
 mStmt
 -
 >
-BindUTF8StringAsBlobByName
+BindUTF8StringByName
 (
 aField
 aValue

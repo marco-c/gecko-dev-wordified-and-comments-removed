@@ -728,7 +728,6 @@ aDatabaseManager
 GetOrCreateFile
 (
 aFileSlot
-sContentType
 false
 )
 ;
@@ -763,7 +762,6 @@ aDatabaseManager
 GetOrCreateFile
 (
 aFileSlot
-sContentType
 true
 )
 )
@@ -1258,17 +1256,7 @@ expected
 )
 ;
 }
-static
-ContentType
-sContentType
-;
 }
-;
-ContentType
-TestFileSystemQuotaClient
-:
-:
-sContentType
 ;
 TEST_F
 (
