@@ -5411,6 +5411,9 @@ intree
 tool
 "
 ]
+use_subprocess
+=
+True
         
 )
     
@@ -5436,6 +5439,9 @@ _run_mach_command_in_build_env
 (
 self
 args
+use_subprocess
+=
+False
 )
 :
         
@@ -5490,13 +5496,59 @@ _query_mach
 (
 )
         
+if
+use_subprocess
+:
+            
+import
+subprocess
+            
+return_code
+=
+subprocess
+.
+call
+(
+                
+mach
++
+[
+"
+-
+-
+log
+-
+no
+-
+times
+"
+]
++
+args
+env
+=
+env
+cwd
+=
+dirs
+[
+"
+abs_src_dir
+"
+]
+            
+)
+        
+else
+:
+            
 return_code
 =
 self
 .
 run_command
 (
-            
+                
 command
 =
 mach
@@ -5514,7 +5566,7 @@ times
 ]
 +
 args
-            
+                
 cwd
 =
 dirs
@@ -5523,15 +5575,15 @@ dirs
 abs_src_dir
 "
 ]
-            
+                
 env
 =
 env
-            
+                
 error_list
 =
 MakefileErrorList
-            
+                
 output_timeout
 =
 self
@@ -5547,7 +5599,7 @@ max_build_output_timeout
 *
 40
 )
-        
+            
 )
         
 if
