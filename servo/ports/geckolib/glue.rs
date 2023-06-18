@@ -75,6 +75,15 @@ use
 selectors
 :
 :
+matching
+:
+:
+IgnoreNthChildForInvalidation
+;
+use
+selectors
+:
+:
 NthIndexCache
 ;
 use
@@ -13839,6 +13848,10 @@ nth_index_cache
 visited_mode
 quirks_mode
 NeedsSelectorFlags
+:
+:
+No
+IgnoreNthChildForInvalidation
 :
 :
 No
