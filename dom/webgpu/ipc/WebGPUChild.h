@@ -587,8 +587,11 @@ aId
 )
 ;
 static
-void
-ConvertTextureFormatRef
+ffi
+:
+:
+WGPUTextureFormat
+ConvertTextureFormat
 (
 const
 dom
@@ -597,12 +600,6 @@ dom
 GPUTextureFormat
 &
 aInput
-ffi
-:
-:
-WGPUTextureFormat
-&
-aOutput
 )
 ;
 static
