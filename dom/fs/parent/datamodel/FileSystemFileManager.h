@@ -16,15 +16,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 FileSystemTypes
@@ -169,10 +160,7 @@ public
 static
 Result
 <
-UniquePtr
-<
 FileSystemFileManager
->
 QMResult
 >
 CreateFileSystemFileManager

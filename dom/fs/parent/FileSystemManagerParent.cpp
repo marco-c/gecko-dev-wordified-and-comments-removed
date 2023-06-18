@@ -632,6 +632,15 @@ response
 ;
 }
 ;
+const
+ContentType
+&
+type
+=
+VoidCString
+(
+)
+;
 QM_TRY_UNWRAP
 (
 fs
@@ -654,6 +663,7 @@ aRequest
 handle
 (
 )
+type
 aRequest
 .
 create
