@@ -3926,9 +3926,7 @@ Component
 :
 :
 ParentSelector
-=
->
-false
+|
 Component
 :
 :
