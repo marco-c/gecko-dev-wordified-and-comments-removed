@@ -278,6 +278,11 @@ float
 aSize
 =
 nullptr
+bool
+*
+aSmallCaps
+=
+nullptr
 )
 ;
 static

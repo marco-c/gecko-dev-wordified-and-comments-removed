@@ -253,6 +253,9 @@ aWeight
 float
 *
 aSize
+bool
+*
+aSmallCaps
 )
 {
 return
@@ -270,6 +273,7 @@ aStretch
 &
 aWeight
 aSize
+aSmallCaps
 )
 ;
 }
