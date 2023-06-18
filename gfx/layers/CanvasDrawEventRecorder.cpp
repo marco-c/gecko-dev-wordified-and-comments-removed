@@ -83,7 +83,7 @@ const
 uint32_t
 kStreamSize
 =
-64
+512
 *
 1024
 ;
