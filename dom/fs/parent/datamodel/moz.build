@@ -27,6 +27,11 @@ FileSystemDatabaseManagerVersion001
 cpp
 "
 "
+FileSystemDatabaseManagerVersion002
+.
+cpp
+"
+"
 FileSystemDataManager
 .
 cpp
@@ -38,6 +43,11 @@ cpp
 "
 "
 SchemaVersion001
+.
+cpp
+"
+"
+SchemaVersion002
 .
 cpp
 "
