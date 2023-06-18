@@ -163,6 +163,13 @@ h
 #
 include
 "
+GLImages
+.
+h
+"
+#
+include
+"
 GLLibraryEGL
 .
 h

@@ -35,6 +35,17 @@ Logging
 .
 h
 "
+#
+include
+"
+mozilla
+/
+java
+/
+HardwareCodecCapabilityUtilsWrappers
+.
+h
+"
 namespace
 mozilla
 {

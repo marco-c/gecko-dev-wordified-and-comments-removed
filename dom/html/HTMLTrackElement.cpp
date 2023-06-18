@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

@@ -987,6 +987,9 @@ UNKNOWN
 }
 already_AddRefed
 <
+gfx
+:
+:
 DataSourceSurface
 >
 RenderAndroidSurfaceTextureHost
@@ -1043,10 +1046,16 @@ GetFormat
 ;
 RefPtr
 <
+gfx
+:
+:
 DataSourceSurface
 >
 surf
 =
+gfx
+:
+:
 Factory
 :
 :
@@ -1178,6 +1187,9 @@ return
 false
 ;
 }
+gfx
+:
+:
 DataSourceSurface
 :
 :
@@ -1192,6 +1204,9 @@ readback
 >
 Map
 (
+gfx
+:
+:
 DataSourceSurface
 :
 :
