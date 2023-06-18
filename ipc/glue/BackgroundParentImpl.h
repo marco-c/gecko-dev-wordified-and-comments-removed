@@ -2038,12 +2038,10 @@ PLockManagerParent
 >
 AllocPLockManagerParent
 (
-NotNull
-<
-nsIPrincipal
-*
->
-aPrincipal
+const
+ContentPrincipalInfo
+&
+aPrincipalInfo
 const
 nsID
 &

@@ -151,7 +151,6 @@ ClientInfo
 &
 aRight
 )
-noexcept
 ;
 ClientInfo
 &
@@ -163,7 +162,6 @@ ClientInfo
 &
 aRight
 )
-noexcept
 ;
 explicit
 ClientInfo
