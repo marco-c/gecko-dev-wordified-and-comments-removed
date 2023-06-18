@@ -43,11 +43,8 @@ of
 a
 line
 are
+NOT
 collapsed
-(
-per
-CSS
-)
 "
 )
 ;
@@ -227,7 +224,7 @@ fillText
 '
 EE
 '
-100
+150
 37
 .
 5
