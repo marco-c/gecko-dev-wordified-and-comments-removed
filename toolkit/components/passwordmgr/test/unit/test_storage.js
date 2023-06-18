@@ -17,7 +17,6 @@ reloadData
 (
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins

@@ -666,7 +666,6 @@ cleanupDoorhanger
 notif
 )
 ;
-await
 verifyLogins
 (
 expectOutcome

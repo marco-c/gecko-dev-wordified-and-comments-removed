@@ -869,7 +869,6 @@ meta
 timePasswordChanged
 ;
 }
-await
 verifyLogins
 (
 [

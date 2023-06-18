@@ -328,7 +328,7 @@ Services
 .
 logins
 .
-getAllLogins
+getAllLoginsAsync
 (
 )
 ;
