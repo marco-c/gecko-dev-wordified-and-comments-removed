@@ -2246,15 +2246,6 @@ kernel
 "
 Linux
 "
-and
-target
-.
-os
-=
-=
-"
-GNU
-"
 is_mac
 =
 target
