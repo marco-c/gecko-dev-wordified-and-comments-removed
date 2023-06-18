@@ -9055,9 +9055,6 @@ cDate
 ;
 }
 catch
-(
-error
-)
 {
 }
 if
@@ -27284,14 +27281,14 @@ pdfjsVersion
 .
 8
 .
-58
+83
 '
 ;
 const
 pdfjsBuild
 =
 '
-9af50dc35
+46b8f9e2f
 '
 ;
 }
