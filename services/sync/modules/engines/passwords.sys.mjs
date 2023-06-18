@@ -737,7 +737,7 @@ _store
 .
 storage
 .
-getAllLoginsAsync
+getAllLogins
 (
 true
 )
@@ -1773,7 +1773,7 @@ this
 .
 storage
 .
-getAllLoginsAsync
+getAllLogins
 (
 true
 )
@@ -2853,6 +2853,7 @@ usernameField
 )
 ;
 }
+async
 getClientItems
 (
 )
@@ -2860,6 +2861,7 @@ getClientItems
 let
 logins
 =
+await
 Services
 .
 logins
