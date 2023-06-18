@@ -314,6 +314,16 @@ aReturn
 )
 override
 ;
+nsresult
+ResolveSpecialDirectory
+(
+const
+nsAString
+&
+aSpecialDirectory
+)
+override
+;
 void
 ActorDestroy
 (
