@@ -2113,7 +2113,7 @@ rgb9e5ufloat
 rgb10a2unorm
 "
 "
-rg11b10float
+rg11b10ufloat
 "
 /
 /

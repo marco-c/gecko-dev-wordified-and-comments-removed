@@ -921,7 +921,7 @@ dom
 GPUTextureFormat
 :
 :
-Rg11b10float
+Rg11b10ufloat
 :
 result
 .
