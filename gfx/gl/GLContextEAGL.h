@@ -216,9 +216,11 @@ virtual
 bool
 RenewSurface
 (
-nsIWidget
+widget
+:
+:
+CompositorWidget
 *
-aWidget
 )
 override
 {
