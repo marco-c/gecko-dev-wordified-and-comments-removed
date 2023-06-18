@@ -1318,7 +1318,10 @@ topDirectory
 }
 Result
 <
+UniquePtr
+<
 FileSystemFileManager
+>
 QMResult
 >
 FileSystemFileManager
@@ -1349,6 +1352,11 @@ aOriginMetadata
 )
 ;
 return
+MakeUnique
+<
+FileSystemFileManager
+>
+(
 FileSystemFileManager
 (
 std
@@ -1357,6 +1365,7 @@ std
 move
 (
 topDirectory
+)
 )
 )
 ;
