@@ -117,6 +117,13 @@ h
 #
 include
 "
+OutOfMemoryError
+.
+h
+"
+#
+include
+"
 PipelineLayout
 .
 h
@@ -2314,6 +2321,12 @@ error
 .
 SetAsGPUOutOfMemoryError
 (
+)
+=
+new
+OutOfMemoryError
+(
+self
 )
 ;
 break
