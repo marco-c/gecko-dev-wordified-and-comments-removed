@@ -272,7 +272,11 @@ release
 target
 MOZ_NEXT_FIREFOX_REL_TARGET
 \
->
+-
+-
+output
+-
+path
 SCRIPT_DIR
 /
 default_config_env
