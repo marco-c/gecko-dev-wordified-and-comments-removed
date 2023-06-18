@@ -2160,16 +2160,9 @@ Depth
 and
 stencil
 formats
-/
-/
 "
 stencil8
 "
-/
-/
-TODO
-/
-/
 "
 depth16unorm
 "
