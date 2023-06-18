@@ -13962,6 +13962,15 @@ selector_parser
 :
 SelectorParser
 ;
+use
+selectors
+:
+:
+parser
+:
+:
+ParseRelative
+;
 let
 namespaces
 =
@@ -14039,6 +14048,10 @@ new
 mut
 parser_input
 )
+ParseRelative
+:
+:
+No
 )
 {
 Ok
