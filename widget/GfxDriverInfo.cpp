@@ -3847,6 +3847,16 @@ all
 "
 )
 ;
+DECLARE_DRIVER_VENDOR_ID
+(
+MesaVM
+"
+mesa
+/
+vmwgfx
+"
+)
+;
 case
 DriverVendor
 :

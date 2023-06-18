@@ -808,6 +808,7 @@ NonMesaAll
 HardwareMesaAll
 SoftwareMesaAll
 MesaNonIntelNvidiaAtiAll
+MesaVM
 Max
 }
 ;
