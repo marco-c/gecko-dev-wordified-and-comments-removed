@@ -239,6 +239,10 @@ if
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+ScreenPixelDepth
 )
 )
 {
@@ -352,6 +356,10 @@ if
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+ScreenRect
 )
 )
 {
@@ -502,6 +510,10 @@ if
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+ScreenAvailRect
 )
 )
 {
@@ -1132,6 +1144,8 @@ nsScreen
 :
 ShouldResistFingerprinting
 (
+RFPTarget
+aTarget
 )
 const
 {
@@ -1160,10 +1174,7 @@ owner
 >
 ShouldResistFingerprinting
 (
-RFPTarget
-:
-:
-Unknown
+aTarget
 )
 ;
 }

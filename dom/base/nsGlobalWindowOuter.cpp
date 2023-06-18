@@ -15722,7 +15722,7 @@ aCallerType
 RFPTarget
 :
 :
-Unknown
+WindowOuterSize
 )
 )
 {
@@ -16000,7 +16000,7 @@ aCallerType
 RFPTarget
 :
 :
-Unknown
+WindowScreenXY
 )
 )
 {
@@ -16446,7 +16446,7 @@ aCallerType
 RFPTarget
 :
 :
-Unknown
+WindowInnerScreenXY
 )
 )
 {
@@ -16496,7 +16496,7 @@ aCallerType
 RFPTarget
 :
 :
-Unknown
+WindowInnerScreenXY
 )
 )
 {
