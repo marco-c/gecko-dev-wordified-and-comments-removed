@@ -2011,6 +2011,17 @@ options
 {
 const
 {
+prefs
+.
+.
+.
+otherOptions
+}
+=
+options
+;
+const
+{
 cleanup
 runInPage
 }
@@ -2039,8 +2050,6 @@ true
 .
 .
 (
-options
-.
 prefs
 ?
 ?
@@ -2051,7 +2060,7 @@ prefs
 .
 .
 .
-options
+otherOptions
 }
 )
 ;
