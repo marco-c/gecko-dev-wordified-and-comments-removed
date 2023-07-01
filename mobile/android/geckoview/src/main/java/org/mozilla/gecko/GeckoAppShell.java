@@ -519,6 +519,15 @@ mozilla
 .
 geckoview
 .
+CrashHandler
+;
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoResult
 ;
 import
@@ -651,7 +660,7 @@ handlerService
 ;
 }
 Override
-protected
+public
 String
 getAppPackageName
 (
@@ -690,7 +699,7 @@ getPackageName
 ;
 }
 Override
-protected
+public
 Context
 getAppContext
 (
@@ -913,6 +922,7 @@ exceptionMode
 ignore
 "
 )
+public
 static
 synchronized
 String
