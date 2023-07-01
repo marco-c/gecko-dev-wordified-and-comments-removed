@@ -739,9 +739,7 @@ StyleScale
 None
 (
 )
-Nothing
-(
-)
+nullptr
 GetTransformProperty
 (
 )

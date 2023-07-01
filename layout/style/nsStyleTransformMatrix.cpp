@@ -2927,11 +2927,8 @@ StyleScale
 &
 aScale
 const
-Maybe
-<
 ResolvedMotionPathData
->
-&
+*
 aMotion
 const
 StyleTransform
@@ -2969,10 +2966,6 @@ aScale
 if
 (
 aMotion
-.
-isSome
-(
-)
 )
 {
 result

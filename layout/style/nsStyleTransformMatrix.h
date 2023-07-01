@@ -476,14 +476,8 @@ const
 mozilla
 :
 :
-Maybe
-<
-mozilla
-:
-:
 ResolvedMotionPathData
->
-&
+*
 aMotion
 const
 mozilla
