@@ -512,6 +512,12 @@ h
 "
         
 "
+process
+.
+h
+"
+        
+"
 winbase
 .
 h
@@ -519,6 +525,12 @@ h
         
 "
 windef
+.
+h
+"
+        
+"
+windows
 .
 h
 "
