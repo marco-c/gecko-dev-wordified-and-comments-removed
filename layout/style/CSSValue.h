@@ -66,12 +66,8 @@ virtual
 void
 GetCssText
 (
-nsString
+nsAString
 &
-aText
-ErrorResult
-&
-aRv
 )
 =
 0

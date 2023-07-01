@@ -176,7 +176,7 @@ CEReactions
 "
             
 "
-Throws
+SetterThrows
 "
             
 "

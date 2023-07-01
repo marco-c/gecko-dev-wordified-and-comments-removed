@@ -180,9 +180,6 @@ UTF8String
 property
 )
 ;
-[
-Throws
-]
 UTF8String
 getPropertyValue
 (
