@@ -179,7 +179,7 @@ nullptr
 }
 already_AddRefed
 <
-nsISerialEventTarget
+TaskQueue
 >
 AudioSinkWrapper
 :
@@ -2046,6 +2046,15 @@ if
 (
 !
 audioSink
+|
+|
+!
+mAsyncInitTaskQueue
+-
+>
+IsEmpty
+(
+)
 )
 {
 return
