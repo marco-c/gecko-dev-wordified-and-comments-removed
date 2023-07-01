@@ -2125,7 +2125,7 @@ MigrationWizardConstants
 .
 PROGRESS_VALUE
 .
-ERROR
+WARNING
 message
 :
 "

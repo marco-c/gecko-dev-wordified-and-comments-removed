@@ -6304,7 +6304,7 @@ MigrationWizardConstants
 .
 PROGRESS_VALUE
 .
-ERROR
+WARNING
 importedAddonIDs
 ]
 ;

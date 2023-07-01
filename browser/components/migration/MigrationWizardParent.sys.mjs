@@ -2638,7 +2638,7 @@ MigrationWizardConstants
 .
 PROGRESS_VALUE
 .
-ERROR
+WARNING
 message
 :
 await
@@ -2966,7 +2966,7 @@ MigrationWizardConstants
 .
 PROGRESS_VALUE
 .
-ERROR
+WARNING
 message
 :
 await
