@@ -2284,7 +2284,9 @@ isDeleted
 FileSystemRemoveEntryResponse
 response
 (
-NS_OK
+void_t
+{
+}
 )
 ;
 aResolver
@@ -2354,7 +2356,9 @@ IPC_OK
 FileSystemRemoveEntryResponse
 response
 (
-NS_OK
+void_t
+{
+}
 )
 ;
 aResolver
