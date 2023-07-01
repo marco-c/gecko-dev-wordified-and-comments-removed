@@ -237,6 +237,15 @@ LoadInfo
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Maybe
+.
+h
+"
 using
 JS
 :
@@ -614,7 +623,6 @@ StartLoadInternal
 (
 aRequest
 securityFlags
-0
 Nothing
 (
 )

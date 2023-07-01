@@ -1347,6 +1347,9 @@ LoadContextBase
 >
 mLoadContext
 ;
+uint64_t
+mEarlyHintPreloaderId
+;
 }
 ;
 class

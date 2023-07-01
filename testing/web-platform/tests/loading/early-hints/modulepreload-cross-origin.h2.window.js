@@ -26,6 +26,11 @@ works
 in
 early
 hints
+from
+cross
+-
+origin
+url
 "
 )
 ;
@@ -38,7 +43,7 @@ resource
 -
 url
 "
-SAME_ORIGIN_RESOURCES_URL
+CROSS_ORIGIN_RESOURCES_URL
 +
 "
 /

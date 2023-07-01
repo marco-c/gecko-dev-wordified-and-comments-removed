@@ -367,6 +367,10 @@ mLoadContext
 (
 aContext
 )
+mEarlyHintPreloaderId
+(
+0
+)
 {
 MOZ_ASSERT
 (
