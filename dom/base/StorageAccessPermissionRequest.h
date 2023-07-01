@@ -181,6 +181,8 @@ nsCString
 >
 &
 aTopLevelBaseDomain
+bool
+aFrameOnly
 AllowCallback
 &
 &
@@ -226,6 +228,8 @@ nsCString
 >
 &
 aTopLevelBaseDomain
+bool
+aFrameOnly
 AllowCallback
 &
 &
