@@ -6462,12 +6462,11 @@ us3r
 "
 )
 ;
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 login
 )
