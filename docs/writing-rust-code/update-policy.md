@@ -2352,13 +2352,6 @@ May
 June
 6
 |
-*
-*
-Estimated
-*
-*
-|
-|
 Firefox
 115
 |
@@ -2386,6 +2379,13 @@ June
 2023
 July
 4
+|
+*
+*
+Estimated
+*
+*
+|
 |
 Firefox
 116
