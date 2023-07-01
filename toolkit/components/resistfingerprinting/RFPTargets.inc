@@ -360,6 +360,14 @@ DeviceSensors
 )
 ITEM_VALUE
 (
+FrameRate
+1llu
+<
+<
+45
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

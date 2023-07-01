@@ -17058,7 +17058,7 @@ property
 RFPTarget
 :
 :
-Unknown
+FrameRate
 )
 )
 {
