@@ -7,7 +7,7 @@ tcfetch
 .
 3
 .
-1
+2
 pypi
 :
 wpt
