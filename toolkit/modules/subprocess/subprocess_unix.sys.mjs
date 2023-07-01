@@ -648,7 +648,7 @@ Services
 .
 appinfo
 .
-LIBC
+OS
 =
 =
 =
