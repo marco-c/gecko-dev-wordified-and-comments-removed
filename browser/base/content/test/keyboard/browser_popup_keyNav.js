@@ -183,12 +183,14 @@ button
 "
 )
 ;
-forceFocus
+await
+focusAndActivateElement
 (
 hamburgerButton
+(
 )
-;
-await
+=
+>
 expectFocusAfterKey
 (
 "
@@ -201,6 +203,7 @@ gBrowser
 selectedBrowser
 false
 win
+)
 )
 ;
 EventUtils
