@@ -2558,6 +2558,14 @@ Default
 default
 (
 )
+error_reporting_state
+:
+Default
+:
+:
+default
+(
+)
 rules
 :
 Default
