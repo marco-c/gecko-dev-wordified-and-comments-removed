@@ -156,13 +156,10 @@ t
 support
 multiple
 constructors
-(
-bug
-869268
-)
 or
-named
-constructors
+legacy
+factory
+functions
 /
 /
 for

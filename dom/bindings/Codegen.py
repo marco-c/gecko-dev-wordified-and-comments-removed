@@ -13497,7 +13497,7 @@ constructorID
 _ID_Count
 "
         
-namedConstructors
+legacyFactoryFunctions
 =
 "
 "
@@ -13514,7 +13514,7 @@ interface
 legacyFactoryFunctions
 :
             
-namedConstructors
+legacyFactoryFunctions
 +
 =
 (
@@ -13612,7 +13612,7 @@ nullptr
 static
 const
 LegacyFactoryFunction
-namedConstructors
+legacyFactoryFunctions
 [
 ]
 =
@@ -13620,7 +13620,7 @@ namedConstructors
               
 *
 {
-namedConstructors
+legacyFactoryFunctions
 }
               
 {
@@ -13651,9 +13651,9 @@ constructorID
 =
 constructorID
             
-namedConstructors
+legacyFactoryFunctions
 =
-namedConstructors
+legacyFactoryFunctions
         
 )
 def
@@ -21222,16 +21222,16 @@ legacyFactoryFunctions
 0
 :
             
-namedConstructors
+legacyFactoryFunctions
 =
 "
-namedConstructors
+legacyFactoryFunctions
 "
         
 else
 :
             
-namedConstructors
+legacyFactoryFunctions
 =
 "
 nullptr
@@ -21578,7 +21578,7 @@ constructArgs
 isConstructorChromeOnly
 }
 {
-namedConstructors
+legacyFactoryFunctions
 }
                                         
 interfaceCache
@@ -21651,9 +21651,9 @@ toStringBool
 isConstructorChromeOnly
 )
             
-namedConstructors
+legacyFactoryFunctions
 =
-namedConstructors
+legacyFactoryFunctions
             
 interfaceCache
 =
@@ -119314,8 +119314,9 @@ TypeError
 (
                 
 "
-Named
-constructors
+Legacy
+factory
+functions
 are
 not
 supported
@@ -119323,10 +119324,6 @@ for
 JS
 implemented
 WebIDL
-.
-See
-bug
-851287
 .
 "
             
