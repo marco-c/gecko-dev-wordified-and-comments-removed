@@ -40,6 +40,11 @@ FileSystemManagerParentFactory
 h
 "
 "
+FileSystemParentTypes
+.
+h
+"
+"
 FileSystemQuotaClient
 .
 h
