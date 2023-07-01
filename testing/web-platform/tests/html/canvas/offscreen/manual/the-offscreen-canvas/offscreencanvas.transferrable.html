@@ -400,13 +400,6 @@ testException
 '
 )
 ;
-testException
-(
-'
-webgl
-'
-)
-;
 }
 "
 Test
@@ -415,8 +408,10 @@ transfer
 an
 OffscreenCanvas
 that
-has
+already
+have
 a
+2d
 context
 throws
 exception
@@ -472,7 +467,7 @@ offscreenCanvas
 assert_throws_dom
 (
 "
-InvalidStateError
+DataCloneError
 "
 function
 (
