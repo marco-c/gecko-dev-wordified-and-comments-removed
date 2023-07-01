@@ -13023,7 +13023,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+MediaDevices
 )
 ;
 if
@@ -15951,7 +15951,7 @@ aCallerType
 RFPTarget
 :
 :
-Unknown
+MediaDevices
 )
 ;
 return
