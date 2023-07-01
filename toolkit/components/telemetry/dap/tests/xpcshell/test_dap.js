@@ -197,6 +197,8 @@ new
 Uint8Array
 (
 [
+0
+41
 47
 0
 32
@@ -250,6 +252,8 @@ new
 Uint8Array
 (
 [
+0
+41
 42
 0
 32
@@ -412,7 +416,7 @@ available
 )
 =
 =
-432
+366
 |
 |
 body
@@ -422,7 +426,7 @@ available
 )
 =
 =
-20720
+20654
 "
 Wrong
 request
@@ -501,13 +505,14 @@ hpkeConfigHandler
 ;
 server
 .
-registerPathHandler
+registerPrefixHandler
 (
 "
 /
 leader_endpoint
 /
-upload
+tasks
+/
 "
 uploadHandler
 )
@@ -713,6 +718,9 @@ success
 testGetValue
 (
 )
+?
+?
+0
 ;
 Assert
 .
