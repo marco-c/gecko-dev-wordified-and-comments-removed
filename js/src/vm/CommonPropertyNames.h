@@ -2852,6 +2852,15 @@ maxOffset
 \
 MACRO_
 (
+mergeFields
+mergeFields
+"
+mergeFields
+"
+)
+\
+MACRO_
+(
 message
 message
 "
