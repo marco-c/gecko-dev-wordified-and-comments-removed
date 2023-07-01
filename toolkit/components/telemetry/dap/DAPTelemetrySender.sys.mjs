@@ -825,9 +825,6 @@ sendReport
 task
 .
 leader_endpoint
-task
-.
-id_base64
 report
 )
 ;
@@ -1343,7 +1340,6 @@ async
 sendReport
 (
 leader_endpoint
-task_id
 report
 )
 {
@@ -1354,15 +1350,7 @@ leader_endpoint
 +
 "
 /
-tasks
-/
-"
-+
-task_id
-+
-"
-/
-reports
+upload
 "
 ;
 try
@@ -1378,7 +1366,7 @@ upload_path
 method
 :
 "
-PUT
+POST
 "
 headers
 :

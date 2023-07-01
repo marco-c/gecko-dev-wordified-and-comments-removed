@@ -17,7 +17,7 @@ crate
 field
 :
 :
-FftFriendlyFieldElement
+FieldElement
 ;
 use
 crate
@@ -125,7 +125,7 @@ Mul
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 {
 n
@@ -142,7 +142,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 Mul
 <
@@ -416,7 +416,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 Gadget
 <
@@ -616,7 +616,7 @@ PolyEval
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 {
 poly
@@ -639,7 +639,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 PolyEval
 <
@@ -718,7 +718,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 PolyEval
 <
@@ -1100,7 +1100,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 Gadget
 <
@@ -1328,7 +1328,7 @@ BlindPolyEval
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 {
 poly
@@ -1351,7 +1351,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 BlindPolyEval
 <
@@ -1834,7 +1834,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 Gadget
 <
@@ -2059,7 +2059,7 @@ ParallelSumGadget
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 G
 >
 :
@@ -2101,7 +2101,7 @@ ParallelSum
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 G
 :
 Gadget
@@ -2127,7 +2127,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 G
 :
 '
@@ -2178,7 +2178,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 G
 :
 '
@@ -2538,7 +2538,7 @@ ParallelSumMultithreaded
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 G
 :
 Gadget
@@ -2585,7 +2585,7 @@ G
 where
 F
 :
-FftFriendlyFieldElement
+FieldElement
 +
 Sync
 +
@@ -2715,7 +2715,7 @@ G
 Clone
 F
 :
-FftFriendlyFieldElement
+FieldElement
 {
 ParallelSumFoldState
 {
@@ -2786,7 +2786,7 @@ G
 where
 F
 :
-FftFriendlyFieldElement
+FieldElement
 +
 Sync
 +
@@ -3140,7 +3140,7 @@ gadget_call_check
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 G
 :
 Gadget
@@ -3256,7 +3256,7 @@ gadget_call_poly_check
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 G
 :
 Gadget
@@ -3493,26 +3493,6 @@ super
 :
 *
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-multithreaded
-"
-)
-]
-use
-crate
-:
-:
-field
-:
-:
-FieldElement
-;
 use
 crate
 :
@@ -3522,7 +3502,7 @@ field
 :
 {
 random_vector
-Field64
+Field96
 as
 TestField
 }
@@ -4268,7 +4248,7 @@ gadget_test
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 G
 :
 Gadget

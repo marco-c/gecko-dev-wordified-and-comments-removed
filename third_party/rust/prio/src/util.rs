@@ -6,7 +6,7 @@ field
 :
 :
 {
-FftFriendlyFieldElement
+FieldElement
 FieldError
 }
 ;
@@ -101,7 +101,7 @@ UnpackedProof
 a
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 {
 pub
@@ -159,7 +159,7 @@ UnpackedProofMut
 a
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 {
 pub
@@ -216,7 +216,7 @@ unpack_proof
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 (
 proof
@@ -323,7 +323,7 @@ unpack_proof_mut
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 (
 proof
@@ -431,7 +431,7 @@ reconstruct_shares
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 (
 share1
@@ -574,9 +574,8 @@ field
 :
 :
 {
+Field32
 Field64
-FieldElement
-FieldPrio2
 }
 ;
 use
@@ -594,14 +593,14 @@ share
 &
 mut
 [
-FieldPrio2
+Field32
 ]
 )
 -
 >
 Vec
 <
-FieldPrio2
+Field32
 >
 {
 use
@@ -644,7 +643,7 @@ share2
 vec
 !
 [
-FieldPrio2
+Field32
 :
 :
 zero
@@ -695,7 +694,7 @@ iter_mut
 *
 f
 =
-FieldPrio2
+Field32
 :
 :
 from
@@ -765,7 +764,7 @@ share
 vec
 !
 [
-FieldPrio2
+Field32
 :
 :
 from
@@ -796,7 +795,7 @@ unpacked
 .
 f0
 =
-FieldPrio2
+Field32
 :
 :
 from
@@ -821,7 +820,7 @@ short_share
 vec
 !
 [
-FieldPrio2
+Field32
 :
 :
 from
@@ -958,7 +957,7 @@ share1
 vec
 !
 [
-FieldPrio2
+Field32
 :
 :
 zero

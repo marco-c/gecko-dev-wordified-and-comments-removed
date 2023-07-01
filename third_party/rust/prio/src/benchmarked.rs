@@ -1,12 +1,4 @@
 #
-!
-[
-doc
-(
-hidden
-)
-]
-#
 [
 cfg
 (
@@ -42,7 +34,7 @@ crate
 field
 :
 :
-FftFriendlyFieldElement
+FieldElement
 ;
 use
 crate
@@ -83,7 +75,7 @@ benchmarked_iterative_fft
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 (
 outp
@@ -123,7 +115,7 @@ benchmarked_recursive_fft
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 (
 outp
@@ -186,7 +178,7 @@ benchmarked_gadget_mul_call_poly_fft
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 (
 g
@@ -237,7 +229,7 @@ benchmarked_gadget_mul_call_poly_direct
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 (
 g
@@ -299,7 +291,7 @@ benchmarked_v2_prove
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 (
 data

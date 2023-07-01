@@ -19,9 +19,7 @@ field
 :
 :
 {
-FftFriendlyFieldElement
 FieldElement
-FieldElementWithInteger
 FieldError
 }
 ;
@@ -243,24 +241,6 @@ String
 error
 (
 "
-invalid
-paramter
-:
-{
-0
-}
-"
-)
-]
-InvalidParameter
-(
-String
-)
-#
-[
-error
-(
-"
 FFT
 error
 :
@@ -360,7 +340,7 @@ Debug
 type
 Field
 :
-FftFriendlyFieldElement
+FieldElement
 ;
 fn
 encode_measurement
@@ -881,8 +861,6 @@ got
 }
 ;
 want
-at
-least
 {
 }
 "
@@ -891,9 +869,11 @@ prove_rand
 len
 (
 )
+self
+.
 prove_rand_len
-+
-inner_arity
+(
+)
 )
 )
 )
@@ -1160,7 +1140,7 @@ Self
 :
 Field
 as
-FieldElementWithInteger
+FieldElement
 >
 :
 :
@@ -1720,7 +1700,7 @@ Self
 :
 Field
 as
-FieldElementWithInteger
+FieldElement
 >
 :
 :
@@ -1768,7 +1748,6 @@ encountered
 2
 ^
 {
-m
 }
 -
 th
@@ -1776,6 +1755,7 @@ root
 of
 unity
 "
+m
 )
 )
 )
@@ -2028,7 +2008,7 @@ Self
 :
 Field
 as
-FieldElementWithInteger
+FieldElement
 >
 :
 :
@@ -2593,7 +2573,7 @@ Gadget
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 :
 Debug
@@ -2708,7 +2688,7 @@ ProveShimGadget
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 {
 inner
@@ -2738,7 +2718,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 ProveShimGadget
 <
@@ -2859,7 +2839,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 Gadget
 <
@@ -3073,7 +3053,7 @@ QueryShimGadget
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 {
 inner
@@ -3115,7 +3095,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 QueryShimGadget
 <
@@ -3349,7 +3329,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 Gadget
 <
@@ -4067,7 +4047,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 Type
 for
@@ -4853,7 +4833,7 @@ impl
 <
 F
 :
-FftFriendlyFieldElement
+FieldElement
 >
 Type
 for
