@@ -6,16 +6,6 @@ ACCESSIBILITY
 "
 ]
 :
-IPDL_SOURCES
-+
-=
-[
-"
-PDocAccessible
-.
-ipdl
-"
-]
 EXPORTS
 .
 mozilla
