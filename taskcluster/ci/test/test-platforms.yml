@@ -694,6 +694,12 @@ linux2204
 wayland
 -
 tests
+-
+web
+-
+platform
+-
+tests
 linux2204
 -
 64
@@ -721,6 +727,12 @@ sets
 linux2204
 -
 wayland
+-
+tests
+-
+web
+-
+platform
 -
 tests
 #

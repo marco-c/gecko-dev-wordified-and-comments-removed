@@ -570,6 +570,14 @@ android
 :
 [
 ]
+.
+*
+wayland
+.
+*
+:
+[
+]
 windows
 .
 *

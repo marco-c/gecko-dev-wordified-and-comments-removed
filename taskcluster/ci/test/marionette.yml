@@ -241,7 +241,11 @@ platform
 :
 .
 *
+(
 tsan
+|
+wayland
+)
 .
 *
 :
