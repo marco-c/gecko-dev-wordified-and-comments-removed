@@ -64,6 +64,9 @@ a
 simple
 page
 "
+threadsCount
+:
+1
 }
 ;
 module
