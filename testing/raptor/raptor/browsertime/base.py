@@ -685,6 +685,11 @@ self
 .
 config
 test
+debug_mode
+=
+self
+.
+debug_mode
 )
             
 test
@@ -1084,6 +1089,20 @@ self
 playback
 =
 None
+        
+if
+self
+.
+benchmark
+:
+            
+self
+.
+benchmark
+.
+stop_http_server
+(
+)
     
 def
 check_for_crashes
