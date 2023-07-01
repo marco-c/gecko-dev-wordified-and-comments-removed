@@ -978,9 +978,13 @@ s
 )
 ;
 return
-IPC_FAIL
+IPC_FAIL_UNSAFE_PRINTF
 (
 aSource
+"
+%
+s
+"
 error
 .
 get

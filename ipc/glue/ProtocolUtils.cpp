@@ -263,7 +263,7 @@ IPCResult
 IPCResult
 :
 :
-Fail
+FailImpl
 (
 NotNull
 <
