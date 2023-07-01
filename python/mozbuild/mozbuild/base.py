@@ -1609,12 +1609,11 @@ import
 CommandSiteManager
         
 from
-mach
+mozboot
 .
 util
 import
 get_state_dir
-get_virtualenv_base_dir
         
 if
 self
@@ -1657,11 +1656,18 @@ self
 .
 _virtualenv_name
                 
-get_virtualenv_base_dir
+os
+.
+path
+.
+join
 (
 self
 .
-topsrcdir
+topobjdir
+"
+_virtualenvs
+"
 )
             
 )

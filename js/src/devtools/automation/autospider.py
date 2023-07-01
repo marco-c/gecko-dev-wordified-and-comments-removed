@@ -4780,22 +4780,35 @@ if
 use_minidump
 :
     
+venv_python
+=
+os
+.
+path
+.
+join
+(
+OBJDIR
+"
+_virtualenvs
+"
+"
+build
+"
+"
+bin
+"
+"
+python3
+"
+)
+    
 run_command
 (
         
 [
             
-mach
-            
-"
-python
-"
-            
-"
-virtualenv
-=
-build
-"
+venv_python
             
 os
 .

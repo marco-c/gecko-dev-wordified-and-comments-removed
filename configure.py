@@ -2161,6 +2161,19 @@ build
         
 return
     
+topobjdir
+=
+os
+.
+path
+.
+realpath
+(
+"
+.
+"
+)
+    
 topsrcdir
 =
 os
@@ -2211,13 +2224,6 @@ activate
 (
 )
     
-from
-mach
-.
-util
-import
-get_virtualenv_base_dir
-    
 build_site
 =
 CommandSiteManager
@@ -2233,9 +2239,16 @@ None
 build
 "
         
-get_virtualenv_base_dir
+os
+.
+path
+.
+join
 (
-topsrcdir
+topobjdir
+"
+_virtualenvs
+"
 )
     
 )
