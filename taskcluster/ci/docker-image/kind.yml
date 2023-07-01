@@ -1108,7 +1108,7 @@ agb
 )
 parent
 :
-debian11
+debian12
 -
 base
 fetch
@@ -1150,7 +1150,7 @@ build
 )
 parent
 :
-debian11
+debian12
 -
 base
 gdb
@@ -1165,7 +1165,7 @@ gdb
 )
 parent
 :
-debian11
+debian12
 -
 amd64
 -
