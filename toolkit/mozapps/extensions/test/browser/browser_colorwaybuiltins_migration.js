@@ -971,9 +971,11 @@ promiseInstallEvent
 "
 onInstallEnded
 "
-addon
+install
 =
 >
+install
+.
 addon
 .
 id
@@ -989,9 +991,11 @@ promiseInstallEvent
 "
 onInstallEnded
 "
-addon
+install
 =
 >
+install
+.
 addon
 .
 id

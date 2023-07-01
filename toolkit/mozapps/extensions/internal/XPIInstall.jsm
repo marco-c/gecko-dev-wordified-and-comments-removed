@@ -8501,6 +8501,9 @@ async
 postpone
 (
 resumeFn
+requiresRestart
+=
+true
 )
 {
 this
@@ -8567,7 +8570,7 @@ this
 .
 stageInstall
 (
-true
+requiresRestart
 stagedAddon
 true
 )
@@ -12125,6 +12128,7 @@ install
 postpone
 (
 returnFn
+requiresRestart
 )
 {
 return
@@ -12136,6 +12140,7 @@ this
 postpone
 (
 returnFn
+requiresRestart
 )
 ;
 }
