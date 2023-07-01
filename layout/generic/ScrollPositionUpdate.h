@@ -153,6 +153,8 @@ static
 ScrollPositionUpdate
 NewSmoothScroll
 (
+ScrollMode
+aMode
 ScrollOrigin
 aOrigin
 nsPoint

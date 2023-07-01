@@ -4008,6 +4008,7 @@ const
 nsPoint
 &
 aDestination
+ScrollMode
 ScrollOrigin
 mozilla
 :
