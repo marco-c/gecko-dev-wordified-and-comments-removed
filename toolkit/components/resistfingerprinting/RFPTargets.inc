@@ -368,6 +368,14 @@ FrameRate
 )
 ITEM_VALUE
 (
+RoundWindowSize
+1llu
+<
+<
+46
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
