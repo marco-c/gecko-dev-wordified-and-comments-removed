@@ -1031,15 +1031,16 @@ post_startup_delay
 POST_DELAY_CONDPROF
 )
         
-else
-:
+elif
+(
             
-if
 self
 .
 debug_mode
+        
+)
 :
-                
+            
 self
 .
 post_startup_delay
@@ -1049,10 +1050,10 @@ min
 post_startup_delay
 POST_DELAY_DEBUG
 )
-            
+        
 else
 :
-                
+            
 self
 .
 post_startup_delay
@@ -5270,7 +5271,7 @@ rb
 "
 )
 as
-plist
+plist_file_content
 :
                                 
 plist
@@ -5279,7 +5280,7 @@ plistlib
 .
 load
 (
-plist
+plist_file_content
 )
                         
 except

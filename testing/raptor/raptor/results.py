@@ -2909,10 +2909,7 @@ load_existing
             
 pass
         
-else
-:
-            
-if
+elif
 len
 (
 raw_btresults
@@ -2924,11 +2921,10 @@ int
 page_cycles
 )
 :
-                
+            
 raise
 MissingResultsError
 (
-                    
 "
 Missing
 results
@@ -2942,7 +2938,6 @@ page
 cycle
 .
 "
-                
 )
         
 page_counter
@@ -3369,6 +3364,10 @@ v
                                 
 continue
                             
+filtered_k
+=
+k
+                            
 for
 name_filter
 in
@@ -3381,9 +3380,9 @@ split
 )
 :
                                 
-k
+filtered_k
 =
-k
+filtered_k
 .
 replace
 (
@@ -3409,9 +3408,11 @@ measurements
 .
 setdefault
 (
-k
+                                    
+filtered_k
 [
 ]
+                                
 )
 .
 extend
@@ -3431,9 +3432,11 @@ measurements
 .
 setdefault
 (
-k
+                                    
+filtered_k
 [
 ]
+                                
 )
 .
 append
