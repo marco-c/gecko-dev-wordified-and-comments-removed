@@ -5,7 +5,7 @@ SiteDataManager
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -17,9 +17,7 @@ modules
 /
 SiteDataManager
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

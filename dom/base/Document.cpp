@@ -84998,7 +84998,7 @@ nsIBrowserUsage
 >
 bu
 =
-do_ImportESModule
+do_ImportModule
 (
 "
 resource
@@ -85010,9 +85010,7 @@ modules
 /
 BrowserUsageTelemetry
 .
-sys
-.
-mjs
+jsm
 "
 fallible
 )

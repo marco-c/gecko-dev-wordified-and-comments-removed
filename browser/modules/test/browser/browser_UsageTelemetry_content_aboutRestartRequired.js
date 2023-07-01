@@ -29,7 +29,7 @@ TabCrashHandler
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -41,9 +41,7 @@ modules
 /
 ContentCrashHandlers
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

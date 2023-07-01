@@ -146,9 +146,9 @@ lazy
 {
 }
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 lazy
 {
@@ -164,9 +164,7 @@ modules
 /
 AboutNewTab
 .
-sys
-.
-mjs
+jsm
 "
 BrowserWindowTracker
 :
@@ -180,9 +178,7 @@ modules
 /
 BrowserWindowTracker
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

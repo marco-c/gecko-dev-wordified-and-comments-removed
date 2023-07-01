@@ -36,7 +36,7 @@ HomePage
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -48,9 +48,7 @@ modules
 /
 HomePage
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
