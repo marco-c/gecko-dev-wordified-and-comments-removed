@@ -1297,7 +1297,7 @@ aListenerId
 async
 PLockManager
 (
-ContentPrincipalInfo
+nsIPrincipal
 aPrincipalInfo
 nsID
 aClientId
