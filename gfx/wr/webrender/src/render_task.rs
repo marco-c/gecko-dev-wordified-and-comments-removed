@@ -914,10 +914,6 @@ prim_spatial_node_index
 :
 SpatialNodeIndex
 pub
-raster_spatial_node_index
-:
-SpatialNodeIndex
-pub
 transform_id
 :
 TransformPaletteId
@@ -2632,9 +2628,6 @@ new_prim
 prim_spatial_node_index
 :
 SpatialNodeIndex
-raster_spatial_node_index
-:
-SpatialNodeIndex
 device_pixel_scale
 :
 DevicePixelScale
@@ -2672,7 +2665,6 @@ Prim
 PrimTask
 {
 prim_spatial_node_index
-raster_spatial_node_index
 device_pixel_scale
 content_origin
 prim_address
