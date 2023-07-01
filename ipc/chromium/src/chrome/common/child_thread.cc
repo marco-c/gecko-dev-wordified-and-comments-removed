@@ -182,7 +182,6 @@ Channel
 :
 :
 MODE_CLIENT
-nullptr
 )
 ;
 #
