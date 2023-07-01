@@ -699,6 +699,12 @@ mActiveKeyboardBlock
 ;
 RefPtr
 <
+TouchBlockState
+>
+mPrevActiveTouchBlock
+;
+RefPtr
+<
 AsyncPanZoomController
 >
 mLastActiveApzc
