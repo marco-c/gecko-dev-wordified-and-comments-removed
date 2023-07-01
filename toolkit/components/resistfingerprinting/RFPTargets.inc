@@ -400,6 +400,14 @@ MediaError
 )
 ITEM_VALUE
 (
+DOMStyleOsxFontSmoothing
+1llu
+<
+<
+50
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

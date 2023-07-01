@@ -6190,7 +6190,7 @@ GetDocShell
 RFPTarget
 :
 :
-Unknown
+DOMStyleOsxFontSmoothing
 )
 )
 {
