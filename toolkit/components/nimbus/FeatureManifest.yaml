@@ -7913,7 +7913,6 @@ description
 :
 >
 -
-"
 A
 map
 of
@@ -7929,13 +7928,13 @@ state
 of
 the
 '
-disabled
+enabled
 '
 flag
 for
 that
 metric
-"
+.
 majorRelease2022
 :
 description
