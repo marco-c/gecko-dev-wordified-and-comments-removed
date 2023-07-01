@@ -29667,7 +29667,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+ScreenOrientation
 )
 )
 {
