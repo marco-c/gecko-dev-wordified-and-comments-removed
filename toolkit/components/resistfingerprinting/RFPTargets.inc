@@ -491,10 +491,3 @@ ITEM_VALUE
 IsAlwaysEnabledForPrecompute
 0
 )
-ITEM_VALUE
-(
-Unknown
-0xffffffff
-'
-ffffffff
-)

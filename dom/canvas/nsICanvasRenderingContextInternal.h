@@ -856,14 +856,6 @@ mozilla
 :
 RFPTarget
 aTarget
-=
-mozilla
-:
-:
-RFPTarget
-:
-:
-Unknown
 )
 const
 ;
