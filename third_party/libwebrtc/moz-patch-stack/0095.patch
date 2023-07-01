@@ -365,10 +365,10 @@ webrtc_libyuv
 .
 cc
 index
-d07d739119
+4c6911b4a3
 .
 .
-8c68162624
+05a4b184c2
 100644
 -
 -
@@ -483,10 +483,10 @@ VideoType
 kUnknown
 :
 -
-92
+93
 6
 +
-94
+95
 8
 int
 ConvertVideoType
