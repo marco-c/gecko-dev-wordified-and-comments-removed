@@ -183,16 +183,6 @@ aDocument
 )
 final
 ;
-NS_IMETHOD
-GetVirtualCursor
-(
-nsIAccessiblePivot
-*
-*
-aVirtualCursor
-)
-final
-;
 xpcAccessibleGeneric
 *
 GetAccessible
