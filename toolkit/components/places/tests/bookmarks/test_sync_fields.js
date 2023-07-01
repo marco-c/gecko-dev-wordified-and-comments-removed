@@ -1595,7 +1595,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1617,7 +1617,7 @@ index
 )
 ;
 return
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (
@@ -1638,7 +1638,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1661,7 +1661,7 @@ title
 )
 ;
 return
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (
@@ -1679,7 +1679,7 @@ let
 id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1707,7 +1707,7 @@ let
 id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

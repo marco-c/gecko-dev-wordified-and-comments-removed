@@ -1293,7 +1293,7 @@ moved
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

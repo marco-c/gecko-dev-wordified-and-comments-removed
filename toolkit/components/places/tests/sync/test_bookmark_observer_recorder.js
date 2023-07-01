@@ -1853,7 +1853,7 @@ let
 localIdForD
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1981,7 +1981,7 @@ let
 localItemIds
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseManyItemIds
 (

@@ -734,7 +734,7 @@ let
 localItemIds
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseManyItemIds
 (
@@ -6220,7 +6220,7 @@ let
 localItemIds
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseManyItemIds
 (
@@ -11068,7 +11068,7 @@ let
 localItemIds
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseManyItemIds
 (
@@ -12264,7 +12264,7 @@ let
 localItemIds
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseManyItemIds
 (

@@ -136,7 +136,7 @@ let
 fxBmkId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -330,7 +330,7 @@ let
 tbBmkId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -495,7 +495,7 @@ let
 folderId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

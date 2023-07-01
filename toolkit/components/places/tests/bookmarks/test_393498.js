@@ -521,7 +521,7 @@ observer
 .
 _itemTitleChangedId
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

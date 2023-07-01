@@ -352,7 +352,7 @@ setup
 gUnfiledFolderId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

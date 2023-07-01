@@ -180,7 +180,7 @@ TAG_NAME
 bookmarkId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

@@ -78,7 +78,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -91,7 +91,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -231,7 +231,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -244,7 +244,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -396,7 +396,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -409,7 +409,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -565,7 +565,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -578,7 +578,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -746,7 +746,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -759,7 +759,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -897,7 +897,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1008,7 +1008,7 @@ let
 tagId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1021,7 +1021,7 @@ let
 tagParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1301,7 +1301,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1473,7 +1473,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1651,7 +1651,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1805,7 +1805,7 @@ let
 bmItemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2157,7 +2157,7 @@ let
 bmItemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2395,7 +2395,7 @@ let
 bmItemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2600,7 +2600,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2613,7 +2613,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2805,7 +2805,7 @@ let
 itemId1
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2818,7 +2818,7 @@ let
 parentId1
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2831,7 +2831,7 @@ let
 itemId2
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2844,7 +2844,7 @@ let
 parentId2
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3037,7 +3037,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3050,7 +3050,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3202,7 +3202,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3292,7 +3292,7 @@ let
 tagId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3305,7 +3305,7 @@ let
 tagParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3521,7 +3521,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3611,7 +3611,7 @@ let
 tagParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3828,7 +3828,7 @@ let
 folder1Id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3841,7 +3841,7 @@ let
 folder1ParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3896,7 +3896,7 @@ let
 bmItemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3935,7 +3935,7 @@ let
 folder2Id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3990,7 +3990,7 @@ let
 bm2ItemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4327,7 +4327,7 @@ const
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4765,7 +4765,7 @@ let
 folder1Id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4778,7 +4778,7 @@ let
 folder1ParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4833,7 +4833,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4846,7 +4846,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4887,7 +4887,7 @@ let
 folder2Id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4900,7 +4900,7 @@ let
 folder2ParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4957,7 +4957,7 @@ let
 toolbarBmId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -4970,7 +4970,7 @@ let
 toolbarBmParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -5027,7 +5027,7 @@ let
 menuBmId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -5040,7 +5040,7 @@ let
 menuBmParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -5386,7 +5386,7 @@ let
 folder1Id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -5399,7 +5399,7 @@ let
 folder1ParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -5454,7 +5454,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -5495,7 +5495,7 @@ let
 folder2Id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -5508,7 +5508,7 @@ let
 folder2ParentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -5541,7 +5541,7 @@ let
 parentId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -6018,7 +6018,7 @@ let
 childId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -6135,7 +6135,7 @@ let
 toolbarItemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -6167,7 +6167,7 @@ let
 toolbarBmGuid
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (
@@ -6214,7 +6214,7 @@ let
 menuFolderId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
