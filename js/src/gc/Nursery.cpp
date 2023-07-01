@@ -10718,6 +10718,7 @@ sweepMapAndSetObjects
 )
 {
 auto
+*
 gcx
 =
 runtime
@@ -10732,6 +10733,7 @@ gcContext
 for
 (
 auto
+*
 mapobj
 :
 mapsWithNurseryMemory_
@@ -10756,6 +10758,7 @@ clearAndFree
 for
 (
 auto
+*
 setobj
 :
 setsWithNurseryMemory_

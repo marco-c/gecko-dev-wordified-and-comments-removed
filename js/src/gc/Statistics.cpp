@@ -1285,6 +1285,7 @@ maxPause
 ;
 for
 (
+const
 auto
 &
 slice
@@ -9584,6 +9585,7 @@ endIndex
 +
 )
 {
+const
 auto
 *
 startSlice
@@ -9594,6 +9596,7 @@ slices_
 startIndex
 ]
 ;
+const
 auto
 &
 endSlice

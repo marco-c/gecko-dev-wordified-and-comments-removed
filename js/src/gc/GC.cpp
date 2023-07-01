@@ -6290,6 +6290,7 @@ const
 {
 for
 (
+const
 auto
 &
 marker
@@ -6994,6 +6995,7 @@ const
 {
 for
 (
+const
 auto
 &
 p
@@ -25613,6 +25615,7 @@ cell
 )
 ;
 auto
+*
 runtime
 =
 cell
@@ -25789,7 +25792,9 @@ isTenured
 return
 ;
 }
+const
 auto
+*
 tc
 =
 &

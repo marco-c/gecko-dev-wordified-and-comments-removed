@@ -1027,6 +1027,7 @@ stringHead_
 nonStringHead_
 ;
 auto
+*
 cells
 =
 storage_

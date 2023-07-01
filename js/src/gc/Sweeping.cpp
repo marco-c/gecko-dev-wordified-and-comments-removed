@@ -7718,7 +7718,9 @@ ifdef
 DEBUG
 for
 (
+const
 auto
+*
 cell
 :
 cellsToAssertNotGray

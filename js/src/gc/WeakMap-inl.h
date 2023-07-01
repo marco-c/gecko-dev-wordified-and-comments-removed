@@ -1035,6 +1035,7 @@ Expand
 )
 ;
 auto
+*
 marker
 =
 GCMarker

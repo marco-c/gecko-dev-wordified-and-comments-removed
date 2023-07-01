@@ -2695,6 +2695,7 @@ return
 ;
 }
 auto
+*
 traced
 =
 MapGCThingTyped
