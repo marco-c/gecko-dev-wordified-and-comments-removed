@@ -909,6 +909,11 @@ GetExtensionsResource
 aProfile
 .
 id
+this
+.
+constructor
+.
+key
 )
 ]
 ;
