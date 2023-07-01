@@ -548,6 +548,14 @@ list
 infallible
 ]
 boolean
+isContentAccessibleAboutURI
+(
+)
+;
+[
+infallible
+]
+boolean
 isSameOrigin
 (
 in
