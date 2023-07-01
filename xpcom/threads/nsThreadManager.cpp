@@ -1403,6 +1403,15 @@ return
 rv
 ;
 }
+#
+ifdef
+MOZ_MEMORY
+jemalloc_set_main_thread
+(
+)
+;
+#
+endif
 mMainThread
 -
 >

@@ -217,6 +217,11 @@ size_t
 )
 MALLOC_DECL
 (
+jemalloc_set_main_thread
+void
+)
+MALLOC_DECL
+(
 jemalloc_purge_freed_pages
 void
 )
