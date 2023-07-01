@@ -6623,6 +6623,14 @@ target
 ownerGlobal
 ;
 let
+browserWindow
+=
+getBrowserWindow
+(
+window
+)
+;
+let
 where
 =
 window
@@ -6682,14 +6690,6 @@ tab
 "
 ;
 }
-let
-browserWindow
-=
-getBrowserWindow
-(
-window
-)
-;
 if
 (
 where
@@ -6701,7 +6701,6 @@ tab
 &
 &
 browserWindow
-?
 .
 gBrowser
 .
