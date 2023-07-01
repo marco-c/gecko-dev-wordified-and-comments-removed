@@ -849,6 +849,15 @@ RSA_BlockPublic
 :
 if
 (
+modulusLen
+<
+(
+3
++
+RSA_BLOCK_MIN_PAD_LEN
+)
+|
+|
 data
 -
 >

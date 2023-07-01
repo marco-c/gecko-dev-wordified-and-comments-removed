@@ -16,6 +16,15 @@ Hacl_Krmllib
 .
 h
 "
+#
+include
+"
+internal
+/
+Hacl_Bignum25519_51
+.
+h
+"
 static
 const
 uint8_t

@@ -499,6 +499,12 @@ defined
 (
 _WIN64
 )
+|
+|
+defined
+(
+__EMSCRIPTEN__
+)
 )
 &
 &
@@ -631,6 +637,7 @@ x
 )
 #
 elif
+(
 defined
 (
 __BYTE_ORDER__
@@ -641,6 +648,13 @@ __BYTE_ORDER__
 =
 =
 __ORDER_BIG_ENDIAN__
+)
+|
+|
+defined
+(
+_AIX
+)
 #
 define
 htobe32

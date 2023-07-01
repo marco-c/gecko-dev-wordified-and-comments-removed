@@ -3589,7 +3589,7 @@ TIMEARRAY
 }
 -
 lt
-2
+5
 ret
 =
 ?

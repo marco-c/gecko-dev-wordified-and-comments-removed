@@ -5,15 +5,6 @@ Hacl_Poly1305_32
 .
 h
 "
-#
-include
-"
-internal
-/
-Hacl_Krmllib
-.
-h
-"
 void
 Hacl_Poly1305_32_poly1305_init
 (

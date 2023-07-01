@@ -62,13 +62,6 @@ Hacl_Krmllib
 .
 h
 "
-#
-include
-"
-Hacl_Bignum25519_51
-.
-h
-"
 void
 Hacl_Curve25519_51_scalarmult
 (

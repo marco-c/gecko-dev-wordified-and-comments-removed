@@ -333,6 +333,11 @@ blake2b_unittest
 cc
 '
 '
+shake_unittest
+.
+cc
+'
+'
 cmac_unittests
 .
 cc

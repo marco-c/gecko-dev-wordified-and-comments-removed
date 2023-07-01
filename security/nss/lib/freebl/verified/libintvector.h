@@ -1443,13 +1443,6 @@ immintrin
 .
 h
 >
-#
-include
-<
-wmmintrin
-.
-h
->
 typedef
 __m256i
 Lib_IntVector_Intrinsics_vec256

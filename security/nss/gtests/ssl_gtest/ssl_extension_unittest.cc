@@ -6780,7 +6780,7 @@ EnsureTlsSetup
 (
 )
 ;
-PR_ASSERT
+ASSERT_TRUE
 (
 SSL_OptionSet
 (
@@ -6929,7 +6929,7 @@ kPskDummyLabel_
 kPskHash_
 )
 ;
-PR_ASSERT
+ASSERT_TRUE
 (
 SSL_OptionSet
 (

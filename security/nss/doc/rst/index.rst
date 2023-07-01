@@ -68,11 +68,6 @@ rst
 community
 .
 rst
-legacy
-/
-index
-.
-rst
 .
 .
 warning

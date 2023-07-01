@@ -6,13 +6,6 @@ define
 __LowStar_Endianness_H
 #
 include
-"
-FStar_UInt128
-.
-h
-"
-#
-include
 <
 inttypes
 .

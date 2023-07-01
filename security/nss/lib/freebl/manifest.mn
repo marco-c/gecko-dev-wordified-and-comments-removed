@@ -658,6 +658,14 @@ sha512
 .
 c
 \
+sha3
+.
+c
+\
+shake
+.
+c
+\
 cmac
 .
 c

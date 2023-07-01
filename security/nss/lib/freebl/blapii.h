@@ -340,6 +340,11 @@ avx2_support
 )
 ;
 PRBool
+adx_support
+(
+)
+;
+PRBool
 ssse3_support
 (
 )

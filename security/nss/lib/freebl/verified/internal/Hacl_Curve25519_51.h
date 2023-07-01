@@ -67,6 +67,15 @@ h
 #
 include
 "
+internal
+/
+Hacl_Bignum25519_51
+.
+h
+"
+#
+include
+"
 .
 .
 /

@@ -1,9 +1,9 @@
 #
 ifndef
-__Hacl_Bignum25519_51_H
+__internal_Hacl_Bignum25519_51_H
 #
 define
-__Hacl_Bignum25519_51_H
+__internal_Hacl_Bignum25519_51_H
 #
 if
 defined
@@ -52,6 +52,15 @@ krml
 internal
 /
 target
+.
+h
+"
+#
+include
+"
+internal
+/
+Hacl_Krmllib
 .
 h
 "
@@ -5476,6 +5485,6 @@ __cplusplus
 endif
 #
 define
-__Hacl_Bignum25519_51_H_DEFINED
+__internal_Hacl_Bignum25519_51_H_DEFINED
 #
 endif

@@ -15165,7 +15165,7 @@ EnsureTlsSetup
 (
 )
 ;
-PR_ASSERT
+ASSERT_TRUE
 (
 SSL_OptionSet
 (
@@ -15218,7 +15218,7 @@ EnsureTlsSetup
 (
 )
 ;
-PR_ASSERT
+ASSERT_TRUE
 (
 SSL_OptionSet
 (
@@ -15236,7 +15236,7 @@ PR_TRUE
 SECSuccess
 )
 ;
-PR_ASSERT
+ASSERT_TRUE
 (
 SSL_EnableTls13GreaseEch
 (
