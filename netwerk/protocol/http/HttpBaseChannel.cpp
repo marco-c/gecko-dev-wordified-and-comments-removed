@@ -26070,7 +26070,7 @@ aErrorCode
 )
 ;
 }
-void
+NS_IMETHODIMP
 HttpBaseChannel
 :
 :
@@ -26083,8 +26083,11 @@ mCaps
 =
 NS_HTTP_DISABLE_IPV4
 ;
+return
+NS_OK
+;
 }
-void
+NS_IMETHODIMP
 HttpBaseChannel
 :
 :
@@ -26096,6 +26099,9 @@ mCaps
 |
 =
 NS_HTTP_DISABLE_IPV6
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

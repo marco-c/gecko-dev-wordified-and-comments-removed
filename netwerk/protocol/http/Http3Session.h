@@ -1148,6 +1148,11 @@ mHasWebTransportSession
 =
 false
 ;
+bool
+mDontExclude
+=
+false
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
