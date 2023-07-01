@@ -118,9 +118,7 @@ from
 /
 addon
 -
-pseudo
--
-localization
+fluent
 /
 constants
 .
@@ -188,9 +186,7 @@ events
 from
 addon
 -
-pseudo
--
-localization
+fluent
 .
 const
 channel

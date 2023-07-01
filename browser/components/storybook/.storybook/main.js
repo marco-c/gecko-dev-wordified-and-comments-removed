@@ -391,9 +391,7 @@ __dirname
 "
 addon
 -
-pseudo
--
-localization
+fluent
 "
 )
 path

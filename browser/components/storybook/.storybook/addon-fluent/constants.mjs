@@ -63,9 +63,7 @@ ADDON_ID
 "
 addon
 -
-pseudo
--
-localization
+fluent
 "
 ;
 export
