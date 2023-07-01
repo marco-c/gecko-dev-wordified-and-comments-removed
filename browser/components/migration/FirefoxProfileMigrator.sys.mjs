@@ -2345,6 +2345,9 @@ PREFS
 bookmarks
 "
 "
+csvpasswords
+"
+"
 history
 "
 "
