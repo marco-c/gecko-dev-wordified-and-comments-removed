@@ -1302,17 +1302,9 @@ capacity_
 (
 0
 )
-timeInChunkAlloc_
-(
-0
-)
 enableProfiling_
 (
 false
-)
-profileThreshold_
-(
-0
 )
 canAllocateStrings_
 (
@@ -5576,6 +5568,9 @@ mozilla
 :
 :
 TimeDuration
+:
+:
+Zero
 (
 )
 ;
@@ -6481,6 +6476,9 @@ mozilla
 :
 :
 TimeDuration
+:
+:
+Zero
 (
 )
 ;

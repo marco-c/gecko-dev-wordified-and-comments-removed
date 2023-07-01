@@ -389,6 +389,9 @@ mozilla
 :
 :
 TimeDuration
+:
+:
+Zero
 (
 )
 ;
