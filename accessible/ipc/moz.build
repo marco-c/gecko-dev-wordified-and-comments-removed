@@ -191,7 +191,7 @@ a11y
 =
 [
 "
-DocAccessibleChildBase
+DocAccessibleChild
 .
 h
 "
@@ -216,7 +216,7 @@ UNIFIED_SOURCES
 =
 [
 "
-DocAccessibleChildBase
+DocAccessibleChild
 .
 cpp
 "

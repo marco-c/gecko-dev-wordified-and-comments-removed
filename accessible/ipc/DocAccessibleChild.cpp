@@ -5,7 +5,7 @@ mozilla
 /
 a11y
 /
-DocAccessibleChildBase
+DocAccessibleChild
 .
 h
 "
@@ -95,7 +95,7 @@ namespace
 a11y
 {
 void
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 FlattenTree
@@ -188,7 +188,7 @@ aTree
 }
 }
 void
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 SerializeTree
@@ -437,7 +437,7 @@ fields
 }
 }
 void
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 InsertIntoIpcTree
@@ -545,7 +545,7 @@ false
 ;
 }
 void
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 ShowEvent
@@ -592,7 +592,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvTakeFocus
@@ -638,7 +638,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvScrollTo
@@ -722,7 +722,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvTakeSelection
@@ -768,7 +768,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvSetSelected
@@ -819,7 +819,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvVerifyCache
@@ -1198,7 +1198,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvDoActionAsync
@@ -1250,7 +1250,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvSetCaretOffset
@@ -1318,7 +1318,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvSetTextSelection
@@ -1392,7 +1392,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvScrollTextLeafRangeIntoView
@@ -1466,7 +1466,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvRemoveTextSelection
@@ -1525,7 +1525,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvSetCurValue
@@ -1576,7 +1576,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvReplaceText
@@ -1635,7 +1635,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvInsertText
@@ -1699,7 +1699,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvCopyText
@@ -1763,7 +1763,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvCutText
@@ -1827,7 +1827,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvDeleteText
@@ -1891,7 +1891,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvPasteText
@@ -1949,7 +1949,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvRestoreFocus
@@ -1988,7 +1988,7 @@ defined
 XP_WIN
 )
 LayoutDeviceIntRect
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 GetCaretRectFor
@@ -2073,7 +2073,7 @@ widget
 ;
 }
 bool
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 SendFocusEvent
@@ -2099,7 +2099,7 @@ aID
 ;
 }
 bool
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 SendCaretMoveEvent
@@ -2153,7 +2153,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvScrollToPoint
@@ -2214,7 +2214,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvAnnounce
@@ -2270,7 +2270,7 @@ ipc
 :
 :
 IPCResult
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 RecvScrollSubstringToPoint
@@ -2338,7 +2338,7 @@ IPC_OK
 endif
 LocalAccessible
 *
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 IdToAccessible
@@ -2385,7 +2385,7 @@ aID
 }
 HyperTextAccessible
 *
-DocAccessibleChildBase
+DocAccessibleChild
 :
 :
 IdToHyperTextAccessible

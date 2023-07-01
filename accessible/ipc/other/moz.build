@@ -15,11 +15,6 @@ a11y
 =
 [
 "
-DocAccessibleChild
-.
-h
-"
-"
 RemoteAccessible
 .
 h
