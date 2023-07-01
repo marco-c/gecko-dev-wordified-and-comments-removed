@@ -542,7 +542,6 @@ resourceStr
 >
 {
 return
-(
 !
 MigrationWizardConstants
 .
@@ -550,17 +549,6 @@ PROFILE_RESET_ONLY_RESOURCE_TYPES
 [
 resourceStr
 ]
-&
-&
-resourceStr
-!
-=
-MigrationWizardConstants
-.
-DISPLAYED_RESOURCE_TYPES
-.
-EXTENSIONS
-)
 ;
 }
 )
