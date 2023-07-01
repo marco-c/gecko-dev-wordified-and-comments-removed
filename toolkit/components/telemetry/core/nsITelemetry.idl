@@ -330,6 +330,11 @@ long
 aFlags
 )
 ;
+readonly
+attribute
+boolean
+areUntrustedModuleLoadEventsReady
+;
 [
 implicit_jscontext
 ]
