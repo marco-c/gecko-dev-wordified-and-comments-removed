@@ -2989,8 +2989,7 @@ Elf
 :
 getSectionAt
 (
-unsigned
-int
+Elf64_Off
 offset
 )
 {
@@ -4663,8 +4662,7 @@ shdr
 sh_info
 ;
 }
-unsigned
-int
+Elf64_Addr
 ElfSection
 :
 :
@@ -4782,8 +4780,7 @@ shdr
 sh_addr
 ;
 }
-unsigned
-int
+Elf64_Off
 ElfSection
 :
 :
@@ -4825,8 +4822,7 @@ sh_offset
 0
 )
 ;
-unsigned
-int
+Elf64_Off
 offset
 =
 previous

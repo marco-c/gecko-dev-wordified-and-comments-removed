@@ -7922,8 +7922,7 @@ getAddr
 )
 )
 {
-unsigned
-int
+Elf64_Off
 distance
 =
 second
@@ -7940,8 +7939,7 @@ getAddr
 (
 )
 ;
-unsigned
-int
+Elf64_Addr
 origAddr
 =
 eh_frame
