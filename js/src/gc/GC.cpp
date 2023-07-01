@@ -1772,7 +1772,9 @@ static
 bool
 SplitStringBy
 (
+const
 CharRange
+&
 text
 char
 delimiter
@@ -1864,7 +1866,9 @@ static
 bool
 ParseTimeDuration
 (
+const
 CharRange
+&
 text
 TimeDuration
 *
@@ -3275,7 +3279,9 @@ static
 bool
 ParseZealModeName
 (
+const
 CharRange
+&
 text
 uint32_t
 *
@@ -3403,7 +3409,9 @@ static
 bool
 ParseZealModeNumericParam
 (
+const
 CharRange
+&
 text
 uint32_t
 *

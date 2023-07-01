@@ -1780,7 +1780,9 @@ takeSweptEmptyArenas
 ;
 for
 (
+const
 auto
+&
 phase
 :
 BackgroundFinalizePhases
