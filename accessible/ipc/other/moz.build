@@ -30,11 +30,6 @@ SOURCES
 =
 [
 "
-DocAccessibleChild
-.
-cpp
-"
-"
 RemoteAccessible
 .
 cpp
