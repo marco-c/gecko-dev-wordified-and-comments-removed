@@ -202,6 +202,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 CannotDerive
 <
@@ -721,10 +724,6 @@ self
 ctx
 .
 options
-(
-)
-.
-rust_features
 (
 )
 .
@@ -1529,10 +1528,6 @@ options
 (
 )
 .
-rust_features
-(
-)
-.
 untagged_union
 &
 &
@@ -1603,10 +1598,6 @@ self
 ctx
 .
 options
-(
-)
-.
-rust_features
 (
 )
 .
@@ -3661,6 +3652,9 @@ can_derive
 }
 }
 pub
+(
+crate
+)
 fn
 as_cannot_derive_set
 (

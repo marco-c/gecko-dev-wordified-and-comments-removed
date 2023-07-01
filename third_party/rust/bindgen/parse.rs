@@ -1,3 +1,14 @@
+#
+!
+[
+deny
+(
+clippy
+:
+:
+missing_docs_in_private_items
+)
+]
 use
 crate
 :
@@ -27,6 +38,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 enum
 ParseError
 {
@@ -41,6 +55,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 enum
 ParseResult
 <
@@ -64,6 +81,9 @@ Cursor
 )
 }
 pub
+(
+crate
+)
 trait
 ClangSubItemParser
 :

@@ -92,6 +92,9 @@ Ord
 )
 ]
 pub
+(
+crate
+)
 enum
 SizednessResult
 {
@@ -122,6 +125,9 @@ impl
 SizednessResult
 {
 pub
+(
+crate
+)
 fn
 join
 (
@@ -218,6 +224,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 SizednessAnalysis
 <
@@ -1671,6 +1680,9 @@ sized
 }
 }
 pub
+(
+crate
+)
 trait
 Sizedness
 {

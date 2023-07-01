@@ -97,6 +97,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 UsedTemplateParameters
 <
@@ -1565,7 +1568,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {

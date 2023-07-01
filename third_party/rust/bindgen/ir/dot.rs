@@ -50,6 +50,9 @@ path
 Path
 ;
 pub
+(
+crate
+)
 trait
 DotAttributes
 {
@@ -91,6 +94,9 @@ Write
 ;
 }
 pub
+(
+crate
+)
 fn
 write_dot_file
 <

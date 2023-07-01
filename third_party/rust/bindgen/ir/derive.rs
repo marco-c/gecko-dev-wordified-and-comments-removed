@@ -20,6 +20,9 @@ std
 ops
 ;
 pub
+(
+crate
+)
 trait
 CanDeriveDebug
 {
@@ -39,6 +42,9 @@ bool
 ;
 }
 pub
+(
+crate
+)
 trait
 CanDeriveCopy
 {
@@ -58,6 +64,9 @@ bool
 ;
 }
 pub
+(
+crate
+)
 trait
 CanDeriveDefault
 {
@@ -77,6 +86,9 @@ bool
 ;
 }
 pub
+(
+crate
+)
 trait
 CanDeriveHash
 {
@@ -96,6 +108,9 @@ bool
 ;
 }
 pub
+(
+crate
+)
 trait
 CanDerivePartialEq
 {
@@ -115,6 +130,9 @@ bool
 ;
 }
 pub
+(
+crate
+)
 trait
 CanDerivePartialOrd
 {
@@ -134,6 +152,9 @@ bool
 ;
 }
 pub
+(
+crate
+)
 trait
 CanDeriveEq
 {
@@ -153,6 +174,9 @@ bool
 ;
 }
 pub
+(
+crate
+)
 trait
 CanDeriveOrd
 {
@@ -215,6 +239,9 @@ impl
 CanDerive
 {
 pub
+(
+crate
+)
 fn
 join
 (

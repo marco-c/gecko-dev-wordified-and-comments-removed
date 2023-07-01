@@ -46,6 +46,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 struct
 Edge
 {
@@ -60,6 +63,9 @@ impl
 Edge
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -120,6 +126,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 enum
 EdgeKind
 {
@@ -140,6 +149,9 @@ VarType
 TypeReference
 }
 pub
+(
+crate
+)
 type
 TraversalPredicate
 =
@@ -161,6 +173,9 @@ Edge
 bool
 ;
 pub
+(
+crate
+)
 fn
 all_edges
 (
@@ -179,6 +194,9 @@ bool
 true
 }
 pub
+(
+crate
+)
 fn
 only_inner_type_edges
 (
@@ -205,6 +223,9 @@ EdgeKind
 InnerType
 }
 pub
+(
+crate
+)
 fn
 codegen_edges
 (
@@ -361,6 +382,9 @@ destructors
 }
 }
 pub
+(
+crate
+)
 trait
 TraversalStorage
 <
@@ -473,6 +497,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 Paths
 <
@@ -699,6 +726,9 @@ newly_discovered
 }
 }
 pub
+(
+crate
+)
 trait
 TraversalQueue
 :
@@ -827,6 +857,9 @@ pop_front
 }
 }
 pub
+(
+crate
+)
 trait
 Tracer
 {
@@ -909,6 +942,9 @@ kind
 }
 }
 pub
+(
+crate
+)
 trait
 Trace
 {
@@ -947,6 +983,9 @@ Tracer
 ;
 }
 pub
+(
+crate
+)
 struct
 ItemTraversal
 <
@@ -1016,6 +1055,9 @@ Queue
 TraversalQueue
 {
 pub
+(
+crate
+)
 fn
 new
 <
@@ -1371,6 +1413,9 @@ id
 }
 }
 pub
+(
+crate
+)
 type
 AssertNoDanglingItemsTraversal
 <

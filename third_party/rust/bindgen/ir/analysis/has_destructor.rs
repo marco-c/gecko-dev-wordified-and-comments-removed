@@ -81,6 +81,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 HasDestructorAnalysis
 <

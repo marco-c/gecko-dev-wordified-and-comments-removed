@@ -106,6 +106,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 Enum
 {
@@ -126,6 +129,9 @@ impl
 Enum
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -153,6 +159,9 @@ variants
 }
 }
 pub
+(
+crate
+)
 fn
 repr
 (
@@ -171,6 +180,9 @@ self
 repr
 }
 pub
+(
+crate
+)
 fn
 variants
 (
@@ -190,6 +202,9 @@ self
 variants
 }
 pub
+(
+crate
+)
 fn
 from_ty
 (
@@ -862,6 +877,9 @@ name
 )
 }
 pub
+(
+crate
+)
 fn
 computed_enum_variation
 (
@@ -1094,6 +1112,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 EnumVariant
 {
@@ -1154,6 +1175,9 @@ impl
 EnumVariant
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -1193,6 +1217,9 @@ custom_behavior
 }
 }
 pub
+(
+crate
+)
 fn
 name
 (
@@ -1210,6 +1237,9 @@ self
 name
 }
 pub
+(
+crate
+)
 fn
 name_for_allowlisting
 (
@@ -1227,6 +1257,9 @@ self
 name_for_allowlisting
 }
 pub
+(
+crate
+)
 fn
 val
 (
@@ -1242,6 +1275,9 @@ self
 val
 }
 pub
+(
+crate
+)
 fn
 comment
 (
@@ -1265,6 +1301,9 @@ as_deref
 )
 }
 pub
+(
+crate
+)
 fn
 force_constification
 (
@@ -1295,6 +1334,9 @@ Constify
 )
 }
 pub
+(
+crate
+)
 fn
 hidden
 (

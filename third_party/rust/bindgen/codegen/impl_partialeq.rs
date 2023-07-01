@@ -58,6 +58,9 @@ RUST_DERIVE_IN_ARRAY_LIMIT
 }
 ;
 pub
+(
+crate
+)
 fn
 gen_partialeq_impl
 (
@@ -161,10 +164,6 @@ assert
 ctx
 .
 options
-(
-)
-.
-rust_features
 (
 )
 .

@@ -21,7 +21,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {
@@ -55,7 +55,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {
@@ -98,7 +98,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {
@@ -136,7 +136,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {

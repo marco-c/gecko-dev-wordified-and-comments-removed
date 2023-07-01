@@ -61,6 +61,9 @@ impl
 IntKind
 {
 pub
+(
+crate
+)
 fn
 is_signed
 (
@@ -151,6 +154,9 @@ is_signed
 }
 }
 pub
+(
+crate
+)
 fn
 known_size
 (
@@ -230,6 +236,9 @@ None
 )
 }
 pub
+(
+crate
+)
 fn
 signedness_matches
 (

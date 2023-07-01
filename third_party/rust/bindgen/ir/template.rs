@@ -44,6 +44,9 @@ crate
 clang
 ;
 pub
+(
+crate
+)
 trait
 TemplateParameters
 :
@@ -256,6 +259,9 @@ collect
 }
 }
 pub
+(
+crate
+)
 trait
 AsTemplateParam
 {
@@ -329,6 +335,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 TemplateInstantiation
 {
@@ -346,6 +355,9 @@ impl
 TemplateInstantiation
 {
 pub
+(
+crate
+)
 fn
 new
 <
@@ -389,6 +401,9 @@ collect
 }
 }
 pub
+(
+crate
+)
 fn
 template_definition
 (
@@ -404,6 +419,9 @@ self
 definition
 }
 pub
+(
+crate
+)
 fn
 template_arguments
 (
@@ -427,6 +445,9 @@ args
 ]
 }
 pub
+(
+crate
+)
 fn
 from_ty
 (

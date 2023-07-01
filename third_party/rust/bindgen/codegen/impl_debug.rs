@@ -61,6 +61,9 @@ RUST_DERIVE_IN_ARRAY_LIMIT
 }
 ;
 pub
+(
+crate
+)
 fn
 gen_debug_impl
 (
@@ -367,6 +370,9 @@ tokens
 }
 }
 pub
+(
+crate
+)
 trait
 ImplDebug
 <

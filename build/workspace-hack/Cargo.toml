@@ -772,7 +772,7 @@ version
 "
 0
 .
-64
+66
 "
 default
 -
@@ -1293,11 +1293,6 @@ smallvec
 dep
 :
 syn
-"
-"
-dep
-:
-syn1
 "
 ]
 defaultagent
@@ -1832,11 +1827,6 @@ syn
 "
 dep
 :
-syn1
-"
-"
-dep
-:
 tokio
 "
 "
@@ -1881,11 +1871,6 @@ nom
 dep
 :
 regex
-"
-"
-dep
-:
-syn1
 "
 ]
 jsrust
@@ -2035,10 +2020,5 @@ nom
 dep
 :
 regex
-"
-"
-dep
-:
-syn1
 "
 ]
