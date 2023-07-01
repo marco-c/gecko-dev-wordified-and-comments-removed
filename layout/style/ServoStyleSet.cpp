@@ -2770,10 +2770,6 @@ const
 nsAtom
 *
 aPageName
-const
-StylePagePseudoClassFlags
-&
-aPseudo
 )
 {
 if
@@ -2792,17 +2788,6 @@ aPageName
 nullptr
 ;
 }
-const
-bool
-useCache
-=
-!
-aPageName
-&
-&
-!
-aPseudo
-;
 RefPtr
 <
 ComputedStyle
@@ -2823,7 +2808,8 @@ pageContent
 ;
 if
 (
-useCache
+!
+aPageName
 &
 &
 cache
@@ -2863,7 +2849,6 @@ get
 (
 )
 aPageName
-aPseudo
 )
 .
 Consume
@@ -2877,7 +2862,8 @@ computedValues
 ;
 if
 (
-useCache
+!
+aPageName
 )
 {
 cache
@@ -3338,10 +3324,6 @@ style
 ResolvePageContentStyle
 (
 aFirstPageName
-StylePagePseudoClassFlags
-:
-:
-FIRST
 )
 ;
 const
