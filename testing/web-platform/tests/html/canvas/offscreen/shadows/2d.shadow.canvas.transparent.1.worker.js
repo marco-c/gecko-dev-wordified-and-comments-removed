@@ -105,7 +105,7 @@ getContext
 )
 ;
 var
-offscreenCanvas2
+canvas2
 =
 new
 OffscreenCanvas
@@ -117,7 +117,7 @@ OffscreenCanvas
 var
 ctx2
 =
-offscreenCanvas2
+canvas2
 .
 getContext
 (
@@ -164,7 +164,7 @@ ctx
 .
 drawImage
 (
-offscreenCanvas2
+canvas2
 0
 -
 50
