@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIAccessiblePivot
-.
-h
-"
-#
-include
-"
 nsAccUtils
 .
 h
