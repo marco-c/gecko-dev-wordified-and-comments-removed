@@ -45,7 +45,7 @@ return
 !
 mPlain
 .
-IsEmpty
+IsVoid
 (
 )
 ;
@@ -88,9 +88,9 @@ Clear
 {
 mPlain
 .
-Truncate
+SetIsVoid
 (
-0
+true
 )
 ;
 mChangeCount
