@@ -677,6 +677,17 @@ offsetNanoseconds
 ;
 JSString
 *
+FormatISOTimeZoneOffsetString
+(
+JSContext
+*
+cx
+int64_t
+offsetNanoseconds
+)
+;
+JSString
+*
 TimeZoneToString
 (
 JSContext
