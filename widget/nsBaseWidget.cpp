@@ -4976,6 +4976,15 @@ WasRoutedToChildProcess
 )
 &
 &
+!
+InputAPZContext
+:
+:
+WasDropped
+(
+)
+&
+&
 inputBlockId
 )
 {
