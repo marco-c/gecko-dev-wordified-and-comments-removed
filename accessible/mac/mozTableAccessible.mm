@@ -65,6 +65,13 @@ h
 #
 include
 "
+nsIAccessiblePivot
+.
+h
+"
+#
+include
+"
 XULTreeAccessible
 .
 h
