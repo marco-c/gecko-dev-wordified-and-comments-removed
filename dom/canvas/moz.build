@@ -280,11 +280,6 @@ dom
 =
 [
 "
-BasicRenderingContext2D
-.
-h
-"
-"
 CanvasGradient
 .
 h
