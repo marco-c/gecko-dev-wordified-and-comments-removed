@@ -59,7 +59,7 @@ LaterRun
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +71,9 @@ modules
 /
 LaterRun
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

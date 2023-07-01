@@ -384,7 +384,9 @@ modules
 /
 FaviconLoader
 .
-jsm
+sys
+.
+mjs
 "
 line
 :

@@ -581,7 +581,9 @@ that
 /
 BrowserUsageTelemetry
 .
-jsm
+sys
+.
+mjs
 knows
 to
 handle

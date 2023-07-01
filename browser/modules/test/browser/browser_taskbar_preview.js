@@ -88,7 +88,7 @@ AeroPeek
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -100,7 +100,9 @@ modules
 /
 WindowsPreviewPerTab
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

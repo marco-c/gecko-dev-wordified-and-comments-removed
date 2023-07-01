@@ -10,7 +10,7 @@ EveryWindow
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ modules
 /
 EveryWindow
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

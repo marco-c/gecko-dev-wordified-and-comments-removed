@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 AboutNewTab
-"
+:
 "
 resource
 :
@@ -16,8 +16,11 @@ modules
 /
 AboutNewTab
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 function
