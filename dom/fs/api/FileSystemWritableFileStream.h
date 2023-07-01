@@ -265,6 +265,10 @@ BoolPromise
 >
 BeginClose
 (
+bool
+aAbort
+=
+true
 )
 ;
 void
