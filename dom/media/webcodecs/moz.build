@@ -29,6 +29,11 @@ VideoColorSpace
 h
 "
 "
+VideoDecoder
+.
+h
+"
+"
 VideoFrame
 .
 h
@@ -50,6 +55,11 @@ cpp
 "
 "
 VideoColorSpace
+.
+cpp
+"
+"
+VideoDecoder
 .
 cpp
 "
