@@ -173,17 +173,6 @@ chrome
 /
 common
 /
-child_process_host
-.
-cc
-"
-"
-src
-/
-chrome
-/
-common
-/
 child_thread
 .
 cc

@@ -469,10 +469,6 @@ mOtherPid
 void
 Start
 (
-bool
-aCallConnect
-=
-true
 )
 ;
 void
