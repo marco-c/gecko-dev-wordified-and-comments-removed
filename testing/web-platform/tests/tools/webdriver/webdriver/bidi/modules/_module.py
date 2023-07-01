@@ -1,4 +1,6 @@
 import
+asyncio
+import
 functools
 from
 typing
@@ -527,6 +529,27 @@ not
 raw_result
 :
                 
+if
+asyncio
+.
+iscoroutinefunction
+(
+result_fn
+)
+:
+                    
+result
+=
+await
+result_fn
+(
+self
+result
+)
+                
+else
+:
+                    
 result
 =
 result_fn
