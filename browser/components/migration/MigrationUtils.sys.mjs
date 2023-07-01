@@ -5243,9 +5243,6 @@ history
 cards
 :
 0
-extensions
-:
-0
 }
 ;
 getImportedCount
@@ -6284,17 +6281,6 @@ extensionID1
 extensionID2
 "
 ]
-;
-this
-.
-_importQuantities
-.
-extensions
-+
-=
-importedExtensions
-.
-length
 ;
 if
 (
