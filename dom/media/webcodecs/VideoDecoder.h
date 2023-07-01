@@ -645,6 +645,11 @@ aMessage
 bool
 CreateDecoderAgent
 (
+DecoderAgent
+:
+:
+Id
+aId
 UniquePtr
 <
 VideoDecoderConfig
@@ -722,6 +727,9 @@ mDecodeQueueSize
 ;
 bool
 mDequeueEventScheduled
+;
+uint32_t
+mLatestConfigureId
 ;
 size_t
 mDecodeCounter
