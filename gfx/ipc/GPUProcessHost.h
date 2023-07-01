@@ -241,12 +241,6 @@ peer_pid
 override
 ;
 void
-OnChannelError
-(
-)
-override
-;
-void
 SetListener
 (
 Listener

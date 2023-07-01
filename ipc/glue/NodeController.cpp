@@ -4793,6 +4793,9 @@ IPC
 Channel
 >
 aChannel
+GeckoChildProcessHost
+*
+aChildProcessHost
 )
 {
 MOZ_ASSERT
@@ -4837,6 +4840,11 @@ move
 aChannel
 )
 this
+base
+:
+:
+kInvalidProcessId
+aChildProcessHost
 )
 ;
 {

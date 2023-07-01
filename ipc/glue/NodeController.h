@@ -130,6 +130,9 @@ mozilla
 ipc
 {
 class
+GeckoChildProcessHost
+;
+class
 NodeController
 final
 :
@@ -450,6 +453,9 @@ IPC
 Channel
 >
 aChannel
+GeckoChildProcessHost
+*
+aChildProcessHost
 )
 ;
 static
