@@ -480,11 +480,6 @@ nsCString
 mForceResolve
 ;
 bool
-mDisableIPv6
-=
-false
-;
-bool
 mBlockDotOnion
 =
 false

@@ -719,6 +719,15 @@ af
 =
 AF_INET6
 )
+&
+&
+!
+StaticPrefs
+:
+:
+network_dns_disableIPv6
+(
+)
 )
 {
 PrepareQuery
