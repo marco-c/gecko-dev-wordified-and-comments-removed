@@ -352,6 +352,7 @@ JS_PUBLIC_API
 bool
 BigIntIsInt64
 (
+const
 BigInt
 *
 bi
@@ -365,6 +366,7 @@ JS_PUBLIC_API
 bool
 BigIntIsUint64
 (
+const
 BigInt
 *
 bi
@@ -476,6 +478,7 @@ static
 bool
 fits
 (
+const
 BigInt
 *
 bi
@@ -603,6 +606,7 @@ static
 bool
 fits
 (
+const
 BigInt
 *
 bi
@@ -798,6 +802,7 @@ JS_PUBLIC_API
 int64_t
 ToBigInt64
 (
+const
 BigInt
 *
 bi
@@ -808,6 +813,7 @@ JS_PUBLIC_API
 uint64_t
 ToBigUint64
 (
+const
 BigInt
 *
 bi
@@ -818,6 +824,7 @@ JS_PUBLIC_API
 double
 BigIntToNumber
 (
+const
 BigInt
 *
 bi
@@ -828,6 +835,7 @@ JS_PUBLIC_API
 bool
 BigIntIsNegative
 (
+const
 BigInt
 *
 bi
@@ -843,6 +851,7 @@ inline
 bool
 BigIntFits
 (
+const
 BigInt
 *
 bi
@@ -873,6 +882,7 @@ JS_PUBLIC_API
 bool
 BigIntFitsNumber
 (
+const
 BigInt
 *
 bi
