@@ -15755,10 +15755,7 @@ false
 }
 if
 (
-kIsWayland
-|
-|
-kIsX11
+kIsLinux
 )
 {
 nsCString
