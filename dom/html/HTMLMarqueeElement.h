@@ -603,7 +603,6 @@ aResult
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (
@@ -698,11 +697,7 @@ static
 void
 MapAttributesIntoRule
 (
-const
-nsMappedAttributes
-*
-aAttributes
-MappedDeclarations
+MappedDeclarationsBuilder
 &
 )
 ;

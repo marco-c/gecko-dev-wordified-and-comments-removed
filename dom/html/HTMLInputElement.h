@@ -4855,11 +4855,7 @@ static
 void
 ImageInputMapAttributesIntoRule
 (
-const
-nsMappedAttributes
-*
-aAttributes
-MappedDeclarations
+MappedDeclarationsBuilder
 &
 )
 ;
