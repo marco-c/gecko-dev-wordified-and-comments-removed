@@ -119,6 +119,11 @@ ResultStatement
 .
 cpp
 "
+"
+StartedTransaction
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
