@@ -86,14 +86,9 @@ cssparser
 :
 {
 Parser
+ParserInput
 TokenSerializationType
 }
-;
-use
-cssparser
-:
-:
-ParserInput
 ;
 #
 [
@@ -6783,6 +6778,7 @@ Err
 }
 )
 }
+pub
 fn
 parse
 (

@@ -43325,7 +43325,7 @@ error
 PropertyRuleData
 :
 :
-validate_syntax
+validate_initial_value
 (
 &
 syntax
