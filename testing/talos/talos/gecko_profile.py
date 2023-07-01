@@ -756,11 +756,13 @@ https
 :
 /
 /
-symbols
+symbolication
+.
+services
 .
 mozilla
 .
-org
+com
 /
 symbolicate
 /
