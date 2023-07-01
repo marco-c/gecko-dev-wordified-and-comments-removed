@@ -1872,9 +1872,13 @@ timeInChunkAlloc_
 ;
 bool
 enableProfiling_
+=
+false
 ;
 bool
 profileWorkers_
+=
+false
 ;
 mozilla
 :

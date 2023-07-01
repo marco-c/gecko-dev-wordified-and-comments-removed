@@ -5831,6 +5831,8 @@ testMarkQueue
 ;
 size_t
 queuePos
+=
+0
 ;
 mozilla
 :

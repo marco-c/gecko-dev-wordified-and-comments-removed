@@ -205,6 +205,8 @@ thing
 ;
 uint32_t
 count
+=
+0
 ;
 EdgeValue
 edges
