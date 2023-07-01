@@ -647,8 +647,8 @@ cost
 ;
 }
 static
-CSSPoint
-ComputeRayOrigin
+nsPoint
+ComputePosition
 (
 const
 StylePositionOrAuto
@@ -665,7 +665,7 @@ aCoordBox
 const
 nsPoint
 &
-aCurrentPosition
+aCurrentCoord
 )
 {
 if
@@ -678,11 +678,6 @@ IsPosition
 )
 {
 return
-CSSPoint
-:
-:
-FromAppUnits
-(
 ShapeUtils
 :
 :
@@ -694,7 +689,6 @@ AsPosition
 (
 )
 aCoordBox
-)
 )
 ;
 }
@@ -730,11 +724,6 @@ IsPosition
 )
 {
 return
-CSSPoint
-:
-:
-FromAppUnits
-(
 ShapeUtils
 :
 :
@@ -747,7 +736,6 @@ AsPosition
 )
 aCoordBox
 )
-)
 ;
 }
 if
@@ -759,9 +747,9 @@ IsNormal
 )
 )
 {
-static
 const
 StylePosition
+&
 center
 =
 StylePosition
@@ -775,11 +763,6 @@ FromPercentage
 )
 ;
 return
-CSSPoint
-:
-:
-FromAppUnits
-(
 ShapeUtils
 :
 :
@@ -787,7 +770,6 @@ ComputePosition
 (
 center
 aCoordBox
-)
 )
 ;
 }
@@ -801,13 +783,7 @@ IsAuto
 )
 ;
 return
-CSSPoint
-:
-:
-FromAppUnits
-(
-aCurrentPosition
-)
+aCurrentCoord
 ;
 }
 static
@@ -1450,7 +1426,12 @@ const
 CSSPoint
 origin
 =
-ComputeRayOrigin
+CSSPoint
+:
+:
+FromAppUnits
+(
+ComputePosition
 (
 ray
 .
@@ -1465,6 +1446,7 @@ mCoordBox
 ray
 .
 mCurrentPosition
+)
 )
 ;
 const
