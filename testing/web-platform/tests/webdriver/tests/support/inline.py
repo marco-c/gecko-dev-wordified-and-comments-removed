@@ -16,7 +16,6 @@ tests
 from
 typing
 import
-Literal
 Optional
 from
 urllib
@@ -263,18 +262,7 @@ src
                  
 doctype
 :
-Literal
-[
-"
-html
-"
-"
-xhtml
-"
-"
-xml
-"
-]
+str
 =
 "
 html
