@@ -72,14 +72,6 @@ CONFIG
 MOZ_GTK3_LIBS
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_WAYLAND
-"
-]
-:
 USE_LIBS
 +
 =
