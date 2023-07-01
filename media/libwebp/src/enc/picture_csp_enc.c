@@ -3528,9 +3528,15 @@ tmp_rgb
 =
 NULL
 )
+{
 return
-0
+WebPEncodingSetError
+(
+picture
+VP8_ENC_ERROR_OUT_OF_MEMORY
+)
 ;
+}
 for
 (
 y
