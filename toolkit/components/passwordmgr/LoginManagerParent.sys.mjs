@@ -2246,11 +2246,6 @@ data
 telemetry
 .
 scenarioName
-data
-.
-telemetry
-.
-isRelayUser
 )
 ;
 return
