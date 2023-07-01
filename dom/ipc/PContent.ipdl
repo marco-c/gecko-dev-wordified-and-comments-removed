@@ -10172,6 +10172,8 @@ aAllowMode
 StorageAccessPermissionGrantedReason
 ?
 aReason
+bool
+aFrameOnly
 )
 returns
 (

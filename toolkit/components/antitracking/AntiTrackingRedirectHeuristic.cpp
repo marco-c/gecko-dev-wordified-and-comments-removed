@@ -2089,6 +2089,7 @@ StorageAccessPromptChoices
 :
 :
 eAllow
+false
 StaticPrefs
 :
 :

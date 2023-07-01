@@ -81305,6 +81305,8 @@ nsCString
 >
 &
 aTopLevelBaseDomain
+bool
+aFrameOnly
 )
 {
 MOZ_ASSERT
@@ -81351,6 +81353,7 @@ self
 principal
 aHasUserInteraction
 aTopLevelBaseDomain
+aFrameOnly
 ]
 (
 )
@@ -81393,7 +81396,7 @@ Create
 inner
 principal
 aTopLevelBaseDomain
-false
+aFrameOnly
 [
 p
 ]
@@ -82423,6 +82426,7 @@ NodePrincipal
 (
 )
 true
+true
 ContentBlockingNotifier
 :
 :
@@ -83227,6 +83231,7 @@ inner
 bc
 principal
 hasUserActivation
+false
 ContentBlockingNotifier
 :
 :
@@ -84025,6 +84030,7 @@ Some
 (
 serializedSite
 )
+false
 )
 (
 )
@@ -84883,6 +84889,7 @@ inner
 bc
 principal
 true
+false
 ContentBlockingNotifier
 :
 :
