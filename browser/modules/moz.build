@@ -1150,6 +1150,13 @@ backgroundtasks
 =
 [
 "
+BackgroundTask_install
+.
+sys
+.
+mjs
+"
+"
 BackgroundTask_uninstall
 .
 sys
