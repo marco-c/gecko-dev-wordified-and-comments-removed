@@ -63,7 +63,6 @@ async
 def
 test_unknown_command
 (
-bidi_session
 send_blocking_command
 module_name
 command_name

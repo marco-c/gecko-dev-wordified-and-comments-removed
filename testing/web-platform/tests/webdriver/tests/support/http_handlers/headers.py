@@ -132,7 +132,7 @@ header
 in
 headers
 :
-              
+                
 header_parts
 =
 header
@@ -144,7 +144,7 @@ b
 :
 "
 )
-              
+                
 response
 .
 headers

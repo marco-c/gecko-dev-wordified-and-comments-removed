@@ -1,10 +1,5 @@
 import
 sys
-from
-.
-merge_dictionaries
-import
-merge_dictionaries
 platform_name
 =
 {

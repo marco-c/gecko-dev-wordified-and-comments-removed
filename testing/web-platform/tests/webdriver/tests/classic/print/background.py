@@ -9,6 +9,7 @@ support
 .
 asserts
 import
+assert_pdf
 assert_success
 from
 tests
@@ -18,14 +19,6 @@ support
 image
 import
 px_to_cm
-from
-tests
-.
-support
-.
-pdf
-import
-assert_pdf
 from
 .
 import

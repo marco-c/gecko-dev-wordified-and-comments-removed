@@ -22,7 +22,6 @@ def
 test_capture
 (
 bidi_session
-url
 top_context
 inline
 compare_png_bidi

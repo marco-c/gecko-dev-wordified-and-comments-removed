@@ -31,7 +31,6 @@ fixture
 def
 add_event_listeners
 (
-session
 )
 :
     
@@ -68,7 +67,7 @@ execute_script
 "
 "
             
-let
+const
 element
 =
 arguments
@@ -77,7 +76,7 @@ arguments
 ]
 ;
             
-let
+const
 trackedEvents
 =
 arguments
@@ -111,7 +110,7 @@ events
             
 for
 (
-var
+let
 i
 =
 0

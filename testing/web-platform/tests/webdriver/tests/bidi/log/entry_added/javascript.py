@@ -1,8 +1,4 @@
 import
-math
-import
-time
-import
 pytest
 from
 .
@@ -27,7 +23,6 @@ test_types_and_values
     
 bidi_session
 current_time
-inline
 top_context
 wait_for_event
 )

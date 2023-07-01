@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 from
 tests
@@ -90,7 +88,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :
@@ -221,9 +219,7 @@ create
 (
 type_hint
 =
-"
-tab
-"
+type_hint
 )
     
 context_info
@@ -497,7 +493,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :
@@ -760,7 +756,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :
@@ -1074,7 +1070,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :

@@ -1,6 +1,11 @@
 import
 struct
 from
+typing
+import
+NamedTuple
+Tuple
+from
 tests
 .
 support
@@ -20,7 +25,12 @@ def
 cm_to_px
 (
 cm
+:
+float
 )
+-
+>
+float
 :
     
 return
@@ -36,7 +46,12 @@ def
 px_to_cm
 (
 px
+:
+float
 )
+-
+>
+float
 :
     
 return
@@ -50,6 +65,13 @@ png_dimensions
 (
 screenshot
 )
+-
+>
+Tuple
+[
+int
+int
+]
 :
     
 image
@@ -89,6 +111,9 @@ height
 )
 class
 ImageDifference
+(
+NamedTuple
+)
 :
     
 "
@@ -105,11 +130,13 @@ between
 two
 images
 .
+"
+"
+"
     
-:
-param
-total_pixels
-:
+"
+"
+"
 The
 total
 number
@@ -119,11 +146,17 @@ differences
 between
 the
 images
+"
+"
+"
     
+total_pixels
 :
-param
-max_difference
-:
+int
+    
+"
+"
+"
 The
 maximum
 difference
@@ -133,44 +166,27 @@ corresponding
 color
 channels
 across
-                           
 all
 pixels
 of
 the
 image
-.
-    
 "
 "
 "
     
-def
-__init__
-(
-self
-total_pixels
 max_difference
-)
 :
-        
-self
-.
-total_pixels
-=
-total_pixels
-        
-self
-.
-max_difference
-=
-max_difference
+int
     
 def
 equal
 (
 self
 )
+-
+>
+bool
 :
         
 return

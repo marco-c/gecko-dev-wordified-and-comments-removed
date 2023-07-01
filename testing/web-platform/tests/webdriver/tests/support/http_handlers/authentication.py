@@ -8,12 +8,6 @@ def
 basic_authentication
 (
 url
-username
-=
-None
-password
-=
-None
 protocol
 =
 "

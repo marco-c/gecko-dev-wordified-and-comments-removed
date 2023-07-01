@@ -1,8 +1,6 @@
 import
 asyncio
 import
-json
-import
 pytest
 from
 webdriver
@@ -22,12 +20,6 @@ support
 sync
 import
 AsyncPoll
-from
-.
-.
-.
-import
-any_int
 from
 .
 .
@@ -203,7 +195,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :
@@ -403,7 +395,6 @@ bidi_session
 top_context
 wait_for_event
 url
-fetch
 setup_network_test
 )
 :
@@ -598,7 +589,6 @@ def
 test_response_status
 (
     
-bidi_session
 wait_for_event
 url
 fetch
@@ -781,7 +771,6 @@ def
 test_response_headers
 (
     
-bidi_session
 wait_for_event
 url
 fetch
@@ -1075,7 +1064,6 @@ def
 test_response_mime_type_file
 (
     
-bidi_session
 url
 wait_for_event
 fetch
@@ -1206,7 +1194,6 @@ def
 test_redirect
 (
 bidi_session
-wait_for_event
 url
 fetch
 setup_network_test

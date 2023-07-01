@@ -57,9 +57,6 @@ async
 def
 test_same_request_id
 (
-    
-bidi_session
-top_context
 wait_for_event
 url
 setup_network_test

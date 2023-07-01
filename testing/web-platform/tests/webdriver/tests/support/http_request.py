@@ -20,7 +20,11 @@ __init__
 (
 self
 host
+:
+str
 port
+:
+int
 )
 :
         
@@ -41,6 +45,8 @@ head
 (
 self
 path
+:
+str
 )
 :
         
@@ -60,6 +66,8 @@ get
 (
 self
 path
+:
+str
 )
 :
         
@@ -79,6 +87,8 @@ post
 (
 self
 path
+:
+str
 body
 )
 :
@@ -104,7 +114,11 @@ _request
 (
 self
 method
+:
+str
 path
+:
+str
 body
 =
 None

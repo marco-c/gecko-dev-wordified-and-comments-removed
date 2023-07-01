@@ -43,10 +43,6 @@ def
 test_cached
 (
     
-bidi_session
-    
-top_context
-    
 wait_for_event
     
 url
@@ -294,10 +290,6 @@ test_cached_redirect
 (
     
 bidi_session
-    
-top_context
-    
-wait_for_event
     
 url
     
@@ -676,9 +668,7 @@ async
 def
 test_cached_revalidate
 (
-    
-bidi_session
-top_context
+     
 wait_for_event
 url
 fetch
