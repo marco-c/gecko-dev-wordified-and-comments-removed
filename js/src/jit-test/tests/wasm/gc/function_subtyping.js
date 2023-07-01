@@ -6,10 +6,13 @@ module
 type
 A
 (
+sub
+(
 struct
 (
 field
 i32
+)
 )
 )
 )
@@ -89,6 +92,8 @@ invariant
 type
 func1
 (
+sub
+(
 func
 (
 param
@@ -106,6 +111,7 @@ result
 (
 ref
 C
+)
 )
 )
 )
@@ -150,6 +156,8 @@ valid
 type
 func3
 (
+sub
+(
 func
 (
 param
@@ -167,6 +175,7 @@ result
 (
 ref
 B
+)
 )
 )
 )
@@ -204,6 +213,8 @@ C
 type
 func5
 (
+sub
+(
 func
 (
 param
@@ -225,6 +236,7 @@ A
 (
 ref
 B
+)
 )
 )
 )
@@ -273,6 +285,8 @@ valid
 type
 func7
 (
+sub
+(
 func
 (
 param
@@ -290,6 +304,7 @@ result
 (
 ref
 C
+)
 )
 )
 )
@@ -327,6 +342,8 @@ C
 type
 func9
 (
+sub
+(
 func
 (
 param
@@ -344,6 +361,7 @@ result
 (
 ref
 C
+)
 )
 )
 )
@@ -387,6 +405,8 @@ contravariance
 type
 func11
 (
+sub
+(
 func
 (
 param
@@ -404,6 +424,7 @@ result
 (
 ref
 A
+)
 )
 )
 )
@@ -614,10 +635,13 @@ module
 type
 A
 (
+sub
+(
 struct
 (
 field
 i32
+)
 )
 )
 )
@@ -697,6 +721,8 @@ invalid
 type
 func3
 (
+sub
+(
 func
 (
 param
@@ -714,6 +740,7 @@ result
 (
 ref
 C
+)
 )
 )
 )
@@ -763,10 +790,13 @@ module
 type
 A
 (
+sub
+(
 struct
 (
 field
 i32
+)
 )
 )
 )
@@ -845,6 +875,8 @@ invalid
 type
 func5
 (
+sub
+(
 func
 (
 param
@@ -862,6 +894,7 @@ result
 (
 ref
 C
+)
 )
 )
 )
