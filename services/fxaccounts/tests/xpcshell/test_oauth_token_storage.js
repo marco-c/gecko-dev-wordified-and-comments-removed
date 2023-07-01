@@ -582,16 +582,6 @@ kXCS
 "
 cafe
 "
-kExtSync
-:
-"
-bacon
-"
-kExtKbHash
-:
-"
-cheese
-"
 verified
 :
 true
