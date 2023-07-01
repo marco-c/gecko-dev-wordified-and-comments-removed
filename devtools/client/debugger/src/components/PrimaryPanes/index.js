@@ -53,7 +53,6 @@ actions
 import
 {
 getSelectedPrimaryPaneTab
-getContext
 }
 from
 "
@@ -237,13 +236,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 projectRootName
 :
 PropTypes
@@ -682,12 +674,6 @@ state
 {
 return
 {
-cx
-:
-getContext
-(
-state
-)
 selectedTab
 :
 getSelectedPrimaryPaneTab
