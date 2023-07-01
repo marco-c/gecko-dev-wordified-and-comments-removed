@@ -441,6 +441,13 @@ kwargs
 tags
 "
 ]
+or
+kwargs
+[
+"
+exclude_tags
+"
+]
 :
         
 test_filters
@@ -455,6 +462,12 @@ kwargs
 [
 "
 tags
+"
+]
+kwargs
+[
+"
+exclude_tags
 "
 ]
 )
