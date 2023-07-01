@@ -1319,7 +1319,7 @@ if
 (
 aPath
 .
-IsPath
+IsShape
 (
 )
 )
@@ -1331,7 +1331,7 @@ path
 =
 aPath
 .
-AsPath
+AsShape
 (
 )
 ;
@@ -1991,7 +1991,7 @@ return
 OffsetPathData
 :
 :
-Path
+Shape
 (
 pathData
 gfxPath
@@ -2290,7 +2290,7 @@ return
 OffsetPathData
 :
 :
-Path
+Shape
 (
 pathData
 path
