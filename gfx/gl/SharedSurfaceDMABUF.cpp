@@ -48,6 +48,17 @@ gfxVars
 .
 h
 "
+#
+include
+"
+mozilla
+/
+widget
+/
+DMABufLibWrapper
+.
+h
+"
 namespace
 mozilla
 :
