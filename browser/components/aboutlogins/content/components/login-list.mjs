@@ -5637,6 +5637,8 @@ location
 .
 hash
 =
+guid
+?
 #
 {
 encodeURIComponent
@@ -5644,6 +5646,9 @@ encodeURIComponent
 guid
 )
 }
+:
+"
+"
 ;
 }
 findLoginGuidFromDomain
