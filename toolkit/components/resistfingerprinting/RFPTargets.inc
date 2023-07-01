@@ -288,6 +288,14 @@ WidgetEvents
 )
 ITEM_VALUE
 (
+MediaDevices
+1llu
+<
+<
+36
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

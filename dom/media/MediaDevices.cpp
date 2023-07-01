@@ -1619,7 +1619,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+MediaDevices
 )
 )
 {
@@ -4384,7 +4384,7 @@ one
 RFPTarget
 :
 :
-Unknown
+MediaDevices
 )
 )
 {
@@ -4462,7 +4462,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+MediaDevices
 )
 )
 {
