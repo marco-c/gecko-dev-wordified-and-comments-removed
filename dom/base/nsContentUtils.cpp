@@ -12497,6 +12497,15 @@ principal
 IsSystemPrincipal
 (
 )
+&
+&
+!
+principal
+-
+>
+GetIsAddonOrExpandedAddonPrincipal
+(
+)
 BasePrincipal
 :
 :
