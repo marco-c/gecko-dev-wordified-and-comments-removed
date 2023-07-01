@@ -1475,8 +1475,6 @@ valueEdge
 )
 ;
 }
-else
-{
 gc
 :
 :
@@ -1508,7 +1506,6 @@ edges
 )
 )
 ;
-}
 }
 template
 <

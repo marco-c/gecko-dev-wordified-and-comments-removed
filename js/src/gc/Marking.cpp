@@ -1220,8 +1220,6 @@ isGCMarking
 )
 ;
 }
-else
-{
 MOZ_ASSERT_IF
 (
 !
@@ -1278,7 +1276,6 @@ isGCMarkingBlackAndGray
 (
 )
 ;
-}
 }
 static
 bool
