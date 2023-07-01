@@ -6289,10 +6289,7 @@ Parent
 ;
 }
 return
-RemoteAccessibleBase
-<
 RemoteAccessible
->
 :
 :
 RelationByType
@@ -6435,7 +6432,7 @@ size
 size
 +
 =
-RemoteAccessibleBase
+RemoteAccessible
 :
 :
 SizeOfExcludingThis

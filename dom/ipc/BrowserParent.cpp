@@ -60,17 +60,6 @@ h
 #
 include
 "
-mozilla
-/
-a11y
-/
-RemoteAccessibleBase
-.
-h
-"
-#
-include
-"
 nsAccessibilityService
 .
 h

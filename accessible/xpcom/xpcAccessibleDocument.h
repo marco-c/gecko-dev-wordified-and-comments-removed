@@ -380,13 +380,6 @@ RemoteAccessible
 ;
 friend
 class
-RemoteAccessibleBase
-<
-RemoteAccessible
->
-;
-friend
-class
 xpcAccessibleGeneric
 ;
 xpcAccessibleDocument
