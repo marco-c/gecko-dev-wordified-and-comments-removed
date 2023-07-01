@@ -168,9 +168,6 @@ class
 HTMLVideoElement
 ;
 class
-ImageBitmapShutdownObserver
-;
-class
 ImageData
 ;
 class
@@ -898,12 +895,6 @@ mPictureRect
 ;
 gfxAlphaType
 mAlphaType
-;
-RefPtr
-<
-ImageBitmapShutdownObserver
->
-mShutdownObserver
 ;
 bool
 mAllocatedImageData
