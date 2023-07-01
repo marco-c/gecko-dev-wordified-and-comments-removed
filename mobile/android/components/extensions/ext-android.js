@@ -1373,15 +1373,6 @@ false
 ;
 }
 get
-autoDiscardable
-(
-)
-{
-return
-true
-;
-}
-get
 sharingState
 (
 )

@@ -146,11 +146,6 @@ if
 (
 tab
 .
-undiscardable
-|
-|
-tab
-.
 selected
 )
 {
