@@ -64,7 +64,7 @@ h
 "
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -73,6 +73,17 @@ mozilla
 widget
 /
 DMABufSurface
+.
+h
+"
+#
+include
+"
+mozilla
+/
+widget
+/
+DMABufLibWrapper
 .
 h
 "
@@ -550,7 +561,7 @@ MacIOSurface
 }
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 if
 (
 kIsWayland
