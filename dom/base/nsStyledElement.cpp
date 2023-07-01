@@ -446,7 +446,6 @@ modification
 =
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -485,7 +484,6 @@ modification
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

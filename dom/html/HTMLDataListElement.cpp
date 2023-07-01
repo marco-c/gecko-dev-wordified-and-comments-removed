@@ -135,7 +135,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

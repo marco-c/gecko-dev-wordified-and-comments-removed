@@ -8672,7 +8672,6 @@ tree
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

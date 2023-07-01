@@ -1861,7 +1861,6 @@ frameElement
 >
 GetAttr
 (
-kNameSpaceID_None
 aAttribute
 attrValue
 )
@@ -2303,7 +2302,6 @@ frameElement
 >
 GetAttr
 (
-kNameSpaceID_None
 aAttribute
 attrValue
 )
@@ -2327,7 +2325,6 @@ frameElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2515,7 +2512,6 @@ frameElement
 >
 HasAttr
 (
-kNameSpaceID_None
 aAttribute
 )
 )
@@ -2575,7 +2571,6 @@ frameElement
 >
 HasAttr
 (
-kNameSpaceID_None
 aAttribute
 )
 )
@@ -3893,7 +3888,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -5140,7 +5134,6 @@ AsElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -5176,7 +5169,6 @@ AsElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

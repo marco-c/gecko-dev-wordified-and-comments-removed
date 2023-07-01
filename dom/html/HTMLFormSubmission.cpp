@@ -3808,7 +3808,6 @@ aSubmitter
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3824,7 +3823,6 @@ aForm
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3857,7 +3855,6 @@ aSubmitter
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3906,7 +3903,6 @@ aSubmitter
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4133,7 +4129,6 @@ aSubmitter
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4146,7 +4141,6 @@ aSubmitter
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4162,7 +4156,6 @@ aForm
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

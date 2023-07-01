@@ -516,7 +516,6 @@ mElement
 >
 HasAttr
 (
-kNameSpaceID_None
 attrAtom
 )
 ;

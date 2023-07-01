@@ -49665,7 +49665,6 @@ inclusiveAncestor
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -49731,7 +49730,6 @@ inclusiveAncestor
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -49797,7 +49795,6 @@ inclusiveAncestor
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

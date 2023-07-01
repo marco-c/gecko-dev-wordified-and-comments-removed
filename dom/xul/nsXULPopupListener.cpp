@@ -877,7 +877,6 @@ mElement
 >
 GetAttr
 (
-kNameSpaceID_None
 type
 identifier
 )
@@ -898,7 +897,6 @@ mElement
 >
 GetAttr
 (
-kNameSpaceID_None
 mIsContext
 ?
 nsGkAtoms
@@ -1139,7 +1137,6 @@ mPopupContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1153,7 +1150,6 @@ mPopupContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1166,7 +1162,6 @@ mPopupContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

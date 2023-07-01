@@ -419,7 +419,6 @@ mElement
 >
 GetAttr
 (
-kNameSpaceID_None
 mAttrAtom
 aResult
 )

@@ -469,7 +469,6 @@ aSelf
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -488,7 +487,6 @@ aSelf
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -524,7 +522,6 @@ aSelf
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1663,7 +1660,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

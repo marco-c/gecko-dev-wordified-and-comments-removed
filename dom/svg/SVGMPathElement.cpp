@@ -385,7 +385,6 @@ hrefAttrValue
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -756,7 +755,6 @@ href
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

@@ -786,7 +786,6 @@ element
 .
 HasAttr
 (
-kNameSpaceID_None
 mAttribute
 )
 ;

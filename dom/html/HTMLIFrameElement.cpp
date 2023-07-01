@@ -1189,7 +1189,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

@@ -2641,7 +2641,6 @@ const
 return
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2836,7 +2835,6 @@ aResult
 {
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3033,7 +3031,6 @@ const
 {
 GetAttr
 (
-kNameSpaceID_None
 aName
 aResult
 )

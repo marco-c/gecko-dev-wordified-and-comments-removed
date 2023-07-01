@@ -160,7 +160,6 @@ const
 return
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -251,7 +250,6 @@ if
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -606,7 +604,6 @@ aTarget
 {
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -647,7 +644,6 @@ if
 !
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

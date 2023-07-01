@@ -307,7 +307,6 @@ elem
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

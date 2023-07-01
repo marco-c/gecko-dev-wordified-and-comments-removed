@@ -751,7 +751,6 @@ mContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

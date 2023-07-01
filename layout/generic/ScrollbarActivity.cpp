@@ -2092,7 +2092,6 @@ aScrollbarToInvalidate
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

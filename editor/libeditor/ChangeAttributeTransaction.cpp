@@ -410,7 +410,6 @@ mElement
 >
 GetAttr
 (
-kNameSpaceID_None
 mAttribute
 mUndoValue
 )

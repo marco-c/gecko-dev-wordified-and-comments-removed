@@ -1194,7 +1194,6 @@ noValidateState
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1211,7 +1210,6 @@ aSubmitter
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4719,7 +4717,6 @@ acceptCharsetValue
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4962,7 +4959,6 @@ aElement1
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4985,7 +4981,6 @@ aElement2
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -5586,7 +5581,6 @@ aChild
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -7010,7 +7004,6 @@ if
 !
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -7135,7 +7128,6 @@ aOriginatingElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -8142,7 +8134,6 @@ NS_ASSERTION
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

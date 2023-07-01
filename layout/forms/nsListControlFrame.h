@@ -699,7 +699,6 @@ AsElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

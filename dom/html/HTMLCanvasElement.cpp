@@ -5773,7 +5773,6 @@ GetOpaqueAttr
 return
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

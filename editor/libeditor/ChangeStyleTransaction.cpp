@@ -769,7 +769,6 @@ mStyledElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

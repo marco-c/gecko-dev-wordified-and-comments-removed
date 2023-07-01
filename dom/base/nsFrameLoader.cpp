@@ -1310,7 +1310,6 @@ aOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1326,7 +1325,6 @@ aOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1354,7 +1352,6 @@ aOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1870,7 +1867,6 @@ aOwner
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2262,7 +2258,6 @@ aOwner
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2575,7 +2570,6 @@ mOwnerContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3419,7 +3413,6 @@ mOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6151,7 +6144,6 @@ ourContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6185,7 +6177,6 @@ otherContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -7356,7 +7347,6 @@ ourContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -7383,7 +7373,6 @@ otherContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10776,7 +10765,6 @@ mOwnerContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10862,7 +10850,6 @@ mOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10994,7 +10981,6 @@ mOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11010,7 +10996,6 @@ mOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -12960,7 +12945,6 @@ mOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14187,7 +14171,6 @@ mOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -17228,7 +17211,6 @@ mOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -17283,7 +17265,6 @@ mOwnerContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -18361,7 +18342,6 @@ mOwnerContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

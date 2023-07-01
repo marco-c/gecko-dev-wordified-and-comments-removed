@@ -2849,7 +2849,6 @@ NS_ASSERTION
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -9192,7 +9191,6 @@ uri
 {
 GetAttr
 (
-kNameSpaceID_None
 aAttr
 aResult
 )
@@ -9286,7 +9284,6 @@ if
 (
 GetAttr
 (
-kNameSpaceID_None
 aBaseAttr
 baseAttrValue
 )
@@ -9827,7 +9824,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -9908,7 +9904,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10060,7 +10055,6 @@ id
 {
 GetAttr
 (
-kNameSpaceID_None
 aName
 tmp
 )
@@ -10102,7 +10096,6 @@ type
 {
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10132,7 +10125,6 @@ tmp
 }
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10363,7 +10355,6 @@ tmp
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10393,7 +10384,6 @@ tmp
 }
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10571,7 +10561,6 @@ GetUncomposedDocOrConnectedShadowRoot
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10661,7 +10650,6 @@ formId
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11121,7 +11109,6 @@ if
 (
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11287,7 +11274,6 @@ idVal
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11297,7 +11283,6 @@ nameVal
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -12861,7 +12846,6 @@ AsElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14398,7 +14382,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14411,7 +14394,6 @@ dirname
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -15382,7 +15364,6 @@ if
 !
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

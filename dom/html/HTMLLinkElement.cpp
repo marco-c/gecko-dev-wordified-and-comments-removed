@@ -1996,7 +1996,6 @@ rel
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2379,7 +2378,6 @@ as
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2411,7 +2409,6 @@ type
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2434,7 +2431,6 @@ notUsed
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3633,7 +3629,6 @@ aSelf
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

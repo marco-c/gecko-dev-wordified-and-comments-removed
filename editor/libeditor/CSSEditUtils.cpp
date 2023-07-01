@@ -6664,7 +6664,6 @@ aStyledElement
 .
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6676,7 +6675,6 @@ aOtherStyledElement
 .
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6699,7 +6697,6 @@ aStyledElement
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

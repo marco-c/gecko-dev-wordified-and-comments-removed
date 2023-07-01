@@ -3410,7 +3410,6 @@ containingElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

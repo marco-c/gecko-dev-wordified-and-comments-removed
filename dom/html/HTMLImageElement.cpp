@@ -750,7 +750,6 @@ const
 return
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2902,7 +2901,6 @@ idVal
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2912,7 +2910,6 @@ nameVal
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -5169,7 +5166,6 @@ src
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

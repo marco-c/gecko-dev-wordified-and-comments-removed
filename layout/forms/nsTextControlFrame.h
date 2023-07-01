@@ -1068,7 +1068,6 @@ AsElement
 >
 HasAttr
 (
-kNameSpaceID_None
 aAtt
 )
 ;

@@ -1654,7 +1654,6 @@ const
 return
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3033,7 +3032,6 @@ const
 return
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

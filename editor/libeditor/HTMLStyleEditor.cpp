@@ -3603,7 +3603,6 @@ aElement
 .
 GetAttr
 (
-kNameSpaceID_None
 mAttribute
 attrValue
 )
@@ -3727,7 +3726,6 @@ aElement
 .
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -22298,7 +22296,6 @@ AsElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

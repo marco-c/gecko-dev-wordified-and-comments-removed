@@ -888,7 +888,6 @@ aAttrs
 >
 HasAttr
 (
-kNameSpaceID_None
 aAtom
 )
 &
@@ -3196,7 +3195,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 aName
 )
 )
@@ -3231,7 +3229,6 @@ defaults
 >
 HasAttr
 (
-kNameSpaceID_None
 aName
 )
 ;
@@ -3264,7 +3261,6 @@ aElement
 >
 GetAttr
 (
-kNameSpaceID_None
 aName
 aResult
 )
@@ -3300,7 +3296,6 @@ defaults
 >
 GetAttr
 (
-kNameSpaceID_None
 aName
 aResult
 )

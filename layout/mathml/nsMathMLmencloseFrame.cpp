@@ -795,7 +795,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

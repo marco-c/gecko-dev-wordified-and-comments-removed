@@ -403,7 +403,6 @@ const
 return
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

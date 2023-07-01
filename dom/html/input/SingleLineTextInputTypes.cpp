@@ -125,7 +125,6 @@ mInputElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -323,7 +322,6 @@ mInputElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -399,7 +397,6 @@ mInputElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -561,7 +558,6 @@ mInputElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

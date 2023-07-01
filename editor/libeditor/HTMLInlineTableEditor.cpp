@@ -1034,7 +1034,6 @@ aElement
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

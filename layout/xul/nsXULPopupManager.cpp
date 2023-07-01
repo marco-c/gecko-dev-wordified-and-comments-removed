@@ -2698,7 +2698,6 @@ element
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -5855,7 +5854,6 @@ aPopup
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10835,7 +10833,6 @@ grandChildElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10885,7 +10882,6 @@ commandElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10928,7 +10924,6 @@ commandElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10957,7 +10952,6 @@ commandElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10986,7 +10980,6 @@ commandElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11015,7 +11008,6 @@ commandElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
