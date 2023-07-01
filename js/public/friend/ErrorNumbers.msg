@@ -11462,3 +11462,17 @@ received
 }
 "
 )
+MSG_DEF
+(
+JSMSG_TEMPORAL_CALENDAR_INVALID_ID
+1
+JSEXN_RANGEERR
+"
+invalid
+calendar
+:
+{
+0
+}
+"
+)
