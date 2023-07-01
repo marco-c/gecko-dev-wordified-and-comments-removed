@@ -1908,6 +1908,16 @@ getOwnPropertyNames
 \
 MACRO_
 (
+getPossibleInstantsFor
+getPossibleInstantsFor
+\
+"
+getPossibleInstantsFor
+"
+)
+\
+MACRO_
+(
 getPropertySuper
 getPropertySuper
 "
