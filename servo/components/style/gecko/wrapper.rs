@@ -11449,7 +11449,15 @@ MozIsHTML
 >
 self
 .
-is_html_element_in_html_document
+as_node
+(
+)
+.
+owner_doc
+(
+)
+.
+is_html_document
 (
 )
 NonTSPseudoClass
