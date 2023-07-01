@@ -315,14 +315,9 @@ if
 CONFIG
 [
 "
-MOZ_WIDGET_TOOLKIT
+MOZ_WAYLAND
 "
 ]
-=
-=
-"
-gtk
-"
 :
 LOCAL_INCLUDES
 +

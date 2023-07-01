@@ -55,7 +55,7 @@ PRLibrary
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 struct
 AVCodecHWConfig
 ;
@@ -118,7 +118,7 @@ Unlink
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 bool
 IsVAAPIAvailable
 (
@@ -681,7 +681,7 @@ frame
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 const
 AVCodecHWConfig
 *
@@ -974,7 +974,7 @@ mAVUtilLib
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 PRLibrary
 *
 mVALib

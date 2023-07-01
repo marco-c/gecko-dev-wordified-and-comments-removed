@@ -99,7 +99,7 @@ h
 "
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 #
 include
 "
@@ -233,7 +233,12 @@ aError
 {
 if
 (
-kIsLinux
+(
+kIsWayland
+|
+|
+kIsX11
+)
 &
 &
 !
@@ -560,7 +565,12 @@ BeginFrame
 {
 if
 (
-kIsLinux
+(
+kIsWayland
+|
+|
+kIsX11
+)
 &
 &
 mEGLSurface
@@ -595,7 +605,7 @@ false
 }
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 if
 (
 mWidget
@@ -825,7 +835,7 @@ GetNextRenderFrameId
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 if
 (
 mWidget
@@ -1239,7 +1249,10 @@ mEGLSurface
 else
 if
 (
-kIsLinux
+kIsWayland
+|
+|
+kIsX11
 )
 {
 DestroyEGLSurface

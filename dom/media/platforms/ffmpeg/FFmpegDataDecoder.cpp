@@ -1669,7 +1669,7 @@ aCodec
 }
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 AVCodec
 *
 FFmpegDataDecoder

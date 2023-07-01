@@ -1386,7 +1386,10 @@ nullptr
 else
 if
 (
-kIsLinux
+kIsWayland
+|
+|
+kIsX11
 )
 {
 const
@@ -5224,7 +5227,7 @@ true
 }
 if
 (
-kIsLinux
+kIsX11
 &
 &
 fallbackConfig

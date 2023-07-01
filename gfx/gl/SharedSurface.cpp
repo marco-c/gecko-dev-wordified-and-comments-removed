@@ -175,7 +175,7 @@ h
 endif
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 #
 include
 "
@@ -447,7 +447,7 @@ DMABUF
 :
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 if
 (
 gl
