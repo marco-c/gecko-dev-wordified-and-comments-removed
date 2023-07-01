@@ -331,17 +331,6 @@ DecoderType
 :
 Vorbis
 :
-#
-if
-defined
-(
-__MINGW32__
-)
-return
-false
-;
-#
-else
 return
 StaticPrefs
 :
@@ -350,8 +339,6 @@ media_utility_vorbis_enabled
 (
 )
 ;
-#
-endif
 case
 DecoderType
 :
