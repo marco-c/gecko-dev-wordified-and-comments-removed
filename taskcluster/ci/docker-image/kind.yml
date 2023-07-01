@@ -702,7 +702,7 @@ vb
 )
 parent
 :
-debian11
+debian12
 -
 amd64
 -
@@ -710,7 +710,7 @@ build
 packages
 :
 -
-deb11
+deb12
 -
 valgrind
 lint
