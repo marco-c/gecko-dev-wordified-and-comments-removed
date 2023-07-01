@@ -5759,6 +5759,7 @@ bug_numbers
 [
 1559136
 1671404
+1466103
 ]
 notification_emails
 :
@@ -5842,7 +5843,13 @@ visit
 bookmark
 "
 "
+bookmark_adaptive
+"
+"
 history
+"
+"
+history_adaptive
 "
 "
 keyword
