@@ -94,10 +94,6 @@ arraybuffer
 "
         
 "
-Temporal
-"
-        
-"
 decorators
 "
         
@@ -187,6 +183,22 @@ hasOwnProperty
 (
 '
 SharedArrayBuffer
+'
+)
+"
+    
+"
+Temporal
+"
+:
+"
+!
+this
+.
+hasOwnProperty
+(
+'
+Temporal
 '
 )
 "
@@ -2955,6 +2967,33 @@ detachArrayBuffer
 js
 "
     
+]
+    
+explicitIncludes
+[
+os
+.
+path
+.
+join
+(
+"
+built
+-
+ins
+"
+"
+Temporal
+"
+)
+]
+=
+[
+"
+temporalHelpers
+.
+js
+"
 ]
     
 for
