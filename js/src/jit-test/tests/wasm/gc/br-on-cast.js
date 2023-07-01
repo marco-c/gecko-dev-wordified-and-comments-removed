@@ -1032,10 +1032,7 @@ module
 type
 a
 (
-sub
-(
 struct
-)
 )
 )
 (
