@@ -4456,6 +4456,10 @@ resistFingerprinting
 =
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+WebGLRenderCapability
 )
 ;
 const
@@ -5424,6 +5428,10 @@ shouldResistFingerprinting
 =
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+WebGLRenderCapability
 )
 ;
 if
@@ -13281,6 +13289,10 @@ if
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+WebGLRenderInfo
 )
 )
 {
@@ -32633,6 +32645,10 @@ WEBGL_debug_renderer_info
 return
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+WebGLRenderInfo
 )
 |
 |
@@ -32653,6 +32669,10 @@ WEBGL_debug_shaders
 return
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+WebGLRenderInfo
 )
 ;
 default
