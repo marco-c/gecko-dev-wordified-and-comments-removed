@@ -170,15 +170,6 @@ override
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-bool
-GetScriptType
-(
-nsAString
-&
-type
-)
-override
-;
 void
 GetScriptText
 (

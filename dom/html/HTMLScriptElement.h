@@ -107,16 +107,6 @@ aError
 override
 ;
 virtual
-bool
-GetScriptType
-(
-nsAString
-&
-type
-)
-override
-;
-virtual
 void
 GetScriptText
 (
