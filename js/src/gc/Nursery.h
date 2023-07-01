@@ -604,7 +604,10 @@ kind
 nodiscard
 ]
 ]
-bool
+JS
+:
+:
+GCReason
 handleAllocationFailure
 (
 )
