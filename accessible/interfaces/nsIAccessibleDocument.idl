@@ -76,6 +76,11 @@ unsigned
 long
 childDocumentCount
 ;
+readonly
+attribute
+nsIAccessiblePivot
+virtualCursor
+;
 nsIAccessibleDocument
 getChildDocumentAt
 (

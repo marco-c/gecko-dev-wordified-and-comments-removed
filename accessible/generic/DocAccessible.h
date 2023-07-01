@@ -7,6 +7,13 @@ mozilla_a11y_DocAccessible_h__
 #
 include
 "
+nsIAccessiblePivot
+.
+h
+"
+#
+include
+"
 HyperTextAccessibleWrap
 .
 h
@@ -69,6 +76,9 @@ nsWeakReference
 .
 h
 "
+class
+nsAccessiblePivot
+;
 const
 uint32_t
 kDefaultCacheLength
@@ -128,6 +138,8 @@ public
 nsIDocumentObserver
 public
 nsSupportsWeakReference
+public
+nsIAccessiblePivotObserver
 {
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -135,6 +147,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 DocAccessible
 LocalAccessible
 )
+NS_DECL_NSIACCESSIBLEPIVOTOBSERVER
 protected
 :
 typedef
@@ -405,6 +418,12 @@ QueueCacheUpdateForDependentRelations
 LocalAccessible
 *
 aAcc
+)
+;
+nsIAccessiblePivot
+*
+VirtualCursor
+(
 )
 ;
 bool
@@ -1502,6 +1521,12 @@ DocAccessible
 >
 >
 mChildDocuments
+;
+RefPtr
+<
+nsAccessiblePivot
+>
+mVirtualCursor
 ;
 class
 AttrRelProvider
