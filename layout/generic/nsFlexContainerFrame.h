@@ -1295,12 +1295,12 @@ mCachedPrefISize
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
 nscoord
-mBaselineFromLastReflow
+mFirstBaseline
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
 nscoord
-mLastBaselineFromLastReflow
+mLastBaseline
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
