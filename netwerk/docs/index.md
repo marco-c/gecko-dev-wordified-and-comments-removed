@@ -222,9 +222,6 @@ network_test_guidelines
 .
 md
 http_server_for_testing
-mochitest_with_http3
-.
-md
 #
 #
 Component
