@@ -1559,6 +1559,12 @@ options
 }
 )
 {
+editable
+.
+scrollIntoView
+(
+)
+;
 const
 onFocus
 =
