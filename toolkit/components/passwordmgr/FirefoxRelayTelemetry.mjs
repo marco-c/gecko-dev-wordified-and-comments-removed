@@ -118,6 +118,7 @@ recordRelayOfferedEvent
 eventMethod
 eventFlowId
 scenarioName
+isRelayUser
 )
 {
 return
@@ -134,6 +135,18 @@ eventFlowId
 scenario
 :
 scenarioName
+is_relay_user
+:
+(
+isRelayUser
+?
+?
+"
+"
+)
++
+"
+"
 }
 )
 ;
