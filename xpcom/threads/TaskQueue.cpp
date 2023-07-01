@@ -12,15 +12,6 @@ include
 "
 mozilla
 /
-DelayedRunnable
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ProfilerRunnable
 .
 h

@@ -278,14 +278,6 @@ false
 ;
 RefPtr
 <
-CancelPromise
->
-CancelDelayedRunnables
-(
-)
-;
-RefPtr
-<
 ShutdownPromise
 >
 BeginShutdown
