@@ -328,6 +328,14 @@ WindowDevicePixelRatio
 )
 ITEM_VALUE
 (
+MouseEventScreenPoint
+1llu
+<
+<
+41
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
