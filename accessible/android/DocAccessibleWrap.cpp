@@ -93,17 +93,6 @@ PresShell
 .
 h
 "
-#
-include
-"
-mozilla
-/
-a11y
-/
-DocAccessiblePlatformExtChild
-.
-h
-"
 using
 namespace
 mozilla
