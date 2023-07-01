@@ -1680,6 +1680,8 @@ SAFARI_PASSWORD_PERMISSION
 return
 ;
 }
+extraArgs
+=
 await
 this
 .
@@ -1688,7 +1690,10 @@ sendQuery
 "
 Migrate
 "
+{
 migrationDetails
+extraArgs
+}
 )
 ;
 this
