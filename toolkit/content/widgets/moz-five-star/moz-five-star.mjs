@@ -96,9 +96,9 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-browser
+toolkit
 /
-components
+global
 /
 mozFiveStar
 .
