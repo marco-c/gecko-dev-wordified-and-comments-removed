@@ -320,6 +320,14 @@ NavigatorConnection
 )
 ITEM_VALUE
 (
+WindowDevicePixelRatio
+1llu
+<
+<
+40
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
