@@ -4140,16 +4140,6 @@ aUnbindOrDelete
 )
 override
 ;
-bool
-AllowDrop
-(
-)
-override
-{
-return
-true
-;
-}
 protected
 :
 virtual

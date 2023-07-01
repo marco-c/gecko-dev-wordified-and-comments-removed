@@ -327,14 +327,6 @@ aFormData
 =
 0
 ;
-virtual
-bool
-AllowDrop
-(
-)
-=
-0
-;
 inline
 bool
 IsSubmitControl

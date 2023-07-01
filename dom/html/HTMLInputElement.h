@@ -602,12 +602,6 @@ aFormData
 )
 override
 ;
-bool
-AllowDrop
-(
-)
-override
-;
 void
 FieldSetDisabledChanged
 (
