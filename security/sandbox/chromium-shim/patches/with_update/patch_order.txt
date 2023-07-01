@@ -94,3 +94,6 @@ patch
 derive_sid_from_name
 .
 patch
+add_loongarch_defines
+.
+patch
