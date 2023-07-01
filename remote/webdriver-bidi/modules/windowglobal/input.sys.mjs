@@ -227,11 +227,6 @@ action
 .
 State
 (
-{
-specCompatPointerOrigin
-:
-true
-}
 )
 ;
 }

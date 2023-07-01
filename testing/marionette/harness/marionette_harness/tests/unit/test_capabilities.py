@@ -4,12 +4,12 @@ import
 sys
 import
 unittest
-from
+import
 marionette_driver
 .
 errors
-import
-SessionNotCreatedException
+as
+errors
 from
 marionette_harness
 import
@@ -817,36 +817,6 @@ assertIn
 "
 moz
 :
-useNonSpecCompliantPointerOrigin
-"
-self
-.
-caps
-)
-        
-self
-.
-assertFalse
-(
-self
-.
-caps
-[
-"
-moz
-:
-useNonSpecCompliantPointerOrigin
-"
-]
-)
-        
-self
-.
-assertIn
-(
-"
-moz
-:
 webdriverClick
 "
 self
@@ -898,6 +868,20 @@ moz
 windowless
 "
 ]
+)
+        
+self
+.
+assertNotIn
+(
+"
+moz
+:
+useNonSpecCompliantPointerOrigin
+"
+self
+.
+caps
 )
     
 def
@@ -955,7 +939,7 @@ webdriverClick
 )
     
 def
-test_use_non_spec_compliant_pointer_origin
+test_no_longer_supported_capabilities
 (
 self
 )
@@ -969,12 +953,29 @@ delete_session
 (
 )
         
+with
+self
+.
+assertRaisesRegexp
+(
+            
+errors
+.
+SessionNotCreatedException
+"
+InvalidArgumentError
+"
+        
+)
+:
+            
 self
 .
 marionette
 .
 start_session
 (
+                
 {
 "
 moz
@@ -984,28 +985,7 @@ useNonSpecCompliantPointerOrigin
 :
 True
 }
-)
-        
-caps
-=
-self
-.
-marionette
-.
-session_capabilities
-        
-self
-.
-assertTrue
-(
-caps
-[
-"
-moz
-:
-useNonSpecCompliantPointerOrigin
-"
-]
+            
 )
     
 def
@@ -1296,6 +1276,8 @@ self
 .
 assertRaises
 (
+errors
+.
 SessionNotCreatedException
 )
 :
@@ -1475,6 +1457,8 @@ self
 assertRaisesRegexp
 (
                 
+errors
+.
 SessionNotCreatedException
 "
 InvalidArgumentError
@@ -1511,6 +1495,8 @@ self
 assertRaisesRegexp
 (
             
+errors
+.
 SessionNotCreatedException
 "
 InvalidArgumentError
@@ -1579,6 +1565,8 @@ self
 .
 assertRaises
 (
+errors
+.
 SessionNotCreatedException
 )
 :
@@ -1749,6 +1737,8 @@ self
 .
 assertRaises
 (
+errors
+.
 SessionNotCreatedException
 )
 :
@@ -2060,6 +2050,8 @@ self
 assertRaisesRegexp
 (
                 
+errors
+.
 SessionNotCreatedException
 "
 InvalidArgumentError

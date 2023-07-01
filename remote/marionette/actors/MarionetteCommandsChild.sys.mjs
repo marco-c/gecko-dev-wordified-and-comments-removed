@@ -2997,7 +2997,6 @@ options
 const
 {
 actions
-capabilities
 }
 =
 options
@@ -3024,19 +3023,6 @@ action
 .
 State
 (
-{
-specCompatPointerOrigin
-:
-!
-capabilities
-[
-"
-moz
-:
-useNonSpecCompliantPointerOrigin
-"
-]
-}
 )
 ;
 }

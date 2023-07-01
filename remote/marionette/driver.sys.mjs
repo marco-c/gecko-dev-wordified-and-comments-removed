@@ -9954,11 +9954,6 @@ getActor
 performActions
 (
 actions
-this
-.
-currentSession
-.
-capabilities
 )
 ;
 }

@@ -1175,7 +1175,6 @@ async
 performActions
 (
 actions
-capabilities
 )
 {
 return
@@ -1190,13 +1189,6 @@ performActions
 "
 {
 actions
-capabilities
-:
-capabilities
-.
-toJSON
-(
-)
 }
 )
 ;
