@@ -649,6 +649,13 @@ h
 "
 public
 /
+ProfilerBufferSize
+.
+h
+"
+"
+public
+/
 ProgressLogger
 .
 h

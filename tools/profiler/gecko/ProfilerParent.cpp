@@ -117,6 +117,15 @@ include
 "
 mozilla
 /
+ProfilerBufferSize
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -2553,7 +2562,7 @@ tracker
 mEntries
 )
 *
-8u
+scBytesPerEntry
 )
 ;
 }
@@ -2639,7 +2648,10 @@ tracker
 >
 mEntries
 =
+ClampToAllowedEntries
+(
 aEntries
+)
 ;
 if
 (
@@ -2679,7 +2691,7 @@ tracker
 mEntries
 )
 *
-8u
+scBytesPerEntry
 )
 ;
 }
