@@ -172,7 +172,6 @@ common
 blank
 .
 html
-}
 "
 ;
 event
