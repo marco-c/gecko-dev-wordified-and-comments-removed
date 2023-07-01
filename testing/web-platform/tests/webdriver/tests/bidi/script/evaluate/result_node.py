@@ -2505,6 +2505,14 @@ childNodeCount
 1
                     
 "
+mode
+"
+:
+"
+open
+"
+                    
+"
 nodeType
 "
 :
