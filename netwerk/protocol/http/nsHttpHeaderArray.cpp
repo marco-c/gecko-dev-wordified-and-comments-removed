@@ -215,8 +215,6 @@ nullptr
 ;
 int32_t
 index
-;
-index
 =
 LookupEntry
 (
@@ -232,6 +230,15 @@ value
 IsEmpty
 (
 )
+&
+&
+header
+!
+=
+nsHttp
+:
+:
+X_Frame_Options
 )
 {
 if
