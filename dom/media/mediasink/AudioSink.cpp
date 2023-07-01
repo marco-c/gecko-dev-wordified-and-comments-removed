@@ -1383,6 +1383,16 @@ mAudioQueue
 PushFront
 (
 packet
+MediaQueue
+<
+AudioData
+>
+:
+:
+TimestampAdjustment
+:
+:
+Disable
 )
 ;
 }
