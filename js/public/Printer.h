@@ -201,7 +201,11 @@ hadOutOfMemory
 (
 )
 const
+{
+return
+hadOOM_
 ;
+}
 }
 ;
 class
@@ -348,6 +352,14 @@ string
 )
 const
 {
+MOZ_ASSERT
+(
+!
+hadOutOfMemory
+(
+)
+)
+;
 return
 base
 ;
@@ -361,7 +373,9 @@ stringEnd
 const
 {
 return
-base
+string
+(
+)
 +
 offset
 ;
