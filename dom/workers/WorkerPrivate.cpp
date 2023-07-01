@@ -15083,11 +15083,11 @@ DebuggerGlobalScope
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 globalScope
 )
-;
+{
 JSAutoRealm
 ar
 (
@@ -15105,6 +15105,7 @@ JS_MaybeGC
 aCx
 )
 ;
+}
 }
 }
 else
