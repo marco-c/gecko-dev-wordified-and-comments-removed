@@ -6868,18 +6868,16 @@ __builtin__
 "
 :
             
-glob
-[
-_as
-or
+raise
+Exception
+(
 "
+Importing
 __builtin__
+is
+forbidden
 "
-]
-=
-__builtin__
-            
-return
+)
         
 if
 _from
