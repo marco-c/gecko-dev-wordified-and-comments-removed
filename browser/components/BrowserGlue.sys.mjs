@@ -5728,7 +5728,7 @@ DistributionCustomizer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -5740,7 +5740,9 @@ modules
 /
 distribution
 .
-js
+sys
+.
+mjs
 "
 )
 ;

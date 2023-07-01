@@ -23,7 +23,9 @@ Files
 "
 distribution
 .
-js
+sys
+.
+mjs
 "
 )
 :
@@ -382,7 +384,9 @@ mjs
 "
 distribution
 .
-js
+sys
+.
+mjs
 "
 ]
 if
