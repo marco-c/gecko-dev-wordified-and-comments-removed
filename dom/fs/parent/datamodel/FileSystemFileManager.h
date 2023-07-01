@@ -291,7 +291,7 @@ nsTArray
 FileId
 >
 &
-aRemoveFails
+aFailedRemovals
 )
 ;
 private

@@ -1826,7 +1826,7 @@ nsTArray
 FileId
 >
 &
-aRemoveFails
+aFailedRemovals
 )
 {
 if
@@ -1886,7 +1886,7 @@ if
 maybeFile
 )
 {
-aRemoveFails
+aFailedRemovals
 .
 AppendElement
 (
@@ -1930,7 +1930,7 @@ if
 fileSize
 )
 {
-aRemoveFails
+aFailedRemovals
 .
 AppendElement
 (
@@ -1973,7 +1973,7 @@ if
 ok
 )
 {
-aRemoveFails
+aFailedRemovals
 .
 AppendElement
 (
