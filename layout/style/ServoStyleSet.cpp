@@ -2849,6 +2849,10 @@ get
 (
 )
 aPageName
+StylePagePseudoClassFlags
+:
+:
+NONE
 )
 .
 Consume
