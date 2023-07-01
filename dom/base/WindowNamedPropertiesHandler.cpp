@@ -1214,7 +1214,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 )
 )
 eNamedPropertiesObject
-false
 prototypes
 :
 :
@@ -1225,12 +1224,6 @@ _ID_Count
 0
 &
 sEmptyNativePropertyHooks
-"
-[
-object
-WindowProperties
-]
-"
 EventTarget_Binding
 :
 :

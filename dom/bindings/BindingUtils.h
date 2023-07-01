@@ -3729,7 +3729,7 @@ JSObject
 >
 protoProto
 const
-JSClass
+DOMIfaceAndProtoJSClass
 *
 protoClass
 JS
@@ -3752,7 +3752,7 @@ JSObject
 >
 constructorProto
 const
-JSClass
+DOMIfaceJSClass
 *
 constructorClass
 unsigned
