@@ -14262,7 +14262,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+AudioSampleRate
 )
 :
 nsContentUtils
@@ -14276,7 +14276,7 @@ Fallback
 RFPTarget
 :
 :
-Unknown
+AudioSampleRate
 )
 )
 ;

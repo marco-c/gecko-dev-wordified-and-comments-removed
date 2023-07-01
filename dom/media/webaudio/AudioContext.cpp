@@ -933,7 +933,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+AudioSampleRate
 )
 )
 )

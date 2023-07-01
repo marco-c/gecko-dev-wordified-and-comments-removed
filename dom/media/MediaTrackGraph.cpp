@@ -17442,7 +17442,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+AudioSampleRate
 )
 aSampleRate
 aOutputDeviceID
@@ -17690,7 +17690,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+AudioSampleRate
 )
 aSampleRate
 aOutputDeviceID

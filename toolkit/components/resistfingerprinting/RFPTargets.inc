@@ -304,6 +304,14 @@ MediaCapabilities
 )
 ITEM_VALUE
 (
+AudioSampleRate
+1llu
+<
+<
+38
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
