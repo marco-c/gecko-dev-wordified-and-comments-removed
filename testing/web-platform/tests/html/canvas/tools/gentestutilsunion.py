@@ -4027,6 +4027,18 @@ or
 variant_params
 :
                 
+if
+not
+variant_name
+.
+startswith
+(
+'
+_
+'
+)
+:
+                    
 test
 [
 '
