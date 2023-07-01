@@ -149,7 +149,16 @@ process_stacktrace
 (
 self
 stacktrace
+:
+Mapping
+[
+str
+Any
+]
 )
+-
+>
+str
 :
         
 stack
@@ -260,6 +269,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -304,6 +316,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -322,6 +337,8 @@ object
 "
         
 message
+:
+str
 =
 self
 .
