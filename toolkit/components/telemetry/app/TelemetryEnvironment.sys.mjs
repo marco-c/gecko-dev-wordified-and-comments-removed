@@ -12931,6 +12931,15 @@ EmbeddedInFirefoxReality
 "
 null
 )
+TargetFrameRate
+:
+getGfxField
+(
+"
+TargetFrameRate
+"
+null
+)
 /
 /
 The
