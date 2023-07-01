@@ -2221,7 +2221,7 @@ icon
 .
 dataset
 .
-selector
+computedSelector
 ;
 const
 {
@@ -2309,6 +2309,12 @@ selector
 {
 selectorText
 }
+)
+;
+icon
+.
+scrollIntoView
+(
 )
 ;
 EventUtils

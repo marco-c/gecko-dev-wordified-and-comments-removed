@@ -2122,7 +2122,7 @@ target
 .
 dataset
 .
-selector
+computedSelector
 ;
 if
 (
@@ -2188,7 +2188,7 @@ target
 .
 dataset
 .
-selector
+computedSelector
 =
 selector
 ;
@@ -2358,6 +2358,8 @@ selector
 highlighter
 [
 data
+-
+computed
 -
 selector
 =
