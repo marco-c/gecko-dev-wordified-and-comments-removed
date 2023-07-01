@@ -392,6 +392,14 @@ AudioContext
 )
 ITEM_VALUE
 (
+MediaError
+1llu
+<
+<
+49
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
