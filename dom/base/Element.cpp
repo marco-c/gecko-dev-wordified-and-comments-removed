@@ -1925,7 +1925,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+PointerEvents
 )
 &
 &
@@ -2085,7 +2085,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+PointerEvents
 )
 &
 &
