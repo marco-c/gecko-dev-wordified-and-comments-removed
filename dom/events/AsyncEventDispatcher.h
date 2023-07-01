@@ -628,12 +628,6 @@ BlockOnload
 ;
 }
 }
-using
-AsyncEventDispatcher
-:
-:
-RunDOMEventWhenSafe
-;
 LoadBlockingAsyncEventDispatcher
 (
 nsINode
