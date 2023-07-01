@@ -376,6 +376,14 @@ RoundWindowSize
 )
 ITEM_VALUE
 (
+UseStandinsForNativeColors
+1llu
+<
+<
+47
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
