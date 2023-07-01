@@ -4421,6 +4421,16 @@ shouldNeverTranslate
 (
 )
 )
+&
+&
+(
+await
+TranslationsParent
+.
+getIsTranslationsEngineSupported
+(
+)
+)
 )
 )
 {
