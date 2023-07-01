@@ -306,11 +306,6 @@ Proxy
 Authenticate
 "
 "
-Proxy
--
-Authorization
-"
-"
 Public
 -
 Key
