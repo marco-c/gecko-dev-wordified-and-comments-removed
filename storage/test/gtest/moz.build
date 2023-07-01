@@ -18,11 +18,6 @@ test_async_callbacks_with_spun_event_loops
 cpp
 "
 "
-test_async_thread_naming
-.
-cpp
-"
-"
 test_asyncStatementExecution_transaction
 .
 cpp
