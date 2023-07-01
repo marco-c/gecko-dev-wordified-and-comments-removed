@@ -1584,7 +1584,7 @@ LayoutDebug
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1597,7 +1597,9 @@ actors
 /
 LayoutDebugChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 allFrames
