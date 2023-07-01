@@ -7331,7 +7331,6 @@ const
 nsAtom
 *
 aHighlightName
-const
 mozilla
 :
 :
@@ -7567,7 +7566,6 @@ const
 nsAtom
 *
 aHighlightName
-const
 mozilla
 :
 :
