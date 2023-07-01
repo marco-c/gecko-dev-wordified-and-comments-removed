@@ -577,6 +577,15 @@ aResult
 override
 ;
 NS_IMETHOD
+IsContentAccessibleAboutURI
+(
+bool
+*
+aResult
+)
+override
+;
+NS_IMETHOD
 IsL10nAllowed
 (
 nsIURI
