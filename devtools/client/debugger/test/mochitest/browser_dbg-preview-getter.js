@@ -79,6 +79,11 @@ preview
 "
 )
 ;
+const
+{
+tokenEl
+}
+=
 await
 tryHovering
 (
@@ -241,11 +246,10 @@ expected
 )
 ;
 await
-closePreviewAtPos
+closePreviewForToken
 (
 dbg
-5
-8
+tokenEl
 )
 ;
 }

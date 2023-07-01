@@ -673,6 +673,9 @@ text
 "
 CUSTOM
 "
+doNotClose
+:
+true
 }
 )
 ;
