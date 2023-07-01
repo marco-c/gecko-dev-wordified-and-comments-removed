@@ -1958,6 +1958,14 @@ target
 =
 =
 targetDocument
+|
+|
+target
+-
+>
+IsNonInteractive
+(
+)
 )
 {
 nsEventShell
