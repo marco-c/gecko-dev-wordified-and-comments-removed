@@ -520,13 +520,6 @@ Check
 br
 /
 >
-About
-Page
-Check
-<
-br
-/
->
 URI
 Exempt
 Check
@@ -636,13 +629,6 @@ br
 /
 >
 Scheme
-Check
-<
-br
-/
->
-About
-Page
 Check
 <
 br
