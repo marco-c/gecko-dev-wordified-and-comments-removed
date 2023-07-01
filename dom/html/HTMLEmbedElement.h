@@ -119,7 +119,6 @@ allowfullscreen
 )
 ;
 }
-virtual
 void
 AsyncEventRunning
 (
@@ -129,7 +128,6 @@ aEvent
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -141,7 +139,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -152,7 +149,6 @@ true
 )
 override
 ;
-virtual
 bool
 IsHTMLFocusable
 (
@@ -167,7 +163,6 @@ aTabIndex
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -189,7 +184,6 @@ aResult
 )
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -211,7 +205,6 @@ aAttribute
 const
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -219,14 +212,12 @@ IntrinsicState
 const
 override
 ;
-virtual
 void
 DestroyContent
 (
 )
 override
 ;
-virtual
 uint32_t
 GetCapabilities
 (
@@ -234,7 +225,6 @@ GetCapabilities
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -573,7 +563,6 @@ return
 this
 ;
 }
-virtual
 void
 AfterSetAttr
 (
@@ -598,7 +587,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 OnAttrSetButNotChanged
 (
@@ -630,14 +618,12 @@ GetContentPolicyType
 const
 override
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -654,11 +640,7 @@ static
 void
 MapAttributesIntoRule
 (
-const
-nsMappedAttributes
-*
-aAttributes
-MappedDeclarations
+MappedDeclarationsBuilder
 &
 )
 ;
