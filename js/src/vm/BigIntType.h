@@ -2633,6 +2633,8 @@ bool
 resultNegative
 )
 ;
+public
+:
 static
 int8_t
 absoluteCompare
@@ -2645,6 +2647,8 @@ BigInt
 rhs
 )
 ;
+private
+:
 static
 int8_t
 compare
