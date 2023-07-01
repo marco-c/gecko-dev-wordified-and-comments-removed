@@ -1123,14 +1123,6 @@ waitingTime
 ;
 resourceUpdates
 .
-isResolvedByTRR
-=
-updateResource
-.
-isResolvedByTRR
-;
-resourceUpdates
-.
 responseHeadersAvailable
 =
 true
