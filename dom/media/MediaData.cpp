@@ -2021,7 +2021,7 @@ gfx
 gfxVars
 :
 :
-UseWebRenderDCompSwVideoOverlayWin
+UseWebRenderDCompVideoSwOverlayWin
 (
 )
 &

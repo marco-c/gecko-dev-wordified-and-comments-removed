@@ -489,6 +489,17 @@ return
 nullptr
 ;
 }
+client
+-
+>
+AddFlags
+(
+TextureFlags
+:
+:
+SOFTWARE_DECODED_VIDEO
+)
+;
 RefPtr
 <
 ID3D11Texture2D
