@@ -228,6 +228,13 @@ sys
 mjs
 "
 "
+LoginManagerTelemetry
+.
+sys
+.
+mjs
+"
+"
 LoginRecipes
 .
 sys
