@@ -1377,7 +1377,7 @@ closed
 .
 *
 /
-onClosed
+onConnectionClose
 (
 )
 {
@@ -1420,7 +1420,7 @@ clear
 ;
 super
 .
-onClosed
+onConnectionClose
 (
 )
 ;
