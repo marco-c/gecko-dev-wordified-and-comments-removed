@@ -73,9 +73,6 @@ new_session
 capabilities
 =
 value
-keep_browser_open
-=
-True
 )
 pytest
 .
@@ -127,9 +124,6 @@ alwaysMatch
 :
 value
 }
-keep_browser_open
-=
-True
 )
 pytest
 .
@@ -183,9 +177,6 @@ firstMatch
 :
 value
 }
-keep_browser_open
-=
-True
 )
 pytest
 .
@@ -240,9 +231,6 @@ firstMatch
 value
 ]
 }
-keep_browser_open
-=
-True
 )
 pytest
 .
@@ -310,9 +298,6 @@ new_session
 capabilities
 =
 capabilities
-keep_browser_open
-=
-True
 )
 pytest
 .
@@ -379,9 +364,6 @@ new_session
 capabilities
 =
 capabilities
-keep_browser_open
-=
-True
 )
 pytest
 .
@@ -440,9 +422,6 @@ new_session
 capabilities
 =
 capabilities
-keep_browser_open
-=
-True
 )
 async
 def
@@ -496,9 +475,5 @@ True
 }
             
 }
-            
-keep_browser_open
-=
-True
         
 )
