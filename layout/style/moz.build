@@ -457,7 +457,7 @@ LayerAnimationInfo
 h
 "
 "
-MappedDeclarationsBuilder
+MappedDeclarations
 .
 h
 "
@@ -1070,7 +1070,7 @@ Loader
 cpp
 "
 "
-MappedDeclarationsBuilder
+MappedDeclarations
 .
 cpp
 "

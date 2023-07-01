@@ -473,7 +473,7 @@ aRv
 ;
 }
 const
-StyleLockedDeclarationBlock
+nsMappedAttributes
 *
 GetAttributesMappedForImage
 (
@@ -653,7 +653,7 @@ mSrcsetTriggeringPrincipal
 ;
 RefPtr
 <
-StyleLockedDeclarationBlock
+nsMappedAttributes
 >
 mMappedAttributesForImage
 ;

@@ -110,6 +110,7 @@ aError
 )
 ;
 }
+virtual
 bool
 ParseAttribute
 (
@@ -131,6 +132,7 @@ aResult
 )
 override
 ;
+virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -152,6 +154,7 @@ aAttribute
 const
 override
 ;
+virtual
 nsresult
 Clone
 (
@@ -176,12 +179,14 @@ HTMLTableCaptionElement
 (
 )
 ;
+virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
+aCx
 JS
 :
 :
@@ -200,7 +205,11 @@ static
 void
 MapAttributesIntoRule
 (
-MappedDeclarationsBuilder
+const
+nsMappedAttributes
+*
+aAttributes
+MappedDeclarations
 &
 )
 ;

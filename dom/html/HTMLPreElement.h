@@ -70,6 +70,7 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 HTMLPreElement
 nsGenericHTMLElement
 )
+virtual
 bool
 ParseAttribute
 (
@@ -105,6 +106,7 @@ aAttribute
 const
 override
 ;
+virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -112,6 +114,7 @@ GetAttributeMappingFunction
 const
 override
 ;
+virtual
 nsresult
 Clone
 (
@@ -178,6 +181,7 @@ HTMLPreElement
 (
 )
 ;
+virtual
 JSObject
 *
 WrapNode
@@ -193,6 +197,7 @@ Handle
 JSObject
 *
 >
+aGivenProto
 )
 override
 ;
@@ -202,7 +207,11 @@ static
 void
 MapAttributesIntoRule
 (
-MappedDeclarationsBuilder
+const
+nsMappedAttributes
+*
+aAttributes
+MappedDeclarations
 &
 )
 ;

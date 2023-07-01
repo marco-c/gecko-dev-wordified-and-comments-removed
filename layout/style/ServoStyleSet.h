@@ -1506,6 +1506,11 @@ Snapshots
 )
 ;
 void
+ResolveMappedAttrDeclarationBlocks
+(
+)
+;
+void
 ClearNonInheritingComputedStyles
 (
 )

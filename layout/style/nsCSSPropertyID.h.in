@@ -13,8 +13,6 @@ h
 >
 enum
 nsCSSPropertyID
-:
-int32_t
 {
 eCSSProperty_UNKNOWN
 =

@@ -257,6 +257,11 @@ nsCSSProps
 h
 "
 "
+nsMappedAttributes
+.
+h
+"
+"
 nsNameSpaceManager
 .
 h
