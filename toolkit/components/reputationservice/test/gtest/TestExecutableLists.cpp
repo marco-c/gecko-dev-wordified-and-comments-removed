@@ -280,6 +280,10 @@ dhtml
 "
 "
 .
+diagcab
+"
+"
+.
 diskcopy42
 "
 "
