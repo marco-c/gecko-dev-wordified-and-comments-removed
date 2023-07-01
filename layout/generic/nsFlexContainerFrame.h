@@ -805,6 +805,11 @@ mAscent
 =
 NS_UNCONSTRAINEDSIZE
 ;
+nscoord
+mAscentForLast
+=
+NS_UNCONSTRAINEDSIZE
+;
 }
 ;
 FlexLayoutResult
