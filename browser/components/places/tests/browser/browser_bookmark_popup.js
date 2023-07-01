@@ -1281,9 +1281,6 @@ synthesizeKey
 VK_ESCAPE
 "
 {
-accelKey
-:
-true
 }
 win
 )
@@ -1339,9 +1336,6 @@ synthesizeKey
 VK_ESCAPE
 "
 {
-accelKey
-:
-true
 }
 win
 )
