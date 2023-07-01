@@ -16924,6 +16924,11 @@ eUnskipped
 nullptr
 )
 ;
+bool
+isFirst
+=
+true
+;
 while
 (
 !
@@ -16941,6 +16946,9 @@ it
 IsClusterAndLigatureGroupStart
 (
 )
+|
+|
+isFirst
 )
 {
 partialAdvance
@@ -16948,6 +16956,10 @@ partialAdvance
 0
 .
 0
+;
+isFirst
+=
+false
 ;
 }
 else
