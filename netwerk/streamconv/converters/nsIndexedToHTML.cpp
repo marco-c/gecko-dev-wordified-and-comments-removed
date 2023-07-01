@@ -4646,7 +4646,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+JSDateTimeUTC
 )
 )
 {
