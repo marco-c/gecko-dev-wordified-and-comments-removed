@@ -281,6 +281,7 @@ FileSystemWritableFileStreamParent
 Close
 (
 bool
+aAbort
 )
 {
 LOG
@@ -307,9 +308,11 @@ DataManagerStrongRef
 )
 -
 >
-UnlockExclusive
+UnlockShared
 (
 mEntryId
+mTemporaryFileId
+aAbort
 )
 ;
 }

@@ -2283,7 +2283,7 @@ fileId
 mDatabaseManager
 -
 >
-EnsureFileId
+EnsureTemporaryFileId
 (
 aEntryId
 )
