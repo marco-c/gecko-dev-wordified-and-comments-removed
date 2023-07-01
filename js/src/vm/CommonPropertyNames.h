@@ -854,6 +854,15 @@ dateStyle
 \
 MACRO_
 (
+dateUntil
+dateUntil
+"
+dateUntil
+"
+)
+\
+MACRO_
+(
 day
 day
 "
