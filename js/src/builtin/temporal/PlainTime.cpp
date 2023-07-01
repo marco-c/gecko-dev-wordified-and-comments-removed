@@ -5589,7 +5589,7 @@ unit
 TemporalRoundingMode
 roundingMode
 const
-Instant
+InstantSpan
 &
 dayLengthNs
 )
@@ -5604,7 +5604,7 @@ time
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 dayLengthNs
 )
@@ -5615,7 +5615,7 @@ MOZ_ASSERT
 dayLengthNs
 >
 (
-Instant
+InstantSpan
 {
 }
 )

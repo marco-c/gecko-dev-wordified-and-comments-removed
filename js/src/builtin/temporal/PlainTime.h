@@ -705,7 +705,7 @@ unit
 TemporalRoundingMode
 roundingMode
 const
-Instant
+InstantSpan
 &
 dayLengthNs
 )

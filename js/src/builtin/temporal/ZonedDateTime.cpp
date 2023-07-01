@@ -860,7 +860,7 @@ dateTime
 auto
 offsetNs
 =
-Instant
+InstantSpan
 :
 :
 fromNanoseconds
@@ -3380,7 +3380,7 @@ JSContext
 *
 cx
 const
-Instant
+InstantSpan
 &
 nanoseconds
 Handle
@@ -3401,7 +3401,7 @@ result
 {
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 nanoseconds
 )
@@ -3410,7 +3410,7 @@ nanoseconds
 auto
 dayLengthNs
 =
-Instant
+InstantSpan
 :
 :
 fromNanoseconds
@@ -3429,7 +3429,7 @@ if
 nanoseconds
 =
 =
-Instant
+InstantSpan
 {
 }
 )
@@ -3442,7 +3442,7 @@ int64_t
 (
 0
 )
-Instant
+InstantSpan
 {
 }
 dayLengthNs
@@ -3457,7 +3457,7 @@ sign
 =
 nanoseconds
 <
-Instant
+InstantSpan
 {
 }
 ?
@@ -3835,7 +3835,7 @@ intermediateNs
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 ns
 )
@@ -3911,7 +3911,7 @@ intermediateNs
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 dayLengthNs
 )
@@ -3926,7 +3926,7 @@ dayLengthNs
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 diff
 )
@@ -3949,7 +3949,7 @@ if
 diff
 =
 =
-Instant
+InstantSpan
 {
 }
 |
@@ -3958,7 +3958,7 @@ Instant
 (
 diff
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -4161,7 +4161,7 @@ false
 }
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 dayLengthNs
 )
@@ -4169,7 +4169,7 @@ dayLengthNs
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 ns
 )
@@ -4186,7 +4186,7 @@ if
 (
 ns
 >
-Instant
+InstantSpan
 {
 }
 )
@@ -4214,7 +4214,7 @@ MOZ_ASSERT
 ns
 >
 =
-Instant
+InstantSpan
 {
 }
 )
@@ -4604,7 +4604,7 @@ intermediateNs
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 timeRemainder
 )
@@ -5065,7 +5065,7 @@ unit
 TemporalRoundingMode
 roundingMode
 const
-Instant
+InstantSpan
 &
 dayLength
 PlainDateTime
@@ -5075,7 +5075,7 @@ result
 {
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 dayLength
 )
@@ -5086,7 +5086,7 @@ MOZ_ASSERT
 dayLength
 >
 (
-Instant
+InstantSpan
 {
 }
 )
@@ -9687,7 +9687,7 @@ todayInstant
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 diffNs
 )
@@ -13176,7 +13176,7 @@ startNs
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 dayLengthNs
 )
@@ -13187,7 +13187,7 @@ if
 dayLengthNs
 <
 =
-Instant
+InstantSpan
 {
 }
 )

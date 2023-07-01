@@ -2011,7 +2011,7 @@ GetUTCEpochNanoseconds
 dateTime
 )
 -
-Instant
+InstantSpan
 :
 :
 fromMilliseconds
@@ -2080,7 +2080,7 @@ GetUTCEpochNanoseconds
 dateTime
 )
 -
-Instant
+InstantSpan
 :
 :
 fromMilliseconds
@@ -5881,7 +5881,7 @@ append
 (
 epochInstant
 -
-Instant
+InstantSpan
 :
 :
 fromNanoseconds
@@ -6764,7 +6764,7 @@ constexpr
 auto
 oneDay
 =
-Instant
+InstantSpan
 :
 :
 fromNanoseconds

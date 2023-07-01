@@ -4200,7 +4200,7 @@ MOZ_ASSERT
 temporal
 :
 :
-IsValidInstantDifference
+IsValidEpochInstant
 (
 x
 )
@@ -4351,7 +4351,7 @@ BigInt
 bi
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 x
