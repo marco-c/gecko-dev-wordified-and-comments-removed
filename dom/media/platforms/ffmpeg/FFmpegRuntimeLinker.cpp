@@ -283,7 +283,7 @@ LinkStatus_SUCCEEDED
 }
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 sLibAV
 .
 LinkVAAPILibs
