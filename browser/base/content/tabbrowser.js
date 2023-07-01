@@ -5660,6 +5660,16 @@ _adjustFocusAfterTabSwitch
 newTab
 )
 ;
+}
+if
+(
+aForceUpdate
+|
+|
+!
+gMultiProcessBrowser
+)
+{
 gURLBar
 .
 afterTabSwitchFocusChange
