@@ -1229,17 +1229,6 @@ aTarget
 ;
 static
 bool
-ShouldResistFingerprinting
-(
-nsILoadInfo
-*
-aLoadInfo
-RFPTarget
-aTarget
-)
-;
-static
-bool
 ShouldResistFingerprinting_dangerous
 (
 nsIURI
