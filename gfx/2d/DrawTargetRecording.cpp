@@ -1308,9 +1308,6 @@ AsCircle
 if
 (
 circle
-&
-&
-true
 )
 {
 EnsurePatternDependenciesStored
@@ -1950,6 +1947,12 @@ AsCircle
 if
 (
 circle
+&
+&
+circle
+-
+>
+closed
 )
 {
 EnsurePatternDependenciesStored

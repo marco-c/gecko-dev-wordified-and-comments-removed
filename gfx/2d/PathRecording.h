@@ -50,6 +50,11 @@ origin
 float
 radius
 ;
+bool
+closed
+=
+false
+;
 }
 ;
 class
