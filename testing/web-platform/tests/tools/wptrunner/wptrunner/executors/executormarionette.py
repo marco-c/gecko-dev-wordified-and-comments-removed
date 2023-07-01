@@ -315,7 +315,6 @@ super
 .
 __init__
 (
-self
 logger
 protocol
 test_window
@@ -6554,7 +6553,7 @@ load_devtools
         
 handler
 =
-CallbackHandler
+MarionetteCallbackHandler
 (
 self
 .
