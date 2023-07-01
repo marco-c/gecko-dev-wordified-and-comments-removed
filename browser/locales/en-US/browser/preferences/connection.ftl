@@ -467,6 +467,8 @@ connection
 proxy
 -
 autologin
+-
+checkbox
 =
 .
 label
@@ -485,7 +487,7 @@ accesskey
 =
 i
 .
-tooltip
+tooltiptext
 =
 This
 option
