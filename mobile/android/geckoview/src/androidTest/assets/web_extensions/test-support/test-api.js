@@ -89,7 +89,7 @@ TestSupport
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -108,7 +108,9 @@ support
 /
 TestSupportChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 allFrames
@@ -128,7 +130,7 @@ TestSupportProcess
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -147,7 +149,9 @@ support
 /
 TestSupportProcessChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 }
