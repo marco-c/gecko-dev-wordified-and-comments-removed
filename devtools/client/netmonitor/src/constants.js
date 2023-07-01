@@ -771,6 +771,9 @@ stacktrace
 isThirdPartyTrackingResource
 "
 "
+isResolvedByTRR
+"
+"
 referrerPolicy
 "
 "
