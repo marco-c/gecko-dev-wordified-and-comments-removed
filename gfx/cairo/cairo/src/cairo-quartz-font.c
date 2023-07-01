@@ -372,6 +372,9 @@ fontRef
 =
 NULL
 ;
+#
+ifdef
+CAIRO_HAS_QUARTZ_ATSUFONTID
 static
 ATSFontRef
 (
@@ -379,12 +382,14 @@ ATSFontRef
 FMGetATSFontRefFromFontPtr
 )
 (
-FMFont
+ATSUFontID
 iFont
 )
 =
 NULL
 ;
+#
+endif
 static
 cairo_bool_t
 _cairo_quartz_font_symbol_lookup_done
@@ -667,6 +672,9 @@ CGContextSetAllowsFontSmoothing
 "
 )
 ;
+#
+ifdef
+CAIRO_HAS_QUARTZ_ATSUFONTID
 FMGetATSFontRefFromFontPtr
 =
 dlsym
@@ -677,6 +685,8 @@ FMGetATSFontRefFromFont
 "
 )
 ;
+#
+endif
 if
 (
 (
@@ -4014,6 +4024,9 @@ ffont
 ctFont
 ;
 }
+#
+ifdef
+CAIRO_HAS_QUARTZ_ATSUFONTID
 cairo_font_face_t
 *
 cairo_quartz_font_face_create_for_atsu_font_id
@@ -4111,3 +4124,5 @@ font_id
 )
 ;
 }
+#
+endif
