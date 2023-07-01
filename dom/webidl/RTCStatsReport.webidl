@@ -598,6 +598,9 @@ unsigned
 long
 frameHeight
 ;
+double
+framesPerSecond
+;
 unsigned
 long
 framesSent
