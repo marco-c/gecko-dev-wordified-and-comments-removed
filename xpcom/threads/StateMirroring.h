@@ -1014,7 +1014,6 @@ UpdateValue
 mValue
 )
 ;
-;
 }
 T
 mValue
@@ -1351,7 +1350,6 @@ return
 mValue
 ;
 }
-virtual
 void
 UpdateValue
 (
@@ -1395,7 +1393,6 @@ NotifyWatchers
 ;
 }
 }
-virtual
 void
 NotifyDisconnected
 (
@@ -1591,8 +1588,6 @@ mCanonical
 aCanonical
 ;
 }
-public
-:
 void
 DisconnectIfConnected
 (
