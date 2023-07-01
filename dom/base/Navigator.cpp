@@ -9100,7 +9100,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+NavigatorConnection
 )
 )
 ;

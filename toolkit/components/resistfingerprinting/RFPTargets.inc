@@ -312,6 +312,14 @@ AudioSampleRate
 )
 ITEM_VALUE
 (
+NavigatorConnection
+1llu
+<
+<
+39
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
