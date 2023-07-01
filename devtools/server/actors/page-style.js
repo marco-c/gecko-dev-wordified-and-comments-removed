@@ -3354,13 +3354,14 @@ rule
 rawRule
 ;
 const
-selectors
+desugaredSelectors
 =
 CssLogic
 .
 getSelectors
 (
 domRule
+true
 )
 ;
 const
@@ -3405,7 +3406,7 @@ bindingElement
 ;
 entry
 .
-matchedSelectors
+matchedDesugaredSelectors
 =
 [
 ]
@@ -3419,7 +3420,7 @@ i
 ;
 i
 <
-selectors
+desugaredSelectors
 .
 length
 ;
@@ -3443,11 +3444,11 @@ relevantLinkVisited
 {
 entry
 .
-matchedSelectors
+matchedDesugaredSelectors
 .
 push
 (
-selectors
+desugaredSelectors
 [
 i
 ]

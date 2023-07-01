@@ -1493,7 +1493,7 @@ pseudoElement
 !
 rule
 .
-matchedSelectors
+matchedDesugaredSelectors
 .
 length
 ;
