@@ -293,6 +293,7 @@ test
 .
 txt
 "
+allowCreate
 )
 ;
 Assert
@@ -985,6 +986,7 @@ test
 .
 txt
 "
+allowCreate
 )
 ;
 Assert
@@ -1170,6 +1172,7 @@ test
 .
 txt
 "
+allowCreate
 )
 ;
 Assert
@@ -1491,6 +1494,7 @@ test
 .
 txt
 "
+allowCreate
 )
 ;
 Assert
@@ -1609,6 +1613,7 @@ test2
 .
 txt
 "
+allowCreate
 )
 ;
 Assert
