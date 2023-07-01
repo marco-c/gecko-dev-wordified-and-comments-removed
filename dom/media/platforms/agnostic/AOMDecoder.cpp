@@ -4527,7 +4527,6 @@ nullptr
 }
 if
 (
-!
 aInfo
 .
 mImage
@@ -4535,9 +4534,6 @@ mImage
 IsEmpty
 (
 )
-<
-=
-0
 )
 {
 NS_WARNING
