@@ -1124,6 +1124,11 @@ remote
 -
 settings
 "
+provider
+:
+"
+AdmWikipedia
+"
 }
 }
 ;

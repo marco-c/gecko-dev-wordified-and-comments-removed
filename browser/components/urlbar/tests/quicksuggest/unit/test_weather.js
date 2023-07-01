@@ -5625,7 +5625,7 @@ source
 "
 merino
 "
-merinoProvider
+provider
 :
 "
 accuweather

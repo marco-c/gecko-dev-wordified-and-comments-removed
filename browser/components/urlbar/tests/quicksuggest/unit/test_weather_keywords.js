@@ -3065,6 +3065,11 @@ remote
 -
 settings
 "
+provider
+:
+"
+AdmWikipedia
+"
 }
 }
 ]
@@ -4693,7 +4698,7 @@ source
 "
 merino
 "
-merinoProvider
+provider
 :
 "
 accuweather

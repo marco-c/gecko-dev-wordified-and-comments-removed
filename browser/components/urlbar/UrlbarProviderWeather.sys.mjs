@@ -1290,7 +1290,7 @@ source
 suggestion
 .
 source
-merinoProvider
+provider
 :
 suggestion
 .

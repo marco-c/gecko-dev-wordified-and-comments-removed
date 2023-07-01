@@ -970,6 +970,9 @@ source
 "
 merino
 "
+provider
+:
+telemetryType
 helpUrl
 :
 QuickSuggest

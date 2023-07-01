@@ -3784,6 +3784,9 @@ quickSuggestRemoteSettingsDataType
 "
 data
 "
+quickSuggestScoreMap
+:
+null
 recordNavigationalSuggestionTelemetry
 :
 false

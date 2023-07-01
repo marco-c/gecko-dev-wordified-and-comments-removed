@@ -10272,6 +10272,15 @@ type
 string
 "
 }
+provider
+:
+{
+type
+:
+"
+string
+"
+}
 qsSuggestion
 :
 {

@@ -710,6 +710,11 @@ remote
 -
 settings
 "
+provider
+:
+"
+AdmWikipedia
+"
 }
 }
 )

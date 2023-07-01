@@ -346,6 +346,11 @@ remote
 -
 settings
 "
+provider
+:
+"
+AdmWikipedia
+"
 }
 }
 ;
@@ -533,6 +538,11 @@ source
 :
 "
 merino
+"
+provider
+:
+"
+adm
 "
 }
 }
@@ -2341,6 +2351,11 @@ source
 :
 "
 merino
+"
+provider
+:
+"
+adm
 "
 }
 }
