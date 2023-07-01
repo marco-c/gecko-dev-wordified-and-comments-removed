@@ -1648,6 +1648,13 @@ obj
 return
 obj
     
+sanitized_config
+=
+normalize
+(
+sanitized_config
+)
+    
 with
 codecs
 .
@@ -1700,15 +1707,6 @@ coding
 utf
 -
 8
-            
-from
-mozbuild
-.
-configure
-.
-constants
-import
-*
         
 "
 "
@@ -1884,13 +1882,6 @@ config
 TOPOBJDIR
 "
 ]
-)
-    
-sanitized_config
-=
-normalize
-(
-sanitized_config
 )
     
 partial_config
