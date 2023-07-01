@@ -216,7 +216,9 @@ edges
 ;
 }
 ;
-typedef
+using
+NodeMap
+=
 HashMap
 <
 Cell
@@ -230,7 +232,6 @@ Cell
 >
 SystemAllocPolicy
 >
-NodeMap
 ;
 class
 js
@@ -2189,13 +2190,14 @@ nullptr
 struct
 GCChunkHasher
 {
-typedef
+using
+Lookup
+=
 gc
 :
 :
 TenuredChunk
 *
-Lookup
 ;
 static
 HashNumber

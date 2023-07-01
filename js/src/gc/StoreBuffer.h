@@ -183,7 +183,9 @@ true
 }
 }
 ;
-typedef
+using
+EdgeSet
+=
 HashSet
 <
 void
@@ -195,7 +197,6 @@ void
 >
 SystemAllocPolicy
 >
-EdgeSet
 ;
 static
 const
@@ -242,7 +243,9 @@ T
 struct
 MonoTypeBuffer
 {
-typedef
+using
+StoreSet
+=
 HashSet
 <
 T
@@ -253,7 +256,6 @@ T
 Hasher
 SystemAllocPolicy
 >
-StoreSet
 ;
 StoreSet
 stores_
@@ -1906,7 +1908,6 @@ objectAndKind_
 0
 ;
 }
-typedef
 struct
 Hasher
 {
@@ -1965,7 +1966,6 @@ l
 ;
 }
 }
-Hasher
 ;
 }
 ;

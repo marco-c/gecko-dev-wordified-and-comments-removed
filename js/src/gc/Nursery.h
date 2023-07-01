@@ -2113,7 +2113,9 @@ freeTrailerBlocks
 (
 )
 ;
-typedef
+using
+ForwardedBufferMap
+=
 HashMap
 <
 void
@@ -2127,7 +2129,6 @@ void
 >
 SystemAllocPolicy
 >
-ForwardedBufferMap
 ;
 ForwardedBufferMap
 forwardedBuffers

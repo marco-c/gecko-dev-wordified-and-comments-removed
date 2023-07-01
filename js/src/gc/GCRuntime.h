@@ -940,7 +940,9 @@ F
 SystemAllocPolicy
 >
 ;
-typedef
+using
+RootedValueMap
+=
 HashMap
 <
 Value
@@ -955,7 +957,6 @@ Value
 >
 SystemAllocPolicy
 >
-RootedValueMap
 ;
 using
 AllocKinds

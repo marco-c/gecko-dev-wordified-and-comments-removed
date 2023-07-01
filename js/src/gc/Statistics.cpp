@@ -1421,14 +1421,15 @@ i
 ;
 }
 }
-typedef
+using
+FragmentVector
+=
 Vector
 <
 UniqueChars
 8
 SystemAllocPolicy
 >
-FragmentVector
 ;
 static
 UniqueChars
