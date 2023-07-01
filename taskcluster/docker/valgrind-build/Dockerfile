@@ -180,7 +180,7 @@ libdrm2
 -
 dbgsym
 \
-libffi8
+libffi7
 -
 dbgsym
 \
@@ -232,7 +232,7 @@ libice6
 -
 dbgsym
 \
-libicu72
+libicu67
 -
 dbgsym
 \
@@ -334,7 +334,7 @@ dbg
 \
 libxext6
 -
-dbgsym
+dbg
 \
 libxfixes3
 -
