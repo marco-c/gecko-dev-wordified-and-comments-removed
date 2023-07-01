@@ -1525,7 +1525,7 @@ inited
 }
 ;
 struct
-NativePropertyHooks
+NativeNamedOrIndexedPropertyHooks
 {
 ResolveOwnProperty
 mResolveOwnProperty
@@ -1535,6 +1535,16 @@ mEnumerateOwnProperties
 ;
 DeleteNamedProperty
 mDeleteNamedProperty
+;
+}
+;
+struct
+NativePropertyHooks
+{
+const
+NativeNamedOrIndexedPropertyHooks
+*
+mIndexedOrNamedNativeProperties
 ;
 NativePropertiesHolder
 mNativeProperties

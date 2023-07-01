@@ -2633,12 +2633,6 @@ self
 )
 :
         
-deleteNamedProperty
-=
-"
-nullptr
-"
-        
 if
 (
             
@@ -2668,24 +2662,6 @@ isMaybeCrossOriginObject
 )
 :
             
-resolveOwnProperty
-=
-"
-binding_detail
-:
-:
-ResolveOwnProperty
-"
-            
-enumerateOwnProperties
-=
-"
-binding_detail
-:
-:
-EnumerateOwnProperties
-"
-            
 if
 self
 .
@@ -2701,6 +2677,64 @@ deleteNamedProperty
 "
 DeleteNamedProperty
 "
+            
+else
+:
+                
+deleteNamedProperty
+=
+"
+nullptr
+"
+            
+namedOrIndexed
+=
+fill
+(
+                
+"
+"
+"
+                
+const
+NativeNamedOrIndexedPropertyHooks
+sNativeNamedOrIndexedPropertyHooks
+=
+{
+                  
+binding_detail
+:
+:
+ResolveOwnProperty
+                  
+binding_detail
+:
+:
+EnumerateOwnProperties
+                  
+{
+deleteNamedProperty
+}
+                
+}
+;
+                
+"
+"
+"
+                
+deleteNamedProperty
+=
+deleteNamedProperty
+            
+)
+            
+namedOrIndexedPointer
+=
+"
+&
+sNativeNamedOrIndexedPropertyHooks
+"
         
 elif
 self
@@ -2712,28 +2746,52 @@ needsXrayResolveHooks
 )
 :
             
-resolveOwnProperty
+namedOrIndexed
 =
+dedent
+(
+                
 "
+"
+"
+                
+const
+NativeNamedOrIndexedPropertyHooks
+sNativeNamedOrIndexedPropertyHooks
+=
+{
+                  
 ResolveOwnPropertyViaResolve
+                  
+EnumerateOwnPropertiesViaGetOwnPropertyNames
+                  
+nullptr
+                
+}
+;
+                
+"
+"
 "
             
-enumerateOwnProperties
+)
+            
+namedOrIndexedPointer
 =
 "
-EnumerateOwnPropertiesViaGetOwnPropertyNames
+&
+sNativeNamedOrIndexedPropertyHooks
 "
         
 else
 :
             
-resolveOwnProperty
+namedOrIndexed
 =
 "
-nullptr
 "
             
-enumerateOwnProperties
+namedOrIndexedPointer
 =
 "
 nullptr
@@ -2907,6 +2965,8 @@ DefaultXrayExpandoObjectClass
 "
         
 return
+namedOrIndexed
++
 fill
 (
             
@@ -2927,15 +2987,7 @@ sNativePropertyHooks
 {
               
 {
-resolveOwnProperty
-}
-              
-{
-enumerateOwnProperties
-}
-              
-{
-deleteNamedProperty
+namedOrIndexedPointer
 }
               
 {
@@ -2968,17 +3020,9 @@ expandoClass
 "
 "
             
-resolveOwnProperty
+namedOrIndexedPointer
 =
-resolveOwnProperty
-            
-enumerateOwnProperties
-=
-enumerateOwnProperties
-            
-deleteNamedProperty
-=
-deleteNamedProperty
+namedOrIndexedPointer
             
 regular
 =
@@ -13579,10 +13623,6 @@ sLegacyFactoryFunctionNativePropertyHooks
                 
 nullptr
                 
-nullptr
-                
-nullptr
-                
 {
 nullptr
 nullptr
@@ -23626,6 +23666,20 @@ clasp
 mNativeHooks
 -
 >
+mIndexedOrNamedNativeProperties
+|
+|
+                         
+!
+clasp
+-
+>
+mNativeHooks
+-
+>
+mIndexedOrNamedNativeProperties
+-
+>
 mResolveOwnProperty
                          
 "
@@ -23658,6 +23712,20 @@ clasp
 -
 >
 mNativeHooks
+-
+>
+mIndexedOrNamedNativeProperties
+|
+|
+                         
+!
+clasp
+-
+>
+mNativeHooks
+-
+>
+mIndexedOrNamedNativeProperties
 -
 >
 mEnumerateOwnProperties
