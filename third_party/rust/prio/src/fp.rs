@@ -1034,11 +1034,7 @@ _s1
 b1
 )
 =
-(
 cc
-as
-u128
-)
 .
 overflowing_sub
 (

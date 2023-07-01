@@ -193,11 +193,11 @@ Client
 Input
 :
 {
+data1_u32
 :
 ?
 }
 "
-data1_u32
 )
 ;
 let
@@ -214,7 +214,7 @@ map
 |
 x
 |
-Field32
+FieldPrio2
 :
 :
 from
@@ -230,7 +230,7 @@ collect
 <
 Vec
 <
-Field32
+FieldPrio2
 >
 >
 (
@@ -259,11 +259,11 @@ Client
 Input
 :
 {
+data2_u32
 :
 ?
 }
 "
-data2_u32
 )
 ;
 let
@@ -280,7 +280,7 @@ map
 |
 x
 |
-Field32
+FieldPrio2
 :
 :
 from
@@ -296,7 +296,7 @@ collect
 <
 Vec
 <
-Field32
+FieldPrio2
 >
 >
 (
@@ -341,7 +341,7 @@ unwrap
 let
 eval_at
 =
-Field32
+FieldPrio2
 :
 :
 from

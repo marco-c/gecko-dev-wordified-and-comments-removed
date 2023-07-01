@@ -16,7 +16,7 @@ field
 :
 {
 merge_vector
-FieldElement
+FftFriendlyFieldElement
 FieldError
 }
 polynomial
@@ -245,7 +245,7 @@ impl
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 ValidationMemory
 <
@@ -384,7 +384,7 @@ impl
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 Server
 <
@@ -852,7 +852,7 @@ generate_verification_message
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 dimension
@@ -1174,7 +1174,7 @@ is_valid_share
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 v1
@@ -1268,7 +1268,7 @@ field
 :
 :
 {
-Field32
+FieldElement
 FieldPrio2
 }
 test_vector
@@ -1347,7 +1347,7 @@ proof
 :
 Vec
 <
-Field32
+FieldPrio2
 >
 =
 proof_u32
@@ -1361,7 +1361,7 @@ map
 |
 x
 |
-Field32
+FieldPrio2
 :
 :
 from
@@ -1394,7 +1394,7 @@ proof
 let
 eval_at
 =
-Field32
+FieldPrio2
 :
 :
 from
@@ -1525,7 +1525,7 @@ proof
 :
 Vec
 <
-Field32
+FieldPrio2
 >
 =
 proof_u32
@@ -1539,7 +1539,7 @@ map
 |
 x
 |
-Field32
+FieldPrio2
 :
 :
 from
@@ -1572,7 +1572,7 @@ proof
 let
 eval_at
 =
-Field32
+FieldPrio2
 :
 :
 from
@@ -1651,7 +1651,7 @@ deserialized
 :
 VerificationMessage
 <
-Field32
+FieldPrio2
 >
 =
 serde_json
