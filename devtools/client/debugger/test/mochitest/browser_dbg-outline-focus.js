@@ -92,6 +92,7 @@ outline
 "
 )
 ;
+await
 clickAtPos
 (
 dbg
@@ -99,9 +100,9 @@ dbg
 line
 :
 15
-ch
+column
 :
-2
+3
 }
 )
 ;
@@ -166,9 +167,9 @@ dbg
 line
 :
 13
-ch
+column
 :
-2
+3
 }
 )
 ;

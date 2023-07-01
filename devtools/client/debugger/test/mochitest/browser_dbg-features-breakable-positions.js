@@ -1276,10 +1276,6 @@ getTokenFromPosition
 dbg
 {
 line
-ch
-:
--
-1
 }
 )
 ;
@@ -1523,10 +1519,6 @@ getTokenFromPosition
 dbg
 {
 line
-ch
-:
--
-1
 }
 )
 ;
