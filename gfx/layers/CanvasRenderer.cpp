@@ -564,7 +564,7 @@ ifdef
 MOZ_WIDGET_GTK
 if
 (
-kIsWayland
+kIsLinux
 )
 {
 if
