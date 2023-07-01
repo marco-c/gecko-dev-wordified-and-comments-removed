@@ -832,16 +832,6 @@ move_cursor_to_end
 (
 )
         
-sel
-.
-move_cursor_by_offset
-(
-1
-backward
-=
-True
-)
-        
 self
 .
 actions
@@ -1336,16 +1326,6 @@ move_cursor_to_end
 (
 )
         
-sel
-.
-move_cursor_by_offset
-(
-1
-backward
-=
-True
-)
-        
 self
 .
 actions
@@ -1732,16 +1712,6 @@ sel
 .
 move_cursor_to_end
 (
-)
-        
-sel
-.
-move_cursor_by_offset
-(
-1
-backward
-=
-True
 )
         
 self
