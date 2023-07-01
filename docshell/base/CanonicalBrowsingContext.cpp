@@ -5453,6 +5453,13 @@ LastElement
 (
 )
 ;
+uint64_t
+loadId
+=
+loadingEntry
+.
+mLoadId
+;
 aLoadState
 .
 emplace
@@ -5495,9 +5502,7 @@ SessionHistoryEntry
 :
 GetByLoadId
 (
-loadingEntry
-.
-mLoadId
+loadId
 )
 ;
 if
