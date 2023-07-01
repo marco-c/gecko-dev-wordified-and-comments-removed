@@ -2904,6 +2904,14 @@ analyzer
 "
 ]
         
+cargo
+-
+native
+-
+static
+=
+true
+        
 [
 rust
 ]
