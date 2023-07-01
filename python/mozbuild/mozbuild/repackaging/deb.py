@@ -2598,6 +2598,16 @@ handler
 /
 https
 "
+        
+"
+x
+-
+scheme
+-
+handler
+/
+mailto
+"
     
 ]
     

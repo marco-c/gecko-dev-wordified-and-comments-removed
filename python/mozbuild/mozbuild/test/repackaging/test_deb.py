@@ -1901,6 +1901,14 @@ handler
 /
 https
 ;
+x
+-
+scheme
+-
+handler
+/
+mailto
+;
 StartupNotify
 =
 true
