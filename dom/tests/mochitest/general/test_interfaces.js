@@ -6951,6 +6951,16 @@ true
 name
 :
 "
+VideoDecoder
+"
+nightly
+:
+true
+}
+{
+name
+:
+"
 VideoFrame
 "
 insecureContext
