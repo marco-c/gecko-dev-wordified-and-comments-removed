@@ -1987,6 +1987,9 @@ getSelectors
 function
 (
 domRule
+desugared
+=
+false
 )
 {
 if
@@ -2045,6 +2048,7 @@ domRule
 selectorTextAt
 (
 i
+desugared
 )
 )
 ;
