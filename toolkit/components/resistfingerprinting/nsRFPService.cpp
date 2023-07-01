@@ -589,10 +589,10 @@ KeyboardRegion
 :
 US
 const
-uint32_t
+uint64_t
 kDefaultFingerintingProtections
 =
-uint32_t
+uint64_t
 (
 RFPTarget
 :
@@ -621,7 +621,7 @@ false
 static
 Atomic
 <
-uint32_t
+uint64_t
 >
 sEnabledFingerintingProtections
 ;
@@ -985,7 +985,7 @@ value
 return
 ;
 }
-uint32_t
+uint64_t
 enabled
 =
 kDefaultFingerintingProtections
@@ -1118,7 +1118,7 @@ each
 enabled
 |
 =
-uint32_t
+uint64_t
 (
 target
 )
@@ -1139,7 +1139,9 @@ s
 (
 0x
 %
-08x
+"
+PRIx64
+"
 )
 to
 an
@@ -1149,8 +1151,8 @@ we
 have
 0x
 %
-08x
 "
+PRIx64
 NS_ConvertUTF16toUTF8
 (
 each
@@ -1159,7 +1161,7 @@ each
 get
 (
 )
-unsigned
+uint64_t
 (
 target
 )
@@ -1186,7 +1188,7 @@ enabled
 &
 =
 ~
-uint32_t
+uint64_t
 (
 target
 )
@@ -1207,7 +1209,9 @@ s
 (
 0x
 %
-08x
+"
+PRIx64
+"
 )
 to
 a
@@ -1217,8 +1221,8 @@ we
 have
 0x
 %
-08x
 "
+PRIx64
 NS_ConvertUTF16toUTF8
 (
 each
@@ -1227,7 +1231,7 @@ each
 get
 (
 )
-unsigned
+uint64_t
 (
 target
 )
@@ -1254,7 +1258,9 @@ s
 (
 0x
 %
-08x
+"
+PRIx64
+"
 )
 to
 an
@@ -1281,7 +1287,7 @@ each
 get
 (
 )
-unsigned
+uint64_t
 (
 target
 )

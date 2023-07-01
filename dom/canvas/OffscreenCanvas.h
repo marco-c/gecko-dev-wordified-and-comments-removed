@@ -105,7 +105,7 @@ enum
 class
 RFPTarget
 :
-unsigned
+uint64_t
 ;
 namespace
 gfx
