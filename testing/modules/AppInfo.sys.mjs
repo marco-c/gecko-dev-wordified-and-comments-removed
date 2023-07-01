@@ -332,9 +332,6 @@ invalidateCachesOnRestart
 )
 {
 }
-shouldBlockIncompatJaws
-:
-false
 processType
 :
 origRuntime
