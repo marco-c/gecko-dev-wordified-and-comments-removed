@@ -6004,6 +6004,15 @@ get
 )
 )
 ;
+AddLdLibraryEnvPaths
+(
+policy
+.
+get
+(
+)
+)
+;
 AddSharedMemoryPaths
 (
 policy
