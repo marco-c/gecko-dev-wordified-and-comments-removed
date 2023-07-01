@@ -5865,7 +5865,7 @@ QMResult
 FileSystemDatabaseManagerVersion001
 :
 :
-FindDescendants
+FindFilesUnderEntry
 (
 const
 EntryId
@@ -6422,7 +6422,7 @@ FileId
 >
 &
 descendants
-FindDescendants
+FindFilesUnderEntry
 (
 entryId
 )
