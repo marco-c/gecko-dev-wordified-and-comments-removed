@@ -719,7 +719,7 @@ std
 array
 <
 nsLiteralCString
-2
+3
 >
 kSiteScopedPermissions
 =
@@ -732,6 +732,11 @@ kSiteScopedPermissions
 _ns
 "
 AllowStorageAccessRequest
+^
+"
+_ns
+"
+3rdPartyFrameStorage
 ^
 "
 _ns
