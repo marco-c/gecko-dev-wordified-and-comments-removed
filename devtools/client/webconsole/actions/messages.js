@@ -388,6 +388,9 @@ innerWindowID
 message
 .
 innerWindowID
+disableBreaks
+:
+true
 }
 )
 ;

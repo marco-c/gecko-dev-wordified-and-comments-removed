@@ -1527,6 +1527,9 @@ selection
 nodeFront
 .
 actorID
+disableBreaks
+:
+true
 }
 )
 ;

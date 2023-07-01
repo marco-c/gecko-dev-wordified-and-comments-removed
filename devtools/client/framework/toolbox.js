@@ -3320,6 +3320,15 @@ reason
 "
 XHR
 "
+|
+|
+reason
+=
+=
+=
+"
+breakpointConditionThrown
+"
 )
 {
 this

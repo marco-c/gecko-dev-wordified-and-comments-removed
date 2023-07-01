@@ -710,6 +710,17 @@ nullable
 boolean
 "
 )
+disableBreaks
+:
+Option
+(
+0
+"
+nullable
+:
+boolean
+"
+)
 }
 response
 :

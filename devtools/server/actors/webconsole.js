@@ -3074,6 +3074,13 @@ lineNumber
 request
 .
 lineNumber
+disableBreaks
+:
+!
+!
+request
+.
+disableBreaks
 }
 ;
 const
@@ -3093,7 +3100,11 @@ insideClientEvaluation
 =
 evalOptions
 ;
-const
+let
+evalInfo
+;
+try
+{
 evalInfo
 =
 evalWithDebugger
@@ -3103,6 +3114,9 @@ evalOptions
 this
 )
 ;
+}
+finally
+{
 this
 .
 parentActor
@@ -3113,6 +3127,7 @@ insideClientEvaluation
 =
 null
 ;
+}
 return
 new
 Promise

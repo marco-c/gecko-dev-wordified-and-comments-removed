@@ -17,4 +17,7 @@ secondCall
 (
 )
 ;
+return
+43
+;
 }

@@ -841,6 +841,11 @@ execute
 "
 window
 "
+{
+disableBreaks
+:
+true
+}
 )
 ;
 return
