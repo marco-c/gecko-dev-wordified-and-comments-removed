@@ -119,13 +119,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging
@@ -1349,7 +1342,10 @@ error
 %
 X
 "
+uint32_t
+(
 rv
+)
 )
 )
 ;

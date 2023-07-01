@@ -150,7 +150,10 @@ image
 %
 08X
 "
+uint32_t
+(
 aRv
+)
 )
 ;
 mResult

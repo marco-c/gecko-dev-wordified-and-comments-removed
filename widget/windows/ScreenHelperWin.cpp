@@ -718,7 +718,10 @@ defaultCssScaleFactor
 scale
 dpi
 isPseudoDisplay
+uint32_t
+(
 orientation
+)
 angle
 )
 )

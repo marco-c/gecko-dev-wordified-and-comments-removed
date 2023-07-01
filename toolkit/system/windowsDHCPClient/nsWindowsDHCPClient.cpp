@@ -168,7 +168,10 @@ error
 %
 d
 "
+uint32_t
+(
 rv
+)
 )
 )
 ;
@@ -301,7 +304,10 @@ error
 d
 "
 aOption
+uint32_t
+(
 rv
+)
 )
 )
 ;

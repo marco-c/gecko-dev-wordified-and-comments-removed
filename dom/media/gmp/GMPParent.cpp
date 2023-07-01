@@ -1180,7 +1180,10 @@ error
 d
 "
 __FUNCTION__
+uint32_t
+(
 rv
+)
 )
 ;
 }
@@ -1438,7 +1441,10 @@ error
 d
 "
 __FUNCTION__
+uint32_t
+(
 rv
+)
 )
 ;
 }
