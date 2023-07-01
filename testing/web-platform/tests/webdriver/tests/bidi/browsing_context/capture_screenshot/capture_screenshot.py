@@ -11,7 +11,7 @@ png_dimensions
 from
 .
 import
-viewport_dimensions
+get_physical_viewport_dimensions
 pytest
 .
 mark
@@ -31,7 +31,7 @@ compare_png_bidi
 expected_size
 =
 await
-viewport_dimensions
+get_physical_viewport_dimensions
 (
 bidi_session
 top_context

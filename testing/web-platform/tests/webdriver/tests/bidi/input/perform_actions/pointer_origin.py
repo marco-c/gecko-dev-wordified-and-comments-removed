@@ -47,11 +47,7 @@ from
 import
 (
     
-get_element_rect
-    
 get_inview_center_bidi
-    
-get_viewport_rect
     
 remote_mapping_to_dict
 )

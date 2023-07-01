@@ -30,7 +30,7 @@ REFERENCE_STYLE
 from
 .
 import
-viewport_dimensions
+get_physical_viewport_dimensions
 pytest
 .
 mark
@@ -50,7 +50,7 @@ iframe
 viewport_size
 =
 await
-viewport_dimensions
+get_physical_viewport_dimensions
 (
 bidi_session
 top_context
@@ -253,7 +253,7 @@ domain
 expected_size
 =
 await
-viewport_dimensions
+get_physical_viewport_dimensions
 (
 bidi_session
 top_context
