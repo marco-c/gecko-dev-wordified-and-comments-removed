@@ -277,7 +277,7 @@ Init
 ;
 already_AddRefed
 <
-nsISerialEventTarget
+TaskQueue
 >
 CreateBackgroundTaskQueue
 (
@@ -920,7 +920,7 @@ Shutdown
 }
 already_AddRefed
 <
-nsISerialEventTarget
+TaskQueue
 >
 BackgroundEventTarget
 :
@@ -1980,7 +1980,7 @@ aDispatchFlags
 }
 already_AddRefed
 <
-nsISerialEventTarget
+TaskQueue
 >
 nsThreadManager
 :

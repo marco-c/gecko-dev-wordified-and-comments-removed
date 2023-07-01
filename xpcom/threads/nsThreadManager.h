@@ -31,12 +31,6 @@ class
 nsIRunnable
 ;
 class
-nsIEventTarget
-;
-class
-nsISerialEventTarget
-;
-class
 nsIThread
 ;
 namespace
@@ -47,6 +41,9 @@ IdleTaskManager
 ;
 class
 SynchronizedEventQueue
+;
+class
+TaskQueue
 ;
 }
 class
@@ -146,7 +143,10 @@ aDispatchFlags
 ;
 already_AddRefed
 <
-nsISerialEventTarget
+mozilla
+:
+:
+TaskQueue
 >
 CreateBackgroundTaskQueue
 (
