@@ -2695,6 +2695,16 @@ case
 "
 :
 :
+highlight
+"
+:
+return
+false
+;
+case
+"
+:
+:
 marker
 "
 :
