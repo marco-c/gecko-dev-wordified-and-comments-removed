@@ -114,6 +114,15 @@ sdpHistories
 ;
 }
 ;
+dictionary
+WebrtcGlobalMediaContext
+{
+required
+boolean
+hasH264Hardware
+;
+}
+;
 callback
 WebrtcGlobalStatisticsCallback
 =
@@ -204,6 +213,11 @@ after
 optional
 DOMHighResTimeStamp
 sdpAfter
+)
+;
+WebrtcGlobalMediaContext
+getMediaContext
+(
 )
 ;
 undefined
