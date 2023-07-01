@@ -714,7 +714,7 @@ if
 this
 extension
 is
-exemmpt
+exempt
 from
 quarantine
 .
