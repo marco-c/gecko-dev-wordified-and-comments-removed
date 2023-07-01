@@ -380,6 +380,11 @@ InternalItem
 (
 )
 ;
+void
+FlushStyleIfNeeded
+(
+)
+;
 #
 ifdef
 DEBUG
