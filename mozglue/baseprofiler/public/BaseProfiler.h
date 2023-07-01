@@ -317,7 +317,7 @@ GP_PLAT_arm_android
 )
 MakePowerOfTwo32
 <
-8
+16
 *
 1024
 *
@@ -330,7 +330,7 @@ MakePowerOfTwo32
 else
 MakePowerOfTwo32
 <
-2
+4
 *
 1024
 *
@@ -341,10 +341,10 @@ MakePowerOfTwo32
 ;
 /
 /
-2M
+4M
 entries
 =
-16MB
+32MiB
 #
 endif
 static
@@ -380,7 +380,7 @@ mozilla
 :
 MakePowerOfTwo32
 <
-8
+16
 *
 1024
 *
@@ -391,10 +391,10 @@ MakePowerOfTwo32
 ;
 /
 /
-8M
+16M
 entries
 =
-64MB
+128MiB
 #
 endif
 #

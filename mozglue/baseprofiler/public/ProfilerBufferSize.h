@@ -56,9 +56,11 @@ static
 uint32_t
 scMinimumBufferSize
 =
-scMinimumNumberOfChunks
+128u
 *
-scMinimumChunkSize
+1024u
+*
+1024u
 ;
 constexpr
 static
