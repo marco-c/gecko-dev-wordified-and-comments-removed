@@ -1448,7 +1448,7 @@ trc
 JSObject
 *
 *
-edgep
+thingp
 const
 char
 *

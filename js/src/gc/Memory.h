@@ -146,7 +146,7 @@ void
 TestMapAlignedPagesLastDitch
 (
 size_t
-size
+length
 size_t
 alignment
 )

@@ -696,7 +696,7 @@ pushTempRope
 (
 JSRope
 *
-ptr
+rope
 )
 ;
 bool
@@ -2011,7 +2011,7 @@ void
 markImplicitEdgesHelper
 (
 T
-oldThing
+markedThing
 )
 ;
 void

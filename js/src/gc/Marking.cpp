@@ -5895,12 +5895,12 @@ source
 const
 T
 &
-thing
+target
 )
 {
 ApplyGCThingTyped
 (
-thing
+target
 [
 this
 source

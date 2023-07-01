@@ -2236,7 +2236,7 @@ registerNonGCMemory
 (
 void
 *
-ptr
+mem
 MemoryUse
 use
 )
@@ -2246,7 +2246,7 @@ unregisterNonGCMemory
 (
 void
 *
-ptr
+mem
 MemoryUse
 use
 )
@@ -2269,7 +2269,7 @@ incNonGCMemory
 (
 void
 *
-ptr
+mem
 size_t
 nbytes
 MemoryUse
@@ -2281,7 +2281,7 @@ decNonGCMemory
 (
 void
 *
-ptr
+mem
 size_t
 nbytes
 MemoryUse

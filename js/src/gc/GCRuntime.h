@@ -2480,7 +2480,7 @@ void
 removeFinalizeCallback
 (
 JSFinalizeCallback
-func
+callback
 )
 ;
 void
@@ -2640,7 +2640,7 @@ JSObject
 wrapper
 WeakRefObject
 *
-record
+weakRef
 )
 ;
 void
@@ -4734,7 +4734,7 @@ void
 endSweepPhase
 (
 bool
-lastGC
+destroyingRuntime
 )
 ;
 void
