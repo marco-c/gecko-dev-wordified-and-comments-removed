@@ -1195,16 +1195,25 @@ platforms
 "
 :
 [
+                    
 Platforms
 .
 LINUX
 .
 value
+                    
 Platforms
 .
 WINDOWS
 .
 value
+                    
+Platforms
+.
+MACOSX
+.
+value
+                
 ]
             
 }
