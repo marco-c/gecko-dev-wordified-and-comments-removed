@@ -984,6 +984,11 @@ UtilityProcessParent
 .
 cpp
 "
+"
+UtilityProcessSandboxing
+.
+cpp
+"
 ]
 SOURCES
 +
