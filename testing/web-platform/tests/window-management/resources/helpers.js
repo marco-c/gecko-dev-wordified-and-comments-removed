@@ -220,7 +220,7 @@ setUpWindowManagement
 test
 )
 {
-assert_true
+assert_implements
 (
 '
 getScreenDetails
@@ -391,7 +391,6 @@ duration
 const
 loop
 =
-async
 (
 resolve
 )
