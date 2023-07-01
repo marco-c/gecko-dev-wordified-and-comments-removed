@@ -319,7 +319,7 @@ MOZ_AV1
 &
 defined
 (
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 )
 &
 &
