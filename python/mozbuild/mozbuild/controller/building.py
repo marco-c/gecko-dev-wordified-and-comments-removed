@@ -72,6 +72,7 @@ mach
 util
 import
 get_state_dir
+get_virtualenv_base_dir
 from
 mozsystemmonitor
 .
@@ -7112,10 +7113,6 @@ None
 append_env
 =
 None
-        
-virtualenv_topobjdir
-=
-None
     
 )
 :
@@ -7541,10 +7538,6 @@ on_line
 append_env
 =
 append_env
-                    
-virtualenv_topobjdir
-=
-virtualenv_topobjdir
                 
 )
                 
@@ -9744,10 +9737,6 @@ None
 append_env
 =
 None
-        
-virtualenv_topobjdir
-=
-None
     
 )
 :
@@ -9886,14 +9875,6 @@ k
 =
 v
         
-virtualenv_topobjdir
-=
-virtualenv_topobjdir
-or
-self
-.
-topobjdir
-        
 build_site
 =
 CommandSiteManager
@@ -9923,16 +9904,11 @@ topsrcdir
 build
 "
             
-os
-.
-path
-.
-join
+get_virtualenv_base_dir
 (
-virtualenv_topobjdir
-"
-_virtualenvs
-"
+self
+.
+topsrcdir
 )
         
 )
