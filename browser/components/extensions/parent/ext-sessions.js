@@ -274,10 +274,8 @@ now
 if
 (
 restored
-instanceof
-Ci
 .
-nsIDOMChromeWindow
+isChromeWindow
 )
 {
 await

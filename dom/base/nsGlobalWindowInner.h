@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIDOMChromeWindow
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h
@@ -657,8 +650,6 @@ public
 nsPIDOMWindowInner
 private
 nsIDOMWindow
-private
-nsIDOMChromeWindow
 public
 nsIScriptGlobalObject
 public
@@ -1111,7 +1102,6 @@ PartitionedPrincipal
 override
 ;
 NS_DECL_NSIDOMWINDOW
-NS_DECL_NSIDOMCHROMEWINDOW
 void
 CaptureEvents
 (

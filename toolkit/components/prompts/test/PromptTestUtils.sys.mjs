@@ -1100,10 +1100,8 @@ else
 if
 (
 parent
-instanceof
-Ci
 .
-nsIDOMChromeWindow
+isChromeWindow
 )
 {
 /

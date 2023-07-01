@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsIDOMChromeWindow
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h
@@ -622,8 +615,6 @@ public
 nsPIDOMWindowOuter
 private
 nsIDOMWindow
-private
-nsIDOMChromeWindow
 public
 nsIScriptGlobalObject
 public
@@ -1029,7 +1020,6 @@ PartitionedPrincipal
 override
 ;
 NS_DECL_NSIDOMWINDOW
-NS_DECL_NSIDOMCHROMEWINDOW
 mozilla
 :
 :
@@ -3252,7 +3242,7 @@ aError
 ;
 nsIBrowserDOMWindow
 *
-GetBrowserDOMWindowOuter
+GetBrowserDOMWindow
 (
 )
 ;

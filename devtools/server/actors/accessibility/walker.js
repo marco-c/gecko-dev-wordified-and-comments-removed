@@ -3329,14 +3329,11 @@ view
 )
 {
 return
-(
 this
 .
 rootWin
-instanceof
-Ci
 .
-nsIDOMChromeWindow
+isChromeWindow
 |
 |
 isWindowIncluded
@@ -3345,7 +3342,6 @@ this
 .
 rootWin
 view
-)
 )
 ;
 }

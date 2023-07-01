@@ -66,11 +66,6 @@ nsIContentProcess
 idl
 "
 "
-nsIDOMChromeWindow
-.
-idl
-"
-"
 nsIDOMGlobalPropertyInitializer
 .
 idl

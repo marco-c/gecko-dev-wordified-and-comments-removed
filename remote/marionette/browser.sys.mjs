@@ -2174,7 +2174,7 @@ fullscreen
 Converts
 {
 link
-nsIDOMChromeWindow
+Window
 .
 windowState
 }
@@ -2193,7 +2193,7 @@ Attribute
 from
 {
 link
-nsIDOMChromeWindow
+Window
 .
 windowState
 }
