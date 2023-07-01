@@ -326,11 +326,6 @@ CreateMediaEngine
 )
 ;
 void
-InitializeVirtualVideoWindow
-(
-)
-;
-void
 InitializeDXGIDeviceManager
 (
 )
@@ -505,11 +500,6 @@ bool
 mIsCreatedMediaEngine
 =
 false
-;
-HWND
-mVirtualVideoWindow
-=
-nullptr
 ;
 Microsoft
 :
