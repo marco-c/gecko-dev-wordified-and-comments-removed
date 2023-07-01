@@ -977,7 +977,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+AudioContext
 )
 )
 mIsOffline

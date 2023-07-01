@@ -384,6 +384,14 @@ UseStandinsForNativeColors
 )
 ITEM_VALUE
 (
+AudioContext
+1llu
+<
+<
+48
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
