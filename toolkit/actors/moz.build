@@ -24,7 +24,9 @@ Files
 AutoScroll
 *
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -47,7 +49,9 @@ Files
 Finder
 *
 .
-jsm
+sys
+.
+mjs
 "
 )
 :

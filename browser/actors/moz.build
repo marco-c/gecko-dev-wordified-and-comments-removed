@@ -46,7 +46,9 @@ Files
 "
 AboutReaderParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 :

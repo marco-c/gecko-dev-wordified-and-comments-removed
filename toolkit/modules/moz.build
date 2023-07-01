@@ -433,7 +433,9 @@ Files
 DateTimePicker
 *
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -528,7 +530,9 @@ Files
 Finder
 *
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -596,7 +600,9 @@ Files
 InlineSpellChecker
 *
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -826,7 +832,9 @@ Files
 Promise
 *
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
