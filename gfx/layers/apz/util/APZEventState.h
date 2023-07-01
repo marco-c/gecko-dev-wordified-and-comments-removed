@@ -549,7 +549,7 @@ APZEventState
 (
 )
 ;
-bool
+void
 SendPendingTouchPreventedResponse
 (
 bool
