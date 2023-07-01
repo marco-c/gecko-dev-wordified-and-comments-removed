@@ -3713,7 +3713,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-IsAlwaysEnabledForPrecompute
+SiteSpecificZoom
 )
 &
 &

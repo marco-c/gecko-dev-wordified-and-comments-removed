@@ -6278,5 +6278,8 @@ JSRFPTarget
 "
 RoundWindowSize
 "
+"
+SiteSpecificZoom
+"
 }
 ;

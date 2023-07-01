@@ -2518,6 +2518,7 @@ false
 ;
 }
 return
+(
 !
 aBrowser
 ?
@@ -2528,6 +2529,18 @@ browsingContext
 topWindowContext
 .
 shouldResistFingerprinting
+|
+|
+!
+ChromeUtils
+.
+shouldResistFingerprinting
+(
+"
+SiteSpecificZoom
+"
+)
+)
 ;
 }
 _loadContextFromBrowser
