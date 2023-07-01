@@ -1,9 +1,9 @@
 #
 ifndef
-TESTING_GTEST_MOZILLA_WAITFOR_H_
+WAITFOR_H_
 #
 define
-TESTING_GTEST_MOZILLA_WAITFOR_H_
+WAITFOR_H_
 #
 include
 "
@@ -14,10 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-media
-/
 MediaUtils
 .
 h

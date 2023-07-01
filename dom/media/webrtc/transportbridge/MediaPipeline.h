@@ -205,11 +205,11 @@ struct
 MediaPipelineReceiveControlInterface
 {
 virtual
-Canonical
+AbstractCanonical
 <
 bool
 >
-&
+*
 CanonicalReceiving
 (
 )
@@ -222,11 +222,11 @@ struct
 MediaPipelineTransmitControlInterface
 {
 virtual
-Canonical
+AbstractCanonical
 <
 bool
 >
-&
+*
 CanonicalTransmitting
 (
 )

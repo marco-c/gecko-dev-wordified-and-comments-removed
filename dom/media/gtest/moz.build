@@ -343,6 +343,11 @@ TestWebMWriter
 cpp
 "
 "
+WaitFor
+.
+cpp
+"
+"
 YUVBufferGenerator
 .
 cpp
