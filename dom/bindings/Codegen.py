@@ -38041,7 +38041,11 @@ default
 =
 CGGeneric
 (
+                    
 "
+Unused
+<
+<
 %
 s
 .
@@ -38062,6 +38066,7 @@ value
 name
 ctorArgs
 )
+                
 )
             
 elif
@@ -76156,6 +76161,10 @@ eUninitialized
 )
 ;
 "
+                        
+noDiscard
+=
+True
                     
 )
                 
@@ -76210,6 +76219,10 @@ body
 body
 %
 uninit
+                        
+noDiscard
+=
+True
                     
 )
                 
@@ -78696,6 +78709,10 @@ False
 canRunScript
 =
 False
+        
+noDiscard
+=
+False
     
 )
 :
@@ -78812,6 +78829,12 @@ canRunScript
 =
 canRunScript
         
+self
+.
+noDiscard
+=
+noDiscard
+        
 ClassItem
 .
 __init__
@@ -78833,6 +78856,25 @@ decorators
 =
 [
 ]
+        
+if
+self
+.
+noDiscard
+:
+            
+decorators
+.
+append
+(
+"
+[
+[
+nodiscard
+]
+]
+"
+)
         
 if
 self
