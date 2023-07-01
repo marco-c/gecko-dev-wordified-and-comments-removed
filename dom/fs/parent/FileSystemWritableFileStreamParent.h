@@ -89,6 +89,8 @@ fs
 FileId
 &
 aTemporaryFileId
+bool
+aIsExclusive
 )
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -181,6 +183,10 @@ fs
 :
 FileId
 mTemporaryFileId
+;
+const
+bool
+mIsExclusive
 ;
 FlippedOnce
 <

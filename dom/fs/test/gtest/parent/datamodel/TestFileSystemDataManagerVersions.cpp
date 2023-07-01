@@ -1823,7 +1823,10 @@ entryId
 (
 )
 fileId
-false
+FileMode
+:
+:
+EXCLUSIVE
 type
 lastModifiedMilliSeconds
 path

@@ -1070,7 +1070,13 @@ GetFile
 (
 mEntryId
 fileId
-false
+fs
+:
+:
+FileMode
+:
+:
+EXCLUSIVE
 type
 lastModifiedMilliSeconds
 path

@@ -837,7 +837,10 @@ GetFile
 (
 aEntryId
 fileId
-false
+FileMode
+:
+:
+EXCLUSIVE
 type
 lastModMilliS
 path

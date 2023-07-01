@@ -272,7 +272,7 @@ shrinkedStorageSizeKB
 const
 defaultDatabaseSize
 =
-458752
+458779
 ;
 await
 Utils

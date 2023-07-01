@@ -153,6 +153,15 @@ aRhs
 mValue
 ;
 }
+enum
+class
+FileMode
+{
+EXCLUSIVE
+SHARED_FROM_EMPTY
+SHARED_FROM_COPY
+}
+;
 }
 #
 endif
