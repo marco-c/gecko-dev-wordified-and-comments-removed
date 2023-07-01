@@ -89,6 +89,9 @@ namespace
 mozilla
 {
 class
+LoadBlockingAsyncEventDispatcher
+;
+class
 StyleSheet
 ;
 }
@@ -337,8 +340,11 @@ return
 mReferrerInfo
 ;
 }
-void
-ScheduleLoadEventIfNeeded
+already_AddRefed
+<
+LoadBlockingAsyncEventDispatcher
+>
+PrepareLoadEventIfNeeded
 (
 )
 ;
