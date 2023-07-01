@@ -150,8 +150,6 @@ name
 try
 {
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -737,8 +735,6 @@ menuItems
 )
 {
 await
-TestUtils
-.
 waitForCondition
 (
 (
