@@ -17,6 +17,11 @@ TestUtilityProcess
 .
 cpp
 "
+"
+TestUtilityProcessSandboxing
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
