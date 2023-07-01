@@ -905,6 +905,7 @@ fileURL
 PROFILE_URL
 +
 "
+/
 settings
 /
 main
@@ -1741,9 +1742,8 @@ Assert
 equal
 (
 fileURL
-PROFILE_URL
-+
 [
+PROFILE_URL
 "
 settings
 "
