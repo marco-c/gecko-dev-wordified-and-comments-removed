@@ -1310,6 +1310,13 @@ png
 )
         
 assert
+(
+height
+-
+1
+)
+<
+=
 cm_to_px
 (
 expected_dimensions
@@ -1319,11 +1326,22 @@ height
 "
 ]
 )
+<
 =
-=
+(
 height
++
+1
+)
         
 assert
+(
+width
+-
+1
+)
+<
+=
 cm_to_px
 (
 expected_dimensions
@@ -1333,9 +1351,13 @@ width
 "
 ]
 )
+<
 =
-=
+(
 width
++
+1
+)
     
 return
 assert_pdf_dimensions

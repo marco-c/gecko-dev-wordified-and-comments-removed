@@ -118,7 +118,7 @@ getPage
 pageNumber
 )
 ;
-var
+const
 viewport
 =
 page
@@ -144,7 +144,7 @@ using
 PDF
 page
 dimensions
-var
+const
 canvas
 =
 document
@@ -159,7 +159,7 @@ canvas
 0
 ]
 ;
-var
+const
 context
 =
 canvas
@@ -195,15 +195,13 @@ page
 into
 canvas
 context
-var
+const
 renderContext
 =
 {
 canvasContext
 :
 context
-viewport
-:
 viewport
 }
 ;
