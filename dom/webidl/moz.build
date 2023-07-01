@@ -5735,6 +5735,11 @@ VideoColorSpace
 webidl
 "
 "
+VideoDecoder
+.
+webidl
+"
+"
 VideoFrame
 .
 webidl
