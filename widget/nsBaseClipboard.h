@@ -324,6 +324,7 @@ int32_t
 aWhichClipboard
 )
 override
+final
 ;
 NS_IMETHOD
 EmptyClipboard
@@ -379,6 +380,7 @@ int32_t
 aWhichClipboard
 )
 override
+final
 ;
 RefPtr
 <
@@ -510,6 +512,16 @@ return
 mClipboardOwner
 ;
 }
+int32_t
+GetSequenceNumber
+(
+)
+const
+{
+return
+mSequenceNumber
+;
+}
 private
 :
 nsCOMPtr
@@ -554,6 +566,14 @@ false
 ;
 private
 :
+ClipboardCache
+*
+GetClipboardCacheIfValid
+(
+int32_t
+aClipboardType
+)
+;
 const
 mozilla
 :
