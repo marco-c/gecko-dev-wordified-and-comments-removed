@@ -3649,17 +3649,6 @@ aData
 >
 mImage
 format
-?
-format
-.
-ref
-(
-)
-:
-VideoPixelFormat
-:
-:
-EndGuard_
 aData
 -
 >
