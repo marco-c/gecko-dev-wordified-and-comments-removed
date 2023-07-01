@@ -2014,7 +2014,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+ReduceTimerPrecision
 )
 )
 {

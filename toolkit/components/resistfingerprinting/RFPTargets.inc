@@ -272,6 +272,14 @@ VideoElementPlaybackQuality
 )
 ITEM_VALUE
 (
+ReduceTimerPrecision
+1llu
+<
+<
+34
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
