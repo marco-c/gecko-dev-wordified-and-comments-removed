@@ -270,6 +270,9 @@ add_assign
 deref
 "
 "
+deref_mut
+"
+"
 from
 "
 ]
