@@ -2196,10 +2196,6 @@ mTitlebarBackdropState
 (
 false
 )
-mIsPIPWindow
-(
-false
-)
 mIsWaylandPanelWindow
 (
 false
@@ -27998,16 +27994,6 @@ aInitData
 -
 >
 mAlwaysOnTop
-;
-mIsPIPWindow
-=
-aInitData
-&
-&
-aInitData
--
->
-mPIPWindow
 ;
 mNoAutoHide
 =
