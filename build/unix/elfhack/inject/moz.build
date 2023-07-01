@@ -216,6 +216,16 @@ fno
 -
 lto
 "
+"
+-
+fno
+-
+asynchronous
+-
+unwind
+-
+tables
+"
 ]
 AllowCompilerWarnings
 (
