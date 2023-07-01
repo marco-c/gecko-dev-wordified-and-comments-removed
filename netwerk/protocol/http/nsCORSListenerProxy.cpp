@@ -3021,7 +3021,7 @@ origin
 mOriginHeaderPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 origin
 )
@@ -4619,7 +4619,7 @@ rv
 mOriginHeaderPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 origin
 )

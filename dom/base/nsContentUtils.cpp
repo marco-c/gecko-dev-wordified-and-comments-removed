@@ -12875,7 +12875,7 @@ origin
 aPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 origin
 )
@@ -32745,7 +32745,7 @@ nsresult
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 nsIURI
 *
@@ -32834,7 +32834,7 @@ NS_OK
 ;
 }
 return
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 uri
 aOrigin
@@ -32985,7 +32985,7 @@ nsresult
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 nsIPrincipal
 *
@@ -33011,7 +33011,7 @@ Truncate
 )
 ;
 nsAutoCString
-asciiOrigin
+webExposedOriginSerialization
 ;
 nsresult
 rv
@@ -33019,9 +33019,9 @@ rv
 aPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
-asciiOrigin
+webExposedOriginSerialization
 )
 ;
 if
@@ -33032,7 +33032,7 @@ rv
 )
 )
 {
-asciiOrigin
+webExposedOriginSerialization
 .
 AssignLiteral
 (
@@ -33044,7 +33044,7 @@ null
 }
 CopyUTF8toUTF16
 (
-asciiOrigin
+webExposedOriginSerialization
 aOrigin
 )
 ;
@@ -33056,7 +33056,7 @@ nsresult
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 nsIURI
 *
@@ -33132,7 +33132,7 @@ rv
 )
 ;
 return
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 origin
 aOrigin
@@ -33142,14 +33142,14 @@ aOrigin
 #
 endif
 nsAutoCString
-asciiOrigin
+webExposedOriginSerialization
 ;
 rv
 =
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 aURI
-asciiOrigin
+webExposedOriginSerialization
 )
 ;
 NS_ENSURE_SUCCESS
@@ -33160,7 +33160,7 @@ rv
 ;
 CopyUTF8toUTF16
 (
-asciiOrigin
+webExposedOriginSerialization
 aOrigin
 )
 ;

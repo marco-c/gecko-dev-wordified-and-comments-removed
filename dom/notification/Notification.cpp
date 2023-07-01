@@ -9066,7 +9066,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 aPrincipal
 aOrigin

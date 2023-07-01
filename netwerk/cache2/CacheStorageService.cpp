@@ -3021,7 +3021,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 aPrincipal
 origin
@@ -3847,7 +3847,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 uri
 origin

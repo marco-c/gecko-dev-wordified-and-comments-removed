@@ -5114,7 +5114,7 @@ SameOriginChecker
 ;
 static
 nsresult
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 nsIURI
 *
@@ -5126,7 +5126,7 @@ aOrigin
 ;
 static
 nsresult
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 nsIPrincipal
 *
@@ -5138,7 +5138,7 @@ aOrigin
 ;
 static
 nsresult
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 nsIURI
 *

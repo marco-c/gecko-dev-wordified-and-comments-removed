@@ -4373,7 +4373,7 @@ rv
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 aURI
 origin

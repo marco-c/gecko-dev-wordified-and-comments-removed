@@ -3814,7 +3814,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 uri
 urlOrigin

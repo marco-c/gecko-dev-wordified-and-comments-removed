@@ -1484,7 +1484,7 @@ aRv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 uri
 origin

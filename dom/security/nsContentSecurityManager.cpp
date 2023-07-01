@@ -8857,7 +8857,7 @@ lastOrigin
 aOrigin
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 aSerializedOrigin
 )
@@ -8892,7 +8892,7 @@ return
 aOrigin
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 aSerializedOrigin
 )

@@ -43540,7 +43540,7 @@ else
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 uri
 serializedOrigin
@@ -43659,7 +43659,7 @@ currentOrigin
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 mURI
 currentOrigin

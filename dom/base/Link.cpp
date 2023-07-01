@@ -1458,7 +1458,7 @@ origin
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 uri
 origin

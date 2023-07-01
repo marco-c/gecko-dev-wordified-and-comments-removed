@@ -608,7 +608,7 @@ origin
 aPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 origin
 )
@@ -977,7 +977,7 @@ rv
 aPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 origin
 )

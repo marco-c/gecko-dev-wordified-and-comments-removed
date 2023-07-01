@@ -501,7 +501,7 @@ NS_IMETHODIMP
 BasePrincipal
 :
 :
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 nsACString
 &
@@ -551,7 +551,7 @@ return
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 prinURI
 aOrigin

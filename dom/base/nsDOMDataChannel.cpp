@@ -462,7 +462,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 principal
 mOrigin

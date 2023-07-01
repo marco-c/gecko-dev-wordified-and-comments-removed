@@ -326,7 +326,7 @@ rv
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 uri
 origin

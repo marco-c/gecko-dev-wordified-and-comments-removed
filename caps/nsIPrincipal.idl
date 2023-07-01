@@ -459,7 +459,7 @@ noscript
 readonly
 attribute
 ACString
-asciiOrigin
+webExposedOriginSerialization
 ;
 readonly
 attribute

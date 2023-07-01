@@ -339,7 +339,7 @@ aOrigin
 final
 ;
 NS_IMETHOD
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 nsACString
 &

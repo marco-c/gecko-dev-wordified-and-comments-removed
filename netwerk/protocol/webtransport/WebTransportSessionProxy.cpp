@@ -668,7 +668,7 @@ NS_FAILED
 aPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 serializedOrigin
 )

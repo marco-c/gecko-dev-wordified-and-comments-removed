@@ -19503,7 +19503,7 @@ aOrigin
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 GetPrincipal
 (
