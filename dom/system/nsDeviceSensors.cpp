@@ -3252,7 +3252,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+DeviceSensors
 )
 ;
 }

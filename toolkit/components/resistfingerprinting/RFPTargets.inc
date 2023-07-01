@@ -352,6 +352,14 @@ FontVisibilityLangPack
 )
 ITEM_VALUE
 (
+DeviceSensors
+1llu
+<
+<
+44
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
