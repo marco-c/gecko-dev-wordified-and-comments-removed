@@ -1168,7 +1168,7 @@ AD_CAROUSEL
 ads_loaded
 :
 "
-3
+4
 "
 ads_visible
 :
@@ -1178,7 +1178,7 @@ ads_visible
 ads_hidden
 :
 "
-3
+4
 "
 }
 ]
