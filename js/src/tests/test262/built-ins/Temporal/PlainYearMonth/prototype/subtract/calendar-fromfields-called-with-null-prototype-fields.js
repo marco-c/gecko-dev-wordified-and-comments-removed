@@ -40,13 +40,14 @@ sameValue
 calendar
 .
 dateFromFieldsCallCount
-1
+2
 "
 dateFromFields
 should
 have
 been
 called
+twice
 on
 the
 calendar

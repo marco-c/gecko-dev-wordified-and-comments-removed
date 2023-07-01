@@ -51,8 +51,14 @@ sameValue
 (
 pmd
 .
+getISOFields
+(
+)
+.
 calendar
-calendar
+"
+iso8601
+"
 )
 ;
 reportCompare

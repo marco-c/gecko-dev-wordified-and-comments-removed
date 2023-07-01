@@ -86,11 +86,7 @@ sameValue
 (
 result
 .
-timeZone
-.
-toString
-(
-)
+timeZoneId
 "
 UTC
 "
@@ -102,7 +98,9 @@ sameValue
 (
 result
 .
-calendar
+getCalendar
+(
+)
 calendar
 )
 ;

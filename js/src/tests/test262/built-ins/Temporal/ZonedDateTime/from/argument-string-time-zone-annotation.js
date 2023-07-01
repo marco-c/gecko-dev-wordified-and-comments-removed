@@ -374,11 +374,7 @@ sameValue
 (
 result
 .
-timeZone
-.
-toString
-(
-)
+timeZoneId
 expectedZone
 time
 zone

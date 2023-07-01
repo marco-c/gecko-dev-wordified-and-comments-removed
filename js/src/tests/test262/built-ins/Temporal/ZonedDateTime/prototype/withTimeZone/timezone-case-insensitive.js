@@ -35,9 +35,7 @@ sameValue
 (
 result
 .
-timeZone
-.
-id
+timeZoneId
 '
 UTC
 '

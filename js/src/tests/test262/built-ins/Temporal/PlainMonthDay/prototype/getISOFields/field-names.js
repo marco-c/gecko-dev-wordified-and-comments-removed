@@ -68,8 +68,6 @@ sameValue
 result
 .
 calendar
-.
-id
 "
 iso8601
 "

@@ -197,8 +197,6 @@ sameValue
 result
 .
 timeZone
-.
-id
 "
 UTC
 "

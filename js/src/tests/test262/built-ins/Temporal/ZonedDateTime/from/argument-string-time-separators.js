@@ -105,11 +105,7 @@ sameValue
 (
 result
 .
-timeZone
-.
-toString
-(
-)
+timeZoneId
 "
 UTC
 "

@@ -44,11 +44,7 @@ sameValue
 (
 zdt
 .
-calendar
-.
-toString
-(
-)
+calendarId
 "
 iso8601
 "
@@ -63,11 +59,7 @@ sameValue
 (
 zdt
 .
-timeZone
-.
-toString
-(
-)
+timeZoneId
 "
 UTC
 "

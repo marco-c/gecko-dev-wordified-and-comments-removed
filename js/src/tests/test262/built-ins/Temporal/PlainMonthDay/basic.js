@@ -33,9 +33,7 @@ sameValue
 (
 leapDay
 .
-calendar
-.
-id
+calendarId
 "
 iso8601
 "
@@ -86,9 +84,7 @@ sameValue
 (
 beforeEpoch
 .
-calendar
-.
-id
+calendarId
 "
 iso8601
 "
@@ -141,9 +137,7 @@ sameValue
 (
 afterEpoch
 .
-calendar
-.
-id
+calendarId
 "
 iso8601
 "

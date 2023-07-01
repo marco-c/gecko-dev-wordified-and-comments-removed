@@ -138,7 +138,7 @@ strIter
 '
 [
 object
-Object
+Iterator
 ]
 '
 )

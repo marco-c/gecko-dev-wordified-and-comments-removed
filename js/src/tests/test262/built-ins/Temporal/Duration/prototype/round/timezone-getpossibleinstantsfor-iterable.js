@@ -35,17 +35,6 @@ expected
 :
 00
 "
-"
-2001
--
-02
--
-01T00
-:
-00
-:
-00
-"
 ]
 ;
 TemporalHelpers

@@ -67,9 +67,7 @@ sameValue
 (
 date
 .
-calendar
-.
-id
+calendarId
 cid
 )
 ;

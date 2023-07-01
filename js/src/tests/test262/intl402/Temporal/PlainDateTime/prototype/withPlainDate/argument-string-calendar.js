@@ -94,11 +94,7 @@ sameValue
 (
 result1
 .
-calendar
-.
-toString
-(
-)
+calendarId
 "
 gregory
 "
@@ -172,11 +168,7 @@ sameValue
 (
 result2
 .
-calendar
-.
-toString
-(
-)
+calendarId
 "
 gregory
 "

@@ -73,7 +73,7 @@ sameValue
 calendar
 .
 dateAddCallCount
-9
+8
 "
 rounding
 with
@@ -128,7 +128,7 @@ sameValue
 calendar
 .
 dateAddCallCount
-9
+8
 "
 rounding
 with

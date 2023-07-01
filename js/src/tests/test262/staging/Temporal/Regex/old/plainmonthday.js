@@ -71,9 +71,7 @@ sameValue
 (
 monthDay
 .
-calendar
-.
-id
+calendarId
 cid
 )
 ;

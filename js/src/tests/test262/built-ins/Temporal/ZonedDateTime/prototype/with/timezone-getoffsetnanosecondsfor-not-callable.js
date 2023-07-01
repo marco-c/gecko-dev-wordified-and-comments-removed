@@ -119,6 +119,13 @@ const
 badTimeZone
 =
 {
+id
+:
+"
+Etc
+/
+Bad
+"
 getPossibleInstantsFor
 (
 )

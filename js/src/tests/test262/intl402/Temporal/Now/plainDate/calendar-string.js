@@ -27,9 +27,7 @@ sameValue
 (
 date
 .
-calendar
-.
-id
+calendarId
 "
 gregory
 "

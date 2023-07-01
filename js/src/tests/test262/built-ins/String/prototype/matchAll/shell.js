@@ -440,7 +440,7 @@ string
 )
 {
 const
-hex
+formatted
 =
 printCodePoint
 (
@@ -467,10 +467,8 @@ expression
 \
 should
 match
-U
-+
 {
-hex
+formatted
 }
 (
 \
@@ -567,8 +565,6 @@ match
 string
 }
 (
-U
-+
 {
 printStringCodePoints
 (
@@ -630,8 +626,6 @@ match
 string
 }
 (
-U
-+
 {
 printStringCodePoints
 (
