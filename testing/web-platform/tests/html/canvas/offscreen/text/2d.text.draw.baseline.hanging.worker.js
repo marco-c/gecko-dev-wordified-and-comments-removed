@@ -214,9 +214,8 @@ fillText
 CC
 '
 0
-12
-.
-5
+-
+30
 )
 ;
 _assertPixelApprox
