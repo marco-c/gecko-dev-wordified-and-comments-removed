@@ -183,7 +183,9 @@ modules
 /
 AboutNewTab
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -195,7 +197,9 @@ modules
 /
 BrowserUsageTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -207,7 +211,9 @@ modules
 /
 ContentCrashHandlers
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
