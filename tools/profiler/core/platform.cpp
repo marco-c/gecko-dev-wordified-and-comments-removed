@@ -12022,6 +12022,10 @@ static
 PreRecordedMetaInformation
 PreRecordMetaInformation
 (
+bool
+aShutdown
+=
+false
 )
 {
 MOZ_ASSERT
@@ -12057,6 +12061,10 @@ info
 .
 mAsyncStacks
 =
+!
+aShutdown
+&
+&
 Preferences
 :
 :
@@ -24402,6 +24410,7 @@ preRecordedMetaInformation
 =
 PreRecordMetaInformation
 (
+true
 )
 ;
 ProfilerParent
