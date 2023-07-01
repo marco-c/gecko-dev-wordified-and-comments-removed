@@ -128,6 +128,14 @@ DOMString
 name
 )
 ;
+DOMString
+?
+getName
+(
+CustomElementConstructor
+constructor
+)
+;
 [
 Throws
 ]
