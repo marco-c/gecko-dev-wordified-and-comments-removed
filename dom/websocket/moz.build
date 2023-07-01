@@ -80,6 +80,13 @@ ini
 "
 tests
 /
+mochitest_http2
+.
+ini
+"
+"
+tests
+/
 websocket_hybi
 /
 mochitest
