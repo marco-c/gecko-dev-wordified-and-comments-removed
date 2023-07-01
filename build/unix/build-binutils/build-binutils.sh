@@ -15,9 +15,6 @@ j
 (
 nproc
 )
-MAKEINFO
-=
-true
 "
 root_dir
 =
