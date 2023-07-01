@@ -3578,6 +3578,8 @@ mingw
 -
 w64
 -
+trunk
+-
 llvm
 -
 mingw
@@ -3725,6 +3727,8 @@ trunk
 mingw
 -
 w64
+-
+trunk
 -
 llvm
 -
