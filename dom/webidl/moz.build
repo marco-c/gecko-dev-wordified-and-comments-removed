@@ -3511,11 +3511,6 @@ ElementInternals
 webidl
 "
 "
-EncodedVideoChunk
-.
-webidl
-"
-"
 Event
 .
 webidl
