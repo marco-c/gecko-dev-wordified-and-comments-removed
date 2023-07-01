@@ -6,7 +6,6 @@ strict
 const
 {
 localizeMarkup
-LocalizationHelper
 }
 =
 require
