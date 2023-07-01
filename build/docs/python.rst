@@ -126,7 +126,7 @@ requires
 Python
 3
 .
-6
+7
 or
 greater
 to
