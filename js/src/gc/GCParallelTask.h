@@ -513,6 +513,7 @@ GCParallelTask
 &
 other
 )
+noexcept
 :
 gc
 (

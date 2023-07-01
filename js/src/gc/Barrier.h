@@ -1214,6 +1214,7 @@ T
 &
 other
 )
+noexcept
 {
 \
 setUnchecked
@@ -1323,6 +1324,7 @@ T
 &
 other
 )
+noexcept
 :
 WriteBarriered
 <
@@ -2040,6 +2042,7 @@ T
 &
 other
 )
+noexcept
 :
 WriteBarriered
 <
@@ -2434,6 +2437,7 @@ T
 &
 other
 )
+noexcept
 :
 BarrieredBase
 <
@@ -2921,6 +2925,7 @@ WeakHeapPtr
 &
 other
 )
+noexcept
 :
 ReadBarriered
 <

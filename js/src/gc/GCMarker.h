@@ -534,6 +534,7 @@ MarkStack
 &
 other
 )
+noexcept
 ;
 MarkStack
 &
@@ -545,6 +546,7 @@ MarkStack
 &
 other
 )
+noexcept
 ;
 size_t
 capacity

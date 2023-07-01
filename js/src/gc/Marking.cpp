@@ -8491,6 +8491,7 @@ MarkStack
 &
 other
 )
+noexcept
 :
 stack_
 (
@@ -8550,6 +8551,7 @@ MarkStack
 &
 other
 )
+noexcept
 {
 new
 (
