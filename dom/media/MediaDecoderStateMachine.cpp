@@ -23058,9 +23058,11 @@ return
 GenericPromise
 :
 :
-CreateAndReject
+CreateAndResolve
 (
-NS_ERROR_ABORT
+IsPlaying
+(
+)
 __func__
 )
 ;
