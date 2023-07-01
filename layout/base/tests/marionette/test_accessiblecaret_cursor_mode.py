@@ -400,9 +400,18 @@ target_content
 :
 ]
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -446,12 +455,23 @@ first_caret_location
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 cursor0_x
 cursor0_y
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 self
@@ -572,9 +592,18 @@ content
 +
 content_to_add
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -584,16 +613,27 @@ move_cursor_to_front
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 src_x
@@ -741,9 +781,18 @@ sel
 .
 content
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -762,9 +811,18 @@ first_caret_location
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -784,16 +842,27 @@ backward
 True
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 src_x
@@ -902,9 +971,18 @@ string
 .
 ascii_letters
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1056,9 +1134,18 @@ content
 +
 content_to_add
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1068,16 +1155,27 @@ move_cursor_to_front
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 x
@@ -1217,9 +1315,18 @@ sel
 .
 content
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1239,16 +1346,27 @@ backward
 True
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 x
@@ -1381,9 +1499,18 @@ image
 "
 )
         
-before_image_1
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+before_image_1
+)
+.
+perform
 (
 )
         
@@ -1393,16 +1520,27 @@ move_cursor_to_front
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 src_x
@@ -1538,9 +1676,18 @@ sel
 .
 content
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1566,9 +1713,18 @@ send_keys
 content_to_add_2
 )
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1588,16 +1744,27 @@ backward
 True
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 src_x

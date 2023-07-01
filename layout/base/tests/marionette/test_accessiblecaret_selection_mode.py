@@ -717,9 +717,18 @@ content
 ordinal
 )
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1551,9 +1560,18 @@ words
 :
 ]
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1784,9 +1802,18 @@ words
 :
 ]
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -2112,9 +2139,18 @@ second_caret_location
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -2532,9 +2568,18 @@ el2
 0
 )
         
-el1
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el1
+)
+.
+perform
 (
 )
         
@@ -2769,7 +2814,8 @@ to
 tilted
         
 successfully
-tapping
+click
+on
 the
 tilted
 carets
@@ -2992,14 +3038,25 @@ caret_margin_left
 +
 tilt_left_margin_left
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 left_caret_left_edge_x
 +
 2
 caret3_y
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 right_caret_right_edge_x
@@ -3016,14 +3073,25 @@ caret_width
         
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 right_caret_right_edge_x
 -
 2
 caret4_y
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 self
