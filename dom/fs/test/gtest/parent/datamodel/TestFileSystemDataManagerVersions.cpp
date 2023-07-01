@@ -1783,6 +1783,18 @@ entryId
 )
 )
 ;
+FileId
+fileId
+=
+FileId
+(
+firstItemRef
+.
+entryId
+(
+)
+)
+;
 ContentType
 type
 ;
@@ -1810,6 +1822,8 @@ firstItemRef
 entryId
 (
 )
+fileId
+false
 type
 lastModifiedMilliSeconds
 path

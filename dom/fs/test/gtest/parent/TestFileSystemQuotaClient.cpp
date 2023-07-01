@@ -836,6 +836,8 @@ aDatabaseManager
 GetFile
 (
 aEntryId
+fileId
+false
 type
 lastModMilliS
 path

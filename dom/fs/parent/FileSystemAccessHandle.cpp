@@ -1069,6 +1069,8 @@ MutableDatabaseManagerPtr
 GetFile
 (
 mEntryId
+fileId
+false
 type
 lastModifiedMilliSeconds
 path
