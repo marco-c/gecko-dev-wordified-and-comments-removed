@@ -708,7 +708,7 @@ createPause
 (
 threadFront
 .
-actor
+actorID
 resource
 )
 ;
