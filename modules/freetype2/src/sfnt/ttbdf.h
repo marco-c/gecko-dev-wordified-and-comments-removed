@@ -40,7 +40,7 @@ FT_Error
 )
 tt_face_find_bdf_prop
 (
-TT_Face
+FT_Face
 face
 const
 char

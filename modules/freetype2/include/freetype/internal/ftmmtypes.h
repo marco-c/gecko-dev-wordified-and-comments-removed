@@ -23,9 +23,15 @@ FT_UInt
 *
 regionIndices
 ;
-FT_ItemVarDelta
+FT_Byte
 *
 deltaSet
+;
+FT_UShort
+wordDeltaCount
+;
+FT_Bool
+longWords
 ;
 }
 GX_ItemVarDataRec

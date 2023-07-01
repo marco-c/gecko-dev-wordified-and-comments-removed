@@ -1358,6 +1358,16 @@ if
 (
 load_flags
 &
+FT_LOAD_NO_SVG
+)
+=
+=
+0
+&
+&
+(
+load_flags
+&
 FT_LOAD_COLOR
 )
 &

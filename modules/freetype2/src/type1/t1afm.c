@@ -1604,7 +1604,7 @@ FT_Err_Ok
 else
 typedef
 int
-_t1_afm_dummy
+t1_afm_dummy_
 ;
 #
 endif

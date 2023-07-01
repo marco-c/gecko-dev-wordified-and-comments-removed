@@ -2574,6 +2574,9 @@ color
 alpha
 +
 =
+(
+FT_F2Dot14
+)
 item_deltas
 [
 0
@@ -7431,6 +7434,9 @@ color
 alpha
 +
 =
+(
+FT_F2Dot14
+)
 item_deltas
 [
 1
@@ -8884,7 +8890,7 @@ FT_Err_Ok
 else
 typedef
 int
-_tt_colr_dummy
+tt_colr_dummy_
 ;
 #
 endif

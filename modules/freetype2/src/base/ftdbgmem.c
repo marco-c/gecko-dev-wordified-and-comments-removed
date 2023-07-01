@@ -3795,7 +3795,7 @@ sources
 else
 typedef
 int
-_debug_mem_dummy
+debug_mem_dummy_
 ;
 #
 endif

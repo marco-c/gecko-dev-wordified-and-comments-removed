@@ -147,6 +147,17 @@ FT_Face
 face
 )
 ;
+typedef
+FT_Error
+(
+*
+FT_Size_Reset_Func
+)
+(
+FT_Size
+size
+)
+;
 FT_DEFINE_SERVICE
 (
 MetricsVariations
@@ -176,6 +187,9 @@ vorg_adjust
 FT_Metrics_Adjust_Func
 metrics_adjust
 ;
+FT_Size_Reset_Func
+size_reset
+;
 }
 ;
 #
@@ -199,6 +213,8 @@ bsb_adjust_
 vorg_adjust_
 \
 metrics_adjust_
+\
+size_reset_
 )
 \
 static
@@ -224,6 +240,8 @@ bsb_adjust_
 vorg_adjust_
 \
 metrics_adjust_
+\
+size_reset_
 \
 }
 ;

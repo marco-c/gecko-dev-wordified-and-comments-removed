@@ -107,6 +107,8 @@ FreeType
 2
 .
 13
+.
+1
 ]
 [
 freetype
@@ -145,11 +147,11 @@ TXT
 version_info
 =
 '
-25
+26
 :
 0
 :
-19
+20
 '
 AC_SUBST
 (

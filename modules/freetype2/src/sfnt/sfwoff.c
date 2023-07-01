@@ -1883,7 +1883,7 @@ WRITE_ULONG
 else
 typedef
 int
-_sfwoff_dummy
+sfwoff_dummy_
 ;
 #
 endif

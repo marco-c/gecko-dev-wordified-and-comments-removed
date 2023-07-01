@@ -25,7 +25,7 @@ c
 else
 typedef
 int
-_dlg_dummy
+dlg_dummy_
 ;
 #
 endif

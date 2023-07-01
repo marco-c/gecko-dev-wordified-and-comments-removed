@@ -30,6 +30,8 @@ FreeType
 .
 13
 .
+1
+.
 #
 #
 Report
@@ -5183,6 +5185,8 @@ PACKAGE_VERSION
 2
 .
 13
+.
+1
 '
 PACKAGE_STRING
 =
@@ -5191,6 +5195,8 @@ FreeType
 2
 .
 13
+.
+1
 '
 PACKAGE_BUGREPORT
 =
@@ -11378,6 +11384,8 @@ FreeType
 2
 .
 13
+.
+1
 to
 adapt
 to
@@ -12027,6 +12035,8 @@ FreeType
 2
 .
 13
+.
+1
 :
 "
 ;
@@ -13347,6 +13357,8 @@ configure
 2
 .
 13
+.
+1
 generated
 by
 GNU
@@ -16230,6 +16242,8 @@ as_me
 2
 .
 13
+.
+1
 which
 was
 generated
@@ -22435,11 +22449,11 @@ TXT
 version_info
 =
 '
-25
+26
 :
 0
 :
-19
+20
 '
 ft_version
 =
@@ -123406,6 +123420,8 @@ as_me
 2
 .
 13
+.
+1
 which
 was
 generated
@@ -123797,6 +123813,8 @@ status
 2
 .
 13
+.
+1
 configured
 by
 0

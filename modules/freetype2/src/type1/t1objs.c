@@ -542,14 +542,6 @@ FT_Get_Module
 slot
 -
 >
-face
--
->
-driver
--
->
-root
-.
 library
 "
 pshinter
@@ -695,7 +687,7 @@ len_buildchar
 }
 T1_Done_Blend
 (
-face
+t1face
 )
 ;
 face

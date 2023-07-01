@@ -1485,7 +1485,7 @@ error
 else
 typedef
 int
-_tt_svg_dummy
+tt_svg_dummy_
 ;
 #
 endif

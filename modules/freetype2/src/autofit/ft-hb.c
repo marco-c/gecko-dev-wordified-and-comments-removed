@@ -311,7 +311,7 @@ font
 else
 typedef
 int
-_ft_hb_dummy
+ft_hb_dummy_
 ;
 #
 endif

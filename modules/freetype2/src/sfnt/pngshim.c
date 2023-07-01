@@ -1584,8 +1584,6 @@ color_type
 {
 default
 :
-FALL_THROUGH
-;
 case
 PNG_COLOR_TYPE_RGB_ALPHA
 :
@@ -1752,7 +1750,7 @@ error
 else
 typedef
 int
-_pngshim_dummy
+pngshim_dummy_
 ;
 #
 endif

@@ -525,7 +525,7 @@ FT_Service_MetricsVariations
 face
 -
 >
-var
+tt_var
 ;
 #
 endif

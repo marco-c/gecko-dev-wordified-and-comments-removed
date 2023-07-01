@@ -120,11 +120,6 @@ memory
 pfrface
 -
 >
-driver
--
->
-root
-.
 memory
 ;
 pfrface
@@ -148,10 +143,7 @@ face
 -
 >
 phy_font
-FT_FACE_MEMORY
-(
-face
-)
+memory
 )
 ;
 FT_FREE
@@ -867,9 +859,6 @@ FT_Memory
 memory
 =
 pfrface
--
->
-stream
 -
 >
 memory

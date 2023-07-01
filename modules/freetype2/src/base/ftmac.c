@@ -3532,7 +3532,7 @@ endif
 else
 typedef
 int
-_ft_mac_dummy
+ft_mac_dummy_
 ;
 #
 endif

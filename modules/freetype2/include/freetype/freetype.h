@@ -1825,6 +1825,15 @@ FT_LOAD_BITMAP_METRICS_ONLY
 )
 #
 define
+FT_LOAD_NO_SVG
+(
+1L
+<
+<
+24
+)
+#
+define
 FT_LOAD_ADVANCE_ONLY
 (
 1L
@@ -2424,7 +2433,7 @@ FREETYPE_MINOR
 #
 define
 FREETYPE_PATCH
-0
+1
 FT_EXPORT
 (
 void

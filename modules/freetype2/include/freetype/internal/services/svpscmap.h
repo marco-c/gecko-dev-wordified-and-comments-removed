@@ -164,7 +164,7 @@ unicode
 )
 ;
 typedef
-FT_UInt32
+FT_UInt
 (
 *
 PS_Unicodes_CharNextFunc

@@ -270,7 +270,8 @@ void
 )
 af_face_globals_free
 (
-AF_FaceGlobals
+void
+*
 globals
 )
 ;

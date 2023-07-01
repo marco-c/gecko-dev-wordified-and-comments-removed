@@ -1102,7 +1102,7 @@ FTC_GCACHE_LOOKUP_CMP
 (
 cache
 ftc_basic_family_compare
-FTC_GNode_Compare
+ftc_gnode_compare
 hash
 gindex
 &
@@ -1330,7 +1330,7 @@ FTC_GCACHE_LOOKUP_CMP
 (
 cache
 ftc_basic_family_compare
-FTC_GNode_Compare
+ftc_gnode_compare
 hash
 gindex
 &
@@ -1676,7 +1676,7 @@ FTC_GCACHE_LOOKUP_CMP
 (
 cache
 ftc_basic_family_compare
-FTC_SNode_Compare
+ftc_snode_compare
 hash
 gindex
 &
@@ -1912,7 +1912,7 @@ FTC_GCACHE_LOOKUP_CMP
 (
 cache
 ftc_basic_family_compare
-FTC_SNode_Compare
+ftc_snode_compare
 hash
 gindex
 &

@@ -173,8 +173,8 @@ ft_ftell
 ftell
 #
 define
-ft_sprintf
-sprintf
+ft_snprintf
+snprintf
 #
 include
 <

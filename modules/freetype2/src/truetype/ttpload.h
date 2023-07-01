@@ -34,11 +34,11 @@ FT_ULong
 )
 tt_face_get_location
 (
-TT_Face
+FT_Face
 face
 FT_UInt
 gindex
-FT_UInt
+FT_ULong
 *
 asize
 )

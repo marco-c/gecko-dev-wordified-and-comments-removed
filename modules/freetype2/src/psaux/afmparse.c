@@ -3932,7 +3932,7 @@ error
 else
 typedef
 int
-_afm_parse_dummy
+afm_parse_dummy_
 ;
 #
 endif

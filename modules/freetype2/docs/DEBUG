@@ -1848,8 +1848,8 @@ tracing
 .
 FT_Trace_Set_Default_Level
 (
+void
 )
-:
 Reset
 the
 tracing
@@ -1882,7 +1882,6 @@ FT_Set_Log_Handler
 ft_custom_log_handler
 handler
 )
-:
 Use
 handler
 '
@@ -1955,8 +1954,8 @@ arguments
 .
 FT_Set_Default_Log_Handler
 (
+void
 )
-:
 Reset
 the
 log
