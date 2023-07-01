@@ -616,6 +616,30 @@ addTimer
 "
 false
 "
+            
+"
+-
+-
+videoParams
+.
+androidVideoWaitTime
+"
+            
+"
+20000
+"
+            
+"
+-
+-
+android
+.
+enabled
+"
+            
+"
+true
+"
         
 ]
         
@@ -652,12 +676,6 @@ browser
                     
 "
 chrome
-"
-                    
-"
--
--
-android
 "
                 
 ]
@@ -749,12 +767,6 @@ browser
                     
 "
 firefox
-"
-                    
-"
--
--
-android
 "
                     
 "
