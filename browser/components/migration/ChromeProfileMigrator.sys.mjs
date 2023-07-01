@@ -4374,6 +4374,7 @@ MigrationUtils
 .
 installExtensionsWrapper
 (
+aBrowserKey
 ids
 )
 ;
