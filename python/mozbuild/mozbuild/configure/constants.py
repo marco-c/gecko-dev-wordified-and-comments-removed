@@ -14,6 +14,11 @@ EnumString
 .
 subclass
 (
+"
+CompilerType
+"
+)
+(
     
 "
 clang
@@ -38,6 +43,11 @@ OS
 EnumString
 .
 subclass
+(
+"
+OS
+"
+)
 (
     
 "
@@ -85,6 +95,11 @@ Kernel
 EnumString
 .
 subclass
+(
+"
+Kernel
+"
+)
 (
     
 "
@@ -257,6 +272,11 @@ EnumString
 .
 subclass
 (
+"
+CPU
+"
+)
+(
 *
 CPU_bitness
 .
@@ -269,6 +289,11 @@ Endianness
 EnumString
 .
 subclass
+(
+"
+Endianness
+"
+)
 (
     
 "
@@ -285,6 +310,11 @@ EnumString
 .
 subclass
 (
+"
+WindowsBinaryType
+"
+)
+(
     
 "
 win32
@@ -299,6 +329,11 @@ Abi
 EnumString
 .
 subclass
+(
+"
+Abi
+"
+)
 (
     
 "

@@ -4515,10 +4515,16 @@ namespace
 (
 OS_TARGET
 =
+str
+(
 os_target
+)
 OS_ARCH
 =
+str
+(
 os_arch
+)
 INTEL_ARCHITECTURE
 =
 target
