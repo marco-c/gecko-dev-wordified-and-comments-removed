@@ -296,6 +296,14 @@ MediaDevices
 )
 ITEM_VALUE
 (
+MediaCapabilities
+1llu
+<
+<
+37
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

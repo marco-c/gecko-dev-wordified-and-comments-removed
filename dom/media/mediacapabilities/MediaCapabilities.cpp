@@ -1837,7 +1837,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+MediaCapabilities
 )
 ;
 promises
