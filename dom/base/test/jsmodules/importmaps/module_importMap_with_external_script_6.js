@@ -1,0 +1,9 @@
+throw
+"
+Error
+:
+script_6
+.
+js
+"
+;

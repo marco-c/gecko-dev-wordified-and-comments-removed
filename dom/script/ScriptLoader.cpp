@@ -5167,11 +5167,15 @@ if
 request
 &
 &
+mModuleLoader
+-
+>
+IsModuleFetched
+(
 request
 -
 >
-IsModuleRequest
-(
+mURI
 )
 &
 &
