@@ -512,6 +512,15 @@ queryContext
 {
 return
 (
+queryContext
+.
+trimmedSearchString
+.
+length
+<
+50
+&
+&
 lazy
 .
 UrlbarPrefs
