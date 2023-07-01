@@ -1134,6 +1134,14 @@ extraParams
 [
 ]
 ;
+this
+.
+nimbusCache
+.
+clear
+(
+)
+;
 for
 (
 const
