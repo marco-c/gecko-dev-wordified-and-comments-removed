@@ -985,10 +985,6 @@ textLength
 ;
 attribute
 long
-wrapWidth
-;
-attribute
-long
 newlineHandling
 ;
 [
