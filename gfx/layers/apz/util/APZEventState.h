@@ -641,6 +641,12 @@ mFirstTouchCancelled
 bool
 mTouchEndCancelled
 ;
+bool
+mReceivedNonTouchStart
+;
+bool
+mTouchStartPrevented
+;
 std
 :
 :
