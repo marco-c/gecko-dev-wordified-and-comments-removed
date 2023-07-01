@@ -505,10 +505,12 @@ GenericPromise
 >
 SetSink
 (
+const
 RefPtr
 <
 AudioDeviceInfo
 >
+&
 aDevice
 )
 ;
