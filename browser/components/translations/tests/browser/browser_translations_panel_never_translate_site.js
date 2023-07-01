@@ -168,7 +168,7 @@ principal
 )
 ;
 await
-openSettingsMenu
+openTranslationsSettingsMenuViaTranslationsButton
 (
 )
 ;
@@ -964,7 +964,7 @@ principal
 )
 ;
 await
-openSettingsMenu
+openTranslationsSettingsMenuViaTranslationsButton
 (
 )
 ;
@@ -1494,7 +1494,7 @@ pref
 )
 ;
 await
-openSettingsMenu
+openTranslationsSettingsMenuViaTranslationsButton
 (
 )
 ;
@@ -1700,7 +1700,7 @@ principal
 )
 ;
 await
-openSettingsMenu
+openTranslationsSettingsMenuViaTranslationsButton
 (
 )
 ;
