@@ -1341,7 +1341,6 @@ renderProjectRootHeader
 {
 const
 {
-cx
 projectRootName
 }
 =
@@ -1404,7 +1403,6 @@ props
 .
 clearProjectDirectoryRoot
 (
-cx
 )
 }
 title
