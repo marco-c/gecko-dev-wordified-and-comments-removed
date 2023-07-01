@@ -181,12 +181,9 @@ RecGroup
 RecGroupOld
 =
 0x45
-SubNoFinalType
+SubType
 =
 0x50
-SubFinalType
-=
-0x4e
 Limit
 =
 0x80
