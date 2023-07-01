@@ -498,3 +498,6 @@ pp
 .
 includes
 )
+main
+=
+generate_symbols_file
