@@ -988,7 +988,6 @@ name
 CustomIdent
 flags
 :
-&
 PagePseudoClassFlags
 )
 -
@@ -1018,7 +1017,6 @@ flags_match
 self
 flags
 :
-&
 PagePseudoClassFlags
 )
 -
@@ -1054,7 +1052,6 @@ match_specificity
 self
 flags
 :
-&
 PagePseudoClassFlags
 )
 -
@@ -1738,7 +1735,6 @@ match_specificity
 self
 flags
 :
-&
 PagePseudoClassFlags
 )
 -
