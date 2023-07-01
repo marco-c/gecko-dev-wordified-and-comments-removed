@@ -1437,7 +1437,15 @@ GetContentDeclarationBlock
 (
 )
 const
+{
+return
+mContentDeclarationBlock
+.
+get
+(
+)
 ;
+}
 bool
 Autofocus
 (

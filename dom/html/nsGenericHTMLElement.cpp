@@ -220,13 +220,6 @@ h
 #
 include
 "
-nsHTMLStyleSheet
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
