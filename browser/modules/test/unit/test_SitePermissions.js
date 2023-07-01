@@ -167,6 +167,9 @@ xr
 "
 3rdPartyStorage
 "
+"
+3rdPartyFrameStorage
+"
 ]
 ;
 if
@@ -1032,6 +1035,9 @@ access
 "
 "
 3rdPartyStorage
+"
+"
+3rdPartyFrameStorage
 "
 ]
 ;

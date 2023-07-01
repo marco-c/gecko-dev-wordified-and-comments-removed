@@ -6106,6 +6106,14 @@ id
 "
 3rdPartyStorage
 "
+|
+|
+id
+=
+=
+"
+3rdPartyFrameStorage
+"
 )
 {
 /
@@ -6117,6 +6125,8 @@ the
 3rd
 party
 origin
+or
+site
 which
 we
 use
@@ -7594,6 +7604,12 @@ UNKNOWN
 }
 "
 3rdPartyStorage
+"
+:
+{
+}
+"
+3rdPartyFrameStorage
 "
 :
 {
