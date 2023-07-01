@@ -235,7 +235,7 @@ tree
 "
 :
 "
-debian12
+debian11
 -
 amd64
 -
