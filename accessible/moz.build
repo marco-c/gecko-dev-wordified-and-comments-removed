@@ -217,17 +217,6 @@ tests
 /
 browser
 /
-pivot
-/
-browser
-.
-ini
-"
-"
-tests
-/
-browser
-/
 role
 /
 browser
