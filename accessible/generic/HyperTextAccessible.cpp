@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsAccessiblePivot
-.
-h
-"
-#
-include
-"
 nsIAccessibleTypes
 .
 h
