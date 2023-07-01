@@ -102,8 +102,8 @@ js
 {
 namespace
 gc
-{
-namespace
+:
+:
 detail
 {
 template
@@ -310,7 +310,6 @@ const
 =
 delete
 ;
-}
 }
 template
 <

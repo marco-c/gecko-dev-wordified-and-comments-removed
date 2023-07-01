@@ -2961,8 +2961,8 @@ GCRuntime
 }
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 const
@@ -2980,7 +2980,6 @@ GCState
 state
 )
 ;
-}
 }
 #
 endif

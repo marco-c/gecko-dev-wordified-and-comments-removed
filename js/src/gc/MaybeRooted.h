@@ -168,8 +168,8 @@ delete
 }
 namespace
 JS
-{
-namespace
+:
+:
 detail
 {
 template
@@ -222,7 +222,6 @@ get
 }
 }
 ;
-}
 }
 namespace
 js
@@ -350,8 +349,8 @@ ptr
 }
 namespace
 JS
-{
-namespace
+:
+:
 detail
 {
 template
@@ -404,7 +403,6 @@ get
 }
 }
 ;
-}
 }
 namespace
 js

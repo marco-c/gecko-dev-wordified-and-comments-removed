@@ -1201,8 +1201,8 @@ mover
 }
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 template
@@ -1284,7 +1284,6 @@ StoreBuffer
 ObjectPtrEdge
 >
 ;
-}
 }
 void
 js

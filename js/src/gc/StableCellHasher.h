@@ -24,8 +24,8 @@ h
 "
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 struct
@@ -116,7 +116,6 @@ uint64_t
 uid
 )
 ;
-}
 }
 #
 endif

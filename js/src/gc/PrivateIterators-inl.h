@@ -26,8 +26,8 @@ h
 "
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 class
@@ -801,7 +801,6 @@ get
 }
 }
 ;
-}
 }
 #
 endif

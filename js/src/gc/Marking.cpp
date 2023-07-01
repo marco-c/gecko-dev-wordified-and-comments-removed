@@ -1733,8 +1733,8 @@ undef
 DEFINE_UNSAFE_TRACE_ROOT_FUNCTION
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 #
@@ -1796,7 +1796,6 @@ INSTANTIATE_INTERNAL_TRACE_FUNCTIONS_FROM_TRACEKIND
 #
 undef
 INSTANTIATE_INTERNAL_TRACE_FUNCTIONS
-}
 }
 class
 MOZ_RAII
@@ -12470,8 +12469,8 @@ nullptr
 }
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 template
@@ -12686,7 +12685,6 @@ INSTANTIATE_INTERNAL_MARKING_FUNCTIONS_FROM_TRACEKIND
 #
 undef
 INSTANTIATE_IATBF_FUNCTION_FOR_TAGGED_POINTER
-}
 }
 #
 ifdef
@@ -13446,8 +13444,8 @@ cell
 endif
 namespace
 js
-{
-namespace
+:
+:
 debug
 {
 MarkInfo
@@ -13725,6 +13723,5 @@ mask
 return
 mask
 ;
-}
 }
 }

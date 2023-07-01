@@ -168,8 +168,8 @@ endif
 endif
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 static
@@ -4586,6 +4586,5 @@ PageAccess
 ReadWrite
 )
 ;
-}
 }
 }

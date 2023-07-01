@@ -80,8 +80,8 @@ h
 "
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 class
@@ -1468,7 +1468,6 @@ next
 }
 }
 ;
-}
 }
 #
 endif

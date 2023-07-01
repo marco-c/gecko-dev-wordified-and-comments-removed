@@ -1483,8 +1483,8 @@ tmp
 }
 namespace
 JS
-{
-namespace
+:
+:
 detail
 {
 template
@@ -1537,7 +1537,6 @@ get
 }
 }
 ;
-}
 }
 namespace
 js
@@ -1848,8 +1847,8 @@ delete
 }
 namespace
 JS
-{
-namespace
+:
+:
 detail
 {
 template
@@ -1902,7 +1901,6 @@ get
 }
 }
 ;
-}
 }
 namespace
 js
@@ -2635,8 +2633,8 @@ get
 }
 namespace
 JS
-{
-namespace
+:
+:
 detail
 {
 template
@@ -2689,7 +2687,6 @@ get
 }
 }
 ;
-}
 }
 namespace
 js
@@ -3348,8 +3345,8 @@ T
 }
 namespace
 JS
-{
-namespace
+:
+:
 detail
 {
 template
@@ -3402,7 +3399,6 @@ unbarrieredGet
 }
 }
 ;
-}
 }
 namespace
 js
@@ -3668,8 +3664,8 @@ slot
 }
 namespace
 JS
-{
-namespace
+:
+:
 detail
 {
 template
@@ -3714,7 +3710,6 @@ get
 }
 }
 ;
-}
 }
 namespace
 js

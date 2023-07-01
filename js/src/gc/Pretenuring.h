@@ -41,8 +41,8 @@ GCReason
 }
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 class
@@ -1369,7 +1369,6 @@ site
 ;
 }
 ;
-}
 }
 #
 endif
