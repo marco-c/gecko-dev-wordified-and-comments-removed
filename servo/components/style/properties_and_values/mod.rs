@@ -4,5 +4,9 @@ rule
 ;
 pub
 mod
+registry
+;
+pub
+mod
 syntax
 ;
