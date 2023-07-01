@@ -4680,7 +4680,9 @@ if
 line
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -4741,7 +4743,9 @@ if
 line
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -4819,7 +4823,9 @@ if
 line
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -4906,7 +4912,9 @@ if
 line
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
