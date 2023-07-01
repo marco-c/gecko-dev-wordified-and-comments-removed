@@ -3807,13 +3807,6 @@ n
 continue
 ;
 }
-buffer
-.
-shrinkTo
-(
-bufsize
-)
-;
 const
 uint8_t
 *
@@ -3844,11 +3837,7 @@ controlLen
 size_t
 ipcMsgLen
 =
-buffer
-.
-length
-(
-)
+bufsize
 -
 controlLen
 ;
