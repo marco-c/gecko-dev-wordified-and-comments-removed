@@ -132,6 +132,12 @@ with
 -
 source
 "
+        
+"
+iterator
+-
+helpers
+"
     
 ]
 )
@@ -227,11 +233,9 @@ grouping
 :
 "
 !
-Array
+Object
 .
-prototype
-.
-group
+groupBy
 "
     
 "
