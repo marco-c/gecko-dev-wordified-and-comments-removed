@@ -385,7 +385,11 @@ const
 0
 ;
 virtual
-nsresult
+Result
+<
+FileId
+QMResult
+>
 EnsureFileId
 (
 const

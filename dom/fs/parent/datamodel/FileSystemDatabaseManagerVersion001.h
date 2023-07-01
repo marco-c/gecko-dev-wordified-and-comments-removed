@@ -335,7 +335,11 @@ const
 override
 ;
 virtual
-nsresult
+Result
+<
+FileId
+QMResult
+>
 EnsureFileId
 (
 const
