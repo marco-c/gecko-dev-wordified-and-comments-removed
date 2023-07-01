@@ -12535,13 +12535,6 @@ insert
 pic_index
 )
 ;
-debug_assert_eq
-!
-(
-sub_slice_index
-0
-)
-;
 let
 sub_slice
 =
