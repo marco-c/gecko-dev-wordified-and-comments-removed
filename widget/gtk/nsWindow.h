@@ -2993,6 +2993,11 @@ mTitlebarBackdropState
 1
 ;
 bool
+mIsPIPWindow
+:
+1
+;
+bool
 mIsWaylandPanelWindow
 :
 1
