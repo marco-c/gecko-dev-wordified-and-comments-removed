@@ -25,7 +25,7 @@ major
 and
 minor
 <
-6
+7
 )
 :
     
@@ -41,7 +41,7 @@ on
 Python
 3
 .
-6
+7
 +
 .
 "
@@ -55,7 +55,7 @@ running
 with
 python3
 .
-6
+7
 +
 .
 "
