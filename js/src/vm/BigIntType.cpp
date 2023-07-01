@@ -361,6 +361,7 @@ static
 bool
 HasLeadingZeroes
 (
+const
 BigInt
 *
 bi
@@ -1833,6 +1834,7 @@ BigInt
 :
 internalMultiplyAdd
 (
+const
 BigInt
 *
 source
@@ -2062,6 +2064,7 @@ BigInt
 :
 multiplyAccumulate
 (
+const
 BigInt
 *
 multiplicand
@@ -2304,9 +2307,11 @@ BigInt
 :
 absoluteCompare
 (
+const
 BigInt
 *
 x
+const
 BigInt
 *
 y
@@ -3591,6 +3596,7 @@ BigInt
 :
 absoluteInplaceAdd
 (
+const
 BigInt
 *
 summand
@@ -3748,6 +3754,7 @@ BigInt
 :
 absoluteInplaceSub
 (
+const
 BigInt
 *
 subtrahend
@@ -13682,6 +13689,7 @@ BigInt
 :
 isInt64
 (
+const
 BigInt
 *
 x
@@ -13862,6 +13870,7 @@ BigInt
 :
 isUint64
 (
+const
 BigInt
 *
 x
@@ -13942,6 +13951,7 @@ BigInt
 :
 isNumber
 (
+const
 BigInt
 *
 x
@@ -16745,6 +16755,7 @@ BigInt
 :
 numberValue
 (
+const
 BigInt
 *
 x
@@ -17577,9 +17588,11 @@ BigInt
 :
 compare
 (
+const
 BigInt
 *
 x
+const
 BigInt
 *
 y
@@ -17686,9 +17699,11 @@ BigInt
 :
 equal
 (
+const
 BigInt
 *
 lhs
+const
 BigInt
 *
 rhs
@@ -17806,6 +17821,7 @@ BigInt
 :
 compare
 (
+const
 BigInt
 *
 x
@@ -18436,6 +18452,7 @@ BigInt
 :
 equal
 (
+const
 BigInt
 *
 lhs
@@ -18673,9 +18690,11 @@ BigInt
 :
 lessThan
 (
+const
 BigInt
 *
 x
+const
 BigInt
 *
 y
@@ -18700,6 +18719,7 @@ BigInt
 :
 lessThan
 (
+const
 BigInt
 *
 lhs
@@ -18754,6 +18774,7 @@ lessThan
 (
 double
 lhs
+const
 BigInt
 *
 rhs

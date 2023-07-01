@@ -1139,6 +1139,7 @@ static
 bool
 isInt64
 (
+const
 BigInt
 *
 x
@@ -1151,6 +1152,7 @@ static
 bool
 isUint64
 (
+const
 BigInt
 *
 x
@@ -1163,6 +1165,7 @@ static
 bool
 isNumber
 (
+const
 BigInt
 *
 x
@@ -1551,6 +1554,7 @@ static
 double
 numberValue
 (
+const
 BigInt
 *
 x
@@ -1705,9 +1709,11 @@ static
 int8_t
 compare
 (
+const
 BigInt
 *
 lhs
+const
 BigInt
 *
 rhs
@@ -1717,9 +1723,11 @@ static
 bool
 equal
 (
+const
 BigInt
 *
 lhs
+const
 BigInt
 *
 rhs
@@ -1729,6 +1737,7 @@ static
 bool
 equal
 (
+const
 BigInt
 *
 lhs
@@ -1786,9 +1795,11 @@ static
 bool
 lessThan
 (
+const
 BigInt
 *
 x
+const
 BigInt
 *
 y
@@ -1804,6 +1815,7 @@ bool
 >
 lessThan
 (
+const
 BigInt
 *
 lhs
@@ -1823,6 +1835,7 @@ lessThan
 (
 double
 lhs
+const
 BigInt
 *
 rhs
@@ -2121,6 +2134,7 @@ static
 void
 internalMultiplyAdd
 (
+const
 BigInt
 *
 source
@@ -2138,6 +2152,7 @@ static
 void
 multiplyAccumulate
 (
+const
 BigInt
 *
 multiplicand
@@ -2301,6 +2316,7 @@ resultNegative
 Digit
 absoluteInplaceAdd
 (
+const
 BigInt
 *
 summand
@@ -2311,6 +2327,7 @@ startIndex
 Digit
 absoluteInplaceSub
 (
+const
 BigInt
 *
 subtrahend
@@ -2662,9 +2679,11 @@ static
 int8_t
 absoluteCompare
 (
+const
 BigInt
 *
 lhs
+const
 BigInt
 *
 rhs
@@ -2676,6 +2695,7 @@ static
 int8_t
 compare
 (
+const
 BigInt
 *
 lhs
