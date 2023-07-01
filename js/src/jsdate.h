@@ -86,6 +86,17 @@ int
 sec
 )
 ;
+JS
+:
+:
+ClippedTime
+DateNow
+(
+JSContext
+*
+cx
+)
+;
 bool
 date_now
 (

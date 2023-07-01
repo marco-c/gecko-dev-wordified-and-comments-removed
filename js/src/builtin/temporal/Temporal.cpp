@@ -6181,6 +6181,14 @@ Temporal_properties
 ]
 =
 {
+JS_STRING_SYM_PS
+(
+toStringTag
+"
+Temporal
+"
+JSPROP_READONLY
+)
 JS_PS_END
 }
 ;
