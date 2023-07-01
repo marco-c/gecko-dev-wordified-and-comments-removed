@@ -114,7 +114,6 @@ export
 function
 selectThread
 (
-cx
 thread
 )
 {
@@ -150,7 +149,6 @@ return
 dispatch
 (
 {
-cx
 type
 :
 "
