@@ -3430,13 +3430,12 @@ i
 {
 if
 (
-InspectorUtils
+domRule
 .
 selectorMatchesElement
 (
-bindingElement
-domRule
 i
+bindingElement
 pseudo
 relevantLinkVisited
 )
