@@ -333,6 +333,7 @@ int32_t
 aWhichClipboard
 )
 override
+final
 ;
 NS_IMETHOD
 HasDataMatchingFlavors
@@ -425,6 +426,16 @@ aWhichClipboard
 0
 ;
 virtual
+nsresult
+EmptyNativeClipboardData
+(
+int32_t
+aWhichClipboard
+)
+=
+0
+;
+virtual
 mozilla
 :
 :
@@ -464,11 +475,6 @@ aWhichClipboard
 )
 =
 0
-;
-bool
-mEmptyingForSetData
-=
-false
 ;
 private
 :
