@@ -64,6 +64,11 @@ MPL
 CompiledModules
 (
 "
+frame
+.
+js
+"
+"
 index
 .
 js
