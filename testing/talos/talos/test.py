@@ -182,6 +182,19 @@ suite_should_alert
 =
 True
     
+gecko_profile_entries
+=
+int
+(
+128
+*
+1024
+*
+1024
+/
+8
+)
+    
 classmethod
     
 def
@@ -770,10 +783,6 @@ gecko_profile_startup
 =
 True
     
-gecko_profile_entries
-=
-10000000
-    
 url
 =
 "
@@ -1305,10 +1314,6 @@ timeout
 gecko_profile_startup
 =
 True
-    
-gecko_profile_entries
-=
-10000000
     
 profile_path
 =
@@ -1860,10 +1865,6 @@ gecko_profile_interval
 =
 1
     
-gecko_profile_entries
-=
-2000000
-    
 filters
 =
 filter
@@ -2013,10 +2014,6 @@ gecko_profile_interval
 =
 1
     
-gecko_profile_entries
-=
-2000000
-    
 tpmozafterpaint
 =
 True
@@ -2125,10 +2122,6 @@ tppagecycles
 timeout
 =
 600
-    
-gecko_profile_entries
-=
-1000000
     
 pdfpaint
 =
@@ -2248,10 +2241,6 @@ tppagecycles
 timeout
 =
 600
-    
-gecko_profile_entries
-=
-1000000
     
 tploadnocache
 =
@@ -2377,10 +2366,6 @@ timeout
 =
 600
     
-gecko_profile_entries
-=
-1000000
-    
 tploadnocache
 =
 True
@@ -2502,10 +2487,6 @@ tppagecycles
 timeout
 =
 900
-    
-gecko_profile_entries
-=
-5000000
     
 tploadnocache
 =
@@ -3005,10 +2986,6 @@ gecko_profile_interval
 =
 10
     
-gecko_profile_entries
-=
-1000000
-    
 win_counters
 =
 w7_counters
@@ -3251,10 +3228,6 @@ gecko_profile_interval
 =
 10
     
-gecko_profile_entries
-=
-10000000
-    
 win_counters
 =
 w7_counters
@@ -3429,10 +3402,6 @@ gecko_profile_interval
 =
 10
     
-gecko_profile_entries
-=
-2000000
-    
 win_counters
 =
 w7_counters
@@ -3603,10 +3572,6 @@ timeout
 gecko_profile_interval
 =
 2
-    
-gecko_profile_entries
-=
-2000000
     
 win_counters
 =
@@ -4138,10 +4103,6 @@ gecko_profile_interval
 =
 2
     
-gecko_profile_entries
-=
-4000000
-    
 filters
 =
 filter
@@ -4270,10 +4231,6 @@ tppagecycles
 gecko_profile_interval
 =
 2
-    
-gecko_profile_entries
-=
-2000000
     
 tpscrolltest
 =
@@ -4475,10 +4432,6 @@ gecko_profile_interval
 =
 1
     
-gecko_profile_entries
-=
-1000000
-    
 tpcycles
 =
 1
@@ -4591,10 +4544,6 @@ gecko_profile_interval
 =
 1
     
-gecko_profile_entries
-=
-5000000
-    
 tpmozafterpaint
 =
 False
@@ -4686,10 +4635,6 @@ timeout
 gecko_profile_interval
 =
 1
-    
-gecko_profile_entries
-=
-2000000
     
 preferences
 =
@@ -4933,10 +4878,6 @@ gecko_profile_interval
 =
 2
     
-gecko_profile_entries
-=
-10000000
-    
 tpmanifest
 =
 "
@@ -5026,10 +4967,6 @@ benchmark
 gecko_profile_interval
 =
 2
-    
-gecko_profile_entries
-=
-10000000
     
 tpmanifest
 =
@@ -5129,10 +5066,6 @@ gecko_profile_interval
 =
 2
     
-gecko_profile_entries
-=
-1000000
-    
 tpmozafterpaint
 =
 True
@@ -5231,10 +5164,6 @@ False
 gecko_profile_interval
 =
 10
-    
-gecko_profile_entries
-=
-1000000
     
 "
 "
@@ -5374,10 +5303,6 @@ gecko_profile_interval
 =
 10
     
-gecko_profile_entries
-=
-1000000
-    
 "
 "
 "
@@ -5516,10 +5441,6 @@ gecko_profile_interval
 =
 1
     
-gecko_profile_entries
-=
-10000000
-    
 filters
 =
 filter
@@ -5614,10 +5535,6 @@ gecko_profile_interval
 =
 1
     
-gecko_profile_entries
-=
-10000000
-    
 filters
 =
 filter
@@ -5707,10 +5624,6 @@ timeout
 gecko_profile_interval
 =
 1
-    
-gecko_profile_entries
-=
-1000000
     
 "
 "
@@ -6204,10 +6117,6 @@ gecko_profile_interval
 =
 1
     
-gecko_profile_entries
-=
-2000000
-    
 filters
 =
 filter
@@ -6312,10 +6221,6 @@ tptimeout
 gecko_profile_interval
 =
 1
-    
-gecko_profile_entries
-=
-2000000
     
 filters
 =
@@ -6439,10 +6344,6 @@ timeout
 gecko_profile_interval
 =
 2
-    
-gecko_profile_entries
-=
-2000000
     
 win_counters
 =
@@ -6597,10 +6498,6 @@ timeout
 gecko_profile_interval
 =
 2
-    
-gecko_profile_entries
-=
-2000000
     
 win_counters
 =
@@ -6748,10 +6645,6 @@ gecko_profile_interval
 =
 2
     
-gecko_profile_entries
-=
-2000000
-    
 win_counters
 =
 w7_counters
@@ -6882,10 +6775,6 @@ tppagecycles
 gecko_profile_interval
 =
 1
-    
-gecko_profile_entries
-=
-2000000
     
 filters
 =
