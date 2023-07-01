@@ -625,7 +625,7 @@ uint64_t
 aInputBlockId
 )
 ;
-void
+bool
 ProcessQueue
 (
 )
