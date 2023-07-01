@@ -140,6 +140,17 @@ IPC_OK
 ;
 }
 IPCResult
+RecvSyncPing
+(
+)
+{
+return
+IPC_OK
+(
+)
+;
+}
+IPCResult
 RecvDispatchCommands
 (
 mozilla

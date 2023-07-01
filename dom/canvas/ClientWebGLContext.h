@@ -3288,11 +3288,6 @@ mNeedsRemoteTextureSync
 =
 true
 ;
-size_t
-mLastFlushes
-=
-0
-;
 public
 :
 const
