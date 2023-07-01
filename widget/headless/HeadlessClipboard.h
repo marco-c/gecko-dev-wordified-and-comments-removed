@@ -139,7 +139,13 @@ UniquePtr
 <
 HeadlessClipboardData
 >
-mClipboard
+mClipboards
+[
+nsIClipboard
+:
+:
+kClipboardTypeCount
+]
 ;
 }
 ;
