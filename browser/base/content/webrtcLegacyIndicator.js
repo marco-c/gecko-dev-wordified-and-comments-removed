@@ -5,7 +5,7 @@ webrtcUI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -17,7 +17,9 @@ modules
 /
 webrtcUI
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

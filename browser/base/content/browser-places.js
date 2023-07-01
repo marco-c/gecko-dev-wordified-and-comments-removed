@@ -6020,7 +6020,7 @@ newTabURL
 =
 Cu
 .
-isModuleLoaded
+isESModuleLoaded
 (
 "
 resource
@@ -6032,7 +6032,9 @@ modules
 /
 AboutNewTab
 .
-jsm
+sys
+.
+mjs
 "
 )
 ?

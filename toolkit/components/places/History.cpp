@@ -9704,7 +9704,7 @@ nsIBrowserWindowTracker
 >
 bwt
 =
-do_ImportModule
+do_ImportESModule
 (
 "
 resource
@@ -9716,7 +9716,9 @@ modules
 /
 BrowserWindowTracker
 .
-jsm
+sys
+.
+mjs
 "
 "
 BrowserWindowTracker

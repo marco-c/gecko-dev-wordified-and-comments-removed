@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 TabsPanel
-"
+:
 "
 resource
 :
@@ -16,8 +16,11 @@ modules
 /
 TabsList
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 var

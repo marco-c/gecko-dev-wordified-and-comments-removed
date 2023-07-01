@@ -8489,7 +8489,9 @@ used
 in
 AsyncTabSwitcher
 .
-jsm
+sys
+.
+mjs
 and
 tabbrowser
 .

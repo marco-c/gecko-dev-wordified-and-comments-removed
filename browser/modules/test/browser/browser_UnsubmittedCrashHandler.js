@@ -10,7 +10,7 @@ UnsubmittedCrashHandler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ modules
 /
 ContentCrashHandlers
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
