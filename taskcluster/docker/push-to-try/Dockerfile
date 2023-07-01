@@ -123,6 +123,11 @@ try
 .
 rc
 RUN
+su
+worker
+-
+c
+"
 hg
 clone
 -
@@ -158,6 +163,7 @@ version
 control
 -
 tools
+"
 #
 Create
 directory
