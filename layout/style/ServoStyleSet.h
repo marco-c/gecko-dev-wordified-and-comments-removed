@@ -200,9 +200,6 @@ struct
 StyleTimingFunction
 ;
 struct
-StylePagePseudoClassFlags
-;
-struct
 StylePiecewiseLinearFunction
 ;
 using
@@ -807,10 +804,6 @@ const
 nsAtom
 *
 aPageName
-const
-StylePagePseudoClassFlags
-&
-aPseudo
 )
 ;
 already_AddRefed

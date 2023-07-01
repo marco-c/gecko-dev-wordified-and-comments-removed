@@ -13243,10 +13243,6 @@ styleSet
 ResolvePageContentStyle
 (
 pageName
-StylePagePseudoClassFlags
-:
-:
-NONE
 )
 ;
 nsContainerFrame
