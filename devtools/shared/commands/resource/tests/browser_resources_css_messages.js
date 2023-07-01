@@ -75,10 +75,13 @@ style
 >
 html
 {
+body
+{
 color
 :
 bloup
 ;
+}
 }
 <
 /
@@ -549,7 +552,12 @@ true
 cssSelectors
 :
 "
+:
+is
+(
 html
+)
+body
 "
 isAlreadyExistingResource
 }
