@@ -67,12 +67,6 @@ self
 session
 .
 transport
-.
-connection
-.
-closed
-is
-False
 :
             
 await
@@ -81,8 +75,6 @@ self
 session
 .
 transport
-.
-connection
 .
 wait_closed
 (
