@@ -280,6 +280,14 @@ ReduceTimerPrecision
 )
 ITEM_VALUE
 (
+WidgetEvents
+1llu
+<
+<
+35
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

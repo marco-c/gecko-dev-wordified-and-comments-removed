@@ -40287,7 +40287,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+WidgetEvents
 )
 &
 &
