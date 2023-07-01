@@ -9168,6 +9168,17 @@ nullptr
 ;
 }
 case
+__NR_sched_get_priority_min
+:
+case
+__NR_sched_get_priority_max
+:
+return
+Allow
+(
+)
+;
+case
 __NR_uname
 :
 return
