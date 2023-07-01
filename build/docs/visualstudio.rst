@@ -83,7 +83,7 @@ file
 at
 OBJDIR
 /
-msvs
+msvc
 /
 mozilla
 .
