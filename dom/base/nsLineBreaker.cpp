@@ -471,6 +471,12 @@ ch
 \
 '
 '
+&
+&
+ch
+!
+=
+0x00B7
 )
 {
 capitalizeNextChar
