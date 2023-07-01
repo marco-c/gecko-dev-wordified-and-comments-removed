@@ -3488,7 +3488,7 @@ argc
 vp
 )
 ;
-double
+size_t
 bytes
 =
 0

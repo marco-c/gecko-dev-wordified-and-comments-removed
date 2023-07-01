@@ -1008,6 +1008,7 @@ Enumeration
 using
 SourceType
 =
+unsigned
 int
 ;
 static
@@ -1020,12 +1021,6 @@ sample
 {
 MOZ_ASSERT
 (
-sample
->
-=
-0
-&
-&
 sample
 <
 =
@@ -1050,7 +1045,7 @@ Percentage
 using
 SourceType
 =
-int
+double
 ;
 static
 uint32_t
@@ -1066,12 +1061,16 @@ sample
 >
 =
 0
+.
+0
 &
 &
 sample
 <
 =
 100
+.
+0
 )
 ;
 return

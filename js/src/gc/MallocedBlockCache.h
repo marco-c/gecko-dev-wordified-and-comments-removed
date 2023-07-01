@@ -129,7 +129,7 @@ blockAndListID
 void
 preen
 (
-float
+double
 percentOfBlocksToDiscard
 )
 ;
