@@ -10560,7 +10560,7 @@ mInputCopyContext
 NS_CancelAsyncCopy
 (
 mInputCopyContext
-NS_BASE_STREAM_CLOSED
+mCondition
 )
 ;
 }
@@ -10572,7 +10572,7 @@ mOutputCopyContext
 NS_CancelAsyncCopy
 (
 mOutputCopyContext
-NS_BASE_STREAM_CLOSED
+mCondition
 )
 ;
 }
