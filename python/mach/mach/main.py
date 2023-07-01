@@ -3373,7 +3373,14 @@ fh
 .
 write
 (
-repr
+"
+mach
+"
++
+"
+"
+.
+join
 (
 argv
 )
