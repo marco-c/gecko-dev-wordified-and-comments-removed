@@ -12966,7 +12966,7 @@ const
 {
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 return
 LOCAL_GL_TEXTURE_2D
 ;
