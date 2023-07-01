@@ -111,6 +111,13 @@ bookmarks
 restore_default_bookmarks
 "
 "
+browser
+.
+pageActions
+.
+persistedActions
+"
+"
 doh
 -
 rollout
