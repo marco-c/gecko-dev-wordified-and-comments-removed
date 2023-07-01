@@ -562,6 +562,17 @@ tryOptimizeArray
 JSContext
 *
 cx
+bool
+*
+optimized
+)
+;
+bool
+tryOptimizeArray
+(
+JSContext
+*
+cx
 Handle
 <
 ArrayObject
