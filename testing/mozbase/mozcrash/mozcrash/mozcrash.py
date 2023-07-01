@@ -2482,6 +2482,10 @@ _generate_signature
 json_output
 )
                     
+if
+signature
+:
+                        
 pmatch
 =
 re
@@ -2503,11 +2507,11 @@ r
 "
 signature
 )
-                    
+                        
 if
 pmatch
 :
-                        
+                            
 signature
 =
 pmatch
