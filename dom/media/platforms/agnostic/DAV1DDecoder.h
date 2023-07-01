@@ -300,6 +300,10 @@ TrackingId
 >
 mTrackingId
 ;
+const
+bool
+mLowLatency
+;
 PerformanceRecorderMulti
 <
 DecodeStage
