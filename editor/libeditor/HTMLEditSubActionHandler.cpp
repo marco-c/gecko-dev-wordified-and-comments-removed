@@ -909,7 +909,7 @@ rv
 }
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -6171,7 +6171,7 @@ if
 isWhiteSpaceCollapsible
 |
 |
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -11093,7 +11093,7 @@ brElement
 ;
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -49207,7 +49207,7 @@ const
 bool
 isPlaintextEditor
 =
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 ;

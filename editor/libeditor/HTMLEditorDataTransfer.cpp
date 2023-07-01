@@ -7176,7 +7176,7 @@ if
 !
 mHTMLEditor
 .
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -11200,7 +11200,7 @@ const
 bool
 isPlaintextEditor
 =
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 ;
@@ -13835,7 +13835,7 @@ false
 }
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -14031,7 +14031,7 @@ length
 ;
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -14221,7 +14221,7 @@ rv
 }
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -16053,7 +16053,7 @@ aNodeInserted
 {
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -17530,7 +17530,7 @@ aNodeInserted
 {
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -17802,7 +17802,7 @@ IsEditActionDataAvailable
 MOZ_ASSERT
 (
 !
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )

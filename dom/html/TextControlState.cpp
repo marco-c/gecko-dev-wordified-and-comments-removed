@@ -7014,7 +7014,7 @@ editorFlags
 nsIEditor
 :
 :
-eEditorPlaintextMask
+eEditorSkipSpellCheck
 ;
 if
 (
@@ -7048,14 +7048,6 @@ nsIEditor
 eEditorPasswordMask
 ;
 }
-editorFlags
-|
-=
-nsIEditor
-:
-:
-eEditorSkipSpellCheck
-;
 bool
 shouldInitializeEditor
 =

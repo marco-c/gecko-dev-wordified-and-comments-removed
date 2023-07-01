@@ -2336,7 +2336,7 @@ NS_ERROR_FAILURE
 if
 (
 !
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 &
@@ -6428,7 +6428,7 @@ NS_OK
 }
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -31502,7 +31502,7 @@ CommitComposition
 ;
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -34717,7 +34717,7 @@ aWrapColumn
 if
 (
 !
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )

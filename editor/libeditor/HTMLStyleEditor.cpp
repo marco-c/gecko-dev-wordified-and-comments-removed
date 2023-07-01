@@ -1369,7 +1369,7 @@ NS_OK
 }
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -17952,7 +17952,7 @@ NS_OK
 }
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
