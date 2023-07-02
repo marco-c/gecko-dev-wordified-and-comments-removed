@@ -7445,9 +7445,9 @@ nvExtensionVersion
 nvExtensionMethodSuperResolution
 enabled
 ?
-0
-:
 1u
+:
+0
 }
 ;
 HRESULT
