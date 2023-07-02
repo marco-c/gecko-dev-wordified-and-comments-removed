@@ -374,7 +374,7 @@ mozilla
 Side
 SideT
 ;
-T
+Coord
 top
 right
 bottom
@@ -486,7 +486,7 @@ top
 bottom
 ;
 }
-T
+Coord
 &
 Side
 (
@@ -507,7 +507,7 @@ aSide
 )
 ;
 }
-T
+Coord
 Side
 (
 SideT
