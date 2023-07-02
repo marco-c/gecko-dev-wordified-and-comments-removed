@@ -7805,7 +7805,7 @@ IntProperty
 "
 version
 "
-27
+GECKO_PROFILER_FORMAT_VERSION
 )
 ;
 TimeDuration

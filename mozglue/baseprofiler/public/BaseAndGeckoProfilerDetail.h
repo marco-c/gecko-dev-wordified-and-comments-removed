@@ -55,6 +55,12 @@ mozilla
 class
 ProfileBufferChunkManagerWithLocalLimit
 ;
+const
+int
+GECKO_PROFILER_FORMAT_VERSION
+=
+28
+;
 namespace
 baseprofiler
 :

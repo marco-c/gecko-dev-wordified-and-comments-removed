@@ -3074,6 +3074,7 @@ Format
 Url
 FilePath
 String
+UniqueString
 Duration
 Time
 Seconds
