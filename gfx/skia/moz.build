@@ -2370,17 +2370,6 @@ src
 /
 encode
 /
-SkICC
-.
-cpp
-'
-'
-skia
-/
-src
-/
-encode
-/
 SkImageEncoder
 .
 cpp
