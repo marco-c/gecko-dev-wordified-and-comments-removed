@@ -492,6 +492,7 @@ async
 def
 test_key_modifier_key
 (
+    
 bidi_session
 top_context
 setup_key_test
