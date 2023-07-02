@@ -319,6 +319,11 @@ TimeStamp
 aRecvTimeStamp
 )
 {
+if
+(
+mTransport
+)
+{
 mTransport
 -
 >
@@ -334,6 +339,7 @@ aData
 aRecvTimeStamp
 )
 ;
+}
 return
 IPC_OK
 (
@@ -364,6 +370,11 @@ StreamResetOrStopSendingError
 aError
 )
 {
+if
+(
+mTransport
+)
+{
 mTransport
 -
 >
@@ -373,6 +384,7 @@ aStreamId
 aError
 )
 ;
+}
 return
 IPC_OK
 (
