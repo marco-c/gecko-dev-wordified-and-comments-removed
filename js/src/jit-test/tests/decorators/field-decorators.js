@@ -324,7 +324,7 @@ x8
 ;
 assertEq
 (
-c
+C
 .
 x9
 2
