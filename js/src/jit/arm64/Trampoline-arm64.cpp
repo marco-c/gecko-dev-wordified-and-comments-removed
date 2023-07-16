@@ -2561,9 +2561,8 @@ set
 ;
 masm
 .
-push
+pushReturnAddress
 (
-lr
 )
 ;
 Register
