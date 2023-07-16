@@ -855,7 +855,7 @@ newCall
 (
 Node
 callee
-Node
+ListNodeType
 args
 JSOp
 callOp
@@ -870,7 +870,7 @@ newOptionalCall
 (
 Node
 callee
-Node
+ListNodeType
 args
 JSOp
 callOp
@@ -885,7 +885,7 @@ newSuperCall
 (
 Node
 callee
-Node
+ListNodeType
 args
 bool
 isSpread
@@ -900,7 +900,7 @@ newTaggedTemplate
 (
 Node
 tag
-Node
+ListNodeType
 args
 JSOp
 callOp
@@ -2460,7 +2460,7 @@ uint32_t
 begin
 Node
 ctor
-Node
+ListNodeType
 args
 bool
 isSpread

@@ -4690,7 +4690,7 @@ emitCalleeAndThis
 ParseNode
 *
 callee
-ParseNode
+CallNode
 *
 call
 CallOrNewEmitter
