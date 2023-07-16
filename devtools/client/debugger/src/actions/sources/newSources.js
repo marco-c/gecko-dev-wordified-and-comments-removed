@@ -218,7 +218,7 @@ queue
 ;
 import
 {
-validateNavigateContext
+validateSourceActor
 ContextError
 }
 from
@@ -237,7 +237,6 @@ context
 function
 loadSourceMaps
 (
-cx
 sources
 )
 {
@@ -277,7 +276,6 @@ dispatch
 (
 loadSourceMap
 (
-cx
 sourceActor
 )
 )
@@ -357,7 +355,6 @@ return
 function
 loadSourceMap
 (
-cx
 sourceActor
 )
 {
@@ -528,12 +525,7 @@ type
 "
 CLEAR_SOURCE_ACTOR_MAP_URL
 "
-cx
-sourceActorId
-:
 sourceActor
-.
-id
 }
 )
 ;
@@ -542,12 +534,12 @@ return
 ]
 ;
 }
-validateNavigateContext
+validateSourceActor
 (
 getState
 (
 )
-cx
+sourceActor
 )
 ;
 return
@@ -1440,7 +1432,6 @@ dispatch
 (
 loadSourceMaps
 (
-cx
 newSourceActors
 )
 )
