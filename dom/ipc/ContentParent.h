@@ -2389,16 +2389,6 @@ CancelContentJSOptions
 aCancelContentJSOptions
 )
 ;
-void
-SetMainThreadQoSPriority
-(
-nsIThread
-:
-:
-QoSPriority
-aQoSPriority
-)
-;
 nsresult
 AboutToLoadHttpFtpDocumentForChild
 (
