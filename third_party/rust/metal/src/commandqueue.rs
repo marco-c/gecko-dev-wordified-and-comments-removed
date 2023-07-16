@@ -21,10 +21,6 @@ pub
 struct
 CommandQueue
 ;
-pub
-struct
-CommandQueueRef
-;
 }
 impl
 CommandQueueRef

@@ -110,10 +110,6 @@ pub
 struct
 PipelineBufferDescriptorArray
 ;
-pub
-struct
-PipelineBufferDescriptorArrayRef
-;
 }
 impl
 PipelineBufferDescriptorArrayRef
@@ -198,10 +194,6 @@ MTLPipelineBufferDescriptor
 pub
 struct
 PipelineBufferDescriptor
-;
-pub
-struct
-PipelineBufferDescriptorRef
 ;
 }
 impl

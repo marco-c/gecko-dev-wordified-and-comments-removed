@@ -749,11 +749,11 @@ write
 f
 "
 {
+accum
 :
 b
 }
 "
-accum
 )
 ?
 ;
