@@ -4520,6 +4520,16 @@ mInPrivateBrowsing
 =
 true
 ;
+bool
+mIsInitializingContentForTSF
+=
+false
+;
+bool
+mIsInitializingSelectionForTSF
+=
+false
+;
 static
 StaticRefPtr
 <
