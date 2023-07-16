@@ -49554,11 +49554,6 @@ line
 "
 :
 :
-highlight
-"
-"
-:
-:
 selection
 "
 "
