@@ -307,11 +307,6 @@ max_ms
 }
 }
 ;
-using
-PlayoutDelay
-=
-VideoPlayoutDelay
-;
 }
 #
 endif
