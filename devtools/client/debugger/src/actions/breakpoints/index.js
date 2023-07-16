@@ -56,6 +56,7 @@ getSelectedSource
 getBreakpointAtLocation
 getBreakpointsForSource
 getBreakpointsAtLine
+getContext
 }
 from
 "
@@ -505,7 +506,6 @@ export
 function
 removeAllBreakpoints
 (
-cx
 )
 {
 return
@@ -519,6 +519,16 @@ getState
 =
 >
 {
+const
+cx
+=
+getContext
+(
+getState
+(
+)
+)
+;
 const
 breakpointList
 =
