@@ -138,6 +138,7 @@ moduleEnv_
 .
 hugeMemoryEnabled
 (
+0
 )
 )
 ;
@@ -277,6 +278,7 @@ moduleEnv_
 .
 hugeMemoryEnabled
 (
+0
 )
 )
 ;
@@ -303,9 +305,11 @@ limit
 =
 moduleEnv_
 .
-memory
--
->
+memories
+[
+0
+]
+.
 initialLength32
 (
 )
@@ -436,6 +440,7 @@ moduleEnv_
 .
 hugeMemoryEnabled
 (
+0
 )
 )
 ;
@@ -463,9 +468,11 @@ limit
 =
 moduleEnv_
 .
-memory
--
->
+memories
+[
+0
+]
+.
 initialLength64
 (
 )
@@ -1333,6 +1340,7 @@ moduleEnv_
 .
 hugeMemoryEnabled
 (
+0
 )
 )
 ;
@@ -1509,6 +1517,7 @@ moduleEnv_
 .
 hugeMemoryEnabled
 (
+0
 )
 )
 {
@@ -1551,6 +1560,7 @@ moduleEnv_
 .
 hugeMemoryEnabled
 (
+0
 )
 &
 &
@@ -1582,9 +1592,11 @@ if
 !
 moduleEnv_
 .
-memory
--
->
+memories
+[
+0
+]
+.
 boundsCheckLimitIs32Bits
 (
 )
@@ -1594,9 +1606,11 @@ MaxMemoryPages
 (
 moduleEnv_
 .
-memory
--
->
+memories
+[
+0
+]
+.
 indexType
 (
 )
@@ -1785,6 +1799,7 @@ moduleEnv_
 .
 hugeMemoryEnabled
 (
+0
 )
 &
 &
