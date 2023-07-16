@@ -62,7 +62,7 @@ include
 "
 frontend
 /
-BytecodeCompilation
+BytecodeCompiler
 .
 h
 "
