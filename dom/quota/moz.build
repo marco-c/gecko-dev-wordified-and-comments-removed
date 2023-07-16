@@ -448,6 +448,11 @@ QuotaObject
 cpp
 "
 "
+QuotaRequestBase
+.
+cpp
+"
+"
 QuotaRequests
 .
 cpp
