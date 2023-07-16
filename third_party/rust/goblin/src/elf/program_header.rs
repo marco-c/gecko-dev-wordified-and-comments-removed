@@ -88,6 +88,14 @@ u32
 ;
 pub
 const
+PT_GNU_PROPERTY
+:
+u32
+=
+0x6474_e553
+;
+pub
+const
 PT_GNU_STACK
 :
 u32
@@ -295,6 +303,12 @@ PT_GNU_EH_FRAME
 >
 "
 PT_GNU_EH_FRAME
+"
+PT_GNU_PROPERTY
+=
+>
+"
+PT_GNU_PROPERTY
 "
 PT_GNU_STACK
 =

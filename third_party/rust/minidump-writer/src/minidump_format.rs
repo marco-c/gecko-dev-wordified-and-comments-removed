@@ -34,6 +34,12 @@ MDLocationDescriptor
 MINIDUMP_MEMORY_DESCRIPTOR
 as
 MDMemoryDescriptor
+MINIDUMP_MEMORY_INFO
+as
+MDMemoryInfo
+MINIDUMP_MEMORY_INFO_LIST
+as
+MDMemoryInfoList
 MINIDUMP_MODULE
 as
 MDRawModule

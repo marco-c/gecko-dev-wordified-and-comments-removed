@@ -109,7 +109,7 @@ version
 "
 1
 .
-56
+60
 .
 0
 "
@@ -123,9 +123,9 @@ version
 "
 0
 .
-6
+7
 .
-0
+1
 "
 authors
 =
@@ -301,11 +301,6 @@ com
 m4b
 /
 goblin
-"
-resolver
-=
-"
-2
 "
 [
 dependencies
