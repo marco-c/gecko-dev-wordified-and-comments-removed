@@ -236,6 +236,14 @@ removePopupStateListener
 this
 )
 ;
+lazy
+.
+FormAutofillContent
+.
+didDestroy
+(
+)
+;
 }
 popupStateChanged
 (
