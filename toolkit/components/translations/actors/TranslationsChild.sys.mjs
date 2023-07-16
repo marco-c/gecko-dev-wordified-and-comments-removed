@@ -199,10 +199,6 @@ innerWindowId
 =
 null
 ;
-isDestroyed
-=
-false
-;
 #
 wasTranslationsEngineCreated
 =
@@ -692,12 +688,6 @@ didDestroy
 (
 )
 {
-this
-.
-isDestroyed
-=
-true
-;
 if
 (
 this
@@ -729,6 +719,8 @@ TranslationsEngine
 discardTranslationQueue
 (
 this
+.
+manager
 .
 innerWindowId
 )
