@@ -235,7 +235,7 @@ media
 /
 engine
 /
-encoder_simulcast_proxy
+simulcast_encoder_adapter
 .
 h
 "

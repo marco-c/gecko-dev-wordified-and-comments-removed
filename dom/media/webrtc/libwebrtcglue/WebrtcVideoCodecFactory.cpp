@@ -73,7 +73,7 @@ media
 /
 engine
 /
-encoder_simulcast_proxy
+simulcast_encoder_adapter
 .
 h
 "
@@ -394,7 +394,7 @@ make_unique
 webrtc
 :
 :
-EncoderSimulcastProxy
+SimulcastEncoderAdapter
 >
 (
 mInternalFactory
