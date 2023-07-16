@@ -16341,6 +16341,13 @@ NewArrayBufferWithContents
 cx
 nbytes
 content
+JS
+:
+:
+NewArrayBufferOutOfMemory
+:
+:
+CallerMustFreeMemory
 )
 ;
 }
