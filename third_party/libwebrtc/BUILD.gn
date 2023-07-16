@@ -3829,6 +3829,9 @@ shard_timeout
 if
 (
 enable_google_benchmarks
+&
+&
+rtc_enable_google_benchmarks
 )
 {
 rtc_test

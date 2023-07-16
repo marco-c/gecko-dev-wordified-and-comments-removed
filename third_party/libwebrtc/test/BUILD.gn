@@ -2884,9 +2884,14 @@ cc
 if
 (
 rtc_include_tests
-&
-&
+)
+{
+if
+(
 enable_google_benchmarks
+&
+&
+rtc_enable_google_benchmarks
 )
 {
 rtc_library
@@ -2923,9 +2928,6 @@ google_benchmark
 }
 if
 (
-rtc_include_tests
-&
-&
 !
 build_with_chromium
 )
@@ -4387,6 +4389,7 @@ video_capture
 video_capture_internal_impl
 "
 ]
+}
 }
 }
 }
