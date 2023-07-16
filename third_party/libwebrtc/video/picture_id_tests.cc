@@ -1989,7 +1989,7 @@ TestPictureIdContinuousAfterReconfigure
 TEST_P
 (
 PictureIdTest
-DISABLED_IncreasingAfterRecreateStreamVp8
+IncreasingAfterRecreateStreamVp8
 )
 {
 test
@@ -2150,7 +2150,7 @@ TestPictureIdContinuousAfterReconfigure
 TEST_P
 (
 PictureIdTest
-DISABLED_IncreasingAfterRecreateStreamSimulcastEncoderAdapter
+IncreasingAfterRecreateStreamSimulcastEncoderAdapter
 )
 {
 InternalEncoderFactory
@@ -2278,7 +2278,7 @@ TestPictureIdContinuousAfterReconfigure
 TEST_P
 (
 PictureIdTest
-DISABLED_IncreasingAfterRecreateStreamVp9
+IncreasingAfterRecreateStreamVp9
 )
 {
 test
