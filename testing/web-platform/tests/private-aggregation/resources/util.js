@@ -68,9 +68,9 @@ aggregation
 /
 resources
 /
-private
+shared
 -
-aggregation
+storage
 -
 helper
 -
