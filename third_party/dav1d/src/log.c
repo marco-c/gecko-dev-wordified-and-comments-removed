@@ -101,7 +101,7 @@ format
 .
 )
 {
-validate_input
+assert
 (
 c
 !

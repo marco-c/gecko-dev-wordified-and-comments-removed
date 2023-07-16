@@ -115,7 +115,7 @@ n_itut_t35
 uintptr_t
 reserved
 [
-3
+4
 ]
 ;
 struct

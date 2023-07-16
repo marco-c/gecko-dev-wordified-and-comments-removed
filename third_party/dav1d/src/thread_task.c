@@ -1467,8 +1467,9 @@ num_tasks
 ;
 tasks
 =
-realloc
+dav1d_realloc
 (
+ALLOC_COMMON_CTX
 f
 -
 >
@@ -1584,8 +1585,9 @@ atomic_uint
 const
 prog
 =
-realloc
+dav1d_realloc
 (
+ALLOC_COMMON_CTX
 f
 -
 >
@@ -1902,8 +1904,9 @@ alloc_num_tasks
 ;
 tasks
 =
-realloc
+dav1d_realloc
 (
+ALLOC_COMMON_CTX
 f
 -
 >

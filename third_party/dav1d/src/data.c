@@ -118,6 +118,7 @@ ref
 =
 dav1d_ref_create
 (
+ALLOC_DAV1DDATA
 sz
 )
 ;
@@ -271,8 +272,9 @@ Dav1dRef
 const
 ref
 =
-malloc
+dav1d_malloc
 (
+ALLOC_DAV1DDATA
 sizeof
 (
 Dav1dRef
@@ -402,8 +404,9 @@ Dav1dRef
 const
 ref
 =
-malloc
+dav1d_malloc
 (
+ALLOC_DAV1DDATA
 sizeof
 (
 Dav1dRef
@@ -468,7 +471,7 @@ const
 src
 )
 {
-validate_input
+assert
 (
 dst
 !
@@ -476,7 +479,7 @@ dst
 NULL
 )
 ;
-validate_input
+assert
 (
 dst
 -
@@ -487,7 +490,7 @@ data
 NULL
 )
 ;
-validate_input
+assert
 (
 src
 !
@@ -503,7 +506,7 @@ src
 ref
 )
 {
-validate_input
+assert
 (
 src
 -

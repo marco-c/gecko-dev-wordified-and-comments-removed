@@ -16,6 +16,11 @@ refmvs
 .
 h
 "
+decl_save_tmvs_fn
+(
+dav1d_save_tmvs_neon
+)
+;
 decl_splat_mv_fn
 (
 dav1d_splat_mv_neon
@@ -50,6 +55,13 @@ DAV1D_ARM_CPU_FLAG_NEON
 )
 )
 return
+;
+c
+-
+>
+save_tmvs
+=
+dav1d_save_tmvs_neon
 ;
 c
 -

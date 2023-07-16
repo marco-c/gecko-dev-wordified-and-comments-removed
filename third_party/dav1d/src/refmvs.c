@@ -6708,6 +6708,7 @@ r
 =
 dav1d_alloc_aligned
 (
+ALLOC_REFMVS
 sizeof
 (
 *
@@ -6805,6 +6806,7 @@ rp_proj
 =
 dav1d_alloc_aligned
 (
+ALLOC_REFMVS
 sizeof
 (
 *

@@ -213,6 +213,13 @@ void
 )
 ;
 DAV1D_API
+unsigned
+dav1d_version_api
+(
+void
+)
+;
+DAV1D_API
 void
 dav1d_default_settings
 (

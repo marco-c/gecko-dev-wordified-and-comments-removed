@@ -29510,7 +29510,7 @@ lf
 start_of_tile_row_sz
 )
 {
-free
+dav1d_free
 (
 f
 -
@@ -29527,8 +29527,9 @@ lf
 .
 start_of_tile_row
 =
-malloc
+dav1d_malloc
 (
+ALLOC_TILE
 f
 -
 >
@@ -29699,9 +29700,8 @@ n_fc
 1
 )
 {
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -29717,8 +29717,9 @@ frame_thread
 .
 tile_start_off
 =
-malloc
+dav1d_malloc
 (
+ALLOC_TILE
 sizeof
 (
 *
@@ -29771,6 +29772,7 @@ ts
 =
 dav1d_alloc_aligned
 (
+ALLOC_TILE
 sizeof
 (
 *
@@ -29854,9 +29856,8 @@ f
 a_sz
 )
 {
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -29868,8 +29869,9 @@ f
 >
 a
 =
-malloc
+dav1d_malloc
 (
+ALLOC_TILE
 sizeof
 (
 *
@@ -30159,7 +30161,7 @@ tile_thread
 lowest_pixel_mem_sz
 )
 {
-free
+dav1d_free
 (
 f
 -
@@ -30176,8 +30178,9 @@ tile_thread
 .
 lowest_pixel_mem
 =
-malloc
+dav1d_malloc
 (
+ALLOC_TILE
 lowest_pixel_mem_sz
 *
 sizeof
@@ -30390,9 +30393,8 @@ frame_thread
 cf_sz
 )
 {
-dav1d_freep_aligned
+dav1d_free_aligned
 (
-&
 f
 -
 >
@@ -30410,6 +30412,7 @@ cf
 =
 dav1d_alloc_aligned
 (
+ALLOC_COEF
 (
 size_t
 )
@@ -30502,9 +30505,8 @@ frame_thread
 pal_sz
 )
 {
-dav1d_freep_aligned
+dav1d_free_aligned
 (
-&
 f
 -
 >
@@ -30522,6 +30524,7 @@ pal
 =
 dav1d_alloc_aligned
 (
+ALLOC_PAL
 sizeof
 (
 *
@@ -30599,9 +30602,8 @@ frame_thread
 pal_idx_sz
 )
 {
-dav1d_freep_aligned
+dav1d_free_aligned
 (
-&
 f
 -
 >
@@ -30619,6 +30621,7 @@ pal_idx
 =
 dav1d_alloc_aligned
 (
+ALLOC_PAL
 sizeof
 (
 *
@@ -30930,6 +30933,7 @@ cdef_line_buf
 =
 dav1d_alloc_aligned
 (
+ALLOC_CDEF
 alloc_sz
 32
 )
@@ -31684,6 +31688,7 @@ lr_line_buf
 =
 dav1d_alloc_aligned
 (
+ALLOC_LR
 alloc_sz
 64
 )
@@ -31907,9 +31912,8 @@ lf
 mask_sz
 )
 {
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -31918,9 +31922,8 @@ lf
 mask
 )
 ;
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -31936,8 +31939,9 @@ lf
 .
 mask
 =
-malloc
+dav1d_malloc
 (
+ALLOC_LF
 sizeof
 (
 *
@@ -31959,8 +31963,9 @@ lf
 .
 level
 =
-malloc
+dav1d_malloc
 (
+ALLOC_LF
 sizeof
 (
 *
@@ -32024,9 +32029,8 @@ n_fc
 1
 )
 {
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -32035,9 +32039,8 @@ frame_thread
 b
 )
 ;
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -32053,8 +32056,9 @@ frame_thread
 .
 b
 =
-malloc
+dav1d_malloc
 (
+ALLOC_BLOCK
 sizeof
 (
 *
@@ -32080,8 +32084,9 @@ frame_thread
 .
 cbi
 =
-malloc
+dav1d_malloc
 (
+ALLOC_BLOCK
 sizeof
 (
 *
@@ -32194,9 +32199,8 @@ lf
 lr_mask_sz
 )
 {
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -32212,8 +32216,9 @@ lf
 .
 lr_mask
 =
-malloc
+dav1d_malloc
 (
+ALLOC_LR
 sizeof
 (
 *
@@ -32474,9 +32479,8 @@ f
 ipred_edge_sz
 )
 {
-dav1d_freep_aligned
+dav1d_free_aligned
 (
-&
 f
 -
 >
@@ -32500,6 +32504,7 @@ ipred_edge
 =
 dav1d_alloc_aligned
 (
+ALLOC_IPRED
 ipred_edge_sz
 *
 128
@@ -32597,9 +32602,8 @@ lf
 re_sz
 )
 {
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -32621,8 +32625,9 @@ tx_lpf_right_edge
 0
 ]
 =
-malloc
+dav1d_malloc
 (
+ALLOC_LF
 re_sz
 *
 32
@@ -36768,9 +36773,8 @@ c
 n_tile_data
 )
 {
-freep
+dav1d_free
 (
-&
 f
 -
 >
@@ -36804,8 +36808,9 @@ f
 >
 tile
 =
-malloc
+dav1d_malloc
 (
+ALLOC_TILE
 c
 -
 >

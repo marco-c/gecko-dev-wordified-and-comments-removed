@@ -47,6 +47,10 @@ Dav1dRef
 *
 dav1d_ref_create
 (
+const
+enum
+AllocationType
+type
 size_t
 size
 )
@@ -83,6 +87,7 @@ data
 =
 dav1d_alloc_aligned
 (
+type
 size
 +
 sizeof
@@ -399,7 +404,7 @@ if
 (
 free_ref
 )
-free
+dav1d_free
 (
 ref
 )
