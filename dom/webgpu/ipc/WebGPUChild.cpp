@@ -7487,6 +7487,10 @@ init
 init
 .
 mError
+.
+SetAsGPUValidationError
+(
+)
 =
 new
 ValidationError
