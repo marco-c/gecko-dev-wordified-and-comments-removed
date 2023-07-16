@@ -1861,13 +1861,6 @@ Compile
 (
 mText
 mTextLength
-JS
-:
-:
-SourceOwnership
-:
-:
-Borrowed
 mDocumentURL
 script
 -
