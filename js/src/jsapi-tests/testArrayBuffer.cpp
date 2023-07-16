@@ -1261,7 +1261,7 @@ cx
 JS
 :
 :
-NewExternalArrayBuffer
+NewArrayBufferWithUserOwnedContents
 (
 cx
 data
@@ -1274,7 +1274,6 @@ data
 contents
 (
 )
-nullptr
 )
 )
 ;
@@ -1944,7 +1943,7 @@ cx
 JS
 :
 :
-NewExternalArrayBuffer
+NewArrayBufferWithUserOwnedContents
 (
 cx
 data1
@@ -1957,7 +1956,6 @@ data1
 contents
 (
 )
-nullptr
 )
 )
 ;
@@ -1984,7 +1982,7 @@ cx
 JS
 :
 :
-NewExternalArrayBuffer
+NewArrayBufferWithUserOwnedContents
 (
 cx
 data2
@@ -1997,7 +1995,6 @@ data2
 contents
 (
 )
-nullptr
 )
 )
 ;
@@ -2279,7 +2276,7 @@ buffer1
 JS
 :
 :
-NewExternalArrayBuffer
+NewArrayBufferWithUserOwnedContents
 (
 cx
 data1
@@ -2292,7 +2289,6 @@ data1
 contents
 (
 )
-nullptr
 )
 ;
 }
@@ -2329,7 +2325,7 @@ cx
 JS
 :
 :
-NewExternalArrayBuffer
+NewArrayBufferWithUserOwnedContents
 (
 cx
 data2
@@ -2342,7 +2338,6 @@ data2
 contents
 (
 )
-nullptr
 )
 )
 ;
@@ -2607,7 +2602,7 @@ cx
 JS
 :
 :
-NewExternalArrayBuffer
+NewArrayBufferWithUserOwnedContents
 (
 cx
 data
@@ -2620,7 +2615,6 @@ data
 contents
 (
 )
-nullptr
 )
 )
 ;
