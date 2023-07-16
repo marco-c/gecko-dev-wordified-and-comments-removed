@@ -913,6 +913,11 @@ await
 promiseHidden
 ;
 }
+requestLongerTimeout
+(
+2
+)
+;
 add_setup
 (
 async
