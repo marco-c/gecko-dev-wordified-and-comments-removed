@@ -556,7 +556,6 @@ preventDefault
 const
 {
 frame
-cx
 }
 =
 this
@@ -571,7 +570,6 @@ showFrameContextMenu
 (
 event
 frame
-cx
 )
 ;
 }

@@ -268,7 +268,6 @@ showFrameContextMenu
 (
 event
 frame
-cx
 hideRestart
 =
 false
@@ -320,7 +319,6 @@ dispatch
 (
 restart
 (
-cx
 frame
 )
 )
