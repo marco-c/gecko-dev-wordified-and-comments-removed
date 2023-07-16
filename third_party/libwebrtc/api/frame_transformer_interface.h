@@ -245,6 +245,15 @@ const
 0
 ;
 virtual
+VideoFrameMetadata
+Metadata
+(
+)
+const
+=
+0
+;
+virtual
 void
 SetMetadata
 (
