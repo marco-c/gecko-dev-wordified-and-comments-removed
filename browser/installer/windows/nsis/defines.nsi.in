@@ -680,7 +680,7 @@ MinSupportedVer
 "
 Microsoft
 Windows
-7
+10
 x64
 "
 #
@@ -693,7 +693,7 @@ MinSupportedVer
 "
 Microsoft
 Windows
-7
+10
 "
 !
 define
