@@ -7814,6 +7814,17 @@ nsIContentPolicy
 TYPE_FETCH
 )
 ;
+secCheckLoadInfo
+-
+>
+SetHttpsOnlyStatus
+(
+nsILoadInfo
+:
+:
+HTTPS_ONLY_EXEMPT
+)
+;
 int16_t
 decission
 =
