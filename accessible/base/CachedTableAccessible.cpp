@@ -15,13 +15,6 @@ h
 #
 include
 "
-DocAccessibleParent
-.
-h
-"
-#
-include
-"
 HTMLTableAccessible
 .
 h

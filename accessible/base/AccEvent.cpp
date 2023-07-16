@@ -15,13 +15,6 @@ h
 #
 include
 "
-DocAccessible
-.
-h
-"
-#
-include
-"
 xpcAccEvents
 .
 h

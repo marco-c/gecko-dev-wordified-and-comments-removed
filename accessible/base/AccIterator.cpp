@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsAccUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 a11y

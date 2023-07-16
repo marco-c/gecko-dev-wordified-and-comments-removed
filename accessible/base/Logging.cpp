@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsIInterfaceRequestorUtils
-.
-h
-"
-#
-include
-"
 nsIWebProgress
 .
 h
