@@ -1,17 +1,3 @@
-#
-!
-[
-cfg
-(
-feature
-=
-"
-full
--
-syntax
-"
-)
-]
 extern
 crate
 num
