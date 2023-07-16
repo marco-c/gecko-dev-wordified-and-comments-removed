@@ -15,6 +15,9 @@ InstallTrigger
 farthestViewportElement
 "
 "
+mozInputSource
+"
+"
 mozPreservesPitch
 "
 "
