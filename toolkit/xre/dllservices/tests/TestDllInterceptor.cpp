@@ -5304,7 +5304,7 @@ DetouredCallJumper
 )
 sizeof
 bytes
-PAGE_READWRITE
+PAGE_EXECUTE_READWRITE
 &
 oldProtect
 )
