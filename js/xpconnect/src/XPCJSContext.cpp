@@ -4867,15 +4867,11 @@ disableOptionsForSafeMode
 JS_SetParallelParsingEnabled
 (
 cx
-Preferences
+StaticPrefs
 :
 :
-GetBool
+javascript_options_parallel_parsing
 (
-JS_OPTIONS_DOT_STR
-"
-parallel_parsing
-"
 )
 )
 ;
