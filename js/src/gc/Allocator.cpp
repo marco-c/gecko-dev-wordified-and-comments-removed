@@ -311,6 +311,7 @@ JS
 RootingContext
 *
 AllocKind
+size_t
 gc
 :
 :
