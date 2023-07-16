@@ -708,8 +708,6 @@ sid
 void
 OnClosingProcedureComplete
 (
-int
-sid
 )
 ;
 void
