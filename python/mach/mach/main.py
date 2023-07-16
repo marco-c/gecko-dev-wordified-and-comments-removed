@@ -31,6 +31,7 @@ typing
 import
 Dict
 List
+Optional
 Union
 from
 .
@@ -960,7 +961,9 @@ Path
 def
 __init__
 (
+        
 self
+        
 module
 :
 Union
@@ -968,6 +971,16 @@ Union
 str
 Path
 ]
+        
+command_site_name
+:
+Optional
+[
+str
+]
+=
+None
+    
 )
 :
         
@@ -979,6 +992,16 @@ Path
 (
 module
 )
+        
+self
+.
+site_name
+=
+command_site_name
+if
+command_site_name
+else
+None
 class
 Mach
 (

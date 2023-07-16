@@ -954,7 +954,45 @@ py
 )
         
 "
+addwidget
+"
+:
+MachCommandReference
+(
+"
+toolkit
+/
+content
+/
+widgets
+/
+mach_commands
+.
+py
+"
+)
+        
+"
 android
+"
+:
+MachCommandReference
+(
+"
+mobile
+/
+android
+/
+mach_commands
+.
+py
+"
+)
+        
+"
+android
+-
+emulator
 "
 :
 MachCommandReference
@@ -988,6 +1026,9 @@ artifact_commands
 .
 py
 "
+"
+build
+"
         
 )
         
@@ -1016,6 +1057,7 @@ bootstrap
 :
 MachCommandReference
 (
+            
 "
 python
 /
@@ -1027,6 +1069,10 @@ mach_commands
 .
 py
 "
+"
+build
+"
+        
 )
         
 "
@@ -1052,6 +1098,7 @@ build
 :
 MachCommandReference
 (
+            
 "
 python
 /
@@ -1063,6 +1110,11 @@ build_commands
 .
 py
 "
+            
+"
+build
+"
+        
 )
         
 "
@@ -1084,6 +1136,10 @@ mozbuild
 build_commands
 .
 py
+"
+            
+"
+build
 "
         
 )
@@ -1393,6 +1449,9 @@ mach_commands
 .
 py
 "
+"
+docs
+"
 )
         
 "
@@ -1433,6 +1492,23 @@ mach_commands
 py
 "
         
+)
+        
+"
+eslint
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+lint
+/
+mach_commands
+.
+py
+"
 )
         
 "
@@ -1535,6 +1611,23 @@ MachCommandReference
 (
 "
 testing
+/
+mach_commands
+.
+py
+"
+)
+        
+"
+format
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+lint
 /
 mach_commands
 .
@@ -1700,6 +1793,9 @@ backend
 mach_commands
 .
 py
+"
+"
+build
 "
         
 )
@@ -1874,6 +1970,26 @@ py
 )
         
 "
+lint
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+lint
+/
+mach_commands
+.
+py
+"
+"
+lint
+"
+)
+        
+"
 logspam
 "
 :
@@ -2002,6 +2118,21 @@ py
 )
         
 "
+mots
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+mach_commands
+.
+py
+"
+)
+        
+"
 mozbuild
 -
 reference
@@ -2022,6 +2153,9 @@ frontend
 mach_commands
 .
 py
+"
+"
+docs
 "
         
 )
@@ -2215,6 +2349,34 @@ mach_commands
 .
 py
 "
+"
+perftest
+-
+test
+"
+        
+)
+        
+"
+perftest
+-
+tools
+"
+:
+MachCommandReference
+(
+            
+"
+python
+/
+mozperftest
+/
+mozperftest
+/
+mach_commands
+.
+py
+"
         
 )
         
@@ -2306,6 +2468,11 @@ python
 mach_commands
 .
 py
+"
+"
+python
+-
+test
 "
 )
         
@@ -2455,6 +2622,9 @@ mozbuild
 build_commands
 .
 py
+"
+"
+build
 "
         
 )
@@ -2772,6 +2942,9 @@ mach_commands
 .
 py
 "
+"
+webcompat
+"
         
 )
         
@@ -2917,6 +3090,7 @@ setup
 :
 MachCommandReference
 (
+            
 "
 python
 /
@@ -2928,6 +3102,10 @@ mach_commands
 .
 py
 "
+"
+build
+"
+        
 )
         
 "
@@ -2949,6 +3127,9 @@ vendor
 mach_commands
 .
 py
+"
+"
+vendor
 "
         
 )
@@ -3005,6 +3186,7 @@ watch
 :
 MachCommandReference
 (
+            
 "
 python
 /
@@ -3016,6 +3198,10 @@ mach_commands
 .
 py
 "
+"
+watch
+"
+        
 )
         
 "
@@ -3039,6 +3225,9 @@ platform
 mach_commands
 .
 py
+"
+"
+wpt
 "
         
 )
@@ -3066,6 +3255,9 @@ platform
 mach_commands
 .
 py
+"
+"
+wpt
 "
         
 )
@@ -3111,25 +3303,6 @@ py
 )
         
 "
-widgets
-"
-:
-MachCommandReference
-(
-"
-toolkit
-/
-content
-/
-widgets
-/
-mach_commands
-.
-py
-"
-)
-        
-"
 wpt
 "
 :
@@ -3146,6 +3319,39 @@ mach_commands
 .
 py
 "
+"
+wpt
+"
+)
+        
+"
+wpt
+-
+fetch
+-
+logs
+"
+:
+MachCommandReference
+(
+            
+"
+testing
+/
+web
+-
+platform
+/
+mach_commands
+.
+py
+"
+"
+wpt
+-
+interop
+"
+        
 )
         
 "
@@ -3169,6 +3375,39 @@ platform
 mach_commands
 .
 py
+"
+"
+wpt
+"
+        
+)
+        
+"
+wpt
+-
+interop
+-
+score
+"
+:
+MachCommandReference
+(
+            
+"
+testing
+/
+web
+-
+platform
+/
+mach_commands
+.
+py
+"
+"
+wpt
+-
+interop
 "
         
 )
@@ -3195,6 +3434,9 @@ mach_commands
 .
 py
 "
+"
+wpt
+"
         
 )
         
@@ -3219,6 +3461,9 @@ platform
 mach_commands
 .
 py
+"
+"
+wpt
 "
         
 )
@@ -3245,6 +3490,9 @@ mach_commands
 .
 py
 "
+"
+wpt
+"
         
 )
         
@@ -3256,6 +3504,7 @@ serve
 :
 MachCommandReference
 (
+            
 "
 testing
 /
@@ -3267,6 +3516,10 @@ mach_commands
 .
 py
 "
+"
+wpt
+"
+        
 )
         
 "
@@ -3279,6 +3532,7 @@ paths
 :
 MachCommandReference
 (
+            
 "
 testing
 /
@@ -3290,6 +3544,10 @@ mach_commands
 .
 py
 "
+"
+wpt
+"
+        
 )
         
 "
@@ -3300,6 +3558,7 @@ unittest
 :
 MachCommandReference
 (
+            
 "
 testing
 /
@@ -3311,6 +3570,10 @@ mach_commands
 .
 py
 "
+"
+wpt
+"
+        
 )
         
 "
@@ -3321,6 +3584,7 @@ update
 :
 MachCommandReference
 (
+            
 "
 testing
 /
@@ -3332,6 +3596,10 @@ mach_commands
 .
 py
 "
+"
+wpt
+"
+        
 )
         
 "
