@@ -1708,8 +1708,10 @@ mApzUpdater
 ;
 mApzcTreeManager
 =
-new
 APZCTreeManager
+:
+:
+Create
 (
 mRootLayerTreeID
 )
