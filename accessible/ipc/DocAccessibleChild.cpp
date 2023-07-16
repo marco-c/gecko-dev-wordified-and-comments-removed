@@ -36,17 +36,6 @@ include
 "
 mozilla
 /
-a11y
-/
-RemoteAccessible
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 ProcessChild
