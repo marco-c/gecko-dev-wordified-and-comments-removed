@@ -740,8 +740,15 @@ return
 null
 ;
 }
-throw
+Cu
+.
+reportError
+(
 ex
+)
+;
+return
+null
 ;
 }
 let
