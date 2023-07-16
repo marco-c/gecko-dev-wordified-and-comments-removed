@@ -8,6 +8,19 @@ module
 exports
 =
 {
+overrides
+:
+[
+{
+files
+:
+[
+"
+*
+.
+html
+"
+]
 parserOptions
 :
 {
@@ -17,5 +30,7 @@ sourceType
 module
 "
 }
+}
+]
 }
 ;

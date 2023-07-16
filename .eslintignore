@@ -1255,6 +1255,17 @@ test
 /
 jsmodules
 /
+test_scriptNotParsedAsModule
+.
+html
+dom
+/
+base
+/
+test
+/
+jsmodules
+/
 test_syntaxError
 .
 html
@@ -1279,7 +1290,7 @@ jsmodules
 /
 module_badSyntax
 .
-js
+mjs
 dom
 /
 base

@@ -1,7 +1,0 @@
-results
-.
-push
-(
-2
-)
-;
