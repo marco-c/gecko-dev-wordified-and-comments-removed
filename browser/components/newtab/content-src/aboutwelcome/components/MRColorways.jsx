@@ -473,8 +473,10 @@ if
 (
 hasReverted
 )
+{
 return
 ;
+}
 /
 /
 Spoofing

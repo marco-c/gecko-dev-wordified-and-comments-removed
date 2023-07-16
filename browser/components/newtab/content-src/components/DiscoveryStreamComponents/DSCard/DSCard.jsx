@@ -244,9 +244,11 @@ if
 !
 wordCount
 )
+{
 return
 false
 ;
+}
 return
 Math
 .

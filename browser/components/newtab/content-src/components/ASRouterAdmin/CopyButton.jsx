@@ -133,6 +133,7 @@ if
 (
 transformer
 )
+{
 text
 =
 transformer
@@ -140,6 +141,7 @@ transformer
 text
 )
 ;
+}
 navigator
 .
 clipboard

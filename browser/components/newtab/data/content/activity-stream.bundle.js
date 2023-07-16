@@ -2794,6 +2794,7 @@ if
 (
 transformer
 )
+{
 text
 =
 transformer
@@ -2801,6 +2802,7 @@ transformer
 text
 )
 ;
+}
 navigator
 .
 clipboard
@@ -40134,9 +40136,11 @@ if
 !
 wordCount
 )
+{
 return
 false
 ;
+}
 return
 Math
 .

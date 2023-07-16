@@ -461,8 +461,10 @@ isVariableDeclaration
 (
 )
 )
+{
 return
 ;
+}
 parentPath
 .
 traverse
@@ -489,8 +491,10 @@ isIdentifier
 (
 )
 )
+{
 return
 ;
+}
 const
 init
 =
@@ -619,8 +623,10 @@ isVariableDeclaration
 (
 )
 )
+{
 return
 ;
+}
 parentPath
 .
 traverse
@@ -861,8 +867,10 @@ isVariableDeclaration
 (
 )
 )
+{
 return
 ;
+}
 p
 .
 traverse
@@ -1121,6 +1129,7 @@ if
 (
 replacePath
 )
+{
 filePath
 =
 filePath
@@ -1132,6 +1141,7 @@ basePath
 "
 )
 ;
+}
 const
 requireStatement
 =
@@ -1338,12 +1348,15 @@ match
 basePath
 )
 )
+{
 return
 ;
+}
 if
 (
 replacePath
 )
+{
 filePath
 =
 filePath
@@ -1355,6 +1368,7 @@ basePath
 "
 )
 ;
+}
 const
 requireStatement
 =

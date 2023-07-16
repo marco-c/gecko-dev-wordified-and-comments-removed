@@ -886,6 +886,7 @@ if
 (
 isVideoOnboarding
 )
+{
 return
 "
 with
@@ -893,6 +894,7 @@ with
 video
 "
 ;
+}
 return
 {
 isFirstScreen

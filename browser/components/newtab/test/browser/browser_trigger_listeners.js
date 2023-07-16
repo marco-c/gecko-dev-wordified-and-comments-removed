@@ -1380,8 +1380,10 @@ if
 (
 restored
 )
+{
 return
 ;
+}
 restored
 =
 true
