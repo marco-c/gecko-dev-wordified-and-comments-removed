@@ -69,13 +69,7 @@ IMFContentDecryptionModule
 *
 aCDM
 )
-:
-mCDM
-(
-aCDM
-)
-{
-}
+;
 public
 :
 HRESULT
@@ -129,8 +123,6 @@ private
 MFCDMProxy
 (
 )
-=
-default
 ;
 Microsoft
 :
