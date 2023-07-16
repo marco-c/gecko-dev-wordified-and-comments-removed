@@ -266,8 +266,6 @@ none
 "
 }
 ;
-/
-/
 enum
 CanvasFontStretch
 {
@@ -2304,10 +2302,6 @@ default
 auto
 "
 )
-/
-/
-NOT
-IMPLEMENTED
 attribute
 CanvasFontStretch
 fontStretch
