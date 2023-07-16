@@ -26977,6 +26977,16 @@ PUSH_COPY
 exception
 )
 ;
+PUSH_EXCEPTION_STACK_OR_NULL
+(
+cx
+-
+>
+getPendingExceptionStack
+(
+)
+)
+;
 PUSH_BOOLEAN
 (
 true
