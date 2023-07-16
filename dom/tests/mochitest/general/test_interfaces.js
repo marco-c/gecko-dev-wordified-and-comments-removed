@@ -8103,6 +8103,16 @@ true
 name
 :
 "
+oncancel
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 oncanplay
 "
 insecureContext

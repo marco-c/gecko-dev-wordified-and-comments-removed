@@ -268,12 +268,6 @@ attribute
 EventHandler
 onfocus
 ;
-/
-/
-(
-Not
-implemented
-)
 attribute
 EventHandler
 oncancel

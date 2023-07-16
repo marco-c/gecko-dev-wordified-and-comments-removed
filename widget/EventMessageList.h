@@ -1019,6 +1019,10 @@ eClose
 )
 NS_EVENT_MESSAGE
 (
+eCancel
+)
+NS_EVENT_MESSAGE
+(
 eMarqueeBounce
 )
 NS_EVENT_MESSAGE
