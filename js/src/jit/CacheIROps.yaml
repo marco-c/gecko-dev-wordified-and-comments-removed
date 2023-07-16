@@ -1136,7 +1136,7 @@ obj
 ObjId
 shape
 :
-ShapeField
+WeakShapeField
 -
 name
 :

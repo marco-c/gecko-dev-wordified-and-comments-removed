@@ -496,6 +496,9 @@ traceWeak
 JSTracer
 *
 trc
+Zone
+*
+zone
 )
 ;
 void
