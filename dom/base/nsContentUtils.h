@@ -5598,15 +5598,6 @@ aOldChildCount
 )
 ;
 static
-bool
-HasPluginWithUncontrolledEventDispatch
-(
-nsIContent
-*
-aContent
-)
-;
-static
 Document
 *
 GetInProcessSubtreeRootDocument
