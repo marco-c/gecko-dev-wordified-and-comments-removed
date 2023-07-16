@@ -95,6 +95,13 @@ h
 #
 include
 "
+nsIWebProgressListener
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
