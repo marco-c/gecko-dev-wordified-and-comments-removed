@@ -105,7 +105,7 @@ nsCString
 GuessContainers
 (
 const
-nsString
+nsAString
 &
 aCodec
 )
