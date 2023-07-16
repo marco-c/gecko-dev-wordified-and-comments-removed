@@ -496,6 +496,20 @@ writeObjectField
 )
     
 "
+WeakObjectField
+"
+:
+(
+"
+JSObject
+*
+"
+"
+writeWeakObjectField
+"
+)
+    
+"
 StringField
 "
 :
@@ -1526,6 +1540,26 @@ stubOffset
 )
     
 "
+WeakObjectField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
 StringField
 "
 :
@@ -2464,6 +2498,14 @@ spewField
 "
     
 "
+WeakObjectField
+"
+:
+"
+spewField
+"
+    
+"
 StringField
 "
 :
@@ -3314,6 +3356,12 @@ GetterSetterField
     
 "
 ObjectField
+"
+:
+1
+    
+"
+WeakObjectField
 "
 :
 1

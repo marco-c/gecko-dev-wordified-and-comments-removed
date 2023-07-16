@@ -2520,6 +2520,15 @@ Type
 :
 JSObject
 :
+case
+StubField
+:
+:
+Type
+:
+:
+WeakObject
+:
 {
 uintptr_t
 word
