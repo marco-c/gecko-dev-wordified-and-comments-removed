@@ -250,6 +250,15 @@ h
 #
 include
 "
+wasm
+/
+WasmFeatures
+.
+h
+"
+#
+include
+"
 vm
 /
 JSAtom

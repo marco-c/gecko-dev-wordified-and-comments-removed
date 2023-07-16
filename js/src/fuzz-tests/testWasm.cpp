@@ -91,6 +91,15 @@ include
 "
 wasm
 /
+WasmFeatures
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmIonCompile
 .
 h

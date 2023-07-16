@@ -163,7 +163,7 @@ include
 "
 wasm
 /
-WasmInstanceData
+WasmFeatures
 .
 h
 "
@@ -172,7 +172,7 @@ include
 "
 wasm
 /
-WasmJS
+WasmInstanceData
 .
 h
 "

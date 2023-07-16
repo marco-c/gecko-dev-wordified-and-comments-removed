@@ -1007,6 +1007,15 @@ include
 "
 wasm
 /
+WasmFeatures
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmGcObject
 .
 h
@@ -5292,8 +5301,6 @@ true
 }
 JS_FOR_WASM_FEATURES
 (
-WASM_FEATURE
-WASM_FEATURE
 WASM_FEATURE
 )
 ;
@@ -55842,8 +55849,6 @@ enabled
 )
 JS_FOR_WASM_FEATURES
 (
-WASM_FEATURE
-WASM_FEATURE
 WASM_FEATURE
 )
 #

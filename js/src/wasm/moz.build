@@ -103,6 +103,11 @@ WasmDebugFrame
 cpp
 "
 "
+WasmFeatures
+.
+cpp
+"
+"
 WasmFrameIter
 .
 cpp

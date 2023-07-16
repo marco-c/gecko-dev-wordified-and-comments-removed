@@ -45,6 +45,15 @@ h
 #
 include
 "
+wasm
+/
+WasmFeatures
+.
+h
+"
+#
+include
+"
 jit
 /
 shared
