@@ -695,6 +695,13 @@ default
 break
 ;
 }
+mLoadState
+-
+>
+AssertProcessCouldTriggerLoadIfSystem
+(
+)
+;
 DocumentChannelCreationArgs
 args
 (

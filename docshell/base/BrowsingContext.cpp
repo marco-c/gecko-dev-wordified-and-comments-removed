@@ -10022,6 +10022,13 @@ InternalLoad
 "
 )
 ;
+aLoadState
+-
+>
+AssertProcessCouldTriggerLoadIfSystem
+(
+)
+;
 if
 (
 mDocShell
@@ -10521,6 +10528,13 @@ targeting
 this
 BrowsingContext
 "
+)
+;
+aLoadState
+-
+>
+AssertProcessCouldTriggerLoadIfSystem
+(
 )
 ;
 if
