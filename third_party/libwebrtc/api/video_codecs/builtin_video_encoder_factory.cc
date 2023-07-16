@@ -97,7 +97,7 @@ media
 /
 engine
 /
-encoder_simulcast_proxy
+internal_encoder_factory
 .
 h
 "
@@ -108,7 +108,7 @@ media
 /
 engine
 /
-internal_encoder_factory
+simulcast_encoder_adapter
 .
 h
 "
@@ -170,7 +170,7 @@ unique_ptr
 <
 VideoEncoder
 >
-internal_encoder
+encoder
 ;
 if
 (
@@ -187,14 +187,14 @@ GetSupportedFormats
 )
 )
 {
-internal_encoder
+encoder
 =
 std
 :
 :
 make_unique
 <
-EncoderSimulcastProxy
+SimulcastEncoderAdapter
 >
 (
 internal_encoder_factory_
@@ -207,7 +207,7 @@ format
 ;
 }
 return
-internal_encoder
+encoder
 ;
 }
 std
