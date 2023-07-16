@@ -632,8 +632,9 @@ is
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
+window
 )
 0
 "

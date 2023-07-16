@@ -275,9 +275,12 @@ message
 includes
 (
 "
-Invalid
+Could
+not
+restore
+object
+using
 sessionId
-:
 not
 -
 a
