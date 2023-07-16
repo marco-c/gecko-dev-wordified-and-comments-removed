@@ -3013,7 +3013,6 @@ allow_num_differences
 >
 {
 let
-mut
 fuzzy
 =
 &
