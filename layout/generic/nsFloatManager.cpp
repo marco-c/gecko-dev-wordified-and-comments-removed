@@ -11089,6 +11089,12 @@ ShapeUtils
 ComputeInsetRect
 (
 aBasicShape
+.
+AsInset
+(
+)
+.
+rect
 physicalShapeBoxRect
 )
 ;

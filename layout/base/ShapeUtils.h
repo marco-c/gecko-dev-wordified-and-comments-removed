@@ -135,7 +135,7 @@ aRefBox
 ;
 static
 nsRect
-ComputeInsetRect
+ComputeRect
 (
 const
 StyleBasicShape

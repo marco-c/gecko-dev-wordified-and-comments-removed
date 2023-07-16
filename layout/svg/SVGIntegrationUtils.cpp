@@ -790,6 +790,14 @@ IsInset
 shape
 -
 >
+IsXywh
+(
+)
+|
+|
+shape
+-
+>
 IsCircle
 (
 )
