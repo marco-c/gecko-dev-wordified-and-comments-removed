@@ -3304,6 +3304,17 @@ bytesToSkip
 ;
 }
 }
+if
+(
+StreamLength
+(
+)
+!
+=
+-
+1
+)
+{
 mEOS
 =
 frameHeaderOffset
@@ -3324,6 +3335,7 @@ StreamLength
 (
 )
 ;
+}
 if
 (
 !
