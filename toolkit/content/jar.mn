@@ -1226,6 +1226,10 @@ widgets
 /
 panel
 -
+list
+/
+panel
+-
 item
 .
 css
@@ -1247,6 +1251,10 @@ widgets
 panel
 -
 list
+/
+panel
+-
+list
 .
 css
 )
@@ -1263,6 +1271,10 @@ list
 js
 (
 widgets
+/
+panel
+-
+list
 /
 panel
 -
