@@ -68,13 +68,6 @@ source1
 }
 }
 }
-breakpointActions
-=
-{
-Object
-{
-}
-}
 cx
 =
 {
@@ -101,13 +94,6 @@ setGutterMarker
 MockFunction
 ]
 }
-}
-}
-editorActions
-=
-{
-Object
-{
 }
 }
 key
