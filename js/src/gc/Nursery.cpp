@@ -4260,6 +4260,14 @@ capacity
 .
 9
 ;
+MOZ_ASSERT
+(
+tenured
+<
+=
+used
+)
+;
 return
 tenured
 /
