@@ -5727,6 +5727,17 @@ frame_transformer_factory
 /
 api
 :
+mock_transformable_audio_frame
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 mock_transformable_video_frame
 "
 "
