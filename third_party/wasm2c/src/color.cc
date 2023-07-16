@@ -23,9 +23,6 @@ h
 "
 #
 if
-_WIN32
-#
-if
 HAVE_WIN32_VT100
 #
 include
@@ -41,8 +38,6 @@ windows
 .
 h
 >
-#
-endif
 #
 elif
 HAVE_UNISTD_H
@@ -123,10 +118,6 @@ force
 0
 ;
 }
-#
-if
-_WIN32
-{
 #
 if
 HAVE_WIN32_VT100
@@ -213,14 +204,6 @@ false
 return
 true
 ;
-#
-else
-return
-false
-;
-#
-endif
-}
 #
 elif
 HAVE_UNISTD_H

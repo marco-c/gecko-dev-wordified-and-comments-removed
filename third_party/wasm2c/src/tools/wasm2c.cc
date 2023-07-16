@@ -742,13 +742,6 @@ argc
 argv
 )
 ;
-s_write_c_options
-.
-features
-=
-&
-s_features
-;
 bool
 any_non_supported_feature
 =
