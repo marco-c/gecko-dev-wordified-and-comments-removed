@@ -609,6 +609,10 @@ enableWellFormedUnicodeStrings
 ;
 extern
 bool
+enableArrayBufferTransfer
+;
+extern
+bool
 enablePrivateClassFields
 ;
 extern
