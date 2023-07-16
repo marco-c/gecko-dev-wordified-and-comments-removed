@@ -195,6 +195,11 @@ intensity_target
 =
 0
 ;
+int
+already_downsampled
+=
+1
+;
 size_t
 override_bitdepth
 =

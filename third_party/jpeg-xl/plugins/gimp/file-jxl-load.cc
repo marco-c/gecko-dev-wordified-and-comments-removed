@@ -781,8 +781,6 @@ dec
 get
 (
 )
-&
-format
 _PROFILE_ORIGIN_
 &
 color_encoding
@@ -801,8 +799,6 @@ dec
 get
 (
 )
-&
-format
 _PROFILE_ORIGIN_
 &
 icc_size
@@ -849,8 +845,6 @@ dec
 get
 (
 )
-&
-format
 _PROFILE_ORIGIN_
 icc_profile
 .
@@ -979,8 +973,6 @@ dec
 get
 (
 )
-&
-format
 _PROFILE_TARGET_
 &
 color_encoding

@@ -1047,7 +1047,6 @@ data_type
 :
 {
 JXL_TYPE_FLOAT
-JXL_TYPE_FLOAT16
 }
 )
 {

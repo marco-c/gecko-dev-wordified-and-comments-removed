@@ -781,7 +781,13 @@ jpeg_data_chunk
 .
 resize
 (
-16384
+bytes_size
+*
+3
+/
+2
++
+1024
 )
 ;
 jpeg_bytes
@@ -2099,7 +2105,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetICCProfileSize
 (
 dec
-nullptr
 target
 &
 icc_size
@@ -2144,7 +2149,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetColorAsICCProfile
 (
 dec
-nullptr
 target
 ppf
 -
@@ -2182,7 +2186,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetColorAsEncodedProfile
 (
 dec
-nullptr
 target
 &
 ppf
@@ -2218,7 +2221,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetICCProfileSize
 (
 dec
-nullptr
 target
 &
 icc_size
@@ -2263,7 +2265,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetColorAsICCProfile
 (
 dec
-nullptr
 target
 ppf
 -

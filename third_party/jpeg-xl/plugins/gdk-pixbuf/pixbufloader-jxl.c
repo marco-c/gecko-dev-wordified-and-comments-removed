@@ -2088,11 +2088,6 @@ decoder_state
 -
 >
 decoder
-&
-decoder_state
--
->
-pixel_format
 JXL_COLOR_PROFILE_TARGET_DATA
 &
 icc_size
@@ -2158,11 +2153,6 @@ decoder_state
 -
 >
 decoder
-&
-decoder_state
--
->
-pixel_format
 JXL_COLOR_PROFILE_TARGET_DATA
 decoder_state
 -

@@ -403,8 +403,6 @@ dec
 get
 (
 )
-&
-format
 JXL_COLOR_PROFILE_TARGET_DATA
 &
 icc_size
@@ -446,8 +444,6 @@ dec
 get
 (
 )
-&
-format
 JXL_COLOR_PROFILE_TARGET_DATA
 icc_profile
 -

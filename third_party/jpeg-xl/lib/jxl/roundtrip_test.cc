@@ -2182,8 +2182,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetICCProfileSize
 (
 dec
-&
-output_pixel_format_with_extra_channel_alpha
 JXL_COLOR_PROFILE_TARGET_DATA
 &
 icc_profile_size
@@ -2205,8 +2203,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetColorAsICCProfile
 (
 dec
-&
-output_pixel_format
 JXL_COLOR_PROFILE_TARGET_DATA
 icc_profile
 .
@@ -3971,8 +3967,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetICCProfileSize
 (
 dec
-&
-pixel_format
 JXL_COLOR_PROFILE_TARGET_DATA
 &
 icc_profile_size
@@ -3994,8 +3988,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetColorAsICCProfile
 (
 dec
-&
-pixel_format
 JXL_COLOR_PROFILE_TARGET_DATA
 icc_profile
 .
@@ -4894,8 +4886,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetICCProfileSize
 (
 dec
-&
-format
 JXL_COLOR_PROFILE_TARGET_ORIGINAL
 &
 dec_icc_size
@@ -4927,8 +4917,6 @@ JXL_DEC_SUCCESS
 JxlDecoderGetColorAsICCProfile
 (
 dec
-&
-format
 JXL_COLOR_PROFILE_TARGET_ORIGINAL
 dec_icc
 .

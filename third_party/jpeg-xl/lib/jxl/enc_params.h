@@ -240,9 +240,10 @@ modular_mode
 =
 false
 ;
-size_t
+int
 modular_group_size_shift
 =
+-
 1
 ;
 Override
