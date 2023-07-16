@@ -164,6 +164,12 @@ const
 ;
 protected
 :
+void
+AssertIfInvalid
+(
+)
+const
+;
 Maybe
 <
 nsString
