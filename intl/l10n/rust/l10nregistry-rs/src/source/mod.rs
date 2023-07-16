@@ -985,7 +985,6 @@ static
 )
 {
 let
-mut
 shared
 =
 Rc
@@ -2321,10 +2320,6 @@ reporter
 shared
 .
 error_reporter
-.
-borrow
-(
-)
 {
 reporter
 .
