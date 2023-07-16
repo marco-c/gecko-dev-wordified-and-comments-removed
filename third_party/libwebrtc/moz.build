@@ -1777,16 +1777,6 @@ libwebrtc
 /
 media
 /
-rtc_encoder_simulcast_proxy_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-media
-/
 rtc_media_base_gn
 "
 "
