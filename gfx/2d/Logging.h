@@ -1615,6 +1615,8 @@ typename
 T
 typename
 Sub
+typename
+Coord
 >
 Log
 &
@@ -1627,6 +1629,7 @@ BaseSize
 <
 T
 Sub
+Coord
 >
 &
 aSize

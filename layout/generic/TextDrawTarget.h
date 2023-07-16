@@ -1329,6 +1329,11 @@ size
 LayoutDeviceSize
 (
 aThickness
+ViewAs
+<
+LayoutDevicePixel
+>
+(
 aEnd
 .
 y
@@ -1336,6 +1341,7 @@ y
 aStart
 .
 y
+)
 )
 ;
 }
@@ -1354,6 +1360,11 @@ size
 =
 LayoutDeviceSize
 (
+ViewAs
+<
+LayoutDevicePixel
+>
+(
 aEnd
 .
 x
@@ -1361,6 +1372,7 @@ x
 aStart
 .
 x
+)
 aThickness
 )
 ;
