@@ -82,7 +82,7 @@ void
 JitHintsMap
 :
 :
-incrementBaselineEntryCount
+incrementEntryCount
 (
 )
 {
@@ -90,18 +90,18 @@ if
 (
 +
 +
-baselineEntryCount_
+entryCount_
 >
 MaxEntries_
 )
 {
-baselineHintMap_
+map_
 .
 clear
 (
 )
 ;
-baselineEntryCount_
+entryCount_
 =
 0
 ;
@@ -138,7 +138,7 @@ return
 }
 if
 (
-baselineHintMap_
+map_
 .
 mightContain
 (
@@ -149,7 +149,7 @@ key
 return
 ;
 }
-incrementBaselineEntryCount
+incrementEntryCount
 (
 )
 ;
@@ -161,7 +161,7 @@ setNoEagerBaselineHint
 false
 )
 ;
-baselineHintMap_
+map_
 .
 add
 (
@@ -194,7 +194,7 @@ script
 )
 {
 return
-baselineHintMap_
+map_
 .
 mightContain
 (
