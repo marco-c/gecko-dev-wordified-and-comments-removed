@@ -163,7 +163,6 @@ export
 function
 getPreview
 (
-cx
 target
 tokenPos
 codeMirror
@@ -474,7 +473,6 @@ export
 function
 getExceptionPreview
 (
-cx
 target
 tokenPos
 codeMirror
