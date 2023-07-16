@@ -114,7 +114,7 @@ value
 0
 }
 )
-return
+throw
 :
 (
 value
@@ -145,13 +145,13 @@ iter
 ;
 wrap
 .
-return
+throw
 (
 )
 ;
 wrap
 .
-return
+throw
 (
 )
 ;
@@ -179,10 +179,10 @@ get
 next
 get
 :
-return
+throw
 get
 :
-return
+throw
 )
 ;
 if

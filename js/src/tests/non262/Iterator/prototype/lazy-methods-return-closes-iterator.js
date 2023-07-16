@@ -94,6 +94,14 @@ iter
 >
 iter
 .
+asIndexedPairs
+(
+)
+iter
+=
+>
+iter
+.
 flatMap
 (
 x
@@ -150,9 +158,7 @@ iterHelper
 .
 return
 (
-"
-ignored
-"
+0
 )
 ;
 assertEq
@@ -176,7 +182,7 @@ assertEq
 result
 .
 value
-undefined
+0
 )
 ;
 }
@@ -219,9 +225,7 @@ iterHelper
 .
 return
 (
-"
-ignored
-"
+0
 )
 ;
 assertEq
@@ -245,7 +249,7 @@ assertEq
 result
 .
 value
-undefined
+0
 )
 ;
 }

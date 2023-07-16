@@ -37,14 +37,6 @@ return
 value
 )
 {
-assertEq
-(
-arguments
-.
-length
-0
-)
-;
 this
 .
 closed
@@ -57,8 +49,6 @@ done
 :
 true
 value
-:
-42
 }
 ;
 }
@@ -136,7 +126,7 @@ assertEq
 result
 .
 value
-42
+1
 )
 ;
 assertEq

@@ -18,6 +18,10 @@ jstypes
 .
 h
 "
+class
+JS_PUBLIC_API
+JSAtom
+;
 struct
 JS_PUBLIC_API
 JSContext
@@ -48,6 +52,7 @@ uint8_t
 Array
 ArrayBuffer
 Int32Array
+Iterator
 Map
 Promise
 RegExp
@@ -55,7 +60,6 @@ Set
 SharedArrayBuffer
 Symbol
 FunctionPrototype
-IteratorPrototype
 ObjectPrototype
 RegExpPrototype
 StringPrototype

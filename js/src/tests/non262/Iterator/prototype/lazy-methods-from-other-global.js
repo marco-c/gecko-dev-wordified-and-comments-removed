@@ -50,6 +50,12 @@ drop
 ]
 [
 "
+asIndexedPairs
+"
+undefined
+]
+[
+"
 flatMap
 "
 x

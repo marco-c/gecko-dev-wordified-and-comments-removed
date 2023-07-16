@@ -1,3 +1,9 @@
+assertThrowsInstanceOf
+(
+(
+)
+=
+>
 Iterator
 .
 prototype
@@ -12,6 +18,8 @@ x
 =
 >
 x
+)
+TypeError
 )
 ;
 if
