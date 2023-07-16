@@ -476,6 +476,8 @@ Zero
 ;
 int
 round_trip_time_measurements
+=
+0
 ;
 }
 ;
