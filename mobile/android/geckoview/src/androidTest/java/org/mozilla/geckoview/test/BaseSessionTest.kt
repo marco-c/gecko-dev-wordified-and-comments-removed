@@ -131,6 +131,16 @@ noErrorCollector
 Boolean
 =
 false
+serverCustomHeaders
+:
+Map
+<
+String
+String
+>
+?
+=
+null
 )
 {
 companion
@@ -439,7 +449,7 @@ assets
 /
 www
 /
-fedcm_ipd_manifest
+fedcm_idp_manifest
 .
 json
 "
@@ -1651,6 +1661,7 @@ sessionRule
 =
 GeckoSessionTestRule
 (
+serverCustomHeaders
 )
 get
 :
