@@ -14714,11 +14714,6 @@ flags
 [
 "
 (
-PGO_CFLAGS
-)
-"
-"
-(
 DSO_LDOPTS
 )
 "

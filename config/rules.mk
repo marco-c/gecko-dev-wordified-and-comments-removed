@@ -2794,9 +2794,6 @@ o
 COMPUTED_CXX_LDFLAGS
 )
 (
-PGO_CFLAGS
-)
-(
 (
 notdir
 )
@@ -3165,9 +3162,6 @@ EXPAND_CC_OR_CXX
 )
 (
 COMPUTED_CXX_LDFLAGS
-)
-(
-PGO_CFLAGS
 )
 -
 o
