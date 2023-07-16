@@ -62,6 +62,9 @@ dom
 class
 CanvasRenderingContext2D
 ;
+class
+ImageBitmap
+;
 }
 namespace
 gfx
@@ -99,6 +102,16 @@ dom
 :
 :
 CanvasRenderingContext2D
+;
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+ImageBitmap
 ;
 friend
 class
