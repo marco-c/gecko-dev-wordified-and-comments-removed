@@ -1036,7 +1036,7 @@ type
 :
 b
 -
-win2022
+win2012
 worker
 :
 chain
@@ -1183,7 +1183,7 @@ type
 :
 b
 -
-win2022
+win2012
 worker
 :
 chain
