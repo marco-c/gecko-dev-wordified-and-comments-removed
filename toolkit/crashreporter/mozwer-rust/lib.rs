@@ -730,7 +730,7 @@ exception_information
 exceptionRecord
 .
 ExceptionCode
-!
+=
 =
 EXCEPTION_BREAKPOINT
 {
