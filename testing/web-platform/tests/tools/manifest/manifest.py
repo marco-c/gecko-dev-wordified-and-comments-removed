@@ -24,6 +24,7 @@ typing
 import
 (
 Any
+Callable
 Container
 Dict
 IO
@@ -61,6 +62,8 @@ ManualTest
 PrintRefTest
                    
 RefTest
+                   
+SpecItem
                    
 SupportFile
                    
@@ -177,6 +180,12 @@ visual
 VisualTest
                                                 
 "
+spec
+"
+:
+SpecItem
+                                                
+"
 support
 "
 :
@@ -191,6 +200,8 @@ SourceFile
 )
 -
 >
+Optional
+[
 Tuple
 [
 Tuple
@@ -206,6 +217,7 @@ Set
 ManifestItem
 ]
 Text
+]
 ]
 :
     
@@ -223,6 +235,77 @@ source_file
 manifest_items
 (
 )
+    
+file_hash
+=
+source_file
+.
+hash
+    
+return
+rel_path_parts
+new_type
+set
+(
+manifest_items
+)
+file_hash
+def
+compute_manifest_spec_items
+(
+source_file
+:
+SourceFile
+)
+-
+>
+Optional
+[
+Tuple
+[
+Tuple
+[
+Text
+.
+.
+.
+]
+Text
+Set
+[
+ManifestItem
+]
+Text
+]
+]
+:
+    
+spec_tuple
+=
+source_file
+.
+manifest_spec_items
+(
+)
+    
+if
+not
+spec_tuple
+:
+        
+return
+None
+    
+new_type
+manifest_items
+=
+spec_tuple
+    
+rel_path_parts
+=
+source_file
+.
+rel_path_parts
     
 file_hash
 =
@@ -834,6 +917,18 @@ parallel
 bool
 =
 True
+               
+update_func
+:
+Callable
+[
+.
+.
+.
+Any
+]
+=
+compute_manifest_items
 )
 -
 >
@@ -1281,6 +1376,8 @@ results
 :
 Iterator
 [
+Optional
+[
 Tuple
 [
 Tuple
@@ -1300,13 +1397,14 @@ ManifestItem
 Text
 ]
 ]
+]
 =
 pool
 .
 imap_unordered
 (
                                         
-compute_manifest_items
+update_func
                                         
 to_update
                                         
@@ -1322,7 +1420,7 @@ results
 =
 map
 (
-compute_manifest_items
+update_func
 to_update
 )
         
@@ -1331,6 +1429,13 @@ result
 in
 results
 :
+            
+if
+not
+result
+:
+                
+continue
             
 rel_path_parts
 new_type
