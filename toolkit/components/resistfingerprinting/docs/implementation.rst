@@ -540,6 +540,9 @@ br
 /
 >
 URI
+&
+Partition
+Key
 Exempt
 Check
 "
@@ -619,6 +622,9 @@ br
 /
 >
 URI
+&
+Partition
+Key
 Exempt
 Check
 "
