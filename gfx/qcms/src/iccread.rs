@@ -910,7 +910,6 @@ f32
 fn
 invalid_source
 (
-mut
 mem
 :
 &
@@ -1489,7 +1488,6 @@ u32
 fn
 read_class_signature
 (
-mut
 profile
 :
 &
@@ -1552,7 +1550,6 @@ signature
 fn
 read_color_space
 (
-mut
 profile
 :
 &
@@ -1623,7 +1620,6 @@ colorspace
 fn
 read_pcs
 (
-mut
 profile
 :
 &
@@ -5291,7 +5287,6 @@ output_table
 fn
 read_rendering_intent
 (
-mut
 profile
 :
 &
@@ -9425,7 +9420,6 @@ valid
 true
 ;
 let
-mut
 src
 :
 &
