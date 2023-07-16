@@ -435,13 +435,13 @@ aLeft
 void
 SizeTo
 (
-T
+Coord
 aTop
-T
+Coord
 aRight
-T
+Coord
 aBottom
-T
+Coord
 aLeft
 )
 {
