@@ -609,16 +609,6 @@ aError
 )
 ;
 }
-if
-(
-mContentProtectionManager
-)
-{
-mContentProtectionManager
-=
-nullptr
-;
-}
 }
 void
 MFMediaEngineParent
