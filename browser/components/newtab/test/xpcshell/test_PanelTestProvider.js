@@ -112,7 +112,7 @@ pb_newtab
 2
 toast_notification
 :
-2
+3
 }
 ;
 const
