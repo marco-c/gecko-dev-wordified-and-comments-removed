@@ -8894,7 +8894,7 @@ uint32_t
 unusedSegIndex
 ;
 uint32_t
-unusedTableIndex
+unusedMemoryIndex
 ;
 CHECK
 (
@@ -8906,7 +8906,7 @@ true
 &
 unusedSegIndex
 &
-unusedTableIndex
+unusedMemoryIndex
 &
 nothing
 &

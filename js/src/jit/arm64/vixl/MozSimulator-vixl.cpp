@@ -4912,7 +4912,7 @@ js
 jit
 :
 :
-Args_Int32_GeneralInt64Int32Int32Int32
+Args_Int32_GeneralInt64Int32Int32Int32Int32
 :
 {
 int32_t
@@ -4920,7 +4920,7 @@ ret
 =
 reinterpret_cast
 <
-Prototype_Int32_GeneralInt64Int32Int32Int32
+Prototype_Int32_GeneralInt64Int32Int32Int32Int32
 >
 (
 nativeFn
@@ -4931,6 +4931,7 @@ x1
 x2
 x3
 x4
+x5
 )
 ;
 setGPR32Result

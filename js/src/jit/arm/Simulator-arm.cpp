@@ -18512,15 +18512,15 @@ break
 ;
 }
 case
-Args_Int32_GeneralInt64Int32Int32Int32
+Args_Int32_GeneralInt64Int32Int32Int32Int32
 :
 {
-Prototype_Int32_GeneralInt64Int32Int32Int32
+Prototype_Int32_GeneralInt64Int32Int32Int32Int32
 target
 =
 reinterpret_cast
 <
-Prototype_Int32_GeneralInt64Int32Int32Int32
+Prototype_Int32_GeneralInt64Int32Int32Int32Int32
 >
 (
 external
@@ -18540,6 +18540,7 @@ arg3
 arg4
 arg5
 arg6
+arg7
 )
 ;
 scratchVolatileRegisters

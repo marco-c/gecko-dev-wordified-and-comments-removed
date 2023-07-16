@@ -1584,6 +1584,8 @@ uint32_t
 len
 uint32_t
 segIndex
+uint32_t
+memIndex
 )
 ;
 static
@@ -1601,6 +1603,8 @@ uint32_t
 len
 uint32_t
 segIndex
+uint32_t
+memIndex
 )
 ;
 static
