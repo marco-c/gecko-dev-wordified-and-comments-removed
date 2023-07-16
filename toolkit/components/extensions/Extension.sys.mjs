@@ -3582,6 +3582,17 @@ addon
 id
 )
 ;
+lazy
+.
+QuarantinedDomains
+.
+clearUserPref
+(
+addon
+.
+id
+)
+;
 let
 uuid
 =
