@@ -825,10 +825,6 @@ eMessageError
 )
 NS_EVENT_MESSAGE
 (
-eRTCTransform
-)
-NS_EVENT_MESSAGE
-(
 eOpen
 )
 NS_EVENT_MESSAGE
