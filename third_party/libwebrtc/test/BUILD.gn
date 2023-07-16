@@ -2888,9 +2888,6 @@ rtc_include_tests
 {
 if
 (
-enable_google_benchmarks
-&
-&
 rtc_enable_google_benchmarks
 )
 {

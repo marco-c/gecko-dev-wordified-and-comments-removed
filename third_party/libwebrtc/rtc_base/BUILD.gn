@@ -9973,9 +9973,6 @@ sigslot
 ]
 if
 (
-enable_google_benchmarks
-&
-&
 rtc_enable_google_benchmarks
 )
 {
