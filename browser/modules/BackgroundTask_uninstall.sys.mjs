@@ -304,7 +304,7 @@ console
 log
 (
 "
-nsIWindowsAlertService
+nsIWindowsAlertsService
 not
 present
 .
@@ -365,7 +365,7 @@ error
 "
 Error
 retrieving
-nsIWindowsAlertService
+nsIWindowsAlertsService
 :
 "
 +
