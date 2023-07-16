@@ -2803,8 +2803,10 @@ ifdef
 ENABLE_DECORATORS
 ListNodeType
 decorators
-bool
-hasAccessor
+ClassMethodType
+accessorGetterNode
+ClassMethodType
+accessorSetterNode
 #
 endif
 )
@@ -2830,7 +2832,8 @@ isStatic
 if
 ENABLE_DECORATORS
 decorators
-hasAccessor
+accessorGetterNode
+accessorSetterNode
 #
 endif
 )
