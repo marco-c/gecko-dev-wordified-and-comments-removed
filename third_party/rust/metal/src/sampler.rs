@@ -166,6 +166,10 @@ pub
 struct
 SamplerDescriptor
 ;
+pub
+struct
+SamplerDescriptorRef
+;
 }
 impl
 SamplerDescriptor
@@ -646,6 +650,10 @@ MTLSamplerState
 pub
 struct
 SamplerState
+;
+pub
+struct
+SamplerStateRef
 ;
 }
 impl

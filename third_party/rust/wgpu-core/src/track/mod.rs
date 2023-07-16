@@ -21,10 +21,7 @@ crate
 binding_model
 command
 conv
-hal_api
-:
-:
-HalApi
+hub
 id
 :
 :
@@ -34,7 +31,6 @@ TypedId
 }
 pipeline
 resource
-storage
 }
 ;
 use
@@ -1165,6 +1161,9 @@ BindGroupStates
 <
 A
 :
+hub
+:
+:
 HalApi
 >
 {
@@ -1220,6 +1219,9 @@ SamplerId
 impl
 <
 A
+:
+hub
+:
 :
 HalApi
 >
@@ -1325,6 +1327,9 @@ RenderBundleScope
 <
 A
 :
+hub
+:
+:
 HalApi
 >
 {
@@ -1401,6 +1406,9 @@ impl
 <
 A
 :
+hub
+:
+:
 HalApi
 >
 RenderBundleScope
@@ -1415,7 +1423,7 @@ new
 buffers
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1435,7 +1443,7 @@ BufferId
 textures
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1455,7 +1463,7 @@ TextureId
 bind_groups
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1475,7 +1483,7 @@ BindGroupId
 render_pipelines
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1495,7 +1503,7 @@ RenderPipelineId
 query_sets
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1643,7 +1651,7 @@ self
 textures
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1733,6 +1741,9 @@ UsageScope
 <
 A
 :
+hub
+:
+:
 HalApi
 >
 {
@@ -1755,6 +1766,9 @@ impl
 <
 A
 :
+hub
+:
+:
 HalApi
 >
 UsageScope
@@ -1769,7 +1783,7 @@ new
 buffers
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1789,7 +1803,7 @@ BufferId
 textures
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1874,7 +1888,7 @@ self
 textures
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -1955,7 +1969,7 @@ self
 textures
 :
 &
-storage
+hub
 :
 :
 Storage
@@ -2031,6 +2045,9 @@ struct
 Tracker
 <
 A
+:
+hub
+:
 :
 HalApi
 >
@@ -2180,6 +2197,9 @@ impl
 <
 A
 :
+hub
+:
+:
 HalApi
 >
 Tracker
@@ -2284,7 +2304,7 @@ buffers
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2307,7 +2327,7 @@ textures
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2330,7 +2350,7 @@ views
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2353,7 +2373,7 @@ samplers
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2376,7 +2396,7 @@ bind_groups
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2399,7 +2419,7 @@ compute_pipelines
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2422,7 +2442,7 @@ render_pipelines
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2445,7 +2465,7 @@ bundles
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2468,7 +2488,7 @@ query_sets
 Option
 <
 &
-storage
+hub
 :
 :
 Storage
@@ -2715,7 +2735,7 @@ self
 textures
 :
 &
-storage
+hub
 :
 :
 Storage

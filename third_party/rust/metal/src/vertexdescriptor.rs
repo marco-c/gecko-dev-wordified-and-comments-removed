@@ -247,6 +247,10 @@ pub
 struct
 VertexBufferLayoutDescriptor
 ;
+pub
+struct
+VertexBufferLayoutDescriptorRef
+;
 }
 impl
 VertexBufferLayoutDescriptor
@@ -433,6 +437,10 @@ pub
 struct
 VertexBufferLayoutDescriptorArray
 ;
+pub
+struct
+VertexBufferLayoutDescriptorArrayRef
+;
 }
 impl
 VertexBufferLayoutDescriptorArrayRef
@@ -517,6 +525,10 @@ MTLVertexAttributeDescriptor
 pub
 struct
 VertexAttributeDescriptor
+;
+pub
+struct
+VertexAttributeDescriptorRef
 ;
 }
 impl
@@ -704,6 +716,10 @@ pub
 struct
 VertexAttributeDescriptorArray
 ;
+pub
+struct
+VertexAttributeDescriptorArrayRef
+;
 }
 impl
 VertexAttributeDescriptorArrayRef
@@ -788,6 +804,10 @@ MTLVertexDescriptor
 pub
 struct
 VertexDescriptor
+;
+pub
+struct
+VertexDescriptorRef
 ;
 }
 impl

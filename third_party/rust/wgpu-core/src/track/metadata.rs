@@ -3,10 +3,7 @@ crate
 :
 :
 {
-hal_api
-:
-:
-HalApi
+hub
 id
 :
 :
@@ -63,6 +60,9 @@ ResourceMetadata
 <
 A
 :
+hub
+:
+:
 HalApi
 >
 {
@@ -97,6 +97,9 @@ A
 impl
 <
 A
+:
+hub
+:
 :
 HalApi
 >
@@ -804,6 +807,9 @@ ResourceMetadataProvider
 a
 A
 :
+hub
+:
+:
 HalApi
 >
 {
@@ -843,6 +849,9 @@ Epoch
 impl
 <
 A
+:
+hub
+:
 :
 HalApi
 >
