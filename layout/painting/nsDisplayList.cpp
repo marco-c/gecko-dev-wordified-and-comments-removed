@@ -11884,10 +11884,7 @@ mDepth
 ;
 }
 return
-this
-<
-&
-aOther
+false
 ;
 }
 bool
@@ -11955,7 +11952,7 @@ return
 }
 aSource
 .
-Sort
+StableSort
 (
 )
 ;
