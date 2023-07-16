@@ -91,6 +91,10 @@ browser
 )
 :
     
+bidi_session
+=
+None
+    
 current_browser
 =
 browser
@@ -99,22 +103,6 @@ use_bidi
 =
 True
 )
-    
-bidi_session
-=
-None
-    
-server_host
-=
-current_browser
-.
-remote_agent_host
-    
-server_port
-=
-current_browser
-.
-remote_agent_port
     
 async
 def
@@ -126,6 +114,38 @@ capabilities
 }
 )
 :
+        
+nonlocal
+current_browser
+        
+if
+current_browser
+.
+is_running
+is
+False
+:
+            
+current_browser
+=
+browser
+(
+use_bidi
+=
+True
+)
+        
+server_host
+=
+current_browser
+.
+remote_agent_host
+        
+server_port
+=
+current_browser
+.
+remote_agent_port
         
 nonlocal
 bidi_session
@@ -156,6 +176,12 @@ requested_capabilities
 capabilities
         
 )
+        
+bidi_session
+.
+current_browser
+=
+current_browser
         
 await
 bidi_session
@@ -270,22 +296,30 @@ yield
 new_session
     
 if
+(
+        
 bidi_session
 is
 not
 None
-:
         
-if
-(
-            
+and
+bidi_session
+.
+current_browser
+.
+is_running
+is
+True
+        
+and
 bidi_session
 .
 session_id
 is
 not
 None
-            
+        
 and
 bidi_session
 .
@@ -296,10 +330,10 @@ connection
 closed
 is
 False
-        
+    
 )
 :
-            
+        
 await
 bidi_session
 .
