@@ -14853,6 +14853,7 @@ ArrayView
 <
 Connection
 *
+const
 >
 connections
 =
@@ -14917,6 +14918,7 @@ ArrayView
 <
 Connection
 *
+const
 >
 connections
 =
@@ -15007,6 +15009,7 @@ ArrayView
 <
 Connection
 *
+const
 >
 view
 =

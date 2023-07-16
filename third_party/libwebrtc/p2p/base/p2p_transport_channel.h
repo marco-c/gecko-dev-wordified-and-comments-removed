@@ -1216,6 +1216,7 @@ ArrayView
 <
 Connection
 *
+const
 >
 connections
 (
