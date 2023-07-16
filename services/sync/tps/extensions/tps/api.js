@@ -67,7 +67,7 @@ TPS
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -78,7 +78,9 @@ tps
 /
 tps
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
