@@ -2600,7 +2600,7 @@ wizard
 let
 panelList
 =
-wizard
+shadow
 .
 querySelector
 (
@@ -2800,7 +2800,7 @@ node
 let
 panelItem
 =
-wizard
+shadow
 .
 querySelector
 (

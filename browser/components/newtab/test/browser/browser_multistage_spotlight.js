@@ -511,9 +511,7 @@ await
 migrationWizardReady
 ;
 let
-[
 panelList
-]
 =
 win
 .
@@ -528,7 +526,16 @@ wizard
 "
 )
 .
-children
+openOrClosedShadowRoot
+.
+querySelector
+(
+"
+panel
+-
+list
+"
+)
 ;
 Assert
 .
