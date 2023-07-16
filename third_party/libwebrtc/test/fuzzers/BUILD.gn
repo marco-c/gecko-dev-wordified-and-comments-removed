@@ -160,7 +160,7 @@ testing
 /
 libfuzzer
 :
-libfuzzer_main
+fuzzing_engine_main
 "
 ]
 #
