@@ -200,6 +200,15 @@ include
 "
 frontend
 /
+BytecodeCompiler
+.
+h
+"
+#
+include
+"
+frontend
+/
 FrontendContext
 .
 h
