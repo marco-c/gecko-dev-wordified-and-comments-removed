@@ -423,6 +423,11 @@ OriginOperationBase
 cpp
 "
 "
+OriginOperations
+.
+cpp
+"
+"
 PersistenceType
 .
 cpp
