@@ -13029,7 +13029,7 @@ origin
 aPrincipal
 -
 >
-GetWebExposedOriginSerialization
+GetOrigin
 (
 origin
 )

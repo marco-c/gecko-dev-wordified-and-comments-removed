@@ -1816,7 +1816,7 @@ rv
 oldPrincipal
 -
 >
-GetOrigin
+GetOriginNoSuffix
 (
 oldOrigin
 )
@@ -1844,6 +1844,7 @@ the
 origin
 from
 the
+old
 Principal
 "
 )
@@ -1857,12 +1858,11 @@ newOrigin
 ;
 rv
 =
-nsContentUtils
-:
-:
-GetWebExposedOriginSerialization
+newPrincipal
+-
+>
+GetOriginNoSuffix
 (
-aNewURI
 newOrigin
 )
 ;
@@ -1889,7 +1889,8 @@ the
 origin
 from
 the
-URI
+new
+Principal
 "
 )
 )
