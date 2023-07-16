@@ -1682,7 +1682,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -1805,7 +1805,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -1924,7 +1924,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -2043,7 +2043,7 @@ a
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -2060,7 +2060,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -2178,7 +2178,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -2299,7 +2299,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -2418,7 +2418,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -2537,7 +2537,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -2656,7 +2656,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -2951,7 +2951,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -3051,7 +3051,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -3151,7 +3151,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -3253,7 +3253,7 @@ span
 class
 =
 "
-success
+message
 -
 text
 deemphasized
@@ -7231,7 +7231,7 @@ icon
 )
 ;
 let
-successText
+messageText
 =
 group
 .
@@ -7240,7 +7240,7 @@ querySelector
 "
 span
 .
-success
+message
 -
 text
 "
@@ -7256,7 +7256,7 @@ querySelector
 "
 a
 .
-success
+message
 -
 text
 "
@@ -7370,7 +7370,7 @@ id
 ;
 }
 }
-successText
+messageText
 .
 textContent
 =
@@ -7480,7 +7480,7 @@ loading
 "
 )
 ;
-successText
+messageText
 .
 textContent
 =
@@ -7552,7 +7552,7 @@ not
 fully
 collapse
 .
-successText
+messageText
 .
 appendChild
 (
@@ -7610,7 +7610,7 @@ success
 "
 )
 ;
-successText
+messageText
 .
 textContent
 =
@@ -7635,7 +7635,7 @@ DISPLAYED_RESOURCE_TYPES
 EXTENSIONS
 )
 {
-successText
+messageText
 .
 textContent
 =
@@ -7713,7 +7713,7 @@ warning
 "
 )
 ;
-successText
+messageText
 .
 textContent
 =
@@ -7799,7 +7799,7 @@ info
 "
 )
 ;
-successText
+messageText
 .
 textContent
 =
@@ -7850,7 +7850,7 @@ DISPLAYED_RESOURCE_TYPES
 EXTENSIONS
 )
 {
-successText
+messageText
 .
 textContent
 =
@@ -8355,7 +8355,7 @@ icon
 )
 ;
 let
-successText
+messageText
 =
 group
 .
@@ -8363,7 +8363,7 @@ querySelector
 (
 "
 .
-success
+message
 -
 text
 "
@@ -8428,7 +8428,7 @@ loading
 "
 )
 ;
-successText
+messageText
 .
 textContent
 =
@@ -8462,7 +8462,7 @@ not
 fully
 collapse
 .
-successText
+messageText
 .
 appendChild
 (
@@ -8520,7 +8520,7 @@ success
 "
 )
 ;
-successText
+messageText
 .
 textContent
 =
@@ -8580,7 +8580,7 @@ warning
 "
 )
 ;
-successText
+messageText
 .
 textContent
 =

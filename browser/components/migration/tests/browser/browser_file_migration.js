@@ -793,7 +793,7 @@ progressGroups
 )
 {
 let
-expectedSuccessText
+expectedMessageText
 =
 SUCCESS_STATE
 [
@@ -806,7 +806,7 @@ resourceType
 ;
 if
 (
-expectedSuccessText
+expectedMessageText
 )
 {
 let
@@ -850,7 +850,7 @@ state
 )
 ;
 let
-successText
+messageText
 =
 progressGroup
 .
@@ -858,7 +858,7 @@ querySelector
 (
 "
 .
-success
+message
 -
 text
 "
@@ -870,8 +870,8 @@ Assert
 .
 equal
 (
-successText
-expectedSuccessText
+messageText
+expectedMessageText
 )
 ;
 }

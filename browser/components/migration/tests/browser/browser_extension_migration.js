@@ -122,7 +122,7 @@ icon
 )
 ;
 let
-successText
+messageText
 =
 progressGroup
 .
@@ -131,7 +131,7 @@ querySelector
 "
 span
 .
-success
+message
 -
 text
 "
@@ -162,7 +162,7 @@ querySelector
 "
 a
 .
-success
+message
 -
 text
 "
@@ -201,7 +201,7 @@ Assert
 .
 stringMatches
 (
-successText
+messageText
 .
 textContent
 "
@@ -280,7 +280,7 @@ Assert
 .
 stringMatches
 (
-successText
+messageText
 .
 textContent
 description
