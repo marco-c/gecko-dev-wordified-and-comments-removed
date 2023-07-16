@@ -626,6 +626,13 @@ this
 UNSUPPORTED
 ;
 }
+if
+(
+AppConstants
+.
+MOZ_NORMANDY
+)
+{
 Glean
 .
 firstStartup
@@ -633,6 +640,10 @@ firstStartup
 normandyInitTime
 .
 set
+(
+Math
+.
+ceil
 (
 normandyInitEndTime
 |
@@ -645,7 +656,9 @@ now
 -
 startingTime
 )
+)
 ;
+}
 if
 (
 AppConstants
@@ -661,6 +674,10 @@ deleteTasksTime
 .
 set
 (
+Math
+.
+ceil
+(
 deleteTasksEndTime
 |
 |
@@ -671,6 +688,7 @@ now
 )
 -
 startingTime
+)
 )
 ;
 }
