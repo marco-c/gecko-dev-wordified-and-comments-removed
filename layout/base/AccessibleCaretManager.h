@@ -273,6 +273,12 @@ OnKeyboardEvent
 (
 )
 ;
+virtual
+void
+OnFrameReconstruction
+(
+)
+;
 void
 SetLastInputSource
 (

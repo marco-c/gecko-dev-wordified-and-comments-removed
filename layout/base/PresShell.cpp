@@ -4556,7 +4556,6 @@ UpdatePreferenceStyles
 (
 )
 ;
-const
 bool
 accessibleCaretEnabled
 =
@@ -4581,13 +4580,6 @@ new
 AccessibleCaretEventHub
 (
 this
-)
-;
-mAccessibleCaretEventHub
--
->
-Init
-(
 )
 ;
 }
