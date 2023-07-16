@@ -23,7 +23,7 @@ export
 function
 setExpandedScope
 (
-cx
+selectedFrame
 item
 expanded
 )
@@ -46,12 +46,7 @@ type
 "
 SET_EXPANDED_SCOPE
 "
-cx
-thread
-:
-cx
-.
-thread
+selectedFrame
 path
 :
 getScopeItemPath
