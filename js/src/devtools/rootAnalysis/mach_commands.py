@@ -60,6 +60,12 @@ Registrar
 from
 mozbuild
 .
+base
+import
+BuildEnvironmentNotFoundException
+from
+mozbuild
+.
 mozconfig
 import
 MozconfigLoader
