@@ -2427,6 +2427,15 @@ Type
 :
 Shape
 :
+case
+StubField
+:
+:
+Type
+:
+:
+WeakShape
+:
 {
 uintptr_t
 word
