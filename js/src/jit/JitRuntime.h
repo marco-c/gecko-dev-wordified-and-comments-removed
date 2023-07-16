@@ -1069,6 +1069,16 @@ Label
 vmCall
 )
 ;
+void
+generateIonGenericCallNativeFunction
+(
+MacroAssembler
+&
+masm
+bool
+isConstructing
+)
+;
 JitCode
 *
 generateDebugTrapHandler
