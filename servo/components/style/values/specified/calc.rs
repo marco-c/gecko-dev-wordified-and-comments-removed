@@ -6744,6 +6744,8 @@ matches
 (
 function
 Abs
+|
+Sign
 )
 {
 static_prefs
