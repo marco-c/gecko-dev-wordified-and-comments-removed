@@ -888,15 +888,6 @@ false
 '
 browser
 .
-translations
-.
-enable
-'
-:
-false
-'
-browser
-.
 uitour
 .
 enabled
