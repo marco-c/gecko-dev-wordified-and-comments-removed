@@ -10512,7 +10512,6 @@ ClearCachedValue
 }
 }
 else
-{
 if
 (
 !
@@ -10552,7 +10551,13 @@ value
 ;
 aValue
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 }
 else
@@ -10579,7 +10584,6 @@ r
 1
 )
 ;
-}
 }
 }
 bool
