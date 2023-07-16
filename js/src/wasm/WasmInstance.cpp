@@ -15243,6 +15243,9 @@ WasmStructObject
 :
 :
 createStruct
+<
+true
+>
 (
 cx
 typeDefData
