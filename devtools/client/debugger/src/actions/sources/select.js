@@ -180,6 +180,7 @@ canPrettyPrintSource
 getIsCurrentThreadPaused
 getSourceTextContent
 tabExists
+getContext
 }
 from
 "
@@ -221,7 +222,6 @@ const
 setPendingSelectedLocation
 =
 (
-cx
 url
 options
 )
@@ -234,7 +234,6 @@ type
 "
 SET_PENDING_SELECTED_LOCATION
 "
-cx
 url
 line
 :
@@ -255,7 +254,8 @@ export
 const
 clearSelectedLocation
 =
-cx
+(
+)
 =
 >
 (
@@ -265,7 +265,6 @@ type
 "
 CLEAR_SELECTED_LOCATION
 "
-cx
 }
 )
 ;
@@ -273,7 +272,6 @@ export
 function
 selectSourceURL
 (
-cx
 url
 options
 )
@@ -311,13 +309,22 @@ dispatch
 (
 setPendingSelectedLocation
 (
-cx
 url
 options
 )
 )
 ;
 }
+const
+cx
+=
+getContext
+(
+getState
+(
+)
+)
+;
 const
 location
 =
@@ -450,7 +457,6 @@ dispatch
 (
 clearSelectedLocation
 (
-cx
 )
 )
 ;

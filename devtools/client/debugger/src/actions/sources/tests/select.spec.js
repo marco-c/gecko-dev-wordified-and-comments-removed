@@ -1321,7 +1321,6 @@ actions
 .
 clearSelectedLocation
 (
-cx
 )
 )
 ;
@@ -1363,7 +1362,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1400,7 +1398,6 @@ actions
 .
 setPendingSelectedLocation
 (
-cx
 url
 options
 )
@@ -1445,7 +1442,6 @@ actions
 .
 clearSelectedLocation
 (
-cx
 )
 )
 ;
@@ -1839,7 +1835,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1866,7 +1861,6 @@ actions
 .
 selectSourceURL
 (
-cx
 baseSourceURL
 )
 )
