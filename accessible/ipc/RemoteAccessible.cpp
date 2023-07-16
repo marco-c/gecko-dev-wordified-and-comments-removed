@@ -6456,13 +6456,6 @@ DOMNodeIDAndClass
 ;
 }
 }
-#
-if
-!
-defined
-(
-XP_WIN
-)
 void
 RemoteAccessible
 :
@@ -6492,6 +6485,13 @@ aY
 )
 ;
 }
+#
+if
+!
+defined
+(
+XP_WIN
+)
 void
 RemoteAccessible
 :

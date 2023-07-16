@@ -491,9 +491,6 @@ uint32_t
 aScrollType
 )
 ;
-#
-ifndef
-XP_WIN
 async
 ScrollToPoint
 (
@@ -507,6 +504,9 @@ int32_t
 aY
 )
 ;
+#
+ifndef
+XP_WIN
 async
 Announce
 (

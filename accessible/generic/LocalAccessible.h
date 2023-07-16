@@ -1168,6 +1168,7 @@ aHow
 const
 override
 ;
+virtual
 void
 ScrollToPoint
 (
@@ -1178,6 +1179,7 @@ aX
 int32_t
 aY
 )
+override
 ;
 virtual
 void
