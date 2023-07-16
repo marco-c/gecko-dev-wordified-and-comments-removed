@@ -173,7 +173,7 @@ virtual
 bool
 SendData
 (
-int
+StreamId
 sid
 const
 SendDataParams
@@ -200,7 +200,7 @@ virtual
 void
 AddSctpDataStream
 (
-int
+StreamId
 sid
 )
 =
@@ -210,7 +210,7 @@ virtual
 void
 RemoveSctpDataStream
 (
-int
+StreamId
 sid
 )
 =

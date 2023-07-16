@@ -225,7 +225,7 @@ delete
 bool
 SendData
 (
-int
+StreamId
 sid
 const
 SendDataParams
@@ -250,7 +250,7 @@ override
 void
 AddSctpDataStream
 (
-int
+StreamId
 sid
 )
 override
@@ -258,7 +258,7 @@ override
 void
 RemoveSctpDataStream
 (
-int
+StreamId
 sid
 )
 override
@@ -528,7 +528,7 @@ signaling_thread
 bool
 DataChannelSendData
 (
-int
+StreamId
 sid
 const
 SendDataParams

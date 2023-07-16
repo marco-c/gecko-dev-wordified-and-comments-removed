@@ -131,7 +131,7 @@ DataChannelController
 :
 SendData
 (
-int
+StreamId
 sid
 const
 SendDataParams
@@ -192,7 +192,7 @@ DataChannelController
 :
 AddSctpDataStream
 (
-int
+StreamId
 sid
 )
 {
@@ -230,6 +230,10 @@ data_channel_transport
 OpenChannel
 (
 sid
+.
+stream_id_int
+(
+)
 )
 ;
 }
@@ -244,7 +248,7 @@ DataChannelController
 :
 RemoveSctpDataStream
 (
-int
+StreamId
 sid
 )
 {
@@ -282,6 +286,10 @@ data_channel_transport
 CloseChannel
 (
 sid
+.
+stream_id_int
+(
+)
 )
 ;
 }
@@ -1942,7 +1950,7 @@ DataChannelController
 :
 DataChannelSendData
 (
-int
+StreamId
 sid
 const
 SendDataParams
@@ -2003,6 +2011,10 @@ data_channel_transport
 SendData
 (
 sid
+.
+stream_id_int
+(
+)
 params
 payload
 )
