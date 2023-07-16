@@ -4420,10 +4420,10 @@ else
 {
 mConverter
 =
-MakeAndAddRef
-<
 VideoFrameConverter
->
+:
+:
+Create
 (
 GetTimestampMaker
 (
