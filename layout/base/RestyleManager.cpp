@@ -10711,6 +10711,8 @@ AsElement
 }
 bool
 wasRestyled
+=
+false
 ;
 Unused
 <
@@ -12186,6 +12188,8 @@ IsColumnSpanInMulticolSubtree
 ;
 bool
 wasRestyled
+=
+false
 ;
 nsChangeHint
 changeHint
