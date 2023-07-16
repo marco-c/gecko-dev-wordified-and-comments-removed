@@ -275,7 +275,7 @@ void
 SimulatedThread
 :
 :
-BlockingCall
+BlockingCallImpl
 (
 rtc
 :
@@ -287,6 +287,9 @@ void
 )
 >
 functor
+const
+Location
+&
 )
 {
 if
