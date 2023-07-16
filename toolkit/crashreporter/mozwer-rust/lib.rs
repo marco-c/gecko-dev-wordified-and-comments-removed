@@ -689,7 +689,6 @@ Result
 >
 {
 let
-mut
 exception_information
 =
 unsafe
