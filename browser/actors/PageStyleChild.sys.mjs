@@ -947,15 +947,6 @@ Add
 "
 {
 filteredStyleSheets
-authorStyleDisabled
-:
-this
-.
-docShell
-.
-contentViewer
-.
-authorStyleDisabled
 preferredStyleSheetSet
 :
 this
