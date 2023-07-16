@@ -30194,6 +30194,9 @@ emitMemDiscard
 (
 )
 {
+uint32_t
+memoryIndex
+;
 Nothing
 nothing
 ;
@@ -30204,6 +30207,8 @@ iter_
 .
 readMemDiscard
 (
+&
+memoryIndex
 &
 nothing
 &
@@ -30226,6 +30231,7 @@ true
 }
 pushHeapBase
 (
+memoryIndex
 )
 ;
 return
@@ -30233,11 +30239,13 @@ emitInstanceCall
 (
 usesSharedMemory
 (
+memoryIndex
 )
 ?
 (
 isMem32
 (
+memoryIndex
 )
 ?
 SASigMemDiscardSharedM32
@@ -30248,6 +30256,7 @@ SASigMemDiscardSharedM64
 (
 isMem32
 (
+memoryIndex
 )
 ?
 SASigMemDiscardM32

@@ -9081,12 +9081,17 @@ op
 )
 ;
 }
+uint32_t
+unusedMemoryIndex
+;
 CHECK
 (
 iter
 .
 readMemDiscard
 (
+&
+unusedMemoryIndex
 &
 nothing
 &
