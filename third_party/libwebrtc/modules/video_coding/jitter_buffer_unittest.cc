@@ -60,7 +60,7 @@ video_coding
 /
 deprecated
 /
-packet
+frame_buffer
 .
 h
 "
@@ -71,7 +71,9 @@ modules
 /
 video_coding
 /
-frame_buffer
+deprecated
+/
+packet
 .
 h
 "
