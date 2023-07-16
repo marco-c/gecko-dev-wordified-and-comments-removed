@@ -258,6 +258,11 @@ QuotaObject
 h
 "
 "
+QuotaParent
+.
+h
+"
+"
 RemoteQuotaObjectChild
 .
 h
@@ -449,6 +454,11 @@ cpp
 "
 "
 QuotaObject
+.
+cpp
+"
+"
+QuotaParent
 .
 cpp
 "
