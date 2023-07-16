@@ -1259,10 +1259,9 @@ uint32_t
 instanceDataLength
 Handle
 <
-WasmMemoryObject
-*
+WasmMemoryObjectVector
 >
-memory
+memories
 Vector
 <
 RefPtr

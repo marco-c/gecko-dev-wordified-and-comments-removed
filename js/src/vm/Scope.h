@@ -4394,6 +4394,11 @@ nextFrameSlot
 0
 ;
 uint32_t
+memoriesStart
+=
+0
+;
+uint32_t
 globalsStart
 =
 0
@@ -4568,7 +4573,13 @@ memoriesStart
 const
 {
 return
-0
+data
+(
+)
+.
+slotInfo
+.
+memoriesStart
 ;
 }
 uint32_t

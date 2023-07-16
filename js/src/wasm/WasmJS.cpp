@@ -9910,10 +9910,9 @@ uint32_t
 instanceDataLength
 Handle
 <
-WasmMemoryObject
-*
+WasmMemoryObjectVector
 >
-memory
+memories
 SharedTableVector
 &
 &
@@ -10330,7 +10329,6 @@ cx
 obj
 code
 instanceDataLength
-memory
 std
 :
 :
@@ -10391,6 +10389,7 @@ init
 cx
 funcImports
 globalImportValues
+memories
 globalObjs
 tagObjs
 dataSegments
@@ -14141,7 +14140,7 @@ if
 observers
 -
 >
-putNew
+put
 (
 instance
 )
@@ -14567,6 +14566,7 @@ instance
 .
 onMovingGrowMemory
 (
+memory
 )
 ;
 }

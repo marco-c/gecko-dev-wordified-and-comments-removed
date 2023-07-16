@@ -1430,9 +1430,6 @@ nameCustomSectionIndex
 bool
 filenameIsURL
 ;
-bool
-omitsBoundsChecks
-;
 uint32_t
 typeDefsOffsetStart
 ;
@@ -1452,7 +1449,6 @@ instanceDataLength
 startFuncIndex
 nameCustomSectionIndex
 filenameIsURL
-omitsBoundsChecks
 typeDefsOffsetStart
 tablesOffsetStart
 tagsOffsetStart
@@ -1473,10 +1469,6 @@ instanceDataLength
 0
 )
 filenameIsURL
-(
-false
-)
-omitsBoundsChecks
 (
 false
 )
