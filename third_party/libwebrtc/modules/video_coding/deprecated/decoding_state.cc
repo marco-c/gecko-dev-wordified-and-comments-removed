@@ -5,6 +5,8 @@ modules
 /
 video_coding
 /
+deprecated
+/
 decoding_state
 .
 h
