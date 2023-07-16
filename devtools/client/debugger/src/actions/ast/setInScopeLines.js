@@ -124,8 +124,8 @@ async
 function
 getInScopeLines
 (
-cx
 location
+sourceTextContent
 {
 dispatch
 getState
@@ -133,17 +133,6 @@ parserWorker
 }
 )
 {
-const
-sourceTextContent
-=
-getSourceTextContent
-(
-getState
-(
-)
-location
-)
-;
 let
 locations
 =
@@ -295,7 +284,6 @@ export
 function
 setInScopeLines
 (
-cx
 )
 {
 return
@@ -373,8 +361,8 @@ lines
 await
 getInScopeLines
 (
-cx
 location
+sourceTextContent
 thunkArgs
 )
 ;
@@ -386,7 +374,6 @@ type
 "
 IN_SCOPE_LINES
 "
-cx
 location
 lines
 }
