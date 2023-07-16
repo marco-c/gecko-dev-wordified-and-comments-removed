@@ -2925,6 +2925,10 @@ MFCDMProxy
 aCDMProxy
 )
 {
+AssertOnManagerThread
+(
+)
+;
 mCDMProxy
 =
 aCDMProxy
