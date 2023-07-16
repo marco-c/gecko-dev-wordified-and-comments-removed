@@ -2138,6 +2138,9 @@ NetworkUtils
 getBlockedReason
 (
 channel
+httpActivity
+.
+fromCache
 )
 ;
 this
@@ -2806,6 +2809,9 @@ NetworkUtils
 getBlockedReason
 (
 channel
+httpActivity
+.
+fromCache
 )
 ;
 this

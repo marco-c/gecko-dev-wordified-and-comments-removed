@@ -3229,6 +3229,12 @@ this
 httpActivity
 .
 channel
+this
+.
+#
+httpActivity
+.
+fromCache
 )
 ;
 this
