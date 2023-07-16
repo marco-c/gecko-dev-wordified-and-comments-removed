@@ -20,6 +20,7 @@ menu
 ;
 import
 {
+getContext
 getBreakpointsForSource
 }
 from
@@ -78,6 +79,14 @@ state
 =
 getState
 (
+)
+;
+const
+cx
+=
+getContext
+(
+state
 )
 ;
 const
@@ -223,6 +232,7 @@ dispatch
 (
 disableBreakpointsInSource
 (
+cx
 source
 )
 )
@@ -264,6 +274,7 @@ dispatch
 (
 enableBreakpointsInSource
 (
+cx
 source
 )
 )
@@ -305,6 +316,7 @@ dispatch
 (
 removeBreakpointsInSource
 (
+cx
 source
 )
 )

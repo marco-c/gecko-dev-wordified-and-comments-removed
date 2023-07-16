@@ -510,10 +510,16 @@ event
 shiftKey
 )
 {
-toggleDisabledBreakpoint
-(
+const
+breakpoint
+=
 columnBreakpoint
 .
+breakpoint
+;
+toggleDisabledBreakpoint
+(
+cx
 breakpoint
 )
 ;
@@ -529,6 +535,7 @@ breakpoint
 {
 removeBreakpoint
 (
+cx
 columnBreakpoint
 .
 breakpoint

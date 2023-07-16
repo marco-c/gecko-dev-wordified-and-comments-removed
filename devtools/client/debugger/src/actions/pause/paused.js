@@ -171,6 +171,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 hiddenBreakpoint
 )
 )
@@ -222,12 +223,13 @@ location
 )
 )
 ;
+}
 await
 dispatch
 (
 fetchScopes
 (
-selectedFrame
+cx
 )
 )
 ;
@@ -264,11 +266,10 @@ dispatch
 (
 evaluateExpressions
 (
-selectedFrame
+cx
 )
 )
 ;
-}
 }
 }
 ;

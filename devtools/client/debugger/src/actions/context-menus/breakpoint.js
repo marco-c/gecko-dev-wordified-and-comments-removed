@@ -839,6 +839,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -918,6 +919,7 @@ dispatch
 (
 removeBreakpoints
 (
+cx
 otherBreakpoints
 )
 )
@@ -974,6 +976,7 @@ dispatch
 (
 toggleDisabledBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -1031,6 +1034,7 @@ dispatch
 (
 toggleAllBreakpoints
 (
+cx
 false
 )
 )
@@ -1086,6 +1090,7 @@ dispatch
 (
 toggleBreakpoints
 (
+cx
 false
 otherDisabledBreakpoints
 )
@@ -1127,6 +1132,7 @@ dispatch
 (
 toggleDisabledBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -1168,6 +1174,7 @@ dispatch
 (
 toggleAllBreakpoints
 (
+cx
 true
 )
 )
@@ -1204,6 +1211,7 @@ dispatch
 (
 toggleBreakpoints
 (
+cx
 true
 otherEnabledBreakpoints
 )

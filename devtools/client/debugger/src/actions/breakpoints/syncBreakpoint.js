@@ -96,6 +96,7 @@ async
 function
 findBreakpointPosition
 (
+cx
 {
 getState
 dispatch
@@ -111,7 +112,10 @@ dispatch
 (
 setBreakpointPositions
 (
+{
+cx
 location
+}
 )
 )
 ;
@@ -309,6 +313,7 @@ newPosition
 await
 findBreakpointPosition
 (
+cx
 thunkArgs
 originalLocation
 )
@@ -336,6 +341,7 @@ dispatch
 (
 removeBreakpointAtGeneratedLocation
 (
+cx
 sourceGeneratedLocation
 )
 )
@@ -364,6 +370,7 @@ dispatch
 (
 removeBreakpointAtGeneratedLocation
 (
+cx
 sourceGeneratedLocation
 )
 )

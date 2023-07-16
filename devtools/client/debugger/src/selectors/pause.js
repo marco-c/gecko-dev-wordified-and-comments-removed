@@ -540,8 +540,7 @@ framesLoading
 )
 {
 return
-[
-]
+null
 ;
 }
 return
