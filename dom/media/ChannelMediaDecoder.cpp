@@ -2290,6 +2290,14 @@ if
 (
 aDuration
 .
+IsValid
+(
+)
+&
+&
+!
+aDuration
+.
 IsInfinite
 (
 )
@@ -2300,8 +2308,6 @@ aDuration
 IsPositive
 (
 )
->
-0
 &
 &
 length
