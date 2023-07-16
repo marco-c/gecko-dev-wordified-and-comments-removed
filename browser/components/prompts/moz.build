@@ -69,9 +69,8 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Notifications
-and
-Alerts
+Content
+Prompts
 "
 )
 EXTRA_JS_MODULES

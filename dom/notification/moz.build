@@ -11,12 +11,12 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
+Core
 "
 "
+DOM
+:
 Notifications
-and
-Alerts
 "
 )
 EXTRA_JS_MODULES

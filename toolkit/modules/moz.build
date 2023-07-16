@@ -797,9 +797,10 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Notifications
+PopupNotifications
 and
-Alerts
+Notification
+Bars
 "
 )
 with
@@ -936,9 +937,8 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Notifications
-and
-Alerts
+Content
+Prompts
 "
 )
 with
