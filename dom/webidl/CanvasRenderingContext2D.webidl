@@ -312,6 +312,8 @@ expanded
 "
 }
 ;
+/
+/
 enum
 CanvasFontVariantCaps
 {
@@ -2319,6 +2321,10 @@ default
 normal
 "
 )
+/
+/
+NOT
+IMPLEMENTED
 attribute
 CanvasFontVariantCaps
 fontVariantCaps
