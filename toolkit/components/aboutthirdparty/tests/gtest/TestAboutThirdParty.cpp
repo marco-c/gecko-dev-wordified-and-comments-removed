@@ -995,14 +995,10 @@ if
 bounds
 .
 second
-(
-)
 -
 bounds
 .
 first
-(
-)
 !
 =
 1
@@ -1029,8 +1025,6 @@ locations
 bounds
 .
 first
-(
-)
 ]
 .
 first
