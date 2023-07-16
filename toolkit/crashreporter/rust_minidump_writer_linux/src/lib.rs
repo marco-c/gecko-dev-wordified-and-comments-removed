@@ -444,7 +444,6 @@ zeroed
 )
 ;
 let
-mut
 cc
 =
 &
