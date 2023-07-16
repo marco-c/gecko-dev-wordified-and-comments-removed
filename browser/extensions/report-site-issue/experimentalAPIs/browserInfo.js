@@ -580,15 +580,6 @@ enabled
 "
 :
 false
-"
-image
-.
-mem
-.
-shared
-"
-:
-true
 }
 )
 )
