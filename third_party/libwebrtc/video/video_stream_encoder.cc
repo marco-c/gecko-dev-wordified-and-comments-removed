@@ -7810,6 +7810,14 @@ codec_type
 =
 =
 kVideoCodecVP9
+&
+&
+encoder_config_
+.
+number_of_streams
+=
+=
+1
 )
 {
 streams
