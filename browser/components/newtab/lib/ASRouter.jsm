@@ -6484,6 +6484,11 @@ case
 pdfJsFeatureCalloutCheck
 "
 :
+case
+"
+newtabFeatureCalloutCheck
+"
+:
 break
 ;
 default
