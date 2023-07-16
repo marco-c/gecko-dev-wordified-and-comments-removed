@@ -2445,7 +2445,7 @@ false
 ;
 }
 }
-if
+MOZ_ASSERT
 (
 !
 cx
@@ -2455,7 +2455,7 @@ isHelperThreadContext
 (
 )
 )
-{
+;
 if
 (
 !
@@ -2506,7 +2506,6 @@ instantiateOptions
 script
 )
 ;
-}
 return
 true
 ;
@@ -8102,7 +8101,7 @@ fun
 )
 )
 ;
-if
+MOZ_ASSERT
 (
 !
 cx
@@ -8112,7 +8111,7 @@ isHelperThreadContext
 (
 )
 )
-{
+;
 if
 (
 !
@@ -8128,7 +8127,6 @@ cx
 return
 nullptr
 ;
-}
 }
 if
 (
@@ -8156,17 +8154,6 @@ parameterListEnd
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-cx
--
->
-isHelperThreadContext
-(
-)
-)
-;
 const
 JS
 :
