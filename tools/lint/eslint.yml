@@ -300,16 +300,6 @@ globalOverlay
 .
 js
 '
--
-'
-toolkit
-/
-modules
-/
-Services
-.
-jsm
-'
 type
 :
 external
