@@ -801,11 +801,11 @@ mClosePromiseHolder
 uint32_t
 mRegCount
 ;
-State
-mState
-;
 DatabaseVersion
 mVersion
+;
+State
+mState
 ;
 }
 ;
