@@ -998,7 +998,7 @@ False
 )
 async
 def
-test_params_max_object_depth_invalid_type
+test_params_include_shadow_tree_invalid_type
 (
 bidi_session
 top_context
@@ -1060,8 +1060,9 @@ True
 )
 async
 def
-test_params_max_object_depth_invalid_value
+test_params_include_shadow_tree_invalid_value
 (
+        
 bidi_session
 top_context
 )
