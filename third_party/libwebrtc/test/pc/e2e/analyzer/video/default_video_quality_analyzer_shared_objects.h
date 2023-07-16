@@ -501,6 +501,11 @@ StreamCodecInfo
 >
 decoders
 ;
+double
+harmonic_framerate_fps
+=
+0
+;
 }
 ;
 struct
