@@ -8855,6 +8855,12 @@ case
 JSOp
 :
 :
+AsyncReject
+:
+case
+JSOp
+:
+:
 Finally
 :
 case
