@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-d76cada1245a655255d71c6166dc5417f2756bd5
+6aac6345f8699d0119c06d974d814c23c36abf08
 '
 #
 Fetch
@@ -188,9 +188,9 @@ version
 :
 11
 .
-20230221
+20230222
 .
-2
+4
 .
 1
 '
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-0fc91d5d9071a1619d481fbc6a166fcd9a4ac0a9
+106feb9958c0164a8eaeee2f29f6615a93c01e38
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-07283ef796b29a02df30fbdb498b978f31d00410
+153b10edb92db3fa91f1719abdeede55918a5a8c
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-d110f6238fee0e4c82ab64606e5e967a3c809c55
+c9ed0b613fbde914d8dbcf244ccfb291716f62a5
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-143d6295ffa1eb7446d5e3ee236bc2c67ecf1dc0
+134bf6f441baebd6929f449ae46043847e3991b8
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-b93e19cb405e9c39c414470ce1bca7e17aaae347
+fcbe55967d0c854c5418691feae68ede08ef0729
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-82835c7ebd240b08997ee36a42eae06b9e386b95
+e4c483947e1bc7e816baab445b09aa9e8539c1f0
 '
 '
 src
@@ -956,7 +956,7 @@ project
 libcxx
 .
 git
-abad4bb576d98d81c2d5861c3862cc87145f7dad
+09f68a400f9200921688efb34a341d9af4c0d3d8
 '
 '
 src
@@ -999,7 +999,7 @@ project
 libcxxabi
 .
 git
-5559ffe8ca32471e894f4cb04b7d18d28862677f
+87d8fe050bedb143f232b9ff99a0a46897640e5d
 '
 '
 src
@@ -1039,7 +1039,7 @@ project
 libunwind
 .
 git
-aecf8d01b908e9dbfe6741da2fe7425879df3537
+56a849f05a779772a131413aec408e60b664db60
 '
 '
 src
@@ -1387,7 +1387,7 @@ com
 catapult
 .
 git
-a22c2597b5bfa481324838866945c3ed7394ac47
+c824231b87da83398946863dcb7c0b69b6d016d5
 '
 '
 src
@@ -1517,7 +1517,7 @@ tools
 depot_tools
 .
 git
-30136f0cb715c04b8e3fb7aec59338f1563a76ae
+d85c5bc6ff0dee8171007d947aabc3dfa6dd433b
 '
 '
 src
@@ -1666,7 +1666,7 @@ external
 fontconfig
 .
 git
-2ef790a0dbbab24235d1b8c0325ab4414de5f0a9
+06929a556fdc39c8fe12965b69070c8df520a33e
 '
 '
 condition
@@ -1706,7 +1706,7 @@ third_party
 freetype2
 .
 git
-7f9499044e3baa901de99251a007aa66e750b26c
+3f01161ff22c84c371b6dc3b5e0351e0d6e8e771
 '
 '
 src
@@ -2774,7 +2774,9 @@ version
 '
 :
 '
-PwglNZFRNPkBBXdnY9NfrZFk2ULWDTRxhV9rl2kvkpUC
+If
+-
+y2Dxou76tPxzbjAxhESv2MK1f7UTlgmP5Zg1JfUQC
 '
 }
 ]
@@ -2956,7 +2958,7 @@ chromium
 src
 /
 tools
-6e72739081a707d893fab3016005273494428319
+0ddfcb996488f903a64ff6f6e15c19b0e96b2363
 '
 '
 src
@@ -3338,7 +3340,9 @@ version
 '
 :
 '
-waVlDuvM1_o0siiUN39LBaTpj0pfqoBRglXQgdicJicC
+OVxvEebhJr_xMeJW1cAq
+-
+rwMYIL1KI0r_mJ7Bbu1awUC
 '
 }
 ]
@@ -3965,7 +3969,7 @@ version
 '
 git_revision
 :
-c543f47ae455dbfe7e8fed5baa61a14d9068e98c
+8a8b4f2ea65c7ff5fde8a0c522008aed78d42d9d
 '
 }
 {
@@ -3995,7 +3999,7 @@ version
 '
 git_revision
 :
-c543f47ae455dbfe7e8fed5baa61a14d9068e98c
+8a8b4f2ea65c7ff5fde8a0c522008aed78d42d9d
 '
 }
 ]
