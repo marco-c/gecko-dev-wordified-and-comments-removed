@@ -185,8 +185,6 @@ emitInitialize
 (
 uint32_t
 forPos
-bool
-isIteratorMethodOnStack
 )
 ;
 [
