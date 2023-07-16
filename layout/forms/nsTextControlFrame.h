@@ -679,16 +679,6 @@ aModType
 )
 override
 ;
-bool
-TextEquals
-(
-const
-nsAString
-&
-aText
-)
-const
-;
 nsresult
 PeekOffset
 (

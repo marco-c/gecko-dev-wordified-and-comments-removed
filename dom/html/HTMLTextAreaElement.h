@@ -1359,16 +1359,6 @@ nsAString
 aValue
 )
 ;
-bool
-ValueEquals
-(
-const
-nsAString
-&
-aValue
-)
-const
-;
 MOZ_CAN_RUN_SCRIPT
 void
 SetValue

@@ -1077,16 +1077,6 @@ RevealPassword
 )
 const
 ;
-bool
-TextEditorValueEquals
-(
-const
-nsAString
-&
-aValue
-)
-const
-;
 uint32_t
 GetSelectionStartIgnoringType
 (
