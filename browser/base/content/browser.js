@@ -43086,6 +43086,16 @@ linkedBrowser
 currentURI
 .
 spec
+.
+split
+(
+"
+#
+"
+)
+[
+0
+]
 !
 =
 viewURL
