@@ -247,7 +247,7 @@ video_coding
 /
 timing
 /
-inter_frame_delay
+inter_frame_delay_variation_calculator
 .
 cc
 "
@@ -1472,6 +1472,6 @@ True
 Library
 (
 "
-inter_frame_delay_gn
+inter_frame_delay_variation_calculator_gn
 "
 )
