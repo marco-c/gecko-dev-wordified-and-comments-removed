@@ -5466,7 +5466,7 @@ lazy
 .
 assert
 .
-positiveNumber
+positiveInteger
 (
 maxDomDepth
 )
@@ -5485,7 +5485,7 @@ lazy
 .
 assert
 .
-positiveNumber
+positiveInteger
 (
 maxObjectDepth
 )
