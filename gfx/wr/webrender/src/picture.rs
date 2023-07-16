@@ -10983,7 +10983,6 @@ vis
 clip_chain
 ;
 let
-mut
 surface
 =
 &
