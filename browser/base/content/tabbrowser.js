@@ -29694,9 +29694,8 @@ disabled
 =
 SessionStore
 .
-getClosedTabCountForWindow
+getClosedTabCount
 (
-window
 )
 =
 =
