@@ -6880,8 +6880,11 @@ Telemetry
 .
 changedPref
 :
+>
 For
 preference_study
+or
+nimbus_experiment
 the
 preference
 that
@@ -6898,6 +6901,7 @@ bug_numbers
 :
 [
 1443560
+1843126
 ]
 notification_emails
 :
