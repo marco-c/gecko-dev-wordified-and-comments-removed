@@ -2535,11 +2535,11 @@ void
 RegExpBytecodeDisassembleSingle
 (
 const
-byte
+uint8_t
 *
 code_base
 const
-byte
+uint8_t
 *
 pc
 )
@@ -2548,7 +2548,7 @@ void
 RegExpBytecodeDisassemble
 (
 const
-byte
+uint8_t
 *
 code_base
 int

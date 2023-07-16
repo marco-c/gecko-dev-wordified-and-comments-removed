@@ -1988,7 +1988,7 @@ RegExpBytecodeGenerator
 :
 Copy
 (
-byte
+uint8_t
 *
 a
 )

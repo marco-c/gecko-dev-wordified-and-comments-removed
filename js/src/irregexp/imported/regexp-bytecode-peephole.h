@@ -49,7 +49,7 @@ String
 >
 source
 const
-byte
+uint8_t
 *
 bytecode
 int

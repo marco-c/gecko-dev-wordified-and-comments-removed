@@ -358,13 +358,13 @@ size
 =
 kMinimumDynamicStackSize
 ;
-byte
+uint8_t
 *
 new_memory
 =
 NewArray
 <
-byte
+uint8_t
 >
 (
 size

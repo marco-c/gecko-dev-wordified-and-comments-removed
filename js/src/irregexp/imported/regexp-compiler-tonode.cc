@@ -4418,6 +4418,13 @@ Rewind
 0
 )
 ;
+node
+-
+>
+is_negated_
+=
+false
+;
 }
 node
 -

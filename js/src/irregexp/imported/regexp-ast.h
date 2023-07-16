@@ -1970,7 +1970,6 @@ operator
 (
 )
 (
-const
 base
 :
 :
@@ -1982,9 +1981,7 @@ base
 :
 uc32
 >
-&
 lhs
-const
 base
 :
 :
@@ -1996,7 +1993,6 @@ base
 :
 uc32
 >
-&
 rhs
 )
 const
@@ -2445,7 +2441,6 @@ const
 OperationType
 operation_
 ;
-const
 bool
 is_negated_
 ;
