@@ -6816,7 +6816,13 @@ markup
 .
 content
 .
-setStyle
+root
+.
+firstElementChild
+.
+style
+.
+setProperty
 (
 "
 z
