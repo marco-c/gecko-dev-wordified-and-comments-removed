@@ -165,10 +165,10 @@ aRefBox
 ;
 static
 bool
-ComputeInsetRadii
+ComputeRectRadii
 (
 const
-StyleBasicShape
+StyleBorderRadius
 &
 const
 nsRect
@@ -177,7 +177,7 @@ aRefBox
 const
 nsRect
 &
-aInsetRect
+aRect
 nscoord
 aRadii
 [
@@ -321,12 +321,12 @@ gfx
 :
 Path
 >
-BuildInsetPath
+BuildRectPath
 (
 const
 nsRect
 &
-aInsetRect
+aRect
 const
 nscoord
 aRadii

@@ -11119,9 +11119,15 @@ hasRadii
 ShapeUtils
 :
 :
-ComputeInsetRadii
+ComputeRectRadii
 (
 aBasicShape
+.
+AsInset
+(
+)
+.
+round
 physicalShapeBoxRect
 insetRect
 physicalRadii
