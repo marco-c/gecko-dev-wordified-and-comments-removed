@@ -1277,6 +1277,11 @@ ATTR_FENCE
 static
 nsHtml5AttributeName
 *
+ATTR_NONCE
+;
+static
+nsHtml5AttributeName
+*
 ATTR_ONSCROLL
 ;
 static
