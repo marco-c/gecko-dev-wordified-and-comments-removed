@@ -203,6 +203,13 @@ job
 -
 defaults
 :
+use
+-
+system
+-
+python
+:
+false
 attributes
 :
 retrigger
