@@ -200,12 +200,6 @@ SamplesStatsCounter
 :
 StatsSample
 ;
-constexpr
-int
-kMaxFramesInFlightPerStream
-=
-10
-;
 DefaultVideoQualityAnalyzerOptions
 AnalyzerOptionsForTest
 (
@@ -231,12 +225,6 @@ options
 adjust_cropping_before_comparing_frames
 =
 false
-;
-options
-.
-max_frames_in_flight_per_stream_count
-=
-kMaxFramesInFlightPerStream
 ;
 return
 options

@@ -232,11 +232,6 @@ kAliveFramesQueueIndex
 )
 ;
 }
-uint16_t
-MarkNextAliveFrameAsDead
-(
-)
-;
 void
 SetLastRenderedFrameTime
 (
