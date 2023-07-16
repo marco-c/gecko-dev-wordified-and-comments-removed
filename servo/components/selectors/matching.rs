@@ -4232,6 +4232,7 @@ inline
 always
 )
 ]
+pub
 fn
 select_name
 <
@@ -4296,6 +4297,7 @@ inline
 always
 )
 ]
+pub
 fn
 to_unconditional_case_sensitivity
 <
