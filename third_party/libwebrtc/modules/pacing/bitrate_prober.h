@@ -227,7 +227,6 @@ ProbingState
 kDisabled
 kInactive
 kActive
-kSuspended
 }
 ;
 struct
@@ -280,6 +279,14 @@ const
 ProbeCluster
 &
 cluster
+)
+const
+;
+bool
+ReadyToSetActiveState
+(
+DataSize
+packet_size
 )
 const
 ;
