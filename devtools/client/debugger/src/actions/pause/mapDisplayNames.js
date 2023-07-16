@@ -2,6 +2,7 @@ import
 {
 getFrames
 getSymbols
+getCurrentThread
 }
 from
 "
@@ -122,7 +123,6 @@ export
 function
 mapDisplayNames
 (
-cx
 )
 {
 return
@@ -135,6 +135,16 @@ getState
 )
 {
 const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
+const
 frames
 =
 getFrames
@@ -142,8 +152,6 @@ getFrames
 getState
 (
 )
-cx
-.
 thread
 )
 ;
@@ -183,11 +191,6 @@ type
 "
 MAP_FRAME_DISPLAY_NAMES
 "
-cx
-thread
-:
-cx
-.
 thread
 frames
 :
