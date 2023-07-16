@@ -14171,12 +14171,9 @@ Release
 ;
 }
 }
-MOZ_DIAGNOSTIC_ASSERT
+NotifyWorkerRefs
 (
-!
-HasActiveWorkerRefs
-(
-)
+Dead
 )
 ;
 ScheduleDeletion
