@@ -10987,7 +10987,7 @@ StyleBasicShape
 Tag
 :
 :
-Inset
+Rect
 :
 return
 CreateInset
@@ -11008,15 +11008,6 @@ Tag
 :
 :
 Path
-:
-case
-StyleBasicShape
-:
-:
-Tag
-:
-:
-Xywh
 :
 MOZ_ASSERT_UNREACHABLE
 (
@@ -11090,7 +11081,7 @@ ComputeInsetRect
 (
 aBasicShape
 .
-AsInset
+AsRect
 (
 )
 .
@@ -11129,7 +11120,7 @@ ComputeRectRadii
 (
 aBasicShape
 .
-AsInset
+AsRect
 (
 )
 .

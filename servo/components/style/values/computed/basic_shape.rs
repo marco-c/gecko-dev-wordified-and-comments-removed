@@ -98,6 +98,7 @@ GenericBasicShape
 Position
 LengthPercentage
 NonNegativeLengthPercentage
+InsetRect
 >
 ;
 pub
@@ -107,7 +108,7 @@ InsetRect
 generic
 :
 :
-InsetRect
+GenericInsetRect
 <
 LengthPercentage
 NonNegativeLengthPercentage
@@ -136,19 +137,6 @@ generic
 Ellipse
 <
 Position
-NonNegativeLengthPercentage
->
-;
-pub
-type
-Xywh
-=
-generic
-:
-:
-Xywh
-<
-LengthPercentage
 NonNegativeLengthPercentage
 >
 ;
