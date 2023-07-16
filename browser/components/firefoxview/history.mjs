@@ -345,6 +345,13 @@ type
 :
 Array
 }
+sortOption
+:
+{
+type
+:
+String
+}
 }
 ;
 async
@@ -1546,7 +1553,7 @@ originalEvent
 ;
 }
 async
-toggleSortOption
+onChangeSortOption
 (
 e
 )
@@ -1560,12 +1567,6 @@ e
 target
 .
 value
-;
-this
-.
-updateHistoryData
-(
-)
 ;
 }
 showAllHistory
@@ -2430,7 +2431,7 @@ click
 {
 this
 .
-toggleSortOption
+onChangeSortOption
 }
 /
 >
@@ -2511,7 +2512,7 @@ click
 {
 this
 .
-toggleSortOption
+onChangeSortOption
 }
 /
 >
