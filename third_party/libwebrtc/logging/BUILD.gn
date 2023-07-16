@@ -2694,13 +2694,6 @@ sources
 "
 rtc_event_log
 /
-logged_events
-.
-h
-"
-"
-rtc_event_log
-/
 rtc_event_log_parser
 .
 cc
