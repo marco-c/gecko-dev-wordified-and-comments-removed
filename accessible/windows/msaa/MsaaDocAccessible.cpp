@@ -424,7 +424,7 @@ SUCCEEDED
 (
 :
 :
-AccessibleObjectFromWindow
+CreateStdAccessibleObject
 (
 hwnd
 OBJID_WINDOW
@@ -650,7 +650,7 @@ SUCCEEDED
 (
 :
 :
-AccessibleObjectFromWindow
+CreateStdAccessibleObject
 (
 hwnd
 OBJID_WINDOW
