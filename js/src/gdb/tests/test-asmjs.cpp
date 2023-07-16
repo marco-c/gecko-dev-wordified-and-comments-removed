@@ -248,8 +248,8 @@ line0
 ;
 opts
 .
-setAsmJSOption
-(
+asmJSOption
+=
 JS
 :
 :
@@ -257,7 +257,6 @@ AsmJSOption
 :
 :
 Enabled
-)
 ;
 JS
 :
