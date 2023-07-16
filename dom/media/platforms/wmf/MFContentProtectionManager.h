@@ -116,8 +116,6 @@ default
 MFContentProtectionManager
 (
 )
-=
-default
 ;
 HRESULT
 RuntimeClassInitialize
