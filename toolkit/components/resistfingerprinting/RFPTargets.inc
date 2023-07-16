@@ -491,3 +491,8 @@ ITEM_VALUE
 IsAlwaysEnabledForPrecompute
 0
 )
+ITEM_VALUE
+(
+AllTargets
+0xFFFFFFFF
+)
