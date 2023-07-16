@@ -5,9 +5,6 @@ DIRS
 "
 utils
 "
-"
-css
-"
 ]
 DevToolsModules
 (

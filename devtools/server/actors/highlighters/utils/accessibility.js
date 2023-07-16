@@ -661,9 +661,7 @@ content
 return
 anonymousContent
 .
-root
-.
-getElementById
+getTextContentForElement
 (
 {
 this
@@ -674,8 +672,6 @@ prefix
 id
 }
 )
-.
-textContent
 ;
 }
 hide

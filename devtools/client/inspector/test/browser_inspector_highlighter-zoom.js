@@ -61,9 +61,8 @@ transform
 -
 origin
 :
-left
 top
-0px
+left
 ;
 transform
 :
@@ -108,7 +107,6 @@ px
 overflow
 :
 hidden
-;
 "
 ;
 add_task
