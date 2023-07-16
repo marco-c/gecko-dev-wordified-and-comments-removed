@@ -196,6 +196,8 @@ struct
 pw_stream
 *
 stream_
+=
+nullptr
 ;
 struct
 spa_hook
