@@ -1019,6 +1019,11 @@ tel
 "
 123456
 "
+country
+:
+"
+US
+"
 }
 local
 :
@@ -1041,6 +1046,11 @@ name
 :
 "
 Hammond
+"
+country
+:
+"
+US
 "
 }
 {
@@ -1066,6 +1076,11 @@ organization
 :
 "
 Mozilla
+"
+country
+:
+"
+US
 "
 }
 ]
