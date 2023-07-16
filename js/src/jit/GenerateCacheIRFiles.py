@@ -454,6 +454,20 @@ writeShapeField
 )
     
 "
+WeakShapeField
+"
+:
+(
+"
+Shape
+*
+"
+"
+writeWeakShapeField
+"
+)
+    
+"
 GetterSetterField
 "
 :
@@ -1452,6 +1466,26 @@ stubOffset
 )
     
 "
+WeakShapeField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
 GetterSetterField
 "
 :
@@ -2406,6 +2440,14 @@ spewField
 "
     
 "
+WeakShapeField
+"
+:
+"
+spewField
+"
+    
+"
 GetterSetterField
 "
 :
@@ -3254,6 +3296,12 @@ RawId
     
 "
 ShapeField
+"
+:
+1
+    
+"
+WeakShapeField
 "
 :
 1

@@ -3832,7 +3832,7 @@ Shape
 *
 shape
 =
-shapeStubField
+weakShapeStubField
 (
 shapeOffset
 )
