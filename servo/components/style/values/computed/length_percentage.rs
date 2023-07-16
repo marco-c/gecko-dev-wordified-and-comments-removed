@@ -4048,6 +4048,7 @@ CalcLengthPercentage
 [
 inline
 ]
+pub
 fn
 resolve
 (
