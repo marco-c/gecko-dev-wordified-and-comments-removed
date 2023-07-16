@@ -11745,11 +11745,13 @@ bool
 ModuleScriptsEnabled
 (
 )
+const
 ;
 bool
 ImportMapsEnabled
 (
 )
+const
 ;
 nsIContent
 *
