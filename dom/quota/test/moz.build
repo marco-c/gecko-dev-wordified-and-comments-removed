@@ -230,7 +230,7 @@ content
 /
 Assert
 .
-js
+mjs
 "
 "
 modules
@@ -239,7 +239,7 @@ content
 /
 ModuleLoader
 .
-js
+mjs
 "
 "
 modules
@@ -248,7 +248,7 @@ content
 /
 StorageUtils
 .
-js
+mjs
 "
 "
 modules
@@ -257,7 +257,7 @@ content
 /
 Utils
 .
-js
+mjs
 "
 "
 modules
@@ -266,7 +266,7 @@ content
 /
 UtilsParent
 .
-js
+mjs
 "
 "
 modules
@@ -275,7 +275,7 @@ content
 /
 WorkerDriver
 .
-js
+mjs
 "
 ]
 TEST_HARNESS_FILES

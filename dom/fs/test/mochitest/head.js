@@ -35,7 +35,7 @@ modules
 /
 ModuleLoader
 .
-js
+mjs
 "
 )
 ;
@@ -88,7 +88,7 @@ modules
 /
 Assert
 .
-js
+mjs
 "
 )
 ;
@@ -114,7 +114,7 @@ modules
 /
 Utils
 .
-js
+mjs
 "
 )
 ;
@@ -186,7 +186,7 @@ modules
 /
 WorkerDriver
 .
-js
+mjs
 "
 )
 ;
@@ -330,7 +330,7 @@ modules
 /
 StorageUtils
 .
-js
+mjs
 "
 )
 ;
