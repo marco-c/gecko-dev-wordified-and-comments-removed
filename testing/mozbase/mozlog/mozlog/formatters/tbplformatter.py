@@ -2467,6 +2467,21 @@ self
 .
 suite_start_time
         
+if
+start_time
+is
+None
+:
+            
+start_time
+=
+data
+[
+"
+time
+"
+]
+        
 time
 =
 int
