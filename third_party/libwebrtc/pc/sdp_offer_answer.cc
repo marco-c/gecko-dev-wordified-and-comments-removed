@@ -5087,13 +5087,7 @@ error_
 .
 set_message
 (
-std
-:
-:
-move
-(
 error_message
-)
 )
 ;
 }
