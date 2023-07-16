@@ -9046,6 +9046,17 @@ pref
 "
 intl
 .
+uidirection
+"
+-
+1
+)
+;
+pref
+(
+"
+intl
+.
 l10n
 .
 pseudo
