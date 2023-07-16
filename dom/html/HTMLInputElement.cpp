@@ -31409,11 +31409,11 @@ GetTextEditorValue
 nsAString
 &
 aValue
-bool
-aIgnoreWrap
 )
 const
 {
+if
+(
 TextControlState
 *
 state
@@ -31421,10 +31421,6 @@ state
 GetEditorState
 (
 )
-;
-if
-(
-state
 )
 {
 state
@@ -31433,7 +31429,7 @@ state
 GetValue
 (
 aValue
-aIgnoreWrap
+true
 )
 ;
 }

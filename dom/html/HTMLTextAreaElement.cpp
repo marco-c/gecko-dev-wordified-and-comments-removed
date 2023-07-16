@@ -5046,8 +5046,6 @@ GetTextEditorValue
 nsAString
 &
 aValue
-bool
-aIgnoreWrap
 )
 const
 {
@@ -5062,7 +5060,7 @@ mState
 GetValue
 (
 aValue
-aIgnoreWrap
+true
 )
 ;
 }
