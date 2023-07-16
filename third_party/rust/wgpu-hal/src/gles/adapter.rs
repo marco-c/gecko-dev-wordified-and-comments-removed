@@ -4372,11 +4372,6 @@ Tfc
 MULTISAMPLE_X8
 }
 else
-if
-max_samples
->
-=
-4
 {
 Tfc
 :
@@ -4387,13 +4382,6 @@ Tfc
 :
 :
 MULTISAMPLE_X4
-}
-else
-{
-Tfc
-:
-:
-MULTISAMPLE_X2
 }
 }
 ;
