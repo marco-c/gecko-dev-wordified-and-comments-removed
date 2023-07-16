@@ -2481,6 +2481,8 @@ b
 -
 linux
 -
+xlarge
+-
 gcp
 worker
 :
@@ -2561,6 +2563,9 @@ win64
 mozconfig_platform
 :
 win64
+max_build_output_timeout
+:
+3600
 fetches
 :
 toolchain
@@ -2705,6 +2710,8 @@ b
 -
 linux
 -
+xlarge
+-
 gcp
 worker
 :
@@ -2794,6 +2801,9 @@ win64
 mozconfig_platform
 :
 win64
+max_build_output_timeout
+:
+3600
 mozconfig
 -
 variant
@@ -5728,6 +5738,8 @@ b
 -
 linux
 -
+xlarge
+-
 gcp
 worker
 :
@@ -5827,6 +5839,9 @@ reporter
 mozconfig_platform
 :
 win64
+max_build_output_timeout
+:
+3600
 mozconfig
 -
 variant
@@ -6582,6 +6597,8 @@ b
 -
 linux
 -
+xlarge
+-
 gcp
 worker
 :
@@ -6664,6 +6681,9 @@ devedition
 mozconfig_platform
 :
 win64
+max_build_output_timeout
+:
+3600
 mozconfig
 -
 variant
