@@ -10720,6 +10720,17 @@ b
 )
 ;
 }
+else
+{
+endT
+=
+min
+(
+endT
+middleT
+)
+;
+}
 }
 if
 (
