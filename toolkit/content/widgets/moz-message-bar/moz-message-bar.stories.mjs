@@ -139,7 +139,13 @@ options
 info
 "
 "
-other
+warning
+"
+"
+success
+"
+"
+error
 "
 ]
 control
