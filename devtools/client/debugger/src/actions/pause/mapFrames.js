@@ -625,7 +625,7 @@ export
 function
 mapFrames
 (
-cx
+thread
 )
 {
 return
@@ -651,8 +651,6 @@ getFrames
 getState
 (
 )
-cx
-.
 thread
 )
 ;
@@ -697,8 +695,6 @@ getSelectedFrameId
 getState
 (
 )
-cx
-.
 thread
 mappedFrames
 )
@@ -711,11 +707,6 @@ type
 "
 MAP_FRAMES
 "
-cx
-thread
-:
-cx
-.
 thread
 frames
 :
