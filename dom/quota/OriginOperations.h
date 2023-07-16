@@ -245,14 +245,6 @@ RefPtr
 <
 QuotaRequestBase
 >
-CreateClearPrivateBrowsingOp
-(
-)
-;
-RefPtr
-<
-QuotaRequestBase
->
 CreateClearOriginOp
 (
 const
