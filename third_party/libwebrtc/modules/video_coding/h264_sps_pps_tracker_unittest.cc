@@ -76,17 +76,6 @@ h
 #
 include
 "
-modules
-/
-video_coding
-/
-packet
-.
-h
-"
-#
-include
-"
 test
 /
 gmock

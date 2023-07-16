@@ -45,9 +45,9 @@ modules
 /
 video_coding
 /
-include
+deprecated
 /
-video_codec_interface
+packet
 .
 h
 "
@@ -58,7 +58,9 @@ modules
 /
 video_coding
 /
-packet
+include
+/
+video_codec_interface
 .
 h
 "
