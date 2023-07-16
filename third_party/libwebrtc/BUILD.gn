@@ -3273,7 +3273,7 @@ rtc_software_fallback_wrappers
 "
 media
 :
-rtc_encoder_simulcast_proxy
+rtc_simulcast_encoder_adapter
 "
 "
 modules
