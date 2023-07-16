@@ -194,6 +194,9 @@ ink
 freetext
 "
 "
+stamp
+"
+"
 print
 "
 "
