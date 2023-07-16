@@ -184,7 +184,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -261,7 +260,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -396,7 +394,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -473,7 +470,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -588,7 +584,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -665,7 +660,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -818,7 +812,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -895,7 +888,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -1016,7 +1008,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1181,7 +1172,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -2214,7 +2204,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -2290,7 +2279,6 @@ actions
 .
 selectLocation
 (
-cx
 loc
 )
 )
@@ -2378,7 +2366,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -2454,7 +2441,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -3085,7 +3071,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -3201,7 +3186,6 @@ actions
 .
 togglePrettyPrint
 (
-cx
 "
 a
 .

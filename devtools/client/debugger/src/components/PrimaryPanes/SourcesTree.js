@@ -43,7 +43,6 @@ getProjectDirectoryRoot
 getProjectDirectoryRootName
 getSourcesTreeSources
 getFocusedSourceItem
-getContext
 getGeneratedSourceByURL
 getHideIgnoredSources
 }
@@ -441,13 +440,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 mainThreadHost
 :
 PropTypes
@@ -710,11 +702,6 @@ props
 .
 selectSource
 (
-this
-.
-props
-.
-cx
 item
 .
 source
@@ -2030,12 +2017,6 @@ state
 {
 return
 {
-cx
-:
-getContext
-(
-state
-)
 selectedTreeLocation
 :
 getTreeLocation

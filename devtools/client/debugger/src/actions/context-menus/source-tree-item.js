@@ -19,7 +19,6 @@ menu
 ;
 import
 {
-getContext
 isSourceOverridden
 isSourceMapIgnoreListEnabled
 isSourceOnSourceMapIgnoreList
@@ -250,14 +249,6 @@ getState
 )
 ;
 const
-cx
-=
-getContext
-(
-state
-)
-;
-const
 isOverridden
 =
 isSourceOverridden
@@ -479,7 +470,6 @@ click
 >
 saveLocalFile
 (
-cx
 dispatch
 source
 )
@@ -553,7 +543,6 @@ click
 >
 handleLocalOverride
 (
-cx
 dispatch
 source
 isOverridden
@@ -708,7 +697,6 @@ async
 function
 saveLocalFile
 (
-cx
 dispatch
 source
 )
@@ -763,7 +751,6 @@ async
 function
 handleLocalOverride
 (
-cx
 dispatch
 source
 isOverridden
@@ -781,7 +768,6 @@ localPath
 await
 saveLocalFile
 (
-cx
 dispatch
 source
 )

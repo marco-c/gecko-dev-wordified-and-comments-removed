@@ -118,7 +118,6 @@ getSelectedBreakableLines
 getConditionalPanelLocation
 getSymbols
 getIsCurrentThreadPaused
-getThreadContext
 getSkipPausing
 getInlinePreview
 getBlackBoxRanges
@@ -481,13 +480,6 @@ selectedSourceIsBlackBoxed
 PropTypes
 .
 bool
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 closeTab
 :
 PropTypes
@@ -1262,7 +1254,6 @@ e
 {
 const
 {
-cx
 selectedSource
 }
 =
@@ -1293,7 +1284,6 @@ props
 .
 closeTab
 (
-cx
 selectedSource
 "
 shortcut
@@ -2234,7 +2224,6 @@ e
 {
 const
 {
-cx
 selectedSource
 updateCursorPosition
 jumpToMappedLocation
@@ -2277,7 +2266,6 @@ altKey
 {
 jumpToMappedLocation
 (
-cx
 sourceLocation
 )
 ;
@@ -2703,7 +2691,6 @@ renderItems
 {
 const
 {
-cx
 selectedSource
 conditionalPanelLocation
 isPaused
@@ -2778,11 +2765,6 @@ editor
 =
 {
 editor
-}
-cx
-=
-{
-cx
 }
 /
 >
@@ -3097,12 +3079,6 @@ state
 ;
 return
 {
-cx
-:
-getThreadContext
-(
-state
-)
 selectedLocation
 selectedSource
 selectedSourceTextContent

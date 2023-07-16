@@ -534,10 +534,6 @@ actions
 .
 jumpToMappedSelectedLocation
 (
-getContext
-(
-dbg
-)
 )
 ;
 assertPausedAtSourceAndLine
@@ -602,10 +598,6 @@ actions
 .
 jumpToMappedSelectedLocation
 (
-getContext
-(
-dbg
-)
 )
 ;
 await

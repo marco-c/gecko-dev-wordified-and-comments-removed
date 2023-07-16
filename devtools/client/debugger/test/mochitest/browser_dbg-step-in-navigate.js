@@ -101,10 +101,6 @@ actions
 .
 stepIn
 (
-getThreadContext
-(
-dbg
-)
 )
 ;
 await

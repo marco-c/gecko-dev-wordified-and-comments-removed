@@ -180,7 +180,6 @@ canPrettyPrintSource
 getIsCurrentThreadPaused
 getSourceTextContent
 tabExists
-getContext
 }
 from
 "
@@ -198,7 +197,6 @@ const
 setSelectedLocation
 =
 (
-cx
 location
 shouldSelectOriginalLocation
 )
@@ -211,7 +209,6 @@ type
 "
 SET_SELECTED_LOCATION
 "
-cx
 location
 shouldSelectOriginalLocation
 }
@@ -316,16 +313,6 @@ options
 ;
 }
 const
-cx
-=
-getContext
-(
-getState
-(
-)
-)
-;
-const
 location
 =
 createLocation
@@ -344,7 +331,6 @@ dispatch
 (
 selectLocation
 (
-cx
 location
 )
 )
@@ -356,7 +342,6 @@ export
 function
 selectSource
 (
-cx
 source
 sourceActor
 )
@@ -392,7 +377,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 location
 )
 )
@@ -404,7 +388,6 @@ export
 function
 selectLocation
 (
-cx
 location
 {
 keepContext
@@ -591,7 +574,6 @@ dispatch
 (
 setSelectedLocation
 (
-cx
 location
 shouldSelectOriginalLocation
 )
@@ -692,7 +674,6 @@ dispatch
 (
 togglePrettyPrint
 (
-cx
 loadedSource
 .
 id
@@ -703,7 +684,6 @@ dispatch
 (
 closeTab
 (
-cx
 loadedSource
 )
 )
@@ -751,14 +731,12 @@ export
 function
 selectSpecificLocation
 (
-cx
 location
 )
 {
 return
 selectLocation
 (
-cx
 location
 {
 keepContext
@@ -772,7 +750,6 @@ export
 function
 jumpToMappedLocation
 (
-cx
 location
 )
 {
@@ -816,7 +793,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 pairedLocation
 )
 )
@@ -828,7 +804,6 @@ export
 function
 jumpToMappedSelectedLocation
 (
-cx
 )
 {
 return
@@ -865,7 +840,6 @@ dispatch
 (
 jumpToMappedLocation
 (
-cx
 location
 )
 )

@@ -90,7 +90,6 @@ text
 ;
 import
 {
-getContext
 getBreakpointsList
 getSelectedSource
 getBlackBoxRanges
@@ -212,14 +211,6 @@ state
 =
 getState
 (
-)
-;
-const
-cx
-=
-getContext
-(
-state
 )
 ;
 const
@@ -1390,7 +1381,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 selectedLocation
 )
 )
@@ -1458,7 +1448,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 selectedLocation
 )
 )
@@ -1551,7 +1540,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 selectedLocation
 )
 )
@@ -1645,7 +1633,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 selectedLocation
 )
 )

@@ -105,7 +105,6 @@ getSelectedLocation
 getSettledSourceTextContent
 getSymbols
 getTabs
-getContext
 getBlackBoxRanges
 getProjectDirectoryRoot
 }
@@ -326,13 +325,6 @@ closeQuickOpen
 PropTypes
 .
 func
-.
-isRequired
-cx
-:
-PropTypes
-.
-object
 .
 isRequired
 displayedSources
@@ -1507,7 +1499,6 @@ location
 {
 const
 {
-cx
 selectSpecificLocation
 selectedSource
 }
@@ -1526,7 +1517,6 @@ null
 {
 selectSpecificLocation
 (
-cx
 createLocation
 (
 {
@@ -2617,12 +2607,6 @@ location
 ;
 return
 {
-cx
-:
-getContext
-(
-state
-)
 enabled
 :
 getQuickOpenEnabled

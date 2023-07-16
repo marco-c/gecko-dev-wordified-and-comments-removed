@@ -71,7 +71,6 @@ getSelectedLocation
 getSelectedSourceTextContent
 getPrettySource
 getPaneCollapse
-getContext
 getGeneratedSource
 isSourceBlackBoxed
 canPrettyPrintSource
@@ -213,13 +212,6 @@ prettyPrintMessage
 PropTypes
 .
 string
-.
-isRequired
-cx
-:
-PropTypes
-.
-object
 .
 isRequired
 endPanelCollapsed
@@ -424,7 +416,6 @@ prettyPrintButton
 {
 const
 {
-cx
 selectedSource
 canPrettyPrint
 prettyPrintMessage
@@ -521,7 +512,6 @@ return
 }
 togglePrettyPrint
 (
-cx
 selectedSource
 .
 id
@@ -878,7 +868,6 @@ renderSourceSummary
 {
 const
 {
-cx
 mappedSource
 jumpToMappedLocation
 selectedSource
@@ -984,7 +973,6 @@ onClick
 >
 jumpToMappedLocation
 (
-cx
 mappedSourceLocation
 )
 }
@@ -1265,12 +1253,6 @@ state
 ;
 return
 {
-cx
-:
-getContext
-(
-state
-)
 selectedSource
 isSelectedSourceBlackBoxed
 :

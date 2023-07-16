@@ -51,25 +51,6 @@ QuickOpenModal
 ;
 import
 {
-mockcx
-}
-from
-"
-.
-.
-/
-.
-.
-/
-utils
-/
-test
--
-mockup
-"
-;
-import
-{
 getDisplayURL
 }
 from
@@ -188,9 +169,6 @@ const
 props
 =
 {
-cx
-:
-mockcx
 enabled
 :
 false
@@ -1865,7 +1843,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :
@@ -1998,7 +1975,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :
@@ -2676,7 +2652,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :
@@ -2849,7 +2824,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :
@@ -3024,7 +2998,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :

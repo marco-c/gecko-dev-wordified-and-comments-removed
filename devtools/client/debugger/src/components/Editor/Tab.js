@@ -116,7 +116,6 @@ import
 getSelectedLocation
 getSourcesForTabs
 isSourceBlackBoxed
-getContext
 }
 from
 "
@@ -165,13 +164,6 @@ closeTab
 PropTypes
 .
 func
-.
-isRequired
-cx
-:
-PropTypes
-.
-object
 .
 isRequired
 onDragEnd
@@ -285,7 +277,6 @@ render
 {
 const
 {
-cx
 selectSource
 closeTab
 source
@@ -331,7 +322,6 @@ stopPropagation
 ;
 closeTab
 (
-cx
 source
 )
 ;
@@ -357,7 +347,6 @@ stopPropagation
 return
 selectSource
 (
-cx
 source
 sourceActor
 )
@@ -470,7 +459,6 @@ button
 &
 closeTab
 (
-cx
 source
 )
 }
@@ -622,12 +610,6 @@ source
 {
 return
 {
-cx
-:
-getContext
-(
-state
-)
 tabSources
 :
 getSourcesForTabs

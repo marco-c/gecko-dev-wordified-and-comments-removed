@@ -142,7 +142,6 @@ import
 {
 getPrettySource
 getIsCurrentThreadPaused
-getThreadContext
 isSourceWithMap
 getBlackBoxRanges
 isSourceOnSourceMapIgnoreList
@@ -305,14 +304,6 @@ getState
 )
 ;
 const
-cx
-=
-getThreadContext
-(
-state
-)
-;
-const
 blackboxedRanges
 =
 getBlackBoxRanges
@@ -391,7 +382,6 @@ event
 editorMenuItems
 (
 {
-cx
 blackboxedRanges
 hasMappedLocation
 location
@@ -465,14 +455,6 @@ getState
 )
 ;
 const
-cx
-=
-getThreadContext
-(
-state
-)
-;
-const
 blackboxedRanges
 =
 getBlackBoxRanges
@@ -525,7 +507,6 @@ separator
 }
 continueToHereItem
 (
-cx
 location
 isPaused
 dispatch
@@ -558,7 +539,6 @@ const
 continueToHereItem
 =
 (
-cx
 location
 isPaused
 dispatch
@@ -838,7 +818,6 @@ const
 jumpToMappedLocationItem
 =
 (
-cx
 location
 hasMappedLocation
 dispatch
@@ -919,7 +898,6 @@ dispatch
 (
 jumpToMappedLocation
 (
-cx
 location
 )
 )
@@ -930,7 +908,6 @@ const
 showSourceMenuItem
 =
 (
-cx
 selectedSource
 dispatch
 )
@@ -991,7 +968,6 @@ dispatch
 (
 showSource
 (
-cx
 selectedSource
 .
 id
@@ -1656,7 +1632,6 @@ const
 watchExpressionItem
 =
 (
-cx
 selectedSource
 selectionText
 dispatch
@@ -1712,7 +1687,6 @@ dispatch
 (
 addExpression
 (
-cx
 selectionText
 )
 )
@@ -1976,7 +1950,6 @@ function
 editorMenuItems
 (
 {
-cx
 blackboxedRanges
 location
 selectionText
@@ -2032,14 +2005,12 @@ push
 (
 jumpToMappedLocationItem
 (
-cx
 location
 hasMappedLocation
 dispatch
 )
 continueToHereItem
 (
-cx
 location
 isPaused
 dispatch
@@ -2116,7 +2087,6 @@ separator
 }
 showSourceMenuItem
 (
-cx
 source
 dispatch
 )
@@ -2292,7 +2262,6 @@ separator
 }
 watchExpressionItem
 (
-cx
 source
 selectionText
 dispatch

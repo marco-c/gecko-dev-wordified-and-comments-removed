@@ -430,7 +430,6 @@ export
 function
 showSource
 (
-cx
 sourceId
 )
 {
@@ -511,7 +510,6 @@ dispatch
 (
 selectSource
 (
-cx
 source
 )
 )

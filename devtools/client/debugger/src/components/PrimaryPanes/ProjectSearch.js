@@ -376,13 +376,6 @@ PropTypes
 func
 .
 isRequired
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 doSearchForHighlight
 :
 PropTypes
@@ -591,11 +584,6 @@ props
 .
 selectSpecificLocation
 (
-this
-.
-props
-.
-cx
 matchItem
 .
 location

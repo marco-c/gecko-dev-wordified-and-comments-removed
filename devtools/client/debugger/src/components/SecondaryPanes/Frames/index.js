@@ -99,7 +99,6 @@ getFrameworkGroupingState
 getSelectedFrame
 getCurrentThreadFrames
 getCurrentThread
-getThreadContext
 getShouldSelectOriginalLocation
 }
 from
@@ -168,11 +167,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
 disableContextMenu
 :
 PropTypes
@@ -421,7 +415,6 @@ frames
 {
 const
 {
-cx
 selectFrame
 selectLocation
 selectedFrame
@@ -477,11 +470,6 @@ id
 (
 <
 FrameComponent
-cx
-=
-{
-cx
-}
 frame
 =
 {
@@ -549,11 +537,6 @@ panel
 (
 <
 Group
-cx
-=
-{
-cx
-}
 group
 =
 {
@@ -858,12 +841,6 @@ state
 >
 (
 {
-cx
-:
-getThreadContext
-(
-state
-)
 frames
 :
 getCurrentThreadFrames

@@ -3160,10 +3160,6 @@ actions
 .
 selectLocation
 (
-getContext
-(
-dbg
-)
 createLocation
 (
 {

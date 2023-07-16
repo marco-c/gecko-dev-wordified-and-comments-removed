@@ -295,11 +295,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
 disableContextMenu
 :
 PropTypes
@@ -454,7 +449,6 @@ renderFrames
 {
 const
 {
-cx
 group
 selectFrame
 selectLocation
@@ -550,11 +544,6 @@ concat
 (
 <
 FrameComponent
-cx
-=
-{
-cx
-}
 frame
 =
 {

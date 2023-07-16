@@ -30,7 +30,6 @@ import
 {
 makeMockFrame
 makeMockSource
-mockthreadcx
 }
 from
 "
@@ -88,9 +87,6 @@ const
 defaultProps
 =
 {
-cx
-:
-mockthreadcx
 group
 :
 [

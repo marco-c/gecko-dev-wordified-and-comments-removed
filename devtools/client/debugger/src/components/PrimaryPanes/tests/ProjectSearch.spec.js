@@ -1487,7 +1487,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 source
 :

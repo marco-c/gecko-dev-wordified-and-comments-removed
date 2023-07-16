@@ -98,7 +98,6 @@ location
 ;
 import
 {
-getContext
 getFirstSourceActorForGeneratedSource
 }
 from
@@ -143,13 +142,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 sources
 :
 PropTypes
@@ -213,7 +205,6 @@ render
 {
 const
 {
-cx
 sources
 source
 selectSource
@@ -269,7 +260,6 @@ onClick
 >
 selectSource
 (
-cx
 source
 )
 }
@@ -389,12 +379,6 @@ source
 >
 (
 {
-cx
-:
-getContext
-(
-state
-)
 firstSourceActor
 :
 getFirstSourceActorForGeneratedSource

@@ -147,7 +147,6 @@ import
 getSelectedFrame
 getSelectedSource
 getCurrentThread
-getContext
 isSourceMapIgnoreListEnabled
 isSourceOnSourceMapIgnoreList
 getBlackBoxRanges
@@ -198,13 +197,6 @@ propTypes
 return
 {
 breakpoint
-:
-PropTypes
-.
-object
-.
-isRequired
-cx
 :
 PropTypes
 .
@@ -423,7 +415,6 @@ preventDefault
 ;
 const
 {
-cx
 selectSpecificLocation
 }
 =
@@ -433,7 +424,6 @@ props
 ;
 selectSpecificLocation
 (
-cx
 this
 .
 selectedLocation
@@ -1098,12 +1088,6 @@ source
 ;
 return
 {
-cx
-:
-getContext
-(
-state
-)
 selectedSource
 :
 getSelectedSource

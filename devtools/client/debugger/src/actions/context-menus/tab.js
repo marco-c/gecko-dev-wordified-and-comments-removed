@@ -40,7 +40,6 @@ import
 getSelectedLocation
 getSourcesForTabs
 isSourceBlackBoxed
-getContext
 isSourceMapIgnoreListEnabled
 isSourceOnSourceMapIgnoreList
 }
@@ -176,14 +175,6 @@ state
 =
 getState
 (
-)
-;
-const
-cx
-=
-getContext
-(
-state
 )
 ;
 const
@@ -352,7 +343,6 @@ dispatch
 (
 closeTab
 (
-cx
 sourceTab
 )
 )
@@ -387,7 +377,6 @@ dispatch
 (
 closeTabs
 (
-cx
 otherTabURLs
 )
 )
@@ -468,7 +457,6 @@ dispatch
 (
 closeTabs
 (
-cx
 tabURLs
 .
 filter
@@ -509,7 +497,6 @@ dispatch
 (
 closeTabs
 (
-cx
 tabURLs
 )
 )
@@ -626,7 +613,6 @@ dispatch
 (
 showSource
 (
-cx
 sourceId
 )
 )
@@ -718,7 +704,6 @@ dispatch
 (
 togglePrettyPrint
 (
-cx
 sourceId
 )
 )
