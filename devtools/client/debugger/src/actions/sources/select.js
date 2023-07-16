@@ -714,10 +714,7 @@ dispatch
 (
 setSymbols
 (
-{
-cx
 location
-}
 )
 )
 ;
