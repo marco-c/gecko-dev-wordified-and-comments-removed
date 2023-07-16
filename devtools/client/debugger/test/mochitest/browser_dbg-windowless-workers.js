@@ -159,10 +159,6 @@ actions
 .
 breakOnNext
 (
-getThreadContext
-(
-dbg
-)
 )
 ;
 await
@@ -228,10 +224,6 @@ actions
 .
 breakOnNext
 (
-getThreadContext
-(
-dbg
-)
 )
 ;
 await
