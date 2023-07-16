@@ -4169,16 +4169,6 @@ BaselineJS
 )
 ;
 }
-MOZ_ASSERT
-(
-fun
-.
-expectTailCall
-=
-=
-NonTailCall
-)
-;
 masm
 .
 call
