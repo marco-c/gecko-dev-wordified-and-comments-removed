@@ -3477,9 +3477,6 @@ visibility
 *
 "
 ]
-testonly
-=
-true
 sources
 =
 [
