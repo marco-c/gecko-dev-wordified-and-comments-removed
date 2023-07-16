@@ -2019,6 +2019,9 @@ true
 AW_EASY_SETUP
 "
 "
+AW_EASY_SETUP_EMBEDDED
+"
+"
 AW_WELCOME_BACK
 "
 ]
@@ -2090,6 +2093,9 @@ true
 [
 "
 AW_EASY_SETUP
+"
+"
+AW_EASY_SETUP_EMBEDDED
 "
 "
 AW_WELCOME_BACK
@@ -2172,7 +2178,7 @@ screens
 .
 length
 -
-3
+4
 )
 ;
 }
@@ -2215,6 +2221,9 @@ true
 [
 "
 AW_EASY_SETUP
+"
+"
+AW_EASY_SETUP_EMBEDDED
 "
 "
 AW_WELCOME_BACK
@@ -2273,7 +2282,7 @@ screens
 .
 length
 -
-4
+5
 )
 ;
 }
@@ -2312,6 +2321,9 @@ true
 [
 "
 AW_EASY_SETUP
+"
+"
+AW_EASY_SETUP_EMBEDDED
 "
 "
 AW_WELCOME_BACK
@@ -2370,7 +2382,7 @@ screens
 .
 length
 -
-4
+5
 )
 ;
 }
@@ -2408,6 +2420,9 @@ prepConfig
 [
 "
 AW_EASY_SETUP
+"
+"
+AW_EASY_SETUP_EMBEDDED
 "
 "
 AW_WELCOME_BACK
@@ -2466,7 +2481,7 @@ screens
 .
 length
 -
-4
+5
 )
 ;
 }
