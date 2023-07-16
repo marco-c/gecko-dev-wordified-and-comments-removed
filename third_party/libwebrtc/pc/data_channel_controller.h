@@ -222,7 +222,7 @@ other
 =
 delete
 ;
-bool
+RTCError
 SendData
 (
 StreamId
@@ -238,12 +238,6 @@ rtc
 CopyOnWriteBuffer
 &
 payload
-cricket
-:
-:
-SendDataResult
-*
-result
 )
 override
 ;
@@ -525,7 +519,7 @@ signaling_thread
 )
 )
 ;
-bool
+RTCError
 DataChannelSendData
 (
 StreamId
@@ -541,12 +535,6 @@ rtc
 CopyOnWriteBuffer
 &
 payload
-cricket
-:
-:
-SendDataResult
-*
-result
 )
 ;
 void

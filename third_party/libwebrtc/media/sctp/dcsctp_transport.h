@@ -360,7 +360,7 @@ sid
 )
 override
 ;
-bool
+RTCError
 SendData
 (
 int
@@ -376,14 +376,6 @@ rtc
 CopyOnWriteBuffer
 &
 payload
-cricket
-:
-:
-SendDataResult
-*
-result
-=
-nullptr
 )
 override
 ;
@@ -468,9 +460,6 @@ Timeout
 >
 CreateTimeout
 (
-webrtc
-:
-:
 TaskQueueBase
 :
 :

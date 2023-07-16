@@ -4213,6 +4213,14 @@ media_channel
 .
 /
 api
+:
+rtc_error
+"
+"
+.
+.
+/
+api
 /
 transport
 :

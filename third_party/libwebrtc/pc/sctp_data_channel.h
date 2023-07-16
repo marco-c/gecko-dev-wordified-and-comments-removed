@@ -170,7 +170,7 @@ SctpDataChannelControllerInterface
 public
 :
 virtual
-bool
+RTCError
 SendData
 (
 StreamId
@@ -186,12 +186,6 @@ rtc
 CopyOnWriteBuffer
 &
 payload
-cricket
-:
-:
-SendDataResult
-*
-result
 )
 =
 0
