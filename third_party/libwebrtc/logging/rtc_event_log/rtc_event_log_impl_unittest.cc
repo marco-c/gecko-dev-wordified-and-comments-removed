@@ -514,6 +514,12 @@ kStartTime
 std
 :
 :
+string
+written_data_
+;
+std
+:
+:
 unique_ptr
 <
 MockEventEncoder
@@ -588,12 +594,6 @@ GetTaskQueueFactory
 kMaxEventsInHistory
 kMaxEventsInConfigHistory
 }
-;
-std
-:
-:
-string
-written_data_
 ;
 }
 ;
