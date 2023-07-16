@@ -33,13 +33,6 @@ h
 #
 include
 "
-Platform
-.
-h
-"
-#
-include
-"
 xpcAccessibleApplication
 .
 h

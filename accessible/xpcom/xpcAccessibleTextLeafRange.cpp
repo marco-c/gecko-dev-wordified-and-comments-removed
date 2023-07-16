@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 TextLeafRange
 .
 h
