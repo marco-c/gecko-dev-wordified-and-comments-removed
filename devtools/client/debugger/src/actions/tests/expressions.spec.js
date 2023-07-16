@@ -872,7 +872,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -977,7 +976,7 @@ actions
 .
 evaluateExpressions
 (
-cx
+null
 )
 )
 ;
@@ -1066,7 +1065,6 @@ async
 {
 const
 {
-cx
 dispatch
 getState
 }
@@ -1083,7 +1081,6 @@ actions
 .
 autocomplete
 (
-cx
 "
 to
 "

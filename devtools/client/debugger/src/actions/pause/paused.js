@@ -232,7 +232,6 @@ selectedFrame
 )
 )
 ;
-}
 const
 atException
 =
@@ -266,10 +265,11 @@ dispatch
 (
 evaluateExpressions
 (
-cx
+selectedFrame
 )
 )
 ;
+}
 }
 }
 ;

@@ -108,11 +108,9 @@ action
 }
 if
 (
-"
-selectedFrame
-"
-in
 action
+.
+selectedFrame
 )
 {
 validateSelectedFrame
