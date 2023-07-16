@@ -22,6 +22,10 @@ snap
 scroll
 -
 start
+/
+scroll
+-
+start
 -
 with
 -
@@ -159,6 +163,9 @@ snap
 -
 2
 /
+scroll
+-
+start
 '
 )
         
@@ -195,6 +202,9 @@ snap
 -
 2
 /
+scroll
+-
+start
 '
 )
         
