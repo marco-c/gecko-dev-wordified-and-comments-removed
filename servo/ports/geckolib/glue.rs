@@ -32486,7 +32486,6 @@ borrow_mut
 )
 ;
 let
-mut
 data
 =
 &
