@@ -1265,7 +1265,9 @@ recv_bytes
 )
                 
 except
-OSError
+socket
+.
+timeout
 :
                     
 continue
