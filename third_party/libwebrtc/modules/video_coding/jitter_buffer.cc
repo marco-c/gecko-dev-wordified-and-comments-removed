@@ -103,7 +103,7 @@ video_coding
 /
 timing
 /
-inter_frame_delay
+inter_frame_delay_variation_calculator
 .
 h
 "
@@ -4287,7 +4287,7 @@ frame_delay
 =
 inter_frame_delay_
 .
-CalculateDelay
+Calculate
 (
 timestamp
 Timestamp

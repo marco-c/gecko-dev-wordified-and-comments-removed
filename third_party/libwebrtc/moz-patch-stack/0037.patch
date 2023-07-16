@@ -7588,10 +7588,10 @@ BUILD
 .
 gn
 index
-0a697f2488
+96b3cd9c20
 .
 .
-adbe375076
+ff60d70100
 100644
 -
 -
@@ -7697,10 +7697,10 @@ units
 data_rate
 "
 -
-375
+376
 7
 +
-375
+376
 7
 rtc_library
 (

@@ -2038,7 +2038,7 @@ scalability_mode_util
 "
 timing
 :
-inter_frame_delay
+inter_frame_delay_variation_calculator
 "
 "
 timing
@@ -2745,7 +2745,7 @@ deprecated_packet
 "
 timing
 :
-inter_frame_delay
+inter_frame_delay_variation_calculator
 "
 "
 timing

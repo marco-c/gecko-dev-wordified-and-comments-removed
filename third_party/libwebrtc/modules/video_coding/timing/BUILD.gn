@@ -141,7 +141,7 @@ rtc_numerics
 rtc_library
 (
 "
-inter_frame_delay
+inter_frame_delay_variation_calculator
 "
 )
 {
@@ -149,12 +149,12 @@ sources
 =
 [
 "
-inter_frame_delay
+inter_frame_delay_variation_calculator
 .
 cc
 "
 "
-inter_frame_delay
+inter_frame_delay_variation_calculator
 .
 h
 "
@@ -951,7 +951,7 @@ frame_delay_variation_kalman_filter_unittest
 cc
 "
 "
-inter_frame_delay_unittest
+inter_frame_delay_variation_calculator_unittest
 .
 cc
 "
@@ -985,7 +985,7 @@ frame_delay_variation_kalman_filter
 "
 "
 :
-inter_frame_delay
+inter_frame_delay_variation_calculator
 "
 "
 :
