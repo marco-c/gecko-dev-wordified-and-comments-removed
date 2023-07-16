@@ -947,7 +947,7 @@ metadata
 frame
 -
 >
-GetMetadata
+Metadata
 (
 )
 ;
