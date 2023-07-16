@@ -15789,6 +15789,7 @@ weak_ptr
 "
 DummyChannelA
 "
+false
 InternalDataChannelInit
 (
 )
@@ -15834,6 +15835,7 @@ weak_ptr
 "
 DummyChannelB
 "
+false
 InternalDataChannelInit
 (
 )

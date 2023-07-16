@@ -197,17 +197,6 @@ result
 0
 ;
 virtual
-bool
-ConnectDataChannel
-(
-SctpDataChannel
-*
-data_channel
-)
-=
-0
-;
-virtual
 void
 AddSctpDataStream
 (
@@ -386,6 +375,8 @@ std
 string
 &
 label
+bool
+connected_to_transport
 const
 InternalDataChannelInit
 &
@@ -621,8 +612,6 @@ message
 void
 OnTransportReady
 (
-bool
-writable
 )
 ;
 void
@@ -719,6 +708,8 @@ std
 string
 &
 label
+bool
+connected_to_transport
 rtc
 :
 :
@@ -766,11 +757,6 @@ SetState
 (
 DataState
 state
-)
-;
-void
-DisconnectFromTransport
-(
 )
 ;
 void

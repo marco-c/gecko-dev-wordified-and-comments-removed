@@ -247,15 +247,6 @@ result
 )
 override
 ;
-bool
-ConnectDataChannel
-(
-SctpDataChannel
-*
-webrtc_data_channel
-)
-override
-;
 void
 AddSctpDataStream
 (
