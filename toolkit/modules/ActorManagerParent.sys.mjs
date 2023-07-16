@@ -693,6 +693,13 @@ about
 translations
 "
 ]
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 enablePreference
 :
 "
