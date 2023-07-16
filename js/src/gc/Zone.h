@@ -1347,6 +1347,12 @@ resetPretenuredAllocSites
 =
 false
 ;
+JSTracer
+*
+traceWeakJitScripts
+=
+nullptr
+;
 }
 ;
 void
@@ -1394,6 +1400,14 @@ bool
 resetNurserySites
 bool
 resetPretenuredSites
+)
+;
+void
+traceWeakJitScripts
+(
+JSTracer
+*
+trc
 )
 ;
 void
