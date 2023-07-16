@@ -20,7 +20,6 @@ subprocess
 .
 run
 (
-        
 [
 wasm2c_bin
 "
@@ -30,16 +29,8 @@ o
 output
 .
 name
-"
--
--
-disable
--
-simd
-"
 wasm_lib
 ]
-    
 )
 .
 returncode
