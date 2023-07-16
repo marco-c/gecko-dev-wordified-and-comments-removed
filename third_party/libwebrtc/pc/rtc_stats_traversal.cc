@@ -679,7 +679,7 @@ if
 type
 =
 =
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 :
 :
 kType
@@ -693,7 +693,7 @@ inbound_rtp
 static_cast
 <
 const
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 &
 >
 (
@@ -752,7 +752,7 @@ if
 type
 =
 =
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 :
 :
 kType
@@ -766,7 +766,7 @@ outbound_rtp
 static_cast
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 &
 >
 (

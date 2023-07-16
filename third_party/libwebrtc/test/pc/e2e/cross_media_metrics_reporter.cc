@@ -225,7 +225,7 @@ report
 >
 GetStatsOfType
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -245,7 +245,7 @@ std
 vector
 <
 const
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 *
 >
 >
@@ -358,7 +358,7 @@ first
 )
 ;
 const
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 *
 audio_stat
 =
@@ -370,7 +370,7 @@ second
 ]
 ;
 const
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 *
 video_stat
 =

@@ -389,7 +389,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )

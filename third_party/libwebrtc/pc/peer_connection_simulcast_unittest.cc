@@ -1002,7 +1002,7 @@ const
 webrtc
 :
 :
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 &
 outbound_rtp
 )
@@ -1062,7 +1062,7 @@ const
 webrtc
 :
 :
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 FindOutboundRtpByRid
 (
@@ -1076,7 +1076,7 @@ const
 webrtc
 :
 :
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 &
@@ -7180,7 +7180,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -7190,7 +7190,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -7297,7 +7297,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -7307,7 +7307,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -7323,7 +7323,7 @@ resolutions
 )
 {
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 outbound_rtp
 =
@@ -8084,7 +8084,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -8094,7 +8094,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -8345,7 +8345,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -8355,7 +8355,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -8747,7 +8747,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -8757,7 +8757,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -9179,7 +9179,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -9189,7 +9189,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -9446,7 +9446,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -9456,7 +9456,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -9773,7 +9773,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -9783,7 +9783,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -10165,7 +10165,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -10175,7 +10175,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -10519,7 +10519,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtps
@@ -10529,7 +10529,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )

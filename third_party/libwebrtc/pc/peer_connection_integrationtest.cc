@@ -7863,7 +7863,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -8086,7 +8086,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -8340,7 +8340,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -8590,7 +8590,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -17735,7 +17735,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -23174,7 +23174,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -23265,7 +23265,7 @@ report
 >
 GetStatsOfType
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )

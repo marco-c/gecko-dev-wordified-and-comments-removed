@@ -208,7 +208,7 @@ report
 >
 GetStatsOfType
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )

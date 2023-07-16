@@ -813,7 +813,7 @@ std
 :
 :
 string
-RTCInboundRTPStreamStatsIDFromSSRC
+RTCInboundRtpStreamStatsIDFromSSRC
 (
 const
 std
@@ -890,7 +890,7 @@ std
 :
 :
 string
-RTCOutboundRTPStreamStatsIDFromSSRC
+RTCOutboundRtpStreamStatsIDFromSSRC
 (
 const
 std
@@ -2415,7 +2415,7 @@ cricket
 MediaReceiverInfo
 &
 media_receiver_info
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 *
 inbound_stats
 )
@@ -2586,7 +2586,7 @@ std
 :
 unique_ptr
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 CreateInboundAudioStreamStats
 (
@@ -2633,10 +2633,10 @@ std
 :
 make_unique
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
-RTCInboundRTPStreamStatsIDFromSSRC
+RTCInboundRtpStreamStatsIDFromSSRC
 (
 transport_id
 cricket
@@ -3153,7 +3153,7 @@ string
 &
 mid
 const
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 &
 inbound_audio_stats
 const
@@ -3407,7 +3407,7 @@ std
 :
 unique_ptr
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 CreateInboundRTPStreamStatsFromVideoReceiverInfo
 (
@@ -3454,10 +3454,10 @@ std
 :
 make_unique
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
-RTCInboundRTPStreamStatsIDFromSSRC
+RTCInboundRtpStreamStatsIDFromSSRC
 (
 transport_id
 cricket
@@ -4091,7 +4091,7 @@ cricket
 MediaSenderInfo
 &
 media_sender_info
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 outbound_stats
 )
@@ -4228,7 +4228,7 @@ std
 :
 unique_ptr
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 CreateOutboundRTPStreamStatsFromVoiceSenderInfo
 (
@@ -4275,10 +4275,10 @@ std
 :
 make_unique
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
-RTCOutboundRTPStreamStatsIDFromSSRC
+RTCOutboundRtpStreamStatsIDFromSSRC
 (
 transport_id
 cricket
@@ -4456,7 +4456,7 @@ std
 :
 unique_ptr
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 CreateOutboundRTPStreamStatsFromVideoSenderInfo
 (
@@ -4503,10 +4503,10 @@ std
 :
 make_unique
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
-RTCOutboundRTPStreamStatsIDFromSSRC
+RTCOutboundRtpStreamStatsIDFromSSRC
 (
 transport_id
 cricket
@@ -5049,7 +5049,7 @@ std
 :
 :
 string
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 &
@@ -5236,7 +5236,7 @@ std
 string
 local_id
 =
-RTCOutboundRTPStreamStatsIDFromSSRC
+RTCOutboundRtpStreamStatsIDFromSSRC
 (
 transport_id
 media_type
@@ -7680,7 +7680,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -7842,7 +7842,7 @@ report
 >
 GetStatsOfType
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -11985,7 +11985,7 @@ std
 :
 :
 string
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 audio_outbound_rtps
@@ -12517,7 +12517,7 @@ std
 :
 :
 string
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 video_outbound_rtps
