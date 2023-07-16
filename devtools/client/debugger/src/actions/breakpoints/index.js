@@ -56,7 +56,6 @@ getSelectedSource
 getBreakpointAtLocation
 getBreakpointsForSource
 getBreakpointsAtLine
-getContext
 }
 from
 "
@@ -508,16 +507,6 @@ getState
 >
 {
 const
-cx
-=
-getContext
-(
-getState
-(
-)
-)
-;
-const
 breakpointList
 =
 getBreakpointsList
@@ -543,7 +532,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 bp
 )
 )
@@ -568,7 +556,6 @@ export
 function
 removeBreakpoints
 (
-cx
 breakpoints
 )
 {
@@ -598,7 +585,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 bp
 )
 )
@@ -612,7 +598,6 @@ export
 function
 removeBreakpointsInSource
 (
-cx
 source
 )
 {
@@ -653,7 +638,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 breakpoint
 )
 )
@@ -776,7 +760,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 bp
 )
 )
@@ -879,7 +862,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 bp
 )
 )
@@ -1008,7 +990,6 @@ export
 function
 removeBreakpointsAtLine
 (
-cx
 sourceId
 line
 )
@@ -1040,7 +1021,6 @@ dispatch
 (
 removeBreakpoints
 (
-cx
 breakpointsAtLine
 )
 )

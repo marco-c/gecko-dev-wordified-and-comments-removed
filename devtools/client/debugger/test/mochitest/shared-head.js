@@ -5168,10 +5168,6 @@ actions
 .
 removeBreakpoint
 (
-getContext
-(
-dbg
-)
 bp
 )
 ;

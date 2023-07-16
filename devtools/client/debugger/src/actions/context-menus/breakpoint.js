@@ -839,7 +839,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 breakpoint
 )
 )
@@ -919,7 +918,6 @@ dispatch
 (
 removeBreakpoints
 (
-cx
 otherBreakpoints
 )
 )

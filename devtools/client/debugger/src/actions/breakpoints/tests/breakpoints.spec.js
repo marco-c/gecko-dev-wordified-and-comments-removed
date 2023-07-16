@@ -1270,7 +1270,6 @@ actions
 .
 removeBreakpoint
 (
-cx
 bp
 )
 )
@@ -3297,7 +3296,6 @@ actions
 .
 removeBreakpoint
 (
-cx
 breakpoint
 )
 )
