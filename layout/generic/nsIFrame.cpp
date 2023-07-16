@@ -7245,7 +7245,7 @@ ContainIntrinsicBSize
 wm
 )
 .
-IsAutoLength
+HasAuto
 (
 )
 ;
@@ -7260,7 +7260,7 @@ ContainIntrinsicISize
 wm
 )
 .
-IsAutoLength
+HasAuto
 (
 )
 ;
