@@ -19,15 +19,6 @@ h
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 Role
 .
 h

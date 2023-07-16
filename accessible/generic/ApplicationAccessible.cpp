@@ -8,13 +8,6 @@ h
 #
 include
 "
-AccAttributes
-.
-h
-"
-#
-include
-"
 LocalAccessible
 -
 inl
@@ -25,13 +18,6 @@ h
 include
 "
 nsAccessibilityService
-.
-h
-"
-#
-include
-"
-nsAccUtils
 .
 h
 "
@@ -86,7 +72,7 @@ h
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowOuter
 .
 h
 "

@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsAccUtils
-.
-h
-"
-#
-include
-"
 DocAccessible
 -
 inl
@@ -78,13 +71,6 @@ h
 include
 "
 Role
-.
-h
-"
-#
-include
-"
-States
 .
 h
 "
