@@ -173,6 +173,13 @@ run
 time
 :
 10800
+use
+-
+system
+-
+python
+:
+false
 jobs
 :
 windows2012
@@ -464,8 +471,6 @@ command
 >
 -
 python3
-.
-7
 -
 m
 venv
@@ -475,8 +480,6 @@ venv
 bin
 /
 python3
-.
-7
 condprof
 /
 main
