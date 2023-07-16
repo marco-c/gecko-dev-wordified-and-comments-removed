@@ -2668,7 +2668,6 @@ UrlbarProviderWeather
 .
 onEngagement
 (
-false
 "
 engagement
 "

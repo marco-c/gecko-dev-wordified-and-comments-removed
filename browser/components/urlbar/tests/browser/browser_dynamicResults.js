@@ -3117,10 +3117,10 @@ searchString
 }
 onEngagement
 (
-isPrivate
 state
 queryContext
 details
+controller
 )
 {
 if

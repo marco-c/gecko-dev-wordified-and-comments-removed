@@ -2026,7 +2026,6 @@ true
 }
 onEngagement
 (
-isPrivate
 state
 queryContext
 details
@@ -2214,6 +2213,10 @@ this
 recordEngagementTelemetry
 (
 result
+controller
+.
+input
+.
 isPrivate
 details
 .

@@ -2451,7 +2451,6 @@ MAX_SHOWN_COUNT
 }
 onEngagement
 (
-isPrivate
 state
 queryContext
 details

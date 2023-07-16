@@ -1384,7 +1384,6 @@ return
 }
 onEngagement
 (
-isPrivate
 state
 queryContext
 details
@@ -1627,6 +1626,10 @@ this
 recordEngagement
 (
 queryContext
+controller
+.
+input
+.
 isPrivate
 result
 details

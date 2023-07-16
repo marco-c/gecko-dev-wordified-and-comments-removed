@@ -1479,7 +1479,6 @@ focus
 }
 onEngagement
 (
-isPrivate
 state
 queryContext
 details

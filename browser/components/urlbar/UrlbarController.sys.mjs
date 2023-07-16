@@ -4494,16 +4494,6 @@ category
 ;
 this
 .
-_isPrivate
-=
-controller
-.
-input
-.
-isPrivate
-;
-this
-.
 #
 exposureResultTypes
 =
@@ -5107,9 +5097,6 @@ manager
 .
 notifyEngagementChange
 (
-this
-.
-_isPrivate
 "
 start
 "
@@ -5908,9 +5895,6 @@ manager
 .
 notifyEngagementChange
 (
-this
-.
-_isPrivate
 "
 discard
 "
@@ -6498,9 +6482,6 @@ manager
 .
 notifyEngagementChange
 (
-this
-.
-_isPrivate
 method
 queryContext
 details
@@ -6913,9 +6894,6 @@ manager
 .
 notifyEngagementChange
 (
-this
-.
-_isPrivate
 method
 queryContext
 details

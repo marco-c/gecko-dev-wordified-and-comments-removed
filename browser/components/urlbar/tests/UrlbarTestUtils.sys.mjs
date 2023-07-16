@@ -9916,10 +9916,10 @@ element
 }
 onEngagement
 (
-isPrivate
 state
 queryContext
 details
+controller
 )
 {
 if
@@ -9933,10 +9933,10 @@ this
 .
 _onEngagement
 (
-isPrivate
 state
 queryContext
 details
+controller
 )
 ;
 }
