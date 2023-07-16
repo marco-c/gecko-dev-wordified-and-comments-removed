@@ -136,6 +136,10 @@ AllocKind
 :
 LIMIT
 )
+structTypeSize
+(
+0
+)
 {
 }
 const
@@ -177,6 +181,9 @@ gc
 :
 AllocKind
 allocKind
+;
+uint32_t
+structTypeSize
 ;
 }
 ;
