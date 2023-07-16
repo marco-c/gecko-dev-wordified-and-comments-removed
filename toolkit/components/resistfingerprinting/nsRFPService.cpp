@@ -856,6 +856,17 @@ RFPTarget
 aTarget
 )
 {
+MOZ_ASSERT
+(
+aTarget
+!
+=
+RFPTarget
+:
+:
+AllTargets
+)
+;
 if
 (
 StaticPrefs
