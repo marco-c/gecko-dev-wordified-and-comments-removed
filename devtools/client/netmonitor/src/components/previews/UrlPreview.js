@@ -285,6 +285,11 @@ address
 PropTypes
 .
 string
+proxyStatus
+:
+PropTypes
+.
+string
 shouldExpandPreview
 :
 PropTypes
@@ -1062,6 +1067,7 @@ const
 {
 method
 address
+proxyStatus
 }
 =
 this
@@ -1300,6 +1306,16 @@ L10N
 .
 getStr
 (
+proxyStatus
+?
+"
+netmonitor
+.
+headers
+.
+proxyAddress
+"
+:
 "
 netmonitor
 .

@@ -791,6 +791,15 @@ channelId
 "
 waitingTime
 "
+"
+proxyHttpVersion
+"
+"
+proxyStatus
+"
+"
+proxyStatusText
+"
 ]
 ;
 const
