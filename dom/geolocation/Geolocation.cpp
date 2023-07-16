@@ -305,15 +305,6 @@ WindowsLocationProvider
 h
 "
 #
-include
-"
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
 endif
 #
 define
@@ -2276,11 +2267,6 @@ windows
 location
 "
 false
-)
-&
-&
-IsWin8OrLater
-(
 )
 )
 {
