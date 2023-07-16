@@ -589,7 +589,7 @@ of
 the
 schema
 .
-allowExtraProperties
+allowAdditionalProperties
 :
 true
 }

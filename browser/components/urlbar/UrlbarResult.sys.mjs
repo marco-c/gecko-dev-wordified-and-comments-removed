@@ -1445,7 +1445,7 @@ true
 allowNullAsUndefinedProperties
 :
 true
-allowExtraProperties
+allowAdditionalProperties
 :
 this
 .

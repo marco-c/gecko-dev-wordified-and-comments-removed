@@ -1393,7 +1393,7 @@ validate
 policyParameters
 policySchema
 {
-allowExtraProperties
+allowAdditionalProperties
 :
 true
 }

@@ -674,7 +674,7 @@ validate
 args
 schema
 {
-allowExtraProperties
+allowAdditionalProperties
 :
 true
 }
