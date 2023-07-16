@@ -77,6 +77,11 @@ js
 "
 "
 editor
+.
+js
+"
+"
+editor
 -
 breakpoint
 .
