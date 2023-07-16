@@ -168,7 +168,7 @@ mapScopes
 ;
 import
 {
-validateNavigateContext
+validateBreakpoint
 }
 from
 "
@@ -188,7 +188,6 @@ function
 clientSetBreakpoint
 (
 client
-cx
 {
 getState
 dispatch
@@ -256,7 +255,6 @@ dispatch
 (
 updateBreakpointSourceMapping
 (
-cx
 breakpoint
 )
 )
@@ -304,7 +302,6 @@ export
 function
 enableBreakpoint
 (
-cx
 initialBreakpoint
 )
 {
@@ -421,7 +418,6 @@ type
 "
 SET_BREAKPOINT
 "
-cx
 breakpoint
 :
 createBreakpoint
@@ -443,7 +439,6 @@ PROMISE
 clientSetBreakpoint
 (
 client
-cx
 thunkArgs
 breakpoint
 )
@@ -670,7 +665,6 @@ type
 "
 SET_BREAKPOINT
 "
-cx
 breakpoint
 [
 PROMISE
@@ -690,7 +684,6 @@ generatedLocation
 clientSetBreakpoint
 (
 client
-cx
 thunkArgs
 breakpoint
 )
@@ -968,7 +961,6 @@ export
 function
 disableBreakpoint
 (
-cx
 initialBreakpoint
 )
 {
@@ -1028,7 +1020,6 @@ type
 "
 SET_BREAKPOINT
 "
-cx
 breakpoint
 :
 createBreakpoint
@@ -1143,7 +1134,6 @@ type
 "
 SET_BREAKPOINT
 "
-cx
 breakpoint
 [
 PROMISE
@@ -1152,7 +1142,6 @@ PROMISE
 clientSetBreakpoint
 (
 client
-cx
 thunkArgs
 breakpoint
 )
@@ -1238,7 +1227,6 @@ expression
 function
 updateBreakpointSourceMapping
 (
-cx
 breakpoint
 )
 {
@@ -1341,12 +1329,12 @@ logValue
 )
 ;
 }
-validateNavigateContext
+validateBreakpoint
 (
 getState
 (
 )
-cx
+breakpoint
 )
 ;
 return
