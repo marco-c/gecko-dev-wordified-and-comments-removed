@@ -338,6 +338,9 @@ disableInlining
 uint32_t
 compilerWarmUpThreshold
 (
+JSContext
+*
+cx
 JSScript
 *
 script
@@ -352,6 +355,9 @@ const
 uint32_t
 recompileWarmUpThreshold
 (
+JSContext
+*
+cx
 JSScript
 *
 script
@@ -627,6 +633,9 @@ level
 OptimizationLevel
 levelForScript
 (
+JSContext
+*
+cx
 JSScript
 *
 script

@@ -10421,6 +10421,7 @@ IonOptimizations
 .
 levelForScript
 (
+cx
 script
 osrPc
 )
