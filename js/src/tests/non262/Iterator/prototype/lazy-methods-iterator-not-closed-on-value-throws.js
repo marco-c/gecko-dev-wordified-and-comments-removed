@@ -112,14 +112,6 @@ iter
 >
 iter
 .
-asIndexedPairs
-(
-)
-iter
-=
->
-iter
-.
 flatMap
 (
 x
