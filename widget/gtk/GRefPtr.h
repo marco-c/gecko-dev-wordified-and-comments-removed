@@ -178,6 +178,10 @@ GCancellable
 )
 GOBJECT_TRAITS
 (
+GtkIMContext
+)
+GOBJECT_TRAITS
+(
 GUnixFDList
 )
 #
