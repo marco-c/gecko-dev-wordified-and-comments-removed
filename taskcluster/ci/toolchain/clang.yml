@@ -3011,7 +3011,7 @@ type
 :
 b
 -
-win2012
+win2022
 worker
 :
 max
@@ -5826,7 +5826,7 @@ type
 :
 b
 -
-win2012
+win2022
 worker
 :
 max
