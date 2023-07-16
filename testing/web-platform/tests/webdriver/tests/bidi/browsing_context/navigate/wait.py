@@ -275,7 +275,7 @@ expect_timeout
 )
 :
     
-script_url
+image_url
 =
 "
 /
@@ -286,8 +286,6 @@ tests
 bidi
 /
 browsing_context
-/
-navigate
 /
 support
 /
@@ -308,7 +306,7 @@ src
 =
 '
 {
-script_url
+image_url
 }
 ?
 pipe
@@ -447,8 +445,6 @@ bidi
 /
 browsing_context
 /
-navigate
-/
 support
 /
 empty
@@ -539,8 +535,6 @@ tests
 bidi
 /
 browsing_context
-/
-navigate
 /
 support
 /

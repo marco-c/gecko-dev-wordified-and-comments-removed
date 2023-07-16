@@ -179,8 +179,6 @@ bidi
 /
 browsing_context
 /
-navigate
-/
 support
 /
 empty

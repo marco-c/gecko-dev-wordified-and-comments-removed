@@ -23,8 +23,6 @@ bidi
 /
 browsing_context
 /
-navigate
-/
 support
 /
 empty
@@ -42,8 +40,6 @@ tests
 bidi
 /
 browsing_context
-/
-navigate
 /
 support
 /
@@ -63,8 +59,6 @@ bidi
 /
 browsing_context
 /
-navigate
-/
 support
 /
 red_dot
@@ -82,8 +76,6 @@ tests
 bidi
 /
 browsing_context
-/
-navigate
 /
 support
 /
