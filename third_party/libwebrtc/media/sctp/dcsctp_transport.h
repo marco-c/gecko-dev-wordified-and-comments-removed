@@ -775,6 +775,10 @@ network_thread_
 ;
 bool
 ready_to_send_data_
+RTC_GUARDED_BY
+(
+network_thread_
+)
 =
 false
 ;
