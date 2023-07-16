@@ -731,8 +731,6 @@ get_index
 (
 &
 hashes
-&
-*
 self
 .
 disps
