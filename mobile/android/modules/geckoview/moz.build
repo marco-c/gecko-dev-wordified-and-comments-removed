@@ -10,7 +10,9 @@ jsm
 "
 BrowserUsageTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 "
 ChildCrashHandler
