@@ -1,7 +1,7 @@
 #
 include
 "
-OutOfMemoryError
+InternalError
 .
 h
 "
@@ -24,13 +24,13 @@ webgpu
 {
 GPU_IMPL_JS_WRAP
 (
-OutOfMemoryError
+InternalError
 )
 already_AddRefed
 <
-OutOfMemoryError
+InternalError
 >
-OutOfMemoryError
+InternalError
 :
 :
 Constructor
@@ -74,7 +74,7 @@ global
 return
 MakeAndAddRef
 <
-OutOfMemoryError
+InternalError
 >
 (
 global
