@@ -20,11 +20,6 @@ true
 ]
 [
 "
-"
-false
-]
-[
-"
 mozilla
 .
 org
@@ -305,7 +300,7 @@ const
 TEST_FIELD_NAME
 =
 "
-Email
+email
 "
 ;
 add_setup

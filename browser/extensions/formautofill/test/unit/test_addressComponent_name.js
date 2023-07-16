@@ -699,7 +699,7 @@ const
 TEST_FIELD_NAME
 =
 "
-Name
+name
 "
 ;
 add_setup

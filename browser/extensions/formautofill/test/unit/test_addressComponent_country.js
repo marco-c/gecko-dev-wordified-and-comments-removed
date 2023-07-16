@@ -198,7 +198,7 @@ const
 TEST_FIELD_NAME
 =
 "
-Country
+country
 "
 ;
 add_task

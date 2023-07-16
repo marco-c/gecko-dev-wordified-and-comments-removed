@@ -1202,6 +1202,16 @@ parseStreetAddress
 address
 )
 {
+if
+(
+!
+address
+)
+{
+return
+null
+;
+}
 const
 separator
 =

@@ -27,11 +27,6 @@ true
 ]
 [
 "
-"
-true
-]
-[
-"
 -
 !
 #
@@ -293,7 +288,7 @@ const
 TEST_FIELD_NAME
 =
 "
-Organization
+organization
 "
 ;
 add_setup

@@ -494,7 +494,7 @@ const
 TEST_FIELD_NAME
 =
 "
-Tel
+tel
 "
 ;
 add_setup

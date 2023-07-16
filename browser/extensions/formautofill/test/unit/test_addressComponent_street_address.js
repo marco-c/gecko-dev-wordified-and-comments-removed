@@ -447,7 +447,9 @@ const
 TEST_FIELD_NAME
 =
 "
-StreetAddress
+street
+-
+address
 "
 ;
 add_setup

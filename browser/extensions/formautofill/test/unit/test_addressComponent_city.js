@@ -117,7 +117,9 @@ const
 TEST_FIELD_NAME
 =
 "
-City
+address
+-
+level2
 "
 ;
 add_task
