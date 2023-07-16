@@ -4581,11 +4581,6 @@ sweepUniqueIds
 )
 ;
 void
-sweepObjectsWithWeakPointers
-(
-)
-;
-void
 sweepDebuggerOnMainThread
 (
 JS
@@ -5677,12 +5672,6 @@ MainThreadData
 bool
 >
 useBackgroundThreads
-;
-MainThreadData
-<
-bool
->
-haveDiscardedJITCodeThisSlice
 ;
 #
 ifdef
