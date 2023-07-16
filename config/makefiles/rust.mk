@@ -3744,9 +3744,6 @@ py_action
 check_binary
 -
 -
-target
--
--
 networking
 )
 endif
