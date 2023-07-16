@@ -23,10 +23,6 @@ MissingDownlevelFlags
 MissingFeatures
 RenderPassContext
 }
-hub
-:
-:
-Resource
 id
 :
 :
@@ -35,6 +31,10 @@ DeviceId
 PipelineLayoutId
 ShaderModuleId
 }
+resource
+:
+:
+Resource
 validation
 Label
 LifeGuard

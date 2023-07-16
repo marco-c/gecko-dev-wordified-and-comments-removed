@@ -15,13 +15,10 @@ device
 :
 :
 SHADER_STAGE_COUNT
-hub
+hal_api
 :
 :
-{
 HalApi
-Storage
-}
 id
 :
 :
@@ -35,6 +32,10 @@ pipeline
 :
 :
 LateSizedBufferGroup
+storage
+:
+:
+Storage
 Stored
 }
 ;

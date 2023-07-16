@@ -64,6 +64,17 @@ by
 all
 versions
 .
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+Eq
+PartialEq
+)
+]
 pub
 struct
 Features

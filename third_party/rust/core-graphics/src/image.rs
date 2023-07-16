@@ -136,6 +136,11 @@ doc
 hidden
 )
 ]
+pub
+unsafe
+type
+CGImage
+{
 type
 CType
 =
@@ -170,14 +175,7 @@ as
 mut
 _
 ;
-pub
-struct
-CGImage
-;
-pub
-struct
-CGImageRef
-;
+}
 }
 impl
 CGImage
