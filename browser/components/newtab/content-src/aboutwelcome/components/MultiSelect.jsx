@@ -192,9 +192,11 @@ if
 !
 style
 )
+{
 return
 null
 ;
+}
 return
 Object
 .

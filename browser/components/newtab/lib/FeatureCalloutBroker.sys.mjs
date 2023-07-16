@@ -1417,12 +1417,14 @@ if
 (
 item
 )
+{
 item
 .
 showing
 =
 false
 ;
+}
 break
 ;
 }
