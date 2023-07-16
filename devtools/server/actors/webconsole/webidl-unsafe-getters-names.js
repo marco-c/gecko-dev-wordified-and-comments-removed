@@ -15,9 +15,6 @@ InstallTrigger
 farthestViewportElement
 "
 "
-mozPreservesPitch
-"
-"
 mozPressure
 "
 "
