@@ -7541,6 +7541,11 @@ stub
 offset
 )
 ;
+if
+(
+shapeField
+)
+{
 TraceSameZoneCrossCompartmentEdge
 (
 trc
@@ -7555,6 +7560,7 @@ shape
 "
 )
 ;
+}
 }
 break
 ;
@@ -7652,7 +7658,7 @@ trc
 )
 )
 {
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
