@@ -704,11 +704,7 @@ element
 =
 detail
 .
-elementWeakRef
-.
-get
-(
-)
+element
 ;
 let
 id

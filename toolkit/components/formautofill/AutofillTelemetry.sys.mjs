@@ -437,11 +437,7 @@ element
 =
 fieldDetail
 .
-elementWeakRef
-.
-get
-(
-)
+element
 ;
 let
 state
@@ -1963,11 +1959,7 @@ element
 =
 fieldDetail
 .
-elementWeakRef
-.
-get
-(
-)
+element
 ;
 let
 state

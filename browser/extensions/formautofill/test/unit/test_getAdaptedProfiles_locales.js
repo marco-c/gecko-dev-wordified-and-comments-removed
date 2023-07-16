@@ -1979,7 +1979,7 @@ cache
 value
 ]
 .
-get
+deref
 (
 )
 ;
