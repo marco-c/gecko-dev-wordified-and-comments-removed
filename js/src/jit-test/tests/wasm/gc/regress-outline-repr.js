@@ -7,7 +7,10 @@ module
 type
 S2
 (
+sub
+(
 struct
+)
 )
 )
 (
@@ -309,6 +312,8 @@ module
 type
 inline
 (
+sub
+(
 struct
 (
 field
@@ -343,6 +348,7 @@ field
 (
 mut
 i64
+)
 )
 )
 )
