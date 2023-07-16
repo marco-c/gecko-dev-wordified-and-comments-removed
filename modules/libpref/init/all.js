@@ -262,7 +262,7 @@ js_load_1
 .
 maxCrashes
 "
-0
+1
 )
 ;
 pref
