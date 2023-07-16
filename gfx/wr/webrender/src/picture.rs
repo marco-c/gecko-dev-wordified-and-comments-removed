@@ -17991,6 +17991,13 @@ pub
 flags
 :
 PictureFlags
+pub
+clip_root
+:
+Option
+<
+ClipNodeId
+>
 }
 impl
 PicturePrimitive
@@ -18600,6 +18607,9 @@ is_opaque
 false
 raster_space
 flags
+clip_root
+:
+None
 }
 }
 pub
