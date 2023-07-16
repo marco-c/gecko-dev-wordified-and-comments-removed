@@ -1657,6 +1657,16 @@ libwebrtc
 /
 logging
 /
+rtc_event_log_parse_status_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+logging
+/
 rtc_event_number_encodings_gn
 "
 "
