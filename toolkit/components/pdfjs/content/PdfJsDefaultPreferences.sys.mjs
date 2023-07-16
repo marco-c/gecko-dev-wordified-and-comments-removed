@@ -181,11 +181,6 @@ disablePageLabels
 :
 false
 "
-enableFloatingToolbar
-"
-:
-false
-"
 enablePermissions
 "
 :
