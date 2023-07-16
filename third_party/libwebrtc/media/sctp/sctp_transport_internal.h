@@ -101,6 +101,12 @@ kMinSctpSid
 =
 0
 ;
+constexpr
+uint16_t
+kSpecMaxSctpSid
+=
+65535
+;
 const
 int
 kSctpDefaultPort
