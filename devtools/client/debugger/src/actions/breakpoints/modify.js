@@ -697,7 +697,6 @@ export
 function
 removeBreakpoint
 (
-cx
 initialBreakpoint
 )
 {
@@ -759,7 +758,6 @@ type
 "
 REMOVE_BREAKPOINT
 "
-cx
 breakpoint
 [
 PROMISE
@@ -795,7 +793,6 @@ export
 function
 removeBreakpointAtGeneratedLocation
 (
-cx
 target
 )
 {
@@ -878,7 +875,6 @@ type
 "
 REMOVE_BREAKPOINT
 "
-cx
 breakpoint
 [
 PROMISE
@@ -944,7 +940,6 @@ type
 "
 REMOVE_PENDING_BREAKPOINT
 "
-cx
 pendingBreakpoint
 }
 )

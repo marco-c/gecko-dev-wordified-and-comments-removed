@@ -449,7 +449,6 @@ event
 {
 const
 {
-cx
 removeBreakpoint
 breakpoint
 }
@@ -466,7 +465,6 @@ stopPropagation
 ;
 removeBreakpoint
 (
-cx
 breakpoint
 )
 ;

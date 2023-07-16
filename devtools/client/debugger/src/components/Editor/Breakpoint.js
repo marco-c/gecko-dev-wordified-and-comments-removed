@@ -495,7 +495,6 @@ return
 }
 removeBreakpointsAtLine
 (
-cx
 selectedLocation
 .
 source

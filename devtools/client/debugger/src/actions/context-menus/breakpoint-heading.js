@@ -20,7 +20,6 @@ menu
 ;
 import
 {
-getContext
 getBreakpointsForSource
 }
 from
@@ -79,14 +78,6 @@ state
 =
 getState
 (
-)
-;
-const
-cx
-=
-getContext
-(
-state
 )
 ;
 const
@@ -314,7 +305,6 @@ dispatch
 (
 removeBreakpointsInSource
 (
-cx
 source
 )
 )
