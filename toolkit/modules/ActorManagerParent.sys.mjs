@@ -2514,14 +2514,6 @@ mjs
 events
 :
 {
-pagehide
-:
-{
-}
-pageshow
-:
-{
-}
 DOMContentLoaded
 :
 {
