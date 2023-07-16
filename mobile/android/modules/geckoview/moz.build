@@ -5,7 +5,9 @@ EXTRA_JS_MODULES
 "
 AndroidLog
 .
-jsm
+sys
+.
+mjs
 "
 "
 BrowserUsageTelemetry
@@ -24,7 +26,9 @@ mjs
 "
 DelayedInit
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewActorChild
@@ -64,7 +68,9 @@ mjs
 "
 GeckoViewChildModule
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewConsole
@@ -181,7 +187,9 @@ mjs
 "
 GeckoViewTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewTestUtils

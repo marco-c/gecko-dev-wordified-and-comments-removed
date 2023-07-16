@@ -177,15 +177,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 HistogramStopwatch
 :
 "
@@ -199,7 +190,9 @@ modules
 /
 GeckoViewTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
