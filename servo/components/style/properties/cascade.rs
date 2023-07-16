@@ -3957,6 +3957,11 @@ DEPENDS_ON_INHERITED_FONT_METRICS
 ComputedValueFlags
 :
 :
+USES_CONTAINER_UNITS
+|
+ComputedValueFlags
+:
+:
 USES_VIEWPORT_UNITS
 ;
 builder
