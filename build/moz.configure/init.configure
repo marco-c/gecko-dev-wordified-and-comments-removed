@@ -906,7 +906,7 @@ namespace
 (
 path
 =
-normsep
+normalize_path
 (
 PythonVirtualenv
 (
