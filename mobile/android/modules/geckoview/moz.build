@@ -186,7 +186,9 @@ jsm
 "
 GeckoViewTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewUtils
