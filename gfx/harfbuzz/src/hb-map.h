@@ -54,13 +54,7 @@ HB_BEGIN_DECLS
 #
 define
 HB_MAP_VALUE_INVALID
-(
-(
-hb_codepoint_t
-)
--
-1
-)
+HB_CODEPOINT_INVALID
 typedef
 struct
 hb_map_t

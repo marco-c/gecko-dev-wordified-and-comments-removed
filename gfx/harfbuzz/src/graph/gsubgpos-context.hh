@@ -75,7 +75,7 @@ unsigned
 size
 )
 ;
-void
+bool
 add_buffer
 (
 char
@@ -83,6 +83,7 @@ char
 buffer
 )
 {
+return
 graph
 .
 add_buffer

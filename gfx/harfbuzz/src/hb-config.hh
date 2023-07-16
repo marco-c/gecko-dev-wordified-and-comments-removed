@@ -247,9 +247,6 @@ ifdef
 HB_NO_BORING_EXPANSION
 #
 define
-HB_NO_AVAR2
-#
-define
 HB_NO_BEYOND_64K
 #
 define

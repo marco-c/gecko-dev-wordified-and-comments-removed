@@ -393,6 +393,16 @@ typedef
 uint32_t
 hb_codepoint_t
 ;
+#
+define
+HB_CODEPOINT_INVALID
+(
+(
+hb_codepoint_t
+)
+-
+1
+)
 typedef
 int32_t
 hb_position_t

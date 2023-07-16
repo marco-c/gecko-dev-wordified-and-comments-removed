@@ -53,14 +53,6 @@ Layout
 namespace
 GSUB_impl
 {
-typedef
-hb_pair_t
-<
-hb_codepoint_t
-hb_codepoint_t
->
-hb_codepoint_pair_t
-;
 template
 <
 typename

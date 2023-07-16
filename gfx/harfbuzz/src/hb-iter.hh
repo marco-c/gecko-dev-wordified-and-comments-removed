@@ -84,6 +84,13 @@ is_sorted_iterator
 =
 false
 ;
+static
+constexpr
+bool
+has_fast_len
+=
+false
+;
 private
 :
 const
@@ -2804,6 +2811,7 @@ private
 Iter
 it
 ;
+mutable
 hb_reference_wrapper
 <
 Proj
@@ -3268,12 +3276,14 @@ private
 Iter
 it
 ;
+mutable
 hb_reference_wrapper
 <
 Pred
 >
 p
 ;
+mutable
 hb_reference_wrapper
 <
 Proj
@@ -5500,7 +5510,7 @@ count
 it
 )
 |
-hb_map
+hb_map_retains_sorting
 (
 hb_second
 )

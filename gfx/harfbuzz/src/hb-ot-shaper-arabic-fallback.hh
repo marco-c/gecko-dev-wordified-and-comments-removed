@@ -1997,6 +1997,9 @@ c
 0
 font
 buffer
+hb_blob_get_empty
+(
+)
 )
 ;
 for

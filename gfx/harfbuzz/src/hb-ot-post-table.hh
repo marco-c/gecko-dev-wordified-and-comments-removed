@@ -271,7 +271,7 @@ TRACE_SUBSET
 this
 )
 ;
-post
+auto
 *
 post_prime
 =
@@ -286,19 +286,6 @@ start_embed
 post
 >
 (
-)
-;
-if
-(
-unlikely
-(
-!
-post_prime
-)
-)
-return_trace
-(
-false
 )
 ;
 bool
@@ -453,6 +440,8 @@ t
 '
 )
 )
+.
+middle
 ;
 italic_angle
 =

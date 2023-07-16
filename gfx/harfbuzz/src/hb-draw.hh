@@ -319,6 +319,7 @@ close_path
 ;
 }
 void
+HB_ALWAYS_INLINE
 move_to
 (
 void
@@ -335,9 +336,12 @@ to_y
 {
 if
 (
+unlikely
+(
 st
 .
 path_open
+)
 )
 close_path
 (
@@ -359,6 +363,7 @@ to_y
 ;
 }
 void
+HB_ALWAYS_INLINE
 line_to
 (
 void
@@ -375,10 +380,13 @@ to_y
 {
 if
 (
+unlikely
+(
 !
 st
 .
 path_open
+)
 )
 start_path
 (
@@ -408,6 +416,7 @@ to_y
 ;
 }
 void
+HB_ALWAYS_INLINE
 quadratic_to
 (
 void
@@ -428,10 +437,13 @@ to_y
 {
 if
 (
+unlikely
+(
 !
 st
 .
 path_open
+)
 )
 start_path
 (
@@ -463,6 +475,7 @@ to_y
 ;
 }
 void
+HB_ALWAYS_INLINE
 cubic_to
 (
 void
@@ -487,10 +500,13 @@ to_y
 {
 if
 (
+unlikely
+(
 !
 st
 .
 path_open
+)
 )
 start_path
 (
@@ -524,6 +540,7 @@ to_y
 ;
 }
 void
+HB_ALWAYS_INLINE
 close_path
 (
 void
@@ -536,9 +553,12 @@ st
 {
 if
 (
+likely
+(
 st
 .
 path_open
+)
 )
 {
 if
@@ -727,6 +747,7 @@ close_path
 )
 ;
 }
+HB_ALWAYS_INLINE
 void
 move_to
 (
@@ -771,6 +792,7 @@ to_y
 )
 ;
 }
+HB_ALWAYS_INLINE
 void
 line_to
 (
@@ -816,6 +838,7 @@ to_y
 ;
 }
 void
+HB_ALWAYS_INLINE
 quadratic_to
 (
 float
@@ -872,6 +895,7 @@ to_y
 ;
 }
 void
+HB_ALWAYS_INLINE
 cubic_to
 (
 float
@@ -939,6 +963,7 @@ to_y
 )
 ;
 }
+HB_ALWAYS_INLINE
 void
 close_path
 (

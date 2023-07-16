@@ -668,7 +668,7 @@ B
 SUB
 )
 CMAbv
-?
+*
 CMBlw
 *
 )

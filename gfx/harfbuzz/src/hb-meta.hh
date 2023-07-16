@@ -1218,19 +1218,19 @@ v
 }
 operator
 T
+&
 (
 )
-const
 {
 return
 v
 ;
 }
 T
+&
 get
 (
 )
-const
 {
 return
 v
@@ -1319,7 +1319,6 @@ T
 &
 (
 )
-const
 {
 return
 *
@@ -1331,7 +1330,6 @@ T
 get
 (
 )
-const
 {
 return
 *

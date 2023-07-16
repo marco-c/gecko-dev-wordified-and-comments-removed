@@ -17,11 +17,7 @@ graph
 hh
 "
 typedef
-hb_pair_t
-<
-hb_codepoint_t
-hb_codepoint_t
->
+hb_codepoint_pair_t
 gid_and_class_t
 ;
 typedef

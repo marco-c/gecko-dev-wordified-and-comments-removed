@@ -263,7 +263,7 @@ TRACE_SUBSET
 this
 )
 ;
-VORG
+auto
 *
 vorg_prime
 =

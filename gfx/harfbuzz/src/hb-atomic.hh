@@ -1477,6 +1477,16 @@ v
 )
 {
 }
+hb_atomic_ptr_t
+(
+const
+hb_atomic_ptr_t
+&
+other
+)
+=
+delete
+;
 void
 init
 (

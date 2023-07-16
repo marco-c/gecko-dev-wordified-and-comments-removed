@@ -11,6 +11,15 @@ ifndef
 HB_NO_SHAPER
 #
 ifdef
+HAVE_WASM
+HB_SHAPER_IMPLEMENT
+(
+wasm
+)
+#
+endif
+#
+ifdef
 HAVE_GRAPHITE2
 HB_SHAPER_IMPLEMENT
 (

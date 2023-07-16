@@ -415,10 +415,9 @@ sfnt_tag
 unsigned
 num_items
 =
-it
-.
-len
+hb_len
 (
+it
 )
 ;
 if
@@ -512,6 +511,7 @@ void
 >
 (
 len
+false
 )
 ;
 if
