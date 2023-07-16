@@ -413,6 +413,11 @@ OriginInfo
 cpp
 "
 "
+OriginOperationBase
+.
+cpp
+"
+"
 PersistenceType
 .
 cpp
