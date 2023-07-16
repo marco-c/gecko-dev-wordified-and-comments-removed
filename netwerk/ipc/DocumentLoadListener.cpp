@@ -927,7 +927,7 @@ httpsOnlyStatus
 nsILoadInfo
 :
 :
-HTTPS_ONLY_EXEMPT
+HTTPS_ONLY_EXEMPT_NEXT_LOAD
 ;
 loadInfo
 -
