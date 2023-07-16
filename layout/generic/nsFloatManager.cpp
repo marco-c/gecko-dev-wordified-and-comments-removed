@@ -11009,6 +11009,15 @@ Tag
 :
 Path
 :
+case
+StyleBasicShape
+:
+:
+Tag
+:
+:
+Xywh
+:
 MOZ_ASSERT_UNREACHABLE
 (
 "
