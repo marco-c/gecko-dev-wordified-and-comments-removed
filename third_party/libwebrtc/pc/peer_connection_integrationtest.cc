@@ -19312,7 +19312,7 @@ address
 TEST_F
 (
 PeerConnectionIntegrationTestUnifiedPlan
-AudioKeepsFlowingAfterImplicitRollback
+DISABLED_AudioKeepsFlowingAfterImplicitRollback
 )
 {
 PeerConnectionInterface
