@@ -10023,14 +10023,6 @@ nullptr
 )
 )
 ;
-MOZ_ASSERT_IF
-(
-!
-decorators_
-!
-accessorGetterNode_
-)
-;
 #
 endif
 }
