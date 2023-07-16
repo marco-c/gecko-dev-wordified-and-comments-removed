@@ -376,6 +376,9 @@ mExpectingWheelStop
 BOOL
 mIsUpdatingLayer
 ;
+BOOL
+mPerformedDrag
+;
 nsIDragService
 *
 mDragService
