@@ -1640,17 +1640,3 @@ history
 Show
 all
 history
-firefoxview
--
-view
--
-more
--
-browsing
--
-history
-=
-View
-more
-browsing
-history

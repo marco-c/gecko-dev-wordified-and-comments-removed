@@ -1512,14 +1512,14 @@ secondaryL10nArgs
 )
 }
 .
-closedId
+tabid
 =
 {
 ifDefined
 (
 tabItem
 .
-closedId
+tabid
 |
 |
 tabItem
@@ -1762,7 +1762,7 @@ property
 {
 number
 }
-closedId
+tabid
 -
 The
 tab
@@ -1772,8 +1772,6 @@ when
 the
 tab
 item
-was
-closed
 .
 *
 property
@@ -2040,7 +2038,7 @@ type
 :
 String
 }
-closedId
+tabid
 :
 {
 type

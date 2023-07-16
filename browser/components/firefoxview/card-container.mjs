@@ -261,16 +261,6 @@ detailsEl
 "
 details
 "
-mainSlot
-:
-"
-slot
-[
-name
-=
-main
-]
-"
 summaryEl
 :
 "
