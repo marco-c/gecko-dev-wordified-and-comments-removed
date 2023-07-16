@@ -424,6 +424,17 @@ icc_profile_
 icc_profile
 ;
 }
+void
+SetFrameDataToBlack
+(
+)
+;
+bool
+FrameDataIsBlack
+(
+)
+const
+;
 protected
 :
 DesktopFrame
