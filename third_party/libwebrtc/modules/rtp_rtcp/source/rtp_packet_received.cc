@@ -302,15 +302,6 @@ headers_size
 header
 -
 >
-payload_type_frequency
-=
-payload_type_frequency
-(
-)
-;
-header
--
->
 extension
 .
 hasTransmissionTimeOffset

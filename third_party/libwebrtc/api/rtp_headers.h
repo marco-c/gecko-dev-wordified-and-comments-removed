@@ -480,9 +480,6 @@ paddingLength
 size_t
 headerLength
 ;
-int
-payload_type_frequency
-;
 RTPHeaderExtension
 extension
 ;

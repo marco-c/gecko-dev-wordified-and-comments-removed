@@ -152,10 +152,6 @@ headerLength
 (
 0
 )
-payload_type_frequency
-(
-0
-)
 extension
 (
 )
