@@ -196,6 +196,11 @@ enableScripting
 :
 true
 "
+enableStampEditor
+"
+:
+true
+"
 externalLinkTarget
 "
 :
