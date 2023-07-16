@@ -679,14 +679,6 @@ aModType
 )
 override
 ;
-void
-GetText
-(
-nsString
-&
-aText
-)
-;
 bool
 TextEquals
 (
