@@ -311,6 +311,12 @@ DataChannelInit
 base
 )
 ;
+bool
+IsValid
+(
+)
+const
+;
 OpenHandshakeRole
 open_handshake_role
 ;
@@ -876,7 +882,7 @@ kHandshakeWaitingForAck
 kHandshakeReady
 }
 ;
-bool
+void
 Init
 (
 )
