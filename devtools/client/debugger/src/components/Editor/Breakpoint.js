@@ -385,7 +385,6 @@ event
 {
 const
 {
-cx
 continueToHere
 toggleBreakpointsAtLine
 removeBreakpointsAtLine
@@ -457,7 +456,6 @@ metaKey
 {
 continueToHere
 (
-cx
 selectedLocation
 )
 ;

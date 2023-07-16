@@ -4,6 +4,7 @@ getSelectedSource
 getSelectedFrame
 getClosestBreakpointPosition
 getBreakpoint
+getCurrentThread
 }
 from
 "
@@ -74,7 +75,6 @@ export
 function
 continueToHere
 (
-cx
 location
 )
 {
@@ -97,6 +97,16 @@ column
 location
 ;
 const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
+const
 selectedSource
 =
 getSelectedSource
@@ -114,8 +124,6 @@ getSelectedFrame
 getState
 (
 )
-cx
-.
 thread
 )
 ;
