@@ -119,6 +119,9 @@ CompilationGCOutput
 struct
 CompilationInput
 ;
+struct
+PreallocatedCompilationGCOutput
+;
 }
 }
 namespace
@@ -157,7 +160,7 @@ js
 frontend
 :
 :
-CompilationGCOutput
+PreallocatedCompilationGCOutput
 *
 gcOutput_
 =
@@ -316,14 +319,6 @@ return
 gcOutput_
 ;
 }
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 }
 ;
 }
