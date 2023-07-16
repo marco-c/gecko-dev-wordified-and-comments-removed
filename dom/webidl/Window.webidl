@@ -3003,14 +3003,7 @@ extraArguments
 )
 ;
 [
-Func
-=
-"
-nsGlobalWindowInner
-:
-:
-ContentPropertyEnabled
-"
+ChromeOnly
 NonEnumerable
 Replaceable
 Throws

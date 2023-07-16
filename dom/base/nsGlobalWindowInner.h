@@ -1703,17 +1703,6 @@ JSObject
 ;
 static
 bool
-ContentPropertyEnabled
-(
-JSContext
-*
-aCx
-JSObject
-*
-)
-;
-static
-bool
 CachesEnabled
 (
 JSContext
