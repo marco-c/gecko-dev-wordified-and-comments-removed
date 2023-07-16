@@ -126,6 +126,12 @@ Run
 override
 ;
 NS_IMETHOD
+Exit
+(
+)
+override
+;
+NS_IMETHOD
 Observe
 (
 nsISupports
