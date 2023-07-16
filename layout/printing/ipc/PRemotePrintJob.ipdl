@@ -48,10 +48,14 @@ aEndPage
 async
 ProcessPage
 (
+int32_t
+aWidthInPoints
+int32_t
+aHeightInPoints
 uint64_t
 [
 ]
-deps
+aDeps
 )
 ;
 async

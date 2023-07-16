@@ -460,6 +460,10 @@ PrintTargetWindows
 :
 BeginPage
 (
+const
+IntSize
+&
+aSizeInPoints
 )
 {
 PrintTarget
@@ -467,6 +471,7 @@ PrintTarget
 :
 BeginPage
 (
+aSizeInPoints
 )
 ;
 int
