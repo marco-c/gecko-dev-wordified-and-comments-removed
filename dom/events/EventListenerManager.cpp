@@ -4174,12 +4174,7 @@ eTouchMove
 )
 {
 return
-StaticPrefs
-:
-:
-dom_event_default_to_passive_touch_listeners
-(
-)
+true
 ;
 }
 if
