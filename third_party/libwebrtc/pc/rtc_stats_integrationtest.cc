@@ -2876,7 +2876,7 @@ kType
 verify_successful
 &
 =
-VerifyRTCInboundRTPStreamStats
+VerifyRTCInboundRtpStreamStats
 (
 stats
 .
@@ -2908,7 +2908,7 @@ kType
 verify_successful
 &
 =
-VerifyRTCOutboundRTPStreamStats
+VerifyRTCOutboundRtpStreamStats
 (
 stats
 .
@@ -2972,7 +2972,7 @@ kType
 verify_successful
 &
 =
-VerifyRTCRemoteOutboundRTPStreamStats
+VerifyRTCRemoteOutboundRtpStreamStats
 (
 stats
 .
@@ -4998,10 +4998,10 @@ ExpectAllMembersSuccessfullyTested
 ;
 }
 void
-VerifyRTCRTPStreamStats
+VerifyRTCRtpStreamStats
 (
 const
-RTCRTPStreamStats
+RTCRtpStreamStats
 &
 stream
 RTCStatsVerifier
@@ -5127,7 +5127,7 @@ kType
 ;
 }
 void
-VerifyRTCSentRTPStreamStats
+VerifyRTCSentRtpStreamStats
 (
 const
 RTCSentRtpStreamStats
@@ -5138,7 +5138,7 @@ RTCStatsVerifier
 verifier
 )
 {
-VerifyRTCRTPStreamStats
+VerifyRTCRtpStreamStats
 (
 sent_stream
 verifier
@@ -5164,7 +5164,7 @@ bytes_sent
 ;
 }
 bool
-VerifyRTCInboundRTPStreamStats
+VerifyRTCInboundRtpStreamStats
 (
 const
 RTCInboundRTPStreamStats
@@ -6445,7 +6445,7 @@ ExpectAllMembersSuccessfullyTested
 ;
 }
 bool
-VerifyRTCOutboundRTPStreamStats
+VerifyRTCOutboundRtpStreamStats
 (
 const
 RTCOutboundRTPStreamStats
@@ -6465,7 +6465,7 @@ get
 outbound_stream
 )
 ;
-VerifyRTCRTPStreamStats
+VerifyRTCRtpStreamStats
 (
 outbound_stream
 verifier
@@ -7153,7 +7153,7 @@ RTCStatsVerifier
 verifier
 )
 {
-VerifyRTCRTPStreamStats
+VerifyRTCRtpStreamStats
 (
 received_rtp
 verifier
@@ -7275,7 +7275,7 @@ ExpectAllMembersSuccessfullyTested
 ;
 }
 bool
-VerifyRTCRemoteOutboundRTPStreamStats
+VerifyRTCRemoteOutboundRtpStreamStats
 (
 const
 RTCRemoteOutboundRtpStreamStats
@@ -7295,13 +7295,13 @@ get
 remote_outbound_stream
 )
 ;
-VerifyRTCRTPStreamStats
+VerifyRTCRtpStreamStats
 (
 remote_outbound_stream
 verifier
 )
 ;
-VerifyRTCSentRTPStreamStats
+VerifyRTCSentRtpStreamStats
 (
 remote_outbound_stream
 verifier
