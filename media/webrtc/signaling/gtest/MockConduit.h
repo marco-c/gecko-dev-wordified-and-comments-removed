@@ -20,6 +20,15 @@ MediaConduitInterface
 .
 h
 "
+#
+include
+"
+libwebrtcglue
+/
+FrameTransformer
+.
+h
+"
 namespace
 webrtc
 {
