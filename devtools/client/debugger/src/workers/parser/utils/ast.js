@@ -1,7 +1,11 @@
 import
+{
 parseScriptTags
+}
 from
 "
+.
+/
 parse
 -
 script
