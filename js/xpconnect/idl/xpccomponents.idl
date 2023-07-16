@@ -1980,14 +1980,6 @@ attribute
 nsIXPCComponents_utils_Sandbox
 Sandbox
 ;
-[
-implicit_jscontext
-]
-jsval
-createServicesCache
-(
-)
-;
 /
 *
 *
