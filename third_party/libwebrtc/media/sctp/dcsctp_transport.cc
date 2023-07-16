@@ -3011,12 +3011,6 @@ type
 *
 type
 ;
-receive_data_params
-.
-seq_num
-=
-0
-;
 receive_buffer_
 .
 Clear

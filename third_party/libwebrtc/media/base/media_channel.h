@@ -4578,11 +4578,6 @@ DataMessageType
 :
 kText
 ;
-int
-seq_num
-=
-0
-;
 }
 ;
 enum
