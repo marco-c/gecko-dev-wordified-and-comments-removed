@@ -281,7 +281,7 @@ changedToSelectionPage
 let
 browserMigratorItems
 =
-shadow
+wizard
 .
 querySelectorAll
 (
@@ -323,7 +323,7 @@ listed
 let
 fileMigratorItems
 =
-shadow
+wizard
 .
 querySelectorAll
 (
