@@ -13,7 +13,6 @@ test_translations_actor_sync_update
 {
 const
 {
-actor
 remoteClients
 cleanup
 }
@@ -73,7 +72,7 @@ TextDecoder
 const
 modelsPromise
 =
-actor
+TranslationsParent
 .
 getLanguageTranslationModelFiles
 (
@@ -257,7 +256,7 @@ deleted
 const
 updatedModelsPromise
 =
-actor
+TranslationsParent
 .
 getLanguageTranslationModelFiles
 (
@@ -352,7 +351,6 @@ test_translations_actor_sync_delete
 {
 const
 {
-actor
 remoteClients
 cleanup
 }
@@ -412,7 +410,7 @@ TextDecoder
 const
 modelsPromise
 =
-actor
+TranslationsParent
 .
 getLanguageTranslationModelFiles
 (
@@ -545,7 +543,7 @@ let
 errorMessage
 ;
 await
-actor
+TranslationsParent
 .
 getLanguageTranslationModelFiles
 (
@@ -620,7 +618,6 @@ test_translations_actor_sync_create
 {
 const
 {
-actor
 remoteClients
 cleanup
 }
@@ -680,7 +677,7 @@ TextDecoder
 const
 modelsPromise
 =
-actor
+TranslationsParent
 .
 getLanguageTranslationModelFiles
 (
@@ -812,7 +809,7 @@ deleted
 const
 updatedModelsPromise
 =
-actor
+TranslationsParent
 .
 getLanguageTranslationModelFiles
 (

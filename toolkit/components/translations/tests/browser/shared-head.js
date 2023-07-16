@@ -1391,6 +1391,12 @@ autoDownloadFromRemoteSettings
 ;
 TranslationsParent
 .
+clearCache
+(
+)
+;
+TranslationsParent
+.
 mockTranslationsEngine
 (
 remoteClients
@@ -1512,6 +1518,12 @@ unmockTranslationsEngine
 TranslationsParent
 .
 unmockLanguageIdentification
+(
+)
+;
+TranslationsParent
+.
+clearCache
 (
 )
 ;

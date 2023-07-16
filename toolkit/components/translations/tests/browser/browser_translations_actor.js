@@ -34,7 +34,6 @@ language
 ;
 const
 {
-actor
 cleanup
 }
 =
@@ -160,7 +159,7 @@ languagePairs
 }
 =
 await
-actor
+TranslationsParent
 .
 getSupportedLanguages
 (
@@ -428,7 +427,6 @@ en
 ;
 const
 {
-actor
 cleanup
 }
 =
@@ -613,7 +611,7 @@ deepEqual
 getUniqueLanguagePairs
 (
 await
-actor
+TranslationsParent
 .
 getRecordsForTranslatingToAndFromAppLanguage
 (
