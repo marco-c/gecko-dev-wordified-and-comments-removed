@@ -934,7 +934,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-media_suspend_bkgnd_video_delay_ms
+media_suspend_background_video_delay_ms
 (
 )
 )
@@ -19424,7 +19424,7 @@ if
 StaticPrefs
 :
 :
-media_suspend_bkgnd_video_enabled
+media_suspend_background_video_enabled
 (
 )
 &

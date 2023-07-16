@@ -128,7 +128,7 @@ if
 StaticPrefs
 :
 :
-media_resume_bkgnd_video_on_tabhover
+media_resume_background_video_on_tabhover
 (
 )
 )
