@@ -6547,6 +6547,7 @@ kind
 EXTERNAL
 )
 {
+constexpr
 size_t
 freeInfoSlots
 =
@@ -6562,7 +6563,7 @@ Value
 )
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 reservedSlots
 +
