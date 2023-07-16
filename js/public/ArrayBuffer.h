@@ -105,6 +105,13 @@ FreePolicy
 contents
 )
 ;
+enum
+class
+NewArrayBufferOutOfMemory
+{
+CallerMustFreeMemory
+}
+;
 extern
 JS_PUBLIC_API
 JSObject
@@ -119,6 +126,7 @@ nbytes
 void
 *
 contents
+NewArrayBufferOutOfMemory
 )
 ;
 extern
