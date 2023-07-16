@@ -4204,14 +4204,10 @@ AnonymousContent
 >
 InsertAnonymousContent
 (
-Element
-&
-aElement
 bool
 aForce
 ErrorResult
 &
-aError
 )
 ;
 void
@@ -4219,7 +4215,6 @@ RemoveAnonymousContent
 (
 AnonymousContent
 &
-aContent
 )
 ;
 Element
