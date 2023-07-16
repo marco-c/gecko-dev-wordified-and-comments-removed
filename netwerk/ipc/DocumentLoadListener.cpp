@@ -44,15 +44,6 @@ include
 "
 mozilla
 /
-MozPromiseInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 NullPrincipal
 .
 h

@@ -24,15 +24,6 @@ include
 "
 mozilla
 /
-MozPromiseInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ScopeExit
 .
 h

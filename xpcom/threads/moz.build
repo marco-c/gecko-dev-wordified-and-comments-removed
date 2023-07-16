@@ -245,11 +245,6 @@ MozPromise
 h
 "
 "
-MozPromiseInlines
-.
-h
-"
-"
 Mutex
 .
 h
