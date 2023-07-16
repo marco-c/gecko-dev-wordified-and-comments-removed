@@ -981,6 +981,14 @@ if
 (
 streams
 [
+i
+]
+.
+active
+&
+&
+streams
+[
 0
 ]
 .
