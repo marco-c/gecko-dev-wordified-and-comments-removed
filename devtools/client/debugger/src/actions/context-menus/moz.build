@@ -64,6 +64,13 @@ MPL
 CompiledModules
 (
 "
+breakpoint
+-
+heading
+.
+js
+"
+"
 frame
 .
 js
