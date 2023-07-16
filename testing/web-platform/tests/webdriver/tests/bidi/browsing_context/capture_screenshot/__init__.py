@@ -1,4 +1,8 @@
 from
+math
+import
+floor
+from
 webdriver
 .
 bidi
@@ -93,6 +97,8 @@ context
     
 return
 (
+floor
+(
 viewport
 [
 "
@@ -101,6 +107,9 @@ width
 ]
 *
 dpr
+)
+floor
+(
 viewport
 [
 "
@@ -109,4 +118,5 @@ height
 ]
 *
 dpr
+)
 )

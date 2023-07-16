@@ -503,7 +503,7 @@ ID
 returns
 :
 (
-int
+float
 )
 devicePixelRatio
 .
@@ -534,14 +534,9 @@ function_declaration
 {
         
 return
-Math
-.
-floor
-(
 window
 .
 devicePixelRatio
-)
 ;
     
 }
