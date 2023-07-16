@@ -187,6 +187,13 @@ tryCatch_
 >
 emitCatch
 (
+TryEmitter
+:
+:
+ExceptionStack
+:
+:
+Yes
 )
 )
 {
@@ -254,7 +261,7 @@ emit1
 JSOp
 :
 :
-Throw
+ThrowWithStack
 )
 )
 {
