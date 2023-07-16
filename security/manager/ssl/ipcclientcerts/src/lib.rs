@@ -2017,7 +2017,6 @@ as
 usize
 {
 let
-mut
 attr
 =
 unsafe

@@ -2576,7 +2576,6 @@ usize
 )
 {
 let
-mut
 attr
 =
 unsafe
