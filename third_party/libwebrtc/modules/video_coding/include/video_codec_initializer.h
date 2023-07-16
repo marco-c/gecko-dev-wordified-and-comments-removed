@@ -34,9 +34,6 @@ namespace
 webrtc
 {
 class
-VideoBitrateAllocator
-;
-class
 VideoCodec
 ;
 class
