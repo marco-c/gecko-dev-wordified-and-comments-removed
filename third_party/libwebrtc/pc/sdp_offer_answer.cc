@@ -21774,7 +21774,7 @@ data_channel_controller
 )
 -
 >
-HasDataChannels
+HasUsedDataChannels
 (
 )
 ;
@@ -22983,7 +22983,7 @@ data_channel_controller
 )
 -
 >
-HasDataChannels
+HasUsedDataChannels
 (
 )
 )
