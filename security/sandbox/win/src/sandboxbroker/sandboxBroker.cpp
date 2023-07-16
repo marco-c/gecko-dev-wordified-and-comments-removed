@@ -8369,10 +8369,6 @@ sandbox
 :
 USER_LIMITED
 ;
-mUseWin32kLockdown
-=
-false
-;
 mDelayedMitigations
 =
 sandbox
