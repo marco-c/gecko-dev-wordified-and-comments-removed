@@ -398,6 +398,11 @@ InitializationTypes
 cpp
 "
 "
+NormalOriginOperationBase
+.
+cpp
+"
+"
 nsIndexedDBProtocolHandler
 .
 cpp
