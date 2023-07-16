@@ -950,7 +950,7 @@ EXPECT_EQ
 transceiver
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 extensions_
@@ -1299,7 +1299,7 @@ modified_extensions
 transceiver
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 ;
@@ -1332,7 +1332,7 @@ EXPECT_TRUE
 transceiver
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -1488,7 +1488,7 @@ modified_extensions
 transceiver1
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 ;
@@ -1507,7 +1507,7 @@ kStopped
 transceiver1
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -1603,7 +1603,7 @@ EXPECT_THAT
 transceiver1
 -
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 (
 )
 ElementsAre

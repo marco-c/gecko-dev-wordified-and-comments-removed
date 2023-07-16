@@ -322,7 +322,7 @@ vector
 <
 RtpHeaderExtensionCapability
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 (
@@ -340,7 +340,7 @@ vector
 <
 RtpHeaderExtensionCapability
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 (
 )
 (
@@ -355,7 +355,7 @@ webrtc
 :
 :
 RTCError
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 rtc
 :
@@ -365,7 +365,7 @@ ArrayView
 const
 RtpHeaderExtensionCapability
 >
-header_extensions_to_offer
+header_extensions
 )
 (
 override

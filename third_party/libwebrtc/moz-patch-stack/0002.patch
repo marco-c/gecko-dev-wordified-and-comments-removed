@@ -642,10 +642,10 @@ peer_connection_header_extension_unittest
 .
 cc
 index
-9bbc32b7e0
+9db547fb57
 .
 .
-1a452b0a1f
+fb8833a01b
 100644
 -
 -
@@ -776,7 +776,7 @@ modified_extensions
 transceiver1
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 ;
@@ -797,7 +797,7 @@ kStopped
 transceiver1
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -1124,7 +1124,7 @@ modified_extensions
 transceiver1
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 ;
@@ -1158,7 +1158,7 @@ kStopped
 transceiver1
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )

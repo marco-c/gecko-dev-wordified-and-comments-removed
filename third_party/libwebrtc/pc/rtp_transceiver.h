@@ -342,7 +342,7 @@ vector
 <
 RtpHeaderExtensionCapability
 >
-HeaderExtensionsToOffer
+HeaderExtensionsToNegotiate
 std
 :
 :
@@ -947,7 +947,7 @@ vector
 <
 RtpHeaderExtensionCapability
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 const
@@ -960,14 +960,14 @@ vector
 <
 RtpHeaderExtensionCapability
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 (
 )
 const
 override
 ;
 RTCError
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 rtc
 :
@@ -977,7 +977,7 @@ ArrayView
 const
 RtpHeaderExtensionCapability
 >
-header_extensions_to_offer
+header_extensions
 )
 override
 ;
@@ -1234,7 +1234,7 @@ vector
 <
 RtpHeaderExtensionCapability
 >
-header_extensions_to_offer_
+header_extensions_to_negotiate_
 ;
 cricket
 :
@@ -1405,7 +1405,7 @@ vector
 <
 RtpHeaderExtensionCapability
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 )
 PROXY_CONSTMETHOD0
 (
@@ -1416,7 +1416,7 @@ vector
 <
 RtpHeaderExtensionCapability
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 )
 PROXY_METHOD1
 (
@@ -1424,7 +1424,7 @@ webrtc
 :
 :
 RTCError
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 rtc
 :
 :
