@@ -15637,8 +15637,11 @@ SctpDataChannel
 :
 Create
 (
-&
 controller
+.
+weak_ptr
+(
+)
 "
 DummyChannelA
 "
@@ -15679,8 +15682,11 @@ SctpDataChannel
 :
 Create
 (
-&
 controller
+.
+weak_ptr
+(
+)
 "
 DummyChannelB
 "

@@ -136,7 +136,15 @@ Current
 SctpDataChannel
 (
 config
-nullptr
+rtc
+:
+:
+WeakPtr
+<
+SctpDataChannelControllerInterface
+>
+(
+)
 label
 signaling_thread
 network_thread
