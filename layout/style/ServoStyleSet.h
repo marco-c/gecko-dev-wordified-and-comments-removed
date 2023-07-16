@@ -1431,9 +1431,6 @@ ComputedStyle
 aNewParent
 ComputedStyle
 *
-aNewParentIgnoringFirstLine
-ComputedStyle
-*
 aNewLayoutParent
 dom
 :

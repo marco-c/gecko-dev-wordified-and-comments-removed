@@ -7086,9 +7086,6 @@ ComputedStyle
 aNewParent
 ComputedStyle
 *
-aNewParentIgnoringFirstLine
-ComputedStyle
-*
 aNewLayoutParent
 Element
 *
@@ -7100,7 +7097,6 @@ Servo_ReparentStyle
 (
 aComputedStyle
 aNewParent
-aNewParentIgnoringFirstLine
 aNewLayoutParent
 aElement
 mRawData

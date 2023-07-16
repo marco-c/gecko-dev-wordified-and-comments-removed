@@ -86,7 +86,10 @@ crate
 properties
 :
 :
+{
 ComputedValues
+FirstLineReparenting
+}
 ;
 use
 crate
@@ -1554,8 +1557,11 @@ and
 parent_style
 )
 parent_style
-parent_style
 layout_parent_style
+FirstLineReparenting
+:
+:
+No
 Some
 (
 &
