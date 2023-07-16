@@ -3939,6 +3939,12 @@ pid
 %
 s
 .
+Process
+type
+:
+%
+s
+.
 Test
 :
 %
@@ -3960,6 +3966,7 @@ s
             
 %
 (
+                
 data
 .
 get
@@ -3967,16 +3974,32 @@ get
 "
 pid
 "
+"
+unknown
+"
+)
+                
+data
+.
+get
+(
+"
+process_type
+"
 None
 )
+                
 test
+                
 success
+                
 data
 [
 "
 signature
 "
 ]
+            
 )
         
 ]
