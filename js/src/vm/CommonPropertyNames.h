@@ -2713,6 +2713,15 @@ IterableToList
 \
 MACRO_
 (
+IteratorClose
+IteratorClose
+"
+IteratorClose
+"
+)
+\
+MACRO_
+(
 IteratorHelper
 IteratorHelper
 "
