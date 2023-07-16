@@ -952,13 +952,6 @@ NewArrayBufferWithContents
 cx
 mDataLen
 mFileData
-JS
-:
-:
-NewArrayBufferOutOfMemory
-:
-:
-CallerMustFreeMemory
 )
 ;
 if
