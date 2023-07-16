@@ -111,6 +111,9 @@ class
 TimeStamp
 ;
 class
+TimeStampTests
+;
+class
 BaseTimeDurationPlatformUtils
 {
 public
@@ -1328,6 +1331,7 @@ class
 BaseTimeDuration
 ;
 static
+constexpr
 BaseTimeDuration
 FromTicks
 (
@@ -1686,6 +1690,7 @@ aSystemTime
 }
 #
 endif
+constexpr
 bool
 IsNull
 (
@@ -2464,6 +2469,11 @@ friend
 struct
 TimeStampInitialization
 ;
+friend
+class
+TimeStampTests
+;
+constexpr
 MOZ_IMPLICIT
 TimeStamp
 (
