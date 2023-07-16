@@ -7681,6 +7681,14 @@ checks
 .
 /
 rtc_base
+:
+logging
+"
+"
+.
+.
+/
+rtc_base
 /
 containers
 :
