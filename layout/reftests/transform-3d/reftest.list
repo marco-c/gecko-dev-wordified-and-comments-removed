@@ -1259,15 +1259,6 @@ for
 !
 layersGPUAccelerated
 failures
-fails
--
-if
-(
-swgl
-&
-&
-Android
-)
 !
 =
 1157984
