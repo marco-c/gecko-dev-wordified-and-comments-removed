@@ -8076,14 +8076,9 @@ operands
 generator
 :
 Object
-valueOrReason
+value
 :
 Value
-arguments
-:
-resolveKind
-:
-AsyncFunctionResolveKind
 result_type
 :
 Object

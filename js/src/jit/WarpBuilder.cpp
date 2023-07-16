@@ -12917,7 +12917,7 @@ pop
 ;
 MDefinition
 *
-valueOrReason
+value
 =
 current
 -
@@ -12927,15 +12927,6 @@ pop
 )
 ;
 auto
-resolveKind
-=
-loc
-.
-getAsyncFunctionResolveKind
-(
-)
-;
-MAsyncResolve
 *
 resolve
 =
@@ -12948,8 +12939,7 @@ alloc
 (
 )
 generator
-valueOrReason
-resolveKind
+value
 )
 ;
 current

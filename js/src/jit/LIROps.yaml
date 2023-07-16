@@ -10273,7 +10273,7 @@ operands
 generator
 :
 WordSized
-valueOrReason
+value
 :
 BoxedValue
 call_instruction
