@@ -762,6 +762,19 @@ IDs
                     
 addPhaseKind
 (
+"
+SWEEP_WEAK_POINTERS
+"
+"
+Sweep
+Weak
+Pointers
+"
+81
+)
+                    
+addPhaseKind
+(
                         
 "
 SWEEP_FINALIZATION_OBSERVERS

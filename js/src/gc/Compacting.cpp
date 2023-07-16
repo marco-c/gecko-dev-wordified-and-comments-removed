@@ -2428,6 +2428,14 @@ traceWeakMaps
 trc
 )
 ;
+zone
+-
+>
+sweepObjectsWithWeakPointers
+(
+trc
+)
+;
 traceWeakFinalizationObserverEdges
 (
 trc

@@ -7604,6 +7604,7 @@ Type
 :
 JSObject
 :
+{
 TraceEdge
 (
 trc
@@ -7630,6 +7631,7 @@ object
 ;
 break
 ;
+}
 case
 StubField
 :
