@@ -2925,6 +2925,16 @@ enabled
 "
 _ns
 }
+{
+"
+mathml
+.
+legacy_mathvariant_attribute
+.
+disabled
+"
+_ns
+}
 }
 ;
 void
