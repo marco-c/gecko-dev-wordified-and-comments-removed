@@ -14394,6 +14394,7 @@ true
 ;
 if
 (
+!
 call_
 -
 >
@@ -14401,7 +14402,7 @@ trials
 (
 )
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
@@ -14431,6 +14432,15 @@ if
 encoding
 .
 scalability_mode
+.
+has_value
+(
+)
+&
+&
+encoding
+.
+scale_resolution_down_by
 .
 has_value
 (
