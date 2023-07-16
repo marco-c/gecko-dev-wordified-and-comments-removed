@@ -828,10 +828,10 @@ endif
 #
 ifdef
 JS_CODEGEN_ARM
-masm
-.
-setSecondScratchReg
+AutoNonDefaultSecondScratchRegister
+andssr
 (
+masm
 BaselineSecondScratchReg
 )
 ;
