@@ -6301,11 +6301,15 @@ self
 )
 :
         
+class
 CompilerType
-=
+(
 EnumString
-.
-subclass
+)
+:
+            
+POSSIBLE_VALUES
+=
 (
 "
 gcc
