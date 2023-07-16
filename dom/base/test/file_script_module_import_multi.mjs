@@ -8,7 +8,7 @@ from
 /
 file_script_module_import_multi_imported_once
 .
-js
+mjs
 "
 ;
 import
@@ -21,7 +21,7 @@ from
 /
 file_script_module_import_multi_imported_twice
 .
-js
+mjs
 "
 ;
 f

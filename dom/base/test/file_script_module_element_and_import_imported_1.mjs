@@ -8,7 +8,7 @@ from
 /
 file_script_module_element_and_import_imported_2
 .
-js
+mjs
 "
 ;
 import
@@ -21,7 +21,7 @@ from
 /
 file_script_module_element_and_import_imported_3
 .
-js
+mjs
 "
 ;
 g
@@ -81,7 +81,7 @@ src
 "
 file_script_module_element_and_import
 .
-js
+mjs
 "
 )
 ;

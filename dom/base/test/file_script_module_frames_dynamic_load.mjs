@@ -9,9 +9,9 @@ import
 "
 .
 /
-file_script_module_dynamic_import_imported
+file_script_module_frames_dynamic_shared
 .
-js
+mjs
 "
 )
 ;

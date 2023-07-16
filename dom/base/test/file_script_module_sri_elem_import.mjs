@@ -8,7 +8,7 @@ from
 /
 file_script_module_sri_elem_import_imported
 .
-js
+mjs
 "
 ;
 f

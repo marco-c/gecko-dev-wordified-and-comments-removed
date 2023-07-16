@@ -8,7 +8,7 @@ from
 /
 file_script_module_import_and_element_imported_2
 .
-js
+mjs
 "
 ;
 import
@@ -21,7 +21,7 @@ from
 /
 file_script_module_import_and_element_imported_3
 .
-js
+mjs
 "
 ;
 g

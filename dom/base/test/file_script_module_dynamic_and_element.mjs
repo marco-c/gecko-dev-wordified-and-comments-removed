@@ -11,7 +11,7 @@ import
 /
 file_script_module_dynamic_and_element_imported_1
 .
-js
+mjs
 "
 )
 ;
@@ -25,7 +25,7 @@ from
 /
 file_script_module_dynamic_and_element_imported_2
 .
-js
+mjs
 "
 ;
 import
@@ -38,7 +38,7 @@ from
 /
 file_script_module_dynamic_and_element_imported_3
 .
-js
+mjs
 "
 ;
 f
@@ -95,7 +95,7 @@ src
 "
 file_script_module_dynamic_and_element_imported_1
 .
-js
+mjs
 "
 )
 ;

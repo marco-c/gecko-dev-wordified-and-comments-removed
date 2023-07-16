@@ -6,9 +6,9 @@ from
 "
 .
 /
-file_script_module_static_and_dynamic_imported_3
+file_script_module_dynamic_and_static_imported_3
 .
-js
+mjs
 "
 ;
 h

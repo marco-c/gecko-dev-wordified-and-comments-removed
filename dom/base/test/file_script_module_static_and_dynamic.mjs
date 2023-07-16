@@ -6,9 +6,9 @@ from
 "
 .
 /
-file_script_module_element_and_import_imported_1
+file_script_module_static_and_dynamic_imported_1
 .
-js
+mjs
 "
 ;
 import
@@ -19,9 +19,9 @@ from
 "
 .
 /
-file_script_module_element_and_import_imported_2
+file_script_module_static_and_dynamic_imported_2
 .
-js
+mjs
 "
 ;
 import
@@ -32,9 +32,9 @@ from
 "
 .
 /
-file_script_module_element_and_import_imported_3
+file_script_module_static_and_dynamic_imported_3
 .
-js
+mjs
 "
 ;
 f

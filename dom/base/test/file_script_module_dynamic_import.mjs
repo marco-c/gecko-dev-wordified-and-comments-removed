@@ -9,9 +9,9 @@ import
 "
 .
 /
-file_script_module_sri_dynamic_elem_imported
+file_script_module_dynamic_import_imported
 .
-js
+mjs
 "
 )
 ;
