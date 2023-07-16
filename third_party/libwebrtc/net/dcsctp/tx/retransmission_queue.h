@@ -747,10 +747,10 @@ bool
 partial_reliability_
 ;
 const
-std
+absl
 :
 :
-string
+string_view
 log_prefix_
 ;
 const
