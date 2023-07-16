@@ -6181,8 +6181,6 @@ tail
 !
 result
 .
-payload
-.
 isRichSuggestion
 &
 &

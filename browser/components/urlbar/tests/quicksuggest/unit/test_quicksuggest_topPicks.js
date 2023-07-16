@@ -965,6 +965,9 @@ icon
 isSponsored
 :
 false
+shouldShowUrl
+:
+true
 source
 :
 "
