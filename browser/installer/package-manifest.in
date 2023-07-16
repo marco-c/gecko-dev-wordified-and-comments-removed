@@ -650,11 +650,6 @@ BINPATH
 libGLESv2
 .
 dll
-BINPATH
-/
-d3dcompiler_47
-.
-dll
 #
 endif
 [
@@ -1040,14 +1035,6 @@ BINPATH
 libGLESv2
 .
 dll
-#
-ifdef
-MOZ_D3DCOMPILER_VISTA_DLL
-BINPATH
-/
-MOZ_D3DCOMPILER_VISTA_DLL
-#
-endif
 #
 endif
 #
