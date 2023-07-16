@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-95e63e07f8d29e62335dd20f5379d4fe813b66b7
+106f967366ad6d16f70b2a331f8392adccd269e2
 '
 #
 Fetch
@@ -190,7 +190,7 @@ version
 .
 20230315
 .
-1
+2
 .
 1
 '
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-3b194faf5f95b283d112331fb48ac2b4bd72b26b
+a92d4b148e24ed237acae856fe19bea4227ceac3
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-5dab994f42b2c04ae1760525ff60c77ee9870ab6
+17c8ba7bb330d5d155245c8f34084ab769a60947
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-df1b9ef691064b41cfadf5776ee1c4c57e0e4b14
+6f568a60b072eb2ad1bf0c3813e0f106673c7359
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-cc8ff548d5c3a9235f1f2d1c8ab25fb0f132a601
+38b33058e26acf3f1ed7e78bce256f1a476d6817
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-1bd2a641b59c50783dced1d356876d6a99d9fa51
+fb89ba8b5659f653c7dab37f14e98939a4b31d3a
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-4d656b540d730acd3d50b5d1aea62e0b5a294f70
+2d4c40cf1df5ad626b7fd8876997a6165640f51b
 '
 '
 src
@@ -956,7 +956,7 @@ project
 libcxx
 .
 git
-24a179746076f39dc0abc2396830beb13ea07237
+124c7ee3fcfeb8b31c8cb0e78a967ad9d58c86e8
 '
 '
 src
@@ -1387,7 +1387,7 @@ com
 catapult
 .
 git
-f471ada82a99af3f93286e401ae1d6d4c65474e9
+5bda427934f1067bfe795199b6466828062b99ac
 '
 '
 src
@@ -1706,7 +1706,7 @@ third_party
 freetype2
 .
 git
-d857bd535b6c7e877f262a9b61ed21ee11b35dab
+e71647621cb72e9c263ec42238df632bded97333
 '
 '
 src
@@ -1781,7 +1781,7 @@ google
 benchmark
 .
 git
-f730846b0a3c0dc0699978846fb14ffb2fad0bdc
+efc89f0b524780b1994d5dddd83a92718e5be492
 '
 }
 #
@@ -2528,7 +2528,7 @@ external
 perfetto
 .
 git
-722a85f82b43d34dca78d6d8bc84cf7eab33a5a6
+6cd6c28bb7077172f40adc45c63cd884da03abb0
 '
 '
 src
@@ -2958,7 +2958,7 @@ chromium
 src
 /
 tools
-bfc14efe0e8b9a0697bf9e50fcf98072d0338490
+5c77550f0c78e997449780bfafe2447b6b235c10
 '
 '
 src
@@ -3340,7 +3340,11 @@ version
 '
 :
 '
-f030BJZjYRvJGXDKp6HZ7omZFNeH3WT4RWMKdBmuUmAC
+UjyqFgfjWns1GoUnCZ1Tzij
+-
+Q8mSQI5jF
+-
+KKnMDfWlgC
 '
 }
 ]
