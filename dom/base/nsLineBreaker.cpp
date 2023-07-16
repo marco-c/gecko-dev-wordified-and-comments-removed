@@ -2617,6 +2617,10 @@ wordHasComplexChar
 =
 false
 ;
+mWordContinuation
+=
+false
+;
 +
 +
 offset
