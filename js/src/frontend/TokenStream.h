@@ -281,6 +281,13 @@ max
 /
 2
 ;
+bool
+IsKeyword
+(
+TaggedParserAtomIndex
+atom
+)
+;
 extern
 TokenKind
 ReservedWordTokenKind

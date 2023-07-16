@@ -554,13 +554,6 @@ Scope
 enclosingScope
 )
 ;
-bool
-IsKeyword
-(
-TaggedParserAtomIndex
-atom
-)
-;
 }
 }
 #
