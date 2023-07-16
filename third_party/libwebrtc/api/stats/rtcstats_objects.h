@@ -2278,11 +2278,6 @@ min_playout_delay
 ;
 }
 ;
-using
-RTCInboundRTPStreamStats
-=
-RTCInboundRtpStreamStats
-;
 class
 RTC_EXPORT
 RTCOutboundRtpStreamStats
@@ -2545,11 +2540,6 @@ string
 scalability_mode
 ;
 }
-;
-using
-RTCOutboundRTPStreamStats
-=
-RTCOutboundRtpStreamStats
 ;
 class
 RTC_EXPORT
