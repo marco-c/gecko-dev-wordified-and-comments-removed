@@ -7,6 +7,11 @@ API_MAKE_REF_COUNTED_H_
 #
 include
 <
+type_traits
+>
+#
+include
+<
 utility
 >
 #
