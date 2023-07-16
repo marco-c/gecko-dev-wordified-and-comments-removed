@@ -480,7 +480,9 @@ graphics
 "
 0
 .
-23
+22
+.
+3
 "
 core
 -
@@ -490,7 +492,9 @@ text
 version
 =
 "
-20
+19
+.
+2
 "
 default
 -

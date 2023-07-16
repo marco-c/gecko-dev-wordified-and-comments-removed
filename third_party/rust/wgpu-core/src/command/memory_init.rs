@@ -35,10 +35,13 @@ device
 :
 :
 Device
-hal_api
+hub
 :
 :
+{
 HalApi
+Storage
+}
 id
 :
 :
@@ -57,10 +60,6 @@ resource
 Buffer
 Texture
 }
-storage
-:
-:
-Storage
 track
 :
 :

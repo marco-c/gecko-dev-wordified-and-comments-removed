@@ -42,13 +42,6 @@ lib
 rs
 "
 [
-features
-]
-serde
-=
-[
-]
-[
 dependencies
 .
 bitflags

@@ -54,6 +54,10 @@ pub
 struct
 Heap
 ;
+pub
+struct
+HeapRef
+;
 }
 impl
 HeapRef
@@ -656,6 +660,10 @@ MTLHeapDescriptor
 pub
 struct
 HeapDescriptor
+;
+pub
+struct
+HeapDescriptorRef
 ;
 }
 impl

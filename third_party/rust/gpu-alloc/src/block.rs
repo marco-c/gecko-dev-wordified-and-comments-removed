@@ -394,6 +394,9 @@ memory
 }
 =
 >
+&
+*
+*
 memory
 MemoryBlockFlavor
 :
@@ -406,6 +409,9 @@ memory
 }
 =
 >
+&
+*
+*
 memory
 }
 }

@@ -7208,15 +7208,6 @@ SINGLE_BUFFER
 }
 ]
 ;
-if
-config
-.
-format
-.
-is_srgb
-(
-)
-{
 match
 self
 .
@@ -7283,7 +7274,6 @@ as
 i32
 )
 ;
-}
 }
 }
 attributes
