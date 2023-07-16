@@ -30,6 +30,10 @@ pub
 struct
 CaptureScope
 ;
+pub
+struct
+CaptureScopeRef
+;
 }
 impl
 CaptureScopeRef
@@ -120,6 +124,10 @@ MTLCaptureManager
 pub
 struct
 CaptureManager
+;
+pub
+struct
+CaptureManagerRef
 ;
 }
 impl
@@ -289,8 +297,6 @@ String
 {
 unsafe
 {
-Ok
-(
 try_objc
 !
 {
@@ -311,7 +317,6 @@ mut
 err
 ]
 }
-)
 }
 }
 pub

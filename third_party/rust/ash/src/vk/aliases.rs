@@ -1128,12 +1128,6 @@ PipelineShaderStageRequiredSubgroupSizeCreateInfo
 ;
 pub
 type
-ShaderRequiredSubgroupSizeCreateInfoEXT
-=
-PipelineShaderStageRequiredSubgroupSizeCreateInfo
-;
-pub
-type
 MemoryOpaqueCaptureAddressAllocateInfoKHR
 =
 MemoryOpaqueCaptureAddressAllocateInfo

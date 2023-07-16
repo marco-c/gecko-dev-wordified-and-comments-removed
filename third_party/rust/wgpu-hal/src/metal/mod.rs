@@ -1,10 +1,3 @@
-#
-[
-allow
-(
-deprecated
-)
-]
 mod
 adapter
 ;
@@ -52,9 +45,6 @@ arrayvec
 ArrayVec
 ;
 use
-metal
-:
-:
 foreign_types
 :
 :

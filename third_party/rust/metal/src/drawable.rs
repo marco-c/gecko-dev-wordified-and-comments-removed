@@ -21,6 +21,10 @@ pub
 struct
 Drawable
 ;
+pub
+struct
+DrawableRef
+;
 }
 impl
 DrawableRef

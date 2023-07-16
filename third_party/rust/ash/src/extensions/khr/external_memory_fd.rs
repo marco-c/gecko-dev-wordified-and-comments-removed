@@ -143,7 +143,7 @@ get_memory_fd
 (
 &
 self
-get_fd_info
+create_info
 :
 &
 vk
@@ -176,7 +176,7 @@ get_memory_fd_khr
 self
 .
 handle
-get_fd_info
+create_info
 &
 mut
 fd

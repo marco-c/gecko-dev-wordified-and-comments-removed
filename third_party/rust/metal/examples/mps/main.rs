@@ -40,17 +40,11 @@ f32
 type
 Ray
 =
-mps
-:
-:
 MPSRayOriginMinDistanceDirectionMaxDistance
 ;
 type
 Intersection
 =
-mps
-:
-:
 MPSIntersectionDistancePrimitiveIndexCoordinates
 ;
 fn
@@ -337,9 +331,6 @@ buffer_opts
 let
 acceleration_structure
 =
-mps
-:
-:
 TriangleAccelerationStructure
 :
 :
@@ -395,9 +386,6 @@ acceleration_structure
 .
 set_index_type
 (
-mps
-:
-:
 MPSDataType
 :
 :
@@ -415,9 +403,6 @@ acceleration_structure
 .
 set_usage
 (
-mps
-:
-:
 MPSAccelerationStructureUsage
 :
 :
@@ -433,9 +418,6 @@ rebuild
 let
 ray_intersector
 =
-mps
-:
-:
 RayIntersector
 :
 :
@@ -479,9 +461,6 @@ ray_intersector
 .
 set_ray_data_type
 (
-mps
-:
-:
 MPSRayDataType
 :
 :
@@ -511,9 +490,6 @@ ray_intersector
 .
 set_intersection_data_type
 (
-mps
-:
-:
 MPSIntersectionDataType
 :
 :
@@ -657,9 +633,6 @@ encode_intersection_to_command_buffer
 (
 &
 command_buffer
-mps
-:
-:
 MPSIntersectionType
 :
 :

@@ -279,11 +279,6 @@ doc
 hidden
 )
 ]
-pub
-unsafe
-type
-CGDataProvider
-{
 type
 CType
 =
@@ -328,7 +323,14 @@ as
 mut
 _
 ;
-}
+pub
+struct
+CGDataProvider
+;
+pub
+struct
+CGDataProviderRef
+;
 }
 impl
 CGDataProvider

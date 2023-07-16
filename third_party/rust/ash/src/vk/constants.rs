@@ -119,15 +119,6 @@ u32
 ;
 pub
 const
-REMAINING_3D_SLICES_EXT
-:
-u32
-=
-!
-0
-;
-pub
-const
 WHOLE_SIZE
 :
 u64

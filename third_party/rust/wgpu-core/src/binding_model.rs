@@ -19,10 +19,13 @@ error
 ErrorFormatter
 PrettyError
 }
-hal_api
+hub
 :
 :
+{
 HalApi
+Resource
+}
 id
 :
 :
@@ -42,10 +45,6 @@ init_tracker
 BufferInitTrackerAction
 TextureInitTrackerAction
 }
-resource
-:
-:
-Resource
 track
 :
 :

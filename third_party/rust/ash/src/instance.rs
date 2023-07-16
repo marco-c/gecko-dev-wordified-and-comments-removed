@@ -1,16 +1,3 @@
-#
-[
-cfg
-(
-doc
-)
-]
-use
-super
-:
-:
-Entry
-;
 use
 crate
 :
