@@ -1539,12 +1539,6 @@ ColorID
 :
 Menutext
 :
-case
-ColorID
-:
-:
-MozMenubartext
-:
 if
 (
 UseNonNativeMenuColors

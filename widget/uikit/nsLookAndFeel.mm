@@ -493,12 +493,6 @@ case
 ColorID
 :
 :
-MozMenubartext
-:
-case
-ColorID
-:
-:
 Windowtext
 :
 aResult

@@ -1464,12 +1464,6 @@ moz_menuhovertext
 ui
 .
 -
-moz_menubartext
-"
-"
-ui
-.
--
 moz_menubarhovertext
 "
 "
@@ -3811,13 +3805,6 @@ MozMenuhover
 COLOR
 (
 MozMenuhovertext
-0x00
-0x00
-0x00
-)
-COLOR
-(
-MozMenubartext
 0x00
 0x00
 0x00

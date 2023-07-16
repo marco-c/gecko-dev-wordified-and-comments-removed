@@ -972,7 +972,6 @@ in_ua_or_chrome_sheet
 ]
 MozMenuhoverdisabled
 MozMenuhovertext
-MozMenubartext
 MozMenubarhovertext
 MozEventreerow
 MozOddtreerow
