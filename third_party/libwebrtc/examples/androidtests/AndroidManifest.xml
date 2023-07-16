@@ -185,9 +185,7 @@ android
 name
 =
 "
-android
-.
-support
+androidx
 .
 test
 .

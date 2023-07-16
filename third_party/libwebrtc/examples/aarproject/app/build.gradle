@@ -36,9 +36,7 @@ versionName
 "
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
