@@ -2509,8 +2509,6 @@ ReadOnlyCompileOptions
 options
 ImmutableScriptFlags
 flags
-bool
-isMultiDecode
 )
 {
 using
@@ -2628,11 +2626,6 @@ isRunOnce
 treatAsRunOnce
 &
 &
-(
-isMultiDecode
-|
-|
-(
 options
 .
 forceStrictMode
@@ -2649,8 +2642,6 @@ nonSyntacticScope
 =
 =
 hasNonSyntacticScope
-)
-)
 ;
 }
 JS_PUBLIC_API
@@ -2682,7 +2673,6 @@ script
 immutableFlags
 (
 )
-false
 )
 ;
 }

@@ -122,17 +122,6 @@ lineno
 ;
 }
 ;
-using
-TranscodeSources
-=
-mozilla
-:
-:
-Vector
-<
-TranscodeSource
->
-;
 enum
 class
 TranscodeResult
