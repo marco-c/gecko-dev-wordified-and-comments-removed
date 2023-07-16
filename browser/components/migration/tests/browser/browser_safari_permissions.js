@@ -330,7 +330,7 @@ Safari
 let
 panelItem
 =
-shadow
+wizard
 .
 querySelector
 (

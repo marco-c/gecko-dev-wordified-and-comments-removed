@@ -235,6 +235,7 @@ exhaustive
 -
 deps
 return
+(
 <
 migration
 -
@@ -254,11 +255,18 @@ ref
 }
 >
 <
+panel
+-
+list
+/
+>
+<
 /
 migration
 -
 wizard
 >
+)
 ;
 }
 ;
