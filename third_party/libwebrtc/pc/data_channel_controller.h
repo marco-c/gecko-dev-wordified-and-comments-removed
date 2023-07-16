@@ -507,7 +507,7 @@ config
 )
 ;
 bool
-HandleOpenMessage_s
+HandleOpenMessage_n
 (
 const
 cricket
@@ -526,7 +526,7 @@ buffer
 )
 RTC_RUN_ON
 (
-signaling_thread
+network_thread
 (
 )
 )

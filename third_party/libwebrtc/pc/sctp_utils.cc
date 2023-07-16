@@ -146,7 +146,7 @@ size
 1
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_WARNING
 )
