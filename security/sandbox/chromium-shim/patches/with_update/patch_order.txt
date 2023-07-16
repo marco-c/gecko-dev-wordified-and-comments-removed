@@ -19,9 +19,6 @@ patch
 allow_read_only_all_paths_rule
 .
 patch
-revert_TargetNtSetInformationThread_change
-.
-patch
 mingw_copy_s
 .
 patch
@@ -95,5 +92,8 @@ derive_sid_from_name
 .
 patch
 add_loongarch_defines
+.
+patch
+block_NtImpersonateAnonymousToken_before_LowerToken
 .
 patch
