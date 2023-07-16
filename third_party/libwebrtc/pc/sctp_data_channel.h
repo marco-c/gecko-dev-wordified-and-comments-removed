@@ -737,11 +737,6 @@ kHandshakeReady
 }
 ;
 void
-Init
-(
-)
-;
-void
 UpdateState
 (
 )
