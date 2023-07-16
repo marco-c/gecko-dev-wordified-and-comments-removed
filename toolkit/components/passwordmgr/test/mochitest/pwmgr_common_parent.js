@@ -205,7 +205,6 @@ LoginManager
 var
 logins
 =
-await
 pwmgr
 .
 getAllLogins
@@ -369,7 +368,6 @@ login
 }
 logins
 =
-await
 pwmgr
 .
 getAllLogins
@@ -438,7 +436,6 @@ registerRunTests
 )
 ;
 }
-async
 function
 dumpLogins
 (
@@ -447,7 +444,6 @@ dumpLogins
 let
 logins
 =
-await
 Services
 .
 logins

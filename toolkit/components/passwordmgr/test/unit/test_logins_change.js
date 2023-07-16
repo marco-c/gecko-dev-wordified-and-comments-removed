@@ -32,7 +32,6 @@ aLoginInfo
 aExpectedError
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -154,7 +153,6 @@ passwordField
 aExpectedError
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -237,7 +235,6 @@ loginList
 )
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -306,7 +303,6 @@ loginInfo
 )
 ;
 }
-await
 LoginTestUtils
 .
 checkLogins
@@ -1311,7 +1307,6 @@ removeAllUserFacingLogins
 (
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1434,7 +1429,6 @@ loginInfo
 updatedLoginInfo
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1478,7 +1472,6 @@ updatedLoginInfo
 differentLoginInfo
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1498,7 +1491,6 @@ addLoginAsync
 loginInfo
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1532,7 +1524,6 @@ exists
 /
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1725,7 +1716,6 @@ new_form_field_password
 )
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1814,7 +1804,6 @@ updatedLoginInfo
 differentLoginProperties
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1834,7 +1823,6 @@ addLoginAsync
 loginInfo
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1868,7 +1856,6 @@ exists
 /
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -2608,8 +2595,6 @@ Assert
 .
 equal
 (
-(
-await
 Services
 .
 logins
@@ -2617,14 +2602,12 @@ logins
 getAllLogins
 (
 )
-)
 .
 length
 0
 )
 ;
 }
-await
 LoginTestUtils
 .
 checkLogins
