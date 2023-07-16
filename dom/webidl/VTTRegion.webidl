@@ -130,17 +130,6 @@ up
 }
 ;
 [
-Pref
-=
-"
-media
-.
-webvtt
-.
-regions
-.
-enabled
-"
 Exposed
 =
 Window
