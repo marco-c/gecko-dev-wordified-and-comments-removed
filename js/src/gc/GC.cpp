@@ -14046,6 +14046,10 @@ discardJITCodeForGC
 (
 )
 ;
+haveDiscardedJITCodeThisSlice
+=
+true
+;
 if
 (
 isShrinkingGC
@@ -18011,6 +18015,10 @@ ShouldUseBackgroundThreads
 isIncremental
 reason
 )
+;
+haveDiscardedJITCodeThisSlice
+=
+false
 ;
 #
 ifdef
