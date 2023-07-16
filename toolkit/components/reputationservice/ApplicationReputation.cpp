@@ -707,12 +707,6 @@ applescript
 "
 "
 .
-appref
--
-ms
-"
-"
-.
 as
 "
 "
