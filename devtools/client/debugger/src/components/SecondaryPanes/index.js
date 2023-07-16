@@ -99,6 +99,7 @@ getShouldPauseOnExceptions
 getShouldPauseOnCaughtExceptions
 getThreads
 getCurrentThread
+getThreadContext
 getPauseReason
 getShouldBreakpointsPaneOpenOnPause
 getSkipPausing
@@ -862,6 +863,11 @@ props
 .
 removeAllBreakpoints
 (
+this
+.
+props
+.
+cx
 )
 ;
 }
@@ -2412,6 +2418,12 @@ thread
 ;
 return
 {
+cx
+:
+getThreadContext
+(
+state
+)
 expressions
 :
 getExpressions

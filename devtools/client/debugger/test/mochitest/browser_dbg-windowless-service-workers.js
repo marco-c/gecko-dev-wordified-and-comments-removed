@@ -315,6 +315,10 @@ actions
 .
 removeAllBreakpoints
 (
+getContext
+(
+dbg
+)
 )
 ;
 info
