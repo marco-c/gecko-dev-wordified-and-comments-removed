@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-4f7f47a5a065f5ac03d0477344d4e26235cd0063
+5a935410663a0b134aab0015831b35ff56ab00d1
 '
 #
 Fetch
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-eee4e732321dfd73bbd4b934e0c4712218405e12
+769f313acbe2c8234f40079d9901d267bcd63e85
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-2512e92cc449dba5576ada3caab46548f3adc0b7
+e0c6f981d5d2587a46b7008aec63b02f2db1e43c
 '
 #
 Gradle
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-8b407fa16c32d988fb28fcc06a28f1cf11f97f12
+bd6a13fdf38e79132cb0fed061d96a994754f4ef
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-24152afe9941da21b0082bbcf57d7d7740c634fb
+fa065fedaf770c98ae6073ca720d1093ae49b495
 '
 '
 src
@@ -956,7 +956,7 @@ project
 libcxx
 .
 git
-f8109050eccbcd3b2105cf28456108f55e939ed5
+2213f1846f9108c8f23ef9fb80141d38de2bbac8
 '
 '
 src
@@ -1387,7 +1387,7 @@ com
 catapult
 .
 git
-4003278e8cd1d54ca0660ea4e39744eb842c7a91
+dabfa7bf23b8995e8b45f9c0f4c3ced4d1c04203
 '
 '
 src
@@ -1517,7 +1517,7 @@ tools
 depot_tools
 .
 git
-30ebc0abc1dbc9e13a63b004cb4d512c65749d19
+1fc4378acc37e969253686f380f728c45be0b511
 '
 '
 src
@@ -1706,7 +1706,7 @@ third_party
 freetype2
 .
 git
-e95e623471282b5fe3de6f33263757b6f125f0bd
+5c37b6406258ec0d7ab64b8619c5ea2c19e3c69a
 '
 '
 src
@@ -2429,7 +2429,7 @@ videolan
 dav1d
 .
 git
-0d6a31f275dc73dabf9fd8742a4adaa9ecc13da6
+d426d1c91075b9c552b12dd052af1cd0368f05a2
 '
 '
 src
@@ -2958,7 +2958,7 @@ chromium
 src
 /
 tools
-6e9d124eec129ee0e56403fa3c1438eb66b2bd21
+031166e0d8ac6cd501d055e105ad916425486f94
 '
 '
 src
