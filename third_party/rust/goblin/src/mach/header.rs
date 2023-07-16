@@ -591,14 +591,6 @@ u32
 0xb
 ;
 pub
-const
-MH_FILESET
-:
-u32
-=
-0xc
-;
-pub
 fn
 filetype_to_str
 (
@@ -681,12 +673,6 @@ MH_KEXT_BUNDLE
 >
 "
 KEXT_BUNDLE
-"
-MH_FILESET
-=
->
-"
-FILESET
 "
 _
 =

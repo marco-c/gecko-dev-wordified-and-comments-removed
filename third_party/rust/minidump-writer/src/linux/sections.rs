@@ -12,10 +12,6 @@ mappings
 ;
 pub
 mod
-memory_info_list_stream
-;
-pub
-mod
 memory_list_stream
 ;
 pub

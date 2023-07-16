@@ -211,9 +211,6 @@ NT_PRSTATUS
 NT_PRFPREGSET
 =
 2
-NT_ARM_VFP
-=
-0x400
 }
 #
 [
@@ -672,7 +669,7 @@ request
 ptrace
 :
 :
-RequestType
+Request
 flag
 :
 Option
@@ -724,6 +721,11 @@ libc
 ptrace
 (
 request
+as
+ptrace
+:
+:
+RequestType
 libc
 :
 :
@@ -783,7 +785,7 @@ request
 ptrace
 :
 :
-RequestType
+Request
 flag
 :
 Option
@@ -877,6 +879,11 @@ libc
 ptrace
 (
 request
+as
+ptrace
+:
+:
+RequestType
 libc
 :
 :
@@ -934,7 +941,7 @@ request
 ptrace
 :
 :
-RequestType
+Request
 pid
 :
 unistd
@@ -987,6 +994,11 @@ libc
 ptrace
 (
 request
+as
+ptrace
+:
+:
+RequestType
 libc
 :
 :

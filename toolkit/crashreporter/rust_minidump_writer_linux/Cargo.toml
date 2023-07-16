@@ -76,7 +76,7 @@ context
 .
 6
 .
-1
+0
 "
 minidump
 -
@@ -87,7 +87,7 @@ writer
 .
 8
 .
-1
+0
 "
 libc
 =
