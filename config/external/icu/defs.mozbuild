@@ -49,6 +49,14 @@ True
 DEFINES
 [
 '
+UCONFIG_NO_BREAK_ITERATION
+'
+]
+=
+True
+DEFINES
+[
+'
 U_CHARSET_IS_UTF8
 '
 ]
