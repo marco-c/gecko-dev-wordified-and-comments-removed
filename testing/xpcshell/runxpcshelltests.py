@@ -190,6 +190,10 @@ set
 [
         
 "
+crash_reporter_init
+"
+        
+"
 test_status
 "
         
@@ -714,16 +718,25 @@ __init__
 (
         
 self
+        
 test_object
+        
 retry
 =
 True
+        
 verbose
 =
 False
+        
 usingTSan
 =
 False
+        
+usingCrashReporter
+=
+False
+        
 *
 *
 kwargs
@@ -767,6 +780,12 @@ self
 usingTSan
 =
 usingTSan
+        
+self
+.
+usingCrashReporter
+=
+usingCrashReporter
         
 self
 .
@@ -1276,6 +1295,12 @@ output_lines
 self
 .
 has_failure_output
+=
+False
+        
+self
+.
+saw_crash_reporter_init
 =
 False
         
@@ -4823,6 +4848,28 @@ line_string
             
 return
         
+if
+line_object
+[
+"
+action
+"
+]
+=
+=
+"
+crash_reporter_init
+"
+:
+            
+self
+.
+saw_crash_reporter_init
+=
+True
+            
+return
+        
 action
 =
 line_object
@@ -5796,16 +5843,44 @@ TSAN_EXIT_CODE_WITH_RACES
             
 )
             
+ended_before_crash_reporter_init
+=
+(
+                
+return_code_ok
+                
+and
+self
+.
+usingCrashReporter
+                
+and
+not
+self
+.
+saw_crash_reporter_init
+            
+)
+            
 passed
 =
+(
+                
 (
 not
 self
 .
 has_failure_output
 )
+                
+and
+not
+ended_before_crash_reporter_init
+                
 and
 return_code_ok
+            
+)
             
 status
 =
@@ -5857,9 +5932,47 @@ status
 !
 =
 expected
+or
+ended_before_crash_reporter_init
 :
                 
 if
+ended_before_crash_reporter_init
+:
+                    
+self
+.
+log
+.
+test_end
+(
+                        
+name
+                        
+"
+CRASH
+"
+                        
+expected
+=
+expected
+                        
+message
+=
+"
+Test
+ended
+before
+setting
+up
+the
+crash
+reporter
+"
+                    
+)
+                
+elif
 self
 .
 retry
@@ -5920,6 +6033,9 @@ log_full_output
                     
 return
                 
+else
+:
+                    
 self
 .
 log
@@ -12737,6 +12853,29 @@ tsan
 "
 ]
         
+usingCrashReporter
+=
+(
+            
+"
+crashreporter
+"
+in
+self
+.
+mozInfo
+and
+self
+.
+mozInfo
+[
+"
+crashreporter
+"
+]
+        
+)
+        
 tests_queue
 =
 deque
@@ -12876,6 +13015,10 @@ true
 usingTSan
 =
 usingTSan
+                        
+usingCrashReporter
+=
+usingCrashReporter
                         
 mobileArgs
 =

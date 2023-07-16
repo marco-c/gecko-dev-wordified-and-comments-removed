@@ -505,6 +505,15 @@ do_get_minidumpdir
 (
 )
 ;
+_testLogger
+.
+logData
+(
+"
+crash_reporter_init
+"
+)
+;
 }
 }
 catch
