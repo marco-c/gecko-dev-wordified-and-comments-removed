@@ -1844,6 +1844,16 @@ back
 .
 height
 ;
+if
+(
+video_codec
+.
+numberOfSimulcastStreams
+=
+=
+1
+)
+{
 video_codec
 .
 simulcastStream
@@ -1878,6 +1888,7 @@ back
 .
 height
 ;
+}
 video_codec
 .
 VP9
