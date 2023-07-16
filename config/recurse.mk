@@ -1969,6 +1969,8 @@ gtest
 rust
 /
 target
+-
+objects
 (
 compile_targets
 )
@@ -1981,6 +1983,8 @@ library
 rust
 /
 target
+-
+objects
 :
 toolkit
 /
@@ -1991,5 +1995,7 @@ gtest
 rust
 /
 target
+-
+objects
 endif
 endif

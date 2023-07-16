@@ -9301,6 +9301,27 @@ obj
 .
 output_category
         
+elif
+isinstance
+(
+obj
+BaseRustLibrary
+)
+:
+            
+target_name
+=
+f
+"
+{
+obj
+.
+KIND
+}
+-
+objects
+"
+        
 else
 :
             
