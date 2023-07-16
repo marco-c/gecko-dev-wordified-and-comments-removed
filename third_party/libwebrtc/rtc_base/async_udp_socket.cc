@@ -86,7 +86,7 @@ rtc
 {
 static
 bool
-IsScmTimeStampExperimentEnabled
+IsScmTimeStampExperimentDisabled
 (
 )
 {
@@ -97,7 +97,7 @@ webrtc
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
@@ -740,7 +740,8 @@ socket_time_offset_
 {
 socket_time_offset_
 =
-IsScmTimeStampExperimentEnabled
+!
+IsScmTimeStampExperimentDisabled
 (
 )
 ?

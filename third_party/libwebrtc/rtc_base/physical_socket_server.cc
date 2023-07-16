@@ -595,7 +595,7 @@ value_
 }
 ;
 bool
-IsScmTimeStampExperimentEnabled
+IsScmTimeStampExperimentDisabled
 (
 )
 {
@@ -606,7 +606,7 @@ webrtc
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
@@ -665,7 +665,8 @@ nullptr
 )
 read_scm_timestamp_experiment_
 (
-IsScmTimeStampExperimentEnabled
+!
+IsScmTimeStampExperimentDisabled
 (
 )
 )
@@ -3823,7 +3824,8 @@ O_NONBLOCK
 ;
 if
 (
-IsScmTimeStampExperimentEnabled
+!
+IsScmTimeStampExperimentDisabled
 (
 )
 )
