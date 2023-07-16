@@ -67,17 +67,6 @@ fixtures
 /
 third_party
 /
-browser
-/
-extensions
-/
-screenshots
-/
-build
-/
-raven
-.
-js
 devtools
 /
 client

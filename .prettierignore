@@ -12770,17 +12770,6 @@ unit
 /
 heuristics
 /
-browser
-/
-extensions
-/
-screenshots
-/
-build
-/
-raven
-.
-js
 devtools
 /
 client

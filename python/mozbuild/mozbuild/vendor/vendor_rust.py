@@ -1697,14 +1697,6 @@ arrayref
 "
             
 "
-cloudabi
-"
-            
-"
-Inflector
-"
-            
-"
 mach
 "
             
