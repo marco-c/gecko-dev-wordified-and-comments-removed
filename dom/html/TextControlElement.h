@@ -192,6 +192,8 @@ GetDefaultValueFromContent
 nsAString
 &
 aValue
+bool
+aForDisplay
 )
 =
 0

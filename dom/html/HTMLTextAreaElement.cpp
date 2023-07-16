@@ -851,6 +851,7 @@ GetValue
 (
 aValue
 aIgnoreWrap
+true
 )
 ;
 }
@@ -4985,6 +4986,7 @@ GetDefaultValueFromContent
 nsAString
 &
 aValue
+bool
 )
 {
 GetDefaultValue
@@ -5032,6 +5034,7 @@ mState
 GetValue
 (
 aValue
+true
 true
 )
 ;

@@ -326,6 +326,8 @@ GetDefaultValueFromContent
 nsAString
 &
 aValue
+bool
+aForDisplay
 )
 override
 ;

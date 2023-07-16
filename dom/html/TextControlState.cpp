@@ -6562,6 +6562,7 @@ GetValue
 (
 currentValue
 true
+false
 )
 ;
 }
@@ -7218,6 +7219,7 @@ else
 GetValue
 (
 defaultValue
+true
 true
 )
 ;
@@ -8509,6 +8511,7 @@ GetValue
 (
 value
 false
+true
 )
 ;
 props
@@ -9763,6 +9766,7 @@ GetValue
 (
 value
 true
+false
 )
 ;
 if
@@ -10232,6 +10236,8 @@ nsAString
 aValue
 bool
 aIgnoreWrap
+bool
+aForDisplay
 )
 const
 {
@@ -10539,6 +10545,7 @@ mTextCtrlElement
 GetDefaultValueFromContent
 (
 value
+aForDisplay
 )
 ;
 nsContentUtils
@@ -10605,6 +10612,7 @@ value
 GetValue
 (
 value
+true
 true
 )
 ;
@@ -10888,6 +10896,7 @@ LastValueChangeWasInteractive
 GetValue
 (
 mLastInteractiveValue
+true
 true
 )
 ;
