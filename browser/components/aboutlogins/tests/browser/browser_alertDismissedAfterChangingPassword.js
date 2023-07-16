@@ -1210,8 +1210,11 @@ shadowRoot
 querySelector
 (
 "
-.
+login
+-
 vulnerable
+-
+password
 -
 alert
 "
@@ -1343,8 +1346,11 @@ shadowRoot
 querySelector
 (
 "
-.
+login
+-
 vulnerable
+-
+password
 -
 alert
 "

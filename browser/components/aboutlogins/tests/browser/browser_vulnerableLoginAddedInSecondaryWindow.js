@@ -778,8 +778,11 @@ shadowRoot
 querySelector
 (
 "
-.
+login
+-
 vulnerable
+-
+password
 -
 alert
 "
