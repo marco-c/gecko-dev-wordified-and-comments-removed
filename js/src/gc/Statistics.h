@@ -1108,13 +1108,7 @@ duration
 (
 )
 const
-{
-return
-end
--
-start
 ;
-}
 bool
 wasReset
 (
