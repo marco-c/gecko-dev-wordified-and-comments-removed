@@ -280,9 +280,6 @@ class
 ContextOptions
 ;
 class
-PrefableCompileOptions
-;
-class
 Realm
 ;
 class
@@ -2253,17 +2250,6 @@ JS
 :
 :
 ContextOptions
-&
-options
-)
-;
-void
-SetPrefableCompileOptions
-(
-JS
-:
-:
-PrefableCompileOptions
 &
 options
 )
