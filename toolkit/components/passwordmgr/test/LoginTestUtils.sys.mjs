@@ -547,6 +547,7 @@ test
 .
 *
 /
+async
 checkLogins
 (
 expectedLogins
@@ -564,6 +565,7 @@ this
 .
 assertLoginListsEqual
 (
+await
 Services
 .
 logins

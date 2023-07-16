@@ -10927,7 +10927,7 @@ Services
 .
 logins
 .
-getAllLoginsAsync
+getAllLogins
 (
 )
 ;

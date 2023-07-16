@@ -523,6 +523,7 @@ processedPromise
 let
 logins
 =
+await
 Services
 .
 logins
@@ -578,6 +579,7 @@ above
 "
 )
 ;
+await
 checkOnlyLoginWasUsedTwice
 (
 {

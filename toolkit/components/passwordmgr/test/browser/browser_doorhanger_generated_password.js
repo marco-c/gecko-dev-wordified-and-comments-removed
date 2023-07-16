@@ -156,12 +156,15 @@ Assert
 .
 equal
 (
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -1410,6 +1413,7 @@ true
 let
 logins
 =
+await
 Services
 .
 logins
@@ -1728,6 +1732,7 @@ let
 autoSavedLogin
 ]
 =
+await
 Services
 .
 logins
@@ -1754,6 +1759,7 @@ browser
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -2113,6 +2119,7 @@ let
 autoSavedLogin
 ]
 =
+await
 Services
 .
 logins
@@ -2139,6 +2146,7 @@ browser
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -2234,6 +2242,7 @@ let
 savedLogin
 ]
 =
+await
 Services
 .
 logins
@@ -2434,6 +2443,7 @@ modifyLogin
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -2618,6 +2628,7 @@ user1LoginSnapshot
 autoSavedLogin
 ]
 =
+await
 verifyLogins
 (
 [
@@ -2812,6 +2823,7 @@ promiseHidden
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -2922,6 +2934,7 @@ let
 savedLogin
 ]
 =
+await
 Services
 .
 logins
@@ -3124,6 +3137,7 @@ addLogin
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -3238,6 +3252,7 @@ let
 savedLogin
 ]
 =
+await
 Services
 .
 logins
@@ -3438,6 +3453,7 @@ modifyLogin
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -3545,6 +3561,7 @@ let
 savedLogin
 ]
 =
+await
 Services
 .
 logins
@@ -3809,6 +3826,7 @@ DONT_CHANGE_BUTTON
 await
 promiseHidden
 ;
+await
 verifyLogins
 (
 [
@@ -3916,6 +3934,7 @@ modifyLogin
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -4214,6 +4233,7 @@ addLogin
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -4413,6 +4433,7 @@ modifyLogin
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -4654,6 +4675,7 @@ addLogin
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -4776,12 +4798,15 @@ let
 timeLastUsed
 }
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 [
 2
@@ -4814,6 +4839,7 @@ modifyLogin
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -5080,6 +5106,7 @@ unused
 autoSavedLogin
 ]
 =
+await
 verifyLogins
 (
 [
@@ -5540,6 +5567,7 @@ resolved
 "
 )
 ;
+await
 verifyLogins
 (
 [
@@ -5867,6 +5895,7 @@ user1LoginSnapshot
 autoSavedLogin
 ]
 =
+await
 verifyLogins
 (
 [
@@ -6404,6 +6433,7 @@ resolved
 "
 )
 ;
+await
 verifyLogins
 (
 [
@@ -6726,6 +6756,7 @@ user1LoginSnapshot
 autoSavedLogin
 ]
 =
+await
 verifyLogins
 (
 [
@@ -7236,6 +7267,7 @@ changed
 await
 storageChangedPromise
 ;
+await
 verifyLogins
 (
 [
@@ -7526,6 +7558,7 @@ let
 autoSavedLoginSnapshot
 ]
 =
+await
 verifyLogins
 (
 [
