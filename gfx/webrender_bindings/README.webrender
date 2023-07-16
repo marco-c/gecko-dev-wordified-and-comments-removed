@@ -177,7 +177,7 @@ gfx
 .
 webrender
 .
-enabled
+all
 pref
 to
 true
