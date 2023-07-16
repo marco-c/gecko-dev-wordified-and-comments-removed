@@ -7757,6 +7757,12 @@ case
 JSOp
 :
 :
+ThrowWithStack
+:
+case
+JSOp
+:
+:
 Goto
 :
 case
@@ -8784,6 +8790,12 @@ JSOp
 :
 :
 Exception
+:
+case
+JSOp
+:
+:
+ExceptionAndStack
 :
 case
 JSOp

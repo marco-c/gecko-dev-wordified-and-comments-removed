@@ -975,6 +975,12 @@ JSOp
 :
 Exception
 :
+case
+JSOp
+:
+:
+ExceptionAndStack
+:
 MOZ_ASSERT
 (
 !
