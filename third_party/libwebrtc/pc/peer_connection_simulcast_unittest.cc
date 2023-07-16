@@ -8317,7 +8317,7 @@ q
 }
 true
 )
-kDefaultTimeout
+kLongTimeoutForRampingUp
 .
 ms
 (
@@ -9418,7 +9418,7 @@ q
 }
 true
 )
-kDefaultTimeout
+kLongTimeoutForRampingUp
 .
 ms
 (
