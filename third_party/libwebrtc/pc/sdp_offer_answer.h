@@ -901,6 +901,11 @@ UpdateNegotiationNeeded
 )
 ;
 void
+AllocateSctpSids
+(
+)
+;
+void
 DestroyAllChannels
 (
 )
