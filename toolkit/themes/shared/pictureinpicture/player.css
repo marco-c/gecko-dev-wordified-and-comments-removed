@@ -2167,6 +2167,12 @@ audio
 -
 scrubber
 ;
+align
+-
+self
+:
+center
+;
 width
 :
 64px
@@ -2179,8 +2185,8 @@ transparent
 ;
 padding
 :
-15px
-0
+6px
+2px
 ;
 margin
 :
@@ -2313,7 +2319,7 @@ border
 -
 radius
 :
-4px
+10px
 ;
 }
 #
@@ -3538,6 +3544,7 @@ transparent
 padding
 :
 6px
+2px
 ;
 }
 #
