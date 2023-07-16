@@ -2379,6 +2379,14 @@ specific
 )
 ;
 inline
+RegI64
+popIndexToInt64
+(
+IndexType
+indexType
+)
+;
+inline
 void
 popValueStackTo
 (
@@ -6305,6 +6313,10 @@ nodiscard
 bool
 memCopyCall
 (
+uint32_t
+dstMemIndex
+uint32_t
+srcMemIndex
 )
 ;
 void

@@ -59,6 +59,15 @@ include
 "
 wasm
 /
+WasmMemory
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmTypeDecls
 .
 h
@@ -238,6 +247,9 @@ memoryBase
 ;
 uintptr_t
 boundsCheckLimit
+;
+bool
+isShared
 ;
 }
 ;

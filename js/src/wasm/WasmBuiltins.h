@@ -127,6 +127,7 @@ MemCopyM32
 MemCopySharedM32
 MemCopyM64
 MemCopySharedM64
+MemCopyAny
 DataDrop
 MemFillM32
 MemFillSharedM32
@@ -436,6 +437,11 @@ extern
 const
 SymbolicAddressSignature
 SASigMemCopySharedM64
+;
+extern
+const
+SymbolicAddressSignature
+SASigMemCopyAny
 ;
 extern
 const
