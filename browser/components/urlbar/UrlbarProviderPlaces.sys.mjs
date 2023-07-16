@@ -10091,6 +10091,7 @@ isPrivate
 state
 queryContext
 details
+controller
 )
 {
 let
@@ -10193,10 +10194,6 @@ console
 error
 )
 ;
-queryContext
-.
-view
-.
 controller
 .
 removeResult
@@ -10244,10 +10241,6 @@ console
 error
 )
 ;
-queryContext
-.
-view
-.
 controller
 .
 removeResult

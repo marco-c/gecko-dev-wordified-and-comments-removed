@@ -1070,6 +1070,7 @@ isPrivate
 state
 queryContext
 details
+controller
 )
 {
 let
@@ -1127,10 +1128,6 @@ payload
 title
 )
 ;
-queryContext
-.
-view
-.
 controller
 .
 removeResult

@@ -1240,7 +1240,7 @@ true
 }
 handleCommand
 (
-queryContext
+view
 result
 selType
 )
@@ -1315,8 +1315,6 @@ payload
 url
 )
 ;
-queryContext
-.
 view
 .
 acknowledgeDismissal
@@ -1346,8 +1344,6 @@ pocket
 false
 )
 ;
-queryContext
-.
 view
 .
 acknowledgeDismissal
@@ -1363,8 +1359,6 @@ RESULT_MENU_COMMAND
 .
 SHOW_LESS_FREQUENTLY
 :
-queryContext
-.
 view
 .
 acknowledgeFeedback

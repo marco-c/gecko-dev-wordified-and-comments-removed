@@ -5119,8 +5119,6 @@ queryContext
 this
 .
 _controller
-.
-browserWindow
 )
 ;
 }
@@ -5922,8 +5920,6 @@ queryContext
 this
 .
 _controller
-.
-browserWindow
 )
 ;
 }
@@ -6511,8 +6507,6 @@ details
 this
 .
 _controller
-.
-browserWindow
 )
 ;
 return
@@ -6847,8 +6841,9 @@ engagement
 "
 &
 &
-queryContext
-?
+this
+.
+_controller
 .
 view
 ?
@@ -6881,7 +6876,9 @@ UrlbarUtils
 .
 telemetryTypeFromResult
 (
-queryContext
+this
+.
+_controller
 .
 view
 .
@@ -6925,8 +6922,6 @@ details
 this
 .
 _controller
-.
-browserWindow
 )
 ;
 }
@@ -7090,8 +7085,9 @@ searchMode
 const
 currentResults
 =
-queryContext
-?
+this
+.
+_controller
 .
 view
 ?
@@ -7219,8 +7215,9 @@ input_field
 &
 &
 !
-queryContext
-?
+this
+.
+_controller
 .
 view
 ?

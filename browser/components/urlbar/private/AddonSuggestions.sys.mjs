@@ -1711,7 +1711,7 @@ commands
 }
 handleCommand
 (
-queryContext
+view
 result
 selType
 )
@@ -1790,8 +1790,6 @@ addons
 false
 )
 ;
-queryContext
-.
 view
 .
 acknowledgeDismissal
@@ -1806,8 +1804,6 @@ RESULT_MENU_COMMAND
 .
 SHOW_LESS_FREQUENTLY
 :
-queryContext
-.
 view
 .
 acknowledgeFeedback

@@ -215,6 +215,9 @@ i
 }
 endEngagement
 (
+{
+controller
+}
 )
 ;
 }
@@ -363,8 +366,11 @@ SEQUENCE_NUMBER
 ;
 endEngagement
 (
+{
 context
 state
+controller
+}
 )
 ;
 }
@@ -574,6 +580,9 @@ i
 }
 endEngagement
 (
+{
+controller
+}
 )
 ;
 }
@@ -582,6 +591,8 @@ endEngagement
 function
 endEngagement
 (
+{
+controller
 context
 =
 null
@@ -590,6 +601,7 @@ state
 "
 engagement
 "
+}
 )
 {
 UrlbarProviderQuickSuggest
@@ -625,6 +637,7 @@ selIndex
 -
 1
 }
+controller
 )
 ;
 Assert

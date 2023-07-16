@@ -1253,6 +1253,7 @@ isPrivate
 state
 queryContext
 details
+controller
 )
 {
 if
@@ -1327,7 +1328,7 @@ selType
 case
 FEEDBACK_COMMAND
 :
-queryContext
+controller
 .
 view
 .
@@ -1343,7 +1344,7 @@ break
 case
 DISMISS_ONE_COMMAND
 :
-queryContext
+controller
 .
 view
 .
@@ -1360,7 +1361,7 @@ break
 case
 DISMISS_ALL_COMMAND
 :
-queryContext
+controller
 .
 view
 .

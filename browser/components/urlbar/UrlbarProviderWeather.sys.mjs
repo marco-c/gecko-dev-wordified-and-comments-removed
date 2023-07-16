@@ -2030,6 +2030,7 @@ isPrivate
 state
 queryContext
 details
+controller
 )
 {
 /
@@ -2196,7 +2197,7 @@ this
 #
 getVisibleResultFromLastQuery
 (
-queryContext
+controller
 .
 view
 )
@@ -2256,7 +2257,9 @@ this
 #
 handlePossibleCommand
 (
-queryContext
+controller
+.
+view
 details
 .
 result
@@ -2869,7 +2872,7 @@ source
 #
 handlePossibleCommand
 (
-queryContext
+view
 result
 selType
 )
@@ -2961,8 +2964,6 @@ weather
 false
 )
 ;
-queryContext
-.
 view
 .
 acknowledgeDismissal
@@ -3024,8 +3025,6 @@ case
 /
 inaccurate_location
 .
-queryContext
-.
 view
 .
 acknowledgeFeedback
@@ -3040,8 +3039,6 @@ RESULT_MENU_COMMAND
 .
 SHOW_LESS_FREQUENTLY
 :
-queryContext
-.
 view
 .
 acknowledgeFeedback
@@ -3071,8 +3068,6 @@ weather
 canIncrementMinKeywordLength
 )
 {
-queryContext
-.
 view
 .
 invalidateResultMenuCommands

@@ -1328,7 +1328,7 @@ isPrivate
 state
 queryContext
 details
-window
+controller
 )
 {
 let
@@ -1357,7 +1357,9 @@ this
 pickResult
 (
 result
-window
+controller
+.
+browserWindow
 )
 ;
 }
