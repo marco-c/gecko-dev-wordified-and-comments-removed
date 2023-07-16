@@ -104,6 +104,9 @@ mPreventScriptExecution
 bool
 mGenerateSpeculativeLoads
 ;
+bool
+mHasSeenImportMap
+;
 #
 ifdef
 DEBUG
