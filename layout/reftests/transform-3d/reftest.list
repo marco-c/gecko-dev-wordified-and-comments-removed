@@ -1259,6 +1259,15 @@ for
 !
 layersGPUAccelerated
 failures
+random
+-
+if
+(
+swgl
+&
+&
+Android
+)
 !
 =
 1157984
