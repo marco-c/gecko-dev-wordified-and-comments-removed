@@ -274,6 +274,15 @@ text
 /
 javascript
 "
+&
+&
+type
+!
+=
+=
+"
+module
+"
 )
 {
 return
