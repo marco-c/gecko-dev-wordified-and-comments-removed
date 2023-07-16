@@ -1995,11 +1995,6 @@ AsyncOnExamineCachedResponse
 (
 )
 ;
-void
-ClearBogusContentEncodingIfNeeded
-(
-)
-;
 [
 [
 nodiscard
