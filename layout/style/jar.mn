@@ -141,6 +141,9 @@ forms
 .
 css
 )
+#
+ifdef
+ANDROID
 res
 /
 accessiblecaret
@@ -197,6 +200,8 @@ right
 .
 svg
 )
+#
+else
 res
 /
 accessiblecaret
@@ -469,6 +474,8 @@ right
 .
 png
 )
+#
+endif
 res
 /
 password
