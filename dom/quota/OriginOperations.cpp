@@ -484,7 +484,7 @@ h
 #
 include
 "
-ResolvableOriginOp
+ResolvableNormalOriginOp
 .
 h
 "
@@ -733,7 +733,7 @@ class
 ClearPrivateRepositoryOp
 :
 public
-ResolvableOriginOp
+ResolvableNormalOriginOp
 <
 bool
 >
@@ -744,7 +744,7 @@ ClearPrivateRepositoryOp
 (
 )
 :
-ResolvableOriginOp
+ResolvableNormalOriginOp
 (
 "
 dom
@@ -819,7 +819,7 @@ class
 ShutdownStorageOp
 :
 public
-ResolvableOriginOp
+ResolvableNormalOriginOp
 <
 bool
 >
@@ -830,7 +830,7 @@ ShutdownStorageOp
 (
 )
 :
-ResolvableOriginOp
+ResolvableNormalOriginOp
 (
 "
 dom
@@ -2393,7 +2393,7 @@ aTimestamp
 }
 RefPtr
 <
-ResolvableOriginOp
+ResolvableNormalOriginOp
 <
 bool
 >
@@ -2413,7 +2413,7 @@ ClearPrivateRepositoryOp
 }
 RefPtr
 <
-ResolvableOriginOp
+ResolvableNormalOriginOp
 <
 bool
 >

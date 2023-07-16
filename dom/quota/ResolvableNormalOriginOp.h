@@ -1,9 +1,9 @@
 #
 ifndef
-DOM_QUOTA_RESOLVABLEORIGINOP_H_
+DOM_QUOTA_RESOLVABLENORMALORIGINOP_H_
 #
 define
-DOM_QUOTA_RESOLVABLEORIGINOP_H_
+DOM_QUOTA_RESOLVABLENORMALORIGINOP_H_
 #
 include
 "
@@ -35,7 +35,7 @@ typename
 T
 >
 class
-ResolvableOriginOp
+ResolvableNormalOriginOp
 :
 public
 NormalOriginOperationBase
@@ -75,7 +75,7 @@ __func__
 }
 protected
 :
-ResolvableOriginOp
+ResolvableNormalOriginOp
 (
 const
 char
@@ -121,7 +121,7 @@ AssertIsOnOwningThread
 }
 virtual
 ~
-ResolvableOriginOp
+ResolvableNormalOriginOp
 (
 )
 =
