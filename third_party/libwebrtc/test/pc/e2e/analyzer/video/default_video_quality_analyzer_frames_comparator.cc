@@ -3608,17 +3608,6 @@ IsFinite
 )
 )
 {
-TimeDelta
-time_between_rendered_frames
-=
-frame_stats
-.
-rendered_time
--
-frame_stats
-.
-prev_frame_rendered_time
-;
 stats
 -
 >
@@ -3628,6 +3617,8 @@ AddSample
 (
 StatsSample
 (
+frame_stats
+.
 time_between_rendered_frames
 frame_stats
 .
@@ -3656,6 +3647,8 @@ GetAverage
 ;
 if
 (
+frame_stats
+.
 time_between_rendered_frames
 >
 std
@@ -3681,6 +3674,8 @@ AddSample
 (
 StatsSample
 (
+frame_stats
+.
 time_between_rendered_frames
 frame_stats
 .

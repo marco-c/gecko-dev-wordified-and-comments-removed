@@ -283,6 +283,16 @@ MinusInfinity
 (
 )
 ;
+TimeDelta
+time_between_rendered_frames
+=
+TimeDelta
+:
+:
+Zero
+(
+)
+;
 VideoFrameType
 encoded_frame_type
 =
