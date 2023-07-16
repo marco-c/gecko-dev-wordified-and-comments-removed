@@ -781,9 +781,10 @@ SymbolicAddress
 MemoryGrowM32
 _I32
 _Infallible
-2
+3
 {
 _PTR
+_I32
 _I32
 _END
 }
@@ -800,10 +801,11 @@ SymbolicAddress
 MemoryGrowM64
 _I64
 _Infallible
-2
+3
 {
 _PTR
 _I64
+_I32
 _END
 }
 }
@@ -819,9 +821,10 @@ SymbolicAddress
 MemorySizeM32
 _I32
 _Infallible
-1
+2
 {
 _PTR
+_I32
 _END
 }
 }
@@ -837,9 +840,10 @@ SymbolicAddress
 MemorySizeM64
 _I64
 _Infallible
-1
+2
 {
 _PTR
+_I32
 _END
 }
 }
@@ -6338,7 +6342,7 @@ MemoryGrowM32
 *
 abiType
 =
-Args_Int32_GeneralInt32
+Args_Int32_GeneralInt32Int32
 ;
 MOZ_ASSERT
 (
@@ -6372,7 +6376,7 @@ MemoryGrowM64
 *
 abiType
 =
-Args_Int64_GeneralInt64
+Args_Int64_GeneralInt64Int32
 ;
 MOZ_ASSERT
 (
@@ -6406,7 +6410,7 @@ MemorySizeM32
 *
 abiType
 =
-Args_Int32_General
+Args_Int32_GeneralInt32
 ;
 MOZ_ASSERT
 (
@@ -6440,7 +6444,7 @@ MemorySizeM64
 *
 abiType
 =
-Args_Int64_General
+Args_Int64_GeneralInt32
 ;
 MOZ_ASSERT
 (

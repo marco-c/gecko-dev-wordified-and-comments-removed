@@ -1386,6 +1386,8 @@ Instance
 instance
 uint32_t
 delta
+uint32_t
+memoryIndex
 )
 ;
 static
@@ -1397,6 +1399,8 @@ Instance
 instance
 uint64_t
 delta
+uint32_t
+memoryIndex
 )
 ;
 static
@@ -1406,6 +1410,8 @@ memorySize_m32
 Instance
 *
 instance
+uint32_t
+memoryIndex
 )
 ;
 static
@@ -1415,6 +1421,8 @@ memorySize_m64
 Instance
 *
 instance
+uint32_t
+memoryIndex
 )
 ;
 static
