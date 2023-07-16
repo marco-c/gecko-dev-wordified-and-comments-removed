@@ -429,6 +429,11 @@ SessionStoreUtils
 webidl
 "
 "
+StripOnShareRule
+.
+webidl
+"
+"
 StructuredCloneHolder
 .
 webidl
