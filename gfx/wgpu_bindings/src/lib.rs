@@ -32,12 +32,13 @@ render_ffi
 *
 }
 ;
-mod
-error
-;
 pub
 mod
 client
+;
+pub
+mod
+error
 ;
 pub
 mod
