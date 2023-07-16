@@ -1,7 +1,9 @@
-"
-use
-strict
-"
+options
+(
+'
+strict_mode
+'
+)
 ;
 var
 g1
