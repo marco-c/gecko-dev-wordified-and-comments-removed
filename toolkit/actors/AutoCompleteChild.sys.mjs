@@ -824,6 +824,13 @@ closePopup
 (
 )
 {
+if
+(
+this
+.
+_popupOpen
+)
+{
 /
 /
 We
@@ -900,6 +907,7 @@ ClosePopup
 }
 )
 ;
+}
 }
 invalidate
 (
