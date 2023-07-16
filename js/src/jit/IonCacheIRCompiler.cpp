@@ -3832,7 +3832,7 @@ Shape
 *
 shape
 =
-weakShapeStubField
+shapeStubField
 (
 shapeOffset
 )
@@ -3972,7 +3972,7 @@ JSObject
 *
 proto
 =
-weakObjectStubField
+objectStubField
 (
 protoOffset
 )
@@ -4445,7 +4445,7 @@ JSObject
 *
 expected
 =
-weakObjectStubField
+objectStubField
 (
 expectedOffset
 )

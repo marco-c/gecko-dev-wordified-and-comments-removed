@@ -454,20 +454,6 @@ writeShapeField
 )
     
 "
-WeakShapeField
-"
-:
-(
-"
-Shape
-*
-"
-"
-writeWeakShapeField
-"
-)
-    
-"
 GetterSetterField
 "
 :
@@ -492,20 +478,6 @@ JSObject
 "
 "
 writeObjectField
-"
-)
-    
-"
-WeakObjectField
-"
-:
-(
-"
-JSObject
-*
-"
-"
-writeWeakObjectField
 "
 )
     
@@ -1480,26 +1452,6 @@ stubOffset
 )
     
 "
-WeakShapeField
-"
-:
-(
-"
-uint32_t
-"
-"
-Offset
-"
-"
-reader
-.
-stubOffset
-(
-)
-"
-)
-    
-"
 GetterSetterField
 "
 :
@@ -1521,26 +1473,6 @@ stubOffset
     
 "
 ObjectField
-"
-:
-(
-"
-uint32_t
-"
-"
-Offset
-"
-"
-reader
-.
-stubOffset
-(
-)
-"
-)
-    
-"
-WeakObjectField
 "
 :
 (
@@ -2474,14 +2406,6 @@ spewField
 "
     
 "
-WeakShapeField
-"
-:
-"
-spewField
-"
-    
-"
 GetterSetterField
 "
 :
@@ -2491,14 +2415,6 @@ spewField
     
 "
 ObjectField
-"
-:
-"
-spewField
-"
-    
-"
-WeakObjectField
 "
 :
 "
@@ -3343,12 +3259,6 @@ ShapeField
 1
     
 "
-WeakShapeField
-"
-:
-1
-    
-"
 GetterSetterField
 "
 :
@@ -3356,12 +3266,6 @@ GetterSetterField
     
 "
 ObjectField
-"
-:
-1
-    
-"
-WeakObjectField
 "
 :
 1

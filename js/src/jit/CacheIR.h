@@ -969,10 +969,8 @@ uint8_t
 RawInt32
 RawPointer
 Shape
-WeakShape
 GetterSetter
 JSObject
-WeakObject
 Symbol
 String
 BaseScript
