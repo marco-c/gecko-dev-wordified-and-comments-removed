@@ -455,6 +455,8 @@ or
 OffscreenCanvas
 or
 ImageBitmap
+or
+VideoFrame
 )
 CanvasImageSource
 ;
