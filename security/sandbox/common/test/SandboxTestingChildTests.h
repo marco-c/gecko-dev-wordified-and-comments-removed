@@ -4684,6 +4684,7 @@ XP_WIN
 RunWinTestWin32k
 (
 child
+false
 )
 ;
 #
