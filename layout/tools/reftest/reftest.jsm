@@ -91,7 +91,7 @@ HttpServer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -102,7 +102,9 @@ reftest
 /
 httpd
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

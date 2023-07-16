@@ -57,7 +57,7 @@ setDebuggingStatus
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -70,7 +70,9 @@ server
 /
 httpd
 .
-js
+sys
+.
+mjs
 "
 )
 ;

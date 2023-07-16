@@ -1086,7 +1086,9 @@ res
 /
 httpd
 .
-jsm
+sys
+.
+mjs
 (
 .
 .
@@ -1105,7 +1107,9 @@ httpserver
 /
 httpd
 .
-js
+sys
+.
+mjs
 )
 res
 /

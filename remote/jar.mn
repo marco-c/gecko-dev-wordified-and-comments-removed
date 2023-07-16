@@ -111,9 +111,11 @@ content
 /
 server
 /
-HTTPD
+httpd
 .
-jsm
+sys
+.
+mjs
 (
 .
 .
@@ -126,7 +128,9 @@ httpserver
 /
 httpd
 .
-js
+sys
+.
+mjs
 )
 content
 /
