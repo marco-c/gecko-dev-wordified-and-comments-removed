@@ -1111,10 +1111,10 @@ PeerConfigurer
 :
 SetRtcEventLogPath
 (
-std
+absl
 :
 :
-string
+string_view
 path
 )
 {
@@ -1126,7 +1126,7 @@ rtc_event_log_path
 std
 :
 :
-move
+string
 (
 path
 )
@@ -1142,10 +1142,10 @@ PeerConfigurer
 :
 SetAecDumpPath
 (
-std
+absl
 :
 :
-string
+string_view
 path
 )
 {
@@ -1157,7 +1157,7 @@ aec_dump_path
 std
 :
 :
-move
+string
 (
 path
 )

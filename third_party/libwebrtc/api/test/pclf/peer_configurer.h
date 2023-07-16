@@ -667,10 +667,10 @@ PeerConfigurer
 *
 SetRtcEventLogPath
 (
-std
+absl
 :
 :
-string
+string_view
 path
 )
 ;
@@ -678,10 +678,10 @@ PeerConfigurer
 *
 SetAecDumpPath
 (
-std
+absl
 :
 :
-string
+string_view
 path
 )
 ;

@@ -874,13 +874,7 @@ kProfile0
 return
 VideoCodecConfig
 (
-std
-:
-:
-string
-(
 codec
-)
 )
 ;
 }
