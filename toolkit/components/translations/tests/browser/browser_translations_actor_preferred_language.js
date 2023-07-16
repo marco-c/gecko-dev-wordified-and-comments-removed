@@ -309,6 +309,12 @@ getPreferredLanguages
 )
 [
 "
+cs
+"
+"
+hu
+"
+"
 pt
 "
 "
@@ -316,12 +322,6 @@ pl
 "
 "
 en
-"
-"
-cs
-"
-"
-hu
 "
 "
 zh
