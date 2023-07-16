@@ -664,6 +664,7 @@ ErrorResult
 &
 aRv
 )
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 return
 CancelCallbackImpl
