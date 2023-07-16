@@ -8858,12 +8858,18 @@ MiscOp
 MemoryFill
 )
 :
+{
+uint32_t
+memoryIndex
+;
 CHECK
 (
 iter
 .
 readMemFill
 (
+&
+memoryIndex
 &
 nothing
 &
@@ -8873,6 +8879,7 @@ nothing
 )
 )
 ;
+}
 case
 uint32_t
 (

@@ -9903,7 +9903,7 @@ false
 -
 name
 :
-WasmHeapBase
+WasmHeapReg
 gen_boilerplate
 :
 false

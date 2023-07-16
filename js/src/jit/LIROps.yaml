@@ -9484,13 +9484,8 @@ WasmLoadInstance
 -
 name
 :
-WasmHeapBase
+WasmHeapReg
 result_type
-:
-WordSized
-operands
-:
-instance
 :
 WordSized
 mir_op

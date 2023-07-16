@@ -62,6 +62,8 @@ BaseCompiler
 :
 usesSharedMemory
 (
+uint32_t
+memoryIndex
 )
 const
 {
@@ -70,7 +72,7 @@ moduleEnv_
 .
 usesSharedMemory
 (
-0
+memoryIndex
 )
 ;
 }
