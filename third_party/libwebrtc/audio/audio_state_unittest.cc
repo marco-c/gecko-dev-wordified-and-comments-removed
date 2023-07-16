@@ -183,7 +183,7 @@ this
 ;
 }
 void
-PostTask
+PostTaskImpl
 (
 absl
 :
@@ -197,6 +197,12 @@ void
 &
 >
 task
+const
+PostTaskTraits
+&
+const
+Location
+&
 )
 override
 {
