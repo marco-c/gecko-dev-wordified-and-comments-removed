@@ -5062,12 +5062,15 @@ aConfig
 AlignedByteBuffer
 mBuffer
 ;
+const
 bool
 mIsKey
 ;
+const
 int64_t
 mTimestamp
 ;
+const
 Maybe
 <
 uint64_t
