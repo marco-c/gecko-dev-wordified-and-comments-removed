@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-bf9471517a74c3882b422f30043ed0821b71a519
+34f1d79720dc3c83e489343c9f83adcb8c13d387
 '
 #
 Fetch
@@ -188,7 +188,7 @@ version
 :
 11
 .
-20230223
+20230224
 .
 1
 .
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-ddb0c7ccb345d268aff15ae61bef7aa9c4adfc1b
+0552c086c59fdc17fc4c4df800476bd0b4c4c547
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-f8777b60d046cb6a9906306e7edafb8e4b1f842d
+2a6d6c58ac79fe518eeb5288bc42c57fdf1cec31
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-c9ed0b613fbde914d8dbcf244ccfb291716f62a5
+d1127a2c8d7320af342dabf7efa069036bb426a3
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-935779a64d4ab8ed5d008a31b387b34a209e38f9
+364440ddb0c519751086ee0a6d504a63e35f54a3
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-93a5c29e3ad0eca737252029a24b4ac3622a6794
+fa00882b5908bc1510751de5d1c6d4373560828d
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-db6c63b004563206feffaa4a12043ecc1895b3b5
+266eea9964a5e6d29b441bb845f64c996d6379c7
 '
 '
 src
@@ -633,7 +633,7 @@ version
 '
 git_revision
 :
-b25a2f8c2d33f02082f0f258350f5e22c0973108
+fe330c0ae1ec29db30b6f830e50771a335e071fb
 '
 }
 ]
@@ -691,7 +691,7 @@ version
 '
 git_revision
 :
-b25a2f8c2d33f02082f0f258350f5e22c0973108
+fe330c0ae1ec29db30b6f830e50771a335e071fb
 '
 }
 ]
@@ -745,7 +745,7 @@ version
 '
 git_revision
 :
-b25a2f8c2d33f02082f0f258350f5e22c0973108
+fe330c0ae1ec29db30b6f830e50771a335e071fb
 '
 }
 ]
@@ -956,7 +956,7 @@ project
 libcxx
 .
 git
-09f68a400f9200921688efb34a341d9af4c0d3d8
+e136ec5032a5e5d97e988ce66e8c269a80ff54c4
 '
 '
 src
@@ -1387,7 +1387,7 @@ com
 catapult
 .
 git
-4274fe29dac91b7713244daebb6f1d2364d97193
+9c6c41afcf180e0bf068129b75da62e535f37629
 '
 '
 src
@@ -1517,7 +1517,7 @@ tools
 depot_tools
 .
 git
-d85c5bc6ff0dee8171007d947aabc3dfa6dd433b
+27ac29f980eb459c7da5ddea20ec515d7c8627c9
 '
 '
 src
@@ -2528,7 +2528,7 @@ external
 perfetto
 .
 git
-dce90b9ff65042877a53554fc76610aeb4310cf4
+4bda78645d1d23a98473b793bc532a3ebff6c7f9
 '
 '
 src
@@ -2958,7 +2958,7 @@ chromium
 src
 /
 tools
-543c1d27a7abec612480071f88e3bccfdfca9c8b
+2ce4561290950932abef2cc99bdfb52fa472bd44
 '
 '
 src
@@ -3340,7 +3340,9 @@ version
 '
 :
 '
-zEg6hTXAR6Mcqyfh8gHDzD9fmyy1xwz4swj6pkENIYsC
+Fsm98n6hLbqLHEvpZJ
+-
+mBOrHHZO6hyzNJto4m65OEv8C
 '
 }
 ]
