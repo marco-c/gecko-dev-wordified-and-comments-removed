@@ -1434,6 +1434,9 @@ uint32_t
 typeDefsOffsetStart
 ;
 uint32_t
+memoriesOffsetStart
+;
+uint32_t
 tablesOffsetStart
 ;
 uint32_t
@@ -1450,6 +1453,7 @@ startFuncIndex
 nameCustomSectionIndex
 filenameIsURL
 typeDefsOffsetStart
+memoriesOffsetStart
 tablesOffsetStart
 tagsOffsetStart
 )
@@ -1473,6 +1477,10 @@ filenameIsURL
 false
 )
 typeDefsOffsetStart
+(
+UINT32_MAX
+)
+memoriesOffsetStart
 (
 UINT32_MAX
 )

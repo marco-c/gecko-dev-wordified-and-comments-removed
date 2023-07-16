@@ -243,7 +243,7 @@ memory
 ;
 uint8_t
 *
-memoryBase
+base
 ;
 uintptr_t
 boundsCheckLimit
