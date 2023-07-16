@@ -128,6 +128,12 @@ std
 wstring
 windowsTag
 ;
+std
+:
+:
+wstring
+action
+;
 }
 ;
 class
