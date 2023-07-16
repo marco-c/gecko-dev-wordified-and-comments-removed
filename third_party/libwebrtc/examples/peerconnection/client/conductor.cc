@@ -2970,12 +2970,8 @@ peer_connection_factory_
 >
 CreateVideoTrack
 (
-kVideoLabel
 video_device
-.
-get
-(
-)
+kVideoLabel
 )
 )
 ;

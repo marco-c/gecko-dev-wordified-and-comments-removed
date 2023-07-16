@@ -2250,12 +2250,8 @@ peer_connection_factory_
 >
 CreateVideoTrack
 (
-videotrack_label
 source
-.
-get
-(
-)
+videotrack_label
 )
 )
 ;

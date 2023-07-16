@@ -506,16 +506,12 @@ pc_factory
 >
 CreateVideoTrack
 (
+source
 video_config
 .
 stream_label
 .
 value
-(
-)
-source
-.
-get
 (
 )
 )
