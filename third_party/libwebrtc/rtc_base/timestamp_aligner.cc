@@ -287,15 +287,6 @@ int64_t
 system_time_us
 )
 {
-const
-int64_t
-kMinFrameIntervalUs
-=
-rtc
-:
-:
-kNumMicrosecsPerMillisec
-;
 int64_t
 time_us
 =
