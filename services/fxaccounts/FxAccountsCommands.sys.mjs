@@ -3040,12 +3040,10 @@ stringify
 {
 /
 /
-Older
-clients
-expect
-this
-to
-be
+This
+is
+expected
+in
 hex
 due
 to
