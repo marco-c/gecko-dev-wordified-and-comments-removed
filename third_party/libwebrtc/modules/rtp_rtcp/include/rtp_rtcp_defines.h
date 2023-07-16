@@ -1285,7 +1285,7 @@ payload_bytes
 size_t
 padding_bytes
 ;
-uint32_t
+size_t
 packets
 ;
 webrtc

@@ -1847,7 +1847,7 @@ override
 ;
 RTCStatsMember
 <
-uint32_t
+uint64_t
 >
 packets_sent
 ;
