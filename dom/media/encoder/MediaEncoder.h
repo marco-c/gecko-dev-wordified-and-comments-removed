@@ -175,6 +175,8 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaEncoder
 )
+private
+:
 MediaEncoder
 (
 RefPtr
@@ -230,6 +232,8 @@ TimeDuration
 aTimeslice
 )
 ;
+public
+:
 void
 Suspend
 (
@@ -464,6 +468,11 @@ MediaEncoder
 ;
 private
 :
+void
+RegisterListeners
+(
+)
+;
 void
 EnsureGraphTrackFrom
 (
