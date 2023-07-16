@@ -91,7 +91,6 @@ load_mach
 (
 dir_path
 mach_path
-args
 )
 :
 #
@@ -160,13 +159,11 @@ mach_initialize
 initialize
 (
 dir_path
-args
 )
 def
 check_and_get_mach
 (
 dir_path
-args
 )
 :
 initialize_paths
@@ -242,7 +239,6 @@ load_mach
 (
 dir_path
 mach_path
-args
 )
 return
 None
@@ -1038,7 +1034,6 @@ realpath
 __file__
 )
 )
-args
 )
 if
 not

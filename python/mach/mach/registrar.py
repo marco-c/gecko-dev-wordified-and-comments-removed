@@ -531,23 +531,14 @@ _run_command_handler
 (
         
 self
-        
 handler
-        
 context
-        
-command_site_manager
-=
-None
-        
 debug_command
 =
 False
-        
 profile_command
 =
 False
-        
 *
 *
 kwargs
@@ -619,19 +610,6 @@ handler
 virtualenv_name
 :
             
-if
-command_site_manager
-:
-                
-instance
-.
-virtualenv_manager
-=
-command_site_manager
-            
-else
-:
-                
 instance
 .
 activate_virtualenv
