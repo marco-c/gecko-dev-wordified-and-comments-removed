@@ -10986,12 +10986,6 @@ IntSize
 (
 )
 ;
-mDuration
-.
-reset
-(
-)
-;
 }
 JSObject
 *
