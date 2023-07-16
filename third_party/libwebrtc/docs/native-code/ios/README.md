@@ -1390,9 +1390,6 @@ prerequisite
 -
 sw
 /
-index
-.
-md
 [
 webrtc
 -
@@ -1423,9 +1420,6 @@ code
 /
 development
 /
-index
-.
-md
 [
 framework
 -

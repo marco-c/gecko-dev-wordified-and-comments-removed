@@ -364,9 +364,6 @@ prerequisite
 -
 sw
 /
-index
-.
-md
 [
 webrtc
 -
@@ -397,9 +394,6 @@ code
 /
 development
 /
-index
-.
-md
 [
 webtc
 -
@@ -432,9 +426,6 @@ code
 /
 android
 /
-index
-.
-md
 [
 webrtc
 -
@@ -467,9 +458,6 @@ code
 /
 ios
 /
-index
-.
-md
 [
 rtp
 -
@@ -502,6 +490,3 @@ rtp
 -
 hdrext
 /
-index
-.
-md

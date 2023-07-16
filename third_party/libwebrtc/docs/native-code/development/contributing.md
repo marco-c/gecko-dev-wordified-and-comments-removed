@@ -367,9 +367,6 @@ code
 /
 development
 /
-index
-.
-md
 [
 AUTHORS
 ]
