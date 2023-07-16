@@ -7537,6 +7537,17 @@ return
 0
 ;
 }
+\
+nint
+(
+*
+ptr
+)
+(
+)
+=
+main
+;
 "
 pack_rel_relocs
 +
