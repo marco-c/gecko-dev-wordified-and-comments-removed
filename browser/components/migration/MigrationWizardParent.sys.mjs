@@ -435,6 +435,12 @@ Destroyed
 "
 )
 ;
+MigrationUtils
+.
+finishMigration
+(
+)
+;
 }
 /
 *
