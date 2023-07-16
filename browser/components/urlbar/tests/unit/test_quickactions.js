@@ -71,6 +71,9 @@ dynamicType
 "
 quickactions
 "
+inQuickActionsSearchMode
+:
+false
 helpUrl
 :
 UrlbarProviderQuickActions
