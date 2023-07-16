@@ -413,7 +413,7 @@ PropTypes
 object
 .
 isRequired
-evaluateExpressions
+evaluateExpressionsForCurrentContext
 :
 PropTypes
 .
@@ -652,13 +652,8 @@ this
 .
 props
 .
-evaluateExpressions
+evaluateExpressionsForCurrentContext
 (
-this
-.
-props
-.
-cx
 )
 ;
 }
@@ -2510,11 +2505,11 @@ connect
 (
 mapStateToProps
 {
-evaluateExpressions
+evaluateExpressionsForCurrentContext
 :
 actions
 .
-evaluateExpressions
+evaluateExpressionsForCurrentContext
 pauseOnExceptions
 :
 actions

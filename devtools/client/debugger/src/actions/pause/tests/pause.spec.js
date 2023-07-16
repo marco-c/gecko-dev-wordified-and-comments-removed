@@ -1989,7 +1989,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -2040,7 +2039,6 @@ actions
 .
 addExpression
 (
-cx
 "
 foo
 "

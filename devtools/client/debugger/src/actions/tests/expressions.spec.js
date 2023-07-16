@@ -291,7 +291,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -306,7 +305,6 @@ actions
 .
 addExpression
 (
-cx
 "
 foo
 "
@@ -351,7 +349,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -365,7 +362,6 @@ actions
 .
 addExpression
 (
-cx
 undefined
 )
 )
@@ -376,7 +372,6 @@ actions
 .
 addExpression
 (
-cx
 "
 "
 )
@@ -421,7 +416,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -436,7 +430,6 @@ actions
 .
 addExpression
 (
-cx
 "
 foo
 #
@@ -502,7 +495,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -517,7 +509,6 @@ actions
 .
 addExpression
 (
-cx
 "
 foo
 "
@@ -564,7 +555,6 @@ actions
 .
 updateExpression
 (
-cx
 "
 bar
 "
@@ -630,7 +620,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -645,7 +634,6 @@ actions
 .
 addExpression
 (
-cx
 "
 foo
 "
@@ -692,7 +680,6 @@ actions
 .
 updateExpression
 (
-cx
 "
 #
 bar
@@ -741,7 +728,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -756,7 +742,6 @@ actions
 .
 addExpression
 (
-cx
 "
 foo
 "
@@ -770,7 +755,6 @@ actions
 .
 addExpression
 (
-cx
 "
 bar
 "
@@ -923,7 +907,6 @@ actions
 .
 addExpression
 (
-cx
 "
 foo
 "
@@ -937,7 +920,6 @@ actions
 .
 addExpression
 (
-cx
 "
 bar
 "
@@ -1153,7 +1135,6 @@ actions
 .
 addExpression
 (
-cx
 "
 foo
 "
@@ -1167,7 +1148,6 @@ actions
 .
 addExpression
 (
-cx
 "
 bar
 "
