@@ -487,6 +487,9 @@ x
 not
 x
 )
+allow_failure
+=
+True
 )
 )
 imports
