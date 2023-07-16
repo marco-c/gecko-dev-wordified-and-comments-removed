@@ -301,13 +301,8 @@ CaretMoveEvent
 (
 uint64_t
 aID
-#
-ifdef
-XP_WIN
 LayoutDeviceIntRect
 aCaretRect
-#
-endif
 int32_t
 aOffset
 bool
@@ -355,9 +350,6 @@ uint8_t
 aRoleMapEntryIndex
 )
 ;
-#
-ifdef
-XP_WIN
 async
 FocusEvent
 (
@@ -367,8 +359,6 @@ LayoutDeviceIntRect
 aCaretRect
 )
 ;
-#
-endif
 async
 VirtualCursorChangeEvent
 (
