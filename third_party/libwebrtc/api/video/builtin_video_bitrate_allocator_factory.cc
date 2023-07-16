@@ -144,10 +144,9 @@ if
 (
 codec
 .
-numberOfSimulcastStreams
-<
-=
-1
+IsSinglecastOrAllNonFirstLayersInactive
+(
+)
 )
 {
 return

@@ -1402,6 +1402,15 @@ case
 kVideoCodecVP9
 :
 {
+if
+(
+video_codec
+.
+IsSinglecastOrAllNonFirstLayersInactive
+(
+)
+)
+{
 video_codec
 .
 simulcastStream
@@ -1413,6 +1422,7 @@ active
 =
 codec_active
 ;
+}
 if
 (
 !

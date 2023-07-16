@@ -201,10 +201,9 @@ kVideoCodecVP9
 &
 codec_settings
 .
-numberOfSimulcastStreams
-<
-=
-1
+IsSinglecastOrAllNonFirstLayersInactive
+(
+)
 )
 {
 for
