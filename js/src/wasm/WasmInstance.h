@@ -1838,6 +1838,8 @@ int32_t
 value
 int64_t
 timeout
+uint32_t
+memoryIndex
 )
 ;
 static
@@ -1853,6 +1855,8 @@ int32_t
 value
 int64_t
 timeout
+uint32_t
+memoryIndex
 )
 ;
 static
@@ -1868,6 +1872,8 @@ int64_t
 value
 int64_t
 timeout
+uint32_t
+memoryIndex
 )
 ;
 static
@@ -1883,6 +1889,8 @@ int64_t
 value
 int64_t
 timeout
+uint32_t
+memoryIndex
 )
 ;
 static
@@ -1896,6 +1904,8 @@ uint32_t
 byteOffset
 int32_t
 count
+uint32_t
+memoryIndex
 )
 ;
 static
@@ -1909,6 +1919,8 @@ uint64_t
 byteOffset
 int32_t
 count
+uint32_t
+memoryIndex
 )
 ;
 static

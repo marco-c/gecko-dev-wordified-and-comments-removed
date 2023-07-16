@@ -189,7 +189,7 @@ if
 bc
 -
 >
-isMemory
+isMemory0
 (
 )
 )
@@ -246,7 +246,7 @@ toInt32
 mir
 -
 >
-minWasmHeapLength
+minWasmMemory0Length
 (
 )
 )
@@ -290,7 +290,7 @@ toInt64
 mir
 -
 >
-minWasmHeapLength
+minWasmMemory0Length
 (
 )
 )
