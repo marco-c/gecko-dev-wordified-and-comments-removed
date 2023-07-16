@@ -2034,18 +2034,6 @@ times
 .
 *
 /
-media
-(
--
-moz
--
-gtk
--
-csd
--
-available
-)
-{
 :
 root
 [
@@ -3066,6 +3054,5 @@ order
 -
 1
 ;
-}
 }
 }
