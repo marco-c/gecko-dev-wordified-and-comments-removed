@@ -18984,13 +18984,6 @@ version
 .
 0
 "
-dependencies
-=
-[
-"
-once_cell
-"
-]
 [
 [
 package

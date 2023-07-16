@@ -39,11 +39,3 @@ lib
 .
 rs
 "
-[
-dependencies
-]
-once_cell
-=
-"
-1
-"
