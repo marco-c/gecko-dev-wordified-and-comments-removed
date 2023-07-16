@@ -953,6 +953,13 @@ mock_network_control
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 testonly
 =
 true
