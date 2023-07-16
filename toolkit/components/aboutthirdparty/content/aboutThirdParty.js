@@ -1141,6 +1141,8 @@ button
 to
 -
 block
+-
+module
 "
 ;
 }
@@ -1163,6 +1165,8 @@ to
 -
 unblock
 -
+module
+-
 disabled
 "
 :
@@ -1176,6 +1180,8 @@ button
 to
 -
 unblock
+-
+module
 "
 ;
 }
@@ -2046,6 +2052,8 @@ to
 -
 unblock
 -
+module
+-
 disabled
 "
 :
@@ -2059,6 +2067,8 @@ button
 to
 -
 unblock
+-
+module
 "
 )
 ;
