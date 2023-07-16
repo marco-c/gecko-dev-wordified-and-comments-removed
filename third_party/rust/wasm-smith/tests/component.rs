@@ -30,6 +30,10 @@ Component
 [
 test
 ]
+#
+[
+ignore
+]
 fn
 smoke_test_component
 (

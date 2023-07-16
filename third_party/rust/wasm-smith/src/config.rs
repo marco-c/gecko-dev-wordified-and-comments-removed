@@ -1236,14 +1236,6 @@ arbitrary
 )
 ?
 reference_types_enabled
-tail_call_enabled
-:
-u
-.
-arbitrary
-(
-)
-?
 simd_enabled
 :
 u
@@ -1467,6 +1459,9 @@ export_everything
 :
 false
 disallow_traps
+:
+false
+tail_call_enabled
 :
 false
 }

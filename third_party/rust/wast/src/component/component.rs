@@ -1104,10 +1104,12 @@ Self
 :
 Type
 (
-parser
-.
-parse
+Type
+:
+:
+parse_maybe_with_inline_exports
 (
+parser
 )
 ?
 )

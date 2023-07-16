@@ -11,6 +11,7 @@ crate
 {
 encode_section
 ComponentExportKind
+ComponentExternName
 ComponentSection
 ComponentSectionId
 Encode
@@ -757,10 +758,11 @@ IntoIterator
 Item
 =
 (
-&
+ComponentExternName
+<
 '
 a
-str
+>
 ComponentExportKind
 u32
 )

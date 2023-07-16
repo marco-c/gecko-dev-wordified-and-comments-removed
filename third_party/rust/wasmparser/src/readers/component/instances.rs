@@ -653,10 +653,6 @@ read
 (
 )
 ?
-url
-:
-"
-"
 kind
 :
 reader

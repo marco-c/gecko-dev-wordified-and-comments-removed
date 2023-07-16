@@ -3124,7 +3124,7 @@ references
 proposal
 CallRef
 (
-HeapType
+Index
 <
 '
 a
@@ -3140,7 +3140,7 @@ call_ref
 "
 ReturnCallRef
 (
-HeapType
+Index
 <
 '
 a

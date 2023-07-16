@@ -91,7 +91,7 @@ use
 wasmparser
 :
 :
-types
+names
 :
 :
 {

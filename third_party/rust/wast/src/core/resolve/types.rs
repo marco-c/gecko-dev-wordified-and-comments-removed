@@ -1309,6 +1309,9 @@ span
 parent
 :
 None
+final_type
+:
+None
 }
 )
 )

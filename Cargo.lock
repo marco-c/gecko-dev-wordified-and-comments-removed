@@ -32794,7 +32794,7 @@ version
 "
 0
 .
-25
+29
 .
 0
 "
@@ -32824,7 +32824,7 @@ index
 checksum
 =
 "
-4eff853c4f09eec94d76af527eddad4e9de13b11d6286a1ef7134bc30135a2b7
+18c41dbd92eaebf3612a39be316540b8377c871cb9bde6b064af962984912881
 "
 dependencies
 =
@@ -32852,7 +32852,7 @@ version
 .
 12
 .
-5
+10
 "
 source
 =
@@ -32880,7 +32880,7 @@ index
 checksum
 =
 "
-549cb78be46f43ad6746402871336cb6a989127fb847e93eb6ba0817647485a6
+027ec1c470cd5d56c43b8e02040250b136ddb5975dd76a1c16915137f5f17e76
 "
 dependencies
 =
@@ -32921,7 +32921,7 @@ version
 "
 0
 .
-102
+107
 .
 0
 "
@@ -32951,7 +32951,7 @@ index
 checksum
 =
 "
-48134de3d7598219ab9eaf6b91b15d8e50d31da76b8519fe4ecfcec2cf35104b
+29e3ac9b780c7dda0cac7a52a5d6d2d6707cc6e3451c9db209b6c758f40d7acb
 "
 dependencies
 =
@@ -32960,7 +32960,7 @@ dependencies
 indexmap
 "
 "
-url
+semver
 "
 ]
 [
@@ -32976,7 +32976,7 @@ wast
 version
 =
 "
-56
+60
 .
 0
 .
@@ -33008,7 +33008,7 @@ index
 checksum
 =
 "
-6b54185c051d7bbe23757d50fe575880a2426a2f06d2e9f6a10fd9a4a42920c0
+bd06cc744b536e30387e72a48fdd492105b9c938bb4f415c39c616a7a0a697ad
 "
 dependencies
 =

@@ -2,6 +2,9 @@ mod
 code
 ;
 mod
+coredumps
+;
+mod
 custom
 ;
 mod
@@ -52,6 +55,16 @@ self
 :
 :
 code
+:
+:
+*
+;
+pub
+use
+self
+:
+:
+coredumps
 :
 :
 *
