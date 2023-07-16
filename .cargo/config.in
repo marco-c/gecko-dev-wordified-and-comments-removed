@@ -352,7 +352,7 @@ naga
 ?
 rev
 =
-b99d58ea435090e561377949f428bce2c18451bb
+76003dc0035d53a474d366dcdf49d2e4d12e921f
 "
 ]
 git
@@ -375,7 +375,7 @@ naga
 rev
 =
 "
-b99d58ea435090e561377949f428bce2c18451bb
+76003dc0035d53a474d366dcdf49d2e4d12e921f
 "
 replace
 -
@@ -408,7 +408,7 @@ wgpu
 ?
 rev
 =
-f71a1bc736fde37509262ca03e91d8f56a13aeb5
+dcad7dfba92dd85c3ca21bb553a61834e01b04f5
 "
 ]
 git
@@ -431,7 +431,7 @@ wgpu
 rev
 =
 "
-f71a1bc736fde37509262ca03e91d8f56a13aeb5
+dcad7dfba92dd85c3ca21bb553a61834e01b04f5
 "
 replace
 -

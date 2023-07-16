@@ -243,6 +243,16 @@ use
 self
 :
 :
+performance_query
+:
+:
+PerformanceQuery
+;
+pub
+use
+self
+:
+:
 pipeline_executable_properties
 :
 :
@@ -439,6 +449,9 @@ maintenance3
 ;
 mod
 maintenance4
+;
+mod
+performance_query
 ;
 mod
 pipeline_executable_properties

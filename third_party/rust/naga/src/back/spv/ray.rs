@@ -578,10 +578,10 @@ get_constant_scalar
 crate
 :
 :
-ScalarValue
+Literal
 :
 :
-Uint
+U32
 (
 spirv
 :
@@ -593,7 +593,6 @@ RayQueryCommittedIntersectionKHR
 as
 _
 )
-width
 )
 ;
 let

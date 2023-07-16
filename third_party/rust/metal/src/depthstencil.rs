@@ -129,10 +129,6 @@ pub
 struct
 StencilDescriptor
 ;
-pub
-struct
-StencilDescriptorRef
-;
 }
 impl
 StencilDescriptor
@@ -450,10 +446,6 @@ MTLDepthStencilDescriptor
 pub
 struct
 DepthStencilDescriptor
-;
-pub
-struct
-DepthStencilDescriptorRef
 ;
 }
 impl
@@ -791,10 +783,6 @@ MTLDepthStencilState
 pub
 struct
 DepthStencilState
-;
-pub
-struct
-DepthStencilStateRef
 ;
 }
 impl

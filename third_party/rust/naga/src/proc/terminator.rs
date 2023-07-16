@@ -235,6 +235,15 @@ Atomic
 S
 :
 :
+WorkGroupUniformLoad
+{
+.
+.
+}
+|
+S
+:
+:
 Barrier
 (
 _

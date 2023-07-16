@@ -28,7 +28,10 @@ crate
 :
 :
 {
-hub
+hal_api
+:
+:
+HalApi
 id
 :
 :
@@ -41,6 +44,7 @@ resource
 :
 :
 Buffer
+storage
 track
 :
 :
@@ -163,9 +167,6 @@ BufferBindGroupState
 <
 A
 :
-hub
-:
-:
 HalApi
 >
 {
@@ -192,9 +193,6 @@ A
 impl
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -325,7 +323,7 @@ storage
 &
 '
 a
-hub
+storage
 :
 :
 Storage
@@ -415,9 +413,6 @@ BufferUsageScope
 <
 A
 :
-hub
-:
-:
 HalApi
 >
 {
@@ -437,9 +432,6 @@ A
 impl
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -874,7 +866,7 @@ storage
 &
 '
 a
-hub
+storage
 :
 :
 Storage
@@ -1024,9 +1016,6 @@ BufferTracker
 <
 A
 :
-hub
-:
-:
 HalApi
 >
 {
@@ -1061,9 +1050,6 @@ BufferUses
 impl
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -1465,7 +1451,7 @@ storage
 &
 '
 a
-hub
+storage
 :
 :
 Storage
@@ -2353,9 +2339,6 @@ insert_or_merge
 <
 A
 :
-hub
-:
-:
 HalApi
 >
 (
@@ -2486,9 +2469,6 @@ fn
 insert_or_barrier_update
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -2655,9 +2635,6 @@ fn
 insert
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -2881,9 +2858,6 @@ fn
 merge
 <
 A
-:
-hub
-:
 :
 HalApi
 >

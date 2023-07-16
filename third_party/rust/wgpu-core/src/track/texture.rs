@@ -15,7 +15,10 @@ crate
 :
 :
 {
-hub
+hal_api
+:
+:
+HalApi
 id
 :
 :
@@ -28,6 +31,7 @@ resource
 :
 :
 Texture
+storage
 track
 :
 :
@@ -599,9 +603,6 @@ TextureBindGroupState
 <
 A
 :
-hub
-:
-:
 HalApi
 >
 {
@@ -632,9 +633,6 @@ A
 impl
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -767,7 +765,7 @@ storage
 &
 '
 a
-hub
+storage
 :
 :
 Storage
@@ -946,9 +944,6 @@ TextureUsageScope
 <
 A
 :
-hub
-:
-:
 HalApi
 >
 {
@@ -965,9 +960,6 @@ A
 impl
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -1186,7 +1178,7 @@ self
 storage
 :
 &
-hub
+storage
 :
 :
 Storage
@@ -1352,7 +1344,7 @@ self
 storage
 :
 &
-hub
+storage
 :
 :
 Storage
@@ -1433,7 +1425,7 @@ self
 storage
 :
 &
-hub
+storage
 :
 :
 Storage
@@ -1575,9 +1567,6 @@ TextureTracker
 <
 A
 :
-hub
-:
-:
 HalApi
 >
 {
@@ -1612,9 +1601,6 @@ A
 impl
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -2311,7 +2297,7 @@ self
 storage
 :
 &
-hub
+storage
 :
 :
 Storage
@@ -2482,7 +2468,7 @@ self
 storage
 :
 &
-hub
+storage
 :
 :
 Storage
@@ -2643,7 +2629,7 @@ self
 storage
 :
 &
-hub
+storage
 :
 :
 Storage
@@ -3605,16 +3591,13 @@ texture_data_from_texture
 <
 A
 :
-hub
-:
-:
 HalApi
 >
 (
 storage
 :
 &
-hub
+storage
 :
 :
 Storage
@@ -3674,9 +3657,6 @@ fn
 insert_or_merge
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -3802,9 +3782,6 @@ fn
 insert_or_barrier_update
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -3985,9 +3962,6 @@ fn
 insert
 <
 A
-:
-hub
-:
 :
 HalApi
 >
@@ -4535,9 +4509,6 @@ fn
 merge
 <
 A
-:
-hub
-:
 :
 HalApi
 >

@@ -134,7 +134,7 @@ get_device_buffer_memory_requirements
 (
 &
 self
-create_info
+memory_requirements
 :
 &
 vk
@@ -162,7 +162,7 @@ get_device_buffer_memory_requirements_khr
 self
 .
 handle
-create_info
+memory_requirements
 out
 )
 }
@@ -177,7 +177,7 @@ get_device_image_memory_requirements
 (
 &
 self
-create_info
+memory_requirements
 :
 &
 vk
@@ -205,7 +205,7 @@ get_device_image_memory_requirements_khr
 self
 .
 handle
-create_info
+memory_requirements
 out
 )
 }
@@ -220,7 +220,7 @@ get_device_image_sparse_memory_requirements_len
 (
 &
 self
-create_info
+memory_requirements
 :
 &
 vk
@@ -249,7 +249,7 @@ get_device_image_sparse_memory_requirements_khr
 self
 .
 handle
-create_info
+memory_requirements
 &
 mut
 count
@@ -279,7 +279,7 @@ get_device_image_sparse_memory_requirements
 (
 &
 self
-create_info
+memory_requirements
 :
 &
 vk
@@ -321,7 +321,7 @@ get_device_image_sparse_memory_requirements_khr
 self
 .
 handle
-create_info
+memory_requirements
 &
 mut
 count

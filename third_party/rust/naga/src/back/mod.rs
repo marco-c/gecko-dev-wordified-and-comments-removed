@@ -1432,7 +1432,12 @@ generate_ray_desc_type
 [
 derive
 (
+Clone
+Copy
+Debug
 Default
+Eq
+PartialEq
 )
 ]
 pub

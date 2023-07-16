@@ -19,13 +19,14 @@ crate
 :
 {
 gfx_select
-hub
+global
 :
 :
-{
 Global
+identity
+:
+:
 IdentityManagerFactory
-}
 }
 ;
 pub
@@ -230,6 +231,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -287,6 +290,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -345,6 +350,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -402,6 +409,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -463,6 +472,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -551,6 +562,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -639,6 +652,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -724,6 +739,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -780,6 +797,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !
@@ -837,6 +856,8 @@ global
 ;
 let
 label
+:
+String
 =
 gfx_select
 !

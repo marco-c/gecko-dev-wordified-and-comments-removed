@@ -22,7 +22,7 @@ wgc
 :
 :
 {
-hub
+identity
 :
 :
 IdentityManager
