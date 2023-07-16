@@ -139,12 +139,12 @@ type
 *
 mut
 ErrorBufferType
-string
+message
 :
 *
 mut
 c_char
-capacity
+message_capacity
 :
 usize
 }
@@ -285,7 +285,7 @@ assert_ne
 (
 self
 .
-capacity
+message_capacity
 0
 )
 ;
@@ -302,7 +302,7 @@ len
 =
 self
 .
-capacity
+message_capacity
 {
 log
 :
@@ -331,12 +331,12 @@ len
 )
 self
 .
-capacity
+message_capacity
 )
 ;
 self
 .
-capacity
+message_capacity
 -
 1
 }
@@ -363,7 +363,7 @@ as_ptr
 )
 self
 .
-string
+message
 as
 *
 mut
@@ -374,7 +374,7 @@ length
 *
 self
 .
-string
+message
 .
 add
 (
