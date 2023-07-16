@@ -80,6 +80,15 @@ base
 SANDBOX_INTERCEPT
 NTSTATUS
 WINAPI
+TargetNtImpersonateAnonymousToken64
+(
+HANDLE
+thread
+)
+;
+SANDBOX_INTERCEPT
+NTSTATUS
+WINAPI
 TargetNtSetInformationThread64
 (
 HANDLE

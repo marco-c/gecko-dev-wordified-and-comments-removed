@@ -557,6 +557,16 @@ SET_INFORMATION_THREAD_ID
 INTERCEPT_NT
 (
 manager
+NtImpersonateAnonymousToken
+IMPERSONATE_ANONYMOUS_TOKEN_ID
+8
+)
+|
+|
+!
+INTERCEPT_NT
+(
+manager
 NtOpenThreadToken
 OPEN_THREAD_TOKEN_ID
 20

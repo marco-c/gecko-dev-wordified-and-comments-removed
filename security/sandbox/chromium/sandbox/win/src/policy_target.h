@@ -67,6 +67,17 @@ C
 SANDBOX_INTERCEPT
 NTSTATUS
 WINAPI
+TargetNtImpersonateAnonymousToken
+(
+NtImpersonateAnonymousTokenFunction
+orig_ImpersonateAnonymousToken
+HANDLE
+thread
+)
+;
+SANDBOX_INTERCEPT
+NTSTATUS
+WINAPI
 TargetNtSetInformationThread
 (
 NtSetInformationThreadFunction
