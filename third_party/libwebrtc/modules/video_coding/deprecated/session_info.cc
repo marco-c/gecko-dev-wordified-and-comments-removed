@@ -5,6 +5,8 @@ modules
 /
 video_coding
 /
+deprecated
+/
 session_info
 .
 h
@@ -95,7 +97,7 @@ video_coding
 /
 deprecated
 /
-packet
+jitter_buffer_common
 .
 h
 "
@@ -106,7 +108,9 @@ modules
 /
 video_coding
 /
-jitter_buffer_common
+deprecated
+/
+packet
 .
 h
 "
