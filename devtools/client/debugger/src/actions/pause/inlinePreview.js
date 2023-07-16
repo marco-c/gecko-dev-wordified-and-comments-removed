@@ -35,7 +35,7 @@ prefs
 ;
 import
 {
-validateSelectedFrame
+validateThreadContext
 }
 from
 "
@@ -96,7 +96,8 @@ export
 function
 generateInlinePreview
 (
-selectedFrame
+cx
+frame
 )
 {
 return
@@ -114,6 +115,10 @@ client
 if
 (
 !
+frame
+|
+|
+!
 features
 .
 inlinePreview
@@ -123,6 +128,13 @@ return
 null
 ;
 }
+const
+{
+thread
+}
+=
+cx
+;
 if
 (
 getInlinePreviews
@@ -130,10 +142,8 @@ getInlinePreviews
 getState
 (
 )
-selectedFrame
-.
 thread
-selectedFrame
+frame
 .
 id
 )
@@ -151,7 +161,7 @@ getOriginalFrameScope
 getState
 (
 )
-selectedFrame
+frame
 )
 ;
 const
@@ -162,7 +172,7 @@ getGeneratedFrameScope
 getState
 (
 )
-selectedFrame
+frame
 )
 ;
 let
@@ -241,12 +251,12 @@ getScopes
 selectedLocation
 )
 ;
-validateSelectedFrame
+validateThreadContext
 (
 getState
 (
 )
-selectedFrame
+cx
 )
 ;
 if
@@ -430,7 +440,7 @@ value
 objectGrip
 }
 }
-selectedFrame
+cx
 .
 thread
 )
@@ -600,7 +610,8 @@ type
 "
 ADD_INLINE_PREVIEW
 "
-selectedFrame
+thread
+frame
 previews
 }
 )
