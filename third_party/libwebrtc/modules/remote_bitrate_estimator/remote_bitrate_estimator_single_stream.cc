@@ -210,12 +210,6 @@ Detector
 int64_t
 last_packet_time_ms
 const
-OverUseDetectorOptions
-&
-options
-bool
-enable_burst_grouping
-const
 FieldTrialsView
 *
 key_value_config
@@ -231,11 +225,6 @@ inter_arrival
 *
 kTimestampGroupLengthMs
 kTimestampToMs
-enable_burst_grouping
-)
-estimator
-(
-options
 )
 detector
 (
@@ -508,10 +497,6 @@ new
 Detector
 (
 now_ms
-OverUseDetectorOptions
-(
-)
-true
 &
 field_trials_
 )

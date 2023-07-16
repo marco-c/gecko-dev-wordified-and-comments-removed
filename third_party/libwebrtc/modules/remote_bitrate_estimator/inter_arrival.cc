@@ -55,8 +55,6 @@ uint32_t
 timestamp_group_length_ticks
 double
 timestamp_to_ms_coeff
-bool
-enable_burst_grouping
 )
 :
 kTimestampGroupLengthTicks
@@ -72,10 +70,6 @@ prev_timestamp_group_
 timestamp_to_ms_coeff_
 (
 timestamp_to_ms_coeff
-)
-burst_grouping_
-(
-enable_burst_grouping
 )
 num_consecutive_reordered_packets_
 (
@@ -561,16 +555,6 @@ timestamp
 )
 const
 {
-if
-(
-!
-burst_grouping_
-)
-{
-return
-false
-;
-}
 RTC_DCHECK_GE
 (
 current_timestamp_group_

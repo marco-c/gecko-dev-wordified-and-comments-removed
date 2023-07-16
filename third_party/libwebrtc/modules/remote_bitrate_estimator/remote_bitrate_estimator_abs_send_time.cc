@@ -2248,7 +2248,6 @@ kInterArrivalShift
 /
 1000
 kTimestampToMs
-true
 )
 ;
 estimator_
@@ -2261,9 +2260,6 @@ make_unique
 OveruseEstimator
 >
 (
-OverUseDetectorOptions
-(
-)
 )
 ;
 }
