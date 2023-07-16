@@ -3281,7 +3281,7 @@ env
 isDebugBuild
 equalTo
 (
-false
+true
 )
 )
 if
