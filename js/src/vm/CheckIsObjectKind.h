@@ -25,6 +25,12 @@ IteratorReturn
 IteratorThrow
 GetIterator
 GetAsyncIterator
+#
+ifdef
+ENABLE_DECORATORS
+DecoratorReturn
+#
+endif
 }
 ;
 }
