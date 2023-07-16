@@ -321,12 +321,7 @@ private
 MFCDMParent
 (
 )
-{
-Unregister
-(
-)
 ;
-}
 HRESULT
 LoadFactory
 (
