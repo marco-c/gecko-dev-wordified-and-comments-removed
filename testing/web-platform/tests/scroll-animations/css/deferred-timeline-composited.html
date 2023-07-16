@@ -415,7 +415,7 @@ timeline
 )
 ;
 await
-waitForCompositorReady
+waitForNextFrame
 (
 )
 ;
@@ -443,6 +443,7 @@ resolve
 ;
 }
 )
+;
 scroller_inline
 .
 scrollTo
@@ -465,6 +466,11 @@ smooth
 %
 await
 scrollPromise
+;
+await
+waitForNextFrame
+(
+)
 ;
 takeScreenshot
 (
