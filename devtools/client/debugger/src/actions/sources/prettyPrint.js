@@ -929,8 +929,8 @@ prettyPrintWorkerResult
 function
 createPrettySource
 (
-cx
 source
+sourceActor
 )
 {
 return
@@ -981,12 +981,14 @@ type
 "
 ADD_ORIGINAL_SOURCES
 "
-cx
 originalSources
 :
 [
 prettySource
 ]
+generatedSourceActor
+:
+sourceActor
 }
 )
 ;
@@ -1241,8 +1243,8 @@ dispatch
 (
 createPrettySource
 (
-cx
 source
+sourceActor
 )
 )
 ;
