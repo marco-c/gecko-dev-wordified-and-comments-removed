@@ -1395,6 +1395,12 @@ commands
 ;
 if
 (
+!
+result
+.
+isBestMatch
+&
+&
 this
 .
 canShowLessFrequently
