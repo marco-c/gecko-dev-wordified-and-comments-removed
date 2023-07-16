@@ -2712,14 +2712,6 @@ controller_
 )
 return
 ;
-controller_
--
->
-DisconnectDataChannel
-(
-this
-)
-;
 connected_to_transport_
 =
 false

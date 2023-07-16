@@ -209,17 +209,6 @@ data_channel
 ;
 virtual
 void
-DisconnectDataChannel
-(
-SctpDataChannel
-*
-data_channel
-)
-=
-0
-;
-virtual
-void
 AddSctpDataStream
 (
 int

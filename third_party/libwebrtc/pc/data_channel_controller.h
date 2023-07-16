@@ -257,15 +257,6 @@ webrtc_data_channel
 override
 ;
 void
-DisconnectDataChannel
-(
-SctpDataChannel
-*
-webrtc_data_channel
-)
-override
-;
-void
 AddSctpDataStream
 (
 int
