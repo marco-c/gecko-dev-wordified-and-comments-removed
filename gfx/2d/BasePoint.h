@@ -455,6 +455,16 @@ Length
 const
 {
 return
+static_cast
+<
+decltype
+(
+x
+.
+value
+)
+>
+(
 hypot
 (
 x
@@ -463,6 +473,7 @@ value
 y
 .
 value
+)
 )
 ;
 }
