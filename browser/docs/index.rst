@@ -201,3 +201,16 @@ reusable
 widgets
 .
 stories
+components
+/
+storybook
+/
+docs
+/
+README
+.
+lit
+-
+guide
+.
+stories
