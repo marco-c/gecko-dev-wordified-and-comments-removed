@@ -927,6 +927,12 @@ voip_unittests
 :
 {
 }
+'
+webrtc_nonparallel_tests
+'
+:
+{
+}
 #
 TODO
 (
