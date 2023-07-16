@@ -517,13 +517,12 @@ flags
 if
 (
 !
+(
+k
+in
 Ci
 .
 nsIAppStartup
-.
-hasOwnProperty
-(
-k
 )
 )
 {
