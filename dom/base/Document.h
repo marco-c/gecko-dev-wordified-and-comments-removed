@@ -9040,10 +9040,14 @@ AdoptNode
 (
 nsINode
 &
-aNode
+aAdoptedNode
 ErrorResult
 &
 rv
+bool
+aAcceptShadowRoot
+=
+false
 )
 ;
 already_AddRefed
