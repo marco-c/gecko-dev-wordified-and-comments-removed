@@ -190,6 +190,10 @@ set
 [
         
 "
+crash_reporter_init
+"
+        
+"
 test_status
 "
         
@@ -1276,6 +1280,12 @@ output_lines
 self
 .
 has_failure_output
+=
+False
+        
+self
+.
+saw_crash_reporter_init
 =
 False
         
@@ -4823,6 +4833,28 @@ line_string
             
 return
         
+if
+line_object
+[
+"
+action
+"
+]
+=
+=
+"
+crash_reporter_init
+"
+:
+            
+self
+.
+saw_crash_reporter_init
+=
+True
+            
+return
+        
 action
 =
 line_object
@@ -5799,13 +5831,23 @@ TSAN_EXIT_CODE_WITH_RACES
 passed
 =
 (
+                
+(
 not
 self
 .
 has_failure_output
 )
+                
+and
+self
+.
+saw_crash_reporter_init
+                
 and
 return_code_ok
+            
+)
             
 status
 =
@@ -5857,9 +5899,53 @@ status
 !
 =
 expected
+or
+not
+self
+.
+saw_crash_reporter_init
 :
                 
 if
+not
+self
+.
+saw_crash_reporter_init
+:
+                    
+self
+.
+log
+.
+test_end
+(
+                        
+name
+                        
+"
+CRASH
+"
+                        
+expected
+=
+expected
+                        
+message
+=
+"
+Test
+ended
+before
+setting
+up
+the
+crash
+reporter
+"
+                    
+)
+                
+elif
 self
 .
 retry
@@ -5920,6 +6006,9 @@ log_full_output
                     
 return
                 
+else
+:
+                    
 self
 .
 log
