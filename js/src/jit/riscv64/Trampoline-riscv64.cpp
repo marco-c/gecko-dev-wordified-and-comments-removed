@@ -4218,7 +4218,7 @@ MOZ_CRASH
 "
 NYI
 :
-LOONG64
+riscv
 callVM
 should
 not
