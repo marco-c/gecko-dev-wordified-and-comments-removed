@@ -234,8 +234,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -397,8 +395,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -530,8 +526,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -626,8 +620,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -728,8 +720,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -868,8 +858,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -1610,8 +1598,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -1744,8 +1730,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -1917,8 +1901,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -2155,8 +2137,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -2293,8 +2273,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
@@ -2425,8 +2403,6 @@ MOZ_FETCHES_DIR
 &
 &
 python3
-.
-8
 python
 /
 mozperftest
