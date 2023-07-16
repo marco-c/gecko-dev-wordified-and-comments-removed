@@ -5312,6 +5312,12 @@ aOther
 .
 fontKerning
 )
+fontVariantCaps
+(
+aOther
+.
+fontVariantCaps
+)
 textRendering
 (
 aOther
