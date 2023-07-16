@@ -88,6 +88,16 @@ allowContentIterWith
 \
 MACRO_
 (
+allowContentIterWithNext
+allowContentIterWithNext
+\
+"
+allowContentIterWithNext
+"
+)
+\
+MACRO_
+(
 ambiguous
 ambiguous
 "

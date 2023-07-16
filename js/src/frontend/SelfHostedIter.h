@@ -17,6 +17,7 @@ SelfHostedIter
 Deny
 AllowContent
 AllowContentWith
+AllowContentWithNext
 }
 ;
 }
