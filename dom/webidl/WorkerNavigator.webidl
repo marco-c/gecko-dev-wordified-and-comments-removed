@@ -201,7 +201,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .
