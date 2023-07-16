@@ -68,6 +68,11 @@ DumpFunctions
 cpp
 "
 "
+Identifier
+.
+cpp
+"
+"
 NativeStack
 .
 cpp
