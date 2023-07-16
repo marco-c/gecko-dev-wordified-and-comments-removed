@@ -687,7 +687,6 @@ dispatch
 (
 toggleBlackBox
 (
-cx
 source
 )
 )

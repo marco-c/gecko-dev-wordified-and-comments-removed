@@ -228,13 +228,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 breakpoint
 :
 PropTypes
@@ -480,7 +473,6 @@ shiftKey
 {
 toggleBreakpointsAtLine
 (
-cx
 !
 breakpoint
 .

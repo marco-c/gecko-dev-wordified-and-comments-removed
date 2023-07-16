@@ -70,7 +70,7 @@ if
 !
 action
 .
-sourceId
+source
 )
 {
 throw
@@ -78,11 +78,8 @@ new
 Error
 (
 "
-No
+Missing
 source
-id
-found
-.
 "
 )
 ;
@@ -104,7 +101,7 @@ if
 !
 action
 .
-sourceActorId
+sourceActor
 )
 {
 throw
@@ -112,11 +109,9 @@ new
 Error
 (
 "
-No
+Missing
 source
 actor
-id
-found
 .
 "
 )
@@ -289,12 +284,12 @@ if
 (
 action
 .
-sourceId
+source
 &
 &
 action
 .
-sourceActorId
+sourceActor
 )
 {
 throw
@@ -305,7 +300,6 @@ Error
 Both
 the
 source
-id
 and
 the
 source
@@ -325,7 +319,7 @@ if
 (
 action
 .
-sourceId
+source
 )
 {
 state
@@ -336,7 +330,9 @@ set
 (
 action
 .
-sourceId
+source
+.
+id
 content
 )
 ;
@@ -345,7 +341,7 @@ if
 (
 action
 .
-sourceActorId
+sourceActor
 )
 {
 state
@@ -356,7 +352,9 @@ set
 (
 action
 .
-sourceActorId
+sourceActor
+.
+id
 content
 )
 ;

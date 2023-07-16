@@ -347,7 +347,6 @@ async
 function
 loadGeneratedSourceTextPromise
 (
-cx
 sourceActor
 thunkArgs
 )
@@ -379,11 +378,7 @@ type
 "
 LOAD_GENERATED_SOURCE_TEXT
 "
-sourceActorId
-:
 sourceActor
-.
-actor
 epoch
 [
 PROMISE
@@ -400,7 +395,6 @@ thunkArgs
 await
 onSourceTextContentAvailable
 (
-cx
 sourceActor
 .
 sourceObject
@@ -413,7 +407,6 @@ async
 function
 loadOriginalSourceTextPromise
 (
-cx
 source
 thunkArgs
 )
@@ -445,11 +438,7 @@ type
 "
 LOAD_ORIGINAL_SOURCE_TEXT
 "
-sourceId
-:
 source
-.
-id
 epoch
 [
 PROMISE
@@ -466,7 +455,6 @@ thunkArgs
 await
 onSourceTextContentAvailable
 (
-cx
 source
 null
 thunkArgs
@@ -477,7 +465,6 @@ async
 function
 onSourceTextContentAvailable
 (
-cx
 source
 sourceActor
 {
@@ -587,7 +574,6 @@ dispatch
 (
 addBreakpoint
 (
-cx
 breakpoint
 .
 location
@@ -615,9 +601,7 @@ loadGeneratedSourceText
 getValue
 :
 (
-{
 sourceActor
-}
 {
 getState
 }
@@ -687,9 +671,7 @@ sourceTextContent
 createKey
 :
 (
-{
 sourceActor
-}
 {
 getState
 }
@@ -722,17 +704,13 @@ actor
 action
 :
 (
-{
-cx
 sourceActor
-}
 thunkArgs
 )
 =
 >
 loadGeneratedSourceTextPromise
 (
-cx
 sourceActor
 thunkArgs
 )
@@ -752,9 +730,7 @@ loadOriginalSourceText
 getValue
 :
 (
-{
 source
-}
 {
 getState
 }
@@ -819,9 +795,7 @@ sourceTextContent
 createKey
 :
 (
-{
 source
-}
 {
 getState
 }
@@ -854,17 +828,13 @@ id
 action
 :
 (
-{
-cx
 source
-}
 thunkArgs
 )
 =
 >
 loadOriginalSourceTextPromise
 (
-cx
 source
 thunkArgs
 )
@@ -875,7 +845,6 @@ export
 function
 loadSourceText
 (
-cx
 source
 sourceActor
 )
@@ -913,10 +882,7 @@ dispatch
 (
 loadOriginalSourceText
 (
-{
-cx
 source
-}
 )
 )
 ;
@@ -945,10 +911,7 @@ dispatch
 (
 loadGeneratedSourceText
 (
-{
-cx
 sourceActor
-}
 )
 )
 ;

@@ -232,7 +232,6 @@ export
 function
 toggleBlackBox
 (
-cx
 source
 shouldBlackBox
 ranges
@@ -326,7 +325,6 @@ toggleBreakpointsInBlackboxedSources
 (
 {
 thunkArgs
-cx
 shouldDisable
 :
 true
@@ -436,7 +434,6 @@ toggleBreakpointsInRangesForBlackboxedSource
 (
 {
 thunkArgs
-cx
 shouldDisable
 :
 true
@@ -477,7 +474,6 @@ toggleBreakpointsInBlackboxedSources
 (
 {
 thunkArgs
-cx
 shouldDisable
 :
 false
@@ -550,7 +546,6 @@ toggleBreakpointsInRangesForBlackboxedSource
 (
 {
 thunkArgs
-cx
 shouldDisable
 :
 false
@@ -570,7 +565,6 @@ toggleBreakpointsInRangesForBlackboxedSource
 (
 {
 thunkArgs
-cx
 shouldDisable
 source
 ranges
@@ -625,7 +619,6 @@ toggleBreakpointsInBlackboxedSources
 (
 {
 thunkArgs
-cx
 shouldDisable
 sources
 }
@@ -676,7 +669,6 @@ export
 function
 blackBoxSources
 (
-cx
 sourcesToBlackBox
 shouldBlackBox
 )
@@ -782,7 +774,6 @@ toggleBreakpointsInBlackboxedSources
 (
 {
 thunkArgs
-cx
 shouldDisable
 :
 shouldBlackBox

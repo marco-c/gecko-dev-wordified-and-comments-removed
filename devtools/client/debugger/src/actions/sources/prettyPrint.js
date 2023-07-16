@@ -1193,10 +1193,7 @@ dispatch
 (
 loadGeneratedSourceText
 (
-{
-cx
 sourceActor
-}
 )
 )
 ;
@@ -1255,12 +1252,7 @@ dispatch
 (
 loadOriginalSourceText
 (
-{
-cx
-source
-:
 newPrettySource
-}
 )
 )
 ;
@@ -1298,7 +1290,6 @@ dispatch
 (
 updateBreakpointsForNewPrettyPrintedSource
 (
-cx
 sourceId
 )
 )

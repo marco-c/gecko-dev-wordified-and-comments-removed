@@ -109,7 +109,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -140,7 +139,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 )
 )
@@ -198,7 +196,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 )
 )
@@ -299,7 +296,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -375,7 +371,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 true
 [
@@ -435,7 +430,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 false
 [
@@ -538,7 +532,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -621,7 +614,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 true
 [
@@ -684,7 +676,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 true
 [
@@ -747,7 +738,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 false
 [
@@ -809,7 +799,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 false
 [
@@ -913,7 +902,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -996,7 +984,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 true
 [
@@ -1061,7 +1048,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 )
 )
@@ -1431,7 +1417,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -1517,7 +1502,6 @@ actions
 .
 toggleBlackBox
 (
-cx
 fooSource
 false
 mockFooSourceRange

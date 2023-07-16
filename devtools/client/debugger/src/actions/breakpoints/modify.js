@@ -452,7 +452,6 @@ export
 function
 addBreakpoint
 (
-cx
 initialLocation
 options
 =
@@ -1048,7 +1047,6 @@ export
 function
 setBreakpointOptions
 (
-cx
 location
 options
 =
@@ -1092,7 +1090,6 @@ dispatch
 (
 addBreakpoint
 (
-cx
 location
 options
 )

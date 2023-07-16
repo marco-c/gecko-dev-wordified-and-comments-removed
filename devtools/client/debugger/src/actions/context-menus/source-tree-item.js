@@ -424,7 +424,6 @@ dispatch
 (
 toggleBlackBox
 (
-cx
 source
 )
 )
@@ -688,7 +687,6 @@ itemName
 }
 addBlackboxAllOption
 (
-cx
 dispatch
 state
 menuOptions
@@ -733,7 +731,6 @@ dispatch
 (
 loadSourceText
 (
-cx
 source
 )
 )
@@ -820,7 +817,6 @@ source
 function
 addBlackboxAllOption
 (
-cx
 dispatch
 state
 menuOptions
@@ -1049,7 +1045,6 @@ dispatch
 (
 blackBoxSources
 (
-cx
 sourcesInside
 !
 allInsideBlackBoxed
@@ -1134,7 +1129,6 @@ dispatch
 (
 blackBoxSources
 (
-cx
 sourcesOutside
 !
 allOutsideBlackBoxed

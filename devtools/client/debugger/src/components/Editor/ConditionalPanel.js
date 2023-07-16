@@ -104,7 +104,6 @@ import
 getClosestBreakpoint
 getConditionalPanelLocation
 getLogPointStatus
-getContext
 }
 from
 "
@@ -227,13 +226,6 @@ closeConditionalPanel
 PropTypes
 .
 func
-.
-isRequired
-cx
-:
-PropTypes
-.
-object
 .
 isRequired
 editor
@@ -418,7 +410,6 @@ value
 {
 const
 {
-cx
 log
 breakpoint
 }
@@ -479,7 +470,6 @@ props
 .
 setBreakpointOptions
 (
-cx
 location
 {
 .
@@ -1256,12 +1246,6 @@ location
 ;
 return
 {
-cx
-:
-getContext
-(
-state
-)
 breakpoint
 location
 log
