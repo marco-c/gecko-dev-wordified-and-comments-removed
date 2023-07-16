@@ -595,6 +595,16 @@ libwebrtc
 /
 api
 /
+location_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+api
+/
 make_ref_counted_gn
 "
 "
