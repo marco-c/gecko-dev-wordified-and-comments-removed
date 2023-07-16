@@ -618,7 +618,7 @@ resolve
 =
 >
 {
-wizard
+shadow
 .
 querySelector
 (
@@ -663,7 +663,7 @@ item
 let
 panelItem
 =
-wizard
+shadow
 .
 querySelector
 (
@@ -1234,7 +1234,7 @@ resolve
 =
 >
 {
-wizard
+shadow
 .
 querySelector
 (
@@ -1279,7 +1279,7 @@ item
 let
 panelItem
 =
-wizard
+shadow
 .
 querySelector
 (
