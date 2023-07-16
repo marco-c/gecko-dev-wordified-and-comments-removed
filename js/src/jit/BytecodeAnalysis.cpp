@@ -917,7 +917,7 @@ Finally
 ?
 stackDepth
 +
-3
+2
 :
 stackDepth
 ;
@@ -974,12 +974,6 @@ JSOp
 :
 :
 Exception
-:
-case
-JSOp
-:
-:
-ExceptionAndStack
 :
 MOZ_ASSERT
 (
