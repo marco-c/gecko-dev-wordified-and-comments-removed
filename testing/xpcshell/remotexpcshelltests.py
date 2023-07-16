@@ -4653,7 +4653,9 @@ components
 /
 httpd
 .
-js
+sys
+.
+mjs
 "
 )
         
@@ -4669,7 +4671,9 @@ remoteComponentsDir
 "
 httpd
 .
-js
+sys
+.
+mjs
 "
 )
         
