@@ -271,6 +271,9 @@ H264
 VideoCodecMimeType
 .
 AV1
+VideoCodecMimeType
+.
+H265
 }
 )
 {
