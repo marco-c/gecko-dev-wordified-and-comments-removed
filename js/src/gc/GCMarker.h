@@ -1119,10 +1119,6 @@ false
 ;
 }
 class
-alignas
-(
-TypicalCacheLineSize
-)
 GCMarker
 {
 enum

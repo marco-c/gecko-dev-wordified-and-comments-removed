@@ -342,10 +342,6 @@ TenuringTracer
 ;
 }
 class
-alignas
-(
-TypicalCacheLineSize
-)
 Nursery
 {
 public
