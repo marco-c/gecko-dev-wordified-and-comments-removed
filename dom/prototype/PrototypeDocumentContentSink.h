@@ -457,13 +457,6 @@ mCurrentScriptProto
 bool
 mOffThreadCompiling
 ;
-Utf8Unit
-*
-mOffThreadCompileStringBuf
-;
-size_t
-mOffThreadCompileStringLength
-;
 bool
 mStillWalking
 ;
