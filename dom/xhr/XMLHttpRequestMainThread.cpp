@@ -17239,13 +17239,6 @@ NewArrayBufferWithContents
 aCx
 mLength
 mDataPtr
-JS
-:
-:
-NewArrayBufferOutOfMemory
-:
-:
-CallerMustFreeMemory
 )
 ;
 if

@@ -1677,12 +1677,6 @@ else
 UniquePtr
 <
 uint8_t
-[
-]
-JS
-:
-:
-FreePolicy
 >
 buffer
 (
@@ -1802,13 +1796,7 @@ MoveBufferAsUint8Array
 (
 aCx
 bytesWritten
-std
-:
-:
-move
-(
 buffer
-)
 )
 )
 ;
