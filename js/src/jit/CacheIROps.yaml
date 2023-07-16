@@ -1181,7 +1181,7 @@ obj
 ObjId
 proto
 :
-ObjectField
+WeakObjectField
 -
 name
 :
@@ -1751,7 +1751,7 @@ obj
 ObjId
 expected
 :
-ObjectField
+WeakObjectField
 -
 name
 :
@@ -1796,7 +1796,7 @@ fun
 ObjId
 expected
 :
-ObjectField
+WeakObjectField
 nargsAndFlags
 :
 RawInt32Field

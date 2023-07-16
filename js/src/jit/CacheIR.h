@@ -972,6 +972,7 @@ Shape
 WeakShape
 GetterSetter
 JSObject
+WeakObject
 Symbol
 String
 BaseScript
