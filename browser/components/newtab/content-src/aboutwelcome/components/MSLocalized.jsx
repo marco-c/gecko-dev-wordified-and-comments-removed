@@ -66,6 +66,7 @@ from
 react
 "
 ;
+export
 const
 CONFIGURABLE_STYLES
 =
