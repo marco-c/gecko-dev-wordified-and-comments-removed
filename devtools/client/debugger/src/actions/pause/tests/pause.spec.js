@@ -864,11 +864,6 @@ generatedLocation
 location
 :
 generatedLocation
-originalDisplayName
-:
-"
-foo
-"
 library
 :
 null

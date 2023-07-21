@@ -417,15 +417,10 @@ name
 :
 "
 "
-userDisplayName
-:
-"
-chuck
-"
 displayName
 :
 "
-norris
+chuck
 "
 }
 ;
