@@ -218,15 +218,6 @@ state
 Throws
 SameObject
 SecureContext
-Pref
-=
-"
-dom
-.
-audioworklet
-.
-enabled
-"
 ]
 readonly
 attribute
