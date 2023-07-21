@@ -6753,9 +6753,12 @@ query_abs_dirs
 )
 [
 "
-abs_obj_dir
+base_work_dir
 "
 ]
+"
+cidata
+"
 "
 sccache
 -
