@@ -122,6 +122,7 @@ Exposed
 Window
 DedicatedWorker
 )
+Serializable
 Pref
 =
 "
