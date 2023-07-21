@@ -173,6 +173,7 @@ async
 def
 test_subscribe
 (
+    
 bidi_session
 subscribe_events
 inline
@@ -214,6 +215,8 @@ div
 "
 )
     
+result
+=
 await
 bidi_session
 .
@@ -221,6 +224,7 @@ browsing_context
 .
 navigate
 (
+        
 context
 =
 new_tab
@@ -232,6 +236,7 @@ context
 url
 =
 url
+    
 )
     
 event
@@ -241,8 +246,11 @@ on_entry
     
 assert_navigation_info
 (
+        
 event
+        
 {
+            
 "
 context
 "
@@ -253,17 +261,32 @@ new_tab
 context
 "
 ]
+            
 "
 url
 "
 :
 url
+            
+"
+navigation
+"
+:
+result
+[
+"
+navigation
+"
+]
+        
 }
+    
 )
 async
 def
 test_timestamp
 (
+    
 bidi_session
 current_time
 subscribe_events
@@ -313,6 +336,8 @@ div
 "
 )
     
+result
+=
 await
 bidi_session
 .
@@ -320,6 +345,7 @@ browsing_context
 .
 navigate
 (
+        
 context
 =
 new_tab
@@ -331,6 +357,7 @@ context
 url
 =
 url
+    
 )
     
 event
@@ -351,6 +378,7 @@ assert_navigation_info
 event
         
 {
+            
 "
 context
 "
@@ -361,6 +389,18 @@ new_tab
 context
 "
 ]
+            
+"
+navigation
+"
+:
+result
+[
+"
+navigation
+"
+]
+            
 "
 timestamp
 "
@@ -370,6 +410,7 @@ int_interval
 time_start
 time_end
 )
+        
 }
     
 )
@@ -377,6 +418,7 @@ async
 def
 test_iframe
 (
+    
 bidi_session
 subscribe_events
 new_tab
@@ -408,11 +450,11 @@ url
 ]
 !
 =
-'
+"
 about
 :
 blank
-'
+"
 :
             
 events
@@ -444,6 +486,8 @@ DOM_CONTENT_LOADED_EVENT
 ]
 )
     
+result
+=
 await
 bidi_session
 .
@@ -630,6 +674,7 @@ assert_navigation_info
 root_event
         
 {
+            
 "
 context
 "
@@ -640,17 +685,31 @@ root_info
 context
 "
 ]
+            
 "
 url
 "
 :
 test_page_same_origin_frame
+            
+"
+navigation
+"
+:
+result
+[
+"
+navigation
+"
+]
+        
 }
     
 )
     
 assert_navigation_info
 (
+        
 child_event
 {
 "
@@ -669,7 +728,35 @@ url
 :
 test_page
 }
+    
 )
+    
+assert
+child_event
+[
+"
+navigation
+"
+]
+is
+not
+None
+    
+assert
+child_event
+[
+"
+navigation
+"
+]
+!
+=
+root_event
+[
+"
+navigation
+"
+]
     
 remove_listener
 (
@@ -741,6 +828,7 @@ on_entry
     
 assert_navigation_info
 (
+        
 event
 {
 "
@@ -763,13 +851,27 @@ about
 blank
 "
 }
+    
 )
+    
+assert
+event
+[
+"
+navigation
+"
+]
+is
+not
+None
 async
 def
 test_document_write
 (
+    
 bidi_session
 subscribe_events
+inline
 top_context
 wait_for_event
 )
@@ -862,7 +964,9 @@ on_entry
     
 assert_navigation_info
 (
+        
 event
+        
 {
 "
 context
@@ -875,11 +979,24 @@ context
 "
 ]
 }
+    
 )
+    
+assert
+event
+[
+"
+navigation
+"
+]
+is
+not
+None
 async
 def
 test_page_with_base_tag
 (
+    
 bidi_session
 subscribe_events
 inline
@@ -928,6 +1045,8 @@ path
 "
 )
     
+result
+=
 await
 bidi_session
 .
@@ -935,6 +1054,7 @@ browsing_context
 .
 navigate
 (
+        
 context
 =
 new_tab
@@ -946,6 +1066,7 @@ context
 url
 =
 url
+    
 )
     
 event
@@ -955,7 +1076,9 @@ on_entry
     
 assert_navigation_info
 (
+        
 event
+        
 {
 "
 context
@@ -968,9 +1091,20 @@ context
 "
 ]
 "
+navigation
+"
+:
+result
+[
+"
+navigation
+"
+]
+"
 url
 "
 :
 url
 }
+    
 )
