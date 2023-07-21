@@ -264,7 +264,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
@@ -321,6 +321,17 @@ include
 vm
 /
 GeckoProfiler
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
+JSAtomUtils
 -
 inl
 .

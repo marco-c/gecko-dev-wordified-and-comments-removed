@@ -34,15 +34,6 @@ include
 "
 vm
 /
-JSAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 .
 h

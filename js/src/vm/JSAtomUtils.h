@@ -1,9 +1,9 @@
 #
 ifndef
-vm_JSAtom_h
+vm_JSAtomUtils_h
 #
 define
-vm_JSAtom_h
+vm_JSAtomUtils_h
 #
 include
 "

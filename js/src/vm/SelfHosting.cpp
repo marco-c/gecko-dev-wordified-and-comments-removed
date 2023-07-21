@@ -588,6 +588,15 @@ include
 "
 vm
 /
+JSAtomUtils
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h
@@ -707,7 +716,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .

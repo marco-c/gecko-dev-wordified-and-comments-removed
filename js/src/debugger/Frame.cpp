@@ -436,7 +436,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "

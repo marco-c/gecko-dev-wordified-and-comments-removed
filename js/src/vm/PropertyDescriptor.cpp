@@ -69,7 +69,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
@@ -105,7 +105,16 @@ include
 "
 vm
 /
-JSAtom
+StringType
+.
+h
+"
+#
+include
+"
+vm
+/
+JSAtomUtils
 -
 inl
 .

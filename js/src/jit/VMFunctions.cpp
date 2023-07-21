@@ -248,7 +248,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
@@ -345,6 +345,17 @@ include
 vm
 /
 Interpreter
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
+JSAtomUtils
 -
 inl
 .

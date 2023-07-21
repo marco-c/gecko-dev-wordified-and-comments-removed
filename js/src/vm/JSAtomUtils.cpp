@@ -3,7 +3,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .

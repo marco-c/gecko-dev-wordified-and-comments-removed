@@ -569,7 +569,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomState
 .
 h
 "
@@ -578,7 +578,7 @@ include
 "
 vm
 /
-JSAtomState
+JSAtomUtils
 .
 h
 "
@@ -768,7 +768,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .

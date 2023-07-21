@@ -143,7 +143,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
@@ -180,17 +180,6 @@ include
 vm
 /
 RegExpObject
-.
-h
-"
-#
-include
-"
-vm
-/
-JSAtom
--
-inl
 .
 h
 "

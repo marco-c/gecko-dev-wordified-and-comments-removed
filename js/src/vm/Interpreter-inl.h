@@ -63,6 +63,15 @@ include
 "
 vm
 /
+JSAtomUtils
+.
+h
+"
+#
+include
+"
+vm
+/
 Realm
 .
 h
@@ -124,7 +133,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
