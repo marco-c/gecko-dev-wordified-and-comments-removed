@@ -379,6 +379,15 @@ mode
 if
 (
 errMsgId
+&
+&
+!
+mDocument
+-
+>
+IsLoadedAsData
+(
+)
 )
 {
 nsCOMPtr
