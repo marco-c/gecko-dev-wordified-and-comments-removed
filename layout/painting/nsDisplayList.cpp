@@ -7009,7 +7009,7 @@ DisplayItemClipChain
 aParent
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 (
@@ -7057,8 +7057,17 @@ mFirstClipChainToDestroy
 )
 ;
 #
-ifdef
+if
+defined
+(
 DEBUG
+)
+|
+|
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
 c
 -
 >
