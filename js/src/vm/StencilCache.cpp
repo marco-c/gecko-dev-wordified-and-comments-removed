@@ -349,3 +349,15 @@ enabled
 false
 ;
 }
+js
+:
+:
+DelazificationCache
+js
+:
+:
+DelazificationCache
+:
+:
+singleton
+;
