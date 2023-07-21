@@ -21,17 +21,6 @@ function
 (
 )
 {
-await
-pushPref
-(
-"
-dom
-.
-allow_XUL_XBL_for_file
-"
-false
-)
-;
 const
 {
 tab
