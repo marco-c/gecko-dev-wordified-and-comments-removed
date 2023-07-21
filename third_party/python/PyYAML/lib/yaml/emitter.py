@@ -8,23 +8,16 @@ Emitter
 EmitterError
 '
 ]
-import
-sys
 from
+.
 error
 import
 YAMLError
 from
+.
 events
 import
 *
-has_ucs4
-=
-sys
-.
-maxunicode
->
-0xffff
 class
 EmitterError
 (
@@ -35,9 +28,6 @@ YAMLError
 pass
 class
 ScalarAnalysis
-(
-object
-)
 :
     
 def
@@ -107,26 +97,20 @@ allow_block
 allow_block
 class
 Emitter
-(
-object
-)
 :
     
 DEFAULT_TAG_PREFIXES
 =
 {
         
-u
 '
 !
 '
 :
-u
 '
 !
 '
         
-u
 '
 tag
 :
@@ -137,7 +121,6 @@ org
 :
 '
 :
-u
 '
 !
 !
@@ -344,7 +327,6 @@ self
 .
 best_line_break
 =
-u
 '
 \
 n
@@ -354,17 +336,14 @@ if
 line_break
 in
 [
-u
 '
 \
 r
 '
-u
 '
 \
 n
 '
-u
 '
 \
 r
@@ -745,7 +724,7 @@ event
 encoding
 and
 not
-getattr
+hasattr
 (
 self
 .
@@ -753,7 +732,6 @@ stream
 '
 encoding
 '
-None
 )
 :
                 
@@ -887,7 +865,6 @@ self
 .
 write_indicator
 (
-u
 '
 .
 .
@@ -952,6 +929,8 @@ tags
                 
 handles
 =
+sorted
+(
 self
 .
 event
@@ -961,11 +940,6 @@ tags
 keys
 (
 )
-                
-handles
-.
-sort
-(
 )
                 
 for
@@ -1076,7 +1050,6 @@ self
 .
 write_indicator
 (
-u
 '
 -
 -
@@ -1125,7 +1098,6 @@ self
 .
 write_indicator
 (
-u
 '
 .
 .
@@ -1210,7 +1182,6 @@ self
 .
 write_indicator
 (
-u
 '
 .
 .
@@ -1364,7 +1335,6 @@ self
 .
 process_anchor
 (
-u
 '
 &
 '
@@ -1544,7 +1514,6 @@ self
 .
 process_anchor
 (
-u
 '
 *
 '
@@ -1619,7 +1588,6 @@ self
 .
 write_indicator
 (
-u
 '
 [
 '
@@ -1693,7 +1661,6 @@ self
 .
 write_indicator
 (
-u
 '
 ]
 '
@@ -1801,7 +1768,6 @@ self
 .
 write_indicator
 (
-u
 '
 '
 False
@@ -1817,7 +1783,6 @@ self
 .
 write_indicator
 (
-u
 '
 ]
 '
@@ -1843,7 +1808,6 @@ self
 .
 write_indicator
 (
-u
 '
 '
 False
@@ -1900,7 +1864,6 @@ self
 .
 write_indicator
 (
-u
 '
 {
 '
@@ -1974,7 +1937,6 @@ self
 .
 write_indicator
 (
-u
 '
 }
 '
@@ -2059,7 +2021,6 @@ self
 .
 write_indicator
 (
-u
 '
 ?
 '
@@ -2132,7 +2093,6 @@ self
 .
 write_indicator
 (
-u
 '
 '
 False
@@ -2148,7 +2108,6 @@ self
 .
 write_indicator
 (
-u
 '
 }
 '
@@ -2174,7 +2133,6 @@ self
 .
 write_indicator
 (
-u
 '
 '
 False
@@ -2243,7 +2201,6 @@ self
 .
 write_indicator
 (
-u
 '
 ?
 '
@@ -2281,7 +2238,6 @@ self
 .
 write_indicator
 (
-u
 '
 :
 '
@@ -2339,7 +2295,6 @@ self
 .
 write_indicator
 (
-u
 '
 :
 '
@@ -2483,7 +2438,6 @@ self
 .
 write_indicator
 (
-u
 '
 -
 '
@@ -2648,7 +2602,6 @@ self
 .
 write_indicator
 (
-u
 '
 ?
 '
@@ -2689,7 +2642,6 @@ self
 .
 write_indicator
 (
-u
 '
 :
 '
@@ -2733,7 +2685,6 @@ self
 .
 write_indicator
 (
-u
 '
 :
 '
@@ -2896,7 +2847,6 @@ event
 value
 =
 =
-u
 '
 '
 )
@@ -3320,7 +3270,6 @@ None
                 
 tag
 =
-u
 '
 !
 '
@@ -3866,7 +3815,6 @@ minor
 )
         
 return
-u
 '
 %
 d
@@ -3913,7 +3861,6 @@ handle
 ]
 !
 =
-u
 '
 !
 '
@@ -3925,7 +3872,6 @@ handle
 ]
 !
 =
-u
 '
 !
 '
@@ -3949,20 +3895,8 @@ with
 %
 r
 "
-                    
 %
-(
 handle
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-)
 )
         
 for
@@ -3980,7 +3914,6 @@ handle
 if
 not
 (
-u
 '
 0
 '
@@ -3989,12 +3922,10 @@ u
 ch
 <
 =
-u
 '
 9
 '
 or
-u
 '
 A
 '
@@ -4003,12 +3934,10 @@ A
 ch
 <
 =
-u
 '
 Z
 '
 or
-u
 '
 a
 '
@@ -4017,7 +3946,6 @@ a
 ch
 <
 =
-u
 '
 z
 '
@@ -4026,7 +3954,6 @@ z
 or
 ch
 in
-u
 '
 -
 _
@@ -4054,25 +3981,7 @@ r
 %
 (
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 handle
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 )
 )
         
@@ -4123,7 +4032,6 @@ prefix
 ]
 =
 =
-u
 '
 !
 '
@@ -4150,7 +4058,6 @@ end
 ]
             
 if
-u
 '
 0
 '
@@ -4159,12 +4066,10 @@ u
 ch
 <
 =
-u
 '
 9
 '
 or
-u
 '
 A
 '
@@ -4173,12 +4078,10 @@ A
 ch
 <
 =
-u
 '
 Z
 '
 or
-u
 '
 a
 '
@@ -4187,7 +4090,6 @@ a
 ch
 <
 =
-u
 '
 z
 '
@@ -4196,7 +4098,6 @@ z
 or
 ch
 in
-u
 '
 -
 ;
@@ -4277,7 +4178,6 @@ chunks
 .
 append
 (
-u
 '
 %
 %
@@ -4310,7 +4210,6 @@ end
 )
         
 return
-u
 '
 '
 .
@@ -4348,7 +4247,6 @@ if
 tag
 =
 =
-u
 '
 !
 '
@@ -4367,6 +4265,8 @@ tag
         
 prefixes
 =
+sorted
+(
 self
 .
 tag_prefixes
@@ -4374,11 +4274,6 @@ tag_prefixes
 keys
 (
 )
-        
-prefixes
-.
-sort
-(
 )
         
 for
@@ -4401,7 +4296,6 @@ and
 prefix
 =
 =
-u
 '
 !
 '
@@ -4466,7 +4360,6 @@ end
 ]
             
 if
-u
 '
 0
 '
@@ -4475,12 +4368,10 @@ u
 ch
 <
 =
-u
 '
 9
 '
 or
-u
 '
 A
 '
@@ -4489,12 +4380,10 @@ A
 ch
 <
 =
-u
 '
 Z
 '
 or
-u
 '
 a
 '
@@ -4503,7 +4392,6 @@ a
 ch
 <
 =
-u
 '
 z
 '
@@ -4512,7 +4400,6 @@ z
 or
 ch
 in
-u
 '
 -
 ;
@@ -4540,7 +4427,6 @@ or
 ch
 =
 =
-u
 '
 !
 '
@@ -4548,7 +4434,6 @@ and
 handle
 !
 =
-u
 '
 !
 '
@@ -4612,7 +4497,6 @@ chunks
 .
 append
 (
-u
 '
 %
 %
@@ -4620,10 +4504,7 @@ u
 02X
 '
 %
-ord
-(
 ch
-)
 )
         
 if
@@ -4646,7 +4527,6 @@ end
         
 suffix_text
 =
-u
 '
 '
 .
@@ -4660,7 +4540,6 @@ handle
 :
             
 return
-u
 '
 %
 s
@@ -4677,7 +4556,6 @@ else
 :
             
 return
-u
 '
 !
 <
@@ -4722,7 +4600,6 @@ anchor
 if
 not
 (
-u
 '
 0
 '
@@ -4731,12 +4608,10 @@ u
 ch
 <
 =
-u
 '
 9
 '
 or
-u
 '
 A
 '
@@ -4745,12 +4620,10 @@ A
 ch
 <
 =
-u
 '
 Z
 '
 or
-u
 '
 a
 '
@@ -4759,7 +4632,6 @@ a
 ch
 <
 =
-u
 '
 z
 '
@@ -4768,7 +4640,6 @@ z
 or
 ch
 in
-u
 '
 -
 _
@@ -4795,25 +4666,7 @@ r
 %
 (
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 anchor
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 )
 )
         
@@ -4910,7 +4763,6 @@ scalar
 .
 startswith
 (
-u
 '
 -
 -
@@ -4922,7 +4774,6 @@ scalar
 .
 startswith
 (
-u
 '
 .
 .
@@ -4960,7 +4811,6 @@ scalar
 1
 ]
 in
-u
 '
 \
 0
@@ -5017,7 +4867,6 @@ index
 if
 ch
 in
-u
 '
 #
 [
@@ -5048,7 +4897,6 @@ True
 if
 ch
 in
-u
 '
 ?
 :
@@ -5071,7 +4919,6 @@ if
 ch
 =
 =
-u
 '
 -
 '
@@ -5093,7 +4940,6 @@ else
 if
 ch
 in
-u
 '
 ?
 [
@@ -5111,7 +4957,6 @@ if
 ch
 =
 =
-u
 '
 :
 '
@@ -5133,7 +4978,6 @@ if
 ch
 =
 =
-u
 '
 #
 '
@@ -5152,7 +4996,6 @@ True
 if
 ch
 in
-u
 '
 \
 n
@@ -5175,13 +5018,11 @@ not
 ch
 =
 =
-u
 '
 \
 n
 '
 or
-u
 '
 \
 x20
@@ -5191,7 +5032,6 @@ x20
 ch
 <
 =
-u
 '
 \
 x7E
@@ -5204,13 +5044,11 @@ if
 ch
 =
 =
-u
 '
 \
 x85
 '
 or
-u
 '
 \
 xA0
@@ -5220,14 +5058,12 @@ xA0
 ch
 <
 =
-u
 '
 \
 uD7FF
 '
                         
 or
-u
 '
 \
 uE000
@@ -5237,15 +5073,12 @@ uE000
 ch
 <
 =
-u
 '
 \
 uFFFD
 '
                         
 or
-(
-u
 '
 \
 U00010000
@@ -5254,18 +5087,15 @@ U00010000
 =
 ch
 <
-u
 '
 \
 U0010ffff
 '
 )
-)
 and
 ch
 !
 =
-u
 '
 \
 uFEFF
@@ -5298,7 +5128,6 @@ if
 ch
 =
 =
-u
 '
 '
 :
@@ -5349,7 +5178,6 @@ False
 elif
 ch
 in
-u
 '
 \
 n
@@ -5426,7 +5254,6 @@ preceded_by_whitespace
 (
 ch
 in
-u
 '
 \
 0
@@ -5466,7 +5293,6 @@ index
 1
 ]
 in
-u
 '
 \
 0
@@ -5682,7 +5508,6 @@ stream
 .
 write
 (
-u
 '
 \
 uFEFF
@@ -5743,7 +5568,6 @@ else
             
 data
 =
-u
 '
 '
 +
@@ -5873,7 +5697,6 @@ True
             
 data
 =
-u
 '
 '
 *
@@ -6000,7 +5823,6 @@ version_text
         
 data
 =
-u
 '
 %
 %
@@ -6054,7 +5876,6 @@ prefix_text
         
 data
 =
-u
 '
 %
 %
@@ -6117,7 +5938,6 @@ self
 .
 write_indicator
 (
-u
 '
 \
 '
@@ -6181,7 +6001,6 @@ or
 ch
 !
 =
-u
 '
 '
 :
@@ -6290,7 +6109,6 @@ or
 ch
 not
 in
-u
 '
 \
 n
@@ -6310,7 +6128,6 @@ start
 ]
 =
 =
-u
 '
 \
 n
@@ -6338,7 +6155,6 @@ if
 br
 =
 =
-u
 '
 \
 n
@@ -6381,7 +6197,6 @@ None
 or
 ch
 in
-u
 '
 \
 n
@@ -6396,7 +6211,6 @@ or
 ch
 =
 =
-u
 '
 \
 '
@@ -6462,7 +6276,6 @@ if
 ch
 =
 =
-u
 '
 \
 '
@@ -6471,7 +6284,6 @@ u
                 
 data
 =
-u
 '
 \
 '
@@ -6531,7 +6343,6 @@ spaces
 ch
 =
 =
-u
 '
 '
 )
@@ -6541,7 +6352,6 @@ breaks
 (
 ch
 in
-u
 '
 \
 n
@@ -6563,7 +6373,6 @@ self
 .
 write_indicator
 (
-u
 '
 \
 '
@@ -6575,169 +6384,139 @@ ESCAPE_REPLACEMENTS
 =
 {
         
-u
 '
 \
 0
 '
 :
-u
 '
 0
 '
         
-u
 '
 \
 x07
 '
 :
-u
 '
 a
 '
         
-u
 '
 \
 x08
 '
 :
-u
 '
 b
 '
         
-u
 '
 \
 x09
 '
 :
-u
 '
 t
 '
         
-u
 '
 \
 x0A
 '
 :
-u
 '
 n
 '
         
-u
 '
 \
 x0B
 '
 :
-u
 '
 v
 '
         
-u
 '
 \
 x0C
 '
 :
-u
 '
 f
 '
         
-u
 '
 \
 x0D
 '
 :
-u
 '
 r
 '
         
-u
 '
 \
 x1B
 '
 :
-u
 '
 e
 '
         
-u
 '
 \
 "
 '
 :
-u
 '
 \
 "
 '
         
-u
 '
 \
 \
 '
 :
-u
 '
 \
 \
 '
         
-u
 '
 \
 x85
 '
 :
-u
 '
 N
 '
         
-u
 '
 \
 xA0
 '
 :
-u
 '
 _
 '
         
-u
 '
 \
 u2028
 '
 :
-u
 '
 L
 '
         
-u
 '
 \
 u2029
 '
 :
-u
 '
 P
 '
@@ -6759,7 +6538,6 @@ self
 .
 write_indicator
 (
-u
 '
 "
 '
@@ -6809,7 +6587,6 @@ None
 or
 ch
 in
-u
 '
 "
 \
@@ -6828,7 +6605,6 @@ uFEFF
 or
 not
 (
-u
 '
 \
 x20
@@ -6838,7 +6614,6 @@ x20
 ch
 <
 =
-u
 '
 \
 x7E
@@ -6852,7 +6627,6 @@ allow_unicode
                             
 and
 (
-u
 '
 \
 xA0
@@ -6862,14 +6636,12 @@ xA0
 ch
 <
 =
-u
 '
 \
 uD7FF
 '
                                 
 or
-u
 '
 \
 uE000
@@ -6879,7 +6651,6 @@ uE000
 ch
 <
 =
-u
 '
 \
 uFFFD
@@ -6961,7 +6732,6 @@ ESCAPE_REPLACEMENTS
                         
 data
 =
-u
 '
 \
 \
@@ -6978,7 +6748,6 @@ elif
 ch
 <
 =
-u
 '
 \
 xFF
@@ -6987,7 +6756,6 @@ xFF
                         
 data
 =
-u
 '
 \
 \
@@ -7005,7 +6773,6 @@ elif
 ch
 <
 =
-u
 '
 \
 uFFFF
@@ -7014,7 +6781,6 @@ uFFFF
                         
 data
 =
-u
 '
 \
 \
@@ -7033,7 +6799,6 @@ else
                         
 data
 =
-u
 '
 \
 \
@@ -7105,7 +6870,6 @@ and
 ch
 =
 =
-u
 '
 '
 or
@@ -7143,7 +6907,6 @@ start
 end
 ]
 +
-u
 '
 \
 \
@@ -7220,14 +6983,12 @@ start
 ]
 =
 =
-u
 '
 '
 :
                     
 data
 =
-u
 '
 \
 \
@@ -7278,7 +7039,6 @@ self
 .
 write_indicator
 (
-u
 '
 "
 '
@@ -7295,7 +7055,6 @@ text
         
 hints
 =
-u
 '
 '
         
@@ -7309,7 +7068,6 @@ text
 0
 ]
 in
-u
 '
 \
 n
@@ -7325,7 +7083,7 @@ u2029
 hints
 +
 =
-unicode
+str
 (
 self
 .
@@ -7340,7 +7098,6 @@ text
 ]
 not
 in
-u
 '
 \
 n
@@ -7356,7 +7113,6 @@ u2029
 hints
 +
 =
-u
 '
 -
 '
@@ -7376,7 +7132,6 @@ text
 2
 ]
 in
-u
 '
 \
 n
@@ -7392,7 +7147,6 @@ u2029
 hints
 +
 =
-u
 '
 +
 '
@@ -7421,7 +7175,6 @@ self
 .
 write_indicator
 (
-u
 '
 >
 '
@@ -7439,7 +7192,6 @@ hints
 ]
 =
 =
-u
 '
 +
 '
@@ -7517,7 +7269,6 @@ or
 ch
 not
 in
-u
 '
 \
 n
@@ -7542,7 +7293,6 @@ and
 ch
 !
 =
-u
 '
 '
 \
@@ -7554,7 +7304,6 @@ start
 ]
 =
 =
-u
 '
 \
 n
@@ -7573,7 +7322,6 @@ leading_space
 ch
 =
 =
-u
 '
 '
 )
@@ -7593,7 +7341,6 @@ if
 br
 =
 =
-u
 '
 \
 n
@@ -7641,7 +7388,6 @@ if
 ch
 !
 =
-u
 '
 '
 :
@@ -7731,7 +7477,6 @@ None
 or
 ch
 in
-u
 '
 \
 n
@@ -7817,7 +7562,6 @@ breaks
 (
 ch
 in
-u
 '
 \
 n
@@ -7836,7 +7580,6 @@ spaces
 ch
 =
 =
-u
 '
 '
 )
@@ -7867,7 +7610,6 @@ self
 .
 write_indicator
 (
-u
 '
 |
 '
@@ -7885,7 +7627,6 @@ hints
 ]
 =
 =
-u
 '
 +
 '
@@ -7955,7 +7696,6 @@ or
 ch
 not
 in
-u
 '
 \
 n
@@ -7983,7 +7723,6 @@ if
 br
 =
 =
-u
 '
 \
 n
@@ -8033,7 +7772,6 @@ None
 or
 ch
 in
-u
 '
 \
 n
@@ -8109,7 +7847,6 @@ breaks
 (
 ch
 in
-u
 '
 \
 n
@@ -8166,7 +7903,6 @@ whitespace
             
 data
 =
-u
 '
 '
             
@@ -8270,7 +8006,6 @@ if
 ch
 !
 =
-u
 '
 '
 :
@@ -8372,7 +8107,6 @@ if
 ch
 not
 in
-u
 '
 \
 n
@@ -8392,7 +8126,6 @@ start
 ]
 =
 =
-u
 '
 \
 n
@@ -8420,7 +8153,6 @@ if
 br
 =
 =
-u
 '
 \
 n
@@ -8475,7 +8207,6 @@ None
 or
 ch
 in
-u
 '
 \
 n
@@ -8550,7 +8281,6 @@ spaces
 ch
 =
 =
-u
 '
 '
 )
@@ -8560,7 +8290,6 @@ breaks
 (
 ch
 in
-u
 '
 \
 n

@@ -9,14 +9,17 @@ SerializerError
 '
 ]
 from
+.
 error
 import
 YAMLError
 from
+.
 events
 import
 *
 from
+.
 nodes
 import
 *
@@ -30,14 +33,10 @@ YAMLError
 pass
 class
 Serializer
-(
-object
-)
 :
     
 ANCHOR_TEMPLATE
 =
-u
 '
 id
 %

@@ -786,8 +786,7 @@ python
 /
 PyYAML
 /
-lib3
-/
+lib
 vendored
 :
 third_party

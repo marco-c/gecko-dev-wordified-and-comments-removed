@@ -9,18 +9,22 @@ ParserError
 '
 ]
 from
+.
 error
 import
 MarkedYAMLError
 from
+.
 tokens
 import
 *
 from
+.
 events
 import
 *
 from
+.
 scanner
 import
 *
@@ -34,32 +38,25 @@ MarkedYAMLError
 pass
 class
 Parser
-(
-object
-)
 :
     
 DEFAULT_TAGS
 =
 {
         
-u
 '
 !
 '
 :
-u
 '
 !
 '
         
-u
 '
 !
 !
 '
 :
-u
 '
 tag
 :
@@ -804,7 +801,6 @@ token
 name
 =
 =
-u
 '
 YAML
 '
@@ -890,7 +886,6 @@ token
 name
 =
 =
-u
 '
 TAG
 '
@@ -926,15 +921,6 @@ r
 "
 %
 handle
-.
-encode
-(
-'
-utf
--
-8
-'
-)
                             
 token
 .
@@ -1325,15 +1311,6 @@ r
 "
 %
 handle
-.
-encode
-(
-'
-utf
--
-8
-'
-)
                                 
 tag_mark
 )
@@ -1388,7 +1365,6 @@ or
 tag
 =
 =
-u
 '
 !
 '
@@ -1475,7 +1451,6 @@ or
 tag
 =
 =
-u
 '
 !
 '
@@ -1737,7 +1712,6 @@ tag
 implicit
 False
 )
-u
 '
 '
                             
@@ -3320,7 +3294,6 @@ None
 True
 False
 )
-u
 '
 '
 mark

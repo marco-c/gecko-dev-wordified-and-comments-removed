@@ -13,9 +13,6 @@ MarkedYAMLError
 ]
 class
 Mark
-(
-object
-)
 :
     
 def
@@ -117,7 +114,6 @@ start
 ]
 not
 in
-u
 '
 \
 0
@@ -197,7 +193,6 @@ end
 ]
 not
 in
-u
 '
 \
 0
@@ -258,15 +253,6 @@ start
 :
 end
 ]
-.
-encode
-(
-'
-utf
--
-8
-'
-)
         
 return
 '
