@@ -1833,7 +1833,8 @@ nodiscard
 ]
 ]
 static
-bool
+ArrayBufferObject
+*
 wasmGrowToPagesInPlace
 (
 wasm
@@ -1852,12 +1853,6 @@ ArrayBufferObject
 *
 >
 oldBuf
-MutableHandle
-<
-ArrayBufferObject
-*
->
-newBuf
 JSContext
 *
 cx
@@ -1869,7 +1864,8 @@ nodiscard
 ]
 ]
 static
-bool
+ArrayBufferObject
+*
 wasmMovingGrowToPages
 (
 wasm
@@ -1888,12 +1884,6 @@ ArrayBufferObject
 *
 >
 oldBuf
-MutableHandle
-<
-ArrayBufferObject
-*
->
-newBuf
 JSContext
 *
 cx
