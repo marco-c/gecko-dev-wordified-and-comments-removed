@@ -1359,6 +1359,9 @@ JS
 :
 GCReason
 aReason
+void
+*
+data
 )
 ;
 static
@@ -1988,12 +1991,6 @@ JS
 :
 GCSliceCallback
 mPrevGCSliceCallback
-;
-JS
-:
-:
-GCNurseryCollectionCallback
-mPrevGCNurseryCollectionCallback
 ;
 mozilla
 :
