@@ -657,10 +657,6 @@ install_rust_hooks
 ;
 #
 endif
-PRMJ_NowInit
-(
-)
-;
 if
 (
 frontendOnly
@@ -1425,10 +1421,6 @@ wasm
 :
 :
 ShutDown
-(
-)
-;
-PRMJ_NowShutdown
 (
 )
 ;
