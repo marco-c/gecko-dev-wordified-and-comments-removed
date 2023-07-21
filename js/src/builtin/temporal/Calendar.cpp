@@ -5359,9 +5359,7 @@ if
 arrayIterationSane
 )
 {
-if
-(
-!
+return
 BuiltinCalendarFields
 (
 cx
@@ -5372,14 +5370,6 @@ get
 (
 )
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 }
