@@ -1743,12 +1743,6 @@ MOZ_GUARDED_BY
 mTreeLock
 )
 ;
-Maybe
-<
-LayersId
->
-mAsyncZoomContainerSubtree
-;
 mutable
 mozilla
 :
