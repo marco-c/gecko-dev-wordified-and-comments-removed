@@ -85,10 +85,6 @@ display
 :
 block
 ;
-width
-:
-288px
-;
 border
 :
 1px
@@ -143,6 +139,14 @@ shadow
 -
 10
 )
+;
+box
+-
+sizing
+:
+border
+-
+box
 ;
 }
 .
