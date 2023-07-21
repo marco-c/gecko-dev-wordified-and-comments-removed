@@ -1636,7 +1636,6 @@ length
 expectedEvents
 .
 length
-"
 After
 filtering
 we
@@ -1648,7 +1647,17 @@ number
 of
 events
 .
-"
+Filtered
+events
+:
+{
+JSON
+.
+stringify
+(
+filtered
+)
+}
 )
 ;
 if
