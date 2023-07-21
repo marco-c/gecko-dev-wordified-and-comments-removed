@@ -1798,14 +1798,6 @@ Zone
 zone
 )
 {
-MOZ_ASSERT
-(
-!
-isHelperThreadContext
-(
-)
-)
-;
 zone_
 =
 zone

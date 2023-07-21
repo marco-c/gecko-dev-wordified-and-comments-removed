@@ -3178,17 +3178,6 @@ scripts
 "
 )
 ;
-MOZ_ASSERT
-(
-!
-cx
--
->
-isHelperThreadContext
-(
-)
-)
-;
 const
 char
 *

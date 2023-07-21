@@ -7247,15 +7247,6 @@ maybeCurrentJSContext
 if
 (
 maybeCx
-&
-&
-!
-maybeCx
--
->
-isHelperThreadContext
-(
-)
 )
 {
 NonBuiltinFrameIter
