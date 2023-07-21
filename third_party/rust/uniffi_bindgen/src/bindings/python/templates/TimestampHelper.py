@@ -1,3 +1,8 @@
+Timestamp
+=
+datetime
+.
+datetime
 class
 FfiConverterTimestamp
 (

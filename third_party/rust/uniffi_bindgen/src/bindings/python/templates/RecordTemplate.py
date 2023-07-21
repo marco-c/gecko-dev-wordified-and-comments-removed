@@ -5,14 +5,10 @@ let
 rec
 =
 ci
-.
+|
 get_record_definition
 (
 name
-)
-.
-unwrap
-(
 )
 %
 }

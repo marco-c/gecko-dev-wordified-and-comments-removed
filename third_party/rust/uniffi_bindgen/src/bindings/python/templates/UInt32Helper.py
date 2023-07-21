@@ -1,9 +1,26 @@
 class
 FfiConverterUInt32
 (
-FfiConverterPrimitive
+FfiConverterPrimitiveInt
 )
 :
+    
+CLASS_NAME
+=
+"
+u32
+"
+    
+VALUE_MIN
+=
+0
+    
+VALUE_MAX
+=
+2
+*
+*
+32
     
 staticmethod
     
@@ -24,7 +41,7 @@ readU32
 staticmethod
     
 def
-write
+writeUnchecked
 (
 value
 buf

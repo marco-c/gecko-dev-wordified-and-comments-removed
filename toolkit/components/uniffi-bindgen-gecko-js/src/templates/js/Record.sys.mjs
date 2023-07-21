@@ -186,7 +186,7 @@ fields
 {
 field
 .
-type_
+as_type
 (
 )
 .

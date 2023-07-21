@@ -1742,7 +1742,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_new
+uniffi_todolist_fn_constructor_todolist_new
 )
 }
 try
@@ -1865,7 +1865,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_add_item
+uniffi_todolist_fn_method_todolist_add_item
 FfiConverterTypeTodoList
 .
 lower
@@ -2000,7 +2000,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_add_entry
+uniffi_todolist_fn_method_todolist_add_entry
 FfiConverterTypeTodoList
 .
 lower
@@ -2094,7 +2094,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_get_entries
+uniffi_todolist_fn_method_todolist_get_entries
 FfiConverterTypeTodoList
 .
 lower
@@ -2182,7 +2182,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_get_items
+uniffi_todolist_fn_method_todolist_get_items
 FfiConverterTypeTodoList
 .
 lower
@@ -2301,7 +2301,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_add_entries
+uniffi_todolist_fn_method_todolist_add_entries
 FfiConverterTypeTodoList
 .
 lower
@@ -2426,7 +2426,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_add_items
+uniffi_todolist_fn_method_todolist_add_items
 FfiConverterTypeTodoList
 .
 lower
@@ -2530,7 +2530,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_get_last_entry
+uniffi_todolist_fn_method_todolist_get_last_entry
 FfiConverterTypeTodoList
 .
 lower
@@ -2628,7 +2628,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_get_last
+uniffi_todolist_fn_method_todolist_get_last
 FfiConverterTypeTodoList
 .
 lower
@@ -2726,7 +2726,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_get_first
+uniffi_todolist_fn_method_todolist_get_first
 FfiConverterTypeTodoList
 .
 lower
@@ -2855,7 +2855,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_clear_item
+uniffi_todolist_fn_method_todolist_clear_item
 FfiConverterTypeTodoList
 .
 lower
@@ -2944,7 +2944,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_TodoList_make_default
+uniffi_todolist_fn_method_todolist_make_default
 FfiConverterTypeTodoList
 .
 lower
@@ -4554,7 +4554,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_get_default_list
+uniffi_todolist_fn_func_get_default_list
 )
 }
 try
@@ -4669,7 +4669,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_set_default_list
+uniffi_todolist_fn_func_set_default_list
 FfiConverterTypeTodoList
 .
 lower
@@ -4805,7 +4805,7 @@ callAsync
 /
 todolist
 :
-todolist_4b78_create_entry_with
+uniffi_todolist_fn_func_create_entry_with
 FfiConverterString
 .
 lower

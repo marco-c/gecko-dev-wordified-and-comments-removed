@@ -68,14 +68,10 @@ open_in_memory
 (
 )
 ;
-assert
-!
-(
 res
 .
-is_err
+unwrap_err
 (
-)
 )
 ;
 }
