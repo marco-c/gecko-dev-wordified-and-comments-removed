@@ -212,6 +212,17 @@ options
 =
 >
 {
+if
+(
+!
+performance
+.
+softNavPaintMetricsSupported
+)
+{
+return
+;
+}
 const
 [
 paint_entries
