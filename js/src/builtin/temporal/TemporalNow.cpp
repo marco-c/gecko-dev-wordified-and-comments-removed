@@ -1127,8 +1127,7 @@ nullptr
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1248,8 +1247,7 @@ nullptr
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1508,8 +1506,7 @@ argc
 vp
 )
 ;
-JSObject
-*
+CalendarValue
 calendar
 =
 GetISO8601Calendar
@@ -1676,8 +1673,7 @@ argc
 vp
 )
 ;
-JSObject
-*
+CalendarValue
 calendar
 =
 GetISO8601Calendar
@@ -1807,8 +1803,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1886,8 +1881,7 @@ vp
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2013,8 +2007,7 @@ vp
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

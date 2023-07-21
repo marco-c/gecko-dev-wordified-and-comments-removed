@@ -1409,8 +1409,7 @@ double
 isoDay
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -1612,8 +1611,7 @@ PlainDate
 date
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -1835,8 +1833,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1978,8 +1975,7 @@ dateTime
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2051,8 +2047,7 @@ calendar
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2334,8 +2329,7 @@ calendarString
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2513,8 +2507,7 @@ PlainDate
 result
 MutableHandle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -2972,8 +2965,7 @@ day
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4822,8 +4814,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4878,8 +4869,7 @@ wrappedOther
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -5425,8 +5415,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5619,8 +5608,7 @@ temporalDate
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5978,8 +5966,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6082,8 +6069,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6186,8 +6172,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6290,8 +6275,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6394,8 +6378,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6498,8 +6481,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6602,8 +6584,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6706,8 +6687,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6810,8 +6790,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6914,8 +6893,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7018,8 +6996,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7122,8 +7099,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7226,8 +7202,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7335,8 +7310,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7526,8 +7500,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7857,8 +7830,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -8030,8 +8002,7 @@ ToPlainDate
 temporalDate
 )
 ;
-JSObject
-*
+auto
 calendar
 =
 temporalDate
@@ -8299,8 +8270,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -8520,8 +8490,7 @@ PlainDateObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -8870,8 +8839,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9147,8 +9115,7 @@ temporalDate
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9412,8 +9379,7 @@ temporalDate
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9431,8 +9397,7 @@ other
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -9612,8 +9577,7 @@ temporalDate
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

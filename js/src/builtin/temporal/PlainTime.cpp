@@ -2913,8 +2913,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -3033,8 +3032,7 @@ dateTime
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -10970,8 +10968,7 @@ date
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -11221,8 +11218,7 @@ date
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

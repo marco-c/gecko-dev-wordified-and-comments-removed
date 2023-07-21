@@ -5546,8 +5546,7 @@ InstantObject
 instant
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -5614,8 +5613,7 @@ Instant
 instant
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -6428,8 +6426,7 @@ int64_t
 nanoseconds
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 PlainDateTime
@@ -6809,8 +6806,7 @@ unwrappedDateTime
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -8125,8 +8121,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

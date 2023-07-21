@@ -518,8 +518,7 @@ double
 isoDay
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -721,8 +720,7 @@ PlainDate
 date
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -884,8 +882,7 @@ JSObject
 object
 MutableHandle
 <
-JSObject
-*
+CalendarValue
 >
 result
 )
@@ -1116,8 +1113,7 @@ itemObj
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1602,8 +1598,7 @@ calendarString
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1700,8 +1695,7 @@ PlainDate
 result
 MutableHandle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -1831,8 +1825,7 @@ nullptr
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2402,8 +2395,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2634,8 +2626,7 @@ monthDay
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2903,8 +2894,7 @@ PlainMonthDayObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -3007,8 +2997,7 @@ PlainMonthDayObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -3225,8 +3214,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -3506,8 +3494,7 @@ monthDay
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -3525,8 +3512,7 @@ other
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -4180,8 +4166,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

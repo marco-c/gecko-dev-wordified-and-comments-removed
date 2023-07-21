@@ -614,8 +614,7 @@ double
 isoDay
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -816,8 +815,7 @@ PlainDate
 date
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -1025,8 +1023,7 @@ itemObj
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1248,8 +1245,7 @@ calendarString
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1376,8 +1372,7 @@ PlainDate
 result
 MutableHandle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -1507,8 +1502,7 @@ nullptr
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2062,8 +2056,7 @@ otherYearMonth
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -2104,8 +2097,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2930,8 +2922,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -3409,8 +3400,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -3641,8 +3631,7 @@ yearMonth
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4000,8 +3989,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4104,8 +4092,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4208,8 +4195,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4312,8 +4298,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4416,8 +4401,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4520,8 +4504,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4624,8 +4607,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4842,8 +4824,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5353,8 +5334,7 @@ yearMonth
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5372,8 +5352,7 @@ other
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -6027,8 +6006,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

@@ -750,8 +750,7 @@ Day
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1258,8 +1257,7 @@ offsetNanoseconds
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2103,8 +2101,7 @@ JSObject
 timeZone
 MutableHandle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -2222,8 +2219,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -2389,8 +2385,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -2901,8 +2896,7 @@ nullptr
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2958,8 +2952,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 const
@@ -3277,8 +3270,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 const
@@ -3513,8 +3505,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4413,8 +4404,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 TemporalUnit
@@ -4769,8 +4759,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 TemporalUnit
@@ -5269,8 +5258,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5298,8 +5286,7 @@ cx
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -5914,8 +5901,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6249,8 +6235,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6458,8 +6443,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7003,8 +6987,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7163,8 +7146,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7323,8 +7305,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7483,8 +7464,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -8861,8 +8841,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9021,8 +9000,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9181,8 +9159,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9341,8 +9318,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9880,8 +9856,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -10040,8 +10015,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -10200,8 +10174,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -10360,8 +10333,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -10520,8 +10492,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -11073,8 +11044,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -11618,8 +11588,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -11861,8 +11830,7 @@ zonedDateTime
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -11896,8 +11864,7 @@ date
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 plainDateCalendar
 (
@@ -12139,8 +12106,7 @@ zonedDateTime
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -12317,8 +12283,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -12719,8 +12684,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -13437,8 +13401,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -13466,8 +13429,7 @@ cx
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -14332,8 +14294,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -14670,8 +14631,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -14839,8 +14799,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -15007,8 +14966,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -15155,8 +15113,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -15392,8 +15349,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -15642,8 +15598,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
