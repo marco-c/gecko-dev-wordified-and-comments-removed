@@ -354,6 +354,14 @@ aUnit
 )
 ;
 static
+bool
+IsFontRelativeUnit
+(
+uint8_t
+aUnit
+)
+;
+static
 float
 GetAbsUnitsPerAbsUnit
 (
