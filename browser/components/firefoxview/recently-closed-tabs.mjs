@@ -1013,6 +1013,9 @@ SessionStore
 .
 getClosedTabData
 (
+getWindow
+(
+)
 )
 .
 map
