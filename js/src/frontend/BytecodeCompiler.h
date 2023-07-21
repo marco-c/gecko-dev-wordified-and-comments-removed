@@ -909,9 +909,6 @@ CompilationStencil
 >
 DelazifyCanonicalScriptedFunction
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
