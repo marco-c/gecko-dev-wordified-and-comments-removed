@@ -117,10 +117,7 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
-rtc
-:
-:
-Thread
+TaskQueueBase
 *
 network_thread
 uint32_t
@@ -214,10 +211,7 @@ RTC_GUARDED_BY
 network_sequence_checker_
 )
 ;
-rtc
-:
-:
-Thread
+TaskQueueBase
 *
 const
 network_thread_
