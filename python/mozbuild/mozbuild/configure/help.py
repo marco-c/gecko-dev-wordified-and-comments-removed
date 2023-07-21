@@ -257,18 +257,7 @@ category
 for
 option
 in
-sorted
-(
 options
-key
-=
-lambda
-opt
-:
-opt
-.
-option
-)
 :
                 
 opt

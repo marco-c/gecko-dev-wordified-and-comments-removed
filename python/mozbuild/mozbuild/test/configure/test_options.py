@@ -10386,19 +10386,15 @@ py
                     
 -
 -
-disable
--
-titi
-Disable
-Titi
+foo
+Foo
                     
 -
 -
-disable
+with
 -
-tutu
-Disable
-Tutu
+bar
+Bar
                     
 -
 -
@@ -10414,16 +10410,10 @@ Hoge
                     
 -
 -
-enable
+with
 -
-tata
-=
-{
-a
-b
-}
-Enable
-Tata
+fuga
+Fuga
 [
 a
 ]
@@ -10435,6 +10425,14 @@ enable
 toto
 Enable
 Toto
+                    
+-
+-
+disable
+-
+titi
+Disable
+Titi
                     
 -
 -
@@ -10451,22 +10449,24 @@ Tutu
                     
 -
 -
-foo
-Foo
+disable
+-
+tutu
+Disable
+Tutu
                     
 -
 -
-with
+enable
 -
-bar
-Bar
-                    
--
--
-with
--
-fuga
-Fuga
+tata
+=
+{
+a
+b
+}
+Enable
+Tata
 [
 a
 ]
