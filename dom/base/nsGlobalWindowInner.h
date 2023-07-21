@@ -1682,17 +1682,6 @@ aObj
 ;
 static
 bool
-IsRequestIdleCallbackEnabled
-(
-JSContext
-*
-aCx
-JSObject
-*
-)
-;
-static
-bool
 DeviceSensorsEnabled
 (
 JSContext

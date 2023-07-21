@@ -118,14 +118,6 @@ requestidlecallback
 Exposed
 =
 Window
-Func
-=
-"
-nsGlobalWindowInner
-:
-:
-IsRequestIdleCallbackEnabled
-"
 ]
 interface
 IdleDeadline
