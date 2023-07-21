@@ -4,6 +4,10 @@ crate
 :
 {
 cow_label
+error
+:
+:
+HasErrorBufferType
 wgpu_string
 AdapterInformation
 ByteBuf
@@ -15,10 +19,6 @@ ImplicitLayout
 QueueWriteAction
 RawString
 TextureAction
-error
-:
-:
-HasErrorBufferType
 }
 ;
 use
@@ -26,11 +26,11 @@ wgc
 :
 :
 {
+id
 identity
 :
 :
 IdentityManager
-id
 }
 ;
 use
