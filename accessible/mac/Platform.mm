@@ -361,7 +361,7 @@ aProxy
 }
 }
 void
-ProxyEvent
+PlatformEvent
 (
 RemoteAccessible
 *
@@ -489,7 +489,7 @@ aEventType
 }
 }
 void
-ProxyStateChangeEvent
+PlatformStateChangeEvent
 (
 RemoteAccessible
 *
@@ -527,7 +527,7 @@ aEnabled
 }
 }
 void
-ProxyFocusEvent
+PlatformFocusEvent
 (
 RemoteAccessible
 *
@@ -563,7 +563,7 @@ EVENT_FOCUS
 }
 }
 void
-ProxyCaretMoveEvent
+PlatformCaretMoveEvent
 (
 RemoteAccessible
 *
@@ -691,7 +691,7 @@ EVENT_TEXT_CARET_MOVED
 }
 }
 void
-ProxyTextChangeEvent
+PlatformTextChangeEvent
 (
 RemoteAccessible
 *
@@ -785,7 +785,7 @@ aStart
 ;
 }
 void
-ProxyShowHideEvent
+PlatformShowHideEvent
 (
 RemoteAccessible
 *
@@ -797,7 +797,7 @@ bool
 {
 }
 void
-ProxySelectionEvent
+PlatformSelectionEvent
 (
 RemoteAccessible
 *
@@ -833,7 +833,7 @@ aEventType
 }
 }
 void
-ProxyTextSelectionChangeEvent
+PlatformTextSelectionChangeEvent
 (
 RemoteAccessible
 *
@@ -979,7 +979,7 @@ EVENT_TEXT_SELECTION_CHANGED
 }
 }
 void
-ProxyRoleChangedEvent
+PlatformRoleChangedEvent
 (
 RemoteAccessible
 *

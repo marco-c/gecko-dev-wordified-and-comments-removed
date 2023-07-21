@@ -179,7 +179,7 @@ RemoteAccessible
 )
 ;
 void
-ProxyEvent
+PlatformEvent
 (
 RemoteAccessible
 *
@@ -189,7 +189,7 @@ aEventType
 )
 ;
 void
-ProxyStateChangeEvent
+PlatformStateChangeEvent
 (
 RemoteAccessible
 *
@@ -201,7 +201,7 @@ aEnabled
 )
 ;
 void
-ProxyFocusEvent
+PlatformFocusEvent
 (
 RemoteAccessible
 *
@@ -213,7 +213,7 @@ aCaretRect
 )
 ;
 void
-ProxyCaretMoveEvent
+PlatformCaretMoveEvent
 (
 RemoteAccessible
 *
@@ -231,7 +231,7 @@ aCaretRect
 )
 ;
 void
-ProxyTextChangeEvent
+PlatformTextChangeEvent
 (
 RemoteAccessible
 *
@@ -251,7 +251,7 @@ aFromUser
 )
 ;
 void
-ProxyShowHideEvent
+PlatformShowHideEvent
 (
 RemoteAccessible
 *
@@ -266,7 +266,7 @@ aFromUser
 )
 ;
 void
-ProxySelectionEvent
+PlatformSelectionEvent
 (
 RemoteAccessible
 *
@@ -285,7 +285,7 @@ defined
 ANDROID
 )
 void
-ProxyVirtualCursorChangeEvent
+PlatformVirtualCursorChangeEvent
 (
 RemoteAccessible
 *
@@ -303,7 +303,7 @@ aFromUser
 )
 ;
 void
-ProxyScrollingEvent
+PlatformScrollingEvent
 (
 RemoteAccessible
 *
@@ -321,7 +321,7 @@ aMaxScrollY
 )
 ;
 void
-ProxyAnnouncementEvent
+PlatformAnnouncementEvent
 (
 RemoteAccessible
 *
@@ -355,7 +355,7 @@ class
 TextRangeData
 ;
 void
-ProxyTextSelectionChangeEvent
+PlatformTextSelectionChangeEvent
 (
 RemoteAccessible
 *
@@ -370,7 +370,7 @@ aSelection
 )
 ;
 void
-ProxyRoleChangedEvent
+PlatformRoleChangedEvent
 (
 RemoteAccessible
 *

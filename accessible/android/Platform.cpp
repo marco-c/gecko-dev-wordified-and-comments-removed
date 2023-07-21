@@ -462,7 +462,7 @@ void
 a11y
 :
 :
-ProxyEvent
+PlatformEvent
 (
 RemoteAccessible
 *
@@ -524,7 +524,7 @@ void
 a11y
 :
 :
-ProxyStateChangeEvent
+PlatformStateChangeEvent
 (
 RemoteAccessible
 *
@@ -682,7 +682,7 @@ void
 a11y
 :
 :
-ProxyFocusEvent
+PlatformFocusEvent
 (
 RemoteAccessible
 *
@@ -724,7 +724,7 @@ void
 a11y
 :
 :
-ProxyCaretMoveEvent
+PlatformCaretMoveEvent
 (
 RemoteAccessible
 *
@@ -775,7 +775,7 @@ void
 a11y
 :
 :
-ProxyTextChangeEvent
+PlatformTextChangeEvent
 (
 RemoteAccessible
 *
@@ -832,7 +832,7 @@ void
 a11y
 :
 :
-ProxyShowHideEvent
+PlatformShowHideEvent
 (
 RemoteAccessible
 *
@@ -851,7 +851,7 @@ void
 a11y
 :
 :
-ProxySelectionEvent
+PlatformSelectionEvent
 (
 RemoteAccessible
 *
@@ -865,7 +865,7 @@ void
 a11y
 :
 :
-ProxyVirtualCursorChangeEvent
+PlatformVirtualCursorChangeEvent
 (
 RemoteAccessible
 *
@@ -954,7 +954,7 @@ void
 a11y
 :
 :
-ProxyScrollingEvent
+PlatformScrollingEvent
 (
 RemoteAccessible
 *
@@ -1020,7 +1020,7 @@ void
 a11y
 :
 :
-ProxyAnnouncementEvent
+PlatformAnnouncementEvent
 (
 RemoteAccessible
 *
