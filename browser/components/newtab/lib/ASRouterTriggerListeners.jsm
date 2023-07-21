@@ -3732,6 +3732,12 @@ some
 tab
 =
 >
+!
+tab
+.
+closing
+&
+&
 tab
 .
 soundPlaying
