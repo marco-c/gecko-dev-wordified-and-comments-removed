@@ -41532,12 +41532,6 @@ callWithABI
 <
 Fn
 PostWriteElementBarrier
-<
-IndexInBounds
-:
-:
-Yes
->
 >
 (
 )
