@@ -8,10 +8,11 @@ array
 var
 grouped
 =
-array
+Object
 .
-group
+groupBy
 (
+array
 (
 )
 =

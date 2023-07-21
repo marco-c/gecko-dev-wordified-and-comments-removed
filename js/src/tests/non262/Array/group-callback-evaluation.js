@@ -15,10 +15,11 @@ calls
 var
 grouped
 =
-array
+Object
 .
-group
+groupBy
 (
+array
 (
 )
 =
