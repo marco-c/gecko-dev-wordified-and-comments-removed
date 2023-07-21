@@ -274,8 +274,6 @@ databases
 /
 [
 scriptable
-builtinclass
-rust_sync
 uuid
 (
 46c893dd
@@ -447,8 +445,6 @@ methods
 /
 [
 scriptable
-builtinclass
-rust_sync
 uuid
 (
 c449398e
@@ -1111,8 +1107,6 @@ getNext
 /
 [
 scriptable
-builtinclass
-rust_sync
 uuid
 (
 bc37b06a
@@ -1249,8 +1243,6 @@ directly
 /
 [
 scriptable
-builtinclass
-rust_sync
 uuid
 (
 b9ba7116

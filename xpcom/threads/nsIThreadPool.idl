@@ -44,7 +44,6 @@ onThreadShuttingDown
 }
 ;
 [
-rust_sync
 uuid
 (
 76ce99c9
