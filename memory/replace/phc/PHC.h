@@ -134,6 +134,11 @@ StackTrace
 >
 mFreeStack
 ;
+bool
+mPhcWasLocked
+=
+false
+;
 AddrInfo
 (
 )
