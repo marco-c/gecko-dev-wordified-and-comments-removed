@@ -2298,14 +2298,6 @@ runtime
 rt
 ;
 }
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 size_t
 sizeOfExcludingThis
 (
