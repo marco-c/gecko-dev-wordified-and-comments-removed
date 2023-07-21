@@ -242,15 +242,6 @@ IsInteractiveHTMLContent
 const
 {
 return
-HasAttr
-(
-nsGkAtoms
-:
-:
-usemap
-)
-|
-|
 nsGenericHTMLFormControlElement
 :
 :
