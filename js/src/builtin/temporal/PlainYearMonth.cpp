@@ -4756,7 +4756,7 @@ false
 if
 (
 !
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 cx
 temporalYearMonthLike

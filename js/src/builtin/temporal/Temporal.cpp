@@ -7792,7 +7792,7 @@ js
 temporal
 :
 :
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 JSContext
 *
@@ -9116,7 +9116,11 @@ JSProtoKey
 key
 )
 {
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 proto
 (
 cx

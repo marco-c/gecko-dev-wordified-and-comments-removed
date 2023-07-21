@@ -11105,7 +11105,7 @@ false
 if
 (
 !
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 cx
 temporalZonedDateTimeLike

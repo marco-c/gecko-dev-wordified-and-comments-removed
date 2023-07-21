@@ -3080,7 +3080,7 @@ false
 if
 (
 !
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 cx
 temporalMonthDayLike

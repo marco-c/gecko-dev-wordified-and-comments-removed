@@ -2253,7 +2253,11 @@ JSProtoKey
 key
 )
 {
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 proto
 (
 cx

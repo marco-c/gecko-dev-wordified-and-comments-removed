@@ -1102,7 +1102,7 @@ result
 )
 ;
 bool
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 JSContext
 *
