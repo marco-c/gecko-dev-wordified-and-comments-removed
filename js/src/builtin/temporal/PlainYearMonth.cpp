@@ -1521,7 +1521,7 @@ JSString
 *
 str
 =
-CalendarToString
+ToTemporalCalendarIdentifier
 (
 cx
 calendar
@@ -1542,7 +1542,7 @@ Rooted
 JSLinearString
 *
 >
-calendarID
+calendarIdentifier
 (
 cx
 str
@@ -1557,7 +1557,7 @@ cx
 if
 (
 !
-calendarID
+calendarIdentifier
 )
 {
 return
@@ -1889,7 +1889,7 @@ Critical
 !
 StringEqualsLiteral
 (
-calendarID
+calendarIdentifier
 "
 iso8601
 "
@@ -1959,7 +1959,7 @@ FormatCalendarAnnotation
 (
 cx
 result
-calendarID
+calendarIdentifier
 showCalendar
 )
 )
