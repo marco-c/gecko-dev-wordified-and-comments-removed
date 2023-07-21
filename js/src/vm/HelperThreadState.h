@@ -2646,6 +2646,13 @@ JS
 ContextOptions
 contextOptions
 ;
+const
+JS
+:
+:
+PrefableCompileOptions
+initialPrefableOptions
+;
 UniquePtr
 <
 DelazifyStrategy
@@ -2706,6 +2713,13 @@ JS
 ContextOptions
 &
 options
+const
+JS
+:
+:
+PrefableCompileOptions
+&
+initialPrefableOptions
 )
 ;
 ~

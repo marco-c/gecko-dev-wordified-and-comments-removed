@@ -7299,6 +7299,13 @@ cx
 FrontendContext
 *
 fc
+const
+JS
+:
+:
+PrefableCompileOptions
+&
+prefableOptions
 ScopeBindingCache
 *
 scopeCache
@@ -7506,7 +7513,7 @@ JS
 CompileOptions
 options
 (
-cx
+prefableOptions
 )
 ;
 options
@@ -7661,6 +7668,13 @@ cx
 FrontendContext
 *
 fc
+const
+JS
+:
+:
+PrefableCompileOptions
+&
+prefableOptions
 ScopeBindingCache
 *
 scopeCache
@@ -7731,6 +7745,7 @@ Utf8Unit
 (
 cx
 fc
+prefableOptions
 scopeCache
 context
 scriptIndex
@@ -7758,6 +7773,7 @@ char16_t
 (
 cx
 fc
+prefableOptions
 scopeCache
 context
 scriptIndex

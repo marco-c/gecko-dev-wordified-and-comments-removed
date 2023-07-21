@@ -4812,6 +4812,11 @@ DelazifyTask
 (
 runtime
 contextOptions
+options
+.
+prefableOptions
+(
+)
 )
 )
 ;
@@ -4974,6 +4979,13 @@ JS
 ContextOptions
 &
 options
+const
+JS
+:
+:
+PrefableCompileOptions
+&
+initialPrefableOptions
 )
 :
 runtime
@@ -4983,6 +4995,10 @@ runtime
 contextOptions
 (
 options
+)
+initialPrefableOptions
+(
+initialPrefableOptions
 )
 merger
 (
@@ -5564,6 +5580,7 @@ DelazifyCanonicalScriptedFunction
 cx
 &
 fc_
+initialPrefableOptions
 &
 scopeCache
 borrow

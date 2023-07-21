@@ -907,6 +907,13 @@ cx
 FrontendContext
 *
 fc
+const
+JS
+:
+:
+PrefableCompileOptions
+&
+prefableOptions
 ScopeBindingCache
 *
 scopeCache
