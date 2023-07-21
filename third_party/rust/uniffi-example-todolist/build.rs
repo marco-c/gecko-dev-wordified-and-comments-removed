@@ -9,6 +9,8 @@ uniffi
 generate_scaffolding
 (
 "
+.
+/
 src
 /
 todolist

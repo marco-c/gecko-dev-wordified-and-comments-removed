@@ -1947,7 +1947,7 @@ callAsync
 /
 arithmetic
 :
-uniffi_arithmetic_fn_func_add
+arithmetic_fd12_add
 FfiConverterU64
 .
 lower
@@ -2125,7 +2125,7 @@ callAsync
 /
 arithmetic
 :
-uniffi_arithmetic_fn_func_sub
+arithmetic_fd12_sub
 FfiConverterU64
 .
 lower
@@ -2293,7 +2293,7 @@ callAsync
 /
 arithmetic
 :
-uniffi_arithmetic_fn_func_div
+arithmetic_fd12_div
 FfiConverterU64
 .
 lower
@@ -2461,7 +2461,7 @@ callAsync
 /
 arithmetic
 :
-uniffi_arithmetic_fn_func_equal
+arithmetic_fd12_equal
 FfiConverterU64
 .
 lower

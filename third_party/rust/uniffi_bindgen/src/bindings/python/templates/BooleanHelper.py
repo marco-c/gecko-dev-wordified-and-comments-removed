@@ -1,24 +1,6 @@
 class
 FfiConverterBool
-(
-FfiConverterPrimitive
-)
 :
-    
-classmethod
-    
-def
-check
-(
-cls
-value
-)
-:
-        
-return
-not
-not
-value
     
 classmethod
     
@@ -45,7 +27,7 @@ readU8
 classmethod
     
 def
-writeUnchecked
+write
 (
 cls
 value
@@ -57,7 +39,12 @@ buf
 .
 writeU8
 (
+cls
+.
+lower
+(
 value
+)
 )
     
 staticmethod
@@ -70,7 +57,26 @@ value
 :
         
 return
+int
+(
 value
+)
 !
 =
+0
+    
+staticmethod
+    
+def
+lower
+(
+value
+)
+:
+        
+return
+1
+if
+value
+else
 0

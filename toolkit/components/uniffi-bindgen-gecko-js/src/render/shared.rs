@@ -24,7 +24,7 @@ Object
 }
 ;
 fn
-is_js_async
+is_async
 (
 config
 :
@@ -106,7 +106,7 @@ impl
 Function
 {
 fn
-is_js_async
+is_async
 (
 &
 self
@@ -119,7 +119,7 @@ Config
 >
 bool
 {
-is_js_async
+is_async
 (
 config
 self
@@ -152,7 +152,7 @@ Config
 >
 bool
 {
-is_js_async
+is_async
 (
 config
 self
@@ -180,7 +180,7 @@ Config
 >
 bool
 {
-is_js_async
+is_async
 (
 config
 &

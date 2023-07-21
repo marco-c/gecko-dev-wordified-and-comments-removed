@@ -145,6 +145,8 @@ Vec
 with_capacity
 (
 n
+as
+usize
 )
 ;
 for
@@ -471,6 +473,8 @@ Vec
 with_capacity
 (
 n
+as
+usize
 )
 ;
 for

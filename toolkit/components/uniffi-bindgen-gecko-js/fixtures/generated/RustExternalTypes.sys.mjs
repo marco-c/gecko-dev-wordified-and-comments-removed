@@ -1803,7 +1803,7 @@ callAsync
 /
 external_types
 :
-uniffi_external_types_fn_func_gradient
+external_types_c083_gradient
 FfiConverterOptionalTypeLine
 .
 lower

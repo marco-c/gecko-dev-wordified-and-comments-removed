@@ -1,7 +1,7 @@
 class
 FfiConverterFloat
 (
-FfiConverterPrimitiveFloat
+FfiConverterPrimitive
 )
 :
     
@@ -24,7 +24,7 @@ readFloat
 staticmethod
     
 def
-writeUnchecked
+write
 (
 value
 buf

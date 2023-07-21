@@ -14,7 +14,7 @@ borrow
 (
 )
 |
-ffi_type_name
+type_ffi_lowered
 %
 }
 {
@@ -726,13 +726,9 @@ name
 _lift
 (
 _
-value
+buf
 :
-{
-{
-ffi_type_name
-}
-}
+RustBuffer
 )
 throws
 -
@@ -754,7 +750,7 @@ name
 .
 lift
 (
-value
+buf
 )
 }
 public
@@ -778,11 +774,7 @@ name
 )
 -
 >
-{
-{
-ffi_type_name
-}
-}
+RustBuffer
 {
 return
 FfiConverterType

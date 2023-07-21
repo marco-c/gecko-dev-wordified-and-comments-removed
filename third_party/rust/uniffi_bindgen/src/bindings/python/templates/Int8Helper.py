@@ -1,30 +1,9 @@
 class
 FfiConverterInt8
 (
-FfiConverterPrimitiveInt
+FfiConverterPrimitive
 )
 :
-    
-CLASS_NAME
-=
-"
-i8
-"
-    
-VALUE_MIN
-=
--
-2
-*
-*
-7
-    
-VALUE_MAX
-=
-2
-*
-*
-7
     
 staticmethod
     
@@ -45,7 +24,7 @@ readI8
 staticmethod
     
 def
-writeUnchecked
+write
 (
 value
 buf

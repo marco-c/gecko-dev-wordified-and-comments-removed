@@ -422,9 +422,7 @@ uniffi
 "
 0
 .
-24
-.
-1
+23
 "
 #
 Explicitly
@@ -1699,7 +1697,7 @@ services
 rev
 =
 "
-14fae5c7f01bb2645a3f09e91c64033ed796a862
+86c84c217036c12283d19368867323a66bf35883
 "
 }
 sql
@@ -1727,7 +1725,7 @@ services
 rev
 =
 "
-14fae5c7f01bb2645a3f09e91c64033ed796a862
+86c84c217036c12283d19368867323a66bf35883
 "
 }
 sync15
@@ -1753,7 +1751,7 @@ services
 rev
 =
 "
-14fae5c7f01bb2645a3f09e91c64033ed796a862
+86c84c217036c12283d19368867323a66bf35883
 "
 }
 tabs
@@ -1779,7 +1777,7 @@ services
 rev
 =
 "
-14fae5c7f01bb2645a3f09e91c64033ed796a862
+86c84c217036c12283d19368867323a66bf35883
 "
 }
 viaduct
@@ -1805,7 +1803,7 @@ services
 rev
 =
 "
-14fae5c7f01bb2645a3f09e91c64033ed796a862
+86c84c217036c12283d19368867323a66bf35883
 "
 }
 webext
@@ -1833,7 +1831,7 @@ services
 rev
 =
 "
-14fae5c7f01bb2645a3f09e91c64033ed796a862
+86c84c217036c12283d19368867323a66bf35883
 "
 }
 #
@@ -1937,9 +1935,9 @@ uniffi
 =
 0
 .
-24
+23
 .
-1
+0
 "
 uniffi_bindgen
 =
@@ -1947,9 +1945,9 @@ uniffi_bindgen
 =
 0
 .
-24
+23
 .
-1
+0
 "
 uniffi_build
 =
@@ -1957,9 +1955,9 @@ uniffi_build
 =
 0
 .
-24
+23
 .
-1
+0
 "
 uniffi_macros
 =
@@ -1967,9 +1965,9 @@ uniffi_macros
 =
 0
 .
-24
+23
 .
-1
+0
 "
 weedle2
 =

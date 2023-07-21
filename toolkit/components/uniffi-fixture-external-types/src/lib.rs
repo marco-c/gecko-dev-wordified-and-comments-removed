@@ -1,12 +1,3 @@
-use
-uniffi_geometry
-:
-:
-{
-Line
-Point
-}
-;
 pub
 fn
 gradient
@@ -15,6 +6,9 @@ value
 :
 Option
 <
+uniffi_geometry
+:
+:
 Line
 >
 )

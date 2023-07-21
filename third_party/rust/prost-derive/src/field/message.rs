@@ -682,14 +682,6 @@ ident
 .
 get_or_insert_with
 (
-:
-:
-core
-:
-:
-default
-:
-:
 Default
 :
 :

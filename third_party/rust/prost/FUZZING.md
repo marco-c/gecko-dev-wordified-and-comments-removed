@@ -44,8 +44,6 @@ on
 it
 :
 cd
-fuzz
-/
 afl
 /
 <
@@ -83,8 +81,6 @@ a
 crash
 :
 cd
-fuzz
-/
 afl
 /
 <

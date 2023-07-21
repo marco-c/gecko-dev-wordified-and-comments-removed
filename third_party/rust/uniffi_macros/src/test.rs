@@ -523,10 +523,6 @@ parse
 :
 :
 ParseStream
-<
-'
-_
->
 )
 -
 >

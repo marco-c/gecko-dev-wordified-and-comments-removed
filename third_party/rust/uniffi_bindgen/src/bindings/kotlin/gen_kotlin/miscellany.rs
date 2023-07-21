@@ -6,6 +6,7 @@ backend
 :
 :
 {
+CodeOracle
 CodeType
 Literal
 }
@@ -37,13 +38,6 @@ literal
 paste
 !
 {
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 T
@@ -58,6 +52,11 @@ type_label
 (
 &
 self
+_oracle
+:
+&
+dyn
+CodeOracle
 )
 -
 >
@@ -74,6 +73,11 @@ canonical_name
 (
 &
 self
+_oracle
+:
+&
+dyn
+CodeOracle
 )
 -
 >
@@ -90,6 +94,11 @@ literal
 (
 &
 self
+_oracle
+:
+&
+dyn
+CodeOracle
 _literal
 :
 &

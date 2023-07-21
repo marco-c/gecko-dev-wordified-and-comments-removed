@@ -24,7 +24,7 @@ return_type
 "
 func
 .
-is_js_async
+is_async
 (
 config
 )

@@ -1,26 +1,9 @@
 class
 FfiConverterUInt16
 (
-FfiConverterPrimitiveInt
+FfiConverterPrimitive
 )
 :
-    
-CLASS_NAME
-=
-"
-u16
-"
-    
-VALUE_MIN
-=
-0
-    
-VALUE_MAX
-=
-2
-*
-*
-16
     
 staticmethod
     
@@ -41,7 +24,7 @@ readU16
 staticmethod
     
 def
-writeUnchecked
+write
 (
 value
 buf

@@ -148,7 +148,7 @@ borrow
 (
 )
 |
-ffi_type_name_by_value
+ffi_type_name
 %
 }
 {

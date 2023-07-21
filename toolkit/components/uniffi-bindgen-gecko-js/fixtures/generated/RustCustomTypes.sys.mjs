@@ -2306,7 +2306,7 @@ callAsync
 /
 custom_types
 :
-uniffi_custom_types_fn_func_get_custom_types_demo
+custom_types_881f_get_custom_types_demo
 FfiConverterOptionalTypeCustomTypesDemo
 .
 lower

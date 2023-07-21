@@ -1,7 +1,7 @@
 class
 FfiConverterDouble
 (
-FfiConverterPrimitiveFloat
+FfiConverterPrimitive
 )
 :
     
@@ -24,7 +24,7 @@ readDouble
 staticmethod
     
 def
-writeUnchecked
+write
 (
 value
 buf

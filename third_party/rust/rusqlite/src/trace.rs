@@ -891,7 +891,6 @@ query_row
 "
 SELECT
 ?
-1
 "
 [
 1i32
@@ -916,7 +915,6 @@ query_row
 "
 SELECT
 ?
-1
 "
 [
 "
@@ -952,7 +950,6 @@ query_row
 "
 SELECT
 ?
-1
 "
 [
 2i32
@@ -977,7 +974,6 @@ query_row
 "
 SELECT
 ?
-1
 "
 [
 "
