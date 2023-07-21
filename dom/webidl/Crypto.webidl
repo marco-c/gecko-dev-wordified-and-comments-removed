@@ -185,17 +185,6 @@ array
 ;
 [
 SecureContext
-Pref
-=
-"
-dom
-.
-crypto
-.
-randomUUID
-.
-enabled
-"
 ]
 UTF8String
 randomUUID
