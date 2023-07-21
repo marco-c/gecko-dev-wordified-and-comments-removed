@@ -601,6 +601,10 @@ tests
 browsertime
 -
 upload
+-
+browsertime
+-
+speculative
 browsertime
 -
 clang
