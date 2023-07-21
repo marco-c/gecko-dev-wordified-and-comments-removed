@@ -77,6 +77,9 @@ namespace
 a11y
 {
 class
+Accessible
+;
+class
 RemoteAccessible
 ;
 enum
@@ -181,7 +184,7 @@ RemoteAccessible
 void
 PlatformEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 uint32_t
@@ -191,7 +194,7 @@ aEventType
 void
 PlatformStateChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 uint64_t
@@ -203,7 +206,7 @@ aEnabled
 void
 PlatformFocusEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const
@@ -215,7 +218,7 @@ aCaretRect
 void
 PlatformCaretMoveEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 int32_t
@@ -233,7 +236,7 @@ aCaretRect
 void
 PlatformTextChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const
@@ -253,10 +256,10 @@ aFromUser
 void
 PlatformShowHideEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
-RemoteAccessible
+Accessible
 *
 aParent
 bool
@@ -268,10 +271,10 @@ aFromUser
 void
 PlatformSelectionEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
-RemoteAccessible
+Accessible
 *
 aWidget
 uint32_t
@@ -287,13 +290,13 @@ ANDROID
 void
 PlatformVirtualCursorChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
-RemoteAccessible
+Accessible
 *
 aOldPosition
-RemoteAccessible
+Accessible
 *
 aNewPosition
 int16_t
@@ -305,7 +308,7 @@ aFromUser
 void
 PlatformScrollingEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 uint32_t
@@ -323,7 +326,7 @@ aMaxScrollY
 void
 PlatformAnnouncementEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const
@@ -357,7 +360,7 @@ TextRangeData
 void
 PlatformTextSelectionChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const
@@ -372,7 +375,7 @@ aSelection
 void
 PlatformRoleChangedEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const

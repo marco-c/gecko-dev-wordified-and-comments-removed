@@ -464,7 +464,7 @@ a11y
 :
 PlatformEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 uint32_t
@@ -526,7 +526,7 @@ a11y
 :
 PlatformStateChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 uint64_t
@@ -684,7 +684,7 @@ a11y
 :
 PlatformFocusEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const
@@ -726,7 +726,7 @@ a11y
 :
 PlatformCaretMoveEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 int32_t
@@ -777,7 +777,7 @@ a11y
 :
 PlatformTextChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const
@@ -834,10 +834,10 @@ a11y
 :
 PlatformShowHideEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
-RemoteAccessible
+Accessible
 *
 aParent
 bool
@@ -853,9 +853,9 @@ a11y
 :
 PlatformSelectionEvent
 (
-RemoteAccessible
+Accessible
 *
-RemoteAccessible
+Accessible
 *
 uint32_t
 )
@@ -867,13 +867,13 @@ a11y
 :
 PlatformVirtualCursorChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
-RemoteAccessible
+Accessible
 *
 aOldPosition
-RemoteAccessible
+Accessible
 *
 aNewPosition
 int16_t
@@ -956,7 +956,7 @@ a11y
 :
 PlatformScrollingEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 uint32_t
@@ -1022,7 +1022,7 @@ a11y
 :
 PlatformAnnouncementEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const
