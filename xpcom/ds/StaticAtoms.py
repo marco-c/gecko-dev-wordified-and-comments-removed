@@ -19864,6 +19864,16 @@ ondevicechange
 Atom
 (
 "
+onrtctransform
+"
+"
+onrtctransform
+"
+)
+    
+Atom
+(
+"
 onmozvisualresize
 "
 "
