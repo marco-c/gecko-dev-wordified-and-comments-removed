@@ -1705,7 +1705,6 @@ aFragment
 aPrefixRestoreAll
 aIsWindowsFragment
 aRestoreAllLabel
-aEntryCount
 aTagName
 )
 {
