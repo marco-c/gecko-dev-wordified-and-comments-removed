@@ -2875,7 +2875,7 @@ fslots
 }
 ;
 struct
-JSObject_Slots6
+JSObject_Slots7
 :
 JSObject
 {
@@ -2892,7 +2892,7 @@ js
 Value
 fslots
 [
-6
+7
 ]
 ;
 }
