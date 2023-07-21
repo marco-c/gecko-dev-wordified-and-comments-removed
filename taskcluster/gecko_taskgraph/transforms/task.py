@@ -1900,6 +1900,22 @@ func
 )
 :
         
+assert
+name
+not
+in
+payload_builders
+f
+"
+duplicate
+payload
+builder
+name
+{
+name
+}
+"
+        
 payload_builders
 [
 name
@@ -1933,6 +1949,22 @@ wrap
 func
 )
 :
+        
+assert
+name
+not
+in
+index_builders
+f
+"
+duplicate
+index
+builder
+name
+{
+name
+}
+"
         
 index_builders
 [
