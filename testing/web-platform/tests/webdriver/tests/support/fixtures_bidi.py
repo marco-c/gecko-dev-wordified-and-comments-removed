@@ -226,14 +226,13 @@ session
 .
 unsubscribe
 (
-                
 events
 =
 events
+                                                   
 contexts
 =
 contexts
-                
 )
         
 except
@@ -471,7 +470,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :
@@ -647,7 +646,6 @@ def
 add_and_remove_iframe
 (
 bidi_session
-inline
 )
 :
     
@@ -693,16 +691,6 @@ def
 closed_frame
 (
 context
-url
-=
-inline
-(
-"
-test
--
-frame
-"
-)
 )
 :
         
@@ -853,6 +841,7 @@ resolve
 id
 )
 )
+;
             
 }
 "
@@ -1177,8 +1166,6 @@ call_function
 function_declaration
 =
 "
-"
-"
 (
 )
 =
@@ -1190,9 +1177,8 @@ window
 getText
 (
 )
+;
 }
-"
-"
 "
             
 target
@@ -2320,6 +2306,7 @@ find
 "
 )
 +
+                                                      
 1
 :
 ]

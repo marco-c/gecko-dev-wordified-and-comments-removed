@@ -1192,6 +1192,7 @@ WeakMap
 )
 "
 {
+            
 "
 type
 "
@@ -1199,6 +1200,7 @@ type
 "
 weakmap
 "
+        
 }
 )
         
@@ -1210,6 +1212,7 @@ WeakSet
 )
 "
 {
+            
 "
 type
 "
@@ -1217,6 +1220,7 @@ type
 "
 weakset
 "
+        
 }
 )
         
@@ -1231,6 +1235,7 @@ SOME_ERROR_TEXT
 )
 "
 {
+            
 "
 type
 "
@@ -1238,6 +1243,7 @@ type
 "
 error
 "
+        
 }
 )
         

@@ -97,8 +97,6 @@ capabilities
 def
 pytest_sessionfinish
 (
-session
-exitstatus
 )
 :
     
@@ -2659,13 +2657,14 @@ getText
 )
 {
   
+const
 pages
 =
 [
 ]
 ;
   
-let
+const
 loadingTask
 =
 pdfjsLib
@@ -2686,7 +2685,7 @@ s
 )
 ;
   
-let
+const
 pdf
 =
 await
@@ -2715,7 +2714,7 @@ pageNumber
 )
 {
     
-let
+const
 page
 =
 await
@@ -2727,6 +2726,7 @@ pageNumber
 )
 ;
     
+const
 textContent
 =
 await
@@ -2735,7 +2735,9 @@ page
 getTextContent
 (
 )
+;
     
+const
 text
 =
 textContent
@@ -2771,6 +2773,7 @@ text
   
 return
 pages
+;
 }
 <
 /

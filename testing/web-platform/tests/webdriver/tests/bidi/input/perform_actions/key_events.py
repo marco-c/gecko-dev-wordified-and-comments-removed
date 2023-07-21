@@ -99,7 +99,6 @@ test_non_printable_key_sends_events
     
 bidi_session
 top_context
-setup_key_test
 key
 event
 )
@@ -961,10 +960,8 @@ async
 def
 test_key_printable_sequence
 (
-    
 bidi_session
 top_context
-setup_key_test
 use_keyup
 )
 :
@@ -975,8 +972,6 @@ Actions
 (
 )
     
-key_source
-=
 actions
 .
 add_key
@@ -1226,8 +1221,8 @@ e
 type
 "
 ]
-is
-not
+!
+=
 "
 keyup
 "
@@ -1617,7 +1612,6 @@ test_key_space
 (
 bidi_session
 top_context
-setup_key_test
 )
 :
     
@@ -1770,7 +1764,6 @@ test_keyup_only_sends_no_events
 (
 bidi_session
 top_context
-setup_key_test
 )
 :
     

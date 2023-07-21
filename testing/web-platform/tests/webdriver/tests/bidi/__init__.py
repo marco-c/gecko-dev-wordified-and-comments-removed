@@ -3,6 +3,7 @@ typing
 import
 Any
 Callable
+Dict
 from
 webdriver
 .
@@ -394,7 +395,11 @@ create_console_api_message
 (
 bidi_session
 context
+:
+str
 text
+:
+str
 )
 :
     
@@ -471,46 +476,13 @@ get_device_pixel_ratio
 (
 bidi_session
 context
+:
+str
 )
-:
-    
-"
-"
-"
-Get
-the
-DPR
-of
-the
-context
-.
-    
-:
-param
-bidi_session
-:
-BiDiSession
-    
-:
-param
-context
-:
-Browsing
-context
-ID
-    
-:
-returns
-:
-(
+-
+>
 float
-)
-devicePixelRatio
-.
-    
-"
-"
-"
+:
     
 result
 =
@@ -669,6 +641,8 @@ get_viewport_dimensions
 (
 bidi_session
 context
+:
+str
 )
 :
     
@@ -762,6 +736,9 @@ remote_mapping_to_dict
 (
 js_object
 )
+-
+>
+Dict
 :
     
 obj

@@ -156,9 +156,11 @@ await
 get_element_rect
 (
 bidi_session
+                                       
 context
 =
 context
+                                       
 element
 =
 element
@@ -170,6 +172,7 @@ await
 get_viewport_rect
 (
 bidi_session
+                                            
 context
 =
 context
@@ -194,6 +197,7 @@ elem_rect
 x
 "
 ]
+                           
 elem_rect
 [
 "
@@ -270,6 +274,7 @@ elem_rect
 y
 "
 ]
+                          
 elem_rect
 [
 "

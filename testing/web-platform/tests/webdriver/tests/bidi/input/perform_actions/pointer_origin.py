@@ -22,27 +22,6 @@ script
 import
 ContextTarget
 from
-tests
-.
-support
-.
-asserts
-import
-assert_move_to_coordinates
-from
-tests
-.
-support
-.
-helpers
-import
-filter_dict
-from
-.
-.
-import
-get_events
-from
 .
 import
 (
@@ -142,6 +121,7 @@ test_viewport_inside
 (
 bidi_session
 top_context
+                               
 get_actions_origin_page
 )
 :
@@ -165,6 +145,7 @@ url
 =
 get_actions_origin_page
 (
+        
 "
 width
 :
@@ -249,10 +230,10 @@ input
 .
 perform_actions
 (
-        
 actions
 =
 actions
+                                             
 context
 =
 top_context
@@ -261,7 +242,6 @@ top_context
 context
 "
 ]
-    
 )
     
 click_coords
@@ -270,6 +250,7 @@ await
 get_click_coordinates
 (
 bidi_session
+                                               
 context
 =
 top_context
@@ -332,6 +313,7 @@ test_pointer_inside
 (
 bidi_session
 top_context
+                              
 get_actions_origin_page
 )
 :
@@ -370,6 +352,7 @@ url
 =
 get_actions_origin_page
 (
+        
 "
 width
 :
@@ -422,16 +405,15 @@ Actions
 )
     
 (
-        
 actions
 .
 add_pointer
 (
 )
-        
 .
 pointer_move
 (
+        
 x
 =
 start_point
@@ -449,7 +431,6 @@ y
 "
 ]
 )
-        
 .
 pointer_move
 (
@@ -461,6 +442,7 @@ offset
 x
 "
 ]
+                                                             
 y
 =
 offset
@@ -469,13 +451,13 @@ offset
 y
 "
 ]
+                                                             
 origin
 =
 "
 pointer
 "
 )
-    
 )
     
 await
@@ -485,10 +467,10 @@ input
 .
 perform_actions
 (
-        
 actions
 =
 actions
+                                             
 context
 =
 top_context
@@ -497,7 +479,6 @@ top_context
 context
 "
 ]
-    
 )
     
 click_coords
@@ -506,6 +487,7 @@ await
 get_click_coordinates
 (
 bidi_session
+                                               
 context
 =
 top_context
@@ -537,6 +519,7 @@ offset
 x
 "
 ]
+                                              
 abs
 =
 1
@@ -570,6 +553,7 @@ offset
 y
 "
 ]
+                                              
 abs
 =
 1
@@ -750,9 +734,11 @@ await
 get_inview_center_bidi
 (
 bidi_session
+                                          
 context
 =
 top_context
+                                          
 element
 =
 elem
@@ -775,9 +761,11 @@ pointer_move
 x
 =
 offset_x
+                                       
 y
 =
 offset_y
+                                       
 origin
 =
 get_element_origin
@@ -793,10 +781,10 @@ input
 .
 perform_actions
 (
-        
 actions
 =
 actions
+                                             
 context
 =
 top_context
@@ -805,7 +793,6 @@ top_context
 context
 "
 ]
-    
 )
     
 click_coords
@@ -814,6 +801,7 @@ await
 get_click_coordinates
 (
 bidi_session
+                                               
 context
 =
 top_context
@@ -878,10 +866,11 @@ async
 def
 test_element_larger_than_viewport
 (
-    
 bidi_session
 top_context
+                                            
 get_actions_origin_page
+                                            
 get_element
 )
 :
@@ -890,6 +879,7 @@ url
 =
 get_actions_origin_page
 (
+        
 "
 width
 :
@@ -952,9 +942,11 @@ await
 get_inview_center_bidi
 (
 bidi_session
+                                          
 context
 =
 top_context
+                                          
 element
 =
 elem
@@ -977,9 +969,11 @@ pointer_move
 x
 =
 0
+                                       
 y
 =
 0
+                                       
 origin
 =
 get_element_origin
@@ -995,10 +989,10 @@ input
 .
 perform_actions
 (
-        
 actions
 =
 actions
+                                             
 context
 =
 top_context
@@ -1007,7 +1001,6 @@ top_context
 context
 "
 ]
-    
 )
     
 click_coords
@@ -1016,6 +1009,7 @@ await
 get_click_coordinates
 (
 bidi_session
+                                               
 context
 =
 top_context

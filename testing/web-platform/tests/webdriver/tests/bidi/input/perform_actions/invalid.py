@@ -300,8 +300,6 @@ Actions
 (
 )
     
-pointer_input_source
-=
 actions
 .
 add_pointer
@@ -420,8 +418,6 @@ Actions
 (
 )
     
-wheel_input_source
-=
 actions
 .
 add_wheel
