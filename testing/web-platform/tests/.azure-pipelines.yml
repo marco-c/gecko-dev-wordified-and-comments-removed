@@ -417,7 +417,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -525,7 +525,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -689,7 +689,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -828,7 +828,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -1395,7 +1395,7 @@ py37
 -
 job
 :
-tools_unittest_mac_py310
+tools_unittest_mac_py311
 displayName
 :
 '
@@ -1408,7 +1408,7 @@ macOS
 Python
 3
 .
-10
+11
 '
 dependsOn
 :
@@ -1450,7 +1450,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -1484,7 +1484,7 @@ tools
 /
 toxenv
 :
-py310
+py311
 -
 job
 :
@@ -1614,7 +1614,7 @@ py37
 -
 job
 :
-wptrunner_unittest_mac_py310
+wptrunner_unittest_mac_py311
 displayName
 :
 '
@@ -1629,7 +1629,7 @@ macOS
 Python
 3
 .
-10
+11
 '
 dependsOn
 :
@@ -1671,7 +1671,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -1707,7 +1707,7 @@ wptrunner
 /
 toxenv
 :
-py310
+py311
 -
 job
 :
@@ -1877,7 +1877,7 @@ py37
 -
 job
 :
-wpt_integration_mac_py310
+wpt_integration_mac_py311
 displayName
 :
 '
@@ -1892,7 +1892,7 @@ macOS
 Python
 3
 .
-10
+11
 '
 dependsOn
 :
@@ -1938,7 +1938,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -2010,7 +2010,7 @@ wpt
 /
 toxenv
 :
-py310
+py311
 -
 job
 :
@@ -2115,7 +2115,7 @@ py37
 -
 job
 :
-tools_unittest_win_py310
+tools_unittest_win_py311
 displayName
 :
 '
@@ -2128,7 +2128,7 @@ Windows
 Python
 3
 .
-10
+11
 '
 dependsOn
 :
@@ -2170,7 +2170,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 addToPath
 :
@@ -2207,7 +2207,7 @@ tools
 /
 toxenv
 :
-py310
+py311
 -
 job
 :
@@ -2311,7 +2311,7 @@ py37
 -
 job
 :
-wptrunner_unittest_win_py310
+wptrunner_unittest_win_py311
 displayName
 :
 '
@@ -2326,7 +2326,7 @@ Windows
 Python
 3
 .
-10
+11
 '
 dependsOn
 :
@@ -2368,7 +2368,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 addToPath
 :
@@ -2407,7 +2407,7 @@ wptrunner
 /
 toxenv
 :
-py310
+py311
 -
 job
 :
@@ -2575,7 +2575,7 @@ py37
 -
 job
 :
-wpt_integration_win_py310
+wpt_integration_win_py311
 displayName
 :
 '
@@ -2590,7 +2590,7 @@ Windows
 Python
 3
 .
-10
+11
 '
 dependsOn
 :
@@ -2636,7 +2636,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 #
 currently
@@ -2735,7 +2735,7 @@ wpt
 /
 toxenv
 :
-py310
+py311
 -
 job
 :
@@ -2856,7 +2856,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -3276,7 +3276,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -3696,7 +3696,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -4103,7 +4103,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -4528,7 +4528,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
@@ -4930,7 +4930,7 @@ versionSpec
 '
 3
 .
-10
+11
 '
 -
 template
