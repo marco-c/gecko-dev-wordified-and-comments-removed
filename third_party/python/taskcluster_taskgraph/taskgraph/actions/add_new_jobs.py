@@ -308,12 +308,7 @@ parameters
             
 decision_task_id
             
-f
-"
-{
 i
-}
-"
         
 )
     

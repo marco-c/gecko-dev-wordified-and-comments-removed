@@ -2,14 +2,8 @@ import
 os
 import
 re
-from
-dataclasses
 import
-dataclass
-from
-typing
-import
-Callable
+attr
 from
 voluptuous
 import
@@ -246,7 +240,9 @@ fetch_builders
 =
 {
 }
-dataclass
+attr
+.
+s
 (
 frozen
 =
@@ -257,12 +253,23 @@ FetchBuilder
 :
     
 schema
-:
+=
+attr
+.
+ib
+(
+type
+=
 Schema
+)
     
 builder
-:
-Callable
+=
+attr
+.
+ib
+(
+)
 def
 fetch_builder
 (
