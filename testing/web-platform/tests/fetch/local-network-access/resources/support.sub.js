@@ -293,7 +293,7 @@ http
 :
 {
 "
-loopback
+local
 "
 :
 {
@@ -308,7 +308,7 @@ http
 }
 }
 "
-local
+private
 "
 :
 {
@@ -348,7 +348,7 @@ https
 :
 {
 "
-loopback
+local
 "
 :
 {
@@ -365,7 +365,7 @@ https
 "
 other
 -
-loopback
+local
 "
 :
 {
@@ -380,7 +380,7 @@ https
 }
 }
 "
-local
+private
 "
 :
 {
@@ -420,7 +420,7 @@ ws
 :
 {
 "
-loopback
+local
 "
 :
 {
@@ -441,7 +441,7 @@ wss
 :
 {
 "
-loopback
+local
 "
 :
 {
@@ -544,7 +544,7 @@ get
 http
 "
 "
-loopback
+local
 "
 )
 ;
@@ -559,7 +559,7 @@ get
 http
 "
 "
-local
+private
 "
 )
 ;
@@ -589,7 +589,7 @@ get
 https
 "
 "
-loopback
+local
 "
 )
 ;
@@ -606,7 +606,7 @@ https
 "
 other
 -
-loopback
+local
 "
 )
 ;
@@ -621,7 +621,7 @@ get
 https
 "
 "
-local
+private
 "
 )
 ;
@@ -651,7 +651,7 @@ get
 ws
 "
 "
-loopback
+local
 "
 )
 ;
@@ -666,7 +666,7 @@ get
 wss
 "
 "
-loopback
+local
 "
 )
 ;
