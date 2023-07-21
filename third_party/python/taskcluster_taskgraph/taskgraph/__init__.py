@@ -1,3 +1,12 @@
+__version__
+=
+"
+5
+.
+7
+.
+0
+"
 MAX_DEPENDENCIES
 =
 99

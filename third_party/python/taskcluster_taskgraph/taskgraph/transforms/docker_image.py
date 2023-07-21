@@ -83,11 +83,11 @@ IMAGE_BUILDER_IMAGE
 (
     
 "
-taskcluster
+mozillareleases
 /
 image_builder
 :
-4
+5
 .
 0
 .
@@ -100,7 +100,7 @@ sha256
 "
     
 "
-866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044
+e510a9a9b80385f71c112d61b2f2053da625aff2b6d430411ac42e424c58953f
 "
 )
 transforms
@@ -779,6 +779,14 @@ public
 "
             
 }
+            
+"
+always
+-
+target
+"
+:
+True
             
 "
 expires
