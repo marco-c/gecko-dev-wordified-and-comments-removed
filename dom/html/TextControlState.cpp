@@ -11861,14 +11861,6 @@ BySetUserInputAPI
 )
 &
 &
-StaticPrefs
-:
-:
-dom_input_events_beforeinput_enabled
-(
-)
-&
-&
 !
 aHandlingSetValue
 .

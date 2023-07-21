@@ -1811,16 +1811,6 @@ HTMLEditor
 (
 )
 {
-if
-(
-StaticPrefs
-:
-:
-dom_input_events_beforeinput_enabled
-(
-)
-)
-{
 Telemetry
 :
 :
@@ -1903,7 +1893,6 @@ MutationObserverHasObservedNodeForTelemetry
 0
 )
 ;
-}
 mPendingStylesToApplyToNewContent
 =
 nullptr
