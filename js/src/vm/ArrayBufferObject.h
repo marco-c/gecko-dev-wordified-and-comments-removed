@@ -2043,7 +2043,8 @@ contents
 }
 }
 ;
-bool
+ArrayBufferObjectMaybeShared
+*
 CreateWasmBuffer
 (
 JSContext
@@ -2056,12 +2057,6 @@ wasm
 MemoryDesc
 &
 memory
-MutableHandle
-<
-ArrayBufferObjectMaybeShared
-*
->
-buffer
 )
 ;
 class
