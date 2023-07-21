@@ -6757,7 +6757,7 @@ base_work_dir
 "
 ]
 "
-cidata
+artifacts
 "
 "
 sccache
