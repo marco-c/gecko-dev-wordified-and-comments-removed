@@ -1344,6 +1344,15 @@ aCodec
 )
 ;
 bool
+IsH265CodecString
+(
+const
+nsAString
+&
+aCodec
+)
+;
+bool
 IsAACCodecString
 (
 const
