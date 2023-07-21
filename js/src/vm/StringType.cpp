@@ -4194,17 +4194,6 @@ JSContext
 maybecx
 )
 {
-MOZ_ASSERT_IF
-(
-maybecx
-maybecx
--
->
-isMainThreadContext
-(
-)
-)
-;
 mozilla
 :
 :

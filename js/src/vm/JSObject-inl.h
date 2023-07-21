@@ -1055,16 +1055,6 @@ MOZ_ASSERT
 cx
 -
 >
-isMainThreadContext
-(
-)
-)
-;
-MOZ_ASSERT
-(
-cx
--
->
 realm
 (
 )

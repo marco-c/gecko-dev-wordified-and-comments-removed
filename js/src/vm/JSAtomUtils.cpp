@@ -3888,16 +3888,6 @@ JSString
 str
 )
 {
-MOZ_ASSERT
-(
-cx
--
->
-isMainThreadContext
-(
-)
-)
-;
 if
 (
 str

@@ -10942,16 +10942,6 @@ SourceCompressionTask
 task
 )
 {
-MOZ_ASSERT
-(
-cx
--
->
-isMainThreadContext
-(
-)
-)
-;
 AutoLockHelperThreadState
 lock
 ;

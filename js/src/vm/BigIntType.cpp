@@ -7600,16 +7600,6 @@ size_t
 nbytes
 )
 {
-MOZ_ASSERT
-(
-cx
--
->
-isMainThreadContext
-(
-)
-)
-;
 if
 (
 bi
