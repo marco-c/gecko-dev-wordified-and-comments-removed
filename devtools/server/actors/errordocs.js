@@ -541,6 +541,12 @@ JSMSG_REDECLARED_VAR
 "
 Redeclared_parameter
 "
+JSMSG_MISMATCHED_PLACEMENT
+:
+"
+Mismatched
+placement
+"
 JSMSG_SET_NON_OBJECT_RECEIVER
 :
 "
