@@ -496,7 +496,7 @@ ZonedDateTimeObject
 *
 >
 >
-relativeTo
+zonedRelativeTo
 JS
 :
 :

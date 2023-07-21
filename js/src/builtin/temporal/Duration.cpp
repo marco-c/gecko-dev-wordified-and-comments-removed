@@ -4811,7 +4811,7 @@ Handle
 ZonedDateTimeObject
 *
 >
-relativeTo
+zonedRelativeTo
 )
 {
 auto
@@ -4819,7 +4819,7 @@ startNs
 =
 ToInstant
 (
-relativeTo
+zonedRelativeTo
 )
 ;
 Rooted
@@ -4829,7 +4829,7 @@ TimeZoneValue
 timeZone
 (
 cx
-relativeTo
+zonedRelativeTo
 -
 >
 timeZone
@@ -4885,7 +4885,7 @@ Handle
 ZonedDateTimeObject
 *
 >
-relativeTo
+zonedRelativeTo
 MutableHandle
 <
 temporal
@@ -4937,7 +4937,7 @@ NanosecondsToDays
 (
 cx
 nanoseconds
-relativeTo
+zonedRelativeTo
 result
 )
 ;
@@ -4980,7 +4980,7 @@ return
 NanosecondsToDaysError
 (
 cx
-relativeTo
+zonedRelativeTo
 )
 ;
 }
@@ -4992,7 +4992,7 @@ ToInstantSpan
 (
 nanoseconds
 )
-relativeTo
+zonedRelativeTo
 result
 )
 ;
