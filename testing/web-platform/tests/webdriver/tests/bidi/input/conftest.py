@@ -12,14 +12,6 @@ modules
 script
 import
 ContextTarget
-from
-tests
-.
-support
-.
-keys
-import
-Keys
 pytest
 .
 fixture

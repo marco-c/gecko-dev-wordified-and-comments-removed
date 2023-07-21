@@ -118,8 +118,8 @@ headers_arg
         
 if
 headers
-!
-=
+is
+not
 None
 :
             

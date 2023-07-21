@@ -117,12 +117,7 @@ target
 =
 ContextTarget
 (
-top_context
-[
-"
 context
-"
-]
 )
         
 else
@@ -132,12 +127,7 @@ target
 =
 ContextTarget
 (
-top_context
-[
-"
 context
-"
-]
 sandbox
 )
         
@@ -303,12 +293,7 @@ target
 =
 ContextTarget
 (
-top_context
-[
-"
 context
-"
-]
 )
         
 else
@@ -318,12 +303,7 @@ target
 =
 ContextTarget
 (
-top_context
-[
-"
 context
-"
-]
 sandbox
 )
         
