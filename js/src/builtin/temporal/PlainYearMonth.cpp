@@ -2792,7 +2792,7 @@ balanceResult
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 duration

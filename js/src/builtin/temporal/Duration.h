@@ -560,7 +560,7 @@ result
 )
 ;
 bool
-BalanceDuration
+BalanceTimeDuration
 (
 JSContext
 *
@@ -577,7 +577,7 @@ result
 )
 ;
 bool
-BalanceDuration
+BalanceTimeDuration
 (
 JSContext
 *

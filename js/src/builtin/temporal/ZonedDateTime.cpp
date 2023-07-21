@@ -4701,7 +4701,7 @@ timeDifference
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 nanosAndDays
