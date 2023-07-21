@@ -46,10 +46,10 @@ namespace
 a11y
 {
 class
-HyperTextAccessibleBase
+HyperTextAccessible
 ;
 class
-HyperTextAccessibleWrap
+HyperTextAccessibleBase
 ;
 class
 ia2AccessibleText
@@ -416,7 +416,7 @@ std
 :
 pair
 <
-HyperTextAccessibleWrap
+HyperTextAccessible
 *
 HRESULT
 >
