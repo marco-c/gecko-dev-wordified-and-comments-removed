@@ -3487,7 +3487,7 @@ ArrayBufferObjectMaybeShared
 )
 )
 {
-HandleArrayBufferObjectMaybeShared
+auto
 buffer
 =
 dataObj
@@ -3654,7 +3654,11 @@ computeAndCheckLength
 JSContext
 *
 cx
-HandleArrayBufferObjectMaybeShared
+Handle
+<
+ArrayBufferObjectMaybeShared
+*
+>
 bufferMaybeUnwrapped
 uint64_t
 byteOffset
@@ -3909,7 +3913,11 @@ fromBufferSameCompartment
 JSContext
 *
 cx
-HandleArrayBufferObjectMaybeShared
+Handle
+<
+ArrayBufferObjectMaybeShared
+*
+>
 buffer
 uint64_t
 byteOffset
@@ -4021,7 +4029,11 @@ return
 nullptr
 ;
 }
-RootedArrayBufferObjectMaybeShared
+Rooted
+<
+ArrayBufferObjectMaybeShared
+*
+>
 unwrappedBuffer
 (
 cx
@@ -4279,7 +4291,7 @@ ArrayBufferObjectMaybeShared
 )
 )
 {
-HandleArrayBufferObjectMaybeShared
+auto
 buffer
 =
 bufobj

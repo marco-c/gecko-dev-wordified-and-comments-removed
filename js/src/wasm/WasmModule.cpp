@@ -3009,7 +3009,11 @@ return
 false
 ;
 }
-RootedArrayBufferObjectMaybeShared
+Rooted
+<
+ArrayBufferObjectMaybeShared
+*
+>
 buffer
 (
 cx
