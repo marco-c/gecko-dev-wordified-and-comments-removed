@@ -178,8 +178,6 @@ utils
 const
 {
 isGeneratedId
-isOriginalId
-originalToGeneratedId
 }
 =
 require

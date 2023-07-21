@@ -1,6 +1,5 @@
 import
 {
-isOriginalId
 originalToGeneratedId
 }
 from
@@ -99,12 +98,9 @@ id
 ;
 if
 (
-isOriginalId
-(
 source
 .
-id
-)
+isOriginal
 )
 {
 sourceId

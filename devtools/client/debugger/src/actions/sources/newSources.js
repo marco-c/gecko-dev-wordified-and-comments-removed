@@ -806,8 +806,6 @@ dispatch
 syncPendingBreakpoint
 (
 source
-.
-id
 pendingBp
 )
 )
