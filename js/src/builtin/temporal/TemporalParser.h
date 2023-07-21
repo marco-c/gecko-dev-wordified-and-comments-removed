@@ -169,15 +169,6 @@ str
 PlainTime
 *
 result
-JS
-:
-:
-MutableHandle
-<
-JSString
-*
->
-calendar
 )
 ;
 bool
