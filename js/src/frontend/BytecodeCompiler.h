@@ -915,6 +915,12 @@ cx
 FrontendContext
 *
 fc
+js
+:
+:
+LifoAlloc
+&
+tempLifoAlloc
 const
 JS
 :
