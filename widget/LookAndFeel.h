@@ -179,9 +179,6 @@ TabFocusModel
 ChosenMenuItemsShouldBlink
 WindowsAccentColorInTitlebar
 WindowsDefaultTheme
-DWMCompositor
-WindowsClassic
-WindowsGlass
 MacGraphiteTheme
 MacBigSurTheme
 MacRTL
@@ -318,12 +315,6 @@ mozilla
 :
 :
 StyleSystemFont
-;
-static
-bool
-WindowsNonNativeMenusEnabled
-(
-)
 ;
 static
 ColorScheme
