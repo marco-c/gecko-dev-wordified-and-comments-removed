@@ -264,13 +264,6 @@ return
 mTransparentSurfaceLock
 ;
 }
-bool
-HasGlass
-(
-)
-const
-override
-;
 nsSizeMode
 GetWindowSizeMode
 (

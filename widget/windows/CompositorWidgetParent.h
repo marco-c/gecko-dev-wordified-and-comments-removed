@@ -217,13 +217,6 @@ IsHidden
 const
 override
 ;
-bool
-HasGlass
-(
-)
-const
-override
-;
 nsSizeMode
 GetWindowSizeMode
 (

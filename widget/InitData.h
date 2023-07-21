@@ -145,7 +145,6 @@ Opaque
 =
 0
 Transparent
-BorderlessGlass
 }
 ;
 struct

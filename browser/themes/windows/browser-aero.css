@@ -295,10 +295,6 @@ InactiveCaptionText
 .
 titlebar
 -
-buttonbox
-.
-titlebar
--
 button
 {
 appearance
@@ -307,12 +303,6 @@ none
 !
 important
 ;
-}
-.
-titlebar
--
-button
-{
 border
 :
 none

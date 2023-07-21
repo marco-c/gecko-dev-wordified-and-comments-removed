@@ -321,15 +321,6 @@ get
 ;
 }
 virtual
-bool
-HasGlass
-(
-)
-const
-=
-0
-;
-virtual
 nsSizeMode
 GetWindowSizeMode
 (

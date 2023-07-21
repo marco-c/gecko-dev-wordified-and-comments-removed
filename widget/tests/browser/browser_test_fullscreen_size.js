@@ -248,14 +248,7 @@ moz
 -
 appearance
 :
--
-moz
--
-win
--
-borderless
--
-glass
+button
 ;
 }
 ;

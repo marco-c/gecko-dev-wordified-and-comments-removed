@@ -289,7 +289,7 @@ widget
 TransparencyMode
 :
 :
-BorderlessGlass
+Transparent
 >
 {
 }
