@@ -8,6 +8,12 @@ bidi
 error
 import
 UnknownErrorException
+from
+.
+.
+.
+import
+any_string
 async
 def
 navigate_and_assert
@@ -104,6 +110,16 @@ url
 =
 =
 url
+        
+any_string
+(
+result
+[
+"
+navigation
+"
+]
+)
         
 contexts
 =
