@@ -4729,7 +4729,7 @@ final
 update
 message
 .
-_closedTabs
+_closingTabMap
 :
 new
 WeakMap
@@ -4781,7 +4781,7 @@ for
 that
 tab
 .
-_closedWindowTabs
+_tabClosingByWindowMap
 :
 new
 WeakMap
@@ -4880,8 +4880,7 @@ from
 the
 /
 /
-_closedTabs
-map
+_closingTabMap
 so
 its
 data
@@ -9155,7 +9154,7 @@ closedTab
 =
 this
 .
-_closedTabs
+_closingTabMap
 .
 get
 (
@@ -9232,7 +9231,7 @@ if
 (
 this
 .
-_closedTabs
+_closingTabMap
 .
 has
 (
@@ -9260,7 +9259,7 @@ tabData
 =
 this
 .
-_closedTabs
+_closingTabMap
 .
 get
 (
@@ -9277,7 +9276,7 @@ updates
 .
 this
 .
-_closedTabs
+_closingTabMap
 .
 delete
 (
@@ -13350,7 +13349,7 @@ permanentKey
 ;
 this
 .
-_closedWindowTabs
+_tabClosingByWindowMap
 .
 set
 (
@@ -13906,7 +13905,7 @@ if
 (
 this
 .
-_closedWindowTabs
+_tabClosingByWindowMap
 .
 has
 (
@@ -13921,7 +13920,7 @@ tabData
 =
 this
 .
-_closedWindowTabs
+_tabClosingByWindowMap
 .
 get
 (
@@ -13944,7 +13943,7 @@ tabData
 ;
 this
 .
-_closedWindowTabs
+_tabClosingByWindowMap
 .
 delete
 (
@@ -18454,7 +18453,7 @@ handler
 .
 this
 .
-_closedTabs
+_closingTabMap
 .
 set
 (
@@ -19857,7 +19856,7 @@ permanentKey
 {
 this
 .
-_closedTabs
+_closingTabMap
 .
 delete
 (
@@ -19868,7 +19867,7 @@ permanentKey
 ;
 this
 .
-_closedWindowTabs
+_tabClosingByWindowMap
 .
 delete
 (
