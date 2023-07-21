@@ -606,6 +606,13 @@ char
 aXPCOMFile
 =
 nullptr
+LibLoadingStrategy
+aLibLoadingStrategy
+=
+LibLoadingStrategy
+:
+:
+NoReadAhead
 )
 {
 Bootstrap
