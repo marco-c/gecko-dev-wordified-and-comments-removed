@@ -256,12 +256,6 @@ x86_64
 endif
 #
 define
-SPOOFED_APPNAME
-"
-Netscape
-"
-#
-define
 LEGACY_BUILD_ID
 "
 20181001000000

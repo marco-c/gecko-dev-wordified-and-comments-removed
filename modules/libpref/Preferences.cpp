@@ -29186,16 +29186,6 @@ PREF_LIST_ENTRY
 "
 general
 .
-appname
-.
-override
-"
-)
-PREF_LIST_ENTRY
-(
-"
-general
-.
 appversion
 .
 override
