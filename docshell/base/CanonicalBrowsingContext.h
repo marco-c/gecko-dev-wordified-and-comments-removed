@@ -199,9 +199,6 @@ enum
 class
 CallState
 ;
-class
-BounceTrackingState
-;
 namespace
 embedding
 {
@@ -1498,14 +1495,6 @@ already_AddRefed
 nsISHEntry
 >
 GetMostRecentLoadingSessionHistoryEntry
-(
-)
-;
-already_AddRefed
-<
-BounceTrackingState
->
-GetBounceTrackingState
 (
 )
 ;
