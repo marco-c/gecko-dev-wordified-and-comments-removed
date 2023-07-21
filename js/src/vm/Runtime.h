@@ -4248,7 +4248,7 @@ moduleDynamicImportHook
 js
 :
 :
-MainThreadOrParseData
+MainThreadData
 <
 JS
 :
