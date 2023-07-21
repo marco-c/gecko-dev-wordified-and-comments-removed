@@ -276,6 +276,7 @@ prepareMessage
 (
 resource
 idGenerator
+persistLogs
 )
 {
 if
@@ -291,6 +292,7 @@ resource
 transformResource
 (
 resource
+persistLogs
 )
 ;
 }
@@ -313,6 +315,7 @@ function
 transformResource
 (
 resource
+persistLogs
 )
 {
 switch
@@ -339,6 +342,7 @@ return
 transformConsoleAPICallResource
 (
 resource
+persistLogs
 )
 ;
 }
@@ -438,6 +442,7 @@ function
 transformConsoleAPICallResource
 (
 consoleMessageResource
+persistLogs
 )
 {
 const
@@ -499,6 +504,12 @@ l10n
 .
 getStr
 (
+persistLogs
+?
+"
+preventedConsoleClear
+"
+:
 "
 consoleCleared
 "
