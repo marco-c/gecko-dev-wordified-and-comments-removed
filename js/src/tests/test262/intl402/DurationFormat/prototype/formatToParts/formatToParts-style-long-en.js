@@ -522,7 +522,6 @@ literal
 value
 :
 "
-and
 "
 }
 {

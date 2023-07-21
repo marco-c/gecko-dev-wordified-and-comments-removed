@@ -580,6 +580,10 @@ module
 -
 code
 /
+import
+-
+assertions
+/
 eval
 -
 gtbndng
