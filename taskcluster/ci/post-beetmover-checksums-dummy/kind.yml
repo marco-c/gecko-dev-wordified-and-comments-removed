@@ -167,11 +167,6 @@ worker
 type
 :
 succeed
-worker
-:
-implementation
-:
-succeed
 devedition
 -
 promote
@@ -214,10 +209,5 @@ devedition
 worker
 -
 type
-:
-succeed
-worker
-:
-implementation
 :
 succeed

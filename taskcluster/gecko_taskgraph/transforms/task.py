@@ -10034,6 +10034,19 @@ in
 tasks
 :
         
+worker
+=
+task
+.
+setdefault
+(
+"
+worker
+"
+{
+}
+)
+        
 if
 "
 implementation
@@ -10111,19 +10124,6 @@ os
 ]
 =
 os
-        
-worker
-=
-task
-.
-setdefault
-(
-"
-worker
-"
-{
-}
-)
         
 worker
 [

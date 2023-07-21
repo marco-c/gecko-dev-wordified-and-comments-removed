@@ -149,11 +149,6 @@ worker
 type
 :
 succeed
-worker
-:
-implementation
-:
-succeed
 notifications
 :
 subject
