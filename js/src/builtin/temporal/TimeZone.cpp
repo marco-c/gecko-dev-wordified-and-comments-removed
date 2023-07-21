@@ -8095,6 +8095,11 @@ CalendarValue
 calendar
 (
 cx
+)
+;
+if
+(
+!
 ToTemporalCalendarWithISODefault
 (
 cx
@@ -8104,13 +8109,9 @@ get
 (
 1
 )
-)
-)
-;
-if
-(
-!
+&
 calendar
+)
 )
 {
 return
