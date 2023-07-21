@@ -437,12 +437,6 @@ defined
 (
 XP_WIN
 )
-#
-if
-defined
-(
-DEBUG
-)
 UtilityProcessImpl
 :
 :
@@ -456,8 +450,6 @@ dll
 "
 )
 ;
-#
-endif
 auto
 rv
 =
