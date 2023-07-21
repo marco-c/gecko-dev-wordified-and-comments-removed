@@ -73,3 +73,14 @@ title
 tooltiptext
 =
 Settings
+#
+#
+Reminder
+Notifications
+notification
+-
+default
+-
+dismiss
+=
+Dismiss
