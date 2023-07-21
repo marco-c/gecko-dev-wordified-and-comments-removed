@@ -98,6 +98,11 @@ MFPMPHostWrapper
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+MFPMPHostWrapper
+)
+;
 LOG
 (
 "
@@ -115,6 +120,11 @@ MFPMPHostWrapper
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+MFPMPHostWrapper
+)
+;
 LOG
 (
 "
