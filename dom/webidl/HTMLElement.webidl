@@ -571,7 +571,7 @@ popover
 enabled
 "
 ]
-undefined
+boolean
 togglePopover
 (
 optional
