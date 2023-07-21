@@ -80,6 +80,8 @@ s2
 type
 ft1
 (
+sub
+(
 func
 (
 param
@@ -94,6 +96,7 @@ result
 ref
 null
 a1
+)
 )
 )
 )
@@ -129,6 +132,8 @@ a2
 type
 ft3
 (
+sub
+(
 func
 (
 param
@@ -140,6 +145,7 @@ a2
 (
 result
 i32
+)
 )
 )
 )
