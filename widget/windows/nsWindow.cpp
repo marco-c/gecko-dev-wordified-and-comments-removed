@@ -12240,17 +12240,6 @@ nsSizeMode_Maximized
 int
 verticalResize
 =
-0
-;
-if
-(
-IsWin10OrLater
-(
-)
-)
-{
-verticalResize
-=
 WinUtils
 :
 :
@@ -12275,7 +12264,6 @@ dpi
 0
 )
 ;
-}
 mNonClientOffset
 .
 top

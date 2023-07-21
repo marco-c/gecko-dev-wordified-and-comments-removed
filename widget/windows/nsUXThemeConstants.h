@@ -604,17 +604,6 @@ WP_Count
 }
 ;
 enum
-FRAMESTATES
-{
-FS_ACTIVE
-=
-1
-FS_INACTIVE
-=
-2
-}
-;
-enum
 {
 BS_NORMAL
 =

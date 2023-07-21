@@ -79,7 +79,6 @@ eUXCombobox
 eUXHeader
 eUXListview
 eUXMenu
-eUXWindowFrame
 eUXNumClasses
 }
 ;

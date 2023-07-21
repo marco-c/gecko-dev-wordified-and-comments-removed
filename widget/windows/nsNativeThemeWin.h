@@ -302,13 +302,6 @@ ThemeNeedsComboboxDropmarker
 )
 override
 ;
-bool
-WidgetAppearanceDependsOnWindowFocus
-(
-StyleAppearance
-)
-override
-;
 nsNativeThemeWin
 (
 )
