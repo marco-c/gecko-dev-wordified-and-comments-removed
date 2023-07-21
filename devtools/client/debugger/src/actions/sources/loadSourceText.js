@@ -557,8 +557,6 @@ getState
 (
 )
 source
-.
-id
 )
 ;
 for

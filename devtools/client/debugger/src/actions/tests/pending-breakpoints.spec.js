@@ -986,8 +986,6 @@ getBreakpointsForSource
 (
 state
 source
-.
-id
 )
 ;
 return

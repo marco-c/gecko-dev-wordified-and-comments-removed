@@ -87,8 +87,6 @@ getBreakpointsForSource
 (
 state
 source
-.
-id
 )
 ;
 const

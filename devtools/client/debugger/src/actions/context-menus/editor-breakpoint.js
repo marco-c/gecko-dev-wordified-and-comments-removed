@@ -1401,8 +1401,6 @@ removeBreakpointsAtLine
 location
 .
 source
-.
-id
 location
 .
 line
@@ -1490,8 +1488,6 @@ enableBreakpointsAtLine
 location
 .
 source
-.
-id
 location
 .
 line
@@ -1570,8 +1566,6 @@ disableBreakpointsAtLine
 location
 .
 source
-.
-id
 location
 .
 line

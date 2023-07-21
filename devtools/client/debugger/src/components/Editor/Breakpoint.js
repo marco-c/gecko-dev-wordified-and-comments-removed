@@ -488,8 +488,6 @@ removeBreakpointsAtLine
 selectedLocation
 .
 source
-.
-id
 selectedLocation
 .
 line
