@@ -43710,7 +43710,7 @@ nullptr
 }
 MDefinition
 *
-MWasmGcObjectIsSubtypeOfAbstract
+MWasmRefIsSubtypeOfAbstract
 :
 :
 foldsTo
@@ -43750,7 +43750,7 @@ this
 }
 MDefinition
 *
-MWasmGcObjectIsSubtypeOfConcrete
+MWasmRefIsSubtypeOfConcrete
 :
 :
 foldsTo
