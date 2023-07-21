@@ -198,7 +198,10 @@ aKey
 )
 ;
 static
+Maybe
+<
 KeyType
+>
 DeserializeKey
 (
 const
