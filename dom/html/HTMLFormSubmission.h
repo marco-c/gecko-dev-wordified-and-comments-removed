@@ -386,13 +386,6 @@ DialogFormSubmission
 nsAString
 &
 aResult
-nsIURI
-*
-aActionURL
-const
-nsAString
-&
-aTarget
 NotNull
 <
 const
@@ -407,8 +400,11 @@ aDialogElement
 :
 HTMLFormSubmission
 (
-aActionURL
-aTarget
+nullptr
+u
+"
+"
+_ns
 aEncoding
 )
 mDialogElement
