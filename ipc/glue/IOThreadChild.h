@@ -62,8 +62,14 @@ ChildThread
 {
 public
 :
+explicit
 IOThreadChild
 (
+base
+:
+:
+ProcessId
+aParentPid
 )
 :
 ChildThread
@@ -82,6 +88,7 @@ MessageLoop
 TYPE_IO
 0
 )
+aParentPid
 )
 {
 }

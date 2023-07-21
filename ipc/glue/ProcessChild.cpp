@@ -162,6 +162,7 @@ ChildProcess
 new
 IOThreadChild
 (
+aParentPid
 )
 )
 mUILoop

@@ -4001,6 +4001,9 @@ mHandle
 aIntroduction
 .
 mMode
+aIntroduction
+.
+mOtherPid
 )
 ;
 auto
@@ -4989,7 +4992,10 @@ IPC
 Channel
 >
 aChannel
-int32_t
+base
+:
+:
+ProcessId
 aParentPid
 )
 {

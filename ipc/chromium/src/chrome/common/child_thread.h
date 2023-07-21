@@ -71,7 +71,6 @@ Thread
 {
 public
 :
-explicit
 ChildThread
 (
 Thread
@@ -79,6 +78,11 @@ Thread
 :
 Options
 options
+base
+:
+:
+ProcessId
+parent_pid
 )
 ;
 virtual
@@ -162,6 +166,12 @@ Thread
 :
 Options
 options_
+;
+base
+:
+:
+ProcessId
+parent_pid_
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
