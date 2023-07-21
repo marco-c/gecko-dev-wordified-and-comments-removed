@@ -178,7 +178,7 @@ release
 ]
 debug
 =
-true
+2
 [
 lib
 ]
