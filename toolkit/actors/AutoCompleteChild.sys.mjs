@@ -721,6 +721,13 @@ _popupOpen
 |
 !
 input
+|
+|
+!
+element
+?
+.
+isConnected
 )
 {
 return
