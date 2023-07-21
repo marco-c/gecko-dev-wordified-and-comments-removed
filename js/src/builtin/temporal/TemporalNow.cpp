@@ -1079,8 +1079,7 @@ calendarLike
 {
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -1199,8 +1198,7 @@ calendarLike
 {
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (

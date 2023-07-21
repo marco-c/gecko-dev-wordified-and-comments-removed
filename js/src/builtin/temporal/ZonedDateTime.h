@@ -40,6 +40,17 @@ builtin
 /
 temporal
 /
+TimeZone
+.
+h
+"
+#
+include
+"
+builtin
+/
+temporal
+/
 Wrapped
 .
 h
@@ -243,8 +254,7 @@ return
 nanoseconds
 ;
 }
-JSObject
-*
+TimeZoneValue
 timeZone
 (
 )
@@ -344,8 +354,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -373,8 +382,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -413,8 +421,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -540,8 +547,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 TemporalDisambiguation

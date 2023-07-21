@@ -2229,8 +2229,7 @@ zonedDateTime
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -11012,8 +11011,7 @@ calendar
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (

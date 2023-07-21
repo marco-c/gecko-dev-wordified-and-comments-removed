@@ -4692,8 +4692,7 @@ InstantObject
 instant
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 Precision
@@ -4702,8 +4701,7 @@ precision
 {
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 outputTimeZone
 (
@@ -7415,8 +7413,7 @@ InstantObject
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -7837,8 +7834,7 @@ InstantObject
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -7964,8 +7960,7 @@ InstantObject
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -8297,8 +8292,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -8432,8 +8426,7 @@ InstantObject
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
