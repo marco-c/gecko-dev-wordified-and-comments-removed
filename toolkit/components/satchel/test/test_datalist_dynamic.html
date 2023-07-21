@@ -161,9 +161,9 @@ TestUtils
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -176,7 +176,9 @@ common
 /
 TestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
