@@ -1186,11 +1186,17 @@ format
 =
 json
 >
+'
+(
+UPLOAD_PATH
+)
+/
 sccache
 -
 stats
 .
 json
+'
 echo
 "
 =
