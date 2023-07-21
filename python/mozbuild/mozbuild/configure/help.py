@@ -499,10 +499,14 @@ append
 option
 )
         
+if
+options_by_category
+:
+            
 options_formatted
 =
 [
-            
+                
 "
 Options
 :
@@ -514,7 +518,7 @@ after
 descriptions
 ]
 "
-        
+            
 ]
 +
 self
@@ -524,24 +528,44 @@ format_options_by_category
 options_by_category
 )
         
+else
+:
+            
+options_formatted
+=
+[
+]
+        
+if
+env_by_category
+:
+            
 env_formatted
 =
 [
+                
 "
 Environment
 variables
 :
 "
+            
 ]
 +
 self
 .
 format_options_by_category
 (
-            
 env_by_category
-        
 )
+        
+else
+:
+            
+env_formatted
+=
+[
+]
         
 print
 (
@@ -565,6 +589,7 @@ join
 (
 t
 )
+                
 for
 t
 in
@@ -575,6 +600,9 @@ intro
 options_formatted
 env_formatted
 )
+                
+if
+t
             
 )
             
