@@ -2571,9 +2571,7 @@ SideBits
 :
 :
 eNone
-ScrollDirections
-(
-)
+EitherScrollDirection
 }
 )
 )
