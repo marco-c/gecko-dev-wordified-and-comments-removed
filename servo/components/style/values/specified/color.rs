@@ -877,7 +877,6 @@ Threedshadow
 Window
 Windowframe
 Windowtext
-MozButtondefault
 #
 [
 parse

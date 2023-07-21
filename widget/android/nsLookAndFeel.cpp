@@ -921,12 +921,6 @@ ColorID
 :
 Threeddarkshadow
 :
-case
-ColorID
-:
-:
-MozButtondefault
-:
 aColor
 =
 NS_RGB
