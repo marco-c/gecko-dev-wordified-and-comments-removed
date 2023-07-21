@@ -434,6 +434,21 @@ split
 0
 ]
                     
+test_path
+=
+test_path
+.
+split
+(
+"
+:
+"
+)
+[
+-
+1
+]
+                    
 if
 "
 web
@@ -491,6 +506,21 @@ l
 "
 test
 "
+]
+                    
+test_path
+=
+test_path
+.
+split
+(
+"
+:
+"
+)
+[
+-
+1
 ]
                     
 if
