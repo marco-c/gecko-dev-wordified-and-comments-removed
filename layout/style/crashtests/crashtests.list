@@ -2153,6 +2153,15 @@ paintWorklet
 enabled
 true
 )
+pref
+(
+dom
+.
+worklet
+.
+enabled
+true
+)
 load
 1593766
 .

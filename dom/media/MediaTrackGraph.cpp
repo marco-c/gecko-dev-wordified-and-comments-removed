@@ -17533,6 +17533,14 @@ OFFLINE_THREAD_DRIVER
 &
 &
 (
+StaticPrefs
+:
+:
+dom_audioworklet_enabled
+(
+)
+|
+|
 Preferences
 :
 :

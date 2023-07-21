@@ -146,6 +146,15 @@ Exposed
 =
 Window
 SecureContext
+Pref
+=
+"
+dom
+.
+audioworklet
+.
+enabled
+"
 ]
 interface
 AudioWorklet
