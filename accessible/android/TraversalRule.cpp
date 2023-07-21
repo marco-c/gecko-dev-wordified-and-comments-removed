@@ -901,12 +901,6 @@ case
 roles
 :
 :
-BUTTONDROPDOWNGRID
-:
-case
-roles
-:
-:
 COMBOBOX
 :
 case
@@ -1161,12 +1155,6 @@ FILTER_MATCH
 }
 break
 ;
-case
-roles
-:
-:
-HEADER
-:
 case
 roles
 :
