@@ -16,6 +16,7 @@ window
 test
 =
 function
+originalTestName
 (
 )
 {
