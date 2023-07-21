@@ -231,24 +231,10 @@ for
 category
 options
 in
-sorted
-(
-            
 options_by_category
 .
 items
 (
-)
-key
-=
-lambda
-x
-:
-x
-[
-0
-]
-        
 )
 :
             
@@ -269,18 +255,7 @@ category
 for
 option
 in
-sorted
-(
 options
-key
-=
-lambda
-opt
-:
-opt
-.
-option
-)
 :
                 
 opt
