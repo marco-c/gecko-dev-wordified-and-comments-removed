@@ -133,6 +133,9 @@ StartVideoSuspendTimer
 CancelVideoSuspendTimer
 VideoOnlySeekBegin
 VideoOnlySeekCompleted
+AudioSinkAudioGapDetected
+SuspendedMediaSink
+ResumedMediaSink
 }
 mType
 ;

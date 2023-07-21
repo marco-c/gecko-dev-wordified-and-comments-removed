@@ -619,6 +619,13 @@ aAudible
 )
 ;
 void
+OnAudioSinkAudioGapDetected
+(
+int64_t
+aGapFrames
+)
+;
+void
 SetPlaybackRate
 (
 double
@@ -1231,6 +1238,9 @@ mAudibleListener
 ;
 MediaEventListener
 mOnMediaNotSeekable
+;
+MediaEventListener
+mAudioSinkAudioGapListener
 ;
 const
 bool

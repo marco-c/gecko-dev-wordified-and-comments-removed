@@ -2055,6 +2055,13 @@ IsVideoDecodingSuspended
 )
 const
 ;
+void
+SetSuspend
+(
+bool
+aSuspend
+)
+;
 double
 TotalVideoPlayTime
 (
