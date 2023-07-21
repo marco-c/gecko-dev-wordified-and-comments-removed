@@ -534,6 +534,11 @@ mEncoderPadding
 =
 0
 ;
+int32_t
+mRemainingEncoderPadding
+=
+0
+;
 bool
 mEOS
 =
