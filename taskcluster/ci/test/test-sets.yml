@@ -2307,11 +2307,15 @@ live
 -
 browsertime
 -
+benchmark
+-
 speedometer
 -
 mobile
 -
 browsertime
+-
+benchmark
 -
 speedometer3
 -
@@ -2326,6 +2330,8 @@ playback
 mobile
 -
 browsertime
+-
+benchmark
 -
 unity
 -

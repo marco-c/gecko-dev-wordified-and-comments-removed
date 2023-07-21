@@ -7950,6 +7950,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 speedometer
 -
 mobile
@@ -7968,6 +7970,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 speedometer
 -
@@ -8054,6 +8058,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 speedometer
 -
 mobile
@@ -8075,6 +8081,8 @@ nofis
 *
 browsertime
 -
+benchmark
+-
 speedometer
 -
 mobile
@@ -8093,6 +8101,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 speedometer
 -
@@ -9374,6 +9384,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 speedometer
 -
 mobile
@@ -9392,6 +9404,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 speedometer
 -
@@ -9478,6 +9492,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 speedometer
 -
 mobile
@@ -9499,6 +9515,8 @@ nofis
 *
 browsertime
 -
+benchmark
+-
 speedometer
 -
 mobile
@@ -9517,6 +9535,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 speedometer
 -
@@ -10927,6 +10947,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 speedometer3
 -
 mobile
@@ -10945,6 +10967,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 speedometer3
 -
@@ -11031,6 +11055,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 speedometer3
 -
 mobile
@@ -11052,6 +11078,8 @@ nofis
 *
 browsertime
 -
+benchmark
+-
 speedometer3
 -
 mobile
@@ -11070,6 +11098,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 speedometer3
 -
@@ -12451,6 +12481,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 speedometer3
 -
 mobile
@@ -12469,6 +12501,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 speedometer3
 -
@@ -12555,6 +12589,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 speedometer3
 -
 mobile
@@ -12576,6 +12612,8 @@ nofis
 *
 browsertime
 -
+benchmark
+-
 speedometer3
 -
 mobile
@@ -12594,6 +12632,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 speedometer3
 -
@@ -17339,6 +17379,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 unity
 -
 webgl
@@ -17359,6 +17401,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 unity
 -
@@ -17447,6 +17491,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 unity
 -
 webgl
@@ -17470,6 +17516,8 @@ nofis
 *
 browsertime
 -
+benchmark
+-
 unity
 -
 webgl
@@ -17490,6 +17538,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 unity
 -
@@ -18790,6 +18840,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 unity
 -
 webgl
@@ -18810,6 +18862,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 unity
 -
@@ -18898,6 +18952,8 @@ beta
 *
 browsertime
 -
+benchmark
+-
 unity
 -
 webgl
@@ -18921,6 +18977,8 @@ nofis
 *
 browsertime
 -
+benchmark
+-
 unity
 -
 webgl
@@ -18941,6 +18999,8 @@ nofis
 *
 *
 browsertime
+-
+benchmark
 -
 unity
 -
