@@ -21,7 +21,7 @@ mozdevice
 .
 1
 .
-0
+1
 mozinstall
 =
 =
