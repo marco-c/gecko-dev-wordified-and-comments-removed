@@ -110,16 +110,6 @@ NS_DECL_ISUPPORTS_INHERITED
 public
 :
 virtual
-nsresult
-HandleAccEvent
-(
-AccEvent
-*
-aEvent
-)
-override
-;
-virtual
 void
 Shutdown
 (

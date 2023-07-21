@@ -117,16 +117,6 @@ aOutAccessible
 )
 override
 ;
-virtual
-nsresult
-HandleAccEvent
-(
-AccEvent
-*
-aEvent
-)
-override
-;
 AtkObject
 *
 GetAtkObject

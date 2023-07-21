@@ -419,15 +419,6 @@ aEventType
 nsIAccessibleEvent
 :
 :
-EVENT_TEXT_CARET_MOVED
-&
-&
-aEventType
-!
-=
-nsIAccessibleEvent
-:
-:
 EVENT_DOCUMENT_LOAD_COMPLETE
 &
 &
