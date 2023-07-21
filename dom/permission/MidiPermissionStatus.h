@@ -31,9 +31,9 @@ PermissionStatus
 public
 :
 static
-already_AddRefed
+RefPtr
 <
-PermissionStatus
+CreatePromise
 >
 Create
 (
@@ -42,9 +42,6 @@ nsPIDOMWindowInner
 aWindow
 bool
 aSysex
-ErrorResult
-&
-aRv
 )
 ;
 private
@@ -64,7 +61,6 @@ bool
 aSysex
 )
 ;
-virtual
 nsLiteralCString
 GetPermissionType
 (
