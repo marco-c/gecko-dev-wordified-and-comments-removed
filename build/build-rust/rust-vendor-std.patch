@@ -236,7 +236,7 @@ file
 +
 /
 /
-libtest
+libsysroot
 includes
 std
 and
@@ -289,7 +289,7 @@ we
 copy
 it
 to
-libtest
+libsysroot
 temporarily
 .
 +
@@ -331,7 +331,7 @@ patchable
 .
 +
 let
-dst_libtest
+dst_libsysroot
 =
 dst_src
 .
@@ -340,7 +340,7 @@ join
 "
 library
 /
-test
+sysroot
 "
 )
 ;
@@ -376,7 +376,7 @@ lock
 let
 temp_lock
 =
-dst_libtest
+dst_libsysroot
 .
 join
 (
@@ -408,7 +408,7 @@ isn
 t
 used
 by
-libtest
+libsysroot
 so
 we
 need
@@ -464,7 +464,7 @@ dst_vendor
 current_dir
 (
 &
-dst_libtest
+dst_libsysroot
 )
 ;
 +
