@@ -9088,7 +9088,7 @@ true
 }
 static
 bool
-ResolveISOMonth
+ISOResolveMonth
 (
 JSContext
 *
@@ -9520,7 +9520,7 @@ month
 if
 (
 !
-ResolveISOMonth
+ISOResolveMonth
 (
 cx
 fields
@@ -10332,7 +10332,7 @@ month
 if
 (
 !
-ResolveISOMonth
+ISOResolveMonth
 (
 cx
 fields
@@ -11021,7 +11021,7 @@ false
 if
 (
 !
-ResolveISOMonth
+ISOResolveMonth
 (
 cx
 fields
