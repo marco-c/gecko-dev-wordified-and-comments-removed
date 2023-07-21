@@ -1152,14 +1152,10 @@ weather
 ;
 if
 (
-rs
 !
-=
-lazy
+this
 .
-QuickSuggestRemoteSettings
-.
-rs
+isEnabled
 )
 {
 return
