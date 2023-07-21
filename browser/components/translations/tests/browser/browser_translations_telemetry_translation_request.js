@@ -163,7 +163,7 @@ translations
 .
 translationRequest
 {
-expectedLength
+expectedEventCount
 :
 0
 }
@@ -422,7 +422,7 @@ translations
 .
 translationRequest
 {
-expectedLength
+expectedEventCount
 :
 1
 finalValuePredicates
@@ -715,7 +715,7 @@ translations
 .
 translationRequest
 {
-expectedLength
+expectedEventCount
 :
 1
 finalValuePredicates
