@@ -10099,7 +10099,7 @@ internalNames
 =
 {
 "
-IsTypedArrayEnsuringArrayBuffer
+EnsureTypedArrayWithArrayBuffer
 "
 "
 RegExpSearchSlowPath
