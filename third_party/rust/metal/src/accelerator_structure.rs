@@ -11,7 +11,15 @@ bitflags
 [
 derive
 (
+Copy
+Clone
+Debug
 Default
+Hash
+PartialEq
+Eq
+PartialOrd
+Ord
 )
 ]
 pub

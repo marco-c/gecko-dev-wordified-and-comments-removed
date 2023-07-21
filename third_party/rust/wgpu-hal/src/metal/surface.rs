@@ -100,6 +100,13 @@ macos
 ]
 #
 [
+cfg_attr
+(
+feature
+=
+"
+link
+"
 link
 (
 name
@@ -112,6 +119,7 @@ kind
 "
 framework
 "
+)
 )
 ]
 extern
