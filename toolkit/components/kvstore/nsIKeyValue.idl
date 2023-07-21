@@ -274,6 +274,8 @@ databases
 /
 [
 scriptable
+builtinclass
+rust_sync
 uuid
 (
 46c893dd
@@ -445,6 +447,8 @@ methods
 /
 [
 scriptable
+builtinclass
+rust_sync
 uuid
 (
 c449398e
@@ -1243,6 +1247,8 @@ directly
 /
 [
 scriptable
+builtinclass
+rust_sync
 uuid
 (
 b9ba7116
