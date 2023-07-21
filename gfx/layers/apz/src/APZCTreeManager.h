@@ -1605,7 +1605,7 @@ aGuid
 const
 ;
 LayerToParentLayerMatrix4x4
-ComputeTransformForNode
+ComputeTransformForScrollThumbNode
 (
 const
 HitTestingTreeNode
