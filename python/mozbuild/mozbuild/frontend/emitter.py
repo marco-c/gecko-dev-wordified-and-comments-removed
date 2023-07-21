@@ -2288,6 +2288,14 @@ in
 self
 .
 _libs
+and
+"
+mfbt
+"
+in
+self
+.
+_libs
 :
                     
 self
