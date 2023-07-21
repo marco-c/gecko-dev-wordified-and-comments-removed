@@ -13098,14 +13098,6 @@ else
 if
 (
 aBodyIsDocumentOrString
-&
-&
-StaticPrefs
-:
-:
-dom_xhr_standard_content_type_normalization
-(
-)
 )
 {
 UniquePtr
