@@ -491,6 +491,12 @@ cmake
 "
 vcpkg
 "
+    
+"
+windows
+-
+targets
+"
 ]
 TOLERATED_DUPES
 =
