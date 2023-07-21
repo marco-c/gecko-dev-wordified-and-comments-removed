@@ -5,7 +5,10 @@ cfg_if
 cfg_if
 ;
 use
-instant
+std
+:
+:
+time
 :
 :
 Instant
@@ -265,10 +268,10 @@ feature
 "
 nightly
 "
-target_arch
+target_family
 =
 "
-wasm32
+wasm
 "
 target_feature
 =
@@ -299,10 +302,10 @@ if
 [
 cfg
 (
-target_arch
+target_family
 =
 "
-wasm32
+wasm
 "
 )
 ]
