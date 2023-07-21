@@ -1,10 +1,14 @@
 import
 collections
+from
+dataclasses
 import
-attr
-attr
-.
-s
+dataclass
+from
+typing
+import
+FrozenSet
+dataclass
 (
 frozen
 =
@@ -147,26 +151,12 @@ right
 "
     
 nodes
-=
-attr
-.
-ib
-(
-converter
-=
-frozenset
-)
+:
+FrozenSet
     
 edges
-=
-attr
-.
-ib
-(
-converter
-=
-frozenset
-)
+:
+FrozenSet
     
 def
 transitive_closure
