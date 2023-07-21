@@ -1289,9 +1289,9 @@ mExpandedReader
 bool
 CallerCanRead
 (
-JSContext
-*
-aCx
+nsIPrincipal
+&
+aPrincipal
 )
 const
 ;
