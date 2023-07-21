@@ -8364,14 +8364,3 @@ Show
 {
 popupURI
 }
-#
-#
-Reminder
-Notifications
-notification
--
-default
--
-dismiss
-=
-Dismiss
