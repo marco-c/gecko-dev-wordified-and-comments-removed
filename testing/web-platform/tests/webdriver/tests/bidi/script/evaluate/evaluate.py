@@ -24,7 +24,7 @@ mark
 asyncio
 async
 def
-test_eval
+test_evaluate
 (
 bidi_session
 top_context
