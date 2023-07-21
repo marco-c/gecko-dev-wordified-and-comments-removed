@@ -2382,7 +2382,11 @@ SharedArrayBufferObject
 :
 wasmDiscard
 (
-HandleSharedArrayBufferObject
+Handle
+<
+SharedArrayBufferObject
+*
+>
 buf
 uint64_t
 byteOffset
