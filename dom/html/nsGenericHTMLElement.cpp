@@ -17456,6 +17456,10 @@ false
 wasShowingOrHiding
 )
 ;
+AssertPopoverAttributeStateCorrespondsToAttributePresence
+(
+)
+;
 if
 (
 GetPopoverAttributeState
@@ -17598,6 +17602,10 @@ aInvoker
 ;
 }
 FocusPopover
+(
+)
+;
+AssertPopoverAttributeStateCorrespondsToAttributePresence
 (
 )
 ;
