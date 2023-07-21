@@ -464,7 +464,7 @@ to_percentage
 )
 mix
 .
-normalize_weights
+flags
 )
 }
 }
