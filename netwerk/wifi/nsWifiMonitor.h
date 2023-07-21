@@ -151,7 +151,7 @@ ifdef
 XP_MACOSX
 #
 define
-kMacOS13MonitorStackSize
+kMacOSWifiMonitorStackSize
 (
 512
 *
