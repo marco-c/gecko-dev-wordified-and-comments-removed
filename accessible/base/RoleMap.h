@@ -8,7 +8,7 @@ nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_CLIENT
 IA2_ROLE_UNKNOWN
 java
 :
@@ -104,7 +104,7 @@ nullptr
 ATK_ROLE_INTERNAL_FRAME
 NSAccessibilityScrollAreaRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_INTERNAL_FRAME
 java
 :
@@ -1063,7 +1063,7 @@ nullptr
 ATK_ROLE_CANVAS
 NSAccessibilityImageRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GRAPHIC
 IA2_ROLE_CANVAS
 java
 :
@@ -1113,7 +1113,7 @@ ATK_ROLE_DATE_EDITOR
 AXGroup
 "
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_DATE_EDITOR
 java
 :
@@ -1229,7 +1229,7 @@ generic
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_TEXT_FRAME
 java
 :
@@ -1303,7 +1303,7 @@ paragraph
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_PARAGRAPH
 java
 :
@@ -1351,7 +1351,7 @@ caption
 ATK_ROLE_CAPTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_CAPTION
 java
 :
@@ -1406,7 +1406,7 @@ ATK_ROLE_HEADING
 AXHeading
 "
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_HEADING
 java
 :
@@ -1430,7 +1430,7 @@ generic
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_SECTION
 java
 :
@@ -1454,7 +1454,7 @@ form
 ATK_ROLE_FORM
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_FORM
 java
 :
@@ -1727,7 +1727,7 @@ NSAccessibilityGroupRole
 "
 AXDocumentNote
 "
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_NOTE
 java
 :
@@ -1843,7 +1843,7 @@ NSAccessibilityGroupRole
 "
 AXDescription
 "
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_PARAGRAPH
 java
 :
@@ -2718,7 +2718,7 @@ generic
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_TEXT_FRAME
 java
 :
@@ -2788,7 +2788,7 @@ nullptr
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_LANDMARK
 java
 :
@@ -2811,7 +2811,7 @@ NSAccessibilityGroupRole
 "
 AXLandmarkNavigation
 "
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_LANDMARK
 java
 :
@@ -2832,7 +2832,7 @@ nullptr
 ATK_ROLE_FOOTNOTE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_FOOTNOTE
 java
 :
@@ -2884,7 +2884,7 @@ NSAccessibilityGroupRole
 "
 AXLandmarkRegion
 "
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_LANDMARK
 java
 :
@@ -2959,7 +2959,7 @@ NSAccessibilityGroupRole
 "
 AXDeleteStyleGroup
 "
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_CONTENT_DELETION
 java
 :
@@ -2986,7 +2986,7 @@ NSAccessibilityGroupRole
 "
 AXInsertStyleGroup
 "
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_CONTENT_INSERTION
 java
 :
@@ -3012,7 +3012,7 @@ NSAccessibilityGroupRole
 "
 AXLandmarkForm
 "
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_FORM
 java
 :
@@ -3036,7 +3036,7 @@ mark
 ATK_ROLE_MARK
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_MARK
 java
 :
@@ -3060,7 +3060,7 @@ suggestion
 ATK_ROLE_SUGGESTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_SUGGESTION
 java
 :
@@ -3084,7 +3084,7 @@ comment
 ATK_ROLE_COMMENT
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_COMMENT
 java
 :
@@ -3110,7 +3110,7 @@ NSAccessibilityGroupRole
 "
 AXCodeStyleGroup
 "
-USE_ROLE_STRING
+ROLE_SYSTEM_GROUPING
 IA2_ROLE_TEXT_FRAME
 java
 :
