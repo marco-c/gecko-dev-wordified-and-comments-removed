@@ -105,6 +105,10 @@ type
 "
 desktop
 "
+tabs
+:
+[
+]
 }
 {
 id
@@ -121,6 +125,10 @@ type
 "
 mobile
 "
+tabs
+:
+[
+]
 }
 ]
 )
