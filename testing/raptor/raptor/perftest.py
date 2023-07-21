@@ -3272,6 +3272,27 @@ playback
 "
 )
         
+playback_manifest
+=
+test
+.
+get
+(
+"
+playback_pageset_manifest
+"
+)
+        
+playback_manifests
+=
+playback_manifest
+.
+split
+(
+"
+"
+)
+        
 self
 .
 config
@@ -3327,15 +3348,13 @@ path
 join
 (
 playback_dir
-test
-.
-get
-(
-"
-playback_pageset_manifest
-"
+manifest
 )
-)
+                    
+for
+manifest
+in
+playback_manifests
                 
 ]
             
