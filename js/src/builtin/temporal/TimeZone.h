@@ -25,17 +25,6 @@ builtin
 /
 temporal
 /
-Calendar
-.
-h
-"
-#
-include
-"
-builtin
-/
-temporal
-/
 Wrapped
 .
 h
@@ -325,6 +314,9 @@ Instant
 ;
 struct
 PlainDateTime
+;
+class
+CalendarValue
 ;
 class
 InstantObject

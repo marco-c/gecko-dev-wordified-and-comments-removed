@@ -185,14 +185,12 @@ calendar
 const
 {
 return
-&
+CalendarValue
+(
 getFixedSlot
 (
 CALENDAR_SLOT
 )
-.
-toObject
-(
 )
 ;
 }
