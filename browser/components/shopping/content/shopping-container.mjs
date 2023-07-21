@@ -636,6 +636,16 @@ rating
 review
 -
 highlights
+.
+highlights
+=
+{
+this
+.
+data
+.
+highlights
+}
 >
 <
 /
