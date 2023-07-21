@@ -1,6 +1,5 @@
-window
-.
-script_callback
+alert
 (
+1
 )
 ;
