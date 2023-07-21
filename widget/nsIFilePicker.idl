@@ -135,6 +135,12 @@ filterVideo
 =
 0x200
 ;
+const
+long
+filterPDF
+=
+0x400
+;
 cenum
 CaptureTarget
 :
