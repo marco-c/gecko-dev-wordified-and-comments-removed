@@ -31826,6 +31826,13 @@ cx
 JSStructuredCloneReader
 *
 r
+const
+JS
+:
+:
+CloneDataPolicy
+&
+cloneDataPolicy
 uint32_t
 tag
 void
