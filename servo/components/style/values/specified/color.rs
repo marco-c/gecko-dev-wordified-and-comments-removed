@@ -973,6 +973,10 @@ in_ua_or_chrome_sheet
 MozMenuhoverdisabled
 MozMenuhovertext
 MozMenubarhovertext
+MozHeaderbar
+MozHeaderbartext
+MozHeaderbarinactive
+MozHeaderbarinactivetext
 MozEventreerow
 MozOddtreerow
 #
