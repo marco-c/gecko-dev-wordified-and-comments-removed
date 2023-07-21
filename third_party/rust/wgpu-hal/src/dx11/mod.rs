@@ -237,7 +237,6 @@ weak_com_inheritance_chain
 derive
 (
 Debug
-Copy
 Clone
 PartialEq
 )

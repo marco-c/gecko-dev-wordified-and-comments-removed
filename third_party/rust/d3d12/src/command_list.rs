@@ -6,7 +6,7 @@ crate
 com
 :
 :
-WeakPtr
+ComPtr
 resource
 :
 :
@@ -96,6 +96,20 @@ D3D12_COMMAND_LIST_TYPE_COPY
 bitflags
 !
 {
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+Eq
+Hash
+Ord
+PartialEq
+PartialOrd
+)
+]
 pub
 struct
 ClearFlags
@@ -725,7 +739,7 @@ pub
 type
 CommandSignature
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :
@@ -737,7 +751,7 @@ pub
 type
 CommandList
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :
@@ -749,7 +763,7 @@ pub
 type
 GraphicsCommandList
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :
@@ -818,6 +832,7 @@ reset
 self
 allocator
 :
+&
 CommandAllocator
 initial_pso
 :
@@ -1305,6 +1320,7 @@ set_pipeline_state
 self
 pso
 :
+&
 PipelineState
 )
 {
@@ -1402,6 +1418,7 @@ set_compute_root_signature
 self
 signature
 :
+&
 RootSignature
 )
 {
@@ -1428,6 +1445,7 @@ set_graphics_root_signature
 self
 signature
 :
+&
 RootSignature
 )
 {

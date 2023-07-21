@@ -412,15 +412,6 @@ message
 )
 )
 ;
-unsafe
-{
-error
-.
-destroy
-(
-)
-;
-}
 }
 (
 Err

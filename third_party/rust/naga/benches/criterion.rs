@@ -1695,6 +1695,8 @@ module
 info
 None
 &
+None
+&
 mut
 data
 )
@@ -1872,6 +1874,8 @@ Some
 &
 pipeline_options
 )
+&
+None
 &
 mut
 data

@@ -546,7 +546,7 @@ pub
 type
 Blob
 =
-WeakPtr
+ComPtr
 <
 d3dcommon
 :
@@ -558,7 +558,7 @@ pub
 type
 Error
 =
-WeakPtr
+ComPtr
 <
 d3dcommon
 :

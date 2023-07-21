@@ -275,6 +275,10 @@ enumerate_adapters
 self
 .
 factory
+.
+clone
+(
+)
 )
 ;
 adapters

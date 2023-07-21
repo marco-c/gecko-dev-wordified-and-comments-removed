@@ -6,7 +6,7 @@ crate
 com
 :
 :
-WeakPtr
+ComPtr
 sync
 :
 :
@@ -57,6 +57,20 @@ D3D12_COMMAND_QUEUE_PRIORITY_GLOBAL_REALTIME
 bitflags
 !
 {
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+Eq
+Hash
+Ord
+PartialEq
+PartialOrd
+)
+]
 pub
 struct
 CommandQueueFlags
@@ -77,7 +91,7 @@ pub
 type
 CommandQueue
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :
@@ -162,6 +176,7 @@ signal
 self
 fence
 :
+&
 Fence
 value
 :

@@ -53,6 +53,15 @@ xtask
 *
 *
 '
+-
+'
+hlsl
+-
+snapshots
+/
+*
+*
+'
 jobs
 :
 validate

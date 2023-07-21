@@ -3152,7 +3152,7 @@ writer
 .
 bounds_check_policies
 .
-image
+image_load
 {
 crate
 :
@@ -3395,7 +3395,7 @@ Handle
 crate
 :
 :
-Constant
+Expression
 >
 >
 level
@@ -5493,7 +5493,7 @@ writer
 .
 bounds_check_policies
 .
-image
+image_store
 {
 crate
 :

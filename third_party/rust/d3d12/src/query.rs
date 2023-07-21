@@ -5,7 +5,7 @@ crate
 com
 :
 :
-WeakPtr
+ComPtr
 ;
 use
 winapi
@@ -65,7 +65,7 @@ pub
 type
 QueryHeap
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :

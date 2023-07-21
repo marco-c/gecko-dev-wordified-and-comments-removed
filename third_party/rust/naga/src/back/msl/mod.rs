@@ -1056,7 +1056,7 @@ struct
 PipelineOptions
 {
 pub
-allow_point_size
+allow_and_force_point_size
 :
 bool
 }

@@ -6,7 +6,7 @@ crate
 com
 :
 :
-WeakPtr
+ComPtr
 D3DResult
 Resource
 SampleDesc
@@ -66,6 +66,20 @@ Interface
 bitflags
 !
 {
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+Eq
+Hash
+Ord
+PartialEq
+PartialOrd
+)
+]
 pub
 struct
 FactoryCreationFlags
@@ -221,7 +235,7 @@ pub
 type
 InfoQueue
 =
-WeakPtr
+ComPtr
 <
 dxgidebug
 :
@@ -233,7 +247,7 @@ pub
 type
 Adapter1
 =
-WeakPtr
+ComPtr
 <
 dxgi
 :
@@ -245,7 +259,7 @@ pub
 type
 Adapter2
 =
-WeakPtr
+ComPtr
 <
 dxgi1_2
 :
@@ -257,7 +271,7 @@ pub
 type
 Adapter3
 =
-WeakPtr
+ComPtr
 <
 dxgi1_4
 :
@@ -269,7 +283,7 @@ pub
 type
 Adapter4
 =
-WeakPtr
+ComPtr
 <
 dxgi1_6
 :
@@ -288,7 +302,6 @@ weak_com_inheritance_chain
 derive
 (
 Debug
-Copy
 Clone
 PartialEq
 Hash
@@ -348,7 +361,7 @@ pub
 type
 Factory1
 =
-WeakPtr
+ComPtr
 <
 dxgi
 :
@@ -360,7 +373,7 @@ pub
 type
 Factory2
 =
-WeakPtr
+ComPtr
 <
 dxgi1_2
 :
@@ -372,7 +385,7 @@ pub
 type
 Factory3
 =
-WeakPtr
+ComPtr
 <
 dxgi1_3
 :
@@ -384,7 +397,7 @@ pub
 type
 Factory4
 =
-WeakPtr
+ComPtr
 <
 dxgi1_4
 :
@@ -396,7 +409,7 @@ pub
 type
 Factory5
 =
-WeakPtr
+ComPtr
 <
 dxgi1_5
 :
@@ -408,7 +421,7 @@ pub
 type
 Factory6
 =
-WeakPtr
+ComPtr
 <
 dxgi1_6
 :
@@ -427,7 +440,6 @@ weak_com_inheritance_chain
 derive
 (
 Debug
-Copy
 Clone
 PartialEq
 Hash
@@ -509,7 +521,7 @@ pub
 type
 FactoryMedia
 =
-WeakPtr
+ComPtr
 <
 dxgi1_3
 :
@@ -521,7 +533,7 @@ pub
 type
 SwapChain
 =
-WeakPtr
+ComPtr
 <
 dxgi
 :
@@ -533,7 +545,7 @@ pub
 type
 SwapChain1
 =
-WeakPtr
+ComPtr
 <
 dxgi1_2
 :
@@ -545,7 +557,7 @@ pub
 type
 SwapChain2
 =
-WeakPtr
+ComPtr
 <
 dxgi1_3
 :
@@ -557,7 +569,7 @@ pub
 type
 SwapChain3
 =
-WeakPtr
+ComPtr
 <
 dxgi1_4
 :
@@ -576,7 +588,6 @@ weak_com_inheritance_chain
 derive
 (
 Debug
-Copy
 Clone
 PartialEq
 Hash
@@ -1977,6 +1988,20 @@ hr
 bitflags
 !
 {
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+Eq
+Hash
+Ord
+PartialEq
+PartialOrd
+)
+]
 pub
 struct
 SwapChainPresentFlags

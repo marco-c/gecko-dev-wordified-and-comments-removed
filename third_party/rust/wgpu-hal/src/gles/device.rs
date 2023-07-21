@@ -1378,7 +1378,10 @@ BoundsCheckPolicy
 :
 :
 Unchecked
-image
+image_load
+:
+image_check
+image_store
 :
 image_check
 binding_array

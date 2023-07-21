@@ -6,7 +6,7 @@ crate
 com
 :
 :
-WeakPtr
+ComPtr
 command_list
 :
 :
@@ -77,7 +77,7 @@ pub
 type
 Device
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :
@@ -115,7 +115,8 @@ Interface
 self
 adapter
 :
-WeakPtr
+&
+ComPtr
 <
 I
 >
@@ -312,7 +313,7 @@ Interface
 (
 adapter
 :
-WeakPtr
+ComPtr
 <
 I
 >
@@ -795,6 +796,7 @@ list_type
 CmdListType
 allocator
 :
+&
 CommandAllocator
 initial
 :
@@ -1016,6 +1018,7 @@ create_compute_pipeline_state
 self
 root_signature
 :
+&
 RootSignature
 cs
 :

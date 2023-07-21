@@ -6,7 +6,7 @@ crate
 com
 :
 :
-WeakPtr
+ComPtr
 HRESULT
 }
 ;
@@ -137,7 +137,7 @@ pub
 type
 Fence
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :

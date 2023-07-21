@@ -5,7 +5,7 @@ crate
 com
 :
 :
-WeakPtr
+ComPtr
 ;
 use
 winapi
@@ -20,7 +20,7 @@ pub
 type
 CommandAllocator
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :
