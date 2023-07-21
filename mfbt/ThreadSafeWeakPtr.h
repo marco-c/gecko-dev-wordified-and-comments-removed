@@ -371,6 +371,14 @@ return
 cnt
 ;
 }
+using
+HasThreadSafeRefCnt
+=
+std
+:
+:
+true_type
+;
 void
 ref
 (

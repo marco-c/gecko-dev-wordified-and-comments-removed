@@ -68,6 +68,7 @@ nsITargetShutdownTask
 [
 builtinclass
 scriptable
+rust_sync
 uuid
 (
 a03b8b63
