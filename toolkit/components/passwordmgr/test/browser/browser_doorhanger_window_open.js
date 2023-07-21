@@ -366,6 +366,7 @@ notifyp1
 let
 logins
 =
+await
 Services
 .
 logins
@@ -404,6 +405,7 @@ REMEMBER_BUTTON
 let
 logins
 =
+await
 Services
 .
 logins
@@ -626,6 +628,7 @@ CHANGE_BUTTON
 let
 logins
 =
+await
 Services
 .
 logins
@@ -890,6 +893,7 @@ selectedTab
 let
 logins
 =
+await
 Services
 .
 logins
@@ -1103,6 +1107,7 @@ selectedTab
 let
 logins
 =
+await
 Services
 .
 logins

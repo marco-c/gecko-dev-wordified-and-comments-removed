@@ -481,6 +481,7 @@ retrieveLoginMatching
 gLoginInfo3
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -553,6 +554,7 @@ exists
 /
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1050,6 +1052,7 @@ timesUsed
 ;
 add_task
 (
+async
 function
 test_modifyLogin_nsIProperyBag_metainfo_duplicate
 (
@@ -1089,6 +1092,7 @@ exists
 /
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1285,6 +1289,7 @@ reloadData
 (
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins

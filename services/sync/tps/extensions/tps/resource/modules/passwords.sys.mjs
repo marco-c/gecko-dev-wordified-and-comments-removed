@@ -153,6 +153,7 @@ export
 var
 DumpPasswords
 =
+async
 function
 TPS__Passwords__DumpPasswords
 (
@@ -161,6 +162,7 @@ TPS__Passwords__DumpPasswords
 let
 logins
 =
+await
 Services
 .
 logins

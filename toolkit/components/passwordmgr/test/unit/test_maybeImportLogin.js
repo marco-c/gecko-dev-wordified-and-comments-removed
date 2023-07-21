@@ -208,6 +208,7 @@ null
 let
 savedLogins
 =
+await
 Services
 .
 logins
@@ -457,12 +458,15 @@ Assert
 .
 equal
 (
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
