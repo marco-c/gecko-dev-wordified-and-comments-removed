@@ -5905,6 +5905,13 @@ StructuredCloneScope
 :
 :
 SameProcess
+&
+&
+aCloneDataPolicy
+.
+areIntraClusterClonableSharedObjectsAllowed
+(
+)
 )
 {
 JS
