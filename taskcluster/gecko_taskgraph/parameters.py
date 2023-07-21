@@ -63,7 +63,13 @@ enable_always_target
 "
 )
 :
+Any
+(
 bool
+[
+str
+]
+)
     
 Required
 (
@@ -468,7 +474,13 @@ build_number
 enable_always_target
 "
 :
-False
+[
+"
+docker
+-
+image
+"
+]
         
 "
 head_repository
