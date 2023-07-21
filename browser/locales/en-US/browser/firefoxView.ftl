@@ -1985,7 +1985,7 @@ activity
 -
 brand
 -
-product
+short
 -
 name
 }
@@ -2114,7 +2114,7 @@ activity
 -
 brand
 -
-product
+short
 -
 name
 }
@@ -2143,7 +2143,7 @@ settings
 -
 brand
 -
-product
+short
 -
 name
 }
@@ -2280,7 +2280,7 @@ Make
 -
 brand
 -
-product
+short
 -
 name
 }
