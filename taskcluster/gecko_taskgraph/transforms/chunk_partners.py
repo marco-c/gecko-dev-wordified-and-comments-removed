@@ -30,6 +30,14 @@ base
 import
 TransformSequence
 from
+taskgraph
+.
+util
+.
+dependencies
+import
+get_primary_dependency
+from
 gecko_taskgraph
 .
 util
@@ -70,6 +78,16 @@ in
 jobs
 :
         
+if
+"
+primary
+-
+dependency
+"
+in
+job
+:
+            
 dep_job
 =
 job
@@ -80,6 +98,17 @@ primary
 dependency
 "
 ]
+        
+else
+:
+            
+dep_job
+=
+get_primary_dependency
+(
+config
+job
+)
         
 build_platform
 =
