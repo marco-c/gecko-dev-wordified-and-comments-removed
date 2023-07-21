@@ -218,6 +218,12 @@ AllowAllNumericValues
 <
 <
 1
+DisallowFontRelative
+=
+1
+<
+<
+2
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
