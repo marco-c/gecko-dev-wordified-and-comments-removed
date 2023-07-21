@@ -6946,10 +6946,10 @@ destType
 )
 ;
 void
-branchIfRefSubtype
+branchGcRefType
 (
 RegRef
-ref
+object
 RefType
 sourceType
 RefType
