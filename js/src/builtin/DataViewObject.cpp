@@ -274,6 +274,36 @@ mozilla
 :
 WrapToSigned
 ;
+static
+bool
+IsDataView
+(
+HandleValue
+v
+)
+{
+return
+v
+.
+isObject
+(
+)
+&
+&
+v
+.
+toObject
+(
+)
+.
+is
+<
+DataViewObject
+>
+(
+)
+;
+}
 DataViewObject
 *
 DataViewObject
@@ -2433,7 +2463,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -2533,7 +2563,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getInt8Impl
 >
 (
@@ -2559,7 +2589,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -2659,7 +2689,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getUint8Impl
 >
 (
@@ -2685,7 +2715,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -2785,7 +2815,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getInt16Impl
 >
 (
@@ -2811,7 +2841,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -2911,7 +2941,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getUint16Impl
 >
 (
@@ -2937,7 +2967,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -3037,7 +3067,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getInt32Impl
 >
 (
@@ -3063,7 +3093,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -3163,7 +3193,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getUint32Impl
 >
 (
@@ -3189,7 +3219,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -3312,7 +3342,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getBigInt64Impl
 >
 (
@@ -3338,7 +3368,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -3461,7 +3491,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getBigUint64Impl
 >
 (
@@ -3487,7 +3517,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -3590,7 +3620,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getFloat32Impl
 >
 (
@@ -3616,7 +3646,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -3719,7 +3749,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 getFloat64Impl
 >
 (
@@ -3745,7 +3775,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -3842,7 +3872,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setInt8Impl
 >
 (
@@ -3868,7 +3898,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -3965,7 +3995,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setUint8Impl
 >
 (
@@ -3991,7 +4021,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -4088,7 +4118,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setInt16Impl
 >
 (
@@ -4114,7 +4144,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -4211,7 +4241,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setUint16Impl
 >
 (
@@ -4237,7 +4267,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -4334,7 +4364,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setInt32Impl
 >
 (
@@ -4360,7 +4390,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -4457,7 +4487,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setUint32Impl
 >
 (
@@ -4483,7 +4513,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -4580,7 +4610,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setBigInt64Impl
 >
 (
@@ -4606,7 +4636,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -4703,7 +4733,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setBigUint64Impl
 >
 (
@@ -4729,7 +4759,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -4826,7 +4856,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setFloat32Impl
 >
 (
@@ -4852,7 +4882,7 @@ args
 {
 MOZ_ASSERT
 (
-is
+IsDataView
 (
 args
 .
@@ -4949,7 +4979,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 setFloat64Impl
 >
 (
@@ -5048,7 +5078,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 bufferGetterImpl
 >
 (
@@ -5169,7 +5199,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 byteLengthGetterImpl
 >
 (
@@ -5290,7 +5320,7 @@ vp
 return
 CallNonGenericMethod
 <
-is
+IsDataView
 byteOffsetGetterImpl
 >
 (
