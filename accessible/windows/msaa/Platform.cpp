@@ -434,11 +434,6 @@ AccessibleWrap
 UpdateSystemCaretFor
 (
 aTarget
--
->
-AsRemote
-(
-)
 aCaretRect
 )
 ;
@@ -482,11 +477,6 @@ AccessibleWrap
 UpdateSystemCaretFor
 (
 aTarget
--
->
-AsRemote
-(
-)
 aCaretRect
 )
 ;
