@@ -283,7 +283,7 @@ pyyaml
 =
 5
 .
-3
+4
 .
 1
 redo
@@ -375,9 +375,9 @@ taskcluster
 taskgraph
 =
 =
-5
+3
 .
-6
+5
 .
 2
 taskcluster

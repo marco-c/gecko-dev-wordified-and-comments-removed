@@ -1067,21 +1067,6 @@ given
 head_rev
 and
 base_ref_or_rev
-.
-        
-If
-no
-common
-revision
-exists
-Repository
-.
-NULL_REVISION
-will
-        
-be
-returned
-.
 "
 "
 "
@@ -1491,9 +1476,9 @@ revision
 =
 revision
 or
-"
+self
 .
-"
+head_rev
         
 return
 self
@@ -1507,7 +1492,9 @@ log
 -
 r
 "
-revision
+"
+.
+"
 "
 -
 T
@@ -2054,8 +2041,7 @@ head_rev
 )
 :
         
-ancestor
-=
+return
 self
 .
 run
@@ -2111,13 +2097,6 @@ node
 strip
 (
 )
-        
-return
-ancestor
-or
-self
-.
-NULL_REVISION
     
 def
 does_revision_exist_locally
@@ -2131,8 +2110,6 @@ try
 :
             
 return
-bool
-(
 self
 .
 run
@@ -2150,7 +2127,10 @@ revision
 strip
 (
 )
-)
+!
+=
+"
+"
         
 except
 subprocess
@@ -2885,9 +2865,9 @@ revision
 =
 revision
 or
-"
-HEAD
-"
+self
+.
+head_rev
         
 return
 self
@@ -2909,7 +2889,6 @@ format
 %
 B
 "
-revision
 )
     
 def
@@ -3387,9 +3366,6 @@ head_rev
 )
 :
         
-try
-:
-            
 return
 self
 .
@@ -3407,17 +3383,6 @@ head_rev
 strip
 (
 )
-        
-except
-subprocess
-.
-CalledProcessError
-:
-            
-return
-self
-.
-NULL_REVISION
     
 def
 does_revision_exist_locally

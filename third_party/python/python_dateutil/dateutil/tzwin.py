@@ -1,7 +1,0 @@
-from
-.
-tz
-.
-win
-import
-*
