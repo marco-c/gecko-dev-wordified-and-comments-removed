@@ -107,6 +107,16 @@ AudioConduit
 cpp
 "
 "
+FrameTransformer
+.
+cpp
+"
+"
+FrameTransformerProxy
+.
+cpp
+"
+"
 GmpVideoCodec
 .
 cpp
