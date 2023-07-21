@@ -7608,6 +7608,8 @@ bug_numbers
 1754650
 -
 1811156
+-
+1841930
 description
 :
 >
@@ -7644,7 +7646,7 @@ U2FSignAbort
 expires
 :
 "
-118
+124
 "
 kind
 :
@@ -7663,6 +7665,11 @@ mozilla
 com
 -
 jschanck
+mozilla
+.
+com
+-
+dkeeler
 mozilla
 .
 com
