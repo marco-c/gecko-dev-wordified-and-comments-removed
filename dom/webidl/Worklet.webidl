@@ -121,15 +121,6 @@ index
 /
 [
 SecureContext
-Pref
-=
-"
-dom
-.
-worklet
-.
-enabled
-"
 Exposed
 =
 Window

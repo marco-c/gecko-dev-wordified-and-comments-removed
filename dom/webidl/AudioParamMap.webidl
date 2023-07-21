@@ -145,15 +145,6 @@ apply
 /
 [
 SecureContext
-Pref
-=
-"
-dom
-.
-audioworklet
-.
-enabled
-"
 Exposed
 =
 Window
