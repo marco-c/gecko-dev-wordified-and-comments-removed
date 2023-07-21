@@ -261,14 +261,12 @@ timeZone
 const
 {
 return
-&
+TimeZoneValue
+(
 getFixedSlot
 (
 TIMEZONE_SLOT
 )
-.
-toObject
-(
 )
 ;
 }
