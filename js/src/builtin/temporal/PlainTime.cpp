@@ -7896,7 +7896,7 @@ PlainObject
 resolvedOptions
 (
 cx
-CopyOptions
+SnapshotOwnProperties
 (
 cx
 options

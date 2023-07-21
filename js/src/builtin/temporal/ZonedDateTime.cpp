@@ -5472,7 +5472,7 @@ false
 }
 resolvedOptions
 =
-CopyOptions
+SnapshotOwnProperties
 (
 cx
 options

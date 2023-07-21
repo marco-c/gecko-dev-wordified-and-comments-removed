@@ -2167,7 +2167,7 @@ false
 }
 resolvedOptions
 =
-CopyOptions
+SnapshotOwnProperties
 (
 cx
 options
@@ -2974,7 +2974,7 @@ PlainObject
 fieldsCopy
 (
 cx
-CopyOptions
+SnapshotOwnProperties
 (
 cx
 fields
@@ -3362,7 +3362,7 @@ PlainObject
 optionsCopy
 (
 cx
-CopyOptions
+SnapshotOwnProperties
 (
 cx
 options

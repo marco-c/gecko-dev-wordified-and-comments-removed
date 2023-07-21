@@ -3959,7 +3959,7 @@ PlainObject
 untilOptions
 (
 cx
-CopyOptions
+SnapshotOwnProperties
 (
 cx
 maybeOptions
@@ -4520,7 +4520,7 @@ PlainObject
 resolvedOptions
 (
 cx
-CopyOptions
+SnapshotOwnProperties
 (
 cx
 options
