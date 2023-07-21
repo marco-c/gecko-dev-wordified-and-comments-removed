@@ -197,15 +197,6 @@ type
 [
 CEReactions
 SetterThrows
-Pref
-=
-"
-dom
-.
-moduleScripts
-.
-enabled
-"
 ]
 attribute
 boolean
