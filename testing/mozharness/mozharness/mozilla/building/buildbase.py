@@ -6781,10 +6781,8 @@ stats_file
 )
 :
             
-self
-.
-info
-(
+msg
+=
 "
 %
 s
@@ -6799,8 +6797,42 @@ stats
 "
 %
 stats_file
+            
+if
+os
+.
+environ
+.
+get
+(
+"
+USE_SCCACHE
+"
+)
+=
+=
+"
+1
+"
+:
+                
+self
+.
+fatal
+(
+msg
 )
             
+else
+:
+                
+self
+.
+info
+(
+msg
+)
+                
 return
         
 with
