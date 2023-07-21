@@ -535,6 +535,8 @@ wait_for_event
 RESPONSE_COMPLETED_EVENT
 )
     
+result
+=
 await
 bidi_session
 .
@@ -662,6 +664,15 @@ expected_request
 expected_response
 =
 expected_response
+        
+navigation
+=
+result
+[
+"
+navigation
+"
+]
         
 redirect_count
 =
@@ -875,7 +886,6 @@ async
 def
 test_response_headers
 (
-    
 wait_for_event
 url
 fetch
@@ -1194,7 +1204,7 @@ async
 def
 test_response_mime_type_file
 (
-     
+    
 url
 wait_for_event
 fetch
@@ -1677,6 +1687,8 @@ parameters
     
 )
     
+first_navigate
+=
 await
 bidi_session
 .
@@ -1738,6 +1750,8 @@ initial_url
     
 )
     
+second_navigate
+=
 await
 bidi_session
 .
@@ -1827,12 +1841,23 @@ events
 [
 0
 ]
+        
 expected_request
 =
 expected_request
+        
 redirect_count
 =
 0
+        
+navigation
+=
+first_navigate
+[
+"
+navigation
+"
+]
     
 )
     
@@ -1860,12 +1885,23 @@ events
 [
 1
 ]
+        
 expected_request
 =
 expected_request
+        
 redirect_count
 =
 0
+        
+navigation
+=
+second_navigate
+[
+"
+navigation
+"
+]
     
 )
     
@@ -1893,12 +1929,23 @@ events
 [
 2
 ]
+        
 expected_request
 =
 expected_request
+        
 redirect_count
 =
 1
+        
+navigation
+=
+second_navigate
+[
+"
+navigation
+"
+]
     
 )
     
