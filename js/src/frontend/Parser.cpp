@@ -5407,6 +5407,7 @@ length
 count
 ;
 }
+static
 Maybe
 <
 GlobalScope
@@ -5772,6 +5773,7 @@ pc_
 )
 ;
 }
+static
 Maybe
 <
 ModuleScope
@@ -6153,6 +6155,7 @@ pc_
 )
 ;
 }
+static
 Maybe
 <
 EvalScope
@@ -6403,6 +6406,7 @@ pc_
 )
 ;
 }
+static
 Maybe
 <
 FunctionScope
@@ -7083,6 +7087,7 @@ numBindings
 )
 ;
 }
+static
 Maybe
 <
 VarScope
@@ -7400,6 +7405,7 @@ pc_
 )
 ;
 }
+static
 Maybe
 <
 LexicalScope
@@ -7800,6 +7806,7 @@ pc_
 )
 ;
 }
+static
 Maybe
 <
 ClassBodyScope
