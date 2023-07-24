@@ -1541,6 +1541,7 @@ network_error_entry_test
 originalURL
 args
 label
+loader
 )
 =
 >
@@ -1583,6 +1584,8 @@ now
 )
 ;
 loader
+?
+?
 =
 (
 )
