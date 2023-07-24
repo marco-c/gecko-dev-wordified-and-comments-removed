@@ -178,6 +178,13 @@ target_tasks
 from
 gecko_taskgraph
 .
+loader
+import
+multi_dep
+    
+from
+gecko_taskgraph
+.
 parameters
 import
 register_parameters
