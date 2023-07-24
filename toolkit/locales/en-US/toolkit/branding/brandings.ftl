@@ -273,6 +273,14 @@ short
 name
 =
 Relay
+-
+fakespot
+-
+brand
+-
+name
+=
+Fakespot
 #
 Suggest
 can
