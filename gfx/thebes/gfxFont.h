@@ -2148,11 +2148,8 @@ void
 aHandleFeature
 )
 (
-const
 uint32_t
-&
 uint32_t
-&
 void
 *
 )
