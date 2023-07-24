@@ -550,6 +550,7 @@ Debug
 Clone
 Default
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -1667,6 +1668,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -3112,6 +3114,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -3749,6 +3752,7 @@ Debug
 Default
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -3925,6 +3929,7 @@ Debug
 Default
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -3975,6 +3980,7 @@ Debug
 Default
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -4266,6 +4272,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -4315,6 +4322,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -4380,6 +4388,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -4491,6 +4500,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -4598,6 +4608,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -4647,6 +4658,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -5010,6 +5022,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -5045,6 +5058,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -5068,6 +5082,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -6501,6 +6516,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -6530,6 +6546,7 @@ Clone
 PartialEq
 Eq
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -6924,6 +6941,7 @@ derive
 Debug
 Clone
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -7325,6 +7343,7 @@ derive
 Clone
 Debug
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -7348,6 +7367,8 @@ derive
 Clone
 Debug
 Pread
+Pwrite
+SizeWith
 )
 ]
 pub
@@ -7366,6 +7387,8 @@ derive
 Clone
 Debug
 Pread
+Pwrite
+SizeWith
 )
 ]
 pub
@@ -7384,6 +7407,8 @@ derive
 Clone
 Debug
 Pread
+Pwrite
+SizeWith
 )
 ]
 pub
@@ -7442,6 +7467,8 @@ derive
 Clone
 Debug
 Pread
+Pwrite
+SizeWith
 )
 ]
 pub
@@ -7484,6 +7511,7 @@ derive
 Clone
 Debug
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -7507,6 +7535,8 @@ derive
 Clone
 Debug
 Pread
+Pwrite
+SizeWith
 )
 ]
 pub
@@ -7525,6 +7555,7 @@ derive
 Clone
 Debug
 Pread
+Pwrite
 SizeWith
 )
 ]
@@ -7571,6 +7602,7 @@ derive
 (
 Debug
 Pread
+Pwrite
 SizeWith
 )
 ]

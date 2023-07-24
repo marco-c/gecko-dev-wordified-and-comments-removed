@@ -464,7 +464,7 @@ _
 =
 mapping
 .
-get_mapping_effective_name_and_path
+get_mapping_effective_path_and_name
 (
 )
 .
@@ -497,8 +497,15 @@ name_header
 write_string_to_location
 (
 buffer
-&
 file_path
+.
+to_string_lossy
+(
+)
+.
+as_ref
+(
+)
 )
 ?
 ;

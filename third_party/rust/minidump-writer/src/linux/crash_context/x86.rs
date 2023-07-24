@@ -376,7 +376,6 @@ inner
 float_state
 ;
 let
-mut
 out
 =
 &
