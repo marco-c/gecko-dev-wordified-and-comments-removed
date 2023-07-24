@@ -5,6 +5,8 @@ logging
 import
 os
 import
+sys
+import
 mozpack
 .
 path
@@ -2651,6 +2653,14 @@ utf
 -
 8
 "
+            
+"
+GRADLE_MACH_PYTHON
+"
+:
+sys
+.
+executable
         
 }
     
