@@ -453,6 +453,7 @@ required
 "
 )
 ;
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 tainted_gr
 <
 float
@@ -467,12 +468,13 @@ cb
 mFont
 -
 >
-GetGlyphWidth
+GetGlyphWidthLocked
 (
 glyphid
 )
 )
 ;
+MOZ_POP_THREAD_SAFETY
 return
 ret
 .

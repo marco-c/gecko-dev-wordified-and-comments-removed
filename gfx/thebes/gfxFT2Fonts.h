@@ -311,6 +311,10 @@ gfxShapedText
 *
 aShapedText
 )
+MOZ_REQUIRES
+(
+mLock
+)
 override
 ;
 void

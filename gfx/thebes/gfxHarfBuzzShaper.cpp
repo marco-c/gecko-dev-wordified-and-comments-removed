@@ -1649,6 +1649,7 @@ shaper
 mUseFontGlyphWidths
 )
 {
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 return
 shaper
 -
@@ -1658,11 +1659,12 @@ GetFont
 )
 -
 >
-GetGlyphWidth
+GetGlyphWidthLocked
 (
 glyph
 )
 ;
+MOZ_POP_THREAD_SAFETY
 }
 return
 shaper
@@ -1875,6 +1877,7 @@ aY
 )
 const
 {
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 *
 aX
 =
@@ -1888,7 +1891,7 @@ mUseFontGlyphWidths
 mFont
 -
 >
-GetGlyphWidth
+GetGlyphWidthLocked
 (
 aGlyph
 )
@@ -1899,6 +1902,7 @@ aGlyph
 )
 )
 ;
+MOZ_POP_THREAD_SAFETY
 if
 (
 mVORGTable
