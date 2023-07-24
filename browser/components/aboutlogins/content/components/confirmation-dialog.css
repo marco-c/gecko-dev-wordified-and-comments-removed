@@ -342,6 +342,12 @@ fill
 :
 currentColor
 ;
+user
+-
+select
+:
+none
+;
 }
 .
 warning
@@ -360,6 +366,12 @@ fill
 fill
 :
 currentColor
+;
+user
+-
+select
+:
+none
 ;
 width
 :
