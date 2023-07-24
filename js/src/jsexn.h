@@ -167,7 +167,7 @@ cx
 )
 ;
 extern
-void
+bool
 ErrorToException
 (
 JSContext
