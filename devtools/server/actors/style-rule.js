@@ -1931,6 +1931,11 @@ ancestorData
 push
 (
 {
+actorID
+:
+ancestorRule
+.
+actorID
 type
 value
 :
