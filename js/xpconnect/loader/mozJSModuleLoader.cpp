@@ -8880,14 +8880,6 @@ ReferrerPolicy
 :
 :
 No_referrer
-u
-"
-"
-_ns
-ParserMetadata
-:
-:
-NotParserInserted
 principal
 )
 ;

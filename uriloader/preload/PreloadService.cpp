@@ -1314,10 +1314,6 @@ aURI
 aCharset
 aType
 aCrossOrigin
-u
-"
-"
-_ns
 aIntegrity
 aScriptFromHead
 false

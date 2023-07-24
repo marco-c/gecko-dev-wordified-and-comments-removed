@@ -5613,10 +5613,6 @@ aMedia
 const
 nsAString
 &
-aNonce
-const
-nsAString
-&
 aIntegrity
 dom
 :
@@ -5701,7 +5697,6 @@ uri
 aCharset
 aType
 aCrossOrigin
-aNonce
 aIntegrity
 aScriptFromHead
 aAsync
