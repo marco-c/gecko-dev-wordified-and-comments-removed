@@ -503,6 +503,13 @@ IsOffscreen
 )
 )
 {
+element
+-
+>
+FlushOffscreenCanvas
+(
+)
+;
 nsHTMLCanvasFrame
 *
 canvasFrame
