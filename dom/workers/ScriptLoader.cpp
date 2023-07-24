@@ -3130,6 +3130,10 @@ CORSMode
 :
 CORS_NONE
 referrerPolicy
+u
+"
+"
+_ns
 nullptr
 )
 ;

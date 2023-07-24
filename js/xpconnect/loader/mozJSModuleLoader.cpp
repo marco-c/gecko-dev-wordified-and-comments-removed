@@ -8880,6 +8880,10 @@ ReferrerPolicy
 :
 :
 No_referrer
+u
+"
+"
+_ns
 principal
 )
 ;

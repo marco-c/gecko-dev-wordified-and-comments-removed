@@ -181,6 +181,10 @@ dom
 :
 ReferrerPolicy
 aReferrerPolicy
+const
+nsAString
+&
+aNonce
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -202,6 +206,10 @@ aCORSMode
 mReferrerPolicy
 (
 aReferrerPolicy
+)
+mNonce
+(
+aNonce
 )
 mTriggeringPrincipal
 (
