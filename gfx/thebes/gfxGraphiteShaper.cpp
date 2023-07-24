@@ -453,7 +453,6 @@ required
 "
 )
 ;
-MOZ_PUSH_IGNORE_THREAD_SAFETY
 tainted_gr
 <
 float
@@ -468,13 +467,12 @@ cb
 mFont
 -
 >
-GetGlyphWidthLocked
+GetGlyphWidth
 (
 glyphid
 )
 )
 ;
-MOZ_POP_THREAD_SAFETY
 return
 ret
 .
@@ -559,9 +557,12 @@ static
 void
 AddFeature
 (
+const
 uint32_t
+&
 aTag
 uint32_t
+&
 aValue
 void
 *
