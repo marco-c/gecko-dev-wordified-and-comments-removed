@@ -70,7 +70,12 @@ screens
 ;
 screen
 .
-parent_selector
+anchors
+[
+0
+]
+.
+selector
 =
 "
 body
