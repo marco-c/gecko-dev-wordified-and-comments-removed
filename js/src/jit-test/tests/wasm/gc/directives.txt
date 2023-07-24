@@ -3,6 +3,12 @@ jit
 -
 test
 |
+-
+-
+wasm
+-
+gc
+;
 test
 -
 also
@@ -15,12 +21,6 @@ compiler
 =
 optimizing
 ;
--
--
-wasm
--
-gc
-;
 test
 -
 also
@@ -32,11 +32,6 @@ wasm
 compiler
 =
 baseline
--
--
-wasm
--
-gc
 ;
 include
 :
