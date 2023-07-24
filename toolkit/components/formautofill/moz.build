@@ -55,6 +55,15 @@ mjs
 "
 shared
 /
+CreditCardRecord
+.
+sys
+.
+mjs
+"
+"
+shared
+/
 CreditCardRuleset
 .
 sys
