@@ -5848,7 +5848,7 @@ options
 [
 [
 '
-auto
+normal
 '
 '
 no
