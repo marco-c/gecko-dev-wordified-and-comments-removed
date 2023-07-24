@@ -245,7 +245,7 @@ viewBox
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )

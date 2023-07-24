@@ -813,7 +813,7 @@ primitiveUnits
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )
@@ -860,7 +860,7 @@ false
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )

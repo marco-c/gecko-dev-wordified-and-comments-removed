@@ -448,7 +448,7 @@ invalidate
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 GetParent
 (
