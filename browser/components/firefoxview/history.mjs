@@ -2928,7 +2928,7 @@ this
 .
 allHistoryItems
 .
-length
+size
 }
 >
 <
