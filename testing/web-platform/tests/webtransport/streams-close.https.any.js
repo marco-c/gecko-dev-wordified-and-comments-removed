@@ -1394,7 +1394,7 @@ t
 const
 WT_CODE
 =
-240
+0
 ;
 const
 HTTP_CODE
@@ -1564,7 +1564,7 @@ t
 const
 WT_CODE
 =
-127
+0xffffffff
 ;
 const
 HTTP_CODE
