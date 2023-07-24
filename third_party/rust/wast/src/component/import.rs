@@ -251,6 +251,7 @@ LParen
 >
 (
 )
+?
 {
 Ok
 (
@@ -554,6 +555,7 @@ core
 >
 (
 )
+?
 {
 let
 span
@@ -627,6 +629,7 @@ func
 >
 (
 )
+?
 {
 let
 span
@@ -685,6 +688,7 @@ component
 >
 (
 )
+?
 {
 let
 span
@@ -743,6 +747,7 @@ instance
 >
 (
 )
+?
 {
 let
 span
@@ -801,6 +806,7 @@ value
 >
 (
 )
+?
 {
 let
 span
@@ -861,6 +867,7 @@ type
 >
 (
 )
+?
 {
 let
 span
@@ -1145,6 +1152,7 @@ eq
 >
 (
 )
+?
 {
 parser
 .
@@ -1192,6 +1200,7 @@ sub
 >
 (
 )
+?
 {
 parser
 .
@@ -1367,7 +1376,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 cursor
@@ -1378,6 +1390,7 @@ cursor
 lparen
 (
 )
+?
 {
 Some
 (
@@ -1390,7 +1403,10 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1402,6 +1418,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -1419,7 +1436,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 if
@@ -1437,16 +1457,21 @@ cursor
 string
 (
 )
+?
 {
 return
+Ok
+(
 cursor
 .
 rparen
 (
 )
+?
 .
 is_some
 (
+)
 )
 ;
 }
@@ -1459,6 +1484,7 @@ cursor
 lparen
 (
 )
+?
 {
 Some
 (
@@ -1471,7 +1497,10 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1483,6 +1512,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -1500,7 +1530,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1512,6 +1545,7 @@ cursor
 string
 (
 )
+?
 {
 Some
 (
@@ -1527,7 +1561,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1539,6 +1576,7 @@ cursor
 rparen
 (
 )
+?
 {
 Some
 (
@@ -1551,17 +1589,24 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
+Ok
+(
 cursor
 .
 rparen
 (
 )
+?
 .
 is_some
 (
+)
 )
 }
 fn

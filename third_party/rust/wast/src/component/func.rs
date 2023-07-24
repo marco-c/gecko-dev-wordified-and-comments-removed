@@ -334,6 +334,7 @@ canon
 >
 (
 )
+?
 {
 parser
 .
@@ -366,6 +367,7 @@ alias
 >
 (
 )
+?
 {
 return
 Ok
@@ -422,6 +424,7 @@ lower
 >
 (
 )
+?
 {
 Ok
 (
@@ -454,6 +457,7 @@ resource_new
 >
 (
 )
+?
 {
 Ok
 (
@@ -486,6 +490,7 @@ resource_drop
 >
 (
 )
+?
 {
 Ok
 (
@@ -518,6 +523,7 @@ resource_rep
 >
 (
 )
+?
 {
 Ok
 (
@@ -865,6 +871,7 @@ LParen
 >
 (
 )
+?
 &
 &
 parser
@@ -880,6 +887,7 @@ alias
 >
 (
 )
+?
 {
 parser
 .
@@ -1079,6 +1087,7 @@ lift
 >
 (
 )
+?
 {
 let
 info
@@ -1197,6 +1206,7 @@ lower
 >
 (
 )
+?
 {
 Self
 :
@@ -1226,6 +1236,7 @@ resource_new
 >
 (
 )
+?
 {
 Self
 :
@@ -1255,6 +1266,7 @@ resource_drop
 >
 (
 )
+?
 {
 Self
 :
@@ -1284,6 +1296,7 @@ resource_rep
 >
 (
 )
+?
 {
 Self
 :
@@ -2100,7 +2113,7 @@ a
 pub
 ty
 :
-ComponentValType
+Index
 <
 '
 a
@@ -2193,11 +2206,6 @@ CanonResourceDrop
 {
 ty
 :
-ComponentValType
-:
-:
-Ref
-(
 Index
 :
 :
@@ -2210,7 +2218,6 @@ Span
 from_offset
 (
 0
-)
 )
 )
 }
@@ -2458,6 +2465,7 @@ string_utf8
 >
 (
 )
+?
 {
 parser
 .
@@ -2497,6 +2505,7 @@ string_utf16
 >
 (
 )
+?
 {
 parser
 .
@@ -2536,6 +2545,7 @@ string_latin1_utf16
 >
 (
 )
+?
 {
 parser
 .
@@ -2572,6 +2582,7 @@ LParen
 >
 (
 )
+?
 {
 parser
 .
@@ -2605,6 +2616,7 @@ memory
 >
 (
 )
+?
 {
 let
 span
@@ -2663,6 +2675,7 @@ realloc
 >
 (
 )
+?
 {
 parser
 .
@@ -2722,6 +2735,7 @@ post_return
 >
 (
 )
+?
 {
 parser
 .

@@ -112,10 +112,6 @@ elems
 .
 declared
 (
-RefType
-:
-:
-FUNCREF
 Elements
 :
 :

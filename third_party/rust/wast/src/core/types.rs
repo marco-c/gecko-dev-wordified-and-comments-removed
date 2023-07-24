@@ -149,6 +149,7 @@ i32
 >
 (
 )
+?
 {
 parser
 .
@@ -188,6 +189,7 @@ i64
 >
 (
 )
+?
 {
 parser
 .
@@ -227,6 +229,7 @@ f32
 >
 (
 )
+?
 {
 parser
 .
@@ -266,6 +269,7 @@ f64
 >
 (
 )
+?
 {
 parser
 .
@@ -305,6 +309,7 @@ v128
 >
 (
 )
+?
 {
 parser
 .
@@ -341,6 +346,7 @@ RefType
 >
 (
 )
+?
 {
 Ok
 (
@@ -397,8 +403,13 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
+Ok
+(
 kw
 :
 :
@@ -409,6 +420,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -421,6 +433,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -433,6 +446,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -445,6 +459,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -457,6 +472,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 RefType
@@ -465,6 +481,8 @@ RefType
 peek
 (
 cursor
+)
+?
 )
 }
 fn
@@ -588,6 +606,7 @@ func
 >
 (
 )
+?
 {
 parser
 .
@@ -629,6 +648,7 @@ extern
 >
 (
 )
+?
 {
 parser
 .
@@ -672,6 +692,7 @@ any
 >
 (
 )
+?
 {
 parser
 .
@@ -713,6 +734,7 @@ eq
 >
 (
 )
+?
 {
 parser
 .
@@ -754,6 +776,7 @@ struct
 >
 (
 )
+?
 {
 parser
 .
@@ -795,6 +818,7 @@ array
 >
 (
 )
+?
 {
 parser
 .
@@ -834,6 +858,7 @@ i31
 >
 (
 )
+?
 {
 parser
 .
@@ -873,6 +898,7 @@ nofunc
 >
 (
 )
+?
 {
 parser
 .
@@ -912,6 +938,7 @@ noextern
 >
 (
 )
+?
 {
 parser
 .
@@ -951,6 +978,7 @@ none
 >
 (
 )
+?
 {
 parser
 .
@@ -987,6 +1015,7 @@ Index
 >
 (
 )
+?
 {
 Ok
 (
@@ -1043,8 +1072,13 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
+Ok
+(
 kw
 :
 :
@@ -1055,6 +1089,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1069,6 +1104,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1081,6 +1117,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1093,6 +1130,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1107,6 +1145,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1119,6 +1158,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1131,6 +1171,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1143,6 +1184,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1155,6 +1197,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -1167,6 +1210,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 (
@@ -1177,6 +1221,7 @@ peek
 (
 cursor
 )
+?
 &
 &
 kw
@@ -1190,6 +1235,8 @@ type
 peek2
 (
 cursor
+)
+?
 )
 )
 }
@@ -1544,6 +1591,7 @@ funcref
 >
 (
 )
+?
 {
 parser
 .
@@ -1585,6 +1633,7 @@ anyfunc
 >
 (
 )
+?
 {
 parser
 .
@@ -1626,6 +1675,7 @@ externref
 >
 (
 )
+?
 {
 parser
 .
@@ -1669,6 +1719,7 @@ anyref
 >
 (
 )
+?
 {
 parser
 .
@@ -1710,6 +1761,7 @@ eqref
 >
 (
 )
+?
 {
 parser
 .
@@ -1751,6 +1803,7 @@ structref
 >
 (
 )
+?
 {
 parser
 .
@@ -1794,6 +1847,7 @@ arrayref
 >
 (
 )
+?
 {
 parser
 .
@@ -1835,6 +1889,7 @@ i31ref
 >
 (
 )
+?
 {
 parser
 .
@@ -1876,6 +1931,7 @@ nullfuncref
 >
 (
 )
+?
 {
 parser
 .
@@ -1917,6 +1973,7 @@ nullexternref
 >
 (
 )
+?
 {
 parser
 .
@@ -1958,6 +2015,7 @@ nullref
 >
 (
 )
+?
 {
 parser
 .
@@ -1996,6 +2054,7 @@ LParen
 >
 (
 )
+?
 {
 parser
 .
@@ -2031,6 +2090,7 @@ ref
 >
 (
 )
+?
 {
 p
 .
@@ -2069,6 +2129,7 @@ null
 >
 (
 )
+?
 {
 parser
 .
@@ -2159,8 +2220,13 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
+Ok
+(
 kw
 :
 :
@@ -2171,6 +2237,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2183,6 +2250,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2195,6 +2263,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2207,6 +2276,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2219,6 +2289,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2231,6 +2302,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2243,6 +2315,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2255,6 +2328,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2267,6 +2341,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2279,6 +2354,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -2291,6 +2367,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 (
@@ -2301,6 +2378,7 @@ peek
 (
 cursor
 )
+?
 &
 &
 kw
@@ -2314,6 +2392,8 @@ ref
 peek2
 (
 cursor
+)
+?
 )
 )
 }
@@ -2430,6 +2510,7 @@ i8
 >
 (
 )
+?
 {
 parser
 .
@@ -2469,6 +2550,7 @@ i16
 >
 (
 )
+?
 {
 parser
 .
@@ -2505,6 +2587,7 @@ ValType
 >
 (
 )
+?
 {
 Ok
 (
@@ -2619,6 +2702,7 @@ mut
 >
 (
 )
+?
 {
 parser
 .
@@ -2770,6 +2854,7 @@ u32
 >
 (
 )
+?
 {
 Some
 (
@@ -2879,6 +2964,7 @@ u64
 >
 (
 )
+?
 {
 Some
 (
@@ -3077,6 +3163,7 @@ i64
 >
 (
 )
+?
 {
 parser
 .
@@ -3365,6 +3452,7 @@ param
 >
 (
 )
+?
 |
 |
 parser
@@ -3380,6 +3468,7 @@ result
 >
 (
 )
+?
 {
 parser
 .
@@ -3413,6 +3502,7 @@ param
 >
 (
 )
+?
 {
 if
 results
@@ -3610,6 +3700,7 @@ result
 >
 (
 )
+?
 {
 p
 .
@@ -3802,7 +3893,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 if
 let
@@ -3816,6 +3910,7 @@ cursor
 lparen
 (
 )
+?
 {
 match
 next
@@ -3823,6 +3918,7 @@ next
 keyword
 (
 )
+?
 {
 Some
 (
@@ -3846,7 +3942,10 @@ _
 =
 >
 return
+Ok
+(
 true
+)
 _
 =
 >
@@ -3854,7 +3953,10 @@ _
 }
 }
 }
+Ok
+(
 false
+)
 }
 fn
 display
@@ -4005,7 +4107,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 FunctionType
 :
@@ -4182,6 +4287,7 @@ field
 >
 (
 )
+?
 {
 parser
 .
@@ -4358,6 +4464,7 @@ mut
 >
 (
 )
+?
 {
 let
 ty
@@ -4520,6 +4627,7 @@ mut
 >
 (
 )
+?
 {
 let
 ty
@@ -4824,6 +4932,7 @@ func
 >
 (
 )
+?
 {
 parser
 .
@@ -4873,6 +4982,7 @@ struct
 >
 (
 )
+?
 {
 parser
 .
@@ -4922,6 +5032,7 @@ array
 >
 (
 )
+?
 {
 parser
 .
@@ -5061,7 +5172,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 kw
 :
@@ -5190,6 +5304,7 @@ sub
 >
 (
 )
+?
 {
 parser
 .
@@ -5238,6 +5353,7 @@ final
 >
 (
 )
+?
 {
 parser
 .
@@ -5287,6 +5403,7 @@ a
 >
 (
 )
+?
 {
 parser
 .
@@ -5480,6 +5597,7 @@ a
 >
 (
 )
+?
 {
 types
 .
@@ -5660,6 +5778,7 @@ type
 >
 (
 )
+?
 {
 Some
 (

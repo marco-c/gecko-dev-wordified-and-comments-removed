@@ -277,10 +277,17 @@ format
 "
 duplicate
 identifier
+{
+}
 for
 {
 }
 "
+name
+.
+name
+(
+)
 desc
 )
 )

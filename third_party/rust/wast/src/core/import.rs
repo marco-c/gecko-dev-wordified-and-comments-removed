@@ -371,6 +371,7 @@ func
 >
 (
 )
+?
 {
 let
 span
@@ -445,6 +446,7 @@ table
 >
 (
 )
+?
 {
 let
 span
@@ -514,6 +516,7 @@ memory
 >
 (
 )
+?
 {
 let
 span
@@ -583,6 +586,7 @@ global
 >
 (
 )
+?
 {
 let
 span
@@ -652,6 +656,7 @@ tag
 >
 (
 )
+?
 {
 let
 span
@@ -864,7 +869,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 cursor
@@ -875,6 +883,7 @@ cursor
 lparen
 (
 )
+?
 {
 Some
 (
@@ -887,7 +896,10 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -899,6 +911,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -916,7 +929,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -928,6 +944,7 @@ cursor
 string
 (
 )
+?
 {
 Some
 (
@@ -943,7 +960,10 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -955,6 +975,7 @@ cursor
 string
 (
 )
+?
 {
 Some
 (
@@ -970,17 +991,24 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
+Ok
+(
 cursor
 .
 rparen
 (
 )
+?
 .
 is_some
 (
+)
 )
 }
 fn

@@ -264,6 +264,7 @@ func
 >
 (
 )
+?
 {
 parser
 .
@@ -303,6 +304,7 @@ table
 >
 (
 )
+?
 {
 parser
 .
@@ -342,6 +344,7 @@ memory
 >
 (
 )
+?
 {
 parser
 .
@@ -381,6 +384,7 @@ global
 >
 (
 )
+?
 {
 parser
 .
@@ -420,6 +424,7 @@ tag
 >
 (
 )
+?
 {
 parser
 .
@@ -475,8 +480,13 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
+Ok
+(
 kw
 :
 :
@@ -487,6 +497,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -499,6 +510,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -511,6 +523,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -523,6 +536,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 kw
@@ -534,6 +548,8 @@ tag
 peek
 (
 cursor
+)
+?
 )
 }
 fn
@@ -752,6 +768,7 @@ Self
 >
 (
 )
+?
 {
 names
 .
@@ -828,7 +845,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 cursor
@@ -839,6 +859,7 @@ cursor
 lparen
 (
 )
+?
 {
 Some
 (
@@ -851,7 +872,10 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -863,6 +887,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -880,7 +905,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -892,6 +920,7 @@ cursor
 string
 (
 )
+?
 {
 Some
 (
@@ -907,17 +936,24 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
+Ok
+(
 cursor
 .
 rparen
 (
 )
+?
 .
 is_some
 (
+)
 )
 }
 fn

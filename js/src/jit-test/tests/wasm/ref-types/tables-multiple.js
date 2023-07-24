@@ -3774,9 +3774,10 @@ unexpected
 token
 expected
 an
-identifier
+index
 or
-u32
+an
+identifier
 /
 )
 ;

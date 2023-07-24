@@ -137,13 +137,15 @@ Inline
 {
 locals
 :
-Vec
+Box
 <
+[
 Local
 <
 '
 a
 >
+]
 >
 expression
 :
@@ -298,6 +300,10 @@ parse_remainder
 parser
 )
 ?
+.
+into
+(
+)
 ;
 (
 ty
@@ -444,6 +450,7 @@ local
 >
 (
 )
+?
 {
 parser
 .

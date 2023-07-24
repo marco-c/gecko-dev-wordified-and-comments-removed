@@ -355,6 +355,7 @@ c
 keyword
 (
 )
+?
 {
 if
 let
@@ -450,7 +451,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 kw
@@ -461,6 +465,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -476,9 +481,14 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
+Ok
+(
 ARGS
 .
 iter
@@ -502,6 +512,7 @@ kw
 .
 is_some
 (
+)
 )
 }
 fn
@@ -950,6 +961,7 @@ c
 keyword
 (
 )
+?
 {
 if
 let
@@ -1045,7 +1057,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 kw
@@ -1056,6 +1071,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -1071,9 +1087,14 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
+Ok
+(
 RETS
 .
 iter
@@ -1097,6 +1118,7 @@ kw
 .
 is_some
 (
+)
 )
 }
 fn
@@ -1204,6 +1226,7 @@ nan_canonical
 >
 (
 )
+?
 {
 parser
 .
@@ -1243,6 +1266,7 @@ nan_arithmetic
 >
 (
 )
+?
 {
 parser
 .
@@ -1420,6 +1444,7 @@ i8x16
 >
 (
 )
+?
 {
 parser
 .
@@ -1559,6 +1584,7 @@ i16x8
 >
 (
 )
+?
 {
 parser
 .
@@ -1650,6 +1676,7 @@ i32x4
 >
 (
 )
+?
 {
 parser
 .
@@ -1717,6 +1744,7 @@ i64x2
 >
 (
 )
+?
 {
 parser
 .
@@ -1772,6 +1800,7 @@ f32x4
 >
 (
 )
+?
 {
 parser
 .
@@ -1839,6 +1868,7 @@ f64x2
 >
 (
 )
+?
 {
 parser
 .

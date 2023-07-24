@@ -13,7 +13,6 @@ crate
 :
 {
 BinaryReader
-ComponentValType
 FromReader
 Result
 SectionLimited
@@ -101,9 +100,9 @@ u32
 }
 ResourceDrop
 {
-ty
+resource
 :
-ComponentValType
+u32
 }
 ResourceRep
 {
@@ -354,7 +353,7 @@ CanonicalFunction
 :
 ResourceDrop
 {
-ty
+resource
 :
 reader
 .

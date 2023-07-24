@@ -41,6 +41,7 @@ module
 (
 elem
 declare
+func
 run
 )
 (
@@ -85,6 +86,7 @@ module
 (
 elem
 declare
+func
 f1
 )
 (
@@ -137,6 +139,7 @@ module
 (
 elem
 declare
+func
 f1
 )
 (
@@ -200,6 +203,7 @@ module
 (
 elem
 declare
+func
 f1
 )
 (
@@ -241,6 +245,7 @@ f1
 (
 elem
 declare
+func
 f1
 )
 (
@@ -503,6 +508,7 @@ validFuncRefText
 (
 elem
 declare
+func
 referenced
 )
 '
@@ -761,6 +767,7 @@ i32
 (
 elem
 declare
+func
 f
 )
 (

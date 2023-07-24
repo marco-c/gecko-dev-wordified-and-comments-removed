@@ -6,7 +6,6 @@ crate
 encode_section
 ComponentSection
 ComponentSectionId
-ComponentValType
 Encode
 }
 ;
@@ -554,9 +553,9 @@ resource_drop
 &
 mut
 self
-ty
+ty_index
 :
-ComponentValType
+u32
 )
 -
 >
@@ -573,7 +572,7 @@ push
 0x03
 )
 ;
-ty
+ty_index
 .
 encode
 (

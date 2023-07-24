@@ -54,10 +54,8 @@ wasmparser
 {
 DataKind
 ElementKind
-HeapType
 Parser
 Payload
-ValType
 Validator
 VisitOperator
 WasmFeatures
@@ -730,6 +728,7 @@ ElementItems
 :
 Expressions
 (
+_
 r
 )
 =

@@ -345,6 +345,7 @@ module
 (
 elem
 declare
+func
 0
 )
 (
@@ -397,6 +398,7 @@ module
 (
 elem
 declare
+func
 0
 )
 (
@@ -792,6 +794,7 @@ f
 (
 elem
 declare
+func
 f
 )
 (

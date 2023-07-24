@@ -1128,6 +1128,9 @@ Elements
 :
 Expressions
 (
+el
+.
+ty
 &
 exps
 )
@@ -1235,9 +1238,6 @@ active
 table
 &
 offset
-el
-.
-ty
 elements
 )
 ;
@@ -1253,9 +1253,6 @@ elems
 .
 passive
 (
-el
-.
-ty
 elements
 )
 ;
@@ -1271,9 +1268,6 @@ elems
 .
 declared
 (
-el
-.
-ty
 elements
 )
 ;
