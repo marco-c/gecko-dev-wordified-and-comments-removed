@@ -808,7 +808,9 @@ prop
 getFn
 ?
 .
+call
 (
+obj
 )
 ;
 }
