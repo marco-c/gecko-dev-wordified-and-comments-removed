@@ -697,6 +697,8 @@ aCrossOrigin
 nsHtml5String
 aMedia
 nsHtml5String
+aNonce
+nsHtml5String
 aIntegrity
 nsHtml5String
 aReferrerPolicy
@@ -787,6 +789,13 @@ aMedia
 ToString
 (
 mMedia
+)
+;
+aNonce
+.
+ToString
+(
+mNonce
 )
 ;
 aIntegrity
@@ -1405,6 +1414,9 @@ mCrossOrigin
 ;
 nsString
 mMedia
+;
+nsString
+mNonce
 ;
 mozilla
 :
