@@ -211,6 +211,10 @@ href
 panel
 -
 list
+/
+panel
+-
+list
 .
 css
 "
@@ -2343,6 +2347,12 @@ CustomEvent
 name
 {
 detail
+bubbles
+:
+true
+composed
+:
+true
 }
 )
 )
@@ -2439,6 +2449,10 @@ IS_STORYBOOK
 ?
 "
 .
+/
+panel
+-
+list
 /
 panel
 -
