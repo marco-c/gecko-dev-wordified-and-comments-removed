@@ -2451,7 +2451,7 @@ header
 h2
 >
 <
-span
+div
 class
 =
 "
@@ -2672,7 +2672,7 @@ div
 >
 <
 /
-span
+div
 >
 <
 /
@@ -2727,7 +2727,7 @@ main
 "
 >
 <
-span
+div
 class
 =
 "
@@ -2782,10 +2782,10 @@ span
 >
 <
 /
-span
+div
 >
 <
-span
+div
 class
 =
 "
@@ -2870,7 +2870,7 @@ button
 >
 <
 /
-span
+div
 >
 <
 /
