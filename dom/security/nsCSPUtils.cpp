@@ -2373,8 +2373,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 {
@@ -2429,8 +2427,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 {
@@ -2527,8 +2523,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 {
@@ -3007,8 +3001,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 {
@@ -3711,8 +3703,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 {
@@ -3841,8 +3831,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 {
@@ -4098,8 +4086,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 {
@@ -4738,8 +4724,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 {
@@ -5241,7 +5225,6 @@ aUri
 aWasRedirected
 aReportOnly
 aUpgradeInsecure
-aParserCreated
 )
 )
 {
@@ -5267,8 +5250,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 {
@@ -5337,7 +5318,6 @@ allows
 (
 aKeyword
 aHashOrNonce
-aParserCreated
 )
 )
 {
@@ -7139,26 +7119,6 @@ Truncate
 (
 )
 ;
-bool
-parserCreated
-=
-false
-;
-if
-(
-aLoadInfo
-)
-{
-parserCreated
-=
-aLoadInfo
--
->
-GetParserCreatedScript
-(
-)
-;
-}
 nsCSPDirective
 *
 defaultDir
@@ -7216,7 +7176,6 @@ aUri
 aWasRedirected
 mReportOnly
 mUpgradeInsecDir
-parserCreated
 )
 )
 {
@@ -7284,7 +7243,6 @@ aUri
 aWasRedirected
 mReportOnly
 mUpgradeInsecDir
-parserCreated
 )
 )
 {
@@ -7323,8 +7281,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 {
@@ -7381,7 +7337,6 @@ allows
 (
 aKeyword
 aHashOrNonce
-aParserCreated
 )
 ;
 }
@@ -7709,7 +7664,6 @@ u
 "
 "
 _ns
-false
 )
 )
 {
@@ -7735,7 +7689,6 @@ NAVIGATE_TO_DIRECTIVE
 nullptr
 aURI
 aWasRedirected
-false
 false
 false
 )

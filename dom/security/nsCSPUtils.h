@@ -1155,8 +1155,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 ;
@@ -1171,8 +1169,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 ;
@@ -1283,8 +1279,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 override
@@ -1370,8 +1364,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 override
@@ -1596,8 +1588,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 override
@@ -1704,8 +1694,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 override
@@ -1803,8 +1791,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 override
@@ -2110,8 +2096,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 ;
@@ -2126,8 +2110,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 ;
@@ -2505,8 +2487,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 override
@@ -2538,8 +2518,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 override
@@ -2641,8 +2619,6 @@ bool
 aReportOnly
 bool
 aUpgradeInsecure
-bool
-aParserCreated
 )
 const
 override
@@ -2674,8 +2650,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 override
@@ -2786,8 +2760,6 @@ const
 nsAString
 &
 aHashOrNonce
-bool
-aParserCreated
 )
 const
 ;
