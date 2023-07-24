@@ -268,6 +268,13 @@ hideGlobalIndicator
 "
 false
 )
+|
+|
+Services
+.
+appinfo
+.
+isWayland
 ;
 if
 (
