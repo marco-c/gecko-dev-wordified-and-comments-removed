@@ -18225,6 +18225,10 @@ aCrossOrigin
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 bool
 aScriptFromHead
@@ -18399,10 +18403,7 @@ StringToCORSMode
 (
 aCrossOrigin
 )
-u
-"
-"
-_ns
+aNonce
 sriMetadata
 aReferrerPolicy
 aLinkPreload

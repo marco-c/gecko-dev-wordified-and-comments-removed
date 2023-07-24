@@ -884,6 +884,10 @@ aCrossOrigin
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 bool
 aScriptFromHead
