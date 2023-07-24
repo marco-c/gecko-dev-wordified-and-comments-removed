@@ -179,6 +179,35 @@ BidiModule
 command
     
 def
+activate
+(
+self
+                 
+context
+:
+str
+)
+-
+>
+Mapping
+[
+str
+Any
+]
+:
+        
+return
+{
+"
+context
+"
+:
+context
+}
+    
+command
+    
+def
 capture_screenshot
 (
         
