@@ -1645,6 +1645,10 @@ document
 GetReferrerPolicy
 (
 )
+u
+"
+"
+_ns
 principal
 nullptr
 )
