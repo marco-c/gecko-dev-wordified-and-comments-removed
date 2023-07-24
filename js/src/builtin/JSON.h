@@ -46,9 +46,6 @@ StringifyBehavior
 {
 Normal
 RestrictedSafe
-FastOnly
-SlowOnly
-Compare
 }
 ;
 extern
