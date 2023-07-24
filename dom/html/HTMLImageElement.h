@@ -133,7 +133,6 @@ HTMLImageElement
 nsGenericHTMLElement
 )
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 bool
 Draggable
 (
@@ -155,7 +154,6 @@ get
 )
 ;
 }
-virtual
 bool
 IsInteractiveHTMLContent
 (
@@ -163,7 +161,6 @@ IsInteractiveHTMLContent
 const
 override
 ;
-virtual
 void
 AsyncEventRunning
 (
@@ -184,7 +181,6 @@ GetCORSMode
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -206,7 +202,6 @@ aResult
 )
 override
 ;
-virtual
 nsChangeHint
 GetAttributeChangeHint
 (
@@ -234,7 +229,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -273,7 +267,6 @@ aTabIndex
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -285,7 +278,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -294,7 +286,6 @@ aNullParent
 )
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -302,7 +293,6 @@ IntrinsicState
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -319,7 +309,6 @@ aResult
 const
 override
 ;
-virtual
 void
 NodeInfoChanged
 (
@@ -1236,7 +1225,6 @@ bool
 aRemoveFromForm
 )
 ;
-virtual
 void
 DestroyContent
 (
@@ -1472,14 +1460,12 @@ GetXY
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
