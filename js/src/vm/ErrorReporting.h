@@ -112,7 +112,7 @@ JSErrorReport
 {
 public
 :
-void
+bool
 throwError
 (
 JSContext

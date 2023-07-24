@@ -180,7 +180,7 @@ reportp
 ;
 }
 }
-void
+bool
 js
 :
 :
@@ -208,8 +208,10 @@ this
 )
 ;
 return
+true
 ;
 }
+return
 ErrorToException
 (
 cx

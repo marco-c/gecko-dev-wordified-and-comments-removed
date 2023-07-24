@@ -496,7 +496,7 @@ Suppress
 Report
 }
 ;
-void
+bool
 convertToRuntimeError
 (
 JSContext
@@ -804,11 +804,14 @@ cx_
 nullptr
 ;
 }
-void
+bool
 convertToRuntimeErrorAndClear
 (
 )
 {
+bool
+result
+=
 convertToRuntimeError
 (
 cx_
@@ -818,6 +821,9 @@ warning_
 cx_
 =
 nullptr
+;
+return
+result
 ;
 }
 }
