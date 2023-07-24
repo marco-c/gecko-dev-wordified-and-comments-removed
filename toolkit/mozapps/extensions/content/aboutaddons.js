@@ -12641,7 +12641,7 @@ if
 (
 addon
 .
-averageRating
+reviewURL
 )
 {
 ratingRow
