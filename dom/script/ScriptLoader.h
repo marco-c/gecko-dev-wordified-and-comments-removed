@@ -247,6 +247,10 @@ ScriptLoadRequest
 class
 ScriptLoadRequestList
 ;
+enum
+class
+ParserMetadata
+;
 }
 }
 namespace
@@ -1022,6 +1026,14 @@ SRIMetadata
 aIntegrity
 ReferrerPolicy
 aReferrerPolicy
+JS
+:
+:
+loader
+:
+:
+ParserMetadata
+aParserMetadata
 )
 ;
 void

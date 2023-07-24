@@ -185,6 +185,9 @@ const
 nsAString
 &
 aNonce
+const
+ParserMetadata
+aParserMetadata
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -210,6 +213,10 @@ aReferrerPolicy
 mNonce
 (
 aNonce
+)
+mParserMetadata
+(
+aParserMetadata
 )
 mTriggeringPrincipal
 (
