@@ -1898,6 +1898,17 @@ Promise
 resolve
 (
 fxaDevices
+.
+filter
+(
+device
+=
+>
+!
+device
+.
+isCurrentDevice
+)
 )
 ;
 }
