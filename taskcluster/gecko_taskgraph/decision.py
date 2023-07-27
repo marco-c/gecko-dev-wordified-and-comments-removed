@@ -512,7 +512,17 @@ target_tasks_method
 "
 :
 "
-pine_tasks
+default
+"
+        
+"
+release_type
+"
+:
+"
+nightly
+-
+pine
 "
     
 }
