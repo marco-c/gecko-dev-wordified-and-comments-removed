@@ -7501,6 +7501,9 @@ parameters
 :
 [
 "
+chrome
+"
+"
 webDriverBiDi
 "
 ]
@@ -7554,6 +7557,9 @@ parameters
 "
 :
 [
+"
+chrome
+"
 "
 webDriverBiDi
 "
@@ -7731,6 +7737,9 @@ parameters
 "
 :
 [
+"
+chrome
+"
 "
 webDriverBiDi
 "
@@ -22062,9 +22071,6 @@ parameters
 :
 [
 "
-cdp
-"
-"
 firefox
 "
 ]
@@ -22118,9 +22124,6 @@ parameters
 "
 :
 [
-"
-cdp
-"
 "
 firefox
 "
@@ -22179,9 +22182,6 @@ parameters
 "
 :
 [
-"
-cdp
-"
 "
 firefox
 "
