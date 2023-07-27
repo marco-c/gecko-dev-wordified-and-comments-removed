@@ -443,6 +443,15 @@ chrome
 -
 m
 safari
+-
+-
+clear
+-
+cache
+Deletes
+the
+try_perf_revision_cache
+file
 task
 configuration
 arguments
