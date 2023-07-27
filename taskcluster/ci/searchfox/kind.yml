@@ -631,11 +631,6 @@ config
 mozconfig_platform
 :
 win64
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain
@@ -670,10 +665,6 @@ node
 linux64
 -
 cbindgen
--
-linux64
--
-sccache
 -
 linux64
 -
