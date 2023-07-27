@@ -435,10 +435,10 @@ eCSSProperty_width
 css
 false
 data
-ParsingMode
+StyleParsingMode
 :
 :
-Default
+DEFAULT
 eCompatibility_FullStandards
 nullptr
 STYLE_RULE
@@ -544,10 +544,10 @@ eCSSProperty_width
 css
 false
 data
-ParsingMode
+StyleParsingMode
 :
 :
-Default
+DEFAULT
 eCompatibility_FullStandards
 nullptr
 STYLE_RULE

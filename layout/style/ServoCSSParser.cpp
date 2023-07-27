@@ -135,7 +135,9 @@ const
 ParsingEnvironment
 &
 aParsingEnvironment
-ParsingMode
+const
+StyleParsingMode
+&
 aParsingMode
 )
 {

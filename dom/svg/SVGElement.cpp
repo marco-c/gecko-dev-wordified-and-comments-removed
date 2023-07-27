@@ -6262,10 +6262,10 @@ false
 EnsureExtraData
 (
 )
-ParsingMode
+StyleParsingMode
 :
 :
-AllowUnitlessLength
+ALLOW_UNITLESS_LENGTH
 doc
 -
 >

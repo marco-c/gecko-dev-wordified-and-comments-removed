@@ -1305,13 +1305,6 @@ nsCSSUnit
 nsCSSUnit
 "
 "
-ParsingMode
-"
-=
-"
-ParsingMode
-"
-"
 InheritTarget
 "
 =
