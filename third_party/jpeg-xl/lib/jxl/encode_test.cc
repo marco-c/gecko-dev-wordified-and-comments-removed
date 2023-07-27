@@ -8966,9 +8966,6 @@ xml_size
 ;
 }
 }
-#
-if
-JPEGXL_ENABLE_JPEG
 TEST
 (
 EncodeTest
@@ -8978,6 +8975,10 @@ JPEGFrameTest
 )
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 for
 (
 int
@@ -9450,5 +9451,3 @@ GetJxlCms
 }
 }
 }
-#
-endif

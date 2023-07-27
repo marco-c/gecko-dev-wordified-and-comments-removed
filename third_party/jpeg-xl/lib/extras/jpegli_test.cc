@@ -1,8 +1,5 @@
 #
 if
-JPEGXL_ENABLE_JPEG
-&
-&
 JPEGXL_ENABLE_JPEGLI
 #
 include
@@ -732,6 +729,10 @@ JpegliTest
 JpegliSRGBDecodeTest
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 std
 :
 :
@@ -860,6 +861,10 @@ JpegliTest
 JpegliGrayscaleDecodeTest
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 std
 :
 :
@@ -988,6 +993,10 @@ JpegliTest
 JpegliXYBEncodeTest
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 std
 :
 :
@@ -1124,6 +1133,10 @@ JpegliTest
 JpegliDecodeTestLargeSmoothArea
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 TestImage
 t
 ;
@@ -1315,6 +1328,10 @@ JpegliTest
 JpegliYUVEncodeTest
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 std
 :
 :
@@ -1451,6 +1468,10 @@ JpegliTest
 JpegliYUVChromaSubsamplingEncodeTest
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 std
 :
 :
@@ -1614,6 +1635,10 @@ JpegliTest
 JpegliYUVEncodeTestNoAq
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 std
 :
 :
@@ -2358,6 +2383,10 @@ JpegliColorQuantTestParam
 JpegliColorQuantizeTest
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 TestConfig
 config
 =

@@ -542,6 +542,13 @@ move
 (
 icc_profile_copy
 )
+&
+jxl
+:
+:
+GetJxlCms
+(
+)
 )
 )
 ;
@@ -4994,9 +5001,6 @@ dec
 )
 ;
 }
-#
-if
-JPEGXL_ENABLE_JPEG
 TEST
 (
 RoundtripTest
@@ -5006,6 +5010,10 @@ TestJPEGReconstruction
 )
 )
 {
+TEST_LIBJPEG_SUPPORT
+(
+)
+;
 const
 std
 :
@@ -5401,5 +5409,3 @@ used
 )
 ;
 }
-#
-endif

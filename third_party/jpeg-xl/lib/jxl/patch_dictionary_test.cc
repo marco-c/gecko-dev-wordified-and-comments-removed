@@ -322,9 +322,9 @@ frames
 io2
 .
 frames
-cparams
-.
-ba_params
+ButteraugliParams
+(
+)
 GetJxlCms
 (
 )

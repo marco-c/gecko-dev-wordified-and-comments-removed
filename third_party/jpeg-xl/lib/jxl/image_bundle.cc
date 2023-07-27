@@ -266,7 +266,7 @@ xsize
 0
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 MD

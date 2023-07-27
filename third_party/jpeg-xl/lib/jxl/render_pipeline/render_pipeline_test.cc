@@ -367,6 +367,10 @@ move
 (
 icc
 )
+&
+GetJxlCms
+(
+)
 )
 )
 ;

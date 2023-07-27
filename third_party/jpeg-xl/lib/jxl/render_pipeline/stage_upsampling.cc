@@ -797,7 +797,7 @@ ix
 ]
 ;
 }
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Invalid

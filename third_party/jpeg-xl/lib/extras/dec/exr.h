@@ -89,6 +89,11 @@ SizeConstraints
 namespace
 extras
 {
+bool
+CanDecodeEXR
+(
+)
+;
 Status
 DecodeImageEXR
 (

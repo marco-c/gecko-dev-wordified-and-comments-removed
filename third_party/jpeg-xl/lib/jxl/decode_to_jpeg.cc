@@ -37,7 +37,7 @@ if
 inside_box_
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 processing
@@ -222,7 +222,7 @@ size
 box_size_
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 JPEG

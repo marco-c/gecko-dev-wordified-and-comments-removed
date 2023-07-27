@@ -626,7 +626,7 @@ Visitor
 )
 override
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 JPEG
@@ -822,7 +822,7 @@ JPEGData
 *
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 JPEG

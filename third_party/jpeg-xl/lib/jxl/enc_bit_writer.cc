@@ -173,7 +173,7 @@ if
 called_
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Did

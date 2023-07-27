@@ -1720,12 +1720,7 @@ value
 0xff
 ;
 }
-const
-size_t
-kConvertMaxChannels
-=
-4
-;
+}
 Status
 ConvertChannelsToExternal
 (
@@ -3239,7 +3234,6 @@ ConvertUint
 return
 true
 ;
-}
 }
 Status
 ConvertToExternal

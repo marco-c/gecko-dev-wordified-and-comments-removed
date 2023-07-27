@@ -83,6 +83,11 @@ SizeConstraints
 namespace
 extras
 {
+bool
+CanDecodeGIF
+(
+)
+;
 Status
 DecodeImageGIF
 (

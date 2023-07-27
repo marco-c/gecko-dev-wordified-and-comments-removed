@@ -1172,7 +1172,7 @@ inverse_gamma
 }
 else
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Invalid

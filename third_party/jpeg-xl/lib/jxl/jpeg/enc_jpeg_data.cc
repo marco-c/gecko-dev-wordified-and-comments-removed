@@ -1584,6 +1584,7 @@ move
 (
 icc_profile
 )
+nullptr
 )
 ;
 }

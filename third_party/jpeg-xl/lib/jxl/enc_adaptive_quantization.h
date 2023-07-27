@@ -193,7 +193,7 @@ Rect
 &
 rect
 float
-original_butteraugli
+butteraugli_target
 ImageF
 *
 quant_field

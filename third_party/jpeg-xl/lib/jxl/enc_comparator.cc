@@ -439,6 +439,8 @@ diffmap
 ThreadPool
 *
 pool
+bool
+ignore_alpha
 )
 {
 ImageMetadata
@@ -537,6 +539,10 @@ linear_srgb1
 ;
 if
 (
+ignore_alpha
+|
+|
+(
 !
 rgb0
 .
@@ -550,6 +556,7 @@ rgb1
 .
 HasAlpha
 (
+)
 )
 )
 {

@@ -271,6 +271,11 @@ Main
 IsJPEG
 (
 )
+&
+&
+cparams
+.
+cms_set
 )
 {
 metadata
@@ -282,6 +287,9 @@ color_encoding
 .
 DecideIfWantICC
 (
+cparams
+.
+cms
 )
 ;
 }

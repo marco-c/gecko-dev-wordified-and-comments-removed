@@ -805,14 +805,8 @@ jxl_threads
 .
 cmake
 )
-find_package
-(
-JPEG
-)
 if
 (
-JPEG_FOUND
-AND
 JPEGXL_ENABLE_JPEGLI
 )
 include

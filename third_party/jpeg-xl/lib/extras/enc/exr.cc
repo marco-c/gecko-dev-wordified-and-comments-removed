@@ -12,6 +12,9 @@ exr
 h
 "
 #
+if
+JPEGXL_ENABLE_EXR
+#
 include
 <
 ImfChromaticitiesAttribute
@@ -39,6 +42,8 @@ ImfStandardAttributes
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -83,6 +88,9 @@ jxl
 namespace
 extras
 {
+#
+if
+JPEGXL_ENABLE_EXR
 namespace
 {
 namespace
@@ -1212,6 +1220,8 @@ true
 }
 ;
 }
+#
+endif
 std
 :
 :
@@ -1223,6 +1233,9 @@ GetEXREncoder
 (
 )
 {
+#
+if
+JPEGXL_ENABLE_EXR
 return
 jxl
 :
@@ -1234,6 +1247,13 @@ EXREncoder
 (
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 }
 }
