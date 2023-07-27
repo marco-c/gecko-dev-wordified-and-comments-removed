@@ -237,7 +237,7 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -601,7 +601,7 @@ lazy
 .
 ExperimentManager
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

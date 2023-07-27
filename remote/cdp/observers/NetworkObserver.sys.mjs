@@ -199,7 +199,7 @@ Components
 .
 Constructor
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -235,7 +235,7 @@ setInputStream
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -271,7 +271,7 @@ setOutputStream
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

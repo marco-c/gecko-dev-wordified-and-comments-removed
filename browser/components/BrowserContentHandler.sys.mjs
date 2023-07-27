@@ -363,7 +363,7 @@ nsIWindowsUIUtils
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -384,7 +384,7 @@ getSystemPrincipal
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

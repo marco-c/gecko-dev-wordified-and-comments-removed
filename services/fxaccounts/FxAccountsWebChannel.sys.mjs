@@ -264,7 +264,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -833,7 +833,7 @@ specified
 by
 tests
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

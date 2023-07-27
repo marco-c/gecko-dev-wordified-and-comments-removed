@@ -417,7 +417,7 @@ Messenger
 =
 ExtensionChild
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

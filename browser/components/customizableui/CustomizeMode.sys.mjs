@@ -352,7 +352,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -423,7 +423,7 @@ nsITouchBarUpdater
 let
 gDebug
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

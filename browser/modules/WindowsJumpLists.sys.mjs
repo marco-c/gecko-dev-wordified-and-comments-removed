@@ -222,7 +222,7 @@ Smart
 getters
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -247,7 +247,7 @@ PREF_TASKBAR_BRANCH
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -2420,7 +2420,7 @@ STORE_LABEL
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -191,7 +191,7 @@ nsIAlertsService
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

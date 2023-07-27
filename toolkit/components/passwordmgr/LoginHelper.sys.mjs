@@ -11394,7 +11394,7 @@ browser
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

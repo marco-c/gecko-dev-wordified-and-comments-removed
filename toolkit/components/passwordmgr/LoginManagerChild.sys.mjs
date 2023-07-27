@@ -550,7 +550,7 @@ nsIFormFillController
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -548,7 +548,7 @@ js
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -614,7 +614,7 @@ STORAGE_SYNC_SERVER_URL_PREF
 KINTO_DEFAULT_SERVER_URL
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

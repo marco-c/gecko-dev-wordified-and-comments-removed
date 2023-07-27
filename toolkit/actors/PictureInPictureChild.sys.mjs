@@ -741,7 +741,7 @@ return
 types
 are
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -764,7 +764,7 @@ getSiteOverrides
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

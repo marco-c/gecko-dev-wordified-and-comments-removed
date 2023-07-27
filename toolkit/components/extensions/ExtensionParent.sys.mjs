@@ -13651,7 +13651,7 @@ _resetStartupPromises
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -13826,7 +13826,7 @@ platform
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -870,7 +870,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -901,7 +901,7 @@ nsIResProtocolHandler
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1369,7 +1369,7 @@ updateAllowedOrigins
 =
 ExtensionCommon
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1386,7 +1386,7 @@ ExtensionCommon
 LocaleData
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1468,7 +1468,7 @@ is
 also
 removed
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -17328,7 +17328,7 @@ result
 ;
 }
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

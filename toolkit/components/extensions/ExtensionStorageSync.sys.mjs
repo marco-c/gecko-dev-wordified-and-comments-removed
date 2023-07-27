@@ -273,7 +273,7 @@ browser
 storage
 API
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

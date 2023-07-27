@@ -483,7 +483,7 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -736,7 +736,7 @@ custom
 preferences
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

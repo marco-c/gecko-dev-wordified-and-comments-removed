@@ -327,7 +327,7 @@ settings
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -414,7 +414,7 @@ under
 some
 conditions
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -394,7 +394,7 @@ nsIHandlerService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

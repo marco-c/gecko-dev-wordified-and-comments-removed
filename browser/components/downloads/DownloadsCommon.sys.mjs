@@ -431,7 +431,7 @@ nsIMIMEService
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -757,7 +757,7 @@ name
 =
 key
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -4689,7 +4689,7 @@ rv
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -4719,7 +4719,7 @@ DownloadsLogger
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6370,7 +6370,7 @@ showPanel
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6396,7 +6396,7 @@ true
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6425,7 +6425,7 @@ kMaxHistoryResultsForLimitedView
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6457,7 +6457,7 @@ kMaxHistoryResultsForLimitedView
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6483,7 +6483,7 @@ true
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -8740,7 +8740,7 @@ prototype
 DownloadsViewPrototype
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -8762,7 +8762,7 @@ true
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

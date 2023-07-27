@@ -176,7 +176,7 @@ contentPromptSubDialog
 false
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

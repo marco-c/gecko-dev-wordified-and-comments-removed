@@ -264,7 +264,7 @@ nsIAddonContentPolicy
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

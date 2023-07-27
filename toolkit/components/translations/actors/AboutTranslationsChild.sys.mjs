@@ -83,7 +83,7 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

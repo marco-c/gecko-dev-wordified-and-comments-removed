@@ -381,7 +381,7 @@ mozilla
 org
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -407,7 +407,7 @@ PREF_SETTINGS_BRANCH
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -426,7 +426,7 @@ Utils
 log
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

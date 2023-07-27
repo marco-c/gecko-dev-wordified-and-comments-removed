@@ -6099,7 +6099,7 @@ result
 ;
 }
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

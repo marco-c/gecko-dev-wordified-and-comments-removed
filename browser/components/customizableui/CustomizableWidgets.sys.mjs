@@ -274,7 +274,7 @@ screenshots
 disabled
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

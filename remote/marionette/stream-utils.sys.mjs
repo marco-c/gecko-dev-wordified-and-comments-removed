@@ -133,7 +133,7 @@ nsIIOUtil
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

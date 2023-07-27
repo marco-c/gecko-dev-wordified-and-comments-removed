@@ -208,7 +208,7 @@ rules
 list
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -273,7 +273,7 @@ defined
 by
 pref
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

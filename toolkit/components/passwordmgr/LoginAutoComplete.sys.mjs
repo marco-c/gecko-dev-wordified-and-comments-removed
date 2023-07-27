@@ -240,7 +240,7 @@ Ci
 nsIFormFillController
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -268,7 +268,7 @@ LoginAutoComplete
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -306,7 +306,7 @@ properties
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

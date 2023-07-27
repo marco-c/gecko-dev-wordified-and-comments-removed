@@ -146,7 +146,7 @@ recommended
 false
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

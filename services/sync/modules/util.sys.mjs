@@ -4718,7 +4718,7 @@ this
 ;
 }
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -4769,7 +4769,7 @@ converter
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

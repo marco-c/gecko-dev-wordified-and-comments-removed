@@ -203,7 +203,7 @@ nsIProtocolProxyService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -230,7 +230,7 @@ tabTracker
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

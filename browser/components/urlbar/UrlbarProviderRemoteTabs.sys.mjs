@@ -270,7 +270,7 @@ RECENT_REMOTE_TAB_THRESHOLD_MS
 72
 hours
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -177,7 +177,7 @@ nsIAutoCompleteSimpleSearch
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6843,7 +6843,7 @@ text
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

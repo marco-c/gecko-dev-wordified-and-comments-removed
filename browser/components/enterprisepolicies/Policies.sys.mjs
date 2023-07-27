@@ -371,7 +371,7 @@ XPCSHELL_TEST_PROFILE_DIR
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

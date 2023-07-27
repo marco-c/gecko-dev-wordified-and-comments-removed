@@ -5360,7 +5360,7 @@ geckoViewSessionContextId
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

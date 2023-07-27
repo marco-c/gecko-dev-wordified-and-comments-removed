@@ -1509,7 +1509,7 @@ end
 of
 LoginManagerAuthPromptFactory
 implementation
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6521,7 +6521,7 @@ end
 of
 LoginManagerAuthPrompter
 implementation
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -237,7 +237,7 @@ addon
 detail
 -
 platform
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -343,7 +343,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -385,7 +385,7 @@ mpLocked
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -5075,7 +5075,7 @@ initialize
 (
 )
 {
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -100,7 +100,7 @@ logLevel
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

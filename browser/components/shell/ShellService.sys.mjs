@@ -205,7 +205,7 @@ nsIXREDirProvider
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

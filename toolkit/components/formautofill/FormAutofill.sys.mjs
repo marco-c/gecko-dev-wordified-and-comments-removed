@@ -1364,7 +1364,7 @@ locales
 -
 changed
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

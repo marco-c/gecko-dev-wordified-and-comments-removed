@@ -530,7 +530,7 @@ the
 url
 too
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -591,7 +591,7 @@ with
 port
 expression
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -631,7 +631,7 @@ to
 identify
 numbers
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -682,7 +682,7 @@ least
 tabs
 )
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -883,7 +883,7 @@ and
 so
 on
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -950,7 +950,7 @@ to
 strip
 newlines
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1027,7 +1027,7 @@ by
 crossing
 XPConnect
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1128,7 +1128,7 @@ just
 2
 dots
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1204,7 +1204,7 @@ d
 i
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1301,7 +1301,7 @@ of
 known
 domains
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1622,7 +1622,7 @@ worth
 the
 complication
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

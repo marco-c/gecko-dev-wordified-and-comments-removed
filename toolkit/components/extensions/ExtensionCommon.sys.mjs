@@ -10832,7 +10832,7 @@ global
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

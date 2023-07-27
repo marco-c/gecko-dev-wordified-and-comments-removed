@@ -12325,7 +12325,7 @@ importing
 PlacesUtils
 immediately
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -12360,7 +12360,7 @@ TYPE_X_MOZ_PLACE
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -12391,7 +12391,7 @@ TYPE_PLAINTEXT
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -12423,7 +12423,7 @@ URI_FLAVORS
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -12457,7 +12457,7 @@ data
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

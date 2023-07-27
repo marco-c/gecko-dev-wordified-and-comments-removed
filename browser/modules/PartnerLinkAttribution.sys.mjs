@@ -177,7 +177,7 @@ to
 send
 custom
 pings
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -234,7 +234,7 @@ services
 contextId
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

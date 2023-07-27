@@ -1510,7 +1510,7 @@ so
 be
 warned
 !
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -2256,7 +2256,7 @@ name
 Store
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

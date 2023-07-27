@@ -281,7 +281,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -399,7 +399,7 @@ enabled
 false
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

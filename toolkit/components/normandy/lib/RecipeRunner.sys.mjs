@@ -606,7 +606,7 @@ SHIELD_ENABLED_PREF
 API_URL_PREF
 ]
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

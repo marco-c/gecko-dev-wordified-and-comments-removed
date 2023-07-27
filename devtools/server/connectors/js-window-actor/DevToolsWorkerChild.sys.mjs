@@ -130,7 +130,7 @@ nsIWorkerDebuggerManager
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -166,7 +166,7 @@ mjs
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

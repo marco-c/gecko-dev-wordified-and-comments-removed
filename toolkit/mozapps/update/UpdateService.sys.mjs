@@ -2533,7 +2533,7 @@ SelfContainedPromise
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2573,7 +2573,7 @@ false
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2600,7 +2600,7 @@ false
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2653,7 +2653,7 @@ false
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -5861,7 +5861,7 @@ session
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

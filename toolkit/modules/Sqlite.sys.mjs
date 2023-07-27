@@ -1193,7 +1193,7 @@ clients
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

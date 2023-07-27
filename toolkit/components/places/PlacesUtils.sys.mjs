@@ -244,7 +244,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -279,7 +279,7 @@ action
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -13333,7 +13333,7 @@ _logger
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -13570,7 +13570,7 @@ nsINavBookmarksService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -13658,7 +13658,7 @@ nsITaggingService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -13720,7 +13720,7 @@ paste
 drag
 operations
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -14166,7 +14166,7 @@ ex
 ;
 }
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -14230,7 +14230,7 @@ error
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -14298,7 +14298,7 @@ defer
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

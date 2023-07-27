@@ -501,7 +501,7 @@ true
 }
 ]
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -531,7 +531,7 @@ true
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

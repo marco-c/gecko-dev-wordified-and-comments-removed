@@ -452,7 +452,7 @@ gBrowser
 .
 selectedTab
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

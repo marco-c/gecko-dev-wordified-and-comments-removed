@@ -221,7 +221,7 @@ global
 being
 initialized
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -248,7 +248,7 @@ tabTracker
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

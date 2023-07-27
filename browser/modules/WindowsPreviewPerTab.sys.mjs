@@ -1292,7 +1292,7 @@ TabAttrModified
 this
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -5222,7 +5222,7 @@ nsIObserver
 )
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

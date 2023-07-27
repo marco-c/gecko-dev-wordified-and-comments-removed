@@ -260,7 +260,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -279,7 +279,7 @@ ExtensionParent
 StartupCache
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

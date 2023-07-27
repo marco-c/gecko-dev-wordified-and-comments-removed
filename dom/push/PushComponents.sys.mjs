@@ -135,7 +135,7 @@ Push
 service
 implementation
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

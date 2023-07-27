@@ -502,7 +502,7 @@ nsIMessageListener
 }
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

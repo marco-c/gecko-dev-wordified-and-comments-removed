@@ -634,7 +634,7 @@ nsIContentPrefService2
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -121,7 +121,7 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2491,7 +2491,7 @@ from
 the
 default
 branch
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

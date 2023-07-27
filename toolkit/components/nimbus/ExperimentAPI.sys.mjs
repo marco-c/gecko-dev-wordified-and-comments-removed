@@ -1688,7 +1688,7 @@ lazy
 FeatureManifest
 )
 {
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3520,7 +3520,7 @@ undefined
 ;
 }
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3540,7 +3540,7 @@ ExperimentManager
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3571,7 +3571,7 @@ ExperimentStore
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

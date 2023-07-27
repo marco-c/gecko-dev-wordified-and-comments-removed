@@ -280,7 +280,7 @@ nsIApplicationUpdateService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
