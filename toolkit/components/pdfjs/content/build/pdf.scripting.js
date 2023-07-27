@@ -3704,7 +3704,6 @@ displayValue
 ;
 }
 else
-{
 if
 (
 indices
@@ -3750,7 +3749,6 @@ this
 _currentValueIndices
 ]
 ;
-}
 }
 this
 .
@@ -4971,7 +4969,6 @@ index
 }
 }
 else
-{
 if
 (
 this
@@ -5015,7 +5012,6 @@ this
 .
 _currentValueIndices
 ;
-}
 }
 this
 .
@@ -27281,14 +27277,14 @@ pdfjsVersion
 .
 9
 .
-104
+130
 '
 ;
 const
 pdfjsBuild
 =
 '
-2a508b95e
+71f113bf8
 '
 ;
 }

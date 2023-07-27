@@ -263,11 +263,6 @@ textLayerMode
 :
 1
 "
-useOnlyCssZoom
-"
-:
-false
-"
 viewerCssTheme
 "
 :
