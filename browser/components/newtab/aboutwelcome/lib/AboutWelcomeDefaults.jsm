@@ -2424,6 +2424,11 @@ color
 progress_bar
 :
 true
+hide_secondary_section
+:
+"
+responsive
+"
 migrate_start
 :
 {
