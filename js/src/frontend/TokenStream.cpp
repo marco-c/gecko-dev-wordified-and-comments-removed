@@ -2417,7 +2417,7 @@ computeErrorMetadataNoOffset
 metadata
 )
 ;
-ReportCompileErrorLatin1
+ReportCompileErrorLatin1VA
 (
 fc
 std
@@ -4569,7 +4569,7 @@ badUnitsStr
 break
 ;
 }
-ReportCompileErrorLatin1
+ReportCompileErrorLatin1VA
 (
 anyChars
 .

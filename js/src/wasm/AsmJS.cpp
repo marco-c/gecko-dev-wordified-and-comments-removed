@@ -10230,7 +10230,7 @@ throwOnAsmJSValidationFailure
 )
 )
 {
-ReportCompileErrorLatin1
+ReportCompileErrorLatin1VA
 (
 fc_
 std

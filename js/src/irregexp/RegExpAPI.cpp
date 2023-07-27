@@ -1452,7 +1452,7 @@ args
 length
 )
 ;
-ReportCompileErrorLatin1
+ReportCompileErrorLatin1VA
 (
 ts
 .
