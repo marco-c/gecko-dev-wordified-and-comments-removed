@@ -7811,7 +7811,31 @@ RefTest
 .
 item_type
 [
+]
+            
+for
+variant
+in
+self
+.
+test_variants
+:
                 
+url
+=
+self
+.
+rel_url
++
+variant
+                
+rv
+[
+1
+]
+.
+append
+(
 RefTest
 (
                     
@@ -7827,15 +7851,33 @@ self
 .
 url_base
                     
-self
-.
-rel_url
+url
                     
 references
 =
+[
+                        
+(
+ref
+[
+0
+]
++
+variant
+ref
+[
+1
+]
+)
+                        
+for
+ref
+in
 self
 .
 references
+                    
+]
                     
 timeout
 =
@@ -7862,7 +7904,7 @@ self
 fuzzy
                 
 )
-]
+)
         
 elif
 self
