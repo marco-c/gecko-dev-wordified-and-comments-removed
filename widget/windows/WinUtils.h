@@ -1464,6 +1464,15 @@ GetAllPointerCapabilities
 )
 ;
 static
+void
+GetPointerExplanation
+(
+nsAString
+*
+aExplanation
+)
+;
+static
 bool
 ResolveJunctionPointsAndSymLinks
 (
