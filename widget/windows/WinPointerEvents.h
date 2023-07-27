@@ -516,11 +516,6 @@ aPenInfo
 )
 ;
 bool
-ShouldEnableInkCollector
-(
-)
-;
-bool
 ShouldRollupOnPointerEvent
 (
 UINT

@@ -2393,11 +2393,6 @@ get
 ;
 if
 (
-IsWin10OrLater
-(
-)
-&
-&
 mIsSystemPrincipal
 )
 {
@@ -3903,13 +3898,6 @@ hr
 false
 )
 ;
-if
-(
-IsWin10OrLater
-(
-)
-)
-{
 ComPtr
 <
 IToastNotification2
@@ -3983,7 +3971,6 @@ hr
 false
 )
 ;
-}
 ComPtr
 <
 IToastNotificationManagerStatics
@@ -4912,13 +4899,6 @@ IToastDismissedEventArgs
 aArgs
 )
 {
-if
-(
-IsWin10OrLater
-(
-)
-)
-{
 ComPtr
 <
 IToastNotification2
@@ -5007,7 +4987,6 @@ mAumid
 return
 S_OK
 ;
-}
 }
 SendFinished
 (
