@@ -64,10 +64,6 @@ dom
 {
 NS_IMPL_ISUPPORTS0
 (
-MozPromiseRejectOnDestructionBase
-)
-NS_IMPL_ISUPPORTS0
-(
 DomPromiseListener
 )
 DomPromiseListener
