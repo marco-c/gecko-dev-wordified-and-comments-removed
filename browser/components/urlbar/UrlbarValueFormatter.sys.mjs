@@ -1892,6 +1892,17 @@ if
 (
 !
 urlMetaData
+|
+|
+this
+.
+window
+.
+gBrowser
+.
+selectedBrowser
+.
+searchTerms
 )
 {
 return
