@@ -4487,7 +4487,7 @@ if
 (
 e
 .
-mozInputSource
+inputSource
 =
 =
 MouseEvent
@@ -13856,7 +13856,7 @@ if
 (
 e
 .
-mozInputSource
+inputSource
 =
 =
 MouseEvent

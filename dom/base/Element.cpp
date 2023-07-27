@@ -16887,7 +16887,7 @@ mouseDOMEvent
 mouseEvent
 -
 >
-MozInputSource
+InputSource
 (
 )
 IgnoreErrors

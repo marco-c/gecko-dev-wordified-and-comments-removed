@@ -1889,7 +1889,7 @@ inputSource
 mouseEvent
 -
 >
-MozInputSource
+InputSource
 (
 )
 ;

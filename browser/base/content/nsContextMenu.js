@@ -377,7 +377,7 @@ null
 0
 context
 .
-mozInputSource
+inputSource
 )
 ;
 popup

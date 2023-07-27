@@ -499,7 +499,7 @@ triggeringEvent
 (
 triggeringEvent
 .
-mozInputSource
+inputSource
 =
 =
 MouseEvent
@@ -509,7 +509,7 @@ MOZ_SOURCE_KEYBOARD
 |
 triggeringEvent
 .
-mozInputSource
+inputSource
 =
 =
 MouseEvent

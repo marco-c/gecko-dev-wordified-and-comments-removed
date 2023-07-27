@@ -3617,11 +3617,11 @@ devicePixelRatio
 ;
 context
 .
-mozInputSource
+inputSource
 =
 aEvent
 .
-mozInputSource
+inputSource
 ;
 let
 node

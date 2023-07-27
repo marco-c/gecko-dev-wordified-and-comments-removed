@@ -241,7 +241,7 @@ mousedown
 |
 event
 .
-mozInputSource
+inputSource
 =
 =
 MouseEvent

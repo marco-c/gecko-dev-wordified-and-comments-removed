@@ -1115,7 +1115,7 @@ checking
 the
 event
 .
-mozInputSource
+inputSource
 property
 in
 chrome
@@ -1171,7 +1171,7 @@ mousedown
 |
 event
 .
-mozInputSource
+inputSource
 =
 =
 MouseEvent

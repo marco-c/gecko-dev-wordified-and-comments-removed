@@ -8427,7 +8427,7 @@ null
 0
 data
 .
-mozInputSource
+inputSource
 )
 ;
 popup

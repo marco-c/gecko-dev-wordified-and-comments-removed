@@ -4976,7 +4976,7 @@ metaKey
 null
 aEvent
 .
-mozInputSource
+inputSource
 )
 ;
 aEvent
@@ -36954,7 +36954,7 @@ if
 (
 event
 .
-mozInputSource
+inputSource
 =
 =
 MouseEvent

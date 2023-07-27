@@ -9687,11 +9687,11 @@ event
 screenY
 *
 devicePixelRatio
-mozInputSource
+inputSource
 :
 event
 .
-mozInputSource
+inputSource
 }
 )
 ;
