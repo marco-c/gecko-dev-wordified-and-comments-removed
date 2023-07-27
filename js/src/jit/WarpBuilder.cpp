@@ -5338,6 +5338,16 @@ inlineCallInfo
 )
 )
 ;
+if
+(
+!
+arg
+)
+{
+return
+false
+;
+}
 }
 else
 {
