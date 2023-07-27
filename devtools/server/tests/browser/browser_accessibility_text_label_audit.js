@@ -3045,14 +3045,7 @@ link
 -
 1
 "
-{
-score
-:
-FAIL
-issue
-:
-INTERACTIVE_NO_NAME
-}
+null
 ]
 [
 "

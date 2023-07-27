@@ -182,6 +182,14 @@ return
 false
 ;
 }
+virtual
+role
+NativeRole
+(
+)
+const
+override
+;
 protected
 :
 virtual
