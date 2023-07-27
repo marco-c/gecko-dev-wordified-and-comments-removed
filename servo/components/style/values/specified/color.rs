@@ -1032,16 +1032,11 @@ in_ua_or_chrome_sheet
 )
 ]
 MozButtondisabledface
-MozMacChromeActive
-MozMacChromeInactive
 MozMacDefaultbuttontext
 MozMacFocusring
-MozMacMenuselect
-MozMacMenushadow
 MozMacMenutextdisable
 MozMacMenutextselect
 MozMacDisabledtoolbartext
-MozMacSecondaryhighlight
 MozMacMenupopup
 MozMacMenuitem
 MozMacActiveMenuitem
