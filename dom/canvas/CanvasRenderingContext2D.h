@@ -394,15 +394,6 @@ GetOriginalCanvas
 ;
 }
 void
-GetContextAttributes
-(
-CanvasRenderingContext2DSettings
-&
-aSettings
-)
-const
-;
-void
 OnMemoryPressure
 (
 )
