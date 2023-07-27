@@ -5675,7 +5675,14 @@ button
 translationsactive
 ]
 :
+is
+(
+:
 hover
+[
+open
+]
+)
 >
 #
 translations
