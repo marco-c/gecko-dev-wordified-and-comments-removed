@@ -4918,7 +4918,7 @@ gfxFont
 >
 GetFontAt
 (
-int32_t
+uint32_t
 i
 uint32_t
 aCh
@@ -4933,7 +4933,7 @@ gfxFont
 >
 GetFontAt
 (
-int32_t
+uint32_t
 i
 uint32_t
 aCh
