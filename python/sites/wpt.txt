@@ -114,6 +114,13 @@ tests
 tools
 /
 wptserve
+vendored
+:
+third_party
+/
+python
+/
+redo
 pypi
 :
 tox
