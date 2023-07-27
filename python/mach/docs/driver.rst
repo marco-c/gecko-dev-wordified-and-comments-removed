@@ -195,9 +195,7 @@ meth
 :
 mach
 .
-main
-.
-Mach
+command_util
 .
 load_commands_from_entry_point
 .
@@ -214,8 +212,6 @@ block
 :
 :
 python
-mach
-.
 load_commands_from_entry_point
 (
 "

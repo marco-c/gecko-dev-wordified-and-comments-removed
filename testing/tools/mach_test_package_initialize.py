@@ -1053,9 +1053,10 @@ main
 from
 mach
 .
-main
+command_util
 import
 MachCommandReference
+load_commands_from_spec
     
 MACH_COMMANDS
 =
@@ -1611,8 +1612,6 @@ priority
 ]
 )
     
-mach
-.
 load_commands_from_spec
 (
 MACH_COMMANDS

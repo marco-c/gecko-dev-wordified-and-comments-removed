@@ -19,6 +19,12 @@ MachError
 from
 mach
 .
+command_util
+import
+load_commands_from_file
+from
+mach
+.
 main
 import
 Mach
@@ -494,8 +500,6 @@ assertRaises
             
 MachError
             
-m
-.
 load_commands_from_file
             
 PROVIDER_DIR

@@ -42,6 +42,13 @@ StringIO
 from
 mach
 .
+command_util
+import
+load_commands_from_entry_point
+load_commands_from_file
+from
+mach
+.
 main
 import
 Mach
@@ -215,8 +222,6 @@ in
 provider_files
 :
                 
-m
-.
 load_commands_from_file
 (
 PROVIDER_DIR
@@ -228,8 +233,6 @@ if
 entry_point
 :
             
-m
-.
 load_commands_from_entry_point
 (
 entry_point
