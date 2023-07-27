@@ -876,15 +876,6 @@ StaticPrefs
 media_wmf_low_latency_enabled
 (
 )
-&
-&
-!
-StaticPrefs
-:
-:
-media_wmf_low_latency_force_disabled
-(
-)
 ;
 static
 const
