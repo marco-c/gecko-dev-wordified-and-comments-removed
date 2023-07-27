@@ -997,6 +997,15 @@ while
 status
 is
 None
+and
+p
+.
+pid_exists
+(
+p
+.
+pid
+)
 :
                 
 try
@@ -1014,6 +1023,7 @@ p
 .
 wait
 (
+5
 )
                     
 else
