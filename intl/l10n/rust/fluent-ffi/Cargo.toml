@@ -72,6 +72,17 @@ pseudo
 }
 fluent
 -
+syntax
+=
+"
+0
+.
+11
+.
+0
+"
+fluent
+-
 pseudo
 =
 "
