@@ -697,6 +697,12 @@ this
 highlightsMap
 )
 {
+this
+.
+hidden
+=
+true
+;
 return
 null
 ;
