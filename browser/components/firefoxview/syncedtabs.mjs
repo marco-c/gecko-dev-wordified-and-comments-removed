@@ -1077,7 +1077,15 @@ adddevice
 -
 primarybutton
 "
-link
+descriptionLink
+:
+{
+name
+:
+"
+url
+"
+url
 :
 "
 https
@@ -1116,6 +1124,7 @@ to
 -
 sync
 "
+}
 }
 "
 sync
@@ -1408,6 +1417,8 @@ actionMappings
 [
 action
 ]
+.
+descriptionLink
 ;
 mainImageUrl
 =
