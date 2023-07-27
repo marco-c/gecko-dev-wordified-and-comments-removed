@@ -1961,6 +1961,8 @@ command
 if
 (
 logPII
+(
+)
 )
 {
 log

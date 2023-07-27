@@ -2117,6 +2117,8 @@ keyFetchToken
 if
 (
 logPII
+(
+)
 )
 {
 log
@@ -2415,6 +2417,8 @@ wrapKB
 if
 (
 logPII
+(
+)
 )
 {
 log
@@ -2472,6 +2476,8 @@ null
 if
 (
 logPII
+(
+)
 )
 {
 log
@@ -2631,6 +2637,8 @@ host
 if
 (
 logPII
+(
+)
 )
 {
 log
