@@ -324,15 +324,6 @@ overlay
 *
 *
 )
-content
-/
-browser
-/
-screenshots
-/
-overlayHelpers
-.
-mjs
 %
 content
 screenshots
