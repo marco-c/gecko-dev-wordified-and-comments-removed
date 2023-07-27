@@ -924,7 +924,6 @@ color
 Canvas
 MozDialog
 MozDialogtext
-MozDragtargetzone
 #
 [
 parse
@@ -1061,8 +1060,6 @@ in_ua_or_chrome_sheet
 )
 ]
 MozAutofillBackground
-MozWinMediatext
-MozWinCommunicationstext
 MozNativehyperlinktext
 #
 [
