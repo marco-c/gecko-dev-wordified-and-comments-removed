@@ -16,15 +16,6 @@ XP_WIN
 #
 include
 "
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h
@@ -435,13 +426,6 @@ OptimizeSystemHeap
 (
 )
 {
-if
-(
-IsWin8Point1OrLater
-(
-)
-)
-{
 HEAP_OPTIMIZE_RESOURCES_INFORMATION
 heapOptInfo
 =
@@ -463,7 +447,6 @@ heapOptInfo
 )
 )
 ;
-}
 }
 #
 endif
