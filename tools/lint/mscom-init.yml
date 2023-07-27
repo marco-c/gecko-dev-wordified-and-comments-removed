@@ -326,14 +326,6 @@ widget
 /
 windows
 /
-InkCollector
-.
-cpp
--
-widget
-/
-windows
-/
 TaskbarPreview
 .
 cpp
