@@ -385,12 +385,6 @@ IntID
 :
 WindowsAccentColorInTitlebar
 :
-case
-IntID
-:
-:
-WindowsDefaultTheme
-:
 aResult
 =
 0

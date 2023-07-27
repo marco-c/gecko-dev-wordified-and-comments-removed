@@ -178,8 +178,6 @@ TreeScrollLinesMax
 TabFocusModel
 ChosenMenuItemsShouldBlink
 WindowsAccentColorInTitlebar
-WindowsDefaultTheme
-MacGraphiteTheme
 MacBigSurTheme
 MacRTL
 AlertNotificationOrigin
