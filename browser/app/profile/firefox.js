@@ -12766,9 +12766,6 @@ neverForLanguages
 "
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -12781,8 +12778,6 @@ enable
 true
 )
 ;
-#
-endif
 pref
 (
 "
