@@ -28964,6 +28964,14 @@ sDynamicPrefOverrideList
 PREF_LIST_ENTRY
 (
 "
+accessibility
+.
+tabfocus
+"
+)
+PREF_LIST_ENTRY
+(
+"
 app
 .
 update
