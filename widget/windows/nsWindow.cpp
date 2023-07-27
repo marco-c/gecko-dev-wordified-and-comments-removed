@@ -2506,7 +2506,10 @@ InitializeVirtualDesktopManagerTask
 :
 Task
 (
-false
+Kind
+:
+:
+OffMainThreadOnly
 kDefaultPriorityValue
 )
 {
@@ -9853,7 +9856,10 @@ aSelf
 :
 Task
 (
-false
+Kind
+:
+:
+OffMainThreadOnly
 EventQueuePriority
 :
 :
