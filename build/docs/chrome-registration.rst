@@ -1365,6 +1365,10 @@ for
 example
 )
 .
+.
+.
+_chrome_manifest_resource
+:
 resource
 ~
 ~

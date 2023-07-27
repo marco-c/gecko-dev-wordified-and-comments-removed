@@ -251,6 +251,10 @@ spidermonkey
 -
 js
 _
+.
+.
+_eslint_common_issues
+:
 Common
 Issues
 and
