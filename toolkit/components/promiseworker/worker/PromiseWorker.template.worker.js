@@ -171,12 +171,6 @@ meta
 meta
 ;
 }
-exports
-.
-Meta
-=
-Meta
-;
 function
 AbstractWorker
 (
@@ -796,10 +790,4 @@ exn
 }
 }
 }
-;
-exports
-.
-AbstractWorker
-=
-AbstractWorker
 ;
