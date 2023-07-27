@@ -2901,11 +2901,12 @@ it
 }
 if
 (
+!
 Services
 .
 prefs
 .
-prefHasDefaultValue
+prefHasUserValue
 (
 "
 intl
