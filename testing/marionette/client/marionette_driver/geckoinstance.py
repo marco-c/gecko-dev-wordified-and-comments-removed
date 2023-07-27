@@ -95,16 +95,6 @@ False
 "
 browser
 .
-translations
-.
-enable
-"
-:
-False
-        
-"
-browser
-.
 uitour
 .
 pinnedTabUrl
