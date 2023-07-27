@@ -94,6 +94,15 @@ impl
 c
 "
 ]
+WASM_CXXFLAGS
++
+=
+[
+"
+-
+msimd128
+"
+]
 DEFINES
 [
 "
