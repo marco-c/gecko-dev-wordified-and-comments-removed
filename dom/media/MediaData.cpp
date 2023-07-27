@@ -99,15 +99,6 @@ include
 "
 mozilla
 /
-WindowsVersion
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 DeviceManagerDx
@@ -2252,11 +2243,6 @@ forget
 }
 if
 (
-IsWin8OrLater
-(
-)
-&
-&
 !
 XRE_IsParentProcess
 (
