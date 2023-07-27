@@ -55,9 +55,6 @@ toLang
 "
 es
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -70,9 +67,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -85,9 +79,6 @@ toLang
 "
 yue
 "
-isBeta
-:
-true
 }
 {
 fromLang
@@ -100,9 +91,6 @@ toLang
 "
 en
 "
-isBeta
-:
-true
 }
 {
 fromLang
@@ -115,9 +103,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -130,9 +115,6 @@ toLang
 "
 ja
 "
-isBeta
-:
-true
 }
 {
 fromLang
@@ -145,9 +127,6 @@ toLang
 "
 zh
 "
-isBeta
-:
-true
 }
 ]
 }
@@ -220,9 +199,6 @@ toLang
 "
 es
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -235,9 +211,6 @@ toLang
 "
 yue
 "
-isBeta
-:
-true
 }
 {
 fromLang
@@ -250,9 +223,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -265,9 +235,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -280,9 +247,6 @@ toLang
 "
 en
 "
-isBeta
-:
-true
 }
 ]
 "

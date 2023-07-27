@@ -29,9 +29,6 @@ toLang
 "
 ar
 "
-isBeta
-:
-true
 }
 {
 fromLang
@@ -44,9 +41,6 @@ toLang
 "
 en
 "
-isBeta
-:
-true
 }
 ]
 runInPage

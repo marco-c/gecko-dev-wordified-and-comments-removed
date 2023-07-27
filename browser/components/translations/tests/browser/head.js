@@ -1540,9 +1540,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -1555,9 +1552,6 @@ toLang
 "
 es
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -1570,9 +1564,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -1585,9 +1576,6 @@ toLang
 "
 fr
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -1600,9 +1588,6 @@ toLang
 "
 uk
 "
-isBeta
-:
-true
 }
 {
 fromLang
@@ -1615,9 +1600,6 @@ toLang
 "
 en
 "
-isBeta
-:
-true
 }
 ]
 ;

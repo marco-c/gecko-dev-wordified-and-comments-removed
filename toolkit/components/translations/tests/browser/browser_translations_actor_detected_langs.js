@@ -41,9 +41,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -56,9 +53,6 @@ toLang
 "
 es
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -71,9 +65,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -86,9 +77,6 @@ toLang
 "
 nb
 "
-isBeta
-:
-false
 }
 ]
 }

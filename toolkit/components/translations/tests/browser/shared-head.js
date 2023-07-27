@@ -1322,9 +1322,6 @@ toLang
 "
 es
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -1337,9 +1334,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 ]
 ;
@@ -2541,9 +2535,6 @@ createRecordsForLanguagePair
 (
 fromLang
 toLang
-isBeta
-=
-false
 )
 {
 const
@@ -2679,14 +2670,6 @@ toLang
 fileType
 version
 :
-isBeta
-?
-"
-0
-.
-1
-"
-:
 "
 1
 .
@@ -2739,7 +2722,6 @@ const
 {
 fromLang
 toLang
-isBeta
 }
 of
 langPairs
@@ -2756,7 +2738,6 @@ createRecordsForLanguagePair
 (
 fromLang
 toLang
-isBeta
 )
 )
 ;

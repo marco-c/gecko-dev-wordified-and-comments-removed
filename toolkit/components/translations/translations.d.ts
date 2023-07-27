@@ -521,9 +521,6 @@ Array
 langTag
 :
 string
-isBeta
-:
-boolean
 displayName
 :
 string
@@ -537,9 +534,6 @@ Array
 langTag
 :
 string
-isBeta
-:
-boolean
 displayName
 :
 string
