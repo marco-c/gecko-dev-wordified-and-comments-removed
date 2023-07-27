@@ -209,6 +209,23 @@ undef
 HAVE_ALLOCA_H
   
 /
+/
+It
+is
+wrong
+when
+cross
+-
+compiling
+on
+Windows
+.
+  
+#
+undef
+HAVE_UNISTD_H
+  
+/
 *
 Whether
 ssize_t
