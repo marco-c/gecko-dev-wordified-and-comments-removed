@@ -1,7 +1,3 @@
-extern
-crate
-smart_default
-;
 use
 smart_default
 :
