@@ -277,6 +277,7 @@ ancestorRulesData
 [
 "
 layer
+{
 "
 ]
 }
@@ -301,6 +302,7 @@ ancestorRulesData
 "
 layer
 myLayer
+{
 "
 ]
 }
@@ -334,10 +336,12 @@ ancestorRulesData
 "
 layer
 importedLayer
+{
 "
 "
 media
 screen
+{
 "
 ]
 }
@@ -369,10 +373,12 @@ ancestorRulesData
 "
 layer
 importedLayer
+{
 "
 "
 media
 screen
+{
 "
 "
 layer
@@ -381,6 +387,7 @@ in
 imported
 -
 stylesheet
+{
 "
 ]
 }
@@ -414,10 +421,12 @@ ancestorRulesData
 "
 layer
 importedLayer
+{
 "
 "
 layer
 importedNestedLayer
+{
 "
 "
 layer
@@ -428,6 +437,7 @@ imported
 nested
 -
 stylesheet
+{
 "
 ]
 }
@@ -460,6 +470,7 @@ ancestorRulesData
 [
 "
 layer
+{
 "
 ]
 }

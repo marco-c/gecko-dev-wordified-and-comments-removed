@@ -301,6 +301,7 @@ view
 "
 media
 print
+{
 "
 "
 Media
@@ -371,6 +372,7 @@ view
 "
 media
 print
+{
 "
 "
 Media

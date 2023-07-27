@@ -205,6 +205,7 @@ ancestorRulesData
 [
 layer
 mylayer
+{
 supports
 (
 container
@@ -213,6 +214,7 @@ name
 :
 mycontainer
 )
+{
 container
 mycontainer
 (
@@ -222,8 +224,10 @@ width
 :
 1px
 )
+{
 media
 screen
+{
 container
 mycontainer
 (
@@ -233,6 +237,7 @@ width
 :
 2rem
 )
+{
 ]
 }
 ]
