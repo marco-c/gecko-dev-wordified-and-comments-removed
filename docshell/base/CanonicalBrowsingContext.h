@@ -820,6 +820,12 @@ BrowsingContext
 aRoots
 )
 ;
+static
+bool
+IsPrivateBrowsingActive
+(
+)
+;
 void
 UpdateMediaControlAction
 (
