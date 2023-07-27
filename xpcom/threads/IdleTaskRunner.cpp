@@ -135,10 +135,7 @@ aRunner
 :
 Task
 (
-Kind
-:
-:
-MainThreadOnly
+true
 EventQueuePriority
 :
 :

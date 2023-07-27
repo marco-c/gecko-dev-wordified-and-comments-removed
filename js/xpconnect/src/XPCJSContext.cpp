@@ -5430,10 +5430,7 @@ HelperThreadTaskHandler
 :
 Task
 (
-Kind
-:
-:
-OffMainThreadOnly
+false
 EventQueuePriority
 :
 :
