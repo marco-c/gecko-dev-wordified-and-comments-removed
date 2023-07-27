@@ -136,7 +136,7 @@ AllocKind
 :
 LIMIT
 )
-structTypeSize
+unused
 (
 0
 )
@@ -182,8 +182,18 @@ gc
 AllocKind
 allocKind
 ;
+union
+{
 uint32_t
 structTypeSize
+;
+uint32_t
+arrayElemSize
+;
+uint32_t
+unused
+;
+}
 ;
 }
 ;
