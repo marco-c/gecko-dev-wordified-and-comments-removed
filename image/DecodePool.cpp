@@ -637,7 +637,10 @@ aTask
 :
 Task
 (
-false
+Kind
+:
+:
+OffMainThreadOnly
 aTask
 -
 >
