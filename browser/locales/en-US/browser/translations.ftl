@@ -322,7 +322,10 @@ panel
 -
 settings
 -
-about
+about2
+=
+.
+label
 =
 About
 translations
