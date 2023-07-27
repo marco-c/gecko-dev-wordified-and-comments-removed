@@ -3221,15 +3221,19 @@ channel
 :
 MachCommandReference
 (
+            
 "
 tools
 /
-lint
+compare
+-
+locales
 /
 mach_commands
 .
 py
 "
+        
 )
         
 "
