@@ -45053,7 +45053,7 @@ return
 classDefinition
 (
 yieldHandling
-ClassExpression
+ClassStatement
 NameRequired
 )
 ;
