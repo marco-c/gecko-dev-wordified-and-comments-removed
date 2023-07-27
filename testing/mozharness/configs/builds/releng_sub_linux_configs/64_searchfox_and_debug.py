@@ -163,14 +163,6 @@ C
 "
         
 "
-SCCACHE_DISABLE
-"
-:
-"
-1
-"
-        
-"
 PATH
 "
 :
