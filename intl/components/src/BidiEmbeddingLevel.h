@@ -34,6 +34,7 @@ BidiEmbeddingLevel
 {
 public
 :
+constexpr
 explicit
 BidiEmbeddingLevel
 (
@@ -47,6 +48,7 @@ aValue
 )
 {
 }
+constexpr
 explicit
 BidiEmbeddingLevel
 (
