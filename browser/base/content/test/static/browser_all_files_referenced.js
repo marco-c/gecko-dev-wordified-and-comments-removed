@@ -673,7 +673,7 @@ html
 ;
 }
 var
-whitelist
+allowlist
 =
 [
 {
@@ -2111,7 +2111,7 @@ win
 "
 )
 {
-whitelist
+allowlist
 .
 push
 (
@@ -2147,7 +2147,7 @@ android
 "
 )
 {
-whitelist
+allowlist
 .
 push
 (
@@ -2192,7 +2192,7 @@ AppConstants
 MOZ_BACKGROUNDTASKS
 )
 {
-whitelist
+allowlist
 .
 push
 (
@@ -2218,12 +2218,12 @@ mjs
 )
 ;
 }
-whitelist
+allowlist
 =
 new
 Set
 (
-whitelist
+allowlist
 .
 filter
 (
@@ -2286,7 +2286,7 @@ file
 )
 ;
 const
-ignorableWhitelist
+ignorableAllowlist
 =
 new
 Set
@@ -2343,10 +2343,10 @@ for
 let
 entry
 of
-ignorableWhitelist
+ignorableAllowlist
 )
 {
-whitelist
+allowlist
 .
 add
 (
@@ -2427,7 +2427,7 @@ mjs
 ]
 )
 {
-whitelist
+allowlist
 .
 add
 (
@@ -2456,7 +2456,7 @@ AppConstants
 ENABLE_WEBDRIVER
 )
 {
-whitelist
+allowlist
 .
 add
 (
@@ -2486,7 +2486,7 @@ AppConstants
 MOZ_CODE_COVERAGE
 )
 {
-whitelist
+allowlist
 .
 add
 (
@@ -6232,7 +6232,7 @@ refType
 =
 =
 "
-whitelist
+allowlist
 "
 |
 |
@@ -6240,7 +6240,7 @@ refType
 =
 =
 "
-whitelist
+allowlist
 -
 direct
 "
@@ -6283,7 +6283,7 @@ chromeFiles
 let
 removeReferenced
 =
-useWhitelist
+useAllowlist
 =
 >
 {
@@ -6433,14 +6433,14 @@ true
 ;
 if
 (
-useWhitelist
+useAllowlist
 )
 {
 info
 (
 "
 indirectly
-whitelisted
+allowlisted
 file
 :
 "
@@ -6469,10 +6469,10 @@ gReferencesFromCode
 set
 (
 f
-useWhitelist
+useAllowlist
 ?
 "
-whitelist
+allowlist
 "
 :
 null
@@ -6511,7 +6511,7 @@ file
 {
 if
 (
-whitelist
+allowlist
 .
 has
 (
@@ -6519,7 +6519,7 @@ file
 )
 )
 {
-whitelist
+allowlist
 .
 delete
 (
@@ -6532,7 +6532,7 @@ set
 (
 file
 "
-whitelist
+allowlist
 -
 direct
 "
@@ -6727,12 +6727,12 @@ for
 let
 file
 of
-whitelist
+allowlist
 )
 {
 if
 (
-ignorableWhitelist
+ignorableAllowlist
 .
 has
 (
@@ -6745,7 +6745,7 @@ info
 "
 ignored
 unused
-whitelist
+allowlist
 entry
 :
 "
@@ -6761,7 +6761,7 @@ ok
 false
 "
 unused
-whitelist
+allowlist
 entry
 :
 "
