@@ -4817,6 +4817,13 @@ wantUntrusted
 :
 true
 }
+DisableShopping
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches
