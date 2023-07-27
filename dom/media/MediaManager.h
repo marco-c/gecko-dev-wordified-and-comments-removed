@@ -847,6 +847,12 @@ GetIfExists
 ;
 static
 void
+StartupInit
+(
+)
+;
+static
+void
 Dispatch
 (
 already_AddRefed

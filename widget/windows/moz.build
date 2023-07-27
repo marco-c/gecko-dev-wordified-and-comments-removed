@@ -359,6 +359,11 @@ IMMHandler
 cpp
 "
 "
+InkCollector
+.
+cpp
+"
+"
 JumpListItem
 .
 cpp

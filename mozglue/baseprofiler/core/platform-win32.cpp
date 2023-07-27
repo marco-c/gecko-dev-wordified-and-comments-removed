@@ -35,6 +35,15 @@ StackWalk_windows
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WindowsVersion
+.
+h
+"
 namespace
 mozilla
 {
@@ -1234,6 +1243,13 @@ LdrUnloadDll
 patched_LdrUnloadDll
 )
 ;
+if
+(
+IsWin8OrLater
+(
+)
+)
+{
 stub_LdrResolveDelayLoadedAPI
 .
 Set
@@ -1246,6 +1262,7 @@ LdrResolveDelayLoadedAPI
 patched_LdrResolveDelayLoadedAPI
 )
 ;
+}
 }
 #
 endif

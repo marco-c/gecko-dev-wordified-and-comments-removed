@@ -4329,6 +4329,17 @@ Initialize
 #
 ifndef
 __MINGW32__
+if
+(
+!
+IsWin10OrLater
+(
+)
+)
+{
+return
+;
+}
 RefPtr
 <
 IVirtualDesktopManager

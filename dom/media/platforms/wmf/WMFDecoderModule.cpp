@@ -903,7 +903,7 @@ VP8_USABLE_BUILD
 if
 (
 !
-IsWindows10BuildOrLater
+IsWindowsBuildOrLater
 (
 VP8_USABLE_BUILD
 )

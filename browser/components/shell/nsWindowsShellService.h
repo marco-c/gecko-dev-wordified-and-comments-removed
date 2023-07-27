@@ -100,6 +100,11 @@ InvokeHTTPOpenAsVerb
 (
 )
 ;
+nsresult
+LaunchHTTPHandlerPane
+(
+)
+;
 }
 ;
 #
