@@ -248,6 +248,9 @@ isProxyUsed
 uint8_t
 redirectCount
 ;
+nsCString
+protocolVersion
+;
 }
 ;
 struct
