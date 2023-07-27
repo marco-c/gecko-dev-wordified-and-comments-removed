@@ -138,7 +138,7 @@ dbg
 20
 16
 {
-result
+text
 :
 '
 "
@@ -201,7 +201,7 @@ dbg
 21
 16
 {
-result
+text
 :
 "
 undefined
@@ -239,7 +239,7 @@ dbg
 20
 16
 {
-result
+text
 :
 "
 undefined

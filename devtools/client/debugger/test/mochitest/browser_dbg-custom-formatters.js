@@ -655,7 +655,7 @@ dbg
 expression
 :
 VARIABLE_NAME
-result
+text
 :
 "
 CUSTOM

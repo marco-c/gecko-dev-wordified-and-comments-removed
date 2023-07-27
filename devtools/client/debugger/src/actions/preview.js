@@ -437,6 +437,18 @@ result
 }
 }
 ;
+const
+properties
+=
+await
+client
+.
+loadObjectProperties
+(
+root
+thread
+)
+;
 return
 {
 target
@@ -451,6 +463,7 @@ getBoundingClientRect
 expression
 root
 resultGrip
+properties
 }
 ;
 }
