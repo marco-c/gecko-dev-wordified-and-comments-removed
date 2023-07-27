@@ -452,6 +452,13 @@ props
 .
 langPackInstallPhase
 }
+forceHideStepsIndicator
+=
+{
+props
+.
+forceHideStepsIndicator
+}
 /
 >
 )
@@ -2155,6 +2162,7 @@ isTheme
 isFirstScreen
 isLastScreen
 isSingleScreen
+forceHideStepsIndicator
 }
 =
 this
@@ -2210,6 +2218,9 @@ video_container
 |
 |
 isSingleScreen
+|
+|
+forceHideStepsIndicator
 ;
 const
 textColorClass
