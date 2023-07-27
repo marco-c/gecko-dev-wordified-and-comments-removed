@@ -747,15 +747,6 @@ direction
 ;
 [
 Throws
-Pref
-=
-"
-dom
-.
-input
-.
-showPicker
-"
 ]
 undefined
 showPicker
