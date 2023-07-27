@@ -55,6 +55,17 @@ browser
 .
 ini
 "
+"
+test
+/
+browser
+/
+telemetry
+/
+browser
+.
+ini
+"
 ]
 MARIONETTE_LAYOUT_MANIFESTS
 +

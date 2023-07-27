@@ -94,6 +94,8 @@ test
 /
 browser
 /
+telemetry
+/
 telemetrySearchSuggestions
 .
 sjs
