@@ -3807,6 +3807,8 @@ bug_numbers
 1781978
 -
 1811151
+-
+1841926
 description
 :
 >
@@ -3922,9 +3924,7 @@ disabled
 .
 expires
 :
-"
-118
-"
+never
 kind
 :
 uint
@@ -3981,6 +3981,8 @@ bug_numbers
 1781978
 -
 1811151
+-
+1841926
 description
 :
 >
@@ -4001,9 +4003,7 @@ blocker
 .
 expires
 :
-"
-118
-"
+never
 kind
 :
 boolean
