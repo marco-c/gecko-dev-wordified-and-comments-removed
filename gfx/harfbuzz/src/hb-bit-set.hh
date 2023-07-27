@@ -3219,6 +3219,15 @@ b
 v
 )
 ;
+page_at
+(
+count
+)
+.
+dirty
+(
+)
+;
 }
 else
 if
@@ -3329,8 +3338,6 @@ page_at
 (
 count
 )
-.
-v
 =
 other
 .
@@ -3338,8 +3345,6 @@ page_at
 (
 b
 )
-.
-v
 ;
 }
 }
@@ -3430,8 +3435,6 @@ page_at
 (
 count
 )
-.
-v
 =
 other
 .
@@ -3439,8 +3442,6 @@ page_at
 (
 b
 )
-.
-v
 ;
 }
 assert

@@ -153,6 +153,17 @@ diagnostic
 error
 "
 -
+Wconstant
+-
+conversion
+"
+#
+pragma
+GCC
+diagnostic
+error
+"
+-
 Wcomma
 "
 #

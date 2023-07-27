@@ -554,6 +554,17 @@ back_map
 .
 length
 ;
+back_map
+.
+alloc
+(
+back_map
+.
+length
++
+count
+)
+;
 for
 (
 unsigned

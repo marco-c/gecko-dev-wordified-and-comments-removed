@@ -244,7 +244,6 @@ width
 output_map
 .
 length
-false
 )
 ;
 if
@@ -284,10 +283,17 @@ int
 v
 =
 output_map
+.
+arrayZ
 [
 i
 ]
 ;
+if
+(
+v
+)
+{
 unsigned
 int
 outer
@@ -347,6 +353,7 @@ u
 =
 8
 ;
+}
 }
 p
 +
@@ -4127,6 +4134,7 @@ it
 +
 +
 =
+char
 (
 DELTAS_ARE_ZERO
 |
@@ -4153,6 +4161,7 @@ it
 +
 +
 =
+char
 (
 DELTAS_ARE_ZERO
 |

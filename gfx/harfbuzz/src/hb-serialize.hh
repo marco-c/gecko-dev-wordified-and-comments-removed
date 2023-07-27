@@ -1207,6 +1207,8 @@ template
 <
 typename
 Type
+=
+char
 >
 __attribute__
 (

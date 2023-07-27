@@ -1395,9 +1395,6 @@ serializer
 -
 >
 start_serialize
-<
-TableType
->
 (
 )
 ;
