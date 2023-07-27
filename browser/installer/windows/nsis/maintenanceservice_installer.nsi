@@ -783,7 +783,7 @@ silent
 Unless
 }
 {
-AtLeastWin7
+AtLeastWin10
 }
 Abort
 {
