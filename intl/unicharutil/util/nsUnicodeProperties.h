@@ -630,6 +630,12 @@ aCh
 )
 {
 return
+aCh
+>
+=
+0x0300
+&
+&
 IsClusterExtender
 (
 aCh
@@ -658,6 +664,12 @@ aCh
 )
 {
 return
+aCh
+>
+=
+0x0300
+&
+&
 IsClusterExtenderExcludingJoiners
 (
 aCh
