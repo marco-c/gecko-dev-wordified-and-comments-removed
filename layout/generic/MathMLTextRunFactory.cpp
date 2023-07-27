@@ -2132,13 +2132,7 @@ scriptScaling
 =
 pow
 (
-styles
-[
-0
-]
--
->
-mScriptSizeMultiplier
+kMathMLDefaultScriptSizeMultiplier
 mSSTYScriptLevel
 )
 ;
