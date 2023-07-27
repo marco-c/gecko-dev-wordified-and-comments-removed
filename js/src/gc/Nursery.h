@@ -1206,6 +1206,7 @@ const
 nodiscard
 ]
 ]
+inline
 bool
 registerTrailer
 (
@@ -1316,6 +1317,7 @@ true
 ;
 }
 void
+inline
 unregisterTrailer
 (
 void
