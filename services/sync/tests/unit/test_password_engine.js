@@ -112,7 +112,7 @@ LoginCSVImport
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -125,7 +125,9 @@ modules
 /
 LoginCSVImport
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

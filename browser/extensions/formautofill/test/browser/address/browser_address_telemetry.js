@@ -36,7 +36,7 @@ AddressTelemetry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ autofill
 /
 AutofillTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
