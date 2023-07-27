@@ -3316,6 +3316,10 @@ friend
 class
 InterceptFailedOnStop
 ;
+friend
+class
+HttpChannelParent
+;
 protected
 :
 nsCOMPtr
