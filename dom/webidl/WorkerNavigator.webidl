@@ -239,5 +239,5 @@ navigator
 gpu
 WorkerNavigator
 includes
-GPUProvider
+NavigatorGPU
 ;

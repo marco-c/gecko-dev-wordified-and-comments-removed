@@ -513,7 +513,7 @@ NavigatorAutomationInformation
 ;
 Navigator
 includes
-GPUProvider
+NavigatorGPU
 ;
 Navigator
 includes
