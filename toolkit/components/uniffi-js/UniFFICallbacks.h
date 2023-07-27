@@ -140,8 +140,12 @@ uint64_t
 aHandle
 uint32_t
 aMethod
-RustBuffer
-aArgs
+const
+uint8_t
+*
+aArgsData
+int32_t
+aArgsLen
 )
 ;
 }

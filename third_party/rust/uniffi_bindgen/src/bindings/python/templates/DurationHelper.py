@@ -1,3 +1,8 @@
+Duration
+=
+datetime
+.
+timedelta
 class
 FfiConverterDuration
 (

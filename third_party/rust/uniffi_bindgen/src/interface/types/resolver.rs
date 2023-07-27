@@ -629,7 +629,6 @@ add_known_type
 &
 ty
 )
-?
 ;
 Ok
 (
@@ -849,7 +848,6 @@ add_known_type
 &
 ty
 )
-?
 ;
 Ok
 (
@@ -961,7 +959,6 @@ Type
 :
 String
 )
-?
 ;
 Ok
 (
@@ -1084,7 +1081,6 @@ add_known_type
 &
 map
 )
-?
 ;
 Ok
 (
@@ -1147,7 +1143,6 @@ add_known_type
 &
 type_
 )
-?
 ;
 Ok
 (
@@ -1181,7 +1176,6 @@ add_known_type
 &
 type_
 )
-?
 ;
 Ok
 (
@@ -1249,7 +1243,6 @@ Type
 :
 Boolean
 )
-?
 ;
 Ok
 (
@@ -1323,7 +1316,6 @@ Type
 :
 Float32
 )
-?
 ;
 Ok
 (
@@ -1397,7 +1389,6 @@ Type
 :
 Float64
 )
-?
 ;
 Ok
 (
@@ -1445,6 +1436,18 @@ Type
 :
 :
 String
+)
+"
+bytes
+"
+=
+>
+Some
+(
+Type
+:
+:
+Bytes
 )
 "
 u8
@@ -1589,6 +1592,18 @@ Type
 :
 :
 Duration
+)
+"
+ForeignExecutor
+"
+=
+>
+Some
+(
+Type
+:
+:
+ForeignExecutor
 )
 _
 =

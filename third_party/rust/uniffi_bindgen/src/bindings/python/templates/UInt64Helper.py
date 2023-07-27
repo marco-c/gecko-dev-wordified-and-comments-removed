@@ -1,9 +1,26 @@
 class
 FfiConverterUInt64
 (
-FfiConverterPrimitive
+FfiConverterPrimitiveInt
 )
 :
+    
+CLASS_NAME
+=
+"
+u64
+"
+    
+VALUE_MIN
+=
+0
+    
+VALUE_MAX
+=
+2
+*
+*
+64
     
 staticmethod
     
@@ -24,7 +41,7 @@ readU64
 staticmethod
     
 def
-write
+writeUnchecked
 (
 value
 buf

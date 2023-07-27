@@ -378,11 +378,6 @@ is_initialized
 )
 )
 ;
-crate
-:
-:
-unwrap_unchecked
-(
 self
 .
 value
@@ -400,6 +395,9 @@ new
 get
 (
 )
+.
+unwrap_unchecked
+(
 )
 }
 #

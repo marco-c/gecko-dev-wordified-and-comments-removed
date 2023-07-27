@@ -2373,7 +2373,7 @@ callAsync
 /
 geometry
 :
-geometry_f26e_gradient
+uniffi_geometry_fn_func_gradient
 FfiConverterTypeLine
 .
 lower
@@ -2535,7 +2535,7 @@ callAsync
 /
 geometry
 :
-geometry_f26e_intersection
+uniffi_geometry_fn_func_intersection
 FfiConverterTypeLine
 .
 lower

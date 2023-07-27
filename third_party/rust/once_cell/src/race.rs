@@ -1701,13 +1701,11 @@ Acquire
 )
 ;
 if
-let
-Err
-(
-_
-)
-=
 exchange
+.
+is_err
+(
+)
 {
 let
 value

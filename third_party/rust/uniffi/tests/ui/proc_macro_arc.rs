@@ -15,6 +15,10 @@ main
 }
 pub
 struct
+UniFfiTag
+;
+pub
+struct
 Foo
 ;
 #
@@ -84,15 +88,4 @@ foo
 {
 }
 }
-}
-mod
-uniffi_types
-{
-pub
-use
-super
-:
-:
-Foo
-;
 }

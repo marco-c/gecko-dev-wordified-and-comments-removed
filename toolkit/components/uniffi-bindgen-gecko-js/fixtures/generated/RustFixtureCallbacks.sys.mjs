@@ -3365,7 +3365,7 @@ callAsync
 /
 fixture_callbacks
 :
-fixture_callbacks_fdf_log_even_numbers
+uniffi_fixture_callbacks_fn_func_log_even_numbers
 FfiConverterCallbackInterfaceLogger
 .
 lower
@@ -3528,7 +3528,7 @@ callSync
 /
 fixture_callbacks
 :
-fixture_callbacks_fdf_log_even_numbers_main_thread
+uniffi_fixture_callbacks_fn_func_log_even_numbers_main_thread
 FfiConverterCallbackInterfaceLogger
 .
 lower

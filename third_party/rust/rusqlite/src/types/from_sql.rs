@@ -252,12 +252,12 @@ f
 "
 Value
 {
+i
 }
 out
 of
 range
 "
-i
 )
 FromSqlError
 :
@@ -1473,8 +1473,8 @@ query_row
 "
 SELECT
 ?
+1
 "
-&
 [
 n
 ]
@@ -1553,8 +1553,8 @@ query_row
 "
 SELECT
 ?
+1
 "
-&
 [
 n
 ]

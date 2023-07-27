@@ -253,3 +253,14 @@ default
 (
 )
 }
+uniffi
+:
+:
+include_scaffolding
+!
+(
+"
+sync15
+"
+)
+;

@@ -166,7 +166,9 @@ uniffi
 "
 0
 .
-23
+24
+.
+1
 "
 [
 dependencies
@@ -240,7 +242,9 @@ version
 "
 0
 .
-23
+24
+.
+1
 "
 features
 =

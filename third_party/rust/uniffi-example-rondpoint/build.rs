@@ -9,8 +9,6 @@ uniffi
 generate_scaffolding
 (
 "
-.
-/
 src
 /
 rondpoint

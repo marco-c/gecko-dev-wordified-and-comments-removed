@@ -5,6 +5,15 @@ EXTRA_JS_MODULES
 "
 generated
 /
+RustSync15
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustTabs
 .
 sys

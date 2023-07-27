@@ -574,7 +574,7 @@ failed
 to
 encode
 Protobuf
-messsage
+message
 ;
 insufficient
 buffer
