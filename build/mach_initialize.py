@@ -1840,6 +1840,26 @@ commands
 "
         
 "
+mochitest
+"
+        
+"
+geckoview
+-
+junit
+"
+        
+"
+xpcshell
+-
+test
+"
+        
+"
+gtest
+"
+        
+"
 help
 "
     
