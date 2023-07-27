@@ -1879,12 +1879,7 @@ kwsui64
 .
 dll
 "
-(
-2022
-2
-8
-125
-)
+ALL_VERSIONS
 )
 ]
 SOCKET_PROCESSES_TESTS
