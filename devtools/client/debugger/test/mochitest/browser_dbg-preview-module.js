@@ -103,7 +103,7 @@ bar
 )
 ;
 await
-assertPreviewTooltip
+assertPreviewTextValue
 (
 dbg
 2

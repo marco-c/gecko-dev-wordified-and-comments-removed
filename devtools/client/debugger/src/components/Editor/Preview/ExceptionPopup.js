@@ -295,6 +295,13 @@ closest
 (
 POPUP_SELECTOR
 )
+&
+&
+this
+.
+props
+.
+clearPreview
 )
 {
 this
