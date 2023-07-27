@@ -114,6 +114,10 @@ parser
 ;
 pub
 mod
+relative_selector
+;
+pub
+mod
 sink
 ;
 mod

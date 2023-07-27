@@ -250,7 +250,10 @@ use
 selectors
 :
 :
-NthIndexCache
+context
+:
+:
+SelectorCaches
 ;
 #
 [
@@ -2817,9 +2820,9 @@ stack_limit_checker
 :
 StackLimitChecker
 pub
-nth_index_cache
+selector_caches
 :
-NthIndexCache
+SelectorCaches
 }
 impl
 <
@@ -2901,9 +2904,9 @@ STACK_SAFETY_MARGIN_KB
 *
 1024
 )
-nth_index_cache
+selector_caches
 :
-NthIndexCache
+SelectorCaches
 :
 :
 default

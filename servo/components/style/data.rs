@@ -114,7 +114,10 @@ use
 selectors
 :
 :
-NthIndexCache
+matching
+:
+:
+SelectorCaches
 ;
 use
 servo_arc
@@ -1392,11 +1395,13 @@ Option
 &
 StackLimitChecker
 >
-nth_index_cache
+selector_caches
 :
 &
+'
+a
 mut
-NthIndexCache
+SelectorCaches
 )
 -
 >
@@ -1539,7 +1544,7 @@ new
 shared_context
 element
 self
-nth_index_cache
+selector_caches
 )
 ;
 let

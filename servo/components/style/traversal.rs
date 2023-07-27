@@ -117,7 +117,10 @@ use
 selectors
 :
 :
-NthIndexCache
+matching
+:
+:
+SelectorCaches
 ;
 use
 smallvec
@@ -674,7 +677,7 @@ shared_context
 None
 &
 mut
-NthIndexCache
+SelectorCaches
 :
 :
 default
@@ -3422,7 +3425,7 @@ context
 .
 thread_local
 .
-nth_index_cache
+selector_caches
 )
 ;
 }

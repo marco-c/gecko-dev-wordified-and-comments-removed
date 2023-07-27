@@ -460,6 +460,7 @@ matches_selector
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
+SelectorCaches
 }
 ;
 use
@@ -501,12 +502,6 @@ visitor
 SelectorListKind
 SelectorVisitor
 }
-;
-use
-selectors
-:
-:
-NthIndexCache
 ;
 use
 servo_arc
@@ -4791,9 +4786,9 @@ is_lazy
 ;
 let
 mut
-nth_index_cache
+selector_caches
 =
-Default
+SelectorCaches
 :
 :
 default
@@ -4862,7 +4857,7 @@ ForStatelessPseudoElement
 None
 &
 mut
-nth_index_cache
+selector_caches
 self
 .
 quirks_mode
@@ -4976,9 +4971,9 @@ new
 ;
 let
 mut
-nth_index_cache
+selector_caches
 =
-Default
+SelectorCaches
 :
 :
 default
@@ -5011,7 +5006,7 @@ ForStatelessPseudoElement
 None
 &
 mut
-nth_index_cache
+selector_caches
 VisitedHandlingMode
 :
 :
@@ -5746,11 +5741,11 @@ Option
 &
 BloomFilter
 >
-nth_index_cache
+selector_caches
 :
 &
 mut
-NthIndexCache
+SelectorCaches
 needs_selector_flags
 :
 NeedsSelectorFlags
@@ -5777,7 +5772,7 @@ MatchingMode
 :
 Normal
 bloom
-nth_index_cache
+selector_caches
 self
 .
 quirks_mode
