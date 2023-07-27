@@ -5419,7 +5419,7 @@ manage
 -
 error
 -
-download
+install
 "
 error
 )
@@ -5503,7 +5503,7 @@ manage
 -
 error
 -
-delete
+remove
 "
 error
 )
@@ -5597,7 +5597,7 @@ manage
 -
 error
 -
-download
+install
 "
 error
 )
@@ -5681,7 +5681,7 @@ manage
 -
 error
 -
-delete
+remove
 "
 error
 )
@@ -5838,7 +5838,7 @@ manage
 -
 language
 -
-download
+install
 -
 button
 "
@@ -5858,7 +5858,7 @@ manage
 -
 language
 -
-delete
+remove
 -
 button
 "

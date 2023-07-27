@@ -172,9 +172,9 @@ translations
 -
 manage
 -
-all
+install
 -
-language
+description
 "
 "
 The
@@ -863,7 +863,7 @@ manage
 -
 error
 -
-download
+install
 "
 document
 )
@@ -976,7 +976,7 @@ manage
 -
 error
 -
-download
+install
 "
 document
 )
@@ -1015,7 +1015,7 @@ manage
 -
 error
 -
-download
+install
 "
 document
 )
