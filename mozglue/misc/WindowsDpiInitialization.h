@@ -27,7 +27,6 @@ FindSetProcessDpiAwarenessContextFailed
 SetProcessDpiAwarenessContextFailed
 FindSetProcessDpiAwarenessFailed
 SetProcessDpiAwarenessFailed
-SetProcessDPIAwareFailed
 }
 ;
 inline
@@ -105,18 +104,6 @@ SetProcessDpiAwarenessFailed
 return
 "
 SetProcessDpiAwareness
-failed
-"
-;
-case
-WindowsDpiInitializationResult
-:
-:
-SetProcessDPIAwareFailed
-:
-return
-"
-SetProcessDPIAware
 failed
 "
 ;
