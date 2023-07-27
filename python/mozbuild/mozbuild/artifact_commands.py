@@ -19,6 +19,10 @@ collections
 import
 OrderedDict
 import
+gecko_taskgraph
+.
+main
+import
 mozversioncontrol
 import
 six
