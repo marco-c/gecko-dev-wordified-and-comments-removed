@@ -8,8 +8,8 @@ expect
 import
 {
 getTestState
+launch
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -32,10 +32,6 @@ function
 )
 {
 setupTestBrowserHooks
-(
-)
-;
-setupTestPageAndContextHooks
 (
 )
 ;
@@ -68,6 +64,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -152,6 +149,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -258,6 +256,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -371,6 +370,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -476,6 +476,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -621,6 +622,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -716,6 +718,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -938,6 +941,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1022,6 +1026,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1108,6 +1113,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1198,6 +1204,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1272,6 +1279,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1377,6 +1385,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1472,6 +1481,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1606,28 +1616,29 @@ async
 {
 const
 {
-defaultBrowserOptions
-puppeteer
 server
 }
 =
+await
 getTestState
 (
+{
+skipLaunch
+:
+true
+}
 )
 ;
 const
+{
 browser
+close
+}
 =
 await
-puppeteer
-.
 launch
 (
 {
-.
-.
-.
-defaultBrowserOptions
 defaultViewport
 :
 null
@@ -1733,8 +1744,6 @@ toBeTruthy
 finally
 {
 await
-browser
-.
 close
 (
 )
@@ -1765,6 +1774,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1899,6 +1909,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2103,6 +2114,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2283,6 +2295,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2422,6 +2435,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2554,6 +2568,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2666,6 +2681,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2777,6 +2793,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )

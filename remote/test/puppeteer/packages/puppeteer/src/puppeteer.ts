@@ -86,6 +86,7 @@ connect
 defaultArgs
 executablePath
 launch
+trimCache
 }
 =
 puppeteer

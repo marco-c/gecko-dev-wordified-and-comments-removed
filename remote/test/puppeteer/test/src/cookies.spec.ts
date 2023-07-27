@@ -9,8 +9,8 @@ import
 {
 expectCookieEquals
 getTestState
+launch
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -35,10 +35,6 @@ specs
 >
 {
 setupTestBrowserHooks
-(
-)
-;
-setupTestPageAndContextHooks
 (
 )
 ;
@@ -77,6 +73,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -91,6 +88,7 @@ server
 EMPTY_PAGE
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -126,6 +124,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -164,6 +163,7 @@ Doe
 }
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -247,6 +247,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -372,6 +373,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -497,6 +499,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -618,6 +621,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -702,6 +706,7 @@ name
 }
 )
 ;
+await
 expectCookieEquals
 (
 cookies
@@ -826,6 +831,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -960,6 +966,7 @@ name
 }
 )
 ;
+await
 expectCookieEquals
 (
 cookies
@@ -1104,6 +1111,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1193,6 +1201,7 @@ server
 browser
 }
 =
+await
 getTestState
 (
 )
@@ -1417,6 +1426,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1569,6 +1579,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1670,6 +1681,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1713,6 +1725,7 @@ cookies
 (
 )
 ;
+await
 expectCookieEquals
 (
 cookies
@@ -1819,6 +1832,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1867,6 +1881,7 @@ html
 }
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -1965,6 +1980,7 @@ server
 EMPTY_PAGE
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -2066,6 +2082,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2177,6 +2194,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2308,6 +2326,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2424,6 +2443,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2528,6 +2548,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2630,6 +2651,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2699,6 +2721,7 @@ toBe
 '
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -2711,6 +2734,7 @@ cookies
 ]
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -2814,6 +2838,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -3021,6 +3046,7 @@ toBe
 '
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -3084,6 +3110,7 @@ NonSecure
 ]
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -3182,33 +3209,22 @@ async
 const
 {
 httpsServer
-puppeteer
-defaultBrowserOptions
+browser
+close
 }
 =
-getTestState
-(
-)
-;
-const
-browser
-=
 await
-puppeteer
-.
 launch
 (
 {
-.
-.
-.
-defaultBrowserOptions
 ignoreHTTPSErrors
 :
 true
 }
 )
 ;
+try
+{
 const
 page
 =
@@ -3219,8 +3235,6 @@ newPage
 (
 )
 ;
-try
-{
 await
 page
 .
@@ -3395,6 +3409,7 @@ best
 '
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -3480,15 +3495,6 @@ Secure
 finally
 {
 await
-page
-.
-close
-(
-)
-;
-await
-browser
-.
 close
 (
 )
@@ -3529,6 +3535,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )

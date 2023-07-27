@@ -733,6 +733,7 @@ server
 page
 }
 =
+await
 getTestState
 (
 )
@@ -806,6 +807,7 @@ server
 page
 }
 =
+await
 getTestState
 (
 )

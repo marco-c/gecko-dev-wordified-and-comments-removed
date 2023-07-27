@@ -143,10 +143,15 @@ target
 "
 :
 "
-ES2019
+ES2022
 "
 "
 useUnknownInCatchVariables
+"
+:
+true
+"
+skipLibCheck
 "
 :
 true

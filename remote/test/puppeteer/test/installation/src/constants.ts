@@ -19,7 +19,9 @@ url
 '
 ;
 import
-glob
+{
+globSync
+}
 from
 '
 glob
@@ -31,9 +33,7 @@ PUPPETEER_CORE_PACKAGE_PATH
 =
 resolve
 (
-glob
-.
-sync
+globSync
 (
 '
 puppeteer
@@ -57,9 +57,7 @@ PUPPETEER_BROWSERS_PACKAGE_PATH
 =
 resolve
 (
-glob
-.
-sync
+globSync
 (
 '
 puppeteer
@@ -88,9 +86,7 @@ PUPPETEER_PACKAGE_PATH
 =
 resolve
 (
-glob
-.
-sync
+globSync
 (
 '
 puppeteer

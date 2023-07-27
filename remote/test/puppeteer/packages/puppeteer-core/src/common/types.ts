@@ -47,9 +47,8 @@ js
 '
 ;
 export
-type
+interface
 BindingPayload
-=
 {
 type
 :
@@ -74,7 +73,6 @@ isTrivial
 boolean
 ;
 }
-;
 export
 type
 AwaitableIterator

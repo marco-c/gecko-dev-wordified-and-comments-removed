@@ -19,7 +19,6 @@ import
 {
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -45,10 +44,6 @@ setupTestBrowserHooks
 (
 )
 ;
-setupTestPageAndContextHooks
-(
-)
-;
 it
 (
 '
@@ -69,6 +64,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -176,6 +172,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -306,6 +303,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )

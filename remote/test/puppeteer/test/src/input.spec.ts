@@ -25,7 +25,6 @@ import
 {
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -90,10 +89,6 @@ setupTestBrowserHooks
 (
 )
 ;
-setupTestPageAndContextHooks
-(
-)
-;
 describe
 (
 '
@@ -123,6 +118,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -528,6 +524,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -609,6 +606,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -699,6 +697,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -775,6 +774,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -850,6 +850,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -928,6 +929,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1044,6 +1046,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1160,6 +1163,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1346,6 +1350,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1541,6 +1546,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1765,6 +1771,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1928,6 +1935,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2050,6 +2058,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2243,6 +2252,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2399,6 +2409,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2529,6 +2540,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2683,6 +2695,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2765,6 +2778,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2848,6 +2862,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )

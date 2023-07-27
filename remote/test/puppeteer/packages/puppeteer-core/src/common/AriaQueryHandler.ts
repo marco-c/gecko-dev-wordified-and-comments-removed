@@ -201,9 +201,8 @@ StaticText
 ;
 }
 ;
-type
+interface
 ARIASelector
-=
 {
 name
 ?
@@ -214,8 +213,8 @@ role
 ?
 :
 string
-}
 ;
+}
 const
 KNOWN_ATTRIBUTES
 =

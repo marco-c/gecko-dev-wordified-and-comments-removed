@@ -299,6 +299,11 @@ testChromeDriverBuildId
 }
 '
 chromedriver
+-
+linux64
+'
+'
+chromedriver
 '
 )
 )
@@ -362,6 +367,11 @@ linux
 {
 testChromeDriverBuildId
 }
+'
+chromedriver
+-
+linux64
+'
 '
 chromedriver
 '

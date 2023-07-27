@@ -154,3 +154,16 @@ assets
 /
 third_party
 /
+sandbox
+/
+ng
+-
+schematics
+/
+src
+/
+*
+*
+/
+files
+/

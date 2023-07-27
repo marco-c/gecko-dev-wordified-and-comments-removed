@@ -25,6 +25,8 @@ require
 (
 '
 prettier
+/
+sync
 '
 )
 ;

@@ -8,7 +8,6 @@ expect
 import
 {
 getTestState
-setupTestPageAndContextHooks
 setupTestBrowserHooks
 }
 from
@@ -32,6 +31,10 @@ function
 (
 )
 {
+setupTestBrowserHooks
+(
+)
+;
 describe
 (
 '
@@ -41,14 +44,6 @@ function
 (
 )
 {
-setupTestBrowserHooks
-(
-)
-;
-setupTestPageAndContextHooks
-(
-)
-;
 it
 (
 '
@@ -67,6 +62,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -101,7 +97,7 @@ html
 waitUntil
 :
 '
-networkidle0
+load
 '
 }
 )
@@ -206,6 +202,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -307,6 +304,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -366,10 +364,9 @@ toHaveLength
 ;
 it
 (
-"
-shouldn
 '
-t
+should
+not
 ignore
 eval
 (
@@ -379,7 +376,7 @@ if
 reportAnonymousScripts
 is
 true
-"
+'
 async
 (
 )
@@ -392,6 +389,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -515,6 +513,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -628,6 +627,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -777,6 +777,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -967,6 +968,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1174,6 +1176,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1288,6 +1291,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1408,6 +1412,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1490,6 +1495,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1586,6 +1592,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1688,6 +1695,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1722,7 +1730,7 @@ html
 waitUntil
 :
 '
-networkidle0
+load
 '
 }
 )
@@ -1789,6 +1797,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1828,7 +1837,7 @@ html
 waitUntil
 :
 '
-networkidle0
+load
 '
 }
 )
@@ -1903,6 +1912,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1965,14 +1975,6 @@ function
 (
 )
 {
-setupTestBrowserHooks
-(
-)
-;
-setupTestPageAndContextHooks
-(
-)
-;
 it
 (
 '
@@ -1991,6 +1993,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2164,6 +2167,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2261,6 +2265,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2413,6 +2418,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2527,6 +2533,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2624,7 +2631,15 @@ start
 8
 end
 :
-40
+15
+}
+{
+start
+:
+17
+end
+:
+38
 }
 ]
 )
@@ -2653,6 +2668,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2767,6 +2783,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2860,6 +2877,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2981,6 +2999,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -3140,6 +3159,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -3234,6 +3254,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )

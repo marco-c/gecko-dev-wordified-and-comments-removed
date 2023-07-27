@@ -158,7 +158,9 @@ resolve
 '
 ;
 import
-glob
+{
+globSync
+}
 from
 '
 glob
@@ -219,9 +221,7 @@ for
 const
 file
 of
-glob
-.
-sync
+globSync
 (
 lib
 /

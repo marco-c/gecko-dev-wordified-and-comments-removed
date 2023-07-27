@@ -130,6 +130,13 @@ originalMessage
 }
 }
 export
+class
+TargetCloseError
+extends
+ProtocolError
+{
+}
+export
 interface
 PuppeteerErrors
 {

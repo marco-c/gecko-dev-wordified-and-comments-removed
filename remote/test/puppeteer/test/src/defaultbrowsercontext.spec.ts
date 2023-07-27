@@ -10,7 +10,6 @@ import
 expectCookieEquals
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -33,10 +32,6 @@ function
 )
 {
 setupTestBrowserHooks
-(
-)
-;
-setupTestPageAndContextHooks
 (
 )
 ;
@@ -63,6 +58,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -101,6 +97,7 @@ Doe
 }
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -186,6 +183,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -251,6 +249,7 @@ Doe
 '
 )
 ;
+await
 expectCookieEquals
 (
 await
@@ -339,6 +338,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -450,6 +450,7 @@ cookie1
 '
 )
 ;
+await
 expectCookieEquals
 (
 await

@@ -40,4 +40,10 @@ devServerTarget
 :
 string
 ;
+port
+:
+number
+|
+null
+;
 }

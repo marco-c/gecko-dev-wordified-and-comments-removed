@@ -63,7 +63,6 @@ import
 {
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -101,10 +100,6 @@ function
 )
 {
 setupTestBrowserHooks
-(
-)
-;
-setupTestPageAndContextHooks
 (
 )
 ;
@@ -177,6 +172,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -693,6 +689,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -968,6 +965,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1143,6 +1141,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1274,6 +1273,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1413,6 +1413,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1577,6 +1578,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1689,6 +1691,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1777,6 +1780,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1901,6 +1905,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2053,6 +2058,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2173,6 +2179,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2357,6 +2364,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2487,6 +2495,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2618,6 +2627,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2768,6 +2778,7 @@ server
 isChrome
 }
 =
+await
 getTestState
 (
 )
@@ -2909,6 +2920,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -3327,6 +3339,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -3704,6 +3717,7 @@ server
 isChrome
 }
 =
+await
 getTestState
 (
 )
@@ -3937,6 +3951,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -4250,6 +4265,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -4404,6 +4420,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -4611,6 +4628,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -4767,6 +4785,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -4863,6 +4882,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -4993,6 +5013,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -5164,6 +5185,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -5352,6 +5374,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -5453,6 +5476,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -5626,6 +5650,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -5764,6 +5789,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -5903,6 +5929,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -6036,6 +6063,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -6105,6 +6133,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -6273,6 +6302,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -6429,6 +6459,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -6563,6 +6594,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -6715,6 +6747,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -6857,6 +6890,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -7019,6 +7053,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -7156,6 +7191,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -7300,6 +7336,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -7488,6 +7525,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -7695,6 +7733,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -7864,6 +7903,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )

@@ -70,13 +70,6 @@ ElementHandle
 js
 '
 ;
-declare
-const
-__JSHandleSymbol
-:
-unique
-symbol
-;
 export
 class
 JSHandle
@@ -86,9 +79,8 @@ T
 unknown
 >
 {
-[
-__JSHandleSymbol
-]
+declare
+_
 ?
 :
 T

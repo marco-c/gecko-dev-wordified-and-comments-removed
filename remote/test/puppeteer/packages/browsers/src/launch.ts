@@ -383,9 +383,8 @@ path
 ;
 }
 export
-type
+interface
 LaunchOptions
-=
 {
 executablePath
 :
@@ -452,7 +451,6 @@ void
 >
 ;
 }
-;
 export
 function
 launch
@@ -1594,9 +1592,8 @@ regex
 :
 RegExp
 timeout
-?
-:
-number
+=
+0
 )
 :
 Promise
@@ -1712,6 +1709,8 @@ const
 timeoutId
 =
 timeout
+>
+0
 ?
 setTimeout
 (
@@ -1719,7 +1718,7 @@ onTimeout
 timeout
 )
 :
-0
+undefined
 ;
 const
 cleanup

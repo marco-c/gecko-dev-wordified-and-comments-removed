@@ -9,7 +9,6 @@ import
 {
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -32,10 +31,6 @@ function
 )
 {
 setupTestBrowserHooks
-(
-)
-;
-setupTestPageAndContextHooks
 (
 )
 ;
@@ -67,6 +62,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -121,6 +117,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -182,6 +179,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -263,6 +261,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -343,6 +342,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -448,6 +448,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -525,6 +526,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -622,6 +624,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -717,6 +720,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -797,6 +801,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -878,6 +883,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -961,7 +967,6 @@ it
 (
 '
 should
-not
 work
 with
 dates
@@ -977,6 +982,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1017,7 +1023,7 @@ Date
 )
 ;
 const
-json
+date
 =
 await
 dateHandle
@@ -1028,13 +1034,38 @@ jsonValue
 ;
 expect
 (
-json
+date
+)
+.
+toBeInstanceOf
+(
+Date
+)
+;
+expect
+(
+date
+.
+toISOString
+(
+)
 )
 .
 toEqual
 (
-{
-}
+'
+2017
+-
+09
+-
+26T00
+:
+00
+:
+00
+.
+000Z
+'
 )
 ;
 }
@@ -1060,6 +1091,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1190,6 +1222,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1293,6 +1326,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1461,6 +1495,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1529,6 +1564,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1593,6 +1629,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1726,6 +1763,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1829,6 +1867,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1861,12 +1900,18 @@ toString
 )
 )
 .
-toBe
+atLeastOneToContain
 (
+[
 '
 JSHandle
 object
 '
+'
+JSHandle
+window
+'
+]
 )
 ;
 }
@@ -1892,6 +1937,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )

@@ -38,7 +38,6 @@ import
 {
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -61,10 +60,6 @@ function
 )
 {
 setupTestBrowserHooks
-(
-)
-;
-setupTestPageAndContextHooks
 (
 )
 ;
@@ -96,6 +91,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -178,6 +174,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -269,6 +266,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -389,6 +387,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -491,6 +490,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -584,6 +584,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -696,6 +697,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -855,6 +857,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1000,6 +1003,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1071,6 +1075,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1139,6 +1144,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1280,6 +1286,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1352,6 +1359,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1440,6 +1448,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1499,6 +1508,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1590,6 +1600,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1763,6 +1774,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1887,6 +1899,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2031,6 +2044,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2182,6 +2196,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2344,6 +2359,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2507,6 +2523,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2699,6 +2716,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2833,6 +2851,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3003,6 +3022,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3124,6 +3144,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -3321,6 +3342,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3546,6 +3568,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3714,6 +3737,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3821,6 +3845,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3917,6 +3942,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -4032,6 +4058,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -4194,6 +4221,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )

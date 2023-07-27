@@ -149,9 +149,8 @@ node
 }
 ;
 export
-type
+interface
 TextContent
-=
 {
 full
 :
@@ -164,7 +163,6 @@ string
 ]
 ;
 }
-;
 const
 textContentCache
 =

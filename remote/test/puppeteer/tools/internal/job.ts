@@ -51,7 +51,10 @@ path
 '
 ;
 import
-glob
+{
+hasMagic
+globSync
+}
 from
 '
 glob
@@ -256,8 +259,6 @@ value
 {
 if
 (
-glob
-.
 hasMagic
 (
 value
@@ -265,9 +266,7 @@ value
 )
 {
 return
-glob
-.
-sync
+globSync
 (
 value
 )

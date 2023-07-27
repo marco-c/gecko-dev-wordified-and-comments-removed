@@ -25,8 +25,12 @@ js
 export
 {
 install
+getInstalledBrowsers
 canDownload
+uninstall
 InstallOptions
+GetInstalledBrowsersOptions
+UninstallOptions
 }
 from
 '

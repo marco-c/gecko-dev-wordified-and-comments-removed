@@ -99,7 +99,6 @@ js
 ;
 import
 {
-EVALUATION_SCRIPT_URL
 ExecutionContext
 }
 from
@@ -114,6 +113,21 @@ js
 import
 {
 Frame
+}
+from
+'
+.
+/
+Frame
+.
+js
+'
+;
+import
+{
+Frame
+as
+CDPFrame
 }
 from
 '
@@ -206,6 +220,7 @@ js
 import
 {
 debugError
+PuppeteerURL
 }
 from
 '
@@ -216,6 +231,7 @@ util
 js
 '
 ;
+export
 const
 UTILITY_WORLD_NAME
 =
@@ -363,6 +379,9 @@ _frameTree
 =
 new
 FrameTree
+<
+Frame
+>
 (
 )
 ;
@@ -1632,7 +1651,7 @@ return
 frame
 =
 new
-Frame
+CDPFrame
 (
 this
 frameId
@@ -1763,7 +1782,7 @@ else
 frame
 =
 new
-Frame
+CDPFrame
 (
 this
 frameId
@@ -1882,7 +1901,9 @@ source
 sourceURL
 =
 {
-EVALUATION_SCRIPT_URL
+PuppeteerURL
+.
+INTERNAL_URL
 }
 worldName
 :

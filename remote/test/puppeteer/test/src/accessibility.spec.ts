@@ -35,7 +35,6 @@ import
 {
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -61,10 +60,6 @@ setupTestBrowserHooks
 (
 )
 ;
-setupTestPageAndContextHooks
-(
-)
-;
 it
 (
 '
@@ -83,6 +78,7 @@ page
 isFirefox
 }
 =
+await
 getTestState
 (
 )
@@ -809,6 +805,7 @@ page
 isFirefox
 }
 =
+await
 getTestState
 (
 )
@@ -989,6 +986,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1360,6 +1358,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1462,6 +1461,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1572,6 +1572,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1674,6 +1675,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1780,6 +1782,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -1910,6 +1913,7 @@ page
 isFirefox
 }
 =
+await
 getTestState
 (
 )
@@ -2107,6 +2111,7 @@ page
 isFirefox
 }
 =
+await
 getTestState
 (
 )
@@ -2322,6 +2327,7 @@ page
 isFirefox
 }
 =
+await
 getTestState
 (
 )
@@ -2535,6 +2541,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -2681,6 +2688,7 @@ page
 isFirefox
 }
 =
+await
 getTestState
 (
 )
@@ -2865,6 +2873,7 @@ page
 isFirefox
 }
 =
+await
 getTestState
 (
 )
@@ -3033,6 +3042,7 @@ page
 isFirefox
 }
 =
+await
 getTestState
 (
 )
@@ -3201,6 +3211,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3292,6 +3303,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3395,6 +3407,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3599,6 +3612,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -3701,6 +3715,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )

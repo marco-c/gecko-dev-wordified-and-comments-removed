@@ -35,7 +35,7 @@ cacheDirectory
 :
 string
 ;
-downloadHost
+downloadBaseUrl
 ?
 :
 string
