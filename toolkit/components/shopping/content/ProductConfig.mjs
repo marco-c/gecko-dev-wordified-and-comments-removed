@@ -65,12 +65,10 @@ https
 /
 /
 staging
--
+.
 trustwerty
 .
-fakespot
-.
-io
+com
 /
 api
 /
