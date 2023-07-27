@@ -30,15 +30,6 @@ h
 #
 include
 "
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -164,13 +155,6 @@ IsEmpty
 #
 ifndef
 __MINGW32__
-if
-(
-IsWin8OrLater
-(
-)
-)
-{
 ComPtr
 <
 IGlobalizationPreferencesStatics
@@ -400,7 +384,6 @@ AppendElement
 loc
 )
 ;
-}
 }
 }
 }
