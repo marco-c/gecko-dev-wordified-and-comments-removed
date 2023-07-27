@@ -614,6 +614,17 @@ shape
 -
 outside
 "
+|
+|
+name
+=
+=
+=
+"
+offset
+-
+path
+"
 ;
 options
 .
