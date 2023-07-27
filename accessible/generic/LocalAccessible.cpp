@@ -17659,13 +17659,6 @@ nsLayoutUtils
 FrameForPointOption
 :
 :
-OnlyVisible
-nsLayoutUtils
-:
-:
-FrameForPointOption
-:
-:
 IgnorePaintSuppression
 nsLayoutUtils
 :
