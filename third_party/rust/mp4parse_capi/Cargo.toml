@@ -180,6 +180,11 @@ exclude
 .
 mp4
 "
+"
+*
+.
+avif
+"
 ]
 description
 =

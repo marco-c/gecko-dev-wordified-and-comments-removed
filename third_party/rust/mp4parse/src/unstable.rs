@@ -2410,6 +2410,7 @@ _
 }
 }
 }
+pub
 fn
 rational_scale
 <

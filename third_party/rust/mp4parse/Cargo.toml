@@ -181,6 +181,11 @@ exclude
 mp4
 "
 "
+*
+.
+avif
+"
+"
 av1
 -
 avif
