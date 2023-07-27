@@ -944,6 +944,9 @@ pbNewtab
 "
 spotlight
 "
+"
+featureCallout
+"
 ]
 ;
 const
@@ -963,6 +966,9 @@ infobar
 "
 "
 spotlight
+"
+"
+featureCallout
 "
 ]
 ;
