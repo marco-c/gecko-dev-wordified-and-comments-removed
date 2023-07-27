@@ -1250,9 +1250,13 @@ lazy
 notifyNavigationStarted
 (
 {
+contextDetails
+:
+{
 context
 :
 browsingContext
+}
 url
 }
 )
