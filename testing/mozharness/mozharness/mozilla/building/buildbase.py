@@ -6799,6 +6799,8 @@ stats
 stats_file
             
 if
+(
+                
 os
 .
 environ
@@ -6814,6 +6816,26 @@ USE_SCCACHE
 "
 1
 "
+                
+and
+not
+os
+.
+environ
+.
+get
+(
+"
+SCCACHE_DISABLE
+"
+)
+=
+=
+"
+1
+"
+            
+)
 :
                 
 self
