@@ -248,6 +248,12 @@ tb
 !
 important
 ;
+font
+-
+size
+:
+math
+;
 }
 /
 *
@@ -498,6 +504,12 @@ math
 style
 :
 compact
+;
+math
+-
+depth
+:
+0
 ;
 }
 math
