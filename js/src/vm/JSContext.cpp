@@ -6267,7 +6267,7 @@ void
 AutoEnterOOMUnsafeRegion
 :
 :
-crash
+crash_impl
 (
 const
 char
@@ -6346,7 +6346,7 @@ void
 AutoEnterOOMUnsafeRegion
 :
 :
-crash
+crash_impl
 (
 size_t
 size
@@ -6375,7 +6375,7 @@ size
 ;
 }
 }
-crash
+crash_impl
 (
 reason
 )
