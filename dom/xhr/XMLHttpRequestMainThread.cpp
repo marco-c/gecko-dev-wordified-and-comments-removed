@@ -6572,7 +6572,7 @@ WarnOnceAbout
 DeprecatedOperations
 :
 :
-eSyncXMLHttpRequest
+eSyncXMLHttpRequestDeprecated
 )
 ;
 }

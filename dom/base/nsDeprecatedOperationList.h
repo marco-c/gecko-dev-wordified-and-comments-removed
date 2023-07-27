@@ -24,7 +24,7 @@ UseOfReleaseEvents
 )
 DEPRECATED_OPERATION
 (
-SyncXMLHttpRequest
+SyncXMLHttpRequestDeprecated
 )
 DEPRECATED_OPERATION
 (
