@@ -620,7 +620,7 @@ https
 -
 only
 -
-desc
+desc2
 =
 You
 can
@@ -655,14 +655,6 @@ HTTPS
 for
 those
 sites
-.
-Exceptions
-do
-not
-apply
-to
-private
-windows
 .
 #
 #
