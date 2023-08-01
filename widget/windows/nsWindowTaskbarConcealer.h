@@ -122,9 +122,6 @@ HMONITOR
 >
 sKnownWindows
 ;
-struct
-Impl
-;
 }
 ;
 #
