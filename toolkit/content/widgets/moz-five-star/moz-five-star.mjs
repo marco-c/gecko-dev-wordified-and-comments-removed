@@ -91,7 +91,10 @@ utils
 mjs
 "
 ;
+window
+.
 MozXULElement
+?
 .
 insertFTLIfNeeded
 (

@@ -33,7 +33,10 @@ open
 }
 )
 ;
+window
+.
 MozXULElement
+?
 .
 insertFTLIfNeeded
 (
