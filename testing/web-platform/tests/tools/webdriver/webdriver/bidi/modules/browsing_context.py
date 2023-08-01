@@ -182,7 +182,6 @@ def
 activate
 (
 self
-                 
 context
 :
 str
