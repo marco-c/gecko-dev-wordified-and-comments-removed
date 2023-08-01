@@ -71,6 +71,13 @@ OnCloakChanged
 (
 )
 ;
+static
+void
+OnAsyncStateUpdateRequest
+(
+HWND
+)
+;
 private
 :
 static
