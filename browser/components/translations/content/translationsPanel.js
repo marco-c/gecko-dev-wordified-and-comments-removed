@@ -3631,6 +3631,14 @@ ensureLangListsBuilt
 )
 ;
 const
+isFirstUserInteraction
+=
+!
+this
+.
+_hasShownPanel
+;
+const
 {
 requestedTranslationPair
 }
@@ -3767,7 +3775,10 @@ panel
 .
 onOpen
 (
+{
 openedFromAppMenu
+isFirstUserInteraction
+}
 )
 ;
 PanelMultiView
