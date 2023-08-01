@@ -393,6 +393,7 @@ style
 "
 )
 }
+pub
 fn
 each_relevant_element_hash
 <
