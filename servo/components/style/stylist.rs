@@ -471,7 +471,7 @@ matching
 :
 :
 {
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 VisitedHandlingMode
 }
 ;
@@ -4968,7 +4968,7 @@ self
 .
 quirks_mode
 needs_selector_flags
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No
@@ -5121,7 +5121,7 @@ self
 .
 quirks_mode
 needs_selector_flags
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No
@@ -5883,7 +5883,7 @@ self
 .
 quirks_mode
 needs_selector_flags
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No

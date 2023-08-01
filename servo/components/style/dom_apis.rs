@@ -108,7 +108,7 @@ matching
 :
 {
 self
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
@@ -221,7 +221,7 @@ NeedsSelectorFlags
 :
 :
 No
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No
@@ -342,7 +342,7 @@ NeedsSelectorFlags
 :
 :
 No
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No
@@ -3363,7 +3363,7 @@ NeedsSelectorFlags
 :
 :
 No
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No
