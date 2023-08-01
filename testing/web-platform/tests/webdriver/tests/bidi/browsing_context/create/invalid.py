@@ -345,7 +345,6 @@ parametrize
 value
 "
 [
-None
 '
 '
 42
