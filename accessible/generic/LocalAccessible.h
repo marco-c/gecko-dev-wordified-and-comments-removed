@@ -526,6 +526,7 @@ Role
 const
 override
 ;
+inline
 mozilla
 :
 :
@@ -690,6 +691,7 @@ Shutdown
 (
 )
 ;
+inline
 void
 SetRoleMapEntry
 (
@@ -730,6 +732,7 @@ LocalAccessible
 aChild
 )
 ;
+inline
 bool
 InsertAfter
 (
@@ -1564,6 +1567,7 @@ nullptr
 )
 const
 ;
+inline
 bool
 IsDefunct
 (
@@ -1623,12 +1627,14 @@ eSharedNode
 )
 ;
 }
+inline
 bool
 NativeHasNumericValue
 (
 )
 const
 ;
+inline
 bool
 ARIAHasNumericValue
 (
