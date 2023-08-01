@@ -1353,6 +1353,15 @@ enabled
 "
 browser
 .
+shopping
+.
+experience2023
+.
+optedIn
+"
+"
+browser
+.
 startup
 .
 homepage
