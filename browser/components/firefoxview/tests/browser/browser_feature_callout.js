@@ -488,7 +488,7 @@ pref
 )
 ;
 await
-clickPrimaryButton
+clickCTA
 (
 tab2Doc
 )
@@ -558,7 +558,7 @@ tab
 )
 ;
 await
-clickPrimaryButton
+clickCTA
 (
 tab1Doc
 )
@@ -1693,7 +1693,7 @@ document
 )
 ;
 await
-clickPrimaryButton
+clickCTA
 (
 document
 )
@@ -2895,7 +2895,7 @@ started
 )
 ;
 await
-clickPrimaryButton
+clickCTA
 (
 document
 )

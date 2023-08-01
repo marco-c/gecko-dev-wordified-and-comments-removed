@@ -131,14 +131,20 @@ calloutId
 featureCallout
 ;
 const
-primaryButtonSelector
+CTASelector
 =
 #
 {
 calloutId
 }
+:
+is
+(
 .
 primary
+.
+secondary
+)
 ;
 const
 PDF_TEST_URL
@@ -2190,7 +2196,7 @@ document
 .
 querySelector
 (
-primaryButtonSelector
+CTASelector
 )
 .
 click
@@ -2326,7 +2332,7 @@ document
 .
 querySelector
 (
-primaryButtonSelector
+CTASelector
 )
 .
 click
@@ -2497,7 +2503,7 @@ document
 .
 querySelector
 (
-primaryButtonSelector
+CTASelector
 )
 .
 click
@@ -2717,7 +2723,7 @@ doc
 .
 querySelector
 (
-primaryButtonSelector
+CTASelector
 )
 .
 click
@@ -5859,7 +5865,7 @@ document
 .
 querySelector
 (
-primaryButtonSelector
+CTASelector
 )
 .
 click
@@ -6193,7 +6199,7 @@ document
 .
 querySelector
 (
-primaryButtonSelector
+CTASelector
 )
 .
 click
