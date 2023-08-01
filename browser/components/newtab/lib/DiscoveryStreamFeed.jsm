@@ -6482,11 +6482,6 @@ publisher
 item
 .
 publisher
-time_to_read
-:
-item
-.
-timeToRead
 raw_image_src
 :
 item
