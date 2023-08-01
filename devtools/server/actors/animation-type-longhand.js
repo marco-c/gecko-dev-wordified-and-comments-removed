@@ -1327,6 +1327,12 @@ default
 appearance
 "
 "
+-
+moz
+-
+theme
+"
+"
 display
 "
 "
