@@ -11224,6 +11224,7 @@ PseudoStyleType
 :
 :
 backdrop
+nullptr
 aFrame
 -
 >
@@ -11482,6 +11483,7 @@ AsElement
 (
 )
 pseudoType
+nullptr
 aFrame
 -
 >
@@ -12438,6 +12440,7 @@ PseudoStyleType
 :
 :
 marker
+nullptr
 upToDateStyleIfRestyled
 )
 ;

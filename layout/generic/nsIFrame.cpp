@@ -12374,6 +12374,7 @@ PseudoStyleType
 :
 :
 selection
+nullptr
 Style
 (
 )

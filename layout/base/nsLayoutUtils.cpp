@@ -8670,6 +8670,7 @@ AsElement
 (
 )
 aPseudoElement
+nullptr
 aComputedStyle
 )
 ;

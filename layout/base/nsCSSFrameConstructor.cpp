@@ -4757,6 +4757,7 @@ PseudoStyleType
 :
 backdrop
 nullptr
+nullptr
 )
 ;
 MOZ_ASSERT
@@ -8785,6 +8786,7 @@ ProbePseudoElementStyle
 (
 aOriginatingElement
 aPseudoElement
+nullptr
 &
 aStyle
 )
@@ -38824,6 +38826,7 @@ PseudoStyleType
 :
 :
 firstLetter
+nullptr
 aComputedStyle
 )
 ;
@@ -38876,6 +38879,7 @@ PseudoStyleType
 :
 :
 firstLine
+nullptr
 aComputedStyle
 )
 ;

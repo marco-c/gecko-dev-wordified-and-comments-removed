@@ -2236,6 +2236,9 @@ Element
 aOriginatingElement
 PseudoStyleType
 aType
+nsAtom
+*
+aFunctionalPseudoParameter
 ComputedStyle
 *
 aParentStyle
@@ -2262,6 +2265,10 @@ const
 bool
 cacheable
 =
+!
+aFunctionalPseudoParameter
+&
+&
 LazyPseudoIsCacheable
 (
 aType
@@ -2312,6 +2319,7 @@ Servo_ResolvePseudoStyle
 &
 aOriginatingElement
 aType
+aFunctionalPseudoParameter
 isProbe
 isProbe
 ?
@@ -5939,6 +5947,9 @@ Element
 aElement
 PseudoStyleType
 aPseudoType
+nsAtom
+*
+aFunctionalPseudoParameter
 StyleRuleInclusion
 aRuleInclusion
 )
@@ -6171,6 +6182,7 @@ Servo_ResolveStyleLazily
 (
 elementForStyleResolution
 pseudoTypeForStyleResolution
+aFunctionalPseudoParameter
 aRuleInclusion
 &
 restyleManager
