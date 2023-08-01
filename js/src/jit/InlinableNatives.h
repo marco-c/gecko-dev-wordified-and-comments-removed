@@ -509,6 +509,11 @@ RegExpSearcher
 \
 _
 (
+RegExpSearcherLastLimit
+)
+\
+_
+(
 IsRegExpObject
 )
 \

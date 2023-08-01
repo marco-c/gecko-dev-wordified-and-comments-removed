@@ -866,6 +866,12 @@ case
 InlinableNative
 :
 :
+RegExpSearcherLastLimit
+:
+case
+InlinableNative
+:
+:
 RegExpPrototypeOptimizable
 :
 case

@@ -4443,6 +4443,15 @@ Label
 notFoundZeroLastIndex
 )
 ;
+void
+loadAndClearRegExpSearcherLastLimit
+(
+Register
+result
+Register
+scratch
+)
+;
 inline
 void
 lshift32
