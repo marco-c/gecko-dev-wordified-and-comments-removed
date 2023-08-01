@@ -161,6 +161,15 @@ report
 show_mobile_app
 "
 "
+browser
+.
+shopping
+.
+experience2023
+.
+optedIn
+"
+"
 narrate
 .
 rate
