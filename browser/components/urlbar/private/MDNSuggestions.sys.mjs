@@ -569,11 +569,11 @@ chrome
 :
 /
 /
-global
+devtools
 /
 skin
 /
-icons
+images
 /
 mdn
 .
