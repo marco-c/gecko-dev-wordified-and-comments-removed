@@ -126,6 +126,10 @@ libffi
 -
 dev
 \
+liblzma
+-
+dev
+\
 libncursesw5
 -
 dev
