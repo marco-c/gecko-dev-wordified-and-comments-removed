@@ -187,6 +187,8 @@ storage
 [
 CUBEB_LOG_MESSAGE_MAX_SIZE
 ]
+{
+}
 ;
 }
 ;
@@ -228,6 +230,7 @@ str
 )
 ;
 auto
+*
 owned_queue
 =
 msg_queue
@@ -519,6 +522,7 @@ thread
 )
 ;
 auto
+*
 owned_queue
 =
 msg_queue
