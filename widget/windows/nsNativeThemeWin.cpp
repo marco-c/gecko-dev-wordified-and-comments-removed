@@ -8777,12 +8777,6 @@ StyleAppearance
 :
 Tabpanels
 :
-case
-StyleAppearance
-:
-:
-Groupbox
-:
 return
 NS_OK
 ;
