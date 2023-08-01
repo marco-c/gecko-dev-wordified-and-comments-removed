@@ -1651,6 +1651,9 @@ aHeader
 mMedia
 aHeader
 .
+mNonce
+aHeader
+.
 mIntegrity
 aHeader
 .
@@ -1704,6 +1707,9 @@ mAs
 aHeader
 .
 mMedia
+aHeader
+.
+mNonce
 aHeader
 .
 mIntegrity
@@ -2197,6 +2203,10 @@ aMedia
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 const
 nsAString
@@ -2362,6 +2372,7 @@ aHref
 policyType
 aAs
 aType
+aNonce
 aIntegrity
 aSrcset
 aSizes
@@ -2389,6 +2400,10 @@ const
 nsAString
 &
 aMedia
+const
+nsAString
+&
+aNonce
 const
 nsAString
 &
@@ -2587,6 +2602,7 @@ u
 module
 "
 _ns
+aNonce
 aIntegrity
 u
 "

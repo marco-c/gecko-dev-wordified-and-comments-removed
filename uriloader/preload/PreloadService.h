@@ -191,6 +191,10 @@ aType
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 const
 nsAString
