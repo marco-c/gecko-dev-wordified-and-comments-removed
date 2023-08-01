@@ -237,6 +237,10 @@ aReferrerPolicy
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 bool
 aScriptFromHead
@@ -397,6 +401,10 @@ const
 nsAString
 &
 aSizes
+const
+nsAString
+&
+aNonce
 const
 nsAString
 &
