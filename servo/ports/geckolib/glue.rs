@@ -13436,9 +13436,7 @@ replace_parent_selector
 &
 s
 .
-to_shared
-(
-)
+0
 )
 None
 =
