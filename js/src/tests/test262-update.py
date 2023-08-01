@@ -94,6 +94,10 @@ arraybuffer
 "
         
 "
+decorators
+"
+        
+"
 regexp
 -
 duplicate
@@ -239,22 +243,6 @@ Array
 prototype
 .
 with
-"
-    
-"
-decorators
-"
-:
-"
-!
-getBuildConfiguration
-(
-)
-[
-'
-decorators
-'
-]
 "
     
 "
