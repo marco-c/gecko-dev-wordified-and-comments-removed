@@ -13,6 +13,10 @@ working
 "
 "
 from
+io
+import
+StringIO
+from
 textwrap
 import
 dedent
@@ -30,10 +34,6 @@ manifestparser
 util
 import
 evaluate_list_from_string
-from
-six
-import
-StringIO
 pytest
 .
 fixture

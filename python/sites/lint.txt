@@ -228,13 +228,6 @@ third_party
 /
 python
 /
-typing_extensions
-vendored
-:
-third_party
-/
-python
-/
 voluptuous
 vendored
 :

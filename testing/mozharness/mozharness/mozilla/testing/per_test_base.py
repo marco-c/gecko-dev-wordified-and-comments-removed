@@ -12,10 +12,6 @@ import
 sys
 import
 mozinfo
-from
-manifestparser
-import
-TestManifest
 class
 SingleTestMixin
 (
@@ -403,6 +399,11 @@ all_disabled
 =
 [
 ]
+        
+from
+manifestparser
+import
+TestManifest
         
 for
 (

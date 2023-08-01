@@ -560,10 +560,14 @@ tests
 ]
         
 for
-path
+p
 in
 paths
 :
+            
+path
+=
+p
             
 if
 isinstance

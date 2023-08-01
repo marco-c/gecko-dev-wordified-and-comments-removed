@@ -46,13 +46,6 @@ third_party
 /
 python
 /
-importlib_resources
-vendored
-:
-third_party
-/
-python
-/
 jsonschema
 vendored
 :

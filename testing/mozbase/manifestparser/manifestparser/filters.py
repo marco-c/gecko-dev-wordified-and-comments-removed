@@ -61,12 +61,6 @@ collections
 abc
 import
 MutableSequence
-import
-six
-from
-six
-import
-string_types
 from
 .
 expression
@@ -78,57 +72,6 @@ from
 util
 import
 normsep
-logger
-=
-None
-def
-log
-(
-msg
-level
-=
-"
-info
-"
-)
-:
-    
-from
-mozlog
-import
-get_default_logger
-    
-global
-logger
-    
-if
-not
-logger
-:
-        
-logger
-=
-get_default_logger
-(
-component
-=
-"
-manifestparser
-"
-)
-    
-if
-logger
-:
-        
-getattr
-(
-logger
-level
-)
-(
-msg
-)
 def
 _match
 (
@@ -727,11 +670,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 ]
             
@@ -1078,10 +1020,7 @@ subsuite
 yield
 test
             
-else
-:
-                
-if
+elif
 test
 .
 get
@@ -1098,7 +1037,7 @@ self
 .
 name
 :
-                    
+                
 yield
 test
 class
@@ -1850,11 +1789,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 tests_by_dir
+.
+items
+(
 )
 if
 k
@@ -2311,6 +2249,47 @@ items
 (
 )
 }
+        
+component
+=
+"
+filters
+"
+        
+import
+mozlog
+        
+self
+.
+logger
+=
+mozlog
+.
+get_default_logger
+(
+component
+)
+        
+if
+self
+.
+logger
+is
+None
+:
+            
+self
+.
+logger
+=
+mozlog
+.
+unstructured
+.
+getLogger
+(
+component
+)
     
 classmethod
     
@@ -2450,7 +2429,11 @@ runtimes
 ]
 )
         
-log
+self
+.
+logger
+.
+info
 (
             
 "
@@ -2674,7 +2657,11 @@ this_chunk
 1
 ]
         
-log
+self
+.
+logger
+.
+info
 (
             
 "
@@ -2898,7 +2885,7 @@ if
 isinstance
 (
 tags
-string_types
+str
 )
 :
             
@@ -3218,7 +3205,7 @@ if
 isinstance
 (
 paths
-string_types
+str
 )
 :
             
@@ -3264,7 +3251,7 @@ tests
 :
             
 for
-tp
+testpath
 in
 self
 .
@@ -3279,7 +3266,7 @@ path
 .
 normpath
 (
-tp
+testpath
 )
                 
 if
