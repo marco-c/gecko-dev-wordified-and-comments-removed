@@ -3731,6 +3731,10 @@ NodePrincipal
 GetReferrerInfo
 (
 )
+u
+"
+"
+_ns
 )
 ;
 nsCOMPtr

@@ -60033,6 +60033,10 @@ StringToCORSMode
 (
 aCrossOriginAttr
 )
+u
+"
+"
+_ns
 aIntegrity
 )
 ;
