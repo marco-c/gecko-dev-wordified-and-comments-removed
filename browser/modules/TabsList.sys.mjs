@@ -2110,6 +2110,18 @@ selected
 )
 ;
 let
+tooltiptext
+=
+this
+.
+gBrowser
+.
+getTabTooltip
+(
+tab
+)
+;
+let
 busy
 =
 tab
@@ -2138,6 +2150,7 @@ label
 tab
 .
 label
+tooltiptext
 image
 :
 !
