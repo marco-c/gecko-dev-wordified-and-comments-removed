@@ -376,6 +376,17 @@ trc
 )
 ;
 void
+TraceWeakJitActivationsInSweepingZones
+(
+JSContext
+*
+cx
+JSTracer
+*
+trc
+)
+;
+void
 UpdateJitActivationsForMinorGC
 (
 JSRuntime
