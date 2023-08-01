@@ -69,7 +69,7 @@ mozperftest
 .
 runner
 .
-_activate_mach_virtualenv
+_activate_virtualenvs
 "
 return_value
 =
@@ -131,7 +131,7 @@ mozperftest
 .
 runner
 .
-_activate_mach_virtualenv
+_activate_virtualenvs
 "
 return_value
 =
