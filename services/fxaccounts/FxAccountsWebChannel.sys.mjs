@@ -103,7 +103,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 COMMAND_PROFILE_CHANGE
 COMMAND_LOGIN
@@ -127,11 +127,7 @@ WEBCHANNEL_ID
 log
 logPII
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -143,9 +139,10 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 const
 lazy

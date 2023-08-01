@@ -79,7 +79,7 @@ strict
 ;
 "
 ;
-const
+import
 {
 ERRNO_NETWORK
 ERRNO_PARSE
@@ -93,11 +93,7 @@ log
 SCOPE_PROFILE
 SCOPE_PROFILE_WRITE
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -109,9 +105,10 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {

@@ -64,7 +64,7 @@ COMMAND_SENDTAB_TAIL
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -77,7 +77,9 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
 )
 ;

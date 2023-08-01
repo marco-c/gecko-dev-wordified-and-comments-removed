@@ -140,7 +140,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 ERRNO_ACCOUNT_DOES_NOT_EXIST
 ERRNO_INCORRECT_EMAIL_CASE
@@ -150,11 +150,7 @@ ERRNO_INVALID_AUTH_TIMESTAMP
 ERRNO_INVALID_AUTH_TOKEN
 log
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -166,9 +162,10 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {

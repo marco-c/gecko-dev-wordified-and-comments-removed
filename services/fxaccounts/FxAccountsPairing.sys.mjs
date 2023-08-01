@@ -56,7 +56,7 @@ MPL
 0
 /
 .
-const
+import
 {
 log
 PREF_REMOTE_PAIRING_URI
@@ -66,11 +66,7 @@ COMMAND_PAIR_DECLINE
 COMMAND_PAIR_HEARTBEAT
 COMMAND_PAIR_COMPLETE
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -82,9 +78,10 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {
