@@ -358,8 +358,7 @@ a
 Mac
 )
 .
-Web
-Extensions
+WebExtensions
 are
 listed
 in

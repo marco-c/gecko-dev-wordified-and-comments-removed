@@ -1500,8 +1500,7 @@ can
 temporarily
 load
 a
-web
-extension
+WebExtension
 from
 a
 directory
@@ -2286,8 +2285,7 @@ about
 debugging
 lists
 all
-web
-extensions
+WebExtensions
 that
 are
 currently

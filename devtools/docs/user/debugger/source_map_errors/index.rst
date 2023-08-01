@@ -677,8 +677,7 @@ loading
 source
 maps
 for
-web
-extensions
+WebExtensions
 .
 See
 Bug

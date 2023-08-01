@@ -2935,8 +2935,7 @@ are
 a
 variant
 of
-web
-extensions
+WebExtensions
 providing
 just
 localized
