@@ -6940,18 +6940,6 @@ sandboxSettings
 .
 effectiveContentSandboxLevel
 ;
-if
-(
-AppConstants
-.
-platform
-=
-=
-"
-win
-"
-)
-{
 data
 .
 contentWin32kLockdownState
@@ -6981,7 +6969,6 @@ level
 "
 )
 ;
-}
 }
 done
 (
