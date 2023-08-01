@@ -95,7 +95,9 @@ mjs
 "
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
 "
 FxAccountsConfig
