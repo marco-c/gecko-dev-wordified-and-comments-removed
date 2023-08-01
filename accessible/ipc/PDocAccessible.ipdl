@@ -261,6 +261,8 @@ aNewTree
 bool
 aEventSuppressed
 bool
+aComplete
+bool
 aFromuser
 )
 ;
