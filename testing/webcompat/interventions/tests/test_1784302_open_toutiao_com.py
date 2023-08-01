@@ -166,6 +166,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+load
+"
 await_console_message
 =
 API_MISSING_MSG

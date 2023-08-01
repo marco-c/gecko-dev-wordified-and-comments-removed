@@ -157,6 +157,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+load
+"
 )
     
 accept

@@ -37,6 +37,23 @@ client
 navigate
 (
 URL
+wait
+=
+"
+complete
+"
+)
+    
+header
+=
+client
+.
+await_css
+(
+HEADER_CSS
+timeout
+=
+60
 )
     
 return
@@ -45,32 +62,19 @@ client
 execute_script
 (
         
-f
 "
 "
 "
-        
-const
-r
-=
-document
-.
-querySelector
-(
-"
-{
-HEADER_CSS
-}
-"
-)
-;
         
 return
 window
 .
 getComputedStyle
 (
-r
+arguments
+[
+0
+]
 )
 .
 position
@@ -79,6 +83,8 @@ position
 "
 "
 "
+        
+header
     
 )
 pytest

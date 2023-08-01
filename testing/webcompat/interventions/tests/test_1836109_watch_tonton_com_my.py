@@ -78,6 +78,9 @@ client
 await_css
 (
 LOGIN_CSS
+timeout
+=
+10
 )
 pytest
 .
@@ -121,4 +124,7 @@ client
 await_css
 (
 UNSUPPORTED_CSS
+timeout
+=
+10
 )

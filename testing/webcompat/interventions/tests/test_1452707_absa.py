@@ -23,6 +23,12 @@ login
 .
 jsp
 "
+UNSUPPORTED_ALERT
+=
+"
+Browser
+unsupported
+"
 pytest
 .
 mark
@@ -78,6 +84,16 @@ client
 )
 :
     
+alert
+=
+await
+client
+.
+await_alert
+(
+UNSUPPORTED_ALERT
+)
+    
 await
 client
 .
@@ -86,26 +102,8 @@ navigate
 URL
 )
     
-assert
-client
-.
+await
 alert
-.
-text
-=
-=
-"
-Browser
-unsupported
-"
-    
-client
-.
-alert
-.
-dismiss
-(
-)
     
 assert
 client

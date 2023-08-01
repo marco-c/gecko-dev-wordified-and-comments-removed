@@ -91,6 +91,9 @@ client
 navigate
 (
 URL
+wait
+=
+None
 await_console_message
 =
 BAD_MSG

@@ -66,6 +66,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 assert
@@ -88,7 +93,7 @@ SPLASH_CSS
 )
 timeout
 =
-10
+30
 )
 pytest
 .
@@ -124,9 +129,17 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 await_console_message
 =
 ERROR_MSG
+timeout
+=
+30
 )
     
 assert

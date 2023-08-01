@@ -61,6 +61,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+load
+"
 )
     
 assert
@@ -104,6 +109,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+load
+"
 )
     
 assert

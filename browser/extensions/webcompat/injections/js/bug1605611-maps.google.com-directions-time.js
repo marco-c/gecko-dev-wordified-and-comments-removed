@@ -24,8 +24,6 @@ dialog
 ]
 [
 disabled
-=
-true
 ]
 "
 ;

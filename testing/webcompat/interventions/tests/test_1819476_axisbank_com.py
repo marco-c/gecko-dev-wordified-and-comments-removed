@@ -73,6 +73,9 @@ client
 await_css
 (
 SITE_CSS
+timeout
+=
+120
 )
 pytest
 .
@@ -101,4 +104,7 @@ URL
 await_console_message
 =
 ERROR_MSG
+timeout
+=
+10
 )
