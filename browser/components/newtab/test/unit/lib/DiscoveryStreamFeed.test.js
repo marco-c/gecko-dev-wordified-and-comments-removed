@@ -24006,6 +24006,11 @@ publisher
 "
 publisher
 "
+timeToRead
+:
+"
+timeToRead
+"
 imageUrl
 :
 "
@@ -24071,6 +24076,11 @@ publisher
 :
 "
 publisher
+"
+time_to_read
+:
+"
+timeToRead
 "
 raw_image_src
 :
