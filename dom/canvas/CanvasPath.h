@@ -486,6 +486,12 @@ EnsureCapped
 )
 const
 ;
+void
+EnsureActive
+(
+)
+const
+;
 }
 ;
 }
