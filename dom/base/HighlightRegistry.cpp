@@ -394,7 +394,6 @@ continue
 const
 RefPtr
 <
-const
 nsAtom
 >
 highlightName
@@ -489,7 +488,6 @@ continue
 const
 RefPtr
 <
-const
 nsAtom
 >
 highlightName
@@ -570,7 +568,6 @@ continue
 const
 RefPtr
 <
-const
 nsAtom
 >
 highlightName
@@ -642,7 +639,6 @@ mHighlightsOrdered
 {
 RefPtr
 <
-const
 nsAtom
 >
 highlightName
@@ -847,7 +843,6 @@ CompactPair
 <
 RefPtr
 <
-const
 nsAtom
 >
 RefPtr
@@ -957,7 +952,6 @@ mHighlightsOrdered
 const
 RefPtr
 <
-const
 nsAtom
 >
 &

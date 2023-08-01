@@ -166,7 +166,6 @@ aBackColor
 bool
 GetCustomHighlightTextColor
 (
-const
 nsAtom
 *
 aHighlightName
@@ -178,7 +177,6 @@ aForeColor
 bool
 GetCustomHighlightBackgroundColor
 (
-const
 nsAtom
 *
 aHighlightName

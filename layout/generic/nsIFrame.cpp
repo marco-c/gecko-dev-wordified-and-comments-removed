@@ -12439,7 +12439,6 @@ nsIFrame
 :
 ComputeHighlightSelectionStyle
 (
-const
 nsAtom
 *
 aHighlightName
@@ -12477,10 +12476,14 @@ StyleSet
 )
 -
 >
-ProbeHighlightPseudoElementStyle
+ProbePseudoElementStyle
 (
 *
 element
+PseudoStyleType
+:
+:
+highlight
 aHighlightName
 Style
 (

@@ -798,7 +798,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 AddHighlightSelection
 (
-const
 nsAtom
 *
 aHighlightName
@@ -817,7 +816,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 RemoveHighlightSelection
 (
-const
 nsAtom
 *
 aHighlightName
@@ -827,7 +825,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 AddHighlightSelectionRange
 (
-const
 nsAtom
 *
 aHighlightName
@@ -855,7 +852,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 RemoveHighlightSelectionRange
 (
-const
 nsAtom
 *
 aHighlightName
@@ -2045,7 +2041,6 @@ CompactPair
 <
 RefPtr
 <
-const
 nsAtom
 >
 RefPtr

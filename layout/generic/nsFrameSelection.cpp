@@ -7327,7 +7327,6 @@ nsFrameSelection
 :
 AddHighlightSelection
 (
-const
 nsAtom
 *
 aHighlightName
@@ -7436,7 +7435,6 @@ CompactPair
 <
 RefPtr
 <
-const
 nsAtom
 >
 RefPtr
@@ -7464,7 +7462,6 @@ nsFrameSelection
 :
 RemoveHighlightSelection
 (
-const
 nsAtom
 *
 aHighlightName
@@ -7562,7 +7559,6 @@ nsFrameSelection
 :
 AddHighlightSelectionRange
 (
-const
 nsAtom
 *
 aHighlightName
@@ -7686,7 +7682,6 @@ CompactPair
 <
 RefPtr
 <
-const
 nsAtom
 >
 RefPtr
@@ -7714,7 +7709,6 @@ nsFrameSelection
 :
 RemoveHighlightSelectionRange
 (
-const
 nsAtom
 *
 aHighlightName

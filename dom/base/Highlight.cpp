@@ -405,7 +405,6 @@ Highlight
 :
 CreateHighlightSelection
 (
-const
 nsAtom
 *
 aHighlightName
