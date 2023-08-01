@@ -1309,7 +1309,7 @@ height
 uint8_t
 buffer
 [
-1024
+2048
 ]
 =
 {
@@ -1771,7 +1771,7 @@ pw_main_loop_
 uint8_t
 buffer
 [
-2048
+4096
 ]
 =
 {
@@ -2375,7 +2375,7 @@ this
 uint8_t
 buffer
 [
-2048
+4096
 ]
 =
 {
