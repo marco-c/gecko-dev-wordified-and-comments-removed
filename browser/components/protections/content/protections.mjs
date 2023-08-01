@@ -3093,7 +3093,7 @@ click
 =
 >
 {
-RPMSetBoolPref
+RPMSetPref
 (
 "
 browser

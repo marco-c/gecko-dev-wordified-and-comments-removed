@@ -684,7 +684,7 @@ trr
 display_fallback_warning
 "
 ]
-RPMSetBoolPref
+RPMSetPref
 :
 [
 "
@@ -1145,7 +1145,7 @@ RPMRemoveMessageListener
 *
 "
 ]
-RPMSetBoolPref
+RPMSetPref
 :
 [
 "

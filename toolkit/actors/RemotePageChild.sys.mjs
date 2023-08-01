@@ -243,7 +243,7 @@ RPMGetStringPref
 RPMGetBoolPref
 "
 "
-RPMSetBoolPref
+RPMSetPref
 "
 "
 RPMGetFormatURLPref
@@ -1175,7 +1175,7 @@ aPref
 )
 ;
 }
-RPMSetBoolPref
+RPMSetPref
 (
 aPref
 aVal

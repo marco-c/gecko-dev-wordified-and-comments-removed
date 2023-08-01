@@ -610,7 +610,7 @@ subscribed
 to
 vpn
 await
-RPMSetBoolPref
+RPMSetPref
 (
 "
 browser
@@ -747,7 +747,7 @@ not
 show
 again
 .
-RPMSetBoolPref
+RPMSetPref
 (
 "
 browser

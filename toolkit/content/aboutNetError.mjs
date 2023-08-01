@@ -4165,7 +4165,7 @@ click
 =
 >
 {
-RPMSetBoolPref
+RPMSetPref
 (
 "
 network
@@ -5873,7 +5873,7 @@ checked
 }
 )
 {
-RPMSetBoolPref
+RPMSetPref
 (
 "
 security
