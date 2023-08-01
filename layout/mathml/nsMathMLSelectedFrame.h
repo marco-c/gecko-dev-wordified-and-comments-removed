@@ -184,17 +184,6 @@ nsMathMLSelectedFrame
 (
 )
 ;
-nsresult
-ReflowError
-(
-DrawTarget
-*
-aDrawTarget
-ReflowOutput
-&
-aDesiredSize
-)
-;
 virtual
 nsIFrame
 *
