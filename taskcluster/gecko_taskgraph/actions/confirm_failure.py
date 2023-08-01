@@ -434,6 +434,15 @@ split
 0
 ]
                     
+if
+"
+?
+"
+not
+in
+test_path
+:
+                        
 test_path
 =
 test_path
@@ -559,6 +568,15 @@ test
 "
 ]
                     
+if
+"
+?
+"
+not
+in
+test_path
+:
+                        
 test_path
 =
 test_path
@@ -1374,6 +1392,20 @@ tests
 "
 +
 fpath
+                
+fpath
+=
+fpath
+.
+split
+(
+"
+?
+"
+)
+[
+0
+]
             
 task_definition
 [
