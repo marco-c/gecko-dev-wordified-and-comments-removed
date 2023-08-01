@@ -204,7 +204,7 @@ PartialEq
 ]
 pub
 enum
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 {
 No
 Yes
@@ -478,9 +478,9 @@ QuirksMode
 needs_selector_flags
 :
 NeedsSelectorFlags
-ignores_nth_child_selectors_for_invalidation
+matching_for_invalidation
 :
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 pub
 selector_caches
 :
@@ -553,9 +553,9 @@ QuirksMode
 needs_selector_flags
 :
 NeedsSelectorFlags
-ignores_nth_child_selectors_for_invalidation
+matching_for_invalidation
 :
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 )
 -
 >
@@ -575,7 +575,7 @@ VisitedHandlingMode
 AllLinksUnvisited
 quirks_mode
 needs_selector_flags
-ignores_nth_child_selectors_for_invalidation
+matching_for_invalidation
 )
 }
 pub
@@ -610,9 +610,9 @@ QuirksMode
 needs_selector_flags
 :
 NeedsSelectorFlags
-ignores_nth_child_selectors_for_invalidation
+matching_for_invalidation
 :
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 )
 -
 >
@@ -632,7 +632,7 @@ classes_and_ids_case_sensitivity
 (
 )
 needs_selector_flags
-ignores_nth_child_selectors_for_invalidation
+matching_for_invalidation
 scope_element
 :
 None
@@ -835,7 +835,7 @@ inline
 ]
 pub
 fn
-ignores_nth_child_selectors_for_invalidation
+matching_for_invalidation
 (
 &
 self
@@ -846,10 +846,10 @@ bool
 {
 self
 .
-ignores_nth_child_selectors_for_invalidation
+matching_for_invalidation
 =
 =
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 Yes
