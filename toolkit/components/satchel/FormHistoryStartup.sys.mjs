@@ -403,7 +403,7 @@ _queryInstance
 )
 ;
 const
-results
+formHistoryEntries
 =
 await
 lazy
@@ -448,6 +448,14 @@ AutoCompleteSearchResults
 {
 id
 results
+:
+{
+formHistoryEntries
+externalEntries
+:
+[
+]
+}
 }
 )
 ;
