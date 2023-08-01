@@ -986,9 +986,6 @@ dialog
 dualbutton
 "
 "
-groupbox
-"
-"
 inherit
 "
 "
@@ -1010,11 +1007,6 @@ menulist
 menulist
 -
 button
-"
-"
-menulist
--
-text
 "
 "
 menupopup
@@ -6118,9 +6110,6 @@ dialog
 dualbutton
 "
 "
-groupbox
-"
-"
 inherit
 "
 "
@@ -6142,11 +6131,6 @@ menulist
 menulist
 -
 button
-"
-"
-menulist
--
-text
 "
 "
 menupopup
@@ -15191,9 +15175,6 @@ dialog
 dualbutton
 "
 "
-groupbox
-"
-"
 inherit
 "
 "
@@ -15215,11 +15196,6 @@ menulist
 menulist
 -
 button
-"
-"
-menulist
--
-text
 "
 "
 menupopup
