@@ -1386,7 +1386,7 @@ backgroundUpdate
 getVariable
 (
 "
-allowUpdatesForUnelevatedInstallions
+allowUpdatesForUnelevatedInstallations
 "
 )
 "

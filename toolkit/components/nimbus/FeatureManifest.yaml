@@ -11593,7 +11593,7 @@ isEarlyStartup
 false
 variables
 :
-allowUpdatesForUnelevatedInstallions
+allowUpdatesForUnelevatedInstallations
 :
 description
 :
