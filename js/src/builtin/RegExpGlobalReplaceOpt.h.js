@@ -309,10 +309,12 @@ replaceValue
 }
 #
 else
-replacement
-=
-replaceValue
-;
+#
+error
+"
+Unexpected
+case
+"
 #
 endif
 accumulatedResult

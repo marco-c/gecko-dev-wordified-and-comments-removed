@@ -13176,6 +13176,15 @@ RegExpSearcher
 0
 RegExpSearcher
 )
+JS_FN
+(
+"
+RegExpSearcherLastLimit
+"
+RegExpSearcherLastLimit
+0
+0
+)
 JS_INLINABLE_FN
 (
 "

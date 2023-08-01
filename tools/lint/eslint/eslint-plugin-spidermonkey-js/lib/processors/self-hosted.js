@@ -69,6 +69,8 @@ include
 define
 |
 undef
+|
+error
 )
 .
 *
