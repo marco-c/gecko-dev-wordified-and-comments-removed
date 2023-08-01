@@ -81,6 +81,10 @@ comm
 -
 esr115
 "
+    
+"
+pine
+"
 }
 RELEASE_PROMOTION_PROJECTS
 =
@@ -92,10 +96,6 @@ jamun
     
 "
 maple
-"
-    
-"
-pine
 "
     
 "
