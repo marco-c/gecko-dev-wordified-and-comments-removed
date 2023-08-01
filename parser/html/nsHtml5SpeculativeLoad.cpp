@@ -351,6 +351,7 @@ mCharsetOrSrcset
 mCrossOrigin
 mMedia
 mReferrerPolicyOrIntegrity
+mNonce
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mIsLinkPreload
 )

@@ -818,6 +818,10 @@ aReferrerPolicy
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 bool
 aLinkPreload

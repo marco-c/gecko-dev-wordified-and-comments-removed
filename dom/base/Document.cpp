@@ -59960,6 +59960,10 @@ aReferrerPolicy
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 css
 :
@@ -60033,10 +60037,7 @@ StringToCORSMode
 (
 aCrossOriginAttr
 )
-u
-"
-"
-_ns
+aNonce
 aIntegrity
 )
 ;

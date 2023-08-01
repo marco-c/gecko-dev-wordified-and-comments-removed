@@ -1515,6 +1515,20 @@ ATTR_CROSSORIGIN
 )
 ;
 nsHtml5String
+nonce
+=
+aAttributes
+-
+>
+getValue
+(
+nsHtml5AttributeName
+:
+:
+ATTR_NONCE
+)
+;
+nsHtml5String
 integrity
 =
 aAttributes
@@ -1570,6 +1584,7 @@ charset
 crossOrigin
 media
 referrerPolicy
+nonce
 integrity
 false
 )
@@ -1848,6 +1863,7 @@ charset
 crossOrigin
 media
 referrerPolicy
+nullptr
 integrity
 true
 )

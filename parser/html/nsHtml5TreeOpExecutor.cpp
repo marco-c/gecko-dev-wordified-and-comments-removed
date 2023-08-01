@@ -5745,6 +5745,10 @@ aReferrerPolicy
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 bool
 aLinkPreload
@@ -5844,6 +5848,7 @@ GetPreloadReferrerPolicy
 (
 aReferrerPolicy
 )
+aNonce
 aIntegrity
 aLinkPreload
 ?
