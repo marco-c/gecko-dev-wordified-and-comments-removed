@@ -77,7 +77,7 @@ sys
 mjs
 "
 ;
-import
+const
 {
 log
 ERRNO_DEVICE_SESSION_CONFLICT
@@ -89,7 +89,11 @@ ON_DEVICE_DISCONNECTED_NOTIFICATION
 ONVERIFIED_NOTIFICATION
 PREF_ACCOUNT_ROOT
 }
-from
+=
+ChromeUtils
+.
+import
+(
 "
 resource
 :
@@ -101,10 +105,9 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
+)
 ;
 import
 {

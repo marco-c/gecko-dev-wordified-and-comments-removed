@@ -77,7 +77,7 @@ sys
 mjs
 "
 ;
-import
+const
 {
 FXA_PUSH_SCOPE_ACCOUNT_UPDATE
 ONLOGOUT_NOTIFICATION
@@ -93,7 +93,11 @@ ON_PROFILE_UPDATED_NOTIFICATION
 ON_VERIFY_LOGIN_NOTIFICATION
 log
 }
-from
+=
+ChromeUtils
+.
+import
+(
 "
 resource
 :
@@ -105,10 +109,9 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
+)
 ;
 /
 *

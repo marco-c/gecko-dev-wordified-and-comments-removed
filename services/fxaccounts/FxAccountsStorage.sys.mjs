@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-import
+const
 {
 DATA_FORMAT_VERSION
 DEFAULT_STORAGE_FILENAME
@@ -66,7 +66,11 @@ FXA_PWDMGR_REALM
 FXA_PWDMGR_SECURE_FIELDS
 log
 }
-from
+=
+ChromeUtils
+.
+import
+(
 "
 resource
 :
@@ -78,10 +82,9 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
+)
 ;
 /
 /
