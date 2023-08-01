@@ -10301,6 +10301,16 @@ restorePage
 fromLanguage
 )
 {
+TranslationsParent
+.
+telemetry
+(
+)
+.
+onRestorePage
+(
+)
+;
 if
 (
 lazy
