@@ -162,7 +162,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 ERRNO_INVALID_AUTH_TOKEN
 ERROR_AUTH_ERROR
@@ -189,11 +189,7 @@ log
 logPII
 logManager
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -205,9 +201,10 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 const
 lazy

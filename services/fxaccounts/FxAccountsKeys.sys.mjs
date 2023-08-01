@@ -119,7 +119,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 SCOPE_OLD_SYNC
 DEPRECATED_SCOPE_ECOSYSTEM_TELEMETRY
@@ -127,11 +127,7 @@ FX_OAUTH_CLIENT_ID
 log
 logPII
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -143,9 +139,10 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 /
 /
