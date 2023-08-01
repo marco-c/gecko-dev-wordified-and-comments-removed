@@ -8257,12 +8257,6 @@ mozilla
 StyleInert
 mInert
 ;
-mozilla
-:
-:
-StyleMozTheme
-mMozTheme
-;
 private
 :
 mozilla
