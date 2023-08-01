@@ -175,7 +175,7 @@ matching
 :
 {
 matches_selector
-MatchingForInvalidation
+IgnoreNthChildForInvalidation
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
@@ -455,7 +455,7 @@ NeedsSelectorFlags
 :
 :
 No
-MatchingForInvalidation
+IgnoreNthChildForInvalidation
 :
 :
 Yes
