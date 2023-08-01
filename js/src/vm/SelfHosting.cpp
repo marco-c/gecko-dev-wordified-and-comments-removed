@@ -13274,7 +13274,7 @@ intrinsic_RegExpGetSubstitution
 5
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 RegExpHasCaptureGroups
@@ -13282,6 +13282,7 @@ RegExpHasCaptureGroups
 intrinsic_RegExpHasCaptureGroups
 2
 0
+RegExpHasCaptureGroups
 )
 JS_INLINABLE_FN
 (

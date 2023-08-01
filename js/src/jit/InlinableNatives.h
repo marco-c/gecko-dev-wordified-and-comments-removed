@@ -514,6 +514,11 @@ RegExpSearcherLastLimit
 \
 _
 (
+RegExpHasCaptureGroups
+)
+\
+_
+(
 IsRegExpObject
 )
 \
