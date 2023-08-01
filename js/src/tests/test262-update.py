@@ -94,10 +94,6 @@ arraybuffer
 "
         
 "
-decorators
-"
-        
-"
 regexp
 -
 duplicate
@@ -243,6 +239,34 @@ Array
 prototype
 .
 with
+"
+    
+"
+decorators
+"
+:
+"
+!
+(
+this
+.
+hasOwnProperty
+(
+'
+getBuildConfiguration
+'
+)
+&
+&
+getBuildConfiguration
+(
+)
+[
+'
+decorators
+'
+]
+)
 "
     
 "
