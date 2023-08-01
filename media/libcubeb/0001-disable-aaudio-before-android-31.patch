@@ -11,6 +11,10 @@ cubeb_aaudio
 cpp
 b
 /
+media
+/
+libcubeb
+/
 src
 /
 cubeb_aaudio
@@ -156,10 +160,10 @@ inttypes
 h
 >
 -
-1600
+1700
 16
 +
-1601
+1701
 19
 const
 static
@@ -173,7 +177,7 @@ stream_get_current_device
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
@@ -181,7 +185,7 @@ stream_device_destroy
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
@@ -189,7 +193,7 @@ stream_register_device_changed_callback
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
@@ -197,7 +201,7 @@ register_device_collection_changed
 =
 *
 /
-NULL
+nullptr
 }
 ;
 extern
@@ -251,7 +255,7 @@ void
 *
 libaaudio
 =
-NULL
+nullptr
 ;
 #
 ifndef
