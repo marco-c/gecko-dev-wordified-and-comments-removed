@@ -1597,6 +1597,10 @@ packet_sender
 stream_reset_handler
 "
 "
+:
+transmission_control_block
+"
+"
 .
 .
 /
@@ -2057,6 +2061,11 @@ cc
 "
 "
 stream_reset_handler_test
+.
+cc
+"
+"
+transmission_control_block_test
 .
 cc
 "
