@@ -1270,11 +1270,11 @@ glean
 parser
 =
 =
-7
-.
-2
+8
 .
 1
+.
+0
 ;
 python_version
 >
@@ -1299,7 +1299,7 @@ hash
 =
 sha256
 :
-11496ac004fe421b914c7fbdc9a1d620e4821d56e1d9f65523d3858cdb907bbd
+b9ef84ec1afdb3a1080219fe3768411a824921b7fcd637314fc78d47b5537752
 \
 -
 -
@@ -1307,7 +1307,7 @@ hash
 =
 sha256
 :
-651cfee34422ea1db90bbf1cb03732bd8c598773bf95daa289a62addeaf10295
+bcb4b04f3d5d8fbc1cba452e0ea19d4f89a0f3363b78dabd410c26618632ffa1
 idna
 =
 =

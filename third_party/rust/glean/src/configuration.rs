@@ -121,7 +121,7 @@ rate_limit
 :
 Option
 <
-glean_core
+crate
 :
 :
 PingRateLimit
@@ -202,7 +202,7 @@ rate_limit
 :
 Option
 <
-glean_core
+crate
 :
 :
 PingRateLimit
