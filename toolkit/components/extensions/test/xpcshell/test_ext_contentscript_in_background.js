@@ -91,6 +91,10 @@ content_script_in_background_frame
 (
 )
 {
+allow_unsafe_parent_loads_when_extensions_not_remote
+(
+)
+;
 async
 function
 background
@@ -281,6 +285,10 @@ await
 extension
 .
 unload
+(
+)
+;
+revert_allow_unsafe_parent_loads_when_extensions_not_remote
 (
 )
 ;

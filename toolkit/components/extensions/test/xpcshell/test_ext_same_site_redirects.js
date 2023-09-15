@@ -700,6 +700,10 @@ permissions
 }
 )
 {
+allow_unsafe_parent_loads_when_extensions_not_remote
+(
+)
+;
 let
 extension
 =
@@ -799,6 +803,10 @@ await
 extension
 .
 unload
+(
+)
+;
+revert_allow_unsafe_parent_loads_when_extensions_not_remote
 (
 )
 ;
