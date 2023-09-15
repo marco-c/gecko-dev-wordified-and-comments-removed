@@ -2029,7 +2029,6 @@ condition
 (
 condition
 )
-\
 ?
 static_cast
 <
@@ -2056,8 +2055,8 @@ false
 >
 (
 __FILE__
-\
 __LINE__
+\
 "
 "
 )
@@ -2139,7 +2138,6 @@ val1
 val2
 )
 )
-\
 ?
 static_cast
 <
@@ -2166,8 +2164,8 @@ true
 >
 (
 __FILE__
-\
 __LINE__
+\
 "
 "
 )

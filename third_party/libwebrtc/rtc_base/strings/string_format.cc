@@ -1,10 +1,5 @@
 #
 include
-<
-cstdarg
->
-#
-include
 "
 rtc_base
 /
@@ -14,6 +9,11 @@ string_format
 .
 h
 "
+#
+include
+<
+cstdarg
+>
 #
 include
 "
