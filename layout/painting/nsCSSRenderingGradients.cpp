@@ -3416,9 +3416,7 @@ return
 StyleAbsoluteColor
 :
 :
-Transparent
-(
-)
+TRANSPARENT
 ;
 }
 const
@@ -6327,9 +6325,7 @@ edgeColor
 StyleAbsoluteColor
 :
 :
-Transparent
-(
-)
+TRANSPARENT
 ;
 if
 (
