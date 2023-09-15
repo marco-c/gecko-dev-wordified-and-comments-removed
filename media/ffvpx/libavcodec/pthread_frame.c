@@ -1582,6 +1582,10 @@ reordered_opaque
 FF_ENABLE_DEPRECATION_WARNINGS
 #
 endif
+#
+if
+FF_API_SLICE_OFFSET
+FF_DISABLE_DEPRECATION_WARNINGS
 if
 (
 src
@@ -1679,6 +1683,9 @@ src
 >
 slice_count
 ;
+FF_ENABLE_DEPRECATION_WARNINGS
+#
+endif
 av_packet_unref
 (
 dst
@@ -3474,6 +3481,10 @@ priv_data
 )
 ;
 }
+#
+if
+FF_API_SLICE_OFFSET
+FF_DISABLE_DEPRECATION_WARNINGS
 av_freep
 (
 &
@@ -3483,6 +3494,9 @@ ctx
 slice_offset
 )
 ;
+FF_ENABLE_DEPRECATION_WARNINGS
+#
+endif
 av_buffer_unref
 (
 &
@@ -4715,7 +4729,6 @@ internal
 >
 thread_ctx
 ;
-FF_DISABLE_DEPRECATION_WARNINGS
 if
 (
 atomic_load
@@ -4743,7 +4756,6 @@ codec
 update_thread_context
 )
 {
-FF_ENABLE_DEPRECATION_WARNINGS
 av_log
 (
 avctx
