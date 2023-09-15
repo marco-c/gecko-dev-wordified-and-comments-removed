@@ -81,5 +81,17 @@ Thread
 *
 workerThread
 ;
+property
+(
+nonatomic
+readonly
+)
+rtc
+:
+:
+Thread
+*
+networkThread
+;
 end
 NS_ASSUME_NONNULL_END
