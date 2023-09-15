@@ -4,7 +4,6 @@ super
 :
 {
 AbsoluteColor
-ColorComponents
 ColorFlags
 ColorSpace
 }
@@ -953,8 +952,6 @@ AbsoluteColor
 new
 (
 color_space
-ColorComponents
-(
 result
 [
 0
@@ -967,7 +964,6 @@ result
 [
 2
 ]
-)
 alpha
 )
 ;
