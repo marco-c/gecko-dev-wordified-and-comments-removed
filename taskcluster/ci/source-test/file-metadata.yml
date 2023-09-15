@@ -261,7 +261,7 @@ in
 -
 tree
 :
-debian11
+debian12
 -
 amd64
 -
@@ -310,6 +310,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+pkgconf
 -
 sysroot
 -
@@ -496,7 +500,7 @@ in
 -
 tree
 :
-debian11
+debian12
 -
 amd64
 -
@@ -545,6 +549,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+pkgconf
 -
 sysroot
 -
@@ -972,7 +980,7 @@ in
 -
 tree
 :
-debian11
+debian12
 -
 amd64
 -
@@ -1028,6 +1036,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+pkgconf
 -
 sysroot
 -
