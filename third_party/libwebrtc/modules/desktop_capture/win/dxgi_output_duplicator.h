@@ -294,8 +294,8 @@ DesktopRegion
 updated_region
 )
 ;
-void
-LogMouseCursor
+bool
+ContainsMouseCursor
 (
 const
 DXGI_OUTDUPL_FRAME_INFO

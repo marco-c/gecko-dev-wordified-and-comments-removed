@@ -203,9 +203,17 @@ string
 device_names
 )
 ;
+ScreenCapturerWinDirectx
+(
+)
+;
 explicit
 ScreenCapturerWinDirectx
 (
+const
+DesktopCaptureOptions
+&
+options
 )
 ;
 ~
@@ -292,6 +300,9 @@ scoped_refptr
 DxgiDuplicatorController
 >
 controller_
+;
+DesktopCaptureOptions
+options_
 ;
 std
 :
