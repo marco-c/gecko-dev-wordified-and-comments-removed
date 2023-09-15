@@ -53,7 +53,7 @@ var
 kTest103
 =
 "
-http
+https
 :
 /
 /
@@ -78,7 +78,7 @@ var
 kTestNo103
 =
 "
-http
+https
 :
 /
 /
@@ -103,7 +103,7 @@ var
 kTest404
 =
 "
-http
+https
 :
 /
 /
