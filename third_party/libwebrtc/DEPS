@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-6d27a1d11701dbd15ed78ae5bd4210530d39ff02
+886fb31c2e7f67d1cabbc2ccc8e06f99ce3bf64a
 '
 #
 Fetch
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-aa4d277e6cbf1434194c317cdb155aaa676c28c1
+e2780118e0f761f02ea0b9781520f4cb09b6cb98
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-6f07ee5fdb883df27cf1331b3a10dc911109e2cc
+e0f832302f2e5b82143200fdbe4a6e7684231958
 '
 '
 src
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-2ea4fd24def2a7f7fa91e1915feeb3f007cd85c7
+d2880a110f5e0d57753fa27a30f6d1377cb58ecc
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-8ac06ba98ead50437412a3c61c8fab4abf2651df
+38fc96bf597d8777286ad45d04c6140a87108bb9
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-2ff86984b06d0991c5091b1d8151db9906975dc9
+4ea5450c4aa0517c651e075c766b53b805a55b34
 '
 '
 src
@@ -1039,7 +1039,7 @@ project
 libunwind
 .
 git
-54cb62e9f8fd711d4b3912c760411151750be5b4
+123963cbd61d6a5c5a1b6cedb9a8e6845128677b
 '
 '
 src
@@ -1706,7 +1706,7 @@ third_party
 freetype2
 .
 git
-e78e2d29a95baf6053e30cc9422aa20319259803
+ea9fca0add69e1613eee3290e18c1f8cb4d17a43
 '
 '
 src
@@ -2526,7 +2526,7 @@ external
 perfetto
 .
 git
-75c6500b8dabe5344ac0255cb3d33182b4fd161f
+1c46d9577664f7cd811b4fe9c884f66a99697615
 '
 '
 src
@@ -2954,7 +2954,7 @@ chromium
 src
 /
 tools
-6496d4673ab18ba83009c4f57f12fd29980b63f5
+01c26797d31638d3819f5d7720f6f1e310c976a1
 '
 '
 src
@@ -3288,9 +3288,9 @@ version
 '
 :
 '
-zWtfYsyHW87Yb3r
+orhmWBieV2HQe8r_6lHZ2myJN0FSXpNO
 -
-WN7EKvOX4uOCccgjboxpDG3dyUsC
+X_GaO9A5lgC
 '
 }
 ]
