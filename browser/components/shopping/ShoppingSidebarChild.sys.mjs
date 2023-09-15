@@ -402,6 +402,17 @@ updateContent
 )
 ;
 }
+getProductURI
+(
+)
+{
+return
+this
+.
+#
+productURI
+;
+}
 async
 updateContent
 (
