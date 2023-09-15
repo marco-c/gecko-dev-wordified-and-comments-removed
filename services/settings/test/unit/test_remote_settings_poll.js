@@ -112,7 +112,7 @@ pushBroadcastService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -125,7 +125,9 @@ modules
 /
 PushBroadcastService
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
