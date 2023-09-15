@@ -523,6 +523,10 @@ toolbarname
 "
             
 "
+message
+"
+            
+"
 buttonlabelaccept
 "
             
