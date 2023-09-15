@@ -2926,8 +2926,16 @@ mDrawInTitlebar
 false
 }
 ;
+mozilla
+:
+:
+Mutex
+mDestroyMutex
+;
 bool
 mIsDestroyed
+:
+1
 ;
 bool
 mIsShown
