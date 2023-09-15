@@ -319,7 +319,7 @@ UTF8String
 property
 )
 ;
-DOMString
+UTF8String
 rgbToColorName
 (
 octet

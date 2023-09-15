@@ -38,11 +38,6 @@ TestBufferRotation
 cpp
 "
 "
-TestColorNames
-.
-cpp
-"
-"
 TestConfigManager
 .
 cpp
