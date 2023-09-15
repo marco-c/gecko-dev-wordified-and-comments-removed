@@ -361,13 +361,6 @@ mStartTime
 aStartTime
 ;
 }
-void
-EnableTreatAudioUnderrunAsSilence
-(
-bool
-aEnabled
-)
-;
 private
 :
 uint32_t
@@ -599,11 +592,6 @@ mAudioQueue
 const
 float
 mProcessedQueueThresholdMS
-;
-bool
-mTreatUnderrunAsSilence
-=
-false
 ;
 }
 ;
