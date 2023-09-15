@@ -232,6 +232,9 @@ const
 AudioInfo
 mAudioInfo
 ;
+bool
+mDefaultPlaybackDeviceMono
+;
 }
 ;
 }
