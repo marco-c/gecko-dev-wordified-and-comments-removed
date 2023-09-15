@@ -315,11 +315,9 @@ SleepMs
 }
 else
 {
-AudioEndToEndTest
-:
-:
-PerformTest
+SleepMs
 (
+5400
 )
 ;
 }

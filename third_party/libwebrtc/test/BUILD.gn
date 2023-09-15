@@ -6487,6 +6487,16 @@ modules
 /
 audio_device
 :
+audio_device_api
+"
+"
+.
+.
+/
+modules
+/
+audio_device
+:
 audio_device_impl
 "
 "
