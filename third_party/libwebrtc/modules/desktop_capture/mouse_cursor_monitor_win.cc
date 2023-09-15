@@ -468,9 +468,9 @@ if
 cursor_info
 .
 flags
-!
 =
-CURSOR_SHOWING
+=
+CURSOR_SUPPRESSED
 )
 {
 last_cursor_
