@@ -202,12 +202,6 @@ FakePeriodicVideoTrackSource
 )
 )
 {
-thread_checker_
-.
-Detach
-(
-)
-;
 frame_source_
 .
 SetRotation
@@ -422,6 +416,12 @@ private
 :
 SequenceChecker
 thread_checker_
+{
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 rtc
 :

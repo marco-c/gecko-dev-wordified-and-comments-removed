@@ -662,6 +662,12 @@ worker_thread_checker_
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 packet_sequence_checker_
+{
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 webrtc
 :

@@ -983,6 +983,15 @@ webrtc
 :
 SequenceChecker
 process_thread_checker_
+{
+webrtc
+:
+:
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 }
 ;

@@ -50,12 +50,6 @@ callback_
 callback
 )
 {
-worker_sequence_checker_
-.
-Detach
-(
-)
-;
 }
 void
 VideoRtpTrackSource

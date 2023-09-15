@@ -62,6 +62,8 @@ public
 JitterBufferDelay
 (
 )
+=
+default
 ;
 void
 Set
@@ -87,6 +89,12 @@ private
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_thread_checker_
+{
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 absl
 :

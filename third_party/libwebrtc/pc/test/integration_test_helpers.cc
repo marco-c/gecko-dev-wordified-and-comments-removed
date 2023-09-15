@@ -321,12 +321,6 @@ tick_period_
 tick_period
 )
 {
-sequence_checker_
-.
-Detach
-(
-)
-;
 }
 TaskQueueMetronome
 :

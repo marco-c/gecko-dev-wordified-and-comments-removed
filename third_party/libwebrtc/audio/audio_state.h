@@ -280,6 +280,12 @@ thread_checker_
 ;
 SequenceChecker
 process_thread_checker_
+{
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 const
 webrtc

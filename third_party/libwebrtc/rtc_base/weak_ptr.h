@@ -118,6 +118,15 @@ webrtc
 :
 SequenceChecker
 checker_
+{
+webrtc
+:
+:
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 bool
 is_valid_

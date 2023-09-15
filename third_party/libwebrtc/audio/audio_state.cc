@@ -156,12 +156,6 @@ get
 )
 )
 {
-process_thread_checker_
-.
-Detach
-(
-)
-;
 RTC_DCHECK
 (
 config_

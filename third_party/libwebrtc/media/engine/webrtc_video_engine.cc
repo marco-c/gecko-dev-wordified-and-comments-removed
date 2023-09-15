@@ -4251,12 +4251,6 @@ RTC_DCHECK_RUN_ON
 thread_checker_
 )
 ;
-network_thread_checker_
-.
-Detach
-(
-)
-;
 rtcp_receiver_report_ssrc_
 =
 kDefaultRtcpReceiverReportSsrc

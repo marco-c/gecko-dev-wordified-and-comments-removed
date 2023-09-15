@@ -28,12 +28,6 @@ is_valid_
 true
 )
 {
-checker_
-.
-Detach
-(
-)
-;
 }
 void
 WeakReference

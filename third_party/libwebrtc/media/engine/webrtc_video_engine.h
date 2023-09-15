@@ -3008,6 +3008,15 @@ webrtc
 :
 SequenceChecker
 network_thread_checker_
+{
+webrtc
+:
+:
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 RTC_NO_UNIQUE_ADDRESS
 webrtc

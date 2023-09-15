@@ -37,12 +37,6 @@ remote_
 remote
 )
 {
-worker_thread_checker_
-.
-Detach
-(
-)
-;
 }
 void
 VideoTrackSource
