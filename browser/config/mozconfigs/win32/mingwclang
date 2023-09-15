@@ -135,8 +135,8 @@ WIDL_TIME_OVERRIDE
 0
 "
 #
-This
-replicates
+These
+replicate
 Tor
 '
 s
@@ -151,6 +151,16 @@ proxy
 bypass
 -
 protection
+ac_add_options
+-
+-
+enable
+-
+disk
+-
+remnant
+-
+avoidance
 #
 These
 aren

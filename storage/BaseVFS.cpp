@@ -535,6 +535,12 @@ void
 pArg
 )
 {
+#
+if
+defined
+(
+MOZ_SQLITE_PERSIST_AUXILIARY_FILES
+)
 MOZ_ASSERT
 (
 :
@@ -584,6 +590,8 @@ return
 SQLITE_OK
 ;
 }
+#
+endif
 BaseFile
 *
 p
