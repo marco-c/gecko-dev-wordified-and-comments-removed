@@ -53,7 +53,7 @@ contentWindow
 let
 rating
 =
-MOCK_POPULATED_DATA
+MOCK_ANALYZED_PRODUCT_RESPONSE
 .
 adjusted_rating
 ;
@@ -75,7 +75,7 @@ shoppingContainer
 .
 data
 =
-MOCK_POPULATED_DATA
+MOCK_ANALYZED_PRODUCT_RESPONSE
 ;
 await
 shoppingContainer

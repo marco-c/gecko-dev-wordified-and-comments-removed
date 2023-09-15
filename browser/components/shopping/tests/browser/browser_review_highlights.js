@@ -83,7 +83,7 @@ shoppingContainer
 .
 data
 =
-MOCK_POPULATED_DATA
+MOCK_ANALYZED_PRODUCT_RESPONSE
 ;
 await
 shoppingContainer
@@ -219,7 +219,7 @@ Object
 .
 values
 (
-MOCK_POPULATED_DATA
+MOCK_ANALYZED_PRODUCT_RESPONSE
 .
 highlights
 [
@@ -309,7 +309,7 @@ contentWindow
 const
 noHighlightData
 =
-MOCK_POPULATED_DATA
+MOCK_ANALYZED_PRODUCT_RESPONSE
 ;
 noHighlightData
 .
@@ -465,7 +465,7 @@ contentWindow
 const
 invalidHighlightData
 =
-MOCK_POPULATED_DATA
+MOCK_ANALYZED_PRODUCT_RESPONSE
 ;
 invalidHighlightData
 .
