@@ -60,8 +60,11 @@ nsSocketTransportService2
 h
 "
 #
-ifdef
-DEBUG
+if
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
 #
 include
 "
@@ -75,7 +78,7 @@ COMMON_SOCKET_CONTROL_ASSERT_ON_OWNING_THREAD
 (
 )
 \
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mOwningThread
 =
@@ -751,8 +754,11 @@ nsCString
 mPeerId
 ;
 #
-ifdef
-DEBUG
+if
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
 const
 PRThread
 *
