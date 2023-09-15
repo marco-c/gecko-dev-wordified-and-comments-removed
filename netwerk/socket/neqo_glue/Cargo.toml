@@ -316,9 +316,6 @@ init
 /
 static_prefs
 "
-optional
-=
-true
 }
 [
 target
@@ -409,8 +406,5 @@ neqo
 http3
 /
 fuzzing
-"
-"
-static_prefs
 "
 ]
