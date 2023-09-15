@@ -714,6 +714,11 @@ DecodedData
 aResults
 )
 ;
+void
+AdjustHWDecodeLogging
+(
+)
+;
 #
 endif
 #
