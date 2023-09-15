@@ -1943,6 +1943,15 @@ EnsureChannelContentType
 (
 )
 ;
+bool
+GetContentType
+(
+nsACString
+&
+aValue
+)
+const
+;
 already_AddRefed
 <
 nsIHttpChannel
