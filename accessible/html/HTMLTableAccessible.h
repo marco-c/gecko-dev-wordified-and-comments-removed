@@ -7,7 +7,7 @@ mozilla_a11y_HTMLTableAccessible_h__
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -33,7 +33,7 @@ class
 HTMLTableCellAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -50,7 +50,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLTableCellAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 a11y
@@ -213,7 +213,7 @@ class
 HTMLTableRowAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -227,7 +227,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -246,7 +246,7 @@ eTableRow
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLTableRowAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 protected
 :
@@ -274,7 +274,7 @@ class
 HTMLTableAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -288,7 +288,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -307,7 +307,7 @@ eTable
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLTableAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 LocalAccessible
 *
@@ -481,7 +481,7 @@ class
 HTMLCaptionAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -495,7 +495,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc

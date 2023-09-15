@@ -14,7 +14,7 @@ h
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -31,7 +31,7 @@ class
 HTMLListAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -45,7 +45,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -60,7 +60,7 @@ eList
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLListAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 a11y
@@ -96,7 +96,7 @@ class
 HTMLLIAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -113,7 +113,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLLIAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 nsRect

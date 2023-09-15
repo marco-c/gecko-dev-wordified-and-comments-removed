@@ -545,7 +545,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -723,7 +723,7 @@ uint64_t
 aOldState
 )
 {
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 DOMAttributeChanged
@@ -1146,7 +1146,7 @@ aBoundingFrame
 ;
 }
 return
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 RelativeBounds

@@ -223,7 +223,7 @@ uint64_t
 aOldState
 )
 {
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 DOMAttributeChanged
@@ -928,7 +928,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -994,7 +994,7 @@ State
 uint64_t
 state
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 State
@@ -1081,7 +1081,7 @@ const
 uint64_t
 state
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeState
@@ -1287,7 +1287,7 @@ uint64_t
 aOldState
 )
 {
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 DOMAttributeChanged
@@ -1440,7 +1440,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -1549,7 +1549,7 @@ AccAttributes
 >
 attributes
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeAttributes
@@ -1951,7 +1951,7 @@ aState
 )
 const
 {
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 ApplyARIAState
@@ -1990,7 +1990,7 @@ const
 uint64_t
 state
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeState
@@ -2474,7 +2474,7 @@ NameAndDescription
 return
 ;
 }
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 DOMAttributeChanged
@@ -2527,7 +2527,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -2568,7 +2568,7 @@ aEvent
 nsresult
 rv
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 HandleAccEvent
@@ -2742,7 +2742,7 @@ LocalAccessible
 *
 item
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 CurrentItem
@@ -3456,7 +3456,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -3632,7 +3632,7 @@ const
 Relation
 rel
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 RelationByType
@@ -3677,7 +3677,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -3698,7 +3698,7 @@ const
 Relation
 rel
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 RelationByType
@@ -3771,7 +3771,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -3793,7 +3793,7 @@ const
 ENameValueFlag
 nameFlag
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeName
@@ -3862,7 +3862,7 @@ const
 Relation
 rel
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 RelationByType
@@ -3976,7 +3976,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -3997,7 +3997,7 @@ const
 Relation
 rel
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 RelationByType

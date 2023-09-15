@@ -14,7 +14,7 @@ h
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -177,7 +177,7 @@ class
 HTMLButtonAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -294,7 +294,7 @@ class
 HTMLTextFieldAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -318,7 +318,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLTextFieldAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
@@ -489,7 +489,7 @@ class
 HTMLFileInputAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -747,7 +747,7 @@ class
 HTMLGroupboxAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -811,7 +811,7 @@ class
 HTMLLegendAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -841,7 +841,7 @@ class
 HTMLFigureAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -891,7 +891,7 @@ class
 HTMLFigcaptionAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -921,7 +921,7 @@ class
 HTMLFormAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -935,7 +935,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -945,7 +945,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLFormAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 a11y
@@ -1290,7 +1290,7 @@ class
 HTMLDateTimeAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -1304,7 +1304,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -1318,7 +1318,7 @@ eHTMLDateTimeFieldType
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLDateTimeAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 mozilla
@@ -1354,7 +1354,7 @@ AccAttributes
 >
 attributes
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeAttributes

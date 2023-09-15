@@ -7,7 +7,7 @@ mozilla_a11y_HTMLCanvasAccessible_h__
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -21,7 +21,7 @@ class
 HTMLCanvasAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -38,7 +38,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLCanvasAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 a11y

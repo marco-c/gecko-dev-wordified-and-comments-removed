@@ -143,7 +143,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -166,7 +166,7 @@ mValueTextLeaf
 =
 nullptr
 ;
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 Shutdown
@@ -287,7 +287,7 @@ NativeState
 const
 {
 return
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeState
@@ -314,7 +314,7 @@ const
 Relation
 rel
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 RelationByType

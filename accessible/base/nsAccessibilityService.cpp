@@ -101,7 +101,7 @@ h
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -1475,7 +1475,7 @@ aContext
 {
 return
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aElement
 aContext
@@ -6257,7 +6257,7 @@ document
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -6285,7 +6285,7 @@ hasNonPresentationalARIARole
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -6732,7 +6732,7 @@ nullptr
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -7428,7 +7428,7 @@ text
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 -
@@ -7646,7 +7646,7 @@ semantics_
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -7777,7 +7777,7 @@ IsMathMLElement
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -8709,7 +8709,7 @@ else
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 document
@@ -8803,7 +8803,7 @@ eHTMLTableCellType
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 document
@@ -8894,7 +8894,7 @@ tbody
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 document

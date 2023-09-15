@@ -101,7 +101,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -138,7 +138,7 @@ NativeState
 const
 {
 return
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeState
@@ -259,7 +259,7 @@ const
 uint64_t
 state
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeInteractiveState
@@ -450,7 +450,7 @@ nsGkAtoms
 href
 |
 |
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 AttributeChangesState
@@ -480,7 +480,7 @@ uint64_t
 aOldState
 )
 {
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 DOMAttributeChanged

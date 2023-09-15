@@ -7,7 +7,7 @@ mozilla_a11y_HTMLLinkAccessible_h__
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -21,7 +21,7 @@ class
 HTMLLinkAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -38,7 +38,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLLinkAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 void

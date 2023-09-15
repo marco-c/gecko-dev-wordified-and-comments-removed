@@ -43,7 +43,7 @@ aElement
 {
 return
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aElement
 aContext
@@ -99,7 +99,7 @@ LINK
 {
 return
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aElement
 aContext
@@ -327,7 +327,7 @@ MARKUPMAP
 dd
 New_HTMLDtOrDd
 <
-HyperTextAccessibleWrap
+HyperTextAccessible
 >
 roles
 :
@@ -409,7 +409,7 @@ id
 {
 return
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aElement
 aContext
@@ -493,7 +493,7 @@ IsInlineOutside
 {
 return
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aElement
 aContext
@@ -583,7 +583,7 @@ IsInlineOutside
 {
 return
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aElement
 aContext
@@ -687,7 +687,7 @@ IsInlineOutside
 {
 return
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aElement
 aContext

@@ -127,7 +127,7 @@ class
 HTMLLabelAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -141,7 +141,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -151,7 +151,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLLabelAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 Relation
@@ -229,7 +229,7 @@ class
 HTMLOutputAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -243,7 +243,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -253,7 +253,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLOutputAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 Relation
@@ -300,7 +300,7 @@ class
 HTMLSummaryAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -373,7 +373,7 @@ class
 HTMLHeaderOrFooterAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -387,7 +387,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -397,7 +397,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLHeaderOrFooterAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 a11y
@@ -425,7 +425,7 @@ class
 HTMLSectionAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -439,7 +439,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -449,7 +449,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLSectionAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 virtual
 a11y

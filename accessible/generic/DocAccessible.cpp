@@ -459,7 +459,7 @@ PresShell
 aPresShell
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 nullptr
 nullptr
@@ -2521,7 +2521,7 @@ Remove
 )
 ;
 }
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 Shutdown

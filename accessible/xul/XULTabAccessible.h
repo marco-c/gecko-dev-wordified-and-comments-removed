@@ -7,7 +7,7 @@ mozilla_a11y_XULTabAccessible_h__
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -35,7 +35,7 @@ class
 XULTabAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
