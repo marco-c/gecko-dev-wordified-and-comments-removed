@@ -84,13 +84,16 @@ s
 :
 "
 format
+\
 RTCFileName
 (
 __FILE__
 )
 \
 __LINE__
+\
 __FUNCTION__
+\
 #
 #
 __VA_ARGS__
@@ -143,7 +146,6 @@ format
 .
 .
 )
-\
 RTCLogFormat
 (
 RTCLoggingSeverityVerbose
@@ -161,7 +163,6 @@ format
 .
 .
 )
-\
 RTCLogFormat
 (
 RTCLoggingSeverityInfo
@@ -179,7 +180,6 @@ format
 .
 .
 )
-\
 RTCLogFormat
 (
 RTCLoggingSeverityWarning
@@ -197,7 +197,6 @@ format
 .
 .
 )
-\
 RTCLogFormat
 (
 RTCLoggingSeverityError
