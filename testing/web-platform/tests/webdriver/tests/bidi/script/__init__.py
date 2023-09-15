@@ -507,8 +507,6 @@ value
     
 (
 "
-Number
-.
 NaN
 "
 {
