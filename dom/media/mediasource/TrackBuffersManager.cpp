@@ -9629,14 +9629,6 @@ mStart
 sampleInterval
 .
 mStart
-+
-TimeUnit
-:
-:
-FromMicroseconds
-(
-1
-)
 )
 ;
 addToSamples
