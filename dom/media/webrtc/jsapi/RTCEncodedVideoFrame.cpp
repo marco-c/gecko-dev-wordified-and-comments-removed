@@ -264,7 +264,7 @@ if
 (
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -286,7 +286,7 @@ Construct
 *
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -312,7 +312,7 @@ dep
 :
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -355,7 +355,7 @@ Construct
 (
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -372,7 +372,7 @@ Construct
 (
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -385,7 +385,7 @@ if
 (
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -405,7 +405,7 @@ Construct
 (
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -419,7 +419,7 @@ if
 (
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -439,7 +439,7 @@ Construct
 (
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
@@ -491,7 +491,7 @@ csrc
 :
 videoFrame
 .
-GetMetadata
+Metadata
 (
 )
 .
