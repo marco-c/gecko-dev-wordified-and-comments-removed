@@ -275,6 +275,15 @@ timestamp
 RTPHeader
 header
 ;
+std
+:
+:
+vector
+<
+uint8_t
+>
+dependency_descriptor_wire_format
+;
 size_t
 header_length
 ;

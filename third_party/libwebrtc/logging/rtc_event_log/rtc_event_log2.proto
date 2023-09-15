@@ -2643,6 +2643,12 @@ audio_level_id
 =
 5
 ;
+optional
+int32
+dependency_descriptor_id
+=
+6
+;
 /
 /
 TODO
