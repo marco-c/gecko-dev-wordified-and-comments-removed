@@ -853,6 +853,13 @@ stylesheetUrl
 >
 <
 button
+aria
+-
+hidden
+=
+"
+true
+"
 tabindex
 =
 "
