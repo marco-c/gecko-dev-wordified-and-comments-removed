@@ -1608,6 +1608,14 @@ rtp_test_utils
 /
 test
 :
+run_loop
+"
+"
+.
+.
+/
+test
+:
 scoped_key_value_config
 "
 "
