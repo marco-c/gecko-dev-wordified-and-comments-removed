@@ -447,11 +447,6 @@ MaybeResetAndReacquireDevices
 )
 ;
 bool
-CheckRemotePresentSupport
-(
-)
-;
-bool
 HasDeviceReset
 (
 DeviceResetReason
