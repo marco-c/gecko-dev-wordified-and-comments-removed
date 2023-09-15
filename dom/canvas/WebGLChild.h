@@ -67,11 +67,10 @@ flushes
 =
 0
 ;
-Maybe
-<
 size_t
->
 flushesSinceLastCongestionCheck
+=
+0
 ;
 size_t
 congestionCheckGeneration
