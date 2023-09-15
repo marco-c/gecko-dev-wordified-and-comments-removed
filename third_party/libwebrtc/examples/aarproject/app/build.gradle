@@ -295,9 +295,7 @@ androidTestImplementation
 '
 com
 .
-android
-.
-support
+androidx
 .
 test
 :
@@ -313,9 +311,7 @@ androidTestImplementation
 '
 com
 .
-android
-.
-support
+androidx
 .
 test
 .
