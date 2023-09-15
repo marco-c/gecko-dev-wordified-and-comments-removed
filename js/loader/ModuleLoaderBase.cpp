@@ -4750,7 +4750,7 @@ if
 parent
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )

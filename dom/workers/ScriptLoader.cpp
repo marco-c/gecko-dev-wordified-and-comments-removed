@@ -3886,7 +3886,7 @@ if
 request
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -5464,7 +5464,7 @@ NS_ASSERTION
 aRequest
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 "

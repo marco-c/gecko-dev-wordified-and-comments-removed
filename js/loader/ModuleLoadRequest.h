@@ -510,7 +510,7 @@ CheckModuleDependenciesLoaded
 )
 ;
 void
-AssertAllImportsReady
+AssertAllImportsFinished
 (
 )
 const
