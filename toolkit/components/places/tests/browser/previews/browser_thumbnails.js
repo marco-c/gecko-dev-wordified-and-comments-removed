@@ -54,7 +54,7 @@ const
 TEST_URL1
 =
 "
-http
+https
 :
 /
 /
@@ -68,7 +68,7 @@ const
 TEST_URL2
 =
 "
-http
+https
 :
 /
 /
