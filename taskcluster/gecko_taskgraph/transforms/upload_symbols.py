@@ -46,6 +46,14 @@ taskgraph
 .
 util
 .
+dependencies
+import
+get_primary_dependency
+from
+taskgraph
+.
+util
+.
 treeherder
 import
 inherit_treeherder_from_dep
@@ -171,14 +179,14 @@ tasks
         
 dep
 =
+get_primary_dependency
+(
+config
 task
-[
-"
-primary
--
-dependency
-"
-]
+)
+        
+assert
+dep
         
 if
 (
@@ -303,26 +311,14 @@ tasks
         
 dep
 =
-task
-[
-"
-primary
--
-dependency
-"
-]
-        
-task
-.
-pop
+get_primary_dependency
 (
-"
-dependent
--
-tasks
-"
-None
+config
+task
 )
+        
+assert
+dep
         
 task
 [
@@ -399,23 +395,6 @@ label
 )
             
 continue
-        
-task
-[
-"
-dependencies
-"
-]
-=
-{
-"
-build
-"
-:
-dep
-.
-label
-}
         
 task
 [
@@ -701,19 +680,21 @@ dependencies
 ]
 =
 [
+task
+[
 "
-build
+attributes
 "
 ]
-        
-del
-task
 [
 "
 primary
 -
+kind
+-
 dependency
 "
+]
 ]
         
 yield
