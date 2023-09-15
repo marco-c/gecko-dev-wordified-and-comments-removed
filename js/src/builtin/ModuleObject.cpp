@@ -13916,6 +13916,10 @@ if
 (
 !
 resolutionArgs
+|
+|
+!
+resolutionArgs
 -
 >
 append
