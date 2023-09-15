@@ -383,6 +383,8 @@ context
     
 return
 (
+floor
+(
 element_dimensions
 [
 "
@@ -391,6 +393,9 @@ width
 ]
 *
 dpr
+)
+floor
+(
 element_dimensions
 [
 "
@@ -399,6 +404,7 @@ height
 ]
 *
 dpr
+)
 )
 async
 def
