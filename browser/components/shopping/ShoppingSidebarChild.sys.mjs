@@ -669,6 +669,14 @@ showOnboarding
 :
 false
 data
+productUrl
+:
+this
+.
+#
+productURI
+.
+spec
 }
 )
 ;
