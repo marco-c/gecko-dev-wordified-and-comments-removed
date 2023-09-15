@@ -535,9 +535,6 @@ void
 pArg
 )
 {
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 MOZ_ASSERT
 (
 :
@@ -587,8 +584,6 @@ return
 SQLITE_OK
 ;
 }
-#
-endif
 BaseFile
 *
 p
