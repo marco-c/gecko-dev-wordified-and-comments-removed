@@ -4537,6 +4537,15 @@ public
 static
 final
 int
+ERROR_BLOCKLISTED
+=
+-
+10
+;
+public
+static
+final
+int
 ERROR_USER_CANCELED
 =
 -
@@ -4786,6 +4795,9 @@ ERROR_INCORRECT_ID
 ErrorCodes
 .
 ERROR_INVALID_DOMAIN
+ErrorCodes
+.
+ERROR_BLOCKLISTED
 ErrorCodes
 .
 ERROR_USER_CANCELED
