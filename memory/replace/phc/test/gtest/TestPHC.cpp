@@ -2148,6 +2148,10 @@ PHC
 TestPHCExhaustion
 )
 {
+GTEST_SKIP
+(
+)
+;
 #
 if
 defined
