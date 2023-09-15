@@ -162,6 +162,9 @@ OpusHead
 "
 8
 )
+!
+=
+0
 )
 {
 OPUS_LOG
@@ -925,10 +928,15 @@ OpusTags
 "
 8
 )
+!
+=
+0
 )
+{
 return
 false
 ;
+}
 const
 unsigned
 char
