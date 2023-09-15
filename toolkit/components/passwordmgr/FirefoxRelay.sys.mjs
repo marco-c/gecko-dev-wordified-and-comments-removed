@@ -2948,6 +2948,10 @@ break
 }
 )
 ;
+getRelayTokenAsync
+(
+)
+;
 return
 fillUsernamePromise
 ;
