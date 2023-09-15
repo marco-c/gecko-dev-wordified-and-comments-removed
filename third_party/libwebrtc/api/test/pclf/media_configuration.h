@@ -1273,13 +1273,6 @@ degradation_preference
 struct
 AudioConfig
 {
-enum
-Mode
-{
-kGenerated
-kFile
-}
-;
 AudioConfig
 (
 )
@@ -1307,11 +1300,6 @@ std
 string
 >
 stream_label
-;
-Mode
-mode
-=
-kGenerated
 ;
 absl
 :
