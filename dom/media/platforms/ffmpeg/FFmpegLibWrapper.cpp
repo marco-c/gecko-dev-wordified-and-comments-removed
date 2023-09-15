@@ -960,6 +960,16 @@ AV_FUNC_AVUTIL_ALL
 )
 AV_FUNC_OPTION
 (
+av_channel_layout_default
+AV_FUNC_AVUTIL_60
+)
+AV_FUNC_OPTION
+(
+av_channel_layout_from_mask
+AV_FUNC_AVUTIL_60
+)
+AV_FUNC_OPTION
+(
 av_buffer_get_opaque
 (
 AV_FUNC_AVUTIL_56
