@@ -36520,6 +36520,17 @@ window
 GetExtantDoc
 (
 )
+!
+=
+this
+&
+&
+window
+-
+>
+GetExtantDoc
+(
+)
 -
 >
 NodePrincipal
