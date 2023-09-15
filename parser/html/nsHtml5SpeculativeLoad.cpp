@@ -252,7 +252,6 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
 mNonce
-mFetchPriority
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
 false
@@ -278,7 +277,6 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
 mNonce
-mFetchPriority
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
 true
@@ -304,7 +302,6 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
 mNonce
-mFetchPriority
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
 false
@@ -330,7 +327,6 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
 mNonce
-mFetchPriority
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
 true

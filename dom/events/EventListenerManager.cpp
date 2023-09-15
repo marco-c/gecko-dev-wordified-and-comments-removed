@@ -204,17 +204,6 @@ mozilla
 /
 dom
 /
-RequestBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ScriptLoader
 .
 h
@@ -5692,7 +5681,6 @@ aElement
 ;
 nsIURI
 *
-const
 uri
 =
 aElement
@@ -5989,10 +5977,6 @@ u
 "
 "
 _ns
-RequestPriority
-:
-:
-Auto
 JS
 :
 :

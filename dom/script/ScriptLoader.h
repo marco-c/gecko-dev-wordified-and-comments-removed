@@ -301,12 +301,6 @@ ReferrerPolicy
 :
 uint8_t
 ;
-enum
-class
-RequestPriority
-:
-uint8_t
-;
 class
 AsyncCompileShutdownObserver
 final
@@ -894,10 +888,6 @@ aNonce
 const
 nsAString
 &
-aFetchPriority
-const
-nsAString
-&
 aIntegrity
 bool
 aScriptFromHead
@@ -1034,8 +1024,6 @@ const
 nsAString
 &
 aNonce
-RequestPriority
-aRequestPriority
 const
 SRIMetadata
 &
