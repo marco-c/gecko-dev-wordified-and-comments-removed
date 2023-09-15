@@ -684,13 +684,6 @@ CoreServices
 h
 >
 #
-include
-"
-nsCocoaFeatures
-.
-h
-"
-#
 endif
 #
 include

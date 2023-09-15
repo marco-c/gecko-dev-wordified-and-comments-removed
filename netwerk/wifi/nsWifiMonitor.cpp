@@ -170,13 +170,6 @@ XP_MACOSX
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 MacWifiScanner
 .
 h
