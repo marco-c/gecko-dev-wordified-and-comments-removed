@@ -1370,6 +1370,15 @@ Use
 searchLoginsAsync
 instead
 .
+This
+function
+is
+retained
+*
+for
+Thunderbird
+compatibility
+.
 *
 *
 param

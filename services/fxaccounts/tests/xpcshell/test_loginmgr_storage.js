@@ -139,6 +139,7 @@ Trace
 "
 )
 ;
+async
 function
 getLoginMgrData
 (
@@ -147,15 +148,21 @@ getLoginMgrData
 let
 logins
 =
+await
 Services
 .
 logins
 .
-findLogins
+searchLoginsAsync
 (
+{
+origin
+:
 FXA_PWDMGR_HOST
-null
+httpRealm
+:
 FXA_PWDMGR_REALM
+}
 )
 ;
 if
@@ -490,6 +497,7 @@ text
 let
 login
 =
+await
 getLoginMgrData
 (
 )
@@ -651,6 +659,7 @@ Assert
 .
 strictEqual
 (
+await
 getLoginMgrData
 (
 )
@@ -724,6 +733,7 @@ Assert
 .
 strictEqual
 (
+await
 getLoginMgrData
 (
 )
@@ -872,6 +882,7 @@ Assert
 .
 strictEqual
 (
+await
 getLoginMgrData
 (
 )
@@ -1054,6 +1065,7 @@ creds2
 let
 login
 =
+await
 getLoginMgrData
 (
 )
@@ -1178,6 +1190,7 @@ Assert
 .
 strictEqual
 (
+await
 getLoginMgrData
 (
 )
