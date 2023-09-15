@@ -1406,9 +1406,10 @@ if
 (
 video_codec
 .
-IsSinglecastOrAllNonFirstLayersInactive
-(
-)
+numberOfSimulcastStreams
+<
+=
+1
 )
 {
 video_codec

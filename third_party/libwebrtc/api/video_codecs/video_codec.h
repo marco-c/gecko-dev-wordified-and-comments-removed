@@ -468,12 +468,6 @@ bool
 enabled
 )
 ;
-bool
-IsSinglecastOrAllNonFirstLayersInactive
-(
-)
-const
-;
 VideoCodecType
 codecType
 ;
