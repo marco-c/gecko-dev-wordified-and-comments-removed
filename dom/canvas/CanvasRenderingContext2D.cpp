@@ -24211,11 +24211,10 @@ fontMetrics
 emAscent
 -
 baselineAnchor
--
 fontMetrics
 .
 emDescent
--
++
 baselineAnchor
 baselines
 .
