@@ -2433,7 +2433,7 @@ self
 .
 logger
 .
-info
+debug
 (
             
 "
@@ -2661,7 +2661,7 @@ self
 .
 logger
 .
-info
+debug
 (
             
 "
