@@ -236,7 +236,7 @@ EXPECT_GT
 (
 send_stats
 .
-nacks_rcvd
+nacks_received
 0U
 )
 ;

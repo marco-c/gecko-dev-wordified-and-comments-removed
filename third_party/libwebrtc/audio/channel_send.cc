@@ -3808,7 +3808,7 @@ rtcp_counter_mutex_
 ;
 stats
 .
-nacks_rcvd
+nacks_received
 =
 rtcp_packet_type_counter_
 .

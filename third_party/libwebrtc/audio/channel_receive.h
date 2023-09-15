@@ -236,12 +236,12 @@ int
 jitterSamples
 ;
 int64_t
-payload_bytes_rcvd
+payload_bytes_received
 =
 0
 ;
 int64_t
-header_and_padding_bytes_rcvd
+header_and_padding_bytes_received
 =
 0
 ;

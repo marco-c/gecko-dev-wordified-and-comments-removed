@@ -13699,7 +13699,7 @@ senders
 0
 ]
 .
-firs_rcvd
+firs_received
 )
 ;
 EXPECT_EQ
@@ -13712,7 +13712,7 @@ senders
 0
 ]
 .
-plis_rcvd
+plis_received
 )
 ;
 EXPECT_EQ
@@ -13725,7 +13725,7 @@ senders
 0
 ]
 .
-nacks_rcvd
+nacks_received
 )
 ;
 EXPECT_EQ
@@ -13946,7 +13946,7 @@ receivers
 0
 ]
 .
-payload_bytes_rcvd
+payload_bytes_received
 )
 ;
 EXPECT_EQ
@@ -13961,7 +13961,7 @@ receivers
 0
 ]
 .
-packets_rcvd
+packets_received
 )
 ;
 EXPECT_EQ
@@ -14051,7 +14051,7 @@ receivers
 0
 ]
 .
-framerate_rcvd
+framerate_received
 0
 )
 ;
@@ -14520,7 +14520,7 @@ GetReceiverStats
 i
 )
 .
-payload_bytes_rcvd
+payload_bytes_received
 )
 ;
 EXPECT_EQ
@@ -14533,7 +14533,7 @@ GetReceiverStats
 i
 )
 .
-packets_rcvd
+packets_received
 )
 ;
 EXPECT_EQ
@@ -40494,7 +40494,7 @@ EXPECT_EQ
 (
 sender
 .
-firs_rcvd
+firs_received
 0
 )
 ;
@@ -40502,7 +40502,7 @@ EXPECT_EQ
 (
 sender
 .
-plis_rcvd
+plis_received
 0
 )
 ;
@@ -40510,7 +40510,7 @@ EXPECT_EQ
 (
 sender
 .
-nacks_rcvd
+nacks_received
 0u
 )
 ;
@@ -41425,7 +41425,7 @@ EXPECT_EQ
 (
 sender
 .
-firs_rcvd
+firs_received
 static_cast
 <
 int
@@ -41445,7 +41445,7 @@ EXPECT_EQ
 (
 sender
 .
-plis_rcvd
+plis_received
 static_cast
 <
 int
@@ -41465,7 +41465,7 @@ EXPECT_EQ
 (
 sender
 .
-nacks_rcvd
+nacks_received
 2
 *
 substream
@@ -42372,7 +42372,7 @@ EXPECT_EQ
 (
 sender
 .
-firs_rcvd
+firs_received
 static_cast
 <
 int
@@ -42390,7 +42390,7 @@ EXPECT_EQ
 (
 sender
 .
-plis_rcvd
+plis_received
 static_cast
 <
 int
@@ -42408,7 +42408,7 @@ EXPECT_EQ
 (
 sender
 .
-nacks_rcvd
+nacks_received
 substream
 .
 rtcp_packet_type_counts
@@ -46067,7 +46067,7 @@ senders
 0
 ]
 .
-firs_rcvd
+firs_received
 )
 ;
 EXPECT_EQ
@@ -46080,7 +46080,7 @@ senders
 0
 ]
 .
-nacks_rcvd
+nacks_received
 )
 ;
 EXPECT_EQ
@@ -46093,7 +46093,7 @@ senders
 0
 ]
 .
-plis_rcvd
+plis_received
 )
 ;
 EXPECT_EQ
@@ -46106,7 +46106,7 @@ senders
 1
 ]
 .
-firs_rcvd
+firs_received
 )
 ;
 EXPECT_EQ
@@ -46119,7 +46119,7 @@ senders
 1
 ]
 .
-nacks_rcvd
+nacks_received
 )
 ;
 EXPECT_EQ
@@ -46132,7 +46132,7 @@ senders
 1
 ]
 .
-plis_rcvd
+plis_received
 )
 ;
 EXPECT_EQ
@@ -46145,7 +46145,7 @@ aggregated_senders
 0
 ]
 .
-firs_rcvd
+firs_received
 )
 ;
 EXPECT_EQ
@@ -46158,7 +46158,7 @@ aggregated_senders
 0
 ]
 .
-nacks_rcvd
+nacks_received
 )
 ;
 EXPECT_EQ
@@ -46171,7 +46171,7 @@ aggregated_senders
 0
 ]
 .
-plis_rcvd
+plis_received
 )
 ;
 }
@@ -47151,7 +47151,7 @@ receivers
 0
 ]
 .
-payload_bytes_rcvd
+payload_bytes_received
 )
 )
 ;
@@ -47180,7 +47180,7 @@ receivers
 0
 ]
 .
-packets_rcvd
+packets_received
 )
 )
 ;

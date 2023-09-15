@@ -3826,7 +3826,7 @@ statistician
 {
 stats
 .
-payload_bytes_rcvd
+payload_bytes_received
 =
 rtp_stats
 .
@@ -3836,7 +3836,7 @@ payload_bytes
 ;
 stats
 .
-header_and_padding_bytes_rcvd
+header_and_padding_bytes_received
 =
 rtp_stats
 .
@@ -3873,13 +3873,13 @@ else
 {
 stats
 .
-payload_bytes_rcvd
+payload_bytes_received
 =
 0
 ;
 stats
 .
-header_and_padding_bytes_rcvd
+header_and_padding_bytes_received
 =
 0
 ;
