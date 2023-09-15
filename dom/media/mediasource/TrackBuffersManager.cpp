@@ -10716,10 +10716,22 @@ lastRemovedIndex
 =
 0
 ;
+TimeIntervals
+intervals
+=
+aIntervals
+.
+ToBase
+(
+aTrackData
+.
+mHighestStartTimestamp
+)
+;
 TimeUnit
 intervalsEnd
 =
-aIntervals
+intervals
 .
 GetEnd
 (
@@ -10759,7 +10771,7 @@ i
 ;
 if
 (
-aIntervals
+intervals
 .
 ContainsStrict
 (
@@ -10818,7 +10830,7 @@ GetEndTime
 ToMicroseconds
 (
 )
-aIntervals
+intervals
 .
 GetStart
 (
@@ -10827,7 +10839,7 @@ GetStart
 ToMicroseconds
 (
 )
-aIntervals
+intervals
 .
 GetEnd
 (
@@ -10888,7 +10900,7 @@ RemovalMode
 kTruncateFrame
 &
 &
-aIntervals
+intervals
 .
 IntersectsStrict
 (
@@ -10901,7 +10913,7 @@ intersection
 =
 Intersection
 (
-aIntervals
+intervals
 TimeIntervals
 (
 sampleInterval
@@ -11053,7 +11065,7 @@ mEnd
 ToMicroseconds
 (
 )
-aIntervals
+intervals
 .
 GetStart
 (
@@ -11062,7 +11074,7 @@ GetStart
 ToMicroseconds
 (
 )
-aIntervals
+intervals
 .
 GetEnd
 (
