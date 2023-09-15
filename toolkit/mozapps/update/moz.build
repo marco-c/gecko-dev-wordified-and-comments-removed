@@ -82,6 +82,13 @@ sys
 mjs
 "
 "
+UpdateLog
+.
+sys
+.
+mjs
+"
+"
 UpdateService
 .
 sys
