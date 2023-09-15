@@ -148,7 +148,7 @@ InitNSMouseEvent
 )
 DEPRECATED_OPERATION
 (
-MathML_DeprecatedMathSpaceValue
+MathML_DeprecatedMathSpaceValue2
 )
 DEPRECATED_OPERATION
 (
