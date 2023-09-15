@@ -2,6 +2,7 @@ use
 crate
 :
 :
+{
 err
 :
 :
@@ -14,12 +15,8 @@ PR_GetError
 Res
 PR_LANGUAGE_I_DEFAULT
 }
-;
-use
-crate
-:
-:
 ssl
+}
 ;
 use
 std
@@ -49,7 +46,6 @@ Res
 )
 >
 {
-let
 _
 =
 result_helper
@@ -301,6 +297,7 @@ use
 crate
 :
 :
+{
 err
 :
 :
@@ -311,12 +308,8 @@ Error
 PRErrorCode
 PR_SetError
 }
-;
-use
-crate
-:
-:
 ssl
+}
 ;
 use
 test_fixture

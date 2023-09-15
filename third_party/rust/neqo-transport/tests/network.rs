@@ -27,10 +27,6 @@ clippy
 pedantic
 )
 ]
-#
-[
-macro_use
-]
 mod
 sim
 ;

@@ -234,6 +234,7 @@ Aead
 :
 new
 (
+false
 self
 .
 version
@@ -708,13 +709,9 @@ SelfEncryptFailure
 ;
 }
 let
-key
-=
-if
-let
 Some
 (
-k
+key
 )
 =
 self
@@ -726,9 +723,6 @@ ciphertext
 1
 ]
 )
-{
-k
-}
 else
 {
 return

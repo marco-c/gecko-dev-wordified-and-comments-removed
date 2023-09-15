@@ -176,9 +176,9 @@ format
 (
 "
 {
+other
 }
 "
-other
 )
 )
 )
@@ -438,9 +438,9 @@ f
 u
 =
 {
+urgency
 }
 "
-urgency
 )
 Priority
 {
@@ -459,10 +459,10 @@ f
 u
 =
 {
+urgency
 }
 i
 "
-urgency
 )
 }
 }

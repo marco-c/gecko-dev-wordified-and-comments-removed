@@ -2,6 +2,7 @@ use
 super
 :
 :
+{
 super
 :
 :
@@ -9,12 +10,6 @@ super
 ConnectionParameters
 ACK_RATIO_SCALE
 }
-;
-use
-super
-:
-:
-{
 ack_bytes
 connect_rtt_idle
 default_client
@@ -41,16 +36,13 @@ use
 std
 :
 :
+{
 mem
-;
-use
-std
-:
-:
 time
 :
 :
 Duration
+}
 ;
 use
 test_fixture
@@ -86,7 +78,6 @@ default_server
 (
 )
 ;
-let
 _
 =
 connect_rtt_idle
@@ -217,7 +208,6 @@ stream
 now
 )
 ;
-let
 _
 =
 increase_cwnd

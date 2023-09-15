@@ -728,9 +728,9 @@ write
 priority_enc
 "
 {
+priority
 }
 "
-priority
 )
 .
 unwrap

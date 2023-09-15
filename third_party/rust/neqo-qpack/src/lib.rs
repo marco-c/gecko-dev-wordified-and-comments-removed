@@ -423,11 +423,11 @@ QPACK
 error
 :
 {
+self
 :
 ?
 }
 "
-self
 )
 }
 }

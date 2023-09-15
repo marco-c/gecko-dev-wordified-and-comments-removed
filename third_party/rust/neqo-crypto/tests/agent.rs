@@ -109,6 +109,7 @@ new
 "
 server
 "
+true
 )
 .
 expect
@@ -187,6 +188,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -795,6 +797,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -812,11 +815,11 @@ println
 "
 client
 {
+client
 :
 ?
 }
 "
-client
 )
 ;
 let
@@ -851,11 +854,11 @@ println
 "
 server
 {
+server
 :
 ?
 }
 "
-server
 )
 ;
 let
@@ -1224,6 +1227,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -1355,6 +1359,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -1486,6 +1491,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -1665,6 +1671,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -1850,6 +1857,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -2035,6 +2043,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -2152,6 +2161,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -2286,6 +2296,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -2430,6 +2441,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -2569,6 +2581,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -2761,6 +2774,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -3028,6 +3042,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -3210,6 +3225,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -3297,6 +3313,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -3454,6 +3471,7 @@ server
 .
 example
 "
+true
 )
 .
 expect
@@ -3682,6 +3700,7 @@ Client
 new
 (
 PRIVATE_NAME
+true
 )
 .
 unwrap
@@ -3852,10 +3871,6 @@ Ok
 )
 ;
 let
-updated_config
-=
-if
-let
 Err
 (
 Error
@@ -3863,7 +3878,7 @@ Error
 :
 EchRetry
 (
-c
+updated_config
 )
 )
 =
@@ -3876,9 +3891,6 @@ now
 )
 None
 )
-{
-c
-}
 else
 {
 panic
@@ -3996,6 +4008,7 @@ Client
 new
 (
 PRIVATE_NAME
+true
 )
 .
 unwrap
