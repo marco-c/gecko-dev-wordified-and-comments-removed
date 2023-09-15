@@ -126,8 +126,6 @@ using
 namespace
 mozilla
 ;
-namespace
-{
 #
 define
 Invoke
@@ -181,6 +179,8 @@ m
 args
 )
 )
+namespace
+{
 #
 ifdef
 MOZ_WEBRTC
@@ -15122,3 +15122,12 @@ oldBuffering
 }
 #
 endif
+#
+undef
+Invoke
+#
+undef
+DispatchFunction
+#
+undef
+DispatchMethod
