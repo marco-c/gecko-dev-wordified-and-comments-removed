@@ -1,0 +1,12 @@
+export
+class
+ICU4XLogger
+{
+static
+init_simple_logger
+(
+)
+:
+boolean
+;
+}
