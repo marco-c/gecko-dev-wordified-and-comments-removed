@@ -427,6 +427,8 @@ gfx
 :
 SurfaceFormat
 aFormat
+bool
+aWillReadFrequently
 )
 {
 RefPtr
@@ -436,6 +438,11 @@ PersistentBufferProviderBasic
 bufferProvider
 ;
 if
+(
+!
+aWillReadFrequently
+&
+&
 (
 !
 gfxPlatform
@@ -462,6 +469,7 @@ GetPlatform
 >
 GetPreferredCanvasBackend
 (
+)
 )
 )
 )

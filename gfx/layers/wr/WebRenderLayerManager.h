@@ -657,6 +657,8 @@ gfx
 :
 SurfaceFormat
 aFormat
+bool
+aWillReadFrequently
 )
 override
 ;

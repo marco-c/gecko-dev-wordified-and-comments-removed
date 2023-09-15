@@ -440,6 +440,10 @@ gfx
 :
 SurfaceFormat
 aFormat
+bool
+aWillReadFrequently
+=
+false
 )
 ;
 virtual

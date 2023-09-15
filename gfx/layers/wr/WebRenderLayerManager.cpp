@@ -3722,10 +3722,16 @@ gfx
 :
 SurfaceFormat
 aFormat
+bool
+aWillReadFrequently
 )
 {
 if
 (
+!
+aWillReadFrequently
+&
+&
 !
 gfxPlatform
 :
@@ -3792,6 +3798,7 @@ aFormat
 AsKnowsCompositor
 (
 )
+aWillReadFrequently
 )
 ;
 if

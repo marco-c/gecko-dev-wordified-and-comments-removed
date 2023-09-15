@@ -8514,6 +8514,11 @@ GetSize
 GetSurfaceFormat
 (
 )
+!
+mAllowAcceleration
+|
+|
+mWillReadFrequently
 )
 ;
 if
