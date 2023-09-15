@@ -3753,7 +3753,7 @@ frame_stats
 .
 prev_frame_rendered_time
 .
-IsFinite
+has_value
 (
 )
 &
@@ -3890,6 +3890,7 @@ AddSample
 (
 StatsSample
 (
+*
 frame_stats
 .
 prev_frame_rendered_time
