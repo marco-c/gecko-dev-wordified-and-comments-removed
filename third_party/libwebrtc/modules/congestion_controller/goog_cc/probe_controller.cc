@@ -744,6 +744,10 @@ RtcEventLog
 event_log
 )
 :
+network_available_
+(
+true
+)
 enable_periodic_alr_probing_
 (
 false
@@ -1827,10 +1831,6 @@ Timestamp
 at_time
 )
 {
-network_available_
-=
-true
-;
 bandwidth_limited_cause_
 =
 BandwidthLimitedCause
