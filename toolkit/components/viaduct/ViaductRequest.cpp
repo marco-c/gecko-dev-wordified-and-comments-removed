@@ -1526,6 +1526,11 @@ mBodyBuffer
 BeginReading
 (
 )
+mBodyBuffer
+.
+Length
+(
+)
 )
 ;
 }
