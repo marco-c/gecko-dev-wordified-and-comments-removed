@@ -384,6 +384,7 @@ bool
 empty
 (
 )
+const
 {
 return
 uses_
@@ -702,6 +703,18 @@ RewindToken
 token
 )
 ;
+const
+UsedNameMap
+&
+map
+(
+)
+const
+{
+return
+map_
+;
+}
 #
 if
 defined
