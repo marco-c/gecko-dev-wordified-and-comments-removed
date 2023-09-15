@@ -4968,6 +4968,17 @@ mock_frame_encryptor
 /
 api
 :
+mock_transformable_video_frame
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 rtp_headers
 "
 "
