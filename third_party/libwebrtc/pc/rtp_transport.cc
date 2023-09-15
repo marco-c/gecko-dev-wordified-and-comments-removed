@@ -1109,7 +1109,7 @@ parsed_packet
 {
 RTC_LOG
 (
-LS_WARNING
+LS_VERBOSE
 )
 <
 <
@@ -1127,6 +1127,11 @@ RtpDemuxer
 :
 :
 DescribePacket
+(
+parsed_packet
+)
+;
+SignalUnDemuxableRtpPacketReceived
 (
 parsed_packet
 )
