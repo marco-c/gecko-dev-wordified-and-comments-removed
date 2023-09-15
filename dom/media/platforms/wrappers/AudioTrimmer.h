@@ -230,9 +230,6 @@ ResolveOrRejectValue
 &
 &
 aValue
-MediaRawData
-*
-aRaw
 )
 ;
 void
