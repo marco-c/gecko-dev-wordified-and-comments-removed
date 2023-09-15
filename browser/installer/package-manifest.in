@@ -552,6 +552,8 @@ DLL_PREFIX
 mozwayland
 DLL_SUFFIX
 #
+endif
+#
 ifdef
 MOZ_ENABLE_V4L2
 BINPATH
@@ -565,8 +567,6 @@ MOZ_ENABLE_VAAPI
 BINPATH
 /
 vaapitest
-#
-endif
 #
 endif
 #
