@@ -3554,6 +3554,11 @@ aVariations
 )
 )
 ;
+if
+(
+varDict
+)
+{
 CFDictionaryRef
 varAttr
 =
@@ -3615,6 +3620,7 @@ aGlyphSize
 nullptr
 )
 ;
+}
 }
 scaledFont
 =
