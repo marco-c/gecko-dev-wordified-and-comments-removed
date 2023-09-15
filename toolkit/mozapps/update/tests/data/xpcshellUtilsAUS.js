@@ -7041,7 +7041,7 @@ return
 dir
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -7306,7 +7306,7 @@ null
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -7361,7 +7361,7 @@ CSIDL_LOCAL_APPDATA
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -7416,7 +7416,7 @@ CSIDL_COMMON_APPDATA
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -7740,7 +7740,7 @@ be
 ;
 }
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

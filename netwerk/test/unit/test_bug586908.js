@@ -60,7 +60,7 @@ httpserv
 =
 null
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

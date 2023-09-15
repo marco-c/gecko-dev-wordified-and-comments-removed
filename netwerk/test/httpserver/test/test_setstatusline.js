@@ -1,4 +1,4 @@
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -220,7 +220,7 @@ httpMinVer
 )
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

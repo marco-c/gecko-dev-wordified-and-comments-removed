@@ -78,7 +78,7 @@ OTHERBUGID
 696849
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -100,7 +100,7 @@ primaryPort
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

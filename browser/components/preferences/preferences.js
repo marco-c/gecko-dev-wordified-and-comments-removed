@@ -760,7 +760,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

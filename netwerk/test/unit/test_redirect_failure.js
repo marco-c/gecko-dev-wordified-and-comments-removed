@@ -49,7 +49,7 @@ nsIXULRuntime
 PROCESS_TYPE_DEFAULT
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -100,7 +100,7 @@ random
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

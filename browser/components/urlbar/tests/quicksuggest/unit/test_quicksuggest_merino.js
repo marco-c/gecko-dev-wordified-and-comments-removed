@@ -577,7 +577,7 @@ adm
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

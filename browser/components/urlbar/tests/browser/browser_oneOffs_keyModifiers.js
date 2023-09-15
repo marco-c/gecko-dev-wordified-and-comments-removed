@@ -21,7 +21,7 @@ foo
 bar
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

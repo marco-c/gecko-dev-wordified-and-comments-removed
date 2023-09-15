@@ -114,7 +114,7 @@ dialogOpened
 =
 false
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

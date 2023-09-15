@@ -42,7 +42,7 @@ path
 bug699001
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

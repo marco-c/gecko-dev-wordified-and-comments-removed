@@ -197,7 +197,7 @@ ORIGIN_HTTPS_EXAMPLE_ORG
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -155,7 +155,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -219,7 +219,7 @@ nsIClipboardHelper
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -273,7 +273,7 @@ module
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

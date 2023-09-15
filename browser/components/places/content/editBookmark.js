@@ -5625,7 +5625,7 @@ _bookmarkState
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -5829,7 +5829,7 @@ eltScoped
 =
 elt
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

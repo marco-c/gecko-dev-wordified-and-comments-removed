@@ -57,7 +57,7 @@ nsIProtocolProxyService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

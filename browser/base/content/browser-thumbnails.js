@@ -345,7 +345,7 @@ this
 .
 _topSiteURLs
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -895,7 +895,7 @@ urls
 )
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

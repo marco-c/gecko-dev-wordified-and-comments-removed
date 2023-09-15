@@ -118,7 +118,7 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -158,7 +158,7 @@ brotli
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

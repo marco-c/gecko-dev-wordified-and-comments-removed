@@ -75,7 +75,7 @@ nsITrackingDBService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

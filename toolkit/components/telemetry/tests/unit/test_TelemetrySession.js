@@ -262,7 +262,7 @@ ABORTED_SESSION_UPDATE_INTERVAL_MS
 *
 1000
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

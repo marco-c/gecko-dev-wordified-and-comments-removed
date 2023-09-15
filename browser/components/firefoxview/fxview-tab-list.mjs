@@ -150,7 +150,7 @@ mjs
 .
 XPCOMUtils
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

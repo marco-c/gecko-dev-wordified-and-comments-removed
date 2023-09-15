@@ -84,7 +84,7 @@ Ci
 nsIHttpProtocolHandler
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

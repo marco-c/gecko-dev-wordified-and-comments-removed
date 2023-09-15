@@ -202,7 +202,7 @@ HOMEPAGE_SETTING_NAME
 homepage_override
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -86,7 +86,7 @@ primaryPort
 data
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -110,7 +110,7 @@ path
 }
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

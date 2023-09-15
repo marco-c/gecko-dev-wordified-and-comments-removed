@@ -18,7 +18,7 @@ gMaxResults
 let
 engine
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

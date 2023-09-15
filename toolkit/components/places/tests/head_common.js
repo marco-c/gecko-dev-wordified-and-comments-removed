@@ -416,7 +416,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -459,7 +459,7 @@ SMALLPNG_DATA_LEN
 =
 67
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -521,7 +521,7 @@ IGhlaWdodD0iNDEuOCIvPg0KPC9zdmc
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

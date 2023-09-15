@@ -46,7 +46,7 @@ response
 body
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -89,7 +89,7 @@ pre
 redirect
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -121,7 +121,7 @@ post
 redirect
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

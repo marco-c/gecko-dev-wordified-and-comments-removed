@@ -55,7 +55,7 @@ allow_hijacking_localhost
 true
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

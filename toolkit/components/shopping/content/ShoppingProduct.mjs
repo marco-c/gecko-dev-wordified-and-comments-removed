@@ -233,7 +233,7 @@ nsIObliviousHttpService
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

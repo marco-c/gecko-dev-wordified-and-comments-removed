@@ -1,7 +1,7 @@
 var
 srv
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

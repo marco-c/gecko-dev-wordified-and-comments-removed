@@ -1,4 +1,4 @@
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -79,7 +79,7 @@ fileSize
 )
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

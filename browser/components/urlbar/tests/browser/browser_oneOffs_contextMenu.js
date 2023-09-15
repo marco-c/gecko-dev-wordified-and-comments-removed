@@ -15,7 +15,7 @@ xml
 let
 gMaxResults
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

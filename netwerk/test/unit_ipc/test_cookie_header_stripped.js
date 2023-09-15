@@ -40,7 +40,7 @@ example
 com
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

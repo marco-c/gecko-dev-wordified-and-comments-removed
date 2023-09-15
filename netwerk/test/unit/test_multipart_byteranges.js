@@ -34,7 +34,7 @@ httpserver
 =
 null
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

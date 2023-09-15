@@ -53,7 +53,7 @@ random
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -105,7 +105,7 @@ random
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

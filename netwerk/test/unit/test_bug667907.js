@@ -63,7 +63,7 @@ html
 >
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -96,7 +96,7 @@ simplePath
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

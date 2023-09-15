@@ -143,7 +143,7 @@ REQUEST_DATA
 )
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

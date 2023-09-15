@@ -6097,7 +6097,7 @@ hidePanel
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6121,7 +6121,7 @@ multiView
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6145,7 +6145,7 @@ mainView
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

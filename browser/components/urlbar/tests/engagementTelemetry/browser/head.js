@@ -70,7 +70,7 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -124,7 +124,7 @@ module
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

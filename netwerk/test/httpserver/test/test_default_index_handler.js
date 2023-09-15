@@ -3,7 +3,7 @@ srv
 dir
 gDirEntries
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1105,7 +1105,7 @@ e
 {
 }
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

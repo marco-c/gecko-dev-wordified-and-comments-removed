@@ -1052,7 +1052,7 @@ tabAdopted
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

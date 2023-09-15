@@ -1455,7 +1455,7 @@ matches
 )
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

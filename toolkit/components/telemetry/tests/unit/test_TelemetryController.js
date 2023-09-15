@@ -309,7 +309,7 @@ gClientID
 =
 null
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

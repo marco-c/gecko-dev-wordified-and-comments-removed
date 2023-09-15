@@ -130,7 +130,7 @@ newtab
 extensionControlled
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

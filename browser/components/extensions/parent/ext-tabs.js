@@ -113,7 +113,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -171,7 +171,7 @@ TAB_ID_NONE
 -
 1
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

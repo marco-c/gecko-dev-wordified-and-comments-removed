@@ -42,7 +42,7 @@ BadRedirectPath
 BadRedirect
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

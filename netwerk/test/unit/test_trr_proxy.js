@@ -126,7 +126,7 @@ DIRECT
 "
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

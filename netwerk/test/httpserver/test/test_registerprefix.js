@@ -1,4 +1,4 @@
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -138,7 +138,7 @@ magic
 }
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

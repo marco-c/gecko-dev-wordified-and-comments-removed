@@ -1,4 +1,4 @@
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -148,7 +148,7 @@ TEST_RUNS
 =
 250
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

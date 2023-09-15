@@ -50,7 +50,7 @@ httpServer2
 =
 null
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -72,7 +72,7 @@ primaryPort
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -102,7 +102,7 @@ baitPath
 bait
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -149,7 +149,7 @@ redirectedPath
 switch
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -196,7 +196,7 @@ bait2Path
 bait2
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -225,7 +225,7 @@ bait2Path
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -262,7 +262,7 @@ bait3Path
 bait3
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -299,7 +299,7 @@ bait4Path
 bait4
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
