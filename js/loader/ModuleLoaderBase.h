@@ -1372,6 +1372,14 @@ aURI
 )
 ;
 void
+InstantiateAndEvaluateDynamicImport
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
+void
 FinishDynamicImportAndReject
 (
 ModuleLoadRequest
