@@ -1829,7 +1829,8 @@ OpenTabsInViewCard
 .
 MAX_TABS_FOR_COMPACT_HEIGHT
 :
-null
+-
+1
 )
 }
 .
