@@ -114,7 +114,7 @@ AimdRateControl
 (
 const
 FieldTrialsView
-*
+&
 key_value_config
 )
 ;
@@ -122,7 +122,7 @@ AimdRateControl
 (
 const
 FieldTrialsView
-*
+&
 key_value_config
 bool
 send_side
@@ -195,7 +195,7 @@ Update
 (
 const
 RateControlInput
-*
+&
 input
 Timestamp
 at_time

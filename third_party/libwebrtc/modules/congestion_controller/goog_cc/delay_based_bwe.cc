@@ -407,6 +407,7 @@ false
 )
 rate_control_
 (
+*
 key_value_config
 true
 )
@@ -1066,7 +1067,6 @@ rate_control_
 .
 Update
 (
-&
 input
 at_time
 )
@@ -1437,7 +1437,6 @@ rate_control_
 .
 Update
 (
-&
 input
 at_time
 )

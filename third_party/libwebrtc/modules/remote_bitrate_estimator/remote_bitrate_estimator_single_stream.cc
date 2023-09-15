@@ -266,7 +266,6 @@ last_valid_incoming_bitrate_
 )
 remote_rate_
 (
-&
 field_trials_
 )
 observer_
@@ -987,7 +986,6 @@ remote_rate_
 .
 Update
 (
-&
 input
 Timestamp
 :
