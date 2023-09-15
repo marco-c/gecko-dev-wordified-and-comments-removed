@@ -609,12 +609,6 @@ helperResult
 ;
 }
 bindings
-rawCommands
-:
-commands
-rawOwner
-:
-owner
 }
 ;
 }
