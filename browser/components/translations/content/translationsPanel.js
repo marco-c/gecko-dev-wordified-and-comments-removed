@@ -452,6 +452,8 @@ this
 console
 )
 {
+try
+{
 this
 .
 #
@@ -479,6 +481,10 @@ Translations
 }
 )
 ;
+}
+catch
+{
+}
 }
 return
 this
@@ -1473,6 +1479,7 @@ default
 this
 .
 console
+?
 .
 error
 (
@@ -1719,6 +1726,7 @@ error
 this
 .
 console
+?
 .
 error
 (
@@ -4120,6 +4128,7 @@ error
 this
 .
 console
+?
 .
 error
 (
@@ -4287,6 +4296,7 @@ error
 this
 .
 console
+?
 .
 error
 (
@@ -4316,6 +4326,7 @@ error
 this
 .
 console
+?
 .
 error
 (
