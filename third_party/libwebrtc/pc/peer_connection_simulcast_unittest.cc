@@ -1244,13 +1244,6 @@ Seconds
 5
 )
 ;
-#
-if
-!
-defined
-(
-ADDRESS_SANITIZER
-)
 constexpr
 TimeDelta
 kLongTimeoutForRampingUp
@@ -1263,8 +1256,6 @@ Seconds
 30
 )
 ;
-#
-endif
 class
 PeerConnectionSimulcastTests
 :
@@ -8619,13 +8610,6 @@ L1T1
 )
 ;
 }
-#
-if
-!
-defined
-(
-ADDRESS_SANITIZER
-)
 TEST_F
 (
 PeerConnectionSimulcastWithMediaFlowTests
@@ -12865,6 +12849,4 @@ L1T3
 )
 ;
 }
-#
-endif
 }

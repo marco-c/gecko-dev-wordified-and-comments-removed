@@ -82,6 +82,16 @@ FakePeriodicVideoTrackSource
 =
 default
 ;
+FakePeriodicVideoSource
+&
+fake_periodic_source
+(
+)
+{
+return
+source_
+;
+}
 const
 FakePeriodicVideoSource
 &
