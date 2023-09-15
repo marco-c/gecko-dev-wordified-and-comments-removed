@@ -191,10 +191,10 @@ screen_capturer_mac
 .
 h
 index
-d9a5966efa
+7e38b5bd08
 .
 .
-7be05cc639
+e4a2cc2fc9
 100644
 -
 -
@@ -225,10 +225,10 @@ screen_capturer_mac
 .
 h
 -
-114
+113
 6
 +
-114
+113
 13
 class
 ScreenCapturerMac
