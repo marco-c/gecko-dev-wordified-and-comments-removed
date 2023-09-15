@@ -777,6 +777,10 @@ aNonce
 const
 nsAString
 &
+aFetchPriority
+const
+nsAString
+&
 aIntegrity
 ReferrerPolicy
 aReferrerPolicy
