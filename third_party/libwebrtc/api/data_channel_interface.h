@@ -268,16 +268,6 @@ sent_data_size
 )
 {
 }
-virtual
-bool
-IsOkToCallOnTheNetworkThread
-(
-)
-{
-return
-false
-;
-}
 protected
 :
 virtual

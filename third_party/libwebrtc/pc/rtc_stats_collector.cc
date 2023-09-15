@@ -8790,6 +8790,12 @@ Thread
 ScopedDisallowBlockingCalls
 no_blocking_calls
 ;
+ProduceDataChannelStats_s
+(
+timestamp
+partial_report
+)
+;
 ProduceMediaStreamStats_s
 (
 timestamp
@@ -8877,16 +8883,6 @@ RTCStatsReport
 Create
 (
 timestamp
-)
-;
-ProduceDataChannelStats_n
-(
-timestamp
-network_report_
-.
-get
-(
-)
 )
 ;
 std
@@ -9570,7 +9566,7 @@ void
 RTCStatsCollector
 :
 :
-ProduceDataChannelStats_n
+ProduceDataChannelStats_s
 (
 Timestamp
 timestamp
@@ -9582,7 +9578,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-network_thread_
+signaling_thread_
 )
 ;
 rtc

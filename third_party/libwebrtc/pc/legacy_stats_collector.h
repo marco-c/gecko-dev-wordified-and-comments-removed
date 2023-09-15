@@ -655,11 +655,8 @@ info
 )
 ;
 void
-ExtractDataInfo_n
+ExtractDataInfo
 (
-StatsCollection
-*
-reports
 )
 ;
 std
@@ -676,7 +673,7 @@ std
 :
 string
 >
-ExtractSessionAndDataInfo
+ExtractSessionInfo
 (
 )
 ;

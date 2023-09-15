@@ -846,7 +846,7 @@ report
 const
 ;
 void
-ProduceDataChannelStats_n
+ProduceDataChannelStats_s
 (
 Timestamp
 timestamp
