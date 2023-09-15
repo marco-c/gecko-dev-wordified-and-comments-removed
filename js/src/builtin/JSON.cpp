@@ -5899,8 +5899,9 @@ stack
 cx
 )
 ;
-MOZ_ALWAYS_TRUE
+if
 (
+!
 stack
 .
 reserve
@@ -5910,7 +5911,11 @@ MAX_STACK_DEPTH
 1
 )
 )
+{
+return
+false
 ;
+}
 FastStackEntry
 top
 (
