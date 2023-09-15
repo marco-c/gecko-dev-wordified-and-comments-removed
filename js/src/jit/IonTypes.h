@@ -1703,7 +1703,7 @@ None
 Slots
 Elements
 Pointer
-RefOrNull
+WasmAnyRef
 StackResults
 Shape
 Last
@@ -2080,7 +2080,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 sizeof
@@ -2353,11 +2353,11 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 "
-RefOrNull
+WasmAnyRef
 "
 ;
 case

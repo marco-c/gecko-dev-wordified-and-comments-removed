@@ -3726,7 +3726,7 @@ compareOp
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 ;
 }
@@ -8077,7 +8077,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 auto
@@ -8095,7 +8095,7 @@ alloc
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 valueAddr
 )
 ;
@@ -8191,7 +8191,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 auto
@@ -8242,7 +8242,7 @@ alloc
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 valueAddr
 )
 ;
@@ -9894,7 +9894,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 def
 =
@@ -9909,7 +9909,7 @@ alloc
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 ReturnReg
 )
 ;
@@ -10264,7 +10264,7 @@ alloc
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 result
 .
 gpr
@@ -14625,7 +14625,7 @@ alloc
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 moduleEnv_
 .
 offsetOfTagInstanceData
@@ -14685,7 +14685,7 @@ offsetOfPendingException
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 AliasSet
 :
 :
@@ -14731,7 +14731,7 @@ offsetOfPendingExceptionTag
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 AliasSet
 :
 :
@@ -15916,7 +15916,7 @@ Eq
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 ;
 curBlock_
@@ -17113,7 +17113,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 &
 &
 tag
@@ -17127,7 +17127,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 return
@@ -18074,7 +18074,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MOZ_ASSERT
@@ -18331,7 +18331,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MOZ_ASSERT
@@ -18496,7 +18496,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MIRType
@@ -18634,7 +18634,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MOZ_ASSERT
@@ -19656,7 +19656,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 auto
@@ -19756,7 +19756,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 auto
@@ -19984,7 +19984,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MOZ_ASSERT
@@ -21073,7 +21073,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MDefinition
@@ -21287,7 +21287,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MGoto
@@ -33372,7 +33372,7 @@ Eq
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 )
 ;
@@ -42647,7 +42647,7 @@ Eq
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 )
 ;

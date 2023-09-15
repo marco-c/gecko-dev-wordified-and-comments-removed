@@ -229,7 +229,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 case
 MIRType
@@ -570,7 +570,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 case
 MIRType

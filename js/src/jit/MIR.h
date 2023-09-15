@@ -7327,7 +7327,7 @@ setResultType
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 setMovable
@@ -13739,7 +13739,7 @@ Compare_BigInt
 Compare_BigInt_Int32
 Compare_BigInt_Double
 Compare_BigInt_String
-Compare_RefOrNull
+Compare_WasmAnyRef
 }
 ;
 private
@@ -13874,7 +13874,7 @@ Compare_Float32
 compareType
 =
 =
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 ;
 auto
@@ -14396,7 +14396,7 @@ case
 Compare_UIntPtr
 :
 case
-Compare_RefOrNull
+Compare_WasmAnyRef
 :
 return
 false
@@ -14613,12 +14613,12 @@ BigInt_String
 break
 ;
 case
-Compare_RefOrNull
+Compare_WasmAnyRef
 :
 ty
 =
 "
-RefOrNull
+WasmAnyRef
 "
 ;
 break
@@ -46134,7 +46134,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 setMovable
@@ -46371,7 +46371,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 }
@@ -49077,7 +49077,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 setResultType
@@ -49317,7 +49317,7 @@ setResultType
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 setMovable
@@ -50116,7 +50116,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 initOperand
@@ -55835,7 +55835,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MOZ_ASSERT_IF
@@ -56204,7 +56204,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MOZ_ASSERT
@@ -56228,7 +56228,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 MOZ_ASSERT

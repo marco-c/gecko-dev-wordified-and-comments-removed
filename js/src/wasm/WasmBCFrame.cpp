@@ -331,7 +331,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 #
 ifdef

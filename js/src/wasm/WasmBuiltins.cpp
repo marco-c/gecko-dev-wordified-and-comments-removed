@@ -341,7 +341,7 @@ _RoN
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 #
 define
 _VOID
@@ -1969,7 +1969,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 ArgType_General

@@ -2856,7 +2856,7 @@ def
 Value
 result_type
 :
-RefOrNull
+WasmAnyRef
 congruent_to
 :
 if_operands_equal
@@ -2877,7 +2877,7 @@ type_policy
 none
 result_type
 :
-RefOrNull
+WasmAnyRef
 congruent_to
 :
 if_operands_equal

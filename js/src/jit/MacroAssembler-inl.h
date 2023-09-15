@@ -543,7 +543,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 {
 using
@@ -571,7 +571,7 @@ DynamicFunction
 Fn
 >
 (
-JitRefOrNullPreWriteBarrier
+JitWasmAnyRefPreWriteBarrier
 )
 ;
 }

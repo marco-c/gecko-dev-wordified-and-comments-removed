@@ -171,7 +171,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 case
 MIRType

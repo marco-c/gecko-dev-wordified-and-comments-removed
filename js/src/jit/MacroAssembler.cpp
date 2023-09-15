@@ -29795,7 +29795,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 loadPtr
@@ -29905,7 +29905,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 branchPtr

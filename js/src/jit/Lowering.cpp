@@ -6637,7 +6637,7 @@ compareType
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 {
 JSOp
@@ -9003,7 +9003,7 @@ compareType
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 {
 JSOp
@@ -40759,7 +40759,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 LAllocation
@@ -41674,7 +41674,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 LAllocation
@@ -41863,7 +41863,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 LAllocation
@@ -42027,7 +42027,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 lir
@@ -42656,7 +42656,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 #
 ifdef
 ENABLE_WASM_SIMD
@@ -42890,7 +42890,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 returnReg

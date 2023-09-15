@@ -53101,7 +53101,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 MOZ_ASSERT
 (
@@ -53424,7 +53424,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 MOZ_CRASH
 (
@@ -107497,7 +107497,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 case
 MIRType

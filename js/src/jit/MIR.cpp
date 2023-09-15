@@ -8630,7 +8630,7 @@ ConstantValueHash
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 0
 )
 ;

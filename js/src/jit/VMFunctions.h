@@ -1968,7 +1968,7 @@ shapep
 )
 ;
 void
-JitRefOrNullPreWriteBarrier
+JitWasmAnyRefPreWriteBarrier
 (
 JSRuntime
 *

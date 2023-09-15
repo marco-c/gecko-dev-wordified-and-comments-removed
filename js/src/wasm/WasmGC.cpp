@@ -488,7 +488,7 @@ index
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 uint32_t
@@ -777,7 +777,7 @@ mirType
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 continue
