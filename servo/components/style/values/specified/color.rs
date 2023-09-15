@@ -4139,7 +4139,9 @@ from_absolute_color
 AbsoluteColor
 :
 :
-TRANSPARENT
+transparent
+(
+)
 )
 }
 pub
@@ -5252,7 +5254,9 @@ resolve_to_absolute
 AbsoluteColor
 :
 :
-TRANSPARENT
+transparent
+(
+)
 )
 }
 fn
