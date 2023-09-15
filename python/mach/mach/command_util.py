@@ -24,6 +24,7 @@ from
 typing
 import
 Dict
+Optional
 Union
 from
 .
@@ -135,7 +136,9 @@ Path
 def
 __init__
 (
+        
 self
+        
 module
 :
 Union
@@ -143,6 +146,16 @@ Union
 str
 Path
 ]
+        
+command_dependencies
+:
+Optional
+[
+list
+]
+=
+None
+    
 )
 :
         
@@ -154,6 +167,15 @@ Path
 (
 module
 )
+        
+self
+.
+command_dependencies
+=
+command_dependencies
+or
+[
+]
 MACH_COMMANDS
 =
 {
@@ -855,6 +877,7 @@ junit
 :
 MachCommandReference
 (
+        
 "
 testing
 /
@@ -864,6 +887,12 @@ mach_commands
 .
 py
 "
+[
+"
+test
+"
+]
+    
 )
     
 "
@@ -933,6 +962,7 @@ gtest
 :
 MachCommandReference
 (
+        
 "
 python
 /
@@ -944,6 +974,12 @@ mach_commands
 .
 py
 "
+[
+"
+test
+"
+]
+    
 )
     
 "
@@ -1296,6 +1332,11 @@ mach_commands
 .
 py
 "
+[
+"
+test
+"
+]
 )
     
 "
@@ -1916,6 +1957,7 @@ storybook
 :
 MachCommandReference
 (
+        
 "
 browser
 /
@@ -1927,6 +1969,12 @@ mach_commands
 .
 py
 "
+[
+"
+run
+"
+]
+    
 )
     
 "
@@ -2713,6 +2761,7 @@ test
 :
 MachCommandReference
 (
+        
 "
 testing
 /
@@ -2722,6 +2771,12 @@ mach_commands
 .
 py
 "
+[
+"
+test
+"
+]
+    
 )
 }
 class
