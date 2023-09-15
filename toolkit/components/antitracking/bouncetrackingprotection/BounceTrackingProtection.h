@@ -137,7 +137,10 @@ PurgeBounceTrackersMozPromise
 =
 MozPromise
 <
-nsresult
+nsTArray
+<
+nsCString
+>
 nsresult
 true
 >
@@ -155,7 +158,7 @@ ClearDataMozPromise
 =
 MozPromise
 <
-nsresult
+nsCString
 uint32_t
 true
 >
