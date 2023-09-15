@@ -330,6 +330,8 @@ public
 SctpSidAllocator
 (
 )
+=
+default
 ;
 StreamId
 AllocateSid
@@ -371,6 +373,12 @@ sequence_checker_
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_
+{
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 }
 ;
@@ -1016,15 +1024,6 @@ kHandshakeInit
 ;
 bool
 connected_to_transport_
-RTC_GUARDED_BY
-(
-signaling_thread_
-)
-=
-false
-;
-bool
-writable_
 RTC_GUARDED_BY
 (
 signaling_thread_
