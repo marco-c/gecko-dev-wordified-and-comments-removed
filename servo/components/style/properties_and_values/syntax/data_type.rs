@@ -35,8 +35,9 @@ Angle
 Time
 Resolution
 TransformFunction
-TransformList
 CustomIdent
+TransformList
+String
 }
 impl
 DataType
@@ -271,6 +272,16 @@ DataType
 :
 :
 TransformList
+b
+"
+string
+"
+=
+>
+DataType
+:
+:
+String
 _
 =
 >
