@@ -3508,6 +3508,12 @@ arm
 "
 aarch64
 "
+"
+loongarch64
+"
+"
+mips64
+"
 )
 :
 return

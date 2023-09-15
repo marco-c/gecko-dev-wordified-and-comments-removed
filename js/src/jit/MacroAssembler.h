@@ -16577,6 +16577,8 @@ x86
 x64
 arm
 arm64
+loong64
+mips64
 )
 ;
 void
@@ -16589,6 +16591,8 @@ x86
 x64
 arm
 arm64
+loong64
+mips64
 )
 ;
 #
