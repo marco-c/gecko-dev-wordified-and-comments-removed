@@ -4217,15 +4217,6 @@ aName
 )
 ;
 static
-nsAtom
-*
-GetEventTypeFromMessage
-(
-EventMessage
-aEventMessage
-)
-;
-static
 EventMessage
 GetEventMessageAndAtomForListener
 (
