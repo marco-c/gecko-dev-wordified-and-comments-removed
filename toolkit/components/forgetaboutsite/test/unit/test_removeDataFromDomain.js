@@ -298,7 +298,6 @@ add_login
 aHost
 )
 {
-await
 check_login_exists
 (
 aHost
@@ -356,7 +355,6 @@ addLoginAsync
 login
 )
 ;
-await
 check_login_exists
 (
 aHost
@@ -364,7 +362,6 @@ true
 )
 ;
 }
-async
 function
 check_login_exists
 (
@@ -375,18 +372,16 @@ aExists
 let
 logins
 =
-await
 Services
 .
 logins
 .
-searchLoginsAsync
+findLogins
 (
-{
-origin
-:
 aHost
-}
+"
+"
+null
 )
 ;
 Assert
@@ -1395,7 +1390,6 @@ org
 "
 )
 ;
-await
 check_login_exists
 (
 TEST_HOST
@@ -1442,7 +1436,6 @@ org
 "
 )
 ;
-await
 check_login_exists
 (
 TEST_HOST
@@ -1487,7 +1480,6 @@ org
 "
 )
 ;
-await
 check_login_exists
 (
 TEST_HOST
@@ -1502,7 +1494,6 @@ removeAllUserFacingLogins
 (
 )
 ;
-await
 check_login_exists
 (
 TEST_HOST
