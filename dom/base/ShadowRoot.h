@@ -999,7 +999,6 @@ AddToRadioGroup
 (
 aName
 aRadio
-this
 )
 ;
 }

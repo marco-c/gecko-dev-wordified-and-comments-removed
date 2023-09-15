@@ -32,9 +32,6 @@ nsClassHashtable
 .
 h
 "
-class
-nsIContent
-;
 namespace
 mozilla
 {
@@ -147,9 +144,6 @@ aName
 HTMLInputElement
 *
 aRadio
-nsIContent
-*
-aAncestor
 )
 ;
 void
