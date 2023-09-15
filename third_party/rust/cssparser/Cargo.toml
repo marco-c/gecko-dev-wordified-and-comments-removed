@@ -121,9 +121,9 @@ version
 "
 0
 .
-31
+32
 .
-2
+0
 "
 authors
 =
@@ -384,6 +384,10 @@ bench
 [
 ]
 dummy_match_byte
+=
+[
+]
+skip_long_tests
 =
 [
 ]

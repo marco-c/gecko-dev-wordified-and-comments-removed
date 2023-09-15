@@ -10828,7 +10828,7 @@ Self
 ascii_case_insensitive_phf_map
 !
 {
-unknown_id
+unknown_ids
 -
 >
 CountedUnknownProperty
@@ -10863,7 +10863,10 @@ camel_case
 endfor
 }
 }
-unknown_id
+unknown_ids
+:
+:
+get
 (
 property_name
 )
@@ -11035,7 +11038,7 @@ CountedUnknownProperty
 ascii_case_insensitive_phf_map
 !
 {
-static_id
+static_ids
 -
 >
 StaticId
@@ -11198,7 +11201,10 @@ Some
 id
 )
 =
-static_id
+static_ids
+:
+:
+get
 (
 property_name
 )

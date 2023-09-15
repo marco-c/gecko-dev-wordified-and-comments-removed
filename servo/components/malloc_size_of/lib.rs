@@ -4816,10 +4816,6 @@ malloc_size_of_is_0
 cssparser
 :
 :
-RGBA
-cssparser
-:
-:
 TokenSerializationType
 )
 ;

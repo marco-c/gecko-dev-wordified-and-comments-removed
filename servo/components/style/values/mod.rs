@@ -59,7 +59,6 @@ cssparser
 {
 SourceLocation
 Token
-RGBA
 }
 ;
 use
