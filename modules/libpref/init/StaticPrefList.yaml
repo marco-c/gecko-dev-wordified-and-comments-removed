@@ -58642,6 +58642,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+MOZ_ANDROID_CONTENT_SERVICE_ISOLATED_PROCESS
+)
 value
 :
 true
