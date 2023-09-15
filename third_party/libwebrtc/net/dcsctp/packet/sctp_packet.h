@@ -291,10 +291,6 @@ uint8_t
 >
 Build
 (
-bool
-write_checksum
-=
-true
 )
 ;
 private
@@ -341,10 +337,10 @@ const
 uint8_t
 >
 data
-const
-DcSctpOptions
-&
-options
+bool
+disable_checksum_verification
+=
+false
 )
 ;
 const

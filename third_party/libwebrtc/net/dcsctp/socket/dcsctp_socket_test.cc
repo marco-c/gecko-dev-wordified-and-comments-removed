@@ -596,10 +596,6 @@ kMaxBurstPackets
 =
 4
 ;
-constexpr
-DcSctpOptions
-kDefaultOptions
-;
 MATCHER_P
 (
 HasDataChunkWithStreamId
@@ -623,7 +619,6 @@ SctpPacket
 Parse
 (
 arg
-kDefaultOptions
 )
 ;
 if
@@ -820,7 +815,6 @@ SctpPacket
 Parse
 (
 arg
-kDefaultOptions
 )
 ;
 if
@@ -1017,7 +1011,6 @@ SctpPacket
 Parse
 (
 arg
-kDefaultOptions
 )
 ;
 if
@@ -1214,7 +1207,6 @@ SctpPacket
 Parse
 (
 arg
-kDefaultOptions
 )
 ;
 if
@@ -1415,7 +1407,6 @@ SctpPacket
 Parse
 (
 arg
-kDefaultOptions
 )
 ;
 if
@@ -1611,7 +1602,6 @@ SctpPacket
 Parse
 (
 arg
-kDefaultOptions
 )
 ;
 if
@@ -1803,7 +1793,6 @@ SctpPacket
 Parse
 (
 arg
-kDefaultOptions
 )
 ;
 if
@@ -2100,7 +2089,6 @@ SctpPacket
 Parse
 (
 arg
-kDefaultOptions
 )
 ;
 if
@@ -2477,7 +2465,8 @@ DcSctpOptions
 &
 opts
 =
-kDefaultOptions
+{
+}
 )
 :
 options
@@ -4432,9 +4421,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -4604,9 +4590,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -4683,9 +4666,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -4836,9 +4816,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -5008,9 +4985,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -5087,9 +5061,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -5270,9 +5241,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -5412,9 +5380,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -5890,9 +5855,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -5997,9 +5959,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
-.
-options
 )
 )
 ;
@@ -6829,10 +6788,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
--
->
-options
 )
 )
 ;
@@ -7014,10 +6969,6 @@ SctpPacket
 Parse
 (
 hb_packet_raw
-z
--
->
-options
 )
 )
 ;
@@ -7287,10 +7238,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
--
->
-options
 )
 )
 ;
@@ -7660,10 +7607,6 @@ SctpPacket
 Parse
 (
 hb_packet_raw
-z
--
->
-options
 )
 )
 ;
@@ -7828,10 +7771,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
--
->
-options
 )
 )
 ;
@@ -10705,10 +10644,6 @@ cb
 ConsumeSentPacket
 (
 )
-z
--
->
-options
 )
 )
 ;
@@ -11041,9 +10976,6 @@ SctpPacket
 Parse
 (
 init_data
-z
-.
-options
 )
 )
 ;
@@ -16163,9 +16095,6 @@ SctpPacket
 Parse
 (
 init_data
-z
-.
-options
 )
 )
 ;
