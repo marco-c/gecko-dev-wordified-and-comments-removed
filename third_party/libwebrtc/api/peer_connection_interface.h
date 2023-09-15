@@ -4022,6 +4022,15 @@ label
 =
 0
 ;
+ABSL_DEPRECATED
+(
+"
+Use
+version
+with
+scoped_refptr
+"
+)
 virtual
 rtc
 :
