@@ -1403,6 +1403,15 @@ feature
 tour
 "
 "
+browser
+.
+newtab
+.
+feature
+-
+tour
+"
+"
 cookiebanners
 .
 service
