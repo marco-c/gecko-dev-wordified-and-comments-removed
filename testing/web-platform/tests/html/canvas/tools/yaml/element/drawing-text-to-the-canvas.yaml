@@ -5411,7 +5411,7 @@ ctx
 font
 =
 '
-50px
+40px
 CanvasTest
 '
 ;
@@ -5444,9 +5444,7 @@ emHeightAscent
 =
 =
 =
-37
-.
-5
+30
 ;
 assert
 ctx
@@ -5462,9 +5460,7 @@ emHeightDescent
 =
 =
 =
-12
-.
-5
+10
 ;
 assert
 ctx
@@ -5491,7 +5487,7 @@ emHeightAscent
 =
 =
 =
-50
+40
 ;
 assert
 ctx
@@ -5507,9 +5503,7 @@ emHeightAscent
 =
 =
 =
-37
-.
-5
+30
 ;
 assert
 ctx
@@ -5525,9 +5519,7 @@ emHeightDescent
 =
 =
 =
-12
-.
-5
+10
 ;
 assert
 ctx
@@ -5554,7 +5546,7 @@ emHeightAscent
 =
 =
 =
-50
+40
 ;
 }
 )
