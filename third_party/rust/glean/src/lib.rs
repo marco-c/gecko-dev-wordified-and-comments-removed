@@ -96,6 +96,7 @@ ErrorType
 Glean
 HistogramType
 Lifetime
+PingRateLimit
 RecordedExperiment
 Result
 }

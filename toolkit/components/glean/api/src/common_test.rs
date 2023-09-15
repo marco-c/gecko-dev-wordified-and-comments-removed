@@ -254,6 +254,9 @@ into
 channel
 :
 None
+locale
+:
+None
 }
 ;
 glean
