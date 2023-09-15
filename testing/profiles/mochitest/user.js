@@ -44,3 +44,15 @@ smoothScroll
 true
 )
 ;
+user_pref
+(
+"
+dom
+.
+storage_access
+.
+dont_grant_insecure_contexts
+"
+false
+)
+;
