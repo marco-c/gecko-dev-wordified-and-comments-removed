@@ -5,7 +5,7 @@ modules
 /
 video_coding
 /
-test
+deprecated
 /
 stream_generator
 .
@@ -39,9 +39,9 @@ h
 #
 include
 "
-test
+rtc_base
 /
-gtest
+checks
 .
 h
 "
@@ -264,7 +264,7 @@ VideoFrameType
 type
 )
 {
-EXPECT_LT
+RTC_CHECK_LT
 (
 size
 kMaxPacketSize
