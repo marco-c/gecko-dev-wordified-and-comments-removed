@@ -191,13 +191,6 @@ kMeta
 8
 ;
 static
-const
-uint32_t
-kOS
-=
-16
-;
-static
 uint32_t
 AccelModifier
 (
