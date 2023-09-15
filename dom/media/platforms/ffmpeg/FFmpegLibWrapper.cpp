@@ -1038,6 +1038,12 @@ AV_FUNC_59
 |
 AV_FUNC_60
 )
+AV_FUNC
+(
+av_get_sample_fmt_name
+AV_FUNC_AVUTIL_ALL
+)
+;
 #
 ifdef
 MOZ_WIDGET_GTK
