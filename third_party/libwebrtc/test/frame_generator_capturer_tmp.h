@@ -1,0 +1,17 @@
+#
+ifndef
+TEST_FRAME_GENERATOR_CAPTURER_TMP_H_
+#
+define
+TEST_FRAME_GENERATOR_CAPTURER_TMP_H_
+#
+include
+"
+test
+/
+frame_generator_capturer
+.
+h
+"
+#
+endif
