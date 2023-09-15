@@ -409,9 +409,8 @@ WaitForPendingRequest
 void
 OnSctpDataChannelStateChanged
 (
-DataChannelInterface
-*
-channel
+int
+channel_id
 DataChannelInterface
 :
 :
@@ -1304,8 +1303,7 @@ webrtc
 :
 flat_set
 <
-void
-*
+int
 >
 opened_data_channels
 ;

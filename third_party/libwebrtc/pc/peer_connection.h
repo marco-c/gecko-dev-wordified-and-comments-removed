@@ -2044,9 +2044,8 @@ override
 void
 OnSctpDataChannelStateChanged
 (
-DataChannelInterface
-*
-channel
+int
+channel_id
 DataChannelInterface
 :
 :

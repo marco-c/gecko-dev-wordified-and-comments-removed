@@ -697,6 +697,16 @@ GetStats
 )
 const
 ;
+int
+internal_id
+(
+)
+const
+{
+return
+internal_id_
+;
+}
 const
 StreamId
 &

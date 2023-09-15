@@ -12260,9 +12260,8 @@ PeerConnection
 :
 OnSctpDataChannelStateChanged
 (
-DataChannelInterface
-*
-channel
+int
+channel_id
 DataChannelInterface
 :
 :
@@ -12286,7 +12285,7 @@ stats_collector_
 >
 OnSctpDataChannelStateChanged
 (
-channel
+channel_id
 state
 )
 ;
