@@ -350,6 +350,9 @@ msix
 packaging
 msix
 :
+vendor
+:
+Mozilla
 channel
 :
 by
