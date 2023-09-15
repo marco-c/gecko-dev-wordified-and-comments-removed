@@ -660,6 +660,11 @@ testWasmLEB128
 cpp
 "
 "
+testWasmReturnCalls
+.
+cpp
+"
+"
 testWeakMap
 .
 cpp

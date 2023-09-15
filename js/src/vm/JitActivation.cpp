@@ -1253,12 +1253,9 @@ unwound
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
 unwound
-=
-=
-(
 trap
 =
 =
@@ -1269,7 +1266,6 @@ Trap
 :
 :
 IndirectCallBadSig
-)
 )
 ;
 void
