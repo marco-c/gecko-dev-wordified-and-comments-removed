@@ -22576,8 +22576,10 @@ ErrorResult
 aError
 )
 {
+RefPtr
+<
 gfxFontGroup
-*
+>
 currentFontStyle
 =
 GetCurrentFontStyle
@@ -22611,8 +22613,10 @@ GetPresShell
 (
 )
 ;
+RefPtr
+<
 Document
-*
+>
 document
 =
 presShell
