@@ -3078,6 +3078,11 @@ tryAttachSetHas
 )
 ;
 AttachDecision
+tryAttachSetSize
+(
+)
+;
+AttachDecision
 tryAttachMapHas
 (
 )

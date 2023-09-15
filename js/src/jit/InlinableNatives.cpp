@@ -1505,6 +1505,12 @@ case
 InlinableNative
 :
 :
+SetSize
+:
+case
+InlinableNative
+:
+:
 String
 :
 case
