@@ -3195,11 +3195,21 @@ help
             
 return
         
-site
+command_reference
 =
-"
-common
-"
+MACH_COMMANDS
+.
+get
+(
+command
+)
+        
+if
+not
+command_reference
+:
+            
+return
         
 if
 len
@@ -3233,12 +3243,7 @@ self
 topsrcdir
 )
 /
-MACH_COMMANDS
-.
-get
-(
-command
-)
+command_reference
 .
 module
         
