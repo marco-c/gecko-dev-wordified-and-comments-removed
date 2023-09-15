@@ -8746,15 +8746,15 @@ JS_smprintf
 ref
 :
 %
-p
 "
+PRIxPTR
 globalVal
 .
 ref
 (
 )
 .
-asJSObject
+rawValue
 (
 )
 )

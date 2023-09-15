@@ -153,6 +153,14 @@ mkSlts
 \
 _
 (
+TraceWasmAnyRefs
+"
+mkWars
+"
+)
+\
+_
+(
 TraceWholeCells
 "
 mcWCll

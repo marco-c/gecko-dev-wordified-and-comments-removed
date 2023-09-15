@@ -6,6 +6,15 @@ define
 wasm_utility_h
 #
 include
+"
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
 <
 algorithm
 >

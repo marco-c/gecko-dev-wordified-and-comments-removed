@@ -117002,7 +117002,10 @@ Fn
 wasm
 :
 :
-BoxBoxableValue
+AnyRef
+:
+:
+boxValue
 >
 (
 lir

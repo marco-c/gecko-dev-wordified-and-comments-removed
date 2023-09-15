@@ -28,8 +28,6 @@ js
 namespace
 wasm
 {
-STATIC_ASSERT_ANYREF_IS_JSOBJECT
-;
 using
 TableAnyRefVector
 =
@@ -37,8 +35,7 @@ GCVector
 <
 HeapPtr
 <
-JSObject
-*
+AnyRef
 >
 0
 SystemAllocPolicy

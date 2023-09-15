@@ -21041,8 +21041,6 @@ ValType
 Ref
 :
 {
-ASSERT_ANYREF_IS_JSOBJECT
-;
 RegRef
 reg
 =
@@ -32040,8 +32038,6 @@ RegPtr
 valueAddr
 )
 {
-ASSERT_ANYREF_IS_JSOBJECT
-;
 emitPreBarrier
 (
 valueAddr
@@ -32053,7 +32049,7 @@ storePtr
 (
 ImmWord
 (
-0
+NULLREF_VALUE
 )
 Address
 (

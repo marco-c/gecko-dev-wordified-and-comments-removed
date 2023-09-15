@@ -2016,6 +2016,7 @@ AnyRef
 :
 fromJSObject
 (
+*
 structObj
 )
 )
@@ -2098,6 +2099,7 @@ AnyRef
 :
 fromJSObject
 (
+*
 structObj
 )
 )
@@ -2215,6 +2217,7 @@ AnyRef
 :
 fromJSObject
 (
+*
 arrayObj
 )
 )
@@ -2305,6 +2308,7 @@ AnyRef
 :
 fromJSObject
 (
+*
 arrayObj
 )
 )
@@ -2442,6 +2446,7 @@ AnyRef
 :
 fromJSObject
 (
+*
 arrayObj
 )
 )

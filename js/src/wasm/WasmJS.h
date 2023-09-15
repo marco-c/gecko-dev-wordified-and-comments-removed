@@ -583,8 +583,6 @@ const
 ;
 }
 ;
-STATIC_ASSERT_ANYREF_IS_JSOBJECT
-;
 class
 WasmGlobalObject
 :

@@ -503,8 +503,6 @@ ValType
 :
 Ref
 :
-ASSERT_ANYREF_IS_JSOBJECT
-;
 mirType_
 =
 locals_

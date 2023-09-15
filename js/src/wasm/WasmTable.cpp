@@ -1197,19 +1197,11 @@ isFunction
 )
 )
 ;
-ASSERT_ANYREF_IS_JSOBJECT
-;
 return
-AnyRef
-:
-:
-fromJSObject
-(
 objects_
 [
 index
 ]
-)
 ;
 }
 void
@@ -1233,8 +1225,6 @@ isFunction
 (
 )
 )
-;
-ASSERT_ANYREF_IS_JSOBJECT
 ;
 for
 (
@@ -1264,10 +1254,6 @@ i
 ]
 =
 ref
-.
-asJSObject
-(
-)
 ;
 }
 }
@@ -1770,6 +1756,7 @@ AnyRef
 :
 fromJSObject
 (
+*
 fun
 )
 )
