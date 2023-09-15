@@ -790,7 +790,7 @@ StartOffThreadDelazification
 (
 JSContext
 *
-cx
+maybeCx
 const
 JS
 :

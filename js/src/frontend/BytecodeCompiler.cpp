@@ -1607,9 +1607,6 @@ options
 populateDelazificationCache
 (
 )
-&
-&
-maybeCx
 )
 {
 BorrowingCompilationStencil
@@ -1640,6 +1637,9 @@ options
 waitForDelazificationCache
 (
 )
+&
+&
+maybeCx
 )
 {
 WaitForAllDelazifyTasks

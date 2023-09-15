@@ -2270,7 +2270,7 @@ HelperThreadTask
 {
 JSRuntime
 *
-runtime
+maybeRuntime
 =
 nullptr
 ;
@@ -2286,7 +2286,7 @@ Create
 (
 JSRuntime
 *
-runtime
+maybeRuntime
 const
 JS
 :
@@ -2307,7 +2307,7 @@ DelazifyTask
 (
 JSRuntime
 *
-runtime
+maybeRuntime
 const
 JS
 :
@@ -2347,7 +2347,7 @@ stencil
 )
 ;
 bool
-runtimeMatches
+runtimeMatchesOrNoRuntime
 (
 JSRuntime
 *
@@ -2355,7 +2355,11 @@ rt
 )
 {
 return
-runtime
+!
+maybeRuntime
+|
+|
+maybeRuntime
 =
 =
 rt
