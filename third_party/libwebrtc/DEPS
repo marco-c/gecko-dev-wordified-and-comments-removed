@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-547ac8df54bcd08c3ee0cfbd3abcc90cadc8f2bf
+b9ad82173f27a61b0dc6c8e598ec9a38402a1e44
 '
 #
 Fetch
@@ -188,9 +188,9 @@ version
 :
 12
 .
-20230416
+20230418
 .
-3
+1
 .
 1
 '
@@ -297,11 +297,11 @@ re_client_version
 :
 0
 .
-100
+101
 .
-2
+0
 .
-1c70bb9
+6210d0d
 -
 gomaip
 '
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-b0b9a54800aa0aa16b22a1dfa147e5b14c3d4327
+0e64bd836cbeabd2d8c1a2bf051e8c174b8306bf
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-df52d5599b4814c4aa9c631717d85acc5a3736d8
+4f3137b8573d56834c497ace0712e2b544730d5d
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-d709f875a5039737024a88b0c049f0a6605e1ed1
+1dc2ca9a51fb0f8acbb0e6c11aeba4e0c48f4f40
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-f7e037f8aca14dff64b484527fa0777bb526ce43
+f164f34d6722d89852bbb1120b81343f9fae7902
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-35266ea8ed085c1e4e78d5f6fa6be3ceee78e4d0
+5b41349b84947dfccb408a18ec8521ba38874a16
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-9fc458fa0466698685818ddcaba102089deebffb
+fc2eaa26386b7b5adcdb48d9910e2e0100f554f2
 '
 '
 src
@@ -956,7 +956,7 @@ project
 libcxx
 .
 git
-7df372d6fd11d11382866df8f549b352ef2a6520
+8551b86d1ce13c9edbaf8433b0315b934b3c6081
 '
 '
 src
@@ -999,7 +999,7 @@ project
 libcxxabi
 .
 git
-0123281f7b7aebd09d5309cacf3d61758ac1ecbc
+52f3977ecbffcd1236de7f2e8e04e43386f9b467
 '
 '
 src
@@ -1039,7 +1039,7 @@ project
 libunwind
 .
 git
-8d636e6233d2fe155486728f1080b901a1e84da3
+46b7561cc2ff65354a8b9fce97175939420abcd6
 '
 '
 src
@@ -1331,7 +1331,7 @@ com
 boringssl
 .
 git
-58472cc752c92554343d032ab34c683005f63e30
+c466222febf86ef8e12c7926d5544354c905fce5
 '
 '
 src
@@ -1383,7 +1383,7 @@ com
 catapult
 .
 git
-ac30cc4bc7d30e574625e1f6a77fba5df0719ed6
+16c787686d0426215c851169b42a4ef990c22068
 '
 '
 src
@@ -1513,7 +1513,7 @@ tools
 depot_tools
 .
 git
-97dadd025f541f67af48417cc12ebdc00c1ad29c
+923f33d743367c44522418bde1cfc444df3ec18f
 '
 '
 src
@@ -1702,7 +1702,7 @@ third_party
 freetype2
 .
 git
-ea9fca0add69e1613eee3290e18c1f8cb4d17a43
+c4fe77c3f072fab930267f95510562e7aeb03302
 '
 '
 src
@@ -1777,7 +1777,7 @@ google
 benchmark
 .
 git
-efc89f0b524780b1994d5dddd83a92718e5be492
+b177433f3ee2513b1075140c723d73ab8901790f
 '
 }
 #
@@ -2522,7 +2522,7 @@ external
 perfetto
 .
 git
-52e8dd233b135f87fbe2495ff36d6ae30be124c4
+d4fef5be9b97f8fa00cb04a66949d8e1b27f03f9
 '
 '
 src
@@ -2552,7 +2552,7 @@ webm
 libvpx
 .
 git
-cd2ec5c3dfe53e8ea389dbc32bd99a3201f7e7ec
+27171320f5e36f7b18071bfa1d9616863ca1b4e8
 '
 '
 src
@@ -2768,7 +2768,7 @@ version
 '
 :
 '
-bkihvyDExjKlMVd5GRx1Dxfyp94xqRmUDHHQW3ZUtmAC
+8NFHPxUiooKTw4bFz4TUVhDuzuDJi5xkLGaCtjX3MsAC
 '
 }
 ]
@@ -2950,7 +2950,7 @@ chromium
 src
 /
 tools
-da0eb11679b9c884af7ba59b603df6143ef6cdeb
+8a4dada984580b9659e77b71313416226efd8ba5
 '
 '
 src
@@ -3284,7 +3284,11 @@ version
 '
 :
 '
-JJlbXbw6nZkaTao3F4UKPt4gAbq_CL7ge2ZKCaWuaZIC
+ZkYB0Q
+-
+_4rKNU
+-
+xdAsHkSLxipy6IVnPs2EenLzq4QycC
 '
 }
 ]
@@ -3905,7 +3909,7 @@ version
 '
 git_revision
 :
-8ed1f3ebaa59594f4b1abbd328296a963980e954
+265d6513a697d00cea0ab177263a4c699c46be2d
 '
 }
 {
@@ -3935,7 +3939,7 @@ version
 '
 git_revision
 :
-8ed1f3ebaa59594f4b1abbd328296a963980e954
+265d6513a697d00cea0ab177263a4c699c46be2d
 '
 }
 ]
@@ -11417,9 +11421,9 @@ version
 2
 4
 .
-4
+5
 .
-3
+1
 .
 cr1
 '
