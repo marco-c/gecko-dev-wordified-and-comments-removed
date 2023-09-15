@@ -3767,6 +3767,7 @@ RemoveGCNurseryCollectionCallback
 (
 aCx
 GCNurseryCollectionCallback
+nullptr
 )
 ;
 }

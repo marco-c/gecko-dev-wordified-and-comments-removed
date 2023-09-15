@@ -1514,6 +1514,9 @@ JSContext
 cx
 GCNurseryCollectionCallback
 callback
+void
+*
+data
 )
 ;
 typedef
