@@ -3094,7 +3094,7 @@ snapMultiplier
 StaticPrefs
 :
 :
-slider_snapMultiplier_AtStartup
+slider_snapMultiplier
 (
 )
 )
