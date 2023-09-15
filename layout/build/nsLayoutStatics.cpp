@@ -1046,7 +1046,7 @@ StartUp
 nsCSSProps
 :
 :
-AddRefTable
+Init
 (
 )
 ;
@@ -1898,13 +1898,6 @@ Shutdown
 )
 ;
 nsColorNames
-:
-:
-ReleaseTable
-(
-)
-;
-nsCSSProps
 :
 :
 ReleaseTable
