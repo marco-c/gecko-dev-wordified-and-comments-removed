@@ -23177,8 +23177,6 @@ dispatcher
 (
 *
 docToPrint
-ps
-true
 )
 ;
 nsAutoScriptBlocker

@@ -4756,8 +4756,6 @@ dispatcher
 (
 *
 sourceDocument
-printSettings
-false
 )
 ;
 nsAutoScriptBlocker
