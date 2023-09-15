@@ -231,15 +231,6 @@ sid
 0
 ;
 virtual
-bool
-ReadyToSendData
-(
-)
-const
-=
-0
-;
-virtual
 void
 OnChannelStateChanged
 (
