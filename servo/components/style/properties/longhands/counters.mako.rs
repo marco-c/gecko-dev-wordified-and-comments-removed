@@ -116,6 +116,11 @@ servo_restyle_damage
 "
 rebuild_and_reflow
 "
+affects
+=
+"
+layout
+"
 )
 }
 {
@@ -182,6 +187,11 @@ servo_restyle_damage
 =
 "
 rebuild_and_reflow
+"
+affects
+=
+"
+layout
 "
 )
 }
@@ -252,6 +262,11 @@ servo_restyle_damage
 "
 rebuild_and_reflow
 "
+affects
+=
+"
+layout
+"
 )
 }
 {
@@ -317,6 +332,11 @@ servo_restyle_damage
 =
 "
 rebuild_and_reflow
+"
+affects
+=
+"
+layout
 "
 )
 }

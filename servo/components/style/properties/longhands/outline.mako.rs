@@ -131,6 +131,11 @@ outline
 -
 color
 "
+affects
+=
+"
+paint
+"
 )
 }
 {
@@ -218,6 +223,11 @@ propdef
 outline
 -
 style
+"
+affects
+=
+"
+overflow
 "
 )
 }
@@ -308,6 +318,11 @@ outline
 -
 width
 "
+affects
+=
+"
+overflow
+"
 )
 }
 {
@@ -378,6 +393,11 @@ propdef
 outline
 -
 offset
+"
+affects
+=
+"
+overflow
 "
 )
 }

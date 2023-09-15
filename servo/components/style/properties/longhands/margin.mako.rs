@@ -219,6 +219,11 @@ servo_restyle_damage
 "
 reflow
 "
+affects
+=
+"
+layout
+"
 )
 }
 %
@@ -289,6 +294,11 @@ animation_value_type
 =
 "
 ComputedValue
+"
+affects
+=
+"
+overflow
 "
 )
 }
@@ -388,6 +398,10 @@ animation_value_type
 =
 "
 ComputedValue
+"
+affects
+=
+"
 "
 )
 }

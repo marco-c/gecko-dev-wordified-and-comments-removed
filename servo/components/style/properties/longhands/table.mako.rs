@@ -99,6 +99,11 @@ servo_restyle_damage
 "
 reflow
 "
+affects
+=
+"
+layout
+"
 )
 }
 {
@@ -147,6 +152,11 @@ none
 enabled_in
 =
 "
+"
+affects
+=
+"
+layout
 "
 )
 }
