@@ -8495,7 +8495,7 @@ WaitForConnection
 (
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -8735,7 +8735,7 @@ WaitForConnection
 (
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -9179,7 +9179,7 @@ WaitForConnection
 (
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -9622,7 +9622,7 @@ L1T2
 )
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -9852,7 +9852,7 @@ WaitForConnection
 (
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -10187,7 +10187,7 @@ WaitForConnection
 (
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -10201,7 +10201,7 @@ ms
 )
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpWithRidAndScalabilityMode
 (
@@ -10508,7 +10508,7 @@ WaitForConnection
 (
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -10892,7 +10892,7 @@ WaitForConnection
 (
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -10907,7 +10907,7 @@ ms
 )
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpWithRidAndScalabilityMode
 (
@@ -11345,7 +11345,7 @@ L1T3
 )
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -11811,7 +11811,7 @@ SetParameters
 parameters
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -11826,7 +11826,7 @@ ms
 )
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpWithRidAndScalabilityMode
 (
@@ -12637,7 +12637,7 @@ L1T3
 )
 )
 ;
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
