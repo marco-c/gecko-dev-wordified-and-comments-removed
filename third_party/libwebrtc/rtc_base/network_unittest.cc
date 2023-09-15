@@ -2001,8 +2001,6 @@ IPAddress
 )
 24
 ADAPTER_TYPE_ETHERNET
-&
-field_trials_
 )
 ;
 Network
@@ -2023,8 +2021,6 @@ IPAddress
 )
 24
 ADAPTER_TYPE_ETHERNET
-&
-field_trials_
 )
 ;
 PhysicalSocketServer
@@ -5686,8 +5682,6 @@ IPAddress
 )
 24
 ADAPTER_TYPE_WIFI
-&
-field_trials_
 )
 ;
 EXPECT_EQ
@@ -5715,8 +5709,6 @@ IPAddress
 )
 24
 ADAPTER_TYPE_ETHERNET
-&
-field_trials_
 )
 ;
 EXPECT_EQ
@@ -5745,8 +5737,6 @@ IPAddress
 )
 24
 ADAPTER_TYPE_CELLULAR
-&
-field_trials_
 )
 ;
 EXPECT_EQ
@@ -5775,8 +5765,6 @@ IPAddress
 )
 24
 ADAPTER_TYPE_VPN
-&
-field_trials_
 )
 ;
 EXPECT_EQ
@@ -5805,8 +5793,6 @@ IPAddress
 )
 24
 ADAPTER_TYPE_UNKNOWN
-&
-field_trials_
 )
 ;
 EXPECT_EQ
@@ -8061,8 +8047,6 @@ ip
 )
 64
 ADAPTER_TYPE_UNKNOWN
-&
-field_trials_
 )
 ;
 EXPECT_EQ
