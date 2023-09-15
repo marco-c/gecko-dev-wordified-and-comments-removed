@@ -3433,6 +3433,8 @@ getter_AddRefs
 (
 mDocument
 )
+nullptr
+nullptr
 aLoadedAsData
 )
 ;
@@ -3453,6 +3455,8 @@ getter_AddRefs
 (
 mDocument
 )
+nullptr
+nullptr
 aLoadedAsData
 )
 ;

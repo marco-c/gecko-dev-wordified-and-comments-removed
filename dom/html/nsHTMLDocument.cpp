@@ -640,6 +640,12 @@ Document
 *
 *
 aInstancePtrResult
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 bool
 aLoadedAsData
 )
@@ -663,6 +669,8 @@ doc
 >
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 if
@@ -804,6 +812,12 @@ nsHTMLDocument
 :
 Init
 (
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 {
 nsresult
@@ -814,6 +828,8 @@ Document
 :
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 NS_ENSURE_SUCCESS

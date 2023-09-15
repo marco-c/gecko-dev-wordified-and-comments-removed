@@ -186,6 +186,12 @@ virtual
 nsresult
 Init
 (
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 override
 ;
@@ -263,6 +269,10 @@ NS_NewXMLDocument
 (
 Document
 *
+*
+nsIPrincipal
+*
+nsIPrincipal
 *
 bool
 bool

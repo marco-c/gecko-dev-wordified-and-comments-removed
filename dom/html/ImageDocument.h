@@ -96,6 +96,12 @@ Image
 nsresult
 Init
 (
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 override
 ;

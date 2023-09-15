@@ -266,6 +266,7 @@ new
 nsNodeInfoManager
 (
 nullptr
+nullptr
 )
 ;
 return

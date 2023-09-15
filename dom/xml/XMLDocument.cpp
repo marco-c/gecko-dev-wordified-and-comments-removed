@@ -371,6 +371,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 )
 ;
 }
@@ -391,6 +393,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 )
 ;
 isHTML
@@ -415,6 +419,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 )
 ;
 }
@@ -435,6 +441,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 aLoadedAsData
 true
 )
@@ -646,6 +654,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 )
 ;
 isHTML
@@ -736,6 +746,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 )
 ;
 isHTML
@@ -781,6 +793,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 )
 ;
 }
@@ -794,6 +808,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 )
 ;
 }
@@ -816,6 +832,8 @@ getter_AddRefs
 (
 d
 )
+aPrincipal
+aPrincipal
 )
 ;
 }
@@ -873,15 +891,6 @@ d
 SetDocumentURI
 (
 aDocumentURI
-)
-;
-d
--
->
-SetPrincipals
-(
-aPrincipal
-aPrincipal
 )
 ;
 d
@@ -1100,6 +1109,12 @@ Document
 *
 *
 aInstancePtrResult
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 bool
 aLoadedAsData
 bool
@@ -1125,6 +1140,8 @@ doc
 >
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 if
@@ -1220,6 +1237,12 @@ XMLDocument
 :
 Init
 (
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 {
 nsresult
@@ -1230,6 +1253,8 @@ Document
 :
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 NS_ENSURE_SUCCESS

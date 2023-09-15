@@ -679,6 +679,12 @@ Document
 *
 *
 aResult
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 {
 auto
@@ -709,6 +715,8 @@ doc
 >
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 if

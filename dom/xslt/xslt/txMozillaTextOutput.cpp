@@ -553,6 +553,8 @@ getter_AddRefs
 (
 mDocument
 )
+nullptr
+nullptr
 aLoadedAsData
 )
 ;

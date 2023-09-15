@@ -124,6 +124,9 @@ dom
 Document
 *
 aDocument
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_NATIVE_CLASS
