@@ -373,7 +373,7 @@ string
 label
 const
 InternalDataChannelInit
-*
+&
 config
 )
 ;
@@ -449,7 +449,7 @@ string
 label
 const
 InternalDataChannelInit
-*
+&
 config
 )
 ;
