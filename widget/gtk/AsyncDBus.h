@@ -6,17 +6,6 @@ define
 mozilla_widget_AsyncDBus_h
 #
 include
-<
-dbus
-/
-dbus
--
-glib
-.
-h
->
-#
-include
 "
 mozilla
 /
