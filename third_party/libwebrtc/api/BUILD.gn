@@ -5809,7 +5809,7 @@ modules
 /
 video_coding
 :
-videocodec_test_impl
+video_codec_tester
 "
 ]
 }
