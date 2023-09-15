@@ -425,14 +425,14 @@ if
 (
 aIgnore
 .
-mMeta
+mOS
 )
 {
 modifiersMask
 &
 =
 ~
-MODIFIER_META
+MODIFIER_OS
 ;
 }
 if
@@ -637,7 +637,7 @@ if
 !
 aIgnore
 .
-mMeta
+mOS
 &
 &
 (
@@ -645,7 +645,7 @@ aEvent
 .
 modifiers
 &
-MODIFIER_META
+MODIFIER_OS
 )
 )
 {
@@ -657,7 +657,7 @@ aIgnore
 ;
 ignoreModifierState
 .
-mMeta
+mOS
 =
 true
 ;

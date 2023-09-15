@@ -2208,7 +2208,7 @@ uE03D
 code
 :
 "
-MetaLeft
+OSLeft
 "
 key
 :
@@ -2339,7 +2339,7 @@ uE053
 code
 :
 "
-MetaRight
+OSRight
 "
 key
 :

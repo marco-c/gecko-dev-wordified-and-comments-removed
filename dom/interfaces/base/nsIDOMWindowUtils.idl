@@ -2227,6 +2227,12 @@ MODIFIER_SYMBOLLOCK
 =
 0x0800
 ;
+const
+long
+MODIFIER_OS
+=
+0x1000
+;
 /
 *
 *

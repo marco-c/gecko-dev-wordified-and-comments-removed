@@ -2575,6 +2575,13 @@ keyEvent
 IsMeta
 (
 )
+|
+|
+keyEvent
+.
+IsOS
+(
+)
 )
 )
 {

@@ -3802,6 +3802,12 @@ MODIFIER_META
 return
 kMeta
 ;
+case
+MODIFIER_OS
+:
+return
+kOS
+;
 default
 :
 MOZ_CRASH

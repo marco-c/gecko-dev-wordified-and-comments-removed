@@ -460,7 +460,7 @@ bool
 mShift
 ;
 bool
-mMeta
+mOS
 ;
 IgnoreModifierState
 (
@@ -470,7 +470,7 @@ mShift
 (
 false
 )
-mMeta
+mOS
 (
 false
 )
@@ -716,6 +716,8 @@ endif
 MODIFIER_CONTROL
 |
 MODIFIER_META
+|
+MODIFIER_OS
 )
 )
 ;
@@ -749,6 +751,8 @@ MODIFIER_ALT
 MODIFIER_CONTROL
 |
 MODIFIER_META
+|
+MODIFIER_OS
 )
 )
 ;
@@ -804,6 +808,8 @@ mModifiers
 MODIFIER_ALT
 |
 MODIFIER_META
+|
+MODIFIER_OS
 |
 MODIFIER_SHIFT
 )
@@ -940,6 +946,11 @@ IsAltGraph
 |
 |
 IsMeta
+(
+)
+|
+|
+IsOS
 (
 )
 ;
@@ -1123,6 +1134,9 @@ KEY_NAME_INDEX_Hyper
 :
 case
 KEY_NAME_INDEX_Super
+:
+case
+KEY_NAME_INDEX_OS
 :
 return
 false
@@ -1804,6 +1818,9 @@ KEY_NAME_INDEX_Control
 :
 case
 KEY_NAME_INDEX_Meta
+:
+case
+KEY_NAME_INDEX_OS
 :
 case
 KEY_NAME_INDEX_Shift
