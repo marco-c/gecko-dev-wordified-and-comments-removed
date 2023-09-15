@@ -144,7 +144,7 @@ neteq
 /
 tools
 /
-neteq_packet_source_input
+neteq_rtp_dump_input
 .
 h
 "
@@ -5528,10 +5528,14 @@ StandardDecoderMap
 (
 )
 ;
-NetEqPacketSourceInput
+std
 :
 :
-RtpHeaderExtensionMap
+map
+<
+int
+RTPExtensionType
+>
 rtp_ext_map
 =
 {
@@ -5565,9 +5569,8 @@ unique_ptr
 NetEqInput
 >
 input
-(
-new
-NetEqRtpDumpInput
+=
+CreateNetEqRtpDumpInput
 (
 webrtc
 :
@@ -5591,7 +5594,6 @@ absl
 :
 :
 nullopt
-)
 )
 ;
 std

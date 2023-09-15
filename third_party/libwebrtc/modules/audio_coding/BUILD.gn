@@ -6203,7 +6203,7 @@ neteq
 /
 tools
 /
-neteq_packet_source_input
+neteq_rtp_dump_input
 .
 cc
 "
@@ -6212,7 +6212,7 @@ neteq
 /
 tools
 /
-neteq_packet_source_input
+neteq_rtp_dump_input
 .
 h
 "
