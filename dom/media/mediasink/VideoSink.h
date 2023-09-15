@@ -336,6 +336,14 @@ aInfo
 )
 override
 ;
+void
+EnableTreatAudioUnderrunAsSilence
+(
+bool
+aEnabled
+)
+override
+;
 private
 :
 virtual

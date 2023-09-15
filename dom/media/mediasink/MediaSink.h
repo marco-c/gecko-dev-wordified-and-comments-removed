@@ -316,6 +316,15 @@ aInfo
 )
 {
 }
+virtual
+void
+EnableTreatAudioUnderrunAsSilence
+(
+bool
+aEnabled
+)
+{
+}
 protected
 :
 virtual
