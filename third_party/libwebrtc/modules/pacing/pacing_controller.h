@@ -695,6 +695,10 @@ const
 bool
 fast_retransmissions_
 ;
+const
+bool
+keyframe_flushing_
+;
 DataSize
 transport_overhead_per_packet_
 ;
