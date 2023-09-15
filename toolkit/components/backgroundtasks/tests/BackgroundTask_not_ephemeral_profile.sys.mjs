@@ -121,7 +121,7 @@ taskModule
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -136,7 +136,9 @@ backgroundtasks
 /
 BackgroundTask_backgroundtask_specific_pref
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

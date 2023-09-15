@@ -1483,7 +1483,7 @@ imported
 =
 ChromeUtils
 .
-import
+importESModule
 (
 resource
 :
@@ -1497,7 +1497,9 @@ configurations
 setName
 }
 .
-jsm
+sys
+.
+mjs
 )
 ;
 imported

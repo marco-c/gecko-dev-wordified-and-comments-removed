@@ -10,7 +10,7 @@ AddressParser
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ shared
 /
 AddressParser
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
