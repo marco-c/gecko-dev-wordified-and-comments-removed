@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-1cc6fa230cec4bb5da3b4033782a1b300b863ca3
+0ed338af5992c0ba7b22af1b4ca9686680973101
 '
 #
 Fetch
@@ -188,9 +188,9 @@ version
 :
 12
 .
-20230421
+20230424
 .
-1
+0
 .
 1
 '
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-a7ef445859093307082bc2a142e556761fb5f1a4
+e6be8e9377c7f81877da7da7f4a95959d28d1067
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-8e40aaeb1bb0524280b6ce80352db122dcf94dab
+61c4b1021222ae2951ebc26b6d6e27a240f38174
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-8d06fc2ffa7fff67711b3c5eb4b6660a82329653
+539a6f68735c631f57ae33096e9e7fc059e049cf
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-49f40887aa6e1dc78724597cbf175205bc89aa29
+8de181f5142520eed2ae56477304bcd3235b2550
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-75567f4546b953d870e53f61ddda866bea6cd57b
+f882a7628e007f9c0bf8b999b2396d44e72089e0
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-6b423834d7234893334399becb9317320f673190
+cb50f5634807916a015e2980195c254c77e27bbf
 '
 '
 src
@@ -999,7 +999,7 @@ project
 libcxxabi
 .
 git
-64d1adcc575cb29aaac48eb7e8ed04be8504ebf6
+307bd163607c315d46103ebe1d68aab44bf93986
 '
 '
 src
@@ -1039,7 +1039,7 @@ project
 libunwind
 .
 git
-665c2e5429bbc122054d2327231affe389b87529
+2795322d57001de8125cfdf18cef804acff69e35
 '
 '
 src
@@ -1383,7 +1383,7 @@ com
 catapult
 .
 git
-f7a8b55f34deeafae172884f97b312f1b18fd2db
+1aa5adbafbaf89278ef54e8f9fff97aee3e013ba
 '
 '
 src
@@ -1513,7 +1513,7 @@ tools
 depot_tools
 .
 git
-dec6fddc86f66df64d698ebf402ef83f4e57843e
+b5cec8c8674bbf180cb47a6705cd5f4545fb11a0
 '
 '
 src
@@ -2521,7 +2521,7 @@ external
 perfetto
 .
 git
-26b08771635aa44efa337d344336008dbcb65cdf
+df2191d9cee86c9ccdbaf7e33e7c2b4827e40631
 '
 '
 src
@@ -2767,9 +2767,7 @@ version
 '
 :
 '
-lCPwGCprok6_HL
--
-cm8IStyKRbdF6wcFvXg74WOk3mmcC
+mu27kPnuYTyTcrYhwSspdFJzOk80SoL06gL4moSrRX0C
 '
 }
 ]
@@ -2951,7 +2949,7 @@ chromium
 src
 /
 tools
-2a1c696af952624cf2d1998a20998f76438e5280
+94fc7fddeaf179c4cc3c0e80aaa9227ab4c8d22b
 '
 '
 src
@@ -3285,7 +3283,7 @@ version
 '
 :
 '
-SwHpo0FCFofvEZpR__XSzcR2q_dGqrg1jn9rKk_39F0C
+Xr9rKdTdUa_ff71h70q7PVWPHHprzJukfUSQCOFXvf0C
 '
 }
 ]
@@ -3910,7 +3908,7 @@ version
 '
 git_revision
 :
-56489f37e8efab64d8b92670e35c1122634b9cae
+e91834850a06011c64eb9a24f317371194bde3de
 '
 }
 {
@@ -3940,7 +3938,7 @@ version
 '
 git_revision
 :
-56489f37e8efab64d8b92670e35c1122634b9cae
+e91834850a06011c64eb9a24f317371194bde3de
 '
 }
 ]
