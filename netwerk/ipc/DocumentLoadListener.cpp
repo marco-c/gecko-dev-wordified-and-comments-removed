@@ -11857,8 +11857,10 @@ nsresult
 aStatus
 )
 {
-auto
-*
+RefPtr
+<
+CanonicalBrowsingContext
+>
 bc
 =
 GetDocumentBrowsingContext

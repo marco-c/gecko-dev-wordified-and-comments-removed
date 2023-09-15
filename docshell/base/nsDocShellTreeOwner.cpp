@@ -3871,8 +3871,10 @@ drop
 )
 )
 {
+nsCOMPtr
+<
 nsIWebNavigation
-*
+>
 webnav
 =
 static_cast

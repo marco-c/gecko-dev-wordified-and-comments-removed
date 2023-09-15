@@ -1995,8 +1995,10 @@ attempt
 )
 ;
 }
+RefPtr
+<
 CanonicalBrowsingContext
-*
+>
 targetBC
 =
 aTargetBC
@@ -2195,8 +2197,10 @@ attempt
 )
 ;
 }
+RefPtr
+<
 CanonicalBrowsingContext
-*
+>
 targetBC
 =
 aLoadState
@@ -7374,6 +7378,12 @@ SetLoadType
 LOAD_NORMAL_REPLACE
 )
 ;
+RefPtr
+<
+CanonicalBrowsingContext
+>
+topBC
+=
 BrowsingContext
 (
 )
@@ -7382,6 +7392,8 @@ BrowsingContext
 Top
 (
 )
+;
+topBC
 -
 >
 LoadURI

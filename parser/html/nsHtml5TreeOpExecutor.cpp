@@ -4508,8 +4508,10 @@ mDocShell
 return
 ;
 }
+RefPtr
+<
 nsDocShell
-*
+>
 docShell
 =
 static_cast
