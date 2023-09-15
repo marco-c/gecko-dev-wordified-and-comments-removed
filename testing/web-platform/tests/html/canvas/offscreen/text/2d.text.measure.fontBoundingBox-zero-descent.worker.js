@@ -38,6 +38,10 @@ Testing
 fontBoundingBox
 for
 OffscreenCanvas
+with
+zero
+descent
+metric
 "
 )
 ;
@@ -109,6 +113,8 @@ FontFace
 (
 "
 CanvasTest
+-
+descent0
 "
 "
 url
@@ -118,6 +124,8 @@ url
 fonts
 /
 CanvasTest
+-
+descent0
 .
 ttf
 '
@@ -172,6 +180,8 @@ font
 '
 40px
 CanvasTest
+-
+descent0
 '
 ;
 ctx
@@ -231,7 +241,7 @@ A
 )
 .
 fontBoundingBoxDescent
-10
+0
 "
 ctx
 .
@@ -245,7 +255,7 @@ A
 fontBoundingBoxDescent
 "
 "
-10
+0
 "
 )
 ;
@@ -291,7 +301,7 @@ ABCD
 )
 .
 fontBoundingBoxDescent
-10
+0
 "
 ctx
 .
@@ -305,7 +315,7 @@ ABCD
 fontBoundingBoxDescent
 "
 "
-10
+0
 "
 )
 ;
