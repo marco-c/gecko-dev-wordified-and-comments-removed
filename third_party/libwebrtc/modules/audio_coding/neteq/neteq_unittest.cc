@@ -5565,9 +5565,14 @@ unique_ptr
 NetEqInput
 >
 input
-(
-new
-NetEqRtpDumpInput
+=
+std
+:
+:
+make_unique
+<
+NetEqPacketSourceInput
+>
 (
 webrtc
 :
@@ -5591,7 +5596,6 @@ absl
 :
 :
 nullopt
-)
 )
 ;
 std
