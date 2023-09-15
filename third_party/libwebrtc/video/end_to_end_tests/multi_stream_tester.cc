@@ -187,6 +187,15 @@ encoder_settings
 .
 h
 "
+#
+include
+"
+test
+/
+video_test_constants
+.
+h
+"
 namespace
 webrtc
 {
@@ -727,7 +736,7 @@ local_ssrc
 test
 :
 :
-CallTest
+VideoTestConstants
 :
 :
 kReceiverLocalVideoSsrc
