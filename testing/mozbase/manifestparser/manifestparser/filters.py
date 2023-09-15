@@ -2831,29 +2831,16 @@ For
 example
 :
     
-.
-.
-code
--
-block
-:
-:
-toml
-        
 [
-'
 test_foobar
 .
 html
-'
 ]
-        
+    
 tags
 =
-'
 foo
 bar
-'
     
 :
 param
@@ -2998,23 +2985,20 @@ code
 block
 :
 :
-toml
+ini
         
 [
-'
 test_foobar
 .
 html
-'
 ]
         
 fail
 -
 if
 =
-'
+          
 keyword
-'
 #
 <
 comment
