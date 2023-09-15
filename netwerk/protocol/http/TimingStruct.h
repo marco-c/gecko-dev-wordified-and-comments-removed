@@ -56,6 +56,9 @@ responseStart
 TimeStamp
 responseEnd
 ;
+TimeStamp
+transactionPending
+;
 }
 ;
 struct
@@ -78,17 +81,11 @@ transferSize
 uint64_t
 encodedBodySize
 ;
-nsCString
-protocolVersion
-;
 TimeStamp
 cacheReadStart
 ;
 TimeStamp
 cacheReadEnd
-;
-TimeStamp
-connectionPending
 ;
 }
 ;

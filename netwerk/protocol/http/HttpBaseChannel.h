@@ -3638,9 +3638,6 @@ TimeStamp
 mCacheReadEnd
 ;
 TimeStamp
-mTransactionPendingTime
-;
-TimeStamp
 mLaunchServiceWorkerStart
 ;
 TimeStamp
