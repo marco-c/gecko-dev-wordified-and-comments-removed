@@ -102,15 +102,6 @@ jsrust_shared
 gluesmith
 '
 ]
-icu4x
-=
-[
-'
-jsrust_shared
-/
-icu4x
-'
-]
 [
 dependencies
 ]

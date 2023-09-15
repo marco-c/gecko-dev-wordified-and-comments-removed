@@ -193,9 +193,6 @@ new_level
 ;
 min_level
 =
-cmp
-:
-:
 min
 (
 run_level
@@ -204,9 +201,6 @@ min_level
 ;
 max_level
 =
-cmp
-:
-:
 max
 (
 run_level

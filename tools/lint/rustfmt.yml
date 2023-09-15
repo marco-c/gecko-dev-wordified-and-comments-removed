@@ -55,11 +55,6 @@ wr
 wr_malloc_size_of
 /
 -
-intl
-/
-icu_testdata
-/
--
 media
 /
 mp4parse

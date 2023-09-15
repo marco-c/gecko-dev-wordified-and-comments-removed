@@ -183,13 +183,6 @@ wrapper
 .
 properties
 #
-ICU4X
-data
--
-intl
-/
-icu_testdata
-#
 Imported
 code
 that
