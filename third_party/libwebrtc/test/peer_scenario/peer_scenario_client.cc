@@ -251,6 +251,15 @@ include
 "
 test
 /
+create_frame_generator_capturer
+.
+h
+"
+#
+include
+"
+test
+/
 fake_decoder
 .
 h
@@ -2121,10 +2130,7 @@ res
 auto
 capturer
 =
-FrameGeneratorCapturer
-:
-:
-Create
+CreateFrameGeneratorCapturer
 (
 clock
 (

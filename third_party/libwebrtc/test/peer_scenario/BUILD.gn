@@ -161,6 +161,12 @@ deps
 .
 .
 :
+create_frame_generator_capturer
+"
+"
+.
+.
+:
 fake_video_codecs
 "
 "
