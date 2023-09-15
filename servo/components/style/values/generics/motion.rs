@@ -629,7 +629,7 @@ inline
 ]
 pub
 fn
-auto
+normal
 (
 )
 -
@@ -639,6 +639,6 @@ Self
 Self
 :
 :
-Auto
+Normal
 }
 }

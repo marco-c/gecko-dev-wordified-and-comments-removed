@@ -88659,14 +88659,14 @@ initial_values
 :
 [
 "
-auto
+normal
 "
 ]
 other_values
 :
 [
 "
-normal
+auto
 "
 "
 left

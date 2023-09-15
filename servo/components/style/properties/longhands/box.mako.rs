@@ -1887,7 +1887,7 @@ computed
 OffsetPosition
 :
 :
-auto
+normal
 (
 )
 "
