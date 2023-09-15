@@ -14061,7 +14061,7 @@ uri4
 TEST_F
 (
 MediaSessionDescriptionFactoryTest
-AppendsStoppedExtensionIfKnownAndPresentInTheOffer
+AllowsStoppedExtensionsToBeRemovedFromSubsequentOffer
 )
 {
 MediaSessionOptions
@@ -14115,7 +14115,7 @@ RtpHeaderExtensionCapability
 "
 uri2
 "
-1
+2
 RtpTransceiverDirection
 :
 :
@@ -14227,17 +14227,6 @@ RtpExtension
 uri
 "
 uri1
-"
-)
-Field
-(
-&
-RtpExtension
-:
-:
-uri
-"
-uri2
 "
 )
 )
