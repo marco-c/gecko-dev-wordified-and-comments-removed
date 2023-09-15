@@ -274,6 +274,15 @@ private
 struct
 HelperContainers
 ;
+void
+UpdateSourceCountStats
+(
+)
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+mutex_
+)
+;
 rtc
 :
 :
@@ -345,6 +354,11 @@ mutex_
 ;
 FrameCombiner
 frame_combiner_
+;
+size_t
+max_source_count_ever_
+=
+0
 ;
 }
 ;
