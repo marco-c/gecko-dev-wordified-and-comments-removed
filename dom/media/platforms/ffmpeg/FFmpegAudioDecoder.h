@@ -83,9 +83,9 @@ FFmpegLibWrapper
 *
 aLib
 const
-AudioInfo
+CreateDecoderParams
 &
-aInfo
+aDecoderParams
 )
 ;
 virtual
