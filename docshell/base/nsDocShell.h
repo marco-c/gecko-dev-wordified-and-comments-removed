@@ -3347,6 +3347,14 @@ aEqualURIs
 ;
 private
 :
+void
+SetCurrentURIInternal
+(
+nsIURI
+*
+aURI
+)
+;
 nsString
 mTitle
 ;

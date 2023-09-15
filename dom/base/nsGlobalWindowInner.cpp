@@ -20092,9 +20092,6 @@ dom
 Location
 (
 this
-GetBrowsingContext
-(
-)
 )
 ;
 }
