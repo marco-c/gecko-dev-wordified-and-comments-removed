@@ -3942,6 +3942,12 @@ if
 (
 !
 observer_
+|
+|
+state_
+!
+=
+kOpen
 )
 {
 return
