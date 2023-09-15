@@ -7871,12 +7871,12 @@ EXPECT_EQ
 (
 original_report_block
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 logged_report_block
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )

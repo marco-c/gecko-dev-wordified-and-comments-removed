@@ -10310,7 +10310,7 @@ EXPECT_EQ
 (
 rtcp_block
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 report_block

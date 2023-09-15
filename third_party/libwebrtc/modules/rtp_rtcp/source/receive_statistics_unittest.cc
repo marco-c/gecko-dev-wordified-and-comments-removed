@@ -1739,7 +1739,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
@@ -1897,7 +1897,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
@@ -2055,7 +2055,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
@@ -2213,7 +2213,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
@@ -2309,7 +2309,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
@@ -2449,7 +2449,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
@@ -2545,7 +2545,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
@@ -2702,7 +2702,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
@@ -2875,7 +2875,7 @@ report_blocks
 0
 ]
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )
