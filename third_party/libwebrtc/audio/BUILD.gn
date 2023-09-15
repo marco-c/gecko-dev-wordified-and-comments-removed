@@ -1038,7 +1038,7 @@ modules
 /
 audio_device
 :
-audio_device_impl
+test_audio_device_module
 "
 "
 .

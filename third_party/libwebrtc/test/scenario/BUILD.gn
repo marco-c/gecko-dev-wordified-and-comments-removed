@@ -936,7 +936,7 @@ modules
 /
 audio_device
 :
-audio_device_impl
+mock_audio_device
 "
 "
 .
@@ -949,7 +949,7 @@ modules
 /
 audio_device
 :
-mock_audio_device
+test_audio_device_module
 "
 "
 .
