@@ -406,7 +406,7 @@ strict
 format
 =
 %
-ad
+cd
 "
                     
 tag
