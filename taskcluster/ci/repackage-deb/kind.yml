@@ -191,7 +191,7 @@ in
 -
 tree
 :
-debian11
+debian12
 -
 repackage
 mozharness
