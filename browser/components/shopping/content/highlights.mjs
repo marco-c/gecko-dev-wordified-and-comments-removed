@@ -250,6 +250,8 @@ competitiveness
 [
 "
 packaging
+/
+appearance
 "
 "
 shopping

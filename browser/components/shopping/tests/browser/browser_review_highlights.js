@@ -58,6 +58,11 @@ quality
 "
 competitiveness
 "
+"
+packaging
+/
+appearance
+"
 ]
 ;
 let
@@ -173,7 +178,14 @@ querySelector
 (
 #
 {
+content
+.
+CSS
+.
+escape
+(
 key
+)
 }
 )
 ;
