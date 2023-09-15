@@ -30,13 +30,6 @@ Option
 <
 String
 >
-pub
-locale
-:
-Option
-<
-String
->
 }
 impl
 ClientInfoMetrics
@@ -71,9 +64,6 @@ to_string
 (
 )
 channel
-:
-None
-locale
 :
 None
 }
@@ -121,11 +111,6 @@ channel
 metrics
 .
 channel
-locale
-:
-metrics
-.
-locale
 os_version
 :
 system

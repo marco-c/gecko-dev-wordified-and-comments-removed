@@ -4154,6 +4154,8 @@ None
 let
 timestamps
 =
+vec
+!
 [
 20
 40
@@ -4478,6 +4480,8 @@ None
 let
 timestamps
 =
+vec
+!
 [
 20
 40
@@ -4488,6 +4492,8 @@ timestamps
 let
 ecs
 =
+vec
+!
 [
 0
 1
@@ -5020,6 +5026,8 @@ None
 let
 timestamps
 =
+vec
+!
 [
 20
 40
@@ -5030,6 +5038,8 @@ timestamps
 let
 ecs
 =
+vec
+!
 [
 0
 1

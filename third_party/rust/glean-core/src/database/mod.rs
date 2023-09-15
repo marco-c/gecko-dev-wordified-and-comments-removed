@@ -5596,6 +5596,8 @@ single_metric
 let
 lifetimes
 =
+vec
+!
 [
 Lifetime
 :
