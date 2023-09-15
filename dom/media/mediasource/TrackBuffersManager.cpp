@@ -9221,6 +9221,14 @@ mSourceBufferAttributes
 GetTimestampOffset
 (
 )
+.
+ToBase
+(
+sample
+-
+>
+mTime
+)
 ;
 sampleInterval
 =
