@@ -1148,10 +1148,7 @@ dom
 Element
 *
 aChild
-nsBaseContentList
-:
-:
-FlagsType
+NodeSelectorFlags
 aParentFlags
 )
 ;

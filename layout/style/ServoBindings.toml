@@ -468,6 +468,9 @@ mozilla
 :
 OriginFlags
 "
+"
+NodeSelectorFlags
+"
 ]
 rusty
 -
@@ -1974,6 +1977,9 @@ nsStyleTransformMatrix
 :
 :
 MatrixTransformOperator
+"
+"
+NodeSelectorFlags
 "
 ]
 opaque
