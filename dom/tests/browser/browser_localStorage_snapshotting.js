@@ -2,7 +2,7 @@ const
 HELPER_PAGE_URL
 =
 "
-http
+https
 :
 /
 /
@@ -27,7 +27,7 @@ const
 HELPER_PAGE_ORIGIN
 =
 "
-http
+https
 :
 /
 /
