@@ -16037,12 +16037,6 @@ case
 StyleAppearance
 :
 :
-CheckboxContainer
-:
-case
-StyleAppearance
-:
-:
 Radio
 :
 case
