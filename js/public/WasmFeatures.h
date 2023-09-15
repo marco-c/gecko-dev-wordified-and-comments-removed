@@ -915,7 +915,7 @@ compiler
 predicate
 *
 /
-BaselineAvailable
+AnyCompilerAvailable
 (
 cx
 )
@@ -926,11 +926,7 @@ flag
 predicate
 *
 /
-!
-IsFuzzingIon
-(
-cx
-)
+true
 \
 /
 *

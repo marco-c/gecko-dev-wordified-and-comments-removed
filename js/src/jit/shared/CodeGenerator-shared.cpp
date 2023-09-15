@@ -335,6 +335,10 @@ Value
 returnLabel_
 (
 )
+inboundStackArgBytes_
+(
+0
+)
 nativeToBytecodeMap_
 (
 nullptr

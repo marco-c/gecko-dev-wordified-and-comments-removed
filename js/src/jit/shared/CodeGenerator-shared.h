@@ -211,6 +211,9 @@ invalidateEpilogueData_
 NonAssertingLabel
 returnLabel_
 ;
+uint32_t
+inboundStackArgBytes_
+;
 js
 :
 :

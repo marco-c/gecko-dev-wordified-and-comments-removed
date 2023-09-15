@@ -10283,6 +10283,13 @@ false
 -
 name
 :
+WasmReturnCall
+gen_boilerplate
+:
+false
+-
+name
+:
 WasmSelect
 gen_boilerplate
 :
