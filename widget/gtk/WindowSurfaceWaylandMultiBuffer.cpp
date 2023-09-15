@@ -1172,6 +1172,12 @@ moz_container_wayland_set_scale_factor_locked
 (
 aProofOfLock
 container
+mWindow
+-
+>
+GdkCeiledScaleFactor
+(
+)
 )
 ;
 if
