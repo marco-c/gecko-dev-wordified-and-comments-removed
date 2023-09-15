@@ -93,6 +93,11 @@ reconfig
 =
 false
 ;
+bool
+zero_checksum
+=
+false
+;
 uint16_t
 negotiated_maximum_incoming_streams
 =
