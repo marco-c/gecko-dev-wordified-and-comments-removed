@@ -609,14 +609,6 @@ extern
 bool
 enableArrayBufferTransfer
 ;
-extern
-bool
-enablePrivateClassFields
-;
-extern
-bool
-enablePrivateClassMethods
-;
 #
 ifdef
 ENABLE_NEW_SET_METHODS
@@ -626,10 +618,6 @@ enableNewSetMethods
 ;
 #
 endif
-extern
-bool
-enableClassStaticBlocks
-;
 extern
 bool
 enableImportAssertions
