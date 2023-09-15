@@ -49,11 +49,8 @@ AllowCompilerWarnings
 FINAL_LIBRARY
 =
 '
-gkcodecs
+gkmedias
 '
-NoVisibilityFlags
-(
-)
 DEFINES
 [
 '

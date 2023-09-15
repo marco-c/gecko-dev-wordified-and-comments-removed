@@ -1063,6 +1063,11 @@ VideoUtils
 h
 "
 "
+VorbisUtils
+.
+h
+"
+"
 WavDumper
 .
 h

@@ -205,13 +205,6 @@ n
 "
 race
 :
-vorbis_synthesis_init
-\
-n
-"
-"
-race
-:
 g_main_context_dispatch
 \
 n

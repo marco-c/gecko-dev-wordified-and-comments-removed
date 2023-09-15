@@ -995,11 +995,6 @@ const
 bool
 mIsMediaSource
 ;
-bool
-mProcessedDiscardPadding
-=
-false
-;
 EncryptionInfo
 mCrypto
 ;

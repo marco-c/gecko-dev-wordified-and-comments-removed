@@ -271,11 +271,6 @@ film_grain_params
 c
 '
 '
-hdr_dynamic_metadata
-.
-c
-'
-'
 integer
 .
 c

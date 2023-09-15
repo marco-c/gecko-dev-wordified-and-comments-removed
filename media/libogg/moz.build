@@ -76,11 +76,8 @@ ogg_sources
 FINAL_LIBRARY
 =
 '
-gkcodecs
+gkmedias
 '
-NoVisibilityFlags
-(
-)
 include
 (
 '

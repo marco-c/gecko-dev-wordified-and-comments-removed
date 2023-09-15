@@ -309,12 +309,11 @@ media
 :
 TimeUnit
 ;
-using
-AppendState
-=
+typedef
 SourceBufferAttributes
 :
 :
+AppendState
 AppendState
 ;
 namespace

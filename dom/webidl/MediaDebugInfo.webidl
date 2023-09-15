@@ -820,7 +820,6 @@ waitingForKey
 false
 ;
 long
-long
 lastStreamSourceID
 =
 0

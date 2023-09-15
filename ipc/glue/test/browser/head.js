@@ -598,7 +598,7 @@ Generic
 decoder
 :
 "
-ffvpx
+vorbis
 audio
 decoder
 "
@@ -615,7 +615,7 @@ Generic
 decoder
 :
 "
-ffvpx
+vorbis
 audio
 decoder
 "
@@ -632,7 +632,7 @@ Generic
 decoder
 :
 "
-ffvpx
+vorbis
 audio
 decoder
 "
@@ -649,7 +649,7 @@ Generic
 decoder
 :
 "
-ffvpx
+vorbis
 audio
 decoder
 "
