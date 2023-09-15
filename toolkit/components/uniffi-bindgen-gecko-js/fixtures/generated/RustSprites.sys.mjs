@@ -1848,7 +1848,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-86
+84
 /
 /
 sprites
@@ -2041,7 +2041,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-87
+85
 /
 /
 sprites
@@ -2135,7 +2135,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-88
+86
 /
 /
 sprites
@@ -2254,7 +2254,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-89
+87
 /
 /
 sprites
@@ -2379,7 +2379,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-90
+88
 /
 /
 sprites
@@ -3484,7 +3484,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-91
+89
 /
 /
 sprites
