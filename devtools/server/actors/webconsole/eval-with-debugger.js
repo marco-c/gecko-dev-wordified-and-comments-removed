@@ -441,6 +441,12 @@ hideFromDebugger
 =
 true
 ;
+evalOptions
+.
+useInnerBindings
+=
+true
+;
 }
 updateConsoleInputEvaluation
 (
