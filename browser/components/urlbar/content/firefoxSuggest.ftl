@@ -1083,9 +1083,9 @@ brand
 -
 name
 =
-Mozilla
-Developer
-Network
+MDN
+Web
+Docs
 #
 This
 string
