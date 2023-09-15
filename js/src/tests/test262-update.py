@@ -251,19 +251,6 @@ decorators
 "
     
 "
-Array
-.
-fromAsync
-"
-:
-"
-!
-Array
-.
-fromAsync
-"
-    
-"
 String
 .
 prototype
@@ -385,24 +372,6 @@ enable
 array
 -
 grouping
-"
-    
-"
-Array
-.
-fromAsync
-"
-:
-"
--
--
-enable
--
-array
--
-from
--
-async
 "
     
 "
