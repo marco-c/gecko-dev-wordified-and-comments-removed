@@ -16698,9 +16698,13 @@ prim_instances
 &
 target
 .
+clip_masks
+.
 mask_instances_fast
 &
 target
+.
+clip_masks
 .
 mask_instances_slow
 &
@@ -16710,9 +16714,13 @@ prim_instances_with_scissor
 &
 target
 .
+clip_masks
+.
 mask_instances_fast_with_scissor
 &
 target
+.
+clip_masks
 .
 mask_instances_slow_with_scissor
 projection
