@@ -1240,7 +1240,7 @@ rc_target_bitrate
 =
 encoder_settings_
 .
-maxBitrate
+startBitrate
 ;
 cfg_
 .

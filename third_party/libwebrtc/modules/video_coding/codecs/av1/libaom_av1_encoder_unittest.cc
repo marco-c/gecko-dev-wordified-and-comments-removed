@@ -211,7 +211,7 @@ maxFramerate
 ;
 codec_settings
 .
-maxBitrate
+startBitrate
 =
 1000
 ;
@@ -912,7 +912,7 @@ kL3T1
 ;
 codec_settings
 .
-maxBitrate
+startBitrate
 =
 allocation
 .
@@ -1142,7 +1142,7 @@ height
 ;
 codec_settings
 .
-maxBitrate
+startBitrate
 =
 allocation
 .
@@ -1595,7 +1595,7 @@ DefaultCodecSettings
 ;
 codec_settings
 .
-maxBitrate
+startBitrate
 =
 allocation
 .
@@ -2252,7 +2252,7 @@ kL1T1
 ;
 codec_settings
 .
-maxBitrate
+startBitrate
 =
 300
 ;
@@ -2296,7 +2296,7 @@ kTargetBitrateBps
 =
 codec_settings
 .
-maxBitrate
+startBitrate
 *
 1000
 ;
