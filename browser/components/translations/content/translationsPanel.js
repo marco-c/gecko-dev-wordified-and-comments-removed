@@ -4074,6 +4074,18 @@ appMenuButton
 .
 id
 ;
+panel
+.
+addEventListener
+(
+"
+ViewShown
+"
+(
+)
+=
+>
+{
 TranslationsParent
 .
 telemetry
@@ -4090,6 +4102,8 @@ onOpen
 maintainFlow
 openedFromAppMenu
 isFirstUserInteraction
+}
+)
 }
 )
 ;
