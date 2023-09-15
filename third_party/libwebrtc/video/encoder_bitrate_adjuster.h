@@ -185,6 +185,12 @@ min_bitrates_bps_
 kMaxSpatialLayers
 ]
 ;
+VideoCodecType
+codec_
+;
+VideoCodecMode
+codec_mode_
+;
 }
 ;
 }
