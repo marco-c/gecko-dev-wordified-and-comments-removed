@@ -53,9 +53,7 @@ computed
 Color
 :
 :
-transparent
-(
-)
+TRANSPARENT
 "
 engines
 =
