@@ -73,10 +73,6 @@ SctpPacket
 Builder
 &
 builder
-bool
-write_checksum
-=
-true
 )
 ;
 private

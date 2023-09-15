@@ -508,10 +508,6 @@ packet_sender_
 Send
 (
 builder
-!
-capabilities_
-.
-zero_checksum
 )
 ;
 }

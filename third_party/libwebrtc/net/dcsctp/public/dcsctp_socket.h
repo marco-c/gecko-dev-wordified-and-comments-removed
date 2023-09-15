@@ -620,11 +620,6 @@ uses_message_interleaving
 =
 false
 ;
-bool
-uses_zero_checksum
-=
-false
-;
 uint16_t
 negotiated_maximum_incoming_streams
 =
