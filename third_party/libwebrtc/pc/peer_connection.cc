@@ -3187,6 +3187,12 @@ PrepareForShutdown
 )
 ;
 }
+data_channel_controller_
+.
+PrepareForShutdown
+(
+)
+;
 if
 (
 rtp_manager
