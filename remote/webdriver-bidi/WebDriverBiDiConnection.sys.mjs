@@ -611,6 +611,11 @@ this
 send
 (
 {
+type
+:
+"
+error
+"
 id
 error
 :
@@ -717,6 +722,11 @@ this
 send
 (
 {
+type
+:
+"
+event
+"
 method
 params
 }
@@ -852,6 +862,11 @@ this
 send
 (
 {
+type
+:
+"
+success
+"
 id
 result
 }
