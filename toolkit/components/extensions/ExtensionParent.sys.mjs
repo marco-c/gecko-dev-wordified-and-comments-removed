@@ -10758,7 +10758,7 @@ invoked
 .
 async
 function
-promiseExtensionViewLoaded
+promiseBackgroundViewLoaded
 (
 browser
 )
@@ -10777,7 +10777,7 @@ messageManager
 "
 Extension
 :
-ExtensionViewLoaded
+BackgroundViewLoaded
 "
 )
 ;
@@ -13483,7 +13483,7 @@ ParentAPIManager
 StartupCache
 WebExtensionPolicy
 apiManager
-promiseExtensionViewLoaded
+promiseBackgroundViewLoaded
 watchExtensionProxyContextLoad
 watchExtensionWorkerContextLoaded
 DebugUtils
