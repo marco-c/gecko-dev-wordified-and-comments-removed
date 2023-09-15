@@ -12677,7 +12677,7 @@ browser_style_mv3
 .
 supported
 "
-true
+false
 )
 ;
 pref
