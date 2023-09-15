@@ -133,7 +133,7 @@ size_t
 span_samples
 ;
 size_t
-span_samples_no_dtx
+span_samples_wait_time
 ;
 size_t
 num_packets

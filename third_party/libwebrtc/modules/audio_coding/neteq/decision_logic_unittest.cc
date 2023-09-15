@@ -215,7 +215,7 @@ status
 .
 packet_buffer_info
 .
-span_samples_no_dtx
+span_samples_wait_time
 =
 current_delay_ms
 *
