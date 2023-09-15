@@ -4263,6 +4263,14 @@ NeedToApplyFilter
 )
 ;
 }
+public
+:
+gfxFontGroup
+*
+GetCurrentFontStyle
+(
+)
+;
 protected
 :
 enum
@@ -4275,12 +4283,6 @@ FILL
 STROKE
 MEASURE
 }
-;
-gfxFontGroup
-*
-GetCurrentFontStyle
-(
-)
 ;
 TextMetrics
 *

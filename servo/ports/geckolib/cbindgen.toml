@@ -1402,6 +1402,13 @@ gfxFontFeatureValueSet
 gfxFontFeatureValueSet
 "
 "
+GeckoFontMetrics
+"
+=
+"
+GeckoFontMetrics
+"
+"
 SeenPtrs
 "
 =
