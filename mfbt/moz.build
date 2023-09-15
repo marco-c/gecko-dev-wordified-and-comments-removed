@@ -1097,3 +1097,16 @@ LZ4LIB_VISIBILITY
 =
 "
 "
+DIRS
++
+=
+[
+"
+.
+.
+/
+build
+/
+pure_virtual
+"
+]
