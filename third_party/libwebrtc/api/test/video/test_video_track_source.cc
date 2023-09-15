@@ -101,6 +101,12 @@ Detach
 (
 )
 ;
+signaling_thread_checker_
+.
+Detach
+(
+)
+;
 }
 VideoTrackSourceInterface
 :
