@@ -209,10 +209,6 @@ Detector
 (
 int64_t
 last_packet_time_ms
-const
-FieldTrialsView
-*
-key_value_config
 )
 :
 last_packet_time_ms
@@ -225,10 +221,6 @@ inter_arrival
 *
 kTimestampGroupLengthMs
 kTimestampToMs
-)
-detector
-(
-key_value_config
 )
 {
 }
@@ -497,8 +489,6 @@ new
 Detector
 (
 now_ms
-&
-field_trials_
 )
 )
 )
