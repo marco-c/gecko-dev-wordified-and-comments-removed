@@ -332,11 +332,11 @@ ComputePassEncoder
 DispatchWorkgroups
 (
 uint32_t
-x
+workgroupCountX
 uint32_t
-y
+workgroupCountY
 uint32_t
-z
+workgroupCountZ
 )
 {
 if
@@ -350,9 +350,9 @@ ffi
 wgpu_compute_pass_dispatch_workgroups
 (
 mPass
-x
-y
-z
+workgroupCountX
+workgroupCountY
+workgroupCountZ
 )
 ;
 }

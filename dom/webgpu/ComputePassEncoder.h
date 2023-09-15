@@ -207,11 +207,11 @@ void
 DispatchWorkgroups
 (
 uint32_t
-x
+workgroupCountX
 uint32_t
-y
+workgroupCountY
 uint32_t
-z
+workgroupCountZ
 )
 ;
 void
