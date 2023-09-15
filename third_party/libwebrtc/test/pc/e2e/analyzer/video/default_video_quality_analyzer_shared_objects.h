@@ -412,6 +412,12 @@ total_delay_incl_transport_ms
 SamplesStatsCounter
 time_between_rendered_frames_ms
 ;
+SamplesStatsCounter
+time_between_captured_frames_ms
+;
+SamplesStatsCounter
+time_between_encoded_frames_ms
+;
 SamplesRateCounter
 capture_frame_rate
 ;

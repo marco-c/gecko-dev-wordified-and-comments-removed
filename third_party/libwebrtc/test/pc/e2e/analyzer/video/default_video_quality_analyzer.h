@@ -42,6 +42,11 @@ string
 #
 include
 <
+unordered_map
+>
+#
+include
+<
 vector
 >
 #
@@ -944,7 +949,7 @@ mutex_
 std
 :
 :
-map
+unordered_map
 <
 uint16_t
 FrameInFlight
@@ -996,7 +1001,7 @@ mutex_
 std
 :
 :
-map
+unordered_map
 <
 size_t
 StreamState
@@ -1010,7 +1015,7 @@ mutex_
 std
 :
 :
-map
+unordered_map
 <
 size_t
 size_t
@@ -1024,7 +1029,7 @@ mutex_
 std
 :
 :
-map
+unordered_map
 <
 size_t
 std
@@ -1044,7 +1049,7 @@ mutex_
 std
 :
 :
-map
+unordered_map
 <
 size_t
 std
