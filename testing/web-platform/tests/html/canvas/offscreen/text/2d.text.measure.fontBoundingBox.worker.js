@@ -203,7 +203,7 @@ A
 fontBoundingBoxAscent
 50
 *
-1745
+768
 /
 1024
 1
@@ -227,7 +227,7 @@ A
 fontBoundingBoxDescent
 50
 *
-805
+256
 /
 1024
 1
@@ -251,7 +251,7 @@ ABCD
 fontBoundingBoxAscent
 50
 *
-1745
+768
 /
 1024
 1
@@ -275,7 +275,7 @@ ABCD
 fontBoundingBoxDescent
 50
 *
-805
+256
 /
 1024
 1
