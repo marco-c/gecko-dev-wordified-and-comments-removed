@@ -187,7 +187,11 @@ assertIsNeverTranslateLanguage
 "
 es
 "
+{
+checked
+:
 true
+}
 )
 ;
 await
@@ -201,7 +205,11 @@ assertIsNeverTranslateLanguage
 "
 es
 "
+{
+checked
+:
 false
+}
 )
 ;
 await
