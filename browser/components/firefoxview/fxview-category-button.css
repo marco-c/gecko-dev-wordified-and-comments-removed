@@ -191,6 +191,15 @@ padding
 ;
 }
 button
+:
+hover
+{
+cursor
+:
+pointer
+;
+}
+button
 [
 selected
 ]
