@@ -26011,6 +26011,11 @@ browsingContextId
 null
 )
 {
+setFocused
+(
+true
+)
+;
 this
 .
 mWindow
