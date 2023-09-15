@@ -302,7 +302,9 @@ reprocess
 .
 sh
 <
-build
+system
+-
+symbols
 /
 public
 /

@@ -212,7 +212,9 @@ upload_symbols
 .
 py
 <
-build
+system
+-
+symbols
 /
 public
 /
