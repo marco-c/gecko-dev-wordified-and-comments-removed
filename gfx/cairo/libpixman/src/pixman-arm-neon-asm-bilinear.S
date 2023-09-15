@@ -4415,13 +4415,7 @@ unreq
 MASK
 .
 endif
-#
-ifndef
-__clang__
-.
-endfunc
-#
-endif
+pixman_end_asm_function
 .
 endm
 /

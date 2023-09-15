@@ -7291,13 +7291,7 @@ through
 .
 *
 /
-#
-ifndef
-__clang__
-.
-endfunc
-#
-endif
+pixman_end_asm_function
 generate_composite_function
 \
 pixman_composite_over_n_8888_8888_ca_asm_armv6_helper

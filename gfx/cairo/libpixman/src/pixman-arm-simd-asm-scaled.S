@@ -930,13 +930,7 @@ r10
 }
 bx
 lr
-#
-ifndef
-__clang__
-.
-endfunc
-#
-endif
+pixman_end_asm_function
 .
 endm
 generate_nearest_scanline_func
