@@ -605,15 +605,10 @@ extern
 bool
 enableArrayBufferTransfer
 ;
-#
-ifdef
-ENABLE_NEW_SET_METHODS
 extern
 bool
 enableNewSetMethods
 ;
-#
-endif
 extern
 bool
 enableImportAssertions
