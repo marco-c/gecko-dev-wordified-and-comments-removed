@@ -252,6 +252,15 @@ DOMString
 text
 ;
 [
+Pref
+=
+"
+network
+.
+fetchpriority
+.
+enabled
+"
 CEReactions
 ]
 attribute
