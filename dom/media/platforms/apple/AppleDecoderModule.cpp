@@ -923,18 +923,6 @@ false
 ;
 if
 (
-__builtin_available
-(
-macOS
-10
-.
-13
-*
-)
-)
-{
-if
-(
 !
 VTIsHardwareDecodeSupported
 )
@@ -1000,7 +988,6 @@ false
 ;
 break
 ;
-}
 }
 if
 (
