@@ -1747,6 +1747,17 @@ GetIsUnderHiddenEmbedderElement
 )
 )
 ;
+if
+(
+!
+StaticPrefs
+:
+:
+browser_zoom_siteSpecific
+(
+)
+)
+{
 txn
 .
 SetFullZoom
@@ -1765,6 +1776,7 @@ GetTextZoom
 )
 )
 ;
+}
 txn
 .
 SetDefaultLoadFlags
