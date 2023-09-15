@@ -156,15 +156,6 @@ classic
 /
 global
 /
-popup
-.
-css
-skin
-/
-classic
-/
-global
-/
 printPageSetup
 .
 css
