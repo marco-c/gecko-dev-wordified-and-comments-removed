@@ -41,7 +41,7 @@ openNewForegroundTab
 window
 .
 gBrowser
-http
+https
 :
 /
 /
@@ -130,7 +130,7 @@ query
 url
 :
 "
-http
+https
 :
 /
 /
@@ -221,7 +221,7 @@ query
 url
 :
 "
-http
+https
 :
 /
 /
@@ -305,7 +305,7 @@ query
 url
 :
 "
-http
+https
 :
 /
 /
@@ -535,7 +535,7 @@ query
 url
 :
 "
-http
+https
 :
 /
 /

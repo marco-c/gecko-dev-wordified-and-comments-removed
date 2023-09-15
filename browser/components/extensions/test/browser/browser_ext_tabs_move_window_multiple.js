@@ -38,7 +38,7 @@ const
 URL
 =
 "
-http
+https
 :
 /
 /
