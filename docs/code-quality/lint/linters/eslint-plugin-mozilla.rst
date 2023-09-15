@@ -434,6 +434,17 @@ reject
 chromeutils
 -
 import
+eslint
+-
+plugin
+-
+mozilla
+/
+reject
+-
+chromeutils
+-
+import
 -
 params
 eslint
