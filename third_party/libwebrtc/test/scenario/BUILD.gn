@@ -428,6 +428,12 @@ column_printer
 "
 .
 .
+:
+test_video_capturer
+"
+"
+.
+.
 /
 :
 fake_video_codecs

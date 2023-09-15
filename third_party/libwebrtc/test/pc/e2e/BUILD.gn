@@ -1060,13 +1060,6 @@ media_helper
 .
 h
 "
-"
-media
-/
-test_video_capturer_video_track_source
-.
-h
-"
 ]
 deps
 =
@@ -1074,6 +1067,10 @@ deps
 "
 :
 test_peer
+"
+"
+:
+test_video_capturer_video_track_source
 "
 "
 .
