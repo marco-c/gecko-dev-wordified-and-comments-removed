@@ -663,6 +663,17 @@ nsGkAtoms
 :
 longdesc
 ;
+static
+constexpr
+nsStaticAtom
+*
+HTMLPlaceholder
+=
+nsGkAtoms
+:
+:
+placeholder
+;
 #
 ifdef
 XP_WIN
