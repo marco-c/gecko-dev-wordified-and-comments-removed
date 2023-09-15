@@ -1060,13 +1060,6 @@ modules
 -
 commonjs
 "
-"
-transform
--
-react
--
-jsx
-"
 [
 "
 transform

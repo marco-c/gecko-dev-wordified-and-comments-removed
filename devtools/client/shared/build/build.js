@@ -46,13 +46,6 @@ class
 -
 properties
 "
-"
-transform
--
-react
--
-jsx
-"
 ]
 ;
 function
