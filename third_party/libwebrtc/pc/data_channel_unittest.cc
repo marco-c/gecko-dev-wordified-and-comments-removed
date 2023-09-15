@@ -423,7 +423,7 @@ if
 webrtc_data_channel_
 -
 >
-sid
+sid_s
 (
 )
 .
@@ -501,7 +501,7 @@ sid
 channel
 -
 >
-SetSctpSid
+SetSctpSid_s
 (
 sid
 )
@@ -761,7 +761,7 @@ EXPECT_EQ
 webrtc_data_channel_
 -
 >
-sid
+sid_s
 (
 )
 StreamId
@@ -789,7 +789,7 @@ EXPECT_EQ
 webrtc_data_channel_
 -
 >
-sid
+sid_s
 (
 )
 StreamId
@@ -858,7 +858,7 @@ IsStreamAdded
 dc
 -
 >
-sid
+sid_s
 (
 )
 )
@@ -883,7 +883,7 @@ IsStreamAdded
 dc
 -
 >
-sid
+sid_s
 (
 )
 )
