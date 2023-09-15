@@ -13667,11 +13667,6 @@ mDesignModeSheetAdded
 1
 ;
 bool
-mSSApplicableStateNotificationPending
-:
-1
-;
-bool
 mMayHaveTitleElement
 :
 1

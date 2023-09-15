@@ -2842,12 +2842,6 @@ if
 willExecuteScript
 )
 {
-mozilla
-:
-:
-dom
-:
-:
 AutoSetThrowOnDynamicMarkupInsertionCounter
 throwOnDynamicMarkupInsertionCounter
 (
@@ -2984,9 +2978,8 @@ newContent
 linkStyle
 -
 >
-SetEnableUpdates
+DisableUpdates
 (
-false
 )
 ;
 }
@@ -3131,9 +3124,8 @@ newContent
 linkStyle
 -
 >
-SetEnableUpdates
+DisableUpdates
 (
-false
 )
 ;
 }
@@ -3430,9 +3422,8 @@ newContent
 linkStyle
 -
 >
-SetEnableUpdates
+DisableUpdates
 (
-false
 )
 ;
 }
