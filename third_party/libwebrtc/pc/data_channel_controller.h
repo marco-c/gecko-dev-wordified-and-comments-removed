@@ -319,6 +319,11 @@ error
 override
 ;
 void
+PrepareForShutdown
+(
+)
+;
+void
 SetupDataChannelTransport_n
 (
 )
