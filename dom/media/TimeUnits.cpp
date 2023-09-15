@@ -342,7 +342,13 @@ static_cast
 int64_t
 >
 (
+std
+:
+:
+round
+(
 inBase
+)
 )
 aBase
 )
