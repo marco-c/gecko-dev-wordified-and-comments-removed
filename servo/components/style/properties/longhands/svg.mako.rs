@@ -116,9 +116,7 @@ computed
 Color
 :
 :
-black
-(
-)
+BLACK
 "
 engines
 =
@@ -226,9 +224,7 @@ computed
 Color
 :
 :
-black
-(
-)
+BLACK
 "
 engines
 =
@@ -335,9 +331,7 @@ computed
 Color
 :
 :
-white
-(
-)
+WHITE
 "
 engines
 =

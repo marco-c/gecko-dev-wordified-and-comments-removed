@@ -134,9 +134,7 @@ mozilla
 StyleAbsoluteColor
 :
 :
-Transparent
-(
-)
+TRANSPARENT
 ;
 uint32_t
 languageOverride
