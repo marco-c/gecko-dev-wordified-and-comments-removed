@@ -113,9 +113,6 @@ undef
 JS_GC_ZEAL
 #
 undef
-JS_GC_SMALL_CHUNK_SIZE
-#
-undef
 JS_CRASH_DIAGNOSTICS
 #
 undef
