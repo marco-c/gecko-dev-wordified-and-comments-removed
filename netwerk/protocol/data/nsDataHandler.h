@@ -136,11 +136,6 @@ aIsBase64
 nsDependentCSubstring
 *
 aDataBuffer
-nsCString
-*
-aMimeType
-=
-nullptr
 )
 ;
 }
