@@ -1383,7 +1383,10 @@ image_load
 image_check
 image_store
 :
-image_check
+BoundsCheckPolicy
+:
+:
+Unchecked
 binding_array
 :
 BoundsCheckPolicy

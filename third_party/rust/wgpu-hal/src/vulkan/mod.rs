@@ -589,6 +589,12 @@ bool
 robust_image_access
 :
 bool
+robust_buffer_access2
+:
+bool
+robust_image_access2
+:
+bool
 zero_initialize_workgroup_memory
 :
 bool

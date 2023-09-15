@@ -423,6 +423,19 @@ is_srgb
 )
 )
 ;
+let
+usages
+=
+conv
+:
+:
+map_texture_usage_from_hal
+(
+hal_caps
+.
+usage
+)
+;
 Ok
 (
 wgt
@@ -445,6 +458,7 @@ alpha_modes
 hal_caps
 .
 composite_alpha_modes
+usages
 }
 )
 }

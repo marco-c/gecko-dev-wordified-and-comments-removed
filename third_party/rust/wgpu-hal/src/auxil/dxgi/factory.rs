@@ -42,6 +42,17 @@ pub
 enum
 DxgiFactoryType
 {
+#
+[
+cfg
+(
+feature
+=
+"
+dx11
+"
+)
+]
 Factory1
 Factory2
 Factory4
