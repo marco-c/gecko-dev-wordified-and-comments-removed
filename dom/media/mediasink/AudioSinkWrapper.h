@@ -370,14 +370,6 @@ aInfo
 )
 override
 ;
-void
-EnableTreatAudioUnderrunAsSilence
-(
-bool
-aEnabled
-)
-override
-;
 private
 :
 enum
@@ -635,11 +627,6 @@ uint32_t
 mAsyncCreateCount
 =
 0
-;
-bool
-mTreatUnderrunAsSilence
-=
-false
 ;
 }
 ;
