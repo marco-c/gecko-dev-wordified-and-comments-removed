@@ -37760,13 +37760,13 @@ aHeaderValue
 ;
 Maybe
 <
-uint64_t
+uint32_t
 >
 rangeStart
 ;
 Maybe
 <
-uint64_t
+uint32_t
 >
 rangeEnd
 ;
@@ -37832,7 +37832,7 @@ SkipWhites
 )
 ;
 }
-uint64_t
+int32_t
 res
 ;
 if
