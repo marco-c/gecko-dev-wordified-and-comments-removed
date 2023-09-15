@@ -27,7 +27,7 @@ Harness_sanity
 /
 mochitest
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
@@ -39,7 +39,7 @@ Harness_sanity
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS
@@ -51,6 +51,6 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]

@@ -1,5 +1,5 @@
 [
-"
+'
 include
 :
 .
@@ -15,8 +15,8 @@ test
 /
 mochitest
 .
-ini
-"
+toml
+'
 ]
 #
 NOTE

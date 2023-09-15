@@ -32,6 +32,13 @@ file
 "
 [
 '
+test_chromeGetTestFile
+.
+xhtml
+'
+]
+[
+'
 test_sample
 .
 xhtml
@@ -96,13 +103,6 @@ fail
 if
 =
 true
-[
-'
-test_chromeGetTestFile
-.
-xhtml
-'
-]
 [
 '
 test_tasks_skip
