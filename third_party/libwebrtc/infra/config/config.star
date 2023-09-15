@@ -6001,9 +6001,6 @@ win_try_job
 "
 win_x64_clang_dbg
 "
-cq
-=
-None
 )
 win_try_job
 (
@@ -6034,9 +6031,6 @@ win_try_job
 "
 win_x64_clang_rel
 "
-cq
-=
-None
 )
 win_try_job
 (
