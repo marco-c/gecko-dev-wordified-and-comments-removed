@@ -3384,6 +3384,12 @@ reset
 }
 )
 ;
+data_channel_controller_
+.
+PrepareForShutdown
+(
+)
+;
 }
 RTCError
 PeerConnection
