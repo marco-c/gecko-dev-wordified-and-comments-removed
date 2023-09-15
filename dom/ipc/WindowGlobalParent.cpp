@@ -347,13 +347,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h

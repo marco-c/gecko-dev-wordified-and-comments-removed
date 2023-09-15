@@ -48,13 +48,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h

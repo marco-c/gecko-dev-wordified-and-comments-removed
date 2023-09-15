@@ -7,13 +7,6 @@ nsWindowMemoryReporter_h__
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h
@@ -98,6 +91,9 @@ TimeStamp
 .
 h
 "
+class
+nsGlobalWindowInner
+;
 class
 nsWindowMemoryReporter
 final

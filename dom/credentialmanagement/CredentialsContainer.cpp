@@ -114,13 +114,6 @@ nsIDocShell
 .
 h
 "
-#
-include
-"
-nsGlobalWindowInner
-.
-h
-"
 namespace
 mozilla
 :

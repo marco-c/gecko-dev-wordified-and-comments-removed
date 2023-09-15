@@ -310,13 +310,6 @@ h
 #
 include
 "
-nsGlobalWindowOuter
-.
-h
-"
-#
-include
-"
 nsMixedContentBlocker
 .
 h

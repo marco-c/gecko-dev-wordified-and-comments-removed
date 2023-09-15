@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

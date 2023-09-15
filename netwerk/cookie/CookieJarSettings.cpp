@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

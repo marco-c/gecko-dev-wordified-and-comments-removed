@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsGlobalWindowOuter
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h

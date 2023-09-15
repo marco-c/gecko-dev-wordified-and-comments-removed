@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsGlobalWindowOuter
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h
@@ -80,6 +73,13 @@ h
 include
 "
 nsIBaseWindow
+.
+h
+"
+#
+include
+"
+nsIDocShell
 .
 h
 "
