@@ -476,6 +476,16 @@ nsACString
 aAddr
 )
 ;
+bool
+net_GetDefaultStatusTextForCode
+(
+uint16_t
+aCode
+nsACString
+&
+aOutText
+)
+;
 namespace
 mozilla
 {
