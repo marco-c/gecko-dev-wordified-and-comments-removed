@@ -765,11 +765,6 @@ frame_generator_capturer
 .
 h
 "
-"
-frame_generator_capturer_tmp
-.
-h
-"
 ]
 deps
 =
