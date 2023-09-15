@@ -28,7 +28,7 @@ const
 int
 kVideoRtpSendBufferSize
 =
-65536
+262144
 ;
 const
 int
