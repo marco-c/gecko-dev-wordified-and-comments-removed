@@ -18,7 +18,7 @@ ECHOURL
 await
 wss
 .
-connection
+opened
 ;
 wss
 .
@@ -106,7 +106,7 @@ ECHOURL
 await
 wss
 .
-connection
+opened
 ;
 wss
 .
@@ -183,7 +183,7 @@ ECHOURL
 await
 wss
 .
-connection
+opened
 ;
 wss
 .
@@ -262,7 +262,7 @@ ECHOURL
 await
 wss
 .
-connection
+opened
 ;
 wss
 .
@@ -348,7 +348,7 @@ ECHOURL
 await
 wss
 .
-connection
+opened
 ;
 wss
 .
@@ -441,7 +441,7 @@ ECHOURL
 await
 wss
 .
-connection
+opened
 ;
 assert_throws_js
 (
@@ -498,7 +498,7 @@ ECHOURL
 await
 wss
 .
-connection
+opened
 ;
 const
 reason
@@ -587,9 +587,9 @@ NetworkError
 '
 wss
 .
-connection
+opened
 '
-connection
+opened
 promise
 should
 reject
@@ -657,7 +657,7 @@ ECHOURL
 await
 wss
 .
-connection
+opened
 ;
 assert_throws_dom
 (
@@ -727,7 +727,7 @@ writable
 await
 wss
 .
-connection
+opened
 ;
 writable
 .
@@ -822,7 +822,7 @@ writable
 await
 wss
 .
-connection
+opened
 ;
 const
 startTime
@@ -966,7 +966,7 @@ info
 await
 wss
 .
-connection
+opened
 ;
 info
 [
@@ -1053,7 +1053,7 @@ info
 await
 wss
 .
-connection
+opened
 ;
 info
 [
@@ -1146,7 +1146,7 @@ info
 await
 wss
 .
-connection
+opened
 ;
 info
 [
@@ -1246,7 +1246,7 @@ info
 await
 wss
 .
-connection
+opened
 ;
 info
 [
@@ -1343,7 +1343,7 @@ info
 await
 wss
 .
-connection
+opened
 ;
 info
 [
@@ -1436,7 +1436,7 @@ info
 await
 wss
 .
-connection
+opened
 ;
 info
 [
@@ -1539,7 +1539,7 @@ info
 await
 wss
 .
-connection
+opened
 ;
 info
 [

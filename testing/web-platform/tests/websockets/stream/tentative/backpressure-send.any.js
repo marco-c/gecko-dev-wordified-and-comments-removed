@@ -42,7 +42,7 @@ writable
 await
 wss
 .
-connection
+opened
 ;
 const
 writer

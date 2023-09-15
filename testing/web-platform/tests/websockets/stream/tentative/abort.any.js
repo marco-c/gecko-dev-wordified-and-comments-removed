@@ -102,9 +102,9 @@ AbortError
 '
 wss
 .
-connection
+opened
 '
-connection
+opened
 should
 reject
 '
@@ -249,9 +249,9 @@ AbortError
 '
 wss
 .
-connection
+opened
 '
-connection
+opened
 should
 reject
 '
@@ -324,7 +324,7 @@ writable
 await
 wss
 .
-connection
+opened
 ;
 controller
 .

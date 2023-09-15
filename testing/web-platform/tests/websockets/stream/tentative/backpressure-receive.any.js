@@ -38,7 +38,7 @@ readable
 await
 wss
 .
-connection
+opened
 ;
 const
 reader
