@@ -2173,12 +2173,3 @@ roles
 :
 METER
 )
-MARKUPMAP
-(
-search
-New_HyperText
-roles
-:
-:
-LANDMARK
-)

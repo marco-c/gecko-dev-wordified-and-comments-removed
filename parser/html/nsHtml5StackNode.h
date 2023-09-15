@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsHtml5HtmlAttributes
+.
+h
+"
+#
+include
+"
 nsHtml5String
 .
 h
