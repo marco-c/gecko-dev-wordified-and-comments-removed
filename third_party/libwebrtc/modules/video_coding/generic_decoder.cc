@@ -151,7 +151,7 @@ constexpr
 size_t
 kDecoderFrameMemoryLength
 =
-30
+10
 ;
 }
 VCMDecodedFrameCallback
