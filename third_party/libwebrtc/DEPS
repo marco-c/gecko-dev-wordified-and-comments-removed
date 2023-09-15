@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-483a8c84695b94f576c054baab345ccf84e629de
+7e41c536fa2e7db5ec6639d0b0b9cbcb4d5c22cd
 '
 #
 Fetch
@@ -190,7 +190,7 @@ version
 .
 20230410
 .
-2
+3
 .
 1
 '
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-e466fd5739c74668e4baef5e7a68dc06aa3b993b
+0fcbb61ea6ac13405b3a5d15728dde75ab963ebd
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-64174283d074639f036ba9496f694bce2fe98f46
+43aa99b75afcedcdd4272d6bc75b67c1dc87606a
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-8f38198df7e14b5d8587510ba54335c2c6170121
+3eb128ccd280e403e0e6ad3b73f60085dae69ac4
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-e409a1025b4a667cd980df890eac2c82c3245303
+81db733661bb59647a931d35e31d98654dbb6a3d
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-5c4f089f163cb2fa73b62970104824c11643b860
+8e863bd6887f49fdcd9acc12543175e97b9349aa
 '
 '
 src
@@ -956,7 +956,7 @@ project
 libcxx
 .
 git
-049d48aa99786a2452537a5f5e3c411c741abb82
+ff2fcdb345ba17816528e266c54dda2bed9b9530
 '
 '
 src
@@ -999,7 +999,7 @@ project
 libcxxabi
 .
 git
-b076ad359ce749bbf680474c43c7130416f1eb46
+1f7578b29eaffce5ae0e2ec58eeb5f63e43c5e49
 '
 '
 src
@@ -1039,7 +1039,7 @@ project
 libunwind
 .
 git
-2868dcda2b0c2912e5c5d911992446a46a7fe4ae
+270ace34765e00b04fd3247033aa43f6e2dec452
 '
 '
 src
@@ -1387,7 +1387,7 @@ com
 catapult
 .
 git
-fdeb9d47a88e9a1ede26bcd8bf4b5c833539d3bb
+2325df226e851a2957d42725d03a9cedc359810c
 '
 '
 src
@@ -1517,7 +1517,7 @@ tools
 depot_tools
 .
 git
-d3cbd40cf98db81c6846a66b161e6588c9484888
+677da3c8694c8b33d443e4e33f565d65529fbf35
 '
 '
 src
@@ -1706,7 +1706,7 @@ third_party
 freetype2
 .
 git
-1a4c18f7cb70a2ae4fa209bb75a6c6c5b6ace0f2
+e77d8ba87cf24c4bd07c5c4f23b17e5e4d4f433b
 '
 '
 src
@@ -2956,7 +2956,7 @@ chromium
 src
 /
 tools
-848929b935cb862df99f9ececb53f120fb24197c
+00878ac361e030ea0a388e2e6d776ba05618b965
 '
 '
 src
@@ -3290,9 +3290,7 @@ version
 '
 :
 '
-tdBFAmMnqAlPmvTGGYaid5OZIlP9E
--
-IxCoaQBszJC7AC
+kxWYf9Gk89oi8GaxOzZ_Bq8rgcSXj6LxfIi52lVsi6sC
 '
 }
 ]
