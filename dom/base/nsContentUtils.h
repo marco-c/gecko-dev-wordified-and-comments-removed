@@ -848,9 +848,6 @@ mozilla
 EventClassID
 mEventClassID
 ;
-bool
-mMaybeSpecialSVGorSMILEvent
-;
 }
 ;
 namespace
