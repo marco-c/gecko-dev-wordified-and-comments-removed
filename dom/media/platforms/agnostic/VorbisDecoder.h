@@ -47,13 +47,13 @@ h
 else
 #
 include
-"
+<
 vorbis
 /
 codec
 .
 h
-"
+>
 #
 endif
 namespace

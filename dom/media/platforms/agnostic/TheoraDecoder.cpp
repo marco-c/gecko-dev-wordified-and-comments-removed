@@ -12,6 +12,15 @@ algorithm
 >
 #
 include
+<
+ogg
+/
+ogg
+.
+h
+>
+#
+include
 "
 ImageContainer
 .
