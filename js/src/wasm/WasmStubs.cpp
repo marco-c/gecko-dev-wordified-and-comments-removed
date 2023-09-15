@@ -5550,6 +5550,8 @@ masm
 branchValueConvertsToWasmAnyRefInline
 (
 scratchV
+scratchG
+scratchF
 &
 next
 )
@@ -6092,6 +6094,7 @@ convertValueToWasmAnyRef
 (
 src
 target
+scratchF
 &
 fail
 )
@@ -12750,6 +12753,7 @@ convertValueToWasmAnyRef
 (
 JSReturnOperand
 ReturnReg
+ABINonArgDoubleReg
 &
 oolConvert
 )

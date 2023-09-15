@@ -1262,6 +1262,15 @@ wasm
 AnyRefKind
 :
 :
+I31
+:
+case
+wasm
+:
+:
+AnyRefKind
+:
+:
 Null
 :
 {

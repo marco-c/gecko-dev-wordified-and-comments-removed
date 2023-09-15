@@ -145,6 +145,9 @@ NullableRef
 Ref
 =
 0x6b
+I31Ref
+=
+0x6a
 NullExternRef
 =
 0x69
@@ -1112,6 +1115,15 @@ ArrayCopy
 ArrayLen
 =
 0x19
+I31New
+=
+0x20
+I31GetS
+=
+0x21
+I31GetU
+=
+0x22
 RefTestV5
 =
 0x44
