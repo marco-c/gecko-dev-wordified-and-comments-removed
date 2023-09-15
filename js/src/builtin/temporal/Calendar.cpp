@@ -11718,11 +11718,6 @@ length
 )
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
@@ -11956,11 +11951,6 @@ length
 )
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 nullptr
 ;
