@@ -19907,7 +19907,7 @@ LStackArea
 ResultIterator
 :
 :
-isGcPointer
+isWasmAnyRef
 (
 )
 const
@@ -19988,7 +19988,7 @@ type
 LDefinition
 :
 :
-OBJECT
+WASM_ANYREF
 ;
 }
 class

@@ -407,6 +407,12 @@ LDefinition
 :
 SLOTS
 :
+case
+LDefinition
+:
+:
+WASM_ANYREF
+:
 #
 endif
 #
@@ -464,6 +470,12 @@ LDefinition
 :
 :
 SLOTS
+:
+case
+LDefinition
+:
+:
+WASM_ANYREF
 :
 #
 endif
