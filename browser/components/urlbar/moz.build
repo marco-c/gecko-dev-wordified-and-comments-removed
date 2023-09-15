@@ -187,6 +187,13 @@ sys
 mjs
 "
 "
+UrlbarProviderClipboard
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderContextualSearch
 .
 sys
