@@ -50,9 +50,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -65,9 +62,6 @@ toLang
 "
 fr
 "
-isBeta
-:
-false
 }
 ]
 }
