@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-55bba5828740196836c95020efb7b6daf6a4fd89
+ccf1cfd34ca5d59b25716ca5ee59c6ced4a70963
 '
 #
 Fetch
@@ -188,9 +188,9 @@ version
 :
 12
 .
-20230414
+20230416
 .
-2
+0
 .
 1
 '
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-693a90209cacc836820da5c874c1ffd6aa8e8ae3
+b0b9a54800aa0aa16b22a1dfa147e5b14c3d4327
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-8bf396e1c996541d0438b2bb624cfbc75954dc21
+a3876affe497782bc38f36aace424620f15d1594
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-6a1f26d93ef1d4417cdf08d0cefa6420e9ac25b7
+d709f875a5039737024a88b0c049f0a6605e1ed1
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-a74791c12e1db060e5a5a7e3f1033c3ce20daffa
+3ad48851d4f1ca5acb5c544fe8b2a7b758c8b618
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-8d7ed47c9cfff254a191b2dad03ece0a446059a3
+24ce07e78bb126b7c23b0ca548f93faf231248bd
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-4e483f533cfae1543729156a8f6a67d2d9e3f92f
+042751ea600f0ee3047b87ccff765ac89b830dda
 '
 '
 src
@@ -956,7 +956,7 @@ project
 libcxx
 .
 git
-5488b5c294dd4b9640adbef628f2dcd6f85a6c09
+7df372d6fd11d11382866df8f549b352ef2a6520
 '
 '
 src
@@ -999,7 +999,7 @@ project
 libcxxabi
 .
 git
-46d77edb733d1941b7650a8198ac1beff20a157a
+e33143c8c06000c3fe12fe3cf88d775f5f3f5b5a
 '
 '
 src
@@ -1039,7 +1039,7 @@ project
 libunwind
 .
 git
-a2c40b7ecbf068e3d3cc74b3bf0f7bfc6ef54f62
+f2d62ea5af23f5d734725a7b11ea17ad961fa5d7
 '
 '
 src
@@ -1288,11 +1288,7 @@ version
 '
 :
 '
-TpDdbF
--
-PPgwL0iOVsdLM07L
--
-DUp2DV3hgzCMmPd2_GUC
+xnKkaX2u7XVfsUzExic0KW3jYMINpI16Ll9QYESBoI8C
 '
 }
 ]
@@ -1517,7 +1513,7 @@ tools
 depot_tools
 .
 git
-4a2243196c2b9c2fc1a040429dad67cbff5aa703
+97dadd025f541f67af48417cc12ebdc00c1ad29c
 '
 '
 src
@@ -2526,7 +2522,7 @@ external
 perfetto
 .
 git
-7c24af6f73e50d66dc0d9ac866fb4a4d788e8822
+52e8dd233b135f87fbe2495ff36d6ae30be124c4
 '
 '
 src
@@ -2772,7 +2768,7 @@ version
 '
 :
 '
-OJEhACoTcZTFN4k6C2BsgW7xzXm818cNOV_6yhZZHwkC
+bkihvyDExjKlMVd5GRx1Dxfyp94xqRmUDHHQW3ZUtmAC
 '
 }
 ]
@@ -2954,7 +2950,7 @@ chromium
 src
 /
 tools
-2cb5b6b1e5b07cb780c24bc7418ea05e4d23a024
+818f5a2f93d5214021d5ce40e3c0e220b7365c7a
 '
 '
 src
@@ -3288,7 +3284,7 @@ version
 '
 :
 '
-lFc_klEJZUxS7DOOp7ntguh9s_BntjOYTGFeDi9HIwQC
+JJlbXbw6nZkaTao3F4UKPt4gAbq_CL7ge2ZKCaWuaZIC
 '
 }
 ]
