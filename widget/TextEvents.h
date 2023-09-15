@@ -1124,9 +1124,6 @@ KEY_NAME_INDEX_Hyper
 case
 KEY_NAME_INDEX_Super
 :
-case
-KEY_NAME_INDEX_OS
-:
 return
 false
 ;
@@ -1807,9 +1804,6 @@ KEY_NAME_INDEX_Control
 :
 case
 KEY_NAME_INDEX_Meta
-:
-case
-KEY_NAME_INDEX_OS
 :
 case
 KEY_NAME_INDEX_Shift
