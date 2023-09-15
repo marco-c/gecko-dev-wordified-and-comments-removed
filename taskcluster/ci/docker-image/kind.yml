@@ -1173,13 +1173,13 @@ fetch
 )
 parent
 :
-debian11
+debian12
 -
 raw
 packages
 :
 -
-deb11
+deb12
 -
 python
 -
