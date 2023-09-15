@@ -79,15 +79,6 @@ gtest
 .
 h
 "
-#
-include
-"
-test
-/
-video_test_constants
-.
-h
-"
 namespace
 webrtc
 {
@@ -138,7 +129,7 @@ EndToEndTest
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kDefaultTimeout
@@ -220,7 +211,7 @@ payload_type
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kVideoSendPayloadType

@@ -30,15 +30,6 @@ call_test
 h
 "
 #
-include
-"
-test
-/
-video_test_constants
-.
-h
-"
-#
 if
 WEBRTC_ENABLE_PROTOBUF
 RTC_PUSH_IGNORING_WUNDEF
@@ -578,7 +569,7 @@ Config
 :
 SendCodecSpec
 (
-VideoTestConstants
+CallTest
 :
 :
 kAudioSendPayloadType
@@ -1185,7 +1176,7 @@ decoder_map
 =
 {
 {
-VideoTestConstants
+CallTest
 :
 :
 kAudioSendPayloadType

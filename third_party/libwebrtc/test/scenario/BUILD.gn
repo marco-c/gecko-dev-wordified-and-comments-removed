@@ -440,12 +440,6 @@ test_video_capturer
 "
 .
 .
-:
-video_test_constants
-"
-"
-.
-.
 /
 :
 fake_video_codecs

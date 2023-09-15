@@ -88,15 +88,6 @@ rtcp_packet_parser
 .
 h
 "
-#
-include
-"
-test
-/
-video_test_constants
-.
-h
-"
 namespace
 webrtc
 {
@@ -129,7 +120,7 @@ AudioSendTest
 :
 SendTest
 (
-VideoTestConstants
+CallTest
 :
 :
 kDefaultTimeout

@@ -167,15 +167,6 @@ gtest
 .
 h
 "
-#
-include
-"
-test
-/
-video_test_constants
-.
-h
-"
 using
 :
 :
@@ -239,7 +230,7 @@ return
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kPayloadTypeVP8
@@ -260,7 +251,7 @@ return
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kPayloadTypeVP9
@@ -281,7 +272,7 @@ return
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kPayloadTypeH264
@@ -399,7 +390,7 @@ RtpRtcpObserver
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kDefaultTimeout
@@ -478,7 +469,7 @@ Ssrc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kVideoSendSsrcs

@@ -178,15 +178,6 @@ call_test
 .
 h
 "
-#
-include
-"
-test
-/
-video_test_constants
-.
-h
-"
 namespace
 webrtc
 {
@@ -286,7 +277,7 @@ RtpRtcpObserver
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kDefaultTimeout
@@ -447,7 +438,7 @@ Ssrc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kVideoSendSsrcs
@@ -466,7 +457,7 @@ Ssrc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kVideoSendSsrcs
@@ -485,7 +476,7 @@ Ssrc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kVideoSendSsrcs
@@ -1403,12 +1394,6 @@ get
 ;
 CreateSendConfig
 (
-test
-:
-:
-VideoTestConstants
-:
-:
 kNumSimulcastStreams
 0
 0
