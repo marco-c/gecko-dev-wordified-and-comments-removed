@@ -293,6 +293,15 @@ mMutex
 )
 ;
 bool
+mCleanly
+MOZ_GUARDED_BY
+(
+mMutex
+)
+=
+false
+;
+bool
 mStopRequestCalled
 MOZ_GUARDED_BY
 (

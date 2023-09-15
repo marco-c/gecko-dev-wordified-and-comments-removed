@@ -300,6 +300,9 @@ void
 onSessionClosed
 (
 in
+bool
+aCleanly
+in
 uint32_t
 aErrorCode
 in

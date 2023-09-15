@@ -4604,6 +4604,11 @@ session
 "
 )
 ;
+bool
+cleanly
+=
+false
+;
 SessionCloseReasonExternal
 &
 reasonExternal
@@ -4680,6 +4685,10 @@ status
 .
 _0
 ;
+cleanly
+=
+true
+;
 }
 else
 {
@@ -4714,6 +4723,10 @@ Length
 (
 )
 )
+;
+cleanly
+=
+true
 ;
 }
 LOG
@@ -4760,6 +4773,7 @@ wt
 >
 OnSessionClosed
 (
+cleanly
 status
 reason
 )
