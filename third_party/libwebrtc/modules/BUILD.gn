@@ -1894,11 +1894,6 @@ rtp_rtcp
 rtp_rtcp_unittests
 "
 "
-utility
-:
-utility_unittests
-"
-"
 video_coding
 :
 video_coding_unittests

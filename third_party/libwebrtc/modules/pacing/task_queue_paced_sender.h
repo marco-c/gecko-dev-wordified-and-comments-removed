@@ -64,7 +64,7 @@ api
 /
 task_queue
 /
-task_queue_factory
+pending_task_safety_flag
 .
 h
 "
@@ -133,17 +133,6 @@ rtp_rtcp
 source
 /
 rtp_packet_to_send
-.
-h
-"
-#
-include
-"
-modules
-/
-utility
-/
-maybe_worker_thread
 .
 h
 "
