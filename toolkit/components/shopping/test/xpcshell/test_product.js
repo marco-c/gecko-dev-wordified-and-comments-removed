@@ -2612,10 +2612,9 @@ https
 /
 www
 .
-example
+mozilla
 .
-com
-/
+org
 "
 )
 )
@@ -2623,9 +2622,9 @@ com
 host
 :
 "
-example
+mozilla
 .
-com
+org
 "
 valid
 :
