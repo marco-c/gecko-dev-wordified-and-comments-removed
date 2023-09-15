@@ -28,13 +28,6 @@ h
 #
 include
 "
-ia2AccessibleTextSelectionContainer
-.
-h
-"
-#
-include
-"
 AccessibleHypertext2
 .
 h
@@ -71,8 +64,6 @@ public
 IAccessibleHypertext2
 public
 ia2AccessibleEditableText
-public
-ia2AccessibleTextSelectionContainer
 public
 MsaaAccessible
 {

@@ -252,16 +252,6 @@ LCID
 lcid
 )
 ;
-static
-Accessible
-*
-GetAccessibleFrom
-(
-IUnknown
-*
-aUnknown
-)
-;
 DECL_IUNKNOWN
 virtual
 HRESULT
