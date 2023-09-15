@@ -2556,7 +2556,7 @@ AudioCodec
 "
 fake_audio_codec
 "
-0
+8000
 0
 1
 )
@@ -3184,7 +3184,7 @@ push_back
 (
 VideoCodec
 (
-0
+111
 "
 fake_video_codec
 "
@@ -3197,7 +3197,7 @@ push_back
 (
 VideoCodec
 (
-0
+111
 "
 fake_video_codec
 "
