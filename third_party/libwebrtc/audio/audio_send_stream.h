@@ -120,17 +120,6 @@ h
 #
 include
 "
-modules
-/
-utility
-/
-maybe_worker_thread
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 experiments
@@ -837,10 +826,6 @@ rtc
 RaceChecker
 audio_capture_race_checker_
 ;
-MaybeWorkerThread
-*
-rtp_transport_queue_
-;
 const
 bool
 allocate_audio_without_feedback_
@@ -956,7 +941,7 @@ const
 bitrate_allocator_
 RTC_GUARDED_BY
 (
-rtp_transport_queue_
+worker_thread_checker_
 )
 ;
 absl
@@ -972,7 +957,7 @@ TargetAudioBitrateConstraints
 cached_constraints_
 RTC_GUARDED_BY
 (
-rtp_transport_queue_
+worker_thread_checker_
 )
 =
 absl
