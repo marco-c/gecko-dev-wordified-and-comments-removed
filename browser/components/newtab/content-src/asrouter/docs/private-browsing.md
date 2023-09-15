@@ -332,6 +332,8 @@ info
 /
 messaging
 /
+desktop
+-
 messaging
 -
 journey

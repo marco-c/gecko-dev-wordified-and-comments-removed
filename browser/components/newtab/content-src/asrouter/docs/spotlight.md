@@ -82,6 +82,8 @@ info
 /
 messaging
 /
+desktop
+-
 messaging
 -
 surfaces
@@ -395,6 +397,8 @@ info
 /
 messaging
 /
+desktop
+-
 messaging
 -
 journey
