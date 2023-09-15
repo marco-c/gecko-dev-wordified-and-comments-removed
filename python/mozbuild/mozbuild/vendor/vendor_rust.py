@@ -431,12 +431,6 @@ time
 "
 :
 2
-    
-"
-syn
-"
-:
-2
 }
 class
 VendorRust
