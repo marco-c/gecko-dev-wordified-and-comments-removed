@@ -181,7 +181,7 @@ original_frame
 )
 ;
 bool
-disable_adaptation
+enable_adaptation
 ;
 {
 MutexLock
@@ -191,14 +191,14 @@ lock
 lock_
 )
 ;
-disable_adaptation
+enable_adaptation
 =
-disable_adaptation_
+enable_adaptation_
 ;
 }
 if
 (
-disable_adaptation
+enable_adaptation
 )
 {
 broadcaster_
