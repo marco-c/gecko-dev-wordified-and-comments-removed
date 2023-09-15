@@ -1820,6 +1820,10 @@ commands_that_need_all_modules_loaded
 [
         
 "
+busted
+"
+        
+"
 help
 "
         
