@@ -424,7 +424,7 @@ uniffi
 .
 24
 .
-2
+3
 "
 #
 Explicitly
@@ -2170,7 +2170,7 @@ uniffi
 .
 24
 .
-2
+3
 "
 uniffi_bindgen
 =
@@ -2180,7 +2180,7 @@ uniffi_bindgen
 .
 24
 .
-2
+3
 "
 uniffi_build
 =
@@ -2190,7 +2190,7 @@ uniffi_build
 .
 24
 .
-2
+3
 "
 uniffi_macros
 =
@@ -2200,7 +2200,7 @@ uniffi_macros
 .
 24
 .
-2
+3
 "
 weedle2
 =
