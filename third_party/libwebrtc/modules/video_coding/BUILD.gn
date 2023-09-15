@@ -8344,6 +8344,17 @@ rtc_internal_video_codecs
 .
 .
 /
+rtc_base
+:
+logging
+"
+"
+.
+.
+/
+.
+.
+/
 test
 :
 fileutils
