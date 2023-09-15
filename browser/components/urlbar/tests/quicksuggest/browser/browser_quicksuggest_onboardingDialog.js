@@ -1807,6 +1807,9 @@ onboardingNext
 onboardingClose
 "
 "
+onboardingDialog
+"
+"
 onboardingNext
 "
 ]
@@ -2032,6 +2035,9 @@ onboardingReject
 onboardingSkipLink
 "
 "
+onboardingDialog
+"
+"
 onboardingAccept
 "
 ]
@@ -2051,6 +2057,9 @@ onboardingSubmit
 onboardingSkipLink
 "
 "
+onboardingDialog
+"
+"
 onboardingAccept
 "
 ]
@@ -2065,6 +2074,9 @@ onboardingSubmit
 "
 "
 onboardingSkipLink
+"
+"
+onboardingDialog
 "
 "
 onboardingLearnMore
@@ -4095,6 +4107,9 @@ onboardingLearnMoreOnIntroduction
 onboardingClose
 "
 "
+onboardingDialog
+"
+"
 onboardingNext
 "
 ]
@@ -4327,6 +4342,9 @@ onboardingReject
 onboardingSkipLink
 "
 "
+onboardingDialog
+"
+"
 onboardingLearnMore
 "
 ]
@@ -4341,6 +4359,9 @@ onboardingSubmit
 "
 "
 onboardingSkipLink
+"
+"
+onboardingDialog
 "
 "
 onboardingLearnMore
@@ -4360,6 +4381,9 @@ onboardingSubmit
 "
 "
 onboardingSkipLink
+"
+"
+onboardingDialog
 "
 "
 onboardingLearnMore
@@ -4604,6 +4628,9 @@ onboardingReject
 "
 "
 onboardingSkipLink
+"
+"
+onboardingDialog
 "
 "
 onboardingLearnMore
