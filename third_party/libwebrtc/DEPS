@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-226d9c69f95187b1ca9aa75b03daa0f40fb6c585
+d5af113b9fd58631847530fefc2c71a71403b8ec
 '
 #
 Fetch
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-a49af702a7bc9939c2df7b2137c4f7f462078145
+312d1816ca9af3b162dbed025cdef9a44ecb873f
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-b83d7798d5a9b453c31f58cb6a673c2b5d3dcdc7
+3de6b706e79d51347f3d508bffb3ff9fa8bb4f76
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-0a6c69640f1841d9109eac70a25af310d4c1d8c7
+a23318c669f367400537dbb1e5bc8d37fde2eb1e
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-e5fd242e24a263aa36c2fe9f42f709d6fca15f5e
+cbf3a5585af1ab69e24f60f3be02dcfc917ef507
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-e1bf65702259e2760279dfb11c087c8ef07bdb8f
+3bbd26948804ca297a79fb5980b30880b9d22b76
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-af346205b359172a876a8db3a91d691064fbd4f2
+b74b114656ad69f8ee41046a2892f3c20870dc8f
 '
 '
 src
@@ -1387,7 +1387,7 @@ com
 catapult
 .
 git
-6834ebcc0933724042c4b8535bf85f04ff41dfd6
+fb540cd80e69889f9d241a5b1946d9147c3f6c20
 '
 '
 src
@@ -2528,7 +2528,7 @@ external
 perfetto
 .
 git
-be5933f4b25db0b6db546ed2949c52af2e0356fd
+134b1104235eedbaa47555f5c27fa8d0b6c0c7c3
 '
 '
 src
@@ -2960,7 +2960,7 @@ chromium
 src
 /
 tools
-da1dc8ec60011baf22a4e87430b11afb792f5f42
+e1a96c1a92018d922664122fadb8eca938a01f97
 '
 '
 src
