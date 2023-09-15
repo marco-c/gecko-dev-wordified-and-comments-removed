@@ -140,6 +140,13 @@ getOutputFormat
 (
 )
 ;
+MediaFormat
+getOutputFormat
+(
+int
+index
+)
+;
 ByteBuffer
 getInputBuffer
 (
@@ -169,13 +176,6 @@ params
 MediaCodecInfo
 getCodecInfo
 (
-)
-;
-MediaFormat
-getOutputFormat
-(
-int
-index
 )
 ;
 }
