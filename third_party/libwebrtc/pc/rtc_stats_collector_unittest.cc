@@ -4686,6 +4686,12 @@ data_channel_controller_
 new
 FakeDataChannelController
 (
+pc_
+-
+>
+network_thread
+(
+)
 )
 )
 {
@@ -15766,6 +15772,14 @@ RTCPeerConnectionStats
 }
 FakeDataChannelController
 controller
+(
+pc_
+-
+>
+network_thread
+(
+)
+)
 ;
 rtc
 :
