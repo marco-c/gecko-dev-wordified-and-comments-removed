@@ -231,8 +231,9 @@ const
 VideoFrameMetadata
 &
 )
-{
-}
+=
+0
+;
 }
 ;
 class
