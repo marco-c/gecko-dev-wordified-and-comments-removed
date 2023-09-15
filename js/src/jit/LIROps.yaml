@@ -1457,7 +1457,7 @@ name
 WasmTrapIfNull
 operands
 :
-object
+ref
 :
 WordSized
 mir_op
@@ -11208,7 +11208,7 @@ false
 -
 name
 :
-WasmBoxValue
+WasmAnyRefFromJSValue
 result_type
 :
 WordSized
@@ -11221,6 +11221,18 @@ BoxedValue
 name
 :
 WasmAnyRefFromJSObject
+result_type
+:
+WordSized
+operands
+:
+input
+:
+WordSized
+-
+name
+:
+WasmAnyRefFromJSString
 result_type
 :
 WordSized

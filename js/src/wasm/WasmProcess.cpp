@@ -1483,10 +1483,10 @@ nullptr
 )
 =
 =
-wasm
+AnyRef
 :
 :
-NULLREF_VALUE
+NullRefValue
 )
 ;
 ConfigureHugeMemory

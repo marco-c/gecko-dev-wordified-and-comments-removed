@@ -3694,7 +3694,7 @@ compareIsNull
 (
 MDefinition
 *
-value
+ref
 JSOp
 compareOp
 )
@@ -3720,7 +3720,7 @@ nullptr
 return
 compare
 (
-value
+ref
 nullVal
 compareOp
 MCompare
@@ -3740,7 +3740,7 @@ refAsNonNull
 (
 MDefinition
 *
-value
+ref
 )
 {
 if
@@ -3766,7 +3766,7 @@ New
 alloc
 (
 )
-value
+ref
 wasm
 :
 :
@@ -34402,7 +34402,7 @@ f
 {
 MDefinition
 *
-value
+ref
 ;
 if
 (
@@ -34416,7 +34416,7 @@ iter
 readRefAsNonNull
 (
 &
-value
+ref
 )
 )
 {
@@ -34429,7 +34429,7 @@ f
 .
 refAsNonNull
 (
-value
+ref
 )
 ;
 }
