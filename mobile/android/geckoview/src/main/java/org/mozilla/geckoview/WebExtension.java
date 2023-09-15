@@ -4546,6 +4546,15 @@ public
 static
 final
 int
+ERROR_INCOMPATIBLE
+=
+-
+11
+;
+public
+static
+final
+int
 ERROR_USER_CANCELED
 =
 -
@@ -4798,6 +4807,9 @@ ERROR_INVALID_DOMAIN
 ErrorCodes
 .
 ERROR_BLOCKLISTED
+ErrorCodes
+.
+ERROR_INCOMPATIBLE
 ErrorCodes
 .
 ERROR_USER_CANCELED

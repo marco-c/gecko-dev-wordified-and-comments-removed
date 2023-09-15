@@ -19331,6 +19331,16 @@ public
 static
 final
 int
+ERROR_INCOMPATIBLE
+=
+-
+11
+;
+field
+public
+static
+final
+int
 ERROR_INCORRECT_HASH
 =
 -
