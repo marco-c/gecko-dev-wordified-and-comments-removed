@@ -153,6 +153,11 @@ TestAudioSegment
 cpp
 "
 "
+TestAudioSinkWrapper
+.
+cpp
+"
+"
 TestAudioTrackEncoder
 .
 cpp
