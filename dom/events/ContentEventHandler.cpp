@@ -1815,7 +1815,7 @@ selectionType
 aEvent
 -
 >
-NeedsToFlushLayout
+AllowFlushingPendingNotifications
 (
 )
 )

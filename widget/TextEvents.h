@@ -2838,7 +2838,6 @@ mNeedsToFlushLayout
 )
 {
 }
-virtual
 WidgetEvent
 *
 Duplicate
@@ -3255,16 +3254,6 @@ Init
 (
 aOptions
 )
-;
-}
-bool
-NeedsToFlushLayout
-(
-)
-const
-{
-return
-mNeedsToFlushLayout
 ;
 }
 void

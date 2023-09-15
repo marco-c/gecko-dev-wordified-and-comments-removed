@@ -38243,6 +38243,14 @@ aEvent
 IsTargetedAtFocusedWindow
 (
 )
+&
+&
+aEvent
+-
+>
+AllowFlushingPendingNotifications
+(
+)
 )
 {
 if

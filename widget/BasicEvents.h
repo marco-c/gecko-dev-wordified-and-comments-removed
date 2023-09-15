@@ -2337,6 +2337,12 @@ IsBlockedForFingerprintingResistance
 )
 const
 ;
+bool
+AllowFlushingPendingNotifications
+(
+)
+const
+;
 void
 SetDefaultComposed
 (
