@@ -173,14 +173,13 @@ fileutils
 .
 .
 :
-test_support
+frame_generator_capturer
 "
 "
 .
 .
-/
 :
-video_test_common
+test_support
 "
 "
 .

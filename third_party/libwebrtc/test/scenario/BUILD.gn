@@ -429,6 +429,12 @@ column_printer
 .
 .
 :
+frame_generator_capturer
+"
+"
+.
+.
+:
 test_video_capturer
 "
 "

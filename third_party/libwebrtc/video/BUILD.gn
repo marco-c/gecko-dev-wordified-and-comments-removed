@@ -6457,6 +6457,14 @@ fileutils
 /
 test
 :
+frame_generator_capturer
+"
+"
+.
+.
+/
+test
+:
 frame_utils
 "
 "

@@ -1088,7 +1088,7 @@ fileutils
 .
 .
 :
-platform_video_capturer
+frame_generator_capturer
 "
 "
 .
@@ -1097,7 +1097,7 @@ platform_video_capturer
 .
 .
 :
-video_test_common
+platform_video_capturer
 "
 "
 .
