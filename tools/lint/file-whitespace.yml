@@ -523,6 +523,10 @@ reftest
 -
 intl
 /
+icu_testdata
+-
+intl
+/
 lwbrk
 /
 crashtests

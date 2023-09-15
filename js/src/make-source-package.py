@@ -978,6 +978,14 @@ icu
 /
 *
 *
++
+/
+intl
+/
+icu_testdata
+/
+*
+*
 -
 /
 intl
@@ -1865,6 +1873,7 @@ related
 return
 any
 (
+        
 f
 '
 path
@@ -1891,7 +1900,11 @@ third_party
 /
 rust
 "
+"
+intl
+"
 )
+    
 )
 def
 clean
