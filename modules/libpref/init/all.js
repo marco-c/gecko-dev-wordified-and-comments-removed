@@ -17916,16 +17916,6 @@ pref
 "
 mousewheel
 .
-enable_pixel_scrolling
-"
-true
-)
-;
-pref
-(
-"
-mousewheel
-.
 emulate_at_wm_scroll
 "
 false
