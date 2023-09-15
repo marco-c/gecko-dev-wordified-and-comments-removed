@@ -384,7 +384,7 @@ role
 )
 ;
 bool
-HasDataChannels
+HasDataChannelsForTest
 (
 )
 const
