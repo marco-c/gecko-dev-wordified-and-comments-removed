@@ -560,6 +560,8 @@ virtual
 void
 TeardownDataChannelTransport_n
 (
+RTCError
+error
 )
 =
 0

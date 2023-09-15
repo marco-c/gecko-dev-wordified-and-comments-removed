@@ -331,6 +331,8 @@ SetupDataChannelTransport_n
 void
 TeardownDataChannelTransport_n
 (
+RTCError
+error
 )
 ;
 void
@@ -406,13 +408,6 @@ set_data_channel_transport
 DataChannelTransportInterface
 *
 transport
-)
-;
-void
-OnTransportChannelClosed
-(
-RTCError
-error
 )
 ;
 void
