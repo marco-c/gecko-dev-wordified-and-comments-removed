@@ -161,15 +161,6 @@ classic
 /
 global
 /
-splitter
-.
-css
-skin
-/
-classic
-/
-global
-/
 tabprompts
 .
 css
