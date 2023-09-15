@@ -221,11 +221,6 @@ options
 matchedDesugaredSelectors
 |
 |
-options
-.
-matchedSelectors
-|
-|
 [
 ]
 ;
@@ -2229,11 +2224,6 @@ matchedDesugaredSelectors
 options
 .
 matchedDesugaredSelectors
-|
-|
-options
-.
-matchedSelectors
 |
 |
 [
