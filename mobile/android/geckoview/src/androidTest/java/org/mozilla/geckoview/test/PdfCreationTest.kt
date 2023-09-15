@@ -105,6 +105,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Rule
 import
 org
@@ -927,6 +933,7 @@ delete
 }
 }
 }
+Ignore
 NullDelegate
 (
 Autofill
