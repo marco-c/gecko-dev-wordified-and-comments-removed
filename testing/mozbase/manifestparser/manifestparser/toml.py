@@ -387,13 +387,25 @@ in
 val
 :
                     
+if
+len
+(
+new_val
+)
+>
+0
+:
+                        
 new_val
 +
 =
 os
 .
 linesep
+                    
+new_val
 +
+=
 str
 (
 v
@@ -411,6 +423,10 @@ val
 str
 (
 val
+)
+.
+strip
+(
 )
                 
 if

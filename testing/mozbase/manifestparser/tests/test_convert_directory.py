@@ -903,6 +903,9 @@ parser
 =
 ManifestParser
 (
+use_toml
+=
+False
 )
             
 parser
@@ -1461,6 +1464,9 @@ manifests
 (
 manifest_file
 )
+use_toml
+=
+False
 )
         
 paths
@@ -1793,7 +1799,7 @@ newtempdir
 "
 manifest
 .
-ini
+toml
 "
 )
         
@@ -1940,7 +1946,7 @@ newtempdir
 "
 manifest
 .
-ini
+toml
 "
 ]
 )
@@ -2027,7 +2033,7 @@ newtempdir
 "
 manifest
 .
-ini
+toml
 "
 ]
         

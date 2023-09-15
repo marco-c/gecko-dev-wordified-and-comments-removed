@@ -1,6 +1,8 @@
 import
 os
 import
+re
+import
 unittest
 import
 mozunit
@@ -25,6 +27,42 @@ abspath
 (
 __file__
 )
+)
+def
+deepstrip
+(
+txt
+)
+:
+    
+"
+Collapses
+all
+repeated
+blanks
+to
+one
+blank
+and
+strips
+"
+    
+return
+re
+.
+sub
+(
+r
+"
++
+"
+"
+"
+txt
+)
+.
+strip
+(
 )
 class
 TestDefaultSkipif
@@ -96,6 +134,9 @@ manifests
 (
 default
 )
+use_toml
+=
+False
 )
         
 for
@@ -124,6 +165,9 @@ self
 .
 assertEqual
 (
+                    
+deepstrip
+(
 test
 [
 "
@@ -132,6 +176,7 @@ skip
 if
 "
 ]
+)
 "
 os
 =
@@ -145,6 +190,7 @@ debug
 \
 ndebug
 "
+                
 )
             
 elif
@@ -165,6 +211,9 @@ self
 .
 assertEqual
 (
+                    
+deepstrip
+(
 test
 [
 "
@@ -173,6 +222,7 @@ skip
 if
 "
 ]
+)
 "
 os
 =
@@ -191,6 +241,7 @@ nos
 linux
 '
 "
+                
 )
             
 elif
@@ -211,6 +262,9 @@ self
 .
 assertEqual
 (
+                    
+deepstrip
+(
 test
 [
 "
@@ -219,6 +273,7 @@ skip
 if
 "
 ]
+)
 "
 os
 =
@@ -237,6 +292,7 @@ nos
 win
 '
 "
+                
 )
             
 elif
@@ -258,6 +314,8 @@ self
 assertEqual
 (
                     
+deepstrip
+(
 test
 [
 "
@@ -266,6 +324,8 @@ skip
 if
 "
 ]
+)
+                    
 "
 os
 =
@@ -308,6 +368,8 @@ self
 .
 assertEqual
 (
+deepstrip
+(
 test
 [
 "
@@ -316,6 +378,7 @@ skip
 if
 "
 ]
+)
 "
 os
 =
@@ -347,6 +410,9 @@ self
 .
 assertEqual
 (
+                    
+deepstrip
+(
 test
 [
 "
@@ -355,6 +421,7 @@ skip
 if
 "
 ]
+)
 "
 os
 =
@@ -368,6 +435,7 @@ debug
 \
 ndebug
 "
+                
 )
     
 def
@@ -391,7 +459,7 @@ default
 -
 skipif
 .
-ini
+toml
 "
 )
         
@@ -436,6 +504,8 @@ self
 assertEqual
 (
                     
+deepstrip
+(
 test
 [
 "
@@ -444,9 +514,6 @@ skip
 if
 "
 ]
-.
-strip
-(
 )
 "
 os
@@ -459,8 +526,7 @@ win
 &
 debug
 \
-n
-debug
+ndebug
 "
                 
 )
@@ -484,6 +550,8 @@ self
 assertEqual
 (
                     
+deepstrip
+(
 test
 [
 "
@@ -492,9 +560,6 @@ skip
 if
 "
 ]
-.
-strip
-(
 )
 "
 os
@@ -507,8 +572,7 @@ win
 &
 debug
 \
-n
-os
+nos
 =
 =
 '
@@ -537,6 +601,8 @@ self
 assertEqual
 (
                     
+deepstrip
+(
 test
 [
 "
@@ -545,9 +611,6 @@ skip
 if
 "
 ]
-.
-strip
-(
 )
 "
 os
@@ -560,8 +623,7 @@ win
 &
 debug
 \
-n
-os
+nos
 =
 =
 '
@@ -590,6 +652,8 @@ self
 assertEqual
 (
                     
+deepstrip
+(
 test
 [
 "
@@ -598,9 +662,6 @@ skip
 if
 "
 ]
-.
-strip
-(
 )
                     
 "
@@ -614,8 +675,7 @@ win
 &
 debug
 \
-n
-os
+nos
 =
 =
 '
@@ -646,6 +706,8 @@ self
 .
 assertEqual
 (
+deepstrip
+(
 test
 [
 "
@@ -654,9 +716,6 @@ skip
 if
 "
 ]
-.
-strip
-(
 )
 "
 os
@@ -690,6 +749,8 @@ self
 assertEqual
 (
                     
+deepstrip
+(
 test
 [
 "
@@ -698,9 +759,6 @@ skip
 if
 "
 ]
-.
-strip
-(
 )
 "
 os
@@ -713,8 +771,7 @@ win
 &
 debug
 \
-n
-debug
+ndebug
 "
                 
 )
@@ -784,6 +841,9 @@ manifests
 (
 default
 )
+use_toml
+=
+False
 )
         
 expected_supp_files
@@ -881,7 +941,7 @@ default
 -
 suppfiles
 .
-ini
+toml
 "
 )
         
@@ -1049,12 +1109,17 @@ parser
 =
 ManifestParser
 (
+            
 manifests
 =
 manifests
 handle_defaults
 =
 False
+use_toml
+=
+False
+        
 )
         
 expected_supp_files
@@ -1210,6 +1275,10 @@ test
 [
 field
 ]
+.
+strip
+(
+)
 expected
 )
         
@@ -1347,6 +1416,10 @@ actual_defaults
 [
 key
 ]
+.
+strip
+(
+)
 )
     
 def
@@ -1771,6 +1844,7 @@ parser
 =
 ManifestParser
 (
+            
 manifests
 =
 (
@@ -1779,6 +1853,10 @@ manifest
 handle_defaults
 =
 False
+use_toml
+=
+False
+        
 )
         
 expected_subsuites
