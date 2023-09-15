@@ -1702,6 +1702,17 @@ glean
 api
 "
 }
+icu_testdata
+=
+{
+path
+=
+"
+intl
+/
+icu_testdata
+"
+}
 libudev
 -
 sys
