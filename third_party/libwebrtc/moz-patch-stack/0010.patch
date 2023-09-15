@@ -197,10 +197,10 @@ screen_capturer_mac
 .
 mm
 index
-115f6440b1
+8b9af35193
 .
 .
-cad0c5b65b
+76fec13a39
 100644
 -
 -
@@ -231,10 +231,10 @@ screen_capturer_mac
 .
 mm
 -
-276
+357
 7
 +
-276
+357
 8
 bool
 ScreenCapturerMac
