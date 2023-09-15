@@ -82,6 +82,11 @@ vorbis
 via
 libvorbis
 )
+opus
+(
+via
+libopus
+)
 and
 PCM
 portion
