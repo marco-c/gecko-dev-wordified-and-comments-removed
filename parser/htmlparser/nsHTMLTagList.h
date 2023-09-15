@@ -560,6 +560,10 @@ Script
 )
 HTML_HTMLELEMENT_TAG
 (
+search
+)
+HTML_HTMLELEMENT_TAG
+(
 section
 )
 HTML_TAG
