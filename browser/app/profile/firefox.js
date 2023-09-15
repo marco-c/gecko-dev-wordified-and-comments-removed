@@ -5538,7 +5538,7 @@ pref
 "
 mousewheel
 .
-with_win
+with_meta
 .
 action
 "

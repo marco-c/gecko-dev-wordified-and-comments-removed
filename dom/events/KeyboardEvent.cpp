@@ -232,8 +232,6 @@ MODIFIER_CONTROL
 MODIFIER_ALT
 |
 MODIFIER_META
-|
-MODIFIER_OS
 ;
 Modifiers
 KeyboardEvent
@@ -714,17 +712,6 @@ internalEvent
 -
 >
 IsNumLocked
-(
-)
-;
-aParam
-.
-mModifierOS
-=
-internalEvent
--
->
-IsOS
 (
 )
 ;
