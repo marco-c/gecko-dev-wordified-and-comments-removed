@@ -175,13 +175,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h
@@ -233,13 +226,6 @@ h
 include
 "
 nsIBrowserDOMWindow
-.
-h
-"
-#
-include
-"
-nsGlobalWindow
 .
 h
 "

@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

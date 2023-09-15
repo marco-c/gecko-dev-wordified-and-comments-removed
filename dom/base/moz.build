@@ -355,11 +355,6 @@ nsFrameMessageManager
 h
 "
 "
-nsGlobalWindow
-.
-h
-"
-"
 nsGlobalWindowInner
 .
 h

@@ -714,13 +714,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsImageLoadingContent
 .
 h

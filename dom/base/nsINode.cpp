@@ -793,7 +793,7 @@ algorithm
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowInner
 .
 h
 "

@@ -258,13 +258,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsXULTooltipListener
 .
 h

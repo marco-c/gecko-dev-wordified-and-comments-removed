@@ -208,13 +208,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsStringStream
 .
 h

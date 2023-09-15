@@ -326,13 +326,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsIAlertsService
 .
 h

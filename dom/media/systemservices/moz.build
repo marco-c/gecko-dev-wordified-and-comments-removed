@@ -524,17 +524,6 @@ PMediaSystemResourceManager
 ipdl
 "
 ]
-LOCAL_INCLUDES
-+
-=
-[
-"
-/
-dom
-/
-base
-"
-]
 include
 (
 "

@@ -68,7 +68,14 @@ h
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
+nsGlobalWindowOuter
 .
 h
 "

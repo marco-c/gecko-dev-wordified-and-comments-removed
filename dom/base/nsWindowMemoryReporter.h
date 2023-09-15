@@ -7,7 +7,7 @@ nsWindowMemoryReporter_h__
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowInner
 .
 h
 "

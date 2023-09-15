@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsGlobalWindowCommands
 .
 h

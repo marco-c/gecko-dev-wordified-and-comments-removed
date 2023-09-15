@@ -7,13 +7,6 @@ WindowDestroyedEvent_h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsIWeakReferenceUtils
 .
 h
@@ -32,6 +25,12 @@ nsThreadUtils
 .
 h
 "
+class
+nsGlobalWindowInner
+;
+class
+nsGlobalWindowOuter
+;
 namespace
 mozilla
 {

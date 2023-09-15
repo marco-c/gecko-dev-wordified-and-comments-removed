@@ -585,6 +585,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

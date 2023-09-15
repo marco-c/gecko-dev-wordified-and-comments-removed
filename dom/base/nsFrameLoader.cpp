@@ -210,7 +210,7 @@ h
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowOuter
 .
 h
 "

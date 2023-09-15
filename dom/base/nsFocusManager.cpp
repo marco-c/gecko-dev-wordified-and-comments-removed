@@ -47,13 +47,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
