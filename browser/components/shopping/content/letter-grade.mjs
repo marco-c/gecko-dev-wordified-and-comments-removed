@@ -268,7 +268,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 shopping
 .
