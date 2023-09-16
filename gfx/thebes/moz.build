@@ -499,11 +499,6 @@ SOURCES
 =
 [
 "
-CoreTextFontList
-.
-cpp
-"
-"
 gfxCoreTextShaper
 .
 cpp

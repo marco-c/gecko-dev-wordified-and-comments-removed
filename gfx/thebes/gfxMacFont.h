@@ -41,7 +41,7 @@ UnscaledFontMac
 h
 "
 class
-CTFontEntry
+MacOSFontEntry
 ;
 class
 gfxMacFont
@@ -67,7 +67,7 @@ UnscaledFontMac
 >
 &
 aUnscaledFont
-CTFontEntry
+MacOSFontEntry
 *
 aFontEntry
 const
