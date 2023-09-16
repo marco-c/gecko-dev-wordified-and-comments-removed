@@ -2583,9 +2583,6 @@ dev
 "
 canary
 "
-"
-nightly
-"
 )
     
 def

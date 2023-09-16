@@ -37,7 +37,7 @@ chrome
 '
 :
 '
-nightly
+canary
 '
     
 '
