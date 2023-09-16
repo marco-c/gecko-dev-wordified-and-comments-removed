@@ -224,6 +224,12 @@ RtcEventLog
 class
 RtpPacketToSend
 ;
+constexpr
+size_t
+kMaxPaddingLength
+=
+255
+;
 class
 RTPSender
 {

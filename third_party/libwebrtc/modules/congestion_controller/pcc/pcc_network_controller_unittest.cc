@@ -700,7 +700,7 @@ TimeDelta
 :
 Seconds
 (
-20
+40
 )
 )
 ;
