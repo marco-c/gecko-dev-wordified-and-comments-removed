@@ -1510,7 +1510,9 @@ MOZLOG_DUMP_ALL_TESTS
 "
 ]
 =
+"
 1
+"
             
 logger
 .
