@@ -206,9 +206,6 @@ waitForAttribute
 soundplaying
 "
 newTab
-"
-true
-"
 )
 ;
 BrowserTestUtils
