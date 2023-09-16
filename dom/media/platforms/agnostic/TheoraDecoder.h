@@ -24,13 +24,13 @@ h
 "
 #
 include
-"
+<
 theora
 /
 theoradec
 .
 h
-"
+>
 namespace
 mozilla
 {
