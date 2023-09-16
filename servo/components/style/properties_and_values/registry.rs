@@ -14,6 +14,15 @@ selector_map
 PrecomputedHashMap
 ;
 use
+crate
+:
+:
+stylesheets
+:
+:
+UrlExtraData
+;
+use
 super
 :
 :
@@ -67,6 +76,10 @@ Option
 <
 InitialValue
 >
+pub
+url_data
+:
+UrlExtraData
 }
 #
 [

@@ -43477,6 +43477,13 @@ PropertyRegistration
 syntax
 inherits
 initial_value
+url_data
+:
+url_data
+.
+clone
+(
+)
 }
 )
 ;

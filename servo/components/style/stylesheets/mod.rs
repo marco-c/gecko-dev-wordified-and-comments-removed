@@ -584,6 +584,7 @@ gecko
 [
 derive
 (
+MallocSizeOf
 PartialEq
 )
 ]
