@@ -1810,15 +1810,6 @@ mixin
 CanvasUserInterface
 {
 [
-Pref
-=
-"
-canvas
-.
-focusring
-.
-enabled
-"
 Throws
 ]
 undefined

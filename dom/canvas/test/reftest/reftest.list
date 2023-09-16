@@ -7058,15 +7058,6 @@ html
 #
 focus
 rings
-pref
-(
-canvas
-.
-focusring
-.
-enabled
-true
-)
 fuzzy
 (
 0
