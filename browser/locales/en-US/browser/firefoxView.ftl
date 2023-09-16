@@ -1064,7 +1064,7 @@ signed
 -
 out
 -
-description
+description2
 =
 To
 reconnect
@@ -1076,14 +1076,7 @@ sign
 in
 to
 your
-{
--
-fxaccount
--
-brand
--
-name
-}
+account
 .
 firefoxview
 -
