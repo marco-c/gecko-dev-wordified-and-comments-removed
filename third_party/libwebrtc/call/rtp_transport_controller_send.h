@@ -801,8 +801,6 @@ rtc
 SentPacket
 &
 sent_packet
-bool
-posted_to_worker
 )
 RTC_RUN_ON
 (
