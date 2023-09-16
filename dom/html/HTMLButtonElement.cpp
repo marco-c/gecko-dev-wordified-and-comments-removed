@@ -1014,6 +1014,16 @@ mouseEvent
 IsLeftClickEvent
 (
 )
+&
+&
+OwnerDoc
+(
+)
+-
+>
+MayHaveDOMActivateListeners
+(
+)
 )
 {
 InternalUIEvent

@@ -12013,6 +12013,12 @@ RecomputeResistFingerprinting
 (
 )
 ;
+bool
+MayHaveDOMActivateListeners
+(
+)
+const
+;
 protected
 :
 WindowContext

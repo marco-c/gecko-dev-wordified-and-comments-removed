@@ -35546,6 +35546,10 @@ mIsHandlingResizeEvent
 (
 false
 )
+mMayHaveDOMActivateEventListeners
+(
+false
+)
 mMayHavePaintEventListener
 (
 false

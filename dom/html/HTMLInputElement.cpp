@@ -16894,6 +16894,16 @@ IsLeftClickEvent
 )
 &
 &
+OwnerDoc
+(
+)
+-
+>
+MayHaveDOMActivateListeners
+(
+)
+&
+&
 !
 ShouldPreventDOMActivateDispatch
 (
