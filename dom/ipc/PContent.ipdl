@@ -6836,6 +6836,7 @@ nullable
 nsIURI
 uri
 LoadInfoArgs
+?
 loadInfoArgs
 nsCString
 aMimeContentType
@@ -11132,6 +11133,7 @@ async
 ReportFrameTimingData
 (
 LoadInfoArgs
+?
 loadInfo
 nsString
 entryName

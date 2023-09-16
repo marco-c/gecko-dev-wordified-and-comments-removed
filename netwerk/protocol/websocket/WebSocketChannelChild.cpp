@@ -2599,7 +2599,10 @@ nsIURI
 >
 uri
 ;
+Maybe
+<
 LoadInfoArgs
+>
 loadInfoArgs
 ;
 Maybe
