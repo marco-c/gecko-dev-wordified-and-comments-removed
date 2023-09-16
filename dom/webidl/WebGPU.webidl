@@ -617,14 +617,8 @@ SecureContext
 interface
 GPU
 {
-/
-/
-May
-reject
-with
-DOMException
 [
-NewObject
+Throws
 ]
 Promise
 <
@@ -723,7 +717,7 @@ boolean
 isFallbackAdapter
 ;
 [
-NewObject
+Throws
 ]
 Promise
 <
@@ -740,7 +734,7 @@ descriptor
 )
 ;
 [
-NewObject
+Throws
 ]
 Promise
 <
@@ -922,7 +916,6 @@ destroy
 )
 ;
 [
-NewObject
 Throws
 ]
 GPUBuffer
@@ -932,9 +925,6 @@ GPUBufferDescriptor
 descriptor
 )
 ;
-[
-NewObject
-]
 GPUTexture
 createTexture
 (
@@ -942,9 +932,6 @@ GPUTextureDescriptor
 descriptor
 )
 ;
-[
-NewObject
-]
 GPUSampler
 createSampler
 (
@@ -999,7 +986,7 @@ descriptor
 )
 ;
 [
-NewObject
+Throws
 ]
 Promise
 <
@@ -1012,7 +999,7 @@ descriptor
 )
 ;
 [
-NewObject
+Throws
 ]
 Promise
 <
@@ -1024,9 +1011,6 @@ GPURenderPipelineDescriptor
 descriptor
 )
 ;
-[
-NewObject
-]
 GPUCommandEncoder
 createCommandEncoder
 (
@@ -1038,9 +1022,6 @@ descriptor
 }
 )
 ;
-[
-NewObject
-]
 GPURenderBundleEncoder
 createRenderBundleEncoder
 (
@@ -1048,11 +1029,6 @@ GPURenderBundleEncoderDescriptor
 descriptor
 )
 ;
-/
-/
-[
-NewObject
-]
 /
 /
 GPUQuerySet
@@ -1109,7 +1085,7 @@ GPUBufferMapState
 mapState
 ;
 [
-NewObject
+Throws
 ]
 Promise
 <
@@ -1130,7 +1106,6 @@ size
 )
 ;
 [
-NewObject
 Throws
 ]
 ArrayBuffer
@@ -1369,9 +1344,6 @@ SecureContext
 interface
 GPUTexture
 {
-[
-NewObject
-]
 GPUTextureView
 createView
 (
@@ -3865,9 +3837,6 @@ SecureContext
 interface
 GPUCommandEncoder
 {
-[
-NewObject
-]
 GPURenderPassEncoder
 beginRenderPass
 (
@@ -3875,9 +3844,6 @@ GPURenderPassDescriptor
 descriptor
 )
 ;
-[
-NewObject
-]
 GPUComputePassEncoder
 beginComputePass
 (
@@ -3937,9 +3903,6 @@ GPUExtent3D
 copySize
 )
 ;
-[
-NewObject
-]
 GPUCommandBuffer
 finish
 (
@@ -4728,7 +4691,7 @@ buffers
 )
 ;
 [
-NewObject
+Throws
 ]
 Promise
 <
@@ -5271,7 +5234,7 @@ filter
 )
 ;
 [
-NewObject
+Throws
 ]
 Promise
 <
