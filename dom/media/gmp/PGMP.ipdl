@@ -1,7 +1,4 @@
 include
-PrefsTypes
-;
-include
 protocol
 PGMPContent
 ;
@@ -180,13 +177,6 @@ Endpoint
 PProfilerChild
 >
 endpoint
-)
-;
-async
-PreferenceUpdate
-(
-Pref
-pref
 )
 ;
 async

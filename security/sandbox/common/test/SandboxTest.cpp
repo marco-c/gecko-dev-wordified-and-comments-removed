@@ -1235,7 +1235,10 @@ RefPtr
 gmp
 :
 :
-GMPContentParentCloseBlocker
+GMPContentParent
+:
+:
+CloseBlocker
 >
 &
 wrapper
