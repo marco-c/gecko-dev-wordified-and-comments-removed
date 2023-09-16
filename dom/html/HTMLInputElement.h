@@ -4410,6 +4410,15 @@ aCallerType
 void
 UpdateHasRange
 (
+bool
+aNotify
+)
+;
+void
+UpdateInRange
+(
+bool
+aNotify
 )
 ;
 Decimal
