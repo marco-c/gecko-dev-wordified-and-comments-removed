@@ -834,6 +834,18 @@ notification_enable_delay
 0
         
 "
+security
+.
+remote_settings
+.
+intermediates
+.
+enabled
+"
+:
+False
+        
+"
 services
 .
 settings
