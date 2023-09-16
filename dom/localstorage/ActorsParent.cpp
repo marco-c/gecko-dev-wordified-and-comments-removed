@@ -28356,9 +28356,7 @@ quotaManager
 >
 CreateDirectoryLock
 (
-mOriginMetadata
-.
-mPersistenceType
+{
 mOriginMetadata
 mozilla
 :
@@ -28373,6 +28371,7 @@ Client
 :
 :
 LS
+}
 false
 )
 ;

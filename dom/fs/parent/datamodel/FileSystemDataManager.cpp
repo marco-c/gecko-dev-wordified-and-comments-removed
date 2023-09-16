@@ -2673,10 +2673,7 @@ mQuotaManager
 >
 CreateDirectoryLock
 (
-quota
-:
-:
-PERSISTENCE_TYPE_DEFAULT
+{
 mOriginMetadata
 mozilla
 :
@@ -2691,6 +2688,7 @@ Client
 :
 :
 FILESYSTEM
+}
 false
 )
 ;
