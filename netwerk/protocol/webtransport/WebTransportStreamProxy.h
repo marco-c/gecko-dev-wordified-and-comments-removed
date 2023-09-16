@@ -141,6 +141,14 @@ aId
 )
 override
 ;
+NS_IMETHOD
+SetSendOrder
+(
+int64_t
+aSendOrder
+)
+override
+;
 private
 :
 virtual

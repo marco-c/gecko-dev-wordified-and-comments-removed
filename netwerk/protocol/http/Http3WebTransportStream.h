@@ -183,6 +183,13 @@ return
 nullptr
 ;
 }
+void
+SetSendOrder
+(
+int64_t
+aSendOrder
+)
+;
 [
 [
 nodiscard
