@@ -280,10 +280,6 @@ V
 (
 mLib
 aParams
-.
-AudioConfig
-(
-)
 )
 ;
 return
