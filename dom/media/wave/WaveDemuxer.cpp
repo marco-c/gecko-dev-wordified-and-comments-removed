@@ -4043,15 +4043,6 @@ ExtraFormatInfoSize
 )
 <
 22
-|
-|
-mRaw
-.
-Length
-(
-)
-<
-22
 )
 {
 return
@@ -4070,9 +4061,7 @@ Map
 )
 ;
 }
-auto
-channelMap
-=
+return
 static_cast
 <
 AudioConfig
@@ -4104,9 +4093,6 @@ mRaw
 18
 ]
 )
-;
-return
-channelMap
 ;
 }
 DataParser
