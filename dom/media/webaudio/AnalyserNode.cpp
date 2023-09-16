@@ -1673,7 +1673,7 @@ i
 double
 scalarMagnitude
 =
-NS_hypot
+fdlibm_hypot
 (
 mAnalysisBlock
 .
