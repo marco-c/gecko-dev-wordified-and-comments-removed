@@ -2868,13 +2868,8 @@ ELEMENT_STYLE
 )
 {
 return
-Promise
-.
-resolve
-(
 "
 "
-)
 ;
 }
 let
@@ -3012,12 +3007,7 @@ text
 )
 ;
 return
-Promise
-.
-resolve
-(
 result
-)
 ;
 }
 async
