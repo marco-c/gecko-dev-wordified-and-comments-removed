@@ -213,13 +213,6 @@ sys
 .
 mjs
 "
-"
-PluralForm
-.
-sys
-.
-mjs
-"
 ]
 XPCOM_MANIFESTS
 +
