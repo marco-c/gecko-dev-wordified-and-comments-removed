@@ -546,6 +546,9 @@ promiseExtensionProcessCrashNotified
 childID
 :
 currentProcessChildID
+appInForeground
+:
+true
 }
 "
 Got
