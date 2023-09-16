@@ -322,12 +322,13 @@ strict
 ;
 add_task
 (
+async
 (
 )
 =
 >
 {
-return
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -350,6 +351,11 @@ true
 ]
 ]
 }
+)
+;
+await
+addVirtualAuthenticator
+(
 )
 ;
 }

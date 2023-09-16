@@ -43,6 +43,10 @@ com
 /
 "
 ;
+add_virtual_authenticator
+(
+)
+;
 function
 getTelemetryForScalar
 (

@@ -47,6 +47,10 @@ Security
 "
 )
 ;
+add_virtual_authenticator
+(
+)
+;
 add_task
 (
 async
