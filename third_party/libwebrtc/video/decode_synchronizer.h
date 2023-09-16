@@ -443,6 +443,11 @@ RTC_GUARDED_BY
 worker_queue_
 )
 ;
+bool
+tick_scheduled_
+=
+false
+;
 ScopedTaskSafetyDetached
 safety_
 ;
