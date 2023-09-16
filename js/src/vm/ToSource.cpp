@@ -789,7 +789,7 @@ names
 (
 )
 .
-void0
+void_0_
 ;
 case
 JS

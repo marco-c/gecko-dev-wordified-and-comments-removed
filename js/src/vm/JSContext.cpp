@@ -1349,7 +1349,7 @@ names
 (
 )
 .
-outOfMemory
+out_of_memory_
 )
 )
 ;
@@ -5496,7 +5496,7 @@ names
 (
 )
 .
-outOfMemory
+out_of_memory_
 )
 ;
 }
