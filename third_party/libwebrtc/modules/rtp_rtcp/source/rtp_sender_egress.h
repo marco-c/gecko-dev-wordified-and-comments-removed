@@ -370,8 +370,13 @@ RtpSenderEgress
 void
 SendPacket
 (
+std
+:
+:
+unique_ptr
+<
 RtpPacketToSend
-*
+>
 packet
 const
 PacedPacketInfo

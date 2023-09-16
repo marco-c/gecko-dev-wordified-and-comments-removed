@@ -1743,8 +1743,13 @@ ModuleRtpRtcpImpl
 :
 TrySendPacket
 (
+std
+:
+:
+unique_ptr
+<
 RtpPacketToSend
-*
+>
 packet
 const
 PacedPacketInfo
@@ -1895,6 +1900,10 @@ packet_sender
 SendPacket
 (
 packet
+.
+get
+(
+)
 pacing_info
 )
 ;

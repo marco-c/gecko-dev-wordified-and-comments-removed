@@ -616,8 +616,13 @@ MOCK_METHOD
 bool
 TrySendPacket
 (
+std
+:
+:
+unique_ptr
+<
 RtpPacketToSend
-*
+>
 packet
 const
 PacedPacketInfo

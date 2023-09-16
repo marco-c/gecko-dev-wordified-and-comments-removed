@@ -192,6 +192,14 @@ using
 testing
 :
 :
+Pointee
+;
+using
+:
+:
+testing
+:
+:
 Property
 ;
 using
@@ -1159,11 +1167,6 @@ EXPECT_CALL
 rtp_1
 TrySendPacket
 (
-:
-:
-testing
-:
-:
 Pointee
 (
 Property
@@ -1257,11 +1260,6 @@ EXPECT_CALL
 rtp_2
 TrySendPacket
 (
-:
-:
-testing
-:
-:
 Pointee
 (
 Property
@@ -1355,11 +1353,6 @@ EXPECT_CALL
 rtp_3
 TrySendPacket
 (
-:
-:
-testing
-:
-:
 Pointee
 (
 Property
@@ -2217,6 +2210,8 @@ EXPECT_CALL
 rtp_1
 TrySendPacket
 (
+Pointee
+(
 Property
 (
 &
@@ -2228,6 +2223,7 @@ HasExtension
 TransportSequenceNumber
 >
 false
+)
 )
 _
 )
@@ -2373,6 +2369,8 @@ EXPECT_CALL
 rtp_1
 TrySendPacket
 (
+Pointee
+(
 Property
 (
 &
@@ -2384,6 +2382,7 @@ GetExtension
 TransportSequenceNumber
 >
 transport_sequence_number
+)
 )
 _
 )
@@ -2442,6 +2441,8 @@ EXPECT_CALL
 rtp_2
 TrySendPacket
 (
+Pointee
+(
 Property
 (
 &
@@ -2453,6 +2454,7 @@ GetExtension
 TransportSequenceNumber
 >
 transport_sequence_number
+)
 )
 _
 )
@@ -2572,6 +2574,8 @@ EXPECT_CALL
 rtp
 TrySendPacket
 (
+Pointee
+(
 Property
 (
 &
@@ -2583,6 +2587,7 @@ GetExtension
 TransportSequenceNumber
 >
 kStartTransportSequenceNumber
+)
 )
 _
 )
@@ -2637,6 +2642,8 @@ EXPECT_CALL
 rtp
 TrySendPacket
 (
+Pointee
+(
 Property
 (
 &
@@ -2648,6 +2655,7 @@ GetExtension
 TransportSequenceNumber
 >
 kStartTransportSequenceNumber
+)
 )
 _
 )
