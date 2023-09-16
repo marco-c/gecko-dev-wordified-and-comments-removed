@@ -2242,11 +2242,6 @@ RemoteIsReadyToHandleInputEvents
 (
 )
 ;
-async
-PaintWhileInterruptingJSNoOp
-(
-)
-;
 child
 :
 async

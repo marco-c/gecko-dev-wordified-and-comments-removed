@@ -3156,17 +3156,6 @@ ipc
 :
 :
 IPCResult
-RecvPaintWhileInterruptingJSNoOp
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvSetDimensions
 (
 mozilla
