@@ -1763,7 +1763,7 @@ return
 !
 context
 .
-in_ua_or_chrome_sheet
+chrome_rules_enabled
 (
 )
 &
@@ -1808,7 +1808,7 @@ return
 !
 context
 .
-in_ua_or_chrome_sheet
+chrome_rules_enabled
 (
 )
 &
@@ -1855,7 +1855,7 @@ return
 !
 context
 .
-in_ua_or_chrome_sheet
+chrome_rules_enabled
 (
 )
 &
@@ -1902,7 +1902,7 @@ return
 !
 context
 .
-in_ua_or_chrome_sheet
+chrome_rules_enabled
 (
 )
 &
@@ -2305,7 +2305,7 @@ expect_ident
 if
 context
 .
-in_ua_or_chrome_sheet
+chrome_rules_enabled
 (
 )
 {

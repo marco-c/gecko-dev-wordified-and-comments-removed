@@ -1547,16 +1547,10 @@ ParserContext
 >
 bool
 {
-use
-static_prefs
-:
-:
-pref
-;
 if
 context
 .
-in_ua_or_chrome_sheet
+chrome_rules_enabled
 (
 )
 {
@@ -1565,6 +1559,9 @@ true
 ;
 }
 if
+static_prefs
+:
+:
 pref
 !
 (
