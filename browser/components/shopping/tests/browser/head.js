@@ -724,6 +724,14 @@ type
 "
 )
 ;
+returnState
+.
+isOffline
+=
+shoppingContainer
+.
+isOffline
+;
 return
 returnState
 ;
