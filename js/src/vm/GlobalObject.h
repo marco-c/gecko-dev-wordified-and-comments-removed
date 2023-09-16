@@ -697,12 +697,6 @@ boundFunctionShapeWithDefaultProto
 RegExpRealm
 regExpRealm
 ;
-UniquePtr
-<
-RegExpStatics
->
-regExpStatics
-;
 HeapPtr
 <
 ArgumentsObject

@@ -1623,6 +1623,12 @@ Indices
 NumKinds
 }
 ;
+UniquePtr
+<
+RegExpStatics
+>
+regExpStatics
+;
 private
 :
 HeapPtr
