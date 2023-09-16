@@ -619,6 +619,9 @@ currentProcessChildID
 processSpawningDisabled
 :
 false
+appInForeground
+:
+true
 }
 "
 Got
