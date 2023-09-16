@@ -7,13 +7,6 @@ WEBGL_TRANSFORM_FEEDBACK_H_
 #
 include
 "
-WebGLContext
-.
-h
-"
-#
-include
-"
 WebGLObjectModel
 .
 h
