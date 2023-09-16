@@ -2589,6 +2589,10 @@ MSG
 sLastKeyMSG
 ;
 static
+char16_t
+sPendingHighSurrogate
+;
+static
 bool
 IsEmptyMSG
 (
