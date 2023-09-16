@@ -124,6 +124,16 @@ True
 DEFINES
 [
 "
+WEBRTC_APM_DEBUG_DUMP
+"
+]
+=
+"
+1
+"
+DEFINES
+[
+"
 WEBRTC_ENABLE_PROTOBUF
 "
 ]
