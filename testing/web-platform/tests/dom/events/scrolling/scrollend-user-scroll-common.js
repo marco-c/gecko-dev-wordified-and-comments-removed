@@ -277,6 +277,7 @@ createScrollendPromiseForTarget
 (
 t
 target_div
+1000
 )
 ;
 verifyNoScrollendOnDocument
