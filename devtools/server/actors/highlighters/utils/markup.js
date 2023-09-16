@@ -1155,8 +1155,9 @@ this
 .
 anonymousContentDocument
 .
-createElement
+createElementNS
 (
+XHTML_NS
 "
 link
 "
