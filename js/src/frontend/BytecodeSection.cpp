@@ -55,6 +55,15 @@ h
 #
 include
 "
+js
+/
+ColumnNumber
+.
+h
+"
+#
+include
+"
 vm
 /
 BytecodeUtil
@@ -1019,7 +1028,10 @@ FrontendContext
 fc
 uint32_t
 lineNum
-uint32_t
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 column
 )
 :
