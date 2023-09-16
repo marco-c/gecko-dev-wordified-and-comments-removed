@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-15e9b8d197db2aea29e40db6f018a792f14cc530
+634d3c7e621ac72a1d32faa8e01637e3f1782443
 '
 #
 Fetch
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-99cf5daace8fbfb4ba9107c2311d345afa4071e8
+2d114bd897447bb1afcd0ae9f81e8a41dd4aca91
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-1f716e1171d6166bf8f9213189c86d32b25f7896
+c2564f39b7b946fb69910be679afdec534741d0f
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-3069405d544bd581e9803ff39dc60b262f0d18de
+ce9a1cc97845bad0936baf9cc9c0cd7550540f86
 '
 '
 src
@@ -1519,7 +1519,7 @@ tools
 depot_tools
 .
 git
-3a5cc4081382ea47793f166b3d71b19e35ad83f7
+63d20c330ba3ba5f644ade9e50b22ef3be09c1b8
 '
 '
 src
@@ -1708,7 +1708,7 @@ third_party
 freetype2
 .
 git
-2342a03a9d3e58a82e698fc4074dc2e5f95c4e26
+562f34819229080abb05b4e7ae7e9e47fc84c6eb
 '
 '
 src
@@ -2458,7 +2458,7 @@ com
 aom
 .
 git
-b5f92a98836e0ed7c84cf584b5523516b15d24bd
+0a770ff99dfb2fc8c2c50f3b9bb0fec620316224
 '
 '
 src
@@ -2585,7 +2585,7 @@ libyuv
 libyuv
 .
 git
-a37799344d29dc8e4d3fb00ced5f07e5ce8bf1b9
+8670bcf17faca69603d2d49fa6ebd0e45123471f
 '
 '
 src
@@ -2957,7 +2957,7 @@ chromium
 src
 /
 tools
-fee54dd10a2f4b154f6308f78d209179ac442cc0
+2fe69ef6f505eb602b44b15d8e7358a36ef15f64
 '
 '
 src
