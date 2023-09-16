@@ -23142,9 +23142,6 @@ return
 nullptr
 ;
 }
-ErrorResult
-err
-;
 RefPtr
 <
 Event
@@ -23165,12 +23162,12 @@ CallerType
 :
 :
 System
-err
+aErrorResult
 )
 ;
 if
 (
-err
+aErrorResult
 .
 Failed
 (
