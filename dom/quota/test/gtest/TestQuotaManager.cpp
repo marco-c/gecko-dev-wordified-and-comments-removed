@@ -4067,7 +4067,7 @@ ShutdownStorage
 TEST_F
 (
 TestQuotaManager
-DISABLED_ShutdownStorage_OngoingWithClientDirectoryLock
+ShutdownStorage_OngoingWithClientDirectoryLock
 )
 {
 PerformOnBackgroundThread
