@@ -67,10 +67,10 @@ patch
 revert_Token_serialization_and_deserialization
 .
 patch
-remove_unused_functions_from_StrtodTrimmed
+remove_extraneous_backslash_introduced_by_clang_tidy
 .
 patch
-remove_extraneous_backslash_introduced_by_clang_tidy
+use_mfbt_double_conversion
 .
 patch
 remove_include_delayimp_h_from_pe_image_cc
