@@ -7361,7 +7361,7 @@ innerWindow
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

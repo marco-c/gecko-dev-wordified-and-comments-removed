@@ -480,7 +480,7 @@ GetParentObject
 )
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 aCreated

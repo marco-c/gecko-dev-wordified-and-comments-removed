@@ -7105,7 +7105,7 @@ GetPermissionInternal
 aGlobal
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 aRv

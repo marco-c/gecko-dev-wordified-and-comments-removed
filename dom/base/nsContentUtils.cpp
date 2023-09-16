@@ -55679,7 +55679,7 @@ window
 aGlobal
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 )
@@ -55775,7 +55775,7 @@ Cast
 aGlobal
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 )

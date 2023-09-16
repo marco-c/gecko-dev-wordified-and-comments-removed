@@ -1325,7 +1325,7 @@ nsPIDOMWindowInner
 nsIGlobalObject
 :
 :
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 {

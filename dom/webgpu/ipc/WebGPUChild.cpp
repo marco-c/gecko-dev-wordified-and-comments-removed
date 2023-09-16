@@ -4627,7 +4627,7 @@ Cast
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 )

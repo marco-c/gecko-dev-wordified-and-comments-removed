@@ -220,7 +220,7 @@ if
 globalObject
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 &
@@ -229,7 +229,7 @@ AsInnerWindow
 globalObject
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 -

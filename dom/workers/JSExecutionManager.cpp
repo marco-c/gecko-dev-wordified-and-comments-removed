@@ -771,7 +771,7 @@ innerWindow
 aGlobalObject
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

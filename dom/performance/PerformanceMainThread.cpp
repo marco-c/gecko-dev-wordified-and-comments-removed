@@ -2677,7 +2677,7 @@ doc
 ownerGlobal
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 -

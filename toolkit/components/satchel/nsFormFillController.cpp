@@ -3668,7 +3668,7 @@ inner
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

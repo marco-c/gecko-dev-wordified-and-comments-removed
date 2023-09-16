@@ -229,7 +229,7 @@ innerWindow
 aGlobal
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

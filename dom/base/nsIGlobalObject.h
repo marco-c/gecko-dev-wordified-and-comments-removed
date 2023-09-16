@@ -662,7 +662,7 @@ const
 ;
 nsPIDOMWindowInner
 *
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

@@ -19146,7 +19146,7 @@ window
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 )
@@ -36442,7 +36442,7 @@ window
 aGlobal
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;
@@ -88857,7 +88857,7 @@ win
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 )
