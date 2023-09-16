@@ -4755,17 +4755,6 @@ return
 false
 ;
 }
-if
-(
-IsKdeDesktopEnvironment
-(
-)
-)
-{
-return
-false
-;
-}
 return
 true
 ;
