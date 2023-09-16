@@ -27306,6 +27306,11 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+if
+(
+gAppData
+)
+{
 nsCOMPtr
 <
 nsIFile
@@ -27313,17 +27318,9 @@ nsIFile
 greOmni
 =
 gAppData
-?
-gAppData
 -
 >
 xreDirectory
-:
-GreOmniPath
-(
-aArgc
-aArgv
-)
 ;
 if
 (
@@ -27347,6 +27344,7 @@ greOmni
 greOmni
 )
 ;
+}
 #
 endif
 return
