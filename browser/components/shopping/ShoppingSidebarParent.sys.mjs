@@ -78,6 +78,7 @@ active
 updateProductURL
 (
 uri
+flags
 )
 {
 this
@@ -99,6 +100,19 @@ spec
 ?
 ?
 null
+isReload
+:
+!
+!
+(
+flags
+&
+Ci
+.
+nsIWebProgressListener
+.
+LOCATION_CHANGE_RELOAD
+)
 }
 )
 ;

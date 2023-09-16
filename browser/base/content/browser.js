@@ -25516,6 +25516,7 @@ onLocationChange
 (
 aBrowser
 aLocationURI
+aFlags
 )
 ;
 }
@@ -43701,6 +43702,7 @@ onLocationChange
 (
 selectedBrowser
 currentURI
+0
 )
 ;
 }
@@ -43708,6 +43710,7 @@ onLocationChange
 (
 aBrowser
 aLocationURI
+aFlags
 )
 {
 if
@@ -43870,6 +43873,7 @@ actor
 updateProductURL
 (
 aLocationURI
+aFlags
 )
 ;
 sidebar
