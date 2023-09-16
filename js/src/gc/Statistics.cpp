@@ -10109,7 +10109,7 @@ _2
 \
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
@@ -10139,7 +10139,7 @@ _2
 \
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
@@ -10388,7 +10388,7 @@ value
 \
 sprinter
 .
-jsprintf
+printf
 (
 "
 "
@@ -10911,7 +10911,7 @@ ToMilliseconds
 ;
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
@@ -11055,7 +11055,7 @@ value
 \
 sprinter
 .
-jsprintf
+printf
 (
 "
 "
@@ -11079,7 +11079,7 @@ SliceMetadataFormatWidth
 ;
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
