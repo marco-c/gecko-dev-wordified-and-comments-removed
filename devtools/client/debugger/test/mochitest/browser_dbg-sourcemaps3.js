@@ -165,7 +165,7 @@ id
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 1
@@ -177,7 +177,7 @@ Block
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 2
@@ -189,7 +189,7 @@ na
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 3
@@ -201,7 +201,7 @@ nb
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 4
@@ -221,7 +221,7 @@ dbg
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 5
@@ -233,7 +233,7 @@ ma
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 6
@@ -252,7 +252,7 @@ dbg
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 8
@@ -264,7 +264,7 @@ a
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 9
@@ -276,7 +276,7 @@ b
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 10
@@ -295,7 +295,7 @@ dbg
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 11
@@ -314,7 +314,7 @@ r
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 12
@@ -332,7 +332,7 @@ e
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 13

@@ -4749,7 +4749,7 @@ val
 {
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 i
@@ -4764,7 +4764,7 @@ val
 ;
 is
 (
-getScopeValue
+getScopeNodeValue
 (
 dbg
 i
@@ -4802,7 +4802,7 @@ else
 {
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 i
@@ -4816,7 +4816,7 @@ val
 }
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 items
@@ -9580,7 +9580,7 @@ index
 ;
 }
 function
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 index
@@ -9600,7 +9600,7 @@ innerText
 ;
 }
 function
-getScopeValue
+getScopeNodeValue
 (
 dbg
 index
