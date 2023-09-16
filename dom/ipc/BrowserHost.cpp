@@ -1185,16 +1185,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-if
-(
-StaticPrefs
-:
-:
-dom_ipc_cancel_content_js_when_navigating
-(
-)
-)
-{
 GetContentParent
 (
 )
@@ -1207,7 +1197,6 @@ aNavigationType
 cancelContentJSOptions
 )
 ;
-}
 return
 NS_OK
 ;
