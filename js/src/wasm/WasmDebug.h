@@ -332,10 +332,10 @@ getOffsetLocation
 (
 uint32_t
 offset
-size_t
+uint32_t
 *
 lineno
-size_t
+uint32_t
 *
 column
 )

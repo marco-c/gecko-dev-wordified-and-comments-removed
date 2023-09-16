@@ -769,7 +769,7 @@ false
 ;
 }
 }
-size_t
+uint32_t
 frontLineNumber
 (
 )
@@ -779,7 +779,7 @@ return
 lineno
 ;
 }
-size_t
+uint32_t
 frontColumnNumber
 (
 )
@@ -1072,13 +1072,13 @@ frontPC
 )
 ;
 }
-size_t
+uint32_t
 initialLine
 ;
-size_t
+uint32_t
 lineno
 ;
-size_t
+uint32_t
 column
 ;
 const
