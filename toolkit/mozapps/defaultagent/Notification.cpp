@@ -1386,7 +1386,7 @@ CreateSuccess
 ;
 }
 static
-HRESULT
+void
 SetDefaultBrowserFromNotification
 (
 const
@@ -1395,10 +1395,10 @@ wchar_t
 aumi
 )
 {
-HRESULT
-hr
+nsresult
+rv
 =
-E_FAIL
+NS_ERROR_FAILURE
 ;
 if
 (
@@ -1407,7 +1407,7 @@ GetPrefSetDefaultBrowserUserChoice
 )
 )
 {
-hr
+rv
 =
 SetDefaultBrowserUserChoice
 (
@@ -1417,10 +1417,9 @@ aumi
 }
 if
 (
-!
-FAILED
+NS_SUCCEEDED
 (
-hr
+rv
 )
 )
 {
@@ -1459,9 +1458,6 @@ LaunchModernSettingsDialogDefaultApps
 )
 ;
 }
-return
-hr
-;
 }
 struct
 HandlerData
