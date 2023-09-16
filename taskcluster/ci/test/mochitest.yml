@@ -2589,14 +2589,6 @@ android
 :
 [
 ]
-.
-*
-wayland
-.
-*
-:
-[
-]
 default
 :
 built
