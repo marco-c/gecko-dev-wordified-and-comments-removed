@@ -149,13 +149,7 @@ color
 ;
 propertyView
 .
-buildMain
-(
-)
-;
-propertyView
-.
-buildSelectorContainer
+createElements
 (
 )
 ;
