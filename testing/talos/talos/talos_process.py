@@ -13,15 +13,21 @@ traceback
 from
 threading
 import
-Timer
+Event
 import
 mozcrash
 import
 psutil
+import
+six
 from
 mozlog
 import
 get_proxy_logger
+from
+mozprocess
+import
+ProcessHandler
 from
 talos
 .
@@ -360,6 +366,7 @@ def
 __init__
 (
 self
+event
 )
 :
         
@@ -397,6 +404,12 @@ False
         
 self
 .
+event
+=
+event
+        
+self
+.
 proc
 =
 None
@@ -411,14 +424,11 @@ line
         
 line
 =
-line
+six
 .
-strip
+ensure_str
 (
-"
-\
-n
-"
+line
 )
         
 if
@@ -441,6 +451,14 @@ self
 got_end_timestamp
 =
 True
+            
+self
+.
+event
+.
+set
+(
+)
         
 elif
 line
@@ -466,6 +484,14 @@ timeout_message
 "
 TART
 "
+            
+self
+.
+event
+.
+set
+(
+)
         
 elif
 line
@@ -488,6 +514,14 @@ self
 got_error
 =
 True
+            
+self
+.
+event
+.
+set
+(
+)
         
 if
 not
@@ -770,9 +804,7 @@ the
 :
 class
 :
-subprocess
-.
-Popen
+ProcessHandler
                    
 instance
     
@@ -878,10 +910,17 @@ wait_for_quit_timeout
 =
 20
     
+event
+=
+Event
+(
+)
+    
 reader
 =
 Reader
 (
+event
 )
     
 LOG
@@ -909,62 +948,43 @@ env
 )
 )
     
-timed_out
+kwargs
+[
+"
+storeOutput
+"
+]
 =
 False
     
-def
-timeout_handler
-(
-)
-:
-        
-nonlocal
-timed_out
-        
-timed_out
+kwargs
+[
+"
+processOutputLine
+"
+]
 =
-True
+reader
     
-proc_timer
+kwargs
+[
+"
+onFinish
+"
+]
 =
-Timer
-(
-timeout
-timeout_handler
-)
-    
-proc_timer
+event
 .
-start
-(
-)
+set
     
 proc
 =
-subprocess
-.
-Popen
+ProcessHandler
 (
-        
 command
-stdout
-=
-subprocess
-.
-PIPE
-stderr
-=
-subprocess
-.
-STDOUT
-text
-=
-True
 *
 *
 kwargs
-    
 )
     
 reader
@@ -972,6 +992,12 @@ reader
 proc
 =
 proc
+    
+proc
+.
+run
+(
+)
     
 LOG
 .
@@ -1016,23 +1042,16 @@ context
 process
 )
         
-for
-line
-in
-proc
-.
-stdout
-:
-            
-reader
-(
-line
-)
-            
 if
-timed_out
+not
+event
+.
+wait
+(
+timeout
+)
 :
-                
+            
 LOG
 .
 info
@@ -1051,13 +1070,13 @@ browser
 .
 "
 )
-                
+            
 kill_and_get_minidump
 (
 context
 minidump_dir
 )
-                
+            
 raise
 TalosError
 (
@@ -1065,8 +1084,6 @@ TalosError
 timeout
 "
 )
-                
-break
         
 if
 reader
@@ -1074,12 +1091,33 @@ reader
 got_end_timestamp
 :
             
+for
+i
+in
+six
+.
+moves
+.
+range
+(
+1
+wait_for_quit_timeout
+)
+:
+                
+if
 proc
 .
 wait
 (
-wait_for_quit_timeout
+1
 )
+is
+not
+None
+:
+                    
+break
             
 if
 proc
@@ -1194,12 +1232,6 @@ error
     
 finally
 :
-        
-proc_timer
-.
-cancel
-(
-)
         
 return_code
 =
