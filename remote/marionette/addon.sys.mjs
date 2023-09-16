@@ -178,7 +178,7 @@ occured
 ]
 :
 "
-ERROR_INCORECT_HASH
+ERROR_INCORRECT_HASH
 :
 The
 downloaded
