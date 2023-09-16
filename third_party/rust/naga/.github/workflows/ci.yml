@@ -22,7 +22,7 @@ MSRV
 :
 1
 .
-63
+65
 jobs
 :
 check
@@ -163,9 +163,6 @@ Z
 minimal
 -
 versions
--
--
-offline
 -
 name
 :
