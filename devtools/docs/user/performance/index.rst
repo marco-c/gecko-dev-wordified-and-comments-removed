@@ -27,7 +27,7 @@ about
 the
 new
 performance
-took
+tool
 (
 also
 known
