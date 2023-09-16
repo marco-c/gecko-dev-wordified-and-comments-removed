@@ -2766,7 +2766,7 @@ allowed
 document
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 ;
@@ -2802,7 +2802,7 @@ Debug
 aWindow
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )
@@ -3900,7 +3900,7 @@ inner
 inner
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )

@@ -18931,7 +18931,7 @@ SetTriggeringStorageAccess
 innerWin
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )
@@ -19967,7 +19967,7 @@ triggeringStorageAccess
 aDocument
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 ;
@@ -24344,7 +24344,7 @@ SetTriggeringStorageAccess
 doc
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )
@@ -46554,7 +46554,7 @@ SetTriggeringStorageAccess
 contextDoc
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )
@@ -57103,7 +57103,7 @@ OwnerDoc
 )
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 ;
