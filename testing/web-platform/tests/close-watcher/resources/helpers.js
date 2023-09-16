@@ -140,7 +140,7 @@ name
 ;
 window
 .
-sendCloseSignal
+sendEscKey
 =
 (
 )
@@ -172,4 +172,12 @@ ESC
 )
 ;
 }
+;
+window
+.
+sendCloseSignal
+=
+window
+.
+sendEscKey
 ;
