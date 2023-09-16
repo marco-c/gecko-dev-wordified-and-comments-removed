@@ -284,6 +284,15 @@ HandleTrailingSeparator
 ;
 }
 ;
+bool
+IsUUIDOrigin
+(
+const
+nsCString
+&
+aOrigin
+)
+;
 }
 }
 #
