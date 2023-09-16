@@ -150,7 +150,6 @@ Credential
 {
 [
 SameObject
-Throws
 ]
 readonly
 attribute
@@ -236,7 +235,6 @@ AuthenticatorResponse
 {
 [
 SameObject
-Throws
 ]
 readonly
 attribute
@@ -267,7 +265,6 @@ AuthenticatorResponse
 {
 [
 SameObject
-Throws
 ]
 readonly
 attribute
@@ -298,7 +295,6 @@ AuthenticatorResponse
 {
 [
 SameObject
-Throws
 ]
 readonly
 attribute
@@ -307,7 +303,6 @@ authenticatorData
 ;
 [
 SameObject
-Throws
 ]
 readonly
 attribute
@@ -316,7 +311,6 @@ signature
 ;
 [
 SameObject
-Throws
 ]
 readonly
 attribute
