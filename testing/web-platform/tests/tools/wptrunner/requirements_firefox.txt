@@ -49,9 +49,9 @@ mozrunner
 =
 8
 .
-2
+3
 .
-1
+0
 mozversion
 =
 =
