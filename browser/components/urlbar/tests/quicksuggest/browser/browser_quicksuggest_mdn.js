@@ -341,7 +341,9 @@ gBrowser
 .
 selectedBrowser
 false
-suggestion
+result
+.
+payload
 .
 url
 )
