@@ -1153,15 +1153,8 @@ True
 :
 choice
 =
-raw_input
+input
 (
-)
-.
-decode
-(
-'
-utf8
-'
 )
 try
 :
