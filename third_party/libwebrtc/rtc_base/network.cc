@@ -671,7 +671,7 @@ ip
 {
 RTC_LOG
 (
-LS_INFO
+LS_VERBOSE
 )
 <
 <
