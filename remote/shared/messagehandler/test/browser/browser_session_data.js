@@ -902,12 +902,13 @@ created
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString
 (
 gBrowser
+.
+selectedBrowser
 "
 https
 :
