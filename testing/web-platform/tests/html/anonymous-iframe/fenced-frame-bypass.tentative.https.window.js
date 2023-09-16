@@ -55,6 +55,7 @@ cross_origin
 const
 fenced_frame
 =
+await
 newFencedFrame
 (
 cross_origin
