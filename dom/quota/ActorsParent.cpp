@@ -19716,7 +19716,7 @@ void
 QuotaManager
 :
 :
-AssertStorageIsInitialized
+AssertStorageIsInitializedInternal
 (
 )
 const
@@ -19727,7 +19727,7 @@ AssertIsOnIOThread
 ;
 MOZ_ASSERT
 (
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -20959,7 +20959,7 @@ nsresult
 QuotaManager
 :
 :
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 {

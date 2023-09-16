@@ -138,7 +138,7 @@ ASSERT_FALSE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -148,7 +148,7 @@ ASSERT_NS_SUCCEEDED
 quotaManager
 -
 >
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -158,7 +158,7 @@ ASSERT_TRUE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -201,7 +201,7 @@ ASSERT_FALSE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -258,7 +258,7 @@ ASSERT_FALSE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -268,7 +268,7 @@ ASSERT_NS_SUCCEEDED
 quotaManager
 -
 >
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -278,7 +278,7 @@ ASSERT_TRUE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -457,7 +457,7 @@ ASSERT_FALSE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -514,7 +514,7 @@ ASSERT_FALSE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -524,7 +524,7 @@ ASSERT_NS_SUCCEEDED
 quotaManager
 -
 >
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -534,7 +534,7 @@ ASSERT_TRUE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -725,7 +725,7 @@ ASSERT_FALSE
 quotaManager
 -
 >
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )

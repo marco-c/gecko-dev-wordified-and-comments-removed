@@ -299,7 +299,7 @@ ASSERT_NS_SUCCEEDED
 quotaManager
 -
 >
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )

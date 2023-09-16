@@ -10682,7 +10682,7 @@ MOZ_TO_RESULT
 quotaManager
 -
 >
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -28616,7 +28616,7 @@ MOZ_TO_RESULT
 quotaManager
 -
 >
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )

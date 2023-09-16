@@ -3115,7 +3115,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -3921,7 +3921,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -4304,7 +4304,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -4681,7 +4681,7 @@ mInitialized
 =
 aQuotaManager
 .
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 ;
@@ -4847,7 +4847,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -4937,7 +4937,7 @@ OkIf
 (
 aQuotaManager
 .
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -5210,7 +5210,7 @@ OkIf
 (
 aQuotaManager
 .
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -5395,7 +5395,7 @@ OkIf
 (
 aQuotaManager
 .
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -5637,7 +5637,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -7092,7 +7092,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -7800,7 +7800,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -8087,7 +8087,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -8451,7 +8451,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
@@ -8586,7 +8586,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )
