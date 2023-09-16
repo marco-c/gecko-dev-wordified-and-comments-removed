@@ -1784,7 +1784,7 @@ contentType
 "
 text
 /
-plan
+plain
 "
 }
 )
