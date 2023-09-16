@@ -131,6 +131,15 @@ bool
 aHasValidUserGestureActivation
 )
 ;
+nsresult
+OnCookieWrite
+(
+const
+nsACString
+&
+aSiteHost
+)
+;
 static
 bool
 ShouldCreateBounceTrackingStateForBC
@@ -267,11 +276,6 @@ OnStorageAccess
 ;
 nsresult
 OnServiceWorkerActivation
-(
-)
-;
-nsresult
-OnNetworkCookieWrite
 (
 )
 ;
