@@ -830,7 +830,7 @@ std
 :
 :
 string
-buffer
+line
 ;
 while
 (
@@ -840,7 +840,7 @@ std
 getline
 (
 stream
-buffer
+line
 )
 )
 {
@@ -878,7 +878,7 @@ if
 (
 sscanf
 (
-buffer
+line
 .
 c_str
 (
@@ -1064,19 +1064,6 @@ current
 continue
 ;
 }
-nsAutoCStringN
-<
-128
->
-line
-(
-buffer
-.
-c_str
-(
-)
-)
-;
 char
 *
 savePtr
@@ -1089,7 +1076,7 @@ strtok_r
 (
 line
 .
-BeginWriting
+data
 (
 )
 "
