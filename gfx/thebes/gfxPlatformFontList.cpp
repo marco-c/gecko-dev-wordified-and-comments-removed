@@ -15533,6 +15533,12 @@ SharedFontList
 )
 )
 {
+AutoLock
+lock
+(
+mLock
+)
+;
 SharedFontList
 (
 )
