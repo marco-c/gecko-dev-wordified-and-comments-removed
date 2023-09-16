@@ -7356,7 +7356,6 @@ c_compiler
 extra_toolchain_flags
 linker_ldflags
 readelf
-configure_cache
 when
 =
 may_use_pack_relative_relocs
@@ -7423,7 +7422,6 @@ c_compiler
 extra_toolchain_flags
 linker_ldflags
 readelf
-configure_cache
 )
 :
 try
@@ -7465,7 +7463,7 @@ if
 (
 try_invoke_compiler
 (
-configure_cache
+None
 [
 c_compiler
 .

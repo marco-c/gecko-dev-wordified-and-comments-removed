@@ -1246,8 +1246,13 @@ wrapper
 compiler
 use_cache
 =
-True
+configure_cache
+is
+not
+None
 if
+use_cache
+and
 compiler_path
 not
 in
