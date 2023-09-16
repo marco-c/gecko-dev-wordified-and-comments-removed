@@ -5619,6 +5619,10 @@ aNonce
 const
 nsAString
 &
+aFetchPriority
+const
+nsAString
+&
 aIntegrity
 dom
 :
@@ -5704,6 +5708,7 @@ aCharset
 aType
 aCrossOrigin
 aNonce
+aFetchPriority
 aIntegrity
 aScriptFromHead
 aAsync
