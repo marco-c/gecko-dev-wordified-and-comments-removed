@@ -2366,10 +2366,11 @@ xpcshell
 *
 )
 ?
-.
 (
+.
 ini
 |
+.
 toml
 )
 "
@@ -2410,10 +2411,11 @@ browser
 )
 .
 *
-.
 (
+.
 ini
 |
+.
 toml
 )
 "
