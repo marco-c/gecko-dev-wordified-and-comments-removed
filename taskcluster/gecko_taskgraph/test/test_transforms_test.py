@@ -203,6 +203,14 @@ foo
 "
                 
 "
+mozinfo
+"
+:
+"
+foo
+"
+                
+"
 component
 "
 :
@@ -274,6 +282,14 @@ variant
                 
 "
 suffix
+"
+:
+"
+bar
+"
+                
+"
+mozinfo
 "
 :
 "

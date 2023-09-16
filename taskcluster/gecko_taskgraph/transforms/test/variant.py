@@ -105,6 +105,15 @@ suffix
 :
 str
             
+Optional
+(
+"
+mozinfo
+"
+)
+:
+str
+            
 Required
 (
 "
