@@ -73,10 +73,6 @@ NULL
 ;
 ol
 =
-(
-output_latency_function
-*
-)
 calloc
 (
 1
@@ -244,11 +240,6 @@ ol
 )
 ;
 }
-extern
-"
-C
-"
-{
 uint32_t
 cubeb_get_output_latency
 (
@@ -294,7 +285,6 @@ ol
 from_lib
 )
 ;
-}
 }
 #
 endif
