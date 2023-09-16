@@ -171,6 +171,9 @@ power
 "
 responsiveness
 "
+"
+cpufreq
+"
 ]
 }
 {
