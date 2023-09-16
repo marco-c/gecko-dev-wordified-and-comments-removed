@@ -279,6 +279,11 @@ query
 ;
 readonly
 attribute
+boolean
+hasQuery
+;
+readonly
+attribute
 AUTF8String
 displayHost
 ;
