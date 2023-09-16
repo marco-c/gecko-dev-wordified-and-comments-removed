@@ -1738,6 +1738,12 @@ processor
 swgl
 "
 "
+asan
+"
+"
+tsan
+"
+"
 domstreams
 "
 "
