@@ -3278,11 +3278,6 @@ removeResult
 {
 }
 }
-acknowledgeDismissal
-(
-)
-{
-}
 }
 )
 ;
