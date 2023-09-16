@@ -1312,6 +1312,14 @@ type
 "
 stale
 "
+.
+productUrl
+=
+{
+this
+.
+productUrl
+}
 >
 <
 /

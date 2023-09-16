@@ -421,9 +421,12 @@ analyze
 url
 =
 {
+encodeURIComponent
+(
 this
 .
 productURL
+)
 }
 "
 click
