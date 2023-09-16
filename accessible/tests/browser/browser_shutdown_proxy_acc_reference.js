@@ -10,11 +10,6 @@ function
 (
 )
 {
-await
-setE10sPrefs
-(
-)
-;
 const
 [
 a11yInitObserver
@@ -322,11 +317,6 @@ await
 a11yShutdown
 ;
 }
-)
-;
-await
-unsetE10sPrefs
-(
 )
 ;
 }

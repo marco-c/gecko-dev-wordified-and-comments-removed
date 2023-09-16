@@ -10,11 +10,6 @@ function
 (
 )
 {
-await
-setE10sPrefs
-(
-)
-;
 let
 docLoaded
 =
@@ -294,11 +289,6 @@ await
 a11yShutdown
 ;
 }
-)
-;
-await
-unsetE10sPrefs
-(
 )
 ;
 }

@@ -11,11 +11,6 @@ function
 )
 {
 await
-setE10sPrefs
-(
-)
-;
-await
 BrowserTestUtils
 .
 withNewTab
@@ -415,11 +410,6 @@ all
 parentA11yShutdown
 contentA11yShutdown
 ]
-)
-;
-await
-unsetE10sPrefs
-(
 )
 ;
 }

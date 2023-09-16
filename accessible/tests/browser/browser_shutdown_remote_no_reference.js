@@ -11,11 +11,6 @@ function
 )
 {
 await
-setE10sPrefs
-(
-)
-;
-await
 BrowserTestUtils
 .
 withNewTab
@@ -513,11 +508,6 @@ correct
 )
 ;
 }
-)
-;
-await
-unsetE10sPrefs
-(
 )
 ;
 }
