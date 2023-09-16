@@ -839,15 +839,6 @@ cpp
 CXXFLAGS
 +
 =
-CONFIG
-[
-"
-MOZ_DBUS_GLIB_CFLAGS
-"
-]
-CXXFLAGS
-+
-=
 [
 "
 -
