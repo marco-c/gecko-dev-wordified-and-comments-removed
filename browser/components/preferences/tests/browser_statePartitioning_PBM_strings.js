@@ -434,10 +434,11 @@ stp
 emailTP
 emailTPPrivate
 lvl2
-lvl2PBM
 rp
 rpTop
 ocsp
+fpp
+fppPrivate
 "
 false
 )
@@ -456,10 +457,11 @@ stp
 emailTP
 emailTPPrivate
 lvl2
-lvl2PBM
 rp
 rpTop
 ocsp
+fpp
+fppPrivate
 "
 true
 )
