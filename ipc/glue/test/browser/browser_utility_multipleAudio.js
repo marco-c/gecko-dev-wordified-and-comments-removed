@@ -68,7 +68,7 @@ utility
 ;
 if
 (
-isNightlyOrEalyBeta
+isNightly
 (
 )
 )
@@ -179,7 +179,7 @@ testFailureAudioDecodingInContent
 if
 (
 !
-isNightlyOrEalyBeta
+isNightly
 (
 )
 )
