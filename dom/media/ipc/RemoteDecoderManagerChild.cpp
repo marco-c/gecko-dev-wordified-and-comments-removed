@@ -1321,6 +1321,7 @@ false
 ;
 }
 return
+!
 PDMFactory
 :
 :
@@ -1335,15 +1336,10 @@ MimeType
 supported
 aLocation
 )
-!
-=
-media
-:
-:
-DecodeSupport
-:
-:
-Unsupported
+.
+isEmpty
+(
+)
 ;
 }
 RefPtr
