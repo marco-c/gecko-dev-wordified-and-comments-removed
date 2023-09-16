@@ -1140,7 +1140,7 @@ aOldValue
 )
 ;
 void
-RestyleSiblings
+RestyleSiblingsForNthOf
 (
 dom
 :
