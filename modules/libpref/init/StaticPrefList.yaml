@@ -10094,7 +10094,7 @@ false
 else
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+true
 #
 endif
 mirror
@@ -10129,7 +10129,7 @@ type
 bool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+true
 mirror
 :
 always
