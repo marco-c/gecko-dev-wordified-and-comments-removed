@@ -120,19 +120,6 @@ background
 odd
 )
 ;
-}
-media
-(
-prefers
--
-contrast
-)
-{
-#
-shopping
--
-container
-{
 border
 -
 inline
@@ -156,7 +143,6 @@ border
 color
 )
 ;
-}
 }
 #
 shopping
