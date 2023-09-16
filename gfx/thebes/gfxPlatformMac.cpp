@@ -4916,12 +4916,7 @@ false
 ifdef
 EARLY_BETA_OR_EARLIER
 return
-nsCocoaFeatures
-:
-:
-OnCatalinaOrLater
-(
-)
+true
 ;
 #
 else
@@ -5110,12 +5105,7 @@ CheckVariationFontSupport
 )
 {
 return
-nsCocoaFeatures
-:
-:
-OnHighSierraOrLater
-(
-)
+true
 ;
 }
 void
