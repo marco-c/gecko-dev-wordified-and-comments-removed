@@ -870,7 +870,7 @@ default
 \
 MACRO_
 (
-defineDataPropertyIntrinsic
+DefineDataProperty
 "
 DefineDataProperty
 "
