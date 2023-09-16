@@ -2932,6 +2932,15 @@ send
 )
 override
 ;
+void
+SetReceive
+(
+bool
+receive
+)
+override
+{
+}
 bool
 SetVideoSend
 (

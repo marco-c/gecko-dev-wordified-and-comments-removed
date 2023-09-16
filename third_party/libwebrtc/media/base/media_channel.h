@@ -4417,6 +4417,16 @@ const
 0
 ;
 virtual
+void
+SetReceive
+(
+bool
+receive
+)
+=
+0
+;
+virtual
 webrtc
 :
 :
