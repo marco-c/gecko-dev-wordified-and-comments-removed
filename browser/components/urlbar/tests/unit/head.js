@@ -3192,9 +3192,9 @@ return
 ;
 }
 await
-PlacesTestUtils
+PlacesFrecencyRecalculator
 .
-promiseAsyncUpdates
+recalculateAnyOutdatedFrecencies
 (
 )
 ;

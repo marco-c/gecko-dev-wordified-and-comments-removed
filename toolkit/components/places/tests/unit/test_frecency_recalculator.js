@@ -175,16 +175,6 @@ db
 .
 executeCached
 (
-DELETE
-FROM
-moz_updateoriginsupdate_temp
-)
-;
-await
-db
-.
-executeCached
-(
 UPDATE
 moz_places
 SET
@@ -409,7 +399,7 @@ recalculateSomeFrecencies
 {
 chunkSize
 :
-2
+3
 }
 )
 ;

@@ -1334,11 +1334,6 @@ int32_t
 mReloadVisitBonus
 ;
 nsresult
-RecalculateOriginFrecencyStatsInternal
-(
-)
-;
-nsresult
 TokensToQuery
 (
 const

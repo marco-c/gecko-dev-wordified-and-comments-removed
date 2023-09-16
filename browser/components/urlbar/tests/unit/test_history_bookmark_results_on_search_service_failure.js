@@ -290,6 +290,11 @@ initialize
 "
 )
 ;
+await
+cleanupPlaces
+(
+)
+;
 }
 )
 ;

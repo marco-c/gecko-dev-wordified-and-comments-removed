@@ -139,6 +139,13 @@ async
 =
 >
 {
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 gURLBar
 .
 focus

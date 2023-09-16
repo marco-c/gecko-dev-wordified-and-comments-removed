@@ -195,6 +195,13 @@ check_autofill
 (
 )
 {
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 let
 threshold
 =

@@ -47,6 +47,13 @@ com
 ]
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 gURLBar
 .
 _enableAutofillPlaceholder

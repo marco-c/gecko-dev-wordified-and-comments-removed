@@ -299,6 +299,13 @@ test
 )
 ;
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 openPopup
 (
 "
@@ -380,6 +387,13 @@ com
 /
 test
 "
+)
+;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
 )
 ;
 await

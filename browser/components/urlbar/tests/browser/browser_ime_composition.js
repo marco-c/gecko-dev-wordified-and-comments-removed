@@ -207,6 +207,13 @@ menuGuid
 )
 ;
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 SearchTestUtils
 .
 installSearchExtension

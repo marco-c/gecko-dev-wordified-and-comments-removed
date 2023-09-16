@@ -965,6 +965,13 @@ true
 }
 )
 {
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 MerinoTestUtils
 .
 server

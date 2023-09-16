@@ -46,6 +46,13 @@ com
 )
 ;
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 typeAndCheck
 (
 [
@@ -366,6 +373,13 @@ foo
 bar
 "
 ]
+)
+;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
 )
 ;
 await

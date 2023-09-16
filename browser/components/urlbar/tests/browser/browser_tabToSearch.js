@@ -150,6 +150,13 @@ TEST_ENGINE_DOMAIN
 )
 ;
 }
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 registerCleanupFunction
 (
 async
