@@ -1428,6 +1428,14 @@ wgt
 Features
 :
 :
+POLYGON_MODE_POINT
+|
+wgt
+:
+:
+Features
+:
+:
 VERTEX_WRITABLE_STORAGE
 |
 wgt

@@ -1107,7 +1107,7 @@ self
 .
 writer
 .
-get_constant_null
+write_constant_null
 (
 result_type
 )
