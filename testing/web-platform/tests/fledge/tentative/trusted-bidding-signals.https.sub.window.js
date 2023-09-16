@@ -257,7 +257,7 @@ null
 No
 trustedBiddingSignalsKeys
 or
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 .
 '
 )
@@ -296,7 +296,7 @@ numValue
 trustedBiddingSignalsKeys
 but
 no
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 .
 '
 )
@@ -320,7 +320,7 @@ trustedBiddingSignals
 null
 '
 {
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -328,7 +328,7 @@ TRUSTED_BIDDING_SIGNALS_URL
 ;
 }
 '
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 without
 trustedBiddingSignalsKeys
 .
@@ -363,7 +363,7 @@ close
 connection
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -371,7 +371,7 @@ TRUSTED_BIDDING_SIGNALS_URL
 ;
 }
 '
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 closes
 the
 connection
@@ -410,7 +410,7 @@ http
 error
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -460,7 +460,7 @@ content
 type
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -511,7 +511,7 @@ content
 type
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -564,7 +564,7 @@ not
 allowed
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -616,7 +616,7 @@ auction
 allowed
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -672,7 +672,7 @@ auction
 allow
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -725,7 +725,7 @@ body
 :
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -775,7 +775,7 @@ Not
 JSON
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -825,7 +825,7 @@ body
 ]
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -879,7 +879,7 @@ JSON_keys_need_quotes
 }
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -940,7 +940,7 @@ body
 }
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1011,7 +1011,7 @@ keys
 }
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1121,7 +1121,7 @@ keys
 length
 "
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1189,7 +1189,7 @@ wrong
 value
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1245,7 +1245,7 @@ null
 value
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1301,7 +1301,7 @@ num
 value
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1360,7 +1360,7 @@ string
 value
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1427,7 +1427,7 @@ array
 value
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1539,7 +1539,7 @@ object
 value
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1592,7 +1592,7 @@ trustedBiddingSignalsKeys
 '
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1765,7 +1765,7 @@ value
 '
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1834,7 +1834,7 @@ x00
 &
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1888,7 +1888,7 @@ trustedBiddingSignalsKeys
 x00
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -1951,7 +1951,7 @@ group
 names
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2037,7 +2037,7 @@ group
 names
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2103,7 +2103,7 @@ group
 names
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2160,7 +2160,7 @@ trustedBiddingSignalsKeys
 hostname
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2208,7 +2208,7 @@ num
 value
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2261,7 +2261,7 @@ version
 3
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2314,7 +2314,7 @@ version
 0
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2367,7 +2367,7 @@ version
 4294967295
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2420,7 +2420,7 @@ version
 4294967296
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2474,7 +2474,7 @@ version
 03
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2530,7 +2530,7 @@ version
 1
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2585,7 +2585,7 @@ version
 3
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2640,7 +2640,7 @@ version
 2
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2694,7 +2694,7 @@ version
 0x4
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2743,7 +2743,7 @@ data
 -
 version
 '
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2804,7 +2804,7 @@ body
 :
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2867,7 +2867,7 @@ body
 ]
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -2933,7 +2933,7 @@ body
 }
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }
@@ -3003,7 +3003,7 @@ keys
 }
 '
 ]
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 TRUSTED_BIDDING_SIGNALS_URL
 }

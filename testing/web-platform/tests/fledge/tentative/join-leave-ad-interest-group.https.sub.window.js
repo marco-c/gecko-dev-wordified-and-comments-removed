@@ -1103,7 +1103,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 null
 }
@@ -1122,7 +1122,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 '
 https
@@ -1160,7 +1160,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 '
 data
@@ -1187,7 +1187,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 {
 window
@@ -1216,7 +1216,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-trustedBiddingSignalsUrl
+trustedBiddingSignalsURL
 :
 '
 relative
