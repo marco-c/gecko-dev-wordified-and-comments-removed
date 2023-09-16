@@ -172,6 +172,16 @@ CssColor
 value
 )
 ;
+const
+colorUnit
+=
+colorUtils
+.
+classifyColor
+(
+value
+)
+;
 for
 (
 let
@@ -188,6 +198,9 @@ i
 +
 )
 {
+const
+newColor
+=
 color
 .
 nextColorUnit
@@ -201,11 +214,7 @@ colorUtils
 .
 CssColor
 (
-color
-.
-toString
-(
-)
+newColor
 )
 ;
 }
@@ -214,6 +223,7 @@ color
 .
 toString
 (
+colorUnit
 )
 =
 =
