@@ -180,6 +180,9 @@ min
 (
 MAX_TEXTURE_EXTENT
 )
+max_non_sampler_bindings
+:
+10_000
 .
 .
 limits
