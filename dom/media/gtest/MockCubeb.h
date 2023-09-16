@@ -890,15 +890,6 @@ MediaEventSource
 void
 >
 &
-ErrorStoppedEvent
-(
-)
-;
-MediaEventSource
-<
-void
->
-&
 DeviceChangeForcedEvent
 (
 )
@@ -926,7 +917,7 @@ mSelf
 private
 :
 void
-NotifyStateChanged
+NotifyState
 (
 cubeb_state
 aState
@@ -1123,12 +1114,6 @@ MediaEventProducer
 void
 >
 mErrorForcedEvent
-;
-MediaEventProducer
-<
-void
->
-mErrorStoppedEvent
 ;
 MediaEventProducer
 <
@@ -1460,7 +1445,7 @@ MockCubebStream
 aStream
 )
 ;
-int
+void
 StopStream
 (
 MockCubebStream
