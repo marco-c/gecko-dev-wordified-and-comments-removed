@@ -58,6 +58,14 @@ certifi
 12
 .
 7
+click
+=
+=
+8
+.
+1
+.
+6
 colorama
 =
 =
@@ -209,9 +217,9 @@ version
 packaging
 =
 =
-21
+23
 .
-3
+1
 pathspec
 =
 =

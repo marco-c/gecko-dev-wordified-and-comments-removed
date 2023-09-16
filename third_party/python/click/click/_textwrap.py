@@ -1,5 +1,9 @@
 import
 textwrap
+import
+typing
+as
+t
 from
 contextlib
 import
@@ -16,12 +20,39 @@ TextWrapper
 def
 _handle_long_word
 (
+        
 self
+        
 reversed_chunks
+:
+t
+.
+List
+[
+str
+]
+        
 cur_line
+:
+t
+.
+List
+[
+str
+]
+        
 cur_len
+:
+int
+        
 width
+:
+int
+    
 )
+-
+>
+None
 :
         
 space_left
@@ -102,7 +133,17 @@ extra_indent
 (
 self
 indent
+:
+str
 )
+-
+>
+t
+.
+Iterator
+[
+None
+]
 :
         
 old_initial_indent
@@ -156,7 +197,12 @@ indent_only
 (
 self
 text
+:
+str
 )
+-
+>
+str
 :
         
 rv
@@ -200,9 +246,15 @@ rv
 .
 append
 (
+f
+"
+{
 indent
-+
+}
+{
 line
+}
+"
 )
         
 return
