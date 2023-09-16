@@ -348,7 +348,7 @@ let
 attr_array
 :
 *
-mut
+const
 _
 =
 *

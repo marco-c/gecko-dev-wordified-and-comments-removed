@@ -117,6 +117,7 @@ nsIURI
 *
 mURL
 ;
+const
 mozilla
 :
 :
@@ -504,6 +505,15 @@ mType
 nsAttrValue
 :
 :
+eAtomArray
+|
+|
+mType
+=
+=
+nsAttrValue
+:
+:
 eCSSDeclaration
 |
 |
@@ -741,6 +751,7 @@ mDoubleValue
 ;
 }
 inline
+const
 mozilla
 :
 :

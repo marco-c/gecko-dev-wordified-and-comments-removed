@@ -34038,11 +34038,6 @@ info
 >
 mClasses
 =
-std
-:
-:
-move
-(
 attrValue
 .
 GetAtomArrayValue
@@ -34051,6 +34046,9 @@ GetAtomArrayValue
 -
 >
 mArray
+.
+Clone
+(
 )
 ;
 }
