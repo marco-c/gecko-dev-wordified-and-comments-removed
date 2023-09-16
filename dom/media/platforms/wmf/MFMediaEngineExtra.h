@@ -19,6 +19,13 @@ mfmediaengine
 h
 >
 #
+include
+<
+mfapi
+.
+h
+>
+#
 if
 !
 defined
