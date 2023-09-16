@@ -1637,11 +1637,6 @@ anchor_color
 "
 browser
 .
-underline_anchors
-"
-"
-browser
-.
 visited_color
 "
 "

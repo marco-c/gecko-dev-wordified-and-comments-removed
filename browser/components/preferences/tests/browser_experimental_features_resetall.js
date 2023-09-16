@@ -20,7 +20,7 @@ KNOWN_PREF_2
 "
 browser
 .
-underline_anchors
+autofocus
 "
 ;
 add_task
