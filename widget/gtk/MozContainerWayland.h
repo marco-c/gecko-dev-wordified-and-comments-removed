@@ -290,14 +290,6 @@ aScale
 )
 ;
 void
-moz_container_wayland_set_scale_factor
-(
-MozContainer
-*
-container
-)
-;
-void
 moz_container_wayland_set_scale_factor_locked
 (
 const
@@ -310,6 +302,8 @@ aProofOfLock
 MozContainer
 *
 container
+int
+aScale
 )
 ;
 bool
