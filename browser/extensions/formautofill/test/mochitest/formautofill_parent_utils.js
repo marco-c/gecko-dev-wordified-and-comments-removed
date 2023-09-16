@@ -199,16 +199,6 @@ collectionName
 }
 }
 )
-.
-then
-(
-result
-=
->
-result
-.
-records
-)
 ;
 }
 async

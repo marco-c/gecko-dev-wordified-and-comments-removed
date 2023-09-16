@@ -1190,16 +1190,6 @@ if
 selectedIndex
 <
 0
-|
-|
-selectedIndex
->
-=
-input
-.
-controller
-.
-matchCount
 )
 {
 break
