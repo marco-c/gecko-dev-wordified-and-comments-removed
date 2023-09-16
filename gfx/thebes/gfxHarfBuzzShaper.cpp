@@ -8324,6 +8324,16 @@ mBuffer
 nullptr
 )
 ;
+if
+(
+!
+posInfo
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 while
 (
 glyphStart
