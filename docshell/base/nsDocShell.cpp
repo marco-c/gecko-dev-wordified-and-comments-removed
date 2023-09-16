@@ -28358,7 +28358,7 @@ oldSpec
 nsIURIFixup
 :
 :
-FIXUP_FLAGS_MAKE_ALTERNATE_URI
+FIXUP_FLAG_NONE
 getter_AddRefs
 (
 fixupInfo
