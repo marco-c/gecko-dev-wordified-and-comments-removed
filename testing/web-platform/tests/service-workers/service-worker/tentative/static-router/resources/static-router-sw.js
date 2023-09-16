@@ -39,6 +39,9 @@ urlPattern
 *
 .
 txt
+?
+?
+*
 '
 }
 source
