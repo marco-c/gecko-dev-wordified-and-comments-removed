@@ -19627,6 +19627,11 @@ ToMicroseconds
 mCurrentPosition
 =
 aTime
+.
+ToBase
+(
+1000000
+)
 ;
 NS_ASSERTION
 (
