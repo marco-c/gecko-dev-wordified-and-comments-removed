@@ -27,6 +27,15 @@ Graphics
 Text
 '
 )
+if
+not
+CONFIG
+[
+"
+MOZ_WASM_SANDBOXING_WOFF2
+"
+]
+:
 UNIFIED_SOURCES
 +
 =
