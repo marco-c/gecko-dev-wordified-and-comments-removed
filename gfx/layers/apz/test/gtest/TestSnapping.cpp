@@ -407,7 +407,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -520,7 +520,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -549,7 +549,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -1368,7 +1368,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -1939,7 +1939,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y

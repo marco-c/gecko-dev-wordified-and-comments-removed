@@ -2245,7 +2245,7 @@ public
 enum
 AsyncTransformConsumer
 {
-eForHitTesting
+eForEventHandling
 eForCompositing
 }
 ;
