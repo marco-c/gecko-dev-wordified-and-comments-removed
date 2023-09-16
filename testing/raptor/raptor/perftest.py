@@ -113,6 +113,7 @@ from
 cmdline
 import
 FIREFOX_ANDROID_APPS
+GECKO_PROFILER_APPS
 TRACE_APPS
 from
 condprof
@@ -2961,11 +2962,8 @@ config
 app
 "
 ]
-=
-=
-"
-firefox
-"
+in
+GECKO_PROFILER_APPS
 :
                 
 self
