@@ -166,11 +166,6 @@ ShieldTranslations
 "
 translations
 "
-DebugModeOn
-:
-"
-debugMode
-"
 }
 ;
 this
@@ -454,7 +449,6 @@ addonStudies
 prefStudies
 experiments
 optInMessage
-debugMode
 }
 =
 this
@@ -534,7 +528,6 @@ translations
 addonStudies
 prefStudies
 experiments
-debugMode
 }
 )
 )
@@ -772,7 +765,6 @@ addonStudies
 prefStudies
 translations
 experiments
-debugMode
 }
 =
 this
@@ -1172,7 +1164,6 @@ study
 slug
 study
 translations
-debugMode
 }
 )
 ;
@@ -1450,7 +1441,6 @@ const
 {
 study
 translations
-debugMode
 }
 =
 this
@@ -1483,21 +1473,6 @@ experiment
 .
 "
 ;
-if
-(
-study
-.
-isRollout
-&
-&
-!
-debugMode
-)
-{
-return
-null
-;
-}
 return
 r
 (
