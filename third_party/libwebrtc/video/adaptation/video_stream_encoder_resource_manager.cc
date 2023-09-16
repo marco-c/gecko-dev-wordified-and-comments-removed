@@ -4207,6 +4207,10 @@ const
 VideoEncoderConfig
 &
 encoder_config
+const
+VideoCodec
+&
+video_codec
 )
 {
 const
@@ -4260,9 +4264,9 @@ has_value
 )
 &
 &
-encoder_config
+video_codec
 .
-number_of_streams
+numberOfSimulcastStreams
 =
 =
 1

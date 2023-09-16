@@ -736,6 +736,10 @@ const
 VideoEncoderConfig
 &
 encoder_config
+const
+VideoCodec
+&
+video_codec
 )
 ;
 private

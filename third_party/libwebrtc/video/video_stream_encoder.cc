@@ -2383,6 +2383,8 @@ VideoStreamEncoderResourceManager
 IsSimulcastOrMultipleSpatialLayers
 (
 encoder_config
+*
+codec
 )
 |
 |
