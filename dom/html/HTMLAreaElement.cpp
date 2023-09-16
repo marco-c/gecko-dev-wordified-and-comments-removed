@@ -408,10 +408,8 @@ aNamespaceID
 =
 =
 kNameSpaceID_None
-)
-{
-if
-(
+&
+&
 aName
 =
 =
@@ -432,7 +430,6 @@ aNotify
 aValue
 )
 ;
-}
 }
 return
 nsGenericHTMLElement
