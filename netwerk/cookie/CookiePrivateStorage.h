@@ -118,9 +118,13 @@ changed
 void
 NotifyChangedInternal
 (
-nsICookieNotification
+nsISupports
 *
-aNotification
+aSubject
+const
+char16_t
+*
+aData
 bool
 aOldCookieIsSession
 )

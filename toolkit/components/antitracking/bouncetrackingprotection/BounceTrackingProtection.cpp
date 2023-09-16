@@ -1265,13 +1265,6 @@ Reset
 (
 )
 {
-BounceTrackingState
-:
-:
-ResetAll
-(
-)
-;
 mBounceTrackers
 .
 Clear

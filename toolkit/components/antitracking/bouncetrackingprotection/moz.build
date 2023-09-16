@@ -67,11 +67,6 @@ BounceTrackingState
 .
 h
 "
-"
-BounceTrackingStorageObserver
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -89,11 +84,6 @@ cpp
 "
 "
 BounceTrackingState
-.
-cpp
-"
-"
-BounceTrackingStorageObserver
 .
 cpp
 "
