@@ -53,6 +53,11 @@ common
 cpp
 "
 "
+DefaultAgent
+.
+cpp
+"
+"
 DefaultBrowser
 .
 cpp
@@ -64,11 +69,6 @@ cpp
 "
 "
 EventLog
-.
-cpp
-"
-"
-main
 .
 cpp
 "
