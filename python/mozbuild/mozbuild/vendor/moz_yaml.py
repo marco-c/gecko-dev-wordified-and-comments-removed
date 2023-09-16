@@ -197,6 +197,9 @@ angle
 "
 codeberg
 "
+"
+git
+"
 ]
 "
 "
