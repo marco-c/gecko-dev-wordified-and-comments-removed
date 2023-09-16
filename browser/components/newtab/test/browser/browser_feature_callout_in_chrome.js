@@ -4759,8 +4759,6 @@ querySelector
 navigator
 -
 toolbox
--
-background
 "
 )
 ;
