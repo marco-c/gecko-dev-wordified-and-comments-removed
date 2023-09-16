@@ -14,6 +14,9 @@ h
 namespace
 mozilla
 {
+struct
+ScrollAnimationBezierPhysicsSettings
+;
 class
 ScrollAnimationPhysics
 ;
@@ -40,8 +43,10 @@ const
 nsPoint
 &
 aInitialPosition
-ScrollOrigin
-aOrigin
+const
+ScrollAnimationBezierPhysicsSettings
+&
+aSettings
 )
 ;
 bool
