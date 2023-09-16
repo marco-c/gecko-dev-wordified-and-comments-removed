@@ -276,14 +276,7 @@ handle
 shm
 -
 >
-CloneHandle
-(
-)
-;
-shm
--
->
-CloseHandle
+TakeHandle
 (
 )
 ;

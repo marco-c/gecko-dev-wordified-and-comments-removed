@@ -254,6 +254,10 @@ mozilla
 UniqueFileHandle
 TakeHandle
 (
+bool
+unmap_view
+=
+true
 )
 {
 mozilla
@@ -272,6 +276,7 @@ mapped_file_
 ;
 Close
 (
+unmap_view
 )
 ;
 return

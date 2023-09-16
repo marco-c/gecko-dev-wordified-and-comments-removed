@@ -132,13 +132,6 @@ override
 ;
 virtual
 void
-CloseHandle
-(
-)
-override
-;
-virtual
-void
 *
 memory
 (
@@ -203,6 +196,13 @@ override
 virtual
 Handle
 CloneHandle
+(
+)
+override
+;
+virtual
+Handle
+TakeHandle
 (
 )
 override
