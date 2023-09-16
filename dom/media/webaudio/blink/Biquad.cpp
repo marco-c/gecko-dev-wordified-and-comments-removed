@@ -2337,9 +2337,16 @@ static_cast
 float
 >
 (
-abs
+fdlibm_hypot
+(
+real
 (
 response
+)
+imag
+(
+response
+)
 )
 )
 ;
