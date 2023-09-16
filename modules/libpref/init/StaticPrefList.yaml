@@ -61353,6 +61353,12 @@ defined
 (
 NIGHTLY_BUILD
 )
+|
+|
+defined
+(
+EARLY_BETA_OR_EARLIER
+)
 value
 :
 false
@@ -61368,6 +61374,12 @@ endif
 defined
 (
 NIGHTLY_BUILD
+)
+|
+|
+defined
+(
+EARLY_BETA_OR_EARLIER
 )
 mirror
 :
