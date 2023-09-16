@@ -1,11 +1,13 @@
 import
 {
-getScopes
+getScopesItemsForSelectedFrame
 }
 from
 "
 .
 .
+/
+scopes
 "
 ;
 import
@@ -18,9 +20,6 @@ mockScopeAddVariable
 }
 from
 "
-.
-.
-/
 .
 .
 /
@@ -134,7 +133,7 @@ scope
 const
 scopes
 =
-getScopes
+getScopesItemsForSelectedFrame
 (
 pauseData
 selectedFrame
@@ -317,7 +316,7 @@ scope
 const
 scopes
 =
-getScopes
+getScopesItemsForSelectedFrame
 (
 pauseData
 selectedFrame
@@ -479,7 +478,7 @@ scope
 const
 scopes
 =
-getScopes
+getScopesItemsForSelectedFrame
 (
 why
 selectedFrame
@@ -647,7 +646,7 @@ scope
 const
 scopes
 =
-getScopes
+getScopesItemsForSelectedFrame
 (
 why
 selectedFrame
