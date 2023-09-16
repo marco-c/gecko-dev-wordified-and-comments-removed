@@ -2177,6 +2177,9 @@ return
 records
 ?
 .
+records
+?
+.
 length
 ?
 ?
