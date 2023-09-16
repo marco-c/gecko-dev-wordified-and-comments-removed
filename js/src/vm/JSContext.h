@@ -2352,6 +2352,7 @@ inUnsafeRegion
 )
 ;
 }
+MOZ_NEVER_INLINE
 void
 resetInUnsafeRegion
 (
