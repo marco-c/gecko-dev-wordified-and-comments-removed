@@ -179,6 +179,17 @@ experience2023
 active
 "
 "
+browser
+.
+shopping
+.
+experience2023
+.
+ads
+.
+userEnabled
+"
+"
 narrate
 .
 rate
