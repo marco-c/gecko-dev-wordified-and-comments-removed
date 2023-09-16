@@ -274,6 +274,14 @@ attribute
 ArrayBuffer
 attestationObject
 ;
+[
+Throws
+]
+ArrayBuffer
+getAuthenticatorData
+(
+)
+;
 }
 ;
 [
