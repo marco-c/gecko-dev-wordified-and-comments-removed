@@ -3219,17 +3219,6 @@ const
 nsAString
 &
 anAction
-mozilla
-:
-:
-dom
-:
-:
-Selection
-*
-aSel
-int16_t
-aReason
 )
 =
 0

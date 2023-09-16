@@ -2726,17 +2726,6 @@ updateCommands
 (
 DOMString
 action
-optional
-Selection
-?
-sel
-=
-null
-optional
-short
-reason
-=
-0
 )
 ;
 /

@@ -3904,8 +3904,6 @@ u
 clipboard
 "
 _ns
-nullptr
-0
 )
 ;
 }

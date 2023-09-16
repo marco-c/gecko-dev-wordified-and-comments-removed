@@ -125,6 +125,8 @@ aSetValueChanged
 void
 HandleValueChanged
 (
+TextEditor
+&
 )
 ;
 [
@@ -138,7 +140,6 @@ OnEditActionHandled
 (
 TextEditor
 &
-aTextEditor
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -199,18 +200,6 @@ const
 nsAString
 &
 aCommandsToUpdate
-dom
-:
-:
-Selection
-*
-aSelection
-=
-nullptr
-int16_t
-aReason
-=
-0
 )
 ;
 protected
