@@ -247,9 +247,6 @@ class
 FrameSizeClass
 ;
 class
-JitRealm
-;
-class
 Label
 ;
 class
@@ -538,10 +535,6 @@ JitRuntime
 {
 private
 :
-friend
-class
-JitRealm
-;
 MainThreadData
 <
 uint64_t

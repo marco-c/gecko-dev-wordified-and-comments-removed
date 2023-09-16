@@ -2506,12 +2506,12 @@ MOZ_ASSERT
 cx
 -
 >
-realm
+zone
 (
 )
 -
 >
-jitRealm
+jitZone
 (
 )
 )

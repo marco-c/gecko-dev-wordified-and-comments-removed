@@ -5097,12 +5097,12 @@ if
 cx_
 -
 >
-realm
+zone
 (
 )
 -
 >
-ensureJitRealmExists
+ensureJitZoneExists
 (
 cx_
 )
