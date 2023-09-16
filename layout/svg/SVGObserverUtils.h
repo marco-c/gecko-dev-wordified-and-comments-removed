@@ -681,6 +681,16 @@ aClipPathFrame
 )
 ;
 static
+SVGGeometryElement
+*
+GetAndObserveGeometry
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 ReferenceState
 GetAndObserveMasks
 (
