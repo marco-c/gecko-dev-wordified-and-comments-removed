@@ -760,6 +760,15 @@ IsEmpty
 )
 )
 ;
+if
+(
+!
+mRemoteWorkerController
+)
+{
+return
+;
+}
 mRemoteWorkerController
 -
 >
