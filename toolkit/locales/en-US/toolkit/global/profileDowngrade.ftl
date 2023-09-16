@@ -98,7 +98,7 @@ New
 Profile
 profiledowngrade
 -
-sync
+sync2
 =
 Using
 an
@@ -161,15 +161,8 @@ always
 sign
 in
 with
-a
-{
--
-fxaccount
--
-brand
--
-name
-}
+an
+account
 to
 sync
 your
