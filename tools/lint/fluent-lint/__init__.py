@@ -565,6 +565,14 @@ secondarybuttonlabel
 "
 secondarybuttonaccesskey
 "
+            
+"
+heading
+"
+            
+"
+description
+"
         
 ]
         
