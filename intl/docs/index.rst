@@ -191,3 +191,4 @@ maxdepth
 locale
 dataintl
 icu
+icu4x
