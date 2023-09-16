@@ -10,6 +10,7 @@ extern
 C
 "
 {
+SOUNDTOUCH_API
 void
 SetSampleRate
 (
@@ -23,6 +24,7 @@ uint
 srate
 )
 ;
+SOUNDTOUCH_API
 void
 SetChannels
 (
@@ -36,6 +38,7 @@ uint
 numChannels
 )
 ;
+SOUNDTOUCH_API
 void
 SetPitch
 (
@@ -49,6 +52,7 @@ double
 newPitch
 )
 ;
+SOUNDTOUCH_API
 void
 SetSetting
 (
@@ -64,6 +68,7 @@ int
 value
 )
 ;
+SOUNDTOUCH_API
 void
 SetTempo
 (
@@ -77,6 +82,7 @@ double
 newTempo
 )
 ;
+SOUNDTOUCH_API
 void
 SetRate
 (
@@ -90,6 +96,7 @@ double
 newRate
 )
 ;
+SOUNDTOUCH_API
 uint
 NumChannels
 (
@@ -101,6 +108,7 @@ SoundTouch
 mTimeStretcher
 )
 ;
+SOUNDTOUCH_API
 uint
 NumSamples
 (
@@ -112,6 +120,7 @@ SoundTouch
 mTimeStretcher
 )
 ;
+SOUNDTOUCH_API
 uint
 NumUnprocessedSamples
 (
@@ -123,6 +132,7 @@ SoundTouch
 mTimeStretcher
 )
 ;
+SOUNDTOUCH_API
 void
 PutSamples
 (
@@ -143,6 +153,7 @@ uint
 numSamples
 )
 ;
+SOUNDTOUCH_API
 uint
 ReceiveSamples
 (
@@ -162,6 +173,7 @@ uint
 maxSamples
 )
 ;
+SOUNDTOUCH_API
 void
 Flush
 (
