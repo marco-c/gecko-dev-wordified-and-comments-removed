@@ -133,6 +133,8 @@ div
 "
 )
     
+navigate_result
+=
 await
 bidi_session
 .
@@ -140,6 +142,7 @@ browsing_context
 .
 navigate
 (
+        
 context
 =
 new_tab
@@ -148,19 +151,20 @@ new_tab
 context
 "
 ]
-                                                 
+        
 url
 =
 url
-                                                 
+        
 wait
 =
 "
 complete
 "
+    
 )
     
-result
+reload_result
 =
 await
 bidi_session
@@ -178,17 +182,12 @@ new_tab
 context
 "
 ]
+        
 wait
 =
 wait
-)
     
-assert
-result
-=
-=
-{
-}
+)
     
 if
 wait
@@ -198,6 +197,33 @@ wait
 none
 "
 :
+        
+assert
+reload_result
+[
+"
+navigation
+"
+]
+!
+=
+navigate_result
+[
+"
+navigation
+"
+]
+        
+assert
+reload_result
+[
+"
+url
+"
+]
+=
+=
+url
         
 contexts
 =
