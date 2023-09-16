@@ -13605,7 +13605,7 @@ kMax
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 default
@@ -13680,7 +13680,7 @@ NoPayload
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 explicitly
@@ -13754,7 +13754,7 @@ ts2
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 FirstMarker
@@ -14356,7 +14356,7 @@ schema
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Gtest
@@ -14466,7 +14466,7 @@ SpecialFrontendLocation
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Gtest
@@ -14893,7 +14893,7 @@ true
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
@@ -14942,7 +14942,7 @@ TextMarker
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
@@ -15012,7 +15012,7 @@ thread
 ;
 EXPECT_FALSE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
@@ -15051,7 +15051,7 @@ TextMarker
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
@@ -15119,7 +15119,7 @@ unregisteredThread
 {
 EXPECT_FALSE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
@@ -15158,7 +15158,7 @@ TextMarker
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
@@ -15215,7 +15215,7 @@ join
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Tracing
@@ -15246,7 +15246,7 @@ category
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
@@ -15278,7 +15278,7 @@ text
 ;
 EXPECT_FALSE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
@@ -15320,7 +15320,7 @@ x
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 MediaSample
@@ -31119,7 +31119,7 @@ SpecialFrontendLocation
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Gtest
@@ -31505,7 +31505,7 @@ profiler_capture_backtrace
 ;
 EXPECT_TRUE
 (
-profiler_add_marker
+profiler_add_marker_impl
 (
 "
 Text
