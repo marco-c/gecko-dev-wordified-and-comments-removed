@@ -913,25 +913,45 @@ include
 )
 :
     
+new_include
+=
+[
+]
+    
 if
 include
 is
 None
 :
         
-return
-    
+for
+tests
+in
+test_groups
+.
+tests_by_group
+.
+values
+(
+)
+:
+            
 new_include
-=
-[
-]
+.
+extend
+(
+tests
+)
     
+else
+:
+        
 for
 item
 in
 include
 :
-        
+            
 if
 item
 in
@@ -939,7 +959,7 @@ test_groups
 .
 tests_by_group
 :
-            
+                
 new_include
 .
 extend
@@ -951,10 +971,10 @@ tests_by_group
 item
 ]
 )
-        
+            
 else
 :
-            
+                
 new_include
 .
 append
@@ -4451,15 +4471,6 @@ kwargs
 )
 :
         
-logger
-=
-kwargs
-[
-"
-logger
-"
-]
-        
 test_groups
 =
 kwargs
@@ -4517,13 +4528,15 @@ except
 KeyError
 :
                     
-logger
-.
-error
+print
 (
+f
 "
-%
-s
+{
+test
+.
+id
+}
 is
 missing
 from
@@ -4531,10 +4544,6 @@ test
 groups
 file
 "
-%
-test
-.
-id
 )
                     
 raise
