@@ -69,6 +69,17 @@ findOutOfScopeLocations
 "
 )
 ;
+findBestMatchExpression
+=
+this
+.
+task
+(
+"
+findBestMatchExpression
+"
+)
+;
 getScopes
 =
 this
