@@ -186,13 +186,6 @@ this
 src
 =
 src
-.
-toLowerCase
-(
-Locale
-.
-ROOT
-)
 ;
 this
 .
