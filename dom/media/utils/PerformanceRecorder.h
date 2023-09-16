@@ -1267,6 +1267,8 @@ AUTO_PROFILER_STATS
 PROFILER_MARKER_UNTYPED
 )
 ;
+:
+:
 profiler_add_marker
 (
 stage
