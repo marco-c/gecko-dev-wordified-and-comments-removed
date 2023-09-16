@@ -11813,12 +11813,6 @@ PermDelegateHandler
 (
 )
 ;
-bool
-IsContentInaccessibleAboutBlank
-(
-)
-const
-;
 enum
 class
 IgnoreRFP
