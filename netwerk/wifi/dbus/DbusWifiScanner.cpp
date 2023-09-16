@@ -50,6 +50,12 @@ if
 mConnection
 )
 {
+dbus_connection_setup_with_g_main
+(
+mConnection
+nullptr
+)
+;
 dbus_connection_set_exit_on_disconnect
 (
 mConnection
