@@ -168,7 +168,7 @@ mIter
 ;
 while
 (
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter

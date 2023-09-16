@@ -584,7 +584,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
@@ -692,7 +692,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
@@ -776,7 +776,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
@@ -860,7 +860,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
@@ -976,7 +976,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
@@ -1076,7 +1076,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
@@ -1176,7 +1176,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
@@ -1258,7 +1258,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
@@ -1440,7 +1440,7 @@ SkipWsp
 )
 |
 |
-IsAlpha
+IsAsciiAlpha
 (
 *
 mIter
