@@ -254,7 +254,7 @@ let
 expander
 ;
 let
-propertyContent
+matchedRulesEl
 ;
 for
 (
@@ -326,11 +326,17 @@ expandable
 "
 )
 ;
-propertyContent
+matchedRulesEl
 =
 property
 .
-nextSibling
+querySelector
+(
+"
+.
+matchedselectors
+"
+)
 ;
 break
 ;
@@ -397,7 +403,7 @@ open
 ;
 }
 return
-propertyContent
+matchedRulesEl
 ;
 }
 ;

@@ -102,7 +102,7 @@ width
 ;
 propertyView
 .
-createElements
+createListItemElement
 (
 )
 ;
