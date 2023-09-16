@@ -1633,6 +1633,14 @@ cachedHistoryPerUrl
 =
 null
 ;
+if
+(
+this
+.
+#
+historyListener
+)
+{
 PlacesObservers
 .
 removeListener
@@ -1667,6 +1675,7 @@ this
 historyListener
 )
 ;
+}
 this
 .
 #
