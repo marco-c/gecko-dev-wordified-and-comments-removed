@@ -1337,10 +1337,7 @@ link
 -
 color
 :
--
-moz
--
-nativehyperlinktext
+LinkText
 ;
 -
 -
@@ -1350,10 +1347,7 @@ color
 -
 hover
 :
--
-moz
--
-nativehyperlinktext
+LinkText
 ;
 -
 -
@@ -1363,10 +1357,7 @@ color
 -
 active
 :
--
-moz
--
-nativehyperlinktext
+ActiveText
 ;
 -
 -
