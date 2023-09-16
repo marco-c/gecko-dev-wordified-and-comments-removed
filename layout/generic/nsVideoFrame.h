@@ -262,10 +262,14 @@ aRenderingContext
 override
 ;
 void
-Destroy
+DestroyFrom
 (
-DestroyContext
+nsIFrame
+*
+aDestructRoot
+PostDestroyData
 &
+aPostDestroyData
 )
 override
 ;

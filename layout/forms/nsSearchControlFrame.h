@@ -123,10 +123,14 @@ NS_DECL_FRAMEARENA_HELPERS
 nsSearchControlFrame
 )
 void
-Destroy
+DestroyFrom
 (
-DestroyContext
+nsIFrame
+*
+aDestructRoot
+PostDestroyData
 &
+aPostDestroyData
 )
 override
 ;

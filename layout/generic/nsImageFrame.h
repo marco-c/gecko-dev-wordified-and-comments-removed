@@ -250,9 +250,12 @@ nsImageFrame
 )
 NS_DECL_QUERYFRAME
 void
-Destroy
+DestroyFrom
 (
-DestroyContext
+nsIFrame
+*
+aDestructRoot
+PostDestroyData
 &
 )
 override

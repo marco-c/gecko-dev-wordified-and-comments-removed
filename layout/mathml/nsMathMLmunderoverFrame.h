@@ -105,10 +105,14 @@ aFlagsToUpdate
 override
 ;
 void
-Destroy
+DestroyFrom
 (
-DestroyContext
+nsIFrame
+*
+aRoot
+PostDestroyData
 &
+aPostDestroyData
 )
 override
 ;

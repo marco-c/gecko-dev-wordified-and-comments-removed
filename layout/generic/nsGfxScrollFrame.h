@@ -682,9 +682,12 @@ aOldComputedStyle
 final
 ;
 void
-Destroy
+DestroyFrom
 (
-DestroyContext
+nsIFrame
+*
+aDestructRoot
+PostDestroyData
 &
 )
 override
