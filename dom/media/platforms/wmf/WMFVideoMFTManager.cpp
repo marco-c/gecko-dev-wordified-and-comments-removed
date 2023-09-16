@@ -1425,8 +1425,8 @@ media_wmf_low_latency_enabled
 if
 (
 mLowLatency
-&
-&
+|
+|
 lowLatency
 )
 {

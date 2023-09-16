@@ -1028,11 +1028,6 @@ mTags
 bool
 mIsRenderedExternally
 ;
-bool
-mIsLive
-=
-false
-;
 virtual
 AudioInfo
 *
