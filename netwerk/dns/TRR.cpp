@@ -865,6 +865,14 @@ rv
 )
 )
 {
+RecordReason
+(
+TRRSkippedReason
+:
+:
+TRR_BAD_URL
+)
+;
 return
 rv
 ;
