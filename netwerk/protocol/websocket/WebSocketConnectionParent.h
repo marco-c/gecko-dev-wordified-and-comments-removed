@@ -240,7 +240,7 @@ mListener
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mBackgroundThread
 ;
