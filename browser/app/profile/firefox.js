@@ -15841,16 +15841,6 @@ suggestImportCount
 pref
 (
 "
-print
-.
-use_simplify_page
-"
-true
-)
-;
-pref
-(
-"
 webchannel
 .
 allowObject
