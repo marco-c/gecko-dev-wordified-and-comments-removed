@@ -90,12 +90,6 @@ gecko_taskgraph
 .
 transforms
 .
-release_deps
--
-gecko_taskgraph
-.
-transforms
-.
 task
 kind
 -
