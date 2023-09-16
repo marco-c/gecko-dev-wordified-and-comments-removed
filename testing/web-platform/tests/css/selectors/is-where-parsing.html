@@ -190,7 +190,7 @@ cssRules
 function
 assert_valid
 (
-expected_valid
+expected_parseable
 pattern
 expected_pattern
 description
@@ -281,7 +281,7 @@ selectorText
 selector
 ;
 (
-expected_valid
+expected_parseable
 ?
 assert_equals
 :
@@ -572,9 +572,16 @@ after
 "
 )
 ;
+/
+/
+Should
+ask
+clarification
+from
+CSSWG
 assert_valid
 (
-false
+true
 "
 {
 }
