@@ -110,7 +110,9 @@ parserOptions
 {
 ecmaVersion
 :
-2016
+"
+latest
+"
 sourceType
 :
 "
