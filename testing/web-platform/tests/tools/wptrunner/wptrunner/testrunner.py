@@ -4483,15 +4483,11 @@ if
 test
 .
 test_type
-in
-[
+=
+=
 "
 crashtest
 "
-"
-wdspec
-"
-]
 or
 status
 =
