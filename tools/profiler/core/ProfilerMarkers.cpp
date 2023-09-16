@@ -102,7 +102,7 @@ mozilla
 :
 :
 ProfileBufferBlockIndex
-profiler_add_marker
+profiler_add_marker_impl
 (
 const
 mozilla
@@ -145,7 +145,7 @@ mozilla
 :
 :
 ProfileBufferBlockIndex
-profiler_add_marker
+profiler_add_marker_impl
 (
 const
 mozilla
@@ -185,7 +185,7 @@ mozilla
 :
 :
 ProfileBufferBlockIndex
-profiler_add_marker
+profiler_add_marker_impl
 (
 const
 mozilla
