@@ -2687,7 +2687,7 @@ guard
 true
 alias_set
 :
-none
+custom
 #
 endif
 -
@@ -8492,7 +8492,7 @@ folds_to
 custom
 alias_set
 :
-none
+custom
 -
 name
 :
