@@ -20751,9 +20751,10 @@ StyleOutline
 )
 -
 >
-EffectiveOffsetFor
+mOutlineOffset
+.
+ToAppUnits
 (
-rect
 )
 )
 ;
@@ -20955,9 +20956,10 @@ StyleOutline
 )
 -
 >
-EffectiveOffsetFor
+mOutlineOffset
+.
+ToAppUnits
 (
-rect
 )
 )
 ;
