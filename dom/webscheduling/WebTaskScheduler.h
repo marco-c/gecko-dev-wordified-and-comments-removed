@@ -581,7 +581,7 @@ mStaticPriorityTaskQueues
 ;
 nsClassHashtable
 <
-nsPtrHashKey
+nsRefPtrHashKey
 <
 TaskSignal
 >
