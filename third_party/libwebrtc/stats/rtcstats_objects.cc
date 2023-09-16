@@ -2042,8 +2042,6 @@ track_id
 transport_id
 &
 codec_id
-&
-media_type
 )
 RTCRtpStreamStats
 :
@@ -2098,12 +2096,6 @@ codec_id
 (
 "
 codecId
-"
-)
-media_type
-(
-"
-mediaType
 "
 )
 {

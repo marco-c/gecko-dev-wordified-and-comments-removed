@@ -1740,15 +1740,6 @@ string
 >
 codec_id
 ;
-RTCStatsMember
-<
-std
-:
-:
-string
->
-media_type
-;
 protected
 :
 RTCRtpStreamStats
