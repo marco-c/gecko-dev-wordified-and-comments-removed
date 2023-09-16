@@ -1754,6 +1754,11 @@ html
 card
 -
 container
+shortPageName
+=
+"
+history
+"
 >
 <
 h2
@@ -1944,6 +1949,11 @@ html
 card
 -
 container
+shortPageName
+=
+"
+history
+"
 >
 <
 h2
