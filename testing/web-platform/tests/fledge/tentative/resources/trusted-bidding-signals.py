@@ -303,7 +303,7 @@ application
 json
 "
     
-xAllowFledge
+adAuctionAllowed
 =
 "
 true
@@ -484,32 +484,17 @@ key
 =
 =
 "
-wrongContentType
-"
-:
-                
-contentType
-=
-'
-text
-/
-plain
-'
-            
-elif
-key
-=
-=
-"
 bad
 -
-allow
+ad
 -
-fledge
+auction
+-
+allowed
 "
 :
                 
-xAllowFledge
+adAuctionAllowed
 =
 "
 sometimes
@@ -520,7 +505,9 @@ key
 =
 =
 "
-fledge
+ad
+-
+auction
 -
 not
 -
@@ -528,7 +515,7 @@ allowed
 "
 :
                 
-xAllowFledge
+adAuctionAllowed
 =
 "
 false
@@ -541,13 +528,15 @@ key
 "
 no
 -
-allow
+ad
 -
-fledge
+auction
+-
+allow
 "
 :
                 
-xAllowFledge
+adAuctionAllowed
 =
 None
             
@@ -802,7 +791,7 @@ contentType
 )
     
 if
-xAllowFledge
+adAuctionAllowed
 :
         
 response
@@ -812,13 +801,13 @@ headers
 set
 (
 "
-X
+Ad
 -
-Allow
+Auction
 -
-FLEDGE
+Allowed
 "
-xAllowFledge
+adAuctionAllowed
 )
     
 if
