@@ -399,6 +399,15 @@ unique_timestamp_counter
 .
 h
 "
+#
+include
+"
+video
+/
+video_stream_buffer_controller
+.
+h
+"
 namespace
 webrtc
 {
@@ -511,7 +520,7 @@ rtcp_cname_callback
 NackPeriodicProcessor
 *
 nack_periodic_processor
-VCMReceiveStatisticsCallback
+VideoStreamBufferControllerStatsObserver
 *
 vcm_receive_statistics
 OnCompleteFrameCallback
@@ -1393,7 +1402,7 @@ RTC_GUARDED_BY
 packet_sequence_checker_
 )
 ;
-VCMReceiveStatisticsCallback
+VideoStreamBufferControllerStatsObserver
 *
 const
 vcm_receive_statistics_

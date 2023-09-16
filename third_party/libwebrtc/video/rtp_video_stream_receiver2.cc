@@ -1248,7 +1248,7 @@ rtcp_cname_callback
 NackPeriodicProcessor
 *
 nack_periodic_processor
-VCMReceiveStatisticsCallback
+VideoStreamBufferControllerStatsObserver
 *
 vcm_receive_statistics
 OnCompleteFrameCallback
