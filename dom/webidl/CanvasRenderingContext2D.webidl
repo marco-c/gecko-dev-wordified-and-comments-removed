@@ -1531,15 +1531,6 @@ mixin
 CanvasFilters
 {
 [
-Pref
-=
-"
-canvas
-.
-filters
-.
-enabled
-"
 SetterThrows
 ]
 attribute
