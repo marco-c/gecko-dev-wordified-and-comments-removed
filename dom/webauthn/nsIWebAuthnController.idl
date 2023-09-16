@@ -226,17 +226,6 @@ must_use
 ]
 readonly
 attribute
-Array
-<
-octet
->
-appIdHash
-;
-[
-must_use
-]
-readonly
-attribute
 AString
 userVerification
 ;

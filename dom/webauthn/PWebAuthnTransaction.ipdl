@@ -238,11 +238,6 @@ transports
 struct
 WebAuthnExtensionAppId
 {
-uint8_t
-[
-]
-AppId
-;
 nsString
 appIdentifier
 ;
