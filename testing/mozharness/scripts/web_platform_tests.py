@@ -2698,6 +2698,14 @@ self
 query_package_name
 (
 )
+                
+"
+-
+-
+product
+=
+firefox_android
+"
             
 ]
         
@@ -2705,9 +2713,9 @@ else
 :
             
 cmd
-.
-append
-(
++
+=
+[
 "
 -
 -
@@ -2720,7 +2728,14 @@ s
 self
 .
 binary_path
-)
+"
+-
+-
+product
+=
+firefox
+"
+]
         
 if
 is_windows_7
