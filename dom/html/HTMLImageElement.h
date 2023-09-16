@@ -286,13 +286,6 @@ aNullParent
 )
 override
 ;
-ElementState
-IntrinsicState
-(
-)
-const
-override
-;
 nsresult
 Clone
 (

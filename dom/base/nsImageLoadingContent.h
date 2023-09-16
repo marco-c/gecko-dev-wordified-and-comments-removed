@@ -1157,11 +1157,6 @@ mLoading
 1
 ;
 bool
-mBroken
-:
-1
-;
-bool
 mNewRequestsWillNeedAnimationReset
 :
 1
