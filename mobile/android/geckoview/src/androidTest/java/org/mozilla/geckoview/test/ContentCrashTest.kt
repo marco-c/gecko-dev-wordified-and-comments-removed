@@ -186,9 +186,6 @@ setEvalNextCrashDump
 GeckoRuntime
 .
 CRASHED_PROCESS_TYPE_FOREGROUND_CHILD
-"
-web
-"
 )
 }
 IgnoreCrash
