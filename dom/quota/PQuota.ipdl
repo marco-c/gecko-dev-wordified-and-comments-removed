@@ -327,11 +327,6 @@ pattern
 }
 ;
 struct
-ClearAllParams
-{
-}
-;
-struct
 PersistedParams
 {
 PrincipalInfo
@@ -384,8 +379,6 @@ ClearOriginParams
 ResetOriginParams
 ;
 ClearDataParams
-;
-ClearAllParams
 ;
 PersistedParams
 ;
@@ -441,6 +434,16 @@ params
 ;
 async
 ClearStoragesForPrivateBrowsing
+(
+)
+returns
+(
+BoolResponse
+response
+)
+;
+async
+ClearStorage
 (
 )
 returns
