@@ -206,13 +206,6 @@ GetCORSMode
 const
 override
 ;
-FetchPriority
-GetFetchPriority
-(
-)
-const
-override
-;
 bool
 HasScriptContent
 (
