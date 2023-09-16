@@ -25,13 +25,6 @@ h
 >
 #
 include
-<
-versionhelpers
-.
-h
->
-#
-include
 "
 2D
 .
@@ -1322,9 +1315,6 @@ CompositionOp
 :
 OP_OVER
 :
-return
-true
-;
 case
 CompositionOp
 :
@@ -1332,9 +1322,7 @@ CompositionOp
 OP_ADD
 :
 return
-IsWindows8Point1OrGreater
-(
-)
+true
 ;
 default
 :
