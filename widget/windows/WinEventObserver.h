@@ -96,7 +96,7 @@ WinEventHub
 public
 :
 static
-void
+bool
 Ensure
 (
 )
