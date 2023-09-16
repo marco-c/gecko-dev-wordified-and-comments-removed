@@ -586,14 +586,6 @@ dom
 /
 webauthn
 /
-cbor
--
-cpp
-/
-dom
-/
-webauthn
-/
 tests
 /
 pkijs
