@@ -159,6 +159,14 @@ mExclusive
 ;
 NormalOriginOperationBase
 (
+MovingNotNull
+<
+RefPtr
+<
+QuotaManager
+>
+>
+aQuotaManager
 const
 char
 *
