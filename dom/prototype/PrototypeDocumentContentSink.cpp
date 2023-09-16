@@ -3170,10 +3170,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 mDocument
-ToSupports
-(
 mDocument
-)
 u
 "
 MozBeforeInitialXULLayout

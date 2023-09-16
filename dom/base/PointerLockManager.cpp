@@ -1208,10 +1208,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 aDocument
-ToSupports
-(
 aElement
-)
 u
 "
 MozDOMPointerLock

@@ -432,10 +432,7 @@ nsContentUtils
 DispatchChromeEvent
 (
 document
-ToSupports
-(
 document
-)
 u
 "
 MozClipboardReadPaste

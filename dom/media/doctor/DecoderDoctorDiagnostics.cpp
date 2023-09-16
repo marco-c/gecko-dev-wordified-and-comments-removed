@@ -2180,10 +2180,7 @@ nsContentUtils
 DispatchTrustedEvent
 (
 aDocument
-ToSupports
-(
 aDocument
-)
 u
 "
 mozreportmediaerror

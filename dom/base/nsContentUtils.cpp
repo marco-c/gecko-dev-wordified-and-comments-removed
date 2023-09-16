@@ -23098,7 +23098,7 @@ GetEventAndTarget
 Document
 *
 aDoc
-nsISupports
+EventTarget
 *
 aTarget
 const
@@ -23129,10 +23129,7 @@ EventTarget
 >
 target
 (
-do_QueryInterface
-(
 aTarget
-)
 )
 ;
 NS_ENSURE_TRUE
@@ -23250,7 +23247,7 @@ DispatchTrustedEvent
 Document
 *
 aDoc
-nsISupports
+EventTarget
 *
 aTarget
 const
@@ -23325,7 +23322,7 @@ DispatchUntrustedEvent
 Document
 *
 aDoc
-nsISupports
+EventTarget
 *
 aTarget
 const
@@ -23370,7 +23367,7 @@ DispatchEvent
 Document
 *
 aDoc
-nsISupports
+EventTarget
 *
 aTarget
 const
@@ -23500,7 +23497,7 @@ DispatchEvent
 Document
 *
 aDoc
-nsISupports
+EventTarget
 *
 aTarget
 WidgetEvent
@@ -23545,10 +23542,7 @@ EventTarget
 >
 target
 (
-do_QueryInterface
-(
 aTarget
-)
 )
 ;
 aEvent
@@ -24572,7 +24566,7 @@ DispatchChromeEvent
 Document
 *
 aDoc
-nsISupports
+EventTarget
 *
 aTarget
 const
@@ -24873,7 +24867,7 @@ DispatchEventOnlyToChrome
 Document
 *
 aDoc
-nsISupports
+EventTarget
 *
 aTarget
 const

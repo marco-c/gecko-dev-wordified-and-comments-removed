@@ -7315,11 +7315,17 @@ aWindow
 GetExtantDoc
 (
 )
+nsGlobalWindowInner
+:
+:
+Cast
+(
 aWindow
 -
 >
 GetCurrentInnerWindow
 (
+)
 )
 aActive
 ?

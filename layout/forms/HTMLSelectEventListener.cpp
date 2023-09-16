@@ -1171,14 +1171,7 @@ element
 OwnerDoc
 (
 )
-ToSupports
-(
 element
-.
-get
-(
-)
-)
 u
 "
 mozhidedropdown
@@ -1685,10 +1678,7 @@ element
 OwnerDoc
 (
 )
-ToSupports
-(
 element
-)
 u
 "
 change
@@ -1771,10 +1761,7 @@ aElement
 OwnerDoc
 (
 )
-ToSupports
-(
 aElement
-)
 eventName
 CanBubble
 :

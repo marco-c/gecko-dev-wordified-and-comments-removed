@@ -12099,10 +12099,7 @@ nsContentUtils
 DispatchChromeEvent
 (
 mDoc
-ToSupports
-(
 mDoc
-)
 u
 "
 DOMWindowCreated
@@ -17397,10 +17394,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 mDoc
-ToSupports
-(
 this
-)
 aEventName
 CanBubble
 :
@@ -17423,10 +17417,7 @@ nsContentUtils
 DispatchTrustedEvent
 (
 mDoc
-ToSupports
-(
 this
-)
 aEventName
 CanBubble
 :

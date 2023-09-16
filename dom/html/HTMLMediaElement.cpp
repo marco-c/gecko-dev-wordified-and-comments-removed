@@ -29140,14 +29140,7 @@ DispatchTrustedEvent
 OwnerDoc
 (
 )
-static_cast
-<
-nsIContent
-*
->
-(
 this
-)
 aName
 CanBubble
 :

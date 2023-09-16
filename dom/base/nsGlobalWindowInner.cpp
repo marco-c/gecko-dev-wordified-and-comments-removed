@@ -23283,14 +23283,7 @@ nsContentUtils
 DispatchTrustedEvent
 (
 mDoc
-static_cast
-<
-EventTarget
-*
->
-(
 this
-)
 name
 CanBubble
 :
