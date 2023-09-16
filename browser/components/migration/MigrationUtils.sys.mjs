@@ -1084,6 +1084,17 @@ wantUntrusted
 :
 true
 }
+"
+MigrationWizard
+:
+OpenAboutAddons
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 includeChrome
