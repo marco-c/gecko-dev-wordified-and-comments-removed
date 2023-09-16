@@ -1,7 +1,7 @@
 "
 "
 "
-module
+Module
 to
 handle
 Gecko
@@ -340,6 +340,8 @@ zip
 .
 format
 (
+self
+.
 test_config
 [
 "
@@ -449,6 +451,28 @@ gecko_profile_entries
             
 )
         
+)
+    
+property
+    
+def
+_is_extra_profiler_run
+(
+self
+)
+:
+        
+return
+self
+.
+raptor_config
+.
+get
+(
+"
+extra_profiler_run
+"
+False
 )
     
 def
@@ -620,26 +644,6 @@ symbolication
             
 return
 profile
-    
-def
-_is_extra_profiler_run
-(
-self
-)
-:
-        
-return
-self
-.
-raptor_config
-.
-get
-(
-"
-extra_profiler_run
-"
-False
-)
     
 def
 collect_profiles
@@ -845,19 +849,13 @@ profiling
 "
 )
             
-is_extra_profiler_run
-=
-self
-.
-_is_extra_profiler_run
-(
-)
-            
 result_dir
 =
 profiling_dir
 if
-is_extra_profiler_run
+self
+.
+_is_extra_profiler_run
 else
 topdir
             
@@ -1017,7 +1015,9 @@ values
 :
                 
 if
-is_extra_profiler_run
+self
+.
+_is_extra_profiler_run
 :
                     
 LOG
@@ -1114,7 +1114,9 @@ None
 :
                     
 if
-is_extra_profiler_run
+self
+.
+_is_extra_profiler_run
 :
                         
 LOG
@@ -1363,7 +1365,9 @@ KeyError
 :
                         
 if
-is_extra_profiler_run
+self
+.
+_is_extra_profiler_run
 :
                             
 LOG
@@ -1511,14 +1515,6 @@ collect_profiles
 (
 )
         
-is_extra_profiler_run
-=
-self
-.
-_is_extra_profiler_run
-(
-)
-        
 if
 len
 (
@@ -1530,7 +1526,9 @@ profiles
 :
             
 if
-is_extra_profiler_run
+self
+.
+_is_extra_profiler_run
 :
                 
 LOG
@@ -1902,7 +1900,9 @@ FileNotFoundError
 :
                     
 if
-is_extra_profiler_run
+self
+.
+_is_extra_profiler_run
 :
                         
 LOG

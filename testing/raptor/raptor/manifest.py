@@ -23,6 +23,10 @@ manifestparser
 import
 TestManifest
 from
+perftest
+import
+TRACE_APPS
+from
 six
 .
 moves
@@ -2868,6 +2872,8 @@ extra_profiler_run
 is
 True
 and
+(
+            
 args
 .
 app
@@ -2876,6 +2882,14 @@ app
 "
 firefox
 "
+or
+args
+.
+app
+in
+TRACE_APPS
+        
+)
 :
             
 next_test
