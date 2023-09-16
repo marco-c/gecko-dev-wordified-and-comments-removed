@@ -3160,6 +3160,17 @@ srcString
 false
 )
 ;
+if
+(
+mIsInObjectOrEmbed
+)
+{
+SetModeClass
+(
+eIsInObjectOrEmbed
+)
+;
+}
 body
 -
 >
