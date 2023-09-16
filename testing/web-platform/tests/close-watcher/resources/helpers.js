@@ -175,7 +175,7 @@ ESC
 ;
 window
 .
-sendCloseSignal
+sendCloseRequest
 =
 window
 .

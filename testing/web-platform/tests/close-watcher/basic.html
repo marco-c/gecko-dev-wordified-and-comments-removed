@@ -480,7 +480,7 @@ destroy
 )
 ;
 await
-sendCloseSignal
+sendCloseRequest
 (
 )
 ;
@@ -498,7 +498,7 @@ destroy
 )
 then
 close
-signal
+request
 fires
 no
 events
@@ -528,7 +528,7 @@ events
 )
 ;
 await
-sendCloseSignal
+sendCloseRequest
 (
 )
 ;
@@ -551,7 +551,7 @@ close
 }
 "
 Close
-signal
+request
 then
 destroy
 (
