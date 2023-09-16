@@ -6598,8 +6598,6 @@ aPriority
 )
 ;
 }
-#
-endif
 void
 RemoteAccessible
 :
@@ -6635,6 +6633,8 @@ aY
 )
 ;
 }
+#
+endif
 RefPtr
 <
 const

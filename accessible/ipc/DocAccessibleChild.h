@@ -686,8 +686,6 @@ aPriority
 )
 override
 ;
-#
-endif
 virtual
 mozilla
 :
@@ -725,6 +723,8 @@ aY
 )
 override
 ;
+#
+endif
 private
 :
 LayoutDeviceIntRect
