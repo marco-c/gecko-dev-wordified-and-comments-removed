@@ -466,16 +466,6 @@ release
 )
 ;
 char
-&
-operator
-[
-]
-(
-size_t
-off
-)
-;
-char
 *
 reserve
 (
