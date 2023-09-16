@@ -6,6 +6,13 @@ define
 mozilla_intl_WordBreaker_h__
 #
 include
+"
+nsStringFwd
+.
+h
+"
+#
+include
 <
 cstdint
 >
@@ -55,11 +62,9 @@ WordRange
 FindWord
 (
 const
-char16_t
-*
+nsAString
+&
 aText
-uint32_t
-aLen
 uint32_t
 aPos
 )
