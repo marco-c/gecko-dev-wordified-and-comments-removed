@@ -1058,7 +1058,7 @@ nodiscard
 ]
 ]
 bool
-MergeTemporalFieldNames
+ConcatTemporalFieldNames
 (
 const
 JS
@@ -1097,7 +1097,7 @@ JS
 PropertyKey
 >
 &
-mergedFieldNames
+concatenatedFieldNames
 )
 ;
 [
