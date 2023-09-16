@@ -185,7 +185,7 @@ mTransactionsSinceGetDataSurface
 kCacheDataSurfaceThreshold
 ;
 }
-void
+bool
 EnsureBeginTransaction
 (
 )
