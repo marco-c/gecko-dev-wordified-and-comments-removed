@@ -643,12 +643,6 @@ tests
 -
 layout
 /
-mathml
-/
-tests
--
-layout
-/
 painting
 /
 crashtests
