@@ -387,6 +387,13 @@ actionsEl
 .
 actions
 "
+closeButtonEl
+:
+"
+button
+.
+close
+"
 }
 ;
 static
