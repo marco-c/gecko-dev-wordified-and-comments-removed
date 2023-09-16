@@ -4685,6 +4685,8 @@ http
 >
 SetRequestHeader
 (
+nsDependentCString
+(
 net
 :
 :
@@ -4692,9 +4694,6 @@ nsHttp
 :
 :
 Origin
-.
-val
-(
 )
 origin
 false

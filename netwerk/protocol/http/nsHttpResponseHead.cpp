@@ -649,10 +649,6 @@ if
 (
 !
 atom
-.
-get
-(
-)
 )
 {
 NS_WARNING
