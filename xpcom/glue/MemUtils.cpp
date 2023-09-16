@@ -228,15 +228,7 @@ if
 sPrefetchVirtualMemory
 )
 {
-struct
-{
-PVOID
-VirtualAddress
-;
-SIZE_T
-NumberOfBytes
-;
-}
+WIN32_MEMORY_RANGE_ENTRY
 entry
 ;
 entry
