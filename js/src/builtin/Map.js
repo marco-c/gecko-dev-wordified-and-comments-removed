@@ -434,9 +434,6 @@ species
 "
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 function
 MapGroupBy
 (
@@ -621,5 +618,3 @@ return
 map
 ;
 }
-#
-endif

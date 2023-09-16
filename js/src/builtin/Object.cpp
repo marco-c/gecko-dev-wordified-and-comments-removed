@@ -12167,9 +12167,6 @@ ObjectHasOwn
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -12181,8 +12178,6 @@ ObjectGroupBy
 2
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

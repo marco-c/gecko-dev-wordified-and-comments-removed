@@ -1090,9 +1090,6 @@ obj
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 function
 ObjectGroupBy
 (
@@ -1271,5 +1268,3 @@ return
 obj
 ;
 }
-#
-endif
