@@ -1106,12 +1106,13 @@ types
 }
 static
 bool
-IsOnLinux
+IsOnLinuxOrMac
 (
 )
 {
 #
 if
+(
 defined
 (
 XP_LINUX
@@ -1122,6 +1123,13 @@ XP_LINUX
 defined
 (
 ANDROID
+)
+)
+|
+|
+defined
+(
+XP_MACOSX
 )
 return
 true
@@ -1221,7 +1229,7 @@ aParam
 if
 (
 !
-IsOnLinux
+IsOnLinuxOrMac
 (
 )
 )
