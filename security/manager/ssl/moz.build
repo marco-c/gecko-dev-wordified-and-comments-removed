@@ -460,7 +460,7 @@ CryptoTask
 cpp
 "
 "
-DataStorageManager
+DataStorage
 .
 cpp
 "
