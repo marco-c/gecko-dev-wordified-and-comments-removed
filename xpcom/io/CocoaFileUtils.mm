@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 nsCocoaUtils
 .
 h
