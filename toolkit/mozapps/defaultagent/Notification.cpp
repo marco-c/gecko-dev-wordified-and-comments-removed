@@ -182,6 +182,12 @@ MUTEX_TIMEOUT_MS
 *
 1000
 )
+namespace
+mozilla
+:
+:
+default_agent
+{
 bool
 FirefoxInstallIsEnglish
 (
@@ -3588,5 +3594,6 @@ no
 action
 "
 ;
+}
 }
 }

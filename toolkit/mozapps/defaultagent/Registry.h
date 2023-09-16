@@ -43,6 +43,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 enum
 class
 IsPrefixed
@@ -309,5 +315,6 @@ subKey
 nullptr
 )
 ;
+}
 #
 endif

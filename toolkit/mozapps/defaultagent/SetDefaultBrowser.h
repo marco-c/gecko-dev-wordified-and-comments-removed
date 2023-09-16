@@ -4,6 +4,12 @@ DEFAULT_BROWSER_SET_DEFAULT_BROWSER_H__
 #
 define
 DEFAULT_BROWSER_SET_DEFAULT_BROWSER_H__
+namespace
+mozilla
+:
+:
+default_agent
+{
 HRESULT
 SetDefaultBrowserUserChoice
 (
@@ -62,5 +68,6 @@ MOZ_E_BUILD
 =
 0xa0000004L
 ;
+}
 #
 endif

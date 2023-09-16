@@ -18,6 +18,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 struct
 DefaultPdfInfo
 {
@@ -45,5 +51,6 @@ GetDefaultPdfInfo
 (
 )
 ;
+}
 #
 endif

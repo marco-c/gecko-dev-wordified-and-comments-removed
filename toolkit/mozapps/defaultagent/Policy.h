@@ -4,6 +4,12 @@ __DEFAULT_BROWSER_AGENT_POLICY_H__
 #
 define
 __DEFAULT_BROWSER_AGENT_POLICY_H__
+namespace
+mozilla
+:
+:
+default_agent
+{
 bool
 IsAgentDisabled
 (
@@ -14,5 +20,6 @@ IsTelemetryDisabled
 (
 )
 ;
+}
 #
 endif

@@ -18,6 +18,12 @@ wtypes
 .
 h
 >
+namespace
+mozilla
+:
+:
+default_agent
+{
 HRESULT
 RegisterTask
 (
@@ -59,5 +65,6 @@ WhichTasks
 tasksToRemove
 )
 ;
+}
 #
 endif

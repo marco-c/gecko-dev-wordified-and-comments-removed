@@ -249,6 +249,12 @@ RRF_SUBKEY_WOW6464KEY
 0x00010000
 #
 endif
+namespace
+mozilla
+:
+:
+default_agent
+{
 using
 TelemetryFieldResult
 =
@@ -2734,4 +2740,5 @@ AsHResult
 (
 )
 ;
+}
 }

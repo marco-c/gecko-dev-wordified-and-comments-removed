@@ -109,6 +109,12 @@ Mozilla
 \
 "
 MOZ_APP_BASENAME
+namespace
+mozilla
+:
+:
+default_agent
+{
 enum
 class
 PolicyState
@@ -756,4 +762,5 @@ L
 TELEMETRY_POLICY_NAME
 )
 ;
+}
 }

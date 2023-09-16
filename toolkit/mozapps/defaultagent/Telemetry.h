@@ -32,6 +32,12 @@ Notification
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 HRESULT
 SendDefaultBrowserPing
 (
@@ -49,5 +55,6 @@ NotificationActivities
 activitiesPerformed
 )
 ;
+}
 #
 endif

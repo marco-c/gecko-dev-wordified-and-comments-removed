@@ -65,6 +65,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 using
 PdfResult
 =
@@ -363,4 +369,5 @@ GetDefaultPdf
 return
 pdfInfo
 ;
+}
 }

@@ -33,6 +33,12 @@ Unused
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 static
 std
 :
@@ -3343,4 +3349,5 @@ E_FAIL
 )
 )
 ;
+}
 }

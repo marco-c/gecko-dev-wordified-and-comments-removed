@@ -27,6 +27,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 MOZ_DEFINE_ENUM_CLASS
 (
 Browser
@@ -88,5 +94,6 @@ MaybeMigrateCurrentDefault
 (
 )
 ;
+}
 #
 endif

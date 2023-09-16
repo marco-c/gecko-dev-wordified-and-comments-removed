@@ -78,6 +78,12 @@ SetDefaultBrowser
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 static
 HRESULT
 SetDefaultExtensionHandlersUserChoiceImpl
@@ -1713,4 +1719,5 @@ extraProgIDRoot
 return
 S_OK
 ;
+}
 }
