@@ -7292,7 +7292,8 @@ help
 "
 Install
 app
-ass
+as
+Android
 App
 Bundle
 (
