@@ -1939,10 +1939,10 @@ temp
 )
 )
 {
-free
-(
+delete
+[
+]
 temp
-)
 ;
 }
 }
