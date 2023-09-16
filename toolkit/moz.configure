@@ -7336,6 +7336,10 @@ pack_rel_relocs
 [
 "
 -
+pie
+"
+"
+-
 o
 "
 path
