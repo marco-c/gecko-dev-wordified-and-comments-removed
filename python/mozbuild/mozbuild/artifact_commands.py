@@ -2254,7 +2254,7 @@ return
 1
         
 from
-gecko_taskgraph
+taskgraph
 .
 optimize
 .
