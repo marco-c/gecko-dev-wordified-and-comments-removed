@@ -12,6 +12,13 @@ windows
 h
 >
 #
+undef
+NTDDI_VERSION
+#
+define
+NTDDI_VERSION
+NTDDI_WIN7
+#
 include
 <
 shobjidl

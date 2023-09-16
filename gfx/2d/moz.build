@@ -358,6 +358,13 @@ gfx
 =
 [
 "
+dw
+-
+extra
+.
+h
+"
+"
 DWriteSettings
 .
 h

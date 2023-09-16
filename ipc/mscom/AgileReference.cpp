@@ -76,6 +76,11 @@ h
 endif
 #
 if
+NTDDI_VERSION
+<
+NTDDI_WINBLUE
+|
+|
 defined
 (
 __MINGW32__
