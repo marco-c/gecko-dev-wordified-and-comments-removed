@@ -207,11 +207,6 @@ PartitioningExceptionList
 h
 "
 "
-RejectForeignAllowList
-.
-h
-"
-"
 StorageAccess
 .
 h
@@ -283,11 +278,6 @@ cpp
 "
 "
 PartitioningExceptionList
-.
-cpp
-"
-"
-RejectForeignAllowList
 .
 cpp
 "
