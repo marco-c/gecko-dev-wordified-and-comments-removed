@@ -169912,6 +169912,11 @@ QEBAPEAVJSFunction
 PEAUJSContext
 Z
 ?
+jsprintf
+Sprinter
+js
+QEAA_NPEBDZZ
+?
 vprintf
 GenericPrinter
 js
