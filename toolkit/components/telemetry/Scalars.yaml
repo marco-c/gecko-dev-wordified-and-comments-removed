@@ -40294,8 +40294,6 @@ record_in_processes
 :
 -
 main
--
-content
 component_opted_out
 :
 bug_numbers
@@ -40393,8 +40391,6 @@ record_in_processes
 :
 -
 main
--
-content
 has_onboarded
 :
 bug_numbers
@@ -40491,8 +40487,6 @@ record_in_processes
 :
 -
 main
--
-content
 power
 :
 cpu_time_bogus_values
