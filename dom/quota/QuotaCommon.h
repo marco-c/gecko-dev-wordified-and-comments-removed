@@ -3233,7 +3233,7 @@ QM_OR_ELSE_LOG_VERBOSE
 )
 QM_OR_ELSE_REPORT
 (
-Log
+Verbose
 __VA_ARGS__
 )
 namespace
