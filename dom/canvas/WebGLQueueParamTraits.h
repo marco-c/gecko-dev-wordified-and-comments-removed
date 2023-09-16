@@ -28,13 +28,6 @@ h
 #
 include
 "
-WebGLContext
-.
-h
-"
-#
-include
-"
 WebGLTypes
 .
 h
