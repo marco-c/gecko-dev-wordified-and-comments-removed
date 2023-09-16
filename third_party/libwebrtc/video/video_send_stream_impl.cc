@@ -1206,15 +1206,6 @@ video_stream_encoder_
 (
 video_stream_encoder
 )
-bandwidth_observer_
-(
-transport
--
->
-GetBandwidthObserver
-(
-)
-)
 rtp_video_sender_
 (
 rtp_video_sender
