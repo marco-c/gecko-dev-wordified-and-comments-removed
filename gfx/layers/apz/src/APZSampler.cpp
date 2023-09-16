@@ -784,9 +784,6 @@ apzc
 >
 GetCurrentAsyncVisualViewport
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :

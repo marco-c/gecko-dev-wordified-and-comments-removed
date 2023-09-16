@@ -707,9 +707,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :

@@ -401,9 +401,6 @@ outer
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -514,9 +511,6 @@ inner
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -543,9 +537,6 @@ outer
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :

@@ -601,6 +601,14 @@ AsyncTransformComponent
 eVisual
 )
 ;
+enum
+class
+AsyncTransformConsumer
+{
+eForEventHandling
+eForCompositing
+}
+;
 struct
 GeckoViewMetrics
 {

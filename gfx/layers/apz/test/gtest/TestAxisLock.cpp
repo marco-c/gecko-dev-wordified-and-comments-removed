@@ -956,9 +956,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -1245,9 +1242,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -1588,9 +1582,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -1830,9 +1821,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -1919,9 +1907,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -2160,9 +2145,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -3464,9 +3446,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -3497,9 +3476,6 @@ rootApzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -3703,9 +3679,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -3728,9 +3701,6 @@ rootApzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
@@ -3887,9 +3857,6 @@ apzc
 >
 GetCurrentAsyncScrollOffset
 (
-AsyncPanZoomController
-:
-:
 AsyncTransformConsumer
 :
 :
