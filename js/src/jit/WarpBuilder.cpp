@@ -9566,6 +9566,10 @@ iter
 unboxObjectInfallible
 (
 iter
+IsMovable
+:
+:
+Yes
 )
 ;
 return
@@ -16862,6 +16866,10 @@ getArg
 (
 0
 )
+IsMovable
+:
+:
+No
 )
 )
 ;
@@ -17011,6 +17019,10 @@ getArg
 (
 0
 )
+IsMovable
+:
+:
+No
 )
 )
 ;

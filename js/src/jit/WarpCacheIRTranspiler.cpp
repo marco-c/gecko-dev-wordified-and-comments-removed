@@ -27947,6 +27947,10 @@ boundArgsObj
 unboxObjectInfallible
 (
 boundArgs
+IsMovable
+:
+:
+Yes
 )
 ;
 elements
