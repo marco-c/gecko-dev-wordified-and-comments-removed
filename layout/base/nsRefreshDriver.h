@@ -1622,11 +1622,6 @@ UpdateRelevancyOfContentVisibilityAutoFrames
 )
 ;
 void
-MaybeIncreaseMeasuredTicksSinceLoading
-(
-)
-;
-void
 EvaluateMediaQueriesAndReportChanges
 (
 )
