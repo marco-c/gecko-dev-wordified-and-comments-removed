@@ -28123,7 +28123,7 @@ version
 "
 }
 "
-NETWORKING_HTTP_1_DOWNLOAD_THROUGHPUT
+NETWORKING_DOWNLOAD_THROUGHPUT_HTTP_1
 "
 :
 {
@@ -28204,11 +28204,6 @@ bug_numbers
 1846798
 ]
 "
-keyed
-"
-:
-true
-"
 description
 "
 :
@@ -28217,6 +28212,11 @@ The
 download
 throughput
 for
+http
+/
+1
+.
+0
 http
 /
 1
@@ -28237,7 +28237,7 @@ Mbps
 "
 }
 "
-NETWORKING_HTTP_2_DOWNLOAD_THROUGHPUT
+NETWORKING_DOWNLOAD_THROUGHPUT_HTTP_2
 "
 :
 {
@@ -28317,11 +28317,6 @@ bug_numbers
 [
 1846798
 ]
-"
-keyed
-"
-:
-true
 "
 description
 "
@@ -28349,7 +28344,7 @@ Mbps
 "
 }
 "
-NETWORKING_HTTP_3_DOWNLOAD_THROUGHPUT
+NETWORKING_DOWNLOAD_THROUGHPUT_HTTP_3
 "
 :
 {
@@ -28429,11 +28424,6 @@ bug_numbers
 [
 1846798
 ]
-"
-keyed
-"
-:
-true
 "
 description
 "
