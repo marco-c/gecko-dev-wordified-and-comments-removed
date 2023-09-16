@@ -276,8 +276,10 @@ FilePickerShownCallback
 =
 default
 ;
+RefPtr
+<
 FilePickerParent
-*
+>
 mFilePickerParent
 ;
 }
@@ -295,8 +297,10 @@ IORunnable
 public
 Runnable
 {
+RefPtr
+<
 FilePickerParent
-*
+>
 mFilePickerParent
 ;
 nsTArray

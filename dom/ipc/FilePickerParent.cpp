@@ -1511,6 +1511,12 @@ aDisplaySpecialDirectory
 )
 ;
 }
+MOZ_ASSERT
+(
+!
+mCallback
+)
+;
 mCallback
 =
 new
