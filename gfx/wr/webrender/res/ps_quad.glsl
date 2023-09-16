@@ -146,6 +146,14 @@ QF_IGNORE_DEVICE_SCALE
 4
 #
 define
+QF_USE_AA_SEGMENTS
+8
+#
+define
+QF_SAMPLE_AS_MASK
+16
+#
+define
 INVALID_SEGMENT_INDEX
 0xff
 #
@@ -173,6 +181,9 @@ local_clip_rect
 ;
 int
 edge_flags
+;
+int
+quad_flags
 ;
 }
 ;
@@ -1523,6 +1534,9 @@ clip
 qi
 .
 edge_flags
+qi
+.
+quad_flags
 )
 ;
 }

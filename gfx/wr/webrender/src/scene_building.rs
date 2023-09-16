@@ -331,7 +331,6 @@ prim_store
 {
 InternablePrimitive
 PictureIndex
-SegmentInstanceIndex
 }
 ;
 use
@@ -11075,12 +11074,6 @@ shadow_prim_data_handle
 pic_index
 :
 shadow_pic_index
-segment_instance_index
-:
-SegmentInstanceIndex
-:
-:
-INVALID
 }
 self
 .
@@ -15106,12 +15099,6 @@ Picture
 {
 data_handle
 pic_index
-segment_instance_index
-:
-SegmentInstanceIndex
-:
-:
-INVALID
 }
 clip_tree_builder
 .

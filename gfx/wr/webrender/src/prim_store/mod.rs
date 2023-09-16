@@ -4741,9 +4741,6 @@ PictureDataHandle
 pic_index
 :
 PictureIndex
-segment_instance_index
-:
-SegmentInstanceIndex
 }
 TextRun
 {
