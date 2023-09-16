@@ -430,5 +430,12 @@ ff_arib_caption_profiles
 [
 ]
 ;
+extern
+const
+AVProfile
+ff_evc_profiles
+[
+]
+;
 #
 endif

@@ -90,9 +90,6 @@ uint8_t
 *
 raw_data
 ;
-GetBitContext
-gb
-;
 int
 type
 ;
@@ -592,5 +589,16 @@ return
 size
 ;
 }
+AVRational
+ff_av1_framerate
+(
+int64_t
+ticks_per_frame
+int64_t
+units_per_tick
+int64_t
+time_scale
+)
+;
 #
 endif

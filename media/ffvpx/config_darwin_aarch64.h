@@ -1473,6 +1473,10 @@ HAVE_VAAPI_DRM
 0
 #
 define
+HAVE_VAAPI_WIN32
+0
+#
+define
 HAVE_VAAPI_X11
 0
 #

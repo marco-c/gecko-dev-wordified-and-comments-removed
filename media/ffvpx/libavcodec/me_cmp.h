@@ -295,7 +295,7 @@ AVCodecContext
 avctx
 )
 ;
-void
+int
 ff_set_cmp
 (
 MECmpContext

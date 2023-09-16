@@ -438,6 +438,11 @@ av1_frame_split_bsf
 c
 '
 '
+av1_parse
+.
+c
+'
+'
 av1dec
 .
 c
@@ -504,6 +509,11 @@ c
 '
 '
 vp8_parser
+.
+c
+'
+'
+vp8data
 .
 c
 '

@@ -221,6 +221,10 @@ size_t
 size
 )
 ;
+#
+define
+AV_HDR_PLUS_MAX_PAYLOAD_SIZE
+907
 int
 av_dynamic_hdr_plus_to_t35
 (

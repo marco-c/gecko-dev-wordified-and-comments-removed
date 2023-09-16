@@ -120,6 +120,11 @@ ff_dvd_nav_parser
 extern
 const
 AVCodecParser
+ff_evc_parser
+;
+extern
+const
+AVCodecParser
 ff_flac_parser
 ;
 extern
@@ -281,6 +286,11 @@ extern
 const
 AVCodecParser
 ff_vp9_parser
+;
+extern
+const
+AVCodecParser
+ff_vvc_parser
 ;
 extern
 const

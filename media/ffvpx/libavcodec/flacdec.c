@@ -3068,6 +3068,9 @@ coeffs
 j
 ]
 *
+(
+uint64_t
+)
 decoded
 [
 j

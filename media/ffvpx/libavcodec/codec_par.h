@@ -175,6 +175,9 @@ seek_preroll
 AVChannelLayout
 ch_layout
 ;
+AVRational
+framerate
+;
 }
 AVCodecParameters
 ;

@@ -99,6 +99,15 @@ AV_CODEC_PROP_REORDER
 )
 #
 define
+AV_CODEC_PROP_FIELDS
+(
+1
+<
+<
+4
+)
+#
+define
 AV_CODEC_PROP_BITMAP_SUB
 (
 1

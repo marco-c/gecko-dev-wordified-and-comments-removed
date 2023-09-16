@@ -75,13 +75,6 @@ h
 #
 include
 "
-timer
-.
-h
-"
-#
-include
-"
 macros
 .
 h

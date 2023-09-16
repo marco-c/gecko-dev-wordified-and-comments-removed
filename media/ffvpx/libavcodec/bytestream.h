@@ -886,6 +886,7 @@ int
 size
 )
 {
+unsigned
 int
 size2
 ;
@@ -1418,6 +1419,7 @@ int
 size
 )
 {
+unsigned
 int
 size2
 =
@@ -1514,6 +1516,7 @@ int
 size
 )
 {
+unsigned
 int
 size2
 ;
@@ -1635,6 +1638,7 @@ int
 size
 )
 {
+unsigned
 int
 size2
 ;
@@ -1816,6 +1820,7 @@ int
 size
 )
 {
+unsigned
 int
 size2
 ;
