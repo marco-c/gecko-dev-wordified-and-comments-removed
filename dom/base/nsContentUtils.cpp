@@ -5892,9 +5892,11 @@ rv
 doesNotReturnData
 ;
 }
-static
 nsAtom
 *
+nsContentUtils
+:
+:
 GetEventTypeFromMessage
 (
 EventMessage
