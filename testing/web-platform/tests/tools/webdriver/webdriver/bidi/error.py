@@ -491,13 +491,11 @@ values
 :
     
 if
-type
+isinstance
 (
 item
-)
-=
-=
 type
+)
 and
 item
 !

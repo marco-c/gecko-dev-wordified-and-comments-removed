@@ -51,7 +51,7 @@ flake8
 =
 6
 .
-0
+1
 .
 0
 ;
@@ -68,7 +68,7 @@ pycodestyle
 =
 2
 .
-10
+11
 .
 0
 ;
@@ -85,9 +85,9 @@ pyflakes
 =
 3
 .
-0
-.
 1
+.
+0
 ;
 python_version
 >
