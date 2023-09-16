@@ -239,6 +239,15 @@ use
 crate
 :
 :
+render_target
+:
+:
+RenderTargetKind
+;
+use
+crate
+:
+:
 render_task_graph
 :
 :
@@ -6969,6 +6978,9 @@ mut
 data_stores
 .
 clip
+frame_state
+.
+rg_builder
 false
 )
 ;
@@ -8750,6 +8762,10 @@ clip_chain
 .
 clips_range
 needs_scissor_rect
+RenderTargetKind
+:
+:
+Color
 )
 )
 )

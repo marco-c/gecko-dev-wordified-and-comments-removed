@@ -330,8 +330,8 @@ prim_store
 :
 {
 InternablePrimitive
-SegmentInstanceIndex
 PictureIndex
+SegmentInstanceIndex
 }
 ;
 use
