@@ -89,7 +89,6 @@ AtomicU32
 Ordering
 }
 ;
-pub
 const
 MAX_BUFFER_SIZE
 :
@@ -98,10 +97,10 @@ wgt
 :
 BufferAddress
 =
-1u64
+1
 <
 <
-30u64
+30
 ;
 const
 MAX_TEXTURE_EXTENT
@@ -1590,9 +1589,6 @@ u32
 mapped_at_creation
 :
 bool
-shm_allocation_failed
-:
-bool
 mut
 error_buf
 :
@@ -1659,9 +1655,6 @@ usage
 )
 ;
 if
-shm_allocation_failed
-|
-|
 size
 >
 MAX_BUFFER_SIZE
