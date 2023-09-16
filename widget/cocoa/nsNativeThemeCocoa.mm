@@ -10955,7 +10955,6 @@ Radio
 bool
 isCheckbox
 =
-(
 aAppearance
 =
 =
@@ -10963,7 +10962,6 @@ StyleAppearance
 :
 :
 Checkbox
-)
 ;
 CheckboxOrRadioParams
 params
@@ -10979,6 +10977,9 @@ eOff
 ;
 if
 (
+isCheckbox
+&
+&
 elementState
 .
 HasState
