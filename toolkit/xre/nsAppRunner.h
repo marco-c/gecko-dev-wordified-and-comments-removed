@@ -274,11 +274,6 @@ WriteConsoleLog
 )
 ;
 void
-OverrideDefaultLocaleIfNeeded
-(
-)
-;
-void
 MozExpectedExit
 (
 )
