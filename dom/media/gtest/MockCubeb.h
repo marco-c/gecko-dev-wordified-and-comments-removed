@@ -1064,6 +1064,15 @@ false
 std
 :
 :
+atomic_bool
+mDestroyed
+{
+false
+}
+;
+std
+:
+:
 atomic
 <
 uint64_t
@@ -1406,7 +1415,7 @@ aUserPtr
 void
 StreamDestroy
 (
-cubeb_stream
+MockCubebStream
 *
 aStream
 )
