@@ -524,20 +524,6 @@ jsm
 "
     
 "
-testing
-/
-mochitest
-/
-tests
-/
-Harness_sanity
-/
-ImportTesting
-.
-jsm
-"
-    
-"
 tools
 /
 lint
