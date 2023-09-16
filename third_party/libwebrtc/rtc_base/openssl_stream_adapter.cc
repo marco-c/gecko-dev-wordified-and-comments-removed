@@ -4979,13 +4979,6 @@ return
 nullptr
 ;
 }
-#
-if
-!
-defined
-(
-NDEBUG
-)
 SSL_CTX_set_info_callback
 (
 ctx
@@ -4995,8 +4988,6 @@ OpenSSLAdapter
 SSLInfoCallback
 )
 ;
-#
-endif
 int
 mode
 =

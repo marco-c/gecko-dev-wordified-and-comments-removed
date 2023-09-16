@@ -571,13 +571,6 @@ string_view
 host
 )
 ;
-#
-if
-!
-defined
-(
-NDEBUG
-)
 static
 void
 SSLInfoCallback
@@ -592,8 +585,6 @@ int
 ret
 )
 ;
-#
-endif
 #
 if
 defined
