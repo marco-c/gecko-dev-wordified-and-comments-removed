@@ -163,6 +163,11 @@ WeakRefSpecifier
 :
 EnabledWithCleanupSome
 )
+.
+setSharedMemoryAndAtomicsEnabled
+(
+true
+)
 ;
 return
 JS_NewGlobalObject
