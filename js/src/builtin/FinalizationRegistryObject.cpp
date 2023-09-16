@@ -3016,7 +3016,7 @@ names
 (
 )
 .
-empty
+empty_
 ;
 RootedFunction
 doCleanupFunction

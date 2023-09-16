@@ -19236,7 +19236,7 @@ case
 WellKnownAtomId
 :
 :
-empty
+empty_
 :
 json
 .
@@ -19681,7 +19681,7 @@ case
 WellKnownAtomId
 :
 :
-empty
+empty_
 :
 out
 .

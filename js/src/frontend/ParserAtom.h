@@ -890,7 +890,7 @@ TaggedParserAtomIndex
 WellKnownAtomId
 :
 :
-empty
+empty_
 )
 ;
 }
@@ -1121,7 +1121,7 @@ uint32_t
 WellKnownAtomId
 :
 :
-empty
+empty_
 )
 |
 WellKnownTag

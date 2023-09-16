@@ -3352,7 +3352,7 @@ names
 (
 )
 .
-empty
+empty_
 )
 objectProto
 gc
@@ -8787,7 +8787,7 @@ names
 (
 )
 .
-empty
+empty_
 ;
 }
 StringBuffer

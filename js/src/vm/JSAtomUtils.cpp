@@ -1573,7 +1573,7 @@ emptyString
 commonNames
 -
 >
-empty
+empty_
 ;
 if
 (

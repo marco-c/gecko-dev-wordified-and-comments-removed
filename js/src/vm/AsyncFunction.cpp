@@ -1153,7 +1153,7 @@ names
 (
 )
 .
-empty
+empty_
 ;
 JS
 :

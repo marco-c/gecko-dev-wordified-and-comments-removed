@@ -705,7 +705,7 @@ names
 (
 )
 .
-empty
+empty_
 ;
 }
 inline

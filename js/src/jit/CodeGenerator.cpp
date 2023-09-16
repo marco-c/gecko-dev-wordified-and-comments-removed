@@ -12824,7 +12824,7 @@ ImmGCPtr
 (
 names
 .
-empty
+empty_
 )
 string_
 )
@@ -49874,7 +49874,7 @@ ImmGCPtr
 (
 names
 .
-empty
+empty_
 )
 &
 bail
@@ -69978,7 +69978,7 @@ ImmGCPtr
 (
 names
 .
-empty
+empty_
 )
 output
 )
@@ -72719,7 +72719,7 @@ ImmGCPtr
 (
 names
 .
-empty
+empty_
 )
 output
 )
@@ -82813,7 +82813,7 @@ ImmGCPtr
 (
 names
 .
-empty
+empty_
 )
 output
 )
