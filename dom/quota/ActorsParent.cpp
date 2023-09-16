@@ -22107,6 +22107,10 @@ ClearPrivateRepository
 (
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 auto
 clearPrivateRepositoryOp
 =
