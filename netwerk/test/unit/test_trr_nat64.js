@@ -104,7 +104,7 @@ function
 observe
 (
 subject
-topic
+topic1
 data
 )
 {

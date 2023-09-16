@@ -48,7 +48,7 @@ gLoads
 function
 setupTest
 (
-uri
+iframeUri
 domain
 cookies
 loads
@@ -63,7 +63,7 @@ uri
 :
 "
 +
-uri
+iframeUri
 +
 "
 domain
@@ -336,7 +336,7 @@ window
 .
 open
 (
-uri
+iframeUri
 "
 hai
 "
