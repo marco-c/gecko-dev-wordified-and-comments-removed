@@ -1840,6 +1840,13 @@ linkedBrowser
 if
 (
 autoOffer
+&
+&
+TranslationsParent
+.
+shouldAlwaysOfferTranslations
+(
+)
 )
 {
 info
