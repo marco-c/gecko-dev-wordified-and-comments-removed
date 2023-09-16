@@ -47221,11 +47221,6 @@ StaticPrefs
 mozilla
 YA_NXZ
 ?
-dom_forms_enterkeyhint
-StaticPrefs
-mozilla
-YA_NXZ
-?
 dom_forms_autocapitalize
 StaticPrefs
 mozilla

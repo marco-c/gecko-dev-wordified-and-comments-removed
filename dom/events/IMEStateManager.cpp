@@ -8494,14 +8494,6 @@ aState
 IsEditable
 (
 )
-&
-&
-StaticPrefs
-:
-:
-dom_forms_enterkeyhint
-(
-)
 )
 {
 nsGenericHTMLElement
