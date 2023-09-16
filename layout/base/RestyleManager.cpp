@@ -10476,6 +10476,13 @@ elementToRestyle
 return
 ;
 }
+mPresContext
+-
+>
+TriggeredAnimationRestyle
+(
+)
+;
 AutoRestyleTimelineMarker
 marker
 (

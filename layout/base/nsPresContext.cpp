@@ -1297,6 +1297,10 @@ mFramesReflowed
 (
 0
 )
+mAnimationTriggeredRestyles
+(
+0
+)
 mInterruptChecksToSkip
 (
 0
