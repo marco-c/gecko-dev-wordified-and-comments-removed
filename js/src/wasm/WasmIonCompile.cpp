@@ -37119,6 +37119,10 @@ RefType
 i31
 (
 )
+.
+asNonNullable
+(
+)
 )
 &
 input

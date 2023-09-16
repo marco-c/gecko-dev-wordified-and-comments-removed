@@ -36187,6 +36187,10 @@ RefType
 i31
 (
 )
+.
+asNonNullable
+(
+)
 )
 &
 value
