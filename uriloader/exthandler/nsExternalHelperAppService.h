@@ -614,9 +614,9 @@ const
 nsACString
 &
 aMimeContentType
-nsIRequest
+nsIChannel
 *
-aRequest
+aChannel
 mozilla
 :
 :

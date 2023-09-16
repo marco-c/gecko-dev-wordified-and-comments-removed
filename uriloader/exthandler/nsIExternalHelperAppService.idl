@@ -9,7 +9,7 @@ interface
 nsIURI
 ;
 interface
-nsIRequest
+nsIChannel
 ;
 interface
 nsIStreamListener
@@ -56,8 +56,8 @@ in
 ACString
 aMimeContentType
 in
-nsIRequest
-aRequest
+nsIChannel
+aChannel
 in
 nsIInterfaceRequestor
 aContentContext
@@ -79,8 +79,8 @@ in
 ACString
 aMimeContentType
 in
-nsIRequest
-aRequest
+nsIChannel
+aChannel
 in
 BrowsingContext
 aContentContext
