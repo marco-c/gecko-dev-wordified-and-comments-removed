@@ -360,7 +360,13 @@ property
 ;
 propertyView
 .
-createElements
+buildMain
+(
+)
+;
+propertyView
+.
+buildSelectorContainer
 (
 )
 ;

@@ -219,7 +219,7 @@ if
 (
 propertyView
 .
-propertyInfo
+_propertyInfo
 .
 name
 =
@@ -254,7 +254,7 @@ let
 expander
 ;
 let
-matchedRulesEl
+propertyContent
 ;
 for
 (
@@ -326,17 +326,11 @@ expandable
 "
 )
 ;
-matchedRulesEl
+propertyContent
 =
 property
 .
-querySelector
-(
-"
-.
-matchedselectors
-"
-)
+nextSibling
 ;
 break
 ;
@@ -403,7 +397,7 @@ open
 ;
 }
 return
-matchedRulesEl
+propertyContent
 ;
 }
 ;
