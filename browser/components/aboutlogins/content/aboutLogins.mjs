@@ -1111,7 +1111,7 @@ sync
 -
 dialog
 -
-message
+message2
 "
 ;
 }
