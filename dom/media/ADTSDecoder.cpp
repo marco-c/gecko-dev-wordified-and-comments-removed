@@ -42,6 +42,7 @@ PDMFactory
 )
 ;
 return
+!
 platform
 -
 >
@@ -56,15 +57,10 @@ latm
 "
 _ns
 )
-!
-=
-media
-:
-:
-DecodeSupport
-:
-:
-Unsupported
+.
+isEmpty
+(
+)
 ;
 }
 bool

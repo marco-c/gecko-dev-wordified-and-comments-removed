@@ -236,9 +236,6 @@ DecodeSupport
 :
 int
 {
-Unsupported
-=
-0
 SoftwareDecode
 HardwareDecode
 }
@@ -418,7 +415,7 @@ MediaCodec
 &
 aCodec
 const
-DecodeSupport
+DecodeSupportSet
 &
 aSupport
 )
