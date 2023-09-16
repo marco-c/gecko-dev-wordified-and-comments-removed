@@ -3904,7 +3904,7 @@ addonsShowLessFrequentlyCap
 addonsUITreatment
 :
 "
-a
+b
 "
 experimentType
 :

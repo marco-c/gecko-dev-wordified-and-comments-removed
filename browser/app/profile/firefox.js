@@ -3229,7 +3229,7 @@ addons
 .
 featureGate
 "
-false
+true
 )
 ;
 pref
