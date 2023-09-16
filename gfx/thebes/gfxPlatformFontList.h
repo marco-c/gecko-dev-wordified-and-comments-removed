@@ -249,10 +249,6 @@ const
 {
 return
 mCharMap
-.
-get
-(
-)
 ;
 }
 bool
@@ -265,7 +261,7 @@ aCharMap
 )
 const
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 aCharMap
@@ -359,14 +355,9 @@ true
 ;
 protected
 :
-friend
-class
-gfxPlatformFontList
-;
-RefPtr
-<
 gfxCharacterMap
->
+*
+MOZ_NON_OWNING_REF
 mCharMap
 ;
 }
@@ -1811,7 +1802,7 @@ aCmap
 )
 ;
 void
-MaybeRemoveCmap
+RemoveCmap
 (
 const
 gfxCharacterMap
