@@ -10,8 +10,6 @@ from
 collections
 import
 namedtuple
-import
-six
 from
 mozboot
 .
@@ -230,13 +228,32 @@ in
 output
 :
         
-line
+processed_line
 =
-six
+(
+            
+line
 .
-ensure_text
+decode
+(
+"
+utf
+-
+8
+"
+"
+replace
+"
+)
+if
+isinstance
 (
 line
+bytes
+)
+else
+line
+        
 )
         
 match
@@ -245,7 +262,7 @@ diff_line
 .
 match
 (
-line
+processed_line
 )
         
 if
@@ -296,7 +313,7 @@ else
 diff
 +
 =
-line
+processed_line
 +
 "
 \
