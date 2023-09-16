@@ -1913,6 +1913,9 @@ false
 StyleSheetList
 :
 false
+StyleSheetRemovedEvent
+:
+false
 SubtleCrypto
 :
 false

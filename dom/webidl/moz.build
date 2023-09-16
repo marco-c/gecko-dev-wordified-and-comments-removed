@@ -6358,11 +6358,6 @@ ProgressEvent
 .
 webidl
 "
-"
-StyleSheetApplicableStateChangeEvent
-.
-webidl
-"
 ]
 WEBIDL_FILES
 +
@@ -6692,11 +6687,6 @@ webidl
 "
 "
 SecurityPolicyViolationEvent
-.
-webidl
-"
-"
-StyleSheetApplicableStateChangeEvent
 .
 webidl
 "

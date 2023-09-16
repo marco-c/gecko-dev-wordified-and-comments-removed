@@ -610,7 +610,7 @@ base
 /
 tests
 /
-bug839103
+stylesheet_change_events
 .
 css
 layout
