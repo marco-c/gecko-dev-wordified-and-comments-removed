@@ -1434,9 +1434,6 @@ ftl
 "
 /
 >
-#
-ifdef
-NIGHTLY_BUILD
 <
 link
 rel
@@ -1473,8 +1470,6 @@ ftl
 "
 /
 >
-#
-endif
 <
 title
 data
@@ -1930,13 +1925,6 @@ js
 this
 )
 ;
-if
-(
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
 Services
 .
 scriptloader
@@ -1963,7 +1951,6 @@ js
 this
 )
 ;
-}
 window
 .
 onload

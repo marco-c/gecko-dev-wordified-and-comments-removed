@@ -12642,14 +12642,6 @@ uninit
 )
 =
 >
-{
-if
-(
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
 lazy
 .
 ShoppingUtils
@@ -12657,9 +12649,6 @@ ShoppingUtils
 uninit
 (
 )
-;
-}
-}
 (
 )
 =
@@ -17906,11 +17895,6 @@ ShoppingUtils
 .
 init
 "
-condition
-:
-AppConstants
-.
-NIGHTLY_BUILD
 task
 :
 (
