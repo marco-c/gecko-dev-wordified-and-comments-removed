@@ -1112,7 +1112,7 @@ addMedia
 (
 elem
 .
-src
+currentSrc
 "
 img
 "
