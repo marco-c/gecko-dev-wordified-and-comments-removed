@@ -2685,11 +2685,17 @@ extent
 .
 column
 =
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
+(
 smooshScript
 .
 extent
 .
 column
+)
 ;
 if
 (
