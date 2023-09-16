@@ -12531,11 +12531,6 @@ StaticPrefs
 gfx_direct3d11_use_double_buffering
 (
 )
-&
-&
-IsWin10OrLater
-(
-)
 )
 {
 gfxVars
@@ -14306,11 +14301,6 @@ media_wmf_zero_copy_nv12_textures_AtStartup
 {
 if
 (
-IsWin10OrLater
-(
-)
-&
-&
 hasHardware
 )
 {

@@ -334,11 +334,6 @@ CanInitializeKeyedMutexTextures
 (
 )
 ;
-bool
-HasCrashyInitData
-(
-)
-;
 nsTArray
 <
 DXGI_OUTPUT_DESC1
