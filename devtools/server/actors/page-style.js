@@ -3366,12 +3366,12 @@ rawRule
 const
 desugaredSelectors
 =
-CssLogic
+entry
 .
-getSelectors
+rule
+.
+getDesugaredSelectors
 (
-domRule
-true
 )
 ;
 const
