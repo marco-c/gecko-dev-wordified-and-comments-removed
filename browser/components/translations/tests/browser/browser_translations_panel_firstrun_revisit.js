@@ -150,7 +150,6 @@ clickCancelButton
 await
 navigate
 (
-SPANISH_PAGE_URL_DOT_ORG
 "
 Navigate
 to
@@ -158,6 +157,11 @@ a
 different
 website
 "
+{
+url
+:
+SPANISH_PAGE_URL_DOT_ORG
+}
 )
 ;
 await
@@ -225,7 +229,6 @@ clickCancelButton
 await
 navigate
 (
-SPANISH_PAGE_URL
 "
 Navigate
 back
@@ -234,6 +237,11 @@ the
 first
 website
 "
+{
+url
+:
+SPANISH_PAGE_URL
+}
 )
 ;
 await

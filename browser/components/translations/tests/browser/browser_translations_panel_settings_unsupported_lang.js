@@ -221,7 +221,6 @@ runInPage
 await
 navigate
 (
-FRENCH_PAGE_URL
 "
 Navigate
 to
@@ -233,6 +232,11 @@ unsupported
 language
 .
 "
+{
+url
+:
+FRENCH_PAGE_URL
+}
 )
 ;
 await
