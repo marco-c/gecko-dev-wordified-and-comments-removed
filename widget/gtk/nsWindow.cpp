@@ -29212,6 +29212,11 @@ mode
 )
 ;
 }
+MakeFullScreen
+(
+true
+)
+;
 }
 if
 (
