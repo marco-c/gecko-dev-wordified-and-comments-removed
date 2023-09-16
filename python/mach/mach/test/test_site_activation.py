@@ -1583,20 +1583,6 @@ python
 "
 /
 "
-pyparsing
-"
-        
-topsrcdir
-/
-"
-third_party
-"
-/
-"
-python
-"
-/
-"
 pip
 "
     

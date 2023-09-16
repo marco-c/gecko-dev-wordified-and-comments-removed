@@ -643,13 +643,6 @@ third_party
 /
 python
 /
-pyparsing
-vendored
-:
-third_party
-/
-python
-/
 python_dateutil
 vendored
 :

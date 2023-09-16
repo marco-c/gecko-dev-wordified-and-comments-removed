@@ -374,23 +374,6 @@ python
 packaging
 "
 )
-            
-os
-.
-path
-.
-join
-(
-"
-third_party
-"
-"
-python
-"
-"
-pyparsing
-"
-)
         
 )
     
