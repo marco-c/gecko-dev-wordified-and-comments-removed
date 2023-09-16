@@ -170,9 +170,6 @@ aDetune
 normalizedFrequency
 *
 =
-std
-:
-:
 exp2
 (
 aDetune

@@ -180,10 +180,7 @@ aLinearValue
 .
 0f
 *
-std
-:
-:
-log10
+log10f
 (
 aLinearValue
 )
@@ -200,10 +197,7 @@ aDecibels
 )
 {
 return
-std
-:
-:
-pow
+powf
 (
 10
 .
@@ -225,10 +219,7 @@ aDecibel
 )
 {
 return
-std
-:
-:
-pow
+powf
 (
 10
 .
@@ -293,9 +284,6 @@ return
 .
 0
 -
-std
-:
-:
 exp
 (
 -
