@@ -2363,6 +2363,17 @@ getLength
 (
 )
 ;
+aElement
+-
+>
+TryReserveAttributeCount
+(
+(
+uint32_t
+)
+len
+)
+;
 for
 (
 int32_t

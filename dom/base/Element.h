@@ -5775,6 +5775,13 @@ true
 ;
 }
 void
+TryReserveAttributeCount
+(
+uint32_t
+aAttributeCount
+)
+;
+void
 SetOrRemoveNullableStringAttr
 (
 nsAtom
