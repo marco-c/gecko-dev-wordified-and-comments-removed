@@ -63,8 +63,8 @@ ScreenDetails
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 class
@@ -269,7 +269,6 @@ mHelper
 ;
 }
 ;
-}
 }
 #
 endif
