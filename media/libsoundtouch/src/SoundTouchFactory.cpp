@@ -7,6 +7,10 @@ SoundTouch
 .
 h
 >
+extern
+"
+C
+"
 namespace
 soundtouch
 {
