@@ -1726,7 +1726,7 @@ typename
 CharT
 >
 JS_PUBLIC_API
-bool
+void
 QuoteString
 (
 Sprinter
@@ -1857,13 +1857,10 @@ quote
 )
 ;
 }
-return
-true
-;
 }
 template
 JS_PUBLIC_API
-bool
+void
 QuoteString
 <
 QuoteTarget
@@ -1892,7 +1889,7 @@ quote
 ;
 template
 JS_PUBLIC_API
-bool
+void
 QuoteString
 <
 QuoteTarget
@@ -1921,7 +1918,7 @@ quote
 ;
 template
 JS_PUBLIC_API
-bool
+void
 QuoteString
 <
 QuoteTarget
@@ -1950,7 +1947,7 @@ quote
 ;
 template
 JS_PUBLIC_API
-bool
+void
 QuoteString
 <
 QuoteTarget
@@ -1978,7 +1975,7 @@ quote
 )
 ;
 JS_PUBLIC_API
-bool
+void
 QuoteString
 (
 Sprinter
@@ -2052,9 +2049,6 @@ quote
 )
 ;
 }
-return
-true
-;
 }
 JS_PUBLIC_API
 UniqueChars
@@ -2090,9 +2084,6 @@ return
 nullptr
 ;
 }
-if
-(
-!
 QuoteString
 (
 &
@@ -2100,12 +2091,7 @@ sprinter
 str
 quote
 )
-)
-{
-return
-nullptr
 ;
-}
 return
 sprinter
 .
@@ -2115,7 +2101,7 @@ release
 ;
 }
 JS_PUBLIC_API
-bool
+void
 JSONQuoteString
 (
 Sprinter
@@ -2155,9 +2141,6 @@ sp
 maybeCx
 str
 )
-;
-return
-true
 ;
 }
 Fprinter
