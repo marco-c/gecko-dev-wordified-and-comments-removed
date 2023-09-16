@@ -168,11 +168,7 @@ bool
 CheckVariationFontSupport
 (
 )
-{
-return
-true
 ;
-}
 protected
 :
 void
