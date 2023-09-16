@@ -2111,6 +2111,17 @@ Allow
 }
 else
 {
+auto
+noSharedSectionReset
+{
+SharedSection
+:
+:
+AutoNoReset
+(
+)
+}
+;
 k32Exports
 =
 gSharedSection
