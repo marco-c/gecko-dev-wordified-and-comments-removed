@@ -28907,6 +28907,11 @@ hash
 rayon
 "
 "
+rayon
+-
+core
+"
+"
 regex
 "
 "

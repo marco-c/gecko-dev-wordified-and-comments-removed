@@ -529,6 +529,13 @@ rayon
 "
 1
 "
+rayon
+-
+core
+=
+"
+1
+"
 selectors
 =
 {
