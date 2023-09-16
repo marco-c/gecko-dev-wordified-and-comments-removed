@@ -5406,7 +5406,7 @@ bool
 Zone
 :
 :
-keepDuringJob
+addToKeptObjects
 (
 HandleObject
 target

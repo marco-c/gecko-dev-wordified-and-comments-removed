@@ -335,7 +335,7 @@ zone
 )
 -
 >
-keepDuringJob
+addToKeptObjects
 (
 target
 )
@@ -882,7 +882,7 @@ zone
 )
 -
 >
-keepDuringJob
+addToKeptObjects
 (
 target
 )

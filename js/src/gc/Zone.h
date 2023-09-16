@@ -2874,7 +2874,7 @@ realm
 )
 ;
 bool
-keepDuringJob
+addToKeptObjects
 (
 HandleObject
 target
