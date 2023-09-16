@@ -209,7 +209,7 @@ in
 /
 builds
 /
-slave
+worker
 /
 m
 -
