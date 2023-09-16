@@ -8,11 +8,12 @@ fdlibm
 h
 '
 ]
-FINAL_LIBRARY
-=
+Library
+(
 '
-js
+fdlibm
 '
+)
 if
 CONFIG
 [
