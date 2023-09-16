@@ -185,7 +185,7 @@ value
 {
 color
 :
-HighlightText
+FieldText
 ;
 flex
 -
