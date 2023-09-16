@@ -1533,8 +1533,6 @@ https
 :
 /
 /
-www
-.
 webpagetest
 .
 org
@@ -1694,6 +1692,22 @@ url
 )
 :
         
+request_header
+=
+{
+"
+Host
+"
+:
+"
+www
+.
+webpagetest
+.
+org
+"
+}
+        
 requested_results
 =
 requests
@@ -1701,6 +1715,9 @@ requests
 get
 (
 url
+headers
+=
+request_header
 )
         
 results_of_request
@@ -1820,6 +1837,9 @@ requests
 get
 (
 url
+headers
+=
+request_header
 )
             
 results_of_request
@@ -2097,6 +2117,16 @@ data
 jsonUrl
 "
 ]
+.
+replace
+(
+"
+www
+.
+"
+"
+"
+)
         
 results_of_test
 =
@@ -2168,8 +2198,6 @@ https
 :
 /
 /
-www
-.
 webpagetest
 .
 org
