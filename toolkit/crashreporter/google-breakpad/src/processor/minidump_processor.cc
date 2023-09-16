@@ -5623,7 +5623,7 @@ exception_flags
 char
 flavor_string
 [
-4
+6
 ]
 =
 {
@@ -7651,7 +7651,7 @@ exception_information
 char
 fast_fail_buff
 [
-11
+13
 ]
 =
 {

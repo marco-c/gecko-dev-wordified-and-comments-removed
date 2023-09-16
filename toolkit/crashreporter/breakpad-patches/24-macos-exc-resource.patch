@@ -574,7 +574,7 @@ exception_flags
 char
 flavor_string
 [
-4
+6
 ]
 =
 {
