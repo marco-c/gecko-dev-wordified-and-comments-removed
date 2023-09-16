@@ -162,16 +162,7 @@ stream
 .
 asyncWait
 (
-stream
-=
->
-{
 resolve
-(
-stream
-)
-;
-}
 0
 0
 currentThread

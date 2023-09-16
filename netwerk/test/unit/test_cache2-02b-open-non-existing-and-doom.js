@@ -314,7 +314,7 @@ push
 new
 Promise
 (
-resolve
+resolve1
 =
 >
 {
@@ -344,7 +344,7 @@ doomed
 "
 )
 ;
-resolve
+resolve1
 (
 )
 ;
