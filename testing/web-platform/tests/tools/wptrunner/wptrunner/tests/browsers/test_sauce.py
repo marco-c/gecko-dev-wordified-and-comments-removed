@@ -1,4 +1,6 @@
 import
+gc
+import
 logging
 import
 sys
@@ -67,6 +69,18 @@ logger
 logging
 .
 getLogger
+(
+)
+def
+setup_module
+(
+module
+)
+:
+    
+gc
+.
+collect
 (
 )
 def

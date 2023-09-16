@@ -2309,6 +2309,9 @@ format_exc
             
 raise
         
+finally
+:
+            
 self
 .
 _output_handler
