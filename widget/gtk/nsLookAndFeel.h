@@ -653,6 +653,11 @@ InitializeGlobalSettings
 (
 )
 ;
+bool
+ConfigureAltTheme
+(
+)
+;
 void
 ConfigureAndInitializeAltTheme
 (
