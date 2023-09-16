@@ -1529,6 +1529,11 @@ backdrop
 "
 transparent
 "
+aria_role
+:
+"
+alert
+"
 screens
 :
 [
@@ -1795,6 +1800,9 @@ tab
 primary_button
 :
 {
+should_focus_button
+:
+true
 label
 :
 {

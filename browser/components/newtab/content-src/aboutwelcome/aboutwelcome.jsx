@@ -588,6 +588,13 @@ props
 .
 appAndSystemLocaleInfo
 }
+ariaRole
+=
+{
+props
+.
+aria_role
+}
 /
 >
 )
