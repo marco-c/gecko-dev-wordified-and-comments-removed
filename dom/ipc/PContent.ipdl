@@ -2144,9 +2144,6 @@ nsID
 ?
 agentClusterId
 ;
-nsCString
-partitionKey
-;
 bool
 revoked
 ;
@@ -4917,8 +4914,6 @@ aPrincipal
 nsID
 ?
 aAgentClusterId
-nsCString
-aPartitionKey
 )
 ;
 async
@@ -9924,8 +9919,6 @@ principal
 nsID
 ?
 aAgentClusterId
-nsCString
-aPartitionKey
 )
 ;
 async
@@ -10939,8 +10932,6 @@ aInnerWindowId
 nsID
 ?
 aAgentClusterId
-nsCString
-aPartitionKey
 )
 returns
 (

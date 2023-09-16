@@ -2721,10 +2721,6 @@ nsID
 >
 &
 aAgentClusterId
-const
-nsCString
-&
-aPartitionKey
 )
 ;
 mozilla
