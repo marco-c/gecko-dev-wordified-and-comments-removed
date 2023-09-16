@@ -3032,7 +3032,6 @@ fill
 -
 opacity
 ;
-}
 .
 urlbarView
 -
@@ -3057,10 +3056,7 @@ no
 -
 wrap
 >
-.
-urlbarView
--
-favicon
+&
 {
 visibility
 :
@@ -3091,10 +3087,7 @@ no
 -
 wrap
 >
-.
-urlbarView
--
-favicon
+&
 {
 /
 *
@@ -3155,6 +3148,7 @@ properties
 :
 fill
 ;
+}
 }
 /
 *
