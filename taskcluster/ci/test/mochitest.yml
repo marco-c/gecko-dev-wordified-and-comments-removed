@@ -7508,7 +7508,7 @@ test
 -
 platform
 :
-linux1804
+linux2204
 -
 64
 -
@@ -7521,7 +7521,7 @@ debug
 trunk
 '
 ]
-linux1804
+linux2204
 -
 64
 (
