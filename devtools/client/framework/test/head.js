@@ -119,7 +119,6 @@ false
 let
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

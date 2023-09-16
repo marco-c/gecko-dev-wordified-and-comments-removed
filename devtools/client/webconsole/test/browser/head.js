@@ -3144,7 +3144,6 @@ selectedTab
 let
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -3325,7 +3324,6 @@ selectedTab
 let
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -3426,7 +3424,6 @@ selectedTab
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

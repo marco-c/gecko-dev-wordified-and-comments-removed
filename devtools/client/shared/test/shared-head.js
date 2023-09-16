@@ -2571,7 +2571,6 @@ browser
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -3570,7 +3569,6 @@ highlighterTestFront
 }
 ;
 }
-async
 function
 getActiveInspector
 (
@@ -3579,7 +3577,6 @@ getActiveInspector
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -4256,10 +4253,7 @@ toolbox
 ;
 let
 toolbox
-;
-toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

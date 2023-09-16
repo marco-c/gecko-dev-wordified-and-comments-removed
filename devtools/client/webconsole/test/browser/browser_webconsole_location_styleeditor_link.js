@@ -78,7 +78,6 @@ TEST_URI
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

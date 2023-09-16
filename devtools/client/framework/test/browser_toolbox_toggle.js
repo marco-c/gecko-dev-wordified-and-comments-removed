@@ -223,7 +223,6 @@ modifiers
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -376,7 +375,6 @@ modifiers
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

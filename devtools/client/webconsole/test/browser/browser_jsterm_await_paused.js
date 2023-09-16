@@ -135,7 +135,6 @@ pauseExpression
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

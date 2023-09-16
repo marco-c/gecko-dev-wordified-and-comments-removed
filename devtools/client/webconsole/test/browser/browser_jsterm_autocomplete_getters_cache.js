@@ -185,7 +185,6 @@ jsterm
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

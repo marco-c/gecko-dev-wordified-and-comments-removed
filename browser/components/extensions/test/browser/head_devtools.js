@@ -404,7 +404,6 @@ false
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

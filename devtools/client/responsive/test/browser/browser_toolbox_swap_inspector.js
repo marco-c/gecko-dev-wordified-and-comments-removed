@@ -30,7 +30,6 @@ location
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -125,7 +124,6 @@ reboot
 }
 )
 ;
-await
 checkToolbox
 (
 tab
@@ -141,7 +139,6 @@ openRDM
 tab
 )
 ;
-await
 checkToolbox
 (
 tab
@@ -158,7 +155,6 @@ closeRDM
 tab
 )
 ;
-await
 checkToolbox
 (
 tab
@@ -246,7 +242,6 @@ reboot
 }
 )
 ;
-await
 checkToolbox
 (
 tab
@@ -267,7 +262,6 @@ closeRDM
 tab
 )
 ;
-await
 checkToolbox
 (
 tab

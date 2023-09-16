@@ -389,7 +389,6 @@ async
 const
 tb
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -427,7 +426,6 @@ false
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

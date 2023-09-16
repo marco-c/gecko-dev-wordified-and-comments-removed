@@ -322,7 +322,6 @@ exports
 .
 getToolbox
 =
-async
 function
 (
 )
@@ -656,7 +655,6 @@ getActiveTab
 let
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

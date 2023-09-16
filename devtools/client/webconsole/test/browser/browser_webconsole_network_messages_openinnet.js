@@ -229,7 +229,6 @@ selectedTab
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

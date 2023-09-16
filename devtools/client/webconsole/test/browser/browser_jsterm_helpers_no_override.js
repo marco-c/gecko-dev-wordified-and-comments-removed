@@ -235,7 +235,6 @@ openDebugger
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

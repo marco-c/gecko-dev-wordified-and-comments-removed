@@ -411,7 +411,6 @@ nested_same_process_frame
 "
 )
 ;
-await
 checkSelectedNode
 (
 "
@@ -479,7 +478,6 @@ same_process_frame
 "
 )
 ;
-await
 checkSelectedNode
 (
 "
@@ -576,7 +574,6 @@ nested_remote_frame
 "
 )
 ;
-await
 checkSelectedNode
 (
 "
@@ -589,7 +586,6 @@ nested_remote_frame
 }
 )
 ;
-async
 function
 checkSelectedNode
 (
@@ -599,7 +595,6 @@ id
 const
 inspector
 =
-await
 getActiveInspector
 (
 )

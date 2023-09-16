@@ -167,7 +167,6 @@ received
 const
 toolboxForTab
 =
-await
 gDevTools
 .
 getToolboxForTab

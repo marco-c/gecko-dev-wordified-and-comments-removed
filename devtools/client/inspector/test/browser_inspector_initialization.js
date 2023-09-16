@@ -416,7 +416,6 @@ received
 const
 toolboxForTab
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -525,7 +524,6 @@ item
 const
 inspector
 =
-await
 getActiveInspector
 (
 )
@@ -604,7 +602,6 @@ inspector
 {
 inspector
 =
-await
 getActiveInspector
 (
 )
@@ -690,7 +687,6 @@ inspector
 {
 inspector
 =
-await
 getActiveInspector
 (
 )

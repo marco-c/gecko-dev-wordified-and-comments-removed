@@ -56,7 +56,6 @@ hud
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

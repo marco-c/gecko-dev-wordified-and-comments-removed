@@ -756,7 +756,6 @@ tab
 const
 toolbox
 =
-await
 DevToolsShim
 .
 getToolboxForTab

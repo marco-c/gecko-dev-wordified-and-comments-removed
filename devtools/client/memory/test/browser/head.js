@@ -194,7 +194,6 @@ panel
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
