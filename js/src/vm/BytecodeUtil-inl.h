@@ -1039,9 +1039,13 @@ type
 SrcNoteType
 :
 :
-StepSep
+BreakpointStepSep
 )
 {
+isBreakpoint
+=
+true
+;
 seenStepSeparator
 =
 true
