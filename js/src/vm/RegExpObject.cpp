@@ -2301,7 +2301,7 @@ names
 (
 )
 .
-emptyRegExp
+emptyRegExp_
 ;
 }
 JSStringBuilder

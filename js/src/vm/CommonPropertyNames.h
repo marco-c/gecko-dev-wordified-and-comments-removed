@@ -1142,7 +1142,7 @@ empty_
 \
 MACRO_
 (
-emptyRegExp
+emptyRegExp_
 "
 (
 ?
@@ -2959,7 +2959,7 @@ nanoseconds
 \
 MACRO_
 (
-NegativeInfinity
+NegativeInfinity_
 "
 -
 Infinity
