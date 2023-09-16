@@ -1491,9 +1491,6 @@ Init
 (
 )
 ;
-#
-ifdef
-MOZ_ENABLE_DBUS
 if
 (
 XRE_IsParentProcess
@@ -1549,13 +1546,16 @@ broken
 )
 ;
 }
+#
+ifdef
+MOZ_ENABLE_DBUS
 StartDBusListening
 (
 )
 ;
-}
 #
 endif
+}
 if
 (
 !
