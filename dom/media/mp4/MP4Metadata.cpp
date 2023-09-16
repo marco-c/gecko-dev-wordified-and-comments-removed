@@ -1859,6 +1859,17 @@ ec
 ;
 break
 ;
+case
+MP4PARSE_CODEC_HEVC
+:
+codecString
+=
+"
+hevc
+"
+;
+break
+;
 }
 }
 MOZ_LOG
