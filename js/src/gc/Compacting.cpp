@@ -2548,14 +2548,6 @@ next
 r
 -
 >
-traceWeakRegExps
-(
-trc
-)
-;
-r
--
->
 traceWeakSavedStacks
 (
 trc

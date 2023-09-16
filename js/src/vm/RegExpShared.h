@@ -1625,7 +1625,7 @@ NumKinds
 ;
 private
 :
-WeakHeapPtr
+HeapPtr
 <
 SharedShape
 *
@@ -1638,14 +1638,14 @@ ResultShapeKind
 NumKinds
 ]
 ;
-WeakHeapPtr
+HeapPtr
 <
 Shape
 *
 >
 optimizableRegExpPrototypeShape_
 ;
-WeakHeapPtr
+HeapPtr
 <
 Shape
 *
@@ -1671,7 +1671,7 @@ RegExpRealm
 )
 ;
 void
-traceWeak
+trace
 (
 JSTracer
 *

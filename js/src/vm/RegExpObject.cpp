@@ -4869,7 +4869,7 @@ void
 RegExpRealm
 :
 :
-traceWeak
+trace
 (
 JSTracer
 *
@@ -4885,7 +4885,7 @@ shape
 matchResultShapes_
 )
 {
-TraceWeakEdge
+TraceNullableEdge
 (
 trc
 &
@@ -4899,7 +4899,7 @@ matchResultShapes_
 )
 ;
 }
-TraceWeakEdge
+TraceNullableEdge
 (
 trc
 &
@@ -4912,7 +4912,7 @@ optimizableRegExpPrototypeShape_
 "
 )
 ;
-TraceWeakEdge
+TraceNullableEdge
 (
 trc
 &

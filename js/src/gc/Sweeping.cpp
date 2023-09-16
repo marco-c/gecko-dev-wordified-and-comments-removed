@@ -6248,15 +6248,6 @@ traceWeakSavedStacks
 trc
 )
 ;
-r
--
->
-traceWeakRegExps
-(
-&
-trc
-)
-;
 }
 for
 (

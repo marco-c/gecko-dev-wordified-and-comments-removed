@@ -70,6 +70,15 @@ include
 "
 jit
 /
+JitOptions
+.
+h
+"
+#
+include
+"
+jit
+/
 ProcessExecutableMemory
 .
 h
