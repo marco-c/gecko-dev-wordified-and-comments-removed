@@ -3422,7 +3422,7 @@ names
 (
 )
 .
-ArrayValues
+dollar_ArrayValues_
 ;
 Rooted
 <

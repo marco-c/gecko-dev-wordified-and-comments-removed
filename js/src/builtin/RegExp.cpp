@@ -10784,7 +10784,7 @@ names
 (
 )
 .
-RegExpFlagsGetter
+dollar_RegExpFlagsGetter_
 )
 )
 {
