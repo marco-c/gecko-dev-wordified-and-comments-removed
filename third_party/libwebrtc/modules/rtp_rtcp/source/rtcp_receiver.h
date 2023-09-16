@@ -1576,7 +1576,12 @@ registered_ssrcs_
 RtcpBandwidthObserver
 *
 const
-rtcp_bandwidth_observer_
+deprecated_rtcp_bandwidth_observer_
+;
+NetworkLinkRtcpObserver
+*
+const
+network_link_rtcp_observer_
 ;
 RtcpEventObserver
 *
@@ -1601,7 +1606,7 @@ network_state_estimate_observer_
 TransportFeedbackObserver
 *
 const
-transport_feedback_observer_
+deprecated_transport_feedback_observer_
 ;
 VideoBitrateAllocationObserver
 *
