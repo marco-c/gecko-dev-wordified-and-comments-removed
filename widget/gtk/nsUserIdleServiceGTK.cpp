@@ -1271,7 +1271,7 @@ mIdleServiceType
 MOZ_ASSERT
 (
 !
-mIdleServiceType
+mIdleService
 )
 ;
 switch
