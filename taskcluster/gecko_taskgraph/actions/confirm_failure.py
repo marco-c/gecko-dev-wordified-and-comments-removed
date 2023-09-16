@@ -459,6 +459,19 @@ split
 ]
                     
 if
+(
+                        
+test_path
+.
+endswith
+(
+"
+.
+toml
+"
+)
+                        
+or
 test_path
 .
 endswith
@@ -468,6 +481,7 @@ endswith
 ini
 "
 )
+                        
 or
 test_path
 .
@@ -477,6 +491,8 @@ endswith
 .
 list
 "
+)
+                    
 )
 :
                         
@@ -622,6 +638,19 @@ split
 ]
                     
 if
+(
+                        
+test_path
+.
+endswith
+(
+"
+.
+toml
+"
+)
+                        
+or
 test_path
 .
 endswith
@@ -631,6 +660,7 @@ endswith
 ini
 "
 )
+                        
 or
 test_path
 .
@@ -640,6 +670,8 @@ endswith
 .
 list
 "
+)
+                    
 )
 :
                         

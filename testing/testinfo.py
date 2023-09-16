@@ -2117,8 +2117,6 @@ path
 split
 (
 "
-.
-ini
 :
 "
 )

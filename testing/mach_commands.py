@@ -1836,6 +1836,29 @@ ini
 )
 )
     
+has_browser_toml
+=
+os
+.
+path
+.
+isfile
+(
+os
+.
+path
+.
+join
+(
+parent
+"
+browser
+.
+toml
+"
+)
+)
+    
 has_chrome_ini
 =
 os
@@ -1855,6 +1878,29 @@ parent
 chrome
 .
 ini
+"
+)
+)
+    
+has_chrome_toml
+=
+os
+.
+path
+.
+isfile
+(
+os
+.
+path
+.
+join
+(
+parent
+"
+chrome
+.
+toml
 "
 )
 )
@@ -1882,6 +1928,29 @@ ini
 )
 )
     
+has_plain_toml
+=
+os
+.
+path
+.
+isfile
+(
+os
+.
+path
+.
+join
+(
+parent
+"
+mochitest
+.
+toml
+"
+)
+)
+    
 has_xpcshell_ini
 =
 os
@@ -1901,6 +1970,29 @@ parent
 xpcshell
 .
 ini
+"
+)
+)
+    
+has_xpcshell_toml
+=
+os
+.
+path
+.
+isfile
+(
+os
+.
+path
+.
+join
+(
+parent
+"
+xpcshell
+.
+toml
 "
 )
 )
@@ -1988,7 +2080,11 @@ test_
 )
         
 and
+(
 has_xpcshell_ini
+or
+has_xpcshell_toml
+)
         
 and
 guess_doc
@@ -2023,7 +2119,11 @@ browser_
 "
 )
 and
+(
 has_browser_ini
+or
+has_browser_toml
+)
 :
             
 guessed_suite
@@ -2048,9 +2148,19 @@ test_
 :
             
 if
+(
 has_chrome_ini
+or
+has_chrome_toml
+)
 and
+(
+                
 has_plain_ini
+or
+has_plain_toml
+            
+)
 :
                 
 err
@@ -2066,11 +2176,19 @@ both
 a
 chrome
 .
+{
 ini
+|
+toml
+}
 and
 mochitest
 .
+{
 ini
+|
+toml
+}
 .
 "
                     
@@ -2099,6 +2217,8 @@ plain
             
 elif
 has_chrome_ini
+or
+has_chrome_toml
 :
                 
 guessed_suite
@@ -2111,6 +2231,8 @@ chrome
             
 elif
 has_plain_ini
+or
+has_plain_toml
 :
                 
 guessed_suite

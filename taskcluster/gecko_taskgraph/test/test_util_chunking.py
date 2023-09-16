@@ -2367,7 +2367,11 @@ xpcshell
 )
 ?
 .
+(
 ini
+|
+toml
+)
 "
 m
 )
@@ -2389,6 +2393,7 @@ suite
 assert
 all
 (
+            
 [
 re
 .
@@ -2406,7 +2411,11 @@ browser
 .
 *
 .
+(
 ini
+|
+toml
+)
 "
 m
 )
@@ -2415,6 +2424,7 @@ m
 in
 items
 ]
+        
 )
     
 if
