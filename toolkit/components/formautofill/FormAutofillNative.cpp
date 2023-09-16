@@ -1343,6 +1343,16 @@ tarjeta
 "
 "
 |
+naam
+.
+*
+op
+.
+*
+kaart
+"
+"
+|
 cc
 -
 ?
@@ -1537,6 +1547,10 @@ numero
 .
 *
 tarjeta
+"
+"
+|
+kaartnummer
 "
 "
 |
