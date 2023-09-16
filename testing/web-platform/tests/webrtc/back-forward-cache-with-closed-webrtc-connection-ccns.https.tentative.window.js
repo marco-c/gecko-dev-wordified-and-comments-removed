@@ -84,10 +84,6 @@ WebRTCSticky
 '
 MainResourceHasCacheControlNoStore
 '
-'
-Internal
-error
-'
 ]
 )
 ;

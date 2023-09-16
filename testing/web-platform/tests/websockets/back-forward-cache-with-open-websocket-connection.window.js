@@ -55,7 +55,7 @@ assertNotRestoredFromBFCache
 rc1
 [
 '
-WebSocket
+websocket
 '
 ]
 )

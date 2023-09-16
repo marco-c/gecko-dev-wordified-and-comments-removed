@@ -84,10 +84,6 @@ WebSocketSticky
 '
 MainResourceHasCacheControlNoStore
 '
-'
-Internal
-error
-'
 ]
 )
 ;

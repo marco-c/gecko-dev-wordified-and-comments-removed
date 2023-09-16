@@ -84,10 +84,6 @@ WebTransportSticky
 '
 MainResourceHasCacheControlNoStore
 '
-'
-Internal
-error
-'
 ]
 )
 ;

@@ -196,7 +196,7 @@ reasons
 :
 [
 '
-WebSocket
+websocket
 '
 ]
 '
