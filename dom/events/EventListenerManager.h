@@ -858,6 +858,12 @@ aOther
 .
 mEnabled
 )
+mFlags
+(
+aOther
+.
+mFlags
+)
 {
 aOther
 .
