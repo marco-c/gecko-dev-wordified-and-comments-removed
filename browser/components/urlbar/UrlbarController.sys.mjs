@@ -8481,7 +8481,7 @@ Glean
 .
 urlbar
 .
-prefQuicksuggestDataCollection
+prefSuggestDataCollection
 "
 suggest
 .
@@ -8494,7 +8494,7 @@ Glean
 .
 urlbar
 .
-prefQuicksuggestNonsponsored
+prefSuggestNonsponsored
 "
 suggest
 .
@@ -8507,7 +8507,7 @@ Glean
 .
 urlbar
 .
-prefQuicksuggestSponsored
+prefSuggestSponsored
 "
 suggest
 .

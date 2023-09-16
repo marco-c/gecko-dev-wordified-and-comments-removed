@@ -172,7 +172,7 @@ testData
 green
 :
 "
-prefQuicksuggestDataCollection
+prefSuggestDataCollection
 "
 pref
 :
@@ -188,7 +188,7 @@ enabled
 green
 :
 "
-prefQuicksuggestNonsponsored
+prefSuggestNonsponsored
 "
 pref
 :
@@ -204,7 +204,7 @@ nonsponsored
 green
 :
 "
-prefQuicksuggestSponsored
+prefSuggestSponsored
 "
 pref
 :
