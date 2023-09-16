@@ -47,6 +47,7 @@ colorValue
 {
 this
 .
+#
 lowerCased
 =
 colorValue
@@ -57,6 +58,7 @@ toLowerCase
 ;
 this
 .
+#
 authored
 =
 colorValue
@@ -98,16 +100,18 @@ hwb
 "
 }
 ;
+#
 authored
-=
-null
-;
-lowerCased
 =
 null
 ;
 #
 currentFormat
+;
+#
+lowerCased
+=
+null
 ;
 get
 hasAlpha
@@ -152,6 +156,7 @@ colorToRGBA
 (
 this
 .
+#
 authored
 )
 !
@@ -172,6 +177,7 @@ classifyColor
 (
 this
 .
+#
 authored
 )
 ;
@@ -193,6 +199,7 @@ hexToRGBA
 (
 this
 .
+#
 authored
 .
 substring
@@ -212,6 +219,7 @@ colorToRGBA
 (
 this
 .
+#
 authored
 )
 ;
@@ -288,11 +296,13 @@ has
 (
 this
 .
+#
 lowerCased
 )
 ?
 this
 .
+#
 authored
 :
 null
@@ -904,6 +914,7 @@ if
 (
 this
 .
+#
 lowerCased
 .
 startsWith
@@ -918,6 +929,7 @@ rgb
 return
 this
 .
+#
 authored
 ;
 }
@@ -997,6 +1009,7 @@ if
 (
 this
 .
+#
 lowerCased
 .
 startsWith
@@ -1011,6 +1024,7 @@ rgba
 return
 this
 .
+#
 authored
 ;
 }
@@ -1093,6 +1107,7 @@ if
 (
 this
 .
+#
 lowerCased
 .
 startsWith
@@ -1107,6 +1122,7 @@ hsl
 return
 this
 .
+#
 authored
 ;
 }
@@ -1164,6 +1180,7 @@ if
 (
 this
 .
+#
 lowerCased
 .
 startsWith
@@ -1178,6 +1195,7 @@ hsla
 return
 this
 .
+#
 authored
 ;
 }
@@ -1251,6 +1269,7 @@ if
 (
 this
 .
+#
 lowerCased
 .
 startsWith
@@ -1265,6 +1284,7 @@ hwb
 return
 this
 .
+#
 authored
 ;
 }
@@ -1407,6 +1427,7 @@ classifyColor
 (
 this
 .
+#
 authored
 )
 :
@@ -1538,6 +1559,7 @@ color
 =
 this
 .
+#
 authored
 ;
 break
@@ -1646,6 +1668,7 @@ colorIsUppercase
 (
 this
 .
+#
 authored
 )
 )
@@ -1677,6 +1700,7 @@ colorToRGBA
 (
 this
 .
+#
 authored
 )
 ;
@@ -1710,6 +1734,7 @@ if
 (
 this
 .
+#
 lowerCased
 .
 startsWith
@@ -1731,6 +1756,7 @@ undefined
 return
 this
 .
+#
 authored
 ;
 }
@@ -1837,6 +1863,7 @@ if
 (
 this
 .
+#
 lowerCased
 .
 startsWith
@@ -1858,6 +1885,7 @@ undefined
 return
 this
 .
+#
 authored
 ;
 }
