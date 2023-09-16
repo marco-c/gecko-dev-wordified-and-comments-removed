@@ -168,10 +168,6 @@ StyleTransformBox
 :
 ContentBox
 :
-return
-{
-}
-;
 case
 StyleTransformBox
 :
@@ -377,6 +373,15 @@ StyleTransformBox
 ContentBox
 :
 {
+mBox
+=
+mFrame
+-
+>
+GetContentRectRelativeToSelf
+(
+)
+;
 return
 ;
 }

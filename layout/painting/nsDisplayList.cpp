@@ -31441,17 +31441,6 @@ vertical
 aRefBox
 )
 ;
-if
-(
-aFrame
--
->
-HasAnyStateBits
-(
-NS_FRAME_SVG_LAYOUT
-)
-)
-{
 origin
 .
 x
@@ -31486,7 +31475,6 @@ Y
 )
 )
 ;
-}
 float
 scale
 =
