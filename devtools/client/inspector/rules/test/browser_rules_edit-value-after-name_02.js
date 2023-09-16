@@ -310,10 +310,9 @@ updated
 const
 onSwatchUnitChange
 =
-swatchSpan
-.
 once
 (
+swatchSpan
 "
 unit
 -
