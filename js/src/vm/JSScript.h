@@ -2270,10 +2270,11 @@ startLine_
 =
 0
 ;
-uint32_t
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 startColumn_
-=
-0
 ;
 bool
 mutedErrors_
@@ -4339,7 +4340,10 @@ return
 startLine_
 ;
 }
-uint32_t
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 startColumn
 (
 )
