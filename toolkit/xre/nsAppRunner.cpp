@@ -27989,6 +27989,9 @@ BinPathType
 PluginContainer
 ;
 }
+#
+ifdef
+XP_WIN
 switch
 (
 aProcessType
@@ -28044,6 +28047,16 @@ BinPathType
 PluginContainer
 ;
 }
+#
+else
+return
+BinPathType
+:
+:
+Self
+;
+#
+endif
 }
 extern
 "
