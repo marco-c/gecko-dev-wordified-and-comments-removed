@@ -61,6 +61,13 @@ h
 #
 include
 "
+WebGLContext
+.
+h
+"
+#
+include
+"
 WebGLObjectModel
 .
 h
