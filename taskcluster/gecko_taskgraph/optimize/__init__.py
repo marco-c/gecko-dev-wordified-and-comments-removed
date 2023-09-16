@@ -81,7 +81,6 @@ All
 Any
 Not
 register_strategy
-registry
 from
 taskgraph
 .
@@ -90,19 +89,6 @@ util
 python_path
 import
 import_sibling_modules
-registry
-.
-pop
-(
-"
-skip
--
-unless
--
-changed
-"
-None
-)
 import_sibling_modules
 (
 )
