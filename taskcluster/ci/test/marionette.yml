@@ -221,6 +221,14 @@ platform
 :
 .
 *
+wayland
+.
+*
+:
+[
+]
+.
+*
 /
 debug
 :
