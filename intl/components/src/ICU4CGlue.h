@@ -200,7 +200,13 @@ std
 :
 char_traits
 <
+std
+:
+:
+remove_const_t
+<
 CharType
+>
 >
 :
 :
