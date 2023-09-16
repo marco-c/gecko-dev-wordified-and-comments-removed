@@ -208,6 +208,14 @@ platform
 tests
 -
 webgpu
+-
+web
+-
+platform
+-
+tests
+-
+canvas
 web
 -
 platform
