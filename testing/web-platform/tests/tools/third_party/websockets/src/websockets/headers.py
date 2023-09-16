@@ -1,55 +1,13 @@
-"
-"
-"
-:
-mod
-:
-websockets
-.
-headers
-provides
-parsers
-and
-serializers
-for
-HTTP
-headers
-used
-in
-WebSocket
-handshake
-messages
-.
-These
-APIs
-cannot
-be
-imported
 from
-:
-mod
-:
-websockets
-.
-They
-must
-be
-imported
-from
-:
-mod
-:
-websockets
-.
-headers
-.
-"
-"
-"
+__future__
+import
+annotations
 import
 base64
 import
 binascii
+import
+ipaddress
 import
 re
 from
@@ -57,7 +15,6 @@ typing
 import
 Callable
 List
-NewType
 Optional
 Sequence
 Tuple
@@ -65,21 +22,33 @@ TypeVar
 cast
 from
 .
-exceptions
 import
-InvalidHeaderFormat
-InvalidHeaderValue
+exceptions
 from
 .
 typing
 import
+(
+    
+ConnectionOption
+    
 ExtensionHeader
+    
 ExtensionName
+    
 ExtensionParameter
+    
 Subprotocol
+    
+UpgradeProtocol
+)
 __all__
 =
 [
+    
+"
+build_host
+"
     
 "
 parse_connection
@@ -106,6 +75,10 @@ build_subprotocol
 "
     
 "
+validate_subprotocols
+"
+    
+"
 build_www_authenticate_basic
 "
     
@@ -125,24 +98,107 @@ TypeVar
 T
 "
 )
-ConnectionOption
-=
-NewType
+def
+build_host
 (
-"
-ConnectionOption
-"
+host
+:
 str
+port
+:
+int
+secure
+:
+bool
 )
-UpgradeProtocol
+-
+>
+str
+:
+    
+"
+"
+"
+    
+Build
+a
+Host
+header
+.
+    
+"
+"
+"
+    
+try
+:
+        
+address
 =
-NewType
+ipaddress
+.
+ip_address
 (
-"
-UpgradeProtocol
-"
-str
+host
 )
+    
+except
+ValueError
+:
+        
+pass
+    
+else
+:
+        
+if
+address
+.
+version
+=
+=
+6
+:
+            
+host
+=
+f
+"
+[
+{
+host
+}
+]
+"
+    
+if
+port
+!
+=
+(
+443
+if
+secure
+else
+80
+)
+:
+        
+host
+=
+f
+"
+{
+host
+}
+:
+{
+port
+}
+"
+    
+return
+host
 def
 peek_ahead
 (
@@ -178,6 +234,9 @@ position
 .
     
 Return
+:
+obj
+:
 None
 at
 the
@@ -390,13 +449,9 @@ new
 position
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -425,6 +480,8 @@ None
 :
         
 raise
+exceptions
+.
 InvalidHeaderFormat
 (
 header_name
@@ -577,13 +634,9 @@ new
 position
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -612,8 +665,11 @@ None
 :
         
 raise
+exceptions
+.
 InvalidHeaderFormat
 (
+            
 header_name
 "
 expected
@@ -622,6 +678,7 @@ string
 "
 header
 pos
+        
 )
     
 return
@@ -912,13 +969,9 @@ of
 items
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -1024,8 +1077,11 @@ else
 :
             
 raise
+exceptions
+.
 InvalidHeaderFormat
 (
+                
 header_name
 "
 expected
@@ -1033,6 +1089,7 @@ comma
 "
 header
 pos
+            
 )
         
 while
@@ -1129,13 +1186,9 @@ new
 position
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -1198,8 +1251,8 @@ connection
 options
 .
     
-:
-param
+Args
+        
 header
 :
 value
@@ -1207,14 +1260,11 @@ of
 the
 Connection
 header
+.
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -1350,13 +1400,9 @@ new
 position
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -1385,8 +1431,11 @@ None
 :
         
 raise
+exceptions
+.
 InvalidHeaderFormat
 (
+            
 header_name
 "
 expected
@@ -1394,6 +1443,7 @@ protocol
 "
 header
 pos
+        
 )
     
 return
@@ -1444,8 +1494,9 @@ HTTP
 protocols
 .
     
+Args
 :
-param
+        
 header
 :
 value
@@ -1453,14 +1504,11 @@ of
 the
 Upgrade
 header
+.
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -1535,13 +1583,9 @@ new
 position
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -1642,6 +1686,8 @@ None
 :
                 
 raise
+exceptions
+.
 InvalidHeaderFormat
 (
                     
@@ -1749,13 +1795,9 @@ new
 position
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -1924,6 +1966,9 @@ value
 Parameter
 values
 are
+:
+obj
+:
 None
 when
 no
@@ -1932,13 +1977,9 @@ is
 provided
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -2170,13 +2211,9 @@ new
 position
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -2242,13 +2279,9 @@ WebSocket
 subprotocols
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -2280,7 +2313,7 @@ parse_subprotocol
 def
 build_subprotocol
 (
-protocols
+subprotocols
 :
 Sequence
 [
@@ -2327,11 +2360,119 @@ return
 .
 join
 (
-protocols
+subprotocols
 )
 build_subprotocol_list
 =
 build_subprotocol
+def
+validate_subprotocols
+(
+subprotocols
+:
+Sequence
+[
+Subprotocol
+]
+)
+-
+>
+None
+:
+    
+"
+"
+"
+    
+Validate
+that
+subprotocols
+is
+suitable
+for
+:
+func
+:
+build_subprotocol
+.
+    
+"
+"
+"
+    
+if
+not
+isinstance
+(
+subprotocols
+Sequence
+)
+:
+        
+raise
+TypeError
+(
+"
+subprotocols
+must
+be
+a
+list
+"
+)
+    
+if
+isinstance
+(
+subprotocols
+str
+)
+:
+        
+raise
+TypeError
+(
+"
+subprotocols
+must
+be
+a
+list
+not
+a
+str
+"
+)
+    
+for
+subprotocol
+in
+subprotocols
+:
+        
+if
+not
+_token_re
+.
+fullmatch
+(
+subprotocol
+)
+:
+            
+raise
+ValueError
+(
+f
+"
+invalid
+subprotocol
+:
+{
+subprotocol
+}
+"
+)
 def
 build_www_authenticate_basic
 (
@@ -2360,12 +2501,17 @@ Basic
 Auth
 .
     
+Args
 :
-param
+        
 realm
 :
-authentication
-realm
+identifier
+of
+the
+protection
+space
+.
     
 "
 "
@@ -2479,13 +2625,9 @@ new
 position
 .
     
+Raises
 :
-raises
-~
-websockets
-.
-exceptions
-.
+        
 InvalidHeaderFormat
 :
 on
@@ -2514,8 +2656,11 @@ None
 :
         
 raise
+exceptions
+.
 InvalidHeaderFormat
 (
+            
 header_name
 "
 expected
@@ -2523,6 +2668,7 @@ token68
 "
 header
 pos
+        
 )
     
 return
@@ -2582,6 +2728,8 @@ header
 :
         
 raise
+exceptions
+.
 InvalidHeaderFormat
 (
 header_name
@@ -2631,8 +2779,9 @@ password
 tuple
 .
     
+Args
 :
-param
+        
 header
 :
 value
@@ -2640,22 +2789,24 @@ of
 the
 Authorization
 header
+.
     
+Raises
 :
-raises
+        
 InvalidHeaderFormat
 :
 on
 invalid
 inputs
-    
-:
-raises
+.
+        
 InvalidHeaderValue
 :
 on
 unsupported
 inputs
+.
     
 "
 "
@@ -2687,11 +2838,15 @@ basic
 :
         
 raise
+exceptions
+.
 InvalidHeaderValue
 (
+            
 "
 Authorization
 "
+            
 f
 "
 unsupported
@@ -2701,6 +2856,7 @@ scheme
 scheme
 }
 "
+        
 )
     
 if
@@ -2716,6 +2872,8 @@ pos
 :
         
 raise
+exceptions
+.
 InvalidHeaderFormat
 (
             
@@ -2786,12 +2944,15 @@ Error
 :
         
 raise
+exceptions
+.
 InvalidHeaderValue
 (
             
 "
 Authorization
 "
+            
 "
 expected
 base64
@@ -2825,12 +2986,15 @@ ValueError
 :
         
 raise
+exceptions
+.
 InvalidHeaderValue
 (
             
 "
 Authorization
 "
+            
 "
 expected
 username
