@@ -353,7 +353,7 @@ window
 and
 not
 in
-oreground
+foreground
 )
 -
 :
@@ -567,7 +567,7 @@ or
 focus
 the
 Inspector
-ab
+tab
 )
 -
 :
