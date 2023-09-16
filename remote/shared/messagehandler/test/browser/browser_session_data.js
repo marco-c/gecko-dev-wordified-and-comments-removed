@@ -903,9 +903,7 @@ created
 )
 ;
 await
-BrowserTestUtils
-.
-loadURIString
+loadURL
 (
 gBrowser
 "

@@ -242,7 +242,6 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString

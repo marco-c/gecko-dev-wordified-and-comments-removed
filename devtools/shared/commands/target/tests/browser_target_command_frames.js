@@ -493,7 +493,6 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString
@@ -916,7 +915,6 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString
@@ -2797,7 +2795,6 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString

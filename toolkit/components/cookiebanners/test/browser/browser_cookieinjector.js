@@ -243,7 +243,6 @@ of
 urls
 )
 {
-await
 BrowserTestUtils
 .
 loadURIString
@@ -1451,7 +1450,6 @@ blank
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString
@@ -1677,7 +1675,6 @@ userContextId
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString
@@ -2485,7 +2482,6 @@ blank
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString
@@ -2587,7 +2583,6 @@ MODE_REJECT_OR_ACCEPT
 true
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString
