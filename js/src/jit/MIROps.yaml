@@ -2657,7 +2657,7 @@ object
 Object
 result_type
 :
-Object
+Value
 congruent_to
 :
 if_operands_equal

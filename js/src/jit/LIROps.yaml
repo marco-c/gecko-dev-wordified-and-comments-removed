@@ -6565,7 +6565,7 @@ name
 LoadScriptedProxyHandler
 result_type
 :
-WordSized
+BoxedValue
 operands
 :
 object

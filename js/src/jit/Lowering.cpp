@@ -31952,7 +31952,7 @@ object
 )
 )
 ;
-define
+defineBox
 (
 lir
 ins
