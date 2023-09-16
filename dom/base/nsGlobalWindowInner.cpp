@@ -23395,10 +23395,10 @@ JS
 AutoFilename
 filename
 ;
-unsigned
+uint32_t
 lineno
 ;
-unsigned
+uint32_t
 *
 linenop
 =

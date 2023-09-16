@@ -3026,12 +3026,12 @@ AutoFilename
 filename
 =
 nullptr
-unsigned
+uint32_t
 *
 lineno
 =
 nullptr
-unsigned
+uint32_t
 *
 column
 =

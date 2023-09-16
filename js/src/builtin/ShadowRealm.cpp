@@ -982,7 +982,7 @@ char
 *
 filename
 ;
-unsigned
+uint32_t
 lineno
 ;
 uint32_t
@@ -1597,7 +1597,7 @@ char
 *
 filename
 ;
-unsigned
+uint32_t
 lineno
 ;
 uint32_t

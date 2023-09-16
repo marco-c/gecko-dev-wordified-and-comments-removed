@@ -1478,7 +1478,7 @@ maybeScript
 cx
 )
 ;
-unsigned
+uint32_t
 lineno
 ;
 const

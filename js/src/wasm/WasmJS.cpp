@@ -21953,7 +21953,7 @@ return
 false
 ;
 }
-unsigned
+uint32_t
 line
 =
 args
