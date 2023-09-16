@@ -3895,7 +3895,10 @@ aParams
 =
 DataPipeReceiverStreamParams
 (
+WrapNotNull
+(
 this
+)
 )
 ;
 }

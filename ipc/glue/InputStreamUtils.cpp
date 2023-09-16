@@ -537,7 +537,10 @@ aParams
 =
 DataPipeReceiverStreamParams
 (
+WrapNotNull
+(
 receiver
+)
 )
 ;
 if
@@ -649,6 +652,10 @@ params
 stream
 (
 )
+.
+get
+(
+)
 )
 ;
 }
@@ -684,6 +691,10 @@ do_AddRef
 pipeParams
 .
 pipe
+(
+)
+.
+get
 (
 )
 )
