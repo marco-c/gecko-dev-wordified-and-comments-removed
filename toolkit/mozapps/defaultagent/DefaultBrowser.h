@@ -50,6 +50,7 @@ Yandex
 QQBrowser
 _360Browser
 Sogou
+DuckDuckGo
 )
 )
 ;
