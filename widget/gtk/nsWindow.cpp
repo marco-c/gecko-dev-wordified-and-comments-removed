@@ -13165,7 +13165,7 @@ if
 popupFrame
 -
 >
-IsFlippedByLayout
+IsConstrainedByLayout
 (
 )
 )
