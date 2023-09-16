@@ -10,9 +10,12 @@ http
 /
 {
 {
-domains
+hosts
 [
-www1
+alt
+]
+[
+0
 ]
 }
 }
