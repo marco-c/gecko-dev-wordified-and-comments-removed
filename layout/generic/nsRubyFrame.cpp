@@ -1315,6 +1315,8 @@ i
 +
 )
 {
+if
+(
 nsIFrame
 *
 nextRTC
@@ -1328,10 +1330,6 @@ i
 GetNextInFlow
 (
 )
-;
-if
-(
-nextRTC
 )
 {
 nextRTC

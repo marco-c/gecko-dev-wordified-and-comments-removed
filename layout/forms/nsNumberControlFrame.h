@@ -163,12 +163,9 @@ NS_DECL_FRAMEARENA_HELPERS
 nsNumberControlFrame
 )
 void
-DestroyFrom
+Destroy
 (
-nsIFrame
-*
-aDestructRoot
-PostDestroyData
+DestroyContext
 &
 )
 override

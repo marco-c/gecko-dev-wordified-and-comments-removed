@@ -389,14 +389,11 @@ void
 nsRangeFrame
 :
 :
-DestroyFrom
+Destroy
 (
-nsIFrame
-*
-aDestructRoot
-PostDestroyData
+DestroyContext
 &
-aPostDestroyData
+aContext
 )
 {
 NS_ASSERTION
@@ -449,7 +446,7 @@ Detach
 )
 ;
 }
-aPostDestroyData
+aContext
 .
 AddAnonymousContent
 (
@@ -460,7 +457,7 @@ forget
 )
 )
 ;
-aPostDestroyData
+aContext
 .
 AddAnonymousContent
 (
@@ -471,7 +468,7 @@ forget
 )
 )
 ;
-aPostDestroyData
+aContext
 .
 AddAnonymousContent
 (
@@ -485,10 +482,9 @@ forget
 nsContainerFrame
 :
 :
-DestroyFrom
+Destroy
 (
-aDestructRoot
-aPostDestroyData
+aContext
 )
 ;
 }
