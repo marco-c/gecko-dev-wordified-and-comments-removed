@@ -120,6 +120,11 @@ RuntimeClassInitialize
 (
 )
 ;
+void
+Shutdown
+(
+)
+;
 IFACEMETHODIMP
 BeginEnableContent
 (

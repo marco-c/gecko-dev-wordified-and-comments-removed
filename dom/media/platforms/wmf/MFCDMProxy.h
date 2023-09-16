@@ -62,12 +62,13 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 MFCDMProxy
 )
 ;
-explicit
 MFCDMProxy
 (
 IMFContentDecryptionModule
 *
 aCDM
+uint64_t
+aCDMParentId
 )
 ;
 public
@@ -114,6 +115,11 @@ aResult
 ;
 void
 OnHardwareContextReset
+(
+)
+;
+void
+Shutdown
 (
 )
 ;
@@ -166,6 +172,10 @@ ComPtr
 IMFTrustedInput
 >
 mTrustedInput
+;
+const
+uint64_t
+mCDMParentId
 ;
 }
 ;
