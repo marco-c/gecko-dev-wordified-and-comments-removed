@@ -291,7 +291,7 @@ aShaped
 )
 override
 ;
-void
+bool
 SetEGLNativeWindowSize
 (
 const

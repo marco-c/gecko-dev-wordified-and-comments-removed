@@ -2183,7 +2183,7 @@ int
 aDy
 )
 ;
-void
+bool
 SetEGLNativeWindowSize
 (
 const
