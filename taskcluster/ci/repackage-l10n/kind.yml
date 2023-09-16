@@ -231,15 +231,8 @@ from
 -
 deps
 :
-group
--
-by
-:
-single
--
-with
--
-filters
+{
+}
 upstream
 -
 mac

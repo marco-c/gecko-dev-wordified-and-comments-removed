@@ -186,12 +186,5 @@ from
 -
 deps
 :
-group
--
-by
-:
-single
--
-with
--
-filters
+{
+}

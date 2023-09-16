@@ -241,15 +241,8 @@ from
 -
 deps
 :
-group
--
-by
-:
-single
--
-with
--
-filters
+{
+}
 attributes
 :
 artifact_map
