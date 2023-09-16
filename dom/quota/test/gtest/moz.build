@@ -86,6 +86,11 @@ TestOriginParser
 cpp
 "
 "
+TestOriginScope
+.
+cpp
+"
+"
 TestPersistenceType
 .
 cpp

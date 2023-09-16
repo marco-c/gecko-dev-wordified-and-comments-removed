@@ -107,6 +107,12 @@ nullptr
 ;
 static
 void
+ShutdownStorage
+(
+)
+;
+static
+void
 ClearStoragesForOrigin
 (
 const
