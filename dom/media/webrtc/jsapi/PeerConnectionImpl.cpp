@@ -24475,13 +24475,10 @@ nsIContentPolicy
 TYPE_INVALID
 )
 ;
-Maybe
-<
 net
 :
 :
 LoadInfoArgs
->
 loadInfoArgs
 ;
 MOZ_ALWAYS_SUCCEEDS
@@ -24519,7 +24516,6 @@ WebrtcProxyConfig
 (
 id
 alpn
-*
 loadInfoArgs
 mForceProxy
 )
