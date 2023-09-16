@@ -2086,6 +2086,11 @@ access
 ]
 )
 ]
+allow_owner_if_submittable
+=
+cq
+.
+ACTION_DRY_RUN
 retry_config
 =
 cq
