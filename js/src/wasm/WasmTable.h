@@ -343,6 +343,16 @@ setFuncRef
 (
 uint32_t
 index
+JSFunction
+*
+func
+)
+;
+void
+setFuncRef
+(
+uint32_t
+index
 void
 *
 code

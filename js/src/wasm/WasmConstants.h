@@ -401,10 +401,10 @@ ElemSegmentPayload
 :
 uint32_t
 {
-ExternIndex
+Indices
 =
 0x0
-ElemExpression
+Expressions
 =
 0x4
 }

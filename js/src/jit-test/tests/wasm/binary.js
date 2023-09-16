@@ -1776,8 +1776,8 @@ elems
 )
 CompileError
 /
-table
 element
+index
 out
 of
 range
@@ -1916,8 +1916,8 @@ v2vBody
 )
 CompileError
 /
-table
 element
+index
 out
 of
 range
