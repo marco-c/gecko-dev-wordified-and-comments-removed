@@ -6908,7 +6908,7 @@ aInputBlockId
 )
 ;
 }
-bool
+void
 BrowserChild
 :
 :
@@ -7051,9 +7051,6 @@ PANNING
 )
 ;
 }
-return
-true
-;
 }
 void
 BrowserChild
