@@ -49,6 +49,8 @@ config
 state
 .
 product
+.
+name
 )
 class
 UpdateExpected

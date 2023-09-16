@@ -68,6 +68,7 @@ executor_kwargs
 test_type
 test_environment
 run_info_data
+subsuite
 *
 *
 kwargs
@@ -120,6 +121,14 @@ kwargs
 debug_info
 "
 ]
+                       
+"
+subsuite
+"
+:
+subsuite
+.
+name
 }
     
 if
@@ -1675,6 +1684,9 @@ timeout_multiplier
 debug_info
 =
 None
+subsuite
+=
+None
 *
 *
 kwargs
@@ -1716,6 +1728,12 @@ self
 debug_info
 =
 debug_info
+        
+self
+.
+subsuite
+=
+subsuite
         
 self
 .
@@ -2471,6 +2489,14 @@ executor
         
 self
 .
+subsuite
+=
+executor
+.
+subsuite
+        
+self
+.
 screenshot_cache
 =
 self
@@ -2541,6 +2567,9 @@ page_ranges
 key
 =
 (
+self
+.
+subsuite
 test
 .
 url

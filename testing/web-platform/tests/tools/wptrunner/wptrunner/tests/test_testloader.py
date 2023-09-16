@@ -23,6 +23,8 @@ IDHashChunker
     
 PathHashChunker
     
+Subsuite
+    
 TestFilter
     
 TestLoader
@@ -354,6 +356,27 @@ from_json
 manifest_json
 )
     
+subsuites
+=
+{
+}
+    
+subsuites
+[
+"
+"
+]
+=
+Subsuite
+(
+"
+"
+config
+=
+{
+}
+)
+    
 loader
 =
 TestLoader
@@ -376,6 +399,7 @@ testharness
 "
 ]
 None
+subsuites
 )
     
 assert
@@ -386,6 +410,10 @@ in
 loader
 .
 tests
+[
+"
+"
+]
     
 assert
 len
@@ -393,6 +421,10 @@ len
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -409,6 +441,10 @@ len
 loader
 .
 disabled_tests
+[
+"
+"
+]
 )
 =
 =
@@ -436,6 +472,7 @@ testharness
 "
 ]
 None
+subsuites
 include_h2
 =
 False
@@ -449,6 +486,10 @@ in
 loader
 .
 tests
+[
+"
+"
+]
     
 assert
 len
@@ -456,6 +497,10 @@ len
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -474,6 +519,10 @@ in
 loader
 .
 disabled_tests
+[
+"
+"
+]
     
 assert
 len
@@ -481,6 +530,10 @@ len
 loader
 .
 disabled_tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -495,6 +548,10 @@ assert
 loader
 .
 disabled_tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -1752,6 +1809,27 @@ n
 "
 )
         
+subsuites
+=
+{
+}
+        
+subsuites
+[
+"
+"
+]
+=
+Subsuite
+(
+"
+"
+config
+=
+{
+}
+)
+        
 b_path
 =
 os
@@ -1840,6 +1918,7 @@ testharness
 "
 ]
 None
+subsuites
 )
         
 assert
@@ -1848,6 +1927,10 @@ len
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -1879,6 +1962,7 @@ testharness
 "
 ]
 None
+subsuites
                             
 test_filters
 =
@@ -1906,6 +1990,10 @@ loader
 tests
 [
 "
+"
+]
+[
+"
 testharness
 "
 ]
@@ -1918,6 +2006,10 @@ assert
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -1943,6 +2035,10 @@ assert
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -1974,6 +2070,10 @@ loader
 tests
 [
 "
+"
+]
+[
+"
 testharness
 "
 ]
@@ -1997,6 +2097,10 @@ assert
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -2048,6 +2152,7 @@ testharness
 "
 ]
 None
+subsuites
                             
 test_filters
 =
@@ -2073,6 +2178,10 @@ len
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -2107,6 +2216,10 @@ loader
 tests
 [
 "
+"
+]
+[
+"
 testharness
 "
 ]
@@ -2133,6 +2246,7 @@ testharness
 "
 ]
 None
+subsuites
                             
 test_filters
 =
@@ -2165,6 +2279,10 @@ loader
 tests
 [
 "
+"
+]
+[
+"
 testharness
 "
 ]
@@ -2177,6 +2295,10 @@ assert
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -2202,6 +2324,10 @@ assert
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
@@ -2248,6 +2374,7 @@ testharness
 "
 ]
 None
+subsuites
                             
 test_filters
 =
@@ -2280,6 +2407,10 @@ loader
 tests
 [
 "
+"
+]
+[
+"
 testharness
 "
 ]
@@ -2309,6 +2440,7 @@ testharness
 "
 ]
 None
+subsuites
                             
 test_filters
 =
@@ -2344,6 +2476,10 @@ len
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness

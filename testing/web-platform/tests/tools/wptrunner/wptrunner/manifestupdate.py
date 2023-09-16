@@ -5442,6 +5442,26 @@ item
 )
 )
     
+else
+:
+        
+raise
+ValueError
+(
+f
+"
+Unrecoginsed
+data
+type
+{
+type
+(
+value
+)
+}
+"
+)
+    
 return
 node
 def

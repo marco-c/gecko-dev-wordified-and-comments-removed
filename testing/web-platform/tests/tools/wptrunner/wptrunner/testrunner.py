@@ -12,9 +12,12 @@ from
 collections
 import
 namedtuple
+defaultdict
 from
 typing
 import
+Any
+Mapping
 Optional
 from
 mozlog
@@ -1518,6 +1521,9 @@ initializing
                               
 [
 "
+subsuite
+"
+"
 test_type
 "
 "
@@ -1545,6 +1551,9 @@ running
 "
 [
 "
+subsuite
+"
+"
 test_type
 "
 "
@@ -1567,6 +1576,9 @@ namedtuple
 restarting
 "
 [
+"
+subsuite
+"
 "
 test_type
 "
@@ -1633,7 +1645,7 @@ index
 test_queue
 test_source_cls
                  
-test_implementation_by_type
+test_implementations
 stop_flag
 rerun
 =
@@ -1816,22 +1828,22 @@ index
         
 self
 .
-test_type
+test_implementation_key
 =
 None
         
 self
 .
-test_implementation_by_type
+test_implementations
 =
 {
 }
         
 for
-test_type
+key
 test_implementation
 in
-test_implementation_by_type
+test_implementations
 .
 items
 (
@@ -1882,9 +1894,9 @@ index
                 
 self
 .
-test_implementation_by_type
+test_implementations
 [
-test_type
+key
 ]
 =
 TestImplementation
@@ -1910,9 +1922,9 @@ else
                 
 self
 .
-test_implementation_by_type
+test_implementations
 [
-test_type
+key
 ]
 =
 test_implementation
@@ -2047,18 +2059,20 @@ test_count
         
 self
 .
-unexpected_tests
+unexpected_fail_tests
 =
-set
+defaultdict
 (
+list
 )
         
 self
 .
 unexpected_pass_tests
 =
-set
+defaultdict
 (
+list
 )
         
 self
@@ -2736,6 +2750,12 @@ self
 .
 state
 .
+subsuite
+                                                 
+self
+.
+state
+.
 test_type
                                                  
 self
@@ -3063,6 +3083,7 @@ self
 )
 :
         
+subsuite
 test_type
 test
 test_group
@@ -3112,6 +3133,7 @@ RunnerManagerState
 .
 initializing
 (
+subsuite
 test_type
 test
 test_group
@@ -3170,16 +3192,23 @@ error
 )
         
 if
+(
+self
+.
+state
+.
+subsuite
 self
 .
 state
 .
 test_type
+)
 !
 =
 self
 .
-test_type
+test_implementation_key
 :
             
 if
@@ -3215,13 +3244,20 @@ impl
 =
 self
 .
-test_implementation_by_type
+test_implementations
 [
+(
+self
+.
+state
+.
+subsuite
 self
 .
 state
 .
 test_type
+)
 ]
             
 browser
@@ -3280,13 +3316,20 @@ None
             
 self
 .
-test_type
+test_implementation_key
 =
+(
+self
+.
+state
+.
+subsuite
 self
 .
 state
 .
 test_type
+)
         
 assert
 self
@@ -3392,13 +3435,20 @@ impl
 =
 self
 .
-test_implementation_by_type
+test_implementations
 [
+(
+self
+.
+state
+.
+subsuite
 self
 .
 state
 .
 test_type
+)
 ]
         
 self
@@ -3526,21 +3576,12 @@ name
 TestRunner
 -
 %
-s
--
-%
 i
 "
 %
-(
-                                               
-self
-.
-test_type
 self
 .
 manager_number
-)
 )
         
 self
@@ -3595,6 +3636,12 @@ RunnerManagerState
 .
 running
 (
+self
+.
+state
+.
+subsuite
+                                          
 self
 .
 state
@@ -3673,6 +3720,12 @@ self
 .
 state
 .
+subsuite
+                                               
+self
+.
+state
+.
 test_type
                                                
 self
@@ -3738,6 +3791,7 @@ test_group
 :
                 
 test_group
+subsuite
 test_type
 group_metadata
 =
@@ -3773,6 +3827,7 @@ None
 None
 None
 None
+None
             
 test
 =
@@ -3789,6 +3844,7 @@ run_count
 0
         
 return
+subsuite
 test_type
 test
 test_group
@@ -3858,6 +3914,12 @@ RunnerManagerState
 .
 restarting
 (
+self
+.
+state
+.
+subsuite
+                                                 
 self
 .
 state
@@ -3933,6 +3995,13 @@ state
 test
 .
 id
+subsuite
+=
+self
+.
+state
+.
+subsuite
 )
         
 if
@@ -4397,6 +4466,14 @@ stack
 result
 .
 stack
+                                    
+subsuite
+=
+self
+.
+state
+.
+subsuite
 )
         
 expected
@@ -4594,23 +4671,6 @@ not
 is_unexpected
 )
         
-if
-is_unexpected
-or
-subtest_unexpected
-:
-            
-self
-.
-unexpected_tests
-.
-add
-(
-test
-.
-id
-)
-        
 is_unexpected_pass
 =
 (
@@ -4633,12 +4693,45 @@ is_unexpected_pass
 self
 .
 unexpected_pass_tests
+[
+self
 .
-add
-(
+state
+.
+subsuite
 test
 .
-id
+test_type
+]
+.
+append
+(
+test
+)
+        
+elif
+is_unexpected
+or
+subtest_unexpected
+:
+            
+self
+.
+unexpected_fail_tests
+[
+self
+.
+state
+.
+subsuite
+test
+.
+test_type
+]
+.
+append
+(
+test
 )
         
 if
@@ -4756,6 +4849,14 @@ stack
 file_result
 .
 stack
+                             
+subsuite
+=
+self
+.
+state
+.
+subsuite
 )
         
 restart_before_next
@@ -5002,6 +5103,7 @@ self
 rerun
 :
             
+subsuite
 test_type
 test
 test_group
@@ -5135,6 +5237,7 @@ RunnerManagerState
 restarting
 (
                 
+subsuite
 test_type
 test
 test_group
@@ -5151,6 +5254,7 @@ RunnerManagerState
 running
 (
                 
+subsuite
 test_type
 test
 test_group
@@ -5210,6 +5314,11 @@ self
 .
 state
 .
+subsuite
+self
+.
+state
+.
 test_type
 self
 .
@@ -5235,7 +5344,16 @@ log
 (
 self
 data
+:
+Mapping
+[
+str
+Any
+]
 )
+-
+>
+None
 :
         
 self
@@ -5471,39 +5589,11 @@ True
         
 self
 .
-logger
-.
-debug
-(
-"
-waiting
-for
-runner
-process
-to
-end
-"
-)
-        
-self
-.
 test_runner_proc
 .
 join
 (
 10
-)
-        
-self
-.
-logger
-.
-debug
-(
-"
-After
-join
-"
 )
         
 mp
@@ -5941,24 +6031,25 @@ def
 make_test_queue
 (
 tests
-test_source_cls
-*
-*
-test_source_kwargs
+test_source
 )
 :
     
 queue
 num_of_workers
 =
-test_source_cls
+test_source
+.
+cls
 .
 make_queue
 (
 tests
 *
 *
-test_source_kwargs
+test_source
+.
+kwargs
 )
     
 queue
@@ -6007,10 +6098,8 @@ __init__
 (
 self
 suite_name
-test_source_cls
-test_source_kwargs
-                 
-test_implementation_by_type
+test_source
+test_implementations
                  
 rerun
 =
@@ -6058,21 +6147,15 @@ suite_name
         
 self
 .
-test_source_cls
+test_source
 =
-test_source_cls
+test_source
         
 self
 .
-test_source_kwargs
+test_implementations
 =
-test_source_kwargs
-        
-self
-.
-test_implementation_by_type
-=
-test_implementation_by_type
+test_implementations
         
 self
 .
@@ -6218,12 +6301,7 @@ make_test_queue
 tests
 self
 .
-test_source_cls
-*
-*
-self
-.
-test_source_kwargs
+test_source
 )
         
 self
@@ -6266,11 +6344,13 @@ test_queue
                                         
 self
 .
-test_source_cls
+test_source
+.
+cls
                                         
 self
 .
-test_implementation_by_type
+test_implementations
                                         
 self
 .
@@ -6534,32 +6614,58 @@ pool
 )
     
 def
-unexpected_tests
+unexpected_fail_tests
 (
 self
 )
 :
         
-return
-set
+rv
+=
+defaultdict
 (
+list
 )
-.
-union
-(
-*
-(
-manager
-.
-unexpected_tests
+        
 for
 manager
 in
 self
 .
 pool
+:
+            
+for
+(
+subsuite
+test_type
 )
+tests
+in
+manager
+.
+unexpected_fail_tests
+.
+items
+(
 )
+:
+                
+rv
+[
+(
+subsuite
+test_type
+)
+]
+.
+extend
+(
+tests
+)
+        
+return
+rv
     
 def
 unexpected_pass_tests
@@ -6568,23 +6674,49 @@ self
 )
 :
         
-return
-set
+rv
+=
+defaultdict
 (
+list
 )
-.
-union
-(
-*
-(
-manager
-.
-unexpected_pass_tests
+        
 for
 manager
 in
 self
 .
 pool
+:
+            
+for
+(
+subsuite
+test_type
 )
+tests
+in
+manager
+.
+unexpected_pass_tests
+.
+items
+(
 )
+:
+                
+rv
+[
+(
+subsuite
+test_type
+)
+]
+.
+extend
+(
+tests
+)
+        
+return
+rv
