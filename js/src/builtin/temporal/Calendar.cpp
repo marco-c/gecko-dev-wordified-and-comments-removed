@@ -2570,6 +2570,9 @@ iso8601
 )
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 IsISO8601Calendar
@@ -2580,7 +2583,7 @@ calendar
 )
 {
 return
-StringEqualsLiteral
+IsISO8601Calendar
 (
 calendar
 -
@@ -2588,12 +2591,11 @@ calendar
 identifier
 (
 )
-"
-iso8601
-"
 )
 ;
 }
+#
+endif
 static
 bool
 IsISO8601Calendar
