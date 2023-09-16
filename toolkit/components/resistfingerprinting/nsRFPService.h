@@ -46,15 +46,6 @@ h
 #
 include
 "
-mozilla
-/
-TypedEnumBits
-.
-h
-"
-#
-include
-"
 nsHashtablesFwd
 .
 h
@@ -577,11 +568,6 @@ inc
 #
 undef
 ITEM_VALUE
-MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
-(
-RFPTarget
-)
-;
 class
 nsRFPService
 final
