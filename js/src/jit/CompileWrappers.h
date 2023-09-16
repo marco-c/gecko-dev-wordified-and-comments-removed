@@ -408,6 +408,11 @@ CatchAllAllocSite
 siteKind
 )
 ;
+bool
+hasRealmWithAllocMetadataBuilder
+(
+)
+;
 }
 ;
 class
@@ -486,11 +491,6 @@ const
 uint32_t
 *
 addressOfGlobalWriteBarriered
-(
-)
-;
-bool
-hasAllocationMetadataBuilder
 (
 )
 ;
