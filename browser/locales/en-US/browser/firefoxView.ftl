@@ -2558,3 +2558,16 @@ open
 on
 this
 device
+firefoxview
+-
+syncedtabs
+-
+connect
+-
+another
+-
+device
+=
+Connect
+another
+device
