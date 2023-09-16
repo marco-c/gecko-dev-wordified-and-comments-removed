@@ -277,6 +277,8 @@ head
 )
 )
 {
+if
+(
 nsCOMPtr
 <
 Document
@@ -286,10 +288,6 @@ doc
 GetUncomposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 doc
@@ -299,7 +297,17 @@ OnL10nResourceContainerParsed
 (
 )
 ;
-}
+if
+(
+!
+doc
+-
+>
+IsLoadedAsData
+(
+)
+)
+{
 RefPtr
 <
 AsyncEventDispatcher
@@ -332,6 +340,8 @@ PostDOMEvent
 (
 )
 ;
+}
+}
 }
 }
 static
