@@ -2,10 +2,15 @@ include
 protocol
 PBackgroundDataBridge
 ;
+#
+ifdef
+MOZ_WEBRTC
 include
 protocol
 PMediaTransport
 ;
+#
+endif
 namespace
 mozilla
 {
@@ -33,6 +38,9 @@ uint64_t
 aChannelID
 )
 ;
+#
+ifdef
+MOZ_WEBRTC
 async
 InitMediaTransport
 (
@@ -43,6 +51,8 @@ PMediaTransportParent
 aEndpoint
 )
 ;
+#
+endif
 }
 ;
 }

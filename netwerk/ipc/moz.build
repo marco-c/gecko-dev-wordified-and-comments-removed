@@ -296,6 +296,11 @@ PSocketProcess
 .
 ipdl
 "
+"
+PSocketProcessBridge
+.
+ipdl
+"
 ]
 IPDL_SOURCES
 =
@@ -342,11 +347,6 @@ ipdl
 "
 "
 PSocketProcessBackground
-.
-ipdl
-"
-"
-PSocketProcessBridge
 .
 ipdl
 "

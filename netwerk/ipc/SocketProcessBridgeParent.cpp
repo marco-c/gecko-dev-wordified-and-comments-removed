@@ -13,6 +13,9 @@ SocketProcessLogging
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 mozilla
@@ -23,6 +26,8 @@ MediaTransportParent
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -301,6 +306,9 @@ IPC_OK
 )
 ;
 }
+#
+ifdef
+MOZ_WEBRTC
 mozilla
 :
 :
@@ -476,6 +484,8 @@ IPC_OK
 )
 ;
 }
+#
+endif
 void
 SocketProcessBridgeParent
 :

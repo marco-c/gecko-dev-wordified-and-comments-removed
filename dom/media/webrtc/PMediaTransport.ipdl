@@ -311,11 +311,11 @@ async
 protocol
 PMediaTransport
 {
-parent
-:
 #
 ifdef
 MOZ_WEBRTC
+parent
+:
 async
 GetIceLog
 (
