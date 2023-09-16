@@ -7114,6 +7114,17 @@ join
 "
 )
 ;
+const
+search_engine_default_id
+=
+Services
+.
+search
+.
+defaultEngine
+.
+telemetryId
+;
 let
 eventInfo
 ;
@@ -7212,6 +7223,11 @@ numWords
 n_results
 :
 numResults
+selected_position
+:
+selIndex
++
+1
 selected_result
 selected_result_subtype
 provider
@@ -7237,6 +7253,7 @@ dismiss
 selType
 :
 action
+search_engine_default_id
 groups
 results
 }
@@ -7269,6 +7286,7 @@ numWords
 n_results
 :
 numResults
+search_engine_default_id
 groups
 results
 }
@@ -7302,6 +7320,7 @@ numWords
 n_results
 :
 numResults
+search_engine_default_id
 groups
 results
 }
