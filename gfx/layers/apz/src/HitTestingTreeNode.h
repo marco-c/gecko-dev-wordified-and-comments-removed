@@ -467,6 +467,8 @@ const
 LayerToScreenMatrix4x4
 GetTransformToGecko
 (
+LayersId
+aRemoteLayersId
 )
 const
 ;
@@ -481,6 +483,8 @@ const
 ScreenRect
 GetRemoteDocumentScreenRect
 (
+LayersId
+aRemoteDocumentLayersId
 )
 const
 ;

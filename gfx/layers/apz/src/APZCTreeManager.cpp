@@ -16492,6 +16492,7 @@ parent
 >
 GetTransformToGecko
 (
+layersId
 )
 )
 parent
@@ -16499,6 +16500,7 @@ parent
 >
 GetRemoteDocumentScreenRect
 (
+layersId
 )
 layersId
 )
