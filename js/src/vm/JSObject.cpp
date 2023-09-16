@@ -3774,8 +3774,6 @@ AllocKind
 kind
 NewObjectKind
 newKind
-ObjectFlags
-objFlags
 )
 {
 MOZ_ASSERT
@@ -3880,7 +3878,9 @@ realm
 )
 proto
 nfixed
-objFlags
+ObjectFlags
+(
+)
 )
 )
 ;
@@ -3970,8 +3970,6 @@ AllocKind
 allocKind
 NewObjectKind
 newKind
-ObjectFlags
-objFlags
 )
 {
 return
@@ -3982,7 +3980,6 @@ clasp
 proto
 allocKind
 newKind
-objFlags
 )
 ;
 }
@@ -4009,8 +4006,6 @@ AllocKind
 allocKind
 NewObjectKind
 newKind
-ObjectFlags
-objFlags
 )
 {
 if
@@ -4029,7 +4024,6 @@ protoArg
 )
 allocKind
 newKind
-objFlags
 )
 ;
 }
@@ -4098,7 +4092,6 @@ clasp
 taggedProto
 allocKind
 newKind
-objFlags
 )
 ;
 }

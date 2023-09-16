@@ -994,13 +994,6 @@ maybeHasInterestingSymbolProperty
 )
 const
 ;
-inline
-bool
-needsProxyGetSetResultValidation
-(
-)
-const
-;
 void
 traceChildren
 (
