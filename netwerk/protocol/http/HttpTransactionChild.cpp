@@ -2589,12 +2589,6 @@ GetSupportsHTTP3
 )
 mode
 reason
-mTransaction
--
->
-Caps
-(
-)
 )
 ;
 return
@@ -3079,6 +3073,12 @@ Timings
 responseTrailers
 mTransactionObserverResult
 lastActTabOpt
+mTransaction
+-
+>
+Caps
+(
+)
 infoArgs
 )
 ;
