@@ -1405,7 +1405,7 @@ BaseScript
 CacheIRCloner
 :
 :
-getBaseScriptField
+getWeakBaseScriptField
 (
 uint32_t
 stubOffset

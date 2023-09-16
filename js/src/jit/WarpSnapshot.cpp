@@ -2679,7 +2679,7 @@ StubField
 Type
 :
 :
-BaseScript
+WeakBaseScript
 :
 {
 uintptr_t

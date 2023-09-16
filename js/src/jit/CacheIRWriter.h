@@ -1160,7 +1160,7 @@ Symbol
 ;
 }
 void
-writeBaseScriptField
+writeWeakBaseScriptField
 (
 BaseScript
 *
@@ -1184,7 +1184,7 @@ StubField
 Type
 :
 :
-BaseScript
+WeakBaseScript
 )
 ;
 }

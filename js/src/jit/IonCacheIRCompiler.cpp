@@ -11775,7 +11775,7 @@ BaseScript
 *
 expected
 =
-baseScriptStubField
+weakBaseScriptStubField
 (
 expectedOffset
 )
