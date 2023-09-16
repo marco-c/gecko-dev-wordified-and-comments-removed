@@ -10846,6 +10846,11 @@ MozBroken
 NonTSPseudoClass
 :
 :
+MozLoading
+|
+NonTSPseudoClass
+:
+:
 Required
 |
 NonTSPseudoClass

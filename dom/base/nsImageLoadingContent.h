@@ -1149,8 +1149,6 @@ mLoadingEnabled
 :
 1
 ;
-protected
-:
 bool
 mLoading
 :
@@ -1161,6 +1159,8 @@ mBroken
 :
 1
 ;
+protected
+:
 bool
 mNewRequestsWillNeedAnimationReset
 :

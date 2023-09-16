@@ -203,6 +203,14 @@ SetBarredFromConstraintValidation
 true
 )
 ;
+AddStatesSilently
+(
+ElementState
+:
+:
+LOADING
+)
+;
 }
 HTMLObjectElement
 :
