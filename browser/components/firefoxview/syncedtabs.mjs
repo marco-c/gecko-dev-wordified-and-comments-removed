@@ -1778,6 +1778,15 @@ slot
 "
 menu
 "
+data
+-
+tab
+-
+type
+=
+"
+syncedtabs
+"
 >
 <
 panel
