@@ -340,7 +340,7 @@ XPCOM
 (
 Cross
 -
-process
+Platform
 Component
 Object
 Model
