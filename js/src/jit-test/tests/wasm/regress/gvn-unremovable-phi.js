@@ -51,7 +51,9 @@ i32
 .
 const
 1
-tee_local
+local
+.
+tee
 p
 local
 .

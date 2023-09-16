@@ -113,7 +113,9 @@ var0
 )
 )
 (
-tee_local
+local
+.
+tee
 var0
 (
 i64

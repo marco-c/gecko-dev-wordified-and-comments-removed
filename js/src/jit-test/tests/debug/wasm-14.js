@@ -456,7 +456,9 @@ null
 )
 )
 (
-set_local
+local
+.
+set
 0
 (
 struct
@@ -533,7 +535,9 @@ const
 3
 )
 (
-set_local
+local
+.
+set
 0
 (
 array

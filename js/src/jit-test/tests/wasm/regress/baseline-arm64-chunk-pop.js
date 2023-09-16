@@ -29,7 +29,9 @@ i32
 .
 const
 1
-tee_local
+local
+.
+tee
 0
 local
 .
@@ -73,7 +75,9 @@ local
 .
 get
 0
-tee_local
+local
+.
+tee
 0
 local
 .

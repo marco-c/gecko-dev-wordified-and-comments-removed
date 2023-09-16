@@ -145,11 +145,15 @@ i32
 .
 div_s
 (
-get_local
+local
+.
+get
 0
 )
 (
-get_local
+local
+.
+get
 0
 )
 )

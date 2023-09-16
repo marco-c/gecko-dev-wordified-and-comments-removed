@@ -377,7 +377,9 @@ const
 1
 )
 (
-set_local
+local
+.
+set
 0
 )
 )
@@ -422,7 +424,9 @@ const
 5
 )
 (
-set_local
+local
+.
+set
 0
 )
 )
@@ -469,7 +473,9 @@ const
 25
 )
 (
-set_local
+local
+.
+set
 0
 )
 )
@@ -505,7 +511,9 @@ result
 i32
 )
 (
-get_local
+local
+.
+get
 0
 )
 (
@@ -531,7 +539,9 @@ local
 i32
 )
 (
-get_local
+local
+.
+get
 0
 )
 (
@@ -539,7 +549,9 @@ call
 0
 )
 (
-set_local
+local
+.
+set
 1
 )
 )

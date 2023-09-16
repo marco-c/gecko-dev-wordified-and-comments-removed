@@ -1408,7 +1408,9 @@ x
 i32
 )
 (
-set_local
+local
+.
+set
 x
 (
 i32
@@ -1454,7 +1456,9 @@ const
 )
 )
 (
-set_local
+local
+.
+set
 x
 (
 i32
@@ -1465,7 +1469,9 @@ const
 )
 )
 (
-get_local
+local
+.
+get
 x
 )
 )
@@ -1654,7 +1660,9 @@ x
 i32
 )
 (
-set_local
+local
+.
+set
 x
 (
 i32
@@ -1696,7 +1704,9 @@ const
 )
 )
 (
-set_local
+local
+.
+set
 x
 (
 i32
@@ -1707,7 +1717,9 @@ const
 )
 )
 (
-get_local
+local
+.
+get
 x
 )
 )

@@ -3176,7 +3176,9 @@ local
 i32
 )
 (
-tee_local
+local
+.
+tee
 0
 (
 i32
@@ -3217,7 +3219,9 @@ local
 i32
 )
 (
-tee_local
+local
+.
+tee
 0
 (
 local

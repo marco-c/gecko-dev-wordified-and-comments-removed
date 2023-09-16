@@ -45,7 +45,9 @@ local
 i32
 )
 (
-set_local
+local
+.
+set
 0
 (
 i32
@@ -55,7 +57,9 @@ const
 )
 )
 (
-set_local
+local
+.
+set
 1
 (
 f64

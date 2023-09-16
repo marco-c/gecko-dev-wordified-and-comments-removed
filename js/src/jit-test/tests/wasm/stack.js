@@ -126,7 +126,9 @@ const
 5
 .
 0
-tee_local
+local
+.
+tee
 local
 drop
 block
