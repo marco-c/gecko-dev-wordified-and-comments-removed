@@ -1961,6 +1961,13 @@ bits
 Self
 :
 :
+DIR_STATES
+.
+bits
+|
+Self
+:
+:
 DISABLED_STATES
 .
 bits
