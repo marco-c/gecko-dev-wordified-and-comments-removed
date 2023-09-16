@@ -116,13 +116,16 @@ def
 test_params_intercept_removed_intercept
 (
 bidi_session
-add_intercept
 )
 :
     
 intercept
 =
 await
+bidi_session
+.
+network
+.
 add_intercept
 (
         
