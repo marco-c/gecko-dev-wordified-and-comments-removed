@@ -259,9 +259,6 @@ resolve
 )
 ;
 }
-[
-]
-false
 )
 ;
 PartitionedStorageHelper
