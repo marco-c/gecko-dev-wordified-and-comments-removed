@@ -12,6 +12,8 @@ import
 json
 import
 os
+import
+queue
 from
 urllib
 .
@@ -54,10 +56,6 @@ from
 .
 import
 manifestupdate
-from
-.
-import
-mpcontext
 from
 .
 import
@@ -3345,19 +3343,11 @@ kwargs
 )
 :
         
-mp
-=
-mpcontext
-.
-get_context
-(
-)
-        
 test_queue
 =
-mp
+queue
 .
-Queue
+SimpleQueue
 (
 )
         
