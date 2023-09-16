@@ -1790,9 +1790,11 @@ sourceNode
 =
 tooltipNode
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 auto
 *
 doc
@@ -1838,6 +1840,7 @@ NS_OK
 }
 if
 (
+!
 sourceNode
 -
 >
@@ -1846,6 +1849,10 @@ IsInComposedDoc
 )
 )
 {
+return
+NS_OK
+;
+}
 if
 (
 !
@@ -1893,9 +1900,11 @@ if
 !
 currentTooltip
 )
+{
 return
 NS_OK
 ;
+}
 currentTooltip
 -
 >
@@ -1986,7 +1995,6 @@ mSourceNode
 =
 nullptr
 ;
-}
 return
 NS_OK
 ;
