@@ -473,7 +473,7 @@ SOURCES
 '
 cubeb_opensl
 .
-c
+cpp
 '
 ]
 DEFINES
