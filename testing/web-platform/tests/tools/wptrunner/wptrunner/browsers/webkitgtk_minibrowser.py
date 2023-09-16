@@ -496,7 +496,12 @@ binary_args
 "
 ]
 =
+executor_kwargs
+[
+"
 capabilities
+"
+]
 [
 "
 webkitgtk
