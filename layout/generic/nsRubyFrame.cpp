@@ -1298,7 +1298,19 @@ SetDirtyNextLine
 }
 }
 else
+if
+(
+rtcCount
+)
 {
+DestroyContext
+context
+(
+PresShell
+(
+)
+)
+;
 for
 (
 uint32_t
@@ -1342,6 +1354,7 @@ GetParent
 >
 DeleteNextInFlowChild
 (
+context
 nextRTC
 true
 )

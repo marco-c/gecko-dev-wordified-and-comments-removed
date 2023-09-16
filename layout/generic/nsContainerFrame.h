@@ -341,11 +341,11 @@ virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 ;
 nsIFrame
@@ -361,6 +361,8 @@ virtual
 void
 DeleteNextInFlowChild
 (
+DestroyContext
+&
 nsIFrame
 *
 aNextInFlow

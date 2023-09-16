@@ -1037,11 +1037,11 @@ nsTableCellFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 {
 MOZ_CRASH

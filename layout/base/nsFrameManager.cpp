@@ -225,7 +225,7 @@ mRootFrame
 FrameDestroyContext
 context
 (
-mRootFrame
+mPresShell
 )
 ;
 mRootFrame
@@ -471,6 +471,9 @@ nsFrameManager
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 FrameChildListID
 aListID
 nsIFrame
@@ -589,7 +592,7 @@ GetAbsoluteContainingBlock
 >
 RemoveFrame
 (
-parentFrame
+aContext
 aListID
 aOldFrame
 )
@@ -602,6 +605,7 @@ parentFrame
 >
 RemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )

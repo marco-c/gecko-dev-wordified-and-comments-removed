@@ -72,7 +72,6 @@ ViewportFrame
 =
 default
 ;
-virtual
 void
 Init
 (
@@ -125,21 +124,19 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 override
 ;
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -167,7 +164,6 @@ aIsOpaque
 nullptr
 )
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -177,7 +173,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -187,7 +182,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 void
 Reflow
 (

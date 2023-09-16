@@ -81,7 +81,6 @@ mozilla
 IntrinsicISizeType
 )
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -91,7 +90,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -101,7 +99,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nsRect
 VisualBorderRectRelativeToSelf
 (
@@ -109,7 +106,6 @@ VisualBorderRectRelativeToSelf
 const
 override
 ;
-virtual
 void
 Reflow
 (
@@ -169,7 +165,6 @@ aExportContext
 const
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -249,10 +244,11 @@ override
 #
 ifdef
 DEBUG
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
 aListID
 nsIFrame
@@ -263,7 +259,6 @@ override
 ;
 #
 endif
-virtual
 bool
 IsFrameOfType
 (

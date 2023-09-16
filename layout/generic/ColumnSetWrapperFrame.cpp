@@ -606,6 +606,9 @@ ColumnSetWrapperFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -627,6 +630,7 @@ nsBlockFrame
 :
 RemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )

@@ -79,7 +79,6 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 nsHTMLButtonControlFrame
 )
-virtual
 void
 BuildDisplayList
 (
@@ -93,7 +92,6 @@ aLists
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -103,7 +101,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -113,7 +110,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -152,7 +148,6 @@ aExportContext
 const
 override
 ;
-virtual
 nsresult
 HandleEvent
 (
@@ -171,7 +166,6 @@ aEventStatus
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -245,15 +239,14 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 override
 ;
@@ -262,7 +255,6 @@ endif
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -280,7 +272,6 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -315,7 +306,6 @@ aRepaint
 )
 override
 ;
-virtual
 nsresult
 SetFormProperty
 (
@@ -329,7 +319,6 @@ aValue
 )
 override
 ;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -352,7 +341,6 @@ GetContentInsertionFrame
 )
 ;
 }
-virtual
 bool
 IsFrameOfType
 (

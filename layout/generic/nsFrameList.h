@@ -426,11 +426,6 @@ aPresShell
 void
 DestroyFrames
 (
-)
-;
-void
-DestroyFrames
-(
 mozilla
 :
 :
@@ -562,9 +557,13 @@ aFrame
 void
 DestroyFrame
 (
+mozilla
+:
+:
+FrameDestroyContext
+&
 nsIFrame
 *
-aFrame
 )
 ;
 void

@@ -601,6 +601,9 @@ nsSliderFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -613,6 +616,7 @@ nsContainerFrame
 :
 RemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )

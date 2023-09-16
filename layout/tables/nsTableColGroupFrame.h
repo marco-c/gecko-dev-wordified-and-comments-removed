@@ -82,7 +82,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 void
 Init
 (
@@ -193,7 +192,6 @@ parent
 )
 ;
 }
-virtual
 void
 BuildDisplayList
 (
@@ -228,7 +226,6 @@ nsTableFrame
 aTableFrame
 )
 ;
-virtual
 void
 DidSetComputedStyle
 (
@@ -284,21 +281,23 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 override
 ;
 void
 RemoveChild
 (
+DestroyContext
+&
+aContext
 nsTableColFrame
 &
 aChild
@@ -306,7 +305,6 @@ bool
 aResetSubsequentColIndices
 )
 ;
-virtual
 void
 Reflow
 (
@@ -345,7 +343,6 @@ aCols
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -365,7 +362,6 @@ aIndent
 ;
 #
 endif
-virtual
 int32_t
 GetColCount
 (
@@ -454,7 +450,6 @@ BCPixelSize
 aPixelValue
 )
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -497,7 +492,6 @@ eTablePart
 )
 ;
 }
-virtual
 void
 InvalidateFrame
 (
@@ -512,7 +506,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameWithRect
 (
@@ -531,7 +524,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameForRemoval
 (
@@ -545,7 +537,6 @@ InvalidateFrameSubtree
 }
 protected
 :
-explicit
 nsTableColGroupFrame
 (
 ComputedStyle

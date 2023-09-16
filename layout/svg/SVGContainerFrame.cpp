@@ -311,6 +311,9 @@ SVGContainerFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -338,6 +341,7 @@ mFrames
 .
 DestroyFrame
 (
+aContext
 aOldFrame
 )
 ;
@@ -860,6 +864,9 @@ SVGDisplayContainerFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -909,6 +916,7 @@ SVGContainerFrame
 :
 RemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )

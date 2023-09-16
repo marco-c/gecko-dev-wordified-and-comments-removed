@@ -454,9 +454,9 @@ nsAbsoluteContainingBlock
 :
 RemoveFrame
 (
-nsIFrame
-*
-aDelegatingFrame
+FrameDestroyContext
+&
+aContext
 FrameChildListID
 aListID
 nsIFrame
@@ -477,6 +477,8 @@ list
 "
 )
 ;
+if
+(
 nsIFrame
 *
 nif
@@ -487,10 +489,6 @@ aOldFrame
 GetNextInFlow
 (
 )
-;
-if
-(
-nif
 )
 {
 nif
@@ -503,6 +501,7 @@ GetParent
 >
 DeleteNextInFlowChild
 (
+aContext
 nif
 false
 )
@@ -512,6 +511,7 @@ mAbsoluteFrames
 .
 DestroyFrame
 (
+aContext
 aOldFrame
 )
 ;
@@ -1172,7 +1172,6 @@ kidStatus
 ;
 }
 else
-{
 if
 (
 nextFrame
@@ -1189,6 +1188,17 @@ tracker
 kidFrame
 )
 ;
+FrameDestroyContext
+context
+(
+aPresContext
+-
+>
+PresShell
+(
+)
+)
+;
 nextFrame
 -
 >
@@ -1199,11 +1209,11 @@ GetParent
 >
 DeleteNextInFlowChild
 (
+context
 nextFrame
 true
 )
 ;
-}
 }
 }
 else

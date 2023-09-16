@@ -50,7 +50,6 @@ NS_DECL_FRAMEARENA_HELPERS
 nsRubyTextContainerFrame
 )
 NS_DECL_QUERYFRAME
-virtual
 bool
 IsFrameOfType
 (
@@ -60,7 +59,6 @@ aFlags
 const
 override
 ;
-virtual
 void
 Reflow
 (
@@ -83,7 +81,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -142,15 +139,14 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 override
 ;

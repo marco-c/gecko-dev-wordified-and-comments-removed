@@ -5572,6 +5572,17 @@ GetNextInFlow
 )
 )
 {
+FrameDestroyContext
+context
+(
+aFrame
+-
+>
+PresShell
+(
+)
+)
+;
 kidNextInFlow
 -
 >
@@ -5582,6 +5593,7 @@ GetParent
 >
 DeleteNextInFlowChild
 (
+context
 kidNextInFlow
 true
 )

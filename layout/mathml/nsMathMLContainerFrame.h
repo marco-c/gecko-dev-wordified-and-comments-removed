@@ -177,7 +177,6 @@ return
 NS_OK
 ;
 }
-virtual
 bool
 IsFrameOfType
 (
@@ -249,10 +248,11 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
 aListID
 nsIFrame
@@ -261,7 +261,6 @@ aOldFrame
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -271,7 +270,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -293,7 +291,6 @@ ReflowOutput
 aDesiredSize
 )
 ;
-virtual
 void
 Reflow
 (
@@ -313,7 +310,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 DidReflow
 (
@@ -346,7 +342,6 @@ aReflowInput
 )
 ;
 }
-virtual
 void
 BuildDisplayList
 (
@@ -372,14 +367,12 @@ aOverflowAreas
 )
 override
 ;
-virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -941,6 +934,7 @@ FrameChildListID
 Principal
 )
 )
+{
 nsMathMLContainerFrame
 :
 :
@@ -949,6 +943,7 @@ ReLayoutChildren
 this
 )
 ;
+}
 }
 void
 InsertFrames
@@ -1036,6 +1031,7 @@ FrameChildListID
 Principal
 )
 )
+{
 nsMathMLContainerFrame
 :
 :
@@ -1045,10 +1041,13 @@ this
 )
 ;
 }
-virtual
+}
 void
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -1093,6 +1092,7 @@ nsBlockFrame
 :
 RemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )
@@ -1113,6 +1113,7 @@ FrameChildListID
 Principal
 )
 )
+{
 nsMathMLContainerFrame
 :
 :
@@ -1121,6 +1122,7 @@ ReLayoutChildren
 this
 )
 ;
+}
 }
 virtual
 bool
@@ -1368,6 +1370,7 @@ FrameChildListID
 Principal
 )
 )
+{
 nsMathMLContainerFrame
 :
 :
@@ -1376,6 +1379,7 @@ ReLayoutChildren
 this
 )
 ;
+}
 }
 void
 InsertFrames
@@ -1463,6 +1467,7 @@ FrameChildListID
 Principal
 )
 )
+{
 nsMathMLContainerFrame
 :
 :
@@ -1472,10 +1477,13 @@ this
 )
 ;
 }
-virtual
+}
 void
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -1520,6 +1528,7 @@ nsInlineFrame
 :
 RemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )
@@ -1540,6 +1549,7 @@ FrameChildListID
 Principal
 )
 )
+{
 nsMathMLContainerFrame
 :
 :
@@ -1549,7 +1559,7 @@ this
 )
 ;
 }
-virtual
+}
 bool
 IsFrameOfType
 (

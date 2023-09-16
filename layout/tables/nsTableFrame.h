@@ -143,7 +143,6 @@ aFrame
 )
 {
 }
-virtual
 nsRect
 GetBounds
 (
@@ -515,7 +514,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 void
 Init
 (
@@ -621,7 +619,6 @@ DestroyContext
 )
 override
 ;
-virtual
 void
 DidSetComputedStyle
 (
@@ -677,19 +674,17 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 override
 ;
-virtual
 nsMargin
 GetUsedBorder
 (
@@ -697,7 +692,6 @@ GetUsedBorder
 const
 override
 ;
-virtual
 nsMargin
 GetUsedPadding
 (
@@ -705,7 +699,6 @@ GetUsedPadding
 const
 override
 ;
-virtual
 nsMargin
 GetUsedMargin
 (
@@ -775,7 +768,6 @@ aDisplayType
 )
 const
 ;
-virtual
 const
 nsFrameList
 &
@@ -787,7 +779,6 @@ aListID
 const
 override
 ;
-virtual
 void
 GetChildLists
 (
@@ -801,7 +792,6 @@ aLists
 const
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -965,14 +955,12 @@ nsPoint
 aOffsetToReferenceFrame
 )
 ;
-virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -982,7 +970,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -1113,7 +1100,6 @@ nscoord
 aWidthInCB
 )
 ;
-virtual
 void
 Reflow
 (
@@ -1160,7 +1146,6 @@ GetColGroups
 (
 )
 ;
-virtual
 ComputedStyle
 *
 GetParentComputedStyle
@@ -1173,7 +1158,6 @@ aProviderFrame
 const
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -1207,7 +1191,6 @@ aFlags
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -2371,11 +2354,11 @@ protected
 void
 DoRemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 ;
 #
