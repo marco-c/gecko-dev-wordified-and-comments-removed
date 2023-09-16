@@ -385,6 +385,11 @@ uint8_t
 ]
 KeyHandle
 ;
+nsString
+[
+]
+Transports
+;
 WebAuthnExtensionResult
 [
 ]

@@ -460,6 +460,12 @@ mAttObj
 ;
 nsTArray
 <
+nsString
+>
+mTransports
+;
+nsTArray
+<
 uint8_t
 >
 mKeyHandle

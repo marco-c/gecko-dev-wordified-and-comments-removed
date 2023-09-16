@@ -277,6 +277,14 @@ octet
 >
 credentialId
 ;
+readonly
+attribute
+Array
+<
+AString
+>
+transports
+;
 }
 ;
 [

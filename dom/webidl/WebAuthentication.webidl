@@ -274,6 +274,14 @@ attribute
 ArrayBuffer
 attestationObject
 ;
+sequence
+<
+DOMString
+>
+getTransports
+(
+)
+;
 [
 Throws
 ]
