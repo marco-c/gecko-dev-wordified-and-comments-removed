@@ -2099,12 +2099,6 @@ tests
 -
 browsertime
 -
-tp6
--
-essential
--
-browsertime
--
 benchmark
 #
 Android
