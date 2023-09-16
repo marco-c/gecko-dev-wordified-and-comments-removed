@@ -2688,11 +2688,11 @@ aOldValueSet
 )
 ;
 nsresult
-SetSingleClassFromParser
+SetClassAttrFromParser
 (
 nsAtom
 *
-aSingleClassName
+aValue
 )
 ;
 nsresult
