@@ -3561,11 +3561,6 @@ mIdleService
 LayoutDeviceIntRegion
 mDraggableRegion
 ;
-HDC
-mPaintDC
-=
-nullptr
-;
 LayoutDeviceIntRect
 mLastPaintBounds
 ;
