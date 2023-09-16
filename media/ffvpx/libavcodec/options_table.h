@@ -3871,6 +3871,9 @@ D
 idct
 "
 }
+#
+if
+FF_API_SLICE_OFFSET
 {
 "
 slice_count
@@ -3890,6 +3893,8 @@ DEFAULT
 INT_MIN
 INT_MAX
 }
+#
+endif
 {
 "
 ec
