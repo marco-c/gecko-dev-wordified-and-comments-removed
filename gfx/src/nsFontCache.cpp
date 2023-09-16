@@ -327,6 +327,10 @@ nsFontMetrics
 fm
 =
 mFontMetrics
+.
+Elements
+(
+)
 [
 i
 ]
@@ -406,7 +410,7 @@ n
 {
 mFontMetrics
 .
-RemoveElementAt
+RemoveElementAtUnsafe
 (
 i
 )
