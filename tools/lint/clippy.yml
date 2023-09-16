@@ -124,6 +124,15 @@ base
 mozurl
 /
 -
+security
+/
+manager
+/
+ssl
+/
+data_storage
+/
+-
 servo
 /
 components
