@@ -34,6 +34,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 GCAPI
 .
 h
@@ -207,7 +216,10 @@ script
 jsbytecode
 *
 pc
-unsigned
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 *
 columnp
 =

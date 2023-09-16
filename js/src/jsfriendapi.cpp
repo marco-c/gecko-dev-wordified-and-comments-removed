@@ -98,6 +98,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 experimental
 /
 CodeCoverage
@@ -3165,7 +3174,10 @@ script
 jsbytecode
 *
 pc
-unsigned
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 *
 columnp
 )
