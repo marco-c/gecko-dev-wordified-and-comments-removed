@@ -3942,6 +3942,12 @@ CurrentState
 font
 ;
 }
+bool
+GetEffectiveWillReadFrequently
+(
+)
+const
+;
 int32_t
 mWidth
 mHeight
