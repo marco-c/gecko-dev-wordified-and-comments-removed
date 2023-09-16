@@ -14894,6 +14894,11 @@ registration
 agentClusterId
 (
 )
+registration
+.
+partitionKey
+(
+)
 blobImpl
 )
 ;
@@ -18078,6 +18083,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 )
 {
 RefPtr
@@ -18107,6 +18116,7 @@ AddDataEntry
 aURI
 aPrincipal
 aAgentClusterId
+aPartitionKey
 blobImpl
 )
 ;
