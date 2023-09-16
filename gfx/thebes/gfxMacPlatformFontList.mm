@@ -2066,14 +2066,6 @@ autorelease
 ]
 ;
 }
-const
-CGFloat
-kTextDisplayCrossover
-=
-20
-.
-0
-;
 void
 gfxMacPlatformFontList
 :
