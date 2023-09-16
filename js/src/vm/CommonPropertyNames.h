@@ -1863,7 +1863,7 @@ has
 \
 MACRO_
 (
-hashConstructor
+hash_constructor_
 "
 #
 constructor
