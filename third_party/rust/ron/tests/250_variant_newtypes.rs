@@ -27,11 +27,10 @@ Extensions
 ser
 :
 :
+{
 to_string_pretty
-ser
-:
-:
 PrettyConfig
+}
 }
 ;
 use

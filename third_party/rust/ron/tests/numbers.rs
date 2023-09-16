@@ -2,15 +2,11 @@ use
 ron
 :
 :
+{
 de
 :
 :
 from_str
-;
-use
-ron
-:
-:
 error
 :
 :
@@ -18,6 +14,7 @@ error
 Error
 Position
 SpannedError
+}
 }
 ;
 #

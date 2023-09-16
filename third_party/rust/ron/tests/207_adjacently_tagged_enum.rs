@@ -101,11 +101,7 @@ ron_string
 (
 type
 :
-\
-"
 Index
-\
-"
 data
 :
 1
