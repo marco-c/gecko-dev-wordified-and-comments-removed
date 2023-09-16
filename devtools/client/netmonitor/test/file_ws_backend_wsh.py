@@ -39,6 +39,13 @@ send_message
 (
 request
 resp
+binary
+=
+isinstance
+(
+resp
+bytes
+)
 )
     
 msgutil
