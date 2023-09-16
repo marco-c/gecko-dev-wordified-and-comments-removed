@@ -1525,11 +1525,6 @@ rtp_rtcp_
 RegisteredSsrcs
 registered_ssrcs_
 ;
-RtcpBandwidthObserver
-*
-const
-deprecated_rtcp_bandwidth_observer_
-;
 NetworkLinkRtcpObserver
 *
 const

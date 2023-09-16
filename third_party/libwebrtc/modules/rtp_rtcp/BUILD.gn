@@ -3974,13 +3974,6 @@ h
 "
 mocks
 /
-mock_rtcp_bandwidth_observer
-.
-h
-"
-"
-mocks
-/
 mock_rtcp_rtt_stats
 .
 h

@@ -290,12 +290,6 @@ rtcp_loss_notification_observer
 =
 nullptr
 ;
-RtcpBandwidthObserver
-*
-bandwidth_callback
-=
-nullptr
-;
 NetworkLinkRtcpObserver
 *
 network_link_rtcp_observer
