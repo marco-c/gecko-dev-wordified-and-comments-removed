@@ -583,7 +583,7 @@ columnNumber
 \
 MACRO1
 (
-comma
+comma_
 "
 "
 )

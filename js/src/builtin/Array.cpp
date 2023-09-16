@@ -6539,7 +6539,7 @@ names
 (
 )
 .
-comma
+comma_
 ;
 }
 if
