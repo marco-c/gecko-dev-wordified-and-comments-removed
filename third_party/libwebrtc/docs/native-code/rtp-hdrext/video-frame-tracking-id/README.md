@@ -302,7 +302,7 @@ Notes
 :
 The
 extension
-shoud
+should
 be
 present
 only

@@ -288,7 +288,7 @@ details
 and
 APIs
 that
-shoudldn
+shouldn
 '
 t
 be
