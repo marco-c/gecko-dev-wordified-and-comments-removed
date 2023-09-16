@@ -290,13 +290,6 @@ aResult
 const
 override
 ;
-ElementState
-IntrinsicState
-(
-)
-const
-override
-;
 void
 GetHref
 (

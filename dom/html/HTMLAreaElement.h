@@ -189,14 +189,6 @@ aResult
 const
 override
 ;
-virtual
-ElementState
-IntrinsicState
-(
-)
-const
-override
-;
 void
 GetAlt
 (

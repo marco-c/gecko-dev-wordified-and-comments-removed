@@ -1030,13 +1030,6 @@ bool
 aNotify
 )
 ;
-void
-UpdateLinkState
-(
-ElementState
-aState
-)
-;
 bool
 IsDisabled
 (
