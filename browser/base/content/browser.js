@@ -8176,6 +8176,13 @@ OfferTranslation
 TranslationsPanel
 )
 ;
+gBrowser
+.
+addTabsProgressListener
+(
+TranslationsPanel
+)
+;
 window
 .
 addEventListener
