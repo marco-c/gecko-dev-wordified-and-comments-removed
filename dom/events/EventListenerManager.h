@@ -1960,12 +1960,15 @@ aItemInShadowTree
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-nsresult
-HandleEventSubType
+bool
+HandleEventSingleListener
 (
 Listener
 *
 aListener
+WidgetEvent
+*
+aEvent
 dom
 :
 :
@@ -1978,6 +1981,8 @@ dom
 EventTarget
 *
 aCurrentTarget
+bool
+aItemInShadowTree
 )
 ;
 static
