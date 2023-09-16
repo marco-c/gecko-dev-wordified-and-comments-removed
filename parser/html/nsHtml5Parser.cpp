@@ -1462,7 +1462,7 @@ if
 mTreeBuilder
 -
 >
-HasScript
+HasScriptThatMayDocumentWriteOrBlock
 (
 )
 )
@@ -3053,7 +3053,7 @@ if
 mTreeBuilder
 -
 >
-HasScript
+HasScriptThatMayDocumentWriteOrBlock
 (
 )
 )
