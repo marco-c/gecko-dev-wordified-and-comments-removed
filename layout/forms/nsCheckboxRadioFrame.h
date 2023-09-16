@@ -279,14 +279,6 @@ DefaultSize
 (
 )
 ;
-void
-GetCurrentCheckState
-(
-bool
-*
-aState
-)
-;
 }
 ;
 #
