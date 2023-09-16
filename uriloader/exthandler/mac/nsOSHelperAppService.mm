@@ -141,6 +141,7 @@ h
 #
 define
 HELPERAPPLAUNCHER_BUNDLE_URL
+\
 "
 chrome
 :

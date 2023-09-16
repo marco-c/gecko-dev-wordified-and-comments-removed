@@ -352,6 +352,8 @@ CoreServices
 SystemVersion
 .
 plist
+"
+"
 to
 determine
 macOS

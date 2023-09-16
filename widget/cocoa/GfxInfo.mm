@@ -1605,8 +1605,8 @@ os
 device
 features
 blockOn
-DRIVER_COMPARISON_IGNORED
 \
+DRIVER_COMPARISON_IGNORED
 V
 (
 0
@@ -1615,6 +1615,7 @@ V
 0
 )
 ruleId
+\
 "
 "
 )

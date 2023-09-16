@@ -2157,6 +2157,8 @@ preventDefault
 called
 on
 it
+"
+"
 but
 in
 MenuOpened
@@ -4111,6 +4113,8 @@ menu
 is
 already
 considered
+"
+"
 to
 be
 open
@@ -5572,6 +5576,8 @@ menu
 delegate
 with
 NULL
+"
+"
 gecko
 menu
 !

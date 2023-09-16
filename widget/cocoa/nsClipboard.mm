@@ -268,6 +268,8 @@ getting
 data
 from
 the
+"
+"
 pasteboard
 :
 \
@@ -4206,6 +4208,8 @@ content
 -
 type
 \
+"
+"
 "
 content
 =

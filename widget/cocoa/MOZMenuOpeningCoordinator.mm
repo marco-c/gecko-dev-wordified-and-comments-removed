@@ -258,6 +258,8 @@ open
 Before
 opening
 the
+"
+"
 next
 one
 either
@@ -561,6 +563,7 @@ MAC_OS_VERSION_11_0
 )
 |
 |
+\
 MAC_OS_X_VERSION_MAX_ALLOWED
 <
 MAC_OS_VERSION_11_0

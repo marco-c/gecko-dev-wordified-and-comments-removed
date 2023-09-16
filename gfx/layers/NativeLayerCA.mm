@@ -1724,6 +1724,8 @@ NativeLayerRootSnapshotter
 for
 this
 NativeLayerRoot
+"
+"
 should
 exist
 when
@@ -3876,6 +3878,8 @@ to
 host
 video
 which
+"
+"
 will
 force
 a
@@ -4055,6 +4059,8 @@ being
 destroyed
 after
 hosting
+"
+"
 video
 .
 "
@@ -4690,6 +4696,8 @@ is
 forcing
 a
 video
+"
+"
 layer
 rebuild
 .
@@ -6410,6 +6418,8 @@ in
 sequence
 .
 Call
+"
+"
 NotifySurfaceReady
 before
 the
@@ -8468,6 +8478,8 @@ failed
 on
 allocating
 format
+"
+"
 description
 .
 "
@@ -9130,6 +9142,8 @@ Rebuilding
 video
 layer
 with
+"
+"
 AVSampleBufferDisplayLayer
 .
 "

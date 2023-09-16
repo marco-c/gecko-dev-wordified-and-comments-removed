@@ -15833,6 +15833,8 @@ key
 %
 i
 is
+"
+"
 fullscreen
 %
 i
@@ -15900,6 +15902,7 @@ IsSecureEventInputEnabled
 #
 define
 CRASH_MESSAGE
+\
 "
 A
 password
@@ -15976,6 +15979,7 @@ IsSecureEventInputEnabled
 #
 define
 CRASH_MESSAGE
+\
 "
 A
 non
@@ -21394,6 +21398,8 @@ view
 returns
 YES
 from
+"
+"
 wantsUpdateLayer
 so
 "

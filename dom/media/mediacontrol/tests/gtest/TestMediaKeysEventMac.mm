@@ -120,7 +120,7 @@ event
 NSEvent
 otherEventWithType
 :
-NSSystemDefined
+NSEventTypeSystemDefined
 location
 :
 NSZeroPoint

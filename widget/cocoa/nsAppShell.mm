@@ -324,6 +324,7 @@ WAKE_LOCK_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 gMacWakeLockLog
@@ -818,6 +819,8 @@ from
 -
 [
 GeckoNSApplication
+"
+"
 reportException
 :
 ]

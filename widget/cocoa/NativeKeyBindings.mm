@@ -284,6 +284,7 @@ selector
 aSel
 )
 )
+\
 aCommand
 )
 void
