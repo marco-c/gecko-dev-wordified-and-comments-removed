@@ -485,7 +485,11 @@ closedTabs
 ]
 .
 closedId
+{
+includePrivate
+:
 false
+}
 )
 ;
 }
