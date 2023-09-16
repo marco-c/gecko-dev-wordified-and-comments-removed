@@ -87,6 +87,11 @@ IUnknownImpl
 cpp
 "
 "
+LazyInstantiator
+.
+cpp
+"
+"
 MsaaAccessible
 .
 cpp
@@ -131,11 +136,6 @@ SOURCES
 +
 =
 [
-"
-LazyInstantiator
-.
-cpp
-"
 "
 ServiceProvider
 .
