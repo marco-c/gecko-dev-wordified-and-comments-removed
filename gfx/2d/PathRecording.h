@@ -160,6 +160,15 @@ aPathSink
 )
 const
 ;
+bool
+CheckedStreamToSink
+(
+PathSink
+&
+aPathSink
+)
+const
+;
 PathOps
 TransformedCopy
 (

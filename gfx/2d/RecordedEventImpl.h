@@ -16048,7 +16048,7 @@ if
 mPathOps
 -
 >
-StreamToSink
+CheckedStreamToSink
 (
 *
 builder
