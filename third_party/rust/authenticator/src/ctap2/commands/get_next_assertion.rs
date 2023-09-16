@@ -87,6 +87,8 @@ GetAssertionResponse
 fn
 command
 (
+&
+self
 )
 -
 >

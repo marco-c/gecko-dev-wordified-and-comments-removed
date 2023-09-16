@@ -861,7 +861,6 @@ default
 (
 )
 None
-None
 )
 ;
 silent_assert

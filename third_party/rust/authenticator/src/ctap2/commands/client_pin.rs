@@ -3247,6 +3247,8 @@ Output
 fn
 command
 (
+&
+self
 )
 -
 >

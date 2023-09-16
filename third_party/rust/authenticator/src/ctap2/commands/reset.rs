@@ -72,6 +72,8 @@ Output
 fn
 command
 (
+&
+self
 )
 -
 >
