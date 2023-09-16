@@ -5,6 +5,15 @@ EXTRA_JS_MODULES
 "
 generated
 /
+RustSuggest
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustSync15
 .
 sys
