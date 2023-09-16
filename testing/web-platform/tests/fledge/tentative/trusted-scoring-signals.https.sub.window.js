@@ -17,7 +17,7 @@ const
 auctionConfigOverrides
 =
 {
-trustedScoringSignalsUrl
+trustedScoringSignalsURL
 :
 TRUSTED_SCORING_SIGNALS_URL
 decisionLogicURL
@@ -245,7 +245,7 @@ uuid
 )
 }
 )
-trustedScoringSignalsUrl
+trustedScoringSignalsURL
 :
 TRUSTED_SCORING_SIGNALS_URL
 }
@@ -365,7 +365,7 @@ decisionLogicScriptUrl
 }
 '
 No
-trustedScoringSignalsUrl
+trustedScoringSignalsURL
 .
 '
 )
@@ -1906,7 +1906,7 @@ let
 auctionConfigOverrides
 =
 {
-trustedScoringSignalsUrl
+trustedScoringSignalsURL
 :
 TRUSTED_SCORING_SIGNALS_URL
 }

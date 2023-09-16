@@ -518,7 +518,7 @@ makeTest
 name
 :
 '
-trustedScoringSignalsUrl
+trustedScoringSignalsURL
 is
 invalid
 '
@@ -531,7 +531,7 @@ TypeError
 auctionConfigOverrides
 :
 {
-trustedScoringSignalsUrl
+trustedScoringSignalsURL
 :
 "
 https
@@ -552,7 +552,7 @@ makeTest
 name
 :
 '
-trustedScoringSignalsUrl
+trustedScoringSignalsURL
 is
 cross
 -
@@ -569,7 +569,7 @@ TypeError
 auctionConfigOverrides
 :
 {
-trustedScoringSignalsUrl
+trustedScoringSignalsURL
 :
 "
 https
