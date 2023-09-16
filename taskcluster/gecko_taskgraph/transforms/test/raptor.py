@@ -140,10 +140,17 @@ metrics
 :
 optionally_keyed_by
 (
+                
 "
 app
 "
+"
+test
+-
+platform
+"
 bool
+            
 )
             
 Optional
