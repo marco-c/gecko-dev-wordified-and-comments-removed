@@ -98,7 +98,7 @@ browser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 javascript
@@ -301,7 +301,7 @@ browser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 javascript

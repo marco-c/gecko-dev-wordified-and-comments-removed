@@ -717,7 +717,7 @@ location
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

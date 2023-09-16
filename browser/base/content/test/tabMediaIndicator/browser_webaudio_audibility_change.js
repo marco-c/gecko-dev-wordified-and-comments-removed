@@ -333,7 +333,7 @@ all
 [
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

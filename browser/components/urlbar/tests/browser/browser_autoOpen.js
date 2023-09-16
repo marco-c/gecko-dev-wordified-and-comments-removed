@@ -416,7 +416,7 @@ checkOpensOnFocus
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

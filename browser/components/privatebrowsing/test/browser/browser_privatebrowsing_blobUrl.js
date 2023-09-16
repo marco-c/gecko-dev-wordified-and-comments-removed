@@ -61,7 +61,7 @@ BASE_URI
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -212,7 +212,7 @@ BASE_URI
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 privateTab
 BASE_URI

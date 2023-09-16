@@ -140,7 +140,7 @@ then
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 xpipath

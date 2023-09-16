@@ -110,7 +110,7 @@ blank
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

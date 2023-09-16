@@ -309,7 +309,7 @@ html
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aBrowser
 kContentDoc

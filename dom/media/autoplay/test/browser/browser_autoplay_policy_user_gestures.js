@@ -480,7 +480,7 @@ blank
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .
@@ -785,7 +785,7 @@ blank
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

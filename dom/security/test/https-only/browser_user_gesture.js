@@ -105,7 +105,7 @@ true
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 kTestURI

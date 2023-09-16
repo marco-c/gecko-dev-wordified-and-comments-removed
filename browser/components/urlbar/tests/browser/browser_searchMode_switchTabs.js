@@ -1066,7 +1066,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 backgroundTab
 .

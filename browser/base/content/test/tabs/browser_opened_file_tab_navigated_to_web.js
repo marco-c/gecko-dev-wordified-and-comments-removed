@@ -177,7 +177,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 openedBrowser
 "

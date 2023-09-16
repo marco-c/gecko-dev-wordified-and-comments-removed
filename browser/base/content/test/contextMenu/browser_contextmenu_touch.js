@@ -346,7 +346,7 @@ disabled
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "

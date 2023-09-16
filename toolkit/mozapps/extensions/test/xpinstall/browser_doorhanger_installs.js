@@ -5164,7 +5164,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 path
@@ -5511,7 +5511,7 @@ requestedUrl
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 TESTROOT2
@@ -5549,7 +5549,7 @@ failed
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 TESTROOT
@@ -5752,7 +5752,7 @@ blocked
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 TESTROOT

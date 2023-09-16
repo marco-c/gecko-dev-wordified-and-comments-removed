@@ -47,7 +47,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 PAGE

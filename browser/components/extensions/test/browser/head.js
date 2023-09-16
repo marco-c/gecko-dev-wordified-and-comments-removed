@@ -4610,7 +4610,7 @@ true
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win
 .

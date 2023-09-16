@@ -1509,7 +1509,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -2184,7 +2184,7 @@ targetFront
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -2927,7 +2927,7 @@ targetFront
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

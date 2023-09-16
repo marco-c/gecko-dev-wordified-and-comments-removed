@@ -146,7 +146,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser2
 uri

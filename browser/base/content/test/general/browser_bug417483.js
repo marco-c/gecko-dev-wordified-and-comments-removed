@@ -49,7 +49,7 @@ iframe
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 htmlContent

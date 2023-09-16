@@ -315,7 +315,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 PAGE
@@ -619,7 +619,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 PAGE

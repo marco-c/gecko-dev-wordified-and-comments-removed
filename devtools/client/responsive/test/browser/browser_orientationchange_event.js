@@ -459,7 +459,7 @@ browser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 URL_ROOT_ORG_SSL

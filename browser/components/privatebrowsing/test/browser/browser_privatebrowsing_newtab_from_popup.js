@@ -188,7 +188,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 privBrowser
 WINDOW_BODY

@@ -85,7 +85,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 URL

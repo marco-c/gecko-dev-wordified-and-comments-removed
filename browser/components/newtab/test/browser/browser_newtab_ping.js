@@ -937,7 +937,7 @@ testGetValue
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .
@@ -1257,7 +1257,7 @@ ping
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

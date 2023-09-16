@@ -1822,7 +1822,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win
 .

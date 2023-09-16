@@ -650,7 +650,7 @@ testPage1
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

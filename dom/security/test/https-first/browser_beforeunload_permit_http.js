@@ -475,7 +475,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {
@@ -550,7 +550,7 @@ interaction
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "
@@ -623,7 +623,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {
@@ -760,7 +760,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {
@@ -781,7 +781,7 @@ browser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {

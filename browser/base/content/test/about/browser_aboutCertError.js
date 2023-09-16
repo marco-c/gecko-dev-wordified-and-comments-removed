@@ -518,7 +518,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 GOOD_PAGE_2
@@ -586,7 +586,7 @@ browser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 BAD_CERT

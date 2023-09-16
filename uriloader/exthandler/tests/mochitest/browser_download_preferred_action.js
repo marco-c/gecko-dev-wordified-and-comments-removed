@@ -802,7 +802,7 @@ downloadList
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -1399,7 +1399,7 @@ always_ask_before_handling_new_types
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

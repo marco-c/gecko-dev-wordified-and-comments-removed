@@ -558,9 +558,10 @@ aText
 }
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aBrowser
 aURI

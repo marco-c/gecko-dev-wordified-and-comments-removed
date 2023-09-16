@@ -3119,7 +3119,7 @@ message
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -3148,7 +3148,7 @@ async
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

@@ -153,7 +153,7 @@ redirected
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {

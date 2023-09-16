@@ -2014,7 +2014,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 selectedBrowser
 url

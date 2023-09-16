@@ -389,7 +389,7 @@ UNFILTERED_URI_COUNT
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 firstTab
 .
@@ -490,7 +490,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWin
 .
@@ -652,7 +652,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWin
 .
@@ -693,7 +693,7 @@ totalUnfilteredURIs
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWin
 .
@@ -743,7 +743,7 @@ totalUnfilteredURIs
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWin
 .
@@ -938,7 +938,7 @@ a
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWin
 .

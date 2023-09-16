@@ -92,7 +92,7 @@ URL
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 backgroundTab
 .

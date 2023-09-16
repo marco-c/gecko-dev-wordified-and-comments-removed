@@ -1010,7 +1010,7 @@ reset
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 referrerURL
@@ -1275,7 +1275,7 @@ reset
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 referrerURL

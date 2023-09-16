@@ -15,7 +15,7 @@ function
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 "

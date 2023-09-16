@@ -55,7 +55,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win2
 .
@@ -376,7 +376,7 @@ tab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win2
 .

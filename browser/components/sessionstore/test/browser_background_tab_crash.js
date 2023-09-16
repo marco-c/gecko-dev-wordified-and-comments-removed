@@ -50,7 +50,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 initialBrowser
 NON_REMOTE_PAGE

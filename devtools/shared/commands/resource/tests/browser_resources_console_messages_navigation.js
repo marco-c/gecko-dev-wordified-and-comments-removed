@@ -242,9 +242,10 @@ browserLoaded
 browser
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_URL

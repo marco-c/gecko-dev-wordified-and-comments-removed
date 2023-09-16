@@ -483,7 +483,7 @@ function
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 url

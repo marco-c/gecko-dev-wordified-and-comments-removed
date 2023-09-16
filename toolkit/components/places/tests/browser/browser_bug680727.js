@@ -123,7 +123,7 @@ errorListener
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 ourTab
 .

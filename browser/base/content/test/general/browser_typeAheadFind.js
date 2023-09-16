@@ -27,7 +27,7 @@ focus
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 testWindow
 .

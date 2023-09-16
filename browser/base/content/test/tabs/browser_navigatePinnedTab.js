@@ -181,7 +181,7 @@ com
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 appTab
 .

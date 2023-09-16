@@ -1319,9 +1319,10 @@ tab
 linkedBrowser
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

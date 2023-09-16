@@ -971,7 +971,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .
@@ -1664,7 +1664,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

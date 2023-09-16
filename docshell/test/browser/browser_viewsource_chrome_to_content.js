@@ -86,7 +86,7 @@ mozilla
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_URI

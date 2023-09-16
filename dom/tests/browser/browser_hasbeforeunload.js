@@ -1173,7 +1173,7 @@ false
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 PAGE_URL
@@ -1900,7 +1900,7 @@ false
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 PAGE_URL

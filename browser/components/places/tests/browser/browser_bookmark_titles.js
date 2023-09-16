@@ -239,7 +239,7 @@ isError
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url
@@ -361,7 +361,7 @@ true
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url

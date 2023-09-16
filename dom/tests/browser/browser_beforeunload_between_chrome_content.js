@@ -297,7 +297,7 @@ false
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "
@@ -605,7 +605,7 @@ false
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_URL

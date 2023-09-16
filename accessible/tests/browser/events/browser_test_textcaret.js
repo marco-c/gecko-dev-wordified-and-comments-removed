@@ -77,7 +77,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWin
 .

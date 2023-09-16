@@ -441,7 +441,7 @@ PUBLIC
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 insecureTestURI

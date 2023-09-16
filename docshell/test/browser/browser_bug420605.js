@@ -492,7 +492,7 @@ onPageLoad
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

@@ -1877,7 +1877,7 @@ r
 )
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

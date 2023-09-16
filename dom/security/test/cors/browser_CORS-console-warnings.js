@@ -253,7 +253,7 @@ blank
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 test_uri
@@ -325,7 +325,7 @@ html
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 test_two_uri

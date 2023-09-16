@@ -132,7 +132,7 @@ then
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 TESTROOT

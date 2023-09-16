@@ -766,7 +766,7 @@ false
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 SERVER_URL

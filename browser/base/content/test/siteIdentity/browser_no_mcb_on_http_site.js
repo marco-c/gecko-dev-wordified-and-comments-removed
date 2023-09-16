@@ -250,7 +250,7 @@ html
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -384,7 +384,7 @@ html
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url

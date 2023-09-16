@@ -332,7 +332,7 @@ serpUrl
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 otherWindow
 .
@@ -427,7 +427,7 @@ com
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 "
@@ -549,7 +549,7 @@ serpUrl
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 serpUrl
@@ -995,7 +995,7 @@ com
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 "

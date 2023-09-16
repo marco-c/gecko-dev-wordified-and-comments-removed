@@ -63,7 +63,7 @@ LOAD_FLAGS_REPLACE_HISTORY
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win
 .

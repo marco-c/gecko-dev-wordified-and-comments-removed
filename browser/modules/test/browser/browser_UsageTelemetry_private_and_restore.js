@@ -237,7 +237,7 @@ privateWin
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 privateWin
 .

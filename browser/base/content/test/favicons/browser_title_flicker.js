@@ -186,7 +186,7 @@ browser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_PATH
@@ -773,7 +773,7 @@ getBoundingClientRect
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_PATH

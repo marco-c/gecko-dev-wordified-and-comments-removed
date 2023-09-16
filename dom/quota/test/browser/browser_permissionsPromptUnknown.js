@@ -189,7 +189,7 @@ testPageURL
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win
 .

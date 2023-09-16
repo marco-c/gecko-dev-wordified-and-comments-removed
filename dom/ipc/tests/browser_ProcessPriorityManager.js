@@ -1914,7 +1914,7 @@ browsingContext
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 coopPage
@@ -2893,7 +2893,7 @@ page2
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 page2

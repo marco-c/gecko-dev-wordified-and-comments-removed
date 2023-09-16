@@ -277,7 +277,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 HTTPS_TLS1_0
@@ -328,7 +328,7 @@ secure
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 HTTPS_TLS1_1
@@ -379,7 +379,7 @@ secure
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 HTTPS_TLS1_2
@@ -427,7 +427,7 @@ secure
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 HTTPS_TLS1_1
@@ -478,7 +478,7 @@ secure
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 HTTPS_TLS1_3

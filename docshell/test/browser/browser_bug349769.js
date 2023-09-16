@@ -149,7 +149,7 @@ newBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newBrowser
 uri

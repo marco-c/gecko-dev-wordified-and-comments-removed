@@ -757,7 +757,7 @@ isData
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser1
 uri2
@@ -987,7 +987,7 @@ uri
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser1
 uri3

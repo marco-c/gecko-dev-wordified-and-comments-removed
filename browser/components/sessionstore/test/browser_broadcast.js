@@ -746,7 +746,7 @@ urls
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url

@@ -341,7 +341,7 @@ actionURI
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

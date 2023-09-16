@@ -162,7 +162,7 @@ loadURL
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

@@ -67,7 +67,7 @@ tabBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tabBrowser
 URI

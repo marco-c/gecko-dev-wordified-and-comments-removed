@@ -124,7 +124,7 @@ com
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 custTab
 .

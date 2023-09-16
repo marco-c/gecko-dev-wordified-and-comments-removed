@@ -465,7 +465,7 @@ event
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aTab
 .
@@ -1329,7 +1329,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

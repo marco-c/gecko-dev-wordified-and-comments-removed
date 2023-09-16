@@ -590,7 +590,7 @@ toString
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 uri
@@ -5324,7 +5324,7 @@ toString
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 uri

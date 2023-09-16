@@ -1245,7 +1245,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TRIPLEDES_PAGE
@@ -1304,7 +1304,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TRIPLEDES_PAGE
@@ -1363,7 +1363,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TRIPLEDES_PAGE

@@ -455,7 +455,7 @@ tab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 url

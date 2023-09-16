@@ -2014,7 +2014,7 @@ html
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win
 .

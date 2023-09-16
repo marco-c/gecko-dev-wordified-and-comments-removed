@@ -918,7 +918,7 @@ kBasePage
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBackgroundBrowser
 kBasePage
@@ -926,7 +926,7 @@ kBasePage
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gForegroundBrowser
 kBasePage
@@ -978,7 +978,7 @@ browser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url

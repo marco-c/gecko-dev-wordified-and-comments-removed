@@ -1745,7 +1745,7 @@ nothing
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aBrowser
 "

@@ -103,7 +103,7 @@ i
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 testPage

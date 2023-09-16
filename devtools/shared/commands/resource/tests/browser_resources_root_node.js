@@ -614,7 +614,7 @@ r
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 data

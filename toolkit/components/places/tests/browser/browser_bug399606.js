@@ -292,7 +292,7 @@ onVisitsListener
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 uri

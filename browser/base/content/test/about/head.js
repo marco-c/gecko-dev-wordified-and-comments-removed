@@ -697,7 +697,7 @@ url
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

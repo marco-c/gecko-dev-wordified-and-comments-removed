@@ -149,7 +149,7 @@ Referer
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {
@@ -296,7 +296,7 @@ Referer
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {

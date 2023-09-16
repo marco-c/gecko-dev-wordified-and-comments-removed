@@ -467,7 +467,7 @@ inactive
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 ctx
 .
@@ -1058,7 +1058,7 @@ tab1
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 ctx
 .

@@ -608,7 +608,7 @@ maybeErrorPage
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url

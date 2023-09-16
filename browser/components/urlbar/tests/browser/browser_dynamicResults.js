@@ -2299,7 +2299,7 @@ selected
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

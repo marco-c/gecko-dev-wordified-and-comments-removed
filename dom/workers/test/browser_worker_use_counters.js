@@ -262,7 +262,7 @@ worker_type
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

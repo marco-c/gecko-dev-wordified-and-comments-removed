@@ -143,7 +143,7 @@ click
 }
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 URL0

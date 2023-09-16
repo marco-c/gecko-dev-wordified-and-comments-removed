@@ -70,7 +70,7 @@ png
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 ROOT

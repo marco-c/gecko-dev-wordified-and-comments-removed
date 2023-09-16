@@ -192,7 +192,7 @@ knownTab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

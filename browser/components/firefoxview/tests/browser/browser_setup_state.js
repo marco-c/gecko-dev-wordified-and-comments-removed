@@ -3124,7 +3124,7 @@ tabs
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win
 .

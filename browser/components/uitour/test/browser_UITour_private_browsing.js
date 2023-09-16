@@ -72,7 +72,7 @@ HTTPS_ORIGIN_WITH_UITOUR_DEFAULT
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 uri

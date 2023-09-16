@@ -85,7 +85,7 @@ load
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 JSON

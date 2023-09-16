@@ -99,7 +99,7 @@ url
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .
@@ -2075,7 +2075,7 @@ popuphidden
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "
