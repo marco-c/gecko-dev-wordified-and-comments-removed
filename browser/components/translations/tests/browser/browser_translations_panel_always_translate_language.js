@@ -201,7 +201,7 @@ false
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;
@@ -612,7 +612,7 @@ true
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;
@@ -1142,7 +1142,7 @@ false
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;
@@ -1302,7 +1302,7 @@ true
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;
@@ -1632,7 +1632,7 @@ false
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;
@@ -2183,7 +2183,7 @@ true
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;
