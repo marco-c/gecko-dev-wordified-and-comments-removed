@@ -812,11 +812,6 @@ nsTableFrame
 MaybeUnregisterPositionedTablePart
 (
 this
-aContext
-.
-DestructRoot
-(
-)
 )
 ;
 nsContainerFrame
