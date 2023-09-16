@@ -9,6 +9,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 ProfilingFrameIterator
 .
 h
@@ -264,7 +273,10 @@ const
 unsigned
 computeLine
 (
-uint32_t
+JS
+:
+:
+TaggedColumnNumberZeroOrigin
 *
 column
 )

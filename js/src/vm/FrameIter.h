@@ -66,6 +66,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
@@ -1095,7 +1104,10 @@ const
 unsigned
 computeLine
 (
-uint32_t
+JS
+:
+:
+TaggedColumnNumberZeroOrigin
 *
 column
 =

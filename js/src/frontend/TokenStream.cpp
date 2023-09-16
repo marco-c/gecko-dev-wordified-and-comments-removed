@@ -7485,7 +7485,10 @@ filename
 )
 )
 ;
-uint32_t
+JS
+:
+:
+TaggedColumnNumberZeroOrigin
 columnNumber
 ;
 err
@@ -7512,6 +7515,10 @@ JS
 ColumnNumberZeroOrigin
 (
 columnNumber
+.
+toLimitedColumnNumber
+(
+)
 )
 ;
 return
