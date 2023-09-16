@@ -10,6 +10,13 @@ h
 #
 include
 "
+ErrorList
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1549,7 +1556,7 @@ eCaseMatters
 )
 {
 return
-NS_OK
+NS_SUCCESS_DOM_NO_OPERATION
 ;
 }
 aEvent
