@@ -47,6 +47,7 @@ NATIVE_EVENT_STARVATION_LIMIT
 1
 class
 nsAppShell
+final
 :
 public
 nsBaseAppShell
@@ -175,6 +176,11 @@ LPARAM
 ;
 protected
 :
+nsresult
+InitHiddenWindow
+(
+)
+;
 HWND
 mEventWnd
 ;
