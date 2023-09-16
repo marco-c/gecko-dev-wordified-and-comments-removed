@@ -119,13 +119,6 @@ len
 =
 0
 ;
-virtual
-void
-flush
-(
-)
-{
-}
 inline
 bool
 put
@@ -282,6 +275,13 @@ MOZ_FORMAT_PRINTF
 0
 )
 ;
+virtual
+void
+flush
+(
+)
+{
+}
 virtual
 void
 reportOutOfMemory
