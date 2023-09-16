@@ -763,6 +763,8 @@ unmaskHints
 ;
 dictionary
 GPUDeviceDescriptor
+:
+GPUObjectDescriptorBase
 {
 sequence
 <
