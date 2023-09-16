@@ -2276,7 +2276,11 @@ main
 class
 =
 "
-syncedtabs
+with
+-
+context
+-
+menu
 "
 hasPopup
 =
