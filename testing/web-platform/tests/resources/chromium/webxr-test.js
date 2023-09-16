@@ -6013,14 +6013,14 @@ DEPTH
 {
 depthUsage
 :
-vrMojom
+xrSessionMojom
 .
 XRDepthUsage
 .
 kCPUOptimized
 depthDataFormat
 :
-vrMojom
+xrSessionMojom
 .
 XRDepthDataFormat
 .
@@ -6130,7 +6130,7 @@ usagePreferences
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRDepthUsage
 .
@@ -6148,7 +6148,7 @@ dataFormatPreferences
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRDepthDataFormat
 .
