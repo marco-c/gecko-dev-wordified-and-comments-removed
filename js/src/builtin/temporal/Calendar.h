@@ -6,6 +6,15 @@ define
 builtin_temporal_Calendar_h
 #
 include
+"
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
 <
 initializer_list
 >
@@ -182,6 +191,9 @@ explicit
 CalendarValue
 (
 const
+JS
+:
+:
 Value
 &
 value
