@@ -4530,6 +4530,7 @@ CompleteLookupByType
 mRec
 NS_OK
 mResult
+mTRRSkippedReason
 mTTL
 mPB
 )
@@ -4600,6 +4601,7 @@ CompleteLookupByType
 mRec
 error
 empty
+mTRRSkippedReason
 0
 mPB
 )
