@@ -2223,10 +2223,6 @@ subdocAPD
 bool
 needsOwnLayer
 =
-false
-;
-if
-(
 constructZoomItem
 |
 |
@@ -2249,13 +2245,7 @@ IsScrollingActive
 (
 )
 )
-)
-{
-needsOwnLayer
-=
-true
 ;
-}
 nsDisplayList
 childItems
 (
@@ -2348,7 +2338,6 @@ aBuilder
 childItems
 )
 ;
-}
 if
 (
 !
@@ -2375,11 +2364,6 @@ ToReferenceFrame
 this
 )
 ;
-if
-(
-subdocRootFrame
-)
-{
 bounds
 =
 bounds
@@ -2390,7 +2374,6 @@ parentAPD
 subdocAPD
 )
 ;
-}
 presShell
 -
 >
@@ -2408,12 +2391,9 @@ NS_RGBA
 0
 0
 )
-AddCanvasBackgroundColorFlags
-:
-:
-ForceDraw
 )
 ;
+}
 }
 }
 if
