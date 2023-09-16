@@ -164,9 +164,6 @@ class
 RtcEventLog
 ;
 class
-RtcpBandwidthObserver
-;
-class
 RtcpRttStats
 ;
 class

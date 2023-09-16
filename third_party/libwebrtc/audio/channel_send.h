@@ -324,9 +324,6 @@ RegisterSenderCongestionControlObjects
 RtpTransportControllerSendInterface
 *
 transport
-RtcpBandwidthObserver
-*
-bandwidth_observer
 )
 =
 0
@@ -564,9 +561,9 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
-TransportFeedbackObserver
+RtpTransportControllerSendInterface
 *
-feedback_observer
+transport_controller
 const
 FieldTrialsView
 &

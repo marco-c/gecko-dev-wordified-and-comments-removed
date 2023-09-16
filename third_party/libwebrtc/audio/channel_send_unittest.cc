@@ -306,7 +306,8 @@ false
 kRtcpIntervalMs
 kSsrc
 nullptr
-nullptr
+&
+transport_controller_
 field_trials_
 )
 ;
@@ -371,7 +372,6 @@ RegisterSenderCongestionControlObjects
 (
 &
 transport_controller_
-nullptr
 )
 ;
 ON_CALL
