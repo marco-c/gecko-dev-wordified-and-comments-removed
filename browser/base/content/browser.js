@@ -4934,6 +4934,15 @@ aEvent
 currentTarget
 .
 disabled
+&
+&
+aEvent
+.
+currentTarget
+.
+menupopup
+.
+hidden
 )
 {
 let
