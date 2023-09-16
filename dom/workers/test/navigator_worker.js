@@ -11,6 +11,16 @@ appName
 "
 appVersion
 "
+{
+name
+:
+"
+globalPrivacyControl
+"
+isNightly
+:
+true
+}
 "
 platform
 "
