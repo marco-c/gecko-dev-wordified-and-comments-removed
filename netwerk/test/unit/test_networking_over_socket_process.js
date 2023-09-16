@@ -380,6 +380,8 @@ com
 trrServer
 .
 port
+(
+)
 }
 /
 dns

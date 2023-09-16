@@ -289,6 +289,8 @@ port
 trrServer
 .
 port
+(
+)
 }
 \
 n
@@ -309,6 +311,8 @@ localhost
 trrServer
 .
 port
+(
+)
 }
 /
 test
@@ -343,10 +347,6 @@ found
 :
 /
 test
-?
-bla
-=
-some
 <
 /
 h1
@@ -522,6 +522,8 @@ com
 trrServer
 .
 port
+(
+)
 }
 /
 dns

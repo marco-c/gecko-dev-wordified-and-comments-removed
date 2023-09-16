@@ -508,6 +508,8 @@ com
 trrServer
 .
 port
+(
+)
 }
 /
 dns
