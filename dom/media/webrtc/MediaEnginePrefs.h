@@ -105,10 +105,6 @@ mTransientOn
 (
 false
 )
-mResidualEchoOn
-(
-false
-)
 mAgc2Forced
 (
 false
@@ -156,9 +152,6 @@ mNoiseOn
 ;
 bool
 mTransientOn
-;
-bool
-mResidualEchoOn
 ;
 bool
 mAgc2Forced
