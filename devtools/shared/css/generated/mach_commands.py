@@ -284,20 +284,6 @@ cssProperties
 "
 ]
 )
-            
-"
-pseudoElements
-"
-:
-stringify
-(
-db
-[
-"
-pseudoElements
-"
-]
-)
         
 }
     

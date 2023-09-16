@@ -304,14 +304,6 @@ properties
 ;
 this
 .
-pseudoElements
-=
-db
-.
-pseudoElements
-;
-this
-.
 isKnown
 =
 this
