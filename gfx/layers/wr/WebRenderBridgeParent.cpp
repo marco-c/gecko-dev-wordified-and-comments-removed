@@ -994,8 +994,8 @@ annotation
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 using
@@ -1061,7 +1061,13 @@ aIsActive
 :
 mBridge
 (
+std
+:
+:
+move
+(
 aBridge
+)
 )
 mLayersId
 (
@@ -10661,6 +10667,13 @@ GetNextWrEpoch
 mPipelineId
 )
 ;
+if
+(
+ShouldParentObserveEpoch
+(
+)
+)
+{
 txn
 .
 Notify
@@ -10686,6 +10699,7 @@ false
 )
 )
 ;
+}
 mApi
 -
 >
@@ -15525,6 +15539,5 @@ MOZ_ASSERT
 mWebRenderBridge
 )
 ;
-}
 }
 }
