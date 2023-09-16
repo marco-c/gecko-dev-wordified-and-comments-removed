@@ -34,7 +34,7 @@ value
 .
 json
 {
-assert
+with
 :
 {
 type
@@ -86,7 +86,7 @@ array
 json
 "
 {
-assert
+with
 :
 {
 type

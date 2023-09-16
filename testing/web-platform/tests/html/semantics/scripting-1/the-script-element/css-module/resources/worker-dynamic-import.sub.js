@@ -25,7 +25,7 @@ action
 incCount
 "
 {
-assert
+with
 :
 {
 type
