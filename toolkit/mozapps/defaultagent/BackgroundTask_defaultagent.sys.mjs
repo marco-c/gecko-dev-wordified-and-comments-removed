@@ -161,7 +161,7 @@ seconds
 .
 export
 const
-backgroundTaskMinRuntimeMS
+backgroundTaskTimeoutSec
 =
 12
 *
