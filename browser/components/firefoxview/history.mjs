@@ -569,6 +569,7 @@ close
 this
 .
 migrationWizardDialog
+?
 .
 removeEventListener
 (
