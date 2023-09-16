@@ -498,6 +498,15 @@ support
 baseURL
 "
 ]
+RPMGetIntPref
+:
+[
+"
+security
+.
+dialog_enable_delay
+"
+]
 RPMSendAsyncMessage
 :
 [
