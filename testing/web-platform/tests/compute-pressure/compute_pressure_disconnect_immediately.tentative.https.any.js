@@ -77,7 +77,7 @@ promise_rejects_dom
 (
 t
 '
-NotSupportedError
+AbortError
 '
 promise
 )
@@ -375,7 +375,7 @@ promise_rejects_dom
 (
 t
 '
-NotSupportedError
+AbortError
 '
 promise
 )
