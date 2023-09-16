@@ -1,8 +1,6 @@
 #
 include
 "
-.
-/
 dictionary
 .
 h
@@ -10,8 +8,6 @@ h
 #
 include
 "
-.
-/
 platform
 .
 h
@@ -122948,6 +122944,7 @@ BrotliDictionary
 *
 BrotliGetDictionary
 (
+void
 )
 {
 return

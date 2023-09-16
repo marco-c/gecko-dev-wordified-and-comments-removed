@@ -1,8 +1,6 @@
 #
 include
 "
-.
-/
 constants
 .
 h

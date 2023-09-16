@@ -1,8 +1,6 @@
 #
 include
 "
-.
-/
 transform
 .
 h
