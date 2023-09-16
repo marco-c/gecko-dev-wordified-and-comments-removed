@@ -2117,6 +2117,15 @@ Value
 v
 )
 ;
+MDefinition
+*
+unboxObjectInfallible
+(
+MDefinition
+*
+def
+)
+;
 MCall
 *
 makeCall
