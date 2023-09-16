@@ -22,6 +22,7 @@ parser
 ;
 import
 {
+generateWhitespace
 getCandidateScriptLocations
 parseScripts
 as
@@ -196,6 +197,7 @@ parseScriptTags
 export
 {
 extractScriptTags
+generateWhitespace
 getCandidateScriptLocations
 parseScript
 parseScripts
