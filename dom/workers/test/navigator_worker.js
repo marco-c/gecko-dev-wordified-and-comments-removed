@@ -152,7 +152,7 @@ if
 (
 prop
 .
-nightly
+isNightly
 =
 =
 =
