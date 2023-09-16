@@ -18557,8 +18557,11 @@ createArrayWithFixedElements
 result
 shape
 scratch
+InvalidReg
 arrayLength
 arrayCapacity
+0
+0
 allocKind
 gc
 :

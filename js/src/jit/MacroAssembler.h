@@ -22734,10 +22734,16 @@ Register
 shape
 Register
 temp
+Register
+dynamicSlotsTemp
 uint32_t
 arrayLength
 uint32_t
 arrayCapacity
+uint32_t
+numUsedDynamicSlots
+uint32_t
+numDynamicSlots
 gc
 :
 :

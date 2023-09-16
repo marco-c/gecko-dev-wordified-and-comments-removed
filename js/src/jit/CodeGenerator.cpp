@@ -45497,8 +45497,11 @@ createArrayWithFixedElements
 objReg
 shapeReg
 temp0Reg
+InvalidReg
 arrayLength
 arrayCapacity
+0
+0
 allocKind
 mir
 -
@@ -83932,8 +83935,11 @@ createArrayWithFixedElements
 temp2
 temp0
 temp1
+InvalidReg
 arrayLength
 arrayCapacity
+0
+0
 allocKind
 gc
 :
