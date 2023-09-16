@@ -18,6 +18,11 @@ browser_audio_fallback_content
 ini
 "
 "
+browser_audio_locked
+.
+ini
+"
+"
 browser_audio_shutdown
 .
 ini
