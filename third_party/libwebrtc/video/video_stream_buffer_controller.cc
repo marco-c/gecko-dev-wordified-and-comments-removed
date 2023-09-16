@@ -1926,7 +1926,7 @@ OnFrameBufferTimingsUpdated
 (
 timings
 .
-max_decode_duration
+estimated_max_decode_time
 .
 ms
 (
@@ -1947,7 +1947,7 @@ ms
 )
 timings
 .
-jitter_buffer_delay
+jitter_delay
 .
 ms
 (

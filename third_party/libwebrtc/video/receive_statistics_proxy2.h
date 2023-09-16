@@ -411,7 +411,7 @@ void
 OnFrameBufferTimingsUpdated
 (
 int
-max_decode_ms
+estimated_max_decode_time_ms
 int
 current_delay_ms
 int
