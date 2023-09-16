@@ -2762,7 +2762,9 @@ urlbarView
 -
 title
 [
-isurl
+is
+-
+url
 ]
 )
 :
@@ -2797,7 +2799,9 @@ urlbarView
 -
 title
 [
-isurl
+is
+-
+url
 ]
 :
 -
