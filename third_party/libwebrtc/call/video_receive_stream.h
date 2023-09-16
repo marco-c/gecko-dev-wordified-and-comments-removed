@@ -641,6 +641,15 @@ rtp_stats
 RtcpPacketTypeCounter
 rtcp_packet_type_counts
 ;
+absl
+:
+:
+optional
+<
+RtpReceiveStats
+>
+rtx_rtp_stats
+;
 uint32_t
 rtcp_sender_packets_sent
 =
