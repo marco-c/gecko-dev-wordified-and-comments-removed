@@ -6597,18 +6597,7 @@ crashed
             
 msg
 =
-(
-                
 "
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-%
-s
-|
 application
 terminated
 with
@@ -6617,24 +6606,24 @@ code
 %
 s
 "
-                
 %
 (
-self
-.
-lastTestSeen
 status
-)
-            
 )
             
 self
 .
 log
 .
-process_output
+shutdown_failure
 (
-None
+group
+=
+self
+.
+lastTestSeen
+message
+=
 msg
 )
         
