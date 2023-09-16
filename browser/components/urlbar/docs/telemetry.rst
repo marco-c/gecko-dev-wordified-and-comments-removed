@@ -3231,6 +3231,16 @@ adaptive
 history
 .
 -
+clipboard
+A
+URL
+retrieved
+from
+the
+system
+clipboard
+.
+-
 dynamic
 A
 specially
