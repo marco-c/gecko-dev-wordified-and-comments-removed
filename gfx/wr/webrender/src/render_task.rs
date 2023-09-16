@@ -4225,6 +4225,14 @@ pub
 clip_node_range
 :
 ClipNodeRange
+pub
+prim_spatial_node_index
+:
+SpatialNodeIndex
+pub
+main_prim_address
+:
+GpuBufferAddress
 }
 #
 [
