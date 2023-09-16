@@ -242,6 +242,13 @@ JS
 FrontendContext
 *
 fc
+const
+JS
+:
+:
+ReadOnlyCompileOptions
+&
+options
 )
 {
 if
@@ -416,6 +423,13 @@ FrontendContext
 fc
 size_t
 index
+const
+JS
+:
+:
+ReadOnlyCompileOptions
+&
+options
 )
 {
 return

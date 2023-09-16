@@ -177,6 +177,13 @@ JS
 FrontendContext
 *
 fc
+const
+JS
+:
+:
+ReadOnlyCompileOptions
+&
+options
 )
 ;
 JS_PUBLIC_API
@@ -253,6 +260,13 @@ FrontendContext
 fc
 size_t
 index
+const
+JS
+:
+:
+ReadOnlyCompileOptions
+&
+options
 )
 ;
 JS_PUBLIC_API

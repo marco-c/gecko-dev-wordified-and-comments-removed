@@ -9446,6 +9446,13 @@ JS
 FrontendContext
 *
 aFc
+const
+JS
+:
+:
+ReadOnlyCompileOptions
+&
+aOptions
 )
 {
 if
@@ -9470,6 +9477,7 @@ JS
 GetFrontendErrorReport
 (
 aFc
+aOptions
 )
 ;
 if
@@ -9702,6 +9710,7 @@ GetFrontendWarningAt
 (
 aFc
 i
+aOptions
 )
 ;
 const
@@ -10053,6 +10062,7 @@ DEBUG
 CheckErrorsAndWarnings
 (
 mFrontendContext
+mOptions
 )
 ;
 MOZ_ASSERT
