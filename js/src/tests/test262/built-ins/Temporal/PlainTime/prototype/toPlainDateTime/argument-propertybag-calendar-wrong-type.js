@@ -28,7 +28,7 @@ PlainTime
 )
 ;
 const
-rangeErrorTests
+primitiveTests
 =
 [
 [
@@ -83,7 +83,7 @@ calendar
 description
 ]
 of
-rangeErrorTests
+primitiveTests
 )
 {
 const
@@ -108,7 +108,18 @@ assert
 .
 throws
 (
+typeof
+calendar
+=
+=
+=
+'
+string
+'
+?
 RangeError
+:
+TypeError
 (
 )
 =

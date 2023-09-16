@@ -33,7 +33,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
@@ -53,7 +53,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
@@ -73,7 +73,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
@@ -137,7 +137,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
@@ -157,7 +157,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =

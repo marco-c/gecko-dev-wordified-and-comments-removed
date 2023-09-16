@@ -3,12 +3,6 @@ expected
 =
 [
 "
-second
-"
-"
-fractionalSecondDigits
-"
-"
 localeMatcher
 "
 "

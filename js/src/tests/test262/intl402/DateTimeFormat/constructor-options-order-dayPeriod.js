@@ -11,15 +11,6 @@ dayPeriod
 "
 hour
 "
-"
-day
-"
-"
-dayPeriod
-"
-"
-hour
-"
 ]
 ;
 const
