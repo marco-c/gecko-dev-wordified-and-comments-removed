@@ -499,7 +499,7 @@ bin
 "
 stylelint
 .
-js
+mjs
 "
             
 )
