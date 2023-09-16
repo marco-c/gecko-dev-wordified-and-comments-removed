@@ -158,10 +158,6 @@ PIdleScheduler
 ;
 include
 protocol
-PMediaTransport
-;
-include
-protocol
 PRemoteWorker
 ;
 include
