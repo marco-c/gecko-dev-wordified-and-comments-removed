@@ -1550,7 +1550,10 @@ warning
 -
 safe
 -
-mode
+mode2
+=
+.
+message
 =
 All
 add
@@ -1569,7 +1572,10 @@ warning
 -
 check
 -
-compatibility
+compatibility2
+=
+.
+message
 =
 Add
 -
@@ -1613,7 +1619,10 @@ warning
 -
 update
 -
-security
+security2
+=
+.
+message
 =
 Add
 -
@@ -1658,7 +1667,10 @@ warning
 -
 imported
 -
-addons
+addons2
+=
+.
+message
 =
 Please
 finalize
