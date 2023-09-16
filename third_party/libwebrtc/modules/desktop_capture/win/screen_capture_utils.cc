@@ -783,14 +783,6 @@ wstring
 device_key
 )
 {
-RTC_DCHECK
-(
-IsGUIThread
-(
-false
-)
-)
-;
 if
 (
 screen
