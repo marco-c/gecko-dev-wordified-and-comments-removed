@@ -1079,12 +1079,6 @@ getNewQuery
 (
 )
 ;
-query
-.
-onlyBookmarked
-=
-true
-;
 let
 result
 =
