@@ -3007,9 +3007,11 @@ browsingContext
 if
 (
 !
-CanonicalBrowsingContext
+lazy
 .
-isInstance
+TabManager
+.
+isValidCanonicalBrowsingContext
 (
 browsingContext
 )

@@ -688,9 +688,11 @@ context
 if
 (
 !
-CanonicalBrowsingContext
+lazy
 .
-isInstance
+TabManager
+.
+isValidCanonicalBrowsingContext
 (
 context
 )
