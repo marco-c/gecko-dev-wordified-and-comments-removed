@@ -878,7 +878,7 @@ DefineDataProperty
 \
 MACRO_
 (
-defineGetter
+defineGetter_
 "
 __defineGetter__
 "
@@ -894,7 +894,7 @@ defineProperty
 \
 MACRO_
 (
-defineSetter
+defineSetter_
 "
 __defineSetter__
 "
@@ -2571,7 +2571,7 @@ locale
 \
 MACRO_
 (
-lookupGetter
+lookupGetter_
 "
 __lookupGetter__
 "
@@ -2579,7 +2579,7 @@ __lookupGetter__
 \
 MACRO_
 (
-lookupSetter
+lookupSetter_
 "
 __lookupSetter__
 "
