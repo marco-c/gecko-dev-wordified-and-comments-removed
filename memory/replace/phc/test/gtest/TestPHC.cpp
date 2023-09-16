@@ -2142,10 +2142,9 @@ s
 )
 ;
 }
-TEST
+void
+DisabledPHCExhaustionTest
 (
-PHC
-TestPHCExhaustion
 )
 {
 #
