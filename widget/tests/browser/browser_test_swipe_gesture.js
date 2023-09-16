@@ -216,10 +216,6 @@ widget
 .
 swipe
 .
-whole
--
-page
--
 pixel
 -
 size
@@ -844,10 +840,6 @@ widget
 .
 swipe
 .
-whole
--
-page
--
 pixel
 -
 size
@@ -1337,10 +1329,6 @@ widget
 .
 swipe
 .
-whole
--
-page
--
 pixel
 -
 size
@@ -1829,10 +1817,6 @@ widget
 .
 swipe
 .
-whole
--
-page
--
 pixel
 -
 size
@@ -2140,10 +2124,6 @@ widget
 .
 swipe
 .
-whole
--
-page
--
 pixel
 -
 size
@@ -2632,10 +2612,6 @@ widget
 .
 swipe
 .
-whole
--
-page
--
 pixel
 -
 size
