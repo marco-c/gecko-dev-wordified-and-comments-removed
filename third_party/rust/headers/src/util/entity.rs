@@ -665,7 +665,6 @@ map
 |
 _entity
 |
-{
 EntityTag
 (
 val
@@ -674,7 +673,6 @@ clone
 (
 )
 )
-}
 )
 }
 }
@@ -1078,7 +1076,6 @@ tags
 )
 =
 >
-{
 tags
 .
 iter
@@ -1111,7 +1108,6 @@ tag
 entity
 )
 )
-}
 }
 }
 }
