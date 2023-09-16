@@ -793,6 +793,12 @@ Notify
 this
 )
 ;
+mCurrentClickHoldDestination
+=
+Nothing
+(
+)
+;
 }
 void
 Notify
@@ -834,6 +840,12 @@ aClickAndHold
 ;
 nsPoint
 mDestinationPoint
+;
+Maybe
+<
+nsPoint
+>
+mCurrentClickHoldDestination
 ;
 RefPtr
 <
