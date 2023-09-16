@@ -74,6 +74,17 @@ h
 #
 include
 "
+apz
+/
+src
+/
+APZUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RecursiveMutex
@@ -4503,6 +4514,10 @@ sides
 SidesStuckToRootContent
 (
 info
+AsyncTransformConsumer
+:
+:
+eForCompositing
 lock
 )
 ;
@@ -10293,6 +10308,10 @@ Get
 (
 lock
 )
+AsyncTransformConsumer
+:
+:
+eForEventHandling
 )
 ;
 }
@@ -15472,6 +15491,8 @@ const
 HitTestingTreeNode
 *
 aNode
+AsyncTransformConsumer
+aMode
 )
 const
 {
@@ -15488,6 +15509,7 @@ StickyPositionInfo
 (
 aNode
 )
+aMode
 lock
 )
 ;
@@ -15502,6 +15524,8 @@ const
 StickyPositionInfo
 &
 aStickyInfo
+AsyncTransformConsumer
+aMode
 const
 MutexAutoLock
 &
@@ -15639,10 +15663,7 @@ stickyTargetApzc
 >
 GetCurrentAsyncTransform
 (
-AsyncPanZoomController
-:
-:
-eForEventHandling
+aMode
 AsyncTransformComponents
 {
 AsyncTransformComponent
