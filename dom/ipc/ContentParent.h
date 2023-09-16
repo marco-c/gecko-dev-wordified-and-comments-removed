@@ -3646,8 +3646,6 @@ nsIURI
 *
 aUri
 const
-Maybe
-<
 mozilla
 :
 :
@@ -3655,7 +3653,6 @@ net
 :
 :
 LoadInfoArgs
->
 &
 aLoadInfoArgs
 const
@@ -3718,10 +3715,7 @@ nsIURI
 *
 uri
 const
-Maybe
-<
 LoadInfoArgs
->
 &
 loadInfoArgs
 const
@@ -4444,13 +4438,7 @@ IPCResult
 RecvReportFrameTimingData
 (
 const
-mozilla
-:
-:
-Maybe
-<
 LoadInfoArgs
->
 &
 loadInfoArgs
 const
