@@ -2131,6 +2131,8 @@ ContextFlagsCpu
 CONTEXT_AMD64
 .
 bits
+(
+)
 ;
 /
 /
@@ -2157,6 +2159,8 @@ ContextFlagsCpu
 CONTEXT_AMD64
 .
 bits
+(
+)
 ;
 /
 /
@@ -2177,6 +2181,8 @@ ContextFlagsCpu
 CONTEXT_AMD64
 .
 bits
+(
+)
 ;
 /
 /
@@ -2195,6 +2201,8 @@ ContextFlagsCpu
 CONTEXT_AMD64
 .
 bits
+(
+)
 ;
 /
 /
@@ -2217,6 +2225,8 @@ ContextFlagsCpu
 CONTEXT_AMD64
 .
 bits
+(
+)
 ;
 const
 CONTEXT_AMD64_XSTATE
@@ -2229,6 +2239,8 @@ ContextFlagsCpu
 CONTEXT_AMD64
 .
 bits
+(
+)
 ;
 const
 CONTEXT_AMD64_FULL
@@ -2239,6 +2251,8 @@ Self
 CONTEXT_AMD64_CONTROL
 .
 bits
+(
+)
 |
 Self
 :
@@ -2246,6 +2260,8 @@ Self
 CONTEXT_AMD64_INTEGER
 .
 bits
+(
+)
 |
 Self
 :
@@ -2253,6 +2269,8 @@ Self
 CONTEXT_AMD64_FLOATING_POINT
 .
 bits
+(
+)
 ;
 const
 CONTEXT_AMD64_ALL
@@ -2263,6 +2281,8 @@ Self
 CONTEXT_AMD64_FULL
 .
 bits
+(
+)
 |
 Self
 :
@@ -2270,6 +2290,8 @@ Self
 CONTEXT_AMD64_SEGMENTS
 .
 bits
+(
+)
 |
 Self
 :
@@ -2277,6 +2299,8 @@ Self
 CONTEXT_AMD64_DEBUG_REGISTERS
 .
 bits
+(
+)
 ;
 }
 }
@@ -2322,6 +2346,8 @@ ContextFlagsCpu
 CONTEXT_X86
 .
 bits
+(
+)
 ;
 /
 /
@@ -2343,6 +2369,8 @@ ContextFlagsCpu
 CONTEXT_X86
 .
 bits
+(
+)
 ;
 /
 /
@@ -2363,6 +2391,8 @@ ContextFlagsCpu
 CONTEXT_X86
 .
 bits
+(
+)
 ;
 /
 /
@@ -2390,6 +2420,8 @@ ContextFlagsCpu
 CONTEXT_X86
 .
 bits
+(
+)
 ;
 /
 /
@@ -2412,6 +2444,8 @@ ContextFlagsCpu
 CONTEXT_X86
 .
 bits
+(
+)
 ;
 const
 CONTEXT_X86_EXTENDED_REGISTERS
@@ -2424,6 +2458,8 @@ ContextFlagsCpu
 CONTEXT_X86
 .
 bits
+(
+)
 ;
 const
 CONTEXT_X86_XSTATE
@@ -2436,6 +2472,8 @@ ContextFlagsCpu
 CONTEXT_X86
 .
 bits
+(
+)
 ;
 const
 CONTEXT_X86_FULL
@@ -2446,6 +2484,8 @@ Self
 CONTEXT_X86_CONTROL
 .
 bits
+(
+)
 |
 Self
 :
@@ -2453,6 +2493,8 @@ Self
 CONTEXT_X86_INTEGER
 .
 bits
+(
+)
 |
 Self
 :
@@ -2460,6 +2502,8 @@ Self
 CONTEXT_X86_SEGMENTS
 .
 bits
+(
+)
 ;
 const
 CONTEXT_X86_ALL
@@ -2470,6 +2514,8 @@ Self
 CONTEXT_X86_FULL
 .
 bits
+(
+)
 |
 Self
 :
@@ -2477,6 +2523,8 @@ Self
 CONTEXT_X86_FLOATING_POINT
 .
 bits
+(
+)
 |
 Self
 :
@@ -2484,6 +2532,8 @@ Self
 CONTEXT_X86_DEBUG_REGISTERS
 .
 bits
+(
+)
 |
 Self
 :
@@ -2491,6 +2541,8 @@ Self
 CONTEXT_X86_EXTENDED_REGISTERS
 .
 bits
+(
+)
 ;
 }
 }
@@ -2536,6 +2588,8 @@ ContextFlagsCpu
 CONTEXT_ARM64
 .
 bits
+(
+)
 ;
 /
 /
@@ -2560,6 +2614,8 @@ ContextFlagsCpu
 CONTEXT_ARM64
 .
 bits
+(
+)
 ;
 /
 /
@@ -2590,6 +2646,8 @@ ContextFlagsCpu
 CONTEXT_ARM64
 .
 bits
+(
+)
 ;
 /
 /
@@ -2609,6 +2667,8 @@ ContextFlagsCpu
 CONTEXT_ARM64
 .
 bits
+(
+)
 ;
 /
 /
@@ -2660,6 +2720,8 @@ ContextFlagsCpu
 CONTEXT_ARM64
 .
 bits
+(
+)
 ;
 const
 CONTEXT_ARM64_FULL
@@ -2670,6 +2732,8 @@ Self
 CONTEXT_ARM64_CONTROL
 .
 bits
+(
+)
 |
 Self
 :
@@ -2677,6 +2741,8 @@ Self
 CONTEXT_ARM64_INTEGER
 .
 bits
+(
+)
 |
 Self
 :
@@ -2684,6 +2750,8 @@ Self
 CONTEXT_ARM64_FLOATING_POINT
 .
 bits
+(
+)
 ;
 const
 CONTEXT_ARM64_ALL
@@ -2694,6 +2762,8 @@ Self
 CONTEXT_ARM64_FULL
 .
 bits
+(
+)
 |
 Self
 :
@@ -2701,6 +2771,8 @@ Self
 CONTEXT_ARM64_DEBUG_REGISTERS
 .
 bits
+(
+)
 |
 Self
 :
@@ -2708,6 +2780,8 @@ Self
 CONTEXT_ARM64_X18
 .
 bits
+(
+)
 ;
 }
 }
@@ -2766,6 +2840,8 @@ ContextFlagsCpu
 CONTEXT_ARM64_OLD
 .
 bits
+(
+)
 ;
 /
 /
@@ -2796,6 +2872,8 @@ ContextFlagsCpu
 CONTEXT_ARM64_OLD
 .
 bits
+(
+)
 ;
 const
 CONTEXT_ARM64_OLD_FULL
@@ -2806,6 +2884,8 @@ Self
 CONTEXT_ARM64_OLD_INTEGER
 .
 bits
+(
+)
 |
 Self
 :
@@ -2813,6 +2893,8 @@ Self
 CONTEXT_ARM64_OLD_FLOATING_POINT
 .
 bits
+(
+)
 ;
 const
 CONTEXT_ARM64_OLD_ALL
@@ -2823,6 +2905,8 @@ Self
 CONTEXT_ARM64_OLD_FULL
 .
 bits
+(
+)
 ;
 }
 }
@@ -2877,6 +2961,8 @@ ContextFlagsCpu
 CONTEXT_ARM
 .
 bits
+(
+)
 ;
 /
 /
@@ -2895,6 +2981,8 @@ ContextFlagsCpu
 CONTEXT_ARM
 .
 bits
+(
+)
 ;
 /
 /
@@ -2921,6 +3009,8 @@ ContextFlagsCpu
 CONTEXT_ARM
 .
 bits
+(
+)
 ;
 /
 /
@@ -2940,6 +3030,8 @@ ContextFlagsCpu
 CONTEXT_ARM
 .
 bits
+(
+)
 ;
 const
 CONTEXT_ARM_FULL
@@ -2950,6 +3042,8 @@ Self
 CONTEXT_ARM_CONTROL
 .
 bits
+(
+)
 |
 Self
 :
@@ -2957,6 +3051,8 @@ Self
 CONTEXT_ARM_INTEGER
 .
 bits
+(
+)
 |
 Self
 :
@@ -2964,6 +3060,8 @@ Self
 CONTEXT_ARM_FLOATING_POINT
 .
 bits
+(
+)
 ;
 const
 CONTEXT_ARM_ALL
@@ -2974,6 +3072,8 @@ Self
 CONTEXT_ARM_FULL
 .
 bits
+(
+)
 |
 Self
 :
@@ -2981,6 +3081,8 @@ Self
 CONTEXT_ARM_DEBUG_REGISTERS
 .
 bits
+(
+)
 ;
 }
 }
@@ -8796,6 +8898,8 @@ ArmElfHwCaps
 HWCAP_IDIVA
 .
 bits
+(
+)
 |
 Self
 :
@@ -8803,6 +8907,8 @@ Self
 HWCAP_IDIVT
 .
 bits
+(
+)
 ;
 const
 HWCAP_LPAE
