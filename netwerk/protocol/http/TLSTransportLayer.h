@@ -410,6 +410,11 @@ TLSTransportLayer
 (
 )
 ;
+bool
+DispatchRelease
+(
+)
+;
 nsISocketTransport
 *
 Transport
