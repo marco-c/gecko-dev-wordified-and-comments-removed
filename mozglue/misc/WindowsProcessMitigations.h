@@ -40,6 +40,12 @@ IsEafPlusEnabled
 (
 )
 ;
+MFBT_API
+bool
+IsUserShadowStackEnabled
+(
+)
+;
 }
 #
 endif
