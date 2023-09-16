@@ -1600,11 +1600,6 @@ UpdateRelevancyOfContentVisibilityAutoFrames
 (
 )
 ;
-void
-MaybeIncreaseMeasuredTicksSinceLoading
-(
-)
-;
 enum
 class
 IsExtraTick
