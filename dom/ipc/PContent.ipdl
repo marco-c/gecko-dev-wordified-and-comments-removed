@@ -7276,11 +7276,6 @@ FirstIdle
 )
 ;
 async
-DeviceReset
-(
-)
-;
-async
 CopyFavicon
 (
 nullable
