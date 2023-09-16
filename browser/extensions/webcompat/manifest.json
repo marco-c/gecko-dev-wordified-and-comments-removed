@@ -35,7 +35,7 @@ version
 "
 118
 .
-2
+1
 .
 0
 "
@@ -474,9 +474,6 @@ permissions
 [
 "
 mozillaAddons
-"
-"
-scripting
 "
 "
 tabs
