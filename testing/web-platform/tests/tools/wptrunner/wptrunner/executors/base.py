@@ -183,13 +183,11 @@ binary
 ]
 =
 kwargs
-.
-get
-(
+[
 "
 binary
 "
-)
+]
         
 executor_kwargs
 [
@@ -199,12 +197,14 @@ binary_args
 ]
 =
 kwargs
+[
+"
+binary_args
+"
+]
 .
-get
+copy
 (
-"
-args
-"
 )
         
 executor_kwargs
@@ -215,13 +215,11 @@ webdriver_binary
 ]
 =
 kwargs
-.
-get
-(
+[
 "
 webdriver_binary
 "
-)
+]
         
 executor_kwargs
 [
@@ -231,12 +229,14 @@ webdriver_args
 ]
 =
 kwargs
-.
-get
-(
+[
 "
 webdriver_args
 "
+]
+.
+copy
+(
 )
     
 if

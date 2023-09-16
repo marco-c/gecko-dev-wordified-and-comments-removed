@@ -1829,14 +1829,14 @@ items
 )
 :
             
-kwargs
+browser_kwargs
 =
 test_implementation
 .
 browser_kwargs
             
 if
-kwargs
+browser_kwargs
 .
 get
 (
@@ -1846,22 +1846,22 @@ device_serial
 )
 :
                 
-kwargs
+browser_kwargs
 =
-kwargs
+browser_kwargs
 .
 copy
 (
 )
                 
-kwargs
+browser_kwargs
 [
 "
 device_serial
 "
 ]
 =
-kwargs
+browser_kwargs
 [
 "
 device_serial
@@ -1893,7 +1893,7 @@ test_implementation
 .
 browser_cls
                     
-kwargs
+browser_kwargs
 )
             
 else
