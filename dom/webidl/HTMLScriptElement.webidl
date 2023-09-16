@@ -251,6 +251,13 @@ attribute
 DOMString
 text
 ;
+[
+CEReactions
+]
+attribute
+DOMString
+fetchPriority
+;
 static
 boolean
 supports
