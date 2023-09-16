@@ -6080,6 +6080,14 @@ RUST_BACKTRACE
 1
 "
         
+del
+env
+[
+"
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+"
+]
+        
 return
 env
     
