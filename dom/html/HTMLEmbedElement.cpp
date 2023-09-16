@@ -168,14 +168,6 @@ aFromParser
 FROM_PARSER_NETWORK
 )
 ;
-AddStatesSilently
-(
-ElementState
-:
-:
-LOADING
-)
-;
 }
 HTMLEmbedElement
 :
