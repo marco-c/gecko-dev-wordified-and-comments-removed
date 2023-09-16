@@ -225,7 +225,7 @@ after
 "
 )
 .
-content
+backgroundImage
 =
 =
 '
