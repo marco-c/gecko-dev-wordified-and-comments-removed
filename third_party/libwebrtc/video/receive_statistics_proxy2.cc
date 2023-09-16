@@ -1581,7 +1581,7 @@ int
 >
 delay_ms
 =
-delay_counter_
+oneway_delay_counter_
 .
 Avg
 (
@@ -4292,7 +4292,7 @@ Add
 current_delay_ms
 )
 ;
-delay_counter_
+oneway_delay_counter_
 .
 Add
 (
