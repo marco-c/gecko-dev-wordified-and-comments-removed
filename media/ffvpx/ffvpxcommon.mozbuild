@@ -143,6 +143,14 @@ media
 ffvpx
 '
 ]
+USE_LIBS
++
+=
+[
+'
+gkcodecs
+'
+]
 AllowCompilerWarnings
 (
 )

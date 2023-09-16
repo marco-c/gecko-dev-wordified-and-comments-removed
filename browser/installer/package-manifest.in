@@ -773,6 +773,11 @@ BINPATH
 DLL_PREFIX
 lgpllibs
 DLL_SUFFIX
+BINPATH
+/
+DLL_PREFIX
+gkcodecs
+DLL_SUFFIX
 #
 ifdef
 MOZ_FFVPX
@@ -2436,6 +2441,11 @@ dll
 i686
 /
 lgpllibs
+.
+dll
+i686
+/
+gkcodecs
 .
 dll
 i686

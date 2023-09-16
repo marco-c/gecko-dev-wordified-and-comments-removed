@@ -800,6 +800,9 @@ USE_LIBS
 =
 [
 "
+gkcodecs
+"
+"
 lgpllibs
 "
 "
