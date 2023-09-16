@@ -1681,6 +1681,10 @@ eventName
 callback
 )
 {
+TranslationsPanel
+.
+elements
+;
 const
 panel
 =
