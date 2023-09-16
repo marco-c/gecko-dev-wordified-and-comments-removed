@@ -234,9 +234,6 @@ ComponentLoadContext
 namespace
 JS
 {
-class
-OffThreadToken
-;
 namespace
 loader
 {

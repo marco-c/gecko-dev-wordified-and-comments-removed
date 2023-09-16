@@ -1636,13 +1636,6 @@ MACRO
 (
 _
 MallocHeap
-parseTask
-)
-\
-MACRO
-(
-_
-MallocHeap
 ionCompileTask
 )
 \

@@ -3368,16 +3368,6 @@ JSContext
 cx
 )
 {
-CancelOffThreadParses
-(
-cx
--
->
-runtime
-(
-)
-)
-;
 ShellContext
 *
 sc

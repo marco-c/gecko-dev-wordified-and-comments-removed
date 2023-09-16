@@ -1,6 +1,11 @@
+const
+THREAD_TYPE_WORKER
+=
+10
+;
 oomAtAllocation
 (
 11
-11
+THREAD_TYPE_WORKER
 )
 ;
