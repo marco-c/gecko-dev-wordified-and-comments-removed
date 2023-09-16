@@ -448,6 +448,7 @@ aSelectionNum
 )
 override
 ;
+virtual
 void
 ScrollSubstringToPoint
 (
@@ -462,6 +463,7 @@ aX
 int32_t
 aY
 )
+override
 ;
 virtual
 void

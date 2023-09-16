@@ -548,9 +548,6 @@ uint32_t
 aScrollType
 )
 ;
-#
-ifndef
-XP_WIN
 async
 ScrollSubstringToPoint
 (
@@ -568,8 +565,6 @@ int32_t
 aY
 )
 ;
-#
-endif
 async
 ReplaceText
 (

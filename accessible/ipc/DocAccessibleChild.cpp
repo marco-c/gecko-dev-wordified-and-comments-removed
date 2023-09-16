@@ -2285,6 +2285,8 @@ IPC_OK
 )
 ;
 }
+#
+endif
 mozilla
 :
 :
@@ -2356,8 +2358,6 @@ IPC_OK
 )
 ;
 }
-#
-endif
 LocalAccessible
 *
 DocAccessibleChild
