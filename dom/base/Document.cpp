@@ -82247,6 +82247,7 @@ GetCurrentSerialEventTarget
 __func__
 [
 p
+sapr
 choice
 ]
 {
@@ -82262,6 +82263,7 @@ __func__
 }
 [
 p
+sapr
 ]
 {
 p
