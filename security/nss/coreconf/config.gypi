@@ -1185,6 +1185,12 @@ disable_ckbi
 '
 :
 0
+'
+ppc_abi
+%
+'
+:
+0
 }
 '
 target_defaults

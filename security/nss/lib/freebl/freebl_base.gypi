@@ -243,6 +243,13 @@ c
 '
 ecl
 /
+ecp_secp256r1
+.
+c
+'
+'
+ecl
+/
 ecp_secp384r1
 .
 c
@@ -251,6 +258,13 @@ c
 ecl
 /
 ecp_secp521r1
+.
+c
+'
+'
+verified
+/
+Hacl_P256
 .
 c
 '

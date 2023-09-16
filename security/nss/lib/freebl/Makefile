@@ -4641,6 +4641,9 @@ VERIFIED_SRCS
 Hacl_Hash_SHA3
 .
 c
+Hacl_P256
+.
+c
 ifeq
 (
 (
