@@ -9161,6 +9161,13 @@ enabled
 "
 security
 .
+ssl
+.
+require_safe_negotiation
+"
+"
+security
+.
 tls
 .
 enable_0rtt_data
