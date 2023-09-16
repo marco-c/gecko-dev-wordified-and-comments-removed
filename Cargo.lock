@@ -8450,7 +8450,7 @@ version
 .
 8
 .
-32
+33
 "
 source
 =
@@ -8478,7 +8478,7 @@ index
 checksum
 =
 "
-071a31f4ee85403370b58aca746f01041ede6f0da2730960ad001edc2b71b394
+7268b386296a025e474d5140678f75d6de9493ae55a5d709eeb9dd08149945e1
 "
 dependencies
 =
@@ -8494,7 +8494,7 @@ if
 0
 "
 "
-packed_simd_2
+packed_simd
 "
 ]
 [
@@ -22637,7 +22637,7 @@ package
 name
 =
 "
-packed_simd_2
+packed_simd
 "
 version
 =
@@ -22646,7 +22646,7 @@ version
 .
 3
 .
-8
+9
 "
 source
 =
@@ -22667,9 +22667,9 @@ packed_simd
 ?
 rev
 =
-412f9a0aa556611de021bde89dee8fefe6e0fbbd
+e588ceb568878e1a3156ea9ce551d5b63ef0cdc4
 #
-412f9a0aa556611de021bde89dee8fefe6e0fbbd
+e588ceb568878e1a3156ea9ce551d5b63ef0cdc4
 "
 dependencies
 =
@@ -22683,6 +22683,11 @@ if
 0
 .
 0
+"
+"
+num
+-
+traits
 "
 ]
 [

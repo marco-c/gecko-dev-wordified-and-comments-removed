@@ -1657,7 +1657,7 @@ crate
 [
 policy
 .
-packed_simd_2
+packed_simd
 ]
 audit
 -
@@ -5213,7 +5213,7 @@ deploy
 [
 exemptions
 .
-packed_simd_2
+packed_simd
 ]
 ]
 version
@@ -5223,7 +5223,7 @@ version
 .
 3
 .
-7
+8
 "
 criteria
 =
