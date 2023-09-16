@@ -869,16 +869,6 @@ ccov
 *
 :
 7200
-.
-*
--
-wayland
-/
-debug
-.
-*
-:
-5400
 default
 :
 3600
