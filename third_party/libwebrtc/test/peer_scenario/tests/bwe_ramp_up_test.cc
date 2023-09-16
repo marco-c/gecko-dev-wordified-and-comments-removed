@@ -803,7 +803,7 @@ callee_inbound_stats
 -
 >
 frames_received
-0
+0u
 )
 ;
 DataRate
