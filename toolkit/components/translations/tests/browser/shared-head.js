@@ -2073,6 +2073,10 @@ popPermissions
 runInPage
 (
 callback
+data
+=
+{
+}
 )
 {
 const
@@ -2142,6 +2146,18 @@ content
 }
 )
 ;
+const
+data
+=
+{
+JSON
+.
+stringify
+(
+data
+)
+}
+;
 return
 (
 {
@@ -2154,6 +2170,7 @@ toString
 )
 (
 TranslationsTest
+data
 )
 ;
 )
