@@ -6036,6 +6036,9 @@ cx
 )
 instanceObj
 d
+seg
+.
+elemType
 &
 result
 )
