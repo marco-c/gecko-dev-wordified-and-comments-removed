@@ -5,6 +5,8 @@ os
 .
 path
 import
+subprocess
+import
 sys
 import
 time
@@ -26,10 +28,6 @@ as
 nsinstall_module
 import
 six
-from
-mozprocess
-import
-processhandler
 from
 nsinstall
 import
@@ -1502,11 +1500,10 @@ u1414
         
 p
 =
-processhandler
+subprocess
 .
-ProcessHandlerMixin
+Popen
 (
-            
 [
 sys
 .
@@ -1515,13 +1512,6 @@ NSINSTALL_PATH
 testfile
 testdir
 ]
-        
-)
-        
-p
-.
-run
-(
 )
         
 rv
