@@ -895,6 +895,17 @@ return
 false
 ;
 }
+if
+(
+!
+Omnijar
+:
+:
+IsInitialized
+(
+)
+)
+{
 Omnijar
 :
 :
@@ -904,6 +915,7 @@ aArgc
 aArgv
 )
 ;
+}
 rv
 =
 NS_InitXPCOM
