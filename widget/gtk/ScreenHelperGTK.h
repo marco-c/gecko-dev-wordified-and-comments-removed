@@ -55,6 +55,12 @@ ScreenHelperGTK
 )
 ;
 static
+int
+GetMonitorCount
+(
+)
+;
+static
 gint
 GetGTKMonitorScaleFactor
 (

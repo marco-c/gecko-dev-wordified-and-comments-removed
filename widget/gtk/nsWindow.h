@@ -3778,6 +3778,11 @@ SetUserTimeAndStartupTokenForActivatedWindow
 (
 )
 ;
+void
+KioskLockOnMonitor
+(
+)
+;
 #
 ifdef
 MOZ_X11
@@ -3880,6 +3885,15 @@ mLastLoggedScale
 ;
 #
 endif
+mozilla
+:
+:
+Maybe
+<
+int
+>
+mKioskMonitor
+;
 }
 ;
 #
