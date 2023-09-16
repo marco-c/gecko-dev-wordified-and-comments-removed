@@ -554,12 +554,6 @@ AndroidDecoderModule
 :
 SetSupportedMimeTypes
 (
-AndroidDecoderModule
-:
-:
-GetSupportedMimeTypes
-(
-)
 )
 ;
 }
