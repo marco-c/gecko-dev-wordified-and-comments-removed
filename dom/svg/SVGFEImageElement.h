@@ -325,6 +325,13 @@ aNullParent
 )
 override
 ;
+ElementState
+IntrinsicState
+(
+)
+const
+override
+;
 void
 DestroyContent
 (

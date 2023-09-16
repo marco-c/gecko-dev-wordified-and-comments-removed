@@ -832,6 +832,13 @@ DestroyContent
 )
 override
 ;
+ElementState
+IntrinsicState
+(
+)
+const
+override
+;
 void
 SetLastValueChangeWasInteractive
 (
