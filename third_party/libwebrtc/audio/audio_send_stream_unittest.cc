@@ -175,7 +175,7 @@ rtp_rtcp
 /
 mocks
 /
-mock_rtcp_bandwidth_observer
+mock_network_link_rtcp_observer
 .
 h
 "
@@ -1584,9 +1584,7 @@ Times
 EXPECT_CALL
 (
 rtp_transport_
-GetBandwidthObserver
-(
-)
+GetRtcpObserver
 )
 .
 WillRepeatedly
@@ -1594,7 +1592,7 @@ WillRepeatedly
 Return
 (
 &
-bandwidth_observer_
+rtcp_observer_
 )
 )
 ;
@@ -2125,9 +2123,9 @@ testing
 :
 StrictMock
 <
-MockRtcpBandwidthObserver
+MockNetworkLinkRtcpObserver
 >
-bandwidth_observer_
+rtcp_observer_
 ;
 :
 :

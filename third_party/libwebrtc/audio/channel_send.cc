@@ -1764,12 +1764,12 @@ this
 ;
 configuration
 .
-bandwidth_callback
+network_link_rtcp_observer
 =
 transport_controller
 -
 >
-GetBandwidthObserver
+GetRtcpObserver
 (
 )
 ;

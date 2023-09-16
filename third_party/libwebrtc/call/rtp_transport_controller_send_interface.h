@@ -237,9 +237,6 @@ class
 RtpVideoSenderInterface
 ;
 class
-RtcpBandwidthObserver
-;
-class
 RtpPacketSender
 ;
 struct
@@ -508,9 +505,9 @@ network_available
 0
 ;
 virtual
-RtcpBandwidthObserver
+NetworkLinkRtcpObserver
 *
-GetBandwidthObserver
+GetRtcpObserver
 (
 )
 =
