@@ -114,7 +114,7 @@ can
 obtain
 one
 at
-http
+https
 :
 /
 /
@@ -160,7 +160,7 @@ public
 domain
 .
     
-http
+https
 :
 /
 /
