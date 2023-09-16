@@ -4364,6 +4364,17 @@ if
 (
 !
 browser
+|
+|
+AppConstants
+.
+platform
+=
+=
+=
+"
+android
+"
 )
 {
 return
