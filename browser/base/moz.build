@@ -369,6 +369,17 @@ content
 /
 test
 /
+privateBrowsing
+/
+browser
+.
+ini
+"
+"
+content
+/
+test
+/
 protectionsUI
 /
 browser
