@@ -2429,8 +2429,6 @@ ObserveLayersUpdate
 (
 LayersId
 aLayersId
-LayersObserverEpoch
-aEpoch
 bool
 aActive
 )
@@ -2487,7 +2485,6 @@ mParent
 SendObserveLayersUpdate
 (
 aLayersId
-aEpoch
 aActive
 )
 ;

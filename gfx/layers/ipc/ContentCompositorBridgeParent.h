@@ -864,8 +864,6 @@ ObserveLayersUpdate
 (
 LayersId
 aLayersId
-LayersObserverEpoch
-aEpoch
 bool
 aActive
 )

@@ -33056,13 +33056,6 @@ PaintTabWhileInterruptingJS
 BrowserParent
 *
 aBrowserParent
-const
-layers
-:
-:
-LayersObserverEpoch
-&
-aEpoch
 )
 {
 if
@@ -33081,7 +33074,6 @@ PaintWhileInterruptingJS
 (
 mHangMonitorActor
 aBrowserParent
-aEpoch
 )
 ;
 }
@@ -33094,13 +33086,6 @@ UnloadLayersWhileInterruptingJS
 BrowserParent
 *
 aBrowserParent
-const
-layers
-:
-:
-LayersObserverEpoch
-&
-aEpoch
 )
 {
 if
@@ -33119,7 +33104,6 @@ UnloadLayersWhileInterruptingJS
 (
 mHangMonitorActor
 aBrowserParent
-aEpoch
 )
 ;
 }

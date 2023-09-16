@@ -488,13 +488,6 @@ false
 ;
 }
 void
-SetLayersObserverEpoch
-(
-LayersObserverEpoch
-aEpoch
-)
-;
-void
 DidComposite
 (
 TransactionId

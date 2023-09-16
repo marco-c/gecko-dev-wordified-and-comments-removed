@@ -553,8 +553,6 @@ ObserveLayersUpdate
 (
 LayersId
 aLayersId
-LayersObserverEpoch
-aEpoch
 bool
 aActive
 )
@@ -2169,8 +2167,6 @@ ObserveLayersUpdate
 (
 LayersId
 aLayersId
-LayersObserverEpoch
-aEpoch
 bool
 aActive
 )

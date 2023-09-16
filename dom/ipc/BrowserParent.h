@@ -2840,10 +2840,6 @@ aRunInGlobalScope
 void
 LayerTreeUpdate
 (
-const
-LayersObserverEpoch
-&
-aEpoch
 bool
 aActive
 )
@@ -3162,10 +3158,6 @@ ipc
 IPCResult
 RecvPaintWhileInterruptingJSNoOp
 (
-const
-LayersObserverEpoch
-&
-aEpoch
 )
 ;
 mozilla
@@ -3694,9 +3686,6 @@ layout
 :
 RemoteLayerTreeOwner
 mRemoteLayerTreeOwner
-;
-LayersObserverEpoch
-mLayerTreeEpoch
 ;
 Maybe
 <

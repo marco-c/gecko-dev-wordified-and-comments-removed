@@ -1040,13 +1040,6 @@ const
 bool
 &
 aEnabled
-const
-layers
-:
-:
-LayersObserverEpoch
-&
-aEpoch
 )
 {
 Unused
@@ -1058,7 +1051,6 @@ mBrowserParent
 SendRenderLayers
 (
 aEnabled
-aEpoch
 )
 ;
 return
