@@ -204,6 +204,10 @@ testCopyPostData
 foo
 =
 bar
+=
+123
+=
+xyz
 "
 )
 ;
