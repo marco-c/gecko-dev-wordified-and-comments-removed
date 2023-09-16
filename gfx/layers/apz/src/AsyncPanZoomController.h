@@ -829,8 +829,8 @@ const
 AsyncTransformComponents
 &
 aComponents
-=
-LayoutAndVisual
+LayersId
+aForLayersId
 )
 const
 ;
@@ -2308,6 +2308,16 @@ size_t
 aSampleIndex
 =
 0
+)
+const
+;
+AsyncTransformComponentMatrix
+GetAsyncTransformForInputTransformation
+(
+AsyncTransformComponents
+aComponents
+LayersId
+aForLayersId
 )
 const
 ;
