@@ -17904,11 +17904,14 @@ endif
 }
 #
 if
-ANDROID_NDK_MAJOR_VERSION
+defined
+(
+__ANDROID_API__
+)
 &
 &
 (
-ANDROID_NDK_MAJOR_VERSION
+__ANDROID_API__
 <
 24
 )
