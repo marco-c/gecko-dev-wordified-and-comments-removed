@@ -6641,6 +6641,17 @@ public
 static
 final
 String
+EXTRA_CRASH_REMOTE_TYPE
+=
+"
+remoteType
+"
+;
+field
+public
+static
+final
+String
 EXTRA_EXTRAS_PATH
 =
 "
