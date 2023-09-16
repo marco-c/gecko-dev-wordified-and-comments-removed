@@ -174,10 +174,6 @@ f
 )
 const
 {
-if
-(
-f
-)
 fclose
 (
 f
@@ -419,11 +415,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 &
@@ -436,7 +427,6 @@ v
 file
 )
 ;
-}
 }
 #
 endif
@@ -494,11 +484,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 v
@@ -513,7 +498,6 @@ v_length
 file
 )
 ;
-}
 }
 #
 endif
@@ -633,11 +617,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 &
@@ -650,7 +629,6 @@ v
 file
 )
 ;
-}
 }
 #
 endif
@@ -708,11 +686,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 v
@@ -727,7 +700,6 @@ v_length
 file
 )
 ;
-}
 }
 #
 endif
@@ -907,11 +879,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 for
 (
 size_t
@@ -956,7 +923,6 @@ file
 ;
 }
 }
-}
 #
 endif
 }
@@ -1075,11 +1041,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 &
@@ -1092,7 +1053,6 @@ v
 file
 )
 ;
-}
 }
 #
 endif
@@ -1150,11 +1110,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 v
@@ -1169,7 +1124,6 @@ v_length
 file
 )
 ;
-}
 }
 #
 endif
@@ -1289,11 +1243,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 &
@@ -1306,7 +1255,6 @@ v
 file
 )
 ;
-}
 }
 #
 endif
@@ -1364,11 +1312,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 v
@@ -1383,7 +1326,6 @@ v_length
 file
 )
 ;
-}
 }
 #
 endif
@@ -1437,11 +1379,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 &
@@ -1454,7 +1391,6 @@ v
 file
 )
 ;
-}
 }
 #
 endif
@@ -1512,11 +1448,6 @@ GetRawFile
 name
 )
 ;
-if
-(
-file
-)
-{
 fwrite
 (
 v
@@ -1531,7 +1462,6 @@ v_length
 file
 )
 ;
-}
 }
 #
 endif
