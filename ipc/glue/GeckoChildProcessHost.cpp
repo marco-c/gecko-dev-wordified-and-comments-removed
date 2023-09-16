@@ -2294,9 +2294,9 @@ MOZ_ENABLE_FORKSERVER
 if
 (
 aProcessType
+!
 =
-=
-GeckoProcessType_Content
+GeckoProcessType_ForkServer
 &
 &
 ForkServiceChild
