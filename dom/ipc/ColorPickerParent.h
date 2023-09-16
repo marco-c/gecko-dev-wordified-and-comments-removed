@@ -139,8 +139,10 @@ ColorPickerShownCallback
 =
 default
 ;
+RefPtr
+<
 ColorPickerParent
-*
+>
 mColorPickerParent
 ;
 }
