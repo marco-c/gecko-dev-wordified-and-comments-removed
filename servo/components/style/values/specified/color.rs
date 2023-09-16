@@ -4678,6 +4678,17 @@ normalize
 )
 ;
 }
+color
+.
+alpha
+=
+normalize
+(
+color
+.
+alpha
+)
+;
 ComputedColor
 :
 :
