@@ -183,6 +183,13 @@ or
 tab
 modal
 dialogs
+and
+*
+return
+the
+first
+one
+.
 *
 *
 param
@@ -233,7 +240,7 @@ present
 /
 modal
 .
-findModalDialogs
+findPrompt
 =
 function
 (

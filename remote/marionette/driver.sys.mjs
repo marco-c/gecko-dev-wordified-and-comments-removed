@@ -3516,7 +3516,7 @@ lazy
 .
 modal
 .
-findModalDialogs
+findPrompt
 (
 this
 .
@@ -9082,8 +9082,9 @@ browsingContext
 /
 Check
 for
+an
 existing
-dialogs
+dialog
 for
 the
 new
@@ -9096,7 +9097,7 @@ lazy
 .
 modal
 .
-findModalDialogs
+findPrompt
 (
 this
 .
