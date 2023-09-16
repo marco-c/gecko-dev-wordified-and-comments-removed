@@ -5250,12 +5250,12 @@ GetCsp
 (
 )
 ;
-unsigned
+uint32_t
 lineNum
 =
 0
 ;
-unsigned
+uint32_t
 columnNum
 =
 0

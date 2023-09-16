@@ -1065,7 +1065,7 @@ false
 AutoFilename
 filename
 ;
-unsigned
+uint32_t
 line
 =
 0

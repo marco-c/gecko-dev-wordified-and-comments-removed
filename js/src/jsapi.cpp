@@ -13097,7 +13097,7 @@ char
 *
 filename
 ;
-unsigned
+uint32_t
 lineno
 ;
 uint32_t
@@ -24376,10 +24376,10 @@ cx
 AutoFilename
 *
 filename
-unsigned
+uint32_t
 *
 lineno
-unsigned
+uint32_t
 *
 column
 )
