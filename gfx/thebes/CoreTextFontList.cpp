@@ -4434,9 +4434,6 @@ CTFontFamily
 (
 aFamilyName
 aVisibility
-0
-.
-0
 )
 ;
 mFontFamilies
