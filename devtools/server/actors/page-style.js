@@ -785,7 +785,6 @@ stretch
 _styleApplied
 (
 kind
-styleSheet
 )
 {
 this
@@ -821,6 +820,9 @@ updated
 _styleRef
 (
 item
+userAdded
+=
+false
 )
 {
 if
@@ -854,6 +856,7 @@ StyleRuleActor
 (
 this
 item
+userAdded
 )
 ;
 this
@@ -4475,6 +4478,7 @@ this
 _styleRef
 (
 cssRule
+true
 )
 ;
 TrackChangeEmitter

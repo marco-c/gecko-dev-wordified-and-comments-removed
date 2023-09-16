@@ -279,6 +279,16 @@ null
 ;
 this
 .
+userAdded
+=
+options
+.
+rule
+.
+userAdded
+;
+this
+.
 cssProperties
 =
 this
