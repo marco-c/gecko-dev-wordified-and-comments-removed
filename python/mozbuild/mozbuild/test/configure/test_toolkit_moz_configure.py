@@ -1159,6 +1159,11 @@ language
 "
 C
 "
+type
+=
+"
+clang
+"
 flags
 =
 [
