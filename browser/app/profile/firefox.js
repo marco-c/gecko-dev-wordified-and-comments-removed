@@ -3759,7 +3759,7 @@ ads
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -3775,7 +3775,7 @@ ads
 .
 userEnabled
 "
-true
+false
 )
 ;
 pref
