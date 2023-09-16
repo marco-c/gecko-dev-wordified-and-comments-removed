@@ -4259,6 +4259,8 @@ prefValues
 SEARCH_SHORTCUTS_EXPERIMENT
 ]
 ;
+try
+{
 await
 Services
 .
@@ -4268,6 +4270,10 @@ init
 (
 )
 ;
+}
+catch
+{
+}
 let
 frecent
 =
