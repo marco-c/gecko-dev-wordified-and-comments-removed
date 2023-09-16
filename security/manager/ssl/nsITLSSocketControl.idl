@@ -362,5 +362,9 @@ claim
 (
 )
 ;
+attribute
+uint64_t
+browserId
+;
 }
 ;

@@ -1225,6 +1225,8 @@ ByteArray
 [
 ]
 aCANames
+uint64_t
+aBrowserId
 )
 ;
 async
