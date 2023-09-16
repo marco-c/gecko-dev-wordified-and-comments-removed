@@ -87,15 +87,6 @@ GeneratorAndAsyncKind
 .
 h
 "
-#
-include
-"
-vm
-/
-WellKnownAtom
-.
-h
-"
 namespace
 js
 {
@@ -526,7 +517,9 @@ errorReporter_
 errorNoOffset
 (
 JSMSG_NEED_DIET
-js_script_str
+"
+script
+"
 )
 ;
 return

@@ -297,15 +297,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 -
 inl
@@ -4305,7 +4296,9 @@ intl_static_methods
 {
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 intl_toSource
 0
 0

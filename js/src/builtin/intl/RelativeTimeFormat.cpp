@@ -150,15 +150,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 NativeObject
 -
 inl
@@ -354,7 +345,9 @@ Intl_RelativeTimeFormat_formatToParts
 )
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 relativeTimeFormat_toSource
 0
 0

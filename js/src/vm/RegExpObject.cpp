@@ -183,15 +183,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 JSContext
 -
 inl
@@ -1018,7 +1009,9 @@ RegExpObject
 class_
 =
 {
-js_RegExp_str
+"
+RegExp
+"
 JSCLASS_HAS_RESERVED_SLOTS
 (
 RegExpObject

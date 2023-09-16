@@ -126,15 +126,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 -
 inl
@@ -352,7 +343,9 @@ Intl_ListFormat_formatToParts
 )
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 listFormat_toSource
 0
 0

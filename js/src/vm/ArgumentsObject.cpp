@@ -89,15 +89,6 @@ h
 #
 include
 "
-vm
-/
-WellKnownAtom
-.
-h
-"
-#
-include
-"
 gc
 /
 Nursery
@@ -5943,7 +5934,9 @@ data
 begin
 (
 )
-js_arguments_str
+"
+arguments
+"
 )
 ;
 }

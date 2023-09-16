@@ -265,15 +265,6 @@ StringObject
 h
 "
 #
-include
-"
-vm
-/
-WellKnownAtom
-.
-h
-"
-#
 ifdef
 ENABLE_RECORD_TUPLE
 #
@@ -10024,7 +10015,9 @@ json_static_methods
 {
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 json_toSource
 0
 0
@@ -10143,7 +10136,9 @@ js
 JSONClass
 =
 {
-js_JSON_str
+"
+JSON
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_JSON

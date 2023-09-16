@@ -63,15 +63,6 @@ EnvironmentObject
 .
 h
 "
-#
-include
-"
-vm
-/
-WellKnownAtom
-.
-h
-"
 using
 namespace
 js
@@ -350,7 +341,9 @@ reportError
 (
 nullptr
 JSMSG_TOO_DEEP
-js_function_str
+"
+function
+"
 )
 ;
 return

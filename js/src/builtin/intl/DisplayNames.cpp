@@ -277,15 +277,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 -
 inl
@@ -478,7 +469,9 @@ Intl_DisplayNames_resolvedOptions
 )
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 displayNames_toSource
 0
 0

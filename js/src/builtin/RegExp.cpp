@@ -165,15 +165,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 EnvironmentObject
 -
 inl
@@ -4634,7 +4625,9 @@ regexp_methods
 {
 JS_SELF_HOSTED_FN
 (
-js_toSource_str
+"
+toSource
+"
 "
 RegExpToString
 "
@@ -4643,7 +4636,9 @@ RegExpToString
 )
 JS_SELF_HOSTED_FN
 (
-js_toString_str
+"
+toString
+"
 "
 RegExpToString
 "

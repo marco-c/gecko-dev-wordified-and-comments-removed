@@ -281,15 +281,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 GeckoProfiler
 -
 inl
@@ -572,7 +563,9 @@ Intl_DateTimeFormat_formatRangeToParts
 )
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 dateTimeFormat_toSource
 0
 0

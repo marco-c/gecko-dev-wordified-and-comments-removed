@@ -188,15 +188,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 GeckoProfiler
 -
 inl
@@ -405,7 +396,9 @@ Intl_Collator_resolvedOptions
 )
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 collator_toSource
 0
 0

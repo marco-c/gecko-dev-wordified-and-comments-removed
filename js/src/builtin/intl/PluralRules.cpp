@@ -117,15 +117,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 -
 inl
@@ -338,7 +329,9 @@ Intl_PluralRules_selectRange
 )
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 pluralRules_toSource
 0
 0

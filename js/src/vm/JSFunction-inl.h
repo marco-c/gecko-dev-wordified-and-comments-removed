@@ -34,15 +34,6 @@ h
 #
 include
 "
-vm
-/
-WellKnownAtom
-.
-h
-"
-#
-include
-"
 gc
 /
 ObjectKind
@@ -127,7 +118,9 @@ get
 ;
 }
 return
-js_anonymous_str
+"
+anonymous
+"
 ;
 }
 }

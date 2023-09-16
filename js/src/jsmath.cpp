@@ -144,15 +144,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 -
 inl
@@ -5466,7 +5457,9 @@ math_static_methods
 {
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 math_toSource
 0
 0
@@ -5986,7 +5979,9 @@ js
 MathClass
 =
 {
-js_Math_str
+"
+Math
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Math

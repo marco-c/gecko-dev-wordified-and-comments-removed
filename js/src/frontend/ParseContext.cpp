@@ -38,15 +38,6 @@ ErrorMessages
 .
 h
 "
-#
-include
-"
-vm
-/
-WellKnownAtom
-.
-h
-"
 using
 mozilla
 :
@@ -2185,7 +2176,9 @@ errorReporter_
 errorNoOffset
 (
 JSMSG_NEED_DIET
-js_script_str
+"
+script
+"
 )
 ;
 return

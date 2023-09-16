@@ -512,15 +512,6 @@ ThrowMsgKind
 .
 h
 "
-#
-include
-"
-vm
-/
-WellKnownAtom
-.
-h
-"
 using
 namespace
 js
@@ -13039,7 +13030,9 @@ reportError
 (
 nullptr
 JSMSG_NEED_DIET
-js_script_str
+"
+script
+"
 )
 ;
 return
@@ -56191,7 +56184,9 @@ reportError
 (
 nullptr
 JSMSG_NEED_DIET
-js_script_str
+"
+script
+"
 )
 ;
 return

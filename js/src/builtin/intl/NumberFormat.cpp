@@ -320,15 +320,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 GeckoProfiler
 -
 inl
@@ -581,7 +572,9 @@ Intl_NumberFormat_formatRangeToParts
 )
 JS_FN
 (
-js_toSource_str
+"
+toSource
+"
 numberFormat_toSource
 0
 0

@@ -535,15 +535,6 @@ include
 "
 vm
 /
-WellKnownAtom
-.
-h
-"
-#
-include
-"
-vm
-/
 WrapperObject
 .
 h
@@ -5603,7 +5594,9 @@ cx
 GetErrorMessage
 nullptr
 JSMSG_BAD_APPLY_ARGS
-js_apply_str
+"
+apply
+"
 )
 ;
 return
