@@ -1167,6 +1167,13 @@ WebExtension
 :
 Update
 "
+"
+GeckoView
+:
+WebExtension
+:
+EnableProcessSpawning
+"
 ]
 observers
 :
