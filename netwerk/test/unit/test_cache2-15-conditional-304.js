@@ -43,7 +43,6 @@ NEW
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry

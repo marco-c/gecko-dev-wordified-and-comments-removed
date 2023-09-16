@@ -177,7 +177,7 @@ d
 "
 function
 (
-entry
+entry1
 )
 {
 var
@@ -191,7 +191,7 @@ Assert
 .
 equal
 (
-entry
+entry1
 .
 fetchCount
 2
@@ -199,7 +199,7 @@ fetchCount
 ;
 do_check_time
 (
-entry
+entry1
 .
 lastFetched
 firstOpen
@@ -208,7 +208,7 @@ secondOpen
 ;
 do_check_time
 (
-entry
+entry1
 .
 lastModified
 timeStart

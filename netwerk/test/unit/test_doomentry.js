@@ -280,7 +280,7 @@ OPEN_TRUNCATE
 null
 function
 (
-status
+stat
 entry
 )
 {

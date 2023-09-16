@@ -67,7 +67,6 @@ e1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -99,7 +98,6 @@ e1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -131,7 +129,6 @@ f1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -163,7 +160,6 @@ f1d
 "
 function
 (
-entry
 )
 {
 var
@@ -230,7 +226,6 @@ e1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -262,7 +257,6 @@ f1d
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

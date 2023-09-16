@@ -41,7 +41,6 @@ null
 null
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -75,7 +74,6 @@ c1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -109,7 +107,6 @@ c1d
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

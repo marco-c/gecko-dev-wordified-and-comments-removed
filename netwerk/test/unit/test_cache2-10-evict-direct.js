@@ -43,7 +43,6 @@ b1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry

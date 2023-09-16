@@ -2292,7 +2292,7 @@ do_timeout
 >
 {
 var
-origin
+origin1
 =
 extract_origin
 (
@@ -2306,7 +2306,7 @@ preconns
 .
 includes
 (
-origin
+origin1
 )
 )
 {
@@ -2314,7 +2314,7 @@ preconns
 .
 push
 (
-origin
+origin1
 )
 ;
 }
@@ -2349,7 +2349,7 @@ do_timeout
 >
 {
 var
-origin
+origin2
 =
 extract_origin
 (
@@ -2363,7 +2363,7 @@ preconns
 .
 includes
 (
-origin
+origin2
 )
 )
 {
@@ -2371,7 +2371,7 @@ preconns
 .
 push
 (
-origin
+origin2
 )
 ;
 }
@@ -3264,7 +3264,7 @@ return
 new
 Promise
 (
-resolve
+resolve1
 =
 >
 {
@@ -3277,7 +3277,7 @@ aIdEnhance
 {
 onCacheEntryDoomed
 :
-resolve
+resolve1
 }
 )
 ;

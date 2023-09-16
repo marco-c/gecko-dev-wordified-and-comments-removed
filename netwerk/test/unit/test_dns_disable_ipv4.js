@@ -66,7 +66,7 @@ listener
 onLookupComplete
 (
 inRequest
-inRecord
+inRecord1
 inStatus
 )
 {
@@ -74,7 +74,7 @@ resolve
 (
 [
 inRequest
-inRecord
+inRecord1
 inStatus
 ]
 )
@@ -257,7 +257,7 @@ listener
 onLookupComplete
 (
 inRequest
-inRecord
+inRecord1
 inStatus
 )
 {
@@ -265,7 +265,7 @@ resolve
 (
 [
 inRequest
-inRecord
+inRecord1
 inStatus
 ]
 )

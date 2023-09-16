@@ -44,7 +44,6 @@ NEW
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -101,10 +100,10 @@ part2b
 "
 function
 (
-entry
+entry1
 )
 {
-entry
+entry1
 .
 setValid
 (

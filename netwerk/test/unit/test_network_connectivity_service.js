@@ -32,7 +32,7 @@ mjs
 function
 promiseObserverNotification
 (
-topic
+topicName
 matchFunc
 )
 {
@@ -107,7 +107,7 @@ data
 )
 ;
 }
-topic
+topicName
 )
 ;
 }

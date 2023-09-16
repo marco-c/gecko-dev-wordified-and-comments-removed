@@ -49,7 +49,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -87,7 +86,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 Services
@@ -133,7 +131,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

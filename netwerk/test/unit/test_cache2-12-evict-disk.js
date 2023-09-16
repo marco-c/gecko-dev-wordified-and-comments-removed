@@ -24,7 +24,7 @@ function
 )
 {
 var
-storage
+diskStorage
 =
 getCacheStorage
 (
@@ -33,7 +33,7 @@ disk
 "
 )
 ;
-storage
+diskStorage
 .
 asyncEvictStorage
 (
@@ -45,7 +45,7 @@ function
 (
 )
 {
-storage
+diskStorage
 .
 asyncVisitStorage
 (
@@ -61,7 +61,7 @@ function
 )
 {
 var
-storage
+memoryStorage
 =
 getCacheStorage
 (
@@ -70,7 +70,7 @@ memory
 "
 )
 ;
-storage
+memoryStorage
 .
 asyncVisitStorage
 (
@@ -137,7 +137,6 @@ m2d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -171,7 +170,6 @@ m2d
 "
 function
 (
-entry
 )
 {
 mc
@@ -219,7 +217,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -253,7 +250,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 mc
@@ -301,7 +297,6 @@ b1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -335,7 +330,6 @@ b1d
 "
 function
 (
-entry
 )
 {
 mc

@@ -13,7 +13,7 @@ do_get_profile
 )
 ;
 var
-storage
+memoryStorage
 =
 getCacheStorage
 (
@@ -33,7 +33,7 @@ function
 (
 )
 {
-storage
+memoryStorage
 .
 asyncEvictStorage
 (
@@ -45,7 +45,7 @@ function
 (
 )
 {
-storage
+memoryStorage
 .
 asyncVisitStorage
 (
@@ -61,7 +61,7 @@ function
 )
 {
 var
-storage
+diskStorage
 =
 getCacheStorage
 (
@@ -75,7 +75,7 @@ expectedConsumption
 =
 2048
 ;
-storage
+diskStorage
 .
 asyncVisitStorage
 (
@@ -158,7 +158,6 @@ m2d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -192,7 +191,6 @@ m2d
 "
 function
 (
-entry
 )
 {
 mc
@@ -240,7 +238,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -274,7 +271,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 mc
@@ -322,7 +318,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -356,7 +351,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 mc

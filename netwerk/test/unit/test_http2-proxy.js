@@ -1705,7 +1705,7 @@ http2ProxyCode
 )
 ;
 let
-proxy
+newProxy
 =
 await
 NodeServer
@@ -1722,7 +1722,7 @@ startNewProxy
 ;
 proxy_port
 =
-proxy
+newProxy
 .
 port
 ;

@@ -166,15 +166,15 @@ OPEN_NORMALLY
 null
 function
 (
-status
-entry
+status1
+entry1
 )
 {
 Assert
 .
 equal
 (
-status
+status1
 Cr
 .
 NS_OK
@@ -183,7 +183,7 @@ NS_OK
 var
 oStr2
 =
-entry
+entry1
 .
 openOutputStream
 (

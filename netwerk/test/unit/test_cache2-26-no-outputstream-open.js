@@ -50,7 +50,6 @@ meta
 "
 function
 (
-entry
 )
 {
 executeSoon
@@ -98,7 +97,6 @@ meta
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

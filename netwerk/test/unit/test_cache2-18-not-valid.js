@@ -45,7 +45,6 @@ v1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -81,7 +80,6 @@ v2d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -115,7 +113,6 @@ v2d
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

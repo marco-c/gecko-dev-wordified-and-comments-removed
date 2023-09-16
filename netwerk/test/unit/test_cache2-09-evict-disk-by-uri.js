@@ -43,7 +43,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -77,7 +76,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 var

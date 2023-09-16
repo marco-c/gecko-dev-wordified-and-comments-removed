@@ -165,14 +165,14 @@ d
 "
 function
 (
-entry
+entry1
 )
 {
 Assert
 .
 equal
 (
-entry
+entry1
 .
 fetchCount
 1
@@ -180,7 +180,7 @@ fetchCount
 ;
 do_check_time
 (
-entry
+entry1
 .
 lastFetched
 now1
@@ -188,7 +188,7 @@ now1
 ;
 do_check_time
 (
-entry
+entry1
 .
 lastModified
 now1

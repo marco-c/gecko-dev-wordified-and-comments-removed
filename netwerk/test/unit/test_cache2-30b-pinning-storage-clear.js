@@ -54,7 +54,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 var
@@ -106,7 +105,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 var
@@ -156,7 +154,6 @@ NEW
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

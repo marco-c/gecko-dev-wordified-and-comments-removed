@@ -285,7 +285,6 @@ localDomains
 function
 makeChan
 (
-origin
 path
 )
 {
@@ -586,7 +585,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -653,7 +651,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -731,7 +728,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -809,7 +805,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -876,7 +871,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -954,7 +948,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -1033,7 +1026,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -1105,7 +1097,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -1194,7 +1185,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
@@ -1274,7 +1264,6 @@ chan
 =
 makeChan
 (
-origin
 "
 /
 immutable
