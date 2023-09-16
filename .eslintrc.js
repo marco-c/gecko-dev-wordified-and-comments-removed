@@ -446,6 +446,9 @@ mozilla
 "
 import
 "
+"
+json
+"
 ]
 overrides
 :
