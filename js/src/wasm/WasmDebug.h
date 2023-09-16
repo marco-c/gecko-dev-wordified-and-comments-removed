@@ -9,6 +9,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 HashTable
 .
 h
@@ -335,7 +344,10 @@ offset
 uint32_t
 *
 lineno
-uint32_t
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 *
 column
 )
