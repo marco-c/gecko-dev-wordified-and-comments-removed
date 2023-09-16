@@ -14705,9 +14705,6 @@ deviceGracePeriodTimeoutMs
 3600000
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -14720,8 +14717,6 @@ pbmode
 true
 )
 ;
-#
-endif
 pref
 (
 "
