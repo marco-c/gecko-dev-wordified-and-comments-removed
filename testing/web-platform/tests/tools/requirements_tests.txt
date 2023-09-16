@@ -43,3 +43,11 @@ taskcluster
 4
 .
 1
+mozterm
+=
+=
+1
+.
+0
+.
+0
