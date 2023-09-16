@@ -2241,6 +2241,16 @@ null
 ;
 }
 public
+HashMap
+getErrorProfile
+(
+)
+{
+return
+null
+;
+}
+public
 void
 setCommentPolicy
 (

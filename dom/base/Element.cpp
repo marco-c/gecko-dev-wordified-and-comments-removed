@@ -6878,6 +6878,15 @@ nameAtom
 nsGkAtoms
 :
 :
+search
+|
+|
+nameAtom
+=
+=
+nsGkAtoms
+:
+:
 span
 )
 )

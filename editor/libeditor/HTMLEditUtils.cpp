@@ -5901,6 +5901,14 @@ GROUP_LEAF
 )
 ELEM
 (
+search
+true
+true
+GROUP_BLOCK
+GROUP_FLOW_ELEMENT
+)
+ELEM
+(
 section
 true
 true
