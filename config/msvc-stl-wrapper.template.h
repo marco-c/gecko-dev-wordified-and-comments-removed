@@ -98,6 +98,11 @@ MOZ_NO_MOZALLOC
 )
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
