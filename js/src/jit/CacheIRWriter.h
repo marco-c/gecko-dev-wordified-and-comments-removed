@@ -2635,7 +2635,7 @@ slotIndex
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 slotIndex
 <
