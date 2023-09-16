@@ -87,7 +87,7 @@ props
 {
 const
 {
-content
+text_content
 handleAction
 }
 =
@@ -178,13 +178,6 @@ handleParagraphAction
 ]
 )
 ;
-const
-{
-legal_paragraph
-}
-=
-content
-;
 return
 (
 <
@@ -192,7 +185,7 @@ Localized
 text
 =
 {
-legal_paragraph
+text_content
 .
 text
 }
@@ -261,7 +254,7 @@ valid
 /
 }
 {
-legal_paragraph
+text_content
 .
 link_keys
 ?
