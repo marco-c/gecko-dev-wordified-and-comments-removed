@@ -194,7 +194,7 @@ mGridCellHeight
 ;
 }
 nsSize
-ComputeSheetSize
+PrecomputeSheetSize
 (
 const
 nsPresContext
@@ -203,13 +203,13 @@ aPresContext
 )
 ;
 nsSize
-GetSizeForChildren
+GetPrecomputedSheetSize
 (
 )
 const
 {
 return
-mSizeForChildren
+mPrecomputedSize
 ;
 }
 IntSize
@@ -258,7 +258,7 @@ aSheetSize
 )
 ;
 nsSize
-mSizeForChildren
+mPrecomputedSize
 ;
 nsSharedPageData
 *
