@@ -144,6 +144,12 @@ ONLY_ZOOM_TO_DEFAULT_SCALE
 <
 <
 2
+ZOOM_TO_FOCUSED_INPUT
+=
+1
+<
+<
+3
 }
 ;
 enum
