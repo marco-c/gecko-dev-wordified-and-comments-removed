@@ -389,7 +389,7 @@ image
 createImage
 (
 "
-http
+https
 :
 /
 /
