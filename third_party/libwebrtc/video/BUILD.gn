@@ -338,12 +338,12 @@ quality_threshold
 h
 "
 "
-receive_statistics_proxy2
+receive_statistics_proxy
 .
 cc
 "
 "
-receive_statistics_proxy2
+receive_statistics_proxy
 .
 h
 "
@@ -5268,7 +5268,7 @@ quality_threshold_unittest
 cc
 "
 "
-receive_statistics_proxy2_unittest
+receive_statistics_proxy_unittest
 .
 cc
 "

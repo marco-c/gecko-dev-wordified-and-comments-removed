@@ -43,7 +43,7 @@ include
 "
 video
 /
-receive_statistics_proxy2
+receive_statistics_proxy
 .
 h
 "
