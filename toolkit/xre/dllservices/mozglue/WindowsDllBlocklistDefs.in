@@ -515,15 +515,6 @@ dll
 DllBlocklistEntry
 (
 "
-eoppmonitor
-.
-dll
-"
-ALL_VERSIONS
-)
-DllBlocklistEntry
-(
-"
 ss2osd
 .
 dll
