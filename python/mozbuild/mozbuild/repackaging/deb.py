@@ -336,9 +336,25 @@ source_dir
         
 _render_deb_templates
 (
+            
 template_dir
+            
 source_dir
+            
 build_variables
+            
+exclude_file_names
+=
+[
+"
+package
+-
+prefs
+.
+js
+"
+]
+        
 )
         
 app_name
@@ -420,6 +436,13 @@ fluent_localization
             
 fluent_resource_loader
         
+)
+        
+_inject_deb_prefs_file
+(
+source_dir
+app_name
+template_dir
 )
         
 _generate_deb_archive
@@ -1253,6 +1276,17 @@ endswith
 in
 "
 )
+and
+not
+filename
+.
+endswith
+(
+"
+.
+js
+"
+)
     
 ]
     
@@ -1550,6 +1584,57 @@ distribution
 "
 )
         
+)
+def
+_inject_deb_prefs_file
+(
+source_dir
+app_name
+template_dir
+)
+:
+    
+src
+=
+mozpath
+.
+join
+(
+template_dir
+"
+package
+-
+prefs
+.
+js
+"
+)
+    
+dst
+=
+mozpath
+.
+join
+(
+source_dir
+app_name
+.
+lower
+(
+)
+"
+defaults
+/
+pref
+"
+)
+    
+shutil
+.
+copy
+(
+src
+dst
 )
 def
 _inject_deb_desktop_entry_file
