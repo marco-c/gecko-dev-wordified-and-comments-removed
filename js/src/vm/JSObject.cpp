@@ -11951,6 +11951,9 @@ return
 true
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 key
@@ -11999,6 +12002,8 @@ return
 true
 ;
 }
+#
+endif
 #
 ifdef
 NIGHTLY_BUILD
