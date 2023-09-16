@@ -3008,6 +3008,7 @@ rv
 =
 InitDecoder
 (
+nullptr
 )
 ;
 if
