@@ -782,6 +782,12 @@ GPUSize64
 >
 requiredLimits
 ;
+GPUQueueDescriptor
+defaultQueue
+=
+{
+}
+;
 }
 ;
 enum
@@ -4561,6 +4567,13 @@ stencilReadOnly
 =
 false
 ;
+}
+;
+dictionary
+GPUQueueDescriptor
+:
+GPUObjectDescriptorBase
+{
 }
 ;
 /
