@@ -3794,6 +3794,10 @@ log10
 fdlibm_log10
 #
 define
+log10f
+fdlibm_log10f
+#
+define
 pow
 fdlibm_pow
 #
@@ -3844,6 +3848,10 @@ fdlibm_expm1
 define
 hypot
 fdlibm_hypot
+#
+define
+hypotf
+fdlibm_hypotf
 #
 define
 log1p

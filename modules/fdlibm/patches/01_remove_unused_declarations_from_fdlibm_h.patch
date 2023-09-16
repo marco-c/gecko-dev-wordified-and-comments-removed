@@ -33,7 +33,7 @@ h
 504
 +
 12
-66
+68
 /
 *
 *
@@ -2564,7 +2564,6 @@ float
 int
 )
 ;
--
 float
 log10f
 (
@@ -2678,7 +2677,6 @@ erfcf
 float
 )
 ;
--
 float
 hypotf
 (

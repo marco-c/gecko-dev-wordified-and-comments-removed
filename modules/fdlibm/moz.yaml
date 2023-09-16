@@ -261,7 +261,15 @@ e_hypot
 .
 c
 -
+e_hypotf
+.
+c
+-
 e_log10
+.
+c
+-
+e_log10f
 .
 c
 -
@@ -318,6 +326,10 @@ k_expf
 c
 -
 k_log
+.
+h
+-
+k_logf
 .
 h
 -

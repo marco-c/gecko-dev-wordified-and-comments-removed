@@ -272,6 +272,12 @@ float
 )
 ;
 float
+fdlibm_log10f
+(
+float
+)
+;
+float
 fdlibm_logf
 (
 float
@@ -305,6 +311,13 @@ float
 float
 fdlibm_floorf
 (
+float
+)
+;
+float
+fdlibm_hypotf
+(
+float
 float
 )
 ;
