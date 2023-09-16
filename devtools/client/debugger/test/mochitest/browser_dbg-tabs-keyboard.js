@@ -86,7 +86,7 @@ dbg
 .
 store
 "
-CLOSE_TAB
+CLOSE_TABS
 "
 )
 ;
@@ -130,7 +130,7 @@ dbg
 .
 store
 "
-CLOSE_TAB
+CLOSE_TABS
 "
 )
 ;

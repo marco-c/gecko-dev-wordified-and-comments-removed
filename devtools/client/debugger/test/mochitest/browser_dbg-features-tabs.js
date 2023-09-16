@@ -451,6 +451,16 @@ x
 n
 )
 ;
+displayedSources
+=
+dbg
+.
+selectors
+.
+getDisplayedSourcesList
+(
+)
+;
 for
 (
 const
