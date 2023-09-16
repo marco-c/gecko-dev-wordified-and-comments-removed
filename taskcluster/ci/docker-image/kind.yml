@@ -1421,7 +1421,7 @@ mac
 )
 parent
 :
-debian11
+debian12
 -
 base
 system
@@ -1442,7 +1442,7 @@ win
 )
 parent
 :
-debian11
+debian12
 -
 base
 system
@@ -1465,7 +1465,7 @@ linux
 )
 parent
 :
-debian11
+debian12
 -
 base
 push

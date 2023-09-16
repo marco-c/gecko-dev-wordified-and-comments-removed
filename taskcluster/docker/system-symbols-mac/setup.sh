@@ -123,6 +123,13 @@ pip3
 install
 -
 -
+break
+-
+system
+-
+packages
+-
+-
 no
 -
 cache
@@ -141,6 +148,7 @@ com
 mozilla
 /
 reposado
+3dd826dfd89c8a1224aecf381637aa0bf90a3a3c
 python3
 /
 usr
@@ -185,6 +193,13 @@ com
 EOF
 pip3
 install
+-
+-
+break
+-
+system
+-
+packages
 -
 -
 no
