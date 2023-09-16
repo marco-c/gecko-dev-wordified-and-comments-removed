@@ -9926,6 +9926,15 @@ type
 string
 "
 }
+helpUrl
+:
+{
+type
+:
+"
+string
+"
+}
 icon
 :
 {

@@ -162,7 +162,9 @@ ftl
 )
 preview
 /
-firefoxSuggest
+enUS
+-
+searchFeatures
 .
 ftl
 (
@@ -175,7 +177,9 @@ urlbar
 /
 content
 /
-firefoxSuggest
+enUS
+-
+searchFeatures
 .
 ftl
 )
