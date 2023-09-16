@@ -970,7 +970,7 @@ RawInt32
 RawPointer
 Shape
 WeakShape
-GetterSetter
+WeakGetterSetter
 JSObject
 WeakObject
 Symbol

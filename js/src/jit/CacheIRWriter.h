@@ -1002,7 +1002,7 @@ WeakShape
 ;
 }
 void
-writeGetterSetterField
+writeWeakGetterSetterField
 (
 GetterSetter
 *
@@ -1026,7 +1026,7 @@ StubField
 Type
 :
 :
-GetterSetter
+WeakGetterSetter
 )
 ;
 }

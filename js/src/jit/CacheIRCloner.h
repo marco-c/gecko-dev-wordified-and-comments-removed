@@ -200,7 +200,7 @@ stubOffset
 ;
 GetterSetter
 *
-getGetterSetterField
+getWeakGetterSetterField
 (
 uint32_t
 stubOffset

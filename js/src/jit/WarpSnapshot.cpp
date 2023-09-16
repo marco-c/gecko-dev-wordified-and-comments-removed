@@ -2479,7 +2479,7 @@ StubField
 Type
 :
 :
-GetterSetter
+WeakGetterSetter
 :
 {
 uintptr_t

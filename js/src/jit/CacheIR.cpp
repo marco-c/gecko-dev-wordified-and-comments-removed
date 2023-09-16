@@ -1249,7 +1249,7 @@ GetterSetter
 CacheIRCloner
 :
 :
-getGetterSetterField
+getWeakGetterSetterField
 (
 uint32_t
 stubOffset
