@@ -74,6 +74,8 @@ callerPc
 JSScript
 *
 script
+bool
+isMonomorphicallyInlined
 )
 {
 MOZ_ASSERT_IF
@@ -136,6 +138,7 @@ InlineScriptTree
 callerTree
 callerPc
 script
+isMonomorphicallyInlined
 )
 ;
 }
@@ -155,6 +158,8 @@ callerPc
 JSScript
 *
 calleeScript
+bool
+isMonomorphicallyInlined
 )
 {
 MOZ_ASSERT
@@ -181,6 +186,7 @@ allocator
 this
 callerPc
 calleeScript
+isMonomorphicallyInlined
 )
 ;
 if
