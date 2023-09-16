@@ -184,6 +184,12 @@ eCSSUnit_Char
 eCSSUnit_RootEM
 =
 803
+eCSSUnit_Ideographic
+=
+804
+eCSSUnit_CapHeight
+=
+805
 eCSSUnit_Point
 =
 900
