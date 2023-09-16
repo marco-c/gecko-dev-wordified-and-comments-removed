@@ -429,6 +429,11 @@ EndCanvasTransaction
 (
 )
 ;
+void
+ClearCachedResources
+(
+)
+;
 bool
 SendWillClose
 (
