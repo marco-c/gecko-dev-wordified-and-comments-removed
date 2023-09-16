@@ -368,7 +368,7 @@ Pure
 ]
 readonly
 attribute
-DOMString
+UTF8String
 sourceMapURL
 ;
 /
@@ -427,7 +427,7 @@ Pure
 ]
 readonly
 attribute
-DOMString
+UTF8String
 sourceURL
 ;
 [

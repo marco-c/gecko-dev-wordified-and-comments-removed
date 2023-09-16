@@ -3805,7 +3805,7 @@ return
 NS_OK
 ;
 }
-nsAutoCString
+nsCString
 sourceMapURL
 ;
 if
@@ -3825,7 +3825,10 @@ mSheet
 >
 SetSourceMapURL
 (
-NS_ConvertUTF8toUTF16
+std
+:
+:
+move
 (
 sourceMapURL
 )

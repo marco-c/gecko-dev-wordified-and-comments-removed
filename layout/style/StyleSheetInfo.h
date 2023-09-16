@@ -198,14 +198,8 @@ StyleSheet
 >
 mSheets
 ;
-nsString
+nsCString
 mSourceMapURL
-;
-nsString
-mSourceMapURLFromComment
-;
-nsString
-mSourceURL
 ;
 RefPtr
 <
