@@ -2216,6 +2216,9 @@ onFormProcessed
 data
 .
 formid
+data
+.
+autofillResult
 )
 ;
 break
@@ -2886,6 +2889,7 @@ entryPoint
 onFormProcessed
 (
 formid
+autofillResult
 )
 {
 const
@@ -2934,6 +2938,14 @@ browsingContext
 this
 .
 browsingContext
+data
+:
+{
+formId
+:
+formid
+autofillResult
+}
 }
 )
 ;
