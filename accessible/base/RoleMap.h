@@ -2968,7 +2968,7 @@ SessionAccessibility
 :
 :
 CLASSNAME_VIEW
-eNoNameRule
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -2995,7 +2995,7 @@ SessionAccessibility
 :
 :
 CLASSNAME_VIEW
-eNoNameRule
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -3119,7 +3119,7 @@ SessionAccessibility
 :
 :
 CLASSNAME_VIEW
-eNoNameRule
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -3220,7 +3220,7 @@ SessionAccessibility
 :
 :
 CLASSNAME_VIEW
-eNoNameRule
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -3246,5 +3246,5 @@ SessionAccessibility
 :
 :
 CLASSNAME_VIEW
-eNoNameRule
+eNameFromSubtreeIfReqRule
 )
