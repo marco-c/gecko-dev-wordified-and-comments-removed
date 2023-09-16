@@ -1165,9 +1165,6 @@ mEOS
 int32_t
 mHeight
 ;
-uint32_t
-mDiscardPadding
-;
 Maybe
 <
 media

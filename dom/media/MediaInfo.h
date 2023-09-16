@@ -431,12 +431,12 @@ rhs
 const
 {
 return
-mContainerCodecDelayMicroSeconds
+mContainerCodecDelayFrames
 =
 =
 rhs
 .
-mContainerCodecDelayMicroSeconds
+mContainerCodecDelayFrames
 &
 &
 *
@@ -450,7 +450,7 @@ mHeadersBinaryBlob
 ;
 }
 int64_t
-mContainerCodecDelayMicroSeconds
+mContainerCodecDelayFrames
 {
 -
 1
