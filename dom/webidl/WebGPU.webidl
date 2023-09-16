@@ -2079,7 +2079,7 @@ minFilter
 nearest
 "
 ;
-GPUFilterMode
+GPUMipmapFilterMode
 mipmapFilter
 =
 "
@@ -2143,6 +2143,17 @@ repeat
 ;
 enum
 GPUFilterMode
+{
+"
+nearest
+"
+"
+linear
+"
+}
+;
+enum
+GPUMipmapFilterMode
 {
 "
 nearest
