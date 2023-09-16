@@ -434,7 +434,7 @@ SetContinuousBCBorderWidth
 (
 LogicalSide
 aForSide
-nscoord
+BCPixelSize
 aPixelValue
 )
 {

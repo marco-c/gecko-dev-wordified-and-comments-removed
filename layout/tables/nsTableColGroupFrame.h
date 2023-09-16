@@ -446,7 +446,7 @@ mozilla
 :
 LogicalSide
 aForSide
-nscoord
+BCPixelSize
 aPixelValue
 )
 ;
@@ -574,10 +574,10 @@ mColCount
 int32_t
 mStartColIndex
 ;
-nscoord
+BCPixelSize
 mBStartContBorderWidth
 ;
-nscoord
+BCPixelSize
 mBEndContBorderWidth
 ;
 }
