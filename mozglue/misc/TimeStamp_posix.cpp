@@ -352,6 +352,7 @@ aClockId
 =
 CLOCK_MONOTONIC
 )
+;
 #
 endif
 clock_gettime
