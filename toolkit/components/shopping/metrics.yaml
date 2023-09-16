@@ -219,9 +219,6 @@ send_in_pings
 :
 -
 metrics
-telemetry_mirror
-:
-SHOPPING_NIMBUS_DISABLED
 component_opted_out
 :
 type
@@ -327,9 +324,6 @@ send_in_pings
 :
 -
 metrics
-telemetry_mirror
-:
-SHOPPING_COMPONENT_OPTED_OUT
 has_onboarded
 :
 type
@@ -434,6 +428,3 @@ send_in_pings
 :
 -
 metrics
-telemetry_mirror
-:
-SHOPPING_HAS_ONBOARDED
