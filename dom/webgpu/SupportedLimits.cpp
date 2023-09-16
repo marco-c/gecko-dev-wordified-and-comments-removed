@@ -88,7 +88,7 @@ SupportedLimits
 =
 default
 ;
-double
+uint64_t
 GetLimit
 (
 const
