@@ -2339,6 +2339,10 @@ options
 )
 .
 column
+.
+zeroOriginValue
+(
+)
 >
 JS
 :
@@ -4372,6 +4376,10 @@ anyChars
 options_
 .
 column
+.
+zeroOriginValue
+(
+)
 ;
 column
 +
