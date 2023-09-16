@@ -163,7 +163,7 @@ mValidity
 aRadio
 -
 >
-UpdateState
+UpdateValidityElementStates
 (
 true
 )
@@ -206,7 +206,7 @@ true
 aRadio
 -
 >
-UpdateState
+UpdateValidityElementStates
 (
 true
 )

@@ -3703,6 +3703,15 @@ bool
 aRead
 )
 ;
+virtual
+void
+UpdateValidityElementStates
+(
+bool
+aNotify
+)
+{
+}
 protected
 :
 virtual

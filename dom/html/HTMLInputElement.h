@@ -1392,6 +1392,14 @@ bool
 aNotify
 )
 ;
+void
+UpdateValidityElementStates
+(
+bool
+aNotify
+)
+final
+;
 MOZ_CAN_RUN_SCRIPT
 void
 MaybeUpdateAllValidityStates

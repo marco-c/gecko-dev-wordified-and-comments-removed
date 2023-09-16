@@ -236,12 +236,13 @@ UpdateBarredFromConstraintValidation
 (
 )
 ;
-ElementState
-IntrinsicState
+void
+UpdateValidityElementStates
 (
+bool
+aNotify
 )
-const
-override
+final
 ;
 void
 BeforeSetAttr
