@@ -341,6 +341,16 @@ synthesisSmallCaps
 |
 |
 (
+synthesisPosition
+!
+=
+aOther
+.
+synthesisPosition
+)
+|
+|
+(
 fontFeatureSettings
 !
 =

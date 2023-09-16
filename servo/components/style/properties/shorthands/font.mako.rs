@@ -3083,6 +3083,11 @@ synthesis
 small
 -
 caps
+font
+-
+synthesis
+-
+position
 "
 derive_value_info
 =
@@ -3129,6 +3134,9 @@ style
 "
 "
 small_caps
+"
+"
+position
 "
 ]
 %
