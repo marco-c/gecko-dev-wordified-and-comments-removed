@@ -625,6 +625,11 @@ dx12_shader_compiler
 clone
 (
 )
+gles_minor_version
+:
+instance_desc
+.
+gles_minor_version
 }
 ;
 unsafe

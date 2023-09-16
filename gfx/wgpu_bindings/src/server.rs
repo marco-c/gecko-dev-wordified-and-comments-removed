@@ -401,6 +401,15 @@ Dx12Compiler
 :
 :
 Fxc
+gles_minor_version
+:
+wgt
+:
+:
+Gles3MinorVersion
+:
+:
+Automatic
 }
 )
 )

@@ -1826,6 +1826,10 @@ Vec
 Word
 >
 }
+ZeroValue
+(
+Word
+)
 }
 #
 [

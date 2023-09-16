@@ -11602,6 +11602,14 @@ then
 (
 |
 |
+{
+args
+.
+min_args
++
+=
+1
+;
 self
 .
 expression
@@ -11618,6 +11626,7 @@ reborrow
 (
 )
 )
+}
 )
 .
 transpose
@@ -11829,6 +11838,14 @@ then
 (
 |
 |
+{
+args
+.
+min_args
++
+=
+1
+;
 self
 .
 expression
@@ -11845,6 +11862,7 @@ reborrow
 (
 )
 )
+}
 )
 .
 transpose
