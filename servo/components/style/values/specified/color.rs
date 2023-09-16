@@ -759,9 +759,11 @@ pub
 struct
 LightDark
 {
+pub
 light
 :
 Color
+pub
 dark
 :
 Color
