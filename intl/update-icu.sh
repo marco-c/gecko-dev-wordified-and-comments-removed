@@ -644,12 +644,6 @@ iso8601
 .
 diff
 \
-double
--
-conversion
-.
-diff
-\
 ;
 do
 echo
