@@ -894,7 +894,15 @@ DeviceChangeForcedEvent
 (
 )
 ;
-void
+enum
+class
+KeepProcessing
+{
+No
+Yes
+}
+;
+KeepProcessing
 Process10Ms
 (
 )
