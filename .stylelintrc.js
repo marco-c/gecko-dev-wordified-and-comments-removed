@@ -224,11 +224,6 @@ ignoreFunctions
 :
 [
 "
-light
--
-dark
-"
-"
 -
 moz
 -
