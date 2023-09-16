@@ -3607,6 +3607,16 @@ version
 getVersionNumber
 (
 )
+println
+(
+"
+GeckoView
+version
+=
+"
++
+version
+)
 group
 =
 '
