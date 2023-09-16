@@ -1152,15 +1152,6 @@ StaticPrefs
 network_early_hints_enabled
 (
 )
-|
-|
-!
-StaticPrefs
-:
-:
-network_preload
-(
-)
 )
 {
 return

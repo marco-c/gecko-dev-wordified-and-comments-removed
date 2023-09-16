@@ -11415,14 +11415,6 @@ CORS_USE_CREDENTIALS
 }
 if
 (
-StaticPrefs
-:
-:
-network_preload
-(
-)
-&
-&
 !
 aLinkPreload
 &

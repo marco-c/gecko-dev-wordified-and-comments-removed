@@ -1655,17 +1655,6 @@ crossOrigin
 else
 if
 (
-mozilla
-:
-:
-StaticPrefs
-:
-:
-network_preload
-(
-)
-&
-&
 rel
 .
 LowerCaseEqualsASCII
