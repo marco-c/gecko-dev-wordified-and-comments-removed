@@ -7689,7 +7689,7 @@ if
 (
 aImageElement
 .
-IntrinsicState
+State
 (
 )
 .
@@ -8052,7 +8052,7 @@ if
 (
 aSVGImageElement
 .
-IntrinsicState
+State
 (
 )
 .
