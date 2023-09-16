@@ -1205,7 +1205,7 @@ _onMessageHandlerEvent
 ;
 messageHandler
 .
-applyInitialSessionDataItems
+initialize
 (
 sessionDataItems
 )
