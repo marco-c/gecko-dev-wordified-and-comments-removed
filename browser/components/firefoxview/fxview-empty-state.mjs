@@ -546,6 +546,16 @@ null
 }
 >
 <
+div
+class
+=
+"
+image
+-
+container
+"
+>
+<
 img
 class
 =
@@ -578,6 +588,10 @@ this
 mainImageUrl
 }
 /
+>
+<
+/
+div
 >
 <
 div
