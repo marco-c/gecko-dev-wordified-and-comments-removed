@@ -501,8 +501,6 @@ rust
 -
 cross
 -
-beta
--
 linux64
 -
 cbindgen
@@ -675,8 +673,6 @@ linux64
 rust
 -
 cross
--
-beta
 -
 linux64
 -
@@ -950,8 +946,6 @@ linux64
 rust
 -
 cross
--
-beta
 -
 linux64
 -
