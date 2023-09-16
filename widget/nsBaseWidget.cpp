@@ -10390,6 +10390,11 @@ SwipeFinished
 (
 )
 {
+if
+(
+mSwipeTracker
+)
+{
 mSwipeTracker
 -
 >
@@ -10401,6 +10406,7 @@ mSwipeTracker
 =
 nullptr
 ;
+}
 }
 void
 nsBaseWidget
