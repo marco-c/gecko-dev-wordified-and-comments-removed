@@ -1413,6 +1413,13 @@ query_index
 :
 u32
 }
+BeginOcclusionQuery
+{
+query_index
+:
+u32
+}
+EndOcclusionQuery
 BeginPipelineStatisticsQuery
 {
 query_set_id

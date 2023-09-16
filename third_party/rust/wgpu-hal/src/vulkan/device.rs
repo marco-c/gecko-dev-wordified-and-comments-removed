@@ -7739,6 +7739,9 @@ new
 rpass_debug_marker_active
 :
 false
+end_of_pass_timer_query
+:
+None
 }
 )
 }

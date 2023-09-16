@@ -4399,6 +4399,12 @@ None
 multiview
 :
 None
+timestamp_writes
+:
+None
+occlusion_query_set
+:
+None
 }
 ;
 unsafe

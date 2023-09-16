@@ -2151,6 +2151,16 @@ ErrorBufferType
 :
 :
 OutOfMemory
+DeviceError
+:
+:
+ResourceCreationFailed
+=
+>
+ErrorBufferType
+:
+:
+Internal
 }
 }
 }

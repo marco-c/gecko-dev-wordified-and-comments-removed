@@ -1147,6 +1147,10 @@ todo
 unsafe
 fn
 begin_compute_pass
+<
+'
+a
+>
 (
 &
 mut
@@ -1158,6 +1162,14 @@ crate
 :
 :
 ComputePassDescriptor
+<
+'
+a
+super
+:
+:
+Api
+>
 )
 {
 todo
