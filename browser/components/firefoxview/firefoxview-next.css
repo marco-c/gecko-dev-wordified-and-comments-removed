@@ -451,7 +451,7 @@ sidebar
 -
 width
 :
-286px
+288px
 ;
 -
 -
@@ -711,6 +711,10 @@ body
 display
 :
 grid
+;
+gap
+:
+12px
 ;
 grid
 -
@@ -1192,7 +1196,7 @@ margin
 -
 top
 )
-42px
+33px
 ;
 z
 -
