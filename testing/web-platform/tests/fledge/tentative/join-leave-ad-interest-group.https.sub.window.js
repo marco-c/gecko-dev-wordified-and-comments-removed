@@ -770,7 +770,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingWasmHelperUrl
+biddingWasmHelperURL
 :
 null
 }
@@ -789,7 +789,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingWasmHelperUrl
+biddingWasmHelperURL
 :
 '
 https
@@ -827,7 +827,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingWasmHelperUrl
+biddingWasmHelperURL
 :
 '
 data
@@ -853,7 +853,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingWasmHelperUrl
+biddingWasmHelperURL
 :
 {
 window
@@ -882,7 +882,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingWasmHelperUrl
+biddingWasmHelperURL
 :
 '
 relative
