@@ -80,7 +80,7 @@ const
 TRACKING_PAGE
 =
 "
-https
+http
 :
 /
 /
@@ -261,12 +261,12 @@ callbackAfterRemoval
 null
 thirdPartyPage
 :
-TEST_3RD_PARTY_PAGE
+TEST_3RD_PARTY_PAGE_HTTP
 errorMessageDomains
 :
 [
 "
-https
+http
 :
 /
 /
@@ -277,7 +277,7 @@ example
 org
 "
 "
-https
+http
 :
 /
 /
@@ -288,7 +288,7 @@ example
 org
 "
 "
-https
+http
 :
 /
 /
@@ -299,7 +299,7 @@ example
 org
 "
 "
-https
+http
 :
 /
 /
@@ -310,7 +310,7 @@ example
 org
 "
 "
-https
+http
 :
 /
 /
@@ -456,12 +456,12 @@ callbackAfterRemoval
 null
 thirdPartyPage
 :
-TEST_3RD_PARTY_PAGE
+TEST_3RD_PARTY_PAGE_HTTP
 errorMessageDomains
 :
 [
 "
-https
+http
 :
 /
 /
@@ -585,7 +585,7 @@ callbackAfterRemoval
 null
 thirdPartyPage
 :
-TEST_3RD_PARTY_PAGE
+TEST_3RD_PARTY_PAGE_HTTP
 errorMessageDomains
 :
 [
@@ -599,7 +599,7 @@ example
 net
 "
 "
-https
+http
 :
 /
 /
@@ -723,12 +723,12 @@ callbackAfterRemoval
 null
 thirdPartyPage
 :
-TEST_3RD_PARTY_PAGE
+TEST_3RD_PARTY_PAGE_HTTP
 errorMessageDomains
 :
 [
 "
-https
+http
 :
 /
 /

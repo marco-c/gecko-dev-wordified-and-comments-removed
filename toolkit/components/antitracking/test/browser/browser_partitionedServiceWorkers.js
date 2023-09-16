@@ -1937,7 +1937,7 @@ res
 .
 value
 "
-https
+http
 :
 /
 /
@@ -2107,7 +2107,7 @@ res
 .
 value
 "
-https
+http
 :
 /
 /
