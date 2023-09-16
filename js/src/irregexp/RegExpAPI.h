@@ -66,6 +66,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 Stack
 .
 h
@@ -219,7 +228,10 @@ mozilla
 :
 Maybe
 <
-uint32_t
+JS
+:
+:
+ColumnNumberZeroOrigin
 >
 column
 =
