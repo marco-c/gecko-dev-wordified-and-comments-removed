@@ -20,6 +20,13 @@ dom
 :
 fs
 {
+namespace
+data
+{
+class
+FileSystemFileManager
+;
+}
 struct
 SchemaVersion002
 {
@@ -34,6 +41,12 @@ InitializeConnection
 ResultConnection
 &
 aConn
+data
+:
+:
+FileSystemFileManager
+&
+aFileManager
 const
 Origin
 &
