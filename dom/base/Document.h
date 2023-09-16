@@ -4381,7 +4381,7 @@ CookieJarSettings
 )
 ;
 bool
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 ;
