@@ -1806,7 +1806,7 @@ p
 )
 {
 return
-NS_ERROR_PARSING_HTTP_STATUS_LINE
+NS_ERROR_FAILURE
 ;
 }
 const
@@ -1861,7 +1861,7 @@ p
 )
 {
 return
-NS_ERROR_PARSING_HTTP_STATUS_LINE
+NS_ERROR_FAILURE
 ;
 }
 nsDependentCSubstring
@@ -1895,7 +1895,7 @@ rv
 )
 {
 return
-NS_ERROR_PARSING_HTTP_STATUS_LINE
+NS_ERROR_FAILURE
 ;
 }
 while
