@@ -18245,8 +18245,6 @@ aAsync
 bool
 aDefer
 bool
-aNoModule
-bool
 aLinkPreload
 const
 ReferrerPolicy
@@ -18286,14 +18284,6 @@ ScriptKind
 :
 eClassic
 ;
-if
-(
-aNoModule
-)
-{
-return
-;
-}
 static
 const
 char
