@@ -8245,8 +8245,8 @@ int
 )
 ;
 method
+AnyThread
 NonNull
-UiThread
 public
 GeckoResult
 <
@@ -8261,8 +8261,8 @@ String
 )
 ;
 method
+AnyThread
 NonNull
-UiThread
 public
 GeckoResult
 <
