@@ -360,7 +360,10 @@ thread
 )
 ;
 const
+[
 markers
+counter
+]
 =
 await
 observeStylingInTargetWindow
@@ -369,6 +372,16 @@ panel
 .
 ownerGlobal
 5
+)
+;
+Assert
+.
+equal
+(
+markers
+.
+length
+counter
 )
 ;
 Assert
