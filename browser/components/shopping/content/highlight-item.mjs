@@ -149,6 +149,8 @@ MozLitElement
 {
 l10nId
 ;
+highlightType
+;
 /
 *
 *
@@ -321,6 +323,11 @@ class
 highlight
 -
 icon
+{
+this
+.
+highlightType
+}
 "
 >
 <

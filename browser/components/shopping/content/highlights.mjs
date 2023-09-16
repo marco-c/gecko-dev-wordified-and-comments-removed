@@ -644,6 +644,12 @@ l10nId
 ;
 highlightEl
 .
+highlightType
+=
+type
+;
+highlightEl
+.
 reviews
 =
 reviews
