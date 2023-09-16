@@ -3106,6 +3106,10 @@ MozScriptSizeMultiplier
 "
                 
 "
+TransformBox
+"
+                
+"
 TextDecorationSkipInk
 "
                 

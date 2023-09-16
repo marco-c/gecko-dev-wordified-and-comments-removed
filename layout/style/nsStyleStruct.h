@@ -6019,7 +6019,7 @@ mTransformStyle
 mozilla
 :
 :
-StyleGeometryBox
+StyleTransformBox
 mTransformBox
 ;
 mozilla
