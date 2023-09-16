@@ -3321,9 +3321,6 @@ rp_id
 name
 :
 None
-icon
-:
-None
 }
 ;
 token

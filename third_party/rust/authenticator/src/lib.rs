@@ -233,12 +233,6 @@ get_info
 :
 AuthenticatorInfo
 ;
-use
-serde
-:
-:
-Serialize
-;
 pub
 use
 ctap2
@@ -251,6 +245,12 @@ make_credentials
 :
 :
 MakeCredentialsResult
+;
+use
+serde
+:
+:
+Serialize
 ;
 pub
 use
