@@ -462,7 +462,6 @@ split
 )
 if
 p
-not
 in
 expired
 ]
@@ -472,8 +471,7 @@ len
 (
 parts
 )
-=
-=
+>
 0
 :
                 
