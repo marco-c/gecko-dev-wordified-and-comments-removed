@@ -77,7 +77,6 @@ DataType
 8
 {
 Persistent
-Temporary
 Private
 }
 ;
