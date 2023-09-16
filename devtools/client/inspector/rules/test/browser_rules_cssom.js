@@ -114,7 +114,6 @@ is
 rule
 .
 ruleLine
--
 1
 "
 the
@@ -186,8 +185,7 @@ is
 rule
 .
 ruleLine
--
-1
+2
 "
 the
 property
