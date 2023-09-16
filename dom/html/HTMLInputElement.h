@@ -1367,6 +1367,11 @@ UpdateBadInputValidityState
 )
 ;
 void
+UpdatePlaceholderShownState
+(
+)
+;
+void
 UpdateAllValidityStates
 (
 bool
