@@ -21,6 +21,11 @@ env_interposer
 .
 cpp
 "
+"
+getline_interposer
+.
+cpp
+"
 ]
 if
 CONFIG
