@@ -358,6 +358,21 @@ login_hints
 john_doe
 "
 ]
+   
+"
+hosted_domains
+"
+:
+[
+"
+idp
+.
+example
+"
+"
+example
+"
+]
   
 }
 ]
