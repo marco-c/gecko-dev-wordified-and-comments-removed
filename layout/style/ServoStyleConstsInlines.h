@@ -4122,8 +4122,6 @@ _0
 {
 return
 0
-.
-0f
 ;
 }
 nscoord
