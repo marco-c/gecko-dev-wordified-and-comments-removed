@@ -588,6 +588,14 @@ GetOrCreate
 ;
 static
 bool
+IsRFPPrefEnabled
+(
+bool
+aIsPrivateMode
+)
+;
+static
+bool
 IsRFPEnabledFor
 (
 RFPTarget
