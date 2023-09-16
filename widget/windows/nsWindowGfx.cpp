@@ -957,7 +957,6 @@ if
 aDC
 &
 &
-(
 renderer
 -
 >
@@ -970,10 +969,8 @@ LayersBackend
 :
 :
 LAYERS_NONE
-)
 &
 &
-(
 TransparencyMode
 :
 :
@@ -981,7 +978,6 @@ Transparent
 =
 =
 mTransparencyMode
-)
 )
 {
 :
@@ -1019,7 +1015,6 @@ aDC
 ?
 aDC
 :
-(
 :
 :
 BeginPaint
@@ -1028,7 +1023,6 @@ mWnd
 &
 ps
 )
-)
 ;
 bool
 forceRepaint
@@ -1036,7 +1030,6 @@ forceRepaint
 aDC
 |
 |
-(
 TransparencyMode
 :
 :
@@ -1044,7 +1037,6 @@ Transparent
 =
 =
 mTransparencyMode
-)
 ;
 LayoutDeviceIntRegion
 region
