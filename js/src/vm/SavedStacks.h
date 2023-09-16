@@ -1089,13 +1089,6 @@ HandleObject
 stack
 )
 ;
-uint32_t
-FixupMaybeWASMColumnForDisplay
-(
-uint32_t
-column
-)
-;
 js
 :
 :
