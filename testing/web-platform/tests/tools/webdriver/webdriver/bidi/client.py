@@ -659,6 +659,17 @@ self
         
 self
 .
+network
+=
+modules
+.
+Network
+(
+self
+)
+        
+self
+.
 script
 =
 modules
