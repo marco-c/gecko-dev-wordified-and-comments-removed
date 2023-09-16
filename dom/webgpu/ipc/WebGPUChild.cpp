@@ -7066,6 +7066,16 @@ cull_mode
 cullFace
 ;
 }
+desc
+.
+primitive
+.
+unclipped_depth
+=
+prim
+.
+mUnclippedDepth
+;
 }
 desc
 .
