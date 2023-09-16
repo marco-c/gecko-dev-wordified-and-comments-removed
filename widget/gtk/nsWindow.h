@@ -3515,7 +3515,7 @@ aOffset
 ;
 nsWindow
 *
-WaylandPopupGetTopmostWindow
+GetTopmostWindow
 (
 )
 ;
