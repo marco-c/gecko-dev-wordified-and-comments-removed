@@ -779,7 +779,7 @@ std
 :
 vector
 <
-ReportBlock
+ReportBlockData
 >
 GetRemoteRTCPReportBlocks
 (
