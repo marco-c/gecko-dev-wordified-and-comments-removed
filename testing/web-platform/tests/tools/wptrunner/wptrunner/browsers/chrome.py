@@ -629,7 +629,7 @@ nonexistent
 *
 .
 test
-~
+^
 NOTFOUND
 MAP
 *
