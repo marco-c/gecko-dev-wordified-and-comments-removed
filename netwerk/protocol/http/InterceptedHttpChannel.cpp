@@ -3212,16 +3212,12 @@ Append
 aReason
 )
 ;
-NS_ENSURE_SUCCESS
-(
 mSynthesizedResponseHead
 -
 >
 ParseStatusLine
 (
 statusLine
-)
-NS_ERROR_FAILURE
 )
 ;
 return

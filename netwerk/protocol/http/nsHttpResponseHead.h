@@ -385,7 +385,7 @@ char
 block
 )
 ;
-nsresult
+void
 ParseStatusLine
 (
 const
@@ -648,7 +648,7 @@ MOZ_REQUIRES
 mRecursiveMutex
 )
 ;
-nsresult
+void
 ParseStatusLine_locked
 (
 const
