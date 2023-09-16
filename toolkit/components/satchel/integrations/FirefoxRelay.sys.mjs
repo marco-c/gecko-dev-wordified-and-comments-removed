@@ -640,7 +640,7 @@ login
 -
 to
 -
-fxa
+account
 "
 )
 ;
