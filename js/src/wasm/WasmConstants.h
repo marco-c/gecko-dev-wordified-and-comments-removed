@@ -482,6 +482,9 @@ ReturnCallIndirect
 CallRef
 =
 0x14
+ReturnCallRef
+=
+0x15
 Delegate
 =
 0x18
