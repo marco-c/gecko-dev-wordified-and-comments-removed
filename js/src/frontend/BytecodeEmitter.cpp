@@ -20508,12 +20508,9 @@ isCompound
 if
 (
 !
-newSrcNote
+emit1
 (
-SrcNoteType
-:
-:
-AssignOp
+compoundOp
 )
 )
 {
@@ -20526,7 +20523,10 @@ if
 !
 emit1
 (
-compoundOp
+JSOp
+:
+:
+NopIsAssignOp
 )
 )
 {

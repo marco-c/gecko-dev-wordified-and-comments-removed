@@ -3286,6 +3286,12 @@ case
 JSOp
 :
 :
+NopIsAssignOp
+:
+case
+JSOp
+:
+:
 TryDestructuring
 :
 case

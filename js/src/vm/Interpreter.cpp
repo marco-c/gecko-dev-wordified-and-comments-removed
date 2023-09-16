@@ -12159,6 +12159,10 @@ NopDestructuring
 )
 CASE
 (
+NopIsAssignOp
+)
+CASE
+(
 TryDestructuring
 )
 {
