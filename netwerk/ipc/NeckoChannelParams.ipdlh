@@ -454,6 +454,12 @@ sandboxFlags
 uint32_t
 triggeringSandboxFlags
 ;
+uint64_t
+triggeringWindowId
+;
+bool
+triggeringStorageAccess
+;
 nsContentPolicyType
 contentPolicyType
 ;
@@ -680,6 +686,12 @@ parserCreatedScript
 ;
 uint32_t
 triggeringSandboxFlags
+;
+uint64_t
+triggeringWindowId
+;
+bool
+triggeringStorageAccess
 ;
 bool
 serviceWorkerTaintingSynthesized
