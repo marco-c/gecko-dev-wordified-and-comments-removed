@@ -365,16 +365,6 @@ Sync
 )
 ;
 }
-#
-[
-cfg
-(
-not
-(
-no_libprocmacro_unwind_safe
-)
-)
-]
 mod
 unwind_safe
 {

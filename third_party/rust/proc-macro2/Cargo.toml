@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2018
+2021
 "
 rust
 -
@@ -109,7 +109,7 @@ version
 "
 1
 .
-31
+56
 "
 name
 =
@@ -125,7 +125,7 @@ version
 .
 0
 .
-59
+66
 "
 authors
 =
@@ -300,6 +300,17 @@ cfg
 "
 "
 doc_cfg
+"
+"
+-
+-
+generate
+-
+link
+-
+to
+-
+definition
 "
 ]
 targets

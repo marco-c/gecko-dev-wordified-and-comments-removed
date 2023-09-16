@@ -27,12 +27,6 @@ std
 :
 :
 iter
-:
-:
-{
-self
-FromIterator
-}
 ;
 #
 [
