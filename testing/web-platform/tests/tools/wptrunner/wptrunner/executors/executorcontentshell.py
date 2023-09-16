@@ -39,6 +39,14 @@ BaseException
 :
     
 pass
+class
+LeakError
+(
+BaseException
+)
+:
+    
+pass
 def
 _read_line
 (
@@ -54,7 +62,7 @@ errors
 "
 strict
 "
-raise_crash
+raise_crash_leak
 =
 True
 )
@@ -101,7 +109,7 @@ specified
 encoding
 .
 If
-raise_crash
+raise_crash_leak
 is
 set
 a
@@ -117,6 +125,21 @@ to
 be
 a
 crash
+message
+or
+a
+LeakError
+is
+raised
+if
+the
+line
+happens
+to
+be
+a
+    
+leak
 message
 .
     
@@ -163,7 +186,7 @@ None
 )
         
 if
-raise_crash
+raise_crash_leak
 and
 line
 .
@@ -179,6 +202,26 @@ CRASHED
             
 raise
 CrashError
+(
+)
+        
+if
+raise_crash_leak
+and
+line
+.
+startswith
+(
+b
+"
+#
+LEAK
+"
+)
+:
+            
+raise
+LeakError
 (
 )
     
@@ -869,7 +912,7 @@ self
 .
 stdout_queue
 deadline
-raise_crash
+raise_crash_leak
 =
 False
 )
@@ -1428,6 +1471,31 @@ result_cls
 (
 "
 CRASH
+"
+errors
+)
+[
+]
+)
+    
+if
+isinstance
+(
+exception
+LeakError
+)
+:
+        
+return
+(
+test
+.
+result_cls
+(
+"
+INTERNAL
+-
+ERROR
 "
 errors
 )
