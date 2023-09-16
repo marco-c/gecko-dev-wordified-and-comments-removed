@@ -2582,6 +2582,10 @@ nsHttp
 :
 :
 Cookie
+.
+val
+(
+)
 )
 )
 {

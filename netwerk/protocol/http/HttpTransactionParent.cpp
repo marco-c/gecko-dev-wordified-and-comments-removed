@@ -2490,12 +2490,13 @@ httpChannel
 >
 SetRequestHeader
 (
-nsDependentCString
-(
 nsHttp
 :
 :
 Alternate_Service_Used
+.
+val
+(
 )
 aAltSvcUsed
 .
