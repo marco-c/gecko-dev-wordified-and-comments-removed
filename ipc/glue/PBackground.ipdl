@@ -429,9 +429,6 @@ protocol
 PBackground
 {
 manages
-PBackgroundDataBridge
-;
-manages
 PBackgroundIDBFactory
 ;
 manages
@@ -505,9 +502,6 @@ PIdleScheduler
 ;
 manages
 PLockManager
-;
-manages
-PMediaTransport
 ;
 manages
 PRemoteWorker
@@ -590,13 +584,6 @@ PBackgroundTest
 (
 nsCString
 testArg
-)
-;
-async
-PBackgroundDataBridge
-(
-uint64_t
-channelID
 )
 ;
 async
@@ -1198,11 +1185,6 @@ aPrincipalInfo
 ;
 async
 PIdleScheduler
-(
-)
-;
-async
-PMediaTransport
 (
 )
 ;
