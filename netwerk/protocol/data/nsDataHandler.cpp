@@ -950,6 +950,15 @@ parsed
 IsBase64
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+network_url_strict_data_url_base64_placement
+(
+)
 )
 {
 aIsBase64
