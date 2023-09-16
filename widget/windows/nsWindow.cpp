@@ -37384,13 +37384,6 @@ uEdge
 =
 edge
 ;
-static
-constexpr
-DWORD
-ABM_GETAUTOHIDEBAREX
-=
-0x000b
-;
 HWND
 appBarHwnd
 =
