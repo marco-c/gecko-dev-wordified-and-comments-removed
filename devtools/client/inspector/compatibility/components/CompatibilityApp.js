@@ -305,7 +305,7 @@ PropTypes
 func
 .
 isRequired
-isSettingsVisibile
+isSettingsVisible
 :
 PropTypes
 .
@@ -371,7 +371,7 @@ const
 {
 dispatch
 getString
-isSettingsVisibile
+isSettingsVisible
 isTopLevelTargetProcessing
 selectedNodeIssues
 topLevelTargetIssues
@@ -477,7 +477,7 @@ app__container
 "
 +
 (
-isSettingsVisibile
+isSettingsVisible
 ?
 "
 compatibility
@@ -595,7 +595,7 @@ app__footer
 }
 )
 )
-isSettingsVisibile
+isSettingsVisible
 ?
 Settings
 (
@@ -615,13 +615,13 @@ state
 {
 return
 {
-isSettingsVisibile
+isSettingsVisible
 :
 state
 .
 compatibility
 .
-isSettingsVisibile
+isSettingsVisible
 isTopLevelTargetProcessing
 :
 state

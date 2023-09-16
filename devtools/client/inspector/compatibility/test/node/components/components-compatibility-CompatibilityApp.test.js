@@ -246,7 +246,7 @@ mockStore
 compatibility
 :
 {
-isSettingsVisibile
+isSettingsVisible
 :
 true
 selectedNodeIssues

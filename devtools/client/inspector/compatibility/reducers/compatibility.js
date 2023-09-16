@@ -60,7 +60,7 @@ defaultTargetBrowsers
 :
 [
 ]
-isSettingsVisibile
+isSettingsVisible
 :
 false
 isTopLevelTargetProcessing
@@ -449,7 +449,7 @@ assign
 }
 state
 {
-isSettingsVisibile
+isSettingsVisible
 :
 visibility
 }
