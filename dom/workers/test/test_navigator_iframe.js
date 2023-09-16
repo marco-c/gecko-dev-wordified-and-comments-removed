@@ -320,6 +320,18 @@ AppConstants
 .
 RELEASE_OR_BETA
 ;
+var
+isAndroid
+=
+AppConstants
+.
+platform
+=
+=
+"
+android
+"
+;
 worker
 .
 postMessage
@@ -327,6 +339,7 @@ postMessage
 {
 isNightly
 isRelease
+isAndroid
 }
 )
 ;
