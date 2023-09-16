@@ -439,6 +439,7 @@ Assert
 .
 ok
 (
+!
 Glean
 .
 topsites
@@ -873,6 +874,7 @@ Assert
 .
 ok
 (
+!
 Glean
 .
 topsites
