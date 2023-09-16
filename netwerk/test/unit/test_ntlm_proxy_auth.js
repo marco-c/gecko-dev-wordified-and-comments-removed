@@ -1114,12 +1114,6 @@ ntlmTypeTwoCount
 ;
 response
 .
-finish
-(
-)
-;
-response
-.
 seizePower
 (
 )
@@ -1129,6 +1123,12 @@ response
 bodyOutPutStream
 .
 close
+(
+)
+;
+response
+.
+finish
 (
 )
 ;
