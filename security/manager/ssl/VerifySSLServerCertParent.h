@@ -158,7 +158,7 @@ override
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mBackgroundThread
 ;

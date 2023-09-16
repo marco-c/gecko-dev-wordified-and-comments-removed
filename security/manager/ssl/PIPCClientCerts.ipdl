@@ -1,8 +1,4 @@
 include
-protocol
-PBackground
-;
-include
 PSMIPCTypes
 ;
 using
@@ -31,9 +27,6 @@ sync
 protocol
 PIPCClientCerts
 {
-manager
-PBackground
-;
 parent
 :
 sync
