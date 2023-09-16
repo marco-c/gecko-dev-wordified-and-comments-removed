@@ -1193,7 +1193,7 @@ allowNonUtility
 |
 |
 !
-isNightly
+isNightlyOrEalyBeta
 (
 )
 )

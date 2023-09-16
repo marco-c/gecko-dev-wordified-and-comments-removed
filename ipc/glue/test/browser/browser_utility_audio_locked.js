@@ -86,7 +86,7 @@ verifyForUtility
 =
 !
 !
-isNightly
+isNightlyOrEalyBeta
 (
 )
 ;
