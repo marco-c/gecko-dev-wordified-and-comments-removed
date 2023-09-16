@@ -92,9 +92,10 @@ MAX_CHANNELS
 =
 32
 ;
-typedef
-uint32_t
+using
 ChannelMap
+=
+uint32_t
 ;
 ChannelLayout
 (

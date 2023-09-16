@@ -738,7 +738,7 @@ mProfile
 =
 AssertedCast
 <
-int8_t
+uint8_t
 >
 (
 mFmtChunk
@@ -757,7 +757,7 @@ mExtendedProfile
 =
 AssertedCast
 <
-int8_t
+uint8_t
 >
 (
 mFmtChunk

@@ -2189,10 +2189,10 @@ mChannelMap
 uint32_t
 mBitDepth
 ;
-int8_t
+uint8_t
 mProfile
 ;
-int8_t
+uint8_t
 mExtendedProfile
 ;
 AudioCodecSpecificVariant

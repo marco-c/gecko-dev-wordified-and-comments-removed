@@ -8,11 +8,12 @@ h
 namespace
 mozilla
 {
-typedef
+using
+ChannelLayout
+=
 AudioConfig
 :
 :
-ChannelLayout
 ChannelLayout
 ;
 void
