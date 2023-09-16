@@ -2974,7 +2974,7 @@ toml
         
 [
 '
-test_foobar
+test_fooar
 .
 html
 '
@@ -2984,13 +2984,17 @@ fail
 -
 if
 =
-'
+[
+          
+"
 keyword
-'
+"
 #
 <
 comment
 >
+        
+]
     
 :
 param
