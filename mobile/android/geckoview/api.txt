@@ -13988,7 +13988,7 @@ highlights
 field
 public
 final
-int
+long
 lastAnalysisTime
 ;
 field

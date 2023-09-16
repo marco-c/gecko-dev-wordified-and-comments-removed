@@ -15210,7 +15210,7 @@ highlights
 ;
 public
 final
-int
+long
 lastAnalysisTime
 ;
 public
@@ -15328,7 +15328,7 @@ lastAnalysisTime
 =
 message
 .
-getInt
+getLong
 (
 "
 last_analysis_time
