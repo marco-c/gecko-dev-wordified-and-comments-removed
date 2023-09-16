@@ -1296,13 +1296,7 @@ EventDispatcher
 :
 Dispatch
 (
-MOZ_KnownLive
-(
-ToSupports
-(
 aTargetWindow
-)
-)
 presContext
 internalEvent
 aEvent

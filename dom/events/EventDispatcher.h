@@ -580,7 +580,10 @@ static
 nsresult
 Dispatch
 (
-nsISupports
+dom
+:
+:
+EventTarget
 *
 aTarget
 nsPresContext
@@ -626,7 +629,10 @@ static
 nsresult
 DispatchDOMEvent
 (
-nsISupports
+dom
+:
+:
+EventTarget
 *
 aTarget
 WidgetEvent

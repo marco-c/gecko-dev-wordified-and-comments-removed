@@ -3297,7 +3297,16 @@ EventDispatcher
 :
 Dispatch
 (
+MOZ_KnownLive
+(
+nsGlobalWindowOuter
+:
+:
+Cast
+(
 window
+)
+)
 nullptr
 &
 event

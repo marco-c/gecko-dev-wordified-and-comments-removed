@@ -10212,7 +10212,16 @@ EventDispatcher
 :
 Dispatch
 (
+MOZ_KnownLive
+(
+nsGlobalWindowOuter
+:
+:
+Cast
+(
 window
+)
+)
 mPresContext
 &
 event

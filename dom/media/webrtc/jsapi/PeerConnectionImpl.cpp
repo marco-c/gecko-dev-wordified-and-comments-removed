@@ -14380,7 +14380,16 @@ EventDispatcher
 :
 DispatchDOMEvent
 (
+MOZ_KnownLive
+(
+nsGlobalWindowInner
+:
+:
+Cast
+(
 window
+)
+)
 nullptr
 event
 nullptr
