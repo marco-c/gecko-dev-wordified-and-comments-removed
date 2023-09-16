@@ -530,3 +530,15 @@ smoothScroll
 true
 )
 ;
+user_pref
+(
+"
+gecko
+.
+handlerService
+.
+defaultHandlersVersion
+"
+100
+)
+;
