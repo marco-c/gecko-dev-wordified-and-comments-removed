@@ -4340,7 +4340,7 @@ DocumentState
 DocumentState
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 self
 .
@@ -6869,7 +6869,7 @@ ElementState
 ElementState
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 self
 .

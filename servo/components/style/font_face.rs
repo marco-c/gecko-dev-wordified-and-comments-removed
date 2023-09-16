@@ -589,11 +589,6 @@ resource
 [
 derive
 (
-Clone
-Copy
-Debug
-Eq
-PartialEq
 ToShmem
 )
 ]

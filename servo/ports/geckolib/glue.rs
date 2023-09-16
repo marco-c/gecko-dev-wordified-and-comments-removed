@@ -2209,7 +2209,7 @@ traversal_flags
 TraversalFlags
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 raw_flags
 )
@@ -28055,7 +28055,7 @@ TextEmphasisPosition
 TextEmphasisPosition
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 value
 as
@@ -36845,7 +36845,7 @@ state
 ElementState
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 state
 )
@@ -36919,7 +36919,7 @@ state
 ElementState
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 state
 )
@@ -36981,7 +36981,7 @@ state
 DocumentState
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 state
 )
@@ -40611,7 +40611,7 @@ iter
 DocumentState
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 states_changed
 )

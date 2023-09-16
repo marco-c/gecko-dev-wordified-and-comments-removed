@@ -5575,12 +5575,8 @@ way
 [
 derive
 (
-Clone
-Copy
 Default
-Eq
 MallocSizeOf
-PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToResolvedValue

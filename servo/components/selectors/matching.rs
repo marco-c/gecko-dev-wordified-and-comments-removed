@@ -149,14 +149,6 @@ match
 a
 selector
 .
-#
-[
-derive
-(
-Clone
-Copy
-)
-]
 pub
 struct
 ElementSelectorFlags

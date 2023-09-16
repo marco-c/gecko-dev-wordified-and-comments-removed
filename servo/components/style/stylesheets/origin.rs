@@ -207,9 +207,6 @@ OriginFlags
 [
 derive
 (
-Clone
-Copy
-PartialEq
 MallocSizeOf
 )
 ]
@@ -379,7 +376,7 @@ Self
 Self
 :
 :
-from_bits_retain
+from_bits_truncate
 (
 origin
 as

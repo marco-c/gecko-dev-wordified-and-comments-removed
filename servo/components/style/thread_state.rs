@@ -30,16 +30,6 @@ for
 multiple
 assertions
 .
-#
-[
-derive
-(
-Clone
-Copy
-Eq
-PartialEq
-)
-]
 pub
 struct
 ThreadState

@@ -2261,11 +2261,7 @@ grid
 [
 derive
 (
-Clone
-Copy
-Eq
 MallocSizeOf
-PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToResolvedValue
