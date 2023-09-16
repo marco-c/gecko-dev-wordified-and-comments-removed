@@ -378,6 +378,14 @@ glob
 *
 .
 list
+glob
+:
+*
+*
+/
+*
+.
+toml
 path
 :
 testing
