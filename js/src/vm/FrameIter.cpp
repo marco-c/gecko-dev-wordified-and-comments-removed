@@ -3076,7 +3076,10 @@ column
 )
 ;
 }
-unsigned
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 columnNumber
 ;
 unsigned
@@ -3107,13 +3110,7 @@ JS
 :
 TaggedColumnNumberZeroOrigin
 (
-JS
-:
-:
-LimitedColumnNumberZeroOrigin
-(
 columnNumber
-)
 )
 ;
 }
