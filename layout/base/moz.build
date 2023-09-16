@@ -903,6 +903,6 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]

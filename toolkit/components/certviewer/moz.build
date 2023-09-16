@@ -33,7 +33,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 EXTRA_JS_MODULES

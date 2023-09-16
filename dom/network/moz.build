@@ -34,7 +34,7 @@ tests
 /
 chrome
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

@@ -1004,7 +1004,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 TESTING_JS_MODULES

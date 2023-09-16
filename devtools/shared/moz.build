@@ -165,7 +165,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

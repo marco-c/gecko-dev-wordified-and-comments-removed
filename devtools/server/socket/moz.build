@@ -9,7 +9,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 DevToolsModules

@@ -31,6 +31,6 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]

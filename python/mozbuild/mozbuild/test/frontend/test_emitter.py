@@ -7655,7 +7655,7 @@ external2
 "
 chrome
 .
-ini
+toml
 "
 :
 {
@@ -7676,7 +7676,7 @@ installs
 "
 chrome
 .
-ini
+toml
 "
 :
 False

@@ -94,6 +94,6 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]

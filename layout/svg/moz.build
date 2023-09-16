@@ -46,7 +46,7 @@ tests
 /
 chrome
 .
-ini
+toml
 "
 ]
 EXPORTS

@@ -69,7 +69,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 FINAL_LIBRARY

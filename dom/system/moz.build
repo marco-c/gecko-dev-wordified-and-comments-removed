@@ -212,7 +212,7 @@ tests
 /
 chrome
 .
-ini
+toml
 "
 )
 :
@@ -597,7 +597,7 @@ tests
 /
 chrome
 .
-ini
+toml
 "
 "
 tests
@@ -606,7 +606,7 @@ ioutils
 /
 chrome
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

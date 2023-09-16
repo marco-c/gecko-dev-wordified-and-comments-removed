@@ -258,7 +258,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 EXPORTS

@@ -21,7 +21,7 @@ test
 /
 chrome
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS
