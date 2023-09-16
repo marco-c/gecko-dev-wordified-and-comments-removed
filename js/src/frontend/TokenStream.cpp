@@ -4727,10 +4727,12 @@ c_str
 )
 0
 line
-column
-.
-oneOriginValue
+JS
+:
+:
+ColumnNumberOneOrigin
 (
+column
 )
 GetErrorMessage
 nullptr

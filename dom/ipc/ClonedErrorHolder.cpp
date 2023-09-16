@@ -1072,7 +1072,12 @@ JS_WriteUint32Pair
 (
 aWriter
 mLineNumber
+*
 mColumn
+.
+addressOfValueForTranscode
+(
+)
 )
 &
 &
@@ -1194,8 +1199,11 @@ JS_ReadUint32Pair
 aReader
 &
 mLineNumber
-&
 mColumn
+.
+addressOfValueForTranscode
+(
+)
 )
 &
 &

@@ -3190,8 +3190,14 @@ report
 .
 column
 =
+JS
+:
+:
+ColumnNumberOneOrigin
+(
 columnNumber
 (
+)
 )
 ;
 RootedString
