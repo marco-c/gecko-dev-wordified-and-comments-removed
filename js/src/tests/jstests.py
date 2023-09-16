@@ -3919,6 +3919,14 @@ gecko_e10s
 False
             
 "
+product
+"
+:
+"
+firefox
+"
+            
+"
 verify
 "
 :
@@ -4127,6 +4135,20 @@ excluded_paths
     
 )
     
+subsuites
+=
+testloader
+.
+load_subsuites
+(
+logger
+run_info
+None
+set
+(
+)
+)
+    
 loader
 =
 testloader
@@ -4143,6 +4165,10 @@ testharness
 ]
         
 run_info
+        
+subsuites
+=
+subsuites
         
 manifest_filters
 =
@@ -4274,6 +4300,10 @@ in
 loader
 .
 tests
+[
+"
+"
+]
 [
 "
 testharness
