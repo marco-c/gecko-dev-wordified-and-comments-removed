@@ -10149,7 +10149,7 @@ lastPosition
 msec
 ;
 }
-uint32_t
+uint64_t
 samplerate
 =
 stm
