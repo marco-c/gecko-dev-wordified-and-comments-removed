@@ -1,3 +1,11 @@
+DIRS
++
+=
+[
+"
+generated
+"
+]
 DevToolsModules
 (
 "
@@ -26,6 +34,13 @@ js
 parsing
 -
 utils
+.
+js
+"
+"
+properties
+-
+db
 .
 js
 "
