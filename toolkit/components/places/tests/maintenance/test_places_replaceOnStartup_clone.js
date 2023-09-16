@@ -13,7 +13,7 @@ test_database_replacement
 migration
 "
 "
-places_v52
+places_v43
 .
 sqlite
 "
