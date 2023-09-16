@@ -478,6 +478,7 @@ ColorRange
 :
 :
 FULL
+false
 )
 ;
 bool

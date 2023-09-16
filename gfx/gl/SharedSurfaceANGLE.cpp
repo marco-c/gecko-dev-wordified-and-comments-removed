@@ -777,6 +777,9 @@ ColorRange
 :
 :
 FULL
+!
+!
+mKeyedMutex
 )
 )
 ;

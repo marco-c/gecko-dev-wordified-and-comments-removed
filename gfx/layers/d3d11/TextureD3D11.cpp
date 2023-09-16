@@ -1493,7 +1493,7 @@ aFlags
 &
 ALLOC_CLEAR_BUFFER
 )
-mHasSynchronization
+mHasKeyedMutex
 (
 HasKeyedMutex
 (
@@ -1861,7 +1861,7 @@ aInfo
 .
 hasSynchronization
 =
-mHasSynchronization
+mHasKeyedMutex
 ;
 }
 void
@@ -1883,7 +1883,7 @@ if
 aSyncObject
 |
 |
-mHasSynchronization
+mHasKeyedMutex
 )
 {
 return
@@ -2042,6 +2042,7 @@ mFormat
 mSize
 mColorSpace
 mColorRange
+mHasKeyedMutex
 )
 ;
 return
@@ -4209,6 +4210,14 @@ format
 (
 )
 )
+mHasKeyedMutex
+(
+aDescriptor
+.
+hasKeyedMutex
+(
+)
+)
 mColorSpace
 (
 aDescriptor
@@ -5007,6 +5016,7 @@ mFormat
 mColorSpace
 mColorRange
 mSize
+mHasKeyedMutex
 )
 ;
 if

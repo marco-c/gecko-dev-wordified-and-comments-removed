@@ -662,7 +662,7 @@ false
 ;
 const
 bool
-mHasSynchronization
+mHasKeyedMutex
 ;
 RefPtr
 <
@@ -1785,6 +1785,9 @@ gfx
 :
 SurfaceFormat
 mFormat
+;
+bool
+mHasKeyedMutex
 ;
 public
 :

@@ -463,6 +463,9 @@ colorSpace
 ColorRange
 colorRange
 ;
+bool
+hasKeyedMutex
+;
 }
 ;
 [
