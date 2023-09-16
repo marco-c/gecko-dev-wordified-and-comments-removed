@@ -4990,6 +4990,13 @@ wantUntrusted
 :
 true
 }
+PolledRequestMade
+:
+{
+wantUntrusted
+:
+true
+}
 /
 /
 This
