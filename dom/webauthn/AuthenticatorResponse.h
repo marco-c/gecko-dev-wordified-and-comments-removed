@@ -141,7 +141,10 @@ MutableHandle
 JSObject
 *
 >
-aRetVal
+aValue
+ErrorResult
+&
+aRv
 )
 ;
 nsresult
