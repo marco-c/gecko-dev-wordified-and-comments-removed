@@ -1722,7 +1722,7 @@ retry_unexpected
 ]
     
 for
-i
+retry_index
 in
 range
 (
@@ -1733,7 +1733,7 @@ retry_counts
 :
         
 if
-i
+retry_index
 >
 0
 :
@@ -1855,6 +1855,8 @@ tests
 test_source
                           
 test_implementations
+                          
+retry_index
                           
 kwargs
 [
