@@ -74,9 +74,7 @@ await
 assertNotRestoredReasonsEquals
 (
 rc1
-"
-yes
-"
+true
 rc1_url
 null
 null
