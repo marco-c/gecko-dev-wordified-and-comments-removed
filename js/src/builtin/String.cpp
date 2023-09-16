@@ -8283,9 +8283,6 @@ true
 }
 #
 endif
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 IsStringWellFormedUnicode
@@ -8819,8 +8816,6 @@ str_toWellFormed
 JS_FS_END
 }
 ;
-#
-endif
 static
 bool
 str_charAt
@@ -20560,9 +20555,6 @@ return
 false
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 cx
@@ -20595,8 +20587,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;
