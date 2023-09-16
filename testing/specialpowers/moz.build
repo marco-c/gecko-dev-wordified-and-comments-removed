@@ -66,15 +66,6 @@ modules
 "
 content
 /
-ContentTaskUtils
-.
-sys
-.
-mjs
-"
-"
-content
-/
 MockColorPicker
 .
 sys
