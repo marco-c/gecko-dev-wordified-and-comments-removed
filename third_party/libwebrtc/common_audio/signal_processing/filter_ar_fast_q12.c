@@ -1,10 +1,10 @@
 #
 include
-<
+"
 stddef
 .
 h
->
+"
 #
 include
 "
