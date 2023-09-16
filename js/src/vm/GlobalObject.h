@@ -1996,6 +1996,12 @@ const
 JSClass
 *
 clasp
+ObjectFlags
+objFlags
+=
+ObjectFlags
+(
+)
 )
 ;
 static
@@ -2083,6 +2089,12 @@ GlobalObject
 *
 >
 global
+ObjectFlags
+objFlags
+=
+ObjectFlags
+(
+)
 )
 {
 NativeObject
@@ -2098,6 +2110,7 @@ T
 :
 :
 class_
+objFlags
 )
 ;
 return

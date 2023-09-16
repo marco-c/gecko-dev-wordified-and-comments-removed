@@ -20330,6 +20330,15 @@ cx
 global
 (
 )
+ObjectFlags
+(
+{
+ObjectFlag
+:
+:
+NeedsProxyGetSetResultValidation
+}
+)
 )
 )
 ;
