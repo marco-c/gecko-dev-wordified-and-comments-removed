@@ -10,7 +10,7 @@ PersonalityProvider
 /
 RecipeExecutor
 .
-mjs
+jsm
 "
 ;
 import
@@ -25,7 +25,7 @@ PersonalityProvider
 /
 Tokenize
 .
-mjs
+jsm
 "
 ;
 class

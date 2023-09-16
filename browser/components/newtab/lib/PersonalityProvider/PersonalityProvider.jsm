@@ -229,15 +229,8 @@ PersonalityProvider
 /
 PersonalityProviderWorker
 .
-mjs
+js
 "
-{
-type
-:
-"
-module
-"
-}
 )
 ;
 return
