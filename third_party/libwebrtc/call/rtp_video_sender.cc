@@ -1343,6 +1343,14 @@ field_trials
 &
 trials
 ;
+configuration
+.
+enable_send_packet_batching
+=
+rtp_config
+.
+enable_send_packet_batching
+;
 std
 :
 :

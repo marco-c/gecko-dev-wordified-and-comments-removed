@@ -277,6 +277,13 @@ size
 ;
 virtual
 void
+OnBatchComplete
+(
+)
+{
+}
+virtual
+void
 OnAbortedRetransmissions
 (
 uint32_t

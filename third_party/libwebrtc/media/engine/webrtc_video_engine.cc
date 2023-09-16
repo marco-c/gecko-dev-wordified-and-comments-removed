@@ -8174,6 +8174,16 @@ video_config_
 .
 rtcp_report_interval_ms
 ;
+config
+.
+rtp
+.
+enable_send_packet_batching
+=
+video_config_
+.
+enable_send_packet_batching
+;
 WebRtcVideoSendStream
 *
 stream

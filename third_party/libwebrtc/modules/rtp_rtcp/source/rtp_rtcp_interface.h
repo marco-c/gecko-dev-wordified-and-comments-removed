@@ -474,6 +474,11 @@ std
 string
 rid
 ;
+bool
+enable_send_packet_batching
+=
+false
+;
 }
 ;
 struct
@@ -961,6 +966,14 @@ const
 PacedPacketInfo
 &
 pacing_info
+)
+=
+0
+;
+virtual
+void
+OnBatchComplete
+(
 )
 =
 0

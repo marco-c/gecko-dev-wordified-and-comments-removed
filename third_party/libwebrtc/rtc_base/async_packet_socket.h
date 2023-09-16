@@ -197,6 +197,16 @@ packet_time_params
 PacketInfo
 info_signaled_after_sent
 ;
+bool
+batchable
+=
+false
+;
+bool
+last_packet_in_batch
+=
+false
+;
 }
 ;
 class

@@ -699,6 +699,12 @@ pacing_info
 override
 ;
 void
+OnBatchComplete
+(
+)
+override
+;
+void
 SetFecProtectionParams
 (
 const

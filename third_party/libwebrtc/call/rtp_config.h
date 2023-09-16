@@ -396,6 +396,11 @@ string
 c_name
 ;
 bool
+enable_send_packet_batching
+=
+false
+;
+bool
 IsMediaSsrc
 (
 uint32_t
