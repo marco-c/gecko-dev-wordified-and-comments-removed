@@ -60,6 +60,17 @@ job
 -
 defaults
 :
+run
+-
+on
+-
+projects
+:
+[
+"
+trunk
+"
+]
 platform
 :
 linux64
