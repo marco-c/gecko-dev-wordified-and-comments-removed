@@ -2311,6 +2311,12 @@ aSampleIndex
 )
 const
 ;
+Matrix4x4
+GetPaintedResolutionTransform
+(
+)
+const
+;
 AutoTArray
 <
 wr
