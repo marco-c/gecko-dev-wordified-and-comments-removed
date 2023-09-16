@@ -1379,6 +1379,13 @@ aNotify
 )
 ;
 void
+UpdateIndeterminateState
+(
+bool
+aNotify
+)
+;
+void
 UpdateAllValidityStates
 (
 bool
