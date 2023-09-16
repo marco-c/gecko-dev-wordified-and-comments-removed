@@ -378,7 +378,7 @@ dom
 :
 GPUCanvasConfiguration
 &
-aDesc
+aConfig
 )
 ;
 void

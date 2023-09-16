@@ -4879,7 +4879,7 @@ undefined
 configure
 (
 GPUCanvasConfiguration
-descriptor
+configuration
 )
 ;
 undefined
