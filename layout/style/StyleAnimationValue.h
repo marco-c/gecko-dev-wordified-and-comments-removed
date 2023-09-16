@@ -382,6 +382,12 @@ GetOffsetPositionProperty
 )
 const
 ;
+bool
+IsOffsetPathUrl
+(
+)
+const
+;
 mozilla
 :
 :
