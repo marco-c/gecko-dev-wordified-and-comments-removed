@@ -252,6 +252,12 @@ disconnectedCallback
 (
 )
 {
+super
+.
+disconnectedCallback
+(
+)
+;
 this
 .
 clearRecommendationAdTimeout

@@ -467,6 +467,12 @@ disconnectedCallback
 (
 )
 {
+super
+.
+disconnectedCallback
+(
+)
+;
 clearInterval
 (
 this
