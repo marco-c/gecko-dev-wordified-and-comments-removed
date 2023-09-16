@@ -11,7 +11,7 @@ PersonalityProvider
 /
 Tokenize
 .
-jsm
+mjs
 "
 ;
 const

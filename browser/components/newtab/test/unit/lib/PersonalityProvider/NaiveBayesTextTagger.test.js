@@ -10,7 +10,7 @@ PersonalityProvider
 /
 NaiveBayesTextTagger
 .
-jsm
+mjs
 "
 ;
 import
@@ -26,7 +26,7 @@ PersonalityProvider
 /
 Tokenize
 .
-jsm
+mjs
 "
 ;
 const
