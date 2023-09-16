@@ -2865,7 +2865,7 @@ got_href
 .
 indexOf
 (
-expected_current
+expected_utf8
 )
 >
 -
@@ -2878,7 +2878,7 @@ attribute
 +
 msg
 (
-expected_current
+expected_utf8
 got_href
 )
 )
@@ -2896,7 +2896,7 @@ got_search
 .
 indexOf
 (
-expected_current
+expected_utf8
 )
 >
 -
@@ -2909,7 +2909,7 @@ search
 +
 msg
 (
-expected_current
+expected_utf8
 got_search
 )
 )
