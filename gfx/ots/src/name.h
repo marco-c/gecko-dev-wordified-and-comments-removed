@@ -238,6 +238,12 @@ addIfMissing
 false
 )
 ;
+bool
+IsTrickyFont
+(
+)
+const
+;
 private
 :
 std
