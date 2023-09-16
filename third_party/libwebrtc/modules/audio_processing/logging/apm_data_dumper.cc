@@ -236,10 +236,6 @@ instance_index_
 (
 instance_index
 )
-debug_written_
-(
-0
-)
 {
 }
 #
