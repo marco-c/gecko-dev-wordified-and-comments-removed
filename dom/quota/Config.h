@@ -78,4 +78,12 @@ endif
 define
 QM_SCOPED_LOG_EXTRA_INFO_ENABLED
 #
+ifndef
+RELEASE_OR_BETA
+#
+define
+QM_COLLECTING_OPERATION_TELEMETRY
+#
+endif
+#
 endif
