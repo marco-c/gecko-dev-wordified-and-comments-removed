@@ -565,6 +565,8 @@ privacy
 detailedoption
 #
 fpiIncompatibilityWarning
+#
+rfpIncompatibilityWarning
 {
 margin
 :
@@ -574,6 +576,8 @@ margin
 }
 #
 fpiIncompatibilityWarning
+#
+rfpIncompatibilityWarning
 {
 background
 -
@@ -595,6 +599,8 @@ color
 }
 #
 fpiIncompatibilityWarning
+#
+rfpIncompatibilityWarning
 #
 contentBlockingCategories
 {
