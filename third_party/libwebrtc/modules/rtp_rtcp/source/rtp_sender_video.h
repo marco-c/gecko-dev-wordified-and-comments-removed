@@ -529,6 +529,8 @@ const
 uint8_t
 >
 payload
+size_t
+encoder_output_size
 RTPVideoHeader
 video_header
 absl
@@ -615,8 +617,8 @@ allocation
 )
 override
 ;
-uint32_t
-PacketizationOverheadBps
+DataRate
+PostEncodeOverhead
 (
 )
 const
@@ -748,7 +750,7 @@ RtpPacketToSend
 >
 packets
 size_t
-unpacketized_payload_size
+encoder_output_size
 )
 ;
 bool
@@ -938,7 +940,7 @@ Mutex
 stats_mutex_
 ;
 RateStatistics
-packetization_overhead_bitrate_
+post_encode_overhead_bitrate_
 RTC_GUARDED_BY
 (
 stats_mutex_

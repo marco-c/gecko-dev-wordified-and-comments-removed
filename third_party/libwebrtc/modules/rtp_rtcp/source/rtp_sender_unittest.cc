@@ -7859,6 +7859,10 @@ capture_time_ms
 kCaptureTimeMsToRtpTimestamp
 capture_time_ms
 kPayloadData
+sizeof
+(
+kPayloadData
+)
 video_header
 kDefaultExpectedRetransmissionTimeMs
 {
@@ -7947,6 +7951,10 @@ capture_time_ms
 kCaptureTimeMsToRtpTimestamp
 capture_time_ms
 kPayloadData
+sizeof
+(
+kPayloadData
+)
 video_header
 kDefaultExpectedRetransmissionTimeMs
 {
