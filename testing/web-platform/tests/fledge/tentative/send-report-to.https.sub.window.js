@@ -23,7 +23,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -36,6 +38,8 @@ uuid
 '
 )
 ;
+reportWinSuccessCondition
+:
 '
 sellerSignals
 =
@@ -43,6 +47,8 @@ sellerSignals
 =
 null
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -55,6 +61,7 @@ uuid
 '
 )
 ;
+}
 [
 createSellerReportUrl
 (
@@ -101,7 +108,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -114,9 +123,11 @@ uuid
 '
 )
 ;
-null
+reportWin
+:
 '
 '
+}
 [
 createSellerReportUrl
 (
@@ -155,7 +166,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -168,7 +181,8 @@ uuid
 '
 )
 ;
-null
+reportWin
+:
 '
 throw
 new
@@ -181,6 +195,7 @@ exception
 "
 )
 '
+}
 [
 createSellerReportUrl
 (
@@ -223,7 +238,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -236,8 +253,7 @@ uuid
 '
 )
 ;
-null
-null
+}
 [
 createSellerReportUrl
 (
@@ -283,9 +299,13 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 '
 '
+reportWinSuccessCondition
+:
 '
 sellerSignals
 =
@@ -293,6 +313,8 @@ sellerSignals
 =
 null
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -305,6 +327,7 @@ uuid
 '
 )
 ;
+}
 [
 createBidderReportUrl
 (
@@ -343,7 +366,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 '
 return
 "
@@ -351,6 +376,8 @@ foo
 "
 ;
 '
+reportWinSuccessCondition
+:
 '
 sellerSignals
 =
@@ -360,6 +387,8 @@ sellerSignals
 foo
 "
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -372,6 +401,7 @@ uuid
 '
 )
 ;
+}
 [
 createBidderReportUrl
 (
@@ -416,7 +446,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 '
 throw
 new
@@ -429,6 +461,8 @@ exception
 "
 )
 '
+reportWinSuccessCondition
+:
 '
 sellerSignals
 =
@@ -436,6 +470,8 @@ sellerSignals
 =
 null
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -448,6 +484,7 @@ uuid
 '
 )
 ;
+}
 [
 createBidderReportUrl
 (
@@ -490,8 +527,9 @@ runReportTest
 (
 test
 uuid
-null
-null
+{
+reportWinSuccessCondition
+:
 '
 sellerSignals
 =
@@ -499,6 +537,8 @@ sellerSignals
 =
 null
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -511,6 +551,7 @@ uuid
 '
 )
 ;
+}
 [
 createBidderReportUrl
 (
@@ -556,7 +597,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -584,6 +627,8 @@ uuid
 return
 5
 ;
+reportWinSuccessCondition
+:
 '
 sellerSignals
 =
@@ -591,6 +636,8 @@ sellerSignals
 =
 null
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -603,6 +650,7 @@ uuid
 '
 )
 ;
+}
 [
 createBidderReportUrl
 (
@@ -647,7 +695,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -660,7 +710,8 @@ uuid
 '
 )
 ;
-null
+reportWin
+:
 sendReportTo
 (
 '
@@ -685,6 +736,7 @@ uuid
 '
 )
 ;
+}
 [
 createSellerReportUrl
 (

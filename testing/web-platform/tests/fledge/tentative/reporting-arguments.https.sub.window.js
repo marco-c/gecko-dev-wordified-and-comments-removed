@@ -30,7 +30,12 @@ runReportTest
 (
 test
 uuid
+{
 reportResultSuccessCondition
+:
+reportResultSuccessCondition
+reportResult
+:
 sendReportTo
 (
 '
@@ -44,6 +49,10 @@ uuid
 )
 ;
 reportWinSuccessCondition
+:
+reportWinSuccessCondition
+reportWin
+:
 sendReportTo
 (
 '
@@ -56,6 +65,7 @@ uuid
 '
 )
 ;
+}
 [
 createSellerReportUrl
 (
@@ -89,7 +99,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -105,6 +117,8 @@ uuid
 return
 45
 ;
+reportWinSuccessCondition
+:
 '
 sellerSignals
 =
@@ -112,6 +126,8 @@ sellerSignals
 =
 45
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -124,6 +140,7 @@ uuid
 '
 )
 ;
+}
 [
 createSellerReportUrl
 (
@@ -167,7 +184,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -185,6 +204,8 @@ return
 foo
 '
 ;
+reportWinSuccessCondition
+:
 '
 sellerSignals
 =
@@ -194,6 +215,8 @@ sellerSignals
 foo
 "
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -206,6 +229,7 @@ uuid
 '
 )
 ;
+}
 [
 createSellerReportUrl
 (
@@ -249,7 +273,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -269,6 +295,8 @@ return
 2
 ]
 ;
+reportWinSuccessCondition
+:
 '
 JSON
 .
@@ -287,6 +315,8 @@ sellerSignals
 ]
 "
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -299,6 +329,7 @@ uuid
 '
 )
 ;
+}
 [
 createSellerReportUrl
 (
@@ -342,7 +373,9 @@ runReportTest
 (
 test
 uuid
-null
+{
+reportResult
+:
 sendReportTo
 (
 '
@@ -372,6 +405,8 @@ null
 ]
 }
 ;
+reportWinSuccessCondition
+:
 JSON
 .
 stringify
@@ -402,6 +437,8 @@ null
 ]
 }
 '
+reportWin
+:
 sendReportTo
 (
 '
@@ -414,6 +451,7 @@ uuid
 '
 )
 ;
+}
 [
 createSellerReportUrl
 (
