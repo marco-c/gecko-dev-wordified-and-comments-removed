@@ -1178,12 +1178,10 @@ timestamp
 )
     
 def
-process_individual
+fetch_individual
 (
 self
 new_revision
-timestamp
-ignore_modified
 )
 :
         
@@ -1457,6 +1455,23 @@ download_and_write_file
 (
 url
 destination
+)
+    
+def
+process_individual
+(
+self
+new_revision
+timestamp
+ignore_modified
+)
+:
+        
+self
+.
+fetch_individual
+(
+new_revision
 )
         
 self
