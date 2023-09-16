@@ -160,15 +160,6 @@ library
 rust
 /
 "
-"
-toolkit
-/
-mozapps
-/
-defaultagent
-/
-rust
-"
 ]
 #
 Excluded
