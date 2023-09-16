@@ -1495,7 +1495,6 @@ override
 bool
 ReadFaceNames
 (
-const
 mozilla
 :
 :
@@ -1505,7 +1504,6 @@ fontlist
 Family
 *
 aFamily
-const
 mozilla
 :
 :
