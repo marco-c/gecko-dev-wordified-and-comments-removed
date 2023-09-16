@@ -62,6 +62,16 @@ APZCSnappingTesterMock
 Bug1265510
 )
 {
+SCOPED_GFX_PREF_BOOL
+(
+"
+general
+.
+smoothScroll
+"
+true
+)
+;
 const
 char
 *

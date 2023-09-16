@@ -2152,6 +2152,16 @@ APZCTransformNotificationTester
 PanFollowedByWheelTransformNotifications
 )
 {
+SCOPED_GFX_PREF_BOOL
+(
+"
+general
+.
+smoothScroll
+"
+true
+)
+;
 SCOPED_GFX_PREF_INT
 (
 "

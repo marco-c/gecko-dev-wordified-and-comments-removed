@@ -25,6 +25,16 @@ APZCTreeManagerTester
 WheelInterruptedByMouseDrag
 )
 {
+SCOPED_GFX_PREF_BOOL
+(
+"
+general
+.
+smoothScroll
+"
+true
+)
+;
 CreateSimpleScrollingLayer
 (
 )
