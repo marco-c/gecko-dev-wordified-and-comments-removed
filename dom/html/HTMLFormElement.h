@@ -1038,7 +1038,7 @@ RelList
 (
 )
 ;
-nsIHTMLCollection
+HTMLFormControlsCollection
 *
 Elements
 (

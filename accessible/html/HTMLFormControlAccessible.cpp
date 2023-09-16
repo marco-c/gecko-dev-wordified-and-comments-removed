@@ -108,6 +108,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLFormControlsCollection
+.
+h
+"
+#
+include
+"
 nsIFormControl
 .
 h
@@ -264,7 +275,7 @@ FromNode
 mContent
 )
 ;
-nsIHTMLCollection
+HTMLFormControlsCollection
 *
 controls
 =

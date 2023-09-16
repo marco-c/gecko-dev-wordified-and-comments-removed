@@ -272,6 +272,12 @@ using
 nsWrapperCache
 :
 :
+GetWrapper
+;
+using
+nsWrapperCache
+:
+:
 GetWrapperPreserveColor
 ;
 using

@@ -278,11 +278,11 @@ DOMTokenList
 relList
 ;
 [
-Constant
+SameObject
 ]
 readonly
 attribute
-HTMLCollection
+HTMLFormControlsCollection
 elements
 ;
 [

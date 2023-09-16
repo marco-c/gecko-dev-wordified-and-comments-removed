@@ -938,7 +938,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLFormElement
 )
-nsIHTMLCollection
+HTMLFormControlsCollection
 *
 HTMLFormElement
 :
