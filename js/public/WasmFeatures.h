@@ -280,7 +280,7 @@ stage
 WasmFeatureStage
 :
 :
-Tentative
+Default
 \
 /
 *
