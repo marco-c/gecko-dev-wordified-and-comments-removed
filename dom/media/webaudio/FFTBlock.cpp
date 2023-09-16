@@ -414,7 +414,7 @@ mag1db
 .
 0
 *
-log10
+fdlibm_log10
 (
 mag1
 )
@@ -426,7 +426,7 @@ mag2db
 .
 0
 *
-log10
+fdlibm_log10
 (
 mag2
 )
@@ -482,7 +482,7 @@ mag1db
 {
 s1
 =
-pow
+fdlibm_pow
 (
 s1
 0
@@ -516,7 +516,7 @@ mag2db
 {
 s2
 =
-pow
+fdlibm_pow
 (
 s2
 0
@@ -547,7 +547,7 @@ mag2db
 double
 mag
 =
-pow
+fdlibm_pow
 (
 10
 .
@@ -776,7 +776,7 @@ float
 (
 mag
 *
-cos
+fdlibm_cos
 (
 phaseAccum
 )
@@ -796,7 +796,7 @@ float
 (
 mag
 *
-sin
+fdlibm_sin
 (
 phaseAccum
 )
@@ -1158,7 +1158,7 @@ float
 (
 mag
 *
-cos
+fdlibm_cos
 (
 phase
 )
@@ -1178,7 +1178,7 @@ float
 (
 mag
 *
-sin
+fdlibm_sin
 (
 phase
 )

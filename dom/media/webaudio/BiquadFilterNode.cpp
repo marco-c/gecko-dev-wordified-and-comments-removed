@@ -170,7 +170,7 @@ aDetune
 normalizedFrequency
 *
 =
-exp2
+fdlibm_exp2
 (
 aDetune
 /

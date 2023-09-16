@@ -415,7 +415,7 @@ m_linearThreshold
 (
 1
 -
-expf
+fdlibm_expf
 (
 -
 k
@@ -948,7 +948,7 @@ fullRangeGain
 ;
 fullRangeMakeupGain
 =
-powf
+fdlibm_powf
 (
 fullRangeMakeupGain
 0
@@ -1257,7 +1257,7 @@ m_detectorAverage
 float
 scaledDesiredGain
 =
-asinf
+fdlibm_asinf
 (
 desiredGain
 )
@@ -1544,7 +1544,7 @@ envelopeRate
 =
 1
 -
-powf
+fdlibm_powf
 (
 x
 1
@@ -1865,7 +1865,7 @@ compressorGain
 float
 postWarpCompressorGain
 =
-sinf
+fdlibm_sinf
 (
 0
 .
@@ -1892,7 +1892,7 @@ dbRealGain
 =
 20
 *
-log10
+fdlibm_log10f
 (
 postWarpCompressorGain
 )

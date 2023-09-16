@@ -1802,7 +1802,7 @@ a0
 -
 a1
 *
-cos
+fdlibm_cos
 (
 2
 *
@@ -1813,7 +1813,7 @@ x
 +
 a2
 *
-cos
+fdlibm_cos
 (
 4
 *

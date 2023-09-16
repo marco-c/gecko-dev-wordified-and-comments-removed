@@ -22,6 +22,13 @@ type_traits
 #
 include
 "
+fdlibm
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FloatingPoint
@@ -180,7 +187,7 @@ aLinearValue
 .
 0f
 *
-log10f
+fdlibm_log10f
 (
 aLinearValue
 )
@@ -197,7 +204,7 @@ aDecibels
 )
 {
 return
-powf
+fdlibm_powf
 (
 10
 .
@@ -219,7 +226,7 @@ aDecibel
 )
 {
 return
-powf
+fdlibm_powf
 (
 10
 .
@@ -284,7 +291,7 @@ return
 .
 0
 -
-exp
+fdlibm_exp
 (
 -
 1

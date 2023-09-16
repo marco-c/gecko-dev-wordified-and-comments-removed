@@ -757,7 +757,7 @@ finalFrequency
 =
 frequency
 *
-exp2
+fdlibm_exp2
 (
 detune
 /
@@ -977,7 +977,7 @@ aOutput
 i
 ]
 =
-sin
+fdlibm_sinf
 (
 mPhase
 )

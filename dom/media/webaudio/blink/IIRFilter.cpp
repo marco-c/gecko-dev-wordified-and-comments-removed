@@ -15,6 +15,13 @@ h
 #
 include
 "
+fdlibm
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FloatingPoint
@@ -697,11 +704,11 @@ complex
 double
 >
 (
-cos
+fdlibm_cos
 (
 omega
 )
-sin
+fdlibm_sin
 (
 omega
 )
@@ -872,7 +879,7 @@ static_cast
 float
 >
 (
-atan2
+fdlibm_atan2
 (
 imag
 (

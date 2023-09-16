@@ -284,7 +284,7 @@ aPanning
 }
 aLeftGain
 =
-cos
+fdlibm_cos
 (
 0
 .
@@ -297,7 +297,7 @@ aPanning
 ;
 aRightGain
 =
-sin
+fdlibm_sin
 (
 0
 .
