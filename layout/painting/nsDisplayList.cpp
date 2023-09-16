@@ -38980,8 +38980,10 @@ framePt
 A2D
 )
 ;
-if
-(
+gfxTextRun
+*
+textRun
+=
 f
 -
 >
@@ -38992,6 +38994,13 @@ nsTextFrame
 :
 eInflated
 )
+;
+if
+(
+textRun
+&
+&
+textRun
 -
 >
 IsRightToLeft
