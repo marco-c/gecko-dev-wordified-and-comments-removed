@@ -409,7 +409,7 @@ bool
 useRegularPrincipal
 ;
 bool
-usingStorageAccess
+hasStorageAccessPermissionGranted
 ;
 CookieJarSettingsArgs
 cookieJarSettings

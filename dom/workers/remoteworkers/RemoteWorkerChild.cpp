@@ -1348,11 +1348,11 @@ useRegularPrincipal
 ;
 info
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 =
 aData
 .
-usingStorageAccess
+hasStorageAccessPermissionGranted
 (
 )
 ;

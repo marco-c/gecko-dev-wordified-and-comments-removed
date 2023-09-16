@@ -1727,7 +1727,7 @@ SaveStorageAccessPermissionGranted
 )
 ;
 bool
-UsingStorageAccess
+HasStorageAccessPermissionGranted
 (
 )
 ;
@@ -2076,7 +2076,7 @@ Event
 mEvent
 ;
 bool
-mUsingStorageAccess
+mStorageAccessPermissionGranted
 ;
 RefPtr
 <

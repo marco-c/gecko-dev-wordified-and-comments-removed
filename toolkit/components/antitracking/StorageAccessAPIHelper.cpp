@@ -4805,7 +4805,7 @@ if
 aDocument
 -
 >
-UsingStorageAccess
+HasStorageAccessPermissionGranted
 (
 )
 )

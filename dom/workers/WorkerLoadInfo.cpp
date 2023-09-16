@@ -483,7 +483,7 @@ mUseRegularPrincipal
 (
 false
 )
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 (
 false
 )

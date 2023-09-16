@@ -3500,7 +3500,7 @@ if
 (
 mLoadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 )
 {
 return
@@ -3536,7 +3536,7 @@ mUseRegularPrincipal
 ;
 }
 bool
-UsingStorageAccess
+HasStorageAccessPermissionGranted
 (
 )
 const
@@ -3548,7 +3548,7 @@ AssertIsOnWorkerThread
 return
 mLoadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 ;
 }
 nsICookieJarSettings

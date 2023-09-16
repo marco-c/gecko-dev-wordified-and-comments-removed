@@ -35491,7 +35491,7 @@ SaveStorageAccessPermissionGranted
 (
 )
 {
-mUsingStorageAccess
+mStorageAccessPermissionGranted
 =
 true
 ;
@@ -35513,12 +35513,12 @@ bool
 nsPIDOMWindowInner
 :
 :
-UsingStorageAccess
+HasStorageAccessPermissionGranted
 (
 )
 {
 return
-mUsingStorageAccess
+mStorageAccessPermissionGranted
 ;
 }
 nsPIDOMWindowInner
@@ -35614,7 +35614,7 @@ mEvent
 (
 nullptr
 )
-mUsingStorageAccess
+mStorageAccessPermissionGranted
 (
 false
 )

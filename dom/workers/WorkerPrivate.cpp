@@ -12543,12 +12543,12 @@ UseRegularPrincipal
 ;
 loadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 =
 aParent
 -
 >
-UsingStorageAccess
+HasStorageAccessPermissionGranted
 (
 )
 ;
@@ -13305,12 +13305,12 @@ UseRegularPrincipal
 ;
 loadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 =
 document
 -
 >
-UsingStorageAccess
+HasStorageAccessPermissionGranted
 (
 )
 ;
@@ -13333,7 +13333,7 @@ if
 (
 loadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 &
 &
 StorageAllowedForDocument
@@ -13350,7 +13350,7 @@ eAllow
 {
 loadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 =
 false
 ;
@@ -13634,7 +13634,7 @@ true
 ;
 loadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 =
 false
 ;
@@ -13908,7 +13908,7 @@ SetStoragePermission
 (
 loadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 ?
 nsILoadInfo
 :
@@ -18058,7 +18058,7 @@ true
 ;
 mLoadInfo
 .
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 =
 true
 ;
