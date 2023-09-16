@@ -308,8 +308,6 @@ mozapps
 /
 defaultagent
 /
-proxy
-/
 main
 .
 cpp

@@ -228,13 +228,6 @@ _
 The
 scheduled
 task
-proxy
-executable
-invokes
-the
-Firefox
-BackgroundTask_defaultagent
-which
 executes
 all
 of
