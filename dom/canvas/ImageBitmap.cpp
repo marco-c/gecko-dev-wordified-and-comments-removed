@@ -3287,7 +3287,7 @@ IsInOrBeyond
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+XPCOMShutdown
 )
 )
 {
