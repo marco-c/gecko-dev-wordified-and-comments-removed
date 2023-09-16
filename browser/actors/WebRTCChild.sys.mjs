@@ -2321,13 +2321,6 @@ Ci
 nsIPermissionDelegateHandler
 )
 ;
-const
-shouldDelegatePermission
-=
-permDelegateHandler
-.
-permissionDelegateFPEnabled
-;
 let
 secondOrigin
 =
@@ -2335,9 +2328,6 @@ undefined
 ;
 if
 (
-shouldDelegatePermission
-&
-&
 permDelegateHandler
 .
 maybeUnsafePermissionDelegate
@@ -2403,7 +2393,6 @@ aSecure
 isHandlingUserInput
 :
 aIsHandlingUserInput
-shouldDelegatePermission
 requestTypes
 sharingScreen
 sharingAudio

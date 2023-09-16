@@ -576,16 +576,6 @@ true
 ]
 [
 "
-permissions
-.
-delegation
-.
-enabled
-"
-true
-]
-[
-"
 geo
 .
 timeout

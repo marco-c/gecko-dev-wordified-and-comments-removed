@@ -40,10 +40,5 @@ ACString
 aTypes
 )
 ;
-readonly
-attribute
-boolean
-permissionDelegateFPEnabled
-;
 }
 ;

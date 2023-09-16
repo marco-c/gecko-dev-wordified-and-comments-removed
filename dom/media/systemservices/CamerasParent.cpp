@@ -3815,16 +3815,6 @@ return
 false
 ;
 }
-if
-(
-StaticPrefs
-:
-:
-permissions_delegation_enabled
-(
-)
-)
-{
 RefPtr
 <
 dom
@@ -3860,7 +3850,6 @@ GetCurrentWindowGlobal
 (
 )
 ;
-}
 if
 (
 !
