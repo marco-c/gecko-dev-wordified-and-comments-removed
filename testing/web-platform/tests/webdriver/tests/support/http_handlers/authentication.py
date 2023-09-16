@@ -8,11 +8,9 @@ def
 basic_authentication
 (
 url
-protocol
-=
-"
-http
-"
+*
+*
+kwargs
 )
 :
     
@@ -46,9 +44,9 @@ urlencode
 query
 )
                
-protocol
-=
-protocol
+*
+*
+kwargs
 )
 def
 main

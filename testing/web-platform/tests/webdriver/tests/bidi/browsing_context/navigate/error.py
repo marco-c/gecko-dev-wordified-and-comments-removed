@@ -32,7 +32,7 @@ thisprotocoldoesnotexist
 "
         
 "
-http
+https
 :
 /
 /
@@ -43,7 +43,7 @@ localhost
 "
         
 "
-http
+https
 :
 /
 /
