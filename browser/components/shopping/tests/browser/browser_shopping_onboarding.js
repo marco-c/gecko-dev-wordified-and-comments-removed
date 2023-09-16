@@ -842,7 +842,7 @@ container
 )
 ;
 let
-secondaryButton
+notNowButton
 =
 await
 ContentTaskUtils
@@ -859,12 +859,14 @@ querySelector
 (
 "
 .
-secondary
+additional
+-
+cta
 "
 )
 )
 ;
-secondaryButton
+notNowButton
 .
 click
 (
