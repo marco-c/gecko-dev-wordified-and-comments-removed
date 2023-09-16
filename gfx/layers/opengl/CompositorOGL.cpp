@@ -3943,6 +3943,9 @@ AsGTK
 )
 )
 {
+if
+(
+!
 mWidget
 -
 >
@@ -3955,7 +3958,14 @@ SetEGLNativeWindowSize
 (
 mWidgetSize
 )
+)
+{
+return
+Nothing
+(
+)
 ;
+}
 }
 #
 endif
