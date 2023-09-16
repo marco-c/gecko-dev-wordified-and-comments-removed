@@ -9,10 +9,6 @@ TransportSecurityInfoUtils
 h
 "
 ;
-include
-protocol
-PBackground
-;
 [
 RefCounted
 ]
@@ -35,9 +31,6 @@ net
 protocol
 PWebSocketConnection
 {
-manager
-PBackground
-;
 parent
 :
 async
