@@ -183,7 +183,7 @@ browser
 /
 firefoxview
 /
-overview
+recentbrowsing
 .
 mjs
 content
@@ -468,7 +468,7 @@ firefoxview
 /
 category
 -
-overview
+recentbrowsing
 .
 svg
 (
@@ -476,7 +476,7 @@ content
 /
 category
 -
-overview
+recentbrowsing
 .
 svg
 )

@@ -93,7 +93,7 @@ mjs
 "
 ;
 class
-OverviewInView
+RecentBrowsingInView
 extends
 ViewPage
 {
@@ -110,7 +110,7 @@ this
 pageType
 =
 "
-overview
+recentbrowsing
 "
 ;
 }
@@ -239,8 +239,8 @@ define
 "
 view
 -
-overview
+recentbrowsing
 "
-OverviewInView
+RecentBrowsingInView
 )
 ;

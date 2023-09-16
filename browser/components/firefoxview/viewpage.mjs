@@ -239,7 +239,7 @@ type
 :
 Boolean
 }
-overview
+recentBrowsing
 :
 {
 type
@@ -265,7 +265,7 @@ false
 ;
 this
 .
-overview
+recentBrowsing
 =
 Boolean
 (
@@ -276,7 +276,7 @@ closest
 "
 VIEW
 -
-OVERVIEW
+RECENTBROWSING
 "
 )
 )

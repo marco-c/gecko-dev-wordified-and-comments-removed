@@ -336,7 +336,7 @@ if
 (
 this
 .
-overview
+recentBrowsing
 )
 {
 this
@@ -1531,7 +1531,7 @@ isInnerCard
 {
 this
 .
-overview
+recentBrowsing
 }
 mainImageUrl
 =
@@ -1974,7 +1974,7 @@ if
 (
 this
 .
-overview
+recentBrowsing
 )
 {
 return
@@ -2028,9 +2028,17 @@ card
 container
 shortPageName
 =
+{
+this
+.
+recentBrowsing
+?
 "
 syncedtabs
 "
+:
+null
+}
 >
 <
 h3
@@ -2129,7 +2137,7 @@ if
 (
 this
 .
-overview
+recentBrowsing
 )
 {
 /
@@ -2250,7 +2258,7 @@ when
 !
 this
 .
-overview
+recentBrowsing
 (
 )
 =
@@ -2370,7 +2378,7 @@ when
 (
 this
 .
-overview
+recentBrowsing
 (
 )
 =
@@ -2586,7 +2594,7 @@ if
 (
 this
 .
-overview
+recentBrowsing
 )
 {
 renderArray
@@ -2632,9 +2640,17 @@ card
 container
 shortPageName
 =
+{
+this
+.
+recentBrowsing
+?
 "
 syncedtabs
 "
+:
+null
+}
 >
 {
 this
@@ -3030,7 +3046,7 @@ if
 !
 this
 .
-overview
+recentBrowsing
 )
 {
 renderArray
@@ -3091,7 +3107,7 @@ if
 (
 this
 .
-overview
+recentBrowsing
 )
 {
 renderArray
@@ -3147,7 +3163,7 @@ header
 class
 =
 "
-overview
+recentbrowsing
 -
 header
 "

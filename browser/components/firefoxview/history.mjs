@@ -1755,11 +1755,6 @@ html
 card
 -
 container
-shortPageName
-=
-"
-history
-"
 >
 <
 h3
@@ -1954,11 +1949,6 @@ html
 card
 -
 container
-shortPageName
-=
-"
-history
-"
 >
 <
 h3
