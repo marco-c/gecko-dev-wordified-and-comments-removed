@@ -98,6 +98,10 @@ JS_PUBLIC_API
 ReadOnlyCompileOptions
 ;
 class
+JS_PUBLIC_API
+ReadOnlyDecodeOptions
+;
+class
 Zone
 ;
 template
@@ -765,7 +769,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const

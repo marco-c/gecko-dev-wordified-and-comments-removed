@@ -4440,7 +4440,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
@@ -4599,7 +4599,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
@@ -4656,7 +4656,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 CachedStencil
@@ -5726,10 +5726,12 @@ ScriptPreloader
 :
 StartDecodeTask
 (
+const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
+&
 decodeOptions
 Vector
 <
@@ -6238,7 +6240,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 )

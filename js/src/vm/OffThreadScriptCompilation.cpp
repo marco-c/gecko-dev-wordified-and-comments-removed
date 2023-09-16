@@ -490,7 +490,7 @@ JSContext
 *
 cx
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
@@ -568,7 +568,7 @@ JSContext
 *
 cx
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
@@ -746,7 +746,7 @@ JSContext
 *
 cx
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 size_t

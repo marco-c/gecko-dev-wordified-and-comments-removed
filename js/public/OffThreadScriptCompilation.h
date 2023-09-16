@@ -78,7 +78,7 @@ JSContext
 *
 cx
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 size_t
