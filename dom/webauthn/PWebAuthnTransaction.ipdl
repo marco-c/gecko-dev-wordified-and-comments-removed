@@ -296,9 +296,6 @@ WebAuthnMakeCredentialRpInfo
 nsString
 Name
 ;
-nsString
-Icon
-;
 }
 ;
 struct
@@ -311,9 +308,6 @@ Id
 ;
 nsString
 Name
-;
-nsString
-Icon
 ;
 nsString
 DisplayName

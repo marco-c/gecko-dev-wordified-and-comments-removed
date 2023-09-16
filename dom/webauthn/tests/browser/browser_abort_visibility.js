@@ -339,11 +339,6 @@ name
 "
 none
 "
-icon
-:
-"
-none
-"
 }
 user
 :
@@ -355,11 +350,6 @@ Uint8Array
 (
 )
 name
-:
-"
-none
-"
-icon
 :
 "
 none

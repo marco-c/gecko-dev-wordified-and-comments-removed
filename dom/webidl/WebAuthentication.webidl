@@ -461,9 +461,6 @@ required
 DOMString
 name
 ;
-USVString
-icon
-;
 }
 ;
 dictionary
