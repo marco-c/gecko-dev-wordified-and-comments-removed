@@ -4702,7 +4702,7 @@ names
 (
 )
 .
-AsyncFromSyncIterator
+Async_from_Sync_Iterator_
 )
 )
 {

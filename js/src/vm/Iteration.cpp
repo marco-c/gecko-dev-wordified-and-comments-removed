@@ -9728,7 +9728,7 @@ names
 (
 )
 .
-ArrayIterator
+Array_Iterator_
 .
 toHandle
 (
@@ -9781,7 +9781,7 @@ names
 (
 )
 .
-StringIterator
+String_Iterator_
 .
 toHandle
 (
@@ -9833,7 +9833,7 @@ names
 (
 )
 .
-RegExpStringIterator
+RegExp_String_Iterator_
 .
 toHandle
 (
