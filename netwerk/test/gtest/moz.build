@@ -38,6 +38,11 @@ TestHeaders
 cpp
 "
 "
+TestHttpAtom
+.
+cpp
+"
+"
 TestHttpAuthUtils
 .
 cpp
