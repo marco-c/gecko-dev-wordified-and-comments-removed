@@ -111,7 +111,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -126,7 +126,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -145,7 +145,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -161,7 +161,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -181,7 +181,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -198,7 +198,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -219,7 +219,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -234,7 +234,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -253,7 +253,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -268,7 +268,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -287,7 +287,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -302,7 +302,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -321,7 +321,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -337,7 +337,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -357,7 +357,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -374,7 +374,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -405,7 +405,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -422,7 +422,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -443,7 +443,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -458,7 +458,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -477,7 +477,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -493,7 +493,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -513,7 +513,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -530,7 +530,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -551,7 +551,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -566,7 +566,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -585,7 +585,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -600,7 +600,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -619,7 +619,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -634,7 +634,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -653,7 +653,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -669,7 +669,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -689,7 +689,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -706,7 +706,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -737,7 +737,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -754,7 +754,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -775,7 +775,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -790,7 +790,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -809,7 +809,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -825,7 +825,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -845,7 +845,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -862,7 +862,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -883,7 +883,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -898,7 +898,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -917,7 +917,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -932,7 +932,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -951,7 +951,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -966,7 +966,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -985,7 +985,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1001,7 +1001,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1021,7 +1021,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1038,7 +1038,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1069,7 +1069,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1086,7 +1086,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1107,7 +1107,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1122,7 +1122,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1141,7 +1141,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1157,7 +1157,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1177,7 +1177,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1194,7 +1194,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1215,7 +1215,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1230,7 +1230,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1249,7 +1249,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1264,7 +1264,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1283,7 +1283,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1298,7 +1298,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1317,7 +1317,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1333,7 +1333,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1353,7 +1353,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1370,7 +1370,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1401,7 +1401,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1418,7 +1418,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1439,7 +1439,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1458,7 +1458,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1481,7 +1481,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1501,7 +1501,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1525,7 +1525,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1543,7 +1543,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1565,7 +1565,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1586,7 +1586,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1621,31 +1621,7 @@ new
 CanvasFilter
 (
 {
-filter
-:
-'
-dropShadow
-'
-stdDeviation
-:
-[
-'
-30
-'
-[
-'
-40
-'
-]
-]
-}
-)
-"
-new
-CanvasFilter
-(
-{
-filter
+name
 :
 '
 dropShadow
@@ -1665,6 +1641,30 @@ stdDeviation
 }
 )
 "
+new
+CanvasFilter
+(
+{
+name
+:
+'
+dropShadow
+'
+stdDeviation
+:
+[
+'
+30
+'
+[
+'
+40
+'
+]
+]
+}
+)
+"
 )
 ;
 _assert
@@ -1673,7 +1673,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1690,7 +1690,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1711,7 +1711,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1728,7 +1728,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1749,7 +1749,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1775,7 +1775,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1805,7 +1805,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1823,7 +1823,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1845,7 +1845,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1863,7 +1863,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1890,7 +1890,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1915,7 +1915,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1940,7 +1940,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1966,7 +1966,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -1991,7 +1991,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2018,7 +2018,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2044,7 +2044,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2072,7 +2072,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2097,7 +2097,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2122,7 +2122,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2148,7 +2148,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2173,7 +2173,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2200,7 +2200,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2226,7 +2226,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2254,7 +2254,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2279,7 +2279,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2304,7 +2304,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2330,7 +2330,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2355,7 +2355,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2382,7 +2382,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2408,7 +2408,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2436,7 +2436,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2461,7 +2461,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2486,7 +2486,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2512,7 +2512,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2537,7 +2537,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2564,7 +2564,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2590,7 +2590,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2619,7 +2619,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2647,7 +2647,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2675,7 +2675,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2704,7 +2704,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2732,7 +2732,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2762,7 +2762,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2791,7 +2791,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2822,7 +2822,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2849,7 +2849,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2882,7 +2882,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2907,7 +2907,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2932,7 +2932,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -2957,7 +2957,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow

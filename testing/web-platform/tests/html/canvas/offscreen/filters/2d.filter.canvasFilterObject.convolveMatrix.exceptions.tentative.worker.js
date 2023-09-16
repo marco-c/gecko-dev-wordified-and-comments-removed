@@ -115,7 +115,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -137,7 +137,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -162,7 +162,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -187,7 +187,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -212,7 +212,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -245,7 +245,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -280,7 +280,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -311,7 +311,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -345,7 +345,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -371,7 +371,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -398,7 +398,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -428,7 +428,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -458,7 +458,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -490,7 +490,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -519,7 +519,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -541,7 +541,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix

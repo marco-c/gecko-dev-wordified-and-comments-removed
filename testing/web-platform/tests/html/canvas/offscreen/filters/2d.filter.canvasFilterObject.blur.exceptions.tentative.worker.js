@@ -121,7 +121,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -147,7 +147,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -176,7 +176,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -207,7 +207,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -239,7 +239,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -268,7 +268,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur

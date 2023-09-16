@@ -171,7 +171,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -227,7 +227,7 @@ CanvasFilter
 (
 [
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -237,7 +237,7 @@ stdDeviation
 5
 }
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -428,7 +428,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur

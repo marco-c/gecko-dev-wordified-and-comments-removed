@@ -355,7 +355,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -392,7 +392,7 @@ CanvasFilter
 (
 [
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -402,7 +402,7 @@ stdDeviation
 5
 }
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -530,7 +530,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -647,7 +647,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -684,7 +684,7 @@ CanvasFilter
 (
 [
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -694,7 +694,7 @@ stdDeviation
 5
 }
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -820,7 +820,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -904,7 +904,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -923,7 +923,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -945,7 +945,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -969,7 +969,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -994,7 +994,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -1016,7 +1016,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 gaussianBlur
@@ -1061,7 +1061,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1079,7 +1079,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1099,7 +1099,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1117,7 +1117,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1139,7 +1139,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1180,7 +1180,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1229,7 +1229,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1275,7 +1275,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1321,7 +1321,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1367,7 +1367,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1413,7 +1413,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1471,7 +1471,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1514,7 +1514,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -1694,7 +1694,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1709,7 +1709,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1727,7 +1727,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1745,7 +1745,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1763,7 +1763,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1789,7 +1789,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1817,7 +1817,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1841,7 +1841,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1868,7 +1868,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1887,7 +1887,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1907,7 +1907,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1930,7 +1930,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1953,7 +1953,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -1978,7 +1978,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -2012,7 +2012,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -2034,7 +2034,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 convolveMatrix
@@ -2240,7 +2240,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 componentTransfer
@@ -2455,7 +2455,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 componentTransfer
@@ -2811,7 +2811,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 componentTransfer
@@ -3243,7 +3243,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 componentTransfer
@@ -3606,7 +3606,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 componentTransfer
@@ -3887,7 +3887,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -3919,7 +3919,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -3969,7 +3969,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4014,7 +4014,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4059,7 +4059,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4110,7 +4110,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4165,7 +4165,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4223,7 +4223,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4269,7 +4269,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4316,7 +4316,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4368,7 +4368,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4423,7 +4423,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4474,7 +4474,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4523,7 +4523,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -4582,7 +4582,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 dropShadow
@@ -5489,7 +5489,7 @@ CanvasFilter
 {
 \
 -
-filter
+name
 :
 '
 dropShadow
@@ -5544,7 +5544,7 @@ CanvasFilter
 {
 \
 -
-filter
+name
 :
 '
 dropShadow
@@ -5636,7 +5636,7 @@ CanvasFilter
 {
 \
 -
-filter
+name
 :
 '
 dropShadow
@@ -5694,7 +5694,7 @@ CanvasFilter
 {
 \
 -
-filter
+name
 :
 '
 dropShadow
@@ -5746,7 +5746,7 @@ CanvasFilter
 {
 \
 -
-filter
+name
 :
 '
 dropShadow
@@ -5841,7 +5841,7 @@ CanvasFilter
 {
 \
 -
-filter
+name
 :
 '
 dropShadow
@@ -6421,7 +6421,7 @@ filterOptions
 .
 .
 {
-filter
+name
 :
 '
 turbulence
@@ -6458,7 +6458,7 @@ filterOptions
 .
 .
 {
-filter
+name
 :
 '
 turbulence

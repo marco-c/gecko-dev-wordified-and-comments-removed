@@ -607,7 +607,7 @@ filterOptions
 .
 .
 {
-filter
+name
 :
 '
 turbulence
@@ -651,7 +651,7 @@ filterOptions
 .
 .
 {
-filter
+name
 :
 '
 turbulence
