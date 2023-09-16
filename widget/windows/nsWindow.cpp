@@ -23557,6 +23557,16 @@ case
 WM_ACTIVATEAPP
 :
 {
+if
+(
+GPUProcessManager
+:
+:
+Get
+(
+)
+)
+{
 GPUProcessManager
 :
 :
@@ -23570,6 +23580,7 @@ SetAppInForeground
 wParam
 )
 ;
+}
 }
 break
 ;
