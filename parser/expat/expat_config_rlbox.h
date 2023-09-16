@@ -9,6 +9,10 @@ define
 BYTEORDER
 1234
 #
+define
+IS_LITTLE_ENDIAN
+1
+#
 ifdef
 __cplusplus
 static_assert

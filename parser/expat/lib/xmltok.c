@@ -10008,11 +10008,16 @@ endif
 ifdef
 MOZILLA_CLIENT
 #
+ifndef
+MOZ_IN_WASM_SANDBOX
+#
 include
 "
 moz_extensions
 .
 c
 "
+#
+endif
 #
 endif
