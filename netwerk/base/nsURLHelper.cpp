@@ -4191,14 +4191,6 @@ host
 {
 if
 (
-StaticPrefs
-:
-:
-network_dns_limit_253_chars
-(
-)
-&
-&
 host
 .
 Length
