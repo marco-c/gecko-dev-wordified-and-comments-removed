@@ -931,7 +931,16 @@ highlights
 analysis
 -
 explainer
->
+productUrl
+=
+{
+ifDefined
+(
+this
+.
+productUrl
+)
+}
 <
 /
 analysis
