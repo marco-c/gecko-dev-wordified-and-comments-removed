@@ -127,7 +127,6 @@ popup
 {
 padding
 :
-5px
 10px
 ;
 max
@@ -135,12 +134,6 @@ max
 width
 :
 450px
-;
-min
--
-width
-:
-200px
 ;
 }
 .

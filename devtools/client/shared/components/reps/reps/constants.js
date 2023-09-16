@@ -44,14 +44,6 @@ Symbol
 LONG
 "
 )
-HEADER
-:
-Symbol
-(
-"
-HEADER
-"
-)
 }
 }
 ;
