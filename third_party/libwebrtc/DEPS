@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-d59cc17cf92ef6137bbcdc7ba703bd695c5093a5
+d4f384285aebe4aa1ba283d639438c931808a2e7
 '
 #
 Fetch
@@ -188,9 +188,9 @@ version
 :
 12
 .
-20230512
+20230517
 .
-2
+1
 .
 1
 '
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-d856d007d88d4c57962a8196f8a44ec37c9c2b74
+011f394fc47678bf6b051e82180762c0170a143e
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-fef3fe31e60ceb77027560ef56e986960463f54b
+8900105268935ea9c414f8959abd4b1751a93914
 '
 '
 src
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-96e7449ba41f4b8fa1cfbb62af28aea7a9bcf7ab
+760fafbfca46011996b7f470be651bc8fb3fd626
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-7e003baa2bbee5b148f6938ffde021ab0458d354
+93155d6e531a1f32ba15b9aa304c6019155b0910
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-d022ba0142828354190b1332b700378f28482b3c
+02bdbe20e1745ad1c6a5657eaa0a53c48d86e1ff
 '
 '
 src
@@ -999,7 +999,7 @@ project
 libcxxabi
 .
 git
-f2cb09f94e39caed554c0ea453741edbc24a38a4
+7454e17b0da5e51309cbebe55a968a64889372fd
 '
 '
 src
@@ -1039,7 +1039,7 @@ project
 libunwind
 .
 git
-129773dde556dfd5dfc7df0eb3c0b970c56029f6
+55ceecab990d33d26ef0566ed59a057852c1d3f2
 '
 '
 src
@@ -1519,7 +1519,7 @@ tools
 depot_tools
 .
 git
-4786a41fb5aa74d356d2fc3e30545d59db5c0bf3
+cdefe67b38c4ae7210fe2829fb8f5a1ad7f3e95d
 '
 '
 src
@@ -1708,7 +1708,7 @@ third_party
 freetype2
 .
 git
-416d4c25f1e15d2494d373982a511928f635e705
+99dadd56a40e6d9ae23b395225ecf9997432d22c
 '
 '
 src
@@ -2529,7 +2529,7 @@ external
 perfetto
 .
 git
-609d1702b1824923c1997d992e9c54c8854f21fd
+f00f61517a995465d2516cfa920fa455a753fd5d
 '
 '
 src
@@ -2957,7 +2957,7 @@ chromium
 src
 /
 tools
-a59d3ca45144e932110425492a4ca5a5f723fa8b
+bb27a9dd57afcdc005352937fdbd61bc4756edd3
 '
 '
 src
@@ -3291,7 +3291,11 @@ version
 '
 :
 '
-EbxjbLEtz_gRVZhKhFotXggXC4P57jP6tvw9udXjAaQC
+k7wvyFCaPQrRUw9C0F8BXzEihtje
+-
+53Ux_
+-
+PO7SbREwC
 '
 }
 ]
