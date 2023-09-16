@@ -3452,10 +3452,6 @@ ColSpan
 toOperand
 (
 colspan
-.
-value
-(
-)
 )
 )
 )
