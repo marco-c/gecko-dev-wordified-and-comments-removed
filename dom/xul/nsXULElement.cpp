@@ -9592,6 +9592,10 @@ report
 -
 >
 column
+.
+oneOriginValue
+(
+)
 )
 .
 get
@@ -9820,6 +9824,10 @@ report
 -
 >
 column
+.
+oneOriginValue
+(
+)
 )
 .
 get

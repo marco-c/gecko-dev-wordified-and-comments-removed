@@ -3696,10 +3696,12 @@ JSEXN_TYPEERR
 nullptr
 filename
 aLineNumber
-aColumnNumber
-.
-oneOriginValue
+JS
+:
+:
+ColumnNumberOneOrigin
 (
+aColumnNumber
 )
 nullptr
 string
