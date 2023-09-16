@@ -209,6 +209,8 @@ DirectoryLock
 CreateDirectoryLock
 (
 )
+=
+0
 ;
 private
 :
