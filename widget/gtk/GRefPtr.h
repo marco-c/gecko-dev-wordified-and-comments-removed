@@ -168,6 +168,10 @@ GOBJECT_TRAITS
 (
 GUnixFDList
 )
+GOBJECT_TRAITS
+(
+GtkCssProvider
+)
 #
 undef
 GOBJECT_TRAITS
