@@ -8,7 +8,6 @@ authenticatorservice
 :
 {
 AuthenticatorService
-GetAssertionExtensions
 RegisterArgs
 SignArgs
 }
@@ -1633,16 +1632,13 @@ vec
 ]
 extensions
 :
-GetAssertionExtensions
+Default
 :
 :
 default
 (
 )
 pin
-:
-None
-alternate_rp_id
 :
 None
 use_ctap1_fallback

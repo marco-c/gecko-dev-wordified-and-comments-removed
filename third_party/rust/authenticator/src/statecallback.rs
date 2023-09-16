@@ -29,7 +29,7 @@ Option
 Box
 <
 dyn
-Fn
+FnOnce
 (
 T
 )
@@ -50,7 +50,7 @@ Option
 Box
 <
 dyn
-Fn
+FnOnce
 (
 )
 +
@@ -100,7 +100,7 @@ cb
 Box
 <
 dyn
-Fn
+FnOnce
 (
 T
 )
@@ -184,7 +184,7 @@ obs
 Box
 <
 dyn
-Fn
+FnOnce
 (
 )
 +

@@ -1912,13 +1912,7 @@ Vec
 <
 u8
 >
-#
-[
-allow
-(
-dead_code
-)
-]
+pub
 permissions
 :
 PinUvAuthTokenPermission
@@ -3069,6 +3063,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3076,6 +3071,7 @@ COSEAlgorithm
 :
 RSAES_OAEP_SHA_512
 )
+}
 i
 if
 i
@@ -3089,6 +3085,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3096,6 +3093,7 @@ COSEAlgorithm
 :
 RSAES_OAEP_SHA_256
 )
+}
 i
 if
 i
@@ -3109,6 +3107,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3116,6 +3115,7 @@ COSEAlgorithm
 :
 RSAES_OAEP_RFC_8017_default
 )
+}
 i
 if
 i
@@ -3529,6 +3529,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3536,6 +3537,7 @@ COSEAlgorithm
 :
 Direct_HKDF_AES256
 )
+}
 i
 if
 i
@@ -3549,6 +3551,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3556,6 +3559,7 @@ COSEAlgorithm
 :
 Direct_HKDF_AES128
 )
+}
 i
 if
 i
@@ -3569,6 +3573,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3576,6 +3581,7 @@ COSEAlgorithm
 :
 Direct_HKDF_SHA512
 )
+}
 i
 if
 i
@@ -3589,6 +3595,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3596,6 +3603,7 @@ COSEAlgorithm
 :
 Direct_HKDF_SHA256
 )
+}
 i
 if
 i
@@ -3869,6 +3877,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3876,6 +3885,7 @@ COSEAlgorithm
 :
 AES_CCM_16_64_128
 )
+}
 i
 if
 i
@@ -3889,6 +3899,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3896,6 +3907,7 @@ COSEAlgorithm
 :
 AES_CCM_16_64_256
 )
+}
 i
 if
 i
@@ -3909,6 +3921,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3916,6 +3929,7 @@ COSEAlgorithm
 :
 AES_CCM_64_64_128
 )
+}
 i
 if
 i
@@ -3929,6 +3943,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3936,6 +3951,7 @@ COSEAlgorithm
 :
 AES_CCM_64_64_256
 )
+}
 i
 if
 i
@@ -3989,6 +4005,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -3996,6 +4013,7 @@ COSEAlgorithm
 :
 ChaCha20_Poly1305
 )
+}
 i
 if
 i
@@ -4049,6 +4067,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -4056,6 +4075,7 @@ COSEAlgorithm
 :
 AES_CCM_16_128_128
 )
+}
 i
 if
 i
@@ -4069,6 +4089,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -4076,6 +4097,7 @@ COSEAlgorithm
 :
 AES_CCM_16_128_256
 )
+}
 i
 if
 i
@@ -4089,6 +4111,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -4096,6 +4119,7 @@ COSEAlgorithm
 :
 AES_CCM_64_128_128
 )
+}
 i
 if
 i
@@ -4109,6 +4133,7 @@ as
 i64
 =
 >
+{
 Ok
 (
 COSEAlgorithm
@@ -4116,6 +4141,7 @@ COSEAlgorithm
 :
 AES_CCM_64_128_256
 )
+}
 i
 if
 i
@@ -6884,8 +6910,8 @@ crypto
 :
 {
 COSEEC2Key
-COSERSAKey
 COSEKeyType
+COSERSAKey
 }
 ;
 use

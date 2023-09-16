@@ -40,6 +40,16 @@ e
 =
 >
 {
+#
+[
+allow
+(
+clippy
+:
+:
+redundant_closure_call
+)
+]
 return
 or
 (
