@@ -120,6 +120,11 @@ testCallNonGenericMethodOnProxy
 cpp
 "
 "
+testCharacterEncoding
+.
+cpp
+"
+"
 testChromeBuffer
 .
 cpp
