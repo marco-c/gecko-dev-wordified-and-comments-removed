@@ -10639,6 +10639,13 @@ MaybeWarnAboutZoom
 (
 )
 ;
+void
+EvaluateMediaQueriesAndReportChanges
+(
+bool
+aRecurse
+)
+;
 nsIHTMLCollection
 *
 Children

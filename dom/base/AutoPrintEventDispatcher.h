@@ -197,12 +197,9 @@ nullptr
 doc
 -
 >
-FlushPendingNotifications
+EvaluateMediaQueriesAndReportChanges
 (
-FlushType
-:
-:
-Style
+false
 )
 ;
 }
