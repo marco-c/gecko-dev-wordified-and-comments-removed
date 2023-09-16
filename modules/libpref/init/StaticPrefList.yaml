@@ -19090,7 +19090,7 @@ type
 bool
 value
 :
-IS_NOT_EARLY_BETA_OR_EARLIER
+IS_NOT_NIGHTLY_BUILD
 mirror
 :
 always
