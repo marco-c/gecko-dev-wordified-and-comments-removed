@@ -446,9 +446,6 @@ nsIURI
 >
 mURI
 ;
-uint32_t
-mLineNumber
-;
 const
 RefPtr
 <

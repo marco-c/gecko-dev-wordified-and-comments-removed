@@ -1099,8 +1099,6 @@ const
 nsAString
 &
 aBuffer
-uint32_t
-aLineNumber
 nsICSSLoaderObserver
 *
 aObserver

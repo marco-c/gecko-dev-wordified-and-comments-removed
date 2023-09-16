@@ -1824,7 +1824,6 @@ LoadInlineStyle
 *
 info
 text
-mLineNumber
 aObserver
 )
 ;

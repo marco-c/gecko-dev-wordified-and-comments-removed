@@ -388,9 +388,6 @@ ParseErrorReporter
 quirks_mode
 :
 QuirksMode
-line_number_offset
-:
-u32
 use_counters
 :
 Option
@@ -439,7 +436,6 @@ shared_lock
 stylesheet_loader
 error_reporter
 quirks_mode
-line_number_offset
 use_counters
 allow_import_rules
 sanitization_data
@@ -1846,9 +1842,6 @@ Option
 dyn
 ParseErrorReporter
 >
-line_number_offset
-:
-u32
 allow_import_rules
 :
 AllowImportRules
@@ -1886,7 +1879,6 @@ existing
 contents
 .
 quirks_mode
-line_number_offset
 None
 allow_import_rules
 None
@@ -2013,9 +2005,6 @@ ParseErrorReporter
 quirks_mode
 :
 QuirksMode
-line_number_offset
-:
-u32
 use_counters
 :
 Option
@@ -2061,10 +2050,9 @@ input
 ParserInput
 :
 :
-new_with_line_number_offset
+new
 (
 css
-line_number_offset
 )
 ;
 let
@@ -2430,9 +2418,6 @@ ParseErrorReporter
 quirks_mode
 :
 QuirksMode
-line_number_offset
-:
-u32
 allow_import_rules
 :
 AllowImportRules
@@ -2457,7 +2442,6 @@ shared_lock
 stylesheet_loader
 error_reporter
 quirks_mode
-line_number_offset
 None
 allow_import_rules
 None
