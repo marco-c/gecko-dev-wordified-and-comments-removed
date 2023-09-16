@@ -55,9 +55,7 @@ hwy
 /
 tests
 /
-test_util
--
-inl
+hwy_gtest
 .
 h
 >
@@ -129,6 +127,17 @@ test_utils
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+testing
+.
+h
+"
 HWY_BEFORE_NAMESPACE
 (
 )
@@ -169,6 +178,8 @@ HWY_ALIGN
 float
 scratch_space
 [
+4
+*
 N
 *
 N
@@ -243,6 +254,8 @@ HWY_ALIGN
 float
 scratch_space
 [
+4
+*
 N
 *
 N
@@ -546,6 +559,15 @@ block
 kBlockSize
 ]
 ;
+HWY_ALIGN
+float
+scratch
+[
+3
+*
+kBlockSize
+]
+;
 DCTTo
 to
 (
@@ -647,6 +669,7 @@ N
 (
 from
 to_tmp
+scratch
 )
 ;
 IDCT1D
@@ -659,6 +682,7 @@ N
 (
 from_tmp
 to
+scratch
 )
 ;
 for
@@ -1723,7 +1747,7 @@ scratch_space
 [
 kBlockSize
 *
-2
+5
 ]
 ;
 ComputeScaledDCT
@@ -2026,7 +2050,7 @@ scratch_space
 [
 kBlockSize
 *
-2
+5
 ]
 ;
 for

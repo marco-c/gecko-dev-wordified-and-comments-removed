@@ -253,12 +253,7 @@ N
 =
 MaxLanes
 (
-HWY_FULL
-(
-T
-)
-(
-)
+d
 )
 ;
 HWY_ALIGN

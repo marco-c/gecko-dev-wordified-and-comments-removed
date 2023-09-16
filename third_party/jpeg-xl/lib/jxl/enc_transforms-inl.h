@@ -301,6 +301,8 @@ scratch_space
 ROWS
 *
 COLS
+*
+3
 ]
 ;
 ComputeScaledIDCT
@@ -1730,7 +1732,7 @@ scratch_space
 *
 8
 *
-2
+5
 ]
 ;
 size_t

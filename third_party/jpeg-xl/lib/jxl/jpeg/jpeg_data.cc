@@ -3126,6 +3126,15 @@ IsReading
 )
 )
 {
+JXL_RETURN_IF_ERROR
+(
+CheckHasEnoughBits
+(
+visitor
+nbit
+)
+)
+;
 padding_bits
 .
 reserve

@@ -90,6 +90,10 @@ dc_stride
 float
 *
 llf
+float
+*
+JXL_RESTRICT
+scratch
 )
 ;
 void

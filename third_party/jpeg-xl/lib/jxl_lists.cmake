@@ -1627,6 +1627,16 @@ inl
 h
 jxl
 /
+simd_util
+.
+cc
+jxl
+/
+simd_util
+.
+h
+jxl
+/
 splines
 .
 cc
