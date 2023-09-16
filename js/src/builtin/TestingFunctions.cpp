@@ -51601,10 +51601,7 @@ rval
 .
 setDouble
 (
-fdlibm
-:
-:
-pow
+fdlibm_pow
 (
 x
 y
