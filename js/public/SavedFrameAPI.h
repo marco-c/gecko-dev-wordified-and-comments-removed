@@ -16,6 +16,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
@@ -149,7 +158,10 @@ JSObject
 *
 >
 savedFrame
-uint32_t
+JS
+:
+:
+TaggedColumnNumberOneOrigin
 *
 columnp
 SavedFrameSelfHosted
