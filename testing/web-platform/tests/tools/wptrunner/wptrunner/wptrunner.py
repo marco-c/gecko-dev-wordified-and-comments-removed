@@ -1804,6 +1804,16 @@ restart_on_new_group
 recording
 =
 recording
+                          
+max_restarts
+=
+kwargs
+[
+"
+max_restarts
+"
+]
+                          
 )
 as
 manager_group

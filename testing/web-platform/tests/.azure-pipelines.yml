@@ -4331,6 +4331,12 @@ stable
 kill
 -
 safari
+-
+-
+max
+-
+restarts
+100
 safari
 displayName
 :
@@ -4751,6 +4757,12 @@ preview
 kill
 -
 safari
+-
+-
+max
+-
+restarts
+100
 safari
 displayName
 :

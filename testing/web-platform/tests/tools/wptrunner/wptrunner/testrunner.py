@@ -1662,6 +1662,9 @@ True
 recording
 =
 None
+max_restarts
+=
+5
 )
 :
         
@@ -2074,7 +2077,7 @@ self
 .
 max_restarts
 =
-5
+max_restarts
         
 self
 .
@@ -6040,6 +6043,10 @@ True
 recording
 =
 None
+                 
+max_restarts
+=
+5
 )
 :
         
@@ -6120,6 +6127,12 @@ recording
 is
 not
 None
+        
+self
+.
+max_restarts
+=
+max_restarts
         
 self
 .
@@ -6296,6 +6309,12 @@ recording
 self
 .
 recording
+                                        
+max_restarts
+=
+self
+.
+max_restarts
 )
             
 manager
