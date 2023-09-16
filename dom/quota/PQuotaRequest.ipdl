@@ -186,11 +186,6 @@ ClearAllResponse
 }
 ;
 struct
-ResetAllResponse
-{
-}
-;
-struct
 PersistedResponse
 {
 bool
@@ -252,8 +247,6 @@ ResetOriginResponse
 ClearDataResponse
 ;
 ClearAllResponse
-;
-ResetAllResponse
 ;
 PersistedResponse
 ;
