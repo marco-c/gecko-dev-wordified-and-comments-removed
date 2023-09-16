@@ -683,7 +683,7 @@ platform
 :
 linux64
 /
-opt
+debug
 test
 -
 sets
