@@ -209,6 +209,16 @@ bool
 unused
 )
 ;
+async
+Shutdown
+(
+)
+returns
+(
+nsCString
+profile
+)
+;
 }
 ;
 }
