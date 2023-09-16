@@ -511,13 +511,6 @@ false
 \
 _
 (
-DwmCompositionEnabled
-bool
-true
-)
-\
-_
-(
 FxREmbedded
 bool
 false
