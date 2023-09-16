@@ -11952,10 +11952,8 @@ actors
 MOZ_IPC_MESSAGE_LOG
 =
 "
-PDemoParent
-PDemoChild
-PDemoHelplineParent
-PDemoHelplineChild
+PDemo
+PDemoHelpline
 "
 To
 underscore
