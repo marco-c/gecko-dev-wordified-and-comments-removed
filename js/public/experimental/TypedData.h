@@ -602,6 +602,17 @@ JSObject
 obj
 )
 ;
+JS_PUBLIC_API
+bool
+PinArrayBufferOrViewLength
+(
+JSObject
+*
+obj
+bool
+pin
+)
+;
 namespace
 detail
 {
