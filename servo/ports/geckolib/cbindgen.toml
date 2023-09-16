@@ -351,6 +351,9 @@ app_units
 cssparser
 "
 "
+cssparser_color
+"
+"
 style_traits
 "
 "

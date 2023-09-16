@@ -13,6 +13,15 @@ mod
 mix
 ;
 use
+cssparser
+:
+:
+color
+:
+:
+PredefinedColorSpace
+;
+use
 std
 :
 :
@@ -2604,9 +2613,6 @@ alpha
 impl
 From
 <
-cssparser
-:
-:
 PredefinedColorSpace
 >
 for
@@ -2617,9 +2623,6 @@ from
 (
 value
 :
-cssparser
-:
-:
 PredefinedColorSpace
 )
 -
@@ -2629,9 +2632,6 @@ Self
 match
 value
 {
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -2642,9 +2642,6 @@ ColorSpace
 :
 :
 Srgb
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -2655,9 +2652,6 @@ ColorSpace
 :
 :
 SrgbLinear
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -2668,9 +2662,6 @@ ColorSpace
 :
 :
 DisplayP3
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -2681,9 +2672,6 @@ ColorSpace
 :
 :
 A98Rgb
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -2694,9 +2682,6 @@ ColorSpace
 :
 :
 ProphotoRgb
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -2707,9 +2692,6 @@ ColorSpace
 :
 :
 Rec2020
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -2720,9 +2702,6 @@ ColorSpace
 :
 :
 XyzD50
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -2898,7 +2877,7 @@ ToCss
 to_css
 (
 &
-cssparser
+cssparser_color
 :
 :
 RgbaLegacy
@@ -2964,7 +2943,7 @@ ToCss
 to_css
 (
 &
-cssparser
+cssparser_color
 :
 :
 Lab
@@ -2994,7 +2973,7 @@ ToCss
 to_css
 (
 &
-cssparser
+cssparser_color
 :
 :
 Lch
@@ -3024,7 +3003,7 @@ ToCss
 to_css
 (
 &
-cssparser
+cssparser_color
 :
 :
 Oklab
@@ -3054,7 +3033,7 @@ ToCss
 to_css
 (
 &
-cssparser
+cssparser_color
 :
 :
 Oklch
@@ -3114,9 +3093,6 @@ function
 "
 )
 ;
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -3128,9 +3104,6 @@ ColorSpace
 SrgbLinear
 =
 >
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -3141,9 +3114,6 @@ ColorSpace
 DisplayP3
 =
 >
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -3154,9 +3124,6 @@ ColorSpace
 A98Rgb
 =
 >
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -3167,9 +3134,6 @@ ColorSpace
 ProphotoRgb
 =
 >
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -3180,9 +3144,6 @@ ColorSpace
 Rec2020
 =
 >
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -3193,9 +3154,6 @@ ColorSpace
 XyzD50
 =
 >
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -3206,9 +3164,6 @@ ColorSpace
 XyzD65
 =
 >
-cssparser
-:
-:
 PredefinedColorSpace
 :
 :
@@ -3239,7 +3194,7 @@ syntax
 let
 color_function
 =
-cssparser
+cssparser_color
 :
 :
 ColorFunction
@@ -3262,7 +3217,7 @@ maybe_alpha
 let
 color
 =
-cssparser
+cssparser_color
 :
 :
 Color
