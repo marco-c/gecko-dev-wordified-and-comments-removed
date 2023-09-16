@@ -991,6 +991,7 @@ com
 "
 )
 ;
+await
 PlacesTestUtils
 .
 addBookmarkWithDetails
@@ -1090,17 +1091,8 @@ com
 title
 :
 "
-test
-visit
-for
-http
-:
-/
-/
-mozilla
-.
-com
-/
+A
+bookmark
 "
 heuristic
 :
