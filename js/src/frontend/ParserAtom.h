@@ -593,9 +593,8 @@ SmallIndexLimit
 define
 CHECK_
 (
-_
 NAME
-_2
+_
 )
 MOZ_ASSERT
 (
@@ -688,9 +687,8 @@ public
 define
 METHOD_
 (
-_
 NAME
-_2
+_
 )
 \
 static
@@ -790,7 +788,6 @@ METHOD_
 define
 METHOD_
 (
-_
 NAME
 STR
 )
@@ -830,7 +827,6 @@ METHOD_
 define
 METHOD_
 (
-_
 NAME
 STR
 )
@@ -909,9 +905,8 @@ public
 define
 METHOD_
 (
-_
 NAME
-_2
+_
 )
 \
 static
@@ -1023,7 +1018,6 @@ METHOD_
 define
 METHOD_
 (
-_
 NAME
 STR
 )
@@ -1064,7 +1058,6 @@ METHOD_
 define
 METHOD_
 (
-_
 NAME
 STR
 )

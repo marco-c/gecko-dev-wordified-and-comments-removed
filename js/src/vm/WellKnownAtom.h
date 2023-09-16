@@ -60,9 +60,8 @@ uint32_t
 define
 ENUM_ENTRY_
 (
-_
 NAME
-_2
+_
 )
 NAME
 FOR_EACH_COMMON_PROPERTYNAME
