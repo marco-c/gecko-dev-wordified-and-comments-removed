@@ -138,8 +138,7 @@ HTreeGroup
 *
 htree_groups_
 ;
-HuffmanCode
-*
+HuffmanTables
 huffman_tables_
 ;
 }
