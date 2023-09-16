@@ -2890,8 +2890,6 @@ tabbrowser
 tab
 [
 visuallyselected
-=
-true
 ]
 :
 not
@@ -2930,8 +2928,6 @@ not
 (
 [
 visuallyselected
-=
-true
 ]
 [
 labelendaligned
@@ -3245,8 +3241,6 @@ not
 (
 [
 selected
-=
-true
 ]
 [
 multiselected
@@ -3567,8 +3561,6 @@ not
 (
 [
 multiselected
-=
-true
 ]
 )
 :
@@ -3647,8 +3639,6 @@ tab
 background
 [
 multiselected
-=
-true
 ]
 {
 outline
@@ -3957,10 +3947,6 @@ not
 (
 [
 selected
-=
-"
-true
-"
 ]
 )
 .
@@ -3988,10 +3974,6 @@ not
 (
 [
 selected
-=
-"
-true
-"
 ]
 )
 #
@@ -4112,10 +4094,6 @@ pinned
 ]
 [
 selected
-=
-"
-true
-"
 ]
 )
 {
@@ -4249,10 +4227,6 @@ not
 (
 [
 selected
-=
-"
-true
-"
 ]
 )
 {
