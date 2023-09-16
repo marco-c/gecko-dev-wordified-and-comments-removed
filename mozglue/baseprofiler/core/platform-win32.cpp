@@ -1076,6 +1076,12 @@ defined
 (
 GP_PLAT_amd64_windows
 )
+|
+|
+defined
+(
+GP_PLAT_arm64_windows
+)
 static
 WindowsDllInterceptor
 NtDllIntercept
