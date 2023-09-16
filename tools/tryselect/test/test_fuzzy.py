@@ -73,9 +73,11 @@ qr
 /
 debug
 -
-xpcshell
+mochitest
 -
-nofis
+chrome
+-
+1proc
 -
 "
         
@@ -84,11 +86,11 @@ caps
 /
 tests
 /
-unit
+mochitest
 /
-test_origin
+test_addonMayLoad
 .
-js
+html
 "
     
 ]
@@ -140,9 +142,11 @@ qr
 /
 debug
 -
-xpcshell
+mochitest
 -
-nofis
+chrome
+-
+1proc
 -
 1
 "
