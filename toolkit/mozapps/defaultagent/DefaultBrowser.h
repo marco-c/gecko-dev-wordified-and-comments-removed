@@ -37,6 +37,7 @@ MOZ_DEFINE_ENUM_CLASS
 (
 Browser
 (
+Error
 Unknown
 Firefox
 Chrome
