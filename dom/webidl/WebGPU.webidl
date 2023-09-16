@@ -4727,12 +4727,9 @@ GPUCommandBuffer
 buffers
 )
 ;
-/
-/
-TODO
-:
-/
-/
+[
+NewObject
+]
 Promise
 <
 undefined
