@@ -291,7 +291,11 @@ loginList
 querySelector
 (
 "
-li
+login
+-
+list
+-
+item
 [
 aria
 -
@@ -333,7 +337,11 @@ loginList
 querySelector
 (
 "
-li
+login
+-
+list
+-
+item
 [
 aria
 -

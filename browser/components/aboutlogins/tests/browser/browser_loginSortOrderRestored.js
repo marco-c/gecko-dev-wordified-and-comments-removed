@@ -355,7 +355,6 @@ _list
 querySelector
 (
 "
-.
 login
 -
 list
@@ -441,7 +440,6 @@ _list
 querySelector
 (
 "
-.
 login
 -
 list
@@ -681,7 +679,6 @@ _list
 querySelector
 (
 "
-.
 login
 -
 list
@@ -889,7 +886,6 @@ _list
 querySelector
 (
 "
-.
 login
 -
 list
@@ -966,7 +962,6 @@ _list
 querySelector
 (
 "
-.
 login
 -
 list

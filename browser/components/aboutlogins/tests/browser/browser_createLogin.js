@@ -2350,7 +2350,6 @@ _list
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -2393,7 +2392,6 @@ shadowRoot
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -2548,7 +2546,6 @@ shadowRoot
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -2702,7 +2699,6 @@ _list
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -2862,7 +2858,6 @@ shadowRoot
 querySelectorAll
 (
 "
-.
 login
 -
 list
