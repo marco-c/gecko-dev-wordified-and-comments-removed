@@ -2894,10 +2894,6 @@ pkt_ext_containersaved
 .
 pkt_ext_loadingspinner
 {
-position
-:
-relative
-;
 display
 :
 inline
@@ -6467,6 +6463,9 @@ hidden
 margin
 :
 0
+0
+.
+2em
 ;
 padding
 :
@@ -6510,13 +6509,6 @@ block
 width
 :
 auto
-;
-margin
-:
-0
-0
-.
-2em
 ;
 float
 :
