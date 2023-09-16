@@ -9512,7 +9512,7 @@ nsIEventListenerInfo
 aList
 )
 {
-nsCOMPtr
+RefPtr
 <
 EventTarget
 >

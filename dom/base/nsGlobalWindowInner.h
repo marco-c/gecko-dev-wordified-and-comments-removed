@@ -822,7 +822,16 @@ WindowGlobalChild
 aActor
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
+NS_IMETHOD_
+(
+void
+)
+DeleteCycleCollectable
+(
+)
+override
+;
 virtual
 JSObject
 *
