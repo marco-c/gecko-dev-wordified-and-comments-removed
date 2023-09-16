@@ -2731,6 +2731,16 @@ static_prefs
 pref
 !
 macro
+for
+prefs
+which
+opt
+into
+this
+using
+rust
+:
+true
 .
 Other
 prefs
