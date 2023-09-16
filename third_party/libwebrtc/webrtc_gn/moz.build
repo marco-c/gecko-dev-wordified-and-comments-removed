@@ -796,6 +796,14 @@ PSAPI_VERSION
 DEFINES
 [
 "
+RTC_ENABLE_WIN_WGC
+"
+]
+=
+True
+DEFINES
+[
+"
 UNICODE
 "
 ]
@@ -964,6 +972,9 @@ crypt32
 "
 "
 d3d11
+"
+"
+dwmapi
 "
 "
 dxgi
