@@ -29513,7 +29513,7 @@ names
 (
 )
 .
-starNamespaceStar
+star_namespace_star_
 )
 )
 ;

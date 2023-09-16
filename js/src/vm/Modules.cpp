@@ -3038,7 +3038,7 @@ names
 (
 )
 .
-starNamespaceStar
+star_namespace_star_
 ;
 return
 CreateResolvedBindingObject
@@ -3987,7 +3987,7 @@ names
 (
 )
 .
-starNamespaceStar
+star_namespace_star_
 )
 {
 importedNamespace
@@ -4794,7 +4794,7 @@ names
 (
 )
 .
-starNamespaceStar
+star_namespace_star_
 )
 {
 Rooted
