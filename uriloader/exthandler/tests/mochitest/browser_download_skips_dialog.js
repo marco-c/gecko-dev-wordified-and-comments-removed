@@ -91,6 +91,16 @@ useDownloadDir
 "
 true
 ]
+[
+"
+image
+.
+webp
+.
+enabled
+"
+true
+]
 ]
 }
 )
