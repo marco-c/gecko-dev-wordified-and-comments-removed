@@ -906,14 +906,6 @@ extent
 )
 .
 lineno
-JS
-:
-:
-LimitedColumnNumberZeroOrigin
-:
-:
-fromUnlimited
-(
 sc
 -
 >
@@ -922,7 +914,6 @@ extent
 )
 .
 column
-)
 )
 perScriptData_
 (

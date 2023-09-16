@@ -6181,6 +6181,10 @@ return
 extent_
 .
 column
+.
+zeroOriginValue
+(
+)
 ;
 }
 JS
