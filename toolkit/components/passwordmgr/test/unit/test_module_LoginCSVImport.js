@@ -115,13 +115,6 @@ IMPORT_TIMER_HISTOGRAM
 PWMGR_IMPORT_LOGINS_FROM_FILE_MS
 "
 ;
-const
-IMPORT_JANK_HISTOGRAM
-=
-"
-PWMGR_IMPORT_LOGINS_FROM_FILE_JANK_MS
-"
-;
 async
 function
 setupCsv
@@ -142,13 +135,6 @@ TTU
 getAndClearHistogram
 (
 IMPORT_TIMER_HISTOGRAM
-)
-;
-TTU
-.
-getAndClearHistogram
-(
-IMPORT_JANK_HISTOGRAM
 )
 ;
 Services
