@@ -1084,10 +1084,6 @@ aReport
 -
 >
 column
-.
-oneOriginValue
-(
-)
 ;
 mErrorNumber
 =

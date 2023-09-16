@@ -1537,10 +1537,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 hasLineAndColumn

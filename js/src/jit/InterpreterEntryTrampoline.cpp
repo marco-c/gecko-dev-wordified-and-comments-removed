@@ -1368,10 +1368,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 }

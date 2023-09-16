@@ -2344,10 +2344,6 @@ report
 -
 >
 column
-.
-oneOriginValue
-(
-)
 )
 ;
 }
@@ -3624,10 +3620,6 @@ note
 -
 >
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;

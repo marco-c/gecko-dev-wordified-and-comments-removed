@@ -32,15 +32,6 @@ include
 "
 js
 /
-ColumnNumber
-.
-h
-"
-#
-include
-"
-js
-/
 CompileOptions
 .
 h
@@ -519,10 +510,7 @@ index
 uint32_t
 *
 lineNumber
-JS
-:
-:
-ColumnNumberZeroOrigin
+uint32_t
 *
 columnNumber
 )

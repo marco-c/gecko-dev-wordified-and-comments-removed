@@ -41,15 +41,6 @@ Parser
 .
 h
 "
-#
-include
-"
-js
-/
-ColumnNumber
-.
-h
-"
 namespace
 js
 :
@@ -153,10 +144,7 @@ offset
 uint32_t
 *
 line
-JS
-:
-:
-LimitedColumnNumberZeroOrigin
+uint32_t
 *
 column
 )

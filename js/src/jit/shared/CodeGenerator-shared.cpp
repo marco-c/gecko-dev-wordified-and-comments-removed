@@ -1592,10 +1592,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 for
@@ -1839,10 +1835,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 for
@@ -1914,10 +1906,6 @@ script
 -
 >
 column
-(
-)
-.
-zeroOriginValue
 (
 )
 )

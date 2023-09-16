@@ -9453,10 +9453,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 IonCompileTask
@@ -10043,10 +10039,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 return
@@ -10303,10 +10295,6 @@ script
 -
 >
 column
-(
-)
-.
-zeroOriginValue
 (
 )
 )
@@ -11482,10 +11470,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 (
 int
 )
@@ -12567,10 +12551,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 frame
 .
 maybeCallee
@@ -13384,10 +13364,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 ionScript
 )
 ;
@@ -13770,10 +13746,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 if
@@ -13979,10 +13951,6 @@ script
 -
 >
 column
-(
-)
-.
-zeroOriginValue
 (
 )
 )

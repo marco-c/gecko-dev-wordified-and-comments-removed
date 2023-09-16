@@ -953,10 +953,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 script
 -
 >

@@ -408,10 +408,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 char
@@ -648,10 +644,6 @@ script
 -
 >
 column
-(
-)
-.
-zeroOriginValue
 (
 )
 )

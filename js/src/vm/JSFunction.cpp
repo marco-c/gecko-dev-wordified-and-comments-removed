@@ -5824,7 +5824,7 @@ char
 *
 filename
 ;
-uint32_t
+unsigned
 lineno
 ;
 bool

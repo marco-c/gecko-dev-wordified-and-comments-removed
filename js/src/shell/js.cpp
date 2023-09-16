@@ -21198,10 +21198,6 @@ report
 -
 >
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;
@@ -22409,7 +22405,7 @@ JS
 AutoFilename
 filename
 ;
-uint32_t
+unsigned
 lineno
 ;
 DescribeScriptedCaller

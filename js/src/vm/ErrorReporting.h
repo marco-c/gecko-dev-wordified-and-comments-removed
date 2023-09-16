@@ -32,15 +32,6 @@ include
 "
 js
 /
-ColumnNumber
-.
-h
-"
-#
-include
-"
-js
-/
 ErrorReport
 .
 h
@@ -86,10 +77,7 @@ filename
 uint32_t
 lineNumber
 ;
-JS
-:
-:
-ColumnNumberZeroOrigin
+uint32_t
 columnNumber
 ;
 JS

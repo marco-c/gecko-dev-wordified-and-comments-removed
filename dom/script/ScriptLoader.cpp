@@ -75,15 +75,6 @@ include
 "
 js
 /
-ColumnNumber
-.
-h
-"
-#
-include
-"
-js
-/
 CompilationAndEvaluation
 .
 h
@@ -10452,11 +10443,6 @@ aOptions
 >
 setColumn
 (
-JS
-:
-:
-ColumnNumberZeroOrigin
-(
 aRequest
 -
 >
@@ -10466,7 +10452,6 @@ GetScriptLoadContext
 -
 >
 mColumnNo
-)
 )
 ;
 }

@@ -23872,10 +23872,6 @@ column
 extent
 .
 column
-.
-zeroOriginValue
-(
-)
 )
 ;
 json
@@ -24898,10 +24894,6 @@ column
 extent
 .
 column
-.
-zeroOriginValue
-(
-)
 )
 ;
 }

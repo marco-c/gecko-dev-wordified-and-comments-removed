@@ -91,15 +91,6 @@ h
 #
 include
 "
-js
-/
-ColumnNumber
-.
-h
-"
-#
-include
-"
 vm
 /
 FunctionFlags
@@ -2574,10 +2565,7 @@ uint32_t
 offset
 uint32_t
 line
-JS
-:
-:
-LimitedColumnNumberZeroOrigin
+uint32_t
 column
 )
 {
