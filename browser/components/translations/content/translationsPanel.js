@@ -798,20 +798,6 @@ language
 getter
 (
 "
-defaultTranslate
-"
-"
-translations
--
-panel
--
-translate
-"
-)
-;
-getter
-(
-"
 dismissErrorButton
 "
 "
@@ -1801,7 +1787,7 @@ languageState
 {
 const
 {
-defaultTranslate
+translateButton
 toMenuList
 fromMenuList
 header
@@ -1857,7 +1843,7 @@ l10n
 .
 setAttributes
 (
-defaultTranslate
+translateButton
 "
 translations
 -
@@ -1871,7 +1857,7 @@ loading
 "
 )
 ;
-defaultTranslate
+translateButton
 .
 disabled
 =
@@ -1899,7 +1885,7 @@ l10n
 .
 setAttributes
 (
-defaultTranslate
+translateButton
 "
 translations
 -
@@ -1911,7 +1897,7 @@ button
 "
 )
 ;
-defaultTranslate
+translateButton
 .
 disabled
 =
@@ -2206,7 +2192,7 @@ multiview
 panel
 error
 toMenuList
-defaultTranslate
+translateButton
 langSelection
 intro
 header
@@ -2319,7 +2305,7 @@ reloadLangList
 }
 )
 ;
-defaultTranslate
+translateButton
 .
 disabled
 =
