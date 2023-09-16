@@ -125,7 +125,7 @@ IDENTIFIER_SLOT
 static
 constexpr
 uint32_t
-OFFSET_NANOSECONDS_SLOT
+OFFSET_MINUTES_SLOT
 =
 1
 ;
@@ -171,7 +171,7 @@ toString
 const
 auto
 &
-offsetNanoseconds
+offsetMinutes
 (
 )
 const
@@ -179,7 +179,7 @@ const
 return
 getFixedSlot
 (
-OFFSET_NANOSECONDS_SLOT
+OFFSET_MINUTES_SLOT
 )
 ;
 }
@@ -628,6 +628,9 @@ struct
 Instant
 ;
 struct
+ParsedTimeZone
+;
+struct
 PlainDateTime
 ;
 class
@@ -770,8 +773,7 @@ JS
 :
 Handle
 <
-JSString
-*
+ParsedTimeZone
 >
 string
 JS
@@ -1105,17 +1107,6 @@ PlainDateTimeObject
 dateTimeObj
 TemporalDisambiguation
 disambiguation
-)
-;
-JSString
-*
-FormatTimeZoneOffsetString
-(
-JSContext
-*
-cx
-int64_t
-offsetNanoseconds
 )
 ;
 bool

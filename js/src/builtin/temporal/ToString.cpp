@@ -1329,9 +1329,13 @@ abs
 offsetMinutes
 )
 <
-24
-*
-60
+UnitsPerDay
+(
+TemporalUnit
+:
+:
+Minute
+)
 "
 time
 zone

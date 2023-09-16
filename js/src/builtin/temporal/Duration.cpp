@@ -17602,7 +17602,7 @@ false
 if
 (
 !
-ParseTimeZoneOffsetString
+ParseDateTimeUTCOffset
 (
 cx
 offsetString
@@ -17681,8 +17681,7 @@ timeZoneOffset
 ;
 Rooted
 <
-JSString
-*
+ParsedTimeZone
 >
 timeZoneName
 (
