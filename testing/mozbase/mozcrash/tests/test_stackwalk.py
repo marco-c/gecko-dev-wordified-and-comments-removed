@@ -181,7 +181,6 @@ tmpdir
 .
 mkdir
 (
-u
 "
 "
 )

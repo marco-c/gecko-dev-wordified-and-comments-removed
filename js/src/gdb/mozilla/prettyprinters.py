@@ -305,10 +305,8 @@ to_delete
 ]
         
 for
-(
 k
 v
-)
 in
 d
 .
@@ -1145,10 +1143,8 @@ type
 )
         
 for
-(
 r
 f
-)
 in
 printers_by_regexp
 :

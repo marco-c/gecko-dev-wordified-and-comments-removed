@@ -604,10 +604,8 @@ values
 )
         
 for
-(
 k
 v
-)
 in
 d
 .

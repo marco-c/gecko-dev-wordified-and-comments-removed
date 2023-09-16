@@ -250,7 +250,6 @@ self
 .
 assertIn
 (
-u
 "
 STDOUT
 :

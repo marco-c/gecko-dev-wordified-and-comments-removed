@@ -520,10 +520,8 @@ signatures
 ]
     
 for
-(
 idx
 type
-)
 in
 enumerate
 (

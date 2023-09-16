@@ -1912,10 +1912,8 @@ get_whiteboard
 )
         
 for
-(
 key
 comp
-)
 in
 six
 .
@@ -2091,10 +2089,8 @@ accumulated
 "
             
 for
-(
 k
 v
-)
 in
 six
 .

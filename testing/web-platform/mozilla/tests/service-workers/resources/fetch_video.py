@@ -19,11 +19,9 @@ join
 request
 .
 doc_root
-u
 "
 media
 "
-u
 "
 2x2
 -

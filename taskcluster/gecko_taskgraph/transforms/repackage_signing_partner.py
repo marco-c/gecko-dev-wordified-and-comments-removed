@@ -370,6 +370,8 @@ signing
         
 description
 =
+(
+            
 "
 Signing
 of
@@ -388,6 +390,7 @@ for
 build
 '
 "
+            
 "
 {
 build_platform
@@ -401,11 +404,11 @@ build_type
 .
 format
 (
-            
+                
 repack_id
 =
 repack_id
-            
+                
 build_platform
 =
 attributes
@@ -416,7 +419,7 @@ get
 build_platform
 "
 )
-            
+                
 build_type
 =
 attributes
@@ -426,6 +429,8 @@ get
 "
 build_type
 "
+)
+            
 )
         
 )

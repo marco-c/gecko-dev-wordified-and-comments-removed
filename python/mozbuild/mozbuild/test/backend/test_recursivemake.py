@@ -12149,10 +12149,8 @@ PROGRAM
 "
         
 for
-(
 subdir
 expected_program
-)
 in
 expected
 :

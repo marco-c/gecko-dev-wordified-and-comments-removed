@@ -129,7 +129,6 @@ tmpdir
 .
 ensure
 (
-u
 "
 "
 dir
@@ -188,7 +187,6 @@ in
 out
     
 assert
-u
 "
 "
 in
@@ -226,7 +224,6 @@ check_for_crashes
 (
 test_name
 =
-u
 "
 "
 quiet
@@ -244,7 +241,6 @@ readouterr
 )
     
 assert
-u
 "
 |
 "

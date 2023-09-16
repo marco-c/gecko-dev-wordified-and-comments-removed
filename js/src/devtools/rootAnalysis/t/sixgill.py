@@ -368,10 +368,8 @@ list
 )
         
 for
-(
 src
 edges
-)
 in
 self
 [

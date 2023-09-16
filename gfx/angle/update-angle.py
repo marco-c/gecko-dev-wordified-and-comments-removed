@@ -2845,10 +2845,8 @@ cxxflags
 )
     
 for
-(
 config
 v
-)
 in
 sorted_items
 (
@@ -3020,10 +3018,8 @@ ldflags
 )
     
 for
-(
 k
 v
-)
 in
 sorted
 (

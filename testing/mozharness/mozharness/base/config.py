@@ -572,10 +572,8 @@ self
 :
         
 for
-(
 k
 v
-)
 in
 list
 (

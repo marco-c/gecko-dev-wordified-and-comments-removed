@@ -3374,11 +3374,9 @@ enable_run_as
 )
         
 except
-(
 mozdevice
 .
 ADBTimeoutError
-)
 as
 e
 :

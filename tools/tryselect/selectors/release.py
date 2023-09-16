@@ -857,11 +857,9 @@ migration
 ]
         
 for
-(
 path
 from_
 to
-)
 in
 migration_config
 [

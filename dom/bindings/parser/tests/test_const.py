@@ -687,14 +687,12 @@ expected
 )
     
 for
-(
 const
 (
 QName
 name
 type
 value
-)
 )
 in
 zip

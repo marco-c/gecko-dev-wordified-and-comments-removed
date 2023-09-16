@@ -171,13 +171,11 @@ index
 "
 project
 =
-u
 "
 MozBase
 "
 copyright
 =
-u
 "
 2012
 Mozilla
@@ -304,13 +302,11 @@ MozBase
 tex
 "
         
-u
 "
 MozBase
 Documentation
 "
         
-u
 "
 Mozilla
 Automation
@@ -339,14 +335,12 @@ index
 mozbase
 "
         
-u
 "
 MozBase
 Documentation
 "
         
 [
-u
 "
 Mozilla
 Automation
@@ -374,13 +368,11 @@ index
 MozBase
 "
         
-u
 "
 MozBase
 Documentation
 "
         
-u
 "
 Mozilla
 Automation

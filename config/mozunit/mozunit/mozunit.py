@@ -1333,7 +1333,6 @@ ensure_text
 (
 content
 or
-u
 "
 "
 )

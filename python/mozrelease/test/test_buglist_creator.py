@@ -584,152 +584,122 @@ ff_48_tags
 =
 [
         
-u
 "
 FIREFOX_BETA_48_END
 "
         
-u
 "
 FIREFOX_RELEASE_48_END
 "
         
-u
 "
 FIREFOX_48_0_2_RELEASE
 "
         
-u
 "
 FIREFOX_48_0_2_BUILD1
 "
         
-u
 "
 FIREFOX_48_0_1_RELEASE
 "
         
-u
 "
 FIREFOX_48_0_1_BUILD3
 "
         
-u
 "
 FIREFOX_48_0_RELEASE
 "
         
-u
 "
 FIREFOX_48_0_BUILD2
 "
         
-u
 "
 FIREFOX_RELEASE_48_BASE
 "
         
-u
 "
 FIREFOX_48_0b10_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b10_BUILD1
 "
         
-u
 "
 FIREFOX_48_0b9_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b9_BUILD1
 "
         
-u
 "
 FIREFOX_48_0b7_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b7_BUILD1
 "
         
-u
 "
 FIREFOX_48_0b6_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b6_BUILD1
 "
         
-u
 "
 FIREFOX_48_0b5_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b5_BUILD1
 "
         
-u
 "
 FIREFOX_48_0b4_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b4_BUILD1
 "
         
-u
 "
 FIREFOX_48_0b3_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b3_BUILD1
 "
         
-u
 "
 FIREFOX_48_0b2_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b2_BUILD2
 "
         
-u
 "
 FIREFOX_48_0b1_RELEASE
 "
         
-u
 "
 FIREFOX_48_0b1_BUILD2
 "
         
-u
 "
 FIREFOX_AURORA_48_END
 "
         
-u
 "
 FIREFOX_BETA_48_BASE
 "
         
-u
 "
 FIREFOX_AURORA_48_BASE
 "
@@ -820,52 +790,42 @@ bugs
 =
 {
         
-u
 "
 1356563
 "
         
-u
 "
 1348409
 "
         
-u
 "
 1341190
 "
         
-u
 "
 1360626
 "
         
-u
 "
 1332731
 "
         
-u
 "
 1328762
 "
         
-u
 "
 1355870
 "
         
-u
 "
 1358089
 "
         
-u
 "
 1354911
 "
         
-u
 "
 1354038
 "
@@ -877,11 +837,9 @@ backouts
 =
 =
 {
-u
 "
 1337861
 "
-u
 "
 1320072
 "

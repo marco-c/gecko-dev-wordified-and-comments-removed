@@ -2051,7 +2051,6 @@ results
 =
 {
             
-u
 "
 demo
 -
@@ -2060,35 +2059,29 @@ feature
 :
 {
                 
-u
 "
 id
 "
 :
-u
 "
 demo
 -
 feature
 "
                 
-u
 "
 title
 "
 :
-u
 "
 Demo
 Feature
 "
                 
-u
 "
 description
 "
 :
-u
 "
 A
 no
@@ -2104,19 +2097,16 @@ system
 .
 "
                 
-u
 "
 restartRequired
 "
 :
 False
                 
-u
 "
 preference
 "
 :
-u
 "
 foo
 .
@@ -2125,17 +2115,14 @@ bar
 baz
 "
                 
-u
 "
 type
 "
 :
-u
 "
 boolean
 "
                 
-u
 "
 bugNumbers
 "
@@ -2144,13 +2131,11 @@ bugNumbers
 1479127
 ]
                 
-u
 "
 isPublic
 "
 :
 {
-u
 "
 default
 "
@@ -2158,13 +2143,11 @@ default
 True
 }
                 
-u
 "
 defaultValue
 "
 :
 {
-u
 "
 default
 "
@@ -2174,7 +2157,6 @@ False
             
 }
             
-u
 "
 minimal
 -
@@ -2183,35 +2165,29 @@ feature
 :
 {
                 
-u
 "
 id
 "
 :
-u
 "
 minimal
 -
 feature
 "
                 
-u
 "
 title
 "
 :
-u
 "
 Minimal
 Feature
 "
                 
-u
 "
 description
 "
 :
-u
 "
 The
 smallest
@@ -2221,19 +2197,16 @@ is
 valid
 "
                 
-u
 "
 restartRequired
 "
 :
 True
                 
-u
 "
 preference
 "
 :
-u
 "
 features
 .
@@ -2244,17 +2217,14 @@ feature
 enabled
 "
                 
-u
 "
 type
 "
 :
-u
 "
 boolean
 "
                 
-u
 "
 bugNumbers
 "
@@ -2263,13 +2233,11 @@ bugNumbers
 1479127
 ]
                 
-u
 "
 isPublic
 "
 :
 {
-u
 "
 default
 "
@@ -2277,13 +2245,11 @@ default
 False
 }
                 
-u
 "
 defaultValue
 "
 :
 {
-u
 "
 default
 "

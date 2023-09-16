@@ -13343,10 +13343,8 @@ stepResults
 }
                 
 for
-(
 descr
 step
-)
 in
 steps
 :
@@ -13370,10 +13368,8 @@ PASSED
 "
                 
 for
-(
 descr
 step
-)
 in
 steps
 :

@@ -81,7 +81,6 @@ index
 "
 project
 =
-u
 "
 Marionette
 Python
@@ -89,7 +88,6 @@ Client
 "
 copyright
 =
-u
 "
 2013
 Mozilla
@@ -195,7 +193,6 @@ MarionettePythonClient
 tex
 "
         
-u
 "
 Marionette
 Python
@@ -203,7 +200,6 @@ Client
 Documentation
 "
         
-u
 "
 Mozilla
 Automation
@@ -232,7 +228,6 @@ index
 marionettepythonclient
 "
         
-u
 "
 Marionette
 Python
@@ -241,7 +236,6 @@ Documentation
 "
         
 [
-u
 "
 Mozilla
 Automation

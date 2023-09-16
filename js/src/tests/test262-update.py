@@ -3004,11 +3004,9 @@ js
 ]
     
 for
-(
 dirPath
 dirNames
 fileNames
-)
 in
 os
 .
@@ -3255,11 +3253,9 @@ strictTests
 )
             
 for
-(
 newFileName
 newSource
 externRefTest
-)
 in
 convert
 :

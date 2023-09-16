@@ -485,10 +485,8 @@ finish
 )
     
 for
-(
 i
 iface
-)
 in
 enumerate
 (

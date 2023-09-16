@@ -465,10 +465,8 @@ else
 :
             
 for
-(
 idx
 line
-)
 in
 enumerate
 (

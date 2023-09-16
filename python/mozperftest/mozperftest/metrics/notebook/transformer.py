@@ -1418,10 +1418,8 @@ True
 )
         
 for
-(
 name
 tfm_class
-)
 in
 members
 :

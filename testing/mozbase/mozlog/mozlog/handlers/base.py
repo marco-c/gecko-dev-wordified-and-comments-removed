@@ -592,9 +592,7 @@ formatted
 )
                 
 except
-(
 UnicodeEncodeError
-)
 :
                     
 return

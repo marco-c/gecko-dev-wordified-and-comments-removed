@@ -1291,10 +1291,8 @@ b
 )
     
 for
-(
 curr
 succ
-)
 in
 zip_longest
 (
@@ -1800,10 +1798,8 @@ set
 )
     
 for
-(
 char
 prop
-)
 in
 read_derived_core_properties
 (
@@ -2377,10 +2373,8 @@ set
 )
     
 for
-(
 code
 mapping
-)
 in
 read_case_folding
 (
@@ -2721,19 +2715,15 @@ upper
 )
     
 for
-(
 code
 lower
 upper
 languages
 contexts
-)
 in
 read_special_casing
 (
-        
 special_casing
-    
 )
 :
         
@@ -3981,10 +3971,8 @@ depth
 "
         
 for
-(
 start
 end
-)
 in
 ranges
 :
@@ -4305,10 +4293,8 @@ lines
 ]
         
 for
-(
 start
 end
-)
 in
 ranges
 :
@@ -5254,14 +5240,11 @@ ch
 )
         
 for
-(
 code
 converted
-)
 in
 sorted
 (
-            
 unconditional_toupper
 .
 items
@@ -5273,7 +5256,6 @@ itemgetter
 (
 0
 )
-        
 )
 :
             
@@ -5439,14 +5421,11 @@ ch
 )
         
 for
-(
 code
 converted
-)
 in
 sorted
 (
-            
 unconditional_toupper
 .
 items
@@ -5458,7 +5437,6 @@ itemgetter
 (
 0
 )
-        
 )
 :
             
@@ -9167,10 +9145,8 @@ println
 )
         
 for
-(
 from_code
 to_code
-)
 in
 int_ranges
 (

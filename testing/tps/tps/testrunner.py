@@ -3069,10 +3069,8 @@ testlist
 ]
             
 for
-(
 filename
 meta
-)
 in
 testfiles
 [

@@ -4355,10 +4355,8 @@ gecko
 :
             
 for
-(
 prefix
 pref
-)
 in
 property
 .

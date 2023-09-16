@@ -1319,10 +1319,8 @@ i
 0
     
 for
-(
 j
 fragment
-)
 in
 enumerate
 (
@@ -1382,11 +1380,9 @@ command
 )
     
 for
-(
 i
 j
 name
-)
 in
 out_indexes
 (
@@ -1671,10 +1667,8 @@ close
 )
         
 for
-(
 temp
 final
-)
 in
 info
 [
@@ -1887,11 +1881,9 @@ cmdspec
 )
         
 for
-(
 i
 j
 raw_name
-)
 in
 out_indexes
 (
@@ -2996,11 +2988,9 @@ num_outputs
 0
         
 for
-(
 i
 j
 name
-)
 in
 out_indexes
 (

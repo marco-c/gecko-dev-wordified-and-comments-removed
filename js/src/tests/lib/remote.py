@@ -305,9 +305,7 @@ context
 )
         
 except
-(
 ImportError
-)
 :
             
 adb_path

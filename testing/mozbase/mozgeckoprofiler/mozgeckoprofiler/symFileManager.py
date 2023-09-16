@@ -1641,10 +1641,8 @@ symDirsToInspect
 :
                 
 for
-(
 mtime
 symbolDirPath
-)
 in
 symDirsToInspect
 [
@@ -1744,10 +1742,8 @@ pdbName
 )
             
 for
-(
 mtime
 symbolDirPath
-)
 in
 symDirsToInspect
 [
@@ -1877,10 +1873,8 @@ fetchedCount
 )
             
 for
-(
 pdbName
 pdbId
-)
 in
 fetchedSymbols
 :
@@ -2128,10 +2122,8 @@ sCacheCount
 numOldEntriesAfterEvict
         
 for
-(
 pdbName
 pdbId
-)
 in
 reversed
 (

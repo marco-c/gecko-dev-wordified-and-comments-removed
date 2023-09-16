@@ -4307,10 +4307,8 @@ stepResults
 }
         
 for
-(
 descr
 step
-)
 in
 steps
 :
@@ -4353,10 +4351,8 @@ PASSED
 "
         
 for
-(
 descr
 step
-)
 in
 steps
 :
@@ -4906,10 +4902,8 @@ focus
 )
         
 for
-(
 chunkNumber
 jobArgs
-)
 in
 enumerate
 (
@@ -5156,12 +5150,10 @@ threads
 :
             
 for
-(
 summaryObj
 (
 text
 categories
-)
 )
 in
 zip
@@ -5181,10 +5173,8 @@ text
 ]
                 
 for
-(
 attribute
 description
-)
 in
 categories
 :
@@ -5254,12 +5244,10 @@ summary
 )
         
 for
-(
 summaryObj
 (
 text
 categories
-)
 )
 in
 zip

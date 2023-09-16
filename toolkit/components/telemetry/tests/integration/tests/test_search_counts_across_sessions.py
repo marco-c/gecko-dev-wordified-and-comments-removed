@@ -274,7 +274,6 @@ search_counts1
 =
 {
         
-u
 "
 range
 "
@@ -284,33 +283,28 @@ range
 2
 ]
         
-u
 "
 bucket_count
 "
 :
 3
         
-u
 "
 histogram_type
 "
 :
 4
         
-u
 "
 values
 "
 :
 {
-u
 "
 1
 "
 :
 0
-u
 "
 0
 "
@@ -318,7 +312,6 @@ u
 1
 }
         
-u
 "
 sum
 "
@@ -753,7 +746,6 @@ search_counts3
 =
 {
         
-u
 "
 range
 "
@@ -763,33 +755,28 @@ range
 2
 ]
         
-u
 "
 bucket_count
 "
 :
 3
         
-u
 "
 histogram_type
 "
 :
 4
         
-u
 "
 values
 "
 :
 {
-u
 "
 1
 "
 :
 0
-u
 "
 0
 "
@@ -797,7 +784,6 @@ u
 3
 }
         
-u
 "
 sum
 "

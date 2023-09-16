@@ -723,10 +723,8 @@ tails
 ]
     
 for
-(
 rev
 cset
-)
 in
 hg_data
 .
@@ -1333,10 +1331,8 @@ treedata
 :
     
 for
-(
 name
 value
-)
 in
 treedata
 .
@@ -1527,13 +1523,11 @@ hg_rev
 )
     
 for
-(
 nodeid
 permission
 executable
 symlink
 filename
-)
 in
 manifest
 :
@@ -3083,10 +3077,8 @@ changesets
 "
 )
 for
-(
 rev
 cset
-)
 in
 hg_commits
 .
@@ -3146,10 +3138,8 @@ interesting
 )
     
 for
-(
 rev
 cset
-)
 in
 hg_commits
 .

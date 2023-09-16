@@ -8476,10 +8476,8 @@ test
 )
         
 for
-(
 scheme
 grouped_tests
-)
 in
 self
 .
@@ -21646,10 +21644,8 @@ stepResults
 }
         
 for
-(
 descr
 step
-)
 in
 steps
 :
@@ -21692,10 +21688,8 @@ PASSED
 "
         
 for
-(
 descr
 step
-)
 in
 steps
 :
@@ -24196,10 +24190,8 @@ port
 )
             
 for
-(
 scheme
 tests
-)
 in
 self
 .

@@ -1145,10 +1145,8 @@ repeat
 ]
     
 for
-(
 key
 val
-)
 in
 input
 .

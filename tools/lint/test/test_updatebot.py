@@ -29,11 +29,9 @@ paths
 :
         
 for
-(
 root
 dirs
 files
-)
 in
 os
 .

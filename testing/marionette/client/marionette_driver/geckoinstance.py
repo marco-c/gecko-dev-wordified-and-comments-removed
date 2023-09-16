@@ -1465,7 +1465,6 @@ mkdtemp
                     
 suffix
 =
-u
 "
 .
 {
@@ -1474,7 +1473,6 @@ u
 .
 format
 (
-                        
 profile_name
 or
 os
@@ -1485,7 +1483,6 @@ basename
 (
 profile_path
 )
-                    
 )
                     
 dir
@@ -1536,7 +1533,6 @@ mkdtemp
                     
 suffix
 =
-u
 "
 .
 {

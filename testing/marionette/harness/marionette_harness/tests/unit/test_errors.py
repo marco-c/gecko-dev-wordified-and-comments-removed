@@ -44,7 +44,6 @@ foo
 "
 unicode_message
 =
-u
 "
 \
 u201Cfoo
@@ -652,7 +651,6 @@ errors
 .
 lookup
 (
-u
 "
 no
 such

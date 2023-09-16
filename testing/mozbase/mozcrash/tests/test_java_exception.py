@@ -376,7 +376,6 @@ check_for_java_exception
 test_log
 test_name
 =
-u
 "
 "
 quiet

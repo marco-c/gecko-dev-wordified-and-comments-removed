@@ -291,7 +291,6 @@ digit
 .
 send_keys
 (
-u
 "
 \
 ue003

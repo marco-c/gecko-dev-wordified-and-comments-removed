@@ -1520,11 +1520,9 @@ itemgetter
 )
             
 for
-(
 merge
 ref_file
 l10n_file
-)
 in
 deps
 :

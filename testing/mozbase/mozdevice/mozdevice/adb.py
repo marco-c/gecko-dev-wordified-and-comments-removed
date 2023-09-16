@@ -29344,10 +29344,8 @@ extras
 :
             
 for
-(
 key
 val
-)
 in
 extras
 .
@@ -29778,12 +29776,10 @@ moz_env
 :
             
 for
-(
 env_count
 (
 env_key
 env_val
-)
 )
 in
 enumerate
@@ -30192,12 +30188,10 @@ moz_env
 :
             
 for
-(
 env_count
 (
 env_key
 env_val
-)
 )
 in
 enumerate
@@ -30235,10 +30229,8 @@ extra_args
 :
             
 for
-(
 arg_count
 arg
-)
 in
 enumerate
 (
@@ -30635,12 +30627,10 @@ moz_env
 :
             
 for
-(
 env_count
 (
 env_key
 env_val
-)
 )
 in
 enumerate
@@ -30678,10 +30668,8 @@ extra_args
 :
             
 for
-(
 arg_count
 arg
-)
 in
 enumerate
 (

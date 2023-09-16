@@ -106,7 +106,7 @@ re
 .
 sub
 (
-br
+rb
 "
 ^
 \
@@ -150,7 +150,7 @@ re
 finditer
 (
         
-br
+rb
 "
 \
 [
@@ -220,7 +220,7 @@ re
 .
 search
 (
-br
+rb
 "
 ^
 \
@@ -252,7 +252,7 @@ re
 .
 sub
 (
-br
+rb
 "
 {
 \
@@ -278,7 +278,7 @@ re
 .
 sub
 (
-br
+rb
 "
 ^
 (
@@ -294,7 +294,7 @@ s
 =
 )
 "
-br
+rb
 "
 \
 1reference
@@ -312,7 +312,7 @@ re
 sub
 (
             
-br
+rb
 "
 ^
 \
@@ -371,7 +371,7 @@ re
 finditer
 (
         
-br
+rb
 "
 \
 [
@@ -441,7 +441,7 @@ re
 .
 search
 (
-br
+rb
 '
 ^
 \

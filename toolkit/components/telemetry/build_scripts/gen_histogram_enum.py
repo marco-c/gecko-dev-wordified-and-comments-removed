@@ -252,10 +252,8 @@ False
 }
     
 for
-(
 group_type
 histograms
-)
 in
 groups
 :
@@ -447,10 +445,8 @@ output
 )
     
 for
-(
 key
 value
-)
 in
 sorted
 (

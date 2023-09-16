@@ -533,10 +533,8 @@ response_code
 )
                 
 for
-(
 keyword
 value
-)
 in
 iteritems
 (

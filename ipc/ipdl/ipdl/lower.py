@@ -13927,10 +13927,8 @@ ctorargs
 )
         
 for
-(
 size
 fields
-)
 in
 itertools
 .
@@ -15420,10 +15418,8 @@ staticasserts
 ]
     
 for
-(
 size
 fields
-)
 in
 itertools
 .

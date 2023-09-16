@@ -9412,35 +9412,29 @@ files
 :
                     
 if
-(
-                        
 var
-                        
 in
 (
-                            
+                        
 "
 FINAL_TARGET_PP_FILES
 "
-                            
+                        
 "
 OBJDIR_PP_FILES
 "
-                            
+                        
 "
 LOCALIZED_PP_FILES
 "
-                        
+                    
 )
-                        
 and
 not
 isinstance
 (
 f
 SourcePath
-)
-                    
 )
 :
                         
@@ -10682,10 +10676,8 @@ localized_generated_files
 return
         
 for
-(
 localized
 gen
-)
 in
 (
             

@@ -1351,10 +1351,8 @@ keys
 :
     
 for
-(
 msg
 num
-)
 in
 allmessages
 [
@@ -1469,10 +1467,8 @@ keys
 :
     
 for
-(
 msg
 num
-)
 in
 allmessages
 [

@@ -877,11 +877,9 @@ locales
 )
         
 for
-(
 dirpath
 dirnames
 filenames
-)
 in
 os
 .

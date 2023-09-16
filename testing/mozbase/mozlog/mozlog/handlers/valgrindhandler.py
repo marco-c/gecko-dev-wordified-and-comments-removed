@@ -998,7 +998,6 @@ output_message
 =
 {
                     
-u
 "
 action
 "
@@ -1007,7 +1006,6 @@ action
 valgrind_error
 "
                     
-u
 "
 time
 "
@@ -1019,7 +1017,6 @@ time
 "
 ]
                     
-u
 "
 thread
 "
@@ -1031,7 +1028,6 @@ thread
 "
 ]
                     
-u
 "
 pid
 "
@@ -1043,7 +1039,6 @@ pid
 "
 ]
                     
-u
 "
 source
 "
@@ -1055,7 +1050,6 @@ source
 "
 ]
                     
-u
 "
 primary
 "
@@ -1064,7 +1058,6 @@ self
 .
 curr_failure_msg
                     
-u
 "
 secondary
 "

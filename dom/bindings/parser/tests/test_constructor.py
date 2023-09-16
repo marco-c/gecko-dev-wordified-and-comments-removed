@@ -628,10 +628,8 @@ signatures
 )
         
 for
-(
 gotSignature
 expectedSignature
-)
 in
 sigpairs
 :

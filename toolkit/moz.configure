@@ -8138,6 +8138,7 @@ env
 env
 ]
 return
+(
 flags
 +
 {
@@ -8177,6 +8178,7 @@ target
 .
 cpu
 ]
+)
 set_config
 (
 "

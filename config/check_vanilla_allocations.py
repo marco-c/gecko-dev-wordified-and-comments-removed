@@ -678,10 +678,8 @@ file
 )
     
 for
-(
 filename
 n
-)
 in
 sorted
 (

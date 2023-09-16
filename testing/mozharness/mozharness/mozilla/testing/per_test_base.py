@@ -406,10 +406,8 @@ import
 TestManifest
         
 for
-(
 path
 suite
-)
 in
 manifests
 :
@@ -719,11 +717,9 @@ tests
 )
         
 for
-(
 path
 suite
 subsuite
-)
 in
 ref_manifests
 :
@@ -2092,11 +2088,9 @@ tests
 )
             
 for
-(
 type
 path
 test
-)
 in
 man
 :

@@ -3200,10 +3200,8 @@ call_args_list
 expected
     
 for
-(
 args
 _
-)
 in
 logger
 .
@@ -3530,10 +3528,8 @@ call_args_list
 1
     
 for
-(
 args
 _
-)
 in
 logger
 .
@@ -3906,10 +3902,8 @@ call_args_list
 expected
     
 for
-(
 args
 _
-)
 in
 logger
 .

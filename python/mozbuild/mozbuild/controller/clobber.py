@@ -1414,9 +1414,7 @@ True
 None
         
 except
-(
 IOError
-)
 as
 error
 :
