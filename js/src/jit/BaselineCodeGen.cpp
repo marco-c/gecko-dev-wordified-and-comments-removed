@@ -1150,6 +1150,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 script
 .
 get
@@ -1192,6 +1196,10 @@ script
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 )
@@ -1673,6 +1681,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 ;
 baselineScript
@@ -1817,6 +1829,10 @@ script
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 baselineScript

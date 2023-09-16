@@ -5569,6 +5569,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 mozilla
 :
 :
@@ -5668,6 +5672,10 @@ script
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 )

@@ -659,8 +659,10 @@ script
 column
 (
 )
-+
-1
+.
+oneOriginValue
+(
+)
 )
 ;
 method

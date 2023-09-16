@@ -782,6 +782,10 @@ outerScript_
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 static_cast
 <
 JSScript
@@ -4139,6 +4143,10 @@ script
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 ;

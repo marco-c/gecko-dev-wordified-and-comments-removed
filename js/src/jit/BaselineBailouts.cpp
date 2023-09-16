@@ -2539,6 +2539,10 @@ script_
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 ;
 JitSpew
@@ -7208,6 +7212,10 @@ script_
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 ;
 JitSpew
@@ -7525,6 +7533,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 (
 void
 *
@@ -7795,6 +7807,10 @@ script
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 )
@@ -8362,6 +8378,10 @@ innerScript
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 outerScript
 -
 >
@@ -8378,6 +8398,10 @@ outerScript
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 )
@@ -9483,6 +9507,10 @@ outerScript
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 outerScript
 -
 >
@@ -9505,6 +9533,10 @@ innerScript
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 innerScript
