@@ -289,15 +289,6 @@ mozPrintCallback
 ;
 [
 Throws
-Pref
-=
-"
-canvas
-.
-capturestream
-.
-enabled
-"
 NeedsSubjectPrincipal
 ]
 CanvasCaptureMediaStream

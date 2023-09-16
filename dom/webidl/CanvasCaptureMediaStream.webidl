@@ -144,15 +144,6 @@ apply
 *
 /
 [
-Pref
-=
-"
-canvas
-.
-capturestream
-.
-enabled
-"
 Exposed
 =
 Window
