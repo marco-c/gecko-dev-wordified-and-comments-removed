@@ -3284,11 +3284,9 @@ extended_high_seq_num
 report_block_data
 -
 >
-report_block
+extended_highest_sequence_number
 (
 )
-.
-extended_highest_sequence_number
 )
 {
 last_increased_sequence_number_
@@ -4343,11 +4341,9 @@ elem
 .
 second
 .
-report_block
+sender_ssrc
 (
 )
-.
-sender_ssrc
 =
 =
 bye
