@@ -19709,10 +19709,6 @@ fails
 if
 (
 !
-useDrawSnapshot
-&
-&
-!
 winWidget
 )
 fuzzy
@@ -19777,10 +19773,6 @@ fails
 if
 (
 !
-useDrawSnapshot
-&
-&
-!
 winWidget
 )
 =
@@ -19810,10 +19802,6 @@ fails
 if
 (
 !
-useDrawSnapshot
-&
-&
-!
 winWidget
 )
 =
@@ -19836,10 +19824,6 @@ fails
 -
 if
 (
-!
-useDrawSnapshot
-&
-&
 !
 winWidget
 )
