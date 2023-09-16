@@ -43,11 +43,10 @@ extension
 let
 oldRemoveEngineFunc
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

@@ -87,11 +87,10 @@ cd7c5f0c
 }
 )
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

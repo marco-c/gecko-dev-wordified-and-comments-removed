@@ -272,11 +272,10 @@ askjeeves
 let
 getStub
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

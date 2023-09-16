@@ -69,11 +69,10 @@ C3
 A8f
 "
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {
