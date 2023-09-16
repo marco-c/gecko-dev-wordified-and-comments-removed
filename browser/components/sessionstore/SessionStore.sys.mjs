@@ -8353,7 +8353,7 @@ addObserver
 "
 sessionstore
 .
-closedTabsFromAllWindows
+closedTabsFromClosedWindows
 "
 this
 true
