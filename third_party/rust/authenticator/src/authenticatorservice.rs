@@ -723,6 +723,7 @@ add_u2f_usb_hid_platform_transports
 )
 ;
 }
+pub
 fn
 add_transport
 (
