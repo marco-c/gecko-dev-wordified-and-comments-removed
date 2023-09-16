@@ -143,7 +143,7 @@ serpEventTelemetry
 .
 enabled
 "
-false
+true
 )
 ;
 XPCOMUtils
