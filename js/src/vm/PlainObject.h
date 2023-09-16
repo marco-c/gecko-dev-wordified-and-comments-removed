@@ -390,6 +390,10 @@ IdValuePair
 properties
 size_t
 nproperties
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 extern
@@ -405,6 +409,10 @@ IdValuePair
 properties
 size_t
 nproperties
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 }

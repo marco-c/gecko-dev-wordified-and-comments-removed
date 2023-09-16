@@ -438,6 +438,11 @@ finishStringInternal
 JSContext
 *
 cx
+gc
+:
+:
+Heap
+heap
 )
 {
 size_t
@@ -574,6 +579,7 @@ move
 buf
 )
 len
+heap
 )
 ;
 if
@@ -597,6 +603,11 @@ JSStringBuilder
 :
 finishString
 (
+gc
+:
+:
+Heap
+heap
 )
 {
 MOZ_ASSERT
@@ -687,6 +698,7 @@ Latin1Char
 >
 (
 maybeCx_
+heap
 )
 :
 finishStringInternal
@@ -695,6 +707,7 @@ char16_t
 >
 (
 maybeCx_
+heap
 )
 ;
 }
