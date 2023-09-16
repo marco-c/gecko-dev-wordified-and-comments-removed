@@ -187,9 +187,7 @@ string
 anchorId
 =
 "
-password
--
-notification
+identity
 -
 icon
 "
@@ -216,9 +214,7 @@ messageId
 anchorId
 =
 "
-password
--
-notification
+identity
 -
 icon
 "
