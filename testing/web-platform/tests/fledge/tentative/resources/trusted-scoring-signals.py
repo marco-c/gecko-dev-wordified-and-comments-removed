@@ -27,6 +27,11 @@ adComponentRenderUrls
 =
 None
     
+urlLists
+=
+[
+]
+    
 for
 param
 in
@@ -184,6 +189,26 @@ split
 )
 )
             
+urlLists
+.
+append
+(
+{
+"
+type
+"
+:
+"
+renderUrls
+"
+"
+urls
+"
+:
+renderUrls
+}
+)
+            
 continue
         
 if
@@ -221,6 +246,26 @@ split
 "
 )
 )
+)
+            
+urlLists
+.
+append
+(
+{
+"
+type
+"
+:
+"
+adComponentRenderUrls
+"
+"
+urls
+"
+:
+adComponentRenderUrls
+}
 )
             
 continue
@@ -314,14 +359,21 @@ dataVersion
 =
 None
     
-if
-renderUrls
+for
+urlList
+in
+urlLists
 :
         
 for
 renderUrl
 in
-renderUrls
+urlList
+[
+"
+urls
+"
+]
 :
             
 value
@@ -330,6 +382,10 @@ value
 default
 value
 "
+            
+addValue
+=
+True
             
 signalsParams
 =
@@ -659,13 +715,41 @@ signalsParam
 =
 =
 "
+wrong
+-
+url
+"
+:
+                        
+renderUrl
+=
+"
+https
+:
+/
+/
+wrong
+-
+url
+.
+test
+/
+"
+                    
+elif
+signalsParam
+=
+=
+"
 no
 -
 value
 "
 :
                         
-continue
+addValue
+=
+False
                     
 elif
 signalsParam
@@ -804,17 +888,42 @@ ASCII
 )
             
 if
-value
-!
-=
-None
+addValue
 :
+                
+if
+urlList
+[
+"
+type
+"
+]
+not
+in
+responseBody
+:
+                    
+responseBody
+[
+urlList
+[
+"
+type
+"
+]
+]
+=
+{
+}
                 
 responseBody
 [
+urlList
+[
 "
-renderUrls
+type
 "
+]
 ]
 [
 renderUrl
