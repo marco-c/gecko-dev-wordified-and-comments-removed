@@ -19783,7 +19783,7 @@ history
 -
 rows
 "
-500
+300
 )
 ;
 pref
