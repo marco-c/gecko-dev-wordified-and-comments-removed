@@ -126,9 +126,19 @@ https
 :
 /
 /
-example
-.
-com
+{
+host
+}
+"
+        
+"
+https
+:
+/
+/
+{
+host
+}
 /
 #
 foo
@@ -193,6 +203,12 @@ blank
 "
         
 "
+without
+hash
+"
+        
+"
+with
 hash
 "
         
@@ -213,10 +229,35 @@ def
 test_reload
 (
 bidi_session
+server_config
 new_tab
 initial_url
 )
 :
+    
+target_url
+=
+initial_url
+.
+format
+(
+host
+=
+server_config
+[
+"
+domains
+"
+]
+[
+"
+"
+]
+[
+"
+"
+]
+)
     
 await
 bidi_session
@@ -236,7 +277,7 @@ context
                                                  
 url
 =
-initial_url
+target_url
 )
     
 await
@@ -303,7 +344,7 @@ url
 ]
 =
 =
-initial_url
+target_url
 async
 def
 test_image
