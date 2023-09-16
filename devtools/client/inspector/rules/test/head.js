@@ -2744,10 +2744,16 @@ const
 currProp
 of
 ruleEditor
+?
 .
 rule
+?
 .
 textProps
+|
+|
+[
+]
 )
 {
 const
