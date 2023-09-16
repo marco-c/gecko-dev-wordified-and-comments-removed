@@ -39,14 +39,6 @@ path
 await
 db
 .
-setSchemaVersion
-(
-43
-)
-;
-await
-db
-.
 execute
 (
 "
