@@ -41807,7 +41807,7 @@ isHistoryOrReload
 aLoadState
 -
 >
-IsExemptFromHTTPSOnlyMode
+IsExemptFromHTTPSFirstMode
 (
 )
 &

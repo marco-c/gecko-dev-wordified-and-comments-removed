@@ -1624,7 +1624,7 @@ LOAD_CMD_RELOAD
 {
 aLoadState
 .
-SetIsExemptFromHTTPSOnlyMode
+SetIsExemptFromHTTPSFirstMode
 (
 true
 )

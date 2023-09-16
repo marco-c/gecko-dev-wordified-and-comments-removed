@@ -845,7 +845,7 @@ bool
 ForceAllowDataURI
 ;
 bool
-IsExemptFromHTTPSOnlyMode
+IsExemptFromHTTPSFirstMode
 ;
 bool
 OriginalFrameSrc

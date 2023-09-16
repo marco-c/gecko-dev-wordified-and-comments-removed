@@ -10604,7 +10604,7 @@ aUserActivation
 loadState
 -
 >
-SetIsExemptFromHTTPSOnlyMode
+SetIsExemptFromHTTPSFirstMode
 (
 true
 )
