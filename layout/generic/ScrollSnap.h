@@ -54,13 +54,9 @@ nsSize
 namespace
 mozilla
 {
-namespace
-layers
-{
 struct
 ScrollSnapInfo
 ;
-}
 struct
 ScrollSnapUtils
 {
@@ -72,9 +68,6 @@ SnapTarget
 GetSnapPointForDestination
 (
 const
-layers
-:
-:
 ScrollSnapInfo
 &
 aSnapInfo
@@ -110,9 +103,6 @@ SnapTarget
 GetSnapPointForResnap
 (
 const
-layers
-:
-:
 ScrollSnapInfo
 &
 aSnapInfo
