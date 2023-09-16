@@ -264,8 +264,6 @@ aPersistenceType
 OriginMetadata
 (
 PrincipalMetadata
-&
-&
 aPrincipalMetadata
 PersistenceType
 aPersistenceType
