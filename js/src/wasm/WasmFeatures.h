@@ -34,9 +34,6 @@ wasm
 bool
 HasPlatformSupport
 (
-JSContext
-*
-cx
 )
 ;
 bool

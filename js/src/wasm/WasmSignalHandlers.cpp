@@ -126,7 +126,12 @@ mach
 h
 >
 #
-else
+elif
+!
+defined
+(
+__wasi__
+)
 #
 include
 <
