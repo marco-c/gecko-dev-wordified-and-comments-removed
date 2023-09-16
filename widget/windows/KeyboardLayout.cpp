@@ -220,17 +220,6 @@ h
 >
 #
 endif
-#
-ifndef
-MAPVK_VK_TO_VSC_EX
-#
-define
-MAPVK_VK_TO_VSC_EX
-(
-4
-)
-#
-endif
 mozilla
 :
 :
