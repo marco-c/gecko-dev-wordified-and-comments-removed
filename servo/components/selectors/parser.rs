@@ -706,6 +706,8 @@ Self
 AFTER_PART
 .
 bits
+(
+)
 |
 Self
 :
@@ -713,6 +715,8 @@ Self
 AFTER_SLOTTED
 .
 bits
+(
+)
 |
 Self
 :
@@ -720,6 +724,8 @@ Self
 AFTER_PSEUDO_ELEMENT
 .
 bits
+(
+)
 ;
 /
 /

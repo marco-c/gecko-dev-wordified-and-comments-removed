@@ -845,6 +845,8 @@ Self
 INSET
 .
 bits
+(
+)
 |
 Self
 :
@@ -852,6 +854,8 @@ Self
 XYWH
 .
 bits
+(
+)
 |
 Self
 :
@@ -859,6 +863,8 @@ Self
 RECT
 .
 bits
+(
+)
 |
 Self
 :
@@ -866,6 +872,8 @@ Self
 CIRCLE
 .
 bits
+(
+)
 |
 Self
 :
@@ -873,6 +881,8 @@ Self
 ELLIPSE
 .
 bits
+(
+)
 |
 Self
 :
@@ -880,6 +890,8 @@ Self
 POLYGON
 .
 bits
+(
+)
 |
 Self
 :
@@ -887,6 +899,8 @@ Self
 PATH
 .
 bits
+(
+)
 ;
 /
 /
@@ -905,6 +919,8 @@ Self
 INSET
 .
 bits
+(
+)
 |
 Self
 :
@@ -912,6 +928,8 @@ Self
 CIRCLE
 .
 bits
+(
+)
 |
 Self
 :
@@ -919,6 +937,8 @@ Self
 ELLIPSE
 .
 bits
+(
+)
 |
 Self
 :
@@ -926,6 +946,8 @@ Self
 POLYGON
 .
 bits
+(
+)
 ;
 }
 }

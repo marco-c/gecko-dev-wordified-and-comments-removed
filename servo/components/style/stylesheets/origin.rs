@@ -330,7 +330,7 @@ OriginSet
 {
 pub
 fn
-iter
+iter_origins
 (
 &
 self
