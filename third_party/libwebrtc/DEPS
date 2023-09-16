@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-8b3bd7ad9d48a8f79004441d193108867c24727e
+2fe14dca3dd082162823ab9de61ff44e33a9d56f
 '
 #
 Fetch
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-23ccfe47d582a1d6dd533a520fdf4f58e142629d
+314dcd742b199e43370133fb45368f95c220153e
 '
 '
 src
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-a6af50ca57eeeaa439a648fed7d0a5e87531005d
+7b4e5110da47995c6b2606b7b8802962e87a9a5d
 '
 '
 src
@@ -1738,7 +1738,7 @@ harfbuzz
 harfbuzz
 .
 git
-2175f5d050743317c563ec9414e0f83a47f7fbc4
+8df5cdbcda495a582e72a7e2ce35d6106401edce
 '
 '
 src
@@ -2951,7 +2951,7 @@ chromium
 src
 /
 tools
-739cb7053df76936e6d7dad135a193aea90ba989
+b532107b7ccb7d1b644ba2a3f1245863ddc8dd62
 '
 '
 src
@@ -3285,7 +3285,7 @@ version
 '
 :
 '
-XXY63ZMXsEh9Q723ZYgW4JxYtzVhxNIoUxUwwjMSeBAC
+nz4cOkIvPx0feghxVzKjJJRpe97BWgexvaskqE7EWVQC
 '
 }
 ]
