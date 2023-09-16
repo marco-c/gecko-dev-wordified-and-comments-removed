@@ -1383,6 +1383,17 @@ PipeWireSession
 PipeWireSession
 (
 )
+:
+status_
+(
+VideoCaptureOptions
+:
+:
+Status
+:
+:
+UNINITIALIZED
+)
 {
 }
 PipeWireSession

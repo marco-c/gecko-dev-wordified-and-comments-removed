@@ -535,6 +535,12 @@ callback_lock_
 =
 nullptr
 ;
+VideoCaptureOptions
+:
+:
+Status
+status_
+;
 struct
 pw_thread_loop
 *
