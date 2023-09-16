@@ -256,6 +256,13 @@ aOutput
 )
 override
 ;
+bool
+IsClosedLoop
+(
+)
+const
+override
+;
 nsresult
 Clone
 (

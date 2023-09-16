@@ -152,6 +152,17 @@ aBuilder
 )
 override
 ;
+bool
+IsClosedLoop
+(
+)
+const
+override
+{
+return
+true
+;
+}
 nsresult
 Clone
 (

@@ -713,6 +713,17 @@ GetOrBuildPathForMeasuring
 (
 )
 ;
+virtual
+bool
+IsClosedLoop
+(
+)
+const
+{
+return
+false
+;
+}
 bool
 IsGeometryChangedViaCSS
 (

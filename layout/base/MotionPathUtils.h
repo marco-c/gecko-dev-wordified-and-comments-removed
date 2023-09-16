@@ -135,7 +135,7 @@ nsPoint
 mCurrentPosition
 ;
 bool
-mIsClosedIntervals
+mIsClosedLoop
 ;
 }
 ;
