@@ -412,8 +412,6 @@ https
 :
 /
 /
-staging
-.
 fakespot
 .
 com
