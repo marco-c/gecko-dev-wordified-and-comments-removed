@@ -669,6 +669,8 @@ virtual
 nsClipboard
 (
 )
+=
+default
 ;
 nsITransferable
 *
