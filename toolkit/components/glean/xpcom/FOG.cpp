@@ -610,7 +610,7 @@ NimbusFeatures
 GetInt
 (
 "
-glean
+gleanInternalSdk
 "
 _ns
 "
@@ -662,7 +662,7 @@ NimbusFeatures
 GetBool
 (
 "
-glean
+gleanInternalSdk
 "
 _ns
 "
