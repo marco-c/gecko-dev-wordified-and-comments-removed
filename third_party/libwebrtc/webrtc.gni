@@ -1878,7 +1878,7 @@ v10
 .
 rtc_enable_win_wgc
 =
-false
+is_win
 #
 Includes
 the

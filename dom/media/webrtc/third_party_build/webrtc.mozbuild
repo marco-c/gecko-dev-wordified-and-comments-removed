@@ -216,7 +216,7 @@ RTC_ENABLE_WIN_WGC
 '
 ]
 =
-False
+True
 DEFINES
 [
 '
