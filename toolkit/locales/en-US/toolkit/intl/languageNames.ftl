@@ -1169,6 +1169,13 @@ language
 -
 name
 -
+sat
+=
+Santali
+language
+-
+name
+-
 sc
 =
 Sardinian
