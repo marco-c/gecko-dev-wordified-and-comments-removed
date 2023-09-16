@@ -848,15 +848,6 @@ StyleFontSynthesis
 Auto
 aFont
 .
-synthesisPosition
-=
-=
-StyleFontSynthesis
-:
-:
-Auto
-aFont
-.
 languageOverride
 )
 ;
