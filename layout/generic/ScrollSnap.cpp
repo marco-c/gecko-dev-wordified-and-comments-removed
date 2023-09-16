@@ -189,18 +189,7 @@ None
 {
 mSecondBestEdge
 =
-SnapPosition
-{
 nscoord_MAX
-StyleScrollSnapStop
-:
-:
-Normal
-ScrollSnapTargetId
-:
-:
-None
-}
 ;
 mEdgeFound
 =
@@ -210,7 +199,7 @@ false
 SnapPosition
 mBestEdge
 ;
-SnapPosition
+nscoord
 mSecondBestEdge
 ;
 bool
@@ -266,8 +255,6 @@ NSCoordSaturatingSubtract
 mTrackerOnX
 .
 mSecondBestEdge
-.
-mPosition
 mTrackerOnX
 .
 mBestEdge
@@ -295,8 +282,6 @@ NSCoordSaturatingSubtract
 mTrackerOnY
 .
 mSecondBestEdge
-.
-mPosition
 mTrackerOnY
 .
 mBestEdge
@@ -877,6 +862,8 @@ aCandidateTracker
 mSecondBestEdge
 =
 aEdge
+.
+mPosition
 ;
 }
 else
@@ -894,6 +881,8 @@ aCandidateTracker
 -
 >
 mBestEdge
+.
+mPosition
 ;
 }
 aCandidateTracker
@@ -964,6 +953,8 @@ aCandidateTracker
 mSecondBestEdge
 =
 aEdge
+.
+mPosition
 ;
 }
 }
@@ -1049,8 +1040,6 @@ aCandidateTracker
 -
 >
 mSecondBestEdge
-.
-mPosition
 aDestination
 nscoord_MAX
 )
@@ -1098,8 +1087,6 @@ aCandidateTracker
 -
 >
 mSecondBestEdge
-.
-mPosition
 aDestination
 nscoord_MAX
 )
