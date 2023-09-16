@@ -80,6 +80,9 @@ class
 ResolvableNormalOriginOp
 ;
 class
+UniversalDirectoryLock
+;
+class
 UsageRequestParams
 ;
 RefPtr
@@ -273,6 +276,11 @@ QuotaManager
 >
 >
 aQuotaManager
+RefPtr
+<
+UniversalDirectoryLock
+>
+aDirectoryLock
 )
 ;
 RefPtr
