@@ -2577,6 +2577,7 @@ selectedIndex
 this
 .
 lastProfileAutoCompleteResult
+?
 .
 matchCount
 ;
