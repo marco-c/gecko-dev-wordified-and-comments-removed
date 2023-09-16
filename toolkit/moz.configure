@@ -12034,9 +12034,11 @@ rusttests
 :
 non_default_libs
 =
-set
-(
-)
+{
+"
+soundtouch
+"
+}
 return
 tuple
 (
