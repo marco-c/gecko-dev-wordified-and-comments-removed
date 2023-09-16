@@ -596,16 +596,6 @@ always_partition_third_party_non_cookie_storage
 "
 false
 ]
-[
-"
-dom
-.
-storage_access
-.
-dont_grant_insecure_contexts
-"
-true
-]
 ]
 expectedBlockingNotifications
 :
