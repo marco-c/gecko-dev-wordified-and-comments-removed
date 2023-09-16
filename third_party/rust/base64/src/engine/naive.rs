@@ -21,6 +21,7 @@ encode_table
 }
 Config
 DecodeEstimate
+DecodeMetadata
 DecodePaddingMode
 Engine
 }
@@ -709,7 +710,7 @@ DecodeEstimate
 >
 Result
 <
-usize
+DecodeMetadata
 DecodeError
 >
 {

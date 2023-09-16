@@ -8,7 +8,10 @@ use
 core
 :
 :
+{
+convert
 fmt
+}
 ;
 #
 [
@@ -323,6 +326,9 @@ alphabet
 }
 }
 impl
+convert
+:
+:
 TryFrom
 <
 &
@@ -689,7 +695,7 @@ alphabet
 *
 ;
 use
-std
+core
 :
 :
 convert
