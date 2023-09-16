@@ -8832,6 +8832,11 @@ height
 aFormat
 )
 ;
+if
+(
+dt
+)
+{
 result
 =
 gfx
@@ -8854,6 +8859,11 @@ y
 )
 )
 ;
+if
+(
+result
+)
+{
 result
 -
 >
@@ -8862,6 +8872,8 @@ SetTransform
 mTransform
 )
 ;
+}
+}
 }
 else
 {
