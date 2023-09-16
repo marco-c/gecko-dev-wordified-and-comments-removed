@@ -1073,7 +1073,7 @@ stack
 )
 ;
 uint32_t
-FixupColumnForDisplay
+FixupMaybeWASMColumnForDisplay
 (
 uint32_t
 column

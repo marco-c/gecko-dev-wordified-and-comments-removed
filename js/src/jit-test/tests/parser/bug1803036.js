@@ -40,8 +40,6 @@ columnNumber
 src
 .
 length
--
-1
 )
 }
 assertEq

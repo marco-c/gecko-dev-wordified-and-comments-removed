@@ -3575,7 +3575,7 @@ ownedReport
 .
 column
 =
-FixupColumnForDisplay
+FixupMaybeWASMColumnForDisplay
 (
 column
 )

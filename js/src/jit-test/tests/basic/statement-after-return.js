@@ -230,7 +230,7 @@ i
 ;
 }
 5
-4
+5
 )
 ;
 testWarn
@@ -252,7 +252,7 @@ i
 ;
 }
 5
-4
+5
 )
 ;
 testWarn
@@ -271,7 +271,7 @@ return
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -290,7 +290,7 @@ x
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -315,7 +315,7 @@ f
 ;
 }
 4
-2
+3
 )
 ;
 testWarn
@@ -334,7 +334,7 @@ return
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -349,7 +349,7 @@ f
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -366,7 +366,7 @@ return
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -385,7 +385,7 @@ return
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -402,7 +402,7 @@ foo
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -420,7 +420,7 @@ struct
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -437,7 +437,7 @@ foo
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -460,7 +460,7 @@ foo
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -477,7 +477,7 @@ foo
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -494,7 +494,7 @@ foo
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -509,7 +509,7 @@ true
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -524,7 +524,7 @@ false
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -539,7 +539,7 @@ null
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -554,7 +554,7 @@ this
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -572,7 +572,7 @@ Array
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -599,7 +599,7 @@ x
 ;
 }
 5
-4
+5
 )
 ;
 testWarn
@@ -616,7 +616,7 @@ yield
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -639,7 +639,7 @@ constructor
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -655,7 +655,7 @@ return
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -671,7 +671,7 @@ return
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -687,7 +687,7 @@ return
 ;
 }
 4
-4
+5
 )
 ;
 testWarn
@@ -703,7 +703,7 @@ return
 ;
 }
 4
-4
+5
 )
 ;
 testPass
@@ -793,7 +793,7 @@ true
 ;
 }
 4
-2
+3
 )
 ;
 testPass
@@ -837,7 +837,7 @@ break
 }
 }
 4
-2
+3
 )
 ;
 testWarn
@@ -866,7 +866,7 @@ break
 }
 }
 6
-6
+7
 )
 ;
 testPass
@@ -959,7 +959,7 @@ false
 ;
 }
 4
-2
+3
 )
 ;
 testPass
@@ -1001,7 +1001,7 @@ false
 ;
 }
 4
-2
+3
 )
 ;
 testWarn
@@ -1023,7 +1023,7 @@ break
 }
 }
 4
-2
+3
 )
 ;
 testPass
@@ -1045,7 +1045,7 @@ break
 }
 }
 5
-4
+5
 )
 ;
 testWarn
@@ -1067,7 +1067,7 @@ continue
 }
 }
 5
-4
+5
 )
 ;
 testPass
@@ -1101,7 +1101,7 @@ a
 ;
 }
 4
-2
+3
 )
 ;
 testWarn
@@ -1123,7 +1123,7 @@ with
 }
 }
 4
-2
+3
 )
 ;
 testWarn
@@ -1138,7 +1138,7 @@ return
 ;
 }
 4
-2
+3
 )
 ;
 testWarn
@@ -1160,7 +1160,7 @@ e
 }
 }
 4
-2
+3
 )
 ;
 testPass
@@ -1189,7 +1189,7 @@ debugger
 ;
 }
 4
-2
+3
 )
 ;
 testWarn
@@ -1207,7 +1207,7 @@ a
 ;
 }
 4
-2
+3
 )
 ;
 testWarn
@@ -1231,7 +1231,7 @@ a
 ;
 }
 5
-2
+3
 )
 ;
 testWarn
@@ -1261,6 +1261,6 @@ a
 ;
 }
 6
-2
+3
 )
 ;

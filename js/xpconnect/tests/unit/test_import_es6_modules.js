@@ -325,7 +325,7 @@ lineNumber
 1
 columnNumber
 :
-5
+6
 }
 )
 ;
@@ -371,7 +371,7 @@ lineNumber
 1
 columnNumber
 :
-5
+6
 }
 )
 ;
@@ -412,7 +412,7 @@ lineNumber
 1
 columnNumber
 :
-9
+10
 }
 )
 ;
@@ -709,7 +709,7 @@ lineNumber
 1
 columnNumber
 :
-0
+1
 }
 )
 ;

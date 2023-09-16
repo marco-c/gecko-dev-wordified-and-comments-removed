@@ -1486,7 +1486,7 @@ columnNumber
 ;
 columnNumber
 =
-FixupColumnForDisplay
+FixupMaybeWASMColumnForDisplay
 (
 columnNumber
 )

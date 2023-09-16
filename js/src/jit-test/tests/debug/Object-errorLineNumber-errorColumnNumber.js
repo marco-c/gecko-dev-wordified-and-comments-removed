@@ -59,7 +59,7 @@ assertEq
 syntaxError
 .
 errorColumnNumber
-7
+8
 )
 ;
 var
