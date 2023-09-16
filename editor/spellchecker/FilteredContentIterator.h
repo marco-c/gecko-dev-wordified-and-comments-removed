@@ -280,7 +280,7 @@ bool
 aChangeToForward
 )
 ;
-ContentIteratorBase
+SafeContentIteratorBase
 *
 MOZ_NON_OWNING_REF
 mCurrentIterator

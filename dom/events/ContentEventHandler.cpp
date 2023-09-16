@@ -3653,7 +3653,7 @@ return
 NS_OK
 ;
 }
-PreContentIterator
+UnsafePreContentIterator
 preOrderIter
 ;
 nsresult
@@ -4597,7 +4597,7 @@ baseOffset
 =
 0
 ;
-PreContentIterator
+UnsafePreContentIterator
 preOrderIter
 ;
 nsresult
@@ -5400,7 +5400,7 @@ rv
 ;
 }
 }
-PreContentIterator
+UnsafePreContentIterator
 preOrderIter
 ;
 nsresult
@@ -7735,7 +7735,7 @@ aRawRange
 NodePosition
 nodePosition
 ;
-PreContentIterator
+UnsafePreContentIterator
 preOrderIter
 ;
 nsresult
@@ -8061,7 +8061,7 @@ aRawRange
 NodePosition
 nodePosition
 ;
-PreContentIterator
+UnsafePreContentIterator
 preOrderIter
 ;
 nsresult
@@ -11495,7 +11495,7 @@ OffsetAndDataFor
 EditorString
 )
 ;
-PostContentIterator
+UnsafePostContentIterator
 postOrderIter
 ;
 rv
@@ -14550,7 +14550,7 @@ return
 NS_OK
 ;
 }
-PreContentIterator
+UnsafePreContentIterator
 preOrderIter
 ;
 NodePosition
