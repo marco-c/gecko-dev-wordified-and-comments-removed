@@ -929,7 +929,7 @@ MediaStreamTrack
 mSenderTrack
 ;
 bool
-mAddTrackCalled
+mSenderTrackSetByAddTrack
 =
 false
 ;

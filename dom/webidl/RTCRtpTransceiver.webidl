@@ -134,6 +134,9 @@ recvonly
 "
 inactive
 "
+"
+stopped
+"
 }
 ;
 dictionary

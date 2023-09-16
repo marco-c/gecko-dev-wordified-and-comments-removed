@@ -2413,11 +2413,6 @@ State
 aState
 )
 ;
-void
-UpdateConnectionState
-(
-)
-;
 dom
 :
 :
@@ -2426,6 +2421,11 @@ GetNewConnectionState
 (
 )
 const
+;
+bool
+UpdateConnectionState
+(
+)
 ;
 void
 StartCallTelem
