@@ -945,7 +945,7 @@ BackgroundParentImpl
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -969,7 +969,7 @@ BackgroundParentImpl
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -999,7 +999,7 @@ ActorDestroyReason
 aWhy
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1024,7 +1024,7 @@ nsACString
 aTestArg
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1060,7 +1060,7 @@ nsACString
 aTestArg
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1110,7 +1110,7 @@ PBackgroundTestParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1167,7 +1167,7 @@ indexedDB
 :
 AllocPBackgroundIDBFactoryParent
 ;
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1215,7 +1215,7 @@ indexedDB
 :
 RecvPBackgroundIDBFactoryConstructor
 ;
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1263,7 +1263,7 @@ AllocPBackgroundIndexedDBUtilsParent
 PBackgroundIndexedDBUtilsParent
 *
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1297,7 +1297,7 @@ PBackgroundIndexedDBUtilsParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1340,7 +1340,7 @@ RecvFlushPendingFileDeletions
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1398,7 +1398,7 @@ PrincipalInfo
 aPrincipalInfo
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1445,7 +1445,7 @@ PrincipalInfo
 aPrincipalInfo
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1499,7 +1499,7 @@ PBackgroundSDBConnectionParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1549,7 +1549,7 @@ uint64_t
 aDatastoreId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1601,7 +1601,7 @@ uint64_t
 aDatastoreId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1656,7 +1656,7 @@ PBackgroundLSDatabaseParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1698,7 +1698,7 @@ uint64_t
 aObserverId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1740,7 +1740,7 @@ uint64_t
 aObserverId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1793,7 +1793,7 @@ PBackgroundLSObserverParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1835,7 +1835,7 @@ LSRequestParams
 aParams
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1878,7 +1878,7 @@ LSRequestParams
 aParams
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1931,7 +1931,7 @@ PBackgroundLSRequestParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -1973,7 +1973,7 @@ LSSimpleRequestParams
 aParams
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2016,7 +2016,7 @@ LSSimpleRequestParams
 aParams
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2069,7 +2069,7 @@ PBackgroundLSSimpleRequestParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2119,7 +2119,7 @@ uint32_t
 aPrivateBrowsingId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2171,7 +2171,7 @@ uint32_t
 aPrivateBrowsingId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2212,7 +2212,7 @@ PBackgroundLocalStorageCacheParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2258,7 +2258,7 @@ aPrivateBrowsingId
 PBackgroundStorageParent
 *
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2305,7 +2305,7 @@ uint32_t
 aPrivateBrowsingId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2344,7 +2344,7 @@ PBackgroundStorageParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2388,7 +2388,7 @@ uint64_t
 aTopContextId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -2423,7 +2423,7 @@ AllocPBackgroundSessionStorageServiceParent
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -3479,7 +3479,7 @@ AllocPVsyncParent
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -3559,7 +3559,7 @@ AllocPCamerasParent
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -3637,7 +3637,7 @@ PCamerasParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -3685,7 +3685,7 @@ PCamerasParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -3810,7 +3810,7 @@ nsACString
 aFilter
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -3951,7 +3951,7 @@ nsAString
 aChannel
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4046,7 +4046,7 @@ mOrigin
 aOrigin
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4265,7 +4265,7 @@ nsAString
 aChannel
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4342,7 +4342,7 @@ PBroadcastChannelParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4384,7 +4384,7 @@ AllocPServiceWorkerManagerParent
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4432,7 +4432,7 @@ PServiceWorkerManagerParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4492,7 +4492,7 @@ RecvShutdownServiceWorkerRegistrar
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4610,7 +4610,7 @@ uint32_t
 aSequenceID
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4655,7 +4655,7 @@ uint32_t
 aSequenceID
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4713,7 +4713,7 @@ PMessagePortParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4766,7 +4766,7 @@ uint32_t
 aSequenceID
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4821,7 +4821,7 @@ AllocPQuotaParent
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4855,7 +4855,7 @@ PQuotaParent
 aActor
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4898,7 +4898,7 @@ RecvShutdownQuotaManager
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -4968,7 +4968,7 @@ RecvShutdownBackgroundSessionStorageManagers
 (
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -5043,7 +5043,7 @@ uint64_t
 aTargetTopContextId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -5109,7 +5109,7 @@ uint64_t
 aTopContextId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -5383,7 +5383,7 @@ FileSystemParams
 aParams
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -5588,7 +5588,7 @@ uint64_t
 aChannelId
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -5650,7 +5650,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -5736,7 +5736,7 @@ bool
 aSysexEnabled
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -5849,7 +5849,7 @@ PMIDIManagerParent
 aEndpoint
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -5970,7 +5970,7 @@ HasMIDIDeviceResolver
 aResolver
 )
 {
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;
@@ -7286,7 +7286,7 @@ mozilla
 ipc
 :
 :
-AssertIsInMainOrSocketProcess
+AssertIsInMainProcess
 (
 )
 ;

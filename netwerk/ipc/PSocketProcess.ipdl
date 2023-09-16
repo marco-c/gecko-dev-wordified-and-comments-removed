@@ -28,10 +28,6 @@ PInputChannelThrottleQueue
 ;
 include
 protocol
-PBackgroundStarter
-;
-include
-protocol
 PAltService
 ;
 include
@@ -658,16 +654,6 @@ uint64_t
 aExtraSizeData
 nsCString
 aExtraStringData
-)
-;
-async
-InitBackground
-(
-Endpoint
-<
-PBackgroundStarterParent
->
-aEndpoint
 )
 ;
 async
