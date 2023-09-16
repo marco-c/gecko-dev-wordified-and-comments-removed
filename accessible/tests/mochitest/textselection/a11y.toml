@@ -5,6 +5,7 @@ support
 -
 files
 =
+"
 !
 /
 accessible
@@ -16,8 +17,18 @@ mochitest
 *
 .
 js
+"
 [
+'
 test_general
 .
 html
+'
+]
+[
+'
+test_userinput
+.
+html
+'
 ]

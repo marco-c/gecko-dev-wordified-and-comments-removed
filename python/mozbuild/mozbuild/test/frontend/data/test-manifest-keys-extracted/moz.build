@@ -32,7 +32,7 @@ A11Y_MANIFESTS
 "
 a11y
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS

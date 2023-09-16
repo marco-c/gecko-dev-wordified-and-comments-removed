@@ -5,6 +5,6 @@ A11Y_MANIFESTS
 "
 a11y
 .
-ini
+toml
 "
 ]

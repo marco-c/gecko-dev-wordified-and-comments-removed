@@ -3267,6 +3267,16 @@ endswith
 ini
 "
 )
+or
+tp
+.
+endswith
+(
+"
+.
+toml
+"
+)
 :
                     
 mpaths

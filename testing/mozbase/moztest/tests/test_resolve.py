@@ -542,6 +542,18 @@ pass
 "
                     
 "
+manifest
+"
+:
+"
+apple
+/
+a11y
+.
+toml
+"
+                    
+"
 flavor
 "
 :
@@ -2255,7 +2267,7 @@ apple
 /
 a11y
 .
-ini
+toml
 "
 ]
 )
@@ -2314,7 +2326,7 @@ apple
 /
 a11y
 .
-ini
+toml
 "
 )
 ]
