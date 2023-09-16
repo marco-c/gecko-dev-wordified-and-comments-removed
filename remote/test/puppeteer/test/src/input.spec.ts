@@ -157,7 +157,7 @@ cwd
 FILE_TO_UPLOAD
 )
 ;
-const
+using
 input
 =
 (
@@ -1368,6 +1368,7 @@ file
 >
 )
 ;
+void
 page
 .
 waitForFileChooser
@@ -1486,6 +1487,7 @@ files
 )
 ;
 return
+await
 promise
 .
 then
@@ -1564,6 +1566,7 @@ file
 >
 )
 ;
+void
 page
 .
 waitForFileChooser
@@ -1654,6 +1657,7 @@ toBe
 1
 )
 ;
+void
 page
 .
 waitForFileChooser
@@ -2076,6 +2080,7 @@ file
 >
 )
 ;
+void
 page
 .
 waitForFileChooser
@@ -2204,6 +2209,7 @@ files
 )
 ;
 return
+await
 promise
 .
 then

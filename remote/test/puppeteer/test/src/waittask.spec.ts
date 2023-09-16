@@ -1333,7 +1333,7 @@ div
 '
 )
 ;
-const
+using
 div
 =
 (
@@ -1360,11 +1360,7 @@ page
 .
 waitForFunction
 (
-(
 element
-:
-Element
-)
 =
 >
 {
@@ -2806,7 +2802,7 @@ div
 '
 )
 ;
-const
+using
 eHandle
 =
 (
@@ -3062,7 +3058,7 @@ div
 '
 )
 ;
-const
+using
 eHandle
 =
 await
@@ -3198,7 +3194,7 @@ div
 '
 )
 ;
-const
+using
 eHandle
 =
 await
@@ -3556,7 +3552,7 @@ div
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -3718,7 +3714,7 @@ div
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -3930,7 +3926,7 @@ div
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -4167,7 +4163,7 @@ div
 >
 )
 ;
-const
+using
 element
 =
 await
@@ -4376,7 +4372,7 @@ div
 >
 )
 ;
-const
+using
 element
 =
 await
@@ -4541,7 +4537,7 @@ div
 >
 )
 ;
-const
+using
 element
 =
 await
@@ -4701,7 +4697,7 @@ div
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -4857,7 +4853,7 @@ div
 >
 )
 ;
-const
+using
 element
 =
 await
@@ -4975,7 +4971,7 @@ getTestState
 (
 )
 ;
-const
+using
 handle
 =
 await
@@ -5928,7 +5924,7 @@ div
 '
 )
 ;
-const
+using
 eHandle
 =
 await
@@ -6294,7 +6290,7 @@ getTestState
 (
 )
 ;
-const
+using
 waitForXPath
 =
 await
@@ -6382,7 +6378,7 @@ div
 >
 )
 ;
-const
+using
 waitForXPath
 =
 await
@@ -6558,7 +6554,7 @@ div
 >
 )
 ;
-const
+using
 text
 =
 await

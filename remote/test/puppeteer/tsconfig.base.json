@@ -49,14 +49,14 @@ module
 "
 :
 "
-ESNext
+ES2022
 "
 "
 moduleResolution
 "
 :
 "
-node
+Bundler
 "
 "
 noFallthroughCasesInSwitch

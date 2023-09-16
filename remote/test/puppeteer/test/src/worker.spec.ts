@@ -278,7 +278,7 @@ workercreated
 '
 )
 ;
-const
+using
 workerObj
 =
 await
@@ -314,7 +314,7 @@ worker
 await
 workerCreatedPromise
 ;
-const
+using
 workerThisObj
 =
 await
@@ -774,14 +774,7 @@ workerCreatedPromise
 expect
 (
 await
-(
-await
 worker
-.
-executionContext
-(
-)
-)
 .
 evaluate
 (

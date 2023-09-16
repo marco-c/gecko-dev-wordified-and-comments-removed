@@ -364,6 +364,7 @@ force
 )
 {
 return
+await
 this
 .
 #
@@ -383,6 +384,7 @@ getOutputStats
 )
 {
 return
+await
 this
 .
 #
@@ -416,6 +418,7 @@ return
 ;
 }
 return
+await
 this
 .
 #
@@ -436,6 +439,7 @@ length
 )
 {
 return
+await
 this
 .
 #
@@ -461,6 +465,7 @@ return
 ;
 }
 return
+await
 this
 .
 #

@@ -774,6 +774,15 @@ false
 '
 browser
 .
+translations
+.
+automaticallyPopup
+'
+:
+false
+'
+browser
+.
 uitour
 .
 enabled

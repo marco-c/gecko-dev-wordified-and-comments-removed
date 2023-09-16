@@ -29,7 +29,14 @@ module
 "
 :
 "
-CommonJS
+NodeNext
+"
+"
+moduleResolution
+"
+:
+"
+NodeNext
 "
 "
 outDir

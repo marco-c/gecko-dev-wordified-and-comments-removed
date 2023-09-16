@@ -1237,7 +1237,7 @@ return
 await
 BiDi
 .
-Browser
+BidiBrowser
 .
 create
 (
@@ -1389,7 +1389,7 @@ return
 await
 BiDi
 .
-Browser
+BidiBrowser
 .
 create
 (

@@ -63,7 +63,7 @@ js
 ;
 import
 {
-Frame
+BidiFrame
 }
 from
 '
@@ -102,7 +102,7 @@ js
 ;
 import
 {
-Page
+BidiPage
 }
 from
 '
@@ -127,7 +127,7 @@ Connection
 #
 page
 :
-Page
+BidiPage
 ;
 #
 subscribedEvents
@@ -214,9 +214,12 @@ Map
 <
 Bidi
 .
-Message
-.
-EventNames
+Event
+[
+'
+method
+'
+]
 Handler
 >
 ;
@@ -251,7 +254,7 @@ connection
 Connection
 page
 :
-Page
+BidiPage
 )
 {
 super
@@ -308,7 +311,7 @@ Bidi
 .
 Network
 .
-BeforeRequestSentParams
+BeforeRequestSentParameters
 )
 :
 void
@@ -444,7 +447,7 @@ Bidi
 .
 Network
 .
-ResponseCompletedParams
+ResponseCompletedParameters
 )
 :
 void
@@ -576,7 +579,7 @@ Bidi
 .
 Network
 .
-FetchErrorParams
+FetchErrorParameters
 )
 {
 const
@@ -736,7 +739,7 @@ clearMapAfterFrameDispose
 (
 frame
 :
-Frame
+BidiFrame
 )
 :
 void
@@ -818,7 +821,7 @@ frame
 this
 .
 #
-requestMap
+navigationMap
 .
 delete
 (

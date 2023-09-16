@@ -32,6 +32,13 @@ module
 CommonJS
 "
 "
+moduleResolution
+"
+:
+"
+Node
+"
+"
 outDir
 "
 :

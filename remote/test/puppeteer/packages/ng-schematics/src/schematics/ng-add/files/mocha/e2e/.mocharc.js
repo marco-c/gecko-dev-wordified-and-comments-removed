@@ -3,17 +3,6 @@ module
 exports
 =
 {
-file
-:
-[
-'
-e2e
-/
-babel
-.
-js
-'
-]
 spec
 :
 '
@@ -21,7 +10,7 @@ spec
 /
 e2e
 /
-tests
+build
 /
 *
 *
@@ -30,7 +19,7 @@ tests
 .
 e2e
 .
-ts
+js
 '
 }
 ;

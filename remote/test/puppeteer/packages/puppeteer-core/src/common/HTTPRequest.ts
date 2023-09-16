@@ -859,6 +859,7 @@ abort
 '
 :
 return
+await
 this
 .
 #
@@ -903,6 +904,7 @@ interception
 ;
 }
 return
+await
 this
 .
 #
@@ -920,6 +922,7 @@ continue
 '
 :
 return
+await
 this
 .
 #
@@ -1196,6 +1199,7 @@ undefined
 )
 {
 return
+await
 this
 .
 #
@@ -1541,6 +1545,7 @@ undefined
 )
 {
 return
+await
 this
 .
 #
@@ -2070,6 +2075,7 @@ undefined
 )
 {
 return
+await
 this
 .
 #

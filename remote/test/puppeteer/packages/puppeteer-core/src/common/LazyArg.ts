@@ -153,6 +153,7 @@ T
 >
 {
 return
+await
 this
 .
 #

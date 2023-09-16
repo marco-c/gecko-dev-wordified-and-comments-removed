@@ -38,12 +38,5 @@ esm
 /
 puppeteer
 "
-"
-moduleResolution
-"
-:
-"
-NodeNext
-"
 }
 }

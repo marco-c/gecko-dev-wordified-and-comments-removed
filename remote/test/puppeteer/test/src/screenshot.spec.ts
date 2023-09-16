@@ -1,4 +1,11 @@
 import
+assert
+from
+'
+assert
+'
+;
+import
 expect
 from
 '
@@ -1540,7 +1547,7 @@ scrollBy
 }
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -1696,10 +1703,9 @@ scrollBy
 }
 )
 ;
-const
+using
 elementHandle
 =
-(
 await
 page
 .
@@ -1718,8 +1724,11 @@ type
 )
 '
 )
+;
+assert
+(
+elementHandle
 )
-!
 ;
 const
 screenshot
@@ -1838,7 +1847,7 @@ div
 >
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -1998,7 +2007,7 @@ div
 >
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2220,7 +2229,7 @@ div
 >
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2367,7 +2376,7 @@ div
 >
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2458,7 +2467,7 @@ h1
 '
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2600,7 +2609,7 @@ div
 '
 )
 ;
-const
+using
 div
 =
 (
@@ -2724,7 +2733,7 @@ div
 '
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2852,7 +2861,7 @@ div
 '
 )
 ;
-const
+using
 elementHandle
 =
 (

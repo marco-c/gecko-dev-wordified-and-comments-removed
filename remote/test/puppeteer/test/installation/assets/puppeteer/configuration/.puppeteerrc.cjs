@@ -23,7 +23,7 @@ puppeteer
 "
 )
 .
-PuppeteerConfiguration
+Configuration
 }
 *
 /

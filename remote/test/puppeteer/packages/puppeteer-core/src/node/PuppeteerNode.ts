@@ -1009,9 +1009,9 @@ uninstall
 {
 browser
 :
-SupportedBrowser
+installedBrowser
 .
-CHROME
+browser
 platform
 cacheDir
 buildId

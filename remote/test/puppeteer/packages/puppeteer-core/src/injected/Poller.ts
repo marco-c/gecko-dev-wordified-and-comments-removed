@@ -696,7 +696,7 @@ interval
 :
 NodeJS
 .
-Timer
+Timeout
 ;
 #
 deferred

@@ -98,7 +98,7 @@ remoteReference
 :
 Bidi
 .
-CommonDataTypes
+Script
 .
 RemoteReference
 )

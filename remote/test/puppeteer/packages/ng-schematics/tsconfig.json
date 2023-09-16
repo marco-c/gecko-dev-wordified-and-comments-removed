@@ -33,7 +33,14 @@ module
 "
 :
 "
-CommonJS
+NodeNext
+"
+"
+moduleResolution
+"
+:
+"
+NodeNext
 "
 "
 noEmitOnError

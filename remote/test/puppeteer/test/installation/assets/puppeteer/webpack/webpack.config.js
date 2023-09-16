@@ -20,6 +20,11 @@ target
 '
 node
 '
+externals
+:
+'
+typescript
+'
 output
 :
 {
