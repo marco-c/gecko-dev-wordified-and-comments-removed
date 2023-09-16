@@ -2818,6 +2818,17 @@ report
 round_trip_time
 =
 rtt
+.
+RoundTo
+(
+TimeDelta
+:
+:
+Millis
+(
+1
+)
+)
 ;
 report
 .
