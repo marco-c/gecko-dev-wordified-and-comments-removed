@@ -394,6 +394,13 @@ credential
 {
 return
 {
+clientDataJSON
+:
+credential
+.
+response
+.
+clientDataJSON
 attObj
 :
 credential

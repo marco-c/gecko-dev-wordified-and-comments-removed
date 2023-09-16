@@ -84384,6 +84384,9 @@ false
 mirror
 :
 always
+rust
+:
+true
 #
 Dispatch
 WebAuthn
@@ -84462,6 +84465,9 @@ IS_NOT_ANDROID
 mirror
 :
 always
+rust
+:
+true
 #
 Skip
 direct
