@@ -30,6 +30,16 @@ PWebAuthnTransaction
 ipdl
 "
 ]
+XPCOM_MANIFESTS
++
+=
+[
+"
+components
+.
+conf
+"
+]
 XPIDL_SOURCES
 +
 =
