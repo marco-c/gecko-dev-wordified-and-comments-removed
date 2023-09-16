@@ -126,7 +126,7 @@ EXAMPLE_URL_2
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 EXAMPLE_URL_2
@@ -702,7 +702,7 @@ URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL

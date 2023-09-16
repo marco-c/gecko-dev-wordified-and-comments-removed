@@ -2491,7 +2491,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 privateWin
 .
@@ -2689,7 +2689,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 privateWin
 .

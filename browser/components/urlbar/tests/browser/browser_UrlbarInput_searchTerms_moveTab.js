@@ -444,7 +444,7 @@ expectedSearchUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 expectedSearchUrl

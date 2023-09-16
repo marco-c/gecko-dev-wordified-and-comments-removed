@@ -123,7 +123,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 originalBrowser
 TEST_PAGE
@@ -319,7 +319,7 @@ newTab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 originalBrowser
 TEST_IFRAME_PAGE
@@ -600,7 +600,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 currentBrowser
 TEST_PAGE

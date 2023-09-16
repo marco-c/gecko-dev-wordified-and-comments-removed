@@ -178,7 +178,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testcase
@@ -258,7 +258,7 @@ expectedIdentityMode
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 kSecureURI
@@ -434,7 +434,7 @@ secure
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testcase

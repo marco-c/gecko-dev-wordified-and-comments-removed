@@ -310,7 +310,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -2921,7 +2921,7 @@ ownerGlobal
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 form1Url

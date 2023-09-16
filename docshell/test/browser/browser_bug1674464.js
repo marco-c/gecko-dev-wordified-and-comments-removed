@@ -93,7 +93,7 @@ load
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 DUMMY_2

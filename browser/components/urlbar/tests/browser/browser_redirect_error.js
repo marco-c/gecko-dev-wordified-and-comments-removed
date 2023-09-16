@@ -355,7 +355,7 @@ aIsSelectedTab
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

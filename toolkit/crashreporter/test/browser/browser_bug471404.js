@@ -254,7 +254,7 @@ crD
 }
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

@@ -490,7 +490,7 @@ second_write
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

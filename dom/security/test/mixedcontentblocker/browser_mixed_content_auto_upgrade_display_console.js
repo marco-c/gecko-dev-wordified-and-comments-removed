@@ -107,7 +107,7 @@ on_auto_upgrade_message
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

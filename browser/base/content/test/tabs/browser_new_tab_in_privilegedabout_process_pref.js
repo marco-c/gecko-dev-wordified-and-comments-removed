@@ -472,7 +472,7 @@ WEB_REMOTE_TYPE
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -724,7 +724,7 @@ reload
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_HTTP
@@ -905,7 +905,7 @@ goToIndex
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_HTTP

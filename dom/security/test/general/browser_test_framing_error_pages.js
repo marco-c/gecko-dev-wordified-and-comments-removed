@@ -120,7 +120,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 kTestXFrameOptionsURI
@@ -239,7 +239,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 kTestFrameAncestorsURI

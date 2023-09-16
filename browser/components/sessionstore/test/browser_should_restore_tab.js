@@ -505,7 +505,7 @@ tabOpenedAndSwitchedTo
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

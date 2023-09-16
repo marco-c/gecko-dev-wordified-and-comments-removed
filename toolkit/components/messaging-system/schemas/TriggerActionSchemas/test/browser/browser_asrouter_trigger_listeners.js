@@ -85,7 +85,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 selectedBrowser
 url

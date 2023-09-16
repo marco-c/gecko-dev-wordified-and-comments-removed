@@ -92,7 +92,7 @@ dialogClosed
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 prefsBrowser
 "

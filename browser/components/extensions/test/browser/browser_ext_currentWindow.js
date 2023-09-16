@@ -432,7 +432,7 @@ win2
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win1
 .
@@ -460,7 +460,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win2
 .

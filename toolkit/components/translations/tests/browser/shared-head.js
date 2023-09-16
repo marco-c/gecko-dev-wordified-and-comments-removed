@@ -401,7 +401,7 @@ detectedLanguageConfidence
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -1843,7 +1843,7 @@ autoDownloadFromRemoteSettings
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -3983,7 +3983,7 @@ languagePairs
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

@@ -501,7 +501,7 @@ toString
 }
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

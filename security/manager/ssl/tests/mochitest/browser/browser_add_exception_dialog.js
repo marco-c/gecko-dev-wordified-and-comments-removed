@@ -251,7 +251,7 @@ INVALID_CERT_DOMAIN
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 INVALID_CERT_LOCATION

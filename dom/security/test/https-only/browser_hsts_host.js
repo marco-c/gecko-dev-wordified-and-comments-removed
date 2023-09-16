@@ -91,7 +91,7 @@ setHstsUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -225,13 +225,11 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
-false
-RESOURCE_LINK
 )
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -629,7 +627,7 @@ clearHstsUrl
 await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

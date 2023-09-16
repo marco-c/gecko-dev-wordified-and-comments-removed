@@ -2469,7 +2469,7 @@ soundplaying
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

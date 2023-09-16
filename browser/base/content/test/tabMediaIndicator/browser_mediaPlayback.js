@@ -113,7 +113,7 @@ DOMAudioPlaybackStarted
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

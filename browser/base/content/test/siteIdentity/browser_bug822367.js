@@ -174,7 +174,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gTestBrowser
 url
@@ -338,7 +338,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gTestBrowser
 url
@@ -395,7 +395,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gTestBrowser
 url
@@ -632,7 +632,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gTestBrowser
 url
@@ -896,7 +896,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gTestBrowser
 url
@@ -1060,7 +1060,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gTestBrowser
 url

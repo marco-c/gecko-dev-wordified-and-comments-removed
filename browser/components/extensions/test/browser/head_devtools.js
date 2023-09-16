@@ -510,7 +510,7 @@ isErrorPage
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 uri

@@ -380,7 +380,7 @@ event
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aTab
 .

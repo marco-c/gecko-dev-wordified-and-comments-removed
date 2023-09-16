@@ -136,7 +136,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 errorPageURL
@@ -317,7 +317,7 @@ FIXED_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 BAD_CERT_DOMAIN_ERROR_URL

@@ -369,7 +369,7 @@ connect
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gPrivateWin
 .

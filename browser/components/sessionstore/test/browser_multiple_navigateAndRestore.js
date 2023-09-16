@@ -114,7 +114,7 @@ remote
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -128,7 +128,7 @@ stop
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_2

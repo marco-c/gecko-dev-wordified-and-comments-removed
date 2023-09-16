@@ -740,7 +740,7 @@ point
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -876,7 +876,7 @@ DEFAULT_REMOTE_TYPE
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

@@ -220,7 +220,7 @@ KEY_ArrowDown
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -411,7 +411,7 @@ KEY_ArrowDown
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -584,7 +584,7 @@ KEY_ArrowDown
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -775,7 +775,7 @@ KEY_ArrowDown
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -953,7 +953,7 @@ KEY_ArrowDown
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

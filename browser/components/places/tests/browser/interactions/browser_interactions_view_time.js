@@ -96,7 +96,7 @@ now
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_URL2
@@ -141,7 +141,7 @@ now
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -234,7 +234,7 @@ now
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -751,7 +751,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 otherWin
 .
@@ -977,7 +977,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 otherWin
 .
@@ -1015,7 +1015,7 @@ now
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 otherWin
 .
@@ -1096,7 +1096,7 @@ now
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tabInOriginalWindow
 .
@@ -1209,7 +1209,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 privateWin
 .

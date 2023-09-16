@@ -170,7 +170,7 @@ expectedSearchUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -379,7 +379,7 @@ expectedSearchUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

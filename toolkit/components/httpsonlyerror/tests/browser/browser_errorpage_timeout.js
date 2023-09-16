@@ -129,7 +129,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TIMEOUT_PAGE_URI_HTTP
