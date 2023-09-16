@@ -26783,11 +26783,9 @@ ssrc
 =
 report_block_data
 .
-report_block
+source_ssrc
 (
 )
-.
-source_ssrc
 ;
 if
 (
@@ -26916,11 +26914,9 @@ ssrc
 =
 report_block_data
 .
-report_block
+source_ssrc
 (
 )
-.
-source_ssrc
 ;
 if
 (
