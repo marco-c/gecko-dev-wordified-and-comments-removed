@@ -53,7 +53,7 @@ libwebrtc
 "
 )
 def
-get_excluded_paths
+get_excluded_files
 (
 )
 :
@@ -150,6 +150,16 @@ py
 "
 pylintrc
 "
+    
+]
+def
+get_excluded_dirs
+(
+)
+:
+    
+return
+[
         
 "
 sdk
@@ -3400,7 +3410,11 @@ pass
         
 unused_libwebrtc_in_firefox
 =
-get_excluded_paths
+get_excluded_files
+(
+)
++
+get_excluded_dirs
 (
 )
         
