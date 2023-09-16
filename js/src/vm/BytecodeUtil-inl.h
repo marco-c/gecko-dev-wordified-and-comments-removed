@@ -586,6 +586,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 sn
 (

@@ -13500,6 +13500,10 @@ outerScript
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 ;
 return

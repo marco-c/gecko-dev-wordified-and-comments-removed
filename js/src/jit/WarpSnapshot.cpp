@@ -653,6 +653,10 @@ script_
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 static_cast
 <
 JSScript
