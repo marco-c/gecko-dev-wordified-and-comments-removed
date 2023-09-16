@@ -3533,7 +3533,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-useStrict
+use_strict_
 (
 )
 ;
