@@ -344,7 +344,7 @@ wrapper
 "
 >
 <
-span
+h2
 id
 =
 "
@@ -358,7 +358,7 @@ label
 }
 <
 /
-span
+h2
 >
 <
 button
@@ -410,7 +410,7 @@ wrapper
 "
 >
 <
-span
+h2
 id
 =
 "
@@ -424,7 +424,7 @@ label
 }
 <
 /
-span
+h2
 >
 <
 slot
