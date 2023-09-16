@@ -3962,6 +3962,8 @@ supported
 )
 ;
 return
+"
+"
 ;
 }
 const
@@ -4054,6 +4056,9 @@ successfully
 added
 .
 )
+;
+return
+rowId
 ;
 }
 const
