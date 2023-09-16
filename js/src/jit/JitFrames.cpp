@@ -6239,7 +6239,15 @@ locallyTracedValuePtr
 i
 )
 "
-TODO
+ion
+-
+ic
+-
+local
+-
+tracing
+-
+slot
 "
 )
 ;
