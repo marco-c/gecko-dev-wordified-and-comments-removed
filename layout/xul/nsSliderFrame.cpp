@@ -7339,9 +7339,6 @@ aClickAndHold
 sf
 )
 {
-nscoord
-distance
-;
 const
 bool
 isHorizontal
@@ -7382,12 +7379,15 @@ GetRect
 (
 )
 ;
+nscoord
+maxDistanceAlongTrack
+;
 if
 (
 isHorizontal
 )
 {
-distance
+maxDistanceAlongTrack
 =
 mDestinationPoint
 .
@@ -7406,7 +7406,7 @@ width
 }
 else
 {
-distance
+maxDistanceAlongTrack
 =
 mDestinationPoint
 .
@@ -7423,9 +7423,10 @@ height
 2
 ;
 }
-distance
+nscoord
+maxDistanceToScroll
 =
-distance
+maxDistanceAlongTrack
 /
 GetThumbRatio
 (
@@ -7461,7 +7462,8 @@ GetScrollPosition
 (
 )
 ;
-distance
+nscoord
+distanceToScroll
 =
 std
 :
@@ -7470,7 +7472,7 @@ min
 (
 abs
 (
-distance
+maxDistanceToScroll
 )
 CSSPixel
 :
@@ -7496,7 +7498,7 @@ pos
 x
 +
 =
-distance
+distanceToScroll
 ;
 }
 else
@@ -7506,7 +7508,7 @@ pos
 y
 +
 =
-distance
+distanceToScroll
 ;
 }
 sf
