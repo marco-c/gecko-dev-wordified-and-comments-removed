@@ -6200,10 +6200,12 @@ err
 >
 columnNumber
 =
-columnNumber
-.
-zeroOriginValue
+JS
+:
+:
+ColumnNumberZeroOrigin
 (
+columnNumber
 )
 ;
 return
