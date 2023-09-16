@@ -110862,8 +110862,8 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScriptThatMayDocumentWriteOrBlock
-UopRunScriptThatCannotDocumentWriteOrBlock
+UopRunScript
+UopRunScriptAsyncDefer
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCreatingElement
@@ -110936,8 +110936,8 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScriptThatMayDocumentWriteOrBlock
-UopRunScriptThatCannotDocumentWriteOrBlock
+UopRunScript
+UopRunScriptAsyncDefer
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCre
@@ -135282,8 +135282,8 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScriptThatMayDocumentWriteOrBlock
-UopRunScriptThatCannotDocumentWriteOrBlock
+UopRunScript
+UopRunScriptAsyncDefer
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCreatingElement
@@ -135400,8 +135400,8 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScriptThatMayDocumentWriteOrBlock
-UopRunScriptThatCannotDocumentWriteOrBlock
+UopRunScript
+UopRunScriptAsyncDefer
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCreatingElement
@@ -135430,8 +135430,8 @@ E
 0BC
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScriptThatMayDocumentWriteOrBlock
-UopRunScriptThatCannotDocumentWriteOrBlock
+UopRunScript
+UopRunScriptAsyncDefer
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCreatingElement
@@ -135478,7 +135478,7 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScriptThatMayDocumentWriteOrBlock
+UopRunScript
 ?
 _Target_type
 ?

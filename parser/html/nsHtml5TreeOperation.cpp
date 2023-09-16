@@ -764,7 +764,7 @@ operator
 )
 (
 const
-opRunScriptThatMayDocumentWriteOrBlock
+opRunScript
 &
 aOperation
 )
@@ -776,7 +776,7 @@ operator
 )
 (
 const
-opRunScriptThatCannotDocumentWriteOrBlock
+opRunScriptAsyncDefer
 &
 aOperation
 )
@@ -5514,7 +5514,7 @@ operator
 )
 (
 const
-opRunScriptThatMayDocumentWriteOrBlock
+opRunScript
 &
 aOperation
 )
@@ -5570,7 +5570,7 @@ operator
 )
 (
 const
-opRunScriptThatCannotDocumentWriteOrBlock
+opRunScriptAsyncDefer
 &
 aOperation
 )
@@ -5586,7 +5586,6 @@ aOperation
 .
 mElement
 )
-false
 )
 ;
 return

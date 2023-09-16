@@ -12576,7 +12576,7 @@ if
 mTreeBuilder
 -
 >
-HasScriptThatMayDocumentWriteOrBlock
+HasScript
 (
 )
 )

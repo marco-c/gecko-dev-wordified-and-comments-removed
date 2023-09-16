@@ -96,7 +96,7 @@ nsresult
 mBroken
 ;
 bool
-mCurrentHtmlScriptCannotDocumentWriteOrBlock
+mCurrentHtmlScriptIsAsyncOrDefer
 ;
 bool
 mPreventScriptExecution
@@ -258,7 +258,7 @@ StartPlainTextBody
 )
 ;
 bool
-HasScriptThatMayDocumentWriteOrBlock
+HasScript
 (
 )
 ;

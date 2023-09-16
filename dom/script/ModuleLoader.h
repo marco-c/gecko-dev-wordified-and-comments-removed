@@ -308,14 +308,6 @@ aLoader
 )
 ;
 }
-void
-AsyncExecuteInlineModule
-(
-ModuleLoadRequest
-*
-aRequest
-)
-;
 private
 :
 const
