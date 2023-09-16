@@ -473,10 +473,13 @@ true
 )
 ;
 const
-state
+currentThread
 =
+getCurrentThread
+(
 getState
 (
+)
 )
 ;
 const
@@ -484,11 +487,10 @@ selectedFrame
 =
 getSelectedFrame
 (
-state
-getCurrentThread
+getState
 (
-state
 )
+currentThread
 )
 ;
 if
@@ -522,7 +524,7 @@ getGeneratedFrameScope
 getState
 (
 )
-selectedFrame
+currentThread
 )
 ;
 if
