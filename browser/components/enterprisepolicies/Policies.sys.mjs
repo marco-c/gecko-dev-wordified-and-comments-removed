@@ -9046,6 +9046,13 @@ ui
 widget
 .
 "
+"
+xpinstall
+.
+whitelist
+.
+required
+"
 ]
 ;
 if
