@@ -1248,15 +1248,6 @@ aIconSpec
 override
 {
 }
-void
-SetDrawsInTitlebar
-(
-bool
-aState
-)
-override
-{
-}
 bool
 ShowsResizeIndicator
 (

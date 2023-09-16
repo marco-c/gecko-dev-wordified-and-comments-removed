@@ -3135,16 +3135,6 @@ HasPendingInputEvent
 0
 ;
 virtual
-void
-SetDrawsInTitlebar
-(
-bool
-aState
-)
-=
-0
-;
-virtual
 bool
 ShowsResizeIndicator
 (

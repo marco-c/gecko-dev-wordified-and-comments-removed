@@ -4115,16 +4115,6 @@ dragSession
 Atom
 (
 "
-drawintitlebar
-"
-"
-drawintitlebar
-"
-)
-    
-Atom
-(
-"
 drawtitle
 "
 "

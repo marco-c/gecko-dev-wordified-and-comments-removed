@@ -1361,14 +1361,6 @@ aResizeMargin
 override
 ;
 void
-SetDrawsInTitlebar
-(
-bool
-aState
-)
-override
-;
-void
 UpdateWindowDraggingRegion
 (
 const

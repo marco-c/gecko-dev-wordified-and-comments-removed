@@ -1461,14 +1461,12 @@ LayoutDeviceIntMargin
 )
 override
 ;
-virtual
 void
 SetDrawsInTitlebar
 (
 bool
 aState
 )
-override
 ;
 virtual
 void
