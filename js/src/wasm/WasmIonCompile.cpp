@@ -16226,7 +16226,9 @@ params
 tagType
 -
 >
-argTypes_
+argTypes
+(
+)
 ;
 const
 TagOffsetVector
@@ -16236,7 +16238,9 @@ offsets
 tagType
 -
 >
-argOffsets_
+argOffsets
+(
+)
 ;
 auto
 *
@@ -16852,7 +16856,9 @@ i
 tagType
 -
 >
-argOffsets_
+argOffsets
+(
+)
 .
 length
 (
@@ -16883,7 +16889,9 @@ type
 tagType
 -
 >
-argTypes_
+argTypes
+(
+)
 [
 i
 ]
@@ -16894,7 +16902,9 @@ offset
 tagType
 -
 >
-argOffsets_
+argOffsets
+(
+)
 [
 i
 ]

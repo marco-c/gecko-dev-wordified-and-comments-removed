@@ -20783,7 +20783,9 @@ params
 tagType
 -
 >
-argTypes_
+argTypes
+(
+)
 ;
 const
 TagOffsetVector
@@ -20793,7 +20795,9 @@ offsets
 tagType
 -
 >
-argOffsets_
+argOffsets
+(
+)
 ;
 ResultType
 exnResult
@@ -22335,7 +22339,9 @@ tagDesc
 type
 -
 >
-argOffsets_
+argOffsets
+(
+)
 ;
 #
 ifdef
