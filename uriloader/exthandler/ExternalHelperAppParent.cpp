@@ -285,8 +285,6 @@ ExternalHelperAppParent
 Init
 (
 const
-Maybe
-<
 mozilla
 :
 :
@@ -294,7 +292,6 @@ net
 :
 :
 LoadInfoArgs
->
 &
 aLoadInfoArgs
 const
