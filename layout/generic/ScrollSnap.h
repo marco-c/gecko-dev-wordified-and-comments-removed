@@ -63,7 +63,7 @@ ScrollSnapUtils
 static
 Maybe
 <
-SnapTarget
+SnapDestination
 >
 GetSnapPointForDestination
 (
@@ -95,10 +95,7 @@ mozilla
 :
 Maybe
 <
-mozilla
-:
-:
-SnapTarget
+SnapDestination
 >
 GetSnapPointForResnap
 (

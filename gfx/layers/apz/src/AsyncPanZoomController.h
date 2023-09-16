@@ -2954,7 +2954,7 @@ aOverscrollSideBits
 void
 SmoothScrollTo
 (
-CSSSnapTarget
+CSSSnapDestination
 &
 &
 aDestination
@@ -2969,7 +2969,7 @@ aOrigin
 void
 SmoothMsdScrollTo
 (
-CSSSnapTarget
+CSSSnapDestination
 &
 &
 aDestination
@@ -3529,7 +3529,7 @@ mPotentialCheckerboardTracker
 ;
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 MaybeAdjustDeltaForScrollSnapping
 (
@@ -3547,7 +3547,7 @@ aStartPosition
 ;
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 MaybeAdjustDeltaForScrollSnappingOnWheelInput
 (
@@ -3565,7 +3565,7 @@ aStartPosition
 ;
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 MaybeAdjustDestinationForScrollSnapping
 (
@@ -3605,7 +3605,7 @@ aSnapFlags
 ;
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 FindSnapPointNear
 (
