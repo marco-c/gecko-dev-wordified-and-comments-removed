@@ -99,16 +99,6 @@ True
 False
 }
 ;
-static
-constexpr
-uint32_t
-ColumnBit
-=
-1u
-<
-<
-31
-;
 private
 :
 jit
