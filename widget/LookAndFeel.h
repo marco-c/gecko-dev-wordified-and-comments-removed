@@ -216,6 +216,7 @@ TitlebarRadius
 DynamicRange
 VideoDynamicRange
 PanelAnimations
+HideCursorWhileTyping
 End
 }
 ;
