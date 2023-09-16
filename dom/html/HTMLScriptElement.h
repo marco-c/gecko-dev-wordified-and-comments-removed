@@ -717,8 +717,8 @@ nsAString
 &
 aFetchPriority
 )
-{
-}
+const
+;
 void
 SetFetchPriority
 (
@@ -728,6 +728,15 @@ nsAString
 aFetchPriority
 )
 {
+SetHTMLAttr
+(
+nsGkAtoms
+:
+:
+fetchpriority
+aFetchPriority
+)
+;
 }
 [
 [
