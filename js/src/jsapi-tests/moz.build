@@ -240,6 +240,11 @@ testFrontendCompileStencil
 cpp
 "
 "
+testFrontendErrors
+.
+cpp
+"
+"
 testFrontendJSON
 .
 cpp
