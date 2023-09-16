@@ -362,7 +362,7 @@ uuid
 ;
 }
 function
-createBiddingScriptUrl
+createBiddingScriptURL
 (
 params
 =
@@ -975,9 +975,9 @@ let
 interestGroupOverrides
 =
 {
-biddingLogicUrl
+biddingLogicURL
 :
-createBiddingScriptUrl
+createBiddingScriptURL
 (
 {
 generateBid

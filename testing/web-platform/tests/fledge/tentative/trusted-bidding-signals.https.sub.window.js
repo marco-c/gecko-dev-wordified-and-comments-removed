@@ -17,9 +17,9 @@ interestGroupOverrides
 {
 interestGroupOverrides
 .
-biddingLogicUrl
+biddingLogicURL
 =
-createBiddingScriptUrl
+createBiddingScriptURL
 (
 {
 generateBid
@@ -73,9 +73,9 @@ test
 ;
 interestGroupOverrides
 .
-biddingLogicUrl
+biddingLogicURL
 =
-createBiddingScriptUrl
+createBiddingScriptURL
 (
 {
 generateBid

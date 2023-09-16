@@ -367,7 +367,7 @@ test
 >
 {
 let
-biddingLogicUrl
+biddingLogicURL
 =
 {
 BASE_URL
@@ -394,9 +394,9 @@ test
 interestGroupOverrides
 :
 {
-biddingLogicUrl
+biddingLogicURL
 :
-biddingLogicUrl
+biddingLogicURL
 }
 }
 )
