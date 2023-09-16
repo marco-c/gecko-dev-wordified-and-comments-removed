@@ -736,7 +736,7 @@ trendingMaxResultsNoSearchMode
 :
 type
 :
-boolean
+int
 setPref
 :
 browser
