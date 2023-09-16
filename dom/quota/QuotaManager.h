@@ -2703,12 +2703,6 @@ nsString
 >
 mPrivateStoragePath
 ;
-MozPromiseHolder
-<
-BoolPromise
->
-mShutdownStoragePromiseHolder
-;
 uint64_t
 mTemporaryStorageLimit
 ;
@@ -2723,9 +2717,6 @@ mTemporaryStorageInitialized
 ;
 bool
 mCacheUsable
-;
-bool
-mShuttingDownStorage
 ;
 }
 ;

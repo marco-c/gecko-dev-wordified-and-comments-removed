@@ -476,7 +476,7 @@ ShutdownStorage
 TEST_F
 (
 TestQuotaManager
-DISABLED_ShutdownStorage_OngoingWithScheduledInitialization
+ShutdownStorage_OngoingWithScheduledInitialization
 )
 {
 ASSERT_NO_FATAL_FAILURE
