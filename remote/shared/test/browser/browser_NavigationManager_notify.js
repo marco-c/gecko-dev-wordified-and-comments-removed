@@ -414,7 +414,7 @@ events
 SECOND_URL
 navigation
 .
-id
+navigationId
 navigableId
 )
 ;
@@ -808,7 +808,7 @@ events
 SECOND_URL
 navigation
 .
-id
+navigationId
 navigableId
 )
 ;

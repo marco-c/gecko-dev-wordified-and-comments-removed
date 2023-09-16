@@ -340,7 +340,7 @@ property
 {
 string
 }
-id
+navigationId
 -
 The
 UUID
@@ -1054,7 +1054,7 @@ context
 )
 ;
 const
-id
+navigationId
 =
 lazy
 .
@@ -1069,7 +1069,7 @@ navigation
 finished
 :
 true
-id
+navigationId
 url
 }
 ;
@@ -1118,7 +1118,7 @@ navigation
 started
 "
 {
-id
+navigationId
 navigableId
 url
 }
@@ -1134,7 +1134,7 @@ location
 changed
 "
 {
-id
+navigationId
 navigableId
 url
 }
@@ -1150,7 +1150,7 @@ navigation
 stopped
 "
 {
-id
+navigationId
 navigableId
 url
 }
@@ -1405,12 +1405,12 @@ Skipping
 already
 tracked
 navigation
-id
+navigationId
 :
 {
 navigation
 .
-id
+navigationId
 }
 )
 ;
@@ -1419,7 +1419,7 @@ navigation
 ;
 }
 const
-id
+navigationId
 =
 lazy
 .
@@ -1451,7 +1451,7 @@ url
 }
 (
 {
-id
+navigationId
 }
 )
 )
@@ -1462,7 +1462,7 @@ navigation
 finished
 :
 false
-id
+navigationId
 url
 }
 ;
@@ -1487,7 +1487,7 @@ navigation
 started
 "
 {
-id
+navigationId
 navigableId
 url
 }
@@ -1696,12 +1696,12 @@ already
 marked
 as
 finished
-id
+navigationId
 :
 {
 navigation
 .
-id
+navigationId
 }
 )
 ;
@@ -1735,7 +1735,7 @@ url
 {
 navigation
 .
-id
+navigationId
 }
 )
 )
@@ -1756,11 +1756,11 @@ navigation
 stopped
 "
 {
-id
+navigationId
 :
 navigation
 .
-id
+navigationId
 navigableId
 url
 }
@@ -2097,7 +2097,7 @@ payload
 {
 string
 }
-id
+navigationId
 -
 The
 UUID
@@ -2165,7 +2165,7 @@ payload
 {
 string
 }
-id
+navigationId
 -
 The
 UUID

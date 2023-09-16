@@ -1227,7 +1227,7 @@ finished
 return
 navigation
 .
-id
+navigationId
 ;
 }
 /
@@ -1261,7 +1261,7 @@ url
 }
 )
 .
-id
+navigationId
 ;
 }
 #
@@ -1458,7 +1458,7 @@ navigation
 ?
 navigation
 .
-id
+navigationId
 :
 null
 redirectCount

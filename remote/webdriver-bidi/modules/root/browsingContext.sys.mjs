@@ -5503,7 +5503,7 @@ navigation
 ?
 navigation
 .
-id
+navigationId
 :
 null
 url
@@ -6113,7 +6113,7 @@ data
 {
 const
 {
-id
+navigationId
 navigableId
 url
 }
@@ -6181,7 +6181,7 @@ context
 navigableId
 navigation
 :
-id
+navigationId
 timestamp
 :
 Date

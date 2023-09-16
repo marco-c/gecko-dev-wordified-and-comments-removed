@@ -78,7 +78,7 @@ is
 typeof
 navigation
 .
-id
+navigationId
 "
 string
 "
@@ -87,7 +87,7 @@ Navigation
 has
 a
 string
-id
+navigationId
 "
 )
 ;
@@ -97,7 +97,7 @@ assertNavigationEvents
 (
 events
 url
-id
+navigationId
 navigableId
 isSameDocument
 )
@@ -125,10 +125,10 @@ e
 .
 data
 .
-id
+navigationId
 =
 =
-id
+navigationId
 )
 ;
 is
@@ -143,9 +143,9 @@ expectedEvents
 }
 events
 for
-id
+navigationId
 {
-id
+navigationId
 }
 )
 ;
@@ -405,7 +405,7 @@ navigation
 >
 navigation
 .
-id
+navigationId
 )
 ;
 is
