@@ -715,7 +715,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 ;

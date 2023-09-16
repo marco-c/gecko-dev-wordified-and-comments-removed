@@ -12337,7 +12337,7 @@ names
 (
 )
 .
-dotThis
+dot_this_
 )
 {
 return
@@ -12361,7 +12361,7 @@ names
 (
 )
 .
-dotNewTarget
+dot_newTarget_
 )
 {
 return

@@ -3875,7 +3875,7 @@ names
 (
 )
 .
-dotThis
+dot_this_
 )
 |
 |
@@ -3890,7 +3890,7 @@ names
 (
 )
 .
-dotNewTarget
+dot_newTarget_
 )
 ;
 }
@@ -3920,7 +3920,7 @@ names
 (
 )
 .
-dotThis
+dot_this_
 )
 |
 |
@@ -3935,7 +3935,7 @@ names
 (
 )
 .
-dotGenerator
+dot_generator_
 )
 |
 |
@@ -3950,7 +3950,7 @@ names
 (
 )
 .
-dotInitializers
+dot_initializers_
 )
 |
 |
@@ -3965,7 +3965,7 @@ names
 (
 )
 .
-dotFieldKeys
+dot_fieldKeys_
 )
 |
 |
@@ -3980,7 +3980,7 @@ names
 (
 )
 .
-dotStaticInitializers
+dot_staticInitializers_
 )
 |
 |
@@ -3995,7 +3995,7 @@ names
 (
 )
 .
-dotStaticFieldKeys
+dot_staticFieldKeys_
 )
 |
 |
@@ -4010,7 +4010,7 @@ names
 (
 )
 .
-dotArgs
+dot_args_
 )
 |
 |
@@ -4025,7 +4025,7 @@ names
 (
 )
 .
-dotNewTarget
+dot_newTarget_
 )
 |
 |
@@ -10285,7 +10285,7 @@ names
 (
 )
 .
-dotThis
+dot_this_
 )
 ;
 }
@@ -12640,7 +12640,7 @@ names
 (
 )
 .
-dotThis
+dot_this_
 )
 )
 )
@@ -19145,7 +19145,7 @@ names
 (
 )
 .
-dotThis
+dot_this_
 )
 {
 continue

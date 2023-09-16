@@ -253,7 +253,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 )
@@ -273,7 +273,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 NameOpEmitter
