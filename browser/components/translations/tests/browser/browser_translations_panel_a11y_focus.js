@@ -78,6 +78,7 @@ key
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 is

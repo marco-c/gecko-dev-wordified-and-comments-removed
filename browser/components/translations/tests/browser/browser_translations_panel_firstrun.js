@@ -130,6 +130,7 @@ popup
 )
 ;
 }
+assertPanelFirstShowView
 )
 ;
 ok
@@ -277,6 +278,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 info

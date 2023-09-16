@@ -155,6 +155,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 const
@@ -393,6 +394,7 @@ again
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 const
@@ -670,6 +672,7 @@ popup
 )
 ;
 }
+assertPanelRevisitView
 )
 ;
 ok

@@ -916,6 +916,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 await
@@ -2015,6 +2016,7 @@ popup
 )
 ;
 }
+assertPanelRevisitView
 )
 ;
 await

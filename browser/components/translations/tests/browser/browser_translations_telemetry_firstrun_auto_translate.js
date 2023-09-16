@@ -504,6 +504,7 @@ popup
 )
 ;
 }
+assertPanelRevisitView
 )
 ;
 await

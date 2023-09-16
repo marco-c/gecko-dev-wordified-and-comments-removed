@@ -123,6 +123,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 const

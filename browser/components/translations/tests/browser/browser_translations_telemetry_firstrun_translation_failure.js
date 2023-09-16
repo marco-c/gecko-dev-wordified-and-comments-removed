@@ -184,6 +184,7 @@ popup
 )
 ;
 }
+assertPanelFirstShowView
 )
 ;
 await
@@ -681,6 +682,10 @@ en
 }
 )
 ;
+assertPanelErrorView
+(
+)
+;
 await
 waitForTranslationsPopupEvent
 (
@@ -792,6 +797,7 @@ popup
 )
 ;
 }
+assertPanelFirstShowView
 )
 ;
 await

@@ -122,6 +122,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 const
@@ -643,6 +644,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 const

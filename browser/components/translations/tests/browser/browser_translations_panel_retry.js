@@ -123,6 +123,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 await
@@ -246,6 +247,7 @@ popup
 )
 ;
 }
+assertPanelRevisitView
 )
 ;
 info

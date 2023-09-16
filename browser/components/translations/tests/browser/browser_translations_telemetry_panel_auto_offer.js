@@ -263,6 +263,7 @@ domain
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 await

@@ -656,6 +656,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 await
