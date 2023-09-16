@@ -272,6 +272,10 @@ mIgnoreBecauseOfShadowDOM
 (
 false
 )
+mWantsActivationBehavior
+(
+false
+)
 mParentTarget
 (
 nullptr
@@ -344,6 +348,10 @@ mParentIsChromeHandler
 false
 ;
 mIgnoreBecauseOfShadowDOM
+=
+false
+;
+mWantsActivationBehavior
 =
 false
 ;
@@ -453,6 +461,9 @@ mRelatedTargetRetargetedInCurrentScope
 ;
 bool
 mIgnoreBecauseOfShadowDOM
+;
+bool
+mWantsActivationBehavior
 ;
 private
 :
