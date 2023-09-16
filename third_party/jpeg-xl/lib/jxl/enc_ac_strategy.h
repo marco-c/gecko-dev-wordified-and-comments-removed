@@ -164,16 +164,7 @@ size_t
 src_stride
 ;
 float
-cost1
-;
-float
-cost2
-;
-float
 cost_delta
-;
-float
-base_entropy
 ;
 float
 zeros_mul

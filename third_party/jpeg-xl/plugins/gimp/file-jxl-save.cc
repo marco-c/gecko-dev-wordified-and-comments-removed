@@ -2048,16 +2048,6 @@ gtk_widget_show
 separator
 )
 ;
-std
-:
-:
-vector
-<
-GtkWidget
-*
->
-advanced_opts
-;
 frame_advanced
 =
 gtk_frame_new

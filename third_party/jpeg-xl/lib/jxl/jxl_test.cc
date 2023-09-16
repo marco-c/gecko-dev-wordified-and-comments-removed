@@ -909,7 +909,7 @@ pool
 &
 ppf_out
 )
-766
+816
 40
 )
 ;
@@ -926,9 +926,9 @@ ppf_out
 )
 IsSlightlyBelow
 (
-1
+0
 .
-2
+888
 )
 )
 ;
@@ -1449,7 +1449,7 @@ pool
 &
 ppf_out
 )
-23553
+22999
 400
 )
 ;
@@ -1576,7 +1576,7 @@ pool
 &
 ppf_out
 )
-10907
+11015
 200
 )
 ;
@@ -2117,7 +2117,7 @@ kKitten
 1
 .
 0f
-56570u
+55602u
 11
 .
 7
@@ -2146,7 +2146,7 @@ kWombat
 2
 .
 0f
-35274u
+33624u
 20
 .
 0
@@ -2653,7 +2653,7 @@ pool
 &
 ppf_out
 )
-453713
+445555
 5000
 )
 ;
@@ -2773,7 +2773,7 @@ pool
 &
 ppf_out
 )
-41087
+41777
 300
 )
 ;
@@ -3317,7 +3317,7 @@ pool
 &
 ppf_out
 )
-753
+801
 45
 )
 ;
@@ -3430,7 +3430,7 @@ pool
 &
 ppf_out
 )
-38009
+38900
 200
 )
 ;
@@ -3810,7 +3810,7 @@ IsSlightlyBelow
 (
 0
 .
-015f
+018f
 )
 )
 ;
@@ -4011,7 +4011,7 @@ IsSlightlyBelow
 (
 0
 .
-015f
+018f
 )
 )
 ;
@@ -6112,7 +6112,7 @@ IsSlightlyBelow
 (
 1
 .
-2
+111
 )
 )
 ;
@@ -6160,7 +6160,7 @@ IsSlightlyBelow
 (
 1
 .
-47
+55
 )
 )
 ;
@@ -6294,7 +6294,7 @@ pool
 &
 ppf_out
 )
-12745
+13155
 130
 )
 ;
@@ -8311,7 +8311,7 @@ pool
 &
 ppf_out
 )
-277976
+273333
 4000
 )
 ;
@@ -8466,7 +8466,7 @@ pool
 &
 ppf_out
 )
-38244
+39261
 750
 )
 ;
@@ -8485,7 +8485,7 @@ IsSlightlyBelow
 (
 1
 .
-3
+35
 )
 )
 ;
@@ -9376,6 +9376,14 @@ dparams
 test
 :
 :
+DefaultAcceptedFormats
+(
+dparams
+)
+;
+test
+:
+:
 SetThreadParallelRunner
 (
 dparams
@@ -9627,6 +9635,14 @@ jpeg_bytes
 &
 compressed
 )
+)
+;
+test
+:
+:
+DefaultAcceptedFormats
+(
+dparams
 )
 ;
 test
@@ -10803,7 +10819,7 @@ pool
 &
 ppf_out
 )
-63570
+62160
 750
 )
 ;
@@ -10937,7 +10953,7 @@ pool
 &
 ppf_out
 )
-74621
+71111
 1000
 )
 ;

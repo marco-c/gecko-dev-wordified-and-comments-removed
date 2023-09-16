@@ -5609,7 +5609,7 @@ kAcQuant
 =
 0
 .
-7784
+7635
 ;
 ImageBundle
 RoundtripImage
