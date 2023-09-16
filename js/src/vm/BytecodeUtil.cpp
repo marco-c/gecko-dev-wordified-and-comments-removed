@@ -588,7 +588,7 @@ ionCounts
 sp
 -
 >
-jsprintf
+printf
 (
 "
 IonScript
@@ -680,7 +680,7 @@ columnNumber
 sp
 -
 >
-jsprintf
+printf
 (
 "
 BB
@@ -728,7 +728,7 @@ description
 sp
 -
 >
-jsprintf
+printf
 (
 "
 [
@@ -768,7 +768,7 @@ j
 sp
 -
 >
-jsprintf
+printf
 (
 "
 -
@@ -789,7 +789,7 @@ j
 sp
 -
 >
-jsprintf
+printf
 (
 "
 :
@@ -812,7 +812,7 @@ hitCount
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -973,7 +973,7 @@ numExec
 sp
 -
 >
-jsprintf
+printf
 (
 "
 \
@@ -5041,7 +5041,7 @@ showAll
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -5336,7 +5336,7 @@ next
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -6554,7 +6554,7 @@ break
 sp
 -
 >
-jsprintf
+printf
 (
 "
 from
@@ -7214,7 +7214,7 @@ length
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7232,7 +7232,7 @@ lines
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7249,7 +7249,7 @@ pc
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7294,7 +7294,7 @@ pc
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7366,7 +7366,7 @@ return
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7428,7 +7428,7 @@ pc
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7477,7 +7477,7 @@ pc
 sp
 -
 >
-jsprintf
+printf
 (
 "
 (
@@ -7548,7 +7548,7 @@ return
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7606,7 +7606,7 @@ return
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7641,7 +7641,7 @@ toDouble
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7695,7 +7695,7 @@ return
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7761,7 +7761,7 @@ return
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7873,7 +7873,7 @@ return
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -7941,7 +7941,7 @@ JUMP_OFFSET_LEN
 sp
 -
 >
-jsprintf
+printf
 (
 "
 defaultOffset
@@ -8014,7 +8014,7 @@ pc
 sp
 -
 >
-jsprintf
+printf
 (
 "
 \
@@ -8044,7 +8044,7 @@ JOF_QARG
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -8064,7 +8064,7 @@ JOF_LOCAL
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -8084,7 +8084,7 @@ JOF_GCTHING
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -8107,7 +8107,7 @@ JOF_UINT32
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -8127,7 +8127,7 @@ JOF_ICINDEX
 sp
 -
 >
-jsprintf
+printf
 (
 "
 (
@@ -8151,7 +8151,7 @@ JOF_LOOPHEAD
 sp
 -
 >
-jsprintf
+printf
 (
 "
 (
@@ -8208,7 +8208,7 @@ pc
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -8220,7 +8220,7 @@ one
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -8330,7 +8330,7 @@ print_int
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
