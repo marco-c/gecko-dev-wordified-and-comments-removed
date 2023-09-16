@@ -17753,6 +17753,14 @@ control
 return
 ;
 }
+if
+(
+IsShadowIncludingInclusiveDescendantOf
+(
+control
+)
+)
+{
 FocusOptions
 options
 ;
@@ -17777,6 +17785,7 @@ IgnoreErrors
 )
 )
 ;
+}
 }
 bool
 nsGenericHTMLElement
