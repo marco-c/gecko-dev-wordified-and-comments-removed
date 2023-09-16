@@ -1548,6 +1548,11 @@ Accessible
 >
 headerCells
 ;
+if
+(
+cell
+)
+{
 cell
 -
 >
@@ -1557,6 +1562,7 @@ RowHeaderCells
 headerCells
 )
 ;
+}
 return
 utils
 :
@@ -1598,6 +1604,11 @@ Accessible
 >
 headerCells
 ;
+if
+(
+cell
+)
+{
 cell
 -
 >
@@ -1607,6 +1618,7 @@ ColHeaderCells
 headerCells
 )
 ;
+}
 return
 utils
 :
