@@ -6707,6 +6707,15 @@ mMightNeedMediaQueryListenerUpdate
 =
 false
 ;
+if
+(
+!
+mPresContext
+)
+{
+return
+;
+}
 AUTO_PROFILER_LABEL_RELEVANT_FOR_JS
 (
 "
