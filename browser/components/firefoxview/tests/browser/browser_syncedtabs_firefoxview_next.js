@@ -1067,7 +1067,7 @@ shadowRoot
 querySelectorAll
 (
 "
-h2
+h3
 [
 slot
 =
@@ -1366,7 +1366,7 @@ shadowRoot
 querySelectorAll
 (
 "
-h2
+h3
 [
 slot
 =
@@ -1851,7 +1851,7 @@ shadowRoot
 querySelectorAll
 (
 "
-h2
+h3
 [
 slot
 =
@@ -2106,7 +2106,7 @@ shadowRoot
 querySelectorAll
 (
 "
-h2
+h3
 [
 slot
 =

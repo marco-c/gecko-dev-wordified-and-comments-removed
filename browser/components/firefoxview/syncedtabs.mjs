@@ -2002,7 +2002,7 @@ syncedtabs
 "
 >
 <
-h2
+h3
 slot
 =
 "
@@ -2034,7 +2034,7 @@ deviceName
 }
 <
 /
-h2
+h3
 >
 <
 div
@@ -2226,7 +2226,7 @@ overview
 >
 html
 <
-h2
+h3
 slot
 =
 "
@@ -2258,7 +2258,7 @@ deviceName
 }
 <
 /
-h2
+h3
 >
 )
 }
@@ -2342,7 +2342,7 @@ overview
 >
 html
 <
-h2
+h3
 slot
 =
 "
@@ -2374,7 +2374,7 @@ deviceName
 }
 <
 /
-h2
+h3
 >
 )
 }
@@ -3088,7 +3088,7 @@ _currentSetupStateIndex
 >
 >
 <
-h2
+h3
 slot
 =
 "
@@ -3119,7 +3119,7 @@ header
 >
 <
 /
-h2
+h3
 >
 <
 div

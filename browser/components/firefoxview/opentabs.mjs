@@ -1141,7 +1141,7 @@ true
 "
 >
 <
-h2
+h3
 data
 -
 l10n
@@ -1163,7 +1163,7 @@ header
 >
 <
 /
-h2
+h3
 >
 <
 fxview
@@ -1739,7 +1739,7 @@ opentabs
 "
 >
 <
-h2
+h3
 slot
 =
 "
@@ -1753,7 +1753,7 @@ title
 }
 <
 /
-h2
+h3
 >
 <
 div

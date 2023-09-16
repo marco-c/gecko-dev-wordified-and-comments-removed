@@ -1761,7 +1761,7 @@ history
 "
 >
 <
-h2
+h3
 slot
 =
 "
@@ -1790,7 +1790,7 @@ dateArg
 >
 <
 /
-h2
+h3
 >
 <
 fxview
@@ -1956,7 +1956,7 @@ history
 "
 >
 <
-h2
+h3
 slot
 =
 "
@@ -1986,7 +1986,7 @@ domain
 }
 <
 /
-h2
+h3
 >
 <
 fxview
