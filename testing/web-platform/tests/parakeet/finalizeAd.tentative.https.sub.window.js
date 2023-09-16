@@ -32,7 +32,7 @@ https
 }
 }
 "
-decisionLogicUrl
+decisionLogicURL
 :
 "
 https
@@ -187,7 +187,7 @@ okayAuctionRequest
 delete
 auctionRequest
 .
-decisionLogicUrl
+decisionLogicURL
 ;
 const
 finalizePromise
@@ -218,7 +218,7 @@ should
 reject
 a
 missing
-decisionLogicUrl
+decisionLogicURL
 .
 "
 )
@@ -244,7 +244,7 @@ okayAuctionRequest
 ;
 auctionRequest
 .
-decisionLogicUrl
+decisionLogicURL
 =
 "
 http
@@ -301,7 +301,7 @@ a
 non
 -
 HTTPS
-decisionLogicUrl
+decisionLogicURL
 .
 "
 )

@@ -446,7 +446,7 @@ makeTest
 name
 :
 '
-decisionLogicUrl
+decisionLogicURL
 is
 invalid
 '
@@ -459,7 +459,7 @@ TypeError
 auctionConfigOverrides
 :
 {
-decisionLogicUrl
+decisionLogicURL
 :
 "
 https
@@ -480,7 +480,7 @@ makeTest
 name
 :
 '
-decisionLogicUrl
+decisionLogicURL
 is
 cross
 -
@@ -497,7 +497,7 @@ TypeError
 auctionConfigOverrides
 :
 {
-decisionLogicUrl
+decisionLogicURL
 :
 "
 https
@@ -1269,7 +1269,7 @@ window
 location
 .
 origin
-decisionLogicUrl
+decisionLogicURL
 :
 window
 .
@@ -1290,7 +1290,7 @@ window
 location
 .
 origin
-decisionLogicUrl
+decisionLogicURL
 :
 window
 .
@@ -1352,7 +1352,7 @@ window
 location
 .
 origin
-decisionLogicUrl
+decisionLogicURL
 :
 window
 .
