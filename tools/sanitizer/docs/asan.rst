@@ -1179,6 +1179,12 @@ x86_64
 .
 dll
 "
+export
+PATH
+=
+CLANG_LIB_DIR
+:
+PATH
 If
 you
 launch
