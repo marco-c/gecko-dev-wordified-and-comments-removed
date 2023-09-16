@@ -37,17 +37,7 @@ kRTCAudioSessionHighPerformanceSampleRate
 RTC_EXTERN
 const
 double
-kRTCAudioSessionLowComplexitySampleRate
-;
-RTC_EXTERN
-const
-double
 kRTCAudioSessionHighPerformanceIOBufferDuration
-;
-RTC_EXTERN
-const
-double
-kRTCAudioSessionLowComplexityIOBufferDuration
 ;
 RTC_OBJC_EXPORT
 interface
