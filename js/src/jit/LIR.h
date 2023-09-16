@@ -6622,6 +6622,11 @@ instructions_
 RecoverOffset
 recoverOffset_
 ;
+bool
+hasSideEffects_
+=
+false
+;
 explicit
 LRecoverInfo
 (
@@ -6794,6 +6799,15 @@ instructions_
 length
 (
 )
+;
+}
+bool
+hasSideEffects
+(
+)
+{
+return
+hasSideEffects_
 ;
 }
 class

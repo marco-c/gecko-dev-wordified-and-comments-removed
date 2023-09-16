@@ -2017,6 +2017,8 @@ mir
 uint32_t
 *
 allocIndex
+bool
+hasSideEffects
 )
 {
 if
@@ -3046,6 +3048,9 @@ mir
 isIncompleteObject
 (
 )
+&
+&
+hasSideEffects
 )
 {
 alloc
@@ -3449,6 +3454,16 @@ lirId
 ;
 #
 endif
+bool
+hasSideEffects
+=
+recoverInfo
+-
+>
+hasSideEffects
+(
+)
+;
 uint32_t
 allocIndex
 =
@@ -3492,6 +3507,7 @@ snapshot
 it
 &
 allocIndex
+hasSideEffects
 )
 ;
 MOZ_ASSERT_IF
