@@ -31,7 +31,7 @@ include
 double
 -
 conversion
--
+/
 string
 -
 to
@@ -582,9 +582,6 @@ i
 namespace
 {
 using
-icu
-:
-:
 double_conversion
 :
 :

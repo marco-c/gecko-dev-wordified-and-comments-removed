@@ -74,6 +74,10 @@ include
 double
 -
 conversion
+/
+double
+-
+conversion
 .
 h
 "
@@ -120,9 +124,6 @@ number
 impl
 ;
 using
-icu
-:
-:
 double_conversion
 :
 :
