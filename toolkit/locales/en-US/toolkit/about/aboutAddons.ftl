@@ -2236,6 +2236,9 @@ duplicate
 -
 warning
 -
+message2
+=
+.
 message
 =
 {
