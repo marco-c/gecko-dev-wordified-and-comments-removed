@@ -1184,6 +1184,14 @@ nscoord
 aHeight
 )
 ;
+bool
+CanHandleUserInputEvents
+(
+WidgetGUIEvent
+*
+aGUIEvent
+)
+;
 public
 :
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
