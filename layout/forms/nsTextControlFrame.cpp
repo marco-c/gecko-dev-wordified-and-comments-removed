@@ -607,14 +607,11 @@ void
 nsTextControlFrame
 :
 :
-DestroyFrom
+Destroy
 (
-nsIFrame
-*
-aDestructRoot
-PostDestroyData
+DestroyContext
 &
-aPostDestroyData
+aContext
 )
 {
 RemoveProperty
@@ -798,7 +795,7 @@ textControlElement
 )
 ;
 }
-aPostDestroyData
+aContext
 .
 AddAnonymousContent
 (
@@ -809,7 +806,7 @@ forget
 )
 )
 ;
-aPostDestroyData
+aContext
 .
 AddAnonymousContent
 (
@@ -820,7 +817,7 @@ forget
 )
 )
 ;
-aPostDestroyData
+aContext
 .
 AddAnonymousContent
 (
@@ -831,7 +828,7 @@ forget
 )
 )
 ;
-aPostDestroyData
+aContext
 .
 AddAnonymousContent
 (
@@ -845,10 +842,9 @@ forget
 nsContainerFrame
 :
 :
-DestroyFrom
+Destroy
 (
-aDestructRoot
-aPostDestroyData
+aContext
 )
 ;
 }

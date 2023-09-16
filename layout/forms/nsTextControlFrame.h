@@ -166,12 +166,9 @@ nsTextControlFrame
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
-DestroyFrom
+Destroy
 (
-nsIFrame
-*
-aDestructRoot
-PostDestroyData
+DestroyContext
 &
 )
 override
