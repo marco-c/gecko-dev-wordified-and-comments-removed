@@ -219,6 +219,7 @@ setEvalNextCrashDump
 GeckoRuntime
 .
 CRASHED_PROCESS_TYPE_MAIN
+null
 )
 val
 runtime
