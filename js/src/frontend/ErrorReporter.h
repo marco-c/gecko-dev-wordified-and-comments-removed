@@ -44,6 +44,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 UniquePtr
 .
 h
@@ -1272,7 +1281,10 @@ const
 0
 ;
 virtual
-uint32_t
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 columnAt
 (
 size_t
