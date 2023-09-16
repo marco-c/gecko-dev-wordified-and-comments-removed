@@ -109,6 +109,9 @@ get_primary_dependency
 config
 job
 )
+            
+assert
+dep_job
         
 build_platform
 =
