@@ -699,6 +699,8 @@ aMedia
 nsHtml5String
 aNonce
 nsHtml5String
+aFetchPriority
+nsHtml5String
 aIntegrity
 nsHtml5String
 aReferrerPolicy
@@ -796,6 +798,13 @@ aNonce
 ToString
 (
 mNonce
+)
+;
+aFetchPriority
+.
+ToString
+(
+mFetchPriority
 )
 ;
 aIntegrity
@@ -1433,6 +1442,9 @@ mMedia
 ;
 nsString
 mNonce
+;
+nsString
+mFetchPriority
 ;
 mozilla
 :
