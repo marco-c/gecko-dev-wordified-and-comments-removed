@@ -93,7 +93,7 @@ set
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -277,7 +277,7 @@ set
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

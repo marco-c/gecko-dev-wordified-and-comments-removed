@@ -556,7 +556,7 @@ icon
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

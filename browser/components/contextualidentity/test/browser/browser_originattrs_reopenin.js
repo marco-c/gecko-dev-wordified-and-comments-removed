@@ -649,7 +649,7 @@ uri
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 regularPage
 .

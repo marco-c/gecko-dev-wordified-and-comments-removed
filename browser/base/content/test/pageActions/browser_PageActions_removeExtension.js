@@ -175,7 +175,7 @@ win
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -1257,7 +1257,7 @@ win
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

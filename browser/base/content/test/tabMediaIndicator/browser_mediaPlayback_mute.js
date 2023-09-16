@@ -183,7 +183,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -339,7 +339,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

@@ -1784,7 +1784,7 @@ targets
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

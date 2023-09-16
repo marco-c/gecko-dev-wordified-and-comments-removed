@@ -346,7 +346,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 refreshPage
@@ -595,7 +595,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 META_PAGE

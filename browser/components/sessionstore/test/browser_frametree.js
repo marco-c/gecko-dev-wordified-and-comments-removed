@@ -85,7 +85,7 @@ frames
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL_FRAMESET

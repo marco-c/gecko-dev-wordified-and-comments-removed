@@ -320,7 +320,7 @@ fission
 }
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 aboutReaderURL

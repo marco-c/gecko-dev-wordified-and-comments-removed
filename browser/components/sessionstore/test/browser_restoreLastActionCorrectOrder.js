@@ -362,7 +362,7 @@ tab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win2
 .

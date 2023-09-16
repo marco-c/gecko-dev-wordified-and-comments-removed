@@ -92,7 +92,7 @@ aIsPrivate
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

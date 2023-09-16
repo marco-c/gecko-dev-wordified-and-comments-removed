@@ -84,7 +84,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newTab
 .

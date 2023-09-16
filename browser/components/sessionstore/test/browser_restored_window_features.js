@@ -555,7 +555,7 @@ DUMMY_PAGE
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

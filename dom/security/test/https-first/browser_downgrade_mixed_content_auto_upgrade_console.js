@@ -194,13 +194,11 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
-false
-kTestURI
 )
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

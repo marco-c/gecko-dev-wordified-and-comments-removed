@@ -397,7 +397,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 page

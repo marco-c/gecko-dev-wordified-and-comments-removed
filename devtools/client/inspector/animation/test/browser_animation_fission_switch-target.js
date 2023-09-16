@@ -482,7 +482,7 @@ updated
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 uri

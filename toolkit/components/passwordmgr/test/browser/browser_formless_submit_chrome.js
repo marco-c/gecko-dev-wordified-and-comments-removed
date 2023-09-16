@@ -450,7 +450,7 @@ second
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 "
@@ -813,7 +813,7 @@ aBrowser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 "

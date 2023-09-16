@@ -560,7 +560,7 @@ aText
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 aURI

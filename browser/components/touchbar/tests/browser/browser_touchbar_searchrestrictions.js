@@ -631,7 +631,7 @@ loadUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 loadUrl

@@ -277,7 +277,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL_ROOT_ORG_SSL

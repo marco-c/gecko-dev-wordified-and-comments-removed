@@ -260,7 +260,7 @@ config
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tabBrowser
 url
@@ -865,7 +865,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tabBrowser
 "
@@ -1248,7 +1248,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

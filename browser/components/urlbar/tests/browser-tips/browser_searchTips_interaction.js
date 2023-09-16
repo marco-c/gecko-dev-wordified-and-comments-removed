@@ -915,7 +915,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -1248,7 +1248,7 @@ SEARCH_SERP_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -2123,7 +2123,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -2430,7 +2430,7 @@ SEARCH_SERP_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -2739,7 +2739,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -3048,7 +3048,7 @@ SEARCH_SERP_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -3596,7 +3596,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -3769,7 +3769,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

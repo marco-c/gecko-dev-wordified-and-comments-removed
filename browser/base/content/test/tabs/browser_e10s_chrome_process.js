@@ -65,7 +65,7 @@ URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 startURL
@@ -504,7 +504,7 @@ loadURI
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 uri

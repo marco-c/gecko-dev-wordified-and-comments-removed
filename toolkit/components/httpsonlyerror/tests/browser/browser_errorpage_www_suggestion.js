@@ -149,7 +149,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 KICK_OF_REQUEST_WITH_SUGGESTION

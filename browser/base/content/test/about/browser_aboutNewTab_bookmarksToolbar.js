@@ -71,7 +71,7 @@ newtab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newtab
 .
@@ -151,7 +151,7 @@ within
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newtab
 .
@@ -332,7 +332,7 @@ example
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 example
 .
@@ -502,7 +502,7 @@ newtab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 example
 .

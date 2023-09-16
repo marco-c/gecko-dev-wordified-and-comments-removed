@@ -1140,7 +1140,7 @@ browser
 >
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 AUTH_URI

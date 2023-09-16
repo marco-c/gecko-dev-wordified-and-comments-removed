@@ -258,7 +258,7 @@ URL
 }
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -669,7 +669,7 @@ URL
 }
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

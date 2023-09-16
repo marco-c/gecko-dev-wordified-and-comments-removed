@@ -315,7 +315,7 @@ onUCTDialog
 }
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 testBrowser
 testURI

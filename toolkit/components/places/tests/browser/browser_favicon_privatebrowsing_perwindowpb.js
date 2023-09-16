@@ -136,7 +136,7 @@ aCallback
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aWin
 .

@@ -2317,7 +2317,7 @@ promise
 }
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

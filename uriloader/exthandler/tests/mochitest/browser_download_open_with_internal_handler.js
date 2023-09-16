@@ -236,7 +236,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -916,7 +916,7 @@ domWindowOpenedAndLoaded
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newTab
 .

@@ -23,7 +23,7 @@ filename
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

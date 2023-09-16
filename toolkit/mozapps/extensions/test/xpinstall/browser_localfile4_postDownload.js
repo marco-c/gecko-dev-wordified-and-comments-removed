@@ -157,7 +157,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 xpipath

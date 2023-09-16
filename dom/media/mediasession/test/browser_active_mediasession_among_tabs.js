@@ -473,7 +473,7 @@ waitUntilMainMediaControllerChanged
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab2
 .

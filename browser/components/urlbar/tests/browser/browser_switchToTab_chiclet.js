@@ -49,7 +49,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -380,7 +380,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 TEST_URL

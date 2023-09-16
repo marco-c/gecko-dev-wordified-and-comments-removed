@@ -345,7 +345,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

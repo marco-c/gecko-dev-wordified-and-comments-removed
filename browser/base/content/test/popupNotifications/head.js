@@ -104,7 +104,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

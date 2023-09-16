@@ -91,7 +91,7 @@ updateVersion
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

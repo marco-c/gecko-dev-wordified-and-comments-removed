@@ -283,7 +283,7 @@ scrollHeight
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

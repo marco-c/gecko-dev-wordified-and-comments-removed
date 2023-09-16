@@ -76,7 +76,7 @@ sjs
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 ROOT
