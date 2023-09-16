@@ -313,6 +313,11 @@ string
 options
 .
 selectedNodeActor
+!
+!
+options
+.
+disableBreaks
 )
 ;
 let

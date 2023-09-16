@@ -275,6 +275,7 @@ debuggerGlobal
 frame
 evalInput
 selectedNodeActorID
+ignoreExistingBindings
 )
 {
 const
@@ -462,6 +463,10 @@ commands
 {
 if
 (
+!
+ignoreExistingBindings
+&
+&
 !
 isCmd
 &
