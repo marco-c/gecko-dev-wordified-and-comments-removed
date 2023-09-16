@@ -133,6 +133,16 @@ third_party
 /
 gradle
 '
+    
+'
+src
+/
+third_party
+/
+mockito
+/
+src
+'
 ]
 WEBRTC_ONLY_DEPS
 =
