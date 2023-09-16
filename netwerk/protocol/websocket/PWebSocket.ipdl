@@ -121,6 +121,7 @@ aPingTimeout
 bool
 aClientSetPingTimeout
 LoadInfoArgs
+?
 aLoadInfoArgs
 PTransportProvider
 ?

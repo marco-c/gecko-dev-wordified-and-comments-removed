@@ -1043,7 +1043,10 @@ nsIURI
 *
 aURI
 const
+Maybe
+<
 LoadInfoArgs
+>
 &
 aLoadInfoArgs
 GetPageThumbStreamResolver
@@ -1065,7 +1068,10 @@ nsIURI
 *
 aURI
 const
+Maybe
+<
 LoadInfoArgs
+>
 &
 aLoadInfoArgs
 GetPageIconStreamResolver
