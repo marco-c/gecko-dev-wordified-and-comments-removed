@@ -300,6 +300,13 @@ this
 true
 )
 ;
+if
+(
+timeout
+>
+0
+)
+{
 window
 .
 addEventListener
@@ -320,6 +327,7 @@ deactivate
 this
 )
 ;
+}
 this
 .
 _timeoutHide
