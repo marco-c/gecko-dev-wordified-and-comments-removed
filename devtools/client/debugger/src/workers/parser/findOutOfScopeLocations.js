@@ -14,7 +14,7 @@ contains
 ;
 import
 {
-getSymbols
+getInternalSymbols
 }
 from
 "
@@ -35,7 +35,7 @@ functions
 comments
 }
 =
-getSymbols
+getInternalSymbols
 (
 source
 )
