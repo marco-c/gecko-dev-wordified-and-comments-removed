@@ -2934,10 +2934,7 @@ const
 ContentType
 type
 =
-FileSystemContentTypeGuess
-:
-:
-FromPath
+DetermineContentType
 (
 aNewName
 )
@@ -3160,10 +3157,7 @@ const
 ContentType
 type
 =
-FileSystemContentTypeGuess
-:
-:
-FromPath
+DetermineContentType
 (
 aNewDesignation
 .

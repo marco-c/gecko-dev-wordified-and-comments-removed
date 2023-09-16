@@ -839,6 +839,15 @@ FileId
 aItemToRemove
 )
 ;
+ContentType
+DetermineContentType
+(
+const
+Name
+&
+aName
+)
+;
 }
 }
 #
