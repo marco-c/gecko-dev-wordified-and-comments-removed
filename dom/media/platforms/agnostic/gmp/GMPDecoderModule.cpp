@@ -408,9 +408,10 @@ return
 media
 :
 :
-DecodeSupportSet
-{
-}
+DecodeSupport
+:
+:
+Unsupported
 ;
 }
 if
@@ -445,9 +446,10 @@ SoftwareDecode
 media
 :
 :
-DecodeSupportSet
-{
-}
+DecodeSupport
+:
+:
+Unsupported
 ;
 }
 media

@@ -42,7 +42,6 @@ PDMFactory
 )
 ;
 return
-!
 platform
 -
 >
@@ -55,10 +54,15 @@ mpeg
 "
 _ns
 )
-.
-isEmpty
-(
-)
+!
+=
+media
+:
+:
+DecodeSupport
+:
+:
+Unsupported
 ;
 }
 bool
