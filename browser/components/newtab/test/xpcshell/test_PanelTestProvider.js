@@ -107,6 +107,9 @@ whatsnew_panel_message
 spotlight
 :
 3
+feature_callout
+:
+1
 pb_newtab
 :
 2

@@ -313,13 +313,9 @@ const
 calloutId
 =
 "
-multi
+feature
 -
-stage
--
-message
--
-root
+callout
 "
 ;
 const
