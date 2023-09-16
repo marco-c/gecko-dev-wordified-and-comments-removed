@@ -170,6 +170,15 @@ experience2023
 optedIn
 "
 "
+browser
+.
+shopping
+.
+experience2023
+.
+active
+"
+"
 narrate
 .
 rate
