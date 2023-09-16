@@ -48092,6 +48092,7 @@ branchIfNotRegExpPrototypeOptimizable
 (
 proto
 scratch
+nullptr
 &
 slow
 )
@@ -48319,6 +48320,7 @@ branchIfNotRegExpInstanceOptimizable
 (
 regexp
 scratch
+nullptr
 &
 slow
 )
