@@ -3251,9 +3251,11 @@ result
 SBOX_ALL_OK
 )
 {
-SpawnCleanup
-(
 target
+-
+>
+Terminate
+(
 )
 ;
 return
