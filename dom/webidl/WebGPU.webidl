@@ -4898,7 +4898,7 @@ getCurrentTexture
 }
 ;
 enum
-GPUCanvasCompositingAlphaMode
+GPUCanvasAlphaMode
 {
 "
 opaque
@@ -4950,8 +4950,8 @@ srgb
 /
 /
 TODO
-GPUCanvasCompositingAlphaMode
-compositingAlphaMode
+GPUCanvasAlphaMode
+alphaMode
 =
 "
 opaque
