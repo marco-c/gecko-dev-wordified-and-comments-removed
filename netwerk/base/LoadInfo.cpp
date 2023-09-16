@@ -1347,6 +1347,7 @@ nsMixedContentBlocker
 IsUpgradableContentType
 (
 mInternalContentPolicyType
+false
 )
 )
 {
@@ -1371,11 +1372,13 @@ GetIsLoopbackHost
 {
 if
 (
-StaticPrefs
+nsMixedContentBlocker
 :
 :
-security_mixed_content_upgrade_display_content
+IsUpgradableContentType
 (
+mInternalContentPolicyType
+true
 )
 )
 {
