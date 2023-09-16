@@ -3522,7 +3522,15 @@ metadata
 .
 columnNumber
 =
-0
+JS
+:
+:
+ColumnNumberZeroOrigin
+:
+:
+zero
+(
+)
 ;
 metadata
 .
