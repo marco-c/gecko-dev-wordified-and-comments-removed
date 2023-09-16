@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingDeclarations
@@ -141,7 +150,10 @@ MutableHandle
 JSObject
 *
 >
-aRetVal
+aValue
+ErrorResult
+&
+aRv
 )
 ;
 nsresult
