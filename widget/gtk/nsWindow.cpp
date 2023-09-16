@@ -28934,6 +28934,10 @@ WindowType
 :
 :
 TopLevel
+&
+&
+!
+mParent
 )
 {
 SetDrawsInTitlebar
