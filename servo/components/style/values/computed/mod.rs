@@ -198,6 +198,15 @@ use
 crate
 :
 :
+stylist
+:
+:
+Stylist
+;
+use
+crate
+:
+:
 stylesheets
 :
 :
@@ -1440,6 +1449,7 @@ for_inheritance
 device
 None
 None
+None
 )
 cached_system_font
 :
@@ -1505,6 +1515,13 @@ device
 :
 &
 Device
+stylist
+:
+Option
+<
+&
+Stylist
+>
 container_info_and_style
 :
 Option
@@ -1629,6 +1646,7 @@ StyleBuilder
 for_inheritance
 (
 device
+stylist
 style
 None
 )
