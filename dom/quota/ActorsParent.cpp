@@ -23810,10 +23810,9 @@ suffix
 ;
 if
 (
-StringBeginsWith
+IsUUIDOrigin
 (
 origin
-kUUIDOriginScheme
 )
 )
 {
