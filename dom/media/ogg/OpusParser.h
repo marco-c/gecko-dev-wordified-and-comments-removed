@@ -104,6 +104,9 @@ mMappingTable
 [
 255
 ]
+=
+{
+}
 ;
 int64_t
 mPrevPacketGranulepos
