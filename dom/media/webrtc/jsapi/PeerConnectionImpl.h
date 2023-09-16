@@ -2396,13 +2396,6 @@ IsClosed
 )
 const
 ;
-void
-OnRtcpPacketReceived
-(
-MediaPacket
-aPacket
-)
-;
 nsresult
 OnAlpnNegotiated
 (
