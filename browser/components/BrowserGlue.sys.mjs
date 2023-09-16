@@ -5024,13 +5024,6 @@ DOMDocElementInserted
 :
 {
 }
-ShoppingTelemetryEvent
-:
-{
-wantUntrusted
-:
-true
-}
 }
 }
 matches
