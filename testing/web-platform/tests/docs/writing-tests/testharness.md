@@ -1922,6 +1922,8 @@ META
 :
 variant
 =
+?
+default
 /
 /
 META
@@ -1958,6 +1960,8 @@ variant
 content
 =
 "
+?
+default
 "
 >
 <

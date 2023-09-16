@@ -3473,15 +3473,14 @@ content
 ]
                 
 if
+(
 variant
-!
+=
 =
 "
 "
-:
+or
                     
-if
-(
 variant
 [
 0
@@ -3497,7 +3496,7 @@ in
 "
 )
 or
-                        
+                    
 len
 (
 variant
@@ -3506,7 +3505,7 @@ variant
 =
 1
 or
-                        
+                    
 (
 variant
 [
@@ -3530,7 +3529,7 @@ variant
 )
 )
 :
-                        
+                    
 errors
 .
 append
