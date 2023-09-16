@@ -15984,12 +15984,6 @@ case
 StyleAppearance
 :
 :
-Window
-:
-case
-StyleAppearance
-:
-:
 MozWindowButtonBox
 :
 case
