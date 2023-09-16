@@ -2371,6 +2371,17 @@ interface
 Navigator
 {
 [
+Pref
+=
+"
+dom
+.
+media
+.
+mediasession
+.
+enabled
+"
 SameObject
 ]
 readonly
