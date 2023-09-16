@@ -205,7 +205,7 @@ CONNECTED
 ;
 }
 bool
-CanSandData
+CanSendData
 (
 )
 const
@@ -630,6 +630,16 @@ MaxDatagramSize
 (
 uint64_t
 aSessionId
+)
+;
+void
+SetSendOrder
+(
+Http3StreamBase
+*
+aStream
+int64_t
+aSendOrder
 )
 ;
 void
