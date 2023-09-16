@@ -841,7 +841,7 @@ mozilla
 phc
 :
 :
-Enabled
+OnlyFree
 #
 ifdef
 DEBUG
