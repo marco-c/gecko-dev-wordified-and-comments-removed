@@ -8477,13 +8477,6 @@ run
 runnable
 )
 ;
-runnable
--
->
-RecordStopTime
-(
-)
-;
 OffThreadCompilationCompleteRunnable
 :
 :
@@ -9901,6 +9894,10 @@ return
 NS_OK
 ;
 }
+RecordStopTime
+(
+)
+;
 if
 (
 profiler_is_active
