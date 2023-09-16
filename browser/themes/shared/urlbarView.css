@@ -3908,11 +3908,6 @@ menu
 button
 *
 /
-.
-urlbarView
--
-row
->
 &
 :
 not
@@ -3932,6 +3927,11 @@ not
 wrap
 ]
 )
+>
+.
+urlbarView
+-
+row
 >
 &
 {
@@ -4027,6 +4027,11 @@ results
 [
 wrap
 ]
+>
+.
+urlbarView
+-
+row
 >
 &
 {
