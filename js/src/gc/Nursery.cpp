@@ -5892,7 +5892,7 @@ timeSinceLastCollection
 TimeStamp
 :
 :
-Now
+NowLoRes
 (
 )
 -
