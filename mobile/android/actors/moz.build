@@ -135,6 +135,13 @@ sys
 mjs
 "
 "
+GeckoViewExperimentDelegateParent
+.
+sys
+.
+mjs
+"
+"
 GeckoViewFormValidationChild
 .
 sys
