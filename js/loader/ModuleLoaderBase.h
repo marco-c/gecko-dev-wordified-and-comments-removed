@@ -30,6 +30,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
@@ -1208,7 +1217,10 @@ ResolveError
 aError
 uint32_t
 aLineNumber
-uint32_t
+JS
+:
+:
+ColumnNumberZeroOrigin
 aColumnNumber
 JS
 :
