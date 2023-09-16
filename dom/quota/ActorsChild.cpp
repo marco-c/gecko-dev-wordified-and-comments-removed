@@ -1587,12 +1587,6 @@ case
 RequestResponse
 :
 :
-TInitResponse
-:
-case
-RequestResponse
-:
-:
 TInitTemporaryStorageResponse
 :
 case

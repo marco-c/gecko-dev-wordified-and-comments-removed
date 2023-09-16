@@ -212,11 +212,6 @@ TemporaryStorageInitializedParams
 }
 ;
 struct
-InitParams
-{
-}
-;
-struct
 InitTemporaryStorageParams
 {
 }
@@ -364,8 +359,6 @@ StorageInitializedParams
 ;
 TemporaryStorageInitializedParams
 ;
-InitParams
-;
 InitTemporaryStorageParams
 ;
 InitializePersistentOriginParams
@@ -430,6 +423,16 @@ PQuotaRequest
 (
 RequestParams
 params
+)
+;
+async
+InitializeStorage
+(
+)
+returns
+(
+BoolResponse
+response
 )
 ;
 async

@@ -131,11 +131,6 @@ initialized
 }
 ;
 struct
-InitResponse
-{
-}
-;
-struct
 InitTemporaryStorageResponse
 {
 }
@@ -224,8 +219,6 @@ StorageNameResponse
 StorageInitializedResponse
 ;
 TemporaryStorageInitializedResponse
-;
-InitResponse
 ;
 InitTemporaryStorageResponse
 ;
