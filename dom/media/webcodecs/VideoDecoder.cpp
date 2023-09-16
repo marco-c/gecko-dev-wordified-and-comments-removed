@@ -1951,7 +1951,6 @@ value
 ;
 if
 (
-!
 colorSpace
 .
 mFullRange
@@ -1980,7 +1979,6 @@ value
 }
 if
 (
-!
 colorSpace
 .
 mMatrix
@@ -2012,7 +2010,6 @@ value
 }
 if
 (
-!
 colorSpace
 .
 mPrimaries
@@ -2044,7 +2041,6 @@ value
 }
 if
 (
-!
 colorSpace
 .
 mTransfer
