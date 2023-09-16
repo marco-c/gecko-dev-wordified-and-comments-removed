@@ -1403,10 +1403,10 @@ in
 long
 aPort
 in
-ACString
+AUTF8String
 aUsername
 in
-ACString
+AUTF8String
 aPassword
 in
 ACString
