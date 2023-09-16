@@ -795,6 +795,9 @@ bool
 mForceSave
 ;
 bool
+mForceSaveInternallyHandled
+;
+bool
 mCanceled
 ;
 bool
