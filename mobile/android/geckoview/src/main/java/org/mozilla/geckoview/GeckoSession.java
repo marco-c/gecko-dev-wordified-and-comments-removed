@@ -13092,7 +13092,7 @@ ContainsFormData
 )
 ;
 }
-AnyThread
+UiThread
 public
 NonNull
 GeckoResult
@@ -13160,7 +13160,7 @@ analysis
 )
 ;
 }
-AnyThread
+UiThread
 public
 NonNull
 GeckoResult
