@@ -1699,6 +1699,17 @@ lock
 sMutex
 )
 ;
+if
+(
+sCubebContext
+)
+{
+cubeb_destroy
+(
+sCubebContext
+)
+;
+}
 sCubebContext
 =
 aCubebContext
