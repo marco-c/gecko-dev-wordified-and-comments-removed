@@ -469,9 +469,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-modal
+Prompt
 .
 sys
 .
