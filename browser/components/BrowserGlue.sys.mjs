@@ -5008,6 +5008,13 @@ wantUntrusted
 :
 true
 }
+ReportProductAvailable
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches
