@@ -334,5 +334,17 @@ mIsX11Display
 ;
 }
 ;
+namespace
+mozilla
+:
+:
+gfx
+{
+bool
+IsDMABufEnabled
+(
+)
+;
+}
 #
 endif
