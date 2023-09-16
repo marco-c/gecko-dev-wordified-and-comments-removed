@@ -17146,8 +17146,7 @@ elemSegments
 *
 segIndex
 ]
--
->
+.
 elemType
 env_
 .
@@ -20132,8 +20131,8 @@ range
 ;
 }
 const
-ElemSegment
-*
+ModuleElemSegment
+&
 elemSeg
 =
 env_
@@ -20148,8 +20147,7 @@ RefType
 srcElemType
 =
 elemSeg
--
->
+.
 elemType
 ;
 if

@@ -146,7 +146,7 @@ uint32_t
 >
 startFuncIndex
 ;
-ElemSegmentVector
+ModuleElemSegmentVector
 elemSegments
 ;
 MaybeSectionRange

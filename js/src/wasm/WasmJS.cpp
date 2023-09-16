@@ -8875,7 +8875,7 @@ DataSegmentVector
 &
 dataSegments
 const
-ElemSegmentVector
+ModuleElemSegmentVector
 &
 elemSegments
 uint32_t

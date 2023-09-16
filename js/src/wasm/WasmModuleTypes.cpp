@@ -792,7 +792,7 @@ mallocSizeOf
 ;
 }
 size_t
-ElemSegment
+ModuleElemSegment
 :
 :
 sizeOfExcludingThis
@@ -818,7 +818,7 @@ mallocSizeOf
 ;
 }
 size_t
-ElemSegment
+ModuleElemSegment
 :
 :
 Expressions
@@ -833,13 +833,6 @@ const
 {
 return
 exprBytes
-.
-sizeOfExcludingThis
-(
-mallocSizeOf
-)
-+
-exprOffsets
 .
 sizeOfExcludingThis
 (

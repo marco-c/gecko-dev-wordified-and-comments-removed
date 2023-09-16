@@ -199,7 +199,7 @@ DataSegmentVector
 dataSegments_
 ;
 const
-ElemSegmentVector
+ModuleElemSegmentVector
 elemSegments_
 ;
 const
@@ -375,7 +375,7 @@ DataSegmentVector
 &
 &
 dataSegments
-ElemSegmentVector
+ModuleElemSegmentVector
 &
 &
 elemSegments
