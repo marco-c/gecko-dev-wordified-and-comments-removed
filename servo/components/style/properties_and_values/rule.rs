@@ -17,7 +17,10 @@ ParsedDescriptor
 value
 :
 :
+{
+AllowComputationallyDependent
 ComputedValue
+}
 }
 ;
 use
@@ -1368,6 +1371,10 @@ mut
 input
 syntax
 url_data
+AllowComputationallyDependent
+:
+:
+No
 )
 {
 Ok
