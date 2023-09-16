@@ -3276,8 +3276,6 @@ JSClass
 clasp
 HandleObject
 proto
-ObjectFlags
-objFlags
 )
 {
 MOZ_ASSERT
@@ -3303,15 +3301,6 @@ PlainObject
 class_
 )
 {
-MOZ_ASSERT
-(
-objFlags
-.
-isEmpty
-(
-)
-)
-;
 return
 NewPlainObjectWithProto
 (
@@ -3327,7 +3316,6 @@ NewTenuredObjectWithGivenProto
 cx
 clasp
 proto
-objFlags
 )
 ;
 }
@@ -3351,8 +3339,6 @@ const
 JSClass
 *
 clasp
-ObjectFlags
-objFlags
 )
 {
 RootedObject
@@ -3374,7 +3360,6 @@ CreateBlankProto
 cx
 clasp
 objectProto
-objFlags
 )
 ;
 }
@@ -3402,9 +3387,6 @@ CreateBlankProto
 cx
 clasp
 proto
-ObjectFlags
-(
-)
 )
 ;
 }
