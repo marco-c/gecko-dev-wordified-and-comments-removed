@@ -1026,6 +1026,10 @@ nullptr
 void
 ClearLastTexture
 (
+bool
+aFullClear
+=
+false
 )
 ;
 bool
