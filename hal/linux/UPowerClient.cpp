@@ -13,6 +13,9 @@ HalLog
 h
 "
 #
+ifdef
+USE_DBUS_GLIB
+#
 include
 <
 dbus
@@ -36,6 +39,8 @@ lowlevel
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -159,6 +164,9 @@ eState_PendingCharge
 eState_PendingDischarge
 }
 ;
+#
+ifdef
+USE_DBUS_GLIB
 void
 UpdateTrackedDeviceSync
 (
@@ -281,6 +289,8 @@ DBusGProxy
 >
 mTrackedDeviceProxy
 ;
+#
+endif
 double
 mLevel
 ;
@@ -477,6 +487,9 @@ UPowerClient
 (
 )
 {
+#
+ifdef
+USE_DBUS_GLIB
 NS_ASSERTION
 (
 !
@@ -514,6 +527,8 @@ called
 "
 )
 ;
+#
+endif
 }
 void
 UPowerClient
@@ -523,6 +538,9 @@ BeginListening
 (
 )
 {
+#
+ifdef
+USE_DBUS_GLIB
 GUniquePtr
 <
 GError
@@ -656,6 +674,8 @@ this
 nullptr
 )
 ;
+#
+endif
 }
 void
 UPowerClient
@@ -665,6 +685,9 @@ StopListening
 (
 )
 {
+#
+ifdef
+USE_DBUS_GLIB
 if
 (
 !
@@ -744,7 +767,12 @@ mRemainingTime
 =
 kDefaultRemainingTime
 ;
+#
+endif
 }
+#
+ifdef
+USE_DBUS_GLIB
 void
 UPowerClient
 :
@@ -1658,6 +1686,8 @@ kUnknownRemainingTime
 }
 }
 }
+#
+endif
 double
 UPowerClient
 :
