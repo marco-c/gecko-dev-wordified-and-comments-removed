@@ -138,6 +138,16 @@ return
 mGMPPath
 ;
 }
+bool
+UseXPCOM
+(
+)
+const
+{
+return
+mUseXpcom
+;
+}
 #
 if
 defined
@@ -217,6 +227,9 @@ nsCOMPtr
 nsIRunnable
 >
 mDeletedCallback
+;
+bool
+mUseXpcom
 ;
 #
 if
