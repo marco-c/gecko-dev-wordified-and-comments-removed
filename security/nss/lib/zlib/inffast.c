@@ -54,15 +54,11 @@ void
 ZLIB_INTERNAL
 inflate_fast
 (
-strm
-start
-)
 z_streamp
 strm
-;
 unsigned
 start
-;
+)
 {
 struct
 inflate_state

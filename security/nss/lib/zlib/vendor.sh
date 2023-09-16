@@ -173,6 +173,8 @@ git
 -
 copy
 .
+github
+.
 gitignore
 CMakeLists
 .
