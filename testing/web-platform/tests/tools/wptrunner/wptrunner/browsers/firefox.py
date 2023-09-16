@@ -640,6 +640,10 @@ kwargs
 webdriver_args
 "
 ]
+.
+copy
+(
+)
                       
 "
 prefs_root
@@ -662,6 +666,10 @@ kwargs
 extra_prefs
 "
 ]
+.
+copy
+(
+)
                       
 "
 test_type
@@ -769,6 +777,10 @@ kwargs
 binary_args
 "
 ]
+.
+copy
+(
+)
                       
 "
 timeout_multiplier
