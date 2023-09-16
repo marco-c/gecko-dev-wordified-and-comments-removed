@@ -41519,7 +41519,6 @@ PrepareForInstantiate
 (
 &
 fc
-compileStorage
 *
 stencil
 storage

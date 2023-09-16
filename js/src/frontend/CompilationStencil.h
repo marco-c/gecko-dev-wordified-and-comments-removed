@@ -5163,9 +5163,6 @@ prepareForInstantiate
 FrontendContext
 *
 fc
-CompilationAtomCache
-&
-atomCache
 const
 CompilationStencil
 &

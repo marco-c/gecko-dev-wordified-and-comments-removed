@@ -222,12 +222,6 @@ fc
 JS
 :
 :
-CompilationStorage
-&
-compileStorage
-JS
-:
-:
 Stencil
 &
 stencil
