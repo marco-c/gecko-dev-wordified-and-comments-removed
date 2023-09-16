@@ -377,7 +377,7 @@ registerPathHandler
 test
 "
 (
-req1
+req
 resp
 )
 =

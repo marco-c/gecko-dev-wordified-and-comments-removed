@@ -43,6 +43,7 @@ a1d
 "
 function
 (
+entry
 )
 {
 asyncOpenCacheEntry
@@ -76,6 +77,7 @@ a1d
 "
 function
 (
+entry
 )
 {
 asyncOpenCacheEntry
@@ -109,6 +111,7 @@ a2d
 "
 function
 (
+entry
 )
 {
 asyncOpenCacheEntry
@@ -142,6 +145,7 @@ a2d
 "
 function
 (
+entry
 )
 {
 finish_cache2_test

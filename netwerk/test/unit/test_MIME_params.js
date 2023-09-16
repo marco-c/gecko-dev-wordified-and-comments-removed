@@ -3493,7 +3493,7 @@ expectedDt
 }
 catch
 (
-e1
+e
 )
 {
 }
@@ -3639,7 +3639,7 @@ expectedFn
 }
 catch
 (
-e1
+e
 )
 {
 }

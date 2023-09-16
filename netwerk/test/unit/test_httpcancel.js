@@ -1367,7 +1367,7 @@ then
 >
 {
 let
-str2
+str1
 =
 "
 b
@@ -1384,8 +1384,8 @@ response
 .
 write
 (
-str2
-str2
+str1
+str1
 .
 length
 )
