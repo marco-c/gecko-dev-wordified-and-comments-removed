@@ -217,11 +217,11 @@ space
 -
 between
 ;
-align
--
-self
+gap
 :
-stretch
+0
+.
+5rem
 ;
 }
 :
