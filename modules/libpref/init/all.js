@@ -3898,13 +3898,13 @@ https
 :
 /
 /
-stage
+prod
 .
 ohttp
 -
 gateway
 .
-nonprod
+prod
 .
 webservices
 .
@@ -3936,7 +3936,7 @@ mozilla
 -
 ohttp
 -
-dev
+fakespot
 .
 fastly
 -
