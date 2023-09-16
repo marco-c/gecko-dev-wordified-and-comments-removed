@@ -1798,7 +1798,7 @@ whereY
 WhereToScroll
 :
 :
-Nearest
+Center
 ;
 whenY
 =
@@ -1812,7 +1812,7 @@ whereX
 WhereToScroll
 :
 :
-Nearest
+Center
 ;
 whenX
 =
