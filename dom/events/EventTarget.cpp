@@ -1013,7 +1013,7 @@ nsPIDOMWindowInner
 EventTarget
 :
 :
-GetAsWindowInner
+GetAsInnerWindow
 (
 )
 {
@@ -1040,7 +1040,7 @@ nsPIDOMWindowInner
 EventTarget
 :
 :
-GetAsWindowInner
+GetAsInnerWindow
 (
 )
 const
@@ -1068,7 +1068,7 @@ nsPIDOMWindowOuter
 EventTarget
 :
 :
-GetAsWindowOuter
+GetAsOuterWindow
 (
 )
 {
@@ -1095,7 +1095,7 @@ nsPIDOMWindowOuter
 EventTarget
 :
 :
-GetAsWindowOuter
+GetAsOuterWindow
 (
 )
 const
@@ -1123,7 +1123,7 @@ nsPIDOMWindowInner
 EventTarget
 :
 :
-AsWindowInner
+AsInnerWindow
 (
 )
 {
@@ -1151,7 +1151,7 @@ nsPIDOMWindowInner
 EventTarget
 :
 :
-AsWindowInner
+AsInnerWindow
 (
 )
 const
@@ -1180,7 +1180,7 @@ nsPIDOMWindowOuter
 EventTarget
 :
 :
-AsWindowOuter
+AsOuterWindow
 (
 )
 {
@@ -1208,7 +1208,7 @@ nsPIDOMWindowOuter
 EventTarget
 :
 :
-AsWindowOuter
+AsOuterWindow
 (
 )
 const
