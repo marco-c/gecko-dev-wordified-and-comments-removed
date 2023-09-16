@@ -601,4 +601,7 @@ readelf
 fuchsia_target_api_level
 =
 9
+use_cxx17
+=
+false
 }
