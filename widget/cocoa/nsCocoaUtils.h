@@ -117,6 +117,12 @@ extern
 NSString
 *
 const
+kPasteboardConcealedType
+;
+extern
+NSString
+*
+const
 kUrlsWithTitlesPboardType
 ;
 extern
