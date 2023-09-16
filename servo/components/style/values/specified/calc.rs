@@ -112,7 +112,13 @@ Token
 }
 ;
 use
-cssparser_color
+crate
+:
+:
+color
+:
+:
+parsing
 :
 :
 {
