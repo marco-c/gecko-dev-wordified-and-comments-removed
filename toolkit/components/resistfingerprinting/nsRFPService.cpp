@@ -925,7 +925,7 @@ true
 return
 sEnabledFingerintingProtections
 &
-uint32_t
+uint64_t
 (
 aTarget
 )
