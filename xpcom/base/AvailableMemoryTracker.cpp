@@ -137,6 +137,12 @@ XP_WIN
 )
 #
 if
+defined
+(
+__MINGW32__
+)
+|
+|
 (
 NTDDI_VERSION
 <
