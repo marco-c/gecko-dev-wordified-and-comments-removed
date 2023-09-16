@@ -5218,6 +5218,14 @@ True
 else
 :
             
+subsuite
+=
+self
+.
+state
+.
+subsuite
+            
 test_type
 =
 self
