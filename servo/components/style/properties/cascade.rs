@@ -1260,7 +1260,7 @@ inherited_style
 custom_properties
 (
 )
-device
+stylist
 )
 ;
 for

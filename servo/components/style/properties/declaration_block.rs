@@ -4632,10 +4632,6 @@ new
 (
 inherited_custom_properties
 stylist
-.
-device
-(
-)
 )
 ;
 for
