@@ -38,9 +38,6 @@ namespace
 layers
 {
 class
-DelayedClearElementActivation
-;
-class
 ActiveElementManager
 final
 {
@@ -94,11 +91,6 @@ HandleTouchEnd
 (
 )
 ;
-void
-ProcessSingleTap
-(
-)
-;
 private
 :
 nsCOMPtr
@@ -121,12 +113,6 @@ RefPtr
 CancelableRunnable
 >
 mSetActiveTask
-;
-RefPtr
-<
-DelayedClearElementActivation
->
-mDelayedClearElementActivation
 ;
 void
 TriggerElementActivation
