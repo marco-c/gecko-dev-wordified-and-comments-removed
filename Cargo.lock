@@ -1764,7 +1764,7 @@ version
 -
 alpha
 .
-18
+15
 "
 source
 =
@@ -1792,7 +1792,7 @@ index
 checksum
 =
 "
-c3306d207a3ea11a3b63595f0efda36a2c64e2986b1b93a55f14f7fcd40f112a
+aa0e182b77b6b19eaf9c7b69fddf3be970169ec6d34eca3f5d682ab948727e57
 "
 dependencies
 =
@@ -1849,6 +1849,9 @@ memoffset
 8
 .
 999
+"
+"
+nom
 "
 "
 nss
@@ -1923,9 +1926,6 @@ nserror
 "
 "
 nsstring
-"
-"
-rand
 "
 "
 serde_cbor
@@ -21481,9 +21481,9 @@ version
 "
 0
 .
-3
+2
 .
-0
+1
 "
 source
 =
@@ -21511,7 +21511,7 @@ index
 checksum
 =
 "
-4c17aec6d4e1822c023689899f09311592a36cbf6de8f85dfaf5f01976790d8d
+1a689b62ba71fda80458a77b6ace9371d6e6a5473300901383ebd101659b3352
 "
 dependencies
 =

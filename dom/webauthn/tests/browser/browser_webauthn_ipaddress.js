@@ -3,10 +3,6 @@ use
 strict
 "
 ;
-add_virtual_authenticator
-(
-)
-;
 let
 expectSecurityError
 =
