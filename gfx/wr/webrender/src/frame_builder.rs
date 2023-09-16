@@ -557,7 +557,7 @@ default_image_handle
 :
 GpuCacheHandle
 pub
-default_black_rect_handle
+default_transparent_rect_handle
 :
 GpuCacheHandle
 }
@@ -583,7 +583,7 @@ GpuCacheHandle
 new
 (
 )
-default_black_rect_handle
+default_transparent_rect_handle
 :
 GpuCacheHandle
 :
@@ -684,7 +684,7 @@ request
 mut
 self
 .
-default_black_rect_handle
+default_transparent_rect_handle
 )
 {
 request
@@ -694,7 +694,7 @@ push
 PremultipliedColorF
 :
 :
-BLACK
+TRANSPARENT
 )
 ;
 }
