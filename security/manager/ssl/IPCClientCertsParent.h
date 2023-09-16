@@ -19,10 +19,10 @@ namespace
 mozilla
 {
 namespace
-net
+ipc
 {
 class
-SocketProcessBackgroundParent
+BackgroundParentImpl
 ;
 }
 namespace
@@ -40,10 +40,10 @@ class
 mozilla
 :
 :
-net
+ipc
 :
 :
-SocketProcessBackgroundParent
+BackgroundParentImpl
 ;
 public
 :

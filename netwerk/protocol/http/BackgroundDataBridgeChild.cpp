@@ -120,8 +120,12 @@ ChannelClosed
 )
 )
 {
-Close
+Unused
+<
+<
+Send__delete__
 (
+this
 )
 ;
 return
@@ -195,8 +199,12 @@ ChannelClosed
 )
 )
 {
-Close
+Unused
+<
+<
+Send__delete__
 (
+this
 )
 ;
 return

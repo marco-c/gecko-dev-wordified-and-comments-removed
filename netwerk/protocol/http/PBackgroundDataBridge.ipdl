@@ -57,6 +57,10 @@ MPL
 *
 /
 include
+protocol
+PBackground
+;
+include
 HttpChannelParams
 ;
 include
@@ -141,6 +145,9 @@ async
 protocol
 PBackgroundDataBridge
 {
+manager
+PBackground
+;
 child
 :
 async
