@@ -1919,6 +1919,7 @@ telemetryResult
 ErrOther
 "
 ;
+await
 this
 .
 _handleWDBAResult
@@ -2101,6 +2102,7 @@ telemetryResult
 ErrOther
 "
 ;
+await
 this
 .
 _handleWDBAResult
