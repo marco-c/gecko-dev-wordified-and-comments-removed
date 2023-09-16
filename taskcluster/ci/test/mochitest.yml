@@ -4015,14 +4015,6 @@ process
 :
 [
 ]
-.
-*
-wayland
-.
-*
-:
-[
-]
 default
 :
 built
