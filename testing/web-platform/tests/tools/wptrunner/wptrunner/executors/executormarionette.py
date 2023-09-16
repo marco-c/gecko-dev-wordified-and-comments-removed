@@ -115,7 +115,6 @@ global
 errors
 marionette
 Addons
-WebAuthn
     
 from
 marionette_driver
@@ -129,13 +128,6 @@ marionette_driver
 addons
 import
 Addons
-    
-from
-marionette_driver
-.
-webauthn
-import
-WebAuthn
 def
 _switch_to_window
 (
@@ -3974,16 +3966,13 @@ self
         
 self
 .
-webauthn
+marionette
 =
-WebAuthn
-(
 self
 .
 parent
 .
 marionette
-)
     
 def
 add_virtual_authenticator
@@ -3993,14 +3982,15 @@ config
 )
 :
         
-return
-self
-.
-webauthn
-.
-add_virtual_authenticator
+raise
+NotImplementedError
 (
-config
+"
+add_virtual_authenticator
+not
+yet
+implemented
+"
 )
     
 def
@@ -4011,13 +4001,15 @@ authenticator_id
 )
 :
         
-self
-.
-webauthn
-.
-remove_virtual_authenticator
+raise
+NotImplementedError
 (
-authenticator_id
+"
+remove_virtual_authenticator
+not
+yet
+implemented
+"
 )
     
 def
@@ -4029,14 +4021,15 @@ credential
 )
 :
         
-self
-.
-webauthn
-.
+raise
+NotImplementedError
+(
+"
 add_credential
-(
-authenticator_id
-credential
+not
+yet
+implemented
+"
 )
     
 def
@@ -4047,14 +4040,15 @@ authenticator_id
 )
 :
         
-return
-self
-.
-webauthn
-.
-get_credentials
+raise
+NotImplementedError
 (
-authenticator_id
+"
+get_credentials
+not
+yet
+implemented
+"
 )
     
 def
@@ -4066,14 +4060,15 @@ credential_id
 )
 :
         
-self
-.
-webauthn
-.
+raise
+NotImplementedError
+(
+"
 remove_credential
-(
-authenticator_id
-credential_id
+not
+yet
+implemented
+"
 )
     
 def
@@ -4084,13 +4079,15 @@ authenticator_id
 )
 :
         
-self
-.
-webauthn
-.
-remove_all_credentials
+raise
+NotImplementedError
 (
-authenticator_id
+"
+remove_all_credentials
+not
+yet
+implemented
+"
 )
     
 def
@@ -4102,14 +4099,15 @@ uv
 )
 :
         
-self
-.
-webauthn
-.
-set_user_verified
+raise
+NotImplementedError
 (
-authenticator_id
-uv
+"
+set_user_verified
+not
+yet
+implemented
+"
 )
 class
 MarionetteSetPermissionProtocolPart

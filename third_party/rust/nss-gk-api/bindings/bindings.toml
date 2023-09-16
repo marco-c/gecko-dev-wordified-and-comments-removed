@@ -543,9 +543,6 @@ PK11_DigestFinal
 PK11_Encrypt
 "
 "
-PK11_ExportDERPrivateKeyInfo
-"
-"
 PK11_ExtractKeyValue
 "
 "
@@ -601,15 +598,6 @@ PK11_ReadRawAttribute
 "
 "
 PK11_ReferenceSymKey
-"
-"
-PK11_SignWithMechanism
-"
-"
-PK11_VerifyWithMechanism
-"
-"
-PK11_WrapPrivKey
 "
 "
 SECKEY_CopyPrivateKey
@@ -688,9 +676,6 @@ variables
 [
 "
 AES_BLOCK_SIZE
-"
-"
-PK11_ATTR_EXTRACTABLE
 "
 "
 PK11_ATTR_INSENSITIVE
