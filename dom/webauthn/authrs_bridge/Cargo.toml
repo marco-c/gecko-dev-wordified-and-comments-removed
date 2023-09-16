@@ -224,3 +224,10 @@ rust
 xpcom
 "
 }
+[
+features
+]
+fuzzing
+=
+[
+]

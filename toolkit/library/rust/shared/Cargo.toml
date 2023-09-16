@@ -2638,6 +2638,11 @@ parse_elf
 libfuzzer
 =
 [
+"
+authrs_bridge
+/
+fuzzing
+"
 ]
 webrtc
 =
