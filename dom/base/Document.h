@@ -5570,8 +5570,9 @@ HasPendingFullscreenRequests
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
-TryCancelDialog
+HandleEscKey
 (
 )
 ;

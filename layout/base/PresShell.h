@@ -5737,6 +5737,7 @@ bool
 aTouchIsNew
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FinalizeHandlingEvent
 (
