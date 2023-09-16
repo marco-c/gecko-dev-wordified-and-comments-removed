@@ -361,10 +361,10 @@ device_info_v4l2
 .
 cc
 index
-9d6383c57d
+7397a10625
 .
 .
-6a0aebafed
+19b32f16b9
 100644
 -
 -
@@ -484,10 +484,10 @@ include
 vector
 >
 -
-191
+209
 8
 +
-197
+215
 8
 DeviceInfoV4l2
 :
