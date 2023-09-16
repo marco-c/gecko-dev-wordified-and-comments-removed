@@ -5,6 +5,15 @@ EXTRA_JS_MODULES
 "
 generated
 /
+RustRemoteSettings
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustSuggest
 .
 sys

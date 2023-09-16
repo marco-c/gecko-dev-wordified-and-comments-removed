@@ -111,6 +111,9 @@ id
 u64
 last_modified
 ;
+boolean
+deleted
+;
 Attachment
 ?
 attachment
@@ -151,9 +154,6 @@ JSONError
 "
 "
 FileError
-"
-"
-ParseIntError
 "
 "
 RequestError

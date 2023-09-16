@@ -245,8 +245,6 @@ write_all
 (
 &
 resp
-.
-body
 )
 ?
 ;
@@ -364,7 +362,11 @@ with_header
 etag
 "
 "
+\
+"
 1000
+\
+"
 "
 )
 .
@@ -584,7 +586,11 @@ with_header
 etag
 "
 "
+\
+"
 1000
+\
+"
 "
 )
 .
