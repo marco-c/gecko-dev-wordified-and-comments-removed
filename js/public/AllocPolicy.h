@@ -480,6 +480,16 @@ FrontendContext
 fc
 )
 ;
+MOZ_COLD
+JS_PUBLIC_API
+void
+ReportLargeOutOfMemory
+(
+JSContext
+*
+cx
+)
+;
 class
 JS_PUBLIC_API
 TempAllocPolicy
