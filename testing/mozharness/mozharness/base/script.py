@@ -14932,7 +14932,7 @@ hg
 "
 )
             
-git_dir
+git_path
 =
 os
 .
@@ -14961,9 +14961,9 @@ os
 .
 path
 .
-isdir
+exists
 (
-git_dir
+git_path
 )
 :
                 
