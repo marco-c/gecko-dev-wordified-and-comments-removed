@@ -3,6 +3,15 @@ unexpected
 =
 [
 "
+ApplicationCache
+"
+"
+SharedWorker
+"
+"
+CanvasPath
+"
+"
 DedicatedWorkerGlobalScope
 "
 "

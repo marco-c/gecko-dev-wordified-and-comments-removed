@@ -15,6 +15,12 @@ unexpected
 =
 [
 "
+SharedWorker
+"
+"
+CanvasPath
+"
+"
 SharedWorkerGlobalScope
 "
 "
