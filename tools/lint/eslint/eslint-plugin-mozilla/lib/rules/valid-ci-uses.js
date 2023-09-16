@@ -51,6 +51,14 @@ windows
 ]
 [
 "
+nsIDefaultAgent
+"
+"
+windows
+"
+]
+[
+"
 nsIJumpListItem
 "
 "
