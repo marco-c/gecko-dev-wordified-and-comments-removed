@@ -1080,7 +1080,7 @@ generated
 .
 apm_debug_dump
 =
-false
+build_with_mozilla
 #
 Selects
 whether
