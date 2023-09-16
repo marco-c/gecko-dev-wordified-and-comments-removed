@@ -363,8 +363,8 @@ nscoord
 &
 &
 aSnapPositionY
+const
 nsRect
-&
 &
 aSnapArea
 StyleScrollSnapStop
