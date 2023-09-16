@@ -70,6 +70,12 @@ signal
 .
 SIGKILL
 )
+    
+proc
+.
+wait
+(
+)
 class
 ProcTestSimpleRunAndWait
 (
