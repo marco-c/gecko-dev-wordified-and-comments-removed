@@ -1,4 +1,15 @@
 #
+pragma
+push_macro
+(
+"
+small
+"
+)
+#
+undef
+small
+#
 define
 HTML_HTMLELEMENT_TAG
 (
@@ -762,3 +773,11 @@ instruction
 #
 undef
 HTML_HTMLELEMENT_TAG
+#
+pragma
+pop_macro
+(
+"
+small
+"
+)
