@@ -1137,7 +1137,7 @@ runMajorReleaseTest
 (
 {
 }
-true
+false
 )
 ;
 }
