@@ -1802,6 +1802,11 @@ CollectOMTTelemetry
 (
 )
 ;
+void
+RecordChannelCompletionDurationForEarlyHint
+(
+)
+;
 friend
 class
 HttpAsyncAborter
