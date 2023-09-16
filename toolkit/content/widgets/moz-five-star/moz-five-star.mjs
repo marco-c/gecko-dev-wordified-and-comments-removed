@@ -393,6 +393,11 @@ class
 "
 stars
 "
+role
+=
+"
+image
+"
 data
 -
 l10n
