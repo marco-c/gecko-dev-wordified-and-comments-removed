@@ -6366,11 +6366,7 @@ android
 .
 *
 -
-(
 tsan
-|
-wayland
-)
 .
 *
 :
@@ -7142,11 +7138,7 @@ android
 .
 *
 -
-(
 tsan
-|
-wayland
-)
 .
 *
 :
