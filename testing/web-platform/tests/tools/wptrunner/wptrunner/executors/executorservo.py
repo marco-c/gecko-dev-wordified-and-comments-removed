@@ -162,6 +162,16 @@ wptrunner
         
 "
 -
+-
+ignore
+-
+certificate
+-
+errors
+"
+        
+"
+-
 z
 "
 test_url_func
