@@ -172,6 +172,15 @@ StackWalkThread
 h
 "
 #
+include
+"
+mozilla
+/
+WindowsStackWalkInitialization
+.
+h
+"
+#
 endif
 #
 include
@@ -14330,7 +14339,10 @@ defined
 (
 GP_PLAT_arm64_windows
 )
-InitializeWin64ProfilerHooks
+mozilla
+:
+:
+WindowsStackWalkInitialization
 (
 )
 ;

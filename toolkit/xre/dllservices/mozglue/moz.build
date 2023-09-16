@@ -51,6 +51,11 @@ WindowsFallbackLoaderAPI
 .
 cpp
 "
+"
+WindowsStackWalkInitialization
+.
+cpp
+"
 ]
 if
 not
@@ -156,6 +161,11 @@ h
 "
 "
 WindowsDllBlocklistInfo
+.
+h
+"
+"
+WindowsStackWalkInitialization
 .
 h
 "
