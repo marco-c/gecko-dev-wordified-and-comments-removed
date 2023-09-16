@@ -202,7 +202,10 @@ eGetCustomInterface
 struct
 LifecycleCallbackArgs
 {
-nsString
+RefPtr
+<
+nsAtom
+>
 mName
 ;
 nsString
