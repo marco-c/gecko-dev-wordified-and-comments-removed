@@ -1995,6 +1995,12 @@ wants1
 ;
 wants1
 .
+is_active
+=
+true
+;
+wants1
+.
 requested_resolution
 =
 FrameSize
@@ -2034,6 +2040,12 @@ sink2
 ;
 VideoSinkWants
 wants2
+;
+wants2
+.
+is_active
+=
+true
 ;
 wants2
 .

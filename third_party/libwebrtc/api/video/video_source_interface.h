@@ -192,7 +192,7 @@ requested_resolution
 bool
 is_active
 =
-true
+false
 ;
 struct
 Aggregates
