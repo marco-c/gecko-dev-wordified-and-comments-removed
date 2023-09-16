@@ -32,6 +32,10 @@ condition
 urlPattern
 :
 '
+/
+*
+*
+/
 *
 .
 txt
@@ -50,6 +54,8 @@ condition
 urlPattern
 :
 '
+/
+*
 *
 /
 simple
