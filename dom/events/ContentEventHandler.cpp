@@ -347,7 +347,7 @@ template
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 RefPtr
 <
@@ -357,7 +357,7 @@ RangeBoundary
 >
 :
 :
-RawRangeBase
+SimpleRangeBase
 (
 )
 =
@@ -369,7 +369,7 @@ template
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 nsINode
 *
@@ -377,7 +377,7 @@ RawRangeBoundary
 >
 :
 :
-RawRangeBase
+SimpleRangeBase
 (
 )
 :
@@ -411,7 +411,7 @@ OtherRangeBoundaryType
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 RefPtr
 <
@@ -421,10 +421,10 @@ RangeBoundary
 >
 :
 :
-RawRangeBase
+SimpleRangeBase
 (
 const
-RawRangeBase
+SimpleRangeBase
 <
 OtherNodeType
 OtherRangeBoundaryType
@@ -480,7 +480,7 @@ OtherRangeBoundaryType
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 nsINode
 *
@@ -488,10 +488,10 @@ RawRangeBoundary
 >
 :
 :
-RawRangeBase
+SimpleRangeBase
 (
 const
-RawRangeBase
+SimpleRangeBase
 <
 OtherNodeType
 OtherRangeBoundaryType
@@ -551,7 +551,7 @@ template
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 RefPtr
 <
@@ -561,9 +561,9 @@ RangeBoundary
 >
 :
 :
-RawRangeBase
+SimpleRangeBase
 (
-RawRangeBase
+SimpleRangeBase
 <
 RefPtr
 <
@@ -623,7 +623,7 @@ template
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 nsINode
 *
@@ -631,9 +631,9 @@ RawRangeBoundary
 >
 :
 :
-RawRangeBase
+SimpleRangeBase
 (
-RawRangeBase
+SimpleRangeBase
 <
 nsINode
 *
@@ -705,7 +705,7 @@ template
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 RefPtr
 <
@@ -716,7 +716,7 @@ RangeBoundary
 :
 :
 ~
-RawRangeBase
+SimpleRangeBase
 (
 )
 =
@@ -728,7 +728,7 @@ template
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 nsINode
 *
@@ -737,7 +737,7 @@ RawRangeBoundary
 :
 :
 ~
-RawRangeBase
+SimpleRangeBase
 (
 )
 {
@@ -766,7 +766,7 @@ void
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 NodeType
 RangeBoundaryType
@@ -839,7 +839,7 @@ nsresult
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 NodeType
 RangeBoundaryType
@@ -968,7 +968,7 @@ nsresult
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 NodeType
 RangeBoundaryType
@@ -1097,7 +1097,7 @@ nsresult
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 NodeType
 RangeBoundaryType
@@ -1135,7 +1135,7 @@ void
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 NodeType
 RangeBoundaryType
@@ -1209,7 +1209,7 @@ nsresult
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 NodeType
 RangeBoundaryType
@@ -1483,7 +1483,7 @@ nsresult
 ContentEventHandler
 :
 :
-RawRangeBase
+SimpleRangeBase
 <
 NodeType
 RangeBoundaryType
@@ -1918,7 +1918,7 @@ mRootElement
 =
 nullptr
 ;
-mFirstSelectedRawRange
+mFirstSelectedSimpleRange
 .
 Clear
 (
@@ -2093,7 +2093,7 @@ RangeCount
 )
 )
 {
-mFirstSelectedRawRange
+mFirstSelectedSimpleRange
 .
 SetStartAndEnd
 (
@@ -2130,7 +2130,7 @@ eQuerySelectedText
 MOZ_ASSERT
 (
 !
-mFirstSelectedRawRange
+mFirstSelectedSimpleRange
 .
 IsPositioned
 (
@@ -2143,7 +2143,7 @@ NS_OK
 }
 rv
 =
-mFirstSelectedRawRange
+mFirstSelectedSimpleRange
 .
 CollapseTo
 (
@@ -2416,7 +2416,7 @@ rv
 =
 GetStartOffset
 (
-mFirstSelectedRawRange
+mFirstSelectedSimpleRange
 &
 selectionStart
 lineBreakType
@@ -3973,7 +3973,7 @@ IsEmpty
 )
 )
 ;
-UnsafeRawRange
+UnsafeSimpleRange
 rawRange
 ;
 nsresult
@@ -4017,9 +4017,9 @@ ContentEventHandler
 GenerateFlatTextContent
 (
 const
-UnsafeRawRange
+UnsafeSimpleRange
 &
-aRawRange
+aSimpleRange
 nsString
 &
 aString
@@ -4038,7 +4038,7 @@ IsEmpty
 ;
 if
 (
-aRawRange
+aSimpleRange
 .
 Collapsed
 (
@@ -4053,7 +4053,7 @@ nsINode
 *
 startNode
 =
-aRawRange
+aSimpleRange
 .
 GetStartContainer
 (
@@ -4063,7 +4063,7 @@ nsINode
 *
 endNode
 =
-aRawRange
+aSimpleRange
 .
 GetEndContainer
 (
@@ -4115,18 +4115,18 @@ startNode
 AsText
 (
 )
-aRawRange
+aSimpleRange
 .
 StartOffset
 (
 )
-aRawRange
+aSimpleRange
 .
 EndOffset
 (
 )
 -
-aRawRange
+aSimpleRange
 .
 StartOffset
 (
@@ -4152,7 +4152,7 @@ preOrderIter
 .
 Init
 (
-aRawRange
+aSimpleRange
 .
 Start
 (
@@ -4161,7 +4161,7 @@ Start
 AsRaw
 (
 )
-aRawRange
+aSimpleRange
 .
 End
 (
@@ -4269,7 +4269,7 @@ AppendSubString
 aString
 *
 textNode
-aRawRange
+aSimpleRange
 .
 StartOffset
 (
@@ -4281,7 +4281,7 @@ TextLength
 (
 )
 -
-aRawRange
+aSimpleRange
 .
 StartOffset
 (
@@ -4304,7 +4304,7 @@ aString
 *
 textNode
 0
-aRawRange
+aSimpleRange
 .
 EndOffset
 (
@@ -4999,9 +4999,9 @@ ContentEventHandler
 GenerateFlatFontRanges
 (
 const
-UnsafeRawRange
+UnsafeSimpleRange
 &
-aRawRange
+aSimpleRange
 FontRangeArray
 &
 aFontRanges
@@ -5030,7 +5030,7 @@ array
 ;
 if
 (
-aRawRange
+aSimpleRange
 .
 Collapsed
 (
@@ -5045,7 +5045,7 @@ nsINode
 *
 startNode
 =
-aRawRange
+aSimpleRange
 .
 GetStartContainer
 (
@@ -5055,7 +5055,7 @@ nsINode
 *
 endNode
 =
-aRawRange
+aSimpleRange
 .
 GetEndContainer
 (
@@ -5096,7 +5096,7 @@ preOrderIter
 .
 Init
 (
-aRawRange
+aSimpleRange
 .
 Start
 (
@@ -5105,7 +5105,7 @@ Start
 AsRaw
 (
 )
-aRawRange
+aSimpleRange
 .
 End
 (
@@ -5222,7 +5222,7 @@ startNode
 ?
 0
 :
-aRawRange
+aSimpleRange
 .
 StartOffset
 (
@@ -5244,7 +5244,7 @@ TextLength
 (
 )
 :
-aRawRange
+aSimpleRange
 .
 EndOffset
 (
@@ -7431,7 +7431,7 @@ isNothing
 if
 (
 !
-mFirstSelectedRawRange
+mFirstSelectedSimpleRange
 .
 IsPositioned
 (
@@ -7469,10 +7469,11 @@ return
 NS_OK
 ;
 }
-UnsafeRawRange
-firstSelectedRawRange
+const
+UnsafeSimpleRange
+firstSelectedSimpleRange
 (
-mFirstSelectedRawRange
+mFirstSelectedSimpleRange
 )
 ;
 nsINode
@@ -7480,7 +7481,7 @@ nsINode
 const
 startNode
 =
-firstSelectedRawRange
+firstSelectedSimpleRange
 .
 GetStartContainer
 (
@@ -7491,7 +7492,7 @@ nsINode
 const
 endNode
 =
-firstSelectedRawRange
+firstSelectedSimpleRange
 .
 GetEndContainer
 (
@@ -7544,7 +7545,7 @@ NS_FAILED
 (
 GetStartOffset
 (
-firstSelectedRawRange
+firstSelectedSimpleRange
 &
 startOffset
 lineBreakType
@@ -7581,7 +7582,7 @@ AsRaw
 (
 )
 :
-firstSelectedRawRange
+firstSelectedSimpleRange
 .
 Start
 (
@@ -7611,7 +7612,7 @@ AsRaw
 (
 )
 :
-firstSelectedRawRange
+firstSelectedSimpleRange
 .
 End
 (
@@ -7732,7 +7733,7 @@ selectedString
 if
 (
 !
-firstSelectedRawRange
+firstSelectedSimpleRange
 .
 Collapsed
 (
@@ -7745,7 +7746,7 @@ NS_FAILED
 (
 GenerateFlatTextContent
 (
-firstSelectedRawRange
+firstSelectedSimpleRange
 selectedString
 lineBreakType
 )
@@ -8276,9 +8277,9 @@ ContentEventHandler
 GetFirstFrameInRangeForTextRect
 (
 const
-UnsafeRawRange
+UnsafeSimpleRange
 &
-aRawRange
+aSimpleRange
 )
 {
 RawNodePosition
@@ -8294,7 +8295,7 @@ preOrderIter
 .
 Init
 (
-aRawRange
+aSimpleRange
 .
 Start
 (
@@ -8303,7 +8304,7 @@ Start
 AsRaw
 (
 )
-aRawRange
+aSimpleRange
 .
 End
 (
@@ -8430,13 +8431,13 @@ offsetInNode
 textNode
 =
 =
-aRawRange
+aSimpleRange
 .
 GetStartContainer
 (
 )
 ?
-aRawRange
+aSimpleRange
 .
 StartOffset
 (
@@ -8602,9 +8603,9 @@ ContentEventHandler
 GetLastFrameInRangeForTextRect
 (
 const
-UnsafeRawRange
+UnsafeSimpleRange
 &
-aRawRange
+aSimpleRange
 )
 {
 RawNodePosition
@@ -8620,7 +8621,7 @@ preOrderIter
 .
 Init
 (
-aRawRange
+aSimpleRange
 .
 Start
 (
@@ -8629,7 +8630,7 @@ Start
 AsRaw
 (
 )
-aRawRange
+aSimpleRange
 .
 End
 (
@@ -8662,7 +8663,7 @@ RawRangeBoundary
 &
 endPoint
 =
-aRawRange
+aSimpleRange
 .
 End
 (
@@ -8706,7 +8707,7 @@ IsStartOfContainer
 )
 &
 &
-aRawRange
+aSimpleRange
 .
 GetStartContainer
 (
@@ -8864,13 +8865,13 @@ textNode
 textNode
 =
 =
-aRawRange
+aSimpleRange
 .
 GetEndContainer
 (
 )
 ?
-aRawRange
+aSimpleRange
 .
 EndOffset
 (
@@ -13686,7 +13687,7 @@ rv
 =
 GetStartOffset
 (
-mFirstSelectedRawRange
+mFirstSelectedSimpleRange
 &
 offset
 GetLineBreakType
@@ -15432,13 +15433,13 @@ rv
 }
 else
 {
-RawRange
-prevRawRange
+SimpleRange
+prevSimpleRange
 ;
 nsresult
 rv
 =
-prevRawRange
+prevSimpleRange
 .
 SetStart
 (
@@ -15634,7 +15635,7 @@ IsSetAndValid
 {
 rv
 =
-prevRawRange
+prevSimpleRange
 .
 SetEnd
 (
@@ -15666,7 +15667,7 @@ preOrderIter
 .
 Init
 (
-prevRawRange
+prevSimpleRange
 .
 Start
 (
@@ -15675,7 +15676,7 @@ Start
 AsRaw
 (
 )
-prevRawRange
+prevSimpleRange
 .
 End
 (
@@ -15717,7 +15718,7 @@ aRootElement
 {
 rv
 =
-prevRawRange
+prevSimpleRange
 .
 SetEndAfter
 (
@@ -15749,7 +15750,7 @@ preOrderIter
 .
 Init
 (
-prevRawRange
+prevSimpleRange
 .
 Start
 (
@@ -15758,7 +15759,7 @@ Start
 AsRaw
 (
 )
-prevRawRange
+prevSimpleRange
 .
 End
 (
@@ -16031,7 +16032,7 @@ NS_OK
 template
 <
 typename
-RawRangeType
+SimpleRangeType
 >
 nsresult
 ContentEventHandler
@@ -16040,9 +16041,9 @@ ContentEventHandler
 GetStartOffset
 (
 const
-RawRangeType
+SimpleRangeType
 &
-aRawRange
+aSimpleRange
 uint32_t
 *
 aOffset
@@ -16054,7 +16055,7 @@ nsINode
 *
 startNode
 =
-aRawRange
+aSimpleRange
 .
 GetStartContainer
 (
@@ -16112,7 +16113,7 @@ RawNodePosition
 startPos
 (
 startNode
-aRawRange
+aSimpleRange
 .
 StartOffset
 (
@@ -16146,14 +16147,14 @@ ContentEventHandler
 :
 AdjustCollapsedRangeMaybeIntoTextNode
 (
-RawRange
+SimpleRange
 &
-aRawRange
+aSimpleRange
 )
 {
 MOZ_ASSERT
 (
-aRawRange
+aSimpleRange
 .
 Collapsed
 (
@@ -16163,7 +16164,7 @@ Collapsed
 if
 (
 !
-aRawRange
+aSimpleRange
 .
 Collapsed
 (
@@ -16179,7 +16180,7 @@ RangeBoundary
 &
 startPoint
 =
-aRawRange
+aSimpleRange
 .
 Start
 (
@@ -16257,7 +16258,7 @@ NS_OK
 nsresult
 rv
 =
-aRawRange
+aSimpleRange
 .
 CollapseTo
 (
@@ -16332,7 +16333,7 @@ NS_OK
 nsresult
 rv
 =
-aRawRange
+aSimpleRange
 .
 CollapseTo
 (
