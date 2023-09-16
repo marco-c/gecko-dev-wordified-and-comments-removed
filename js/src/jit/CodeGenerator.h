@@ -1832,7 +1832,7 @@ IonPerfSpewer
 perfSpewer_
 ;
 uint32_t
-realmStubsToReadBarrier_
+zoneStubsToReadBarrier_
 ;
 #
 ifdef
