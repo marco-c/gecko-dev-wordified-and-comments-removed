@@ -279,6 +279,12 @@ aOpacity
 1
 .
 0f
+const
+gfxRect
+*
+aOverrideBBox
+=
+nullptr
 )
 ;
 static

@@ -372,6 +372,10 @@ imgDrawingParams
 aImgParams
 float
 aOpacity
+const
+gfxRect
+*
+aOverrideBBox
 )
 {
 UniquePtr
@@ -503,7 +507,7 @@ scaleMatrixInDevUnits
 aDirtyArea
 nullptr
 nullptr
-nullptr
+aOverrideBBox
 )
 ;
 if
