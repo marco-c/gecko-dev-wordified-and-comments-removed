@@ -204,13 +204,6 @@ h
 "
 #
 endif
-#
-include
-"
-SDKDeclarations
-.
-h
-"
 namespace
 mozilla
 :

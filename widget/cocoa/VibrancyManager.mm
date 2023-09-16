@@ -21,13 +21,6 @@ nsChildView
 .
 h
 "
-#
-include
-"
-SDKDeclarations
-.
-h
-"
 using
 namespace
 mozilla

@@ -48,13 +48,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-"
-SDKDeclarations
-.
-h
-"
 static
 void
 ToolbarThemePrefChanged
