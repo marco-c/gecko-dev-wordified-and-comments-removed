@@ -473,6 +473,10 @@ read_bytes
 =
 count
 ;
+if
+(
+count
+)
 FT_MEM_COPY
 (
 buffer
@@ -623,6 +627,10 @@ read_bytes
 =
 count
 ;
+if
+(
+count
+)
 FT_MEM_COPY
 (
 buffer

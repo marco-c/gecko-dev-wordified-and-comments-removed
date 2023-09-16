@@ -1856,6 +1856,11 @@ DOC_DIR
 )
 &
 &
+(
+PYTHON
+)
+-
+m
 mkdocs
 build
 echo

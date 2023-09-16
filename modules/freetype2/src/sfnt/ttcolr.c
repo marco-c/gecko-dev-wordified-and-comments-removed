@@ -630,11 +630,11 @@ p
 if
 (
 base_glyphs_offset_v1
-+
-4
 >
 =
 table_size
+-
+4
 )
 goto
 InvalidTable
@@ -710,11 +710,11 @@ layer_offset_v1
 if
 (
 layer_offset_v1
-+
-4
 >
 =
 table_size
+-
+4
 )
 goto
 InvalidTable

@@ -195,14 +195,6 @@ TT_DIR
 ttpload
 .
 c
-\
-(
-TT_DIR
-)
-/
-ttsubpix
-.
-c
 #
 TrueType
 driver

@@ -1077,7 +1077,7 @@ set
 (
 VERSION_PATCH
 "
-1
+2
 "
 )
 #

@@ -43,10 +43,3 @@ ttpload
 .
 c
 "
-#
-include
-"
-ttsubpix
-.
-c
-"

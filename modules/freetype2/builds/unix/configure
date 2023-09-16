@@ -30,7 +30,7 @@ FreeType
 .
 13
 .
-1
+2
 .
 #
 #
@@ -5186,7 +5186,7 @@ PACKAGE_VERSION
 .
 13
 .
-1
+2
 '
 PACKAGE_STRING
 =
@@ -5196,7 +5196,7 @@ FreeType
 .
 13
 .
-1
+2
 '
 PACKAGE_BUGREPORT
 =
@@ -11385,7 +11385,7 @@ FreeType
 .
 13
 .
-1
+2
 to
 adapt
 to
@@ -12036,7 +12036,7 @@ FreeType
 .
 13
 .
-1
+2
 :
 "
 ;
@@ -13358,7 +13358,7 @@ configure
 .
 13
 .
-1
+2
 generated
 by
 GNU
@@ -16243,7 +16243,7 @@ as_me
 .
 13
 .
-1
+2
 which
 was
 generated
@@ -22451,7 +22451,7 @@ version_info
 '
 26
 :
-0
+1
 :
 20
 '
@@ -117254,6 +117254,11 @@ for
 Python
 and
 docwriter
+PYTHON_MIN_VERSION
+=
+3
+.
+5
 have_py3
 =
 no
@@ -117621,9 +117626,7 @@ then
 ax_python_version
 =
 "
-3
-.
-5
+PYTHON_MIN_VERSION
 "
 {
 printf
@@ -123421,7 +123424,7 @@ as_me
 .
 13
 .
-1
+2
 which
 was
 generated
@@ -123814,7 +123817,7 @@ status
 .
 13
 .
-1
+2
 configured
 by
 0
@@ -136729,9 +136732,7 @@ require
 Python
 >
 =
-3
-.
-5
+PYTHON_MIN_VERSION
 .
 "
 >
@@ -136802,9 +136803,7 @@ require
 Python
 >
 =
-3
-.
-5
+PYTHON_MIN_VERSION
 .
 "
 >

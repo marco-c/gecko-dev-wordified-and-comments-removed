@@ -108,7 +108,7 @@ FreeType
 .
 13
 .
-1
+2
 ]
 [
 freetype
@@ -149,7 +149,7 @@ version_info
 '
 26
 :
-0
+1
 :
 20
 '
@@ -5579,6 +5579,11 @@ for
 Python
 and
 docwriter
+PYTHON_MIN_VERSION
+=
+3
+.
+5
 have_py3
 =
 no
@@ -5617,9 +5622,7 @@ then
 AX_PROG_PYTHON_VERSION
 (
 [
-3
-.
-5
+PYTHON_MIN_VERSION
 ]
 [
 have_py3
@@ -6767,9 +6770,7 @@ require
 Python
 >
 =
-3
-.
-5
+PYTHON_MIN_VERSION
 .
 ]
 )

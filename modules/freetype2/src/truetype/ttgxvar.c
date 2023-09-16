@@ -2202,7 +2202,7 @@ i
 FT_UInt
 item_count
 ;
-FT_UInt
+FT_UShort
 word_delta_count
 ;
 FT_UInt

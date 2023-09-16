@@ -3945,7 +3945,7 @@ adjusting
 %
 s
 %
-ld
+td
 to
 %
 ld
@@ -11254,7 +11254,7 @@ LINK
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -11728,7 +11728,7 @@ BLUE_ANCHOR
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -11752,7 +11752,7 @@ anchor
 =
 edge
 %
-ld
+td
 )
 \
 n
@@ -11802,7 +11802,7 @@ BLUE
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -11996,7 +11996,7 @@ FAILED
 for
 edge
 %
-ld
+td
 \
 n
 "
@@ -12255,7 +12255,7 @@ ANCHOR
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -12265,7 +12265,7 @@ opos
 )
 and
 %
-ld
+td
 (
 opos
 =
@@ -12443,7 +12443,7 @@ ADJUST
 :
 edge
 %
-ld
+td
 (
 pos
 =
@@ -12636,7 +12636,7 @@ STEM
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -12647,7 +12647,7 @@ opos
 linked
 to
 %
-ld
+td
 (
 opos
 =
@@ -12878,7 +12878,7 @@ STEM
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -12889,7 +12889,7 @@ opos
 linked
 to
 %
-ld
+td
 (
 opos
 =
@@ -13065,7 +13065,7 @@ BOUND
 :
 edge
 %
-ld
+td
 (
 pos
 =
@@ -13476,7 +13476,7 @@ SERIF
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -13487,7 +13487,7 @@ opos
 serif
 to
 %
-ld
+td
 (
 opos
 =
@@ -13580,7 +13580,7 @@ SERIF_ANCHOR
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -13780,7 +13780,7 @@ SERIF_LINK1
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -13797,7 +13797,7 @@ to
 "
 from
 %
-ld
+td
 (
 opos
 =
@@ -13884,7 +13884,7 @@ SERIF_LINK2
 :
 edge
 %
-ld
+td
 (
 opos
 =
@@ -14028,7 +14028,7 @@ BOUND
 :
 edge
 %
-ld
+td
 (
 pos
 =
@@ -14185,7 +14185,7 @@ BOUND
 :
 edge
 %
-ld
+td
 (
 pos
 =

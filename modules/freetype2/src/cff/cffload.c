@@ -5408,12 +5408,12 @@ BV
 1
 ]
 ;
-FT_UInt32
+FT_Fixed
 sum
 ;
 sum
 =
-cff_parse_num
+cff_parse_fixed
 (
 parser
 &
@@ -5427,8 +5427,6 @@ i
 base
 ]
 )
-*
-0x10000
 ;
 for
 (
@@ -5450,7 +5448,9 @@ j
 sum
 +
 =
-cff_parse_num
+FT_MulFix
+(
+cff_parse_fixed
 (
 parser
 &
@@ -5465,10 +5465,10 @@ delta
 ]
 )
 *
-*
 weight
 +
 +
+)
 ;
 parser
 -

@@ -1023,17 +1023,6 @@ vert_metrics_offset
 ;
 #
 ifdef
-TT_SUPPORT_SUBPIXEL_HINTING_INFINALITY
-FT_ULong
-sph_found_func_flags
-;
-FT_Bool
-sph_compatibility_mode
-;
-#
-endif
-#
-ifdef
 TT_CONFIG_OPTION_EMBEDDED_BITMAPS
 FT_ULong
 ebdt_start

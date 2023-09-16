@@ -195,12 +195,6 @@ opc
 FT_Bool
 active
 ;
-FT_Bool
-inline_delta
-;
-FT_ULong
-sph_fdef_flags
-;
 }
 TT_DefRecord
 *
