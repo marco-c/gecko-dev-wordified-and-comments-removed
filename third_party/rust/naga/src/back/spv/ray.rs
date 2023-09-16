@@ -106,7 +106,7 @@ acc_struct_id
 =
 self
 .
-get_image_id
+get_handle_id
 (
 acceleration_structure
 )

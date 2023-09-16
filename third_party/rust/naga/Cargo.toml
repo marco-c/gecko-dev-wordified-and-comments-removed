@@ -109,7 +109,7 @@ version
 "
 1
 .
-63
+65
 "
 name
 =
@@ -311,6 +311,8 @@ bitflags
 =
 "
 2
+.
+2
 "
 log
 =
@@ -358,9 +360,7 @@ version
 "
 1
 .
-0
-.
-2
+3
 "
 features
 =
@@ -418,10 +418,6 @@ indexmap
 version
 =
 "
-1
-.
-9
-.
 2
 "
 features
@@ -732,8 +728,6 @@ serde
 indexmap
 /
 serde
--
-1
 "
 ]
 dot
@@ -786,8 +780,6 @@ serde
 indexmap
 /
 serde
--
-1
 "
 ]
 span
