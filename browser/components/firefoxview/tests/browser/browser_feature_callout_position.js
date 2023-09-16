@@ -1788,7 +1788,9 @@ selector
 .
 brand
 -
-icon
+feature
+-
+name
 "
 arrow_position
 :
@@ -1987,7 +1989,9 @@ querySelector
 .
 brand
 -
-icon
+feature
+-
+name
 "
 )
 ;
