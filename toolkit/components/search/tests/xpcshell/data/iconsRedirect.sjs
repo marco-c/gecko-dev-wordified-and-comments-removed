@@ -113,9 +113,10 @@ setHeader
 Location
 "
 "
-engine
+/
+head_search
 .
-xml
+js
 "
 false
 )

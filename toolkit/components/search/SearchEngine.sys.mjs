@@ -5374,6 +5374,11 @@ SearchUtils
 makeChannel
 (
 uri
+Ci
+.
+nsIContentPolicy
+.
+TYPE_IMAGE
 )
 ;
 let

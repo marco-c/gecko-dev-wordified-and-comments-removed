@@ -193,11 +193,9 @@ gDataUrl
 image
 :
 "
-opensearch
-/
-resourceicon
+head_search
 .
-xml
+js
 "
 name
 :
