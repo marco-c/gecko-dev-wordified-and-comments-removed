@@ -56712,7 +56712,7 @@ MDefinition
 ref
 MDefinition
 *
-superSuperTypeVector
+superSTV
 wasm
 :
 :
@@ -56729,7 +56729,7 @@ MBinaryInstruction
 (
 classOpcode
 ref
-superSuperTypeVector
+superSTV
 )
 sourceType_
 (
@@ -56777,7 +56777,7 @@ ref
 )
 (
 1
-superSuperTypeVector
+superSTV
 )
 )
 wasm

@@ -2343,10 +2343,10 @@ typeDef_
 ;
 static
 size_t
-offsetOfTypeDefInVector
+offsetOfSTVInVector
 (
 uint32_t
-typeDefDepth
+subTypingDepth
 )
 ;
 }
@@ -3587,7 +3587,7 @@ true
 const
 SuperTypeVector
 *
-subSuperTypeVector
+subSTV
 =
 subTypeDef
 -
@@ -3599,7 +3599,7 @@ superTypeVector
 if
 (
 !
-subSuperTypeVector
+subSTV
 )
 {
 while
@@ -3635,7 +3635,7 @@ false
 }
 MOZ_ASSERT
 (
-subSuperTypeVector
+subSTV
 -
 >
 typeDef
@@ -3661,7 +3661,7 @@ if
 subTypingDepth
 >
 =
-subSuperTypeVector
+subSTV
 -
 >
 length
@@ -3676,7 +3676,7 @@ false
 const
 SuperTypeVector
 *
-superSuperTypeVector
+superSTV
 =
 superTypeDef
 -
@@ -3687,12 +3687,12 @@ superTypeVector
 ;
 MOZ_ASSERT
 (
-superSuperTypeVector
+superSTV
 )
 ;
 MOZ_ASSERT
 (
-superSuperTypeVector
+superSTV
 -
 >
 typeDef
@@ -3704,7 +3704,7 @@ superTypeDef
 )
 ;
 return
-subSuperTypeVector
+subSTV
 -
 >
 type
@@ -3713,7 +3713,7 @@ subTypingDepth
 )
 =
 =
-superSuperTypeVector
+superSTV
 ;
 }
 size_t

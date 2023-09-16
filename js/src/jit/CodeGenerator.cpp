@@ -106900,7 +106900,7 @@ Label
 *
 label
 Register
-superSuperTypeVector
+superSTV
 Register
 scratch1
 Register
@@ -106925,7 +106925,7 @@ sourceType
 destType
 label
 true
-superSuperTypeVector
+superSTV
 scratch1
 scratch2
 )
@@ -106950,7 +106950,7 @@ sourceType
 destType
 label
 true
-superSuperTypeVector
+superSTV
 scratch1
 scratch2
 )
@@ -107059,7 +107059,7 @@ ref
 )
 ;
 Register
-superSuperTypeVector
+superSTV
 =
 Register
 :
@@ -107131,7 +107131,7 @@ destType
 )
 &
 onSuccess
-superSuperTypeVector
+superSTV
 scratch1
 scratch2
 )
@@ -107249,14 +107249,14 @@ ref
 )
 ;
 Register
-superSuperTypeVector
+superSTV
 =
 ToRegister
 (
 ins
 -
 >
-superSuperTypeVector
+superSTV
 (
 )
 )
@@ -107324,7 +107324,7 @@ destType
 )
 &
 onSuccess
-superSuperTypeVector
+superSTV
 scratch1
 scratch2
 )
@@ -107526,14 +107526,14 @@ ref
 )
 ;
 Register
-superSuperTypeVector
+superSTV
 =
 ToRegister
 (
 ins
 -
 >
-superSuperTypeVector
+superSTV
 (
 )
 )
@@ -107609,7 +107609,7 @@ destType
 (
 )
 onSuccess
-superSuperTypeVector
+superSTV
 scratch1
 scratch2
 )

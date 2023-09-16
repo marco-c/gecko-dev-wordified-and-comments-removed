@@ -1475,7 +1475,7 @@ operands
 ref
 :
 WordSized
-superSuperTypeVector
+superSTV
 :
 WordSized
 result_type
