@@ -6431,6 +6431,9 @@ false
 #
 endif
 #
+ifndef
+MOZ_CODE_COVERAGE
+#
 if
 defined
 (
@@ -7119,6 +7122,8 @@ return
 true
 ;
 }
+#
+endif
 #
 endif
 bool
@@ -8696,6 +8701,9 @@ TestDetouredCallUnwindInfo
 #
 endif
 #
+ifndef
+MOZ_CODE_COVERAGE
+#
 if
 defined
 (
@@ -8723,6 +8731,8 @@ TestSpareBytesAfterDetourFor10BytePatch
 )
 &
 &
+#
+endif
 #
 endif
 #
