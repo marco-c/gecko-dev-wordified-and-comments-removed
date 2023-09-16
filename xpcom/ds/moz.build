@@ -193,6 +193,11 @@ nsAtom
 h
 "
 "
+nsAtomHashKeys
+.
+h
+"
+"
 nsBaseHashtable
 .
 h

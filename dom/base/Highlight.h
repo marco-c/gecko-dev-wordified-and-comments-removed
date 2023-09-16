@@ -45,7 +45,7 @@ h
 #
 include
 "
-nsHashKeys
+nsAtomHashKeys
 .
 h
 "
@@ -172,7 +172,6 @@ AddToHighlightRegistry
 HighlightRegistry
 &
 aHighlightRegistry
-const
 nsAtom
 &
 aHighlightName
@@ -184,7 +183,6 @@ RemoveFromHighlightRegistry
 HighlightRegistry
 &
 aHighlightRegistry
-const
 nsAtom
 &
 aHighlightName
@@ -393,9 +391,8 @@ HighlightRegistry
 >
 nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
-const
 nsAtom
 >
 >

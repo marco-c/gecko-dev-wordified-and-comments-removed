@@ -318,7 +318,6 @@ TimelineType
 >
 PopExistingTimeline
 (
-const
 nsAtom
 *
 aName

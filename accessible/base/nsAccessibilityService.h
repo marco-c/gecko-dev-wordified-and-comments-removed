@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsAtomHashKeys
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -222,7 +229,6 @@ DOMAttrValue
 struct
 MarkupMapInfo
 {
-const
 nsStaticAtom
 *
 const
@@ -249,7 +255,6 @@ attrs
 struct
 XULMarkupMapInfo
 {
-const
 nsStaticAtom
 *
 const
@@ -1116,11 +1121,8 @@ MarkupMap
 =
 nsTHashMap
 <
-nsPtrHashKey
-<
-const
 nsAtom
->
+*
 const
 mozilla
 :
@@ -1243,11 +1245,8 @@ const
 ;
 nsTHashMap
 <
-nsPtrHashKey
-<
-const
 nsAtom
->
+*
 const
 mozilla
 :

@@ -1184,10 +1184,7 @@ mScope
 ;
 nsClassHashtable
 <
-nsRefPtrHashKey
-<
-nsAtom
->
+nsAtomHashKey
 nsCounterList
 >
 mNames

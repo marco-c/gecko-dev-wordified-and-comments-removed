@@ -1040,7 +1040,6 @@ const
 NonOwningAnimationTarget
 &
 aTarget
-const
 nsAtom
 *
 aName
@@ -1248,7 +1247,6 @@ Tag
 Timeline
 :
 {
-const
 nsAtom
 *
 name

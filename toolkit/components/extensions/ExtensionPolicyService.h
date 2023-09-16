@@ -115,6 +115,13 @@ nsTHashSet
 .
 h
 "
+#
+include
+"
+nsAtomHashKeys
+.
+h
+"
 class
 nsIChannel
 ;
@@ -261,7 +268,6 @@ WebExtensionPolicy
 *
 GetByID
 (
-const
 nsAtom
 *
 aAddonId
@@ -522,11 +528,7 @@ UpdateQuarantinedDomains
 ;
 nsRefPtrHashtable
 <
-nsPtrHashKey
-<
-const
-nsAtom
->
+nsWeakAtomHashKey
 WebExtensionPolicy
 >
 mExtensions

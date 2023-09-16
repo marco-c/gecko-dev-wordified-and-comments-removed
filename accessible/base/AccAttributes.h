@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsAtom
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
@@ -309,7 +302,7 @@ AtomVariantMap
 =
 nsTHashMap
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >

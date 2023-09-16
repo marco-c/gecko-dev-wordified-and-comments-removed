@@ -65,7 +65,7 @@ h
 #
 include
 "
-nsAtom
+nsAtomHashKeys
 .
 h
 "
@@ -1229,10 +1229,7 @@ NamedItemsCache
 =
 nsTHashMap
 <
-RefPtr
-<
-nsAtom
->
+nsAtomHashKey
 Element
 *
 >

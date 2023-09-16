@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsAtomHashKeys
+.
+h
+"
+#
+include
+"
 nsIHTMLCollection
 .
 h
@@ -599,7 +606,7 @@ mVisibleForContentVisibility
 ;
 nsTHashMap
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >

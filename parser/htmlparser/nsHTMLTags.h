@@ -7,7 +7,7 @@ nsHTMLTags_h___
 #
 include
 "
-nsAtom
+nsAtomHashKeys
 .
 h
 "
@@ -104,10 +104,8 @@ TagAtomHash
 =
 nsTHashMap
 <
-nsPtrHashKey
-<
 nsAtom
->
+*
 nsHTMLTag
 >
 ;
