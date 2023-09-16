@@ -4,6 +4,13 @@ COMMON_AUDIO_THIRD_PARTY_OOURA_FFT_SIZE_256_FFT4G_H_
 #
 define
 COMMON_AUDIO_THIRD_PARTY_OOURA_FFT_SIZE_256_FFT4G_H_
+#
+include
+<
+stddef
+.
+h
+>
 namespace
 webrtc
 {
