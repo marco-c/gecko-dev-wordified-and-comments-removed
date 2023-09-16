@@ -15155,13 +15155,10 @@ aPartitionedPrincipal
 )
 ;
 }
-else
-{
 RecomputeResistFingerprinting
 (
 )
 ;
-}
 return
 NS_OK
 ;
@@ -21999,10 +21996,6 @@ mCSSLoader
 -
 >
 RegisterInSheetCache
-(
-)
-;
-RecomputeResistFingerprinting
 (
 )
 ;

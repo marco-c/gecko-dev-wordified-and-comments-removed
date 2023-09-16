@@ -2309,14 +2309,6 @@ shouldCaptureStackForThrow
 (
 )
 ;
-const
-char
-*
-getLocale
-(
-)
-const
-;
 mozilla
 :
 :

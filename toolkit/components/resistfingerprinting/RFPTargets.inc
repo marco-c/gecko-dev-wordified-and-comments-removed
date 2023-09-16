@@ -96,14 +96,6 @@ CanvasExtractionBeforeUserInputIsBlocked
 )
 ITEM_VALUE
 (
-JSLocale
-1llu
-<
-<
-12
-)
-ITEM_VALUE
-(
 NavigatorAppVersion
 1llu
 <

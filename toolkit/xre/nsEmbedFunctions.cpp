@@ -2991,6 +2991,10 @@ InitPrefs
 (
 )
 ;
+OverrideDefaultLocaleIfNeeded
+(
+)
+;
 }
 #
 if

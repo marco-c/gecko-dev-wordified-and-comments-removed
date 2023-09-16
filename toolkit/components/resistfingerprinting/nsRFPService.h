@@ -800,12 +800,6 @@ isForHTTPHeader
 )
 ;
 static
-nsCString
-GetSpoofedJSLocale
-(
-)
-;
-static
 bool
 GetSpoofedModifierStates
 (
