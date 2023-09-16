@@ -23,7 +23,7 @@ PersonalityProvider
 /
 PersonalityProviderWorkerClass
 .
-jsm
+mjs
 "
 ;
 import
@@ -39,7 +39,7 @@ PersonalityProvider
 /
 Tokenize
 .
-jsm
+mjs
 "
 ;
 import
@@ -54,7 +54,7 @@ PersonalityProvider
 /
 RecipeExecutor
 .
-jsm
+mjs
 "
 ;
 import
@@ -69,7 +69,7 @@ PersonalityProvider
 /
 NmfTextTagger
 .
-jsm
+mjs
 "
 ;
 import
@@ -84,7 +84,7 @@ PersonalityProvider
 /
 NaiveBayesTextTagger
 .
-jsm
+mjs
 "
 ;
 describe
