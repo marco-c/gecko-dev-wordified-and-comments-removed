@@ -1160,9 +1160,10 @@ update
 const
 onUnitChange
 =
+swatchNode
+.
 once
 (
-swatchNode
 "
 unit
 -
