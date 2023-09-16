@@ -3259,6 +3259,16 @@ GetRecords
 "
 data
 )
+.
+then
+(
+result
+=
+>
+result
+.
+records
+)
 ;
 }
 function

@@ -447,6 +447,7 @@ removeAutofillRecords
 let
 addresses
 =
+(
 await
 sendFormAutofillMessage
 (
@@ -463,6 +464,9 @@ addresses
 "
 }
 )
+)
+.
+records
 ;
 if
 (
@@ -519,6 +523,7 @@ observePromise
 let
 creditCards
 =
+(
 await
 sendFormAutofillMessage
 (
@@ -535,6 +540,9 @@ creditCards
 "
 }
 )
+)
+.
+records
 ;
 if
 (
@@ -8145,9 +8153,13 @@ creditCards
 .
 resolves
 (
+{
+records
+:
 [
 creditcard
 ]
+}
 )
 .
 callThrough
