@@ -5376,9 +5376,9 @@ formatValueSync
 "
 appmenu
 -
-fxa
+account
 -
-header2
+header
 "
 )
 )
@@ -8593,9 +8593,9 @@ fxa
 -
 signout
 -
-dialog2
+dialog
 -
-title
+title2
 "
 }
 {
