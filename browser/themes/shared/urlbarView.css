@@ -1529,7 +1529,9 @@ shrink
 .
 urlbarView
 [
-actionoverride
+action
+-
+override
 ]
 .
 urlbarView
@@ -1950,7 +1952,9 @@ hover
 .
 urlbarView
 [
-actionoverride
+action
+-
+override
 ]
 &
 [
@@ -5700,7 +5704,9 @@ urlbarView
 not
 (
 [
-actionoverride
+action
+-
+override
 ]
 )
 .
@@ -5988,7 +5994,9 @@ action
 .
 urlbarView
 [
-actionoverride
+action
+-
+override
 ]
 .
 urlbarView
@@ -6264,7 +6272,9 @@ urlbarView
 not
 (
 [
-actionoverride
+action
+-
+override
 ]
 )
 .

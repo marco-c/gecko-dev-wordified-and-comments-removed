@@ -7428,7 +7428,9 @@ panel
 removeAttribute
 (
 "
-actionoverride
+action
+-
+override
 "
 )
 ;

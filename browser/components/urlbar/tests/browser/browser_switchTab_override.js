@@ -408,7 +408,9 @@ let
 attribute
 =
 "
-actionoverride
+action
+-
+override
 "
 ;
 Assert
