@@ -124,15 +124,6 @@ Exposed
 Window
 Worker
 )
-Pref
-=
-"
-dom
-.
-storageManager
-.
-enabled
-"
 ]
 interface
 StorageManager

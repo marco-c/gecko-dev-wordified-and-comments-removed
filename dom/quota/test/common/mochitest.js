@@ -39,16 +39,6 @@ true
 "
 dom
 .
-storageManager
-.
-enabled
-"
-true
-]
-[
-"
-dom
-.
 simpleDB
 .
 enabled

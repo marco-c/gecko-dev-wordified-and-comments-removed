@@ -203,13 +203,6 @@ simpleDB
 .
 enabled
 "
-"
-dom
-.
-storageManager
-.
-enabled
-"
 ]
 ;
 if

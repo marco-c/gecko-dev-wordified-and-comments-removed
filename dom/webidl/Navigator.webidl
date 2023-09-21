@@ -810,17 +810,6 @@ interface
 mixin
 NavigatorStorage
 {
-[
-Pref
-=
-"
-dom
-.
-storageManager
-.
-enabled
-"
-]
 readonly
 attribute
 StorageManager
