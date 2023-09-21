@@ -2621,6 +2621,9 @@ promptListener
 .
 off
 (
+"
+opened
+"
 onPromptOpened
 )
 ;
