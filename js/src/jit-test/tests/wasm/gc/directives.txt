@@ -9,14 +9,6 @@ wasm
 -
 gc
 ;
--
--
-wasm
--
-final
--
-types
-;
 test
 -
 also
