@@ -155,6 +155,14 @@ mixin
 FontFaceSource
 {
 [
+Func
+=
+"
+FontFaceSet
+:
+:
+IsEnabled
+"
 Throws
 ]
 readonly

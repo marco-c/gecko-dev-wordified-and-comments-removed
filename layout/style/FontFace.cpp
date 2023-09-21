@@ -1600,6 +1600,16 @@ mParent
 return
 ;
 }
+if
+(
+FontFaceSet
+:
+:
+IsEnabled
+(
+)
+)
+{
 ErrorResult
 rv
 ;
@@ -1656,6 +1666,7 @@ MaybeReject
 mLoadedRejection
 )
 ;
+}
 }
 }
 }
