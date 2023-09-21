@@ -104,7 +104,9 @@ compat
 /
 AboutCompat
 .
-jsm
+sys
+.
+mjs
 "
 "
 about
@@ -213,6 +215,15 @@ apis
 aboutConfigPrefs
 .
 json
+"
+"
+experiment
+-
+apis
+/
+aboutConfigPrefsChild
+.
+js
 "
 "
 experiment

@@ -4001,13 +4001,6 @@ contentScripts
 :
 [
 {
-cookieStoreId
-:
-"
-firefox
--
-private
-"
 js
 :
 "

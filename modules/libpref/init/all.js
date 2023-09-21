@@ -33690,3 +33690,15 @@ Error
 "
 )
 ;
+pref
+(
+"
+extensions
+.
+webcompat
+.
+useScriptingAPI
+"
+true
+)
+;
