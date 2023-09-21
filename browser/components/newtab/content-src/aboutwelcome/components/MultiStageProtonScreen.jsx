@@ -2033,6 +2033,7 @@ const
 size
 marginBlock
 marginInline
+label
 }
 =
 this
@@ -2075,6 +2076,12 @@ l10n
 id
 =
 {
+label
+?
+.
+string_id
+|
+|
 "
 spotlight
 -
