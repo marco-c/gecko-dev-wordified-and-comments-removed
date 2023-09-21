@@ -811,9 +811,7 @@ newSrc
 =
 i32
 .
-reinterpret
-/
-f32
+reinterpret_f32
 {
 (
 function
@@ -883,9 +881,7 @@ newSrc
 =
 i64
 .
-reinterpret
-/
-f64
+reinterpret_f64
 {
 (
 function

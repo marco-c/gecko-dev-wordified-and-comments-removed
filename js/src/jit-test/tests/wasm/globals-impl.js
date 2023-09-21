@@ -304,9 +304,7 @@ xor
 (
 i32
 .
-wrap
-/
-i64
+wrap_i64
 (
 local
 .

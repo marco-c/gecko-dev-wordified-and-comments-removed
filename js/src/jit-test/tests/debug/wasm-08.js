@@ -213,9 +213,7 @@ get
 var0
 f32
 .
-convert_s
-/
-i32
+convert_i32_s
 f32
 .
 add
@@ -291,9 +289,7 @@ get
 var2
 i32
 .
-wrap
-/
-i64
+wrap_i64
 local
 .
 set
@@ -304,9 +300,7 @@ get
 var4
 i32
 .
-trunc_s
-/
-f32
+trunc_f32_s
 local
 .
 set
@@ -317,9 +311,7 @@ get
 var5
 i32
 .
-trunc_s
-/
-f64
+trunc_f64_s
 local
 .
 set

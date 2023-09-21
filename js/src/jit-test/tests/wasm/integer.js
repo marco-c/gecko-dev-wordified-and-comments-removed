@@ -2229,9 +2229,7 @@ eqz
 (
 i32
 .
-trunc_s
-/
-f32
+trunc_f32_s
 (
 local
 .
@@ -4557,9 +4555,7 @@ eqz
 (
 i64
 .
-trunc_s
-/
-f32
+trunc_f32_s
 (
 local
 .

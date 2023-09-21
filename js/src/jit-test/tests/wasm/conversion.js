@@ -360,10 +360,6 @@ resultType
 {
 opcode
 }
-/
-{
-paramType
-}
 paramType
 op
 expect
@@ -433,10 +429,6 @@ resultType
 .
 {
 opcode
-}
-/
-{
-paramType
 }
 (
 local
@@ -534,7 +526,7 @@ testConversion
 i32
 '
 '
-wrap
+wrap_i64
 '
 '
 i64
@@ -551,7 +543,7 @@ testConversion
 i32
 '
 '
-wrap
+wrap_i64
 '
 '
 i64
@@ -568,7 +560,7 @@ testConversion
 i32
 '
 '
-wrap
+wrap_i64
 '
 '
 i64
@@ -585,7 +577,7 @@ testConversion
 i32
 '
 '
-wrap
+wrap_i64
 '
 '
 i64
@@ -602,7 +594,7 @@ testConversion
 i32
 '
 '
-wrap
+wrap_i64
 '
 '
 i64
@@ -620,7 +612,7 @@ testConversion
 i32
 '
 '
-wrap
+wrap_i64
 '
 '
 i64
@@ -637,7 +629,7 @@ testConversion
 i32
 '
 '
-wrap
+wrap_i64
 '
 '
 i64
@@ -654,7 +646,7 @@ testConversion
 i64
 '
 '
-extend_s
+extend_i32_s
 '
 '
 i32
@@ -669,7 +661,7 @@ testConversion
 i64
 '
 '
-extend_s
+extend_i32_s
 '
 '
 i32
@@ -684,7 +676,7 @@ testConversion
 i64
 '
 '
-extend_s
+extend_i32_s
 '
 '
 i32
@@ -701,7 +693,7 @@ testConversion
 i64
 '
 '
-extend_s
+extend_i32_s
 '
 '
 i32
@@ -718,7 +710,7 @@ testConversion
 i64
 '
 '
-extend_s
+extend_i32_s
 '
 '
 i32
@@ -735,7 +727,7 @@ testConversion
 i64
 '
 '
-extend_u
+extend_i32_u
 '
 '
 i32
@@ -750,7 +742,7 @@ testConversion
 i64
 '
 '
-extend_u
+extend_i32_u
 '
 '
 i32
@@ -765,7 +757,7 @@ testConversion
 i64
 '
 '
-extend_u
+extend_i32_u
 '
 '
 i32
@@ -783,7 +775,7 @@ testConversion
 i64
 '
 '
-extend_u
+extend_i32_u
 '
 '
 i32
@@ -801,7 +793,7 @@ testConversion
 i64
 '
 '
-extend_u
+extend_i32_u
 '
 '
 i32
@@ -818,7 +810,7 @@ testConversion
 i64
 '
 '
-extend_u
+extend_i32_u
 '
 '
 i32
@@ -835,7 +827,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -852,7 +844,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -871,7 +863,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -888,7 +880,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -907,7 +899,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -927,7 +919,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -946,7 +938,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -965,7 +957,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -984,7 +976,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1003,7 +995,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1020,7 +1012,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1038,7 +1030,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1056,7 +1048,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1073,7 +1065,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1090,7 +1082,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1107,7 +1099,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1126,7 +1118,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1143,7 +1135,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1162,7 +1154,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1182,7 +1174,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1199,7 +1191,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1218,7 +1210,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1237,7 +1229,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i64_s
 '
 '
 i64
@@ -1256,7 +1248,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1273,7 +1265,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1290,7 +1282,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1309,7 +1301,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1328,7 +1320,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1346,7 +1338,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1365,7 +1357,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1382,7 +1374,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1399,7 +1391,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1416,7 +1408,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1433,7 +1425,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1450,7 +1442,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1467,7 +1459,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1484,7 +1476,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1501,7 +1493,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1520,7 +1512,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1539,7 +1531,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1557,7 +1549,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1576,7 +1568,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1593,7 +1585,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1610,7 +1602,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1627,7 +1619,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i64_u
 '
 '
 i64
@@ -1644,7 +1636,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1661,7 +1653,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1681,7 +1673,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1698,7 +1690,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1715,7 +1707,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1732,7 +1724,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1749,7 +1741,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1766,7 +1758,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1785,7 +1777,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1804,7 +1796,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1823,7 +1815,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1842,7 +1834,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1861,7 +1853,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1880,7 +1872,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1900,7 +1892,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1919,7 +1911,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -1939,7 +1931,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -1956,7 +1948,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -1976,7 +1968,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -1993,7 +1985,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2010,7 +2002,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2027,7 +2019,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2044,7 +2036,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2062,7 +2054,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2079,7 +2071,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2096,7 +2088,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2115,7 +2107,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2132,7 +2124,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2149,7 +2141,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2166,7 +2158,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2184,7 +2176,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2201,7 +2193,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2221,7 +2213,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2238,7 +2230,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2255,7 +2247,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2272,7 +2264,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2289,7 +2281,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2306,7 +2298,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2325,7 +2317,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2344,7 +2336,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2363,7 +2355,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2382,7 +2374,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2401,7 +2393,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2420,7 +2412,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2440,7 +2432,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2459,7 +2451,7 @@ testConversion
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2479,7 +2471,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2496,7 +2488,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2516,7 +2508,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2533,7 +2525,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2550,7 +2542,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2567,7 +2559,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2584,7 +2576,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2602,7 +2594,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2619,7 +2611,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2636,7 +2628,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2653,7 +2645,7 @@ testConversion
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2672,7 +2664,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -2688,7 +2680,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -2705,7 +2697,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -2721,7 +2713,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -2737,7 +2729,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -2754,7 +2746,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2769,7 +2761,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2785,7 +2777,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2801,7 +2793,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2817,7 +2809,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -2834,7 +2826,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2850,7 +2842,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2867,7 +2859,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2883,7 +2875,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2899,7 +2891,7 @@ testTrap
 i64
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -2916,7 +2908,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2932,7 +2924,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2947,7 +2939,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2963,7 +2955,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2979,7 +2971,7 @@ testTrap
 i64
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -2996,7 +2988,7 @@ testConversion
 i64
 '
 '
-reinterpret
+reinterpret_f64
 '
 '
 f64
@@ -3015,7 +3007,7 @@ testConversion
 f64
 '
 '
-reinterpret
+reinterpret_i64
 '
 '
 i64
@@ -3067,9 +3059,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3084,9 +3074,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3101,9 +3089,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3119,9 +3105,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3140,9 +3124,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3164,9 +3146,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3181,9 +3161,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3198,9 +3176,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3216,9 +3192,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3237,9 +3211,7 @@ testConversion
 i32
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3261,9 +3233,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3278,9 +3248,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3296,9 +3264,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3314,9 +3280,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3332,9 +3296,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3354,9 +3316,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3371,9 +3331,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3389,9 +3347,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3407,9 +3363,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3425,9 +3379,7 @@ testConversion
 i32
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3447,9 +3399,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3466,9 +3416,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3486,9 +3434,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3507,9 +3453,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3526,9 +3470,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f64_s
 '
 '
 f64
@@ -3546,9 +3488,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3566,9 +3506,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3585,9 +3523,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3606,9 +3542,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3625,9 +3559,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f64_u
 '
 '
 f64
@@ -3647,9 +3579,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3666,9 +3596,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3686,9 +3614,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3707,9 +3633,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3726,9 +3650,7 @@ testConversion
 i64
 '
 '
-trunc_s
-:
-sat
+trunc_sat_f32_s
 '
 '
 f32
@@ -3746,9 +3668,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3765,9 +3685,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3785,9 +3703,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3806,9 +3722,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3825,9 +3739,7 @@ testConversion
 i64
 '
 '
-trunc_u
-:
-sat
+trunc_sat_f32_u
 '
 '
 f32
@@ -3971,10 +3883,10 @@ testSignExtension
 i64
 '
 '
-extend32_s
+extend_i32_s
 '
 '
-i64
+i32
 '
 0x7FFFFFFF
 0x7FFFFFFF
@@ -3986,10 +3898,10 @@ testSignExtension
 i64
 '
 '
-extend32_s
+extend_i32_s
 '
 '
-i64
+i32
 '
 "
 0x80000000
@@ -4005,7 +3917,7 @@ testConversion
 i32
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -4022,7 +3934,7 @@ testConversion
 i32
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -4049,7 +3961,7 @@ testConversion
 i32
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -4074,7 +3986,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -4090,7 +4002,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -4106,7 +4018,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -4123,7 +4035,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -4141,7 +4053,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f32_s
 '
 '
 f32
@@ -4162,7 +4074,7 @@ testConversion
 i32
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -4179,7 +4091,7 @@ testConversion
 i32
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -4208,7 +4120,7 @@ testConversion
 i32
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -4237,7 +4149,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -4253,7 +4165,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -4269,7 +4181,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -4286,7 +4198,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -4304,7 +4216,7 @@ testTrap
 i32
 '
 '
-trunc_s
+trunc_f64_s
 '
 '
 f64
@@ -4325,7 +4237,7 @@ testConversion
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4342,7 +4254,7 @@ testConversion
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4367,7 +4279,7 @@ testConversion
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4398,7 +4310,7 @@ testConversion
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4416,7 +4328,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4432,7 +4344,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4448,7 +4360,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4465,7 +4377,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4480,7 +4392,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f32_u
 '
 '
 f32
@@ -4498,7 +4410,7 @@ testConversion
 i32
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -4515,7 +4427,7 @@ testConversion
 i32
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -4548,7 +4460,7 @@ testConversion
 i32
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -4566,7 +4478,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -4582,7 +4494,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -4598,7 +4510,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -4615,7 +4527,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -4630,7 +4542,7 @@ testTrap
 i32
 '
 '
-trunc_u
+trunc_f64_u
 '
 '
 f64
@@ -4648,7 +4560,7 @@ testConversion
 i32
 '
 '
-reinterpret
+reinterpret_f32
 '
 '
 f32
@@ -4665,7 +4577,7 @@ testConversion
 f32
 '
 '
-reinterpret
+reinterpret_i32
 '
 '
 i32
@@ -4684,7 +4596,7 @@ testConversion
 f32
 '
 '
-convert_s
+convert_i32_s
 '
 '
 i32
@@ -4699,7 +4611,7 @@ testConversion
 f32
 '
 '
-convert_u
+convert_i32_u
 '
 '
 i32
@@ -4714,7 +4626,7 @@ testConversion
 f64
 '
 '
-convert_s
+convert_i32_s
 '
 '
 i32
@@ -4729,7 +4641,7 @@ testConversion
 f64
 '
 '
-convert_u
+convert_i32_u
 '
 '
 i32
@@ -4744,7 +4656,7 @@ testConversion
 f32
 '
 '
-demote
+demote_f64
 '
 '
 f64
@@ -4763,7 +4675,7 @@ testConversion
 f64
 '
 '
-promote
+promote_f32
 '
 '
 f32
@@ -4799,15 +4711,11 @@ const
 (
 i32
 .
-reinterpret
-/
-f32
+reinterpret_f32
 (
 f32
 .
-demote
-/
-f64
+demote_f64
 (
 f64
 .
@@ -4858,15 +4766,11 @@ const
 (
 i64
 .
-reinterpret
-/
-f64
+reinterpret_f64
 (
 f64
 .
-promote
-/
-f32
+promote_f32
 (
 f32
 .
