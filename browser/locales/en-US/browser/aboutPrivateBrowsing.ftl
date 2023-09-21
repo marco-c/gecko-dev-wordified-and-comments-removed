@@ -1107,7 +1107,7 @@ name
 }
 deletes
 your
-cookie
+cookies
 history
 and
 site
