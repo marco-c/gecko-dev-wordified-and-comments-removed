@@ -128,10 +128,9 @@ gRuntimeMetricsComprehensive
 =
 false
 ;
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
 (
 Glean
-mParent
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -297,7 +296,6 @@ MakeRefPtr
 Glean
 >
 (
-global
 )
 ;
 if
@@ -402,7 +400,6 @@ move
 (
 categoryName
 )
-mParent
 )
 ;
 }
@@ -477,7 +474,6 @@ move
 (
 name
 )
-mParent
 )
 ;
 }

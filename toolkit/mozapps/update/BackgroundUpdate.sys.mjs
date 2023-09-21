@@ -6161,8 +6161,7 @@ try
 /
 testGetValue
 throws
-a
-DataError
+NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 in
 case
 /

@@ -540,8 +540,11 @@ testGetValue
 ;
 equal
 (
+typeof
 gleanMetric
-null
+"
+undefined
+"
 "
 Expect
 extensions
@@ -552,7 +555,7 @@ metric
 to
 be
 initially
-null
+undefined
 "
 )
 ;

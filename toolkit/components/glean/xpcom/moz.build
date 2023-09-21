@@ -50,7 +50,7 @@ nsIFOG
 idl
 "
 "
-nsIGleanPing
+nsIGleanMetrics
 .
 idl
 "

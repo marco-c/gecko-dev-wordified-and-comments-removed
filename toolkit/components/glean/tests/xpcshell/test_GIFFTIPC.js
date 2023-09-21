@@ -1206,7 +1206,7 @@ testGetValue
 (
 )
 /
-DataError
+NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 /
 "
 Invalid

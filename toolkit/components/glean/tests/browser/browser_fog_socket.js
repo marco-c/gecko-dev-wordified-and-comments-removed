@@ -84,7 +84,7 @@ testResetFOG
 ;
 is
 (
-null
+undefined
 Glean
 .
 testOnlyIpc
