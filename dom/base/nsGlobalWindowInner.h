@@ -6303,7 +6303,7 @@ GetClientPrincipal
 )
 ;
 void
-StorageAccessPermissionGranted
+StorageAccessPermissionChanged
 (
 )
 ;
