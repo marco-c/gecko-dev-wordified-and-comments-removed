@@ -143,11 +143,6 @@ send_keys
 (
 document
 .
-activeElement
-|
-|
-document
-.
 documentElement
 kTab
 )
@@ -242,11 +237,6 @@ send_keys
 (
 document
 .
-activeElement
-|
-|
-document
-.
 documentElement
 '
 \
@@ -277,11 +267,6 @@ test_driver
 .
 send_keys
 (
-document
-.
-activeElement
-|
-|
 document
 .
 documentElement
