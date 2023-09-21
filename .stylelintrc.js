@@ -237,6 +237,12 @@ image
 rect
 "
 "
+-
+moz
+-
+themed
+"
+"
 add
 "
 ]
