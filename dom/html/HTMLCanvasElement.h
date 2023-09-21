@@ -1249,12 +1249,6 @@ mRequestedFrameRefreshObserver
 ;
 RefPtr
 <
-CanvasRenderer
->
-mCanvasRenderer
-;
-RefPtr
-<
 OffscreenCanvas
 >
 mOffscreenCanvas
