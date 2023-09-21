@@ -666,6 +666,9 @@ Tunga
 UD
 Digi
 Kyokasho
+N
+-
+B
 "
 "
 UD
