@@ -98,6 +98,9 @@ paddingBlock
 "
 paddingInline
 "
+"
+whiteSpace
+"
 ]
 ;
 const
