@@ -179,7 +179,7 @@ daybefore
 {
 isInQuery
 :
-true
+false
 isVisit
 :
 true
