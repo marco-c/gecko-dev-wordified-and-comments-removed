@@ -4093,7 +4093,7 @@ ifdef
 ENABLE_WASM_GC
 MDefinition
 *
-i31New
+refI31
 (
 MDefinition
 *
@@ -37082,7 +37082,7 @@ elemSizeDef
 }
 static
 bool
-EmitI31New
+EmitRefI31
 (
 FunctionCompiler
 &
@@ -37149,7 +37149,7 @@ output
 =
 f
 .
-i31New
+refI31
 (
 input
 )
@@ -43479,12 +43479,12 @@ uint32_t
 GcOp
 :
 :
-I31New
+RefI31
 )
 :
 CHECK
 (
-EmitI31New
+EmitRefI31
 (
 f
 )

@@ -1133,7 +1133,7 @@ ExternInternalize
 ExternExternalize
 =
 0x1b
-I31New
+RefI31
 =
 0x1c
 I31GetS

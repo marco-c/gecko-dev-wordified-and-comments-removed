@@ -6715,7 +6715,7 @@ nodiscard
 ]
 ]
 bool
-emitI31New
+emitRefI31
 (
 )
 ;
