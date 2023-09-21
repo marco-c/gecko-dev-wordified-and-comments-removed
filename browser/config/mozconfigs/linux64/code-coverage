@@ -25,14 +25,6 @@ ac_add_options
 -
 disable
 -
-elf
--
-hack
-ac_add_options
--
--
-disable
--
 sandbox
 ac_add_options
 -
