@@ -321,16 +321,6 @@ return
 false
 ;
 }
-void
-NotifyDataRead
-(
-)
-;
-void
-NotifyDataWrite
-(
-)
-;
 private
 :
 [
