@@ -2098,9 +2098,6 @@ Event
 *
 mEvent
 ;
-bool
-mUsingStorageAccess
-;
 RefPtr
 <
 mozilla
