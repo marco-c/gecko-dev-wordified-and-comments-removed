@@ -198,8 +198,6 @@ Result
 >
 {
 (
-&
-mut
 *
 *
 self
@@ -241,8 +239,6 @@ Result
 >
 {
 (
-&
-mut
 *
 *
 self
@@ -278,8 +274,6 @@ Result
 >
 {
 (
-&
-mut
 *
 *
 self
