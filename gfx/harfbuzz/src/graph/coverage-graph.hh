@@ -497,9 +497,7 @@ link_position
 ;
 coverage_prime_vertex
 .
-parents
-.
-push
+add_parent
 (
 parent_id
 )

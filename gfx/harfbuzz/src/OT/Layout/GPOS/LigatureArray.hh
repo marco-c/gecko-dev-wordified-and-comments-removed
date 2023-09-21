@@ -112,6 +112,11 @@ return_trace
 false
 )
 ;
+bool
+ret
+=
+false
+;
 for
 (
 const
@@ -211,6 +216,9 @@ class_count
 }
 )
 ;
+ret
+|
+=
 matrix
 -
 >
@@ -230,10 +238,7 @@ indexes
 }
 return_trace
 (
-this
--
->
-len
+ret
 )
 ;
 }

@@ -397,7 +397,6 @@ trackTableEntry
 )
 return
 0
-.
 ;
 unsigned
 int
@@ -412,7 +411,6 @@ sizes
 )
 return
 0
-.
 ;
 if
 (

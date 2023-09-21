@@ -266,6 +266,9 @@ float
 axis_min_value
 float
 axis_max_value
+float
+*
+axis_def_value
 )
 ;
 HB_EXTERN

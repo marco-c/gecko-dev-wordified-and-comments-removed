@@ -1174,6 +1174,11 @@ return_trace
 false
 )
 ;
+if
+(
+unlikely
+(
+!
 out
 -
 >
@@ -1195,6 +1200,12 @@ iter
 )
 &
 klass_mapping
+)
+)
+)
+return_trace
+(
+false
 )
 ;
 unsigned
@@ -1344,6 +1355,8 @@ base_indexes
 )
 ;
 }
+return_trace
+(
 out
 -
 >
@@ -1365,10 +1378,6 @@ iter
 (
 )
 )
-;
-return_trace
-(
-true
 )
 ;
 }

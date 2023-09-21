@@ -90,8 +90,7 @@ base
 )
 ;
 }
-MarkRecord
-*
+bool
 subset
 (
 hb_subset_context_t
@@ -138,7 +137,7 @@ out
 )
 return_trace
 (
-nullptr
+false
 )
 ;
 out
@@ -154,6 +153,8 @@ get
 klass
 )
 ;
+return_trace
+(
 out
 -
 >
@@ -165,10 +166,6 @@ c
 markAnchor
 src_base
 )
-;
-return_trace
-(
-out
 )
 ;
 }

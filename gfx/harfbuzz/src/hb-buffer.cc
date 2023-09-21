@@ -1616,6 +1616,13 @@ int
 cluster_end
 )
 {
+if
+(
+!
+mask
+)
+return
+;
 hb_mask_t
 not_mask
 =
@@ -1626,13 +1633,6 @@ value
 &
 =
 mask
-;
-if
-(
-!
-mask
-)
-return
 ;
 unsigned
 int

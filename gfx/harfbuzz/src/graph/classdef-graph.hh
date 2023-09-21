@@ -320,9 +320,7 @@ link_position
 ;
 class_def_prime_vertex
 .
-parents
-.
-push
+add_parent
 (
 parent_id
 )

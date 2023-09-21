@@ -1971,6 +1971,12 @@ true
 )
 ;
 }
+#
+ifndef
+HB_OPTIMIZE_SIZE
+HB_ALWAYS_INLINE
+#
+endif
 void
 unsafe_to_concat
 (
@@ -2008,7 +2014,7 @@ _set_glyph_flags
 HB_GLYPH_FLAG_UNSAFE_TO_CONCAT
 start
 end
-true
+false
 )
 ;
 }
@@ -2040,6 +2046,12 @@ true
 )
 ;
 }
+#
+ifndef
+HB_OPTIMIZE_SIZE
+HB_ALWAYS_INLINE
+#
+endif
 void
 unsafe_to_concat_from_outbuffer
 (

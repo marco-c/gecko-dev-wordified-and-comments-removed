@@ -2156,9 +2156,7 @@ vertices_
 class_def_2_id
 ]
 .
-parents
-.
-push
+add_parent
 (
 pair_pos_prime_id
 )

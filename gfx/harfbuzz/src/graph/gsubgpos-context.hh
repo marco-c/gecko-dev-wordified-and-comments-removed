@@ -57,6 +57,13 @@ Lookup
 >
 lookups
 ;
+hb_hashmap_t
+<
+unsigned
+unsigned
+>
+subtable_to_extension
+;
 HB_INTERNAL
 gsubgpos_graph_context_t
 (
