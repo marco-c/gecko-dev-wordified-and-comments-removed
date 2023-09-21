@@ -609,6 +609,11 @@ PChromiumCDM
 ipdl
 "
 "
+PGMP
+.
+ipdl
+"
+"
 PGMPService
 .
 ipdl
@@ -638,11 +643,6 @@ PREPROCESSED_IPDL_SOURCES
 +
 =
 [
-"
-PGMP
-.
-ipdl
-"
 "
 PGMPContent
 .
