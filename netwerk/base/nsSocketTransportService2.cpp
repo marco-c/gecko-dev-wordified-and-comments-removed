@@ -5119,6 +5119,15 @@ PR_GetCurrentThread
 )
 ;
 {
+PollableEvent
+*
+pollable
+=
+new
+PollableEvent
+(
+)
+;
 MutexAutoLock
 lock
 (
@@ -5129,10 +5138,7 @@ mPollableEvent
 .
 reset
 (
-new
-PollableEvent
-(
-)
+pollable
 )
 ;
 if
