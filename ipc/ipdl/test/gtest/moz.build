@@ -53,6 +53,11 @@ TestBasic
 cpp
 "
 "
+TestCrossProcessSemaphore
+.
+cpp
+"
+"
 TestInduceConnectionError
 .
 cpp
@@ -74,6 +79,11 @@ ipdl
 "
 "
 PTestBasic
+.
+ipdl
+"
+"
+PTestCrossProcessSemaphore
 .
 ipdl
 "
