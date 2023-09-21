@@ -323,11 +323,7 @@ l10n
 name
 =
 "
-learn
--
-more
--
-link
+learn_more
 "
 >
 Learn

@@ -1173,7 +1173,7 @@ break
 ;
 case
 "
-cta_paragraph
+learn_more
 "
 :
 Glean

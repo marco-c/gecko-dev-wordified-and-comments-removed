@@ -233,13 +233,13 @@ AddonsPicker
 ;
 import
 {
-LegalParagraph
+LinkParagraph
 }
 from
 "
 .
 /
-LegalParagraph
+LinkParagraph
 "
 ;
 export
@@ -2526,7 +2526,7 @@ elements
 push
 (
 <
-LegalParagraph
+LinkParagraph
 text_content
 =
 {
