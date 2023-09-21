@@ -728,9 +728,6 @@ WebIDLGlobalNameHash
 h
 "
 #
-ifdef
-MOZ_WIDGET_ANDROID
-#
 include
 "
 mozilla
@@ -741,8 +738,6 @@ U2FTokenManager
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1542,9 +1537,6 @@ Initialize
 (
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 mozilla
 :
 :
@@ -1558,8 +1550,6 @@ Initialize
 (
 )
 ;
-#
-endif
 mozilla
 :
 :
