@@ -8150,6 +8150,11 @@ allowGDI
 =
 true
 ;
+bool
+hasTextShadow
+=
+false
+;
 using
 CacheKey
 =
@@ -8366,6 +8371,9 @@ haveSVGGlyphs
 ;
 bool
 haveColorGlyphs
+;
+bool
+hasTextShadow
 ;
 }
 ;
