@@ -4867,10 +4867,11 @@ result
 kCFURLEnumeratorEnd
 )
 ;
-CTFontManagerRegisterFontsForURLs
+CTFontManagerRegisterFontURLs
 (
 urls
 kCTFontManagerScopeProcess
+false
 nullptr
 )
 ;
