@@ -242,6 +242,11 @@ no
 -
 wrap
 "
+"
+urlbarView
+-
+overflowable
+"
 ]
 children
 :
@@ -285,6 +290,11 @@ classList
 urlbarView
 -
 title
+"
+"
+urlbarView
+-
+overflowable
 "
 ]
 }
