@@ -396,6 +396,8 @@ aPrincipal
 bool
 aHasUserInteraction
 bool
+aRequireUserInteraction
+bool
 aFrameOnly
 ContentBlockingNotifier
 :
