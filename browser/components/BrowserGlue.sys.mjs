@@ -4711,7 +4711,7 @@ true
 "
 Screenshots
 :
-ShowPanel
+OverlaySelection
 "
 :
 {
@@ -4723,6 +4723,17 @@ true
 Screenshots
 :
 RecordEvent
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+Screenshots
+:
+ShowPanel
 "
 :
 {
