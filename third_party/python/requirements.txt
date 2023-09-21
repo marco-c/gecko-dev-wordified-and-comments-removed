@@ -3968,9 +3968,9 @@ taskgraph
 =
 6
 .
-2
+3
 .
-1
+0
 ;
 python_version
 >
@@ -3995,7 +3995,7 @@ hash
 =
 sha256
 :
-04d794917af42e08ff18fda897d370791d193fe1c29194ea49fe727e6b25ddc8
+43ce187215ab8658c06ad80f46c4606ce51b9986f4365d541416eecf9d6a2c28
 \
 -
 -
@@ -4003,7 +4003,7 @@ hash
 =
 sha256
 :
-30b9f1ace27af870c77a0989e647b6ae9469a58acc6045f4c80e130b4e9ffc8a
+a32ac3aad6aa90c593268bee8864d9f773e86e1f53d0b513d128d59b52c1e20b
 taskcluster
 -
 urls

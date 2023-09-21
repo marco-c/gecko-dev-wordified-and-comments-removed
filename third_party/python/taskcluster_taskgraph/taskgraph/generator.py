@@ -1217,20 +1217,21 @@ _load_kinds
 (
 self
 graph_config
-target_kind
+target_kinds
 =
 None
 )
 :
         
 if
-target_kind
+target_kinds
 :
             
 queue
 =
+target_kinds
++
 [
-target_kind
 "
 docker
 -
@@ -1521,7 +1522,10 @@ kinds
 "
 )
         
-if
+target_kinds
+=
+sorted
+(
 parameters
 .
 get
@@ -1529,21 +1533,16 @@ get
 "
 target
 -
-kind
+kinds
 "
-)
-:
-            
-target_kind
-=
-parameters
 [
-"
-target
--
-kind
-"
 ]
+)
+)
+        
+if
+target_kinds
+:
             
 logger
 .
@@ -1554,19 +1553,25 @@ info
 Limiting
 kinds
 to
-{
-target_kind
-}
+following
+kinds
 and
 dependencies
+:
+{
+}
 "
 .
 format
 (
                     
-target_kind
-=
-target_kind
+"
+"
+.
+join
+(
+target_kinds
+)
                 
 )
             
@@ -1581,7 +1586,6 @@ kind
 name
 :
 kind
-            
 for
 kind
 in
@@ -1590,16 +1594,7 @@ self
 _load_kinds
 (
 graph_config
-parameters
-.
-get
-(
-"
-target
--
-kind
-"
-)
+target_kinds
 )
         
 }
@@ -1676,16 +1671,7 @@ edges
 )
         
 if
-parameters
-.
-get
-(
-"
-target
--
-kind
-"
-)
+target_kinds
 :
             
 kind_graph
@@ -1694,14 +1680,20 @@ kind_graph
 .
 transitive_closure
 (
+                
+set
+(
+target_kinds
+)
+|
 {
-target_kind
 "
 docker
 -
 image
 "
 }
+            
 )
         
 logger
@@ -2698,11 +2690,13 @@ parameters
 "
 target
 -
-kind
+kinds
 "
 ]
 =
+[
 kind
+]
     
 parameters
 =
