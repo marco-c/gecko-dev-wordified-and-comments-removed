@@ -244,14 +244,6 @@ appIdentifier
 }
 ;
 struct
-WebAuthnExtensionCredProps
-{
-bool
-credProps
-;
-}
-;
-struct
 WebAuthnExtensionHmacSecret
 {
 bool
@@ -264,8 +256,6 @@ WebAuthnExtension
 {
 WebAuthnExtensionAppId
 ;
-WebAuthnExtensionCredProps
-;
 WebAuthnExtensionHmacSecret
 ;
 }
@@ -275,14 +265,6 @@ WebAuthnExtensionResultAppId
 {
 bool
 AppId
-;
-}
-;
-struct
-WebAuthnExtensionResultCredProps
-{
-bool
-rk
 ;
 }
 ;
@@ -298,8 +280,6 @@ union
 WebAuthnExtensionResult
 {
 WebAuthnExtensionResultAppId
-;
-WebAuthnExtensionResultCredProps
 ;
 WebAuthnExtensionResultHmacSecret
 ;

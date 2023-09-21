@@ -109,14 +109,6 @@ must_use
 readonly
 attribute
 bool
-credProps
-;
-[
-must_use
-]
-readonly
-attribute
-bool
 hmacCreateSecret
 ;
 [
@@ -285,11 +277,6 @@ Array
 AString
 >
 transports
-;
-readonly
-attribute
-bool
-credPropsRk
 ;
 }
 ;

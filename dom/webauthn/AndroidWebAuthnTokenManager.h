@@ -609,12 +609,6 @@ NS_ERROR_DOM_UNKNOWN_ERR
 __func__
 )
 ;
-mRegisterCredPropsRk
-=
-Nothing
-(
-)
-;
 }
 void
 AssertIsOnOwningThread
@@ -633,12 +627,6 @@ MozPromiseHolder
 U2FSignPromise
 >
 mSignPromise
-;
-Maybe
-<
-bool
->
-mRegisterCredPropsRk
 ;
 }
 ;
