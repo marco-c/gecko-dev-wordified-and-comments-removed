@@ -6546,9 +6546,11 @@ mac
 /
 hardenedruntime
 /
+v1
+/
 production
-.
-entitlements
+/
+browser
 .
 xml
 default
@@ -6559,9 +6561,11 @@ mac
 /
 hardenedruntime
 /
+v1
+/
 developer
-.
-entitlements
+/
+browser
 .
 xml
 default

@@ -99,10 +99,10 @@ to
 create
 executable
 pages
-(
 without
 MAP_JIT
-)
+on
+x64
 -
 -
 >
@@ -179,13 +179,8 @@ Allow
 loading
 third
 party
+CDM
 libraries
-.
-Needed
-for
-Flash
-and
-CDMs
 -
 -
 >
