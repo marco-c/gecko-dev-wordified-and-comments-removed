@@ -300,6 +300,9 @@ None
 rate_limit
 :
 None
+enable_event_timestamps
+:
+false
 }
 ;
 let

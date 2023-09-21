@@ -1495,6 +1495,7 @@ HashMap
 new
 (
 )
+0
 )
 ;
 assert
