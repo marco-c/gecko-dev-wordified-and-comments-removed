@@ -3774,6 +3774,9 @@ res
 ^
 )
 (
+RELRHACK_LDFLAGS
+)
+(
 LDFLAGS
 )
 (
