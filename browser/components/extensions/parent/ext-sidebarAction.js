@@ -1145,10 +1145,6 @@ menuitem
 -
 image
 :
-image
--
-set
-(
 url
 (
 "
@@ -1160,6 +1156,17 @@ getIcon
 }
 "
 )
+;
+-
+-
+webextension
+-
+menuitem
+-
+image
+-
+2x
+:
 url
 (
 "
@@ -1170,8 +1177,6 @@ getIcon
 )
 }
 "
-)
-2x
 )
 ;
 )
