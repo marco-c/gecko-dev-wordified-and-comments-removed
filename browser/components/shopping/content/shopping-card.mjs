@@ -612,6 +612,13 @@ controls
 "
 content
 "
+class
+=
+"
+small
+-
+button
+"
 data
 -
 l10n
