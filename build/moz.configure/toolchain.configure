@@ -11805,6 +11805,9 @@ WINNT
 "
 OSX
 "
+"
+OpenBSD
+"
 )
 and
 target
