@@ -365,11 +365,7 @@ mValue
 (
 aDefaultValue
 )
-mComputedValue
-(
-aDefaultValue
-)
-mLastComputedValue
+mSetTargetStartValue
 (
 aDefaultValue
 )
@@ -1110,9 +1106,7 @@ IsEmpty
 )
 )
 {
-mLastComputedValue
-=
-mComputedValue
+mSetTargetStartValue
 =
 mValue
 =
@@ -1649,7 +1643,7 @@ AudioTimelineEvent
 SetTarget
 )
 {
-mLastComputedValue
+mSetTargetStartValue
 =
 GetValuesAtTimeHelperInternal
 (
@@ -1747,7 +1741,11 @@ GetValueAtTimeOfEvent
 const
 AudioTimelineEvent
 *
-aNext
+aEvent
+const
+AudioTimelineEvent
+*
+aPrevious
 )
 ;
 template
@@ -1808,10 +1806,7 @@ float
 mValue
 ;
 float
-mComputedValue
-;
-float
-mLastComputedValue
+mSetTargetStartValue
 ;
 }
 ;
