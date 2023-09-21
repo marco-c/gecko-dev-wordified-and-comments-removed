@@ -8,11 +8,9 @@ http
 /
 {
 {
-hosts
+domains
 [
-alt
-]
-[
+www1
 ]
 }
 }
