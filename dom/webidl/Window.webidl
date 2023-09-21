@@ -4868,15 +4868,6 @@ Window
 {
 [
 SameObject
-Pref
-=
-"
-dom
-.
-visualviewport
-.
-enabled
-"
 Replaceable
 ]
 readonly

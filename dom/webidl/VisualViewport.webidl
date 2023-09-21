@@ -123,15 +123,6 @@ interface
 *
 /
 [
-Pref
-=
-"
-dom
-.
-visualviewport
-.
-enabled
-"
 Exposed
 =
 Window
