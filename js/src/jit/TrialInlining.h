@@ -221,7 +221,7 @@ JSTracer
 trc
 )
 ;
-void
+bool
 traceWeak
 (
 JSTracer
