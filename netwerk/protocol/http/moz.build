@@ -931,14 +931,6 @@ extensions
 auth
 "
 ]
-if
-CONFIG
-[
-"
-NIGHTLY_BUILD
-"
-]
-:
 EXTRA_JS_MODULES
 +
 =
@@ -950,11 +942,6 @@ sys
 .
 mjs
 "
-]
-EXTRA_JS_MODULES
-+
-=
-[
 "
 WellKnownOpportunisticUtils
 .
