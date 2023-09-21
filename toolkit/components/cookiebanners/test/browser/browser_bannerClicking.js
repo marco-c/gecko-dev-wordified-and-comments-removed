@@ -221,6 +221,7 @@ NoClick
 }
 )
 ;
+await
 testClickResultTelemetry
 (
 {
