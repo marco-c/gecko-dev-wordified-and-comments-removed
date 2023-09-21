@@ -1368,10 +1368,10 @@ WebAssembly
 /
 gc
 gc
-I31New
+RefI31
 =
 >
-visit_i31_new
+visit_ref_i31
 gc
 I31GetS
 =

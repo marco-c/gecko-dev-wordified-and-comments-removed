@@ -5772,7 +5772,7 @@ read_var_u32
 )
 ?
 )
-0xd3
+0xd4
 =
 >
 visitor
@@ -5780,7 +5780,7 @@ visitor
 visit_ref_as_non_null
 (
 )
-0xd4
+0xd5
 =
 >
 visitor
@@ -5933,15 +5933,15 @@ Ok
 match
 code
 {
-0x20
+0x1c
 =
 >
 visitor
 .
-visit_i31_new
+visit_ref_i31
 (
 )
-0x21
+0x1d
 =
 >
 visitor
@@ -5949,7 +5949,7 @@ visitor
 visit_i31_get_s
 (
 )
-0x22
+0x1e
 =
 >
 visitor

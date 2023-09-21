@@ -249,14 +249,6 @@ usize
 ;
 pub
 const
-MAX_WASM_UNION_TYPES
-:
-usize
-=
-1000
-;
-pub
-const
 MAX_WASM_INSTANTIATION_EXPORTS
 :
 usize

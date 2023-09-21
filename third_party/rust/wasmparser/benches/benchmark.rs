@@ -1231,6 +1231,9 @@ true
 gc
 :
 true
+component_model_values
+:
+true
 }
 )
 }

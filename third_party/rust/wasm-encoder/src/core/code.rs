@@ -1263,7 +1263,7 @@ RefFunc
 u32
 )
 RefAsNonNull
-I31New
+RefI31
 I31GetS
 I31GetU
 TableInit
@@ -2337,7 +2337,7 @@ sink
 .
 push
 (
-0xD4
+0xD5
 )
 ;
 l
@@ -5544,12 +5544,12 @@ sink
 .
 push
 (
-0xD3
+0xd4
 )
 Instruction
 :
 :
-I31New
+RefI31
 =
 >
 {
@@ -5564,7 +5564,7 @@ sink
 .
 push
 (
-0x20
+0x1c
 )
 }
 Instruction
@@ -5585,7 +5585,7 @@ sink
 .
 push
 (
-0x21
+0x1d
 )
 }
 Instruction
@@ -5606,7 +5606,7 @@ sink
 .
 push
 (
-0x22
+0x1e
 )
 }
 Instruction

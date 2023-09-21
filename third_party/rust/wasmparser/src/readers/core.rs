@@ -11,6 +11,9 @@ mod
 data
 ;
 mod
+dylink0
+;
+mod
 elements
 ;
 mod
@@ -85,6 +88,16 @@ self
 :
 :
 data
+:
+:
+*
+;
+pub
+use
+self
+:
+:
+dylink0
 :
 :
 *

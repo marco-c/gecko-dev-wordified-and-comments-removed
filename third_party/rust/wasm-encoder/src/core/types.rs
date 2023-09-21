@@ -434,7 +434,7 @@ sink
 .
 push
 (
-0x7A
+0x78
 )
 StorageType
 :
@@ -446,7 +446,7 @@ sink
 .
 push
 (
-0x79
+0x77
 )
 StorageType
 :
@@ -715,7 +715,7 @@ sink
 .
 push
 (
-0x6C
+0x63
 )
 ;
 }
@@ -725,7 +725,7 @@ sink
 .
 push
 (
-0x6B
+0x64
 )
 ;
 }
@@ -870,7 +870,7 @@ sink
 .
 push
 (
-0x65
+0x71
 )
 HeapType
 :
@@ -882,7 +882,7 @@ sink
 .
 push
 (
-0x69
+0x72
 )
 HeapType
 :
@@ -894,7 +894,7 @@ sink
 .
 push
 (
-0x68
+0x73
 )
 HeapType
 :
@@ -918,7 +918,7 @@ sink
 .
 push
 (
-0x67
+0x6B
 )
 HeapType
 :
@@ -930,7 +930,7 @@ sink
 .
 push
 (
-0x66
+0x6A
 )
 HeapType
 :
@@ -942,7 +942,7 @@ sink
 .
 push
 (
-0x6A
+0x6C
 )
 HeapType
 :

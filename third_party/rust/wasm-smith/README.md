@@ -594,11 +594,11 @@ github
 .
 com
 /
-fitzgen
+bytecodealliance
 /
 wasm
 -
-smith
+tools
 /
 blob
 /
