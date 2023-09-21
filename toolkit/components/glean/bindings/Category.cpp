@@ -69,9 +69,10 @@ mozilla
 :
 glean
 {
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 Category
+mParent
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -129,7 +130,7 @@ aGivenProto
 }
 already_AddRefed
 <
-nsISupports
+GleanMetric
 >
 Category
 :
@@ -243,6 +244,7 @@ metricIdx
 value
 (
 )
+mParent
 )
 ;
 }

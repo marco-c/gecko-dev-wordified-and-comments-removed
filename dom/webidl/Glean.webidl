@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-interface
-nsISupports
-;
 [
 Func
 =
@@ -141,7 +138,7 @@ available
 *
 /
 getter
-nsISupports
+GleanMetric
 (
 DOMString
 identifier
@@ -310,7 +307,7 @@ label
 *
 /
 getter
-nsISupports
+GleanMetric
 (
 DOMString
 identifier
