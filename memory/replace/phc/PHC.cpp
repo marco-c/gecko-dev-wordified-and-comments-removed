@@ -841,7 +841,7 @@ mozilla
 phc
 :
 :
-Enabled
+OnlyFree
 #
 ifdef
 DEBUG
@@ -4971,13 +4971,6 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
-(
-aNewSize
->
-kPageSize
-)
-;
 Delay
 reuseDelay
 =

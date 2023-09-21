@@ -180,3 +180,9 @@ shouldDelay
 =
 false
 ;
+CrashTestUtils
+.
+enablePHC
+(
+)
+;
