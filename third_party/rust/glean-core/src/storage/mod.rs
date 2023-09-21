@@ -131,8 +131,12 @@ entry
 ping_section
 )
 .
-or_default
+or_insert_with
 (
+HashMap
+:
+:
+new
 )
 ;
 let
@@ -387,8 +391,12 @@ into
 )
 )
 .
-or_default
+or_insert_with
 (
+HashMap
+:
+:
+new
 )
 ;
 map

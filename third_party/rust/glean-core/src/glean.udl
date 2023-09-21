@@ -448,9 +448,6 @@ PingRateLimit
 ?
 rate_limit
 ;
-boolean
-enable_event_timestamps
-;
 }
 ;
 /
