@@ -162,15 +162,6 @@ export
 MOZ_PACKAGE_JSSHELL
 =
 1
-if
-test
--
-n
-"
-MOZ_ARTIFACT_TASK_WIN32_OPT
-"
-;
-then
 ac_add_options
 -
 -
@@ -179,4 +170,3 @@ enable
 eme
 =
 widevine
-fi
