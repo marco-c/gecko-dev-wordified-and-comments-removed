@@ -35297,6 +35297,9 @@ dependencies
 bincode
 "
 "
+d3d12
+"
+"
 log
 "
 "
@@ -35325,6 +35328,9 @@ hal
 wgpu
 -
 types
+"
+"
+winapi
 "
 ]
 [
