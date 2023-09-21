@@ -215,12 +215,12 @@ EqRefCode
 const
 OptRefCode
 =
-0x6c
+0x63
 ;
 const
 RefCode
 =
-0x6b
+0x64
 ;
 const
 FuncCode
@@ -241,6 +241,11 @@ const
 VoidCode
 =
 0x40
+;
+const
+BadType
+=
+0x79
 ;
 const
 UnreachableCode

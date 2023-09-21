@@ -892,9 +892,6 @@ body
 .
 push
 (
-AnyFuncCode
-+
-(
 mangle
 =
 =
@@ -902,10 +899,9 @@ mangle
 type
 "
 ?
-1
+BadType
 :
-0
-)
+AnyFuncCode
 )
 ;
 body
@@ -918,9 +914,6 @@ push
 body
 .
 push
-(
-RefFuncCode
-+
 (
 mangle
 =
@@ -931,10 +924,9 @@ ref
 func
 "
 ?
-1
+BadType
 :
-0
-)
+RefFuncCode
 )
 ;
 body
