@@ -153,7 +153,7 @@ override
 struct
 IteratorData
 {
-UniquePtr
+RefPtr
 <
 FileSystemDirectoryIterator
 :

@@ -93,10 +93,11 @@ FileSystemManager
 >
 &
 aManager
-UniquePtr
+RefPtr
 <
 Impl
 >
+&
 aImpl
 )
 :
@@ -110,13 +111,7 @@ aManager
 )
 mImpl
 (
-std
-:
-:
-move
-(
 aImpl
-)
 )
 {
 }
