@@ -117,16 +117,6 @@ GLContext
 gl
 )
 {
-MOZ_ASSERT
-(
-gl
--
->
-IsCurrent
-(
-)
-)
-;
 GLuint
 ret
 =
