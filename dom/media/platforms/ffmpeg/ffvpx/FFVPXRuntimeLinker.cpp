@@ -212,7 +212,7 @@ if
 lib
 )
 {
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 unable

@@ -277,6 +277,9 @@ mExtraData
 AVCodecID
 mCodecID
 ;
+bool
+mVideoCodec
+;
 protected
 :
 virtual

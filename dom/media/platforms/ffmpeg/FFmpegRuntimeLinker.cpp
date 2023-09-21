@@ -602,7 +602,7 @@ break
 }
 }
 }
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 H264
@@ -634,7 +634,7 @@ i
 +
 )
 {
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 %
@@ -656,7 +656,7 @@ i
 )
 ;
 }
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 ]
