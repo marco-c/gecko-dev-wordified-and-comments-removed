@@ -387,7 +387,6 @@ self
 Channel
 ]
 {
-&
 self
 .
 coefficient
@@ -410,7 +409,6 @@ self
 Channel
 ]
 {
-&
 self
 .
 coefficient
