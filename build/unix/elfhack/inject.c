@@ -1188,6 +1188,9 @@ relhack_end
 ;
 }
 }
+#
+ifndef
+ANDROID
 extern
 __attribute__
 (
@@ -1215,6 +1218,8 @@ char
 env
 )
 ;
+#
+endif
 void
 _relrhack_wrap_init
 (
@@ -1234,6 +1239,9 @@ _relrhack_init
 (
 )
 ;
+#
+ifndef
+ANDROID
 _init
 (
 argc
@@ -1241,6 +1249,8 @@ argv
 env
 )
 ;
+#
+endif
 }
 #
 endif
