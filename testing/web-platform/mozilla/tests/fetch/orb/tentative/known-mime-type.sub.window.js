@@ -36,7 +36,7 @@ resources
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -68,7 +68,7 @@ ttf
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -100,7 +100,7 @@ plain
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -137,7 +137,7 @@ empty
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -172,7 +172,7 @@ empty
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path

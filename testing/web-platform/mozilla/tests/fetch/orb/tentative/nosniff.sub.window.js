@@ -36,13 +36,10 @@ resources
 ;
 promise_test
 (
-async
-(
-)
+t
 =
 >
-await
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -84,7 +81,7 @@ nosniff
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -127,7 +124,7 @@ nosniff
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path

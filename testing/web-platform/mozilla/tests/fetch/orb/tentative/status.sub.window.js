@@ -36,7 +36,7 @@ resources
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -80,7 +80,7 @@ status
 ;
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
