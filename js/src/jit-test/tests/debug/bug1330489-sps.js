@@ -26,14 +26,12 @@ if
 !
 getBuildConfiguration
 (
-)
-[
 "
 arm
 -
 simulator
 "
-]
+)
 )
 throw
 "

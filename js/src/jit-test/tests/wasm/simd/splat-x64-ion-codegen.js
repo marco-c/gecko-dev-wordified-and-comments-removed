@@ -55,9 +55,10 @@ if
 !
 getBuildConfiguration
 (
-)
-.
+"
 windows
+"
+)
 )
 {
 codegenTestX64_PTYPE_v128

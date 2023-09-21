@@ -285,9 +285,10 @@ getBuildConfiguration
 !
 getBuildConfiguration
 (
-)
-.
+"
 debug
+"
+)
 )
 {
 let

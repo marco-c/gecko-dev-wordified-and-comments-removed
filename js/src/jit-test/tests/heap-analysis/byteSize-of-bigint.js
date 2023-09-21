@@ -1,15 +1,8 @@
 const
-config
+pointerByteSize
 =
 getBuildConfiguration
 (
-)
-;
-const
-pointerByteSize
-=
-config
-[
 "
 pointer
 -
@@ -17,7 +10,7 @@ byte
 -
 size
 "
-]
+)
 ;
 assertEq
 (

@@ -14,12 +14,10 @@ if
 !
 getBuildConfiguration
 (
-)
-[
-'
+"
 decorators
-'
-]
+"
+)
 )
 {
 function
