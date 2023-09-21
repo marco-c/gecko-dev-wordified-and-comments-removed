@@ -814,8 +814,6 @@ NotifyPermissionChange
 (
 nsCString
 type
-uint32_t
-permission
 )
 ;
 }
