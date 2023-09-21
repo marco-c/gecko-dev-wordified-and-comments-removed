@@ -187,7 +187,7 @@ branch
 =
 =
 "
-main
+master
 "
     
 else

@@ -298,7 +298,7 @@ else
 "
 upstream
 /
-main
+master
 "
     
 repo
