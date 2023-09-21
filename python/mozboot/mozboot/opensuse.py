@@ -112,6 +112,15 @@ watchman
 "
 ]
         
+packages
++
+=
+[
+"
+awk
+"
+]
+        
 self
 .
 zypper_install
