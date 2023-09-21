@@ -352,7 +352,7 @@ stub
 (
 SearchSERPCategorization
 "
-logDomains
+dummyLogger
 "
 )
 ;
