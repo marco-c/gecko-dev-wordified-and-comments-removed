@@ -192,11 +192,13 @@ initialized
 =
 false
 ;
-Services
+ExtensionParent
 .
-search
+apiManager
 .
-promiseInitialized
+global
+.
+searchInitialized
 .
 then
 (

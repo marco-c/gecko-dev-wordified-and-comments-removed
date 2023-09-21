@@ -87,6 +87,9 @@ true
 replaceUrlInTab
 :
 true
+searchInitialized
+:
+true
 sidebarActionFor
 :
 true
