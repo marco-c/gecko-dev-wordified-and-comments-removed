@@ -2944,7 +2944,7 @@ if
 cp
 -
 >
-NeedsPermissionsUpdate
+NeedsSecondaryKeyPermissionsUpdate
 (
 aSecondaryKey
 )
