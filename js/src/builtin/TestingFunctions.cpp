@@ -10263,7 +10263,7 @@ false
 }
 sprinter
 .
-jsprintf
+printf
 (
 "
 ;
@@ -10277,7 +10277,7 @@ n
 ;
 sprinter
 .
-jsprintf
+printf
 (
 "
 ;
@@ -10553,7 +10553,7 @@ method
 {
 sprinter
 .
-jsprintf
+printf
 (
 "
 ;
@@ -10602,7 +10602,7 @@ baseline
 {
 sprinter
 .
-jsprintf
+printf
 (
 "
 ;
