@@ -1950,16 +1950,6 @@ childSHistory
 )
 ;
 }
-if
-(
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
-)
-{
 BackgroundSessionStorageManager
 :
 :
@@ -1976,7 +1966,6 @@ Id
 )
 )
 ;
-}
 aNewContext
 -
 >
