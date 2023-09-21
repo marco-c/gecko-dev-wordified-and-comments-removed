@@ -75,15 +75,6 @@ html
 ]
 [
 "
-document_l10n
-/
-test_telemetry
-.
-html
-"
-]
-[
-"
 dom_localization
 /
 test_attr_sanitized
