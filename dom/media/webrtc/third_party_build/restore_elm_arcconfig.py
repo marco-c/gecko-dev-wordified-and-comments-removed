@@ -103,5 +103,17 @@ this
 change
 to
 ELM
+:
+"
+)
+    
+print
+(
+"
+hg
+push
+-
+r
+tip
 "
 )
