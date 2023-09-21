@@ -102,6 +102,12 @@ gecko_taskgraph
 .
 transforms
 .
+hardened_signing
+-
+gecko_taskgraph
+.
+transforms
+.
 task
 kind
 -
