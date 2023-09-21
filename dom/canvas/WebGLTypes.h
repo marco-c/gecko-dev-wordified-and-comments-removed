@@ -4150,6 +4150,9 @@ ImageData
 class
 OffscreenCanvas
 ;
+class
+VideoFrame
+;
 }
 struct
 TexImageSource
@@ -4208,6 +4211,16 @@ dom
 OffscreenCanvas
 *
 mOffscreenCanvas
+=
+nullptr
+;
+const
+dom
+:
+:
+VideoFrame
+*
+mVideoFrame
 =
 nullptr
 ;
