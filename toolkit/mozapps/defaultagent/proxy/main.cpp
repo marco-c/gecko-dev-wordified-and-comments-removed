@@ -403,4 +403,12 @@ si
 pi
 )
 ;
+WaitForSingleObject
+(
+pi
+.
+hProcess
+INFINITE
+)
+;
 }
