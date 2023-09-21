@@ -1578,6 +1578,17 @@ active
 )
 ;
 }
+panel
+-
+list
+{
+overflow
+-
+y
+:
+visible
+;
+}
 fxview
 -
 category
