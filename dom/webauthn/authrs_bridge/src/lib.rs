@@ -240,11 +240,6 @@ r
 {
 {
 "
-is_ctap2
-"
-:
-true
-"
 action
 "
 :
@@ -311,11 +306,6 @@ r
 "
 {
 {
-"
-is_ctap2
-"
-:
-true
 "
 action
 "
@@ -393,11 +383,6 @@ r
 "
 {
 {
-"
-is_ctap2
-"
-:
-true
 "
 action
 "
