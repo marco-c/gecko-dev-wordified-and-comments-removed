@@ -63,6 +63,9 @@ sv
 len
 =
 0x2
+is_inline
+=
+true
 }
 [
 Type
@@ -142,6 +145,9 @@ sv
 len
 =
 0x5
+is_inline
+=
+false
 }
 [
 Type
@@ -257,6 +263,9 @@ sv
 len
 =
 0x5
+is_inline
+=
+false
 }
 [
 Type

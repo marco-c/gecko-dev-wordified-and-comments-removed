@@ -258,7 +258,7 @@ and
 for
 matching
 types
-descibe
+describe
 how
 to
 display
