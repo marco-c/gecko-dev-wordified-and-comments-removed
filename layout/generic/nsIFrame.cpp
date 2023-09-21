@@ -27819,16 +27819,6 @@ this
 )
 ;
 }
-if
-(
-StaticPrefs
-:
-:
-layout_css_grid_item_baxis_measurement_enabled
-(
-)
-)
-{
 RemoveProperty
 (
 nsGridContainerFrame
@@ -27842,7 +27832,6 @@ Prop
 )
 )
 ;
-}
 }
 void
 nsIFrame
