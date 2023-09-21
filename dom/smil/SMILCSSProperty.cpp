@@ -368,16 +368,9 @@ SMILOverrideStyle
 )
 -
 >
-SetPropertyValue
+ClearSMILValue
 (
 mPropID
-"
-"
-_ns
-nullptr
-IgnoreErrors
-(
-)
 )
 ;
 }
