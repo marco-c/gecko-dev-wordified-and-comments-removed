@@ -2750,8 +2750,6 @@ const
 nsACString
 &
 aType
-uint32_t
-aPermission
 const
 nsACString
 &
@@ -2946,7 +2944,7 @@ if
 cp
 -
 >
-NeedsSecondaryKeyPermissionsUpdate
+NeedsPermissionsUpdate
 (
 aSecondaryKey
 )
@@ -2981,7 +2979,6 @@ wgp
 SendNotifyPermissionChange
 (
 aType
-aPermission
 )
 ;
 Unused
@@ -8175,7 +8172,6 @@ isSecondaryKeyed
 NotifySecondaryKeyPermissionUpdateInContentProcess
 (
 aType
-aPermission
 secondaryKey
 aPrincipal
 )

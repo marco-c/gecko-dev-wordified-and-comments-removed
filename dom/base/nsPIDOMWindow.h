@@ -1746,11 +1746,6 @@ SaveStorageAccessPermissionGranted
 (
 )
 ;
-void
-SaveStorageAccessPermissionRevoked
-(
-)
-;
 bool
 UsingStorageAccess
 (
@@ -2102,6 +2097,9 @@ dom
 Event
 *
 mEvent
+;
+bool
+mUsingStorageAccess
 ;
 RefPtr
 <
