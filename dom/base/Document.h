@@ -4040,8 +4040,6 @@ nsIPrincipal
 aPrincipal
 bool
 aHasUserInteraction
-bool
-aRequireUserInteraction
 const
 Maybe
 <
