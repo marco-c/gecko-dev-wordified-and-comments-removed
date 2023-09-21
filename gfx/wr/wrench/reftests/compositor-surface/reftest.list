@@ -93,3 +93,16 @@ overlay
 ref
 .
 yaml
+platform
+(
+linux
+mac
+)
+=
+=
+mask
+.
+yaml
+mask
+.
+png
