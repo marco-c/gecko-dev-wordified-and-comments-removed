@@ -3132,6 +3132,22 @@ params
 test_objects
 "
 ]
+        
+if
+"
+subsuite
+"
+in
+params
+:
+            
+del
+params
+[
+"
+subsuite
+"
+]
     
 if
 params
