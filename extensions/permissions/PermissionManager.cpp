@@ -2750,6 +2750,8 @@ const
 nsACString
 &
 aType
+uint32_t
+aPermission
 const
 nsACString
 &
@@ -2979,6 +2981,7 @@ wgp
 SendNotifyPermissionChange
 (
 aType
+aPermission
 )
 ;
 Unused
@@ -8172,6 +8175,7 @@ isSecondaryKeyed
 NotifySecondaryKeyPermissionUpdateInContentProcess
 (
 aType
+aPermission
 secondaryKey
 aPrincipal
 )

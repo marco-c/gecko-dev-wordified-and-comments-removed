@@ -1746,6 +1746,11 @@ SaveStorageAccessPermissionGranted
 (
 )
 ;
+void
+SaveStorageAccessPermissionRevoked
+(
+)
+;
 bool
 UsingStorageAccess
 (
