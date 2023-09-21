@@ -3109,7 +3109,7 @@ strcmp
 (
 name
 "
-elf_header
+__ehdr_start
 "
 )
 =
