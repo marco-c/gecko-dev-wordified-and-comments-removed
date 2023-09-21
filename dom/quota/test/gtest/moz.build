@@ -121,6 +121,11 @@ TestScopedLogExtraInfo
 cpp
 "
 "
+TestTelemetry
+.
+cpp
+"
+"
 TestUsageInfo
 .
 cpp
