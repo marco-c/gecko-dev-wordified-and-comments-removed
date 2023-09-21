@@ -236,14 +236,6 @@ loaded
 }
 ;
 [
-Func
-=
-"
-FontFaceSet
-:
-:
-IsEnabled
-"
 Exposed
 =
 (

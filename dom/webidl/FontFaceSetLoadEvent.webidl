@@ -165,14 +165,6 @@ fontfaces
 }
 ;
 [
-Func
-=
-"
-FontFaceSet
-:
-:
-IsEnabled
-"
 Exposed
 =
 (
