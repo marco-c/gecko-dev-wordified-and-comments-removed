@@ -742,7 +742,14 @@ module
 )
 )
                     
-return
+cleanMemoryMap
+.
+append
+(
+None
+)
+                    
+continue
                 
 if
 len
@@ -780,9 +787,16 @@ module
                     
 )
                     
-return
+cleanMemoryMap
+.
+append
+(
+None
+)
+                    
+continue
                 
-module
+moduleV3
 =
 getModuleV3
 (
@@ -791,18 +805,30 @@ module
 )
                 
 if
-module
+moduleV3
 is
 None
 :
                     
-return
+LOG
+.
+debug
+(
+"
+Failed
+to
+get
+Module
+V3
+.
+"
+)
                 
 cleanMemoryMap
 .
 append
 (
-module
+moduleV3
 )
             
 self
@@ -1101,6 +1127,14 @@ combinedMemoryMap
 [
 moduleIndex
 ]
+                
+if
+module
+is
+None
+:
+                    
+continue
                 
 newIndex
 =
@@ -1610,6 +1644,14 @@ combinedMemoryMap
 :
             
 if
+module
+is
+None
+:
+                
+continue
+            
+if
 not
 self
 .
@@ -1724,6 +1766,14 @@ combinedMemoryMap
 [
 moduleIndex
 ]
+            
+if
+module
+is
+None
+:
+                
+continue
             
 if
 (
