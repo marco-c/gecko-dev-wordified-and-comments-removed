@@ -101,6 +101,12 @@ BrowsingContextWebProgress
 aWebProgress
 )
 ;
+static
+void
+ResetAll
+(
+)
+;
 BounceTrackingRecord
 *
 GetBounceTrackingRecord
