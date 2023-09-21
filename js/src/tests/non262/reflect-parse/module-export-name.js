@@ -528,10 +528,12 @@ if
 (
 getRealmConfiguration
 (
-"
-importAssertions
-"
 )
+[
+'
+importAssertions
+'
+]
 )
 {
 assertModule

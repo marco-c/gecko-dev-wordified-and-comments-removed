@@ -26,12 +26,14 @@ if
 !
 getBuildConfiguration
 (
-"
+)
+[
+'
 root
 -
 analysis
-"
-)
+'
+]
 )
 {
 foo

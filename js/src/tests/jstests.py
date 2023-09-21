@@ -4067,10 +4067,9 @@ test
 "
 getBuildConfiguration
 (
-'
-release_or_beta
-'
 )
+.
+release_or_beta
 "
 )
     
@@ -4103,10 +4102,9 @@ test
 "
 getBuildConfiguration
 (
-'
-early_beta_or_earlier
-'
 )
+.
+early_beta_or_earlier
 "
     
 )

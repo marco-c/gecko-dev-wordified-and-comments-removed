@@ -1495,10 +1495,12 @@ if
 (
 getRealmConfiguration
 (
-"
-importAssertions
-"
 )
+[
+'
+importAssertions
+'
+]
 )
 {
 program

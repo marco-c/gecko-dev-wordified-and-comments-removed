@@ -18,6 +18,8 @@ if
 (
 getBuildConfiguration
 (
+)
+[
 "
 pointer
 -
@@ -25,7 +27,7 @@ byte
 -
 size
 "
-)
+]
 =
 =
 4
@@ -104,6 +106,8 @@ if
 (
 getBuildConfiguration
 (
+)
+[
 "
 pointer
 -
@@ -111,7 +115,7 @@ byte
 -
 size
 "
-)
+]
 =
 =
 8

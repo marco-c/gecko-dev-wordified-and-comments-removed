@@ -228,10 +228,12 @@ getBuildConfiguration
 &
 getBuildConfiguration
 (
+)
+[
 '
 decorators
 '
-)
+]
 )
 "
     
@@ -2059,12 +2061,14 @@ getBuildConfiguration
 &
 getBuildConfiguration
 (
+)
+[
 '
 arm64
 -
 simulator
 '
-)
+]
 )
 "
                         

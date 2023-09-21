@@ -477,10 +477,9 @@ hasDisassembler
 &
 getBuildConfiguration
 (
-"
-x64
-"
 )
+.
+x64
 )
 {
 const

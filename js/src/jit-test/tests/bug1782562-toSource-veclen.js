@@ -181,6 +181,8 @@ assertEq
 (
 getBuildConfiguration
 (
+)
+[
 "
 pointer
 -
@@ -188,7 +190,7 @@ byte
 -
 size
 "
-)
+]
 8
 "
 32

@@ -755,6 +755,8 @@ if
 (
 getBuildConfiguration
 (
+)
+[
 "
 mapped
 -
@@ -762,7 +764,7 @@ array
 -
 buffer
 "
-)
+]
 )
 {
 let

@@ -622,12 +622,14 @@ if
 !
 getBuildConfiguration
 (
+)
+[
 "
 has
 -
 ctypes
 "
-)
+]
 )
 quit
 (

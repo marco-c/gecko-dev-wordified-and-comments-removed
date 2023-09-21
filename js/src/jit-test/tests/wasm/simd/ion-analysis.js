@@ -3,10 +3,9 @@ isArm64
 =
 getBuildConfiguration
 (
-"
-arm64
-"
 )
+.
+arm64
 ;
 let
 perm32x4_pattern
