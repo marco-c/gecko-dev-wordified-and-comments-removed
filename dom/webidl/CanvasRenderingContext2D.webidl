@@ -1429,15 +1429,6 @@ r1
 )
 ;
 [
-Pref
-=
-"
-canvas
-.
-createConicGradient
-.
-enabled
-"
 NewObject
 ]
 CanvasGradient

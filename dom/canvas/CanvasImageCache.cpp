@@ -76,15 +76,6 @@ include
 "
 mozilla
 /
-StaticPrefs_canvas
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
