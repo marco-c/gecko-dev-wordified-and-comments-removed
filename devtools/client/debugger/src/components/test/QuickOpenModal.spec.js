@@ -189,7 +189,7 @@ blackBoxRanges
 :
 {
 }
-tabUrls
+openedTabUrls
 :
 [
 ]
@@ -697,7 +697,7 @@ com
 )
 }
 ]
-tabUrls
+openedTabUrls
 :
 [
 "
