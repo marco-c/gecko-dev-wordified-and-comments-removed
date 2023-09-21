@@ -79,6 +79,8 @@ progressbar
 \
 unzip
 \
+xxd
+\
 zip
 \
 &
