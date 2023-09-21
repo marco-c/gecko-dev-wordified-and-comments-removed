@@ -1029,7 +1029,7 @@ super
 )
 unsafe
 fn
-wait_idle
+wait_for_present_queue_idle
 (
 &
 self

@@ -1251,6 +1251,10 @@ FastHashSet
 <
 Sampling
 >
+pub
+dual_source_blending
+:
+bool
 }
 impl
 FunctionInfo
@@ -5370,6 +5374,9 @@ FastHashSet
 default
 (
 )
+dual_source_blending
+:
+false
 }
 ;
 let
@@ -6031,6 +6038,9 @@ FastHashSet
 default
 (
 )
+dual_source_blending
+:
+false
 }
 ;
 let

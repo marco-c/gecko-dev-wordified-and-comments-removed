@@ -1253,6 +1253,9 @@ Location
 location
 interpolation
 sampling
+second_blend_source
+:
+false
 }
 )
 _

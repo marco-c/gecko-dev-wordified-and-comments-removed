@@ -1330,5 +1330,13 @@ allInvocationsEqual
 "
 main
 "
+super
+:
+:
+MODF_FUNCTION
+super
+:
+:
+FREXP_FUNCTION
 ]
 ;
