@@ -123,6 +123,9 @@ aNameSpaceID
 nsAtom
 *
 aAttrName
+nsAtom
+*
+aFallback
 )
 :
 nsTextNode
@@ -146,6 +149,10 @@ aNameSpaceID
 mAttrName
 (
 aAttrName
+)
+mFallback
+(
+aFallback
 )
 {
 NS_ASSERTION
@@ -243,6 +250,7 @@ aNodeInfo
 )
 mNameSpaceID
 mAttrName
+mFallback
 )
 ;
 if
@@ -318,6 +326,12 @@ RefPtr
 nsAtom
 >
 mAttrName
+;
+RefPtr
+<
+nsAtom
+>
+mFallback
 ;
 }
 ;
@@ -877,6 +891,9 @@ aNameSpaceID
 nsAtom
 *
 aAttrName
+nsAtom
+*
+aFallback
 nsIContent
 *
 *
@@ -960,6 +977,7 @@ forget
 )
 aNameSpaceID
 aAttrName
+aFallback
 )
 ;
 textNode
@@ -1260,6 +1278,9 @@ mGrandparent
 nsAutoString
 attrValue
 ;
+if
+(
+!
 mGrandparent
 -
 >
@@ -1269,7 +1290,17 @@ mNameSpaceID
 mAttrName
 attrValue
 )
+)
+{
+mFallback
+-
+>
+ToString
+(
+attrValue
+)
 ;
+}
 SetText
 (
 attrValue
