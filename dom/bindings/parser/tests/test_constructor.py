@@ -1621,7 +1621,7 @@ Func
 Document
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
 constructor
@@ -1730,7 +1730,7 @@ func
 Document
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
     
@@ -1786,7 +1786,7 @@ Func
 Document
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
 \
@@ -1905,7 +1905,7 @@ func
 Document
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
         

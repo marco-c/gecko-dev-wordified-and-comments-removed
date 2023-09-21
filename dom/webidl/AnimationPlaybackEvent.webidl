@@ -142,14 +142,6 @@ apply
 *
 /
 [
-Func
-=
-"
-Document
-:
-:
-IsWebAnimationsEnabled
-"
 Exposed
 =
 Window

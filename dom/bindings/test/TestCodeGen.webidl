@@ -11020,7 +11020,7 @@ Func
 Document
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
 interface
@@ -11098,7 +11098,7 @@ Func
 Document
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
 constructor
@@ -11156,7 +11156,7 @@ Func
 Document
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
 constructor
@@ -11191,7 +11191,7 @@ Func
 Document
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
 /

@@ -236,14 +236,6 @@ keyframes
 object
 .
 [
-Func
-=
-"
-Document
-:
-:
-IsWebAnimationsEnabled
-"
 RunConstructorInCallerCompartment
 Exposed
 =

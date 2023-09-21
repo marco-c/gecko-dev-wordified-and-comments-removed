@@ -325,14 +325,6 @@ null
 }
 ;
 [
-Func
-=
-"
-Document
-:
-:
-IsWebAnimationsEnabled
-"
 Exposed
 =
 Window
