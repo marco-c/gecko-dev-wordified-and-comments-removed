@@ -66,6 +66,8 @@ rules
 mk
 ifdef
 COMPILE_ENVIRONMENT
+ifndef
+RELRHACK
 test
 -
 array
@@ -405,5 +407,6 @@ CURDIR
 )
 /
 dummy
+endif
 endif
 endif
