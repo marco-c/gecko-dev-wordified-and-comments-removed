@@ -3148,6 +3148,13 @@ status
 =
 res
     
+if
+not
+log
+.
+has_shutdown
+:
+        
 log
 .
 shutdown
