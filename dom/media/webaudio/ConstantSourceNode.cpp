@@ -490,9 +490,8 @@ value
 =
 mOffset
 .
-GetValueAtTime
+GetValue
 (
-ticks
 )
 ;
 std
