@@ -154,6 +154,11 @@ nsCString
 aBuffer
 )
 ;
+protected
+:
+nsCString
+mClientDataJSON
+;
 private
 :
 nsCOMPtr
@@ -161,9 +166,6 @@ nsCOMPtr
 nsPIDOMWindowInner
 >
 mParent
-;
-nsCString
-mClientDataJSON
 ;
 JS
 :

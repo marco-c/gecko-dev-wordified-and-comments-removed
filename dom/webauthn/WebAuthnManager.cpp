@@ -3324,7 +3324,7 @@ KeyHandle
 credential
 -
 >
-SetResponse
+SetAttestationResponse
 (
 attestation
 )
@@ -3611,7 +3611,7 @@ KeyHandle
 credential
 -
 >
-SetResponse
+SetAssertionResponse
 (
 assertion
 )
