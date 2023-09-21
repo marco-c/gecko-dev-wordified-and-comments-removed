@@ -3314,6 +3314,13 @@ pocketConfig
 .
 onboardingExperience
 ;
+const
+{
+spocTopsitesPlacementEnabled
+}
+=
+pocketConfig
+;
 let
 items
 =
@@ -3586,6 +3593,7 @@ feedUrl
 items
 sponsoredCollectionsEnabled
 spocPlacementData
+spocTopsitesPlacementEnabled
 spocTopsitesPlacementData
 spocPositions
 :
@@ -9718,6 +9726,9 @@ zone_ids
 217995
 ]
 }
+spocTopsitesPlacementEnabled
+=
+false
 spocTopsitesPlacementData
 =
 {
@@ -9826,6 +9837,9 @@ topsites
 .
 .
 (
+spocTopsitesPlacementEnabled
+&
+&
 spocTopsitesPlacementData
 ?
 {

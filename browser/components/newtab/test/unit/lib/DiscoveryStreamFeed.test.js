@@ -4230,6 +4230,9 @@ values
 pocketConfig
 :
 {
+spocTopsitesPlacementEnabled
+:
+true
 spocTopsitesAdTypes
 :
 "
