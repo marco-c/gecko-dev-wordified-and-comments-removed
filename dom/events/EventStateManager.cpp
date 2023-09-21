@@ -23469,13 +23469,6 @@ mFlags
 mOnlyChromeDispatch
 =
 aNoContentDispatch
-&
-&
-!
-aMouseUpEvent
--
->
-mUseLegacyNonPrimaryDispatch
 ;
 event
 .

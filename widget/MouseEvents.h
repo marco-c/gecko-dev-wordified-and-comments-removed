@@ -694,10 +694,6 @@ mIgnoreRootScrollFrame
 (
 false
 )
-mUseLegacyNonPrimaryDispatch
-(
-false
-)
 mClickEventPrevented
 (
 false
@@ -746,10 +742,6 @@ mClickCount
 0
 )
 mIgnoreRootScrollFrame
-(
-false
-)
-mUseLegacyNonPrimaryDispatch
 (
 false
 )
@@ -828,10 +820,6 @@ mClickCount
 0
 )
 mIgnoreRootScrollFrame
-(
-false
-)
-mUseLegacyNonPrimaryDispatch
 (
 false
 )
@@ -977,9 +965,6 @@ bool
 mIgnoreRootScrollFrame
 ;
 bool
-mUseLegacyNonPrimaryDispatch
-;
-bool
 mClickEventPrevented
 ;
 void
@@ -1022,12 +1007,6 @@ mIgnoreRootScrollFrame
 aEvent
 .
 mIgnoreRootScrollFrame
-;
-mUseLegacyNonPrimaryDispatch
-=
-aEvent
-.
-mUseLegacyNonPrimaryDispatch
 ;
 mClickEventPrevented
 =
