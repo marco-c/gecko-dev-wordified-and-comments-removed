@@ -241,6 +241,11 @@ return
 accumulatedBytecodeSize_
 ;
 }
+void
+ignoreFailedICHash
+(
+)
+;
 }
 ;
 }
