@@ -2441,6 +2441,8 @@ android
 debug
 :
 -
+artifact
+:
 '
 wrench
 -
@@ -2448,6 +2450,9 @@ debug
 .
 apk
 '
+extract
+:
+false
 toolchain
 :
 -
@@ -2789,6 +2794,8 @@ android
 release
 :
 -
+artifact
+:
 '
 wrench
 -
@@ -2796,6 +2803,9 @@ release
 .
 apk
 '
+extract
+:
+false
 toolchain
 :
 -
@@ -3072,6 +3082,8 @@ android
 debug
 :
 -
+artifact
+:
 '
 wrench
 -
@@ -3079,6 +3091,9 @@ debug
 .
 apk
 '
+extract
+:
+false
 -
 '
 reftests
@@ -3389,6 +3404,8 @@ android
 release
 :
 -
+artifact
+:
 '
 wrench
 -
@@ -3396,6 +3413,9 @@ release
 .
 apk
 '
+extract
+:
+false
 -
 '
 reftests
@@ -3708,6 +3728,8 @@ android
 debug
 :
 -
+artifact
+:
 '
 wrench
 -
@@ -3715,6 +3737,9 @@ debug
 .
 apk
 '
+extract
+:
+false
 -
 '
 reftests
@@ -4027,6 +4052,8 @@ android
 release
 :
 -
+artifact
+:
 '
 wrench
 -
@@ -4034,6 +4061,9 @@ release
 .
 apk
 '
+extract
+:
+false
 -
 '
 reftests

@@ -171,7 +171,33 @@ instr
 =
 [
             
+{
+"
 artifact
+"
+:
+artifact
+"
+extract
+"
+:
+not
+artifact
+.
+endswith
+(
+(
+"
+.
+dmg
+"
+"
+.
+apk
+"
+)
+)
+}
             
 "
 target
