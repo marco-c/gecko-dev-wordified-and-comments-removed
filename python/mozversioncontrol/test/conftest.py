@@ -127,6 +127,12 @@ bar
         
 git
 init
+-
+-
+initial
+-
+branch
+main
         
 git
 config
@@ -192,7 +198,7 @@ branch
 u
 upstream
 /
-master
+main
         
 "
 "
