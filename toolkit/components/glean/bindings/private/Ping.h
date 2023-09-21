@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIGleanMetrics
+nsIGleanPing
 .
 h
 "

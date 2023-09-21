@@ -125,6 +125,13 @@ h
 "
 bindings
 /
+GleanMetric
+.
+h
+"
+"
+bindings
+/
 GleanPings
 .
 h
@@ -449,6 +456,13 @@ cpp
 bindings
 /
 Glean
+.
+cpp
+"
+"
+bindings
+/
+GleanMetric
 .
 cpp
 "

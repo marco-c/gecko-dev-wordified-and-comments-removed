@@ -782,7 +782,7 @@ testGetValue
 (
 )
 /
-NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
+DataError
 /
 "
 Did
@@ -1897,7 +1897,7 @@ testGetValue
 (
 )
 /
-NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
+DataError
 /
 "
 Can
@@ -2256,7 +2256,7 @@ testGetValue
 (
 )
 /
-NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
+DataError
 /
 "
 Should
@@ -2528,7 +2528,7 @@ testGetValue
 (
 )
 /
-NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
+DataError
 /
 "
 Can
@@ -2703,7 +2703,7 @@ testGetValue
 (
 )
 /
-NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
+DataError
 /
 "
 Can
@@ -2852,7 +2852,7 @@ testGetValue
 (
 )
 /
-NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
+DataError
 /
 "
 Can
@@ -2953,7 +2953,7 @@ testGetValue
 (
 )
 /
-NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
+DataError
 /
 "
 Can
@@ -3049,7 +3049,7 @@ testGetValue
 (
 )
 /
-NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
+DataError
 /
 "
 Can

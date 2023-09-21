@@ -3791,6 +3791,11 @@ Glean
 webidl
 "
 "
+GleanMetrics
+.
+webidl
+"
+"
 GleanPings
 .
 webidl
