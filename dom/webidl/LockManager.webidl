@@ -123,15 +123,6 @@ Exposed
 Window
 Worker
 )
-Pref
-=
-"
-dom
-.
-weblocks
-.
-enabled
-"
 ]
 interface
 LockManager
