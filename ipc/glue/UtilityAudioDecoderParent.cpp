@@ -437,6 +437,12 @@ defined
 (
 XP_WIN
 )
+#
+if
+defined
+(
+NS_FREE_PERMANENT_DATA
+)
 UtilityProcessImpl
 :
 :
@@ -450,6 +456,8 @@ dll
 "
 )
 ;
+#
+endif
 auto
 rv
 =
