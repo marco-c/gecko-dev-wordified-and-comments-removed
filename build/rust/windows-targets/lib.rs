@@ -240,6 +240,10 @@ generated
 quote
 !
 {
+extern
+#
+abi
+{
 #
 [
 link
@@ -250,10 +254,6 @@ name
 library
 )
 ]
-extern
-#
-abi
-{
 #
 link_name_attr
 pub
