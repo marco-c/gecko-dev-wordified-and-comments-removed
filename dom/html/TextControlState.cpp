@@ -5621,7 +5621,7 @@ TextInputListener
 const
 mTextInputListener
 ;
-nsString
+nsAutoString
 mSettingValue
 ;
 const
@@ -10592,7 +10592,7 @@ aValue
 )
 const
 {
-nsString
+nsAutoString
 value
 ;
 GetValue
