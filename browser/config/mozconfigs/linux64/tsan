@@ -50,6 +50,14 @@ unix
 mozconfig
 .
 tsan
+ac_add_options
+-
+-
+disable
+-
+elf
+-
+hack
 #
 Package
 js
