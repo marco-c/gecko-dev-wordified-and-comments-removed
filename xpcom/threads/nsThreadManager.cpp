@@ -1168,10 +1168,6 @@ mCurThreadIndex
 (
 0
 )
-mMainPRThread
-(
-nullptr
-)
 mInitialized
 (
 false
@@ -1412,15 +1408,6 @@ jemalloc_set_main_thread
 ;
 #
 endif
-mMainThread
--
->
-GetPRThread
-(
-&
-mMainPRThread
-)
-;
 AbstractThread
 :
 :
