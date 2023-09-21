@@ -2389,7 +2389,8 @@ SendFlushFOGData
 )
 ;
 }
-{
+if
+(
 RefPtr
 <
 mozilla
@@ -2401,7 +2402,7 @@ gmp
 GeckoMediaPluginServiceParent
 >
 gmps
-(
+=
 mozilla
 :
 :
@@ -2415,7 +2416,7 @@ GetSingleton
 (
 )
 )
-;
+{
 gmps
 -
 >

@@ -9236,6 +9236,11 @@ GetSingleton
 )
 )
 ;
+if
+(
+gmps
+)
+{
 gmps
 -
 >
@@ -9244,6 +9249,7 @@ UpdateContentProcessGMPCapabilities
 this
 )
 ;
+}
 for
 (
 const

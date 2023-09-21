@@ -794,6 +794,11 @@ GetSingleton
 )
 )
 ;
+if
+(
+gmp
+)
+{
 gmp
 -
 >
@@ -802,6 +807,7 @@ RemoveGMPContentParent
 toClose
 )
 ;
+}
 }
 NS_DispatchToCurrentThread
 (
