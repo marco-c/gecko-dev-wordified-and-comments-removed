@@ -138,10 +138,7 @@ String
 aUri
 )
 {
-final
-Uri
-normUri
-=
+return
 normalizeUriScheme
 (
 aUri
@@ -179,9 +176,6 @@ build
 (
 )
 )
-;
-return
-normUri
 ;
 }
 public

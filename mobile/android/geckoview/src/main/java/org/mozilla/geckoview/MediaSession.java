@@ -1755,10 +1755,7 @@ GeckoBundle
 bundle
 )
 {
-final
-long
-features
-=
+return
 NONE
 |
 (
@@ -1910,9 +1907,6 @@ FOCUS
 :
 NONE
 )
-;
-return
-features
 ;
 }
 }

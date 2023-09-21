@@ -733,10 +733,7 @@ EC
 "
 )
 ;
-final
-ECPublicKey
-key
-=
+return
 (
 ECPublicKey
 )
@@ -746,9 +743,6 @@ generatePublic
 (
 spec
 )
-;
-return
-key
 ;
 }
 catch

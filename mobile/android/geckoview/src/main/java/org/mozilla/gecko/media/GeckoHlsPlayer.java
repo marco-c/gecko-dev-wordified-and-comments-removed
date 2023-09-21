@@ -4348,10 +4348,7 @@ null
 ;
 }
 }
-final
-GeckoVideoInfo
-vInfo
-=
+return
 new
 GeckoVideoInfo
 (
@@ -4382,9 +4379,6 @@ sampleMimeType
 null
 null
 )
-;
-return
-vInfo
 ;
 }
 Override
@@ -4531,10 +4525,7 @@ get
 0
 )
 ;
-final
-GeckoAudioInfo
-aInfo
-=
+return
 new
 GeckoAudioInfo
 (
@@ -4554,9 +4545,6 @@ fmt
 sampleMimeType
 csd
 )
-;
-return
-aInfo
 ;
 }
 Override
@@ -4831,10 +4819,7 @@ getNextKeyFrameTime
 (
 )
 {
-final
-long
-nextKeyFrameTime
-=
+return
 mVRenderer
 !
 =
@@ -4849,9 +4834,6 @@ getNextKeyFrameTime
 Long
 .
 MAX_VALUE
-;
-return
-nextKeyFrameTime
 ;
 }
 Override

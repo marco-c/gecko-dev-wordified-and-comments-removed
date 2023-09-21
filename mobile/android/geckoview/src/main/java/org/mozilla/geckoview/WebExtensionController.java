@@ -453,13 +453,7 @@ extensionId
 id
 )
 ;
-final
-GeckoResult
-<
-WebExtension
->
-pending
-=
+return
 EventDispatcher
 .
 getInstance
@@ -510,9 +504,6 @@ ext
 ;
 }
 )
-;
-return
-pending
 ;
 }
 public

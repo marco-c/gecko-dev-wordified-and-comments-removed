@@ -4616,10 +4616,7 @@ getCDMUserAgent
 (
 )
 {
-final
-String
-ua
-=
+return
 "
 Widevine
 CDM
@@ -4627,9 +4624,6 @@ v1
 .
 0
 "
-;
-return
-ua
 ;
 }
 }
