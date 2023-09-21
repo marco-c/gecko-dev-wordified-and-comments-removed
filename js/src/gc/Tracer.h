@@ -1538,7 +1538,7 @@ JSTracer
 *
 trc
 const
-WriteBarriered
+BarrieredBase
 <
 T
 >
