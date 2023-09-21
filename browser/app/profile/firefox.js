@@ -15140,7 +15140,7 @@ extensions
 .
 enabled
 "
-false
+true
 )
 ;
 pref
