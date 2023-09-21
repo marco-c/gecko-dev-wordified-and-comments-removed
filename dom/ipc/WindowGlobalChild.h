@@ -808,6 +808,8 @@ const
 nsCString
 &
 aType
+uint32_t
+aPermission
 )
 ;
 virtual
