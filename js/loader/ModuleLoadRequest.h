@@ -173,6 +173,14 @@ ModuleLoadRequest
 nsIURI
 *
 aURI
+mozilla
+:
+:
+dom
+:
+:
+ReferrerPolicy
+aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions

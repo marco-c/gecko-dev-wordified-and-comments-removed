@@ -4992,7 +4992,6 @@ new
 ScriptFetchOptions
 (
 aCORSMode
-aReferrerPolicy
 aNonce
 aRequestPriority
 aParserMetadata
@@ -5042,6 +5041,7 @@ ScriptLoadRequest
 (
 aKind
 aURI
+aReferrerPolicy
 fetchOptions
 aIntegrity
 referrer
@@ -5079,6 +5079,7 @@ ModuleLoader
 CreateTopLevel
 (
 aURI
+aReferrerPolicy
 fetchOptions
 aIntegrity
 referrer
@@ -13560,6 +13561,12 @@ classicScript
 new
 ClassicScript
 (
+aRequest
+-
+>
+ReferrerPolicy
+(
+)
 aRequest
 -
 >

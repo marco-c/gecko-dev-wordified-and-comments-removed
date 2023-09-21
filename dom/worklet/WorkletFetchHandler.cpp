@@ -523,10 +523,6 @@ CORSMode
 :
 :
 CORS_NONE
-ReferrerPolicy
-:
-:
-_empty
 u
 "
 "
@@ -608,6 +604,10 @@ new
 ModuleLoadRequest
 (
 mURI
+ReferrerPolicy
+:
+:
+_empty
 fetchOptions
 SRIMetadata
 (

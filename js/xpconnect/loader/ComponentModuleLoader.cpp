@@ -291,6 +291,12 @@ aURI
 aParent
 -
 >
+ReferrerPolicy
+(
+)
+aParent
+-
+>
 mFetchOptions
 dom
 :

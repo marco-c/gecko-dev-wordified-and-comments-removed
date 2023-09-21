@@ -207,6 +207,8 @@ CreateTopLevel
 nsIURI
 *
 aURI
+ReferrerPolicy
+aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions

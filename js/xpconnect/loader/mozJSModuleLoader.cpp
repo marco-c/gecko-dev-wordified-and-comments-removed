@@ -8891,13 +8891,6 @@ new
 ScriptFetchOptions
 (
 CORS_NONE
-dom
-:
-:
-ReferrerPolicy
-:
-:
-No_referrer
 u
 "
 "
@@ -8958,6 +8951,13 @@ new
 ModuleLoadRequest
 (
 uri
+dom
+:
+:
+ReferrerPolicy
+:
+:
+No_referrer
 options
 dom
 :

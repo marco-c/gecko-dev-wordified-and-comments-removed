@@ -3086,7 +3086,6 @@ CORSMode
 :
 :
 CORS_NONE
-referrerPolicy
 u
 "
 "
@@ -3146,6 +3145,7 @@ ScriptKind
 :
 eClassic
 uri
+referrerPolicy
 fetchOptions
 SRIMetadata
 (
@@ -3235,6 +3235,7 @@ new
 ModuleLoadRequest
 (
 uri
+referrerPolicy
 fetchOptions
 SRIMetadata
 (
@@ -5871,6 +5872,12 @@ loader
 :
 ClassicScript
 (
+aRequest
+-
+>
+ReferrerPolicy
+(
+)
 aRequest
 -
 >

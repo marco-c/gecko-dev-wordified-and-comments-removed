@@ -3241,6 +3241,12 @@ ModuleScript
 aRequest
 -
 >
+ReferrerPolicy
+(
+)
+aRequest
+-
+>
 mFetchOptions
 aRequest
 -

@@ -180,6 +180,14 @@ ModuleLoadRequest
 nsIURI
 *
 aURI
+mozilla
+:
+:
+dom
+:
+:
+ReferrerPolicy
+aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions
@@ -221,6 +229,7 @@ ScriptKind
 :
 eModule
 aURI
+aReferrerPolicy
 aFetchOptions
 aIntegrity
 aReferrer
