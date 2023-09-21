@@ -89,8 +89,6 @@ builds
 .
 -
 rm
--
-f
 b
 /
 "
