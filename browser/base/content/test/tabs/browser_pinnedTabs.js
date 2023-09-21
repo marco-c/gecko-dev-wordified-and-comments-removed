@@ -230,6 +230,17 @@ indexTest
 3
 )
 ;
+gBrowser
+.
+discardBrowser
+(
+tabs
+[
+1
+]
+true
+)
+;
 var
 eh
 =

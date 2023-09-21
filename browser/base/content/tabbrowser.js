@@ -2833,6 +2833,15 @@ _notifyPinnedStatus
 aTab
 )
 {
+if
+(
+aTab
+.
+linkedBrowser
+.
+browsingContext
+)
+{
 aTab
 .
 linkedBrowser
@@ -2845,6 +2854,7 @@ aTab
 .
 pinned
 ;
+}
 let
 event
 =
