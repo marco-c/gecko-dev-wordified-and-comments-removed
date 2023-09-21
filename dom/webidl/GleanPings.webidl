@@ -95,7 +95,14 @@ interface
 nsIGleanPing
 ;
 [
-ChromeOnly
+Func
+=
+"
+nsGlobalWindowInner
+:
+:
+IsGleanNeeded
+"
 Exposed
 =
 Window
