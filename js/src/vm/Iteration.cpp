@@ -117,15 +117,6 @@ include
 "
 gc
 /
-GC
-.
-h
-"
-#
-include
-"
-gc
-/
 GCContext
 .
 h
@@ -4550,12 +4541,6 @@ shapesEnd_
 propertyCursor_
 )
 ;
-AutoSelectGCHeap
-gcHeap
-(
-cx
-)
-;
 size_t
 numProps
 =
@@ -4592,7 +4577,6 @@ props
 [
 i
 ]
-gcHeap
 )
 ;
 if
