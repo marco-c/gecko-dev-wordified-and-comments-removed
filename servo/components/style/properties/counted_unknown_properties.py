@@ -999,8 +999,4 @@ shape
 -
 margin
 "
-    
-"
-zoom
-"
 ]

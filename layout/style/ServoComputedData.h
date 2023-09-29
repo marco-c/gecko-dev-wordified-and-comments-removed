@@ -206,6 +206,12 @@ writing_mode
 mozilla
 :
 :
+StyleZoom
+effective_zoom
+;
+mozilla
+:
+:
 StyleComputedValueFlags
 flags
 ;

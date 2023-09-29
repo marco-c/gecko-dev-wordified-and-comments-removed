@@ -333,6 +333,7 @@ BorderStyle
 Percentage
 Time
 TransitionProperty
+Zoom
 }
 ;
 use
@@ -496,6 +497,9 @@ ComputedCustomProperties
 writing_mode
 :
 WritingMode
+effective_zoom
+:
+Zoom
 flags
 :
 ComputedValueFlags
@@ -556,6 +560,7 @@ new
 (
 custom_properties
 writing_mode
+effective_zoom
 flags
 rules
 visited_style
@@ -605,12 +610,6 @@ ComputedValuesInner
 :
 new
 (
-crate
-:
-:
-custom_properties
-:
-:
 ComputedCustomProperties
 :
 :
@@ -623,6 +622,10 @@ WritingMode
 empty
 (
 )
+Zoom
+:
+:
+ONE
 ComputedValueFlags
 :
 :
@@ -1035,6 +1038,11 @@ flags
 clone
 (
 )
+effective_zoom
+:
+self
+.
+effective_zoom
 rules
 :
 self
@@ -1182,6 +1190,9 @@ ComputedCustomProperties
 writing_mode
 :
 WritingMode
+effective_zoom
+:
+Zoom
 flags
 :
 ComputedValueFlags
@@ -1265,6 +1276,7 @@ as
 const
 _
 flags
+effective_zoom
 %
 for
 style_struct

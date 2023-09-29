@@ -466,6 +466,7 @@ ScrollbarGutter
 TouchAction
 VerticalAlign
 WillChange
+Zoom
 }
 ;
 pub

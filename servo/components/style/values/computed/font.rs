@@ -347,6 +347,7 @@ FRACTION_BITS
 u16
 >
 {
+pub
 value
 :
 T
@@ -416,6 +417,7 @@ SCALE
 as
 f32
 ;
+pub
 fn
 from_float
 (
@@ -460,6 +462,7 @@ as_
 )
 }
 }
+pub
 fn
 to_float
 (
