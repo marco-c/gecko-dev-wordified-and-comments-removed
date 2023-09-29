@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+Try
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 WorkerScope

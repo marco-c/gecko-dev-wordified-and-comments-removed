@@ -20,6 +20,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Try
+.
+h
+"
+#
+include
 <
 string
 .
@@ -11951,9 +11960,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 key
@@ -12002,8 +12008,6 @@ return
 true
 ;
 }
-#
-endif
 #
 ifdef
 NIGHTLY_BUILD

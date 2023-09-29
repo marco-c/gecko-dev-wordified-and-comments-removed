@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

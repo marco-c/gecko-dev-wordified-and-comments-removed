@@ -98,6 +98,15 @@ include
 "
 mozilla
 /
+Try
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ResultExtensions
 .
 h

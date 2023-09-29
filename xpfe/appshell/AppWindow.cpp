@@ -89,6 +89,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsGlobalWindowOuter
 .
 h

@@ -239,6 +239,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

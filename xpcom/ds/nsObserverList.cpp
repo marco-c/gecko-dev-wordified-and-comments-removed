@@ -17,6 +17,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsCOMArray
 .
 h

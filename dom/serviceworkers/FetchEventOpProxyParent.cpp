@@ -69,7 +69,7 @@ include
 "
 mozilla
 /
-Result
+ResultExtensions
 .
 h
 "
@@ -78,7 +78,7 @@ include
 "
 mozilla
 /
-ResultExtensions
+Try
 .
 h
 "

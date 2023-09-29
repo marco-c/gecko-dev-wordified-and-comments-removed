@@ -196,6 +196,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsIBrowserChild
 .
 h

@@ -64,6 +64,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsHttpChannel
 .
 h

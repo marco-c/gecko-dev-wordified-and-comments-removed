@@ -35,6 +35,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsFaviconService
 .
 h
