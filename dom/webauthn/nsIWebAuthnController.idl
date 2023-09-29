@@ -124,6 +124,14 @@ must_use
 ]
 readonly
 attribute
+bool
+minPinLength
+;
+[
+must_use
+]
+readonly
+attribute
 AString
 residentKey
 ;

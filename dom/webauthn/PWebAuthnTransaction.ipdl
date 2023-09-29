@@ -259,6 +259,14 @@ hmacCreateSecret
 ;
 }
 ;
+struct
+WebAuthnExtensionMinPinLength
+{
+bool
+minPinLength
+;
+}
+;
 union
 WebAuthnExtension
 {
@@ -267,6 +275,8 @@ WebAuthnExtensionAppId
 WebAuthnExtensionCredProps
 ;
 WebAuthnExtensionHmacSecret
+;
+WebAuthnExtensionMinPinLength
 ;
 }
 ;
