@@ -137,6 +137,17 @@ svg
 "
 )
 ;
+color
+:
+var
+(
+-
+-
+icon
+-
+color
+)
+;
 fill
 :
 currentColor
