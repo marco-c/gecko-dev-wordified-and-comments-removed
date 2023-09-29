@@ -2218,6 +2218,13 @@ js
 ]
 [
 "
+browser_switchTab_currentTab
+.
+js
+"
+]
+[
+"
 browser_switchTab_decodeuri
 .
 js
