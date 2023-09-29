@@ -88,6 +88,8 @@ dependencies
 bitflags
 =
 "
+1
+.
 2
 "
 lazy_static
