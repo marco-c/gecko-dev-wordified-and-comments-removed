@@ -3781,7 +3781,7 @@ assert_equals
 xhr
 .
 response
-expected_utf8
+expected_current
 )
 ;
 }
