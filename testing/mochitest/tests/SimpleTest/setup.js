@@ -1086,6 +1086,16 @@ if
 params
 .
 interactiveDebugger
+|
+|
+params
+.
+jsdebugger
+|
+|
+params
+.
+debugger
 )
 {
 TestRunner
