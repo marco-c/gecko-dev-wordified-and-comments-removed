@@ -449,13 +449,6 @@ xr
 "
 [
 "
-browser_privatebrowsing_resetPBM
-.
-js
-"
-]
-[
-"
 browser_privatebrowsing_sidebar
 .
 js
