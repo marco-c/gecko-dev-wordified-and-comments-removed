@@ -2472,7 +2472,7 @@ subTypingDepth_
 )
 isFinal_
 (
-false
+true
 )
 kind_
 (
