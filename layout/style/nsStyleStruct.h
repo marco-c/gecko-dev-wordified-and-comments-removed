@@ -533,6 +533,12 @@ mMathDepth
 mozilla
 :
 :
+StyleLineHeight
+mLineHeight
+;
+mozilla
+:
+:
 StyleMathVariant
 mMathVariant
 ;
@@ -3800,12 +3806,6 @@ mozilla
 :
 StyleLetterSpacing
 mLetterSpacing
-;
-mozilla
-:
-:
-StyleLineHeight
-mLineHeight
 ;
 mozilla
 :

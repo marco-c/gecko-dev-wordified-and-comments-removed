@@ -550,6 +550,7 @@ font
 {
 FontVariantEastAsian
 FontVariationSettings
+LineHeight
 }
 ;
 pub
@@ -938,7 +939,6 @@ text
 InitialLetter
 LetterSpacing
 LineBreak
-LineHeight
 TextAlign
 }
 ;
