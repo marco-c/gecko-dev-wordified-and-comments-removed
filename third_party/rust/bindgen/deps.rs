@@ -51,7 +51,10 @@ deps
 &
 BTreeSet
 <
-String
+Box
+<
+str
+>
 >
 )
 -
@@ -98,7 +101,10 @@ deps
 &
 BTreeSet
 <
-String
+Box
+<
+str
+>
 >
 )
 -
@@ -243,7 +249,7 @@ deps
 :
 BTreeSet
 <
-String
+_
 >
 =
 vec
@@ -257,7 +263,7 @@ absolute
 path
 "
 .
-to_owned
+into
 (
 )
 r
@@ -272,7 +278,7 @@ absolute
 path
 "
 .
-to_owned
+into
 (
 )
 r
@@ -285,7 +291,7 @@ relative
 path
 "
 .
-to_owned
+into
 (
 )
 r
@@ -300,7 +306,7 @@ relative
 path
 "
 .
-to_owned
+into
 (
 )
 r
@@ -318,7 +324,7 @@ in
 it
 "
 .
-to_owned
+into
 (
 )
 r
@@ -338,7 +344,7 @@ in
 it
 "
 .
-to_owned
+into
 (
 )
 r
@@ -352,7 +358,7 @@ mixed
 separators
 "
 .
-to_owned
+into
 (
 )
 ]
