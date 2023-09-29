@@ -387,7 +387,7 @@ error
 }
 ;
 await
-runBasicFledgeTestExpectingNoWinner
+joinGroupAndRunBasicFledgeTestExpectingNoWinner
 (
 test
 {
@@ -458,7 +458,7 @@ error
 }
 ;
 await
-runBasicFledgeTestExpectingNoWinner
+joinGroupAndRunBasicFledgeTestExpectingNoWinner
 (
 test
 {

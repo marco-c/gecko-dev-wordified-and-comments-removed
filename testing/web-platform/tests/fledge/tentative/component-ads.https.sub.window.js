@@ -924,7 +924,7 @@ test
 )
 ;
 await
-runBasicFledgeTestExpectingNoWinner
+joinGroupAndRunBasicFledgeTestExpectingNoWinner
 (
 test
 {
@@ -1139,7 +1139,7 @@ test
 )
 ;
 await
-runBasicFledgeTestExpectingNoWinner
+joinGroupAndRunBasicFledgeTestExpectingNoWinner
 (
 test
 {
@@ -1236,7 +1236,7 @@ test
 )
 ;
 await
-runBasicFledgeTestExpectingNoWinner
+joinGroupAndRunBasicFledgeTestExpectingNoWinner
 (
 test
 {
@@ -1332,7 +1332,7 @@ test
 )
 ;
 await
-runBasicFledgeTestExpectingNoWinner
+joinGroupAndRunBasicFledgeTestExpectingNoWinner
 (
 test
 {
@@ -1888,7 +1888,7 @@ componentRenderURL
 ;
 }
 await
-runBasicFledgeTestExpectingNoWinner
+joinGroupAndRunBasicFledgeTestExpectingNoWinner
 (
 test
 {
@@ -2045,7 +2045,7 @@ renderURL
 ;
 }
 await
-runBasicFledgeTestExpectingNoWinner
+joinGroupAndRunBasicFledgeTestExpectingNoWinner
 (
 test
 {
