@@ -680,6 +680,14 @@ usize
 ;
 pub
 const
+__SIZEOF_PTHREAD_BARRIER_T
+:
+usize
+=
+32
+;
+pub
+const
 SOCK_NONBLOCK
 :
 :
