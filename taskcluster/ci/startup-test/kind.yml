@@ -108,6 +108,13 @@ on
 the
 platform
 #
+non
+-
+system
+python
+-
+toolchain
+#
 linux
 -
 build
@@ -247,7 +254,7 @@ system
 -
 python
 :
-true
+false
 jobs
 :
 linux32
