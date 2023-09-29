@@ -606,7 +606,7 @@ e
 .
 name
 '
-InvalidStateError
+NotSupportedError
 '
 )
 ;
