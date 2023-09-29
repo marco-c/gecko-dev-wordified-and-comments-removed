@@ -17,7 +17,7 @@ support
 .
 image
 import
-px_to_cm
+pt_to_cm
 pytestmark
 =
 pytest
@@ -222,7 +222,7 @@ page
 width
 "
 :
-px_to_cm
+pt_to_cm
 (
 1
 )
@@ -231,7 +231,7 @@ px_to_cm
 height
 "
 :
-px_to_cm
+pt_to_cm
 (
 1
 )
