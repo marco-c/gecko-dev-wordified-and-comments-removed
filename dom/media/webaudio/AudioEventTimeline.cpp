@@ -1299,7 +1299,7 @@ aPrevious
 )
 {
 return
-mValue
+mDefaultValue
 ;
 }
 auto

@@ -514,7 +514,7 @@ float
 aDefaultValue
 )
 :
-mValue
+mDefaultValue
 (
 aDefaultValue
 )
@@ -1026,7 +1026,7 @@ else
 {
 if
 (
-mValue
+mDefaultValue
 <
 =
 0
@@ -1240,7 +1240,7 @@ HasSimpleValue
 )
 ;
 return
-mValue
+mDefaultValue
 ;
 }
 void
@@ -1261,7 +1261,7 @@ IsEmpty
 {
 mSetTargetStartValue
 =
-mValue
+mDefaultValue
 =
 aValue
 ;
@@ -1863,7 +1863,7 @@ AudioTimelineEvent
 mEvents
 ;
 float
-mValue
+mDefaultValue
 ;
 float
 mSetTargetStartValue
