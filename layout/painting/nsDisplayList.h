@@ -14921,7 +14921,9 @@ const
 override
 {
 return
-true
+XRE_IsParentProcess
+(
+)
 ;
 }
 nsRect
@@ -16400,7 +16402,9 @@ outlines
 )
 ;
 return
-true
+XRE_IsParentProcess
+(
+)
 ;
 }
 bool
