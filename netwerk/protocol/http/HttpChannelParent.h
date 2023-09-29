@@ -1081,6 +1081,13 @@ NeedFlowControl
 (
 )
 ;
+bool
+IsRedirectDueToAuthRetry
+(
+uint32_t
+redirectFlags
+)
+;
 int32_t
 mSendWindowSize
 ;
