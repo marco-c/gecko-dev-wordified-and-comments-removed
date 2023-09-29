@@ -38,6 +38,15 @@ bin
 gcc
 "
 "
+targets
+"
+:
+"
+X86
+;
+WebAssembly
+"
+"
 patches
 "
 :
