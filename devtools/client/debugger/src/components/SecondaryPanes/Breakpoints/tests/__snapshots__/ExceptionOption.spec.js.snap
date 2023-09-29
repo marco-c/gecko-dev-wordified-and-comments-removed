@@ -22,7 +22,7 @@ values
 ]
 =
 <
-div
+label
 className
 =
 "
@@ -76,6 +76,6 @@ div
 >
 <
 /
-div
+label
 >
 ;
