@@ -516,11 +516,6 @@ MFVideoFormat_AV1
 ENUM_TO_STR2
 (
 aGUID
-MFVideoFormat_HEVC
-)
-ENUM_TO_STR2
-(
-aGUID
 MFMediaType_Audio
 )
 return
