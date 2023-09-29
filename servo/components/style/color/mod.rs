@@ -1072,7 +1072,7 @@ AbsoluteColor
 {
 pub
 const
-TRANSPARENT
+TRANSPARENT_BLACK
 :
 Self
 =

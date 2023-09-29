@@ -3908,7 +3908,7 @@ from_absolute_color
 AbsoluteColor
 :
 :
-TRANSPARENT
+TRANSPARENT_BLACK
 )
 }
 pub
@@ -5183,7 +5183,7 @@ resolve_to_absolute
 AbsoluteColor
 :
 :
-TRANSPARENT
+TRANSPARENT_BLACK
 )
 }
 fn

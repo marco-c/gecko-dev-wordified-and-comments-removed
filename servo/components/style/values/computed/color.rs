@@ -235,7 +235,7 @@ Color
 {
 pub
 const
-TRANSPARENT
+TRANSPARENT_BLACK
 :
 Self
 =
@@ -247,7 +247,7 @@ Absolute
 AbsoluteColor
 :
 :
-TRANSPARENT
+TRANSPARENT_BLACK
 )
 ;
 pub
@@ -486,7 +486,7 @@ Ok
 Self
 :
 :
-TRANSPARENT
+TRANSPARENT_BLACK
 )
 }
 }
