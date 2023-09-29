@@ -3270,6 +3270,23 @@ ShadowRealm
 )
 ;
   
+r
+.
+evaluate
+(
+"
+globalThis
+.
+self
+=
+globalThis
+;
+undefined
+;
+"
+)
+;
+  
 await
 new
 Promise
