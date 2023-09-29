@@ -19529,7 +19529,7 @@ StringTypeTag
 need
 to
 orPtr
-JSID_TYPE_STRING
+StringTypeTag
 tag
 if
 it
