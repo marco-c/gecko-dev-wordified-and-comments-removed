@@ -1033,11 +1033,6 @@ mHaveWarnedBecauseNoTransactionId
 false
 ;
 bool
-mHaveWarnedBecauseStaleTransactionId
-=
-false
-;
-bool
 mHaveFailedBecauseNoGetParameters
 =
 false
