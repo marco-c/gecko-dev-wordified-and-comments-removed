@@ -172,11 +172,6 @@ aConsumedBSize
 const
 nscoord
 aEffectiveContentBoxBSize
-const
-nscoord
-aInset
-=
-0
 )
 ;
 nsFlowAreaRect
@@ -604,12 +599,10 @@ mLineNumber
 }
 nsBlockFrame
 *
-const
 mBlock
 ;
 nsPresContext
 *
-const
 mPresContext
 ;
 const
@@ -803,9 +796,6 @@ wm
 )
 ;
 }
-nscoord
-mInsetForBalance
-;
 nsSize
 mContainerSize
 ;
@@ -857,7 +847,6 @@ mLineAdjacentToTop
 nscoord
 mBCoord
 ;
-const
 LogicalMargin
 mBorderPadding
 ;
@@ -896,7 +885,6 @@ nsIFrame
 >
 mNoWrapFloats
 ;
-const
 nscoord
 mMinLineHeight
 ;
