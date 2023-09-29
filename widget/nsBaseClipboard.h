@@ -68,7 +68,7 @@ WidgetClipboard
 ;
 #
 define
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 .
 .
@@ -88,7 +88,7 @@ __VA_ARGS__
 )
 #
 define
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 \
