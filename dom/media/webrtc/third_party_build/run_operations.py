@@ -359,6 +359,10 @@ stderr
         
 )
         
+if
+capture_output
+:
+            
 print
 (
 res
