@@ -749,7 +749,6 @@ basic_shape
 :
 {
 AllowedBasicShapes
-DefaultPosition
 ShapeType
 }
 ;
@@ -925,10 +924,6 @@ ShapeType
 :
 :
 Outline
-DefaultPosition
-:
-:
-Context
 )
 .
 map
