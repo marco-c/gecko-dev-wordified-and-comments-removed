@@ -463,6 +463,15 @@ MOZ_ASSERT
 mTimer
 )
 ;
+if
+(
+!
+mTimer
+)
+{
+return
+;
+}
 nsresult
 rv
 =
