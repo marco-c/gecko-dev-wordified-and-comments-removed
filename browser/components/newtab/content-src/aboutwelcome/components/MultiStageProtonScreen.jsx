@@ -2199,6 +2199,14 @@ l10n
 id
 =
 {
+content
+.
+steps_indicator
+?
+.
+string_id
+|
+|
 "
 onboarding
 -
