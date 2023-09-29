@@ -853,6 +853,11 @@ Document
 aOwnerDoc
 )
 ;
+bool
+IsClassicNonAsyncDefer
+(
+)
+;
 uint32_t
 mLineNumber
 ;
