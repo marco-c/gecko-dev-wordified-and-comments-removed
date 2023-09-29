@@ -84,7 +84,7 @@ stats
 =
 track
 .
-videoStats
+stats
 .
 toJSON
 (
@@ -525,14 +525,14 @@ the
 [
 SameObject
 ]
-videoStats
+stats
 bypassing
 the
 /
 /
 track
 .
-videoStats
+stats
 getter
 in
 the
@@ -542,22 +542,22 @@ of
 totalFrames
 .
 const
-videoStats
+stats
 =
 track
 .
-videoStats
+stats
 ;
 const
 firstTotalFrames
 =
-videoStats
+stats
 .
 totalFrames
 ;
 while
 (
-videoStats
+stats
 .
 totalFrames
 =
@@ -575,7 +575,7 @@ resolve
 }
 assert_greater_than
 (
-videoStats
+stats
 .
 totalFrames
 firstTotalFrames
@@ -594,7 +594,7 @@ call
 the
 track
 .
-videoStats
+stats
 getter
 )
 ;
@@ -653,7 +653,7 @@ firstTotalFrames
 =
 track
 .
-videoStats
+stats
 .
 totalFrames
 ;
@@ -710,7 +710,7 @@ assert_equals
 (
 track
 .
-videoStats
+stats
 .
 totalFrames
 firstTotalFrames
@@ -988,7 +988,7 @@ a
 =
 track
 .
-videoStats
+stats
 ;
 await
 getFrameStatsUntil
@@ -1009,7 +1009,7 @@ b
 =
 track
 .
-videoStats
+stats
 ;
 /
 /
@@ -1222,7 +1222,7 @@ disabledSnapshot
 =
 track
 .
-videoStats
+stats
 .
 toJSON
 (
@@ -1329,7 +1329,7 @@ assert_approx_equals
 (
 track
 .
-videoStats
+stats
 .
 deliveredFrames
 disabledSnapshot
@@ -1342,7 +1342,7 @@ assert_approx_equals
 (
 track
 .
-videoStats
+stats
 .
 discardedFrames
 disabledSnapshot
@@ -1355,7 +1355,7 @@ assert_approx_equals
 (
 track
 .
-videoStats
+stats
 .
 totalFrames
 disabledSnapshot
@@ -1567,7 +1567,7 @@ assert_greater_than_equal
 (
 track
 .
-videoStats
+stats
 .
 deliveredFrames
 initialStats
@@ -1579,7 +1579,7 @@ assert_greater_than_equal
 (
 track
 .
-videoStats
+stats
 .
 discardedFrames
 initialStats
@@ -1591,7 +1591,7 @@ assert_greater_than_equal
 (
 track
 .
-videoStats
+stats
 .
 totalFrames
 initialStats
@@ -1774,7 +1774,7 @@ originalTrackInitialStats
 =
 originalTrack
 .
-videoStats
+stats
 .
 toJSON
 (
@@ -1835,7 +1835,7 @@ clonedTrackStats
 =
 clonedTrack
 .
-videoStats
+stats
 .
 toJSON
 (
@@ -1935,7 +1935,7 @@ assert_equals
 (
 originalTrack
 .
-videoStats
+stats
 .
 deliveredFrames
 originalTrackInitialStats
@@ -1947,7 +1947,7 @@ assert_equals
 (
 originalTrack
 .
-videoStats
+stats
 .
 discardedFrames
 originalTrackInitialStats
@@ -1959,7 +1959,7 @@ assert_equals
 (
 originalTrack
 .
-videoStats
+stats
 .
 totalFrames
 originalTrackInitialStats
@@ -2252,7 +2252,7 @@ clonedTrackStats
 deliveredFrames
 originalTrack
 .
-videoStats
+stats
 .
 deliveredFrames
 )
@@ -2264,7 +2264,7 @@ clonedTrackStats
 discardedFrames
 originalTrack
 .
-videoStats
+stats
 .
 discardedFrames
 )
@@ -2276,7 +2276,7 @@ clonedTrackStats
 totalFrames
 originalTrack
 .
-videoStats
+stats
 .
 totalFrames
 )
@@ -2588,7 +2588,7 @@ originalStats
 =
 originalTrack
 .
-videoStats
+stats
 .
 toJSON
 (
@@ -2599,7 +2599,7 @@ cloneAStats
 =
 cloneA
 .
-videoStats
+stats
 .
 toJSON
 (
@@ -2610,7 +2610,7 @@ cloneBStats
 =
 cloneB
 .
-videoStats
+stats
 .
 toJSON
 (
@@ -2933,12 +2933,9 @@ stop
 ;
 try
 {
-const
-stats
-=
 track
 .
-videoStats
+stats
 .
 toJSON
 (
