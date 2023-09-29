@@ -6509,7 +6509,6 @@ move
 (
 data
 )
-nullptr
 )
 ;
 return

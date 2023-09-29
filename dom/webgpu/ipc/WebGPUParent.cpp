@@ -5743,7 +5743,6 @@ move
 (
 textureData
 )
-nullptr
 )
 ;
 }
