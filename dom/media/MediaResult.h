@@ -370,6 +370,8 @@ mMessage
 CDMProxy
 *
 mCDMProxy
+=
+nullptr
 ;
 }
 ;
