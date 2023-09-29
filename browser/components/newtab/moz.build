@@ -32,7 +32,7 @@ abouthomecache
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -41,7 +41,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 TESTING_JS_MODULES

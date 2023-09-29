@@ -532,7 +532,7 @@ tips
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -543,7 +543,7 @@ updateResults
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -552,7 +552,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -563,7 +563,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -574,7 +574,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -585,7 +585,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

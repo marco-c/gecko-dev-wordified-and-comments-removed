@@ -67,7 +67,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -80,7 +80,7 @@ next
 /
 browser
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

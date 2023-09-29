@@ -15,7 +15,7 @@ tests
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -24,7 +24,7 @@ siteData
 /
 browser
 .
-ini
+toml
 "
 ]
 for

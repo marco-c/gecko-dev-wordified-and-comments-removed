@@ -242,7 +242,7 @@ address
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -251,7 +251,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -262,7 +262,7 @@ creditCard
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -275,7 +275,7 @@ leak
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -286,7 +286,7 @@ heuristics
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -299,7 +299,7 @@ third_party
 /
 browser
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

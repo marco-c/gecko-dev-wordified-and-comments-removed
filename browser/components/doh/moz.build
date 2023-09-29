@@ -87,6 +87,6 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]

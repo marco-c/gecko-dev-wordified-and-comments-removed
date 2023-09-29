@@ -2171,7 +2171,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 with

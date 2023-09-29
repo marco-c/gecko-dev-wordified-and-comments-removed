@@ -7,7 +7,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -16,7 +16,7 @@ disable_app_update
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -25,7 +25,7 @@ disable_default_bookmarks
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -34,7 +34,7 @@ disable_developer_tools
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -43,7 +43,7 @@ disable_forget_button
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -52,7 +52,7 @@ disable_fxscreenshots
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -61,7 +61,7 @@ hardware_acceleration
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -70,7 +70,7 @@ homepage_button
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -79,7 +79,7 @@ managedbookmarks
 /
 browser
 .
-ini
+toml
 "
 "
 browser
@@ -88,7 +88,7 @@ show_home_button
 /
 browser
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

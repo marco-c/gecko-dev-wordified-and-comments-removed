@@ -76,7 +76,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 toolkit

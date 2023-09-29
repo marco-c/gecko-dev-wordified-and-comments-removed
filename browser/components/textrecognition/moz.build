@@ -38,6 +38,6 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]

@@ -26,7 +26,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -35,7 +35,7 @@ unit
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -46,7 +46,7 @@ panels
 /
 browser
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS

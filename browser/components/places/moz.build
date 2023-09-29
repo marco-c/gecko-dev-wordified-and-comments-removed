@@ -37,7 +37,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -48,7 +48,7 @@ interactions
 /
 browser
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS

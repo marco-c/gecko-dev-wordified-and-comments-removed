@@ -98,7 +98,7 @@ about
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -109,7 +109,7 @@ alerts
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -120,7 +120,7 @@ backforward
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -131,7 +131,7 @@ caps
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -142,7 +142,7 @@ captivePortal
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -153,7 +153,7 @@ contentTheme
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -164,7 +164,7 @@ contextMenu
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -175,7 +175,7 @@ favicons
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -186,7 +186,7 @@ forms
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -197,7 +197,7 @@ fullscreen
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -208,7 +208,7 @@ general
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -219,7 +219,7 @@ gesture
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -230,7 +230,7 @@ historySwipeAnimation
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -241,7 +241,7 @@ keyboard
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -252,7 +252,7 @@ menubar
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -263,7 +263,7 @@ metaTags
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -274,7 +274,7 @@ notificationbox
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -285,7 +285,7 @@ outOfProcess
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -296,7 +296,7 @@ pageActions
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -307,7 +307,7 @@ pageinfo
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -318,7 +318,7 @@ pageStyle
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -329,7 +329,7 @@ permissions
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -340,7 +340,7 @@ plugins
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -351,7 +351,7 @@ popupNotifications
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -362,7 +362,7 @@ popups
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -373,7 +373,7 @@ privateBrowsing
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -384,7 +384,7 @@ protectionsUI
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -395,7 +395,7 @@ referrer
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -406,7 +406,7 @@ sanitize
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -417,7 +417,7 @@ sidebar
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -428,7 +428,7 @@ siteIdentity
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -439,7 +439,7 @@ startup
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -450,7 +450,7 @@ static
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -461,7 +461,7 @@ statuspanel
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -472,7 +472,7 @@ sync
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -483,7 +483,7 @@ tabcrashed
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -505,7 +505,7 @@ tabdialogs
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -516,7 +516,7 @@ tabMediaIndicator
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -527,7 +527,7 @@ tabPrompts
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -538,7 +538,7 @@ tabs
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -549,7 +549,7 @@ touch
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -560,7 +560,7 @@ utilityOverlay
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -571,7 +571,7 @@ webextensions
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -582,7 +582,7 @@ webrtc
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -595,7 +595,7 @@ gracePeriod
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -608,7 +608,7 @@ legacyIndicator
 /
 browser
 .
-ini
+toml
 "
 "
 content
@@ -619,7 +619,7 @@ zoom
 /
 browser
 .
-ini
+toml
 "
 ]
 DIRS
