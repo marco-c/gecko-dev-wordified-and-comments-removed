@@ -1356,7 +1356,7 @@ data
 +
 row
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 PXSTRIDE
 (
@@ -1418,8 +1418,8 @@ h
 -
 row
 *
-BLOCK_SIZE
-BLOCK_SIZE
+FG_BLOCK_SIZE
+FG_BLOCK_SIZE
 )
 ;
 dsp
@@ -1443,7 +1443,7 @@ data
 +
 row
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 PXSTRIDE
 (
@@ -1532,8 +1532,8 @@ h
 -
 row
 *
-BLOCK_SIZE
-BLOCK_SIZE
+FG_BLOCK_SIZE
+FG_BLOCK_SIZE
 )
 +
 ss_y
@@ -1623,7 +1623,7 @@ uv_off
 =
 row
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 PXSTRIDE
 (
@@ -1943,11 +1943,12 @@ p
 .
 h
 +
-31
+FG_BLOCK_SIZE
+-
+1
 )
->
->
-5
+/
+FG_BLOCK_SIZE
 ;
 bitfn
 (

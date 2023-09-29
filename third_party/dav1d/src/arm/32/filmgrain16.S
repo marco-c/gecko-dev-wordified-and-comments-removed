@@ -8475,7 +8475,7 @@ r4
 grain_lut
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 bx
 add
@@ -8492,7 +8492,7 @@ grain_lut
 =
 grain_stride
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 by
 ldr
@@ -8538,7 +8538,7 @@ grain_lut
 =
 grain_stride
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 by
 add
@@ -8553,7 +8553,7 @@ r8
 grain_lut
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 bx
 add
@@ -10350,7 +10350,7 @@ sx
 grain_lut
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 bx
 add
@@ -10372,7 +10372,7 @@ grain_lut
 =
 grain_stride
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 by
 add
@@ -10394,7 +10394,7 @@ grain_lut
 =
 grain_stride
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 by
 add
@@ -10415,7 +10415,7 @@ sx
 grain_lut
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 bx
 movrel_local

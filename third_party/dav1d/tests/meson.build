@@ -284,6 +284,13 @@ c
 '
 checkasm
 /
+pal
+.
+c
+'
+'
+checkasm
+/
 refmvs
 .
 c

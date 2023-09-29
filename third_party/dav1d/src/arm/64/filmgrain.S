@@ -10014,7 +10014,7 @@ x12
 grain_lut
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 bx
 add
@@ -10031,7 +10031,7 @@ grain_lut
 =
 grain_stride
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 by
 tst
@@ -10061,7 +10061,7 @@ grain_lut
 =
 grain_stride
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 by
 add
@@ -10074,7 +10074,7 @@ x8
 grain_lut
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 bx
 sub
@@ -11515,7 +11515,7 @@ sx
 grain_lut
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 bx
 add
@@ -11537,7 +11537,7 @@ grain_lut
 =
 grain_stride
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 by
 add
@@ -11559,7 +11559,7 @@ grain_lut
 =
 grain_stride
 *
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 by
 add
@@ -11578,7 +11578,7 @@ sx
 grain_lut
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 bx
 ldr

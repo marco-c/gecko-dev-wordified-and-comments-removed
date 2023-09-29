@@ -1126,7 +1126,7 @@ offy
 y
 +
 (
-BLOCK_SIZE
+FG_BLOCK_SIZE
 >
 >
 suby
@@ -1140,7 +1140,7 @@ offx
 x
 +
 (
-BLOCK_SIZE
+FG_BLOCK_SIZE
 >
 >
 subx
@@ -1370,7 +1370,7 @@ assert
 stride
 %
 (
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 sizeof
 (
@@ -1405,7 +1405,7 @@ pw
 bx
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 )
 {
 const
@@ -1414,7 +1414,7 @@ bw
 =
 imin
 (
-BLOCK_SIZE
+FG_BLOCK_SIZE
 (
 int
 )
@@ -2340,7 +2340,7 @@ assert
 stride
 %
 (
-BLOCK_SIZE
+FG_BLOCK_SIZE
 *
 sizeof
 (
@@ -2375,7 +2375,7 @@ pw
 bx
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 >
 >
 sx
@@ -2387,7 +2387,7 @@ bw
 =
 imin
 (
-BLOCK_SIZE
+FG_BLOCK_SIZE
 >
 >
 sx

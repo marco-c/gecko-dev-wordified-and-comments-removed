@@ -323,6 +323,11 @@ obu
 c
 '
 '
+pal
+.
+c
+'
+'
 picture
 .
 c
@@ -1032,6 +1037,13 @@ asm
 x86
 /
 msac
+.
+asm
+'
+'
+x86
+/
+pal
 .
 asm
 '

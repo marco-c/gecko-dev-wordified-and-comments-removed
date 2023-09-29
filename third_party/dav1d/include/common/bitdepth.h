@@ -35,7 +35,7 @@ defined
 BITDEPTH
 )
 typedef
-void
+uint8_t
 pixel
 ;
 typedef
