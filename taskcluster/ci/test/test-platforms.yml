@@ -2135,6 +2135,8 @@ platform
 tests
 -
 backlog
+-
+browsertime
 macosx1015
 -
 64
