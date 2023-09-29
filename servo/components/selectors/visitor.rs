@@ -239,6 +239,8 @@ any
 [
 derive
 (
+Clone
+Copy
 Default
 )
 ]

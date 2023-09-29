@@ -886,6 +886,16 @@ values
 .
 #
 [
+derive
+(
+Clone
+Copy
+Eq
+PartialEq
+)
+]
+#
+[
 repr
 (
 C

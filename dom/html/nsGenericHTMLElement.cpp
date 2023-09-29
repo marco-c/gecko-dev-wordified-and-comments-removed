@@ -7047,7 +7047,7 @@ StyleTextEmphasisPosition
 :
 UNDER
 .
-bits
+_0
 )
 ;
 }
@@ -7090,7 +7090,7 @@ StyleTextEmphasisPosition
 :
 OVER
 .
-bits
+_0
 )
 ;
 }

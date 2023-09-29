@@ -19,6 +19,17 @@ the
 traversal
 process
 .
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+Eq
+PartialEq
+)
+]
 pub
 struct
 TraversalFlags

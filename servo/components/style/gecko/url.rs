@@ -711,6 +711,13 @@ loads
 .
 #
 [
+derive
+(
+Debug
+)
+]
+#
+[
 repr
 (
 C

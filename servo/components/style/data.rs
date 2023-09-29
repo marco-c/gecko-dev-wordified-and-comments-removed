@@ -165,6 +165,7 @@ ElementData
 [
 derive
 (
+Debug
 Default
 )
 ]

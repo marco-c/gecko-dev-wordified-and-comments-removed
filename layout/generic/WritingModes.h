@@ -554,7 +554,7 @@ InlineDir
 (
 mWritingMode
 .
-bits
+_0
 &
 eInlineMask
 )
@@ -571,7 +571,7 @@ BlockDir
 (
 mWritingMode
 .
-bits
+_0
 &
 eBlockMask
 )
@@ -595,7 +595,7 @@ StyleWritingMode
 RTL
 )
 .
-bits
+_0
 )
 ;
 }
@@ -866,7 +866,7 @@ WritingMode
 (
 mWritingMode
 .
-bits
+_0
 &
 ~
 (
@@ -881,7 +881,7 @@ StyleWritingMode
 TEXT_SIDEWAYS
 )
 .
-bits
+_0
 )
 ;
 }
@@ -1048,7 +1048,7 @@ StyleWritingMode
 VERTICAL
 )
 .
-bits
+_0
 ;
 return
 PhysicalAxisForLogicalAxis
@@ -1229,7 +1229,7 @@ StyleWritingMode
 :
 VERTICAL
 .
-bits
+_0
 =
 =
 0x01
@@ -1240,7 +1240,7 @@ StyleWritingMode
 :
 INLINE_REVERSED
 .
-bits
+_0
 =
 =
 0x02
@@ -1251,7 +1251,7 @@ StyleWritingMode
 :
 VERTICAL_LR
 .
-bits
+_0
 =
 =
 0x04
@@ -1262,7 +1262,7 @@ StyleWritingMode
 :
 LINE_INVERTED
 .
-bits
+_0
 =
 =
 0x08
@@ -1278,7 +1278,7 @@ index
 =
 mWritingMode
 .
-bits
+_0
 &
 0x0F
 ;
@@ -1318,7 +1318,7 @@ StyleWritingMode
 :
 VERTICAL
 .
-bits
+_0
 =
 =
 0x01
@@ -1329,7 +1329,7 @@ StyleWritingMode
 :
 VERTICAL_LR
 .
-bits
+_0
 =
 =
 0x04
@@ -1354,7 +1354,7 @@ StyleWritingMode
 VERTICAL_LR
 )
 .
-bits
+_0
 >
 >
 1
@@ -1369,7 +1369,7 @@ StyleWritingMode
 VERTICAL
 )
 .
-bits
+_0
 ;
 return
 PhysicalSideForBlockAxis
@@ -1519,7 +1519,7 @@ StyleWritingMode
 :
 VERTICAL
 .
-bits
+_0
 =
 =
 0x01
@@ -1530,7 +1530,7 @@ StyleWritingMode
 :
 INLINE_REVERSED
 .
-bits
+_0
 =
 =
 0x02
@@ -1541,7 +1541,7 @@ StyleWritingMode
 :
 VERTICAL_LR
 .
-bits
+_0
 =
 =
 0x04
@@ -1552,7 +1552,7 @@ StyleWritingMode
 :
 LINE_INVERTED
 .
-bits
+_0
 =
 =
 0x08
@@ -1568,7 +1568,7 @@ index
 =
 mWritingMode
 .
-bits
+_0
 &
 0x0F
 ;
@@ -1889,7 +1889,7 @@ const
 return
 mWritingMode
 .
-bits
+_0
 ;
 }
 private
