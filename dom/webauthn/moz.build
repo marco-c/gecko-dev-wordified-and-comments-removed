@@ -388,6 +388,6 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]

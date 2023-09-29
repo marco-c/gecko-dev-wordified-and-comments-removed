@@ -134,7 +134,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 FINAL_LIBRARY

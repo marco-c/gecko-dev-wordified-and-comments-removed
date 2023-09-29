@@ -89,6 +89,6 @@ tests
 /
 browser
 .
-ini
+toml
 "
 ]

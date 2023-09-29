@@ -134,7 +134,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -143,7 +143,7 @@ navigation
 /
 browser
 .
-ini
+toml
 "
 ]
 TEST_HARNESS_FILES

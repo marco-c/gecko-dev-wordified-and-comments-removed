@@ -39,6 +39,6 @@ mochitest
 /
 browser
 .
-ini
+toml
 "
 ]

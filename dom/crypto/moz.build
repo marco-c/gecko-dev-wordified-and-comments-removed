@@ -140,7 +140,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 include

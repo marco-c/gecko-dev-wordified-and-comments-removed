@@ -100,7 +100,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 ]
 EXPORTS

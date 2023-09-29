@@ -546,14 +546,14 @@ browser
 -
 dFPI
 .
-ini
+toml
 "
 "
 test
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -568,7 +568,7 @@ update
 /
 browser
 .
-ini
+toml
 "
 ]
 TEST_DIRS

@@ -480,6 +480,6 @@ test
 /
 browser
 .
-ini
+toml
 "
 ]

@@ -203,7 +203,7 @@ tests
 /
 browser
 .
-ini
+toml
 "
 ]
 TEST_DIRS

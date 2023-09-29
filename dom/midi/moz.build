@@ -339,6 +339,6 @@ tests
 /
 browser
 .
-ini
+toml
 "
 ]

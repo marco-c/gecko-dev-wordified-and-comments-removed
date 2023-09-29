@@ -97,7 +97,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 "
 test

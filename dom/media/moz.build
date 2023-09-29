@@ -473,7 +473,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 mediasession
@@ -482,7 +482,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -491,7 +491,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -502,7 +502,7 @@ wmfme
 /
 browser
 .
-ini
+toml
 "
 ]
 if

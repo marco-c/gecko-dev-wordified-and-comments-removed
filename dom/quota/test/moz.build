@@ -15,7 +15,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

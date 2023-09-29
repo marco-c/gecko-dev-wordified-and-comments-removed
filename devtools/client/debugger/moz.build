@@ -114,7 +114,7 @@ mochitest
 /
 browser
 .
-ini
+toml
 "
 ]
 DevToolsModules

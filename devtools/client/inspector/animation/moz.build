@@ -79,7 +79,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 ]
 DevToolsModules

@@ -96,6 +96,6 @@ test
 /
 browser
 .
-ini
+toml
 "
 ]
