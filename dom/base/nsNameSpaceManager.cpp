@@ -110,6 +110,7 @@ mozilla
 dom
 ;
 static
+constexpr
 const
 char
 *
@@ -122,6 +123,7 @@ disabled
 "
 ;
 static
+constexpr
 const
 char
 *
@@ -134,6 +136,7 @@ disabled
 "
 ;
 static
+constexpr
 const
 char
 *

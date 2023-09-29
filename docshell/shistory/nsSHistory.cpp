@@ -396,6 +396,7 @@ CONTENT_VIEWER_TIMEOUT_SECONDS_DEFAULT
 60
 )
 static
+constexpr
 const
 char
 *
