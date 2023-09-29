@@ -1139,6 +1139,14 @@ Pending
 return
 ;
 }
+MOZ_RELEASE_ASSERT
+(
+self
+-
+>
+mValid
+)
+;
 switch
 (
 aResult
