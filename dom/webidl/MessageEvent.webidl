@@ -124,6 +124,7 @@ Window
 Worker
 AudioWorklet
 )
+ProbablyShortLivingWrapper
 ]
 interface
 MessageEvent
