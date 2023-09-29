@@ -3303,6 +3303,15 @@ GetRect
 IsEmpty
 (
 )
+|
+|
+nsLayoutUtils
+:
+:
+GetNextContinuationOrIBSplitSibling
+(
+boundingFrame
+)
 )
 {
 nsRect
