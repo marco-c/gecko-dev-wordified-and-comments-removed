@@ -38,11 +38,10 @@ mjs
 let
 sandbox
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

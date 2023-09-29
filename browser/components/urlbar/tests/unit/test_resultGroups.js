@@ -66,11 +66,10 @@ MAX_RESULTS
 let
 sandbox
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

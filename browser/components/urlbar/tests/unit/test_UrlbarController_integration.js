@@ -68,11 +68,10 @@ TEST_URL
 let
 controller
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {
