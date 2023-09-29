@@ -560,6 +560,12 @@ size_allocate
 =
 moz_container_size_allocate
 ;
+#
+ifdef
+MOZ_WAYLAND
+}
+#
+endif
 container_class
 -
 >
@@ -581,12 +587,6 @@ add
 =
 moz_container_add
 ;
-#
-ifdef
-MOZ_WAYLAND
-}
-#
-endif
 }
 void
 moz_container_init
