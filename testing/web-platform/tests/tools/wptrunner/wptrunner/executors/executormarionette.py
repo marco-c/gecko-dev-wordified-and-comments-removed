@@ -2562,14 +2562,12 @@ nsIQuotaManagerService
             
 qms
 .
-clearStoragesForPrincipal
+clearStoragesForOriginPrefix
 (
 principal
 "
 default
 "
-null
-true
 )
 ;
             
