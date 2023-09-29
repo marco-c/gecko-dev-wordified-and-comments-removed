@@ -105,6 +105,14 @@ extended
 -
 const
 ;
+-
+-
+no
+-
+wasm
+-
+gc
+;
 skip
 -
 if

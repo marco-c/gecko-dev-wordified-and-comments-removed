@@ -2101,6 +2101,14 @@ defined
 1337
 )
 ;
+if
+(
+!
+wasmGcEnabled
+(
+)
+)
+{
 wasmFailValidateText
 (
 (
@@ -2216,6 +2224,7 @@ import
 /
 )
 ;
+}
 wasmFailValidateText
 (
 (
