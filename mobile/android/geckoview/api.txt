@@ -20428,6 +20428,14 @@ int
 ;
 method
 AnyThread
+public
+void
+disableExtensionProcessSpawning
+(
+)
+;
+method
+AnyThread
 NonNull
 public
 GeckoResult

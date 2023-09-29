@@ -1174,6 +1174,13 @@ WebExtension
 :
 EnableProcessSpawning
 "
+"
+GeckoView
+:
+WebExtension
+:
+DisableProcessSpawning
+"
 ]
 observers
 :

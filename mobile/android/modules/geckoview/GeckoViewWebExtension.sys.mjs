@@ -3464,6 +3464,13 @@ WebExtension
 :
 EnableProcessSpawning
 "
+"
+GeckoView
+:
+WebExtension
+:
+DisableProcessSpawning
+"
 ]
 )
 ;
