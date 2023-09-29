@@ -1301,10 +1301,6 @@ release
 -
 mozilla
 -
-esr102
--
-mozilla
--
 esr115
 when
 :
@@ -1384,7 +1380,7 @@ minute
 }
 mozilla
 -
-esr102
+esr115
 :
 -
 {
@@ -1404,12 +1400,6 @@ minute
 :
 0
 }
-mozilla
--
-esr115
-:
-[
-]
 -
 name
 :
