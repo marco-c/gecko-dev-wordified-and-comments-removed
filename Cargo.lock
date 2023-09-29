@@ -1921,9 +1921,6 @@ base64
 3
 "
 "
-cstr
-"
-"
 log
 "
 "
@@ -1937,9 +1934,6 @@ nsstring
 "
 "
 rand
-"
-"
-serde
 "
 "
 serde_cbor
