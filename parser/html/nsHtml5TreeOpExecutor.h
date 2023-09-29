@@ -216,7 +216,7 @@ private
 :
 #
 ifdef
-DEBUG_NS_HTML5_TREE_OP_EXECUTOR_FLUSH
+DEBUG
 static
 uint32_t
 sAppendBatchMaxSize
