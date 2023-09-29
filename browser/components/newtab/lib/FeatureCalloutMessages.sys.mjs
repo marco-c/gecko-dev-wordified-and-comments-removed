@@ -3863,15 +3863,7 @@ avif
 height
 :
 "
-245px
-"
-marginBlock
-:
-"
--
-10px
--
-20px
+216px
 "
 }
 dismiss_button
