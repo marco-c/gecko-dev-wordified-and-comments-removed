@@ -1686,6 +1686,15 @@ GetShouldDelayMediaFromStart
 ;
 txn
 .
+SetForceOffline
+(
+GetForceOffline
+(
+)
+)
+;
+txn
+.
 SetAllowJavascript
 (
 GetAllowJavascript
