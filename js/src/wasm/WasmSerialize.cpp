@@ -5699,7 +5699,7 @@ wasm
 :
 :
 MetadataTier
-856
+896
 )
 ;
 MOZ_TRY

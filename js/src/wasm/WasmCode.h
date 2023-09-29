@@ -1990,6 +1990,9 @@ stackMaps
 TryNoteVector
 tryNotes
 ;
+CodeRangeUnwindInfoVector
+codeRangeUnwindInfos
+;
 uint32_t
 debugTrapOffset
 ;
@@ -3526,6 +3529,17 @@ trap
 BytecodeOffset
 *
 bytecode
+)
+const
+;
+const
+CodeRangeUnwindInfo
+*
+lookupUnwindInfo
+(
+void
+*
+pc
 )
 const
 ;
