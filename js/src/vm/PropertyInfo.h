@@ -1101,7 +1101,7 @@ PropertyInfoWithKeyVector
 GCVector
 <
 PropertyInfoWithKey
-8
+16
 >
 ;
 }
