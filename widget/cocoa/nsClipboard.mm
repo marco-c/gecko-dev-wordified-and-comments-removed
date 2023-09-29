@@ -134,12 +134,6 @@ using
 mozilla
 :
 :
-LogLevel
-;
-using
-mozilla
-:
-:
 gfx
 :
 :
