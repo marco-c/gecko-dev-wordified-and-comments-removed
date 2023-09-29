@@ -9594,34 +9594,6 @@ poll
 )
 )
             
-elif
-sys
-.
-platform
-!
-=
-"
-win32
-"
-:
-                
-os
-.
-killpg
-(
-os
-.
-getpgid
-(
-proc
-.
-pid
-)
-signal
-.
-SIGTERM
-)
-            
 else
 :
                 
