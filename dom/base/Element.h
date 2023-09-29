@@ -6632,6 +6632,16 @@ aCaseSensitive
 }
 }
 }
+NON_VIRTUAL_ADDREF_RELEASE
+(
+mozilla
+:
+:
+dom
+:
+:
+Element
+)
 inline
 mozilla
 :
