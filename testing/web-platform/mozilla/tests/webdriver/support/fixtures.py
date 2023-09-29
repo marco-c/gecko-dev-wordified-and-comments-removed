@@ -231,6 +231,20 @@ binary
 "
 ]
         
+env
+=
+full_configuration
+[
+"
+browser
+"
+]
+[
+"
+env
+"
+]
+        
 firefox_options
 =
 full_configuration
@@ -271,6 +285,10 @@ extra_args
 extra_prefs
 =
 extra_prefs
+            
+env
+=
+env
         
 )
         
@@ -552,6 +570,10 @@ None
 extra_prefs
 =
 None
+        
+env
+=
+None
     
 )
 :
@@ -814,6 +836,9 @@ profile
 cmdargs
 =
 cmdargs
+env
+=
+env
         
 )
     
@@ -1140,6 +1165,22 @@ or
         
 self
 .
+env
+=
+configuration
+[
+"
+browser
+"
+]
+[
+"
+env
+"
+]
+        
+self
+.
 command
 =
 None
@@ -1313,6 +1354,11 @@ Popen
 self
 .
 command
+env
+=
+self
+.
+env
 )
         
 end_time

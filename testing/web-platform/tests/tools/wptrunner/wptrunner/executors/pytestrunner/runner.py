@@ -110,9 +110,6 @@ session_config
 timeout
 =
 0
-environ
-=
-None
 )
 :
     
@@ -332,19 +329,6 @@ dump
 (
 config
 f
-)
-            
-if
-environ
-:
-                
-os
-.
-environ
-.
-update
-(
-environ
 )
             
 harness
