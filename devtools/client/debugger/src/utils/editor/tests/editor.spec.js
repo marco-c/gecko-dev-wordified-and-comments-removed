@@ -4,7 +4,7 @@ toEditorLine
 toEditorPosition
 toEditorRange
 toSourceLine
-scrollToColumn
+scrollToPosition
 markText
 lineAtHeight
 getSourceLocationFromMouseEvent
@@ -584,7 +584,7 @@ codeMirror
 describe
 (
 "
-scrollToColumn
+scrollToPosition
 "
 (
 )
@@ -606,7 +606,7 @@ scrollTo
 =
 >
 {
-scrollToColumn
+scrollToPosition
 (
 codeMirror
 60
