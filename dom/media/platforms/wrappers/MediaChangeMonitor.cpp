@@ -571,7 +571,7 @@ res
 AnnexB
 :
 :
-ConvertSampleToAnnexB
+ConvertAVCCSampleToAnnexB
 (
 aSample
 aNeedKeyFrame
