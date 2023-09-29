@@ -570,11 +570,6 @@ html
 message
 -
 bar
-type
-=
-"
-error
-"
 >
 <
 article
@@ -674,11 +669,6 @@ html
 message
 -
 bar
-type
-=
-"
-warning
-"
 >
 <
 article
@@ -786,11 +776,6 @@ html
 message
 -
 bar
-type
-=
-"
-warning
-"
 >
 <
 article
@@ -1060,11 +1045,6 @@ html
 message
 -
 bar
-type
-=
-"
-warning
-"
 >
 <
 article
