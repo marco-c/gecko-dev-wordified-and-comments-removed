@@ -1319,10 +1319,6 @@ Type
 >
 &
 aClientType
-const
-bool
-&
-aClearAll
 )
 ;
 RefPtr

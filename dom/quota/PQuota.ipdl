@@ -423,8 +423,6 @@ principalInfo
 Type
 ?
 clientType
-bool
-clearAll
 )
 returns
 (

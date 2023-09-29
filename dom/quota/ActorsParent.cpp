@@ -23191,10 +23191,6 @@ Type
 >
 &
 aClientType
-const
-bool
-&
-aClearAll
 )
 {
 AssertIsOnOwningThread
@@ -23213,7 +23209,6 @@ this
 aPersistenceType
 aPrincipalInfo
 aClientType
-aClearAll
 )
 ;
 RegisterNormalOriginOp

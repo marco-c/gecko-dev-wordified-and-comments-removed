@@ -238,10 +238,6 @@ Type
 >
 &
 aClientType
-const
-bool
-&
-aClearAll
 ClearStoragesForOriginResolver
 &
 &
