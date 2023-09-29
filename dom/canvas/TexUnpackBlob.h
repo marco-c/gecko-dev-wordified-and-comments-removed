@@ -121,6 +121,10 @@ PackingInfo
 const
 TexUnpackBlobDesc
 &
+const
+Limits
+&
+limits
 )
 ;
 class

@@ -2869,6 +2869,11 @@ astcHdr
 =
 false
 ;
+bool
+rgbColorRenderable
+=
+false
+;
 uint32_t
 maxColorDrawBuffers
 =
