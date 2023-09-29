@@ -70,6 +70,13 @@ c
 "
 ]
 if
+CONFIG
+[
+"
+WASM_CC_VERSION
+"
+]
+and
 int
 (
 CONFIG
