@@ -87,10 +87,6 @@ uint64_t
 aBrowsingContextId
 =
 0
-bool
-aIsThirdPartyCookie
-=
-false
 )
 :
 mAction
@@ -112,10 +108,6 @@ aBatchDeletedCookies
 mBrowsingContextId
 (
 aBrowsingContextId
-)
-mIsThirdPartyCookie
-(
-aIsThirdPartyCookie
 )
 {
 }
@@ -147,11 +139,6 @@ uint64_t
 mBrowsingContextId
 =
 0
-;
-bool
-mIsThirdPartyCookie
-=
-false
 ;
 ~
 CookieNotification

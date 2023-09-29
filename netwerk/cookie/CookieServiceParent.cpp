@@ -1215,8 +1215,6 @@ aOriginAttributes
 aHost
 aFromHttp
 aCookies
-0
-false
 )
 ;
 }
@@ -1246,10 +1244,12 @@ CookieStruct
 >
 &
 aCookies
-uint64_t
-aBrowsingContextId
-bool
-aIsThirdPartyCookie
+dom
+:
+:
+BrowsingContext
+*
+aBrowsingContext
 )
 {
 if
@@ -1301,8 +1301,7 @@ aOriginAttributes
 aHost
 aFromHttp
 aCookies
-aBrowsingContextId
-aIsThirdPartyCookie
+aBrowsingContext
 )
 ;
 mProcessingCookie

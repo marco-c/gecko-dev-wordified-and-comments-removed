@@ -2100,8 +2100,6 @@ BrowsingContext
 *
 aBrowsingContext
 bool
-aIsThirdPartyCookie
-bool
 aOldCookieIsSession
 )
 {
@@ -2202,7 +2200,6 @@ cookie
 aBaseDomain
 batchDeletedCookies
 browsingContextId
-aIsThirdPartyCookie
 )
 ;
 os
@@ -2263,8 +2260,6 @@ dom
 BrowsingContext
 *
 aBrowsingContext
-bool
-aIsThirdPartyCookie
 )
 {
 int64_t
@@ -2844,7 +2839,6 @@ nsICookieNotification
 COOKIE_DELETED
 aBaseDomain
 aBrowsingContext
-aIsThirdPartyCookie
 oldCookieIsSession
 )
 ;
@@ -3216,7 +3210,6 @@ nsICookieNotification
 COOKIE_ADDED
 aBaseDomain
 aBrowsingContext
-aIsThirdPartyCookie
 oldCookieIsSession
 )
 ;

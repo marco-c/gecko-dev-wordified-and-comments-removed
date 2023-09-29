@@ -91,13 +91,5 @@ attribute
 BrowsingContext
 browsingContext
 ;
-[
-infallible
-]
-readonly
-attribute
-boolean
-isThirdPartyCookie
-;
 }
 ;
