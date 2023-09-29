@@ -174,6 +174,11 @@ Window
 Worker
 )
 Serializable
+InstrumentedProps
+=
+(
+colorSpace
+)
 ]
 interface
 ImageData

@@ -166,6 +166,17 @@ document
 Exposed
 =
 Window
+InstrumentedProps
+=
+(
+cancelVideoFrameCallback
+disablePictureInPicture
+onenterpictureinpicture
+onleavepictureinpicture
+playsInline
+requestPictureInPicture
+requestVideoFrameCallback
+)
 ]
 interface
 HTMLVideoElement

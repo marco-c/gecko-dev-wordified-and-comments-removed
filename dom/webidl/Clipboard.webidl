@@ -151,6 +151,13 @@ SecureContext
 Exposed
 =
 Window
+InstrumentedProps
+=
+(
+read
+readText
+write
+)
 ]
 interface
 Clipboard
