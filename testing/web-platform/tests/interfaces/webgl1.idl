@@ -3852,10 +3852,7 @@ bufferData
 (
 GLenum
 target
-[
-AllowShared
-]
-BufferSource
+AllowSharedBufferSource
 ?
 data
 GLenum
@@ -3869,10 +3866,7 @@ GLenum
 target
 GLintptr
 offset
-[
-AllowShared
-]
-BufferSource
+AllowSharedBufferSource
 data
 )
 ;

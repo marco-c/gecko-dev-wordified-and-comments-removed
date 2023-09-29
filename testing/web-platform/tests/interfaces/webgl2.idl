@@ -3343,10 +3343,7 @@ bufferData
 (
 GLenum
 target
-[
-AllowShared
-]
-BufferSource
+AllowSharedBufferSource
 ?
 srcData
 GLenum
@@ -3360,10 +3357,7 @@ GLenum
 target
 GLintptr
 dstByteOffset
-[
-AllowShared
-]
-BufferSource
+AllowSharedBufferSource
 srcData
 )
 ;

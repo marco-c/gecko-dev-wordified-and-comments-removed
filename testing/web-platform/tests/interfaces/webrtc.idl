@@ -1270,6 +1270,12 @@ setParameters
 (
 RTCRtpSendParameters
 parameters
+optional
+RTCSetParameterOptions
+setParameterOptions
+=
+{
+}
 )
 ;
 RTCRtpSendParameters
@@ -1481,6 +1487,11 @@ required
 DOMString
 uri
 ;
+}
+;
+dictionary
+RTCSetParameterOptions
+{
 }
 ;
 [

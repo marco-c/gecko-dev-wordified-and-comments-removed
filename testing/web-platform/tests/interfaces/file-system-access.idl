@@ -177,6 +177,9 @@ FilePickerAcceptType
 {
 USVString
 description
+=
+"
+"
 ;
 record
 <

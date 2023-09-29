@@ -233,6 +233,11 @@ sameSite
 strict
 "
 ;
+boolean
+partitioned
+=
+false
+;
 }
 ;
 dictionary
@@ -254,6 +259,11 @@ path
 "
 /
 "
+;
+boolean
+partitioned
+=
+false
 ;
 }
 ;
@@ -282,6 +292,9 @@ secure
 ;
 CookieSameSite
 sameSite
+;
+boolean
+partitioned
 ;
 }
 ;

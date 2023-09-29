@@ -126,6 +126,7 @@ FencedFrameConfigURL
 Exposed
 =
 Window
+Serializable
 ]
 interface
 FencedFrameConfig
@@ -210,6 +211,11 @@ sequence
 FenceReportingDestination
 >
 destination
+;
+boolean
+once
+=
+false
 ;
 }
 ;

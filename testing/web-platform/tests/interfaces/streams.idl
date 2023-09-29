@@ -73,6 +73,14 @@ strategy
 }
 )
 ;
+static
+ReadableStream
+from
+(
+any
+asyncIterable
+)
+;
 readonly
 attribute
 boolean

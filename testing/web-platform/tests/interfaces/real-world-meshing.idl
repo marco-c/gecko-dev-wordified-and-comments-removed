@@ -124,7 +124,7 @@ XRFrame
 readonly
 attribute
 XRMeshSet
-detectedMeshs
+detectedMeshes
 ;
 }
 ;

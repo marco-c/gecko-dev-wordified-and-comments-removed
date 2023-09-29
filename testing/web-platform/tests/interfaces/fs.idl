@@ -410,10 +410,7 @@ long
 long
 read
 (
-[
-AllowShared
-]
-BufferSource
+AllowSharedBufferSource
 buffer
 optional
 FileSystemReadWriteOptions
@@ -428,10 +425,7 @@ long
 long
 write
 (
-[
-AllowShared
-]
-BufferSource
+AllowSharedBufferSource
 buffer
 optional
 FileSystemReadWriteOptions

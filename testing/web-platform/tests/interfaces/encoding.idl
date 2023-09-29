@@ -128,10 +128,7 @@ USVString
 decode
 (
 optional
-[
-AllowShared
-]
-BufferSource
+AllowSharedBufferSource
 input
 optional
 TextDecodeOptions

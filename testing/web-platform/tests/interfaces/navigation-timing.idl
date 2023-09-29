@@ -116,6 +116,11 @@ unsigned
 short
 redirectCount
 ;
+readonly
+attribute
+DOMHighResTimeStamp
+criticalCHRestart
+;
 [
 Default
 ]
