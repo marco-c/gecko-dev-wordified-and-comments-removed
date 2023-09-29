@@ -5604,6 +5604,12 @@ mIndex
 .
 SetCapacity
 (
+mIndex
+.
+Length
+(
+)
++
 sampleCount
 fallible
 )
