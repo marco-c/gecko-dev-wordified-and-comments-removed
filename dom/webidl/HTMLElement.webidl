@@ -178,15 +178,6 @@ document
 Exposed
 =
 Window
-InstrumentedProps
-=
-(
-attributeStyleMap
-hidePopover
-popover
-showPopover
-togglePopover
-)
 ]
 interface
 HTMLElement

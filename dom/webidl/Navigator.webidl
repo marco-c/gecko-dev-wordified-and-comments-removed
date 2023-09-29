@@ -461,16 +461,6 @@ h
 Exposed
 =
 Window
-InstrumentedProps
-=
-(
-canShare
-clearAppBadge
-setAppBadge
-share
-userActivation
-wakeLock
-)
 ]
 interface
 Navigator

@@ -164,12 +164,6 @@ document
 Exposed
 =
 Window
-InstrumentedProps
-=
-(
-disableRemotePlayback
-remote
-)
 ]
 interface
 HTMLMediaElement

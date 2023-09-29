@@ -236,17 +236,6 @@ XULControllers
 Exposed
 =
 Window
-InstrumentedProps
-=
-(
-capture
-incremental
-onsearch
-popoverTargetAction
-popoverTargetElement
-webkitEntries
-webkitdirectory
-)
 ]
 interface
 HTMLInputElement

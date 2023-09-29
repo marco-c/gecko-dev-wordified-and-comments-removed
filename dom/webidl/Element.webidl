@@ -196,13 +196,6 @@ nsIScreen
 Exposed
 =
 Window
-InstrumentedProps
-=
-(
-computedStyleMap
-onmousewheel
-scrollIntoViewIfNeeded
-)
 ]
 interface
 Element
