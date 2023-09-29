@@ -138,7 +138,7 @@ ads
 0
 ]
 .
-renderUrl
+renderURL
 }
 ;
 reportWin
@@ -147,7 +147,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -157,7 +157,7 @@ uuid
 ;
 }
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )

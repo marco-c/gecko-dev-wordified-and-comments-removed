@@ -30,7 +30,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -53,7 +53,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -63,11 +63,11 @@ uuid
 ;
 }
 [
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -115,7 +115,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -129,7 +129,7 @@ reportWin
 '
 }
 [
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -173,7 +173,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -197,7 +197,7 @@ exception
 '
 }
 [
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -245,7 +245,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -255,7 +255,7 @@ uuid
 ;
 }
 [
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -319,7 +319,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -329,7 +329,7 @@ uuid
 ;
 }
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -393,7 +393,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -403,7 +403,7 @@ uuid
 ;
 }
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -476,7 +476,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -486,7 +486,7 @@ uuid
 ;
 }
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -543,7 +543,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -553,7 +553,7 @@ uuid
 ;
 }
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -604,7 +604,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -616,7 +616,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -642,7 +642,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -652,7 +652,7 @@ uuid
 ;
 }
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -702,7 +702,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -716,7 +716,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -728,7 +728,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -738,7 +738,7 @@ uuid
 ;
 }
 [
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -766,7 +766,7 @@ waitForObservedRequests
 (
 uuid
 [
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )

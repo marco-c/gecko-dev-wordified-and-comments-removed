@@ -81,7 +81,7 @@ signals
 py
 ;
 function
-createTrackerUrl
+createTrackerURL
 (
 origin
 uuid
@@ -161,7 +161,7 @@ toString
 ;
 }
 function
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 id
@@ -172,7 +172,7 @@ id
 )
 {
 return
-createTrackerUrl
+createTrackerURL
 (
 window
 .
@@ -189,7 +189,7 @@ id
 ;
 }
 function
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 id
@@ -200,7 +200,7 @@ id
 )
 {
 return
-createTrackerUrl
+createTrackerURL
 (
 window
 .
@@ -217,7 +217,7 @@ id
 ;
 }
 function
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 id
@@ -228,7 +228,7 @@ id
 )
 {
 return
-createTrackerUrl
+createTrackerURL
 (
 window
 .
@@ -245,7 +245,7 @@ id
 ;
 }
 function
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 id
@@ -256,7 +256,7 @@ id
 )
 {
 return
-createTrackerUrl
+createTrackerURL
 (
 window
 .
@@ -296,9 +296,9 @@ async
 >
 {
 let
-cleanupUrl
+cleanupURL
 =
-createTrackerUrl
+createTrackerURL
 (
 window
 .
@@ -317,7 +317,7 @@ response
 await
 fetch
 (
-cleanupUrl
+cleanupURL
 {
 credentials
 :
@@ -366,9 +366,9 @@ expectedRequests
 )
 {
 let
-trackedRequestsUrl
+trackedRequestsURL
 =
-createTrackerUrl
+createTrackerURL
 (
 window
 .
@@ -398,7 +398,7 @@ response
 await
 fetch
 (
-trackedRequestsUrl
+trackedRequestsURL
 {
 credentials
 :
@@ -431,7 +431,7 @@ error
 )
 {
 throw
-trackedRequestsUrl
+trackedRequestsURL
 +
 '
 fetch
@@ -832,7 +832,7 @@ toString
 ;
 }
 function
-createRenderUrl
+createRenderURL
 (
 uuid
 script
@@ -951,7 +951,7 @@ sendReportTo
 (
 '
 {
-createBiddingScriptURL
+createBidderReportURL
 (
 uuid
 )
@@ -965,9 +965,9 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
-createRenderUrl
+createRenderURL
 (
 uuid
 )
@@ -1083,7 +1083,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -1370,8 +1370,8 @@ runReportTest
 test
 uuid
 codeToInsert
-expectedReportUrls
-renderUrlOverride
+expectedReportURLs
+renderURLOverride
 )
 {
 let
@@ -1437,7 +1437,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
@@ -1525,7 +1525,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
@@ -1606,7 +1606,7 @@ biddingScriptURLParams
 ;
 if
 (
-renderUrlOverride
+renderURLOverride
 )
 interestGroupOverrides
 .
@@ -1614,9 +1614,9 @@ ads
 =
 [
 {
-renderUrl
+renderURL
 :
-renderUrlOverride
+renderURLOverride
 }
 ]
 await
@@ -1647,7 +1647,7 @@ await
 waitForObservedRequests
 (
 uuid
-expectedReportUrls
+expectedReportURLs
 )
 ;
 }

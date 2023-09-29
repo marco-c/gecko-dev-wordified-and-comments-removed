@@ -33,7 +33,7 @@ beacon
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -49,7 +49,7 @@ reportWin
 }
 [
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -57,7 +57,7 @@ uuid
 body
 :
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -134,7 +134,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -146,7 +146,7 @@ uuid
 }
 [
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -154,7 +154,7 @@ uuid
 body
 :
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -227,7 +227,7 @@ beacon
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -243,7 +243,7 @@ reportWin
 }
 [
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -252,7 +252,7 @@ body
 :
 body
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -334,7 +334,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -346,7 +346,7 @@ uuid
 }
 [
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -355,7 +355,7 @@ body
 :
 body
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -433,7 +433,7 @@ beacon
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -449,7 +449,7 @@ reportWin
 }
 [
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -458,7 +458,7 @@ body
 :
 body1
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -467,7 +467,7 @@ body
 :
 body2
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -578,7 +578,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -590,7 +590,7 @@ uuid
 }
 [
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -599,7 +599,7 @@ body
 :
 body1
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -608,7 +608,7 @@ body
 :
 body2
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -715,7 +715,7 @@ beacon1
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 '
@@ -728,7 +728,7 @@ beacon2
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 '
@@ -747,7 +747,7 @@ reportWin
 }
 [
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 '
@@ -759,7 +759,7 @@ body
 :
 body1
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 '
@@ -771,7 +771,7 @@ body
 :
 body2
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -879,7 +879,7 @@ beacon1
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 '
@@ -892,7 +892,7 @@ beacon2
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 '
@@ -907,7 +907,7 @@ uuid
 }
 [
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 '
@@ -919,7 +919,7 @@ body
 :
 body1
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 '
@@ -931,7 +931,7 @@ body
 :
 body2
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -1035,7 +1035,7 @@ beacon
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -1053,7 +1053,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1065,7 +1065,7 @@ uuid
 }
 [
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -1074,7 +1074,7 @@ body
 :
 body
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1083,7 +1083,7 @@ body
 :
 body
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -1168,7 +1168,7 @@ beacon
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -1186,7 +1186,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1198,7 +1198,7 @@ uuid
 }
 [
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -1207,7 +1207,7 @@ body
 :
 body1
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1216,7 +1216,7 @@ body
 :
 body2
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -1322,7 +1322,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -1337,7 +1337,7 @@ beacon
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -1353,7 +1353,7 @@ beacon1
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -1380,7 +1380,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1392,7 +1392,7 @@ uuid
 }
 [
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1401,7 +1401,7 @@ body
 :
 body
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -1480,7 +1480,7 @@ beacon
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -1495,7 +1495,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -1510,7 +1510,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1526,7 +1526,7 @@ beacon1
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1538,7 +1538,7 @@ uuid
 }
 [
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -1547,7 +1547,7 @@ body
 :
 body
 ]
-createRenderUrl
+createRenderURL
 (
 uuid
 window
