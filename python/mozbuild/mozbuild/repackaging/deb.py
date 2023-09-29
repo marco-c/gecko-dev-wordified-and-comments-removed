@@ -298,20 +298,11 @@ source_dir
         
 application_ini_data
 =
-_parse_application_ini_data
-(
-            
-_extract_application_ini_data
+_load_application_ini_data
 (
 infile
 version
 build_number
-)
-            
-version
-            
-build_number
-        
 )
         
 build_variables
@@ -554,18 +545,11 @@ extensions
         
 application_ini_data
 =
-_parse_application_ini_data
+_load_application_ini_data
 (
             
-_extract_application_ini_data
-(
 input_tar_file
 version
-build_number
-)
-            
-version
-            
 build_number
         
 )
@@ -900,6 +884,35 @@ d
         
 return
 application_ini_data
+def
+_load_application_ini_data
+(
+infile
+version
+build_number
+)
+:
+    
+extracted_application_ini_data
+=
+_extract_application_ini_data
+(
+infile
+)
+    
+parsed_application_ini_data
+=
+_parse_application_ini_data
+(
+        
+extracted_application_ini_data
+version
+build_number
+    
+)
+    
+return
+parsed_application_ini_data
 def
 _parse_application_ini_data
 (
