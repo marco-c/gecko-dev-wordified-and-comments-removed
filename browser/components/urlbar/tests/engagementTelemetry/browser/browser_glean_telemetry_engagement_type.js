@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+5
+)
+;
 add_setup
 (
 async
@@ -657,6 +662,7 @@ popPrefEnv
 )
 ;
 }
+await
 cleanupQuickSuggest
 (
 )
@@ -833,6 +839,7 @@ popPrefEnv
 )
 ;
 }
+await
 cleanupQuickSuggest
 (
 )

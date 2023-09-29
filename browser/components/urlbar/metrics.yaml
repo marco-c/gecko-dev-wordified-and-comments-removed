@@ -739,6 +739,8 @@ rs_adm_nonsponsored
 rs_adm_sponsored
 rs_amo
 rs_pocket
+rust_adm_nonsponsored
+rust_adm_sponsored
 search_engine
 search_history
 search_suggest
@@ -1405,6 +1407,8 @@ rs_adm_nonsponsored
 rs_adm_sponsored
 rs_amo
 rs_pocket
+rust_adm_nonsponsored
+rust_adm_sponsored
 search_engine
 search_history
 search_shortcut_button
@@ -1837,6 +1841,8 @@ rs_adm_nonsponsored
 rs_adm_sponsored
 rs_amo
 rs_pocket
+rust_adm_nonsponsored
+rust_adm_sponsored
 search_engine
 search_history
 search_suggest
@@ -2616,6 +2622,8 @@ rs_adm_nonsponsored
 rs_adm_sponsored
 rs_amo
 rs_pocket
+rust_adm_nonsponsored
+rust_adm_sponsored
 search_engine
 search_history
 search_suggest
