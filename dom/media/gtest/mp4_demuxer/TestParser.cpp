@@ -1008,7 +1008,10 @@ uint64_t
 mMoofReachedOffset
 ;
 bool
-mValidMoof
+mValidMoofForTrack1
+;
+bool
+mValidMoofForAllTracks
 ;
 int8_t
 mAudioProfile
@@ -1043,6 +1046,7 @@ false
 false
 152
 false
+false
 0
 }
 {
@@ -1066,6 +1070,7 @@ true
 true
 0
 false
+false
 2
 }
 {
@@ -1086,6 +1091,7 @@ false
 1
 false
 0
+false
 false
 0
 }
@@ -1109,6 +1115,7 @@ false
 false
 0
 false
+false
 0
 }
 {
@@ -1129,6 +1136,7 @@ false
 1
 false
 0
+false
 false
 0
 }
@@ -1153,6 +1161,7 @@ true
 false
 0
 false
+false
 2
 }
 {
@@ -1175,6 +1184,7 @@ true
 false
 0
 false
+false
 0
 }
 {
@@ -1195,6 +1205,7 @@ false
 1
 false
 0
+false
 false
 0
 }
@@ -1218,6 +1229,7 @@ true
 false
 0
 false
+false
 0
 }
 {
@@ -1239,6 +1251,7 @@ false
 false
 152
 false
+false
 0
 }
 {
@@ -1259,6 +1272,7 @@ false
 1
 false
 0
+false
 false
 0
 }
@@ -1283,6 +1297,7 @@ true
 true
 0
 true
+false
 2
 }
 {
@@ -1302,6 +1317,7 @@ false
 100079991719
 false
 0
+false
 false
 2
 }
@@ -1326,6 +1342,7 @@ false
 548639
 false
 0
+false
 false
 2
 }
@@ -1353,6 +1370,7 @@ false
 false
 0
 false
+false
 2
 }
 {
@@ -1376,6 +1394,7 @@ false
 205328
 false
 0
+false
 false
 2
 }
@@ -1402,6 +1421,7 @@ false
 775
 false
 0
+false
 false
 2
 }
@@ -1435,6 +1455,7 @@ infinity
 )
 false
 0
+false
 false
 2
 }
@@ -1470,6 +1491,7 @@ infinity
 false
 0
 false
+false
 2
 }
 {
@@ -1492,6 +1514,7 @@ false
 false
 0
 false
+false
 2
 }
 {
@@ -1511,6 +1534,7 @@ false
 234567981
 false
 0
+false
 false
 2
 }
@@ -1532,7 +1556,8 @@ false
 1
 false
 0
-true
+false
+false
 0
 }
 {
@@ -1556,6 +1581,7 @@ true
 true
 0
 true
+false
 2
 }
 {
@@ -1578,6 +1604,7 @@ false
 992000
 false
 0
+false
 false
 2
 }
@@ -1602,6 +1629,7 @@ true
 false
 0
 false
+false
 2
 }
 {
@@ -1624,6 +1652,7 @@ false
 false
 0
 false
+false
 2
 }
 {
@@ -1642,7 +1671,8 @@ false
 0
 false
 955100
-true
+false
+false
 2
 }
 {
@@ -1672,6 +1702,7 @@ true
 1
 true
 0
+false
 false
 0
 }
@@ -1703,6 +1734,7 @@ true
 false
 0
 false
+false
 0
 }
 {
@@ -1732,6 +1764,7 @@ true
 false
 0
 true
+false
 2
 }
 {
@@ -1762,7 +1795,8 @@ true
 032000
 false
 0
-true
+false
+false
 2
 }
 {
@@ -1795,6 +1829,7 @@ true
 0
 true
 0
+false
 false
 0
 }
@@ -3357,7 +3392,7 @@ tests
 test
 ]
 .
-mValidMoof
+mValidMoofForAllTracks
 parser
 .
 RebuildFragmentedIndex
@@ -3535,7 +3570,7 @@ tests
 test
 ]
 .
-mValidMoof
+mValidMoofForAllTracks
 !
 parser
 .
@@ -3734,7 +3769,7 @@ tests
 test
 ]
 .
-mValidMoof
+mValidMoofForTrack1
 parser
 .
 RebuildFragmentedIndex

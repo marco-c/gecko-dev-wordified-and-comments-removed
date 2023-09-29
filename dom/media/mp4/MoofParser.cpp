@@ -536,8 +536,10 @@ moof
 IsValid
 (
 )
-&
-&
+)
+{
+if
+(
 !
 box
 .
@@ -554,11 +556,9 @@ LOG_WARN
 (
 Moof
 "
-Could
-not
-find
-valid
+Invalid
 moof
+.
 moof
 may
 not
@@ -570,6 +570,9 @@ yet
 )
 ;
 break
+;
+}
+continue
 ;
 }
 if
@@ -5179,7 +5182,7 @@ mValid
 =
 false
 ;
-break
+return
 ;
 }
 }
