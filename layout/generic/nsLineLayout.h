@@ -180,10 +180,6 @@ const
 nsSize
 &
 aContainerSize
-nscoord
-aInset
-=
-0
 )
 ;
 void
@@ -1232,9 +1228,6 @@ mICoord
 ;
 nscoord
 mIEnd
-;
-nscoord
-mInset
 ;
 nscoord
 mBStartLeading

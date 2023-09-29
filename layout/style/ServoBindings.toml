@@ -1159,12 +1159,6 @@ mozilla
 StyleWritingModeProperty
 "
 "
-mozilla
-:
-:
-StyleTextWrap
-"
-"
 StyleFontVariantEmoji
 "
 ]
