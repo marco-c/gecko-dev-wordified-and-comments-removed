@@ -9651,6 +9651,14 @@ out_imageSize
 -
 >
 width
+out_imageSize
+-
+>
+height
+out_imageSize
+-
+>
+width
 *
 out_imageSize
 -
@@ -31046,6 +31054,12 @@ GetCookieJarSettings
 rawData
 .
 mData
+size
+.
+width
+size
+.
+height
 size
 .
 height
