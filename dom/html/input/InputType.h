@@ -188,9 +188,14 @@ InputType
 default
 ;
 static
-const
+constexpr
 Decimal
 kStepAny
+=
+Decimal
+(
+0_d
+)
 ;
 void
 DropReference
