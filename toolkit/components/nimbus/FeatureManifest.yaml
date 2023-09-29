@@ -12325,7 +12325,7 @@ isEarlyStartup
 false
 variables
 :
-allowUpdatesForUnelevatedInstallations
+enableUpdatesForUnelevatedInstallations
 :
 description
 :
@@ -12359,7 +12359,7 @@ written
 type
 :
 boolean
-fallbackPref
+setPref
 :
 app
 .
