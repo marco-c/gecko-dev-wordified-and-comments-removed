@@ -46,6 +46,15 @@ client
 )
 :
     
+async
+with
+client
+.
+ensure_fastclick_activates
+(
+)
+:
+        
 await
 client
 .
@@ -53,7 +62,7 @@ navigate
 (
 URL
 )
-    
+        
 return
 client
 .

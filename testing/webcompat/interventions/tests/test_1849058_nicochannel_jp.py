@@ -67,6 +67,9 @@ client
 await_css
 (
 PLAY_BUTTON_CSS
+timeout
+=
+30
 )
 pytest
 .

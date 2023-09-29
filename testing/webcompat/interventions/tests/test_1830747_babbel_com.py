@@ -1,5 +1,11 @@
 import
 pytest
+from
+webdriver
+.
+error
+import
+NoSuchElementException
 URL
 =
 "
@@ -73,6 +79,9 @@ navigate
 URL
 )
     
+try
+:
+        
 client
 .
 soft_click
@@ -82,8 +91,17 @@ client
 await_css
 (
 COOKIES_CSS
+timeout
+=
+3
 )
 )
+    
+except
+NoSuchElementException
+:
+        
+pass
     
 btn
 =

@@ -56,6 +56,15 @@ client
 )
 :
     
+async
+with
+client
+.
+ensure_fastclick_activates
+(
+)
+:
+        
 await
 client
 .
@@ -63,10 +72,10 @@ navigate
 (
 URL
 )
-    
+        
 try
 :
-        
+            
 client
 .
 soft_click
@@ -81,13 +90,13 @@ timeout
 3
 )
 )
-    
+        
 except
 NoSuchElementException
 :
-        
+            
 pass
-    
+        
 return
 client
 .
