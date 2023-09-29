@@ -70,6 +70,7 @@ dbg
 "
 first
 "
+1
 )
 ;
 is
@@ -212,6 +213,7 @@ doProjectSearch
 (
 dbg
 searchTerm
+1
 )
 ;
 const
@@ -556,6 +558,7 @@ dbg
 "
 we
 "
+19
 )
 ;
 is
@@ -771,20 +774,7 @@ dbg
 "
 console
 "
-)
-;
-is
-(
-fileResults
-.
-length
 5
-"
-5
-results
-were
-found
-"
 )
 ;
 let
