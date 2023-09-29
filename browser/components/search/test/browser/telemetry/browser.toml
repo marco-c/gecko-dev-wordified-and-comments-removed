@@ -21,7 +21,14 @@ js
 ]
 [
 "
-browser_search_glean_serp_telemetry_enabled_by_nimbus_variable
+browser_search_glean_serp_event_telemetry_categorization_enabled_by_nimbus_variable
+.
+js
+"
+]
+[
+"
+browser_search_glean_serp_event_telemetry_enabled_by_nimbus_variable
 .
 js
 "
