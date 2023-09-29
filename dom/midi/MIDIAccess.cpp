@@ -1341,6 +1341,12 @@ if
 mAccessPromise
 )
 {
+rv
+.
+SuppressException
+(
+)
+;
 return
 ;
 }
