@@ -1,7 +1,7 @@
 const
 image_delay
 =
-1000
+2000
 ;
 const
 delay_pipe_value
