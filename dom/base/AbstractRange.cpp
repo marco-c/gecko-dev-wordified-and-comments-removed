@@ -633,12 +633,6 @@ mIsDynamicRange
 aIsDynamicRange
 )
 {
-mRefCnt
-.
-SetIsOnMainThread
-(
-)
-;
 Init
 (
 aNode

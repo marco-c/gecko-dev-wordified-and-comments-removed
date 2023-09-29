@@ -763,12 +763,6 @@ if
 mIsMainThreadELM
 )
 {
-mRefCnt
-.
-SetIsOnMainThread
-(
-)
-;
 +
 +
 sMainThreadCreatedCount
