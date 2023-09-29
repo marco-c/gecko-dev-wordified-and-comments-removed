@@ -1295,9 +1295,6 @@ nightly
 beta
 "
 "
-esr102
-"
-"
 esr115
 "
 "
