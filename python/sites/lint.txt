@@ -137,13 +137,6 @@ third_party
 /
 python
 /
-jsonschema
-vendored
-:
-third_party
-/
-python
-/
 mohawk
 vendored
 :
@@ -166,13 +159,6 @@ third_party
 python
 /
 pathspec
-vendored
-:
-third_party
-/
-python
-/
-pyrsistent
 vendored
 :
 third_party

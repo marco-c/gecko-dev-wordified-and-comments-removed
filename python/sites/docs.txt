@@ -636,13 +636,6 @@ third_party
 /
 python
 /
-jsonschema
-vendored
-:
-third_party
-/
-python
-/
 mohawk
 vendored
 :
@@ -658,13 +651,6 @@ third_party
 python
 /
 packaging
-vendored
-:
-third_party
-/
-python
-/
-pkgutil_resolve_name
 vendored
 :
 third_party
