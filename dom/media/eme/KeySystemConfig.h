@@ -139,6 +139,16 @@ vp9
 "
 _ns
 ;
+static
+constexpr
+auto
+EME_CODEC_HEVC
+=
+"
+hevc
+"
+_ns
+;
 using
 EMEEncryptionSchemeString
 =
