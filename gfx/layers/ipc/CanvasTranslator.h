@@ -101,6 +101,9 @@ h
 namespace
 mozilla
 {
+class
+TaskQueue
+;
 namespace
 layers
 {
@@ -577,6 +580,11 @@ StartTranslation
 ;
 void
 FinishShutdown
+(
+)
+;
+bool
+CheckDeactivated
 (
 )
 ;

@@ -62,6 +62,12 @@ Shutdown
 (
 )
 ;
+static
+void
+DisableRemoteCanvas
+(
+)
+;
 CanvasManagerParent
 (
 )

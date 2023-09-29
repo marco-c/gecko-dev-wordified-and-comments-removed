@@ -809,6 +809,11 @@ info
 )
 ;
 async
+NotifyDisableRemoteCanvas
+(
+)
+;
+async
 FlushMemory
 (
 nsString

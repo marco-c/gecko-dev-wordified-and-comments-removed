@@ -2253,6 +2253,12 @@ aInfo
 ;
 }
 static
+void
+DisableRemoteCanvas
+(
+)
+;
+static
 bool
 HasVariationFontSupport
 (

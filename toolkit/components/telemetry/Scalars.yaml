@@ -17347,6 +17347,8 @@ bug_numbers
 1706844
 -
 1739290
+-
+1852144
 description
 :
 >
@@ -17371,7 +17373,7 @@ uint
 expires
 :
 "
-103
+130
 "
 notification_emails
 :
@@ -17386,6 +17388,11 @@ mozilla
 com
 -
 bowen
+mozilla
+.
+com
+-
+aosmond
 mozilla
 .
 com
@@ -17418,6 +17425,8 @@ bug_numbers
 1706844
 -
 1739290
+-
+1852144
 description
 :
 >
@@ -17443,7 +17452,7 @@ uint
 expires
 :
 "
-103
+130
 "
 notification_emails
 :
@@ -17458,6 +17467,11 @@ mozilla
 com
 -
 bowen
+mozilla
+.
+com
+-
+aosmond
 mozilla
 .
 com

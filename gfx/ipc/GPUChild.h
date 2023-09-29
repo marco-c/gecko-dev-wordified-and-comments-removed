@@ -408,6 +408,17 @@ ipc
 :
 :
 IPCResult
+RecvNotifyDisableRemoteCanvas
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvFlushMemory
 (
 const
