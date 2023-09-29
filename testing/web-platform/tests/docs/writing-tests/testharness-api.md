@@ -1710,6 +1710,12 @@ see
 promise
 rejection
 ]
+(
+#
+promise
+-
+rejection
+)
 .
 #
 #
