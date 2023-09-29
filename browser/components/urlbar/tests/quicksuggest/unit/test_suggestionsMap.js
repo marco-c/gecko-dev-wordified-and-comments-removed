@@ -40,7 +40,7 @@ urlbar
 /
 private
 /
-QuickSuggestRemoteSettings
+SuggestBackendJs
 .
 sys
 .

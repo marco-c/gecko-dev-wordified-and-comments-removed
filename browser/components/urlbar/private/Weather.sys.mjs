@@ -142,7 +142,7 @@ sys
 .
 mjs
 "
-QuickSuggestRemoteSettings
+QuickSuggest
 :
 "
 resource
@@ -152,11 +152,7 @@ resource
 /
 modules
 /
-urlbar
-/
-private
-/
-QuickSuggestRemoteSettings
+QuickSuggest
 .
 sys
 .
@@ -1382,7 +1378,9 @@ this
 ;
 lazy
 .
-QuickSuggestRemoteSettings
+QuickSuggest
+.
+jsBackend
 .
 register
 (
@@ -1404,7 +1402,9 @@ stopFetching
 ;
 lazy
 .
-QuickSuggestRemoteSettings
+QuickSuggest
+.
+jsBackend
 .
 unregister
 (
