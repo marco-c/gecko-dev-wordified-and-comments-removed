@@ -1329,6 +1329,7 @@ custom_properties
 (
 )
 stylist
+is_root_element
 )
 ;
 for

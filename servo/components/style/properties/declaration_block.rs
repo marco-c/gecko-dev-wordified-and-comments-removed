@@ -4609,6 +4609,7 @@ new
 (
 inherited_custom_properties
 stylist
+false
 )
 ;
 for
