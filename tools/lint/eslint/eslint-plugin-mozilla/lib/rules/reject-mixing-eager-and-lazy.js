@@ -436,17 +436,6 @@ callerSource
 =
 =
 "
-XPCOMUtils
-.
-defineLazyModuleGetter
-"
-|
-|
-callerSource
-=
-=
-=
-"
 ChromeUtils
 .
 defineModuleGetter

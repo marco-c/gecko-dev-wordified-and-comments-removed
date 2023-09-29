@@ -142,9 +142,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineLazyModuleGetters
 (
 lazy
 {
