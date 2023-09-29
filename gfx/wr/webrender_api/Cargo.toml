@@ -110,8 +110,6 @@ app_units
 bitflags
 =
 "
-1
-.
 2
 "
 byteorder

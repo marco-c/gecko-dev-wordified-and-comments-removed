@@ -3607,7 +3607,7 @@ SetWebRenderDebugFlags
 (
 flags
 .
-bits
+_0
 )
 ;
 }
