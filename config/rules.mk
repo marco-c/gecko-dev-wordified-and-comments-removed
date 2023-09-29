@@ -3455,13 +3455,6 @@ entry
 Wl
 -
 -
-growable
--
-table
--
-Wl
--
--
 import
 -
 memory
