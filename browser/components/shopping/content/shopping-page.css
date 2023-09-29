@@ -58,16 +58,7 @@ MPL
 /
 :
 root
-body
 {
-margin
-:
-0
-;
-padding
-:
-0
-;
 -
 -
 in
@@ -87,5 +78,9 @@ f9f9fb
 #
 2b2a33
 )
+;
+font
+:
+menu
 ;
 }
