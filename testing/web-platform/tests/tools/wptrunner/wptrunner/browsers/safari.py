@@ -1446,3 +1446,23 @@ NoSuchProcess
 :
                     
 pass
+                
+except
+Exception
+:
+                    
+self
+.
+logger
+.
+critical
+(
+"
+Failed
+to
+stop
+Safari
+"
+)
+                    
+raise
