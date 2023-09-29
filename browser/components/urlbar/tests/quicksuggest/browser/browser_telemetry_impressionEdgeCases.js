@@ -1526,6 +1526,13 @@ position
 index
 +
 1
+suggested_index
+:
+-
+1
+suggested_index_relative_to_group
+:
+true
 }
 }
 ]
