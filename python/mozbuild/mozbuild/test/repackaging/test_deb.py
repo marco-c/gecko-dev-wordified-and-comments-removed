@@ -1,6 +1,4 @@
 import
-datetime
-import
 json
 import
 logging
@@ -125,19 +123,6 @@ build_id
 "
 20230222000000
 "
-    
-"
-timestamp
-"
-:
-datetime
-.
-datetime
-(
-2023
-2
-22
-)
 }
 pytest
 .
@@ -714,8 +699,13 @@ expected
     
 application_ini_data
 =
-{
+deb
+.
+_parse_application_ini_data
+(
         
+{
+            
 "
 name
 "
@@ -723,7 +713,7 @@ name
 "
 Firefox
 "
-        
+            
 "
 display_name
 "
@@ -731,7 +721,7 @@ display_name
 "
 Firefox
 "
-        
+            
 "
 vendor
 "
@@ -739,7 +729,7 @@ vendor
 "
 Mozilla
 "
-        
+            
 "
 remoting_name
 "
@@ -751,7 +741,7 @@ nightly
 -
 try
 "
-        
+            
 "
 build_id
 "
@@ -760,20 +750,13 @@ build_id
 20230222000000
 "
         
-"
-timestamp
-"
-:
-datetime
-.
-datetime
-(
-2023
-2
-22
-)
-    
 }
+        
+version
+        
+build_number
+    
+)
     
 assert
 deb
@@ -786,10 +769,6 @@ application_ini_data
 "
 x86
 "
-        
-version
-        
-build_number
         
 depends
 =
