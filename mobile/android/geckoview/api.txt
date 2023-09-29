@@ -18810,6 +18810,15 @@ public
 static
 final
 int
+SIGNATURE
+=
+16
+;
+field
+public
+static
+final
+int
 USER
 =
 2
