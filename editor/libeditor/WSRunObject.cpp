@@ -430,6 +430,8 @@ const
 Element
 *
 aEditingHost
+BlockInlineCheck
+aBlockInlineCheck
 )
 ;
 template
@@ -449,6 +451,8 @@ const
 Element
 *
 aEditingHost
+BlockInlineCheck
+aBlockInlineCheck
 )
 ;
 template
@@ -468,6 +472,8 @@ const
 Element
 *
 aEditingHost
+BlockInlineCheck
+aBlockInlineCheck
 )
 ;
 NS_INSTANTIATE_CONST_METHOD_RETURNING_ANY_EDITOR_DOM_POINT
@@ -1427,6 +1433,10 @@ AtEndOf
 (
 aLeftBlockElement
 )
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 NS_ASSERTION
@@ -2388,6 +2398,10 @@ ComputeEditingHost
 (
 )
 atLeftBlockChild
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 NS_ASSERTION
@@ -3545,6 +3559,10 @@ AtEndOf
 (
 aLeftBlockElement
 )
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 NS_ASSERTION
@@ -4156,6 +4174,10 @@ textFragmentDataAtInsertionPoint
 aPointToInsert
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -5212,6 +5234,10 @@ StartRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -5276,6 +5302,10 @@ EndRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -6997,6 +7027,10 @@ textFragmentDataAtDeletion
 aPoint
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -7564,6 +7598,10 @@ textFragmentDataAtDeletion
 aPoint
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -8609,6 +8647,7 @@ WSType
 :
 :
 UnexpectedError
+mBlockInlineCheck
 )
 ;
 }
@@ -8680,6 +8719,7 @@ WSType
 :
 :
 SpecialContent
+mBlockInlineCheck
 )
 ;
 }
@@ -8749,6 +8789,7 @@ WSType
 :
 :
 NonCollapsibleCharacters
+mBlockInlineCheck
 )
 ;
 }
@@ -8794,6 +8835,7 @@ TextFragmentDataAtStartRef
 StartRawReason
 (
 )
+mBlockInlineCheck
 )
 ;
 }
@@ -8814,6 +8856,7 @@ TextFragmentDataAtStartRef
 StartRawReason
 (
 )
+mBlockInlineCheck
 )
 ;
 }
@@ -8870,6 +8913,7 @@ WSType
 :
 :
 UnexpectedError
+mBlockInlineCheck
 )
 ;
 }
@@ -8941,6 +8985,7 @@ WSType
 :
 :
 SpecialContent
+mBlockInlineCheck
 )
 ;
 }
@@ -9000,6 +9045,7 @@ WSType
 :
 :
 NonCollapsibleCharacters
+mBlockInlineCheck
 )
 ;
 }
@@ -9045,6 +9091,7 @@ TextFragmentDataAtStartRef
 EndRawReason
 (
 )
+mBlockInlineCheck
 )
 ;
 }
@@ -9065,6 +9112,7 @@ TextFragmentDataAtStartRef
 EndRawReason
 (
 )
+mBlockInlineCheck
 )
 ;
 }
@@ -9089,11 +9137,17 @@ const
 Element
 *
 aEditingHost
+BlockInlineCheck
+aBlockInlineCheck
 )
 :
 mEditingHost
 (
 aEditingHost
+)
+mBlockInlineCheck
+(
+aBlockInlineCheck
 )
 {
 if
@@ -9267,6 +9321,7 @@ HTMLEditUtils
 :
 :
 ClosestEditableBlockElementOrInlineEditingHost
+aBlockInlineCheck
 )
 ;
 if
@@ -9317,6 +9372,7 @@ editableBlockElementOrInlineEditingHost
 mEditingHost
 &
 mNBSPData
+aBlockInlineCheck
 )
 ;
 MOZ_ASSERT_IF
@@ -9369,6 +9425,7 @@ editableBlockElementOrInlineEditingHost
 mEditingHost
 &
 mNBSPData
+aBlockInlineCheck
 )
 ;
 MOZ_ASSERT_IF
@@ -9442,6 +9499,8 @@ aPoint
 NoBreakingSpaceData
 *
 aNBSPData
+BlockInlineCheck
+aBlockInlineCheck
 )
 {
 MOZ_ASSERT
@@ -9786,7 +9845,7 @@ aPoint
 const
 Element
 &
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 const
 Element
 *
@@ -9794,6 +9853,8 @@ aEditingHost
 NoBreakingSpaceData
 *
 aNBSPData
+BlockInlineCheck
+aBlockInlineCheck
 )
 {
 MOZ_ASSERT
@@ -9835,6 +9896,7 @@ ScanCollapsibleWhiteSpaceStartInTextNode
 (
 aPoint
 aNBSPData
+aBlockInlineCheck
 )
 ;
 if
@@ -9873,9 +9935,10 @@ Text
 )
 0
 )
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 aEditingHost
 aNBSPData
+aBlockInlineCheck
 )
 ;
 }
@@ -9889,13 +9952,14 @@ HTMLEditUtils
 GetPreviousLeafContentOrPreviousBlockElement
 (
 aPoint
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 {
 LeafNodeType
 :
 :
 LeafNodeOrNonEditableNode
 }
+aBlockInlineCheck
 aEditingHost
 )
 ;
@@ -9915,7 +9979,7 @@ Element
 &
 >
 (
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 )
 WSType
 :
@@ -9933,6 +9997,7 @@ IsBlockElement
 (
 *
 previousLeafContentOrBlock
+aBlockInlineCheck
 )
 )
 {
@@ -10030,9 +10095,10 @@ AsText
 )
 0
 )
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 aEditingHost
 aNBSPData
+aBlockInlineCheck
 )
 ;
 }
@@ -10061,6 +10127,7 @@ AsText
 )
 )
 aNBSPData
+aBlockInlineCheck
 )
 ;
 if
@@ -10096,9 +10163,10 @@ AsText
 )
 0
 )
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 aEditingHost
 aNBSPData
+aBlockInlineCheck
 )
 ;
 }
@@ -10135,6 +10203,8 @@ aPoint
 NoBreakingSpaceData
 *
 aNBSPData
+BlockInlineCheck
+aBlockInlineCheck
 )
 {
 MOZ_ASSERT
@@ -10476,6 +10546,8 @@ aEditingHost
 NoBreakingSpaceData
 *
 aNBSPData
+BlockInlineCheck
+aBlockInlineCheck
 )
 {
 MOZ_ASSERT
@@ -10517,6 +10589,7 @@ ScanCollapsibleWhiteSpaceEndInTextNode
 (
 aPoint
 aNBSPData
+aBlockInlineCheck
 )
 ;
 if
@@ -10561,6 +10634,7 @@ Text
 aEditableBlockParentOrTopmostEditableInlineElement
 aEditingHost
 aNBSPData
+aBlockInlineCheck
 )
 ;
 }
@@ -10581,6 +10655,7 @@ LeafNodeType
 :
 LeafNodeOrNonEditableNode
 }
+aBlockInlineCheck
 aEditingHost
 )
 ;
@@ -10626,6 +10701,7 @@ IsBlockElement
 (
 *
 nextLeafContentOrBlock
+aBlockInlineCheck
 )
 )
 {
@@ -10730,6 +10806,7 @@ AsText
 aEditableBlockParentOrTopmostEditableInlineElement
 aEditingHost
 aNBSPData
+aBlockInlineCheck
 )
 ;
 }
@@ -10755,6 +10832,7 @@ AsText
 0
 )
 aNBSPData
+aBlockInlineCheck
 )
 ;
 if
@@ -10796,6 +10874,7 @@ AsText
 aEditableBlockParentOrTopmostEditableInlineElement
 aEditingHost
 aNBSPData
+aBlockInlineCheck
 )
 ;
 }
@@ -12176,6 +12255,10 @@ StartRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -12208,6 +12291,10 @@ EndRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -12869,6 +12956,10 @@ StartRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 textFragmentDataAtEnd
@@ -12882,6 +12973,10 @@ EndRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 }
@@ -13787,6 +13882,10 @@ aHTMLEditor
 ComputeEditingHost
 (
 )
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -14513,6 +14612,7 @@ HTMLEditUtils
 :
 :
 ClosestEditableBlockElementOrInlineEditingHost
+mBlockInlineCheck
 )
 :
 nullptr
@@ -14566,6 +14666,7 @@ LeafNodeType
 :
 LeafNodeOrNonEditableNode
 }
+mBlockInlineCheck
 mEditingHost
 )
 ;
@@ -14588,6 +14689,7 @@ LeafNodeType
 :
 LeafNodeOrNonEditableNode
 }
+mBlockInlineCheck
 mEditingHost
 )
 )
@@ -14986,6 +15088,7 @@ HTMLEditUtils
 :
 :
 ClosestEditableBlockElementOrInlineEditingHost
+mBlockInlineCheck
 )
 :
 nullptr
@@ -15039,6 +15142,7 @@ LeafNodeType
 :
 LeafNodeOrNonEditableNode
 }
+mBlockInlineCheck
 mEditingHost
 )
 ;
@@ -15061,6 +15165,7 @@ LeafNodeType
 :
 LeafNodeOrNonEditableNode
 }
+mBlockInlineCheck
 mEditingHost
 )
 )
@@ -15235,6 +15340,10 @@ textFragmentData
 (
 atLastCharOfTextNode
 aAncestorLimiter
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -15370,6 +15479,10 @@ textFragmentData
 (
 atStartOfTextNode
 aAncestorLimiter
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -16952,6 +17065,10 @@ textFragmentData
 (
 aPoint
 editingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -17223,6 +17340,10 @@ nsIContent
 >
 (
 )
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -17337,6 +17458,10 @@ HTMLEditUtils
 :
 :
 ClosestEditableBlockElement
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 :
 nullptr
@@ -18814,6 +18939,10 @@ textFragmentData
 (
 aPoint
 editingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -19703,6 +19832,10 @@ textFragmentDataAtCaret
 aPoint
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -19988,6 +20121,10 @@ StartRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 :
 textFragmentDataAtCaret
@@ -20013,6 +20150,10 @@ EndRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 :
 textFragmentDataAtCaret
@@ -20116,6 +20257,10 @@ textFragmentDataAtCaret
 aPoint
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -20400,6 +20545,10 @@ StartRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 :
 textFragmentDataAtCaret
@@ -20425,6 +20574,10 @@ EndRef
 )
 &
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 :
 textFragmentDataAtCaret
@@ -20532,6 +20685,10 @@ After
 aAtomicContent
 )
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -20637,6 +20794,10 @@ HTMLEditUtils
 IsBlockElement
 (
 aAtomicContent
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 )
 {
@@ -20681,6 +20842,10 @@ aAtomicContent
 )
 )
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -20728,6 +20893,10 @@ After
 aAtomicContent
 )
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -21123,6 +21292,10 @@ aLeftBlockElement
 )
 )
 editingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayOutsideStyle
 )
 ;
 if
@@ -21262,6 +21435,10 @@ aRightBlockElement
 0u
 )
 editingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayOutsideStyle
 )
 ;
 if
@@ -21399,6 +21576,10 @@ StartRef
 (
 )
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -21609,6 +21790,10 @@ EndRef
 (
 )
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -21974,6 +22159,10 @@ HTMLEditUtils
 :
 :
 ClosestEditableBlockElementExceptHRElement
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 !
 =
@@ -21997,6 +22186,10 @@ HTMLEditUtils
 :
 :
 ClosestEditableBlockElementExceptHRElement
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 )
 {
@@ -22067,6 +22260,10 @@ StartRef
 )
 )
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -22198,6 +22395,10 @@ EndRef
 )
 )
 aEditingHost
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if

@@ -73,6 +73,12 @@ Text
 }
 enum
 class
+BlockInlineCheck
+:
+uint8_t
+;
+enum
+class
 CollectChildrenOption
 ;
 enum

@@ -140,12 +140,15 @@ AString
 aAttribute
 )
 ;
+[
+can_run_script
+]
 boolean
 nodeIsBlock
 (
 in
 Node
-node
+aNode
 )
 ;
 [

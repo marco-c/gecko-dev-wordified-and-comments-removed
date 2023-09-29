@@ -35,6 +35,13 @@ h
 #
 include
 "
+HTMLEditHelpers
+.
+h
+"
+#
+include
+"
 SelectionState
 .
 h
@@ -2181,6 +2188,8 @@ SplitTextAtEndBoundariesAndInlineAncestorsAtBothBoundaries
 HTMLEditor
 &
 aHTMLEditor
+BlockInlineCheck
+aBlockInlineCheck
 const
 dom
 :

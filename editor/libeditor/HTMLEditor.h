@@ -2558,11 +2558,13 @@ Result
 EditorDOMPoint
 nsresult
 >
-SplitParentInlineElementsAtRangeBoundaries
+SplitInlineAncestorsAtRangeBoundaries
 (
 RangeItem
 &
 aRangeItem
+BlockInlineCheck
+aBlockInlineCheck
 const
 Element
 &
@@ -2951,11 +2953,11 @@ Result
 SplitRangeOffFromNodeResult
 nsresult
 >
-SplitRangeOffFromBlock
+SplitRangeOffFromElement
 (
 Element
 &
-aBlockElement
+aElementToSplit
 nsIContent
 &
 aStartOfMiddleElement
@@ -2986,6 +2988,8 @@ aStartOfRange
 nsIContent
 &
 aEndOfRange
+BlockInlineCheck
+aBlockInlineCheck
 )
 ;
 [
@@ -3040,6 +3044,8 @@ nsIContent
 >
 &
 aArrayOfContents
+BlockInlineCheck
+aBlockInlineCheck
 )
 ;
 [
