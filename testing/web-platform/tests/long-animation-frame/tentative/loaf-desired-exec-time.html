@@ -548,7 +548,7 @@ timeBeforeSetup
 +
 delay
 -
-5
+INTERNAL_OVERHEAD_DELAY_EPSILON
 )
 ;
 assert_less_than_equal
@@ -559,6 +559,8 @@ desiredExecutionStart
 timeAfterSetup
 +
 delay
++
+INTERNAL_OVERHEAD_DELAY_EPSILON
 )
 ;
 }
@@ -684,6 +686,8 @@ script
 .
 desiredExecutionStart
 timeBeforeSetup
+-
+INTERNAL_OVERHEAD_DELAY_EPSILON
 )
 ;
 assert_less_than_equal
@@ -692,6 +696,8 @@ script
 .
 desiredExecutionStart
 timeAfterSetup
++
+INTERNAL_OVERHEAD_DELAY_EPSILON
 )
 ;
 }
