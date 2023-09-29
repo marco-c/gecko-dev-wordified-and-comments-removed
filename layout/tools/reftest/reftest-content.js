@@ -4358,7 +4358,9 @@ attrModifiedObserver
 new
 contentRootElement
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 .
 MutationObserver
 (
