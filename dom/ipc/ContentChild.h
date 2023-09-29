@@ -2724,13 +2724,6 @@ nsIPrincipal
 *
 aPrincipal
 const
-Maybe
-<
-nsID
->
-&
-aAgentClusterId
-const
 nsCString
 &
 aPartitionKey

@@ -82,16 +82,6 @@ bloburl_per_partition_key
 "
 true
 ]
-[
-"
-privacy
-.
-partition
-.
-bloburl_per_agent_cluster
-"
-false
-]
 ]
 }
 )

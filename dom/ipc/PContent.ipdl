@@ -2140,10 +2140,6 @@ nullable
 nsIPrincipal
 principal
 ;
-nsID
-?
-agentClusterId
-;
 nsCString
 partitionKey
 ;
@@ -4914,9 +4910,6 @@ aBlob
 nullable
 nsIPrincipal
 aPrincipal
-nsID
-?
-aAgentClusterId
 nsCString
 aPartitionKey
 )
@@ -9916,9 +9909,6 @@ blob
 nullable
 nsIPrincipal
 principal
-nsID
-?
-aAgentClusterId
 nsCString
 aPartitionKey
 )
@@ -10931,9 +10921,6 @@ OriginAttributes
 aOriginAttributes
 uint64_t
 aInnerWindowId
-nsID
-?
-aAgentClusterId
 nsCString
 aPartitionKey
 )
