@@ -23,7 +23,7 @@ renderUrls
 =
 None
     
-adComponentRenderUrls
+adComponentRenderURLs
 =
 None
     
@@ -222,13 +222,13 @@ pair
 adComponentRenderUrls
 "
 and
-adComponentRenderUrls
+adComponentRenderURLs
 =
 =
 None
 :
             
-adComponentRenderUrls
+adComponentRenderURLs
 =
 list
 (
@@ -258,13 +258,13 @@ type
 "
 :
 "
-adComponentRenderUrls
+adComponentRenderURLs
 "
 "
 urls
 "
 :
-adComponentRenderUrls
+adComponentRenderURLs
 }
 )
             
