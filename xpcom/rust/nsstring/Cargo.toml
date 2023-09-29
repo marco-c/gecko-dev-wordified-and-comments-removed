@@ -62,9 +62,7 @@ dependencies
 bitflags
 =
 "
-1
-.
-0
+2
 "
 encoding_rs
 =
