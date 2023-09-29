@@ -964,6 +964,7 @@ instead
 )
 ;
 return
+false
 ;
 }
 return
@@ -979,6 +980,9 @@ paged
 )
 ;
 }
+return
+false
+;
 }
 function
 setupPrintMode
@@ -2523,11 +2527,6 @@ updateCanvasRects
 ]
 ;
 var
-stopAfterPaintReceived
-=
-false
-;
-var
 currentDoc
 =
 content
@@ -3164,6 +3163,7 @@ state
 STATE_WAITING_TO_FINISH
 )
 {
+let
 flushMode
 =
 state
@@ -3359,7 +3359,7 @@ if
 contentRootElement
 )
 {
-var
+let
 elements
 =
 getNoPaintElements
@@ -3369,7 +3369,7 @@ contentRootElement
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3407,7 +3407,7 @@ contentRootElement
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3445,7 +3445,7 @@ contentRootElement
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3771,21 +3771,6 @@ complete
 "
 ;
 var
-os
-=
-Cc
-[
-NS_OBSERVER_SERVICE_CONTRACTID
-]
-.
-getService
-(
-Ci
-.
-nsIObserverService
-)
-;
-var
 flushWaiter
 =
 function
@@ -3815,7 +3800,9 @@ fired
 )
 ;
 }
-os
+Services
+.
+obs
 .
 removeObserver
 (
@@ -3852,7 +3839,9 @@ MakeProgress
 }
 }
 ;
-os
+Services
+.
+obs
 .
 addObserver
 (
@@ -4076,7 +4065,7 @@ if
 contentRootElement
 )
 {
-var
+let
 elements
 =
 getNoPaintElements
@@ -4086,7 +4075,7 @@ contentRootElement
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -4137,7 +4126,7 @@ contentRootElement
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -4183,7 +4172,7 @@ contentRootElement
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -4369,9 +4358,7 @@ attrModifiedObserver
 new
 contentRootElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 MutationObserver
 (
@@ -6863,11 +6850,6 @@ document
 return
 ;
 }
-var
-win
-=
-content
-;
 var
 scale
 =

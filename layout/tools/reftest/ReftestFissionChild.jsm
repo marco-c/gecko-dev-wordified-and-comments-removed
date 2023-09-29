@@ -1090,6 +1090,7 @@ true
 )
 ;
 return
+undefined
 ;
 }
 let
@@ -1771,5 +1772,8 @@ returns
 ;
 }
 }
+return
+undefined
+;
 }
 }
