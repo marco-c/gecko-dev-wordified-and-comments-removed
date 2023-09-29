@@ -40,9 +40,6 @@ baseprofiler
 BaseProfilerThreadId
 ;
 class
-nsISerialEventTarget
-;
-class
 nsIThread
 ;
 namespace
@@ -65,7 +62,7 @@ CompositorThreadHolder
 (
 )
 ;
-nsISerialEventTarget
+nsIThread
 *
 GetCompositorThread
 (
@@ -149,7 +146,7 @@ CompositorBridgeParent
 ;
 }
 ;
-nsISerialEventTarget
+nsIThread
 *
 CompositorThread
 (
