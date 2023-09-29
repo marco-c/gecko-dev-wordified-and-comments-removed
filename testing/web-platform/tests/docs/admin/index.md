@@ -602,7 +602,7 @@ gmail
 .
 com
 -
-smcgruer
+jamescscott
 google
 .
 com
@@ -638,7 +638,7 @@ pr
 bot
 account
 -
-smcgruer
+jamescscott
 google
 .
 com
