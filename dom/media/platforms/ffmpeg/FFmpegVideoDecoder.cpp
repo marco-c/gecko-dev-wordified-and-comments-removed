@@ -2283,6 +2283,11 @@ NS_OK
 }
 #
 endif
+#
+if
+LIBAVCODEC_VERSION_MAJOR
+<
+58
 FFmpegVideoDecoder
 <
 LIBAV_VER
@@ -2460,6 +2465,8 @@ mLastDts
 INT64_MIN
 ;
 }
+#
+endif
 #
 ifdef
 MOZ_USE_HWDECODE
@@ -8985,6 +8992,11 @@ IsOnCurrentThread
 )
 )
 ;
+#
+if
+LIBAVCODEC_VERSION_MAJOR
+<
+58
 mPtsContext
 .
 Reset
@@ -8997,6 +9009,8 @@ Clear
 (
 )
 ;
+#
+endif
 mPerformanceRecorder
 .
 Record
