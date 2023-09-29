@@ -199,9 +199,6 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
-Mutex
-mMutex
-;
 static
 const
 uint32_t
@@ -245,14 +242,6 @@ false
 mUnderMemoryPressure
 (
 false
-)
-mMutex
-(
-"
-Memory
-Poller
-mutex
-"
 )
 {
 }
@@ -869,6 +858,7 @@ mUnderMemoryPressure
 {
 RecordTelemetryEventOnHighMemory
 (
+lock
 )
 ;
 NS_NotifyOfEventualMemoryPressure

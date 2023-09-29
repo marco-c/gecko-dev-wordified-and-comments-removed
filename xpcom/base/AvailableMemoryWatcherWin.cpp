@@ -314,9 +314,6 @@ MOZ_REQUIRES
 mMutex
 )
 ;
-Mutex
-mMutex
-;
 nsCOMPtr
 <
 nsITimer
@@ -396,15 +393,6 @@ nsAvailableMemoryWatcher
 (
 )
 :
-mMutex
-(
-"
-low
-memory
-callback
-mutex
-"
-)
 mWaitHandle
 (
 nullptr
@@ -1100,6 +1088,7 @@ mUnderMemoryPressure
 {
 RecordTelemetryEventOnHighMemory
 (
+aLock
 )
 ;
 NS_NotifyOfEventualMemoryPressure

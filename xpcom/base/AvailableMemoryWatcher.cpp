@@ -196,6 +196,13 @@ nsAvailableMemoryWatcherBase
 (
 )
 :
+mMutex
+(
+"
+nsAvailableMemoryWatcher
+mutex
+"
+)
 mNumOfTabUnloading
 (
 0
@@ -528,6 +535,12 @@ nsresult
 aResult
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 switch
 (
 aResult
@@ -615,6 +628,9 @@ nsAvailableMemoryWatcherBase
 :
 RecordTelemetryEventOnHighMemory
 (
+const
+MutexAutoLock
+&
 )
 {
 Telemetry
