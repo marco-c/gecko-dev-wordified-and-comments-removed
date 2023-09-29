@@ -8273,9 +8273,7 @@ i
 )
 }
 .
-pause
--
-badge
+paused
 CodeMirrorLines
 :
 "
