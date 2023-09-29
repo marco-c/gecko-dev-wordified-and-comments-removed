@@ -66,6 +66,9 @@ pub
 uc_mcontext
 :
 mcontext_t
+__mcontext_data
+:
+__darwin_mcontext64
 }
 pub
 struct

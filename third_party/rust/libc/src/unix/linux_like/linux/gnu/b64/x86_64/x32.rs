@@ -113,14 +113,6 @@ usize
 =
 44
 ;
-pub
-const
-__SIZEOF_PTHREAD_BARRIER_T
-:
-usize
-=
-20
-;
 align_const
 !
 {

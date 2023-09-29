@@ -78,7 +78,7 @@ _path
 :
 &
 Path
-_open_options
+open_options
 :
 &
 mut
@@ -183,7 +183,7 @@ pub
 fn
 keep
 (
-_path
+path
 :
 &
 Path

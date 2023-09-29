@@ -124,7 +124,6 @@ Bencher
 )
 {
 let
-mut
 rng
 =
 fastrand
@@ -274,7 +273,6 @@ Bencher
 )
 {
 let
-mut
 rng
 =
 fastrand
@@ -419,7 +417,6 @@ Bencher
 )
 {
 let
-mut
 rng
 =
 fastrand
@@ -488,7 +485,6 @@ Bencher
 )
 {
 let
-mut
 rng
 =
 fastrand
@@ -546,7 +542,6 @@ Bencher
 )
 {
 let
-mut
 rng
 =
 fastrand

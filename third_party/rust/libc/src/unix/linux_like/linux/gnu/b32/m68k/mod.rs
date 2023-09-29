@@ -34,7 +34,7 @@ sa_flags
 :
 :
 :
-c_int
+c_ulong
 pub
 sa_restorer
 :

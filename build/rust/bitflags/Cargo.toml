@@ -48,10 +48,6 @@ serde
 =
 [
 ]
-std
-=
-[
-]
 [
 dependencies
 .
