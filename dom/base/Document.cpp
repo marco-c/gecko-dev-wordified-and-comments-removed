@@ -35239,6 +35239,7 @@ aShadowRoot
 ;
 ApplicableStylesChanged
 (
+true
 )
 ;
 }
@@ -35248,6 +35249,8 @@ Document
 :
 ApplicableStylesChanged
 (
+bool
+aKnownInShadowTree
 )
 {
 if
@@ -35259,10 +35262,17 @@ mStyleSetFilled
 return
 ;
 }
+if
+(
+!
+aKnownInShadowTree
+)
+{
 MarkUserFontSetDirty
 (
 )
 ;
+}
 PresShell
 *
 ps
@@ -35307,6 +35317,12 @@ pc
 return
 ;
 }
+if
+(
+!
+aKnownInShadowTree
+)
+{
 pc
 -
 >
@@ -35328,6 +35344,7 @@ MarkFontPaletteValuesDirty
 (
 )
 ;
+}
 pc
 -
 >

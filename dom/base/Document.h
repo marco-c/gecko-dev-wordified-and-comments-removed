@@ -4974,6 +4974,10 @@ ShadowRoot
 void
 ApplicableStylesChanged
 (
+bool
+aKnownInShadowTree
+=
+false
 )
 ;
 bool
