@@ -259,9 +259,6 @@ override
 void
 CreateAndDispatchEvent
 (
-Document
-*
-aDoc
 const
 nsAString
 &
