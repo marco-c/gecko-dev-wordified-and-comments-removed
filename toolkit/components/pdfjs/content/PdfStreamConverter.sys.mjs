@@ -2254,10 +2254,6 @@ PdfJsTelemetry
 onEditing
 (
 probeInfo
-.
-data
-.
-type
 )
 ;
 break
