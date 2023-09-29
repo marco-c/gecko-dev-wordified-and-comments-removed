@@ -1062,9 +1062,6 @@ Xrandr
 "
 Xrender
 "
-"
-Xtst
-"
 ]
 SOURCES
 +
@@ -2969,9 +2966,6 @@ Xrandr
 "
 Xrender
 "
-"
-Xtst
-"
 ]
 UNIFIED_SOURCES
 +
@@ -3213,9 +3207,6 @@ Xrandr
 "
 "
 Xrender
-"
-"
-Xtst
 "
 ]
 UNIFIED_SOURCES
@@ -4481,9 +4472,6 @@ Xrandr
 "
 Xrender
 "
-"
-Xtst
-"
 ]
 UNIFIED_SOURCES
 +
@@ -4749,9 +4737,6 @@ Xrandr
 "
 "
 Xrender
-"
-"
-Xtst
 "
 ]
 UNIFIED_SOURCES
@@ -5019,9 +5004,6 @@ Xrandr
 "
 Xrender
 "
-"
-Xtst
-"
 ]
 UNIFIED_SOURCES
 +
@@ -5287,9 +5269,6 @@ Xrandr
 "
 "
 Xrender
-"
-"
-Xtst
 "
 ]
 UNIFIED_SOURCES
@@ -5557,9 +5536,6 @@ Xrandr
 "
 Xrender
 "
-"
-Xtst
-"
 ]
 UNIFIED_SOURCES
 +
@@ -5825,9 +5801,6 @@ Xrandr
 "
 "
 Xrender
-"
-"
-Xtst
 "
 ]
 UNIFIED_SOURCES

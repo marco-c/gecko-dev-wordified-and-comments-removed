@@ -740,9 +740,6 @@ Xrandr
 "
 Xrender
 "
-"
-Xtst
-"
 ]
 if
 CONFIG
@@ -1436,9 +1433,6 @@ Xrandr
 "
 "
 Xrender
-"
-"
-Xtst
 "
 ]
 if
