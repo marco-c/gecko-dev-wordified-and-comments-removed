@@ -220,14 +220,14 @@ SOFTWARE_DECODED_VIDEO
 1
 <
 <
-22
+23
 ALL_BITS
 =
 (
 1
 <
 <
-23
+24
 )
 -
 1
