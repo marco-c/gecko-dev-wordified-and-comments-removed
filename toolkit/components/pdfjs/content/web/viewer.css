@@ -5140,7 +5140,7 @@ height
 .
 annotationEditorLayer
 .
-freeTextEditing
+freetextEditing
 {
 cursor
 :
@@ -5488,6 +5488,12 @@ outline
 -
 around
 )
+;
+pointer
+-
+events
+:
+none
 ;
 }
 }
@@ -7198,6 +7204,12 @@ justify
 content
 :
 center
+;
+padding
+-
+inline
+:
+4px
 ;
 width
 :
