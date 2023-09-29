@@ -5277,6 +5277,10 @@ AssertIsOnMainThread
 (
 )
 ;
+SetIsOnMainThread
+(
+)
+;
 nsLayoutStatics
 :
 :
