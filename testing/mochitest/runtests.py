@@ -24952,6 +24952,10 @@ options
 .
 symbolsPath
 )
+                
+scope
+=
+manifestToFilter
             
 )
         
