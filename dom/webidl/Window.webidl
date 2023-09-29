@@ -464,6 +464,7 @@ chrome
 ClipboardItem
 CSSImageValue
 CSSKeywordValue
+CSSMathClamp
 CSSMathInvert
 CSSMathMax
 CSSMathMin
@@ -476,6 +477,7 @@ CSSNumericArray
 CSSNumericValue
 CSSPerspective
 CSSPositionValue
+CSSPropertyRule
 CSSRotate
 CSSScale
 CSSSkew
@@ -539,6 +541,7 @@ defaultstatus
 DeviceMotionEventAcceleration
 DeviceMotionEventRotationRate
 DOMError
+EncodedVideoChunk
 EnterPictureInPictureEvent
 External
 FederatedCredential
@@ -580,6 +583,7 @@ PaymentRequestUpdateEvent
 PaymentResponse
 PerformanceLongTaskTiming
 PhotoCapabilities
+PictureInPictureEvent
 PictureInPictureWindow
 Presentation
 PresentationAvailability
@@ -591,12 +595,18 @@ PresentationReceiver
 PresentationRequest
 RelativeOrientationSensor
 RemotePlayback
+Report
+ReportBody
 ReportingObserver
 RTCError
 RTCErrorEvent
 RTCIceTransport
+RTCPeerConnectionIceErrorEvent
 Sensor
 SensorErrorEvent
+SpeechRecognitionAlternative
+SpeechRecognitionResult
+SpeechRecognitionResultList
 styleMedia
 StylePropertyMap
 StylePropertyMapReadOnly
@@ -604,6 +614,7 @@ SVGDiscardElement
 SyncManager
 TaskAttributionTiming
 TextEvent
+ToggleEvent
 Touch
 TouchEvent
 TouchList
@@ -621,6 +632,12 @@ USBIsochronousOutTransferPacket
 USBIsochronousOutTransferResult
 USBOutTransferResult
 UserActivation
+VideoColorSpace
+VideoDecoder
+VideoEncoder
+VideoFrame
+WakeLock
+WakeLockSentinel
 webkitCancelAnimationFrame
 webkitMediaStream
 WebKitMutationObserver
