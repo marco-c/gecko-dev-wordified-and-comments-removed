@@ -2383,6 +2383,17 @@ config
 .
 mMimeType
 )
+|
+|
+MP4Decoder
+:
+:
+IsHEVC
+(
+config
+.
+mMimeType
+)
 )
 &
 &
