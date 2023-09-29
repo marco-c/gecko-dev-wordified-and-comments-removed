@@ -1106,6 +1106,7 @@ return
 errorStrings
 infoStrings
 }
+;
 }
 )
 ;
