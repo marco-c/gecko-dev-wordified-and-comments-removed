@@ -138,6 +138,11 @@ nsIHTMLCollection
 h
 "
 "
+nsIRadioGroupContainer
+.
+h
+"
+"
 nsIRadioVisitor
 .
 h
