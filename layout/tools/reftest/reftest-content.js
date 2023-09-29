@@ -795,8 +795,10 @@ zoom
 "
 )
 )
+{
 return
 ;
+}
 docShell
 .
 browsingContext
@@ -841,8 +843,10 @@ zoom
 "
 )
 )
+{
 return
 ;
+}
 docShell
 .
 browsingContext
@@ -1761,9 +1765,11 @@ zoom
 "
 )
 )
+{
 return
 false
 ;
+}
 var
 zoom
 =
@@ -3798,6 +3804,7 @@ if
 (
 aTopic
 )
+{
 LogInfo
 (
 "
@@ -3812,6 +3819,7 @@ fired
 "
 )
 ;
+}
 os
 .
 removeObserver
@@ -5154,12 +5162,14 @@ testwindow
 .
 wrappedJSObject
 )
+{
 testwindow
 =
 testwindow
 .
 wrappedJSObject
 ;
+}
 var
 testcases
 ;

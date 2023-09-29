@@ -217,6 +217,7 @@ if
 !
 url
 )
+{
 throw
 "
 Expected
@@ -231,6 +232,7 @@ manifest
 .
 "
 ;
+}
 g
 .
 manifestsLoaded
@@ -283,9 +285,10 @@ spec
 =
 null
 )
+{
 return
 ;
-else
+}
 aFilter
 =
 [
@@ -559,8 +562,10 @@ charAt
 #
 "
 )
+{
 continue
 ;
+}
 var
 i
 =
@@ -583,6 +588,7 @@ i
 =
 0
 )
+{
 str
 =
 str
@@ -593,6 +599,7 @@ substring
 i
 )
 ;
+}
 str
 =
 str
@@ -632,8 +639,10 @@ str
 "
 "
 )
+{
 continue
 ;
+}
 var
 items
 =
@@ -672,6 +681,7 @@ length
 =
 2
 )
+{
 throw
 (
 "
@@ -697,6 +707,7 @@ line
 lineNo
 )
 ;
+}
 urlprefix
 =
 items
@@ -1467,10 +1478,12 @@ GetOrCreateSandbox
 )
 )
 )
+{
 slow
 =
 true
 ;
+}
 }
 else
 if
@@ -2241,6 +2254,7 @@ length
 =
 2
 )
+{
 throw
 (
 "
@@ -2271,10 +2285,12 @@ include
 "
 )
 ;
+}
 if
 (
 runHttp
 )
+{
 throw
 (
 "
@@ -2304,6 +2320,7 @@ http
 "
 )
 ;
+}
 if
 (
 nonSkipUsed
@@ -2666,6 +2683,7 @@ length
 =
 2
 )
+{
 throw
 (
 "
@@ -2697,6 +2715,7 @@ to
 type
 )
 ;
+}
 if
 (
 type
@@ -2710,6 +2729,7 @@ expected_status
 =
 EXPECTED_PASS
 )
+{
 throw
 (
 "
@@ -2741,6 +2761,7 @@ test
 "
 )
 ;
+}
 AddTestItem
 (
 {
@@ -2877,6 +2898,7 @@ length
 =
 3
 )
+{
 throw
 (
 "
@@ -2911,6 +2933,7 @@ items
 ]
 )
 ;
+}
 if
 (
 items
@@ -4161,11 +4184,8 @@ Android
 sandbox
 .
 http
-[
-"
+.
 platform
-"
-]
 =
 =
 "
@@ -5073,9 +5093,11 @@ file
 =
 null
 )
+{
 return
 file
 ;
+}
 var
 testURI
 =
@@ -5271,6 +5293,7 @@ if
 !
 aFilter
 )
+{
 aFilter
 =
 [
@@ -5280,6 +5303,7 @@ null
 false
 ]
 ;
+}
 var
 identifier
 =
@@ -5385,8 +5409,10 @@ url2
 =
 null
 )
+{
 return
 ;
+}
 if
 (
 globalFilter
@@ -5402,8 +5428,10 @@ url2
 spec
 )
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -5433,8 +5461,10 @@ url2
 =
 null
 )
+{
 return
 ;
+}
 if
 (
 manifestFilter
@@ -5454,8 +5484,10 @@ spec
 )
 )
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -5472,8 +5504,10 @@ aTest
 .
 needsFocus
 )
+{
 return
 ;
+}
 if
 (
 g
@@ -5488,8 +5522,10 @@ aTest
 .
 needsFocus
 )
+{
 return
 ;
+}
 aTest
 .
 identifier
@@ -5518,6 +5554,7 @@ length
 =
 0
 )
+{
 g
 .
 logger
@@ -5539,4 +5576,5 @@ found
 "
 )
 ;
+}
 }
