@@ -19,7 +19,7 @@ epsilon
 =
 0
 .
-0001
+01
 ;
 }
 function
