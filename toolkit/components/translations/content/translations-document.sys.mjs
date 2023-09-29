@@ -1972,6 +1972,7 @@ observeNewRoot
 (
 shadowRoot
 )
+;
 this
 .
 addShadowRootsToObserver
