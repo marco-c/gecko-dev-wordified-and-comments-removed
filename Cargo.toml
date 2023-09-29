@@ -1770,6 +1770,10 @@ the
 dependency
 on
 chrono
+and
+include
+Android
+support
 minidump
 -
 writer
@@ -1799,7 +1803,7 @@ git
 rev
 =
 "
-a15bd5cab6a3de251c0c23264be14b977c0af09c
+491eb330e78e310c32927e5cc3bd2350af1e93f8
 "
 }
 #
