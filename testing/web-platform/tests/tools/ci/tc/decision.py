@@ -2303,6 +2303,11 @@ slugId
 )
 )
     
+sink_task_depends_on
+=
+[
+]
+    
 def
 add_task
 (
@@ -2441,6 +2446,44 @@ task_name
 task_id
 task_data
 )
+        
+if
+str
+(
+task
+.
+get
+(
+"
+required
+"
+"
+True
+"
+)
+)
+!
+=
+"
+False
+"
+and
+task_name
+!
+=
+"
+sink
+-
+task
+"
+:
+            
+sink_task_depends_on
+.
+append
+(
+task_id
+)
     
 for
 task_name
@@ -2501,23 +2544,6 @@ task
 "
 )
         
-depends_on_ids
-=
-[
-x
-[
-0
-]
-for
-x
-in
-task_id_map
-.
-values
-(
-)
-]
-        
 sink_task
 [
 "
@@ -2538,7 +2564,7 @@ format
 .
 join
 (
-depends_on_ids
+sink_task_depends_on
 )
 )
         
@@ -2557,7 +2583,7 @@ create_tc_task
 event
 sink_task
 taskgroup_id
-depends_on_ids
+sink_task_depends_on
 )
     
 else

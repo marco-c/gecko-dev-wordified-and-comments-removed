@@ -1250,6 +1250,9 @@ moz
 wptsync
 -
 bot
+required
+:
+true
 -
 vars
 :
@@ -1273,6 +1276,9 @@ wpt
 export
 -
 bot
+required
+:
+false
 do
 :
 -
@@ -1448,6 +1454,13 @@ stability
 exclude
 -
 users
+}
+required
+:
+{
+vars
+.
+required
 }
 -
 wpt
