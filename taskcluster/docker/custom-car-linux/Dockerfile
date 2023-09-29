@@ -82,3 +82,5 @@ lsb
 release
 \
 gperf
+\
+procps

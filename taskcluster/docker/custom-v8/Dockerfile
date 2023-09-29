@@ -77,3 +77,5 @@ unzip
 wget
 \
 zip
+\
+procps
