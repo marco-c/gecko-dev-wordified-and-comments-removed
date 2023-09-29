@@ -5436,6 +5436,8 @@ dest
 write_str
 (
 "
+\
+"
 "
 )
 ?
@@ -5447,6 +5449,16 @@ fallback
 to_css
 (
 dest
+)
+?
+;
+dest
+.
+write_char
+(
+'
+"
+'
 )
 ?
 ;
