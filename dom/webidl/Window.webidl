@@ -1139,13 +1139,6 @@ default
 ;
 [
 Throws
-Pref
-=
-"
-dom
-.
-enable_window_print
-"
 ]
 undefined
 print
