@@ -3537,14 +3537,6 @@ debug
 built
 -
 projects
-.
-*
-wayland
-.
-*
-:
-[
-]
 default
 :
 built
