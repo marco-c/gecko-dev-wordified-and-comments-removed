@@ -1822,6 +1822,16 @@ aBRElement
 )
 ;
 }
+static
+bool
+IsInclusiveAncestorCSSDisplayNone
+(
+const
+nsIContent
+&
+aContent
+)
+;
 template
 <
 typename
