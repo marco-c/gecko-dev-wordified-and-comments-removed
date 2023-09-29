@@ -7053,6 +7053,13 @@ SetCursor
 mCursor
 )
 ;
+EventStateManager
+:
+:
+ClearCursorSettingManager
+(
+)
+;
 }
 mIsMouseEnterIntoWidgetEventSuppressed
 =
@@ -7138,6 +7145,8 @@ aEvent
 mRefPoint
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIWidget
@@ -7147,10 +7156,6 @@ widget
 GetWidget
 (
 )
-;
-if
-(
-widget
 )
 {
 if
@@ -7173,6 +7178,13 @@ widget
 SetCursor
 (
 mCursor
+)
+;
+EventStateManager
+:
+:
+ClearCursorSettingManager
+(
 )
 ;
 }
