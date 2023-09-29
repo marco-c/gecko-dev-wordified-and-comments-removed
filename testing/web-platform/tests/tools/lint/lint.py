@@ -116,6 +116,14 @@ from
 .
 manifest
 .
+mputil
+import
+max_parallelism
+from
+.
+.
+manifest
+.
 vcs
 import
 walk
@@ -7224,29 +7232,8 @@ jobs
         
 jobs
 =
-multiprocessing
-.
-cpu_count
+max_parallelism
 (
-)
-        
-if
-sys
-.
-platform
-=
-=
-'
-win32
-'
-:
-            
-jobs
-=
-min
-(
-jobs
-56
 )
     
 with

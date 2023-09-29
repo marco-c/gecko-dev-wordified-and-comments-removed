@@ -1,7 +1,5 @@
 import
 os
-import
-sys
 from
 atomicwrites
 import
@@ -18,7 +16,6 @@ from
 multiprocessing
 import
 Pool
-cpu_count
 from
 typing
 import
@@ -78,6 +75,11 @@ from
 log
 import
 get_logger
+from
+.
+mputil
+import
+max_parallelism
 from
 .
 sourcefile
@@ -1272,6 +1274,12 @@ pool
 =
 None
         
+processes
+=
+max_parallelism
+(
+)
+        
 if
 parallel
 and
@@ -1282,37 +1290,10 @@ to_update
 >
 25
 and
-cpu_count
-(
-)
+processes
 >
 1
 :
-            
-processes
-=
-cpu_count
-(
-)
-            
-if
-sys
-.
-platform
-=
-=
-"
-win32
-"
-and
-processes
->
-48
-:
-                
-processes
-=
-48
             
 pool
 =
@@ -1345,15 +1326,10 @@ a
 multiprocessed
 update
 .
-CPU
-count
-:
-%
-s
 "
                 
 "
-processes
+Processes
 :
 %
 s
@@ -1364,9 +1340,6 @@ s
 "
 %
 (
-cpu_count
-(
-)
 processes
 chunksize
 )
