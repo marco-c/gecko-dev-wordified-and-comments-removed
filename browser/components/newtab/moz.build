@@ -326,7 +326,9 @@ EXTRA_JS_MODULES
 "
 AboutNewTabService
 .
-jsm
+sys
+.
+mjs
 "
 ]
 FINAL_TARGET_FILES
