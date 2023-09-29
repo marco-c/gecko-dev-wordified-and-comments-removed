@@ -351,6 +351,7 @@ if
 predicate
 (
 script
+entry
 )
 )
 return
