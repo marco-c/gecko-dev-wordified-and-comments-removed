@@ -676,7 +676,7 @@ aExtraData
 ;
 hvcc
 .
-mConfigurationVersion
+configurationVersion
 =
 reader
 .
@@ -687,7 +687,7 @@ ReadBits
 ;
 hvcc
 .
-mGeneralProfileSpace
+general_profile_space
 =
 reader
 .
@@ -698,7 +698,7 @@ ReadBits
 ;
 hvcc
 .
-mGeneralTierFlag
+general_tier_flag
 =
 reader
 .
@@ -708,7 +708,7 @@ ReadBit
 ;
 hvcc
 .
-mGeneralProfileIdc
+general_profile_idc
 =
 reader
 .
@@ -719,7 +719,7 @@ ReadBits
 ;
 hvcc
 .
-mGeneralProfileCompatibilityFlags
+general_profile_compatibility_flags
 =
 reader
 .
@@ -748,7 +748,7 @@ ReadBits
 ;
 hvcc
 .
-mGeneralConstraintIndicatorFlags
+general_constraint_indicator_flags
 =
 (
 (
@@ -771,7 +771,7 @@ flagLow
 ;
 hvcc
 .
-mGeneralLevelIdc
+general_level_idc
 =
 reader
 .
@@ -792,7 +792,7 @@ ReadBits
 ;
 hvcc
 .
-mMinSpatialSegmentationIdc
+min_spatial_segmentation_idc
 =
 reader
 .
@@ -813,7 +813,7 @@ ReadBits
 ;
 hvcc
 .
-mParallelismType
+parallelismType
 =
 reader
 .
@@ -834,7 +834,7 @@ ReadBits
 ;
 hvcc
 .
-mChromaFormatIdc
+chroma_format_idc
 =
 reader
 .
@@ -855,7 +855,7 @@ ReadBits
 ;
 hvcc
 .
-mBitDepthLumaMinus8
+bit_depth_luma_minus8
 =
 reader
 .
@@ -876,7 +876,7 @@ ReadBits
 ;
 hvcc
 .
-mBitDepthChromaMinus8
+bit_depth_chroma_minus8
 =
 reader
 .
@@ -887,7 +887,7 @@ ReadBits
 ;
 hvcc
 .
-mAvgFrameRate
+avgFrameRate
 =
 reader
 .
@@ -898,7 +898,7 @@ ReadBits
 ;
 hvcc
 .
-mConstantFrameRate
+constantFrameRate
 =
 reader
 .
@@ -909,7 +909,7 @@ ReadBits
 ;
 hvcc
 .
-mNumTemporalLayers
+numTemporalLayers
 =
 reader
 .
@@ -920,7 +920,7 @@ ReadBits
 ;
 hvcc
 .
-mTemporalIdNested
+temporalIdNested
 =
 reader
 .
@@ -930,7 +930,7 @@ ReadBit
 ;
 hvcc
 .
-mLengthSizeMinusOne
+lengthSizeMinusOne
 =
 reader
 .
