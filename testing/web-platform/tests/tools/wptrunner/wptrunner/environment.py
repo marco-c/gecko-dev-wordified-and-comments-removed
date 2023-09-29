@@ -1850,7 +1850,7 @@ self
         
 total_sleep_secs
 =
-30
+60
         
 each_sleep_secs
 =
