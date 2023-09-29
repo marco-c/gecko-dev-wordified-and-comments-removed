@@ -204,6 +204,13 @@ TRANSITION_TYPED
 )
 ;
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 test_autocomplete
 (
 {
