@@ -2427,9 +2427,6 @@ OperationInProgress
 if
 (
 operationInProgress
-!
-=
-false
 )
 {
 LogWarning
@@ -2455,10 +2452,8 @@ OperationCompleted
 {
 if
 (
-operationInProgress
 !
-=
-true
+operationInProgress
 )
 {
 LogWarning
