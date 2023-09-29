@@ -242,6 +242,14 @@ MozContainer
 container
 )
 ;
+void
+moz_container_class_init
+(
+MozContainerClass
+*
+klass
+)
+;
 class
 nsWindow
 ;
