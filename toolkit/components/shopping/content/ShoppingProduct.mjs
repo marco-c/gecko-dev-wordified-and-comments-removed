@@ -2116,10 +2116,18 @@ error
 /
 /
 Retry
+failed
+results
+and
 500
 errors
 .
 if
+(
+!
+result
+|
+|
 (
 !
 responseOk
@@ -2129,6 +2137,7 @@ responseStatus
 >
 =
 500
+)
 )
 {
 failCount
