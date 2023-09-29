@@ -25241,6 +25241,18 @@ GetZoom
 CSSToParentLayerScale
 targetZoom
 ;
+const
+CSSRect
+cssExpandedPageRect
+=
+Metrics
+(
+)
+.
+GetExpandedScrollableRect
+(
+)
+;
 CSSToParentLayerScale
 localMinZoom
 (
@@ -25255,7 +25267,7 @@ Width
 (
 )
 /
-cssPageRect
+cssExpandedPageRect
 .
 Width
 (
@@ -25266,7 +25278,7 @@ Height
 (
 )
 /
-cssPageRect
+cssExpandedPageRect
 .
 Height
 (
