@@ -3638,3 +3638,9 @@ verify
 ]
 ]
 ;
+globalThis
+.
+instanceTestFactory
+=
+instanceTestFactory
+;
