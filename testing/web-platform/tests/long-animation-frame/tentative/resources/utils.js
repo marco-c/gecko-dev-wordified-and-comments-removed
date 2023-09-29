@@ -51,7 +51,7 @@ no_long_frame_timeout
 =
 very_long_frame_duration
 *
-3
+2
 ;
 const
 waiting_for_long_frame_timeout
