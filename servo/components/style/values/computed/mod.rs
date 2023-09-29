@@ -644,7 +644,6 @@ Gradient
 Image
 ImageRendering
 LineDirection
-MozImageRect
 }
 ;
 pub

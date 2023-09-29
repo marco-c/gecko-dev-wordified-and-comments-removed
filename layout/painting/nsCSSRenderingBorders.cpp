@@ -17219,15 +17219,6 @@ StyleImage
 Tag
 :
 :
-Rect
-:
-case
-StyleImage
-:
-:
-Tag
-:
-:
 Url
 :
 {
