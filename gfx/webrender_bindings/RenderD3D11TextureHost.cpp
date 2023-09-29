@@ -74,6 +74,17 @@ mozilla
 /
 layers
 /
+GpuProcessD3D11TextureMap
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureD3D11
 .
 h
