@@ -283,10 +283,6 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 nsISupports
 nsIContent
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsIRadioGroupContainer
-)
 NS_INTERFACE_MAP_END_INHERITING
 (
 DocumentFragment
