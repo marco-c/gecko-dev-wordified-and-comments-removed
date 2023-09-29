@@ -26,6 +26,10 @@ benchmark
 import
 Benchmark
 from
+cmdline
+import
+CHROME_ANDROID_APPS
+from
 logger
 .
 logger
@@ -242,6 +246,26 @@ root_results_dir
 root_results_dir
 )
         
+profile_class
+=
+"
+firefox
+"
+        
+if
+app
+in
+CHROME_ANDROID_APPS
+:
+            
+profile_class
+=
+"
+chrome
+-
+m
+"
+        
 super
 (
 Browsertime
@@ -252,10 +276,17 @@ __init__
 (
             
 app
+            
 binary
+            
+profile_class
+=
+profile_class
+            
 results_handler_class
 =
 klass
+            
 *
 *
 kwargs
