@@ -99,9 +99,7 @@ Window
 InstrumentedProps
 =
 (
-adoptedStyleSheets
 caretRangeFromPoint
-clear
 exitPictureInPicture
 featurePolicy
 onbeforecopy
@@ -112,7 +110,6 @@ onfreeze
 onmousewheel
 onresume
 onsearch
-onsecuritypolicyviolation
 onwebkitfullscreenchange
 onwebkitfullscreenerror
 pictureInPictureElement
