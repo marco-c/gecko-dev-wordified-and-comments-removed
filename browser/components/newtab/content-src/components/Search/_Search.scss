@@ -1155,10 +1155,9 @@ top
 }
 media
 (
-max
--
 height
-:
+<
+=
 700px
 )
 {
@@ -1580,11 +1579,9 @@ hidden
 }
 media
 (
-min
--
 height
-:
-701px
+>
+700px
 )
 {
 body
