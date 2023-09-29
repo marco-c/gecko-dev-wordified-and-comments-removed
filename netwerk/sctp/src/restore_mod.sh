@@ -5,6 +5,7 @@ bin
 /
 sh
 find
+.
 -
 name
 '
