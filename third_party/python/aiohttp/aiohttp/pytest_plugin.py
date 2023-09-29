@@ -10,6 +10,16 @@ collections
 abc
 import
 Callable
+from
+typing
+import
+Any
+Awaitable
+Callable
+Dict
+Generator
+Optional
+Union
 import
 pytest
 from
@@ -73,6 +83,22 @@ ImportError
 tokio
 =
 None
+AiohttpClient
+=
+Callable
+[
+[
+Union
+[
+Application
+BaseTestServer
+]
+]
+Awaitable
+[
+TestClient
+]
+]
 def
 pytest_addoption
 (
@@ -208,6 +234,11 @@ fixturedef
 "
 "
 "
+Set
+up
+pytest
+fixture
+.
     
 Allow
 fixtures
@@ -556,13 +587,16 @@ _runtime_warning_context
 "
 "
 "
-    
 Context
 manager
 which
 checks
 for
 RuntimeWarnings
+.
+    
+This
+exists
 specifically
 to
     
@@ -729,8 +763,13 @@ False
 "
 "
 "
+Passthrough
+loop
+context
+.
     
-setups
+Sets
+up
 and
 tears
 down
@@ -797,14 +836,12 @@ obj
 "
 "
 "
-    
 Fix
 pytest
 collecting
 for
 coroutines
 .
-    
 "
 "
 "
@@ -846,7 +883,6 @@ pyfuncitem
 "
 "
 "
-    
 Run
 coroutines
 in
@@ -860,7 +896,6 @@ normal
 function
 call
 .
-    
 "
 "
 "
@@ -1500,6 +1535,9 @@ def
 finalize
 (
 )
+-
+>
+None
 :
         
 while
@@ -1656,6 +1694,9 @@ def
 finalize
 (
 )
+-
+>
+None
 :
         
 while
@@ -1687,6 +1728,7 @@ fixture
 def
 raw_test_server
 (
+    
 aiohttp_raw_server
 )
 :
@@ -1720,8 +1762,21 @@ fixture
 def
 aiohttp_client
 (
+    
 loop
+:
+asyncio
+.
+AbstractEventLoop
 )
+-
+>
+Generator
+[
+AiohttpClient
+None
+None
+]
 :
     
 "
@@ -1772,16 +1827,43 @@ async
 def
 go
 (
+        
 __param
+:
+Union
+[
+Application
+BaseTestServer
+]
+        
 *
 args
+:
+Any
+        
 server_kwargs
+:
+Optional
+[
+Dict
+[
+str
+Any
+]
+]
 =
 None
+        
 *
 *
 kwargs
+:
+Any
+    
 )
+-
+>
+TestClient
 :
         
 if
@@ -1942,6 +2024,9 @@ def
 finalize
 (
 )
+-
+>
+None
 :
         
 while

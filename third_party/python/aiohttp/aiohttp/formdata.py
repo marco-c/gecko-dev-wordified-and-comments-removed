@@ -51,13 +51,18 @@ FormData
 Helper
 class
 for
+form
+body
+generation
+.
+    
+Supports
 multipart
 /
 form
 -
 data
 and
-    
 application
 /
 x
@@ -67,9 +72,8 @@ www
 form
 -
 urlencoded
-body
-generation
 .
+    
 "
 "
 "
@@ -129,6 +133,11 @@ data
 self
 .
 _fields
+:
+List
+[
+Any
+]
 =
 [
 ]
@@ -311,6 +320,11 @@ filename
 name
         
 type_options
+:
+MultiDict
+[
+str
+]
 =
 MultiDict
 (

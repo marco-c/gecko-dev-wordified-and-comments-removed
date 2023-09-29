@@ -223,6 +223,8 @@ WSCloseCode
 "
 )
 SERVER_SOFTWARE
+:
+str
 =
 "
 Python
@@ -256,9 +258,17 @@ version_info
 __version__
 )
 RESPONSES
+:
+Mapping
+[
+int
+Tuple
+[
+str
+str
+]
+]
 =
-(
-    
 http
 .
 server
@@ -266,4 +276,3 @@ server
 BaseHTTPRequestHandler
 .
 responses
-)

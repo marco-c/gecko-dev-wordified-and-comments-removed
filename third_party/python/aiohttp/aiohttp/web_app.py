@@ -49,6 +49,14 @@ Union
 cast
 )
 from
+aiosignal
+import
+Signal
+from
+frozenlist
+import
+FrozenList
+from
 .
 import
 hdrs
@@ -68,11 +76,6 @@ AbstractStreamWriter
 )
 from
 .
-frozenlist
-import
-FrozenList
-from
-.
 helpers
 import
 DEBUG
@@ -86,11 +89,6 @@ from
 log
 import
 web_logger
-from
-.
-signals
-import
-Signal
 from
 .
 streams
@@ -165,6 +163,12 @@ if
 TYPE_CHECKING
 :
     
+from
+.
+typedefs
+import
+Handler
+    
 _AppSignal
 =
 Signal
@@ -200,19 +204,6 @@ None
 ]
 ]
     
-_Handler
-=
-Callable
-[
-[
-Request
-]
-Awaitable
-[
-StreamResponse
-]
-]
-    
 _Middleware
 =
 Union
@@ -222,7 +213,7 @@ Callable
 [
 [
 Request
-_Handler
+Handler
 ]
 Awaitable
 [
@@ -236,11 +227,11 @@ Callable
 "
 Application
 "
-_Handler
+Handler
 ]
 Awaitable
 [
-_Handler
+Handler
 ]
 ]
     
@@ -285,10 +276,6 @@ Signal
 _RespPrepareSignal
 =
 Signal
-    
-_Handler
-=
-Callable
     
 _Middleware
 =
@@ -586,6 +573,8 @@ debug
 self
 .
 _router
+:
+UrlDispatcher
 =
 router
         
@@ -610,6 +599,8 @@ logger
 self
 .
 _middlewares
+:
+_Middlewares
 =
 FrozenList
 (
@@ -619,18 +610,31 @@ middlewares
 self
 .
 _middlewares_handlers
+:
+_MiddlewaresHandlers
 =
 None
         
 self
 .
 _run_middlewares
+:
+Optional
+[
+bool
+]
 =
 None
         
 self
 .
 _state
+:
+Dict
+[
+str
+Any
+]
 =
 {
 }
@@ -650,6 +654,8 @@ False
 self
 .
 _subapps
+:
+_Subapps
 =
 [
 ]
@@ -657,6 +663,8 @@ _subapps
 self
 .
 _on_response_prepare
+:
+_RespPrepareSignal
 =
 Signal
 (
@@ -666,6 +674,8 @@ self
 self
 .
 _on_startup
+:
+_AppSignal
 =
 Signal
 (
@@ -675,6 +685,8 @@ self
 self
 .
 _on_shutdown
+:
+_AppSignal
 =
 Signal
 (
@@ -684,6 +696,8 @@ self
 self
 .
 _on_cleanup
+:
+_AppSignal
 =
 Signal
 (
@@ -1769,6 +1783,8 @@ domain
 :
             
 rule
+:
+Domain
 =
 MaskDomain
 (
@@ -2323,12 +2339,33 @@ shutdown
 "
 "
         
+if
+self
+.
+on_cleanup
+.
+frozen
+:
+            
 await
 self
 .
 on_cleanup
 .
 send
+(
+self
+)
+        
+else
+:
+            
+await
+self
+.
+_cleanup_ctx
+.
+_on_cleanup
 (
 self
 )
@@ -2764,24 +2801,21 @@ str
 :
         
 return
+f
 "
 <
 Application
 0x
 {
+id
+(
+self
+)
 :
 x
 }
 >
 "
-.
-format
-(
-id
-(
-self
-)
-)
     
 def
 __bool__
@@ -2818,12 +2852,19 @@ BaseException
 :
         
 return
+cast
+(
+List
+[
+BaseException
+]
 self
 .
 args
 [
 1
 ]
+)
 if
 TYPE_CHECKING
 :
@@ -2877,6 +2918,14 @@ __init__
 self
 .
 _exits
+:
+List
+[
+AsyncIterator
+[
+None
+]
+]
 =
 [
 ]

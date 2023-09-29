@@ -15,6 +15,12 @@ web
 from
 aiohttp
 .
+abc
+import
+AbstractResolver
+from
+aiohttp
+.
 resolver
 import
 DefaultResolver
@@ -26,6 +32,9 @@ import
 unused_port
 class
 FakeResolver
+(
+AbstractResolver
+)
 :
     
 _LOCAL_HOST
@@ -210,6 +219,25 @@ host
 port
 family
 )
+    
+async
+def
+close
+(
+self
+)
+-
+>
+None
+:
+        
+self
+.
+_resolver
+.
+close
+(
+)
 class
 FakeFacebook
 :
@@ -297,7 +325,14 @@ self
 .
 runner
 =
-None
+web
+.
+AppRunner
+(
+self
+.
+app
+)
         
 here
 =

@@ -305,7 +305,14 @@ def
 start_background_tasks
 (
 app
+:
+web
+.
+Application
 )
+-
+>
+None
 :
     
 app
@@ -315,9 +322,7 @@ redis_listener
 "
 ]
 =
-app
-.
-loop
+asyncio
 .
 create_task
 (

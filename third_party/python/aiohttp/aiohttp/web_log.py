@@ -463,6 +463,19 @@ s
 )
     
 _FORMAT_CACHE
+:
+Dict
+[
+str
+Tuple
+[
+str
+List
+[
+KeyMethod
+]
+]
+]
 =
 {
 }

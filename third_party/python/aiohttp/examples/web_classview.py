@@ -9,6 +9,7 @@ web
 class
 based
 views
+.
 "
 "
 "
@@ -63,7 +64,7 @@ self
 .
 request
 .
-GET
+query
 )
                 
 "
@@ -142,7 +143,7 @@ self
 .
 request
 .
-GET
+query
 )
                 
 "

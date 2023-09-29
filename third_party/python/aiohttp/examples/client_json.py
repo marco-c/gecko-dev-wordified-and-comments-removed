@@ -7,7 +7,14 @@ def
 fetch
 (
 session
+:
+aiohttp
+.
+ClientSession
 )
+-
+>
+None
 :
     
 print

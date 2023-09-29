@@ -67,6 +67,10 @@ None
 self
 .
 _loop
+:
+asyncio
+.
+AbstractEventLoop
 =
 loop
         
@@ -79,14 +83,18 @@ False
 self
 .
 _drain_waiter
+:
+Optional
+[
+asyncio
+.
+Future
+[
+None
+]
+]
 =
 None
-        
-self
-.
-_connection_lost
-=
-False
         
 self
 .
@@ -97,7 +105,49 @@ False
 self
 .
 transport
+:
+Optional
+[
+asyncio
+.
+Transport
+]
 =
+None
+    
+property
+    
+def
+connected
+(
+self
+)
+-
+>
+bool
+:
+        
+"
+"
+"
+Return
+True
+if
+the
+connection
+is
+open
+.
+"
+"
+"
+        
+return
+self
+.
+transport
+is
+not
 None
     
 def
@@ -334,12 +384,6 @@ None
         
 self
 .
-_connection_lost
-=
-True
-        
-self
-.
 transport
 =
 None
@@ -418,9 +462,10 @@ None
 :
         
 if
+not
 self
 .
-_connection_lost
+connected
 :
             
 raise
@@ -447,17 +492,12 @@ self
 .
 _drain_waiter
         
-assert
+if
 waiter
 is
 None
-or
-waiter
-.
-cancelled
-(
-)
-        
+:
+            
 waiter
 =
 self
@@ -467,7 +507,7 @@ _loop
 create_future
 (
 )
-        
+            
 self
 .
 _drain_waiter
@@ -475,4 +515,9 @@ _drain_waiter
 waiter
         
 await
+asyncio
+.
+shield
+(
 waiter
+)

@@ -19,6 +19,10 @@ pprint
 import
 pformat
 from
+typing
+import
+NoReturn
+from
 aiohttp
 import
 web
@@ -141,10 +145,17 @@ def
 login
 (
 request
+:
+web
+.
+Request
 )
+-
+>
+NoReturn
 :
     
-resp
+exc
 =
 web
 .
@@ -157,7 +168,7 @@ location
 "
 )
     
-resp
+exc
 .
 set_cookie
 (
@@ -169,17 +180,24 @@ secret
 "
 )
     
-return
-resp
+raise
+exc
 async
 def
 logout
 (
 request
+:
+web
+.
+Request
 )
+-
+>
+NoReturn
 :
     
-resp
+exc
 =
 web
 .
@@ -192,7 +210,7 @@ location
 "
 )
     
-resp
+exc
 .
 del_cookie
 (
@@ -201,12 +219,11 @@ AUTH
 "
 )
     
-return
-resp
+raise
+exc
 def
 init
 (
-loop
 )
 :
     
@@ -216,9 +233,6 @@ web
 .
 Application
 (
-loop
-=
-loop
 )
     
 app

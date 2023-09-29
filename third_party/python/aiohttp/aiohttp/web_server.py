@@ -119,6 +119,14 @@ loop
 self
 .
 _connections
+:
+Dict
+[
+RequestHandler
+asyncio
+.
+Transport
+]
 =
 {
 }

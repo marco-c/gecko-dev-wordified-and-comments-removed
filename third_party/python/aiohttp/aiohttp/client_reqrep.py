@@ -198,6 +198,8 @@ ImportError
 :
     
 import
+charset_normalizer
+as
 chardet
 __all__
 =
@@ -1508,6 +1510,11 @@ response_class
 self
 .
 response_class
+:
+Type
+[
+ClientResponse
+]
 =
 real_response_class
         
@@ -1623,6 +1630,9 @@ data
         
 if
 data
+is
+not
+None
 or
 self
 .
@@ -1738,10 +1748,14 @@ proxy_headers
 :
             
 h
+:
+Optional
+[
+int
+]
 =
 hash
 (
-                
 tuple
 (
 (
@@ -1758,7 +1772,6 @@ items
 (
 )
 )
-            
 )
         
 else
@@ -1866,6 +1879,11 @@ RequestInfo
 :
         
 headers
+:
+CIMultiDictProxy
+[
+str
+]
 =
 CIMultiDictProxy
 (
@@ -2129,6 +2147,11 @@ headers
 self
 .
 headers
+:
+CIMultiDict
+[
+str
+]
 =
 CIMultiDict
 (
@@ -2421,6 +2444,11 @@ cookies
 return
         
 c
+:
+SimpleCookie
+[
+str
+]
 =
 SimpleCookie
 (
@@ -2602,8 +2630,9 @@ encoding
 "
         
 if
-not
 data
+is
+None
 :
             
 return
@@ -2974,8 +3003,9 @@ None
 :
         
 if
-not
 body
+is
+None
 :
             
 return
@@ -3259,32 +3289,6 @@ None
 :
         
 if
-proxy
-and
-not
-proxy
-.
-scheme
-=
-=
-"
-http
-"
-:
-            
-raise
-ValueError
-(
-"
-Only
-http
-proxies
-are
-supported
-"
-)
-        
-if
 proxy_auth
 and
 not
@@ -3562,11 +3566,37 @@ as
 exc
 :
             
+if
+exc
+.
+errno
+is
+None
+and
+isinstance
+(
+exc
+asyncio
+.
+TimeoutError
+)
+:
+                
+protocol
+.
+set_exception
+(
+exc
+)
+            
+else
+:
+                
 new_exc
 =
 ClientOSError
 (
-                
+                    
 exc
 .
 errno
@@ -3584,21 +3614,21 @@ s
 self
 .
 url
-            
+                
 )
-            
+                
 new_exc
 .
 __context__
 =
 exc
-            
+                
 new_exc
 .
 __cause__
 =
 exc
-            
+                
 protocol
 .
 set_exception
@@ -3817,6 +3847,25 @@ partial
 self
 .
 _on_chunk_request_sent
+self
+.
+method
+self
+.
+url
+            
+)
+            
+on_headers_sent
+=
+functools
+.
+partial
+(
+                
+self
+.
+_on_headers_request_sent
 self
 .
 method
@@ -4251,6 +4300,51 @@ method
 url
 chunk
 )
+    
+async
+def
+_on_headers_request_sent
+(
+        
+self
+method
+:
+str
+url
+:
+URL
+headers
+:
+"
+CIMultiDict
+[
+str
+]
+"
+    
+)
+-
+>
+None
+:
+        
+for
+trace
+in
+self
+.
+_traces
+:
+            
+await
+trace
+.
+send_request_headers
+(
+method
+url
+headers
+)
 class
 ClientResponse
 (
@@ -4263,6 +4357,8 @@ version
 None
     
 status
+:
+int
 =
 None
     
@@ -4271,14 +4367,25 @@ reason
 None
     
 content
+:
+StreamReader
 =
 None
     
 _headers
+:
+"
+CIMultiDictProxy
+[
+str
+]
+"
 =
 None
     
 _raw_headers
+:
+RawHeaders
 =
 None
     
@@ -4390,6 +4497,11 @@ method
 self
 .
 cookies
+:
+SimpleCookie
+[
+str
+]
 =
 SimpleCookie
 (
@@ -4415,12 +4527,24 @@ None
 self
 .
 _body
+:
+Any
 =
 None
         
 self
 .
 _writer
+:
+Optional
+[
+asyncio
+.
+Task
+[
+None
+]
+]
 =
 writer
         
@@ -4439,6 +4563,14 @@ True
 self
 .
 _history
+:
+Tuple
+[
+ClientResponse
+.
+.
+.
+]
 =
 (
 )
@@ -4467,6 +4599,12 @@ TimerNoop
 self
 .
 _cache
+:
+Dict
+[
+str
+Any
+]
 =
 {
 }
@@ -4486,6 +4624,11 @@ loop
 self
 .
 _session
+:
+Optional
+[
+ClientSession
+]
 =
 session
         
@@ -5122,6 +5265,18 @@ MultiDict
 )
         
 links
+:
+MultiDict
+[
+MultiDictProxy
+[
+Union
+[
+str
+URL
+]
+]
+]
 =
 MultiDict
 (
@@ -5207,6 +5362,15 @@ split
 ]
             
 link
+:
+MultiDict
+[
+Union
+[
+str
+URL
+]
+]
 =
 MultiDict
 (
@@ -5407,13 +5571,17 @@ True
 try
 :
                     
+protocol
+=
+self
+.
+_protocol
+                    
 message
 payload
 =
 await
-self
-.
-_protocol
+protocol
 .
 read
 (
@@ -5928,24 +6096,12 @@ under
 "
 "
         
-try
-:
-            
+return
+400
+>
 self
 .
-raise_for_status
-(
-)
-        
-except
-ClientResponseError
-:
-            
-return
-False
-        
-return
-True
+status
     
 def
 raise_for_status
@@ -5958,12 +6114,10 @@ None
 :
         
 if
-400
-<
-=
+not
 self
 .
-status
+ok
 :
             
 assert
@@ -6503,10 +6657,12 @@ _body
 .
 decode
 (
+            
 encoding
 errors
 =
 errors
+        
 )
     
 async

@@ -229,6 +229,13 @@ backlog
 self
 .
 _server
+:
+Optional
+[
+asyncio
+.
+AbstractServer
+]
 =
 None
     
@@ -957,10 +964,12 @@ if
 not
 isinstance
 (
+            
 loop
 asyncio
 .
 ProactorEventLoop
+        
 )
 :
             
@@ -1068,10 +1077,12 @@ loop
 .
 start_serving_pipe
 (
+            
 server
 self
 .
 _path
+        
 )
         
 self
@@ -1422,12 +1433,22 @@ kwargs
 self
 .
 _server
+:
+Optional
+[
+Server
+]
 =
 None
         
 self
 .
 _sites
+:
+List
+[
+BaseSite
+]
 =
 [
 ]
@@ -1468,6 +1489,11 @@ Any
 :
         
 ret
+:
+List
+[
+Any
+]
 =
 [
 ]
@@ -1647,16 +1673,6 @@ asyncio
 get_event_loop
 (
 )
-        
-if
-self
-.
-_server
-is
-None
-:
-            
-return
         
 for
 site

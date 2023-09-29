@@ -1016,6 +1016,11 @@ allow
 self
 .
 allowed_methods
+:
+Set
+[
+str
+]
 =
 set
 (

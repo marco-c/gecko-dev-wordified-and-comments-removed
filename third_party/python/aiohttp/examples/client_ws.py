@@ -299,6 +299,17 @@ async
 with
 aiohttp
 .
+ClientSession
+(
+)
+as
+session
+:
+        
+async
+with
+session
+.
 ws_connect
 (
 url
@@ -312,7 +323,7 @@ False
 as
 ws
 :
-        
+            
 await
 dispatch
 (

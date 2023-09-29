@@ -40,8 +40,11 @@ Any
 Callable
 List
 Optional
+Pattern
+Set
 Tuple
 Union
+cast
 from
 .
 base_protocol
@@ -57,6 +60,11 @@ from
 streams
 import
 DataQueue
+from
+.
+typedefs
+import
+Final
 __all__
 =
 (
@@ -120,6 +128,10 @@ UNSUPPORTED_DATA
 =
 1003
     
+ABNORMAL_CLOSURE
+=
+1006
+    
 INVALID_TEXT
 =
 1007
@@ -147,7 +159,19 @@ SERVICE_RESTART
 TRY_AGAIN_LATER
 =
 1013
+    
+BAD_GATEWAY
+=
+1014
 ALLOWED_CLOSE_CODES
+:
+Final
+[
+Set
+[
+int
+]
+]
 =
 {
 int
@@ -234,6 +258,11 @@ error
 =
 ERROR
 WS_KEY
+:
+Final
+[
+bytes
+]
 =
 b
 "
@@ -325,12 +354,22 @@ H
 .
 pack
 MSG_SIZE
+:
+Final
+[
+int
+]
 =
 2
 *
 *
 14
 DEFAULT_LIMIT
+:
+Final
+[
+int
+]
 =
 2
 *
@@ -499,12 +538,16 @@ str
 :
         
 return
+cast
+(
+str
 self
 .
 args
 [
 1
 ]
+)
 class
 WSHandshakeError
 (
@@ -524,11 +567,24 @@ error
 "
 "
 native_byteorder
+:
+Final
+[
+str
+]
 =
 sys
 .
 byteorder
 _XOR_TABLE
+:
+Final
+[
+List
+[
+bytes
+]
+]
 =
 [
 bytes
@@ -796,6 +852,11 @@ _websocket_mask
 =
 _websocket_mask_python
 _WS_DEFLATE_TRAILING
+:
+Final
+[
+bytes
+]
 =
 bytes
 (
@@ -807,6 +868,14 @@ bytes
 ]
 )
 _WS_EXT_RE
+:
+Final
+[
+Pattern
+[
+str
+]
+]
 =
 re
 .
@@ -885,6 +954,14 @@ d
 "
 )
 _WS_EXT_RE_SPLIT
+:
+Final
+[
+Pattern
+[
+str
+]
+]
 =
 re
 .
@@ -1329,6 +1406,11 @@ max_msg_size
 self
 .
 _exc
+:
+Optional
+[
+BaseException
+]
 =
 None
         
@@ -1351,6 +1433,11 @@ READ_HEADER
 self
 .
 _opcode
+:
+Optional
+[
+int
+]
 =
 None
         
@@ -1363,6 +1450,11 @@ False
 self
 .
 _frame_opcode
+:
+Optional
+[
+int
+]
 =
 None
         
@@ -1391,6 +1483,11 @@ False
 self
 .
 _frame_mask
+:
+Optional
+[
+bytes
+]
 =
 None
         
@@ -1409,12 +1506,19 @@ _payload_length_flag
 self
 .
 _compressed
+:
+Optional
+[
+bool
+]
 =
 None
         
 self
 .
 _decompressobj
+:
+Any
 =
 None
         
@@ -3222,6 +3326,8 @@ _output_size
 self
 .
 _compressobj
+:
+Any
 =
 None
     

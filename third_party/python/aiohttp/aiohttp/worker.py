@@ -157,6 +157,16 @@ kw
 self
 .
 _task
+:
+Optional
+[
+asyncio
+.
+Task
+[
+None
+]
+]
 =
 None
         
@@ -169,6 +179,16 @@ exit_code
 self
 .
 _notify_waiter
+:
+Optional
+[
+asyncio
+.
+Future
+[
+bool
+]
+]
 =
 None
     
@@ -278,18 +298,6 @@ worker
 "
 )
         
-if
-sys
-.
-version_info
->
-=
-(
-3
-6
-)
-:
-            
 self
 .
 loop
@@ -333,6 +341,10 @@ self
 None
 :
         
+runner
+=
+None
+        
 if
 isinstance
 (
@@ -360,7 +372,7 @@ wsgi
 )
 :
             
-app
+wsgi
 =
 await
 self
@@ -368,6 +380,33 @@ self
 wsgi
 (
 )
+            
+if
+isinstance
+(
+wsgi
+web
+.
+AppRunner
+)
+:
+                
+runner
+=
+wsgi
+                
+app
+=
+runner
+.
+app
+            
+else
+:
+                
+app
+=
+wsgi
         
 else
 :
@@ -405,6 +444,12 @@ wsgi
             
 )
         
+if
+runner
+is
+None
+:
+            
 access_log
 =
 self
@@ -420,22 +465,22 @@ cfg
 accesslog
 else
 None
-        
+            
 runner
 =
 web
 .
 AppRunner
 (
-            
+                
 app
-            
+                
 logger
 =
 self
 .
 log
-            
+                
 keepalive_timeout
 =
 self
@@ -443,24 +488,26 @@ self
 cfg
 .
 keepalive
-            
+                
 access_log
 =
 access_log
-            
+                
 access_log_format
 =
 self
 .
 _get_valid_log_format
 (
+                    
 self
 .
 cfg
 .
 access_log_format
+                
 )
-        
+            
 )
         
 await
@@ -972,6 +1019,29 @@ signal
 .
 SIGUSR1
 False
+)
+        
+if
+sys
+.
+version_info
+<
+(
+3
+8
+)
+:
+            
+signal
+.
+signal
+(
+signal
+.
+SIGCHLD
+signal
+.
+SIG_DFL
 )
     
 def

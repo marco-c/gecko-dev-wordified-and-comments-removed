@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -47,11 +35,30 @@ Requests
 import
 datetime
 import
-sys
-import
 encodings
 .
 idna
+from
+io
+import
+UnsupportedOperation
+from
+urllib3
+.
+exceptions
+import
+(
+    
+DecodeError
+    
+LocationParseError
+    
+ProtocolError
+    
+ReadTimeoutError
+    
+SSLError
+)
 from
 urllib3
 .
@@ -71,59 +78,6 @@ util
 import
 parse_url
 from
-urllib3
-.
-exceptions
-import
-(
-    
-DecodeError
-ReadTimeoutError
-ProtocolError
-LocationParseError
-)
-from
-io
-import
-UnsupportedOperation
-from
-.
-hooks
-import
-default_hooks
-from
-.
-structures
-import
-CaseInsensitiveDict
-from
-.
-auth
-import
-HTTPBasicAuth
-from
-.
-cookies
-import
-cookiejar_from_dict
-get_cookie_header
-_copy_cookie_jar
-from
-.
-exceptions
-import
-(
-    
-HTTPError
-MissingSchema
-InvalidURL
-ChunkedEncodingError
-    
-ContentDecodingError
-ConnectionError
-StreamConsumedError
-)
-from
 .
 _internal_utils
 import
@@ -131,23 +85,9 @@ to_native_string
 unicode_is_ascii
 from
 .
-utils
+auth
 import
-(
-    
-guess_filename
-get_auth_from_url
-requote_uri
-    
-stream_decode_response_unicode
-to_key_val_list
-parse_header_links
-    
-iter_slices
-guess_json_utf
-super_len
-check_header_validity
-)
+HTTPBasicAuth
 from
 .
 compat
@@ -155,19 +95,18 @@ import
 (
     
 Callable
+    
+JSONDecodeError
+    
 Mapping
     
-cookielib
-urlunparse
-urlsplit
-urlencode
-str
-bytes
-    
-is_py2
-chardet
-builtin_str
 basestring
+    
+builtin_str
+    
+chardet
+    
+cookielib
 )
 from
 .
@@ -178,9 +117,101 @@ as
 complexjson
 from
 .
+compat
+import
+urlencode
+urlsplit
+urlunparse
+from
+.
+cookies
+import
+_copy_cookie_jar
+cookiejar_from_dict
+get_cookie_header
+from
+.
+exceptions
+import
+(
+    
+ChunkedEncodingError
+    
+ConnectionError
+    
+ContentDecodingError
+    
+HTTPError
+    
+InvalidJSONError
+    
+InvalidURL
+)
+from
+.
+exceptions
+import
+JSONDecodeError
+as
+RequestsJSONDecodeError
+from
+.
+exceptions
+import
+MissingSchema
+from
+.
+exceptions
+import
+SSLError
+as
+RequestsSSLError
+from
+.
+exceptions
+import
+StreamConsumedError
+from
+.
+hooks
+import
+default_hooks
+from
+.
 status_codes
 import
 codes
+from
+.
+structures
+import
+CaseInsensitiveDict
+from
+.
+utils
+import
+(
+    
+check_header_validity
+    
+get_auth_from_url
+    
+guess_filename
+    
+guess_json_utf
+    
+iter_slices
+    
+parse_header_links
+    
+requote_uri
+    
+stream_decode_response_unicode
+    
+super_len
+    
+to_key_val_list
+)
 REDIRECT_STATI
 =
 (
@@ -218,9 +249,6 @@ ITER_CHUNK_SIZE
 512
 class
 RequestEncodingMixin
-(
-object
-)
 :
     
 property
@@ -273,9 +301,9 @@ path
             
 path
 =
-'
+"
 /
-'
+"
         
 url
 .
@@ -298,9 +326,9 @@ url
 .
 append
 (
-'
+"
 ?
-'
+"
 )
             
 url
@@ -311,8 +339,8 @@ query
 )
         
 return
-'
-'
+"
+"
 .
 join
 (
@@ -404,9 +432,9 @@ elif
 hasattr
 (
 data
-'
+"
 read
-'
+"
 )
 :
             
@@ -417,9 +445,9 @@ elif
 hasattr
 (
 data
-'
+"
 __iter__
-'
+"
 )
 :
             
@@ -449,9 +477,9 @@ not
 hasattr
 (
 vs
-'
+"
 __iter__
-'
+"
 )
 :
                     
@@ -480,15 +508,16 @@ append
 (
                             
 (
+                                
 k
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 if
 isinstance
@@ -498,16 +527,16 @@ str
 )
 else
 k
-                             
+                                
 v
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 if
 isinstance
@@ -517,7 +546,9 @@ str
 )
 else
 v
+                            
 )
+                        
 )
             
 return
@@ -636,10 +667,8 @@ custom_headers
 "
         
 if
-(
 not
 files
-)
 :
             
 raise
@@ -719,9 +748,9 @@ not
 hasattr
 (
 val
-'
+"
 __iter__
-'
+"
 )
 :
                 
@@ -766,34 +795,37 @@ append
 (
                         
 (
+                            
 field
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
+                            
 if
 isinstance
 (
 field
 bytes
 )
+                            
 else
 field
-                         
+                            
 v
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 if
 isinstance
@@ -803,7 +835,9 @@ str
 )
 else
 v
+                        
 )
+                    
 )
         
 for
@@ -911,9 +945,9 @@ elif
 hasattr
 (
 fp
-'
+"
 read
-'
+"
 )
 :
                 
@@ -987,9 +1021,6 @@ body
 content_type
 class
 RequestHooksMixin
-(
-object
-)
 :
     
 def
@@ -1025,6 +1056,7 @@ hooks
 raise
 ValueError
 (
+f
 '
 Unsupported
 event
@@ -1033,14 +1065,11 @@ with
 event
 name
 "
-%
-s
+{
+event
+}
 "
 '
-%
-(
-event
-)
 )
         
 if
@@ -1067,9 +1096,9 @@ elif
 hasattr
 (
 hook
-'
+"
 __iter__
-'
+"
 )
 :
             
@@ -1442,39 +1471,49 @@ GET
 def
 __init__
 (
+        
 self
-            
+        
 method
 =
 None
+        
 url
 =
 None
+        
 headers
 =
 None
+        
 files
 =
 None
+        
 data
 =
 None
-            
+        
 params
 =
 None
+        
 auth
 =
 None
+        
 cookies
 =
 None
+        
 hooks
 =
 None
+        
 json
 =
 None
+    
 )
 :
         
@@ -1631,21 +1670,19 @@ self
 :
         
 return
-'
+f
+"
 <
 Request
 [
-%
-s
-]
->
-'
-%
-(
+{
 self
 .
 method
-)
+}
+]
+>
+"
     
 def
 prepare
@@ -1961,39 +1998,49 @@ None
 def
 prepare
 (
+        
 self
-            
+        
 method
 =
 None
+        
 url
 =
 None
+        
 headers
 =
 None
+        
 files
 =
 None
+        
 data
 =
 None
-            
+        
 params
 =
 None
+        
 auth
 =
 None
+        
 cookies
 =
 None
+        
 hooks
 =
 None
+        
 json
 =
 None
+    
 )
 :
         
@@ -2074,21 +2121,19 @@ self
 :
         
 return
-'
+f
+"
 <
 PreparedRequest
 [
-%
-s
-]
->
-'
-%
-(
+{
 self
 .
 method
-)
+}
+]
+>
+"
     
 def
 copy
@@ -2258,11 +2303,11 @@ True
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
         
 except
@@ -2313,9 +2358,9 @@ url
 .
 decode
 (
-'
+"
 utf8
-'
+"
 )
         
 else
@@ -2323,13 +2368,6 @@ else
             
 url
 =
-unicode
-(
-url
-)
-if
-is_py2
-else
 str
 (
 url
@@ -2344,9 +2382,9 @@ lstrip
 )
         
 if
-'
+"
 :
-'
+"
 in
 url
 and
@@ -2359,9 +2397,9 @@ lower
 .
 startswith
 (
-'
+"
 http
-'
+"
 )
 :
             
@@ -2409,55 +2447,41 @@ not
 scheme
 :
             
-error
-=
+raise
+MissingSchema
 (
+                
+f
 "
 Invalid
 URL
 {
-0
+url
 !
 r
 }
 :
 No
-schema
+scheme
 supplied
 .
+"
+                
+f
+"
 Perhaps
 you
 meant
-http
+https
 :
 /
 /
 {
-0
+url
 }
 ?
 "
-)
             
-error
-=
-error
-.
-format
-(
-to_native_string
-(
-url
-'
-utf8
-'
-)
-)
-            
-raise
-MissingSchema
-(
-error
 )
         
 if
@@ -2468,18 +2492,20 @@ host
 raise
 InvalidURL
 (
+f
 "
 Invalid
 URL
-%
+{
+url
+!
 r
+}
 :
 No
 host
 supplied
 "
-%
-url
 )
         
 if
@@ -2509,14 +2535,14 @@ UnicodeError
 raise
 InvalidURL
 (
-'
+"
 URL
 has
 an
 invalid
 label
 .
-'
+"
 )
         
 elif
@@ -2524,32 +2550,36 @@ host
 .
 startswith
 (
-u
-'
+(
+"
 *
-'
+"
+"
+.
+"
+)
 )
 :
             
 raise
 InvalidURL
 (
-'
+"
 URL
 has
 an
 invalid
 label
 .
-'
+"
 )
         
 netloc
 =
 auth
 or
-'
-'
+"
+"
         
 if
 netloc
@@ -2558,8 +2588,8 @@ netloc
 netloc
 +
 =
-'
-'
+"
+"
         
 netloc
 +
@@ -2573,14 +2603,13 @@ port
 netloc
 +
 =
-'
+f
+"
 :
-'
-+
-str
-(
+{
 port
-)
+}
+"
         
 if
 not
@@ -2589,118 +2618,9 @@ path
             
 path
 =
-'
+"
 /
-'
-        
-if
-is_py2
-:
-            
-if
-isinstance
-(
-scheme
-str
-)
-:
-                
-scheme
-=
-scheme
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-            
-if
-isinstance
-(
-netloc
-str
-)
-:
-                
-netloc
-=
-netloc
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-            
-if
-isinstance
-(
-path
-str
-)
-:
-                
-path
-=
-path
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-            
-if
-isinstance
-(
-query
-str
-)
-:
-                
-query
-=
-query
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-            
-if
-isinstance
-(
-fragment
-str
-)
-:
-                
-fragment
-=
-fragment
-.
-encode
-(
-'
-utf
--
-8
-'
-)
+"
         
 if
 isinstance
@@ -2739,18 +2659,16 @@ query
                 
 query
 =
-'
-%
-s
-&
-%
-s
-'
-%
-(
+f
+"
+{
 query
+}
+&
+{
 enc_params
-)
+}
+"
             
 else
 :
@@ -2893,12 +2811,15 @@ None
             
 content_type
 =
-'
+"
 application
 /
 json
-'
+"
             
+try
+:
+                
 body
 =
 complexjson
@@ -2906,6 +2827,24 @@ complexjson
 dumps
 (
 json
+allow_nan
+=
+False
+)
+            
+except
+ValueError
+as
+ve
+:
+                
+raise
+InvalidJSONError
+(
+ve
+request
+=
+self
 )
             
 if
@@ -2923,27 +2862,28 @@ body
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
         
 is_stream
 =
 all
 (
-[
             
+[
+                
 hasattr
 (
 data
-'
+"
 __iter__
-'
+"
 )
-            
+                
 not
 isinstance
 (
@@ -2955,8 +2895,9 @@ tuple
 Mapping
 )
 )
-        
+            
 ]
+        
 )
         
 if
@@ -2993,9 +2934,9 @@ if
 getattr
 (
 body
-'
+"
 tell
-'
+"
 None
 )
 is
@@ -3017,10 +2958,7 @@ tell
 )
                 
 except
-(
-IOError
 OSError
-)
 :
                     
 self
@@ -3038,7 +2976,8 @@ files
 raise
 NotImplementedError
 (
-'
+                    
+"
 Streamed
 bodies
 and
@@ -3047,7 +2986,8 @@ are
 mutually
 exclusive
 .
-'
+"
+                
 )
             
 if
@@ -3058,11 +2998,11 @@ self
 .
 headers
 [
-'
+"
 Content
 -
 Length
-'
+"
 ]
 =
 builtin_str
@@ -3077,16 +3017,16 @@ self
 .
 headers
 [
-'
+"
 Transfer
 -
 Encoding
-'
+"
 ]
 =
-'
+"
 chunked
-'
+"
         
 else
 :
@@ -3134,9 +3074,9 @@ or
 hasattr
 (
 data
-'
+"
 read
-'
+"
 )
 :
                         
@@ -3149,7 +3089,7 @@ else
                         
 content_type
 =
-'
+"
 application
 /
 x
@@ -3159,7 +3099,7 @@ www
 form
 -
 urlencoded
-'
+"
             
 self
 .
@@ -3172,11 +3112,11 @@ if
 content_type
 and
 (
-'
+"
 content
 -
 type
-'
+"
 not
 in
 self
@@ -3189,11 +3129,11 @@ self
 .
 headers
 [
-'
+"
 Content
 -
 Type
-'
+"
 ]
 =
 content_type
@@ -3252,11 +3192,11 @@ self
 .
 headers
 [
-'
+"
 Content
 -
 Length
-'
+"
 ]
 =
 builtin_str
@@ -3265,19 +3205,22 @@ length
 )
         
 elif
+(
+            
 self
 .
 method
 not
 in
 (
-'
+"
 GET
-'
-'
+"
+"
 HEAD
-'
+"
 )
+            
 and
 self
 .
@@ -3285,30 +3228,32 @@ headers
 .
 get
 (
-'
+"
 Content
 -
 Length
-'
+"
 )
 is
 None
+        
+)
 :
             
 self
 .
 headers
 [
-'
+"
 Content
 -
 Length
-'
+"
 ]
 =
-'
+"
 0
-'
+"
     
 def
 prepare_auth
@@ -3317,8 +3262,8 @@ self
 auth
 url
 =
-'
-'
+"
+"
 )
 :
         
@@ -3568,9 +3513,9 @@ self
 .
 headers
 [
-'
+"
 Cookie
-'
+"
 ]
 =
 cookie_header
@@ -3620,9 +3565,6 @@ event
 )
 class
 Response
-(
-object
-)
 :
     
 "
@@ -3659,37 +3601,45 @@ __attrs__
 =
 [
         
-'
+"
 _content
-'
-'
-status_code
-'
-'
-headers
-'
-'
-url
-'
-'
-history
-'
+"
         
-'
+"
+status_code
+"
+        
+"
+headers
+"
+        
+"
+url
+"
+        
+"
+history
+"
+        
+"
 encoding
-'
-'
+"
+        
+"
 reason
-'
-'
+"
+        
+"
 cookies
-'
-'
+"
+        
+"
 elapsed
-'
-'
+"
+        
+"
 request
-'
+"
     
 ]
     
@@ -3880,18 +3830,18 @@ value
 setattr
 (
 self
-'
+"
 _content_consumed
-'
+"
 True
 )
         
 setattr
 (
 self
-'
+"
 raw
-'
+"
 None
 )
     
@@ -3903,21 +3853,19 @@ self
 :
         
 return
-'
+f
+"
 <
 Response
 [
-%
-s
-]
->
-'
-%
-(
+{
 self
 .
 status_code
-)
+}
+]
+>
+"
     
 def
 __bool__
@@ -4307,10 +4255,9 @@ resolve_redirects
 "
         
 return
-(
-'
+"
 location
-'
+"
 in
 self
 .
@@ -4321,7 +4268,6 @@ self
 status_code
 in
 REDIRECT_STATI
-)
     
 property
     
@@ -4352,10 +4298,9 @@ redirect
 "
         
 return
-(
-'
+"
 location
-'
+"
 in
 self
 .
@@ -4366,13 +4311,15 @@ self
 status_code
 in
 (
+            
 codes
 .
 moved_permanently
+            
 codes
 .
 permanent_redirect
-)
+        
 )
     
 property
@@ -4430,8 +4377,10 @@ encoding
 provided
 by
 the
+charset_normalizer
+or
 chardet
-library
+libraries
 .
 "
 "
@@ -4447,9 +4396,9 @@ self
 content
 )
 [
-'
+"
 encoding
-'
+"
 ]
     
 def
@@ -4624,18 +4573,17 @@ hasattr
 self
 .
 raw
-'
+"
 stream
-'
+"
 )
 :
                 
 try
 :
                     
-for
-chunk
-in
+yield
+from
 self
 .
 raw
@@ -4647,10 +4595,6 @@ decode_content
 =
 True
 )
-:
-                        
-yield
-chunk
                 
 except
 ProtocolError
@@ -4684,6 +4628,18 @@ e
                     
 raise
 ConnectionError
+(
+e
+)
+                
+except
+SSLError
+as
+e
+:
+                    
+raise
+RequestsSSLError
 (
 e
 )
@@ -4758,6 +4714,8 @@ int
 raise
 TypeError
 (
+                
+f
 "
 chunk_size
 must
@@ -4768,15 +4726,15 @@ it
 is
 instead
 a
-%
-s
-.
-"
-%
+{
 type
 (
 chunk_size
 )
+}
+.
+"
+            
 )
         
 reused_chunks
@@ -4823,6 +4781,7 @@ chunks
 def
 iter_lines
 (
+        
 self
 chunk_size
 =
@@ -4833,6 +4792,7 @@ False
 delimiter
 =
 None
+    
 )
 :
         
@@ -4903,12 +4863,14 @@ self
 .
 iter_content
 (
+            
 chunk_size
 =
 chunk_size
 decode_unicode
 =
 decode_unicode
+        
 )
 :
             
@@ -4993,14 +4955,9 @@ pending
 =
 None
             
-for
-line
-in
-lines
-:
-                
 yield
-line
+from
+lines
         
 if
 pending
@@ -5052,8 +5009,7 @@ _content_consumed
 raise
 RuntimeError
 (
-                    
-'
+"
 The
 content
 for
@@ -5062,7 +5018,7 @@ response
 was
 already
 consumed
-'
+"
 )
             
 if
@@ -5094,8 +5050,8 @@ self
 _content
 =
 b
-'
-'
+"
+"
 .
 join
 (
@@ -5108,8 +5064,8 @@ CONTENT_CHUNK_SIZE
 )
 or
 b
-'
-'
+"
+"
         
 self
 .
@@ -5154,6 +5110,8 @@ be
 guessed
 using
         
+charset_normalizer
+or
 chardet
 .
         
@@ -5233,11 +5191,8 @@ content
 :
             
 return
-str
-(
-'
-'
-)
+"
+"
         
 if
 self
@@ -5266,9 +5221,9 @@ content
 encoding
 errors
 =
-'
+"
 replace
-'
+"
 )
         
 except
@@ -5287,9 +5242,9 @@ self
 content
 errors
 =
-'
+"
 replace
-'
+"
 )
         
 return
@@ -5341,7 +5296,11 @@ takes
         
 :
 raises
-ValueError
+requests
+.
+exceptions
+.
+JSONDecodeError
 :
 If
 the
@@ -5349,6 +5308,7 @@ response
 body
 does
 not
+            
 contain
 valid
 json
@@ -5402,7 +5362,6 @@ complexjson
 .
 loads
 (
-                        
 self
 .
 content
@@ -5414,7 +5373,6 @@ encoding
 *
 *
 kwargs
-                    
 )
                 
 except
@@ -5422,7 +5380,30 @@ UnicodeDecodeError
 :
                     
 pass
+                
+except
+JSONDecodeError
+as
+e
+:
+                    
+raise
+RequestsJSONDecodeError
+(
+e
+.
+msg
+e
+.
+doc
+e
+.
+pos
+)
         
+try
+:
+            
 return
 complexjson
 .
@@ -5434,6 +5415,26 @@ text
 *
 *
 kwargs
+)
+        
+except
+JSONDecodeError
+as
+e
+:
+            
+raise
+RequestsJSONDecodeError
+(
+e
+.
+msg
+e
+.
+doc
+e
+.
+pos
 )
     
 property
@@ -5471,12 +5472,12 @@ headers
 .
 get
 (
-'
+"
 link
-'
+"
 )
         
-l
+resolved_links
 =
 {
 }
@@ -5504,21 +5505,21 @@ link
 .
 get
 (
-'
+"
 rel
-'
+"
 )
 or
 link
 .
 get
 (
-'
+"
 url
-'
+"
 )
                 
-l
+resolved_links
 [
 key
 ]
@@ -5526,7 +5527,7 @@ key
 link
         
 return
-l
+resolved_links
     
 def
 raise_for_status
@@ -5553,8 +5554,8 @@ occurred
         
 http_error_msg
 =
-'
-'
+"
+"
         
 if
 isinstance
@@ -5577,11 +5578,11 @@ reason
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
             
 except
@@ -5596,13 +5597,13 @@ reason
 .
 decode
 (
-'
+"
 iso
 -
 8859
 -
 1
-'
+"
 )
         
 else
@@ -5627,30 +5628,31 @@ status_code
             
 http_error_msg
 =
-u
-'
-%
-s
-Client
-Error
-:
-%
-s
-for
-url
-:
-%
-s
-'
-%
 (
+                
+f
+"
+{
 self
 .
 status_code
+}
+Client
+Error
+:
+{
 reason
+}
+for
+url
+:
+{
 self
 .
 url
+}
+"
+            
 )
         
 elif
@@ -5666,30 +5668,31 @@ status_code
             
 http_error_msg
 =
-u
-'
-%
-s
-Server
-Error
-:
-%
-s
-for
-url
-:
-%
-s
-'
-%
 (
+                
+f
+"
+{
 self
 .
 status_code
+}
+Server
+Error
+:
+{
 reason
+}
+for
+url
+:
+{
 self
 .
 url
+}
+"
+            
 )
         
 if
@@ -5781,9 +5784,9 @@ getattr
 self
 .
 raw
-'
+"
 release_conn
-'
+"
 None
 )
         

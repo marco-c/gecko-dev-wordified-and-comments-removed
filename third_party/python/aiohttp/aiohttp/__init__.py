@@ -3,11 +3,9 @@ __version__
 "
 3
 .
-7
+8
 .
-4
-.
-post0
+5
 "
 from
 typing
@@ -171,11 +169,8 @@ from
 helpers
 import
 BasicAuth
-as
-BasicAuth
 ChainMapProxy
-as
-ChainMapProxy
+ETag
 from
 .
 http
@@ -327,13 +322,6 @@ ThreadedResolver
 as
 ThreadedResolver
 )
-from
-.
-signals
-import
-Signal
-as
-Signal
 from
 .
 streams
@@ -591,6 +579,10 @@ ChainMapProxy
 "
     
 "
+ETag
+"
+    
+"
 HttpVersion
 "
     
@@ -712,10 +704,6 @@ DefaultResolver
     
 "
 ThreadedResolver
-"
-    
-"
-Signal
 "
     
 "

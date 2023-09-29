@@ -76,10 +76,6 @@ Union
 cast
 )
 from
-typing_extensions
-import
-TypedDict
-from
 yarl
 import
 URL
@@ -111,7 +107,10 @@ from
 .
 typedefs
 import
+Final
+Handler
 PathLike
+TypedDict
 from
 .
 web_exceptions
@@ -217,6 +216,17 @@ BaseDict
 =
 dict
 YARL_VERSION
+:
+Final
+[
+Tuple
+[
+int
+.
+.
+.
+]
+]
 =
 tuple
 (
@@ -238,11 +248,20 @@ split
 )
 )
 HTTP_METHOD_RE
+:
+Final
+[
+Pattern
+[
+str
+]
+]
 =
 re
 .
 compile
 (
+    
 r
 "
 ^
@@ -279,11 +298,20 @@ _
 "
 )
 ROUTE_RE
+:
+Final
+[
+Pattern
+[
+str
+]
+]
 =
 re
 .
 compile
 (
+    
 r
 "
 (
@@ -329,6 +357,11 @@ Z
 "
 )
 PATH_SEP
+:
+Final
+[
+str
+]
 =
 re
 .
@@ -338,18 +371,6 @@ escape
 /
 "
 )
-_WebHandler
-=
-Callable
-[
-[
-Request
-]
-Awaitable
-[
-StreamResponse
-]
-]
 _ExpectHandler
 =
 Callable
@@ -368,7 +389,9 @@ Tuple
 [
 Optional
 [
-AbstractMatchInfo
+"
+UrlMappingMatchInfo
+"
 ]
 Set
 [
@@ -597,6 +620,7 @@ _Resolve
 "
 Resolve
 resource
+.
         
 Return
 (
@@ -605,6 +629,7 @@ allowed_methods
 )
 pair
 .
+        
 "
 "
 "
@@ -741,7 +766,7 @@ handler
 :
 Union
 [
-_WebHandler
+Handler
 Type
 [
 AbstractView
@@ -1026,7 +1051,7 @@ self
 )
 -
 >
-_WebHandler
+Handler
 :
         
 return
@@ -1225,6 +1250,11 @@ route
 self
 .
 _apps
+:
+List
+[
+Application
+]
 =
 [
 ]
@@ -1232,6 +1262,11 @@ _apps
 self
 .
 _current_app
+:
+Optional
+[
+Application
+]
 =
 None
         
@@ -1250,7 +1285,7 @@ self
 )
 -
 >
-_WebHandler
+Handler
 :
         
 return
@@ -1866,6 +1901,11 @@ name
 self
 .
 _routes
+:
+List
+[
+ResourceRoute
+]
 =
 [
 ]
@@ -1888,7 +1928,7 @@ Type
 [
 AbstractView
 ]
-_WebHandler
+Handler
 ]
         
 *
@@ -2058,6 +2098,11 @@ _Resolve
 :
         
 allowed_methods
+:
+Set
+[
+str
+]
 =
 set
 (
@@ -3346,6 +3391,18 @@ _requote_path
 (
 prefix
 )
+        
+self
+.
+_prefix2
+=
+self
+.
+_prefix
++
+"
+/
+"
     
 property
     
@@ -3415,6 +3472,18 @@ prefix
 self
 .
 _prefix
+        
+self
+.
+_prefix2
+=
+self
+.
+_prefix
++
+"
+/
+"
     
 def
 raw_match
@@ -4026,7 +4095,7 @@ set_options_route
 self
 handler
 :
-_WebHandler
+Handler
 )
 -
 >
@@ -4125,8 +4194,15 @@ startswith
 (
 self
 .
-_prefix
+_prefix2
 )
+and
+path
+!
+=
+self
+.
+_prefix
 :
             
 return
@@ -5000,11 +5076,7 @@ startswith
 (
 self
 .
-_prefix
-+
-"
-/
-"
+_prefix2
 )
             
 and
@@ -6024,7 +6096,7 @@ handler
 :
 Union
 [
-_WebHandler
+Handler
 Type
 [
 AbstractView
@@ -6480,9 +6552,20 @@ _raise_allowed_methods
 )
         
 method
+:
+Callable
+[
+[
+]
+Awaitable
+[
+StreamResponse
+]
+]
 =
 getattr
 (
+            
 self
 self
 .
@@ -6494,6 +6577,7 @@ lower
 (
 )
 None
+        
 )
         
 if
@@ -6710,6 +6794,11 @@ AbstractResource
 self
 .
 _routes
+:
+List
+[
+AbstractRoute
+]
 =
 [
 ]
@@ -6840,6 +6929,11 @@ __init__
 self
 .
 _resources
+:
+List
+[
+AbstractResource
+]
 =
 [
 ]
@@ -6847,6 +6941,12 @@ _resources
 self
 .
 _named_resources
+:
+Dict
+[
+str
+AbstractResource
+]
 =
 {
 }
@@ -6862,7 +6962,7 @@ Request
 )
 -
 >
-AbstractMatchInfo
+UrlMappingMatchInfo
 :
         
 method
@@ -6872,6 +6972,11 @@ request
 method
         
 allowed_methods
+:
+Set
+[
+str
+]
 =
 set
 (
@@ -6914,13 +7019,10 @@ allowed_methods
 =
 allowed
         
-else
-:
-            
 if
 allowed_methods
 :
-                
+            
 return
 MatchInfoError
 (
@@ -6930,10 +7032,10 @@ method
 allowed_methods
 )
 )
-            
+        
 else
 :
-                
+            
 return
 MatchInfoError
 (
@@ -7500,7 +7602,7 @@ handler
 :
 Union
 [
-_WebHandler
+Handler
 Type
 [
 AbstractView
@@ -7731,7 +7833,7 @@ path
 str
 handler
 :
-_WebHandler
+Handler
 *
 *
 kwargs
@@ -7746,14 +7848,13 @@ AbstractRoute
 "
 "
 "
-        
 Shortcut
 for
 add_route
 with
 method
 HEAD
-        
+.
 "
 "
 "
@@ -7776,20 +7877,18 @@ kwargs
 def
 add_options
 (
-        
 self
 path
 :
 str
 handler
 :
-_WebHandler
+Handler
 *
 *
 kwargs
 :
 Any
-    
 )
 -
 >
@@ -7799,14 +7898,13 @@ AbstractRoute
 "
 "
 "
-        
 Shortcut
 for
 add_route
 with
 method
 OPTIONS
-        
+.
 "
 "
 "
@@ -7838,7 +7936,7 @@ str
         
 handler
 :
-_WebHandler
+Handler
         
 *
         
@@ -7872,14 +7970,15 @@ AbstractRoute
 "
 "
 "
-        
 Shortcut
 for
 add_route
 with
 method
 GET
-if
+.
+        
+If
 allow_head
 is
 true
@@ -7895,6 +7994,7 @@ to
 the
 same
 endpoint
+.
         
 "
 "
@@ -7952,7 +8052,7 @@ path
 str
 handler
 :
-_WebHandler
+Handler
 *
 *
 kwargs
@@ -7967,14 +8067,13 @@ AbstractRoute
 "
 "
 "
-        
 Shortcut
 for
 add_route
 with
 method
 POST
-        
+.
 "
 "
 "
@@ -8003,7 +8102,7 @@ path
 str
 handler
 :
-_WebHandler
+Handler
 *
 *
 kwargs
@@ -8018,14 +8117,13 @@ AbstractRoute
 "
 "
 "
-        
 Shortcut
 for
 add_route
 with
 method
 PUT
-        
+.
 "
 "
 "
@@ -8048,20 +8146,18 @@ kwargs
 def
 add_patch
 (
-        
 self
 path
 :
 str
 handler
 :
-_WebHandler
+Handler
 *
 *
 kwargs
 :
 Any
-    
 )
 -
 >
@@ -8071,14 +8167,13 @@ AbstractRoute
 "
 "
 "
-        
 Shortcut
 for
 add_route
 with
 method
 PATCH
-        
+.
 "
 "
 "
@@ -8101,20 +8196,18 @@ kwargs
 def
 add_delete
 (
-        
 self
 path
 :
 str
 handler
 :
-_WebHandler
+Handler
 *
 *
 kwargs
 :
 Any
-    
 )
 -
 >
@@ -8124,14 +8217,13 @@ AbstractRoute
 "
 "
 "
-        
 Shortcut
 for
 add_route
 with
 method
 DELETE
-        
+.
 "
 "
 "
@@ -8180,7 +8272,6 @@ AbstractRoute
 "
 "
 "
-        
 Shortcut
 for
 add_route
@@ -8193,7 +8284,7 @@ class
 -
 based
 view
-        
+.
 "
 "
 "

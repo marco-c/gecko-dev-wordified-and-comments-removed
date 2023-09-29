@@ -12,6 +12,10 @@ exceptions
 "
 "
 from
+textwrap
+import
+indent
+from
 typing
 import
 Optional
@@ -178,6 +182,17 @@ self
 str
 :
         
+msg
+=
+indent
+(
+self
+.
+message
+"
+"
+)
+        
 return
 f
 "
@@ -187,13 +202,11 @@ self
 code
 }
 message
-=
+:
+\
+n
 {
-self
-.
-message
-!
-r
+msg
 }
 "
     
@@ -221,6 +234,17 @@ __name__
 :
 {
 self
+.
+code
+}
+message
+=
+{
+self
+.
+message
+!
+r
 }
 >
 "

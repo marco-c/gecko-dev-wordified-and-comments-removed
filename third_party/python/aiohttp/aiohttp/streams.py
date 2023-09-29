@@ -9,6 +9,7 @@ typing
 import
 Awaitable
 Callable
+Deque
 Generic
 List
 Optional
@@ -31,21 +32,11 @@ from
 log
 import
 internal_logger
-try
-:
-    
 from
-typing
+.
+typedefs
 import
-Deque
-except
-ImportError
-:
-    
-from
-typing_extensions
-import
-Deque
+Final
 __all__
 =
 (
@@ -354,6 +345,7 @@ only
 return
 AsyncStreamIterator
 (
+            
 lambda
 :
 self
@@ -362,6 +354,7 @@ read
 (
 n
 )
+        
 )
     
 def
@@ -380,16 +373,9 @@ bytes
 "
 "
 "
-Returns
-an
-asynchronous
-iterator
-that
-yields
+Yield
 all
-the
 available
-        
 data
 as
 soon
@@ -397,6 +383,7 @@ as
 it
 is
 received
+.
         
 Python
 -
@@ -437,16 +424,10 @@ ChunkTupleAsyncStreamIterator
 "
 "
 "
-Returns
-an
-asynchronous
-iterator
-that
-yields
+Yield
 chunks
 of
 data
-        
 as
 they
 are
@@ -455,6 +436,7 @@ by
 the
 server
 .
+        
 The
 yielded
 objects
@@ -676,12 +658,25 @@ _cursor
 self
 .
 _http_chunk_splits
+:
+Optional
+[
+List
+[
+int
+]
+]
 =
 None
         
 self
 .
 _buffer
+:
+Deque
+[
+bytes
+]
 =
 collections
 .
@@ -704,18 +699,43 @@ False
 self
 .
 _waiter
+:
+Optional
+[
+asyncio
+.
+Future
+[
+None
+]
+]
 =
 None
         
 self
 .
 _eof_waiter
+:
+Optional
+[
+asyncio
+.
+Future
+[
+None
+]
+]
 =
 None
         
 self
 .
 _exception
+:
+Optional
+[
+BaseException
+]
 =
 None
         
@@ -728,6 +748,16 @@ timer
 self
 .
 _eof_callbacks
+:
+List
+[
+Callable
+[
+[
+]
+None
+]
+]
 =
 [
 ]
@@ -1809,6 +1839,64 @@ self
 bytes
 :
         
+return
+await
+self
+.
+readuntil
+(
+)
+    
+async
+def
+readuntil
+(
+self
+separator
+:
+bytes
+=
+b
+"
+\
+n
+"
+)
+-
+>
+bytes
+:
+        
+seplen
+=
+len
+(
+separator
+)
+        
+if
+seplen
+=
+=
+0
+:
+            
+raise
+ValueError
+(
+"
+Separator
+should
+be
+at
+least
+one
+-
+byte
+string
+"
+)
+        
 if
 self
 .
@@ -1823,12 +1911,13 @@ self
 .
 _exception
         
-line
+chunk
 =
-[
-]
+b
+"
+"
         
-line_size
+chunk_size
 =
 0
         
@@ -1865,11 +1954,7 @@ _buffer
 .
 find
 (
-b
-"
-\
-n
-"
+separator
 offset
 )
 +
@@ -1891,14 +1976,12 @@ else
 1
 )
                 
-line
-.
-append
-(
+chunk
++
+=
 data
-)
                 
-line_size
+chunk_size
 +
 =
 len
@@ -1915,7 +1998,7 @@ not_enough
 False
                 
 if
-line_size
+chunk_size
 >
 self
 .
@@ -1926,10 +2009,9 @@ raise
 ValueError
 (
 "
-Line
-is
+Chunk
 too
-long
+big
 "
 )
             
@@ -1951,19 +2033,12 @@ self
 _wait
 (
 "
-readline
+readuntil
 "
 )
         
 return
-b
-"
-"
-.
-join
-(
-line
-)
+chunk
     
 async
 def
@@ -2234,6 +2309,7 @@ data
 end_of_http_chunk
 )
 .
+        
 When
 chunked
 transfer
@@ -2443,6 +2519,11 @@ self
 _exception
         
 blocks
+:
+List
+[
+bytes
+]
 =
 [
 ]
@@ -2870,9 +2951,21 @@ b
 class
 EmptyStreamReader
 (
-AsyncStreamReaderMixin
+StreamReader
 )
 :
+    
+def
+__init__
+(
+self
+)
+-
+>
+None
+:
+        
+pass
     
 def
 exception
@@ -3123,6 +3216,12 @@ def
 read_nowait
 (
 self
+n
+:
+int
+=
+-
+1
 )
 -
 >
@@ -3134,6 +3233,11 @@ b
 "
 "
 EMPTY_PAYLOAD
+:
+Final
+[
+StreamReader
+]
 =
 EmptyStreamReader
 (
@@ -3197,12 +3301,27 @@ False
 self
 .
 _waiter
+:
+Optional
+[
+asyncio
+.
+Future
+[
+None
+]
+]
 =
 None
         
 self
 .
 _exception
+:
+Optional
+[
+BaseException
+]
 =
 None
         
@@ -3215,6 +3334,15 @@ _size
 self
 .
 _buffer
+:
+Deque
+[
+Tuple
+[
+_T
+int
+]
+]
 =
 collections
 .
@@ -3614,6 +3742,7 @@ for
 parsed
 data
 .
+    
 "
 "
 "

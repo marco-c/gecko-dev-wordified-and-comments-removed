@@ -8,6 +8,7 @@ aiohttp
 web
 basic
 server
+.
 "
 "
 "

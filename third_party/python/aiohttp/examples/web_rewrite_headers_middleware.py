@@ -16,6 +16,12 @@ from
 aiohttp
 import
 web
+from
+aiohttp
+.
+typedefs
+import
+Handler
 async
 def
 handler
@@ -45,8 +51,19 @@ def
 middleware
 (
 request
+:
+web
+.
+Request
 handler
+:
+Handler
 )
+-
+>
+web
+.
+StreamResponse
 :
     
 try

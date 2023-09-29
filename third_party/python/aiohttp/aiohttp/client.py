@@ -26,6 +26,10 @@ traceback
 import
 warnings
 from
+contextlib
+import
+suppress
+from
 types
 import
 SimpleNamespace
@@ -243,13 +247,13 @@ PY_36
     
 BasicAuth
     
-CeilTimeout
-    
 TimeoutHandle
     
-get_running_loop
+ceil_timeout
     
-proxies_from_env
+get_env_proxy_for_url
+    
+get_running_loop
     
 sentinel
     
@@ -286,6 +290,7 @@ from
 .
 typedefs
 import
+Final
 JSONEncoder
 LooseCookies
 LooseHeaders
@@ -486,6 +491,11 @@ float
 =
 None
 DEFAULT_TIMEOUT
+:
+Final
+[
+ClientTimeout
+]
 =
 ClientTimeout
 (
@@ -529,6 +539,10 @@ frozenset
 (
         
 [
+            
+"
+_base_url
+"
             
 "
 _source_traceback
@@ -622,11 +636,24 @@ _source_traceback
 =
 None
     
+_connector
+=
+None
+    
 def
 __init__
 (
         
 self
+        
+base_url
+:
+Optional
+[
+StrOrURL
+]
+=
+None
         
 *
         
@@ -852,6 +879,69 @@ get_running_loop
 (
 loop
 )
+        
+if
+base_url
+is
+None
+or
+isinstance
+(
+base_url
+URL
+)
+:
+            
+self
+.
+_base_url
+:
+Optional
+[
+URL
+]
+=
+base_url
+        
+else
+:
+            
+self
+.
+_base_url
+=
+URL
+(
+base_url
+)
+            
+assert
+(
+                
+self
+.
+_base_url
+.
+origin
+(
+)
+=
+=
+self
+.
+_base_url
+            
+)
+"
+Only
+absolute
+URLs
+without
+path
+part
+are
+supported
+"
         
 if
 connector
@@ -1206,6 +1296,11 @@ headers
 :
             
 real_headers
+:
+CIMultiDict
+[
+str
+]
 =
 CIMultiDict
 (
@@ -1224,6 +1319,11 @@ CIMultiDict
 self
 .
 _default_headers
+:
+CIMultiDict
+[
+str
+]
 =
 real_headers
         
@@ -1240,7 +1340,6 @@ _skip_auto_headers
 =
 frozenset
 (
-[
 istr
 (
 i
@@ -1249,7 +1348,6 @@ for
 i
 in
 skip_auto_headers
-]
 )
         
 else
@@ -1591,6 +1689,69 @@ url
 *
 kwargs
 )
+)
+    
+def
+_build_url
+(
+self
+str_or_url
+:
+StrOrURL
+)
+-
+>
+URL
+:
+        
+url
+=
+URL
+(
+str_or_url
+)
+        
+if
+self
+.
+_base_url
+is
+None
+:
+            
+return
+url
+        
+else
+:
+            
+assert
+not
+url
+.
+is_absolute
+(
+)
+and
+url
+.
+path
+.
+startswith
+(
+"
+/
+"
+)
+            
+return
+self
+.
+_base_url
+.
+join
+(
+url
 )
     
 async
@@ -1974,7 +2135,9 @@ try
             
 url
 =
-URL
+self
+.
+_build_url
 (
 str_or_url
 )
@@ -2063,6 +2226,8 @@ sentinel
 :
             
 real_timeout
+:
+ClientTimeout
 =
 self
 .
@@ -2172,6 +2337,11 @@ send_request_start
 (
 method
 url
+.
+update_query
+(
+params
+)
 headers
 )
         
@@ -2373,41 +2543,20 @@ self
 _trust_env
 :
                         
-for
-scheme
-proxy_info
-in
-proxies_from_env
+with
+suppress
 (
-)
-.
-items
-(
+LookupError
 )
 :
                             
-if
-scheme
+proxy
+proxy_auth
 =
-=
+get_env_proxy_for_url
+(
 url
-.
-scheme
-:
-                                
-proxy
-=
-proxy_info
-.
-proxy
-                                
-proxy_auth
-=
-proxy_info
-.
-proxy_auth
-                                
-break
+)
                     
 req
 =
@@ -2505,17 +2654,13 @@ traces
 try
 :
                         
+async
 with
-CeilTimeout
+ceil_timeout
 (
 real_timeout
 .
 connect
-loop
-=
-self
-.
-_loop
 )
 :
                             
@@ -2704,6 +2849,24 @@ as
 exc
 :
                         
+if
+exc
+.
+errno
+is
+None
+and
+isinstance
+(
+exc
+asyncio
+.
+TimeoutError
+)
+:
+                            
+raise
+                        
 raise
 ClientOSError
 (
@@ -2759,6 +2922,11 @@ send_request_redirect
                                 
 method
 url
+.
+update_query
+(
+params
+)
 headers
 resp
                             
@@ -3136,10 +3304,17 @@ trace
 .
 send_request_end
 (
+                    
 method
 url
+.
+update_query
+(
+params
+)
 headers
 resp
+                
 )
             
 return
@@ -3182,10 +3357,17 @@ trace
 .
 send_request_exception
 (
+                    
 method
 url
+.
+update_query
+(
+params
+)
 headers
 e
+                
 )
             
 raise
@@ -3272,6 +3454,19 @@ origin
 Optional
 [
 str
+]
+=
+None
+        
+params
+:
+Optional
+[
+Mapping
+[
+str
+str
+]
 ]
 =
 None
@@ -3433,6 +3628,10 @@ origin
 =
 origin
                 
+params
+=
+params
+                
 headers
 =
 headers
@@ -3564,6 +3763,19 @@ str
 =
 None
         
+params
+:
+Optional
+[
+Mapping
+[
+str
+str
+]
+]
+=
+None
+        
 headers
 :
 Optional
@@ -3668,6 +3880,11 @@ None
 :
             
 real_headers
+:
+CIMultiDict
+[
+str
+]
 =
 CIMultiDict
 (
@@ -3837,6 +4054,10 @@ request
 method
             
 url
+            
+params
+=
+params
             
 headers
 =
@@ -4301,6 +4522,11 @@ not
 None
             
 reader
+:
+FlowControlDataQueue
+[
+WSMessage
+]
 =
 FlowControlDataQueue
 (
@@ -4479,6 +4705,11 @@ headers
 )
             
 added_names
+:
+Set
+[
+str
+]
 =
 set
 (
@@ -5311,11 +5542,7 @@ self
 )
 -
 >
-Union
-[
-object
 ClientTimeout
-]
 :
         
 "
@@ -5528,20 +5755,18 @@ None
 "
 "
 "
-        
 Should
 ClientResponse
 .
 raise_for_status
 (
 )
-        
 be
 called
 for
 each
 response
-        
+.
 "
 "
 "
@@ -5573,6 +5798,7 @@ response
 be
 automatically
 decompressed
+.
 "
 "
 "
@@ -5599,10 +5825,18 @@ bool
 "
         
 Should
-get
 proxies
 information
+from
+environment
+or
+netrc
+be
+trusted
+.
         
+Information
+is
 from
 HTTP_PROXY
 /
@@ -5618,6 +5852,7 @@ netrc
 file
 if
 present
+.
         
 "
 "
@@ -6037,6 +6272,11 @@ ClientResponse
 )
 :
     
+__slots__
+=
+(
+)
+    
 async
 def
 __aexit__
@@ -6090,6 +6330,11 @@ ClientWebSocketResponse
 ]
 )
 :
+    
+__slots__
+=
+(
+)
     
 async
 def
@@ -6195,6 +6440,11 @@ coro
 self
 .
 _resp
+:
+Optional
+[
+ClientResponse
+]
 =
 None
         
@@ -6519,6 +6769,7 @@ sends
 a
 request
 .
+    
 Returns
 response
 object

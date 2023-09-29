@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -60,9 +48,9 @@ Request
 HOOKS
 =
 [
-'
+"
 response
-'
+"
 ]
 def
 default_hooks
@@ -135,9 +123,9 @@ if
 hasattr
 (
 hooks
-'
+"
 __call__
-'
+"
 )
 :
             
