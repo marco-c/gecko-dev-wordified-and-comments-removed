@@ -21458,6 +21458,9 @@ if
 rv
 )
 {
+delete
+action
+;
 free
 (
 buf
