@@ -2855,15 +2855,10 @@ mr
 ]
 )
 [
-value
-(
-'
-externref
-'
-externref
+new
+ExternRefResult
 (
 10
-)
 )
 ]
 )

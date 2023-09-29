@@ -250,15 +250,10 @@ externref
 ]
 )
 [
-value
-(
-'
-externref
-'
-externref
+new
+ExternRefResult
 (
 1
-)
 )
 ]
 )
