@@ -7584,6 +7584,7 @@ JSTracer
 trc
 )
 {
+{
 AutoLockHelperThreadState
 lock
 ;
@@ -7779,6 +7780,7 @@ trace
 trc
 )
 ;
+}
 }
 }
 JSRuntime
