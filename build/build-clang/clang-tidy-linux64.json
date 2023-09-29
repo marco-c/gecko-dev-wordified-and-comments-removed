@@ -72,14 +72,5 @@ ci
 .
 patch
 "
-"
-clang
--
-tidy
--
-include_cleaner
-.
-patch
-"
 ]
 }
