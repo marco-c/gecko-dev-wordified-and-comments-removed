@@ -85,3 +85,4 @@ Architecture
 DocumentAccessibilityLifecycle
 GeckoViewThreadTopography
 ColorsAndHighContrastMode
+HCMSettings
