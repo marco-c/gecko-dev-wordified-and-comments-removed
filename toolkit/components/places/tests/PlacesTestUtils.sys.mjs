@@ -3516,7 +3516,9 @@ param
 {
 Object
 }
+[
 conditions
+]
 -
 An
 object
@@ -3524,8 +3526,8 @@ containing
 the
 conditions
 to
-filter
 *
+filter
 the
 query
 results
@@ -3539,8 +3541,8 @@ of
 the
 columns
 to
-filter
 *
+filter
 by
 and
 the
@@ -3602,6 +3604,9 @@ getDatabaseValue
 table
 field
 conditions
+=
+{
+}
 )
 {
 let
@@ -3692,9 +3697,9 @@ rows
 ]
 ?
 .
-getResultByName
+getResultByIndex
 (
-field
+0
 )
 ;
 }
