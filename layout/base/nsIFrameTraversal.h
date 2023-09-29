@@ -207,6 +207,11 @@ bool
 aFollowOOFs
 bool
 aSkipPopupChecks
+nsIFrame
+*
+aLimiter
+=
+nullptr
 )
 =
 0
