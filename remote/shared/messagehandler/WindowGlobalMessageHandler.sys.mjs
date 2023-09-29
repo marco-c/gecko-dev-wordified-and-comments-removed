@@ -689,11 +689,13 @@ realm
 created
 "
 {
-realmId
+realmInfo
 :
 realm
 .
-id
+getInfo
+(
+)
 innerWindowId
 :
 this

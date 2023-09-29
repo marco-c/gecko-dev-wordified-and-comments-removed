@@ -158,7 +158,9 @@ createdRealmId
 =
 realmCreatedEvent
 .
-realmId
+realmInfo
+.
+realm
 ;
 is
 (
@@ -378,7 +380,9 @@ createdRealmId
 =
 realmCreatedEvent
 .
-realmId
+realmInfo
+.
+realm
 ;
 is
 (
@@ -643,7 +647,9 @@ createdRealmId
 =
 realmCreatedEvent
 .
-realmId
+realmInfo
+.
+realm
 ;
 is
 (
