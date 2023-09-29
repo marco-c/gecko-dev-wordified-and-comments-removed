@@ -31814,7 +31814,7 @@ Exists
 )
 )
 ;
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_HOT
 (
 "
 profiler_capture_backtrace
