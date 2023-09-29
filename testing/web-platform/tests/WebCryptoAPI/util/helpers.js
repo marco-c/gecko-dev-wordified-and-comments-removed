@@ -1606,6 +1606,15 @@ return
 if
 (
 emptyIsValid
+&
+&
+validUsages
+.
+length
+!
+=
+=
+0
 )
 {
 okaySubsets
