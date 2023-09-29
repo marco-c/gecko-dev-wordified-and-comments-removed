@@ -2015,6 +2015,11 @@ mInProcessTransitions
 false
 ;
 bool
+mInLocalRunLoop
+=
+false
+;
+bool
 mSuppressSizeModeEvents
 =
 false
@@ -2024,6 +2029,11 @@ mIgnoreOcclusionCount
 ;
 bool
 mHasStartedNativeFullscreen
+;
+bool
+mWaitingOnFinishCurrentTransition
+=
+false
 ;
 bool
 mModal
