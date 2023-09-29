@@ -97,7 +97,12 @@ shouldExist
 :
 0
 Login
-was
+for
+origin
+{
+origin
+}
+should
 {
 shouldExist
 ?
@@ -108,6 +113,7 @@ shouldExist
 not
 "
 }
+be
 found
 .
 )
@@ -210,7 +216,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;
