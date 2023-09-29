@@ -1345,12 +1345,6 @@ throttle
 pending
 requests
 .
-/
-*
-exported
-RequestBackoffV4
-*
-/
 function
 RequestBackoffV4
 (

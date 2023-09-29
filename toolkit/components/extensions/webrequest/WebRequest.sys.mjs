@@ -1042,12 +1042,6 @@ headers
 )
 )
 {
-/
-*
-globals
-uneval
-*
-/
 Cu
 .
 reportError
