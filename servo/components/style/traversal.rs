@@ -1812,6 +1812,9 @@ AnimationOnly
 )
 |
 |
+is_initial_style
+|
+|
 !
 element
 .
