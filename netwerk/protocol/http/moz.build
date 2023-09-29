@@ -94,6 +94,11 @@ nsIObliviousHttp
 idl
 "
 "
+nsIObliviousHttpChannel
+.
+idl
+"
+"
 nsIRaceCacheWithNetwork
 .
 idl
