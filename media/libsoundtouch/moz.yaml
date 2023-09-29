@@ -395,8 +395,7 @@ sh
 -
 src
 /
-RLBoxSoundTouchFactory
-.
+RLBoxSoundTouch
 *
 -
 src
