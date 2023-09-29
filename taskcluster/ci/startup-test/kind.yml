@@ -231,7 +231,9 @@ sparse
 -
 profile
 :
-mozharness
+startup
+-
+test
 attributes
 :
 build_type
