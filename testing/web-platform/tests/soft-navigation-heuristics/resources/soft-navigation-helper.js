@@ -169,6 +169,13 @@ no
 lcp
 '
 ;
+const
+eventPrepWork
+=
+options
+.
+eventPrepWork
+;
 promise_test
 (
 async
@@ -197,6 +204,7 @@ pushState
 addContent
 pushUrl
 eventType
+eventPrepWork
 )
 ;
 for
