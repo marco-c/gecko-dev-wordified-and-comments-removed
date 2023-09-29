@@ -2942,6 +2942,17 @@ conn
 otherConn
 -
 >
+SetCloseReason
+(
+ConnectionCloseReason
+:
+:
+CLOSE_EXISTING_CONN_FOR_COALESCING
+)
+;
+otherConn
+-
+>
 DontReuse
 (
 )
