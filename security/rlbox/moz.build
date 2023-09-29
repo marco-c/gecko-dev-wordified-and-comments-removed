@@ -115,6 +115,14 @@ s
 in
 hunspell_sources
 ]
+if
+CONFIG
+[
+"
+MOZ_WASI_EMULATED_CLOCK
+"
+]
+:
 WASM_DEFINES
 [
 "
