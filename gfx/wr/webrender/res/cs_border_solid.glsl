@@ -135,7 +135,7 @@ only
 .
 flat
 varying
-mediump
+highp
 vec4
 vColorLine
 ;
