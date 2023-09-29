@@ -3407,6 +3407,11 @@ if
 lazy
 .
 isSurveySeen
+|
+|
+AboutWelcomeShoppingChild
+.
+optedInSession
 )
 {
 this
