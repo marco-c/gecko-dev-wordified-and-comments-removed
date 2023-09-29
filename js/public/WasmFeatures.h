@@ -376,7 +376,7 @@ stage
 WasmFeatureStage
 :
 :
-Experimental
+Tentative
 \
 /
 *
@@ -477,7 +477,7 @@ stage
 WasmFeatureStage
 :
 :
-Experimental
+Tentative
 \
 /
 *
