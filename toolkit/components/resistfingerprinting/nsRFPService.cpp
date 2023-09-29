@@ -633,6 +633,7 @@ NS_IMPL_ISUPPORTS
 (
 nsRFPService
 nsIObserver
+nsIRFPService
 )
 static
 StaticRefPtr
@@ -654,8 +655,10 @@ RFPTarget
 >
 sEnabledFingerintingProtections
 ;
+already_AddRefed
+<
 nsRFPService
-*
+>
 nsRFPService
 :
 :
@@ -714,7 +717,10 @@ true
 ;
 }
 return
+do_AddRef
+(
 sRFPService
+)
 ;
 }
 static
