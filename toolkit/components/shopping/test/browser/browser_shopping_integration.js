@@ -885,7 +885,7 @@ add_task
 (
 async
 function
-test_button_hidden_when_opted_out
+test_button_visible_when_opted_out
 (
 )
 {
@@ -1113,12 +1113,12 @@ shoppingButton
 {
 attributes
 :
-true
+false
 attributeFilter
 :
 [
 "
-hidden
+shoppingsidebaropen
 "
 ]
 }
@@ -1128,7 +1128,12 @@ hidden
 >
 shoppingButton
 .
-hidden
+getAttribute
+(
+"
+shoppingsidebaropen
+"
+)
 )
 ;
 ok
@@ -1192,7 +1197,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+is_visible
 (
 shoppingButton
 )
@@ -1201,7 +1206,7 @@ Shopping
 Button
 should
 be
-hidden
+visible
 after
 opting
 out
