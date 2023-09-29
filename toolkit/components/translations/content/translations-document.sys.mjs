@@ -2001,6 +2001,10 @@ node
 NodeFilter
 .
 SHOW_ELEMENT
+|
+NodeFilter
+.
+SHOW_TEXT
 this
 .
 determineTranslationStatusForUnprocessedNodes
