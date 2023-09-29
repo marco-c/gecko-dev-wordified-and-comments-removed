@@ -1,9 +1,9 @@
 FROM
-ubuntu
+python
 :
-20
+3
 .
-04
+11
 #
 No
 interactive
@@ -37,10 +37,6 @@ qqy
 install
 git
 npm
-python3
-python3
--
-venv
 WORKDIR
 /
 app
