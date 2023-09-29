@@ -1493,6 +1493,14 @@ Features
 :
 :
 RG11B10UFLOAT_RENDERABLE
+|
+wgt
+:
+:
+Features
+:
+:
+DUAL_SOURCE_BLENDING
 ;
 if
 max_feature_level

@@ -582,10 +582,6 @@ clone
 other
 .
 span_info
-.
-into_iter
-(
-)
 )
 ;
 self
@@ -598,10 +594,6 @@ range
 other
 .
 body
-.
-into_iter
-(
-)
 )
 ;
 }

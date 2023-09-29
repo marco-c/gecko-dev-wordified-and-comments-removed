@@ -147,7 +147,7 @@ self
 -
 >
 impl
-Iterator
+ExactSizeIterator
 <
 Item
 =
@@ -157,8 +157,6 @@ Span
 str
 )
 >
-+
-ExactSizeIterator
 +
 '
 _

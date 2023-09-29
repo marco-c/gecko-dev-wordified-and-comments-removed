@@ -872,15 +872,13 @@ self
 -
 >
 impl
-Iterator
+ExactSizeIterator
 <
 Item
 =
 &
 SpanContext
 >
-+
-ExactSizeIterator
 {
 #
 [

@@ -2863,6 +2863,9 @@ mod
 argument
 ;
 mod
+blitpass
+;
+mod
 buffer
 ;
 mod
@@ -2961,6 +2964,10 @@ accelerator_structure
 :
 *
 argument
+:
+:
+*
+blitpass
 :
 :
 *
