@@ -151,6 +151,7 @@ Exposed
 (
 Window
 Worker
+AudioWorklet
 )
 ProbablyShortLivingWrapper
 ]
