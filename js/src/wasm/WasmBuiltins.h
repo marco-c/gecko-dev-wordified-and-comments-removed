@@ -161,6 +161,8 @@ ArrayNew_true
 ArrayNew_false
 ArrayNewData
 ArrayNewElem
+ArrayInitData
+ArrayInitElem
 ArrayCopy
 #
 define
@@ -609,6 +611,16 @@ extern
 const
 SymbolicAddressSignature
 SASigArrayNewElem
+;
+extern
+const
+SymbolicAddressSignature
+SASigArrayInitData
+;
+extern
+const
+SymbolicAddressSignature
+SASigArrayInitElem
 ;
 extern
 const
