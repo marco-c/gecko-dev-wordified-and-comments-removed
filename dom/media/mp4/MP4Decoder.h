@@ -86,6 +86,16 @@ aMimeType
 ;
 static
 bool
+IsHEVC
+(
+const
+nsACString
+&
+aMimeType
+)
+;
+static
+bool
 IsEnabled
 (
 )
