@@ -1318,10 +1318,7 @@ querySelectorAll
 (
 "
 :
--
-moz
--
-ui
+user
 -
 invalid
 "
@@ -4788,10 +4785,7 @@ matches
 (
 "
 :
--
-moz
--
-ui
+user
 -
 invalid
 "
