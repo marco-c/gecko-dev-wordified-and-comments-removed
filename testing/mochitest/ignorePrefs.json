@@ -113,6 +113,13 @@ restore_default_bookmarks
 "
 browser
 .
+contentblocking
+.
+category
+"
+"
+browser
+.
 newtabpage
 .
 pinned
