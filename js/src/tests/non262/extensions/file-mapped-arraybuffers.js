@@ -254,8 +254,6 @@ if
 (
 getBuildConfiguration
 (
-)
-[
 "
 mapped
 -
@@ -263,7 +261,7 @@ array
 -
 buffer
 "
-]
+)
 )
 test
 (

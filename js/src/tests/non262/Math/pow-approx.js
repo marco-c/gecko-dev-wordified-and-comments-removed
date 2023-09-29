@@ -819,9 +819,10 @@ maxError
 =
 getBuildConfiguration
 (
-)
-.
+"
 windows
+"
+)
 ?
 3
 :

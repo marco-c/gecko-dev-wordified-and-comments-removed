@@ -1876,9 +1876,10 @@ if
 (
 getBuildConfiguration
 (
-)
-.
+"
 windows
+"
+)
 )
 {
 for
@@ -2629,9 +2630,10 @@ f
 (
 getBuildConfiguration
 (
-)
-.
+"
 windows
+"
+)
 ?
 '
 '

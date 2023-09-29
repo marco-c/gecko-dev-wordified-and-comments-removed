@@ -1,10 +1,11 @@
 let
-{
 release_or_beta
-}
 =
 getBuildConfiguration
 (
+"
+release_or_beta
+"
 )
 ;
 let

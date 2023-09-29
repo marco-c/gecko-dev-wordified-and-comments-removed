@@ -413,12 +413,10 @@ if
 !
 getBuildConfiguration
 (
-)
-[
 "
 android
 "
-]
+)
 &
 &
 Math
