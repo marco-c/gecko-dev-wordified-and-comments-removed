@@ -164,6 +164,11 @@ LegacyUnforgeable
 Exposed
 =
 Window
+InstrumentedProps
+=
+(
+ancestorOrigins
+)
 ]
 interface
 Location

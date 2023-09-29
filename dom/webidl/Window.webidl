@@ -568,9 +568,11 @@ offscreenBuffering
 onbeforeinstallprompt
 oncancel
 onmousewheel
+onorientationchange
 onsearch
 onselectionchange
 openDatabase
+orientation
 OrientationSensor
 OverconstrainedError
 PasswordCredential

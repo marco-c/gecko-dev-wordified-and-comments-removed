@@ -193,6 +193,12 @@ element
 Exposed
 =
 Window
+InstrumentedProps
+=
+(
+popoverTargetAction
+popoverTargetElement
+)
 ]
 interface
 HTMLButtonElement

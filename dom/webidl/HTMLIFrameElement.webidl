@@ -214,6 +214,11 @@ document
 Exposed
 =
 Window
+InstrumentedProps
+=
+(
+loading
+)
 ]
 interface
 HTMLIFrameElement

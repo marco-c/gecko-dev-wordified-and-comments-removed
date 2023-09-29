@@ -212,6 +212,11 @@ shadowroot
 Exposed
 =
 Window
+InstrumentedProps
+=
+(
+pictureInPictureElement
+)
 ]
 interface
 ShadowRoot
