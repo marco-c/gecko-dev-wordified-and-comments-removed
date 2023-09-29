@@ -207,7 +207,7 @@ rfcs
 /
 blob
 /
-master
+HEAD
 /
 text
 /
@@ -566,14 +566,13 @@ Platform
 specific
 documentation
 (
-master
-branch
+HEAD
 )
 ]
 [
 docs
 .
-master
+head
 ]
 .
 See
@@ -601,7 +600,7 @@ libc
 /
 blob
 /
-master
+HEAD
 /
 ci
 /
@@ -721,7 +720,7 @@ libc
 /
 blob
 /
-master
+HEAD
 /
 LICENSE
 -
@@ -769,7 +768,7 @@ libc
 /
 blob
 /
-master
+HEAD
 /
 LICENSE
 -
@@ -824,7 +823,7 @@ libc
 /
 blob
 /
-master
+HEAD
 /
 CONTRIBUTING
 .
@@ -1108,7 +1107,7 @@ svg
 [
 docs
 .
-master
+head
 ]
 :
 https

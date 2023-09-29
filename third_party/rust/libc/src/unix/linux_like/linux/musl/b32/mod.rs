@@ -184,6 +184,14 @@ usize
 =
 24
 ;
+pub
+const
+__SIZEOF_PTHREAD_BARRIER_T
+:
+usize
+=
+20
+;
 cfg_if
 !
 {
