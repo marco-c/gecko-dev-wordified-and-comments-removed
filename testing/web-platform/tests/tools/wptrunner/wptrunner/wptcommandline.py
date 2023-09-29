@@ -32,7 +32,6 @@ from
 .
 formatters
 import
-chromium
 wptreport
 wptscreenshot
 def
@@ -5713,27 +5712,6 @@ wptscreenshot
 }
 "
 store
-"
-)
-    
-commandline
-.
-log_formatters
-[
-"
-chromium
-"
-]
-=
-(
-chromium
-.
-ChromiumFormatter
-"
-Chromium
-Layout
-Tests
-format
 "
 )
     
