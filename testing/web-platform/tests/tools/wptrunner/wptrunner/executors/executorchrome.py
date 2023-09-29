@@ -290,6 +290,14 @@ self
 parent
 .
 reuse_window
+        
+self
+.
+cdp_company_prefix
+=
+"
+goog
+"
     
 def
 close_test_window
@@ -454,8 +462,12 @@ send_session_command
 "
 POST
 "
+                                                    
+self
+.
+cdp_company_prefix
++
 "
-goog
 /
 cdp
 /
@@ -627,6 +639,14 @@ self
 runner_handle
 =
 None
+        
+self
+.
+cdp_company_prefix
+=
+"
+goog
+"
     
 def
 load_runner
@@ -874,13 +894,18 @@ send_session_command
 "
 POST
 "
+                                                   
+self
+.
+cdp_company_prefix
++
 "
-goog
 /
 cdp
 /
 execute
 "
+                                                   
 body
 =
 body
