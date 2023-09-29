@@ -35,10 +35,6 @@ import
 chromium
 wptreport
 wptscreenshot
-from
-manifest
-import
-mputil
 def
 abs_path
 (
@@ -7243,6 +7239,11 @@ processes
 is
 None
 :
+        
+from
+manifest
+import
+mputil
         
 kwargs
 [
