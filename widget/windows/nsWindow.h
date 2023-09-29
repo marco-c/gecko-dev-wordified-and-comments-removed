@@ -3310,6 +3310,11 @@ mIsPerformingDwmFlushHack
 =
 false
 ;
+bool
+mDraggingWindowWithMouse
+=
+false
+;
 DWORD_PTR
 mOldStyle
 =
