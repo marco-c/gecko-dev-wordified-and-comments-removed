@@ -3071,6 +3071,10 @@ TYPE_SUBDOCUMENT
 &
 !
 rootHasSecureConnection
+&
+&
+!
+parentIsHttps
 )
 {
 bool
