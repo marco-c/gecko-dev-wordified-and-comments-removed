@@ -1793,9 +1793,6 @@ InsertNonRuleFontFace
 FontFaceImpl
 *
 aFontFace
-bool
-&
-aFontSetModified
 )
 {
 gfxUserFontAttributes
@@ -1875,10 +1872,6 @@ entry
 )
 ;
 }
-aFontSetModified
-=
-true
-;
 AddUserFontEntry
 (
 family

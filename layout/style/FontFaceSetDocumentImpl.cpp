@@ -2293,7 +2293,6 @@ i
 ]
 .
 mFontFace
-modified
 )
 ;
 }

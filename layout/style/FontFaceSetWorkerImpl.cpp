@@ -992,6 +992,7 @@ lock
 mMutex
 )
 ;
+const
 bool
 modified
 =
@@ -1032,7 +1033,6 @@ i
 ]
 .
 mFontFace
-modified
 )
 ;
 }
