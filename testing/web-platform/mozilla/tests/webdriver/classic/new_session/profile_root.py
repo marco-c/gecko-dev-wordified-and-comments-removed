@@ -10,6 +10,7 @@ test_profile_root
 tmp_path
 configuration
 geckodriver
+user_prefs
 )
 :
     
@@ -44,6 +45,27 @@ deepcopy
 (
 configuration
 )
+    
+config
+[
+"
+capabilities
+"
+]
+[
+"
+moz
+:
+firefoxOptions
+"
+]
+[
+"
+prefs
+"
+]
+=
+user_prefs
     
 del
 config
