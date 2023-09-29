@@ -1359,6 +1359,10 @@ aOldID
 nsAtom
 *
 aNewID
+const
+ServoElementSnapshotTable
+&
+aSnapshots
 )
 ;
 void
@@ -1370,6 +1374,10 @@ dom
 :
 Element
 &
+const
+ServoElementSnapshotTable
+&
+aSnapshots
 )
 ;
 void
@@ -1384,6 +1392,10 @@ Element
 nsAtom
 *
 aAttribute
+const
+ServoElementSnapshotTable
+&
+aSnapshots
 )
 ;
 void
@@ -1399,6 +1411,10 @@ dom
 :
 :
 ElementState
+const
+ServoElementSnapshotTable
+&
+aSnapshots
 )
 ;
 void
