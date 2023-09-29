@@ -401,7 +401,7 @@ nonexistent
 *
 .
 test
-~
+^
 NOTFOUND
 MAP
 *
