@@ -388,7 +388,7 @@ listening
 Create
 a
 new
-ConsolerListener
+ConsoleListener
 instance
 .
 *
