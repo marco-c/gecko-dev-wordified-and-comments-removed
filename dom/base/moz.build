@@ -1236,7 +1236,7 @@ ProcessMessageManager
 h
 "
 "
-RadioGroupManager
+RadioGroupContainer
 .
 h
 "
@@ -2126,7 +2126,7 @@ ProcessMessageManager
 cpp
 "
 "
-RadioGroupManager
+RadioGroupContainer
 .
 cpp
 "
