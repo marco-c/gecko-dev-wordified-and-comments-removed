@@ -3,7 +3,9 @@ name
 :
 2d
 .
-getcontext
+canvas
+.
+context
 .
 exists
 desc
@@ -35,7 +37,9 @@ name
 :
 2d
 .
-getcontext
+canvas
+.
+context
 .
 invalid
 .
@@ -189,7 +193,9 @@ name
 :
 2d
 .
-getcontext
+canvas
+.
+context
 .
 extraargs
 .
@@ -363,7 +369,9 @@ name
 :
 2d
 .
-getcontext
+canvas
+.
+context
 .
 extraargs
 .
@@ -494,6 +502,10 @@ name
 :
 2d
 .
+canvas
+.
+context
+.
 type
 .
 exists
@@ -535,6 +547,10 @@ CanvasRenderingContext2D
 name
 :
 2d
+.
+canvas
+.
+context
 .
 type
 .
@@ -672,6 +688,10 @@ name
 :
 2d
 .
+canvas
+.
+context
+.
 type
 .
 replace
@@ -776,6 +796,10 @@ name
 :
 2d
 .
+canvas
+.
+context
+.
 type
 .
 extend
@@ -868,7 +892,9 @@ name
 :
 2d
 .
-getcontext
+canvas
+.
+context
 .
 unique
 desc
@@ -912,7 +938,9 @@ name
 :
 2d
 .
-getcontext
+canvas
+.
+context
 .
 shared
 desc
@@ -990,6 +1018,10 @@ green
 name
 :
 2d
+.
+canvas
+.
+host
 .
 scaled
 desc
@@ -1120,6 +1152,8 @@ name
 .
 canvas
 .
+host
+.
 reference
 desc
 :
@@ -1149,6 +1183,8 @@ name
 2d
 .
 canvas
+.
+host
 .
 readonly
 desc
@@ -1210,6 +1246,8 @@ name
 canvas
 .
 context
+.
+prototype
 desc
 :
 checks

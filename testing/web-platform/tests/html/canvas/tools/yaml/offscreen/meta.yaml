@@ -375,6 +375,12 @@ name
 '
 :
 '
+2d
+.
+canvas
+.
+host
+.
 initial
 .
 reset
@@ -6938,6 +6944,12 @@ name
 "
 :
 "
+2d
+.
+canvas
+.
+host
+.
 size
 .
 attributes

@@ -6,8 +6,6 @@ genTestUtils_union
 (
 '
 name2dir
--
-canvas
 .
 yaml
 '
