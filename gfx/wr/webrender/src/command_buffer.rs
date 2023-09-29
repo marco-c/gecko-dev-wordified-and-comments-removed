@@ -1164,6 +1164,8 @@ data
 quad_flags
 .
 bits
+(
+)
 as
 u32
 )
