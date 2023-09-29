@@ -2210,7 +2210,10 @@ GetAssertion
 >
 Result
 <
+Vec
+<
 GetAssertionResult
+>
 HIDError
 >
 ;

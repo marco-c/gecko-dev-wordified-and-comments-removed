@@ -555,7 +555,7 @@ Default
 ]
 pub
 struct
-User
+PublicKeyCredentialUserEntity
 {
 #
 [
@@ -2275,9 +2275,9 @@ super
 COSEAlgorithm
 PublicKeyCredentialDescriptor
 PublicKeyCredentialParameters
+PublicKeyCredentialUserEntity
 RelyingParty
 Transport
-User
 }
 ;
 use
@@ -2292,9 +2292,9 @@ create_user
 )
 -
 >
-User
+PublicKeyCredentialUserEntity
 {
-User
+PublicKeyCredentialUserEntity
 {
 id
 :
@@ -2797,7 +2797,7 @@ create_user
 let
 actual
 :
-User
+PublicKeyCredentialUserEntity
 =
 from_slice
 (
@@ -3089,7 +3089,7 @@ serialize_user_nodisplayname
 let
 user
 =
-User
+PublicKeyCredentialUserEntity
 {
 id
 :
