@@ -6867,6 +6867,10 @@ get
 aElement
 aOldID
 aNewID
+&
+Snapshots
+(
+)
 )
 ;
 }
@@ -6923,6 +6927,10 @@ get
 &
 aElement
 aAttribute
+&
+Snapshots
+(
+)
 )
 ;
 }
@@ -6952,6 +6960,10 @@ aElement
 aState
 .
 GetInternalValue
+(
+)
+&
+Snapshots
 (
 )
 )
