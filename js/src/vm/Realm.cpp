@@ -1488,6 +1488,12 @@ purge
 (
 )
 ;
+plainObjectAssignCache
+.
+purge
+(
+)
+;
 objects_
 .
 iteratorCache
