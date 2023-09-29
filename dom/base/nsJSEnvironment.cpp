@@ -10369,13 +10369,13 @@ options
 .
 mem
 .
-gc_parallel_marking_threshold_kb
+gc_parallel_marking_threshold_mb
 "
 (
 void
 *
 )
-JSGC_PARALLEL_MARKING_THRESHOLD_KB
+JSGC_PARALLEL_MARKING_THRESHOLD_MB
 )
 ;
 Preferences
