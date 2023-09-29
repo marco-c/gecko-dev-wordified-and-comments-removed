@@ -2002,6 +2002,14 @@ synced_tabs
 "
 tabs
 "
+null
+{
+page
+:
+"
+syncedtabs
+"
+}
 ]
 ]
 {
