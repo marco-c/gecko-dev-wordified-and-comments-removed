@@ -154,6 +154,13 @@ serde_cbor
 .
 11
 "
+serde_json
+=
+"
+1
+.
+0
+"
 static_prefs
 =
 {
