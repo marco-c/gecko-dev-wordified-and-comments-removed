@@ -4089,19 +4089,18 @@ browser_version
 raise
 Exception
 (
-                    
 "
 Could
 not
 determine
 version
 for
-Google
-Chrome
-for
-Android
+apk
+%
+s
 "
-                
+%
+binary
 )
         
 if
