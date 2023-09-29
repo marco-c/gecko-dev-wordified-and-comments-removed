@@ -629,9 +629,6 @@ return
 .
 .
 state
-activeSearch
-:
-null
 highlightedLineRange
 :
 null
