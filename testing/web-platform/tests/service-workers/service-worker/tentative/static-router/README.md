@@ -1,6 +1,6 @@
 A
 test
-stuite
+suite
 for
 the
 ServiceWorker
