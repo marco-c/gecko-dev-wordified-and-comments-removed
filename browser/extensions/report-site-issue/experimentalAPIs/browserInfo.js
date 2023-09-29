@@ -560,17 +560,6 @@ all
 "
 :
 false
-"
-gfx
-.
-webrender
-.
-blob
--
-images
-"
-:
-true
 }
 )
 )

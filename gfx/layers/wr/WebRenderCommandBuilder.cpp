@@ -13086,14 +13086,6 @@ MustPaintOnContentSide
 bool
 useBlobImage
 =
-StaticPrefs
-:
-:
-gfx_webrender_blob_images
-(
-)
-&
-&
 !
 paintOnContentSide
 ;
