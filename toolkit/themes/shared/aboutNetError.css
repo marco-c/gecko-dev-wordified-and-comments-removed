@@ -196,18 +196,6 @@ none
 important
 ;
 }
-.
-title
-{
-font
--
-size
-:
-1
-.
-75em
-;
-}
 body
 .
 captiveportal
@@ -269,7 +257,7 @@ svg
 "
 )
 ;
-color
+fill
 :
 var
 (
