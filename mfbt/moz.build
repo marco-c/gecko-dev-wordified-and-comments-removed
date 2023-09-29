@@ -345,6 +345,11 @@ MruCache
 h
 "
 "
+NeverDestroyed
+.
+h
+"
+"
 NonDereferenceable
 .
 h
