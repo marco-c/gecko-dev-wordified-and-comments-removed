@@ -1755,15 +1755,13 @@ role
 "
 img
 "
+class
+=
 {
 animate
 ?
 "
-class
-=
-'
 animate
-'
 "
 :
 "
