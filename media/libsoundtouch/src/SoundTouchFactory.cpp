@@ -14,6 +14,7 @@ C
 namespace
 soundtouch
 {
+SOUNDTOUCH_API
 soundtouch
 :
 :
@@ -33,6 +34,7 @@ SoundTouch
 )
 ;
 }
+SOUNDTOUCH_API
 void
 destroySoundTouchObj
 (

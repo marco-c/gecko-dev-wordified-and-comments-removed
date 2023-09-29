@@ -72,6 +72,7 @@ define
 SETTING_INITIAL_LATENCY
 8
 class
+SOUNDTOUCH_API
 SoundTouch
 :
 public
