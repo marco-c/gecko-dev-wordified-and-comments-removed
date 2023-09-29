@@ -103,7 +103,7 @@ uint8_t
 *
 aData
 uint32_t
-aSize
+aByteSize
 )
 ;
 enum
