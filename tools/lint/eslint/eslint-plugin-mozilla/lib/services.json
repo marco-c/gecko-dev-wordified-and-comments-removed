@@ -294,13 +294,6 @@ nsIQuotaManagerService
 qms
 "
 "
-nsIRFPService
-"
-:
-"
-rfp
-"
-"
 nsIScriptSecurityManager
 "
 :
