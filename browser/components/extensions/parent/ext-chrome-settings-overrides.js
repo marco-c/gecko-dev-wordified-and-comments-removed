@@ -1675,7 +1675,11 @@ return
 ;
 }
 await
-searchInitialized
+Services
+.
+search
+.
+promiseInitialized
 ;
 if
 (
