@@ -90,7 +90,7 @@ present
 gcparam
 (
 '
-parallelMarkingThresholdKB
+parallelMarkingThresholdMB
 '
 0
 )

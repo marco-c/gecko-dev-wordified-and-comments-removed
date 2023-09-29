@@ -306,7 +306,7 @@ parallelMarkingEnabled
 testChangeParam
 (
 "
-parallelMarkingThresholdKB
+parallelMarkingThresholdMB
 "
 )
 ;

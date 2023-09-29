@@ -2774,7 +2774,7 @@ runningInBrowser
 gcparam
 (
 '
-parallelMarkingThresholdKB
+parallelMarkingThresholdMB
 '
 0
 )

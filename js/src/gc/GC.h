@@ -348,7 +348,7 @@ true
 _
 (
 "
-parallelMarkingThresholdKB
+parallelMarkingThresholdMB
 "
 JSGC_PARALLEL_MARKING_THRESHOLD_MB
 true
