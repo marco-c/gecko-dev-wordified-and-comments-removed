@@ -1326,6 +1326,10 @@ oldAction
 function
 createTemporarySaveDirectory
 (
+id
+=
+"
+"
 )
 {
 var
@@ -1349,9 +1353,10 @@ saveDir
 .
 append
 (
-"
 testsavedir
-"
+{
+id
+}
 )
 ;
 if

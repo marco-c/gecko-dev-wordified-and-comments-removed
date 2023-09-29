@@ -911,6 +911,9 @@ file
 let
 relatedURI
 =
+aOriginalURL
+|
+|
 aReferrerInfo
 ?
 .
