@@ -1256,6 +1256,13 @@ nsAString
 nsAString
 "
 "
+nsCString
+"
+=
+"
+nsCString
+"
+"
 nsString
 "
 =

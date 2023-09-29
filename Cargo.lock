@@ -29017,6 +29017,9 @@ malloc_size_of
 malloc_size_of_derive
 "
 "
+nsstring
+"
+"
 selectors
 "
 "
