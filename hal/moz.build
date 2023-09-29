@@ -147,6 +147,13 @@ UNIFIED_SOURCES
 "
 android
 /
+AndroidHeterogeneousCpuInfo
+.
+cpp
+"
+"
+android
+/
 AndroidPerformanceHintManager
 .
 cpp
@@ -511,6 +518,13 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+fallback
+/
+FallbackHeterogeneousCpuInfo
+.
+cpp
+"
 "
 fallback
 /
