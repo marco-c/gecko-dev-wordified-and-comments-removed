@@ -52,6 +52,13 @@ html
 ]
 [
 "
+browser_continue_button_delay
+.
+js
+"
+]
+[
+"
 browser_cors_mixedcontent
 .
 js
