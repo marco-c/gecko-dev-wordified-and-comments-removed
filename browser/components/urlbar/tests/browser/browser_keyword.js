@@ -419,10 +419,6 @@ displayed
 .
 title
 "
-https
-:
-/
-/
 example
 .
 com

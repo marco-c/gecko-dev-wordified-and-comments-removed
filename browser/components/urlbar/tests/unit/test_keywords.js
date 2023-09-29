@@ -1188,7 +1188,6 @@ http
 mozilla
 .
 com
-/
 "
 keyword
 :

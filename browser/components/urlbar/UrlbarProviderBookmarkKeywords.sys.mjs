@@ -557,7 +557,7 @@ title
 =
 UrlbarUtils
 .
-unEscapeURIForUI
+prepareUrlForDisplay
 (
 url
 )

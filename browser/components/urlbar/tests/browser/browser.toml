@@ -1558,6 +1558,13 @@ js
 ]
 [
 "
+browser_results_format_displayValue
+.
+js
+"
+]
+[
+"
 browser_retainedResultsOnFocus
 .
 js
