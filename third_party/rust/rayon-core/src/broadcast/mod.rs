@@ -17,7 +17,10 @@ crate
 latch
 :
 :
+{
+CountLatch
 LatchRef
+}
 ;
 use
 crate
@@ -30,15 +33,6 @@ registry
 Registry
 WorkerThread
 }
-;
-use
-crate
-:
-:
-scope
-:
-:
-ScopeLatch
 ;
 use
 std
@@ -524,7 +518,7 @@ as_ref
 let
 latch
 =
-ScopeLatch
+CountLatch
 :
 :
 with_count

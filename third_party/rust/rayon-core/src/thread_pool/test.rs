@@ -2526,12 +2526,8 @@ tx
 rx
 )
 =
-crossbeam_channel
-:
-:
-bounded
+channel
 (
-1
 )
 ;
 crate
@@ -2609,12 +2605,8 @@ tx
 rx
 )
 =
-crossbeam_channel
-:
-:
-bounded
+channel
 (
-1
 )
 ;
 crate
