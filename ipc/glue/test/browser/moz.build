@@ -5,7 +5,7 @@ BROWSER_CHROME_MANIFESTS
 "
 browser
 .
-ini
+toml
 "
 "
 browser_audio_fallback

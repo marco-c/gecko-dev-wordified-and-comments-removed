@@ -863,7 +863,7 @@ tests
 /
 browser
 .
-ini
+toml
 "
 ]
 MARIONETTE_LAYOUT_MANIFESTS

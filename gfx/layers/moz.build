@@ -3136,7 +3136,7 @@ mochitest
 /
 browser
 .
-ini
+toml
 "
 ]
 if

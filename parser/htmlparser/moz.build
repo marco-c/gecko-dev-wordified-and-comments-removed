@@ -42,7 +42,7 @@ mochitest
 /
 browser
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES

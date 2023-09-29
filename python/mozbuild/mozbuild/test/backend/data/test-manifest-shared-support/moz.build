@@ -44,6 +44,6 @@ child
 /
 browser
 .
-ini
+toml
 "
 ]

@@ -34,7 +34,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 FINAL_TARGET_FILES
