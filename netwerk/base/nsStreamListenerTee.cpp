@@ -206,10 +206,15 @@ request
 status
 )
 ;
+mListener
+=
+nullptr
+;
 if
 (
 mObserver
 )
+{
 mObserver
 -
 >
@@ -219,6 +224,7 @@ request
 status
 )
 ;
+}
 if
 (
 !
