@@ -1248,7 +1248,7 @@ ReadLockDescriptor
 &
 &
 aReadLock
-ISurfaceAllocator
+HostIPCAllocator
 *
 aDeallocator
 LayersBackend

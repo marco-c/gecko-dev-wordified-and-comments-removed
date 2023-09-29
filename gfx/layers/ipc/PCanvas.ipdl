@@ -1,4 +1,8 @@
 include
+protocol
+PCanvasManager
+;
+include
 "
 mozilla
 /
@@ -90,7 +94,6 @@ namespace
 layers
 {
 [
-NeedsOtherPid
 ParentImpl
 =
 "
@@ -101,6 +104,9 @@ async
 protocol
 PCanvas
 {
+manager
+PCanvasManager
+;
 parent
 :
 async
@@ -114,6 +120,8 @@ CrossProcessSemaphoreHandle
 aReaderSem
 CrossProcessSemaphoreHandle
 aWriterSem
+bool
+aUseIPDLThread
 )
 ;
 async
@@ -125,6 +133,11 @@ aReadHandle
 ;
 async
 ResumeTranslation
+(
+)
+;
+async
+__delete__
 (
 )
 ;

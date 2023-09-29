@@ -102,16 +102,8 @@ NS_INLINE_DECL_REFCOUNTING
 (
 CanvasChild
 )
-explicit
 CanvasChild
 (
-Endpoint
-<
-PCanvasChild
->
-&
-&
-aEndpoint
 )
 ;
 static

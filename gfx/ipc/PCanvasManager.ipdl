@@ -11,6 +11,10 @@ h
 ;
 include
 protocol
+PCanvas
+;
+include
+protocol
 PWebGL
 ;
 include
@@ -69,6 +73,9 @@ protocol
 PCanvasManager
 {
 manages
+PCanvas
+;
+manages
 PWebGL
 ;
 manages
@@ -76,6 +83,11 @@ PWebGPU
 ;
 parent
 :
+async
+PCanvas
+(
+)
+;
 async
 PWebGL
 (
