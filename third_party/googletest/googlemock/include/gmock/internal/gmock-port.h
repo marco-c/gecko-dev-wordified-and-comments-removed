@@ -57,7 +57,7 @@ port
 h
 "
 #
-if
+ifdef
 GTEST_HAS_ABSL
 #
 include
@@ -140,7 +140,7 @@ FLAGS_gmock_
 #
 name
 #
-if
+ifdef
 GTEST_HAS_ABSL
 #
 define

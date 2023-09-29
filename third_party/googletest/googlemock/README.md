@@ -64,12 +64,10 @@ org
 EasyMock
 ]
 (
-http
+https
 :
 /
 /
-www
-.
 easymock
 .
 org
@@ -80,7 +78,7 @@ org
 Hamcrest
 ]
 (
-http
+https
 :
 /
 /
@@ -344,7 +342,7 @@ testing
 framework
 ]
 (
-http
+https
 :
 /
 /

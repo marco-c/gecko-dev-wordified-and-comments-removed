@@ -469,7 +469,7 @@ discussion
 group
 ]
 (
-http
+https
 :
 /
 /
@@ -503,7 +503,7 @@ discussion
 group
 ]
 (
-http
+https
 :
 /
 /
@@ -836,7 +836,7 @@ googletest
 /
 blob
 /
-master
+main
 /
 .
 clang
@@ -897,9 +897,9 @@ python
 org
 /
 )
-v2
+v3
 .
-3
+6
 or
 newer
 (

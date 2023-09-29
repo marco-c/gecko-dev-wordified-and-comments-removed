@@ -30,7 +30,7 @@ namespace
 testing
 {
 #
-if
+ifdef
 GTEST_HAS_DEATH_TEST
 namespace
 internal
@@ -173,11 +173,17 @@ exit_code_
 #
 if
 !
+defined
+(
 GTEST_OS_WINDOWS
+)
 &
 &
 !
+defined
+(
 GTEST_OS_FUCHSIA
+)
 class
 GTEST_API_
 KilledBySignal
@@ -396,7 +402,7 @@ Message
 (
 )
 #
-if
+ifdef
 GTEST_HAS_DEATH_TEST
 #
 define

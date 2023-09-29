@@ -57,10 +57,6 @@ message_
 other
 .
 message_
-.
-get
-(
-)
 !
 =
 nullptr
@@ -149,10 +145,6 @@ success_
 if
 (
 message_
-.
-get
-(
-)
 !
 =
 nullptr

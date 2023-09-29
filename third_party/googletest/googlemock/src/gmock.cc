@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+string
+>
+#
+include
 "
 gmock
 /

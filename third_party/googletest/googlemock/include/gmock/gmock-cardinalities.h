@@ -61,8 +61,9 @@ virtual
 CardinalityInterface
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 ConservativeLowerBound
@@ -135,8 +136,9 @@ public
 Cardinality
 (
 )
-{
-}
+=
+default
+;
 explicit
 Cardinality
 (

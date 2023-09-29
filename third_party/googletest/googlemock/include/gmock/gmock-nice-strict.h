@@ -174,11 +174,17 @@ value
 }
 #
 if
+defined
+(
 GTEST_OS_WINDOWS
+)
 &
 &
 !
+defined
+(
 GTEST_OS_WINDOWS_MINGW
+)
 &
 &
 \
