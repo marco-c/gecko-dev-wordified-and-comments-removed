@@ -8,6 +8,9 @@ string
 CFStringRef
 ;
 extern
+"
+C
+"
 {
 pub
 static
