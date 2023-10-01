@@ -1499,7 +1499,7 @@ quote
 ;
 extern
 JS_PUBLIC_API
-bool
+void
 QuoteString
 (
 Sprinter
@@ -1519,7 +1519,7 @@ quote
 ;
 extern
 JS_PUBLIC_API
-bool
+void
 JSONQuoteString
 (
 Sprinter
@@ -1545,7 +1545,7 @@ target
 typename
 CharT
 >
-bool
+void
 JS_PUBLIC_API
 QuoteString
 (
