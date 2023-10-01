@@ -37210,10 +37210,6 @@ aTransWithStickyConn
 mUpgradeProtocolCallback
 )
 ;
-mUpgradeProtocolCallback
-=
-nullptr
-;
 if
 (
 NS_FAILED
