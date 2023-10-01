@@ -111,7 +111,7 @@ previews
 /
 browser
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

@@ -19,6 +19,6 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
