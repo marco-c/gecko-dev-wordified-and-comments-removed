@@ -23485,6 +23485,16 @@ FontFamily
 ;
 differing_properties
 .
+remove
+(
+LonghandId
+:
+:
+FontSize
+)
+;
+differing_properties
+.
 remove_all
 (
 &
