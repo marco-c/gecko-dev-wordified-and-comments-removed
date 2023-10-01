@@ -6795,6 +6795,7 @@ sp
 >
 putString
 (
+cx
 str
 )
 ;
@@ -11807,6 +11808,7 @@ sprinter
 .
 putString
 (
+cx
 str
 )
 ;
