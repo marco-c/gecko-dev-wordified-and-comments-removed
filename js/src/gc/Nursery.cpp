@@ -4988,7 +4988,7 @@ value
 \
 sprinter
 .
-jsprintf
+printf
 (
 "
 "
@@ -5096,7 +5096,7 @@ _2
 \
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
@@ -5125,7 +5125,7 @@ text
 \
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
@@ -5232,7 +5232,7 @@ ToMicroseconds
 ;
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
@@ -5435,7 +5435,7 @@ value
 \
 sprinter
 .
-jsprintf
+printf
 (
 "
 "
@@ -5459,7 +5459,7 @@ NurserySliceMetadataFormatWidth
 ;
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
