@@ -43,7 +43,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 TESTING_JS_MODULES

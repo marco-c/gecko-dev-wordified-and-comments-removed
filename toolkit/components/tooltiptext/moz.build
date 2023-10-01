@@ -7,7 +7,7 @@ tests
 /
 browser
 .
-ini
+toml
 "
 ]
 EXTRA_JS_MODULES
