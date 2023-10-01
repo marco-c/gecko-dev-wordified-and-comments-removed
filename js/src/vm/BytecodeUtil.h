@@ -141,7 +141,7 @@ js
 {
 class
 JS_PUBLIC_API
-StringPrinter
+Sprinter
 ;
 }
 static
@@ -3436,7 +3436,7 @@ JSScript
 script
 bool
 lines
-StringPrinter
+Sprinter
 *
 sp
 DisassembleSkeptically
@@ -3470,7 +3470,7 @@ unsigned
 loc
 bool
 lines
-StringPrinter
+Sprinter
 *
 sp
 )

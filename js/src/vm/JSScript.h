@@ -9581,7 +9581,7 @@ options
 js
 :
 :
-StringPrinter
+Sprinter
 *
 sp
 )
@@ -9605,7 +9605,7 @@ script
 js
 :
 :
-GenericPrinter
+Sprinter
 *
 sp
 )
@@ -9629,7 +9629,7 @@ script
 js
 :
 :
-GenericPrinter
+Sprinter
 *
 sp
 )
@@ -9653,7 +9653,7 @@ script
 js
 :
 :
-GenericPrinter
+Sprinter
 *
 sp
 )
@@ -9677,7 +9677,7 @@ script
 js
 :
 :
-GenericPrinter
+Sprinter
 *
 sp
 )

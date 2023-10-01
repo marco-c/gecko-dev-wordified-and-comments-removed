@@ -2577,6 +2577,8 @@ init
 )
 )
 ;
+CHECK_RETURN
+(
 buf
 .
 put
@@ -2584,6 +2586,7 @@ put
 LIRCodeName
 (
 op
+)
 )
 )
 ;
@@ -2653,9 +2656,6 @@ static
 void
 PrintStackValue
 (
-JSContext
-*
-cx
 StackValue
 *
 stackVal
@@ -2706,9 +2706,11 @@ isInt32
 )
 )
 {
+CHECK_RETURN
+(
 buf
 .
-printf
+jsprintf
 (
 "
 %
@@ -2718,6 +2720,7 @@ constantVal
 .
 toInt32
 (
+)
 )
 )
 ;
@@ -2732,9 +2735,11 @@ isObjectOrNull
 )
 )
 {
+CHECK_RETURN
+(
 buf
 .
-printf
+jsprintf
 (
 "
 obj
@@ -2746,6 +2751,7 @@ constantVal
 .
 toObjectOrNull
 (
+)
 )
 )
 ;
@@ -2760,6 +2766,8 @@ isString
 )
 )
 {
+CHECK_RETURN
+(
 buf
 .
 put
@@ -2769,16 +2777,19 @@ str
 :
 "
 )
+)
 ;
+CHECK_RETURN
+(
 buf
 .
 putString
 (
-cx
 constantVal
 .
 toString
 (
+)
 )
 )
 ;
@@ -2793,9 +2804,11 @@ isNumber
 )
 )
 {
+CHECK_RETURN
+(
 buf
 .
-printf
+jsprintf
 (
 "
 num
@@ -2807,6 +2820,7 @@ constantVal
 .
 toNumber
 (
+)
 )
 )
 ;
@@ -2821,6 +2835,8 @@ isSymbol
 )
 )
 {
+CHECK_RETURN
+(
 buf
 .
 put
@@ -2829,6 +2845,7 @@ put
 sym
 :
 "
+)
 )
 ;
 constantVal
@@ -2846,9 +2863,11 @@ buf
 }
 else
 {
+CHECK_RETURN
+(
 buf
 .
-printf
+jsprintf
 (
 "
 raw
@@ -2860,6 +2879,7 @@ constantVal
 .
 asRawBits
 (
+)
 )
 )
 ;
@@ -2888,6 +2908,8 @@ payloadOrValueReg
 (
 )
 ;
+CHECK_RETURN
+(
 buf
 .
 put
@@ -2896,6 +2918,7 @@ reg
 .
 name
 (
+)
 )
 )
 ;
@@ -2908,6 +2931,8 @@ StackValue
 :
 Stack
 :
+CHECK_RETURN
+(
 buf
 .
 put
@@ -2915,6 +2940,7 @@ put
 "
 stack
 "
+)
 )
 ;
 break
@@ -2929,6 +2955,8 @@ ThisSlot
 #
 ifdef
 JS_HAS_HIDDEN_SP
+CHECK_RETURN
+(
 buf
 .
 put
@@ -2936,6 +2964,7 @@ put
 "
 this
 "
+)
 )
 ;
 #
@@ -2949,9 +2978,11 @@ addressOfThis
 (
 )
 ;
+CHECK_RETURN
+(
 buf
 .
-printf
+jsprintf
 (
 "
 this
@@ -2974,6 +3005,7 @@ addr
 .
 offset
 )
+)
 ;
 #
 endif
@@ -2986,9 +3018,11 @@ StackValue
 :
 LocalSlot
 :
+CHECK_RETURN
+(
 buf
 .
-printf
+jsprintf
 (
 "
 local
@@ -3003,6 +3037,7 @@ localSlot
 (
 )
 )
+)
 ;
 break
 ;
@@ -3012,9 +3047,11 @@ StackValue
 :
 ArgSlot
 :
+CHECK_RETURN
+(
 buf
 .
-printf
+jsprintf
 (
 "
 arg
@@ -3027,6 +3064,7 @@ stackVal
 >
 argSlot
 (
+)
 )
 )
 ;
@@ -3136,6 +3174,8 @@ init
 )
 )
 ;
+CHECK_RETURN
+(
 buf
 .
 put
@@ -3146,6 +3186,7 @@ js
 CodeName
 (
 op
+)
 )
 )
 ;
@@ -3208,6 +3249,8 @@ pc
 )
 )
 ;
+CHECK_RETURN
+(
 buf
 .
 put
@@ -3215,13 +3258,16 @@ put
 "
 "
 )
+)
 ;
+CHECK_RETURN
+(
 buf
 .
 putString
 (
-cx
 name
+)
 )
 ;
 }
@@ -3249,6 +3295,8 @@ i
 +
 )
 {
+CHECK_RETURN
+(
 buf
 .
 put
@@ -3256,6 +3304,7 @@ put
 "
 (
 "
+)
 )
 ;
 StackValue
@@ -3275,7 +3324,6 @@ i
 ;
 PrintStackValue
 (
-cx
 stackVal
 frame
 buf
@@ -3288,6 +3336,8 @@ i
 numOperands
 )
 {
+CHECK_RETURN
+(
 buf
 .
 put
@@ -3295,11 +3345,14 @@ put
 "
 )
 "
+)
 )
 ;
 }
 else
 {
+CHECK_RETURN
+(
 buf
 .
 put
@@ -3307,6 +3360,7 @@ put
 "
 )
 "
+)
 )
 ;
 }
