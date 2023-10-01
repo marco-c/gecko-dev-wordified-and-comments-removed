@@ -2807,7 +2807,7 @@ void
 DoLoadNextSrc
 (
 bool
-aForceAsync
+aIsContinue
 )
 ;
 virtual
