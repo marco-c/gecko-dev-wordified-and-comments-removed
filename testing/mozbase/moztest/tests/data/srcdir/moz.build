@@ -7,13 +7,13 @@ juniper
 /
 browser
 .
-ini
+toml
 "
 "
 kiwi
 /
 browser
 .
-ini
+toml
 "
 ]

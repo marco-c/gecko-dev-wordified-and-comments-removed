@@ -2,7 +2,9 @@
 DEFAULT
 ]
 [
+"
 browser_cookieDomain
 .
 js
+"
 ]

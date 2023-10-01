@@ -48,6 +48,6 @@ tests
 /
 browser
 .
-ini
+toml
 "
 ]

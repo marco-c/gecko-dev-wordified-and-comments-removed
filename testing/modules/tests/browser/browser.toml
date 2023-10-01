@@ -1,5 +1,10 @@
 [
+DEFAULT
+]
+[
+"
 browser_test_assert
 .
 js
+"
 ]

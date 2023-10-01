@@ -305,7 +305,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
@@ -380,6 +380,15 @@ mjs
 tests
 /
 BackgroundTask_localization
+.
+sys
+.
+mjs
+"
+"
+tests
+/
+BackgroundTask_minruntime
 .
 sys
 .
