@@ -86,7 +86,6 @@ app
 -
 Run
 yarn
-install
 to
 install
 all
