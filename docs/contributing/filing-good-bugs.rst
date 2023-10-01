@@ -1,7 +1,22 @@
-#
 Filing
 good
 bugs
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Getting
 started
 working
@@ -37,7 +52,7 @@ resolve
 a
 bug
 .
-*
+-
 Use
 a
 descriptive
@@ -65,7 +80,7 @@ to
 understand
 them
 .
-*
+-
 Explain
 the
 problem
@@ -97,7 +112,7 @@ reporting
 a
 bug
 .
-*
+-
 If
 you
 can
@@ -122,7 +137,7 @@ for
 getting
 started
 .
-*
+-
 If
 applicable
 provide
@@ -149,7 +164,6 @@ the
 bug
 title
 was
-"
 HTML
 inspector
 fails
@@ -162,7 +176,6 @@ one
 million
 of
 nodes
-"
 you
 would
 provide
@@ -187,7 +200,6 @@ and
 make
 sure
 you
-'
 re
 looking
 at
@@ -195,7 +207,6 @@ the
 same
 thing
 we
-'
 re
 looking
 at
@@ -225,10 +236,9 @@ own
 web
 server
 .
-*
+-
 If
 it
-'
 s
 a
 bug

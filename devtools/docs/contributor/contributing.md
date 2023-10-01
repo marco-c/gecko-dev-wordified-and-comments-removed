@@ -484,7 +484,6 @@ good
 bugs
 ]
 (
-.
 /
 contributing
 /
@@ -494,7 +493,7 @@ good
 -
 bugs
 .
-md
+html
 )
 if
 you
@@ -570,7 +569,6 @@ the
 guide
 ]
 (
-.
 /
 contributing
 /
@@ -580,7 +578,7 @@ good
 -
 bugs
 .
-md
+html
 )
 .
 This
