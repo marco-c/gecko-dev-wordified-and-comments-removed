@@ -53,9 +53,7 @@ select
 "
 ;
 export
-{
-setSymbols
-}
+*
 from
 "
 .

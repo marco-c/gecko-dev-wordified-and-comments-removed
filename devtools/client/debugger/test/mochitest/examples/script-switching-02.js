@@ -30,6 +30,12 @@ x
 =
 true
 ;
+(
+)
+=
+>
+{
+}
 console
 .
 log
