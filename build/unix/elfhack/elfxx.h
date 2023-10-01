@@ -21,11 +21,6 @@ cstring
 #
 include
 <
-iostream
->
-#
-include
-<
 fstream
 >
 #

@@ -5,13 +5,6 @@ xptcprivate
 .
 h
 "
-#
-include
-<
-iostream
-.
-h
->
 extern
 "
 C

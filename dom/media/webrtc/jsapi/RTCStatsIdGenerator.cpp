@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-iostream
->
-#
-include
 "
 mozilla
 /

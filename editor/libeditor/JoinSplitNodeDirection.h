@@ -7,7 +7,7 @@ JoinSplitNodeDirection_h
 #
 include
 <
-iostream
+ostream
 >
 namespace
 mozilla
