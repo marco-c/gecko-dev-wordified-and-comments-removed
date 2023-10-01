@@ -1984,6 +1984,11 @@ from
 )
 )
 ;
+*
+port_mapping_used
+=
+nullptr
+;
 for
 (
 PortMapping
@@ -2018,6 +2023,8 @@ NR_TRANSPORT_ADDR_CMP_MODE_ALL
 port_mapping_used
 =
 port_mapping
+;
+break
 ;
 }
 }
