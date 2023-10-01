@@ -312,13 +312,9 @@ cerr
 "
 Timer
 fired
+\
+n
 "
-<
-<
-std
-:
-:
-endl
 ;
 TimerTest
 *

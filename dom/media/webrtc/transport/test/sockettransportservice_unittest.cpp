@@ -396,13 +396,9 @@ rv
 <
 "
 bytes
+\
+n
 "
-<
-<
-std
-:
-:
-endl
 ;
 test_
 -

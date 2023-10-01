@@ -243,10 +243,10 @@ log_string
 x
 <
 <
-std
-:
-:
-endl
+'
+\
+n
+'
 ;
 \
 }
