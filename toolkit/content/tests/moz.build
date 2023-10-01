@@ -19,7 +19,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 "
 browser
@@ -28,7 +28,7 @@ datetime
 /
 browser
 .
-toml
+ini
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

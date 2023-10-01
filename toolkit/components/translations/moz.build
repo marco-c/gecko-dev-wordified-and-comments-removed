@@ -116,7 +116,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 ]
 with

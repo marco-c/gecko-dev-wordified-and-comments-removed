@@ -81,7 +81,7 @@ test
 /
 browser
 .
-toml
+ini
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

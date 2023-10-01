@@ -42,7 +42,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 ]
 JAR_MANIFESTS

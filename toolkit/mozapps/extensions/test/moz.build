@@ -15,7 +15,7 @@ xpinstall
 /
 browser
 .
-toml
+ini
 "
 ]
 MOCHITEST_MANIFESTS

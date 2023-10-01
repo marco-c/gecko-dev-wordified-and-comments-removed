@@ -33,7 +33,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 "
 browser
@@ -42,7 +42,7 @@ manual_app_update_only
 /
 browser
 .
-toml
+ini
 "
 ]
 if

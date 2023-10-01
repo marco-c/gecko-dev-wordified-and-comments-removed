@@ -964,7 +964,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 ]
 UNIFIED_SOURCES

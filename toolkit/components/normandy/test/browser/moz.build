@@ -5,7 +5,7 @@ BROWSER_CHROME_MANIFESTS
 "
 browser
 .
-toml
+ini
 "
 ]
 addons

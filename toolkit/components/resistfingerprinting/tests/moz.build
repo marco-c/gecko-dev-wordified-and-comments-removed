@@ -27,7 +27,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 ]
 FINAL_LIBRARY
