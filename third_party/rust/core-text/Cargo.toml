@@ -109,7 +109,7 @@ version
 "
 20
 .
-1
+0
 .
 0
 "
@@ -180,11 +180,6 @@ docs
 .
 rs
 ]
-all
--
-features
-=
-true
 default
 -
 target

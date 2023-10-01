@@ -493,12 +493,11 @@ nullptr
 CTFontRef
 ctFont
 =
-CTFontCreateWithFontDescriptorAndOptions
+CTFontCreateWithFontDescriptor
 (
 ctFontDesc
 0
 NULL
-kCTFontOptionsPreferSystemFont
 )
 ;
 CGFontRef

@@ -168,10 +168,7 @@ core_text
 font
 :
 :
-{
 CTFont
-kCTFontOptionsPreferSystemFont
-}
 ;
 use
 core_text
@@ -1176,11 +1173,10 @@ core_text
 font
 :
 :
-new_from_descriptor_and_options
+new_from_descriptor
 (
 ct_font_desc
 size
-kCTFontOptionsPreferSystemFont
 )
 ;
 if
@@ -1338,12 +1334,11 @@ core_text
 font
 :
 :
-new_from_descriptor_and_options
+new_from_descriptor
 (
 &
 ct_var_font_desc
 size
-kCTFontOptionsPreferSystemFont
 )
 }
 fn
