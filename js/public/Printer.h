@@ -466,15 +466,6 @@ release
 )
 ;
 char
-*
-stringAt
-(
-ptrdiff_t
-off
-)
-const
-;
-char
 &
 operator
 [
