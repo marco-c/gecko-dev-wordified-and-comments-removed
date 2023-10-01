@@ -417,7 +417,7 @@ mTrack
 )
 ;
 }
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 mTrack
@@ -555,7 +555,7 @@ AudioParam
 SendEventToEngine
 (
 const
-AudioTimelineEvent
+AudioParamEvent
 &
 aEvent
 )

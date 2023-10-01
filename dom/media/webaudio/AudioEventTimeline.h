@@ -93,7 +93,6 @@ dom
 {
 struct
 AudioTimelineEvent
-final
 {
 enum
 Type
@@ -312,14 +311,6 @@ double
 aDuration
 )
 ;
-explicit
-AudioTimelineEvent
-(
-AudioNodeTrack
-*
-aTrack
-)
-;
 AudioTimelineEvent
 (
 const
@@ -486,12 +477,6 @@ mCurveLength
 float
 *
 mCurve
-;
-RefPtr
-<
-AudioNodeTrack
->
-mTrack
 ;
 double
 mTimeConstant

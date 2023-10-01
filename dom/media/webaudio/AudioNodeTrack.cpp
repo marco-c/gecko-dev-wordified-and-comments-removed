@@ -1042,7 +1042,7 @@ SendTimelineEvent
 uint32_t
 aIndex
 const
-AudioTimelineEvent
+AudioParamEvent
 &
 aEvent
 )
@@ -1064,7 +1064,7 @@ aTrack
 uint32_t
 aIndex
 const
-AudioTimelineEvent
+AudioParamEvent
 &
 aEvent
 )
@@ -1128,7 +1128,7 @@ mEvent
 )
 ;
 }
-AudioTimelineEvent
+AudioParamEvent
 mEvent
 ;
 TrackRate
