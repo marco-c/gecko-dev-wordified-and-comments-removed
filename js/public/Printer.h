@@ -465,6 +465,15 @@ release
 (
 )
 ;
+JSString
+*
+releaseJS
+(
+JSContext
+*
+cx
+)
+;
 char
 *
 reserve
