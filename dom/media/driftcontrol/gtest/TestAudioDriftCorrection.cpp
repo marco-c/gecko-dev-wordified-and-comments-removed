@@ -2026,6 +2026,8 @@ produceSomeData
 (
 uint32_t
 aTransmitterBlockSize
+uint32_t
+aDuration
 )
 {
 TrackTime
@@ -2052,9 +2054,7 @@ i
 ;
 i
 <
-10
-*
-sampleRate
+aDuration
 ;
 i
 +
@@ -2166,6 +2166,9 @@ receiverBlockSize
 produceSomeData
 (
 transmitterBlockSize1
+5
+*
+sampleRate
 )
 ;
 EXPECT_EQ
@@ -2201,6 +2204,9 @@ NumUnderruns
 produceSomeData
 (
 transmitterBlockSize2
+10
+*
+sampleRate
 )
 ;
 auto
@@ -2235,6 +2241,9 @@ BufferSize
 produceSomeData
 (
 transmitterBlockSize2
+10
+*
+sampleRate
 )
 ;
 EXPECT_EQ
@@ -2260,6 +2269,9 @@ NumUnderruns
 produceSomeData
 (
 transmitterBlockSize1
+100
+*
+sampleRate
 )
 ;
 numCorrectionChanges
@@ -2293,6 +2305,9 @@ BufferSize
 produceSomeData
 (
 transmitterBlockSize1
+10
+*
+sampleRate
 )
 ;
 EXPECT_EQ

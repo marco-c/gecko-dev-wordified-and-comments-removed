@@ -462,6 +462,10 @@ ToSeconds
 0
 )
 ;
+mLastDesiredBufferingChangeTime
+=
+mTotalTargetClock
+;
 mDesiredBuffering
 =
 aDesiredBuffering
