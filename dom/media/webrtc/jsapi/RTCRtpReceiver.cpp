@@ -3091,7 +3091,11 @@ Construct
 videoStats
 -
 >
-jitter_buffer_delay_seconds
+jitter_buffer_delay
+.
+seconds
+(
+)
 )
 ;
 local
