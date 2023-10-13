@@ -1808,6 +1808,17 @@ historyListenerCallback
 =
 null
 ;
+if
+(
+!
+this
+.
+#
+historyObserverTask
+.
+isFinalized
+)
+{
 this
 .
 #
@@ -1826,6 +1837,7 @@ finalize
 (
 )
 ;
+}
 }
 /
 *
