@@ -206,6 +206,7 @@ dispose
 )
 ;
 }
+public
 long
 getNativeVideoTrack
 (
