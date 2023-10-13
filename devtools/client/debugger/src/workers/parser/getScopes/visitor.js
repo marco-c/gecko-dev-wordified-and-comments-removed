@@ -398,7 +398,7 @@ loc
 )
 {
 const
-result
+scope
 =
 {
 type
@@ -430,12 +430,12 @@ children
 .
 push
 (
-result
+scope
 )
 ;
 }
 return
-result
+scope
 ;
 }
 function
