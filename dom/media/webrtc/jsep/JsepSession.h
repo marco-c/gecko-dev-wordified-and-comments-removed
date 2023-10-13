@@ -342,10 +342,7 @@ nsresult
 AddDtlsFingerprint
 (
 const
-std
-:
-:
-string
+nsACString
 &
 algorithm
 const
