@@ -3882,6 +3882,15 @@ invoked
 )
 ;
 Node
+decoratorExpr
+(
+YieldHandling
+yieldHandling
+TokenKind
+tt
+)
+;
+Node
 primaryExpr
 (
 YieldHandling
