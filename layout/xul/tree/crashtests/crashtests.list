@@ -248,6 +248,12 @@ load
 585815
 .
 html
+skip
+-
+if
+(
+wayland
+)
 pref
 (
 widget
@@ -266,6 +272,10 @@ html
 #
 Bug
 1819154
+wayland
+:
+Bug
+1857258
 load
 chrome
 :

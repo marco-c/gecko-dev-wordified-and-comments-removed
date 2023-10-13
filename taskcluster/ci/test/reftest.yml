@@ -564,6 +564,8 @@ android
 .
 *
 wayland
+/
+debug
 .
 *
 :

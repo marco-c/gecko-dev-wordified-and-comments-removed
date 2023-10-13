@@ -176,6 +176,12 @@ skip
 -
 if
 (
+wayland
+)
+skip
+-
+if
+(
 ThreadSanitizer
 )
 skip
@@ -212,6 +218,10 @@ load
 .
 html
 #
+wayland
+:
+bug
+1856365
 intermittent
 OOMs
 on

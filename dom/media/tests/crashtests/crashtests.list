@@ -243,6 +243,12 @@ skip
 -
 if
 (
+wayland
+)
+skip
+-
+if
+(
 Android
 )
 load
@@ -250,6 +256,10 @@ load
 .
 html
 #
+wayland
+:
+bug
+1856368
 No
 screenshare
 on
