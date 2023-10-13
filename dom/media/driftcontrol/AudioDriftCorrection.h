@@ -18,7 +18,7 @@ class
 AudioResampler
 ;
 class
-ClockDrift
+DriftController
 ;
 class
 AudioDriftCorrection
@@ -87,9 +87,9 @@ private
 const
 UniquePtr
 <
-ClockDrift
+DriftController
 >
-mClockDrift
+mDriftController
 ;
 const
 UniquePtr

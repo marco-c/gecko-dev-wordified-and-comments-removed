@@ -59,7 +59,7 @@ AudioResampler
 cpp
 "
 "
-ClockDrift
+DriftController
 .
 cpp
 "

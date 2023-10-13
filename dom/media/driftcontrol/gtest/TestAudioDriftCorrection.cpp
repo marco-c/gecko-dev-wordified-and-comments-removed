@@ -324,9 +324,9 @@ sourceFrames
 =
 sampleRateTransmitter
 *
-102
+1002
 /
-100
+1000
 /
 100
 ;
@@ -337,9 +337,9 @@ sourceFrames
 =
 sampleRateTransmitter
 *
-98
+998
 /
-100
+1000
 /
 100
 ;
@@ -353,7 +353,7 @@ n
 ;
 n
 <
-1050
+5000
 ;
 +
 +
