@@ -172,12 +172,7 @@ if
 =
 [
 "
-os
-=
-=
-'
-mac
-'
+apple_catalina
 &
 &
 !
@@ -185,7 +180,7 @@ debug
 "
 ]
 #
-bug
+Bug
 1789194
 [
 "
