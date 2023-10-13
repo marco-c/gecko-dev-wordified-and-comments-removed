@@ -148,6 +148,14 @@ Stop
 (
 )
 ;
+int
+Latency
+(
+uint32_t
+*
+aLatencyFrames
+)
+;
 private
 :
 struct

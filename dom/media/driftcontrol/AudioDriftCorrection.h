@@ -72,6 +72,13 @@ NumCorrectionChanges
 )
 const
 ;
+void
+SetSourceLatencyFrames
+(
+uint32_t
+aSourceLatencyFrames
+)
+;
 const
 uint32_t
 mTargetRate
@@ -84,6 +91,11 @@ SetDesiredBuffering
 uint32_t
 aDesiredBufferingFrames
 )
+;
+uint32_t
+mSourceLatencyFrames
+=
+0
 ;
 uint32_t
 mDesiredBufferingFrames
