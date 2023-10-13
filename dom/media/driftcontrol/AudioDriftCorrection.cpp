@@ -174,12 +174,6 @@ mResampler
 InputReadableFrames
 (
 )
-mResampler
--
->
-InputWritableFrames
-(
-)
 )
 ;
 mResampler

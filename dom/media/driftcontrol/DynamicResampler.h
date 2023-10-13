@@ -141,14 +141,6 @@ aChannelIndex
 )
 const
 ;
-uint32_t
-InFramesLeftToBuffer
-(
-uint32_t
-aChannelIndex
-)
-const
-;
 void
 EnsurePreBuffer
 (

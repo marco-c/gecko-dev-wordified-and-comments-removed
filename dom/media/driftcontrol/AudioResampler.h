@@ -63,12 +63,6 @@ InputReadableFrames
 )
 const
 ;
-uint32_t
-InputWritableFrames
-(
-)
-const
-;
 AudioSegment
 Resample
 (
