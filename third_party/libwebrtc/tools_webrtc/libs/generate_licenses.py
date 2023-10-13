@@ -216,6 +216,22 @@ LICENSE
 ]
     
 '
+cpu_features
+'
+:
+[
+'
+third_party
+/
+cpu_features
+/
+src
+/
+LICENSE
+'
+]
+    
+'
 dav1d
 '
 :
