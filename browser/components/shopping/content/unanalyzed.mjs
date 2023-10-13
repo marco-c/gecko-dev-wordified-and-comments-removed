@@ -331,7 +331,7 @@ content
 "
 >
 <
-strong
+h2
 data
 -
 l10n
@@ -352,7 +352,7 @@ header
 >
 <
 /
-strong
+h2
 >
 <
 p
