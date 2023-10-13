@@ -27,6 +27,11 @@ MissingVCSExtension
 get_repository_object
 from
 .
+lando
+import
+push_to_lando_try
+from
+.
 util
 .
 estimates
@@ -1044,6 +1049,10 @@ None
 allow_log_capture
 =
 False
+    
+push_to_lando
+=
+False
 )
 :
     
@@ -1336,6 +1345,19 @@ changed_files
 try
 :
             
+if
+push_to_lando
+:
+                
+push_to_lando_try
+(
+vcs
+commit_message
+)
+            
+else
+:
+                
 vcs
 .
 push_to_try
