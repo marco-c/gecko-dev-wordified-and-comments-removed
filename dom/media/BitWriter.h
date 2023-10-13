@@ -122,13 +122,6 @@ CloseWithRbspTrailing
 (
 )
 ;
-void
-AdvanceBytes
-(
-uint32_t
-aByteOffset
-)
-;
 size_t
 BitCount
 (
