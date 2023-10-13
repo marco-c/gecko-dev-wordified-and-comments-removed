@@ -3835,9 +3835,15 @@ third_party
 "
 :
         
-try
+for
+path
+in
+THIRDPARTY_USED_IN_FIREFOX
 :
             
+try
+:
+                
 shutil
 .
 rmtree
@@ -3852,19 +3858,20 @@ LIBWEBRTC_DIR
 "
 third_party
 "
+path
 )
 )
-        
+            
 except
 FileNotFoundError
 :
-            
+                
 pass
-        
+            
 except
 NotADirectoryError
 :
-            
+                
 pass
         
 if
