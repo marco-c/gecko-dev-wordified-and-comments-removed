@@ -3579,6 +3579,7 @@ USE_FAST_PATH
 derive
 (
 Debug
+Clone
 MallocSizeOf
 )
 ]
