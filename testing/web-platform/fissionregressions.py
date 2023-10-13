@@ -359,6 +359,14 @@ isolated_process
 "
 :
 False
+        
+"
+display
+"
+:
+"
+x11
+"
     
 }
     
@@ -705,6 +713,14 @@ isolated_process
 "
 :
 False
+        
+"
+display
+"
+:
+"
+x11
+"
     
 }
     
@@ -1055,6 +1071,12 @@ isolated_process
 "
 :
 False
+        
+"
+display
+"
+:
+None
     
 }
 }
