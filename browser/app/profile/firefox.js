@@ -1977,16 +1977,6 @@ false
 pref
 (
 "
-toolkit
-.
-lazyHiddenWindow
-"
-true
-)
-;
-pref
-(
-"
 browser
 .
 chrome

@@ -81,16 +81,6 @@ false
 pref
 (
 "
-toolkit
-.
-lazyHiddenWindow
-"
-true
-)
-;
-pref
-(
-"
 geckoview
 .
 console
