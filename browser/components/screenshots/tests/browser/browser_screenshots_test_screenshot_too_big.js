@@ -291,7 +291,7 @@ MAX_CAPTURE_DIMENSION
 The
 width
 is
-32767
+32766
 "
 )
 ;
@@ -314,7 +314,7 @@ height
 is
 124925329
 /
-32767
+32766
 "
 )
 ;
@@ -354,7 +354,7 @@ max
 capture
 dimension
 (
-32767
+32766
 )
 .
 "
@@ -396,7 +396,7 @@ max
 capture
 dimension
 (
-32767
+32766
 )
 .
 "
