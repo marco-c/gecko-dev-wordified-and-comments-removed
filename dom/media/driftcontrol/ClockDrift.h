@@ -14,6 +14,13 @@ include
 <
 cstdint
 >
+#
+include
+"
+MediaSegment
+.
+h
+"
 namespace
 mozilla
 {
@@ -81,6 +88,10 @@ aRemainingFrames
 public
 :
 const
+uint8_t
+mPlotId
+;
+const
 uint32_t
 mSourceRate
 ;
@@ -119,6 +130,11 @@ mSourceClock
 ;
 uint32_t
 mTargetClock
+=
+0
+;
+TrackTime
+mTotalTargetClock
 =
 0
 ;
