@@ -777,6 +777,10 @@ default
 ;
 public
 :
+IMPL_EVENT_HANDLER
+(
+dequeue
+)
 CodecState
 State
 (
