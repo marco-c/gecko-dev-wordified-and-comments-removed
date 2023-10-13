@@ -344,6 +344,13 @@ dir
 )
 ;
 }
+gfxMacPlatformFontList
+:
+:
+GetSystemFontName
+(
+)
+;
 }
 PRThread
 *
