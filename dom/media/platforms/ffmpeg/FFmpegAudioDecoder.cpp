@@ -2907,7 +2907,7 @@ codecs
 )
 {
 return
-AV_CODEC_ID_PCM_MULAW
+AV_CODEC_ID_PCM_ALAW
 ;
 }
 if
