@@ -851,8 +851,6 @@ nsIInterceptionInfo
 aInterceptionInfo
 bool
 aHasInjectedCookieForCookieBannerHandling
-bool
-aWasSchemelessInput
 )
 ;
 LoadInfo
@@ -1463,11 +1461,6 @@ mInterceptionInfo
 ;
 bool
 mHasInjectedCookieForCookieBannerHandling
-=
-false
-;
-bool
-mWasSchemelessInput
 =
 false
 ;

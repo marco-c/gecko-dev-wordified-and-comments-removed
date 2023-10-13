@@ -1403,11 +1403,6 @@ nsIInputStream
 aNewPostData
 =
 nullptr
-bool
-*
-outWasSchemelessInput
-=
-nullptr
 )
 ;
 static

@@ -10418,7 +10418,6 @@ insertTab
 true
 globalHistoryOptions
 triggeringRemoteType
-wasSchemelessInput
 }
 =
 {
@@ -10978,7 +10977,6 @@ postData
 csp
 globalHistoryOptions
 triggeringRemoteType
-wasSchemelessInput
 }
 )
 ;
@@ -11709,7 +11707,6 @@ postData
 csp
 globalHistoryOptions
 triggeringRemoteType
-wasSchemelessInput
 }
 )
 {
@@ -11896,7 +11893,6 @@ postData
 csp
 globalHistoryOptions
 triggeringRemoteType
-wasSchemelessInput
 }
 )
 ;

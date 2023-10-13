@@ -866,9 +866,6 @@ bool
 IsFromProcessingFrameAttributes
 ;
 bool
-WasSchemelessInput
-;
-bool
 ChannelInitialized
 ;
 bool
