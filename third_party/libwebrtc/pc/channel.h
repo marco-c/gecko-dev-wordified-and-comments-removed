@@ -1993,6 +1993,11 @@ MEDIA_TYPE_AUDIO
 private
 :
 void
+InitCallback
+(
+)
+;
+void
 UpdateMediaSendRecvState_w
 (
 )
