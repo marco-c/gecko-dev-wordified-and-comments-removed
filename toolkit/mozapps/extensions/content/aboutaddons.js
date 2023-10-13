@@ -1487,7 +1487,7 @@ version
 type
 :
 "
-warning
+error
 "
 }
 ;

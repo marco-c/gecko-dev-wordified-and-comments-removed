@@ -1074,7 +1074,7 @@ appVersion
 type
 :
 "
-warning
+error
 "
 }
 )
