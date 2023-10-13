@@ -1228,7 +1228,7 @@ else
             
 logger
 .
-warn
+warning
 (
                 
 '
@@ -1362,7 +1362,7 @@ else
         
 logger
 .
-warn
+warning
 (
             
 '
