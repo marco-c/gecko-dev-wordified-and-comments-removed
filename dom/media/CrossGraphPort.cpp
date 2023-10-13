@@ -632,14 +632,6 @@ Transmitter
 %
 p
 )
-mSegment
-:
-duration
-:
-%
-"
-PRId64
-"
 from
 %
 "
@@ -657,12 +649,6 @@ PRId64
 "
 "
 this
-mSegment
--
->
-GetDuration
-(
-)
 aFrom
 aTo
 aTo
