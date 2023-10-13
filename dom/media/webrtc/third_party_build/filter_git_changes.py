@@ -250,10 +250,25 @@ regex_excludes
 .
 join
 (
+        
 [
 "
 ^
-.
+(
+M
+|
+A
+|
+D
+|
+R
+\
+d
+\
+d
+\
+d
+)
 \
 t
 {
@@ -269,6 +284,7 @@ i
 in
 exclude_dir_list
 ]
+    
 )
     
 files_not_excluded
