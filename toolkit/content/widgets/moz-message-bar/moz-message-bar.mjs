@@ -438,7 +438,10 @@ super
 (
 )
 ;
+window
+.
 MozXULElement
+?
 .
 insertFTLIfNeeded
 (
