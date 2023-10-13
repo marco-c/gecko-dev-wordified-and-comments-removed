@@ -868,6 +868,8 @@ kind
 enum
 class
 CacheOp
+:
+uint16_t
 {
 #
 define
@@ -886,6 +888,7 @@ DEFINE_OP
 #
 undef
 DEFINE_OP
+NumOpcodes
 }
 ;
 struct
