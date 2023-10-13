@@ -1210,15 +1210,6 @@ H264Encoder
 :
 Create
 (
-cricket
-:
-:
-VideoCodec
-(
-"
-H264
-"
-)
 )
 ;
 }

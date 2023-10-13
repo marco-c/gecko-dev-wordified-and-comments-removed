@@ -557,15 +557,6 @@ H264Encoder
 :
 Create
 (
-cricket
-:
-:
-VideoCodec
-(
-"
-H264
-"
-)
 )
 ;
 RTC_DCHECK_NOTREACHED
