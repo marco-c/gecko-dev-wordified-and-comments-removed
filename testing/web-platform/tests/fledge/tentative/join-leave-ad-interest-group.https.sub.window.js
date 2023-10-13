@@ -2211,8 +2211,9 @@ testCase
 )
 ;
 }
-promise_test
+subsetTest
 (
+promise_test
 (
 async
 (
@@ -2395,8 +2396,9 @@ test_name
 )
 ;
 }
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2523,8 +2525,9 @@ group
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2613,8 +2616,9 @@ group
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2648,8 +2652,9 @@ joined
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2698,8 +2703,9 @@ duration
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2750,8 +2756,9 @@ of
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2827,8 +2834,9 @@ duration
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =

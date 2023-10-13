@@ -139,8 +139,9 @@ expectPromiseError
 =
 >
 {
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
