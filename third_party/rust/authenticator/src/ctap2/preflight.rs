@@ -70,7 +70,7 @@ server
 :
 {
 PublicKeyCredentialDescriptor
-RelyingPartyWrapper
+RelyingParty
 }
 ;
 use
@@ -167,7 +167,7 @@ rp
 &
 '
 assertion
-RelyingPartyWrapper
+RelyingParty
 }
 impl
 <
@@ -330,9 +330,19 @@ apdu
 }
 fn
 handle_response_ctap1
+<
+Dev
+:
+FidoDevice
+>
 (
 &
 self
+_dev
+:
+&
+mut
+Dev
 status
 :
 Result
@@ -476,7 +486,7 @@ PublicKeyCredentialDescriptor
 rp
 :
 &
-RelyingPartyWrapper
+RelyingParty
 client_data_hash
 :
 &
@@ -608,7 +618,7 @@ PublicKeyCredentialDescriptor
 rp
 :
 &
-RelyingPartyWrapper
+RelyingParty
 pin_uv_auth_token
 :
 Option
@@ -920,7 +930,7 @@ PublicKeyCredentialDescriptor
 rp
 :
 &
-RelyingPartyWrapper
+RelyingParty
 client_data_hash
 :
 &

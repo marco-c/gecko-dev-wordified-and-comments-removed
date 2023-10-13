@@ -155,7 +155,7 @@ webauthnService
 addVirtualAuthenticator
 (
 "
-ctap2
+ctap2_1
 "
 "
 internal
