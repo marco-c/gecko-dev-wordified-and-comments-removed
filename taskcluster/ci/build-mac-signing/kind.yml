@@ -149,6 +149,12 @@ opt
 macosx64
 /
 debug
+-
+macosx64
+-
+aarch64
+/
+debug
 jobs
 :
 build
