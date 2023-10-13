@@ -3340,10 +3340,15 @@ mozfile
 .
 copy_contents
 (
+                        
 tardir
 tmpextractdir
 .
 name
+ignore_dangling_symlinks
+=
+True
+                    
 )
                     
 mozfile
