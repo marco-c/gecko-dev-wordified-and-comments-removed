@@ -781,8 +781,6 @@ this
 descriptionLink
 )
 }
-/
->
 <
 /
 p
