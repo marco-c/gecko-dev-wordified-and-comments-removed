@@ -154,6 +154,13 @@ uint32_t
 aOutFrames
 )
 ;
+void
+SetPreBufferFrames
+(
+uint32_t
+aPreBufferFrames
+)
+;
 bool
 Resample
 (
@@ -1008,10 +1015,6 @@ const
 uint32_t
 mInRate
 ;
-const
-uint32_t
-mPreBufferFrames
-;
 private
 :
 bool
@@ -1023,6 +1026,9 @@ bool
 mIsWarmingUp
 =
 false
+;
+uint32_t
+mPreBufferFrames
 ;
 uint32_t
 mSetBufferSizeInFrames

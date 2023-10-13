@@ -213,12 +213,6 @@ targetRate
 =
 48000
 ;
-const
-uint32_t
-bufferingMs
-=
-50
-;
 auto
 listener
 =
@@ -304,7 +298,6 @@ true
 testPrincipal
 sourceRate
 targetRate
-bufferingMs
 )
 ;
 ASSERT_TRUE
@@ -664,12 +657,6 @@ targetRate
 48000
 ;
 const
-uint32_t
-bufferingMs
-=
-50
-;
-const
 TrackTime
 requestFrames
 =
@@ -757,7 +744,6 @@ true
 testPrincipal
 sourceRate
 targetRate
-bufferingMs
 )
 ;
 ASSERT_TRUE
@@ -960,7 +946,6 @@ driftCorrector
 (
 sourceRate
 targetRate
-bufferingMs
 testPrincipal
 )
 ;
@@ -1159,12 +1144,6 @@ targetRate
 =
 48000
 ;
-const
-uint32_t
-bufferingMs
-=
-50
-;
 auto
 listener
 =
@@ -1265,7 +1244,6 @@ true
 testPrincipal
 sourceRate
 targetRate
-bufferingMs
 )
 ;
 ASSERT_TRUE
@@ -1489,12 +1467,6 @@ targetRate
 =
 48000
 ;
-const
-uint32_t
-bufferingMs
-=
-50
-;
 auto
 listener
 =
@@ -1585,7 +1557,6 @@ true
 testPrincipal
 sourceRate
 targetRate
-bufferingMs
 )
 ;
 ASSERT_TRUE

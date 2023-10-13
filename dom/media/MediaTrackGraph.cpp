@@ -3973,12 +3973,6 @@ mSampleRate
 GraphRate
 (
 )
-StaticPrefs
-:
-:
-media_clockdrift_buffering
-(
-)
 )
 )
 ;
@@ -5710,12 +5704,6 @@ nonNative
 >
 mSampleRate
 GraphRate
-(
-)
-StaticPrefs
-:
-:
-media_clockdrift_buffering
 (
 )
 )
