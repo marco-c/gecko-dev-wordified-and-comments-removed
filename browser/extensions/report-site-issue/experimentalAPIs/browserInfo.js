@@ -410,6 +410,15 @@ resistFingerprinting
 "
 :
 false
+"
+privacy
+.
+globalprivacycontrol
+.
+enabled
+"
+:
+false
 }
 )
 )
