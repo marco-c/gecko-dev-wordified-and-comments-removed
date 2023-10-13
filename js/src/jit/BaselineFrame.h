@@ -520,6 +520,9 @@ slot
 )
 const
 {
+#
+ifndef
+ENABLE_PORTABLE_BASELINE_INTERP
 MOZ_ASSERT
 (
 slot
@@ -529,6 +532,8 @@ debugNumValueSlots
 )
 )
 ;
+#
+endif
 return
 (
 Value

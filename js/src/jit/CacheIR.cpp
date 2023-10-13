@@ -34953,6 +34953,14 @@ InlinableNative
 native
 )
 {
+#
+ifdef
+ENABLE_PORTABLE_BASELINE_INTERP
+return
+nullptr
+;
+#
+else
 if
 (
 !
@@ -35201,6 +35209,8 @@ nullptr
 return
 code
 ;
+#
+endif
 }
 static
 void
