@@ -2856,7 +2856,7 @@ SetPriorityClass
 GetCurrentProcess
 (
 )
-PROCESS_MODE_BACKGROUND_BEGIN
+BELOW_NORMAL_PRIORITY_CLASS
 )
 ;
 #
