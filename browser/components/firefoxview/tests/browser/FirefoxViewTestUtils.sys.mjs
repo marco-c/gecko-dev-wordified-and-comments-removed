@@ -522,6 +522,15 @@ closeFirefoxViewTab
 win
 )
 {
+if
+(
+win
+.
+FirefoxViewHandler
+.
+tab
+)
+{
 win
 .
 gBrowser
@@ -535,6 +544,7 @@ FirefoxViewHandler
 tab
 )
 ;
+}
 Assert
 .
 ok
