@@ -365,11 +365,11 @@ delete
 ssim_array_
 ;
 }
-virtual
 void
 TearDown
 (
 )
+override
 {
 libvpx_test
 :
@@ -397,11 +397,11 @@ kDataBufferSize
 *
 480
 ;
-virtual
 void
 SetUp
 (
 )
+override
 {
 source_stride_
 =

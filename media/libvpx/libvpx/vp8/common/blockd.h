@@ -686,7 +686,7 @@ update_mb_segmentation_data
 ;
 unsigned
 char
-mb_segement_abs_delta
+mb_segment_abs_delta
 ;
 vp8_prob
 mb_segment_tree_probs

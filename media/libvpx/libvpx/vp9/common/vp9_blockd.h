@@ -183,7 +183,7 @@ b_mode_info
 ;
 #
 define
-NONE
+NO_REF_FRAME
 (
 -
 1

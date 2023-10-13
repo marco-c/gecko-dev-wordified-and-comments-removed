@@ -228,7 +228,7 @@ second_pred
 \
 DECLARE_ALIGNED
 (
-16
+32
 uint8_t
 comp_pred
 [

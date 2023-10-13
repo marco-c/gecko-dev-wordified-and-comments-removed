@@ -210,11 +210,11 @@ nullptr
 )
 {
 }
-virtual
 ~
 InvalidFileTest
 (
 )
+override
 {
 if
 (
@@ -272,7 +272,6 @@ Filename
 res_file_name_
 ;
 }
-virtual
 bool
 HandleDecodeResult
 (
@@ -293,6 +292,7 @@ Decoder
 *
 decoder
 )
+override
 {
 EXPECT_NE
 (
@@ -1209,7 +1209,6 @@ InvalidFileTest
 )
 {
 }
-virtual
 void
 HandlePeekResult
 (
@@ -1227,6 +1226,7 @@ CompressedVideoSource
 const
 vpx_codec_err_t
 )
+override
 {
 }
 }

@@ -245,11 +245,11 @@ kNumVP9TestVectorsResize
 #
 endif
 }
-virtual
 ~
 TestVectorTest
 (
 )
+override
 {
 if
 (
@@ -307,7 +307,6 @@ md5_file_name_
 #
 if
 CONFIG_VP9_DECODER
-virtual
 void
 PreDecodeFrameHook
 (
@@ -325,6 +324,7 @@ Decoder
 *
 decoder
 )
+override
 {
 if
 (
@@ -424,7 +424,6 @@ VP9D_SET_ROW_MT
 }
 #
 endif
-virtual
 void
 DecompressedFrameHook
 (
@@ -437,6 +436,7 @@ unsigned
 int
 frame_number
 )
+override
 {
 ASSERT_NE
 (

@@ -127,11 +127,11 @@ MinMaxFunc
 {
 public
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 mm_func_
 =

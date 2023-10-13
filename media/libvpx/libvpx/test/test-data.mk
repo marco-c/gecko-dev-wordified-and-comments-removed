@@ -282,6 +282,16 @@ CONFIG_VP9_ENCODER
 bus_352x288_420_f20_b8
 .
 yuv
+LIBVPX_TEST_DATA
+-
+(
+CONFIG_VP9_ENCODER
+)
++
+=
+crowd_run_360p_10_150f
+.
+y4m
 #
 Test
 vectors

@@ -59,6 +59,15 @@ vp8cx
 h
 "
 #
+include
+"
+vpx
+/
+vpx_tpl
+.
+h
+"
+#
 if
 CONFIG_INTERNAL_STATS
 #
@@ -1036,6 +1045,9 @@ row_mt_sync
 int
 *
 row_base_thresh_freq_fact
+;
+MV
+firstpass_top_mv
 ;
 }
 TileDataEnc
@@ -3296,7 +3308,7 @@ ref_frame
 0
 ]
 =
-NONE
+NO_REF_FRAME
 ;
 mv_info
 -
@@ -3306,7 +3318,7 @@ ref_frame
 1
 ]
 =
-NONE
+NO_REF_FRAME
 ;
 mv_info
 -

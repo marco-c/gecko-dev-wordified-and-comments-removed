@@ -221,11 +221,11 @@ reference_data_
 nullptr
 ;
 }
-virtual
 void
 TearDown
 (
 )
+override
 {
 libvpx_test
 :
@@ -253,11 +253,11 @@ kDataBufferSize
 *
 480
 ;
-virtual
 void
 SetUp
 (
 )
+override
 {
 source_stride_
 =
