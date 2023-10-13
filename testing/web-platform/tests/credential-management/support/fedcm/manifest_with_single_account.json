@@ -26,4 +26,13 @@ token_with_account_id
 .
 py
 "
+"
+signin_url
+"
+:
+"
+signin
+.
+html
+"
 }

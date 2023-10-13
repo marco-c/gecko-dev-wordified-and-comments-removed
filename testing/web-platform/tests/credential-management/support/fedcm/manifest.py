@@ -113,6 +113,16 @@ revoke
 .
 py
 "
+  
+"
+signin_url
+"
+:
+"
+signin
+.
+html
+"
 }
 "
 "
