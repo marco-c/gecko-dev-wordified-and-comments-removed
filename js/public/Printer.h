@@ -602,6 +602,9 @@ length
 void
 putString
 (
+JSContext
+*
+cx
 JSString
 *
 str

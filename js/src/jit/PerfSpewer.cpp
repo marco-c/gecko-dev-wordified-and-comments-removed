@@ -2653,6 +2653,9 @@ static
 void
 PrintStackValue
 (
+JSContext
+*
+cx
 StackValue
 *
 stackVal
@@ -2771,6 +2774,7 @@ buf
 .
 putString
 (
+cx
 constantVal
 .
 toString
@@ -3216,6 +3220,7 @@ buf
 .
 putString
 (
+cx
 name
 )
 ;
@@ -3270,6 +3275,7 @@ i
 ;
 PrintStackValue
 (
+cx
 stackVal
 frame
 buf
