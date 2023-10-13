@@ -1780,7 +1780,7 @@ gtest_tests
 '
 :
 '
-android_perf_tests
+perf_tests
 '
 }
 }
@@ -1845,7 +1845,7 @@ gtest_tests
 '
 :
 '
-android_perf_tests
+perf_tests
 '
 }
 }
@@ -1910,7 +1910,7 @@ gtest_tests
 '
 :
 '
-android_perf_tests
+perf_tests
 '
 }
 }
@@ -1975,7 +1975,7 @@ gtest_tests
 '
 :
 '
-android_perf_tests
+perf_tests
 '
 }
 }
@@ -2051,7 +2051,7 @@ isolated_scripts
 '
 :
 '
-webrtc_perf_tests
+perf_tests
 '
 }
 }
@@ -2109,7 +2109,7 @@ isolated_scripts
 '
 :
 '
-desktop_perf_tests
+perf_tests
 '
 }
 }
@@ -2170,7 +2170,7 @@ isolated_scripts
 '
 :
 '
-desktop_perf_tests
+perf_tests
 '
 }
 }
@@ -2235,7 +2235,7 @@ isolated_scripts
 '
 :
 '
-webrtc_perf_tests
+perf_tests
 '
 }
 }
@@ -2293,7 +2293,7 @@ isolated_scripts
 '
 :
 '
-desktop_perf_tests
+perf_tests
 '
 }
 }
@@ -2443,7 +2443,7 @@ isolated_scripts
 '
 :
 '
-webrtc_perf_tests
+perf_tests
 '
 }
 '
