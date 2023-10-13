@@ -338,6 +338,11 @@ L10nRegistry
 webidl
 "
 "
+LoadURIOptions
+.
+webidl
+"
+"
 MatchGlob
 .
 webidl
