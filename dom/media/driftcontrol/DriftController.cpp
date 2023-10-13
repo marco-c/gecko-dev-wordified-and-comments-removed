@@ -592,6 +592,14 @@ mTargetRate
 .
 0f
 ;
+const
+float
+integralCap
+=
+cap
+/
+kIntegralGain
+;
 int32_t
 error
 =
@@ -629,6 +637,11 @@ mTargetRate
 float
 integralStep
 =
+std
+:
+:
+clamp
+(
 static_cast
 <
 float
@@ -638,6 +651,10 @@ error
 )
 *
 targetClockSec
+-
+integralCap
+integralCap
+)
 ;
 mIntegral
 +
