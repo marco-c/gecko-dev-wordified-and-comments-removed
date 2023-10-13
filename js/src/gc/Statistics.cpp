@@ -10136,7 +10136,6 @@ _1
 text
 _2
 )
-\
 sprinter
 .
 printf

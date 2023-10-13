@@ -5122,7 +5122,6 @@ PRINT_PROFILE_NAME
 _1
 text
 )
-\
 sprinter
 .
 printf
