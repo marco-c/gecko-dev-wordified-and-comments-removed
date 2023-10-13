@@ -387,9 +387,9 @@ absl
 :
 optional
 <
-int64_t
+Timestamp
 >
-last_packet_received_timestamp_ms
+last_packet_received
 ;
 uint64_t
 jitter_buffer_flushes

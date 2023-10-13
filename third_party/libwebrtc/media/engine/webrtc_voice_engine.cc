@@ -14080,11 +14080,11 @@ capture_start_ntp_time_ms
 ;
 rinfo
 .
-last_packet_received_timestamp_ms
+last_packet_received
 =
 stats
 .
-last_packet_received_timestamp_ms
+last_packet_received
 ;
 rinfo
 .

@@ -20735,13 +20735,13 @@ frames_assembled_from_multiple_packets
 ;
 info
 .
-last_packet_received_timestamp_ms
+last_packet_received
 =
 stats
 .
 rtp_stats
 .
-last_packet_received_timestamp_ms
+last_packet_received
 ;
 info
 .

@@ -1479,11 +1479,11 @@ capture_start_ntp_time_ms_
 ;
 stats
 .
-last_packet_received_timestamp_ms
+last_packet_received
 =
 call_stats
 .
-last_packet_received_timestamp_ms
+last_packet_received
 ;
 stats
 .
