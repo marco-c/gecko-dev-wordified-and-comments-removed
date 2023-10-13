@@ -3539,7 +3539,7 @@ append
 '
 *
 %
-s_vesion
+s_version
 :
 %
 s
