@@ -11,17 +11,6 @@ mozilla
 /
 dom
 /
-U2FTokenTransport
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 PWebAuthnTransaction
 .
 h
