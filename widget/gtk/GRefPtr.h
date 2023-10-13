@@ -172,6 +172,10 @@ GOBJECT_TRAITS
 (
 GtkCssProvider
 )
+GOBJECT_TRAITS
+(
+GDBusMethodInvocation
+)
 #
 undef
 GOBJECT_TRAITS
