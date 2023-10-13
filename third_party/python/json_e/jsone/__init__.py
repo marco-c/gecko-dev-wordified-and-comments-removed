@@ -11,6 +11,7 @@ from
 render
 import
 renderValue
+containsFunctions
 from
 .
 shared
@@ -57,6 +58,28 @@ template
 context
 )
 :
+    
+if
+type
+(
+context
+)
+!
+=
+dict
+:
+        
+raise
+TemplateError
+(
+"
+context
+must
+be
+a
+dictionary
+"
+)
     
 if
 not
@@ -136,7 +159,6 @@ builtins
 .
 build
 (
-full_context
 )
 )
     
@@ -163,6 +185,25 @@ DeleteMarker
         
 return
 None
+    
+if
+containsFunctions
+(
+rv
+)
+:
+        
+raise
+TemplateError
+(
+'
+evaluated
+template
+contained
+uncalled
+functions
+'
+)
     
 return
 rv

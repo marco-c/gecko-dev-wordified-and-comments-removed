@@ -297,9 +297,7 @@ third_party
 /
 python
 /
-json
--
-e
+json_e
 vendored
 :
 third_party
