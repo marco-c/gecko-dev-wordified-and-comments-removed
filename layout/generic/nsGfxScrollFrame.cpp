@@ -20232,6 +20232,16 @@ GetParentPresContext
 (
 )
 )
+&
+&
+!
+DisplayPortUtils
+:
+:
+WillUseEmptyDisplayPortMargins
+(
+content
+)
 )
 {
 displayportBase
