@@ -558,15 +558,3 @@ enabled
 false
 )
 ;
-user_pref
-(
-"
-mousewheel
-.
-transaction
-.
-timeout
-"
-0
-)
-;
