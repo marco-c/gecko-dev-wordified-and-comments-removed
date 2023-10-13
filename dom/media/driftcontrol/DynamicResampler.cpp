@@ -146,17 +146,6 @@ mSampleFormat
 )
 ;
 }
-if
-(
-mPreBufferFrames
-)
-{
-AppendInputSilence
-(
-mPreBufferFrames
-)
-;
-}
 }
 bool
 DynamicResampler

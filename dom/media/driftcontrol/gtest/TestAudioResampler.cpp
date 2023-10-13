@@ -361,6 +361,10 @@ AppendInput
 inSegment
 )
 ;
+out_frames
+=
+20u
+;
 AudioSegment
 s
 =
@@ -378,7 +382,7 @@ s
 GetDuration
 (
 )
-40
+20
 )
 ;
 EXPECT_EQ
@@ -717,6 +721,10 @@ AppendInput
 inSegment
 )
 ;
+out_frames
+=
+20u
+;
 AudioSegment
 s
 =
@@ -734,7 +742,7 @@ s
 GetDuration
 (
 )
-40
+20
 )
 ;
 EXPECT_EQ

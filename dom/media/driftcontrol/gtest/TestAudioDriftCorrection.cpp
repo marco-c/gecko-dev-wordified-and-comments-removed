@@ -528,6 +528,14 @@ aTargetRate
 50
 /
 1000U
+-
+aTargetRate
+*
+102
+/
+100
+/
+100
 )
 ;
 EXPECT_EQ
