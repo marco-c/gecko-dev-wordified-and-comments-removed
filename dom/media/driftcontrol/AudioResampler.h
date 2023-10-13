@@ -74,6 +74,9 @@ Resample
 (
 uint32_t
 aOutFrames
+bool
+*
+aHasUnderrun
 )
 ;
 void
