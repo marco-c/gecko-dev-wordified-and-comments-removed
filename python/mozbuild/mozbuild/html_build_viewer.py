@@ -225,6 +225,34 @@ utf
             
 self
 .
+send_header
+(
+                
+"
+Access
+-
+Control
+-
+Allow
+-
+Origin
+"
+"
+https
+:
+/
+/
+profiler
+.
+firefox
+.
+com
+"
+            
+)
+            
+self
+.
 end_headers
 (
 )
@@ -242,6 +270,16 @@ json_files
 key
 ]
 )
+            
+self
+.
+server
+.
+wrapper
+.
+do_shutdown
+=
+True
             
 return
         
