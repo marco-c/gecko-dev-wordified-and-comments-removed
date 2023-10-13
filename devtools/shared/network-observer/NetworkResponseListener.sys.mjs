@@ -1777,6 +1777,12 @@ contentEncodings
 channel
 .
 applyConversion
+&
+&
+!
+channel
+.
+hasContentDecompressed
 )
 {
 const
