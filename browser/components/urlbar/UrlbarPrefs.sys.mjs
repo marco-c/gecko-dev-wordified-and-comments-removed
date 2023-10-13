@@ -3929,11 +3929,6 @@ NIMBUS_DEFAULTS
 addonsShowLessFrequentlyCap
 :
 0
-addonsUITreatment
-:
-"
-b
-"
 experimentType
 :
 "
