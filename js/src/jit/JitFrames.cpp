@@ -3570,6 +3570,14 @@ get
 #
 ifdef
 DEBUG
+if
+(
+!
+IsPortableBaselineInterpreterEnabled
+(
+)
+)
+{
 cx
 -
 >
@@ -3587,6 +3595,7 @@ clearDisallowArbitraryCode
 (
 )
 ;
+}
 cx
 -
 >
@@ -3607,6 +3616,14 @@ MakeScopeExit
 [
 =
 ]
+{
+if
+(
+!
+IsPortableBaselineInterpreterEnabled
+(
+)
+)
 {
 if
 (
@@ -3637,6 +3654,7 @@ runtime
 {
 return
 ;
+}
 }
 MOZ_ASSERT
 (
