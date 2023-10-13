@@ -396,7 +396,7 @@ stars
 role
 =
 "
-image
+img
 "
 data
 -
@@ -411,7 +411,7 @@ this
 .
 title
 ?
-null
+undefined
 :
 "
 moz
@@ -437,7 +437,7 @@ this
 .
 title
 ?
-null
+undefined
 :
 JSON
 .
