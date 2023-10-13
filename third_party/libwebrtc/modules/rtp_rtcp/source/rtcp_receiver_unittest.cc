@@ -741,9 +741,14 @@ MOCK_METHOD
 void
 OnReceivedRtcpReportBlocks
 (
+rtc
+:
+:
+ArrayView
+<
 const
-ReportBlockList
-&
+ReportBlockData
+>
 )
 (
 override
