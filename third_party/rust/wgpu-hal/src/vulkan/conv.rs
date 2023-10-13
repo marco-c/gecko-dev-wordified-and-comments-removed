@@ -344,6 +344,16 @@ R8G8B8A8_SINT
 Tf
 :
 :
+Rgb10a2Uint
+=
+>
+F
+:
+:
+A2B10G10R10_UINT_PACK32
+Tf
+:
+:
 Rgb10a2Unorm
 =
 >

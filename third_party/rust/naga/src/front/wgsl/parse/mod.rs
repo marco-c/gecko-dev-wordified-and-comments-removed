@@ -70,7 +70,7 @@ crate
 :
 {
 Arena
-FastHashSet
+FastIndexSet
 Handle
 ShaderStage
 Span
@@ -176,7 +176,7 @@ unresolved
 '
 out
 mut
-FastHashSet
+FastIndexSet
 <
 ast
 :
@@ -14301,7 +14301,7 @@ dependencies
 :
 &
 mut
-FastHashSet
+FastIndexSet
 <
 ast
 :
@@ -15487,7 +15487,7 @@ let
 mut
 dependencies
 =
-FastHashSet
+FastIndexSet
 :
 :
 default

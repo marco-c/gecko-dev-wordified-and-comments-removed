@@ -3990,9 +3990,7 @@ expr
 ShaderStages
 :
 :
-all
-(
-)
+FRAGMENT
 }
 crate
 :

@@ -2125,6 +2125,11 @@ DeviceError
 :
 :
 Invalid
+|
+DeviceError
+:
+:
+WrongDevice
 =
 >
 ErrorBufferType

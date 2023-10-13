@@ -2355,6 +2355,15 @@ Sf
 :
 Rgba16Unorm
 "
+rgb10_a2ui
+"
+=
+>
+Sf
+:
+:
+Rgb10a2Uint
+"
 rgb10_a2
 "
 =

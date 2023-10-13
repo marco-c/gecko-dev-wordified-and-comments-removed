@@ -826,6 +826,15 @@ Sf
 :
 Rgba8Sint
 "
+rgb10a2uint
+"
+=
+>
+Sf
+:
+:
+Rgb10a2Uint
+"
 rgb10a2unorm
 "
 =

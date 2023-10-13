@@ -325,6 +325,16 @@ Sint
 Sf
 :
 :
+Rgb10a2Uint
+=
+>
+Sk
+:
+:
+Uint
+Sf
+:
+:
 Rgb10a2Unorm
 =
 >

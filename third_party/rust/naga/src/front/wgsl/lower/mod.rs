@@ -111,15 +111,10 @@ crate
 {
 Arena
 FastHashMap
+FastIndexMap
 Handle
 Span
 }
-;
-use
-indexmap
-:
-:
-IndexMap
 ;
 mod
 construction
@@ -486,7 +481,7 @@ named_expressions
 '
 out
 mut
-IndexMap
+FastIndexMap
 <
 Handle
 <
@@ -921,7 +916,6 @@ local_table
 &
 '
 temp
-mut
 FastHashMap
 <
 Handle
@@ -4817,7 +4811,7 @@ let
 mut
 named_expressions
 =
-IndexMap
+FastIndexMap
 :
 :
 default

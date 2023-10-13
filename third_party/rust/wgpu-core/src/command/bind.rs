@@ -205,7 +205,9 @@ bind_group_layouts
 id
 ]
 .
-compatible_layout
+as_duplicate
+(
+)
 =
 =
 self

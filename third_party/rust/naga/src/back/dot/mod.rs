@@ -42,6 +42,7 @@ _
 [
 derive
 (
+Clone
 Default
 )
 ]

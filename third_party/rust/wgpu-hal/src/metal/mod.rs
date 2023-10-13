@@ -1011,10 +1011,7 @@ bool
 format_rgb10a2_unorm_no_write
 :
 bool
-format_rgb10a2_uint_color
-:
-bool
-format_rgb10a2_uint_color_write
+format_rgb10a2_uint_write
 :
 bool
 format_rg11b10_all

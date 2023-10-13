@@ -988,6 +988,11 @@ Self
 :
 :
 Rgba32Uint
+|
+Self
+:
+:
+Rgb10a2Uint
 =
 >
 "

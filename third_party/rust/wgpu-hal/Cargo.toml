@@ -109,7 +109,7 @@ version
 "
 1
 .
-60
+65
 "
 name
 =
@@ -414,7 +414,7 @@ naga
 rev
 =
 "
-df8107b7
+6668d0694cc51ee66c71c2ca3a1ab1081956299b
 "
 features
 =
@@ -522,7 +522,7 @@ naga
 rev
 =
 "
-df8107b7
+6668d0694cc51ee66c71c2ca3a1ab1081956299b
 "
 features
 =
@@ -1560,16 +1560,13 @@ version
 "
 0
 .
-22
+23
 "
 features
 =
 [
 "
 d3d12
-"
-"
-windows
 "
 "
 public
