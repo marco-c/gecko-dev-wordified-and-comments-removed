@@ -147,13 +147,6 @@ css
 ]
 [
 "
-browser_ext_urlbar_engagementTelemetry
-.
-js
-"
-]
-[
-"
 browser_ext_urlbar_extensionTimeout
 .
 js
