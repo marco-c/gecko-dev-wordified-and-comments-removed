@@ -7001,6 +7001,16 @@ true
 name
 :
 "
+UserActivation
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 UserProximityEvent
 "
 insecureContext
