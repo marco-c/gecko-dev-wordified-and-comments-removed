@@ -637,7 +637,7 @@ _load_kinds
 (
 self
 graph_config
-target_kind
+target_kinds
 =
 None
 )

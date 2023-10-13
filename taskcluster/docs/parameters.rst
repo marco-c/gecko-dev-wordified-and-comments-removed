@@ -1719,14 +1719,14 @@ configuration
 -
 target
 -
-kind
+kinds
 Generate
 only
 the
 given
-kind
+kinds
 and
-its
+their
 kind
 -
 dependencies
