@@ -19729,7 +19729,14 @@ jitter_buffer_delay_seconds
 =
 stats
 .
-jitter_buffer_delay_seconds
+jitter_buffer_delay
+.
+seconds
+<
+double
+>
+(
+)
 ;
 info
 .
