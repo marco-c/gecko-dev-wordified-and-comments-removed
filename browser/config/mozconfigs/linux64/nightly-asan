@@ -52,14 +52,6 @@ unix
 mozconfig
 .
 asan
-ac_add_options
--
--
-enable
--
-linker
-=
-lld
 #
 Enable
 ASan
