@@ -16732,6 +16732,12 @@ IDBCursorType
 :
 ObjectStore
 :
+[
+[
+fallthrough
+]
+]
+;
 case
 IDBCursorType
 :
@@ -16750,6 +16756,12 @@ IDBCursorType
 :
 Index
 :
+[
+[
+fallthrough
+]
+]
+;
 case
 IDBCursorType
 :
