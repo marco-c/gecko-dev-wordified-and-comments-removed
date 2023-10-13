@@ -37,6 +37,17 @@ vector
 #
 include
 "
+absl
+/
+types
+/
+optional
+.
+h
+"
+#
+include
+"
 api
 /
 function_view
@@ -715,7 +726,7 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-std
+absl
 :
 :
 optional
