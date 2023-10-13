@@ -69,6 +69,12 @@ CurrentBuffering
 const
 ;
 uint32_t
+BufferSize
+(
+)
+const
+;
+uint32_t
 NumCorrectionChanges
 (
 )

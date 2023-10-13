@@ -134,6 +134,12 @@ aInFrames
 )
 ;
 uint32_t
+InFramesBufferSize
+(
+)
+const
+;
+uint32_t
 InFramesBuffered
 (
 uint32_t

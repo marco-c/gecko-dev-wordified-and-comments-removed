@@ -58,6 +58,12 @@ aInSegment
 )
 ;
 uint32_t
+InputCapacityFrames
+(
+)
+const
+;
+uint32_t
 InputReadableFrames
 (
 )
