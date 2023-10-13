@@ -5036,13 +5036,6 @@ DOMDocElementInserted
 :
 {
 }
-ShoppingTelemetryEvent
-:
-{
-wantUntrusted
-:
-true
-}
 ReportProductAvailable
 :
 {
