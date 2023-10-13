@@ -859,13 +859,9 @@ return
 state
 expanded
 :
-new
-Set
-(
 action
 .
 expanded
-)
 }
 ;
 }
