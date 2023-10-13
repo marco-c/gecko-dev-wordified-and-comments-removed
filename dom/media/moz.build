@@ -182,6 +182,9 @@ autoplay
 doctor
 "
 "
+driftcontrol
+"
+"
 eme
 "
 "
@@ -675,11 +678,6 @@ AudioDeviceInfo
 h
 "
 "
-AudioDriftCorrection
-.
-h
-"
-"
 AudioMixer
 .
 h
@@ -776,11 +774,6 @@ h
 "
 "
 DriftCompensation
-.
-h
-"
-"
-DynamicResampler
 .
 h
 "
@@ -1366,11 +1359,6 @@ cpp
 "
 "
 DOMMediaStream
-.
-cpp
-"
-"
-DynamicResampler
 .
 cpp
 "

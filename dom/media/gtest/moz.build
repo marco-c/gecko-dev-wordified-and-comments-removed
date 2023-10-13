@@ -128,11 +128,6 @@ TestAudioDecoderInputTrack
 cpp
 "
 "
-TestAudioDriftCorrection
-.
-cpp
-"
-"
 TestAudioInputSource
 .
 cpp
@@ -214,11 +209,6 @@ cpp
 "
 "
 TestDriftCompensation
-.
-cpp
-"
-"
-TestDynamicResampler
 .
 cpp
 "
