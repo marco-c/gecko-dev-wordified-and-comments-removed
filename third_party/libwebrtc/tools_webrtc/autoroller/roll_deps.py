@@ -197,6 +197,16 @@ src
 /
 third_party
 /
+clang_format
+/
+script
+'
+    
+'
+src
+/
+third_party
+/
 gtest
 -
 parallel
