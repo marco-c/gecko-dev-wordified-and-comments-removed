@@ -2109,7 +2109,7 @@ isolated_scripts
 '
 :
 '
-perf_tests
+perf_tests_save_worst_frame
 '
 }
 }
@@ -2170,7 +2170,7 @@ isolated_scripts
 '
 :
 '
-perf_tests
+perf_tests_save_worst_frame
 '
 }
 }
@@ -2235,7 +2235,7 @@ isolated_scripts
 '
 :
 '
-perf_tests
+perf_tests_save_worst_frame
 '
 }
 }
@@ -2293,7 +2293,7 @@ isolated_scripts
 '
 :
 '
-perf_tests
+perf_tests_save_worst_frame
 '
 }
 }
@@ -2443,7 +2443,7 @@ isolated_scripts
 '
 :
 '
-perf_tests
+perf_tests_no_video_codec
 '
 }
 '
