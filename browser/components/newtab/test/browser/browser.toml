@@ -62,11 +62,6 @@ topstories
 json
 "
 "
-ds_layout
-.
-json
-"
-"
 file_pdf
 .
 PDF
@@ -848,13 +843,6 @@ js
 [
 "
 browser_discovery_render
-.
-js
-"
-]
-[
-"
-browser_discovery_styles
 .
 js
 "

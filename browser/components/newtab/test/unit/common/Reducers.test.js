@@ -7882,9 +7882,6 @@ layout
 test
 "
 ]
-lastUpdated
-:
-123
 }
 }
 )
@@ -7902,16 +7899,6 @@ layout
 "
 test
 "
-)
-;
-assert
-.
-equal
-(
-state
-.
-lastUpdated
-123
 )
 ;
 }

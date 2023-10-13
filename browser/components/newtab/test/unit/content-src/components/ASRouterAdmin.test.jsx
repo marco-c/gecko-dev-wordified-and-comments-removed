@@ -2114,10 +2114,6 @@ config
 enabled
 :
 true
-layout_endpoint
-:
-"
-"
 }
 layout
 :
@@ -2210,8 +2206,7 @@ text
 (
 )
 "
-Endpoint
-variant
+Layout
 "
 )
 ;
@@ -2485,10 +2480,6 @@ data
 enabled
 :
 true
-layout_endpoint
-:
-"
-"
 }
 }
 )

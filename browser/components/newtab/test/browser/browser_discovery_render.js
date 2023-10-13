@@ -40,9 +40,6 @@ true
 enabled
 :
 true
-hardcoded_layout
-:
-true
 }
 )
 ]
