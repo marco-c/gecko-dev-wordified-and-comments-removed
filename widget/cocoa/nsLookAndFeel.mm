@@ -1587,15 +1587,6 @@ Activecaption
 {
 if
 (
-aScheme
-=
-=
-ColorScheme
-:
-:
-Light
-&
-&
 NSWorkspace
 .
 sharedWorkspace
