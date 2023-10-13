@@ -2143,7 +2143,7 @@ view
 obj
 -
 >
-maybeUnwrapAs
+maybeUnwrapIf
 <
 ArrayBufferViewObject
 >
