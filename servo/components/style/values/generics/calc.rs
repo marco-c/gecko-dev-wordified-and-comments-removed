@@ -192,6 +192,7 @@ Dvw
 Em
 Ex
 Ic
+Lh
 Lvb
 Lvh
 Lvi
@@ -200,6 +201,7 @@ Lvmin
 Lvw
 Px
 Rem
+Rlh
 Sec
 Svb
 Svh

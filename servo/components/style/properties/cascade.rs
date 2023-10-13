@@ -3333,6 +3333,17 @@ PrioritaryPropertyId
 ForcedColorAdjust
 )
 ;
+self
+.
+apply_one_prioritary_property
+(
+data
+PrioritaryPropertyId
+:
+:
+LineHeight
+)
+;
 }
 fn
 apply_non_prioritary_properties
