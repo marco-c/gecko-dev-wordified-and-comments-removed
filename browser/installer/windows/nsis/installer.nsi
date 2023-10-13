@@ -569,9 +569,6 @@ insertmacro
 CopyPostSigningData
 !
 insertmacro
-CopyProvenanceData
-!
-insertmacro
 CreateRegKey
 !
 insertmacro
@@ -5027,9 +5024,7 @@ post
 -
 signing
 data
-and
-provenance
-data
+?
 StrCpy
 PostSigningData
 "
@@ -5113,9 +5108,6 @@ CopyPostSigningData
 }
 Pop
 PostSigningData
-{
-CopyProvenanceData
-}
 {
 EndIf
 }

@@ -1234,9 +1234,6 @@ insertmacro
 CopyPostSigningData
 !
 insertmacro
-CopyProvenanceData
-!
-insertmacro
 ElevateUAC
 !
 insertmacro
@@ -7263,9 +7260,6 @@ CopyPostSigningData
 }
 Pop
 PostSigningData
-{
-CopyProvenanceData
-}
 Call
 LaunchApp
 FunctionEnd
