@@ -1347,7 +1347,7 @@ ar
             
 "
 -
-DCMAKE_C_FLAGS
+DCMAKE_C_FLAGS_INIT
 =
 %
 s
@@ -1367,7 +1367,7 @@ cc
             
 "
 -
-DCMAKE_CXX_FLAGS
+DCMAKE_CXX_FLAGS_INIT
 =
 %
 s
@@ -1387,7 +1387,7 @@ cxx
             
 "
 -
-DCMAKE_ASM_FLAGS
+DCMAKE_ASM_FLAGS_INIT
 =
 %
 s
@@ -1407,7 +1407,7 @@ asm
             
 "
 -
-DCMAKE_EXE_LINKER_FLAGS
+DCMAKE_EXE_LINKER_FLAGS_INIT
 =
 %
 s
@@ -1423,7 +1423,7 @@ ldflags
             
 "
 -
-DCMAKE_SHARED_LINKER_FLAGS
+DCMAKE_SHARED_LINKER_FLAGS_INIT
 =
 %
 s
