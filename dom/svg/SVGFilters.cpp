@@ -843,7 +843,6 @@ nsGkAtoms
 :
 slope
 1
-false
 }
 {
 nsGkAtoms
@@ -851,7 +850,6 @@ nsGkAtoms
 :
 intercept
 0
-false
 }
 {
 nsGkAtoms
@@ -859,7 +857,6 @@ nsGkAtoms
 :
 amplitude
 1
-false
 }
 {
 nsGkAtoms
@@ -867,7 +864,6 @@ nsGkAtoms
 :
 exponent
 1
-false
 }
 {
 nsGkAtoms
@@ -875,7 +871,6 @@ nsGkAtoms
 :
 offset
 0
-false
 }
 }
 ;
@@ -1703,7 +1698,6 @@ nsGkAtoms
 :
 surfaceScale
 1
-false
 }
 {
 nsGkAtoms
@@ -1711,7 +1705,6 @@ nsGkAtoms
 :
 diffuseConstant
 1
-false
 }
 {
 nsGkAtoms
@@ -1719,7 +1712,6 @@ nsGkAtoms
 :
 specularConstant
 1
-false
 }
 {
 nsGkAtoms
@@ -1727,7 +1719,6 @@ nsGkAtoms
 :
 specularExponent
 1
-false
 }
 }
 ;

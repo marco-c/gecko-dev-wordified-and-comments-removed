@@ -111,7 +111,6 @@ nsGkAtoms
 :
 k1
 0
-false
 }
 {
 nsGkAtoms
@@ -119,7 +118,6 @@ nsGkAtoms
 :
 k2
 0
-false
 }
 {
 nsGkAtoms
@@ -127,7 +125,6 @@ nsGkAtoms
 :
 k3
 0
-false
 }
 {
 nsGkAtoms
@@ -135,7 +132,6 @@ nsGkAtoms
 :
 k4
 0
-false
 }
 }
 ;

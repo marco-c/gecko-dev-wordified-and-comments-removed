@@ -98,7 +98,6 @@ nsGkAtoms
 :
 x
 0
-false
 }
 {
 nsGkAtoms
@@ -106,7 +105,6 @@ nsGkAtoms
 :
 y
 0
-false
 }
 {
 nsGkAtoms
@@ -114,7 +112,6 @@ nsGkAtoms
 :
 z
 0
-false
 }
 {
 nsGkAtoms
@@ -122,7 +119,6 @@ nsGkAtoms
 :
 pointsAtX
 0
-false
 }
 {
 nsGkAtoms
@@ -130,7 +126,6 @@ nsGkAtoms
 :
 pointsAtY
 0
-false
 }
 {
 nsGkAtoms
@@ -138,7 +133,6 @@ nsGkAtoms
 :
 pointsAtZ
 0
-false
 }
 {
 nsGkAtoms
@@ -146,7 +140,6 @@ nsGkAtoms
 :
 specularExponent
 1
-false
 }
 {
 nsGkAtoms
@@ -154,7 +147,6 @@ nsGkAtoms
 :
 limitingConeAngle
 0
-false
 }
 }
 ;

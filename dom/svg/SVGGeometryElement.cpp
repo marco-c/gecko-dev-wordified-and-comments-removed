@@ -156,7 +156,6 @@ nsGkAtoms
 :
 pathLength
 0
-false
 }
 ;
 SVGGeometryElement

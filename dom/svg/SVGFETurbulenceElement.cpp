@@ -143,7 +143,6 @@ nsGkAtoms
 :
 seed
 0
-false
 }
 }
 ;

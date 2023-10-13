@@ -120,7 +120,6 @@ nsGkAtoms
 :
 scale
 0
-false
 }
 }
 ;
