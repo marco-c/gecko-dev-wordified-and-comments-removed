@@ -382,9 +382,9 @@ js
 /
 Import
 Prefs
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
