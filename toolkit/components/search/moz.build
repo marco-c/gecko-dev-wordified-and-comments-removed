@@ -91,6 +91,13 @@ sys
 mjs
 "
 "
+SearchEngineSelectorOld
+.
+sys
+.
+mjs
+"
+"
 SearchService
 .
 sys
