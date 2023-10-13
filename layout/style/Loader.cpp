@@ -7846,7 +7846,7 @@ BlocksLoadEvent
 )
 )
 {
-DecrementOngoingLoadCount
+DecrementOngoingLoadCountAndMaybeUnblockOnload
 (
 )
 ;

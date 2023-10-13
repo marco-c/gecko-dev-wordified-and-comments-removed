@@ -1493,7 +1493,7 @@ BlockOnload
 }
 }
 void
-DecrementOngoingLoadCount
+DecrementOngoingLoadCountAndMaybeUnblockOnload
 (
 )
 {
