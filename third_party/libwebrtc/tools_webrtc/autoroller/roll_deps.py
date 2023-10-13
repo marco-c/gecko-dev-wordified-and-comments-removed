@@ -139,6 +139,14 @@ src
 /
 third_party
 /
+android_ndk
+'
+    
+'
+src
+/
+third_party
+/
 mockito
 /
 src
