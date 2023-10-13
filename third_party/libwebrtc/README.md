@@ -313,6 +313,3 @@ native
 -
 code
 /
-index
-.
-md
