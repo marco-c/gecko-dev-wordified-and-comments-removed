@@ -52,7 +52,13 @@ PromiseTestUtils
 expectUncaughtRejection
 (
 /
-2147500037
+Fake
+error
+during
+search
+service
+initialization
+.
 /
 )
 ;
