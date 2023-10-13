@@ -56,7 +56,7 @@ dom
 using
 SVGFEImageElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEImageElement

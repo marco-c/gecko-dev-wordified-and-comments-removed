@@ -1381,7 +1381,7 @@ eUseCounter_custom_feConvolveMatrix
 ;
 }
 return
-SVGFE
+SVGFEConvolveMatrixElementBase
 :
 :
 BindToTree

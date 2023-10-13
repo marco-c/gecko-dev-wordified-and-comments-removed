@@ -53,7 +53,7 @@ dom
 using
 SVGFEBlendElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEBlendElement

@@ -67,7 +67,7 @@ dom
 using
 SVGFEDropShadowElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEDropShadowElement

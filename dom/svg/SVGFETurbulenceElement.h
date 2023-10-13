@@ -74,7 +74,7 @@ dom
 using
 SVGFETurbulenceElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFETurbulenceElement

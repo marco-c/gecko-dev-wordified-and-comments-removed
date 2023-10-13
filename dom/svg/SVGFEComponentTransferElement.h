@@ -46,7 +46,7 @@ dom
 using
 SVGFEComponentTransferElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEComponentTransferElement

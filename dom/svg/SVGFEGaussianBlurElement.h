@@ -60,7 +60,7 @@ dom
 using
 SVGFEGaussianBlurElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEGaussianBlurElement

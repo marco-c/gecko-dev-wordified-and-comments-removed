@@ -622,7 +622,7 @@ eUseCounter_custom_feColorMatrix
 ;
 }
 return
-SVGFE
+SVGFEColorMatrixElementBase
 :
 :
 BindToTree

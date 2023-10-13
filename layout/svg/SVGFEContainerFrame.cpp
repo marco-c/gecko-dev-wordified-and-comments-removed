@@ -323,7 +323,7 @@ aPrevInFlow
 {
 nsCOMPtr
 <
-SVGFE
+SVGFilterPrimitiveElement
 >
 filterPrimitive
 =
@@ -389,7 +389,7 @@ aModType
 dom
 :
 :
-SVGFE
+SVGFilterPrimitiveElement
 *
 element
 =
@@ -398,7 +398,7 @@ static_cast
 dom
 :
 :
-SVGFE
+SVGFilterPrimitiveElement
 *
 >
 (

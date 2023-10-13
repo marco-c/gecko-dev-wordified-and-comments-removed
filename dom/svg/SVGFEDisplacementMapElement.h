@@ -53,7 +53,7 @@ dom
 using
 SVGFEDisplacementMapElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEDisplacementMapElement

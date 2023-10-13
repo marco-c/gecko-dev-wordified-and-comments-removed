@@ -22631,7 +22631,7 @@ IsSVGFilterFrame
 ;
 nsCOMPtr
 <
-SVGFE
+SVGFilterPrimitiveElement
 >
 filterPrimitive
 =

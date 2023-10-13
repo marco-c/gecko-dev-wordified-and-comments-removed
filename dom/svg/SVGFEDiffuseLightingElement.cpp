@@ -391,7 +391,7 @@ eUseCounter_custom_feDiffuseLighting
 ;
 }
 return
-SVGFE
+SVGFEDiffuseLightingElementBase
 :
 :
 BindToTree

@@ -71,7 +71,7 @@ DOMSVGAnimatedNumberList
 using
 SVGComponentTransferFunctionElementBase
 =
-SVGFEUnstyledElement
+SVGFilterPrimitiveChildElement
 ;
 class
 SVGComponentTransferFunctionElement

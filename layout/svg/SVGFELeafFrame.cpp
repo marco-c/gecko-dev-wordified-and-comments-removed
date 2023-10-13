@@ -325,7 +325,7 @@ aPrevInFlow
 {
 nsCOMPtr
 <
-SVGFE
+SVGFilterPrimitiveElement
 >
 filterPrimitive
 =
@@ -400,7 +400,7 @@ mozilla
 dom
 :
 :
-SVGFE
+SVGFilterPrimitiveElement
 *
 >
 (

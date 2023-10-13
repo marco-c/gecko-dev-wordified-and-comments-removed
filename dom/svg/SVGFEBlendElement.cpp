@@ -565,7 +565,7 @@ eUseCounter_custom_feBlend
 ;
 }
 return
-SVGFE
+SVGFEBlendElementBase
 :
 :
 BindToTree

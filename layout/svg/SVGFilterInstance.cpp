@@ -1012,7 +1012,7 @@ SVGFilterInstance
 :
 ComputeFilterPrimitiveSubregion
 (
-SVGFE
+SVGFilterPrimitiveElement
 *
 aFilterElement
 const
@@ -1031,7 +1031,7 @@ int32_t
 aInputIndices
 )
 {
-SVGFE
+SVGFilterPrimitiveElement
 *
 fE
 =
@@ -1146,7 +1146,7 @@ fE
 >
 mLengthAttributes
 [
-SVGFE
+SVGFilterPrimitiveElement
 :
 :
 ATTR_X
@@ -1174,7 +1174,7 @@ fE
 >
 mLengthAttributes
 [
-SVGFE
+SVGFilterPrimitiveElement
 :
 :
 ATTR_X
@@ -1202,7 +1202,7 @@ fE
 >
 mLengthAttributes
 [
-SVGFE
+SVGFilterPrimitiveElement
 :
 :
 ATTR_Y
@@ -1230,7 +1230,7 @@ fE
 >
 mLengthAttributes
 [
-SVGFE
+SVGFilterPrimitiveElement
 :
 :
 ATTR_WIDTH
@@ -1258,7 +1258,7 @@ fE
 >
 mLengthAttributes
 [
-SVGFE
+SVGFilterPrimitiveElement
 :
 :
 ATTR_HEIGHT
@@ -1576,7 +1576,7 @@ SVGFilterInstance
 :
 GetSourceIndices
 (
-SVGFE
+SVGFilterPrimitiveElement
 *
 aPrimitiveElement
 nsTArray
@@ -1901,7 +1901,7 @@ AutoTArray
 <
 RefPtr
 <
-SVGFE
+SVGFilterPrimitiveElement
 >
 8
 >
@@ -1937,7 +1937,7 @@ GetNextSibling
 {
 RefPtr
 <
-SVGFE
+SVGFilterPrimitiveElement
 >
 primitive
 ;
@@ -1945,7 +1945,7 @@ CallQueryInterface
 (
 child
 (
-SVGFE
+SVGFilterPrimitiveElement
 *
 *
 )
@@ -2012,7 +2012,7 @@ Length
 primitiveElementIndex
 )
 {
-SVGFE
+SVGFilterPrimitiveElement
 *
 filter
 =

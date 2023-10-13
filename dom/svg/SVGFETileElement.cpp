@@ -333,7 +333,7 @@ eUseCounter_custom_feTile
 ;
 }
 return
-SVGFE
+SVGFETileElementBase
 :
 :
 BindToTree

@@ -310,7 +310,7 @@ mozilla
 dom
 :
 :
-SVGFEUnstyledElement
+SVGFilterPrimitiveChildElement
 *
 >
 (

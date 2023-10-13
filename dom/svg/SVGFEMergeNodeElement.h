@@ -46,7 +46,7 @@ dom
 using
 SVGFEMergeNodeElementBase
 =
-SVGFEUnstyledElement
+SVGFilterPrimitiveChildElement
 ;
 class
 SVGFEMergeNodeElement
