@@ -87,9 +87,6 @@ GetUserMedia
 )
 ;
 #
-undef
-LOG
-#
 define
 LOG
 (
@@ -1680,3 +1677,6 @@ Shutdown
 ;
 }
 }
+#
+undef
+LOG
