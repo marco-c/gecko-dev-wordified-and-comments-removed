@@ -181,7 +181,7 @@ bboxInAppUnits
 nsLayoutUtils
 :
 :
-ComputeGeometryBox
+ComputeSVGReferenceRect
 (
 const_cast
 <
@@ -274,7 +274,7 @@ strokeBox
 nsLayoutUtils
 :
 :
-ComputeGeometryBox
+ComputeSVGReferenceRect
 (
 const_cast
 <
