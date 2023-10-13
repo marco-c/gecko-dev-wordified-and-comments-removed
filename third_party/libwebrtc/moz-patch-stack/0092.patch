@@ -151,10 +151,10 @@ video_capture_pipewire
 .
 h
 index
-e2c8d1b168
+5ce02d1adf
 .
 .
-2a58c7d3e0
+67345305df
 100644
 -
 -
@@ -197,7 +197,7 @@ public
 VideoCaptureImpl
 {
 VideoCaptureCapability
-frameInfo_
+configured_capability_
 ;
 bool
 started_
