@@ -113,6 +113,11 @@ job
 -
 defaults
 :
+attributes
+:
+cron
+:
+true
 treeherder
 :
 kind
