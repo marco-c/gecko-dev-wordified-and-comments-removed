@@ -1890,15 +1890,6 @@ Component
 :
 :
 RelativeSelectorAnchor
-|
-Component
-:
-:
-Invalid
-(
-.
-.
-)
 =
 >
 {
