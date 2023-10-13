@@ -374,7 +374,7 @@ aOutputRect
 nsLayoutUtils
 :
 :
-ComputeSVGViewBox
+ComputeSVGOriginBox
 (
 viewportElement
 )
