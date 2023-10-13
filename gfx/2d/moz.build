@@ -316,6 +316,16 @@ MacIOSurface
 h
 "
 "
+ScaledFontBase
+.
+h
+"
+"
+ScaledFontMac
+.
+h
+"
+"
 UnscaledFontMac
 .
 h
