@@ -5914,7 +5914,7 @@ BlocksLoadEvent
 )
 )
 {
-IncrementOngoingLoadCount
+IncrementOngoingLoadCountAndMaybeBlockOnload
 (
 )
 ;
@@ -11032,7 +11032,7 @@ BlocksLoadEvent
 )
 )
 {
-IncrementOngoingLoadCount
+IncrementOngoingLoadCountAndMaybeBlockOnload
 (
 )
 ;

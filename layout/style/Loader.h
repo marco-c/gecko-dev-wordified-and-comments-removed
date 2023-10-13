@@ -1393,7 +1393,7 @@ class
 StreamLoader
 ;
 void
-IncrementOngoingLoadCount
+IncrementOngoingLoadCountAndMaybeBlockOnload
 (
 )
 {
