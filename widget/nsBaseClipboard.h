@@ -563,6 +563,13 @@ HasMatchingFlavorsCallback
 aCallback
 )
 ;
+void
+ClearClipboardCache
+(
+int32_t
+aClipboardType
+)
+;
 private
 :
 class
