@@ -117,7 +117,6 @@ MenuIcon
 uint8_t
 {
 eCheckmark
-eMenuArrow
 eMenuDownScrollArrow
 eMenuUpScrollArrow
 }
