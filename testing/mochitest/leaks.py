@@ -2854,12 +2854,25 @@ py
             
 )
         
-for
-f
-in
+frames
+=
+list
+(
 self
 .
 foundFrames
+)
+        
+frames
+.
+sort
+(
+)
+        
+for
+f
+in
+frames
 :
             
 if
