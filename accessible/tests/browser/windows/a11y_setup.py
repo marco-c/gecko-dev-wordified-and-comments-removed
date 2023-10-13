@@ -29,6 +29,7 @@ import
 BOOL
 HWND
 LPARAM
+POINT
 import
 comtypes
 .
