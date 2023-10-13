@@ -68,6 +68,15 @@ toolkit
 .
 shopping
 .
+environment
+=
+test
+"
+"
+toolkit
+.
+shopping
+.
 ohttpRelayURL
 =
 https
