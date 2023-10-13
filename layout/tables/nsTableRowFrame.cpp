@@ -4865,7 +4865,6 @@ true
 ;
 SetUnpaginatedBSize
 (
-aPresContext
 aDesiredSize
 .
 BSize
@@ -6855,9 +6854,6 @@ nsTableRowFrame
 :
 SetUnpaginatedBSize
 (
-nsPresContext
-*
-aPresContext
 nscoord
 aValue
 )

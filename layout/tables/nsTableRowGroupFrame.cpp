@@ -1508,9 +1508,6 @@ static
 void
 CacheRowBSizesForPrinting
 (
-nsPresContext
-*
-aPresContext
 nsTableRowFrame
 *
 aFirstRow
@@ -1562,7 +1559,6 @@ row
 >
 SetUnpaginatedBSize
 (
-aPresContext
 row
 -
 >
@@ -2404,7 +2400,6 @@ isPaginated
 {
 CacheRowBSizesForPrinting
 (
-aPresContext
 GetFirstRow
 (
 )
@@ -4425,7 +4420,6 @@ styleBSizeAllocation
 {
 CacheRowBSizesForPrinting
 (
-aPresContext
 GetFirstRow
 (
 )
