@@ -1145,7 +1145,7 @@ result
 {
 failureReason
 :
-vrMojom
+xrSessionMojom
 .
 RequestSessionError
 .
