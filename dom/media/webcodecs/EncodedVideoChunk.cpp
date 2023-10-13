@@ -333,6 +333,7 @@ EncodedVideoChunkData
 Clone
 (
 )
+const
 {
 if
 (
