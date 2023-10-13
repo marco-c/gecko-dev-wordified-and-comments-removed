@@ -3965,7 +3965,9 @@ builder
 inherited_effective_zoom
 (
 )
-*
+.
+compute_effective
+(
 self
 .
 context
@@ -3974,6 +3976,7 @@ builder
 .
 specified_zoom
 (
+)
 )
 ;
 }
