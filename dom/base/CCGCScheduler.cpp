@@ -142,7 +142,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-64
+250
 )
 ;
 const

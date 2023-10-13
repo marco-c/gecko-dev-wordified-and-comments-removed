@@ -1379,12 +1379,13 @@ budget
 timeBudget
 (
 )
-kICCSliceBudget
-.
-ToMilliseconds
+MainThreadIdlePeriod
+:
+:
+GetLongIdlePeriod
 (
 )
-*
+/
 2
 0
 .
