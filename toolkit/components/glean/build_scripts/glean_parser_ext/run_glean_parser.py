@@ -56,12 +56,6 @@ get_deps
 return
 {
         
-"
-metrics_index
-.
-py
-"
-        
 *
 [
 str
