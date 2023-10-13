@@ -300,6 +300,13 @@ PR_GetCurrentThread
 =
 =
 mThread
+|
+|
+(
+aFlags
+&
+NS_DISPATCH_IGNORE_BLOCK_DISPATCH
+)
 "
 Dispatch
 to
