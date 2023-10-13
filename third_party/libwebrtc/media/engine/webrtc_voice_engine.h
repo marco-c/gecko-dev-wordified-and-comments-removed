@@ -387,6 +387,17 @@ media
 /
 base
 /
+media_channel_shim
+.
+h
+"
+#
+include
+"
+media
+/
+base
+/
 media_config
 .
 h
