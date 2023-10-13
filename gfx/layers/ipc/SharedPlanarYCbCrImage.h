@@ -183,6 +183,14 @@ aCbCrSize
 )
 override
 ;
+void
+SetIsDRM
+(
+bool
+aIsDRM
+)
+override
+;
 bool
 IsValid
 (
