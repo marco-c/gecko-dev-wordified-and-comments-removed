@@ -1496,6 +1496,13 @@ TElement
 '
 a
 {
+#
+[
+inline
+(
+never
+)
+]
 pub
 fn
 invalidate_relative_selectors_for_this
@@ -1638,6 +1645,13 @@ get
 )
 ;
 }
+#
+[
+inline
+(
+never
+)
+]
 pub
 fn
 invalidate_relative_selectors_for_dom_mutation
