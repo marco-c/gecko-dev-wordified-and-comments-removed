@@ -121,13 +121,6 @@ be
 focusable
 [
 "
-browser_opentabs_cards
-.
-js
-"
-]
-[
-"
 browser_opentabs_recency_next
 .
 js
