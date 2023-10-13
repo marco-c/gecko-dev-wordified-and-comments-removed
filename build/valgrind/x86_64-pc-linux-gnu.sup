@@ -8247,6 +8247,10 @@ fun
 moz_xmalloc
 fun
 :
+operator
+new
+fun
+:
 _ZN13nsDynamicAtom6Create
 *
 fun
@@ -8915,6 +8919,10 @@ malloc
 fun
 :
 moz_xmalloc
+fun
+:
+operator
+new
 fun
 :
 _ZN13nsDynamicAtom6CreateERK12nsTSubstringIDsEj
