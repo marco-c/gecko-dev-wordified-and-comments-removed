@@ -369,11 +369,6 @@ mCreated
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION
-(
-LockManagerChild
-mOwner
-)
 void
 LockManagerChild
 :
