@@ -37,8 +37,10 @@ MIDIPort
 public
 :
 static
+RefPtr
+<
 MIDIInput
-*
+>
 Create
 (
 nsPIDOMWindowInner
@@ -110,14 +112,12 @@ override
 ;
 private
 :
+explicit
 MIDIInput
 (
 nsPIDOMWindowInner
 *
 aWindow
-MIDIAccess
-*
-aMIDIAccessParent
 )
 ;
 void
