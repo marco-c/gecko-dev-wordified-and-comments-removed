@@ -933,9 +933,6 @@ str
 )
 )
 ;
-if
-(
-!
 QuoteString
 <
 QuoteTarget
@@ -948,12 +945,7 @@ String
 sprinter
 range
 )
-)
-{
-return
-nullptr
 ;
-}
 return
 sprinter
 .
