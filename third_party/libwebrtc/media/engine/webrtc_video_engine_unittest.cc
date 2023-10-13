@@ -6046,7 +6046,7 @@ network
 channel
 -
 >
-AsVideoReceiveChannel
+AsVideoSendChannel
 (
 )
 -
