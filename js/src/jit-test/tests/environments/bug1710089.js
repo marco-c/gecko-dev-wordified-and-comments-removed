@@ -1,7 +1,7 @@
 var
 iters
 =
-250
+75
 ;
 var
 src
