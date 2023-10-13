@@ -23,6 +23,7 @@ geckoview
 .
 xhtml
 "
+locked
 )
 ;
 pref
