@@ -660,6 +660,13 @@ type
 "
 )
 ;
+nsTArray
+<
+SVGFilterFrame
+*
+>
+filterFrames
+;
 if
 (
 !
@@ -682,7 +689,8 @@ SVGObserverUtils
 GetAndObserveFilters
 (
 aFrame
-nullptr
+&
+filterFrames
 )
 =
 =
@@ -703,6 +711,7 @@ FilterInstance
 GetPostFilterBounds
 (
 aFrame
+filterFrames
 nullptr
 &
 aPreFilterRect
@@ -3117,6 +3126,13 @@ SVGMaskFrame
 >
 maskFrames
 ;
+nsTArray
+<
+SVGFilterFrame
+*
+>
+filterFrames
+;
 const
 bool
 hasInvalidFilter
@@ -3127,7 +3143,8 @@ SVGObserverUtils
 GetAndObserveFilters
 (
 aFrame
-nullptr
+&
+filterFrames
 )
 =
 =
@@ -3645,6 +3662,7 @@ mFilters
 AsSpan
 (
 )
+filterFrames
 target
 callback
 nullptr

@@ -14575,6 +14575,11 @@ filterChain
 AsSpan
 (
 )
+CurrentState
+(
+)
+.
+autoSVGFiltersObserver
 writeOnly
 CanvasUserSpaceMetrics
 (

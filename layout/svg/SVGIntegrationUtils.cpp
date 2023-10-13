@@ -1507,6 +1507,13 @@ FirstContinuationOrIBSplitSibling
 aFrame
 )
 ;
+nsTArray
+<
+SVGFilterFrame
+*
+>
+filterFrames
+;
 if
 (
 SVGObserverUtils
@@ -1515,7 +1522,8 @@ SVGObserverUtils
 GetAndObserveFilters
 (
 firstFrame
-nullptr
+&
+filterFrames
 )
 =
 =
@@ -1576,6 +1584,7 @@ FilterInstance
 GetPostFilterBounds
 (
 firstFrame
+filterFrames
 &
 overrideBBox
 )
@@ -1637,6 +1646,13 @@ FirstContinuationOrIBSplitSibling
 aFrame
 )
 ;
+nsTArray
+<
+SVGFilterFrame
+*
+>
+filterFrames
+;
 if
 (
 !
@@ -1659,7 +1675,8 @@ SVGObserverUtils
 GetFiltersIfObserving
 (
 firstFrame
-nullptr
+&
+filterFrames
 )
 =
 =
@@ -1703,6 +1720,7 @@ FilterInstance
 GetPreFilterNeededArea
 (
 firstFrame
+filterFrames
 postEffectsRect
 )
 .
@@ -4253,6 +4271,13 @@ FirstContinuationOrIBSplitSibling
 frame
 )
 ;
+nsTArray
+<
+SVGFilterFrame
+*
+>
+filterFrames
+;
 if
 (
 SVGObserverUtils
@@ -4261,7 +4286,8 @@ SVGObserverUtils
 GetAndObserveFilters
 (
 firstFrame
-nullptr
+&
+filterFrames
 )
 =
 =
@@ -4328,6 +4354,7 @@ PaintFilteredFrame
 (
 frame
 aFilters
+filterFrames
 &
 context
 aCallback
