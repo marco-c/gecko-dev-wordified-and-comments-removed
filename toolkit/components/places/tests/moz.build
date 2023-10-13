@@ -102,7 +102,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 browser
