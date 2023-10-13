@@ -21,7 +21,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 useragent
