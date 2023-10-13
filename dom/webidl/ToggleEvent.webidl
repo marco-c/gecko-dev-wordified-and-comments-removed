@@ -125,17 +125,6 @@ interface
 *
 /
 [
-Pref
-=
-"
-dom
-.
-element
-.
-popover
-.
-enabled
-"
 Exposed
 =
 Window
