@@ -1984,6 +1984,11 @@ from
 )
 )
 ;
+*
+port_mapping_used
+=
+nullptr
+;
 for
 (
 PortMapping
