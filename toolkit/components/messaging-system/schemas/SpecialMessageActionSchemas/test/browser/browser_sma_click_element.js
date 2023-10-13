@@ -35,6 +35,9 @@ withFirefoxView
 assertFirefoxViewTab
 openFirefoxViewTab
 closeFirefoxViewTab
+init
+:
+FirefoxViewTestUtilsInit
 }
 =
 ChromeUtils
@@ -56,6 +59,11 @@ sys
 .
 mjs
 "
+)
+;
+FirefoxViewTestUtilsInit
+(
+this
 )
 ;
 const

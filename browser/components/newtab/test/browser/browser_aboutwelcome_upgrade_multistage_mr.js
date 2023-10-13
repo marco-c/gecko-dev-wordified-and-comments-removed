@@ -61,6 +61,9 @@ const
 {
 assertFirefoxViewTabSelected
 closeFirefoxViewTab
+init
+:
+FirefoxViewTestUtilsInit
 }
 =
 ChromeUtils
@@ -82,6 +85,11 @@ sys
 .
 mjs
 "
+)
+;
+FirefoxViewTestUtilsInit
+(
+this
 )
 ;
 const

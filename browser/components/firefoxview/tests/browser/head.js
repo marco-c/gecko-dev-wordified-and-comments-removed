@@ -6,6 +6,9 @@ assertFirefoxViewTabSelected
 openFirefoxViewTab
 closeFirefoxViewTab
 isFirefoxViewTabSelectedInWindow
+init
+:
+FirefoxViewTestUtilsInit
 }
 =
 ChromeUtils
@@ -197,6 +200,12 @@ mjs
 SessionStoreTestUtils
 .
 init
+(
+this
+window
+)
+;
+FirefoxViewTestUtilsInit
 (
 this
 window
