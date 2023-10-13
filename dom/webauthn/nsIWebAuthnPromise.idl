@@ -39,7 +39,7 @@ void
 resolve
 (
 in
-nsICtapRegisterResult
+nsIWebAuthnRegisterResult
 aResult
 )
 ;
@@ -83,7 +83,7 @@ void
 resolve
 (
 in
-nsICtapSignResult
+nsIWebAuthnSignResult
 aResult
 )
 ;
