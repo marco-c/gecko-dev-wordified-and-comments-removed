@@ -360,7 +360,7 @@ RTC_DCHECK_RUN_ON
 thread_checker_
 )
 ;
-RTC_DCHECK
+RTC_CHECK
 (
 send_modules_map_
 .
