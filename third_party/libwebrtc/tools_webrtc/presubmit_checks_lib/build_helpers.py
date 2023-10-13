@@ -527,15 +527,6 @@ tidy
 '
 third_party
 /
-android_ndk
-/
-toolchains
-/
-'
-          
-'
-third_party
-/
 android_toolchain
 /
 toolchains
