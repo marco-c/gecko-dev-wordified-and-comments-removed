@@ -755,8 +755,11 @@ AsyncEventDispatcher
 (
 &
 aTarget
+do_AddRef
+(
 &
 aEvent
+)
 aOnlyChromeDispatch
 )
 )

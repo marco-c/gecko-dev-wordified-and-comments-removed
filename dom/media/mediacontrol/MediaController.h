@@ -636,8 +636,10 @@ aName
 void
 DispatchAsyncEvent
 (
+already_AddRefed
+<
 Event
-*
+>
 aEvent
 )
 ;

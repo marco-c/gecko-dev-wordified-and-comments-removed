@@ -2624,6 +2624,10 @@ AsyncEventDispatcher
 (
 this
 event
+.
+forget
+(
+)
 )
 )
 -
