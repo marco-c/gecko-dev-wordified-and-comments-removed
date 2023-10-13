@@ -19160,6 +19160,15 @@ public
 static
 final
 int
+APP_VERSION
+=
+32
+;
+field
+public
+static
+final
+int
 BLOCKLIST
 =
 4
