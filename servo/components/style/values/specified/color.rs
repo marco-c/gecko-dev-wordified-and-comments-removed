@@ -1366,8 +1366,6 @@ chrome_rules_enabled
 MozHeaderbarinactivetext
 MozMacDefaultbuttontext
 MozMacFocusring
-MozMacMenutextdisable
-MozMacMenutextselect
 MozMacDisabledtoolbartext
 MozMacMenupopup
 MozMacMenuitem
