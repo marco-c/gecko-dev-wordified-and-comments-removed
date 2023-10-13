@@ -355,8 +355,9 @@ of
 BIDDING_LOGIC_SCRIPT_ERRORS
 )
 {
-promise_test
+subsetTest
 (
+promise_test
 (
 async
 (
@@ -426,8 +427,9 @@ of
 DECISION_LOGIC_SCRIPT_ERRORS
 )
 {
-promise_test
+subsetTest
 (
+promise_test
 (
 async
 (
