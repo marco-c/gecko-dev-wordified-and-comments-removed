@@ -1931,14 +1931,6 @@ wm
 cellSize
 )
 ;
-nsTableFrame
-*
-tableFrame
-=
-GetTableFrame
-(
-)
-;
 if
 (
 tableFrame
