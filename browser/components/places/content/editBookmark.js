@@ -3802,7 +3802,7 @@ selectItems
 [
 this
 .
-_paneInfo
+_bookmarkState
 .
 parentGuid
 ]
