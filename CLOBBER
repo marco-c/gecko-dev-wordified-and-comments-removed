@@ -203,10 +203,9 @@ third_party
 libwebrtc
 -
 Bug
-1832465
+1851693
 -
-remove
-libXtst
-usage
-from
+Vendor
 libwebrtc
+from
+1cc41ea84f
