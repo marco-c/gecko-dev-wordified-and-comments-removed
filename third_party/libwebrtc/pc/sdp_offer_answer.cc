@@ -5732,7 +5732,7 @@ ok
 ;
 }
 bool
-ReplaceRemoteDescriptionAndCheckEror
+ReplaceRemoteDescriptionAndCheckError
 (
 )
 {
@@ -10643,7 +10643,7 @@ if
 operation
 -
 >
-ReplaceRemoteDescriptionAndCheckEror
+ReplaceRemoteDescriptionAndCheckError
 (
 )
 )
