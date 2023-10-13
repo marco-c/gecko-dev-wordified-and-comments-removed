@@ -165,6 +165,12 @@ attribute
 AuthenticatorResponse
 response
 ;
+readonly
+attribute
+DOMString
+?
+authenticatorAttachment
+;
 AuthenticationExtensionsClientOutputs
 getClientExtensionResults
 (

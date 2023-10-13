@@ -425,6 +425,10 @@ WebAuthnExtensionResult
 ]
 Extensions
 ;
+nsString
+?
+AuthenticatorAttachment
+;
 }
 ;
 struct
@@ -495,6 +499,10 @@ uint8_t
 [
 ]
 UserHandle
+;
+nsString
+?
+AuthenticatorAttachment
 ;
 }
 ;
