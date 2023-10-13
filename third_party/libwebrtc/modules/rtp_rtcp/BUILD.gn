@@ -5030,6 +5030,17 @@ libjingle_peerconnection_api
 /
 api
 :
+make_ref_counted
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 mock_frame_encryptor
 "
 "
