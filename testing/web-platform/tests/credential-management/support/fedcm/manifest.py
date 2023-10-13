@@ -115,7 +115,7 @@ py
 "
   
 "
-signin_url
+login_url
 "
 :
 "
