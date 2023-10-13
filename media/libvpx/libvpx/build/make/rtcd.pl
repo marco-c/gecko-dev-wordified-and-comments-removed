@@ -2624,6 +2624,8 @@ filter
 qw
 /
 neon
+neon_dotprod
+neon_i8mm
 /
 )
 ;

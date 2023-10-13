@@ -1948,11 +1948,11 @@ TemporalFilterWithBd
 {
 public
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 filter_func_
 =

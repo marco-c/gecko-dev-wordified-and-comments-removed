@@ -77,6 +77,15 @@ h
 #
 endif
 #
+include
+"
+vpx
+/
+vpx_codec
+.
+h
+"
+#
 if
 defined
 (
@@ -360,8 +369,9 @@ vpx_codec_error_detail
 ctx
 )
 ;
-printf
+fprintf
 (
+stderr
 "
 %
 s
@@ -382,8 +392,9 @@ if
 (
 detail
 )
-printf
+fprintf
 (
+stderr
 "
 %
 s
@@ -2233,8 +2244,6 @@ conversion
 "
 )
 ;
-break
-;
 }
 for
 (
@@ -2567,8 +2576,6 @@ image
 conversion
 "
 )
-;
-break
 ;
 }
 for
@@ -2910,8 +2917,6 @@ conversion
 "
 )
 ;
-break
-;
 }
 for
 (
@@ -3213,8 +3218,6 @@ image
 conversion
 "
 )
-;
-break
 ;
 }
 for
@@ -3521,8 +3524,6 @@ image
 conversion
 "
 )
-;
-break
 ;
 }
 for

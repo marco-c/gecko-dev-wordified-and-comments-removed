@@ -126,8 +126,9 @@ RealtimeTest
 (
 )
 override
-{
-}
+=
+default
+;
 void
 SetUp
 (
