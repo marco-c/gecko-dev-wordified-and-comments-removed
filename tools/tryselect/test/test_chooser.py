@@ -1,4 +1,6 @@
 import
+multiprocessing
+import
 mozunit
 import
 pytest
@@ -116,9 +118,25 @@ pytest
 .
 fixture
 def
+queue
+(
+)
+:
+    
+return
+multiprocessing
+.
+Queue
+(
+)
+pytest
+.
+fixture
+def
 app
 (
 tg
+queue
 )
 :
     
@@ -127,6 +145,7 @@ app
 create_application
 (
 tg
+queue
 )
     
 app
@@ -166,6 +185,11 @@ def
 test_try_chooser
 (
 app
+queue
+:
+multiprocessing
+.
+Queue
 )
 :
     
@@ -413,9 +437,11 @@ response
 data
     
 assert
-app
+queue
 .
-tasks
+get
+(
+)
 =
 =
 [
@@ -475,9 +501,11 @@ response
 data
     
 assert
-app
+queue
 .
-tasks
+get
+(
+)
 =
 =
 [
@@ -556,9 +584,11 @@ data
 assert
 set
 (
-app
+queue
 .
-tasks
+get
+(
+)
 )
 =
 =
