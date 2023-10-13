@@ -20,7 +20,7 @@ a728
 )
 ]
 interface
-nsIWebAuthnRegisterResult
+nsICtapRegisterResult
 :
 nsISupports
 {
@@ -48,9 +48,7 @@ AString
 >
 transports
 ;
-[
-must_use
-]
+readonly
 attribute
 bool
 credPropsRk
@@ -72,7 +70,7 @@ ff38cc2c8c28
 )
 ]
 interface
-nsIWebAuthnSignResult
+nsICtapSignResult
 :
 nsISupports
 {

@@ -24,7 +24,7 @@ bda2
 )
 ]
 interface
-nsIWebAuthnRegisterArgs
+nsICtapRegisterArgs
 :
 nsISupports
 {
@@ -127,11 +127,17 @@ attribute
 bool
 minPinLength
 ;
+[
+must_use
+]
 readonly
 attribute
 AString
 residentKey
 ;
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -175,7 +181,7 @@ bf41a54ef553
 )
 ]
 interface
-nsIWebAuthnSignArgs
+nsICtapSignArgs
 :
 nsISupports
 {

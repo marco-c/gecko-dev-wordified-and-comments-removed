@@ -101,7 +101,7 @@ in
 uint64_t
 browsingContextId
 in
-nsIWebAuthnRegisterArgs
+nsICtapRegisterArgs
 args
 in
 nsIWebAuthnRegisterPromise
@@ -118,7 +118,7 @@ in
 uint64_t
 browsingContextId
 in
-nsIWebAuthnSignArgs
+nsICtapSignArgs
 args
 in
 nsIWebAuthnSignPromise

@@ -52,7 +52,7 @@ WebAuthnRegisterPromiseHolder
 :
 Resolve
 (
-nsIWebAuthnRegisterResult
+nsICtapRegisterResult
 *
 aResult
 )
@@ -77,7 +77,7 @@ NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 }
 RefPtr
 <
-nsIWebAuthnRegisterResult
+nsICtapRegisterResult
 >
 result
 (
@@ -232,7 +232,7 @@ WebAuthnSignPromiseHolder
 :
 Resolve
 (
-nsIWebAuthnSignResult
+nsICtapSignResult
 *
 aResult
 )
@@ -257,7 +257,7 @@ NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 }
 RefPtr
 <
-nsIWebAuthnSignResult
+nsICtapSignResult
 >
 result
 (
