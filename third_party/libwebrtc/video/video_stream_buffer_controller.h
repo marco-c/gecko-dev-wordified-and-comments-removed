@@ -217,6 +217,10 @@ OnDecodableFrame
 (
 TimeDelta
 jitter_buffer_delay
+TimeDelta
+target_delay
+TimeDelta
+minimum_delay
 )
 =
 0

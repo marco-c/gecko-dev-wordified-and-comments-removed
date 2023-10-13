@@ -145,7 +145,7 @@ size_t
 num_decoded_frames
 ;
 TimeDelta
-jitter_delay
+minimum_delay
 ;
 TimeDelta
 estimated_max_decode_time
@@ -393,6 +393,16 @@ mutex_
 ;
 TimeDelta
 TargetDelayInternal
+(
+)
+const
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+mutex_
+)
+;
+TimeDelta
+StatsTargetDelayInternal
 (
 )
 const
