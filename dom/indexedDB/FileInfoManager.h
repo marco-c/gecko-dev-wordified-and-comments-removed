@@ -332,6 +332,7 @@ aId
 )
 ;
 }
+virtual
 nsresult
 Invalidate
 (
