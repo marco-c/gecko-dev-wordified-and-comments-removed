@@ -320,7 +320,7 @@ cookiebanners
 .
 bannerClicking
 .
-timeout
+timeoutAfterLoad
 "
 500
 ]
