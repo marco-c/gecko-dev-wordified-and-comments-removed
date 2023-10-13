@@ -225,9 +225,13 @@ packet_history
 config
 .
 clock
-config
-.
-enable_rtx_padding_prioritization
+RtpPacketHistory
+:
+:
+PaddingMode
+:
+:
+kPriority
 )
 sequencer_
 (
