@@ -14,7 +14,7 @@ iteratorRecord
 value
 )
 {
-const
+var
 result
 =
 ArgumentsLength
@@ -665,7 +665,7 @@ IteratorHelperReturn
 (
 )
 {
-let
+var
 O
 =
 this
@@ -704,7 +704,7 @@ IteratorHelperReturn
 )
 ;
 }
-const
+var
 generator
 =
 UnsafeGetReservedSlot

@@ -63,7 +63,7 @@ PluralRules
 .
 localeData
 ;
-const
+var
 r
 =
 ResolveLocale
@@ -384,7 +384,7 @@ PluralRules
 "
 )
 ;
-const
+var
 lazyPluralRulesData
 =
 std_Object_create
@@ -392,7 +392,7 @@ std_Object_create
 null
 )
 ;
-let
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -433,7 +433,7 @@ options
 )
 ;
 }
-let
+var
 opt
 =
 new_Record
@@ -446,7 +446,7 @@ opt
 =
 opt
 ;
-let
+var
 matcher
 =
 GetOption
@@ -479,7 +479,7 @@ localeMatcher
 =
 matcher
 ;
-const
+var
 type
 =
 GetOption
@@ -560,7 +560,7 @@ availableLocales
 PluralRules
 "
 ;
-let
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -583,7 +583,7 @@ Intl_PluralRules_select
 value
 )
 {
-let
+var
 pluralRules
 =
 this
@@ -623,7 +623,7 @@ Intl_PluralRules_select
 )
 ;
 }
-let
+var
 n
 =
 ToNumber

@@ -7,7 +7,7 @@ to
 comparefn
 )
 {
-let
+var
 item
 swap
 i

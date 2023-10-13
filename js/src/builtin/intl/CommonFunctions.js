@@ -12,8 +12,8 @@ desc
 do
 {
 \
-let
-canonical
+var
+_canonical
 =
 intl_TryValidateAndCanonicalizeLanguageTag
 (
@@ -23,7 +23,7 @@ locale
 \
 assert
 (
-canonical
+_canonical
 !
 =
 =
@@ -43,7 +43,7 @@ tag
 \
 assert
 (
-canonical
+_canonical
 =
 =
 =
@@ -2608,7 +2608,7 @@ if
 fallbackSymbol
 )
 {
-let
+var
 Symbol
 =
 GetBuiltinConstructor

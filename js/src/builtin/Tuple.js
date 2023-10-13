@@ -234,7 +234,7 @@ ArgumentsLength
 -
 2
 ;
-let
+var
 dc
 =
 ToInteger
@@ -297,7 +297,7 @@ k
 actualStart
 )
 {
-let
+var
 E
 =
 list
@@ -329,7 +329,7 @@ itemK
 itemCount
 )
 {
-let
+var
 E
 =
 GetArgument
@@ -382,7 +382,7 @@ itemK
 len
 )
 {
-let
+var
 E
 =
 list
@@ -459,7 +459,7 @@ k
 -
 )
 {
-let
+var
 E
 =
 T
@@ -606,7 +606,7 @@ i
 +
 )
 {
-let
+var
 E
 =
 GetArgument
@@ -847,7 +847,7 @@ TupleJoin
 separator
 )
 {
-let
+var
 T
 =
 ThisTupleValue
@@ -855,7 +855,7 @@ ThisTupleValue
 this
 )
 ;
-let
+var
 len
 =
 TupleLength
@@ -878,7 +878,7 @@ separator
 )
 )
 {
-let
+var
 toString
 =
 IsCallable
@@ -934,7 +934,7 @@ R
 sep
 ;
 }
-let
+var
 element
 =
 T
@@ -957,7 +957,7 @@ element
 )
 )
 {
-let
+var
 toString
 =
 IsCallable
@@ -2121,7 +2121,7 @@ k
 =
 0
 ;
-let
+var
 usingIterator
 =
 GetMethod
@@ -2144,7 +2144,7 @@ usingIterator
 undefined
 )
 {
-let
+var
 adder
 =
 function
@@ -2230,7 +2230,7 @@ list
 )
 ;
 }
-let
+var
 arrayLike
 =
 ToObject
@@ -2238,7 +2238,7 @@ ToObject
 items
 )
 ;
-let
+var
 len
 =
 ToLength
@@ -2255,7 +2255,7 @@ k
 len
 )
 {
-let
+var
 kValue
 =
 arrayLike
@@ -2263,7 +2263,7 @@ arrayLike
 k
 ]
 ;
-let
+var
 mappedValue
 =
 mapping

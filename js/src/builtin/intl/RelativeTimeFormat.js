@@ -69,7 +69,7 @@ RelativeTimeFormat
 =
 relativeTimeFormatInternalProperties
 ;
-const
+var
 r
 =
 ResolveLocale
@@ -276,7 +276,7 @@ RelativeTimeFormat
 "
 )
 ;
-const
+var
 lazyRelativeTimeFormatData
 =
 std_Object_create
@@ -284,7 +284,7 @@ std_Object_create
 null
 )
 ;
-let
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -325,14 +325,14 @@ options
 )
 ;
 }
-let
+var
 opt
 =
 new_Record
 (
 )
 ;
-let
+var
 matcher
 =
 GetOption
@@ -365,7 +365,7 @@ localeMatcher
 =
 matcher
 ;
-let
+var
 numberingSystem
 =
 GetOption
@@ -416,7 +416,7 @@ opt
 =
 opt
 ;
-const
+var
 style
 =
 GetOption
@@ -450,7 +450,7 @@ style
 =
 style
 ;
-const
+var
 numeric
 =
 GetOption
@@ -520,7 +520,7 @@ availableLocales
 RelativeTimeFormat
 "
 ;
-let
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -544,7 +544,7 @@ value
 unit
 )
 {
-let
+var
 relativeTimeFormat
 =
 this
@@ -585,7 +585,7 @@ Intl_RelativeTimeFormat_format
 )
 ;
 }
-let
+var
 t
 =
 ToNumber
@@ -593,7 +593,7 @@ ToNumber
 value
 )
 ;
-let
+var
 u
 =
 ToString
@@ -618,7 +618,7 @@ value
 unit
 )
 {
-let
+var
 relativeTimeFormat
 =
 this
@@ -659,7 +659,7 @@ Intl_RelativeTimeFormat_formatToParts
 )
 ;
 }
-let
+var
 t
 =
 ToNumber
@@ -667,7 +667,7 @@ ToNumber
 value
 )
 ;
-let
+var
 u
 =
 ToString

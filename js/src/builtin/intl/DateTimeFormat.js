@@ -671,7 +671,7 @@ timeZone
 null
 )
 {
-const
+var
 msPerHour
 =
 60
@@ -1182,7 +1182,7 @@ if
 mozExtensions
 )
 {
-let
+var
 pattern
 =
 GetOption

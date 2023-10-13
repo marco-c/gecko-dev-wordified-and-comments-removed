@@ -2445,7 +2445,7 @@ C
 =
 this
 ;
-let
+var
 fromAsyncClosure
 =
 async
@@ -2485,7 +2485,7 @@ mapfn
 )
 ;
 }
-let
+var
 usingAsyncIterator
 =
 asyncItems
@@ -2512,7 +2512,7 @@ usingAsyncIterator
 undefined
 ;
 }
-let
+var
 usingSyncIterator
 =
 undefined
@@ -2620,7 +2620,7 @@ usingSyncIterator
 undefined
 )
 {
-let
+var
 A
 =
 IsConstructor
@@ -2637,7 +2637,7 @@ C
 [
 ]
 ;
-let
+var
 k
 =
 0
@@ -2645,7 +2645,7 @@ k
 for
 await
 (
-let
+var
 nextValue
 of
 allowContentIterWith
@@ -2656,7 +2656,7 @@ usingSyncIterator
 )
 )
 {
-let
+var
 mappedValue
 =
 nextValue
@@ -2706,7 +2706,7 @@ return
 A
 ;
 }
-let
+var
 arrayLike
 =
 ToObject
@@ -2714,7 +2714,7 @@ ToObject
 asyncItems
 )
 ;
-let
+var
 len
 =
 ToLength
@@ -2724,7 +2724,7 @@ arrayLike
 length
 )
 ;
-let
+var
 A
 =
 IsConstructor
@@ -2744,7 +2744,7 @@ std_Array
 len
 )
 ;
-let
+var
 k
 =
 0
@@ -2756,7 +2756,7 @@ k
 len
 )
 {
-let
+var
 kValue
 =
 await
@@ -2765,7 +2765,7 @@ arrayLike
 k
 ]
 ;
-let
+var
 mappedValue
 =
 mapping

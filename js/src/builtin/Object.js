@@ -1012,7 +1012,7 @@ ObjectFromEntries
 iter
 )
 {
-const
+var
 obj
 =
 {
@@ -1020,7 +1020,7 @@ obj
 ;
 for
 (
-const
+var
 pair
 of
 allowContentIter
@@ -1090,9 +1090,6 @@ obj
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 function
 ObjectGroupBy
 (
@@ -1271,5 +1268,3 @@ return
 obj
 ;
 }
-#
-endif

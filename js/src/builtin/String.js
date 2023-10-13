@@ -479,7 +479,7 @@ this
 )
 ;
 }
-let
+var
 str
 =
 ToString
@@ -487,7 +487,7 @@ ToString
 this
 )
 ;
-let
+var
 intMaxLength
 =
 ToLength
@@ -495,7 +495,7 @@ ToLength
 maxLength
 )
 ;
-let
+var
 strLen
 =
 str
@@ -531,7 +531,7 @@ undefined
 "
 )
 ;
-let
+var
 filler
 =
 ToString
@@ -566,14 +566,14 @@ JSMSG_RESULTING_STRING_TOO_LARGE
 )
 ;
 }
-let
+var
 fillLen
 =
 intMaxLength
 -
 strLen
 ;
-let
+var
 truncatedStringFiller
 =
 callFunction

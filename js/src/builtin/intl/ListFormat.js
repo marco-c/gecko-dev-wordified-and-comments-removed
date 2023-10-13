@@ -340,7 +340,7 @@ opt
 =
 opt
 ;
-let
+var
 matcher
 =
 GetOption

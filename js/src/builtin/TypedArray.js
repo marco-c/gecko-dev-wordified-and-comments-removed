@@ -5653,7 +5653,7 @@ slot
 "
 )
 ;
-let
+var
 constructor
 =
 ConstructorForTypedArray
