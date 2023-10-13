@@ -616,7 +616,6 @@ SVGDiscardElement
 SyncManager
 TaskAttributionTiming
 TextEvent
-ToggleEvent
 Touch
 TouchEvent
 TouchList
