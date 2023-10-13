@@ -464,12 +464,13 @@ int32_t
 aColIndex
 )
 ;
-nsresult
-CalculateCellActualBSize
+nscoord
+CalcCellActualBSize
 (
 nsTableCellFrame
 *
 aCellFrame
+const
 nscoord
 &
 aDesiredBSize
