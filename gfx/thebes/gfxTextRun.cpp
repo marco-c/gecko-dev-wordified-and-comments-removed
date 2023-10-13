@@ -12608,7 +12608,7 @@ if
 aCh
 =
 =
-0x20
+kCSSFirstAvailableFont
 )
 {
 if
@@ -12632,7 +12632,8 @@ unicodeRange
 >
 test
 (
-aCh
+'
+'
 )
 ;
 }
@@ -12790,6 +12791,14 @@ ufe
 >
 CharacterInUnicodeRange
 (
+aCh
+=
+=
+kCSSFirstAvailableFont
+?
+'
+'
+:
 aCh
 )
 ;

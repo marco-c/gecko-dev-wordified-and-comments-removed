@@ -2939,6 +2939,13 @@ aOther
 =
 delete
 ;
+static
+constexpr
+uint32_t
+kCSSFirstAvailableFont
+=
+UINT32_MAX
+;
 already_AddRefed
 <
 gfxFont
@@ -2948,7 +2955,7 @@ GetFirstValidFont
 uint32_t
 aCh
 =
-0x20
+kCSSFirstAvailableFont
 mozilla
 :
 :
