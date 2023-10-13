@@ -117,6 +117,13 @@ nullable
 :
 boolean
 "
+setTabOffline
+:
+"
+nullable
+:
+boolean
+"
 touchEventsOverride
 :
 "
