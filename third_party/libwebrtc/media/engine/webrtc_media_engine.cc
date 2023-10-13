@@ -259,6 +259,15 @@ audio_processing
 dependencies
 .
 audio_frame_processor
+std
+:
+:
+move
+(
+dependencies
+.
+owned_audio_frame_processor
+)
 trials
 )
 ;
