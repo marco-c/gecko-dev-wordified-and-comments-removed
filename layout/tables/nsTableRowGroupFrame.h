@@ -318,12 +318,14 @@ nsTableRowFrame
 GetFirstRow
 (
 )
+const
 ;
 nsTableRowFrame
 *
 GetLastRow
 (
 )
+const
 ;
 nsTableFrame
 *
