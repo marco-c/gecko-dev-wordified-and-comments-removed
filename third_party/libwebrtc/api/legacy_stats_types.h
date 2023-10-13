@@ -637,14 +637,6 @@ id_val
 )
 const
 ;
-#
-ifndef
-WEBRTC_DEFINES_STATSREPORT_VALUE_ID_VAL
-#
-define
-WEBRTC_DEFINES_STATSREPORT_VALUE_ID_VAL
-#
-endif
 const
 char
 *
