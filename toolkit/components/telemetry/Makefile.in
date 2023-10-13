@@ -128,6 +128,14 @@ addondir
 call
 py_action
 zip
+(
+notdir
+(
+dir
+)
+)
+.
+xpi
 -
 C
 (

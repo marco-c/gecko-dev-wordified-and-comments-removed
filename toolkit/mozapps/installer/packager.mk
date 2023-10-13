@@ -431,6 +431,9 @@ mozharness
 call
 py_action
 test_archive
+(
+MOZHARNESS_PACKAGE
+)
 \
 mozharness
 \
@@ -560,6 +563,13 @@ full
 call
 py_action
 symbols_archive
+(
+SYMBOL_FULL_ARCHIVE_BASENAME
+)
+.
+tar
+.
+zst
 '
 (
 DIST
@@ -955,6 +965,11 @@ zip
 call
 py_action
 zip
+(
+XPT_ARTIFACTS_ARCHIVE_BASENAME
+)
+.
+zip
 -
 C
 (
@@ -1009,6 +1024,11 @@ zip
 (
 call
 py_action
+zip
+(
+XPT_ARTIFACTS_ARCHIVE_BASENAME
+)
+.
 zip
 -
 C
@@ -2037,6 +2057,9 @@ txt
 call
 py_action
 file_generate
+multilocale
+.
+txt
 (
 MOZILLA_DIR
 )

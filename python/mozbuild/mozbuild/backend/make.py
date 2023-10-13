@@ -627,6 +627,9 @@ call
 py_action
 file_generate
 {
+output
+}
+{
 locale
 }
 {

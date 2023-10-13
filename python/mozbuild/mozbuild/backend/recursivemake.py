@@ -11756,6 +11756,20 @@ path
 top_level
 :
             
+path
+=
+mozpath
+.
+relpath
+(
+obj
+.
+path
+obj
+.
+install_target
+)
+            
 args
 =
 [
@@ -11774,30 +11788,16 @@ top_level
                 
 make_quote
 (
-                    
 shell_quote
 (
-                        
 "
 manifest
 %
 s
 "
 %
-mozpath
-.
-relpath
-(
-obj
-.
 path
-obj
-.
-install_target
 )
-                    
-)
-                
 )
             
 ]
@@ -11806,6 +11806,7 @@ rule
 .
 add_commands
 (
+                
 [
 "
 (
@@ -11814,9 +11815,13 @@ py_action
 buildlist
 %
 s
+%
+s
 )
 "
 %
+(
+path
 "
 "
 .
@@ -11824,7 +11829,9 @@ join
 (
 args
 )
+)
 ]
+            
 )
         
 args
@@ -11864,6 +11871,7 @@ rule
 .
 add_commands
 (
+            
 [
 "
 (
@@ -11872,9 +11880,17 @@ py_action
 buildlist
 %
 s
+%
+s
 )
 "
 %
+(
+obj
+.
+entry
+.
+path
 "
 "
 .
@@ -11882,7 +11898,9 @@ join
 (
 args
 )
+)
 ]
+        
 )
         
 fragment
