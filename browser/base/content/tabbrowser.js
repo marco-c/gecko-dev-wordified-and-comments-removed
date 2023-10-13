@@ -13934,6 +13934,9 @@ removeAllTabsBut
 (
 aTab
 aParams
+skipWarnAboutClosingTabs
+=
+false
 )
 {
 let
@@ -14004,6 +14007,10 @@ pinned
 }
 if
 (
+!
+skipWarnAboutClosingTabs
+&
+&
 !
 this
 .

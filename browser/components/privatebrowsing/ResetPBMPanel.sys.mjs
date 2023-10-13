@@ -1209,6 +1209,7 @@ animate
 :
 false
 }
+true
 )
 ;
 /
