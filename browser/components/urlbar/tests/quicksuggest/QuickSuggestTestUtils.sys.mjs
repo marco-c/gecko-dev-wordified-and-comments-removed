@@ -1957,7 +1957,8 @@ title
 suggestion
 .
 url
-null
+[
+]
 /
 /
 icon
@@ -2000,7 +2001,8 @@ title
 suggestion
 .
 url
-null
+[
+]
 /
 /
 icon

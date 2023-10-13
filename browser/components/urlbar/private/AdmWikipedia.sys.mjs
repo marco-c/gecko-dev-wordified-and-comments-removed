@@ -860,11 +860,6 @@ url
 suggestion
 .
 url
-icon
-:
-suggestion
-.
-icon
 is_sponsored
 :
 suggestion
@@ -953,11 +948,6 @@ url
 suggestion
 .
 url
-icon
-:
-suggestion
-.
-icon
 isSponsored
 :
 suggestion

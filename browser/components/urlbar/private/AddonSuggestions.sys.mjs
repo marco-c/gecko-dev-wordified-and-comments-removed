@@ -1281,11 +1281,6 @@ const
 payload
 =
 {
-icon
-:
-suggestion
-.
-icon
 url
 :
 url

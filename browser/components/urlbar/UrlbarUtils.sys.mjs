@@ -10909,6 +10909,15 @@ type
 string
 "
 }
+iconBlob
+:
+{
+type
+:
+"
+object
+"
+}
 isBlockable
 :
 {
