@@ -116,9 +116,6 @@ html
 #
 Check
 that
--
-moz
--
 perspective
 results
 in
@@ -145,9 +142,6 @@ ref
 .
 html
 #
--
-moz
--
 perspective
 should
 only
