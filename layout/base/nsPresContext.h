@@ -1532,6 +1532,12 @@ MaybeIncreaseMeasuredTicksSinceLoading
 (
 )
 ;
+bool
+NeedsMoreTicksForUserInput
+(
+)
+const
+;
 void
 ResetUserInputEventsAllowed
 (
