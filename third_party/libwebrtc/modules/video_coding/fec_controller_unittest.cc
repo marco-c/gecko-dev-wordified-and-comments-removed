@@ -141,6 +141,14 @@ return
 0
 ;
 }
+void
+SetRetransmissionMode
+(
+int
+retransmission_mode
+)
+{
+}
 uint32_t
 fec_rate_bps_
 =
