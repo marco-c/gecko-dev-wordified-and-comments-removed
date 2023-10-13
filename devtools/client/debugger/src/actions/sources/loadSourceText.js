@@ -49,7 +49,7 @@ breakpoints
 ;
 import
 {
-prettyPrintSource
+prettyPrintSourceTextContent
 }
 from
 "
@@ -289,7 +289,7 @@ generatedSource
 )
 ;
 return
-prettyPrintSource
+prettyPrintSourceTextContent
 (
 sourceMapLoader
 prettyPrintWorker

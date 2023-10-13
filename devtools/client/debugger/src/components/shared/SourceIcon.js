@@ -270,8 +270,6 @@ state
 location
 .
 source
-.
-url
 )
 ;
 const

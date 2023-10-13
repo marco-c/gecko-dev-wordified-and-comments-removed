@@ -288,7 +288,7 @@ PropTypes
 func
 .
 isRequired
-togglePrettyPrint
+prettyPrintAndSelectSource
 :
 PropTypes
 .
@@ -434,7 +434,7 @@ const
 selectedSource
 canPrettyPrint
 prettyPrintMessage
-togglePrettyPrint
+prettyPrintAndSelectSource
 sourceLoaded
 }
 =
@@ -524,11 +524,9 @@ canPrettyPrint
 return
 ;
 }
-togglePrettyPrint
+prettyPrintAndSelectSource
 (
 selectedSource
-.
-id
 )
 ;
 }
@@ -1290,11 +1288,11 @@ connect
 (
 mapStateToProps
 {
-togglePrettyPrint
+prettyPrintAndSelectSource
 :
 actions
 .
-togglePrettyPrint
+prettyPrintAndSelectSource
 toggleBlackBox
 :
 actions

@@ -4567,13 +4567,13 @@ dbg
 )
 {
 const
-sourceId
+source
 =
 dbg
 .
 selectors
 .
-getSelectedSourceId
+getSelectedSource
 (
 )
 ;
@@ -4582,9 +4582,9 @@ dbg
 .
 actions
 .
-togglePrettyPrint
+prettyPrintAndSelectSource
 (
-sourceId
+source
 )
 ;
 }
