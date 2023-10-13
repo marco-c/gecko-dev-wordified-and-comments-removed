@@ -916,11 +916,13 @@ platform
 osx
 -
 cross
+-
+aarch64
 /
 asan
 symbol
 :
-Bofaarch64
+Bof
 worker
 :
 max
@@ -1100,11 +1102,13 @@ platform
 osx
 -
 cross
+-
+aarch64
 /
 debug
 symbol
 :
-Bfaarch64
+Bf
 worker
 :
 max
@@ -2938,7 +2942,7 @@ devel
 opt
 symbol
 :
-Bx64
+Bx
 tier
 :
 2
@@ -3086,6 +3090,8 @@ osx
 -
 cross
 -
+aarch64
+-
 add
 -
 on
@@ -3095,7 +3101,7 @@ devel
 opt
 symbol
 :
-Ba64
+B
 tier
 :
 2
