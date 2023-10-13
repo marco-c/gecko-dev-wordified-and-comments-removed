@@ -410,9 +410,9 @@ deps
 /
 third_party
 /
-android_sdk
-:
 cpu_features
+:
+ndk_compat
 "
 ]
 }
