@@ -464,6 +464,9 @@ Wait
 self
 .
 marionette
+timeout
+=
+30
 )
 .
 until
