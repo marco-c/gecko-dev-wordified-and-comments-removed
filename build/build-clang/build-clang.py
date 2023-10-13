@@ -1828,9 +1828,9 @@ insert
 1
 "
 -
-DLLVM_USE_CRT_RELEASE
+DCMAKE_MSVC_RUNTIME_LIBRARY
 =
-MT
+MultiThreaded
 "
 )
             
