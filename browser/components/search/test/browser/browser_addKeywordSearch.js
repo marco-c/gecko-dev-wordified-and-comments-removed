@@ -12,7 +12,7 @@ path
 action
 :
 "
-http
+https
 :
 /
 /
@@ -37,7 +37,7 @@ path
 action
 :
 "
-http
+https
 :
 /
 /
@@ -86,7 +86,7 @@ String
 action
 :
 "
-http
+https
 :
 /
 /
@@ -120,7 +120,7 @@ String
 action
 :
 "
-http
+https
 :
 /
 /
@@ -152,7 +152,7 @@ const
 TEST_URL
 =
 "
-http
+https
 :
 /
 /
