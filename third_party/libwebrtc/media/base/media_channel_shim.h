@@ -464,7 +464,7 @@ const
 override
 {
 return
-MEDIA_TYPE_VIDEO
+MEDIA_TYPE_AUDIO
 ;
 }
 void
