@@ -9621,11 +9621,11 @@ t
 _target_task
 (
 "
-snap_upstream_build
+snap_upstream_tests
 "
 )
 def
-target_tasks_snap_upstream_build
+target_tasks_snap_upstream_tests
 (
 full_task_graph
 parameters
@@ -9640,8 +9640,10 @@ graph_config
 Select
 tasks
 for
-building
-snap
+testing
+Snap
+package
+built
 as
 upstream
 .
@@ -9649,17 +9651,19 @@ Omit
 -
 try
 because
+    
 it
 does
 not
-    
 really
 make
 sense
 on
+a
 m
 -
 c
+cron
     
 "
 "
@@ -9684,7 +9688,7 @@ snap
 -
 upstream
 -
-build
+test
 "
 in
 name
