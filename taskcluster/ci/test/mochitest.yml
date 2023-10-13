@@ -1046,14 +1046,12 @@ test
 platform
 :
 android
--
-em
--
-7
 .
 *
+/
+debug
 :
-4
+10
 linux
 .
 *
@@ -1161,7 +1159,7 @@ run
 -
 time
 :
-5400
+3600
 allow
 -
 software
