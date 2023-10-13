@@ -147,6 +147,13 @@ pageActions
 persistedActions
 "
 "
+browser
+.
+uiCustomization
+.
+state
+"
+"
 doh
 -
 rollout
