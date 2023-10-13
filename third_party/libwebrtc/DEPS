@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-599c746c73d12f315985327b92d468d616f6c8e6
+c90a8a46d73abe4023c567cedc5e810815bc13ea
 '
 #
 Fetch
@@ -188,7 +188,7 @@ version
 :
 12
 .
-20230520
+20230529
 .
 1
 .
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-753442dca0afdca53723fded9d2e43f702b3fe53
+31dfd0132c0797fb8e4a5ac98ec809968256ef9d
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-55a78b376aa25479551c919a030bc5197b08fa61
+fc63a8038a1e9aa619d39ad51484013af20d84b6
 '
 '
 src
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-d1ef11a393662c97d2da23c3c300f17f04ccbb3f
+e9059d63e16d5cd34d1338858a7022e302d877f4
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-e72b926fbadbf69e91025a232ba706a541d69cd5
+fb8057c70141d348bc996f1448913a34752bcf2f
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-d3eb3276b6a90b5bd0a76101ca9eb91b385569aa
+ed12d8874fb083bfa40104a7e2c50121e643c42d
 '
 '
 src
@@ -1515,7 +1515,7 @@ tools
 depot_tools
 .
 git
-04afb4b256a1aab562b0fcfaf7cd9ffe4ec42c1b
+530d86d40b2aab70e0541ea0f296388ec09f0576
 '
 '
 src
@@ -2953,7 +2953,7 @@ chromium
 src
 /
 tools
-f16da7df22588099fde2deb080fe127aa71ebf23
+e9420d47340764d4875618841444b12b7a6f1898
 '
 '
 src
@@ -3287,9 +3287,9 @@ version
 '
 :
 '
-4SUfq6Z07erzQpU25SW1RpyFHQCWuItCDAuNoTM
+XWCzrvrII9u0oJAMfbFriv_r2O
 -
-DEkC
+pDuao4UYkYHzAE1UC
 '
 }
 ]
