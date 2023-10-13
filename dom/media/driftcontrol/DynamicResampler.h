@@ -393,6 +393,10 @@ underrun
 =
 true
 ;
+mIsPreBufferSet
+=
+false
+;
 mInternalInBuffer
 [
 aChannelIndex
@@ -650,6 +654,10 @@ resample
 )
 ;
 }
+mIsPreBufferSet
+=
+false
+;
 return
 true
 ;

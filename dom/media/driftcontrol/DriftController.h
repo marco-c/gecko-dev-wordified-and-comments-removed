@@ -56,6 +56,11 @@ uint32_t
 aDesiredBuffering
 )
 ;
+void
+ResetAfterUnderrun
+(
+)
+;
 uint32_t
 GetCorrectedTargetRate
 (
