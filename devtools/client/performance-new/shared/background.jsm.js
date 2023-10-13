@@ -733,6 +733,9 @@ WrWorker
 "
 CanvasWorkers
 "
+"
+TextureUpdate
+"
 ]
 duration
 :
@@ -903,6 +906,9 @@ SwComposite
 "
 "
 webrtc
+"
+"
+TextureUpdate
 "
 ]
 duration
