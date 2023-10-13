@@ -1144,7 +1144,10 @@ JsepSessionImpl
 AddDtlsFingerprint
 (
 const
-nsACString
+std
+:
+:
+string
 &
 algorithm
 const

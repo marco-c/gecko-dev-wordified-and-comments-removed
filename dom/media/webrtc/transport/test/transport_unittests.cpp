@@ -1962,7 +1962,6 @@ sha
 -
 1
 "
-_ns
 )
 enabled_cipersuites_
 (
