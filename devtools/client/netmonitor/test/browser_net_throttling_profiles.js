@@ -421,6 +421,13 @@ at
 1
 )
 ;
+if
+(
+requestItem
+.
+eventTimings
+)
+{
 ok
 (
 requestItem
@@ -445,6 +452,7 @@ id
 }
 )
 ;
+}
 }
 await
 teardown
