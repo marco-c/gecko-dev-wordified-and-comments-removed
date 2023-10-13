@@ -4740,6 +4740,9 @@ compute
 mut
 input
 registration
+self
+.
+stylist
 )
 {
 map
@@ -6902,6 +6905,7 @@ compute
 mut
 input
 registration
+stylist
 )
 {
 custom_properties
@@ -7442,6 +7446,7 @@ compute
 mut
 fallback_input
 registration
+stylist
 )
 {
 return
@@ -7566,6 +7571,7 @@ compute
 mut
 fallback_input
 registration
+stylist
 )
 {
 partial_computed_value
