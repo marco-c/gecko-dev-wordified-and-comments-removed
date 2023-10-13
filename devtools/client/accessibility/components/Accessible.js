@@ -279,7 +279,7 @@ js
 )
 ;
 const
-Tree
+VirtualizedTree
 =
 createFactory
 (
@@ -1830,7 +1830,7 @@ accessibleFront
 )
 {
 return
-Tree
+VirtualizedTree
 (
 {
 ref
