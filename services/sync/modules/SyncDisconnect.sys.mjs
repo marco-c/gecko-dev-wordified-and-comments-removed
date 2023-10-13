@@ -109,7 +109,7 @@ sys
 .
 mjs
 "
-FxAccountsCommon
+Log
 :
 "
 resource
@@ -120,13 +120,13 @@ gre
 /
 modules
 /
-FxAccountsCommon
+Log
 .
 sys
 .
 mjs
 "
-Log
+PREF_LAST_FXA_USER
 :
 "
 resource
@@ -137,7 +137,7 @@ gre
 /
 modules
 /
-Log
+FxAccountsCommon
 .
 sys
 .
@@ -893,8 +893,6 @@ prefs
 clearUserPref
 (
 lazy
-.
-FxAccountsCommon
 .
 PREF_LAST_FXA_USER
 )
