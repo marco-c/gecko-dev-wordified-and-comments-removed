@@ -1719,14 +1719,6 @@ kNumTimers
 /
 2
 )
--
-TimeDuration
-:
-:
-FromMilliseconds
-(
-50
-)
 ;
 for
 (

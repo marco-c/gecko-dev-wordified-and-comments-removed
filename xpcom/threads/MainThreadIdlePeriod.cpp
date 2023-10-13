@@ -78,7 +78,7 @@ const
 uint32_t
 kMaxTimerThreadBound
 =
-25
+5
 ;
 namespace
 mozilla
