@@ -266,19 +266,6 @@ UrlbarPrefs
 get
 (
 "
-quickSuggestRemoteSettingsEnabled
-"
-)
-&
-&
-(
-lazy
-.
-UrlbarPrefs
-.
-get
-(
-"
 suggest
 .
 quicksuggest
@@ -301,7 +288,6 @@ quicksuggest
 .
 sponsored
 "
-)
 )
 )
 ;

@@ -816,7 +816,6 @@ shouldEnable
 )
 {
 return
-(
 lazy
 .
 UrlbarPrefs
@@ -826,19 +825,6 @@ get
 "
 quickSuggestRustEnabled
 "
-)
-&
-&
-lazy
-.
-UrlbarPrefs
-.
-get
-(
-"
-quickSuggestRemoteSettingsEnabled
-"
-)
 )
 ;
 }
