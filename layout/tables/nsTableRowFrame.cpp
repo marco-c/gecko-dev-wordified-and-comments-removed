@@ -4078,15 +4078,6 @@ desiredSize
 aReflowInput
 )
 ;
-WritingMode
-wm
-=
-aReflowInput
-.
-GetWritingMode
-(
-)
-;
 NS_ASSERTION
 (
 cellFrame
