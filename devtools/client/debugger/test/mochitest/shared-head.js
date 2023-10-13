@@ -6857,7 +6857,7 @@ assertBreakpointSnippet
 (
 dbg
 index
-snippet
+expectedSnippet
 )
 {
 const
@@ -6876,8 +6876,8 @@ innerText
 ;
 is
 (
-snippet
 actualSnippet
+expectedSnippet
 Breakpoint
 {
 index
