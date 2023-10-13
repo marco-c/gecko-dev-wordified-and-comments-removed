@@ -203,8 +203,20 @@ foo
 .
 manifest
 )
+define
 py_action
-=
+(
+if
+(
+3
+)
+cd
+(
+3
+)
+&
+&
+)
 (
 PYTHON3
 )
@@ -220,3 +232,4 @@ action
 (
 2
 )
+endef

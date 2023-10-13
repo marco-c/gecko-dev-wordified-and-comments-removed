@@ -1068,14 +1068,12 @@ Compressing
 .
 .
 '
-cd
+(
+call
+MAKE_PACKAGE
 (
 DIST
 )
-&
-&
-(
-MAKE_PACKAGE
 )
 make
 -
