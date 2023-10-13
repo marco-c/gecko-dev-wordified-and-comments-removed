@@ -734,6 +734,7 @@ merino_adm_sponsored
 merino_amo
 merino_top_picks
 merino_wikipedia
+recent_search
 remote_tab
 rs_adm_nonsponsored
 rs_adm_sponsored
@@ -1402,6 +1403,7 @@ merino_adm_sponsored
 merino_amo
 merino_top_picks
 merino_wikipedia
+recent_search
 remote_tab
 rs_adm_nonsponsored
 rs_adm_sponsored
@@ -1726,6 +1728,7 @@ trending_search
 trending_search_rich
 top_pick
 top_site
+recent_search
 remote_tab
 addon
 general
@@ -1836,6 +1839,7 @@ merino_adm_sponsored
 merino_amo
 merino_top_picks
 merino_wikipedia
+recent_search
 remote_tab
 rs_adm_nonsponsored
 rs_adm_sponsored

@@ -278,6 +278,13 @@ sys
 mjs
 "
 "
+UrlbarProviderRecentSearches
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderRemoteTabs
 .
 sys
