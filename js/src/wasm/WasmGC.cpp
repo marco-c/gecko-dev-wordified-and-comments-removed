@@ -1157,10 +1157,8 @@ bool
 wasm
 :
 :
-IsValidStackMapKey
+IsPlausibleStackMapKey
 (
-bool
-debugEnabled
 const
 uint8_t
 *

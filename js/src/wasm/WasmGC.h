@@ -1893,10 +1893,8 @@ skipBarrier
 ifdef
 DEBUG
 bool
-IsValidStackMapKey
+IsPlausibleStackMapKey
 (
-bool
-debugEnabled
 const
 uint8_t
 *
