@@ -1572,6 +1572,11 @@ GetTexture
 mTextureId
 )
 ;
+if
+(
+texture
+)
+{
 mAllocator
 -
 >
@@ -1588,6 +1593,7 @@ Unregister
 mTextureId
 )
 ;
+}
 }
 else
 {
@@ -1622,6 +1628,7 @@ Get
 PostUpdateTextureDataTask
 (
 mTextureId
+this
 mWrappedTextureHost
 mAllocator
 )
@@ -1961,13 +1968,6 @@ if
 mWrappedTextureHost
 )
 {
-mWrappedTextureHost
--
->
-NotifyNotUsed
-(
-)
-;
 mWrappedTextureHost
 =
 nullptr
