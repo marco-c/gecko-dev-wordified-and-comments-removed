@@ -278,9 +278,6 @@ init
 "
 [
 {
-breakAwayFromJob
-:
-false
 comspec
 :
 Services
