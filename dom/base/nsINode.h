@@ -2620,6 +2620,17 @@ false
 }
 virtual
 bool
+IsSVGFilterPrimitiveElement
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
+bool
 IsSVGGeometryElement
 (
 )
