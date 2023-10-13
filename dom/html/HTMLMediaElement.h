@@ -295,6 +295,9 @@ namespace
 dom
 {
 class
+HTMLSourceElement
+;
+class
 MediaKeys
 ;
 class
@@ -3190,7 +3193,7 @@ LoadResource
 (
 )
 ;
-Element
+HTMLSourceElement
 *
 GetNextSource
 (
