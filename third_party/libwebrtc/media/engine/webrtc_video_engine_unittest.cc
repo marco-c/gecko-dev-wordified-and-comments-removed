@@ -10949,15 +10949,6 @@ absl
 :
 WrapUnique
 (
-static_cast
-<
-cricket
-:
-:
-WebRtcVideoChannel
-*
->
-(
 engine_
 .
 CreateMediaChannel
@@ -10999,7 +10990,6 @@ video_bitrate_allocator_factory_
 .
 get
 (
-)
 )
 )
 )
@@ -11245,7 +11235,7 @@ std
 :
 unique_ptr
 <
-WebRtcVideoChannel
+VideoMediaChannel
 >
 channel_
 ;
@@ -11343,7 +11333,7 @@ EXPECT_TRUE
 channel_
 -
 >
-AddRecvStream
+AddDefaultRecvStreamForTesting
 (
 cricket
 :
@@ -11355,7 +11345,6 @@ CreateLegacy
 (
 kSsrc
 )
-true
 )
 )
 ;
@@ -11450,7 +11439,7 @@ EXPECT_TRUE
 channel_
 -
 >
-AddRecvStream
+AddDefaultRecvStreamForTesting
 (
 cricket
 :
@@ -11462,7 +11451,6 @@ CreateLegacy
 (
 kSsrc
 )
-true
 )
 )
 ;
@@ -11569,7 +11557,6 @@ CreateLegacy
 (
 kSsrc
 )
-false
 )
 )
 ;
@@ -11678,7 +11665,6 @@ kSsrc
 +
 1
 )
-false
 )
 )
 ;
@@ -11767,7 +11753,7 @@ EXPECT_TRUE
 channel_
 -
 >
-AddRecvStream
+AddDefaultRecvStreamForTesting
 (
 cricket
 :
@@ -11781,7 +11767,6 @@ kSsrc
 +
 1
 )
-true
 )
 )
 ;
@@ -11879,7 +11864,7 @@ EXPECT_TRUE
 channel_
 -
 >
-AddRecvStream
+AddDefaultRecvStreamForTesting
 (
 cricket
 :
@@ -11891,7 +11876,6 @@ CreateLegacy
 (
 kSsrc
 )
-true
 )
 )
 ;
