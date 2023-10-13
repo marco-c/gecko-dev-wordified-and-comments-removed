@@ -1249,6 +1249,15 @@ Password
 .
 policy
 -
+PrintingEnabled
+=
+Enable
+or
+disable
+printing
+.
+policy
+-
 NetworkPrediction
 =
 Enable

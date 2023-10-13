@@ -206,6 +206,13 @@ js
 ]
 [
 "
+browser_print_disabled
+.
+js
+"
+]
+[
+"
 browser_print_copies
 .
 js
