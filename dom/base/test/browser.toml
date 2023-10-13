@@ -792,6 +792,13 @@ js
 ]
 [
 "
+browser_user_input_handling_delay_invisible_iframe
+.
+js
+"
+]
+[
+"
 browser_user_input_handling_delay_reload_ticks
 .
 js
