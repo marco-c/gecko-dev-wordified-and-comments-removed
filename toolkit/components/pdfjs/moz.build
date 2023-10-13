@@ -39,7 +39,7 @@ test
 /
 mochitest
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS

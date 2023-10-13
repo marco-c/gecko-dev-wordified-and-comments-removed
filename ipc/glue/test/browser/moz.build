@@ -40,11 +40,11 @@ MOCHITEST_MANIFESTS
 "
 mochitest_audio_off
 .
-ini
+toml
 "
 "
 mochitest_audio_on
 .
-ini
+toml
 "
 ]

@@ -69,7 +69,7 @@ test
 /
 mochitest
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS

@@ -300,6 +300,6 @@ mochitests
 /
 mochitest
 .
-ini
+toml
 "
 ]

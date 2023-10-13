@@ -59,13 +59,13 @@ mochitest
 /
 mochitest
 .
-ini
+toml
 "
 "
 widgets
 /
 mochitest
 .
-ini
+toml
 "
 ]

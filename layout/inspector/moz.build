@@ -29,7 +29,7 @@ tests
 /
 mochitest
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES
