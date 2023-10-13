@@ -244,10 +244,9 @@ stat
 kind
 =
 =
-RTCMediaStreamTrackKind
-:
-:
-kAudio
+"
+audio
+"
 )
 )
 {
