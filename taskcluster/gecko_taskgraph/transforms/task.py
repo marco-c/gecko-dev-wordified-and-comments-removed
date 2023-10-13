@@ -13134,6 +13134,20 @@ job_expiry_from_now
 cap
 cap_from_now
         
+artifact_expires
+=
+expires
+if
+"
+expiration
+-
+policy
+"
+in
+job
+else
+job_expiry
+        
 for
 artifact
 in
@@ -13165,7 +13179,7 @@ expires
 -
 after
 "
-expires
+artifact_expires
 )
             
 if
