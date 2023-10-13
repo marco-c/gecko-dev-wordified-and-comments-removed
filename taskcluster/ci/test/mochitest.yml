@@ -8140,14 +8140,6 @@ android
 :
 [
 ]
-.
-*
-wayland
-.
-*
-:
-[
-]
 default
 :
 built
