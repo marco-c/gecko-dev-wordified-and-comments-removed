@@ -528,6 +528,16 @@ autofunction
 :
 test_driver
 .
+confirm_idp_login
+.
+.
+js
+:
+autofunction
+:
+:
+test_driver
+.
 select_fedcm_account
 .
 .
