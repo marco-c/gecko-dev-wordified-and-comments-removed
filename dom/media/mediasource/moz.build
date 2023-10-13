@@ -70,14 +70,14 @@ test
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
 /
 mochitest_compat
 .
-ini
+toml
 "
 ]
 EXPORTS

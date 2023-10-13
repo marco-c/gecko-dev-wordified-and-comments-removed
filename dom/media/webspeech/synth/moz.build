@@ -78,7 +78,7 @@ test
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -87,7 +87,7 @@ startup
 /
 mochitest
 .
-ini
+toml
 "
 ]
 XPIDL_MODULE

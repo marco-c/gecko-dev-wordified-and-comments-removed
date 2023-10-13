@@ -285,7 +285,7 @@ tests
 /
 mochitest
 .
-ini
+toml
 "
 )
 :
@@ -618,6 +618,6 @@ tests
 /
 mochitest
 .
-ini
+toml
 "
 ]
