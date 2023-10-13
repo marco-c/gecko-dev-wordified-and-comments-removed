@@ -8769,6 +8769,12 @@ case
 JSOp
 :
 :
+OptimizeGetIterator
+:
+case
+JSOp
+:
+:
 IsNullOrUndefined
 :
 case

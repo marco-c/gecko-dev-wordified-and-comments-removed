@@ -11581,6 +11581,12 @@ case
 JSOp
 :
 :
+OptimizeGetIterator
+:
+case
+JSOp
+:
+:
 OptimizeSpreadCall
 :
 return

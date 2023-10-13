@@ -161,6 +161,11 @@ _
 (
 CloseIter
 )
+\
+_
+(
+OptimizeGetIterator
+)
 }
 }
 #
