@@ -483,9 +483,6 @@ true
 isBestMatch
 :
 true
-isEmptyDescription
-:
-true
 url
 :
 {
@@ -637,13 +634,15 @@ label
 "
 )
 "
-Sponsored
+Top
+pick
 "
 "
 Row
 has
 '
-Sponsored
+Top
+pick
 '
 group
 label
