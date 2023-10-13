@@ -191,6 +191,10 @@ configured_capability_
 ;
 bool
 started_
+RTC_GUARDED_BY
+(
+api_lock_
+)
 ;
 struct
 pw_stream

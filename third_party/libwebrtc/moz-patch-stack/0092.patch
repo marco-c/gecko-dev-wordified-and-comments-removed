@@ -151,10 +151,10 @@ video_capture_pipewire
 .
 h
 index
-5ce02d1adf
+2cd6cca34b
 .
 .
-67345305df
+01ff9c4ac7
 100644
 -
 -
@@ -201,6 +201,10 @@ configured_capability_
 ;
 bool
 started_
+RTC_GUARDED_BY
+(
+api_lock_
+)
 ;
 -
 struct
