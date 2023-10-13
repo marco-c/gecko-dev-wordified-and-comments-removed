@@ -1898,16 +1898,6 @@ response
 .
 write
 (
-"
-<
-!
-DOCTYPE
-html
->
-\
-n
-"
-+
 HTML
 (
 HEAD
