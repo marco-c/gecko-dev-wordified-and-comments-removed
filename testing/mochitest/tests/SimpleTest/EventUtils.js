@@ -2485,6 +2485,8 @@ getDragService
 (
 )
 {
+try
+{
 return
 _EU_Cc
 [
@@ -2508,6 +2510,16 @@ _EU_Ci
 nsIDragService
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+null
+;
+}
 }
 function
 _maybeEndDragSession
