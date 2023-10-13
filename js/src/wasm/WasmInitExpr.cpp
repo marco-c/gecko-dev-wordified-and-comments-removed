@@ -2387,8 +2387,6 @@ ModuleEnvironment
 env
 ValType
 expected
-uint32_t
-maxInitializedGlobalsIndexPlus1
 Maybe
 <
 LitVal
@@ -2417,7 +2415,6 @@ iter
 startInitExpr
 (
 expected
-maxInitializedGlobalsIndexPlus1
 )
 )
 {
@@ -3456,8 +3453,6 @@ ModuleEnvironment
 env
 ValType
 expected
-uint32_t
-maxInitializedGlobalsIndexPlus1
 InitExpr
 *
 expr
@@ -3492,7 +3487,6 @@ DecodeConstantExpression
 d
 env
 expected
-maxInitializedGlobalsIndexPlus1
 &
 literal
 )

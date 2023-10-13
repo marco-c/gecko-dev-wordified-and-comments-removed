@@ -77,8 +77,6 @@ ModuleEnvironment
 env
 ValType
 expected
-uint32_t
-maxInitializedGlobalsIndexPlus1
 Maybe
 <
 LitVal
@@ -166,8 +164,6 @@ ModuleEnvironment
 env
 ValType
 expected
-uint32_t
-maxInitializedGlobalsIndexPlus1
 InitExpr
 *
 expr

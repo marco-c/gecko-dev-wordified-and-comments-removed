@@ -122,6 +122,9 @@ funcs
 uint32_t
 numFuncImports
 ;
+uint32_t
+numGlobalImports
+;
 GlobalDescVector
 globals
 ;
@@ -211,6 +214,10 @@ features
 features
 )
 numFuncImports
+(
+0
+)
+numGlobalImports
 (
 0
 )
