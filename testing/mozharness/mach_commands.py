@@ -1105,6 +1105,7 @@ re
 .
 compile
 (
+r
 "
 ^
 firefox
@@ -1133,6 +1134,7 @@ re
 .
 compile
 (
+r
 "
 ^
 firefox
@@ -1161,6 +1163,7 @@ re
 .
 compile
 (
+r
 "
 ^
 firefox

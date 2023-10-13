@@ -2569,6 +2569,7 @@ re
 .
 match
 (
+r
 "
 BogoMIPS
 .

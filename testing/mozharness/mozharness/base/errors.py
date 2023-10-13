@@ -872,6 +872,7 @@ re
 .
 compile
 (
+r
 "
 "
 "
@@ -901,6 +902,7 @@ re
 .
 compile
 (
+r
 "
 "
 "

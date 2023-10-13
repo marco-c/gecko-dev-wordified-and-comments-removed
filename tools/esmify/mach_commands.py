@@ -1445,6 +1445,7 @@ re
 .
 sub
 (
+r
 "
 \
 *
@@ -1753,7 +1754,7 @@ hg
 files
 "
             
-f
+rf
 "
 set
 :
@@ -2117,6 +2118,7 @@ grep
 "
 EXPORTED_SYMBOLS
 =
+\
 \
 [
 "
