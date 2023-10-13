@@ -1976,7 +1976,7 @@ setCurrentChunk
 0
 )
 ;
-setStartPosition
+setStartToCurrentPosition
 (
 )
 ;
@@ -2766,7 +2766,7 @@ setCurrentChunk
 0
 )
 ;
-setStartPosition
+setStartToCurrentPosition
 (
 )
 ;
@@ -8927,7 +8927,7 @@ setCurrentChunk
 )
 ;
 }
-setStartPosition
+setStartToCurrentPosition
 (
 )
 ;
@@ -9310,7 +9310,7 @@ js
 Nursery
 :
 :
-setStartPosition
+setStartToCurrentPosition
 (
 )
 {
