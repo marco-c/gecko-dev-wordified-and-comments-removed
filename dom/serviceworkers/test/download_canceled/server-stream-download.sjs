@@ -764,9 +764,7 @@ TICK_INTERVAL
 )
 ;
 }
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

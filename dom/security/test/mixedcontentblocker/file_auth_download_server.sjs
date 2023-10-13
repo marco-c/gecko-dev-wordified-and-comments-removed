@@ -79,9 +79,7 @@ the
 query
 string
 .
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

@@ -461,9 +461,7 @@ position
 }
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -478,9 +476,7 @@ timer
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 )

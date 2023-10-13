@@ -129,9 +129,7 @@ processAsync
 ;
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -146,9 +144,7 @@ timer
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 )
@@ -169,9 +165,7 @@ finish
 ;
 }
 200
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .

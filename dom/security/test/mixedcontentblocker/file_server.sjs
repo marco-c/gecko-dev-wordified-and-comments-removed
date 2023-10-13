@@ -187,9 +187,7 @@ file
 var
 testContentFile
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -206,9 +204,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -218,9 +214,7 @@ get
 "
 CurWorkD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -269,9 +263,7 @@ i
 var
 testContentFileStream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -292,9 +284,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )

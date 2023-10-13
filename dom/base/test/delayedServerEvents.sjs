@@ -282,9 +282,7 @@ response
 ;
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -299,9 +297,7 @@ timer
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 )
@@ -312,9 +308,7 @@ initWithCallback
 (
 sendNextString
 500
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .

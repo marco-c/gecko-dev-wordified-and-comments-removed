@@ -20,9 +20,7 @@ timer
 const
 nsITimer
 =
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 ;
@@ -107,9 +105,7 @@ n
 ;
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
