@@ -382,29 +382,25 @@ object
 )
 :
     
-Tag_ScriptFrameIterData
+Tag_InterpreterFrame
 =
 0x0
     
-Tag_InterpreterFrame
+Tag_BaselineFrame
 =
 0x1
     
-Tag_BaselineFrame
+Tag_RematerializedFrame
 =
 0x2
     
-Tag_RematerializedFrame
+Tag_WasmDebugFrame
 =
 0x3
     
-Tag_WasmDebugFrame
-=
-0x4
-    
 TagMask
 =
-0x7
+0x3
     
 def
 __init__
@@ -484,44 +480,6 @@ ptr
 AbstractFramePtr
 .
 TagMask
-        
-if
-tag
-=
-=
-AbstractFramePtr
-.
-Tag_ScriptFrameIterData
-:
-            
-label
-=
-"
-js
-:
-:
-ScriptFrameIter
-:
-:
-Data
-"
-            
-ptr
-=
-ptr
-.
-cast
-(
-self
-.
-itc
-.
-tScriptFrameIterData
-.
-pointer
-(
-)
-)
         
 if
 tag
