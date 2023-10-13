@@ -1508,8 +1508,10 @@ result
 }
 protected
 :
+already_AddRefed
+<
 AsyncPanZoomController
-*
+>
 NewAPZCInstance
 (
 LayersId

@@ -948,8 +948,10 @@ mTreeLock
 )
 ;
 virtual
+already_AddRefed
+<
 AsyncPanZoomController
-*
+>
 NewAPZCInstance
 (
 LayersId

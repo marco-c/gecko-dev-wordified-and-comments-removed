@@ -5,8 +5,10 @@ APZTestCommon
 .
 h
 "
+already_AddRefed
+<
 AsyncPanZoomController
-*
+>
 TestAPZCTreeManager
 :
 :
@@ -33,8 +35,10 @@ aController
 )
 ;
 return
-new
+MakeRefPtr
+<
 TestAsyncPanZoomController
+>
 (
 aLayersId
 mcc
@@ -43,6 +47,10 @@ AsyncPanZoomController
 :
 :
 USE_GESTURE_DETECTOR
+)
+.
+forget
+(
 )
 ;
 }
