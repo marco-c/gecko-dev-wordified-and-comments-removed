@@ -1835,7 +1835,7 @@ self
 .
 _config
 .
-readfp
+read_file
 (
 fp
 )
