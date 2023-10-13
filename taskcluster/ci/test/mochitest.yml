@@ -1024,14 +1024,6 @@ android
 built
 -
 projects
-.
-*
-wayland
-.
-*
-:
-[
-]
 default
 :
 built
