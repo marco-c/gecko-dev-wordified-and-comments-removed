@@ -477,6 +477,11 @@ reportOutOfMemory
 )
 override
 ;
+void
+forwardOutOfMemory
+(
+)
+;
 }
 ;
 class
