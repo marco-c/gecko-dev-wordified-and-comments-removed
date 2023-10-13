@@ -228,12 +228,6 @@ aChannel
 )
 ;
 void
-PrioritizeAsPreload
-(
-)
-final
-;
-void
 StartPendingLoad
 (
 )

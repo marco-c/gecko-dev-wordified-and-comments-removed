@@ -78,12 +78,6 @@ nsIChannel
 aChannel
 )
 ;
-void
-PrioritizeAsPreload
-(
-)
-override
-;
 static
 nsresult
 BuildChannel

@@ -446,14 +446,6 @@ GetOwner
 )
 const
 ;
-virtual
-void
-PrioritizeAsPreload
-(
-)
-override
-{
-}
 protected
 :
 friend

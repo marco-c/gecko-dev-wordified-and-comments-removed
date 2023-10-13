@@ -264,14 +264,6 @@ return
 mChannel
 ;
 }
-virtual
-void
-PrioritizeAsPreload
-(
-)
-=
-0
-;
 static
 void
 AddLoadBackgroundFlag

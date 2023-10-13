@@ -470,13 +470,6 @@ nsIChannel
 aChannel
 )
 ;
-virtual
-void
-PrioritizeAsPreload
-(
-)
-override
-;
 bool
 IsPreload
 (
