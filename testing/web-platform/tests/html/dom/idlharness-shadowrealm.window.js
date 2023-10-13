@@ -39,6 +39,11 @@ mediacapture
 -
 streams
 "
+"
+performance
+-
+timeline
+"
 ]
 )
 ;
