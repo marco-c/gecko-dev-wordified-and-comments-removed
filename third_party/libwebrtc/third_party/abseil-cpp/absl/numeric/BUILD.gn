@@ -177,6 +177,12 @@ core_headers
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_test
 (
 "
@@ -262,6 +268,7 @@ absl
 strings
 "
 ]
+}
 }
 absl_source_set
 (
