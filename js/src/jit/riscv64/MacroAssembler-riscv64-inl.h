@@ -12292,7 +12292,7 @@ src
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -12306,6 +12306,11 @@ Address
 addr
 )
 {
+return
+FaultingCodeOffset
+(
+)
+;
 ma_fst_s
 (
 src
@@ -12313,7 +12318,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -12327,6 +12332,11 @@ BaseIndex
 addr
 )
 {
+return
+FaultingCodeOffset
+(
+)
+;
 ma_fst_s
 (
 src
@@ -12334,7 +12344,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -12348,6 +12358,11 @@ Address
 addr
 )
 {
+return
+FaultingCodeOffset
+(
+)
+;
 ma_fst_d
 (
 src
@@ -12355,7 +12370,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -12369,6 +12384,11 @@ BaseIndex
 addr
 )
 {
+return
+FaultingCodeOffset
+(
+)
+;
 ma_fst_d
 (
 src

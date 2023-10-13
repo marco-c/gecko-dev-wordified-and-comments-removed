@@ -4285,6 +4285,7 @@ defined
 (
 JS_CODEGEN_ARM64
 )
+{
 AutoForbidPoolsAndNops
 afp
 (
@@ -4350,6 +4351,7 @@ sp
 )
 )
 ;
+}
 #
 else
 offsets
@@ -4521,6 +4523,7 @@ poppedFP
 #
 ifdef
 JS_CODEGEN_ARM64
+{
 RegisterOrSP
 sp
 =
@@ -4622,6 +4625,7 @@ setFramePushed
 0
 )
 ;
+}
 #
 else
 #

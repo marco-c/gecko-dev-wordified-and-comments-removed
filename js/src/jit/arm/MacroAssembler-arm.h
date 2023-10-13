@@ -62,6 +62,15 @@ WasmCodegenTypes
 .
 h
 "
+using
+js
+:
+:
+wasm
+:
+:
+FaultingCodeOffsetPair
+;
 namespace
 js
 {
@@ -7174,7 +7183,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load8SignExtend
 (
 const
@@ -7185,7 +7194,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load8SignExtend
 (
 const
@@ -7196,7 +7205,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load8ZeroExtend
 (
 const
@@ -7207,7 +7216,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load8ZeroExtend
 (
 const
@@ -7218,7 +7227,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load16SignExtend
 (
 const
@@ -7229,7 +7238,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load16SignExtend
 (
 const
@@ -7263,7 +7272,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 load16ZeroExtend
 (
 const
@@ -7274,7 +7283,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load16ZeroExtend
 (
 const
@@ -7308,7 +7317,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 load32
 (
 const
@@ -7319,7 +7328,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load32
 (
 const
@@ -7362,7 +7371,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffsetPair
 load64
 (
 const
@@ -7373,6 +7382,10 @@ Register64
 dest
 )
 {
+FaultingCodeOffset
+fco1
+fco2
+;
 bool
 highBeforeLow
 =
@@ -7390,6 +7403,8 @@ if
 highBeforeLow
 )
 {
+fco1
+=
 load32
 (
 HighWord
@@ -7401,6 +7416,8 @@ dest
 high
 )
 ;
+fco2
+=
 load32
 (
 LowWord
@@ -7415,6 +7432,8 @@ low
 }
 else
 {
+fco1
+=
 load32
 (
 LowWord
@@ -7426,6 +7445,8 @@ dest
 low
 )
 ;
+fco2
+=
 load32
 (
 HighWord
@@ -7438,8 +7459,15 @@ high
 )
 ;
 }
+return
+FaultingCodeOffsetPair
+(
+fco1
+fco2
+)
+;
 }
-void
+FaultingCodeOffsetPair
 load64
 (
 const
@@ -7499,6 +7527,10 @@ high
 )
 )
 ;
+FaultingCodeOffset
+fco1
+fco2
+;
 bool
 highBeforeLow
 =
@@ -7526,6 +7558,8 @@ if
 highBeforeLow
 )
 {
+fco1
+=
 load32
 (
 HighWord
@@ -7537,6 +7571,8 @@ dest
 high
 )
 ;
+fco2
+=
 load32
 (
 LowWord
@@ -7551,6 +7587,8 @@ low
 }
 else
 {
+fco1
+=
 load32
 (
 LowWord
@@ -7562,6 +7600,8 @@ dest
 low
 )
 ;
+fco2
+=
 load32
 (
 HighWord
@@ -7574,6 +7614,13 @@ high
 )
 ;
 }
+return
+FaultingCodeOffsetPair
+(
+fco1
+fco2
+)
+;
 }
 template
 <
@@ -7598,7 +7645,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 loadPtr
 (
 const
@@ -7609,7 +7656,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadPtr
 (
 const
@@ -7652,7 +7699,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadDouble
 (
 const
@@ -7663,7 +7710,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadDouble
 (
 const
@@ -7696,7 +7743,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadFloat32
 (
 const
@@ -7707,7 +7754,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadFloat32
 (
 const
@@ -7718,7 +7765,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeOffset
 store8
 (
 Register
@@ -7740,7 +7787,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store8
 (
 Register
@@ -7762,7 +7809,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 store16
 (
 Register
@@ -7784,7 +7831,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store16
 (
 Register
@@ -7842,7 +7889,7 @@ AbsoluteAddress
 address
 )
 ;
-void
+FaultingCodeOffset
 store32
 (
 Register
@@ -7853,7 +7900,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store32
 (
 Register
@@ -7913,7 +7960,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffsetPair
 store64
 (
 Register64
@@ -7922,6 +7969,9 @@ Address
 address
 )
 {
+FaultingCodeOffset
+fco1
+=
 store32
 (
 src
@@ -7933,6 +7983,9 @@ address
 )
 )
 ;
+FaultingCodeOffset
+fco2
+=
 store32
 (
 src
@@ -7944,8 +7997,15 @@ address
 )
 )
 ;
+return
+FaultingCodeOffsetPair
+(
+fco1
+fco2
+)
+;
 }
-void
+FaultingCodeOffsetPair
 store64
 (
 Register64
@@ -7956,6 +8016,9 @@ BaseIndex
 address
 )
 {
+FaultingCodeOffset
+fco1
+=
 store32
 (
 src
@@ -7967,6 +8030,9 @@ address
 )
 )
 ;
+FaultingCodeOffset
+fco2
+=
 store32
 (
 src
@@ -7976,6 +8042,13 @@ HighWord
 (
 address
 )
+)
+;
+return
+FaultingCodeOffsetPair
+(
+fco1
+fco2
 )
 ;
 }
@@ -8146,7 +8219,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 storePtr
 (
 Register

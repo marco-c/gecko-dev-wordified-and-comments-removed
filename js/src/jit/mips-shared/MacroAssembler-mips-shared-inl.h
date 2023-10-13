@@ -6860,7 +6860,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -6874,6 +6874,11 @@ Address
 addr
 )
 {
+return
+FaultingCodeOffset
+(
+)
+;
 ma_sd
 (
 src
@@ -6881,7 +6886,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -6895,6 +6900,11 @@ BaseIndex
 addr
 )
 {
+return
+FaultingCodeOffset
+(
+)
+;
 ma_sd
 (
 src
@@ -6902,7 +6912,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -6916,6 +6926,11 @@ Address
 addr
 )
 {
+return
+FaultingCodeOffset
+(
+)
+;
 ma_ss
 (
 src
@@ -6923,7 +6938,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -6937,6 +6952,11 @@ BaseIndex
 addr
 )
 {
+return
+FaultingCodeOffset
+(
+)
+;
 ma_ss
 (
 src

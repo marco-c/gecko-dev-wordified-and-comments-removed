@@ -5117,7 +5117,7 @@ template
 class
 T
 >
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -5136,6 +5136,7 @@ canonicalizeDoubleIfDeterministic
 src
 )
 ;
+return
 storeUncanonicalizedDouble
 (
 src
@@ -5144,7 +5145,7 @@ dest
 ;
 }
 template
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -5159,7 +5160,7 @@ dest
 )
 ;
 template
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -5204,7 +5205,7 @@ template
 class
 T
 >
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -5223,6 +5224,7 @@ canonicalizeFloatIfDeterministic
 src
 )
 ;
+return
 storeUncanonicalizedFloat32
 (
 src
@@ -5231,7 +5233,7 @@ dest
 ;
 }
 template
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -5246,7 +5248,7 @@ dest
 )
 ;
 template
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
