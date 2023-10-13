@@ -222,9 +222,9 @@ macosx_version_min
 esac
 macosx_sdk
 =
-13
+14
 .
-3
+0
 #
 NOTE
 :
