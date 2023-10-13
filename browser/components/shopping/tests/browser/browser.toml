@@ -175,6 +175,13 @@ js
 ]
 [
 "
+browser_analysis_explainer
+.
+js
+"
+]
+[
+"
 browser_exposure_telemetry
 .
 js
