@@ -2002,6 +2002,26 @@ shipping_product
 "
 )
         
+job
+[
+"
+build
+-
+type
+"
+]
+=
+dep
+.
+attributes
+.
+get
+(
+"
+build_type
+"
+)
+        
 yield
 job
 transforms
