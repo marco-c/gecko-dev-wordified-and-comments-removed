@@ -135,12 +135,6 @@ type_traits
 "
 ]
 }
-if
-(
-!
-moz_webrtc_build
-)
-{
 absl_test
 (
 "
@@ -261,5 +255,4 @@ types
 span
 "
 ]
-}
 }

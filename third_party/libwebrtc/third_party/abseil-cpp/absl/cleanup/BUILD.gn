@@ -182,12 +182,6 @@ core_headers
 "
 ]
 }
-if
-(
-!
-moz_webrtc_build
-)
-{
 absl_test
 (
 "
@@ -240,5 +234,4 @@ absl
 utility
 "
 ]
-}
 }

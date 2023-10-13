@@ -80,12 +80,6 @@ utility
 "
 ]
 }
-if
-(
-!
-moz_webrtc_build
-)
-{
 absl_source_set
 (
 "
@@ -288,7 +282,6 @@ memory
 "
 ]
 }
-}
 absl_source_set
 (
 "
@@ -425,7 +418,6 @@ base
 :
 core_headers
 "
-#
 "
 /
 /
@@ -471,12 +463,6 @@ type_traits
 "
 ]
 }
-if
-(
-!
-moz_webrtc_build
-)
-{
 absl_source_set
 (
 "
@@ -738,7 +724,6 @@ absl
 "
 ]
 }
-}
 absl_source_set
 (
 "
@@ -758,17 +743,14 @@ h
 deps
 =
 [
-#
 "
 :
 container_memory
 "
-#
 "
 :
 hash_function_defaults
 "
-#
 "
 :
 raw_hash_map
@@ -818,12 +800,6 @@ memory
 "
 ]
 }
-if
-(
-!
-moz_webrtc_build
-)
-{
 absl_source_set
 (
 "
@@ -3468,5 +3444,4 @@ optional
 #
 ]
 #
-}
 }
