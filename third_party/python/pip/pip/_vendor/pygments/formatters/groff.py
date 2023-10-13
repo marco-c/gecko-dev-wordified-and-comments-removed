@@ -46,7 +46,7 @@ copyright
 Copyright
 2006
 -
-2022
+2023
 by
 the
 Pygments
@@ -609,7 +609,10 @@ color
 for
 color
 in
+sorted
+(
 colors
+)
 :
             
 outfile

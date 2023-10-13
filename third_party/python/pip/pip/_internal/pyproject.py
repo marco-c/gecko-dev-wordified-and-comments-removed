@@ -555,7 +555,10 @@ None
         
 use_pep517
 =
+(
+            
 has_pyproject
+            
 or
 not
 importlib
@@ -567,6 +570,21 @@ find_spec
 "
 setuptools
 "
+)
+            
+or
+not
+importlib
+.
+util
+.
+find_spec
+(
+"
+wheel
+"
+)
+        
 )
     
 assert

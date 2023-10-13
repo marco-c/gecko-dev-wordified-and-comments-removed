@@ -2776,12 +2776,6 @@ self
 _wheel_cache
 is
 None
-or
-self
-.
-preparer
-.
-require_hashes
 :
             
 return

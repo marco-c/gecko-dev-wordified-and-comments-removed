@@ -266,11 +266,11 @@ buffer
 line
 )
                 
-del
 buffer
-[
-:
-]
+.
+clear
+(
+)
             
 else
 :
@@ -381,3 +381,22 @@ __buffer
 [
 :
 ]
+    
+def
+fileno
+(
+self
+)
+-
+>
+int
+:
+        
+return
+self
+.
+__file
+.
+fileno
+(
+)

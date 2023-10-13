@@ -5485,14 +5485,9 @@ memoryview
                 
 n
 =
-len
-(
-obj
-)
-*
 obj
 .
-itemsize
+nbytes
                 
 if
 n

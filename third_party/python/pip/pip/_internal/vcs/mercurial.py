@@ -160,6 +160,10 @@ str
         
 return
 [
+"
+-
+r
+"
 rev
 ]
     

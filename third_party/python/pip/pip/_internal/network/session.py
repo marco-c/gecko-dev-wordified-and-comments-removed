@@ -2372,7 +2372,8 @@ info
 msg
 )
         
-host_port
+parsed_host
+parsed_port
 =
 parse_netloc
 (
@@ -2380,7 +2381,38 @@ host
 )
         
 if
-host_port
+parsed_host
+is
+None
+:
+            
+raise
+ValueError
+(
+f
+"
+Trusted
+host
+URL
+must
+include
+a
+host
+part
+:
+{
+host
+!
+r
+}
+"
+)
+        
+if
+(
+parsed_host
+parsed_port
+)
 not
 in
 self
@@ -2394,7 +2426,10 @@ pip_trusted_origins
 .
 append
 (
-host_port
+(
+parsed_host
+parsed_port
+)
 )
         
 self
@@ -2440,10 +2475,7 @@ _trusted_host_adapter
         
 if
 not
-host_port
-[
-1
-]
+parsed_port
 :
             
 self

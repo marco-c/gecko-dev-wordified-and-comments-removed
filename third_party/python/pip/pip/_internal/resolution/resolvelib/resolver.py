@@ -481,9 +481,9 @@ reporter
 try
 :
             
-try_to_avoid_resolution_too_deep
+limit_how_complex_resolution_can_be
 =
-2000000
+200000
             
 result
 =
@@ -501,7 +501,7 @@ collected
 requirements
 max_rounds
 =
-try_to_avoid_resolution_too_deep
+limit_how_complex_resolution_can_be
             
 )
         
@@ -861,6 +861,24 @@ prepare_linked_requirements_more
 (
 reqs
 )
+        
+for
+req
+in
+reqs
+:
+            
+req
+.
+prepared
+=
+True
+            
+req
+.
+needs_more_preparation
+=
+False
         
 return
 req_set

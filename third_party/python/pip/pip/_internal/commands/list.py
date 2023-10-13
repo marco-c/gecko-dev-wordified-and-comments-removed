@@ -612,6 +612,8 @@ json
             
 help
 =
+(
+                
 "
 Select
 the
@@ -626,7 +628,28 @@ default
 freeze
 or
 json
+.
 "
+                
+"
+The
+'
+freeze
+'
+format
+cannot
+be
+used
+with
+the
+-
+-
+outdated
+option
+.
+"
+            
+)
         
 )
         
@@ -962,8 +985,7 @@ format
 '
 freeze
 '
-can
-not
+cannot
 be
 used
 with
