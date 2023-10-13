@@ -139,12 +139,6 @@ mozilla
 :
 TimeDuration
 ;
-using
-mozilla
-:
-:
-TimeStamp
-;
 static
 constexpr
 double
