@@ -381,7 +381,7 @@ InternalItem
 )
 ;
 void
-FlushStyleIfNeeded
+FlushIfNeeded
 (
 )
 ;
