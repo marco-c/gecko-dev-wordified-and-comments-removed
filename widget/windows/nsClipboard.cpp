@@ -2373,7 +2373,7 @@ Yes
 mozilla
 :
 :
-NeedsWindows11SuggestedActionsWorkaround
+IsWin1122H2OrLater
 (
 )
 ;

@@ -267,7 +267,7 @@ IsWindows10BuildOrLater
 }
 MOZ_ALWAYS_INLINE
 bool
-NeedsWindows11SuggestedActionsWorkaround
+IsWin1122H2OrLater
 (
 )
 {

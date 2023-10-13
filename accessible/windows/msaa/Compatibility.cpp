@@ -791,7 +791,7 @@ true
 default
 :
 return
-NeedsWindows11SuggestedActionsWorkaround
+IsWin1122H2OrLater
 (
 )
 ;
