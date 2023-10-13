@@ -2233,7 +2233,7 @@ index
 ;
 }
 void
-setCurrentChunk
+moveToStartOfChunk
 (
 unsigned
 chunkno
