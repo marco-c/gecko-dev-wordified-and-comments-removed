@@ -300,12 +300,6 @@ MOZ_ASSERT
 mTaskThread
 )
 ;
-mSPSCQueue
-.
-ResetConsumerThreadId
-(
-)
-;
 LOG
 (
 "

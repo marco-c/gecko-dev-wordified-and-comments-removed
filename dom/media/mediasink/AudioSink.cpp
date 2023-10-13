@@ -997,7 +997,7 @@ ReenqueueUnplayedAudioDataIfNeeded
 mProcessedSPSCQueue
 -
 >
-ResetThreadIds
+ResetConsumerThreadId
 (
 )
 ;
@@ -1740,7 +1740,7 @@ aAudioThreadChanged
 mProcessedSPSCQueue
 -
 >
-ResetThreadIds
+ResetConsumerThreadId
 (
 )
 ;
