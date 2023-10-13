@@ -1956,6 +1956,9 @@ PKG_LANGPACK_PATH
 call
 py_action
 langpack_manifest
+(
+AB_CD
+)
 -
 -
 locales
@@ -2037,6 +2040,11 @@ AB_CD
 call
 py_action
 zip
+(
+PKG_LANGPACK_BASENAME
+)
+.
+xpi
 -
 C
 (

@@ -309,6 +309,9 @@ call
 py_action
 webidl
 (
+relativesrcdir
+)
+(
 srcdir
 )
 )

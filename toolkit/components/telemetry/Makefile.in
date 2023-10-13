@@ -138,6 +138,9 @@ dir
 call
 py_action
 zip
+base
+.
+xpi
 -
 C
 dir
