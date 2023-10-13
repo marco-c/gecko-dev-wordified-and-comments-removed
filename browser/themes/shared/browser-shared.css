@@ -4511,6 +4511,12 @@ flex
 :
 1
 ;
+min
+-
+height
+:
+22px
+;
 }
 #
 contextual
@@ -4848,6 +4854,8 @@ fill
 :
 white
 ;
+min
+-
 height
 :
 22px
