@@ -6461,6 +6461,10 @@ nullptr
 nsPoint
 mMouseLocation
 ;
+static
+int16_t
+sMouseButtons
+;
 nsPoint
 mLastOverWindowPointerLocation
 ;
