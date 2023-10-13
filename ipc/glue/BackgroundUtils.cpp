@@ -3208,6 +3208,12 @@ aLoadInfo
 GetHasInjectedCookieForCookieBannerHandling
 (
 )
+aLoadInfo
+-
+>
+GetWasSchemelessInput
+(
+)
 ipcClientInfo
 ipcReservedClientInfo
 ipcInitialClientInfo
@@ -4929,6 +4935,11 @@ interceptionInfo
 loadInfoArgs
 .
 hasInjectedCookieForCookieBannerHandling
+(
+)
+loadInfoArgs
+.
+wasSchemelessInput
 (
 )
 )

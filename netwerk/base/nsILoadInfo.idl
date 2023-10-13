@@ -2494,5 +2494,12 @@ attribute
 boolean
 hasInjectedCookieForCookieBannerHandling
 ;
+[
+infallible
+]
+attribute
+boolean
+wasSchemelessInput
+;
 }
 ;

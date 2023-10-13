@@ -537,6 +537,9 @@ redirectChain
 bool
 hasInjectedCookieForCookieBannerHandling
 ;
+bool
+wasSchemelessInput
+;
 IPCClientInfo
 ?
 clientInfo
