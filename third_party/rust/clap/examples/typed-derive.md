@@ -147,7 +147,7 @@ info
 possible
 values
 :
-info
+trace
 debug
 info
 warn
@@ -868,7 +868,7 @@ supplied
 possible
 values
 :
-info
+trace
 debug
 info
 warn
@@ -917,7 +917,7 @@ LOG_LEVEL
 possible
 values
 :
-info
+trace
 debug
 info
 warn

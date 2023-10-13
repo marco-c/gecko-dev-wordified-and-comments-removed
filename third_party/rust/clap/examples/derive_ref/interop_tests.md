@@ -377,7 +377,7 @@ argument
 unknown
 '
 found
-note
+tip
 :
 to
 pass

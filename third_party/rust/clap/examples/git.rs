@@ -1033,9 +1033,9 @@ unreachable
 Unsupported
 subcommand
 {
+name
 }
 "
-name
 )
 }
 }

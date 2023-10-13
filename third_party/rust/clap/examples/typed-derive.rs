@@ -247,7 +247,7 @@ new
 (
 [
 "
-info
+trace
 "
 "
 debug

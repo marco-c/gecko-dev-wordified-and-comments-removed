@@ -288,9 +288,9 @@ invalid
 variant
 :
 {
+s
 }
 "
-s
 )
 )
 }

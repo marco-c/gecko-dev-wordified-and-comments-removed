@@ -114,6 +114,7 @@ dead_code
 unreachable_code
 unused_variables
 unused_braces
+unused_qualifications
 )
 ]
 #
@@ -161,6 +162,10 @@ clippy
 :
 almost_swapped
 )
+]
+#
+[
+automatically_derived
 ]
 impl
 #
@@ -361,6 +366,7 @@ dead_code
 unreachable_code
 unused_variables
 unused_braces
+unused_qualifications
 )
 ]
 #
@@ -408,6 +414,10 @@ clippy
 :
 almost_swapped
 )
+]
+#
+[
+automatically_derived
 ]
 impl
 #

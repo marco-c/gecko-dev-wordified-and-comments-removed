@@ -41,6 +41,10 @@ name
 quote
 !
 (
+#
+[
+automatically_derived
+]
 impl
 clap
 :
@@ -78,6 +82,10 @@ TokenStream
 quote
 !
 {
+#
+[
+automatically_derived
+]
 impl
 clap
 :
@@ -153,6 +161,10 @@ TokenStream
 quote
 !
 {
+#
+[
+automatically_derived
+]
 impl
 clap
 :
@@ -270,6 +282,10 @@ name
 quote
 !
 {
+#
+[
+automatically_derived
+]
 impl
 clap
 :
@@ -376,6 +392,10 @@ name
 quote
 !
 {
+#
+[
+automatically_derived
+]
 impl
 clap
 :
@@ -457,6 +477,10 @@ TokenStream
 quote
 !
 {
+#
+[
+automatically_derived
+]
 impl
 clap
 :

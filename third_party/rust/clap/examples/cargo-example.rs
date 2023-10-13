@@ -165,11 +165,11 @@ println
 (
 "
 {
+manifest_path
 :
 ?
 }
 "
-manifest_path
 )
 ;
 }
