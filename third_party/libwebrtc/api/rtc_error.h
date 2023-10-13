@@ -854,6 +854,7 @@ ok
 )
 ;
 return
+*
 value_
 ;
 }
@@ -871,6 +872,7 @@ ok
 )
 ;
 return
+*
 value_
 ;
 }
@@ -892,6 +894,7 @@ std
 :
 move
 (
+*
 value_
 )
 ;
@@ -901,7 +904,13 @@ private
 RTCError
 error_
 ;
+absl
+:
+:
+optional
+<
 T
+>
 value_
 ;
 }
