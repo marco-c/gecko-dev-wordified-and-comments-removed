@@ -33776,3 +33776,17 @@ Error
 "
 )
 ;
+pref
+(
+"
+privacy
+.
+query_stripping
+.
+strip_on_share
+.
+enableTestMode
+"
+false
+)
+;
