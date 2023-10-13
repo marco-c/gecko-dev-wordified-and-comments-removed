@@ -106,11 +106,6 @@ yaml
 mask
 .
 png
-platform
-(
-linux
-mac
-)
 fuzzy
 (
 7
