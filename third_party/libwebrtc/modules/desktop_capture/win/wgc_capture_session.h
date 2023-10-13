@@ -304,6 +304,11 @@ RemoveEventHandler
 )
 ;
 bool
+FrameContentCanBeCompared
+(
+)
+;
+bool
 allow_zero_hertz
 (
 )
