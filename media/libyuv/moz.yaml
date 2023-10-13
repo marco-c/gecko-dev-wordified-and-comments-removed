@@ -318,11 +318,10 @@ build
 exclude
 :
 -
+"
 .
-gitattributes
--
-.
-gitignore
+*
+"
 patches
 :
 -
