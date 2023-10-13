@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-2478b63fb480c51d0940918775d84181a0c15a36
+d48b2929dbd8244b75ab9deafa4175749a382ce0
 '
 #
 Fetch
@@ -190,7 +190,7 @@ version
 .
 20230601
 .
-1
+2
 .
 1
 '
@@ -297,11 +297,11 @@ re_client_version
 :
 0
 .
-105
+107
 .
-0
+1
 .
-d6a0caf
+0b39c4c
 -
 gomaip
 '
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-fee4d1040998d54f3b7fdea8bb27849a173518ab
+132b460c64f421cb82287906ab494d0bde8b7ac6
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-da33244b6a9e9164ec7c4bf607665778953f8f4c
+defeac7e7d4d99097fbfa871eac6fc33653a4ea8
 '
 '
 src
@@ -440,7 +440,7 @@ chromium
 src
 /
 buildtools
-edbefcee3d2cc45cdb0c60c2b01b673f8ba728bc
+61b4b91ea9a478cc59f37987cd9bbebecc24726a
 '
 #
 Gradle
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-9076af7165362c18ae6b6c450d222e1973daa9a1
+c69c945b834583896e36d799185661d915939a46
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-ec1166780d8cbc1e1bde39fa0acfbc991d15cac2
+356363ab1fbe4abba29642dd8e6e1622aeab1f0d
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-f30fa3d6f2cd88267a642660394458861434aba3
+0f0e0c45afaf6fac4d0e453772d03736aac01e9b
 '
 '
 src
@@ -999,7 +999,7 @@ project
 libcxxabi
 .
 git
-b2e8ad2755f15556a2e93b500db665c25409b95e
+899caea3814eeb45c689fc206052968943fd5cb8
 '
 '
 src
@@ -1361,7 +1361,7 @@ breakpad
 breakpad
 .
 git
-02fe1eef8e4753cfa686db52fc375e17f5d23c84
+8988364bcddd9b194b0bf931c10bc125987330ed
 '
 '
 src
@@ -1385,7 +1385,7 @@ com
 catapult
 .
 git
-dfd78540ae99b3f753f8e250abd5e9be240b0053
+ecf1f9c5b78d2d519a160545eea66692983d2543
 '
 '
 src
@@ -1562,7 +1562,7 @@ tools
 depot_tools
 .
 git
-e49349becf69ddf68e5e8c7329836e125b4367aa
+9e0ff22bfb3137e9c6b44304671a78c3e3d1e1d9
 '
 '
 src
@@ -1996,7 +1996,7 @@ deps
 icu
 .
 git
-709d56e26482982f7390e49f98ef7a91101f137e
+a2961dc659b4ae847a9c6120718cc2517ee57d9e
 '
 }
 '
@@ -2030,7 +2030,8 @@ version
 '
 :
 '
-2Of9Pe_OdO4xoAATuiLDiMVNebKTNO3WrwJGqil4RosC
+-
+1zDGMOzS_Qsja50TakJCSqN9C9TYppQrsny4HATSQwC
 '
 }
 ]
@@ -2572,7 +2573,7 @@ external
 perfetto
 .
 git
-53002b30d2f05f6c267012ce2abf3c5fbd4e9e35
+922cf5c76a1ef4eb6fd120d86af5fe54389913f2
 '
 '
 src
@@ -3000,7 +3001,7 @@ chromium
 src
 /
 tools
-cd2330a2943b986650d2e6ced5f8201d9c7317dd
+f94ddd5c41ceff6dbba8a324582032f245b89345
 '
 '
 src
@@ -3334,7 +3335,11 @@ version
 '
 :
 '
-yy7NOUTgTyjACkyQjFHtZUyiPftLIKaZxhnICD0hU7AC
+OHveK
+-
+sQfZYVc9OYLG
+-
+gzd5LUi8BLlUn70JqB7cZEqIC
 '
 }
 ]
