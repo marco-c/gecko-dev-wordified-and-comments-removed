@@ -3590,13 +3590,9 @@ Data
 Location
 .
 Expr
-/
-*
-IsLittleEndian
-=
-*
-/
-true
+isLittleEndian
+(
+)
 AddressSize
 )
 ;
