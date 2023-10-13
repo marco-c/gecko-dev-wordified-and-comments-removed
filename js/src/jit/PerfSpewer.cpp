@@ -2577,8 +2577,6 @@ init
 )
 )
 ;
-CHECK_RETURN
-(
 buf
 .
 put
@@ -2586,7 +2584,6 @@ put
 LIRCodeName
 (
 op
-)
 )
 )
 ;
@@ -2706,8 +2703,6 @@ isInt32
 )
 )
 {
-CHECK_RETURN
-(
 buf
 .
 jsprintf
@@ -2722,7 +2717,6 @@ toInt32
 (
 )
 )
-)
 ;
 }
 else
@@ -2735,8 +2729,6 @@ isObjectOrNull
 )
 )
 {
-CHECK_RETURN
-(
 buf
 .
 jsprintf
@@ -2753,7 +2745,6 @@ toObjectOrNull
 (
 )
 )
-)
 ;
 }
 else
@@ -2766,8 +2757,6 @@ isString
 )
 )
 {
-CHECK_RETURN
-(
 buf
 .
 put
@@ -2777,10 +2766,7 @@ str
 :
 "
 )
-)
 ;
-CHECK_RETURN
-(
 buf
 .
 putString
@@ -2789,7 +2775,6 @@ constantVal
 .
 toString
 (
-)
 )
 )
 ;
@@ -2804,8 +2789,6 @@ isNumber
 )
 )
 {
-CHECK_RETURN
-(
 buf
 .
 jsprintf
@@ -2822,7 +2805,6 @@ toNumber
 (
 )
 )
-)
 ;
 }
 else
@@ -2835,8 +2817,6 @@ isSymbol
 )
 )
 {
-CHECK_RETURN
-(
 buf
 .
 put
@@ -2845,7 +2825,6 @@ put
 sym
 :
 "
-)
 )
 ;
 constantVal
@@ -2863,8 +2842,6 @@ buf
 }
 else
 {
-CHECK_RETURN
-(
 buf
 .
 jsprintf
@@ -2879,7 +2856,6 @@ constantVal
 .
 asRawBits
 (
-)
 )
 )
 ;
@@ -2908,8 +2884,6 @@ payloadOrValueReg
 (
 )
 ;
-CHECK_RETURN
-(
 buf
 .
 put
@@ -2918,7 +2892,6 @@ reg
 .
 name
 (
-)
 )
 )
 ;
@@ -2931,8 +2904,6 @@ StackValue
 :
 Stack
 :
-CHECK_RETURN
-(
 buf
 .
 put
@@ -2940,7 +2911,6 @@ put
 "
 stack
 "
-)
 )
 ;
 break
@@ -2955,8 +2925,6 @@ ThisSlot
 #
 ifdef
 JS_HAS_HIDDEN_SP
-CHECK_RETURN
-(
 buf
 .
 put
@@ -2964,7 +2932,6 @@ put
 "
 this
 "
-)
 )
 ;
 #
@@ -2978,8 +2945,6 @@ addressOfThis
 (
 )
 ;
-CHECK_RETURN
-(
 buf
 .
 jsprintf
@@ -3005,7 +2970,6 @@ addr
 .
 offset
 )
-)
 ;
 #
 endif
@@ -3018,8 +2982,6 @@ StackValue
 :
 LocalSlot
 :
-CHECK_RETURN
-(
 buf
 .
 jsprintf
@@ -3037,7 +2999,6 @@ localSlot
 (
 )
 )
-)
 ;
 break
 ;
@@ -3047,8 +3008,6 @@ StackValue
 :
 ArgSlot
 :
-CHECK_RETURN
-(
 buf
 .
 jsprintf
@@ -3064,7 +3023,6 @@ stackVal
 >
 argSlot
 (
-)
 )
 )
 ;
@@ -3174,8 +3132,6 @@ init
 )
 )
 ;
-CHECK_RETURN
-(
 buf
 .
 put
@@ -3186,7 +3142,6 @@ js
 CodeName
 (
 op
-)
 )
 )
 ;
@@ -3249,8 +3204,6 @@ pc
 )
 )
 ;
-CHECK_RETURN
-(
 buf
 .
 put
@@ -3258,16 +3211,12 @@ put
 "
 "
 )
-)
 ;
-CHECK_RETURN
-(
 buf
 .
 putString
 (
 name
-)
 )
 ;
 }
@@ -3295,8 +3244,6 @@ i
 +
 )
 {
-CHECK_RETURN
-(
 buf
 .
 put
@@ -3304,7 +3251,6 @@ put
 "
 (
 "
-)
 )
 ;
 StackValue
@@ -3336,8 +3282,6 @@ i
 numOperands
 )
 {
-CHECK_RETURN
-(
 buf
 .
 put
@@ -3345,14 +3289,11 @@ put
 "
 )
 "
-)
 )
 ;
 }
 else
 {
-CHECK_RETURN
-(
 buf
 .
 put
@@ -3360,7 +3301,6 @@ put
 "
 )
 "
-)
 )
 ;
 }
