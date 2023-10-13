@@ -31,6 +31,9 @@ repackage_dmg
 (
 infile
 output
+attribution_sentinel
+=
+None
 )
 :
     
@@ -256,5 +259,9 @@ Path
 (
 mkfshfs_tool
 )
+            
+attribution_sentinel
+=
+attribution_sentinel
         
 )
