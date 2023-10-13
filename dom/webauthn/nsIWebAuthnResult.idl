@@ -26,6 +26,11 @@ nsISupports
 {
 readonly
 attribute
+ACString
+clientDataJSON
+;
+readonly
+attribute
 Array
 <
 octet
@@ -84,6 +89,11 @@ nsIWebAuthnSignResult
 :
 nsISupports
 {
+readonly
+attribute
+ACString
+clientDataJSON
+;
 readonly
 attribute
 Array
