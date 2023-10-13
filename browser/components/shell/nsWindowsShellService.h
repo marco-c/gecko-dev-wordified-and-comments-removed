@@ -86,17 +86,7 @@ LaunchControlPanelDefaultsSelectionUI
 )
 ;
 nsresult
-LaunchControlPanelDefaultPrograms
-(
-)
-;
-nsresult
 LaunchModernSettingsDialogDefaultApps
-(
-)
-;
-nsresult
-InvokeHTTPOpenAsVerb
 (
 )
 ;

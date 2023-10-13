@@ -47,9 +47,6 @@ setDefaultBrowser
 (
 in
 boolean
-aClaimAllTypes
-in
-boolean
 aForAllUsers
 )
 ;

@@ -75,7 +75,6 @@ false
 }
 setDefaultBrowser
 (
-aClaimAllTypes
 aForAllUsers
 )
 {

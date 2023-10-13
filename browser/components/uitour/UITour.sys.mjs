@@ -10147,7 +10147,6 @@ shell
 .
 setDefaultBrowser
 (
-true
 false
 )
 ;

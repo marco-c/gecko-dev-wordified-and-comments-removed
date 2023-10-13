@@ -8055,7 +8055,6 @@ shellSvc
 .
 setDefaultBrowser
 (
-true
 false
 )
 ;

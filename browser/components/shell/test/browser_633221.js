@@ -7,7 +7,6 @@ ShellService
 .
 setDefaultBrowser
 (
-true
 false
 )
 ;
