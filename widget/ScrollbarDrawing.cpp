@@ -711,7 +711,7 @@ Document
 )
 -
 >
-GetDocumentState
+State
 (
 )
 Colors

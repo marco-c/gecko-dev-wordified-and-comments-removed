@@ -1813,16 +1813,8 @@ doc
 doc
 -
 >
-GetDocumentState
+IsTopLevelWindowInactive
 (
-)
-.
-HasState
-(
-DocumentState
-:
-:
-WINDOW_INACTIVE
 )
 )
 {

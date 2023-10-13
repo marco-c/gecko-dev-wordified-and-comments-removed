@@ -7370,7 +7370,7 @@ Document
 )
 -
 >
-GetDocumentState
+State
 (
 )
 ;
