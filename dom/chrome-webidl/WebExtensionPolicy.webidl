@@ -843,7 +843,7 @@ It
 is
 defined
 in
-StaticPrefs
+StaticPrefList
 .
 yaml
 as
