@@ -270,6 +270,7 @@ WidgetGUIEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 nsEventStatus
 DispatchSynthesizedMouseEvent
@@ -318,6 +319,7 @@ uint32_t
 aPointerId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 FireSingleTapEvent
