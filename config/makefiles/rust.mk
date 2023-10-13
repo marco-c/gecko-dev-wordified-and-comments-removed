@@ -3423,6 +3423,13 @@ MOZ_CARGO_WRAP_HOST_LD_CXX
 HOST_LINKER
 )
 endif
+define
+make_default_rule
+(
+1
+)
+:
+endef
 ifdef
 RUST_LIBRARY_FILE
 rust_features_flag
@@ -3807,13 +3814,6 @@ endif
 endif
 endif
 endif
-define
-make_default_rule
-(
-1
-)
-:
-endef
 (
 foreach
 dep
