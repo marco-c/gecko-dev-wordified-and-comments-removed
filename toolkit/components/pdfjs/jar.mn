@@ -267,7 +267,7 @@ web
 /
 viewer
 .
-js
+mjs
 (
 content
 /
@@ -277,7 +277,7 @@ viewer
 -
 geckoview
 .
-js
+mjs
 )
 content
 /
@@ -407,7 +407,7 @@ web
 /
 viewer
 .
-js
+mjs
 (
 content
 /
@@ -415,7 +415,7 @@ web
 /
 viewer
 .
-js
+mjs
 )
 content
 /
@@ -439,7 +439,7 @@ web
 /
 debugger
 .
-js
+mjs
 (
 content
 /
@@ -447,7 +447,7 @@ web
 /
 debugger
 .
-js
+mjs
 )
 content
 /

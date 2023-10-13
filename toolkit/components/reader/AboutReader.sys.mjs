@@ -2457,7 +2457,7 @@ normalizeWheelEventDelta
 in
 /
 /
-toolkt
+toolkit
 /
 components
 /
@@ -2469,7 +2469,7 @@ web
 /
 viewer
 .
-js
+mjs
 let
 delta
 =

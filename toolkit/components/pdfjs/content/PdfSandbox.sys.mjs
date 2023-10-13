@@ -367,7 +367,7 @@ pdf
 .
 scripting
 .
-js
+mjs
 "
 sandbox
 )

@@ -1424,7 +1424,7 @@ web
 /
 debugger
 .
-js
+mjs
 "
 }
 {
