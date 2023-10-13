@@ -2811,7 +2811,7 @@ e
 assert_equals
 (
 errors
-0
+1
 )
 ;
 throw
@@ -3002,7 +3002,7 @@ e
 assert_equals
 (
 errors
-0
+1
 )
 ;
 throw
