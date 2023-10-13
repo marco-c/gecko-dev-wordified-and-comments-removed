@@ -2329,6 +2329,13 @@ method
 sp
 -
 perftests
+include
+-
+push
+-
+tasks
+:
+true
 run
 -
 on
