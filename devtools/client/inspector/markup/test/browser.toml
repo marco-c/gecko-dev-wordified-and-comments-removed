@@ -1107,6 +1107,13 @@ js
 ]
 [
 "
+browser_markup_events_keyboard_navigation
+.
+js
+"
+]
+[
+"
 browser_markup_events_object_listener
 .
 js
