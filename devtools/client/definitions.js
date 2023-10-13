@@ -3006,6 +3006,9 @@ localTab
 )
 ;
 }
+isToggle
+:
+true
 setup
 (
 toolbox
@@ -3459,6 +3462,9 @@ isShown
 )
 ;
 }
+isToggle
+:
+true
 }
 ;
 }

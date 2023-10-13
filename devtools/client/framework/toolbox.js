@@ -6552,6 +6552,7 @@ teardown
 isToolSupported
 isCurrentlyVisible
 isChecked
+isToggle
 onKeyDown
 experimentalURL
 }
@@ -6679,6 +6680,7 @@ updatechecked
 )
 ;
 }
+isToggle
 visibilityswitch
 :
 devtools
@@ -8944,6 +8946,9 @@ frames
 )
 ;
 }
+isToggle
+:
+true
 }
 )
 ;
