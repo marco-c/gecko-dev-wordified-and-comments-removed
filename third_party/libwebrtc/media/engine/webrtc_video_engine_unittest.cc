@@ -12399,7 +12399,7 @@ get
 )
 ;
 }
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 SendImpl
 (
@@ -12411,7 +12411,7 @@ static_cast
 cricket
 :
 :
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 >
 (
@@ -18264,7 +18264,7 @@ SetUp
 )
 ;
 }
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 SendImpl
 (
@@ -18276,7 +18276,7 @@ static_cast
 cricket
 :
 :
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 >
 (
@@ -18327,7 +18327,7 @@ static_cast
 cricket
 :
 :
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 >
 (
