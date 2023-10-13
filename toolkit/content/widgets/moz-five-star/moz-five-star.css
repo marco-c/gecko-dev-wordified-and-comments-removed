@@ -248,7 +248,14 @@ size
 ;
 fill
 :
-currentColor
+var
+(
+-
+-
+icon
+-
+color
+)
 ;
 -
 moz
