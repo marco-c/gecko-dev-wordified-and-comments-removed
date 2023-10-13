@@ -28,9 +28,9 @@ MACOS_SYSROOT
 MOZ_FETCHES_DIR
 }
 /
-MacOSX13
+MacOSX14
 .
-3
+0
 .
 sdk
 "
