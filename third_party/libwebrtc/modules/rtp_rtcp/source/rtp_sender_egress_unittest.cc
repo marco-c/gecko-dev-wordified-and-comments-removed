@@ -3049,6 +3049,16 @@ sender
 >
 GetSendRates
 (
+time_controller_
+.
+GetClock
+(
+)
+-
+>
+CurrentTime
+(
+)
 )
 [
 RtpPacketMediaType
