@@ -8288,7 +8288,7 @@ CompositorBridgeParent
 :
 LayerTreeState
 *
-state
+contentState
 =
 nullptr
 ;
@@ -8317,7 +8317,7 @@ end
 itr
 )
 {
-state
+contentState
 =
 &
 itr
@@ -8328,10 +8328,10 @@ second
 }
 if
 (
-state
+contentState
 &
 &
-state
+contentState
 -
 >
 mParent
@@ -8340,7 +8340,7 @@ mParent
 LayersId
 rootLayersId
 =
-state
+contentState
 -
 >
 mParent
@@ -8359,7 +8359,12 @@ find
 rootLayersId
 )
 ;
-state
+CompositorBridgeParent
+:
+:
+LayerTreeState
+*
+rootState
 =
 (
 sIndirectLayerTrees
@@ -8380,9 +8385,12 @@ second
 :
 nullptr
 ;
+return
+rootState
+;
 }
 return
-state
+nullptr
 ;
 }
 APZCTreeManagerParent
