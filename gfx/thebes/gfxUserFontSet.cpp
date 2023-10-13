@@ -3025,7 +3025,7 @@ forget
 EventQueuePriority
 :
 :
-Vsync
+MediumHigh
 )
 ;
 }
