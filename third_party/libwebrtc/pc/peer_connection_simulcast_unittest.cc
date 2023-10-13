@@ -4033,7 +4033,7 @@ expected_layers
 TEST_F
 (
 PeerConnectionSimulcastTests
-NegotiationDoesNotHaveRidExtension
+NegotiationDoesNotHaveRidExtensionFails
 )
 {
 auto
@@ -4283,7 +4283,7 @@ size
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 local
 -
@@ -4304,12 +4304,6 @@ err
 <
 <
 err
-;
-ValidateTransceiverParameters
-(
-transceiver
-expected_layers
-)
 ;
 }
 TEST_F
