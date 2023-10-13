@@ -30,9 +30,3 @@ text
 vpx_img_set_rect
 text
 vpx_img_wrap
-text
-vpx_free_tpl_gop_stats
-text
-vpx_read_tpl_gop_stats
-text
-vpx_write_tpl_gop_stats

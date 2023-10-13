@@ -10596,7 +10596,7 @@ ref_frame
 1
 ]
 =
-NO_REF_FRAME
+NONE
 ;
 mi
 -
@@ -14610,7 +14610,7 @@ ref_frame
 1
 ]
 =
-NO_REF_FRAME
+NONE
 ;
 mi
 -
@@ -25256,7 +25256,7 @@ ref_frame
 1
 ]
 =
-NO_REF_FRAME
+NONE
 ;
 mi
 -
@@ -25395,7 +25395,7 @@ FEATURES
 12
 static
 void
-ml_predict_var_rd_partitioning
+ml_predict_var_rd_paritioning
 (
 const
 VP9_COMP
@@ -27583,7 +27583,7 @@ source_ref_frame
 ]
 =
 =
-NO_REF_FRAME
+NONE
 )
 {
 assert
@@ -29871,7 +29871,7 @@ if
 do_rd_ml_partition_var_pruning
 )
 {
-ml_predict_var_rd_partitioning
+ml_predict_var_rd_paritioning
 (
 cpi
 x
@@ -35173,7 +35173,7 @@ LABELS
 2
 static
 int
-ml_predict_var_partitioning
+ml_predict_var_paritioning
 (
 VP9_COMP
 *
@@ -36194,7 +36194,7 @@ const
 int
 ml_predicted_partition
 =
-ml_predict_var_partitioning
+ml_predict_var_paritioning
 (
 cpi
 x
@@ -40444,7 +40444,7 @@ ref_frame
 1
 ]
 =
-NO_REF_FRAME
+NONE
 ;
 mi
 -
@@ -43300,15 +43300,6 @@ int
 i
 j
 ;
-const
-MV
-zero_mv
-=
-{
-0
-0
-}
-;
 for
 (
 i
@@ -43380,13 +43371,6 @@ j
 ;
 }
 }
-tile_data
--
->
-firstpass_top_mv
-=
-zero_mv
-;
 #
 if
 CONFIG_MULTITHREAD

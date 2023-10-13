@@ -1476,10 +1476,6 @@ bs
 partition
 )
 ;
-BLOCK_SIZE
-mfqe_bs
-bs_tmp
-;
 if
 (
 cur_bs
@@ -1544,6 +1540,10 @@ switch
 partition
 )
 {
+BLOCK_SIZE
+mfqe_bs
+bs_tmp
+;
 case
 PARTITION_HORZ
 :

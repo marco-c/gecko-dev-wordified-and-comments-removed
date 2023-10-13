@@ -116,19 +116,18 @@ GET_PARAM
 }
 protected
 :
+virtual
 ~
 DecodeCorruptedFrameTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -187,6 +186,7 @@ threads
 1
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -207,7 +207,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -231,6 +230,7 @@ VP8E_SET_CPUUSED
 )
 ;
 }
+virtual
 void
 MismatchHook
 (
@@ -241,9 +241,9 @@ const
 vpx_image_t
 *
 )
-override
 {
 }
+virtual
 const
 vpx_codec_cx_pkt_t
 *
@@ -254,7 +254,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 if
 (
@@ -320,6 +319,7 @@ return
 modified_pkt_
 ;
 }
+virtual
 bool
 HandleDecodeResult
 (
@@ -339,7 +339,6 @@ Decoder
 *
 decoder
 )
-override
 {
 EXPECT_NE
 (

@@ -870,7 +870,7 @@ W
 \
 DECLARE_ALIGNED
 (
-32
+16
 uint8_t
 temp3
 [

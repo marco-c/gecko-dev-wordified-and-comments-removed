@@ -725,6 +725,9 @@ abort
 (
 )
 ;
+return
+kFrameTypeInter
+;
 }
 }
 static
@@ -978,7 +981,7 @@ in_ref_frame
 ]
 =
 =
-NO_REF_FRAME
+NONE
 )
 ?
 1
@@ -994,7 +997,7 @@ in_ref_frame
 ]
 =
 =
-NO_REF_FRAME
+NONE
 )
 {
 fprintf
@@ -1009,7 +1012,7 @@ shouldn
 '
 t
 be
-NO_REF_FRAME
+NONE
 \
 n
 "

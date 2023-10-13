@@ -1973,7 +1973,7 @@ set_ref_ptrs
 cm
 filter_mbd
 saved_frame
-NO_REF_FRAME
+NONE
 )
 ;
 vp9_build_inter_predictors_sby

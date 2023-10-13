@@ -13,14 +13,6 @@ AbstractBench
 {
 public
 :
-virtual
-~
-AbstractBench
-(
-)
-=
-default
-;
 void
 RunNTimes
 (

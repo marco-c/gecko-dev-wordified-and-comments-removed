@@ -6483,7 +6483,7 @@ bc
 xd
 -
 >
-mb_segment_abs_delta
+mb_segement_abs_delta
 )
 ;
 for

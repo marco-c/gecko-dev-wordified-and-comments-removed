@@ -3896,8 +3896,6 @@ sse2
 ssse3
 avx2
 neon
-neon_dotprod
-neon_i8mm
 dspr2
 msa
 vsx
@@ -3949,8 +3947,6 @@ sse2
 ssse3
 avx2
 neon
-neon_dotprod
-neon_i8mm
 dspr2
 msa
 vsx
@@ -4002,8 +3998,6 @@ sse2
 ssse3
 avx2
 neon
-neon_dotprod
-neon_i8mm
 dspr2
 msa
 vsx
@@ -4055,8 +4049,6 @@ sse2
 ssse3
 avx2
 neon
-neon_dotprod
-neon_i8mm
 dspr2
 msa
 vsx
@@ -4108,8 +4100,6 @@ sse2
 ssse3
 avx2
 neon
-neon_dotprod
-neon_i8mm
 dspr2
 msa
 vsx
@@ -4161,8 +4151,6 @@ sse2
 ssse3
 avx2
 neon
-neon_dotprod
-neon_i8mm
 dspr2
 msa
 vsx
@@ -7704,11 +7692,21 @@ coeff_ptr
 intptr_t
 n_coeffs
 const
-struct
-macroblock_plane
+int16_t
 *
+zbin_ptr
 const
-mb_plane
+int16_t
+*
+round_ptr
+const
+int16_t
+*
+quant_ptr
+const
+int16_t
+*
+quant_shift_ptr
 tran_low_t
 *
 qcoeff_ptr
@@ -7723,11 +7721,13 @@ uint16_t
 *
 eob_ptr
 const
-struct
-ScanOrder
+int16_t
 *
+scan
 const
-scan_order
+int16_t
+*
+iscan
 "
 ;
 specialize
@@ -7758,7 +7758,6 @@ const
 struct
 macroblock_plane
 *
-const
 mb_plane
 tran_low_t
 *
@@ -7777,7 +7776,6 @@ const
 struct
 ScanOrder
 *
-const
 scan_order
 "
 ;
@@ -7821,11 +7819,21 @@ coeff_ptr
 intptr_t
 n_coeffs
 const
-struct
-macroblock_plane
+int16_t
 *
+zbin_ptr
 const
-mb_plane
+int16_t
+*
+round_ptr
+const
+int16_t
+*
+quant_ptr
+const
+int16_t
+*
+quant_shift_ptr
 tran_low_t
 *
 qcoeff_ptr
@@ -7840,11 +7848,13 @@ uint16_t
 *
 eob_ptr
 const
-struct
-ScanOrder
+int16_t
 *
+scan
 const
-scan_order
+int16_t
+*
+iscan
 "
 ;
 specialize
@@ -7871,7 +7881,6 @@ const
 struct
 macroblock_plane
 *
-const
 mb_plane
 tran_low_t
 *
@@ -7890,7 +7899,6 @@ const
 struct
 ScanOrder
 *
-const
 scan_order
 "
 ;
@@ -8004,7 +8012,6 @@ qw
 /
 vpx_sad64x64
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -8040,7 +8047,6 @@ qw
 /
 vpx_sad64x32
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -8075,7 +8081,6 @@ qw
 /
 vpx_sad32x64
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -8110,7 +8115,6 @@ qw
 /
 vpx_sad32x32
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -8146,7 +8150,6 @@ qw
 /
 vpx_sad32x16
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -8181,7 +8184,6 @@ qw
 /
 vpx_sad16x32
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -8215,7 +8217,6 @@ qw
 /
 vpx_sad16x16
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -8250,7 +8251,6 @@ qw
 /
 vpx_sad16x8
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -8448,7 +8448,6 @@ qw
 /
 vpx_sad_skip_64x64
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -8480,7 +8479,6 @@ qw
 /
 vpx_sad_skip_64x32
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -8512,7 +8510,6 @@ qw
 /
 vpx_sad_skip_32x64
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -8544,7 +8541,6 @@ qw
 /
 vpx_sad_skip_32x32
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -8576,7 +8572,6 @@ qw
 /
 vpx_sad_skip_32x16
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -8608,7 +8603,6 @@ qw
 /
 vpx_sad_skip_16x32
 neon
-neon_dotprod
 sse2
 /
 ;
@@ -8639,7 +8633,6 @@ qw
 /
 vpx_sad_skip_16x16
 neon
-neon_dotprod
 sse2
 /
 ;
@@ -8670,7 +8663,6 @@ qw
 /
 vpx_sad_skip_16x8
 neon
-neon_dotprod
 sse2
 /
 ;
@@ -9296,8 +9288,8 @@ specialize
 qw
 /
 vpx_int_pro_row
-neon
 sse2
+neon
 msa
 /
 ;
@@ -9321,8 +9313,8 @@ specialize
 qw
 /
 vpx_int_pro_col
-neon
 sse2
+neon
 msa
 /
 ;
@@ -9389,7 +9381,6 @@ qw
 /
 vpx_sad64x64_avg
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -9429,7 +9420,6 @@ qw
 /
 vpx_sad64x32_avg
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -9468,7 +9458,6 @@ qw
 /
 vpx_sad32x64_avg
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -9507,7 +9496,6 @@ qw
 /
 vpx_sad32x32_avg
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -9547,7 +9535,6 @@ qw
 /
 vpx_sad32x16_avg
 neon
-neon_dotprod
 avx2
 msa
 sse2
@@ -9586,7 +9573,6 @@ qw
 /
 vpx_sad16x32_avg
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -9624,7 +9610,6 @@ qw
 /
 vpx_sad16x16_avg
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -9662,7 +9647,6 @@ qw
 /
 vpx_sad16x8_avg
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -9900,7 +9884,6 @@ vpx_sad64x64x4d
 avx512
 avx2
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -9943,7 +9926,6 @@ qw
 /
 vpx_sad64x32x4d
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -9986,7 +9968,6 @@ qw
 /
 vpx_sad32x64x4d
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -10030,7 +10011,6 @@ qw
 vpx_sad32x32x4d
 avx2
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -10073,7 +10053,6 @@ qw
 /
 vpx_sad32x16x4d
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -10115,7 +10094,6 @@ qw
 /
 vpx_sad16x32x4d
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -10157,7 +10135,6 @@ qw
 /
 vpx_sad16x16x4d
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -10200,7 +10177,6 @@ qw
 /
 vpx_sad16x8x4d
 neon
-neon_dotprod
 msa
 sse2
 vsx
@@ -10443,7 +10419,6 @@ qw
 /
 vpx_sad_skip_64x64x4d
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -10483,7 +10458,6 @@ qw
 /
 vpx_sad_skip_64x32x4d
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -10523,7 +10497,6 @@ qw
 /
 vpx_sad_skip_32x64x4d
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -10563,7 +10536,6 @@ qw
 /
 vpx_sad_skip_32x32x4d
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -10603,7 +10575,6 @@ qw
 /
 vpx_sad_skip_32x16x4d
 neon
-neon_dotprod
 avx2
 sse2
 /
@@ -10643,7 +10614,6 @@ qw
 /
 vpx_sad_skip_16x32x4d
 neon
-neon_dotprod
 sse2
 /
 ;
@@ -10682,7 +10652,6 @@ qw
 /
 vpx_sad_skip_16x16x4d
 neon
-neon_dotprod
 sse2
 /
 ;
@@ -10721,7 +10690,6 @@ qw
 /
 vpx_sad_skip_16x8x4d
 neon
-neon_dotprod
 sse2
 /
 ;
@@ -13598,7 +13566,6 @@ vpx_variance64x64
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13638,7 +13605,6 @@ vpx_variance64x32
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13677,7 +13643,6 @@ vpx_variance32x64
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13716,7 +13681,6 @@ vpx_variance32x32
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13756,7 +13720,6 @@ vpx_variance32x16
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13795,7 +13758,6 @@ vpx_variance16x32
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13834,7 +13796,6 @@ vpx_variance16x16
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13874,7 +13835,6 @@ vpx_variance16x8
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13913,7 +13873,6 @@ vpx_variance8x16
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13952,7 +13911,6 @@ vpx_variance8x8
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -13992,7 +13950,6 @@ vpx_variance8x4
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -14030,7 +13987,6 @@ qw
 vpx_variance4x8
 sse2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -14068,7 +14024,6 @@ qw
 vpx_variance4x4
 sse2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -14114,7 +14069,6 @@ vpx_get16x16var
 sse2
 avx2
 neon
-neon_dotprod
 msa
 vsx
 lsx
@@ -14154,7 +14108,6 @@ qw
 vpx_get8x8var
 sse2
 neon
-neon_dotprod
 msa
 vsx
 /
@@ -14192,7 +14145,6 @@ vpx_mse16x16
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -14232,7 +14184,6 @@ vpx_mse16x8
 sse2
 avx2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -14270,7 +14221,6 @@ qw
 vpx_mse8x16
 sse2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -14308,7 +14258,6 @@ qw
 vpx_mse8x8
 sse2
 neon
-neon_dotprod
 msa
 mmi
 vsx
@@ -14365,7 +14314,6 @@ qw
 /
 vpx_get4x4sse_cs
 neon
-neon_dotprod
 msa
 vsx
 /
@@ -14402,7 +14350,6 @@ qw
 vpx_comp_avg_pred
 neon
 sse2
-avx2
 vsx
 lsx
 /

@@ -849,11 +849,11 @@ DctParam
 {
 public
 :
+virtual
 void
 SetUp
 (
 )
-override
 {
 rnd_
 .
@@ -1033,11 +1033,11 @@ nullptr
 )
 ;
 }
+virtual
 void
 TearDown
 (
 )
-override
 {
 vpx_free
 (

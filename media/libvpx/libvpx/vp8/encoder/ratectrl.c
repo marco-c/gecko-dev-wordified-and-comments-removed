@@ -2154,9 +2154,6 @@ target
 =
 (
 (
-uint64_t
-)
-(
 16
 +
 kf_boost
@@ -2170,14 +2167,6 @@ per_frame_bandwidth
 >
 >
 4
-;
-target
-=
-VPXMIN
-(
-INT_MAX
-target
-)
 ;
 }
 if
@@ -2380,7 +2369,7 @@ Boost
 0
 ;
 int
-gf_frame_usage
+gf_frame_useage
 =
 0
 ;
@@ -2452,7 +2441,7 @@ if
 tot_mbs
 )
 {
-gf_frame_usage
+gf_frame_useage
 =
 (
 cpi
@@ -2481,9 +2470,9 @@ if
 (
 pct_gf_active
 >
-gf_frame_usage
+gf_frame_useage
 )
-gf_frame_usage
+gf_frame_useage
 =
 pct_gf_active
 ;
@@ -2574,7 +2563,7 @@ Boost
 *
 gf_adjust_table
 [
-gf_frame_usage
+gf_frame_useage
 ]
 /
 100
@@ -2777,7 +2766,7 @@ if
 (
 gf_interval_table
 [
-gf_frame_usage
+gf_frame_useage
 ]
 >
 cpi
@@ -2793,7 +2782,7 @@ frames_till_gf_update_due
 =
 gf_interval_table
 [
-gf_frame_usage
+gf_frame_useage
 ]
 ;
 }
@@ -4626,7 +4615,7 @@ oxcf
 fixed_q
 ;
 int
-gf_frame_usage
+gf_frame_useage
 =
 0
 ;
@@ -4698,7 +4687,7 @@ if
 tot_mbs
 )
 {
-gf_frame_usage
+gf_frame_useage
 =
 (
 cpi
@@ -4727,9 +4716,9 @@ if
 (
 pct_gf_active
 >
-gf_frame_usage
+gf_frame_useage
 )
-gf_frame_usage
+gf_frame_useage
 =
 pct_gf_active
 ;
@@ -4763,7 +4752,7 @@ this_frame_percent_intra
 15
 |
 |
-gf_frame_usage
+gf_frame_useage
 >
 =
 5
@@ -4820,7 +4809,7 @@ f
 fopen
 (
 "
-gf_usaget
+gf_useaget
 .
 stt
 "
@@ -4861,7 +4850,7 @@ cpi
 -
 >
 gfu_boost
-gf_frame_usage
+gf_frame_useage
 )
 ;
 fclose

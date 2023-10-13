@@ -62,7 +62,7 @@ include
 "
 vpx
 /
-vpx_tpl
+vpx_encoder
 .
 h
 "
@@ -1207,7 +1207,7 @@ DoDecode
 const
 {
 return
-true
+1
 ;
 }
 virtual

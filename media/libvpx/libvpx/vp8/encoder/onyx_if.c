@@ -3486,7 +3486,7 @@ mb
 .
 e_mbd
 .
-mb_segment_abs_delta
+mb_segement_abs_delta
 =
 abs_delta
 ;
@@ -15365,7 +15365,7 @@ printf
 "
 \
 n_frames
-receive_data
+recive_data
 encod_mb_row
 compress_frame
 Total
@@ -26678,7 +26678,7 @@ number_of_layers
 1
 )
 {
-vp8_update_gf_usage_maps
+vp8_update_gf_useage_maps
 (
 cpi
 cm

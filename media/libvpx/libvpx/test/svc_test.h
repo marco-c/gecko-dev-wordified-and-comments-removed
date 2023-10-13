@@ -196,11 +196,11 @@ VPX_MAX_LAYERS
 }
 protected
 :
+virtual
 ~
 OnePassCbrSvc
 (
 )
-override
 {
 }
 virtual
@@ -248,6 +248,7 @@ Encoder
 encoder
 )
 ;
+virtual
 void
 PostEncodeFrameHook
 (
@@ -260,7 +261,6 @@ Encoder
 *
 encoder
 )
-override
 ;
 virtual
 void
@@ -268,6 +268,7 @@ AssignLayerBitrates
 (
 )
 ;
+virtual
 void
 MismatchHook
 (
@@ -278,7 +279,6 @@ const
 vpx_image_t
 *
 )
-override
 {
 }
 vpx_svc_extra_cfg_t

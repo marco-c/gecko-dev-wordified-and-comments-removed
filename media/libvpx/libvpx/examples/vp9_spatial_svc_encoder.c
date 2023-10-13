@@ -2302,6 +2302,8 @@ enc_cfg
 g_bit_depth
 )
 ;
+break
+;
 }
 #
 endif

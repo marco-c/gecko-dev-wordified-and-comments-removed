@@ -1373,11 +1373,11 @@ kVP9
 )
 {
 }
+virtual
 ~
 RoiMaskBackgroundSkip
 (
 )
-override
 {
 free
 (
@@ -1387,11 +1387,11 @@ roi_map
 )
 ;
 }
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -1632,6 +1632,7 @@ idx
 }
 }
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -1652,7 +1653,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
