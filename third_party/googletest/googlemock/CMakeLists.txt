@@ -1088,6 +1088,7 @@ CMAKE_INSTALL_INCLUDEDIR
 #
 Install
 rules
+.
 install_project
 (
 gmock

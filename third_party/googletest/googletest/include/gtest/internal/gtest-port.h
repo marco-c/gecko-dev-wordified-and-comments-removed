@@ -2020,6 +2020,12 @@ ifdef
 _MSC_VER
 #
 if
+defined
+(
+GTEST_LINKED_AS_SHARED_LIBRARY
+)
+&
+&
 GTEST_LINKED_AS_SHARED_LIBRARY
 #
 define
@@ -2030,6 +2036,12 @@ dllimport
 )
 #
 elif
+defined
+(
+GTEST_CREATE_SHARED_LIBRARY
+)
+&
+&
 GTEST_CREATE_SHARED_LIBRARY
 #
 define

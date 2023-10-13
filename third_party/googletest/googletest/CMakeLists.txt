@@ -362,6 +362,7 @@ Project
 -
 wide
 settings
+.
 #
 Name
 of
@@ -415,7 +416,7 @@ Threads
 #
 Project
 version
-:
+.
 cmake_minimum_required
 (
 VERSION
@@ -456,6 +457,7 @@ is
 the
 main
 project
+.
 if
 (
 CMAKE_PROJECT_NAME
@@ -583,6 +585,7 @@ the
 #
 alias
 libraries
+.
 set
 (
 cmake_package_name
@@ -1211,6 +1214,7 @@ gtest
 #
 Install
 rules
+.
 install_project
 (
 gtest

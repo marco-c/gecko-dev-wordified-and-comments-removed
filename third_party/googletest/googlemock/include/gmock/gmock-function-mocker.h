@@ -7,6 +7,11 @@ GOOGLEMOCK_INCLUDE_GMOCK_GMOCK_FUNCTION_MOCKER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 type_traits
 >
 #
@@ -258,9 +263,9 @@ b
 }
 template
 <
-int
+size_t
 N
-int
+size_t
 M
 >
 constexpr
@@ -306,9 +311,9 @@ str
 }
 template
 <
-int
+size_t
 N
-int
+size_t
 M
 >
 constexpr
@@ -358,9 +363,9 @@ N
 }
 template
 <
-int
+size_t
 N
-int
+size_t
 M
 >
 constexpr
@@ -406,7 +411,7 @@ b
 }
 template
 <
-int
+size_t
 N
 >
 constexpr

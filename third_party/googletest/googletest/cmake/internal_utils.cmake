@@ -585,6 +585,7 @@ use
 windows
 threading
 primitives
+.
 unset
 (
 GTEST_HAS_PTHREAD
@@ -1614,6 +1615,7 @@ directory
 for
 build
 artifacts
+.
 set_target_properties
 (
 {
@@ -1662,11 +1664,12 @@ lib
 "
 )
 #
-make
+Make
 PDBs
 match
 library
 name
+.
 get_target_property
 (
 pdb_debug_postfix
@@ -1925,7 +1928,7 @@ srcs
 )
 #
 #
-creates
+Creates
 a
 named
 C
@@ -2092,7 +2095,7 @@ srcs
 )
 #
 #
-creates
+Creates
 a
 named
 target
@@ -2184,7 +2187,7 @@ srcs
 )
 #
 #
-creates
+Creates
 a
 named
 C
@@ -2270,7 +2273,7 @@ srcs
 )
 #
 #
-creates
+Creates
 a
 named
 test
@@ -2355,7 +2358,7 @@ name
 )
 #
 #
-creates
+Creates
 a
 Python
 test
@@ -2605,6 +2608,7 @@ MSVC
 #
 Install
 PDBs
+.
 foreach
 (
 t

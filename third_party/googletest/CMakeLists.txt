@@ -81,6 +81,7 @@ target
 already
 builds
 googletest
+.
 option
 (
 BUILD_GMOCK
