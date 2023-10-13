@@ -246,6 +246,9 @@ repackage
 l10n
 attributes
 :
+build_type
+:
+opt
 release_artifacts
 :
 by
