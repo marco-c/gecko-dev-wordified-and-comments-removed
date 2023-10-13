@@ -2756,12 +2756,7 @@ equal
 gURLBar
 .
 value
-UrlbarTestUtils
-.
-trimURL
-(
 initialTabUrl
-)
 "
 Sanity
 check
@@ -3140,14 +3135,9 @@ equal
 gURLBar
 .
 value
-UrlbarTestUtils
-.
-trimURL
-(
 state
 .
 value
-)
 "
 input
 .
