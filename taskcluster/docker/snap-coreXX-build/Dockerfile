@@ -101,6 +101,10 @@ essential
 \
 curl
 \
+libavcodec58
+\
+libavutil56
+\
 jq
 \
 patch
