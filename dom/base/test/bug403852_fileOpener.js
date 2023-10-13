@@ -1,3 +1,14 @@
+Cu
+.
+importGlobalProperties
+(
+[
+"
+File
+"
+]
+)
+;
 var
 testFile
 =
