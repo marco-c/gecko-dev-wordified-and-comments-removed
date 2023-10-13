@@ -573,6 +573,9 @@ CTFontManagerCopyAvailablePostScriptNames
 }
 }
 extern
+"
+C
+"
 {
 static
 kCTFontCollectionRemoveDuplicatesOption
