@@ -208,6 +208,7 @@ fixId
 msgId
 property
 display
+lineCount
 learnMoreURL
 }
 =
@@ -360,6 +361,7 @@ stringify
 {
 property
 display
+lineCount
 }
 )
 }
