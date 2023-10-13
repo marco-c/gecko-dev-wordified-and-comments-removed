@@ -2028,7 +2028,7 @@ ErrorRunnable
 (
 Self
 *
-aVideoDecoder
+aDecoder
 const
 nsresult
 &
@@ -2042,9 +2042,9 @@ Decoder
 ErrorRunnable
 "
 )
-mVideoDecoder
+mDecoder
 (
-aVideoDecoder
+aDecoder
 )
 mError
 (
@@ -2053,7 +2053,7 @@ aError
 {
 MOZ_ASSERT
 (
-mVideoDecoder
+mDecoder
 )
 ;
 }
@@ -2094,7 +2094,7 @@ Name
 get
 (
 )
-mVideoDecoder
+mDecoder
 .
 get
 (
@@ -2119,7 +2119,7 @@ std
 :
 move
 (
-mVideoDecoder
+mDecoder
 )
 ;
 d
@@ -2140,7 +2140,7 @@ RefPtr
 <
 Self
 >
-mVideoDecoder
+mDecoder
 ;
 const
 nsresult
@@ -2243,7 +2243,7 @@ OutputRunnable
 (
 Self
 *
-aVideoDecoder
+aDecoder
 DecoderAgent
 :
 :
@@ -2272,9 +2272,9 @@ Decoder
 OutputRunnable
 "
 )
-mVideoDecoder
+mDecoder
 (
-aVideoDecoder
+aDecoder
 )
 mAgentId
 (
@@ -2297,7 +2297,7 @@ aData
 {
 MOZ_ASSERT
 (
-mVideoDecoder
+mDecoder
 )
 ;
 }
@@ -2317,7 +2317,7 @@ override
 {
 if
 (
-mVideoDecoder
+mDecoder
 -
 >
 mState
@@ -2360,12 +2360,12 @@ Name
 get
 (
 )
-mVideoDecoder
+mDecoder
 .
 get
 (
 )
-mVideoDecoder
+mDecoder
 -
 >
 mState
@@ -2397,7 +2397,7 @@ NS_OK
 }
 MOZ_ASSERT
 (
-mVideoDecoder
+mDecoder
 -
 >
 mAgent
@@ -2408,7 +2408,7 @@ if
 mAgentId
 !
 =
-mVideoDecoder
+mDecoder
 -
 >
 mAgent
@@ -2452,7 +2452,7 @@ Name
 get
 (
 )
-mVideoDecoder
+mDecoder
 .
 get
 (
@@ -2492,7 +2492,7 @@ Name
 get
 (
 )
-mVideoDecoder
+mDecoder
 .
 get
 (
@@ -2516,7 +2516,7 @@ std
 :
 move
 (
-mVideoDecoder
+mDecoder
 )
 ;
 d
@@ -2543,7 +2543,7 @@ RefPtr
 <
 Self
 >
-mVideoDecoder
+mDecoder
 ;
 const
 DecoderAgent
