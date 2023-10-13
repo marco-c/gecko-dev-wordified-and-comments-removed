@@ -403,7 +403,7 @@ spawnChrome
 >
 {
 let
-webauthnTransport
+webauthnService
 =
 Cc
 [
@@ -414,7 +414,7 @@ org
 /
 webauthn
 /
-transport
+service
 ;
 1
 "
@@ -424,11 +424,11 @@ getService
 (
 Ci
 .
-nsIWebAuthnTransport
+nsIWebAuthnService
 )
 ;
 return
-webauthnTransport
+webauthnService
 .
 addVirtualAuthenticator
 (
@@ -472,7 +472,7 @@ authenticatorId
 >
 {
 let
-webauthnTransport
+webauthnService
 =
 Cc
 [
@@ -483,7 +483,7 @@ org
 /
 webauthn
 /
-transport
+service
 ;
 1
 "
@@ -493,10 +493,10 @@ getService
 (
 Ci
 .
-nsIWebAuthnTransport
+nsIWebAuthnService
 )
 ;
-webauthnTransport
+webauthnService
 .
 removeVirtualAuthenticator
 (

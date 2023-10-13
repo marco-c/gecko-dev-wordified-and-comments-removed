@@ -33143,7 +33143,7 @@ org
 /
 webauthn
 /
-transport
+service
 ;
 1
 "
@@ -33153,7 +33153,7 @@ getService
 (
 Ci
 .
-nsIWebAuthnTransport
+nsIWebAuthnService
 )
 ;
 if

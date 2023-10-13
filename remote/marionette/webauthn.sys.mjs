@@ -89,7 +89,7 @@ defineLazyServiceGetter
 (
 lazy
 "
-webauthnTransport
+webauthnService
 "
 "
 mozilla
@@ -98,12 +98,12 @@ org
 /
 webauthn
 /
-transport
+service
 ;
 1
 "
 "
-nsIWebAuthnTransport
+nsIWebAuthnService
 "
 )
 ;
@@ -232,7 +232,7 @@ isUserVerified
 return
 lazy
 .
-webauthnTransport
+webauthnService
 .
 addVirtualAuthenticator
 (
@@ -281,7 +281,7 @@ authenticatorId
 {
 lazy
 .
-webauthnTransport
+webauthnService
 .
 removeVirtualAuthenticator
 (
@@ -482,7 +482,7 @@ signCount
 {
 lazy
 .
-webauthnTransport
+webauthnService
 .
 addCredential
 (
@@ -546,7 +546,7 @@ authenticatorId
 return
 lazy
 .
-webauthnTransport
+webauthnService
 .
 getCredentials
 (
@@ -605,7 +605,7 @@ credentialId
 {
 lazy
 .
-webauthnTransport
+webauthnService
 .
 removeCredential
 (
@@ -653,7 +653,7 @@ authenticatorId
 {
 lazy
 .
-webauthnTransport
+webauthnService
 .
 removeAllCredentials
 (
@@ -720,7 +720,7 @@ isUserVerified
 {
 lazy
 .
-webauthnTransport
+webauthnService
 .
 setUserVerified
 (
