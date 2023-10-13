@@ -1039,16 +1039,7 @@ suggest
 }
 isBlockable
 :
-lazy
-.
-UrlbarPrefs
-.
-get
-(
-"
-quickSuggestBlockingEnabled
-"
-)
+true
 blockL10n
 :
 {
