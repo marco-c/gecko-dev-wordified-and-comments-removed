@@ -293,9 +293,9 @@ TARGET_CFLAGS
 isysroot
 MOZ_FETCHES_DIR
 /
-MacOSX14
+MacOSX13
 .
-0
+3
 .
 sdk
 "
@@ -307,9 +307,9 @@ TARGET_CXXFLAGS
 isysroot
 MOZ_FETCHES_DIR
 /
-MacOSX14
+MacOSX13
 .
-0
+3
 .
 sdk
 -
