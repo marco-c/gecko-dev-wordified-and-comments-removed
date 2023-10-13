@@ -6643,7 +6643,7 @@ _loadURL
 (
 this
 .
-value
+_untrimmedValue
 event
 where
 openParams

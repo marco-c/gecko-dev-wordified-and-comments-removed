@@ -397,7 +397,12 @@ equal
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 expectedSearchUrl
+)
 URL
 should
 be

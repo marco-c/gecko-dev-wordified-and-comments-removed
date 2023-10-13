@@ -94,6 +94,10 @@ is
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 TEST_BASE_URL
 +
 "
@@ -101,6 +105,7 @@ dummy_page2
 .
 html
 "
+)
 "
 Should
 have
