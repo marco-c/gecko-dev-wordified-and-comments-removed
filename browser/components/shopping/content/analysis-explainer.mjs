@@ -326,7 +326,7 @@ static
 properties
 =
 {
-productURL
+productUrl
 :
 {
 type
@@ -706,7 +706,7 @@ if
 !
 this
 .
-productURL
+productUrl
 )
 {
 return
@@ -721,7 +721,7 @@ URL
 (
 this
 .
-productURL
+productUrl
 )
 ;
 let

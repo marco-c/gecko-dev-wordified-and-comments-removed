@@ -2306,6 +2306,14 @@ shopping
 -
 settings
 ?
+adsEnabled
+=
+{
+this
+.
+adsEnabled
+}
+?
 adsEnabledByUser
 =
 {
