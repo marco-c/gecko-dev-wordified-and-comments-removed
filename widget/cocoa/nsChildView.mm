@@ -8265,10 +8265,9 @@ NSRect
 _opaqueRectForWindowMoveWhenInTitlebar
 {
 return
-[
 self
-visibleRect
-]
+.
+bounds
 ;
 }
 end
