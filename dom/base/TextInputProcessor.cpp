@@ -1813,6 +1813,14 @@ StaticPrefs
 test_events_async_enabled
 (
 )
+&
+&
+StaticPrefs
+:
+:
+test_events_async_key_enabled
+(
+)
 ;
 rv
 =
