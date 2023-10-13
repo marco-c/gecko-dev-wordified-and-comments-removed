@@ -716,6 +716,7 @@ MOZ_ASSERT
 (
 end
 >
+=
 start
 )
 ;
