@@ -829,6 +829,9 @@ nullptr
 Mutex
 mMutex
 ;
+uint32_t
+mIPCTriggerMsg
+;
 IPCFuzzController
 (
 )
