@@ -212,6 +212,13 @@ html
 ]
 [
 "
+browser_schemeless
+.
+js
+"
+]
+[
+"
 browser_slow_download
 .
 js
