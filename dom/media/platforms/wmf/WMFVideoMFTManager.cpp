@@ -1108,7 +1108,6 @@ ImageRect
 .
 width
 <
-=
 MIN_H264_HW_WIDTH
 |
 |
@@ -1120,7 +1119,6 @@ ImageRect
 .
 height
 <
-=
 MIN_H264_HW_HEIGHT
 )
 )
