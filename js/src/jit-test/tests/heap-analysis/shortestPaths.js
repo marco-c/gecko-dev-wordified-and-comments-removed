@@ -443,17 +443,6 @@ dumpPaths
 paths
 )
 ;
-if
-(
-!
-getBuildConfiguration
-(
-'
-pbl
-'
-)
-)
-{
 var
 exc
 ;
@@ -762,4 +751,3 @@ elements
 "
 )
 ;
-}

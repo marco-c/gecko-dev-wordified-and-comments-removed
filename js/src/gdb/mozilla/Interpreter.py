@@ -382,25 +382,29 @@ object
 )
 :
     
-Tag_InterpreterFrame
+Tag_ScriptFrameIterData
 =
 0x0
     
-Tag_BaselineFrame
+Tag_InterpreterFrame
 =
 0x1
     
-Tag_RematerializedFrame
+Tag_BaselineFrame
 =
 0x2
     
-Tag_WasmDebugFrame
+Tag_RematerializedFrame
 =
 0x3
     
+Tag_WasmDebugFrame
+=
+0x4
+    
 TagMask
 =
-0x3
+0x7
     
 def
 __init__
