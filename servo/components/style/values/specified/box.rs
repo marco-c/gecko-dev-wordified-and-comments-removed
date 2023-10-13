@@ -6356,11 +6356,6 @@ TRANSFORM
 LonghandId
 :
 :
-MozTopLayer
-|
-LonghandId
-:
-:
 BackdropFilter
 |
 LonghandId
