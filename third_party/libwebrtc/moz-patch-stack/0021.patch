@@ -128,10 +128,10 @@ video_capture_impl
 .
 cc
 index
-0c6e3784a2
+07b7f3dbec
 .
 .
-9d9a1471e8
+57926e352c
 100644
 -
 -
@@ -206,10 +206,10 @@ height
 )
 ;
 -
-190
+187
 6
 +
-188
+185
 9
 int32_t
 VideoCaptureImpl
