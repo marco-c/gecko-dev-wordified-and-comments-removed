@@ -5329,6 +5329,11 @@ false
 ;
 }
 }
+if
+(
+stack
+)
+{
 MOZ_ASSERT
 (
 stack
@@ -5347,6 +5352,7 @@ stack
 =
 rhs
 ;
+}
 if
 (
 attached
@@ -8076,8 +8082,12 @@ name
 int
 lhsIndex
 =
+stack
+?
 -
 2
+:
+JSDVG_IGNORE_STACK
 ;
 RootedObject
 obj
@@ -8554,6 +8564,11 @@ false
 ;
 }
 }
+if
+(
+stack
+)
+{
 MOZ_ASSERT
 (
 stack
@@ -8572,6 +8587,7 @@ stack
 =
 rhs
 ;
+}
 if
 (
 attached
