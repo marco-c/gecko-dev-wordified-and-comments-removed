@@ -48,6 +48,11 @@ head
 js
 "
 "
+python_runner_wsh
+.
+py
+"
+"
 shared
 -
 head
