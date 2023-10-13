@@ -413,7 +413,6 @@ kLangPackFonts
 {
 "
 Aharoni
-Bold
 "
 "
 Aldhabi
