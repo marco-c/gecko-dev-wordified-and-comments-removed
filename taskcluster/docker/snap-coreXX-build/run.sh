@@ -345,6 +345,11 @@ install
 -
 y
 (
+/
+usr
+/
+bin
+/
 python3
 /
 builds
