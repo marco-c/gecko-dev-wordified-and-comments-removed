@@ -5097,6 +5097,17 @@ opaque
 )
 )
 }
+Component
+:
+:
+Invalid
+(
+.
+.
+)
+=
+>
+false
 }
 }
 #
