@@ -8359,6 +8359,11 @@ if
 mda_gpu
 "
 ]
+scheme
+=
+"
+https
+"
 [
 "
 test_info_leak
