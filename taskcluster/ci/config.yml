@@ -6769,8 +6769,8 @@ try
 :
 default
 :
-1
-month
+28
+days
 shortest
 :
 7
@@ -6781,12 +6781,12 @@ short
 days
 medium
 :
-1
-month
+28
+days
 long
 :
-1
-month
+28
+days
 autoland
 :
 default
