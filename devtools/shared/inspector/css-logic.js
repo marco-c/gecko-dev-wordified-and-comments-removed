@@ -1682,6 +1682,13 @@ readUntilSignificantToken
 ;
 if
 (
+ruleCount
+!
+=
+=
+null
+&
+&
 pushbackToken
 &
 &
