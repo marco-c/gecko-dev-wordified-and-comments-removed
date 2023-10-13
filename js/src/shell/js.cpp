@@ -18236,7 +18236,7 @@ argc
 vp
 )
 ;
-Sprinter
+JSSprinter
 sprinter
 (
 cx
@@ -18326,7 +18326,7 @@ str
 =
 sprinter
 .
-releaseJS
+release
 (
 cx
 )
@@ -18509,9 +18509,9 @@ argc
 Value
 *
 vp
-Sprinter
+StringPrinter
 *
-sprinter
+sp
 )
 {
 CallArgs
@@ -18598,7 +18598,7 @@ script
 p
 .
 options
-sprinter
+sp
 )
 )
 {
@@ -18739,7 +18739,7 @@ script
 p
 .
 options
-sprinter
+sp
 )
 )
 {
@@ -18776,7 +18776,7 @@ argc
 vp
 )
 ;
-Sprinter
+JSSprinter
 sprinter
 (
 cx
@@ -18823,7 +18823,7 @@ str
 =
 sprinter
 .
-releaseJS
+release
 (
 cx
 )
