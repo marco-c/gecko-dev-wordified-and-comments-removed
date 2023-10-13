@@ -3208,13 +3208,6 @@ sjs
 ]
 [
 "
-browser_urlbar_event_telemetry_noEvent
-.
-js
-"
-]
-[
-"
 browser_urlbar_selection
 .
 js
