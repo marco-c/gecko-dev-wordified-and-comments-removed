@@ -1579,15 +1579,6 @@ int
 >
 screencast_min_bitrate
 ;
-absl
-:
-:
-optional
-<
-bool
->
-combined_audio_video_bwe
-;
 #
 if
 defined

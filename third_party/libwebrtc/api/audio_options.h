@@ -203,15 +203,6 @@ optional
 <
 bool
 >
-combined_audio_video_bwe
-;
-absl
-:
-:
-optional
-<
-bool
->
 audio_network_adaptor
 ;
 absl

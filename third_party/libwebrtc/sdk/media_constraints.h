@@ -324,13 +324,6 @@ kEnableVideoSuspendBelowMinBitrate
 static
 const
 char
-kCombinedAudioVideoBwe
-[
-]
-;
-static
-const
-char
 kScreencastMinBitrate
 [
 ]
