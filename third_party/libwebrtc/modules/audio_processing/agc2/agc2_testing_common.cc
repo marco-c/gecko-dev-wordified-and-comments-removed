@@ -14,7 +14,9 @@ h
 #
 include
 <
-cmath
+math
+.
+h
 >
 #
 include
@@ -316,9 +318,6 @@ kPi
 return
 amplitude_
 *
-std
-:
-:
 sinf
 (
 x_radians_
