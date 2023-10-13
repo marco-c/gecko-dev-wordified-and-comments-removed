@@ -7745,6 +7745,14 @@ if
 n
 >
 aLimit
+|
+|
+iter
+-
+>
+IsBlock
+(
+)
 )
 {
 return
