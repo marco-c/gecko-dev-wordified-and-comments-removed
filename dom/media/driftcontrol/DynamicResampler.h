@@ -149,6 +149,13 @@ aChannelIndex
 )
 const
 ;
+void
+EnsurePreBuffer
+(
+uint32_t
+aOutFrames
+)
+;
 bool
 Resample
 (
@@ -730,6 +737,11 @@ mPreBufferFrames
 ;
 private
 :
+bool
+mIsPreBufferSet
+=
+false
+;
 bool
 mIsWarmingUp
 =

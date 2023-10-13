@@ -2257,7 +2257,7 @@ mFrequency
 0f
 )
 ;
-EXPECT_GE
+EXPECT_EQ
 (
 outToneVerifier
 .
@@ -2269,8 +2269,8 @@ sampleRate
 bufferingMs
 /
 1000U
--
-transmitterBlockSize1
++
+receiverBlockSize
 )
 ;
 }
