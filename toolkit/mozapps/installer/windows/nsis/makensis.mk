@@ -756,9 +756,6 @@ CONFIG_DIR
 call
 py_action
 preprocessor
-defines
-.
-nsi
 -
 Fsubstitution
 (
@@ -991,9 +988,6 @@ CONFIG_DIR
 call
 py_action
 preprocessor
-defines
-.
-nsi
 -
 Fsubstitution
 (

@@ -394,11 +394,6 @@ pref
 call
 py_action
 preprocessor
-channel
--
-prefs
-.
-js
 -
 Fsubstitution
 (
@@ -675,9 +670,6 @@ LPROJ
 call
 py_action
 preprocessor
-Info
-.
-plist
 -
 Fsubstitution
 -
@@ -767,9 +759,6 @@ plist
 call
 py_action
 preprocessor
-InfoPlist
-.
-strings
 -
 Fsubstitution
 -

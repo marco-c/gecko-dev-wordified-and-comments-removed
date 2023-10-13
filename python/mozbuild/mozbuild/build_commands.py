@@ -4,12 +4,6 @@ import
 os
 import
 subprocess
-from
-urllib
-.
-parse
-import
-quote
 import
 mozpack
 .
@@ -1499,15 +1493,14 @@ description
 =
 "
 Show
+information
+about
+system
+resource
+usage
+for
 a
-profile
-of
-the
 build
-in
-the
-Firefox
-Profiler
 .
 "
     
@@ -1619,9 +1612,8 @@ help
 "
 URL
 of
-a
-build
-profile
+JSON
+document
 to
 display
 "
@@ -1672,7 +1664,7 @@ server
 add_resource_json_url
 (
 "
-profile
+url
 "
 url
 )
@@ -1680,14 +1672,14 @@ url
 else
 :
         
-profile
+last
 =
 command_context
 .
 _get_state_filename
 (
 "
-profile_build_resources
+build_resources
 .
 json
 "
@@ -1701,7 +1693,7 @@ path
 .
 exists
 (
-profile
+last
 )
 :
             
@@ -1752,45 +1744,9 @@ server
 add_resource_json_file
 (
 "
-profile
+last
 "
-profile
-)
-    
-profiler_url
-=
-"
-https
-:
-/
-/
-profiler
-.
-firefox
-.
-com
-/
-from
--
-url
-/
-"
-+
-quote
-(
-        
-server
-.
-url
-+
-"
-resources
-/
-profile
-"
-"
-"
-    
+last
 )
     
 try
@@ -1805,7 +1761,9 @@ browser
 .
 open_new_tab
 (
-profiler_url
+server
+.
+url
 )
     
 except
@@ -1840,7 +1798,9 @@ get
 .
 open_new_tab
 (
-profiler_url
+server
+.
+url
 )
         
 except
@@ -1860,7 +1820,23 @@ browser
 .
 "
 %
-profiler_url
+server
+.
+url
+)
+    
+print
+(
+"
+Hit
+CTRL
++
+c
+to
+stop
+server
+.
+"
 )
     
 server

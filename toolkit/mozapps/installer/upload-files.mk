@@ -341,9 +341,6 @@ MAKE_JSSHELL
 call
 py_action
 zip
-(
-JSSHELL_NAME
-)
 -
 C
 (
