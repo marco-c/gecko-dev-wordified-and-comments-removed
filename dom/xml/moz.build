@@ -34,7 +34,7 @@ test
 /
 mochitest
 .
-toml
+ini
 "
 ]
 EXPORTS

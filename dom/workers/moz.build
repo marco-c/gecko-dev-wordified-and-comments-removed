@@ -442,7 +442,7 @@ test
 /
 mochitest
 .
-toml
+ini
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
@@ -468,7 +468,7 @@ xpcshell
 /
 xpcshell
 .
-toml
+ini
 "
 ]
 BROWSER_CHROME_MANIFESTS

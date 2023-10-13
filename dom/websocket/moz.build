@@ -75,14 +75,14 @@ tests
 /
 mochitest
 .
-toml
+ini
 "
 "
 tests
 /
 mochitest_http2
 .
-toml
+ini
 "
 "
 tests
@@ -91,7 +91,7 @@ websocket_hybi
 /
 mochitest
 .
-toml
+ini
 "
 ]
 include

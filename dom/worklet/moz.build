@@ -130,7 +130,7 @@ tests
 /
 mochitest
 .
-toml
+ini
 "
 ]
 FINAL_LIBRARY

@@ -32,6 +32,6 @@ mochitest
 /
 mochitest
 .
-toml
+ini
 "
 ]
