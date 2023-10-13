@@ -1861,9 +1861,6 @@ if
 dimensions
 .
 clientHeight
-!
-=
-null
 )
 {
 this
@@ -1881,9 +1878,6 @@ if
 dimensions
 .
 clientWidth
-!
-=
-null
 )
 {
 this
@@ -1901,9 +1895,6 @@ if
 dimensions
 .
 scrollHeight
-!
-=
-null
 )
 {
 this
@@ -1921,9 +1912,6 @@ if
 dimensions
 .
 scrollWidth
-!
-=
-null
 )
 {
 this
@@ -1941,9 +1929,6 @@ if
 dimensions
 .
 scrollX
-!
-=
-null
 )
 {
 this
@@ -1961,9 +1946,6 @@ if
 dimensions
 .
 scrollY
-!
-=
-null
 )
 {
 this
@@ -1981,9 +1963,6 @@ if
 dimensions
 .
 scrollMinX
-!
-=
-null
 )
 {
 this
@@ -2001,9 +1980,6 @@ if
 dimensions
 .
 scrollMinY
-!
-=
-null
 )
 {
 this
