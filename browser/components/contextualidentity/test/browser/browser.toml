@@ -224,6 +224,13 @@ win
 ]
 [
 "
+browser_guessusercontext
+.
+js
+"
+]
+[
+"
 browser_middleClick
 .
 js
