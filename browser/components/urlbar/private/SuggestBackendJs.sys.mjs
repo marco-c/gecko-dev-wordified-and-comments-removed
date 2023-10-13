@@ -434,16 +434,6 @@ this
 *
 {
 *
-best_match
-:
-{
-*
-min_search_string_length
-*
-blocked_suggestion_ids
-*
-}
-*
 impression_caps
 :
 {

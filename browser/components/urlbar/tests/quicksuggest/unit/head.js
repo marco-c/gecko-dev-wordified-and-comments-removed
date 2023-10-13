@@ -429,6 +429,13 @@ iabCategory
 -
 Education
 "
+suggestedIndex
+=
+-
+1
+isSuggestedIndexRelativeToGroup
+=
+true
 }
 )
 {
@@ -436,6 +443,8 @@ let
 result
 =
 {
+suggestedIndex
+isSuggestedIndexRelativeToGroup
 type
 :
 UrlbarUtils
@@ -823,6 +832,13 @@ iabCategory
 -
 Shopping
 "
+suggestedIndex
+=
+-
+1
+isSuggestedIndexRelativeToGroup
+=
+true
 }
 =
 {
@@ -833,6 +849,8 @@ let
 result
 =
 {
+suggestedIndex
+isSuggestedIndexRelativeToGroup
 type
 :
 UrlbarUtils

@@ -379,7 +379,7 @@ results
 :
 "
 search_engine
-rs_adm_sponsored
+merino_top_picks
 search_suggest
 search_suggest
 "
