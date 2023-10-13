@@ -191,6 +191,12 @@ false
 )
 ;
 }
+exports
+.
+waitForState
+=
+waitForState
+;
 function
 waitForDispatch
 (
@@ -902,6 +908,12 @@ onStateChange
 )
 ;
 }
+exports
+.
+waitForPaused
+=
+waitForPaused
+;
 async
 function
 waitForResumed
@@ -1594,8 +1606,6 @@ function
 removeBreakpoints
 (
 dbg
-line
-url
 )
 {
 dump
