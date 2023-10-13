@@ -324,7 +324,11 @@ rtc
 strcpyn
 (
 output_dir_
-kOutputDirMaxLength
+output_dir
+.
+size
+(
+)
 output_dir
 )
 ;
