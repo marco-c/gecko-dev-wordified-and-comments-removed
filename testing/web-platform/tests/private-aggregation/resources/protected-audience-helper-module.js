@@ -235,7 +235,7 @@ uuid
 expectedNumReports
 timeout
 =
-1000
+5000
 )
 {
 expectedReports
