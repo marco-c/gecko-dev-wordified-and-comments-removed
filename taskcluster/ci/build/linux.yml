@@ -2259,10 +2259,6 @@ toolchain
 -
 linux64
 -
-binutils
--
-linux64
--
 clang
 -
 linux64
@@ -3514,10 +3510,6 @@ toolchain
 -
 linux64
 -
-binutils
--
-linux64
--
 clang
 -
 linux64
@@ -3730,10 +3722,6 @@ fetches
 :
 toolchain
 :
--
-linux64
--
-binutils
 -
 linux64
 -
@@ -3968,10 +3956,6 @@ fetches
 :
 toolchain
 :
--
-linux64
--
-binutils
 -
 linux64
 -
@@ -4448,10 +4432,6 @@ fetches
 :
 toolchain
 :
--
-linux64
--
-binutils
 -
 linux64
 -
@@ -6964,10 +6944,6 @@ toolchain
 -
 linux64
 -
-binutils
--
-linux64
--
 clang
 -
 linux64
@@ -7226,10 +7202,6 @@ fetches
 :
 toolchain
 :
--
-linux64
--
-binutils
 -
 linux64
 -
@@ -8659,10 +8631,6 @@ fetches
 :
 toolchain
 :
--
-linux64
--
-binutils
 -
 linux64
 -
