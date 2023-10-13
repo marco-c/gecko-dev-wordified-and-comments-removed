@@ -126,16 +126,6 @@ nsIFrame
 *
 frame
 =
-const_cast
-<
-SVGTransformableElement
-*
->
-(
-this
-)
--
->
 GetPrimaryFrame
 (
 )
