@@ -3618,11 +3618,6 @@ GetAuthorStyleDisabled
 const
 ;
 void
-UpdatePreferenceStyles
-(
-)
-;
-void
 NotifyStyleSheetServiceSheetAdded
 (
 StyleSheet
@@ -4247,11 +4242,6 @@ AddAuthorSheet
 (
 StyleSheet
 *
-)
-;
-void
-RemovePreferenceStyles
-(
 )
 ;
 void
@@ -6182,12 +6172,6 @@ nsPresContext
 >
 const
 mPresContext
-;
-RefPtr
-<
-StyleSheet
->
-mPrefStyleSheet
 ;
 UniquePtr
 <
