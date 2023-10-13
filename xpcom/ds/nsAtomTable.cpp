@@ -1056,7 +1056,7 @@ static
 size_t
 kNumSubTables
 =
-128
+512
 ;
 constexpr
 static
