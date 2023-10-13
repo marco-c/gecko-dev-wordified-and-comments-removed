@@ -1822,7 +1822,10 @@ static
 Atomic
 <
 bool
-SequentiallyConsistent
+MemoryOrdering
+:
+:
+ReleaseAcquire
 >
 malloc_initialized
 ;
@@ -4656,10 +4659,8 @@ malloc_init
 {
 if
 (
+!
 malloc_initialized
-=
-=
-false
 )
 {
 return
@@ -14176,10 +14177,8 @@ if
 Validate
 &
 &
+!
 malloc_initialized
-=
-=
-false
 )
 {
 return
