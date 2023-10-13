@@ -924,6 +924,10 @@ uint8_t
 *
 aData
 uint32_t
+aWidth
+uint32_t
+aHeight
+uint32_t
 aSize
 mozilla
 :
