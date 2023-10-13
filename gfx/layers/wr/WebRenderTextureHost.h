@@ -183,6 +183,12 @@ WebRenderTextureHost
 }
 #
 endif
+void
+MaybeDestroyRenderTexture
+(
+)
+override
+;
 WebRenderTextureHost
 *
 AsWebRenderTextureHost

@@ -179,12 +179,6 @@ aExternalImageId
 )
 override
 ;
-void
-MaybeDestroyRenderTexture
-(
-)
-override
-;
 uint32_t
 NumSubTextures
 (
