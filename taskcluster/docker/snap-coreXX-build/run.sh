@@ -493,6 +493,7 @@ DEBUG
 ]
 ;
 then
+{
 echo
 "
 ac_add_options
@@ -502,6 +503,18 @@ enable
 -
 debug
 "
+echo
+"
+ac_add_options
+-
+-
+disable
+-
+install
+-
+strip
+"
+}
 >
 >
 {
