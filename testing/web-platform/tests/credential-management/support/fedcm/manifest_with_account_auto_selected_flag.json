@@ -27,7 +27,7 @@ token_with_account_auto_selected_flag
 py
 "
 "
-login_url
+signin_url
 "
 :
 "

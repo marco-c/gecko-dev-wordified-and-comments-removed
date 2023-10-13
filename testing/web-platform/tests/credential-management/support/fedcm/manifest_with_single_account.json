@@ -27,7 +27,7 @@ token_with_account_id
 py
 "
 "
-login_url
+signin_url
 "
 :
 "
