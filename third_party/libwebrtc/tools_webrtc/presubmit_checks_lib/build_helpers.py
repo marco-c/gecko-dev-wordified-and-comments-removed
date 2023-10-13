@@ -534,6 +534,15 @@ toolchains
 '
           
 '
+third_party
+/
+android_toolchain
+/
+toolchains
+/
+'
+          
+'
 llvm
 /
 prebuilt
