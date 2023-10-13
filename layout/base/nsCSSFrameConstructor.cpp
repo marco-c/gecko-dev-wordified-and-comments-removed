@@ -4752,7 +4752,12 @@ PseudoStyleType
 :
 backdrop
 nullptr
-nullptr
+aFrame
+-
+>
+Style
+(
+)
 )
 ;
 MOZ_ASSERT

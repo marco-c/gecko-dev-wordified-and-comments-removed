@@ -4849,13 +4849,6 @@ originating_element_style
 :
 &
 ComputedValues
-parent_style
-:
-&
-Arc
-<
-ComputedValues
->
 is_probe
 :
 bool
@@ -4899,7 +4892,6 @@ lazy_pseudo_rules
 guards
 element
 originating_element_style
-parent_style
 pseudo
 is_probe
 rule_inclusion
@@ -4922,7 +4914,7 @@ originating_element_style
 )
 Some
 (
-parent_style
+originating_element_style
 )
 Some
 (
@@ -5248,13 +5240,6 @@ originating_element_style
 :
 &
 ComputedValues
-parent_style
-:
-&
-Arc
-<
-ComputedValues
->
 pseudo
 :
 &
@@ -5466,7 +5451,7 @@ visited_rules
 None
 ;
 if
-parent_style
+originating_element_style
 .
 visited_style
 (
