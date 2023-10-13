@@ -2240,6 +2240,11 @@ AppConstants
 MOZ_DEV_EDITION
 |
 |
+AppConstants
+.
+NIGHTLY_BUILD
+|
+|
 report
 .
 scriptBrowser
