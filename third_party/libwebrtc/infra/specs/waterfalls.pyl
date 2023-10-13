@@ -2035,6 +2035,11 @@ gtest
 -
 output
 '
+'
+perf
+-
+output
+'
 ]
 '
 test_suites
@@ -2046,7 +2051,7 @@ isolated_scripts
 '
 :
 '
-fuchsia_compatible_perf_tests
+webrtc_perf_tests
 '
 }
 }

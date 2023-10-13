@@ -1810,11 +1810,6 @@ test_launcher_summary_output
 "
 -
 -
-nologs
-"
-"
--
--
 isolated
 -
 script
@@ -1833,7 +1828,12 @@ perftest
 -
 output
 .
-json
+pb
+"
+"
+-
+-
+nologs
 "
 ]
 "
@@ -1841,7 +1841,7 @@ isolate_name
 "
 :
 "
-fuchsia_perf_tests
+webrtc_perf_tests
 "
 "
 merge
@@ -1861,7 +1861,7 @@ test
 suite
 "
 "
-fuchsia_perf_tests
+webrtc_perf_tests
 "
 ]
 "
@@ -1885,7 +1885,7 @@ name
 "
 :
 "
-fuchsia_perf_tests
+webrtc_perf_tests
 "
 "
 resultdb
@@ -1998,7 +1998,7 @@ ninja
 /
 /
 :
-fuchsia_perf_tests
+webrtc_perf_tests
 /
 "
 }
