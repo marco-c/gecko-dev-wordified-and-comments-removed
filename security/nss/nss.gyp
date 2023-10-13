@@ -931,6 +931,17 @@ crlutil
 '
 cmd
 /
+dbtool
+/
+dbtool
+.
+gyp
+:
+dbtool
+'
+'
+cmd
+/
 modutil
 /
 modutil

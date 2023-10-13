@@ -98,6 +98,10 @@ BLTEST_SRCDIR
 )
 \
 (
+DBTOOL_SRCDIR
+)
+\
+(
 ECPERF_SRCDIR
 )
 \

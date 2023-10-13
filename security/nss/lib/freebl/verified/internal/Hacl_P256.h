@@ -92,6 +92,13 @@ Hacl_P256
 .
 h
 "
+#
+include
+"
+lib_intrinsics
+.
+h
+"
 bool
 Hacl_Impl_P256_DH_ecp256dh_i
 (

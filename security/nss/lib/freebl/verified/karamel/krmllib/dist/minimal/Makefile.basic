@@ -339,6 +339,8 @@ CC
 )
 -
 MM
+-
+MG
 (
 CFLAGS
 )

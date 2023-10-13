@@ -221,6 +221,7 @@ __attribute__
 (
 (
 noinline
+unused
 )
 )
 #

@@ -366,6 +366,14 @@ s_shutdown
 (
 )
 ;
+CK_RV
+sdb_Close
+(
+SDB
+*
+sdb
+)
+;
 #
 if
 defined

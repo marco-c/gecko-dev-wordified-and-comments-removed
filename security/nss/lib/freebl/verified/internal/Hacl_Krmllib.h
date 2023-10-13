@@ -66,7 +66,7 @@ Hacl_Krmllib
 h
 "
 static
-inline
+KRML_NOINLINE
 uint32_t
 FStar_UInt32_eq_mask
 (
@@ -77,7 +77,7 @@ b
 )
 ;
 static
-inline
+KRML_NOINLINE
 uint32_t
 FStar_UInt32_gte_mask
 (
@@ -88,7 +88,7 @@ b
 )
 ;
 static
-inline
+KRML_NOINLINE
 uint8_t
 FStar_UInt8_eq_mask
 (
@@ -99,7 +99,7 @@ b
 )
 ;
 static
-inline
+KRML_NOINLINE
 uint16_t
 FStar_UInt16_eq_mask
 (

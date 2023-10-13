@@ -726,6 +726,16 @@ CFLAGS
 -
 DXP_WIN32
 "
+"
+-
+Wno
+-
+error
+=
+unused
+-
+function
+"
 ]
 if
 CONFIG

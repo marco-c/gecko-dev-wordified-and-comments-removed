@@ -116,6 +116,10 @@ NSS_SecureSelect
 NSS_SecureSelect_stub
 #
 define
+NSS_GetSystemFIPSEnabled
+NSS_GetSystemFIPSEnabled_stub
+#
+define
 PR_Assert
 PR_Assert_stub
 #
