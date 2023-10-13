@@ -849,9 +849,10 @@ LengthPercentage
 >
 mRootMargin
 ;
-nsTArray
+AutoTArray
 <
 double
+1
 >
 mThresholds
 ;
@@ -880,6 +881,8 @@ mQueuedEntries
 ;
 bool
 mConnected
+=
+false
 ;
 }
 ;
