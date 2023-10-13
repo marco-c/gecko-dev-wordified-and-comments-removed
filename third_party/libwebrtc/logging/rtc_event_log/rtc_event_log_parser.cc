@@ -16309,6 +16309,7 @@ rtp_packets
 .
 packet_view
 rtp_handler
+direction
 )
 ;
 }
@@ -16329,6 +16330,10 @@ AddEvents
 (
 incoming_transport_feedback_
 feedback_handler
+PacketDirection
+:
+:
+kIncomingPacket
 )
 ;
 }
@@ -16340,6 +16345,10 @@ AddEvents
 (
 outgoing_transport_feedback_
 feedback_handler
+PacketDirection
+:
+:
+kOutgoingPacket
 )
 ;
 }

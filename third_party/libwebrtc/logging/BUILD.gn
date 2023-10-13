@@ -3093,6 +3093,13 @@ rtc_event_processor
 .
 h
 "
+"
+rtc_event_log
+/
+rtc_event_processor_order
+.
+h
+"
 ]
 deps
 =

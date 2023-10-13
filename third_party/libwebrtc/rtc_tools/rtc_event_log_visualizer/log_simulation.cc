@@ -1225,6 +1225,10 @@ packet
 )
 ;
 }
+PacketDirection
+:
+:
+kOutgoingPacket
 )
 ;
 processor
@@ -1256,6 +1260,10 @@ feedback
 )
 ;
 }
+PacketDirection
+:
+:
+kIncomingPacket
 )
 ;
 processor
@@ -1287,6 +1295,10 @@ report
 )
 ;
 }
+PacketDirection
+:
+:
+kIncomingPacket
 )
 ;
 processor

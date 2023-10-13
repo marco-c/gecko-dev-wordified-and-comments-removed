@@ -4126,6 +4126,7 @@ handle_rtp
 =
 [
 &
+packet_times
 ]
 (
 const
@@ -4173,6 +4174,7 @@ stream
 .
 packet_view
 handle_rtp
+direction
 )
 ;
 }
@@ -4189,6 +4191,7 @@ handle_incoming_rtcp
 =
 [
 &
+packet_times
 ]
 (
 const
@@ -4230,6 +4233,7 @@ handle_outgoing_rtcp
 =
 [
 &
+packet_times
 ]
 (
 const
