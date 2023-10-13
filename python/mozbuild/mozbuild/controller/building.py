@@ -1182,6 +1182,7 @@ init
 (
 self
 warnings_path
+terminal
 )
 :
         
@@ -1295,6 +1296,12 @@ instance_warnings
 WarningsDatabase
 (
 )
+        
+self
+.
+_terminal
+=
+terminal
         
 def
 on_warning
@@ -1613,8 +1620,25 @@ message
 =
 None
         
-if
+plain_line
+=
+self
+.
+_terminal
+.
+strip
+(
 line
+)
+if
+self
+.
+_terminal
+else
+line
+        
+if
+plain_line
 .
 startswith
 (
@@ -1626,7 +1650,7 @@ BUILDSTATUS
             
 args
 =
-line
+plain_line
 .
 split
 (
@@ -1909,7 +1933,7 @@ message
 )
         
 elif
-line
+plain_line
 .
 startswith
 (
@@ -1922,7 +1946,7 @@ BUILDTASK
 _
 data
 =
-line
+plain_line
 .
 split
 (
@@ -7389,6 +7413,11 @@ monitor
 init
 (
 warnings_path
+self
+.
+log_manager
+.
+terminal
 )
         
 footer
