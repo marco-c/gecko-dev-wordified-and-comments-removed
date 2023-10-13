@@ -308,7 +308,7 @@ ret
 }
 #
 ifdef
-_USE_SSE2
+USE_SSE2
 #
 include
 <
