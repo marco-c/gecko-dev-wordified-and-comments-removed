@@ -31,7 +31,7 @@ mochitest
 /
 browser
 .
-toml
+ini
 "
 ]
 TEST_DIRS

@@ -42,7 +42,7 @@ BROWSER_CHROME_MANIFESTS
 "
 browser
 .
-toml
+ini
 "
 ]
 METRO_CHROME_MANIFESTS

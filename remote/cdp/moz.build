@@ -94,7 +94,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -114,7 +114,7 @@ dom
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -125,7 +125,7 @@ emulation
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -136,7 +136,7 @@ fetch
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -147,7 +147,7 @@ input
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -158,7 +158,7 @@ io
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -169,7 +169,7 @@ log
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -180,7 +180,7 @@ network
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -191,7 +191,7 @@ page
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -202,7 +202,7 @@ runtime
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -224,7 +224,7 @@ security
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -235,7 +235,7 @@ systemInfo
 /
 browser
 .
-toml
+ini
 "
 "
 test
@@ -246,7 +246,7 @@ target
 /
 browser
 .
-toml
+ini
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
