@@ -950,7 +950,7 @@ self
 forget
 (
 )
-500
+1000
 EventQueuePriority
 :
 :
