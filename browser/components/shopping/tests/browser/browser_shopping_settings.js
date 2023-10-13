@@ -108,9 +108,9 @@ url
 pathname
 "
 /
-review
+our
 -
-checker
+mission
 "
 )
 ;

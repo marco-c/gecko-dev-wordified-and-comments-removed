@@ -785,9 +785,9 @@ href
 {
 FAKESPOT_BASE_URL
 }
-review
+our
 -
-checker
+mission
 ?
 utm_source
 =
