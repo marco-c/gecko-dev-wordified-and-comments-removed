@@ -1335,7 +1335,7 @@ aForce
 HRESULT
 hr
 =
-SendDefaultBrowserPing
+SendDefaultAgentPing
 (
 browserInfo
 pdfInfo

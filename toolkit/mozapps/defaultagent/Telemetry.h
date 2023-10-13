@@ -39,7 +39,7 @@ mozilla
 default_agent
 {
 HRESULT
-SendDefaultBrowserPing
+SendDefaultAgentPing
 (
 const
 DefaultBrowserInfo
