@@ -3110,6 +3110,9 @@ videoStats
 jitter_buffer_delay
 .
 seconds
+<
+double
+>
 (
 )
 )
