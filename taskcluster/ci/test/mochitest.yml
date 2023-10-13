@@ -3957,15 +3957,6 @@ process
 :
 [
 ]
-.
-*
--
-wayland
-/
-debug
-:
-[
-]
 default
 :
 built
