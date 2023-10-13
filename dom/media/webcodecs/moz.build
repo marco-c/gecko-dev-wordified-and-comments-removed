@@ -94,6 +94,11 @@ DecoderTemplate
 h
 "
 "
+DecoderTypes
+.
+h
+"
+"
 EncodedVideoChunk
 .
 h
