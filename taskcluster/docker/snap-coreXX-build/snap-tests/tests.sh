@@ -27,6 +27,9 @@ ARTIFACT_DIR
 sudo
 snap
 refresh
+sudo
+snap
+refresh
 -
 -
 hold
