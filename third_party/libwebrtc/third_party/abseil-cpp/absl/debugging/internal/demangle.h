@@ -32,7 +32,7 @@ mangled
 char
 *
 out
-int
+size_t
 out_size
 )
 ;

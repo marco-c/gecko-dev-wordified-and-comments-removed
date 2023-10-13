@@ -286,7 +286,13 @@ width
 )
 space_remaining
 =
+static_cast
+<
+size_t
+>
+(
 width
+)
 ;
 size_t
 n

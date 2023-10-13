@@ -610,7 +610,7 @@ kSpinLockSleeper
 )
 {
 const
-uint64_t
+int64_t
 wait_cycles
 =
 DecodeWaitCycles
@@ -759,7 +759,7 @@ return
 clamped
 ;
 }
-uint64_t
+int64_t
 SpinLock
 :
 :
@@ -770,7 +770,7 @@ lock_value
 )
 {
 const
-uint64_t
+int64_t
 scaled_wait_time
 =
 static_cast

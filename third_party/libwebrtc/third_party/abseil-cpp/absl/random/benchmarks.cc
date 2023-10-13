@@ -287,8 +287,9 @@ uint32_t
 PrecompiledSeedSeq
 (
 )
-{
-}
+=
+default
+;
 template
 <
 typename

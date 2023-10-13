@@ -514,11 +514,9 @@ size_
 std
 :
 :
-fill
+fill_n
 (
 words_
-words_
-+
 word_shift
 0u
 )
@@ -851,11 +849,9 @@ SetToZero
 std
 :
 :
-fill
+fill_n
 (
 words_
-words_
-+
 size_
 0u
 )

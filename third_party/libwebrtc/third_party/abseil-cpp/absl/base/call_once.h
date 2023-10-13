@@ -376,6 +376,8 @@ mode_
 ;
 bool
 guard_result_
+=
+false
 ;
 }
 ;

@@ -337,6 +337,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_impl
@@ -401,6 +402,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_impl
@@ -456,6 +458,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_impl
@@ -507,6 +510,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_impl
@@ -551,6 +555,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign
@@ -611,6 +616,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign
@@ -662,6 +668,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign
@@ -709,6 +716,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign
@@ -786,6 +794,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace_impl
@@ -878,6 +887,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace_impl
@@ -934,6 +944,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace
@@ -997,6 +1008,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace
@@ -1045,6 +1057,7 @@ K
 &
 key
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 auto
 it
@@ -1130,6 +1143,7 @@ K
 key
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 auto
 it
@@ -1220,6 +1234,7 @@ K
 &
 key
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 Policy
@@ -1274,6 +1289,7 @@ K
 &
 key
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 Policy
@@ -1320,6 +1336,7 @@ V
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 auto
 res
@@ -1449,6 +1466,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 auto
 res

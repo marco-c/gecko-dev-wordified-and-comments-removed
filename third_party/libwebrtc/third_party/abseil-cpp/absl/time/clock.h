@@ -11,6 +11,17 @@ absl
 /
 base
 /
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 macros
 .
 h
@@ -60,6 +71,7 @@ extern
 C
 "
 {
+ABSL_DLL
 void
 ABSL_INTERNAL_C_SYMBOL
 (

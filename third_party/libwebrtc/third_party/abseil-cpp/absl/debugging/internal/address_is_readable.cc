@@ -124,7 +124,10 @@ addr
 )
 &
 ~
+uintptr_t
+{
 7
+}
 ;
 addr
 =

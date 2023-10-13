@@ -696,11 +696,9 @@ ep
 std
 :
 :
-copy
+copy_n
 (
 kFixedZonePrefix
-kFixedZonePrefix
-+
 prefix_len
 buf
 )

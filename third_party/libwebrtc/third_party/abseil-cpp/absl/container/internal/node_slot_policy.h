@@ -187,7 +187,10 @@ class
 Alloc
 >
 static
-void
+std
+:
+:
+true_type
 transfer
 (
 Alloc
@@ -205,6 +208,10 @@ new_slot
 =
 *
 old_slot
+;
+return
+{
+}
 ;
 }
 static

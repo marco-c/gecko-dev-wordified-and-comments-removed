@@ -194,7 +194,7 @@ stack
 f
 )
 ;
-int32_t
+size_t
 GetMaxSamples
 (
 )
@@ -203,7 +203,7 @@ const
 void
 SetMaxSamples
 (
-int32_t
+size_t
 max
 )
 ;
@@ -267,7 +267,7 @@ std
 :
 atomic
 <
-int32_t
+size_t
 >
 max_samples_
 {
@@ -736,7 +736,7 @@ Targs
 args
 )
 {
-int64_t
+size_t
 size
 =
 size_estimate_
@@ -830,6 +830,15 @@ sample
 -
 >
 init_mu
+)
+;
+sample
+-
+>
+init_mu
+.
+ForgetDeadlockInfo
+(
 )
 ;
 sample
@@ -1018,7 +1027,7 @@ T
 :
 SetMaxSamples
 (
-int32_t
+size_t
 max
 )
 {
@@ -1039,7 +1048,7 @@ template
 typename
 T
 >
-int32_t
+size_t
 SampleRecorder
 <
 T

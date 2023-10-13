@@ -17,6 +17,11 @@ algorithm
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #

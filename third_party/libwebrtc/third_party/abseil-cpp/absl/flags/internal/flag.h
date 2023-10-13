@@ -1408,10 +1408,7 @@ std
 integral_constant
 <
 bool
-absl
-:
-:
-type_traits_internal
+std
 :
 :
 is_trivially_copyable
@@ -1459,10 +1456,7 @@ std
 integral_constant
 <
 bool
-absl
-:
-:
-type_traits_internal
+std
 :
 :
 is_trivially_copyable
@@ -1499,10 +1493,7 @@ std
 integral_constant
 <
 bool
-absl
-:
-:
-type_traits_internal
+std
 :
 :
 is_trivially_copyable

@@ -25,8 +25,9 @@ FlagStateInterface
 FlagStateInterface
 (
 )
-{
-}
+=
+default
+;
 }
 ABSL_NAMESPACE_END
 }

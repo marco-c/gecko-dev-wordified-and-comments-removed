@@ -1,9 +1,9 @@
 #
 ifndef
-ABSL_STRINGS_CORDZ_INFO_H_
+ABSL_STRINGS_INTERNAL_CORDZ_INFO_H_
 #
 define
-ABSL_STRINGS_CORDZ_INFO_H_
+ABSL_STRINGS_INTERNAL_CORDZ_INFO_H_
 #
 include
 <
@@ -482,7 +482,7 @@ nullptr
 ;
 static
 constexpr
-int
+size_t
 kMaxStackDepth
 =
 64
@@ -532,7 +532,7 @@ src
 )
 ;
 static
-int
+size_t
 FillParentStack
 (
 const
@@ -656,11 +656,11 @@ kMaxStackDepth
 ]
 ;
 const
-int
+size_t
 stack_depth_
 ;
 const
-int
+size_t
 parent_stack_depth_
 ;
 const

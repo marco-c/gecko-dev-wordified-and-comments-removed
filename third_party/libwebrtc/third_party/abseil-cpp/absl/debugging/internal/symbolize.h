@@ -292,7 +292,6 @@ ticket
 bool
 RemoveAllSymbolDecorators
 (
-void
 )
 ;
 bool

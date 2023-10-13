@@ -324,6 +324,10 @@ log_severity
 absl
 :
 :
+int128
+absl
+:
+:
 optional
 absl
 :
@@ -785,10 +789,6 @@ flags_reflection
 absl
 :
 :
-flat_hash_map
-absl
-:
-:
 strings
 absl
 :
@@ -835,6 +835,10 @@ flags_usage_internal
 absl
 :
 :
+raw_logging_internal
+absl
+:
+:
 strings
 absl
 :
@@ -873,6 +877,10 @@ LINKOPTS
 ABSL_DEFAULT_LINKOPTS
 }
 DEPS
+absl
+:
+:
+algorithm_container
 absl
 :
 :
@@ -1006,7 +1014,7 @@ synchronization
 Unit
 tests
 in
-alpahabetical
+alphabetical
 order
 .
 absl_cc_test
@@ -1132,6 +1140,10 @@ flags_reflection
 absl
 :
 :
+int128
+absl
+:
+:
 strings
 absl
 :
@@ -1200,7 +1212,7 @@ flags_usage_internal
 absl
 :
 :
-raw_logging_internal
+log
 absl
 :
 :

@@ -153,7 +153,7 @@ Source
 )
 &
 &
-type_traits_internal
+std
 :
 :
 is_trivially_copyable
@@ -165,7 +165,7 @@ Source
 value
 &
 &
-type_traits_internal
+std
 :
 :
 is_trivially_copyable

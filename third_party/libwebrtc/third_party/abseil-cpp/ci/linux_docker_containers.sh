@@ -166,7 +166,7 @@ absl
 /
 alpine
 :
-20201026
+20230612
 "
 readonly
 LINUX_CLANG_LATEST_CONTAINER
@@ -188,7 +188,7 @@ linux_hybrid
 -
 latest
 :
-20220217
+20230816
 "
 readonly
 LINUX_GCC_LATEST_CONTAINER
@@ -210,7 +210,7 @@ linux_hybrid
 -
 latest
 :
-20220217
+20230816
 "
 readonly
 LINUX_GCC_FLOOR_CONTAINER
@@ -232,5 +232,5 @@ linux_gcc
 -
 floor
 :
-20210617
+20230120
 "

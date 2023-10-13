@@ -248,6 +248,10 @@ AbsorbFn
 public
 T
 {
+alignas
+(
+16
+)
 mutable
 uint64_t
 state
@@ -258,6 +262,10 @@ kStateSizeT
 {
 }
 ;
+alignas
+(
+16
+)
 mutable
 uint32_t
 seed

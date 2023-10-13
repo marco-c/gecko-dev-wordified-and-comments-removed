@@ -12,6 +12,11 @@ h
 #
 include
 <
+memory
+>
+#
+include
+<
 sstream
 >
 #
@@ -28,6 +33,11 @@ tuple
 include
 <
 type_traits
+>
+#
+include
+<
+utility
 >
 #
 include
@@ -1644,11 +1654,6 @@ make_tuple
 42
 )
 )
-:
-:
-testing
-:
-:
 Pointee
 (
 42

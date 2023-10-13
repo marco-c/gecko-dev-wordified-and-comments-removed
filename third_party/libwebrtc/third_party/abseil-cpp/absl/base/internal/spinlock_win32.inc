@@ -82,6 +82,11 @@ else
 {
 Sleep
 (
+static_cast
+<
+DWORD
+>
+(
 absl
 :
 :
@@ -94,6 +99,7 @@ loop
 )
 /
 1000000
+)
 )
 ;
 }

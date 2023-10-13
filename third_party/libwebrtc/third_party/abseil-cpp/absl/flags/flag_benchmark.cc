@@ -1659,6 +1659,9 @@ ThreadRange
 ;
 }
 #
+ifdef
+__llvm__
+#
 define
 InvokeGetFlag
 (
@@ -1711,3 +1714,5 @@ BENCHMARKED_TYPES
 (
 InvokeGetFlag
 )
+#
+endif

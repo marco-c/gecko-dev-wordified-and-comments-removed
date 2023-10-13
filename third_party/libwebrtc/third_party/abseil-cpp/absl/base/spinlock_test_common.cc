@@ -145,7 +145,7 @@ notification
 h
 "
 constexpr
-int32_t
+uint32_t
 kNumThreads
 =
 10
@@ -188,7 +188,7 @@ wait_end_time
 ;
 }
 static
-uint64_t
+int64_t
 DecodeWaitCycles
 (
 uint32_t
@@ -211,7 +211,7 @@ namespace
 {
 static
 constexpr
-int
+size_t
 kArrayLength
 =
 10
@@ -456,7 +456,7 @@ static
 void
 TestFunction
 (
-int
+uint32_t
 thread_salt
 SpinLock
 *
@@ -487,7 +487,7 @@ spinlock
 ;
 for
 (
-int
+size_t
 j
 =
 0
@@ -502,7 +502,7 @@ j
 )
 {
 const
-int
+size_t
 index
 =
 (
@@ -570,7 +570,7 @@ kNumThreads
 ;
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -624,7 +624,7 @@ spinlock
 ;
 for
 (
-int
+size_t
 i
 =
 1
@@ -780,7 +780,7 @@ kLockwordReservedShift
 kProfileTimestampShift
 ;
 const
-uint64_t
+int64_t
 kMaxCycles
 =
 (
@@ -809,7 +809,7 @@ kLockwordReservedShift
 1
 ;
 const
-uint64_t
+int64_t
 kProfileTimestampMask
 =
 (
@@ -832,7 +832,7 @@ std
 :
 uniform_int_distribution
 <
-uint64_t
+int64_t
 >
 time_distribution
 (
@@ -842,7 +842,7 @@ std
 :
 numeric_limits
 <
-uint64_t
+int64_t
 >
 :
 :
@@ -851,7 +851,7 @@ max
 )
 >
 >
-4
+3
 )
 ;
 std
@@ -859,7 +859,7 @@ std
 :
 uniform_int_distribution
 <
-uint64_t
+int64_t
 >
 cycle_distribution
 (
@@ -920,13 +920,13 @@ end_time
 ;
 EXPECT_EQ
 (
-0
+0u
 lock_value
 &
 kLockwordReservedMask
 )
 ;
-uint64_t
+int64_t
 decoded
 =
 SpinLockTest
@@ -1062,7 +1062,7 @@ start_time
 kMaxCycles
 )
 ;
-uint64_t
+int64_t
 max_value_decoded
 =
 SpinLockTest
@@ -1073,7 +1073,7 @@ DecodeWaitCycles
 max_value
 )
 ;
-uint64_t
+int64_t
 expected_max_value_decoded
 =
 kMaxCycles
@@ -1114,7 +1114,7 @@ kMaxCycles
 step
 )
 ;
-uint64_t
+int64_t
 after_max_value_decoded
 =
 SpinLockTest
@@ -1147,7 +1147,7 @@ kMaxCycles
 step
 )
 ;
-uint64_t
+int64_t
 before_max_value_decoded
 =
 SpinLockTest

@@ -139,7 +139,7 @@ cmake_minimum_required
 VERSION
 3
 .
-5
+10
 )
 project
 (

@@ -426,6 +426,11 @@ const
 uint32_t
 rep_lo
 =
+static_cast
+<
+uint32_t
+>
+(
 parts
 .
 fem
@@ -440,6 +445,7 @@ count
 1000
 /
 4
+)
 )
 ;
 const

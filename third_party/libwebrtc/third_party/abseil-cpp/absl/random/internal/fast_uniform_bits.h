@@ -287,6 +287,11 @@ NumBits
 )
 {
 return
+static_cast
+<
+size_t
+>
+(
 RangeSize
 <
 URBG
@@ -319,6 +324,7 @@ RangeSize
 URBG
 >
 (
+)
 )
 )
 ;
@@ -786,6 +792,10 @@ n
 {
 r
 =
+static_cast
+<
+result_type
+>
 (
 r
 <

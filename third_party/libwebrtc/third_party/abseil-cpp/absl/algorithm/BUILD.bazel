@@ -258,13 +258,16 @@ gtest_main
 "
 ]
 )
-cc_test
+cc_binary
 (
 name
 =
 "
 algorithm_benchmark
 "
+testonly
+=
+1
 srcs
 =
 [

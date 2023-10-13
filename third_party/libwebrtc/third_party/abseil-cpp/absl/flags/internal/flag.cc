@@ -2137,7 +2137,7 @@ this
 )
 )
 ;
-size_t
+ptrdiff_t
 offset
 =
 flags_internal
@@ -2669,7 +2669,7 @@ dst
 )
 const
 {
-int
+size_t
 size
 =
 Sizeof

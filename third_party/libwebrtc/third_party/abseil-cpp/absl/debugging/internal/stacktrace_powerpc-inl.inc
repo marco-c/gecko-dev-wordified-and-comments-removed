@@ -227,7 +227,7 @@ PPC
 ABI
 for
 your
-archiecture
+architecture
 .
 #
 endif

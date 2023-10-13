@@ -158,6 +158,11 @@ const
 size_t
 n
 =
+static_cast
+<
+size_t
+>
+(
 std
 :
 :
@@ -165,6 +170,7 @@ distance
 (
 begin
 end
+)
 )
 ;
 auto

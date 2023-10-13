@@ -37,6 +37,14 @@ kBase64Chars
 [
 ]
 ;
+ABSL_CONST_INIT
+extern
+const
+char
+kWebSafeBase64Chars
+[
+]
+;
 size_t
 CalculateBase64EscapedLenInternal
 (

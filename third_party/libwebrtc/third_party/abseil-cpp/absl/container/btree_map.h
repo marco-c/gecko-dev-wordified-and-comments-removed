@@ -236,6 +236,12 @@ using
 Base
 :
 :
+extract_and_get_next
+;
+using
+Base
+:
+:
 merge
 ;
 using
@@ -579,6 +585,12 @@ Base
 :
 :
 extract
+;
+using
+Base
+:
+:
+extract_and_get_next
 ;
 using
 Base

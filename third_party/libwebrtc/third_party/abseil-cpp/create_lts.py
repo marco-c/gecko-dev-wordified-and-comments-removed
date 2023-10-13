@@ -106,7 +106,7 @@ Exception
 :
 A
 failure
-occured
+occurred
   
 "
 "
@@ -290,7 +290,7 @@ Exception
 :
 A
 failure
-occured
+occurred
   
 "
 "
