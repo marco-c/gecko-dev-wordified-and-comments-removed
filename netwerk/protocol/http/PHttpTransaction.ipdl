@@ -241,6 +241,8 @@ TRRSkippedReason
 trrSkipReason
 uint32_t
 caps
+TimeStamp
+onStartRequestStart
 )
 ;
 async
@@ -266,6 +268,8 @@ uint64_t
 offset
 uint32_t
 count
+TimeStamp
+onDataAvailableStart
 )
 ;
 async
@@ -289,6 +293,8 @@ TimeStamp
 lastActiveTabOptimization
 HttpConnectionInfoCloneArgs
 connInfoArgs
+TimeStamp
+onStopRequestStart
 )
 ;
 async

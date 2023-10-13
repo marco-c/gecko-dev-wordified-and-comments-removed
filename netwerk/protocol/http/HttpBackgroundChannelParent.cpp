@@ -696,6 +696,8 @@ nsICacheEntry
 >
 &
 aAltDataSource
+TimeStamp
+aOnStartRequestStart
 )
 {
 LOG
@@ -773,6 +775,7 @@ nsCOMPtr
 <
 nsICacheEntry
 >
+TimeStamp
 >
 (
 "
@@ -795,6 +798,7 @@ aUseResponseHead
 aRequestHeaders
 aArgs
 aAltDataSource
+aOnStartRequestStart
 )
 NS_DISPATCH_NORMAL
 )
@@ -910,6 +914,7 @@ aUseResponseHead
 aRequestHeaders
 aArgs
 altData
+aOnStartRequestStart
 )
 ;
 }
@@ -939,6 +944,8 @@ const
 nsCString
 &
 aData
+TimeStamp
+aOnDataAvailableStart
 )
 {
 LOG
@@ -1013,6 +1020,7 @@ const
 uint32_t
 const
 nsCString
+TimeStamp
 >
 (
 "
@@ -1035,6 +1043,7 @@ aTransportStatus
 aOffset
 aCount
 aData
+aOnDataAvailableStart
 )
 NS_DISPATCH_NORMAL
 )
@@ -1075,6 +1084,7 @@ this
 )
 aChannelStatus
 aTransportStatus
+aOnDataAvailableStart
 ]
 (
 const
@@ -1099,6 +1109,7 @@ aOffset
 aCount
 aData
 false
+aOnDataAvailableStart
 )
 ;
 }
@@ -1141,6 +1152,8 @@ ConsoleReportCollected
 >
 &
 aConsoleReports
+TimeStamp
+aOnStopRequestStart
 )
 {
 LOG
@@ -1231,6 +1244,7 @@ CopyableTArray
 <
 ConsoleReportCollected
 >
+TimeStamp
 >
 (
 "
@@ -1252,6 +1266,7 @@ aChannelStatus
 aTiming
 aResponseTrailers
 aConsoleReports
+aOnStopRequestStart
 )
 NS_DISPATCH_NORMAL
 )
@@ -1290,6 +1305,7 @@ lastActTabOpt
 aResponseTrailers
 aConsoleReports
 false
+aOnStopRequestStart
 )
 ;
 }

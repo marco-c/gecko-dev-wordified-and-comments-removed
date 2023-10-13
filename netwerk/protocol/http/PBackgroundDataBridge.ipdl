@@ -152,6 +152,8 @@ uint32_t
 count
 nsCString
 data
+TimeStamp
+onDataAvailableStart
 )
 ;
 async
@@ -165,6 +167,8 @@ TimeStamp
 lastActiveTabOptimization
 nsHttpHeaderArray
 responseTrailers
+TimeStamp
+onStopRequestStart
 )
 ;
 both

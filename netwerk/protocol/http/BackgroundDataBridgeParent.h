@@ -80,6 +80,10 @@ const
 nsHttpHeaderArray
 &
 aResponseTrailers
+const
+TimeStamp
+&
+aOnStopRequestStart
 )
 ;
 private

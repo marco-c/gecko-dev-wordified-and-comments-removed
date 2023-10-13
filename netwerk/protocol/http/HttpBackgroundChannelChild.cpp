@@ -865,6 +865,10 @@ const
 HttpChannelAltDataStream
 &
 aAltData
+const
+TimeStamp
+&
+aOnStartRequestStart
 )
 {
 LOG
@@ -949,6 +953,7 @@ aUseResponseHead
 aRequestHeaders
 aArgs
 aAltData
+aOnStartRequestStart
 )
 ;
 OnStartRequestReceived
@@ -996,6 +1001,10 @@ const
 bool
 &
 aDataFromSocketProcess
+const
+TimeStamp
+&
+aOnDataAvailableStart
 )
 {
 RefPtr
@@ -1030,6 +1039,7 @@ nsCString
 aData
 )
 aDataFromSocketProcess
+aOnDataAvailableStart
 ]
 (
 )
@@ -1173,6 +1183,7 @@ aTransportStatus
 aOffset
 aCount
 data
+aOnDataAvailableStart
 )
 ;
 }
@@ -1285,6 +1296,10 @@ const
 bool
 &
 aFromSocketProcess
+const
+TimeStamp
+&
+aOnStopRequestStart
 )
 {
 LOG
@@ -1435,6 +1450,7 @@ aConsoleReports
 )
 }
 aFromSocketProcess
+aOnStopRequestStart
 ]
 (
 )
@@ -1457,6 +1473,7 @@ move
 consoleReports
 )
 aFromSocketProcess
+aOnStopRequestStart
 )
 ;
 }
@@ -1513,6 +1530,7 @@ move
 aConsoleReports
 )
 false
+aOnStopRequestStart
 )
 ;
 }
@@ -1561,6 +1579,7 @@ move
 aConsoleReports
 )
 true
+aOnStopRequestStart
 )
 ;
 if

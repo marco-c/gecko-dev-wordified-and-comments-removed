@@ -96,6 +96,10 @@ const
 nsACString
 &
 data
+const
+TimeStamp
+&
+aOnDataAvailableStartTime
 )
 {
 if
@@ -142,6 +146,7 @@ offset
 count
 data
 true
+aOnDataAvailableStartTime
 )
 ;
 }
@@ -171,6 +176,10 @@ const
 nsHttpHeaderArray
 &
 aResponseTrailers
+const
+TimeStamp
+&
+aOnStopRequestStartTime
 )
 {
 if
@@ -222,6 +231,7 @@ ConsoleReportCollected
 (
 )
 true
+aOnStopRequestStartTime
 )
 ;
 }

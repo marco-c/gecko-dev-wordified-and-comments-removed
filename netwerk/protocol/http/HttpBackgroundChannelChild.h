@@ -171,6 +171,10 @@ const
 HttpChannelAltDataStream
 &
 aAltData
+const
+TimeStamp
+&
+aOnStartRequestStart
 )
 ;
 IPCResult
@@ -200,6 +204,10 @@ const
 bool
 &
 aDataFromSocketProcess
+const
+TimeStamp
+&
+aOnDataAvailableStart
 )
 ;
 IPCResult
@@ -232,6 +240,10 @@ const
 bool
 &
 aFromSocketProcess
+const
+TimeStamp
+&
+aOnStopRequestStart
 )
 ;
 IPCResult

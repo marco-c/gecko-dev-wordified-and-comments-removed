@@ -54,6 +54,8 @@ HttpChannelOnStartRequestArgs
 args
 HttpChannelAltDataStream
 altData
+TimeStamp
+onStartRequestStart
 )
 ;
 async
@@ -71,6 +73,8 @@ nsCString
 data
 bool
 dataFromSocketProcess
+TimeStamp
+onDataAvailableStart
 )
 ;
 async
@@ -90,6 +94,8 @@ ConsoleReportCollected
 consoleReport
 bool
 fromSocketProcess
+TimeStamp
+onStopRequestStart
 )
 ;
 async

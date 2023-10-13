@@ -3210,6 +3210,15 @@ nsIDNSHTTPSSVCRecord
 aRecord
 )
 ;
+void
+RecordOnStartTelemetry
+(
+nsresult
+aStatus
+bool
+aIsNavigation
+)
+;
 nsCOMPtr
 <
 nsITimer

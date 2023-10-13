@@ -126,6 +126,8 @@ nsICacheEntry
 >
 &
 aCacheEntry
+TimeStamp
+aOnStartRequestStart
 )
 ;
 bool
@@ -151,6 +153,8 @@ const
 nsCString
 &
 aData
+TimeStamp
+aOnDataAvailableStart
 )
 ;
 bool
@@ -175,6 +179,8 @@ ConsoleReportCollected
 >
 &
 aConsoleReports
+TimeStamp
+aOnStopRequestStart
 )
 ;
 bool
