@@ -60,6 +60,17 @@ include
 "
 modules
 /
+portal
+/
+pipewire_utils
+.
+h
+"
+#
+include
+"
+modules
+/
 video_capture
 /
 linux
@@ -374,8 +385,7 @@ callback
 int
 fd
 =
--
-1
+kInvalidPipeWireFd
 )
 ;
 const

@@ -1627,8 +1627,7 @@ spa_data
 fd
 =
 =
--
-1
+kInvalidPipeWireFd
 )
 {
 RTC_LOG

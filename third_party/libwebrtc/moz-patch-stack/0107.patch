@@ -233,10 +233,10 @@ pipewire_session
 .
 cc
 index
-0229e71cea
+3f52b3dd61
 .
 .
-46ea23f1cb
+4d1b200aca
 100644
 -
 -
@@ -267,10 +267,10 @@ pipewire_session
 .
 cc
 -
-361
+360
 6
 +
-361
+360
 10
 void
 PipeWireSession

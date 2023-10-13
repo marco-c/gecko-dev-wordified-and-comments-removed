@@ -2250,9 +2250,9 @@ pw_main_loop_
 if
 (
 fd
->
+!
 =
-0
+kInvalidPipeWireFd
 )
 {
 pw_core_
@@ -5176,8 +5176,7 @@ private_
 StartScreenCastStream
 (
 stream_node_id
--
-1
+kInvalidPipeWireFd
 )
 ;
 }

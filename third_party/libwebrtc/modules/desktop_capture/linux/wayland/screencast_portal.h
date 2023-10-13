@@ -51,6 +51,17 @@ modules
 /
 portal
 /
+pipewire_utils
+.
+h
+"
+#
+include
+"
+modules
+/
+portal
+/
 portal_request_response
 .
 h
@@ -399,8 +410,7 @@ pw_stream_node_id_
 int
 pw_fd_
 =
--
-1
+kInvalidPipeWireFd
 ;
 std
 :
