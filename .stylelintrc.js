@@ -229,14 +229,6 @@ light
 dark
 "
 "
--
-moz
--
-image
--
-rect
-"
-"
 add
 "
 ]
