@@ -625,17 +625,6 @@ isLinear
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-linearStr
--
->
-isPermanentAtom
-(
-)
-)
-;
 gc
 :
 :
