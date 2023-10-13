@@ -233,6 +233,17 @@ aTargetFrames
 ;
 if
 (
+aSourceFrames
+=
+=
+0
+)
+{
+return
+;
+}
+if
+(
 mSourceClock
 >
 =
