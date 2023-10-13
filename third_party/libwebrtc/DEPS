@@ -877,7 +877,9 @@ src
 /
 third_party
 /
-clang_format
+clang
+-
+format
 /
 script
 '
