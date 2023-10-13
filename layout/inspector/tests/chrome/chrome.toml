@@ -235,3 +235,10 @@ test_visited_style
 html
 "
 ]
+[
+"
+test_getBlockLineCounts
+.
+html
+"
+]

@@ -626,6 +626,11 @@ nsAtomicContainerFrame
 h
 "
 "
+nsBlockFrame
+.
+h
+"
+"
 nsCanvasFrame
 .
 h
@@ -637,6 +642,11 @@ h
 "
 "
 nsDirection
+.
+h
+"
+"
+nsFloatManager
 .
 h
 "
@@ -682,6 +692,11 @@ h
 "
 "
 nsILineIterator
+.
+h
+"
+"
+nsIntervalSet
 .
 h
 "
