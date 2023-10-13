@@ -517,13 +517,6 @@ length
 )
 const
 ;
-virtual
-void
-reportOutOfMemory
-(
-)
-override
-;
 void
 forwardOutOfMemory
 (

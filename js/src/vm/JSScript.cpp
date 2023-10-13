@@ -18956,6 +18956,13 @@ hadOutOfMemory
 )
 )
 {
+sp
+-
+>
+forwardOutOfMemory
+(
+)
+;
 return
 false
 ;
