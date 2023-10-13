@@ -546,6 +546,8 @@ debug
 :
 [
 dmg
+mar
+pkg
 ]
 default
 :
@@ -553,6 +555,8 @@ default
 dmg
 -
 attrib
+mar
+pkg
 ]
 linux
 .
