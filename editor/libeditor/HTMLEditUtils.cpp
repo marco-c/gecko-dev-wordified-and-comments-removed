@@ -5369,15 +5369,6 @@ aEditingHost
 )
 &
 &
-HTMLEditUtils
-:
-:
-IsDisplayOutsideInline
-(
-aEditingHost
-)
-&
-&
 EditorUtils
 :
 :

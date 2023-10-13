@@ -9425,6 +9425,7 @@ aEditableBlockElement
 )
 |
 |
+(
 HTMLEditUtils
 :
 :
@@ -9432,6 +9433,16 @@ ShouldInsertLinefeedCharacter
 (
 aCandidatePointToSplit
 aEditingHost
+)
+&
+&
+HTMLEditUtils
+:
+:
+IsDisplayOutsideInline
+(
+aEditingHost
+)
 )
 ;
 }
