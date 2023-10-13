@@ -234,9 +234,12 @@ lib_name
             
 sources
 =
+sorted
+(
 list
 (
 sources
+)
 )
             
 log

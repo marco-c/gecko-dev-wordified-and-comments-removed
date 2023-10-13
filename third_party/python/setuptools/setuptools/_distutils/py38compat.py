@@ -28,16 +28,17 @@ pass
     
 return
 "
-%
-s
+{
+}
 -
-%
-s
+{
+}
 .
-%
-s
+{
+}
 "
-%
+.
+format
 (
 osname
 version

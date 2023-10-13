@@ -7,20 +7,12 @@ support
 "
 "
 "
-from
-distutils
-.
-util
-import
-get_platform
-from
-distutils
-import
-log
 import
 email
 import
 itertools
+import
+functools
 import
 os
 import
@@ -30,12 +22,26 @@ re
 import
 zipfile
 import
-pkg_resources
+contextlib
+from
+distutils
+.
+util
+import
+get_platform
 import
 setuptools
 from
-pkg_resources
+setuptools
+.
+extern
+.
+packaging
+.
+version
 import
+Version
+as
 parse_version
 from
 setuptools
@@ -65,6 +71,13 @@ command
 egg_info
 import
 write_requirements
+_egg_basename
+from
+setuptools
+.
+archive_util
+import
+_unpack_zipfile_obj
 WHEEL_NAME
 =
 re
@@ -185,6 +198,40 @@ __name__
 \
 n
 "
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
+def
+_get_supported_tags
+(
+)
+:
+    
+return
+{
+(
+t
+.
+interpreter
+t
+.
+abi
+t
+.
+platform
+)
+for
+t
+in
+sys_tags
+(
+)
+}
 def
 unpack
 (
@@ -368,6 +415,59 @@ rmdir
 (
 dirpath
 )
+contextlib
+.
+contextmanager
+def
+disable_info_traces
+(
+)
+:
+    
+"
+"
+"
+    
+Temporarily
+disable
+info
+traces
+.
+    
+"
+"
+"
+    
+from
+distutils
+import
+log
+    
+saved
+=
+log
+.
+set_threshold
+(
+log
+.
+WARN
+)
+    
+try
+:
+        
+yield
+    
+finally
+:
+        
+log
+.
+set_threshold
+(
+saved
+)
 class
 Wheel
 :
@@ -523,7 +623,6 @@ self
 Is
 the
 wheel
-is
 compatible
 with
 the
@@ -533,30 +632,6 @@ platform
 '
 '
 '
-        
-supported_tags
-=
-set
-(
-            
-(
-t
-.
-interpreter
-t
-.
-abi
-t
-.
-platform
-)
-for
-t
-in
-sys_tags
-(
-)
-)
         
 return
 next
@@ -574,7 +649,9 @@ tags
 if
 t
 in
-supported_tags
+_get_supported_tags
+(
+)
 )
 False
 )
@@ -587,18 +664,13 @@ self
 :
         
 return
-pkg_resources
-.
-Distribution
+_egg_basename
 (
             
-project_name
-=
 self
 .
 project_name
-version
-=
+            
 self
 .
 version
@@ -623,15 +695,11 @@ get_platform
 )
         
 )
-.
-egg_name
-(
-)
 +
-'
+"
 .
 egg
-'
+"
     
 def
 get_dist_info
@@ -858,6 +926,9 @@ egg_info
 )
 :
         
+import
+pkg_resources
+        
 def
 get_metadata
 (
@@ -987,17 +1058,9 @@ s
 wheel_version
 )
         
-os
-.
-mkdir
+_unpack_zipfile_obj
 (
-destination_eggdir
-)
-        
 zf
-.
-extractall
-(
 destination_eggdir
 )
         
@@ -1060,8 +1123,6 @@ install_requires
 =
 list
 (
-sorted
-(
 map
 (
 raw_req
@@ -1072,7 +1133,6 @@ requires
 )
 )
 )
-)
         
 extras_require
 =
@@ -1080,8 +1140,7 @@ extras_require
             
 extra
 :
-sorted
-(
+[
                 
 req
                 
@@ -1107,7 +1166,7 @@ not
 in
 install_requires
             
-)
+]
             
 for
 extra
@@ -1183,24 +1242,10 @@ extras_require
         
 )
         
-log_threshold
-=
-log
-.
-_global_log
-.
-threshold
-        
-log
-.
-set_threshold
+with
+disable_info_traces
 (
-log
-.
-WARN
 )
-        
-try
 :
             
 write_requirements
@@ -1231,16 +1276,6 @@ txt
 '
 )
             
-)
-        
-finally
-:
-            
-log
-.
-set_threshold
-(
-log_threshold
 )
     
 staticmethod

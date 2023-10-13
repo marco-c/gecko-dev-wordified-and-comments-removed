@@ -32,7 +32,7 @@ directory
 "
 "
 from
-distutils
+.
 .
 core
 import
@@ -60,6 +60,7 @@ files
 user_options
 =
 [
+        
 (
 '
 install
@@ -70,7 +71,6 @@ dir
 '
 d
 '
-                     
 "
 directory
 to
@@ -80,7 +80,7 @@ files
 to
 "
 )
-                    
+        
 (
 '
 force
@@ -88,7 +88,6 @@ force
 '
 f
 '
-                     
 "
 force
 installation
@@ -99,7 +98,7 @@ files
 )
 "
 )
-                   
+    
 ]
     
 boolean_options
@@ -147,10 +146,10 @@ self
 .
 set_undefined_options
 (
+            
 '
 install
 '
-                                   
 (
 '
 install_headers
@@ -159,7 +158,6 @@ install_headers
 install_dir
 '
 )
-                                   
 (
 '
 force
@@ -168,6 +166,7 @@ force
 force
 '
 )
+        
 )
     
 def

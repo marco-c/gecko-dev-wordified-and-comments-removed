@@ -44,50 +44,65 @@ re
 import
 sys
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 errors
 import
-*
+(
+    
+DistutilsOptionError
+    
+DistutilsSetupError
+    
+CCompilerError
+    
+DistutilsError
+    
+CompileError
+    
+DistutilsPlatformError
+)
 from
-distutils
+.
 .
 sysconfig
 import
 customize_compiler
 get_python_version
 from
-distutils
+.
 .
 sysconfig
 import
 get_config_h_filename
 from
-distutils
+.
 .
 dep_util
 import
 newer_group
 from
-distutils
+.
 .
 extension
 import
 Extension
 from
-distutils
+.
 .
 util
 import
 get_platform
 from
 distutils
+.
+_log
 import
 log
 from
@@ -103,8 +118,6 @@ extension_name_re
 re
 .
 compile
-\
-    
 (
 r
 '
@@ -157,7 +170,7 @@ show_compilers
 :
     
 from
-distutils
+.
 .
 ccompiler
 import
@@ -224,7 +237,6 @@ lib
 '
 b
 '
-         
 "
 directory
 for
@@ -244,7 +256,6 @@ temp
 '
 t
 '
-         
 "
 directory
 for
@@ -260,16 +271,18 @@ products
 )
         
 (
+            
 '
 plat
 -
 name
 =
 '
+            
 '
 p
 '
-         
+            
 "
 platform
 name
@@ -281,7 +294,7 @@ for
 if
 supported
 "
-         
+            
 "
 (
 default
@@ -294,16 +307,19 @@ s
 get_platform
 (
 )
+        
 )
         
 (
+            
 '
 inplace
 '
+            
 '
 i
 '
-         
+            
 "
 ignore
 build
@@ -317,8 +333,8 @@ into
 the
 source
 "
+            
 +
-         
 "
 directory
 alongside
@@ -327,19 +343,22 @@ pure
 Python
 modules
 "
+        
 )
         
 (
+            
 '
 include
 -
 dirs
 =
 '
+            
 '
 I
 '
-         
+            
 "
 list
 of
@@ -352,6 +371,7 @@ files
 "
 +
 sep_by
+        
 )
         
 (
@@ -362,7 +382,6 @@ define
 '
 D
 '
-         
 "
 C
 preprocessor
@@ -380,7 +399,6 @@ undef
 '
 U
 '
-         
 "
 C
 preprocessor
@@ -398,7 +416,6 @@ libraries
 '
 l
 '
-         
 "
 external
 C
@@ -410,16 +427,18 @@ with
 )
         
 (
+            
 '
 library
 -
 dirs
 =
 '
+            
 '
 L
 '
-         
+            
 "
 directories
 to
@@ -431,6 +450,7 @@ libraries
 "
 +
 sep_by
+        
 )
         
 (
@@ -441,7 +461,6 @@ rpath
 '
 R
 '
-         
 "
 directories
 to
@@ -465,7 +484,6 @@ objects
 '
 O
 '
-         
 "
 extra
 explicit
@@ -486,7 +504,6 @@ debug
 '
 g
 '
-         
 "
 compile
 /
@@ -504,7 +521,6 @@ force
 '
 f
 '
-         
 "
 forcibly
 build
@@ -525,7 +541,6 @@ compiler
 '
 c
 '
-         
 "
 specify
 the
@@ -542,7 +557,6 @@ parallel
 '
 j
 '
-         
 "
 number
 of
@@ -559,7 +573,6 @@ swig
 cpp
 '
 None
-         
 "
 make
 SWIG
@@ -584,7 +597,6 @@ opts
 =
 '
 None
-         
 "
 list
 of
@@ -601,7 +613,6 @@ swig
 =
 '
 None
-         
 "
 path
 to
@@ -616,7 +627,6 @@ executable
 user
 '
 None
-         
 "
 add
 user
@@ -626,7 +636,7 @@ and
 rpath
 "
 )
-        
+    
 ]
     
 boolean_options
@@ -662,7 +672,6 @@ help
 compiler
 '
 None
-         
 "
 list
 available
@@ -670,7 +679,7 @@ compilers
 "
 show_compilers
 )
-        
+    
 ]
     
 def
@@ -822,10 +831,11 @@ self
 .
 set_undefined_options
 (
+            
 '
 build
 '
-                                   
+            
 (
 '
 build_lib
@@ -834,7 +844,7 @@ build_lib
 build_lib
 '
 )
-                                   
+            
 (
 '
 build_temp
@@ -843,7 +853,7 @@ build_temp
 build_temp
 '
 )
-                                   
+            
 (
 '
 compiler
@@ -852,7 +862,7 @@ compiler
 compiler
 '
 )
-                                   
+            
 (
 '
 debug
@@ -861,7 +871,7 @@ debug
 debug
 '
 )
-                                   
+            
 (
 '
 force
@@ -870,7 +880,7 @@ force
 force
 '
 )
-                                   
+            
 (
 '
 parallel
@@ -879,7 +889,7 @@ parallel
 parallel
 '
 )
-                                   
+            
 (
 '
 plat_name
@@ -888,7 +898,7 @@ plat_name
 plat_name
 '
 )
-                                   
+        
 )
         
 if
@@ -1047,7 +1057,6 @@ include_dirs
 .
 extend
 (
-                
 plat_py_include
 .
 split
@@ -1300,28 +1309,15 @@ get_config_h_filename
 )
 )
             
-_sys_home
-=
-getattr
-(
-sys
-'
-_home
-'
-None
-)
-            
-if
-_sys_home
-:
-                
 self
 .
 library_dirs
 .
 append
 (
-_sys_home
+sys
+.
+base_exec_prefix
 )
             
 if
@@ -1411,26 +1407,10 @@ cygwin
 :
             
 if
-sys
+not
+sysconfig
 .
-executable
-.
-startswith
-(
-os
-.
-path
-.
-join
-(
-sys
-.
-exec_prefix
-"
-bin
-"
-)
-)
+python_build
 :
                 
 self
@@ -1439,19 +1419,20 @@ library_dirs
 .
 append
 (
+                    
 os
 .
 path
 .
 join
 (
+                        
 sys
 .
 prefix
 "
 lib
 "
-                                                      
 "
 python
 "
@@ -1459,11 +1440,12 @@ python
 get_python_version
 (
 )
-                                                      
 "
 config
 "
+                    
 )
+                
 )
             
 else
@@ -1481,7 +1463,6 @@ append
 )
         
 if
-(
 sysconfig
 .
 get_config_var
@@ -1489,7 +1470,6 @@ get_config_var
 '
 Py_ENABLE_SHARED
 '
-)
 )
 :
             
@@ -1748,7 +1728,7 @@ self
 :
         
 from
-distutils
+.
 .
 ccompiler
 import
@@ -1817,29 +1797,31 @@ compiler
 =
 new_compiler
 (
+            
 compiler
 =
 self
 .
 compiler
-                                     
+            
 verbose
 =
 self
 .
 verbose
-                                     
+            
 dry_run
 =
 self
 .
 dry_run
-                                     
+            
 force
 =
 self
 .
 force
+        
 )
         
 customize_compiler
@@ -1910,10 +1892,8 @@ None
 :
             
 for
-(
 name
 value
-)
 in
 self
 .
@@ -2148,7 +2128,7 @@ list
 raise
 DistutilsSetupError
 (
-                  
+                
 "
 '
 ext_modules
@@ -2162,6 +2142,7 @@ of
 Extension
 instances
 "
+            
 )
         
 for
@@ -2204,7 +2185,7 @@ ext
 raise
 DistutilsSetupError
 (
-                       
+                    
 "
 each
 element
@@ -2217,7 +2198,7 @@ must
 be
 an
 "
-                       
+                    
 "
 Extension
 instance
@@ -2226,6 +2207,7 @@ or
 -
 tuple
 "
+                
 )
             
 ext_name
@@ -2235,8 +2217,9 @@ ext
             
 log
 .
-warn
+warning
 (
+                
 "
 old
 -
@@ -2249,7 +2232,7 @@ tuple
 found
 in
 "
-                     
+                
 "
 ext_modules
 for
@@ -2259,7 +2242,7 @@ extension
 s
 '
 "
-                     
+                
 "
 -
 -
@@ -2269,7 +2252,9 @@ to
 Extension
 instance
 "
+                
 ext_name
+            
 )
             
 if
@@ -2281,7 +2266,6 @@ ext_name
 str
 )
 and
-                    
 extension_name_re
 .
 match
@@ -2294,7 +2278,7 @@ ext_name
 raise
 DistutilsSetupError
 (
-                       
+                    
 "
 first
 element
@@ -2306,7 +2290,7 @@ in
 ext_modules
 '
 "
-                       
+                    
 "
 must
 be
@@ -2318,6 +2302,7 @@ a
 string
 )
 "
+                
 )
             
 if
@@ -2332,7 +2317,7 @@ dict
 raise
 DistutilsSetupError
 (
-                       
+                    
 "
 second
 element
@@ -2344,7 +2329,7 @@ in
 ext_modules
 '
 "
-                       
+                    
 "
 must
 be
@@ -2355,6 +2340,7 @@ build
 info
 )
 "
+                
 )
             
 ext
@@ -2374,26 +2360,31 @@ for
 key
 in
 (
+                
 '
 include_dirs
 '
+                
 '
 library_dirs
 '
+                
 '
 libraries
 '
-                        
+                
 '
 extra_objects
 '
+                
 '
 extra_compile_args
 '
-                        
+                
 '
 extra_link_args
 '
+            
 )
 :
                 
@@ -2443,8 +2434,9 @@ build_info
                 
 log
 .
-warn
+warning
 (
+                    
 "
 '
 def_file
@@ -2455,12 +2447,12 @@ build
 info
 dict
 "
-                         
 "
 no
 longer
 supported
 "
+                
 )
             
 macros
@@ -2522,7 +2514,7 @@ in
 raise
 DistutilsSetupError
 (
-                              
+                            
 "
 '
 macros
@@ -2533,7 +2525,7 @@ build
 info
 dict
 "
-                              
+                            
 "
 must
 be
@@ -2544,6 +2536,7 @@ or
 -
 tuple
 "
+                        
 )
                     
 if
@@ -2793,6 +2786,7 @@ executor
 futures
 =
 [
+                
 executor
 .
 submit
@@ -2802,13 +2796,13 @@ self
 build_extension
 ext
 )
-                       
 for
 ext
 in
 self
 .
 extensions
+            
 ]
             
 for
@@ -2914,16 +2908,16 @@ warn
 building
 extension
 "
-%
-s
+{
+}
 "
 failed
 :
-%
-s
+{
+}
 '
-%
-                      
+.
+format
 (
 ext
 .
@@ -2965,7 +2959,7 @@ tuple
 raise
 DistutilsSetupError
 (
-                  
+                
 "
 in
 '
@@ -2980,7 +2974,7 @@ s
 '
 )
 "
-                  
+                
 "
 '
 sources
@@ -2992,7 +2986,7 @@ and
 must
 be
 "
-                  
+                
 "
 a
 list
@@ -3004,6 +2998,7 @@ filenames
 ext
 .
 name
+            
 )
         
 sources
@@ -3149,39 +3144,41 @@ compiler
 .
 compile
 (
+            
 sources
-                                         
+            
 output_dir
 =
 self
 .
 build_temp
-                                         
+            
 macros
 =
 macros
-                                         
+            
 include_dirs
 =
 ext
 .
 include_dirs
-                                         
+            
 debug
 =
 self
 .
 debug
-                                         
+            
 extra_postargs
 =
 extra_args
-                                         
+            
 depends
 =
 ext
 .
 depends
+        
 )
         
 self
@@ -3240,6 +3237,7 @@ link_shared_object
 (
             
 objects
+            
 ext_path
             
 libraries
@@ -3291,6 +3289,7 @@ build_temp
 target_lang
 =
 language
+        
 )
     
 def
@@ -3388,7 +3387,7 @@ swig_cpp
             
 log
 .
-warn
+warning
 (
 "
 -
@@ -3414,9 +3413,12 @@ c
 )
         
 if
+(
+            
 self
 .
 swig_cpp
+            
 or
 (
 '
@@ -3430,9 +3432,8 @@ self
 .
 swig_opts
 )
+            
 or
-\
-           
 (
 '
 -
@@ -3444,6 +3445,8 @@ in
 extension
 .
 swig_opts
+)
+        
 )
 :
             
@@ -3816,7 +3819,7 @@ else
 raise
 DistutilsPlatformError
 (
-                  
+                
 "
 I
 don
@@ -3833,7 +3836,7 @@ run
 )
 SWIG
 "
-                  
+                
 "
 on
 platform
@@ -3846,6 +3849,7 @@ s
 os
 .
 name
+            
 )
     
 def
@@ -4144,7 +4148,7 @@ pyd
 "
         
 from
-distutils
+.
 .
 sysconfig
 import
@@ -4257,12 +4261,8 @@ function
 "
 "
         
-suffix
+name
 =
-'
-_
-'
-+
 ext
 .
 name
@@ -4281,7 +4281,7 @@ split
 try
 :
             
-suffix
+name
 .
 encode
 (
@@ -4297,10 +4297,10 @@ UnicodeEncodeError
 suffix
 =
 '
-U
+U_
 '
 +
-suffix
+name
 .
 encode
 (
@@ -4327,6 +4327,17 @@ decode
 ascii
 '
 )
+        
+else
+:
+            
+suffix
+=
+"
+_
+"
++
+name
         
 initfunc_name
 =
@@ -4430,7 +4441,7 @@ win32
 :
             
 from
-distutils
+.
 .
 _msvccompiler
 import
@@ -4473,17 +4484,17 @@ _d
                 
 pythonlib
 =
-(
 template
 %
-                       
 (
+                    
 sys
 .
 hexversion
 >
 >
 24
+                    
 (
 sys
 .
@@ -4493,8 +4504,8 @@ hexversion
 16
 )
 &
-0xff
-)
+0xFF
+                
 )
                 
 return
@@ -4510,7 +4521,7 @@ else
 :
             
 from
-distutils
+.
 .
 sysconfig
 import

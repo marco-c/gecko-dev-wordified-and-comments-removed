@@ -185,6 +185,62 @@ rules
 "
 import
 re
+import
+warnings
+import
+contextlib
+contextlib
+.
+contextmanager
+def
+suppress_known_deprecation
+(
+)
+:
+    
+with
+warnings
+.
+catch_warnings
+(
+record
+=
+True
+)
+as
+ctx
+:
+        
+warnings
+.
+filterwarnings
+(
+            
+action
+=
+'
+default
+'
+            
+category
+=
+DeprecationWarning
+            
+message
+=
+"
+distutils
+Version
+classes
+are
+deprecated
+.
+"
+        
+)
+        
+yield
+ctx
 class
 Version
 :
@@ -259,6 +315,37 @@ parse
 (
 vstring
 )
+        
+warnings
+.
+warn
+(
+            
+"
+distutils
+Version
+classes
+are
+deprecated
+.
+"
+            
+"
+Use
+packaging
+.
+version
+instead
+.
+"
+            
+DeprecationWarning
+            
+stacklevel
+=
+2
+        
+)
     
 def
 __repr__
@@ -269,16 +356,17 @@ self
         
 return
 "
-%
-s
+{
+}
 (
 '
-%
-s
+{
+}
 '
 )
 "
-%
+.
+format
 (
 self
 .
@@ -713,6 +801,7 @@ re
 .
 compile
 (
+        
 r
 '
 ^
@@ -750,7 +839,6 @@ d
 )
 ?
 '
-                            
 re
 .
 VERBOSE
@@ -758,6 +846,7 @@ VERBOSE
 re
 .
 ASCII
+    
 )
     
 def
@@ -808,8 +897,6 @@ prerelease
 prerelease_num
 )
 =
-\
-            
 match
 .
 group
@@ -1000,6 +1087,12 @@ str
 )
 :
             
+with
+suppress_known_deprecation
+(
+)
+:
+                
 other
 =
 StrictVersion
@@ -1051,7 +1144,6 @@ return
 1
         
 if
-(
 not
 self
 .
@@ -1061,14 +1153,12 @@ not
 other
 .
 prerelease
-)
 :
             
 return
 0
         
 elif
-(
 self
 .
 prerelease
@@ -1077,7 +1167,6 @@ not
 other
 .
 prerelease
-)
 :
             
 return
@@ -1085,7 +1174,6 @@ return
 1
         
 elif
-(
 not
 self
 .
@@ -1094,14 +1182,12 @@ and
 other
 .
 prerelease
-)
 :
             
 return
 1
         
 elif
-(
 self
 .
 prerelease
@@ -1109,7 +1195,6 @@ and
 other
 .
 prerelease
-)
 :
             
 if
@@ -1395,27 +1480,6 @@ VERBOSE
 )
     
 def
-__init__
-(
-self
-vstring
-=
-None
-)
-:
-        
-if
-vstring
-:
-            
-self
-.
-parse
-(
-vstring
-)
-    
-def
 parse
 (
 self
@@ -1444,7 +1508,6 @@ split
 (
 vstring
 )
-                              
 if
 x
 and

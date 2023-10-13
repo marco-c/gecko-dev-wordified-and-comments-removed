@@ -27,40 +27,53 @@ distributions
 "
 import
 subprocess
+import
 sys
+import
 os
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 debug
 import
 DEBUG
 from
-distutils
+.
 .
 file_util
 import
 write_file
 from
-distutils
+.
 .
 errors
 import
-*
+(
+    
+DistutilsOptionError
+    
+DistutilsPlatformError
+    
+DistutilsFileError
+    
+DistutilsExecError
+)
 from
-distutils
+.
 .
 sysconfig
 import
 get_python_version
 from
 distutils
+.
+_log
 import
 log
 class
@@ -91,7 +104,6 @@ base
 =
 '
 None
-         
 "
 base
 directory
@@ -103,14 +115,16 @@ distributions
 )
         
 (
+            
 '
 rpm
 -
 base
 =
 '
+            
 None
-         
+            
 "
 base
 directory
@@ -127,7 +141,7 @@ rpm
 "
 under
 "
-         
+            
 "
 -
 -
@@ -143,19 +157,22 @@ RPM
 2
 )
 "
+        
 )
         
 (
+            
 '
 dist
 -
 dir
 =
 '
+            
 '
 d
 '
-         
+            
 "
 directory
 to
@@ -165,7 +182,6 @@ RPM
 files
 in
 "
-         
 "
 (
 and
@@ -180,15 +196,18 @@ spec
 only
 )
 "
+        
 )
         
 (
+            
 '
 python
 =
 '
+            
 None
-         
+            
 "
 path
 to
@@ -204,7 +223,7 @@ the
 spec
 file
 "
-         
+            
 "
 (
 default
@@ -216,16 +235,19 @@ python
 "
 )
 "
+        
 )
         
 (
+            
 '
 fix
 -
 python
 '
+            
 None
-         
+            
 "
 hard
 -
@@ -240,13 +262,14 @@ Python
 interpreter
 in
 "
-         
+            
 "
 the
 .
 spec
 file
 "
+        
 )
         
 (
@@ -256,7 +279,6 @@ spec
 only
 '
 None
-         
 "
 only
 regenerate
@@ -272,7 +294,6 @@ source
 only
 '
 None
-         
 "
 only
 generate
@@ -288,7 +309,6 @@ binary
 only
 '
 None
-         
 "
 only
 generate
@@ -304,7 +324,6 @@ use
 bzip2
 '
 None
-         
 "
 use
 bzip2
@@ -319,14 +338,16 @@ distribution
 )
         
 (
+            
 '
 distribution
 -
 name
 =
 '
+            
 None
-         
+            
 "
 name
 of
@@ -339,7 +360,7 @@ to
 which
 this
 "
-         
+            
 "
 RPM
 applies
@@ -356,6 +377,7 @@ distribution
 !
 )
 "
+        
 )
         
 (
@@ -364,7 +386,6 @@ group
 =
 '
 None
-         
 "
 package
 classification
@@ -388,7 +409,6 @@ release
 =
 '
 None
-         
 "
 RPM
 release
@@ -402,7 +422,6 @@ serial
 =
 '
 None
-         
 "
 RPM
 serial
@@ -411,12 +430,14 @@ number
 )
         
 (
+            
 '
 vendor
 =
 '
+            
 None
-         
+            
 "
 RPM
 \
@@ -441,7 +462,7 @@ com
 "
 )
 "
-         
+            
 "
 [
 default
@@ -454,15 +475,18 @@ setup
 script
 ]
 "
+        
 )
         
 (
+            
 '
 packager
 =
 '
+            
 None
-         
+            
 "
 RPM
 packager
@@ -483,7 +507,6 @@ net
 "
 )
 "
-         
 "
 [
 default
@@ -491,6 +514,7 @@ default
 vendor
 ]
 "
+        
 )
         
 (
@@ -501,7 +525,6 @@ files
 =
 '
 None
-         
 "
 list
 of
@@ -523,7 +546,6 @@ changelog
 =
 '
 None
-         
 "
 RPM
 changelog
@@ -536,7 +558,6 @@ icon
 =
 '
 None
-         
 "
 name
 of
@@ -551,7 +572,6 @@ provides
 =
 '
 None
-         
 "
 capabilities
 provided
@@ -567,7 +587,6 @@ requires
 =
 '
 None
-         
 "
 capabilities
 required
@@ -583,7 +602,6 @@ conflicts
 =
 '
 None
-         
 "
 capabilities
 which
@@ -602,7 +620,6 @@ requires
 =
 '
 None
-         
 "
 capabilities
 required
@@ -619,7 +636,6 @@ obsoletes
 =
 '
 None
-         
 "
 capabilities
 made
@@ -637,7 +653,6 @@ no
 autoreq
 '
 None
-         
 "
 do
 not
@@ -656,7 +671,6 @@ temp
 '
 k
 '
-         
 "
 don
 '
@@ -678,7 +692,6 @@ keep
 temp
 '
 None
-         
 "
 clean
 up
@@ -692,6 +705,7 @@ default
 )
         
 (
+            
 '
 use
 -
@@ -701,8 +715,9 @@ opt
 -
 flags
 '
+            
 None
-         
+            
 "
 compile
 with
@@ -713,6 +728,7 @@ from
 source
 RPM
 "
+        
 )
         
 (
@@ -726,7 +742,6 @@ opt
 flags
 '
 None
-         
 "
 do
 not
@@ -746,7 +761,6 @@ rpm3
 mode
 '
 None
-         
 "
 RPM
 3
@@ -765,7 +779,6 @@ rpm2
 mode
 '
 None
-         
 "
 RPM
 2
@@ -782,7 +795,6 @@ script
 =
 '
 None
-         
 "
 Specify
 a
@@ -805,7 +817,6 @@ script
 =
 '
 None
-         
 "
 Specify
 a
@@ -821,14 +832,16 @@ building
 )
         
 (
+            
 '
 pre
 -
 install
 =
 '
+            
 None
-         
+            
 "
 Specify
 a
@@ -843,17 +856,20 @@ of
 RPM
 building
 "
+        
 )
         
 (
+            
 '
 install
 -
 script
 =
 '
+            
 None
-         
+            
 "
 Specify
 a
@@ -866,17 +882,20 @@ of
 RPM
 building
 "
+        
 )
         
 (
+            
 '
 post
 -
 install
 =
 '
+            
 None
-         
+            
 "
 Specify
 a
@@ -891,17 +910,20 @@ of
 RPM
 building
 "
+        
 )
         
 (
+            
 '
 pre
 -
 uninstall
 =
 '
+            
 None
-         
+            
 "
 Specify
 a
@@ -916,17 +938,20 @@ of
 RPM
 building
 "
+        
 )
         
 (
+            
 '
 post
 -
 uninstall
 =
 '
+            
 None
-         
+            
 "
 Specify
 a
@@ -941,6 +966,7 @@ of
 RPM
 building
 "
+        
 )
         
 (
@@ -951,7 +977,6 @@ script
 =
 '
 None
-         
 "
 Specify
 a
@@ -967,14 +992,16 @@ building
 )
         
 (
+            
 '
 verify
 -
 script
 =
 '
+            
 None
-         
+            
 "
 Specify
 a
@@ -988,6 +1015,7 @@ the
 RPM
 build
 "
+        
 )
         
 (
@@ -998,7 +1026,6 @@ arch
 =
 '
 None
-         
 "
 Force
 an
@@ -1018,7 +1045,6 @@ quiet
 '
 q
 '
-         
 "
 Run
 the
@@ -1032,17 +1058,19 @@ quiet
 mode
 "
 )
-        
+    
 ]
     
 boolean_options
 =
 [
+        
 '
 keep
 -
 temp
 '
+        
 '
 use
 -
@@ -1052,25 +1080,29 @@ opt
 -
 flags
 '
+        
 '
 rpm3
 -
 mode
 '
-                       
+        
 '
 no
 -
 autoreq
 '
+        
 '
 quiet
 '
+    
 ]
     
 negative_opt
 =
 {
+        
 '
 no
 -
@@ -1084,7 +1116,7 @@ keep
 -
 temp
 '
-                    
+        
 '
 no
 -
@@ -1104,7 +1136,7 @@ opt
 -
 flags
 '
-                    
+        
 '
 rpm2
 -
@@ -1116,6 +1148,7 @@ rpm3
 -
 mode
 '
+    
 }
     
 def
@@ -1401,7 +1434,6 @@ rpm3_mode
 raise
 DistutilsOptionError
 (
-                      
 "
 you
 must
@@ -1478,7 +1510,7 @@ fix_python
 raise
 DistutilsOptionError
 (
-                  
+                
 "
 -
 -
@@ -1494,6 +1526,7 @@ mutually
 exclusive
 options
 "
+            
 )
         
 if
@@ -1510,6 +1543,7 @@ posix
 raise
 DistutilsPlatformError
 (
+                
 "
 don
 '
@@ -1520,7 +1554,6 @@ to
 create
 RPM
 "
-                   
 "
 distributions
 on
@@ -1532,6 +1565,7 @@ s
 os
 .
 name
+            
 )
         
 if
@@ -1547,7 +1581,7 @@ source_only
 raise
 DistutilsOptionError
 (
-                  
+                
 "
 cannot
 supply
@@ -1568,6 +1602,7 @@ binary
 only
 '
 "
+            
 )
         
 if
@@ -1635,10 +1670,11 @@ self
 .
 ensure_string
 (
+            
 '
 vendor
 '
-                           
+            
 "
 %
 s
@@ -1647,6 +1683,7 @@ s
 s
 >
 "
+            
 %
 (
 self
@@ -1656,7 +1693,6 @@ distribution
 get_contact
 (
 )
-                                        
 self
 .
 distribution
@@ -1665,6 +1701,7 @@ get_contact_email
 (
 )
 )
+        
 )
         
 self
@@ -2093,7 +2130,6 @@ path
 join
 (
 spec_dir
-                                 
 "
 %
 s
@@ -2114,18 +2150,16 @@ self
 .
 execute
 (
+            
 write_file
-                     
 (
 spec_path
-                      
 self
 .
 _make_spec_file
 (
 )
 )
-                     
 "
 writing
 '
@@ -2135,6 +2169,7 @@ s
 "
 %
 spec_path
+        
 )
         
 if
@@ -2276,7 +2311,6 @@ else
 raise
 DistutilsFileError
 (
-                      
 "
 icon
 file
@@ -2395,7 +2429,6 @@ extend
 -
 define
 '
-                             
 '
 _topdir
 %
@@ -2520,10 +2553,10 @@ q
 -
 qf
 '
-%
-s
-%
-s
+{
+}
+{
+}
 \
 n
 '
@@ -2531,16 +2564,20 @@ n
 -
 specfile
 '
-%
-s
+{
+}
 '
 "
-%
+.
+format
 (
             
 src_rpm
+            
 non_src_rpm
+            
 spec_path
+        
 )
         
 out
@@ -2583,7 +2620,7 @@ line
                     
 break
                 
-l
+ell
 =
 line
 .
@@ -2596,21 +2633,19 @@ split
 )
                 
 assert
-(
 len
 (
-l
+ell
 )
 =
 =
 2
-)
                 
 binary_rpms
 .
 append
 (
-l
+ell
 [
 1
 ]
@@ -2624,7 +2659,7 @@ None
                     
 source_rpm
 =
-l
+ell
 [
 0
 ]
@@ -2732,7 +2767,6 @@ source_rpm
 )
                 
 assert
-(
 os
 .
 path
@@ -2740,7 +2774,6 @@ path
 exists
 (
 srpm
-)
 )
                 
 self
@@ -2775,7 +2808,6 @@ dist_files
 .
 append
 (
-                    
 (
 '
 bdist_rpm
@@ -2847,7 +2879,6 @@ join
 self
 .
 dist_dir
-                                                
 os
 .
 path
@@ -2874,6 +2905,7 @@ bdist_rpm
 pyversion
 filename
 )
+                        
 )
     
 def
@@ -3026,6 +3058,7 @@ Summary
 :
 '
 +
+(
 self
 .
 distribution
@@ -3033,7 +3066,12 @@ distribution
 get_description
 (
 )
-            
+or
+"
+UNKNOWN
+"
+)
+        
 ]
         
 vendor_hook
@@ -3063,6 +3101,7 @@ n
 .
 join
 (
+            
 [
 '
 %
@@ -3076,7 +3115,6 @@ line
 strip
 (
 )
-                                 
 for
 line
 in
@@ -3086,6 +3124,7 @@ splitlines
 (
 )
 ]
+        
 )
         
 problem
@@ -3181,8 +3220,9 @@ spec_file
 .
 extend
 (
-[
             
+[
+                
 '
 Name
 :
@@ -3191,7 +3231,7 @@ Name
 name
 }
 '
-            
+                
 '
 Version
 :
@@ -3200,7 +3240,7 @@ Version
 version
 }
 '
-            
+                
 '
 Release
 :
@@ -3209,7 +3249,9 @@ Release
 release
 }
 '
+            
 ]
+        
 )
         
 if
@@ -3271,13 +3313,15 @@ spec_file
 .
 extend
 (
-[
             
+[
+                
 '
 License
 :
 '
 +
+(
 self
 .
 distribution
@@ -3285,7 +3329,12 @@ distribution
 get_license
 (
 )
-            
+or
+"
+UNKNOWN
+"
+)
+                
 '
 Group
 :
@@ -3294,7 +3343,7 @@ Group
 self
 .
 group
-            
+                
 '
 BuildRoot
 :
@@ -3320,7 +3369,7 @@ release
 -
 buildroot
 '
-            
+                
 '
 Prefix
 :
@@ -3329,7 +3378,9 @@ Prefix
 _prefix
 }
 '
+            
 ]
+        
 )
         
 if
@@ -3384,30 +3435,31 @@ for
 field
 in
 (
+            
 '
 Vendor
 '
-                      
+            
 '
 Packager
 '
-                      
+            
 '
 Provides
 '
-                      
+            
 '
 Requires
 '
-                      
+            
 '
 Conflicts
 '
-                      
+            
 '
 Obsoletes
 '
-                      
+        
 )
 :
             
@@ -3436,13 +3488,14 @@ spec_file
 append
 (
 '
-%
-s
+{
+}
 :
-%
-s
+{
+}
 '
-%
+.
+format
 (
 field
 '
@@ -3467,13 +3520,14 @@ spec_file
 append
 (
 '
-%
-s
+{
+}
 :
-%
-s
+{
+}
 '
-%
+.
+format
 (
 field
 val
@@ -3488,11 +3542,6 @@ distribution
 get_url
 (
 )
-!
-=
-'
-UNKNOWN
-'
 :
             
 spec_file
@@ -3548,7 +3597,6 @@ BuildRequires
 :
 '
 +
-                             
 '
 '
 .
@@ -3608,16 +3656,17 @@ spec_file
 .
 extend
 (
+            
 [
-            
+                
 '
 '
-            
+                
 '
 %
 description
 '
-            
+                
 self
 .
 distribution
@@ -3625,19 +3674,24 @@ distribution
 get_long_description
 (
 )
+or
+"
+"
             
 ]
+        
 )
         
 def_setup_call
 =
 "
-%
-s
-%
-s
+{
+}
+{
+}
 "
-%
+.
+format
 (
 self
 .
@@ -3689,6 +3743,7 @@ def_build
 install_cmd
 =
 (
+            
 '
 %
 s
@@ -3701,7 +3756,6 @@ root
 =
 RPM_BUILD_ROOT
 '
-                       
 '
 -
 -
@@ -3709,6 +3763,7 @@ record
 =
 INSTALLED_FILES
 '
+        
 )
 %
 def_setup_call
@@ -3829,11 +3884,9 @@ None
 ]
         
 for
-(
 rpm_opt
 attr
 default
-)
 in
 script_options
 :
@@ -3856,17 +3909,20 @@ spec_file
 .
 extend
 (
+                    
 [
-                    
+                        
 '
 '
-                    
+                        
 '
 %
 '
 +
 rpm_opt
+                    
 ]
+                
 )
                 
 if
@@ -3915,11 +3971,12 @@ spec_file
 .
 extend
 (
+            
 [
-            
+                
 '
 '
-            
+                
 '
 %
 files
@@ -3927,7 +3984,7 @@ files
 f
 INSTALLED_FILES
 '
-            
+                
 '
 %
 defattr
@@ -3939,6 +3996,7 @@ root
 '
             
 ]
+        
 )
         
 if
@@ -3977,16 +4035,19 @@ spec_file
 .
 extend
 (
+                
 [
-                
+                    
 '
 '
-                
+                    
 '
 %
 changelog
 '
+                
 ]
+            
 )
             
 spec_file
@@ -4024,7 +4085,6 @@ a
 list
 of
 strings
-        
 "
 "
 "

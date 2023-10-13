@@ -58,16 +58,18 @@ object
 "
 import
 sys
+import
 string
+import
 re
 import
 getopt
 from
-distutils
 .
 errors
 import
-*
+DistutilsGetoptError
+DistutilsArgError
 longopt_pat
 =
 r
@@ -119,17 +121,18 @@ compile
 "
 ^
 (
-%
-s
+{
+}
 )
 =
 !
 (
-%
-s
+{
+}
 )
 "
-%
+.
+format
 (
 longopt_pat
 longopt_pat
@@ -430,7 +433,7 @@ option_index
 raise
 DistutilsGetoptError
 (
-                  
+                
 "
 option
 conflict
@@ -445,6 +448,7 @@ s
 "
 %
 long_option
+            
 )
         
 else
@@ -586,10 +590,8 @@ dict
 )
         
 for
-(
 alias
 opt
-)
 in
 aliases
 .
@@ -610,6 +612,7 @@ option_index
 raise
 DistutilsGetoptError
 (
+                    
 (
 "
 invalid
@@ -621,7 +624,6 @@ s
 '
 :
 "
-                       
 "
 option
 '
@@ -632,12 +634,14 @@ not
 defined
 "
 )
+                    
 %
 (
 what
 alias
 alias
 )
+                
 )
             
 if
@@ -652,6 +656,7 @@ option_index
 raise
 DistutilsGetoptError
 (
+                    
 (
 "
 invalid
@@ -663,7 +668,6 @@ s
 '
 :
 "
-                       
 "
 aliased
 option
@@ -675,12 +679,14 @@ not
 defined
 "
 )
+                    
 %
 (
 what
 alias
 opt
 )
+                
 )
     
 def
@@ -922,10 +928,13 @@ invalid
 option
 tuple
 :
-%
+{
+!
 r
+}
 "
-%
+.
+format
 (
 option
 )
@@ -950,6 +959,7 @@ long
 raise
 DistutilsGetoptError
 (
+                    
 (
 "
 invalid
@@ -961,7 +971,6 @@ s
 '
 :
 "
-                       
 "
 must
 be
@@ -974,12 +983,13 @@ length
 2
 "
 )
+                    
 %
 long
+                
 )
             
 if
-(
 not
 (
 (
@@ -988,7 +998,6 @@ is
 None
 )
 or
-                     
 (
 isinstance
 (
@@ -1005,12 +1014,12 @@ short
 1
 )
 )
-)
 :
                 
 raise
 DistutilsGetoptError
 (
+                    
 "
 invalid
 short
@@ -1021,7 +1030,7 @@ s
 '
 :
 "
-                       
+                    
 "
 must
 a
@@ -1032,6 +1041,7 @@ None
 "
 %
 short
+                
 )
             
 self
@@ -1068,6 +1078,7 @@ long
 if
 short
 :
+                    
 short
 =
 short
@@ -1128,7 +1139,7 @@ alias_to
 raise
 DistutilsGetoptError
 (
-                              
+                            
 "
 invalid
 negative
@@ -1139,7 +1150,7 @@ s
 '
 :
 "
-                              
+                            
 "
 aliased
 option
@@ -1151,12 +1162,12 @@ takes
 a
 value
 "
-                              
 %
 (
 long
 alias_to
 )
+                        
 )
                     
 self
@@ -1216,7 +1227,7 @@ alias_to
 raise
 DistutilsGetoptError
 (
-                          
+                        
 "
 invalid
 alias
@@ -1228,7 +1239,7 @@ s
 inconsistent
 with
 "
-                          
+                        
 "
 aliased
 option
@@ -1244,7 +1255,7 @@ takes
 a
 value
 "
-                          
+                        
 "
 the
 other
@@ -1252,12 +1263,12 @@ doesn
 '
 t
 "
-                          
 %
 (
 long
 alias_to
 )
+                    
 )
             
 if
@@ -1273,7 +1284,7 @@ long
 raise
 DistutilsGetoptError
 (
-                       
+                    
 "
 invalid
 long
@@ -1284,7 +1295,7 @@ name
 s
 '
 "
-                       
+                    
 "
 (
 must
@@ -1296,6 +1307,7 @@ only
 "
 %
 long
+                
 )
             
 self
@@ -1933,7 +1945,7 @@ option
 1
 ]
             
-l
+ell
 =
 len
 (
@@ -1953,9 +1965,9 @@ long
 '
 :
                 
-l
+ell
 =
-l
+ell
 -
 1
             
@@ -1966,21 +1978,21 @@ not
 None
 :
                 
-l
+ell
 =
-l
+ell
 +
 5
             
 if
-l
+ell
 >
 max_opt
 :
                 
 max_opt
 =
-l
+ell
         
 opt_width
 =
@@ -2144,15 +2156,16 @@ else
 opt_names
 =
 "
-%
-s
+{
+}
 (
 -
-%
-s
+{
+}
 )
 "
-%
+.
+format
 (
 long
 short
@@ -2177,7 +2190,6 @@ s
 s
 "
 %
-                                 
 (
 max_opt
 opt_names
@@ -2208,7 +2220,7 @@ opt_names
 )
             
 for
-l
+ell
 in
 text
 [
@@ -2223,7 +2235,7 @@ append
 (
 big_indent
 +
-l
+ell
 )
         
 return
@@ -2476,7 +2488,7 @@ while
 chunks
 :
             
-l
+ell
 =
 len
 (
@@ -2489,7 +2501,7 @@ chunks
 if
 cur_len
 +
-l
+ell
 <
 =
 width
@@ -2515,7 +2527,7 @@ cur_len
 =
 cur_len
 +
-l
+ell
             
 else
 :

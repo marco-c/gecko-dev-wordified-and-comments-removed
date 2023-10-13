@@ -19,8 +19,12 @@ setuptools
 archive_util
 import
 unpack_archive
+from
+.
+.
+_path
 import
-pkg_resources
+ensure_directory
 class
 install_egg_info
 (
@@ -138,32 +142,20 @@ egg_info
         
 basename
 =
-pkg_resources
-.
-Distribution
-(
-            
-None
-None
+f
+"
+{
 ei_cmd
 .
-egg_name
-ei_cmd
-.
-egg_version
-        
-)
-.
-egg_name
+_get_egg_basename
 (
 )
-+
-'
+}
 .
 egg
 -
 info
-'
+"
         
 self
 .
@@ -292,8 +284,6 @@ self
 dry_run
 :
             
-pkg_resources
-.
 ensure_directory
 (
 self

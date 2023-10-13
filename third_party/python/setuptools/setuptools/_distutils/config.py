@@ -36,7 +36,6 @@ configparser
 import
 RawConfigParser
 from
-distutils
 .
 cmd
 import
@@ -91,7 +90,6 @@ the
 .
 pypirc
 file
-    
 "
 "
 "
@@ -139,7 +137,6 @@ repository
 '
 r
 '
-         
 "
 url
 of
@@ -152,8 +149,6 @@ s
 ]
 "
 %
-\
-            
 DEFAULT_REPOSITORY
 )
         
@@ -164,7 +159,6 @@ show
 response
 '
 None
-         
 '
 display
 full
@@ -174,6 +168,7 @@ from
 server
 '
 )
+    
 ]
     
 boolean_options
@@ -411,15 +406,16 @@ servers
 _servers
 =
 [
+                    
 server
 .
 strip
 (
 )
+                    
 for
 server
 in
-                            
 index_servers
 .
 split
@@ -429,7 +425,7 @@ split
 n
 '
 )
-                            
+                    
 if
 server
 .
@@ -440,6 +436,7 @@ strip
 =
 '
 '
+                
 ]
                 
 if
@@ -511,16 +508,16 @@ key
 default
 in
 (
+                        
 (
 '
 repository
 '
-                                          
 self
 .
 DEFAULT_REPOSITORY
 )
-                                         
+                        
 (
 '
 realm
@@ -529,13 +526,14 @@ self
 .
 DEFAULT_REALM
 )
-                                         
+                        
 (
 '
 password
 '
 None
 )
+                    
 )
 :
                         
@@ -573,7 +571,6 @@ key
 default
                     
 if
-(
 server
 =
 =
@@ -581,17 +578,18 @@ server
 pypi
 '
 and
-                        
 repository
 in
 (
+                        
 self
 .
 DEFAULT_REPOSITORY
+                        
 '
 pypi
 '
-)
+                    
 )
 :
                         
@@ -611,6 +609,7 @@ current
                     
 if
 (
+                        
 current
 [
 '
@@ -620,8 +619,8 @@ server
 =
 =
 repository
-or
                         
+or
 current
 [
 '
@@ -631,6 +630,7 @@ repository
 =
 =
 repository
+                    
 )
 :
                         
@@ -690,6 +690,7 @@ DEFAULT_REPOSITORY
                 
 return
 {
+                    
 '
 username
 '
@@ -703,7 +704,7 @@ server
 username
 '
 )
-                        
+                    
 '
 password
 '
@@ -717,19 +718,19 @@ server
 password
 '
 )
-                        
+                    
 '
 repository
 '
 :
 repository
-                        
+                    
 '
 server
 '
 :
 server
-                        
+                    
 '
 realm
 '
@@ -737,6 +738,7 @@ realm
 self
 .
 DEFAULT_REALM
+                
 }
         
 return

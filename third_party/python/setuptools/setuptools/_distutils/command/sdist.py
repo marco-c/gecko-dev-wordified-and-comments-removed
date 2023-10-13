@@ -36,7 +36,7 @@ warnings
 import
 warn
 from
-distutils
+.
 .
 core
 import
@@ -54,34 +54,36 @@ distutils
 import
 archive_util
 from
-distutils
+.
 .
 text_file
 import
 TextFile
 from
-distutils
+.
 .
 filelist
 import
 FileList
 from
 distutils
+.
+_log
 import
 log
 from
-distutils
+.
 .
 util
 import
 convert_path
 from
-distutils
+.
 .
 errors
 import
-DistutilsTemplateError
 DistutilsOptionError
+DistutilsTemplateError
 def
 show_formats
 (
@@ -125,14 +127,14 @@ option
 "
     
 from
-distutils
+.
 .
 fancy_getopt
 import
 FancyGetopt
     
 from
-distutils
+.
 .
 archive_util
 import
@@ -165,7 +167,6 @@ formats
 +
 format
 None
-                        
 ARCHIVE_FORMATS
 [
 format
@@ -189,7 +190,6 @@ formats
 .
 print_help
 (
-        
 "
 List
 of
@@ -271,7 +271,6 @@ template
 '
 t
 '
-         
 "
 name
 of
@@ -296,7 +295,6 @@ manifest
 '
 m
 '
-         
 "
 name
 of
@@ -311,13 +309,15 @@ MANIFEST
 )
         
 (
+            
 '
 use
 -
 defaults
 '
+            
 None
-         
+            
 "
 include
 the
@@ -328,7 +328,7 @@ in
 the
 manifest
 "
-         
+            
 "
 [
 default
@@ -342,6 +342,7 @@ no
 defaults
 ]
 "
+        
 )
         
 (
@@ -351,7 +352,6 @@ no
 defaults
 '
 None
-         
 "
 don
 '
@@ -365,11 +365,13 @@ set
 )
         
 (
+            
 '
 prune
 '
+            
 None
-         
+            
 "
 specifically
 exclude
@@ -381,7 +383,7 @@ should
 not
 be
 "
-         
+            
 "
 distributed
 (
@@ -395,7 +397,7 @@ etc
 .
 )
 "
-         
+            
 "
 [
 default
@@ -409,6 +411,7 @@ no
 prune
 ]
 "
+        
 )
         
 (
@@ -418,7 +421,6 @@ no
 prune
 '
 None
-         
 "
 don
 '
@@ -430,15 +432,17 @@ anything
 )
         
 (
+            
 '
 manifest
 -
 only
 '
+            
 '
 o
 '
-         
+            
 "
 just
 regenerate
@@ -448,7 +452,6 @@ and
 then
 stop
 "
-         
 "
 (
 implies
@@ -459,18 +462,21 @@ force
 manifest
 )
 "
+        
 )
         
 (
+            
 '
 force
 -
 manifest
 '
+            
 '
 f
 '
-         
+            
 "
 forcibly
 regenerate
@@ -483,7 +489,7 @@ as
 usual
 .
 "
-         
+            
 "
 Deprecated
 :
@@ -495,6 +501,7 @@ always
 regenerated
 .
 "
+        
 )
         
 (
@@ -503,7 +510,6 @@ formats
 =
 '
 None
-         
 "
 formats
 for
@@ -519,15 +525,17 @@ list
 )
         
 (
+            
 '
 keep
 -
 temp
 '
+            
 '
 k
 '
-         
+            
 "
 keep
 the
@@ -538,7 +546,6 @@ after
 creating
 "
 +
-         
 "
 archive
 file
@@ -546,19 +553,22 @@ file
 s
 )
 "
+        
 )
         
 (
+            
 '
 dist
 -
 dir
 =
 '
+            
 '
 d
 '
-         
+            
 "
 directory
 to
@@ -572,7 +582,6 @@ s
 )
 in
 "
-         
 "
 [
 default
@@ -580,16 +589,19 @@ default
 dist
 ]
 "
+        
 )
         
 (
+            
 '
 metadata
 -
 check
 '
+            
 None
-         
+            
 "
 Ensure
 that
@@ -601,7 +613,7 @@ meta
 -
 data
 "
-         
+            
 "
 are
 supplied
@@ -615,17 +627,20 @@ missing
 default
 ]
 "
+        
 )
         
 (
+            
 '
 owner
 =
 '
+            
 '
 u
 '
-         
+            
 "
 Owner
 name
@@ -642,17 +657,20 @@ current
 user
 ]
 "
+        
 )
         
 (
+            
 '
 group
 =
 '
+            
 '
 g
 '
-         
+            
 "
 Group
 name
@@ -669,43 +687,49 @@ current
 group
 ]
 "
-)
         
+)
+    
 ]
     
 boolean_options
 =
 [
+        
 '
 use
 -
 defaults
 '
+        
 '
 prune
 '
-                       
+        
 '
 manifest
 -
 only
 '
+        
 '
 force
 -
 manifest
 '
-                       
+        
 '
 keep
 -
 temp
 '
+        
 '
 metadata
 -
 check
 '
+    
 ]
     
 help_options
@@ -719,7 +743,6 @@ help
 formats
 '
 None
-         
 "
 list
 available
@@ -728,7 +751,7 @@ formats
 "
 show_formats
 )
-        
+    
 ]
     
 negative_opt
@@ -745,7 +768,6 @@ use
 -
 defaults
 '
-                    
 '
 no
 -
@@ -943,7 +965,6 @@ bad_format
 raise
 DistutilsOptionError
 (
-                  
 "
 unknown
 archive
@@ -1044,6 +1065,7 @@ API
         
 warn
 (
+            
 "
 distutils
 .
@@ -1062,7 +1084,9 @@ check
 command
 instead
 "
+            
 PendingDeprecationWarning
+        
 )
         
 check
@@ -1225,6 +1249,7 @@ self
 .
 warn
 (
+                
 (
 "
 manifest
@@ -1238,7 +1263,6 @@ not
 exist
 "
 +
-                        
 "
 (
 using
@@ -1248,11 +1272,12 @@ list
 )
 "
 )
+                
 %
-                        
 self
 .
 template
+            
 )
         
 self
@@ -1353,6 +1378,13 @@ setup
 py
           
 -
+tests
+/
+test
+*
+.
+py
+and
 test
 /
 test
@@ -1673,6 +1705,7 @@ self
 .
 warn
 (
+                        
 "
 standard
 file
@@ -1685,7 +1718,6 @@ one
 of
 "
 +
-                              
 '
 '
 .
@@ -1693,6 +1725,7 @@ join
 (
 alts
 )
+                    
 )
             
 else
@@ -1747,6 +1780,14 @@ self
 optional
 =
 [
+'
+tests
+/
+test
+*
+.
+py
+'
 '
 test
 /
@@ -2169,29 +2210,35 @@ template
 =
 TextFile
 (
+            
 self
 .
 template
+            
 strip_comments
 =
 1
+            
 skip_blanks
 =
 1
-                            
+            
 join_lines
 =
 1
+            
 lstrip_ws
 =
 1
+            
 rstrip_ws
 =
 1
-                            
+            
 collapse_join
 =
 1
+        
 )
         
 try
@@ -2242,6 +2289,7 @@ self
 .
 warn
 (
+                        
 "
 %
 s
@@ -2252,18 +2300,18 @@ d
 %
 s
 "
+                        
 %
 (
 template
 .
 filename
-                                                   
 template
 .
 current_line
-                                                   
 msg
 )
+                    
 )
         
 finally
@@ -2481,7 +2529,6 @@ r
 .
 bzr
 '
-                    
 '
 _darcs
 '
@@ -2494,21 +2541,22 @@ r
 (
 ^
 |
-%
-s
+{
+}
 )
 (
-%
-s
+{
+}
 )
 (
-%
-s
+{
+}
 )
 .
 *
 '
-%
+.
+format
 (
 seps
 '
@@ -2603,6 +2651,7 @@ log
 .
 info
 (
+                
 "
 not
 writing
@@ -2610,7 +2659,7 @@ to
 manually
 maintained
 "
-                     
+                
 "
 manifest
 file
@@ -2623,6 +2672,7 @@ s
 self
 .
 manifest
+            
 )
             
 return
@@ -2659,16 +2709,18 @@ self
 .
 execute
 (
+            
 file_util
 .
 write_file
+            
 (
 self
 .
 manifest
 content
 )
-                     
+            
 "
 writing
 manifest
@@ -2682,6 +2734,7 @@ s
 self
 .
 manifest
+        
 )
     
 def
@@ -3050,7 +3103,7 @@ files
             
 log
 .
-warn
+warning
 (
 "
 no
@@ -3095,7 +3148,7 @@ file
                 
 log
 .
-warn
+warning
 (
 "
 '
@@ -3344,12 +3397,12 @@ self
 .
 make_archive
 (
+                
 base_name
 fmt
 base_dir
 =
 base_dir
-                                     
 owner
 =
 self
@@ -3360,6 +3413,7 @@ group
 self
 .
 group
+            
 )
             
 archive_files

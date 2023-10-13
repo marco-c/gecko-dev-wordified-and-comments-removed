@@ -16,9 +16,9 @@ strings
 "
 import
 re
-import
-distutils
+from
 .
+import
 version
 import
 operator
@@ -68,7 +68,6 @@ w
 *
 )
 "
-    
 re
 .
 ASCII
@@ -210,21 +209,32 @@ groups
 (
 )
     
-return
-(
-comp
-distutils
+with
+version
 .
+suppress_known_deprecation
+(
+)
+:
+        
+other
+=
 version
 .
 StrictVersion
 (
 verStr
 )
+    
+return
+(
+comp
+other
 )
 compmap
 =
 {
+    
 "
 <
 "
@@ -232,6 +242,7 @@ compmap
 operator
 .
 lt
+    
 "
 <
 =
@@ -240,6 +251,7 @@ lt
 operator
 .
 le
+    
 "
 =
 =
@@ -248,7 +260,7 @@ le
 operator
 .
 eq
-           
+    
 "
 >
 "
@@ -256,6 +268,7 @@ eq
 operator
 .
 gt
+    
 "
 >
 =
@@ -264,6 +277,7 @@ gt
 operator
 .
 ge
+    
 "
 !
 =
@@ -790,7 +804,6 @@ version
 predicate
 string
 .
-        
 "
 "
 "
@@ -949,7 +962,6 @@ in
 %
 r
 "
-                                 
 %
 versionPredicateStr
 )
@@ -1273,10 +1285,10 @@ s
 )
 ?
 "
-            
 re
 .
 ASCII
+        
 )
     
 value
@@ -1331,10 +1343,16 @@ if
 ver
 :
         
+with
+version
+.
+suppress_known_deprecation
+(
+)
+:
+            
 ver
 =
-distutils
-.
 version
 .
 StrictVersion

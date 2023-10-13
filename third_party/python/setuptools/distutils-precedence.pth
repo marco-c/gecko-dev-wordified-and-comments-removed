@@ -17,7 +17,7 @@ get
 (
 var
 '
-stdlib
+local
 '
 )
 =

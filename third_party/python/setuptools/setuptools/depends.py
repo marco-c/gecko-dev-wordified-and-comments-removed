@@ -7,11 +7,13 @@ contextlib
 import
 dis
 from
-distutils
+setuptools
 .
-version
+extern
+.
+packaging
 import
-StrictVersion
+version
 from
 .
 _imp
@@ -95,7 +97,9 @@ None
             
 format
 =
-StrictVersion
+version
+.
+Version
         
 if
 format
@@ -245,7 +249,12 @@ version
 unknown
 "
 and
+self
+.
+format
+(
 version
+)
 >
 =
 self
@@ -547,7 +556,10 @@ self
 .
 version_ok
 (
+str
+(
 version
+)
 )
 def
 maybe_close

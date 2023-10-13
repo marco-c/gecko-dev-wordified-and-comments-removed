@@ -1,7 +1,5 @@
 import
 platform
-import
-ctypes
 def
 windows_only
 (
@@ -80,6 +78,9 @@ text
 "
 "
 "
+    
+import
+ctypes
     
 __import__
 (

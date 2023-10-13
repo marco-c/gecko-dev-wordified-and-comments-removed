@@ -10,15 +10,21 @@ command
 install_scripts
 as
 orig
+from
+distutils
+.
+errors
+import
+DistutilsModuleError
 import
 os
 import
 sys
 from
-pkg_resources
+.
+.
+_path
 import
-Distribution
-PathMetadata
 ensure_directory
 class
 install_scripts
@@ -74,15 +80,6 @@ self
 )
 :
         
-import
-setuptools
-.
-command
-.
-easy_install
-as
-ei
-        
 self
 .
 run_command
@@ -126,6 +123,32 @@ no_ep
 :
             
 return
+        
+self
+.
+_install_ep_scripts
+(
+)
+    
+def
+_install_ep_scripts
+(
+self
+)
+:
+        
+from
+pkg_resources
+import
+Distribution
+PathMetadata
+        
+from
+.
+import
+easy_install
+as
+ei
         
 ei_cmd
 =
@@ -213,7 +236,10 @@ False
 )
         
 except
+(
 ImportError
+DistutilsModuleError
+)
 :
             
 is_wininst

@@ -20,19 +20,21 @@ command
 import
 os
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 dir_util
 import
 remove_tree
 from
 distutils
+.
+_log
 import
 log
 class
@@ -70,7 +72,6 @@ base
 '
 b
 '
-         
 "
 base
 build
@@ -90,14 +91,16 @@ base
 )
         
 (
+            
 '
 build
 -
 lib
 =
 '
+            
 None
-         
+            
 "
 build
 directory
@@ -116,6 +119,7 @@ lib
 '
 )
 "
+        
 )
         
 (
@@ -128,7 +132,6 @@ temp
 '
 t
 '
-         
 "
 temporary
 build
@@ -148,14 +151,16 @@ temp
 )
         
 (
+            
 '
 build
 -
 scripts
 =
 '
+            
 None
-         
+            
 "
 build
 directory
@@ -173,6 +178,7 @@ scripts
 '
 )
 "
+        
 )
         
 (
@@ -183,7 +189,6 @@ base
 =
 '
 None
-         
 "
 temporary
 directory
@@ -200,7 +205,6 @@ all
 '
 a
 '
-         
 "
 remove
 all
@@ -279,10 +283,11 @@ self
 .
 set_undefined_options
 (
+            
 '
 build
 '
-                                   
+            
 (
 '
 build_base
@@ -291,7 +296,7 @@ build_base
 build_base
 '
 )
-                                   
+            
 (
 '
 build_lib
@@ -300,7 +305,7 @@ build_lib
 build_lib
 '
 )
-                                   
+            
 (
 '
 build_scripts
@@ -309,7 +314,7 @@ build_scripts
 build_scripts
 '
 )
-                                   
+            
 (
 '
 build_temp
@@ -318,6 +323,7 @@ build_temp
 build_temp
 '
 )
+        
 )
         
 self
@@ -327,7 +333,6 @@ set_undefined_options
 '
 bdist
 '
-                                   
 (
 '
 bdist_base
@@ -393,7 +398,6 @@ t
 clean
 it
 "
-                      
 self
 .
 build_temp
@@ -412,11 +416,9 @@ in
 self
 .
 build_lib
-                              
 self
 .
 bdist_base
-                              
 self
 .
 build_scripts
@@ -449,7 +451,7 @@ else
                     
 log
 .
-warn
+warning
 (
 "
 '
@@ -467,7 +469,6 @@ t
 clean
 it
 "
-                             
 directory
 )
         

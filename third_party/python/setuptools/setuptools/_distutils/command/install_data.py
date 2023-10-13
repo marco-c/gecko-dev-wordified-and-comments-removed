@@ -27,13 +27,13 @@ files
 import
 os
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 util
 import
@@ -59,16 +59,18 @@ user_options
 [
         
 (
+            
 '
 install
 -
 dir
 =
 '
+            
 '
 d
 '
-         
+            
 "
 base
 directory
@@ -77,7 +79,7 @@ installing
 data
 files
 "
-         
+            
 "
 (
 default
@@ -87,6 +89,7 @@ base
 dir
 )
 "
+        
 )
         
 (
@@ -95,7 +98,6 @@ root
 =
 '
 None
-         
 "
 install
 everything
@@ -125,7 +127,7 @@ files
 )
 "
 )
-        
+    
 ]
     
 boolean_options
@@ -195,10 +197,11 @@ self
 .
 set_undefined_options
 (
+            
 '
 install
 '
-                                   
+            
 (
 '
 install_data
@@ -207,7 +210,7 @@ install_data
 install_dir
 '
 )
-                                   
+            
 (
 '
 root
@@ -216,7 +219,7 @@ root
 root
 '
 )
-                                   
+            
 (
 '
 force
@@ -225,7 +228,7 @@ force
 force
 '
 )
-                                  
+        
 )
     
 def
@@ -277,6 +280,7 @@ self
 .
 warn
 (
+                        
 "
 setup
 script
@@ -287,7 +291,7 @@ a
 directory
 for
 "
-                              
+                        
 "
 '
 %
@@ -304,13 +308,13 @@ s
 '
 "
 %
-                              
 (
 f
 self
 .
 install_dir
 )
+                    
 )
                 
 (

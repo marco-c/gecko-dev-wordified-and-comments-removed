@@ -87,7 +87,7 @@ hexversion
 16
 )
 &
-0xff
+0xFF
         
 sysconfig
 .

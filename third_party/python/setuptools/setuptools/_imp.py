@@ -28,8 +28,9 @@ importlib
 .
 machinery
 from
+importlib
 .
-py34compat
+util
 import
 module_from_spec
 PY_SOURCE

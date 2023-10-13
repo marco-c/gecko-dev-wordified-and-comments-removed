@@ -316,6 +316,15 @@ RawConfigParser
     
 opts
 .
+optionxform
+=
+lambda
+x
+:
+x
+    
+opts
+.
 read
 (
 [
