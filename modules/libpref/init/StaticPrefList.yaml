@@ -56930,7 +56930,7 @@ word_select
 stop_at_punctuation
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
