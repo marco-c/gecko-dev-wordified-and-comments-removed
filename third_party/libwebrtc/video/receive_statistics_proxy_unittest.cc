@@ -7830,7 +7830,7 @@ data_counters
 ;
 data_counters
 .
-first_packet_time_ms
+first_packet_time
 =
 time_controller_
 .
@@ -7839,7 +7839,7 @@ GetClock
 )
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;
@@ -7958,7 +7958,7 @@ data_counters
 ;
 data_counters
 .
-first_packet_time_ms
+first_packet_time
 =
 time_controller_
 .
@@ -7967,7 +7967,7 @@ GetClock
 )
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;

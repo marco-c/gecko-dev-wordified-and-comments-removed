@@ -16589,11 +16589,11 @@ rtx_counters
 ;
 counters
 .
-first_packet_time_ms
+first_packet_time
 =
 fake_clock_
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;
