@@ -88,7 +88,7 @@ iframesandbox
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -97,7 +97,7 @@ mochitest
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -106,7 +106,7 @@ navigation
 /
 mochitest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

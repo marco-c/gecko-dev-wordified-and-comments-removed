@@ -281,6 +281,6 @@ tests
 /
 mochitest
 .
-ini
+toml
 "
 ]

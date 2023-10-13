@@ -204,7 +204,7 @@ crash
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -213,14 +213,14 @@ crossorigin
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -244,7 +244,7 @@ mochitest
 /
 mochitest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
