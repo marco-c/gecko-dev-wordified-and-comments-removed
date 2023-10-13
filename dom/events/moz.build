@@ -72,6 +72,15 @@ MOCHITEST_MANIFESTS
 "
 test
 /
+clipboard
+/
+mochitest
+.
+toml
+"
+"
+test
+/
 mochitest
 .
 toml
