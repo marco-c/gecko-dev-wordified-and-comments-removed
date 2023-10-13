@@ -1196,11 +1196,6 @@ types
 PASSWORDS
 [
 "
-signons
-.
-sqlite
-"
-"
 logins
 .
 json
