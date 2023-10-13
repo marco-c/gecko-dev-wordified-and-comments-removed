@@ -4465,11 +4465,6 @@ userContextId
 =
 tab
 ;
-if
-(
-userContextId
-)
-{
 let
 currentURIHost
 =
@@ -4542,7 +4537,6 @@ maxCount
 =
 count
 ;
-}
 }
 }
 }
