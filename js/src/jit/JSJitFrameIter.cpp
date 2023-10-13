@@ -3206,6 +3206,14 @@ sp
 return
 ;
 }
+if
+(
+!
+IsPortableBaselineInterpreterEnabled
+(
+)
+)
+{
 JitcodeGlobalTable
 *
 table
@@ -3283,6 +3291,7 @@ true
 {
 return
 ;
+}
 }
 }
 type_
