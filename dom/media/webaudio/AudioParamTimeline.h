@@ -305,7 +305,9 @@ SetValue
 (
 aEvent
 .
-mValue
+NominalValue
+(
+)
 )
 ;
 return
