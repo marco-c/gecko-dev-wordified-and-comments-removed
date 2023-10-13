@@ -1389,6 +1389,11 @@ cricket
 :
 AudioCodec
 kTelephoneEventCodec
+=
+cricket
+:
+:
+CreateAudioCodec
 (
 106
 "
@@ -1397,7 +1402,6 @@ telephone
 event
 "
 8000
-0
 1
 )
 ;

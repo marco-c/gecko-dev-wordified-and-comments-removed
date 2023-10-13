@@ -534,6 +534,11 @@ cricket
 :
 VideoCodec
 video_codec
+=
+cricket
+:
+:
+CreateVideoCodec
 (
 name
 )
@@ -1397,6 +1402,11 @@ cricket
 :
 VideoCodec
 video_codec
+=
+cricket
+:
+:
+CreateVideoCodec
 (
 name
 )

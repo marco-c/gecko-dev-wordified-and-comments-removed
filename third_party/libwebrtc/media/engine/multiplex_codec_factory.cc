@@ -317,7 +317,7 @@ IsMultiplexCodec
 cricket
 :
 :
-VideoCodec
+CreateVideoCodec
 (
 format
 )
@@ -585,7 +585,7 @@ IsMultiplexCodec
 cricket
 :
 :
-VideoCodec
+CreateVideoCodec
 (
 format
 )
