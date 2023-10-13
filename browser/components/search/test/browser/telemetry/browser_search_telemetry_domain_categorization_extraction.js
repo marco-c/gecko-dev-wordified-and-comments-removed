@@ -885,11 +885,6 @@ function
 )
 {
 await
-waitForIdle
-(
-)
-;
-await
 SpecialPowers
 .
 pushPrefEnv
@@ -951,12 +946,6 @@ async
 =
 >
 {
-SearchSERPTelemetry
-.
-overrideSearchTelemetryForTests
-(
-)
-;
 resetTelemetry
 (
 )
