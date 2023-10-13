@@ -270,6 +270,13 @@ js
 ]
 [
 "
+browser_permissions
+.
+js
+"
+]
+[
+"
 browser_safari_passwords
 .
 js
