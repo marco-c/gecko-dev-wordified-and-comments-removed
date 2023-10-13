@@ -75213,7 +75213,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
@@ -75240,7 +75240,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
@@ -75316,7 +75316,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NOT_NIGHTLY_BUILD
+false
 mirror
 :
 always
@@ -75431,7 +75431,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
@@ -85307,19 +85307,9 @@ grease_probability
 type
 :
 RelaxedAtomicUint32
-#
-ifdef
-NIGHTLY_BUILD
 value
 :
 100
-#
-else
-value
-:
-0
-#
-endif
 mirror
 :
 always
@@ -85350,7 +85340,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
@@ -85377,7 +85367,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NOT_NIGHTLY_BUILD
+false
 mirror
 :
 always
