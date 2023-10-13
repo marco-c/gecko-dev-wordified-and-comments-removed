@@ -780,13 +780,13 @@ identityCredential
 )
 ;
 async
-HasStorageAccessPermission
+GetStorageAccessPermission
 (
 )
 returns
 (
-bool
-granted
+uint32_t
+permission_action
 )
 ;
 async
