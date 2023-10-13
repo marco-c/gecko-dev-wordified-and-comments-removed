@@ -500,11 +500,7 @@ this
 .
 props
 .
-DiscoveryStream
-.
-config
-.
-show_spocs
+mayHaveSponsoredStories
 }
 mayHaveRecentSaves
 =

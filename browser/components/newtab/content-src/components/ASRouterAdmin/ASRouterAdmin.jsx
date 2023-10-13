@@ -1979,7 +1979,6 @@ prefToggles
 =
 "
 enabled
-show_spocs
 collapsible
 "
 .
