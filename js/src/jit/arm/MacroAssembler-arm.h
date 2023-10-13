@@ -2144,7 +2144,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_dtr
 (
 LoadStore
@@ -2164,7 +2164,7 @@ Condition
 cc
 )
 ;
-void
+FaultingCodeOffset
 ma_str
 (
 Register
@@ -2181,7 +2181,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_str
 (
 Register
@@ -2203,7 +2203,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_ldr
 (
 DTRAddr
@@ -2220,7 +2220,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_ldr
 (
 const
@@ -2242,7 +2242,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_ldrb
 (
 DTRAddr
@@ -2259,7 +2259,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_ldrh
 (
 EDtrAddr
@@ -2276,7 +2276,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_ldrsh
 (
 EDtrAddr
@@ -2293,7 +2293,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_ldrsb
 (
 EDtrAddr
@@ -2335,7 +2335,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_strb
 (
 Register
@@ -2352,7 +2352,7 @@ cc
 Always
 )
 ;
-void
+FaultingCodeOffset
 ma_strh
 (
 Register
