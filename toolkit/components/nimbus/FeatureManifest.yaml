@@ -12302,7 +12302,7 @@ experience
 .
 isEarlyStartup
 :
-false
+true
 variables
 :
 enableUpdatesForUnelevatedInstallations
