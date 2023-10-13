@@ -61,6 +61,16 @@ quickactions
 "
 false
 ]
+[
+"
+dom
+.
+security
+.
+https_first_schemeless
+"
+false
+]
 ]
 }
 )
