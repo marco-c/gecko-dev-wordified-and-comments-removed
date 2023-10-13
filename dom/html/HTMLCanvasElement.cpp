@@ -3208,10 +3208,6 @@ OwnerDoc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 renderEvent
 .
 forget
@@ -4780,10 +4776,6 @@ OwnerDoc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NewRunnableMethod
 <
 Blob

@@ -863,10 +863,6 @@ doc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 request
 .
 forget

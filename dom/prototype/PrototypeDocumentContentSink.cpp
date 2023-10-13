@@ -953,13 +953,6 @@ mDocument
 >
 Dispatch
 (
-mozilla
-:
-:
-TaskCategory
-:
-:
-Other
 ev
 .
 forget

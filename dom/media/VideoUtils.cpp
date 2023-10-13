@@ -113,15 +113,6 @@ include
 "
 mozilla
 /
-TaskCategory
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TaskQueue
 .
 h
@@ -4794,10 +4785,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 task
 .
 forget

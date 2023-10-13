@@ -783,10 +783,6 @@ win
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 eventRunner
 .
 forget
@@ -810,12 +806,6 @@ nsAString
 aEventName
 )
 {
-DebugOnly
-<
-nsresult
->
-rv
-;
 nsCOMPtr
 <
 nsIEventTarget
@@ -868,6 +858,10 @@ aEventName
 eventInit
 )
 ;
+DebugOnly
+<
+nsresult
+>
 rv
 =
 target

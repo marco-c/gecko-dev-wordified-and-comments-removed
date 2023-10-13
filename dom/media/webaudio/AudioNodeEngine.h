@@ -1304,15 +1304,6 @@ const
 uint16_t
 mOutputCount
 ;
-protected
-:
-const
-RefPtr
-<
-AbstractThread
->
-mAbstractMainThread
-;
 }
 ;
 }

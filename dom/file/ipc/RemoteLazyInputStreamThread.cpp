@@ -53,15 +53,6 @@ include
 "
 mozilla
 /
-TaskCategory
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 BackgroundChild
@@ -379,10 +370,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget

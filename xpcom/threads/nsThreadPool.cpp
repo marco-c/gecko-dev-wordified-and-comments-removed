@@ -831,10 +831,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NewRunnableMethod
 (
 "

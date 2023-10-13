@@ -5955,7 +5955,6 @@ Init
 (
 aRequest
 aLoadGroup
-aLoadingDocument
 aURI
 aObserver
 )

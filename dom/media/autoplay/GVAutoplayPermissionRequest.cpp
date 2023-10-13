@@ -611,12 +611,8 @@ RequestDelayedTask
 aWindow
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 GVAutoplayPermissionRequest
 :

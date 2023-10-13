@@ -704,10 +704,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget

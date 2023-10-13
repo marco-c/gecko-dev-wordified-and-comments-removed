@@ -879,15 +879,8 @@ target
 global
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-mozilla
-:
-:
-TaskCategory
-:
-:
-Other
 )
 ;
 nsCOMPtr

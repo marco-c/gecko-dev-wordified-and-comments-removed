@@ -2570,12 +2570,8 @@ Unused
 global
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 -
 >

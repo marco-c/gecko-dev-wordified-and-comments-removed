@@ -1536,14 +1536,6 @@ bool
 aFireSync
 )
 ;
-already_AddRefed
-<
-nsISerialEventTarget
->
-DispatchTarget
-(
-)
-;
 nsresult
 CheckContentPolicy
 (

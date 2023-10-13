@@ -1536,10 +1536,6 @@ win
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NS_NewRunnableFunction
 (
 "

@@ -793,15 +793,8 @@ NS_IsMainThread
 ;
 mSerialEventTarget
 =
-window
--
->
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 nsCOMPtr

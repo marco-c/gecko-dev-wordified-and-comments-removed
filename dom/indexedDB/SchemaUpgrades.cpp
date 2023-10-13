@@ -255,15 +255,6 @@ include
 "
 mozilla
 /
-TaskCategory
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -13451,10 +13442,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 self
 .
 forget

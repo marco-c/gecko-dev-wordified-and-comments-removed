@@ -2730,10 +2730,6 @@ global
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 do_AddRef
 (
 this
@@ -3396,6 +3392,8 @@ DispatchUpdateCueDisplay
 "
 )
 ;
+if
+(
 nsPIDOMWindowInner
 *
 win
@@ -3411,10 +3409,6 @@ OwnerDoc
 GetInnerWindow
 (
 )
-;
-if
-(
-win
 )
 {
 nsGlobalWindowInner
@@ -3428,10 +3422,6 @@ win
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NewRunnableMethod
 (
 "
@@ -3486,6 +3476,8 @@ DispatchTimeMarchesOn
 "
 )
 ;
+if
+(
 nsPIDOMWindowInner
 *
 win
@@ -3501,10 +3493,6 @@ OwnerDoc
 GetInnerWindow
 (
 )
-;
-if
-(
-win
 )
 {
 nsGlobalWindowInner
@@ -3518,10 +3506,6 @@ win
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NewRunnableMethod
 (
 "

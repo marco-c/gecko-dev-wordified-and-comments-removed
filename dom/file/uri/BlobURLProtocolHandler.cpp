@@ -2119,10 +2119,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 holder
 .
 forget

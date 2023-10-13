@@ -1281,13 +1281,6 @@ mDocument
 >
 Dispatch
 (
-mozilla
-:
-:
-TaskCategory
-:
-:
-Other
 NS_NewRunnableFunction
 (
 "

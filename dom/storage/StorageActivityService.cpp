@@ -392,10 +392,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 r
 .
 forget
@@ -513,15 +509,8 @@ Run
 }
 else
 {
-SchedulerGroup
-:
-:
-Dispatch
+NS_DispatchToMainThread
 (
-TaskCategory
-:
-:
-Other
 r
 .
 forget

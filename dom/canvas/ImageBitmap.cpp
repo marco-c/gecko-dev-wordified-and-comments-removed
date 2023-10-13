@@ -8425,12 +8425,8 @@ mainThreadEventTarget
 aGlobal
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 }

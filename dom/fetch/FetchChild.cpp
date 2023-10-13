@@ -1202,10 +1202,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 r
 .
 forget
@@ -1572,10 +1568,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 r
 .
 forget
@@ -1894,10 +1886,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 r
 .
 forget

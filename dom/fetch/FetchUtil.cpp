@@ -2444,12 +2444,8 @@ aMaybeWorker
 aGlobal
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 )
 ;

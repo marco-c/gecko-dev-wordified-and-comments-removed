@@ -227,10 +227,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NS_NewRunnableFunction
 (
 "

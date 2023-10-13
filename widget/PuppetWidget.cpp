@@ -1268,10 +1268,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 event
 .
 forget

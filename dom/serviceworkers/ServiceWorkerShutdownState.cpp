@@ -558,15 +558,8 @@ else
 {
 MOZ_ALWAYS_SUCCEEDS
 (
-SchedulerGroup
-:
-:
-Dispatch
+NS_DispatchToMainThread
 (
-TaskCategory
-:
-:
-Other
 r
 .
 forget

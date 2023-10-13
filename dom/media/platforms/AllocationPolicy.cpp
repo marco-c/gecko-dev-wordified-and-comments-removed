@@ -476,10 +476,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NS_NewRunnableFunction
 (
 "
@@ -550,10 +546,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NS_NewRunnableFunction
 (
 "

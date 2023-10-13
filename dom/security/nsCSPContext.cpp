@@ -3773,15 +3773,8 @@ GetDocumentLoadGroup
 ;
 mEventTarget
 =
-aDocument
--
->
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 MOZ_ASSERT

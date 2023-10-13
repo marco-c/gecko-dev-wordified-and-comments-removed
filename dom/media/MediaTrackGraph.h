@@ -2552,9 +2552,6 @@ CreateNonRealtimeInstance
 (
 TrackRate
 aSampleRate
-nsPIDOMWindowInner
-*
-aWindowId
 )
 ;
 void

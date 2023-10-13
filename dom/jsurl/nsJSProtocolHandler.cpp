@@ -2962,13 +2962,6 @@ window
 >
 Dispatch
 (
-mozilla
-:
-:
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget

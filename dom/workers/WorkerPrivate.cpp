@@ -22908,12 +22908,8 @@ GlobalScope
 )
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Timer
 )
 )
 ;

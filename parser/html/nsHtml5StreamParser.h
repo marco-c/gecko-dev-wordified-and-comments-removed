@@ -1151,12 +1151,6 @@ nsHtml5TreeOpExecutor
 *
 mExecutor
 ;
-nsCOMPtr
-<
-nsISerialEventTarget
->
-mNetworkEventTarget
-;
 mozilla
 :
 :

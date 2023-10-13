@@ -4902,10 +4902,6 @@ OwnerDoc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 event
 .
 forget
@@ -6861,13 +6857,6 @@ mDocument
 >
 Dispatch
 (
-mozilla
-:
-:
-TaskCategory
-:
-:
-Other
 ev
 .
 forget

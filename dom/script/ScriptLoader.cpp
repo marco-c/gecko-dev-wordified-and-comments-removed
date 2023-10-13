@@ -6003,10 +6003,6 @@ mDocument
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget
@@ -6020,6 +6016,10 @@ else
 NS_DispatchToCurrentThread
 (
 runnable
+.
+forget
+(
+)
 )
 ;
 }
@@ -15375,10 +15375,6 @@ mDocument
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 task
 .
 forget
