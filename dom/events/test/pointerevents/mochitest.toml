@@ -13,6 +13,15 @@ delay
 =
 0
 "
+"
+dom
+.
+w3c_pointer_events
+.
+getcoalescedevents_only_in_securecontext
+=
+false
+"
 ]
 support
 -

@@ -4771,6 +4771,15 @@ GENERATE_TESTS
 :
 pointerevents
 /
+pointerevent_constructor
+.
+https
+.
+html
+GENERATE_TESTS
+:
+pointerevents
+/
 extension
 /
 pointerevent_constructor
