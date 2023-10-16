@@ -1149,6 +1149,14 @@ getIconForUrl
 (
 url
 )
+userContextId
+:
+queryContext
+.
+userContextId
+|
+|
+0
 }
 )
 )

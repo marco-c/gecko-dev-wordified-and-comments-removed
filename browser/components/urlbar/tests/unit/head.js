@@ -2299,6 +2299,7 @@ queryContext
 uri
 title
 iconUri
+userContextId
 }
 )
 {
@@ -2366,6 +2367,14 @@ icon
 {
 uri
 }
+userContextId
+:
+[
+userContextId
+|
+|
+0
+]
 }
 )
 )

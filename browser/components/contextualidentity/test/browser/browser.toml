@@ -403,6 +403,13 @@ js
 ]
 [
 "
+browser_switchTab_across_user_context
+.
+js
+"
+]
+[
+"
 browser_tab_color_update
 .
 js
