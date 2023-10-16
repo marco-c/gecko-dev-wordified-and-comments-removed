@@ -4745,6 +4745,22 @@ clean
 "
 )
         
+self
+.
+page_timeout
+=
+self
+.
+config
+.
+get
+(
+"
+page_timeout
+"
+None
+)
+        
 for
 (
 arg
@@ -7413,6 +7429,41 @@ extra_summary_methods
                 
 ]
             
+)
+        
+if
+self
+.
+config
+.
+get
+(
+"
+page_timeout
+"
+)
+:
+            
+options
+.
+extend
+(
+[
+f
+"
+-
+-
+page
+-
+timeout
+=
+{
+self
+.
+page_timeout
+}
+"
+]
 )
         
 for
