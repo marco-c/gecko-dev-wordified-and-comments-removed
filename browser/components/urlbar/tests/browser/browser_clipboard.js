@@ -347,9 +347,7 @@ skin
 /
 icons
 /
-edit
--
-copy
+clipboard
 .
 svg
 "
