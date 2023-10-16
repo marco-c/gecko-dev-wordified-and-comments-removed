@@ -50,6 +50,11 @@ FileSystemQuotaClient
 h
 "
 "
+FileSystemQuotaClientFactory
+.
+h
+"
+"
 FileSystemWritableFileStreamParent
 .
 h
@@ -101,6 +106,11 @@ cpp
 "
 "
 FileSystemQuotaClient
+.
+cpp
+"
+"
+FileSystemQuotaClientFactory
 .
 cpp
 "
