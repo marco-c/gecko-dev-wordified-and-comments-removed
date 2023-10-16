@@ -2655,7 +2655,6 @@ return
 true
 ;
 }
-else
 if
 (
 aStr
@@ -7338,8 +7337,6 @@ return
 0
 ;
 }
-else
-{
 result
 =
 (
@@ -7360,7 +7357,6 @@ A
 10
 )
 ;
-}
 }
 else
 if
@@ -7397,8 +7393,6 @@ return
 0
 ;
 }
-else
-{
 result
 =
 (
@@ -7419,7 +7413,6 @@ a
 10
 )
 ;
-}
 }
 else
 if
