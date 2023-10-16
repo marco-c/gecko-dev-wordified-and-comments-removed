@@ -1694,9 +1694,6 @@ create_timecard
 :
 nullptr
 )
-mJsConfiguration
-(
-)
 mSignalingState
 (
 RTCSignalingState

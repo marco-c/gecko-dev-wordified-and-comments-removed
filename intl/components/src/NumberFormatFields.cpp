@@ -781,9 +781,6 @@ sourceMap
 (
 sourceMap
 )
-enclosingFields
-(
-)
 {
 }
 bool

@@ -582,13 +582,6 @@ public
 STUNUDPSocketFilter
 (
 )
-:
-white_list_
-(
-)
-pending_requests_
-(
-)
 {
 }
 NS_DECL_ISUPPORTS
@@ -1777,12 +1770,6 @@ STUNTCPSocketFilter
 white_listed_
 (
 false
-)
-pending_request_ids_
-(
-)
-response_allowed_ids_
-(
 )
 {
 }

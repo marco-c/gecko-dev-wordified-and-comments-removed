@@ -90,9 +90,6 @@ SocketTransportServiceTest
 (
 )
 :
-MtransportTest
-(
-)
 received_
 (
 0

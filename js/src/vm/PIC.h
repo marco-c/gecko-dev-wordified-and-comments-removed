@@ -380,9 +380,6 @@ Shape
 shape
 )
 :
-BaseStub
-(
-)
 shape_
 (
 shape
@@ -527,9 +524,6 @@ JSObject
 picObject
 )
 :
-BaseChain
-(
-)
 picObject_
 (
 picObject

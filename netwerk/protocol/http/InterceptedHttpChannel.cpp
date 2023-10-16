@@ -207,9 +207,6 @@ mCallingStatusAndProgress
 (
 false
 )
-mTimeStamps
-(
-)
 {
 INTERCEPTED_LOG
 (

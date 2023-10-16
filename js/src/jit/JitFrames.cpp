@@ -12137,9 +12137,6 @@ calleeTemplate_
 (
 cx
 )
-calleeRVA_
-(
-)
 script_
 (
 cx
@@ -12202,9 +12199,6 @@ UINT32_MAX
 calleeTemplate_
 (
 cx
-)
-calleeRVA_
-(
 )
 script_
 (

@@ -74,9 +74,6 @@ timer_
 (
 nullptr
 )
-packets_
-(
-)
 packets_lock_
 (
 nullptr

@@ -3453,9 +3453,6 @@ mTreatUnsafeNegotiationAsBroken
 (
 false
 )
-mTLSIntoleranceInfo
-(
-)
 mVersionFallbackLimit
 (
 SSL_LIBRARY_VERSION_TLS_1_0

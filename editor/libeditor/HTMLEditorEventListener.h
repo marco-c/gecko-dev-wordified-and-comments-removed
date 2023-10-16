@@ -55,9 +55,6 @@ HTMLEditorEventListener
 (
 )
 :
-EditorEventListener
-(
-)
 mListeningToMouseMoveEventForResizers
 (
 false

@@ -844,10 +844,6 @@ public
 InstructionDataMap
 (
 )
-:
-insData_
-(
-)
 {
 }
 [

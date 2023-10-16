@@ -697,9 +697,6 @@ ImageDocument
 (
 )
 :
-MediaDocument
-(
-)
 mVisibleWidth
 (
 0

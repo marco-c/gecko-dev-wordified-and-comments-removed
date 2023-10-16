@@ -1110,10 +1110,6 @@ set
 Inner
 (
 )
-:
-set
-(
-)
 {
 }
 Inner

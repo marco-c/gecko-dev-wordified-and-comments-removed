@@ -39,10 +39,6 @@ public
 Lock
 (
 )
-:
-lock_
-(
-)
 {
 }
 ~

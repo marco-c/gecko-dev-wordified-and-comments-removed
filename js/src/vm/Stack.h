@@ -1169,10 +1169,6 @@ public
 NullFramePtr
 (
 )
-:
-AbstractFramePtr
-(
-)
 {
 }
 }

@@ -75,9 +75,6 @@ m_impulseResponseLength
 (
 impulseResponseLength
 )
-m_accumulationBuffer
-(
-)
 m_inputBuffer
 (
 InputBufferSize

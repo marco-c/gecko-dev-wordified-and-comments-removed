@@ -720,9 +720,6 @@ ContainStyleScope
 aScope
 )
 :
-nsGenConList
-(
-)
 mCounterName
 (
 aCounterName

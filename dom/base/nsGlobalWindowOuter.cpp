@@ -6503,10 +6503,6 @@ constexpr
 nsChromeOuterWindowProxy
 (
 )
-:
-nsOuterWindowProxy
-(
-)
 {
 }
 const

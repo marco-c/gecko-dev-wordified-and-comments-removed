@@ -68,9 +68,6 @@ TimerTest
 (
 )
 :
-MtransportTest
-(
-)
 handle_
 (
 nullptr

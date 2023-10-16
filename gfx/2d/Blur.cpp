@@ -2333,9 +2333,6 @@ TruncatedToInt
 aRect
 )
 )
-mSpreadRadius
-(
-)
 mBlurRadius
 (
 CalculateBlurRadius

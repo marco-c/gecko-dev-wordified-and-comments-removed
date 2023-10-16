@@ -12553,10 +12553,6 @@ JSContext
 *
 cx
 )
-:
-ReadOnlyCompileOptions
-(
-)
 {
 }
 void
@@ -13071,10 +13067,6 @@ CompileOptions
 JSContext
 *
 cx
-)
-:
-ReadOnlyCompileOptions
-(
 )
 {
 prefableOptions_
@@ -21153,10 +21145,6 @@ JSErrorNotes
 :
 :
 JSErrorNotes
-(
-)
-:
-notes_
 (
 )
 {

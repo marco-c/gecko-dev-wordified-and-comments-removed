@@ -1388,9 +1388,6 @@ server_
 (
 server
 )
-buffer_
-(
-)
 sock_
 (
 sock

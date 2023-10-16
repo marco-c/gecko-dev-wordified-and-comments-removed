@@ -113,12 +113,6 @@ aStyle
 aPresContext
 kClassID
 )
-mSqrChar
-(
-)
-mBarRect
-(
-)
 {
 }
 nsMathMLmrootFrame

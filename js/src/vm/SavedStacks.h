@@ -120,9 +120,6 @@ SavedStacks
 (
 )
 :
-frames
-(
-)
 bernoulliSeeded
 (
 false
@@ -285,10 +282,6 @@ public
 AllocationMetadataBuilder
 {
 MetadataBuilder
-(
-)
-:
-AllocationMetadataBuilder
 (
 )
 {

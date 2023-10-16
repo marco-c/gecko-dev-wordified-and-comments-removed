@@ -3183,9 +3183,6 @@ mAllocStackTrace
 (
 aAllocStackTrace
 )
-mReportStackTrace_mReportedOnAlloc
-(
-)
 {
 }
 const

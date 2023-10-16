@@ -135,9 +135,6 @@ BufferedStunSocketTest
 (
 )
 :
-MtransportTest
-(
-)
 dummy_
 (
 nullptr

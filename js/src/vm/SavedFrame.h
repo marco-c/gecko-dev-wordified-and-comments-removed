@@ -935,10 +935,6 @@ explicit
 ReconstructedSavedFramePrincipals
 (
 )
-:
-JSPrincipals
-(
-)
 {
 MOZ_ASSERT
 (

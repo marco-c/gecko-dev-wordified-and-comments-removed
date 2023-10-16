@@ -717,9 +717,6 @@ mOptions
 (
 aOptions
 )
-mResultContent
-(
-)
 mResultFrame
 (
 nullptr

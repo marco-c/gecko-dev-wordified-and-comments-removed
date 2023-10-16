@@ -28185,10 +28185,6 @@ public
 ShellAllocationMetadataBuilder
 (
 )
-:
-AllocationMetadataBuilder
-(
-)
 {
 }
 virtual

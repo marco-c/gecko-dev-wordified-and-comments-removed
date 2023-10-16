@@ -612,10 +612,6 @@ explicit
 Digest
 (
 )
-:
-DigestBase
-(
-)
 {
 }
 static
@@ -866,10 +862,6 @@ public
 :
 explicit
 HMAC
-(
-)
-:
-DigestBase
 (
 )
 {

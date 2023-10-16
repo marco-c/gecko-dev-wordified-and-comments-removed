@@ -284,10 +284,6 @@ NS_DECL_NSIINPUTSTREAMLENGTHCALLBACK
 nsBufferedInputStream
 (
 )
-:
-nsBufferedStream
-(
-)
 {
 }
 static
@@ -433,10 +429,6 @@ NS_DECL_NSISAFEOUTPUTSTREAM
 NS_DECL_NSIBUFFEREDOUTPUTSTREAM
 NS_DECL_NSISTREAMBUFFERACCESS
 nsBufferedOutputStream
-(
-)
-:
-nsBufferedStream
 (
 )
 {

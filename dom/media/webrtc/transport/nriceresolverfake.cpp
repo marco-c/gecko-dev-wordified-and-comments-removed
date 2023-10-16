@@ -84,9 +84,6 @@ vtbl_
 new
 nr_resolver_vtbl
 )
-addrs_
-(
-)
 delay_ms_
 (
 100
