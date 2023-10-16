@@ -160,6 +160,7 @@ SetterThrows
 ]
 attribute
 DOMString
+?
 role
 ;
 }
