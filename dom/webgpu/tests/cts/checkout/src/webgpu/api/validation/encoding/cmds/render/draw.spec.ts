@@ -1058,7 +1058,6 @@ boundSize
 .
 fn
 (
-async
 t
 =
 >
@@ -1560,7 +1559,6 @@ GPUIndexFormat
 .
 fn
 (
-async
 t
 =
 >
@@ -2474,7 +2472,6 @@ instanceCount
 .
 fn
 (
-async
 t
 =
 >
@@ -3277,7 +3274,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -4069,7 +4065,6 @@ maxDrawCount
 .
 fn
 (
-async
 t
 =
 >

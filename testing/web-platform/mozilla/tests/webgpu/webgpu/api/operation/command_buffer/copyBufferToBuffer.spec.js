@@ -265,7 +265,6 @@ copySize
 .
 fn
 (
-async
 t
 =
 >
@@ -499,7 +498,6 @@ both
 .
 fn
 (
-async
 t
 =
 >
@@ -735,7 +733,6 @@ contents
 .
 fn
 (
-async
 t
 =
 >

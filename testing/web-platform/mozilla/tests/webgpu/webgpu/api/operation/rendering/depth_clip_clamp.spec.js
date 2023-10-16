@@ -68,7 +68,7 @@ from
 .
 .
 /
-capability_info
+format_info
 .
 js
 '
@@ -367,6 +367,8 @@ filter
 p
 =
 >
+!
+!
 kTextureFormatInfo
 [
 p
@@ -1366,6 +1368,11 @@ format
 depthWriteEnabled
 :
 true
+depthCompare
+:
+'
+always
+'
 }
 multisample
 :
@@ -2524,6 +2531,8 @@ filter
 p
 =
 >
+!
+!
 kTextureFormatInfo
 [
 p
@@ -2606,7 +2615,6 @@ feature
 .
 fn
 (
-async
 t
 =
 >
@@ -3063,6 +3071,11 @@ format
 depthWriteEnabled
 :
 true
+depthCompare
+:
+'
+always
+'
 }
 multisample
 :
@@ -3140,6 +3153,9 @@ not
 -
 equal
 '
+depthWriteEnabled
+:
+false
 }
 multisample
 :

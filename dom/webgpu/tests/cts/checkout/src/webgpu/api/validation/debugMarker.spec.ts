@@ -240,7 +240,6 @@ popCount
 .
 fn
 (
-async
 t
 =
 >
@@ -441,7 +440,6 @@ popCount
 .
 fn
 (
-async
 t
 =
 >

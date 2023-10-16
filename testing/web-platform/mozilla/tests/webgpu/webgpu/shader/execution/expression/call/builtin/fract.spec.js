@@ -149,7 +149,7 @@ js
 ;
 import
 {
-fractInterval
+FP
 }
 from
 '
@@ -170,7 +170,7 @@ from
 /
 util
 /
-f32_interval
+floating_point
 .
 js
 '
@@ -223,7 +223,6 @@ js
 import
 {
 allInputSources
-generateUnaryToF32IntervalCases
 run
 }
 from
@@ -279,7 +278,11 @@ f32
 >
 {
 return
-generateUnaryToF32IntervalCases
+FP
+.
+f32
+.
+generateScalarToIntervalCases
 (
 [
 0
@@ -320,6 +323,7 @@ generateUnaryToF32IntervalCases
 10
 .
 0001
+0x80000000
 .
 .
 .
@@ -330,6 +334,10 @@ fullF32Range
 '
 unfiltered
 '
+FP
+.
+f32
+.
 fractInterval
 )
 ;

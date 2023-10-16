@@ -2042,7 +2042,6 @@ kBufferBindingTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -2286,7 +2285,6 @@ kSamplerBindingTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -3448,7 +3446,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -3777,7 +3774,6 @@ const
 .
 fn
 (
-async
 t
 =
 >

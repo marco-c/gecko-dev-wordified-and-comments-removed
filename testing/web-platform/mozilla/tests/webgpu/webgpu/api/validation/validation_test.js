@@ -1784,7 +1784,7 @@ descriptor
 errorTypeName
 =
 '
-OperationError
+GPUPipelineError
 '
 )
 {
@@ -1841,7 +1841,7 @@ errorTypeName
 =
 =
 '
-OperationError
+GPUPipelineError
 '
 )
 {
@@ -1908,7 +1908,7 @@ descriptor
 errorTypeName
 =
 '
-OperationError
+GPUPipelineError
 '
 )
 {
@@ -1965,7 +1965,7 @@ errorTypeName
 =
 =
 '
-OperationError
+GPUPipelineError
 '
 )
 {

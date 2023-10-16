@@ -12,8 +12,6 @@ resolving
 queries
 .
 -
-occlusion
--
 pipeline
 statistics
 TODO

@@ -214,7 +214,6 @@ indirect
 .
 fn
 (
-async
 t
 =
 >
@@ -648,7 +647,6 @@ indirect
 .
 fn
 (
-async
 t
 =
 >
@@ -1602,7 +1600,6 @@ false
 .
 fn
 (
-async
 t
 =
 >

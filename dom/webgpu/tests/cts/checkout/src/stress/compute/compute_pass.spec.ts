@@ -109,7 +109,6 @@ GPUComputePipeline
 .
 fn
 (
-async
 t
 =
 >
@@ -448,7 +447,6 @@ GPUComputePipeline
 .
 fn
 (
-async
 t
 =
 >
@@ -739,7 +737,6 @@ groups
 .
 fn
 (
-async
 t
 =
 >
@@ -1196,7 +1193,6 @@ calls
 .
 fn
 (
-async
 t
 =
 >

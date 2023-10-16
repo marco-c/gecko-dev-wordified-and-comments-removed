@@ -226,7 +226,6 @@ kResourceStates
 .
 fn
 (
-async
 t
 =
 >
@@ -438,7 +437,6 @@ of
 .
 fn
 (
-async
 t
 =
 >
@@ -1113,7 +1111,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -1254,7 +1251,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

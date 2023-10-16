@@ -30,7 +30,7 @@ lib
 dom
 "
 "
-es2019
+es2020
 "
 ]
 "
@@ -131,6 +131,13 @@ skipLibCheck
 "
 :
 true
+"
+target
+"
+:
+"
+es2020
+"
 }
 "
 include

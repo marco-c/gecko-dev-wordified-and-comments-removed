@@ -205,7 +205,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -514,7 +513,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -858,7 +856,6 @@ true
 .
 fn
 (
-async
 t
 =
 >

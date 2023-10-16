@@ -677,7 +677,6 @@ texture
 .
 fn
 (
-async
 t
 =
 >
@@ -704,7 +703,6 @@ limits
 .
 maxBindGroups
 ;
-async
 function
 runTest
 (
@@ -793,7 +791,6 @@ index
 }
 )
 ;
-await
 runTest
 (
 index
@@ -900,7 +897,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -1112,7 +1108,6 @@ kProgrammableEncoderTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -1359,7 +1354,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -2109,7 +2103,6 @@ default
 .
 fn
 (
-async
 t
 =
 >

@@ -422,7 +422,6 @@ kResourceStates
 .
 fn
 (
-async
 t
 =
 >
@@ -646,7 +645,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -810,7 +808,6 @@ kBufferUsages
 .
 fn
 (
-async
 t
 =
 >
@@ -976,7 +973,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -1193,7 +1189,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -1387,7 +1382,6 @@ kMaxSafeMultipleOf8
 .
 fn
 (
-async
 t
 =
 >
@@ -1602,7 +1596,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -1751,7 +1744,6 @@ copySize
 .
 fn
 (
-async
 t
 =
 >

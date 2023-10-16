@@ -140,7 +140,7 @@ js
 ;
 import
 {
-crossInterval
+FP
 }
 from
 '
@@ -161,7 +161,7 @@ from
 /
 util
 /
-f32_interval
+floating_point
 .
 js
 '
@@ -214,7 +214,6 @@ js
 import
 {
 allInputSources
-generateVectorPairToVectorCases
 run
 }
 from
@@ -270,6 +269,10 @@ f32_const
 >
 {
 return
+FP
+.
+f32
+.
 generateVectorPairToVectorCases
 (
 vectorF32Range
@@ -281,10 +284,12 @@ vectorF32Range
 3
 )
 '
-f32
--
-only
+finite
 '
+FP
+.
+f32
+.
 crossInterval
 )
 ;
@@ -297,6 +302,10 @@ f32_non_const
 >
 {
 return
+FP
+.
+f32
+.
 generateVectorPairToVectorCases
 (
 vectorF32Range
@@ -310,6 +319,10 @@ vectorF32Range
 '
 unfiltered
 '
+FP
+.
+f32
+.
 crossInterval
 )
 ;

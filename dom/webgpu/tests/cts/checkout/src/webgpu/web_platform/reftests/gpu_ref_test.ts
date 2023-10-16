@@ -77,6 +77,8 @@ Promise
 <
 void
 >
+|
+void
 )
 :
 void

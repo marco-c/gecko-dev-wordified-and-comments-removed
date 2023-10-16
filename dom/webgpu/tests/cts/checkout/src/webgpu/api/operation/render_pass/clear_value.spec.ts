@@ -81,7 +81,7 @@ from
 .
 .
 /
-capability_info
+format_info
 .
 js
 '
@@ -411,6 +411,8 @@ filter
 t
 =
 >
+!
+!
 kTextureFormatInfo
 [
 t
@@ -459,7 +461,6 @@ feature
 .
 fn
 (
-async
 t
 =
 >
@@ -808,6 +809,9 @@ depthCompare
 '
 always
 '
+depthWriteEnabled
+:
+false
 stencilFront
 :
 {
@@ -910,6 +914,9 @@ stencilTexture
 createView
 (
 )
+depthClearValue
+:
+0
 stencilLoadOp
 :
 '

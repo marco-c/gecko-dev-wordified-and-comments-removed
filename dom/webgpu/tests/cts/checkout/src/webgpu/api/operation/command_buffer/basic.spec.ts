@@ -100,7 +100,6 @@ empty
 .
 fn
 (
-async
 t
 =
 >
@@ -152,7 +151,6 @@ b2t2b
 .
 fn
 (
-async
 t
 =
 >
@@ -427,7 +425,6 @@ b2t2t2b
 .
 fn
 (
-async
 t
 =
 >

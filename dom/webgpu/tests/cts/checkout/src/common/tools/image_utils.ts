@@ -336,7 +336,6 @@ page
 .
 evaluate
 (
-async
 (
 )
 =

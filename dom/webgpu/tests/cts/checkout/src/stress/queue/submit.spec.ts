@@ -130,7 +130,6 @@ test
 .
 fn
 (
-async
 t
 =
 >
@@ -473,7 +472,6 @@ call
 .
 fn
 (
-async
 t
 =
 >

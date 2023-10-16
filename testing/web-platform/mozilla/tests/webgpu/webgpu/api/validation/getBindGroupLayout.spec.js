@@ -142,7 +142,6 @@ index
 .
 fn
 (
-async
 t
 =
 >
@@ -437,7 +436,6 @@ index
 .
 fn
 (
-async
 t
 =
 >
@@ -682,7 +680,6 @@ call
 .
 fn
 (
-async
 t
 =
 >
@@ -952,7 +949,6 @@ call
 .
 fn
 (
-async
 t
 =
 >

@@ -139,7 +139,6 @@ memcpy
 .
 fn
 (
-async
 t
 =
 >
@@ -533,7 +532,6 @@ largeDimension
 .
 fn
 (
-async
 t
 =
 >

@@ -289,7 +289,6 @@ query
 .
 fn
 (
-async
 t
 =
 >
@@ -416,7 +415,6 @@ destroyed
 .
 fn
 (
-async
 t
 =
 >

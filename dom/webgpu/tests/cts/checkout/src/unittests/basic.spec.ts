@@ -150,7 +150,6 @@ paramsSimple
 .
 fn
 (
-async
 t
 =
 >

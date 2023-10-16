@@ -439,7 +439,6 @@ const
 .
 fn
 (
-async
 t
 =
 >

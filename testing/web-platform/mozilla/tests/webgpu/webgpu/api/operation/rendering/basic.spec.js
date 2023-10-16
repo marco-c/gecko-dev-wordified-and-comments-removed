@@ -125,7 +125,6 @@ clear
 .
 fn
 (
-async
 t
 =
 >
@@ -369,7 +368,6 @@ fullscreen_quad
 .
 fn
 (
-async
 t
 =
 >

@@ -293,7 +293,6 @@ query
 .
 fn
 (
-async
 t
 =
 >
@@ -422,7 +421,6 @@ const
 .
 fn
 (
-async
 t
 =
 >

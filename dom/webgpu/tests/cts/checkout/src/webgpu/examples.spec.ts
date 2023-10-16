@@ -229,7 +229,6 @@ async
 .
 fn
 (
-async
 t
 =
 >
@@ -1501,7 +1500,6 @@ buffers
 .
 fn
 (
-async
 t
 =
 >
@@ -1642,7 +1640,6 @@ bc
 .
 fn
 (
-async
 t
 =
 >
@@ -1812,7 +1809,6 @@ GPUFeatureName
 .
 fn
 (
-async
 t
 =
 >

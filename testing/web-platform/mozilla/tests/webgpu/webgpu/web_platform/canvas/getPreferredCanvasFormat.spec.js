@@ -92,7 +92,6 @@ values
 .
 fn
 (
-async
 t
 =
 >

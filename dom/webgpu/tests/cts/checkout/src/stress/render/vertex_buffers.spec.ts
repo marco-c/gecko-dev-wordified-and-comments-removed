@@ -418,7 +418,6 @@ buffer
 .
 fn
 (
-async
 t
 =
 >

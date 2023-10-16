@@ -214,7 +214,6 @@ requiredFeatures
 .
 fn
 (
-async
 t
 =
 >
@@ -390,7 +389,6 @@ requiredFeatures
 .
 fn
 (
-async
 t
 =
 >

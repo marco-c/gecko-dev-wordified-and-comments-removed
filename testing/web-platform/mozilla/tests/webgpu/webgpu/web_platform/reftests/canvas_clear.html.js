@@ -13,7 +13,6 @@ js
 ;
 runRefTest
 (
-async
 t
 =
 >

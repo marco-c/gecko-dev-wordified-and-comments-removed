@@ -427,6 +427,9 @@ adapter
 await
 getGPU
 (
+t
+.
+rec
 )
 .
 requestAdapter

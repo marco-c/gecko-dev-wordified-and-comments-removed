@@ -454,7 +454,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

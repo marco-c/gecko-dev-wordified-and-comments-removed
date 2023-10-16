@@ -447,7 +447,7 @@ t
 expectCompileResult
 (
 true
-type
+alias
 T
 =
 i32
@@ -459,7 +459,7 @@ t
 expectCompileResult
 (
 false
-type
+alias
 T
 =
 i32
@@ -1082,7 +1082,7 @@ g
 test
 (
 '
-after_fn_static_assert
+after_fn_const_assert
 '
 )
 .
@@ -1121,7 +1121,7 @@ f
 (
 )
 {
-static_assert
+const_assert
 (
 true
 )
@@ -1139,7 +1139,7 @@ f
 (
 )
 {
-static_assert
+const_assert
 (
 true
 )

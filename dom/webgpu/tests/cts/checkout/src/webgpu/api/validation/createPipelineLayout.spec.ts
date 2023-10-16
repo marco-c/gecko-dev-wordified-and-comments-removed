@@ -228,7 +228,6 @@ kBufferBindingTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -496,7 +495,6 @@ fails
 .
 fn
 (
-async
 t
 =
 >
@@ -705,7 +703,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

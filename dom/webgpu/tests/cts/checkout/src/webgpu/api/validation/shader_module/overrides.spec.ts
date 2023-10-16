@@ -88,7 +88,6 @@ conflict
 .
 fn
 (
-async
 t
 =
 >
@@ -272,7 +271,6 @@ identifiers
 .
 fn
 (
-async
 t
 =
 >

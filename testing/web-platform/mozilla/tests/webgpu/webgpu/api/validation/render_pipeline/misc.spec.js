@@ -122,7 +122,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -267,7 +266,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -309,6 +307,14 @@ depthStencilState
 format
 :
 depthStencilFormat
+depthWriteEnabled
+:
+false
+depthCompare
+:
+'
+always
+'
 }
 ;
 }
@@ -437,7 +443,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

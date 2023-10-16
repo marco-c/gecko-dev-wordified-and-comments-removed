@@ -193,7 +193,6 @@ kResourceStates
 .
 fn
 (
-async
 t
 =
 >
@@ -393,7 +392,6 @@ queryCount
 .
 fn
 (
-async
 t
 =
 >
@@ -555,7 +553,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -708,7 +705,6 @@ destinationOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -927,7 +923,6 @@ false
 .
 fn
 (
-async
 t
 =
 >
@@ -1105,7 +1100,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

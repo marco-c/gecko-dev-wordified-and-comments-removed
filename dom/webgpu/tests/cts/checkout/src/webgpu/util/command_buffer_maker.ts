@@ -1,7 +1,7 @@
 import
 {
 ResourceState
-GPUTest
+GPUTestBase
 }
 from
 '
@@ -207,7 +207,7 @@ constructor
 (
 t
 :
-GPUTest
+GPUTestBase
 encoder
 :
 EncoderByEncoderType

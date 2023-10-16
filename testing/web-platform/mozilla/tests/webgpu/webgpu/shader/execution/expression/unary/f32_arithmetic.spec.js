@@ -92,7 +92,7 @@ js
 ;
 import
 {
-negationInterval
+FP
 }
 from
 '
@@ -110,7 +110,7 @@ from
 /
 util
 /
-f32_interval
+floating_point
 .
 js
 '
@@ -157,7 +157,6 @@ js
 import
 {
 allInputSources
-generateUnaryToF32IntervalCases
 run
 }
 from
@@ -212,7 +211,11 @@ negation
 >
 {
 return
-generateUnaryToF32IntervalCases
+FP
+.
+f32
+.
+generateScalarToIntervalCases
 (
 fullF32Range
 (
@@ -234,6 +237,10 @@ pos_norm
 '
 unfiltered
 '
+FP
+.
+f32
+.
 negationInterval
 )
 ;

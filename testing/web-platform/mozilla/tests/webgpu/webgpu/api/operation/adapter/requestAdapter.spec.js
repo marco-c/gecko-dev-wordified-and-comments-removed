@@ -708,6 +708,9 @@ adapter
 await
 getGPU
 (
+t
+.
+rec
 )
 .
 requestAdapter
@@ -799,8 +802,7 @@ parameters
 fn
 (
 async
-(
-)
+t
 =
 >
 {
@@ -810,6 +812,9 @@ adapter
 await
 getGPU
 (
+t
+.
+rec
 )
 .
 requestAdapter

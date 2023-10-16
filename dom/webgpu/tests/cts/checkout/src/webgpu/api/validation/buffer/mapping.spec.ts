@@ -2906,7 +2906,6 @@ invalid
 .
 fn
 (
-async
 t
 =
 >
@@ -4154,7 +4153,6 @@ kSizeAlignment
 .
 fn
 (
-async
 t
 =
 >

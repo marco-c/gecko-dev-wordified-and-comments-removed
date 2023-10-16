@@ -437,7 +437,6 @@ false
 .
 fn
 (
-async
 t
 =
 >

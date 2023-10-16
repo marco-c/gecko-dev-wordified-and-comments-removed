@@ -1,6 +1,7 @@
 import
 {
 getGPU
+setDefaultRequestAdapterOptions
 }
 from
 '
@@ -60,6 +61,7 @@ adapter
 await
 getGPU
 (
+null
 )
 .
 requestAdapter
@@ -467,6 +469,20 @@ ev
 =
 >
 {
+const
+defaultRequestAdapterOptions
+=
+ev
+.
+data
+.
+defaultRequestAdapterOptions
+;
+setDefaultRequestAdapterOptions
+(
+defaultRequestAdapterOptions
+)
+;
 let
 error
 =

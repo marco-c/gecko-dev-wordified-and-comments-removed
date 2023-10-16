@@ -1088,6 +1088,9 @@ loadTreeForQuery
 (
 loader
 suiteQuery
+{
+subqueriesToExpand
+:
 queriesInSuite
 .
 map
@@ -1099,6 +1102,7 @@ q
 .
 query
 )
+}
 )
 ;
 console

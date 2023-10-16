@@ -411,7 +411,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

@@ -837,7 +837,7 @@ console
 .
 log
 (
-unrecognised
+unrecognized
 flag
 :
 {

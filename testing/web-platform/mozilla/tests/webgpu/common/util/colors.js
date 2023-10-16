@@ -21,9 +21,7 @@ catch
 const
 passthrough
 =
-(
 s
-)
 =
 >
 s

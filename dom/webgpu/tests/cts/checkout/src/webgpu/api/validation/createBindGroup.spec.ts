@@ -73,14 +73,12 @@ allBindingEntries
 bindingTypeInfo
 bufferBindingEntries
 bufferBindingTypeInfo
-kAllTextureFormats
 kBindableResources
 kBufferBindingTypes
 kBufferUsages
 kCompareFunctions
 kLimitInfo
 kSamplerBindingTypes
-kTextureFormatInfo
 kTextureUsages
 kTextureViewDimensions
 sampledAndStorageBindingEntries
@@ -112,6 +110,24 @@ from
 .
 /
 constants
+.
+js
+'
+;
+import
+{
+kAllTextureFormats
+kTextureFormatInfo
+}
+from
+'
+.
+.
+/
+.
+.
+/
+format_info
 .
 js
 '
@@ -220,6 +236,9 @@ kTextureFormatInfo
 f
 ]
 .
+color
+?
+.
 storage
 )
 ;
@@ -288,7 +307,6 @@ bindGroupEntryCount
 .
 fn
 (
-async
 t
 =
 >
@@ -527,7 +545,6 @@ binding
 .
 fn
 (
-async
 t
 =
 >
@@ -966,7 +983,6 @@ sampledTexMS
 .
 fn
 (
-async
 t
 =
 >
@@ -1236,7 +1252,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -1689,7 +1704,6 @@ kTextureViewDimensions
 .
 fn
 (
-async
 t
 =
 >
@@ -1839,6 +1853,14 @@ dimension
 }
 )
 ;
+t
+.
+skipIfTextureViewDimensionNotSupported
+(
+viewDimension
+dimension
+)
+;
 const
 shouldError
 =
@@ -1982,7 +2004,6 @@ sampleCount
 .
 fn
 (
-async
 t
 =
 >
@@ -2023,6 +2044,17 @@ texture
 :
 {
 multisampled
+sampleType
+:
+multisampled
+?
+'
+unfilterable
+-
+float
+'
+:
+undefined
 }
 }
 ]
@@ -2395,7 +2427,6 @@ false
 .
 fn
 (
-async
 t
 =
 >
@@ -3243,7 +3274,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -3530,7 +3560,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -3751,7 +3780,6 @@ kTextureUsages
 .
 fn
 (
-async
 t
 =
 >
@@ -3996,7 +4024,6 @@ mipLevelCount
 .
 fn
 (
-async
 t
 =
 >
@@ -4221,7 +4248,6 @@ kStorageTextureFormats
 .
 fn
 (
-async
 t
 =
 >
@@ -4517,7 +4543,6 @@ MAP_WRITE
 .
 fn
 (
-async
 t
 =
 >
@@ -4867,7 +4892,6 @@ default
 .
 fn
 (
-async
 t
 =
 >
@@ -5170,7 +5194,6 @@ default
 .
 fn
 (
-async
 t
 =
 >
@@ -5522,7 +5545,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -5755,7 +5777,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -5962,7 +5983,6 @@ kCompareFunctions
 .
 fn
 (
-async
 t
 =
 >

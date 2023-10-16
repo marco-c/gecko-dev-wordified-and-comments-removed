@@ -501,7 +501,6 @@ false
 .
 fn
 (
-async
 t
 =
 >
@@ -931,7 +930,6 @@ false
 .
 fn
 (
-async
 t
 =
 >
@@ -1268,7 +1266,6 @@ false
 .
 fn
 (
-async
 t
 =
 >
@@ -2038,7 +2035,6 @@ dst
 .
 fn
 (
-async
 t
 =
 >

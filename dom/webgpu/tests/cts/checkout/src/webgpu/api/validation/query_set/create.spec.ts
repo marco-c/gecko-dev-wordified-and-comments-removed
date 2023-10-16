@@ -178,7 +178,6 @@ type
 .
 fn
 (
-async
 t
 =
 >

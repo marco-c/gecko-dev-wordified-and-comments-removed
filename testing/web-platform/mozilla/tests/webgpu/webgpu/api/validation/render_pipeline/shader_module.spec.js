@@ -224,7 +224,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -473,7 +472,6 @@ false
 .
 fn
 (
-async
 t
 =
 >
@@ -590,7 +588,6 @@ false
 .
 fn
 (
-async
 t
 =
 >

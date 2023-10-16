@@ -1965,7 +1965,7 @@ use
 '
 [
 '
-type_name
+alias
 '
 '
 struct
@@ -2010,14 +2010,14 @@ use
 =
 =
 '
-type_name
+alias
 '
 )
 {
 code
 +
 =
-type
+alias
 {
 t
 .

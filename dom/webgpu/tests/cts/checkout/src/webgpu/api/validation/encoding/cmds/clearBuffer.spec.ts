@@ -264,7 +264,6 @@ kResourceStates
 .
 fn
 (
-async
 t
 =
 >
@@ -458,7 +457,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -594,7 +592,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -692,7 +689,6 @@ kBufferUsages
 .
 fn
 (
-async
 t
 =
 >
@@ -870,7 +866,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -1041,7 +1036,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -1113,7 +1107,7 @@ clears
 which
 may
 cause
-arthimetic
+arithmetic
 overflows
 are
 invalid
@@ -1162,7 +1156,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -1322,7 +1315,6 @@ const
 .
 fn
 (
-async
 t
 =
 >

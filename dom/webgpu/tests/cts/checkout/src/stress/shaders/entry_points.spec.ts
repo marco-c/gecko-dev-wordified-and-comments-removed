@@ -242,7 +242,6 @@ instead
 .
 fn
 (
-async
 t
 =
 >

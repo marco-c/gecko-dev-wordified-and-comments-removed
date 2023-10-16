@@ -300,7 +300,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

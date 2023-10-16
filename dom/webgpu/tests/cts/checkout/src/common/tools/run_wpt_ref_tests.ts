@@ -987,7 +987,6 @@ ranges
 ;
 }
 }
-async
 function
 compareImages
 (
@@ -2286,7 +2285,6 @@ refScreenshotName
 const
 pass
 =
-await
 compareImages
 (
 testScreenshotName

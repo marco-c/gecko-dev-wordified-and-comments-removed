@@ -31,8 +31,8 @@ js
 ;
 import
 {
-EncodableTextureFormat
 kTextureFormatInfo
+EncodableTextureFormat
 }
 from
 '
@@ -48,7 +48,7 @@ from
 .
 .
 /
-capability_info
+format_info
 .
 js
 '

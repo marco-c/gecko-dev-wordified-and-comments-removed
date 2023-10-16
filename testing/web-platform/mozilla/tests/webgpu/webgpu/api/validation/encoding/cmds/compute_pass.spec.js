@@ -490,7 +490,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -1246,7 +1245,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -1441,7 +1439,6 @@ MAP_WRITE
 .
 fn
 (
-async
 t
 =
 >

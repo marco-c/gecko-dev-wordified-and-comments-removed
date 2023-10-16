@@ -13,7 +13,7 @@ from
 .
 .
 /
-capability_info
+format_info
 .
 js
 '

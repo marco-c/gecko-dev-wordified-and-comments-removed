@@ -618,7 +618,6 @@ vertex_buffers_inherit_from_previous_pipeline
 .
 fn
 (
-async
 t
 =
 >
@@ -815,7 +814,6 @@ vertex_buffers_do_not_inherit_between_render_passes
 .
 fn
 (
-async
 t
 =
 >

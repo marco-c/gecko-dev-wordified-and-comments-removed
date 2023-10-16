@@ -132,7 +132,6 @@ _expected
 .
 fn
 (
-async
 t
 =
 >

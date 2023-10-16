@@ -131,7 +131,6 @@ lodMaxClamp
 .
 fn
 (
-async
 t
 =
 >
@@ -297,7 +296,6 @@ nearest
 .
 fn
 (
-async
 t
 =
 >

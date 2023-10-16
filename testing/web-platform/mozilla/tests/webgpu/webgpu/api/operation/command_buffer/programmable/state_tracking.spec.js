@@ -293,7 +293,6 @@ out
 .
 fn
 (
-async
 t
 =
 >
@@ -620,7 +619,6 @@ a
 .
 fn
 (
-async
 t
 =
 >
@@ -954,7 +952,6 @@ setAfter
 .
 fn
 (
-async
 t
 =
 >
@@ -1227,7 +1224,6 @@ kProgrammableEncoderTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -1451,7 +1447,6 @@ kProgrammableEncoderTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -1800,7 +1795,6 @@ kProgrammableEncoderTypes
 .
 fn
 (
-async
 t
 =
 >

@@ -338,6 +338,9 @@ adapter
 await
 getGPU
 (
+t
+.
+rec
 )
 .
 requestAdapter
@@ -444,6 +447,9 @@ adapter
 await
 getGPU
 (
+t
+.
+rec
 )
 .
 requestAdapter
@@ -530,6 +536,9 @@ adapter
 await
 getGPU
 (
+t
+.
+rec
 )
 .
 requestAdapter

@@ -95,6 +95,6 @@ mapAsync
 -
 shadermodule
 .
-compilationInfo
+getCompilationInfo
 (
 )
