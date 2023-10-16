@@ -2749,6 +2749,12 @@ nsDOMSlots
 (
 )
 :
+nsIContent
+:
+:
+nsContentSlots
+(
+)
 mDataset
 (
 nullptr

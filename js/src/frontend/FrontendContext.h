@@ -361,6 +361,9 @@ js
 :
 globalSharedScriptDataTableHolder
 )
+supportedImportAssertions_
+(
+)
 {
 }
 ~
@@ -803,6 +806,9 @@ Warning
 Report
 )
 :
+FrontendContext
+(
+)
 cx_
 (
 cx
@@ -906,6 +912,9 @@ JSContext
 cx
 )
 :
+FrontendContext
+(
+)
 cx_
 (
 cx

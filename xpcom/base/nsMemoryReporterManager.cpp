@@ -10712,6 +10712,9 @@ mMinimize
 (
 aMinimize
 )
+mChildrenPending
+(
+)
 mNumProcessesRunning
 (
 1

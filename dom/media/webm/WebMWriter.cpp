@@ -38,6 +38,9 @@ WebMWriter
 (
 )
 :
+ContainerWriter
+(
+)
 mEbmlComposer
 (
 new

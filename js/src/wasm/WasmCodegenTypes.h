@@ -857,6 +857,9 @@ pcOffset
 -
 1
 )
+bytecode
+(
+)
 {
 }
 TrapSite
@@ -1051,6 +1054,9 @@ ret
 0
 )
 :
+Offsets
+(
+)
 ret
 (
 ret
@@ -1083,6 +1089,9 @@ FuncOffsets
 (
 )
 :
+CallableOffsets
+(
+)
 uncheckedCallEntry
 (
 0

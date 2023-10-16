@@ -103,6 +103,10 @@ public
 txVariableMap
 (
 )
+:
+txVariableMapBase
+(
+)
 {
 MOZ_COUNT_CTOR
 (

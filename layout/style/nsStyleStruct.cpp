@@ -14019,6 +14019,9 @@ nsStyleTextReset
 (
 )
 :
+mTextOverflow
+(
+)
 mTextDecorationLine
 (
 StyleTextDecorationLine

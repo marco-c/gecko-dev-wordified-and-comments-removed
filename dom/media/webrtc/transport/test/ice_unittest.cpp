@@ -652,9 +652,12 @@ public
 StunTest
 (
 )
-=
-default
-;
+:
+MtransportTest
+(
+)
+{
+}
 void
 SetUp
 (
@@ -2083,6 +2086,9 @@ offerer_
 (
 offerer
 )
+candidates_
+(
+)
 stream_counter_
 (
 0
@@ -2118,6 +2124,9 @@ received_
 sent_
 (
 0
+)
+fake_resolver_
+(
 )
 dns_resolver_
 (

@@ -447,6 +447,9 @@ MediaDocument
 (
 )
 :
+nsHTMLDocument
+(
+)
 mDidInitialDocumentSetup
 (
 false

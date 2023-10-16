@@ -322,9 +322,12 @@ ConstraintValidation
 ConstraintValidation
 (
 )
-=
-default
-;
+:
+nsIConstraintValidation
+(
+)
+{
+}
 void
 ConstraintValidation
 :

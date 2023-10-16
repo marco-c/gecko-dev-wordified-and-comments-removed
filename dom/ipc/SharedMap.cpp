@@ -200,9 +200,12 @@ SharedMap
 SharedMap
 (
 )
-=
-default
-;
+:
+DOMEventTargetHelper
+(
+)
+{
+}
 SharedMap
 :
 :
@@ -1294,6 +1297,10 @@ WritableSharedMap
 :
 :
 WritableSharedMap
+(
+)
+:
+SharedMap
 (
 )
 {

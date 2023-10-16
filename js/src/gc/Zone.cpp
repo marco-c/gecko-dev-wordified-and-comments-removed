@@ -1004,6 +1004,9 @@ pretenuring
 (
 this
 )
+compartments_
+(
+)
 crossZoneStringWrappers_
 (
 this

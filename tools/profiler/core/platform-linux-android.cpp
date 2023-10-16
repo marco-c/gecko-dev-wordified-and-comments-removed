@@ -1309,6 +1309,9 @@ profiler_current_process_id
 (
 )
 )
+mSamplerTid
+{
+}
 {
 #
 if

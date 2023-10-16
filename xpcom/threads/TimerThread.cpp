@@ -877,6 +877,9 @@ TimerEventAllocator
 (
 )
 :
+mPool
+(
+)
 mFirstFree
 (
 nullptr

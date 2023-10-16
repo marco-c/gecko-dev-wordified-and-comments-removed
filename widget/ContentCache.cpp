@@ -4345,6 +4345,9 @@ BrowserParent
 aBrowserParent
 )
 :
+ContentCache
+(
+)
 mBrowserParent
 (
 aBrowserParent

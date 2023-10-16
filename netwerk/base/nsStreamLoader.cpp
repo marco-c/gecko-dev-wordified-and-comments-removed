@@ -52,9 +52,12 @@ nsStreamLoader
 nsStreamLoader
 (
 )
-=
-default
-;
+:
+mData
+(
+)
+{
+}
 NS_IMETHODIMP
 nsStreamLoader
 :

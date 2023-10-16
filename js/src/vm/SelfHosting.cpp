@@ -15244,6 +15244,9 @@ JSContext
 cx
 )
 :
+FrontendContext
+(
+)
 cx_
 (
 cx

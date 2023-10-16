@@ -318,9 +318,12 @@ public
 TestWebMWriter
 (
 )
-=
-default
-;
+:
+WebMWriter
+(
+)
+{
+}
 void
 AppendDummyFrame
 (

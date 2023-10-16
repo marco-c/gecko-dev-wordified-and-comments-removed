@@ -138,6 +138,9 @@ mDebuggeeGlobal
 (
 aDebuggeeGlobal
 )
+mNotificationObservers
+(
+)
 {
 }
 bool

@@ -158,6 +158,12 @@ mUsableSize
 (
 0
 )
+mAllocStack
+(
+)
+mFreeStack
+(
+)
 {
 }
 }

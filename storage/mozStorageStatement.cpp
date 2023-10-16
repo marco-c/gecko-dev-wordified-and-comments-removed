@@ -163,9 +163,8 @@ constexpr
 StatementClassInfo
 (
 )
-=
-default
-;
+{
+}
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetInterfaces
@@ -351,6 +350,9 @@ Statement
 (
 )
 :
+StorageBaseStatementInternal
+(
+)
 mDBStatement
 (
 nullptr
@@ -362,6 +364,9 @@ mParamCount
 mResultColumnCount
 (
 0
+)
+mColumnNames
+(
 )
 mExecuting
 (

@@ -174,6 +174,9 @@ rt
 (
 rt
 )
+strings_
+(
+)
 slowAssertions
 (
 false

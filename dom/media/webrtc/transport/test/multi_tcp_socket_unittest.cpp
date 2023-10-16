@@ -117,6 +117,9 @@ MultiTcpSocketTest
 (
 )
 :
+MtransportTest
+(
+)
 socks
 (
 3
@@ -125,6 +128,9 @@ nullptr
 readable
 (
 false
+)
+ice_ctx_
+(
 )
 {
 }

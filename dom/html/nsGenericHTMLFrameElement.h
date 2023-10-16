@@ -154,6 +154,9 @@ move
 aNodeInfo
 )
 )
+nsBrowserElement
+(
+)
 mSrcLoadHappened
 (
 false

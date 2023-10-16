@@ -722,6 +722,9 @@ bool
 aHandled
 )
 :
+CaretPoint
+(
+)
 mNextInsertionPoint
 (
 aNextInsertionPoint
@@ -756,6 +759,9 @@ bool
 aHandled
 )
 :
+CaretPoint
+(
+)
 mNextInsertionPoint
 (
 std
@@ -2647,6 +2653,9 @@ nsIContent
 aRightContent
 )
 :
+CaretPoint
+(
+)
 mLeftContent
 (
 aLeftContent
@@ -2912,6 +2921,9 @@ SplitNodeResult
 aSplitNodeResultAtEnd
 )
 :
+CaretPoint
+(
+)
 mRange
 (
 std

@@ -3355,6 +3355,10 @@ AutoSafeJSContext
 AutoSafeJSContext
 (
 )
+:
+AutoJSAPI
+(
+)
 {
 MOZ_ASSERT
 (

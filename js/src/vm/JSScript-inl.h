@@ -64,6 +64,12 @@ ScriptCounts
 (
 )
 :
+pcCounts_
+(
+)
+throwCounts_
+(
+)
 ionCounts_
 (
 nullptr
@@ -90,6 +96,9 @@ move
 (
 jumpTargets
 )
+)
+throwCounts_
+(
 )
 ionCounts_
 (
@@ -240,6 +249,9 @@ script
 script
 (
 script
+)
+scriptCounts
+(
 )
 {
 script

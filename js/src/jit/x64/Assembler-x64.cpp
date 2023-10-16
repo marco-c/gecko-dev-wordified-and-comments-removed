@@ -77,6 +77,9 @@ stackOffset_
 )
 #
 endif
+current_
+(
+)
 {
 }
 ABIArg

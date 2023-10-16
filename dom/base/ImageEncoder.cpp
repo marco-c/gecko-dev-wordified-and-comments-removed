@@ -442,6 +442,9 @@ mImgSize
 (
 0
 )
+mType
+(
+)
 mImgData
 (
 nullptr

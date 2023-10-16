@@ -2442,6 +2442,9 @@ ExtraData
 (
 aBounds
 )
+mCarriedOutBEndMargin
+(
+)
 {
 }
 nsCollapsingMargin

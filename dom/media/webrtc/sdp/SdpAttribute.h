@@ -181,9 +181,8 @@ virtual
 SdpAttribute
 (
 )
-=
-default
-;
+{
+}
 virtual
 SdpAttribute
 *
@@ -2785,6 +2784,9 @@ Imageattr
 (
 )
 :
+pt
+(
+)
 sendAll
 (
 false
@@ -4761,9 +4763,8 @@ virtual
 Parameters
 (
 )
-=
-default
-;
+{
+}
 virtual
 Parameters
 *
@@ -5018,9 +5019,8 @@ virtual
 RtxParameters
 (
 )
-=
-default
-;
+{
+}
 virtual
 Parameters
 *

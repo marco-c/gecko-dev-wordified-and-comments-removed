@@ -1110,9 +1110,12 @@ set
 Inner
 (
 )
-=
-default
-;
+:
+set
+(
+)
+{
+}
 Inner
 (
 const

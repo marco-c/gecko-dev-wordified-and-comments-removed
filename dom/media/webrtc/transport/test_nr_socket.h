@@ -228,6 +228,9 @@ nat_delegate_
 (
 nullptr
 )
+sockets_
+(
+)
 {
 }
 bool
@@ -825,6 +828,9 @@ internal_socket
 socket_
 (
 sock
+)
+buffer_
+(
 )
 flags_
 (

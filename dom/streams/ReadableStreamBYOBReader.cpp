@@ -179,6 +179,11 @@ do_QueryInterface
 aGlobal
 )
 )
+mReadIntoRequests
+(
+{
+}
+)
 {
 }
 JSObject

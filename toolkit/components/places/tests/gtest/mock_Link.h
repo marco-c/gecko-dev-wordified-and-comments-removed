@@ -69,6 +69,15 @@ aRunNextTest
 true
 )
 :
+mozilla
+:
+:
+dom
+:
+:
+Link
+(
+)
 mRunNextTest
 (
 aRunNextTest

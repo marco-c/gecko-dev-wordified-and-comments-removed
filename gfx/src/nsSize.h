@@ -81,6 +81,10 @@ constexpr
 nsSize
 (
 )
+:
+Super
+(
+)
 {
 }
 constexpr

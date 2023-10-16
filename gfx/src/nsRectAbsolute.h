@@ -73,6 +73,10 @@ Super
 nsRectAbsolute
 (
 )
+:
+Super
+(
+)
 {
 }
 nsRectAbsolute

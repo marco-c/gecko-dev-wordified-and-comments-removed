@@ -631,6 +631,9 @@ alloc
 alloc
 script
 )
+profilerPushToggleOffset_
+(
+)
 {
 #
 ifdef

@@ -10228,6 +10228,9 @@ SharedFontList
 (
 )
 )
+mCharMap
+(
+)
 mHash
 (
 aCharMap

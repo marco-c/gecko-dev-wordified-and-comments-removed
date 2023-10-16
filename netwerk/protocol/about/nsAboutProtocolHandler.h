@@ -166,6 +166,10 @@ aBaseURI
 nsNestedAboutURI
 (
 )
+:
+nsSimpleNestedURI
+(
+)
 {
 }
 virtual

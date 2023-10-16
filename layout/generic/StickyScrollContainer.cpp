@@ -64,6 +64,9 @@ mScrollFrame
 (
 aScrollFrame
 )
+mScrollPosition
+(
+)
 {
 mScrollFrame
 -

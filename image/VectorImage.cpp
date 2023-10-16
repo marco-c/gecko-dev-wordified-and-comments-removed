@@ -383,6 +383,9 @@ VectorImage
 aVectorImage
 )
 :
+SVGRenderingObserver
+(
+)
 mDocWrapper
 (
 aDocWrapper

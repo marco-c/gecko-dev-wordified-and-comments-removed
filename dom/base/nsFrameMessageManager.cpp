@@ -7722,6 +7722,9 @@ nsAsyncMessageToSameProcessChild
 (
 )
 :
+nsSameProcessAsyncMessageBase
+(
+)
 mozilla
 :
 :
@@ -8126,9 +8129,12 @@ public
 nsAsyncMessageToSameProcessParent
 (
 )
-=
-default
-;
+:
+nsSameProcessAsyncMessageBase
+(
+)
+{
+}
 nsresult
 HandleMessage
 (
