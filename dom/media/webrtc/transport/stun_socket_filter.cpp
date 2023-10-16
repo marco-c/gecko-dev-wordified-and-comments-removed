@@ -582,8 +582,9 @@ public
 STUNUDPSocketFilter
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISOCKETFILTER
 private

@@ -52,8 +52,9 @@ nsStreamLoader
 nsStreamLoader
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsStreamLoader
 :

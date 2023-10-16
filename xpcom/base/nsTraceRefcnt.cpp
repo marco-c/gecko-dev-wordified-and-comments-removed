@@ -355,8 +355,8 @@ explicit
 TraceLogMutex
 (
 )
-{
-}
+=
+default
 ;
 private
 :

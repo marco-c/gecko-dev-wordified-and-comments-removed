@@ -181,8 +181,9 @@ virtual
 SdpAttribute
 (
 )
-{
-}
+=
+default
+;
 virtual
 SdpAttribute
 *
@@ -4760,8 +4761,9 @@ virtual
 Parameters
 (
 )
-{
-}
+=
+default
+;
 virtual
 Parameters
 *
@@ -5016,8 +5018,9 @@ virtual
 RtxParameters
 (
 )
-{
-}
+=
+default
+;
 virtual
 Parameters
 *
