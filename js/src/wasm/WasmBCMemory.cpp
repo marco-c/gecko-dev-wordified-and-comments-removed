@@ -2996,12 +2996,6 @@ temp
 elif
 defined
 (
-JS_CODEGEN_MIPS64
-)
-|
-|
-defined
-(
 JS_CODEGEN_RISCV64
 )
 return
@@ -3010,6 +3004,7 @@ executeLoad
 access
 check
 instance
+memoryBase
 RegI32
 (
 ptr
@@ -7151,7 +7146,7 @@ const
 MemoryAccessDesc
 &
 access
-BaseIndex
+Address
 srcAddr
 AtomicOp
 op
@@ -8274,7 +8269,7 @@ const
 MemoryAccessDesc
 &
 access
-BaseIndex
+Address
 srcAddr
 AtomicOp
 op
@@ -9597,7 +9592,7 @@ const
 MemoryAccessDesc
 &
 access
-BaseIndex
+Address
 srcAddr
 RegI32
 rv
@@ -11780,7 +11775,7 @@ const
 MemoryAccessDesc
 &
 access
-BaseIndex
+Address
 srcAddr
 RegI32
 rexpect
@@ -13161,7 +13156,7 @@ const
 MemoryAccessDesc
 &
 access
-BaseIndex
+Address
 srcAddr
 RegI64
 rexpect
