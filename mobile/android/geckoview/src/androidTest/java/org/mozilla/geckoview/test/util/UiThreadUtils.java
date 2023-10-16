@@ -286,12 +286,6 @@ getCause
 if
 (
 cause
-!
-=
-null
-&
-&
-cause
 instanceof
 RuntimeException
 )

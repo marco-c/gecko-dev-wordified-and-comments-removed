@@ -586,12 +586,6 @@ other
 {
 if
 (
-other
-=
-=
-null
-|
-|
 !
 (
 other
