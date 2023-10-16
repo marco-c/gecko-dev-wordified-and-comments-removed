@@ -174,8 +174,9 @@ public
 Mutex
 (
 )
-{
-}
+=
+default
+;
 void
 Lock
 (

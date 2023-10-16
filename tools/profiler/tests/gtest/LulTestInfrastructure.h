@@ -267,8 +267,8 @@ virtual
 Section
 (
 )
-{
-}
+=
+default
 ;
 Endianness
 endianness

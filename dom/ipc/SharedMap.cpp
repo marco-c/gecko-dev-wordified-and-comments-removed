@@ -200,8 +200,9 @@ SharedMap
 SharedMap
 (
 )
-{
-}
+=
+default
+;
 SharedMap
 :
 :

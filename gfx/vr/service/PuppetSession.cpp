@@ -90,8 +90,9 @@ PuppetSession
 PuppetSession
 (
 )
-{
-}
+=
+default
+;
 PuppetSession
 :
 :

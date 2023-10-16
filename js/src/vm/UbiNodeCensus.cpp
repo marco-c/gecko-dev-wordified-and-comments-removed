@@ -643,8 +643,9 @@ explicit
 BucketCount
 (
 )
-{
-}
+=
+default
+;
 void
 destructCount
 (

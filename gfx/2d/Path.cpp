@@ -89,8 +89,9 @@ Super
 PointD
 (
 )
-{
-}
+=
+default
+;
 PointD
 (
 double

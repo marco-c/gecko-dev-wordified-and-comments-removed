@@ -535,8 +535,9 @@ public
 ChannelListHolder
 (
 )
-{
-}
+=
+default
+;
 ~
 ChannelListHolder
 (

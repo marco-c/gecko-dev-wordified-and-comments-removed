@@ -284,8 +284,9 @@ AllocationMetadataBuilder
 MetadataBuilder
 (
 )
-{
-}
+=
+default
+;
 virtual
 JSObject
 *

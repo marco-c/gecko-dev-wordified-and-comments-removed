@@ -900,8 +900,9 @@ public
 DrawableFrameRef
 (
 )
-{
-}
+=
+default
+;
 explicit
 DrawableFrameRef
 (
@@ -1324,8 +1325,9 @@ nullptr
 RawAccessFrameRef
 (
 )
-{
-}
+=
+default
+;
 RawAccessFrameRef
 &
 operator

@@ -323,8 +323,9 @@ public
 StackTrace
 (
 )
-{
-}
+=
+default
+;
 void
 Clear
 (

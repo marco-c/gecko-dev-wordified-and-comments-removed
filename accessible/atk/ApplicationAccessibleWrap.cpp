@@ -54,8 +54,9 @@ ApplicationAccessibleWrap
 ApplicationAccessibleWrap
 (
 )
-{
-}
+=
+default
+;
 ApplicationAccessibleWrap
 :
 :

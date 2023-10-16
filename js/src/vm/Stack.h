@@ -1169,8 +1169,9 @@ public
 NullFramePtr
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 enum

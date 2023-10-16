@@ -4067,8 +4067,9 @@ AllocStackTrace
 DeadBlock
 (
 )
-{
-}
+=
+default
+;
 size_t
 ReqSize
 (
