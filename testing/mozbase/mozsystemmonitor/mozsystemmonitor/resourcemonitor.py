@@ -6041,6 +6041,9 @@ name_index
 start
 end
 data
+precision
+=
+None
 )
 :
             
@@ -6053,6 +6056,8 @@ startTime
 .
 append
 (
+round
+(
 (
 start
 -
@@ -6060,6 +6065,8 @@ startTime
 )
 *
 1000
+precision
+)
 )
             
 markers
@@ -6071,6 +6078,8 @@ endTime
 .
 append
 (
+round
+(
 (
 end
 -
@@ -6078,6 +6087,8 @@ startTime
 )
 *
 1000
+precision
+)
 )
             
 markers
@@ -6279,6 +6290,8 @@ time
 .
 append
 (
+round
+(
 (
 m
 .
@@ -6288,6 +6301,7 @@ startTime
 )
 *
 1000
+)
 )
             
 markerData
@@ -6417,7 +6431,11 @@ markerData
 field
 ]
 =
+round
+(
 total
+3
+)
             
 for
 field
@@ -7150,6 +7168,7 @@ v
 1
 ]
 markerData
+3
 )
         
 for
@@ -7197,6 +7216,7 @@ name
 start
 end
 markerData
+3
 )
         
 return
