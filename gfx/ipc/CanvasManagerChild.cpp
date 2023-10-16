@@ -190,6 +190,10 @@ nullptr
 )
 ;
 }
+mWorkerRef
+=
+nullptr
+;
 }
 void
 CanvasManagerChild
@@ -219,10 +223,6 @@ nullptr
 Close
 (
 )
-;
-mWorkerRef
-=
-nullptr
 ;
 }
 void
