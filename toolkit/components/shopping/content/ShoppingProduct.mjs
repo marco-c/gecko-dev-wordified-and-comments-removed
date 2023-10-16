@@ -4172,7 +4172,7 @@ required
 ;
 }
 let
-requestOptions
+requestBody
 =
 {
 event_source
@@ -4190,7 +4190,7 @@ case
 impression
 "
 :
-requestOptions
+requestBody
 .
 event_name
 =
@@ -4198,7 +4198,7 @@ event_name
 trusted_deals_impression
 "
 ;
-requestOptions
+requestBody
 .
 aidvs
 =
@@ -4213,7 +4213,7 @@ case
 click
 "
 :
-requestOptions
+requestBody
 .
 event_name
 =
@@ -4221,7 +4221,7 @@ event_name
 trusted_deals_link_clicked
 "
 ;
-requestOptions
+requestBody
 .
 aid
 =
@@ -4267,7 +4267,7 @@ this
 request
 (
 url
-requestOptions
+requestBody
 {
 requestSchema
 responseSchema
