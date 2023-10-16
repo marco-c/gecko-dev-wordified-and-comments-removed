@@ -83,15 +83,6 @@ expression
 js
 "
 "
-get
--
-token
--
-location
-.
-js
-"
-"
 index
 .
 js
@@ -118,9 +109,7 @@ search
 js
 "
 "
-token
--
-events
+tokens
 .
 js
 "
