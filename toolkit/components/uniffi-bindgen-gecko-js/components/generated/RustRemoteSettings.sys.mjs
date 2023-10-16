@@ -2004,7 +2004,7 @@ UniFFIScaffolding
 .
 callSync
 (
-23
+24
 /
 /
 remote_settings
@@ -2076,7 +2076,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-24
+25
 /
 /
 remote_settings
@@ -2210,7 +2210,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-25
+26
 /
 /
 remote_settings
@@ -2381,7 +2381,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-26
+27
 /
 /
 remote_settings
