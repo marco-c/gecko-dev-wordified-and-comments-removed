@@ -22330,6 +22330,11 @@ nsIWebProgressListener
 .
 STATE_RESTORING
 )
+&
+&
+aWebProgress
+.
+isTopLevel
 )
 {
 this
@@ -22653,6 +22658,11 @@ if
 this
 .
 busyUI
+&
+&
+aWebProgress
+.
+isTopLevel
 )
 {
 this
