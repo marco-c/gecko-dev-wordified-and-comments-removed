@@ -6647,6 +6647,16 @@ GetUncomposedDoc
 baseURI
 )
 ;
+if
+(
+!
+targetURI
+)
+{
+return
+nullptr
+;
+}
 nsIReferrerInfo
 *
 referrerInfo
