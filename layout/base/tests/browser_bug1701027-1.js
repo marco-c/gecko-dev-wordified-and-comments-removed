@@ -301,6 +301,17 @@ y
 }
 )
 ;
+AccessibilityUtils
+.
+setEnv
+(
+{
+mustHaveAccessibleRule
+:
+false
+}
+)
+;
 EventUtils
 .
 synthesizeNativeMouseEvent
