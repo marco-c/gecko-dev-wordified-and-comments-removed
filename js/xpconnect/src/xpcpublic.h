@@ -2183,6 +2183,8 @@ aOptions
 bool
 aIsSystemPrincipal
 bool
+aSecureContext
+bool
 aForceUTC
 bool
 aAlwaysUseFdlibm

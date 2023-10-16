@@ -9662,13 +9662,6 @@ creationOptions
 ;
 creationOptions
 .
-setSecureContext
-(
-aIsSecureContext
-)
-;
-creationOptions
-.
 setDefineSharedArrayBufferConstructor
 (
 aDefineSharedArrayBufferConstructor
@@ -9686,6 +9679,7 @@ principal
 IsSystemPrincipal
 (
 )
+aIsSecureContext
 aDocument
 -
 >
