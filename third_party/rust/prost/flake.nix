@@ -105,6 +105,8 @@ pkg
 config
 protobuf
 curl
+cmake
+ninja
 ]
 ;
 }

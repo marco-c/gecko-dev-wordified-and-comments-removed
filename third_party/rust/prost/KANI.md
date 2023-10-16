@@ -212,9 +212,6 @@ update
 -
 -
 init
--
--
-recursive
 Then
 use
 .
@@ -298,9 +295,9 @@ this
 code
 .
 If
-this
-instruction
-stops
+these
+instructions
+stop
 working
 please
 consult

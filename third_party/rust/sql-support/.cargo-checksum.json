@@ -14,15 +14,6 @@ toml
 e679992b7cf7d42cdbc5d6350c512ca448a273767003db600ef8099c7182bd99
 "
 "
-build
-.
-rs
-"
-:
-"
-d89f20669c2e243652630ce025199d187d2a128be6a626a02e0679bd74a2ad5a
-"
-"
 src
 /
 conn_ext
