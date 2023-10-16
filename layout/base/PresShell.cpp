@@ -46779,10 +46779,6 @@ WidgetMouseEvent
 *
 aEvent
 )
-:
-DelayedInputEvent
-(
-)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -46846,10 +46842,6 @@ DelayedKeyEvent
 WidgetKeyboardEvent
 *
 aEvent
-)
-:
-DelayedInputEvent
-(
 )
 {
 MOZ_DIAGNOSTIC_ASSERT

@@ -38,9 +38,6 @@ WebMWriter
 (
 )
 :
-ContainerWriter
-(
-)
 mEbmlComposer
 (
 new

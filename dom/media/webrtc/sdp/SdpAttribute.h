@@ -2784,9 +2784,6 @@ Imageattr
 (
 )
 :
-pt
-(
-)
 sendAll
 (
 false

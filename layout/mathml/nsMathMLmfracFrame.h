@@ -183,9 +183,6 @@ aStyle
 aPresContext
 kClassID
 )
-mLineRect
-(
-)
 mSlashChar
 (
 nullptr

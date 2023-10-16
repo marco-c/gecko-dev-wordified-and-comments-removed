@@ -54,10 +54,6 @@ ApplicationAccessibleWrap
 ApplicationAccessibleWrap
 (
 )
-:
-ApplicationAccessible
-(
-)
 {
 }
 ApplicationAccessibleWrap

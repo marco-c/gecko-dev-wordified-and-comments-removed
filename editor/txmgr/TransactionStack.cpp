@@ -52,12 +52,6 @@ Type
 aType
 )
 :
-nsRefPtrDeque
-<
-TransactionItem
->
-(
-)
 mType
 (
 aType

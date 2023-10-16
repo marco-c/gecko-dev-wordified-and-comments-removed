@@ -603,16 +603,6 @@ public
 LitVal
 (
 )
-:
-type_
-(
-ValType
-(
-)
-)
-cell_
-{
-}
 {
 }
 explicit
@@ -1132,10 +1122,6 @@ LitVal
 public
 :
 Val
-(
-)
-:
-LitVal
 (
 )
 {

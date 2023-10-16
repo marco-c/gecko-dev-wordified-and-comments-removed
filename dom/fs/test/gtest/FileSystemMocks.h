@@ -677,9 +677,6 @@ bool
 false
 )
 )
-mTimer
-(
-)
 mOnSuccess
 (
 )

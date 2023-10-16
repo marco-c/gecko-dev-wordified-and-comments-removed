@@ -712,9 +712,6 @@ size_t
 len
 )
 :
-buffer_
-(
-)
 offset_
 (
 0
@@ -970,9 +967,6 @@ size_t
 len
 )
 :
-buffer_
-(
-)
 offset_
 (
 0
@@ -1435,9 +1429,6 @@ handshake_type
 handshake_type_
 (
 handshake_type
-)
-buffer_
-(
 )
 {
 }
@@ -1941,12 +1932,6 @@ Generate
 (
 )
 )
-ice_ctx_
-(
-)
-streams_
-(
-)
 peer_
 (
 nullptr
@@ -1963,12 +1948,6 @@ sha
 1
 "
 _ns
-)
-enabled_cipersuites_
-(
-)
-disabled_cipersuites_
-(
 )
 test_utils_
 (

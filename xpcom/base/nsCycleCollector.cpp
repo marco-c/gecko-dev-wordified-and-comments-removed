@@ -1862,9 +1862,6 @@ mRefCount
 (
 kInitialRefCount
 )
-mFirstChild
-(
-)
 {
 MOZ_ASSERT
 (

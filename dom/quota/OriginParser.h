@@ -184,9 +184,6 @@ aOrigin
 +
 '
 )
-mPort
-(
-)
 mSchemeType
 (
 eNone

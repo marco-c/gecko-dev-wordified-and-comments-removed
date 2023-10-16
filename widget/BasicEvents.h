@@ -1387,9 +1387,6 @@ WidgetEvent
 (
 )
 :
-WidgetEventTime
-(
-)
 mPath
 (
 nullptr
@@ -1440,6 +1437,7 @@ aOther
 :
 WidgetEventTime
 (
+aOther
 )
 {
 MOZ_COUNT_CTOR

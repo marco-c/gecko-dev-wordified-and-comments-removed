@@ -1741,12 +1741,6 @@ nsContentSlots
 (
 )
 :
-nsINode
-:
-:
-nsSlots
-(
-)
 mExtendedSlots
 (
 0

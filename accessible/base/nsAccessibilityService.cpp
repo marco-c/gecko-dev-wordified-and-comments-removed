@@ -1846,12 +1846,6 @@ nsAccessibilityService
 (
 )
 :
-DocManager
-(
-)
-FocusManager
-(
-)
 mHTMLMarkupMap
 (
 ArrayLength

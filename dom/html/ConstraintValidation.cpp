@@ -322,10 +322,6 @@ ConstraintValidation
 ConstraintValidation
 (
 )
-:
-nsIConstraintValidation
-(
-)
 {
 }
 void

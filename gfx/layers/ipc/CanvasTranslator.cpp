@@ -348,13 +348,6 @@ CanvasTranslator
 CanvasTranslator
 (
 )
-:
-gfx
-:
-:
-InlineTranslator
-(
-)
 {
 Telemetry
 :

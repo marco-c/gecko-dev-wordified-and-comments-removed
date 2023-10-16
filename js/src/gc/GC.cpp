@@ -25569,10 +25569,6 @@ JSContext
 *
 cx
 )
-:
-AutoAssertEmptyNursery
-(
-)
 {
 MOZ_ASSERT
 (

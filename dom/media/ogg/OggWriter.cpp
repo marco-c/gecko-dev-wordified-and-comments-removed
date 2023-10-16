@@ -40,9 +40,6 @@ OggWriter
 (
 )
 :
-ContainerWriter
-(
-)
 mOggStreamState
 (
 )

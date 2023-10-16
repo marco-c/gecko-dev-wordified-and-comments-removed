@@ -1121,9 +1121,6 @@ nsWindowWatcher
 (
 )
 :
-mEnumeratorList
-(
-)
 mOldestWindow
 (
 nullptr

@@ -1497,9 +1497,6 @@ PropertyTableEntry
 )
 16
 )
-mArena
-(
-)
 {
 }
 nsPersistentProperties

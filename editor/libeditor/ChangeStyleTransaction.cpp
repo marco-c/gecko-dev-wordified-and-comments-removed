@@ -245,12 +245,6 @@ mProperty
 &
 aProperty
 )
-mUndoValue
-(
-)
-mRedoValue
-(
-)
 mRemoveProperty
 (
 aRemove

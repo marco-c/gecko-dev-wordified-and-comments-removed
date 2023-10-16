@@ -1360,9 +1360,6 @@ mLoadType
 (
 LOAD_NORMAL
 )
-mTarget
-(
-)
 mSrcdocData
 (
 VoidString

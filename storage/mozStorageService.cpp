@@ -931,9 +931,6 @@ Service
 mRegistrationMutex
 "
 )
-mConnections
-(
-)
 mLastSensitivity
 (
 mozilla

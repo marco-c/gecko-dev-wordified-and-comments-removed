@@ -11199,9 +11199,6 @@ mFreeingObserverList
 (
 false
 )
-mObservers
-(
-)
 {
 nsCOMPtr
 <

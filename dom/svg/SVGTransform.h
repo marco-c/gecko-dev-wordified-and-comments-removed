@@ -52,9 +52,6 @@ SVGTransform
 (
 )
 :
-mMatrix
-(
-)
 mAngle
 (
 0

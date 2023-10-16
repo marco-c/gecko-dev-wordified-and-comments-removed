@@ -483,12 +483,6 @@ mMaxRows
 (
 0
 )
-mLastRightClickTimeStamp
-(
-TimeStamp
-(
-)
-)
 mDisableAutoComplete
 (
 false

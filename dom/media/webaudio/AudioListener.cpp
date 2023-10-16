@@ -55,9 +55,6 @@ AudioListenerEngine
 (
 )
 :
-mPosition
-(
-)
 mFrontVector
 (
 0
@@ -214,9 +211,6 @@ new
 AudioListenerEngine
 (
 )
-)
-mPosition
-(
 )
 mFrontVector
 (

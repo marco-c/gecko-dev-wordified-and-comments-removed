@@ -535,13 +535,6 @@ public
 ChannelListHolder
 (
 )
-:
-LinkedList
-<
-ChannelWrapper
->
-(
-)
 {
 }
 ~

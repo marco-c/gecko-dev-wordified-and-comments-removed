@@ -162,9 +162,6 @@ output_
 (
 output
 )
-input_
-(
-)
 enabled_
 (
 true

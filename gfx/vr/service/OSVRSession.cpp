@@ -1126,9 +1126,6 @@ OSVRSession
 (
 )
 :
-VRSession
-(
-)
 mRuntimeLoaded
 (
 false

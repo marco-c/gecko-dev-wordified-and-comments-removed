@@ -25,10 +25,6 @@ public
 nsOSHelperAppServiceChild
 (
 )
-:
-nsExternalHelperAppService
-(
-)
 {
 }
 ;

@@ -176,9 +176,6 @@ nsEffectiveTLDService
 (
 )
 :
-mIDNService
-(
-)
 mGraphLock
 (
 "
