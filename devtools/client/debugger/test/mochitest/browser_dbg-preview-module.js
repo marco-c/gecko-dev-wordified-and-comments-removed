@@ -107,7 +107,6 @@ assertPreviewTextValue
 (
 dbg
 2
-7
 {
 result
 :

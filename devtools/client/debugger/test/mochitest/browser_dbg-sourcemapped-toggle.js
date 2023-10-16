@@ -157,7 +157,6 @@ assertPreviewTextValue
 (
 dbg
 20
-16
 {
 result
 :
@@ -202,7 +201,6 @@ assertPreviewTextValue
 (
 dbg
 21
-16
 {
 result
 :
@@ -240,7 +238,6 @@ assertPreviewTextValue
 (
 dbg
 20
-16
 {
 result
 :

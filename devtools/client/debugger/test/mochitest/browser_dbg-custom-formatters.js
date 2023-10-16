@@ -650,7 +650,6 @@ assertPreviewTextValue
 (
 dbg
 26
-16
 {
 expression
 :
