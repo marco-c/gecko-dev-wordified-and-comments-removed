@@ -2123,10 +2123,6 @@ get
 !
 =
 0
-?
-true
-:
-false
 ;
 }
 public

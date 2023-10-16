@@ -200,14 +200,9 @@ readByte
 =
 =
 1
-?
-true
-:
-false
 ;
 mIsAvailable
 =
-(
 p
 .
 readByte
@@ -216,11 +211,6 @@ readByte
 =
 =
 1
-?
-true
-:
-false
-)
 ;
 mMyPid
 =

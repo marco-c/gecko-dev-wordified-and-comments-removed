@@ -1038,14 +1038,13 @@ mDisplay
 !
 =
 null
-?
+&
+&
 mDisplay
 .
 shouldPinOnScreen
 (
 )
-:
-false
 ;
 }
 public
