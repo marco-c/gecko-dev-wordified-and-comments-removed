@@ -26200,14 +26200,14 @@ pdfjsVersion
 .
 0
 .
-44
+67
 '
 ;
 const
 pdfjsBuild
 =
 '
-2c87c4854
+5c45dfa0a
 '
 ;
 globalThis
