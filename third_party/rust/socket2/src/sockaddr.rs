@@ -1261,6 +1261,11 @@ target_os
 "
 vxworks
 "
+target_os
+=
+"
+nto
+"
 )
 )
 ]
