@@ -1195,6 +1195,10 @@ NotifyEvictedFromRenderingObserverSet
 (
 )
 {
+mInObserverSet
+=
+false
+;
 StopObserving
 (
 )
