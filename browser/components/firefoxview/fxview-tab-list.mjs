@@ -3449,6 +3449,11 @@ tab
 row
 -
 title
+text
+-
+truncated
+-
+ellipsis
 "
 id
 =
@@ -3460,6 +3465,11 @@ tab
 row
 -
 title
+"
+dir
+=
+"
+auto
 "
 >
 {
@@ -3481,6 +3491,11 @@ tab
 row
 -
 url
+text
+-
+truncated
+-
+ellipsis
 "
 id
 =
