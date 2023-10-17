@@ -11857,6 +11857,15 @@ android
 /
 app
 /
+mobile
+.
+js
+mobile
+/
+android
+/
+app
+/
 geckoview
 -
 prefs

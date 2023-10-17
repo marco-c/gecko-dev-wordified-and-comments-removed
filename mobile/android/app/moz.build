@@ -92,6 +92,16 @@ CONFIG
 MOZ_PKG_SPECIAL
 "
 ]
+JS_PREFERENCE_PP_FILES
++
+=
+[
+"
+mobile
+.
+js
+"
+]
 if
 not
 CONFIG

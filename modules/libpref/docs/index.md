@@ -1813,14 +1813,13 @@ android
 /
 app
 /
-geckoview
--
-prefs
+mobile
 .
 js
 used
 by
-GeckoView
+Firefox
+mobile
 ;
 -
 mail
