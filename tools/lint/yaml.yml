@@ -50,6 +50,14 @@ tools
 build
 /
 cargo
+exclude
+:
+-
+taskcluster
+/
+test
+/
+params
 extensions
 :
 [
