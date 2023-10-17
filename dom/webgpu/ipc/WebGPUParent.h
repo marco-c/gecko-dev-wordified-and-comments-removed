@@ -1092,6 +1092,12 @@ ExternalTexture
 >
 mExternalTextures
 ;
+nsTHashSet
+<
+RawId
+>
+mLostDeviceIds
+;
 }
 ;
 }
