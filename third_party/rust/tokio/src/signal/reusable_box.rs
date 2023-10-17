@@ -783,16 +783,6 @@ cfg
 test
 )
 ]
-#
-[
-cfg
-(
-not
-(
-miri
-)
-)
-]
 mod
 test
 {

@@ -327,7 +327,6 @@ ReadBuf
 :
 new
 (
-*
 me
 .
 buf

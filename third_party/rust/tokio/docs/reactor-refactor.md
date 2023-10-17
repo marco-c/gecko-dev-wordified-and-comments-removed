@@ -1401,14 +1401,14 @@ structured
 as
 :
 |
-reserved
+shutdown
 |
 generation
 |
 driver
 tick
 |
-readinesss
+readiness
 |
 |
 -
@@ -1450,7 +1450,6 @@ readinesss
 -
 -
 +
--
 -
 -
 -
@@ -1477,7 +1476,7 @@ bits
 bits
 |
 The
-reserved
+shutdown
 and
 generation
 components

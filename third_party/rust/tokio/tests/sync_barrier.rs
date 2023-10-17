@@ -33,11 +33,7 @@ sync
 [
 cfg
 (
-target_arch
-=
-"
-wasm32
-"
+tokio_wasm_not_wasi
 )
 ]
 use

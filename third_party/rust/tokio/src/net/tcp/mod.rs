@@ -5,6 +5,9 @@ crate
 mod
 listener
 ;
+cfg_not_wasi
+!
+{
 pub
 (
 crate
@@ -12,6 +15,7 @@ crate
 mod
 socket
 ;
+}
 mod
 split
 ;

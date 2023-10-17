@@ -353,8 +353,6 @@ tracing
 )
 ]
 resource_span
-:
-resource_span
 }
 }
 pub
@@ -460,6 +458,18 @@ self
 >
 BarrierWaitResult
 {
+crate
+:
+:
+trace
+:
+:
+async_trace_leaf
+(
+)
+.
+await
+;
 let
 generation
 =

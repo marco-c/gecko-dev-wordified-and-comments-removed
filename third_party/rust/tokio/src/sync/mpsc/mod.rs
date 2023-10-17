@@ -42,6 +42,7 @@ OwnedPermit
 Permit
 Receiver
 Sender
+WeakSender
 }
 ;
 mod
@@ -69,6 +70,7 @@ unbounded
 unbounded_channel
 UnboundedReceiver
 UnboundedSender
+WeakUnboundedSender
 }
 ;
 pub

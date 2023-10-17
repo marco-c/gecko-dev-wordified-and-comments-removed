@@ -1457,7 +1457,6 @@ self
 UnixStream
 {
 &
-*
 self
 .
 inner
@@ -1483,7 +1482,6 @@ self
 UnixStream
 {
 &
-*
 self
 .
 inner

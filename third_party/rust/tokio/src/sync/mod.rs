@@ -72,6 +72,7 @@ MutexGuard
 TryLockError
 OwnedMutexGuard
 MappedMutexGuard
+OwnedMappedMutexGuard
 }
 ;
 pub

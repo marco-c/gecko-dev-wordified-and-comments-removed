@@ -1523,9 +1523,7 @@ tokio
 -
 util
 /
-0
-.
-6
+latest
 /
 tokio_util
 /

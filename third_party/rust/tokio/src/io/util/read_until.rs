@@ -8,6 +8,15 @@ io
 AsyncBufRead
 ;
 use
+crate
+:
+:
+util
+:
+:
+memchr
+;
+use
 pin_project_lite
 :
 :

@@ -78,6 +78,10 @@ executed
 }
 )
 .
+unwrap
+(
+)
+.
 await
 ;
 assert_eq
@@ -130,6 +134,10 @@ spawn_blocking
 task
 executed
 "
+)
+.
+unwrap
+(
 )
 .
 await
@@ -211,6 +219,10 @@ unsend_data
 }
 )
 .
+unwrap
+(
+)
+.
 await
 }
 )
@@ -264,6 +276,10 @@ executed
 }
 )
 .
+unwrap
+(
+)
+.
 await
 ;
 assert_eq
@@ -309,6 +325,10 @@ spawn_blocking
 task
 executed
 "
+)
+.
+unwrap
+(
 )
 .
 await
@@ -381,6 +401,10 @@ move
 {
 unsend_data
 }
+)
+.
+unwrap
+(
 )
 .
 await

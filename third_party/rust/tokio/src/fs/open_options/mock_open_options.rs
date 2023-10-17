@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+unreachable_pub
+)
+]
 use
 mockall
 :

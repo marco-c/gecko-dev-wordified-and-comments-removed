@@ -11,11 +11,18 @@ rust_2018_idioms
 [
 cfg
 (
+all
+(
 feature
 =
 "
 full
 "
+not
+(
+tokio_wasi
+)
+)
 )
 ]
 use
@@ -153,7 +160,6 @@ TcpStream
 :
 connect
 (
-&
 addr
 )
 )
@@ -182,7 +188,6 @@ TcpStream
 :
 connect
 (
-&
 addr
 )
 )

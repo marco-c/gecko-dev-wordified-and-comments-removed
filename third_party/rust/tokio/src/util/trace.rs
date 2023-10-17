@@ -84,6 +84,9 @@ Option
 &
 str
 >
+id
+:
+u64
 )
 -
 >
@@ -151,6 +154,11 @@ name
 unwrap_or_default
 (
 )
+task
+.
+id
+=
+id
 loc
 .
 file
@@ -681,6 +689,9 @@ Option
 &
 str
 >
+_
+:
+u64
 )
 -
 >

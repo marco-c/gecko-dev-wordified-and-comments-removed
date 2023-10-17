@@ -464,6 +464,9 @@ new
 )
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -479,6 +482,8 @@ await
 .
 unwrap
 (
+)
+2
 )
 ;
 assert_eq
@@ -508,6 +513,9 @@ get_ref
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -522,6 +530,8 @@ await
 .
 unwrap
 (
+)
+1
 )
 ;
 assert_eq
@@ -552,6 +562,9 @@ get_ref
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -566,6 +579,8 @@ await
 .
 unwrap
 (
+)
+1
 )
 ;
 assert_eq
@@ -638,6 +653,9 @@ get_ref
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -653,7 +671,12 @@ await
 unwrap
 (
 )
+1
+)
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -668,6 +691,8 @@ await
 .
 unwrap
 (
+)
+1
 )
 ;
 assert_eq
@@ -701,6 +726,9 @@ get_ref
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -715,6 +743,8 @@ await
 .
 unwrap
 (
+)
+1
 )
 ;
 assert_eq
@@ -749,6 +779,9 @@ get_ref
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -765,6 +798,8 @@ await
 unwrap
 (
 )
+2
+)
 ;
 assert_eq
 !
@@ -800,6 +835,9 @@ get_ref
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -816,6 +854,8 @@ await
 .
 unwrap
 (
+)
+3
 )
 ;
 assert_eq
@@ -936,6 +976,9 @@ new
 )
 )
 ;
+assert_eq
+!
+(
 w
 .
 write
@@ -951,6 +994,8 @@ await
 .
 unwrap
 (
+)
+2
 )
 ;
 assert_eq
@@ -1252,6 +1297,9 @@ new
 )
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -1267,6 +1315,8 @@ await
 .
 unwrap
 (
+)
+2
 )
 ;
 assert_eq
@@ -1299,6 +1349,9 @@ inner
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -1313,6 +1366,8 @@ await
 .
 unwrap
 (
+)
+1
 )
 ;
 assert_eq
@@ -1346,6 +1401,9 @@ inner
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -1360,6 +1418,8 @@ await
 .
 unwrap
 (
+)
+1
 )
 ;
 assert_eq
@@ -1438,6 +1498,9 @@ inner
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -1453,7 +1516,12 @@ await
 unwrap
 (
 )
+1
+)
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -1468,6 +1536,8 @@ await
 .
 unwrap
 (
+)
+1
 )
 ;
 assert_eq
@@ -1504,6 +1574,9 @@ inner
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -1518,6 +1591,8 @@ await
 .
 unwrap
 (
+)
+1
 )
 ;
 assert_eq
@@ -1554,6 +1629,9 @@ inner
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -1570,6 +1648,8 @@ await
 unwrap
 (
 )
+2
+)
 ;
 assert_eq
 !
@@ -1607,6 +1687,9 @@ inner
 ]
 )
 ;
+assert_eq
+!
+(
 writer
 .
 write
@@ -1623,6 +1706,8 @@ await
 .
 unwrap
 (
+)
+3
 )
 ;
 assert_eq
@@ -1754,6 +1839,9 @@ new
 )
 )
 ;
+assert_eq
+!
+(
 w
 .
 write
@@ -1769,6 +1857,8 @@ await
 .
 unwrap
 (
+)
+2
 )
 ;
 assert_eq

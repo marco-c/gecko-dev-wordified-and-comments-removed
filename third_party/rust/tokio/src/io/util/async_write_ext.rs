@@ -3708,8 +3708,8 @@ WriteU8
 /
 /
 Writes
-an
-unsigned
+a
+signed
 8
 -
 bit
@@ -3845,7 +3845,7 @@ Examples
 /
 /
 Write
-unsigned
+signed
 8
 bit
 integers
@@ -3929,8 +3929,9 @@ new
 /
 writer
 .
-write_u8
+write_i8
 (
+-
 2
 )
 .
@@ -3942,9 +3943,9 @@ await
 /
 writer
 .
-write_u8
+write_i8
 (
-5
+126
 )
 .
 await
@@ -3963,9 +3964,9 @@ writer
 b
 "
 \
-x02
+xFE
 \
-x05
+x7E
 "
 )
 ;

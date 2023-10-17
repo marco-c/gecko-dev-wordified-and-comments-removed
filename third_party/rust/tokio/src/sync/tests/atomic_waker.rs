@@ -31,7 +31,7 @@ Send
 trait
 AssertSync
 :
-Send
+Sync
 {
 }
 impl
@@ -62,11 +62,7 @@ Waker
 [
 cfg
 (
-target_arch
-=
-"
-wasm32
-"
+tokio_wasm_not_wasi
 )
 ]
 use
@@ -214,11 +210,7 @@ cfg
 (
 not
 (
-target_arch
-=
-"
-wasm32
-"
+tokio_wasm
 )
 )
 ]

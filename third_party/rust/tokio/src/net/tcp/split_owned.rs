@@ -1562,7 +1562,6 @@ self
 TcpStream
 {
 &
-*
 self
 .
 inner
@@ -1588,7 +1587,6 @@ self
 TcpStream
 {
 &
-*
 self
 .
 inner

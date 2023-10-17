@@ -170,10 +170,10 @@ crate
 runtime
 :
 :
-enter
+context
 :
 :
-try_enter
+try_enter_blocking_region
 ;
 if
 timeout
@@ -199,9 +199,8 @@ mut
 e
 =
 match
-try_enter
+try_enter_blocking_region
 (
-false
 )
 {
 Some

@@ -381,6 +381,10 @@ is_pair_of
 self
 )
 }
+#
+[
+track_caller
+]
 pub
 fn
 unsplit
@@ -396,6 +400,10 @@ T
 -
 >
 T
+where
+T
+:
+Unpin
 {
 if
 self
