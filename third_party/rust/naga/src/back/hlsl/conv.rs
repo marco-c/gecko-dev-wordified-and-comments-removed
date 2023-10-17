@@ -937,6 +937,11 @@ Rgba8Unorm
 Self
 :
 :
+Bgra8Unorm
+|
+Self
+:
+:
 Rgba16Unorm
 |
 Self
@@ -945,10 +950,12 @@ Self
 Rgb10a2Unorm
 =
 >
+{
 "
 unorm
 float4
 "
+}
 Self
 :
 :

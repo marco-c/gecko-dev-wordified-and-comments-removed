@@ -503,6 +503,15 @@ rgba8sint
 Sf
 :
 :
+Bgra8Unorm
+=
+>
+"
+bgra8unorm
+"
+Sf
+:
+:
 Rgb10a2Uint
 =
 >

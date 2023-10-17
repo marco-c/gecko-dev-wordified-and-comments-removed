@@ -26,9 +26,6 @@ arena
 Handle
 ;
 pub
-(
-super
-)
 struct
 FunctionTracer
 <
@@ -37,9 +34,6 @@ a
 >
 {
 pub
-(
-super
-)
 module
 :
 &
@@ -50,9 +44,6 @@ crate
 :
 Module
 pub
-(
-super
-)
 function
 :
 &
@@ -63,9 +54,6 @@ crate
 :
 Function
 pub
-(
-super
-)
 types_used
 :
 &
@@ -80,9 +68,6 @@ crate
 Type
 >
 pub
-(
-super
-)
 constants_used
 :
 &
@@ -97,9 +82,6 @@ crate
 Constant
 >
 pub
-(
-super
-)
 const_expressions_used
 :
 &
@@ -114,9 +96,6 @@ crate
 Expression
 >
 pub
-(
-super
-)
 expressions_used
 :
 HandleSet
@@ -764,13 +743,9 @@ is_empty
 ;
 self
 .
-adjust_block
+adjust_body
 (
-&
-mut
 function
-.
-body
 )
 ;
 }

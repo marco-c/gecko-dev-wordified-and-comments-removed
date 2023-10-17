@@ -20,6 +20,7 @@ Range
 derive
 (
 Clone
+Debug
 )
 ]
 pub

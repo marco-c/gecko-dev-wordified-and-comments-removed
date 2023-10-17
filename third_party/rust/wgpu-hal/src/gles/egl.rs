@@ -24,6 +24,10 @@ os
 :
 raw
 ptr
+rc
+:
+:
+Rc
 sync
 :
 :
@@ -2779,7 +2783,7 @@ create
 (
 flags
 :
-crate
+wgt
 :
 :
 InstanceFlags
@@ -3400,7 +3404,7 @@ flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags
@@ -4018,7 +4022,7 @@ display_owner
 :
 Option
 <
-Arc
+Rc
 <
 DisplayOwner
 >
@@ -4036,7 +4040,7 @@ wsi
 WindowSystemInterface
 flags
 :
-crate
+wgt
 :
 :
 InstanceFlags
@@ -4710,6 +4714,8 @@ ATTRIB_NONE
 let
 display
 =
+unsafe
+{
 egl
 .
 get_platform_display
@@ -4722,6 +4728,7 @@ DEFAULT_DISPLAY
 &
 display_attributes
 )
+}
 .
 unwrap
 (
@@ -4731,7 +4738,7 @@ unwrap
 display
 Some
 (
-Arc
+Rc
 :
 :
 new
@@ -4790,6 +4797,8 @@ ATTRIB_NONE
 let
 display
 =
+unsafe
+{
 egl
 .
 get_platform_display
@@ -4805,6 +4814,7 @@ as_ptr
 &
 display_attributes
 )
+}
 .
 unwrap
 (
@@ -4814,7 +4824,7 @@ unwrap
 display
 Some
 (
-Arc
+Rc
 :
 :
 new
@@ -4895,7 +4905,7 @@ flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags
@@ -4913,6 +4923,8 @@ ATTRIB_NONE
 let
 display
 =
+unsafe
+{
 egl
 .
 get_platform_display
@@ -4928,6 +4940,7 @@ as_ptr
 &
 display_attributes
 )
+}
 .
 unwrap
 (
@@ -4937,7 +4950,7 @@ unwrap
 display
 Some
 (
-Arc
+Rc
 :
 :
 new
@@ -5003,6 +5016,8 @@ surfaceless
 let
 display
 =
+unsafe
+{
 egl
 .
 get_platform_display
@@ -5025,6 +5040,7 @@ khronos_egl
 ATTRIB_NONE
 ]
 )
+}
 .
 unwrap
 (
@@ -5061,6 +5077,8 @@ platform
 let
 display
 =
+unsafe
+{
 egl
 .
 get_display
@@ -5070,6 +5088,7 @@ khronos_egl
 :
 DEFAULT_DISPLAY
 )
+}
 .
 unwrap
 (
@@ -5092,7 +5111,7 @@ flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags
@@ -5624,6 +5643,8 @@ ATTRIB_NONE
 let
 display
 =
+unsafe
+{
 inner
 .
 egl
@@ -5655,6 +5676,7 @@ display
 &
 display_attributes
 )
+}
 .
 unwrap
 (
@@ -5951,7 +5973,7 @@ flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags
@@ -6003,7 +6025,7 @@ flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags
@@ -7238,20 +7260,6 @@ surface
 480
 )
 }
-as
-*
-mut
-_
-as
-*
-mut
-std
-:
-:
-ffi
-:
-:
-c_void
 ;
 wl_window
 =
@@ -7793,6 +7801,8 @@ _
 (
 )
 ;
+unsafe
+{
 egl
 .
 create_platform_window_surface
@@ -7809,6 +7819,7 @@ native_window_ptr
 &
 attributes_usize
 )
+}
 }
 _
 =

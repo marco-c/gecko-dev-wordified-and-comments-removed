@@ -147,7 +147,7 @@ instance_flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags
@@ -836,7 +836,7 @@ instance_flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags

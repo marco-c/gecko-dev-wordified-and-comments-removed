@@ -5651,6 +5651,16 @@ Rgba8i
 Sf
 :
 :
+Bgra8Unorm
+=
+>
+Self
+:
+:
+Unknown
+Sf
+:
+:
 Rgb10a2Uint
 =
 >

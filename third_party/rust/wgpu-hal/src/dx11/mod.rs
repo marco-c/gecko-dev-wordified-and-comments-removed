@@ -47,6 +47,7 @@ library
 derive
 (
 Clone
+Debug
 )
 ]
 pub

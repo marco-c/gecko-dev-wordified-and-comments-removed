@@ -79,6 +79,7 @@ Mutex
 derive
 (
 Clone
+Debug
 )
 ]
 pub

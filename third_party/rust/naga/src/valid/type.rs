@@ -3529,6 +3529,11 @@ DATA
 TypeFlags
 :
 :
+CONSTRUCTIBLE
+|
+TypeFlags
+:
+:
 SIZED
 Alignment
 :

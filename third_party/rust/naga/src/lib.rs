@@ -1457,6 +1457,7 @@ Rgba8Unorm
 Rgba8Snorm
 Rgba8Uint
 Rgba8Sint
+Bgra8Unorm
 Rgb10a2Uint
 Rgb10a2Unorm
 Rg11b10Float

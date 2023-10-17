@@ -2204,13 +2204,6 @@ crate
 :
 Expression
 >
-expression
-:
-&
-crate
-:
-:
-Expression
 expression_arena
 :
 &
@@ -2259,6 +2252,15 @@ SampleLevel
 as
 Sl
 }
+;
+let
+expression
+=
+&
+expression_arena
+[
+handle
+]
 ;
 let
 mut
@@ -5424,7 +5426,7 @@ arguments
 for
 (
 handle
-expr
+_
 )
 in
 fun
@@ -5447,7 +5449,6 @@ info
 process_expression
 (
 handle
-expr
 &
 fun
 .
@@ -6128,7 +6129,7 @@ arguments
 for
 (
 handle
-expression
+_
 )
 in
 expressions
@@ -6142,7 +6143,6 @@ info
 process_expression
 (
 handle
-expression
 &
 expressions
 &

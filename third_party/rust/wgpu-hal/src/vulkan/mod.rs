@@ -90,6 +90,7 @@ MAX_COLOR_ATTACHMENTS
 derive
 (
 Clone
+Debug
 )
 ]
 pub
@@ -291,7 +292,7 @@ DropGuard
 >
 flags
 :
-crate
+wgt
 :
 :
 InstanceFlags
