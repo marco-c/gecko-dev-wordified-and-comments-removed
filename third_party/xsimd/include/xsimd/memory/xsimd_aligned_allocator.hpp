@@ -69,13 +69,6 @@ class
 T
 size_t
 Align
-=
-default_arch
-:
-:
-alignment
-(
-)
 >
 class
 aligned_allocator

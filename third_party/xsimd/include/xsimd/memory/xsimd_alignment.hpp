@@ -55,6 +55,8 @@ template
 <
 class
 T
+size_t
+N
 >
 struct
 allocator_alignment
@@ -62,6 +64,7 @@ allocator_alignment
 aligned_allocator
 <
 T
+N
 >
 >
 {
