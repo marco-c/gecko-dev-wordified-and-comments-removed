@@ -676,9 +676,6 @@ FNAME
 0
 {
 if
-None
-=
-=
 r
 .
 part
@@ -686,6 +683,10 @@ part
 header
 .
 filename
+.
+is_none
+(
+)
 {
 r
 .
@@ -765,9 +766,6 @@ FCOMMENT
 0
 {
 if
-None
-=
-=
 r
 .
 part
@@ -775,6 +773,10 @@ part
 header
 .
 comment
+.
+is_none
+(
+)
 {
 r
 .
@@ -3812,7 +3814,6 @@ pos
 u64
 )
 {
-return
 self
 .
 cursor
@@ -3821,7 +3822,6 @@ set_position
 (
 pos
 )
-;
 }
 pub
 fn
@@ -3835,7 +3835,6 @@ self
 >
 u64
 {
-return
 self
 .
 cursor
@@ -3843,7 +3842,6 @@ cursor
 position
 (
 )
-;
 }
 }
 impl
@@ -3874,7 +3872,6 @@ Result
 usize
 >
 {
-return
 self
 .
 cursor
@@ -3883,7 +3880,6 @@ write
 (
 buf
 )
-;
 }
 fn
 flush
@@ -3903,7 +3899,6 @@ Result
 )
 >
 {
-return
 self
 .
 cursor
@@ -3911,7 +3906,6 @@ cursor
 flush
 (
 )
-;
 }
 }
 impl
@@ -4033,9 +4027,7 @@ _n
 {
 }
 }
-return
 r
-;
 }
 }
 #

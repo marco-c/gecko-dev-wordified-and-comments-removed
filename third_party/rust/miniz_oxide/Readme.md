@@ -255,7 +255,7 @@ deflate
 module
 is
 removed
-complete
+completely
 -
 Some
 inflate

@@ -1,7 +1,3 @@
-extern
-crate
-flate2
-;
 #
 [
 test

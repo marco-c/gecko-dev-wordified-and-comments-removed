@@ -3437,13 +3437,6 @@ Default
 for
 CompressorOxide
 {
-#
-[
-inline
-(
-always
-)
-]
 fn
 default
 (
