@@ -2670,8 +2670,11 @@ Nothing
 ;
 }
 #
-ifdef
-NIGHTLY_BUILD
+if
+defined
+(
+EARLY_BETA_OR_EARLIER
+)
 void
 PossiblyCrash
 (
@@ -7676,7 +7679,7 @@ get
 elif
 defined
 (
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 )
 if
 (
