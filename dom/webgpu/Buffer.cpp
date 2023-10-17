@@ -791,12 +791,11 @@ if
 mValid
 &
 &
-!
 GetDevice
 (
 )
 .
-IsLost
+IsBridgeAlive
 (
 )
 )
