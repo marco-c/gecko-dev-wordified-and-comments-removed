@@ -2418,9 +2418,6 @@ true
 ;
 }
 }
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 return
 !
 gtk_check_version
@@ -2430,13 +2427,6 @@ gtk_check_version
 30
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 (
 )
