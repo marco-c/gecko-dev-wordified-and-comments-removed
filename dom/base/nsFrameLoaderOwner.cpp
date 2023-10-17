@@ -1919,6 +1919,8 @@ FrameLoaderDestroying
 nsFrameLoader
 *
 aFrameLoader
+bool
+aDestroyBFCached
 )
 {
 if
@@ -1927,6 +1929,11 @@ aFrameLoader
 =
 =
 mFrameLoader
+)
+{
+if
+(
+aDestroyBFCached
 )
 {
 while
@@ -1966,6 +1973,7 @@ Destroy
 (
 )
 ;
+}
 }
 }
 }

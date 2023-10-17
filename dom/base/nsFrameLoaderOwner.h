@@ -256,6 +256,8 @@ FrameLoaderDestroying
 nsFrameLoader
 *
 aFrameLoader
+bool
+aDestroyBFCached
 )
 ;
 private
