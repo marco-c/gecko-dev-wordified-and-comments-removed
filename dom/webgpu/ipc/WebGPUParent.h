@@ -185,6 +185,16 @@ ipc
 :
 :
 IPCResult
+RecvDeviceDrop
+(
+RawId
+aDeviceId
+)
+;
+ipc
+:
+:
+IPCResult
 RecvCreateBuffer
 (
 RawId

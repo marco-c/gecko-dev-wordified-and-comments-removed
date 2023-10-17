@@ -8048,7 +8048,7 @@ IsOpen
 )
 )
 {
-SendDeviceDestroy
+SendDeviceDrop
 (
 aId
 )
