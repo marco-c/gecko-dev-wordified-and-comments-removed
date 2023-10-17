@@ -663,7 +663,7 @@ return
 ;
 }
 let
-wizard
+wizardTab
 =
 await
 wizardPromise
@@ -672,10 +672,11 @@ Assert
 .
 ok
 (
-wizard
+wizardTab
 "
 Migrator
-window
+wizard
+tab
 opened
 "
 )
@@ -683,9 +684,9 @@ opened
 await
 BrowserTestUtils
 .
-closeMigrationWizard
+removeTab
 (
-wizard
+wizardTab
 )
 ;
 }

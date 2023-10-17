@@ -467,7 +467,7 @@ import_suggestion_wizard
 )
 {
 let
-wizard
+wizardTab
 ;
 await
 BrowserTestUtils
@@ -620,12 +620,6 @@ waitForMigrationWizard
 window
 )
 ;
-executeSoon
-(
-(
-)
-=
->
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -634,9 +628,8 @@ importableItem
 {
 }
 )
-)
 ;
-wizard
+wizardTab
 =
 await
 wizardPromise
@@ -645,7 +638,7 @@ Assert
 .
 ok
 (
-wizard
+wizardTab
 "
 Wizard
 opened
@@ -682,9 +675,9 @@ popup
 await
 BrowserTestUtils
 .
-closeMigrationWizard
+removeTab
 (
-wizard
+wizardTab
 )
 ;
 }
