@@ -152,11 +152,11 @@ tabs
 "
 -
 -
-lwt
--
 tab
 -
-text
+selected
+-
+textcolor
 "
 {
 lwtProperty
