@@ -129,12 +129,7 @@ equal
 gURLBar
 .
 value
-UrlbarTestUtils
-.
-trimURL
-(
 modified
-)
 "
 backspaced
 value
@@ -1542,10 +1537,6 @@ com
 modified
 :
 "
-http
-:
-/
-/
 example
 .
 com
