@@ -1426,7 +1426,7 @@ clean_up
 )
     
 def
-_expose_gecko_profiler
+_expose_browser_profiler
 (
 self
 extra_profiler_run
@@ -1456,7 +1456,7 @@ browsertime
         
 The
 exposed
-gecko
+browser
 profiler
 let
 '
@@ -1482,15 +1482,18 @@ this
 for
 the
 Firefox
-browser
+or
+Chrome
+*
+applications
 and
 for
+        
 any
 test
 with
 the
-        
-expose_gecko_profiler
+expose_browser_profiler
 field
 set
 true
@@ -1519,7 +1522,7 @@ test
 get
 (
 "
-expose_gecko_profiler
+expose_browser_profiler
 "
 )
             
@@ -1534,6 +1537,8 @@ app
 ]
 in
 GECKO_PROFILER_APPS
++
+TRACE_APPS
         
 )
     
@@ -2372,14 +2377,12 @@ true
 "
             
 if
-(
 self
 .
-_expose_gecko_profiler
+_expose_browser_profiler
 (
 extra_profiler_run
 test
-)
 )
             
 else
@@ -3691,7 +3694,7 @@ geckoProfiler
 if
 self
 .
-_expose_gecko_profiler
+_expose_browser_profiler
 (
 self
 .
@@ -3999,6 +4002,43 @@ extend
 chrome
 .
 trace
+"
+]
+)
+        
+if
+self
+.
+_expose_browser_profiler
+(
+self
+.
+config
+.
+get
+(
+"
+extra_profiler_run
+"
+)
+test
+)
+:
+            
+priority1_options
+.
+extend
+(
+[
+"
+-
+-
+chrome
+.
+timelineRecordingType
+"
+"
+custom
 "
 ]
 )

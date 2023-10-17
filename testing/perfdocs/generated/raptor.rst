@@ -342,7 +342,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -1587,7 +1587,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -2902,7 +2902,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -4189,7 +4189,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -5541,7 +5541,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -6872,6 +6872,16 @@ pass
 *
 *
 expose
+chrome
+trace
+*
+*
+:
+true
+*
+*
+*
+expose
 gecko
 profiler
 *
@@ -8196,7 +8206,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -11447,7 +11457,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -14782,7 +14792,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -16024,7 +16034,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -17260,7 +17270,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -19954,7 +19964,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -21509,7 +21519,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -22826,7 +22836,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -24005,7 +24015,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -25182,7 +25192,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -26512,7 +26522,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -27725,7 +27735,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -28933,7 +28943,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -30330,7 +30340,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -30641,7 +30651,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -31039,7 +31049,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -32254,7 +32264,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -33471,7 +33481,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -34746,7 +34756,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -36019,7 +36029,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -37522,7 +37532,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -38979,7 +38989,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -40194,7 +40204,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -41411,7 +41421,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -42686,7 +42696,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -43959,7 +43969,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -45228,7 +45238,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -46552,7 +46562,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *
@@ -47854,7 +47864,7 @@ pass
 *
 *
 expose
-gecko
+browser
 profiler
 *
 *

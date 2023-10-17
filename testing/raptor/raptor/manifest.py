@@ -3961,7 +3961,7 @@ host_from_parent
 "
             
 "
-expose_gecko_profiler
+expose_browser_profiler
 "
         
 ]
