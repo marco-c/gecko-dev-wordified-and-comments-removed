@@ -711,6 +711,10 @@ is
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 "
 https
 :
@@ -725,6 +729,7 @@ org
 j
 /
 "
+)
 "
 gURLBar
 contains
