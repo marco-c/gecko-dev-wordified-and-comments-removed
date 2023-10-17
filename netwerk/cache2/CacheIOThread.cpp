@@ -767,6 +767,16 @@ if
 mThread
 )
 {
+MonitorAutoLock
+lock
+(
+mMonitor
+)
+;
+mShutdown
+=
+true
+;
 return
 NS_ERROR_FAILURE
 ;
