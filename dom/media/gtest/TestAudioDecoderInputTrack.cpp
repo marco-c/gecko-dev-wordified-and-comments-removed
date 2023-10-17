@@ -103,6 +103,14 @@ testing
 :
 Return
 ;
+using
+ControlMessageInterface
+=
+MediaTrack
+:
+:
+ControlMessageInterface
+;
 constexpr
 uint32_t
 kNoFlags
@@ -191,7 +199,7 @@ void
 (
 UniquePtr
 <
-ControlMessage
+ControlMessageInterface
 >
 )
 )
@@ -1757,7 +1765,7 @@ WillOnce
 (
 UniquePtr
 <
-ControlMessage
+ControlMessageInterface
 >
 aMessage
 )
@@ -1779,7 +1787,7 @@ WillOnce
 (
 UniquePtr
 <
-ControlMessage
+ControlMessageInterface
 >
 aMessage
 )
@@ -2382,7 +2390,7 @@ WillOnce
 (
 UniquePtr
 <
-ControlMessage
+ControlMessageInterface
 >
 aMessage
 )
@@ -2404,7 +2412,7 @@ WillOnce
 (
 UniquePtr
 <
-ControlMessage
+ControlMessageInterface
 >
 aMessage
 )
