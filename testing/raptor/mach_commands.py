@@ -1662,13 +1662,6 @@ import
 platform
     
 from
-distutils
-.
-version
-import
-StrictVersion
-    
-from
 mozbuild
 .
 artifact_commands
@@ -1681,6 +1674,13 @@ mozbuild
 nodeutil
 import
 find_node_executable
+    
+from
+packaging
+.
+version
+import
+Version
     
 print
 (
@@ -1733,7 +1733,7 @@ find_node_executable
 (
 min_version
 =
-StrictVersion
+Version
 (
 "
 16
