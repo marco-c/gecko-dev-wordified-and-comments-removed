@@ -5,13 +5,13 @@ socket
 import
 ssl
 from
-urllib3
+.
 .
 exceptions
 import
 ProxySchemeUnsupported
 from
-urllib3
+.
 .
 packages
 import

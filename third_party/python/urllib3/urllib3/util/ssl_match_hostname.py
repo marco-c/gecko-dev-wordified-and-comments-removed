@@ -595,15 +595,10 @@ hostname
 )
     
 except
-ValueError
-:
-        
-host_ip
-=
-None
-    
-except
+(
 UnicodeError
+ValueError
+)
 :
         
 host_ip

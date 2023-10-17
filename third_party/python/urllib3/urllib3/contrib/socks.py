@@ -384,7 +384,11 @@ io
 /
 en
 /
-latest
+1
+.
+26
+.
+x
 /
 contrib
 .

@@ -55,6 +55,18 @@ deflate
 try
 :
     
+try
+:
+        
+import
+brotlicffi
+as
+_unused_module_brotli
+    
+except
+ImportError
+:
+        
 import
 brotli
 as
