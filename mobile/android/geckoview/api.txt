@@ -20718,6 +20718,13 @@ boolean
 allowedInPrivateBrowsing
 ;
 field
+Nullable
+public
+final
+String
+amoListingUrl
+;
+field
 public
 final
 double

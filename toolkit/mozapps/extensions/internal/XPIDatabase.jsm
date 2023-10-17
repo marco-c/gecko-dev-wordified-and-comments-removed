@@ -6422,9 +6422,6 @@ undefined
 fullDescription
 "
 "
-developerComments
-"
-"
 supportURL
 "
 "
@@ -6441,6 +6438,9 @@ reviewURL
 "
 "
 weeklyDownloads
+"
+"
+amoListingURL
 "
 ]
 .

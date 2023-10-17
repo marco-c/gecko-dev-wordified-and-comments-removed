@@ -1619,6 +1619,7 @@ readyPromise
 }
 const
 {
+amoListingURL
 averageRating
 blocklistState
 creator
@@ -1969,6 +1970,7 @@ policy
 metaData
 :
 {
+amoListingURL
 averageRating
 baseURL
 blocklistState
