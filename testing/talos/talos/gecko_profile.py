@@ -128,10 +128,21 @@ test_config
 .
 get
 (
+            
 "
 gecko_profile_entries
 "
-1000000
+int
+(
+128
+*
+1024
+*
+1024
+/
+8
+)
+        
 )
         
 gecko_profile_features
@@ -166,17 +177,10 @@ gecko_profile_threads
 "
 GeckoMain
 Compositor
+Renderer
 "
         
 )
-        
-gecko_profile_threads
-+
-=
-"
-WR
-Renderer
-"
         
 self
 .
