@@ -468,6 +468,10 @@ self
 Option
 <
 RichHeaderInfo
+<
+'
+_
+>
 >
 {
 RichHeaderInfo
@@ -1840,6 +1844,10 @@ Result
 Option
 <
 CodeView
+<
+'
+_
+>
 >
 >
 {

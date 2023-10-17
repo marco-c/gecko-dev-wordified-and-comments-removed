@@ -2405,6 +2405,7 @@ self
 SymbolFlags
 <
 SectionIndex
+SymbolIndex
 >
 {
 let

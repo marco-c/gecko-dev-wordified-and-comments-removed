@@ -18,6 +18,7 @@ platforms
 It
 supports
 reading
+relocatable
 object
 files
 and
@@ -32,6 +33,9 @@ ELF
 Mach
 -
 O
+/
+XCOFF
+relocatable
 object
 files
 and
@@ -131,6 +135,7 @@ PE
 /
 COFF
 Wasm
+XCOFF
 and
 Unix
 archive
@@ -350,7 +355,7 @@ is
 *
 1
 .
-52
+60
 .
 0
 for
@@ -364,16 +369,12 @@ dependencies
 *
 1
 .
-61
+65
 .
 0
 for
-the
-write
-feature
-and
-its
-dependencies
+other
+features
 .
 #
 #

@@ -107,6 +107,11 @@ coff
 CoffFile
 :
 :
+<
+_
+>
+:
+:
 parse
 (
 &

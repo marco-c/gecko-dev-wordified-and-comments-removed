@@ -837,6 +837,10 @@ Result
 Option
 <
 CodeView
+<
+'
+_
+>
 >
 >
 {
@@ -1687,6 +1691,7 @@ self
 SymbolFlags
 <
 SectionIndex
+SymbolIndex
 >
 ;
 }

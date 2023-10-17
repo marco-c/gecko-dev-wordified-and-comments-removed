@@ -969,11 +969,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Pe
 :
 ImageNtHeaders
@@ -1212,11 +1207,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Pe
 :
 ImageNtHeaders

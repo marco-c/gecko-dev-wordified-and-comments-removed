@@ -505,8 +505,6 @@ SeekFrom
 Start
 (
 offset
-as
-u64
 )
 )
 .

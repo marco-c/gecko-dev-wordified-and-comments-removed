@@ -426,11 +426,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Elf
 :
 FileHeader

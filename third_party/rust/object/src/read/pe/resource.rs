@@ -761,6 +761,10 @@ self
 directory
 :
 ResourceDirectory
+<
+'
+_
+>
 )
 -
 >

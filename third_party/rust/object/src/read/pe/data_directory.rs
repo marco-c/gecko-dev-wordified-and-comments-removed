@@ -994,10 +994,6 @@ LE
 pub
 fn
 file_range
-<
-'
-data
->
 (
 &
 self
@@ -1007,7 +1003,7 @@ sections
 SectionTable
 <
 '
-data
+_
 >
 )
 -

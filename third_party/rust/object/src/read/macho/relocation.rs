@@ -141,11 +141,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Mach
 :
 MachHeader
@@ -386,8 +381,14 @@ macho
 :
 :
 CPU_TYPE_ARM64
+|
+macho
+:
+:
+CPU_TYPE_ARM64_32
 =
 >
+{
 match
 (
 reloc
@@ -429,6 +430,7 @@ relative
 reloc
 .
 r_pcrel
+}
 }
 }
 macho

@@ -288,6 +288,8 @@ index
 SectionIndex
 (
 index
++
+1
 )
 file
 :
@@ -387,11 +389,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Xcoff
 :
 FileHeader
@@ -1622,6 +1619,11 @@ get
 index
 .
 0
+.
+wrapping_sub
+(
+1
+)
 )
 .
 read_error
