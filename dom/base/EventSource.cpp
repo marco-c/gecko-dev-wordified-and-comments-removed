@@ -2879,7 +2879,7 @@ status
 )
 {
 return
-NS_ERROR_ABORT
+status
 ;
 }
 uint32_t

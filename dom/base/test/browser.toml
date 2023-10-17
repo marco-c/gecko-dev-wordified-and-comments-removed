@@ -811,3 +811,10 @@ browser_xml_toggle
 js
 "
 ]
+[
+"
+browser_event_source_reconnect_after_disconnect
+.
+js
+"
+]
