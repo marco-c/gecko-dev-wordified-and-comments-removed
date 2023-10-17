@@ -132,7 +132,7 @@ colorAttachments
 [
 {
 view
-loadValue
+clearValue
 :
 {
 r
@@ -148,6 +148,11 @@ a
 :
 0
 }
+loadOp
+:
+"
+clear
+"
 storeOp
 :
 "
