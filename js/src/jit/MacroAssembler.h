@@ -2407,9 +2407,7 @@ Register
 cxreg
 Register
 scratch
-const
-VMFunctionData
-*
+VMFunctionId
 f
 )
 ;
