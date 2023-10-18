@@ -523,7 +523,7 @@ last_time
 =
 time
 .
-time
+monotonic
 (
 )
         
@@ -644,7 +644,7 @@ measured_end_time
 =
 time
 .
-time
+monotonic
 (
 )
             
@@ -784,7 +784,7 @@ collection_overhead
 =
 time
 .
-time
+monotonic
 (
 )
 -
@@ -1603,6 +1603,16 @@ swap
         
 self
 .
+start_timestamp
+=
+time
+.
+time
+(
+)
+        
+self
+.
 _pipe
 child_pipe
 =
@@ -2136,7 +2146,7 @@ append
 (
 time
 .
-time
+monotonic
 (
 )
 name
@@ -2242,7 +2252,7 @@ text
 =
 time
 .
-time
+monotonic
 (
 )
     
@@ -2259,7 +2269,7 @@ end
 =
 time
 .
-time
+monotonic
 (
 )
         
@@ -2435,7 +2445,7 @@ name
 =
 time
 .
-time
+monotonic
 (
 )
     
@@ -2479,7 +2489,7 @@ name
 ]
 time
 .
-time
+monotonic
 (
 )
 )
@@ -4699,16 +4709,11 @@ self
 )
 :
         
-startTime
+start_time
 =
 self
 .
-measurements
-[
-0
-]
-.
-start
+start_time
         
 profile
 =
@@ -4772,7 +4777,9 @@ poll_interval
 startTime
 "
 :
-startTime
+self
+.
+start_timestamp
 *
 1000
                 
@@ -6096,7 +6103,7 @@ round
 (
 start
 -
-startTime
+start_time
 )
 *
 1000
@@ -6118,7 +6125,7 @@ round
 (
 end
 -
-startTime
+start_time
 )
 *
 1000
@@ -6332,7 +6339,7 @@ m
 .
 end
 -
-startTime
+start_time
 )
 *
 1000
