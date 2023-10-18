@@ -141,6 +141,8 @@ htmlDoc
 .
 querySelector
 (
+moz
+-
 message
 -
 bar
