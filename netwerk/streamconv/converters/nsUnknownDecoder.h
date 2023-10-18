@@ -100,8 +100,6 @@ public
 nsIStreamConverter
 public
 nsIContentSniffer
-public
-nsIThreadRetargetableStreamListener
 {
 public
 :
