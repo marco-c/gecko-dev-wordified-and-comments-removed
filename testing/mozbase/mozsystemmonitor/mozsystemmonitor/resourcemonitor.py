@@ -790,7 +790,7 @@ time
 -
 last_time
 -
-poll_interval
+sleep_interval
             
 last_time
 =
