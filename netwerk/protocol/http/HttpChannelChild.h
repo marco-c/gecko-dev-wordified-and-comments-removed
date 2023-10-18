@@ -1784,6 +1784,15 @@ OnDetachStreamFilters
 (
 )
 ;
+void
+SendOnDataFinished
+(
+const
+nsresult
+&
+aChannelStatus
+)
+;
 [
 [
 nodiscard
