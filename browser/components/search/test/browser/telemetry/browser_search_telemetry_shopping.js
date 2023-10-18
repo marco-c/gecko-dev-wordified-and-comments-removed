@@ -332,6 +332,11 @@ is_shopping_page
 "
 false
 "
+is_private
+:
+"
+false
+"
 shopping_tab_displayed
 :
 "
@@ -403,6 +408,11 @@ source
 unknown
 "
 is_shopping_page
+:
+"
+false
+"
+is_private
 :
 "
 false
