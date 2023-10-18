@@ -799,7 +799,11 @@ by
 .
 because
 Python
-StrictVersion
+packaging
+.
+version
+.
+Version
 expects
 this
 min_clippy_version
