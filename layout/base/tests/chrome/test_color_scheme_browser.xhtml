@@ -402,6 +402,9 @@ true
 )
 {
 let
+listener
+;
+let
 loaded
 =
 new
@@ -411,10 +414,8 @@ resolve
 =
 >
 {
-b
-.
-addProgressListener
-(
+listener
+=
 {
 onStateChange
 (
@@ -495,6 +496,12 @@ nsISupportsWeakReference
 ]
 )
 }
+;
+b
+.
+addProgressListener
+(
+listener
 )
 ;
 }
