@@ -1209,7 +1209,7 @@ label
 getLocalizedString
 (
 "
-viewSavedLogins
+managePasswords
 .
 label
 "
@@ -1837,9 +1837,8 @@ autocomplete
 then
 add
 "
-View
-Saved
-Logins
+Manage
+Passwords
 "
 this
 .
