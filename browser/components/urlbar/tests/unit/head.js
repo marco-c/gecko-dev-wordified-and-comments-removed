@@ -1197,6 +1197,14 @@ addTestSuggestionsEngine
 suggestionsFn
 =
 null
+{
+name
+=
+SUGGESTIONS_ENGINE_NAME
+}
+=
+{
+}
 )
 {
 let
@@ -1330,8 +1338,6 @@ installSearchExtension
 (
 {
 name
-:
-SUGGESTIONS_ENGINE_NAME
 search_url
 :
 http
@@ -1411,9 +1417,7 @@ search
 .
 getEngineByName
 (
-"
-Suggestions
-"
+name
 )
 ;
 return
