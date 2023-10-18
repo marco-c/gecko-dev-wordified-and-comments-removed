@@ -2301,9 +2301,7 @@ environ
                 
 build_resources_profile_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4951,9 +4949,7 @@ output_format
         
 path
 =
-os
-.
-path
+mozpath
 .
 realpath
 (
@@ -8122,9 +8118,7 @@ None
                         
 make_dir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -8709,9 +8703,7 @@ status
             
 pathToThirdparty
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -8735,9 +8727,7 @@ txt
             
 pathToGenerated
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -9054,9 +9044,7 @@ suppressed
                         
 suppressed_by_dir
 [
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -9996,9 +9984,7 @@ command
 build_site
 .
 python_path
-os
-.
-path
+mozpath
 .
 join
 (
@@ -10236,9 +10222,7 @@ format
                     
 clobber_file
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -10501,9 +10485,7 @@ self
         
 mozconfig_json
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -10866,9 +10848,7 @@ line
         
 mozconfig_client_mk
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -10911,9 +10891,7 @@ mozconfig_make_lines
         
 mozconfig_mk
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -10954,9 +10932,7 @@ mozconfig_filtered_lines
         
 mozconfig_objdir
 =
-os
-.
-path
+mozpath
 .
 join
 (
