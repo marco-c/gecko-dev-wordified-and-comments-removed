@@ -3219,6 +3219,11 @@ devToolsAnonymousAndShadowEventsEnabled
 ;
 [
 ChromeOnly
+BinaryName
+=
+"
+contentLanguageForBindings
+"
 ]
 readonly
 attribute
