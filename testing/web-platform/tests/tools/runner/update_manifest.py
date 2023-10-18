@@ -1,15 +1,9 @@
 import
+imp
+import
 json
 import
 os
-from
-tools
-.
-wpt
-.
-utils
-import
-load_source
 here
 =
 os
@@ -22,6 +16,8 @@ __file__
 )
 localpaths
 =
+imp
+.
 load_source
 (
 "

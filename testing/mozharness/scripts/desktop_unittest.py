@@ -16,6 +16,8 @@ copy
 import
 glob
 import
+imp
+import
 json
 import
 multiprocessing
@@ -65,10 +67,6 @@ dirname
 here
 )
 )
-from
-mozfile
-import
-load_source
 from
 mozharness
 .
@@ -8233,6 +8231,8 @@ reftest
                     
 ref_formatter
 =
+imp
+.
 load_source
 (
                         

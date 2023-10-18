@@ -1,4 +1,6 @@
 import
+imp
+import
 os
 import
 re
@@ -27,10 +29,6 @@ errors
 import
 TimeoutException
 UnresponsiveInstanceException
-from
-mozfile
-import
-load_source
 from
 mozlog
 import
@@ -1940,6 +1938,8 @@ mod_name
         
 test_mod
 =
+imp
+.
 load_source
 (
 mod_name

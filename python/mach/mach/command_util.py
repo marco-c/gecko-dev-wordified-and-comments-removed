@@ -5,9 +5,9 @@ ast
 import
 errno
 import
-sys
+imp
 import
-types
+sys
 import
 uuid
 from
@@ -26,10 +26,6 @@ import
 Dict
 Optional
 Union
-from
-mozfile
-import
-load_source
 from
 .
 base
@@ -3607,9 +3603,9 @@ modules
             
 mod
 =
-types
+imp
 .
-ModuleType
+new_module
 (
 "
 mach
@@ -3653,6 +3649,8 @@ hex
 try
 :
         
+imp
+.
 load_source
 (
 module_name

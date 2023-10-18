@@ -39,10 +39,6 @@ mozbuild
 base
 import
 MozbuildObject
-from
-mozfile
-import
-load_source
 here
 =
 os
@@ -543,6 +539,9 @@ sys
 modules
 :
             
+import
+imp
+            
 path
 =
 os
@@ -561,12 +560,39 @@ py
 "
 )
             
-load_source
+with
+open
+(
+path
+"
+r
+"
+)
+as
+fh
+:
+                
+imp
+.
+load_module
 (
 "
 mochitest
 "
+fh
 path
+(
+"
+.
+py
+"
+"
+r
+"
+imp
+.
+PY_SOURCE
+)
 )
         
 import
@@ -793,6 +819,9 @@ host_ret
 return
 host_ret
         
+import
+imp
+        
 path
 =
 os
@@ -811,12 +840,39 @@ py
 "
 )
         
-load_source
+with
+open
+(
+path
+"
+r
+"
+)
+as
+fh
+:
+            
+imp
+.
+load_module
 (
 "
 runtestsremote
 "
+fh
 path
+(
+"
+.
+py
+"
+"
+r
+"
+imp
+.
+PY_SOURCE
+)
 )
         
 import
@@ -1012,6 +1068,9 @@ ignore
 "
 )
         
+import
+imp
+        
 path
 =
 os
@@ -1059,12 +1118,39 @@ py
 "
 )
         
-load_source
+with
+open
+(
+path
+"
+r
+"
+)
+as
+fh
+:
+            
+imp
+.
+load_module
 (
 "
 mochitest
 "
+fh
 path
+(
+"
+.
+py
+"
+"
+r
+"
+imp
+.
+PY_SOURCE
+)
 )
         
 from
@@ -1210,6 +1296,9 @@ ignore
 "
 )
         
+import
+imp
+        
 path
 =
 os
@@ -1257,12 +1346,39 @@ py
 "
 )
         
-load_source
+with
+open
+(
+path
+"
+r
+"
+)
+as
+fh
+:
+            
+imp
+.
+load_module
 (
 "
 mochitest
 "
+fh
 path
+(
+"
+.
+py
+"
+"
+r
+"
+imp
+.
+PY_SOURCE
+)
 )
         
 import
