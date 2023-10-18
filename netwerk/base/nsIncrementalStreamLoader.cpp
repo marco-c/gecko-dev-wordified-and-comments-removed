@@ -825,17 +825,3 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
-nsIncrementalStreamLoader
-:
-:
-OnDataFinished
-(
-nsresult
-aStatus
-)
-{
-return
-NS_OK
-;
-}

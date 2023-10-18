@@ -377,17 +377,4 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
-MutableBlobStreamListener
-:
-:
-OnDataFinished
-(
-nsresult
-)
-{
-return
-NS_OK
-;
-}
 }

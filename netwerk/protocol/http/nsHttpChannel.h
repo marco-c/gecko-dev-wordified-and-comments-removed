@@ -274,6 +274,8 @@ HttpAsyncAborter
 nsHttpChannel
 >
 public
+nsIStreamListener
+public
 nsICachingChannel
 public
 nsICacheEntryOpenCallback
