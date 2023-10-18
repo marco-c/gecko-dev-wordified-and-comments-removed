@@ -3,8 +3,6 @@ copy
 import
 functools
 import
-imp
-import
 io
 import
 os
@@ -33,8 +31,16 @@ mozlog
 handlers
 import
 BaseHandler
-StreamHandler
 LogLevelFilter
+StreamHandler
+from
+tools
+.
+wpt
+.
+utils
+import
+load_source
 from
 .
 import
@@ -51,8 +57,6 @@ __file__
 )
 localpaths
 =
-imp
-.
 load_source
 (
 "

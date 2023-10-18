@@ -56,6 +56,10 @@ mozbuild
 util
 import
 memoize
+from
+mozfile
+import
+load_source
 here
 =
 os
@@ -2252,9 +2256,6 @@ _read_project_properties
 )
 :
     
-import
-imp
-    
 path
 =
 os
@@ -2270,41 +2271,14 @@ manager
 conf_py_path
 )
     
-with
-open
-(
-path
-"
-r
-"
-)
-as
-fh
-:
-        
 conf
 =
-imp
-.
-load_module
+load_source
 (
 "
 doc_conf
 "
-fh
 path
-(
-"
-.
-py
-"
-"
-r
-"
-imp
-.
-PY_SOURCE
-)
 )
     
 project
