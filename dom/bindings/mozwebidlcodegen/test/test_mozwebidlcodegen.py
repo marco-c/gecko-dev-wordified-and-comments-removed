@@ -1,6 +1,4 @@
 import
-imp
-import
 io
 import
 json
@@ -24,6 +22,7 @@ from
 mozfile
 import
 NamedTemporaryFile
+load_source
 from
 mozunit
 import
@@ -1685,8 +1684,6 @@ flush
             
 mod
 =
-imp
-.
 load_source
 (
 "

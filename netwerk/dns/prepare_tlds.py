@@ -5,18 +5,14 @@ encodings
 .
 idna
 import
-imp
-import
-os
-import
 re
 import
 sys
 from
 make_dafsa
 import
-words_to_cxx
 words_to_bin
+words_to_cxx
 "
 "
 "
@@ -107,11 +103,6 @@ UTF
 8
 "
 )
-    
-entries
-=
-[
-]
     
 domains
 =

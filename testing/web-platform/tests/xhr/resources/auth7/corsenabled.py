@@ -1,6 +1,4 @@
 import
-imp
-import
 os
 from
 wptserve
@@ -8,6 +6,14 @@ wptserve
 utils
 import
 isomorphic_decode
+from
+tools
+.
+wpt
+.
+utils
+import
+load_source
 here
 =
 os
@@ -162,8 +168,6 @@ user
     
 auth
 =
-imp
-.
 load_source
 (
 u
