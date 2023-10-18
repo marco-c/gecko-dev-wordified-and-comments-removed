@@ -194,6 +194,12 @@ ServiceWorkerDescriptor
 >
 mController
 ;
+Maybe
+<
+RFPTarget
+>
+mOverriddenFingerprintingSettings
+;
 }
 ;
 }

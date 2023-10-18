@@ -829,6 +829,13 @@ nsILoadInfo
 :
 StoragePermissionState
 aStoragePermission
+const
+Maybe
+<
+RFPTarget
+>
+&
+aOverriddenFingerprintingSettings
 bool
 aIsMetaRefresh
 uint32_t
@@ -1402,6 +1409,12 @@ nsILoadInfo
 :
 :
 NoStoragePermission
+;
+Maybe
+<
+RFPTarget
+>
+mOverriddenFingerprintingSettings
 ;
 bool
 mIsMetaRefresh
