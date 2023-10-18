@@ -3,14 +3,6 @@ sys
 from
 mozbuild
 .
-action
-.
-util
-import
-log_build_task
-from
-mozbuild
-.
 preprocessor
 import
 Preprocessor
@@ -82,9 +74,8 @@ __main__
 "
 :
     
-log_build_task
-(
 main
+(
 sys
 .
 argv

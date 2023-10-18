@@ -35,14 +35,6 @@ InstallManifest
 from
 mozbuild
 .
-action
-.
-util
-import
-log_build_task
-from
-mozbuild
-.
 util
 import
 DefinesAction
@@ -612,9 +604,8 @@ __main__
 "
 :
     
-log_build_task
-(
 main
+(
 sys
 .
 argv

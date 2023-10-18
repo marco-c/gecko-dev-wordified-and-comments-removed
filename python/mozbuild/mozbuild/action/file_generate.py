@@ -17,14 +17,6 @@ six
 from
 mozbuild
 .
-action
-.
-util
-import
-log_build_task
-from
-mozbuild
-.
 makeutil
 import
 Makefile
@@ -719,9 +711,8 @@ sys
 .
 exit
 (
-log_build_task
-(
 main
+(
 sys
 .
 argv

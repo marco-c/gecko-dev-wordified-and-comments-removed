@@ -4,14 +4,6 @@ from
 mozwebidlcodegen
 import
 create_build_system_manager
-from
-mozbuild
-.
-action
-.
-util
-import
-log_build_task
 def
 main
 (
@@ -60,9 +52,8 @@ sys
 .
 exit
 (
-log_build_task
-(
 main
+(
 sys
 .
 argv

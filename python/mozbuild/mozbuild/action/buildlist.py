@@ -49,14 +49,6 @@ sys
 from
 mozbuild
 .
-action
-.
-util
-import
-log_build_task
-from
-mozbuild
-.
 util
 import
 ensureParentDir
@@ -319,9 +311,8 @@ sys
 .
 exit
 (
-log_build_task
-(
 main
+(
 sys
 .
 argv

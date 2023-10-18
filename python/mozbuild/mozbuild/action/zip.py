@@ -32,14 +32,6 @@ mozpack
 path
 import
 match
-from
-mozbuild
-.
-action
-.
-util
-import
-log_build_task
 def
 main
 (
@@ -310,9 +302,8 @@ __main__
 "
 :
     
-log_build_task
-(
 main
+(
 sys
 .
 argv
