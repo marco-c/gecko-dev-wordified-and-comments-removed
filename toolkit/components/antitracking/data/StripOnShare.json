@@ -22,6 +22,9 @@ utm_brand
 utm_campaign
 "
 "
+utm_campaign
+"
+"
 utm_campaignid
 "
 "
@@ -29,6 +32,9 @@ utm_channel
 "
 "
 utm_cid
+"
+"
+utm_content
 "
 "
 utm_content
@@ -50,6 +56,9 @@ utm_id_
 "
 "
 utm_keyword
+"
+"
+utm_medium
 "
 "
 utm_medium
@@ -88,6 +97,9 @@ utm_social
 utm_social
 -
 type
+"
+"
+utm_source
 "
 "
 utm_source
