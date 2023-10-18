@@ -453,6 +453,12 @@ mSharedMemoryAllowed
 bool
 mShouldResistFingerprinting
 ;
+Maybe
+<
+RFPTarget
+>
+mOverriddenFingerprintingSettings
+;
 const
 OriginTrials
 mTrials
