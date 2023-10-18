@@ -5594,7 +5594,7 @@ return
 alignment
 ;
 }
-nsresult
+void
 nsMathMLmtdFrame
 :
 :
@@ -5627,9 +5627,6 @@ nsDisplaymtdBorder
 aBuilder
 this
 )
-;
-return
-NS_OK
 ;
 }
 LogicalMargin

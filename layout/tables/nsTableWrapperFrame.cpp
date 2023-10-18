@@ -2686,7 +2686,7 @@ aWM
 )
 ;
 }
-nsresult
+void
 nsTableWrapperFrame
 :
 :
@@ -2715,6 +2715,7 @@ aOrigin
 WritingMode
 aWM
 )
+const
 {
 aOrigin
 .
@@ -2787,7 +2788,6 @@ aWM
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -2800,7 +2800,6 @@ IsEmpty
 )
 {
 return
-NS_OK
 ;
 }
 NS_ASSERTION
@@ -2918,11 +2917,8 @@ aWM
 break
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsTableWrapperFrame
 :
 :
@@ -2954,6 +2950,7 @@ aOrigin
 WritingMode
 aWM
 )
+const
 {
 NS_ASSERTION
 (
@@ -3059,7 +3056,6 @@ aWM
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -3112,9 +3108,6 @@ break
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 nsTableWrapperFrame

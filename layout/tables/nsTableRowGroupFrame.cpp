@@ -664,7 +664,7 @@ aDeletedRowStoredIndex
 )
 ;
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -844,9 +844,6 @@ GetNextRow
 )
 ;
 }
-return
-NS_OK
-;
 }
 static
 void
@@ -5480,7 +5477,7 @@ return
 rowBefore
 ;
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -6749,9 +6746,6 @@ YMost
 0
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsTableRowGroupFrame

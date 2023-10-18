@@ -416,7 +416,7 @@ aLists
 override
 ;
 virtual
-nsresult
+void
 ProcessBorders
 (
 nsTableFrame

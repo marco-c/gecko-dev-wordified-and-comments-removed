@@ -403,7 +403,7 @@ int32_t
 aDeletedRowStoredIndex
 )
 ;
-nsresult
+void
 InitRepeatedFrame
 (
 nsTableRowGroupFrame
@@ -875,7 +875,7 @@ aPageBreakBeforeEnd
 nullptr
 )
 ;
-nsresult
+void
 SplitRowGroup
 (
 nsPresContext
