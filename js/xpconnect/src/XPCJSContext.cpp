@@ -5313,7 +5313,7 @@ Task
 {
 public
 :
-TaskResult
+bool
 Run
 (
 )
@@ -5327,10 +5327,7 @@ RunHelperThreadTask
 )
 ;
 return
-TaskResult
-:
-:
-Complete
+true
 ;
 }
 explicit

@@ -603,16 +603,8 @@ friend
 class
 TaskController
 ;
-enum
-class
-TaskResult
-{
-Complete
-Incomplete
-}
-;
 virtual
-TaskResult
+bool
 Run
 (
 )
