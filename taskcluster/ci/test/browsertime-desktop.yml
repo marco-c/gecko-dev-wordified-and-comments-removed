@@ -2793,6 +2793,13 @@ godot
 baseline
 :
 1500
+wasm
+-
+misc
+-
+baseline
+:
+1500
 default
 :
 900
