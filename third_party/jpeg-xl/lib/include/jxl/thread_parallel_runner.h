@@ -117,6 +117,7 @@ JXL_THREADS_EXPORT
 size_t
 JxlThreadParallelRunnerDefaultNumWorkerThreads
 (
+void
 )
 ;
 #

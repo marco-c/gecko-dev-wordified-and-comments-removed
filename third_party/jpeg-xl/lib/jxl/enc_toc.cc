@@ -23,7 +23,9 @@ lib
 /
 jxl
 /
-coeff_order
+base
+/
+common
 .
 h
 "
@@ -34,7 +36,7 @@ lib
 /
 jxl
 /
-common
+coeff_order
 .
 h
 "

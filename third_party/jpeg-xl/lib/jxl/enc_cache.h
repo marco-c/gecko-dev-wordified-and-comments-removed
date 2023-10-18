@@ -76,17 +76,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 dct_util
 .
 h
@@ -218,6 +207,9 @@ initial_quant_field
 ;
 ImageF
 initial_quant_masking
+;
+ImageF
+initial_quant_masking1x1
 ;
 std
 :

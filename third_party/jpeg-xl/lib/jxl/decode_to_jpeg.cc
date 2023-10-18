@@ -9,6 +9,17 @@ decode_to_jpeg
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+common
+.
+h
+"
 namespace
 jxl
 {

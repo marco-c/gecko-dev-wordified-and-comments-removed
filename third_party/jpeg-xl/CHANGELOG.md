@@ -111,12 +111,16 @@ encoding
 JxlEncoderSetOutputProcessor
 -
 JxlEncoderFlushInput
-and
 -
 JxlEncoderOutputProcessor
 struct
 -
 JxlEncoderSetOutputCallback
+-
+JxlChunkedFrameInputSource
+struct
+-
+JxlEncoderAddChunkedFrame
 -
 encoder
 API

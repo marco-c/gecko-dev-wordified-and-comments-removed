@@ -693,7 +693,7 @@ const
 ByteSpan
 &
 tag
-PaddedBytes
+IccBytes
 *
 output
 bool
@@ -1084,15 +1084,14 @@ chunk
 )
 ;
 }
-output
--
->
-append
-(
 chunks
 [
 index
 ]
+.
+AppendTo
+(
+output
 )
 ;
 }
@@ -1485,7 +1484,7 @@ ColorEncoding
 color_encoding
 )
 {
-PaddedBytes
+IccBytes
 icc_profile
 ;
 if

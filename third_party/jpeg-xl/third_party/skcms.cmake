@@ -301,7 +301,9 @@ lib
 /
 jxl
 /
-enc_jxl_skcms
+cms
+/
+jxl_skcms
 .
 h
 )
@@ -327,7 +329,9 @@ lib
 /
 jxl
 /
-enc_jxl_skcms
+cms
+/
+jxl_skcms
 .
 h
 )

@@ -60,6 +60,17 @@ gtest
 h
 "
 #
+include
+"
+lib
+/
+jxl
+/
+common
+.
+h
+"
+#
 ifdef
 JXL_DISABLE_SLOW_TESTS
 #

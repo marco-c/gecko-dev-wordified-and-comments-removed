@@ -25187,6 +25187,13 @@ p
 16
 ]
 ;
+if
+(
+nb_chans
+>
+1
+)
+{
 row_encoder
 .
 ProcessRow
@@ -25218,6 +25225,7 @@ p
 pcolors
 )
 ;
+}
 p
 [
 2
@@ -25250,6 +25258,13 @@ p
 16
 ]
 ;
+if
+(
+nb_chans
+>
+2
+)
+{
 row_encoder
 .
 ProcessRow
@@ -25281,6 +25296,7 @@ p
 pcolors
 )
 ;
+}
 p
 [
 3
@@ -25313,6 +25329,13 @@ p
 16
 ]
 ;
+if
+(
+nb_chans
+>
+3
+)
+{
 row_encoder
 .
 ProcessRow
@@ -25344,6 +25367,7 @@ p
 pcolors
 )
 ;
+}
 row_encoder
 .
 Finalize

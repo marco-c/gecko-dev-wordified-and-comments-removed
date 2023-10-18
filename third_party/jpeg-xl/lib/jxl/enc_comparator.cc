@@ -48,17 +48,6 @@ lib
 /
 jxl
 /
-color_management
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_gamma_correct
 .
 h

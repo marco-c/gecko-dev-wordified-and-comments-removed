@@ -42,7 +42,7 @@ jxl
 /
 base
 /
-span
+common
 .
 h
 "
@@ -53,7 +53,9 @@ lib
 /
 jxl
 /
-common
+base
+/
+span
 .
 h
 "

@@ -69,7 +69,9 @@ lib
 /
 jxl
 /
-common
+cms
+/
+opsin_params
 .
 h
 "
@@ -124,7 +126,7 @@ lib
 /
 jxl
 /
-image
+frame_dimensions
 .
 h
 "
@@ -135,7 +137,7 @@ lib
 /
 jxl
 /
-opsin_params
+image
 .
 h
 "
@@ -742,6 +744,12 @@ base_correlation_x_
 float
 base_correlation_b_
 =
+jxl
+:
+:
+cms
+:
+:
 kYToBRatio
 ;
 int32_t

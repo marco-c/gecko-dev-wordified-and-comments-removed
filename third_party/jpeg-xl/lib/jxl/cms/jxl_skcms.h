@@ -12,7 +12,7 @@ error
 "
 Must
 include
-enc_jxl_skcms
+jxl_skcms
 .
 h
 and

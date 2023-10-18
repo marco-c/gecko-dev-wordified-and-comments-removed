@@ -113,17 +113,6 @@ lib
 /
 jxl
 /
-opsin_params
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 sanitizers
 .
 h

@@ -6561,6 +6561,11 @@ enc_state
 -
 >
 initial_quant_masking
+&
+enc_state
+-
+>
+initial_quant_masking1x1
 )
 ;
 quantizer

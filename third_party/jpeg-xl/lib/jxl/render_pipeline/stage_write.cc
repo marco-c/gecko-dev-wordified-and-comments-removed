@@ -29,6 +29,8 @@ lib
 /
 jxl
 /
+base
+/
 common
 .
 h

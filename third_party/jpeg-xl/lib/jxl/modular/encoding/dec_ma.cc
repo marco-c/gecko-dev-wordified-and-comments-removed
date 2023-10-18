@@ -65,6 +65,17 @@ modular_image
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+pack_signed
+.
+h
+"
 namespace
 jxl
 {

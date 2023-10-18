@@ -49,6 +49,7 @@ JxlEncoderStats
 *
 JxlEncoderStatsCreate
 (
+void
 )
 ;
 JXL_EXPORT

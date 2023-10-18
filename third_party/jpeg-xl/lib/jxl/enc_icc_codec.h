@@ -20,6 +20,11 @@ h
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 lib
 /
@@ -89,7 +94,13 @@ Status
 WriteICC
 (
 const
-PaddedBytes
+std
+:
+:
+vector
+<
+uint8_t
+>
 &
 icc
 BitWriter

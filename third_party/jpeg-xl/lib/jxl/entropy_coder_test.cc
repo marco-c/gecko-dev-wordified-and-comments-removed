@@ -25,7 +25,7 @@ lib
 /
 jxl
 /
-common
+dec_ans
 .
 h
 "
@@ -36,7 +36,7 @@ lib
 /
 jxl
 /
-dec_ans
+pack_signed
 .
 h
 "

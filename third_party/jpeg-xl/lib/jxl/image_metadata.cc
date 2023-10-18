@@ -63,7 +63,9 @@ lib
 /
 jxl
 /
-color_management
+cms
+/
+opsin_params
 .
 h
 "
@@ -2838,6 +2840,12 @@ visitor
 >
 F16
 (
+jxl
+:
+:
+cms
+:
+:
 DefaultInverseOpsinAbsorbanceMatrix
 (
 )
@@ -2876,6 +2884,12 @@ visitor
 >
 F16
 (
+jxl
+:
+:
+cms
+:
+:
 kNegOpsinAbsorbanceBiasRGB
 [
 i

@@ -65,17 +65,6 @@ lib
 /
 jxl
 /
-color_management
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 fields
 .
 h

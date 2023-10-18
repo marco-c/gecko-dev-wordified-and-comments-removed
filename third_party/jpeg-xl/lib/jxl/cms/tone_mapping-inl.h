@@ -2,7 +2,7 @@
 if
 defined
 (
-LIB_JXL_DEC_TONE_MAPPING_INL_H_
+LIB_JXL_CMS_TONE_MAPPING_INL_H_
 )
 =
 =
@@ -12,15 +12,15 @@ HWY_TARGET_TOGGLE
 )
 #
 ifdef
-LIB_JXL_DEC_TONE_MAPPING_INL_H_
+LIB_JXL_CMS_TONE_MAPPING_INL_H_
 #
 undef
-LIB_JXL_DEC_TONE_MAPPING_INL_H_
+LIB_JXL_CMS_TONE_MAPPING_INL_H_
 #
 else
 #
 define
-LIB_JXL_DEC_TONE_MAPPING_INL_H_
+LIB_JXL_CMS_TONE_MAPPING_INL_H_
 #
 endif
 #
@@ -38,6 +38,8 @@ include
 lib
 /
 jxl
+/
+cms
 /
 transfer_functions
 -
