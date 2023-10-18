@@ -16602,6 +16602,7 @@ arm
 arm64
 loong64
 mips64
+riscv64
 )
 ;
 void
@@ -16616,6 +16617,7 @@ arm
 arm64
 loong64
 mips64
+riscv64
 )
 ;
 #
