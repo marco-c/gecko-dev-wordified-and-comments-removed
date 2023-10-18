@@ -2378,7 +2378,7 @@ true
 #
 endif
 virtual
-bool
+TaskResult
 Run
 (
 )
@@ -2419,7 +2419,10 @@ hr
 )
 {
 return
-true
+TaskResult
+:
+:
+Complete
 ;
 }
 gVirtualDesktopManager
@@ -2427,7 +2430,10 @@ gVirtualDesktopManager
 desktopManager
 ;
 return
-true
+TaskResult
+:
+:
+Complete
 ;
 }
 }

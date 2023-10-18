@@ -670,7 +670,7 @@ aTask
 )
 {
 }
-bool
+TaskResult
 Run
 (
 )
@@ -684,7 +684,10 @@ Run
 )
 ;
 return
-true
+TaskResult
+:
+:
+Complete
 ;
 }
 #
