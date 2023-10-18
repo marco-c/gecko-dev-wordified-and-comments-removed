@@ -4291,7 +4291,12 @@ aIter
 {
 RemoveCookieFromDB
 (
+*
 aIter
+.
+Cookie
+(
+)
 )
 ;
 RemoveCookieFromListInternal
