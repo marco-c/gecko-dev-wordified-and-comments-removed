@@ -2776,7 +2776,7 @@ wasmLoadI64
 (
 *
 access
-HeapReg
+memoryBase
 ptr
 ptr
 dest
@@ -2795,7 +2795,7 @@ wasmLoad
 (
 *
 access
-HeapReg
+memoryBase
 ptr
 ptr
 dest
@@ -3810,7 +3810,7 @@ src
 i64
 (
 )
-HeapReg
+memoryBase
 ptr
 ptr
 )
@@ -3829,7 +3829,7 @@ src
 any
 (
 )
-HeapReg
+memoryBase
 ptr
 ptr
 )
