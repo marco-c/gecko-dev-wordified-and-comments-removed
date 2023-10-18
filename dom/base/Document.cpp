@@ -77600,6 +77600,7 @@ nsRFPService
 IsRFPEnabledFor
 (
 aTarget
+mOverriddenFingerprintingSettings
 )
 ;
 }

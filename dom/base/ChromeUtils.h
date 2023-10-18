@@ -1593,6 +1593,13 @@ GlobalObject
 aGlobal
 JSRFPTarget
 aTarget
+const
+Nullable
+<
+uint64_t
+>
+&
+aOverriddenFingerprintingSettings
 )
 ;
 private

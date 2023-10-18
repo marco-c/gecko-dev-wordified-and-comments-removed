@@ -2569,6 +2569,15 @@ shouldResistFingerprinting
 "
 SiteSpecificZoom
 "
+aBrowser
+?
+.
+browsingContext
+?
+.
+topWindowContext
+.
+overriddenFingerprintingSettings
 )
 )
 ;

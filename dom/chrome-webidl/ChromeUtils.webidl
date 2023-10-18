@@ -4425,6 +4425,11 @@ shouldResistFingerprinting
 (
 JSRFPTarget
 target
+unsigned
+long
+long
+?
+overriddenFingerprintingSettings
 )
 ;
 }
