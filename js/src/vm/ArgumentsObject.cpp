@@ -202,7 +202,7 @@ uint8_t
 *
 data
 =
-AllocateObjectBuffer
+AllocateCellBuffer
 <
 uint8_t
 >
@@ -1662,7 +1662,7 @@ ArgumentsData
 *
 >
 (
-AllocateObjectBuffer
+AllocateCellBuffer
 <
 uint8_t
 >
@@ -2322,7 +2322,7 @@ ArgumentsData
 *
 >
 (
-AllocateObjectBuffer
+AllocateCellBuffer
 <
 uint8_t
 >

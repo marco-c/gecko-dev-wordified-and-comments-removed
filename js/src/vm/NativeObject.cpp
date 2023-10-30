@@ -1628,7 +1628,7 @@ HeapSlot
 *
 allocation
 =
-ReallocateObjectBuffer
+ReallocateCellBuffer
 <
 HeapSlot
 >
@@ -1847,7 +1847,7 @@ HeapSlot
 *
 allocation
 =
-AllocateObjectBuffer
+AllocateCellBuffer
 <
 HeapSlot
 >
@@ -1997,7 +1997,7 @@ HeapSlot
 *
 allocation
 =
-AllocateObjectBuffer
+AllocateCellBuffer
 <
 HeapSlot
 >
@@ -2547,7 +2547,7 @@ HeapSlot
 *
 allocation
 =
-ReallocateObjectBuffer
+ReallocateCellBuffer
 <
 HeapSlot
 >
@@ -4329,7 +4329,7 @@ numShifted
 ;
 newHeaderSlots
 =
-ReallocateObjectBuffer
+ReallocateCellBuffer
 <
 HeapSlot
 >
@@ -4356,7 +4356,7 @@ else
 {
 newHeaderSlots
 =
-AllocateObjectBuffer
+AllocateCellBuffer
 <
 HeapSlot
 >
@@ -4677,7 +4677,7 @@ HeapSlot
 *
 newHeaderSlots
 =
-ReallocateObjectBuffer
+ReallocateCellBuffer
 <
 HeapSlot
 >

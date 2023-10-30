@@ -516,7 +516,10 @@ heapDigits_
 js
 :
 :
-AllocateBigIntDigits
+AllocateCellBuffer
+<
+Digit
+>
 (
 cx
 x
@@ -7816,7 +7819,10 @@ newdigits
 js
 :
 :
-ReallocateBigIntDigits
+ReallocateCellBuffer
+<
+Digit
+>
 (
 cx
 x
