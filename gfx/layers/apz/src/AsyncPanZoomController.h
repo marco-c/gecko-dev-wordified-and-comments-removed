@@ -2710,11 +2710,6 @@ PanZoomState
 aNewState
 )
 ;
-void
-SendTransformBeginAndEnd
-(
-)
-;
 bool
 IsInTransformingState
 (
@@ -2972,15 +2967,6 @@ ScrollOrigin
 &
 aOrigin
 )
-;
-ParentLayerPoint
-ConvertDestinationToDelta
-(
-CSSPoint
-&
-aDestination
-)
-const
 ;
 void
 SmoothMsdScrollTo
