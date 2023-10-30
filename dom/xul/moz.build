@@ -59,7 +59,7 @@ test
 /
 mochitest
 .
-ini
+toml
 "
 ]
 EXPORTS

@@ -1200,7 +1200,7 @@ jquery
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1211,7 +1211,7 @@ mochikit
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1222,7 +1222,7 @@ prototype
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1233,7 +1233,7 @@ scriptaculous
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1242,7 +1242,7 @@ beacon
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1251,7 +1251,7 @@ bugs
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1260,7 +1260,7 @@ crypto
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1271,7 +1271,7 @@ level0
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1284,7 +1284,7 @@ core
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1297,7 +1297,7 @@ core
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1310,7 +1310,7 @@ html
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1319,7 +1319,7 @@ fetch
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1328,7 +1328,7 @@ gamepad
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1337,7 +1337,7 @@ general
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1346,7 +1346,7 @@ geolocation
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1357,7 +1357,7 @@ gemm
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1366,7 +1366,7 @@ keyhandling
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1375,7 +1375,7 @@ localstorage
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1384,7 +1384,7 @@ orientation
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1393,7 +1393,7 @@ pointerlock
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1402,7 +1402,7 @@ script
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1411,7 +1411,7 @@ sessionstorage
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1420,7 +1420,7 @@ storageevent
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1429,7 +1429,7 @@ webcomponents
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -1438,7 +1438,7 @@ whatwg
 /
 mochitest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
@@ -1545,7 +1545,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS
