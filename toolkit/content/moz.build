@@ -702,7 +702,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -727,7 +727,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -777,7 +777,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -801,7 +801,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -1510,7 +1510,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -1535,7 +1535,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -1583,7 +1583,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -1907,7 +1907,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -1927,7 +1927,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -1967,7 +1967,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
@@ -2006,7 +2006,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-XUL
+UI
 Widgets
 "
 )
