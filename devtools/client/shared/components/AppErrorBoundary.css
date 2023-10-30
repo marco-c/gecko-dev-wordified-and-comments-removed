@@ -112,6 +112,12 @@ family
 :
 inherit
 ;
+font
+-
+size
+:
+16px
+;
 margin
 :
 0
@@ -172,7 +178,9 @@ font
 -
 size
 :
-22px
+1
+.
+5em
 ;
 font
 -
@@ -237,7 +245,7 @@ font
 -
 size
 :
-15px
+1em
 ;
 font
 -
@@ -412,7 +420,9 @@ font
 -
 size
 :
-17px
+1
+.
+2em
 ;
 font
 -
@@ -591,7 +601,7 @@ font
 -
 size
 :
-15px
+1em
 ;
 font
 -
