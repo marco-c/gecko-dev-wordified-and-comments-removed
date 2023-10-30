@@ -2898,6 +2898,15 @@ record
 {
 }
 }
+prefChanged
+:
+{
+record
+(
+)
+{
+}
+}
 }
 topSites
 :
