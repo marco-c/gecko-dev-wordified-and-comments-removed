@@ -120,7 +120,7 @@ locales
 \
 openjdk
 -
-8
+17
 -
 jre
 -
@@ -380,6 +380,16 @@ a
 -
 G
 sudo
+test
+\
+&
+&
+usermod
+-
+a
+-
+G
+kvm
 test
 \
 &

@@ -5068,6 +5068,14 @@ bind_address
                                                   
 config
 log_handlers
+dict
+(
+*
+*
+os
+.
+environ
+)
 )
                                             
 name
@@ -5122,6 +5130,7 @@ bind_address
                       
 config
 log_handlers
+env
 *
 *
 kwargs
@@ -5134,6 +5143,12 @@ reload
 (
 logging
 )
+        
+os
+.
+environ
+=
+env
         
 logger
 =

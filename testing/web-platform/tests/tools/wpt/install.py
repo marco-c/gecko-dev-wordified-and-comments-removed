@@ -33,6 +33,14 @@ nightly
 '
     
 '
+firefox_android
+'
+:
+'
+nightly
+'
+    
+'
 chrome
 '
 :

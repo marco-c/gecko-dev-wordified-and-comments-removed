@@ -1086,6 +1086,25 @@ append
 privileged
 "
 )
+        
+args
+.
+extend
+(
+[
+"
+-
+-
+device
+"
+"
+/
+dev
+/
+kvm
+"
+]
+)
     
 if
 kwargs
