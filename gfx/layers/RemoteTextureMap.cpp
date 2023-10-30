@@ -5636,7 +5636,7 @@ mIsContextLost
 )
 {
 return
-false
+true
 ;
 }
 const
