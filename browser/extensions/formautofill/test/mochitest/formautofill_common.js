@@ -1934,6 +1934,8 @@ const
 number
 =
 record
+.
+cc
 [
 "
 cc
@@ -1966,6 +1968,9 @@ substr
 }
 ;
 return
+{
+cc
+:
 Object
 .
 assign
@@ -1973,10 +1978,18 @@ assign
 {
 }
 record
+.
+cc
 {
 ccNumberFmt
 }
 )
+expected
+:
+record
+.
+expected
+}
 ;
 }
 function
