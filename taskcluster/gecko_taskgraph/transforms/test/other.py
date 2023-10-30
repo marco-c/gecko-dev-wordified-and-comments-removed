@@ -3042,6 +3042,20 @@ win64
 chromium
 "
 ]
+            
+"
+android
+.
+*
+"
+:
+[
+"
+linux64
+-
+chromium
+"
+]
         
 }
         
@@ -3136,6 +3150,8 @@ platform
 )
         
 if
+(
+            
 "
 -
 -
@@ -3145,6 +3161,7 @@ chromium
 "
 in
 extra_options
+            
 or
 "
 -
@@ -3157,6 +3174,23 @@ car
 "
 in
 extra_options
+            
+or
+"
+-
+-
+app
+=
+cstm
+-
+car
+-
+m
+"
+in
+extra_options
+        
+)
 :
             
 for
@@ -3238,6 +3272,20 @@ if
 app
 =
 chrome
+-
+m
+"
+in
+extra_options
+or
+"
+-
+-
+app
+=
+cstm
+-
+car
 -
 m
 "
@@ -3683,6 +3731,13 @@ refbrow
 "
 "
 chrome
+-
+m
+"
+"
+cstm
+-
+car
 -
 m
 "
