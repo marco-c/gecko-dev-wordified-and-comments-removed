@@ -260,11 +260,6 @@ aSingleChild
 nullptr
 )
 ;
-bool
-IsValid
-(
-)
-;
 nsresult
 AttributeChanged
 (
@@ -400,6 +395,11 @@ const
 gfxMatrix
 &
 aMatrix
+)
+;
+bool
+IsValid
+(
 )
 ;
 gfxMatrix
