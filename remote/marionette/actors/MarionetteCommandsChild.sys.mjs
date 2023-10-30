@@ -1125,6 +1125,7 @@ const
 {
 seenNodeIds
 serializedValue
+hasSerializedWindows
 }
 =
 lazy
@@ -1192,6 +1193,7 @@ flat
 (
 )
 serializedValue
+hasSerializedWindows
 }
 ;
 }
