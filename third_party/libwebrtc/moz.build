@@ -3793,6 +3793,16 @@ libwebrtc
 /
 rtc_base
 /
+bitrate_tracker_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 bitstream_reader_gn
 "
 "
