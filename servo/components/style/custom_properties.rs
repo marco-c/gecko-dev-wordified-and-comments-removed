@@ -4412,9 +4412,6 @@ Context
 '
 b
 >
-is_root_element
-:
-bool
 }
 impl
 <
@@ -4457,9 +4454,6 @@ Context
 '
 b
 >
-is_root_element
-:
-bool
 )
 -
 >
@@ -4480,6 +4474,15 @@ initial_values
 stylist
 .
 get_custom_property_initial_values
+(
+)
+;
+let
+is_root_element
+=
+computed_context
+.
+is_root_element
 (
 )
 ;
@@ -4553,7 +4556,6 @@ clone
 }
 stylist
 computed_context
-is_root_element
 }
 }
 pub
@@ -4734,9 +4736,6 @@ stylist
 self
 .
 computed_context
-self
-.
-is_root_element
 )
 ;
 return
@@ -5538,9 +5537,6 @@ stylist
 self
 .
 computed_context
-self
-.
-is_root_element
 )
 ;
 }
@@ -5673,9 +5669,6 @@ computed
 :
 :
 Context
-is_root_element
-:
-bool
 )
 {
 #
@@ -5766,9 +5759,6 @@ Context
 '
 b
 >
-is_root_element
-:
-bool
 }
 fn
 traverse
@@ -6290,9 +6280,6 @@ stylist
 context
 .
 computed_context
-context
-.
-is_root_element
 )
 ;
 None
@@ -6340,7 +6327,6 @@ map
 custom_properties_map
 stylist
 computed_context
-is_root_element
 }
 ;
 traverse
@@ -6533,9 +6519,6 @@ computed
 :
 :
 Context
-is_root_element
-:
-bool
 )
 {
 debug_assert
@@ -6554,6 +6537,15 @@ inherited
 computed_context
 .
 inherited_custom_properties
+(
+)
+;
+let
+is_root_element
+=
+computed_context
+.
+is_root_element
 (
 )
 ;

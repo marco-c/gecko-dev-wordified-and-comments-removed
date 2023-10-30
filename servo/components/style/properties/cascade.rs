@@ -1581,7 +1581,6 @@ stylist
 cascade
 .
 context
-is_root_element
 )
 ;
 iter_declarations
