@@ -548,9 +548,6 @@ protected
 class
 AdvanceAndResumeMessage
 ;
-class
-CheckForInactiveMessage
-;
 void
 OnGraphThreadDone
 (
