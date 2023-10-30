@@ -136,6 +136,13 @@ Vec
 <
 SuggestionProvider
 >
+pub
+limit
+:
+Option
+<
+i32
+>
 }
 uniffi
 :

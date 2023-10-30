@@ -25,7 +25,7 @@ VERSION
 :
 u32
 =
-6
+8
 ;
 pub
 const
@@ -86,7 +86,7 @@ ROWID
 ;
 CREATE
 TABLE
-pocket_keywords
+prefix_keywords
 (
 keyword_prefix
 TEXT
@@ -103,6 +103,8 @@ confidence
 INTEGER
 NOT
 NULL
+DEFAULT
+0
 rank
 INTEGER
 NOT
@@ -509,7 +511,7 @@ version
 .
 .
 =
-5
+7
 =
 >
 {
