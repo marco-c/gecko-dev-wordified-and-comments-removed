@@ -2834,6 +2834,15 @@ winmm
 lib
 "
 ]
+deps
++
+=
+[
+"
+:
+win32
+"
+]
 }
 }
 rtc_library
@@ -5368,10 +5377,6 @@ byte_order
 "
 :
 checks
-"
-"
-:
-logging
 "
 "
 :
