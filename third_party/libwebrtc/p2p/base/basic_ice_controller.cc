@@ -2673,7 +2673,16 @@ size
 "
 available
 connections
+due
+to
+:
 "
+<
+<
+IceSwitchReasonToString
+(
+reason
+)
 ;
 for
 (
