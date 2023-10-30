@@ -3311,7 +3311,7 @@ rust_build_kind
 class
 BaseRustProgram
 (
-ContextDerived
+Linkable
 )
 :
     
@@ -3355,7 +3355,7 @@ cargo_file
 )
 :
         
-ContextDerived
+Linkable
 .
 __init__
 (
