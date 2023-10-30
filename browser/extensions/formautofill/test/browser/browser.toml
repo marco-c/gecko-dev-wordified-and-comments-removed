@@ -137,6 +137,13 @@ js
 ]
 [
 "
+browser_confirmation_popup
+.
+js
+"
+]
+[
+"
 browser_dropdown_layout
 .
 js
