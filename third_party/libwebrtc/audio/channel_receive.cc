@@ -501,6 +501,8 @@ size_t
 jitter_buffer_max_packets
 bool
 jitter_buffer_fast_playout
+int
+jitter_buffer_min_delay_ms
 )
 {
 acm2
@@ -555,6 +557,14 @@ neteq_config
 enable_muted_state
 =
 true
+;
+acm_config
+.
+neteq_config
+.
+min_delay_ms
+=
+jitter_buffer_min_delay_ms
 ;
 return
 acm_config
@@ -2543,6 +2553,7 @@ decoder_factory
 codec_pair_id
 jitter_buffer_max_packets
 jitter_buffer_fast_playout
+jitter_buffer_min_delay_ms
 )
 )
 _outputAudioLevel
