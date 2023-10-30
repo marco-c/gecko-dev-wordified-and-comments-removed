@@ -676,12 +676,6 @@ h
 patches
 :
 -
-solaris
--
-types
-.
-patch
--
 memory
 -
 reporting
