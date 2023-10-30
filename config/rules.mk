@@ -165,7 +165,7 @@ config
 rebuild_check
 .
 py
-^
+?
 )
 )
 REPORT_BUILD_VERBOSE
