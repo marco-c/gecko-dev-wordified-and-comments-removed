@@ -1253,9 +1253,15 @@ s
 02x
 "
 profile_idc_iop_string
+static_cast
+<
+unsigned
+>
+(
 profile_level_id
 .
 level
+)
 )
 ;
 return
