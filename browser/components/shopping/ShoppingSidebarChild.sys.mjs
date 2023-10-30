@@ -683,6 +683,16 @@ click
 aid
 )
 ;
+Glean
+.
+shopping
+.
+surfaceAdsClicked
+.
+record
+(
+)
+;
 break
 ;
 case
