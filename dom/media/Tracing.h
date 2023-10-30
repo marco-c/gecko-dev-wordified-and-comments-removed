@@ -133,7 +133,7 @@ __VA_ARGS__
 define
 TRACE_AUDIO_CALLBACK_BUDGET
 (
-id
+aLocation
 aFrames
 aSampleRate
 )
@@ -142,7 +142,7 @@ AutoTracer
 budget
 (
 gAudioCallbackTraceLogger
-id
+aLocation
 \
 AutoTracer
 :
@@ -176,6 +176,7 @@ aFmt
 define
 TRACE_AUDIO_CALLBACK_BUDGET
 (
+aLocation
 aFrames
 aSampleRate
 )
