@@ -723,7 +723,5 @@ world
 "
 )
 ;
-return
-;
 }
 }

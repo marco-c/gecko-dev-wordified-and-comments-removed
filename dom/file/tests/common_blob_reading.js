@@ -338,8 +338,6 @@ data
 message
 )
 ;
-return
-;
 }
 }
 ;

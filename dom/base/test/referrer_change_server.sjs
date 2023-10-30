@@ -607,7 +607,6 @@ write
 return
 ;
 }
-else
 if
 (
 action
@@ -956,7 +955,6 @@ false
 return
 ;
 }
-else
 if
 (
 action
@@ -1027,7 +1025,6 @@ sharedKey
 return
 ;
 }
-else
 if
 (
 action
@@ -1188,7 +1185,6 @@ name
 return
 ;
 }
-else
 if
 (
 action
@@ -1349,8 +1345,6 @@ name
 return
 ;
 }
-else
-{
 response
 .
 write
@@ -1367,7 +1361,4 @@ action
 action
 )
 ;
-return
-;
-}
 }

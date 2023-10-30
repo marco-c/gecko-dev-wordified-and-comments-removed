@@ -373,7 +373,5 @@ write
 LINK_CLICK_NAVIGATION
 )
 ;
-return
-;
 }
 }

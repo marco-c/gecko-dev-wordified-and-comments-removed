@@ -162,6 +162,4 @@ loc
 false
 )
 ;
-return
-;
 }

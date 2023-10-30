@@ -110,7 +110,5 @@ newLocation
 false
 )
 ;
-return
-;
 }
 }

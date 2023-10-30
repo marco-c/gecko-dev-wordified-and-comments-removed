@@ -49,7 +49,6 @@ fetch
 return
 ;
 }
-else
 if
 (
 mode
@@ -74,8 +73,6 @@ event
 request
 )
 )
-;
-return
 ;
 }
 }

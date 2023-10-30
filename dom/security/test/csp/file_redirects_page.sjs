@@ -1162,7 +1162,5 @@ script
 '
 )
 ;
-return
-;
 }
 }

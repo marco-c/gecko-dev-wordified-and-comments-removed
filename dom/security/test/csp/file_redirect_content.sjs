@@ -408,6 +408,4 @@ write
 content
 )
 ;
-return
-;
 }

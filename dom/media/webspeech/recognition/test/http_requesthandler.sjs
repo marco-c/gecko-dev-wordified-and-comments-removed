@@ -278,7 +278,6 @@ finish
 return
 ;
 }
-else
 if
 (
 request

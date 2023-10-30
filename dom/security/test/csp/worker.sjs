@@ -674,6 +674,4 @@ action
 "
 )
 ;
-return
-;
 }

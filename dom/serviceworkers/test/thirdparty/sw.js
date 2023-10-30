@@ -256,8 +256,6 @@ javascript
 )
 )
 ;
-return
-;
 }
 }
 )

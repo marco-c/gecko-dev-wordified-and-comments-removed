@@ -333,6 +333,4 @@ write
 content
 )
 ;
-return
-;
 }

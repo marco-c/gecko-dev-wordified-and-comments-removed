@@ -36,8 +36,6 @@ clientId
 )
 )
 ;
-return
-;
 }
 }
 ;

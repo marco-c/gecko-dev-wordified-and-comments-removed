@@ -1138,7 +1138,7 @@ executeTest
 testWindow
 )
 ;
-return
+break
 ;
 case
 "
@@ -1166,7 +1166,7 @@ message
 )
 ;
 }
-return
+break
 ;
 case
 "
@@ -1201,7 +1201,7 @@ finish
 (
 )
 ;
-return
+break
 ;
 }
 }

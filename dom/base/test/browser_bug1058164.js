@@ -433,8 +433,6 @@ length
 return
 ;
 }
-else
-{
 rmvHide
 (
 )
@@ -483,7 +481,6 @@ resolve
 (
 )
 ;
-}
 }
 ;
 let

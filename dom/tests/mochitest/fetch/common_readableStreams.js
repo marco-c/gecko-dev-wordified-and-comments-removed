@@ -2355,8 +2355,6 @@ data
 message
 )
 ;
-return
-;
 }
 }
 ;
