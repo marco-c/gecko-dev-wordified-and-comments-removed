@@ -209,8 +209,7 @@ uint8_t
 aCert
 )
 override
-{
-}
+;
 void
 UpdateSession
 (
