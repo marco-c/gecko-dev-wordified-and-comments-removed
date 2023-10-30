@@ -17,7 +17,7 @@ autoTranslatePage
 {
 page
 :
-TRANSLATIONS_TESTER_ES
+SPANISH_PAGE_URL
 languagePairs
 :
 [
@@ -317,7 +317,7 @@ autoTranslatePage
 {
 page
 :
-TRANSLATIONS_TESTER_EN
+ENGLISH_PAGE_URL
 languagePairs
 :
 [
@@ -471,7 +471,7 @@ autoTranslatePage
 {
 page
 :
-TRANSLATIONS_TESTER_NO_TAG
+NO_LANGUAGE_URL
 detectedLangTag
 :
 "
