@@ -68,7 +68,7 @@ json
 "
 )
   
-is_account_auto_selected
+is_identity_credential_auto_selected
 =
 request
 .
@@ -78,7 +78,7 @@ get
 (
 b
 "
-is_account_auto_selected
+is_identity_credential_auto_selected
 "
 )
   
@@ -93,11 +93,11 @@ token
 :
 \
 "
-is_account_auto_selected
+is_identity_credential_auto_selected
 =
 "
 +
-is_account_auto_selected
+is_identity_credential_auto_selected
 .
 decode
 (
