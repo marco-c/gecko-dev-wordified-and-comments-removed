@@ -99,10 +99,8 @@ already_AddRefed
 <
 TaskQueue
 >
-CreateTaskQueue
+CreateWorkerTaskQueue
 (
-bool
-aPreferWorkers
 )
 ;
 static
