@@ -646,6 +646,12 @@ values
 :
         
 if
+isinstance
+(
+paths
+dict
+)
+and
 "
 manifest_path
 "
@@ -896,6 +902,29 @@ values
 )
 :
         
+manifest_path
+=
+(
+            
+paths
+[
+"
+manifest_path
+"
+]
+if
+isinstance
+(
+paths
+dict
+)
+else
+paths
+.
+manifest_path
+        
+)
+        
 manifest_dir
 =
 os
@@ -904,12 +933,7 @@ path
 .
 dirname
 (
-paths
-[
-"
 manifest_path
-"
-]
 )
         
 if
@@ -1418,12 +1442,26 @@ items
         
 manifest_path
 =
+(
+            
 paths
 [
 "
 manifest_path
 "
 ]
+if
+isinstance
+(
+paths
+dict
+)
+else
+paths
+.
+manifest_path
+        
+)
         
 this_cache_root
 =
