@@ -1284,7 +1284,7 @@ if
 fun
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )
@@ -1308,7 +1308,7 @@ bufsize
 fun
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 0

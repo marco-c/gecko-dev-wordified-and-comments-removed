@@ -45921,7 +45921,7 @@ RootedString
 displayId
 (
 cx
-JS_GetFunctionDisplayId
+JS_GetMaybePartialFunctionDisplayId
 (
 function
 )

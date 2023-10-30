@@ -158,7 +158,7 @@ if
 fun
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )
@@ -179,7 +179,7 @@ cx
 fun
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )

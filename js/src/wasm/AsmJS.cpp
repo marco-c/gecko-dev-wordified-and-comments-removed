@@ -39872,7 +39872,7 @@ JSFunction
 (
 )
 .
-explicitName
+fullExplicitName
 (
 )
 )
@@ -41559,7 +41559,7 @@ if
 fun
 -
 >
-explicitName
+fullExplicitName
 (
 )
 &
@@ -41572,7 +41572,7 @@ append
 fun
 -
 >
-explicitName
+fullExplicitName
 (
 )
 )
@@ -41841,7 +41841,7 @@ MOZ_ASSERT
 fun
 -
 >
-explicitName
+fullExplicitName
 (
 )
 )
@@ -41856,7 +41856,7 @@ append
 fun
 -
 >
-explicitName
+fullExplicitName
 (
 )
 )

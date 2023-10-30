@@ -7526,7 +7526,7 @@ if
 fun
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )
@@ -7546,7 +7546,7 @@ out
 fun
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 0

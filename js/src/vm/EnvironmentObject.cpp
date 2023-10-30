@@ -20541,7 +20541,7 @@ cx
 fun
 -
 >
-explicitName
+fullExplicitName
 (
 )
 -
@@ -22620,7 +22620,7 @@ function
 )
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
@@ -22687,7 +22687,7 @@ function
 )
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )

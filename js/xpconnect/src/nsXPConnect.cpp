@@ -3277,7 +3277,7 @@ RootedString
 funName
 (
 cx
-JS_GetFunctionDisplayId
+JS_GetMaybePartialFunctionDisplayId
 (
 fun
 )

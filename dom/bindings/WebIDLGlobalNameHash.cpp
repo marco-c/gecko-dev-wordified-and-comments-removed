@@ -299,7 +299,7 @@ toObject
 ;
 if
 (
-JS_GetFunctionId
+JS_GetMaybePartialFunctionId
 (
 JS_GetObjectFunction
 (

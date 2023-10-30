@@ -18948,7 +18948,7 @@ cx
 fun
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
@@ -20609,7 +20609,7 @@ if
 fun
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
@@ -20628,7 +20628,7 @@ cx
 fun
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )

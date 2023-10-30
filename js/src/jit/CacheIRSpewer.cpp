@@ -2388,7 +2388,7 @@ JSFunction
 (
 )
 .
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )

@@ -738,7 +738,7 @@ JSString
 displayId
 (
 cx
-JS_GetFunctionDisplayId
+JS_GetMaybePartialFunctionDisplayId
 (
 rootedFunction
 )

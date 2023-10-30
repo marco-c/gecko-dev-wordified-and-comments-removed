@@ -2623,7 +2623,7 @@ fun
 fun
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
@@ -2635,7 +2635,7 @@ atom
 fun
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 ;

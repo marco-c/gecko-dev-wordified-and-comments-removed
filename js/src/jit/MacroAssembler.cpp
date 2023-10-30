@@ -24888,6 +24888,11 @@ FunctionFlags
 :
 :
 RESOLVED_NAME
+|
+FunctionFlags
+:
+:
+LAZY_ACCESSOR_NAME
 )
 slowPath
 )

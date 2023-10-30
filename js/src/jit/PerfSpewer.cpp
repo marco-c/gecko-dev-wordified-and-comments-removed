@@ -5602,7 +5602,7 @@ function
 )
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )
@@ -5620,7 +5620,7 @@ function
 )
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )
