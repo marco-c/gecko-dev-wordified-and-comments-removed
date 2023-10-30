@@ -4204,6 +4204,14 @@ pmpHost
 NS_ERROR_FAILURE
 )
 ;
+if
+(
+IsPlayReadyKeySystemAndSupported
+(
+mKeySystem
+)
+)
+{
 MFCDM_REJECT_IF_FAILED
 (
 SUCCEEDED
@@ -4248,6 +4256,7 @@ CDM
 "
 )
 ;
+}
 aResolver
 (
 MFCDMInitIPDL
