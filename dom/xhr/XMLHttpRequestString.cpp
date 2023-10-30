@@ -347,6 +347,7 @@ nsString
 UnsafeData
 (
 )
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 return
 mData
