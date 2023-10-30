@@ -8270,6 +8270,16 @@ stats
 protocol
 )
 ;
+if
+(
+stats
+.
+id
+>
+=
+0
+)
+{
 data_channel_stats
 -
 >
@@ -8279,6 +8289,7 @@ stats
 .
 id
 ;
+}
 data_channel_stats
 -
 >
