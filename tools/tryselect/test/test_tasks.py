@@ -21,7 +21,7 @@ patch_resolver
     
 tasks
 =
-[
+{
 "
 foobar
 /
@@ -29,17 +29,26 @@ xpcshell
 -
 1
 "
+:
+{
+}
 "
 foobar
 /
 mochitest
 "
+:
+{
+}
 "
 foobar
 /
 xpcshell
 "
-]
+:
+{
+}
+}
     
 patch_resolver
 (
