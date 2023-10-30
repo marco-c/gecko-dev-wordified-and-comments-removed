@@ -423,6 +423,10 @@ events
 :
 none
 ;
+flex
+:
+0
+;
 :
 host
 (
@@ -443,14 +447,6 @@ flex
 appearance
 :
 none
-;
-width
-:
-12px
-;
-height
-:
-unset
 ;
 list
 -
@@ -473,6 +469,8 @@ icons
 arrow
 -
 down
+-
+12
 .
 svg
 )
