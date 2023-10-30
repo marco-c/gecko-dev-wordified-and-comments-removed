@@ -65,6 +65,15 @@ t
 >
 {
 let
+start_index
+=
+navigation
+.
+currentEntry
+.
+index
+;
+let
 oncurrententrychange_called
 =
 false
@@ -96,7 +105,7 @@ entries
 (
 )
 [
-0
+start_index
 ]
 )
 ;
@@ -107,7 +116,7 @@ e
 from
 .
 index
-0
+start_index
 )
 ;
 assert_equals
@@ -127,6 +136,8 @@ navigation
 currentEntry
 .
 index
+start_index
++
 1
 )
 ;

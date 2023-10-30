@@ -47,6 +47,15 @@ t
 =
 >
 {
+let
+start_index
+=
+navigation
+.
+currentEntry
+.
+index
+;
 /
 /
 Wait
@@ -127,7 +136,7 @@ entries
 (
 )
 [
-0
+start_index
 ]
 )
 ;
@@ -148,6 +157,8 @@ navigation
 currentEntry
 .
 index
+start_index
++
 1
 )
 ;

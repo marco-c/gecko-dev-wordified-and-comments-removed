@@ -46,6 +46,15 @@ t
 =
 >
 {
+let
+start_index
+=
+navigation
+.
+currentEntry
+.
+index
+;
 const
 first_entry
 =
@@ -55,7 +64,7 @@ entries
 (
 )
 [
-0
+start_index
 ]
 ;
 history
@@ -79,7 +88,7 @@ entries
 (
 )
 [
-0
+start_index
 ]
 first_entry
 )
@@ -112,6 +121,8 @@ entries
 (
 )
 [
+start_index
++
 1
 ]
 ;
@@ -136,6 +147,8 @@ entries
 (
 )
 [
+start_index
++
 1
 ]
 second_entry
