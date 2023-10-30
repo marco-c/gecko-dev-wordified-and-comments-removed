@@ -156,6 +156,15 @@ classic
 /
 global
 /
+toolbarbutton
+.
+css
+skin
+/
+classic
+/
+global
+/
 icons
 /
 Authentication

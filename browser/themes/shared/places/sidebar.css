@@ -632,7 +632,11 @@ display
 :
 flex
 ;
-content
+list
+-
+style
+-
+image
 :
 url
 (
@@ -656,6 +660,14 @@ down
 svg
 "
 )
+;
+width
+:
+12px
+;
+height
+:
+12px
 ;
 -
 moz

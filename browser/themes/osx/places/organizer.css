@@ -514,7 +514,11 @@ menu
 -
 dropmarker
 {
-content
+list
+-
+style
+-
+image
 :
 url
 (
