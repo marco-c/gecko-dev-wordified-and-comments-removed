@@ -104,7 +104,7 @@ test
 /
 browser_http3
 .
-toml
+ini
 "
 ]
 with

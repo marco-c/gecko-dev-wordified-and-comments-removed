@@ -89,7 +89,7 @@ browser
 /
 browser_sandbox_headless
 .
-toml
+ini
 "
 ]
 MOCHITEST_MANIFESTS

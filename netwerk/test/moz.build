@@ -28,14 +28,14 @@ useragent
 /
 browser_nonsnap
 .
-toml
+ini
 "
 "
 useragent
 /
 browser_snap
 .
-toml
+ini
 "
 ]
 MOCHITEST_MANIFESTS

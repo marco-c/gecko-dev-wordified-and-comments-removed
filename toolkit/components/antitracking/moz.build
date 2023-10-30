@@ -384,7 +384,7 @@ browser
 -
 blocking
 .
-toml
+ini
 "
 "
 test
