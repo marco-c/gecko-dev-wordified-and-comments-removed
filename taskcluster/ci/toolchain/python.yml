@@ -377,3 +377,7 @@ macosx64
 sdk
 -
 toolchain
+-
+macosx64
+-
+xz
