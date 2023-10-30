@@ -2183,15 +2183,6 @@ config
 screencast
 )
 ;
-res
-.
-source
--
->
-Start
-(
-)
-;
 auto
 track
 =

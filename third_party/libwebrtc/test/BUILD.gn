@@ -7138,10 +7138,6 @@ test_support
 "
 "
 :
-test_video_capturer
-"
-"
-:
 video_test_common
 "
 "
