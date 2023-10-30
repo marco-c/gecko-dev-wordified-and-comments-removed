@@ -4396,7 +4396,7 @@ String
 (
 input
 .
-expect_ident
+expect_string
 (
 )
 ?
