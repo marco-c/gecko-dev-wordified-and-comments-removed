@@ -3583,7 +3583,6 @@ const
 {
 const
 StringType
-&
 s2
 (
 s
@@ -3811,7 +3810,6 @@ const
 {
 const
 StringType
-&
 s2
 (
 s
