@@ -7,6 +7,13 @@ mozilla_dom_cache_Action_h
 #
 include
 "
+CacheCipherKeyManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -179,6 +186,13 @@ aDirectoryMetadata
 Data
 *
 aOptionalData
+const
+Maybe
+<
+CipherKey
+>
+&
+aMaybeCipherKey
 )
 =
 0

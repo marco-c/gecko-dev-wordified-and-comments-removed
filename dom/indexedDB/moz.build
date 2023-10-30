@@ -333,11 +333,6 @@ IndexedDatabaseManager
 cpp
 "
 "
-IndexedDBCipherKeyManager
-.
-cpp
-"
-"
 IndexedDBCommon
 .
 cpp
