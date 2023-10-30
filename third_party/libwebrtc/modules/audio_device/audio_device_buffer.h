@@ -210,6 +210,10 @@ AudioDeviceBuffer
 TaskQueueFactory
 *
 task_queue_factory
+bool
+create_detached
+=
+false
 )
 ;
 virtual
