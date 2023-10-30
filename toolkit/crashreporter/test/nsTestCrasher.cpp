@@ -186,7 +186,7 @@ MOZ_PHC
 #
 include
 "
-replace_malloc_bridge
+PHC
 .
 h
 "
@@ -841,7 +841,10 @@ aSize
 ;
 if
 (
-ReplaceMalloc
+mozilla
+:
+:
+phc
 :
 :
 IsPHCAllocation
@@ -1564,7 +1567,10 @@ EnablePHC
 #
 ifdef
 MOZ_PHC
-ReplaceMalloc
+mozilla
+:
+:
+phc
 :
 :
 SetPHCState

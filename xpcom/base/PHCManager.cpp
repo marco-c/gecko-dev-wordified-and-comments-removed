@@ -8,7 +8,7 @@ h
 #
 include
 "
-replace_malloc_bridge
+PHC
 .
 h
 "
@@ -96,9 +96,6 @@ kPHCPref
 )
 )
 ;
-ReplaceMalloc
-:
-:
 SetPHCState
 (
 GetPHCStateFromPref
@@ -112,9 +109,6 @@ InitPHCState
 (
 )
 {
-ReplaceMalloc
-:
-:
 SetPHCState
 (
 GetPHCStateFromPref

@@ -283,7 +283,7 @@ MOZ_PHC
 #
 include
 "
-replace_malloc_bridge
+PHC
 .
 h
 "
@@ -1693,7 +1693,10 @@ si_signo
 SIGBUS
 )
 {
-ReplaceMalloc
+mozilla
+:
+:
+phc
 :
 :
 IsPHCAllocation

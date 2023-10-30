@@ -114,7 +114,7 @@ MOZ_PHC
 #
 include
 "
-replace_malloc_bridge
+PHC
 .
 h
 "
@@ -1541,7 +1541,10 @@ char
 exception_subcode
 )
 ;
-ReplaceMalloc
+mozilla
+:
+:
+phc
 :
 :
 IsPHCAllocation

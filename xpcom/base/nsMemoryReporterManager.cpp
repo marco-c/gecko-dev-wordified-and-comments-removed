@@ -299,7 +299,7 @@ MOZ_PHC
 #
 include
 "
-replace_malloc_bridge
+PHC
 .
 h
 "
@@ -6781,7 +6781,10 @@ phc
 MemoryUsage
 usage
 ;
-ReplaceMalloc
+mozilla
+:
+:
+phc
 :
 :
 PHCMemoryUsage
