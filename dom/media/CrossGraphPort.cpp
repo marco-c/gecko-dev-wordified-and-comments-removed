@@ -22,7 +22,7 @@ h
 #
 include
 "
-MediaTrackGraphImpl
+MediaTrackGraph
 .
 h
 "
