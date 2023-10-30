@@ -1102,7 +1102,7 @@ For
 possible
 values
 see
-DEFAULT_CHANGE_REASON
+REASON_CHANGE_MAP
 in
 https
 :
@@ -1124,7 +1124,7 @@ components
 /
 search
 /
-SearchUtils
+SearchService
 .
 sys
 .
