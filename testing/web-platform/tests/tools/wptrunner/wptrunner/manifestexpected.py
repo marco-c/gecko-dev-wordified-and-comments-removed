@@ -716,7 +716,7 @@ range
 propName
 =
 "
-maxDifferences
+maxDifference
 "
 |
 "
@@ -742,7 +742,7 @@ for
 example
 :
       
-maxDifferences
+maxDifference
 =
 10
 ;
