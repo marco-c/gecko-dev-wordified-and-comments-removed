@@ -445,13 +445,6 @@ ios_deployment_target
 .
 0
 "
-mac_deployment_target
-=
-"
-10
-.
-13
-"
 #
 The
 SDK
