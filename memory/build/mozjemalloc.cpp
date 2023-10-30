@@ -22086,10 +22086,8 @@ ReplaceMallocBridge
 *
 )
 ;
-extern
-"
-C
-"
+#
+endif
 void
 phc_init
 (
@@ -22100,8 +22098,6 @@ ReplaceMallocBridge
 *
 )
 ;
-#
-endif
 bool
 Equals
 (
@@ -22239,6 +22235,8 @@ gReplaceMallocBridge
 #
 endif
 #
+endif
+#
 ifdef
 MOZ_PHC
 if
@@ -22259,8 +22257,6 @@ gReplaceMallocBridge
 )
 ;
 }
-#
-endif
 #
 endif
 if

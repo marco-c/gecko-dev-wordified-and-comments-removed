@@ -4,7 +4,6 @@ __FdPrintf_h__
 #
 define
 __FdPrintf_h__
-extern
 void
 FdPrintf
 (

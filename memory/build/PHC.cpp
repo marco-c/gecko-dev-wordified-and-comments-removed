@@ -6524,7 +6524,7 @@ aState
 }
 ;
 void
-replace_init
+phc_init
 (
 malloc_table_t
 *
