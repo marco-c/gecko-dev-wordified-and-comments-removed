@@ -26,14 +26,15 @@ background
 green
 ;
 }
-supports
+media
+(
 -
 moz
 -
 bool
 -
 pref
-(
+:
 "
 testing
 .
