@@ -7,6 +7,15 @@ missing_docs
 )
 ]
 use
+crate
+:
+:
+values
+:
+:
+normalize
+;
+use
 cssparser
 :
 :
@@ -300,7 +309,6 @@ b
 a
 )
 |
-{
 P
 :
 :
@@ -314,7 +322,6 @@ g
 b
 a
 )
-}
 )
 }
 Token
@@ -834,8 +841,9 @@ ColorParser
 i
 >
 {
-Ok
-(
+let
+alpha
+=
 color_parser
 .
 parse_number_or_percentage
@@ -846,6 +854,13 @@ arguments
 .
 unit_value
 (
+)
+;
+Ok
+(
+normalize
+(
+alpha
 )
 .
 clamp
