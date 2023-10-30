@@ -38,8 +38,6 @@ class
 nsHtml5StreamListener
 :
 public
-nsIStreamListener
-public
 nsIThreadRetargetableStreamListener
 {
 public
