@@ -13163,6 +13163,8 @@ enabled
 true
 )
 ;
+#
+endif
 pref
 (
 "
@@ -13177,8 +13179,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
