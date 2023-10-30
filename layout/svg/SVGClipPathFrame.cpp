@@ -538,7 +538,9 @@ if
 (
 maskUsage
 .
-shouldApplyClipPath
+ShouldApplyClipPath
+(
+)
 )
 {
 clipPathThatClipsClipPath
@@ -557,7 +559,9 @@ if
 (
 maskUsage
 .
-shouldGenerateClipMaskLayer
+ShouldGenerateClipMaskLayer
+(
+)
 )
 {
 RefPtr
@@ -643,7 +647,9 @@ if
 (
 maskUsage
 .
-shouldApplyClipPath
+ShouldApplyClipPath
+(
+)
 )
 {
 aMaskContext
@@ -863,7 +869,9 @@ if
 (
 maskUsage
 .
-shouldApplyClipPath
+ShouldApplyClipPath
+(
+)
 )
 {
 clipPathThatClipsChild
@@ -890,7 +898,9 @@ if
 (
 maskUsage
 .
-shouldGenerateClipMaskLayer
+ShouldGenerateClipMaskLayer
+(
+)
 )
 {
 RefPtr
@@ -1016,7 +1026,9 @@ if
 (
 maskUsage
 .
-shouldApplyClipPath
+ShouldApplyClipPath
+(
+)
 )
 {
 aTarget

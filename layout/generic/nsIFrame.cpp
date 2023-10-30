@@ -14908,7 +14908,9 @@ if
 (
 maskUsage
 .
-shouldApplyBasicShapeOrPath
+ShouldApplyBasicShapeOrPath
+(
+)
 )
 {
 Maybe
@@ -14952,7 +14954,9 @@ if
 (
 maskUsage
 .
-shouldApplyClipPath
+ShouldApplyClipPath
+(
+)
 )
 {
 gfxRect
