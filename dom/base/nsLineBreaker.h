@@ -531,6 +531,10 @@ mLineBreak
 bool
 mWordContinuation
 ;
+const
+bool
+mLegacyBehavior
+;
 }
 ;
 #
