@@ -829,6 +829,16 @@ override
 ;
 private
 :
+bool
+TextIndentAppliesTo
+(
+const
+LineIterator
+&
+aLine
+)
+const
+;
 void
 CheckIntrinsicCacheAgainstShrinkWrapState
 (

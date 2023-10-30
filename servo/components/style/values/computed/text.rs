@@ -83,6 +83,7 @@ text
 :
 {
 GenericTextDecorationLength
+GenericTextIndent
 Spacing
 }
 ;
@@ -274,6 +275,15 @@ specified
 :
 :
 TextAlignKeyword
+;
+pub
+type
+TextIndent
+=
+GenericTextIndent
+<
+LengthPercentage
+>
 ;
 #
 [

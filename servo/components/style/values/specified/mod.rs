@@ -940,6 +940,7 @@ InitialLetter
 LetterSpacing
 LineBreak
 TextAlign
+TextIndent
 }
 ;
 pub

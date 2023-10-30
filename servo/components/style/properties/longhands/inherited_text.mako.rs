@@ -345,13 +345,13 @@ text
 indent
 "
 "
-LengthPercentage
+TextIndent
 "
 "
 computed
 :
 :
-LengthPercentage
+TextIndent
 :
 :
 zero
@@ -406,11 +406,6 @@ propdef
 text
 -
 indent
-"
-allow_quirks
-=
-"
-Yes
 "
 servo_restyle_damage
 =
