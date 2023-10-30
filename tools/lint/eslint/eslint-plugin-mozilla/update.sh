@@ -140,6 +140,12 @@ mozilla
 .
 org
 /
+code
+-
+quality
+/
+lint
+/
 linters
 /
 eslint
