@@ -145396,9 +145396,6 @@ reset_nativeapp
 "
 reset_streamfilter
 "
-"
-reset_parentapicall
-"
 ]
 "
 releaseChannelCollection
@@ -145528,9 +145525,6 @@ reset_nativeapp
 "
 "
 reset_streamfilter
-"
-"
-reset_parentapicall
 "
 ]
 "
