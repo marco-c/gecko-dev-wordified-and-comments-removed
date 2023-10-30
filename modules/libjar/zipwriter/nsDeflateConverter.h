@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIThreadRetargetableStreamListener
-.
-h
-"
-#
-include
-"
 zlib
 .
 h
@@ -89,7 +82,6 @@ kZipBufLen
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
-NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 NS_DECL_NSISTREAMCONVERTER
 nsDeflateConverter
 (

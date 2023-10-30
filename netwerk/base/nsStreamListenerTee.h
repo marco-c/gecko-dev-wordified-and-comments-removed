@@ -65,6 +65,8 @@ nsStreamListenerTee
 public
 nsIStreamListenerTee
 public
+nsIThreadRetargetableStreamListener
+public
 nsIMultiPartChannelListener
 {
 public

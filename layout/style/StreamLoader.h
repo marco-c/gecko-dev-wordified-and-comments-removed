@@ -58,6 +58,8 @@ class
 StreamLoader
 :
 public
+nsIStreamListener
+public
 nsIThreadRetargetableStreamListener
 {
 public

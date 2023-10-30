@@ -3814,17 +3814,6 @@ ReleaseAcquire
 >
 mThirdPartyClassificationFlags
 ;
-Mutex
-mOnDataFinishedMutex
-{
-"
-HttpChannelChild
-:
-:
-OnDataFinishedMutex
-"
-}
-;
 UniquePtr
 <
 ProfileChunkedBuffer

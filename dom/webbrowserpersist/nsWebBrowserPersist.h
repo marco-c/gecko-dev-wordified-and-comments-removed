@@ -178,6 +178,8 @@ nsIInterfaceRequestor
 public
 nsIWebBrowserPersist
 public
+nsIStreamListener
+public
 nsIThreadRetargetableStreamListener
 public
 nsIProgressEventSink

@@ -141,6 +141,8 @@ final
 public
 PStreamFilterParent
 public
+nsIStreamListener
+public
 nsIThreadRetargetableStreamListener
 public
 nsIRequest

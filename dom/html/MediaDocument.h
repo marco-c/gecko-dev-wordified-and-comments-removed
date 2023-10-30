@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIStreamListener
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h
@@ -337,6 +330,8 @@ mDidInitialDocumentSetup
 class
 MediaDocumentStreamListener
 :
+public
+nsIStreamListener
 public
 nsIThreadRetargetableStreamListener
 {
