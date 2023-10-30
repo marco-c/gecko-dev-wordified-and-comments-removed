@@ -2551,6 +2551,15 @@ CARGO_BUILD
 call
 RUN_CARGO
 rustc
+(
+if
+(
+BUILDSTATUS
+)
+-
+-
+timings
+)
 )
 endef
 cargo_host_linker_env_var
