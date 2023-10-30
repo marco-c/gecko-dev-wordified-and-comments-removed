@@ -2710,6 +2710,11 @@ PanZoomState
 aNewState
 )
 ;
+void
+SendTransformBeginAndEnd
+(
+)
+;
 bool
 IsInTransformingState
 (
