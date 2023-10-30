@@ -14,6 +14,13 @@ files
 =
 [
 "
+blobify
+.
+worker
+.
+js
+"
+"
 dummy
 .
 html
@@ -92,7 +99,9 @@ file_sharedworker
 html
 "
 "
-file_sharedworker
+file_shared
+.
+worker
 .
 js
 "
@@ -368,11 +377,6 @@ html
 window_redirect
 .
 html
-"
-"
-worker_blobify
-.
-js
 "
 "
 !

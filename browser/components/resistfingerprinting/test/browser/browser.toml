@@ -47,7 +47,9 @@ file_navigator
 html
 "
 "
-file_navigatorWorker
+file_navigator
+.
+worker
 .
 js
 "

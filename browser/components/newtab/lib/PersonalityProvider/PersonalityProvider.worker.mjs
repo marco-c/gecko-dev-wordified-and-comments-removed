@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
--
-env
-worker
-*
-/
 import
 {
 PersonalityProviderWorker

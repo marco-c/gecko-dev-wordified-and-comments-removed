@@ -434,7 +434,7 @@ stream
 lib
 /
 cache
--
+.
 worker
 .
 js

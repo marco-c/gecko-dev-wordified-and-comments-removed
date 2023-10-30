@@ -227,7 +227,9 @@ lib
 /
 PersonalityProvider
 /
-PersonalityProviderWorker
+PersonalityProvider
+.
+worker
 .
 mjs
 "

@@ -424,7 +424,7 @@ jsm
 lib
 /
 cache
--
+.
 worker
 .
 js

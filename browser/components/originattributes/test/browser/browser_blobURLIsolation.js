@@ -36,7 +36,9 @@ const
 SCRIPT_WORKER_BLOBIFY
 =
 "
-worker_blobify
+blobify
+.
+worker
 .
 js
 "
