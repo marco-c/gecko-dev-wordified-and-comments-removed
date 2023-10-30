@@ -259,8 +259,8 @@ asm
 "
 SECTION_RODATA
 64
+const
 pb_0to63
-:
 db
 0
 1

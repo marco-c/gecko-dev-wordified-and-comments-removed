@@ -1859,7 +1859,7 @@ return
 0
 ;
 }
-free
+dav1d_free
 (
 pool
 )
