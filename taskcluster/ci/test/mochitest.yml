@@ -1074,6 +1074,13 @@ ccov
 *
 :
 10
+linux
+.
+*
+/
+opt
+:
+8
 default
 :
 5
@@ -1958,7 +1965,7 @@ platform
 /
 debug
 :
-12
+16
 default
 :
 7
