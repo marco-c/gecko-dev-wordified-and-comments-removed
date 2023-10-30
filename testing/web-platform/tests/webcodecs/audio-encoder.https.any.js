@@ -1294,7 +1294,7 @@ e
 assert_equals
 (
 errors
-0
+1
 )
 ;
 throw
