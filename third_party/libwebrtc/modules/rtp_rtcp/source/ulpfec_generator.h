@@ -75,7 +75,7 @@ include
 "
 rtc_base
 /
-race_checker
+bitrate_tracker
 .
 h
 "
@@ -84,7 +84,7 @@ include
 "
 rtc_base
 /
-rate_statistics
+race_checker
 .
 h
 "
@@ -433,7 +433,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-RateStatistics
+BitrateTracker
 fec_bitrate_
 RTC_GUARDED_BY
 (
