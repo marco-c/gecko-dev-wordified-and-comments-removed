@@ -19029,7 +19029,6 @@ forceQuirks
 false
 ;
 }
-Inline
 private
 void
 adjustDoubleHyphenAndAppendToStrBufCarriageReturn
@@ -19052,7 +19051,6 @@ false
 )
 ;
 }
-Inline
 private
 void
 adjustDoubleHyphenAndAppendToStrBufLineFeed
@@ -19075,7 +19073,6 @@ false
 )
 ;
 }
-Inline
 private
 void
 appendStrBufLineFeed
@@ -19095,7 +19092,6 @@ n
 )
 ;
 }
-Inline
 private
 void
 appendStrBufCarriageReturn
