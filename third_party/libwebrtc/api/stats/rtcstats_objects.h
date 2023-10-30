@@ -1176,6 +1176,12 @@ retransmitted_bytes_received
 ;
 RTCStatsMember
 <
+uint32_t
+>
+rtx_ssrc
+;
+RTCStatsMember
+<
 double
 >
 last_packet_received_timestamp
@@ -1713,6 +1719,12 @@ std
 string
 >
 scalability_mode
+;
+RTCStatsMember
+<
+uint32_t
+>
+rtx_ssrc
 ;
 }
 ;
