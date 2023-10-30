@@ -7338,15 +7338,6 @@ aContentProcessType
 )
 ;
 bool
-IsPrivilegedMozillaRemoteType
-(
-const
-nsACString
-&
-aContentProcessType
-)
-;
-bool
 IsExtensionRemoteType
 (
 const
