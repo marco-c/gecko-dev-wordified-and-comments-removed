@@ -2212,6 +2212,13 @@ saveToPocketCard
 {
 saveToPocketCard
 }
+recommendation_id
+=
+{
+rec
+.
+recommendation_id
+}
 /
 >
 )

@@ -22649,6 +22649,13 @@ data
 :
 [
 {
+recommendationId
+:
+"
+decaf
+-
+c0ff33
+"
 tileId
 :
 1234
@@ -22752,6 +22759,13 @@ raw_image_src
 :
 "
 imageUrl
+"
+recommendation_id
+:
+"
+decaf
+-
+c0ff33
 "
 }
 ]

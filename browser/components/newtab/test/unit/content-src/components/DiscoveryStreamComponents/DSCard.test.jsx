@@ -1125,6 +1125,9 @@ card_type
 "
 organic
 "
+recommendation_id
+:
+undefined
 }
 }
 )
@@ -1165,6 +1168,9 @@ type
 "
 organic
 "
+recommendation_id
+:
+undefined
 }
 ]
 window_inner_width
@@ -1268,6 +1274,9 @@ card_type
 "
 spoc
 "
+recommendation_id
+:
+undefined
 }
 }
 )
@@ -1308,6 +1317,9 @@ type
 "
 spoc
 "
+recommendation_id
+:
+undefined
 }
 ]
 window_inner_width
@@ -1417,6 +1429,9 @@ card_type
 "
 organic
 "
+recommendation_id
+:
+undefined
 }
 }
 )
@@ -1463,6 +1478,9 @@ type
 "
 organic
 "
+recommendation_id
+:
+undefined
 }
 ]
 window_inner_width
@@ -2249,6 +2267,9 @@ card_type
 "
 organic
 "
+recommendation_id
+:
+undefined
 }
 }
 )
@@ -2284,6 +2305,9 @@ fooidx
 pos
 :
 1
+recommendation_id
+:
+undefined
 }
 ]
 }
