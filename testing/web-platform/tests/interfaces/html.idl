@@ -9611,6 +9611,9 @@ attribute
 Navigator
 navigator
 ;
+[
+Replaceable
+]
 readonly
 attribute
 Navigator

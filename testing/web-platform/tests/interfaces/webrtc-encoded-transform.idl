@@ -377,6 +377,7 @@ Exposed
 Window
 DedicatedWorker
 )
+Serializable
 ]
 interface
 RTCEncodedVideoFrame
@@ -432,6 +433,7 @@ Exposed
 Window
 DedicatedWorker
 )
+Serializable
 ]
 interface
 RTCEncodedAudioFrame

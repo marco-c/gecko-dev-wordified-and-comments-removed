@@ -84,7 +84,10 @@ NavigatorUABrandVersion
 >
 brands
 ;
+sequence
+<
 DOMString
+>
 formFactor
 ;
 sequence

@@ -102,6 +102,11 @@ rootMargin
 ;
 readonly
 attribute
+DOMString
+scrollMargin
+;
+readonly
+attribute
 FrozenArray
 <
 double
@@ -238,6 +243,13 @@ null
 ;
 DOMString
 rootMargin
+=
+"
+0px
+"
+;
+DOMString
+scrollMargin
 =
 "
 0px

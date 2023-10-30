@@ -191,6 +191,16 @@ clientY
 ;
 readonly
 attribute
+long
+layerX
+;
+readonly
+attribute
+long
+layerY
+;
+readonly
+attribute
 boolean
 ctrlKey
 ;
