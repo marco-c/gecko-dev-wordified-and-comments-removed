@@ -1475,7 +1475,7 @@ opacity
 }
 ;
 static
-void
+MaskUsage
 DetermineMaskUsage
 (
 const
@@ -1484,9 +1484,6 @@ nsIFrame
 aFrame
 bool
 aHandleOpacity
-MaskUsage
-&
-aUsage
 )
 ;
 static

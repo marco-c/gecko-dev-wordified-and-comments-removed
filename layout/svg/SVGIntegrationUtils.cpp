@@ -2926,7 +2926,7 @@ SVGUtils
 :
 MaskUsage
 maskUsage
-;
+=
 SVGUtils
 :
 :
@@ -2938,7 +2938,6 @@ frame
 aParams
 .
 handleOpacity
-maskUsage
 )
 ;
 if
@@ -3483,7 +3482,7 @@ SVGUtils
 :
 MaskUsage
 maskUsage
-;
+=
 SVGUtils
 :
 :
@@ -3495,7 +3494,6 @@ frame
 aParams
 .
 handleOpacity
-maskUsage
 )
 ;
 if

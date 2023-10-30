@@ -14821,7 +14821,7 @@ SVGUtils
 :
 MaskUsage
 maskUsage
-;
+=
 SVGUtils
 :
 :
@@ -14829,7 +14829,6 @@ DetermineMaskUsage
 (
 aMaskedFrame
 false
-maskUsage
 )
 ;
 nsPoint
