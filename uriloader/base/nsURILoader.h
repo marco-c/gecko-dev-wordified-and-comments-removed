@@ -171,8 +171,6 @@ class
 nsDocumentOpenInfo
 :
 public
-nsIStreamListener
-public
 nsIThreadRetargetableStreamListener
 {
 public

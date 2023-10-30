@@ -1,7 +1,7 @@
 #
 include
 "
-nsIStreamListener
+nsIThreadRetargetableStreamListener
 .
 idl
 "
@@ -110,7 +110,7 @@ b449
 interface
 nsIIncrementalStreamLoader
 :
-nsIStreamListener
+nsIThreadRetargetableStreamListener
 {
 void
 init

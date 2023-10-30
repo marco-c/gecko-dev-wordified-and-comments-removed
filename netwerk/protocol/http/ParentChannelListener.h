@@ -93,8 +93,6 @@ final
 public
 nsIInterfaceRequestor
 public
-nsIStreamListener
-public
 nsIMultiPartChannelListener
 public
 nsINetworkInterceptController
