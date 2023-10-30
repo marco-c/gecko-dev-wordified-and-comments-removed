@@ -216,7 +216,7 @@ DSCP_NO_CHANGE
 void
 SetDestination
 (
-MediaChannel
+MediaReceiveChannelInterface
 *
 dest
 )
@@ -1241,7 +1241,7 @@ TaskQueueBase
 *
 thread_
 ;
-MediaChannel
+MediaReceiveChannelInterface
 *
 dest_
 ;

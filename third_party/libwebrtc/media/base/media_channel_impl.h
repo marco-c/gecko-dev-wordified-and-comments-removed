@@ -1289,17 +1289,6 @@ encoder_selector
 override
 {
 }
-void
-FillBitrateInfo
-(
-BandwidthEstimationInfo
-*
-bwe_info
-)
-override
-=
-0
-;
 virtual
 bool
 GetSendStats
