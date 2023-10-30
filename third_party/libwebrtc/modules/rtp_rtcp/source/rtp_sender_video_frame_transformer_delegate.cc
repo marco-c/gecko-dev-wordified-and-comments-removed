@@ -299,6 +299,19 @@ return
 timestamp_
 ;
 }
+void
+SetRTPTimestamp
+(
+uint32_t
+timestamp
+)
+override
+{
+timestamp_
+=
+timestamp
+;
+}
 uint32_t
 GetSsrc
 (
@@ -550,7 +563,6 @@ absl
 :
 nullopt
 ;
-const
 uint32_t
 timestamp_
 ;
