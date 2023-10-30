@@ -210,7 +210,7 @@ padding
 ;
 position
 :
-sticky
+absolute
 ;
 top
 :
@@ -222,7 +222,8 @@ left
 ;
 width
 :
-100vw
+100
+%
 ;
 height
 :
