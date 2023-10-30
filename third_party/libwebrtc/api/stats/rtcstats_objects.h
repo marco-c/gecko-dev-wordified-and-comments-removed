@@ -1152,6 +1152,12 @@ fec_packets_discarded
 ;
 RTCStatsMember
 <
+uint32_t
+>
+fec_ssrc
+;
+RTCStatsMember
+<
 uint64_t
 >
 bytes_received
