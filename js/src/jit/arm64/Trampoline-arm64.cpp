@@ -2857,12 +2857,6 @@ CheckUnsafeCallWithABI
 DontCheckHasExitFrame
 )
 ;
-masm
-.
-initPseudoStackPtr
-(
-)
-;
 switch
 (
 f
