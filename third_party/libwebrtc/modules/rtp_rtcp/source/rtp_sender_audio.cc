@@ -1202,13 +1202,10 @@ AllocatePayload
 payload_size
 )
 ;
-if
+RTC_CHECK
 (
-!
 payload
 )
-return
-false
 ;
 memcpy
 (
