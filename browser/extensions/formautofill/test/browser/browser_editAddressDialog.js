@@ -531,6 +531,12 @@ name
 VK_TAB
 "
 TEST_ADDRESS_1
+.
+organization
+"
+VK_TAB
+"
+TEST_ADDRESS_1
 [
 "
 street
@@ -571,12 +577,6 @@ postal
 code
 "
 ]
-"
-VK_TAB
-"
-TEST_ADDRESS_1
-.
-organization
 "
 VK_TAB
 "
