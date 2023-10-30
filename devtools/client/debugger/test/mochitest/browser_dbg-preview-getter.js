@@ -61,7 +61,7 @@ getter
 js
 "
 5
-4
+5
 )
 ;
 invokeInTab
@@ -104,7 +104,7 @@ tryHovering
 (
 dbg
 5
-8
+5
 "
 previewPopup
 "

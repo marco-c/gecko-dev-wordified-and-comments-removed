@@ -453,7 +453,7 @@ pretty
 js
 "
 4
-7
+8
 )
 ;
 await
@@ -707,7 +707,7 @@ minifiedSource
 .
 id
 4
-7
+8
 )
 ;
 await

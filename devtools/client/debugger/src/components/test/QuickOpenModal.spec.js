@@ -1691,7 +1691,7 @@ toHaveBeenCalledWith
 {
 column
 :
-12
+11
 line
 :
 34
@@ -1827,7 +1827,7 @@ toHaveBeenCalledWith
 {
 column
 :
-12
+11
 line
 :
 34
@@ -2838,7 +2838,7 @@ toHaveBeenCalledWith
 {
 column
 :
-4
+3
 line
 :
 3

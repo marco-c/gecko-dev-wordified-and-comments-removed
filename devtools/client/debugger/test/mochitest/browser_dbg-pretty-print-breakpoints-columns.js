@@ -237,7 +237,7 @@ prettySource
 .
 id
 LINE_INDEX_TO_BREAK_ON
-15
+16
 )
 ;
 await
@@ -284,7 +284,7 @@ prettySource
 .
 id
 LINE_INDEX_TO_BREAK_ON
-18
+19
 )
 ;
 const
@@ -399,7 +399,7 @@ prettySource
 .
 id
 LINE_INDEX_TO_BREAK_ON
-18
+19
 )
 ;
 await
@@ -473,7 +473,7 @@ prettySource
 .
 id
 LINE_INDEX_TO_BREAK_ON
-18
+19
 )
 ;
 await

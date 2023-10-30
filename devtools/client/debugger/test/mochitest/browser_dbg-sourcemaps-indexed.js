@@ -92,7 +92,7 @@ addBreakpoint
 dbg
 mainSrc
 4
-2
+3
 )
 ;
 is
@@ -162,7 +162,7 @@ mainSrc
 .
 id
 4
-2
+3
 )
 ;
 ok
