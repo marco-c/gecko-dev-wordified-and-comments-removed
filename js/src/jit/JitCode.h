@@ -39,7 +39,7 @@ include
 "
 gc
 /
-Allocator
+Cell
 .
 h
 "
@@ -48,7 +48,7 @@ include
 "
 gc
 /
-Cell
+GCEnum
 .
 h
 "

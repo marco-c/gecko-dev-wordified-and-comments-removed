@@ -52,7 +52,7 @@ include
 "
 gc
 /
-Allocator
+Cell
 .
 h
 "
@@ -61,7 +61,7 @@ include
 "
 gc
 /
-Cell
+GCEnum
 .
 h
 "
@@ -116,6 +116,9 @@ js
 namespace
 gc
 {
+class
+CellAllocator
+;
 class
 TenuringTracer
 ;

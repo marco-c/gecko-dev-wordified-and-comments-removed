@@ -23,15 +23,6 @@ include
 "
 gc
 /
-Allocator
-.
-h
-"
-#
-include
-"
-gc
-/
 Pretenuring
 .
 h
