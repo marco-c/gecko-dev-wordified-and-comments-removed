@@ -93,6 +93,7 @@ CopyOnWriteBuffer
 &
 buf
 )
+noexcept
 :
 buffer_
 (

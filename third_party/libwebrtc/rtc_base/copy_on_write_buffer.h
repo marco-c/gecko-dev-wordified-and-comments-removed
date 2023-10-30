@@ -131,6 +131,7 @@ CopyOnWriteBuffer
 &
 buf
 )
+noexcept
 ;
 explicit
 CopyOnWriteBuffer
