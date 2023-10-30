@@ -3638,9 +3638,9 @@ speculationBarrier
 }
 masm
 .
-leaveExitFrame
+moveToStackPtr
 (
-0
+FramePointer
 )
 ;
 masm
