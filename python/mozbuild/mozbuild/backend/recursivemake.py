@@ -4893,11 +4893,8 @@ _compile_graph
 )
             
 if
-t
-in
-self
-.
-_rust_targets
+not
+deps
 or
 t
 not
