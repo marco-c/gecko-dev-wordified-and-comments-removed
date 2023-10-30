@@ -26394,12 +26394,6 @@ SplitNodeResult
 newContent
 *
 splitContent
-transaction
--
->
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
@@ -26502,9 +26496,6 @@ SplitNodeResult
 NotHandled
 (
 atStartOfRightNode
-GetSplitNodeDirection
-(
-)
 )
 ;
 MOZ_ASSERT
@@ -26816,9 +26807,6 @@ HandledButDidNotSplitDueToEndOfContainer
 (
 *
 splittingContent
-GetSplitNodeDirection
-(
-)
 &
 lastResult
 )
@@ -26879,9 +26867,6 @@ HandledButDidNotSplitDueToStartOfContainer
 (
 *
 splittingContent
-GetSplitNodeDirection
-(
-)
 &
 lastResult
 )
@@ -26895,9 +26880,6 @@ SplitNodeResult
 NotHandled
 (
 atStartOfRightNode
-GetSplitNodeDirection
-(
-)
 &
 lastResult
 )
@@ -28458,7 +28440,6 @@ nsIContent
 >
 (
 )
-aDirection
 )
 ;
 }
@@ -28802,12 +28783,6 @@ transaction
 -
 >
 GetRemovedContent
-(
-)
-transaction
--
->
-GetJoinNodesDirection
 (
 )
 )

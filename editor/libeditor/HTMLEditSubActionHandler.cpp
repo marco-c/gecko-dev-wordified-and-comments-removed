@@ -43146,9 +43146,6 @@ SplitNodeResult
 NotHandled
 (
 pointToSplit
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
@@ -43333,9 +43330,6 @@ SplitNodeResult
 NotHandled
 (
 pointToSplit
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
@@ -43466,9 +43460,6 @@ SplitNodeResult
 NotHandled
 (
 pointToSplit
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
@@ -43898,9 +43889,6 @@ SplitNodeResult
 NotHandled
 (
 pointToSplit
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
@@ -49245,9 +49233,6 @@ SplitNodeResult
 NotHandled
 (
 aStartOfDeepestRightNode
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
