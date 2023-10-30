@@ -424,6 +424,15 @@ AudioDeviceID
 aOutputDeviceID
 )
 ;
+struct
+Lookup
+;
+operator
+Lookup
+(
+)
+const
+;
 bool
 OnGraphThreadOrNotRunning
 (
