@@ -536,10 +536,11 @@ during
 wast
 conversion
 :
-Unknown
-operator
-:
-6
+Unsupported
+element
+segment
+type
+96
 "
 )
 ;
