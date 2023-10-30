@@ -5022,13 +5022,6 @@ onTelLink
 this
 .
 onMozExtLink
-&
-&
-this
-.
-getStrippedLink
-(
-)
 )
 ;
 let
@@ -10681,6 +10674,11 @@ null
 }
 return
 strippedLinkURI
+?
+?
+this
+.
+linkURI
 ;
 }
 linkText
