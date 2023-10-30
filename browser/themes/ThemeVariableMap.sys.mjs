@@ -378,9 +378,7 @@ tab_selected
 "
 -
 -
-autocomplete
--
-popup
+urlbarView
 -
 highlight
 -
@@ -398,9 +396,7 @@ popup_highlight
 "
 -
 -
-autocomplete
--
-popup
+urlbarView
 -
 highlight
 -

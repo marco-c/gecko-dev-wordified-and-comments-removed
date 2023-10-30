@@ -464,7 +464,7 @@ input_border
 8f8f9d
 "
 "
-autocomplete_popup_separator
+urlbar_popup_separator
 "
 :
 "
@@ -746,15 +746,13 @@ border
 color
 "
 "
-autocomplete_popup_separator
+urlbar_popup_separator
 "
 :
 "
 -
 -
-autocomplete
--
-popup
+urlbarView
 -
 separator
 -
