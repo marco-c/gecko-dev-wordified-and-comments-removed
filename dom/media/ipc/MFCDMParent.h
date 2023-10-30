@@ -327,6 +327,12 @@ MFCDMParent
 (
 )
 ;
+LPCWSTR
+GetCDMLibraryName
+(
+)
+const
+;
 HRESULT
 LoadFactory
 (
