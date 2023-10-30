@@ -8,13 +8,6 @@ geckoview
 import
 android
 .
-annotation
-.
-TargetApi
-;
-import
-android
-.
 content
 .
 Context
@@ -1094,10 +1087,6 @@ text
 ;
 }
 }
-TargetApi
-(
-21
-)
 Override
 public
 void
