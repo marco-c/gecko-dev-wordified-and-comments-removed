@@ -766,6 +766,21 @@ patch
 stack
 "
     
+default_repo_dir
+=
+"
+.
+moz
+-
+fast
+-
+forward
+/
+moz
+-
+libwebrtc
+"
+    
 parser
 =
 argparse
@@ -994,18 +1009,31 @@ repo
 path
 "
         
-required
+default
 =
-True
+default_repo_dir
         
 help
 =
 "
 path
 to
+moz
+-
 libwebrtc
 repo
+(
+defaults
+to
+{
+}
+)
 "
+.
+format
+(
+default_repo_dir
+)
     
 )
     
