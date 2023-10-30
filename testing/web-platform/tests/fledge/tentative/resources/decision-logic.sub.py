@@ -360,6 +360,8 @@ renderUrl
 endsWith
 (
 '
+uuid
+=
 {
 {
 GET
@@ -370,11 +372,38 @@ uuid
 }
 '
 )
+&
+&
+                  
+!
+browserSignals
+.
+renderUrl
+.
+includes
+(
+'
+uuid
+=
+{
+{
+GET
+[
+uuid
+]
+}
+}
+&
+'
 )
+)
+{
                 
 return
 0
 ;
+              
+}
               
 {
 {
