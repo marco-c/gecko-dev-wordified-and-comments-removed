@@ -2181,9 +2181,13 @@ advertiser
 provided
 by
 Contile
+.
+Like
+74357
+.
 type
 :
-string
+quantity
 newtab_visit_id
 :
 *

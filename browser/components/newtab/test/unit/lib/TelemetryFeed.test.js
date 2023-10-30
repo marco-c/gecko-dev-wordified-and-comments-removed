@@ -16291,9 +16291,9 @@ ads
 "
 tile_id
 :
-"
-42
-"
+data
+.
+tile_id
 newtab_visit_id
 :
 session_id
@@ -16463,9 +16463,9 @@ advertiser
 "
 tile_id
 :
-"
-42
-"
+data
+.
+tile_id
 newtab_visit_id
 :
 session_id
@@ -18656,10 +18656,6 @@ tile_id
 data
 .
 tile_id
-.
-toString
-(
-)
 newtab_visit_id
 :
 session_id
@@ -19047,10 +19043,6 @@ data
 ]
 .
 tile_id
-.
-toString
-(
-)
 newtab_visit_id
 :
 session_id
