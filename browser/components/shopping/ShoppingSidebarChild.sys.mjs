@@ -721,6 +721,16 @@ impression
 aid
 )
 ;
+Glean
+.
+shopping
+.
+surfaceAdsImpression
+.
+record
+(
+)
+;
 break
 ;
 }
