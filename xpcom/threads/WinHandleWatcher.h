@@ -113,8 +113,7 @@ HandleWatcher
 &
 &
 )
-=
-default
+noexcept
 ;
 HandleWatcher
 &
@@ -125,8 +124,7 @@ HandleWatcher
 &
 &
 )
-=
-default
+noexcept
 ;
 void
 Watch
