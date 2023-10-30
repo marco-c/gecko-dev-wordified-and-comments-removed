@@ -1727,16 +1727,6 @@ libwebrtc
 /
 media
 /
-delayable_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-media
-/
 media_channel_gn
 "
 "
