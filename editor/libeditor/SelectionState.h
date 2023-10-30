@@ -885,8 +885,6 @@ aSplitOffset
 nsIContent
 &
 aNewContent
-SplitNodeDirection
-aSplitNodeDirection
 )
 ;
 nsresult
@@ -904,8 +902,6 @@ const
 EditorDOMPoint
 &
 aOldPointAtRightContent
-JoinNodesDirection
-aJoinNodesDirection
 )
 ;
 void

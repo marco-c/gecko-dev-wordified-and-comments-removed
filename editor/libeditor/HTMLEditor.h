@@ -2231,8 +2231,6 @@ aStartOfRightNode
 nsIContent
 &
 aNewNode
-SplitNodeDirection
-aDirection
 )
 ;
 [
@@ -2250,8 +2248,6 @@ aContentToKeep
 nsIContent
 &
 aContentToRemove
-JoinNodesDirection
-aDirection
 )
 ;
 bool
