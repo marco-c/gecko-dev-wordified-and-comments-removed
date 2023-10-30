@@ -80,14 +80,11 @@ ErrorIPCUtils
 h
 "
 ;
-[
-MoveOnly
-]
 using
 mozilla
 :
 :
-ErrorResult
+CopyableErrorResult
 from
 "
 mozilla
@@ -119,7 +116,7 @@ child
 async
 __delete__
 (
-ErrorResult
+CopyableErrorResult
 aRv
 CacheOpResult
 aResult
