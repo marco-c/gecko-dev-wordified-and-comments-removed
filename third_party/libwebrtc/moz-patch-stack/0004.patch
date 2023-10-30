@@ -155,10 +155,10 @@ desktop_capture_types
 .
 h
 index
-9627076eea
+a4e3e897fd
 .
 .
-381d1021c4
+e777a45f92
 100644
 -
 -
@@ -240,6 +240,7 @@ CaptureType
 {
 kWindow
 kScreen
+kAnyScreenContent
 }
 ;
 diff
