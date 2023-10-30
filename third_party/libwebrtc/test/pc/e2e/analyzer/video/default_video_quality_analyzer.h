@@ -703,6 +703,7 @@ double
 GetCpuUsagePercent
 (
 )
+const
 ;
 std
 :
