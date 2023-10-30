@@ -4868,6 +4868,7 @@ serializationOptions
 ownershipType
 serializationInternalMap
 realm
+extraOptions
 )
 ;
 }
@@ -4932,6 +4933,7 @@ serializationOptions
 ownershipType
 serializationInternalMap
 realm
+extraOptions
 )
 ;
 }
