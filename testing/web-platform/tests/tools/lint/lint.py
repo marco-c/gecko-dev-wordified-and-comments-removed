@@ -5507,6 +5507,8 @@ for
 paths_fn
 in
 all_paths_lints
+(
+)
 :
         
 errors
@@ -7946,13 +7948,6 @@ check_mojom_js
 check_tentative_directories
 check_gitignore_file
 ]
-all_paths_lints
-=
-[
-check_unique_testharness_basenames
-                   
-check_unique_case_insensitive_paths
-]
 file_lints
 =
 [
@@ -7963,9 +7958,26 @@ check_script_metadata
               
 check_ahem_system_font
 ]
-try
+def
+all_paths_lints
+(
+)
+-
+>
+Any
 :
     
+paths
+=
+[
+check_unique_testharness_basenames
+             
+check_unique_case_insensitive_paths
+]
+    
+try
+:
+        
 subprocess
 .
 check_output
@@ -7981,13 +7993,14 @@ version
 "
 ]
 )
-    
-all_paths_lints
+        
+paths
 +
 =
 [
 check_git_ignore
 ]
+    
 except
 (
 subprocess
@@ -7996,7 +8009,7 @@ CalledProcessError
 FileNotFoundError
 )
 :
-    
+        
 print
 (
 '
@@ -8011,6 +8024,9 @@ lint
 .
 '
 )
+    
+return
+paths
 if
 __name__
 =
