@@ -1323,6 +1323,8 @@ packets_discarded
 &
 fec_packets_received
 &
+fec_bytes_received
+&
 fec_packets_discarded
 &
 bytes_received
@@ -1492,6 +1494,12 @@ fec_packets_received
 (
 "
 fecPacketsReceived
+"
+)
+fec_bytes_received
+(
+"
+fecBytesReceived
 "
 )
 fec_packets_discarded

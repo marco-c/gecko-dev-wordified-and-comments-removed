@@ -4038,6 +4038,14 @@ gain_control_interface
 modules
 /
 rtp_rtcp
+"
+"
+.
+.
+/
+modules
+/
+rtp_rtcp
 :
 rtp_rtcp_format
 "
