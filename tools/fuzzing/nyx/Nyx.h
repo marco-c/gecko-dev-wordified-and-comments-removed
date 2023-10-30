@@ -164,6 +164,7 @@ void
 buffer
 size_t
 len
+const
 char
 *
 filename
