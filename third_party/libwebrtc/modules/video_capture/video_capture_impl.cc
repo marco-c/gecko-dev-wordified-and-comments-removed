@@ -587,6 +587,7 @@ UpdateFrameCount
 for
 (
 auto
+*
 dataCallBack
 :
 _dataCallBacks
