@@ -10,6 +10,13 @@ util
 import
 android
 .
+annotation
+.
+TargetApi
+;
+import
+android
+.
 content
 .
 Intent
@@ -426,6 +433,10 @@ return
 intent
 ;
 }
+TargetApi
+(
+15
+)
 private
 static
 void

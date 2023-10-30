@@ -625,7 +625,11 @@ GeckoSurfaceTexture
 .
 acquire
 (
-true
+GeckoSurfaceTexture
+.
+isSingleBufferSupported
+(
+)
 mHandle
 )
 ;
