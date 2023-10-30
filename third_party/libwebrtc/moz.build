@@ -4241,6 +4241,16 @@ libwebrtc
 /
 rtc_base
 /
+net_test_helpers_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 network
 /
 sent_packet_gn
