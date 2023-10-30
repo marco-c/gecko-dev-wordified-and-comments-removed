@@ -327,7 +327,7 @@ return
 mDocument
 -
 >
-StyleSetForPresShellOrMediaQueryEvaluation
+StyleSetForPresShell
 (
 )
 ;
