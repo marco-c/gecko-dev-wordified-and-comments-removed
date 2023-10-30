@@ -263,13 +263,11 @@ to_string
 {
 Some
 (
-&
 Value
 :
 :
 String
 (
-ref
 s
 )
 )
@@ -432,7 +430,12 @@ test_name
 TestFn
 :
 :
-dyn_test_fn
+DynTestFn
+(
+Box
+:
+:
+new
 (
 move
 |
@@ -458,6 +461,7 @@ encoded
 )
 )
 }
+)
 )
 )
 }
