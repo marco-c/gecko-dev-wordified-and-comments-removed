@@ -14,12 +14,6 @@ RTCVideoRenderer
 .
 h
 "
-NS_AVAILABLE_MAC
-(
-10
-.
-11
-)
 RTC_OBJC_EXPORT
 interface
 RTC_OBJC_TYPE
