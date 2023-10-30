@@ -18427,7 +18427,7 @@ true
 }
 const
 size_t
-result
+page_size
 =
 GetKernelPageSize
 (
@@ -18435,18 +18435,10 @@ GetKernelPageSize
 ;
 MOZ_ASSERT
 (
+IsPowerOfTwo
 (
-(
-result
--
-1
+page_size
 )
-&
-result
-)
-=
-=
-0
 )
 ;
 #
@@ -18456,7 +18448,7 @@ if
 (
 gPageSize
 %
-result
+page_size
 )
 {
 _malloc_message
@@ -18493,7 +18485,7 @@ gRealPageSize
 =
 gPageSize
 =
-result
+page_size
 ;
 #
 endif
