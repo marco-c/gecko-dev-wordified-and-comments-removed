@@ -2402,7 +2402,7 @@ const
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 &
 params
 )
@@ -2896,7 +2896,7 @@ expected_bitrate
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -3027,7 +3027,7 @@ bitrate
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 send_parameters
 ;
 send_parameters
@@ -5679,13 +5679,13 @@ receive_channel_
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 send_parameters_
 ;
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 recv_parameters_
 ;
 FakeAudioSource
@@ -6007,7 +6007,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -6178,7 +6178,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -6238,7 +6238,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -6300,7 +6300,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -6407,7 +6407,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -6542,7 +6542,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -6677,7 +6677,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -6862,7 +6862,7 @@ SetupRecvStream
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -6957,7 +6957,7 @@ SetupRecvStream
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -7070,7 +7070,7 @@ SetupRecvStream
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -7159,7 +7159,7 @@ SetupRecvStream
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -7221,7 +7221,7 @@ SetupRecvStream
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -7496,7 +7496,7 @@ kDesiredBitrate
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -8577,7 +8577,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -8878,7 +8878,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -8977,7 +8977,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 send_parameters
 ;
 send_parameters
@@ -9320,7 +9320,7 @@ SetupRecvStream
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -9478,7 +9478,7 @@ SetupRecvStream
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -9567,7 +9567,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -9740,7 +9740,7 @@ SetupChannel
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 =
 recv_parameters_
@@ -9909,7 +9909,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10059,7 +10059,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10166,7 +10166,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10257,7 +10257,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10367,7 +10367,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10477,7 +10477,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10743,7 +10743,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10852,7 +10852,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10914,7 +10914,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -10976,7 +10976,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11056,7 +11056,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11118,7 +11118,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11198,7 +11198,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11278,7 +11278,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11332,7 +11332,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11404,7 +11404,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11501,7 +11501,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11573,7 +11573,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11670,7 +11670,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11776,7 +11776,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11848,7 +11848,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -11902,7 +11902,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -12145,7 +12145,7 @@ SetupRecvStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -12262,7 +12262,7 @@ kSsrcY
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -12359,7 +12359,7 @@ kSsrcY
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -12470,7 +12470,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -12584,7 +12584,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 opus_parameters
 ;
 opus_parameters
@@ -12643,7 +12643,7 @@ c_str
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 pcmu_parameters
 ;
 pcmu_parameters
@@ -12778,7 +12778,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -12994,7 +12994,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 EXPECT_FALSE
@@ -13025,7 +13025,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -13151,7 +13151,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -13256,7 +13256,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -13427,7 +13427,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -13526,7 +13526,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -13690,7 +13690,7 @@ SetupChannel
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -13874,7 +13874,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -14089,7 +14089,7 @@ SetupSendStream
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -14951,7 +14951,7 @@ ssrc
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters
 ;
 parameters
@@ -18572,7 +18572,7 @@ SetupSendStream
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -19893,7 +19893,7 @@ stream2
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters_options_all
 =
 send_parameters_
@@ -20031,7 +20031,7 @@ options
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters_options_no_ns
 =
 send_parameters_
@@ -20139,7 +20139,7 @@ options
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters_options_no_agc
 =
 send_parameters_
@@ -20379,7 +20379,7 @@ kDefaultNsLevel
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 parameters_options_no_agc_nor_ns
 =
 send_parameters_
@@ -21944,7 +21944,7 @@ engine_
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -22012,7 +22012,7 @@ SetRecvParameters
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 (
 )
 )
@@ -23222,7 +23222,7 @@ started
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -25016,7 +25016,7 @@ Create
 cricket
 :
 :
-AudioRecvParameters
+AudioReceiverParameters
 parameters
 ;
 parameters
@@ -25309,7 +25309,7 @@ Create
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 params
 ;
 params

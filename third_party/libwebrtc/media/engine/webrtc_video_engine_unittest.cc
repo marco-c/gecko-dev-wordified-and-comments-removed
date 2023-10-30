@@ -3313,7 +3313,7 @@ id
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -3487,7 +3487,7 @@ id
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -3697,7 +3697,7 @@ id
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -4285,7 +4285,7 @@ num_created_encoders
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -5463,7 +5463,7 @@ get
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 for
@@ -5597,7 +5597,7 @@ CryptoOptions
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -5974,7 +5974,7 @@ CryptoOptions
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -6266,7 +6266,7 @@ CryptoOptions
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -6835,7 +6835,7 @@ get
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -6941,7 +6941,7 @@ size
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 new_parameters
 ;
 new_parameters
@@ -7071,7 +7071,7 @@ get
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -7345,7 +7345,7 @@ get
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -7601,7 +7601,7 @@ get
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -8318,7 +8318,7 @@ VP8
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -8556,7 +8556,7 @@ VP8
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -9476,7 +9476,7 @@ get
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 send_parameters
 ;
 send_parameters
@@ -9646,7 +9646,7 @@ CryptoOptions
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -9818,7 +9818,7 @@ VP8
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -10604,7 +10604,7 @@ network_interface_
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -11845,7 +11845,7 @@ network_interface_
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -12253,7 +12253,7 @@ success
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -13930,7 +13930,7 @@ DefaultCodec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -14363,7 +14363,7 @@ DefaultCodec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -14790,7 +14790,7 @@ SetSendBandwidth
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -15441,7 +15441,7 @@ SetDefaultCodec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -16896,7 +16896,7 @@ RequestEncoderFallback
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -17062,7 +17062,7 @@ RequestEncoderSwitchDefaultFallback
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -17222,7 +17222,7 @@ id
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -17427,7 +17427,7 @@ SendCodecIsMovedToFrontInRtpParameters
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -18675,7 +18675,7 @@ id
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 =
 send_parameters_
@@ -18952,7 +18952,7 @@ id
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 =
 recv_parameters_
@@ -19133,7 +19133,7 @@ expect_lntf_enabled
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -19267,7 +19267,7 @@ expected_extension
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 =
 send_parameters_
@@ -19730,7 +19730,7 @@ int
 expected_encoder_bitrate
 )
 {
-VideoSendParameters
+VideoSenderParameters
 limited_send_params
 =
 send_parameters_
@@ -20001,13 +20001,13 @@ receive_channel_
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 send_parameters_
 ;
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters_
 ;
 uint32_t
@@ -20132,7 +20132,7 @@ RecvStreamWithSimAndRtx
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -21797,7 +21797,7 @@ OnPacketReceivedIdentifiesExtensions
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 =
 recv_parameters_
@@ -22102,7 +22102,7 @@ true
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -22209,7 +22209,7 @@ enabled
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -22414,7 +22414,7 @@ false
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -22607,7 +22607,7 @@ rtp_history_ms
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -22805,7 +22805,7 @@ ReconfiguresEncodersWhenNotSending
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -23032,7 +23032,7 @@ VP8
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -24036,7 +24036,7 @@ VerifyVp8SpecificSettings
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -24577,7 +24577,7 @@ AddSendStream
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -24861,7 +24861,7 @@ kL2T1
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -25599,7 +25599,7 @@ MultipleSsrcsEnablesSvc
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -25806,7 +25806,7 @@ SvcModeCreatesSingleRtpStream
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -26013,7 +26013,7 @@ AllEncodingParametersCopied
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 send_parameters
 ;
 send_parameters
@@ -26254,7 +26254,7 @@ MaxBitrateDeterminedBySvcResolutions
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -26541,7 +26541,7 @@ Vp9SvcTargetBitrateCappedByMax
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -26920,7 +26920,7 @@ interLayerPred
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -27547,7 +27547,7 @@ VP8
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -27891,7 +27891,7 @@ VP8
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -28109,7 +28109,7 @@ VP8
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -28843,7 +28843,7 @@ SetSendCodecsWithoutPacketization
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -28919,7 +28919,7 @@ SetSendCodecsWithPacketization
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -29658,7 +29658,7 @@ EnablingFlexfecDoesNotRecreateVideoReceiveStream
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -29949,7 +29949,7 @@ DisablingFlexfecDoesNotRecreateVideoReceiveStream
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -30274,7 +30274,7 @@ kUnusedPayloadType1
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -30683,7 +30683,7 @@ SetSendCodecsWithoutFec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -30775,7 +30775,7 @@ SetSendCodecsWithoutFec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -30869,7 +30869,7 @@ kFlexfecSsrc
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -31130,7 +31130,7 @@ SetSendCodecsWithoutSsrcWithFecDoesNotEnableFec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -31252,7 +31252,7 @@ SetSendCodecsWithSsrcWithFecDoesNotEnableFec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -31404,7 +31404,7 @@ kUnusedPayloadType
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 cricket
@@ -31529,7 +31529,7 @@ id
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -31586,7 +31586,7 @@ kUnusedPayloadType2
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -31724,7 +31724,7 @@ params
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -32001,7 +32001,7 @@ SetSendCodecsWithoutFecDisablesFec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -32177,7 +32177,7 @@ SetSendCodecsWithoutFecDisablesFec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -32414,7 +32414,7 @@ SetSendCodecsChangesExistingStreams
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 cricket
@@ -33841,7 +33841,7 @@ SetMaxSendBitrateCanIncreaseSenderBitrate
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -34018,7 +34018,7 @@ SetMaxSendBitrateCanIncreaseSimulcastSenderBitrate
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -34268,7 +34268,7 @@ kMaxQuantization
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -34391,7 +34391,7 @@ kIncorrectPayloads
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -34484,7 +34484,7 @@ SetSendCodecsAcceptAllValidPayloadTypes
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -34568,7 +34568,7 @@ SetSendCodecsIdenticalFirstCodecDoesntRecreateStream
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters1
 ;
 parameters1
@@ -34628,7 +34628,7 @@ GetNumCreatedSendStreams
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters2
 ;
 parameters2
@@ -34677,7 +34677,7 @@ SetRecvCodecsWithOnlyVp8
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -34753,7 +34753,7 @@ kUnusedPayloadType2
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -34991,7 +34991,7 @@ kPacketizationParamRaw
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -35131,7 +35131,7 @@ SetRecvCodecsWithPacketizationRecreatesStream
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -35288,7 +35288,7 @@ kSecondUlpfecPayloadType
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -35399,7 +35399,7 @@ kSecondRedPayloadType
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -35575,7 +35575,7 @@ params
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -35961,7 +35961,7 @@ params
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -36362,7 +36362,7 @@ SetRecvCodecsDifferentPayloadType
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -36411,7 +36411,7 @@ SetRecvCodecsAcceptDefaultCodecs
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -36517,7 +36517,7 @@ SetRecvCodecsRejectUnsupportedCodec
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -36573,7 +36573,7 @@ SetRecvCodecsAcceptsMultipleVideoCodecs
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -36625,7 +36625,7 @@ SetRecvCodecsWithoutFecDisablesFec
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 send_parameters
 ;
 send_parameters
@@ -36714,7 +36714,7 @@ ulpfec_payload_type
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -36924,7 +36924,7 @@ protected_media_ssrcs
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -37013,7 +37013,7 @@ ulpfec_payload_type
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -37127,7 +37127,7 @@ stream
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 send_parameters
 ;
 send_parameters
@@ -37274,7 +37274,7 @@ GetFlexfecReceiveStreams
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 recv_parameters
 ;
 recv_parameters
@@ -37415,7 +37415,7 @@ protected_media_ssrcs
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 send_parameters
 ;
 send_parameters
@@ -37563,7 +37563,7 @@ SetRecvCodecsRejectDuplicateFecPayloads
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -37633,7 +37633,7 @@ SetRecvCodecsRejectDuplicateFecPayloads
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -37705,7 +37705,7 @@ SetRecvCodecsRejectDuplicateCodecPayloads
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -37775,7 +37775,7 @@ SetRecvCodecsAcceptSameCodecOnMultiplePayloadTypes
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -37839,7 +37839,7 @@ SetRecvCodecsDifferentOrderDoesntRecreateStream
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters1
 ;
 parameters1
@@ -37909,7 +37909,7 @@ GetNumCreatedReceiveStreams
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters2
 ;
 parameters2
@@ -39017,7 +39017,7 @@ GetStatsReportsSentCodecName
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -42661,7 +42661,7 @@ OutboundRtpIsActiveComesFromAnyEncodingInSvc
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 send_parameters
 ;
 send_parameters
@@ -51456,7 +51456,7 @@ ReceiveDifferentUnsignaledSsrc
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -51995,7 +51995,7 @@ NewUnsignaledStreamDoesNotDestroyPreviouslyUnsignaledStream
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -54267,7 +54267,7 @@ WebRtcVideoChannelTest
 GetAndSetRtpSendParametersScaleResolutionDownByVP8
 )
 {
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -55160,7 +55160,7 @@ Enabled
 "
 )
 ;
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -55453,7 +55453,7 @@ AddSupportedVideoCodecType
 kH264CodecName
 )
 ;
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -56354,7 +56354,7 @@ AddSupportedVideoCodecType
 kH264CodecName
 )
 ;
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -58535,7 +58535,7 @@ kL3T3
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 send_parameters
 ;
 send_parameters
@@ -58866,7 +58866,7 @@ kDefaultScalabilityModeStr
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 vp8_parameters
 ;
 vp8_parameters
@@ -62785,7 +62785,7 @@ InactiveStreamDoesntStartSendingWhenReconfigured
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters1
 ;
 parameters1
@@ -62957,7 +62957,7 @@ IsSending
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters2
 ;
 parameters2
@@ -63056,7 +63056,7 @@ AddSendStream
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -63493,7 +63493,7 @@ AddSendStream
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -63591,7 +63591,7 @@ AddRecvStream
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -63725,7 +63725,7 @@ endif
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 cricket
@@ -64118,7 +64118,7 @@ AddRecvStream
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -64196,7 +64196,7 @@ GetDefaultRtpReceiveParametersWithUnsignaledSsrc
 cricket
 :
 :
-VideoRecvParameters
+VideoReceiverParameters
 parameters
 ;
 parameters
@@ -65261,7 +65261,7 @@ conference_mode
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -66849,7 +66849,7 @@ VP9
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -67015,7 +67015,7 @@ RequestedResolutionSinglecast
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -67495,7 +67495,7 @@ RequestedResolutionSinglecastCropping
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters
@@ -67957,7 +67957,7 @@ RequestedResolutionSimulcast
 cricket
 :
 :
-VideoSendParameters
+VideoSenderParameters
 parameters
 ;
 parameters

@@ -7142,7 +7142,7 @@ WebRtcVoiceSendChannel
 SetSendParameters
 (
 const
-AudioSendParameters
+AudioSenderParameter
 &
 params
 )
@@ -11229,7 +11229,7 @@ WebRtcVoiceReceiveChannel
 SetRecvParameters
 (
 const
-AudioRecvParameters
+AudioReceiverParameters
 &
 params
 )

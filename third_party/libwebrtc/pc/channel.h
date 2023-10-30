@@ -1991,7 +1991,7 @@ worker_thread
 )
 override
 ;
-AudioSendParameters
+AudioSenderParameter
 last_send_params_
 RTC_GUARDED_BY
 (
@@ -2000,7 +2000,7 @@ worker_thread
 )
 )
 ;
-AudioRecvParameters
+AudioReceiverParameters
 last_recv_params_
 RTC_GUARDED_BY
 (
@@ -2273,7 +2273,7 @@ worker_thread
 )
 override
 ;
-VideoSendParameters
+VideoSenderParameters
 last_send_params_
 RTC_GUARDED_BY
 (
@@ -2282,7 +2282,7 @@ worker_thread
 )
 )
 ;
-VideoRecvParameters
+VideoReceiverParameters
 last_recv_params_
 RTC_GUARDED_BY
 (

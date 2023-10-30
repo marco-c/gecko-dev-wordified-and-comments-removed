@@ -5909,7 +5909,7 @@ WebRtcVideoSendChannel
 GetChangedSendParameters
 (
 const
-VideoSendParameters
+VideoSenderParameters
 &
 params
 ChangedSendParameters
@@ -6329,7 +6329,7 @@ WebRtcVideoSendChannel
 SetSendParameters
 (
 const
-VideoSendParameters
+VideoSenderParameters
 &
 params
 )
@@ -9435,7 +9435,7 @@ RtpExtension
 &
 rtp_extensions
 const
-VideoSendParameters
+VideoSenderParameters
 &
 send_params
 )
@@ -15074,7 +15074,7 @@ WebRtcVideoReceiveChannel
 GetChangedRecvParameters
 (
 const
-VideoRecvParameters
+VideoReceiverParameters
 &
 params
 ChangedRecvParameters
@@ -15374,7 +15374,7 @@ WebRtcVideoReceiveChannel
 SetRecvParameters
 (
 const
-VideoRecvParameters
+VideoReceiverParameters
 &
 params
 )

@@ -2815,7 +2815,7 @@ bool
 SetRecvParameters
 (
 const
-AudioRecvParameters
+AudioReceiverParameters
 &
 params
 )
@@ -3332,7 +3332,7 @@ bool
 SetSendParameters
 (
 const
-AudioSendParameters
+AudioSenderParameter
 &
 params
 )
@@ -3823,7 +3823,7 @@ bool
 SetRecvParameters
 (
 const
-VideoRecvParameters
+VideoReceiverParameters
 &
 params
 )
@@ -4300,7 +4300,7 @@ bool
 SetSendParameters
 (
 const
-VideoSendParameters
+VideoSenderParameters
 &
 params
 )

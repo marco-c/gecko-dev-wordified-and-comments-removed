@@ -361,7 +361,7 @@ FakeVoiceMediaReceiveChannel
 SetRecvParameters
 (
 const
-AudioRecvParameters
+AudioReceiverParameters
 &
 params
 )
@@ -1268,7 +1268,7 @@ FakeVoiceMediaSendChannel
 SetSendParameters
 (
 const
-AudioSendParameters
+AudioSenderParameter
 &
 params
 )
@@ -1954,7 +1954,7 @@ FakeVideoMediaSendChannel
 SetSendParameters
 (
 const
-VideoSendParameters
+VideoSenderParameters
 &
 params
 )
@@ -2422,7 +2422,7 @@ FakeVideoMediaReceiveChannel
 SetRecvParameters
 (
 const
-VideoRecvParameters
+VideoReceiverParameters
 &
 params
 )
