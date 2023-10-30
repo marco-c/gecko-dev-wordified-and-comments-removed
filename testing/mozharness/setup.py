@@ -92,7 +92,7 @@ pyflakes
 "
     
 "
-toml
+tomlkit
 "
 ]
 try
