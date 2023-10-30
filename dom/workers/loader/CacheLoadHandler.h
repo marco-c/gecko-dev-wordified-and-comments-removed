@@ -235,6 +235,8 @@ ThreadSafeRequestHandle
 aRequestHandle
 bool
 aIsWorkerScript
+bool
+aOnlyExistingCachedResourcesAllowed
 WorkerScriptLoader
 *
 aLoader
@@ -384,9 +386,8 @@ mIsWorkerScript
 bool
 mFailed
 ;
-const
-ServiceWorkerState
-mState
+bool
+mOnlyExistingCachedResourcesAllowed
 ;
 nsCOMPtr
 <

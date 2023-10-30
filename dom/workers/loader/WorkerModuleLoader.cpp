@@ -259,6 +259,15 @@ GetWorkerLoadContext
 -
 >
 mScriptLoader
+aParent
+-
+>
+GetWorkerLoadContext
+(
+)
+-
+>
+mOnlyExistingCachedResourcesAllowed
 )
 ;
 RefPtr
@@ -614,6 +623,7 @@ clientInfo
 GetCurrentScriptLoader
 (
 )
+true
 )
 ;
 ReferrerPolicy

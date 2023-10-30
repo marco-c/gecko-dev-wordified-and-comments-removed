@@ -156,6 +156,8 @@ loader
 WorkerScriptLoader
 *
 aScriptLoader
+bool
+aOnlyExistingCachedResourcesAllowed
 )
 ;
 bool
@@ -304,6 +306,11 @@ CacheStatus
 mCacheStatus
 =
 Uncached
+;
+bool
+mOnlyExistingCachedResourcesAllowed
+=
+false
 ;
 bool
 IsAwaitingPromise
