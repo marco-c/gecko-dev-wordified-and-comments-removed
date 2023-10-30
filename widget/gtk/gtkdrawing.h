@@ -409,7 +409,6 @@ MOZ_GTK_TEXT_VIEW
 MOZ_GTK_TEXT_VIEW_TEXT
 MOZ_GTK_TEXT_VIEW_TEXT_SELECTION
 MOZ_GTK_DROPDOWN
-MOZ_GTK_DROPDOWN_ARROW
 MOZ_GTK_DROPDOWN_ENTRY
 MOZ_GTK_TOOLBAR
 MOZ_GTK_TOOLBAR_SEPARATOR
@@ -630,17 +629,6 @@ thumb_length
 gint
 *
 thumb_height
-)
-;
-gint
-moz_gtk_get_combo_box_entry_button_size
-(
-gint
-*
-width
-gint
-*
-height
 )
 ;
 gint
