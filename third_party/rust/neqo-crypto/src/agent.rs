@@ -5434,10 +5434,6 @@ PK11_FindKeyByAnyCert
 (
 *
 cert
-.
-deref
-(
-)
 null_mut
 (
 )
@@ -5487,16 +5483,8 @@ agent
 fd
 *
 cert
-.
-deref
-(
-)
 *
 key
-.
-deref
-(
-)
 null
 (
 )

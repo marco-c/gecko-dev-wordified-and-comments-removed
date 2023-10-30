@@ -2070,10 +2070,6 @@ for
 iter
 in
 h
-.
-iter
-(
-)
 {
 let
 name
@@ -2413,12 +2409,8 @@ entry
 stream_id
 )
 .
-or_insert_with
+or_default
 (
-VecDeque
-:
-:
-new
 )
 .
 push_front

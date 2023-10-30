@@ -1057,10 +1057,6 @@ for
 iter
 in
 HEADER_STATIC_TABLE
-.
-iter
-(
-)
 {
 if
 iter

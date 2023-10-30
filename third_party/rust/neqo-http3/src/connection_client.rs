@@ -1042,6 +1042,7 @@ Error
 :
 InvalidResumptionToken
 )
+;
 }
 ;
 qtrace
@@ -2508,7 +2509,10 @@ stream_id
 StreamId
 sendorder
 :
+Option
+<
 SendOrder
+>
 )
 -
 >
@@ -2529,10 +2533,7 @@ self
 .
 conn
 stream_id
-Some
-(
 sendorder
-)
 )
 }
 pub

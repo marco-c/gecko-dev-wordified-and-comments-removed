@@ -370,6 +370,7 @@ update_id
 else
 {
 continue
+;
 }
 ;
 debug_assert

@@ -127,7 +127,7 @@ version
 .
 6
 .
-5
+6
 "
 authors
 =
@@ -149,7 +149,7 @@ license
 =
 "
 MIT
-/
+OR
 Apache
 -
 2
@@ -173,7 +173,7 @@ qlog
 "
 0
 .
-4
+9
 .
 0
 "
@@ -283,15 +283,6 @@ fixture
 "
 [
 features
-]
-default
-=
-[
-"
-deny
--
-warnings
-"
 ]
 deny
 -

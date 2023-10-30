@@ -1167,8 +1167,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1231,8 +1229,6 @@ format_number_pad_zero
 :
 <
 4
-_
-_
 >
 (
 output
@@ -1262,8 +1258,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1296,8 +1290,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1330,8 +1322,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1391,8 +1381,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1416,8 +1404,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1626,8 +1612,6 @@ format_number_pad_zero
 :
 <
 4
-_
-_
 >
 (
 output
@@ -1658,8 +1642,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1694,8 +1676,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1728,8 +1708,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1762,8 +1740,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1796,8 +1772,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -1867,8 +1841,6 @@ format_number_pad_zero
 :
 <
 9
-_
-_
 >
 (
 output
@@ -1893,8 +1865,6 @@ format_number_pad_zero
 :
 <
 8
-_
-_
 >
 (
 output
@@ -1921,8 +1891,6 @@ format_number_pad_zero
 :
 <
 7
-_
-_
 >
 (
 output
@@ -1949,8 +1917,6 @@ format_number_pad_zero
 :
 <
 6
-_
-_
 >
 (
 output
@@ -1977,8 +1943,6 @@ format_number_pad_zero
 :
 <
 5
-_
-_
 >
 (
 output
@@ -2005,8 +1969,6 @@ format_number_pad_zero
 :
 <
 4
-_
-_
 >
 (
 output
@@ -2033,8 +1995,6 @@ format_number_pad_zero
 :
 <
 3
-_
-_
 >
 (
 output
@@ -2061,8 +2021,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -2078,8 +2036,6 @@ format_number_pad_zero
 :
 <
 1
-_
-_
 >
 (
 output
@@ -2156,8 +2112,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -2194,8 +2148,6 @@ format_number_pad_zero
 :
 <
 2
-_
-_
 >
 (
 output
@@ -2317,7 +2269,6 @@ format_date
 :
 :
 <
-_
 CONFIG
 >
 (
@@ -2360,7 +2311,6 @@ format_time
 :
 :
 <
-_
 CONFIG
 >
 (
@@ -2403,7 +2353,6 @@ format_offset
 :
 :
 <
-_
 CONFIG
 >
 (

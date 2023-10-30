@@ -1484,15 +1484,13 @@ bool
 for
 iter
 in
+&
+*
 self
 .
 events
 .
 borrow
-(
-)
-.
-iter
 (
 )
 {

@@ -69,16 +69,6 @@ unwrap_or
 1
 )
 }
-#
-[
-allow
-(
-clippy
-:
-:
-missing_panics_doc
-)
-]
 pub
 fn
 consume

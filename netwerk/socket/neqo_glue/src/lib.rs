@@ -112,6 +112,9 @@ use
 qlog
 :
 :
+streamer
+:
+:
 QlogStreamer
 ;
 use
@@ -1280,6 +1283,16 @@ Role
 :
 Client
 )
+qlog
+:
+:
+events
+:
+:
+EventImportance
+:
+:
+Base
 Box
 :
 :
@@ -7282,7 +7295,7 @@ NeqoHttp3Conn
 stream_id
 :
 u64
-sendorder
+_sendorder
 :
 i64
 )
@@ -7304,7 +7317,7 @@ from
 (
 stream_id
 )
-sendorder
+None
 )
 {
 Ok

@@ -94,6 +94,7 @@ parse
 :
 {
 parse
+parse_borrowed
 parse_owned
 }
 ;

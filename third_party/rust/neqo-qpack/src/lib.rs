@@ -176,7 +176,7 @@ u16
 NeedMoreData
 HeaderLookup
 HuffmanDecompressionFailed
-ToStringFailed
+BadUtf8
 ChangeCapacity
 DynamicTableFull
 IncrementAck

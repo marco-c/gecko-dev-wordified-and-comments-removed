@@ -90,9 +90,6 @@ serde
 [
 allow
 (
-clippy
-:
-:
 let_underscore_drop
 clippy
 :

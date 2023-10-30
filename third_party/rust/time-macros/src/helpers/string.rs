@@ -512,7 +512,7 @@ outer
 _
 =
 >
-unreachable
+bug
 !
 (
 "
@@ -952,7 +952,7 @@ outer
 _
 =
 >
-unreachable
+bug
 !
 (
 "
@@ -1168,7 +1168,7 @@ A
 _
 =
 >
-unreachable
+bug
 !
 (
 "
@@ -1346,7 +1346,7 @@ break
 _
 =
 >
-unreachable
+bug
 !
 (
 "

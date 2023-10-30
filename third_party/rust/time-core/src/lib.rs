@@ -33,7 +33,6 @@ clippy
 :
 :
 undocumented_unsafe_blocks
-const_err
 illegal_floating_point_literal_pattern
 late_bound_lifetime_arguments
 path_statements
@@ -190,6 +189,10 @@ warnings
 )
 )
 ]
+pub
+mod
+convert
+;
 pub
 mod
 util

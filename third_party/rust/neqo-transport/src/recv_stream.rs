@@ -5054,6 +5054,17 @@ break
 [
 test
 ]
+#
+[
+allow
+(
+unknown_lints
+clippy
+:
+:
+single_range_in_vec_init
+)
+]
 fn
 recv_noncontiguous
 (
@@ -6205,8 +6216,6 @@ let
 mut
 buf
 =
-vec
-!
 [
 0
 ;
