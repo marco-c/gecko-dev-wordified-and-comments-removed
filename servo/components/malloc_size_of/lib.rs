@@ -4826,6 +4826,10 @@ cssparser
 :
 :
 TokenSerializationType
+cssparser
+:
+:
+SourceLocation
 )
 ;
 malloc_size_of_is_0
