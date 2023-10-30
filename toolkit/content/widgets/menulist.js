@@ -560,6 +560,15 @@ part
 "
 dropmarker
 "
+exportparts
+=
+"
+icon
+:
+dropmarker
+-
+icon
+"
 type
 =
 "
