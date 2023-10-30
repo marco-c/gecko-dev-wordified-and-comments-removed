@@ -864,8 +864,8 @@ override
 ;
 MOCK_METHOD
 (
-int64_t
-ExpectedRetransmissionTimeMs
+TimeDelta
+ExpectedRetransmissionTime
 (
 )
 (
