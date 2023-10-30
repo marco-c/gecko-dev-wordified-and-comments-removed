@@ -1524,6 +1524,10 @@ ConnectVideoSourcesToStreams
 (
 )
 ;
+StartVideoSources
+(
+)
+;
 }
 )
 ;

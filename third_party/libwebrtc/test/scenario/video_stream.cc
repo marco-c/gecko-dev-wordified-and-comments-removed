@@ -2822,6 +2822,13 @@ encoder
 .
 suspend_below_min_bitrate
 ;
+video_capturer_
+-
+>
+Start
+(
+)
+;
 sender_
 -
 >

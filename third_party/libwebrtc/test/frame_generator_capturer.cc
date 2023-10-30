@@ -246,7 +246,7 @@ clock
 )
 sending_
 (
-true
+false
 )
 sink_wants_observer_
 (

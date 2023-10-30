@@ -257,6 +257,13 @@ SetState
 kLive
 )
 ;
+video_capturer_
+-
+>
+Start
+(
+)
+;
 }
 void
 Stop
@@ -266,6 +273,13 @@ Stop
 SetState
 (
 kMuted
+)
+;
+video_capturer_
+-
+>
+Stop
+(
 )
 ;
 }
