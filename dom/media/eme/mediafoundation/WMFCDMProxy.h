@@ -209,7 +209,8 @@ uint8_t
 aCert
 )
 override
-;
+{
+}
 void
 UpdateSession
 (
@@ -500,13 +501,6 @@ return
 this
 ;
 }
-bool
-IsHardwareDecryptionSupported
-(
-)
-const
-override
-;
 uint64_t
 GetCDMProxyId
 (

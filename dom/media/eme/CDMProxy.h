@@ -788,17 +788,6 @@ nullptr
 }
 #
 endif
-virtual
-bool
-IsHardwareDecryptionSupported
-(
-)
-const
-{
-return
-false
-;
-}
 protected
 :
 CDMProxy
