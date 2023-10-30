@@ -61,7 +61,7 @@ MPL
 This
 item
 shows
-image
+icon
 title
 &
 subtitle
@@ -115,19 +115,13 @@ value
 ;
 constructor
 (
-image
+icon
 title
 subtitle
 fillMessageName
 fillMessageData
 )
 {
-this
-.
-image
-=
-image
-;
 this
 .
 comment
@@ -137,6 +131,7 @@ JSON
 stringify
 (
 {
+icon
 title
 subtitle
 fillMessageName
