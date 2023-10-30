@@ -1,5 +1,5 @@
 function
-workerMessageGenerator
+worker_message_generator
 (
 shared_worker
 )
