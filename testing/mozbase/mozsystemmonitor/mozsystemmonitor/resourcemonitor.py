@@ -813,7 +813,9 @@ sleep_interval
 =
 max
 (
-0
+poll_interval
+/
+2
 poll_interval
 -
 collection_overhead
