@@ -1575,9 +1575,9 @@ audioipc
 ?
 rev
 =
-0b51291d2483a17dce3e300c7784b369e02bee73
+ec6af6ecf8ba50b51f13d18f417de8cfb8460543
 #
-0b51291d2483a17dce3e300c7784b369e02bee73
+ec6af6ecf8ba50b51f13d18f417de8cfb8460543
 "
 dependencies
 =
@@ -1652,7 +1652,9 @@ serde_derive
 slab
 "
 "
-winapi
+windows
+-
+sys
 "
 ]
 [
@@ -1695,9 +1697,9 @@ audioipc
 ?
 rev
 =
-0b51291d2483a17dce3e300c7784b369e02bee73
+ec6af6ecf8ba50b51f13d18f417de8cfb8460543
 #
-0b51291d2483a17dce3e300c7784b369e02bee73
+ec6af6ecf8ba50b51f13d18f417de8cfb8460543
 "
 dependencies
 =
@@ -1757,9 +1759,9 @@ audioipc
 ?
 rev
 =
-0b51291d2483a17dce3e300c7784b369e02bee73
+ec6af6ecf8ba50b51f13d18f417de8cfb8460543
 #
-0b51291d2483a17dce3e300c7784b369e02bee73
+ec6af6ecf8ba50b51f13d18f417de8cfb8460543
 "
 dependencies
 =
