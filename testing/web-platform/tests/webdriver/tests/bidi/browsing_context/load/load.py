@@ -51,11 +51,11 @@ load
 "
 async
 def
-test_not_unsubscribed
+test_unsubscribe
 (
 bidi_session
 inline
-top_context
+new_tab
 )
 :
     
@@ -144,7 +144,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -153,6 +153,11 @@ context
 url
 =
 url
+wait
+=
+"
+complete
+"
     
 )
     
