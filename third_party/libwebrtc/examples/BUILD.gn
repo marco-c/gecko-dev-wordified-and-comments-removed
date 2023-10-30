@@ -2706,7 +2706,7 @@ videocodec_objc
 ]
 if
 (
-rtc_ios_use_opengl_rendering
+rtc_ios_macos_use_opengl_rendering
 )
 {
 deps
@@ -3737,7 +3737,7 @@ videotoolbox_objc
 ]
 if
 (
-rtc_ios_use_opengl_rendering
+rtc_ios_macos_use_opengl_rendering
 )
 {
 deps
@@ -3957,6 +3957,14 @@ mediaconstraints_objc
 sdk
 :
 metal_objc
+"
+"
+.
+.
+/
+sdk
+:
+opengl_ui_objc
 "
 "
 .
