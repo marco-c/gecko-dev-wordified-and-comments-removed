@@ -5,7 +5,7 @@ description
 )
 {
 const
-t
+t_original
 =
 async_test
 (
@@ -50,15 +50,6 @@ move
 )
 ;
 const
-start_time
-=
-performance
-.
-now
-(
-)
-;
-const
 iframe
 =
 document
@@ -90,6 +81,15 @@ html
 '
 )
 ;
+const
+start_time
+=
+performance
+.
+now
+(
+)
+;
 document
 .
 body
@@ -103,7 +103,7 @@ window
 .
 onload
 =
-t
+t_original
 .
 step_func_done
 (
@@ -160,7 +160,7 @@ now
 )
 -
 start_time
-2500
+3000
 '
 Load
 event
@@ -179,7 +179,7 @@ loaded
 }
 )
 ;
-t
+t_original
 .
 step_timeout
 (
