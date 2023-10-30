@@ -150,6 +150,11 @@ mozilla
 =
 [
 "
+nsGenericHTMLElementWithFetchPriorityAttribute
+.
+h
+"
+"
 TextControlElement
 .
 h
@@ -980,6 +985,11 @@ cpp
 "
 "
 nsGenericHTMLElement
+.
+cpp
+"
+"
+nsGenericHTMLElementWithFetchPriorityAttribute
 .
 cpp
 "

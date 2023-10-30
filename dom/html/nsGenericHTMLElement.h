@@ -123,6 +123,11 @@ ToggleEvent
 .
 h
 "
+#
+include
+<
+cstdint
+>
 class
 nsDOMTokenList
 ;

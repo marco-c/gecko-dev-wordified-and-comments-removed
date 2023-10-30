@@ -40,9 +40,7 @@ include
 "
 mozilla
 /
-dom
-/
-FetchPriority
+nsGenericHTMLElementWithFetchPriorityAttribute
 .
 h
 "
@@ -53,7 +51,7 @@ mozilla
 /
 dom
 /
-HTMLScriptElement
+FetchPriority
 .
 h
 "
@@ -19742,7 +19740,7 @@ requestPriority
 =
 FetchPriorityToRequestPriority
 (
-HTMLScriptElement
+nsGenericHTMLElementWithFetchPriorityAttribute
 :
 :
 ToFetchPriority
