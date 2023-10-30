@@ -3671,13 +3671,6 @@ suggested_index
 type
 :
 string
-unit
-:
-QuickSuggest
-bi
--
-directional
-index
 description
 :
 >
