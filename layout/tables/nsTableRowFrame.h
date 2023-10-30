@@ -581,6 +581,13 @@ const
 ;
 nsTableRowFrame
 *
+GetPrevRow
+(
+)
+const
+;
+nsTableRowFrame
+*
 GetNextRow
 (
 )
