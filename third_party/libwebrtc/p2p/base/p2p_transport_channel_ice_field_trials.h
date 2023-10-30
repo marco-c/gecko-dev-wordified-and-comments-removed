@@ -112,6 +112,16 @@ extra_ice_ping
 =
 false
 ;
+bool
+enable_goog_delta
+=
+true
+;
+bool
+answer_goog_delta
+=
+true
+;
 }
 ;
 }
