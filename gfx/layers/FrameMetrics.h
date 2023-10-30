@@ -949,8 +949,15 @@ GetVisualScrollOffset
 )
 ;
 }
+std
+:
+:
+pair
+<
 bool
-ApplyScrollUpdateFrom
+CSSPoint
+>
+ApplyAbsoluteScrollUpdateFrom
 (
 const
 ScrollPositionUpdate

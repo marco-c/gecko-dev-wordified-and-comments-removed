@@ -86,6 +86,7 @@ ScrollUpdateType
 Absolute
 Relative
 PureRelative
+MergeableAbsolute
 }
 ;
 enum
@@ -180,6 +181,16 @@ const
 nsPoint
 &
 aDelta
+)
+;
+static
+ScrollPositionUpdate
+NewMergeableScroll
+(
+ScrollOrigin
+aOrigin
+nsPoint
+aDestination
 )
 ;
 bool
