@@ -138,6 +138,9 @@ command
 Get
 -
 Item
+-
+ErrorAction
+Stop
 '
 %
 s
