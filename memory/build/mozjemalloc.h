@@ -315,6 +315,7 @@ return_type
 )
 \
 static
+inline
 return_type
 name
 (
@@ -369,6 +370,7 @@ malloc_decls
 h
 "
 static
+inline
 int
 posix_memalign
 (
@@ -398,6 +400,7 @@ aSize
 ;
 }
 static
+inline
 void
 *
 aligned_alloc
@@ -423,6 +426,7 @@ aSize
 ;
 }
 static
+inline
 void
 *
 valloc

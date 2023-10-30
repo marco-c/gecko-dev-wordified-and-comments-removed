@@ -97,11 +97,6 @@ FdPrintf
 .
 cpp
 "
-"
-PHC
-.
-cpp
-"
 ]
 if
 CONFIG

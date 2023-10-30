@@ -19127,12 +19127,14 @@ return_type
 .
 )
 \
+inline
 return_type
 MozJemalloc
 :
 :
 name
 (
+\
 ARGS_HELPER
 (
 TYPED_ARGS
@@ -19797,6 +19799,7 @@ aSize
 )
 ;
 }
+inline
 size_t
 MozJemalloc
 :
@@ -19841,6 +19844,7 @@ return
 aSize
 ;
 }
+inline
 size_t
 MozJemalloc
 :
@@ -19865,6 +19869,7 @@ Size
 )
 ;
 }
+inline
 void
 MozJemalloc
 :
@@ -21262,6 +21267,7 @@ return_type
 .
 )
 \
+inline
 return_type
 MozJemalloc
 :
@@ -23023,5 +23029,17 @@ aPtr
 )
 ;
 }
+#
+endif
+#
+ifdef
+MOZ_PHC
+#
+include
+"
+PHC
+.
+cpp
+"
 #
 endif
