@@ -1493,6 +1493,11 @@ RefreshRealmPrincipal
 (
 )
 ;
+void
+RefreshReduceTimerPrecisionCallerType
+(
+)
+;
 friend
 class
 FullscreenTransitionTask
