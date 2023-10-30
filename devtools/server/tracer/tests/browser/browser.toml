@@ -38,3 +38,10 @@ tracer
 js
 "
 ]
+[
+"
+browser_document_tracer
+.
+js
+"
+]
