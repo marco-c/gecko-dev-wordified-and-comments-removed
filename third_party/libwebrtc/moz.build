@@ -4129,6 +4129,16 @@ libwebrtc
 /
 rtc_base
 /
+frequency_tracker_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 gtest_prod_gn
 "
 "
