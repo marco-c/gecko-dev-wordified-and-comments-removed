@@ -1464,13 +1464,6 @@ toObject
 )
 )
 ;
-JSAutoRealm
-ar
-(
-aCx
-iterResult
-)
-;
 bool
 done
 =
