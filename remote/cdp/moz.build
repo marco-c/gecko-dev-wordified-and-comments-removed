@@ -103,7 +103,7 @@ browser
 /
 browser_cdp_only
 .
-ini
+toml
 "
 "
 test
@@ -213,7 +213,7 @@ runtime
 /
 browser_with_default_prefs
 .
-ini
+toml
 "
 "
 test

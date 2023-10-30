@@ -7,7 +7,7 @@ mochitest
 /
 browser_env_path_long
 .
-ini
+toml
 "
 ]
 GeckoCppUnitTests
