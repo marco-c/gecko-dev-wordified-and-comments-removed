@@ -553,7 +553,7 @@ getItemAtIndex
 )
 ;
 const
-secondLoginItemSecondaryAction
+secondLoginItemSettingsIcon
 =
 secondLoginItem
 .
@@ -563,9 +563,9 @@ querySelector
 .
 ac
 -
-secondary
+settings
 -
-action
+button
 "
 )
 ;
@@ -574,7 +574,7 @@ Assert
 ok
 (
 !
-secondLoginItemSecondaryAction
+secondLoginItemSettingsIcon
 .
 checkVisibility
 (
@@ -585,8 +585,8 @@ true
 }
 )
 "
-Secondary
-action
+Gear
+icon
 should
 not
 be
@@ -644,7 +644,7 @@ Assert
 .
 ok
 (
-secondLoginItemSecondaryAction
+secondLoginItemSettingsIcon
 .
 checkVisibility
 (
@@ -655,12 +655,13 @@ true
 }
 )
 "
-Secondary
-action
+Gear
+icon
 should
 be
 visible
 when
+login
 item
 is
 active
@@ -691,7 +692,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-secondLoginItemSecondaryAction
+secondLoginItemSettingsIcon
 {
 }
 )
