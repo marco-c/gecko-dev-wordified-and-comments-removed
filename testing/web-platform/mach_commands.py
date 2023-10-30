@@ -1967,11 +1967,8 @@ add_mount_point
 (
 url_base
 paths
-[
-"
+.
 tests_path
-"
-]
 )
             
 return
