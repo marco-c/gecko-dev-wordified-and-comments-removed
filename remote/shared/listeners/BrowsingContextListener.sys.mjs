@@ -391,6 +391,13 @@ stopListening
 (
 )
 ;
+this
+.
+#
+topContextsToAttach
+=
+null
+;
 }
 observe
 (
