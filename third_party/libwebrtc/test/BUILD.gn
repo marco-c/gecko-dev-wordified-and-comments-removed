@@ -1492,6 +1492,14 @@ video_capture_module
 /
 rtc_base
 :
+logging
+"
+"
+.
+.
+/
+rtc_base
+:
 threading
 "
 "

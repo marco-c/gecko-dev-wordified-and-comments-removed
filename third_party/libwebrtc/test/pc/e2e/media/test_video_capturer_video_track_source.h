@@ -187,6 +187,13 @@ SetState
 kLive
 )
 ;
+video_capturer_
+-
+>
+Start
+(
+)
+;
 }
 void
 Stop
@@ -197,6 +204,13 @@ override
 SetState
 (
 kMuted
+)
+;
+video_capturer_
+-
+>
+Stop
+(
 )
 ;
 }
