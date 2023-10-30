@@ -12,7 +12,7 @@ include
 "
 vm
 /
-JSContext
+JSObject
 .
 h
 "
@@ -21,7 +21,9 @@ include
 "
 vm
 /
-JSObject
+JSContext
+-
+inl
 .
 h
 "
