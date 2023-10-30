@@ -381,6 +381,14 @@ nameFlag
 =
 =
 eNameFromSubtree
+|
+|
+parent
+-
+>
+IsHTMLFileInput
+(
+)
 )
 {
 RefPtr
