@@ -3255,6 +3255,8 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UpdateFilter
 (
+bool
+aFlushIfNeeded
 )
 ;
 protected
@@ -4226,6 +4228,7 @@ isWriteOnly
 {
 UpdateFilter
 (
+true
 )
 ;
 EnsureTarget
