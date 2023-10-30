@@ -170,15 +170,6 @@ classic
 /
 global
 /
-toolbarbutton
-.
-css
-skin
-/
-classic
-/
-global
-/
 wizard
 .
 css
