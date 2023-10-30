@@ -392,11 +392,6 @@ RESPATH
 defaultagent
 .
 ini
-RESPATH
-/
-defaultagent_localized
-.
-ini
 #
 endif
 #
