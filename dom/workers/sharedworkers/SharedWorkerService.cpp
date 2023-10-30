@@ -324,6 +324,15 @@ if
 NS_WARN_IF
 (
 !
+mActor
+-
+>
+CanSend
+(
+)
+|
+|
+!
 mManagerWrapper
 -
 >
