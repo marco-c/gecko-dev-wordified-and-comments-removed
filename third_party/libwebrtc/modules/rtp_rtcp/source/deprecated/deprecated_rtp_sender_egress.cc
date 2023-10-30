@@ -2343,15 +2343,6 @@ transport_
 SendRtp
 (
 packet
-.
-data
-(
-)
-packet
-.
-size
-(
-)
 options
 )
 ?
