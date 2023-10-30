@@ -2981,6 +2981,9 @@ stylist
 unwrap
 (
 )
+self
+.
+context
 shorthand_cache
 )
 }

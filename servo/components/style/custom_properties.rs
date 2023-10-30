@@ -3981,6 +3981,13 @@ stylist
 :
 &
 Stylist
+computed_context
+:
+&
+computed
+:
+:
+Context
 )
 -
 >
@@ -4084,6 +4091,7 @@ mut
 fallback
 custom_properties
 stylist
+computed_context
 )
 ?
 ;
@@ -4730,6 +4738,9 @@ inherited
 self
 .
 stylist
+self
+.
+computed_context
 self
 .
 is_root_element
@@ -6285,6 +6296,9 @@ context
 stylist
 context
 .
+computed_context
+context
+.
 is_root_element
 )
 ;
@@ -6524,6 +6538,13 @@ stylist
 :
 &
 Stylist
+computed_context
+:
+&
+computed
+:
+:
+Context
 is_root_element
 :
 bool
@@ -6622,6 +6643,7 @@ mut
 computed_value
 custom_properties
 stylist
+computed_context
 )
 ;
 let
@@ -7114,6 +7136,13 @@ stylist
 :
 &
 Stylist
+computed_context
+:
+&
+computed
+:
+:
+Context
 )
 -
 >
@@ -7500,6 +7529,7 @@ parse_and_substitute_fallback
 input
 custom_properties
 stylist
+computed_context
 )
 ?
 ;
@@ -7610,6 +7640,7 @@ parse_and_substitute_fallback
 input
 custom_properties
 stylist
+computed_context
 )
 ?
 ;
@@ -7773,6 +7804,7 @@ position
 partial_computed_value
 custom_properties
 stylist
+computed_context
 )
 }
 )
@@ -7832,6 +7864,13 @@ stylist
 :
 &
 Stylist
+computed_context
+:
+&
+computed
+:
+:
+Context
 )
 -
 >
@@ -7911,6 +7950,7 @@ mut
 substituted
 custom_properties
 stylist
+computed_context
 )
 ?
 ;
