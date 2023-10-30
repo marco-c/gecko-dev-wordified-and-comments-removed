@@ -168,5 +168,14 @@ gAddrInfo
 ;
 }
 }
+struct
+ReplaceMallocBridge
+;
+ReplaceMallocBridge
+*
+GetPHCBridge
+(
+)
+;
 #
 endif
