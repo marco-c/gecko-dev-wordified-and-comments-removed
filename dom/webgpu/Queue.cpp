@@ -198,6 +198,11 @@ mId
 aId
 )
 {
+MOZ_RELEASE_ASSERT
+(
+aId
+)
+;
 }
 Queue
 :

@@ -130,6 +130,11 @@ GPUComputePassDescriptor
 aDesc
 )
 {
+MOZ_RELEASE_ASSERT
+(
+aEncoderId
+)
+;
 ffi
 :
 :

@@ -513,6 +513,11 @@ mBridge
 aBridge
 )
 {
+MOZ_RELEASE_ASSERT
+(
+aId
+)
+;
 }
 CommandEncoder
 :

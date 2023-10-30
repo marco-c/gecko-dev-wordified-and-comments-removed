@@ -226,6 +226,11 @@ aDesc
 mUsage
 )
 {
+MOZ_RELEASE_ASSERT
+(
+aId
+)
+;
 }
 Texture
 :
