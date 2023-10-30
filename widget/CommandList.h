@@ -282,7 +282,7 @@ cmd_redo
 NS_DEFINE_COMMAND
 (
 FormatBlock
-cmd_paragraphState
+cmd_formatBlock
 )
 NS_DEFINE_COMMAND
 (
@@ -597,6 +597,11 @@ NS_DEFINE_COMMAND
 (
 MoveUp2
 cmd_moveUp2
+)
+NS_DEFINE_COMMAND
+(
+ParagraphState
+cmd_paragraphState
 )
 NS_DEFINE_COMMAND
 (
