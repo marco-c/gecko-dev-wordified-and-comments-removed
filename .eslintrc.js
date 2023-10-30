@@ -3796,16 +3796,6 @@ test
 "
 dom
 /
-encoding
-/
-test
-/
-*
-*
-"
-"
-dom
-/
 events
 /
 test
