@@ -458,7 +458,7 @@ len
 attribution_arg
 )
 <
-1024
+1010
 :
                 
 attribution_arg
@@ -475,7 +475,15 @@ command
 1
 ]
 =
+"
+'
+"
++
 attribution_arg
++
+"
+'
+"
             
 job
 [
