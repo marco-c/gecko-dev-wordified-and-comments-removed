@@ -7373,9 +7373,6 @@ objects
 :
 [
 "
-legacy_wizard
-"
-"
 wizard
 "
 ]
@@ -7424,9 +7421,6 @@ no_browsers_found
 objects
 :
 [
-"
-legacy_wizard
-"
 "
 wizard
 "
@@ -7484,9 +7478,6 @@ browser_selected
 objects
 :
 [
-"
-legacy_wizard
-"
 "
 wizard
 "
@@ -7553,9 +7544,6 @@ profile_selected
 objects
 :
 [
-"
-legacy_wizard
-"
 "
 wizard
 "
@@ -7641,9 +7629,6 @@ resources_selected
 objects
 :
 [
-"
-legacy_wizard
-"
 "
 wizard
 "
@@ -7964,9 +7949,6 @@ objects
 :
 [
 "
-legacy_wizard
-"
-"
 wizard
 "
 ]
@@ -8120,9 +8102,6 @@ migration_started
 objects
 :
 [
-"
-legacy_wizard
-"
 "
 wizard
 "
@@ -8308,9 +8287,6 @@ migration_finished
 objects
 :
 [
-"
-legacy_wizard
-"
 "
 wizard
 "
