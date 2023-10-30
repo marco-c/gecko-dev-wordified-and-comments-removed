@@ -1569,6 +1569,7 @@ scrollMinX
 scrollMinY
 scrollWidth
 scrollHeight
+devicePixelRatio
 }
 =
 this
@@ -1602,12 +1603,6 @@ scrollWidth
 height
 :
 scrollHeight
-devicePixelRatio
-:
-this
-.
-contentWindow
-.
 devicePixelRatio
 }
 ;
@@ -1746,6 +1741,7 @@ scrollX
 scrollY
 clientWidth
 clientHeight
+devicePixelRatio
 }
 =
 this
@@ -1783,12 +1779,6 @@ clientWidth
 height
 :
 clientHeight
-devicePixelRatio
-:
-this
-.
-contentWindow
-.
 devicePixelRatio
 }
 ;
