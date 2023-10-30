@@ -902,7 +902,7 @@ access
 key
 =
 "
-3rdPartyStorage
+3rdPartyFrameStorage
 ^
 "
 +
