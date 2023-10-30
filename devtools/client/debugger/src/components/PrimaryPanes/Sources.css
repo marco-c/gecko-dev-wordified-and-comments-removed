@@ -1062,6 +1062,12 @@ footer
 height
 )
 ;
+flex
+-
+shrink
+:
+0
+;
 border
 -
 block
