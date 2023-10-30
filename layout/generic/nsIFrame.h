@@ -4360,11 +4360,6 @@ NS_DECLARE_FRAME_PROPERTY_DELETABLE
 UsedPaddingProperty
 nsMargin
 )
-NS_DECLARE_FRAME_PROPERTY_DELETABLE
-(
-UsedBorderProperty
-nsMargin
-)
 struct
 PageValues
 {
