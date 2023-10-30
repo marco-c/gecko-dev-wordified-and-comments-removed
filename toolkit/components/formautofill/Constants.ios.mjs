@@ -160,15 +160,6 @@ extensions
 .
 formautofill
 .
-firstTimeUse
-"
-:
-true
-"
-extensions
-.
-formautofill
-.
 addresses
 .
 supported

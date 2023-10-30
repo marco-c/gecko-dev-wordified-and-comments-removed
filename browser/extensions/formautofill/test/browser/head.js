@@ -365,17 +365,6 @@ html
 "
 ;
 const
-FTU_PREF
-=
-"
-extensions
-.
-formautofill
-.
-firstTimeUse
-"
-;
-const
 ENABLED_AUTOFILL_ADDRESSES_PREF
 =
 "

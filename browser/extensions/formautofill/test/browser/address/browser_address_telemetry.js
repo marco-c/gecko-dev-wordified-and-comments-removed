@@ -1452,7 +1452,13 @@ extensions
 .
 formautofill
 .
-firstTimeUse
+addresses
+.
+capture
+.
+v2
+.
+enabled
 "
 true
 ]
