@@ -34099,8 +34099,12 @@ custom_properties
 =
 guard
 .
-cascade_custom_properties_with_context
+cascade_custom_properties
 (
+&
+data
+.
+stylist
 &
 context
 )
