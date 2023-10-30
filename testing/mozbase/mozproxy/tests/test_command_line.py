@@ -21,10 +21,6 @@ buildconfig
 import
 topobjdir
 topsrcdir
-from
-mozprocess
-import
-ProcessHandler
 here
 =
 os
@@ -35,6 +31,28 @@ dirname
 (
 __file__
 )
+if
+os
+.
+name
+=
+=
+"
+nt
+"
+:
+    
+PROCESS_CREATION_FLAGS
+=
+subprocess
+.
+CREATE_NEW_PROCESS_GROUP
+else
+:
+    
+PROCESS_CREATION_FLAGS
+=
+0
 def
 _install_package
 (
@@ -228,6 +246,21 @@ line
 )
 :
         
+line
+=
+line
+.
+rstrip
+(
+b
+"
+\
+r
+\
+n
+"
+)
+        
 if
 not
 line
@@ -369,7 +402,9 @@ test_help
     
 p
 =
-ProcessHandler
+subprocess
+.
+run
 (
 [
 sys
@@ -390,18 +425,10 @@ help
 ]
 )
     
-p
-.
-run
-(
-)
-    
 assert
 p
 .
-wait
-(
-)
+returncode
 =
 =
 0
@@ -419,7 +446,9 @@ OutputHandler
     
 p
 =
-ProcessHandler
+subprocess
+.
+Popen
 (
         
 [
@@ -479,21 +508,56 @@ topobjdir
         
 ]
         
-processOutputLine
+creationflags
 =
-output_handler
+PROCESS_CREATION_FLAGS
         
-onFinish
+stdout
 =
-output_handler
+subprocess
 .
-finished
+PIPE
+        
+stderr
+=
+subprocess
+.
+STDOUT
+        
+text
+=
+False
     
 )
     
+for
+line
+in
 p
 .
-run
+stdout
+:
+        
+output_handler
+(
+line
+)
+        
+if
+output_handler
+.
+port_event
+.
+is_set
+(
+)
+:
+            
+break
+    
+output_handler
+.
+finished
 (
 )
     
@@ -554,7 +618,9 @@ OutputHandler
     
 p
 =
-ProcessHandler
+subprocess
+.
+Popen
 (
         
 [
@@ -648,21 +714,56 @@ zip
         
 ]
         
-processOutputLine
+creationflags
 =
-output_handler
+PROCESS_CREATION_FLAGS
         
-onFinish
+stdout
 =
-output_handler
+subprocess
 .
-finished
+PIPE
+        
+stderr
+=
+subprocess
+.
+STDOUT
+        
+text
+=
+False
     
 )
     
+for
+line
+in
 p
 .
-run
+stdout
+:
+        
+output_handler
+(
+line
+)
+        
+if
+output_handler
+.
+port_event
+.
+is_set
+(
+)
+:
+            
+break
+    
+output_handler
+.
+finished
 (
 )
     
@@ -723,7 +824,9 @@ OutputHandler
     
 p
 =
-ProcessHandler
+subprocess
+.
+Popen
 (
         
 [
@@ -800,26 +903,61 @@ zip
         
 ]
         
-processOutputLine
+creationflags
 =
-output_handler
+PROCESS_CREATION_FLAGS
         
-onFinish
+stdout
 =
+subprocess
+.
+PIPE
+        
+stderr
+=
+subprocess
+.
+STDOUT
+        
+text
+=
+False
+    
+)
+    
+for
+line
+in
+p
+.
+stdout
+:
+        
+output_handler
+(
+line
+)
+        
+if
+output_handler
+.
+port_event
+.
+is_set
+(
+)
+:
+            
+break
+    
 output_handler
 .
 finished
-    
+(
 )
     
 try
 :
-        
-p
-.
-run
-(
-)
         
 assert
 output_handler
@@ -904,7 +1042,9 @@ OutputHandler
     
 p
 =
-ProcessHandler
+subprocess
+.
+Popen
 (
         
 [
@@ -979,21 +1119,56 @@ zip
         
 ]
         
-processOutputLine
+creationflags
 =
-output_handler
+PROCESS_CREATION_FLAGS
         
-onFinish
+stdout
 =
-output_handler
+subprocess
 .
-finished
+PIPE
+        
+stderr
+=
+subprocess
+.
+STDOUT
+        
+text
+=
+False
     
 )
     
+for
+line
+in
 p
 .
-run
+stdout
+:
+        
+output_handler
+(
+line
+)
+        
+if
+output_handler
+.
+port_event
+.
+is_set
+(
+)
+:
+            
+break
+    
+output_handler
+.
+finished
 (
 )
     
@@ -1055,7 +1230,9 @@ OutputHandler
     
 p
 =
-ProcessHandler
+subprocess
+.
+Popen
 (
         
 [
@@ -1104,21 +1281,56 @@ zip
         
 ]
         
-processOutputLine
+creationflags
 =
-output_handler
+PROCESS_CREATION_FLAGS
         
-onFinish
+stdout
 =
-output_handler
+subprocess
 .
-finished
+PIPE
+        
+stderr
+=
+subprocess
+.
+STDOUT
+        
+text
+=
+False
     
 )
     
+for
+line
+in
 p
 .
-run
+stdout
+:
+        
+output_handler
+(
+line
+)
+        
+if
+output_handler
+.
+port_event
+.
+is_set
+(
+)
+:
+            
+break
+    
+output_handler
+.
+finished
 (
 )
     

@@ -472,7 +472,7 @@ info
 Installing
 mitmproxy
 CA
-certficate
+certificate
 into
 Firefox
 "
