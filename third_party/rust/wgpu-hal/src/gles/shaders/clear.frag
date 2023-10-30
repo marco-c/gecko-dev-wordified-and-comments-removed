@@ -1,11 +1,3 @@
-#
-version
-300
-es
-precision
-lowp
-float
-;
 uniform
 vec4
 color

@@ -1886,7 +1886,7 @@ Lost
 DeviceError
 :
 :
-Invalid
+Lost
 hal
 :
 :

@@ -2045,6 +2045,16 @@ Rgba8Sint
 Tf
 :
 :
+Bgra8Unorm
+=
+>
+Sf
+:
+:
+Bgra8Unorm
+Tf
+:
+:
 Rgb10a2Uint
 =
 >

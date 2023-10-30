@@ -1999,6 +1999,15 @@ Vec
 <
 Word
 >
+expression_constness
+:
+crate
+:
+:
+proc
+:
+:
+ExpressionConstnessTracker
 }
 impl
 BlockContext

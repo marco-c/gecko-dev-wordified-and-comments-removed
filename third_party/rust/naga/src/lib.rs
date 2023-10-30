@@ -2513,7 +2513,8 @@ enum
 UnaryOperator
 {
 Negate
-Not
+LogicalNot
+BitwiseNot
 }
 #
 [
@@ -2881,8 +2882,6 @@ All
 Any
 IsNan
 IsInf
-IsFinite
-IsNormal
 }
 #
 [

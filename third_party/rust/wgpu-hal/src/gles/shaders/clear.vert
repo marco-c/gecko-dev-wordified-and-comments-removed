@@ -1,11 +1,3 @@
-#
-version
-300
-es
-precision
-lowp
-float
-;
 /
 /
 A
@@ -15,7 +7,6 @@ fills
 the
 whole
 screen
-const
 vec2
 [
 3

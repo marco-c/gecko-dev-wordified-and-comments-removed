@@ -1011,6 +1011,7 @@ frontend
 &
 mut
 module
+false
 )
 ?
 ;
@@ -1341,6 +1342,7 @@ new
 (
 frontend
 module
+true
 )
 ?
 ;
@@ -1395,14 +1397,7 @@ Rhs
 Ok
 (
 (
-ctx
-.
-solve_constant
-(
 root
-meta
-)
-?
 meta
 )
 )
@@ -2306,6 +2301,9 @@ TypeQualifiers
 qualifiers
 >
 external
+:
+bool
+is_inside_loop
 :
 bool
 ctx

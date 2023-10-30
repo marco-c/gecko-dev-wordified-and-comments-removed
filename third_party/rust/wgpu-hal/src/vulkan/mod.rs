@@ -323,7 +323,7 @@ bool
 android_sdk_version
 :
 u32
-driver_api_version
+instance_api_version
 :
 u32
 }
@@ -600,6 +600,9 @@ robust_image_access2
 :
 bool
 zero_initialize_workgroup_memory
+:
+bool
+image_format_list
 :
 bool
 }

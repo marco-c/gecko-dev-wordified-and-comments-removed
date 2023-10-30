@@ -4284,6 +4284,11 @@ F
 :
 :
 MULTI_DRAW_INDIRECT
+|
+F
+:
+:
+BGRA8UNORM_STORAGE
 ;
 features
 .
