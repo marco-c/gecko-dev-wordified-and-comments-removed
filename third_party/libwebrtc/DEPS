@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-4e064eab42b6d7cf0a9ab3628ec487b66b228e75
+d13ed2a18fa1b7fb82c7d65cb716be047be53880
 '
 #
 Fetch
@@ -188,7 +188,7 @@ version
 :
 13
 .
-20230628
+20230629
 .
 2
 .
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-ecc085374923591c72227223d803e3d13987084c
+054152707e189aedb3766ea5be91b38f8bb9f6fa
 '
 '
 src
@@ -416,7 +416,7 @@ chromium
 src
 /
 build
-829a12f473bdab7883a877a0da3409fbd69de620
+e0690c7c78932ccde04165c52482b36528e99120
 '
 '
 src
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-370f85a63bf57a6dcc797ff512dec3679ef7479d
+8b435629ec2d8ea0b9f8be6de8d992bfcd1de28a
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-ef431a43f9adf1a3d7b544e06e44f300bae34678
+a74fd69d4e71647c9b1896df5d309fe261d4e0ac
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-3231eb4d7bea3debecd29ada7d91d434fd98a80a
+5328b3a8ec3153dc20e64613cd3877b9682bd685
 '
 '
 src
@@ -1335,7 +1335,7 @@ com
 boringssl
 .
 git
-ae88f198a49d77993e9c44b017d0e69c810dc668
+824f0e9113916d0258ce515079492f43d3ed67c3
 '
 '
 src
@@ -1387,7 +1387,7 @@ com
 catapult
 .
 git
-b11802026a230d83b6a4f1f74642c949cf33e9de
+48b31edbfc9ec5fca3682df87bcadbf18e1cd31f
 '
 '
 src
@@ -1564,7 +1564,7 @@ tools
 depot_tools
 .
 git
-bb27381a20d7c84b98262a0d9ff861d710777b1e
+98cadbd0eddff48ea39693366ba05a3cb2f28ad6
 '
 '
 src
@@ -2578,7 +2578,7 @@ external
 perfetto
 .
 git
-87e832c471d7d9d7d2fbcee4958bf2de21e5371f
+80fcf58280c7ec1e9230b59e85a5494ad52ab49d
 '
 '
 src
@@ -3010,7 +3010,7 @@ chromium
 src
 /
 tools
-1b9afc400141771633de7dd6c67243e79aa921a2
+3443b1e38a5622b7fb1728975a493d93a0fd162a
 '
 '
 src
@@ -3359,7 +3359,9 @@ version
 '
 :
 '
-70eDRk3Khy9tgvMTnWXCKzFIfFYcFv6NvE4YZuTZbssC
+ipivfTxGcbiTG_EUQ5jX8s0lPg3Q5LthXj9A__Z
+-
+Zl4C
 '
 }
 ]
@@ -3920,7 +3922,9 @@ version
 '
 :
 '
-G8Cku1fztaDd9to_8gk3PNWM2iRacAxD9zcUAgUPUEAC
+9rSngS4o9OIlNubLcU1zXF_w0dPYif6AS
+-
+_k1pPAV1kC
 '
 }
 ]
@@ -3982,7 +3986,7 @@ version
 '
 git_revision
 :
-58e1fcab6ced4d330cfd46287e00aa14fbd46dc6
+15be1e7f953cb4ef6d88aba86f57ca28724d1c9a
 '
 }
 {
@@ -4012,7 +4016,7 @@ version
 '
 git_revision
 :
-58e1fcab6ced4d330cfd46287e00aa14fbd46dc6
+15be1e7f953cb4ef6d88aba86f57ca28724d1c9a
 '
 }
 ]
