@@ -510,7 +510,7 @@ stackEnd
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 pragma
@@ -745,7 +745,7 @@ kPageSize
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &
