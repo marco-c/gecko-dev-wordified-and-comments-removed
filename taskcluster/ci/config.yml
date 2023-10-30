@@ -1246,6 +1246,7 @@ DevTools
 Mochitests
 with
 EFT
+disabled
 without
 fission
 enabled
