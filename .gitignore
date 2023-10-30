@@ -1073,6 +1073,13 @@ json
 .
 user
 #
+Thunderbird
+source
+tree
+/
+comm
+/
+#
 Ignore
 various
 raptor
