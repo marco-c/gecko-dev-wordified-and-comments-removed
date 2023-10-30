@@ -345,14 +345,7 @@ size
 for
 (
 const
-std
-:
-:
-pair
-<
-TKey
-TValue
->
+auto
 &
 pair
 :
