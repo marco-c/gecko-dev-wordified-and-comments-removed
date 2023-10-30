@@ -528,6 +528,17 @@ mjs
 "
 tests
 /
+quicksuggest
+/
+RemoteSettingsServer
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 UrlbarTestUtils
 .
 sys
