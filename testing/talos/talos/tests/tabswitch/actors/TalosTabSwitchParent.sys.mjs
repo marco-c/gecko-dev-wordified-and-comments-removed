@@ -1686,7 +1686,7 @@ win
 ;
 TalosParentProfiler
 .
-resume
+subtestStart
 (
 )
 ;
@@ -1703,7 +1703,7 @@ tab
 ;
 TalosParentProfiler
 .
-pause
+subtestEnd
 (
 "
 TabSwitch

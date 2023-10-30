@@ -69,7 +69,7 @@ marker
 {
 Profiler
 .
-pause
+subtestEnd
 (
 marker
 )
@@ -119,7 +119,7 @@ marker
 {
 Profiler
 .
-resume
+subtestStart
 (
 marker
 )

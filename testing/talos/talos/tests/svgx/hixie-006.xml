@@ -1205,7 +1205,7 @@ function
 {
 TalosContentProfiler
 .
-resume
+subtestStart
 (
 "
 hixie

@@ -410,7 +410,7 @@ return
 }
 TalosContentProfiler
 .
-resume
+subtestStart
 (
 "
 dromaeo
@@ -560,7 +560,7 @@ return
 }
 TalosContentProfiler
 .
-pause
+subtestEnd
 (
 "
 dromaeo

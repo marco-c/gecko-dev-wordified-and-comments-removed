@@ -420,7 +420,7 @@ this
 .
 TalosParentProfiler
 .
-pause
+subtestEnd
 (
 msg
 )

@@ -878,7 +878,7 @@ profilerPaused
 =
 TalosContentProfiler
 .
-pause
+subtestEnd
 (
 testBaseName
 true
@@ -1025,7 +1025,7 @@ undefined
 {
 TalosContentProfiler
 .
-resume
+subtestStart
 (
 testBaseName
 true

@@ -673,7 +673,7 @@ resolve
 )
 ;
 }
-resume
+subtestStart
 (
 marker
 =
@@ -698,7 +698,7 @@ sendEventAndWait
 "
 Profiler
 :
-Resume
+SubtestStart
 "
 {
 marker
@@ -714,7 +714,7 @@ resolve
 )
 ;
 }
-pause
+subtestEnd
 (
 marker
 =
@@ -742,7 +742,7 @@ sendEventAndWait
 "
 Profiler
 :
-Pause
+SubtestEnd
 "
 {
 marker

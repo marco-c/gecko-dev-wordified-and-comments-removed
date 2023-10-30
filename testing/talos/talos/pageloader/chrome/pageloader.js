@@ -1786,7 +1786,7 @@ TEST_DOES_OWN_TIMING
 {
 TalosParentProfiler
 .
-resume
+subtestStart
 (
 "
 Starting
@@ -3286,7 +3286,7 @@ gTime
 ;
 TalosParentProfiler
 .
-mark
+subtestEnd
 (
 "
 Talos
@@ -3296,12 +3296,6 @@ load
 handler
 fired
 "
-)
-;
-TalosParentProfiler
-.
-pause
-(
 )
 ;
 gTime
@@ -3552,7 +3546,7 @@ start_time
 }
 TalosParentProfiler
 .
-pause
+subtestEnd
 (
 "
 Bubbling

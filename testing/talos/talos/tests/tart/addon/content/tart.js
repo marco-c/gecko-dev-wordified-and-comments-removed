@@ -804,7 +804,7 @@ isReportResult
 {
 Profiler
 .
-resume
+subtestStart
 (
 name
 )
@@ -968,7 +968,7 @@ isReportResult
 {
 Profiler
 .
-pause
+subtestEnd
 (
 name
 )

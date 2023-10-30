@@ -422,7 +422,7 @@ getTopWindow
 ;
 TalosParentProfiler
 .
-resume
+subtestStart
 (
 "
 TabPaint
@@ -497,7 +497,7 @@ whenTabShown
 ;
 TalosParentProfiler
 .
-pause
+subtestEnd
 (
 "
 Talos
@@ -532,7 +532,7 @@ gBrowser
 {
 TalosParentProfiler
 .
-resume
+subtestStart
 (
 "
 TabPaint
@@ -578,7 +578,7 @@ whenTabShown
 ;
 TalosParentProfiler
 .
-pause
+subtestEnd
 (
 "
 Talos
