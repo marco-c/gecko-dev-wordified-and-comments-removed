@@ -378,9 +378,7 @@ A
 type
 is
 a
-re
--
-usable
+reusable
 schema
 fragment
 .

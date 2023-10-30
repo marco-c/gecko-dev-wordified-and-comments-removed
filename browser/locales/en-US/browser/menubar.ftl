@@ -105,9 +105,7 @@ please
 don
 '
 t
-re
--
-use
+reuse
 these
 strings
 outside

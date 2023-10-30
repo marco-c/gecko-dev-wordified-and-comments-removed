@@ -313,9 +313,7 @@ watch
 "
 variables
 and
-re
--
-use
+reuse
 them
 .
 For

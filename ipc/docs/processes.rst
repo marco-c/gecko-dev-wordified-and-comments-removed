@@ -6396,7 +6396,7 @@ StartMacSandbox
 )
 in
 the
-serie
+series
 of
 if
 /

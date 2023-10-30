@@ -517,7 +517,7 @@ responsibility
 of
 a
 layer
-implementor
+implementer
 to
 provide
 suitable

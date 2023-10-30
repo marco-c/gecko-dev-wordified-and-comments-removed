@@ -2844,7 +2844,7 @@ and
 all
 other
 regions
-execpt
+except
 for
 GB
 and

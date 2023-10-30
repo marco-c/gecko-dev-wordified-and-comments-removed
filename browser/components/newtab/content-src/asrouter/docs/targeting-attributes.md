@@ -84,7 +84,7 @@ telemetry
 than
 can
 be
-colleted
+collected
 so
 when
 in

@@ -559,9 +559,7 @@ caching
 script
 to
 allow
-re
--
-use
+reuse
 of
 the
 diffs

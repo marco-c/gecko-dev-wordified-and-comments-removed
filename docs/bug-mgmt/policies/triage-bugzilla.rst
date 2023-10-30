@@ -596,7 +596,7 @@ component
 with
 a
 high
-liklihood
+likelihood
 of
 fit
 and

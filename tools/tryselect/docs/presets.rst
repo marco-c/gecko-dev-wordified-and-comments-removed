@@ -28,9 +28,7 @@ a
 good
 way
 to
-re
--
-use
+reuse
 a
 selection
 either

@@ -162,7 +162,7 @@ overflow
 menu
 via
 the
-cutomization
+customization
 menu
 .
 panic

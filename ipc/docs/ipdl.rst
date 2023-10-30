@@ -685,7 +685,7 @@ document
 your
 endpoint
 bindings
-throroughly
+thoroughly
 !
 !
 !

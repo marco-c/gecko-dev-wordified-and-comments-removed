@@ -1032,7 +1032,7 @@ static
 string
 from
 all
-insances
+instances
 of
 the
 AUTO_PROFILER_LABEL

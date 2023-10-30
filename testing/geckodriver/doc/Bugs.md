@@ -115,7 +115,7 @@ wide
 variety
 and
 different
-charateristics
+characteristics
 of
 clients
 used

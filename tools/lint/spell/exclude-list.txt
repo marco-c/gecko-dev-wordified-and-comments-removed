@@ -22,3 +22,5 @@ falsy
 rduce
 complies
 ehr
+inout
+manuel

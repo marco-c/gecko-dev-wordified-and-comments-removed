@@ -56,7 +56,7 @@ Description
 -
 A
 layer
-implementor
+implementer
 should
 collect
 all

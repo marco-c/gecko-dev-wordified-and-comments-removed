@@ -1322,7 +1322,7 @@ are
 enabled
 by
 mach
-boostrap
+bootstrap
 :
 #
 .

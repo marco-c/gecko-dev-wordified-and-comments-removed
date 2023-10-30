@@ -342,7 +342,7 @@ ProfilerParent
 uses
 the
 DestroyReleasedChunksAtOrBefore
-meessage
+message
 to
 control
 the

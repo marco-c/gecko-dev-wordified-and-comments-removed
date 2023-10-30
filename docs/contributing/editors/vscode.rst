@@ -322,7 +322,7 @@ for
 VS
 Code
 by
-simplying
+simply
 running
 from
 the

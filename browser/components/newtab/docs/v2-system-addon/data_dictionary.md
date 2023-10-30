@@ -18058,7 +18058,7 @@ one
 |
 attribution
 .
-variantion
+variation
 |
 [
 Optional

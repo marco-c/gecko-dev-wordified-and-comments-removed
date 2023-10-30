@@ -101,7 +101,7 @@ occur
 .
 See
 the
-scema
+schema
 <
 https
 :

@@ -1334,9 +1334,7 @@ instance
 This
 client
 will
-re
--
-use
+reuse
 the
 same
 WebSocket

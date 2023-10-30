@@ -293,7 +293,7 @@ so
 unless
 you
 have
-explcitly
+explicitly
 disabled
 it
 your

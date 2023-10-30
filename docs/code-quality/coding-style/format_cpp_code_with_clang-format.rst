@@ -834,7 +834,7 @@ commit
 phase
 run
 mach
-boostrap
+bootstrap
 or
 just
 add

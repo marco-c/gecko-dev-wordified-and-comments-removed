@@ -1272,7 +1272,7 @@ implementation
 file
 rather
 than
-declarating
+declaring
 them
 static
 .

@@ -276,7 +276,7 @@ be
 overridden
 by
 the
-implementor
+implementer
 of
 that
 layer
@@ -671,7 +671,7 @@ stack
 .
 A
 layer
-implementor
+implementer
 might
 copy
 the

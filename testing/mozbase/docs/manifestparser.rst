@@ -3760,7 +3760,7 @@ syntax
 as
 well
 as
-libararies
+libraries
 to
 read
 and
