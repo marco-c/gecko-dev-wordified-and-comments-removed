@@ -165,7 +165,7 @@ aria
 label
 =
 Review
-checker
+Checker
 -
 beta
 shopping
@@ -861,8 +861,8 @@ label
 Show
 ads
 in
-review
-checker
+Review
+Checker
 shopping
 -
 settings
@@ -924,8 +924,8 @@ button
 =
 Turn
 off
-review
-checker
+Review
+Checker
 powered
 -
 by
@@ -933,7 +933,7 @@ by
 fakespot
 =
 Review
-checker
+Checker
 is
 powered
 by
@@ -1184,7 +1184,7 @@ explainer
 -
 learn
 -
-more
+more2
 =
 Learn
 more
@@ -1211,8 +1211,6 @@ how
 fakespot
 -
 brand
--
-full
 -
 name
 }
@@ -1407,8 +1405,8 @@ button2
 tooltiptext
 =
 Open
-review
-checker
+Review
+Checker
 shopping
 -
 sidebar
@@ -1421,8 +1419,8 @@ button2
 tooltiptext
 =
 Close
-review
-checker
+Review
+Checker
 #
 #
 Strings
@@ -1498,7 +1496,7 @@ feature
 (
 '
 Review
-checker
+Checker
 '
 )
 .
@@ -1656,8 +1654,8 @@ are
 you
 with
 the
-review
-checker
+Review
+Checker
 experience
 in
 {
@@ -1746,8 +1744,8 @@ two
 =
 Does
 the
-review
-checker
+Review
+Checker
 make
 it
 easier
@@ -1896,8 +1894,8 @@ to
 <
 strong
 >
-review
-checker
+Review
+Checker
 <
 /
 strong
@@ -1943,8 +1941,8 @@ in
 subtitle
 =
 Open
-review
-checker
+Review
+Checker
 to
 see
 an
@@ -1997,8 +1995,8 @@ in
 subtitle
 =
 Give
-review
-checker
+Review
+Checker
 a
 try
 whenever
@@ -2119,7 +2117,7 @@ you
 buy
 .
 Review
-checker
+Checker
 an
 experimental
 feature
@@ -2243,7 +2241,7 @@ terms
 -
 of
 -
-use
+use2
 =
 By
 selecting
@@ -2266,8 +2264,6 @@ to
 fakespot
 -
 brand
--
-full
 -
 name
 }
