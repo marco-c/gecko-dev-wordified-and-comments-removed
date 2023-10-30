@@ -9019,11 +9019,6 @@ nil
 ;
 [
 mWrappingCALayer
-removeFromSuperlayer
-]
-;
-[
-mWrappingCALayer
 release
 ]
 ;
