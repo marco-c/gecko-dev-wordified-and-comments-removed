@@ -64,9 +64,9 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-browser
+toolkit
 /
-components
+global
 /
 mozSupportLink
 .
