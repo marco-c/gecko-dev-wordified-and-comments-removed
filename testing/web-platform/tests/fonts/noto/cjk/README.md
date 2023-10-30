@@ -72,7 +72,12 @@ features
 +
 =
 halt
+fwid
+hwid
+palt
+pwid
 vhal
+vpal
 \
 -
 -
@@ -175,7 +180,12 @@ features
 +
 =
 halt
+fwid
+hwid
+palt
+pwid
 vhal
+vpal
 chws
 vchw
 \
