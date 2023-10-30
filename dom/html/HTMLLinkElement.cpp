@@ -335,7 +335,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsGenericHTMLElement
+nsGenericHTMLElementWithFetchPriorityAttribute
 (
 std
 :
@@ -832,7 +832,7 @@ true
 }
 }
 return
-nsGenericHTMLElement
+nsGenericHTMLElementWithFetchPriorityAttribute
 :
 :
 ParseAttribute
