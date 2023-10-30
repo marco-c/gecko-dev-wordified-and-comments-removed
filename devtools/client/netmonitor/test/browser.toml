@@ -2513,15 +2513,6 @@ js
 ]
 [
 "
-browser_net_reload
--
-markers
-.
-js
-"
-]
-[
-"
 browser_net_req
 -
 resp
