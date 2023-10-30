@@ -132,6 +132,17 @@ stackSize
 )
 ;
 JS_PUBLIC_API
+JS
+:
+:
+NativeStackSize
+ThreadStackQuotaForSize
+(
+size_t
+stackSize
+)
+;
+JS_PUBLIC_API
 bool
 HadFrontendErrors
 (
