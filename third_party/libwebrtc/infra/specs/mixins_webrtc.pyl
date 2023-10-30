@@ -246,11 +246,6 @@ output
 :
 {
 '
-mixin_append
-'
-:
-{
-'
 args
 '
 :
@@ -308,7 +303,6 @@ undefok
 test_launcher_summary_output
 '
 ]
-}
 }
 '
 ios
@@ -418,11 +412,6 @@ ios_runtime_cache_14_5
 :
 {
 '
-mixin_append
-'
-:
-{
-'
 swarming
 '
 :
@@ -455,7 +444,6 @@ ios
 '
 }
 ]
-}
 }
 }
 '
@@ -594,11 +582,6 @@ output
 :
 {
 '
-mixin_append
-'
-:
-{
-'
 args
 '
 :
@@ -627,7 +610,6 @@ output
 pb
 '
 ]
-}
 }
 '
 perf
@@ -802,11 +784,6 @@ webrtc_perf_tests
 ]
 }
 '
-mixin_append
-'
-:
-{
-'
 args
 '
 :
@@ -817,7 +794,6 @@ args
 nologs
 '
 ]
-}
 }
 '
 perf
@@ -880,11 +856,6 @@ tests
 :
 {
 '
-mixin_append
-'
-:
-{
-'
 args
 '
 :
@@ -907,7 +878,6 @@ Enabled
 nologs
 '
 ]
-}
 }
 '
 redfin
@@ -953,11 +923,6 @@ format
 :
 {
 '
-mixin_append
-'
-:
-{
-'
 args
 '
 :
@@ -978,7 +943,6 @@ gtest_output
 json
 '
 ]
-}
 '
 resultdb
 '
@@ -1142,11 +1106,6 @@ xctest
 :
 {
 '
-mixin_append
-'
-:
-{
-'
 args
 '
 :
@@ -1158,14 +1117,8 @@ xctest
 '
 ]
 }
-}
 '
 xcode_13_main
-'
-:
-{
-'
-mixin_append
 '
 :
 {
@@ -1187,7 +1140,6 @@ version
 13c100
 '
 ]
-}
 '
 swarming
 '
