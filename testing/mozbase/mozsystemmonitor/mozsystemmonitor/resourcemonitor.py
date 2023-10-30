@@ -1338,6 +1338,10 @@ cpu_percent
 "
 "
     
+instance
+=
+None
+    
 def
 __init__
 (
@@ -1771,6 +1775,12 @@ time
 monotonic
 (
 )
+        
+SystemResourceMonitor
+.
+instance
+=
+self
     
 def
 stop
@@ -2081,11 +2091,18 @@ time
 monotonic
 (
 )
+        
+SystemResourceUsage
+.
+instance
+=
+None
+    
+staticmethod
     
 def
 record_event
 (
-self
 name
 )
 :
@@ -2136,7 +2153,15 @@ below
 "
 "
         
-self
+if
+SystemResourceMonitor
+.
+instance
+:
+            
+SystemResourceMonitor
+.
+instance
 .
 events
 .
@@ -2152,10 +2177,11 @@ name
 )
 )
     
+staticmethod
+    
 def
 record_marker
 (
-self
 name
 start
 end
@@ -2213,7 +2239,15 @@ below
 "
 "
         
-self
+if
+SystemResourceMonitor
+.
+instance
+:
+            
+SystemResourceMonitor
+.
+instance
 .
 markers
 .
@@ -2227,19 +2261,29 @@ text
 )
 )
     
+staticmethod
+    
 def
 begin_marker
 (
-self
 name
 text
 )
 :
         
-self
+if
+SystemResourceMonitor
+.
+instance
+:
+            
+SystemResourceMonitor
+.
+instance
 .
 _active_markers
 [
+                
 name
 +
 "
@@ -2247,6 +2291,7 @@ name
 "
 +
 text
+            
 ]
 =
 time
@@ -2255,14 +2300,24 @@ monotonic
 (
 )
     
+staticmethod
+    
 def
 end_marker
 (
-self
 name
 text
 )
 :
+        
+if
+not
+SystemResourceMonitor
+.
+instance
+:
+            
+return
         
 end
 =
@@ -2286,7 +2341,9 @@ if
 not
 id
 in
-self
+SystemResourceMonitor
+.
+instance
 .
 _active_markers
 :
@@ -2295,7 +2352,9 @@ return
         
 start
 =
-self
+SystemResourceMonitor
+.
+instance
 .
 _active_markers
 .
@@ -2304,7 +2363,9 @@ pop
 id
 )
         
-self
+SystemResourceMonitor
+.
+instance
 .
 record_marker
 (
