@@ -1149,6 +1149,13 @@ setup
 break
 ;
 }
+received_packet
+.
+set_payload_type_frequency
+(
+kVideoPayloadTypeFrequency
+)
+;
 call
 -
 >

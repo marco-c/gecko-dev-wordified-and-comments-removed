@@ -1369,7 +1369,7 @@ has_value
 )
 )
 ;
-RTC_DCHECK_GT
+RTC_CHECK_GT
 (
 frequency_hz
 0
