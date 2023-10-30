@@ -1577,11 +1577,6 @@ CustomPropertiesBuilder
 :
 new
 (
-inherited_style
-.
-custom_properties
-(
-)
 stylist
 cascade
 .
