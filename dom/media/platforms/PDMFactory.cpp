@@ -4130,6 +4130,17 @@ KeySystem
 (
 )
 )
+|
+|
+IsWidevineExperimentKeySystemAndSupported
+(
+aProxy
+-
+>
+KeySystem
+(
+)
+)
 )
 {
 mEMEPDM

@@ -2527,6 +2527,12 @@ IsPlayReadyKeySystemAndSupported
 (
 mKeySystem
 )
+|
+|
+IsWidevineExperimentKeySystemAndSupported
+(
+mKeySystem
+)
 )
 {
 proxy
