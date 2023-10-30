@@ -786,6 +786,7 @@ marionette
 .
 navigate
 (
+            
 self
 .
 marionette
@@ -795,11 +796,14 @@ absolute_url
 "
 dom
 /
+cache
+/
 cacheUsage
 .
 html
 "
 )
+        
 )
         
 return
@@ -820,6 +824,7 @@ marionette
 .
 navigate
 (
+            
 self
 .
 marionette
@@ -829,11 +834,14 @@ absolute_url
 "
 dom
 /
+cache
+/
 cacheUsage
 .
 html
 "
 )
+        
 )
         
 beforeUsage
@@ -969,6 +977,7 @@ marionette
 .
 navigate
 (
+            
 self
 .
 marionette
@@ -978,11 +987,14 @@ absolute_url
 "
 dom
 /
+cache
+/
 cacheUsage
 .
 html
 "
 )
+        
 )
         
 beforeUsage
