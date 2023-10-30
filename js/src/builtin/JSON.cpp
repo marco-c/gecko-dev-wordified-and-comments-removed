@@ -1393,7 +1393,7 @@ maybeSafely
 }
 static
 bool
-Str
+SerializeJSONProperty
 (
 JSContext
 *
@@ -2937,7 +2937,7 @@ append
 |
 |
 !
-Str
+SerializeJSONProperty
 (
 cx
 outputValue
@@ -3489,7 +3489,7 @@ else
 if
 (
 !
-Str
+SerializeJSONProperty
 (
 cx
 outputValue
@@ -3585,7 +3585,7 @@ append
 }
 static
 bool
-Str
+SerializeJSONProperty
 (
 JSContext
 *
@@ -5840,7 +5840,7 @@ nobj
 ;
 static
 bool
-FastStr
+FastSerializeJSONProperty
 (
 JSContext
 *
@@ -7819,7 +7819,7 @@ NO_REASON
 if
 (
 !
-FastStr
+FastSerializeJSONProperty
 (
 cx
 vp
@@ -7995,7 +7995,7 @@ true
 if
 (
 !
-Str
+SerializeJSONProperty
 (
 cx
 vp
