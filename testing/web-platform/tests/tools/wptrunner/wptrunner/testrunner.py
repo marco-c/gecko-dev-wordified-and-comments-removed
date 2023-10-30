@@ -2233,6 +2233,12 @@ None
         
 self
 .
+test_runner_proc
+=
+None
+        
+self
+.
 browser
 =
 None
