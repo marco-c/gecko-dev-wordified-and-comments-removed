@@ -464,7 +464,11 @@ MediaTrackGraph
 Graph
 (
 )
+{
+return
+mGraph
 ;
+}
 const
 MediaTrackGraph
 *
@@ -472,7 +476,11 @@ Graph
 (
 )
 const
+{
+return
+mGraph
 ;
+}
 void
 SetGraphImpl
 (
@@ -1666,7 +1674,7 @@ mEndedNotificationSent
 bool
 mMainThreadDestroyed
 ;
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 mGraph
 ;
