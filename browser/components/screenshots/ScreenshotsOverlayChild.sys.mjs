@@ -452,7 +452,6 @@ preview
 -
 container
 "
-hidden
 >
 <
 div
@@ -604,7 +603,6 @@ hover
 -
 highlight
 "
-hidden
 >
 <
 /
@@ -619,7 +617,6 @@ selection
 -
 container
 "
-hidden
 >
 <
 div
@@ -1015,7 +1012,6 @@ buttons
 -
 container
 "
-hidden
 >
 <
 div
