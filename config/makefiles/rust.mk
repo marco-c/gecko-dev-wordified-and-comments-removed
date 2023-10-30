@@ -3689,6 +3689,9 @@ _deps
 )
 )
 (
+REPORT_BUILD
+)
+(
 if
 (
 (
@@ -3894,9 +3897,6 @@ library
 -
 build
 :
-(
-REPORT_BUILD
-)
 (
 call
 BUILDSTATUS
@@ -4327,9 +4327,6 @@ library
 build
 :
 (
-REPORT_BUILD
-)
-(
 call
 BUILDSTATUS
 START_Rust
@@ -4485,9 +4482,6 @@ build
 call
 resfile
 module
-)
-(
-REPORT_BUILD
 )
 (
 call
@@ -4660,9 +4654,6 @@ program
 build
 :
 (
-REPORT_BUILD
-)
-(
 call
 BUILDSTATUS
 START_Rust
@@ -4735,9 +4726,6 @@ program
 -
 %
 :
-(
-REPORT_BUILD
-)
 (
 call
 BUILDSTATUS
