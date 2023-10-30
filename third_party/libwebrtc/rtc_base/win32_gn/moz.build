@@ -458,9 +458,6 @@ iphlpapi
 "
 secur32
 "
-"
-winmm
-"
 ]
 UNIFIED_SOURCES
 +

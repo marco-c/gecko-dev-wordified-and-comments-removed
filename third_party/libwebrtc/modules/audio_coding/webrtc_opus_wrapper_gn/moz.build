@@ -957,6 +957,15 @@ OS_LIBS
 =
 [
 "
+crypt32
+"
+"
+iphlpapi
+"
+"
+secur32
+"
+"
 winmm
 "
 ]

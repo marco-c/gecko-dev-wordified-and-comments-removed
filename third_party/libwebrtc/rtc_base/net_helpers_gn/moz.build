@@ -927,9 +927,6 @@ iphlpapi
 "
 secur32
 "
-"
-winmm
-"
 ]
 if
 CONFIG
