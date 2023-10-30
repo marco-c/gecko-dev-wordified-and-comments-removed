@@ -477,7 +477,7 @@ aInitialDir
 {
 if
 (
-NS_FAILED
+FAILED
 (
 fd
 :
@@ -1027,7 +1027,7 @@ mSelectedType
 {
 if
 (
-NS_FAILED
+FAILED
 (
 fd
 :
