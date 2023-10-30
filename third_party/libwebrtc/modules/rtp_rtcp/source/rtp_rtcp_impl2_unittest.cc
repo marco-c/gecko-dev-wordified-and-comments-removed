@@ -927,8 +927,8 @@ SentPacket
 (
 uint16_t
 packet_id
-int64_t
-capture_time_ms
+Timestamp
+capture_time
 uint32_t
 ssrc
 )
@@ -937,9 +937,9 @@ packet_id
 (
 packet_id
 )
-capture_time_ms
+capture_time
 (
-capture_time_ms
+capture_time
 )
 ssrc
 (
@@ -950,8 +950,8 @@ ssrc
 uint16_t
 packet_id
 ;
-int64_t
-capture_time_ms
+Timestamp
+capture_time
 ;
 uint32_t
 ssrc
@@ -1078,8 +1078,8 @@ OnSendPacket
 (
 uint16_t
 packet_id
-int64_t
-capture_time_ms
+Timestamp
+capture_time
 uint32_t
 ssrc
 )
@@ -1090,7 +1090,7 @@ last_sent_packet_
 emplace
 (
 packet_id
-capture_time_ms
+capture_time
 ssrc
 )
 ;
@@ -6313,8 +6313,8 @@ Uri
 kTransportSequenceNumberExtensionId
 )
 ;
-int64_t
-now_ms
+Timestamp
+now
 =
 time_controller_
 .
@@ -6323,7 +6323,7 @@ GetClock
 )
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;
@@ -6388,10 +6388,10 @@ RtpRtcpModule
 SentPacket
 :
 :
-capture_time_ms
+capture_time
 Eq
 (
-now_ms
+now
 )
 )
 Field
