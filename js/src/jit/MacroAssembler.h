@@ -1942,6 +1942,11 @@ scratch
 PER_ARCH
 ;
 void
+setupUnalignedABICallDontSaveRestoreSP
+(
+)
+;
+void
 passABIArg
 (
 const
