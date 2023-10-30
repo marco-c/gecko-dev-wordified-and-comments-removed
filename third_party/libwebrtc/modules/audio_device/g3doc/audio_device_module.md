@@ -47,6 +47,9 @@ ADM
 Overview
 The
 ADM
+(
+AudioDeviceModule
+)
 is
 responsible
 for

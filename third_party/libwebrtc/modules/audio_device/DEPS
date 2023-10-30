@@ -42,5 +42,11 @@ sdk
 /
 objc
 "
+"
++
+sdk
+/
+android
+"
 ]
 }

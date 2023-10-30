@@ -8462,15 +8462,6 @@ hwcodecs_java
 "
 /
 /
-modules
-/
-audio_device
-:
-audio_device_java
-"
-"
-/
-/
 sdk
 /
 android

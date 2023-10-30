@@ -85,15 +85,6 @@ resources
 "
 /
 /
-modules
-/
-audio_device
-:
-audio_device_java
-"
-"
-/
-/
 rtc_base
 :
 base_java
