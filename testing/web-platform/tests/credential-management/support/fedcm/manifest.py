@@ -119,7 +119,7 @@ login_url
 "
 :
 "
-signin
+login
 .
 html
 "
