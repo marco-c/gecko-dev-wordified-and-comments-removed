@@ -1,12 +1,5 @@
 #
 include
-"
-crashreporter
-.
-h
-"
-#
-include
 <
 unistd
 .
