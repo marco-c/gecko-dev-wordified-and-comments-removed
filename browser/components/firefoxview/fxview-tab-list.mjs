@@ -1731,7 +1731,6 @@ sourceClosedId
 .
 sourceWindowId
 =
-=
 {
 ifDefined
 (
