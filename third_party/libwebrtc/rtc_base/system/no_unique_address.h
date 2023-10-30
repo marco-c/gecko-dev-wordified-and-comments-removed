@@ -11,7 +11,7 @@ __has_cpp_attribute
 define
 __has_cpp_attribute
 (
-__x
+x
 )
 0
 #
