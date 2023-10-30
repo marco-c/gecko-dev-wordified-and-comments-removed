@@ -1502,6 +1502,9 @@ BUILDSTATUS
 echo
 '
 BUILDSTATUS
+(
+relativesrcdir
+)
 1
 '
 endef
