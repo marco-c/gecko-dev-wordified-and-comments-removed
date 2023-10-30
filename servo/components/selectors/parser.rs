@@ -2128,6 +2128,13 @@ into_data
 )
 )
 ;
+#
+[
+cfg
+(
+debug_assertions
+)
+]
 debug_assert_eq
 !
 (
