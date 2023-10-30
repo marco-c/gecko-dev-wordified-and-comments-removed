@@ -63,8 +63,9 @@ t
 =
 >
 {
-assert_equals
-(
+let
+start_length
+=
 navigation
 .
 entries
@@ -72,8 +73,6 @@ entries
 )
 .
 length
-1
-)
 ;
 const
 entry
@@ -113,7 +112,7 @@ entries
 )
 .
 length
-1
+start_length
 )
 ;
 assert_equals

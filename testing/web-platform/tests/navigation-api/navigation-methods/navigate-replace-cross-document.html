@@ -120,6 +120,17 @@ step_timeout
 >
 {
 let
+start_length
+=
+navigation
+.
+entries
+(
+)
+.
+length
+;
+let
 start_history_length
 =
 history
@@ -210,7 +221,7 @@ entries
 )
 .
 length
-1
+start_length
 )
 ;
 assert_equals
