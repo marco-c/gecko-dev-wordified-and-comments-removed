@@ -6218,6 +6218,16 @@ end
 |
 !
 mRemoteTextureOwner
+|
+|
+!
+mRemoteTextureOwner
+-
+>
+IsRegistered
+(
+aOwnerId
+)
 )
 {
 return
