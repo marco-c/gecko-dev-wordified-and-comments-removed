@@ -368,6 +368,8 @@ GraphDriverType
 aGraphDriverRequested
 GraphRunType
 aRunTypeRequested
+uint64_t
+aWindowID
 TrackRate
 aSampleRate
 uint32_t
@@ -1760,6 +1762,11 @@ nsIRunnable
 >
 mPendingUpdateRunnables
 ;
+const
+uint64_t
+mWindowID
+;
+const
 CubebUtils
 :
 :

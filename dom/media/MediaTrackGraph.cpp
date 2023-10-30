@@ -16626,6 +16626,8 @@ GraphDriverType
 aDriverRequested
 GraphRunType
 aRunTypeRequested
+uint64_t
+aWindowID
 TrackRate
 aSampleRate
 uint32_t
@@ -16685,6 +16687,10 @@ GRAPH_TIME_MAX
 mPortCount
 (
 0
+)
+mWindowID
+(
+aWindowID
 )
 mOutputDeviceID
 (
@@ -17216,6 +17222,7 @@ MediaTrackGraphImpl
 (
 aGraphDriverRequested
 runType
+aWindowID
 aSampleRate
 channelCount
 aOutputDeviceID
@@ -17378,6 +17385,7 @@ MediaTrackGraphImpl
 (
 OFFLINE_THREAD_DRIVER
 DIRECT_DRIVER
+0
 aSampleRate
 0
 DEFAULT_OUTPUT_DEVICE
