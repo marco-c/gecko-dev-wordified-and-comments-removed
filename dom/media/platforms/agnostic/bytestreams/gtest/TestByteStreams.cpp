@@ -3329,6 +3329,10 @@ rawDataClone
 EXPECT_TRUE
 (
 rv
+.
+isOk
+(
+)
 )
 <
 <

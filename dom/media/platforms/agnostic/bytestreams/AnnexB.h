@@ -175,7 +175,14 @@ nullptr
 )
 ;
 static
-bool
+Result
+<
+mozilla
+:
+:
+Ok
+nsresult
+>
 ConvertSampleToHVCC
 (
 mozilla
