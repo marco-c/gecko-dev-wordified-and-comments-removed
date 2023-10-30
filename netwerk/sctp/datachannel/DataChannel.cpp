@@ -4151,6 +4151,12 @@ mTransportId
 aTransportId
 ;
 }
+if
+(
+!
+mConnectedToTransportHandler
+)
+{
 mTransportHandler
 -
 >
@@ -4181,6 +4187,11 @@ DataChannelConnection
 TransportStateChange
 )
 ;
+mConnectedToTransportHandler
+=
+true
+;
+}
 if
 (
 mTransportHandler
