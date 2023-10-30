@@ -87,7 +87,7 @@ SVGAnimatedTransformList
 (
 )
 :
-mIsAttrSet
+mIsBaseSet
 (
 false
 )
@@ -135,11 +135,11 @@ mAnimVal
 )
 ;
 }
-mIsAttrSet
+mIsBaseSet
 =
 aOther
 .
-mIsAttrSet
+mIsBaseSet
 ;
 mCreatedOrRemovedOnLastChange
 =
@@ -325,7 +325,7 @@ SVGTransformList
 mAnimVal
 ;
 bool
-mIsAttrSet
+mIsBaseSet
 ;
 bool
 mCreatedOrRemovedOnLastChange

@@ -241,7 +241,7 @@ Length
 }
 else
 {
-mIsAttrSet
+mIsBaseSet
 =
 true
 ;
@@ -310,7 +310,7 @@ Clear
 (
 )
 ;
-mIsAttrSet
+mIsBaseSet
 =
 false
 ;
@@ -577,7 +577,7 @@ IsExplicitlySet
 const
 {
 return
-mIsAttrSet
+mIsBaseSet
 |
 |
 !
