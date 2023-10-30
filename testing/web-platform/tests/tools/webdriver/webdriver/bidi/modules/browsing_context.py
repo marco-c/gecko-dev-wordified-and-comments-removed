@@ -87,7 +87,7 @@ scrollIntoView
 =
 scroll_into_view
 class
-ViewportOptions
+BoxOptions
 (
 Dict
 [
@@ -124,7 +124,7 @@ type
 ]
 =
 "
-viewport
+box
 "
         
 self
@@ -167,7 +167,7 @@ ClipOptions
 Union
 [
 ElementOptions
-ViewportOptions
+BoxOptions
 ]
 class
 BrowsingContext
