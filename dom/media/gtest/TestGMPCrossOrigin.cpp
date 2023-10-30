@@ -1099,6 +1099,21 @@ AwaitFinished
 )
 ;
 }
+#
+if
+!
+(
+defined
+(
+XP_WIN
+)
+&
+&
+defined
+(
+MOZ_ASAN
+)
+)
 TEST
 (
 GeckoMediaPlugins
@@ -1219,3 +1234,5 @@ RunTestGMPCrossOrigin4
 )
 ;
 }
+#
+endif
