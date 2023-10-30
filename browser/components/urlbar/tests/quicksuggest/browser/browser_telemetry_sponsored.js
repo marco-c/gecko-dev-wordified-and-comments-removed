@@ -106,11 +106,6 @@ iab_category
 -
 Shopping
 "
-icon
-:
-"
-1234
-"
 }
 ;
 const
@@ -132,11 +127,6 @@ index
 +
 1
 ;
-requestLongerTimeout
-(
-3
-)
-;
 add_setup
 (
 async
@@ -148,7 +138,7 @@ await
 setUpTelemetryTest
 (
 {
-remoteSettingsRecords
+remoteSettingsResults
 :
 [
 {

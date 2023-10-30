@@ -41,7 +41,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
-remoteSettingsRecords
+remoteSettingsResults
 :
 [
 {
@@ -339,7 +339,7 @@ showLessFrequentlyCapReached_manySearches
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsRecords
+setRemoteSettingsResults
 (
 [
 {
@@ -759,7 +759,7 @@ window
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsRecords
+setRemoteSettingsResults
 (
 [
 {
@@ -802,7 +802,7 @@ showLessFrequentlyCapReached_oneSearch
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsRecords
+setRemoteSettingsResults
 (
 [
 {
@@ -1068,7 +1068,7 @@ window
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsRecords
+setRemoteSettingsResults
 (
 [
 {

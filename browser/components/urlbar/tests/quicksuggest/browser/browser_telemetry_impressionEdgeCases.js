@@ -300,7 +300,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
-remoteSettingsRecords
+remoteSettingsResults
 :
 [
 {

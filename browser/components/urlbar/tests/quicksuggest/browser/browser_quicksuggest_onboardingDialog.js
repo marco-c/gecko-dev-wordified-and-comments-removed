@@ -166,13 +166,6 @@ canTabMoveFocus
 (
 )
 ;
-await
-QuickSuggestTestUtils
-.
-ensureQuickSuggestInit
-(
-)
-;
 }
 )
 ;

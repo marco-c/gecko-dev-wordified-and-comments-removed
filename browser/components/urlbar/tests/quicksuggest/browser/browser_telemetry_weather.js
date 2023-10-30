@@ -111,7 +111,11 @@ await
 setUpTelemetryTest
 (
 {
-remoteSettingsRecords
+suggestions
+:
+[
+]
+remoteSettingsResults
 :
 [
 {
