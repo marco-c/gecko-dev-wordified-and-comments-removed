@@ -28,7 +28,7 @@ marionette_driver
 .
 marionette
 import
-HTMLElement
+WebElement
 from
 marionette_harness
 import
@@ -597,7 +597,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -687,7 +687,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -756,7 +756,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -826,7 +826,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -901,7 +901,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -970,7 +970,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -1075,7 +1075,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2198,7 +2198,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2288,7 +2288,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2357,7 +2357,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2427,7 +2427,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2502,7 +2502,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2571,7 +2571,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2646,7 +2646,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2893,7 +2893,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -2962,7 +2962,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3032,7 +3032,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3107,7 +3107,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3176,7 +3176,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3278,7 +3278,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3651,7 +3651,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3720,7 +3720,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3790,7 +3790,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3865,7 +3865,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -3934,7 +3934,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self
@@ -4018,7 +4018,7 @@ self
 assertItemsIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self

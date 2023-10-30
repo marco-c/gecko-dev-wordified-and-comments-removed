@@ -118,7 +118,7 @@ as
 func
 :
 ~
-HTMLElement
+WebElement
 .
 click
 are

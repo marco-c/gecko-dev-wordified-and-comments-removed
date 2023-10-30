@@ -32,7 +32,7 @@ marionette_driver
 .
 marionette
 import
-HTMLElement
+WebElement
 ShadowRoot
 from
 marionette_harness
@@ -281,7 +281,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 el
@@ -651,7 +651,7 @@ found
 [
 i
 ]
-HTMLElement
+WebElement
 )
             
 self

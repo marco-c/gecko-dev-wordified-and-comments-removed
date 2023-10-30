@@ -1110,7 +1110,7 @@ marionette_driver
 .
 marionette
 import
-HTMLElement
+WebElement
 element
 =
 client
@@ -1133,7 +1133,7 @@ element
 )
 =
 =
-HTMLElement
+WebElement
 elements
 =
 client
@@ -1230,7 +1230,7 @@ the
 :
 class
 :
-HTMLElement
+WebElement
 reference
 .
 Be

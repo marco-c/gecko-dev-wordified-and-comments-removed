@@ -8,7 +8,7 @@ from
 .
 marionette
 import
-HTMLElement
+WebElement
 "
 "
 "
@@ -1138,7 +1138,7 @@ marionette_driver
 .
 marionette
 .
-HTMLElement
+WebElement
 .
 is_displayed
     
@@ -1152,7 +1152,7 @@ marionette_driver
 .
 marionette
 .
-HTMLElement
+WebElement
 .
     
 You
@@ -1289,7 +1289,7 @@ args
 [
 0
 ]
-HTMLElement
+WebElement
 )
 :
             
@@ -1468,7 +1468,7 @@ marionette_driver
 .
 marionette
 .
-HTMLElement
+WebElement
 .
 is_displayed
     
@@ -1482,7 +1482,7 @@ marionette_driver
 .
 marionette
 .
-HTMLElement
+WebElement
 .
     
 You

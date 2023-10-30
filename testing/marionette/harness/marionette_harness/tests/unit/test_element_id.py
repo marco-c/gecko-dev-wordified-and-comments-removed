@@ -24,7 +24,7 @@ marionette_driver
 .
 marionette
 import
-HTMLElement
+WebElement
 from
 marionette_harness
 import
@@ -286,7 +286,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 found_again
@@ -350,7 +350,7 @@ self
 assertIsInstance
 (
 found
-HTMLElement
+WebElement
 )
         
 self

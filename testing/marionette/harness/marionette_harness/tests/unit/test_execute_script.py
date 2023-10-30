@@ -21,7 +21,7 @@ marionette_driver
 marionette
 import
 Alert
-HTMLElement
+WebElement
 from
 marionette_driver
 .
@@ -440,7 +440,7 @@ self
 assertIsInstance
 (
 element
-HTMLElement
+WebElement
 )
     
 def

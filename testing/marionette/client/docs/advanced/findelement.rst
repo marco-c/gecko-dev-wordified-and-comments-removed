@@ -554,7 +554,7 @@ on
 the
 Marionette
 object
-HTMLElement
+WebElement
 objects
 also
 provide
@@ -562,7 +562,7 @@ provide
 func
 :
 ~
-HTMLElement
+WebElement
 .
 find_element
 and
@@ -570,7 +570,7 @@ and
 func
 :
 ~
-HTMLElement
+WebElement
 .
 find_elements
 methods

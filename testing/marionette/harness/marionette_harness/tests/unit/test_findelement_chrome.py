@@ -15,7 +15,7 @@ marionette_driver
 .
 marionette
 import
-HTMLElement
+WebElement
 WEB_ELEMENT_KEY
 from
 marionette_harness
@@ -204,7 +204,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -318,7 +318,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -435,7 +435,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -670,7 +670,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -786,7 +786,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -904,7 +904,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -1210,7 +1210,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el

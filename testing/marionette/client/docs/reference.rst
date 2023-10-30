@@ -62,7 +62,7 @@ Marionette
 :
 members
 :
-HTMLElement
+WebElement
 -
 -
 -
@@ -85,7 +85,7 @@ marionette_driver
 .
 marionette
 .
-HTMLElement
+WebElement
 .
 .
 autoclass
@@ -95,7 +95,7 @@ marionette_driver
 .
 marionette
 .
-HTMLElement
+WebElement
 :
 members
 :
