@@ -956,14 +956,6 @@ EnsureNextIteration
 =
 0
 ;
-void
-SwitchToDriver
-(
-GraphDriver
-*
-aDriver
-)
-;
 GraphDriver
 *
 PreviousDriver
