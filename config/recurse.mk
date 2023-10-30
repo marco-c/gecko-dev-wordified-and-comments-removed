@@ -1132,7 +1132,6 @@ recurse_pre
 -
 export
 :
-:
 mobile
 /
 android
@@ -1978,10 +1977,9 @@ cargo
 config
 ifndef
 TEST_MOZBUILD
-pre
+recurse_pre
 -
 export
-:
 :
 (
 DEPTH
