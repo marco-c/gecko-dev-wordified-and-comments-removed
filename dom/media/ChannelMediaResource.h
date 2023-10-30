@@ -541,8 +541,6 @@ Listener
 final
 :
 public
-nsIStreamListener
-public
 nsIInterfaceRequestor
 public
 nsIChannelEventSink

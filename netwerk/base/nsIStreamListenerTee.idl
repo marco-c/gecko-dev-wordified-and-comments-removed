@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsIStreamListener
+nsIThreadRetargetableStreamListener
 .
 idl
 "
@@ -122,7 +122,7 @@ b9d44252973a
 interface
 nsIStreamListenerTee
 :
-nsIStreamListener
+nsIThreadRetargetableStreamListener
 {
 /
 *
