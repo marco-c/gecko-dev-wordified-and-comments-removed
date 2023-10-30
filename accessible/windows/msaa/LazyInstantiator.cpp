@@ -446,6 +446,16 @@ HWND
 aHwnd
 )
 {
+if
+(
+GetAccService
+(
+)
+)
+{
+return
+;
+}
 LazyInstantiator
 *
 existingInstantiator
