@@ -7536,7 +7536,7 @@ if
 doc
 -
 >
-IsContentInaccessibleAboutBlank
+IsLikelyContentInaccessibleTopLevelAboutBlank
 (
 )
 )

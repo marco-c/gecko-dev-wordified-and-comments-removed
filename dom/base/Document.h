@@ -11555,7 +11555,7 @@ PermDelegateHandler
 )
 ;
 bool
-IsContentInaccessibleAboutBlank
+IsLikelyContentInaccessibleTopLevelAboutBlank
 (
 )
 const
