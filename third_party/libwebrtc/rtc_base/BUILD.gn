@@ -4548,10 +4548,6 @@ deps
 =
 [
 "
-:
-net_test_helpers
-"
-"
 system
 :
 rtc_export
