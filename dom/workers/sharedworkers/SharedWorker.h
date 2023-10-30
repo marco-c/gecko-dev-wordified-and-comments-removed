@@ -213,6 +213,12 @@ aVisitor
 override
 ;
 void
+DisconnectFromOwner
+(
+)
+override
+;
+void
 ErrorPropagation
 (
 nsresult
