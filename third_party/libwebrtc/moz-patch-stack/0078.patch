@@ -546,10 +546,3 @@ videocapturemodule
 #
 ifdef
 WEBRTC_LINUX
--
--
-2
-.
-34
-.
-1

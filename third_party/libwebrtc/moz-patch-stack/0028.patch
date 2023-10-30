@@ -626,10 +626,3 @@ public
 CameraVideoCapturer
 createCapturer
 (
--
--
-2
-.
-34
-.
-1

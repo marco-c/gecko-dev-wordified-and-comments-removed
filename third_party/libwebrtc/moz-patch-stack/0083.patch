@@ -226,10 +226,3 @@ else
 rtc_enable_avx2
 =
 false
--
--
-2
-.
-34
-.
-1

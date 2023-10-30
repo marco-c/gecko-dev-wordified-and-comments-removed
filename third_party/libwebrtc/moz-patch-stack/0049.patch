@@ -168,14 +168,9 @@ mm
 +
 170
 9
-void
+explicit
 WindowCapturerMac
-:
-:
-CaptureFrame
 (
-)
-{
 return
 webrtc
 :
@@ -259,10 +254,3 @@ return
 true
 ;
 }
--
--
-2
-.
-34
-.
-1
