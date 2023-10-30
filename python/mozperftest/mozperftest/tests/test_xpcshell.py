@@ -33,7 +33,6 @@ test
 .
 xpcshell
 import
-NoPerfMetricsError
 XPCShellTestError
 from
 mozperftest
@@ -748,6 +747,8 @@ mocked
 return
 _test_xpcshell_fail
 (
+utils
+.
 NoPerfMetricsError
 *
 mocked

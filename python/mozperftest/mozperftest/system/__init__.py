@@ -86,6 +86,9 @@ browser
 "
 xpcshell
 "
+"
+mochitest
+"
 )
 :
         
