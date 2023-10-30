@@ -205,11 +205,8 @@ test_paths
 /
 "
 ]
-[
-"
+.
 tests_path
-"
-]
 def
 webtranport_h3_server_is_running
 (
@@ -1674,7 +1671,7 @@ TestdriverLoader
         
 for
 url_base
-paths
+test_root
 in
 self
 .
@@ -1701,12 +1698,9 @@ route_builder
 add_mount_point
 (
 url_base
-paths
-[
-"
+test_root
+.
 tests_path
-"
-]
 )
         
 if

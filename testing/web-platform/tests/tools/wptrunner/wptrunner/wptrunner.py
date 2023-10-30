@@ -15,6 +15,11 @@ datetime
 import
 datetime
 timedelta
+from
+typing
+import
+Any
+Tuple
 import
 wptserve
 from
@@ -35,6 +40,10 @@ from
 .
 import
 mpcontext
+from
+.
+import
+products
 from
 .
 import
@@ -224,11 +233,34 @@ def
 get_loader
 (
 test_paths
+:
+wptcommandline
+.
+TestPaths
+               
 product
+:
+products
+.
+Product
+               
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+Tuple
+[
+testloader
+.
+TestQueueBuilder
+testloader
+.
+TestLoader
+]
 :
     
 run_info_extras
@@ -628,21 +660,21 @@ http2_compatible
 (
 )
     
-test_source
+test_queue_builder
 chunker_kwargs
 =
 testloader
 .
-get_test_src
+get_test_queue_builder
 (
 logger
 =
 logger
-                                                          
+                                                                           
 test_groups
 =
 test_groups
-                                                          
+                                                                           
 *
 *
 kwargs
@@ -760,7 +792,7 @@ chunker_kwargs
 )
     
 return
-test_source
+test_queue_builder
 test_loader
 def
 list_test_groups
@@ -1194,7 +1226,7 @@ run_test_iteration
 (
 test_status
 test_loader
-test_source
+test_queue_builder
                        
 recording
 test_environment
@@ -1312,18 +1344,11 @@ type_tests_disabled
     
 tests_by_group
 =
-test_source
-.
-cls
+test_queue_builder
 .
 tests_by_group
 (
 tests_by_type
-*
-*
-test_source
-.
-kwargs
 )
     
 log_suite_start
@@ -1838,16 +1863,11 @@ break
             
 tests_by_group
 =
-test_source
-.
-cls
+test_queue_builder
 .
 tests_by_group
 (
 tests_to_run
-*
-*
-kwargs
 )
             
 logger
@@ -1887,7 +1907,7 @@ platform
 tests
 "
                           
-test_source
+test_queue_builder
                           
 test_implementations
                           
@@ -2634,11 +2654,8 @@ test_paths
 /
 "
 ]
-[
-"
+.
 tests_path
-"
-]
 "
 fonts
 /
@@ -2665,15 +2682,15 @@ load_tests
 ]
 )
         
-test_source
+test_queue_builder
 test_loader
 =
 get_loader
 (
 test_paths
-                                              
+                                                     
 product
-                                              
+                                                     
 *
 *
 kwargs
@@ -3255,13 +3272,17 @@ iter_success
 run_test_iteration
 (
 test_status
+                                                  
 test_loader
-test_source
+                                                  
+test_queue_builder
                                                   
 recording
                                                   
 test_environment
+                                                  
 product
+                                                  
 kwargs
 )
                 

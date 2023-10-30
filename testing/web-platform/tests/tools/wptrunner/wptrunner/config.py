@@ -13,8 +13,9 @@ OrderedDict
 from
 typing
 import
-Any
 Dict
+Mapping
+Optional
 here
 =
 os
@@ -31,7 +32,7 @@ ConfigDict
 Dict
 [
 str
-Any
+str
 ]
 )
 :
@@ -41,11 +42,17 @@ __init__
 (
 self
 base_path
+:
+str
 *
 args
+:
+str
 *
 *
 kwargs
+:
+str
 )
 :
         
@@ -72,10 +79,23 @@ get_path
 (
 self
 key
+:
+str
 default
+:
+Optional
+[
+str
+]
 =
 None
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 if
@@ -127,7 +147,16 @@ def
 read
 (
 config_path
+:
+str
 )
+-
+>
+Mapping
+[
+str
+ConfigDict
+]
 :
     
 config_path

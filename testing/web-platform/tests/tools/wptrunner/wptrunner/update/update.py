@@ -181,11 +181,8 @@ paths
 /
 "
 ]
-[
-"
+.
 tests_path
-"
-]
         
 state
 .
@@ -199,11 +196,8 @@ paths
 /
 "
 ]
-[
-"
+.
 metadata_path
-"
-]
         
 assert
 os
@@ -826,11 +820,8 @@ paths
 /
 "
 ]
-[
-"
+.
 tests_path
-"
-]
         
 state
 .
@@ -844,11 +835,8 @@ paths
 /
 "
 ]
-[
-"
+.
 metadata_path
-"
-]
         
 for
 url_paths
@@ -863,20 +851,14 @@ values
 tests_path
 =
 url_paths
-[
-"
+.
 tests_path
-"
-]
             
 metadata_path
 =
 url_paths
-[
-"
+.
 metadata_path
-"
-]
             
 for
 dirpath
@@ -1097,11 +1079,8 @@ test_paths
 /
 "
 ]
-[
-"
+.
 tests_path
-"
-]
         
 if
 not
