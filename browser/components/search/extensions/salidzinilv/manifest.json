@@ -34,7 +34,7 @@ version
 "
 1
 .
-1
+2
 "
 "
 browser_specific_settings
@@ -174,7 +174,7 @@ salidzini
 .
 lv
 /
-suggested_search
+search_suggest_opensearch
 .
 php
 "
@@ -188,12 +188,6 @@ q
 {
 searchTerms
 }
-&
-utm_source
-=
-firefox
--
-plugin
 "
 }
 }
