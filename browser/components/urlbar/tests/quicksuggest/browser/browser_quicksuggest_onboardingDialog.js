@@ -166,6 +166,13 @@ canTabMoveFocus
 (
 )
 ;
+await
+QuickSuggestTestUtils
+.
+ensureQuickSuggestInit
+(
+)
+;
 }
 )
 ;
