@@ -488,13 +488,6 @@ lwtProperty
 "
 sidebar_text
 "
-optionalElementID
-:
-"
-sidebar
--
-box
-"
 }
 ]
 [
@@ -512,11 +505,6 @@ lwtProperty
 :
 "
 sidebar_border
-"
-optionalElementID
-:
-"
-browser
 "
 }
 ]
