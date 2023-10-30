@@ -353,8 +353,6 @@ column
 expression
 :
 "
-Foo
-.
 #
 privateStatic
 "

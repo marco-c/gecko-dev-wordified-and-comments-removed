@@ -342,8 +342,11 @@ unHighlightDomElement
 this
 .
 widgetNode
+(
 )
-;
+=
+>
+{
 this
 .
 bookmark
@@ -363,6 +366,9 @@ Infinity
 this
 .
 widgetNode
+)
+;
+}
 )
 ;
 }
