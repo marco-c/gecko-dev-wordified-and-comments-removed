@@ -1852,11 +1852,7 @@ display
 :
 flex
 ;
-list
--
-style
--
-image
+content
 :
 url
 (
@@ -1880,14 +1876,6 @@ down
 svg
 "
 )
-;
-width
-:
-12px
-;
-height
-:
-12px
 ;
 -
 moz

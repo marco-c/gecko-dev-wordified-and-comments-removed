@@ -404,11 +404,7 @@ appearance
 :
 none
 ;
-list
--
-style
--
-image
+content
 :
 url
 (
@@ -445,10 +441,6 @@ fill
 fill
 :
 currentColor
-;
-width
-:
-auto
 ;
 }
 /
