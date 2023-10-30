@@ -1932,16 +1932,8 @@ NumberOfChannels
 )
 const
 {
-MOZ_ASSERT
+AssertOnGraphThread
 (
-GraphImpl
-(
-)
--
->
-OnGraphThread
-(
-)
 )
 ;
 return
