@@ -110,6 +110,12 @@ ScreenCapturerFuchsia
 )
 override
 ;
+static
+bool
+CheckRequirements
+(
+)
+;
 void
 Start
 (
