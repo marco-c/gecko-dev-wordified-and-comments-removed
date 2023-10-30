@@ -7,9 +7,9 @@ decodebytes
 from
 webdriver
 import
-Element
 NoSuchAlertException
 WebDriverException
+WebElement
 errors
 =
 {
@@ -1006,7 +1006,7 @@ dict
 :
         
 assert
-Element
+WebElement
 .
 identifier
 in
@@ -1025,7 +1025,7 @@ a_id
 =
 a
 [
-Element
+WebElement
 .
 identifier
 ]
@@ -1034,7 +1034,7 @@ elif
 isinstance
 (
 a
-Element
+WebElement
 )
 :
         
@@ -1072,7 +1072,7 @@ dict
 :
         
 assert
-Element
+WebElement
 .
 identifier
 in
@@ -1091,7 +1091,7 @@ b_id
 =
 b
 [
-Element
+WebElement
 .
 identifier
 ]
@@ -1100,7 +1100,7 @@ elif
 isinstance
 (
 b
-Element
+WebElement
 )
 :
         

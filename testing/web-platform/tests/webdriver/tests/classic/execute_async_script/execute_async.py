@@ -3,7 +3,7 @@ pytest
 from
 webdriver
 import
-Element
+WebElement
 from
 webdriver
 .
@@ -109,7 +109,7 @@ execute_async_script
 (
 session
 "
-argument
+arguments
 [
 0
 ]
@@ -143,7 +143,7 @@ execute_async_script
 (
 session
 "
-argument
+arguments
 [
 0
 ]

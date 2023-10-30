@@ -5,7 +5,7 @@ webdriver
 .
 client
 import
-Element
+WebElement
 ShadowRoot
 from
 webdriver
@@ -1367,7 +1367,7 @@ value
     
 element
 =
-Element
+WebElement
 .
 from_json
 (
@@ -2215,7 +2215,7 @@ value
     
 element
 =
-Element
+WebElement
 .
 from_json
 (

@@ -3,8 +3,8 @@ pytest
 from
 webdriver
 import
-Element
 ShadowRoot
+WebElement
 from
 webdriver
 .
@@ -254,7 +254,7 @@ ELEMENT_NODE
     
 node
 =
-Element
+WebElement
 (
 current_session
 result

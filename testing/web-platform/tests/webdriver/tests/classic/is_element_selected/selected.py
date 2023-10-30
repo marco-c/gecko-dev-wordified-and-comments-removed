@@ -3,7 +3,7 @@ pytest
 from
 webdriver
 import
-Element
+WebElement
 from
 tests
 .
@@ -259,7 +259,7 @@ session
     
 element
 =
-Element
+WebElement
 (
 session
 "

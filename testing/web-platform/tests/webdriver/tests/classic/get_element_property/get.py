@@ -3,10 +3,10 @@ pytest
 from
 webdriver
 import
-Element
-Frame
+WebElement
+WebFrame
 ShadowRoot
-Window
+WebWindow
 from
 tests
 .
@@ -201,7 +201,7 @@ session
     
 element
 =
-Element
+WebElement
 (
 session
 "
@@ -1242,14 +1242,14 @@ py_web_reference
 "
 element
 "
-Element
+WebElement
 )
     
 (
 "
 frame
 "
-Frame
+WebFrame
 )
     
 (
@@ -1263,7 +1263,7 @@ ShadowRoot
 "
 window
 "
-Window
+WebWindow
 )
 ]
 )

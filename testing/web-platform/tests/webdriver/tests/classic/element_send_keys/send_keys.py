@@ -3,7 +3,7 @@ pytest
 from
 webdriver
 import
-Element
+WebElement
 from
 webdriver
 .
@@ -246,7 +246,7 @@ closed_window
     
 element
 =
-Element
+WebElement
 (
 session
 "
@@ -337,7 +337,7 @@ closed_frame
     
 element
 =
-Element
+WebElement
 (
 session
 "
@@ -374,7 +374,7 @@ session
     
 element
 =
-Element
+WebElement
 (
 session
 "

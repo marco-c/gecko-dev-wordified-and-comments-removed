@@ -687,23 +687,26 @@ such
 as
 webdriver
 .
-Element
+ShadowRoot
 webdriver
 .
-Frame
+WebElement
     
+webdriver
+.
+WebFrame
 and
 webdriver
 .
-Window
+WebWindow
 are
 by
 default
 not
+    
 marshaled
 to
 enable
-    
 use
 of
 session
@@ -1222,7 +1225,7 @@ body
 must
 be
 JSON
-serialisable
+serializable
 unless
 a
         
@@ -1241,11 +1244,14 @@ such
 as
 webdriver
 .
-Element
+ShadowRoot
 webdriver
 .
-Frame
+WebElement
         
+webdriver
+.
+WebFrame
 and
 webdriver
 .
@@ -1253,13 +1259,13 @@ Window
 are
 not
 automatically
-made
         
+made
 into
 JSON
 .
 This
-behaviour
+behavior
 is
 however
 provided
@@ -1314,7 +1320,7 @@ Decoder
 to
 achieve
 this
-behaviour
+behavior
 .
         
 The
@@ -1477,7 +1483,7 @@ are
 not
             
 JSON
-serialisable
+serializable
 .
         
 "

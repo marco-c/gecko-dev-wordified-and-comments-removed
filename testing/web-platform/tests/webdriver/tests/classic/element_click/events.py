@@ -1,7 +1,7 @@
 from
 webdriver
 import
-Element
+WebElement
 from
 tests
 .
