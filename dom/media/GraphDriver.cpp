@@ -231,8 +231,6 @@ GraphDriver
 SetState
 (
 GraphTime
-aIterationStart
-GraphTime
 aIterationEnd
 GraphTime
 aStateComputedTime
@@ -250,10 +248,6 @@ ThreadRunning
 (
 )
 )
-;
-mIterationStart
-=
-aIterationStart
 ;
 mIterationEnd
 =
@@ -967,7 +961,8 @@ while
 true
 )
 {
-mIterationStart
+auto
+iterationStart
 =
 mIterationEnd
 ;
@@ -1013,7 +1008,7 @@ mStateComputedTime
 }
 if
 (
-mIterationStart
+iterationStart
 >
 =
 mIterationEnd
@@ -1021,7 +1016,7 @@ mIterationEnd
 {
 NS_ASSERTION
 (
-mIterationStart
+iterationStart
 =
 =
 mIterationEnd
@@ -1126,7 +1121,7 @@ Graph
 (
 long
 )
-mIterationStart
+iterationStart
 (
 long
 )
@@ -1181,7 +1176,7 @@ Graph
 (
 long
 )
-mIterationStart
+iterationStart
 (
 long
 )
@@ -1283,7 +1278,6 @@ nextDriver
 >
 SetState
 (
-mIterationStart
 mIterationEnd
 mStateComputedTime
 )
@@ -2039,8 +2033,6 @@ aOwner
 uint32_t
 aSampleRate
 GraphTime
-aIterationStart
-GraphTime
 aIterationEnd
 GraphTime
 aStateComputedTime
@@ -2078,10 +2070,6 @@ nullptr
 aSampleRate
 )
 )
-mIterationStart
-(
-aIterationStart
-)
 mIterationEnd
 (
 aIterationEnd
@@ -2096,7 +2084,6 @@ mFallbackDriver
 >
 SetState
 (
-mIterationStart
 mIterationEnd
 mStateComputedTime
 )
@@ -2341,10 +2328,6 @@ mOwner
 ;
 #
 endif
-mIterationStart
-=
-mIterationEnd
-;
 mIterationEnd
 =
 aIterationEnd
@@ -2530,7 +2513,6 @@ mOwner
 >
 FallbackDriverStopped
 (
-mIterationStart
 mIterationEnd
 mStateComputedTime
 fallbackState
@@ -2609,7 +2591,6 @@ nextDriver
 >
 SetState
 (
-mIterationStart
 mIterationEnd
 mStateComputedTime
 )
@@ -2736,9 +2717,6 @@ RefPtr
 SystemClockDriver
 >
 mFallbackDriver
-;
-GraphTime
-mIterationStart
 ;
 GraphTime
 mIterationEnd
@@ -5117,7 +5095,8 @@ Available
 )
 )
 ;
-mIterationStart
+auto
+iterationStart
 =
 mIterationEnd
 ;
@@ -5126,11 +5105,11 @@ inGraph
 =
 mStateComputedTime
 -
-mIterationStart
+iterationStart
 ;
 mIterationEnd
 =
-mIterationStart
+iterationStart
 +
 0
 .
@@ -5193,7 +5172,7 @@ Graph
 (
 long
 )
-mIterationStart
+iterationStart
 (
 long
 )
@@ -5627,7 +5606,6 @@ nextDriver
 >
 SetState
 (
-mIterationStart
 mIterationEnd
 mStateComputedTime
 )
@@ -6732,7 +6710,6 @@ Graph
 )
 this
 mSampleRate
-mIterationStart
 mIterationEnd
 mStateComputedTime
 )
@@ -6771,8 +6748,6 @@ AudioCallbackDriver
 FallbackDriverStopped
 (
 GraphTime
-aIterationStart
-GraphTime
 aIterationEnd
 GraphTime
 aStateComputedTime
@@ -6780,10 +6755,6 @@ FallbackDriverState
 aState
 )
 {
-mIterationStart
-=
-aIterationStart
-;
 mIterationEnd
 =
 aIterationEnd

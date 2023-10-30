@@ -1046,8 +1046,6 @@ void
 SetState
 (
 GraphTime
-aIterationStart
-GraphTime
 aIterationEnd
 GraphTime
 aStateComputedTime
@@ -1184,11 +1182,6 @@ aMS
 }
 protected
 :
-GraphTime
-mIterationStart
-=
-0
-;
 GraphTime
 mIterationEnd
 =
@@ -2155,8 +2148,6 @@ FallbackToSystemClockDriver
 void
 FallbackDriverStopped
 (
-GraphTime
-aIterationStart
 GraphTime
 aIterationEnd
 GraphTime
