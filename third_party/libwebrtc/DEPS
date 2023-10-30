@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-58a3c40eba9c7b1636457643d9e8ecb4c9958bdb
+7e38e5ab3ef7e47b9baec7ed877061651d7bc3cf
 '
 #
 Fetch
@@ -435,7 +435,7 @@ chromium
 src
 /
 base
-ff2725df0094310b5c3dc211933e8d6706b79579
+aefad970146225216959bb77c2708ff995bc1a53
 '
 '
 src
@@ -459,7 +459,7 @@ chromium
 src
 /
 build
-99475c4e21a028a1cf3d91226341ad90634321df
+bc07a8ea40c9871fe91af61bea5f97d390ab01e9
 '
 '
 src
@@ -483,7 +483,7 @@ chromium
 src
 /
 buildtools
-1cc82962cb50a35f6008b25a165782c568edac27
+ca163845c76db63454f99436f6cd2bf03739dc24
 '
 #
 Gradle
@@ -579,7 +579,7 @@ chromium
 src
 /
 ios
-952f822e0f6a3a54c7386e57f39533ab5c790305
+0b40747728e9f1ea5a4a42665c8ccfe7afabf27e
 '
 '
 condition
@@ -611,7 +611,7 @@ chromium
 src
 /
 testing
-3a438be1d2b28c9c2dffa1cef688c179ff05edae
+720e993a016dfe4925dc0c5137c2b040c0e6420b
 '
 '
 src
@@ -635,7 +635,7 @@ chromium
 src
 /
 third_party
-080117b040c8893a4b05b8374cbb3c3d3a9f7822
+bff02aebf346f61929013727efce4ded3a6338ea
 '
 '
 src
@@ -1084,7 +1084,7 @@ project
 libunwind
 .
 git
-f1c687e0aaf0d70b9a53a150e9be5cb63af9215f
+6c0013015be8a2be9de4b1e54cdc9d576b1d0729
 '
 '
 src
@@ -1430,7 +1430,7 @@ com
 catapult
 .
 git
-707e9093f76f7f7a5e2aa15a6c785ed43a09f852
+a02c178207f8ce794e10d587f30b0b8d97b5405d
 '
 '
 src
@@ -1607,7 +1607,7 @@ tools
 depot_tools
 .
 git
-60b21dd19301b13eaf7c9069ac191f95f84ca6e9
+82e4859614a2cb437fdb1e89bca2d690853ec6cc
 '
 '
 src
@@ -1796,7 +1796,7 @@ third_party
 freetype2
 .
 git
-dd3c9c5fecb163b7aa06ef115adb9274d4c9192a
+5769f13a6b9fafa3840726f06dde07e755501a16
 '
 '
 src
@@ -2075,9 +2075,7 @@ version
 '
 :
 '
-9
--
-e8GxXJduErc9j3s5VUmbAWTorSHxvcn23GNjYtCNwC
+IivIDwNBf73mf7UwCOBceRUuDdtizMCgSOQDfUGHArsC
 '
 }
 ]
@@ -2625,7 +2623,7 @@ external
 perfetto
 .
 git
-cb7162fc1cf0be5a33c7830b7ad50f58ef15d5f4
+b818113360902219bf3ab4fb81993eb3832b2a37
 '
 '
 src
@@ -3047,7 +3045,7 @@ chromium
 src
 /
 tools
-f88d4ab4d330ed1ffdc74f60f0d479f8d06f4fdb
+f4f15804c2b7ce670dd14f4e6c8271a7529450f1
 '
 '
 src
@@ -3396,11 +3394,7 @@ version
 '
 :
 '
-oxij
--
-TO3X4W
--
-aIFlqv7C8dFa5C2vlObuoXecWpUVfuIC
+WfDdIbuO4Zm4lwrNH23Xr7gjoCx_VejbK3t2GSO5AQsC
 '
 }
 ]
