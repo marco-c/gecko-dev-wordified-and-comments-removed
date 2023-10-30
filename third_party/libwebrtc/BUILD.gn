@@ -585,6 +585,11 @@ rtp_generator
 "
 rtc_tools
 :
+video_encoder
+"
+"
+rtc_tools
+:
 video_replay
 "
 "

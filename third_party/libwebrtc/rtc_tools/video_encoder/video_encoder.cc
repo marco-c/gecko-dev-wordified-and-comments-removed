@@ -160,7 +160,7 @@ video_codec
 "
 "
 "
-Sepcify
+Specify
 codec
 of
 video
@@ -184,7 +184,7 @@ scalability_mode
 L1T1
 "
 "
-Sepcify
+Specify
 scalability
 mode
 of
@@ -199,7 +199,7 @@ uint32_t
 raw_frame_generator
 0
 "
-Sepcify
+Specify
 SquareFrameGenerator
 or
 SlideGenerator
@@ -223,7 +223,7 @@ uint32_t
 width
 1280
 "
-Sepcify
+Specify
 width
 of
 video
