@@ -2814,6 +2814,17 @@ element
 previewValue
 =
 value
+.
+replaceAll
+?
+.
+(
+"
+*
+"
+"
+"
+)
 ;
 this
 .
