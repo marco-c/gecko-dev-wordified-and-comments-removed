@@ -789,7 +789,8 @@ return
 false
 ;
 }
-if
+return
+!
 (
 mInputEnded
 &
@@ -801,13 +802,6 @@ what
 MSG_POLL_INPUT_BUFFERS
 )
 )
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 protected

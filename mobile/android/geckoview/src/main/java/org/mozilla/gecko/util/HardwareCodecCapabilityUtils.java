@@ -2168,8 +2168,7 @@ return
 true
 ;
 }
-if
-(
+return
 Build
 .
 VERSION
@@ -2204,14 +2203,6 @@ CodecProfileLevel
 VP9Profile3HDR10Plus
 )
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 }
