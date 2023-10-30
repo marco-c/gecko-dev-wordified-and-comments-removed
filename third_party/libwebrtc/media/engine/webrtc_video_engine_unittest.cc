@@ -18038,15 +18038,6 @@ channel
 return
 static_cast
 <
-webrtc
-:
-:
-Transport
-*
->
-(
-static_cast
-<
 cricket
 :
 :
@@ -18056,6 +18047,10 @@ WebRtcVideoSendChannel
 (
 channel
 )
+-
+>
+transport
+(
 )
 ;
 }
