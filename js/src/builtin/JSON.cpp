@@ -8084,7 +8084,7 @@ true
 }
 static
 bool
-Walk
+InternalizeJSONProperty
 (
 JSContext
 *
@@ -8268,7 +8268,7 @@ false
 if
 (
 !
-Walk
+InternalizeJSONProperty
 (
 cx
 obj
@@ -8456,7 +8456,7 @@ i
 if
 (
 !
-Walk
+InternalizeJSONProperty
 (
 cx
 obj
@@ -8689,7 +8689,7 @@ empty_
 )
 ;
 return
-Walk
+InternalizeJSONProperty
 (
 cx
 obj
