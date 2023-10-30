@@ -555,11 +555,6 @@ dcsctp_unittests
 "
 pc
 :
-peer_connection_mediachannel_split_unittests
-"
-"
-pc
-:
 peerconnection_unittests
 "
 "

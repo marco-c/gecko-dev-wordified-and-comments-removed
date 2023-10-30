@@ -181,12 +181,6 @@ shards
 ]
 }
 '
-peer_connection_mediachannel_split_unittests
-'
-:
-{
-}
-'
 peerconnection_unittests
 '
 :
@@ -396,12 +390,6 @@ shards
 6
 '
 ]
-}
-'
-peer_connection_mediachannel_split_unittests
-'
-:
-{
 }
 '
 peerconnection_unittests

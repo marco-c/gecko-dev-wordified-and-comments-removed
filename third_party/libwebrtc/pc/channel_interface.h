@@ -82,9 +82,6 @@ namespace
 cricket
 {
 class
-MediaChannel
-;
-class
 VoiceChannel
 ;
 class

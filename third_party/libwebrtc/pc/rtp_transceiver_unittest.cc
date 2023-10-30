@@ -2764,7 +2764,7 @@ EXPECT_CALL
 (
 *
 mock_channel
-media_send_channel
+voice_media_send_channel
 (
 )
 )
@@ -3078,7 +3078,7 @@ EXPECT_CALL
 (
 *
 mock_channel
-media_send_channel
+voice_media_send_channel
 (
 )
 )

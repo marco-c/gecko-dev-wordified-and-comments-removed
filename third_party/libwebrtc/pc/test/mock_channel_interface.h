@@ -17,6 +17,17 @@ vector
 #
 include
 "
+media
+/
+base
+/
+media_channel
+.
+h
+"
+#
+include
+"
 pc
 /
 channel_interface
@@ -87,7 +98,7 @@ override
 ;
 MOCK_METHOD
 (
-MediaChannel
+MediaSendChannelInterface
 *
 media_send_channel
 (
@@ -99,7 +110,7 @@ override
 ;
 MOCK_METHOD
 (
-VoiceMediaChannel
+VoiceMediaSendChannelInterface
 *
 voice_media_send_channel
 (
@@ -111,7 +122,7 @@ override
 ;
 MOCK_METHOD
 (
-VideoMediaChannel
+VideoMediaSendChannelInterface
 *
 video_media_send_channel
 (
@@ -123,7 +134,7 @@ override
 ;
 MOCK_METHOD
 (
-MediaChannel
+MediaReceiveChannelInterface
 *
 media_receive_channel
 (
@@ -135,7 +146,7 @@ override
 ;
 MOCK_METHOD
 (
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 voice_media_receive_channel
 (
@@ -147,7 +158,7 @@ override
 ;
 MOCK_METHOD
 (
-VideoMediaChannel
+VideoMediaReceiveChannelInterface
 *
 video_media_receive_channel
 (
