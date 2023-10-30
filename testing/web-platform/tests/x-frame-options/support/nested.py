@@ -193,8 +193,8 @@ _
 /
 /
 Why
-two
-rAFs
+100ms
+timeout
 ?
 Because
 that
@@ -216,22 +216,36 @@ with
 the
 onmessage
 event
+and
+it
+'
+s
+at
+least
+    
+/
+/
+as
+long
+as
+the
+two
+renderAnimationFrame
+calls
+that
+used
+to
+be
+here
 .
     
-requestAnimationFrame
+setTimeout
 (
 _
 =
 >
 {
       
-requestAnimationFrame
-(
-_
-=
->
-{
-        
 /
 /
 The
@@ -244,7 +258,7 @@ is
 it
 is
 possible
-        
+      
 /
 /
 that
@@ -257,7 +271,7 @@ before
 the
 postMessage
 is
-        
+      
 /
 /
 dispatched
@@ -271,7 +285,7 @@ Failed
 message
 is
 sent
-        
+      
 /
 /
 out
@@ -287,7 +301,7 @@ simply
 let
 the
 timeout
-        
+      
 /
 /
 to
@@ -302,11 +316,11 @@ Loaded
 postMessage
 to
 be
-        
+      
 /
 /
 sent
-        
+      
 if
 (
 !
@@ -320,7 +334,7 @@ s
 true
 )
 {
-          
+        
 window
 .
 parent
@@ -335,14 +349,11 @@ Failed
 "
 )
 ;
-        
-}
       
 }
-)
-;
     
 }
+100
 )
 ;
   
