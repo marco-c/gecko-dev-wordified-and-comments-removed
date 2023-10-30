@@ -11,7 +11,7 @@ mozilla
 /
 ipc
 /
-UtilityProcessTest
+UtilityProcessManager
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 ipc
 /
-UtilityProcessManager
+UtilityProcessTest
 .
 h
 "

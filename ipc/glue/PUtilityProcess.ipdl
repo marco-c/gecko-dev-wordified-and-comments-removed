@@ -26,6 +26,10 @@ include
 protocol
 PWindowsUtils
 ;
+include
+protocol
+PWinFileDialog
+;
 #
 endif
 #
@@ -465,6 +469,16 @@ StartWindowsUtilsService
 Endpoint
 <
 PWindowsUtilsChild
+>
+aEndpoint
+)
+;
+async
+StartWinFileDialogService
+(
+Endpoint
+<
+PWinFileDialogChild
 >
 aEndpoint
 )
