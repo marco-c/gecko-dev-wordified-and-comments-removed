@@ -1208,7 +1208,7 @@ Tracking
 .
 accesskey
 =
-y
+u
 #
 #
 Media
