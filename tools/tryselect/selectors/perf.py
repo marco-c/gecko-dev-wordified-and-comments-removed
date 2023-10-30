@@ -685,6 +685,28 @@ default
 )
 .
 "
+                
+"
+Use
+with
+-
+-
+android
+flag
+to
+select
+Custom
+CaR
+android
+tests
+(
+cstm
+-
+car
+-
+m
+)
+"
             
 }
         
