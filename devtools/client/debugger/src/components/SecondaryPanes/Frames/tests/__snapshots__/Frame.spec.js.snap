@@ -92,6 +92,11 @@ js
 >
 <
 FrameIndent
+indentLevel
+=
+{
+1
+}
 /
 >
 <
@@ -1978,6 +1983,11 @@ tabIndex
 >
 <
 FrameIndent
+indentLevel
+=
+{
+1
+}
 /
 >
 <
@@ -3581,6 +3591,11 @@ tabIndex
 >
 <
 FrameIndent
+indentLevel
+=
+{
+1
+}
 /
 >
 <
@@ -5227,6 +5242,11 @@ tabIndex
 >
 <
 FrameIndent
+indentLevel
+=
+{
+1
+}
 /
 >
 <
