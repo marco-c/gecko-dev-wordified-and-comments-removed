@@ -34,13 +34,6 @@ h
 >
 #
 include
-<
-shobjidl_core
-.
-h
->
-#
-include
 "
 mozilla
 /
