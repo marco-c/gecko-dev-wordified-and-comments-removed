@@ -135,6 +135,14 @@ wgr_new_builder
 )
 ;
 void
+wgr_builder_reset
+(
+PathBuilder
+*
+pb
+)
+;
+void
 wgr_builder_move_to
 (
 PathBuilder
