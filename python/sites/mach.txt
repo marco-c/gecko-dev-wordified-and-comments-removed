@@ -553,7 +553,7 @@ third_party
 /
 python
 /
-tomlkit
+toml
 vendored
 :
 third_party

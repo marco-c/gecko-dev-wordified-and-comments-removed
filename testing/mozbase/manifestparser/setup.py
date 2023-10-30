@@ -30,14 +30,14 @@ mozlog
 "
     
 "
-tomlkit
+toml
 >
 =
 0
 .
-11
+10
 .
-8
+2
 "
 ]
 setup
