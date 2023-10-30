@@ -36,14 +36,14 @@ test
 /
 browser_snap
 .
-ini
+toml
 "
 "
 test
 /
 browser_xdg
 .
-ini
+toml
 "
 ]
 with

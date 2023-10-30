@@ -100,7 +100,7 @@ browser
 -
 private
 .
-ini
+toml
 "
 "
 test
@@ -118,7 +118,7 @@ browser
 /
 browser_legacy_recent_tabs
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

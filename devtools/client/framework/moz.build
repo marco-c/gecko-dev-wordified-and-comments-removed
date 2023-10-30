@@ -11,7 +11,7 @@ telemetry
 -
 startup
 .
-ini
+toml
 "
 "
 test
@@ -27,7 +27,7 @@ metrics
 /
 browser_metrics
 .
-ini
+toml
 "
 "
 test
@@ -36,7 +36,7 @@ metrics
 /
 browser_metrics_debugger
 .
-ini
+toml
 "
 "
 test
@@ -45,7 +45,7 @@ metrics
 /
 browser_metrics_inspector
 .
-ini
+toml
 "
 "
 test
@@ -54,7 +54,7 @@ metrics
 /
 browser_metrics_netmonitor
 .
-ini
+toml
 "
 "
 test
@@ -63,7 +63,7 @@ metrics
 /
 browser_metrics_webconsole
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

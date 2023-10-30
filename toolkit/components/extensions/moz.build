@@ -526,7 +526,7 @@ browser
 -
 serviceworker
 .
-ini
+toml
 "
 "
 test
