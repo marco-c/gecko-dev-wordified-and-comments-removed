@@ -2885,7 +2885,9 @@ ampersand
 ;
 list
 .
-0
+slice
+(
+)
 .
 iter
 (
@@ -3471,7 +3473,9 @@ selector
 in
 selectors
 .
-0
+slice
+(
+)
 .
 iter
 (

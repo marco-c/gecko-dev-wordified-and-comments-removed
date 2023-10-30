@@ -2501,8 +2501,6 @@ E
 if
 selector_list
 .
-0
-.
 len
 (
 )
@@ -2523,7 +2521,9 @@ selector
 &
 selector_list
 .
-0
+slice
+(
+)
 [
 0
 ]
@@ -3529,7 +3529,9 @@ Yes
 &
 selector_list
 .
-0
+slice
+(
+)
 .
 iter
 (
@@ -3584,7 +3586,9 @@ dependencies
 =
 selector_list
 .
-0
+slice
+(
+)
 .
 iter
 (

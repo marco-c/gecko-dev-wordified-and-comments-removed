@@ -2730,12 +2730,13 @@ guard
 for
 selector
 in
-&
 style_rule
 .
 selectors
 .
-0
+slice
+(
+)
 {
 self
 .

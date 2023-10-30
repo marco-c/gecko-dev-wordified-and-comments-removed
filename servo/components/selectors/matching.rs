@@ -834,10 +834,11 @@ Element
 for
 selector
 in
-&
 selector_list
 .
-0
+slice
+(
+)
 {
 let
 matches
