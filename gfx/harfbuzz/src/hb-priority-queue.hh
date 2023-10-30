@@ -20,6 +20,11 @@ vector
 .
 hh
 "
+template
+<
+typename
+K
+>
 struct
 hb_priority_queue_t
 {
@@ -28,7 +33,7 @@ private
 typedef
 hb_pair_t
 <
-int64_t
+K
 unsigned
 >
 item_t
@@ -77,7 +82,7 @@ endif
 void
 insert
 (
-int64_t
+K
 priority
 unsigned
 value

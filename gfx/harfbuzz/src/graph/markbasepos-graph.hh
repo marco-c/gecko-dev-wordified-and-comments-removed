@@ -1205,7 +1205,7 @@ Layout
 GPOS_impl
 :
 :
-PairPosFormat1_3
+MarkBasePosFormat1_2
 <
 SmallTypes
 >

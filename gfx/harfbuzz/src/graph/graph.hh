@@ -2437,6 +2437,9 @@ update_distances
 )
 ;
 hb_priority_queue_t
+<
+int64_t
+>
 queue
 ;
 hb_vector_t
@@ -6224,6 +6227,9 @@ distance
 0
 ;
 hb_priority_queue_t
+<
+int64_t
+>
 queue
 ;
 queue

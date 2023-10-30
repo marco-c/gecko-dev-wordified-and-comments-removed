@@ -2446,7 +2446,7 @@ Type
 ;
 Type
 v
-{
+(
 std
 :
 :
@@ -2459,7 +2459,7 @@ length
 1
 ]
 )
-}
+)
 ;
 arrayZ
 [

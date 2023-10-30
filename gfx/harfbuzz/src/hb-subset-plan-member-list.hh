@@ -234,6 +234,7 @@ colr_palettes
 )
 HB_SUBSET_PLAN_MEMBER
 (
+mutable
 hb_hashmap_t
 E
 (
@@ -330,6 +331,14 @@ HB_SUBSET_PLAN_MEMBER
 (
 hb_map_t
 axes_old_index_tag_map
+)
+HB_SUBSET_PLAN_MEMBER
+(
+hb_vector_t
+<
+hb_tag_t
+>
+axis_tags
 )
 HB_SUBSET_PLAN_MEMBER
 (
