@@ -14978,6 +14978,16 @@ width
 wide
 )
 ;
+}
+#
+reset
+-
+pbm
+-
+panel
+-
+container
+{
 padding
 :
 16px
