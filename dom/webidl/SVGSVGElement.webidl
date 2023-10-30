@@ -330,6 +330,13 @@ SVGRect
 rect
 )
 ;
+[
+Deprecated
+=
+"
+SVGDeselectAll
+"
+]
 undefined
 deselectAll
 (
