@@ -994,9 +994,16 @@ theme
 roots
 *
 /
-toolbar
 :
 root
+:
+-
+moz
+-
+lwtheme
+{
+toolbar
+&
 [
 lwt
 -
@@ -1019,8 +1026,7 @@ toolbar
 [
 brighttext
 ]
-:
-root
+&
 [
 lwt
 -
@@ -1038,6 +1044,7 @@ scheme
 :
 dark
 ;
+}
 }
 :
 root
