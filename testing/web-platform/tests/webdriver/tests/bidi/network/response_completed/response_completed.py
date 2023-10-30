@@ -691,7 +691,27 @@ status
 status_text
 "
     
+[
+(
+status
+text
+)
+for
+(
+status
+text
+)
+in
 HTTP_STATUS_AND_STATUS_TEXT
+if
+status
+not
+in
+[
+101
+407
+]
+]
 )
 pytest
 .
@@ -867,6 +887,10 @@ events
 [
 0
 ]
+        
+expected_request
+=
+expected_request
         
 expected_response
 =
