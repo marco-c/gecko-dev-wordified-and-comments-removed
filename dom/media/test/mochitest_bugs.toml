@@ -8014,15 +8014,9 @@ os_version
 &
 debug
 "
-]
 #
 Bug
 1713410
-skip
--
-if
-=
-[
 "
 os
 =
@@ -8031,10 +8025,10 @@ os
 mac
 '
 "
-]
 #
 Bug
 1198168
+]
 [
 "
 test_bug1120222
