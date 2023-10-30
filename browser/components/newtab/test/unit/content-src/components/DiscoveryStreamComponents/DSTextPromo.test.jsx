@@ -488,6 +488,12 @@ undefined
 isSponsoredTopSite
 :
 undefined
+position
+:
+0
+is_pocket_card
+:
+false
 }
 ]
 )

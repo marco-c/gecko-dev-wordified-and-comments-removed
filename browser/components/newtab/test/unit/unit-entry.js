@@ -2889,6 +2889,15 @@ record
 {
 }
 }
+dismiss
+:
+{
+record
+(
+)
+{
+}
+}
 }
 topSites
 :
