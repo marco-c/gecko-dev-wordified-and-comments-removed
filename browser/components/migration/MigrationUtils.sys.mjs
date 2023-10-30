@@ -1121,6 +1121,17 @@ true
 "
 MigrationWizard
 :
+PermissionsNeeded
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+MigrationWizard
+:
 GetPermissions
 "
 :
