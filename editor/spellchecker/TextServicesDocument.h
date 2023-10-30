@@ -98,10 +98,6 @@ FilteredContentIterator
 class
 OffsetEntry
 ;
-enum
-class
-JoinNodesDirection
-;
 namespace
 dom
 {
@@ -908,8 +904,6 @@ const
 nsIContent
 &
 aRemovedContent
-JoinNodesDirection
-aJoinNodesDirection
 )
 ;
 private

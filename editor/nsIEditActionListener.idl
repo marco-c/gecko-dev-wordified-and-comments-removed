@@ -110,9 +110,6 @@ const
 in
 Node
 aRemovedNode
-in
-bool
-aLeftNodeWasRemoved
 )
 ;
 void
