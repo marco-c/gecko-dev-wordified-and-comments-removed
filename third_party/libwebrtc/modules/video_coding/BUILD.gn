@@ -3508,6 +3508,11 @@ rtp_rtcp
 :
 rtp_rtcp_format
 "
+"
+svc
+:
+scalability_mode_util
+"
 ]
 absl_deps
 =
