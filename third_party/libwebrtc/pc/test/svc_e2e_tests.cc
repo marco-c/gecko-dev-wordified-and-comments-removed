@@ -3088,16 +3088,6 @@ Create
 (
 kAv1CodecName
 "
-L2T3
-"
-)
-SvcTestParameters
-:
-:
-Create
-(
-kAv1CodecName
-"
 L2T3h
 "
 )
