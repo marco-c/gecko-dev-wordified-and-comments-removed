@@ -99,10 +99,6 @@ int32_t
 ;
 enum
 class
-JoinNodesDirection
-;
-enum
-class
 ParagraphSeparator
 ;
 enum
@@ -110,10 +106,6 @@ class
 SpecifiedStyle
 :
 uint8_t
-;
-enum
-class
-SplitNodeDirection
 ;
 enum
 class
