@@ -2566,7 +2566,6 @@ HOST_RUST_LIBRARY_FILE
 )
 syms
 :
-:
 include
 (
 MOZILLA_DIR
@@ -4704,7 +4703,6 @@ endif
 define
 syms_template
 syms
-:
 :
 (
 2
