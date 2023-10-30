@@ -2,6 +2,7 @@ import
 {
 getSymbols
 getFunctionSymbols
+getClassSymbols
 clearSymbols
 }
 from
@@ -149,6 +150,7 @@ findOutOfScopeLocations
 findBestMatchExpression
 getSymbols
 getFunctionSymbols
+getClassSymbols
 getScopes
 clearSources
 :

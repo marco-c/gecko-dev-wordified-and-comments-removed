@@ -113,6 +113,17 @@ getFunctionSymbols
 "
 )
 ;
+getClassSymbols
+=
+this
+.
+task
+(
+"
+getClassSymbols
+"
+)
+;
 async
 setSource
 (
