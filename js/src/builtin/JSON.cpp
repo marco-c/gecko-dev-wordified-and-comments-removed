@@ -2364,7 +2364,7 @@ Object
 endif
 static
 bool
-JO
+SerializeJSONObject
 (
 JSContext
 *
@@ -3141,7 +3141,7 @@ true
 }
 static
 bool
-JA
+SerializeJSONArray
 (
 JSContext
 *
@@ -3954,7 +3954,7 @@ RecordType
 )
 {
 return
-JO
+SerializeJSONObject
 <
 JOType
 :
@@ -3982,7 +3982,7 @@ TupleType
 )
 {
 return
-JA
+SerializeJSONArray
 (
 cx
 obj
@@ -4030,14 +4030,14 @@ false
 return
 isArray
 ?
-JA
+SerializeJSONArray
 (
 cx
 obj
 scx
 )
 :
-JO
+SerializeJSONObject
 (
 cx
 obj
