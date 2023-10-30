@@ -314,10 +314,6 @@ path
 UIDeleteFile
 (
 path
-.
-c_str
-(
-)
 )
 ;
 path
@@ -341,10 +337,6 @@ extra
 UIDeleteFile
 (
 path
-.
-c_str
-(
-)
 )
 ;
 dumpfiles
