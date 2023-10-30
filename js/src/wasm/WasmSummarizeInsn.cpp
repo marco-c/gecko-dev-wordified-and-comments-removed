@@ -5609,7 +5609,7 @@ Load64
 )
 ;
 case
-0b011
+0b010
 :
 return
 Some
@@ -5621,7 +5621,7 @@ Load32
 )
 ;
 case
-0b011
+0b001
 :
 return
 Some
@@ -5633,7 +5633,7 @@ Load16
 )
 ;
 case
-0b011
+0b000
 :
 return
 Some
@@ -5684,7 +5684,7 @@ Store64
 )
 ;
 case
-0b011
+0b010
 :
 return
 Some
@@ -5696,7 +5696,7 @@ Store32
 )
 ;
 case
-0b011
+0b001
 :
 return
 Some
@@ -5708,7 +5708,7 @@ Store16
 )
 ;
 case
-0b011
+0b000
 :
 return
 Some
@@ -5759,7 +5759,7 @@ Load64
 )
 ;
 case
-0b011
+0b010
 :
 return
 Some
@@ -5810,7 +5810,7 @@ Store64
 )
 ;
 case
-0b011
+0b010
 :
 return
 Some
@@ -5871,7 +5871,7 @@ Load64
 )
 ;
 case
-0b011
+0b010
 :
 return
 Some
@@ -5932,7 +5932,7 @@ Store64
 )
 ;
 case
-0b011
+0b010
 :
 return
 Some
