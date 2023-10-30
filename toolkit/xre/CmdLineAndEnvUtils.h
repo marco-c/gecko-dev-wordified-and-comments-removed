@@ -1359,6 +1359,16 @@ nullptr
 bool
 addDoubleQuotes
 =
+*
+s
+=
+=
+'
+\
+0
+'
+|
+|
 wcspbrk
 (
 s
