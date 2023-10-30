@@ -251,7 +251,7 @@ bool
 SetRtpParams
 (
 int
-send_cs
+send_crypto_suite
 const
 uint8_t
 *
@@ -269,7 +269,7 @@ int
 &
 send_extension_ids
 int
-recv_cs
+recv_crypto_suite
 const
 uint8_t
 *
@@ -292,7 +292,7 @@ bool
 SetRtcpParams
 (
 int
-send_cs
+send_crypto_suite
 const
 uint8_t
 *
@@ -310,7 +310,7 @@ int
 &
 send_extension_ids
 int
-recv_cs
+recv_crypto_suite
 const
 uint8_t
 *
@@ -643,7 +643,7 @@ optional
 <
 int
 >
-send_cipher_suite_
+send_crypto_suite_
 ;
 absl
 :
@@ -652,7 +652,7 @@ optional
 <
 int
 >
-recv_cipher_suite_
+recv_crypto_suite_
 ;
 rtc
 :

@@ -624,7 +624,7 @@ SrtpSession
 SetSend
 (
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -647,7 +647,7 @@ return
 SetKey
 (
 ssrc_any_outbound
-cs
+crypto_suite
 key
 len
 extension_ids
@@ -661,7 +661,7 @@ SrtpSession
 UpdateSend
 (
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -684,7 +684,7 @@ return
 UpdateKey
 (
 ssrc_any_outbound
-cs
+crypto_suite
 key
 len
 extension_ids
@@ -698,7 +698,7 @@ SrtpSession
 SetRecv
 (
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -721,7 +721,7 @@ return
 SetKey
 (
 ssrc_any_inbound
-cs
+crypto_suite
 key
 len
 extension_ids
@@ -735,7 +735,7 @@ SrtpSession
 UpdateRecv
 (
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -758,7 +758,7 @@ return
 UpdateKey
 (
 ssrc_any_inbound
-cs
+crypto_suite
 key
 len
 extension_ids
@@ -1824,7 +1824,7 @@ DoSetKey
 int
 type
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -1879,7 +1879,7 @@ rtp
 (
 srtp_profile_t
 )
-cs
+crypto_suite
 )
 =
 =
@@ -1895,7 +1895,7 @@ rtcp
 (
 srtp_profile_t
 )
-cs
+crypto_suite
 )
 =
 =
@@ -1937,7 +1937,7 @@ cipher_suite
 "
 <
 <
-cs
+crypto_suite
 ;
 return
 false
@@ -2068,7 +2068,7 @@ rtc
 :
 IsGcmCryptoSuite
 (
-cs
+crypto_suite
 )
 )
 {
@@ -2276,7 +2276,7 @@ SetKey
 int
 type
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -2368,7 +2368,7 @@ return
 DoSetKey
 (
 type
-cs
+crypto_suite
 key
 len
 extension_ids
@@ -2384,7 +2384,7 @@ UpdateKey
 int
 type
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -2443,7 +2443,7 @@ return
 DoSetKey
 (
 type
-cs
+crypto_suite
 key
 len
 extension_ids

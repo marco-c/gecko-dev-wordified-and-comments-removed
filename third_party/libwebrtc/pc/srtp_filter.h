@@ -265,12 +265,12 @@ optional
 <
 int
 >
-send_cipher_suite
+send_crypto_suite
 (
 )
 {
 return
-send_cipher_suite_
+send_crypto_suite_
 ;
 }
 absl
@@ -280,12 +280,12 @@ optional
 <
 int
 >
-recv_cipher_suite
+recv_crypto_suite
 (
 )
 {
 return
-recv_cipher_suite_
+recv_crypto_suite_
 ;
 }
 rtc
@@ -452,7 +452,7 @@ optional
 <
 int
 >
-send_cipher_suite_
+send_crypto_suite_
 ;
 absl
 :
@@ -461,7 +461,7 @@ optional
 <
 int
 >
-recv_cipher_suite_
+recv_crypto_suite_
 ;
 rtc
 :

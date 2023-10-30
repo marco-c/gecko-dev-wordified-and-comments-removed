@@ -1371,7 +1371,7 @@ cryptos
 i
 ]
 .
-cipher_suite
+crypto_suite
 =
 =
 "
