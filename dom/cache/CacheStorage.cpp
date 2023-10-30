@@ -2609,6 +2609,15 @@ UsePrivateBrowsing
 if
 (
 privateBrowsing
+&
+&
+!
+StaticPrefs
+:
+:
+dom_cache_privateBrowsing_enabled
+(
+)
 )
 {
 RefPtr
