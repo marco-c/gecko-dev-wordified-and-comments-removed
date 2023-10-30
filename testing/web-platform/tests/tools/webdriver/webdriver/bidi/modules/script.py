@@ -855,6 +855,15 @@ SerializationOptions
 ]
 =
 None
+        
+user_activation
+:
+Optional
+[
+bool
+]
+=
+None
     
 )
 -
@@ -959,6 +968,22 @@ serializationOptions
 ]
 =
 serialization_options
+        
+if
+user_activation
+is
+not
+None
+:
+            
+params
+[
+"
+userActivation
+"
+]
+=
+user_activation
         
 return
 params
@@ -1148,6 +1173,15 @@ SerializationOptions
 ]
 =
 None
+        
+user_activation
+:
+Optional
+[
+bool
+]
+=
+None
     
 )
 -
@@ -1220,6 +1254,22 @@ serializationOptions
 ]
 =
 serialization_options
+        
+if
+user_activation
+is
+not
+None
+:
+            
+params
+[
+"
+userActivation
+"
+]
+=
+user_activation
         
 return
 params
