@@ -382,6 +382,15 @@ Destroy
 (
 )
 {
+}
+void
+Texture
+:
+:
+ForceDestroy
+(
+)
+{
 Cleanup
 (
 )

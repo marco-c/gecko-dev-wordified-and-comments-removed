@@ -1024,7 +1024,7 @@ mUseExternalTextureInSwapChain
 mTexture
 -
 >
-Destroy
+ForceDestroy
 (
 )
 ;
