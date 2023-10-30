@@ -53,6 +53,11 @@ AString
 >
 transports
 ;
+readonly
+attribute
+bool
+hmacCreateSecret
+;
 [
 must_use
 ]
@@ -140,7 +145,6 @@ userName
 [
 must_use
 ]
-readonly
 attribute
 bool
 usedAppId

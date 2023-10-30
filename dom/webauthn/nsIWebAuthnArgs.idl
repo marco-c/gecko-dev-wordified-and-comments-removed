@@ -43,6 +43,11 @@ challenge
 ;
 readonly
 attribute
+ACString
+clientDataJSON
+;
+readonly
+attribute
 Array
 <
 octet
@@ -212,6 +217,11 @@ Array
 octet
 >
 challenge
+;
+readonly
+attribute
+ACString
+clientDataJSON
 ;
 readonly
 attribute
