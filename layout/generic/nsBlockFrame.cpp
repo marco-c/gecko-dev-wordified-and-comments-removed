@@ -4249,6 +4249,19 @@ textIndent
 each_line
 &
 &
+(
+prevBlock
+-
+>
+Lines
+(
+)
+.
+empty
+(
+)
+|
+|
 !
 prevBlock
 -
@@ -4264,6 +4277,7 @@ prev
 >
 IsLineWrapped
 (
+)
 )
 ;
 }
