@@ -115,6 +115,9 @@ reset_nativeapp
 "
 reset_streamfilter
 "
+"
+reset_parentapicall
+"
 ]
 ;
 function
