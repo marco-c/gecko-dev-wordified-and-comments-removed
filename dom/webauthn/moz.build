@@ -328,7 +328,7 @@ dom
 =
 [
 "
-WinWebAuthnManager
+WinWebAuthnService
 .
 h
 "
@@ -338,7 +338,7 @@ UNIFIED_SOURCES
 =
 [
 "
-WinWebAuthnManager
+WinWebAuthnService
 .
 cpp
 "
