@@ -12991,6 +12991,9 @@ attribution
 hasExposure
 :
 false
+isEarlyStartup
+:
+true
 variables
 :
 macosEnabled
