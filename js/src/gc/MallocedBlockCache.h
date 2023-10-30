@@ -127,7 +127,7 @@ nodiscard
 ]
 MOZ_NEVER_INLINE
 PointerAndUint7
-allowSlow
+allocSlow
 (
 size_t
 size
@@ -262,7 +262,7 @@ i
 ;
 }
 return
-allowSlow
+allocSlow
 (
 size
 )

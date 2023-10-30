@@ -48,7 +48,7 @@ PointerAndUint7
 MallocedBlockCache
 :
 :
-allowSlow
+allocSlow
 (
 size_t
 size
