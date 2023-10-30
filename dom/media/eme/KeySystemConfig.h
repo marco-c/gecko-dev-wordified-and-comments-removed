@@ -819,6 +819,16 @@ const
 ;
 #
 endif
+bool
+IsSameKeySystem
+(
+const
+nsAString
+&
+aKeySystem
+)
+const
+;
 nsString
 mKeySystem
 ;
