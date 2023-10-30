@@ -851,9 +851,6 @@ auto
 params
 =
 RtpSendParameters
-<
-AudioCodec
->
 :
 :
 ToStringMap
@@ -922,9 +919,6 @@ auto
 params
 =
 RtpSendParameters
-<
-VideoCodec
->
 :
 :
 ToStringMap
