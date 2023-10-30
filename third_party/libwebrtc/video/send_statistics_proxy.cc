@@ -6562,6 +6562,13 @@ EncoderChangeEvent
 stats_
 .
 encoder_implementation_name
+.
+value_or
+(
+"
+unknown
+"
+)
 implementation
 .
 name

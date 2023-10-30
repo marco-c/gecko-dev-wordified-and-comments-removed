@@ -3636,9 +3636,10 @@ EXPECT_EQ
 init_stats
 .
 decoder_implementation_name
-"
-unknown
-"
+absl
+:
+:
+nullopt
 )
 ;
 EXPECT_EQ
