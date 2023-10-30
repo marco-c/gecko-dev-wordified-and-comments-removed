@@ -705,11 +705,6 @@ lock
 lock_
 )
 ;
-RTC_CHECK
-(
-capturer_
-)
-;
 capturing_
 =
 true
@@ -810,6 +805,12 @@ return
 if
 (
 capturing_
+&
+&
+capturer_
+!
+=
+nullptr
 )
 {
 const
