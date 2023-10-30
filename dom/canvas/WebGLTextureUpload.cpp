@@ -10308,6 +10308,10 @@ dstUsage
 )
 )
 {
+Truncate
+(
+)
+;
 return
 ;
 }
