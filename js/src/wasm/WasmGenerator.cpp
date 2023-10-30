@@ -5324,6 +5324,13 @@ defined
 (
 JS_CODEGEN_ARM
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_LOONG64
+)
 )
 for
 (
