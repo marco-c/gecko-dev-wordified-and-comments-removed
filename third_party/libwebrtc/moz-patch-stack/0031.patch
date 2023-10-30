@@ -9073,10 +9073,10 @@ webrtc
 .
 gni
 index
-f4789be93e
+892bb0d642
 .
 .
-a38da8e58a
+43d1b83d8b
 100644
 -
 -
@@ -9805,10 +9805,10 @@ third_party
 libvpx
 "
 -
-1125
+1122
 7
 +
-1135
+1132
 7
 if
 (
