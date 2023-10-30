@@ -725,6 +725,14 @@ LoadSrc
 (
 )
 {
+if
+(
+mLazyLoading
+)
+{
+return
+;
+}
 EnsureFrameLoader
 (
 )

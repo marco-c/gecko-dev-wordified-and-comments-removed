@@ -8506,7 +8506,7 @@ LoadingState
 )
 =
 =
-HTMLImageElement
+Element
 :
 :
 Loading

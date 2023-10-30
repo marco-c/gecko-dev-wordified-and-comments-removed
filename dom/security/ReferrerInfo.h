@@ -201,6 +201,14 @@ Document
 &
 )
 ;
+ReferrerInfo
+(
+const
+Element
+&
+ReferrerPolicyEnum
+)
+;
 already_AddRefed
 <
 ReferrerInfo

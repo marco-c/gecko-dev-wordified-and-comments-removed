@@ -756,17 +756,6 @@ already_AddRefed
 <
 DOMIntersectionObserver
 >
-CreateLazyLoadObserverViewport
-(
-Document
-&
-)
-;
-static
-already_AddRefed
-<
-DOMIntersectionObserver
->
 CreateContentVisibilityObserver
 (
 Document

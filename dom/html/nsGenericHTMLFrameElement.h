@@ -479,6 +479,11 @@ mFullscreenFlag
 =
 false
 ;
+bool
+mLazyLoading
+=
+false
+;
 private
 :
 void
