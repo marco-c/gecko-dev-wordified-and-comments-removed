@@ -545,9 +545,6 @@ ScheduleCheckForInactive
 ;
 protected
 :
-class
-AdvanceAndResumeMessage
-;
 void
 OnGraphThreadDone
 (
