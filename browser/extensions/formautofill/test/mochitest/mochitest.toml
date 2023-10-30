@@ -140,13 +140,6 @@ js
 ]
 [
 "
-test_address_level_1_submission
-.
-html
-"
-]
-[
-"
 test_autofill_and_ordinal_forms
 .
 html
@@ -215,13 +208,6 @@ html
 [
 "
 test_multiple_forms
-.
-html
-"
-]
-[
-"
-test_on_address_submission
 .
 html
 "
