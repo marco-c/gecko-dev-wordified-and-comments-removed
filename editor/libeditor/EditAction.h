@@ -179,6 +179,7 @@ eIndent
 eOutdent
 eSetOrClearAlignment
 eCreateOrRemoveBlock
+eFormatBlockForHTMLCommand
 eMergeBlockContents
 eRemoveList
 eCreateOrChangeDefinitionListItem

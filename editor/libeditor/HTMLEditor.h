@@ -9234,6 +9234,8 @@ CollectEditableFormatNodesInSelection
 HTMLEditor
 &
 aHTMLEditor
+FormatBlockMode
+aFormatBlockMode
 const
 dom
 :

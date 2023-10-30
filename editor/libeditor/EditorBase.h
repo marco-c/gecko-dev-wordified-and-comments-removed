@@ -3222,6 +3222,12 @@ case
 EditSubAction
 :
 :
+eFormatBlockForHTMLCommand
+:
+case
+EditSubAction
+:
+:
 eMergeBlockContents
 :
 case
