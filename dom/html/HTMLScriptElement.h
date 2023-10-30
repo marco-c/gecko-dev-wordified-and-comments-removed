@@ -20,15 +20,6 @@ include
 "
 mozilla
 /
-nsGenericHTMLElementWithFetchPriorityAttribute
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
@@ -41,6 +32,13 @@ mozilla
 dom
 /
 ScriptElement
+.
+h
+"
+#
+include
+"
+nsGenericHTMLElement
 .
 h
 "
@@ -62,7 +60,7 @@ HTMLScriptElement
 final
 :
 public
-nsGenericHTMLElementWithFetchPriorityAttribute
+nsGenericHTMLElement
 public
 ScriptElement
 {
@@ -739,7 +737,7 @@ aReferrerPolicy
 ;
 }
 using
-nsGenericHTMLElementWithFetchPriorityAttribute
+nsGenericHTMLElement
 :
 :
 GetFetchPriority
