@@ -133,6 +133,14 @@ inline
 size
 ;
 }
+treecol
+{
+flex
+:
+1
+auto
+;
+}
 #
 certmanager
 {
