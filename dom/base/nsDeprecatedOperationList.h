@@ -194,3 +194,7 @@ DEPRECATED_OPERATION
 (
 SizeToContent
 )
+DEPRECATED_OPERATION
+(
+IsExternalCTAP2SecurityKeySupported
+)
