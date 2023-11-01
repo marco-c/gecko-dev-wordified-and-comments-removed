@@ -373,6 +373,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 valid
 -
 lazy

@@ -374,6 +374,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 no
 -
 cu

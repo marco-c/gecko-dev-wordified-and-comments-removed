@@ -498,6 +498,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 no
 -
 redeclare

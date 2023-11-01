@@ -91,6 +91,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 relative

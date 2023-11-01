@@ -106,6 +106,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 no
 -
 aArgs

@@ -58,6 +58,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 mark
 -
 test

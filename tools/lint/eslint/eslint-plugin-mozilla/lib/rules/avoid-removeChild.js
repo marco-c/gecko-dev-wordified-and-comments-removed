@@ -58,6 +58,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 avoid
 -
 removeChild

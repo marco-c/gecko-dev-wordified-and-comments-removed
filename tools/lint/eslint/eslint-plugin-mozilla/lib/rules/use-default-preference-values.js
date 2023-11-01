@@ -45,6 +45,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 use
 -
 default

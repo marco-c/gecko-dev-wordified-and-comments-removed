@@ -76,6 +76,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 scriptableunicodeconverter

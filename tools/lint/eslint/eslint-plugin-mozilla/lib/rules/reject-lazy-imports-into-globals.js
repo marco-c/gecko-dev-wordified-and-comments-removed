@@ -455,6 +455,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 lazy

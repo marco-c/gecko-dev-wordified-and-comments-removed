@@ -514,6 +514,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 valid
 -
 ci

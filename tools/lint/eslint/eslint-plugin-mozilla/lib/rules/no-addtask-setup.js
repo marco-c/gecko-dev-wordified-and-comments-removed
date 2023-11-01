@@ -68,6 +68,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 no
 -
 addtask

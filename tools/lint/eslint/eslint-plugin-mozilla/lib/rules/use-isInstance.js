@@ -437,6 +437,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 use
 -
 isInstance

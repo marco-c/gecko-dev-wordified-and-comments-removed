@@ -185,6 +185,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 tools
 /
 lint

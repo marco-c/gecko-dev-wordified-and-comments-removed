@@ -144,6 +144,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 globalThis

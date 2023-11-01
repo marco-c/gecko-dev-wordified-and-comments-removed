@@ -125,6 +125,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 chromeutils

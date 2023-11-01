@@ -129,6 +129,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 mark
 -
 exported

@@ -63,6 +63,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 no
 -
 define

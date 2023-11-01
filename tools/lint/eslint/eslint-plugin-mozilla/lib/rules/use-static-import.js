@@ -89,6 +89,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 use
 -
 static
