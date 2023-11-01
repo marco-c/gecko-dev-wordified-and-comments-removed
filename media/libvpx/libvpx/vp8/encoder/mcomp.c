@@ -7675,9 +7675,8 @@ best_mv
 as_mv
 .
 row
-<
-<
-3
+*
+8
 ;
 this_mv
 .
@@ -7691,9 +7690,8 @@ best_mv
 as_mv
 .
 col
-<
-<
-3
+*
+8
 ;
 return
 fn_ptr
@@ -9874,9 +9872,8 @@ ref_mv
 as_mv
 .
 row
-<
-<
-3
+*
+8
 ;
 this_mv
 .
@@ -9890,9 +9887,8 @@ ref_mv
 as_mv
 .
 col
-<
-<
-3
+*
+8
 ;
 return
 fn_ptr

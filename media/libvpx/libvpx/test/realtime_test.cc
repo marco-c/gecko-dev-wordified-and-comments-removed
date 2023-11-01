@@ -425,6 +425,9 @@ IsVP9
 {
 #
 if
+VPX_ARCH_AARCH64
+|
+|
 VPX_ARCH_X86_64
 TestIntegerOverflow
 (

@@ -1789,6 +1789,7 @@ avg_frame_bandwidth
 (
 int
 )
+VPXMIN
 (
 lc
 -
@@ -1799,6 +1800,7 @@ lc
 -
 >
 framerate
+INT_MAX
 )
 ;
 lrc
@@ -2098,6 +2100,7 @@ avg_frame_bandwidth
 (
 int
 )
+VPXMIN
 (
 lc
 -
@@ -2108,6 +2111,7 @@ lc
 -
 >
 framerate
+INT_MAX
 )
 ;
 lrc
@@ -2431,6 +2435,7 @@ avg_frame_bandwidth
 (
 int
 )
+VPXMIN
 (
 lc
 -
@@ -2441,6 +2446,7 @@ lc
 -
 >
 framerate
+INT_MAX
 )
 ;
 lrc
@@ -2599,6 +2605,7 @@ avg_frame_bandwidth
 (
 int
 )
+VPXMIN
 (
 lc
 -
@@ -2609,6 +2616,7 @@ lc
 -
 >
 framerate
+INT_MAX
 )
 ;
 lrc

@@ -17176,6 +17176,7 @@ avg_frame_bandwidth
 (
 int
 )
+VPXMIN
 (
 oxcf
 -
@@ -17186,6 +17187,7 @@ cpi
 -
 >
 framerate
+INT_MAX
 )
 ;
 rc
