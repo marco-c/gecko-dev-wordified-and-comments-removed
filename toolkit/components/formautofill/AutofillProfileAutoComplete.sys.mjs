@@ -1334,7 +1334,7 @@ GenericAutocompleteItem
 (
 entry
 .
-image
+icon
 entry
 .
 title

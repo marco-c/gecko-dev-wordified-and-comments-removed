@@ -179,7 +179,7 @@ export
 class
 ParentAutocompleteOption
 {
-image
+icon
 ;
 title
 ;
@@ -191,7 +191,7 @@ fillMessageData
 ;
 constructor
 (
-image
+icon
 title
 subtitle
 fillMessageName
@@ -200,9 +200,9 @@ fillMessageData
 {
 this
 .
-image
+icon
 =
-image
+icon
 ;
 this
 .
