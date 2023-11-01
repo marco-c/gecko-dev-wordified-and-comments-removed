@@ -14888,17 +14888,6 @@ NS_OUTER_ACTIVATE_EVENT
 }
 return
 outerActivateEvent
-&
-&
-!
-aVisitor
-.
-mEvent
--
->
-mFlags
-.
-mMultiplePreActionsPrevented
 ;
 }
 default
