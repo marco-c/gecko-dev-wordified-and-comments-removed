@@ -676,10 +676,7 @@ WebTransportSetSendOrder
 (
 uint64_t
 aSessionId
-Maybe
-<
 int64_t
->
 aSendOrder
 )
 {
@@ -689,11 +686,6 @@ neqo_http3conn_webtransport_set_sendorder
 this
 aSessionId
 aSendOrder
-.
-ptrOr
-(
-nullptr
-)
 )
 ;
 }

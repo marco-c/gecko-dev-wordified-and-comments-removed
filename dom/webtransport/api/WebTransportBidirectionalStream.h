@@ -177,12 +177,7 @@ ipc
 :
 DataPipeSender
 *
-aSender
-Maybe
-<
-int64_t
->
-aSendOrder
+sender
 ErrorResult
 &
 aRv
