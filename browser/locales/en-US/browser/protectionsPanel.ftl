@@ -499,6 +499,11 @@ etp
 on
 -
 tooltip
+-
+label
+=
+.
+label
 =
 Blocking
 these
@@ -536,6 +541,11 @@ etp
 off
 -
 tooltip
+-
+label
+=
+.
+label
 =
 All
 trackers
@@ -1753,6 +1763,11 @@ view
 turn
 -
 off
+-
+label
+=
+.
+label
 =
 Turn
 Off
@@ -1769,6 +1784,11 @@ view
 turn
 -
 on
+-
+label
+=
+.
+label
 =
 Turn
 On
