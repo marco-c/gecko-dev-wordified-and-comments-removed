@@ -1056,16 +1056,6 @@ browser
 /
 components
 /
-translation
-/
-test
-/
-"
-"
-browser
-/
-components
-/
 uitour
 /
 test
