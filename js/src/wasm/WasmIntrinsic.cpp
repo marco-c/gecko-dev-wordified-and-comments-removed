@@ -425,9 +425,7 @@ return
 false
 ;
 }
-if
-(
-!
+return
 encoder
 .
 writeOp
@@ -437,14 +435,6 @@ Op
 :
 End
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 bool
