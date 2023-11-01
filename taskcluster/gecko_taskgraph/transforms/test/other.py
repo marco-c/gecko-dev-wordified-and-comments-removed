@@ -2724,14 +2724,6 @@ linux64
 -
 chromedriver
 -
-116
-"
-                
-"
-linux64
--
-chromedriver
--
 117
 "
                 
@@ -2741,6 +2733,14 @@ linux64
 chromedriver
 -
 118
+"
+                
+"
+linux64
+-
+chromedriver
+-
+119
 "
             
 ]
@@ -2758,14 +2758,6 @@ linux64
 -
 chromedriver
 -
-116
-"
-                
-"
-linux64
--
-chromedriver
--
 117
 "
                 
@@ -2775,6 +2767,14 @@ linux64
 chromedriver
 -
 118
+"
+                
+"
+linux64
+-
+chromedriver
+-
+119
 "
             
 ]
@@ -2794,16 +2794,6 @@ arm
 -
 chromedriver
 -
-115
-"
-                
-"
-mac
--
-arm
--
-chromedriver
--
 117
 "
                 
@@ -2818,11 +2808,13 @@ chromedriver
 "
                 
 "
-mac64
+mac
+-
+arm
 -
 chromedriver
 -
-116
+119
 "
                 
 "
@@ -2839,6 +2831,14 @@ mac64
 chromedriver
 -
 118
+"
+                
+"
+mac64
+-
+chromedriver
+-
+119
 "
             
 ]
@@ -2859,14 +2859,6 @@ win32
 -
 chromedriver
 -
-116
-"
-                
-"
-win32
--
-chromedriver
--
 117
 "
                 
@@ -2876,6 +2868,14 @@ win32
 chromedriver
 -
 118
+"
+                
+"
+win32
+-
+chromedriver
+-
+119
 "
             
 ]
@@ -2897,14 +2897,6 @@ win32
 -
 chromedriver
 -
-116
-"
-                
-"
-win32
--
-chromedriver
--
 117
 "
                 
@@ -2914,6 +2906,14 @@ win32
 chromedriver
 -
 118
+"
+                
+"
+win32
+-
+chromedriver
+-
+119
 "
             
 ]
@@ -2935,14 +2935,6 @@ win32
 -
 chromedriver
 -
-116
-"
-                
-"
-win32
--
-chromedriver
--
 117
 "
                 
@@ -2952,6 +2944,14 @@ win32
 chromedriver
 -
 118
+"
+                
+"
+win32
+-
+chromedriver
+-
+119
 "
             
 ]
