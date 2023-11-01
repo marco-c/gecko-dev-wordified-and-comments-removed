@@ -873,14 +873,6 @@ return
 StaticPrefs
 :
 :
-media_autoplay_block_webaudio
-(
-)
-&
-&
-StaticPrefs
-:
-:
 media_autoplay_blocking_policy
 (
 )
