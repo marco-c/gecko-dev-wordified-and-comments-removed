@@ -603,6 +603,10 @@ MingLiU_HKSCS
 Miriam
 "
 "
+Miriam
+Fixed
+"
+"
 MoolBoran
 "
 "
