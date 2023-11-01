@@ -81,7 +81,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
-remoteSettingsResults
+remoteSettingsRecords
 :
 [
 {
@@ -96,18 +96,6 @@ WEATHER_RS_DATA
 }
 ]
 }
-)
-;
-UrlbarPrefs
-.
-set
-(
-"
-quicksuggest
-.
-enabled
-"
-true
 )
 ;
 await
@@ -458,7 +446,7 @@ pendingFetchCount
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
@@ -550,7 +538,7 @@ waitForFetches
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {

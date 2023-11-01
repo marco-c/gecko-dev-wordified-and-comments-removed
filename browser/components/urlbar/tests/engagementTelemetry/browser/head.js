@@ -554,7 +554,7 @@ ensureQuickSuggestInit
 .
 .
 args
-remoteSettingsResults
+remoteSettingsRecords
 :
 [
 {
@@ -634,6 +634,11 @@ iab_category
 -
 Shopping
 "
+icon
+:
+"
+1234
+"
 }
 {
 id
@@ -694,7 +699,7 @@ impression
 advertiser
 :
 "
-TestAdvertiser
+Wikipedia
 "
 iab_category
 :
@@ -702,6 +707,11 @@ iab_category
 5
 -
 Education
+"
+icon
+:
+"
+1234
 "
 }
 ]

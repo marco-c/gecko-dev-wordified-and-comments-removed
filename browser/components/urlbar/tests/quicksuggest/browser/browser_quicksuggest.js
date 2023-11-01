@@ -87,6 +87,18 @@ advertiser
 "
 TestAdvertiser
 "
+iab_category
+:
+"
+22
+-
+Shopping
+"
+icon
+:
+"
+1234
+"
 }
 {
 id
@@ -152,7 +164,7 @@ nonsponsored
 advertiser
 :
 "
-TestAdvertiserNonSponsored
+Wikipedia
 "
 iab_category
 :
@@ -160,6 +172,11 @@ iab_category
 5
 -
 Education
+"
+icon
+:
+"
+1234
 "
 }
 ]
@@ -204,7 +221,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
-remoteSettingsResults
+remoteSettingsRecords
 :
 [
 {
@@ -224,7 +241,7 @@ REMOTE_SETTINGS_RESULTS
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -370,7 +387,7 @@ window
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -429,7 +446,7 @@ window
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -665,7 +682,7 @@ cleanUpNimbus
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function

@@ -50,7 +50,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
-remoteSettingsResults
+remoteSettingsRecords
 :
 [
 {
@@ -65,18 +65,6 @@ WEATHER_RS_DATA
 }
 ]
 }
-)
-;
-UrlbarPrefs
-.
-set
-(
-"
-quicksuggest
-.
-enabled
-"
-true
 )
 ;
 await
@@ -2403,7 +2391,7 @@ nimbusValues
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
@@ -2592,7 +2580,7 @@ waitForFetches
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
@@ -2716,7 +2704,7 @@ true
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
@@ -4175,7 +4163,7 @@ nimbusValues
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
@@ -4448,7 +4436,7 @@ waitForFetches
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
