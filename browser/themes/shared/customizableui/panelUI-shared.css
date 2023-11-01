@@ -2978,20 +2978,14 @@ rules
 margin
 :
 0
-!
-important
 ;
 padding
 :
 0
-!
-important
 ;
 appearance
 :
 none
-!
-important
 ;
 }
 :
@@ -3021,8 +3015,6 @@ inline
 end
 :
 8px
-!
-important
 ;
 }
 .
@@ -3043,8 +3035,6 @@ inline
 start
 :
 16px
-!
-important
 ;
 }
 menu
@@ -3211,8 +3201,6 @@ accel
 margin
 :
 0
-!
-important
 ;
 }
 #
