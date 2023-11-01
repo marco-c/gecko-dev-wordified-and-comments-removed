@@ -282,6 +282,7 @@ aReason
 ;
 [
 scriptable
+function
 uuid
 (
 78f7c18e
