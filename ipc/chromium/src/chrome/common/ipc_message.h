@@ -1655,6 +1655,7 @@ bool
 IsFuzzMsg
 (
 )
+const
 {
 return
 isFuzzMsg
