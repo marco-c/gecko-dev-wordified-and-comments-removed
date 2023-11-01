@@ -30,12 +30,6 @@ using
 std
 :
 :
-max
-;
-using
-std
-:
-:
 swap
 ;
 namespace
