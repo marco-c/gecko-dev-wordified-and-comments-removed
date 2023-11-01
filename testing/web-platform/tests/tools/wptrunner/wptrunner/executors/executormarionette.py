@@ -602,7 +602,8 @@ True
 try
 :
                 
-return
+rv
+=
 self
 .
 marionette
@@ -649,6 +650,16 @@ true
 "
 "
 )
+                
+if
+rv
+is
+not
+None
+:
+                    
+return
+rv
             
 except
 errors
