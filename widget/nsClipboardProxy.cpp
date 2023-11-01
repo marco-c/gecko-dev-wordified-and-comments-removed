@@ -253,7 +253,7 @@ AsyncSetData
 (
 int32_t
 aWhichClipboard
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 *
 aCallback
 nsIAsyncSetClipboardData

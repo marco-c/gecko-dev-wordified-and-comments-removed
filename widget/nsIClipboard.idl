@@ -296,7 +296,7 @@ afa1
 )
 ]
 interface
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 :
 nsISupports
 {
@@ -308,15 +308,15 @@ Indicates
 that
 the
 clipboard
-asyncSetData
 request
 has
 either
 succeeded
-or
-*
 been
 canceled
+or
+*
+rejected
 .
 *
 *
@@ -623,7 +623,7 @@ aWhichClipboard
 optional
 ]
 in
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 aCallback
 )
 ;

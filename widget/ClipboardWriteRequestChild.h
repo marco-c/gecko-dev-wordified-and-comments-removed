@@ -41,7 +41,7 @@ NS_DECL_NSIASYNCSETCLIPBOARDDATA
 explicit
 ClipboardWriteRequestChild
 (
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 *
 aCallback
 )
@@ -95,7 +95,7 @@ true
 ;
 nsCOMPtr
 <
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 >
 mCallback
 ;

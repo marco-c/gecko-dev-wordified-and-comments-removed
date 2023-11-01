@@ -3301,7 +3301,7 @@ ClipboardWriteCallback
 final
 :
 public
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 {
 public
 :
@@ -3444,7 +3444,7 @@ mClipboardItem
 NS_IMPL_ISUPPORTS
 (
 ClipboardWriteCallback
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 )
 }
 already_AddRefed

@@ -168,7 +168,7 @@ AsyncSetData
 (
 int32_t
 aWhichClipboard
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 *
 aCallback
 nsIAsyncSetClipboardData
@@ -457,7 +457,7 @@ aClipboardType
 nsBaseClipboard
 *
 aClipboard
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 *
 aCallback
 )
@@ -508,7 +508,7 @@ mClipboard
 ;
 nsCOMPtr
 <
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 >
 mCallback
 ;
