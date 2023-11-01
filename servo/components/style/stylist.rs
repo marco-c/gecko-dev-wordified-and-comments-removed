@@ -4591,7 +4591,6 @@ default
 }
 pseudo
 guards
-None
 parent
 None
 )
@@ -4879,10 +4878,6 @@ originating_element_style
 )
 Some
 (
-originating_element_style
-)
-Some
-(
 element
 )
 )
@@ -4908,13 +4903,6 @@ guards
 :
 &
 StylesheetGuards
-originating_element_style
-:
-Option
-<
-&
-ComputedValues
->
 parent_style
 :
 Option
@@ -4951,7 +4939,6 @@ pseudo
 )
 inputs
 guards
-originating_element_style
 parent_style
 parent_style
 FirstLineReparenting
@@ -4998,13 +4985,6 @@ guards
 :
 &
 StylesheetGuards
-originating_element_style
-:
-Option
-<
-&
-ComputedValues
->
 parent_style
 :
 Option
@@ -5173,7 +5153,6 @@ root
 )
 )
 guards
-originating_element_style
 parent_style
 layout_parent_style
 first_line_reparenting
@@ -6509,7 +6488,6 @@ root
 )
 }
 )
-None
 Some
 (
 parent_style
