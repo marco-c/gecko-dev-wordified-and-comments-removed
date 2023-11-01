@@ -665,6 +665,11 @@ bool
 >
 mVisibleForContentVisibility
 ;
+bool
+mTemporarilyVisibleForScrolledIntoViewDescendant
+=
+false
+;
 nsTHashMap
 <
 RefPtr
