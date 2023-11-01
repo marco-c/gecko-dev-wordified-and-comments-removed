@@ -10229,7 +10229,7 @@ ReftestFission
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -10240,13 +10240,15 @@ reftest
 /
 ReftestFissionParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -10257,7 +10259,9 @@ reftest
 /
 ReftestFissionChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
