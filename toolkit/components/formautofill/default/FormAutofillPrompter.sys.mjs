@@ -5503,10 +5503,10 @@ categories
 :
 [
 "
-tel
-"
-"
 email
+"
+"
+tel
 "
 ]
 }
@@ -5776,10 +5776,10 @@ categories
 :
 [
 "
-tel
-"
-"
 email
+"
+"
+tel
 "
 ]
 }
