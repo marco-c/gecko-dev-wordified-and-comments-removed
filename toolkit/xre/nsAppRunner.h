@@ -182,6 +182,10 @@ extern
 int
 gKioskMonitor
 ;
+extern
+bool
+gAllowContentAnalysis
+;
 namespace
 mozilla
 {
