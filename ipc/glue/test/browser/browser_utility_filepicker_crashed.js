@@ -176,7 +176,7 @@ res
 setTimeout
 (
 res
-500
+1000
 )
 )
 ;
