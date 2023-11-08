@@ -3128,6 +3128,14 @@ weeks
 daysResult
 }
 ;
+MOZ_ASSERT
+(
+IsValidDuration
+(
+duration
+)
+)
+;
 PlainDate
 addedDate
 ;
