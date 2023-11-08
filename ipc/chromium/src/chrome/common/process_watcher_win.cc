@@ -96,7 +96,7 @@ constexpr
 DWORD
 kShutdownWaitMs
 =
-8000
+20000
 ;
 #
 endif
