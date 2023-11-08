@@ -120,10 +120,3 @@ file_upgrade_insecure_server
 sjs
 "
 ]
-[
-"
-browser_fpi_nested_uri
-.
-js
-"
-]
