@@ -167,10 +167,6 @@ PRemotePrintJob
 ;
 include
 protocol
-PLoginReputation
-;
-include
-protocol
 PMedia
 ;
 include
@@ -2834,9 +2830,6 @@ PURLClassifierLocal
 ;
 manages
 PScriptCache
-;
-manages
-PLoginReputation
 ;
 manages
 PSessionStorageObserver
@@ -6318,14 +6311,6 @@ IPCURLClassifierFeature
 [
 ]
 features
-)
-;
-async
-PLoginReputation
-(
-nullable
-nsIURI
-formURI
 )
 ;
 async
