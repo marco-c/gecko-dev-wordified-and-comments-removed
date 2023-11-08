@@ -425,6 +425,9 @@ class
 WeakFrame
 ;
 class
+nsTextFrame
+;
+class
 ZoomConstraintsClient
 ;
 struct
@@ -486,6 +489,9 @@ HTMLSlotElement
 ;
 class
 Selection
+;
+class
+PerformanceMainThread
 ;
 }
 namespace

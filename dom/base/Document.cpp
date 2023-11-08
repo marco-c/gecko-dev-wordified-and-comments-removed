@@ -14007,6 +14007,10 @@ mFrameRequestManager
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
+mContentIdentifiersForLCP
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
 mPreloadingImages
 )
 if
@@ -14595,6 +14599,11 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mPreloadReferrerInfo
 )
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mContentIdentifiersForLCP
+)
+;
 if
 (
 tmp
