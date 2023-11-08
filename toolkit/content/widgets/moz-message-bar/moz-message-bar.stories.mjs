@@ -170,7 +170,6 @@ title
 UI
 Widgets
 /
-Moz
 Message
 Bar
 "
@@ -260,7 +259,7 @@ parameters
 status
 :
 "
-unstable
+stable
 "
 fluent
 :
