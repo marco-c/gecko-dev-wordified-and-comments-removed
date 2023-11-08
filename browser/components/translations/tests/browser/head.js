@@ -2253,6 +2253,11 @@ button
 }
 )
 ;
+if
+(
+downloadHandler
+)
+{
 await
 assertTranslationsButton
 (
@@ -2281,11 +2286,6 @@ indicator
 "
 )
 ;
-if
-(
-downloadHandler
-)
-{
 await
 downloadHandler
 (
