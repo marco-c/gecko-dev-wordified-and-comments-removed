@@ -307,6 +307,9 @@ z
 "
 HEAD
 "
+os
+.
+curdir
 ]
         
 data
