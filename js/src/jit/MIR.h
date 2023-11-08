@@ -14708,6 +14708,16 @@ ins
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 AliasSet
 getAliasSet
 (
