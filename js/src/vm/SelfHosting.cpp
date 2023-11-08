@@ -14208,6 +14208,15 @@ intl_isDefaultTimeZone
 JS_FN
 (
 "
+intl_isIgnorePunctuation
+"
+intl_isIgnorePunctuation
+1
+0
+)
+JS_FN
+(
+"
 intl_isUpperCaseFirst
 "
 intl_isUpperCaseFirst
