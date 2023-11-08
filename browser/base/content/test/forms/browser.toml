@@ -13,6 +13,17 @@ delay
 =
 0
 "
+"
+dom
+.
+select
+.
+showPicker
+.
+enabled
+=
+true
+"
 ]
 support
 -
