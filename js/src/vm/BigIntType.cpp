@@ -7832,10 +7832,6 @@ x
 heapDigits_
 oldLength
 newLength
-js
-:
-:
-MallocArena
 )
 ;
 if
