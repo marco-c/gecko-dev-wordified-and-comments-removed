@@ -281,6 +281,12 @@ MemoryDistribution
 \
 _
 (
+GC_PARALLEL_MARK
+Boolean
+)
+\
+_
+(
 GC_PARALLEL_MARK_SPEEDUP
 Integer
 )
