@@ -82,7 +82,7 @@ HasTab
 HasShy
 =
 0x02
-UnusedFlags
+HasNewline
 =
 0x04
 DontSkipDrawingForPendingUserFonts

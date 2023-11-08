@@ -9593,6 +9593,7 @@ mFlags2
 (
 HasTab
 HasShy
+HasNewline
 DontSkipDrawingForPendingUserFonts
 IsSimpleFlow
 IncomingWhitespace
