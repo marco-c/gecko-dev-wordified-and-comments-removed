@@ -207,11 +207,6 @@ SPLIT_CONSOLE_CLOSE_BUTTON_TOGGLE
 "
 SPLIT_CONSOLE_CLOSE_BUTTON_TOGGLE
 "
-SHOW_EVALUATION_NOTIFICATION
-:
-"
-SHOW_EVALUATION_NOTIFICATION
-"
 TARGET_MESSAGES_REMOVE
 :
 "
@@ -882,17 +877,6 @@ helpers
 "
 }
 ;
-const
-evaluationNotifications
-=
-{
-ORIGINAL_VARIABLE_MAPPING
-:
-"
-originalVariableMapping
-"
-}
-;
 module
 .
 exports
@@ -926,7 +910,5 @@ jstermCommands
 prefs
 historyCommands
 urls
-historyCommands
-evaluationNotifications
 )
 ;

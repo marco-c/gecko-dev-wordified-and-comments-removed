@@ -84,11 +84,6 @@ EvaluationContextSelector
 js
 "
 "
-EvaluationNotification
-.
-js
-"
-"
 JSTerm
 .
 js
