@@ -14494,13 +14494,8 @@ Value
 vp
 )
 ;
+static
 bool
-js
-:
-:
-temporal
-:
-:
 CalendarDateUntil
 (
 JSContext
