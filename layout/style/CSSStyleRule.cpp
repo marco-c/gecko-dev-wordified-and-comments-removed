@@ -1476,6 +1476,12 @@ kind
 "
 )
 ;
+return
+SelectorWarningKind
+:
+:
+UnconstrainedHas
+;
 }
 void
 CSSStyleRule
