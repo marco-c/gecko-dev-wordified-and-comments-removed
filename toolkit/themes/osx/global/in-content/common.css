@@ -142,10 +142,6 @@ static
 }
 xul
 |
-menulist
->
-xul
-|
 menupopup
 >
 xul
@@ -154,10 +150,6 @@ menuitem
 :
 :
 after
-xul
-|
-menulist
->
 xul
 |
 menupopup
@@ -169,7 +161,7 @@ menuitem
 :
 before
 {
-display
+content
 :
 none
 ;
