@@ -1133,7 +1133,6 @@ return
 mHasMAC
 ;
 }
-;
 void
 GetAsString
 (
