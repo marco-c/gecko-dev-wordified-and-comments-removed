@@ -7915,10 +7915,9 @@ allocator_
 {
 if
 (
-bool
-(
+!
+!
 callable
-)
 )
 {
 assign
@@ -8611,10 +8610,9 @@ callable
 {
 if
 (
-bool
-(
+!
+!
 callable
-)
 )
 {
 assign
