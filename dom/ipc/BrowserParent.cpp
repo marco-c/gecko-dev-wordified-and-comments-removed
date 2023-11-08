@@ -6763,17 +6763,6 @@ docURI
 SchemeIs
 (
 "
-about
-"
-)
-|
-|
-docURI
--
->
-SchemeIs
-(
-"
 blob
 "
 )

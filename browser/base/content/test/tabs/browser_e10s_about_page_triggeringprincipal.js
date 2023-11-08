@@ -65,6 +65,12 @@ Ci
 nsIAboutModule
 .
 ALLOW_SCRIPT
+|
+Ci
+.
+nsIAboutModule
+.
+URI_SAFE_FOR_UNTRUSTED_CONTENT
 )
 BrowserTestUtils
 .
