@@ -40,7 +40,7 @@ exec
 newRope
 (
 "
-abcd
+abcdefghijklmnopqrstuvw
 "
 "
 xyz
@@ -51,7 +51,7 @@ xyz
 1
 ]
 "
-dxy
+defghijklmnopqrstuvwxy
 "
 )
 ;
@@ -64,7 +64,7 @@ test
 newRope
 (
 "
-abcd
+abcdefghijklmnopqrstuvw
 "
 "
 xyz
@@ -87,7 +87,7 @@ newRope
 (
 "
 .
-abcd
+abcdefghijklmnopqrstuvw
 "
 "
 xyz
@@ -109,7 +109,7 @@ match
 newRope
 (
 "
-abcd
+abcdefghijklmnopqrstuvw
 "
 "
 xyz
@@ -120,7 +120,7 @@ xyz
 1
 ]
 "
-dxy
+defghijklmnopqrstuvwxy
 "
 )
 ;
