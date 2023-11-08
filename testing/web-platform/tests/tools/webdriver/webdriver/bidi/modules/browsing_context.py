@@ -39,14 +39,6 @@ Mapping
 str
 Any
 ]
-scroll_into_view
-:
-Optional
-[
-bool
-]
-=
-None
     
 )
 :
@@ -70,22 +62,6 @@ element
 ]
 =
 element
-        
-if
-scroll_into_view
-is
-not
-None
-:
-            
-self
-[
-"
-scrollIntoView
-"
-]
-=
-scroll_into_view
 class
 BoxOptions
 (
