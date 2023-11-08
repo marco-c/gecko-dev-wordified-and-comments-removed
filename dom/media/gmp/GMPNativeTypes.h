@@ -13,7 +13,6 @@ Fake
 Clearkey
 OpenH264
 Widevine
-WidevineL1
 }
 ;
 #

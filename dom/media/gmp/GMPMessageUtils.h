@@ -83,7 +83,7 @@ Unknown
 GMPPluginType
 :
 :
-WidevineL1
+Widevine
 >
 {
 }
