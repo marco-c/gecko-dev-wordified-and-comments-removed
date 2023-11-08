@@ -363,7 +363,7 @@ Time
 between
 firstContentfulPaint
 and
-naviationStart
+navigationStart
 in
 ms
 .

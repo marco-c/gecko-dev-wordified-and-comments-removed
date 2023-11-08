@@ -729,6 +729,8 @@ LCPImageEntryKey
 >
 &
 aLCPImageEntryKey
+bool
+aShouldExposeRenderTime
 )
 ;
 JSObject
@@ -896,6 +898,11 @@ LargestContentfulPaint
 =
 default
 ;
+void
+ReportLCPToNavigationTimings
+(
+)
+;
 RefPtr
 <
 PerformanceMainThread
@@ -907,6 +914,10 @@ mRenderTime
 ;
 DOMHighResTimeStamp
 mLoadTime
+;
+const
+bool
+mShouldExposeRenderTime
 ;
 unsigned
 long
