@@ -1078,6 +1078,7 @@ this
 browsingContext
 .
 embedderElement
+?
 .
 ownerGlobal
 ;
@@ -1302,6 +1303,7 @@ this
 .
 #
 ownerGlobal
+?
 .
 gBrowser
 .
@@ -1330,6 +1332,7 @@ this
 .
 #
 ownerGlobal
+?
 .
 gBrowser
 .
