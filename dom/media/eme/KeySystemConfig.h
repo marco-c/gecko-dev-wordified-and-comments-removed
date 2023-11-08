@@ -808,12 +808,17 @@ KeySystemConfig
 =
 default
 ;
+#
+ifdef
+DEBUG
 nsString
 GetDebugInfo
 (
 )
 const
 ;
+#
+endif
 bool
 IsSameKeySystem
 (

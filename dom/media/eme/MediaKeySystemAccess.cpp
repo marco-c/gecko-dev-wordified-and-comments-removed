@@ -3692,6 +3692,9 @@ char
 aDeprecationLogFn
 )
 {
+#
+ifdef
+DEBUG
 EME_LOG
 (
 "
@@ -3732,6 +3735,8 @@ get
 )
 )
 ;
+#
+endif
 MediaKeySystemConfiguration
 config
 ;
