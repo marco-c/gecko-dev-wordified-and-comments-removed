@@ -126,9 +126,6 @@ inherit
 button
 :
 hover
-button
-:
-focus
 {
 background
 -
@@ -155,13 +152,6 @@ dark
 button
 :
 hover
-.
-theme
--
-dark
-button
-:
-focus
 {
 background
 -

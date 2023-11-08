@@ -2152,8 +2152,6 @@ getBoundingClientRect
 )
 .
 width
-+
-2
 ;
 if
 (
