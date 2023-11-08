@@ -575,7 +575,12 @@ if
 !
 AppConstants
 .
-TSAN
+platform
+!
+=
+"
+linux
+"
 )
 {
 await
