@@ -1,9 +1,4 @@
 const
-arg
-=
-1118
-;
-const
 numbers
 =
 [
@@ -39,9 +34,13 @@ from
 (
 arg
 )
-"
 A
 number
+(
+{
+arg
+}
+)
 is
 not
 a
@@ -50,7 +49,6 @@ ISO
 string
 for
 PlainMonthDay
-"
 )
 ;
 }

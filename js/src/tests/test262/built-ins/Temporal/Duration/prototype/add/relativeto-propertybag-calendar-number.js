@@ -78,9 +78,13 @@ Duration
 relativeTo
 }
 )
-"
 A
 number
+(
+{
+calendar
+}
+)
 is
 not
 a
@@ -91,7 +95,6 @@ for
 relativeTo
 .
 calendar
-"
 )
 ;
 }

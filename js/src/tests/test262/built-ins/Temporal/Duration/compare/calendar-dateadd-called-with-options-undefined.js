@@ -61,6 +61,7 @@ Duration
 0
 0
 1
+1
 )
 ;
 Temporal
@@ -83,7 +84,7 @@ sameValue
 calendar
 .
 dateAddCallCount
-4
+2
 )
 ;
 reportCompare

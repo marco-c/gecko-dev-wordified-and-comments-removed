@@ -50,9 +50,13 @@ PlainTime
 321
 )
 )
-"
 A
 number
+(
+{
+arg
+}
+)
 is
 not
 a
@@ -65,7 +69,6 @@ PlainTime
 first
 argument
 )
-"
 )
 ;
 assert
@@ -97,9 +100,13 @@ PlainTime
 )
 arg
 )
-"
 A
 number
+(
+{
+arg
+}
+)
 is
 not
 a
@@ -112,7 +119,6 @@ PlainTime
 second
 argument
 )
-"
 )
 ;
 }

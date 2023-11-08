@@ -66,7 +66,7 @@ i
 ;
 yield
 "
-hour
+day
 "
 ;
 i

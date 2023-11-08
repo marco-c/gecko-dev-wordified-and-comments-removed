@@ -105,6 +105,7 @@ Temporal
 .
 Duration
 (
+1
 )
 new
 Temporal
@@ -215,6 +216,7 @@ Temporal
 .
 Duration
 (
+1
 )
 new
 Temporal

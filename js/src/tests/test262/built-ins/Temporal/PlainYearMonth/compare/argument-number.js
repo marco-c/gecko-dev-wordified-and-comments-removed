@@ -47,9 +47,13 @@ PlainYearMonth
 6
 )
 )
-"
 A
 number
+(
+{
+arg
+}
+)
 is
 not
 a
@@ -62,7 +66,6 @@ PlainYearMonth
 first
 argument
 )
-"
 )
 ;
 assert
@@ -90,9 +93,13 @@ PlainYearMonth
 )
 arg
 )
-"
 A
 number
+(
+{
+arg
+}
+)
 is
 not
 a
@@ -105,7 +112,6 @@ PlainYearMonth
 first
 argument
 )
-"
 )
 ;
 }

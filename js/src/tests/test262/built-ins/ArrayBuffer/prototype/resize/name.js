@@ -17,7 +17,7 @@ resize
 enumerable
 :
 false
-wrtiable
+writable
 :
 false
 configurable

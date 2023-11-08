@@ -344,10 +344,6 @@ construct
 MyArray
 "
 "
-construct
-MyArray
-"
-"
 defineProperty
 A
 [
