@@ -385,6 +385,17 @@ else
 false
 #
 endif
+MOZ_WMF_CDM
+:
+#
+ifdef
+MOZ_WMF_CDM
+true
+#
+else
+false
+#
+endif
 XP_UNIX
 :
 #
