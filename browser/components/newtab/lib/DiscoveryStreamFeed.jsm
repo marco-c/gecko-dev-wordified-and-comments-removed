@@ -6713,11 +6713,6 @@ this
 config
 .
 enabled
-&
-&
-this
-.
-loaded
 )
 {
 this
