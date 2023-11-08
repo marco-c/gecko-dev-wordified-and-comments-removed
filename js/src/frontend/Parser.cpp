@@ -2206,7 +2206,7 @@ stmtList
 =
 handler_
 .
-asList
+asListNode
 (
 node
 )
@@ -9076,7 +9076,7 @@ body
 =
 handler_
 .
-asLexicalScope
+asLexicalScopeNode
 (
 node
 )
@@ -12538,7 +12538,7 @@ prependInitialYield
 (
 handler_
 .
-asList
+asListNode
 (
 body
 )
@@ -21212,7 +21212,7 @@ addShorthand
 literal
 handler_
 .
-asName
+asNameNode
 (
 propName
 )
@@ -28757,7 +28757,7 @@ checkExportedNameForFunction
 (
 handler_
 .
-asFunction
+asFunctionNode
 (
 kid
 )
@@ -54109,7 +54109,7 @@ checkDestructuringAssignmentName
 (
 handler_
 .
-asName
+asNameNode
 (
 expr
 )
@@ -57057,7 +57057,7 @@ addShorthand
 literal
 handler_
 .
-asName
+asNameNode
 (
 propName
 )
@@ -57980,7 +57980,7 @@ addShorthand
 literal
 handler_
 .
-asName
+asNameNode
 (
 propName
 )
