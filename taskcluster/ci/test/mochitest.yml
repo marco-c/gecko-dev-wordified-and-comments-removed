@@ -1081,6 +1081,13 @@ linux
 opt
 :
 8
+windows
+.
+*
+/
+debug
+:
+8
 default
 :
 5
