@@ -507,7 +507,7 @@ defineLazyGetter
 (
 lazy
 "
-pluginsBundle
+addonsBundle
 "
 (
 )
@@ -522,7 +522,7 @@ toolkit
 /
 about
 /
-aboutPlugins
+aboutAddons
 .
 ftl
 "
@@ -1206,7 +1206,7 @@ textContent
 =
 lazy
 .
-pluginsBundle
+addonsBundle
 .
 formatValueSync
 (
@@ -4702,7 +4702,7 @@ name
 :
 lazy
 .
-pluginsBundle
+addonsBundle
 .
 formatValueSync
 (
@@ -4714,7 +4714,7 @@ description
 :
 lazy
 .
-pluginsBundle
+addonsBundle
 .
 formatValueSync
 (

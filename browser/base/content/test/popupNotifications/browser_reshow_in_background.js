@@ -20,7 +20,7 @@ addTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -50,7 +50,7 @@ addTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -117,7 +117,7 @@ notification
 "
 "
 "
-plugins
+geo
 -
 notification
 -

@@ -357,9 +357,6 @@ loginsimportreport
 performance
 "
 "
-plugins
-"
-"
 policies
 "
 "

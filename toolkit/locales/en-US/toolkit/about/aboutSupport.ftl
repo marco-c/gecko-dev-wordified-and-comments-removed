@@ -530,16 +530,6 @@ app
 -
 basics
 -
-enabled
--
-plugins
-=
-Enabled
-Plugins
-app
--
-basics
--
 build
 -
 config
