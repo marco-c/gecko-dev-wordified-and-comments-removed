@@ -5582,6 +5582,7 @@ make_current
 )
 ;
 let
+mut
 gl
 =
 unsafe
