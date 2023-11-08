@@ -177,9 +177,14 @@ LOAD_ORIGINAL_SOURCE_TEXT
 )
 ;
 await
-waitForPaused
+waitForPausedInOriginalFileAndToggleMapScopes
 (
 dbg
+"
+entry
+.
+js
+"
 )
 ;
 await

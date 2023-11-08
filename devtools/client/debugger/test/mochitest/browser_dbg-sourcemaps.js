@@ -431,7 +431,7 @@ keepMeAlive
 )
 ;
 await
-waitForPaused
+waitForPausedInOriginalFileAndToggleMapScopes
 (
 dbg
 )

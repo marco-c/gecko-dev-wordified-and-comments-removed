@@ -76,13 +76,7 @@ keepMeAlive
 )
 ;
 await
-waitForPaused
-(
-dbg
-)
-;
-await
-waitForSelectedSource
+waitForPausedInOriginalFileAndToggleMapScopes
 (
 dbg
 "
