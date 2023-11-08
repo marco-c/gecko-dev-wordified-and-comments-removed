@@ -1480,16 +1480,6 @@ browser
 /
 extensions
 /
-pictureinpicture
-/
-*
-*
-"
-"
-browser
-/
-extensions
-/
 screenshots
 /
 *
