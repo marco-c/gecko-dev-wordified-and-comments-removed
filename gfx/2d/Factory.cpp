@@ -3174,10 +3174,6 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
-const
-DeviceColor
-&
-aFontSmoothingBackgroundColor
 bool
 aUseFontSmoothing
 bool
@@ -3196,7 +3192,6 @@ aCGFont
 aUnscaledFont
 aSize
 false
-aFontSmoothingBackgroundColor
 aUseFontSmoothing
 aApplySyntheticBold
 aHasColorGlyphs

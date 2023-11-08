@@ -340,9 +340,6 @@ mCoreTextShaper
 Metrics
 mMetrics
 ;
-nscolor
-mFontSmoothingBackgroundColor
-;
 bool
 mVariationFont
 ;

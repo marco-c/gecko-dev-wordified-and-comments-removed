@@ -2157,11 +2157,6 @@ PremultipliedDestOut
 BlendMode
 :
 :
-SubpixelWithBgColor
-|
-BlendMode
-:
-:
 Screen
 |
 BlendMode

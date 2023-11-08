@@ -535,9 +535,6 @@ baselineOffset
 uint32_t
 languageOverride
 ;
-nscolor
-fontSmoothingBackgroundColor
-;
 FontWeight
 weight
 ;
@@ -1022,16 +1019,6 @@ autoOpticalSize
 other
 .
 autoOpticalSize
-)
-&
-&
-(
-fontSmoothingBackgroundColor
-=
-=
-other
-.
-fontSmoothingBackgroundColor
 )
 ;
 }

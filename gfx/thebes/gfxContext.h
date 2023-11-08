@@ -1883,9 +1883,6 @@ patternTransformChanged
 Matrix
 patternTransform
 ;
-DeviceColor
-fontSmoothingBackgroundColor
-;
 Point
 deviceOffset
 ;

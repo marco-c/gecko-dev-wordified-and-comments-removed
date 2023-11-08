@@ -111,12 +111,6 @@ AbsoluteColor
 ;
 pub
 type
-MozFontSmoothingBackgroundColor
-=
-AbsoluteColor
-;
-pub
-type
 Color
 =
 GenericColor
