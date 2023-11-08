@@ -1042,6 +1042,15 @@ toggle
 "
 )
 ;
+gToggle
+.
+label
+=
+"
+Test
+label
+"
+;
 gMainView
 .
 appendChild
