@@ -1477,6 +1477,7 @@ public
 enum
 DeferredFinalizeType
 {
+FinalizeLater
 FinalizeIncrementally
 FinalizeNow
 }
