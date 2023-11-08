@@ -2476,6 +2476,8 @@ new_capacity
 }
 #
 endif
+MOZ_ALWAYS_TRUE
+(
 buffers_
 .
 WriteBytesZeroCopy
@@ -2490,6 +2492,7 @@ data
 )
 data_len
 new_capacity
+)
 )
 ;
 EndWrite
