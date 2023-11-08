@@ -1053,10 +1053,6 @@ zone
 )
 cell
 nbytes
-js
-:
-:
-MallocArena
 )
 )
 ;
@@ -1103,8 +1099,6 @@ uint32_t
 oldCount
 uint32_t
 newCount
-arena_id_t
-arenaId
 )
 {
 size_t
@@ -1170,7 +1164,6 @@ cell
 oldBuffer
 oldBytes
 newBytes
-arenaId
 )
 )
 ;

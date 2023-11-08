@@ -455,6 +455,17 @@ other
 =
 delete
 ;
+bool
+baseIsInline
+(
+Handle
+<
+JSLinearString
+*
+>
+linearString
+)
+;
 template
 <
 typename
