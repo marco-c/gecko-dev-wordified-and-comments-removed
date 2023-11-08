@@ -101,7 +101,6 @@ final
 String
 mGeckoName
 ;
-private
 GeckoProcessType
 (
 final

@@ -774,7 +774,6 @@ final
 int
 mRank
 ;
-private
 State
 (
 final
@@ -14847,7 +14846,6 @@ public
 interface
 ProgressDelegate
 {
-public
 class
 SecurityInformation
 {
@@ -16834,8 +16832,6 @@ session
 )
 {
 }
-public
-static
 class
 ContextElement
 {
@@ -17399,7 +17395,6 @@ public
 interface
 SelectionActionDelegate
 {
-final
 int
 FLAG_IS_COLLAPSED
 =
@@ -17408,7 +17403,6 @@ FLAG_IS_COLLAPSED
 <
 0
 ;
-final
 int
 FLAG_IS_EDITABLE
 =
@@ -17417,7 +17411,6 @@ FLAG_IS_EDITABLE
 <
 1
 ;
-final
 int
 FLAG_IS_PASSWORD
 =
@@ -17426,7 +17419,6 @@ FLAG_IS_PASSWORD
 <
 2
 ;
-final
 String
 ACTION_HIDE
 =
@@ -17440,7 +17432,6 @@ geckoview
 HIDE
 "
 ;
-final
 String
 ACTION_CUT
 =
@@ -17454,7 +17445,6 @@ geckoview
 CUT
 "
 ;
-final
 String
 ACTION_COPY
 =
@@ -17468,7 +17458,6 @@ geckoview
 COPY
 "
 ;
-final
 String
 ACTION_DELETE
 =
@@ -17482,7 +17471,6 @@ geckoview
 DELETE
 "
 ;
-final
 String
 ACTION_PASTE
 =
@@ -17496,7 +17484,6 @@ geckoview
 PASTE
 "
 ;
-final
 String
 ACTION_PASTE_AS_PLAIN_TEXT
 =
@@ -17510,7 +17497,6 @@ geckoview
 PASTE_AS_PLAIN_TEXT
 "
 ;
-final
 String
 ACTION_SELECT_ALL
 =
@@ -17524,7 +17510,6 @@ geckoview
 SELECT_ALL
 "
 ;
-final
 String
 ACTION_UNSELECT
 =
@@ -17538,7 +17523,6 @@ geckoview
 UNSELECT
 "
 ;
-final
 String
 ACTION_COLLAPSE_TO_START
 =
@@ -17552,7 +17536,6 @@ geckoview
 COLLAPSE_TO_START
 "
 ;
-final
 String
 ACTION_COLLAPSE_TO_END
 =
@@ -18046,25 +18029,21 @@ selection
 )
 {
 }
-final
 int
 HIDE_REASON_NO_SELECTION
 =
 0
 ;
-final
 int
 HIDE_REASON_INVISIBLE_SELECTION
 =
 1
 ;
-final
 int
 HIDE_REASON_ACTIVE_SELECTION
 =
 2
 ;
-final
 int
 HIDE_REASON_ACTIVE_SCROLL
 =
@@ -18091,7 +18070,6 @@ PERMISSION_CLIPBOARD_READ
 =
 1
 ;
-public
 class
 ClipboardPermission
 {
@@ -18400,39 +18378,26 @@ canGoForward
 )
 {
 }
-public
-static
-final
 int
 TARGET_WINDOW_NONE
 =
 0
 ;
-public
-static
-final
 int
 TARGET_WINDOW_CURRENT
 =
 1
 ;
-public
-static
-final
 int
 TARGET_WINDOW_NEW
 =
 2
 ;
-static
-final
 int
 LOAD_REQUEST_IS_REDIRECT
 =
 0x800000
 ;
-public
-static
 class
 LoadRequest
 {
@@ -18826,7 +18791,6 @@ public
 interface
 PromptDelegate
 {
-public
 class
 PromptResponse
 {
@@ -18920,7 +18884,6 @@ prompt
 {
 }
 }
-public
 class
 BasePrompt
 {
@@ -19395,7 +19358,6 @@ confirm
 ;
 }
 }
-public
 class
 AlertPrompt
 extends
@@ -19443,7 +19405,6 @@ message
 ;
 }
 }
-public
 final
 class
 IdentityCredential
@@ -20380,7 +20341,6 @@ confirm
 }
 }
 }
-public
 class
 ButtonPrompt
 extends
@@ -20510,7 +20470,6 @@ confirm
 ;
 }
 }
-public
 class
 TextPrompt
 extends
@@ -20606,7 +20565,6 @@ confirm
 ;
 }
 }
-public
 class
 AuthPrompt
 extends
@@ -21044,7 +21002,6 @@ confirm
 ;
 }
 }
-public
 class
 ChoicePrompt
 extends
@@ -21692,7 +21649,6 @@ ids
 ;
 }
 }
-public
 class
 ColorPrompt
 extends
@@ -21792,7 +21748,6 @@ confirm
 ;
 }
 }
-public
 class
 DateTimePrompt
 extends
@@ -22064,7 +22019,6 @@ confirm
 ;
 }
 }
-public
 class
 FilePrompt
 extends
@@ -22655,7 +22609,6 @@ null
 ;
 }
 }
-public
 class
 PopupPrompt
 extends
@@ -22742,7 +22695,6 @@ confirm
 ;
 }
 }
-public
 class
 SharePrompt
 extends
@@ -22929,7 +22881,6 @@ dismiss
 ;
 }
 }
-public
 class
 AutocompleteRequest
 <
@@ -27167,7 +27118,6 @@ public
 interface
 HistoryDelegate
 {
-public
 interface
 HistoryItem
 {
@@ -27226,7 +27176,6 @@ object
 ;
 }
 }
-public
 interface
 HistoryList
 extends
@@ -27262,7 +27211,6 @@ object
 ;
 }
 }
-final
 int
 VISIT_TOP_LEVEL
 =
@@ -27271,7 +27219,6 @@ VISIT_TOP_LEVEL
 <
 0
 ;
-final
 int
 VISIT_REDIRECT_TEMPORARY
 =
@@ -27280,7 +27227,6 @@ VISIT_REDIRECT_TEMPORARY
 <
 1
 ;
-final
 int
 VISIT_REDIRECT_PERMANENT
 =
@@ -27289,7 +27235,6 @@ VISIT_REDIRECT_PERMANENT
 <
 2
 ;
-final
 int
 VISIT_REDIRECT_SOURCE
 =
@@ -27298,7 +27243,6 @@ VISIT_REDIRECT_SOURCE
 <
 3
 ;
-final
 int
 VISIT_REDIRECT_SOURCE_PERMANENT
 =
@@ -27307,7 +27251,6 @@ VISIT_REDIRECT_SOURCE_PERMANENT
 <
 4
 ;
-final
 int
 VISIT_UNRECOVERABLE_ERROR
 =

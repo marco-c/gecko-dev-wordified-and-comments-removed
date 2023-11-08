@@ -22,7 +22,6 @@ IXPCOMEventTarget
 extends
 Executor
 {
-public
 boolean
 isOnCurrentThread
 (

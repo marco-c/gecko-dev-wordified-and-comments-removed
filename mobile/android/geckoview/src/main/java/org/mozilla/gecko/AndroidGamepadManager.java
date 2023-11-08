@@ -115,7 +115,6 @@ POLL_TIMER_PERIOD
 1000
 ;
 private
-static
 enum
 Axis
 {
@@ -149,7 +148,6 @@ final
 int
 axis
 ;
-private
 Axis
 (
 final
@@ -166,7 +164,6 @@ axis
 }
 }
 private
-static
 enum
 Trigger
 {
@@ -184,7 +181,6 @@ final
 int
 button
 ;
-private
 Trigger
 (
 final
@@ -209,7 +205,6 @@ FIRST_DPAD_BUTTON
 12
 ;
 private
-static
 enum
 DpadAxis
 {
@@ -245,7 +240,6 @@ final
 int
 positiveButton
 ;
-private
 DpadAxis
 (
 final
@@ -280,7 +274,6 @@ positiveButton
 }
 }
 private
-static
 enum
 Button
 {
@@ -386,7 +379,6 @@ final
 int
 button
 ;
-private
 Button
 (
 final

@@ -247,7 +247,6 @@ return
 result
 ;
 }
-public
 class
 ExperimentException
 extends

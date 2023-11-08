@@ -356,7 +356,6 @@ final
 int
 mRank
 ;
-private
 State
 (
 final

@@ -209,7 +209,6 @@ Q
 }
 WrapForJNI
 public
-static
 enum
 PriorityLevel
 {
@@ -235,7 +234,6 @@ final
 int
 mAndroidFlag
 ;
-private
 PriorityLevel
 (
 final
