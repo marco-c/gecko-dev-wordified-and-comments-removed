@@ -815,9 +815,11 @@ optionally_keyed_by
 (
                 
 "
-release
+hardened
 -
-level
+signing
+-
+type
 "
                 
 [

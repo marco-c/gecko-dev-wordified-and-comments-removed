@@ -6993,9 +6993,11 @@ config
 :
 by
 -
-release
+hardened
 -
-level
+signing
+-
+type
 :
 production
 :
