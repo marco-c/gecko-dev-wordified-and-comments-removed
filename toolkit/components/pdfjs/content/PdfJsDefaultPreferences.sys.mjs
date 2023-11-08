@@ -258,11 +258,6 @@ textLayerMode
 :
 1
 "
-viewerCssTheme
-"
-:
-0
-"
 viewOnLoad
 "
 :
