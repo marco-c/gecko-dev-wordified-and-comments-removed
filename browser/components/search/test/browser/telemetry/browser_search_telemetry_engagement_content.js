@@ -53,11 +53,13 @@ searchTelemetryAd_searchbox_with_content
 .
 html
 /
-queryParamName
+queryParamNames
 :
+[
 "
 s
 "
+]
 codeParamName
 :
 "

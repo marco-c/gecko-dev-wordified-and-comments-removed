@@ -51,11 +51,13 @@ telemetry
 /
 searchTelemetry
 /
-queryParamName
+queryParamNames
 :
+[
 "
 s
 "
+]
 codeParamName
 :
 "
