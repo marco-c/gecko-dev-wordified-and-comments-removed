@@ -164,6 +164,13 @@ js
 ]
 [
 "
+browser_translations_panel_engine_destroy
+.
+js
+"
+]
+[
+"
 browser_translations_panel_engine_unsupported
 .
 js
