@@ -134,12 +134,6 @@ WebTransportSendStream
 :
 WritableStream
 {
-attribute
-long
-long
-?
-sendOrder
-;
 Promise
 <
 WebTransportSendStreamStats
