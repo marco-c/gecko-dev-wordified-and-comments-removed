@@ -510,7 +510,7 @@ lazy
 .
 SearchUtils
 .
-SETTINGS_KEY
+NEW_SETTINGS_KEY
 )
 ;
 this
