@@ -12624,7 +12624,9 @@ changed
 param
 {
 boolean
+|
 number
+|
 string
 }
 prefValue
@@ -12705,7 +12707,9 @@ changed
 param
 {
 boolean
+|
 number
+|
 string
 }
 prefValue
@@ -13170,7 +13174,7 @@ change
 *
 param
 {
-array
+Array
 }
 allowList
 *
@@ -13191,7 +13195,7 @@ permission
 *
 param
 {
-array
+Array
 }
 blockList
 *
@@ -13685,7 +13689,9 @@ value
 changes
 *
 returns
+{
 Promise
+}
 *
 A
 promise
