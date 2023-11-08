@@ -1651,6 +1651,13 @@ fetch
 "
 )
 ;
+await
+QuickSuggestTestUtils
+.
+forceSync
+(
+)
+;
 }
 add_task
 (

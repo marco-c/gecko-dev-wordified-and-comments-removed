@@ -344,6 +344,15 @@ unregister
 this
 )
 ;
+this
+.
+#
+suggestionsMap
+.
+clear
+(
+)
+;
 }
 }
 queryRemoteSettings

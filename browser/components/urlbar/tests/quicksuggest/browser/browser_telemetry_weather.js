@@ -247,6 +247,13 @@ weather
 await
 fetchPromise
 ;
+await
+QuickSuggestTestUtils
+.
+forceSync
+(
+)
+;
 }
 }
 impressionOnly
