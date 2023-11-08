@@ -4737,6 +4737,12 @@ GetImageFromStyle
 >
 GetResolution
 (
+*
+aFrame
+.
+Style
+(
+)
 )
 )
 ;

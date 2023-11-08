@@ -18983,6 +18983,7 @@ image
 .
 GetResolution
 (
+style
 )
 loading
 }

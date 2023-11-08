@@ -5558,6 +5558,9 @@ StyleImage
 :
 GetResolution
 (
+const
+ComputedStyle
+&
 )
 const
 ;

@@ -4855,6 +4855,9 @@ image
 ImageResolution
 GetResolution
 (
+const
+ComputedStyle
+&
 )
 const
 ;
