@@ -149,6 +149,16 @@ icon
 .
 png
 "
+|
+|
+fileName
+.
+startsWith
+(
+"
+_
+"
+)
 )
 {
 continue
