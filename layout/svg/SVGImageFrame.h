@@ -503,6 +503,15 @@ IgnoreHitTest
 )
 const
 ;
+already_AddRefed
+<
+imgIRequest
+>
+GetCurrentRequest
+(
+)
+const
+;
 gfx
 :
 :

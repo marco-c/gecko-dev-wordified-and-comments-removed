@@ -880,6 +880,11 @@ LayoutMessageUtils
 h
 "
 "
+nsVideoFrame
+.
+h
+"
+"
 PrintedSheetFrame
 .
 h
