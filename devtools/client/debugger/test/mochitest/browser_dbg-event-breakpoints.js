@@ -1370,7 +1370,9 @@ pane
 .
 _header
 .
-arrow
+header
+-
+label
 )
 .
 click
