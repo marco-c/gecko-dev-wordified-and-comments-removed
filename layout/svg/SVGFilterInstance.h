@@ -253,15 +253,6 @@ const
 ;
 private
 :
-SVGFilterFrame
-*
-GetFilterFrame
-(
-nsIFrame
-*
-aTargetFrame
-)
-;
 IntRect
 ComputeFilterPrimitiveSubregion
 (
