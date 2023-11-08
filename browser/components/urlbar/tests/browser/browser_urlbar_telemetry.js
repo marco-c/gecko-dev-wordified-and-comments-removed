@@ -4505,11 +4505,13 @@ example
 com
 /
 "
-queryParamName
+queryParamNames
 :
+[
 "
 q
 "
+]
 }
 ]
 )

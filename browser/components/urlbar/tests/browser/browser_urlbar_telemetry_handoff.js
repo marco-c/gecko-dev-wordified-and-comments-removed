@@ -81,11 +81,13 @@ Ad
 .
 html
 /
-queryParamName
+queryParamNames
 :
+[
 "
 s
 "
+]
 codeParamName
 :
 "
