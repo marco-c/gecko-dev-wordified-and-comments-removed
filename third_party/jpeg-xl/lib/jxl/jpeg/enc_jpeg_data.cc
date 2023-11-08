@@ -1469,7 +1469,7 @@ bytes
 ;
 }
 }
-Status
+void
 SetColorEncodingFromJpegData
 (
 const
@@ -1559,15 +1559,13 @@ SRGB
 is_gray
 )
 ;
-return
-true
-;
 }
-return
+else
+{
 color_encoding
 -
 >
-SetICC
+SetICCRaw
 (
 std
 :
@@ -1576,9 +1574,9 @@ move
 (
 icc_profile
 )
-nullptr
 )
 ;
+}
 }
 Status
 EncodeJPEGData
@@ -2316,8 +2314,6 @@ JPEG
 )
 ;
 }
-JXL_RETURN_IF_ERROR
-(
 SetColorEncodingFromJpegData
 (
 *
@@ -2331,7 +2327,6 @@ metadata
 m
 .
 color_encoding
-)
 )
 ;
 JXL_RETURN_IF_ERROR

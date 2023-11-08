@@ -11765,7 +11765,9 @@ intensity_in
 =
 c_in
 .
-tf
+Tf
+(
+)
 .
 IsPQ
 (
@@ -12200,7 +12202,9 @@ intensity_in
 =
 c_in
 .
-tf
+Tf
+(
+)
 .
 IsPQ
 (
@@ -12470,7 +12474,9 @@ if
 (
 c_out
 .
-tf
+Tf
+(
+)
 .
 IsHLG
 (
@@ -12699,7 +12705,9 @@ kSRGB
 |
 c_in
 .
-tf
+Tf
+(
+)
 .
 IsPQ
 (
@@ -25865,6 +25873,14 @@ icc
 ;
 ASSERT_TRUE
 (
+!
+icc
+.
+empty
+(
+)
+)
+;
 metadata
 .
 m
@@ -25879,7 +25895,6 @@ std
 move
 (
 icc
-)
 )
 )
 ;
