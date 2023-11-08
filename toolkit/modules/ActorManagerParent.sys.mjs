@@ -2862,6 +2862,17 @@ sys
 .
 mjs
 "
+events
+:
+{
+DOMContentLoaded
+:
+{
+createActor
+:
+true
+}
+}
 }
 includeChrome
 :
