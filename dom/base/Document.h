@@ -10555,6 +10555,11 @@ ReportDocumentUseCounters
 )
 ;
 void
+ReportLCP
+(
+)
+;
+void
 ReportDocumentLazyLoadCounters
 (
 )
