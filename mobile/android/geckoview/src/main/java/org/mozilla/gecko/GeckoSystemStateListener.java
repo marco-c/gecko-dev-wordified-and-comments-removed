@@ -427,7 +427,7 @@ return
 if
 (
 mInputManager
-!
+=
 =
 null
 )
