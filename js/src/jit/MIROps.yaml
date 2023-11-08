@@ -4581,6 +4581,9 @@ if_operands_equal
 alias_set
 :
 none
+movable
+:
+true
 can_recover
 :
 true
