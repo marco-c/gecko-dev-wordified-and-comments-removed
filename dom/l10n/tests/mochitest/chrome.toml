@@ -131,6 +131,15 @@ html
 "
 dom_localization
 /
+test_l10n_args
+.
+html
+"
+]
+[
+"
+dom_localization
+/
 test_l10n_mutations
 .
 html
