@@ -3971,6 +3971,13 @@ indexp
 )
 const
 ;
+inline
+bool
+hasMovableChars
+(
+)
+const
+;
 void
 maybeInitializeIndexValue
 (
