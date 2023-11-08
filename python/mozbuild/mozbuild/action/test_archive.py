@@ -132,6 +132,10 @@ http3server
 "
     
 "
+content_analysis_sdk_agent
+"
+    
+"
 minidumpwriter
 "
     
@@ -3320,6 +3324,10 @@ components
 /
 *
 *
+"
+                
+"
+content_analysis_sdk_agent
 "
                 
 "

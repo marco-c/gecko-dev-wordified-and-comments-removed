@@ -1,3 +1,9 @@
+Library
+(
+'
+protobuf
+'
+)
 with
 Files
 (
