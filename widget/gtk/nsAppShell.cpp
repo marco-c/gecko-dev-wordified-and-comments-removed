@@ -1098,13 +1098,15 @@ proxyClient
 if
 (
 !
-IsCancelledGError
+g_error_matches
 (
 error
 .
 get
 (
 )
+G_IO_ERROR
+G_IO_ERROR_CANCELLED
 )
 )
 {
