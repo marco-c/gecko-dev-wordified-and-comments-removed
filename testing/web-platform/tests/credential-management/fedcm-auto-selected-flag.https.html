@@ -10,7 +10,6 @@ Federated
 Credential
 Management
 API
-account
 auto
 selected
 flag
@@ -156,7 +155,7 @@ test_options
 request_options_with_mediation_optional
 (
 "
-manifest_with_identity_credential_auto_selected_flag
+manifest_with_auto_selected_flag
 .
 json
 "
@@ -185,7 +184,7 @@ cred
 .
 token
 "
-is_identity_credential_auto_selected
+is_auto_selected
 =
 false
 "
@@ -196,7 +195,7 @@ test_options
 request_options_with_mediation_optional
 (
 "
-manifest_with_identity_credential_auto_selected_flag
+manifest_with_auto_selected_flag
 .
 json
 "
@@ -227,7 +226,7 @@ cred
 .
 token
 "
-is_identity_credential_auto_selected
+is_auto_selected
 =
 true
 "
@@ -237,7 +236,7 @@ assert_equals
 (
 cred
 .
-isIdentityCredentialAutoSelected
+isAutoSelected
 true
 )
 ;
@@ -246,7 +245,7 @@ true
 Test
 that
 the
-is_identity_credential_auto_selected
+is_auto_selected
 bit
 is
 properly
