@@ -11728,10 +11728,6 @@ addr
 )
 {
 return
-FaultingCodeOffset
-(
-)
-;
 ma_fst_s
 (
 src
@@ -11754,10 +11750,6 @@ addr
 )
 {
 return
-FaultingCodeOffset
-(
-)
-;
 ma_fst_s
 (
 src
@@ -11780,10 +11772,6 @@ addr
 )
 {
 return
-FaultingCodeOffset
-(
-)
-;
 ma_fst_d
 (
 src
@@ -11806,10 +11794,6 @@ addr
 )
 {
 return
-FaultingCodeOffset
-(
-)
-;
 ma_fst_d
 (
 src
