@@ -18742,7 +18742,7 @@ ColorID
 :
 :
 Window
-LookAndFeel
+PreferenceSheet
 :
 :
 ColorSchemeForChrome
