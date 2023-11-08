@@ -186,7 +186,10 @@ nullptr
 void
 SetSendOrder
 (
+Maybe
+<
 int64_t
+>
 aSendOrder
 )
 ;
