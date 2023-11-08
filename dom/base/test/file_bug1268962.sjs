@@ -10,17 +10,6 @@ use
 strict
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 HTTPStatus
 =

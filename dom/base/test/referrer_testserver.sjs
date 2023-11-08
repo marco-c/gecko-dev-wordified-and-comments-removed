@@ -49,17 +49,6 @@ bug
 1184781
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 SJS
 =

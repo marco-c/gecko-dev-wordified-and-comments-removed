@@ -42,17 +42,6 @@ policy
 headers
 if
 needed
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 query
 =

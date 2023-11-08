@@ -554,17 +554,6 @@ count
 )
 ;
 }
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 function
 handleRequest
 (

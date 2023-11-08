@@ -26,17 +26,6 @@ use
 strict
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 WORKER
 =

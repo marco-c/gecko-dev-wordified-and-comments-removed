@@ -1,14 +1,3 @@
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 SJS
 =

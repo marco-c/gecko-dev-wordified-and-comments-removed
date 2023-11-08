@@ -56,17 +56,6 @@ setInputStream
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-TextDecoder
-"
-]
-)
-;
 function
 getPostBody
 (

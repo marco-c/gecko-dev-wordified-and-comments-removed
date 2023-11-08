@@ -283,17 +283,6 @@ html
 false
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 query
 =

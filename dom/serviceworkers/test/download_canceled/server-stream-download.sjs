@@ -764,17 +764,6 @@ TICK_INTERVAL
 )
 ;
 }
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 function
 handleRequest
 (

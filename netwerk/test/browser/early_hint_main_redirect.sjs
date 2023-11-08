@@ -192,17 +192,6 @@ content
 "
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 let
 qs
 =

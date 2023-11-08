@@ -75,17 +75,6 @@ setInputStream
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 function
 readStream
 (

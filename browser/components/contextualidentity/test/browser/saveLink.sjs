@@ -46,17 +46,6 @@ saveLink
 sjs
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 function
 handleRequest
 (

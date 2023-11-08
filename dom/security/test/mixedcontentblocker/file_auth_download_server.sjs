@@ -79,17 +79,6 @@ the
 query
 string
 .
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 let
 query
 =

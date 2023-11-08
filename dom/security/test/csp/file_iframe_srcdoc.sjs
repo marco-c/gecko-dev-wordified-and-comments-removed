@@ -34,17 +34,6 @@ use
 strict
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 SCRIPT
 =

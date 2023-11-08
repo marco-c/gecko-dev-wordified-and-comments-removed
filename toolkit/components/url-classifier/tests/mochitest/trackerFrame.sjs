@@ -56,17 +56,6 @@ MPL
 .
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 stateTotalRequests
 =

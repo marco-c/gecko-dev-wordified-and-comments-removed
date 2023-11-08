@@ -80,17 +80,6 @@ mjs
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-TextEncoder
-"
-]
-)
-;
 /
 *
 *

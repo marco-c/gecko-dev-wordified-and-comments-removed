@@ -34,17 +34,6 @@ use
 strict
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 TEST_NAVIGATION_HEAD
 =

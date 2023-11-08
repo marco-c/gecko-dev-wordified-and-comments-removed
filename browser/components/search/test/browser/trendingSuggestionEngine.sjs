@@ -28,17 +28,6 @@ zero
 /
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-TextEncoder
-"
-]
-)
-;
 let
 gTimer
 ;

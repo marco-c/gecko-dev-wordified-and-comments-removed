@@ -29,17 +29,6 @@ mjs
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 function
 loadHTMLFromFile
 (

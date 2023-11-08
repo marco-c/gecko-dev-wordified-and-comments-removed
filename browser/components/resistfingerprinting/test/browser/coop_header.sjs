@@ -410,17 +410,6 @@ request
 response
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 let
 query
 =

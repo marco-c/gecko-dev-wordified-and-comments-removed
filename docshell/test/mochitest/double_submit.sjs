@@ -168,17 +168,6 @@ parameters
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 let
 params
 =

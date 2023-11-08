@@ -264,17 +264,6 @@ cache
 false
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 let
 query
 =

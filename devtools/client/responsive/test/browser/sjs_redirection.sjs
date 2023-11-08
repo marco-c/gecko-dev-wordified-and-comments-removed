@@ -40,17 +40,6 @@ request
 response
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 query
 =

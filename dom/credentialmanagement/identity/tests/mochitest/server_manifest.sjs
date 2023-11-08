@@ -28,17 +28,6 @@ zero
 /
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 function
 handleRequest
 (

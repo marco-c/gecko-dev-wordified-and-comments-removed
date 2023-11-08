@@ -66,17 +66,6 @@ mochitest
 +
 SJS
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 function
 createBlockedIframePage
 (

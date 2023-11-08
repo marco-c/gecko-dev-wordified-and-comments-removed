@@ -110,17 +110,6 @@ image
 =
 1
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 function
 handleRequest
 (
