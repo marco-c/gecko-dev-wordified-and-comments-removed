@@ -3621,7 +3621,7 @@ TelemetryStopwatch
 start
 (
 "
-SEARCH_SERVICE_INIT_MS
+SEARCH_SERVICE_INIT2_MS
 "
 )
 ;
@@ -3630,7 +3630,7 @@ TelemetryStopwatch
 finish
 (
 "
-SEARCH_SERVICE_INIT_MS
+SEARCH_SERVICE_INIT2_MS
 "
 )
 ;
