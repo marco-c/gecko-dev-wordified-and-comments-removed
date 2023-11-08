@@ -158,11 +158,6 @@ UrlClassifierFeatureFingerprintingProtection
 cpp
 "
 "
-UrlClassifierFeatureLoginReputation
-.
-cpp
-"
-"
 UrlClassifierFeaturePhishingProtection
 .
 cpp

@@ -6119,17 +6119,6 @@ mozilla
 SAPEAV12
 XZ
 ?
-OnComplete
-LoginReputationParent
-dom
-mozilla
-UEAA
-?
-AW4nsresult
-W44
-I
-Z
-?
 GetSpoofedPresentedFrames
 nsRFPService
 mozilla

@@ -198,11 +198,15 @@ src
 /
 +
 /
-master
+main
 /
 components
 /
 safe_browsing
+/
+core
+/
+common
 /
 proto
 /
