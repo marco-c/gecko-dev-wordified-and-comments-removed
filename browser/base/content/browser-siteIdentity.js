@@ -1512,6 +1512,15 @@ return
 !
 this
 .
+_isHttpsOnlyModeActive
+(
+isWindowPrivate
+)
+&
+&
+!
+this
+.
 _isHttpsFirstModeActive
 (
 isWindowPrivate
