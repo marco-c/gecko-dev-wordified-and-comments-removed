@@ -13083,6 +13083,17 @@ Value
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+obj
+-
+>
+isTenured
+(
+)
+)
+;
 void
 *
 buf
