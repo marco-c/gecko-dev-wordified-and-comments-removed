@@ -3723,7 +3723,7 @@ IsEmpty
 mForcedAudioThread
 )
 {
-NS_DispatchBackgroundTask
+NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
