@@ -242,3 +242,10 @@ test_getBlockLineCounts
 html
 "
 ]
+[
+"
+test_getSelectorWarnings
+.
+html
+"
+]
