@@ -171,6 +171,13 @@ js
 ]
 [
 "
+browser_translations_panel_engine_destroy_pending
+.
+js
+"
+]
+[
+"
 browser_translations_panel_engine_unsupported
 .
 js
