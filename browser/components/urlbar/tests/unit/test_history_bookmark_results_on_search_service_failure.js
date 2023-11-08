@@ -43,9 +43,11 @@ setup
 {
 searchService
 .
-willThrowErrorDuringInitInTest
+errorToThrowInTest
 =
-true
+"
+Settings
+"
 ;
 PromiseTestUtils
 .
@@ -53,6 +55,7 @@ expectUncaughtRejection
 (
 /
 Fake
+Settings
 error
 during
 search
@@ -72,9 +75,9 @@ async
 {
 searchService
 .
-willThrowErrorDuringInitInTest
+errorToThrowInTest
 =
-false
+null
 ;
 await
 cleanupPlaces
