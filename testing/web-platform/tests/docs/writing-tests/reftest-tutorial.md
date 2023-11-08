@@ -678,7 +678,7 @@ DIR
 content
 attribute
 renders
-corrently
+correctly
 given
 value
 of
@@ -942,7 +942,7 @@ DIR
 content
 attribute
 renders
-corrently
+correctly
 given
 value
 of
@@ -1821,7 +1821,7 @@ DIR
 content
 attribute
 renders
-corrently
+correctly
 given
 value
 of
