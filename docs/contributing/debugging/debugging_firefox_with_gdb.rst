@@ -2244,11 +2244,6 @@ debuginfo
 dbus
 -
 debuginfo
-dbus
--
-glib
--
-debuginfo
 expat
 -
 debuginfo

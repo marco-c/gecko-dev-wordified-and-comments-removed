@@ -166,16 +166,6 @@ libcairo2
 -
 dbgsym
 \
-libdbus
--
-glib
--
-1
--
-2
--
-dbgsym
-\
 libdrm2
 -
 dbgsym

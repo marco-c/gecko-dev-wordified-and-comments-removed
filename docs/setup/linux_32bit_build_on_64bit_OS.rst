@@ -238,15 +238,6 @@ g
 +
 -
 multilib
-libdbus
--
-glib
--
-1
--
-dev
-:
-i386
 \
 libgtk2
 .

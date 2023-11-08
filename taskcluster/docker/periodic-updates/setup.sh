@@ -81,14 +81,6 @@ jq
 \
 libasound2
 \
-libdbus
--
-glib
--
-1
--
-2
-\
 libgtk
 -
 3

@@ -80,12 +80,6 @@ gtk
 "
             
 "
-dbus
--
-glib
-"
-            
-"
 pulseaudio
 "
         

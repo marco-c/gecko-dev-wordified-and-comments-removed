@@ -130,12 +130,6 @@ browser_packages
 [
             
 "
-dbus
--
-glib
-"
-            
-"
 libXt
 "
             

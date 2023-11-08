@@ -169,14 +169,6 @@ libc
 -
 dev
 \
-libdbus
--
-glib
--
-1
--
-dev
-\
 libfontconfig1
 -
 dev
