@@ -1608,6 +1608,10 @@ allocateBufferSameLocation
 (
 iterobj
 BufferSize
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -1654,6 +1658,10 @@ allocateBufferSameLocation
 (
 iterobj
 BufferSize
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -2877,9 +2885,6 @@ staticMethods
 ]
 =
 {
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -2891,8 +2896,6 @@ MapGroupBy
 2
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
@@ -6869,6 +6872,10 @@ allocateBufferSameLocation
 (
 iterobj
 BufferSize
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -6915,6 +6922,10 @@ allocateBufferSameLocation
 (
 iterobj
 BufferSize
+js
+:
+:
+MallocArena
 )
 ;
 if
