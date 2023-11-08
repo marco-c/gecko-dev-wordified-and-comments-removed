@@ -44,9 +44,6 @@ cn
 ]
 locales
 :
-{
-matches
-:
 [
 "
 zh
@@ -54,7 +51,6 @@ zh
 CN
 "
 ]
-}
 }
 ]
 }
@@ -67,9 +63,6 @@ included
 {
 locales
 :
-{
-matches
-:
 [
 "
 zh
@@ -77,7 +70,6 @@ zh
 CN
 "
 ]
-}
 }
 ]
 }

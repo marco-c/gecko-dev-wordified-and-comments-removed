@@ -32,9 +32,6 @@ included
 {
 locales
 :
-{
-matches
-:
 [
 "
 ja
@@ -47,7 +44,6 @@ JP
 macos
 "
 ]
-}
 }
 ]
 }

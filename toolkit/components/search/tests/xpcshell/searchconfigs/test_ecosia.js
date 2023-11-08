@@ -32,15 +32,11 @@ included
 {
 locales
 :
-{
-matches
-:
 [
 "
 de
 "
 ]
-}
 }
 ]
 }

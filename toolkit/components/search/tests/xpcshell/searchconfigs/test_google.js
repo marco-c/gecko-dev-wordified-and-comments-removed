@@ -62,9 +62,6 @@ cn
 ]
 locales
 :
-{
-matches
-:
 [
 "
 zh
@@ -72,7 +69,6 @@ zh
 CN
 "
 ]
-}
 }
 ]
 }

@@ -186,9 +186,6 @@ included
 {
 locales
 :
-{
-matches
-:
 [
 "
 an
@@ -279,7 +276,6 @@ wo
 "
 ]
 }
-}
 {
 regions
 :
@@ -311,9 +307,6 @@ us
 ]
 locales
 :
-{
-matches
-:
 [
 "
 en
@@ -321,7 +314,6 @@ en
 US
 "
 ]
-}
 }
 {
 regions
@@ -333,15 +325,11 @@ gb
 ]
 locales
 :
-{
-matches
-:
 [
 "
 sco
 "
 ]
-}
 }
 ]
 }
@@ -395,9 +383,6 @@ be
 ]
 locales
 :
-{
-matches
-:
 [
 "
 br
@@ -425,7 +410,6 @@ nl
 wo
 "
 ]
-}
 }
 ]
 searchUrlCode
@@ -479,9 +463,6 @@ at
 ]
 locales
 :
-{
-matches
-:
 [
 "
 de
@@ -493,7 +474,6 @@ dsb
 hsb
 "
 ]
-}
 }
 ]
 searchUrlCode
@@ -540,9 +520,6 @@ included
 {
 locales
 :
-{
-matches
-:
 DOMAIN_LOCALES
 [
 "
@@ -551,7 +528,6 @@ ebay
 ca
 "
 ]
-}
 }
 {
 regions
@@ -568,9 +544,6 @@ excluded
 [
 {
 locales
-:
-{
-matches
 :
 [
 .
@@ -652,7 +625,6 @@ uk
 ]
 ]
 }
-}
 ]
 searchUrlCode
 :
@@ -698,9 +670,6 @@ included
 {
 locales
 :
-{
-matches
-:
 DOMAIN_LOCALES
 [
 "
@@ -709,7 +678,6 @@ ebay
 ch
 "
 ]
-}
 }
 {
 regions
@@ -726,9 +694,6 @@ excluded
 [
 {
 locales
-:
-{
-matches
 :
 [
 .
@@ -799,7 +764,6 @@ uk
 ]
 ]
 }
-}
 ]
 searchUrlCode
 :
@@ -843,9 +807,6 @@ included
 {
 locales
 :
-{
-matches
-:
 [
 "
 unknown
@@ -856,7 +817,6 @@ en
 US
 "
 ]
-}
 }
 ]
 excluded
@@ -943,9 +903,6 @@ au
 ]
 locales
 :
-{
-matches
-:
 [
 "
 cy
@@ -967,7 +924,6 @@ US
 gd
 "
 ]
-}
 }
 ]
 searchUrlCode
@@ -1014,9 +970,6 @@ included
 {
 locales
 :
-{
-matches
-:
 DOMAIN_LOCALES
 [
 "
@@ -1025,7 +978,6 @@ ebay
 ie
 "
 ]
-}
 }
 {
 regions
@@ -1036,9 +988,6 @@ ie
 "
 ]
 locales
-:
-{
-matches
 :
 [
 "
@@ -1061,7 +1010,6 @@ US
 gd
 "
 ]
-}
 }
 ]
 searchUrlCode
@@ -1110,9 +1058,6 @@ included
 {
 locales
 :
-{
-matches
-:
 DOMAIN_LOCALES
 [
 "
@@ -1122,12 +1067,8 @@ uk
 "
 ]
 }
-}
 {
 locales
-:
-{
-matches
 :
 [
 "
@@ -1142,7 +1083,6 @@ US
 sco
 "
 ]
-}
 regions
 :
 [
@@ -1212,9 +1152,6 @@ included
 {
 locales
 :
-{
-matches
-:
 DOMAIN_LOCALES
 [
 "
@@ -1223,7 +1160,6 @@ ebay
 de
 "
 ]
-}
 }
 ]
 excluded
@@ -1286,9 +1222,6 @@ included
 {
 locales
 :
-{
-matches
-:
 DOMAIN_LOCALES
 [
 "
@@ -1297,7 +1230,6 @@ ebay
 es
 "
 ]
-}
 }
 ]
 searchUrlCode
@@ -1344,9 +1276,6 @@ included
 {
 locales
 :
-{
-matches
-:
 [
 "
 br
@@ -1358,7 +1287,6 @@ fr
 wo
 "
 ]
-}
 }
 ]
 excluded
@@ -1424,9 +1352,6 @@ included
 {
 locales
 :
-{
-matches
-:
 DOMAIN_LOCALES
 [
 "
@@ -1435,7 +1360,6 @@ ebay
 it
 "
 ]
-}
 }
 ]
 searchUrlCode
@@ -1482,9 +1406,6 @@ included
 {
 locales
 :
-{
-matches
-:
 DOMAIN_LOCALES
 [
 "
@@ -1494,12 +1415,8 @@ nl
 "
 ]
 }
-}
 {
 locales
-:
-{
-matches
 :
 [
 "
@@ -1511,7 +1428,6 @@ en
 US
 "
 ]
-}
 regions
 :
 [
