@@ -57,13 +57,11 @@ Ad
 )
 ?
 /
-queryParamNames
+queryParamName
 :
-[
 "
 s
 "
-]
 codeParamName
 :
 "

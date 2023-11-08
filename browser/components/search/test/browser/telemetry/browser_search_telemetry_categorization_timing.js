@@ -56,13 +56,11 @@ searchTelemetry
 Ad
 )
 /
-queryParamNames
+queryParamName
 :
-[
 "
 s
 "
-]
 codeParamName
 :
 "
