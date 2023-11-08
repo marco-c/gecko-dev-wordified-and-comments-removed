@@ -35,7 +35,7 @@ h
 #
 define
 RECENTLY_USED_PARSER_ATOMS_SIZE
-31
+37
 class
 nsHtml5AtomTable
 {
