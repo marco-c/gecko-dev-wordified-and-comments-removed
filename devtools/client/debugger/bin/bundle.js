@@ -351,6 +351,9 @@ commonjs
 transformMixedEsModules
 :
 true
+strictRequires
+:
+true
 }
 )
 injectProcessEnv
