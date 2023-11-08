@@ -1302,6 +1302,13 @@ select
 :
 none
 ;
+color
+-
+scheme
+:
+light
+dark
+;
 }
 :
 root
