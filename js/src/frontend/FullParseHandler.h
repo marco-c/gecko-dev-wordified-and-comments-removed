@@ -167,7 +167,6 @@ define
 DECLARE_TYPE
 (
 typeName
-_
 )
 using
 typeName
@@ -452,7 +451,6 @@ define
 DECLARE_AS
 (
 typeName
-asMethodName
 )
 \
 static
@@ -460,7 +458,10 @@ typeName
 #
 #
 Type
-asMethodName
+as
+#
+#
+typeName
 (
 Node
 node

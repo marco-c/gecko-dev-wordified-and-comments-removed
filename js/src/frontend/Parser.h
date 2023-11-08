@@ -1224,7 +1224,6 @@ define
 DECLARE_TYPE
 (
 typeName
-_
 )
 \
 using
@@ -2121,7 +2120,6 @@ define
 DECLARE_TYPE
 (
 typeName
-_
 )
 \
 using
@@ -5104,7 +5102,6 @@ define
 DECLARE_TYPE
 (
 typeName
-_
 )
 \
 using
@@ -5676,7 +5673,6 @@ define
 DECLARE_TYPE
 (
 typeName
-_
 )
 \
 using
