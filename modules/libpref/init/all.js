@@ -18303,6 +18303,7 @@ ja
 Osaka
 -
 Mono
+Menlo
 Hiragino
 Kaku
 Gothic
