@@ -48,7 +48,7 @@ public
 :
 RenderDXGITextureHost
 (
-WindowsHandle
+HANDLE
 aHandle
 Maybe
 <
@@ -472,7 +472,7 @@ GLContext
 >
 mGL
 ;
-WindowsHandle
+HANDLE
 mHandle
 ;
 Maybe
@@ -586,7 +586,7 @@ public
 explicit
 RenderDXGIYCbCrTextureHost
 (
-WindowsHandle
+HANDLE
 (
 &
 aHandles
@@ -919,7 +919,7 @@ GLContext
 >
 mGL
 ;
-WindowsHandle
+HANDLE
 mHandles
 [
 3

@@ -3892,6 +3892,9 @@ size
 )
 mHandle
 (
+(
+HANDLE
+)
 aDescriptor
 .
 handle
@@ -5912,6 +5915,9 @@ mHandles
 0
 ]
 =
+(
+HANDLE
+)
 aDescriptor
 .
 handleY
@@ -5923,6 +5929,9 @@ mHandles
 1
 ]
 =
+(
+HANDLE
+)
 aDescriptor
 .
 handleCb
@@ -5934,6 +5943,9 @@ mHandles
 2
 ]
 =
+(
+HANDLE
+)
 aDescriptor
 .
 handleCr

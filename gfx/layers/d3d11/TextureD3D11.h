@@ -1719,7 +1719,7 @@ gfx
 IntSize
 mSize
 ;
-WindowsHandle
+HANDLE
 mHandle
 ;
 gfx
@@ -2001,7 +2001,7 @@ gfx
 IntSize
 mSizeCbCr
 ;
-WindowsHandle
+HANDLE
 mHandles
 [
 3
