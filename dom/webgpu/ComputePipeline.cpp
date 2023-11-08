@@ -219,7 +219,7 @@ bglId
 ffi
 :
 :
-wgpu_client_render_pipeline_get_bind_group_layout
+wgpu_client_compute_pipeline_get_bind_group_layout
 (
 client
 mId
