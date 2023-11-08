@@ -2990,9 +2990,6 @@ await
 prepConfig
 (
 {
-needPin
-:
-true
 }
 [
 "
