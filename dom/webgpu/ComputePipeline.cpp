@@ -167,15 +167,6 @@ if
 mImplicitPipelineLayoutId
 )
 {
-bridge
--
->
-SendImplicitLayoutDestroy
-(
-mImplicitPipelineLayoutId
-mImplicitBindGroupLayoutIds
-)
-;
 }
 }
 }
