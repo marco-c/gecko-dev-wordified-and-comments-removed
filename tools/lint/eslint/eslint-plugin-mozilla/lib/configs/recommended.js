@@ -544,9 +544,14 @@ reject
 importGlobalProperties
 "
 :
+[
 "
-off
+error
 "
+"
+everything
+"
+]
 }
 }
 {
