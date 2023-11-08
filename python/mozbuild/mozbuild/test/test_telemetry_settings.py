@@ -31,6 +31,12 @@ SettingsProvider
 from
 mach
 .
+settings
+import
+MachSettings
+from
+mach
+.
 telemetry
 import
 (
@@ -41,12 +47,6 @@ record_telemetry_settings
     
 resolve_is_employee
 )
-from
-mozbuild
-.
-settings
-import
-TelemetrySettings
 SettingsProvider
 class
 OtherSettings
@@ -116,7 +116,7 @@ s
 .
 register_provider
 (
-TelemetrySettings
+MachSettings
 )
     
 s
