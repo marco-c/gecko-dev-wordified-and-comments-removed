@@ -667,7 +667,7 @@ user
 *
 param
 {
-Number
+number
 }
 storedLogins
 *
@@ -682,7 +682,7 @@ logins
 *
 param
 {
-Number
+number
 }
 potentiallyBreachedLogins
 *

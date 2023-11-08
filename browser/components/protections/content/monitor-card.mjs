@@ -772,7 +772,6 @@ the
 card
 .
 *
-*
 /
 getMonitorData
 (
@@ -1107,7 +1106,7 @@ page
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1148,7 +1147,10 @@ website
 .
 *
 *
-return
+returns
+{
+string
+}
 URL
 to
 Monitor
