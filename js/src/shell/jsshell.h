@@ -607,6 +607,10 @@ enableArrayBufferTransfer
 ;
 extern
 bool
+enableSymbolsAsWeakMapKeys
+;
+extern
+bool
 enableNewSetMethods
 ;
 extern
