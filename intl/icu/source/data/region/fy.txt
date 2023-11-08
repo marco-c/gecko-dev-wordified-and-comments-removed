@@ -1015,17 +1015,6 @@ IN
 India
 "
 }
-IO
-{
-"
-Britse
-Gebieden
-yn
-de
-Indyske
-Oseaan
-"
-}
 IQ
 {
 "

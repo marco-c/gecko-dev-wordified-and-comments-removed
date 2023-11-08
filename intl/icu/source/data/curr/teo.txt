@@ -553,6 +553,15 @@ lok
 Santahelena
 "
 }
+SLE
+{
+"
+SLE
+"
+"
+Leoni
+"
+}
 SLL
 {
 "
@@ -560,6 +569,10 @@ SLL
 "
 "
 Leoni
+(
+1964
+2022
+)
 "
 }
 SOS

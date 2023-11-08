@@ -3144,9 +3144,6 @@ usage
 &
 &
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 Derived
 displayOptions
 (
@@ -3169,8 +3166,6 @@ displayOptions
 &
 &
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API

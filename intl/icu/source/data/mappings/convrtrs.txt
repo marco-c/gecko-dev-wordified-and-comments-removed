@@ -3926,10 +3926,8 @@ the
 MBCS
 converter
 gb18030
-{
-IANA
-*
-}
+-
+2022
 ibm
 -
 1392
@@ -3947,6 +3945,8 @@ WINDOWS
 GB18030
 {
 MIME
+*
+IANA
 *
 }
 #

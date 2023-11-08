@@ -171,13 +171,4 @@ Calendar
 }
 }
 }
-Variants
-{
-SIMPLE
-{
-"
-SIMPLE
-"
-}
-}
 }

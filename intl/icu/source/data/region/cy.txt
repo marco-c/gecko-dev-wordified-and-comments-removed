@@ -1888,7 +1888,7 @@ UDA
 UN
 {
 "
-y
+Y
 Cenhedloedd
 Unedig
 "
@@ -2041,6 +2041,18 @@ Anhysbys
 }
 Countries
 %
+chagos
+{
+IO
+{
+"
+Ynysfor
+Chagos
+"
+}
+}
+Countries
+%
 short
 {
 GB
@@ -2071,7 +2083,7 @@ Palesteina
 UN
 {
 "
-UN
+CU
 "
 }
 US

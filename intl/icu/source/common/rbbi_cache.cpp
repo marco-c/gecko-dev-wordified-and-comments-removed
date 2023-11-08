@@ -801,6 +801,14 @@ fBI
 getLanguageBreakEngine
 (
 c
+fBI
+-
+>
+getLocaleID
+(
+ULOC_REQUESTED_LOCALE
+status
+)
 )
 ;
 if
@@ -820,7 +828,7 @@ lbe
 findBreaks
 (
 text
-rangeStart
+current
 rangeEnd
 fBreaks
 fBI

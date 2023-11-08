@@ -821,9 +821,16 @@ AFTER_CASED
 static
 const
 uint32_t
-AFTER_VOWEL_WITH_ACCENT
+AFTER_VOWEL_WITH_COMBINING_ACCENT
 =
 2
+;
+static
+const
+uint32_t
+AFTER_VOWEL_WITH_PRECOMPOSED_ACCENT
+=
+4
 ;
 uint32_t
 getLetterData

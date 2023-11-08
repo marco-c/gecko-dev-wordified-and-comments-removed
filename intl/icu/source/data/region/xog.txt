@@ -623,14 +623,6 @@ IN
 Buyindi
 "
 }
-IO
-{
-"
-Ebizinga
-bya
-Cago
-"
-}
 IQ
 {
 "

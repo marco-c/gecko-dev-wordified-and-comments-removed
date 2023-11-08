@@ -124,14 +124,6 @@ si
 sinhalski
 "
 }
-tzm
-{
-"
-centralnoatlaski
-tama
-ek
-"
-}
 xh
 {
 "

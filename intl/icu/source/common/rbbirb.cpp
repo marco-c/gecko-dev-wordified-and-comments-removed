@@ -251,10 +251,6 @@ fChainRules
 =
 false
 ;
-fLBCMNoChain
-=
-false
-;
 fLookAheadHardBreak
 =
 false

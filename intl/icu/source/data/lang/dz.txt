@@ -1192,14 +1192,6 @@ script
 }
 "
 }
-territory
-{
-"
-{
-0
-}
-"
-}
 }
 localeDisplayPattern
 {

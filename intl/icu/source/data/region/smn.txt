@@ -787,17 +787,6 @@ IN
 India
 "
 }
-IO
-{
-"
-Brittil
-India
-v
-ldimeer
-ku
-vlu
-"
-}
 IQ
 {
 "

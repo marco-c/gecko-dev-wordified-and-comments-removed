@@ -179,7 +179,7 @@ Aleut
 alt
 {
 "
-ltai
+Altai
 Meridional
 "
 }
@@ -337,6 +337,12 @@ bg
 "
 Bulgaro
 Simi
+"
+}
+bgc
+{
+"
+Haryanvi
 "
 }
 bho
@@ -2285,6 +2291,12 @@ iche
 Simi
 "
 }
+raj
+{
+"
+Rajasthani
+"
+}
 rap
 {
 "
@@ -3744,7 +3756,7 @@ Intiwatana
 islamic
 {
 "
-Islamico
+Hijri
 Intiwatana
 "
 }
@@ -3753,11 +3765,11 @@ islamic
 civil
 {
 "
-Islamico
+Hijri
 Intiwatana
 (
 tabular
-poca
+epoca
 civil
 )
 "
@@ -3767,7 +3779,7 @@ islamic
 umalqura
 {
 "
-Islamico
+Hijri
 Intiwatana
 (
 Umm

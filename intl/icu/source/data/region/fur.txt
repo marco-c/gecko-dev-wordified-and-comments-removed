@@ -999,16 +999,6 @@ IN
 India
 "
 }
-IO
-{
-"
-Teritori
-britanic
-dal
-Ocean
-Indian
-"
-}
 IQ
 {
 "

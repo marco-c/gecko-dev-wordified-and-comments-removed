@@ -75,15 +75,4 @@ Deva
 "
 }
 }
-codePatterns
-{
-territory
-{
-"
-{
-0
-}
-"
-}
-}
 }

@@ -1199,6 +1199,16 @@ char
 posixID
 )
 ;
+void
+minimizeSubtags
+(
+bool
+favorScript
+UErrorCode
+&
+status
+)
+;
 #
 endif
 private

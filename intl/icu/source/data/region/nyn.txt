@@ -626,16 +626,6 @@ IN
 Indiya
 "
 }
-IO
-{
-"
-Ebizinga
-bya
-Indian
-ebya
-Bungyereza
-"
-}
 IQ
 {
 "

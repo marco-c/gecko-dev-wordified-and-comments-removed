@@ -625,17 +625,6 @@ IN
 India
 "
 }
-IO
-{
-"
-Lieneo
-lyaki
-Nngalesa
-Nbahali
-ya
-Hindi
-"
-}
 IQ
 {
 "

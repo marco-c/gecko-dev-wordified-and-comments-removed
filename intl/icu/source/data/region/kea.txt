@@ -1038,16 +1038,6 @@ IN
 ndia
 "
 }
-IO
-{
-"
-Ilhas
-Brit
-nikas
-di
-ndiku
-"
-}
 IQ
 {
 "

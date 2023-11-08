@@ -639,17 +639,6 @@ IN
 lhind
 "
 }
-IO
-{
-"
-tamna
-t
-tanglizit
-n
-ugaru
-ahindi
-"
-}
 IQ
 {
 "

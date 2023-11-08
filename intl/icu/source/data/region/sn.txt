@@ -622,15 +622,6 @@ IN
 India
 "
 }
-IO
-{
-"
-British
-Indian
-Ocean
-Territory
-"
-}
 IQ
 {
 "

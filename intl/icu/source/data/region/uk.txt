@@ -1560,6 +1560,16 @@ ZZ
 }
 Countries
 %
+chagos
+{
+IO
+{
+"
+"
+}
+}
+Countries
+%
 short
 {
 HK

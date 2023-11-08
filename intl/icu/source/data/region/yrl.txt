@@ -1082,16 +1082,6 @@ IN
 diya
 "
 }
-IO
-{
-"
-Birit
-niku
-Usuasawa
-Useyanu
-diku
-"
-}
 IQ
 {
 "
