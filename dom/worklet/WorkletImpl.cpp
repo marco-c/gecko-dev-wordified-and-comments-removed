@@ -246,6 +246,10 @@ mFinishedOnExecutionThread
 (
 false
 )
+mIsPrivateBrowsing
+(
+false
+)
 mTrials
 (
 OriginTrials
@@ -370,6 +374,15 @@ if
 doc
 )
 {
+mIsPrivateBrowsing
+=
+doc
+-
+>
+IsInPrivateBrowsing
+(
+)
+;
 mOverriddenFingerprintingSettings
 =
 doc

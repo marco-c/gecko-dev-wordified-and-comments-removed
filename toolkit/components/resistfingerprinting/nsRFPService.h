@@ -750,6 +750,8 @@ static
 bool
 IsRFPEnabledFor
 (
+bool
+aIsPrivateMode
 RFPTarget
 aTarget
 const
