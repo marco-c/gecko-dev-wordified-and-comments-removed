@@ -422,6 +422,17 @@ ErrorResult
 aRv
 )
 {
+if
+(
+!
+aBuffer
+.
+mId
+)
+{
+return
+;
+}
 dom
 :
 :
