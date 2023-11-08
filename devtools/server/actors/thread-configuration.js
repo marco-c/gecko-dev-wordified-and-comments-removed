@@ -224,10 +224,13 @@ this
 .
 watcherActor
 .
-addDataEntry
+addOrSetDataEntry
 (
 THREAD_CONFIGURATION
 configArray
+"
+add
+"
 )
 ;
 }

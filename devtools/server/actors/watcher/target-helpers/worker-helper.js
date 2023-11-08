@@ -184,12 +184,13 @@ sessionContext
 }
 async
 function
-addSessionDataEntry
+addOrSetSessionDataEntry
 (
 {
 watcher
 type
 entries
+updateType
 }
 )
 {
@@ -236,7 +237,7 @@ getActor
 DEVTOOLS_WORKER_JS_WINDOW_ACTOR_NAME
 )
 .
-addSessionDataEntry
+addOrSetSessionDataEntry
 (
 {
 watcherActorID
@@ -251,6 +252,7 @@ watcher
 sessionContext
 type
 entries
+updateType
 }
 )
 ;
@@ -342,7 +344,7 @@ exports
 {
 createTargets
 destroyTargets
-addSessionDataEntry
+addOrSetSessionDataEntry
 removeSessionDataEntry
 }
 ;

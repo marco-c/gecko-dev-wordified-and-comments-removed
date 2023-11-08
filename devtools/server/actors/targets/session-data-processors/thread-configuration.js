@@ -35,11 +35,12 @@ exports
 =
 {
 async
-addSessionDataEntry
+addOrSetSessionDataEntry
 (
 targetActor
 entries
 isDocumentCreation
+updateType
 )
 {
 const

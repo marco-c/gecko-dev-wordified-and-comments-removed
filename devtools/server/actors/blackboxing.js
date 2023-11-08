@@ -133,7 +133,7 @@ this
 .
 watcherActor
 .
-addDataEntry
+addOrSetDataEntry
 (
 BLACKBOXING
 [
@@ -144,6 +144,9 @@ range
 null
 }
 ]
+"
+add
+"
 )
 ;
 }
@@ -152,7 +155,7 @@ this
 .
 watcherActor
 .
-addDataEntry
+addOrSetDataEntry
 (
 BLACKBOXING
 ranges
@@ -171,6 +174,9 @@ range
 ;
 }
 )
+"
+add
+"
 )
 ;
 }

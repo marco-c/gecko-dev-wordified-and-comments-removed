@@ -1119,12 +1119,13 @@ actorID
 }
 async
 function
-addSessionDataEntry
+addOrSetSessionDataEntry
 (
 {
 watcher
 type
 entries
+updateType
 }
 )
 {
@@ -1210,6 +1211,10 @@ debug
 :
 add
 -
+or
+-
+set
+-
 session
 -
 data
@@ -1268,6 +1273,10 @@ removeMessageListener
 debug
 :
 add
+-
+or
+-
+set
 -
 session
 -
@@ -1333,6 +1342,10 @@ debug
 :
 add
 -
+or
+-
+set
+-
 session
 -
 data
@@ -1347,6 +1360,7 @@ watcher
 actorID
 type
 entries
+updateType
 }
 )
 ;
@@ -1400,7 +1414,7 @@ exports
 {
 createTargets
 destroyTargets
-addSessionDataEntry
+addOrSetSessionDataEntry
 removeSessionDataEntry
 }
 ;

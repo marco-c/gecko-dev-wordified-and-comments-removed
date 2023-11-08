@@ -623,12 +623,13 @@ watcher
 }
 async
 function
-addSessionDataEntry
+addOrSetSessionDataEntry
 (
 {
 watcher
 type
 entries
+updateType
 }
 )
 {
@@ -679,7 +680,7 @@ DevToolsFrame
 "
 )
 .
-addSessionDataEntry
+addOrSetSessionDataEntry
 (
 {
 watcherActorID
@@ -694,6 +695,7 @@ watcher
 sessionContext
 type
 entries
+updateType
 }
 )
 ;
@@ -789,7 +791,7 @@ exports
 {
 createTargets
 destroyTargets
-addSessionDataEntry
+addOrSetSessionDataEntry
 removeSessionDataEntry
 }
 ;
