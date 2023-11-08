@@ -374,6 +374,9 @@ registered
 *
 *
 param
+{
+string
+}
 aProtocol
 *
 The
@@ -389,6 +392,9 @@ for
 .
 *
 param
+{
+string
+}
 aURITemplate
 *
 The
@@ -404,7 +410,10 @@ the
 protocol
 .
 *
-return
+returns
+{
+boolean
+}
 true
 if
 it

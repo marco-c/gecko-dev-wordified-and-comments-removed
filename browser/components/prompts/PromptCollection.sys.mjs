@@ -63,6 +63,7 @@ MPL
 Implements
 nsIPromptCollection
 *
+*
 class
 PromptCollection
 *
