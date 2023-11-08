@@ -238,15 +238,6 @@ css
 "
 ;
 import
-A11yIntention
-from
-"
-.
-/
-A11yIntention
-"
-;
-import
 {
 ShortcutsModal
 }
@@ -1538,13 +1529,6 @@ label
 "
 )
 }
-React
-.
-createElement
-(
-A11yIntention
-{
-}
 this
 .
 renderLayout
@@ -1608,7 +1592,6 @@ toggleShortcutsModal
 (
 )
 }
-)
 )
 )
 )

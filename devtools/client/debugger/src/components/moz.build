@@ -81,11 +81,6 @@ shared
 CompiledModules
 (
 "
-A11yIntention
-.
-js
-"
-"
 App
 .
 js
