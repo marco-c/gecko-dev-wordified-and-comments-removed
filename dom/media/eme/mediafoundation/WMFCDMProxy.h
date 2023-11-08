@@ -583,6 +583,17 @@ MediaKeySystemMediaCapability
 >
 &
 aCapabilities
+const
+Maybe
+<
+nsString
+>
+&
+forcedRobustness
+=
+Nothing
+(
+)
 )
 ;
 RefPtr
