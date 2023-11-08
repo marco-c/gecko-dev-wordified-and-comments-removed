@@ -10803,9 +10803,6 @@ PlainDateTimeObject
 dateTime
 (
 cx
-temporal
-:
-:
 GetPlainDateTimeFor
 (
 cx
@@ -13035,9 +13032,6 @@ Day
 auto
 temporalDateTime
 =
-temporal
-:
-:
 GetPlainDateTimeFor
 (
 epochInstant
@@ -15597,9 +15591,6 @@ false
 auto
 temporalDateTime
 =
-temporal
-:
-:
 GetPlainDateTimeFor
 (
 epochInstant
