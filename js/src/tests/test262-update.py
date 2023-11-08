@@ -112,14 +112,6 @@ with
 -
 source
 "
-        
-"
-promise
--
-with
--
-resolvers
-"
     
 ]
 )
