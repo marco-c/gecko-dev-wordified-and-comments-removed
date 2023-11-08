@@ -9130,9 +9130,6 @@ CycleCollectedJSRuntime
 :
 FinalizeDeferredThings
 (
-CycleCollectedJSContext
-:
-:
 DeferredFinalizeType
 aType
 )
@@ -9200,9 +9197,6 @@ if
 aType
 =
 =
-CycleCollectedJSContext
-:
-:
 FinalizeIncrementally
 )
 {
@@ -9549,13 +9543,7 @@ FinalizeDeferredThings
 (
 finalizeIncrementally
 ?
-CycleCollectedJSContext
-:
-:
 FinalizeIncrementally
-:
-CycleCollectedJSContext
-:
 :
 FinalizeNow
 )

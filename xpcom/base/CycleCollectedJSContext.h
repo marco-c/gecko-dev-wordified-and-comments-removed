@@ -544,13 +544,6 @@ aRecursionDepth
 ;
 public
 :
-enum
-DeferredFinalizeType
-{
-FinalizeIncrementally
-FinalizeNow
-}
-;
 virtual
 dom
 :
