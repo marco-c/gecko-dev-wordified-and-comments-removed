@@ -738,6 +738,26 @@ mode
 "
 )
     
+chrome_options
+[
+"
+args
+"
+]
+.
+append
+(
+"
+-
+-
+enable
+-
+features
+=
+GenericSensorExtraClasses
+"
+)
+    
 address_space_overrides_ports
 =
 [
