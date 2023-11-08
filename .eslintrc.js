@@ -1478,16 +1478,6 @@ js
 "
 browser
 /
-components
-/
-uitour
-/
-UITour
-*
-"
-"
-browser
-/
 extensions
 /
 pictureinpicture
