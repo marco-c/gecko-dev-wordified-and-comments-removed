@@ -664,6 +664,9 @@ h
 html
 -
 .
+idl
+-
+.
 java
 -
 .
@@ -695,6 +698,9 @@ rs
 -
 .
 svg
+-
+.
+webidl
 -
 .
 xhtml
