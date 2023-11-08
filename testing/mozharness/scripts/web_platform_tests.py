@@ -3037,9 +3037,39 @@ MOZHARNESS_TEST_PATHS
             
 )
             
+confirm_paths
+=
+json
+.
+loads
+(
+os
+.
+environ
+.
+get
+(
+"
+MOZHARNESS_CONFIRM_PATHS
+"
+'
+"
+"
+'
+)
+)
+            
 if
 mozharness_test_paths
 :
+                
+if
+confirm_paths
+:
+                    
+mozharness_test_paths
+=
+confirm_paths
                 
 path
 =
