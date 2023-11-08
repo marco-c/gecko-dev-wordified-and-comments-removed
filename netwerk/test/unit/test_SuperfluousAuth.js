@@ -507,7 +507,7 @@ request
 status
 Cr
 .
-NS_ERROR_ABORT
+NS_ERROR_SUPERFLUOS_AUTH
 )
 ;
 httpServer

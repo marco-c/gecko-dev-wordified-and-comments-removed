@@ -242,6 +242,13 @@ sjs
 ]
 [
 "
+browser_superfluos_auth
+.
+js
+"
+]
+[
+"
 browser_upgrade_onion
 .
 js
