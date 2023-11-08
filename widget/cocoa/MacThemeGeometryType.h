@@ -14,7 +14,6 @@ eThemeGeometryTypeToolbar
 eThemeGeometryTypeToolbox
 eThemeGeometryTypeWindowButtons
 eThemeGeometryTypeMenu
-eThemeGeometryTypeHighlightedMenuItem
 eThemeGeometryTypeTooltip
 eThemeGeometryTypeSourceList
 eThemeGeometryTypeSourceListSelection

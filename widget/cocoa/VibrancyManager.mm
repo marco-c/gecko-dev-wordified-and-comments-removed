@@ -82,12 +82,6 @@ VibrancyType
 :
 MENU
 :
-case
-VibrancyType
-:
-:
-HIGHLIGHTED_MENUITEM
-:
 return
 NSVisualEffectStateActive
 ;
@@ -153,12 +147,6 @@ SOURCE_LIST_SELECTION
 return
 NSVisualEffectMaterialSelection
 ;
-case
-VibrancyType
-:
-:
-HIGHLIGHTED_MENUITEM
-:
 case
 VibrancyType
 :
