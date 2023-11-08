@@ -492,7 +492,6 @@ a
 ]
 ;
 }
-else
 if
 (
 aCh
@@ -522,7 +521,6 @@ A
 ]
 ;
 }
-else
 if
 (
 GetGenCategory
@@ -573,7 +571,6 @@ return
 kClass_vowel
 ;
 }
-else
 if
 (
 aCh
@@ -610,14 +607,10 @@ return
 kClass_Vowel
 ;
 }
-else
-{
 return
 kClass_letter
 ;
 }
-}
-else
 if
 (
 aCh
@@ -644,12 +637,9 @@ return
 kClass_hyph
 ;
 }
-else
-{
 return
 kClass_other
 ;
-}
 }
 uint32_t
 IrishCasing
