@@ -133,11 +133,6 @@ LinkAdded
 (
 )
 ;
-void
-LinkRemoved
-(
-)
-;
 nsresult
 Clone
 (
