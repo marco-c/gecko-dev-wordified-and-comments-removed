@@ -422,9 +422,6 @@ aCodec
 )
 ;
 }
-#
-ifdef
-DEBUG
 EMECodecString
 GetDebugInfo
 (
@@ -530,8 +527,6 @@ return
 info
 ;
 }
-#
-endif
 private
 :
 nsTArray
@@ -808,17 +803,12 @@ KeySystemConfig
 =
 default
 ;
-#
-ifdef
-DEBUG
 nsString
 GetDebugInfo
 (
 )
 const
 ;
-#
-endif
 bool
 IsSameKeySystem
 (
