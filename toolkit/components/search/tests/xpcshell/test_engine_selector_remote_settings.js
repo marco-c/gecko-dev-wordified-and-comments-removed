@@ -26,7 +26,7 @@ sys
 .
 mjs
 "
-SearchEngineSelector
+SearchEngineSelectorOld
 :
 "
 resource
@@ -37,7 +37,7 @@ gre
 /
 modules
 /
-SearchEngineSelector
+SearchEngineSelectorOld
 .
 sys
 .
@@ -352,7 +352,7 @@ const
 engineSelector
 =
 new
-SearchEngineSelector
+SearchEngineSelectorOld
 (
 listenerSpy
 )
@@ -478,7 +478,7 @@ const
 engineSelector
 =
 new
-SearchEngineSelector
+SearchEngineSelectorOld
 (
 listenerSpy
 )
@@ -779,7 +779,7 @@ const
 engineSelector
 =
 new
-SearchEngineSelector
+SearchEngineSelectorOld
 (
 listenerSpy
 )
@@ -1052,7 +1052,7 @@ const
 engineSelector
 =
 new
-SearchEngineSelector
+SearchEngineSelectorOld
 (
 )
 ;
@@ -1293,7 +1293,7 @@ const
 engineSelector
 =
 new
-SearchEngineSelector
+SearchEngineSelectorOld
 (
 )
 ;
@@ -1499,7 +1499,7 @@ const
 engineSelector
 =
 new
-SearchEngineSelector
+SearchEngineSelectorOld
 (
 )
 ;
