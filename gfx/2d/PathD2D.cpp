@@ -869,7 +869,9 @@ aEndAngle
 aStartAngle
 >
 =
-2
+1
+.
+9999
 *
 M_PI
 )
@@ -900,7 +902,9 @@ aStartAngle
 aEndAngle
 >
 =
-2
+1
+.
+9999
 *
 M_PI
 )
