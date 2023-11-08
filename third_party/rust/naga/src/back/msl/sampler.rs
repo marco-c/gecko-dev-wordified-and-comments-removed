@@ -809,6 +809,13 @@ InlineSampler
 [
 allow
 (
+renamed_and_removed_lints
+)
+]
+#
+[
+allow
+(
 clippy
 :
 :

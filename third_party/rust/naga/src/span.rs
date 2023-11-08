@@ -942,6 +942,10 @@ allow
 (
 unused_variables
 unused_mut
+clippy
+:
+:
+missing_const_for_fn
 )
 )
 ]
@@ -1288,6 +1292,16 @@ feature
 span
 "
 )
+)
+]
+#
+[
+allow
+(
+clippy
+:
+:
+missing_const_for_fn
 )
 ]
 pub
