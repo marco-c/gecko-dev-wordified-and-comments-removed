@@ -2098,6 +2098,15 @@ AudioStreamState
 :
 :
 Running
+|
+|
+mFallbackDriverState
+=
+=
+FallbackDriverState
+:
+:
+Running
 ;
 }
 bool
