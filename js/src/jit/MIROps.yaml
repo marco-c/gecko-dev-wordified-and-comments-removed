@@ -8162,6 +8162,9 @@ if_operands_equal
 alias_set
 :
 none
+type_policy
+:
+none
 -
 name
 :
