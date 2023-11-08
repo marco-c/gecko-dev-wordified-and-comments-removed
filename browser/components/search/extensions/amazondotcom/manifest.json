@@ -25,7 +25,7 @@ version
 "
 1
 .
-6
+7
 "
 "
 browser_specific_settings
@@ -126,13 +126,6 @@ search_form
 :
 "
 __MSG_searchForm__
-"
-"
-suggest_url
-"
-:
-"
-__MSG_suggestUrl__
 "
 "
 search_url_get_params
