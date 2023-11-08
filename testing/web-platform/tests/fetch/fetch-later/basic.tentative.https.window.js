@@ -204,7 +204,7 @@ google
 com
 '
 {
-activationTimeout
+activateAfter
 :
 -
 1
@@ -220,7 +220,7 @@ throws
 RangeError
 on
 negative
-activationTimeout
+activateAfter
 .
 )
 ;

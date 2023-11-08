@@ -235,7 +235,7 @@ fetchLater
 (
 url
 {
-activationTimeout
+activateAfter
 :
 0
 }
@@ -330,7 +330,7 @@ fetchLater
 when
 BFCached
 with
-activationTimeout
+activateAfter
 =
 0
 sends

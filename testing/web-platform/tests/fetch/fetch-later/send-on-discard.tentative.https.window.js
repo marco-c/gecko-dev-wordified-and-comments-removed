@@ -200,7 +200,7 @@ method
 '
 GET
 '
-activationTimeout
+activateAfter
 :
 10000
 }
@@ -218,7 +218,7 @@ method
 '
 POST
 '
-activationTimeout
+activateAfter
 :
 8000
 }

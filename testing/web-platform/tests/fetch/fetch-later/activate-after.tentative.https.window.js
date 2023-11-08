@@ -39,7 +39,7 @@ url
 }
 "
 {
-activationTimeout
+activateAfter
 :
 1000
 }
@@ -79,7 +79,7 @@ sends
 out
 based
 on
-activationTimeout
+activateAfter
 .
 '
 )
@@ -145,7 +145,7 @@ fetchLater
 (
 url
 {
-activationTimeout
+activateAfter
 :
 1000
 }
@@ -237,7 +237,7 @@ sends
 out
 based
 on
-activationTimeout
+activateAfter
 even
 if
 document
