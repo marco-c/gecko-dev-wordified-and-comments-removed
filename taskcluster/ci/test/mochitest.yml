@@ -552,6 +552,15 @@ mozilla
 central
 '
 ]
+android
+.
+*
+:
+[
+'
+trunk
+'
+]
 default
 :
 [
