@@ -251,9 +251,10 @@ change
 event
 .
 *
+*
 param
 {
-String
+string
 }
 panelId
 -
@@ -328,6 +329,7 @@ a
 change
 event
 .
+*
 *
 param
 {
