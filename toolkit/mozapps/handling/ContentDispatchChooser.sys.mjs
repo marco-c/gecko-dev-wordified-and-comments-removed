@@ -351,6 +351,7 @@ aHandler
 .
 type
 aPrincipal
+aTriggeredExternally
 )
 ;
 /
@@ -1541,6 +1542,7 @@ _hasProtocolHandlerPermission
 (
 scheme
 aPrincipal
+aTriggeredExternally
 )
 {
 /
@@ -1610,6 +1612,17 @@ if
 (
 !
 aPrincipal
+|
+|
+(
+aPrincipal
+.
+isSystemPrincipal
+&
+&
+!
+aTriggeredExternally
+)
 )
 {
 return

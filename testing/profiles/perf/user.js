@@ -1319,6 +1319,16 @@ user_pref
 "
 security
 .
+external_protocol_requires_permission
+"
+false
+)
+;
+user_pref
+(
+"
+security
+.
 fileuri
 .
 strict_origin_policy
