@@ -318,6 +318,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+void
+ExecuteInlineModule
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 private
 :
 const
