@@ -1,3 +1,14 @@
+try
+:
+    
+from
+setuptools
+import
+setup
+except
+ImportError
+:
+    
 from
 distutils
 .
