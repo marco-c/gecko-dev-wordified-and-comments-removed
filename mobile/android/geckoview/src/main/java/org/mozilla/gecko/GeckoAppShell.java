@@ -718,6 +718,12 @@ getApplicationContext
 )
 ;
 }
+SuppressLint
+(
+"
+ApplySharedPref
+"
+)
 Override
 public
 boolean
