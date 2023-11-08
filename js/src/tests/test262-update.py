@@ -112,18 +112,6 @@ with
 -
 source
 "
-        
-"
-import
--
-attributes
-"
-        
-"
-set
--
-methods
-"
     
 ]
 )
