@@ -397,15 +397,6 @@ unregister
 this
 )
 ;
-this
-.
-#
-suggestionsMap
-.
-clear
-(
-)
-;
 }
 }
 async

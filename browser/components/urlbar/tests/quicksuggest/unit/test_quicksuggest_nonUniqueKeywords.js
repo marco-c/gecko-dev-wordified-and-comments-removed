@@ -904,13 +904,6 @@ nonsponsored
 nonsponsored
 )
 ;
-await
-QuickSuggestTestUtils
-.
-forceSync
-(
-)
-;
 let
 context
 =
@@ -1021,13 +1014,6 @@ quicksuggest
 nonsponsored
 "
 true
-)
-;
-await
-QuickSuggestTestUtils
-.
-forceSync
-(
 )
 ;
 }
