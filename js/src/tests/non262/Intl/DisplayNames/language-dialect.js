@@ -291,10 +291,8 @@ US
 "
 Englisch
 (
-USA
-)
-(
 Vereinfacht
+USA
 )
 "
 }
