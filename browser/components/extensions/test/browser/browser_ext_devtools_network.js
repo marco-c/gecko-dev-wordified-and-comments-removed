@@ -1507,6 +1507,8 @@ startsWith
 (
 "
 <
+!
+DOCTYPE
 html
 >
 "
