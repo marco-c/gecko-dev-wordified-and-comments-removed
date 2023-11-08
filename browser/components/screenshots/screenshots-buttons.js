@@ -82,8 +82,6 @@ class
 visible
 -
 page
-panel
--
 footer
 -
 button
@@ -120,8 +118,6 @@ class
 full
 -
 page
-panel
--
 footer
 -
 button
