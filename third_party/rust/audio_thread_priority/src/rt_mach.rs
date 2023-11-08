@@ -312,8 +312,6 @@ rv
 !
 =
 KERN_SUCCESS
-as
-i32
 {
 return
 Err
@@ -499,8 +497,6 @@ rv
 !
 =
 KERN_SUCCESS
-as
-i32
 {
 return
 Err
@@ -658,8 +654,6 @@ rv
 !
 =
 KERN_SUCCESS
-as
-i32
 {
 return
 Err
