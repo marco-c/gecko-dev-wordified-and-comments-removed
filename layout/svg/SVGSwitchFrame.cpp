@@ -165,7 +165,6 @@ SVGSwitchFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -210,7 +209,6 @@ aResult
 }
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -224,7 +222,6 @@ aLists
 )
 override
 ;
-virtual
 void
 PaintSVG
 (
@@ -258,7 +255,6 @@ ReflowSVG
 )
 override
 ;
-virtual
 SVGBBox
 GetBBoxContribution
 (

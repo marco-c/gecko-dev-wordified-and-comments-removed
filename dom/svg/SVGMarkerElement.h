@@ -370,7 +370,6 @@ GetAnimatedOrient
 )
 override
 ;
-virtual
 SVGAnimatedPreserveAspectRatio
 *
 GetAnimatedPreserveAspectRatio

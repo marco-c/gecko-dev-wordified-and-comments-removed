@@ -285,7 +285,6 @@ GetAnimatedViewBox
 )
 override
 ;
-virtual
 SVGAnimatedPreserveAspectRatio
 *
 GetAnimatedPreserveAspectRatio
