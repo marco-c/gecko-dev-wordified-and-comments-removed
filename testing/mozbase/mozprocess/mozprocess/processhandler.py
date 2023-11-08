@@ -1055,12 +1055,29 @@ handle
                     
 self
 .
+_handle
+=
+int
+(
+self
+.
+_handle
+)
+                    
+self
+.
 _internal_poll
 (
 _deadstate
 =
 _maxint
 )
+                    
+self
+.
+_handle
+=
+handle
                 
 if
 handle
