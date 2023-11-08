@@ -1009,6 +1009,17 @@ result
 ;
 JSString
 *
+FormatUTCOffsetNanoseconds
+(
+JSContext
+*
+cx
+int64_t
+offsetNanoseconds
+)
+;
+JSString
+*
 GetOffsetStringFor
 (
 JSContext
