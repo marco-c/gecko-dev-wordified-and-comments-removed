@@ -692,10 +692,7 @@ detail
 .
 aid
 ;
-this
-.
-#
-product
+ShoppingProduct
 .
 sendAttributionEvent
 (
@@ -730,10 +727,7 @@ detail
 .
 aid
 ;
-this
-.
-#
-product
+ShoppingProduct
 .
 sendAttributionEvent
 (
