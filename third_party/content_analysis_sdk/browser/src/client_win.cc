@@ -1703,11 +1703,6 @@ hPipe_
 INVALID_HANDLE_VALUE
 )
 {
-FlushFileBuffers
-(
-hPipe_
-)
-;
 CloseHandle
 (
 hPipe_
