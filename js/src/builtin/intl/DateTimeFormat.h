@@ -329,7 +329,7 @@ nodiscard
 ]
 extern
 bool
-intl_DateTimeFormat
+intl_CreateDateTimeFormat
 (
 JSContext
 *
