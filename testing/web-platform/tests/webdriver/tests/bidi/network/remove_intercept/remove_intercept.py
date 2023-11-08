@@ -370,7 +370,6 @@ on_response_completed
 =
 wait_for_event
 (
-f
 "
 network
 .

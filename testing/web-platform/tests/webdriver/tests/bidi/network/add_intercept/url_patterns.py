@@ -756,8 +756,6 @@ def
 test_pattern_patterns_matching
 (
     
-bidi_session
-    
 wait_for_event
     
 setup_network_test
@@ -774,8 +772,6 @@ url_template
 )
 :
     
-network_events
-=
 await
 setup_network_test
 (
@@ -1227,8 +1223,6 @@ def
 test_pattern_patterns_not_matching
 (
     
-bidi_session
-    
 wait_for_event
     
 setup_network_test
@@ -1245,8 +1239,6 @@ url_template
 )
 :
     
-network_events
-=
 await
 setup_network_test
 (
@@ -1299,8 +1291,6 @@ pattern
 }
 )
     
-intercept
-=
 await
 add_intercept
 (
@@ -1798,11 +1788,7 @@ def
 test_string_patterns_matching
 (
     
-bidi_session
-    
 wait_for_event
-    
-url
     
 setup_network_test
     
@@ -1818,8 +1804,6 @@ url_template
 )
 :
     
-network_events
-=
 await
 setup_network_test
 (
@@ -2247,8 +2231,6 @@ def
 test_string_patterns_not_matching
 (
     
-bidi_session
-    
 wait_for_event
     
 setup_network_test
@@ -2265,8 +2247,6 @@ url_template
 )
 :
     
-network_events
-=
 await
 setup_network_test
 (
@@ -2285,8 +2265,6 @@ beforeRequestSent
     
 )
     
-intercept
-=
 await
 add_intercept
 (

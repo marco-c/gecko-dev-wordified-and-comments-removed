@@ -3,16 +3,6 @@ asyncio
 import
 pytest
 from
-webdriver
-.
-bidi
-.
-modules
-.
-script
-import
-ContextTarget
-from
 tests
 .
 support
@@ -195,7 +185,7 @@ async
 def
 on_event
 (
-_
+method
 data
 )
 :
@@ -763,6 +753,10 @@ events
 0
 ]
         
+expected_request
+=
+expected_request
+        
 expected_response
 =
 expected_response
@@ -1021,6 +1015,10 @@ events
 expected_request
 =
 expected_request
+        
+expected_response
+=
+expected_response
         
 redirect_count
 =

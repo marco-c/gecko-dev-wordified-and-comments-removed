@@ -913,7 +913,7 @@ async
 def
 on_event
 (
-_
+method
 data
 )
 :

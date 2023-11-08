@@ -14,8 +14,6 @@ any_int_or_null
     
 any_list
     
-any_list_or_null
-    
 any_string
     
 any_string_or_null
