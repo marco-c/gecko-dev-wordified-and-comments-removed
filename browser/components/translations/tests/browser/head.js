@@ -3427,6 +3427,7 @@ function
 switchTab
 (
 tab
+name
 )
 {
 info
@@ -3434,7 +3435,10 @@ info
 "
 Switching
 tabs
+to
 "
++
+name
 )
 ;
 await
