@@ -839,11 +839,6 @@ epochNanoseconds
 GetUTCEpochNanoseconds
 (
 dateTime
-)
-;
-auto
-offsetNs
-=
 InstantSpan
 :
 :
@@ -851,12 +846,7 @@ fromNanoseconds
 (
 offsetNanoseconds
 )
-;
-epochNanoseconds
-=
-epochNanoseconds
--
-offsetNs
+)
 ;
 if
 (
