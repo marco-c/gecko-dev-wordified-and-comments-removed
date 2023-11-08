@@ -674,7 +674,7 @@ PlainDateObject
 *
 >
 >
-relativeTo
+plainRelativeTo
 Duration
 *
 result
@@ -704,7 +704,7 @@ Handle
 ZonedDateTimeObject
 *
 >
-relativeTo
+zonedRelativeTo
 Duration
 *
 result
