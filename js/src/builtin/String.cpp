@@ -19424,14 +19424,15 @@ JSString
 *
 str
 =
-NewStringCopyNDontDeflate
+NewInlineString
 <
 CanGC
 >
 (
 cx
-&
+{
 c
+}
 1
 )
 ;
@@ -19740,7 +19741,7 @@ JSString
 *
 str
 =
-NewStringCopyNDontDeflate
+NewInlineString
 <
 CanGC
 >
