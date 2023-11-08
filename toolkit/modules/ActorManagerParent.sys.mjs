@@ -2738,10 +2738,6 @@ DOMContentLoaded
 :
 {
 }
-visibilitychange
-:
-{
-}
 }
 }
 matches
