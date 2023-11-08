@@ -258,6 +258,10 @@ await
 switchTab
 (
 spanishTab
+"
+spanish
+tab
+"
 )
 ;
 await
@@ -289,6 +293,10 @@ await
 switchTab
 (
 englishTab
+"
+english
+tab
+"
 )
 ;
 await
