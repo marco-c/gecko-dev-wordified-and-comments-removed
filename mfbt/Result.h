@@ -2982,6 +2982,8 @@ isErr
 template
 <
 typename
+V2
+typename
 E2
 typename
 =
@@ -2990,6 +2992,16 @@ std
 :
 enable_if_t
 <
+std
+:
+:
+is_convertible_v
+<
+V2
+V
+>
+&
+&
 std
 :
 :
@@ -3006,7 +3018,7 @@ Result
 (
 Result
 <
-V
+V2
 E2
 >
 &
