@@ -139,7 +139,7 @@ result
 Globals
 wanting
 to
-recieve
+receive
 messages
 using
 the
