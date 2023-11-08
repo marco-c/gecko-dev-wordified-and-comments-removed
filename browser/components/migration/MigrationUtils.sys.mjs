@@ -341,7 +341,7 @@ Localization
 "
 browser
 /
-migration
+migrationWizard
 .
 ftl
 "

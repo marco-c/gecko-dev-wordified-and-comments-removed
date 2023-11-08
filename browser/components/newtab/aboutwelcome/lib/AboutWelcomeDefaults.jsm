@@ -3784,7 +3784,7 @@ Localization
 "
 browser
 /
-migration
+migrationWizard
 .
 ftl
 "
@@ -3807,6 +3807,8 @@ gSourceL10n
 .
 formatValue
 (
+migration
+-
 source
 -
 name
