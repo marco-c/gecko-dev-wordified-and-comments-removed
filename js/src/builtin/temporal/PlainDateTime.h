@@ -609,7 +609,7 @@ JS
 :
 Handle
 <
-JSObject
+PlainObject
 *
 >
 options

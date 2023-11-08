@@ -17274,7 +17274,7 @@ false
 }
 Rooted
 <
-JSObject
+PlainObject
 *
 >
 dateOptions
