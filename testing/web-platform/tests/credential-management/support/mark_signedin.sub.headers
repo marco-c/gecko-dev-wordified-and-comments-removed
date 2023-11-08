@@ -50,3 +50,12 @@ Allow
 Credentials
 :
 true
+Supports
+-
+Loading
+-
+Mode
+:
+fenced
+-
+frame
