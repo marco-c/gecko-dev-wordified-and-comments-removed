@@ -1163,10 +1163,6 @@ mDontExclude
 =
 false
 ;
-nsIUDPSocket
-*
-mSocket
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
