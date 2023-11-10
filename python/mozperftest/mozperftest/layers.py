@@ -286,7 +286,7 @@ self
         
 self
 .
-debug
+info
 (
 "
 Running
@@ -322,7 +322,7 @@ traceback
         
 self
 .
-debug
+info
 (
 "
 Running
@@ -368,7 +368,7 @@ on_exception
         
 self
 .
-debug
+info
 (
 "
 Running
