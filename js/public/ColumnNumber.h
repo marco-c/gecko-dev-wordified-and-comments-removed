@@ -2310,7 +2310,6 @@ TaggedColumnNumberOneOrigin
 (
 LimitedColumnNumberOneOrigin
 (
-0
 )
 )
 ;
