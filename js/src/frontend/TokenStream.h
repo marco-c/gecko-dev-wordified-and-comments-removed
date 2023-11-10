@@ -6142,7 +6142,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 column
 )
@@ -6180,7 +6180,7 @@ offset
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 columnNumber
 ;
 computeLineAndColumn
@@ -6206,10 +6206,6 @@ JS
 ColumnNumberOneOrigin
 (
 columnNumber
-.
-oneOriginValue
-(
-)
 )
 ;
 return

@@ -3206,7 +3206,7 @@ endLineNum
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 startColumnIndex
 endColumnIndex
 ;

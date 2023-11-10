@@ -2463,7 +2463,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 tokenStream
@@ -2711,7 +2711,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 tokenStream
@@ -13091,7 +13091,7 @@ startLine
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 startColumn
 ;
 tokenStream
@@ -51244,7 +51244,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 tokenStream
@@ -51531,7 +51531,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 tokenStream

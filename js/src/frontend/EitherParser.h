@@ -156,7 +156,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 column
 )
