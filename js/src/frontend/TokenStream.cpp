@@ -4353,9 +4353,6 @@ JS
 :
 :
 ColumnNumberOneOrigin
-:
-:
-zero
 (
 )
 +
