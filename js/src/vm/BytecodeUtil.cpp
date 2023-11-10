@@ -654,7 +654,7 @@ lineNumber
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 columnNumber
 ;
 lineNumber

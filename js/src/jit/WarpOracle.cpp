@@ -4152,7 +4152,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 column
 )
@@ -4304,7 +4304,7 @@ maybe_unused
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 LineNumberAndColumn
@@ -4466,7 +4466,7 @@ maybe_unused
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 LineNumberAndColumn
@@ -4654,7 +4654,7 @@ maybe_unused
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 LineNumberAndColumn
@@ -4809,7 +4809,7 @@ maybe_unused
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 LineNumberAndColumn

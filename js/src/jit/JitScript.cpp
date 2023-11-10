@@ -3279,7 +3279,7 @@ pcOffset
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 unsigned

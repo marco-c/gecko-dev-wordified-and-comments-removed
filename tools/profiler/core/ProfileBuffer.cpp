@@ -1140,7 +1140,7 @@ pc
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 col
 ;
 line

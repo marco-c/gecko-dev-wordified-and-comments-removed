@@ -219,7 +219,7 @@ pc
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 columnp
 =

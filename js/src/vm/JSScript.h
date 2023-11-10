@@ -9888,7 +9888,7 @@ pc
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 columnp
 =
@@ -9904,7 +9904,7 @@ startLine
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 startCol
 SrcNote
 *
@@ -9921,7 +9921,7 @@ pc
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 columnp
 =

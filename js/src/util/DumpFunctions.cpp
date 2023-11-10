@@ -1705,7 +1705,7 @@ filename
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 unsigned

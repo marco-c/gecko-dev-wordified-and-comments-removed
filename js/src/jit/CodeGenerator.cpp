@@ -41441,7 +41441,7 @@ lineNumber
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 columnNumber
 ;
 if

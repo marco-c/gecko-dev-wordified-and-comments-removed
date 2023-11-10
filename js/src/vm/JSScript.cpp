@@ -14370,7 +14370,7 @@ startLine
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 startCol
 SrcNote
 *
@@ -14387,7 +14387,7 @@ pc
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 columnp
 )
@@ -14400,7 +14400,7 @@ startLine
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 =
 startCol
@@ -14506,10 +14506,7 @@ column
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
-:
-:
-zero
+LimitedColumnNumberOneOrigin
 (
 )
 ;
@@ -14542,6 +14539,11 @@ startLine
 ;
 column
 =
+JS
+:
+:
+LimitedColumnNumberOneOrigin
+(
 SrcNote
 :
 :
@@ -14551,6 +14553,7 @@ SetLineColumn
 getColumn
 (
 sn
+)
 )
 ;
 }
@@ -14575,10 +14578,7 @@ column
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
-:
-:
-zero
+LimitedColumnNumberOneOrigin
 (
 )
 ;
@@ -14601,6 +14601,11 @@ lineno
 ;
 column
 =
+JS
+:
+:
+LimitedColumnNumberOneOrigin
+(
 SrcNote
 :
 :
@@ -14610,6 +14615,7 @@ NewLineColumn
 getColumn
 (
 sn
+)
 )
 ;
 }
@@ -14671,7 +14677,7 @@ pc
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 columnp
 )
@@ -14695,11 +14701,17 @@ script
 lineno
 (
 )
+JS
+:
+:
+LimitedColumnNumberOneOrigin
+(
 script
 -
 >
 column
 (
+)
 )
 script
 -
