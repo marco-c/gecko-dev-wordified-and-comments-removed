@@ -12,6 +12,13 @@ test_detected_language
 )
 {
 const
+detectedLangTag
+=
+"
+en
+"
+;
+const
 {
 cleanup
 tab
@@ -24,6 +31,7 @@ loadTestPage
 page
 :
 ENGLISH_PAGE_URL
+detectedLangTag
 autoDownloadFromRemoteSettings
 :
 true
@@ -328,9 +336,7 @@ gibberish
 {
 docLangTag
 :
-"
-en
-"
+detectedLangTag
 userLangTag
 :
 null
