@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsClassHashtable
+nsRefPtrHashtable
 .
 h
 "
@@ -120,13 +120,10 @@ WakeLockListener
 >
 sSingleton
 ;
-nsClassHashtable
+nsRefPtrHashtable
 <
 nsStringHashKey
-RefPtr
-<
 WakeLockTopic
->
 >
 mTopics
 ;
