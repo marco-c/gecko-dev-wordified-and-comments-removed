@@ -4250,17 +4250,6 @@ android
 :
 [
 ]
-.
-*
--
-wayland
-/
-debug
-.
-*
-:
-[
-]
 default
 :
 built
