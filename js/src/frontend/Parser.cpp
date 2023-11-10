@@ -10232,6 +10232,9 @@ return
 SyntaxParseHandler
 :
 :
+Node
+:
+:
 NodeFailure
 ;
 }
@@ -15588,6 +15591,9 @@ syntaxParser
 innerFunctionForFunctionBox
 (
 SyntaxParseHandler
+:
+:
+Node
 :
 :
 NodeGeneric
@@ -53726,6 +53732,9 @@ handler_
 newRegExp
 (
 SyntaxParseHandler
+:
+:
+Node
 :
 :
 NodeGeneric
