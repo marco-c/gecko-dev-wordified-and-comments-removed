@@ -1207,6 +1207,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_AUTH_CACHE
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_COOKIE_BANNER_EXECUTED_RECORD
 resolve
 )
 ;
