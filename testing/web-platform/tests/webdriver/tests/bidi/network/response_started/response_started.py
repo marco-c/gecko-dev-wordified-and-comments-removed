@@ -1229,8 +1229,9 @@ test_www_authenticate
 (
     
 bidi_session
-new_tab
 url
+fetch
+new_tab
 wait_for_event
 setup_network_test
 )
@@ -1289,33 +1290,22 @@ wait_for_event
 RESPONSE_STARTED_EVENT
 )
     
-await
-bidi_session
+asyncio
 .
-browsing_context
-.
-navigate
+ensure_future
 (
-        
+fetch
+(
+auth_url
 context
 =
 new_tab
-[
-"
-context
-"
-]
-        
-url
-=
-auth_url
-        
-wait
+method
 =
 "
-none
+GET
 "
-    
+)
 )
     
 await
