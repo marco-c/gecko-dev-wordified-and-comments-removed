@@ -41,6 +41,13 @@ JSTESTS_EXTRA_ARGS
 jitflags
 =
 jstests
+-
+-
+run
+-
+slow
+-
+tests
 "
 }
 }
