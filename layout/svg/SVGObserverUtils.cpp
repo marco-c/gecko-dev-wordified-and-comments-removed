@@ -7479,6 +7479,7 @@ DeleteProperty
 <
 SVGRenderingObserverSet
 >
+true
 )
 ;
 }
