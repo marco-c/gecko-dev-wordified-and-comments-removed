@@ -1458,7 +1458,7 @@ convertLastNewLineToNewLineColumn
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 ;
@@ -1473,7 +1473,7 @@ convertLastSetLineToSetLineColumn
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 ;

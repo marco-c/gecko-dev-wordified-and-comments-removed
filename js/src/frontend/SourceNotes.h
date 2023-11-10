@@ -1068,7 +1068,7 @@ inline
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 fromOperand
 (
 ptrdiff_t
@@ -1079,7 +1079,7 @@ return
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 (
 operand
 )
@@ -1095,14 +1095,14 @@ toOperand
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 {
 return
 column
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 ;
@@ -1112,7 +1112,7 @@ inline
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 getColumn
 (
 const
@@ -1274,7 +1274,7 @@ inline
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 columnFromOperand
 (
 ptrdiff_t
@@ -1285,7 +1285,7 @@ return
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 (
 operand
 )
@@ -1301,14 +1301,14 @@ columnToOperand
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 {
 return
 column
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 ;
@@ -1331,7 +1331,7 @@ inline
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 getColumn
 (
 const
@@ -1905,7 +1905,7 @@ inline
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 SrcNote
 :
 :
@@ -2024,7 +2024,7 @@ inline
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 SrcNote
 :
 :

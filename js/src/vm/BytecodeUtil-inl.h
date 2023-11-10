@@ -993,11 +993,6 @@ initialLine
 ;
 column
 =
-JS
-:
-:
-LimitedColumnNumberOneOrigin
-(
 SrcNote
 :
 :
@@ -1007,7 +1002,6 @@ SetLineColumn
 getColumn
 (
 sn
-)
 )
 ;
 }
@@ -1055,11 +1049,6 @@ lineno
 ;
 column
 =
-JS
-:
-:
-LimitedColumnNumberOneOrigin
-(
 SrcNote
 :
 :
@@ -1069,7 +1058,6 @@ NewLineColumn
 getColumn
 (
 sn
-)
 )
 ;
 }

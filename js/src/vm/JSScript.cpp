@@ -14539,11 +14539,6 @@ startLine
 ;
 column
 =
-JS
-:
-:
-LimitedColumnNumberOneOrigin
-(
 SrcNote
 :
 :
@@ -14553,7 +14548,6 @@ SetLineColumn
 getColumn
 (
 sn
-)
 )
 ;
 }
@@ -14601,11 +14595,6 @@ lineno
 ;
 column
 =
-JS
-:
-:
-LimitedColumnNumberOneOrigin
-(
 SrcNote
 :
 :
@@ -14615,7 +14604,6 @@ NewLineColumn
 getColumn
 (
 sn
-)
 )
 ;
 }
@@ -19796,6 +19784,11 @@ lineno
 ;
 column
 =
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
+(
 SrcNote
 :
 :
@@ -19805,6 +19798,7 @@ SetLineColumn
 getColumn
 (
 sn
+)
 )
 ;
 sp
@@ -19862,6 +19856,11 @@ NewLineColumn
 :
 column
 =
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
+(
 SrcNote
 :
 :
@@ -19871,6 +19870,7 @@ NewLineColumn
 getColumn
 (
 sn
+)
 )
 ;
 sp
