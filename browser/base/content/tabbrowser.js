@@ -14091,6 +14091,7 @@ animate
 suppressWarnAboutClosingWindow
 skipPermitUnload
 skipRemoves
+skipSessionStore
 }
 )
 {
@@ -14285,6 +14286,7 @@ true
 skipPermitUnload
 :
 true
+skipSessionStore
 }
 )
 ;
@@ -14375,6 +14377,7 @@ prewarmed
 :
 true
 skipPermitUnload
+skipSessionStore
 }
 )
 ;
@@ -14511,6 +14514,9 @@ false
 skipPermitUnload
 =
 false
+skipSessionStore
+=
+false
 }
 =
 {
@@ -14605,6 +14611,7 @@ skipPermitUnload
 skipRemoves
 :
 false
+skipSessionStore
 }
 )
 ;
@@ -14672,6 +14679,7 @@ prewarmed
 :
 true
 skipPermitUnload
+skipSessionStore
 }
 ;
 for
@@ -14809,6 +14817,7 @@ triggeringEvent
 skipPermitUnload
 closeWindowWithLastTab
 prewarmed
+skipSessionStore
 }
 =
 {
@@ -14962,6 +14971,7 @@ true
 skipPermitUnload
 closeWindowWithLastTab
 prewarmed
+skipSessionStore
 }
 )
 )
@@ -15280,6 +15290,9 @@ closeWindowWithLastTab
 closeWindowFastpath
 skipPermitUnload
 prewarmed
+skipSessionStore
+=
+false
 }
 =
 {
@@ -15856,6 +15869,7 @@ detail
 adoptedBy
 :
 adoptedByTab
+skipSessionStore
 }
 }
 )
