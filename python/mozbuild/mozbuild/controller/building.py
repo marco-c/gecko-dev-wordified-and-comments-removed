@@ -6791,10 +6791,7 @@ append_env
         
 record_usage
 =
-status
-=
-=
-0
+True
         
 if
 "
