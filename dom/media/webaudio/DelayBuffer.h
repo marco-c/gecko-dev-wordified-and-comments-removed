@@ -301,7 +301,7 @@ AudioChunk
 >
 mChunks
 ;
-AutoTArray
+CopyableAutoTArray
 <
 const
 float
