@@ -33,16 +33,6 @@ String
 [
 0
 ]
-'
-(
-typed
-array
-)
-'
-:
-[
-0
-]
 }
 ;
 var
