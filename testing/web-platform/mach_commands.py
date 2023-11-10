@@ -1432,6 +1432,7 @@ True
 try
 :
             
+browser_cls
 kwargs
 =
 run
@@ -1470,26 +1471,24 @@ exit
 )
         
 for
-key
-value
+url_base
+test_root
 in
-list
-(
-iteritems
-(
 kwargs
 [
 "
 test_paths
 "
 ]
-)
+.
+items
+(
 )
 :
             
 meta_suffix
 =
-key
+url_base
 .
 strip
 (
@@ -1525,12 +1524,9 @@ meta_suffix
             
 )
             
-value
-[
-"
+test_root
+.
 metadata_path
-"
-]
 =
 meta_dir
             
