@@ -2747,7 +2747,7 @@ AudioDataValue
 aOutputBuffer
 )
 {
-AutoTArray
+CopyableAutoTArray
 <
 const
 SrcT
@@ -2757,7 +2757,9 @@ GUESS_AUDIO_CHANNELS
 channelData
 ;
 channelData
-=
+.
+AppendElements
+(
 aChunk
 .
 ChannelData
@@ -2766,9 +2768,6 @@ SrcT
 >
 (
 )
-.
-Clone
-(
 )
 ;
 if
