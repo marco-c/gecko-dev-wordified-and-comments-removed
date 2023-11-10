@@ -839,6 +839,13 @@ display
 :
 flex
 ;
+outline
+-
+offset
+:
+-
+2px
+;
 /
 *
 Break
