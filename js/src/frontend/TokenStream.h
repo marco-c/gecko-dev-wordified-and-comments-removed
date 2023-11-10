@@ -6121,7 +6121,7 @@ protected
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 computeColumn
 (
 LineToken
@@ -8112,7 +8112,7 @@ lineToken
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 columnAt
 (
 size_t

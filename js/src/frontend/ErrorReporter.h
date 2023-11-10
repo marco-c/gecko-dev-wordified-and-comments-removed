@@ -1284,7 +1284,7 @@ virtual
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 columnAt
 (
 size_t
