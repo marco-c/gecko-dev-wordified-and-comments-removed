@@ -2078,13 +2078,6 @@ index
 "
 )
 ;
-this
-.
-hideNavToolbox
-(
-false
-)
-;
 }
 }
 handleEvent
