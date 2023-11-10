@@ -25113,7 +25113,7 @@ lineno
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 columnNumber
 ;
 *
@@ -25158,7 +25158,7 @@ column
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 columnNumber
 ;
 i

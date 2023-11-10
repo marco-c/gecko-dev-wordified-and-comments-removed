@@ -7498,7 +7498,7 @@ filename
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 columnNumber
 ;
 err
@@ -7524,10 +7524,16 @@ JS
 :
 ColumnNumberZeroOrigin
 (
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
+(
 columnNumber
 .
 toLimitedColumnNumber
 (
+)
 )
 )
 ;

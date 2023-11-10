@@ -1170,7 +1170,7 @@ computeLine
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 *
 column
 )
@@ -1199,12 +1199,12 @@ column
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 (
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 (
 JS
 :
@@ -1212,7 +1212,7 @@ JS
 WasmFunctionIndex
 :
 :
-DefaultBinarySourceColumnNumberZeroOrigin
+DefaultBinarySourceColumnNumberOneOrigin
 )
 )
 ;
@@ -1235,7 +1235,7 @@ funcIndex
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 :
 :
 WasmFunctionTag
@@ -1253,7 +1253,7 @@ column
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 (
 JS
 :

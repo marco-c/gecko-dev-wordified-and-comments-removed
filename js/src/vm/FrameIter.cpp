@@ -3034,7 +3034,7 @@ computeLine
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 *
 column
 )
@@ -3108,9 +3108,15 @@ column
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
+(
+JS
+:
+:
+LimitedColumnNumberOneOrigin
 (
 columnNumber
+)
 )
 ;
 }

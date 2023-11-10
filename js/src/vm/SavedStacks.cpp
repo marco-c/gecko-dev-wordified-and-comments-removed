@@ -10034,7 +10034,7 @@ false
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 column
 ;
 locationp
@@ -10054,13 +10054,7 @@ locationp
 .
 setColumn
 (
-JS
-:
-:
-TaggedColumnNumberOneOrigin
-(
 column
-)
 )
 ;
 return

@@ -276,7 +276,7 @@ computeLine
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 *
 column
 )

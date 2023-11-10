@@ -1476,7 +1476,7 @@ else
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 tmp
 ;
 lineNumber
