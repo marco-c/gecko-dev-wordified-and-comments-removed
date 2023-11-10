@@ -287,7 +287,7 @@ RemoteSettings
 (
 SearchUtils
 .
-SETTINGS_KEY
+OLD_SETTINGS_KEY
 )
 ;
 getStub
@@ -943,7 +943,7 @@ RemoteSettings
 (
 SearchUtils
 .
-SETTINGS_KEY
+OLD_SETTINGS_KEY
 )
 .
 emit
@@ -1063,7 +1063,7 @@ RemoteSettings
 (
 SearchUtils
 .
-SETTINGS_KEY
+OLD_SETTINGS_KEY
 )
 .
 db
@@ -1304,7 +1304,7 @@ RemoteSettings
 (
 SearchUtils
 .
-SETTINGS_KEY
+OLD_SETTINGS_KEY
 )
 .
 db
@@ -1510,7 +1510,7 @@ RemoteSettings
 (
 SearchUtils
 .
-SETTINGS_KEY
+OLD_SETTINGS_KEY
 )
 .
 db

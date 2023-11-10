@@ -92,15 +92,9 @@ true
 ]
 webExtension
 :
-{
-id
-:
 e
 .
 webExtension
-.
-id
-}
 }
 ;
 }

@@ -375,7 +375,7 @@ RemoteSettings
 (
 SearchUtils
 .
-SETTINGS_KEY
+OLD_SETTINGS_KEY
 )
 ;
 sinon
