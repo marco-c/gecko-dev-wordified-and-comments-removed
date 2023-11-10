@@ -150,6 +150,13 @@ js
 ]
 [
 "
+browser_parse_name_fields
+.
+js
+"
+]
+[
+"
 browser_parse_street_address_fields
 .
 js
