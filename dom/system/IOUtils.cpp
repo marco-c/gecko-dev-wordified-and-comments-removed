@@ -1759,7 +1759,7 @@ lineNo
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 colNo
 ;
 NS_ENSURE_TRUE

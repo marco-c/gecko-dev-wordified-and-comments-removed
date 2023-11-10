@@ -2376,7 +2376,7 @@ lineNum
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNum
 ;
 if

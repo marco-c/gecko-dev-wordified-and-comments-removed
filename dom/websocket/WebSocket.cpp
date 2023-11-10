@@ -5887,7 +5887,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 JS
@@ -6989,7 +6989,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 JS

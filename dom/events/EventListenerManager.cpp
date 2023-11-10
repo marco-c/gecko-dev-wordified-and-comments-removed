@@ -5294,7 +5294,7 @@ lineNum
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNum
 ;
 JSContext

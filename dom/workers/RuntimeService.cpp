@@ -2543,7 +2543,7 @@ lineNum
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNum
 ;
 JS

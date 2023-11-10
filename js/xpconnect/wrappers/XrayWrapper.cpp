@@ -1082,7 +1082,7 @@ line
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 DescribeScriptedCaller
