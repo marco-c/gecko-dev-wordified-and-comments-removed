@@ -1180,11 +1180,6 @@ lineNumber
 *
 columnNumber
 =
-JS
-:
-:
-ColumnNumberOneOrigin
-(
 module
 .
 requestedModules
@@ -1196,7 +1191,6 @@ index
 .
 columnNumber
 (
-)
 )
 ;
 }
@@ -4107,7 +4101,7 @@ line
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 {
@@ -4379,13 +4373,7 @@ JSEXN_SYNTAXERR
 nullptr
 filename
 line
-JS
-:
-:
-ColumnNumberOneOrigin
-(
 column
-)
 nullptr
 message
 JS

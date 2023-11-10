@@ -1551,12 +1551,12 @@ value
 }
 static
 Value
-ColumnNumberZeroOriginValue
+ColumnNumberOneOriginValue
 (
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 x
 )
 {
@@ -1565,7 +1565,7 @@ column
 =
 x
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 ;
@@ -2520,7 +2520,7 @@ DEFINE_GETTER_FUNCTIONS
 (
 ImportEntry
 columnNumber
-ColumnNumberZeroOriginValue
+ColumnNumberOneOriginValue
 IdentFilter
 )
 static
@@ -2616,7 +2616,7 @@ DEFINE_GETTER_FUNCTIONS
 (
 ExportEntry
 columnNumber
-ColumnNumberZeroOriginValue
+ColumnNumberOneOriginValue
 IdentFilter
 )
 static
@@ -2699,7 +2699,7 @@ DEFINE_GETTER_FUNCTIONS
 (
 RequestedModule
 columnNumber
-ColumnNumberZeroOriginValue
+ColumnNumberOneOriginValue
 IdentFilter
 )
 static
