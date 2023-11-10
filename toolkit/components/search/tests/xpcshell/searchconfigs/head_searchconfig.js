@@ -571,7 +571,7 @@ locales
 await
 this
 .
-_getLocales
+getLocales
 (
 )
 ;
@@ -791,7 +791,7 @@ null
 ;
 }
 async
-_getLocales
+getLocales
 (
 )
 {
