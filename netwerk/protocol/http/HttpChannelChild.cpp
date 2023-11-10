@@ -4371,10 +4371,6 @@ RefPtr
 RecordStopRequestDelta
 >
 timing
-(
-new
-RecordStopRequestDelta
-)
 ;
 TimeStamp
 start
@@ -4396,6 +4392,11 @@ network_send_OnDataFinished
 )
 )
 {
+timing
+=
+new
+RecordStopRequestDelta
+;
 mEventQ
 -
 >
@@ -4566,6 +4567,11 @@ AccumulateRawDuration
 delay
 )
 ;
+if
+(
+timing
+)
+{
 timing
 -
 >
@@ -4573,6 +4579,7 @@ mOnStopRequestTime
 =
 now
 ;
+}
 self
 -
 >
