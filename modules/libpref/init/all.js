@@ -12346,7 +12346,7 @@ abuseReport
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -12360,7 +12360,7 @@ amWebAPI
 .
 enabled
 "
-true
+false
 )
 ;
 pref
