@@ -2530,7 +2530,9 @@ PrefRequiresRefresh
 in
 reftest
 .
-jsm
+sys
+.
+mjs
 requiresRefresh
 =
 requiresRefresh

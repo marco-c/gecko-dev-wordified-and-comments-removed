@@ -636,7 +636,9 @@ lives
 in
 manifest
 .
-jsm
+sys
+.
+mjs
 <
 https
 :
@@ -660,7 +662,9 @@ reftest
 /
 manifest
 .
-jsm
+sys
+.
+mjs
 #
 439
 >
@@ -817,7 +821,9 @@ reftest
 /
 manifest
 .
-jsm
+sys
+.
+mjs
 +
 +
 +
@@ -831,7 +837,9 @@ reftest
 /
 manifest
 .
-jsm
+sys
+.
+mjs
 -
 572
 16

@@ -11,7 +11,7 @@ OnRefTestUnload
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ reftest
 /
 reftest
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
