@@ -191,11 +191,16 @@ idx
 )
 )
 elif
+(
 flag
 .
 startswith
 (
 (
+"
+-
+g
+"
 "
 -
 m
@@ -224,6 +229,7 @@ flag
 -
 fPIC
 "
+)
 :
 flags
 .
