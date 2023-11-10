@@ -21,19 +21,6 @@ foo
 ;
 }
 }
-if
-(
-!
-getBuildConfiguration
-(
-"
-root
--
-analysis
-"
-)
-)
-{
 foo
 =
 evalcx
@@ -77,4 +64,3 @@ fatty
 (
 )
 ;
-}
