@@ -1638,6 +1638,8 @@ TaskSignal
 aTaskSignal
 )
 {
+if
+(
 WebTaskQueue
 *
 const
@@ -1649,12 +1651,8 @@ Get
 (
 aTaskSignal
 )
-;
-MOZ_ASSERT
-(
-taskQueue
 )
-;
+{
 taskQueue
 -
 >
@@ -1668,6 +1666,7 @@ Priority
 )
 )
 ;
+}
 }
 WebTaskQueue
 &
