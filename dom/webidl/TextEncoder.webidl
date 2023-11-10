@@ -263,7 +263,6 @@ matched
 /
 [
 NewObject
-Throws
 ]
 Uint8Array
 encode

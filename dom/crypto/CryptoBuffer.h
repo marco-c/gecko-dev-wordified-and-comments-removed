@@ -214,9 +214,6 @@ ToUint8Array
 JSContext
 *
 aCx
-ErrorResult
-&
-aError
 )
 const
 ;
@@ -227,9 +224,6 @@ ToArrayBuffer
 JSContext
 *
 aCx
-ErrorResult
-&
-aError
 )
 const
 ;
