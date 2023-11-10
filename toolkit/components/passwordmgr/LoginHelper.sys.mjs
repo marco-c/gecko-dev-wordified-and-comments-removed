@@ -6383,6 +6383,15 @@ if
 newLogin
 .
 httpRealm
+|
+|
+newLogin
+.
+httpRealm
+=
+=
+"
+"
 )
 {
 /

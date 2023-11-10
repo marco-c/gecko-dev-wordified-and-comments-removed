@@ -1575,7 +1575,9 @@ passwordmgr
 /
 LoginHelper
 .
-jsm
+sys
+.
+jms
 /
 /
 TODO
@@ -1752,6 +1754,15 @@ if
 login
 .
 httpRealm
+|
+|
+login
+.
+httpRealm
+=
+=
+"
+"
 )
 {
 /
