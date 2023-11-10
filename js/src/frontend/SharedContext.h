@@ -2603,13 +2603,7 @@ extent_
 .
 column
 =
-JS
-:
-:
-LimitedColumnNumberZeroOrigin
-(
 column
-)
 ;
 }
 void

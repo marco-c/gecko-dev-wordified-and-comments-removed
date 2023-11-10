@@ -6194,9 +6194,15 @@ column
 const
 {
 return
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
+(
 extent_
 .
 column
+)
 ;
 }
 JS

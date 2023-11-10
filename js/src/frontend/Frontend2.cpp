@@ -2688,8 +2688,10 @@ column
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 (
+1
++
 smooshScript
 .
 extent
