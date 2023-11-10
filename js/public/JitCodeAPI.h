@@ -148,7 +148,7 @@ lineno
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 colno
 ;
 }
