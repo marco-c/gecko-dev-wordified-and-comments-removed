@@ -1220,7 +1220,7 @@ aLineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 aColumnNumber
 JS
 :

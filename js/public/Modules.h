@@ -522,7 +522,7 @@ lineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 *
 columnNumber
 )

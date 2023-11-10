@@ -1115,7 +1115,7 @@ lineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 *
 columnNumber
 )
@@ -1180,6 +1180,11 @@ lineNumber
 *
 columnNumber
 =
+JS
+:
+:
+ColumnNumberOneOrigin
+(
 module
 .
 requestedModules
@@ -1191,6 +1196,7 @@ index
 .
 columnNumber
 (
+)
 )
 ;
 }
