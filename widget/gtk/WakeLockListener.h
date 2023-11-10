@@ -120,10 +120,13 @@ WakeLockListener
 >
 sSingleton
 ;
-nsRefPtrHashtable
+nsClassHashtable
 <
 nsStringHashKey
+RefPtr
+<
 WakeLockTopic
+>
 >
 mTopics
 ;
