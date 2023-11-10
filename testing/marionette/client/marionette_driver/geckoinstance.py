@@ -2714,6 +2714,18 @@ resume_from_crash
 "
 :
 False
+        
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+:
+False
     
 }
     
