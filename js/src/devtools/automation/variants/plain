@@ -49,5 +49,14 @@ slow
 -
 tests
 "
+"
+JITTEST_EXTRA_ARGS
+"
+:
+"
+-
+-
+slow
+"
 }
 }
