@@ -1558,7 +1558,7 @@ ScopeKind
 Lexical
 )
 ;
-ClassBodyScopeNodeType
+ClassBodyScopeNodeResult
 finishClassBodyScope
 (
 ParseContext
@@ -4248,7 +4248,7 @@ ClassStatement
 ClassExpression
 }
 ;
-ClassNodeType
+ClassNodeResult
 classDefinition
 (
 YieldHandling
@@ -4394,7 +4394,7 @@ ListNodeType
 classMembers
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 privateMethodInitializer
 (
 TokenPos
@@ -4405,7 +4405,7 @@ TaggedParserAtomIndex
 storedMethodAtom
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 fieldInitializerOpt
 (
 TokenPos
@@ -4423,7 +4423,7 @@ HasHeritage
 hasHeritage
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 synthesizePrivateMethodInitializer
 (
 TaggedParserAtomIndex
@@ -4437,7 +4437,7 @@ propNamePos
 #
 ifdef
 ENABLE_DECORATORS
-ClassMethodType
+ClassMethodResult
 synthesizeAccessor
 (
 Node
@@ -4457,7 +4457,7 @@ ClassInitializedMembers
 classInitializedMembers
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 synthesizeAccessorBody
 (
 TaggedParserAtomIndex
@@ -4472,7 +4472,7 @@ syntaxKind
 ;
 #
 endif
-FunctionNodeType
+FunctionNodeResult
 staticClassBlock
 (
 ClassInitializedMembers
@@ -4480,7 +4480,7 @@ ClassInitializedMembers
 classInitializedMembers
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 synthesizeConstructor
 (
 TaggedParserAtomIndex
@@ -4493,7 +4493,7 @@ hasHeritage
 ;
 protected
 :
-FunctionNodeType
+bool
 synthesizeConstructorBody
 (
 TokenPos
