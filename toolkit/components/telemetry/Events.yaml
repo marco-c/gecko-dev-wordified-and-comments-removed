@@ -3140,6 +3140,10 @@ capture_doorhanger
 "
 update_doorhanger
 "
+-
+"
+edit_doorhanger
+"
 methods
 :
 -
@@ -3165,6 +3169,10 @@ disable
 -
 "
 pref
+"
+-
+"
+learn_more
 "
 bug_numbers
 :
