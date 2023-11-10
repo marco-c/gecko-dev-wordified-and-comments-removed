@@ -76870,15 +76870,6 @@ lcpTime
 responseStart
 )
 ;
-GetNavigationTiming
-(
-)
--
->
-MaybeAddLCPProfilerMarker
-(
-)
-;
 }
 void
 Document
