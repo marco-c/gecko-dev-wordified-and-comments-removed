@@ -808,12 +808,6 @@ stackTop
 }
 )
 ;
-#
-if
-__ANDROID_API__
->
-=
-__ANDROID_API_L__
 pthread_attr_t
 attrs
 ;
@@ -870,8 +864,6 @@ stackSize
 -
 1
 ;
-#
-endif
 #
 endif
 }

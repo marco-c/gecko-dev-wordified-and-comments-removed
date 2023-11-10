@@ -767,16 +767,6 @@ return
 nullptr
 ;
 }
-#
-if
-__ANDROID_API__
-<
-__ANDROID_API_L__
-return
-nullptr
-;
-#
-else
 const
 auto
 *
@@ -885,8 +875,6 @@ AndroidPerformanceHintSession
 session
 )
 ;
-#
-endif
 }
 }
 }

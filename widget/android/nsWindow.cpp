@@ -1887,19 +1887,6 @@ win
 ;
 #
 endif
-if
-(
-jni
-:
-:
-GetAPIVersion
-(
-)
->
-=
-19
-)
-{
 mAndroidVsync
 =
 AndroidVsync
@@ -1909,7 +1896,6 @@ GetInstance
 (
 )
 ;
-}
 }
 ~
 NPZCSupport
