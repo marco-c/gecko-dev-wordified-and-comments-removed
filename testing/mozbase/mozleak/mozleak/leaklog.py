@@ -1010,6 +1010,26 @@ list
 ignore_missing_leaks
 .
     
+Returns
+a
+list
+of
+files
+that
+were
+processed
+.
+The
+caller
+is
+responsible
+for
+    
+cleaning
+these
+up
+.
+    
 "
 "
 "
@@ -1021,6 +1041,11 @@ or
 _get_default_logger
 (
 )
+    
+processed_files
+=
+[
+]
     
 leakLogFile
 =
@@ -1061,6 +1086,7 @@ detected
 )
         
 return
+processed_files
     
 log
 .
@@ -1465,3 +1491,13 @@ allowed
 allowed
             
 )
+            
+processed_files
+.
+append
+(
+thisFile
+)
+    
+return
+processed_files

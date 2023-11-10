@@ -3905,6 +3905,10 @@ not
 None
 :
             
+processed_files
+=
+None
+            
 if
 not
 clean_shutdown
@@ -3951,6 +3955,8 @@ self
 leak_report_file
 )
                 
+processed_files
+=
 mozleak
 .
 process_leak_log
@@ -4007,6 +4013,34 @@ allowed
 self
 .
 mozleak_allowed
+)
+            
+if
+processed_files
+:
+                
+for
+path
+in
+processed_files
+:
+                    
+if
+os
+.
+path
+.
+exists
+(
+path
+)
+:
+                        
+os
+.
+unlink
+(
+path
 )
             
 if
