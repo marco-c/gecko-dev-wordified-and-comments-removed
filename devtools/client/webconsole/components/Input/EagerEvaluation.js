@@ -266,7 +266,7 @@ terminalEagerResult
 PropTypes
 .
 any
-hud
+serviceContainer
 :
 PropTypes
 .

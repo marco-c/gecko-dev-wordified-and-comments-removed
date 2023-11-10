@@ -121,7 +121,7 @@ foo
 )
 ;
 await
-waitForPausedInOriginalFileAndToggleMapScopes
+waitForPaused
 (
 dbg
 "

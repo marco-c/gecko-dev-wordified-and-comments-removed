@@ -361,7 +361,7 @@ runWasm
 )
 ;
 await
-waitForPausedInOriginalFileAndToggleMapScopes
+waitForPaused
 (
 dbg
 )
@@ -662,7 +662,7 @@ jumpToMappedSelectedLocation
 )
 ;
 await
-waitForPausedInOriginalFileAndToggleMapScopes
+waitForPaused
 (
 dbg
 )

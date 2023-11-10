@@ -150,7 +150,7 @@ logMessage
 )
 ;
 await
-waitForPausedInOriginalFileAndToggleMapScopes
+waitForPaused
 (
 dbg
 )
