@@ -1954,10 +1954,12 @@ None
 )
     
 (
+        
 "
 window
 "
 {
+            
 "
 type
 "
@@ -1965,7 +1967,23 @@ type
 "
 window
 "
+            
+"
+value
+"
+:
+{
+                
+"
+context
+"
+:
+any_string
+            
 }
+        
+}
+    
 )
     
 (
