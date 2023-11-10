@@ -1057,14 +1057,12 @@ offsetSamples
 ;
 }
 AudioChannelsDownMix
+<
+AudioDataValue
+>
 (
 channelData
 outChannelPtrs
-.
-Elements
-(
-)
-aOutputChannels
 frames
 )
 ;
