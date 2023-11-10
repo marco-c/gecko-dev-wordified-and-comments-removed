@@ -231,7 +231,7 @@ Maybe
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 >
 column
 =
