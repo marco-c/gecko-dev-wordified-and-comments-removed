@@ -348,3 +348,7 @@ HTMLButtonElement
 includes
 PopoverInvokerElement
 ;
+HTMLButtonElement
+includes
+InvokerElement
+;

@@ -78,6 +78,7 @@ DOMString
 action
 =
 "
+auto
 "
 ;
 }
