@@ -59,6 +59,14 @@ return
 mParent
 ;
 }
+already_AddRefed
+<
+WebAuthnManager
+>
+GetWebAuthnManager
+(
+)
+;
 virtual
 JSObject
 *

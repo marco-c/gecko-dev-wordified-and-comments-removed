@@ -91,6 +91,11 @@ nsIWebAuthnService
 :
 nsISupports
 {
+readonly
+attribute
+bool
+isUVPAA
+;
 void
 makeCredential
 (

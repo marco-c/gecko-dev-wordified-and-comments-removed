@@ -536,6 +536,16 @@ WebAuthnGetAssertionInfo
 aTransactionInfo
 )
 ;
+async
+RequestIsUVPAA
+(
+)
+returns
+(
+bool
+available
+)
+;
 [
 Tainted
 ]
