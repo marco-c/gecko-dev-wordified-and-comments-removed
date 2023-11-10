@@ -55297,7 +55297,7 @@ typename
 ParseHandler
 :
 :
-ListNodeType
+ListNodeResult
 GeneralParser
 <
 ParseHandler
@@ -55336,7 +55336,7 @@ begin
 ListNodeType
 literal
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 literal
 handler_
@@ -55348,9 +55348,6 @@ pos
 )
 .
 begin
-)
-null
-(
 )
 )
 ;
@@ -55379,7 +55376,7 @@ tt
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -55448,7 +55445,7 @@ SlashIsRegExp
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -55456,7 +55453,7 @@ null
 Node
 inner
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 inner
 assignExpr
@@ -55464,9 +55461,6 @@ assignExpr
 InAllowed
 yieldHandling
 TripledotProhibited
-)
-null
-(
 )
 )
 ;
@@ -55484,7 +55478,7 @@ inner
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -55509,7 +55503,7 @@ propType
 Node
 propName
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 propName
 propertyOrMethodName
@@ -55524,9 +55518,6 @@ literal
 propType
 &
 propAtom
-)
-null
-(
 )
 )
 ;
@@ -55561,7 +55552,7 @@ SlashIsRegExp
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -55569,7 +55560,7 @@ null
 Node
 propExpr
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 propExpr
 assignExpr
@@ -55577,9 +55568,6 @@ assignExpr
 InAllowed
 yieldHandling
 TripledotProhibited
-)
-null
-(
 )
 )
 ;
@@ -55608,7 +55596,7 @@ JSMSG_RECORD_NO_PROTO
 )
 ;
 return
-null
+errorResult
 (
 )
 ;
@@ -55616,7 +55604,7 @@ null
 BinaryNodeType
 propDef
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 propDef
 handler_
@@ -55625,9 +55613,6 @@ newPropertyDefinition
 (
 propName
 propExpr
-)
-null
-(
 )
 )
 ;
@@ -55667,7 +55652,7 @@ name
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -55675,15 +55660,12 @@ null
 NameNodeType
 nameExpr
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 nameExpr
 identifierReference
 (
 name
-)
-null
-(
 )
 )
 ;
@@ -55706,7 +55688,7 @@ nameExpr
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -55720,7 +55702,7 @@ JSMSG_BAD_PROP_ID
 )
 ;
 return
-null
+errorResult
 (
 )
 ;
@@ -55750,7 +55732,7 @@ SlashIsInvalid
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -55798,7 +55780,7 @@ openedPos
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -55830,7 +55812,7 @@ typename
 ParseHandler
 :
 :
-ListNodeType
+ListNodeResult
 GeneralParser
 <
 ParseHandler
@@ -55869,7 +55851,7 @@ begin
 ListNodeType
 literal
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 literal
 handler_
@@ -55877,9 +55859,6 @@ handler_
 newTupleLiteral
 (
 begin
-)
-null
-(
 )
 )
 ;
@@ -55913,7 +55892,7 @@ JSMSG_ARRAY_INIT_TOO_BIG
 )
 ;
 return
-null
+errorResult
 (
 )
 ;
@@ -55938,7 +55917,7 @@ SlashIsRegExp
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -56011,7 +55990,7 @@ SlashIsRegExp
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -56019,7 +55998,7 @@ null
 Node
 inner
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 inner
 assignExpr
@@ -56027,9 +56006,6 @@ assignExpr
 InAllowed
 yieldHandling
 TripledotProhibited
-)
-null
-(
 )
 )
 ;
@@ -56047,7 +56023,7 @@ inner
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -56075,7 +56051,7 @@ SlashIsRegExp
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -56083,7 +56059,7 @@ null
 Node
 element
 ;
-MOZ_TRY_VAR_OR_RETURN
+MOZ_TRY_VAR
 (
 element
 assignExpr
@@ -56091,9 +56067,6 @@ assignExpr
 InAllowed
 yieldHandling
 TripledotProhibited
-)
-null
-(
 )
 )
 ;
@@ -56130,7 +56103,7 @@ SlashIsRegExp
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -56178,7 +56151,7 @@ begin
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -57329,12 +57302,9 @@ TokenKind
 HashCurly
 :
 return
-toResult
-(
 recordLiteral
 (
 yieldHandling
-)
 )
 ;
 case
@@ -57344,12 +57314,9 @@ TokenKind
 HashBracket
 :
 return
-toResult
-(
 tupleLiteral
 (
 yieldHandling
-)
 )
 ;
 #

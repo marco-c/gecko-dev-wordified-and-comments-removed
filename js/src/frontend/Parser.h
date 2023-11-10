@@ -4768,14 +4768,14 @@ possibleError
 #
 ifdef
 ENABLE_RECORD_TUPLE
-ListNodeType
+ListNodeResult
 recordLiteral
 (
 YieldHandling
 yieldHandling
 )
 ;
-ListNodeType
+ListNodeResult
 tupleLiteral
 (
 YieldHandling
