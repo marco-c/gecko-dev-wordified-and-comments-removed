@@ -1846,6 +1846,11 @@ CollectOMTTelemetry
 )
 ;
 void
+CollectMixedContentTelemetry
+(
+)
+;
+void
 RecordChannelCompletionDurationForEarlyHint
 (
 )
