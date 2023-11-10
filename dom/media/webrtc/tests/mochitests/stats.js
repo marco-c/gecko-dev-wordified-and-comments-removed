@@ -2628,8 +2628,6 @@ ok
 avgJitterBufferDelay
 >
 0
-.
-001
 &
 &
 avgJitterBufferDelay
