@@ -846,6 +846,11 @@ ffi
 :
 WGPUTextureFormat
 aFormat
+ffi
+:
+:
+WGPUTextureUsages
+aUsage
 )
 ;
 std
@@ -878,6 +883,11 @@ ffi
 :
 WGPUTextureFormat
 aFormat
+ffi
+:
+:
+WGPUTextureUsages
+aUsage
 )
 ;
 std

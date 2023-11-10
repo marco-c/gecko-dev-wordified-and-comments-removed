@@ -235,6 +235,8 @@ aHeight
 struct
 WGPUTextureFormat
 aFormat
+WGPUTextureUsages
+aUsage
 )
 {
 auto
@@ -262,6 +264,7 @@ aTextureId
 aWidth
 aHeight
 aFormat
+aUsage
 )
 ;
 }
@@ -8464,6 +8467,11 @@ ffi
 :
 WGPUTextureFormat
 aFormat
+ffi
+:
+:
+WGPUTextureUsages
+aUsage
 )
 {
 auto
@@ -8617,6 +8625,15 @@ tag
 aFormat
 .
 tag
+&
+&
+texture
+-
+>
+mUsage
+=
+=
+aUsage
 )
 {
 data
@@ -8660,6 +8677,7 @@ aTextureId
 aWidth
 aHeight
 aFormat
+aUsage
 )
 ;
 if
@@ -8709,6 +8727,11 @@ ffi
 :
 WGPUTextureFormat
 aFormat
+ffi
+:
+:
+WGPUTextureUsages
+aUsage
 )
 {
 MOZ_RELEASE_ASSERT
@@ -8742,6 +8765,7 @@ Create
 aWidth
 aHeight
 aFormat
+aUsage
 )
 ;
 if

@@ -53,6 +53,12 @@ ffi
 :
 WGPUTextureFormat
 aFormat
+const
+ffi
+:
+:
+WGPUTextureUsages
+aUsage
 )
 ;
 ExternalTextureD3D11
@@ -70,6 +76,12 @@ ffi
 :
 WGPUTextureFormat
 aFormat
+const
+ffi
+:
+:
+WGPUTextureUsages
+aUsage
 RefPtr
 <
 ID3D11Texture2D
