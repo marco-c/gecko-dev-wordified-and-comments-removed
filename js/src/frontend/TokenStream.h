@@ -6203,9 +6203,13 @@ columnNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 (
 columnNumber
+.
+oneOriginValue
+(
+)
 )
 ;
 return

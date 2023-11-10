@@ -89,7 +89,7 @@ lineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber
 ;
 JS
