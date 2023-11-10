@@ -1288,10 +1288,6 @@ span
 self
 .
 span
-.
-clone
-(
-)
 message
 :
 self

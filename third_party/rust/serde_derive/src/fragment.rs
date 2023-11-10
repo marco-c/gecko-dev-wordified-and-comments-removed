@@ -14,7 +14,10 @@ use
 syn
 :
 :
+{
 token
+Token
+}
 ;
 pub
 enum

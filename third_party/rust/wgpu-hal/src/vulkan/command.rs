@@ -3420,7 +3420,7 @@ wgt
 :
 :
 ShaderStages
-offset
+offset_bytes
 :
 u32
 data
@@ -3454,7 +3454,7 @@ map_shader_stage
 (
 stages
 )
-offset
+offset_bytes
 slice
 :
 :

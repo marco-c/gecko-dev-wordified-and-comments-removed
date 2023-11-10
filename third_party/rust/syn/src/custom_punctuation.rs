@@ -271,7 +271,7 @@ impl
 crate
 :
 :
-token
+__private
 :
 :
 CustomToken
@@ -293,6 +293,12 @@ Cursor
 )
 -
 >
+crate
+:
+:
+__private
+:
+:
 bool
 {
 crate
@@ -857,10 +863,7 @@ crate
 __private
 :
 :
-fmt
-:
-:
-Result
+FmtResult
 {
 crate
 :

@@ -1,10 +1,16 @@
 use
+crate
+:
+:
 lib
 :
 :
 *
 ;
 use
+crate
+:
+:
 de
 :
 :
@@ -27,6 +33,7 @@ Copy
 Clone
 Debug
 Default
+PartialEq
 )
 ]
 pub
@@ -155,9 +162,6 @@ Ok
 IgnoredAny
 )
 }
-serde_if_integer128
-!
-{
 #
 [
 inline
@@ -193,7 +197,6 @@ Ok
 (
 IgnoredAny
 )
-}
 }
 #
 [
@@ -231,9 +234,6 @@ Ok
 IgnoredAny
 )
 }
-serde_if_integer128
-!
-{
 #
 [
 inline
@@ -269,7 +269,6 @@ Ok
 (
 IgnoredAny
 )
-}
 }
 #
 [
@@ -539,7 +538,7 @@ Some
 IgnoredAny
 )
 =
-try
+tri
 !
 (
 seq
@@ -603,7 +602,7 @@ IgnoredAny
 )
 )
 =
-try
+tri
 !
 (
 map
@@ -695,7 +694,7 @@ EnumAccess
 de
 >
 {
-try
+tri
 !
 (
 data

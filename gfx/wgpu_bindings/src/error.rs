@@ -1074,8 +1074,8 @@ CreateTextureError
 :
 InvalidSampleCount
 (
-_
-_
+.
+.
 )
 |
 CreateTextureError

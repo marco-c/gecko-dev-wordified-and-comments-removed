@@ -5333,6 +5333,7 @@ TypeNotConstructible
 )
 }
 }
+pub
 fn
 cast
 (

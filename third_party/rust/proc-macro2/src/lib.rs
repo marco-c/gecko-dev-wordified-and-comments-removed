@@ -22,7 +22,7 @@ macro2
 .
 0
 .
-66
+69
 "
 )
 ]
@@ -90,6 +90,10 @@ items_after_statements
 clippy
 :
 :
+iter_without_into_iter
+clippy
+:
+:
 let_underscore_untyped
 clippy
 :
@@ -99,6 +103,10 @@ clippy
 :
 :
 manual_range_contains
+clippy
+:
+:
+missing_safety_doc
 clippy
 :
 :

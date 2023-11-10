@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 lib
 :
 :
@@ -11,6 +14,9 @@ Write
 }
 ;
 use
+crate
+:
+:
 lib
 :
 :

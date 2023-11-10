@@ -94,6 +94,9 @@ d3d12
 D3D12_COMMAND_LIST_TYPE_COPY
 }
 bitflags
+:
+:
+bitflags
 !
 {
 #

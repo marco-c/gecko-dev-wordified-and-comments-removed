@@ -55,6 +55,9 @@ d3d12
 D3D12_COMMAND_QUEUE_PRIORITY_GLOBAL_REALTIME
 }
 bitflags
+:
+:
+bitflags
 !
 {
 #

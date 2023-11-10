@@ -355,9 +355,6 @@ ident
 =
 >
 {
-serde_if_integer128
-!
-{
 forward_to_deserialize_any_method
 !
 {
@@ -368,7 +365,6 @@ v
 >
 (
 )
-}
 }
 }
 ;
@@ -494,9 +490,6 @@ ident
 =
 >
 {
-serde_if_integer128
-!
-{
 forward_to_deserialize_any_method
 !
 {
@@ -507,7 +500,6 @@ v
 >
 (
 )
-}
 }
 }
 ;

@@ -18,6 +18,13 @@ Span
 TokenStream
 }
 ;
+#
+[
+doc
+(
+hidden
+)
+]
 pub
 trait
 IntoSpans

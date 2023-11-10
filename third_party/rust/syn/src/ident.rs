@@ -26,16 +26,6 @@ Ident
 [
 cfg
 (
-not
-(
-doc
-)
-)
-]
-#
-[
-cfg
-(
 feature
 =
 "
@@ -43,6 +33,9 @@ parsing
 "
 )
 ]
+pub_if_not_doc
+!
+{
 #
 [
 doc
@@ -75,6 +68,7 @@ Ident
 match
 marker
 {
+}
 }
 }
 macro_rules

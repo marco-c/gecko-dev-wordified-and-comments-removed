@@ -155,6 +155,9 @@ d3d12
 D3D12_MEMORY_POOL_L1
 }
 bitflags
+:
+:
+bitflags
 !
 {
 #

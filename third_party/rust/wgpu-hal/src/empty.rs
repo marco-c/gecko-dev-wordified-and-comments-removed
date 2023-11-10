@@ -1912,7 +1912,7 @@ wgt
 :
 :
 ShaderStages
-offset
+offset_bytes
 :
 u32
 data

@@ -3103,6 +3103,7 @@ handle
 )
 ]
 pub
+unsafe
 fn
 instance_create_surface
 (

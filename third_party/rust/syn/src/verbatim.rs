@@ -5,10 +5,7 @@ crate
 parse
 :
 :
-{
-ParseBuffer
 ParseStream
-}
 ;
 use
 proc_macro2
@@ -47,7 +44,7 @@ a
 (
 begin
 :
-ParseBuffer
+ParseStream
 <
 '
 a

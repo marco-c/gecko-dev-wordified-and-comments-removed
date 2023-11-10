@@ -127,6 +127,9 @@ d3d12
 D3D12_DESCRIPTOR_HEAP_TYPE_DSV
 }
 bitflags
+:
+:
+bitflags
 !
 {
 #
@@ -1404,6 +1407,9 @@ d3d12
 :
 D3D_ROOT_SIGNATURE_VERSION_1_1
 }
+bitflags
+:
+:
 bitflags
 !
 {

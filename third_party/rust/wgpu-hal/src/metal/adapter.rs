@@ -3587,6 +3587,16 @@ max_buffers_per_stage
 max_vertex_buffers
 :
 31
+.
+min
+(
+crate
+:
+:
+MAX_VERTEX_BUFFERS
+as
+u32
+)
 max_textures_per_stage
 :
 if

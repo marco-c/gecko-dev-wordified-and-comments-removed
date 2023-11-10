@@ -427,6 +427,14 @@ WasmNotSync
 ;
 pub
 const
+MAX_CONCURRENT_SHADER_STAGES
+:
+usize
+=
+2
+;
+pub
+const
 MAX_ANISOTROPY
 :
 u8
@@ -2731,7 +2739,7 @@ wgt
 :
 :
 ShaderStages
-offset
+offset_bytes
 :
 u32
 data
