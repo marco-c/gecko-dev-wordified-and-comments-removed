@@ -652,6 +652,15 @@ GUID
 aGuidOut
 )
 ;
+BSTR
+CreateBSTRFromConstChar
+(
+const
+char
+*
+aNarrowStr
+)
+;
 struct
 MediaFoundationSubsampleEntry
 {
