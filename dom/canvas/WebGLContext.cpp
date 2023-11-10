@@ -1487,15 +1487,6 @@ PREFER_ROBUSTNESS
 ;
 if
 (
-!
-gl
--
->
-IsMesa
-(
-)
-&
-&
 StaticPrefs
 :
 :
