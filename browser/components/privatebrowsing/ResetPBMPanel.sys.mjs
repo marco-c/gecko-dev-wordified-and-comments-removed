@@ -1261,8 +1261,13 @@ true
 animate
 :
 false
-}
+skipWarnAboutClosingTabs
+:
 true
+skipPinnedOrSelectedTabs
+:
+false
+}
 )
 ;
 /
