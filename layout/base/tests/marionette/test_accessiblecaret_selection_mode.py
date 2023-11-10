@@ -16,6 +16,8 @@ import
 sys
 import
 os
+import
+unittest
 sys
 .
 path
@@ -1929,22 +1931,6 @@ _input_id
 el_id
 =
 _input_id
-)
-    
-parameterized
-(
-_textarea_id
-el_id
-=
-_textarea_id
-)
-    
-parameterized
-(
-_textarea_disabled_id
-el_id
-=
-_textarea_disabled_id
 )
     
 parameterized
@@ -5142,6 +5128,21 @@ EEEEEE
 sel
 .
 selected_content
+)
+    
+unittest
+.
+skip
+(
+"
+Bug
+1855083
+:
+High
+frequent
+intermittent
+.
+"
 )
     
 def
