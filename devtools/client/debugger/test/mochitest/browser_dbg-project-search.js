@@ -310,7 +310,7 @@ querySelector
 .
 tooltip
 -
-visible
+shown
 "
 )
 )
