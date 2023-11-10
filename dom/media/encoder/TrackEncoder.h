@@ -438,6 +438,9 @@ aOutputChannels
 )
 {
 DownmixAndInterleave
+<
+T
+>
 (
 aInput
 aDuration
