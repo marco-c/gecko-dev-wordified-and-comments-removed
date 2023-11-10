@@ -209,9 +209,6 @@ JS
 :
 :
 ColumnNumberOneOrigin
-:
-:
-zero
 (
 )
 ;
