@@ -1029,6 +1029,13 @@ background
 :
 transparent
 ;
+outline
+-
+offset
+:
+-
+2px
+;
 }
 .
 search
