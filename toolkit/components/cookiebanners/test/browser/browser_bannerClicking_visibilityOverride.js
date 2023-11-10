@@ -206,6 +206,15 @@ true
 ]
 )
 {
+Services
+.
+cookieBanners
+.
+removeAllExecutedRecords
+(
+false
+)
+;
 insertVisibilityTestRules
 (
 skipPresenceVisibilityCheck
