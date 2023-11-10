@@ -1581,7 +1581,7 @@ false
 )
 ;
 inline
-NameNodeType
+NameNodeResult
 newName
 (
 TaggedParserAtomIndex
@@ -1589,7 +1589,7 @@ name
 )
 ;
 inline
-NameNodeType
+NameNodeResult
 newName
 (
 TaggedParserAtomIndex
@@ -1599,7 +1599,7 @@ pos
 )
 ;
 inline
-NameNodeType
+NameNodeResult
 newPrivateName
 (
 TaggedParserAtomIndex
@@ -1628,14 +1628,14 @@ newDotGeneratorName
 (
 )
 ;
-NameNodeType
+NameNodeResult
 identifierReference
 (
 TaggedParserAtomIndex
 name
 )
 ;
-NameNodeType
+NameNodeResult
 privateNameReference
 (
 TaggedParserAtomIndex
