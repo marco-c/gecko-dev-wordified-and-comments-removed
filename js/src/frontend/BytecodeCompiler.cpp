@@ -5269,6 +5269,11 @@ asEvalContext
 (
 )
 )
+.
+unwrapOr
+(
+nullptr
+)
 ;
 }
 else
@@ -5286,6 +5291,11 @@ sc
 asGlobalContext
 (
 )
+)
+.
+unwrapOr
+(
+nullptr
 )
 ;
 }
@@ -5569,6 +5579,11 @@ moduleBody
 (
 &
 modulesc
+)
+.
+unwrapOr
+(
+nullptr
 )
 ;
 if

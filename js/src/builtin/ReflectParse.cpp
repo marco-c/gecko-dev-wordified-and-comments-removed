@@ -22375,6 +22375,11 @@ parser
 parse
 (
 )
+.
+unwrapOr
+(
+nullptr
+)
 ;
 if
 (
@@ -22451,6 +22456,11 @@ moduleBody
 (
 &
 modulesc
+)
+.
+unwrapOr
+(
+nullptr
 )
 ;
 if

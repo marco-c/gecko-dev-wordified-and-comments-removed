@@ -31429,10 +31429,13 @@ checkOptions
 )
 |
 |
-!
 parser
 .
 parse
+(
+)
+.
+isErr
 (
 )
 )

@@ -2990,7 +2990,7 @@ bool
 inParameters
 )
 ;
-ListNodeType
+ListNodeResult
 parse
 (
 )
@@ -5615,7 +5615,7 @@ newBigInt
 (
 )
 ;
-ModuleNodeType
+ModuleNodeResult
 moduleBody
 (
 ModuleSharedContext
@@ -6296,7 +6296,7 @@ newBigInt
 (
 )
 ;
-ModuleNodeType
+ModuleNodeResult
 moduleBody
 (
 ModuleSharedContext
@@ -6423,7 +6423,7 @@ bool
 tryAnnexB
 )
 ;
-LexicalScopeNodeType
+LexicalScopeNodeResult
 evalBody
 (
 EvalSharedContext
@@ -6478,7 +6478,7 @@ checkStatementsEOF
 (
 )
 ;
-ListNodeType
+ListNodeResult
 globalBody
 (
 GlobalSharedContext
