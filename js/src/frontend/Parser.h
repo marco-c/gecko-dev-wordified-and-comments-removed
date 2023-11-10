@@ -3866,7 +3866,7 @@ invoked
 PredictUninvoked
 )
 ;
-Node
+NodeResult
 assignExpr
 (
 InHandling
@@ -3886,7 +3886,7 @@ invoked
 PredictUninvoked
 )
 ;
-Node
+NodeResult
 assignExprWithoutYieldOrAwait
 (
 YieldHandling
