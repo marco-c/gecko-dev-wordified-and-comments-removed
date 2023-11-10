@@ -635,6 +635,15 @@ PopoverData
 >
 mPopoverData
 ;
+nsTArray
+<
+RefPtr
+<
+nsAtom
+>
+>
+mCustomStates
+;
 UniquePtr
 <
 RadioGroupContainer

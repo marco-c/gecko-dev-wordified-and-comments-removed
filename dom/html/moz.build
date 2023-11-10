@@ -179,6 +179,11 @@ ConstraintValidation
 h
 "
 "
+CustomStateSet
+.
+h
+"
+"
 ElementInternals
 .
 h
@@ -590,6 +595,11 @@ UNIFIED_SOURCES
 [
 "
 ConstraintValidation
+.
+cpp
+"
+"
+CustomStateSet
 .
 cpp
 "
