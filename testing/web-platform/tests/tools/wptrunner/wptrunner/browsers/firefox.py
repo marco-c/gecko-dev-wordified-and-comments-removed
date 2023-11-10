@@ -1912,6 +1912,9 @@ headless
 chaos_mode_flags
 =
 None
+e10s
+=
+True
 )
 :
     
@@ -2065,6 +2068,22 @@ MOZ_HEADLESS
 1
 "
     
+if
+not
+e10s
+:
+        
+env
+[
+"
+MOZ_FORCE_DISABLE_E10S
+"
+]
+=
+"
+1
+"
+    
 return
 env
 def
@@ -2194,6 +2213,7 @@ leak_check
 stackfix_dir
 symbols_path
 asan
+e10s
 )
 :
         
@@ -2283,6 +2303,12 @@ self
 asan
 =
 asan
+        
+self
+.
+e10s
+=
+e10s
         
 self
 .
@@ -2508,6 +2534,9 @@ headless
 self
 .
 chaos_mode_flags
+self
+.
+e10s
 )
         
 args
@@ -4426,7 +4455,6 @@ prefs_root
 config
 test_type
 extra_prefs
-e10s
                  
 disable_fission
 debug_test
@@ -4467,12 +4495,6 @@ self
 extra_prefs
 =
 extra_prefs
-        
-self
-.
-e10s
-=
-e10s
         
 self
 .
@@ -4970,31 +4992,6 @@ False
 }
 )
         
-if
-self
-.
-e10s
-:
-            
-profile
-.
-set_preferences
-(
-{
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-:
-True
-}
-)
-        
 profile
 .
 set_preferences
@@ -5089,59 +5086,6 @@ set_preferences
 print
 .
 always_print_silent
-"
-:
-True
-}
-)
-        
-if
-(
-self
-.
-e10s
-and
-platform
-.
-system
-(
-)
-in
-(
-"
-Windows
-"
-"
-Microsoft
-"
-)
-and
-            
-"
-5
-.
-1
-"
-in
-platform
-.
-version
-(
-)
-)
-:
-            
-profile
-.
-set_preferences
-(
-{
-"
-layers
-.
-acceleration
-.
-disabled
 "
 :
 True
@@ -5717,8 +5661,6 @@ test_type
                                          
 extra_prefs
                                          
-e10s
-                                         
 disable_fission
                                          
 debug_test
@@ -5774,6 +5716,8 @@ stackfix_dir
 symbols_path
                                                      
 asan
+                                                     
+e10s
 )
     
 def
@@ -6256,6 +6200,7 @@ binary
 debug_info
 headless
 chaos_mode_flags
+e10s
 )
         
 profile_creator
@@ -6273,8 +6218,6 @@ wdspec
 "
                                          
 extra_prefs
-                                         
-e10s
                                          
 disable_fission
                                          
@@ -6313,6 +6256,7 @@ binary
 debug_info
 headless
 chaos_mode_flags
+e10s
 )
 :
         
@@ -6331,6 +6275,7 @@ debug_info
 headless
                           
 chaos_mode_flags
+e10s
 )
         
 env

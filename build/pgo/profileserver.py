@@ -679,21 +679,6 @@ cast
 v
 )
         
-prefs
-[
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-]
-=
-True
-        
 profile
 =
 FirefoxProfile
