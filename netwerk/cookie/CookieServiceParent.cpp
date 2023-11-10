@@ -493,7 +493,11 @@ cookie
 nsCString
 baseDomain
 ;
-MOZ_ALWAYS_SUCCEEDS
+if
+(
+NS_WARN_IF
+(
+NS_FAILED
 (
 CookieCommons
 :
@@ -509,7 +513,13 @@ Host
 baseDomain
 )
 )
+)
+)
+{
+return
+false
 ;
+}
 CookieKey
 cookieKey
 (
