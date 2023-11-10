@@ -7282,6 +7282,13 @@ PostLoadFlusher
 }
 else
 {
+mOnStopCalled
+=
+false
+;
+return
+NS_OK
+;
 }
 }
 }
