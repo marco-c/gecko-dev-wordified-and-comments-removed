@@ -76,6 +76,11 @@ all_urls
 "
 ]
 "
+match_about_blank
+"
+:
+true
+"
 js
 "
 :
