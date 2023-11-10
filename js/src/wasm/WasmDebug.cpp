@@ -520,7 +520,7 @@ lineno
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 column
 )
@@ -556,7 +556,7 @@ column
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 (
 JS
 :
