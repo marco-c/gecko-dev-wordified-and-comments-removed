@@ -95,8 +95,7 @@ can
 be
 complex
 for
-new
-comers
+newcomers
 this
 documentation
 explains
@@ -486,8 +485,9 @@ Just
 change
 the
 order
+of
 the
-patch
+patches
 .
 The
 tool
@@ -509,6 +509,7 @@ works
 well
 if
 used
+.
 hg
 histedit
 #
@@ -520,10 +521,18 @@ editor
 just
 move
 the
+patches
+to
+the
 line
 below
 /
 above
+to
+#
+reorder
+commits
+.
 #
 Remove
 everything
@@ -534,6 +543,7 @@ to
 cancel
 the
 operation
+.
 git
 rebase
 -
