@@ -5753,6 +5753,11 @@ directives
 &
 newDirectives
 )
+.
+unwrapOr
+(
+nullptr
+)
 ;
 if
 (
@@ -7722,6 +7727,11 @@ input
 asyncKind
 (
 )
+)
+.
+unwrapOr
+(
+nullptr
 )
 ;
 if

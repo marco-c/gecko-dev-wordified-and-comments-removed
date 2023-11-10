@@ -3308,7 +3308,7 @@ false
 nodiscard
 ]
 ]
-FunctionNodeType
+FunctionNodeResult
 innerFunctionForFunctionBox
 (
 FunctionNodeType
@@ -3367,7 +3367,7 @@ false
 ;
 private
 :
-FunctionNodeType
+FunctionNodeResult
 functionStmt
 (
 uint32_t
@@ -3385,7 +3385,7 @@ FunctionAsyncKind
 SyncFunction
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 functionExpr
 (
 uint32_t
@@ -4053,7 +4053,7 @@ bool
 allowCallSyntax
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 methodDefinition
 (
 uint32_t
@@ -4075,7 +4075,7 @@ FunctionNodeType
 funNode
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 functionDefinition
 (
 FunctionNodeType
@@ -4107,7 +4107,7 @@ StatementListBody
 ExpressionBody
 }
 ;
-LexicalScopeNodeType
+LexicalScopeNodeResult
 functionBody
 (
 InHandling
@@ -5075,7 +5075,7 @@ yieldHandling
 nodiscard
 ]
 ]
-FunctionNodeType
+FunctionNodeResult
 innerFunction
 (
 FunctionNodeType
@@ -6457,7 +6457,7 @@ EvalSharedContext
 evalsc
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 standaloneLazyFunction
 (
 CompilationInput
@@ -6473,7 +6473,7 @@ FunctionAsyncKind
 asyncKind
 )
 ;
-FunctionNodeType
+FunctionNodeResult
 standaloneFunction
 (
 const
