@@ -166,7 +166,7 @@ h
 #
 include
 "
-AsyncDBus
+WidgetUtilsGtk
 .
 h
 "
