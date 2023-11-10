@@ -3820,7 +3820,7 @@ Node
 forInOrOfExpression
 )
 ;
-Node
+NodeResult
 expr
 (
 InHandling
@@ -3994,7 +3994,7 @@ InvokedPrediction
 invoked
 )
 ;
-Node
+NodeResult
 exprInParens
 (
 InHandling
