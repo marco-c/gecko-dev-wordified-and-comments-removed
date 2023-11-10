@@ -542,13 +542,6 @@ DoNotRemoveAltSvc
 )
 {
 }
-virtual
-void
-DoNotResetIPFamilyPreference
-(
-)
-{
-}
 [
 [
 nodiscard

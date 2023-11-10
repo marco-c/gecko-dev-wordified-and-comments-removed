@@ -6860,10 +6860,6 @@ AllowedErrorForHTTPSRRFallback
 (
 reason
 )
-&
-&
-!
-mDoNotRemoveAltSvc
 ;
 if
 (
@@ -8646,12 +8642,6 @@ SetRestartReason
 TRANSACTION_RESTART_OTHERS
 )
 ;
-if
-(
-!
-mDoNotResetIPFamilyPreference
-)
-{
 gHttpHandler
 -
 >
@@ -8665,7 +8655,6 @@ ResetIPFamilyPreference
 mConnInfo
 )
 ;
-}
 return
 gHttpHandler
 -
