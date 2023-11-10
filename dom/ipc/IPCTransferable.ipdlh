@@ -186,6 +186,15 @@ items
 ;
 }
 ;
+union
+IPCTransferableDataOrError
+{
+IPCTransferableData
+;
+nsresult
+;
+}
+;
 struct
 IPCTransferable
 {
