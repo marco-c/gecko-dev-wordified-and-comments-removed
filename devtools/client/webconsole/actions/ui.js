@@ -91,6 +91,7 @@ SELECT_NETWORK_MESSAGE_TAB
 SHOW_OBJECT_IN_SIDEBAR
 SIDEBAR_CLOSE
 SPLIT_CONSOLE_CLOSE_BUTTON_TOGGLE
+SHOW_EVALUATION_NOTIFICATION
 TIMESTAMPS_TOGGLE
 WARNING_GROUPS_TOGGLE
 FILTERBAR_DISPLAY_MODE_SET
@@ -831,6 +832,21 @@ messageId
 }
 ;
 }
+function
+showEvaluationNotification
+(
+notification
+)
+{
+return
+{
+type
+:
+SHOW_EVALUATION_NOTIFICATION
+notification
+}
+;
+}
 module
 .
 exports
@@ -855,5 +871,6 @@ warningGroupsToggle
 openLink
 openSidebar
 autocompleteToggle
+showEvaluationNotification
 }
 ;
