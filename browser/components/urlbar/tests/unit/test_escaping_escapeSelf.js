@@ -284,6 +284,8 @@ http
 /
 escapeduri
 /
+%
+40
 "
 iconUri
 :
