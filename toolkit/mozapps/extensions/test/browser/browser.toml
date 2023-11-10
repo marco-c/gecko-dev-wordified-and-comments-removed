@@ -422,6 +422,13 @@ be
 focusable
 [
 "
+browser_amo_abuse_report
+.
+js
+"
+]
+[
+"
 browser_bug572561
 .
 js

@@ -314,6 +314,16 @@ enabled
 "
 true
 ]
+[
+"
+extensions
+.
+abuseReport
+.
+amoFormEnabled
+"
+false
+]
 ]
 }
 )
