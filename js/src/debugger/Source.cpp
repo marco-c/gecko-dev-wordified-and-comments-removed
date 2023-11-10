@@ -3517,7 +3517,7 @@ setColumn
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 (
 ss
 -

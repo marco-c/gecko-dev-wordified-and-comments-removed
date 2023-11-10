@@ -11760,6 +11760,11 @@ setColumn
 JS
 :
 :
+ColumnNumberOneOrigin
+(
+JS
+:
+:
 ColumnNumberZeroOrigin
 (
 aRequest
@@ -11771,6 +11776,7 @@ GetScriptLoadContext
 -
 >
 mColumnNo
+)
 )
 )
 ;

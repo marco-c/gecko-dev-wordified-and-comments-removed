@@ -8576,7 +8576,7 @@ setColumn
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 (
 lazy
 -
@@ -9071,7 +9071,7 @@ setColumn
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 (
 extra
 .

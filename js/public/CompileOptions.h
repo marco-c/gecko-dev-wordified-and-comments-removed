@@ -1339,7 +1339,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 unsigned
@@ -1897,7 +1897,7 @@ setColumn
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 c
 )
 {
