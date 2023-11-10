@@ -790,11 +790,6 @@ nsIClearDataService
 :
 :
 CLEAR_COOKIES
-|
-nsIClearDataService
-:
-:
-CLEAR_COOKIE_BANNER_EXECUTED_RECORD
 ;
 }
 if
@@ -818,11 +813,6 @@ nsIClearDataService
 :
 :
 CLEAR_DOM_STORAGES
-|
-nsIClearDataService
-:
-:
-CLEAR_COOKIE_BANNER_EXECUTED_RECORD
 ;
 }
 if

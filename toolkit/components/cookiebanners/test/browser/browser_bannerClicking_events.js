@@ -157,15 +157,6 @@ openPageOptions
 ;
 }
 ;
-Services
-.
-cookieBanners
-.
-removeAllExecutedRecords
-(
-false
-)
-;
 await
 runEventTest
 (

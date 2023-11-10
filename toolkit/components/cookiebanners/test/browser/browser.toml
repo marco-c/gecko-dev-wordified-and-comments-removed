@@ -67,13 +67,6 @@ html
 ]
 [
 "
-browser_bannerClicking_executeOnce
-.
-js
-"
-]
-[
-"
 browser_bannerClicking_globalRules
 .
 js

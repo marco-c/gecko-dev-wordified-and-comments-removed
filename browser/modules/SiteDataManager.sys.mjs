@@ -3067,12 +3067,6 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL_CACHES
-|
-Ci
-.
-nsIClearDataService
-.
-CLEAR_COOKIE_BANNER_EXECUTED_RECORD
 ;
 promises
 .
