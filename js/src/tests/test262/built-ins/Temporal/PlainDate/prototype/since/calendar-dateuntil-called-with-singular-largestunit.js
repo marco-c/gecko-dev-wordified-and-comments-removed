@@ -73,9 +73,6 @@ week
 days
 :
 [
-"
-day
-"
 ]
 }
 )

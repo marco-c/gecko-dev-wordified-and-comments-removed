@@ -16,6 +16,9 @@ MAX_SAFE_INTEGER
 weeks
 :
 3
+years
+:
+1
 }
 )
 ;
@@ -36,9 +39,9 @@ Number
 MAX_SAFE_INTEGER
 +
 3
-weeks
+years
 :
-0
+1
 }
 )
 ;

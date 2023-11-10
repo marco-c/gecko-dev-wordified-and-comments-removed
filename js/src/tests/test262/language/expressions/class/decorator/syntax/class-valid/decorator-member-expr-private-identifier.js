@@ -1,7 +1,5 @@
-var
-C
-=
 class
+C
 {
 static
 #
@@ -70,7 +68,7 @@ await
 static
 {
 var
-C
+D
 =
 C
 .

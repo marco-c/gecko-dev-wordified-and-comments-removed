@@ -100,6 +100,12 @@ value
 should
 be
 2
+;
+object
+value
+should
+be
+2
 '
 )
 {
@@ -117,7 +123,6 @@ define
 the
 specified
 message
-.
 '
 )
 ;

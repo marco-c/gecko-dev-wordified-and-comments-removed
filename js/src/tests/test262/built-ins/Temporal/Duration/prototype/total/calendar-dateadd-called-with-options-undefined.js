@@ -73,7 +73,7 @@ sameValue
 calendar
 .
 dateAddCallCount
-8
+3
 "
 converting
 larger
@@ -124,7 +124,7 @@ sameValue
 calendar
 .
 dateAddCallCount
-6
+3
 "
 converting
 smaller

@@ -38,7 +38,7 @@ if
 calls
 =
 =
-3
+2
 )
 {
 TemporalHelpers
@@ -176,13 +176,13 @@ assert
 sameValue
 (
 calls
-3
+2
 "
 should
 have
 called
 dateAdd
-3
+2
 times
 "
 )
