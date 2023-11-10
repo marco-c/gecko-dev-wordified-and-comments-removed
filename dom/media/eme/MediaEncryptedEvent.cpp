@@ -598,15 +598,6 @@ Create
 cx
 this
 mRawInitData
-.
-Length
-(
-)
-mRawInitData
-.
-Elements
-(
-)
 )
 ;
 if

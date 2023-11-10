@@ -3196,15 +3196,6 @@ Create
 (
 aCx
 bytes
-.
-Length
-(
-)
-bytes
-.
-Elements
-(
-)
 )
 ;
 if
