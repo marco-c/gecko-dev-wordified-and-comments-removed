@@ -253,6 +253,17 @@ enabled
 =
 false
 "
+"
+media
+.
+aboutwebrtc
+.
+hist
+.
+poll_interval_ms
+=
+2000
+"
 ]
 [
 "
