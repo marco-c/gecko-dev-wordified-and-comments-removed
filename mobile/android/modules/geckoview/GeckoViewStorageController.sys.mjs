@@ -245,6 +245,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_MEDIA_DEVICES
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_COOKIE_BANNER_EXECUTED_RECORD
 ]
 [
 /
@@ -319,6 +325,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_REPORTS
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_COOKIE_BANNER_EXECUTED_RECORD
 ]
 [
 /
