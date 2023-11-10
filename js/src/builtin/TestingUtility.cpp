@@ -534,14 +534,11 @@ JS
 :
 :
 ColumnNumberOneOrigin
-(
-JS
 :
 :
-ColumnNumberZeroOrigin
+fromZeroOrigin
 (
 c
-)
 )
 )
 ;

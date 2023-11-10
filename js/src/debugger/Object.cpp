@@ -7064,14 +7064,11 @@ JS
 :
 :
 ColumnNumberOneOrigin
-(
-JS
 :
 :
-ColumnNumberZeroOrigin
+fromZeroOrigin
 (
 startColumn
-)
 )
 ;
 if

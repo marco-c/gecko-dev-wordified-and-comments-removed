@@ -11761,11 +11761,9 @@ JS
 :
 :
 ColumnNumberOneOrigin
-(
-JS
 :
 :
-ColumnNumberZeroOrigin
+fromZeroOrigin
 (
 aRequest
 -
@@ -11776,7 +11774,6 @@ GetScriptLoadContext
 -
 >
 mColumnNo
-)
 )
 )
 ;

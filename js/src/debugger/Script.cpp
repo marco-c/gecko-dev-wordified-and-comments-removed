@@ -4038,14 +4038,11 @@ JS
 :
 :
 LimitedColumnNumberOneOrigin
-(
-JS
 :
 :
-LimitedColumnNumberZeroOrigin
+fromZeroOrigin
 (
 tmp
-)
 )
 ;
 return
@@ -5156,11 +5153,9 @@ JS
 :
 :
 LimitedColumnNumberOneOrigin
-(
-JS
 :
 :
-LimitedColumnNumberZeroOrigin
+fromZeroOrigin
 (
 offsets
 [
@@ -5168,7 +5163,6 @@ i
 ]
 .
 column
-)
 )
 ;
 size_t
@@ -10246,11 +10240,9 @@ JS
 :
 :
 LimitedColumnNumberOneOrigin
-(
-JS
 :
 :
-LimitedColumnNumberZeroOrigin
+fromZeroOrigin
 (
 offsets
 [
@@ -10258,7 +10250,6 @@ i
 ]
 .
 column
-)
 )
 ;
 size_t
