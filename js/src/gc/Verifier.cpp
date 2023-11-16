@@ -6199,9 +6199,6 @@ ok
 }
 #
 endif
-#
-ifdef
-DEBUG
 bool
 GCRuntime
 :
@@ -6321,6 +6318,18 @@ false
 ;
 }
 return
+traceKind
+=
+=
+JS
+:
+:
+TraceKind
+:
+:
+Null
+|
+|
 MapAllocToTraceKind
 (
 arena
@@ -6340,5 +6349,3 @@ return
 false
 ;
 }
-#
-endif
