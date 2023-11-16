@@ -1992,6 +1992,7 @@ reset
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIWebAuthnService
@@ -2026,7 +2027,6 @@ Reset
 (
 )
 ;
-}
 }
 }
 }
