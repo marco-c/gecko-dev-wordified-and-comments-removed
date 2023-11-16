@@ -612,9 +612,6 @@ logger
 .
 trace
 (
-lazy
-.
-truncate
 [
 {
 context
@@ -625,6 +622,9 @@ id
 NavigationListener
 onLocationChange
 +
+lazy
+.
+truncate
 location
 :
 {
@@ -764,9 +764,6 @@ logger
 .
 trace
 (
-lazy
-.
-truncate
 [
 {
 context
@@ -809,6 +806,10 @@ isBindingAborted
 {
 isBindingAborted
 }
++
+lazy
+.
+truncate
 targetURI
 :
 {
