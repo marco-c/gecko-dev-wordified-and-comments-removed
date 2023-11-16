@@ -104,9 +104,6 @@ CodecProxy
 CompositorSurfaceManager
 "
 "
-ContentInputStream
-"
-"
 EnterpriseRoots
 "
 "
@@ -180,9 +177,6 @@ GeckoSystemStateListener
 "
 "
 GeckoThread
-"
-"
-GeckoViewInputStream
 "
 "
 GeckoVRManager
