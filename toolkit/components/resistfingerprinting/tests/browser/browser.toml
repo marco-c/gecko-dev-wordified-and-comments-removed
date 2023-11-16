@@ -19,6 +19,13 @@ empty
 html
 "
 "
+font
+-
+fingerprinter
+.
+html
+"
+"
 head
 .
 js
@@ -87,6 +94,13 @@ js
 [
 "
 browser_fingerprintingWebCompat
+.
+js
+"
+]
+[
+"
+browser_font_fingerprinter_telemetry
 .
 js
 "
