@@ -1390,11 +1390,6 @@ aCellMap
 )
 ;
 void
-ClearColCache
-(
-)
-;
-void
 DidResizeColumns
 (
 )
