@@ -1152,6 +1152,12 @@ return
 mType
 ;
 }
+nsCString
+ToString
+(
+)
+const
+;
 bool
 virtual
 IsValid
@@ -2150,6 +2156,12 @@ return
 this
 ;
 }
+nsCString
+ToString
+(
+)
+const
+;
 UniquePtr
 <
 TrackInfo
