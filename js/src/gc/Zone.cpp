@@ -2306,7 +2306,7 @@ Now
 jit
 :
 :
-OptimizedICStubSpace
+ICStubSpace
 newStubSpace
 ;
 #
@@ -2528,7 +2528,7 @@ return
 jitScript
 -
 >
-purgeOptimizedStubs
+purgeStubs
 (
 script
 )
@@ -2626,7 +2626,7 @@ jitZone
 )
 -
 >
-optimizedStubSpace
+stubSpace
 (
 )
 -
@@ -2641,7 +2641,7 @@ jitZone
 )
 -
 >
-optimizedStubSpace
+stubSpace
 (
 )
 -
@@ -3558,7 +3558,7 @@ size_t
 jitZone
 size_t
 *
-baselineStubsOptimized
+cacheIRStubs
 size_t
 *
 uniqueIdMap
@@ -3611,7 +3611,7 @@ addSizeOfIncludingThis
 mallocSizeOf
 code
 jitZone
-baselineStubsOptimized
+cacheIRStubs
 )
 ;
 }

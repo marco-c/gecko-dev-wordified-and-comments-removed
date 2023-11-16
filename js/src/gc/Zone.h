@@ -1517,7 +1517,7 @@ size_t
 jitZone
 size_t
 *
-baselineStubsOptimized
+cacheIRStubs
 size_t
 *
 uniqueIdMap

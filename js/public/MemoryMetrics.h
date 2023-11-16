@@ -2462,7 +2462,7 @@ MACRO
 (
 Other
 MallocHeap
-baselineStubsOptimized
+cacheIRStubs
 )
 \
 MACRO

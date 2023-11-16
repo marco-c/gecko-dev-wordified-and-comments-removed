@@ -206,6 +206,9 @@ class
 BaselineScript
 ;
 class
+ICStubSpace
+;
+class
 InliningRoot
 ;
 class
@@ -216,9 +219,6 @@ JitScript
 ;
 class
 JitZone
-;
-struct
-OptimizedICStubSpace
 ;
 static
 constexpr
@@ -673,7 +673,7 @@ pcOffset
 )
 ;
 void
-purgeOptimizedStubs
+purgeStubs
 (
 Zone
 *
@@ -1474,7 +1474,7 @@ trc
 )
 ;
 void
-purgeOptimizedStubs
+purgeStubs
 (
 JSScript
 *
@@ -2136,7 +2136,7 @@ MarkActiveJitScriptsAndCopyStubs
 Zone
 *
 zone
-OptimizedICStubSpace
+ICStubSpace
 &
 newStubSpace
 )

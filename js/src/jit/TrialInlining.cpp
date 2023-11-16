@@ -5508,7 +5508,7 @@ void
 InliningRoot
 :
 :
-purgeOptimizedStubs
+purgeStubs
 (
 Zone
 *
@@ -5527,7 +5527,7 @@ inlinedScripts_
 inlinedScript
 -
 >
-purgeOptimizedStubs
+purgeStubs
 (
 zone
 )

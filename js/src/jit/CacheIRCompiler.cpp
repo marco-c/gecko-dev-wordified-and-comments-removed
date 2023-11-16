@@ -7380,7 +7380,7 @@ clone
 JSContext
 *
 cx
-OptimizedICStubSpace
+ICStubSpace
 &
 newSpace
 )
