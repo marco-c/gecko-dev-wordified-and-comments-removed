@@ -136,9 +136,7 @@ foo
 ;
 test_valid_selector
 (
-{
 pseudo
-}
 )
 ;
 test_valid_selector
@@ -171,6 +169,15 @@ part
 {
 pseudo
 }
+)
+;
+test_invalid_selector
+(
+"
+:
+:
+highlight
+"
 )
 ;
 test_invalid_selector
