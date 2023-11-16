@@ -14318,7 +14318,7 @@ size_t
 sizeOfJitScript
 size_t
 *
-sizeOfBaselineFallbackStubs
+sizeOfAllocSites
 )
 const
 {
@@ -14342,7 +14342,7 @@ addSizeOfIncludingThis
 (
 mallocSizeOf
 sizeOfJitScript
-sizeOfBaselineFallbackStubs
+sizeOfAllocSites
 )
 ;
 }
@@ -21225,7 +21225,7 @@ jitScriptSize
 0
 ;
 size_t
-fallbackStubSize
+allocSitesSize
 =
 0
 ;
@@ -21238,7 +21238,7 @@ mallocSizeOf
 &
 jitScriptSize
 &
-fallbackStubSize
+allocSitesSize
 )
 ;
 size
@@ -21249,7 +21249,7 @@ jitScriptSize
 size
 +
 =
-fallbackStubSize
+allocSitesSize
 ;
 size_t
 baselineSize

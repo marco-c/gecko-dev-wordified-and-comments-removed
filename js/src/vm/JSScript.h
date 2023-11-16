@@ -8345,7 +8345,7 @@ size_t
 sizeOfJitScript
 size_t
 *
-sizeOfBaselineFallbackStubs
+sizeOfAllocSites
 )
 const
 ;

@@ -2432,7 +2432,7 @@ jitScripts
 &
 realmStats
 .
-baselineStubsFallback
+allocSites
 )
 ;
 jit
