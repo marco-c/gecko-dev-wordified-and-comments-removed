@@ -998,9 +998,6 @@ frequency
 )
 {
 return
-(
-1
-+
 Math
 .
 round
@@ -1021,7 +1018,6 @@ audioContext
 .
 sampleRate
 )
-)
 ;
 }
 frequencyForBinIndex
@@ -1031,11 +1027,7 @@ index
 {
 return
 (
-(
 index
--
-1
-)
 *
 this
 .
