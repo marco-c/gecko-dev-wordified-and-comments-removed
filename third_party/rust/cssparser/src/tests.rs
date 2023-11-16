@@ -3851,9 +3851,7 @@ write_to
 TokenSerializationType
 :
 :
-nothing
-(
-)
+Nothing
 input
 &
 mut

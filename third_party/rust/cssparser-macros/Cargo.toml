@@ -201,10 +201,8 @@ macro
 true
 [
 dependencies
-.
-quote
 ]
-version
+quote
 =
 "
 1
