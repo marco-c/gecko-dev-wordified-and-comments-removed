@@ -726,7 +726,7 @@ mWorkerPrivate
 WorkerRunnable
 :
 :
-WorkerThreadModifyBusyCount
+WorkerThread
 )
 ;
 JS

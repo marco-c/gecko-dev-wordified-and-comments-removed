@@ -1280,7 +1280,7 @@ aWorkerPrivate
 WorkerDebuggeeRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
+WorkerThread
 )
 mOwner
 (

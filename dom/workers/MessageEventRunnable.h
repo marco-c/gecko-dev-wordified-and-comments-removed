@@ -54,8 +54,8 @@ MessageEventRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-TargetAndBusyBehavior
-aBehavior
+Target
+aTarget
 )
 ;
 bool

@@ -417,6 +417,13 @@ Private
 )
 const
 ;
+void
+SetActorCount
+(
+uint32_t
+aCount
+)
+;
 private
 :
 IPCWorkerRef
@@ -434,6 +441,9 @@ aName
 IPCWorkerRef
 (
 )
+;
+uint32_t
+mActorCount
 ;
 }
 ;

@@ -146,7 +146,7 @@ aInner
 WorkerControlRunnable
 (
 aWorkerPrivate
-WorkerThreadUnchangedBusyCount
+WorkerThread
 )
 mInner
 (

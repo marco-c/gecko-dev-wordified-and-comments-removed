@@ -455,7 +455,7 @@ aActor
 WorkerControlRunnable
 (
 aWorkerPrivate
-WorkerThreadUnchangedBusyCount
+WorkerThread
 )
 TeardownRunnable
 (

@@ -542,7 +542,7 @@ aExtensionEventListener
 GetWorkerPrivate
 (
 )
-WorkerThreadUnchangedBusyCount
+WorkerThread
 )
 mListener
 (
