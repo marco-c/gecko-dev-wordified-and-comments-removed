@@ -329,6 +329,17 @@ necessary
 "
 "
         
+handler_encoding
+=
+getattr
+(
+options
+"
+handler_encoding
+"
+None
+)
+        
 options
 .
 dispatcher
@@ -348,6 +359,7 @@ scan_dir
 options
 .
 allow_handlers_outside_root_dir
+handler_encoding
 )
         
 if
