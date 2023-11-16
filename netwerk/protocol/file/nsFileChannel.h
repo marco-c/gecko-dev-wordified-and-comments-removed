@@ -128,6 +128,11 @@ bool
 async
 )
 ;
+nsresult
+MaybeSendFileOpenNotification
+(
+)
+;
 nsCOMPtr
 <
 nsIInputStream
