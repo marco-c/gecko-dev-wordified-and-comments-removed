@@ -532,13 +532,6 @@ TRIGGER_TEST_DONE
 )
 ;
 await
-contentPage
-.
-close
-(
-)
-;
-await
 extension
 .
 unload
@@ -558,6 +551,13 @@ unload
 )
 ;
 }
+await
+contentPage
+.
+close
+(
+)
+;
 }
 add_task
 (
