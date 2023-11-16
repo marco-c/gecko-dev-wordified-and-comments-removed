@@ -13,7 +13,6 @@ Uses
 attributes
 from
 primary
--
 dependency
 .
 "
@@ -88,30 +87,6 @@ in
 jobs
 :
         
-if
-"
-primary
--
-dependency
-"
-in
-job
-:
-            
-dep_job
-=
-job
-[
-"
-primary
--
-dependency
-"
-]
-        
-else
-:
-            
 dep_job
 =
 get_primary_dependency
@@ -119,6 +94,9 @@ get_primary_dependency
 config
 job
 )
+        
+assert
+dep_job
         
 attr
 =

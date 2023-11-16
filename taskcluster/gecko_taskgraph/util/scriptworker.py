@@ -1,58 +1,3 @@
-#
-This
-Source
-Code
-Form
-is
-subject
-to
-the
-terms
-of
-the
-Mozilla
-Public
-#
-License
-v
-.
-2
-.
-0
-.
-If
-a
-copy
-of
-the
-MPL
-was
-not
-distributed
-with
-this
-#
-file
-You
-can
-obtain
-one
-at
-http
-:
-/
-/
-mozilla
-.
-org
-/
-MPL
-/
-2
-.
-0
-/
-.
 "
 "
 "
@@ -250,12 +195,6 @@ util
 copy_task
 import
 copy_task
-#
-constants
-{
-{
-{
-1
 "
 "
 "
@@ -461,24 +400,6 @@ comm
 -
 central
 "
-            
-#
-bug
-1845368
-:
-pine
-is
-a
-permanent
-project
-branch
-used
-for
-testing
-            
-#
-nightly
-updates
             
 "
 pine
@@ -706,24 +627,6 @@ comm
 -
 central
 "
-            
-#
-bug
-1845368
-:
-pine
-is
-a
-permanent
-project
-branch
-used
-for
-testing
-            
-#
-nightly
-updates
             
 "
 pine
@@ -971,24 +874,6 @@ to
 nightly
 "
     
-#
-bug
-1845368
-:
-pine
-is
-a
-permanent
-project
-branch
-used
-for
-testing
-    
-#
-nightly
-updates
-    
 "
 nightly
 -
@@ -1171,24 +1056,6 @@ comm
 -
 central
 "
-            
-#
-bug
-1845368
-:
-pine
-is
-a
-permanent
-project
-branch
-used
-for
-testing
-            
-#
-nightly
-updates
             
 "
 pine
@@ -1635,13 +1502,6 @@ scope_or_scopes
     
 return
 wrapper
-#
-scope
-functions
-{
-{
-{
-1
 with_scope_prefix
 def
 get_scope_from_project
@@ -2126,12 +1986,6 @@ memoize
 (
 load_yaml
 )
-#
-release_config
-{
-{
-{
-1
 def
 get_release_config
 (
@@ -2495,12 +2349,6 @@ dep
 signing
 "
 )
-#
-generate_beetmover_upstream_artifacts
-{
-{
-{
-1
 def
 generate_beetmover_upstream_artifacts
 (
@@ -2757,34 +2605,6 @@ keys
 (
 )
         
-elif
-job
-.
-get
-(
-"
-primary
--
-dependency
-"
-)
-:
-            
-dependencies
-=
-[
-job
-[
-"
-primary
--
-dependency
-"
-]
-.
-kind
-]
-        
 else
 :
             
@@ -3019,23 +2839,6 @@ filename
 :
                 
 continue
-            
-#
-The
-next
-time
-we
-look
-at
-this
-file
-it
-might
-be
-a
-different
-locale
-.
             
 file_config
 =
@@ -3460,12 +3263,6 @@ destinations
     
 return
 gcs_sources
-#
-generate_beetmover_artifact_map
-{
-{
-{
-1
 def
 generate_beetmover_artifact_map
 (
@@ -3793,10 +3590,6 @@ mapping
 ]
 :
             
-#
-Relevancy
-checks
-            
 resolve_keyed_by
 (
                 
@@ -3841,19 +3634,6 @@ from
 ]
 :
                 
-#
-We
-don
-'
-t
-get
-this
-file
-from
-this
-dependency
-.
-                
 continue
             
 if
@@ -3883,23 +3663,6 @@ all_locales
 ]
 :
                 
-#
-This
-locale
-either
-doesn
-'
-t
-produce
-or
-shouldn
-'
-t
-upload
-this
-file
-.
-                
 continue
             
 if
@@ -3942,23 +3705,6 @@ only_for_platforms
 )
 :
                 
-#
-This
-platform
-either
-doesn
-'
-t
-produce
-or
-shouldn
-'
-t
-upload
-this
-file
-.
-                
 continue
             
 if
@@ -3999,23 +3745,6 @@ not_for_platforms
 )
 :
                 
-#
-This
-platform
-either
-doesn
-'
-t
-produce
-or
-shouldn
-'
-t
-upload
-this
-file
-.
-                
 continue
             
 if
@@ -4035,23 +3764,6 @@ filename
 :
                 
 continue
-            
-#
-copy_task
-because
-the
-next
-time
-we
-look
-at
-this
-file
-the
-locale
-will
-differ
-.
             
 file_config
 =
@@ -4119,34 +3831,6 @@ platform
 platform
                 
 )
-            
-#
-This
-format
-string
-should
-ideally
-be
-in
-the
-configuration
-file
-            
-#
-but
-this
-would
-mean
-keeping
-variable
-names
-in
-sync
-between
-code
-+
-config
-.
             
 destinations
 =
@@ -4229,45 +3913,6 @@ s3_bucket_paths
             
 ]
             
-#
-Creating
-map
-entries
-            
-#
-Key
-must
-be
-artifact
-path
-to
-avoid
-trampling
-duplicates
-such
-            
-#
-as
-public
-/
-build
-/
-target
-.
-apk
-and
-public
-/
-build
-/
-en
--
-US
-/
-target
-.
-apk
-            
 key
 =
 os
@@ -4333,13 +3978,6 @@ checksums_path
 "
 ]
             
-#
-optional
-flag
-:
-balrog
-manifest
-            
 if
 file_config
 .
@@ -4396,27 +4034,7 @@ not
 paths
 :
             
-#
-No
-files
-for
-this
-dependency
-/
-locale
-combination
-.
-            
 continue
-        
-#
-Render
-all
-variables
-for
-the
-artifact
-map
         
 platforms
 =
@@ -4552,12 +4170,6 @@ strftime
 m
 "
 )
-#
-zero
--
-pad
-the
-month
                 
 "
 upload_date
@@ -4657,12 +4269,6 @@ paths
     
 return
 artifacts
-#
-generate_beetmover_partials_artifact_map
-{
-{
-{
-1
 def
 generate_beetmover_partials_artifact_map
 (
@@ -5032,10 +4638,6 @@ mapping
 ]
 :
             
-#
-Relevancy
-checks
-            
 if
 dep
 not
@@ -5055,19 +4657,6 @@ from
 "
 ]
 :
-                
-#
-We
-don
-'
-t
-get
-this
-file
-from
-this
-dependency
-.
                 
 continue
             
@@ -5098,23 +4687,6 @@ all_locales
 ]
 :
                 
-#
-This
-locale
-either
-doesn
-'
-t
-produce
-or
-shouldn
-'
-t
-upload
-this
-file
-.
-                
 continue
             
 if
@@ -5135,23 +4707,6 @@ filename
 :
                 
 continue
-            
-#
-copy_task
-because
-the
-next
-time
-we
-look
-at
-this
-file
-the
-locale
-will
-differ
-.
             
 file_config
 =
@@ -5218,34 +4773,6 @@ platform
 platform
                 
 )
-            
-#
-This
-format
-string
-should
-ideally
-be
-in
-the
-configuration
-file
-            
-#
-but
-this
-would
-mean
-keeping
-variable
-names
-in
-sync
-between
-code
-+
-config
-.
             
 destinations
 =
@@ -5327,45 +4854,6 @@ s3_bucket_paths
 )
             
 ]
-            
-#
-Creating
-map
-entries
-            
-#
-Key
-must
-be
-artifact
-path
-to
-avoid
-trampling
-duplicates
-such
-            
-#
-as
-public
-/
-build
-/
-target
-.
-apk
-and
-public
-/
-build
-/
-en
--
-US
-/
-target
-.
-apk
             
 key
 =
@@ -5450,13 +4938,6 @@ checksums_path
                     
 ]
                 
-#
-optional
-flag
-:
-balrog
-manifest
-                
 if
 file_config
 .
@@ -5510,12 +4991,6 @@ balrog_format
                         
 ]
                 
-#
-optional
-flag
-:
-from_buildid
-                
 if
 file_config
 .
@@ -5543,10 +5018,6 @@ file_config
 from_buildid
 "
 ]
-                
-#
-render
-buildid
                 
 kwargs
 .
@@ -5667,12 +5138,6 @@ strftime
 m
 "
 )
-#
-zero
--
-pad
-the
-month
                         
 "
 upload_date
