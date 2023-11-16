@@ -2247,6 +2247,13 @@ js
 ]
 [
 "
+browser_rules_selector_warnings
+.
+js
+"
+]
+[
+"
 browser_rules_shadowdom_slot_rules
 .
 js
