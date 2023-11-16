@@ -130,6 +130,13 @@ Zone
 zone
 )
 ;
+static
+constexpr
+size_t
+TypicalCacheLineSize
+=
+64
+;
 namespace
 gc
 {
@@ -662,6 +669,10 @@ Black
 }
 ;
 struct
+alignas
+(
+TypicalCacheLineSize
+)
 MarkBitmap
 {
 static
