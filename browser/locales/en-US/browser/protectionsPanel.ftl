@@ -1748,6 +1748,11 @@ banner
 view
 -
 cancel
+-
+label
+=
+.
+label
 =
 Cancel
 protections
