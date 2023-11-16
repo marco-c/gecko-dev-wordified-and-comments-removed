@@ -3176,6 +3176,17 @@ currentSyncedTabs
 .
 length
 }
+?
+isEmptyState
+=
+{
+!
+this
+.
+currentSyncedTabs
+.
+length
+}
 >
 >
 <

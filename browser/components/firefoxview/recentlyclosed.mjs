@@ -1730,6 +1730,17 @@ this
 .
 recentBrowsing
 }
+?
+isEmptyState
+=
+{
+!
+this
+.
+recentlyClosedTabs
+.
+length
+}
 >
 <
 h3
