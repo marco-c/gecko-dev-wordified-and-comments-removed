@@ -593,10 +593,6 @@ move
 aNodeInfo
 )
 )
-mIsOrientationLocked
-(
-false
-)
 mVideoWatchManager
 (
 this
