@@ -576,6 +576,9 @@ this
 "
 registerWalkerListeners
 "
+"
+removeTarget
+"
 ]
 "
 resource
@@ -3662,6 +3665,14 @@ targetFront
 }
 )
 {
+removeTarget
+(
+this
+.
+store
+targetFront
+)
+;
 if
 (
 targetFront
