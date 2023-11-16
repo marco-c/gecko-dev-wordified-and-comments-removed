@@ -53,17 +53,6 @@ enableTesting
 (
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-crypto
-"
-]
-)
-;
 registerCleanupFunction
 (
 resetTesting

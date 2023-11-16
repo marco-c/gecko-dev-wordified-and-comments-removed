@@ -116,17 +116,6 @@ sha256
 arrayBuffer
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-crypto
-"
-]
-)
-;
 let
 hash
 =

@@ -5254,17 +5254,6 @@ mockGfxBlocklistItemsFromDisk
 path
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 let
 response
 =

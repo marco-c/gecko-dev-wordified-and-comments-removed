@@ -29,17 +29,6 @@ mjs
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 async
 function
 getLocalDumpLastModified

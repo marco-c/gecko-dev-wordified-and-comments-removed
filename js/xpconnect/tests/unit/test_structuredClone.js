@@ -168,17 +168,6 @@ xyz
 sb
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-structuredClone
-"
-]
-)
-;
 const
 clone
 =

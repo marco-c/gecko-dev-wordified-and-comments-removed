@@ -154,17 +154,6 @@ enableExperimental
 )
 ;
 }
-Cu
-.
-importGlobalProperties
-(
-[
-"
-indexedDB
-"
-]
-)
-;
 Assert
 .
 ok

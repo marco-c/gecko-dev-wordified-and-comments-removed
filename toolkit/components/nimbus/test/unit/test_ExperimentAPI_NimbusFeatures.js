@@ -56,17 +56,6 @@ mjs
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 ChromeUtils
 .
 defineLazyGetter

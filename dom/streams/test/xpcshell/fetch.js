@@ -59,17 +59,6 @@ XPCShell
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 add_task
 (
 async

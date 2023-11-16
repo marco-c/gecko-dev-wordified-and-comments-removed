@@ -217,9 +217,6 @@ importGlobalProperties
 "
 caches
 "
-"
-fetch
-"
 ]
 )
 ;

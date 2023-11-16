@@ -54,17 +54,6 @@ decorate_task
 =
 NormandyTestUtils
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 decorate_task
 (
 withMockApiServer
