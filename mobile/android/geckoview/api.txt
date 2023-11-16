@@ -22388,6 +22388,17 @@ UiThread
 default
 public
 void
+onReady
+(
+NonNull
+WebExtension
+)
+;
+method
+UiThread
+default
+public
+void
 onUninstalled
 (
 NonNull
