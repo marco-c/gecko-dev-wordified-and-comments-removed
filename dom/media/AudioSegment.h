@@ -627,6 +627,7 @@ i
 AudioChannelsDownMix
 <
 SrcT
+SrcT
 >
 (
 aChannelData
