@@ -4246,6 +4246,9 @@ List
 ContentPermission
 >
 perms
+NonNull
+Boolean
+hasUserGesture
 )
 {
 }

@@ -3177,6 +3177,9 @@ false
 isTopLevel
 :
 true
+hasUserGesture
+:
+false
 }
 )
 ;

@@ -4975,6 +4975,9 @@ PermissionDelegate
 .
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 }
