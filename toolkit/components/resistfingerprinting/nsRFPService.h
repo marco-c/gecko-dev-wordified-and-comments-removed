@@ -1184,6 +1184,12 @@ CanvasUsage
 >
 &
 aUses
+nsIChannel
+*
+aChannel
+nsACString
+&
+aOriginNoSuffix
 )
 ;
 private
