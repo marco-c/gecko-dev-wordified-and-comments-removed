@@ -7,6 +7,13 @@ files
 =
 [
 "
+canvas
+-
+fingerprinter
+.
+html
+"
+"
 empty
 .
 html
@@ -38,6 +45,13 @@ html
 "
 "
 worker
+.
+js
+"
+]
+[
+"
+browser_canvas_fingerprinter_telemetry
 .
 js
 "
