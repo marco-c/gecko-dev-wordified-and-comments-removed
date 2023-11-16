@@ -182,6 +182,32 @@ Renderer
         
 )
         
+gecko_profile_extra_threads
+=
+test_config
+.
+get
+(
+            
+"
+gecko_profile_extra_threads
+"
+None
+        
+)
+        
+if
+gecko_profile_extra_threads
+:
+            
+gecko_profile_threads
++
+=
+"
+"
++
+gecko_profile_extra_threads
+        
 self
 .
 profile_arcname
