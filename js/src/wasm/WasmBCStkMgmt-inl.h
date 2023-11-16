@@ -6579,8 +6579,8 @@ RegI64
 (
 Register64
 (
-lowPart
 highPart
+lowPart
 )
 )
 ;

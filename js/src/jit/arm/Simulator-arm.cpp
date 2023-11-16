@@ -15398,7 +15398,7 @@ typedef
 int32_t
 (
 *
-Prototype_Int32_GeneralInt64Int64Int64GeneralGeneral
+Prototype_Int32_GeneralInt64Int64Int64Int32Int32
 )
 (
 int32_t
@@ -19030,15 +19030,15 @@ break
 ;
 }
 case
-Args_Int32_GeneralInt64Int64Int64GeneralGeneral
+Args_Int32_GeneralInt64Int64Int64Int32Int32
 :
 {
-Prototype_Int32_GeneralInt64Int64Int64GeneralGeneral
+Prototype_Int32_GeneralInt64Int64Int64Int32Int32
 target
 =
 reinterpret_cast
 <
-Prototype_Int32_GeneralInt64Int64Int64GeneralGeneral
+Prototype_Int32_GeneralInt64Int64Int64Int32Int32
 >
 (
 external
