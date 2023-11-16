@@ -971,7 +971,7 @@ stage
 WasmFeatureStage
 :
 :
-Experimental
+Tentative
 \
 /
 *
