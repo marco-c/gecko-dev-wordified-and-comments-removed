@@ -181,6 +181,14 @@ platform
 -
 tests
 -
+privatebrowsing
+-
+web
+-
+platform
+-
+tests
+-
 print
 -
 reftest

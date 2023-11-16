@@ -933,6 +933,12 @@ webgpu
 "
 :
 False
+            
+"
+privatebrowsing
+"
+:
+False
         
 }
     

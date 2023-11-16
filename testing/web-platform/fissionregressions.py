@@ -337,6 +337,12 @@ swgl
 False
         
 "
+privateBrowsing
+"
+:
+False
+        
+"
 win10_2004
 "
 :
@@ -686,6 +692,12 @@ False
         
 "
 swgl
+"
+:
+False
+        
+"
+privateBrowsing
 "
 :
 False
@@ -1044,6 +1056,12 @@ False
         
 "
 swgl
+"
+:
+False
+        
+"
+privateBrowsing
 "
 :
 False
