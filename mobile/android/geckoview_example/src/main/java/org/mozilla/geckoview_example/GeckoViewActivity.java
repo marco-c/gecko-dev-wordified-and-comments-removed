@@ -12907,6 +12907,7 @@ d
 LOGTAG
 "
 Started
+shopping
 analysis
 status
 :
@@ -13159,6 +13160,7 @@ d
 LOGTAG
 "
 Sending
+shopping
 attribution
 events
 to
@@ -13221,6 +13223,7 @@ LOGTAG
 "
 Success
 of
+shopping
 click
 attribution
 event
@@ -13283,6 +13286,7 @@ LOGTAG
 "
 Success
 of
+shopping
 impression
 attribution
 event
