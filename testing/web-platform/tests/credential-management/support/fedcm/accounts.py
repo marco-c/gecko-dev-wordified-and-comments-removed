@@ -162,7 +162,7 @@ john_doe
 ]
    
 "
-hosted_domains
+domain_hints
 "
 :
 [
