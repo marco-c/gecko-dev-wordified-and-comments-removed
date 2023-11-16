@@ -74,6 +74,7 @@ metrics
 "
 true
 false
+true
 vec
 !
 [
@@ -219,6 +220,7 @@ metrics
 "
 true
 false
+true
 vec
 !
 [
@@ -718,6 +720,7 @@ ping1
 "
 true
 true
+true
 vec
 !
 [
@@ -747,6 +750,7 @@ ping2
 "
 true
 false
+true
 vec
 !
 [
@@ -933,6 +937,7 @@ metrics
 "
 true
 false
+true
 vec
 !
 [
@@ -960,6 +965,7 @@ baseline
 "
 true
 false
+true
 vec
 !
 [
@@ -1318,6 +1324,7 @@ new
 "
 events
 "
+true
 true
 true
 vec

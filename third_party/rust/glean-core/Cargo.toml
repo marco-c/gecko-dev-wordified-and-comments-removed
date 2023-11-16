@@ -109,7 +109,7 @@ version
 "
 1
 .
-62
+63
 "
 name
 =
@@ -121,7 +121,7 @@ core
 version
 =
 "
-54
+55
 .
 0
 .
@@ -258,9 +258,9 @@ glean
 parser
 =
 "
-8
+10
 .
-1
+0
 .
 0
 "
@@ -554,11 +554,6 @@ features
 =
 [
 "
-auto
--
-color
-"
-"
 humantime
 "
 ]
@@ -593,7 +588,7 @@ version
 "
 3
 .
-1
+8
 .
 0
 "

@@ -232,6 +232,17 @@ experiment_id
 ;
 /
 /
+Experimentation
+ID
+API
+string
+?
+glean_test_get_experimentation_id
+(
+)
+;
+/
+/
 Server
 Knobs
 API
@@ -450,6 +461,10 @@ rate_limit
 ;
 boolean
 enable_event_timestamps
+;
+string
+?
+experimentation_id
 ;
 }
 ;
@@ -1641,6 +1656,8 @@ boolean
 include_client_id
 boolean
 send_if_empty
+boolean
+precise_timestamps
 sequence
 <
 string

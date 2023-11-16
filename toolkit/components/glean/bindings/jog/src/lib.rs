@@ -695,6 +695,9 @@ bool
 send_if_empty
 :
 bool
+precise_timestamps
+:
+bool
 reason_codes
 :
 &
@@ -746,6 +749,7 @@ create_and_register_ping
 ping_name
 include_client_id
 send_if_empty
+precise_timestamps
 reason_codes
 )
 .
@@ -772,6 +776,9 @@ include_client_id
 :
 bool
 send_if_empty
+:
+bool
+precise_timestamps
 :
 bool
 reason_codes
@@ -822,6 +829,7 @@ create_and_register_ping
 ping_name
 include_client_id
 send_if_empty
+precise_timestamps
 reason_codes
 )
 ;
@@ -996,6 +1004,9 @@ include_client_id
 :
 bool
 send_if_empty
+:
+bool
+precise_timestamps
 :
 bool
 reason_codes
@@ -1262,6 +1273,9 @@ include_client_id
 ping
 .
 send_if_empty
+ping
+.
+precise_timestamps
 ping
 .
 reason_codes

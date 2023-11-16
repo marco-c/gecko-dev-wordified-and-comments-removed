@@ -92,6 +92,9 @@ bool
 send_if_empty
 :
 bool
+precise_timestamps
+:
+bool
 reason_codes
 :
 Vec
@@ -124,6 +127,7 @@ into
 )
 include_client_id
 send_if_empty
+precise_timestamps
 reason_codes
 )
 ;

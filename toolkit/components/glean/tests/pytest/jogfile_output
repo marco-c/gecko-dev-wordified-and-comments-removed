@@ -620,6 +620,7 @@ baseline
 "
 true
 false
+true
 [
 "
 background
@@ -642,6 +643,7 @@ request
 "
 true
 true
+true
 [
 ]
 ]
@@ -653,6 +655,7 @@ events
 "
 true
 false
+true
 [
 "
 background
@@ -673,6 +676,7 @@ metrics
 "
 true
 false
+true
 [
 "
 overdue

@@ -442,13 +442,6 @@ send_in_pings
 =
 send_in_pings
         
-if
-unit
-is
-not
-None
-:
-            
 self
 .
 unit
@@ -1036,6 +1029,25 @@ d
 category
 "
 ]
+        
+if
+not
+d
+[
+"
+unit
+"
+]
+:
+            
+d
+.
+pop
+(
+"
+unit
+"
+)
         
 d
 .
