@@ -267,7 +267,6 @@ resetRules
 true
 )
 ;
-}
 Services
 .
 cookieBanners
@@ -286,6 +285,7 @@ removeAllExecutedRecords
 true
 )
 ;
+}
 }
 )
 ;
