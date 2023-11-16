@@ -88,7 +88,6 @@ test_console_entry_sync_callstack
 (
     
 bidi_session
-subscribe_events
 inline
 top_context
 wait_for_event
@@ -237,7 +236,11 @@ script
 )
     
 await
-subscribe_events
+bidi_session
+.
+session
+.
+subscribe
 (
 events
 =
@@ -459,7 +462,6 @@ test_javascript_entry_sync_callstack
 (
     
 bidi_session
-subscribe_events
 inline
 top_context
 wait_for_event
@@ -523,7 +525,11 @@ script
 )
     
 await
-subscribe_events
+bidi_session
+.
+session
+.
+subscribe
 (
 events
 =

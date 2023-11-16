@@ -11,6 +11,8 @@ Installation
 =
 =
 =
+Hyper
+-
 h2
 is
 a
@@ -45,9 +47,6 @@ block
 :
 :
 console
-python
--
-m
 pip
 install
 h2
@@ -106,4 +105,6 @@ python
 -
 hyper
 /
+hyper
+-
 h2

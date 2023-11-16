@@ -4800,10 +4800,6 @@ and
 result
 .
 message
-.
-strip
-(
-)
 !
 =
 expected_fail_message

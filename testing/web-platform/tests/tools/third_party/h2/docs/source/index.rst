@@ -42,6 +42,8 @@ root
 toctree
 directive
 .
+Hyper
+-
 h2
 :
 A
@@ -92,6 +94,14 @@ stack
 =
 =
 =
+=
+=
+=
+=
+=
+=
+Hyper
+-
 h2
 is
 a
@@ -108,6 +118,8 @@ Python
 The
 goal
 of
+Hyper
+-
 h2
 is
 to
@@ -136,6 +148,8 @@ environment
 To
 achieve
 this
+Hyper
+-
 h2
 is
 entirely
@@ -279,3 +293,4 @@ process
 release
 -
 notes
+contributors

@@ -5,10 +5,24 @@ setup
 PACKAGE_VERSION
 =
 '
-4
+3
 .
 0
 '
+deps
+=
+[
+"
+h2
+>
+=
+3
+.
+0
+.
+1
+"
+]
 setup
 (
 name
@@ -25,8 +39,7 @@ description
 =
 "
 Python
-web
-server
+webserver
 intended
 for
 in
@@ -158,5 +171,9 @@ True
 zip_safe
 =
 False
+      
+install_requires
+=
+deps
       
 )

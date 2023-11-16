@@ -36,6 +36,8 @@ level
 implementation
 details
 of
+hyper
+-
 h2
 .
 This
@@ -47,6 +49,8 @@ be
 of
 use
 to
+hyper
+-
 h2
 developers
 and
@@ -84,6 +88,8 @@ to
 *
 use
 *
+hyper
+-
 h2
 you
 should
@@ -106,6 +112,8 @@ Machines
 -
 -
 -
+-
+hyper
 -
 h2
 is
@@ -988,6 +996,8 @@ other
 parts
 of
 the
+hyper
+-
 h2
 codebase
 what
@@ -1101,6 +1111,8 @@ continue
 to
 enshrine
 in
+hyper
+-
 h2
 .
 A
@@ -1374,6 +1386,8 @@ key
 note
 is
 that
+hyper
+-
 h2
 uses
 the
@@ -1467,6 +1481,8 @@ route
 to
 force
 a
+hyper
+-
 h2
 user
 to
@@ -1480,6 +1496,8 @@ memory
 For
 this
 reason
+hyper
+-
 h2
 circumvents
 the
@@ -1525,6 +1543,8 @@ any
 sense
 interact
 with
+hyper
+-
 h2
 '
 s
@@ -1541,6 +1561,8 @@ as
 strictly
 metadata
 that
+hyper
+-
 h2
 is
 not

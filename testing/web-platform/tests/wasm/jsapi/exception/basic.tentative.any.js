@@ -59,12 +59,17 @@ async
 >
 {
 const
+kWasmAnyRef
+=
+0x6f
+;
+const
 kSig_v_r
 =
 makeSig
 (
 [
-kWasmExternRef
+kWasmAnyRef
 ]
 [
 ]
@@ -245,7 +250,7 @@ addBody
 (
 [
 kExprRefNull
-kAnyFuncCode
+kWasmAnyFunc
 kExprThrow
 tagIndex
 ]
@@ -470,7 +475,7 @@ tagIndex
 kExprReturn
 kExprEnd
 kExprRefNull
-kExternRefCode
+kWasmAnyRef
 ]
 )
 .
@@ -606,7 +611,7 @@ kExprRethrow
 0x00
 kExprEnd
 kExprRefNull
-kExternRefCode
+kWasmAnyRef
 ]
 )
 .

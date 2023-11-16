@@ -416,7 +416,8 @@ on
 slot
 inherits
 from
-parent
+shadow
+host
 "
 light_tree
 :
@@ -501,7 +502,7 @@ expected
 "
 en
 -
-CA
+GB
 "
 >
 <

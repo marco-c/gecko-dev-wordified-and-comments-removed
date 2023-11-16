@@ -22,7 +22,6 @@ test_types_and_values
 (
     
 bidi_session
-subscribe_events
 current_time
 top_context
 wait_for_event
@@ -30,7 +29,11 @@ wait_for_event
 :
     
 await
-subscribe_events
+bidi_session
+.
+session
+.
+subscribe
 (
 events
 =

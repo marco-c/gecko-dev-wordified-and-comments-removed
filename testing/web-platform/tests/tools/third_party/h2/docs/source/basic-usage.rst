@@ -71,6 +71,8 @@ HTTP
 2
 implementations
 using
+Hyper
+-
 h2
 as
 the
@@ -172,6 +174,8 @@ Connections
 -
 -
 -
+Hyper
+-
 h2
 '
 s
@@ -218,6 +222,8 @@ state
 .
 When
 using
+Hyper
+-
 h2
 this
 object
@@ -600,6 +606,8 @@ that
 is
 this
 :
+Hyper
+-
 h2
 '
 s
@@ -800,6 +808,8 @@ at
 the
 top
 that
+Hyper
+-
 h2
 is
 a
@@ -819,6 +829,8 @@ fledged
 implementation
 *
 .
+Hyper
+-
 h2
 knows
 how
@@ -859,6 +871,8 @@ that
 '
 s
 what
+Hyper
+-
 h2
 provides
 .
@@ -868,6 +882,8 @@ I
 /
 O
 makes
+Hyper
+-
 h2
 general
 and
@@ -946,6 +962,8 @@ HTTP
 2
 implementation
 using
+Hyper
+-
 h2
 to
 give
@@ -1010,6 +1028,8 @@ a
 lot
 easier
 !
+Hyper
+-
 h2
 encodes
 the
@@ -1172,6 +1192,8 @@ events
 exist
 is
 that
+Hyper
+-
 h2
 is
 intended
@@ -1186,6 +1208,8 @@ that
 in
 many
 cases
+Hyper
+-
 h2
 does
 not
@@ -1232,6 +1256,8 @@ built
 on
 top
 of
+Hyper
+-
 h2
 .
 A
@@ -1370,6 +1396,8 @@ you
 should
 interact
 with
+Hyper
+-
 h2
 .
 For
@@ -1453,6 +1481,8 @@ Additionally
 you
 should
 install
+Hyper
+-
 h2
 :
 follow
@@ -3149,6 +3179,8 @@ Preamble
 ~
 ~
 ~
+Hyper
+-
 h2
 makes
 doing
@@ -3332,6 +3364,8 @@ the
 network
 .
 But
+Hyper
+-
 h2
 doesn
 '
@@ -4421,6 +4455,8 @@ To
 send
 headers
 in
+Hyper
+-
 h2
 you
 use
@@ -4484,6 +4520,8 @@ data
 is
 binary
 :
+Hyper
+-
 h2
 does
 not
@@ -4508,6 +4546,8 @@ exception
 is
 headers
 :
+Hyper
+-
 h2
 will
 automatically
@@ -4538,6 +4578,8 @@ True
 .
 This
 tells
+Hyper
+-
 h2
 (
 and
@@ -5924,6 +5966,8 @@ a
 client
 stack
 using
+Hyper
+-
 h2
 you
 '
@@ -6285,6 +6329,8 @@ python
 -
 hyper
 /
+hyper
+-
 h2
 /
 tree
@@ -6312,6 +6358,8 @@ python
 org
 /
 3
+.
+5
 /
 library
 /
@@ -6361,6 +6409,8 @@ python
 -
 hyper
 /
+hyper
+-
 h2
 /
 master
@@ -6394,6 +6444,8 @@ python
 -
 hyper
 /
+hyper
+-
 h2
 /
 master
@@ -6436,6 +6488,8 @@ python
 -
 hyper
 /
+hyper
+-
 h2
 /
 blob

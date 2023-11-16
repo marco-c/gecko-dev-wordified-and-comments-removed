@@ -2,6 +2,8 @@ import
 asyncio
 import
 pytest
+import
+pytest_asyncio
 from
 .
 .
@@ -756,9 +758,7 @@ test_pattern_patterns_matching
     
 wait_for_event
     
-subscribe_events
-    
-top_context
+setup_network_test
     
 add_intercept
     
@@ -773,27 +773,21 @@ url_template
 :
     
 await
-subscribe_events
+setup_network_test
 (
+        
 events
 =
 [
+            
 "
 network
 .
 beforeRequestSent
 "
+        
 ]
-contexts
-=
-[
-top_context
-[
-"
-context
-"
-]
-]
+    
 )
     
 for
@@ -1231,9 +1225,7 @@ test_pattern_patterns_not_matching
     
 wait_for_event
     
-subscribe_events
-    
-top_context
+setup_network_test
     
 add_intercept
     
@@ -1248,27 +1240,21 @@ url_template
 :
     
 await
-subscribe_events
+setup_network_test
 (
+        
 events
 =
 [
+            
 "
 network
 .
 beforeRequestSent
 "
+        
 ]
-contexts
-=
-[
-top_context
-[
-"
-context
-"
-]
-]
+    
 )
     
 for
@@ -1804,9 +1790,7 @@ test_string_patterns_matching
     
 wait_for_event
     
-subscribe_events
-    
-top_context
+setup_network_test
     
 add_intercept
     
@@ -1821,27 +1805,21 @@ url_template
 :
     
 await
-subscribe_events
+setup_network_test
 (
+        
 events
 =
 [
+            
 "
 network
 .
 beforeRequestSent
 "
+        
 ]
-contexts
-=
-[
-top_context
-[
-"
-context
-"
-]
-]
+    
 )
     
 intercept
@@ -2255,9 +2233,7 @@ test_string_patterns_not_matching
     
 wait_for_event
     
-subscribe_events
-    
-top_context
+setup_network_test
     
 add_intercept
     
@@ -2272,27 +2248,21 @@ url_template
 :
     
 await
-subscribe_events
+setup_network_test
 (
+        
 events
 =
 [
+            
 "
 network
 .
 beforeRequestSent
 "
+        
 ]
-contexts
-=
-[
-top_context
-[
-"
-context
-"
-]
-]
+    
 )
     
 await

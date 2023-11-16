@@ -39,6 +39,8 @@ outlines
 how
 to
 use
+Hyper
+-
 h2
 with
 each
@@ -192,6 +194,8 @@ To
 use
 it
 with
+Hyper
+-
 h2
 after
 you
@@ -305,6 +309,8 @@ HTTP
 functionality
 provided
 by
+Hyper
+-
 h2
 .
 .
@@ -313,6 +319,8 @@ note
 :
 :
 Although
+Hyper
+-
 h2
 is
 not
@@ -707,6 +715,8 @@ To
 do
 this
 with
+Hyper
+-
 h2
 you
 have
@@ -888,6 +898,8 @@ handled
 as
 normal
 with
+Hyper
+-
 h2
 .
 If
@@ -962,6 +974,8 @@ the
 events
 received
 from
+Hyper
+-
 h2
 as
 they

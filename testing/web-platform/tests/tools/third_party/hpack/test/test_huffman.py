@@ -12,8 +12,16 @@ utf
 -
 from
 hpack
+.
+exceptions
 import
 HPACKDecodingError
+from
+hpack
+.
+huffman_table
+import
+decode_huffman
 from
 hpack
 .
@@ -28,12 +36,6 @@ import
 REQUEST_CODES
 REQUEST_CODES_LENGTH
 from
-hpack
-.
-huffman_table
-import
-decode_huffman
-from
 hypothesis
 import
 given
@@ -46,6 +48,9 @@ import
 binary
 class
 TestHuffman
+(
+object
+)
 :
     
 def
@@ -343,6 +348,9 @@ xbf
 )
 class
 TestHuffmanDecoder
+(
+object
+)
 :
     
 given

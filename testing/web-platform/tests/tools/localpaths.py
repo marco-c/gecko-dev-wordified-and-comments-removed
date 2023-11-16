@@ -462,9 +462,6 @@ third_party
 "
 h2
 "
-"
-src
-"
 )
 )
 sys
@@ -487,9 +484,6 @@ third_party
 "
 hpack
 "
-"
-src
-"
 )
 )
 sys
@@ -511,9 +505,6 @@ third_party
 "
 "
 hyperframe
-"
-"
-src
 "
 )
 )

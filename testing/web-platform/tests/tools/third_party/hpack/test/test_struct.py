@@ -38,11 +38,16 @@ import
 pytest
 from
 hpack
+.
+struct
 import
 HeaderTuple
 NeverIndexedHeaderTuple
 class
 TestHeaderTuple
+(
+object
+)
 :
     
 def
