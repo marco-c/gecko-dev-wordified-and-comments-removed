@@ -3501,15 +3501,6 @@ aWebProgress
 .
 isTopLevel
 permissions
-hasUserGesture
-:
-this
-.
-window
-.
-document
-.
-hasValidTransientUserGestureActivation
 }
 ;
 lazy

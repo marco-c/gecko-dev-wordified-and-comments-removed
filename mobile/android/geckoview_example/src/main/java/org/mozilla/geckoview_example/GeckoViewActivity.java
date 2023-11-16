@@ -13353,8 +13353,6 @@ List
 ContentPermission
 >
 perms
-Boolean
-hasUserGesture
 )
 {
 mToolbarView

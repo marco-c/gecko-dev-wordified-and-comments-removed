@@ -977,9 +977,6 @@ List
 ContentPermission
 >
 perms
-final
-Boolean
-hasUserGesture
 )
 {
 getActionBar

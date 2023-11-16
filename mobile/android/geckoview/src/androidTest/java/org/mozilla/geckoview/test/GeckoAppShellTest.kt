@@ -440,9 +440,6 @@ PermissionDelegate
 .
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 if

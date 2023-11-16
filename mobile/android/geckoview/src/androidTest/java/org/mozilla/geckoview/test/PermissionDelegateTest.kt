@@ -1545,9 +1545,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 var
@@ -1904,9 +1901,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 var
@@ -2336,9 +2330,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 for
@@ -2757,9 +2748,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 var
@@ -3099,9 +3087,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 var
@@ -3590,9 +3575,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 var
@@ -3950,9 +3932,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 var
@@ -4309,9 +4288,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 var
@@ -4708,9 +4684,6 @@ MutableList
 <
 ContentPermission
 >
-hasUserGesture
-:
-Boolean
 )
 {
 var
