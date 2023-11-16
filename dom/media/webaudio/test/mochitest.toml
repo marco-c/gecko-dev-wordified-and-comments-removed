@@ -917,6 +917,11 @@ afconvert
 mp4
 "
 "
+waveformatextensible
+.
+wav
+"
+"
 sixteen
 -
 frames
