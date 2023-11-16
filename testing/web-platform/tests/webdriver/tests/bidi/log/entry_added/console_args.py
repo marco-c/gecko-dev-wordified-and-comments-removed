@@ -296,6 +296,7 @@ test_primitive_types
 (
     
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 data
@@ -304,11 +305,7 @@ remote_value
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
@@ -1365,6 +1362,7 @@ test_remote_values
 (
     
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 data
@@ -1373,11 +1371,7 @@ remote_value
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
@@ -1726,6 +1720,7 @@ test_node
 (
     
 bidi_session
+subscribe_events
 get_test_page
 top_context
 wait_for_event
@@ -1764,11 +1759,7 @@ complete
 )
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =

@@ -57,6 +57,7 @@ def
 test_realm
 (
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 sandbox_name
@@ -64,11 +65,7 @@ sandbox_name
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
