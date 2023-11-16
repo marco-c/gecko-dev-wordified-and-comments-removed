@@ -809,6 +809,7 @@ NOLINT
 *
 /
 \
+MOZ_NOMERGE
 :
 :
 abort
@@ -851,6 +852,7 @@ NOLINT
 *
 /
 \
+MOZ_NOMERGE
 abort
 (
 )
