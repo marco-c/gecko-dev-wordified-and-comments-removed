@@ -3256,6 +3256,14 @@ JS
 :
 TraceKind
 traceKind
+=
+JS
+:
+:
+TraceKind
+:
+:
+Null
 )
 ;
 bool
