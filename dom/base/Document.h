@@ -11806,6 +11806,11 @@ CanvasUsage
 aUsage
 )
 ;
+void
+RecordFontFingerprinting
+(
+)
+;
 bool
 MayHaveDOMActivateListeners
 (
