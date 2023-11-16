@@ -2481,13 +2481,6 @@ Set
 (
 [
 "
-agent
--
-style
--
-sheets
-"
-"
 addon
 -
 provider
