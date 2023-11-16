@@ -134,6 +134,15 @@ heads
 /
 triggers
 /
+firefox_android_nightly
+"
+"
+refs
+/
+heads
+/
+triggers
+/
 webkitgtk_minibrowser_stable
 "
 "
