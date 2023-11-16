@@ -142,11 +142,13 @@ Align
 ;
 }
 ;
+inline
 aligned_allocator
 (
 )
 noexcept
 ;
+inline
 aligned_allocator
 (
 const
@@ -161,6 +163,7 @@ template
 class
 U
 >
+inline
 aligned_allocator
 (
 const
@@ -174,11 +177,13 @@ rhs
 )
 noexcept
 ;
+inline
 ~
 aligned_allocator
 (
 )
 ;
+inline
 pointer
 address
 (
@@ -186,6 +191,7 @@ reference
 )
 noexcept
 ;
+inline
 const_pointer
 address
 (
@@ -194,6 +200,7 @@ const_reference
 const
 noexcept
 ;
+inline
 pointer
 allocate
 (
@@ -207,6 +214,7 @@ hint
 0
 )
 ;
+inline
 void
 deallocate
 (
@@ -216,6 +224,7 @@ size_type
 n
 )
 ;
+inline
 size_type
 max_size
 (
@@ -223,6 +232,7 @@ max_size
 const
 noexcept
 ;
+inline
 size_type
 size_max
 (
@@ -240,6 +250,7 @@ class
 .
 Args
 >
+inline
 void
 construct
 (
@@ -260,6 +271,7 @@ template
 class
 U
 >
+inline
 void
 destroy
 (
@@ -281,6 +293,7 @@ T2
 size_t
 Align2
 >
+inline
 bool
 operator
 =
@@ -316,6 +329,7 @@ T2
 size_t
 Align2
 >
+inline
 bool
 operator
 !
@@ -340,6 +354,7 @@ rhs
 )
 noexcept
 ;
+inline
 void
 *
 aligned_malloc
@@ -350,6 +365,7 @@ size_t
 alignment
 )
 ;
+inline
 void
 aligned_free
 (
@@ -363,6 +379,7 @@ template
 class
 T
 >
+inline
 size_t
 get_alignment_offset
 (

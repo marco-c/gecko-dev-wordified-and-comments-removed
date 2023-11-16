@@ -193,6 +193,7 @@ sve
 unsigned
 best
 ;
+inline
 supported_arch
 (
 )

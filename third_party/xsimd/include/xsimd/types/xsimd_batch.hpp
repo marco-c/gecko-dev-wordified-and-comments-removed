@@ -178,6 +178,7 @@ other
 noexcept
 ;
 friend
+inline
 batch
 <
 T
@@ -220,6 +221,7 @@ other
 ;
 }
 friend
+inline
 batch
 <
 T
@@ -264,6 +266,7 @@ other
 ;
 }
 friend
+inline
 batch
 <
 T
@@ -308,6 +311,7 @@ other
 ;
 }
 friend
+inline
 batch
 <
 T
@@ -346,6 +350,7 @@ other
 ;
 }
 friend
+inline
 batch
 <
 T
@@ -713,12 +718,14 @@ T
 A
 >
 ;
+inline
 batch
 (
 )
 =
 default
 ;
+inline
 batch
 (
 T
@@ -734,6 +741,7 @@ class
 .
 Ts
 >
+inline
 batch
 (
 T
@@ -748,6 +756,7 @@ vals
 )
 noexcept
 ;
+inline
 explicit
 batch
 (
@@ -758,6 +767,7 @@ b
 )
 noexcept
 ;
+inline
 batch
 (
 register_type
@@ -772,6 +782,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 broadcast
 (
@@ -785,6 +796,7 @@ template
 class
 U
 >
+inline
 void
 store_aligned
 (
@@ -800,6 +812,7 @@ template
 class
 U
 >
+inline
 void
 store_unaligned
 (
@@ -815,6 +828,7 @@ template
 class
 U
 >
+inline
 void
 store
 (
@@ -831,6 +845,7 @@ template
 class
 U
 >
+inline
 void
 store
 (
@@ -849,6 +864,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load_aligned
 (
@@ -866,6 +882,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load_unaligned
 (
@@ -883,6 +900,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load
 (
@@ -901,6 +919,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load
 (
@@ -921,6 +940,7 @@ V
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 gather
 (
@@ -946,6 +966,7 @@ U
 class
 V
 >
+inline
 void
 scatter
 (
@@ -964,6 +985,7 @@ index
 const
 noexcept
 ;
+inline
 T
 get
 (
@@ -977,6 +999,7 @@ const
 noexcept
 ;
 friend
+inline
 batch_bool
 <
 T
@@ -1013,6 +1036,7 @@ other
 ;
 }
 friend
+inline
 batch_bool
 <
 T
@@ -1049,6 +1073,7 @@ other
 ;
 }
 friend
+inline
 batch_bool
 <
 T
@@ -1085,6 +1110,7 @@ other
 ;
 }
 friend
+inline
 batch_bool
 <
 T
@@ -1121,6 +1147,7 @@ other
 ;
 }
 friend
+inline
 batch_bool
 <
 T
@@ -1156,6 +1183,7 @@ other
 ;
 }
 friend
+inline
 batch_bool
 <
 T
@@ -1365,6 +1393,7 @@ const
 noexcept
 ;
 friend
+inline
 batch
 operator
 +
@@ -1391,6 +1420,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 -
@@ -1417,6 +1447,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 *
@@ -1443,6 +1474,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 /
@@ -1469,6 +1501,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 &
@@ -1495,6 +1528,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 |
@@ -1521,6 +1555,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 ^
@@ -1547,6 +1582,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 &
@@ -1576,6 +1612,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 |
@@ -1606,6 +1643,7 @@ other
 }
 private
 :
+inline
 batch
 logical_and
 (
@@ -1617,6 +1655,7 @@ other
 const
 noexcept
 ;
+inline
 batch
 logical_or
 (
@@ -1740,12 +1779,14 @@ T
 A
 >
 ;
+inline
 batch_bool
 (
 )
 =
 default
 ;
+inline
 batch_bool
 (
 bool
@@ -1753,6 +1794,7 @@ val
 )
 noexcept
 ;
+inline
 batch_bool
 (
 register_type
@@ -1768,6 +1810,7 @@ class
 .
 Ts
 >
+inline
 batch_bool
 (
 bool
@@ -1787,6 +1830,7 @@ template
 class
 Tp
 >
+inline
 batch_bool
 (
 Tp
@@ -1796,6 +1840,7 @@ const
 =
 delete
 ;
+inline
 void
 store_aligned
 (
@@ -1806,6 +1851,7 @@ mem
 const
 noexcept
 ;
+inline
 void
 store_unaligned
 (
@@ -1818,6 +1864,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
+inline
 batch_bool
 load_aligned
 (
@@ -1830,6 +1877,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
+inline
 batch_bool
 load_unaligned
 (
@@ -1840,6 +1888,7 @@ mem
 )
 noexcept
 ;
+inline
 bool
 get
 (
@@ -1852,6 +1901,7 @@ i
 const
 noexcept
 ;
+inline
 uint64_t
 mask
 (
@@ -1859,6 +1909,7 @@ mask
 const
 noexcept
 ;
+inline
 static
 batch_bool
 from_mask
@@ -1868,6 +1919,7 @@ mask
 )
 noexcept
 ;
+inline
 batch_bool
 operator
 =
@@ -1881,6 +1933,7 @@ other
 const
 noexcept
 ;
+inline
 batch_bool
 operator
 !
@@ -1894,6 +1947,7 @@ other
 const
 noexcept
 ;
+inline
 batch_bool
 operator
 ~
@@ -1902,6 +1956,7 @@ operator
 const
 noexcept
 ;
+inline
 batch_bool
 operator
 !
@@ -1910,6 +1965,7 @@ operator
 const
 noexcept
 ;
+inline
 batch_bool
 operator
 &
@@ -1922,6 +1978,7 @@ other
 const
 noexcept
 ;
+inline
 batch_bool
 operator
 |
@@ -1934,6 +1991,7 @@ other
 const
 noexcept
 ;
+inline
 batch_bool
 operator
 ^
@@ -1946,6 +2004,7 @@ other
 const
 noexcept
 ;
+inline
 batch_bool
 operator
 &
@@ -1959,6 +2018,7 @@ other
 const
 noexcept
 ;
+inline
 batch_bool
 operator
 |
@@ -1972,6 +2032,7 @@ other
 const
 noexcept
 ;
+inline
 batch_bool
 &
 operator
@@ -1983,7 +2044,6 @@ const
 &
 other
 )
-const
 noexcept
 {
 return
@@ -2000,6 +2060,7 @@ this
 other
 ;
 }
+inline
 batch_bool
 &
 operator
@@ -2011,7 +2072,6 @@ const
 &
 other
 )
-const
 noexcept
 {
 return
@@ -2028,6 +2088,7 @@ this
 other
 ;
 }
+inline
 batch_bool
 &
 operator
@@ -2039,7 +2100,6 @@ const
 &
 other
 )
-const
 noexcept
 {
 return
@@ -2076,6 +2136,7 @@ size_t
 Is
 >
 static
+inline
 register_type
 make_register
 (
@@ -2109,6 +2170,7 @@ class
 V
 >
 static
+inline
 register_type
 make_register
 (
@@ -2218,12 +2280,14 @@ real_batch
 :
 size
 ;
+inline
 batch
 (
 )
 =
 default
 ;
+inline
 batch
 (
 value_type
@@ -2233,6 +2297,7 @@ val
 )
 noexcept
 ;
+inline
 batch
 (
 real_batch
@@ -2246,6 +2311,7 @@ imag
 )
 noexcept
 ;
+inline
 batch
 (
 real_batch
@@ -2255,6 +2321,7 @@ real
 )
 noexcept
 ;
+inline
 batch
 (
 T
@@ -2270,6 +2337,7 @@ class
 .
 Ts
 >
+inline
 batch
 (
 value_type
@@ -2284,6 +2352,7 @@ vals
 )
 noexcept
 ;
+inline
 explicit
 batch
 (
@@ -2301,6 +2370,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 broadcast
 (
@@ -2311,6 +2381,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load_aligned
 (
@@ -2329,6 +2400,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load_unaligned
 (
@@ -2345,6 +2417,7 @@ nullptr
 )
 noexcept
 ;
+inline
 void
 store_aligned
 (
@@ -2358,6 +2431,7 @@ imag_dst
 const
 noexcept
 ;
+inline
 void
 store_unaligned
 (
@@ -2373,6 +2447,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load_aligned
 (
@@ -2385,6 +2460,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load_unaligned
 (
@@ -2395,6 +2471,7 @@ src
 )
 noexcept
 ;
+inline
 void
 store_aligned
 (
@@ -2405,6 +2482,7 @@ dst
 const
 noexcept
 ;
+inline
 void
 store_unaligned
 (
@@ -2422,6 +2500,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load
 (
@@ -2440,6 +2519,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load
 (
@@ -2456,6 +2536,7 @@ template
 class
 U
 >
+inline
 void
 store
 (
@@ -2472,6 +2553,7 @@ template
 class
 U
 >
+inline
 void
 store
 (
@@ -2483,6 +2565,7 @@ unaligned_mode
 const
 noexcept
 ;
+inline
 real_batch
 real
 (
@@ -2490,6 +2573,7 @@ real
 const
 noexcept
 ;
+inline
 real_batch
 imag
 (
@@ -2497,6 +2581,7 @@ imag
 const
 noexcept
 ;
+inline
 value_type
 get
 (
@@ -2517,6 +2602,7 @@ template
 bool
 i3ec
 >
+inline
 batch
 (
 xtl
@@ -2544,6 +2630,7 @@ class
 .
 Ts
 >
+inline
 batch
 (
 xtl
@@ -2581,6 +2668,7 @@ i3ec
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load_aligned
 (
@@ -2606,6 +2694,7 @@ i3ec
 >
 XSIMD_NO_DISCARD
 static
+inline
 batch
 load_unaligned
 (
@@ -2629,6 +2718,7 @@ template
 bool
 i3ec
 >
+inline
 void
 store_aligned
 (
@@ -2652,6 +2742,7 @@ template
 bool
 i3ec
 >
+inline
 void
 store_unaligned
 (
@@ -2672,6 +2763,7 @@ noexcept
 ;
 #
 endif
+inline
 batch_bool
 <
 T
@@ -2689,6 +2781,7 @@ other
 const
 noexcept
 ;
+inline
 batch_bool
 <
 T
@@ -2706,6 +2799,7 @@ other
 const
 noexcept
 ;
+inline
 batch
 &
 operator
@@ -2719,6 +2813,7 @@ other
 )
 noexcept
 ;
+inline
 batch
 &
 operator
@@ -2732,6 +2827,7 @@ other
 )
 noexcept
 ;
+inline
 batch
 &
 operator
@@ -2745,6 +2841,7 @@ other
 )
 noexcept
 ;
+inline
 batch
 &
 operator
@@ -2758,6 +2855,7 @@ other
 )
 noexcept
 ;
+inline
 batch
 &
 operator
@@ -2767,6 +2865,7 @@ operator
 )
 noexcept
 ;
+inline
 batch
 &
 operator
@@ -2776,6 +2875,7 @@ operator
 )
 noexcept
 ;
+inline
 batch
 operator
 +
@@ -2785,6 +2885,7 @@ int
 )
 noexcept
 ;
+inline
 batch
 operator
 -
@@ -2794,6 +2895,7 @@ int
 )
 noexcept
 ;
+inline
 batch_bool_type
 operator
 !
@@ -2802,6 +2904,7 @@ operator
 const
 noexcept
 ;
+inline
 batch
 operator
 ~
@@ -2810,6 +2913,7 @@ operator
 const
 noexcept
 ;
+inline
 batch
 operator
 -
@@ -2818,6 +2922,7 @@ operator
 const
 noexcept
 ;
+inline
 batch
 operator
 +
@@ -2827,6 +2932,7 @@ const
 noexcept
 ;
 friend
+inline
 batch
 operator
 +
@@ -2853,6 +2959,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 -
@@ -2879,6 +2986,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 *
@@ -2905,6 +3013,7 @@ other
 ;
 }
 friend
+inline
 batch
 operator
 /
