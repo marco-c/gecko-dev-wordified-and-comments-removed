@@ -24,7 +24,12 @@ keys
 ]
 =
 <
-Fragment
+div
+className
+=
+"
+pane
+"
 >
 <
 ul
@@ -427,7 +432,7 @@ ul
 >
 <
 /
-Fragment
+div
 >
 ;
 exports
@@ -439,7 +444,12 @@ render
 ]
 =
 <
-Fragment
+div
+className
+=
+"
+pane
+"
 >
 <
 ul
@@ -846,6 +856,6 @@ ul
 >
 <
 /
-Fragment
+div
 >
 ;
