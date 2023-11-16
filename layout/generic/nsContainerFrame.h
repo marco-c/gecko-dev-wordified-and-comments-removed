@@ -1892,17 +1892,6 @@ nsIFrame
 aPrevSibling
 )
 ;
-void
-PushChildren
-(
-nsIFrame
-*
-aFromChild
-nsIFrame
-*
-aPrevSibling
-)
-;
 using
 FrameHashtable
 =
