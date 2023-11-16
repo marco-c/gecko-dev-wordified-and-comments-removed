@@ -3364,6 +3364,13 @@ return
 dynamicCodeFlag
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_ASAN
+)
 static
 void
 HexEncode
@@ -4291,6 +4298,8 @@ sandbox
 SBOX_ALL_OK
 ;
 }
+#
+endif
 void
 SandboxBroker
 :
@@ -9519,6 +9528,13 @@ rules
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_ASAN
+)
 if
 (
 !
@@ -9587,6 +9603,8 @@ profile
 )
 ;
 }
+#
+endif
 result
 =
 policy
