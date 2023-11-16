@@ -51,7 +51,7 @@ mapObj
 JS
 :
 :
-HandleObject
+HandleValue
 key
 JS
 :
@@ -76,7 +76,7 @@ mapObj
 JS
 :
 :
-HandleObject
+HandleValue
 key
 JS
 :
