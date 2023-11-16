@@ -10,10 +10,3 @@ wrappedJSObject
 .
 caches
 ;
-delete
-window
-.
-wrappedJSObject
-.
-indexedDB
-;
