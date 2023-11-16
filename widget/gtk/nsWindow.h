@@ -3008,11 +3008,6 @@ mPanInProgress
 1
 ;
 bool
-mDrawToContainer
-:
-1
-;
-bool
 mTitlebarBackdropState
 :
 1
