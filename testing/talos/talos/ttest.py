@@ -194,6 +194,9 @@ runTest
 self
 browser_config
 test_config
+utility_path
+=
+None
 )
 :
         
@@ -272,9 +275,14 @@ self
 .
 _runTest
 (
+                
 browser_config
 test_config
 setup
+utility_path
+=
+utility_path
+            
 )
     
 staticmethod
@@ -434,6 +442,9 @@ self
 browser_config
 test_config
 setup
+utility_path
+=
+None
 )
 :
         
@@ -1208,6 +1219,10 @@ browser_config
 debugger_args
 "
 ]
+                    
+utility_path
+=
+utility_path
                 
 )
             
