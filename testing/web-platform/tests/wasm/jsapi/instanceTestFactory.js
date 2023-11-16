@@ -1194,7 +1194,10 @@ exportAs
 .
 init
 =
+wasmI32Const
+(
 7
+)
 ;
 const
 buffer
@@ -1340,7 +1343,10 @@ global
 .
 init
 =
+wasmI32Const
+(
 7
+)
 ;
 builder
 .
@@ -1359,9 +1365,12 @@ global2
 .
 init
 =
+wasmF64Const
+(
 1
 .
 2
+)
 ;
 builder
 .
