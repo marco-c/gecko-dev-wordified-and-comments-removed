@@ -212,7 +212,7 @@ options
 [
 Cached
 Pure
-SetterThrows
+Throws
 ]
 attribute
 Float32Array

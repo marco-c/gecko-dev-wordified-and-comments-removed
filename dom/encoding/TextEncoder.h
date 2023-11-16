@@ -173,7 +173,7 @@ JSObject
 *
 >
 aRetval
-OOMReporter
+ErrorResult
 &
 aRv
 )
