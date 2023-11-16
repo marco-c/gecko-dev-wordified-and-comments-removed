@@ -3874,6 +3874,18 @@ sync
 options
 )
 {
+if
+(
+lazy
+.
+Utils
+.
+shouldSkipRemoteActivityDueToTests
+)
+{
+return
+;
+}
 /
 /
 We
@@ -3996,7 +4008,7 @@ expectedTimestamp
 =
 changes
 ;
-return
+await
 this
 .
 maybeSync
