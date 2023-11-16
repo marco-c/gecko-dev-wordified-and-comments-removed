@@ -1727,9 +1727,7 @@ e
 }
 this
 .
-browser
-.
-sendMessageToActor
+sendAsyncMessage
 (
 "
 PDFJS
@@ -1739,9 +1737,6 @@ Child
 getNimbus
 "
 result
-"
-GeckoViewPdfjs
-"
 )
 ;
 }
@@ -1769,6 +1764,7 @@ GeckoViewExperimentDelegate
 "
 )
 ;
+await
 experimentActor
 .
 recordExposure
