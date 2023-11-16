@@ -2697,6 +2697,12 @@ std
 :
 make_signed_t
 "
+"
+mozilla
+:
+:
+ProfileChunkedBuffer
+"
 ]
 #
 All
