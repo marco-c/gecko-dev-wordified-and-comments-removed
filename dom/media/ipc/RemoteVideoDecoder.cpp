@@ -1392,6 +1392,13 @@ image
 BuildSurfaceDescriptorBuffer
 (
 sdBuffer
+Image
+:
+:
+BuildSdbFlags
+:
+:
+Default
 [
 &
 ]
