@@ -5,7 +5,7 @@ setup
 PACKAGE_VERSION
 =
 '
-3
+4
 .
 0
 '
@@ -16,11 +16,11 @@ deps
 h2
 >
 =
-3
-.
-0
+4
 .
 1
+.
+0
 "
 ]
 setup
@@ -39,7 +39,8 @@ description
 =
 "
 Python
-webserver
+web
+server
 intended
 for
 in

@@ -17,8 +17,6 @@ Process
 =
 Because
 of
-Hyper
--
 h2
 '
 s
@@ -63,8 +61,6 @@ Versioning
 -
 -
 -
-Hyper
--
 h2
 follows
 semantic
@@ -85,8 +81,6 @@ The
 public
 API
 of
-Hyper
--
 h2
 is
 strictly
@@ -141,8 +135,6 @@ Maintenance
 -
 -
 -
--
-Hyper
 -
 h2
 has
@@ -320,8 +312,6 @@ Series
 The
 developers
 of
-Hyper
--
 h2
 commit
 to

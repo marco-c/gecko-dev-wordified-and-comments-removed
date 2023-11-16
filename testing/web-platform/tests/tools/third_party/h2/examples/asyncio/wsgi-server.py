@@ -43,8 +43,6 @@ WSGI
 server
 written
 using
-hyper
--
 h2
 .
 Requires
@@ -113,8 +111,6 @@ demonstrate
 how
 to
 integrate
-hyper
--
 h2
 into
 a

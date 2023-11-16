@@ -45,22 +45,17 @@ binary
 one_of
 from
 hpack
+import
+HPACKDecodingError
+from
+hpack
 .
 hpack
 import
 encode_integer
 decode_integer
-from
-hpack
-.
-exceptions
-import
-HPACKDecodingError
 class
 TestIntegerEncoding
-(
-object
-)
 :
     
 def
@@ -179,9 +174,6 @@ x2a
 )
 class
 TestIntegerDecoding
-(
-object
-)
 :
     
 def
@@ -323,9 +315,6 @@ x1f
 )
 class
 TestEncodingProperties
-(
-object
-)
 :
     
 "
