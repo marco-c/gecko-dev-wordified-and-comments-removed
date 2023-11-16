@@ -1944,10 +1944,6 @@ selected
 one
 -
 off
-a
-xul
-:
-button
 including
 the
 add
@@ -2025,14 +2021,12 @@ val
 {
 val
 .
-setAttribute
+toggleAttribute
 (
 "
 selected
 "
-"
 true
-"
 )
 ;
 }
