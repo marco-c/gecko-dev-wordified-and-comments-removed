@@ -921,7 +921,6 @@ Create
 (
 aCx
 this
-3
 mEyeTranslation
 .
 components
@@ -1166,7 +1165,6 @@ Create
 (
 aCx
 this
-16
 mSittingToStandingTransform
 .
 components

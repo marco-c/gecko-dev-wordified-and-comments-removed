@@ -2907,6 +2907,7 @@ typename
 TypedArrayType
 >
 class
+MOZ_STACK_CLASS
 TypedArrayCreator
 {
 typedef
@@ -2955,15 +2956,6 @@ Create
 (
 aCx
 mArray
-.
-Length
-(
-)
-mArray
-.
-Elements
-(
-)
 )
 ;
 }

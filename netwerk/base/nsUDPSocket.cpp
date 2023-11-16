@@ -1026,15 +1026,6 @@ Create
 cx
 nullptr
 mData
-.
-Length
-(
-)
-mData
-.
-Elements
-(
-)
 )
 ;
 HoldJSObjects

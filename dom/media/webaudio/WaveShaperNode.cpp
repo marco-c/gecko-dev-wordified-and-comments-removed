@@ -1902,15 +1902,6 @@ Create
 aCx
 this
 mCurve
-.
-Length
-(
-)
-mCurve
-.
-Elements
-(
-)
 )
 )
 ;

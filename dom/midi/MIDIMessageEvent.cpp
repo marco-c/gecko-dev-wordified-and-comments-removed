@@ -579,15 +579,6 @@ Create
 cx
 this
 mRawData
-.
-Length
-(
-)
-mRawData
-.
-Elements
-(
-)
 )
 ;
 if
