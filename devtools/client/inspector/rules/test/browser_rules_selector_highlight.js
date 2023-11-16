@@ -251,6 +251,8 @@ SELECTOR_ELEMENT
 ruleview
 -
 selector
+-
+element
 "
 ;
 const

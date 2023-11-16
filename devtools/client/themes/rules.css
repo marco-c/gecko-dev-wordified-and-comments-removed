@@ -5317,7 +5317,9 @@ inline
 .
 ruleview
 -
-selectorcontainer
+selectors
+-
+container
 {
 word
 -
@@ -5342,7 +5344,7 @@ separator
 ruleview
 -
 selector
--
+.
 unmatched
 .
 ruleview
@@ -5361,7 +5363,7 @@ color
 ruleview
 -
 selector
--
+.
 matched
 >
 .
@@ -5390,7 +5392,7 @@ colors
 ruleview
 -
 selector
--
+.
 matched
 >
 .
@@ -5421,7 +5423,7 @@ colors
 ruleview
 -
 selector
--
+.
 matched
 >
 .

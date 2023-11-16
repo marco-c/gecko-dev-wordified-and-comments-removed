@@ -1218,6 +1218,10 @@ width
 ;
 }
 .
+rule
+-
+text
+.
 matched
 {
 text
@@ -1229,6 +1233,10 @@ line
 through
 ;
 }
+.
+rule
+-
+text
 .
 parentmatch
 {
