@@ -347,6 +347,9 @@ true
 labelRule
 :
 true
+mustBeEnabled
+:
+true
 mustHaveAccessibleRule
 :
 true
@@ -1059,6 +1062,11 @@ accessible
 {
 if
 (
+gEnv
+.
+mustBeEnabled
+&
+&
 matchState
 (
 accessible
@@ -1070,9 +1078,12 @@ a11yFail
 (
 "
 Node
-is
+expected
+to
+be
 enabled
 but
+is
 disabled
 via
 the
