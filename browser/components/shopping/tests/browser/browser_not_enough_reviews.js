@@ -38,7 +38,7 @@ await
 getAnalysisDetails
 (
 browser
-MOCK_NOT_ENOUGH_REVIEWS_PRODUCT_RESPONSE
+MOCK_UNANALYZED_PRODUCT_RESPONSE
 )
 ;
 ok
@@ -76,7 +76,7 @@ add_task
 (
 async
 function
-test_show_not_enough_reviews_after_analysis
+test_show_not_enough_reviews
 (
 )
 {
@@ -143,12 +143,6 @@ cloneInto
 mockData
 content
 )
-;
-shoppingContainer
-.
-firstAnalysis
-=
-false
 ;
 let
 messageBarVisiblePromise
