@@ -1878,10 +1878,10 @@ HasTrackingTable
 (
 )
 ;
-gfxFloat
+float
 TrackingForCSSPx
 (
-gfxFloat
+float
 aSize
 )
 const

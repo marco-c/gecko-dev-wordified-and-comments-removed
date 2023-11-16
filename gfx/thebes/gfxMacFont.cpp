@@ -873,7 +873,7 @@ mFUnitsConvFactor
 aShapedText
 -
 >
-ApplyTrackingToClusters
+AdjustAdvancesForSyntheticBold
 (
 tracking
 aOffset
