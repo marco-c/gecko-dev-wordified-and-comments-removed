@@ -250,7 +250,7 @@ eventType
 "
 reserved
 .
-top_navigation
+top_navigation_commit
 "
 eventData
 :
@@ -358,6 +358,7 @@ received_beacon_data_1
 await
 nextAutomaticBeacon
 (
+beacon_data
 )
 ;
 assert_equals
@@ -468,6 +469,7 @@ race
 [
 nextAutomaticBeacon
 (
+beacon_data
 )
 timeout
 ]
