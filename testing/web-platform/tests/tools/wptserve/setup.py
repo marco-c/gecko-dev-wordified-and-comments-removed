@@ -9,20 +9,6 @@ PACKAGE_VERSION
 .
 0
 '
-deps
-=
-[
-"
-h2
->
-=
-4
-.
-1
-.
-0
-"
-]
 setup
 (
 name
@@ -172,9 +158,5 @@ True
 zip_safe
 =
 False
-      
-install_requires
-=
-deps
       
 )
