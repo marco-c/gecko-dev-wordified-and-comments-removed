@@ -817,6 +817,7 @@ LIMITED
 ;
 class
 DMABufSurfaceRGBA
+final
 :
 public
 DMABufSurface
@@ -876,12 +877,14 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
+override
 ;
 DMABufSurfaceRGBA
 *
 GetAsDMABufSurfaceRGBA
 (
 )
+override
 {
 return
 this
@@ -896,6 +899,7 @@ void
 ReleaseSurface
 (
 )
+override
 ;
 bool
 CopyFrom
@@ -914,6 +918,7 @@ aPlane
 =
 0
 )
+override
 {
 return
 mWidth
@@ -928,6 +933,7 @@ aPlane
 =
 0
 )
+override
 {
 return
 mHeight
@@ -944,6 +950,7 @@ SurfaceFormat
 GetFormat
 (
 )
+override
 ;
 mozilla
 :
@@ -955,6 +962,7 @@ SurfaceFormat
 GetFormatGL
 (
 )
+override
 ;
 bool
 HasAlpha
@@ -1073,11 +1081,13 @@ aPlane
 =
 0
 )
+override
 ;
 void
 ReleaseTextures
 (
 )
+override
 ;
 GLuint
 GetTexture
@@ -1087,6 +1097,7 @@ aPlane
 =
 0
 )
+override
 {
 return
 mTexture
@@ -1101,6 +1112,7 @@ aPlane
 =
 0
 )
+override
 {
 return
 mEGLImage
@@ -1137,6 +1149,7 @@ int
 GetTextureCount
 (
 )
+override
 {
 return
 1
@@ -1146,7 +1159,6 @@ return
 #
 ifdef
 DEBUG
-virtual
 void
 DumpToFile
 (
@@ -1155,6 +1167,7 @@ char
 *
 pFile
 )
+override
 ;
 #
 endif
@@ -1215,6 +1228,7 @@ SurfaceDescriptor
 &
 aDesc
 )
+override
 ;
 bool
 Create
@@ -1265,6 +1279,7 @@ aProofOfLock
 int
 aPlane
 )
+override
 ;
 void
 CloseFileDescriptorForPlane
@@ -1281,6 +1296,7 @@ aPlane
 bool
 aForceClose
 )
+override
 ;
 private
 :
@@ -1327,6 +1343,7 @@ endif
 ;
 class
 DMABufSurfaceYUV
+final
 :
 public
 DMABufSurface
@@ -1413,12 +1430,14 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
+override
 ;
 DMABufSurfaceYUV
 *
 GetAsDMABufSurfaceYUV
 (
 )
+override
 {
 return
 this
@@ -1438,6 +1457,7 @@ DataSourceSurface
 GetAsSourceSurface
 (
 )
+override
 ;
 int
 GetWidth
@@ -1447,6 +1467,7 @@ aPlane
 =
 0
 )
+override
 {
 return
 mWidth
@@ -1463,6 +1484,7 @@ aPlane
 =
 0
 )
+override
 {
 return
 mHeight
@@ -1481,6 +1503,7 @@ SurfaceFormat
 GetFormat
 (
 )
+override
 ;
 mozilla
 :
@@ -1492,6 +1515,7 @@ SurfaceFormat
 GetFormatGL
 (
 )
+override
 ;
 bool
 CreateTexture
@@ -1510,16 +1534,19 @@ aPlane
 =
 0
 )
+override
 ;
 void
 ReleaseTextures
 (
 )
+override
 ;
 void
 ReleaseSurface
 (
 )
+override
 ;
 GLuint
 GetTexture
@@ -1529,6 +1556,7 @@ aPlane
 =
 0
 )
+override
 {
 return
 mTexture
@@ -1546,6 +1574,7 @@ aPlane
 =
 0
 )
+override
 {
 return
 mEGLImage
@@ -1559,6 +1588,7 @@ int
 GetTextureCount
 (
 )
+override
 ;
 void
 SetYUVColorSpace
@@ -1588,6 +1618,7 @@ YUVColorSpace
 GetYUVColorSpace
 (
 )
+override
 {
 return
 mColorSpace
@@ -1671,6 +1702,7 @@ SurfaceDescriptor
 &
 aDesc
 )
+override
 ;
 bool
 Create
@@ -1787,6 +1819,7 @@ aProofOfLock
 int
 aPlane
 )
+override
 ;
 void
 CloseFileDescriptorForPlane
@@ -1803,6 +1836,7 @@ aPlane
 bool
 aForceClose
 )
+override
 ;
 bool
 CreateEGLImage
