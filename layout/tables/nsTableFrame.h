@@ -1906,7 +1906,7 @@ nsTableRowGroupFrame
 *
 aTfoot
 nscoord
-aFooterHeight
+aFooterBSize
 )
 ;
 public
