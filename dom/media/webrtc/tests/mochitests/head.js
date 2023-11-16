@@ -1572,10 +1572,6 @@ if
 DefaultLoopbackTone
 )
 {
-TEST_AUDIO_FREQ
-=
-440
-;
 DefaultLoopbackTone
 =
 new
@@ -1624,13 +1620,6 @@ constraints
 .
 audio
 )
-;
-}
-else
-{
-TEST_AUDIO_FREQ
-=
-1000
 ;
 }
 info
