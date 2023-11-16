@@ -268,7 +268,7 @@ to
 /
 browser
 .
-ini
+toml
 You
 can
 also
@@ -576,7 +576,7 @@ an
 empty
 browser
 .
-ini
+toml
 file
 2
 .
