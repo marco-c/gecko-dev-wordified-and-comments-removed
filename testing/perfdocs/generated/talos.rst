@@ -14936,6 +14936,11 @@ addon
 '
 ]
 *
+gecko_profile_extra_threads
+:
+DOM
+Worker
+*
 gecko_profile_interval
 :
 10

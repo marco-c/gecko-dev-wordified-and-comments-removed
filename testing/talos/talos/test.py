@@ -3210,6 +3210,13 @@ gecko_profile_interval
 =
 10
     
+gecko_profile_extra_threads
+=
+"
+DOM
+Worker
+"
+    
 win_counters
 =
 w7_counters
