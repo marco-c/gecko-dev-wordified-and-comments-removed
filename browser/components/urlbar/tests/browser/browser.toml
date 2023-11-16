@@ -2902,6 +2902,13 @@ or
 labeled
 [
 "
+browser_slow_heuristic
+.
+js
+"
+]
+[
+"
 browser_speculative_connect
 .
 js
