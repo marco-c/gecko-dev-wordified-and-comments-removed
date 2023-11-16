@@ -1,3 +1,4 @@
+export
 const
 manifest_origin
 =
