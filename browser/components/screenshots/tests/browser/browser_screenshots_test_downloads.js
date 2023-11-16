@@ -489,6 +489,7 @@ dragOverlay
 500
 )
 ;
+await
 helper
 .
 clickDownloadButton
@@ -909,6 +910,7 @@ exit
 "
 )
 ;
+await
 helper
 .
 clickDownloadButton
