@@ -2691,6 +2691,12 @@ ThreadLocal
 .
 *
 "
+"
+std
+:
+:
+make_signed_t
+"
 ]
 #
 All
