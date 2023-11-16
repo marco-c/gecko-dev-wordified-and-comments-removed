@@ -368,11 +368,13 @@ WorkerScriptLoader
 >
 loader
 =
-new
 loader
 :
 :
 WorkerScriptLoader
+:
+:
+Create
 (
 workerPrivate
 nullptr
