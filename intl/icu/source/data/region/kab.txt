@@ -631,6 +631,16 @@ IN
 Lhend
 "
 }
+IO
+{
+"
+Akal
+Aglizi
+deg
+Ugaraw
+Ahendi
+"
+}
 IQ
 {
 "

@@ -508,11 +508,6 @@ JPY
 "
 "
 }
-KGS
-{
-"
-"
-}
 KHR
 {
 "
@@ -824,7 +819,7 @@ other
 Version
 {
 "
-44
+43
 "
 }
 currencySpacing

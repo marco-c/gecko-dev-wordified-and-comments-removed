@@ -323,11 +323,11 @@ in
 TestUnits
 .
 java
-to
-regenerate
-unitPreferencesTest
-.
-txt
+and
+look
+at
+TestUnitPreferences
+results
 .
 area
 ;
@@ -7151,7 +7151,7 @@ pressure
 ;
 baromtrc
 ;
-US
+IN
 ;
 37250275043751
 /
@@ -7186,7 +7186,7 @@ pressure
 ;
 baromtrc
 ;
-US
+IN
 ;
 3386388640341
 /
@@ -7219,7 +7219,7 @@ pressure
 ;
 baromtrc
 ;
-US
+IN
 ;
 30477497763069
 /
@@ -8621,7 +8621,7 @@ speed
 ;
 wind
 ;
-GB
+US
 ;
 15367
 /
@@ -8654,7 +8654,7 @@ speed
 ;
 wind
 ;
-GB
+US
 ;
 1397
 /
@@ -8685,7 +8685,7 @@ speed
 ;
 wind
 ;
-GB
+US
 ;
 12573
 /

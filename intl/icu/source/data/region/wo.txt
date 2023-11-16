@@ -738,6 +738,17 @@ IN
 End
 "
 }
+IO
+{
+"
+Terituwaaru
+Br
+taa
+ci
+Oseyaa
+Enje
+"
+}
 IQ
 {
 "

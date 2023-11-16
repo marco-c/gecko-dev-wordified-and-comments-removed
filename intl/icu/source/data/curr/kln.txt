@@ -480,15 +480,6 @@ ne
 tilil
 "
 }
-SLE
-{
-"
-SLE
-"
-"
-Leonit
-"
-}
 SLL
 {
 "
@@ -496,10 +487,6 @@ SLL
 "
 "
 Leonit
-(
-1964
-2022
-)
 "
 }
 SOS

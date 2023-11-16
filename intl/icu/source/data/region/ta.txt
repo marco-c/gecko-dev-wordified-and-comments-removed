@@ -1550,16 +1550,6 @@ ZZ
 }
 Countries
 %
-chagos
-{
-IO
-{
-"
-"
-}
-}
-Countries
-%
 short
 {
 GB

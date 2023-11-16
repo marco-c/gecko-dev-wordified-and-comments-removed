@@ -150,11 +150,11 @@ und
 "
 :
 "
-en
+ru
 -
-Latn
+Cyrl
 -
-150
+RU
 "
 "
 und
@@ -191,7 +191,7 @@ AQ
 "
 :
 "
-en
+und
 -
 Latn
 -
@@ -396,7 +396,7 @@ AQ
 "
 :
 "
-en
+und
 -
 AQ
 "

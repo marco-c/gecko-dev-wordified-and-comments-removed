@@ -416,9 +416,6 @@ int32_t
 dom
 int32_t
 delta
-UErrorCode
-&
-status
 )
 ;
 const

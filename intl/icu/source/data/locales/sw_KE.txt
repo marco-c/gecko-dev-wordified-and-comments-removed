@@ -115,6 +115,14 @@ noCurrency
 )
 "
 }
+currencyPatternAppendISO
+{
+"
+{
+0
+}
+"
+}
 }
 patternsLong
 {

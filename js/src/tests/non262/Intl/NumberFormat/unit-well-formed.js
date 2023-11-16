@@ -995,11 +995,6 @@ inch
 "
 speed
 -
-beaufort
-"
-"
-speed
--
 kilometer
 -
 per

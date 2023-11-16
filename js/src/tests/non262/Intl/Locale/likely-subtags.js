@@ -9,7 +9,7 @@ AQ
 "
 :
 "
-en
+und
 -
 Latn
 -
@@ -69,9 +69,7 @@ und
 "
 :
 "
-en
--
-150
+ru
 "
 "
 und

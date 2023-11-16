@@ -956,6 +956,16 @@ IN
 Indie
 "
 }
+IO
+{
+"
+Britischs
+Territoorium
+im
+Indische
+Oozean
+"
+}
 IQ
 {
 "

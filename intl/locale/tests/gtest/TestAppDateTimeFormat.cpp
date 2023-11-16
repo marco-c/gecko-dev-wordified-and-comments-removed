@@ -2841,7 +2841,6 @@ ASSERT_STREQ
 (
 "
 Do
-.
 "
 NS_ConvertUTF16toUTF8
 (
@@ -3010,7 +3009,6 @@ ASSERT_STREQ
 (
 "
 Do
-.
 "
 NS_ConvertUTF16toUTF8
 (

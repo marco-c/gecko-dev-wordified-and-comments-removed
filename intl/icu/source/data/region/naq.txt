@@ -622,6 +622,15 @@ IN
 Indiab
 "
 }
+IO
+{
+"
+British
+Indian
+Ocean
+Territory
+"
+}
 IQ
 {
 "

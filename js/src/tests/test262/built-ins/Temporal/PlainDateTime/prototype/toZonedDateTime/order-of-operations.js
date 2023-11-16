@@ -303,6 +303,12 @@ timeZone
 getOffsetNanosecondsFor
 "
 "
+get
+timeZone
+.
+getPossibleInstantsFor
+"
+"
 call
 timeZone
 .

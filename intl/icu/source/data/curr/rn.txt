@@ -554,15 +554,6 @@ Sente
 Helena
 "
 }
-SLE
-{
-"
-SLE
-"
-"
-Ilewone
-"
-}
 SLL
 {
 "
@@ -570,10 +561,6 @@ SLL
 "
 "
 Ilewone
-(
-1964
-2022
-)
 "
 }
 SOS

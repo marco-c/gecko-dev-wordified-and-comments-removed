@@ -1708,7 +1708,7 @@ Siria
 SZ
 {
 "
-Eswatini
+eSwatini
 "
 }
 TA
@@ -1999,18 +1999,6 @@ sconosciuta
 }
 Countries
 %
-chagos
-{
-IO
-{
-"
-Arcipelago
-Chagos
-"
-}
-}
-Countries
-%
 short
 {
 GB
@@ -2115,7 +2103,7 @@ SZ
 "
 Regno
 di
-Eswatini
+eSwatini
 "
 }
 TL

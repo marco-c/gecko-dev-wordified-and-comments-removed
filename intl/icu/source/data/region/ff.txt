@@ -623,6 +623,16 @@ IN
 Enndo
 "
 }
+IO
+{
+"
+Keeriindi
+britaani
+to
+maayo
+enndo
+"
+}
 IQ
 {
 "

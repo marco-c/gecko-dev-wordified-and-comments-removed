@@ -622,6 +622,17 @@ IN
 India
 "
 }
+IO
+{
+"
+Eneo
+la
+Uingereza
+katika
+Bahari
+Hindi
+"
+}
 IQ
 {
 "

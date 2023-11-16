@@ -20,7 +20,7 @@ norm2_nfc_data_dataVersion
 =
 {
 0xf
-1
+0
 0
 0
 }

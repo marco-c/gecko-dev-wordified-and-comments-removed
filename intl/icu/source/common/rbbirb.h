@@ -430,6 +430,9 @@ UBool
 fChainRules
 ;
 UBool
+fLBCMNoChain
+;
+UBool
 fLookAheadHardBreak
 ;
 RBBISetBuilder

@@ -87,6 +87,17 @@ group
 }
 }
 }
+olck
+{
+symbols
+{
+decimal
+{
+"
+"
+}
+}
+}
 }
 calendar
 {

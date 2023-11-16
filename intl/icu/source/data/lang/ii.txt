@@ -164,6 +164,11 @@ gregorian
 "
 "
 }
+islamic
+{
+"
+"
+}
 }
 }
 codePatterns

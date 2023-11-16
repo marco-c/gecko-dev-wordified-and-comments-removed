@@ -532,15 +532,6 @@ Santu
 Elena
 "
 }
-SLE
-{
-"
-SLE
-"
-"
-Leone
-"
-}
 SLL
 {
 "
@@ -548,10 +539,6 @@ SLL
 "
 "
 Leone
-(
-1964
-2022
-)
 "
 }
 SOS

@@ -207,17 +207,4 @@ mymr
 }
 }
 }
-characterLabelPattern
-{
-facing
--
-left
-{
-"
-{
-0
-}
-"
-}
-}
 }

@@ -79,7 +79,7 @@ project
 The
 original
 work
-contained
+contains
 words
 taken
 from
@@ -112,7 +112,6 @@ X
 style
 license
 #
-so
 all
 of
 CC
@@ -522,12 +521,11 @@ in
 cjdict
 .
 txt
-is
+are
 generated
 by
 combining
-the
-two
+three
 word
 lists
 listed
@@ -673,7 +671,7 @@ BEGIN
 *
 #
 *
-Copyright
+Copyrighy
 (
 c
 )

@@ -312,6 +312,17 @@ HR
 Kroashia
 "
 }
+IO
+{
+"
+Himaya
+ya
+Uingereza
+katika
+Bahari
+Hindi
+"
+}
 JO
 {
 "

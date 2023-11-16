@@ -62,9 +62,7 @@ SLE
 Le
 "
 "
-Lewoon
-Seraa
-Liyon
+SLE
 "
 }
 }
