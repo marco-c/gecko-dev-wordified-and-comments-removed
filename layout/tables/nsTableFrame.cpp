@@ -6505,7 +6505,7 @@ colGroupISize
 0
 ;
 nscoord
-cellSpacingI
+colSpacing
 =
 0
 ;
@@ -6567,7 +6567,7 @@ columns
 "
 )
 ;
-cellSpacingI
+colSpacing
 =
 GetColSpacing
 (
@@ -6585,7 +6585,7 @@ GetColumnISizeFromFirstInFlow
 colIdx
 )
 +
-cellSpacingI
+colSpacing
 ;
 +
 +
@@ -6601,7 +6601,7 @@ colGroupISize
 colGroupISize
 -
 =
-cellSpacingI
+colSpacing
 ;
 }
 LogicalRect
@@ -6726,7 +6726,7 @@ colRect
 colGroupSize
 )
 ;
-cellSpacingI
+colSpacing
 =
 GetColSpacing
 (
@@ -6743,7 +6743,7 @@ aWM
 =
 colISize
 +
-cellSpacingI
+colSpacing
 ;
 +
 +
@@ -6761,7 +6761,7 @@ aWM
 =
 colGroupISize
 +
-cellSpacingI
+colSpacing
 ;
 }
 }
@@ -13597,7 +13597,7 @@ childX
 ;
 const
 nscoord
-cellSpacingB
+rowSpacing
 =
 GetRowSpacing
 (
@@ -13797,7 +13797,7 @@ if
 (
 footerHeight
 +
-cellSpacingB
+rowSpacing
 <
 kidAvailSize
 .
@@ -13821,7 +13821,7 @@ wm
 =
 footerHeight
 +
-cellSpacingB
+rowSpacing
 ;
 }
 }
@@ -13936,14 +13936,14 @@ aReflowInput
 mBCoord
 +
 =
-cellSpacingB
+rowSpacing
 ;
 aReflowInput
 .
 ReduceAvailableBSizeBy
 (
 wm
-cellSpacingB
+rowSpacing
 )
 ;
 const
@@ -14662,7 +14662,7 @@ aReflowInput
 mBCoord
 +
 =
-cellSpacingB
+rowSpacing
 ;
 const
 LogicalRect
@@ -14752,7 +14752,7 @@ aReflowInput
 ReduceAvailableBSizeBy
 (
 wm
-cellSpacingB
+rowSpacing
 +
 kidRect
 .
@@ -15729,8 +15729,9 @@ wm
 dummyContainerSize
 )
 ;
+const
 nscoord
-cellSpacingB
+rowSpacing
 =
 GetRowSpacing
 (
@@ -15844,14 +15845,14 @@ bOriginRow
 =
 newRowBSize
 +
-cellSpacingB
+rowSpacing
 ;
 bEndRG
 +
 =
 newRowBSize
 +
-cellSpacingB
+rowSpacing
 ;
 amountUsed
 +
@@ -15969,7 +15970,7 @@ BSize
 wm
 )
 +
-cellSpacingB
+rowSpacing
 ;
 bEndRG
 +
@@ -15981,7 +15982,7 @@ BSize
 wm
 )
 +
-cellSpacingB
+rowSpacing
 ;
 }
 rowFrame
@@ -16622,8 +16623,9 @@ GetNextRow
 )
 )
 {
+const
 nscoord
-cellSpacingB
+rowSpacing
 =
 GetRowSpacing
 (
@@ -16871,14 +16873,14 @@ bOriginRow
 =
 newRowBSize
 +
-cellSpacingB
+rowSpacing
 ;
 bEndRG
 +
 =
 newRowBSize
 +
-cellSpacingB
+rowSpacing
 ;
 amountUsed
 +
@@ -16999,7 +17001,7 @@ BSize
 wm
 )
 +
-cellSpacingB
+rowSpacing
 ;
 bEndRG
 +
@@ -17011,7 +17013,7 @@ BSize
 wm
 )
 +
-cellSpacingB
+rowSpacing
 ;
 }
 }

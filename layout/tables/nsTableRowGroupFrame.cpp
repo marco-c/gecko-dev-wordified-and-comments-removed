@@ -1713,8 +1713,9 @@ GetNextRow
 )
 )
 {
+const
 nscoord
-cellSpacingB
+rowSpacing
 =
 tableFrame
 -
@@ -1976,7 +1977,7 @@ aReflowInput
 mBCoord
 +
 =
-cellSpacingB
+rowSpacing
 ;
 if
 (
@@ -2207,7 +2208,7 @@ BSize
 wm
 )
 +
-cellSpacingB
+rowSpacing
 ;
 aReflowInput
 .
@@ -3145,8 +3146,9 @@ while
 cellFrame
 )
 {
+const
 nscoord
-cellSpacingB
+rowSpacing
 =
 tableFrame
 -
@@ -3285,7 +3287,7 @@ spanX
 cellSpacingTotal
 +
 =
-cellSpacingB
+rowSpacing
 ;
 }
 if
@@ -5651,8 +5653,9 @@ rowIsOnPage
 =
 true
 ;
+const
 nscoord
-cellSpacingB
+rowSpacing
 =
 aTableFrame
 -
@@ -6033,7 +6036,7 @@ wm
 )
 +
 =
-cellSpacingB
+rowSpacing
 ;
 }
 }
@@ -6139,7 +6142,7 @@ wm
 )
 +
 =
-cellSpacingB
+rowSpacing
 ;
 }
 NS_WARNING
