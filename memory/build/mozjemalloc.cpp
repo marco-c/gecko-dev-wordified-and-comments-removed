@@ -10550,6 +10550,8 @@ committed
 +
 =
 gChunkHeaderNumPages
+-
+1
 ;
 mRunsAvail
 .
@@ -10681,6 +10683,8 @@ committed
 -
 =
 gChunkHeaderNumPages
+-
+1
 ;
 }
 mRunsAvail
@@ -20595,7 +20599,11 @@ aStats
 chunksize
 )
 *
+(
 gChunkHeaderNumPages
+-
+1
+)
 )
 <
 <
