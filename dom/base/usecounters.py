@@ -28,7 +28,7 @@ stream
         
 for
 line_num
-line
+full_line
 in
 enumerate
 (
@@ -38,7 +38,7 @@ stream
             
 line
 =
-line
+full_line
 .
 rstrip
 (
