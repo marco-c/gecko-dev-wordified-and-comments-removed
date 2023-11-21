@@ -2783,6 +2783,8 @@ StyleGenericGridLine
 )
 :
 ident
+{
+StyleAtom
 (
 do_AddRef
 (
@@ -2799,6 +2801,7 @@ _empty
 )
 )
 )
+}
 line_num
 (
 0

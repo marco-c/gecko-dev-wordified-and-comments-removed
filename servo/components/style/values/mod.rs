@@ -2766,6 +2766,7 @@ derive
 (
 Clone
 Debug
+Default
 Eq
 Hash
 MallocSizeOf
