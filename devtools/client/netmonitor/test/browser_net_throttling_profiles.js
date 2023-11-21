@@ -9,7 +9,9 @@ requestLongerTimeout
 )
 ;
 const
-throttlingProfiles
+{
+profiles
+}
 =
 require
 (
@@ -288,7 +290,7 @@ for
 const
 profile
 of
-throttlingProfiles
+profiles
 )
 {
 info

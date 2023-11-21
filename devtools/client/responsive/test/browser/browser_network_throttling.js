@@ -4,7 +4,9 @@ strict
 "
 ;
 const
-throttlingProfiles
+{
+profiles
+}
 =
 require
 (
@@ -300,7 +302,7 @@ tooltip
 const
 data
 =
-throttlingProfiles
+profiles
 .
 find
 (
