@@ -12529,7 +12529,7 @@ cmd
 See
 \
 ref
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 .
 setCommandNode
 (
@@ -12556,7 +12556,7 @@ QueryInterface
 (
 Ci
 .
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 )
 .
 setCommandNode

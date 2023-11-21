@@ -181,11 +181,6 @@ nsIContentViewer
 idl
 "
 "
-nsIContentViewerEdit
-.
-idl
-"
-"
 nsIDocShell
 .
 idl
@@ -202,6 +197,11 @@ idl
 "
 "
 nsIDocumentLoaderFactory
+.
+idl
+"
+"
+nsIDocumentViewerEdit
 .
 idl
 "

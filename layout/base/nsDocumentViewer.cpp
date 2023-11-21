@@ -446,7 +446,7 @@ h
 #
 include
 "
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 .
 h
 "
@@ -1390,7 +1390,7 @@ final
 public
 nsIContentViewer
 public
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 public
 nsIDocumentViewerPrint
 #
@@ -1421,7 +1421,7 @@ nsDocumentViewer
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSICONTENTVIEWER
-NS_DECL_NSICONTENTVIEWEREDIT
+NS_DECL_NSIDOCUMENTVIEWEREDIT
 #
 ifdef
 NS_PRINTING
@@ -2004,7 +2004,7 @@ nsIContentViewer
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 )
 NS_INTERFACE_MAP_ENTRY
 (

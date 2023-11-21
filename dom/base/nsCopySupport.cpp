@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 .
 h
 "
@@ -1954,7 +1954,7 @@ if
 (
 aCopyFlags
 &
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 :
 :
 COPY_IMAGE_TEXT
@@ -2033,7 +2033,7 @@ if
 (
 aCopyFlags
 &
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 :
 :
 COPY_IMAGE_HTML
@@ -2078,7 +2078,7 @@ if
 (
 aCopyFlags
 &
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 :
 :
 COPY_IMAGE_DATA

@@ -217,7 +217,7 @@ SpecialPowers
 .
 Ci
 .
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 )
 ;
 var

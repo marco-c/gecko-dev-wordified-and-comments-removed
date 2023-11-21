@@ -3414,7 +3414,7 @@ name
 "
 :
 "
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 "
 "
 parent
