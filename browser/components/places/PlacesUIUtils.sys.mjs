@@ -2538,6 +2538,12 @@ PlacesTransactions
 batch
 (
 transactions
+"
+BookmarkState
+:
+:
+createBookmark
+"
 )
 ;
 this
@@ -3125,6 +3131,12 @@ PlacesTransactions
 batch
 (
 transactions
+"
+BookmarkState
+:
+:
+save
+"
 )
 ;
 }
@@ -8435,6 +8447,9 @@ PlacesTransactions
 batch
 (
 transactions
+"
+handleTransferItems
+"
 )
 )
 ;
