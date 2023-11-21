@@ -432,6 +432,11 @@ DocumentStyleRootIterator
 h
 "
 "
+FontLoaderUtils
+.
+h
+"
+"
 FontPreloader
 .
 h
@@ -1026,6 +1031,11 @@ cpp
 "
 "
 FontFaceSetWorkerImpl
+.
+cpp
+"
+"
+FontLoaderUtils
 .
 cpp
 "
