@@ -941,7 +941,7 @@ EXTRA_JS_MODULES
 =
 [
 "
-OHTTPConfigManager
+HPKEConfigManager
 .
 sys
 .

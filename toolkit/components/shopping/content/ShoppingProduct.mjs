@@ -128,7 +128,7 @@ defineESModuleGetters
 (
 lazy
 {
-OHTTPConfigManager
+HPKEConfigManager
 :
 "
 resource
@@ -139,7 +139,7 @@ gre
 /
 modules
 /
-OHTTPConfigManager
+HPKEConfigManager
 .
 sys
 .
@@ -2340,7 +2340,7 @@ gatewayConfigURL
 return
 lazy
 .
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (

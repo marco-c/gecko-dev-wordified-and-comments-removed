@@ -66,7 +66,7 @@ Map
 ;
 export
 class
-OHTTPConfigManager
+HPKEConfigManager
 {
 static
 async
@@ -235,7 +235,7 @@ new
 Error
 (
 Fetching
-OHTTP
+HPKE
 config
 from
 {
