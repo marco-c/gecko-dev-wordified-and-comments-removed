@@ -123,7 +123,7 @@ version
 "
 2
 .
-2
+3
 .
 0
 "
@@ -146,6 +146,13 @@ encoding
 and
 decoding
 "
+categories
+=
+[
+"
+no_std
+"
+]
 license
 =
 "
@@ -183,6 +190,13 @@ alloc
 [
 ]
 default
+=
+[
+"
+std
+"
+]
+std
 =
 [
 "
