@@ -152,8 +152,6 @@ aLoadGroup
 nsIInterfaceRequestor
 *
 aCallbacks
-bool
-aIsPreload
 )
 ;
 private
