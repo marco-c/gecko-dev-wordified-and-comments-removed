@@ -70,15 +70,6 @@ FontPreloader
 )
 ;
 static
-void
-PrioritizeAsPreload
-(
-nsIChannel
-*
-aChannel
-)
-;
-static
 nsresult
 BuildChannel
 (
