@@ -44,6 +44,13 @@ html
 ]
 [
 "
+browser_date_telemetry
+.
+js
+"
+]
+[
+"
 browser_dead_object
 .
 js
