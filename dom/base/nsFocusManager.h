@@ -1512,8 +1512,6 @@ bool
 aForDocumentNavigation
 bool
 aNavigateByKey
-bool
-aSkipPopover
 nsIContent
 *
 *
