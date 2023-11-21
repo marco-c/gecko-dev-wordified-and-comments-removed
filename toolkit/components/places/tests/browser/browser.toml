@@ -401,6 +401,13 @@ html
 ]
 [
 "
+browser_upgrade
+.
+js
+"
+]
+[
+"
 browser_visited_notfound
 .
 js

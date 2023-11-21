@@ -9584,10 +9584,17 @@ useFrecencyRedirectBonus
 (
 aFlags
 &
+(
 IHistory
 :
 :
 REDIRECT_SOURCE_PERMANENT
+|
+IHistory
+:
+:
+REDIRECT_SOURCE_UPGRADED
+)
 )
 |
 |
