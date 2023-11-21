@@ -1359,6 +1359,7 @@ uE00B
 code
 :
 "
+Pause
 "
 key
 :
@@ -1633,12 +1634,16 @@ uE019
 code
 :
 "
+NumpadEqual
 "
 key
 :
 "
 =
 "
+location
+:
+3
 }
 "
 \
