@@ -302,13 +302,6 @@ h
 #
 include
 "
-nsPluginHost
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
