@@ -2034,17 +2034,3 @@ Site
 accesskey
 =
 D
-menu
--
-report
--
-broken
--
-site
-=
-.
-label
-=
-Report
-Broken
-Site
