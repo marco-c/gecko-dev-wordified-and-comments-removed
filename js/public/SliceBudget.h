@@ -344,7 +344,7 @@ steps
 ;
 }
 void
-stepAndForceCheck
+forceCheck
 (
 )
 {
@@ -358,13 +358,6 @@ isTimeBudget
 counter
 =
 0
-;
-}
-else
-{
-counter
--
--
 ;
 }
 }
