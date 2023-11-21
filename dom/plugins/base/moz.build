@@ -23,11 +23,6 @@ nsPluginHost
 h
 "
 "
-nsPluginLogging
-.
-h
-"
-"
 nsPluginTags
 .
 h
