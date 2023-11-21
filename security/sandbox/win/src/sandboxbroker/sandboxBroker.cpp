@@ -8340,6 +8340,10 @@ mAddRestrictingRandomSid
 =
 false
 ;
+mUseCig
+=
+false
+;
 mInitialIntegrityLevel
 =
 sandbox
