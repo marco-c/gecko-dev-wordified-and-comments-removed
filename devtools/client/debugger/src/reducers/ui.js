@@ -30,6 +30,12 @@ const
 initialUIState
 =
 (
+{
+supportsDebuggerStatementIgnore
+}
+=
+{
+}
 )
 =
 >
@@ -182,6 +188,7 @@ sourceMapIgnoreListEnabled
 prefs
 .
 sourceMapIgnoreListEnabled
+supportsDebuggerStatementIgnore
 }
 )
 ;

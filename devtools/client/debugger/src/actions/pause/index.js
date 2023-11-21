@@ -104,6 +104,17 @@ mapFrames
 ;
 export
 {
+pauseOnDebuggerStatement
+}
+from
+"
+.
+/
+pauseOnDebuggerStatement
+"
+;
+export
+{
 pauseOnExceptions
 }
 from

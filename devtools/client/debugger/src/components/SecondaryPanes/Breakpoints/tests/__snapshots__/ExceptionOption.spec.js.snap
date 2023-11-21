@@ -28,13 +28,6 @@ className
 "
 testClassName
 "
-onClick
-=
-{
-[
-Function
-]
-}
 >
 <
 input

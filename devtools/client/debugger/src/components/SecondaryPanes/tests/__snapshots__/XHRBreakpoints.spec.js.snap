@@ -143,8 +143,6 @@ className
 "
 breakpoints
 -
-exceptions
--
 options
 empty
 "
@@ -188,13 +186,6 @@ breakpoints
 -
 exceptions
 "
-onClick
-=
-{
-[
-Function
-]
-}
 >
 <
 input
@@ -1113,8 +1104,6 @@ className
 "
 breakpoints
 -
-exceptions
--
 options
 "
 >
@@ -1157,13 +1146,6 @@ breakpoints
 -
 exceptions
 "
-onClick
-=
-{
-[
-Function
-]
-}
 >
 <
 input
