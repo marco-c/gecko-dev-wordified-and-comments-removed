@@ -1622,15 +1622,6 @@ objectActor
 grip
 )
 {
-if
-(
-isWorker
-)
-{
-return
-false
-;
-}
 const
 enumEntries
 =
