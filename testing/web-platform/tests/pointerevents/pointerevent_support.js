@@ -2873,6 +2873,12 @@ pointerType
 .
 pointerMove
 (
+1
+1
+)
+.
+pointerMove
+(
 0
 0
 )
