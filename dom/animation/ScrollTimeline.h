@@ -543,8 +543,12 @@ ScheduleAnimations
 (
 )
 {
+TickState
+state
+;
 Tick
 (
+state
 )
 ;
 }

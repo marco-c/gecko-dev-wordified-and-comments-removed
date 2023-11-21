@@ -239,6 +239,11 @@ aIsVisible
 override
 ;
 void
+TriggerAllPendingAnimationsNow
+(
+)
+;
+void
 WillRefresh
 (
 TimeStamp
@@ -285,6 +290,11 @@ mDocument
 void
 UpdateLastRefreshDriverTime
 (
+TimeStamp
+aKnownTime
+=
+{
+}
 )
 ;
 bool

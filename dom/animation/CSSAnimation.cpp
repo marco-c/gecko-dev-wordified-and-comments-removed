@@ -524,6 +524,9 @@ CSSAnimation
 :
 Tick
 (
+TickState
+&
+aState
 )
 {
 Animation
@@ -531,6 +534,7 @@ Animation
 :
 Tick
 (
+aState
 )
 ;
 QueueEvents

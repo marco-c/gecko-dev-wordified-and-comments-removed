@@ -2342,7 +2342,7 @@ MOZ_ASSERT
 aAnimation
 -
 >
-GetCurrentOrPendingStartTime
+GetStartTime
 (
 )
 .
@@ -2546,7 +2546,7 @@ startTime
 aAnimation
 -
 >
-GetCurrentOrPendingStartTime
+GetStartTime
 (
 )
 ;

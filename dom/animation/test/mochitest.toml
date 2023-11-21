@@ -429,15 +429,6 @@ html
 "
 mozilla
 /
-test_pending_animation_tracker
-.
-html
-"
-]
-[
-"
-mozilla
-/
 test_restyles
 .
 html

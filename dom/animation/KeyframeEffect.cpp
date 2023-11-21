@@ -4533,13 +4533,6 @@ NotifyAnimationAdded
 mAnimation
 )
 ;
-mAnimation
--
->
-ReschedulePendingTasks
-(
-)
-;
 }
 }
 if

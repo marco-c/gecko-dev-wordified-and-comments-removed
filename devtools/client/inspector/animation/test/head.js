@@ -296,13 +296,6 @@ function
 )
 {
 return
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -340,10 +333,6 @@ enabled
 true
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;
@@ -2450,6 +2439,8 @@ every
 a
 =
 >
+{
+return
 a
 .
 state
@@ -2459,6 +2450,8 @@ currentTime
 =
 =
 currentTime
+;
+}
 )
 )
 ;

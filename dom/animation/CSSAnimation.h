@@ -398,6 +398,8 @@ OwningElementRef
 void
 Tick
 (
+TickState
+&
 )
 override
 ;

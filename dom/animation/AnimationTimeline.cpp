@@ -10,15 +10,6 @@ include
 "
 mozilla
 /
-AnimationComparator
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Animation
@@ -131,6 +122,9 @@ AnimationTimeline
 :
 Tick
 (
+TickState
+&
+aState
 )
 {
 bool
@@ -282,6 +276,7 @@ animation
 >
 Tick
 (
+aState
 )
 ;
 if

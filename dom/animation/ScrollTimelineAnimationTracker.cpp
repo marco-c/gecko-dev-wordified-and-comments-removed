@@ -101,7 +101,7 @@ if
 animation
 -
 >
-TryTriggerNowForFiniteTimeline
+TryTriggerNow
 (
 )
 )
