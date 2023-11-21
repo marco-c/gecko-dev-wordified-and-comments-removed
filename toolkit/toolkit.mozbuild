@@ -161,6 +161,15 @@ gtest
 rust
 '
 ]
+if
+not
+CONFIG
+[
+'
+MOZ_OVERRIDE_GKRUST
+'
+]
+:
 DIRS
 +
 =
