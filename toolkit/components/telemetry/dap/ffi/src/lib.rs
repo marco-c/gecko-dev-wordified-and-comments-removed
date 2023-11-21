@@ -1164,7 +1164,7 @@ u8
 "
 dap
 -
-07
+04
 input
 share
 "
@@ -1606,12 +1606,14 @@ metadata
 public_share
 :
 encoded_public_share
-leader_encrypted_input_share
+encrypted_input_shares
 :
+vec
+!
+[
 leader_payload
-helper_encrypted_input_share
-:
 helper_payload
+]
 }
 )
 }
