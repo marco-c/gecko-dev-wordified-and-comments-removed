@@ -1077,6 +1077,9 @@ getMaxVersionRecords
 client
 {
 lookupKey
+majorVersion
+:
+1
 }
 )
 ;

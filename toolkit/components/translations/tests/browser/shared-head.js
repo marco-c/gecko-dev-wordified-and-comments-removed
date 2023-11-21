@@ -3045,8 +3045,11 @@ toLang
 fileType
 version
 :
+TranslationsParent
+.
+LANGUAGE_MODEL_MAJOR_VERSION
++
 "
-1
 .
 0
 "
@@ -3247,8 +3250,11 @@ randomUUID
 name
 version
 :
+TranslationsParent
+.
+BERGAMOT_MAJOR_VERSION
++
 "
-1
 .
 0
 "
