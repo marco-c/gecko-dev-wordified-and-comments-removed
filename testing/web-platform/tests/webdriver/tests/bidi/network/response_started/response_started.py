@@ -123,6 +123,7 @@ def
 test_subscribe_status
 (
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 url
@@ -131,11 +132,7 @@ fetch
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
