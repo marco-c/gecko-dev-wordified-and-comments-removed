@@ -713,6 +713,14 @@ mInhibited
 #
 ifdef
 MOZ_ENABLE_DBUS
+if
+(
+mWaitingForDBusUninhibit
+)
+{
+return
+;
+}
 g_cancellable_cancel
 (
 mCancellable
