@@ -663,11 +663,8 @@ String
 Clone
 {
 for
-&
 (
-ref
 name
-ref
 value
 )
 in
