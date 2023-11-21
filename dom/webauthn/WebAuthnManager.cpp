@@ -2249,6 +2249,9 @@ PublicKeyCredentialRequestOptions
 &
 aOptions
 const
+bool
+aConditionallyMediated
+const
 Optional
 <
 OwningNonNull
@@ -3126,6 +3129,7 @@ extensions
 aOptions
 .
 mUserVerification
+aConditionallyMediated
 context
 -
 >
