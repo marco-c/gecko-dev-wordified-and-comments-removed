@@ -2696,12 +2696,6 @@ Ci
 nsIPromptService
 .
 BUTTON_TITLE_CANCEL
-+
-Ci
-.
-nsIPromptService
-.
-SHOW_SPINNER
 null
 null
 null
