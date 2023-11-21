@@ -99,6 +99,8 @@ tools
 third_party
 /
 h2
+/
+src
 vendored
 :
 testing
@@ -114,6 +116,8 @@ tools
 third_party
 /
 hpack
+/
+src
 vendored
 :
 testing
@@ -144,6 +148,8 @@ tools
 third_party
 /
 hyperframe
+/
+src
 vendored
 :
 testing
