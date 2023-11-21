@@ -625,6 +625,12 @@ speculative
 browsertime
 -
 throttled
+-
+browsertime
+-
+pageload
+-
+benchmark
 browsertime
 -
 clang
