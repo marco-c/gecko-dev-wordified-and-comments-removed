@@ -1512,9 +1512,19 @@ el
 a11y
 )
 {
+const
+win
+=
+getWindow
+(
+el
+)
+;
 if
 (
 !
+(
+await
 lazy
 .
 atom
@@ -1522,6 +1532,8 @@ atom
 isElementEnabled
 (
 el
+win
+)
 )
 )
 {
@@ -1658,6 +1670,8 @@ el
 if
 (
 !
+(
+await
 lazy
 .
 dom
@@ -1665,6 +1679,7 @@ dom
 isVisible
 (
 visibilityCheckEl
+)
 )
 )
 {
@@ -1682,6 +1697,8 @@ ElementNotInteractableError
 if
 (
 !
+(
+await
 lazy
 .
 atom
@@ -1689,6 +1706,8 @@ atom
 isElementEnabled
 (
 el
+win
+)
 )
 )
 {
@@ -4569,6 +4588,8 @@ el
 if
 (
 !
+(
+await
 lazy
 .
 dom
@@ -4576,6 +4597,7 @@ dom
 isVisible
 (
 visibilityCheckEl
+)
 )
 )
 {
@@ -4708,6 +4730,7 @@ interaction
 .
 isElementDisplayed
 =
+async
 function
 (
 el
@@ -4727,6 +4750,7 @@ el
 let
 displayed
 =
+await
 lazy
 .
 atom
@@ -4826,6 +4850,7 @@ interaction
 .
 isElementEnabled
 =
+async
 function
 (
 el
@@ -4954,6 +4979,7 @@ else
 {
 enabled
 =
+await
 lazy
 .
 atom
@@ -4961,11 +4987,7 @@ atom
 isElementEnabled
 (
 el
-{
-frame
-:
 win
-}
 )
 ;
 }

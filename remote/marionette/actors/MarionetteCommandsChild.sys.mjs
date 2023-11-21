@@ -2163,11 +2163,12 @@ options
 try
 {
 return
+await
 lazy
 .
 atom
 .
-getElementText
+getVisibleText
 (
 elem
 this
@@ -2190,7 +2191,7 @@ logger
 warn
 (
 Atom
-getElementText
+getVisibleText
 failed
 :
 "
