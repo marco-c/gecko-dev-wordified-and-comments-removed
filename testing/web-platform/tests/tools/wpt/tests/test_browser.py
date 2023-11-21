@@ -1116,7 +1116,6 @@ return_value
 )
     
 assert
-not
 chrome
 .
 webdriver_supports_browser
