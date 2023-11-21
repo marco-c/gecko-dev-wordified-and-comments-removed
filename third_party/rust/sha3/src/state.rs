@@ -191,7 +191,7 @@ unwrap
 keccak
 :
 :
-keccak_p
+p1600
 (
 &
 mut
@@ -298,7 +298,7 @@ self
 keccak
 :
 :
-keccak_p
+p1600
 (
 &
 mut

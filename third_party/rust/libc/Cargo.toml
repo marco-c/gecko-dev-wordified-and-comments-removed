@@ -109,7 +109,7 @@ version
 .
 2
 .
-148
+150
 "
 authors
 =
@@ -862,6 +862,13 @@ riscv64gc
 unknown
 -
 freebsd
+"
+"
+riscv64gc
+-
+unknown
+-
+hermit
 "
 "
 riscv64gc

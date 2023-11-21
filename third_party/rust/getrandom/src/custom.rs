@@ -74,7 +74,7 @@ to
 unnamed
 block
 const
-__getrandom_internal
+__GETRANDOM_INTERNAL
 :
 (
 )

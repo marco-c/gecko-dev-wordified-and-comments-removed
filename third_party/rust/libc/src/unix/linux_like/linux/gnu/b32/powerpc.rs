@@ -2043,6 +2043,16 @@ c_int
 ;
 pub
 const
+MCL_ONFAULT
+:
+:
+:
+c_int
+=
+0x8000
+;
+pub
+const
 POLLWRNORM
 :
 :

@@ -727,6 +727,7 @@ generic
 :
 :
 {
+dirent
 sigset_t
 stat
 }

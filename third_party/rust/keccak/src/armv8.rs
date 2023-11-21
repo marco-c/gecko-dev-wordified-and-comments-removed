@@ -1010,7 +1010,7 @@ state
 ;
 unsafe
 {
-keccak_f1600
+f1600_armv8_sha3_asm
 (
 &
 mut
@@ -1027,7 +1027,7 @@ state_first
 ;
 unsafe
 {
-keccak_f1600
+f1600_armv8_sha3_asm
 (
 &
 mut

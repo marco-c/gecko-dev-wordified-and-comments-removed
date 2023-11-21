@@ -7032,6 +7032,16 @@ c_int
 ;
 pub
 const
+MCL_ONFAULT
+:
+:
+:
+c_int
+=
+0x0004
+;
+pub
+const
 SIGSTKSZ
 :
 :

@@ -116,9 +116,13 @@ random
 /
 getrandom
 /
+actions
+/
 workflows
 /
-Tests
+tests
+.
+yml
 /
 badge
 .
