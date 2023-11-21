@@ -5083,22 +5083,6 @@ is_alive
 )
 :
                 
-self
-.
-reader
-.
-join
-(
-timeout
-=
-1
-)
-                
-count
-+
-=
-1
-                
 if
 timeout
 is
@@ -5125,6 +5109,22 @@ thread
                     
 return
 None
+                
+self
+.
+reader
+.
+join
+(
+timeout
+=
+1
+)
+                
+count
++
+=
+1
         
 self
 .
