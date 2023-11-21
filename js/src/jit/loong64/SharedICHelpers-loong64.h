@@ -225,12 +225,6 @@ scratch2
 )
 ;
 }
-masm
-.
-checkStackAlignment
-(
-)
-;
 }
 template
 <
