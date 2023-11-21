@@ -301,8 +301,6 @@ WakeLockControl
 aLockAdjust
 WakeLockControl
 aHiddenAdjust
-uint64_t
-aProcessID
 )
 ;
 async

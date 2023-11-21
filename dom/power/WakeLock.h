@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIWakeLock
 .
 h
@@ -75,8 +68,6 @@ final
 public
 nsIDOMEventListener
 public
-nsIObserver
-public
 nsSupportsWeakReference
 public
 nsIWakeLock
@@ -84,12 +75,13 @@ nsIWakeLock
 public
 :
 NS_DECL_NSIDOMEVENTLISTENER
-NS_DECL_NSIOBSERVER
 NS_DECL_NSIWAKELOCK
 NS_DECL_ISUPPORTS
 WakeLock
 (
 )
+=
+default
 ;
 nsresult
 Init
@@ -163,9 +155,6 @@ bool
 mHidden
 =
 true
-;
-uint64_t
-mContentParentID
 ;
 nsString
 mTopic
