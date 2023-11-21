@@ -4644,12 +4644,6 @@ c
 Hacl_P256
 .
 c
-Hacl_P384
-.
-c
-Hacl_P521
-.
-c
 ifeq
 (
 (

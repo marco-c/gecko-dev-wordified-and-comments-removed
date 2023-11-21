@@ -704,12 +704,6 @@ avx2_support_
 PRBool
 )
 (
-avx_support_
-=
-=
-PR_TRUE
-&
-&
 (
 ebx7
 &
