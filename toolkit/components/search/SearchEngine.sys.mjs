@@ -4878,7 +4878,6 @@ http
 s
 ]
 *
-ftp
 or
 data
 scheme
@@ -4889,8 +4888,6 @@ HTTP
 [
 S
 ]
-or
-FTP
 schemes
 will
 be
@@ -5048,8 +5045,6 @@ http
 [
 s
 ]
-or
-ftp
 switch
 (
 uri
@@ -5129,11 +5124,6 @@ http
 case
 "
 https
-"
-:
-case
-"
-ftp
 "
 :
 let
