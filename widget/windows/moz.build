@@ -319,6 +319,11 @@ WinModifierKeyState
 h
 "
 "
+WinRegistry
+.
+h
+"
+"
 WinTaskbar
 .
 h
@@ -555,6 +560,11 @@ cpp
 "
 "
 WinPointerEvents
+.
+cpp
+"
+"
+WinRegistry
 .
 cpp
 "

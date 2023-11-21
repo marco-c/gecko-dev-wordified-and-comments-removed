@@ -190,13 +190,6 @@ TYPE_INT64
 =
 11
 ;
-[
-noscript
-]
-attribute
-HKEY
-key
-;
 void
 close
 (
