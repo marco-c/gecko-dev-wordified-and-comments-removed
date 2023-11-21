@@ -707,6 +707,7 @@ scriptRender
 }
 <
 script
+async
 type
 =
 "
