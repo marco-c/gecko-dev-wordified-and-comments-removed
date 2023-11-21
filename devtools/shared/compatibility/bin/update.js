@@ -541,6 +541,11 @@ term
 ]
 )
 ;
+if
+(
+compatTable
+)
+{
 delete
 compatTable
 .
@@ -622,6 +627,7 @@ item
 .
 notes
 ;
+}
 }
 }
 }
