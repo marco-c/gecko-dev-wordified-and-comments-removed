@@ -93,13 +93,6 @@ TextureClient
 .
 h
 "
-#
-include
-"
-d3d9
-.
-h
-"
 namespace
 mozilla
 {

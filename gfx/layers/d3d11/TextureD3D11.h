@@ -960,15 +960,6 @@ mD3D11Textures
 3
 ]
 ;
-RefPtr
-<
-IDirect3DTexture9
->
-mD3D9Textures
-[
-3
-]
-;
 HANDLE
 mHandles
 [
