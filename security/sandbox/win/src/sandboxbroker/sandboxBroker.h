@@ -296,16 +296,6 @@ BrokerServices
 aBrokerServices
 )
 ;
-static
-void
-EnsureLpacPermsissionsOnDir
-(
-const
-nsString
-&
-aDir
-)
-;
 void
 Shutdown
 (
