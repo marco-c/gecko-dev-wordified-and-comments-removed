@@ -10524,16 +10524,6 @@ scripting
 Atom
 (
 "
-showPicker
-"
-"
-showPicker
-"
-)
-    
-Atom
-(
-"
 preload
 "
 "
