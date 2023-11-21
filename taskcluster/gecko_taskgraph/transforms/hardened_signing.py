@@ -14,6 +14,8 @@ description
 "
 "
 "
+import
+copy
 from
 taskgraph
 .
@@ -148,6 +150,9 @@ config
 job
 )
         
+assert
+dep_job
+        
 project_level
 =
 release_level
@@ -199,11 +204,15 @@ hardened_signing_type
 production
 "
         
-evaluated
+hardened_sign_config
 =
 evaluate_keyed_by
 (
             
+copy
+.
+deepcopy
+(
 config
 .
 graph_config
@@ -223,6 +232,7 @@ sign
 config
 "
 ]
+)
             
 "
 hardened
@@ -247,13 +257,12 @@ hardened_signing_type
 )
         
 if
-type
+not
+isinstance
 (
-evaluated
-)
-!
-=
+hardened_sign_config
 list
+)
 :
             
 raise
@@ -275,8 +284,80 @@ list
 for
 sign_cfg
 in
-evaluated
+hardened_sign_config
 :
+            
+if
+isinstance
+(
+sign_cfg
+.
+get
+(
+"
+entitlements
+"
+)
+dict
+)
+:
+                
+sign_cfg
+[
+"
+entitlements
+"
+]
+=
+evaluate_keyed_by
+(
+                    
+sign_cfg
+[
+"
+entitlements
+"
+]
+                    
+"
+entitlements
+"
+                    
+{
+                        
+"
+build
+-
+platform
+"
+:
+dep_job
+.
+attributes
+.
+get
+(
+"
+build_platform
+"
+)
+                        
+"
+project
+"
+:
+config
+.
+params
+[
+"
+project
+"
+]
+                    
+}
+                
+)
             
 if
 "
@@ -346,7 +427,7 @@ config
 "
 ]
 =
-evaluated
+hardened_sign_config
         
 job
 [
