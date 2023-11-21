@@ -2151,16 +2151,6 @@ caretBlinkTime
 user_pref
 (
 "
-ui
-.
-scrollbarFadeDuration
-"
-0
-)
-;
-user_pref
-(
-"
 webextensions
 .
 tests
