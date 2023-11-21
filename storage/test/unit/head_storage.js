@@ -1145,6 +1145,13 @@ status
 resolve
 (
 db2
+.
+QueryInterface
+(
+Ci
+.
+mozIStorageAsyncConnection
+)
 )
 ;
 }
