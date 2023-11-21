@@ -157,15 +157,6 @@ crossorigin_iframe
 html
 "
 ]
-fail
--
-if
-=
-[
-"
-xorigin
-"
-]
 [
 "
 test_enableHighAccuracy
