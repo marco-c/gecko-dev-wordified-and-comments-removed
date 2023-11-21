@@ -200,6 +200,7 @@ Debug
 Copy
 Clone
 MallocSizeOf
+PartialEq
 )
 ]
 pub
