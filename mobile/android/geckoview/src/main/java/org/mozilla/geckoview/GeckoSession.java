@@ -15720,12 +15720,6 @@ Builder
 builder
 )
 {
-adjustedRating
-=
-builder
-.
-mAdjustedRating
-;
 analysisURL
 =
 builder
@@ -15743,6 +15737,12 @@ grade
 builder
 .
 mGrade
+;
+adjustedRating
+=
+builder
+.
+mAdjustedRating
 ;
 needsAnalysis
 =
