@@ -5167,7 +5167,7 @@ this
 IntrinsicDirty
 :
 :
-FrameAndAncestors
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;
