@@ -3935,6 +3935,19 @@ support_class
 support_class
 (
 )
+            
+next_test
+[
+"
+support_class
+"
+]
+.
+setup_test
+(
+next_test
+args
+)
         
 bool_settings
 =
