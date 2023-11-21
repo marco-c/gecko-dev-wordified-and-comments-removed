@@ -5801,6 +5801,7 @@ firstElementChild
 "
 transitionend
 "
+false
 e
 =
 >
