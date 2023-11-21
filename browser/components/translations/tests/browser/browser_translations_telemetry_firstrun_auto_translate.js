@@ -41,17 +41,6 @@ panelShown
 "
 false
 ]
-[
-"
-browser
-.
-translations
-.
-alwaysTranslateLanguages
-"
-"
-"
-]
 ]
 }
 )
