@@ -911,7 +911,6 @@ shadowRoot
 =
 >
 {
-{
             
 window
 .
@@ -948,7 +947,6 @@ function
 event
 )
 {
-{
                     
 window
 .
@@ -956,7 +954,6 @@ wheelEvents
 .
 push
 (
-{
 {
                         
 "
@@ -986,11 +983,9 @@ target
 id
                     
 }
-}
 )
 ;
                 
-}
 }
             
 )
@@ -1000,7 +995,6 @@ return
 scrollable
 ;
         
-}
 }
         
 "
