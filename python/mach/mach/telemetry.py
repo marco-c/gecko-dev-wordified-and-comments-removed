@@ -36,12 +36,6 @@ MozbuildObject
 from
 mozbuild
 .
-settings
-import
-TelemetrySettings
-from
-mozbuild
-.
 telemetry
 import
 filter_args
@@ -63,6 +57,12 @@ mach
 config
 import
 ConfigSettings
+from
+mach
+.
+settings
+import
+MachSettings
 from
 mach
 .
@@ -1176,7 +1176,7 @@ file_settings
 .
 register_provider
 (
-TelemetrySettings
+MachSettings
 )
     
 try
