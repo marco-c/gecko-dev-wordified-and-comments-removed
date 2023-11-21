@@ -22,6 +22,16 @@ WORKER
 "
 worker
 "
+SERVICE_WORKER
+:
+"
+service_worker
+"
+SHARED_WORKER
+:
+"
+shared_worker
+"
 }
 ;
 exports

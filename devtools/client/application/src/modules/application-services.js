@@ -130,7 +130,7 @@ jsdebugger
 ;
 debuggerPanel
 .
-selectWorker
+selectServiceWorker
 (
 workerDescriptorFront
 )
