@@ -13,6 +13,8 @@ __future__
 import
 absolute_import
 import
+io
+import
 logging
 import
 os
@@ -797,6 +799,10 @@ None
 allow_handlers_outside_root_dir
 =
 True
+                 
+handler_encoding
+=
+None
 )
 :
         
@@ -994,6 +1000,8 @@ root_dir
 scan_dir
                                           
 allow_handlers_outside_root_dir
+                                          
+handler_encoding
 )
     
 def
@@ -1850,6 +1858,8 @@ root_dir
 scan_dir
                                      
 allow_handlers_outside_root_dir
+                                     
+handler_encoding
 )
 :
         
@@ -1974,9 +1984,14 @@ try
 :
                 
 with
+io
+.
 open
 (
 path
+encoding
+=
+handler_encoding
 )
 as
 handler_file
