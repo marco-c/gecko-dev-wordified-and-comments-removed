@@ -127,7 +127,7 @@ version
 .
 6
 .
-6
+7
 "
 authors
 =
@@ -164,9 +164,9 @@ enumset
 "
 1
 .
-0
+1
 .
-8
+2
 "
 lazy_static
 =
