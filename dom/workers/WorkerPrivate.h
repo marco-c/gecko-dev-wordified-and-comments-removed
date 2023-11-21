@@ -398,8 +398,6 @@ RemoteWorkerChild
 ;
 enum
 WorkerKind
-:
-uint8_t
 {
 WorkerKindDedicated
 WorkerKindShared
