@@ -411,7 +411,7 @@ PING_INDEX_BITS
 16
 PHF_SIZE
 =
-1024
+512
 def
 ping_entry
 (
