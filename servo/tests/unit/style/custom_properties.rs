@@ -21,11 +21,11 @@ custom_properties
 :
 :
 {
+CssEnvironment
+CustomPropertiesBuilder
+CustomPropertiesMap
 Name
 SpecifiedValue
-CustomPropertiesMap
-CustomPropertiesBuilder
-CssEnvironment
 }
 ;
 use

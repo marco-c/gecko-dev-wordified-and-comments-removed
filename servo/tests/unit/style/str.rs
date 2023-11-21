@@ -7,8 +7,8 @@ str
 :
 {
 split_html_space_chars
-str_join
 starts_with_ignore_ascii_case
+str_join
 }
 ;
 #

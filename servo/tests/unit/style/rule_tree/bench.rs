@@ -36,8 +36,8 @@ error_reporting
 :
 :
 {
-ParseErrorReporter
 ContextualParseError
+ParseErrorReporter
 }
 ;
 use
@@ -94,9 +94,9 @@ stylesheets
 :
 :
 {
+CssRule
 Origin
 Stylesheet
-CssRule
 }
 ;
 use
@@ -435,7 +435,6 @@ filter_map
 |
 rule
 |
-{
 match
 *
 rule
@@ -474,7 +473,6 @@ _
 =
 >
 None
-}
 }
 )
 .

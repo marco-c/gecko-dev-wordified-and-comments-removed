@@ -35,12 +35,6 @@ use
 style
 :
 :
-Atom
-;
-use
-style
-:
-:
 context
 :
 :
@@ -85,10 +79,10 @@ stylesheets
 :
 {
 AllRules
+CssRule
+Origin
 Stylesheet
 StylesheetInDocument
-Origin
-CssRule
 }
 ;
 use
@@ -99,9 +93,15 @@ values
 :
 :
 {
-CustomIdent
 specified
+CustomIdent
 }
+;
+use
+style
+:
+:
+Atom
 ;
 use
 style_traits
@@ -2282,6 +2282,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -2301,6 +2302,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -2451,6 +2453,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -2470,6 +2473,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -2640,6 +2644,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -2659,6 +2664,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -2819,6 +2825,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -2838,6 +2845,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -2996,6 +3004,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -3015,6 +3024,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -3184,6 +3194,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -3203,6 +3214,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -3438,6 +3450,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -3457,6 +3470,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -3499,6 +3513,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -3518,6 +3533,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -3693,6 +3709,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -3712,6 +3729,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >
@@ -3754,6 +3772,7 @@ w
 )
 =
 >
+{
 assert
 !
 (
@@ -3773,6 +3792,7 @@ from_px
 .
 )
 )
+}
 _
 =
 >

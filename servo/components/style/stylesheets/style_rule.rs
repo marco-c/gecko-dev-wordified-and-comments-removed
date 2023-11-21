@@ -72,10 +72,10 @@ malloc_size_of
 :
 :
 {
-MallocUnconditionalShallowSizeOf
-MallocUnconditionalSizeOf
 MallocSizeOf
 MallocSizeOfOps
+MallocUnconditionalShallowSizeOf
+MallocUnconditionalSizeOf
 }
 ;
 use

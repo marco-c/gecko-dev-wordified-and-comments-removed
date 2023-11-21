@@ -94,8 +94,8 @@ matching
 :
 :
 {
-MatchingForInvalidation
 MatchingContext
+MatchingForInvalidation
 MatchingMode
 NeedsSelectorFlags
 QuirksMode

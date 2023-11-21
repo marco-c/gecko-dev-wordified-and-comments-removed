@@ -21,8 +21,8 @@ fs
 :
 :
 {
-File
 remove_file
+File
 }
 ;
 use

@@ -3,10 +3,10 @@ euclid
 :
 :
 {
-Size2D
 Point2D
-SideOffsets2D
 Rect
+SideOffsets2D
+Size2D
 }
 ;
 use
@@ -17,11 +17,11 @@ logical_geometry
 :
 :
 {
-WritingMode
-LogicalSize
-LogicalPoint
 LogicalMargin
+LogicalPoint
 LogicalRect
+LogicalSize
+WritingMode
 }
 ;
 #

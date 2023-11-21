@@ -42,8 +42,8 @@ style_traits
 :
 :
 {
-ParsingMode
 ParseError
+ParsingMode
 }
 ;
 fn
@@ -476,6 +476,7 @@ unwrap
 unwrapped
 }
 }
+;
 }
 mod
 scaffolding

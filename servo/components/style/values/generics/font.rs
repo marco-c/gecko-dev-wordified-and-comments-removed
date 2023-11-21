@@ -14,12 +14,6 @@ use
 crate
 :
 :
-One
-;
-use
-crate
-:
-:
 values
 :
 :
@@ -27,6 +21,12 @@ animated
 :
 :
 ToAnimatedZero
+;
+use
+crate
+:
+:
+One
 ;
 use
 byteorder

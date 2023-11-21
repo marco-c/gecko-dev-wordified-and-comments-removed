@@ -69,8 +69,8 @@ properties
 :
 :
 {
-PropertyDeclarationBlock
-PropertyDeclaration
+longhands
+Importance
 }
 ;
 use
@@ -81,8 +81,8 @@ properties
 :
 :
 {
-longhands
-Importance
+PropertyDeclaration
+PropertyDeclarationBlock
 }
 ;
 use
@@ -131,10 +131,7 @@ style
 stylist
 :
 :
-{
-Stylist
-Rule
-}
+needs_revalidation_for_testing
 ;
 use
 style
@@ -143,7 +140,10 @@ style
 stylist
 :
 :
-needs_revalidation_for_testing
+{
+Rule
+Stylist
+}
 ;
 use
 style
@@ -410,6 +410,7 @@ map
 |
 x
 |
+{
 SelectorParser
 :
 :
@@ -436,6 +437,7 @@ nth
 unwrap
 (
 )
+}
 )
 .
 collect

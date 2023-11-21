@@ -171,9 +171,9 @@ specified
 {
 FontRelativeLength
 NoCalcLength
+NonNegativeLengthPercentage
 NonNegativeNumber
 NonNegativePercentage
-NonNegativeLengthPercentage
 Number
 }
 ;
