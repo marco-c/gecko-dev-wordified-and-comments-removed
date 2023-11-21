@@ -10,8 +10,8 @@ Federated
 Credential
 Management
 API
-hosted
 domain
+hint
 tests
 .
 <
@@ -125,7 +125,7 @@ module
 import
 {
 fedcm_test
-request_options_with_hosted_domain
+request_options_with_domain_hint
 select_manifest
 fedcm_get_and_select_first_account
 }
@@ -154,7 +154,7 @@ t
 let
 options
 =
-request_options_with_hosted_domain
+request_options_with_domain_hint
 (
 '
 manifest
@@ -188,8 +188,8 @@ cred
 }
 "
 No
-hosted
 domain
+hint
 matches
 an
 account
@@ -207,7 +207,7 @@ t
 const
 options
 =
-request_options_with_hosted_domain
+request_options_with_domain_hint
 (
 '
 manifest
@@ -243,8 +243,8 @@ token
 ;
 }
 "
-Hosted
-domain
+Domain
+hint
 matches
 an
 account
@@ -262,7 +262,7 @@ t
 let
 options
 =
-request_options_with_hosted_domain
+request_options_with_domain_hint
 (
 '
 manifest_with_two_accounts
@@ -305,8 +305,8 @@ john_doe
 ;
 }
 "
-Hosted
-domain
+Domain
+hint
 matches
 an
 account
@@ -327,7 +327,7 @@ t
 let
 options
 =
-request_options_with_hosted_domain
+request_options_with_domain_hint
 (
 '
 manifest_with_two_accounts
@@ -370,8 +370,8 @@ john_doe
 ;
 }
 "
-Hosted
-domain
+Domain
+hint
 '
 *
 '
@@ -380,8 +380,8 @@ an
 account
 with
 any
-hosted
 domain
+hint
 .
 "
 )
