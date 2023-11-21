@@ -8159,11 +8159,6 @@ interruptRequested
 interruptRequested
 )
 {
-*
-interruptRequested
-=
-false
-;
 interrupted
 =
 true

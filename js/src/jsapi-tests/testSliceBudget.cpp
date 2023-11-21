@@ -482,9 +482,12 @@ isOverBudget
 ;
 CHECK
 (
-!
 wantInterrupt
 )
+;
+wantInterrupt
+=
+false
 ;
 CHECK
 (

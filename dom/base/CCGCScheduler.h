@@ -525,6 +525,10 @@ bool
 isExtended
 )
 {
+mInterruptRequested
+=
+false
+;
 auto
 budget
 =
