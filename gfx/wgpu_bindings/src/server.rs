@@ -1728,6 +1728,7 @@ as_str
 let
 (
 _
+_
 error
 )
 =
@@ -1745,6 +1746,7 @@ self_id
 &
 desc
 trace_path
+new_id
 new_id
 )
 )
@@ -2644,6 +2646,11 @@ host
 :
 map_mode
 callback
+:
+Some
+(
+callback
+)
 }
 ;
 let
