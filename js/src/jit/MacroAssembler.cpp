@@ -33680,7 +33680,7 @@ isObject
 isWasmValueBox
 done
 ;
-branchTest32
+branchTestPtr
 (
 Assembler
 :
@@ -33704,7 +33704,7 @@ I31
 isI31
 )
 ;
-branchTest32
+branchTestPtr
 (
 Assembler
 :
@@ -33783,12 +33783,9 @@ bind
 isI31
 )
 ;
-rshift32Arithmetic
+convertWasmI31RefTo32Signed
 (
-Imm32
-(
-1
-)
+src
 src
 )
 ;
@@ -33964,7 +33961,7 @@ isObject
 isWasmValueBox
 done
 ;
-branchTest32
+branchTestPtr
 (
 Assembler
 :
@@ -33988,7 +33985,7 @@ I31
 isI31
 )
 ;
-branchTest32
+branchTestPtr
 (
 Assembler
 :
@@ -34058,12 +34055,9 @@ bind
 isI31
 )
 ;
-rshift32Arithmetic
+convertWasmI31RefTo32Signed
 (
-Imm32
-(
-1
-)
+src
 src
 )
 ;
