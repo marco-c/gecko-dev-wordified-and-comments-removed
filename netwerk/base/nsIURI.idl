@@ -269,6 +269,11 @@ hasRef
 ;
 readonly
 attribute
+boolean
+hasUserPass
+;
+readonly
+attribute
 AUTF8String
 filePath
 ;

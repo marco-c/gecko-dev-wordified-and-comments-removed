@@ -176,6 +176,14 @@ equal
 (
 uri
 .
+hasUserPass
+true
+)
+;
+equal
+(
+uri
+.
 hostPort
 "
 hostname
