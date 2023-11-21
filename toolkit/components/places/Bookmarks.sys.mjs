@@ -121,8 +121,6 @@ but
 rather
 use
 PlacesTransactions
-.
-jsm
 so
 that
 *

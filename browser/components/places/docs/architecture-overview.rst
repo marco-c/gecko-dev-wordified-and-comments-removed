@@ -1223,8 +1223,6 @@ wrapper
 called
 PlacesTransactions
 .
-jsm
-.
 The
 scope
 of
