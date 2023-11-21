@@ -3783,6 +3783,16 @@ complete
 "
 )
 ;
+window
+.
+SpecialPowers
+.
+clipboardCopyString
+(
+"
+"
+)
+;
 if
 (
 this
