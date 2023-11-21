@@ -2014,7 +2014,7 @@ sendReportTo
 (
 '
 {
-createSellerReportURL
+createBidderReportURL
 (
 uuid
 '
