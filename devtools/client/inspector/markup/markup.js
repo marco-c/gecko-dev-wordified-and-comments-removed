@@ -5494,17 +5494,6 @@ selection
 setNodeFront
 (
 node
-{
-reason
-:
-"
-markup
--
-attribute
--
-link
-"
-}
 )
 ;
 }
