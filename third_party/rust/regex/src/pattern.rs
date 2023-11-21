@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 str
@@ -16,9 +16,6 @@ Searcher
 ;
 use
 crate
-:
-:
-re_unicode
 :
 :
 {

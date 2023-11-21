@@ -1,4 +1,7 @@
 pub
+(
+crate
+)
 fn
 find_byte
 (
@@ -106,12 +109,9 @@ Option
 usize
 >
 {
-use
 memchr
 :
 :
-memchr
-;
 memchr
 (
 needle

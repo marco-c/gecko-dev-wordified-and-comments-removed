@@ -2136,13 +2136,9 @@ because
 we
 only
 target
-x86_64
-here
-which
-is
-always
 little
 endian
+here
 .
 Thus
 the
