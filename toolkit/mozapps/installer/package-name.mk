@@ -497,6 +497,17 @@ mozsearch
 scip
 -
 index
+MOZSEARCH_JAVA_INDEX_BASENAME
+=
+(
+PKG_BASENAME
+)
+.
+mozsearch
+-
+java
+-
+index
 #
 Mozharness
 naming
