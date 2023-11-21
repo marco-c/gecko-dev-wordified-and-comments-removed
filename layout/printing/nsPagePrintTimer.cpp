@@ -336,9 +336,6 @@ initNewTimer
 true
 ;
 bool
-inRange
-;
-bool
 donePrinting
 ;
 donePrinting
@@ -353,7 +350,6 @@ mPrintJob
 PrintSheet
 (
 mPrintObj
-inRange
 )
 ;
 if
@@ -410,7 +406,7 @@ result
 =
 StartTimer
 (
-inRange
+true
 )
 ;
 if

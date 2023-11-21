@@ -9003,9 +9003,6 @@ PrintSheet
 nsPrintObject
 *
 aPO
-bool
-&
-aInRange
 )
 {
 NS_ASSERTION
@@ -9045,10 +9042,6 @@ null
 !
 "
 )
-;
-aInRange
-=
-true
 ;
 if
 (
