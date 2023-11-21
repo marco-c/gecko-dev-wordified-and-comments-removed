@@ -64,11 +64,11 @@ contentDocument
 getElementById
 (
 "
-firefoxSuggestNonsponsoredToggle
+firefoxSuggestNonsponsored
 "
 )
 .
-pressed
+checked
 false
 "
 Web
@@ -87,11 +87,11 @@ contentDocument
 getElementById
 (
 "
-firefoxSuggestSponsoredToggle
+firefoxSuggestSponsored
 "
 )
 .
-pressed
+checked
 true
 "
 Sponsored
@@ -133,7 +133,7 @@ contentDocument
 getElementById
 (
 "
-firefoxSuggestNonsponsoredToggle
+firefoxSuggestNonsponsored
 "
 )
 .
@@ -156,7 +156,7 @@ contentDocument
 getElementById
 (
 "
-firefoxSuggestSponsoredToggle
+firefoxSuggestSponsored
 "
 )
 .
