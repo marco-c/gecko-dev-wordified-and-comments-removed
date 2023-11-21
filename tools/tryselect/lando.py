@@ -91,6 +91,12 @@ util
 import
 get_state_dir
 from
+mozbuild
+.
+base
+import
+MozbuildObject
+from
 mozversioncontrol
 import
 (
@@ -134,6 +140,33 @@ Union
 GitRepository
 HgRepository
 ]
+here
+=
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
+build
+=
+MozbuildObject
+.
+from_environment
+(
+cwd
+=
+here
+)
 def
 convert_bytes_patch_to_base64
 (
@@ -1340,6 +1373,33 @@ user_code
 ]
 )
         
+auth_msg
+=
+f
+"
+Auth0
+token
+validation
+required
+at
+:
+{
+device_code_data
+[
+'
+verification_uri_complete
+'
+]
+}
+"
+        
+build
+.
+notify
+(
+auth_msg
+)
+        
 device_code_lifetime_s
 =
 device_code_data
@@ -2510,8 +2570,8 @@ as
 exc
 :
             
-print
-(
+error_msg
+=
 "
 abort
 :
@@ -2522,6 +2582,10 @@ for
 submission
 .
 "
+            
+print
+(
+error_msg
 )
             
 print
@@ -2530,6 +2594,13 @@ str
 (
 exc
 )
+)
+            
+build
+.
+notify
+(
+error_msg
 )
             
 return
@@ -2556,8 +2627,8 @@ as
 exc
 :
             
-print
-(
+error_msg
+=
 "
 abort
 :
@@ -2568,6 +2639,10 @@ to
 Lando
 .
 "
+            
+print
+(
+error_msg
 )
             
 print
@@ -2576,6 +2651,13 @@ str
 (
 exc
 )
+)
+            
+build
+.
+notify
+(
+error_msg
 )
             
 return
@@ -2605,7 +2687,8 @@ id
 "
 ]
     
-print
+success_msg
+=
 (
         
 f
@@ -2634,4 +2717,16 @@ job_id
 .
 "
     
+)
+    
+print
+(
+success_msg
+)
+    
+build
+.
+notify
+(
+success_msg
 )
