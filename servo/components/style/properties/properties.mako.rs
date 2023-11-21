@@ -17733,7 +17733,9 @@ new
 dest
 )
 ;
-match
+let
+property_id
+=
 property_id
 .
 to_physical
@@ -17742,6 +17744,9 @@ self
 .
 writing_mode
 )
+;
+match
+property_id
 {
 %
 for
@@ -17950,7 +17955,9 @@ computed
 :
 ToComputedValue
 ;
-match
+let
+physical_property_id
+=
 property_id
 .
 to_physical
@@ -17959,6 +17966,9 @@ self
 .
 writing_mode
 )
+;
+match
+physical_property_id
 {
 %
 for
@@ -18029,7 +18039,7 @@ mut
 computed_value
 =
 match
-property_id
+physical_property_id
 {
 %
 for
