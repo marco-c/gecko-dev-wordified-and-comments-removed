@@ -207,7 +207,7 @@ NSS
 .
 90
 .
-0
+1
 (
 ESR
 )
@@ -230,7 +230,7 @@ here
 :
 ref
 :
-mozilla_projects_nss_nss_3_90_0_release_notes
+mozilla_projects_nss_nss_3_90_1_release_notes
 .
 .
 container
