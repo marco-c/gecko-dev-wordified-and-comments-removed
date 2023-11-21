@@ -291,7 +291,7 @@ IsOpen
 bridge
 -
 >
-SendTextureDestroy
+SendTextureDrop
 (
 mId
 )

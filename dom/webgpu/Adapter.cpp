@@ -1174,7 +1174,7 @@ false
 mBridge
 -
 >
-SendAdapterDestroy
+SendAdapterDrop
 (
 mId
 )

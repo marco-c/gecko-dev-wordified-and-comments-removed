@@ -134,7 +134,7 @@ IsOpen
 bridge
 -
 >
-SendRenderBundleDestroy
+SendRenderBundleDrop
 (
 mId
 )

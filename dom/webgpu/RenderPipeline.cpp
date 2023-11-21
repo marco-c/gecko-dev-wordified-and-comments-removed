@@ -157,7 +157,7 @@ IsOpen
 bridge
 -
 >
-SendRenderPipelineDestroy
+SendRenderPipelineDrop
 (
 mId
 )

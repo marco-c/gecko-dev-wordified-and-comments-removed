@@ -562,7 +562,7 @@ IsOpen
 mBridge
 -
 >
-SendCommandEncoderDestroy
+SendCommandEncoderDrop
 (
 mId
 )

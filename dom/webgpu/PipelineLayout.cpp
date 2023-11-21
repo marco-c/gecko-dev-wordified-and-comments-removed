@@ -134,7 +134,7 @@ IsOpen
 bridge
 -
 >
-SendPipelineLayoutDestroy
+SendPipelineLayoutDrop
 (
 mId
 )

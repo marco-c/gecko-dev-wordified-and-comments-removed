@@ -165,7 +165,7 @@ ipc
 :
 :
 IPCResult
-RecvAdapterDestroy
+RecvAdapterDrop
 (
 RawId
 aAdapterId
@@ -275,7 +275,7 @@ ipc
 :
 :
 IPCResult
-RecvTextureDestroy
+RecvTextureDrop
 (
 RawId
 aTextureId
@@ -285,7 +285,7 @@ ipc
 :
 :
 IPCResult
-RecvTextureViewDestroy
+RecvTextureViewDrop
 (
 RawId
 aTextureViewId
@@ -295,7 +295,7 @@ ipc
 :
 :
 IPCResult
-RecvSamplerDestroy
+RecvSamplerDrop
 (
 RawId
 aSamplerId
@@ -324,7 +324,7 @@ ipc
 :
 :
 IPCResult
-RecvCommandEncoderDestroy
+RecvCommandEncoderDrop
 (
 RawId
 aEncoderId
@@ -334,7 +334,7 @@ ipc
 :
 :
 IPCResult
-RecvCommandBufferDestroy
+RecvCommandBufferDrop
 (
 RawId
 aCommandBufferId
@@ -344,7 +344,7 @@ ipc
 :
 :
 IPCResult
-RecvRenderBundleDestroy
+RecvRenderBundleDrop
 (
 RawId
 aBundleId
@@ -425,7 +425,7 @@ ipc
 :
 :
 IPCResult
-RecvBindGroupLayoutDestroy
+RecvBindGroupLayoutDrop
 (
 RawId
 aBindGroupLayoutId
@@ -435,7 +435,7 @@ ipc
 :
 :
 IPCResult
-RecvPipelineLayoutDestroy
+RecvPipelineLayoutDrop
 (
 RawId
 aPipelineLayoutId
@@ -445,7 +445,7 @@ ipc
 :
 :
 IPCResult
-RecvBindGroupDestroy
+RecvBindGroupDrop
 (
 RawId
 aBindGroupId
@@ -455,7 +455,7 @@ ipc
 :
 :
 IPCResult
-RecvShaderModuleDestroy
+RecvShaderModuleDrop
 (
 RawId
 aModuleId
@@ -465,7 +465,7 @@ ipc
 :
 :
 IPCResult
-RecvComputePipelineDestroy
+RecvComputePipelineDrop
 (
 RawId
 aPipelineId
@@ -475,7 +475,7 @@ ipc
 :
 :
 IPCResult
-RecvRenderPipelineDestroy
+RecvRenderPipelineDrop
 (
 RawId
 aPipelineId
@@ -485,7 +485,7 @@ ipc
 :
 :
 IPCResult
-RecvImplicitLayoutDestroy
+RecvImplicitLayoutDrop
 (
 RawId
 aImplicitPlId
@@ -587,7 +587,7 @@ ipc
 :
 :
 IPCResult
-RecvSwapChainDestroy
+RecvSwapChainDrop
 (
 const
 layers

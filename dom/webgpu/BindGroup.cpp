@@ -134,7 +134,7 @@ IsOpen
 bridge
 -
 >
-SendBindGroupDestroy
+SendBindGroupDrop
 (
 mId
 )
