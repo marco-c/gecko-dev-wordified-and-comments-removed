@@ -6242,6 +6242,8 @@ const
 nsIContent
 &
 aContentAtEventPoint
+int32_t
+aOffsetAtEventPoint
 )
 const
 ;

@@ -22522,7 +22522,7 @@ document
 bool
 isPointInSelection
 =
-EditorUtils
+nsContentUtils
 :
 :
 IsPointInSelection
