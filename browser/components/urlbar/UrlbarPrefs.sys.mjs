@@ -3873,7 +3873,7 @@ clipboard
 .
 featureGate
 "
-true
+false
 ]
 /
 /
