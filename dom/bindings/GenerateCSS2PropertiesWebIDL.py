@@ -224,7 +224,15 @@ IsBackdropFilterAvailable
 '
 )
             
-else
+elif
+p
+.
+method
+!
+=
+"
+MozTransform
+"
 :
                 
 extendedAttrs
