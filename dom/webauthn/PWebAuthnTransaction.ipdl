@@ -464,9 +464,6 @@ Extensions
 nsString
 userVerificationRequirement
 ;
-bool
-ConditionallyMediated
-;
 uint64_t
 BrowsingContextId
 ;
