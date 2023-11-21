@@ -322,6 +322,18 @@ class
 "
 animFrom
 "
+style
+=
+"
+font
+-
+palette
+:
+-
+-
+custom
+;
+"
 >
 A
 <
@@ -450,7 +462,7 @@ b
 addEventListener
 (
 "
-animationstart
+animationend
 "
 afterPaletteAnimationTest2
 .
@@ -460,7 +472,7 @@ function
 (
 )
 {
-assert_not_equals
+assert_equals
 (
 window
 .
