@@ -117,15 +117,6 @@ scheme
 "
 https
 "
-fail
--
-if
-=
-[
-"
-xorigin
-"
-]
 [
 "
 test_hide_gamepad_info

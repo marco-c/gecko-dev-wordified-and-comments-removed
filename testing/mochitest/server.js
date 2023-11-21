@@ -2876,6 +2876,14 @@ id
 "
 testframe
 "
+allow
+:
+"
+geolocation
+'
+src
+'
+"
 allowfullscreen
 :
 true
