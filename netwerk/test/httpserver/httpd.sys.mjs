@@ -18571,6 +18571,9 @@ IOUtils
 PathUtils
 "
 "
+TextDecoder
+"
+"
 TextEncoder
 "
 "

@@ -44,6 +44,9 @@ false
 PathUtils
 :
 false
+TextDecoder
+:
+false
 TextEncoder
 :
 false
