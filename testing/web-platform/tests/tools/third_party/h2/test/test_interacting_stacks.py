@@ -165,6 +165,8 @@ useful
 "
 "
 "
+from
+.
 import
 coroutine_tests
 import

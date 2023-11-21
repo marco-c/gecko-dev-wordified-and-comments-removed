@@ -66,8 +66,6 @@ from
 a
 server
 .
-Hyper
--
 h2
 does
 not
@@ -218,8 +216,6 @@ the
 .
 0
 release
-hyper
--
 h2
 added
 support
@@ -335,8 +331,6 @@ event
 )
 .
 Ordinarily
-hyper
--
 h2
 '
 s
@@ -398,8 +392,6 @@ StreamEnded
 >
 event
 .
-hyper
--
 h2
 *
 does
@@ -469,8 +461,6 @@ event
 is
 emitted
 by
-hyper
--
 h2
 .
 The
@@ -884,8 +874,6 @@ data
 warning
 :
 :
-hyper
--
 h2
 does
 not
@@ -1554,8 +1542,6 @@ send
 data
 .
 For
-hyper
--
 h2
 this
 amounts
@@ -1578,8 +1564,6 @@ H2Connection
 data_to_send
 >
 .
-Hyper
--
 h2
 may
 write
@@ -1679,8 +1663,6 @@ standard
 design
 for
 a
-hyper
--
 h2
 consumer
 then
@@ -2321,8 +2303,6 @@ of
 padding
 used
 .
-hyper
--
 h2
 shows
 this
@@ -2367,8 +2347,6 @@ with
 flow
 control
 in
-hyper
--
 h2
 users
 *
@@ -2439,8 +2417,6 @@ for
 more
 data
 .
-hyper
--
 h2
 does
 not
@@ -2523,8 +2499,6 @@ the
 received
 data
 .
-hyper
--
 h2
 requires
 that
@@ -2662,8 +2636,6 @@ data
 on
 a
 stream
-hyper
--
 h2
 will
 throw
@@ -2687,8 +2659,6 @@ the
 data
 .
 In
-hyper
--
 h2
 receiving
 a
@@ -2997,8 +2967,6 @@ version
 5
 .
 0
-hyper
--
 h2
 now
 provides

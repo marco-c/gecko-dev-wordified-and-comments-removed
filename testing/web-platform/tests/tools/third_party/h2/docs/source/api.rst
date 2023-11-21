@@ -1,13 +1,5 @@
-Hyper
--
 h2
 API
-=
-=
-=
-=
-=
-=
 =
 =
 =
@@ -20,8 +12,6 @@ details
 the
 API
 of
-Hyper
--
 h2
 .
 Semantic
@@ -44,8 +34,6 @@ Versioning
 -
 -
 -
--
-Hyper
 -
 h2
 follows
@@ -95,8 +83,6 @@ make
 it
 part
 of
-Hyper
--
 h2
 '
 s

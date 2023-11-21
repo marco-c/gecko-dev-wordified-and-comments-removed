@@ -55,19 +55,6 @@ HPACK
 "
 "
 from
-hpack
-.
-hpack
-import
-Decoder
-Encoder
-from
-hpack
-.
-struct
-import
-HeaderTuple
-from
 binascii
 import
 unhexlify
@@ -75,11 +62,14 @@ from
 pytest
 import
 skip
+from
+hpack
+import
+Decoder
+Encoder
+HeaderTuple
 class
 TestHPACKDecoderIntegration
-(
-object
-)
 :
     
 def
