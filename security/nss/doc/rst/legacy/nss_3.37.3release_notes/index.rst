@@ -98,10 +98,6 @@ NSS
 .
 37
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

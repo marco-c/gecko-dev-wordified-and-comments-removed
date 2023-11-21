@@ -114,10 +114,6 @@ zhujianwei7
 Hans
 Petter
 Jansson
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

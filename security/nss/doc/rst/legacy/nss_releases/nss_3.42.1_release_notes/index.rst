@@ -103,10 +103,6 @@ a
 patch
 release
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

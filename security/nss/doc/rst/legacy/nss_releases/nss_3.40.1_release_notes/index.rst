@@ -103,10 +103,6 @@ NSS
 3
 .
 40
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

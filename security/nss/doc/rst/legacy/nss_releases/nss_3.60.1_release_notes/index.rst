@@ -111,10 +111,6 @@ NSS
 .
 60
 .
-.
-.
-_distribution_information
-:
 Distribution
 information
 <

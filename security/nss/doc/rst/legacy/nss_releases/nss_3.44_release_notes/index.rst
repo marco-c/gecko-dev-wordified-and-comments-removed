@@ -119,10 +119,6 @@ and
 Edouard
 Oger
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

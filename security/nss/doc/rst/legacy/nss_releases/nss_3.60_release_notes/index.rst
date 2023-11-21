@@ -115,10 +115,6 @@ contributors
 :
 -
 yogesh
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

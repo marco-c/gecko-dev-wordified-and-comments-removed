@@ -141,10 +141,6 @@ contributors
 :
 Greg
 Rubin
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

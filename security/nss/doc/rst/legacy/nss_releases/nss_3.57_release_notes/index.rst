@@ -116,10 +116,6 @@ contributors
 -
 Khem
 Raj
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

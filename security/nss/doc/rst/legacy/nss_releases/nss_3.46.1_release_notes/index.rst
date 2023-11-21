@@ -127,10 +127,6 @@ on
 October
 2019
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

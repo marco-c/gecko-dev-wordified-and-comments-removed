@@ -119,10 +119,6 @@ risk
 patches
 only
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

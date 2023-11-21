@@ -133,10 +133,6 @@ reporting
 this
 issue
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

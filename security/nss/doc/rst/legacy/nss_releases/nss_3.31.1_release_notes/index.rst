@@ -132,10 +132,6 @@ NSS
 .
 31
 .
-.
-.
-_distribution_information
-:
 Distribution
 information
 <

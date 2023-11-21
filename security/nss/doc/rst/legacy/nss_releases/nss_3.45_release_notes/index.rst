@@ -133,10 +133,6 @@ Shigorin
 -
 Tomas
 Mraz
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

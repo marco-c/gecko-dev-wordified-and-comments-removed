@@ -116,10 +116,6 @@ contributors
 -
 Alex
 Henrie
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

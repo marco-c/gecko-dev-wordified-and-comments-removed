@@ -119,10 +119,6 @@ Baryshkov
 -
 Victor
 Tapia
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

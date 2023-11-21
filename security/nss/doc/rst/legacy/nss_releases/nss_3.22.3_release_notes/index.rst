@@ -119,10 +119,6 @@ fixed
 section
 below
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

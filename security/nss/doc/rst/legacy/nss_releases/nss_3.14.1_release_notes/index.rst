@@ -134,10 +134,6 @@ MPL
 .
 0
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

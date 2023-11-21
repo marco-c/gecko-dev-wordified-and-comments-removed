@@ -140,10 +140,6 @@ providing
 a
 patch
 .
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

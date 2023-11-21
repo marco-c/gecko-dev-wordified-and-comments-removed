@@ -132,10 +132,6 @@ Glogowski
 -
 Jeff
 Walden
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

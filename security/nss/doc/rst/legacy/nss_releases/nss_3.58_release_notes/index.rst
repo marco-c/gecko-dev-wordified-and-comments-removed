@@ -116,10 +116,6 @@ contributors
 -
 Ricky
 Stewart
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

@@ -142,10 +142,6 @@ contributors
 -
 Craig
 Disselkoen
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <

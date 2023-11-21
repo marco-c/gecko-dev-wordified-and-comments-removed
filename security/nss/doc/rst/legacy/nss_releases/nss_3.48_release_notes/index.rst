@@ -125,10 +125,6 @@ Kasanen
 -
 Tom
 Prince
-.
-.
-_distribution_information
-:
 Distribution
 Information
 <
