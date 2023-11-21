@@ -312,7 +312,7 @@ arePagesPortraitMode
 areSheetsOfPaperPortraitMode
 !
 =
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 )
@@ -2969,7 +2969,7 @@ bool
 nsPrintSettings
 :
 :
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 {
@@ -3031,7 +3031,7 @@ failed
 ;
 if
 (
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 )
@@ -3059,7 +3059,7 @@ GetSheetOrientation
 {
 if
 (
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 )

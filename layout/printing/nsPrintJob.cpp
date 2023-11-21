@@ -6157,7 +6157,7 @@ if
 mPrintSettings
 -
 >
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 )
