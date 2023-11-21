@@ -237,6 +237,12 @@ if
 feltPrivacyEnabled
 )
 {
+window
+.
+FeltPrivacyExposureTelemetry
+(
+)
+;
 infoTitleEnabled
 =
 true
@@ -994,7 +1000,7 @@ message
 ;
 window
 .
-PrivateBrowsingExposureTelemetry
+PrivateBrowsingPromoExposureTelemetry
 (
 )
 ;
@@ -1042,7 +1048,7 @@ message
 ;
 window
 .
-PrivateBrowsingExposureTelemetry
+PrivateBrowsingPromoExposureTelemetry
 (
 )
 ;
