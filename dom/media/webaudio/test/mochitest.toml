@@ -922,6 +922,11 @@ waveformatextensible
 wav
 "
 "
+waveformatextensiblebadmask
+.
+wav
+"
+"
 sixteen
 -
 frames
