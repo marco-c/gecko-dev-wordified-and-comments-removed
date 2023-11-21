@@ -491,11 +491,25 @@ struct
 ShaderModule
 {
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 RenderPipeline
 {
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 ComputePipeline
@@ -517,7 +531,6 @@ fn
 configure
 (
 &
-mut
 self
 device
 :
@@ -553,7 +566,6 @@ fn
 unconfigure
 (
 &
-mut
 self
 device
 :
@@ -571,7 +583,6 @@ fn
 acquire_texture
 (
 &
-mut
 self
 _timeout
 :
@@ -616,7 +627,6 @@ fn
 discard_texture
 (
 &
-mut
 self
 texture
 :

@@ -307,7 +307,6 @@ fn
 configure
 (
 &
-mut
 self
 device
 :
@@ -344,7 +343,6 @@ fn
 unconfigure
 (
 &
-mut
 self
 device
 :
@@ -358,7 +356,6 @@ fn
 acquire_texture
 (
 &
-mut
 self
 timeout
 :
@@ -403,7 +400,6 @@ fn
 discard_texture
 (
 &
-mut
 self
 texture
 :
@@ -559,7 +555,6 @@ fn
 submit
 (
 &
-mut
 self
 command_buffers
 :
@@ -602,12 +597,10 @@ fn
 present
 (
 &
-mut
 self
 surface
 :
 &
-mut
 Context
 texture
 :

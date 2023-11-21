@@ -1058,7 +1058,7 @@ cur_value
 log
 :
 :
-info
+debug
 !
 (
 "

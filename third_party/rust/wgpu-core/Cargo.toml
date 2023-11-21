@@ -396,12 +396,6 @@ features
 "
 clone
 "
-"
-span
-"
-"
-validate
-"
 ]
 [
 dependencies

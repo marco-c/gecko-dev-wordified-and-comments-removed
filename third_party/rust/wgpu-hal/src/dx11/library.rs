@@ -553,7 +553,7 @@ hr
 log
 :
 :
-info
+warn
 !
 (
 "
@@ -629,7 +629,7 @@ hr
 log
 :
 :
-info
+warn
 !
 (
 "

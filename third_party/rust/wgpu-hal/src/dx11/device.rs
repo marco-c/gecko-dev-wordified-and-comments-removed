@@ -1057,7 +1057,6 @@ fn
 submit
 (
 &
-mut
 self
 command_buffers
 :
@@ -1109,12 +1108,10 @@ fn
 present
 (
 &
-mut
 self
 surface
 :
 &
-mut
 super
 :
 :

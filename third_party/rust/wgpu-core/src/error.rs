@@ -162,7 +162,7 @@ str
 label_value
 :
 &
-str
+String
 )
 {
 if
