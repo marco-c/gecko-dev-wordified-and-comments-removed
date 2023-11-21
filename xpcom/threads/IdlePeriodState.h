@@ -365,11 +365,6 @@ TimeStamp
 mCachedIdleDeadline
 ;
 bool
-mIdleSchedulerInitialized
-=
-false
-;
-bool
 mActive
 =
 true
