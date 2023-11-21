@@ -1613,6 +1613,12 @@ Complete
 ;
 if
 (
+!
+mRelevantGlobal
+)
+{
+if
+(
 Document
 *
 doc
@@ -1622,12 +1628,6 @@ GetAssociatedDocument
 )
 )
 {
-MOZ_ASSERT
-(
-!
-mRelevantGlobal
-)
-;
 mRelevantGlobal
 =
 doc
@@ -1637,6 +1637,7 @@ GetScopeObject
 (
 )
 ;
+}
 }
 if
 (
