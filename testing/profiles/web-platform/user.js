@@ -349,6 +349,16 @@ true
 user_pref
 (
 "
+ui
+.
+scrollbarFadeDuration
+"
+0
+)
+;
+user_pref
+(
+"
 nglayout
 .
 initialpaint
