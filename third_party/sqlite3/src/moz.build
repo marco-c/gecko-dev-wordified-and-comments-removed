@@ -34,6 +34,17 @@ FINAL_LIBRARY
 '
 sqlite
 '
+DIRS
++
+=
+[
+'
+.
+.
+/
+ext
+'
+]
 SOURCES
 +
 =
@@ -53,9 +64,6 @@ SQLITE_SECURE_DELETE
 '
 '
 SQLITE_THREADSAFE
-'
-'
-SQLITE_CORE
 '
 '
 SQLITE_ENABLE_UNLOCK_NOTIFY
