@@ -1783,14 +1783,14 @@ ran
 for
 more
 than
-150
+200
 seconds
 for
 a
 new
 installation
 or
-165
+215
 seconds
 for
 a
