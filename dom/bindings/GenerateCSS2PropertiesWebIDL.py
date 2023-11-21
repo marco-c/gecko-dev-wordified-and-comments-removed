@@ -224,15 +224,7 @@ IsBackdropFilterAvailable
 '
 )
             
-elif
-p
-.
-method
-!
-=
-"
-MozTransform
-"
+else
 :
                 
 extendedAttrs
