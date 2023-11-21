@@ -1367,13 +1367,6 @@ MozHeaderbarinactivetext
 MozMacDefaultbuttontext
 MozMacFocusring
 MozMacDisabledtoolbartext
-MozMacMenupopup
-MozMacMenuitem
-MozMacActiveMenuitem
-MozMacSourceList
-MozMacSourceListSelection
-MozMacActiveSourceListSelection
-MozMacTooltip
 Accentcolor
 Accentcolortext
 #
