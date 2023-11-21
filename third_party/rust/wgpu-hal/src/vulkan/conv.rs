@@ -3874,7 +3874,16 @@ PresentModeKHR
 :
 FIFO_RELAXED
 {
-None
+Some
+(
+wgt
+:
+:
+PresentMode
+:
+:
+FifoRelaxed
+)
 }
 else
 {

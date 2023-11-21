@@ -27,6 +27,7 @@ proc
 :
 Alignment
 Handle
+Scalar
 Type
 TypeInner
 UniqueArena
@@ -115,11 +116,14 @@ TypeInner
 :
 :
 Scalar
+(
+Scalar
 {
 width
 .
 .
 }
+)
 =
 >
 (
@@ -140,9 +144,14 @@ TypeInner
 Vector
 {
 size
+scalar
+:
+Scalar
+{
 width
 .
 .
+}
 }
 =
 >

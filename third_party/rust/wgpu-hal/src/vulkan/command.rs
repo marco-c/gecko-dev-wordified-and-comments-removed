@@ -208,7 +208,7 @@ block_size
 =
 format
 .
-block_size
+block_copy_size
 (
 Some
 (

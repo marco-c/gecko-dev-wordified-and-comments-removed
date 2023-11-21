@@ -7320,7 +7320,7 @@ u32
 {
 format
 .
-block_size
+block_copy_size
 (
 None
 )
