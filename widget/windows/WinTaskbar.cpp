@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 .
 h
 "
@@ -122,7 +122,7 @@ h
 #
 include
 "
-JumpListBuilder
+LegacyJumpListBuilder
 .
 h
 "
@@ -212,8 +212,8 @@ h
 static
 NS_DEFINE_CID
 (
-kJumpListBuilderCID
-NS_WIN_JUMPLISTBUILDER_CID
+kLegacyJumpListBuilderCID
+NS_WIN_LEGACYJUMPLISTBUILDER_CID
 )
 ;
 namespace
@@ -1786,11 +1786,11 @@ NS_IMETHODIMP
 WinTaskbar
 :
 :
-CreateJumpListBuilder
+CreateLegacyJumpListBuilder
 (
 bool
 aPrivateBrowsing
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 *
 *
 aJumpListBuilder
@@ -1801,7 +1801,7 @@ rv
 ;
 if
 (
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 sBuildingList
@@ -1811,13 +1811,13 @@ NS_ERROR_ALREADY_INITIALIZED
 ;
 nsCOMPtr
 <
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 >
 builder
 =
 do_CreateInstance
 (
-kJumpListBuilderCID
+kLegacyJumpListBuilderCID
 &
 rv
 )

@@ -2150,7 +2150,7 @@ org
 /
 windows
 -
-jumplistshortcut
+legacyjumplistshortcut
 ;
 1
 "
@@ -2160,7 +2160,7 @@ createInstance
 (
 Ci
 .
-nsIJumpListShortcut
+nsILegacyJumpListShortcut
 )
 ;
 item
@@ -2907,7 +2907,7 @@ lazy
 .
 _taskbarService
 .
-createJumpListBuilder
+createLegacyJumpListBuilder
 (
 false
 )
@@ -2919,7 +2919,7 @@ lazy
 .
 _taskbarService
 .
-createJumpListBuilder
+createLegacyJumpListBuilder
 (
 true
 )

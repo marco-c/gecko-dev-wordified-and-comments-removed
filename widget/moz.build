@@ -499,12 +499,12 @@ XPIDL_SOURCES
 =
 [
 "
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 .
 idl
 "
 "
-nsIJumpListItem
+nsILegacyJumpListItem
 .
 idl
 "
