@@ -952,7 +952,6 @@ last_timestamp_
 &
 timestamp
 <
-=
 last_timestamp_
 )
 {
@@ -964,7 +963,7 @@ LS_WARNING
 <
 "
 Timestamp
-no
+not
 increasing
 :
 "
