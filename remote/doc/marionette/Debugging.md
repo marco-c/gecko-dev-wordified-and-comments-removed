@@ -124,6 +124,7 @@ instead
 of
 file
 :
+shell
 %
 .
 /
@@ -155,6 +156,7 @@ Marionette
 log
 level
 :
+shell
 %
 .
 /
@@ -300,6 +302,7 @@ for
 Mn
 tests
 :
+shell
 %
 .
 /
@@ -369,6 +372,7 @@ command
 is
 called
 :
+javascript
 GeckoDriver
 .
 prototype
@@ -411,6 +415,7 @@ true
 this
 way
 :
+shell
 %
 .
 /

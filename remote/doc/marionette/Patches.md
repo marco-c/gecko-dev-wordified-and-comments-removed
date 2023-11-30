@@ -125,6 +125,10 @@ try
 preset
 ]
 :
+shell
+%
+.
+/
 mach
 try
 -
@@ -177,6 +181,10 @@ g
 opt
 )
 :
+shell
+%
+.
+/
 mach
 try
 -
@@ -205,6 +213,10 @@ relevant
 jobs
 yourself
 :
+shell
+%
+.
+/
 mach
 try
 fuzzy

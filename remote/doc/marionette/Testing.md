@@ -30,7 +30,7 @@ that
 we
 test
 :
--
+*
 the
 Marionette
 *
@@ -59,7 +59,7 @@ and
 WPT
 tests
 ;
--
+*
 the
 Python
 *
@@ -78,7 +78,7 @@ functional
 Marionette
 tests
 ;
--
+*
 and
 the
 *
@@ -175,6 +175,7 @@ run
 this
 way
 :
+shell
 %
 .
 /
@@ -210,6 +211,7 @@ the
 tests
 sequentially
 :
+shell
 %
 .
 /
@@ -323,6 +325,7 @@ all
 tests
 locally
 :
+shell
 %
 .
 /
@@ -338,6 +341,7 @@ run
 individual
 tests
 :
+shell
 %
 .
 /
@@ -377,6 +381,7 @@ Firefox
 Nightly
 ]
 :
+shell
 %
 .
 /
@@ -449,6 +454,7 @@ output
 to
 stdout
 :
+shell
 %
 .
 /
@@ -489,6 +495,7 @@ Firefox
 headless
 mode
 :
+shell
 %
 .
 /
@@ -601,7 +608,7 @@ org
 Android
 Prerequisites
 :
--
+*
 You
 have
 [
@@ -634,7 +641,7 @@ Build_Instructions
 Simple_Firefox_for_Android_build
 )
 .
--
+*
 You
 can
 run
@@ -695,6 +702,7 @@ as
 shown
 below
 .
+shell
 %
 .
 /
@@ -807,6 +815,7 @@ Fennec
 for
 you
 :
+shell
 %
 .
 /
@@ -886,6 +895,7 @@ port
 is
 forwarded
 :
+shell
 %
 adb
 forward
@@ -901,6 +911,7 @@ is
 already
 started
 :
+shell
 %
 .
 /
@@ -985,6 +996,7 @@ to
 start
 .
 )
+shell
 %
 .
 /
@@ -1071,6 +1083,7 @@ you
 connect
 manually
 :
+shell
 %
 telnet
 127
@@ -1139,6 +1152,7 @@ To
 run
 them
 :
+shell
 %
 .
 /
@@ -1231,6 +1245,7 @@ mode
 for
 Firefox
 :
+shell
 %
 .
 /
@@ -1308,6 +1323,7 @@ run
 all
 tests
 :
+shell
 %
 .
 /
@@ -1331,6 +1347,7 @@ to
 the
 module
 :
+shell
 %
 .
 /
@@ -1527,6 +1544,7 @@ a
 virtual
 environment
 :
+shell
 %
 pip
 install

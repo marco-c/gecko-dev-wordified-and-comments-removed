@@ -18,7 +18,7 @@ couple
 of
 modules
 :
--
+*
 a
 root
 (
@@ -34,7 +34,7 @@ version
 of
 the
 browser
--
+*
 a
 windowglobal
 (
@@ -422,7 +422,7 @@ remote
 /
 example
 :
--
+*
 remote
 /
 example
@@ -436,7 +436,7 @@ version
 sys
 .
 mjs
--
+*
 remote
 /
 example

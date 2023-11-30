@@ -383,7 +383,7 @@ index
 .
 rst
 #
-communication
+Communication
 )
 instead
 .

@@ -88,6 +88,7 @@ flow
 of
 messages
 :
+text
 client
 server
 |
@@ -351,6 +352,7 @@ server
 remote
 ends
 :
+python
 [
 type
 message
@@ -470,6 +472,7 @@ receiving
 a
 command
 :
+python
 [
 type
 message
@@ -609,6 +612,7 @@ structured
 like
 this
 :
+javascript
 {
 "
 error

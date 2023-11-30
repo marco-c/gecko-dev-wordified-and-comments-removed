@@ -307,6 +307,7 @@ shared
 global
 this
 :
+javascript
 const
 EXPORTED_SYMBOLS
 =
@@ -334,6 +335,7 @@ what
 you
 need
 :
+javascript
 const
 {
 TimedPromise
@@ -379,6 +381,7 @@ the
 Components
 global
 :
+javascript
 const
 {
 classes
@@ -411,6 +414,7 @@ can
 be
 omitted
 :
+javascript
 const
 {
 TYPE_ONE_SHOT
@@ -464,6 +468,7 @@ explicitly
 grouped
 together
 :
+javascript
 switch
 (
 x
@@ -638,19 +643,17 @@ spaces
 like
 this
 :
+javascript
 throw
 new
 TypeError
 (
-"
+pprint
 Expected
 an
 element
 or
 WindowProxy
-"
-+
-pprint
 got
 :
 {
@@ -756,6 +759,7 @@ self
 -
 documentation
 :
+javascript
 let
 location
 =
@@ -836,6 +840,7 @@ described
 more
 succinctly
 :
+javascript
 /
 *
 *
@@ -932,6 +937,7 @@ or
 a
 function
 :
+javascript
 const
 responseListener
 =
@@ -951,6 +957,7 @@ data
 Instead
 of
 :
+javascript
 const
 responseListener
 =
@@ -1038,6 +1045,7 @@ such
 as
 this
 :
+javascript
 /
 *
 This
@@ -1683,6 +1691,7 @@ a
 sensible
 output
 :
+shell
 %
 .
 /
@@ -1725,6 +1734,7 @@ and
 indentation
 rules
 :
+shell
 %
 .
 /

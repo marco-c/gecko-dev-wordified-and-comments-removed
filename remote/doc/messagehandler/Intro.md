@@ -710,7 +710,7 @@ couple
 of
 modules
 :
--
+*
 a
 root
 module
@@ -728,7 +728,7 @@ version
 of
 the
 browser
--
+*
 a
 windowglobal
 module
@@ -785,6 +785,7 @@ will
 look
 like
 :
+text
 parent
 process
 content
@@ -822,6 +823,7 @@ then
 evolve
 to
 :
+text
 parent
 process
 content

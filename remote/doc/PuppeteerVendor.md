@@ -863,9 +863,6 @@ stability
 Testing
 ]
 :
-.
-.
-/
 Testing
 .
 md

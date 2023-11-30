@@ -287,6 +287,7 @@ can
 be
 used
 :
+shell
 %
 cd
 /
@@ -323,6 +324,7 @@ marionette
 packages
 installed
 :
+shell
 %
 cd
 /
@@ -461,6 +463,7 @@ sourced
 virtual
 environment
 :
+shell
 %
 /
 builds
@@ -665,6 +668,7 @@ Android
 SDK
 tools
 .
+shell
 %
 export
 ADB_PATH
@@ -829,6 +833,7 @@ for
 logs
 removed
 :
+shell
 %
 /
 builds
