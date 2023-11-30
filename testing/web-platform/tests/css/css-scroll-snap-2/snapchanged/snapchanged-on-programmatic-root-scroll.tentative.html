@@ -462,8 +462,11 @@ t
 =
 >
 {
-checkSnapchangedSupport
+checkSnapEventSupport
 (
+"
+snapchanged
+"
 )
 ;
 await
@@ -685,7 +688,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapchangedEvent
+assertSnapEvent
 (
 evt
 [
