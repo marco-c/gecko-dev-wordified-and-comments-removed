@@ -25,7 +25,7 @@ e99f
 )
 ]
 interface
-nsIJumpListCommittedCallback
+nsILegacyJumpListCommittedCallback
 :
 nsISupports
 {
@@ -55,7 +55,7 @@ C2B32FA4F683
 )
 ]
 interface
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 :
 nsISupports
 {
@@ -138,7 +138,7 @@ commitListBuild
 optional
 ]
 in
-nsIJumpListCommittedCallback
+nsILegacyJumpListCommittedCallback
 callback
 )
 ;
