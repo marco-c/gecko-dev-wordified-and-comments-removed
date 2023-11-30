@@ -217,12 +217,10 @@ function
 (
 x
 y
-selector
+options
 =
-"
-:
-root
-"
+{
+}
 )
 {
 if
@@ -242,6 +240,7 @@ down
 (
 x
 y
+options
 )
 ;
 this
@@ -250,6 +249,7 @@ up
 (
 x
 y
+options
 )
 ;
 }
@@ -258,7 +258,10 @@ else
 await
 safeSynthesizeMouseEventInContentPage
 (
-selector
+"
+:
+root
+"
 x
 y
 {
@@ -269,6 +272,10 @@ mouse
 "
 +
 name
+.
+.
+.
+options
 }
 )
 ;
