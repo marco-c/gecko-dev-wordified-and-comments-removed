@@ -608,6 +608,13 @@ duration
 override
 ;
 void
+SkipForwardBy
+(
+TimeDelta
+duration
+)
+;
+void
 Register
 (
 sim_time_impl
