@@ -276,9 +276,11 @@ AWS_BUCKET_NAME
 S3_BUCKET_AND_PATH
 %
 /
+"
 {
 S3_PATH
 }
+"
 *
 }
 test

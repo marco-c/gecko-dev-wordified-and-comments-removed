@@ -675,6 +675,7 @@ BUILD_NUMBER
 /
 g
 "
+"
 {
 PRODUCT
 }
@@ -684,6 +685,7 @@ snapcraft
 yaml
 .
 in
+"
 >
 "
 {
