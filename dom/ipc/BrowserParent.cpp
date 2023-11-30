@@ -11439,6 +11439,13 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+const
+Maybe
+<
+DoubleTapToZoomMetrics
+>
+&
+aDoubleTapToZoomMetrics
 )
 {
 if
@@ -11570,6 +11577,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 :
 PBrowserParent
@@ -11585,6 +11593,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 ;
 }

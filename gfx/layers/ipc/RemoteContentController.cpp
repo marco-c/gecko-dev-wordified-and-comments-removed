@@ -74,6 +74,17 @@ mozilla
 /
 layers
 /
+DoubleTapToZoom
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CompositorBridgeParent
 .
 h
@@ -337,6 +348,13 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+const
+Maybe
+<
+DoubleTapToZoomMetrics
+>
+&
+aDoubleTapToZoomMetrics
 )
 {
 MOZ_LOG
@@ -403,6 +421,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 ;
 }
@@ -423,6 +442,13 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+const
+Maybe
+<
+DoubleTapToZoomMetrics
+>
+&
+aDoubleTapToZoomMetrics
 )
 {
 MOZ_ASSERT
@@ -474,6 +500,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 ;
 }
@@ -498,6 +525,13 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+const
+Maybe
+<
+DoubleTapToZoomMetrics
+>
+&
+aDoubleTapToZoomMetrics
 )
 {
 MOZ_LOG
@@ -556,6 +590,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 ;
 }
@@ -573,6 +608,10 @@ LayoutDevicePoint
 Modifiers
 ScrollableLayerGuid
 uint64_t
+Maybe
+<
+DoubleTapToZoomMetrics
+>
 >
 (
 "
@@ -595,6 +634,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 )
 ;
@@ -623,6 +663,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 ;
 }
@@ -653,6 +694,10 @@ LayoutDevicePoint
 Modifiers
 ScrollableLayerGuid
 uint64_t
+Maybe
+<
+DoubleTapToZoomMetrics
+>
 >
 (
 "
@@ -675,6 +720,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 )
 ;
@@ -1690,6 +1736,8 @@ layers
 RemoteContentController
 :
 :
+"
+"
 NotifyAsyncScrollbarDragInitiated
 "
 this
@@ -2159,6 +2207,8 @@ layers
 RemoteContentController
 :
 :
+"
+"
 NotifyScaleGestureCompleteInProcess
 "
 this

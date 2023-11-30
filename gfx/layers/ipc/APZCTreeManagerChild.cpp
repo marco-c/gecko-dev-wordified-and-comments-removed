@@ -67,6 +67,17 @@ mozilla
 /
 layers
 /
+DoubleTapToZoom
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 RemoteCompositorSession
 .
 h
@@ -669,6 +680,13 @@ const
 uint64_t
 &
 aInputBlockId
+const
+Maybe
+<
+DoubleTapToZoomMetrics
+>
+&
+aDoubleTapToZoomMetrics
 )
 {
 MOZ_ASSERT
@@ -727,6 +745,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 ;
 return
@@ -778,6 +797,10 @@ LayoutDevicePoint
 Modifiers
 ScrollableLayerGuid
 uint64_t
+Maybe
+<
+DoubleTapToZoomMetrics
+>
 >
 (
 "
@@ -803,6 +826,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 )
 ;
@@ -818,6 +842,7 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
+aDoubleTapToZoomMetrics
 )
 ;
 #

@@ -34,6 +34,9 @@ layers
 class
 APZChild
 ;
+struct
+DoubleTapToZoomMetrics
+;
 class
 ContentProcessController
 final
@@ -98,6 +101,13 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+const
+Maybe
+<
+DoubleTapToZoomMetrics
+>
+&
+aMetrics
 )
 override
 ;
