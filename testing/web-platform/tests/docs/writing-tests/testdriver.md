@@ -528,7 +528,7 @@ autofunction
 :
 test_driver
 .
-confirm_idp_login
+click_fedcm_dialog_button
 .
 .
 js
