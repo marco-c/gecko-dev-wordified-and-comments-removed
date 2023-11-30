@@ -4454,6 +4454,7 @@ WORKER
 }
 ;
 ;
+;
 const
 userOptions
 =
@@ -30144,7 +30145,7 @@ viewerVersion
 .
 0
 .
-240
+246
 '
 ;
 if
@@ -56150,14 +56151,14 @@ pdfjsVersion
 .
 0
 .
-240
+246
 '
 ;
 const
 pdfjsBuild
 =
 '
-ffbfd680e
+086a5921d
 '
 ;
 const

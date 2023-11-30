@@ -7619,7 +7619,9 @@ inline
 ;
 width
 :
-auto
+max
+-
+content
 ;
 height
 :
