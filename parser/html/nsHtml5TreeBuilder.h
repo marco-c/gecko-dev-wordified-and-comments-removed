@@ -1966,17 +1966,6 @@ form
 )
 ;
 void
-appendVoidElementToCurrent
-(
-nsHtml5ElementName
-*
-elementName
-nsHtml5HtmlAttributes
-*
-attributes
-)
-;
-void
 appendVoidElementToCurrentMayFoster
 (
 nsHtml5ElementName
