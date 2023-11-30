@@ -12424,6 +12424,10 @@ hint
 |
 =
 nsChangeHint_ScrollbarChange
+|
+nsChangeHint_UpdateOverflow
+|
+nsChangeHint_RepaintFrame
 ;
 }
 else
