@@ -827,7 +827,7 @@ addr
 lineno
 colno
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 }
@@ -4999,7 +4999,7 @@ column
 (
 )
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 )
@@ -5056,7 +5056,7 @@ column
 (
 )
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 )
