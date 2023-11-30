@@ -909,8 +909,11 @@ plugin_id
 ?
 ;
 let
+&
 (
+ref
 lock
+ref
 cvar
 )
 =
@@ -1076,8 +1079,11 @@ Condvar
 }
 ;
 let
+&
 (
+ref
 lock
+ref
 cvar
 )
 =
@@ -1732,8 +1738,11 @@ output_id
 ?
 ;
 let
+&
 (
+ref
 lock
+ref
 cvar
 )
 =
@@ -1918,8 +1927,11 @@ Condvar
 }
 ;
 let
+&
 (
+ref
 lock
+ref
 cvar
 )
 =
