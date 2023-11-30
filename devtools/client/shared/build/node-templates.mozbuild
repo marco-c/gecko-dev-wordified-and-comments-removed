@@ -163,6 +163,7 @@ browser
 final_target
 =
 '
+/
 dist
 /
 bin
@@ -174,6 +175,7 @@ else
 final_target
 =
 '
+/
 dist
 /
 bin
@@ -187,7 +189,6 @@ final
 join
 (
 [
-TOPOBJDIR
 final_target
 '
 chrome
@@ -331,6 +332,16 @@ modules
 flags
 =
 [
+'
+/
+'
+.
+join
+(
+[
+TOPOBJDIR
 final
+]
+)
 ]
 )
