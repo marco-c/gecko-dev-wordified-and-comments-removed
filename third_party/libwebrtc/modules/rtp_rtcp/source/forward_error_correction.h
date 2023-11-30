@@ -534,7 +534,17 @@ Packet
 fec_packets
 )
 ;
-void
+struct
+DecodeFecResult
+{
+size_t
+num_recovered_packets
+=
+0
+;
+}
+;
+DecodeFecResult
 DecodeFec
 (
 const
@@ -710,7 +720,7 @@ ReceivedFecPacket
 fec_packet
 )
 ;
-void
+size_t
 AttemptRecovery
 (
 RecoveredPacketList
