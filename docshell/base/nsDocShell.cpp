@@ -21342,7 +21342,7 @@ GetSessionHistory
 )
 -
 >
-EvictLocalContentViewers
+EvictLocalDocumentViewers
 (
 )
 ;

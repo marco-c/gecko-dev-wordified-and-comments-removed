@@ -8909,7 +8909,7 @@ ourHistory
 ourHistory
 -
 >
-EvictLocalContentViewers
+EvictLocalDocumentViewers
 (
 )
 ;
@@ -8922,7 +8922,7 @@ otherHistory
 otherHistory
 -
 >
-EvictLocalContentViewers
+EvictLocalDocumentViewers
 (
 )
 ;

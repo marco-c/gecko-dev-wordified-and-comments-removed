@@ -230,7 +230,7 @@ RemovePendingHistoryNavigations
 )
 ;
 void
-EvictLocalContentViewers
+EvictLocalDocumentViewers
 (
 )
 ;
