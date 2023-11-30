@@ -1119,6 +1119,10 @@ const
 ReflowInput
 &
 aReflowInput
+const
+LogicalMargin
+&
+aBorderPadding
 mozilla
 :
 :
@@ -1823,6 +1827,10 @@ const
 ReflowInput
 &
 aReflowInput
+const
+LogicalMargin
+&
+aBorderPadding
 )
 ;
 void
