@@ -16,6 +16,9 @@ interface
 nsIDocShell
 ;
 interface
+nsIJumpListBuilder
+;
+interface
 nsITaskbarTabPreview
 ;
 interface
@@ -108,6 +111,14 @@ shell
 ;
 nsILegacyJumpListBuilder
 createLegacyJumpListBuilder
+(
+in
+boolean
+aPrivateBrowsing
+)
+;
+nsIJumpListBuilder
+createJumpListBuilder
 (
 in
 boolean
