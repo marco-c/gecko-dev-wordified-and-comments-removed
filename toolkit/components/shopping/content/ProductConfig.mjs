@@ -1037,6 +1037,12 @@ validTLDs
 "
 com
 "
+"
+de
+"
+"
+fr
+"
 ]
 }
 walmart
