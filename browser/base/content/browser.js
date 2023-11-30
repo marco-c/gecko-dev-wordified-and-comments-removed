@@ -8681,10 +8681,6 @@ stop
 (
 )
 ;
-gBrowser
-.
-docShell
-;
 gURLBar
 .
 removeAttribute

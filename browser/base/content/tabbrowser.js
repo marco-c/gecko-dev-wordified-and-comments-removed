@@ -19769,10 +19769,6 @@ stop
 (
 )
 ;
-newBrowser
-.
-docShell
-;
 }
 if
 (
