@@ -17,7 +17,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 "
 test
@@ -26,7 +26,7 @@ unit
 /
 xpcshell_snap
 .
-ini
+toml
 "
 ]
 MARIONETTE_UNIT_MANIFESTS

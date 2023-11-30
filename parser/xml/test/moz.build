@@ -7,6 +7,6 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]

@@ -68,14 +68,14 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 "
 unit_ipc
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 TESTING_JS_MODULES

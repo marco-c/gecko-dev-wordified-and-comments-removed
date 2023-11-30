@@ -5,6 +5,8 @@ support
 -
 files
 =
+[
+"
 basic
 -
 scan
@@ -14,6 +16,8 @@ scan
 expected
 .
 txt
+"
+"
 basic
 -
 scan
@@ -23,6 +27,8 @@ scan
 expected
 .
 txt
+"
+"
 complete
 -
 empty
@@ -32,6 +38,8 @@ live
 expected
 .
 txt
+"
+"
 complete
 -
 empty
@@ -43,6 +51,8 @@ matter
 expected
 .
 txt
+"
+"
 complete
 -
 empty
@@ -52,6 +62,8 @@ cumulative
 expected
 .
 txt
+"
+"
 complete
 -
 full1
@@ -61,6 +73,8 @@ live
 expected
 .
 txt
+"
+"
 complete
 -
 full1
@@ -72,6 +86,8 @@ matter
 expected
 .
 txt
+"
+"
 complete
 -
 full2
@@ -83,6 +99,8 @@ matter
 expected
 .
 txt
+"
+"
 complete
 -
 full2
@@ -92,6 +110,8 @@ cumulative
 expected
 .
 txt
+"
+"
 complete
 -
 partial
@@ -101,11 +121,15 @@ live
 expected
 .
 txt
+"
+"
 scan
 -
 test
 .
 py
+"
+"
 script
 -
 max
@@ -113,6 +137,8 @@ max
 frames
 .
 json
+"
+"
 script
 -
 max
@@ -124,6 +150,8 @@ frames
 expected
 .
 txt
+"
+"
 script
 -
 max
@@ -135,6 +163,8 @@ frames
 expected
 .
 txt
+"
+"
 script
 -
 max
@@ -146,6 +176,8 @@ frames
 expected
 .
 txt
+"
+"
 script
 -
 sort
@@ -155,6 +187,8 @@ by
 json
 .
 gz
+"
+"
 script
 -
 sort
@@ -166,6 +200,8 @@ usable
 expected
 .
 txt
+"
+"
 script
 -
 sort
@@ -177,6 +213,8 @@ req
 expected
 .
 txt
+"
+"
 script
 -
 sort
@@ -188,6 +226,8 @@ slop
 expected
 .
 txt
+"
+"
 script
 -
 sort
@@ -201,6 +241,8 @@ blocks
 expected
 .
 txt
+"
+"
 script
 -
 ignore
@@ -210,6 +252,8 @@ alloc
 fns
 .
 json
+"
+"
 script
 -
 ignore
@@ -221,6 +265,8 @@ fns
 expected
 .
 txt
+"
+"
 script
 -
 diff
@@ -228,6 +274,8 @@ diff
 live1
 .
 json
+"
+"
 script
 -
 diff
@@ -235,6 +283,8 @@ diff
 live2
 .
 json
+"
+"
 script
 -
 diff
@@ -244,6 +294,8 @@ live
 expected
 .
 txt
+"
+"
 script
 -
 diff
@@ -253,6 +305,8 @@ dark
 matter1
 .
 json
+"
+"
 script
 -
 diff
@@ -262,6 +316,8 @@ dark
 matter2
 .
 json
+"
+"
 script
 -
 diff
@@ -273,10 +329,14 @@ matter
 expected
 .
 txt
+"
+]
 [
+"
 test_dmd
 .
 js
+"
 ]
 dmd
 =
@@ -285,6 +345,8 @@ skip
 -
 if
 =
+[
+"
 !
 (
 os
@@ -316,3 +378,5 @@ win
 pgo
 )
 )
+"
+]

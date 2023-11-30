@@ -77,6 +77,6 @@ XPCSHELL_TESTS_MANIFESTS
 "
 xpcshell
 .
-ini
+toml
 "
 ]
