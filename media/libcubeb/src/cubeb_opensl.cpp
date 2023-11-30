@@ -10367,7 +10367,9 @@ output_latency_ms
 /
 1000
 ;
-return
+*
+latency
+=
 static_cast
 <
 int
@@ -10383,6 +10385,9 @@ stm
 resampler
 )
 )
+;
+return
+CUBEB_OK
 ;
 }
 int
