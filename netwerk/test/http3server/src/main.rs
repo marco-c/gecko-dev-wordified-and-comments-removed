@@ -7118,9 +7118,9 @@ new_timeout
 Duration
 :
 :
-from_secs
+from_millis
 (
-1
+500
 )
 ;
 }
