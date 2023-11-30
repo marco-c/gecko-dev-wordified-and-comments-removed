@@ -1654,6 +1654,8 @@ jit
 :
 IonFreeTask
 >
+&
+&
 task
 const
 AutoLockHelperThreadState
