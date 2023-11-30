@@ -91,6 +91,7 @@ js
 const
 {
 getFormatStr
+getStr
 }
 =
 require
@@ -821,6 +822,16 @@ onChange
 this
 .
 onGridCheckboxClick
+title
+:
+getStr
+(
+"
+layout
+.
+toggleGridHighlighter
+"
+)
 }
 )
 Rep
