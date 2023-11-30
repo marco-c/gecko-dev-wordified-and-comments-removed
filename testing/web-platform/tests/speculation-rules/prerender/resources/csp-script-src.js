@@ -22,19 +22,6 @@ key
 )
 ;
 const
-rule_extras
-=
-{
-'
-target_hint
-'
-:
-getTargetHint
-(
-)
-}
-;
-const
 block
 =
 location
@@ -252,7 +239,6 @@ url
 toString
 (
 )
-rule_extras
 )
 ;
 nextValueFromServer
