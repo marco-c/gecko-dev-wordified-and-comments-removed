@@ -78,7 +78,9 @@ lib
 /
 ActivityStreamPrefs
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

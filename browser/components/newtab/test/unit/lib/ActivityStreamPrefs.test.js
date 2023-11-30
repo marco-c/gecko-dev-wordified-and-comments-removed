@@ -9,7 +9,9 @@ lib
 /
 ActivityStreamPrefs
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const

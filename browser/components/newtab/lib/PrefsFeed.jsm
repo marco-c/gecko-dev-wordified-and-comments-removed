@@ -43,7 +43,7 @@ Prefs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -58,7 +58,9 @@ lib
 /
 ActivityStreamPrefs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
