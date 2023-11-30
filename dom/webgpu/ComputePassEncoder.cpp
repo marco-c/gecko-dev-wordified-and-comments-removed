@@ -504,6 +504,9 @@ ComputePassEncoder
 :
 End
 (
+ErrorResult
+&
+aRv
 )
 {
 if
@@ -537,6 +540,7 @@ EndComputePass
 (
 *
 pass
+aRv
 )
 ;
 }

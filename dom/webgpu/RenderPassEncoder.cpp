@@ -1871,6 +1871,9 @@ RenderPassEncoder
 :
 End
 (
+ErrorResult
+&
+aRv
 )
 {
 if
@@ -1904,6 +1907,7 @@ EndRenderPass
 (
 *
 pass
+aRv
 )
 ;
 }
