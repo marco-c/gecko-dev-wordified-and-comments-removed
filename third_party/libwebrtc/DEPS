@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-80b83658851f73e29459dfc9110303f0f9237295
+4b024ef0b5c4c262bb6be8c073e70a288e73450e
 '
 #
 Fetch
@@ -435,7 +435,7 @@ chromium
 src
 /
 base
-0d5be5363ab6a0b844869727d35452c68cb776c8
+0a8c04c3f53d44bb06bc7b523f733b3ea7e888de
 '
 '
 src
@@ -459,7 +459,7 @@ chromium
 src
 /
 build
-265775b08f3e1ec0d9f84fcf8f98e58660687ba5
+e9f9f56b0dee9032936d23c81c8246ae0ffe36bd
 '
 '
 src
@@ -579,7 +579,7 @@ chromium
 src
 /
 ios
-dd905d9768ec8273fa8182f74c7561d611220e60
+ddb9c93802b7ba2ab3766f932ca4a55ff24457fc
 '
 '
 condition
@@ -611,7 +611,7 @@ chromium
 src
 /
 testing
-a3c4634ec70246a508db24e9ec9699b18d2c0468
+be1a5077d7a29eb23f49940206d2e76a932032a3
 '
 '
 src
@@ -635,7 +635,7 @@ chromium
 src
 /
 third_party
-767aa06a0ed474f9762e6f3fb5c2ff05829b48df
+c6d7f3b75f0985ce7d4b114e7d24dd7fc8013284
 '
 '
 src
@@ -1040,7 +1040,7 @@ project
 libcxxabi
 .
 git
-4c1ff086981105180c3832904f56e2b51c36aa02
+6a8358a1423aa37f33d87b300b634c067b2741c1
 '
 '
 src
@@ -1424,7 +1424,7 @@ com
 catapult
 .
 git
-8bcfe7164c308311d5dad7433e752fa89677421f
+2c0142037db492e8d65a8ba89665553a0cc1a184
 '
 '
 src
@@ -1601,7 +1601,7 @@ tools
 depot_tools
 .
 git
-07289ce9416e01b0682696a698282cb22ce6d486
+978f43dd52c498224e72f806fbf47b25edf249d5
 '
 '
 src
@@ -1790,7 +1790,7 @@ third_party
 freetype2
 .
 git
-a20de84e1608f9eb1d0391d7322b2e0e0f235aba
+a9793feacefac6d44b761bed12566029f5811063
 '
 '
 src
@@ -2546,7 +2546,7 @@ com
 aom
 .
 git
-0716dc8e2d9698c112b17ace4eaa02c8cb399868
+ca708d66b6bc06e6643da78a3ba1f73b06529be0
 '
 '
 src
@@ -2617,7 +2617,7 @@ external
 perfetto
 .
 git
-029945afde0d4e9781174b207f248922c66d8213
+41e25ff82a1250a373ee0f981860607eb250d78c
 '
 '
 src
@@ -2863,13 +2863,7 @@ version
 '
 :
 '
-_xu0hxSo_cEnMJPA
--
-S
--
-noLhx1IRAhNKER0h_icp
--
-hSYC
+tDdXJHu3mdHCZRM7rVC6e0OajNZJy8FGLqu9ItFtnUwC
 '
 }
 ]
@@ -3045,7 +3039,7 @@ chromium
 src
 /
 tools
-81ab8780f309a9dd24c135fc6d5e8852877a9155
+f5f4d48512b4242425edcc0059355fc7f2548ed1
 '
 '
 src
@@ -3396,7 +3390,7 @@ version
 '
 :
 '
-65tEj77ONRpxW_6QA0rYm8nEEupr5COOwasM14Jln5YC
+YtxST43XGbOdsTrMQ9G2B1PyDBR9phkvg90LUOWcRTUC
 '
 }
 ]
