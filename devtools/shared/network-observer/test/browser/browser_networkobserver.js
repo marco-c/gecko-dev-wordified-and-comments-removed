@@ -81,7 +81,7 @@ content
 .
 wrappedJSObject
 .
-sendRequest
+fetch
 (
 _url
 )
@@ -182,7 +182,7 @@ content
 .
 wrappedJSObject
 .
-sendRequest
+fetch
 (
 _url
 )
@@ -315,7 +315,7 @@ content
 .
 wrappedJSObject
 .
-sendRequest
+fetch
 (
 _url
 )

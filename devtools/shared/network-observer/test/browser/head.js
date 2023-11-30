@@ -271,6 +271,8 @@ function
 waitForNetworkEvents
 (
 expectedUrl
+=
+null
 expectedRequestsCount
 )
 {
@@ -292,6 +294,8 @@ ignoreChannelFunction
 channel
 =
 >
+expectedUrl
+?
 channel
 .
 URI
@@ -301,6 +305,8 @@ spec
 =
 =
 expectedUrl
+:
+false
 onNetworkEvent
 :
 (
