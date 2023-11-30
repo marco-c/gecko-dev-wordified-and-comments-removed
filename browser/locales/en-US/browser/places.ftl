@@ -395,7 +395,7 @@ Search
 bookmarks
 places
 -
-delete
+forget
 -
 domain
 -
