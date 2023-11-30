@@ -128,6 +128,26 @@ json
     
 ]
     
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+    
+env
+.
+pop
+(
+"
+MOZ_AUTOMATION
+"
+None
+)
+    
 subprocess
 .
 run
@@ -136,6 +156,9 @@ cmd
 cwd
 =
 GECKO
+env
+=
+env
 )
     
 assert
