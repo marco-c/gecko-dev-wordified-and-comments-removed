@@ -676,7 +676,7 @@ async
 def
 test_cached_revalidate
 (
-     
+    
 wait_for_event
 wait_for_future_safe
 url

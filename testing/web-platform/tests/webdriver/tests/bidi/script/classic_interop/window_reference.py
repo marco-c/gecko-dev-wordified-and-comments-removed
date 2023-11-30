@@ -142,7 +142,6 @@ evaluate
         
 expression
 =
-f
 "
 window
 .
@@ -311,7 +310,6 @@ evaluate
         
 expression
 =
-f
 "
 window
 .

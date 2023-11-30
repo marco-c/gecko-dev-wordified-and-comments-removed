@@ -300,7 +300,6 @@ await_promise
     
 function_declaration
 =
-f
 "
 (
 )
@@ -477,7 +476,6 @@ children
     
 function_declaration
 =
-f
 "
 (
 )
@@ -653,7 +651,6 @@ children
     
 function_declaration
 =
-f
 "
 (
 )
@@ -862,7 +859,6 @@ domain
     
 function_declaration
 =
-f
 "
 (
 )

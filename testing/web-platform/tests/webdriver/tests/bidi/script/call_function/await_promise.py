@@ -1,6 +1,12 @@
 import
 pytest
 from
+.
+.
+.
+import
+recursive_compare
+from
 webdriver
 .
 bidi
@@ -10,13 +16,6 @@ modules
 script
 import
 ContextTarget
-ScriptEvaluateResultException
-from
-.
-.
-.
-import
-recursive_compare
 pytest
 .
 mark

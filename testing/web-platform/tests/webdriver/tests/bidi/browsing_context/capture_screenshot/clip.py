@@ -36,8 +36,6 @@ import
     
 get_element_coordinates
     
-get_page_y_offset
-    
 get_physical_element_dimensions
     
 get_reference_screenshot
@@ -1135,7 +1133,6 @@ False
         
 function_declaration
 =
-f
 "
 "
 "

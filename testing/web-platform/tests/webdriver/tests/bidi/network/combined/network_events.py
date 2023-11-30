@@ -588,7 +588,6 @@ request
 request
 "
 ]
-        
 =
 =
 response_started_events
@@ -625,7 +624,6 @@ request
 request
 "
 ]
-        
 =
 =
 response_completed_events

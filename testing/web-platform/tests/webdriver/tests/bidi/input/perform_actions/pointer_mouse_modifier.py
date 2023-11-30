@@ -144,8 +144,6 @@ Actions
 (
 )
     
-key_sources
-=
 (
         
 actions
@@ -184,8 +182,6 @@ modifier
     
 )
     
-mouse_sources
-=
 (
         
 actions
@@ -560,8 +556,6 @@ Actions
 (
 )
     
-key_sources
-=
 actions
 .
 add_key
@@ -582,8 +576,6 @@ Keys
 CONTROL
 )
     
-mouse_sources
-=
 (
         
 actions
@@ -841,8 +833,6 @@ Actions
 (
 )
     
-key_sources
-=
 (
         
 actions
@@ -901,8 +891,6 @@ SHIFT
     
 )
     
-mouse_sources
-=
 (
         
 actions
@@ -1272,8 +1260,6 @@ Actions
 (
 )
     
-key_sources
-=
 (
         
 actions
@@ -1320,8 +1306,6 @@ modifier
     
 )
     
-mouse_sources
-=
 (
         
 actions

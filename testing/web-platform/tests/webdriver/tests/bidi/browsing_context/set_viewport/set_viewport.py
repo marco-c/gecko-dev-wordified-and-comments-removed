@@ -247,7 +247,7 @@ browsing_context
 .
 set_viewport
 (
-      
+        
 context
 =
 new_tab
@@ -256,10 +256,11 @@ new_tab
 context
 "
 ]
-      
+        
 viewport
 =
 test_viewport
+    
 )
     
 assert
@@ -280,7 +281,7 @@ browsing_context
 .
 set_viewport
 (
-      
+        
 context
 =
 new_tab
@@ -289,10 +290,11 @@ new_tab
 context
 "
 ]
-      
+        
 viewport
 =
 None
+    
 )
     
 assert
@@ -362,7 +364,7 @@ browsing_context
 .
 set_viewport
 (
-      
+        
 context
 =
 new_tab
@@ -371,10 +373,11 @@ new_tab
 context
 "
 ]
-      
+        
 viewport
 =
 test_viewport
+    
 )
     
 assert

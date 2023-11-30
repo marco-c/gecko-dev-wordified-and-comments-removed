@@ -3,14 +3,6 @@ asyncio
 import
 pytest
 from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
-from
 .
 .
 import

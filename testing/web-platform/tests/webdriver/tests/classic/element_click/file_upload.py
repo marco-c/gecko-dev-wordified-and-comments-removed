@@ -6,7 +6,6 @@ support
 asserts
 import
 assert_error
-assert_success
 def
 element_click
 (
