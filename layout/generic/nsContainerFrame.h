@@ -1527,12 +1527,8 @@ list
 ;
 MOZ_ASSERT
 (
-IsFrameOfType
+CanContainOverflowContainers
 (
-nsIFrame
-:
-:
-eCanContainOverflowContainers
 )
 "
 This
@@ -1633,12 +1629,8 @@ list
 ;
 MOZ_ASSERT
 (
-IsFrameOfType
+CanContainOverflowContainers
 (
-nsIFrame
-:
-:
-eCanContainOverflowContainers
 )
 "
 This

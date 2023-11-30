@@ -1,18 +1,3 @@
-LEAF
-=
-"
-Leaf
-"
-NOT_LEAF
-=
-"
-NotLeaf
-"
-DYNAMIC_LEAF
-=
-"
-DynamicLeaf
-"
 class
 FrameClass
 :
@@ -43,7 +28,7 @@ __init__
 self
 cls
 ty
-leafness
+flags
 )
 :
         
@@ -63,9 +48,9 @@ ty
         
 self
 .
-leafness
+flags
 =
-leafness
+flags
         
 self
 .

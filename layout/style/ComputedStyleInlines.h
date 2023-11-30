@@ -528,12 +528,8 @@ IsFixedPosContainingBlockForContainLayoutAndPaintSupportingFrames
 aContextFrame
 -
 >
-IsFrameOfType
+SupportsContainLayoutAndPaint
 (
-nsIFrame
-:
-:
-eSupportsContainLayoutAndPaint
 )
 )
 {
@@ -553,12 +549,8 @@ IsFixedPosContainingBlockForTransformSupportingFrames
 aContextFrame
 -
 >
-IsFrameOfType
+SupportsCSSTransforms
 (
-nsIFrame
-:
-:
-eSupportsCSSTransforms
 )
 )
 {

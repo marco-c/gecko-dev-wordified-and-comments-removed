@@ -1710,12 +1710,8 @@ mLineContainer
 mLineContainer
 -
 >
-IsFrameOfType
+IsLineParticipant
 (
-nsIFrame
-:
-:
-eLineParticipant
 )
 )
 {

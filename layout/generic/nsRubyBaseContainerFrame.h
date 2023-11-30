@@ -59,16 +59,6 @@ nsRubyBaseContainerFrame
 NS_DECL_QUERYFRAME
 virtual
 bool
-IsFrameOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
-virtual
-bool
 CanContinueTextRun
 (
 )

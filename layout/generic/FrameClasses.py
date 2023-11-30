@@ -1,11 +1,177 @@
 from
 FrameClass
 import
-DYNAMIC_LEAF
-LEAF
-NOT_LEAF
 AbstractFrame
 Frame
+COMMON
+=
+{
+"
+SupportsCSSTransforms
+"
+"
+SupportsContainLayoutAndPaint
+"
+"
+SupportsAspectRatio
+"
+}
+LEAF
+=
+{
+"
+Leaf
+"
+}
+MATHML
+=
+{
+"
+MathML
+"
+}
+SVG
+=
+{
+"
+SVG
+"
+}
+BLOCK
+=
+COMMON
+|
+{
+"
+CanContainOverflowContainers
+"
+}
+REPLACED
+=
+COMMON
+|
+{
+"
+Replaced
+"
+}
+REPLACED_SIZING
+=
+REPLACED
+|
+{
+"
+ReplacedSizing
+"
+}
+REPLACED_WITH_BLOCK
+=
+REPLACED
+|
+{
+"
+ReplacedContainsBlock
+"
+}
+REPLACED_SIZING_WITH_BLOCK
+=
+REPLACED_SIZING
+|
+REPLACED_WITH_BLOCK
+TABLE
+=
+COMMON
+-
+{
+"
+SupportsCSSTransforms
+"
+}
+TABLE_PART
+=
+{
+"
+SupportsCSSTransforms
+"
+"
+TablePart
+"
+}
+TABLE_CELL
+=
+TABLE_PART
+|
+{
+"
+SupportsContainLayoutAndPaint
+"
+}
+MATHML_CONTAINER
+=
+(
+COMMON
+-
+{
+"
+SupportsContainLayoutAndPaint
+"
+}
+)
+|
+MATHML
+SVG_CONTENT
+=
+(
+COMMON
+-
+{
+"
+SupportsContainLayoutAndPaint
+"
+}
+)
+|
+SVG
+SVG_CONTAINER
+=
+SVG_CONTENT
+|
+{
+"
+SVGContainer
+"
+}
+INLINE
+=
+{
+"
+BidiInlineContainer
+"
+"
+LineParticipant
+"
+}
+RUBY_CONTENT
+=
+{
+"
+LineParticipant
+"
+}
+TEXT
+=
+COMMON
+|
+{
+"
+Replaced
+"
+"
+LineParticipant
+"
+}
+|
+LEAF
 FRAME_CLASSES
 =
 [
@@ -18,7 +184,15 @@ BRFrame
 "
 Br
 "
+REPLACED
+|
 LEAF
+|
+{
+"
+LineParticipant
+"
+}
 )
     
 Frame
@@ -29,7 +203,7 @@ nsBCTableCellFrame
 "
 TableCell
 "
-NOT_LEAF
+TABLE_CELL
 )
     
 Frame
@@ -40,6 +214,8 @@ nsBackdropFrame
 "
 Backdrop
 "
+COMMON
+|
 LEAF
 )
     
@@ -51,7 +227,7 @@ nsBlockFrame
 "
 Block
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -62,7 +238,7 @@ nsCanvasFrame
 "
 Canvas
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -73,6 +249,8 @@ nsCheckboxRadioFrame
 "
 CheckboxRadio
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -84,6 +262,8 @@ nsColorControlFrame
 "
 ColorControl
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -95,7 +275,7 @@ nsColumnSetFrame
 "
 ColumnSet
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -106,7 +286,7 @@ ColumnSetWrapperFrame
 "
 ColumnSetWrapper
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -117,7 +297,9 @@ nsComboboxControlFrame
 "
 ComboboxControl
 "
-NOT_LEAF
+BLOCK
+|
+REPLACED_WITH_BLOCK
 )
     
 Frame
@@ -128,7 +310,13 @@ nsComboboxDisplayFrame
 "
 ComboboxDisplay
 "
-NOT_LEAF
+REPLACED_WITH_BLOCK
+-
+{
+"
+Replaced
+"
+}
 )
     
 Frame
@@ -139,7 +327,7 @@ nsContinuingTextFrame
 "
 Text
 "
-LEAF
+TEXT
 )
     
 Frame
@@ -150,7 +338,7 @@ nsDateTimeControlFrame
 "
 DateTimeControl
 "
-NOT_LEAF
+REPLACED_WITH_BLOCK
 )
     
 Frame
@@ -161,7 +349,7 @@ nsFieldSetFrame
 "
 FieldSet
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -172,6 +360,8 @@ nsFileControlFrame
 "
 Block
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -183,7 +373,9 @@ FileControlLabelFrame
 "
 Block
 "
-NOT_LEAF
+BLOCK
+|
+LEAF
 )
     
 Frame
@@ -194,7 +386,24 @@ nsFirstLetterFrame
 "
 Letter
 "
-NOT_LEAF
+INLINE
+)
+    
+Frame
+(
+"
+nsFloatingFirstLetterFrame
+"
+"
+Letter
+"
+INLINE
+-
+{
+"
+LineParticipant
+"
+}
 )
     
 Frame
@@ -205,7 +414,7 @@ nsFirstLineFrame
 "
 Line
 "
-NOT_LEAF
+INLINE
 )
     
 Frame
@@ -216,7 +425,7 @@ nsFlexContainerFrame
 "
 FlexContainer
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -227,7 +436,7 @@ nsIFrame
 "
 None
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -238,6 +447,8 @@ nsGfxButtonControlFrame
 "
 GfxButtonControl
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -249,7 +460,7 @@ nsGridContainerFrame
 "
 GridContainer
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -260,7 +471,7 @@ nsHTMLButtonControlFrame
 "
 HTMLButtonControl
 "
-NOT_LEAF
+REPLACED_WITH_BLOCK
 )
     
 Frame
@@ -271,7 +482,7 @@ nsHTMLCanvasFrame
 "
 HTMLCanvas
 "
-NOT_LEAF
+REPLACED_SIZING
 )
     
 Frame
@@ -282,6 +493,8 @@ nsHTMLFramesetBlankFrame
 "
 None
 "
+COMMON
+|
 LEAF
 )
     
@@ -293,6 +506,8 @@ nsHTMLFramesetBorderFrame
 "
 None
 "
+COMMON
+|
 LEAF
 )
     
@@ -304,6 +519,8 @@ nsHTMLFramesetFrame
 "
 FrameSet
 "
+COMMON
+|
 LEAF
 )
     
@@ -315,7 +532,7 @@ nsHTMLScrollFrame
 "
 Scroll
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -326,6 +543,8 @@ nsImageControlFrame
 "
 ImageControl
 "
+REPLACED_SIZING
+|
 LEAF
 )
     
@@ -337,7 +556,13 @@ nsImageFrame
 "
 Image
 "
-DYNAMIC_LEAF
+REPLACED_SIZING
+|
+{
+"
+LeafDynamic
+"
+}
 )
     
 Frame
@@ -348,7 +573,7 @@ nsInlineFrame
 "
 Inline
 "
-NOT_LEAF
+INLINE
 )
     
 Frame
@@ -359,29 +584,7 @@ nsListControlFrame
 "
 ListControl
 "
-NOT_LEAF
-)
-    
-Frame
-(
-"
-nsMathMLFrame
-"
-"
-None
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
-nsMathMLmactionFrame
-"
-"
-None
-"
-NOT_LEAF
+REPLACED_WITH_BLOCK
 )
     
 Frame
@@ -392,7 +595,9 @@ nsMathMLmathBlockFrame
 "
 Block
 "
-NOT_LEAF
+BLOCK
+|
+MATHML
 )
     
 Frame
@@ -403,7 +608,9 @@ nsMathMLmathInlineFrame
 "
 Inline
 "
-NOT_LEAF
+INLINE
+|
+MATHML
 )
     
 Frame
@@ -414,7 +621,7 @@ nsMathMLmencloseFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -425,7 +632,7 @@ nsMathMLmfracFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -436,7 +643,7 @@ nsMathMLmmultiscriptsFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -447,7 +654,7 @@ nsMathMLmoFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -458,7 +665,7 @@ nsMathMLmpaddedFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -469,7 +676,7 @@ nsMathMLmrootFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -480,7 +687,7 @@ nsMathMLmrowFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -491,6 +698,8 @@ nsMathMLmspaceFrame
 "
 None
 "
+MATHML_CONTAINER
+|
 LEAF
 )
     
@@ -502,7 +711,7 @@ nsMathMLmsqrtFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -513,7 +722,9 @@ nsMathMLmtableFrame
 "
 Table
 "
-NOT_LEAF
+TABLE
+|
+MATHML
 )
     
 Frame
@@ -524,7 +735,9 @@ nsMathMLmtableWrapperFrame
 "
 TableWrapper
 "
-NOT_LEAF
+BLOCK
+|
+MATHML
 )
     
 Frame
@@ -535,7 +748,9 @@ nsMathMLmtdFrame
 "
 TableCell
 "
-NOT_LEAF
+TABLE_CELL
+|
+MATHML
 )
     
 Frame
@@ -546,7 +761,9 @@ nsMathMLmtdInnerFrame
 "
 Block
 "
-NOT_LEAF
+BLOCK
+|
+MATHML
 )
     
 Frame
@@ -557,7 +774,9 @@ nsMathMLmtrFrame
 "
 TableRow
 "
-NOT_LEAF
+TABLE_PART
+|
+MATHML
 )
     
 Frame
@@ -568,18 +787,7 @@ nsMathMLmunderoverFrame
 "
 None
 "
-NOT_LEAF
-)
-    
-Frame
-(
-"
-nsMathMLsemanticsFrame
-"
-"
-None
-"
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -590,7 +798,7 @@ nsMathMLTokenFrame
 "
 None
 "
-NOT_LEAF
+MATHML_CONTAINER
 )
     
 Frame
@@ -601,7 +809,7 @@ nsMenuPopupFrame
 "
 MenuPopup
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -612,6 +820,8 @@ nsMeterFrame
 "
 Meter
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -623,6 +833,8 @@ nsNumberControlFrame
 "
 TextInput
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -634,6 +846,8 @@ nsPageBreakFrame
 "
 PageBreak
 "
+COMMON
+|
 LEAF
 )
     
@@ -645,7 +859,7 @@ nsPageContentFrame
 "
 PageContent
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -656,7 +870,7 @@ nsPageFrame
 "
 Page
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -667,6 +881,8 @@ nsPlaceholderFrame
 "
 Placeholder
 "
+COMMON
+|
 LEAF
 )
     
@@ -678,6 +894,8 @@ nsProgressFrame
 "
 Progress
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -689,6 +907,8 @@ nsRangeFrame
 "
 Range
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -700,7 +920,7 @@ nsRubyBaseContainerFrame
 "
 RubyBaseContainer
 "
-NOT_LEAF
+RUBY_CONTENT
 )
     
 Frame
@@ -711,7 +931,7 @@ nsRubyBaseFrame
 "
 RubyBase
 "
-NOT_LEAF
+RUBY_CONTENT
 )
     
 Frame
@@ -722,7 +942,7 @@ nsRubyFrame
 "
 Ruby
 "
-NOT_LEAF
+RUBY_CONTENT
 )
     
 Frame
@@ -733,7 +953,11 @@ nsRubyTextContainerFrame
 "
 RubyTextContainer
 "
-NOT_LEAF
+{
+"
+None
+"
+}
 )
     
 Frame
@@ -744,7 +968,7 @@ nsRubyTextFrame
 "
 RubyText
 "
-NOT_LEAF
+RUBY_CONTENT
 )
     
 Frame
@@ -755,6 +979,8 @@ SimpleXULLeafFrame
 "
 SimpleXULLeaf
 "
+COMMON
+|
 LEAF
 )
     
@@ -766,6 +992,8 @@ nsScrollbarButtonFrame
 "
 SimpleXULLeaf
 "
+COMMON
+|
 LEAF
 )
     
@@ -777,7 +1005,7 @@ nsScrollbarFrame
 "
 Scrollbar
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -799,7 +1027,7 @@ nsSelectsAreaFrame
 "
 Block
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -810,7 +1038,7 @@ nsPageSequenceFrame
 "
 PageSequence
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -821,7 +1049,7 @@ nsSliderFrame
 "
 Slider
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -832,7 +1060,9 @@ nsSplitterFrame
 "
 SimpleXULLeaf
 "
-NOT_LEAF
+COMMON
+|
+LEAF
 )
     
 Frame
@@ -843,6 +1073,8 @@ nsSubDocumentFrame
 "
 SubDocument
 "
+REPLACED_SIZING_WITH_BLOCK
+|
 LEAF
 )
     
@@ -854,7 +1086,7 @@ PrintedSheetFrame
 "
 PrintedSheet
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -865,7 +1097,7 @@ SVGAFrame
 "
 SVGA
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -876,7 +1108,7 @@ SVGClipPathFrame
 "
 SVGClipPath
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -887,7 +1119,7 @@ SVGContainerFrame
 "
 None
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -898,7 +1130,7 @@ SVGFEContainerFrame
 "
 SVGFEContainer
 "
-NOT_LEAF
+SVG_CONTENT
 )
     
 Frame
@@ -909,6 +1141,8 @@ SVGFEImageFrame
 "
 SVGFEImage
 "
+SVG_CONTENT
+|
 LEAF
 )
     
@@ -920,6 +1154,8 @@ SVGFELeafFrame
 "
 SVGFELeaf
 "
+SVG_CONTENT
+|
 LEAF
 )
     
@@ -931,6 +1167,8 @@ SVGFEUnstyledLeafFrame
 "
 SVGFEUnstyledLeaf
 "
+SVG_CONTENT
+|
 LEAF
 )
     
@@ -942,7 +1180,7 @@ SVGFilterFrame
 "
 SVGFilter
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -953,18 +1191,7 @@ SVGForeignObjectFrame
 "
 SVGForeignObject
 "
-NOT_LEAF
-)
-    
-Frame
-(
-"
-SVGGenericContainerFrame
-"
-"
-SVGGenericContainer
-"
-NOT_LEAF
+SVG_CONTENT
 )
     
 Frame
@@ -975,6 +1202,8 @@ SVGGeometryFrame
 "
 SVGGeometry
 "
+SVG_CONTENT
+|
 LEAF
 )
     
@@ -986,7 +1215,7 @@ SVGGFrame
 "
 SVGG
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -997,6 +1226,8 @@ SVGImageFrame
 "
 SVGImage
 "
+SVG_CONTENT
+|
 LEAF
 )
     
@@ -1008,7 +1239,7 @@ SVGInnerSVGFrame
 "
 SVGInnerSVG
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1019,7 +1250,7 @@ SVGLinearGradientFrame
 "
 SVGLinearGradient
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1030,7 +1261,7 @@ SVGMarkerFrame
 "
 SVGMarker
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1041,7 +1272,7 @@ SVGMarkerAnonChildFrame
 "
 SVGMarkerAnonChild
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1052,7 +1283,7 @@ SVGMaskFrame
 "
 SVGMask
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1063,7 +1294,19 @@ SVGOuterSVGFrame
 "
 SVGOuterSVG
 "
-NOT_LEAF
+SVG_CONTAINER
+|
+{
+"
+Replaced
+"
+"
+ReplacedSizing
+"
+"
+SupportsContainLayoutAndPaint
+"
+}
 )
     
 Frame
@@ -1074,7 +1317,7 @@ SVGOuterSVGAnonChildFrame
 "
 SVGOuterSVGAnonChild
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1085,7 +1328,7 @@ SVGPatternFrame
 "
 SVGPattern
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1096,7 +1339,7 @@ SVGRadialGradientFrame
 "
 SVGRadialGradient
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1107,6 +1350,8 @@ SVGStopFrame
 "
 SVGStop
 "
+SVG_CONTENT
+|
 LEAF
 )
     
@@ -1118,7 +1363,7 @@ SVGSwitchFrame
 "
 SVGSwitch
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1129,7 +1374,7 @@ SVGSymbolFrame
 "
 SVGSymbol
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1140,7 +1385,7 @@ SVGTextFrame
 "
 SVGText
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1151,7 +1396,7 @@ SVGUseFrame
 "
 SVGUse
 "
-NOT_LEAF
+SVG_CONTAINER
 )
     
 Frame
@@ -1162,6 +1407,8 @@ MiddleCroppingLabelFrame
 "
 MiddleCroppingLabel
 "
+BLOCK
+|
 LEAF
 )
     
@@ -1173,6 +1420,8 @@ SVGViewFrame
 "
 SVGView
 "
+SVG_CONTENT
+|
 LEAF
 )
     
@@ -1184,7 +1433,7 @@ nsTableCellFrame
 "
 TableCell
 "
-NOT_LEAF
+TABLE_CELL
 )
     
 Frame
@@ -1195,7 +1444,7 @@ nsTableColFrame
 "
 TableCol
 "
-LEAF
+TABLE_PART
 )
     
 Frame
@@ -1206,7 +1455,7 @@ nsTableColGroupFrame
 "
 TableColGroup
 "
-NOT_LEAF
+TABLE_PART
 )
     
 Frame
@@ -1217,7 +1466,7 @@ nsTableFrame
 "
 Table
 "
-NOT_LEAF
+TABLE
 )
     
 Frame
@@ -1228,7 +1477,7 @@ nsTableWrapperFrame
 "
 TableWrapper
 "
-NOT_LEAF
+BLOCK
 )
     
 Frame
@@ -1239,7 +1488,7 @@ nsTableRowFrame
 "
 TableRow
 "
-NOT_LEAF
+TABLE_PART
 )
     
 Frame
@@ -1250,7 +1499,7 @@ nsTableRowGroupFrame
 "
 TableRowGroup
 "
-NOT_LEAF
+TABLE_PART
 )
     
 Frame
@@ -1261,6 +1510,8 @@ nsTextControlFrame
 "
 TextInput
 "
+REPLACED_WITH_BLOCK
+|
 LEAF
 )
     
@@ -1272,7 +1523,7 @@ nsTextFrame
 "
 Text
 "
-LEAF
+TEXT
 )
     
 Frame
@@ -1283,6 +1534,8 @@ nsTreeBodyFrame
 "
 SimpleXULLeaf
 "
+COMMON
+|
 LEAF
 )
     
@@ -1294,7 +1547,24 @@ nsVideoFrame
 "
 HTMLVideo
 "
-NOT_LEAF
+REPLACED_SIZING
+)
+    
+Frame
+(
+"
+nsAudioFrame
+"
+"
+HTMLVideo
+"
+REPLACED_SIZING
+-
+{
+"
+SupportsAspectRatio
+"
+}
 )
     
 Frame
@@ -1305,7 +1575,7 @@ ViewportFrame
 "
 Viewport
 "
-NOT_LEAF
+COMMON
 )
     
 Frame
@@ -1316,6 +1586,8 @@ WBRFrame
 "
 Wbr
 "
+COMMON
+|
 LEAF
 )
     
@@ -1337,6 +1609,13 @@ AbstractFrame
 (
 "
 nsLeafFrame
+"
+)
+    
+AbstractFrame
+(
+"
+nsMathMLFrame
 "
 )
     

@@ -4767,12 +4767,8 @@ aChildRI
 mFrame
 -
 >
-IsFrameOfType
+IsReplaced
 (
-nsIFrame
-:
-:
-eReplaced
 )
 ?
 StyleAlignFlags
@@ -5893,12 +5889,8 @@ Frame
 )
 -
 >
-IsFrameOfType
+IsReplaced
 (
-nsIFrame
-:
-:
-eReplaced
 )
 &
 &

@@ -474,12 +474,8 @@ HasTransformStyle
 aContextFrame
 -
 >
-IsFrameOfType
+SupportsCSSTransforms
 (
-nsIFrame
-:
-:
-eSupportsCSSTransforms
 )
 ;
 }
@@ -522,12 +518,8 @@ HasPerspectiveStyle
 aContextFrame
 -
 >
-IsFrameOfType
+SupportsCSSTransforms
 (
-nsIFrame
-:
-:
-eSupportsCSSTransforms
 )
 ;
 }

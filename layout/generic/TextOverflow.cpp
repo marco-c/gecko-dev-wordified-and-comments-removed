@@ -413,12 +413,8 @@ return
 aFrame
 -
 >
-IsFrameOfType
+IsLineParticipant
 (
-nsIFrame
-:
-:
-eLineParticipant
 )
 ;
 }

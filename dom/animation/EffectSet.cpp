@@ -242,12 +242,8 @@ if
 aFrame
 -
 >
-IsFrameOfType
+SupportsCSSTransforms
 (
-nsIFrame
-:
-:
-eSupportsCSSTransforms
 )
 )
 {

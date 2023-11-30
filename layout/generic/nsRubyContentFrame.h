@@ -23,16 +23,6 @@ NS_DECL_ABSTRACT_FRAME
 (
 nsRubyContentFrame
 )
-virtual
-bool
-IsFrameOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
 bool
 IsIntraLevelWhitespace
 (
