@@ -170,7 +170,6 @@ PerformanceEntry
 mPerformance
 mURI
 mElement
-mLCPImageEntryKey
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (

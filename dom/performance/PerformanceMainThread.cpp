@@ -374,15 +374,6 @@ Clear
 (
 )
 ;
-tmp
--
->
-mImagesPendingRendering
-.
-Clear
-(
-)
-;
 mozilla
 :
 :
@@ -409,7 +400,6 @@ mFirstInputEvent
 mPendingPointerDown
 mPendingEventTimingEntries
 mEventCounts
-mImagesPendingRendering
 mImageLCPEntryMap
 mTextFrameUnions
 )
