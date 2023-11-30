@@ -822,6 +822,10 @@ sets
 -
 browsertime
 -
+talos
+-
+profiling
+-
 windows
 -
 talos
@@ -1287,6 +1291,10 @@ test
 -
 sets
 :
+-
+talos
+-
+profiling
 -
 windows
 -
