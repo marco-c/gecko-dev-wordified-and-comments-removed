@@ -28,7 +28,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 TEST_DIRS

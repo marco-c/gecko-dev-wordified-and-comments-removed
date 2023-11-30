@@ -1329,7 +1329,7 @@ tests
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 if

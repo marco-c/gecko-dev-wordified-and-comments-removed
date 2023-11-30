@@ -248,7 +248,7 @@ tests
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 include

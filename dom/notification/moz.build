@@ -137,7 +137,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

@@ -2,7 +2,9 @@
 DEFAULT
 ]
 [
+"
 test_parser
 .
 js
+"
 ]

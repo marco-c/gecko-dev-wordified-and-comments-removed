@@ -41,7 +41,7 @@ caching
 /
 xpcshell
 .
-ini
+toml
 "
 "
 xpcshell
@@ -50,7 +50,7 @@ telemetry
 /
 xpcshell
 .
-ini
+toml
 "
 "
 xpcshell
@@ -59,14 +59,14 @@ upgrades
 /
 xpcshell
 .
-ini
+toml
 "
 "
 xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 TEST_HARNESS_FILES

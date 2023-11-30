@@ -189,7 +189,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 include
