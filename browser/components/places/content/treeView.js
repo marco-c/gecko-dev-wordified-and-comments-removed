@@ -1804,7 +1804,6 @@ _getNewRowForRemovedNode
 function
 PTV__getNewRowForRemovedNode
 (
-aUpdatedContainer
 aOldNode
 )
 {
@@ -1904,7 +1903,6 @@ function
 PTV__restoreSelection
 (
 aNodesInfo
-aUpdatedContainer
 )
 {
 if
@@ -1964,7 +1962,6 @@ this
 .
 _getNewRowForRemovedNode
 (
-aUpdatedContainer
 nodeInfo
 .
 node
@@ -3655,7 +3652,6 @@ this
 _restoreSelection
 (
 nodesToReselect
-aNewParent
 )
 ;
 this
@@ -4680,7 +4676,6 @@ this
 _restoreSelection
 (
 nodesToReselect
-aContainer
 )
 ;
 this
