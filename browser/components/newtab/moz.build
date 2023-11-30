@@ -301,7 +301,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES

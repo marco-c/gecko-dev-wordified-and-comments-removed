@@ -650,7 +650,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 "
 tests
@@ -659,7 +659,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 SPHINX_TREES

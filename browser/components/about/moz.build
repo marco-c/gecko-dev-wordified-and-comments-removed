@@ -42,7 +42,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 SOURCES
