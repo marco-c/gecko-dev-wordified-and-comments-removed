@@ -23,6 +23,9 @@ nsIChannel
 webidl
 BrowsingContext
 ;
+webidl
+WindowGlobalParent
+;
 [
 scriptable
 uuid
@@ -909,6 +912,14 @@ level
 in
 nsIAuthInformation
 authInfo
+)
+;
+Promise
+confirmUserPaste
+(
+in
+WindowGlobalParent
+aWindow
 )
 ;
 }

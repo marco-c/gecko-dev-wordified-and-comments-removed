@@ -7044,6 +7044,10 @@ nsCString
 aTypes
 int32_t
 aWhichClipboard
+MaybeDiscardedWindowContext
+aRequestingWindowContext
+nsIPrincipal
+aRequestingPrincipal
 )
 returns
 (

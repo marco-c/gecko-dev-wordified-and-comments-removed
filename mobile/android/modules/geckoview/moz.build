@@ -73,6 +73,13 @@ sys
 mjs
 "
 "
+GeckoViewClipboardPermission
+.
+sys
+.
+mjs
+"
+"
 GeckoViewConsole
 .
 sys

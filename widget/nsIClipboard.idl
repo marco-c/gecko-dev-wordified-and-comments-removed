@@ -113,6 +113,9 @@ idl
 interface
 nsIArray
 ;
+webidl
+WindowContext
+;
 [
 scriptable
 builtinclass
@@ -1045,6 +1048,12 @@ aFlavorList
 in
 long
 aWhichClipboard
+in
+WindowContext
+aRequestingWindowContext
+in
+nsIPrincipal
+aRequestingPrincipal
 in
 nsIAsyncClipboardGetCallback
 aCallback

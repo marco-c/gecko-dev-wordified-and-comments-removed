@@ -105,6 +105,13 @@ Bug
 ]
 [
 "
+browser_test_clipboard_contextmenu
+.
+js
+"
+]
+[
+"
 browser_test_fullscreen_size
 .
 js

@@ -243,6 +243,16 @@ html
 "
 ]
 type
+null
+SpecialPowers
+.
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 {
 QueryInterface
 :
