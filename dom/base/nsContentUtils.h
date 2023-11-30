@@ -3111,7 +3111,7 @@ aLineNumber
 uint32_t
 aColumnNumber
 =
-0
+1
 MissingErrorLocationMode
 aLocationMode
 =

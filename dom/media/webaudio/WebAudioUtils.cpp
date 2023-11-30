@@ -440,7 +440,7 @@ aLineNumber
 0
 aColumnNumber
 =
-0
+1
 ;
 JSContext
 *

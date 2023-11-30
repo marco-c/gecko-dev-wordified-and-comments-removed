@@ -1086,7 +1086,7 @@ lineNumber
 uint32_t
 columnNumber
 =
-0
+1
 ;
 nsAutoString
 spec
@@ -1121,11 +1121,6 @@ columnNumber
 )
 ;
 }
-columnNumber
-+
-=
-1
-;
 AsyncReportViolation
 (
 aTriggeringElement
@@ -2738,14 +2733,6 @@ columnNumber
 aColumnNumber
 ;
 }
-else
-{
-columnNumber
-+
-=
-1
-;
-}
 AsyncReportViolation
 (
 aTriggeringElement
@@ -3368,7 +3355,7 @@ lineNumber
 uint32_t
 columnNumber
 =
-0
+1
 ;
 nsAutoCString
 spec
@@ -3403,11 +3390,6 @@ columnNumber
 )
 ;
 }
-columnNumber
-+
-=
-1
-;
 nsresult
 rv
 =

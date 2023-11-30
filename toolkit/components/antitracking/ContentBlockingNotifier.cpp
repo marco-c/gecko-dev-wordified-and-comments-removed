@@ -332,7 +332,7 @@ lineNumber
 0
 columnNumber
 =
-0
+1
 ;
 JSContext
 *
@@ -746,7 +746,7 @@ lineNumber
 0
 columnNumber
 =
-0
+1
 ;
 JSContext
 *
