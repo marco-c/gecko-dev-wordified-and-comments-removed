@@ -1858,7 +1858,7 @@ aContentHandler
 )
 ;
 nsresult
-NewContentViewerObj
+NewDocumentViewerObj
 (
 const
 nsACString

@@ -34622,7 +34622,7 @@ viewer
 nsresult
 rv
 =
-NewContentViewerObj
+NewDocumentViewerObj
 (
 aContentType
 aRequest
@@ -35622,7 +35622,7 @@ nsresult
 nsDocShell
 :
 :
-NewContentViewerObj
+NewDocumentViewerObj
 (
 const
 nsACString
