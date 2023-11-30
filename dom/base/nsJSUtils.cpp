@@ -329,7 +329,7 @@ aColumn
 =
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 ;
@@ -411,7 +411,7 @@ aColumn
 =
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 ;

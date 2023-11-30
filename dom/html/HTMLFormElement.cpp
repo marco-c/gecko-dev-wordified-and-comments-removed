@@ -7449,7 +7449,7 @@ u
 "
 _ns
 0
-1
+0
 nsIScriptError
 :
 :

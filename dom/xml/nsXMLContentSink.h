@@ -7,15 +7,6 @@ nsXMLContentSink_h__
 #
 include
 "
-js
-/
-ColumnNumber
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

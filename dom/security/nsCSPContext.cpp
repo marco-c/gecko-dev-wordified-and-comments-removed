@@ -1086,7 +1086,7 @@ lineNumber
 uint32_t
 columnNumber
 =
-1
+0
 ;
 nsAutoString
 spec
@@ -3355,7 +3355,7 @@ lineNumber
 uint32_t
 columnNumber
 =
-1
+0
 ;
 nsAutoCString
 spec
@@ -8005,7 +8005,7 @@ u
 "
 _ns
 0
-1
+0
 nsIScriptError
 :
 :

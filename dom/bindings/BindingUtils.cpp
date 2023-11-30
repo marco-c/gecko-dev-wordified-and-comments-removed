@@ -22217,7 +22217,7 @@ line
 uint32_t
 column
 =
-1
+0
 ;
 if
 (

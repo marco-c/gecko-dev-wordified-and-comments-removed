@@ -18848,7 +18848,7 @@ column
 (
 )
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )
@@ -19629,7 +19629,7 @@ notes
 lineno
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 offset
@@ -19814,7 +19814,7 @@ u
 lineno
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )
@@ -19873,7 +19873,7 @@ u
 "
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )
@@ -20731,7 +20731,7 @@ column
 (
 )
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )

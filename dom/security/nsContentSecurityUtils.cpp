@@ -3537,7 +3537,7 @@ lineNumber
 0
 columnNumber
 =
-1
+0
 ;
 nsJSUtils
 :
@@ -5707,7 +5707,7 @@ u
 "
 _ns
 0
-1
+0
 nsIScriptError
 :
 :

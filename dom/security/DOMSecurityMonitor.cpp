@@ -136,7 +136,7 @@ lineNum
 uint32_t
 columnNum
 =
-1
+0
 ;
 JSContext
 *

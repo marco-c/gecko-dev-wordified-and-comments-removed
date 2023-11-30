@@ -111,8 +111,6 @@ startColumn
 script
 .
 sourceStart
-+
-1
 )
 ;
 }

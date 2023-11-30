@@ -907,7 +907,7 @@ this
 doc
 aMaybeScriptedPrincipal
 0
-1
+0
 aValue
 nullptr
 )

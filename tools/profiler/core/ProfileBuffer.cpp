@@ -1170,7 +1170,7 @@ Some
 (
 col
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )

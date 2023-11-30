@@ -1647,7 +1647,7 @@ loc
 start
 .
 column
-1
+0
 )
 ;
 assertEq
@@ -1667,7 +1667,7 @@ loc
 end
 .
 column
-27
+26
 )
 ;
 assertThrowsInstanceOf

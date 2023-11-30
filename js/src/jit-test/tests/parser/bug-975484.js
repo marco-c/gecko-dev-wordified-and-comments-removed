@@ -28,7 +28,7 @@ loc
 start
 .
 column
-1
+0
 )
 ;
 assertEq
@@ -38,7 +38,7 @@ loc
 end
 .
 column
-4
+3
 )
 ;
 loc
@@ -71,7 +71,7 @@ loc
 start
 .
 column
-1
+0
 )
 ;
 assertEq
@@ -81,6 +81,6 @@ loc
 end
 .
 column
-5
+4
 )
 ;

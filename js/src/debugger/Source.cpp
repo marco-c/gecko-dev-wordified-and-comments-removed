@@ -2069,7 +2069,7 @@ setNumber
 (
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )

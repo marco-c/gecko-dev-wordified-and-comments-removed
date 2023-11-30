@@ -742,7 +742,7 @@ NS_ConvertASCIItoUTF16
 aJavaScriptURL
 )
 0
-1
+0
 &
 allowsInlineScript
 )

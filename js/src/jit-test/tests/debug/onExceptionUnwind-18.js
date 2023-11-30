@@ -131,7 +131,7 @@ lineNumber
 assertEq
 (
 columnNumber
-5
+4
 )
 ;
 const
@@ -221,7 +221,7 @@ lineNumber
 assertEq
 (
 columnNumber
-7
+6
 )
 ;
 const

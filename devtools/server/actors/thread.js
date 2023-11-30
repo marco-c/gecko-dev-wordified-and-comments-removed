@@ -8735,8 +8735,6 @@ length
 const
 startColumn
 =
-1
-+
 scriptStartOffset
 -
 (
