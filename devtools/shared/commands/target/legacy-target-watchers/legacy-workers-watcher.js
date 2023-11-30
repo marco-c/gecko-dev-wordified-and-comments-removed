@@ -930,13 +930,6 @@ isTargetSwitching
 this
 .
 _isServiceWorkerWatcher
-|
-|
-this
-.
-targetCommand
-.
-destroyServiceWorkersOnNavigation
 )
 {
 this
