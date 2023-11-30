@@ -674,7 +674,7 @@ make
 (
 extern
 .
-externalize
+convert_any
 (
 struct
 .

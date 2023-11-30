@@ -65,9 +65,9 @@ local
 .
 get
 0
-extern
+any
 .
-internalize
+convert_extern
 ref
 .
 test
@@ -96,9 +96,9 @@ local
 .
 get
 0
-extern
+any
 .
-internalize
+convert_extern
 ref
 .
 cast
@@ -142,9 +142,9 @@ local
 .
 get
 0
-extern
+any
 .
-internalize
+convert_extern
 br_on_cast
 0
 anyref
@@ -192,9 +192,9 @@ local
 .
 get
 0
-extern
+any
 .
-internalize
+convert_extern
 br_on_cast_fail
 0
 anyref
