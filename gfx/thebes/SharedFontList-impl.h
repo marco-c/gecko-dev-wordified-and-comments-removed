@@ -925,8 +925,6 @@ nodiscard
 bool
 UpdateShmBlocks
 (
-bool
-aMustLock
 )
 ;
 ShmBlock
