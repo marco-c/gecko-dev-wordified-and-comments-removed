@@ -167,6 +167,15 @@ if
 mImplicitPipelineLayoutId
 )
 {
+bridge
+-
+>
+SendImplicitLayoutDrop
+(
+mImplicitPipelineLayoutId
+mImplicitBindGroupLayoutIds
+)
+;
 }
 }
 }
