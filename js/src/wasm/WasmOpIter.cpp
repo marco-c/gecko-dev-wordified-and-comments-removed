@@ -2014,7 +2014,7 @@ case
 GcOp
 :
 :
-ExternInternalize
+AnyConvertExtern
 :
 WASM_GC_OP
 (
@@ -2028,7 +2028,7 @@ case
 GcOp
 :
 :
-ExternExternalize
+ExternConvertAny
 :
 WASM_GC_OP
 (

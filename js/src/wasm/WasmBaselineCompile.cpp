@@ -38864,7 +38864,7 @@ bool
 BaseCompiler
 :
 :
-emitExternInternalize
+emitAnyConvertExtern
 (
 )
 {
@@ -38897,7 +38897,7 @@ bool
 BaseCompiler
 :
 :
-emitExternExternalize
+emitExternConvertAny
 (
 )
 {
@@ -52504,12 +52504,12 @@ uint16_t
 GcOp
 :
 :
-ExternInternalize
+AnyConvertExtern
 )
 :
 CHECK_NEXT
 (
-emitExternInternalize
+emitAnyConvertExtern
 (
 )
 )
@@ -52520,12 +52520,12 @@ uint16_t
 GcOp
 :
 :
-ExternExternalize
+ExternConvertAny
 )
 :
 CHECK_NEXT
 (
-emitExternExternalize
+emitExternConvertAny
 (
 )
 )

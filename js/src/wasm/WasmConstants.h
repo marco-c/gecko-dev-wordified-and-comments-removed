@@ -1136,10 +1136,10 @@ BrOnCast
 BrOnCastFail
 =
 0x19
-ExternInternalize
+AnyConvertExtern
 =
 0x1a
-ExternExternalize
+ExternConvertAny
 =
 0x1b
 RefI31
