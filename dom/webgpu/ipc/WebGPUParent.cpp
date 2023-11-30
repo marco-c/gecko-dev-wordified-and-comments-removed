@@ -2791,7 +2791,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvCreateBuffer
+RecvDeviceCreateBuffer
 (
 RawId
 aDeviceId
