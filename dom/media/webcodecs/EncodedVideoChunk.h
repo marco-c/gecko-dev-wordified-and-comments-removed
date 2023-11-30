@@ -156,8 +156,6 @@ default
 EncodedVideoChunkData
 (
 )
-=
-default
 ;
 UniquePtr
 <
