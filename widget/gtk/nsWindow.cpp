@@ -21848,10 +21848,16 @@ cursor
 }
 )
 ;
+if
+(
+mIsPIPWindow
+)
+{
 mWidgetCursorLocked
 =
 true
 ;
+}
 return
 ;
 }
