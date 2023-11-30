@@ -12,9 +12,9 @@ Version
 :
 2
 .
-28
+31
 .
-2
+0
 Summary
 :
 Python
@@ -284,8 +284,6 @@ Python
 3
 .
 7
-<
-4
 Description
 -
 Content
@@ -295,6 +293,11 @@ Type
 text
 /
 markdown
+License
+-
+File
+:
+LICENSE
 Requires
 -
 Dist
@@ -330,9 +333,7 @@ Dist
 urllib3
 (
 <
-1
-.
-27
+3
 >
 =
 1
