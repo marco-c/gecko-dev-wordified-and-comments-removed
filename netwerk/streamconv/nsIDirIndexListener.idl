@@ -76,14 +76,5 @@ attribute
 nsIDirIndexListener
 listener
 ;
-readonly
-attribute
-string
-comment
-;
-attribute
-string
-encoding
-;
 }
 ;

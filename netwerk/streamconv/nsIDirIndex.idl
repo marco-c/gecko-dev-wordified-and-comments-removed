@@ -60,15 +60,7 @@ type
 ;
 attribute
 ACString
-contentType
-;
-attribute
-ACString
 location
-;
-attribute
-AString
-description
 ;
 attribute
 long
