@@ -1024,7 +1024,13 @@ get
 )
 )
 {
-g_warning
+MOZ_LOG
+(
+sIdleLog
+LogLevel
+:
+:
+Warning
 (
 "
 Failed
@@ -1043,6 +1049,7 @@ aError
 -
 >
 message
+)
 )
 ;
 mUserIdleServiceGTK
