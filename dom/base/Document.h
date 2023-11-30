@@ -10085,8 +10085,10 @@ Element
 aElement
 )
 ;
+UniquePtr
+<
 XPathExpression
-*
+>
 CreateExpression
 (
 const

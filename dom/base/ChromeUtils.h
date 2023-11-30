@@ -728,8 +728,10 @@ aRv
 )
 ;
 static
+UniquePtr
+<
 MozQueryInterface
-*
+>
 GenerateQI
 (
 const

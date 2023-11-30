@@ -1325,8 +1325,10 @@ ErrorResult
 aError
 )
 ;
+UniquePtr
+<
 TextMetrics
-*
+>
 MeasureText
 (
 const
@@ -4318,8 +4320,10 @@ STROKE
 MEASURE
 }
 ;
+UniquePtr
+<
 TextMetrics
-*
+>
 DrawOrMeasureText
 (
 const

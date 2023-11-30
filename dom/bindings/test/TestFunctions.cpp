@@ -98,8 +98,10 @@ mozilla
 :
 dom
 {
+UniquePtr
+<
 TestFunctions
-*
+>
 TestFunctions
 :
 :
@@ -111,8 +113,12 @@ aGlobal
 )
 {
 return
-new
+MakeUnique
+<
 TestFunctions
+>
+(
+)
 ;
 }
 void

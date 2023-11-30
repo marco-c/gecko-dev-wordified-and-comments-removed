@@ -125,8 +125,10 @@ IID_SIZE
 )
 ;
 }
+UniquePtr
+<
 MozQueryInterface
-*
+>
 ChromeUtils
 :
 :
@@ -332,8 +334,10 @@ CompareIIDs
 )
 ;
 return
-new
+MakeUnique
+<
 MozQueryInterface
+>
 (
 std
 :

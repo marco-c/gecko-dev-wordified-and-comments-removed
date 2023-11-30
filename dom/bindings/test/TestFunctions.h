@@ -77,8 +77,10 @@ NonRefcountedDOMObject
 public
 :
 static
+UniquePtr
+<
 TestFunctions
-*
+>
 Constructor
 (
 GlobalObject
