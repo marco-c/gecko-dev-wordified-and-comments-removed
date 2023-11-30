@@ -233,3 +233,10 @@ test_Store
 js
 "
 ]
+[
+"
+test_TopSitesFeed
+.
+js
+"
+]
