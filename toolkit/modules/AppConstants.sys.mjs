@@ -535,17 +535,6 @@ other
 "
 #
 endif
-archBits
-:
-#
-ifdef
-HAVE_64BIT_BUILD
-64
-#
-else
-32
-#
-endif
 isPlatformAndVersionAtLeast
 (
 platform
