@@ -159,12 +159,6 @@ useful
 note
 :
 :
-*
-*
-NOTE
-*
-*
-:
 The
 constants
 PR_RDWR

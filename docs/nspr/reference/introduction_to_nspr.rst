@@ -2184,12 +2184,6 @@ flux
 note
 :
 :
-*
-*
-Note
-*
-*
-:
 Evaluation
 of
 the

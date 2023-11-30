@@ -320,12 +320,6 @@ thread
 note
 :
 :
-*
-*
-Note
-*
-*
-:
 As
 of
 NSPR

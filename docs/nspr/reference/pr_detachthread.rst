@@ -200,12 +200,6 @@ PR_AttachThread
 note
 :
 :
-*
-*
-Note
-*
-*
-:
 As
 of
 NSPR

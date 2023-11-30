@@ -318,12 +318,6 @@ continuing
 note
 :
 :
-*
-*
-Note
-*
-*
-:
 :
 ref
 :

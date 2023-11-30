@@ -112,12 +112,6 @@ PR_GetCurrentThread
 note
 :
 :
-*
-*
-Note
-*
-*
-:
 This
 is
 the

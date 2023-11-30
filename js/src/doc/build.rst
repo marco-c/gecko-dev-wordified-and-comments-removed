@@ -519,12 +519,6 @@ build
 note
 :
 :
-*
-*
-Note
-*
-*
-:
 If
 you
 are
