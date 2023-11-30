@@ -86,9 +86,4 @@ worker
 .
 js
 "
-"
-vendors
-.
-js
-"
 )
