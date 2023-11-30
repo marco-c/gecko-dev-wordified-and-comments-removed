@@ -160,7 +160,7 @@ already_AddRefed
 <
 nsIDocumentViewer
 >
-NS_NewContentViewer
+NS_NewDocumentViewer
 (
 )
 ;
@@ -993,13 +993,13 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 =
-NS_NewContentViewer
+NS_NewDocumentViewer
 (
 )
 ;
-contentViewer
+viewer
 -
 >
 LoadStart
@@ -1007,7 +1007,7 @@ LoadStart
 aDocument
 )
 ;
-contentViewer
+viewer
 .
 forget
 (
@@ -1526,9 +1526,9 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 =
-NS_NewContentViewer
+NS_NewDocumentViewer
 (
 )
 ;
@@ -1568,7 +1568,7 @@ rv
 rv
 )
 ;
-contentViewer
+viewer
 -
 >
 LoadStart
@@ -1576,7 +1576,7 @@ LoadStart
 doc
 )
 ;
-contentViewer
+viewer
 .
 forget
 (

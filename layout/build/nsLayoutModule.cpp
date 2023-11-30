@@ -593,7 +593,7 @@ already_AddRefed
 <
 nsIDocumentViewer
 >
-NS_NewContentViewer
+NS_NewDocumentViewer
 (
 )
 ;
@@ -805,7 +805,7 @@ NS_CreateFrameTraversal
 MAKE_GENERIC_CTOR2
 (
 nsIDocumentViewer
-NS_NewContentViewer
+NS_NewDocumentViewer
 )
 MAKE_CTOR
 (
