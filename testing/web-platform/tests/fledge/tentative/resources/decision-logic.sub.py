@@ -310,6 +310,7 @@ auctionConfig
 trustedScoringSignals
                             
 browserSignals
+directFromSellerSignals
 )
 {
               
