@@ -1148,6 +1148,8 @@ CCACHE
 -
 show
 -
+adv
+-
 stats
 -
 -
@@ -1186,6 +1188,8 @@ CCACHE
 -
 -
 show
+-
+adv
 -
 stats
 echo
