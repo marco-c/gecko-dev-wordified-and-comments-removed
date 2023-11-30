@@ -748,7 +748,7 @@ aInitialWindowChild
 docShell
 -
 >
-CreateContentViewerForActor
+CreateDocumentViewerForActor
 (
 aInitialWindowChild
 )

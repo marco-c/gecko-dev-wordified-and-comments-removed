@@ -1262,7 +1262,7 @@ mWillChangeProcess
 ;
 }
 nsresult
-CreateContentViewerForActor
+CreateDocumentViewerForActor
 (
 mozilla
 :

@@ -9727,7 +9727,7 @@ this
 "
 Logic
 in
-CreateContentViewerForActor
+CreateDocumentViewerForActor
 currently
 requires
 "
