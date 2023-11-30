@@ -3602,7 +3602,10 @@ targetColor
 ;
 if
 (
+AsMarkColor
+(
 targetColor
+)
 =
 =
 markColor
@@ -3699,7 +3702,7 @@ edge
 color
 =
 =
-MarkColor
+CellColor
 :
 :
 Black
@@ -3805,7 +3808,7 @@ Black
 markEphemeronEdges
 (
 edges
-MarkColor
+CellColor
 :
 :
 Black
@@ -3923,7 +3926,7 @@ Black
 markEphemeronEdges
 (
 edges
-MarkColor
+CellColor
 :
 :
 Black
@@ -10807,10 +10810,13 @@ gcWeakMapList
 {
 if
 (
+IsMarked
+(
 m
 -
 >
 mapColor
+)
 )
 {
 (
@@ -10933,6 +10939,12 @@ popFront
 ;
 if
 (
+IsMarked
+(
+srcColor
+)
+&
+&
 edges
 .
 length
