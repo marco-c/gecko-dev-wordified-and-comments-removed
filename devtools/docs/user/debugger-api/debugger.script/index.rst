@@ -2305,6 +2305,9 @@ point
 columnNumber
 :
 the
+1
+-
+based
 column
 number
 for
@@ -2412,7 +2415,7 @@ lineNumber
 0
 columnNumber
 :
-0
+1
 offset
 :
 0
@@ -2423,7 +2426,7 @@ lineNumber
 1
 columnNumber
 :
-5
+6
 offset
 :
 5
@@ -2434,7 +2437,7 @@ lineNumber
 1
 columnNumber
 :
-10
+11
 offset
 :
 20
@@ -2445,7 +2448,7 @@ lineNumber
 3
 columnNumber
 :
-4
+5
 offset
 :
 10
@@ -2574,6 +2577,9 @@ point
 columnNumber
 :
 the
+1
+-
+based
 column
 number
 for
@@ -2672,6 +2678,9 @@ opcode
 columnNumber
 :
 the
+1
+-
+based
 column
 number
 of

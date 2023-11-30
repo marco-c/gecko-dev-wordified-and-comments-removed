@@ -84,7 +84,7 @@ test
 g
 .
 f1
-11
+12
 )
 ;
 g
@@ -118,7 +118,7 @@ test
 g
 .
 f2
-17
+18
 )
 ;
 g
@@ -142,7 +142,7 @@ test
 g
 .
 f3
-19
+20
 )
 ;
 g
@@ -166,7 +166,7 @@ test
 g
 .
 f4
-2
+3
 )
 ;
 g
@@ -193,7 +193,7 @@ test
 g
 .
 f5
-9
+10
 )
 ;
 g
@@ -217,7 +217,7 @@ test
 g
 .
 f6
-9
+10
 )
 ;
 g
@@ -253,7 +253,7 @@ g
 myInstance
 .
 method
-10
+11
 )
 ;
 test
@@ -263,7 +263,7 @@ g
 myInstance
 .
 constructor
-14
+15
 )
 ;
 const
@@ -343,7 +343,7 @@ f7w
 script
 .
 startColumn
-11
+12
 )
 ;
 g
@@ -370,7 +370,7 @@ test
 g
 .
 f8
-11
+12
 )
 ;
 test
@@ -380,7 +380,7 @@ g
 f8
 (
 )
-27
+28
 )
 ;
 g
@@ -406,7 +406,7 @@ test
 g
 .
 f9
-0
+1
 )
 ;
 let
@@ -452,7 +452,7 @@ debugger
 assertEq
 (
 column
-0
+1
 )
 ;
 assertEq
@@ -496,7 +496,7 @@ location
 assertEq
 (
 column
-1
+2
 )
 ;
 assertEq
@@ -526,7 +526,7 @@ test
 g
 .
 f10
-20
+21
 )
 ;
 g
@@ -550,6 +550,6 @@ test
 g
 .
 f11
-19
+20
 )
 ;

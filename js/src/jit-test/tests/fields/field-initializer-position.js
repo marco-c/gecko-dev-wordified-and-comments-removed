@@ -306,7 +306,7 @@ assertEq
 script
 .
 startColumn
-20
+21
 )
 ;
 assertEq
@@ -327,6 +327,8 @@ length
 lineText
 .
 length
++
+1
 )
 ;
 }
