@@ -178,6 +178,8 @@ n
 )
 )
 (
+then
+(
 return
 (
 i32
@@ -194,6 +196,9 @@ sum
 }
 )
 )
+)
+(
+else
 (
 return_call
 loop
@@ -234,6 +239,7 @@ const
 {
 es
 }
+)
 )
 )
 )

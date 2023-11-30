@@ -174,6 +174,8 @@ n
 )
 )
 (
+then
+(
 return
 (
 i32
@@ -201,6 +203,9 @@ const
 )
 )
 )
+)
+(
+else
 (
 return_call
 even
@@ -224,6 +229,7 @@ const
 {
 es
 }
+)
 )
 )
 )
@@ -269,6 +275,8 @@ n
 )
 )
 (
+then
+(
 return
 (
 i32
@@ -296,6 +304,9 @@ const
 )
 )
 )
+)
+(
+else
 (
 return_call
 odd
@@ -324,6 +335,7 @@ i32
 .
 const
 33
+)
 )
 )
 )

@@ -2525,6 +2525,8 @@ const
 )
 )
 (
+then
+(
 local
 .
 set
@@ -2534,6 +2536,7 @@ i32
 .
 const
 0x11D7
+)
 )
 )
 )
@@ -2716,6 +2719,8 @@ const
 )
 )
 (
+then
+(
 local
 .
 set
@@ -2725,6 +2730,7 @@ i32
 .
 const
 0x11D7
+)
 )
 )
 )
