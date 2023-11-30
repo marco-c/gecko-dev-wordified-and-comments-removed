@@ -216,6 +216,14 @@ FetchStreamReader
 )
 ;
 nsresult
+MaybeGrabStrongWorkerRef
+(
+JSContext
+*
+aCx
+)
+;
+nsresult
 WriteBuffer
 (
 )
