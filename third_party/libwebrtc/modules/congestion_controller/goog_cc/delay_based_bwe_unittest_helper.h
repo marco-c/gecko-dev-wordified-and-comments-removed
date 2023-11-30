@@ -443,16 +443,6 @@ DelayBasedBweTest
 (
 )
 ;
-explicit
-DelayBasedBweTest
-(
-absl
-:
-:
-string_view
-field_trial_string
-)
-;
 ~
 DelayBasedBweTest
 (
