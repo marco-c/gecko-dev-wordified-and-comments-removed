@@ -41,7 +41,7 @@ columnNumber
 1729
 }
 )
-1730
+1729
 )
 ;
 assertEq
@@ -84,7 +84,7 @@ columnNumber
 "
 }
 )
-43
+42
 )
 ;
 assertEq
@@ -276,7 +276,7 @@ evalStencil
 (
 stencil
 )
-10001
+10000
 )
 ;
 }
@@ -311,8 +311,6 @@ maxColumn
 }
 )
 maxColumn
-+
-1
 )
 ;
 assertEq

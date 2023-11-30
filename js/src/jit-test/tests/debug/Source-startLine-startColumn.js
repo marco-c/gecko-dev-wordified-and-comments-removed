@@ -139,6 +139,6 @@ script
 source
 .
 startColumn
-6
+5
 )
 ;

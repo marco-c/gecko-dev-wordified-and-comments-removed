@@ -165,7 +165,7 @@ assertEq
 reparsedScript
 .
 startColumn
-43
+42
 )
 ;
 function
