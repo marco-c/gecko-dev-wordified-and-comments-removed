@@ -24,6 +24,13 @@ js
 ]
 [
 "
+browser_firefoxview_paused
+.
+js
+"
+]
+[
+"
 browser_firefoxview_next_general_telemetry
 .
 js

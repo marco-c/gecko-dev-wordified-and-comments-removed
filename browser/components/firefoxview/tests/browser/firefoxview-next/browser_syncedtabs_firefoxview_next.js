@@ -117,7 +117,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToCategoryAndWait
 (
 document
 "
@@ -233,7 +234,9 @@ in
 )
 {
 }
-content
+browser
+.
+contentWindow
 )
 ;
 await
@@ -408,7 +411,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToCategoryAndWait
 (
 document
 "
@@ -539,7 +543,9 @@ device
 )
 {
 }
-content
+browser
+.
+contentWindow
 )
 ;
 await
@@ -752,7 +758,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToCategoryAndWait
 (
 document
 "
@@ -974,7 +981,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToCategoryAndWait
 (
 document
 "
@@ -1216,7 +1224,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToCategoryAndWait
 (
 document
 "
@@ -1573,7 +1582,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToCategoryAndWait
 (
 document
 "
@@ -2135,7 +2145,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToCategoryAndWait
 (
 document
 "
@@ -2390,7 +2401,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToCategoryAndWait
 (
 document
 "
