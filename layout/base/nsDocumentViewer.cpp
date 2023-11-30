@@ -4805,7 +4805,7 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 (
 aBC
 -
@@ -4815,17 +4815,17 @@ GetDocShell
 )
 -
 >
-GetContentViewer
+GetDocViewer
 (
 )
 )
 ;
 if
 (
-contentViewer
+viewer
 &
 &
-contentViewer
+viewer
 -
 >
 DispatchBeforeUnload
@@ -5642,7 +5642,7 @@ viewer
 aShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -6155,7 +6155,7 @@ viewer
 aShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -8411,7 +8411,7 @@ currentViewer
 docShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

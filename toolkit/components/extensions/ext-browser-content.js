@@ -1128,7 +1128,7 @@ h
 ;
 docShell
 .
-contentViewer
+docViewer
 .
 getContentSize
 (

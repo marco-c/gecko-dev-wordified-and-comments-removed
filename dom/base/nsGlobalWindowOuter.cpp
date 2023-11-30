@@ -12974,7 +12974,7 @@ viewer
 mDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -22859,7 +22859,7 @@ nullptr
 docShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -23033,7 +23033,7 @@ cloneDocShell
 cloneDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -24119,7 +24119,7 @@ viewer
 mDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -26412,7 +26412,7 @@ viewer
 mDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -29356,7 +29356,7 @@ viewer
 mDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

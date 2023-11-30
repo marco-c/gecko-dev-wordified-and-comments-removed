@@ -2052,7 +2052,7 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-parentContentViewer
+parentViewer
 ;
 if
 (
@@ -2064,11 +2064,11 @@ rv
 parent
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
-parentContentViewer
+parentViewer
 )
 )
 ;
@@ -2093,7 +2093,7 @@ docShell
 docShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -2115,7 +2115,7 @@ std
 :
 move
 (
-parentContentViewer
+parentViewer
 )
 ;
 }

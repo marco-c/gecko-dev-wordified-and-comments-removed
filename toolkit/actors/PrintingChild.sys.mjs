@@ -1718,7 +1718,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 ;
 cv
 .
@@ -1763,7 +1763,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 ;
 cv
 .

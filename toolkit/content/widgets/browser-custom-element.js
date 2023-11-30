@@ -6799,7 +6799,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 )
 {
 aCallback
@@ -6816,7 +6816,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 .
 inPermitUnload
 )
@@ -7117,7 +7117,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 )
 {
 return
@@ -7136,7 +7136,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 .
 permitUnload
 (

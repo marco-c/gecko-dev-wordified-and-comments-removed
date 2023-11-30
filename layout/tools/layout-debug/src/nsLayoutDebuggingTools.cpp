@@ -178,7 +178,7 @@ viewer
 aDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -761,7 +761,7 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+docViewer
 (
 doc_viewer
 (
@@ -769,7 +769,7 @@ mDocShell
 )
 )
 ;
-contentViewer
+docViewer
 -
 >
 SetPageModeForTesting

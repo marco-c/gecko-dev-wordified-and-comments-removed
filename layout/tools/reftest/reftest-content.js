@@ -1148,7 +1148,7 @@ printBackgrounds
 ;
 docShell
 .
-contentViewer
+docViewer
 .
 setPageModeForTesting
 (

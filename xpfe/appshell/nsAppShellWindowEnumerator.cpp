@@ -134,7 +134,7 @@ viewer
 aShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

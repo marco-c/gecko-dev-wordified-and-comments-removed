@@ -1494,7 +1494,7 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 ;
 nsresult
 rv
@@ -1502,11 +1502,11 @@ rv
 docShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
-contentViewer
+viewer
 )
 )
 ;
@@ -1521,7 +1521,7 @@ rv
 NS_WARN_IF
 (
 !
-contentViewer
+viewer
 )
 )
 {
@@ -1531,7 +1531,7 @@ NS_WARNING
 nsDocShell
 :
 :
-GetContentViewer
+GetDocViewer
 (
 )
 failed
@@ -1549,7 +1549,7 @@ Document
 >
 doc
 =
-contentViewer
+viewer
 -
 >
 GetDocument
@@ -1721,7 +1721,7 @@ HasDocumentViewer
 ;
 MOZ_ASSERT
 (
-contentViewer
+viewer
 -
 >
 GetDocument

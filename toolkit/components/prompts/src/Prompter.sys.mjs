@@ -9147,7 +9147,7 @@ inPermitUnload
 docShell
 ?
 .
-contentViewer
+docViewer
 ?
 .
 inPermitUnload

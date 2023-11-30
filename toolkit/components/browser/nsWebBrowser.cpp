@@ -945,7 +945,7 @@ viewer
 mDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

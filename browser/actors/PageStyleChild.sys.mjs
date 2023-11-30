@@ -391,7 +391,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 .
 authorStyleDisabled
 =
@@ -455,7 +455,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 .
 authorStyleDisabled
 =

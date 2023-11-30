@@ -2768,7 +2768,7 @@ focusedWindow
 =
 rootTreeItem
 .
-contentViewer
+docViewer
 .
 DOMDocument
 .

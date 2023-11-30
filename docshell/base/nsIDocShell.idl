@@ -810,7 +810,7 @@ eldestPresShell
 *
 *
 *
-Content
+Document
 Viewer
 that
 is
@@ -838,7 +838,7 @@ infallible
 readonly
 attribute
 nsIDocumentViewer
-contentViewer
+docViewer
 ;
 /
 *

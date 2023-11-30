@@ -479,7 +479,7 @@ window
 =
 docShell
 .
-contentViewer
+docViewer
 .
 DOMDocument
 .

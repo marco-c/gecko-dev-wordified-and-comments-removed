@@ -1283,7 +1283,7 @@ viewer
 shell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

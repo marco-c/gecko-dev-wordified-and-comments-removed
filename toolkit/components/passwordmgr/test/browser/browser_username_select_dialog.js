@@ -65,7 +65,7 @@ childDoc
 =
 childDocShell
 .
-contentViewer
+docViewer
 .
 DOMDocument
 ;

@@ -6664,7 +6664,7 @@ window
 .
 docShell
 .
-contentViewer
+docViewer
 ;
 }
 /
@@ -12550,7 +12550,7 @@ window
 .
 docShell
 .
-contentViewer
+docViewer
 .
 QueryInterface
 (
