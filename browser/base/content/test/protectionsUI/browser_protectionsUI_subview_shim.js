@@ -3,11 +3,6 @@ use
 strict
 "
 ;
-requestLongerTimeout
-(
-2
-)
-;
 const
 TRACKING_PAGE
 =
