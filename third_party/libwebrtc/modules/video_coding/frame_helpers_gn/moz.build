@@ -593,14 +593,6 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-rt
-"
-]
 if
 CONFIG
 [
