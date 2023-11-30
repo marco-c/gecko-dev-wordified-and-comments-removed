@@ -11,13 +11,13 @@ with
 -
 prefs
 .
-ini
+toml
 "
 "
 unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]

@@ -261,7 +261,7 @@ manifest_name
 +
 "
 .
-ini
+toml
 "
 )
                 
@@ -692,7 +692,7 @@ xpcshell
 -
 one
 .
-ini
+toml
 "
                     
 "
@@ -706,7 +706,7 @@ xpcshell
 -
 shared
 .
-ini
+toml
 "
                     
 "
@@ -752,7 +752,7 @@ xpcshell
 -
 two
 .
-ini
+toml
 "
                     
 "
@@ -766,7 +766,7 @@ xpcshell
 -
 shared
 .
-ini
+toml
 "
                     
 "
@@ -842,7 +842,7 @@ dragonfruit
 /
 xpcshell
 .
-ini
+toml
 "
                     
 "
@@ -942,7 +942,7 @@ elderberry
 /
 xpcshell_updater
 .
-ini
+toml
 "
                     
 "
@@ -1022,7 +1022,7 @@ grape
 /
 instrumentation
 .
-ini
+toml
 "
                     
 "
@@ -1072,7 +1072,7 @@ huckleberry
 /
 instrumentation
 .
-ini
+toml
 "
                     
 "
@@ -1118,7 +1118,7 @@ juniper
 /
 browser
 .
-ini
+toml
 "
                     
 "
@@ -1168,7 +1168,7 @@ kiwi
 /
 browser
 .
-ini
+toml
 "
                     
 "
@@ -1249,7 +1249,7 @@ elderberry
 /
 xpcshell_updater
 .
-ini
+toml
 "
 )
 )
@@ -1263,15 +1263,14 @@ files
 "
 :
 "
-\
-ndata
+data
 /
 *
 *
 \
 nxpcshell_updater
 .
-ini
+toml
 "
         
 }
@@ -1287,7 +1286,7 @@ xpcshell
 -
 one
 .
-ini
+toml
 "
 )
             
@@ -1300,7 +1299,7 @@ xpcshell
 -
 shared
 .
-ini
+toml
 "
 )
         
@@ -1331,7 +1330,7 @@ xpcshell
 -
 two
 .
-ini
+toml
 "
 )
             
@@ -1344,7 +1343,7 @@ xpcshell
 -
 shared
 .
-ini
+toml
 "
 )
         
@@ -2130,15 +2129,14 @@ resolver
 expected_support_files
 =
 "
-\
-ndata
+data
 /
 *
 *
 \
 nxpcshell_updater
 .
-ini
+toml
 "
     
 tests
@@ -2187,7 +2185,7 @@ endswith
 "
 xpcshell_updater
 .
-ini
+toml
 "
 )
 :
@@ -3148,7 +3146,7 @@ xpcshell
 -
 one
 .
-ini
+toml
 "
 )
 :
@@ -3193,7 +3191,7 @@ xpcshell
 -
 one
 .
-ini
+toml
 "
 )
     
@@ -3220,7 +3218,7 @@ xpcshell
 -
 shared
 .
-ini
+toml
 "
 )
     
@@ -3275,7 +3273,7 @@ xpcshell
 -
 two
 .
-ini
+toml
 "
 )
     
@@ -3302,7 +3300,7 @@ xpcshell
 -
 shared
 .
-ini
+toml
 "
 )
     

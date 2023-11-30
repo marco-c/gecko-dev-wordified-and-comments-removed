@@ -128,7 +128,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 "
 test
@@ -137,7 +137,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 "
 webdriver
@@ -148,6 +148,6 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]

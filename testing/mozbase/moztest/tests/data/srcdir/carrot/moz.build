@@ -7,13 +7,13 @@ xpcshell
 -
 one
 .
-ini
+toml
 "
 "
 xpcshell
 -
 two
 .
-ini
+toml
 "
 ]

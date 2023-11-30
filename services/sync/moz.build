@@ -28,7 +28,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 EXTRA_COMPONENTS
