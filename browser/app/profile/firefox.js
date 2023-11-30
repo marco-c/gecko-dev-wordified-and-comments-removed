@@ -73,7 +73,7 @@ abuseReport
 .
 amoFormEnabled
 "
-false
+true
 )
 ;
 pref
