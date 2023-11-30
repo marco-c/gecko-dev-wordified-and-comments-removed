@@ -1306,6 +1306,10 @@ compute
 mut
 input
 self
+&
+self
+.
+url_data
 computed_context
 AllowComputationallyDependent
 :

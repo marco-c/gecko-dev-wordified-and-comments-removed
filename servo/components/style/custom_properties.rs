@@ -1079,6 +1079,12 @@ references
 :
 VarOrEnvReferences
 }
+trivial_to_computed_value
+!
+(
+VariableValue
+)
+;
 impl
 PartialEq
 for
@@ -5048,6 +5054,10 @@ compute
 mut
 input
 registration
+&
+unparsed_value
+.
+url_data
 self
 .
 computed_context
@@ -7304,6 +7314,10 @@ compute
 mut
 input
 registration
+&
+computed_value
+.
+url_data
 computed_context
 AllowComputationallyDependent
 :
@@ -7865,6 +7879,10 @@ compute
 mut
 fallback_input
 registration
+&
+partial_computed_value
+.
+url_data
 computed_context
 AllowComputationallyDependent
 :
@@ -7999,6 +8017,10 @@ compute
 mut
 fallback_input
 registration
+&
+fallback
+.
+url_data
 computed_context
 AllowComputationallyDependent
 :
