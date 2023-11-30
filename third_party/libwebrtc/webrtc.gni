@@ -1591,6 +1591,14 @@ is_clang
 )
 #
 Enable
+to
+use
+H265
+rtc_use_h265
+=
+proprietary_codecs
+#
+Enable
 this
 flag
 to
