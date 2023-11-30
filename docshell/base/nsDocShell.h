@@ -1779,7 +1779,7 @@ aLoader
 override
 ;
 nsresult
-EnsureContentViewer
+EnsureDocumentViewer
 (
 )
 ;
