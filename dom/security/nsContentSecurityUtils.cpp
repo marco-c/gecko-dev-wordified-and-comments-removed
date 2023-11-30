@@ -3537,7 +3537,7 @@ lineNumber
 0
 columnNumber
 =
-0
+1
 ;
 nsJSUtils
 :
@@ -3571,11 +3571,6 @@ file
 _ns
 ;
 }
-columnNumber
-+
-=
-1
-;
 NS_ConvertUTF8toUTF16
 fileNameA
 (
