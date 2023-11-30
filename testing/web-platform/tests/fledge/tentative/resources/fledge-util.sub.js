@@ -1506,12 +1506,6 @@ interestGroup
 )
 ;
 }
-function
-runAdAuctionRejected
-(
-)
-{
-}
 async
 function
 runBasicFledgeAuction
