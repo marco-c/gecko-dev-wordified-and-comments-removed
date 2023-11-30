@@ -560,13 +560,6 @@ third_party
 /
 python
 /
-tomlkit
-vendored
-:
-third_party
-/
-python
-/
 tqdm
 vendored
 :

@@ -94,10 +94,6 @@ pyflakes
 "
 toml
 "
-    
-"
-tomlkit
-"
 ]
 try
 :

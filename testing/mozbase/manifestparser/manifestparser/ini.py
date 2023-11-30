@@ -142,10 +142,6 @@ True
 handle_defaults
 =
 True
-    
-document
-=
-False
 )
 :
     
@@ -1011,7 +1007,6 @@ sections
 return
 sections
 defaults
-None
 def
 combine_fields
 (
