@@ -442,7 +442,7 @@ JS_ACTOR_NAME
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 resource
 :
@@ -457,12 +457,14 @@ JS_ACTOR_NAME
 }
 Parent
 .
-jsm
+sys
+.
+mjs
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 resource
 :
@@ -477,7 +479,9 @@ JS_ACTOR_NAME
 }
 Child
 .
-jsm
+sys
+.
+mjs
 }
 }
 )
