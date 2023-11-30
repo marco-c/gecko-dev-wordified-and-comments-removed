@@ -3450,8 +3450,6 @@ setTimeout
 -
 setInterval
 .
-tentative
-.
 html
 SET
 TIMEOUT
@@ -3465,8 +3463,6 @@ DOMWindowTimers
 setTimeout
 -
 setInterval
-.
-tentative
 .
 html
 SET
@@ -11269,7 +11265,5 @@ TrustedTypePolicyFactory
 getAttributeType
 -
 namespace
-.
-tentative
 .
 html
