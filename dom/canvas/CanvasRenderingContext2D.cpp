@@ -31096,6 +31096,11 @@ needRandomizePixels
 =
 true
 ;
+if
+(
+readback
+)
+{
 readback
 =
 CreateDataSourceSurfaceByCloning
@@ -31103,6 +31108,7 @@ CreateDataSourceSurfaceByCloning
 readback
 )
 ;
+}
 }
 DataSourceSurface
 :
