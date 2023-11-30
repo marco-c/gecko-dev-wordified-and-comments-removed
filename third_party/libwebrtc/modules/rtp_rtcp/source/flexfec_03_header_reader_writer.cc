@@ -355,7 +355,7 @@ LS_INFO
 <
 <
 "
-FlexFEC
+FlexFEC03
 packet
 with
 retransmission
@@ -365,7 +365,6 @@ set
 We
 do
 not
-yet
 "
 "
 support
@@ -408,7 +407,7 @@ LS_INFO
 <
 <
 "
-FlexFEC
+FlexFEC03
 packet
 with
 inflexible
@@ -420,7 +419,6 @@ do
 "
 "
 not
-yet
 support
 this
 thus
@@ -466,7 +464,7 @@ LS_INFO
 <
 <
 "
-FlexFEC
+FlexFEC03
 packet
 protecting
 multiple
@@ -478,7 +476,6 @@ do
 not
 "
 "
-yet
 support
 this
 thus
@@ -556,7 +553,7 @@ LS_WARNING
 "
 Discarding
 truncated
-FlexFEC
+FlexFEC03
 packet
 .
 "
@@ -793,7 +790,7 @@ LS_WARNING
 "
 Discarding
 truncated
-FlexFEC
+FlexFEC03
 packet
 .
 "
@@ -840,7 +837,7 @@ LS_WARNING
 <
 "
 Discarding
-FlexFEC
+FlexFEC03
 packet
 with
 malformed
