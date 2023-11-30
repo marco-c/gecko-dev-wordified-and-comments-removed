@@ -21900,6 +21900,14 @@ speedometer_iterations
 *
 *
 *
+cold
+*
+*
+:
+true
+*
+*
+*
 custom
 data
 *
@@ -22018,7 +22026,7 @@ method
 *
 *
 :
-median
+mean
 *
 *
 *
@@ -23605,6 +23613,14 @@ speedometer_iterations
 *
 *
 *
+cold
+*
+*
+:
+true
+*
+*
+*
 custom
 data
 *
@@ -23713,7 +23729,7 @@ method
 *
 *
 :
-median
+mean
 *
 *
 *
