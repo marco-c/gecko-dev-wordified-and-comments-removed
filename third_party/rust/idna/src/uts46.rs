@@ -2042,7 +2042,7 @@ self
 .
 output
 =
-std
+core
 :
 :
 mem
@@ -2434,6 +2434,10 @@ derive
 Clone
 Copy
 )
+]
+#
+[
+must_use
 ]
 pub
 struct
