@@ -40,12 +40,15 @@ const
 )
 )
 (
+then
+(
 return
 (
 i32
 .
 const
 42
+)
 )
 )
 )
