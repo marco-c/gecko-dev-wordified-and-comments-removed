@@ -1410,13 +1410,6 @@ CurrentTime
 Sum
 (
 )
-.
-bps
-<
-uint32_t
->
-(
-)
 ;
 }
 state
