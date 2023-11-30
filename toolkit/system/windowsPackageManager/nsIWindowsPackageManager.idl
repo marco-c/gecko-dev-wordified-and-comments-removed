@@ -235,7 +235,8 @@ getInstalledDate
 ;
 /
 *
-Retrieves
+Asynchronously
+retrieves
 the
 campaignId
 if
@@ -409,8 +410,11 @@ other
 errors
 *
 /
-AString
-getCampaignId
+[
+implicit_jscontext
+]
+Promise
+campaignId
 (
 )
 ;
