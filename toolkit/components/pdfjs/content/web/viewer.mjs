@@ -3586,6 +3586,7 @@ build
 CMapCompressionType
 createValidAbsoluteUrl
 DOMSVGFactory
+DrawLayer
 FeatureTest
 fetchData
 getDocument
@@ -3601,6 +3602,7 @@ MissingPDFException
 noContextMenu
 normalizeUnicode
 OPS
+Outliner
 PasswordResponses
 PDFDataRangeTransport
 PDFDateString
@@ -46484,7 +46486,7 @@ viewerVersion
 .
 0
 .
-246
+275
 '
 ;
 if
@@ -56702,13 +56704,6 @@ web
 toolbar
 .
 js
-const
-PAGE_NUMBER_LOADING_INDICATOR
-=
-"
-visiblePageIsLoading
-"
-;
 class
 Toolbar
 {
@@ -57942,7 +57937,9 @@ classList
 .
 toggle
 (
-PAGE_NUMBER_LOADING_INDICATOR
+"
+loading
+"
 loading
 )
 ;
@@ -74734,14 +74731,14 @@ pdfjsVersion
 .
 0
 .
-246
+275
 '
 ;
 const
 pdfjsBuild
 =
 '
-086a5921d
+4bf7ff202
 '
 ;
 const

@@ -3586,6 +3586,7 @@ build
 CMapCompressionType
 createValidAbsoluteUrl
 DOMSVGFactory
+DrawLayer
 FeatureTest
 fetchData
 getDocument
@@ -3601,6 +3602,7 @@ MissingPDFException
 noContextMenu
 normalizeUnicode
 OPS
+Outliner
 PasswordResponses
 PDFDataRangeTransport
 PDFDateString
@@ -30145,7 +30147,7 @@ viewerVersion
 .
 0
 .
-246
+275
 '
 ;
 if
@@ -56151,14 +56153,14 @@ pdfjsVersion
 .
 0
 .
-246
+275
 '
 ;
 const
 pdfjsBuild
 =
 '
-086a5921d
+4bf7ff202
 '
 ;
 const
