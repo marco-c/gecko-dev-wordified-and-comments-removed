@@ -332,7 +332,7 @@ uint16_t
 {
 JumpLines
 PreserveSpaces
-ScrollViewStop
+StopAtScroller
 StopAtPlaceholder
 IsKeyboardSelect
 Visual
@@ -2413,6 +2413,16 @@ aNormalSelection
 )
 const
 ;
+enum
+class
+StopAtScroller
+:
+bool
+{
+No
+Yes
+}
+;
 void
 AdjustContentOffsets
 (
@@ -2422,8 +2432,8 @@ nsIFrame
 ContentOffsets
 &
 aOffsets
-bool
-aScrollViewStop
+StopAtScroller
+aStopAtScroller
 )
 const
 ;

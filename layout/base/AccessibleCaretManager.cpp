@@ -5677,7 +5677,7 @@ JumpLines
 PeekOffsetOption
 :
 :
-ScrollViewStop
+StopAtScroller
 }
 )
 ;

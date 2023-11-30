@@ -3675,7 +3675,7 @@ nsPoint
 PeekOffsetOption
 :
 :
-ScrollViewStop
+StopAtScroller
 PeekOffsetOption
 :
 :
@@ -3837,7 +3837,7 @@ nsPoint
 PeekOffsetOption
 :
 :
-ScrollViewStop
+StopAtScroller
 PeekOffsetOption
 :
 :
