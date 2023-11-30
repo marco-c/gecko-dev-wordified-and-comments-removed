@@ -275,6 +275,7 @@ by
 the
 page
 *
+*
 param
 {
 {
@@ -1290,6 +1291,7 @@ Send
 Event
 Telemetry
 *
+*
 param
 {
 object
@@ -1342,6 +1344,7 @@ by
 AboutWelcomeParent
 .
 jsm
+*
 *
 param
 {

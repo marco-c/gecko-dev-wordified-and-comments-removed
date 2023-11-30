@@ -72,9 +72,6 @@ from
 .
 .
 /
-.
-.
-/
 lib
 /
 aboutwelcome

@@ -83,9 +83,6 @@ from
 .
 .
 /
-.
-.
-/
 lib
 /
 aboutwelcome

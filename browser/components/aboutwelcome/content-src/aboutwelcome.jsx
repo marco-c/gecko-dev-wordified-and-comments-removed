@@ -79,7 +79,6 @@ AboutWelcomeUtils
 from
 "
 .
-.
 /
 lib
 /

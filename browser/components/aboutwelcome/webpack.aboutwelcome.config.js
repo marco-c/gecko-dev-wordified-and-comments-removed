@@ -15,6 +15,9 @@ require
 (
 "
 .
+.
+/
+newtab
 /
 webpack
 .
@@ -98,8 +101,6 @@ content
 src
 /
 aboutwelcome
-/
-aboutwelcome
 .
 jsx
 "
@@ -112,8 +113,6 @@ path
 absolute
 (
 "
-aboutwelcome
-/
 content
 "
 )

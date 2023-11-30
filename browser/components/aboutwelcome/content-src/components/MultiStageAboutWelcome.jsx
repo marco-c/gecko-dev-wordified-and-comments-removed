@@ -88,9 +88,6 @@ from
 .
 .
 /
-.
-.
-/
 lib
 /
 aboutwelcome
@@ -132,6 +129,15 @@ from
 /
 .
 .
+/
+.
+.
+/
+newtab
+/
+content
+-
+src
 /
 asrouter
 /
