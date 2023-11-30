@@ -1054,7 +1054,7 @@ _spec
 aEntry
 )
 ;
-NotifyListenersContentViewerEvicted
+NotifyListenersDocumentViewerEvicted
 (
 1
 )
@@ -1181,7 +1181,7 @@ nsFrameLoader
 )
 )
 ;
-NotifyListenersContentViewerEvicted
+NotifyListenersDocumentViewerEvicted
 (
 1
 )
@@ -5403,7 +5403,7 @@ void
 nsSHistory
 :
 :
-NotifyListenersContentViewerEvicted
+NotifyListenersDocumentViewerEvicted
 (
 uint32_t
 aNumEvicted
