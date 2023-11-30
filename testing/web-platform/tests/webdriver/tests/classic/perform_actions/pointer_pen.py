@@ -493,13 +493,16 @@ pressure
 0
 .
 36
-tilt_x
+altitude_angle
 =
--
-72
-tilt_y
+0
+.
+3
+azimuth_angle
 =
-9
+0
+.
+2419
 twist
 =
 86
@@ -783,7 +786,6 @@ tiltX
 ]
 =
 =
--
 72
     
 assert
@@ -798,7 +800,7 @@ tiltY
 ]
 =
 =
-9
+38
     
 assert
 events
