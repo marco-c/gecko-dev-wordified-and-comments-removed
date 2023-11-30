@@ -177,6 +177,11 @@ sanitizer
 this
 )
 )
+{
+hb_barrier
+(
+)
+;
 *
 x
 +
@@ -200,6 +205,7 @@ c
 var_store_cache
 )
 ;
+}
 if
 (
 (
@@ -228,6 +234,11 @@ sanitizer
 this
 )
 )
+{
+hb_barrier
+(
+)
+;
 *
 y
 +
@@ -251,6 +262,7 @@ c
 var_store_cache
 )
 ;
+}
 }
 bool
 subset

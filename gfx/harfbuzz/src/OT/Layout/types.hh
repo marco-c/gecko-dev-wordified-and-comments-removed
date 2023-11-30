@@ -44,6 +44,10 @@ template
 <
 typename
 Type
+typename
+BaseType
+=
+void
 bool
 has_null
 =
@@ -58,6 +62,7 @@ OT
 Offset16To
 <
 Type
+BaseType
 has_null
 >
 ;
@@ -129,6 +134,10 @@ template
 <
 typename
 Type
+typename
+BaseType
+=
+void
 bool
 has_null
 =
@@ -143,6 +152,7 @@ OT
 Offset24To
 <
 Type
+BaseType
 has_null
 >
 ;

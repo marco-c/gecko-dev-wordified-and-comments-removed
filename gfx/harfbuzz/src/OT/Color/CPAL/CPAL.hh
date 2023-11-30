@@ -959,6 +959,11 @@ version
 =
 1
 )
+{
+hb_barrier
+(
+)
+;
 v1
 (
 )
@@ -972,6 +977,7 @@ color_index_map
 nameids_to_retain
 )
 ;
+}
 }
 private
 :
@@ -994,6 +1000,10 @@ return
 Null
 (
 CPALV1Tail
+)
+;
+hb_barrier
+(
 )
 ;
 return
@@ -1473,6 +1483,11 @@ version
 =
 1
 )
+{
+hb_barrier
+(
+)
+;
 return_trace
 (
 v1
@@ -1492,6 +1507,7 @@ color_index_map
 )
 )
 ;
+}
 return_trace
 (
 true
@@ -1520,6 +1536,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

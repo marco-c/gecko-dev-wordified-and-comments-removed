@@ -203,6 +203,11 @@ c
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 likely
 (
 version
@@ -220,6 +225,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

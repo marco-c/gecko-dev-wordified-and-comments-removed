@@ -27,6 +27,8 @@ Types
 >
 struct
 PairSet
+:
+ValueBase
 {
 template
 <
@@ -187,6 +189,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 c
 -
 >
@@ -205,6 +212,10 @@ stride
 return_trace
 (
 false
+)
+;
+hb_barrier
+(
 )
 ;
 unsigned

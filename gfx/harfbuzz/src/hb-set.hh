@@ -32,6 +32,13 @@ impl_t
 struct
 hb_sparseset_t
 {
+static
+constexpr
+bool
+realloc_move
+=
+true
+;
 hb_object_header_t
 header
 ;

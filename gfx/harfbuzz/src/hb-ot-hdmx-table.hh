@@ -195,6 +195,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 c
 -
 >
@@ -606,6 +611,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

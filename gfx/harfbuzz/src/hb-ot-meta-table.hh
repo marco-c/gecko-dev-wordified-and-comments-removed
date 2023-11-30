@@ -116,6 +116,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 dataZ
 .
 sanitize
@@ -350,6 +355,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

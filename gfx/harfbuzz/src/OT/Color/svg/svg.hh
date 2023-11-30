@@ -165,6 +165,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 svgDoc
 .
 sanitize

@@ -1260,6 +1260,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 offset
 .
 sanitize
@@ -2390,6 +2395,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

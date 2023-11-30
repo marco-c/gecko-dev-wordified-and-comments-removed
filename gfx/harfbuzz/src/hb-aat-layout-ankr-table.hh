@@ -201,6 +201,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 version
 =
 =

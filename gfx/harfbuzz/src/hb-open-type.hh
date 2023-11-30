@@ -1535,6 +1535,10 @@ typename
 Type
 typename
 OffsetType
+typename
+BaseType
+=
+void
 bool
 has_null
 =
@@ -1729,7 +1733,7 @@ hb_is_convertible
 const
 Base
 const
-void
+BaseType
 *
 )
 )
@@ -1774,7 +1778,7 @@ hb_is_convertible
 const
 Base
 const
-void
+BaseType
 *
 )
 )
@@ -1817,7 +1821,7 @@ hb_enable_if
 hb_is_convertible
 (
 Base
-void
+BaseType
 *
 )
 )
@@ -1857,7 +1861,7 @@ hb_enable_if
 hb_is_convertible
 (
 Base
-void
+BaseType
 *
 )
 )
@@ -1890,6 +1894,8 @@ base
 }
 template
 <
+typename
+Base
 typename
 .
 .
@@ -1907,7 +1913,7 @@ OffsetTo
 &
 src
 const
-void
+Base
 *
 src_base
 Ts
@@ -2258,7 +2264,7 @@ hb_sanitize_context_t
 *
 c
 const
-void
+BaseType
 *
 base
 )
@@ -2286,6 +2292,10 @@ this
 return_trace
 (
 false
+)
+;
+hb_barrier
+(
 )
 ;
 if
@@ -2345,7 +2355,7 @@ hb_sanitize_context_t
 *
 c
 const
-void
+BaseType
 *
 base
 Ts
@@ -2369,6 +2379,11 @@ sanitize_shallow
 (
 c
 base
+)
+&
+&
+hb_barrier
+(
 )
 &
 &
@@ -2461,6 +2476,10 @@ template
 <
 typename
 Type
+typename
+BaseType
+=
+void
 bool
 has_null
 =
@@ -2473,6 +2492,7 @@ OffsetTo
 <
 Type
 HBUINT16
+BaseType
 has_null
 >
 ;
@@ -2480,6 +2500,10 @@ template
 <
 typename
 Type
+typename
+BaseType
+=
+void
 bool
 has_null
 =
@@ -2492,6 +2516,7 @@ OffsetTo
 <
 Type
 HBUINT24
+BaseType
 has_null
 >
 ;
@@ -2499,6 +2524,10 @@ template
 <
 typename
 Type
+typename
+BaseType
+=
+void
 bool
 has_null
 =
@@ -2511,6 +2540,7 @@ OffsetTo
 <
 Type
 HBUINT32
+BaseType
 has_null
 >
 ;
@@ -2520,6 +2550,10 @@ typename
 Type
 typename
 OffsetType
+typename
+BaseType
+=
+void
 >
 using
 NNOffsetTo
@@ -2528,6 +2562,7 @@ OffsetTo
 <
 Type
 OffsetType
+BaseType
 false
 >
 ;
@@ -2535,6 +2570,10 @@ template
 <
 typename
 Type
+typename
+BaseType
+=
+void
 >
 using
 NNOffset16To
@@ -2542,6 +2581,7 @@ NNOffset16To
 Offset16To
 <
 Type
+BaseType
 false
 >
 ;
@@ -2549,6 +2589,10 @@ template
 <
 typename
 Type
+typename
+BaseType
+=
+void
 >
 using
 NNOffset24To
@@ -2556,6 +2600,7 @@ NNOffset24To
 Offset24To
 <
 Type
+BaseType
 false
 >
 ;
@@ -2563,6 +2608,10 @@ template
 <
 typename
 Type
+typename
+BaseType
+=
+void
 >
 using
 NNOffset32To
@@ -2570,6 +2619,7 @@ NNOffset32To
 Offset32To
 <
 Type
+BaseType
 false
 >
 ;
@@ -3166,6 +3216,10 @@ return_trace
 true
 )
 ;
+hb_barrier
+(
+)
+;
 for
 (
 unsigned
@@ -3276,6 +3330,10 @@ typename
 Type
 typename
 OffsetType
+typename
+BaseType
+=
+void
 bool
 has_null
 =
@@ -3290,6 +3348,7 @@ OffsetTo
 <
 Type
 OffsetType
+BaseType
 has_null
 >
 >
@@ -3300,6 +3359,10 @@ typename
 Type
 typename
 OffsetType
+typename
+BaseType
+=
+void
 bool
 has_null
 =
@@ -3312,6 +3375,7 @@ UnsizedArray16OfOffsetTo
 <
 Type
 OffsetType
+BaseType
 has_null
 >
 {
@@ -3342,6 +3406,7 @@ OffsetTo
 <
 Type
 OffsetType
+BaseType
 has_null
 >
 *
@@ -3420,6 +3485,7 @@ OffsetTo
 <
 Type
 OffsetType
+BaseType
 has_null
 >
 *
@@ -3512,6 +3578,7 @@ UnsizedArray16OfOffsetTo
 <
 Type
 OffsetType
+BaseType
 has_null
 >
 :
@@ -4574,6 +4641,10 @@ return_trace
 true
 )
 ;
+hb_barrier
+(
+)
+;
 unsigned
 int
 count
@@ -4658,6 +4729,11 @@ len
 sanitize
 (
 c
+)
+&
+&
+hb_barrier
+(
 )
 &
 &
@@ -5649,6 +5725,10 @@ return_trace
 true
 )
 ;
+hb_barrier
+(
+)
+;
 unsigned
 int
 count
@@ -5737,6 +5817,11 @@ lenP1
 sanitize
 (
 c
+)
+&
+&
+hb_barrier
+(
 )
 &
 &
@@ -6004,6 +6089,10 @@ return_trace
 true
 )
 ;
+hb_barrier
+(
+)
+;
 unsigned
 int
 count
@@ -6092,6 +6181,11 @@ lenM1
 sanitize
 (
 c
+)
+&
+&
+hb_barrier
+(
 )
 &
 &
@@ -7098,6 +7192,10 @@ return_trace
 true
 )
 ;
+hb_barrier
+(
+)
+;
 unsigned
 int
 count
@@ -7261,6 +7359,11 @@ header
 sanitize
 (
 c
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

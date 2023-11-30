@@ -534,6 +534,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 sizeTable
 .
 sanitize
@@ -930,6 +935,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

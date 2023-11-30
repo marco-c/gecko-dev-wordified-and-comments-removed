@@ -72,6 +72,13 @@ Type
 &
 >
 {
+static
+constexpr
+bool
+realloc_move
+=
+true
+;
 hb_array_t
 (
 )

@@ -95,6 +95,10 @@ return_trace
 false
 )
 ;
+hb_barrier
+(
+)
+;
 switch
 (
 u

@@ -431,6 +431,7 @@ if
 (
 gain
 >
+=
 outGain
 )
 {
@@ -454,7 +455,11 @@ peak
 Triple
 loc
 {
+hb_max
+(
+lower
 axisDef
+)
 peak
 crossing
 }

@@ -128,6 +128,10 @@ configure
 .
 sh
 \
+xkcd
+.
+png
+\
 (
 NULL
 )

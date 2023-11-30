@@ -99,6 +99,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 likely
 (
 version

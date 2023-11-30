@@ -497,6 +497,10 @@ gsub_insert_catch_all_feature_variation_rec
 bool
 gpos_insert_catch_all_feature_variation_rec
 ;
+mutable
+bool
+has_gdef_varstore
+;
 #
 define
 HB_SUBSET_PLAN_MEMBER
