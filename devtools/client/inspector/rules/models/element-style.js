@@ -1298,6 +1298,14 @@ computedProp
 .
 name
 )
+&
+&
+!
+computedProp
+.
+textProp
+.
+invisible
 )
 {
 variables
