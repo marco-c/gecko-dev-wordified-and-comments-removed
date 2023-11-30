@@ -427,10 +427,6 @@ emplace_back
 entry
 .
 timestamp
-.
-ms
-(
-)
 key
 .
 source
