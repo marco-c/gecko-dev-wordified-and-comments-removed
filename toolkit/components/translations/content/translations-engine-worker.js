@@ -1745,7 +1745,7 @@ results
 static
 initializeWasm
 (
-wasm
+wasmBinary
 )
 {
 return
@@ -1849,7 +1849,7 @@ bergamot
 )
 ;
 }
-wasm
+wasmBinary
 }
 )
 ;
