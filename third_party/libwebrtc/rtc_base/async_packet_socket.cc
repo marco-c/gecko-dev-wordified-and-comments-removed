@@ -103,7 +103,7 @@ void
 AsyncPacketSocket
 :
 :
-SubscribeClose
+SubscribeCloseEvent
 (
 const
 void
@@ -149,7 +149,7 @@ void
 AsyncPacketSocket
 :
 :
-UnsubscribeClose
+UnsubscribeCloseEvent
 (
 const
 void

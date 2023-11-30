@@ -879,7 +879,7 @@ accepted_socket
 tcp_socket
 -
 >
-SubscribeClose
+SubscribeCloseEvent
 (
 this
 [
@@ -2931,7 +2931,7 @@ first
 socket
 -
 >
-UnsubscribeClose
+UnsubscribeCloseEvent
 (
 this
 )

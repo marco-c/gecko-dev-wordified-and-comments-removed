@@ -3162,7 +3162,7 @@ OnReadyToSend
 socket
 -
 >
-SubscribeClose
+SubscribeCloseEvent
 (
 this
 [
@@ -3258,7 +3258,7 @@ this
 socket
 -
 >
-UnsubscribeClose
+UnsubscribeCloseEvent
 (
 this
 )

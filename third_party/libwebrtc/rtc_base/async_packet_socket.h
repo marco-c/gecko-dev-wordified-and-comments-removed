@@ -392,7 +392,7 @@ error
 0
 ;
 void
-SubscribeClose
+SubscribeCloseEvent
 (
 const
 void
@@ -414,7 +414,7 @@ callback
 )
 ;
 void
-UnsubscribeClose
+UnsubscribeCloseEvent
 (
 const
 void
