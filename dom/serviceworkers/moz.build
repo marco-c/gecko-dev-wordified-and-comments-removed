@@ -513,6 +513,15 @@ mochitest
 .
 toml
 "
+"
+test
+/
+performance
+/
+perftest
+.
+toml
+"
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
