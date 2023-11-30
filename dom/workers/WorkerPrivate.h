@@ -5388,6 +5388,16 @@ mMutex
 true
 }
 ;
+bool
+mWorkerLoopIsIdle
+MOZ_GUARDED_BY
+(
+mMutex
+)
+{
+false
+}
+;
 }
 ;
 class
