@@ -578,6 +578,16 @@ tx_messages_count
 0
 ;
 size_t
+rtx_packets_count
+=
+0
+;
+uint64_t
+rtx_bytes_count
+=
+0
+;
+size_t
 cwnd_bytes
 =
 0
