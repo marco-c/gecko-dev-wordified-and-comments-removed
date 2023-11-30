@@ -805,7 +805,7 @@ frameType
 uint8_t
 payloadType
 uint32_t
-rtp_timestamp
+rtp_timestamp_without_offset
 rtc
 :
 :
@@ -1286,6 +1286,7 @@ Transform
 frameType
 payloadType
 rtp_timestamp
++
 rtp_rtcp_
 -
 >
@@ -1329,7 +1330,7 @@ frameType
 uint8_t
 payloadType
 uint32_t
-rtp_timestamp
+rtp_timestamp_without_offset
 rtc
 :
 :
@@ -1550,7 +1551,7 @@ rtp_rtcp_
 >
 OnSendingRtpFrame
 (
-rtp_timestamp
+rtp_timestamp_without_offset
 -
 1
 payloadType
@@ -1573,7 +1574,7 @@ SendAudio
 (
 frameType
 payloadType
-rtp_timestamp
+rtp_timestamp_without_offset
 +
 rtp_rtcp_
 -
@@ -4070,7 +4071,7 @@ frameType
 uint8_t
 payloadType
 uint32_t
-rtp_timestamp
+rtp_timestamp_with_offset
 rtc
 :
 :
@@ -4095,7 +4096,14 @@ SendRtpAudio
 (
 frameType
 payloadType
-rtp_timestamp
+rtp_timestamp_with_offset
+-
+rtp_rtcp_
+-
+>
+StartTimestamp
+(
+)
 payload
 absolute_capture_timestamp_ms
 )

@@ -95,7 +95,7 @@ frameType
 uint8_t
 payloadType
 uint32_t
-rtp_timestamp
+rtp_timestamp_with_offset
 rtc
 :
 :
@@ -149,8 +149,6 @@ uint8_t
 payload_type
 uint32_t
 rtp_timestamp
-uint32_t
-rtp_start_timestamp
 const
 uint8_t
 *
