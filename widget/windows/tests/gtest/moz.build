@@ -3,11 +3,6 @@ UNIFIED_SOURCES
 =
 [
 "
-TestJumpListBuilder
-.
-cpp
-"
-"
 TestWinDND
 .
 cpp

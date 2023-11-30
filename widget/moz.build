@@ -504,12 +504,7 @@ nsIJumpListBuilder
 idl
 "
 "
-nsILegacyJumpListBuilder
-.
-idl
-"
-"
-nsILegacyJumpListItem
+nsIJumpListItem
 .
 idl
 "

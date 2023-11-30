@@ -30,7 +30,7 @@ E52C3E7C1057
 )
 ]
 interface
-nsILegacyJumpListItem
+nsIJumpListItem
 :
 nsISupports
 {
@@ -67,7 +67,7 @@ boolean
 equals
 (
 in
-nsILegacyJumpListItem
+nsIJumpListItem
 item
 )
 ;
@@ -89,9 +89,9 @@ uuid
 )
 ]
 interface
-nsILegacyJumpListSeparator
+nsIJumpListSeparator
 :
-nsILegacyJumpListItem
+nsIJumpListItem
 {
 }
 ;
@@ -111,9 +111,9 @@ C797
 )
 ]
 interface
-nsILegacyJumpListLink
+nsIJumpListLink
 :
-nsILegacyJumpListItem
+nsIJumpListItem
 {
 attribute
 nsIURI
@@ -154,9 +154,9 @@ BCE1
 )
 ]
 interface
-nsILegacyJumpListShortcut
+nsIJumpListShortcut
 :
-nsILegacyJumpListItem
+nsIJumpListItem
 {
 attribute
 nsILocalHandlerApp
