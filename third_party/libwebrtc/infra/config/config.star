@@ -6217,11 +6217,6 @@ allowed_gap
 commits
 behind
 "
-error_recipients
-"
-:
-WEBRTC_TROOPER_EMAIL
-"
 buckets
 "
 :
