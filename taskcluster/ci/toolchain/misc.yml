@@ -1167,6 +1167,9 @@ target_cpu
 "
 x64
 "
+use_v8_context_snapshot
+=
+false
 v8_symbol_level
 =
 0
@@ -1475,6 +1478,9 @@ true
 is_high_end_android
 =
 true
+use_v8_context_snapshot
+=
+false
 v8_symbol_level
 =
 0
@@ -1602,6 +1608,9 @@ target_cpu
 "
 x64
 "
+use_v8_context_snapshot
+=
+false
 v8_symbol_level
 =
 0
