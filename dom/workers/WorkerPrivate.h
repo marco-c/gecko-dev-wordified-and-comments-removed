@@ -374,6 +374,13 @@ nsTObserverArray
 .
 h
 "
+#
+include
+"
+stdint
+.
+h
+"
 class
 nsIThreadInternal
 ;
@@ -398,6 +405,8 @@ RemoteWorkerChild
 ;
 enum
 WorkerKind
+:
+uint8_t
 {
 WorkerKindDedicated
 WorkerKindShared
