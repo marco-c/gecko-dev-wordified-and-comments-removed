@@ -393,7 +393,6 @@ clearAndCompact
 =
 0
 ;
-inline
 bool
 addImplicitEdges
 (
