@@ -659,6 +659,12 @@ maxIonCompilationThreads
 const
 ;
 size_t
+maxIonFreeThreads
+(
+)
+const
+;
+size_t
 maxWasmCompilationThreads
 (
 )
