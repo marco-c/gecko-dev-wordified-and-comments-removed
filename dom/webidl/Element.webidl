@@ -2581,7 +2581,7 @@ api
 dictionary
 SetHTMLOptions
 {
-Sanitizer
+SanitizerConfig
 sanitizer
 ;
 }
