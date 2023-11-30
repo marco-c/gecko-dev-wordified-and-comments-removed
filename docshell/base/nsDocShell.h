@@ -1488,7 +1488,7 @@ aChannelRedirectFlags
 )
 ;
 bool
-HasContentViewer
+HasDocumentViewer
 (
 )
 const

@@ -1714,7 +1714,7 @@ MOZ_ASSERT
 docShell
 -
 >
-HasContentViewer
+HasDocumentViewer
 (
 )
 )
