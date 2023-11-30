@@ -220,7 +220,7 @@ infallible
 ]
 attribute
 nsIDocumentViewer
-contentViewer
+documentViewer
 ;
 [
 infallible

@@ -580,7 +580,7 @@ DropPresentationState
 )
 ;
 nsresult
-SetContentViewer
+SetDocumentViewer
 (
 nsIDocumentViewer
 *

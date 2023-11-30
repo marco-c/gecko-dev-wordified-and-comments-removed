@@ -1011,7 +1011,7 @@ viewer
 aEntry
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -1062,7 +1062,7 @@ NotifyListenersDocumentViewerEvicted
 aEntry
 -
 >
-SetContentViewer
+SetDocumentViewer
 (
 nullptr
 )
@@ -7271,7 +7271,7 @@ i
 ]
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -7370,7 +7370,7 @@ viewer
 entry
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -7487,7 +7487,7 @@ mViewer
 aEntry
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 )
 )
@@ -7750,12 +7750,12 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 =
 entry
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -7771,7 +7771,7 @@ false
 ;
 if
 (
-contentViewer
+viewer
 )
 {
 hasDocumentViewerOrFrameLoader
@@ -7814,7 +7814,7 @@ container
 mViewer
 =
 =
-contentViewer
+viewer
 )
 {
 container

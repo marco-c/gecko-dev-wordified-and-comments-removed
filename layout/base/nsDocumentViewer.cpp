@@ -6402,7 +6402,7 @@ mSHEntry
 shEntry
 -
 >
-SetContentViewer
+SetDocumentViewer
 (
 nullptr
 )
@@ -6634,7 +6634,7 @@ entry
 shEntry
 -
 >
-SetContentViewer
+SetDocumentViewer
 (
 this
 )

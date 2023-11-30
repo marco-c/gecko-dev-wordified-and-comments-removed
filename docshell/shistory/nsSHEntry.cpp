@@ -4042,7 +4042,7 @@ nsIDocumentViewer
 >
 viewer
 =
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -4058,7 +4058,7 @@ NotifyListenersDocumentViewerEvicted
 (
 )
 ;
-SetContentViewer
+SetDocumentViewer
 (
 nullptr
 )
@@ -4080,7 +4080,7 @@ NS_IMETHODIMP
 nsSHEntry
 :
 :
-SetContentViewer
+SetDocumentViewer
 (
 nsIDocumentViewer
 *
@@ -4093,7 +4093,7 @@ GetState
 )
 -
 >
-SetContentViewer
+SetDocumentViewer
 (
 aViewer
 )
@@ -4103,7 +4103,7 @@ NS_IMETHODIMP
 nsSHEntry
 :
 :
-GetContentViewer
+GetDocumentViewer
 (
 nsIDocumentViewer
 *

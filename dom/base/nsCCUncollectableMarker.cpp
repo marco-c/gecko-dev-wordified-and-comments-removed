@@ -1136,7 +1136,7 @@ viewer
 aSHEntry
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 getter_AddRefs
 (

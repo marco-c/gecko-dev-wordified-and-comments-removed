@@ -3384,7 +3384,7 @@ NS_IMETHODIMP
 SessionHistoryEntry
 :
 :
-GetContentViewer
+GetDocumentViewer
 (
 nsIDocumentViewer
 *
@@ -3405,7 +3405,7 @@ NS_IMETHODIMP
 SessionHistoryEntry
 :
 :
-SetContentViewer
+SetDocumentViewer
 (
 nsIDocumentViewer
 *
