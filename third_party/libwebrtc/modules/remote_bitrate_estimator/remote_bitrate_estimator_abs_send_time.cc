@@ -2195,13 +2195,7 @@ it
 >
 second
 >
-TimeDelta
-:
-:
-Millis
-(
-kStreamTimeOutMs
-)
+kStreamTimeOut
 )
 {
 ssrcs_
