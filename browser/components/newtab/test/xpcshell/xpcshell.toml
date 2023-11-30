@@ -226,3 +226,10 @@ test_remoteExperiments
 js
 "
 ]
+[
+"
+test_Store
+.
+js
+"
+]
