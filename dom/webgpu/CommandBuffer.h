@@ -90,13 +90,6 @@ CanvasContext
 &
 &
 aTargetContexts
-RefPtr
-<
-CommandEncoder
->
-&
-&
-aEncoder
 )
 ;
 Maybe
@@ -119,8 +112,6 @@ delete
 CommandBuffer
 (
 )
-=
-default
 ;
 void
 Cleanup
@@ -140,12 +131,6 @@ CanvasContext
 >
 >
 mTargetContexts
-;
-RefPtr
-<
-CommandEncoder
->
-mEncoder
 ;
 }
 ;
