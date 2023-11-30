@@ -2456,12 +2456,7 @@ child
 mNativeMenu
 insertItem
 :
-child
--
->
-NativeNSMenuItem
-(
-)
+item
 atIndex
 :
 insertionPoint
