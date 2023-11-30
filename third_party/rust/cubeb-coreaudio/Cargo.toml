@@ -192,9 +192,7 @@ mixer
 bitflags
 =
 "
-1
-.
-0
+2
 "
 cubeb
 -
@@ -272,4 +270,16 @@ coreaudio
 sys
 -
 utils
+"
+[
+dev
+-
+dependencies
+]
+itertools
+=
+"
+0
+.
+11
 "

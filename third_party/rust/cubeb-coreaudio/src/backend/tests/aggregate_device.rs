@@ -170,7 +170,7 @@ test_get_all_devices
 DeviceFilter
 :
 :
-ExcludeCubebAggregate
+ExcludeCubebAggregateAndVPIO
 )
 ;
 for
@@ -431,7 +431,7 @@ test_get_all_devices
 DeviceFilter
 :
 :
-IncludeCubebAggregate
+IncludeAll
 )
 ;
 let
