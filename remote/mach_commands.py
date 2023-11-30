@@ -418,9 +418,25 @@ js
 "
 )
         
+os
+.
+path
+.
+join
+(
 remotedir
 (
 command_context
+)
+"
+json
+-
+mocha
+-
+reporter
+.
+js
+"
 )
     
 )
@@ -787,6 +803,15 @@ install
 env
 =
 {
+            
+"
+CI
+"
+:
+"
+1
+"
+            
 "
 HUSKY
 "
@@ -794,6 +819,7 @@ HUSKY
 "
 0
 "
+            
 "
 PUPPETEER_SKIP_DOWNLOAD
 "
@@ -801,6 +827,7 @@ PUPPETEER_SKIP_DOWNLOAD
 "
 1
 "
+        
 }
         
 run_npm
@@ -4449,6 +4476,15 @@ setup
 env
 =
 {
+        
+"
+CI
+"
+:
+"
+1
+"
+        
 "
 HUSKY
 "
@@ -4456,6 +4492,7 @@ HUSKY
 "
 0
 "
+    
 }
     
 puppeteer_dir
@@ -4586,21 +4623,11 @@ False
         
 )
     
-command
-=
-"
-ci
-"
-if
-ci
-else
-"
-install
-"
-    
 run_npm
 (
-command
+"
+ci
+"
 cwd
 =
 puppeteer_dir_full_path
