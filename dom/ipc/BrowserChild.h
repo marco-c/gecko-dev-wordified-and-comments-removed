@@ -948,7 +948,7 @@ ipc
 :
 :
 IPCResult
-RecvCreateAboutBlankContentViewer
+RecvCreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *

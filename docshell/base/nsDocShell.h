@@ -1784,7 +1784,7 @@ EnsureDocumentViewer
 )
 ;
 nsresult
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *

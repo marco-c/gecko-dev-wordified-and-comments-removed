@@ -1439,7 +1439,7 @@ webnav
 .
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 principal
 principal

@@ -1300,7 +1300,7 @@ principal
 :
 targetBrowser
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 params
 .

@@ -390,7 +390,7 @@ chromeWebNav
 ;
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 principal
 principal

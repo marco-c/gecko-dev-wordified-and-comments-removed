@@ -2437,7 +2437,7 @@ browser
 .
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 null
 null

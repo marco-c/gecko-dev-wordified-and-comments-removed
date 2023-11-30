@@ -467,7 +467,7 @@ getSystemPrincipal
 ;
 chromeShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 system
 system

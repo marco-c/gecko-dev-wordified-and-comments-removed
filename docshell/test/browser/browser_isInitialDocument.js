@@ -1538,7 +1538,7 @@ browser
 .
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 principal
 principal

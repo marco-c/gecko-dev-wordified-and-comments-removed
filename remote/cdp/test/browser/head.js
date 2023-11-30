@@ -492,7 +492,7 @@ getSystemPrincipal
 ;
 webNavigation
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 system
 system

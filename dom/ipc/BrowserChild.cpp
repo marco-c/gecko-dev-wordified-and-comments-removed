@@ -4030,7 +4030,7 @@ IPCResult
 BrowserChild
 :
 :
-RecvCreateAboutBlankContentViewer
+RecvCreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *
@@ -4097,7 +4097,7 @@ MOZ_ASSERT_UNREACHABLE
 "
 Cannot
 use
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 to
 create
 system
@@ -4214,7 +4214,7 @@ IPC_OK
 docShell
 -
 >
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 aPrincipal
 aPartitionedPrincipal

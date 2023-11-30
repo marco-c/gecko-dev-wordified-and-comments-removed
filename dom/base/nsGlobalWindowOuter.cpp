@@ -8623,7 +8623,7 @@ GetDocShell
 )
 -
 >
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 aNewWindowPrincipal
 aNewWindowPrincipal

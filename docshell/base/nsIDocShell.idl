@@ -2696,7 +2696,7 @@ document
 *
 /
 void
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 in
 nsIPrincipal

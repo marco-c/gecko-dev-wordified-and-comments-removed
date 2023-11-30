@@ -29494,7 +29494,7 @@ GetCsp
 nsresult
 rv
 =
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 principal
 partitionedPrincipal
@@ -29535,7 +29535,7 @@ Should
 have
 doc
 if
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 "
 "
 succeeded
@@ -29576,7 +29576,7 @@ nsresult
 nsDocShell
 :
 :
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *
@@ -30220,7 +30220,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *
@@ -30234,7 +30234,7 @@ aCSP
 )
 {
 return
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 aPrincipal
 aPartitionedPrincipal
@@ -30263,7 +30263,7 @@ aWindowActor
 nsresult
 rv
 =
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 aWindowActor
 -
@@ -30319,7 +30319,7 @@ have
 a
 document
 if
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 succeeded
 "
 )
@@ -41466,7 +41466,7 @@ NS_ERROR_FAILURE
 }
 rv
 =
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nullptr
 nullptr
@@ -52583,7 +52583,7 @@ URI
 {
 rv
 =
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 aLoadState
 -

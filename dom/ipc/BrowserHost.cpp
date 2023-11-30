@@ -1057,7 +1057,7 @@ NS_IMETHODIMP
 BrowserHost
 :
 :
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *
@@ -1108,7 +1108,7 @@ Unused
 mRoot
 -
 >
-SendCreateAboutBlankContentViewer
+SendCreateAboutBlankDocumentViewer
 (
 aPrincipal
 aPartitionedPrincipal

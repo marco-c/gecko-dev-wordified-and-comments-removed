@@ -938,7 +938,7 @@ nsIWebNavigation
 ;
 chromeShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 system
 system

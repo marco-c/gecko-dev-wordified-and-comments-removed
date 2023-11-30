@@ -6478,7 +6478,7 @@ getSystemPrincipal
 ;
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 system
 system

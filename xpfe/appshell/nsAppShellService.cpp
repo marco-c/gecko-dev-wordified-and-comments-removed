@@ -3196,7 +3196,7 @@ rv
 docShell
 -
 >
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nsContentUtils
 :

@@ -5319,7 +5319,7 @@ sidebar
 .
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 null
 null
