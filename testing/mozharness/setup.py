@@ -80,7 +80,7 @@ coverage
 "
     
 "
-nose
+pynose
 "
     
 "

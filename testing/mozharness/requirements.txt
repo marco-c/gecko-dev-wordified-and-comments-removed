@@ -119,14 +119,14 @@ mock
 0
 .
 1
-nose
+pynose
 =
 =
 1
 .
-2
+4
 .
-1
+8
 ordereddict
 =
 =
