@@ -35324,7 +35324,7 @@ const
 nsACString
 &
 aType
-ContentViewerType
+DocumentViewerType
 *
 aLoaderType
 )
