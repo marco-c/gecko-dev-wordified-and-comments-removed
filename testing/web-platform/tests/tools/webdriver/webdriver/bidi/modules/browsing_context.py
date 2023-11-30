@@ -20,6 +20,13 @@ _module
 import
 BidiModule
 command
+from
+.
+.
+undefined
+import
+UNDEFINED
+Undefined
 class
 ElementOptions
 (
@@ -1248,6 +1255,8 @@ str
                      
 viewport
 :
+Union
+[
 Optional
 [
 Mapping
@@ -1256,17 +1265,23 @@ str
 Any
 ]
 ]
+Undefined
+]
 =
-None
+UNDEFINED
                      
 device_pixel_ratio
 :
+Union
+[
 Optional
 [
 float
 ]
+Undefined
+]
 =
-None
+UNDEFINED
 )
 -
 >
@@ -1299,7 +1314,7 @@ if
 viewport
 is
 not
-None
+UNDEFINED
 :
             
 params
@@ -1315,7 +1330,7 @@ if
 device_pixel_ratio
 is
 not
-None
+UNDEFINED
 :
             
 params
