@@ -6805,6 +6805,16 @@ chromium
 "
         
 "
+fetch
+-
+mac
+-
+chromium
+-
+arm
+"
+        
+"
 toolchain
 -
 linux64
@@ -6828,6 +6838,18 @@ car
 toolchain
 -
 macosx64
+-
+custom
+-
+car
+"
+        
+"
+toolchain
+-
+macosx
+-
+arm64
 -
 custom
 -
