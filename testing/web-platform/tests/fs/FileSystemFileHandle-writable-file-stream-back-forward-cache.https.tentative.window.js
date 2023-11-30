@@ -147,7 +147,7 @@ forward
 (
 )
 ;
-assert_equals
+assert_true
 (
 await
 createAndReleaseWFS
@@ -155,7 +155,6 @@ createAndReleaseWFS
 mode
 fileName
 )
-shouldRestoreFromBFCache
 )
 ;
 await
