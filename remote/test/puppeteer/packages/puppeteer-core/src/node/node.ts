@@ -64,3 +64,14 @@ PuppeteerNode
 js
 '
 ;
+export
+*
+from
+'
+.
+/
+ScreenRecorder
+.
+js
+'
+;

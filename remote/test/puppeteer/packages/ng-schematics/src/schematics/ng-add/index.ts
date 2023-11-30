@@ -1,8 +1,11 @@
 import
 {
 chain
+type
 Rule
+type
 SchematicContext
+type
 Tree
 }
 from

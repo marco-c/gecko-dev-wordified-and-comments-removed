@@ -19,7 +19,7 @@ core
 import
 {
 Locator
-LocatorEmittedEvents
+LocatorEvent
 }
 from
 '
@@ -162,7 +162,7 @@ button
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (
@@ -347,7 +347,7 @@ false
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (
@@ -516,7 +516,7 @@ button
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (
@@ -695,7 +695,7 @@ button
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (
@@ -2142,7 +2142,7 @@ button
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (
@@ -2314,7 +2314,7 @@ button
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (
@@ -2509,7 +2509,7 @@ div
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (
@@ -2671,7 +2671,7 @@ textarea
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (
@@ -2828,7 +2828,7 @@ select
 .
 on
 (
-LocatorEmittedEvents
+LocatorEvent
 .
 Action
 (

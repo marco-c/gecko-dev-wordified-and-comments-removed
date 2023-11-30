@@ -586,7 +586,6 @@ target
 =
 >
 {
-return
 events
 .
 push
@@ -617,7 +616,6 @@ target
 =
 >
 {
-return
 events
 .
 push
@@ -648,7 +646,6 @@ target
 =
 >
 {
-return
 events
 .
 push
@@ -1563,6 +1560,11 @@ browser
 wsEndpoint
 (
 )
+protocol
+:
+browser
+.
+protocol
 }
 )
 ;

@@ -21,7 +21,9 @@ expect
 ;
 import
 {
+type
 ActionResult
+type
 HTTPRequest
 InterceptResolutionAction
 }
@@ -41,6 +43,7 @@ js
 '
 ;
 import
+type
 {
 ConsoleMessage
 }

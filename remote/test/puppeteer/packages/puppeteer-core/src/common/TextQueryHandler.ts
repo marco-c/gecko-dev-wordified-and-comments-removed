@@ -1,6 +1,7 @@
 import
 {
 QueryHandler
+type
 QuerySelectorAll
 }
 from

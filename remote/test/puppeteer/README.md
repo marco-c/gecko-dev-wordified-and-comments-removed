@@ -866,7 +866,8 @@ information
 puppeteer
 -
 core
-Every
+For
+every
 release
 since
 v1
@@ -1111,7 +1112,6 @@ puppeteernode
 launch
 )
 with
-an
 an
 explicit
 [

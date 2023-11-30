@@ -1,6 +1,7 @@
 import
 {
 SchematicsException
+type
 Tree
 }
 from

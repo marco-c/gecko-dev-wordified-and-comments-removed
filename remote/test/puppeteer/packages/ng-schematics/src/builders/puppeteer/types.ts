@@ -1,4 +1,5 @@
 import
+type
 {
 JsonObject
 }
@@ -12,6 +13,7 @@ core
 '
 ;
 import
+type
 {
 TestRunner
 }

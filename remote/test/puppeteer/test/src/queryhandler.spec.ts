@@ -24,6 +24,7 @@ core
 '
 ;
 import
+type
 {
 ElementHandle
 }

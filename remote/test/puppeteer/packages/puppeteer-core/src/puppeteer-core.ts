@@ -1,4 +1,5 @@
 export
+type
 {
 Protocol
 }
@@ -18,6 +19,19 @@ from
 api
 /
 api
+.
+js
+'
+;
+export
+*
+from
+'
+.
+/
+cdp
+/
+cdp
 .
 js
 '

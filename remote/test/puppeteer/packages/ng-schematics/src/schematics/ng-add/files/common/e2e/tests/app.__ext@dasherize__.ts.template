@@ -129,10 +129,6 @@ text
 project
 %
 >
-app
-is
-running
-!
 '
 )
 ;

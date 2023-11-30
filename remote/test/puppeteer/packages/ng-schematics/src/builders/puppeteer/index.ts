@@ -10,9 +10,12 @@ child_process
 import
 {
 createBuilder
+type
 BuilderContext
+type
 BuilderOutput
 targetFromTargetString
+type
 BuilderRun
 }
 from
@@ -25,6 +28,7 @@ architect
 '
 ;
 import
+type
 {
 JsonObject
 }
@@ -59,6 +63,7 @@ js
 '
 ;
 import
+type
 {
 PuppeteerBuilderOptions
 }

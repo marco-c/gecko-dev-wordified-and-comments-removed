@@ -14,6 +14,7 @@ browsers
 '
 ;
 import
+type
 {
 Product
 }

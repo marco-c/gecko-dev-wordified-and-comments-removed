@@ -1,4 +1,5 @@
 import
+type
 {
 BrowserConnectOptions
 }
@@ -9,12 +10,13 @@ from
 /
 common
 /
-BrowserConnector
+ConnectOptions
 .
 js
 '
 ;
 import
+type
 {
 Product
 }

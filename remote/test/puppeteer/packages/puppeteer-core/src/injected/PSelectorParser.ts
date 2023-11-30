@@ -1,5 +1,6 @@
 import
 {
+type
 Token
 tokenize
 TOKENS

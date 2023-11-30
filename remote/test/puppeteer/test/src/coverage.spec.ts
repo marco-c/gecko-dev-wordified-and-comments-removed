@@ -1536,6 +1536,13 @@ html
 await
 page
 .
+waitForNetworkIdle
+(
+)
+;
+await
+page
+.
 goto
 (
 server

@@ -29,6 +29,7 @@ js
 import
 {
 BrowserPlatform
+type
 ProfileOptions
 }
 from
@@ -655,6 +656,17 @@ browser
 safebrowsing
 .
 malware
+.
+enabled
+'
+:
+false
+'
+browser
+.
+safebrowsing
+.
+passwords
 .
 enabled
 '

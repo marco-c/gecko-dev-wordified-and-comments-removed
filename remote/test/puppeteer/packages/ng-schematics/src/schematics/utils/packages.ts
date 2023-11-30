@@ -8,6 +8,7 @@ https
 '
 ;
 import
+type
 {
 Tree
 }
@@ -51,6 +52,7 @@ js
 ;
 import
 {
+type
 SchematicsOptions
 TestRunner
 }

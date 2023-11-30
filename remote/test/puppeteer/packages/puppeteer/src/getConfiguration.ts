@@ -26,6 +26,7 @@ cosmiconfig
 '
 ;
 import
+type
 {
 Configuration
 Product

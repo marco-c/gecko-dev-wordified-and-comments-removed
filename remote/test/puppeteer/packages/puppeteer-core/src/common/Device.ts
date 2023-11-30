@@ -1,4 +1,5 @@
 import
+type
 {
 Viewport
 }
@@ -6,7 +7,7 @@ from
 '
 .
 /
-PuppeteerViewport
+Viewport
 .
 js
 '

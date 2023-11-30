@@ -15,6 +15,7 @@ path
 '
 ;
 import
+type
 {
 JsonObject
 }
@@ -30,6 +31,7 @@ core
 import
 {
 SchematicTestRunner
+type
 UnitTestTree
 }
 from

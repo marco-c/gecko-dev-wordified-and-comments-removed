@@ -6,6 +6,7 @@ expect
 '
 ;
 import
+type
 {
 BrowserContext
 }
@@ -25,8 +26,9 @@ js
 '
 ;
 import
+type
 {
-CDPTarget
+CdpTarget
 }
 from
 '
@@ -36,7 +38,7 @@ core
 /
 internal
 /
-common
+cdp
 /
 Target
 .
@@ -45,7 +47,6 @@ js
 ;
 import
 {
-describeWithDebugLogs
 getTestState
 launch
 }
@@ -75,7 +76,7 @@ utils
 js
 '
 ;
-describeWithDebugLogs
+describe
 (
 '
 OOPIF
@@ -3289,7 +3290,7 @@ return
 (
 target
 as
-CDPTarget
+CdpTarget
 )
 .
 _getTargetInfo

@@ -371,7 +371,9 @@ main
 /
 tools
 /
-mochaRunner
+mocha
+-
+runner
 )
 for
 more

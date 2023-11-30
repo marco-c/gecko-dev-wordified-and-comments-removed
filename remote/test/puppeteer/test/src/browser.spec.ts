@@ -388,6 +388,11 @@ connect
 (
 {
 browserWSEndpoint
+protocol
+:
+browser
+.
+protocol
 }
 )
 ;
@@ -475,6 +480,11 @@ connect
 (
 {
 browserWSEndpoint
+protocol
+:
+browser
+.
+protocol
 }
 )
 ;

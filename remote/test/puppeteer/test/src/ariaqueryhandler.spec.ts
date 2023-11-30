@@ -3057,7 +3057,7 @@ aria
 role
 =
 "
-img
+image
 "
 ]
 '

@@ -1,8 +1,11 @@
 import
 {
 chain
+type
 Rule
+type
 SchematicContext
+type
 Tree
 }
 from
@@ -33,6 +36,7 @@ js
 import
 {
 TestRunner
+type
 AngularProject
 }
 from

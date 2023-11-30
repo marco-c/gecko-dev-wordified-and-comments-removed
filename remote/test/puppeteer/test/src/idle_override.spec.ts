@@ -6,6 +6,7 @@ expect
 '
 ;
 import
+type
 {
 ElementHandle
 }
@@ -25,6 +26,7 @@ js
 '
 ;
 import
+type
 {
 Page
 }
