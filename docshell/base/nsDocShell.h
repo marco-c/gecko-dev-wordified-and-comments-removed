@@ -1496,7 +1496,7 @@ const
 return
 !
 !
-mContentViewer
+mDocumentViewer
 ;
 }
 static
@@ -3330,7 +3330,7 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-mContentViewer
+mDocumentViewer
 ;
 nsCOMPtr
 <
