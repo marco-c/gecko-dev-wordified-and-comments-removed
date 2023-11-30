@@ -5734,7 +5734,7 @@ aIndex
 )
 )
 ;
-EvictOutOfRangeWindowContentViewers
+EvictOutOfRangeWindowDocumentViewers
 (
 aIndex
 )
@@ -7151,7 +7151,7 @@ void
 nsSHistory
 :
 :
-EvictOutOfRangeWindowContentViewers
+EvictOutOfRangeWindowDocumentViewers
 (
 int32_t
 aIndex
@@ -7193,7 +7193,7 @@ LOG
 (
 (
 "
-EvictOutOfRangeWindowContentViewers
+EvictOutOfRangeWindowDocumentViewers
 (
 index
 =
