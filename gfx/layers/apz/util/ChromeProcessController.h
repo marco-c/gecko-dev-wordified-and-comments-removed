@@ -73,9 +73,6 @@ IAPZCTreeManager
 class
 APZEventState
 ;
-struct
-DoubleTapToZoomMetrics
-;
 class
 ChromeProcessController
 :
@@ -199,13 +196,6 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
-const
-Maybe
-<
-DoubleTapToZoomMetrics
->
-&
-aDoubleTapToZoomMetrics
 )
 override
 ;
@@ -434,10 +424,6 @@ const
 ScrollableLayerGuid
 &
 aGuid
-const
-DoubleTapToZoomMetrics
-&
-aDoubleTapToZoomMetrics
 )
 ;
 }

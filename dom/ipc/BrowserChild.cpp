@@ -6235,10 +6235,6 @@ const
 ScrollableLayerGuid
 &
 aGuid
-const
-DoubleTapToZoomMetrics
-&
-aMetrics
 )
 {
 MOZ_LOG
@@ -6316,7 +6312,6 @@ CalculateRectToZoomTo
 (
 document
 aPoint
-aMetrics
 )
 ;
 uint32_t
@@ -6406,13 +6401,6 @@ const
 uint64_t
 &
 aInputBlockId
-const
-Maybe
-<
-DoubleTapToZoomMetrics
->
-&
-aDoubleTapToZoomMetrics
 )
 {
 RefPtr
@@ -6547,8 +6535,6 @@ HandleDoubleTap
 point
 aModifiers
 aGuid
-*
-aDoubleTapToZoomMetrics
 )
 ;
 break
@@ -6708,13 +6694,6 @@ const
 uint64_t
 &
 aInputBlockId
-const
-Maybe
-<
-DoubleTapToZoomMetrics
->
-&
-aDoubleTapToZoomMetrics
 )
 {
 RefPtr
@@ -6734,7 +6713,6 @@ aPoint
 aModifiers
 aGuid
 aInputBlockId
-aDoubleTapToZoomMetrics
 )
 ;
 }

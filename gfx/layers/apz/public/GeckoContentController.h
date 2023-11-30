@@ -118,9 +118,6 @@ namespace
 layers
 {
 struct
-DoubleTapToZoomMetrics
-;
-struct
 RepaintRequest
 ;
 class
@@ -188,13 +185,6 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
-const
-Maybe
-<
-DoubleTapToZoomMetrics
->
-&
-aDoubleTapTooZoomMetrics
 )
 =
 0

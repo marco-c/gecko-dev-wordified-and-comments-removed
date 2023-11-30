@@ -1114,8 +1114,8 @@ aComponents
 )
 const
 ;
-CSSToCSSMatrix4x4
-GetOopifToRootContentTransform
+ParentLayerToParentLayerMatrix4x4
+GetOopifApzcToRootContentApzcTransform
 (
 AsyncPanZoomController
 *
@@ -1175,15 +1175,6 @@ FindZoomableApzc
 AsyncPanZoomController
 *
 aStart
-)
-const
-;
-AsyncPanZoomController
-*
-FindRootApzcFor
-(
-LayersId
-aLayersId
 )
 const
 ;
