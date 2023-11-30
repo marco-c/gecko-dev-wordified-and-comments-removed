@@ -59487,6 +59487,10 @@ StylePreloadKind
 aKind
 uint64_t
 aEarlyHintPreloaderId
+const
+nsAString
+&
+aFetchPriority
 )
 {
 MOZ_ASSERT
@@ -59554,6 +59558,13 @@ aCrossOriginAttr
 )
 aNonce
 aIntegrity
+nsGenericHTMLElement
+:
+:
+ToFetchPriority
+(
+aFetchPriority
+)
 )
 ;
 if

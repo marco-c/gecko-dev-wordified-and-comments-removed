@@ -303,6 +303,7 @@ mReferrerPolicyOrIntegrity
 mNonce
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mIsLinkPreload
+mFetchPriority
 )
 ;
 break

@@ -321,6 +321,11 @@ const
 nsAString
 &
 aNonce
+dom
+:
+:
+FetchPriority
+aFetchPriority
 )
 ;
 nsIReferrerInfo

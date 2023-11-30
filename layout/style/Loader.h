@@ -157,6 +157,12 @@ DocGroup
 class
 Element
 ;
+enum
+class
+FetchPriority
+:
+uint8_t
+;
 }
 class
 SheetLoadDataHashKey
@@ -1221,6 +1227,11 @@ const
 nsAString
 &
 aIntegrity
+dom
+:
+:
+FetchPriority
+aFetchPriority
 )
 ;
 Result
@@ -1764,6 +1775,11 @@ nsAString
 aIntegrity
 uint64_t
 aEarlyHintPreloaderId
+dom
+:
+:
+FetchPriority
+aFetchPriority
 )
 ;
 RefPtr

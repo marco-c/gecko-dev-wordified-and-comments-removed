@@ -829,6 +829,10 @@ nsAString
 aIntegrity
 bool
 aLinkPreload
+const
+nsAString
+&
+aFetchPriority
 )
 ;
 void
