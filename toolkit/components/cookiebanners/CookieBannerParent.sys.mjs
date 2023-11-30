@@ -1357,6 +1357,11 @@ rule
 .
 skipPresenceVisibilityCheck
 target
+isGlobalRule
+:
+rule
+.
+isGlobalRule
 }
 ;
 }
