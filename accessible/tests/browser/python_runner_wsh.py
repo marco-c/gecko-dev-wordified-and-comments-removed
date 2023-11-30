@@ -149,7 +149,11 @@ linux
 "
 :
         
-pass
+testDir
+=
+"
+atk
+"
     
 if
 testDir
