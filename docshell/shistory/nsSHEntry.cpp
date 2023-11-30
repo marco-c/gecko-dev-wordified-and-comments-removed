@@ -4119,7 +4119,7 @@ GetState
 )
 -
 >
-mContentViewer
+mDocumentViewer
 ;
 NS_IF_ADDREF
 (
@@ -4152,7 +4152,7 @@ GetState
 )
 -
 >
-mContentViewer
+mDocumentViewer
 ;
 return
 NS_OK

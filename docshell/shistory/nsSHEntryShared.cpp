@@ -747,7 +747,7 @@ nullptr
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 RemoveFromBFCacheSync
@@ -890,7 +890,7 @@ SyncPresentationState
 {
 if
 (
-mContentViewer
+mDocumentViewer
 &
 &
 mWindowState
@@ -948,10 +948,10 @@ nullptr
 }
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
-mContentViewer
+mDocumentViewer
 -
 >
 ClearHistoryEntry
@@ -963,7 +963,7 @@ RemoveFromExpirationTracker
 (
 )
 ;
-mContentViewer
+mDocumentViewer
 =
 nullptr
 ;
@@ -1018,7 +1018,7 @@ aViewer
 |
 |
 !
-mContentViewer
+mDocumentViewer
 "
 SHEntryShared
 already
@@ -1029,7 +1029,7 @@ viewer
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 |
 |
 !
@@ -1054,13 +1054,13 @@ IsTracked
 )
 )
 ;
-mContentViewer
+mDocumentViewer
 =
 aViewer
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 if
@@ -1088,7 +1088,7 @@ this
 }
 mDocument
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -1132,7 +1132,7 @@ RemoveFromBFCacheSync
 {
 MOZ_ASSERT
 (
-mContentViewer
+mDocumentViewer
 &
 &
 mDocument
@@ -1162,7 +1162,7 @@ nsIDocumentViewer
 >
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 DropPresentationState
 (
@@ -1220,7 +1220,7 @@ RemoveFromBFCacheAsync
 {
 MOZ_ASSERT
 (
-mContentViewer
+mDocumentViewer
 &
 &
 mDocument
@@ -1252,7 +1252,7 @@ nsIDocumentViewer
 >
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 RefPtr
 <
