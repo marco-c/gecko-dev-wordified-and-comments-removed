@@ -7,6 +7,15 @@ ScrollbarActivity_h___
 #
 include
 "
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -65,6 +74,11 @@ mScrollableFrame
 aScrollableFrame
 )
 {
+MOZ_ASSERT
+(
+mScrollableFrame
+)
+;
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMEVENTLISTENER
@@ -247,6 +261,7 @@ true
 }
 nsIScrollbarMediator
 *
+const
 mScrollableFrame
 ;
 nsCOMPtr
