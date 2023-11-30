@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -58,6 +65,8 @@ nsSHEntry
 :
 public
 nsISHEntry
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -69,7 +78,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISHENTRY
 virtual
 void
-EvictContentViewer
+EvictDocumentViewer
 (
 )
 ;
@@ -172,8 +181,7 @@ mScrollPositionX
 int32_t
 mScrollPositionY
 ;
-nsISHEntry
-*
+nsWeakPtr
 mParent
 ;
 nsCOMArray

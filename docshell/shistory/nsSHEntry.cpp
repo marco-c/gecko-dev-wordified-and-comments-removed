@@ -4032,7 +4032,7 @@ void
 nsSHEntry
 :
 :
-EvictContentViewer
+EvictDocumentViewer
 (
 )
 {
