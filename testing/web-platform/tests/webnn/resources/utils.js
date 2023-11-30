@@ -2755,6 +2755,11 @@ builder
 constant
 (
 {
+dataType
+:
+resources
+.
+type
 type
 :
 resources
@@ -2817,6 +2822,11 @@ input
 (
 inputOperandName
 {
+dataType
+:
+inputResources
+.
+type
 type
 :
 inputResources
@@ -3256,6 +3266,11 @@ input
 .
 name
 {
+dataType
+:
+input
+.
+type
 type
 :
 input
