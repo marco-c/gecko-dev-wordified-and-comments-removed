@@ -1060,7 +1060,7 @@ bin
 tox
 -
 e
-py39
+py311
 -
 hg6
 .
