@@ -166,7 +166,7 @@ TypeInner
 Matrix
 {
 rows
-width
+scalar
 .
 .
 }
@@ -192,14 +192,6 @@ size
 :
 rows
 scalar
-:
-Scalar
-:
-:
-float
-(
-width
-)
 }
 }
 Default

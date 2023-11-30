@@ -352,7 +352,7 @@ Matrix
 {
 columns
 rows
-width
+scalar
 }
 =
 >
@@ -369,17 +369,6 @@ size
 :
 rows
 scalar
-:
-crate
-:
-:
-Scalar
-:
-:
-float
-(
-width
-)
 }
 ;
 if

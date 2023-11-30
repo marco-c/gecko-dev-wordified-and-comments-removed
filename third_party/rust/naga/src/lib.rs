@@ -1816,9 +1816,9 @@ VectorSize
 rows
 :
 VectorSize
-width
+scalar
 :
-Bytes
+Scalar
 }
 Atomic
 (
@@ -1985,6 +1985,10 @@ u32
 I32
 (
 i32
+)
+I64
+(
+i64
 )
 Bool
 (

@@ -7737,9 +7737,9 @@ Matrix
 {
 columns
 rows
-width
+scalar
 :
-float_width
+float_scalar
 }
 ]
 MacroCall
@@ -7837,9 +7837,9 @@ Matrix
 {
 columns
 rows
-width
+scalar
 :
-float_width
+float_scalar
 }
 ]
 ;

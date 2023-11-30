@@ -1165,7 +1165,7 @@ columns
 :
 _
 rows
-width
+scalar
 }
 =
 >
@@ -1178,6 +1178,8 @@ Alignment
 :
 new
 (
+scalar
+.
 width
 as
 u32

@@ -366,7 +366,7 @@ Matrix
 {
 columns
 rows
-width
+scalar
 }
 =
 >
@@ -388,6 +388,8 @@ Alignment
 :
 from_width
 (
+scalar
+.
 width
 )
 ;

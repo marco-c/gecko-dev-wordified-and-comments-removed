@@ -1329,7 +1329,7 @@ Matrix
 {
 columns
 rows
-width
+scalar
 }
 =
 >
@@ -1340,6 +1340,10 @@ Matrix
 {
 columns
 rows
+width
+:
+scalar
+.
 width
 }
 crate
