@@ -101,6 +101,13 @@ PerformanceEntry
 {
 readonly
 attribute
+unsigned
+long
+long
+id
+;
+readonly
+attribute
 DOMString
 name
 ;
@@ -118,6 +125,13 @@ readonly
 attribute
 DOMHighResTimeStamp
 duration
+;
+readonly
+attribute
+unsigned
+long
+long
+navigationId
 ;
 [
 Default
