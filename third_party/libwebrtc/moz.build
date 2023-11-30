@@ -5475,6 +5475,16 @@ libwebrtc
 /
 video
 /
+frame_dumping_encoder_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+video
+/
 render
 /
 incoming_video_stream_gn
