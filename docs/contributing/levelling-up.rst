@@ -187,7 +187,12 @@ this
 follow
 the
 instructions
-here
+on
+the
+Becoming
+A
+Mozilla
+Committer
 <
 https
 :
@@ -213,6 +218,7 @@ commit
 /
 >
 __
+page
 to
 file
 a
@@ -360,7 +366,12 @@ this
 follow
 the
 instructions
-here
+on
+the
+Becoming
+A
+Mozilla
+Committer
 <
 https
 :
@@ -386,6 +397,7 @@ commit
 /
 >
 __
+page
 to
 file
 a
