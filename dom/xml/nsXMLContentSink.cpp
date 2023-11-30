@@ -2422,8 +2422,10 @@ SetColumnNumber
 aFromParser
 ?
 aColumnNumber
++
+1
 :
-0
+1
 )
 ;
 }
