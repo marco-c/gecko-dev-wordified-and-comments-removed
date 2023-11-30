@@ -311,7 +311,7 @@ loc
 start
 .
 column
-0
+1
 )
 ;
 checkColumn
@@ -323,8 +323,8 @@ loc
 end
 .
 column
-7
-11
+8
+12
 )
 ;
 var
@@ -393,7 +393,7 @@ loc
 start
 .
 column
-0
+1
 )
 ;
 checkColumn
@@ -405,8 +405,8 @@ loc
 end
 .
 column
-7
-11
+8
+12
 )
 ;
 var
@@ -468,7 +468,7 @@ loc
 start
 .
 column
-0
+1
 )
 ;
 checkColumn
@@ -480,8 +480,8 @@ loc
 end
 .
 column
-6
-10
+7
+11
 )
 ;
 var
