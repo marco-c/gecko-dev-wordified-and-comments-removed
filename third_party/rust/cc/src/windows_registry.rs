@@ -2485,6 +2485,7 @@ Tool
 {
 let
 (
+root_path
 bin_path
 host_dylib_path
 lib_path
@@ -2587,7 +2588,7 @@ atl_paths
 (
 target
 &
-bin_path
+root_path
 )
 {
 tool
@@ -2644,6 +2645,7 @@ PathBuf
 Option
 <
 (
+PathBuf
 PathBuf
 PathBuf
 PathBuf
@@ -2894,6 +2896,7 @@ include
 Some
 (
 (
+path
 bin_path
 host_dylib_path
 lib_path
