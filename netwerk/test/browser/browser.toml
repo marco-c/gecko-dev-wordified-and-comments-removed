@@ -925,6 +925,13 @@ js
 ]
 [
 "
+browser_purgeCache_idle_daily
+.
+js
+"
+]
+[
+"
 browser_resource_navigation
 .
 js

@@ -1138,6 +1138,12 @@ OnDelayedStartupFinished
 )
 ;
 static
+nsresult
+OnIdleDaily
+(
+)
+;
+static
 already_AddRefed
 <
 nsIEventTarget
