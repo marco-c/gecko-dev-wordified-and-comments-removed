@@ -81,7 +81,7 @@ MIN_PYTHON_VERSION
 =
 (
 3
-8
+7
 )
 MAX_PYTHON_VERSION_TO_CONSIDER
 =
@@ -482,7 +482,7 @@ running
 Python
 3
 .
-8
+7
 +
 .
 We

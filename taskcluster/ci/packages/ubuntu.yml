@@ -346,12 +346,12 @@ get
 install
 python3
 .
-8
+7
 -
 dev
 python3
 .
-8
+7
 -
 dbg
 &
@@ -362,7 +362,7 @@ DEBPYTHON3_SUPPORTED
 "
 3
 .
-8
+7
 "
 ub18
 -
@@ -453,7 +453,7 @@ get
 install
 python3
 .
-8
+7
 -
 dev
 &
@@ -464,7 +464,7 @@ DEBPYTHON3_SUPPORTED
 "
 3
 .
-8
+7
 "
 &
 &
@@ -559,7 +559,7 @@ get
 install
 python3
 .
-8
+7
 -
 dev
 &
@@ -570,7 +570,7 @@ DEB_HG_PYTHON_VERSIONS
 "
 3
 .
-8
+7
 "
 &
 &
@@ -580,7 +580,7 @@ DEBPYTHON3_SUPPORTED
 "
 3
 .
-8
+7
 "
 &
 &

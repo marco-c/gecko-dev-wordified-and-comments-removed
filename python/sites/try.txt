@@ -180,6 +180,13 @@ third_party
 /
 python
 /
+asynctest
+vendored
+:
+third_party
+/
+python
+/
 binaryornot
 vendored
 :
