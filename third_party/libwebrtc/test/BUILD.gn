@@ -2731,22 +2731,6 @@ gtest
 h
 "
 ]
-public_deps
-=
-[
-]
-#
-no
--
-presubmit
--
-check
-TODO
-(
-webrtc
-:
-8603
-)
 if
 (
 is_ios
@@ -5337,6 +5321,7 @@ is_mac
 )
 {
 public_deps
++
 =
 [
 "
@@ -5360,6 +5345,7 @@ webrtc
 else
 {
 public_deps
++
 =
 #
 no
@@ -5746,6 +5732,7 @@ memory
 "
 ]
 public_deps
++
 =
 #
 no
@@ -6371,6 +6358,7 @@ test_renderer
 )
 {
 public_deps
++
 =
 #
 no
