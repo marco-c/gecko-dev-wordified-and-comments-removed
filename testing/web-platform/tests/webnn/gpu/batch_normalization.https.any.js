@@ -6,8 +6,11 @@ strict
 testWebNNOperation
 (
 '
-gemm
+batchNormalization
 '
-buildGemm
+buildBatchNorm
+'
+gpu
+'
 )
 ;
