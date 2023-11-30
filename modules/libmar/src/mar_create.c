@@ -1172,8 +1172,6 @@ return
 0
 ;
 }
-else
-{
 if
 (
 fseek
@@ -1211,7 +1209,6 @@ return
 -
 1
 ;
-}
 }
 }
 fclose
