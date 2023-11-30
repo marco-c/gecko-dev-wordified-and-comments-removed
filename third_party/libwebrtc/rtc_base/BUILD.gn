@@ -6596,11 +6596,6 @@ network
 :
 sent_packet
 "
-"
-third_party
-/
-sigslot
-"
 ]
 }
 }
@@ -6698,11 +6693,6 @@ sent_packet
 system
 :
 no_unique_address
-"
-"
-third_party
-/
-sigslot
 "
 ]
 absl_deps
