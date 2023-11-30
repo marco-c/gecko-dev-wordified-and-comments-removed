@@ -170,7 +170,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Enter
+KEY_Tab
 "
 )
 ;
@@ -381,7 +381,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Enter
+KEY_Tab
 "
 )
 ;
