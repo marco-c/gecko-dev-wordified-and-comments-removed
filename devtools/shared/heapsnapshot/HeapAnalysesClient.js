@@ -61,7 +61,9 @@ shared
 /
 heapsnapshot
 /
-HeapAnalysesWorker
+HeapAnalyses
+.
+worker
 .
 js
 "

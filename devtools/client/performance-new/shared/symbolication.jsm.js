@@ -675,7 +675,7 @@ new
 shared
 /
 symbolication
--
+.
 worker
 .
 js
@@ -746,7 +746,7 @@ new
 shared
 /
 symbolication
--
+.
 worker
 .
 js
