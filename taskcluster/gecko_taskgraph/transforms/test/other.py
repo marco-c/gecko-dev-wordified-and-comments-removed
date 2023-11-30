@@ -2404,7 +2404,7 @@ node
 ]
                 
 "
-macosx
+macosx1015
 .
 *
 "
@@ -2423,6 +2423,38 @@ geckodriver
                     
 "
 macosx64
+-
+node
+-
+16
+"
+                
+]
+                
+"
+macosx1300
+.
+*
+"
+:
+[
+                    
+"
+browsertime
+"
+                    
+"
+macosx64
+-
+aarch64
+-
+geckodriver
+"
+                    
+"
+macosx64
+-
+aarch64
 -
 node
 -
