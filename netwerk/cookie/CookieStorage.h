@@ -172,6 +172,12 @@ aMallocSizeOf
 )
 const
 ;
+bool
+IsPartitioned
+(
+)
+const
+;
 private
 :
 ArrayType
@@ -844,6 +850,14 @@ uint16_t
 aMaxNumberOfCookies
 int64_t
 aCookiePurgeAge
+)
+=
+0
+;
+virtual
+void
+CollectCookieJarSizeData
+(
 )
 =
 0
