@@ -598,7 +598,4 @@ llvm
 -
 readelf
 "
-fuchsia_target_api_level
-=
-11
 }
