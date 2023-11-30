@@ -144,6 +144,10 @@ taskcluster
 tools
 /
 moztreedocs
+-
+mozbuild
+/
+vendor
 testing_doc
 :
 -
