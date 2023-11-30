@@ -468,10 +468,12 @@ aTextNode
 )
 ;
 void
-ExtendRangesToWrapLinesToHandleBlockLevelEditAction
+ExtendRangesToWrapLines
 (
 EditSubAction
 aEditSubAction
+BlockInlineCheck
+aBlockInlineCheck
 const
 dom
 :
@@ -2028,6 +2030,8 @@ EditorDOMRange
 aRange
 EditSubAction
 aEditSubAction
+BlockInlineCheck
+aBlockInlineCheck
 const
 dom
 :
@@ -2065,6 +2069,7 @@ EndRef
 (
 )
 aEditSubAction
+aBlockInlineCheck
 aEditingHost
 )
 ;
@@ -2086,6 +2091,8 @@ EditorDOMPoint
 aEndPoint
 EditSubAction
 aEditSubAction
+BlockInlineCheck
+aBlockInlineCheck
 const
 dom
 :
@@ -2143,6 +2150,7 @@ ExtendRangeToWrapStartAndEndLinesContainingBoundaries
 *
 range
 aEditSubAction
+aBlockInlineCheck
 aEditingHost
 )
 )
@@ -2257,6 +2265,8 @@ nsRange
 aRange
 EditSubAction
 aEditSubAction
+BlockInlineCheck
+aBlockInlineCheck
 const
 dom
 :
