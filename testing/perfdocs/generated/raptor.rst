@@ -68633,7 +68633,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -71187,7 +71186,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -73294,7 +73292,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -74572,7 +74569,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -76911,7 +76907,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -78588,7 +78583,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -80241,7 +80235,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -81816,7 +81809,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -83822,7 +83814,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -85837,7 +85828,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -87634,7 +87624,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -89377,7 +89366,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -91135,7 +91123,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -93276,7 +93263,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -95425,7 +95411,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -95640,7 +95625,7 @@ com
 /
 gallery
 /
-WuOobqV
+rCXZUil
 >
 __
 *
@@ -95662,7 +95647,7 @@ com
 /
 gallery
 /
-uTI7fKy
+m5tYJL6
 >
 __
 *
@@ -97093,7 +97078,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -99158,7 +99142,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -100846,7 +100829,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -102529,7 +102511,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -104192,7 +104173,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -105726,7 +105706,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -107010,7 +106989,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -108649,7 +108627,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -110308,7 +110285,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -112000,7 +111976,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -114145,7 +114120,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -115906,20 +115880,6 @@ true
 *
 *
 *
-measure
-*
-*
-:
-fcp
-loadtime
-ContentfulSpeedIndex
-PerceptualSpeedIndex
-SpeedIndex
-FirstVisualChange
-LastVisualChange
-*
-*
-*
 page
 cycles
 *
@@ -115952,7 +115912,7 @@ manifest
 *
 *
 :
-mitm8
+mitm7
 -
 linux
 -
@@ -117590,7 +117550,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -119556,7 +119515,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -120839,7 +120797,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -123311,7 +123268,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -125411,7 +125367,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -146471,7 +146426,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -147022,7 +146976,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -149485,7 +149438,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -150085,7 +150037,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -150755,7 +150706,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -151502,7 +151452,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -152164,7 +152113,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -154440,7 +154388,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -155157,7 +155104,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -155852,7 +155798,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -156559,7 +156504,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -157312,7 +157256,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -158920,7 +158863,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -160892,7 +160834,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -161591,7 +161532,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -162153,7 +162093,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -162864,7 +162803,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -163615,7 +163553,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -165706,7 +165643,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -167740,7 +167676,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -168316,7 +168251,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -170406,7 +170340,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -170963,7 +170896,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -171627,7 +171559,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -172342,7 +172273,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -174769,7 +174699,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -176863,7 +176792,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
