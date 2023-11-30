@@ -7307,8 +7307,9 @@ uint32_t
 value
 )
 {
-MOZ_ALWAYS_TRUE
 (
+void
+)
 cx
 -
 >
@@ -7324,7 +7325,6 @@ setParameter
 cx
 key
 value
-)
 )
 ;
 }
