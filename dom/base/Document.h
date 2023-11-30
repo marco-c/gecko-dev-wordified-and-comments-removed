@@ -10978,12 +10978,6 @@ HasAnySkippedResizeObservations
 )
 const
 ;
-bool
-HasContentVisibilityAutoElements
-(
-)
-const
-;
 MOZ_CAN_RUN_SCRIPT
 void
 DetermineProximityToViewportAndNotifyResizeObservers
