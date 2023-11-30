@@ -329,3 +329,17 @@ debian
 ;
 \
 done
+&
+&
+\
+/
+usr
+/
+local
+/
+sbin
+/
+clean_packages
+.
+sh
+DOCKER_IMAGE_PACKAGES
