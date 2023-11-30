@@ -224,7 +224,7 @@ sample_rate_hz_
 )
 red_payload_type_
 (
-200
+63
 )
 {
 AudioEncoderCopyRed
@@ -2984,8 +2984,6 @@ encoded_
 4
 ]
 primary_payload_type
-|
-0x80
 )
 ;
 timestamp_delta
