@@ -1025,6 +1025,12 @@ aCode
 return
 ;
 }
+nsDependentCString
+reason
+(
+aReason
+)
+;
 if
 (
 BackgroundParent
@@ -1045,7 +1051,7 @@ BackgroundParent
 KillHardAsync
 (
 this
-aReason
+reason
 )
 ;
 #
@@ -1070,12 +1076,6 @@ InduceConnectionError
 }
 else
 {
-nsDependentCString
-reason
-(
-aReason
-)
-;
 CrashReporter
 :
 :
