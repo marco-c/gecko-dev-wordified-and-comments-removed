@@ -6004,7 +6004,7 @@ Yes
 ;
 static
 bool
-GetContentViewerSize
+GetDocumentViewerSize
 (
 const
 nsPresContext

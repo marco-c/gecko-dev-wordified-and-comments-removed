@@ -859,7 +859,7 @@ pixels
 *
 /
 void
-getContentViewerSize
+getDocumentViewerSize
 (
 out
 uint32_t

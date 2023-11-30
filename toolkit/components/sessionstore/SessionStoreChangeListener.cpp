@@ -1014,7 +1014,7 @@ if
 nsLayoutUtils
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 presShell
 -

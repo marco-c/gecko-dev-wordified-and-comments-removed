@@ -54906,7 +54906,7 @@ if
 nsLayoutUtils
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 topContext
 result

@@ -1006,7 +1006,7 @@ height
 ;
 domWindowUtils
 .
-getContentViewerSize
+getDocumentViewerSize
 (
 width
 height

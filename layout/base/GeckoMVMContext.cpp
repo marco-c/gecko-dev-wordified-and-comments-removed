@@ -588,7 +588,7 @@ LayoutDeviceIntSize
 GeckoMVMContext
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 )
 const
@@ -606,7 +606,7 @@ if
 nsLayoutUtils
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 mPresShell
 -
