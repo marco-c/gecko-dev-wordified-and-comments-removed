@@ -2328,6 +2328,10 @@ const
 int32_t
 &
 aGranularity
+const
+bool
+&
+aFromUser
 )
 {
 ACQUIRE_ANDROID_LOCK
@@ -2419,6 +2423,7 @@ aOffset
 aIsSelectionCollapsed
 aGranularity
 aCaretRect
+aFromUser
 )
 ;
 if

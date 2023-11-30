@@ -231,6 +231,8 @@ const
 LayoutDeviceIntRect
 &
 aCaretRect
+bool
+aFromUser
 )
 ;
 void

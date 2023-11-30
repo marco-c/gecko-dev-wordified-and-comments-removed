@@ -4668,6 +4668,12 @@ event
 GetGranularity
 (
 )
+event
+-
+>
+IsFromUserInput
+(
+)
 )
 ;
 break
@@ -5455,6 +5461,12 @@ GetGranularity
 (
 )
 rect
+event
+-
+>
+IsFromUserInput
+(
+)
 )
 ;
 break
