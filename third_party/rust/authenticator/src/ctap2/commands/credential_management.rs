@@ -5,6 +5,7 @@ super
 {
 Command
 CommandError
+CtapResponse
 PinUvAuthCommand
 RequestCtap2
 StatusCode
@@ -898,6 +899,12 @@ Vec
 u8
 >
 >
+}
+impl
+CtapResponse
+for
+CredentialManagementResponse
+{
 }
 #
 [

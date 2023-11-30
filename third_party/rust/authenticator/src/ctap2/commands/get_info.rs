@@ -5,6 +5,7 @@ super
 {
 Command
 CommandError
+CtapResponse
 RequestCtap2
 StatusCode
 }
@@ -1198,6 +1199,12 @@ Some
 true
 )
 }
+}
+impl
+CtapResponse
+for
+AuthenticatorInfo
+{
 }
 macro_rules
 !

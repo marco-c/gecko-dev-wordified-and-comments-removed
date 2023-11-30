@@ -10,6 +10,12 @@ use
 super
 :
 :
+CtapResponse
+;
+use
+super
+:
+:
 {
 get_info
 :
@@ -877,6 +883,12 @@ Option
 <
 u8
 >
+}
+impl
+CtapResponse
+for
+ClientPinResponse
+{
 }
 impl
 <
