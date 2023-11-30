@@ -3535,11 +3535,8 @@ lazy
 .
 SyncedTabs
 .
-createRecentTabsList
+getRecentTabs
 (
-this
-.
-devices
 50
 {
 removeAllDupes
