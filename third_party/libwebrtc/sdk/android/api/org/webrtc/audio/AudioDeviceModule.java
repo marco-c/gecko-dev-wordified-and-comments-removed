@@ -33,4 +33,16 @@ boolean
 mute
 )
 ;
+default
+boolean
+setNoiseSuppressorEnabled
+(
+boolean
+enabled
+)
+{
+return
+false
+;
+}
 }
