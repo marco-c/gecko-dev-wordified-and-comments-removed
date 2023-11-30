@@ -550,11 +550,9 @@ f
 <
 div
 >
-          
 {
 lots_of_text
 }
-        
 <
 /
 div

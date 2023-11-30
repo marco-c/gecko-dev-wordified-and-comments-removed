@@ -119,10 +119,8 @@ inline
 <
 div
 >
-          
 {
 }
-        
 <
 /
 div
