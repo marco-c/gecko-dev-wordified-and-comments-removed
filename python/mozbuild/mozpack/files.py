@@ -5022,7 +5022,12 @@ self
 .
 base
 =
+mozpath
+.
+normsep
+(
 base
+)
         
 self
 .
@@ -5939,7 +5944,19 @@ self
 .
 ignore
 =
+tuple
+(
+mozpath
+.
+normsep
+(
+path
+)
+for
+path
+in
 ignore
+)
         
 self
 .
