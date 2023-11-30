@@ -106,11 +106,7 @@ tests
 /
 interop
 -
-2023
--
 accessibility
--
-testing
 /
 issues
 /
@@ -159,11 +155,7 @@ tests
 /
 interop
 -
-2023
--
 accessibility
--
-testing
 /
 issues
 /
