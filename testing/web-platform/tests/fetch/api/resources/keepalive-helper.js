@@ -428,11 +428,6 @@ result
 on
 '
 token
-[
-{
-token
-}
-]
 should
 be
 on
@@ -458,11 +453,6 @@ result
 on
 '
 token
-[
-{
-token
-}
-]
 should
 not
 be
@@ -482,11 +472,6 @@ Failed
 to
 retrieve
 token
-[
-{
-token
-}
-]
 from
 server
 )
