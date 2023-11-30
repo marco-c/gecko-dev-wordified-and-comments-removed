@@ -171,7 +171,7 @@ dom
 Document
 >
 &
-aRootContentDocument
+aInProcessRootContentDocument
 const
 CSSPoint
 &
