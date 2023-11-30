@@ -1650,8 +1650,8 @@ kwargs
 tags
 "
 ]
-!
-=
+is
+not
 None
 and
 (
