@@ -351,11 +351,4 @@ nsAppShellShutdown
 (
 )
 ;
-WakeLockListener
-:
-:
-Shutdown
-(
-)
-;
 }
