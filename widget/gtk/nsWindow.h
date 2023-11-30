@@ -3053,6 +3053,11 @@ mWidgetCursorLocked
 1
 ;
 bool
+mUndecorated
+:
+1
+;
+bool
 mPopupTrackInHierarchy
 :
 1
