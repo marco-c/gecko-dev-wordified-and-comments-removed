@@ -585,6 +585,14 @@ BytecodeLocation
 loc
 )
 ;
+static
+bool
+IsValidInliningOp
+(
+JSOp
+op
+)
+;
 private
 :
 ICCacheIRStub
