@@ -995,7 +995,7 @@ void
 nsSHistory
 :
 :
-EvictContentViewerForEntry
+EvictDocumentViewerForEntry
 (
 nsISHEntry
 *
@@ -1170,7 +1170,7 @@ Debug
 nsSHistory
 :
 :
-EvictContentViewerForEntry
+EvictDocumentViewerForEntry
 "
 "
 destroying
@@ -5860,7 +5860,7 @@ i
 +
 )
 {
-EvictContentViewerForEntry
+EvictDocumentViewerForEntry
 (
 mEntries
 [
@@ -7393,7 +7393,7 @@ viewer
 1
 )
 {
-EvictContentViewerForEntry
+EvictDocumentViewerForEntry
 (
 entry
 )
@@ -7445,7 +7445,7 @@ frameLoader
 )
 )
 {
-EvictContentViewerForEntry
+EvictDocumentViewerForEntry
 (
 entry
 )
@@ -8055,7 +8055,7 @@ mSHistory
 )
 -
 >
-EvictContentViewerForEntry
+EvictDocumentViewerForEntry
 (
 entries
 [
@@ -8230,7 +8230,7 @@ if
 shEntry
 )
 {
-EvictContentViewerForEntry
+EvictDocumentViewerForEntry
 (
 shEntry
 )

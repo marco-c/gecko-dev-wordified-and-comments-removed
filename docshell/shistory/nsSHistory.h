@@ -989,7 +989,7 @@ aIndex
 )
 ;
 void
-EvictContentViewerForEntry
+EvictDocumentViewerForEntry
 (
 nsISHEntry
 *
