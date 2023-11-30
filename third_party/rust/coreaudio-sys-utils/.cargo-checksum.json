@@ -27,6 +27,17 @@ rs
 "
 src
 /
+audio_device_extensions
+.
+rs
+"
+:
+"
+2852f9ce65581cb5cf3f8e581f2652087eae0a569ed429be362e636db6441b6b
+"
+"
+src
+/
 audio_object
 .
 rs
@@ -77,7 +88,7 @@ rs
 "
 :
 "
-bcc559d69ef6ed0cbea5b2a36fec89d8c011eb9da70e2f26c00f881ad97a2546
+c93ed1411dd6cc39db44f57e0d7683bbc54745f84a3c9f9533a088895ec97abe
 "
 "
 src

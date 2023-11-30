@@ -12,6 +12,10 @@ aggregate_device
 ;
 pub
 mod
+audio_device_extensions
+;
+pub
+mod
 audio_object
 ;
 pub
