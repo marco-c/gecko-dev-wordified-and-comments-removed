@@ -28,6 +28,13 @@ html
 ]
 [
 "
+browser_keyboard_navigation
+.
+js
+"
+]
+[
+"
 browser_parent_menuitems
 .
 js
