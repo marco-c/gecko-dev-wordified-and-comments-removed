@@ -1840,6 +1840,16 @@ Init
 (
 )
 ;
+MOZ_ASSERT_IF
+(
+XRE_IsContentProcess
+(
+)
+GetInitContentDeviceData
+(
+)
+)
+;
 InitializeConfig
 (
 )
@@ -6003,7 +6013,7 @@ InitializeD2DConfig
 }
 else
 {
-FetchAndImportContentDeviceData
+ImportCachedContentDeviceData
 (
 )
 ;

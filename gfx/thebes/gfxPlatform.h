@@ -2541,7 +2541,7 @@ aPrefsData
 )
 ;
 void
-FetchAndImportContentDeviceData
+ImportCachedContentDeviceData
 (
 )
 ;
