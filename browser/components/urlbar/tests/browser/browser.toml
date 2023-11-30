@@ -2610,6 +2610,13 @@ js
 ]
 [
 "
+browser_switchToTab_closed_tab
+.
+js
+"
+]
+[
+"
 browser_switchToTab_closes_newtab
 .
 js
