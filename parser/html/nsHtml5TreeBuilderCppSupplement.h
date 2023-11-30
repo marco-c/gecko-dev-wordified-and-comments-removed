@@ -1187,6 +1187,8 @@ tokenizer
 getColumnNumber
 (
 )
++
+1
 )
 ;
 treeOp
@@ -2818,6 +2820,8 @@ tokenizer
 getColumnNumber
 (
 )
++
+1
 )
 ;
 treeOp
@@ -3205,6 +3209,8 @@ tokenizer
 getColumnNumber
 (
 )
++
+1
 )
 ;
 treeOp

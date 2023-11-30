@@ -18,6 +18,15 @@ include
 "
 js
 /
+ColumnNumber
+.
+h
+"
+#
+include
+"
+js
+/
 CompileOptions
 .
 h
@@ -755,7 +764,10 @@ mCompileOrDecodeTask
 uint32_t
 mLineNo
 ;
-uint32_t
+JS
+:
+:
+ColumnNumberOneOrigin
 mColumnNo
 ;
 bool
