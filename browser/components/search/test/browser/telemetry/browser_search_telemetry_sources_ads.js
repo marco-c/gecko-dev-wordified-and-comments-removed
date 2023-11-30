@@ -374,7 +374,7 @@ SearchSERPTelemetryUtils
 .
 ABANDONMENTS
 .
-NAVIGATION
+TAB_CLOSE
 }
 }
 ]
@@ -589,7 +589,7 @@ SearchSERPTelemetryUtils
 .
 ABANDONMENTS
 .
-NAVIGATION
+TAB_CLOSE
 }
 }
 ]
@@ -726,7 +726,7 @@ SearchSERPTelemetryUtils
 .
 ABANDONMENTS
 .
-NAVIGATION
+TAB_CLOSE
 }
 }
 {
@@ -778,7 +778,7 @@ SearchSERPTelemetryUtils
 .
 ABANDONMENTS
 .
-NAVIGATION
+TAB_CLOSE
 }
 }
 ]
