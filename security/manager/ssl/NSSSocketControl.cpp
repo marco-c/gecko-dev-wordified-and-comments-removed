@@ -1358,6 +1358,7 @@ true
 return
 SetResumptionTokenFromExternalCache
 (
+mFd
 )
 ;
 }
@@ -2131,10 +2132,6 @@ identity
 =
 PR_INVALID_IO_LAYER
 ;
-NS_RELEASE_THIS
-(
-)
-;
 popped
 -
 >
@@ -2703,6 +2700,9 @@ NSSSocketControl
 :
 SetResumptionTokenFromExternalCache
 (
+PRFileDesc
+*
+fd
 )
 {
 COMMON_SOCKET_CONTROL_ASSERT_ON_OWNING_THREAD
@@ -2712,11 +2712,11 @@ COMMON_SOCKET_CONTROL_ASSERT_ON_OWNING_THREAD
 if
 (
 !
-mFd
+fd
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_INVALID_ARG
 ;
 }
 PRIntn
@@ -2726,7 +2726,7 @@ if
 (
 SSL_OptionGet
 (
-mFd
+fd
 SSL_NO_CACHE
 &
 val
@@ -2844,7 +2844,7 @@ srv
 =
 SSL_SetResumptionToken
 (
-mFd
+fd
 token
 .
 Elements
