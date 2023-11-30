@@ -723,6 +723,7 @@ autofill_url
 bookmark
 calc
 clipboard
+fxsuggest_data_sharing_opt_in
 history
 intervention_clear
 intervention_refresh
@@ -1394,6 +1395,7 @@ bookmark
 calc
 clipboard
 experimental_addon
+fxsuggest_data_sharing_opt_in
 history
 input_field
 intervention_clear
@@ -1834,6 +1836,7 @@ autofill_url
 bookmark
 calc
 clipboard
+fxsuggest_data_sharing_opt_in
 history
 intervention_clear
 intervention_refresh
@@ -2619,6 +2622,7 @@ autofill_url
 bookmark
 calc
 clipboard
+fxsuggest_data_sharing_opt_in
 history
 intervention_clear
 intervention_refresh
