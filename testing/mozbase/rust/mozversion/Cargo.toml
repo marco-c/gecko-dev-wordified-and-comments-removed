@@ -128,3 +128,8 @@ semver
 .
 0
 "
+thiserror
+=
+"
+1
+"

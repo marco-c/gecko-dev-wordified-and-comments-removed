@@ -20353,6 +20353,9 @@ dependencies
 "
 tempfile
 "
+"
+thiserror
+"
 ]
 [
 [
@@ -20387,6 +20390,9 @@ mozprofile
 "
 "
 plist
+"
+"
+thiserror
 "
 "
 winreg
@@ -20462,6 +20468,9 @@ ini
 "
 "
 semver
+"
+"
+thiserror
 "
 ]
 [
