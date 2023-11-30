@@ -146,17 +146,6 @@ argc
 argv
 )
 ;
-setenv
-(
-"
-MOZ_DISABLE_TERM_SIG_HANDLER
-"
-"
-1
-"
-true
-)
-;
 #
 endif
 #
