@@ -1842,7 +1842,7 @@ nullptr
 )
 ;
 nsresult
-CreateContentViewer
+CreateDocumentViewer
 (
 const
 nsACString

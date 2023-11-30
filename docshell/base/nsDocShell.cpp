@@ -34520,7 +34520,7 @@ nsresult
 nsDocShell
 :
 :
-CreateContentViewer
+CreateDocumentViewer
 (
 const
 nsACString

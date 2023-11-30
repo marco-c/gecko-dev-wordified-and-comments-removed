@@ -756,7 +756,7 @@ rv
 docShell
 -
 >
-CreateContentViewer
+CreateDocumentViewer
 (
 aContentType
 aRequest
