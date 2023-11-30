@@ -1,7 +1,6 @@
 import
-*
-as
-mod
+source
+modSource
 from
 "
 .
@@ -13,8 +12,19 @@ wasm
 ;
 assert_true
 (
+modSource
+instanceof
+WebAssembly
+.
+Module
+)
+;
+assert_true
+(
 await
 import
+.
+source
 (
 "
 .
@@ -27,6 +37,6 @@ wasm
 =
 =
 =
-mod
+modSource
 )
 ;
