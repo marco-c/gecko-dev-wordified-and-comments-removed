@@ -454,6 +454,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 ;
 void

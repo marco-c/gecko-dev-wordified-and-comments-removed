@@ -487,6 +487,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 override
 ;
@@ -1255,6 +1259,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 {
 MOZ_ASSERT_UNREACHABLE

@@ -3045,6 +3045,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 {
 mPrettyPrintXML
@@ -3127,6 +3131,7 @@ aIntegrity
 aType
 aMedia
 aReferrerPolicy
+aFetchPriority
 )
 ;
 }
