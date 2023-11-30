@@ -55,9 +55,7 @@ Readability
 js
 "
 "
-Reader
-.
-worker
+ReaderWorker
 .
 js
 "

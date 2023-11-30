@@ -5358,9 +5358,7 @@ gre
 /
 modules
 /
-PageThumbs
-.
-worker
+PageThumbsWorker
 .
 js
 "

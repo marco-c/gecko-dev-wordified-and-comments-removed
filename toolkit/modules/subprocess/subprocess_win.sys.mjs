@@ -379,9 +379,7 @@ modules
 /
 subprocess
 /
-subprocess_win
-.
-worker
+subprocess_worker_win
 .
 js
 "

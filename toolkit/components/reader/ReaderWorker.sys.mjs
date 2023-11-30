@@ -110,9 +110,7 @@ modules
 /
 reader
 /
-Reader
-.
-worker
+ReaderWorker
 .
 js
 "

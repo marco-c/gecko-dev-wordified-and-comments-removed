@@ -4737,9 +4737,7 @@ gre
 /
 modules
 /
-GMPExtractor
-.
-worker
+GMPExtractorWorker
 .
 js
 "

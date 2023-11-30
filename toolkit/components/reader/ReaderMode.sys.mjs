@@ -2097,9 +2097,7 @@ lifting
 happens
 *
 in
-Reader
-.
-worker
+readerWorker
 .
 js
 .

@@ -484,9 +484,7 @@ modules
 /
 subprocess
 /
-subprocess_unix
-.
-worker
+subprocess_worker_unix
 .
 js
 "
