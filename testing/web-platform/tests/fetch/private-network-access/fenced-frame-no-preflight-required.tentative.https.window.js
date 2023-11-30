@@ -15,7 +15,7 @@ isSecureContext
 }
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -61,7 +61,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -107,7 +107,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -153,7 +153,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -199,7 +199,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -245,7 +245,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -291,7 +291,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -346,7 +346,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
