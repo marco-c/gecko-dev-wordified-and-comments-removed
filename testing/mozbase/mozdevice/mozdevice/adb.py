@@ -25,9 +25,9 @@ time
 import
 traceback
 from
-shutil
+distutils
 import
-copytree
+dir_util
 from
 threading
 import
@@ -20574,7 +20574,9 @@ temp_parent
 remote_name
 )
             
-copytree
+dir_util
+.
+copy_tree
 (
 local
 new_local
@@ -21535,7 +21537,9 @@ if
 copy_required
 :
                 
-copytree
+dir_util
+.
+copy_tree
 (
 local
 original_local
