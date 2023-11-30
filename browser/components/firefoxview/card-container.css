@@ -149,7 +149,7 @@ flex
 ;
 gap
 :
-16px
+14px
 ;
 width
 :
@@ -189,6 +189,18 @@ inline
 end
 :
 0
+;
+margin
+-
+block
+-
+end
+:
+6px
+;
+height
+:
+24px
 ;
 }
 .
