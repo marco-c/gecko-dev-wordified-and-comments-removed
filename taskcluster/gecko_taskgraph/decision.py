@@ -216,6 +216,14 @@ target_tasks_method
 "
 try_tasks
 "
+        
+"
+release_type
+"
+:
+"
+nightly
+"
     
 }
     

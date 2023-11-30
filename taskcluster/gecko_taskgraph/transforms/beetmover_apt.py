@@ -70,17 +70,6 @@ firefox
 "
         
 if
-not
-config
-.
-params
-[
-"
-release_type
-"
-]
-        
-or
 config
 .
 params
