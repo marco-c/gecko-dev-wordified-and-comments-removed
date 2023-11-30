@@ -4490,14 +4490,6 @@ ssl_handshake_err
 )
 ;
 }
-else
-{
-SignalSSLHandshakeError
-(
-ssl_handshake_err
-)
-;
-}
 return
 (
 ssl_error
