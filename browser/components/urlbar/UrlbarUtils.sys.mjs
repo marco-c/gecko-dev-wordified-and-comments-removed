@@ -3808,6 +3808,12 @@ result
 payload
 .
 tail
+&
+&
+!
+result
+.
+isRichSuggestion
 )
 {
 return
