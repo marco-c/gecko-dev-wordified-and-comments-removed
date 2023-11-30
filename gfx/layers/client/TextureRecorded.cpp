@@ -66,6 +66,8 @@ mCanvasChild
 >
 EnsureRecorder
 (
+aSize
+aFormat
 aTextureType
 )
 ;
@@ -440,11 +442,16 @@ BorrowSnapshot
 (
 )
 {
-MOZ_ASSERT
+if
 (
+!
 mDT
 )
+{
+return
+nullptr
 ;
+}
 if
 (
 mSnapshot
