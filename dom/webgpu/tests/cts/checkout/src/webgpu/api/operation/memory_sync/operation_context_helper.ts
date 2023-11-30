@@ -108,8 +108,10 @@ export
 type
 OperationBoundary
 =
+(
 typeof
 kOperationBoundaries
+)
 [
 number
 ]
@@ -156,8 +158,10 @@ export
 type
 OperationContext
 =
+(
 typeof
 kOperationContexts
+)
 [
 number
 ]
@@ -330,9 +334,7 @@ contexts
 :
 commandBufferContexts
 }
-'
 pass
-'
 :
 {
 contexts
@@ -540,9 +542,7 @@ encoder
 ]
 ]
 }
-'
 dispatch
-'
 :
 {
 contexts
@@ -566,9 +566,7 @@ encoder
 ]
 ]
 }
-'
 draw
-'
 :
 {
 contexts

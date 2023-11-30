@@ -127,7 +127,9 @@ texture
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -175,7 +177,9 @@ texture
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -233,7 +237,9 @@ errors
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -361,7 +367,9 @@ finishes
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -413,7 +421,9 @@ destroyedAfterEncode
 .
 fn
 (
+(
 t
+)
 =
 >
 {

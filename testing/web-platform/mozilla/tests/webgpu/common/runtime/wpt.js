@@ -428,7 +428,6 @@ fail
 '
 |
 |
-(
 res
 .
 status
@@ -441,7 +440,6 @@ warn
 &
 &
 failOnWarnings
-)
 )
 {
 const

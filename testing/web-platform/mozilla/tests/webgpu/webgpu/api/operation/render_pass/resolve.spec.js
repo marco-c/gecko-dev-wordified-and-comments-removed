@@ -288,7 +288,9 @@ render_pass_resolve
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -356,7 +358,9 @@ resolveTargetBaseArrayLayer
 .
 fn
 (
+(
 t
+)
 =
 >
 {

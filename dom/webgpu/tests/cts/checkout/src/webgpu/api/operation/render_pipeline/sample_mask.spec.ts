@@ -1868,6 +1868,7 @@ GPUSampler
 |
 undefined
 ;
+override
 async
 init
 (

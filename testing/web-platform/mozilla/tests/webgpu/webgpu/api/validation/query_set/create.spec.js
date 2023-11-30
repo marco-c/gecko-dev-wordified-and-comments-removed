@@ -124,7 +124,9 @@ query
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -158,7 +160,9 @@ kMaxQueryCount
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -178,7 +182,9 @@ type
 .
 fn
 (
+(
 t
+)
 =
 >
 {

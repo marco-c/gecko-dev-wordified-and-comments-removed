@@ -205,11 +205,9 @@ mask
 0
 <
 <
-(
 bitwidth
 -
 must_be_zero_msb
-)
 ;
 if
 (
@@ -245,11 +243,9 @@ mask
 0
 <
 <
-(
 bitwidth
 -
 must_match_msb
-)
 ;
 if
 (
@@ -1008,7 +1004,9 @@ concrete
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1053,7 +1051,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1164,7 +1164,9 @@ concrete
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1209,7 +1211,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1693,7 +1697,9 @@ concrete
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1738,7 +1744,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1849,7 +1857,9 @@ concrete
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1894,7 +1904,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {

@@ -1024,7 +1024,9 @@ types
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1043,7 +1045,9 @@ kCases
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1094,7 +1098,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {

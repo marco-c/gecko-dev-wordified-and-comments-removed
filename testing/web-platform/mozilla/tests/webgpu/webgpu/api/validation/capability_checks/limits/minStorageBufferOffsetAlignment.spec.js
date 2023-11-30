@@ -112,7 +112,6 @@ return
 *
 (
 (
-(
 Math
 .
 log2
@@ -129,7 +128,6 @@ minimumLimit
 )
 /
 2
-)
 |
 0
 )
@@ -289,7 +287,9 @@ kMinimumLimitBaseParams
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -485,7 +485,9 @@ kMinimumLimitBaseParams
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -726,7 +728,9 @@ of
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -784,7 +788,9 @@ is
 .
 fn
 (
+(
 t
+)
 =
 >
 {

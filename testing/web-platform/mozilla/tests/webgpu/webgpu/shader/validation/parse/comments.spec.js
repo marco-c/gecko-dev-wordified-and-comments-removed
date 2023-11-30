@@ -82,7 +82,9 @@ nesting
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -226,7 +228,9 @@ EOF
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -319,7 +323,9 @@ t
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -430,7 +436,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -509,7 +517,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -532,7 +542,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {

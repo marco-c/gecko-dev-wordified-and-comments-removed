@@ -79,6 +79,7 @@ IDLTest
 extends
 Fixture
 {
+override
 init
 (
 )

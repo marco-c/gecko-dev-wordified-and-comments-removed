@@ -517,7 +517,6 @@ number
 A
 :
 number
-;
 }
 )
 :
@@ -537,6 +536,7 @@ number
 A
 :
 number
+;
 }
 {
 assert
@@ -723,7 +723,6 @@ number
 A
 :
 number
-;
 }
 )
 :
@@ -743,6 +742,7 @@ number
 A
 :
 number
+;
 }
 {
 assert

@@ -181,8 +181,10 @@ export
 type
 ReadOp
 =
+(
 typeof
 kAllReadOps
+)
 [
 number
 ]
@@ -191,8 +193,10 @@ export
 type
 WriteOp
 =
+(
 typeof
 kAllWriteOps
+)
 [
 number
 ]
@@ -298,9 +302,7 @@ encoder
 '
 ]
 }
-'
 storage
-'
 :
 {
 contexts

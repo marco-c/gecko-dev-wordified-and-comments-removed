@@ -191,7 +191,9 @@ correct
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -207,7 +209,9 @@ kAllCanvasTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -428,7 +432,9 @@ states
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -444,7 +450,9 @@ kAllCanvasTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -650,7 +658,9 @@ configure
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -674,7 +684,9 @@ kAllTextureFormats
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -694,7 +706,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -866,7 +880,9 @@ usages
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -888,7 +904,8 @@ expand
 '
 usage
 '
-p
+(
+)
 =
 >
 {
@@ -936,7 +953,9 @@ usageSet
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1464,7 +1483,9 @@ configure
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1499,7 +1520,9 @@ premultiplied
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1626,7 +1649,9 @@ zero
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1657,7 +1682,9 @@ height
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1889,7 +1916,9 @@ zero
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1920,7 +1949,9 @@ height
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2095,7 +2126,9 @@ formats
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2150,7 +2183,9 @@ kTextureFormats
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2172,7 +2207,9 @@ viewFormatFeature
 .
 fn
 (
+(
 t
+)
 =
 >
 {

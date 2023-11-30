@@ -1,7 +1,6 @@
 import
 {
 LimitMode
-getDefaultLimit
 kMaximumLimitBaseParams
 makeLimitTestGroup
 }
@@ -31,8 +30,10 @@ const
 type
 BufferPart
 =
+(
 typeof
 kBufferParts
+)
 [
 number
 ]
@@ -420,6 +421,8 @@ expect
 defaultLimit
 <
 =
+t
+.
 getDefaultLimit
 (
 '

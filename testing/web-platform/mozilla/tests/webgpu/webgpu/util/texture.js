@@ -69,7 +69,9 @@ texelViews
 .
 every
 (
+(
 e
+)
 =
 >
 e
@@ -332,7 +334,9 @@ stagingBuffers
 .
 forEach
 (
+(
 value
+)
 =
 >
 value

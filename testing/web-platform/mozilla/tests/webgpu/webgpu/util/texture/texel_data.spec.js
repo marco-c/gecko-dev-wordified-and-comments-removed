@@ -265,7 +265,9 @@ componentOrder
 .
 map
 (
+(
 C
+)
 =
 >
 result
@@ -346,7 +348,9 @@ componentOrder
 .
 map
 (
+(
 C
+)
 =
 >
 output
@@ -580,7 +584,9 @@ componentOrder
 .
 map
 (
+(
 c
+)
 =
 >
 {
@@ -730,7 +736,9 @@ unorm_texel_data_in_shader
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -810,7 +818,9 @@ format
 const
 max
 =
+(
 bitLength
+)
 =
 >
 Math
@@ -837,7 +847,9 @@ format
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 max
@@ -848,7 +860,9 @@ bitLength
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 Math
@@ -917,7 +931,9 @@ bitLength
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -951,7 +967,9 @@ snorm_texel_data_in_shader
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1031,7 +1049,9 @@ format
 const
 max
 =
+(
 bitLength
+)
 =
 >
 Math
@@ -1060,7 +1080,9 @@ format
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 max
@@ -1071,7 +1093,9 @@ bitLength
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 -
@@ -1083,7 +1107,9 @@ bitLength
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 -
@@ -1097,7 +1123,9 @@ bitLength
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 Math
@@ -1193,7 +1221,9 @@ uint_texel_data_in_shader
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1273,7 +1303,9 @@ format
 const
 max
 =
+(
 bitLength
+)
 =
 >
 Math
@@ -1300,7 +1332,9 @@ format
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 max
@@ -1311,7 +1345,9 @@ bitLength
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 Math
@@ -1394,7 +1430,9 @@ sint_texel_data_in_shader
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1474,7 +1512,9 @@ format
 const
 max
 =
+(
 bitLength
+)
 =
 >
 Math
@@ -1503,7 +1543,9 @@ format
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 max
@@ -1514,7 +1556,9 @@ bitLength
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 -
@@ -1528,7 +1572,9 @@ bitLength
 makeParam
 (
 format
+(
 bitLength
+)
 =
 >
 Math
@@ -1638,7 +1684,9 @@ Infinity
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1857,7 +1905,9 @@ Infinity
 .
 params
 (
+(
 u
+)
 =
 >
 u

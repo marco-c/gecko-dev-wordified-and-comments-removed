@@ -154,7 +154,9 @@ kAddressSpaceInfo
 .
 filter
 (
+(
 as
+)
 =
 >
 as
@@ -227,7 +229,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -253,7 +257,9 @@ false
 .
 filter
 (
+(
 t
+)
 =
 >
 kAddressSpaceInfo
@@ -313,7 +319,9 @@ compute
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -434,7 +442,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -491,7 +501,9 @@ compute
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -573,7 +585,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -628,7 +642,9 @@ compute
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -722,7 +738,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -777,7 +795,9 @@ compute
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -88,7 +88,9 @@ conflict
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -271,7 +273,9 @@ identifiers
 .
 fn
 (
+(
 t
+)
 =
 >
 {

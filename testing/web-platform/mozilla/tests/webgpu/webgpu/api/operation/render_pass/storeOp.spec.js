@@ -425,7 +425,9 @@ color_attachment_with_depth_stencil_attachment
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -449,7 +451,9 @@ kStoreOps
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -887,7 +891,9 @@ color_attachment_only
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -950,7 +956,9 @@ kArrayLayers
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -970,7 +978,9 @@ colorFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1297,7 +1307,9 @@ multiple_color_attachments
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1333,7 +1345,9 @@ kNumColorAttachments
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1760,7 +1774,9 @@ formats
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1804,7 +1820,9 @@ kArrayLayers
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -74,7 +74,7 @@ test_name
 .
 fn
 (
-t
+_t
 =
 >
 {
@@ -206,12 +206,16 @@ TypeError
 )
 ;
 }
+{
+message
+:
 '
 function
 should
 throw
 Error
 '
+}
 )
 ;
 }
@@ -249,6 +253,9 @@ TypeError
 (
 )
 )
+{
+message
+:
 '
 Promise
 .
@@ -256,6 +263,7 @@ reject
 should
 reject
 '
+}
 )
 ;
 t
@@ -282,6 +290,9 @@ TypeError
 )
 (
 )
+{
+message
+:
 '
 Promise
 .
@@ -289,6 +300,7 @@ reject
 should
 reject
 '
+}
 )
 ;
 }

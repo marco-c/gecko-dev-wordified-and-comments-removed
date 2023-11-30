@@ -1,7 +1,6 @@
 import
 {
 kMaximumLimitBaseParams
-getDefaultLimit
 makeLimitTestGroup
 }
 from
@@ -387,6 +386,7 @@ maximumLimit
 function
 getTestWorkgroupSize
 (
+t
 testValueName
 requestedLimit
 )
@@ -395,18 +395,24 @@ const
 maxDimensions
 =
 [
+t
+.
 getDefaultLimit
 (
 '
 maxComputeWorkgroupSizeX
 '
 )
+t
+.
 getDefaultLimit
 (
 '
 maxComputeWorkgroupSizeY
 '
 )
+t
+.
 getDefaultLimit
 (
 '
@@ -449,6 +455,7 @@ requestedLimit
 function
 getDeviceLimitToRequestAndValueToTest
 (
+t
 limitValueTest
 testValueName
 defaultLimit
@@ -470,6 +477,7 @@ workgroupSize
 =
 getTestWorkgroupSize
 (
+t
 testValueName
 requestedLimit
 )
@@ -546,7 +554,9 @@ true
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -579,6 +589,7 @@ workgroupSize
 =
 getDeviceLimitToRequestAndValueToTest
 (
+t
 limitTest
 testValueName
 defaultLimit

@@ -323,7 +323,9 @@ u32
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -340,7 +342,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -402,7 +406,9 @@ y
 const
 normalizeF32
 =
+(
 n
+)
 =
 >
 {
@@ -429,7 +435,9 @@ vectorF32Range
 .
 flatMap
 (
+(
 v
+)
 =
 >
 {

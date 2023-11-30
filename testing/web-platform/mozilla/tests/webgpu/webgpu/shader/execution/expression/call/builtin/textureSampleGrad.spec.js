@@ -343,7 +343,9 @@ error
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -687,7 +689,9 @@ error
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1017,7 +1021,9 @@ error
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1332,7 +1338,9 @@ error
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u

@@ -1041,7 +1041,9 @@ false
 const
 isCollapsible
 =
+(
 subquery
+)
 =
 >
 subqueriesToExpandEntries

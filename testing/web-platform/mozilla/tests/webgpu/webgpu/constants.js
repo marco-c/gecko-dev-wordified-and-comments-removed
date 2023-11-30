@@ -1,7 +1,7 @@
 function
 checkType
 (
-x
+_
 )
 {
 }

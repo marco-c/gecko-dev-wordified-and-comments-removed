@@ -117,7 +117,7 @@ f
 id
 :
 number
-max
+_max
 :
 number
 )
@@ -127,7 +127,7 @@ id
 wgsl
 :
 (
-max
+_max
 :
 number
 scalarType

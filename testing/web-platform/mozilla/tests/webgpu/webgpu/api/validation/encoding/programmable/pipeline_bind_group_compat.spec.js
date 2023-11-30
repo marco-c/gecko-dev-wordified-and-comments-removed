@@ -399,7 +399,9 @@ expand
 '
 call
 '
+(
 p
+)
 =
 >
 getTestCmds
@@ -719,7 +721,9 @@ bindGroups
 .
 map
 (
+(
 entries
+)
 =
 >
 this
@@ -855,7 +859,9 @@ bindGroups
 .
 map
 (
+(
 entries
+)
 =
 >
 this
@@ -1603,7 +1609,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1867,7 +1875,9 @@ layout
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1883,7 +1893,9 @@ kBufferBindingTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2102,7 +2114,9 @@ vertex
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2126,7 +2140,9 @@ kSamplerBindingTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2481,7 +2497,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2734,7 +2752,9 @@ expand
 '
 plVisibility
 '
+(
 p
+)
 =
 >
 p
@@ -2795,7 +2815,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3010,10 +3032,11 @@ expand
 '
 useU32Array
 '
+(
 p
+)
 =
 >
-(
 p
 .
 bgResourceType
@@ -3034,11 +3057,12 @@ false
 ]
 )
 )
-)
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3204,7 +3228,9 @@ set
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3238,7 +3264,9 @@ dispatch
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3524,7 +3552,9 @@ set
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3564,7 +3594,9 @@ drawIndexedIndirect
 .
 fn
 (
+(
 t
+)
 =
 >
 {

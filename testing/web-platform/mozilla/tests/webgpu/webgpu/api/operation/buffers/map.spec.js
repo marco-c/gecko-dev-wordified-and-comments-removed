@@ -605,7 +605,9 @@ written
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -639,7 +641,9 @@ kSubcases
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -814,7 +818,9 @@ altered
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -971,7 +977,9 @@ range2
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1298,7 +1306,9 @@ result
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1332,7 +1342,9 @@ kSubcases
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1563,7 +1575,9 @@ buffer
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1658,7 +1672,9 @@ range
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2248,7 +2264,9 @@ written
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2276,7 +2294,9 @@ kSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2418,7 +2438,9 @@ buffer
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2463,7 +2485,9 @@ kSubcases
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2714,7 +2738,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2762,7 +2788,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2998,7 +3026,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3084,7 +3114,9 @@ true
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3224,7 +3256,6 @@ mapAsyncValidationError
 bufferCreationValidationError
 |
 |
-(
 mapMode
 =
 =
@@ -3242,10 +3273,8 @@ GPUBufferUsage
 .
 MAP_READ
 )
-)
 |
 |
-(
 mapMode
 =
 =
@@ -3262,7 +3291,6 @@ usage
 GPUBufferUsage
 .
 MAP_WRITE
-)
 )
 ;
 let

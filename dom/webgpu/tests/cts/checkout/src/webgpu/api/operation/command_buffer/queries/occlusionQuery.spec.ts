@@ -298,8 +298,10 @@ const
 type
 RenderMode
 =
+(
 typeof
 kRenderModes
+)
 [
 number
 ]
@@ -323,8 +325,10 @@ const
 type
 BufferOffset
 =
+(
 typeof
 kBufferOffsets
+)
 [
 number
 ]

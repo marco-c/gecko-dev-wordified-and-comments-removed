@@ -1152,7 +1152,7 @@ kDrawUseCases
 draw
 :
 (
-t
+_t
 encoder
 )
 =
@@ -1336,7 +1336,7 @@ kDispatchUseCases
 {
 dispatchWorkgroups
 (
-t
+_t
 encoder
 )
 {
@@ -1749,7 +1749,9 @@ setBindGroup
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1788,7 +1790,9 @@ kTextureTypes
 .
 filter
 (
+(
 p
+)
 =
 >
 !
@@ -1842,7 +1846,9 @@ fix
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1972,7 +1978,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1996,7 +2004,9 @@ kTextureTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2175,7 +2185,9 @@ setBindGroup
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2206,7 +2218,9 @@ kTextureTypes
 .
 filter
 (
+(
 p
+)
 =
 >
 !
@@ -2260,7 +2274,9 @@ fix
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2392,7 +2408,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2408,7 +2426,9 @@ kTextureTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {

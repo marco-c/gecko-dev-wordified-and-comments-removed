@@ -342,13 +342,11 @@ blockHeight
 const
 blocksPerSubresource
 =
-(
 textureSizeAtLevel
 .
 width
 /
 blockWidthInTexel
-)
 *
 (
 textureSizeAtLevel
@@ -1731,7 +1729,9 @@ alternateExpectedData
 =
 expectedUint8DataWithPadding
 ?
+(
 vals
+)
 =
 >
 checkElementsEqual
@@ -1740,7 +1740,9 @@ vals
 expectedUint8DataWithPadding
 )
 :
+(
 vals
+)
 =
 >
 checkElementsEqualEither
@@ -2555,11 +2557,9 @@ i
 {
 uniformBufferData
 [
-(
 kMinDynamicBufferOffsetAlignment
 /
 4
-)
 *
 i
 ]
@@ -3881,7 +3881,9 @@ dimensions
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3942,7 +3944,6 @@ srcFormat
 dstFormat
 |
 |
-(
 srcBaseFormat
 !
 =
@@ -3962,7 +3963,6 @@ srcBaseFormat
 =
 =
 dstBaseFormat
-)
 )
 ;
 }
@@ -4007,7 +4007,9 @@ beginSubcases
 .
 expandWithParams
 (
+(
 p
+)
 =
 >
 {
@@ -4184,7 +4186,9 @@ kCopyBoxOffsetsForWholeDepth
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -4263,7 +4267,9 @@ dstCopyLevel
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -4300,7 +4306,9 @@ dstCopyLevel
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4404,7 +4412,9 @@ dimensions
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4465,7 +4475,6 @@ srcFormat
 dstFormat
 |
 |
-(
 srcBaseFormat
 !
 =
@@ -4485,7 +4494,6 @@ srcBaseFormat
 =
 =
 dstBaseFormat
-)
 )
 ;
 }
@@ -4702,7 +4710,9 @@ dstCopyLevel
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -4749,7 +4759,9 @@ feature
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4932,7 +4944,9 @@ dstTexture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4993,7 +5007,6 @@ srcFormat
 dstFormat
 |
 |
-(
 srcBaseFormat
 !
 =
@@ -5013,7 +5026,6 @@ srcBaseFormat
 =
 =
 dstBaseFormat
-)
 )
 ;
 }
@@ -5189,7 +5201,9 @@ dstCopyLevel
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5305,7 +5319,9 @@ dimensions
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -5366,7 +5382,6 @@ srcFormat
 dstFormat
 |
 |
-(
 srcBaseFormat
 !
 =
@@ -5386,7 +5401,6 @@ srcBaseFormat
 =
 =
 dstBaseFormat
-)
 )
 ;
 }
@@ -5522,7 +5536,9 @@ dstCopyLevel
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -5569,7 +5585,9 @@ feature
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5754,7 +5772,9 @@ dimension
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -6212,7 +6232,9 @@ depthOrArrayLayers
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -6291,7 +6313,9 @@ dstCopyLevel
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -6328,7 +6352,9 @@ dstCopyLevel
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -6531,7 +6557,9 @@ equal
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -6636,7 +6664,9 @@ dstCopyBaseArrayLayer
 .
 filter
 (
+(
 t
+)
 =
 >
 {
@@ -6670,7 +6700,9 @@ dstCopyBaseArrayLayer
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -6695,7 +6727,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -7151,7 +7185,9 @@ be
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -8337,7 +8373,9 @@ be
 .
 fn
 (
+(
 t
+)
 =
 >
 {

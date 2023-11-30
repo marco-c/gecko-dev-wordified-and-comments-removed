@@ -304,7 +304,9 @@ tvc
 .
 predicate
 =
+(
 coords
+)
 =
 >
 comparePerComponent
@@ -342,7 +344,9 @@ tvc
 .
 predicate
 =
+(
 coords
+)
 =
 >
 comparePerComponent
@@ -380,7 +384,9 @@ tvc
 .
 predicate
 =
+(
 coords
+)
 =
 >
 comparePerComponent
@@ -415,7 +421,9 @@ tvc
 .
 predicate
 =
+(
 coords
+)
 =
 >
 comparePerComponent
@@ -504,7 +512,9 @@ tvc
 .
 tableRows
 =
+(
 failedCoords
+)
 =
 >
 [
@@ -514,7 +524,6 @@ tolerance
 maxIntDiff
 }
 ]
-(
 function
 *
 (
@@ -572,7 +581,9 @@ componentOrder
 .
 map
 (
+(
 ch
+)
 =
 >
 act
@@ -594,7 +605,6 @@ join
 ;
 }
 }
-)
 (
 )
 ]
@@ -602,7 +612,6 @@ join
 }
 else
 if
-(
 (
 fmtIsNorm
 &
@@ -612,10 +621,8 @@ maxDiffULPsForNormFormat
 =
 =
 undefined
-)
 |
 |
-(
 fmtIsFloat
 &
 &
@@ -624,7 +631,6 @@ maxDiffULPsForFloatFormat
 =
 =
 undefined
-)
 )
 {
 const
@@ -640,7 +646,9 @@ tvc
 .
 tableRows
 =
+(
 failedCoords
+)
 =
 >
 [
@@ -653,7 +661,6 @@ normal
 -
 ULPs
 ]
-(
 function
 *
 (
@@ -715,7 +722,9 @@ componentOrder
 .
 map
 (
+(
 ch
+)
 =
 >
 act
@@ -737,7 +746,6 @@ join
 ;
 }
 }
-)
 (
 )
 ]
@@ -758,7 +766,9 @@ tvc
 .
 tableRows
 =
+(
 failedCoords
+)
 =
 >
 [
@@ -768,7 +778,6 @@ tolerance
 maxFractionalDiff
 }
 ]
-(
 function
 *
 (
@@ -826,7 +835,9 @@ componentOrder
 .
 map
 (
+(
 ch
+)
 =
 >
 (
@@ -855,7 +866,6 @@ join
 ;
 }
 }
-)
 (
 )
 ]
@@ -883,7 +893,9 @@ actual
 .
 every
 (
+(
 key
+)
 =
 >
 {
@@ -1301,7 +1313,9 @@ numberToString
 =
 integerSampleType
 ?
+(
 n
+)
 =
 >
 n
@@ -1310,7 +1324,9 @@ toFixed
 (
 )
 :
+(
 n
+)
 =
 >
 n
@@ -1340,7 +1356,6 @@ join
 const
 printCoords
 =
-(
 function
 *
 (
@@ -1389,14 +1404,12 @@ z
 }
 ;
 }
-)
 (
 )
 ;
 const
 printActualBytes
 =
-(
 function
 *
 (
@@ -1445,7 +1458,9 @@ bytes
 (
 coords
 )
+(
 b
+)
 =
 >
 b
@@ -1472,14 +1487,12 @@ join
 ;
 }
 }
-)
 (
 )
 ;
 const
 printActualColors
 =
-(
 function
 *
 (
@@ -1526,7 +1539,9 @@ componentOrder
 .
 map
 (
+(
 ch
+)
 =
 >
 numberToString
@@ -1547,14 +1562,12 @@ join
 ;
 }
 }
-)
 (
 )
 ;
 const
 printExpectedColors
 =
-(
 function
 *
 (
@@ -1601,7 +1614,9 @@ componentOrder
 .
 map
 (
+(
 ch
+)
 =
 >
 numberToString
@@ -1622,14 +1637,12 @@ join
 ;
 }
 }
-)
 (
 )
 ;
 const
 printActualULPs
 =
-(
 function
 *
 (
@@ -1682,7 +1695,9 @@ componentOrder
 .
 map
 (
+(
 ch
+)
 =
 >
 pixel
@@ -1700,14 +1715,12 @@ join
 ;
 }
 }
-)
 (
 )
 ;
 const
 printExpectedULPs
 =
-(
 function
 *
 (
@@ -1758,7 +1771,9 @@ componentOrder
 .
 map
 (
+(
 ch
+)
 =
 >
 pixel
@@ -1776,7 +1791,6 @@ join
 ;
 }
 }
-)
 (
 )
 ;

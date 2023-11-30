@@ -162,7 +162,9 @@ dstBuffer
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -211,7 +213,9 @@ expand
 '
 srcBufferSize
 '
+(
 p
+)
 =
 >
 [
@@ -239,7 +243,9 @@ expand
 '
 dstBufferSize
 '
+(
 p
+)
 =
 >
 [
@@ -265,7 +271,9 @@ copySize
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -498,7 +506,9 @@ both
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -733,7 +743,9 @@ contents
 .
 fn
 (
+(
 t
+)
 =
 >
 {

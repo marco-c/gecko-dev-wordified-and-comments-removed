@@ -192,7 +192,9 @@ fullU32Range
 .
 map
 (
+(
 e
+)
 =
 >
 {
@@ -263,7 +265,9 @@ x
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -293,7 +297,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {

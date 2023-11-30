@@ -633,7 +633,9 @@ variable
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -696,7 +698,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -756,7 +760,9 @@ kBuiltins
 .
 some
 (
+(
 x
+)
 =
 >
 x
@@ -786,7 +792,6 @@ params
 target_stage
 |
 |
-(
 t
 .
 params
@@ -804,7 +809,6 @@ target_stage
 =
 '
 '
-)
 )
 &
 &
@@ -892,7 +896,9 @@ variable
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -928,7 +934,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1048,7 +1056,9 @@ kBuiltins
 .
 some
 (
+(
 x
+)
 =
 >
 x
@@ -1137,7 +1147,9 @@ variables
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1178,7 +1190,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1286,7 +1300,9 @@ validated
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1340,7 +1356,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1774,7 +1792,9 @@ position
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1818,7 +1838,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1948,7 +1970,9 @@ contexts
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1989,7 +2013,9 @@ var
 .
 fn
 (
+(
 t
+)
 =
 >
 {

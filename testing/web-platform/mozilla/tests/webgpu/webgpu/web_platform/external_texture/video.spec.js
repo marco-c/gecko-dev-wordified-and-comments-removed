@@ -693,7 +693,9 @@ space
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -729,7 +731,9 @@ kVideoExpectations
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1172,7 +1176,9 @@ metadata
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1208,7 +1214,9 @@ kVideoRotationExpectations
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1617,7 +1625,9 @@ present
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1638,7 +1648,9 @@ kVideoExpectations
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2191,7 +2203,9 @@ space
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2227,7 +2241,9 @@ kVideoExpectations
 fn
 (
 async
+(
 t
+)
 =
 >
 {

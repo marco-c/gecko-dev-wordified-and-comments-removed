@@ -451,7 +451,9 @@ fullF32Range
 .
 flatMap
 (
+(
 edge
+)
 =
 >
 fullF32Range
@@ -460,7 +462,9 @@ fullF32Range
 .
 map
 (
+(
 x
+)
 =
 >
 makeCase
@@ -489,7 +493,9 @@ fullF16Range
 .
 flatMap
 (
+(
 edge
+)
 =
 >
 fullF16Range
@@ -498,7 +504,9 @@ fullF16Range
 .
 map
 (
+(
 x
+)
 =
 >
 makeCase
@@ -560,7 +568,9 @@ tests
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -634,7 +644,9 @@ tests
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -664,7 +676,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -748,7 +762,9 @@ tests
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -777,7 +793,9 @@ undefined
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -798,7 +816,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {

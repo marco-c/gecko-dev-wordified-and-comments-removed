@@ -204,7 +204,9 @@ paired
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -236,7 +238,9 @@ popCount
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -385,7 +389,9 @@ RenderPassEncoder
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -436,7 +442,9 @@ popCount
 .
 fn
 (
+(
 t
+)
 =
 >
 {

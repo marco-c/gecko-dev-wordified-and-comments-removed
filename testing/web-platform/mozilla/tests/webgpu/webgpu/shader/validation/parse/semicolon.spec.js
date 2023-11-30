@@ -84,7 +84,9 @@ scope
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -125,7 +127,9 @@ scope
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -169,7 +173,9 @@ directive
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -195,7 +201,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -248,7 +256,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -313,7 +323,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -376,7 +388,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -438,7 +452,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -495,7 +511,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -558,7 +576,9 @@ call
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -628,7 +648,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -688,7 +710,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -760,7 +784,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -826,7 +852,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -895,7 +923,9 @@ declaration
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -964,7 +994,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1027,7 +1059,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1107,7 +1141,9 @@ assert
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1176,7 +1212,9 @@ body
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1224,7 +1262,9 @@ body
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1274,7 +1314,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1324,7 +1366,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1376,7 +1420,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1427,7 +1473,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1482,7 +1530,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1538,7 +1588,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1596,7 +1648,9 @@ case
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1680,7 +1734,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1766,7 +1822,9 @@ case
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1842,7 +1900,9 @@ case
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1920,7 +1980,9 @@ loop
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1979,7 +2041,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2057,7 +2121,9 @@ loop
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2111,7 +2177,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2185,7 +2253,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2267,7 +2337,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2351,7 +2423,9 @@ continuing
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2429,7 +2503,9 @@ loop
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2482,7 +2558,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2554,7 +2632,9 @@ statement
 .
 fn
 (
+(
 t
+)
 =
 >
 {

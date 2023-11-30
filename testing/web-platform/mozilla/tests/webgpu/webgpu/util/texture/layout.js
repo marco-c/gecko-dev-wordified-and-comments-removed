@@ -857,13 +857,11 @@ blockWidth
 )
 ;
 return
-(
 info
 .
 bytesPerBlock
 *
 copyWidth
-)
 /
 info
 .

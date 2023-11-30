@@ -22,6 +22,7 @@ CompatibilityTest
 extends
 ValidationTest
 {
+override
 async
 init
 (

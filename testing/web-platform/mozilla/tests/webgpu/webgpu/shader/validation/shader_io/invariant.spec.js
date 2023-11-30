@@ -237,7 +237,9 @@ attribute
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -256,7 +258,9 @@ kTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -354,7 +358,9 @@ builtin
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -382,7 +388,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -487,7 +495,9 @@ attributes
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -510,7 +520,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {

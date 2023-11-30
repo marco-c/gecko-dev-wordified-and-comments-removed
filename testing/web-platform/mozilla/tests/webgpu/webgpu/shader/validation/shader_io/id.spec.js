@@ -429,7 +429,9 @@ id
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -448,7 +450,9 @@ kTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -527,7 +531,9 @@ fp16
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -549,7 +555,9 @@ h
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -569,7 +577,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -648,7 +658,9 @@ member
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -680,7 +692,9 @@ id
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -758,7 +772,9 @@ override
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -784,7 +800,9 @@ override
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -869,7 +887,9 @@ function
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -894,7 +914,9 @@ id
 .
 fn
 (
+(
 t
+)
 =
 >
 {

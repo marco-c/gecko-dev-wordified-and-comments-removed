@@ -571,7 +571,9 @@ Uint32Array
 iterRange
 (
 kNumElements
+(
 x
+)
 =
 >
 x
@@ -663,7 +665,9 @@ functionality
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -688,7 +692,9 @@ forceFallbackOptions
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -802,7 +808,9 @@ parameters
 fn
 (
 async
+(
 t
+)
 =
 >
 {

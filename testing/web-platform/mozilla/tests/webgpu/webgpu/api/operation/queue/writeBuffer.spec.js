@@ -426,7 +426,9 @@ kTestData
 range
 (
 16
+(
 i
+)
 =
 >
 i
@@ -459,7 +461,9 @@ ArrayBuffer
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -486,7 +490,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -988,7 +994,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {

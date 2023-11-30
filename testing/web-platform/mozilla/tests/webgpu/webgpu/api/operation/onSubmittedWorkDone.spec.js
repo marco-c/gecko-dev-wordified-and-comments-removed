@@ -125,7 +125,9 @@ work
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -168,7 +170,9 @@ writeBuffer
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -244,7 +248,9 @@ serial
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -307,7 +313,9 @@ all
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -372,7 +380,9 @@ order
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -396,7 +406,9 @@ of
 range
 (
 200
+(
 i
+)
 =
 >
 i

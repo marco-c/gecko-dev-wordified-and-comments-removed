@@ -494,8 +494,10 @@ const
 type
 MapRegionBoundMode
 =
+(
 typeof
 mapRegionBoundModes
+)
 [
 number
 ]

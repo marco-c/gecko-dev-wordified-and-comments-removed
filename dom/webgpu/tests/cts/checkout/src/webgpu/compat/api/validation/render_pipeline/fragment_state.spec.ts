@@ -131,7 +131,7 @@ cases
 {
 default
 (
-targets
+_targets
 :
 ThreeColorTargets
 )

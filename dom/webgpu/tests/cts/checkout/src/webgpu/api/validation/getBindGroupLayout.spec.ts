@@ -859,7 +859,6 @@ kIndex
 const
 bgl1
 =
-(
 pipeline
 .
 getBindGroupLayout
@@ -868,7 +867,6 @@ kIndex
 )
 as
 unknown
-)
 as
 Record
 <
@@ -885,7 +883,6 @@ extra
 const
 bgl2
 =
-(
 pipeline
 .
 getBindGroupLayout
@@ -894,7 +891,6 @@ kIndex
 )
 as
 unknown
-)
 as
 Record
 <
@@ -1161,7 +1157,6 @@ kIndex
 const
 bgl1
 =
-(
 pipeline
 .
 getBindGroupLayout
@@ -1170,7 +1165,6 @@ kIndex
 )
 as
 unknown
-)
 as
 Record
 <
@@ -1187,7 +1181,6 @@ extra
 const
 bgl2
 =
-(
 pipeline
 .
 getBindGroupLayout
@@ -1196,7 +1189,6 @@ kIndex
 )
 as
 unknown
-)
 as
 Record
 <

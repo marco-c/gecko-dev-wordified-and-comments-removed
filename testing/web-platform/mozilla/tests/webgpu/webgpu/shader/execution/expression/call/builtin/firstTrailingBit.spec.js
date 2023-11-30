@@ -248,7 +248,9 @@ tests
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -278,7 +280,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1671,7 +1675,9 @@ tests
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1701,7 +1707,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {

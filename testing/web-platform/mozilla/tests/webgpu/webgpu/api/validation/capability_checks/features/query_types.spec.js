@@ -116,11 +116,7 @@ timestamp
 -
 x
 =
-{
-pipeline
-statistics
 timestamp
-}
 query
 {
 enable
@@ -130,7 +126,9 @@ disable
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -164,7 +162,9 @@ true
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -214,7 +214,9 @@ requiredFeatures
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -320,7 +322,9 @@ query
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -339,7 +343,9 @@ true
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -389,7 +395,9 @@ requiredFeatures
 .
 fn
 (
+(
 t
+)
 =
 >
 {

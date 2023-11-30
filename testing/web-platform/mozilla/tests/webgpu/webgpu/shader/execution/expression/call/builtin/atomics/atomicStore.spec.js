@@ -212,7 +212,9 @@ T
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -262,7 +264,9 @@ i32
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -362,7 +366,6 @@ i
 )
 =
 >
-(
 expected
 [
 i
@@ -374,7 +377,6 @@ f
 (
 i
 numInvocations
-)
 )
 )
 ;
@@ -474,7 +476,9 @@ T
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -524,7 +528,9 @@ i32
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -624,7 +630,6 @@ i
 )
 =
 >
-(
 expected
 [
 i
@@ -636,7 +641,6 @@ f
 (
 i
 numInvocations
-)
 )
 )
 ;
@@ -753,7 +757,9 @@ written
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -804,7 +810,9 @@ i32
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1189,7 +1197,6 @@ i
 )
 =
 >
-(
 expected_one_of
 [
 i
@@ -1201,7 +1208,6 @@ f
 (
 i
 numInvocations
-)
 )
 )
 ;
@@ -1338,7 +1344,9 @@ written
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1389,7 +1397,9 @@ i32
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1876,7 +1886,6 @@ i
 )
 =
 >
-(
 expected_one_of
 [
 i
@@ -1888,7 +1897,6 @@ f
 (
 i
 numInvocations
-)
 )
 )
 ;

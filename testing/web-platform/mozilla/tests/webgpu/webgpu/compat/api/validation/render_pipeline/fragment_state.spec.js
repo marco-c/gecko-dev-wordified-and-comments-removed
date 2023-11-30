@@ -120,7 +120,7 @@ cases
 {
 default
 (
-targets
+_targets
 )
 {
 return
@@ -403,7 +403,9 @@ writeMask
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -419,7 +421,9 @@ caseNames
 .
 fn
 (
+(
 t
+)
 =
 >
 {

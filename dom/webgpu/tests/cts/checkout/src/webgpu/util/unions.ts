@@ -37,11 +37,6 @@ Array
 from
 (
 val
-as
-Iterable
-<
-number
->
 )
 ;
 return
@@ -94,11 +89,6 @@ const
 v
 =
 val
-as
-Readonly
-<
-GPUOrigin3DDict
->
 ;
 return
 {
@@ -181,11 +171,6 @@ Array
 from
 (
 val
-as
-Iterable
-<
-number
->
 )
 ;
 return
@@ -238,11 +223,6 @@ const
 v
 =
 val
-as
-Readonly
-<
-GPUExtent3DDict
->
 ;
 return
 {

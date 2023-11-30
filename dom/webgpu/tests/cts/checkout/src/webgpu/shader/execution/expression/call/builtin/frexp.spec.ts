@@ -365,6 +365,7 @@ v
 :
 number
 |
+readonly
 number
 [
 ]
@@ -395,6 +396,7 @@ toInput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -411,6 +413,7 @@ toOutput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -433,6 +436,7 @@ toInput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -452,6 +456,7 @@ toOutput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -480,6 +485,7 @@ toInput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -501,6 +507,7 @@ toOutput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -618,6 +625,7 @@ v
 :
 number
 |
+readonly
 number
 [
 ]
@@ -648,6 +656,7 @@ toInput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -664,6 +673,7 @@ toOutput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -686,6 +696,7 @@ toInput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -705,6 +716,7 @@ toOutput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -731,6 +743,7 @@ toInput
 (
 n
 :
+readonly
 number
 [
 ]
@@ -752,6 +765,7 @@ toOutput
 (
 n
 :
+readonly
 number
 [
 ]

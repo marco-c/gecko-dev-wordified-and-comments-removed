@@ -203,7 +203,9 @@ kAddressSpaceInfo
 .
 filter
 (
+(
 as
+)
 =
 >
 as
@@ -279,7 +281,9 @@ types
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -349,7 +353,9 @@ u32
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -430,7 +436,9 @@ mode
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -508,7 +516,9 @@ i32
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -622,7 +632,9 @@ types
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -700,7 +712,9 @@ i32
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -782,7 +796,9 @@ ptr_handle_space_invalid
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -818,7 +834,9 @@ ptr_bad_store_type
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -844,7 +862,9 @@ clamp
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -884,7 +904,9 @@ ptr_address_space_never_uses_access_mode
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -901,7 +923,9 @@ kAddressSpaceInfo
 .
 filter
 (
+(
 i
+)
 =
 >
 kAddressSpaceInfo
@@ -933,7 +957,9 @@ kAccessModeInfo
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1203,7 +1229,9 @@ cases
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1222,7 +1250,9 @@ kStoreTypeNotInstantiable
 .
 fn
 (
+(
 t
+)
 =
 >
 {

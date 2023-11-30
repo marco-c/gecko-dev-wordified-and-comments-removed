@@ -160,7 +160,9 @@ shaders
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -239,7 +241,9 @@ flow
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -354,7 +358,9 @@ sampling
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -605,7 +611,9 @@ error
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -892,7 +900,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1161,7 +1171,9 @@ error
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1446,7 +1458,9 @@ error
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1643,7 +1657,9 @@ sample
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1803,7 +1819,9 @@ sampling
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -2065,7 +2083,9 @@ error
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -2256,7 +2276,9 @@ sample
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u

@@ -307,7 +307,9 @@ results
 .
 some
 (
+(
 r
+)
 =
 >
 r
@@ -350,10 +352,11 @@ results
 .
 map
 (
+(
 r
+)
 =
 >
-(
 r
 =
 =
@@ -370,7 +373,6 @@ skipUndefined
 u32
 (
 r
-)
 )
 )
 )
@@ -395,7 +397,9 @@ param1s
 .
 map
 (
+(
 e
+)
 =
 >
 makeCase
@@ -414,7 +418,9 @@ filter_undefined
 .
 filter
 (
+(
 c
+)
 =
 >
 c
@@ -533,7 +539,9 @@ u32
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -550,7 +558,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {

@@ -171,6 +171,7 @@ kMinI32
 -
 0x8000_0000
 ;
+async
 function
 runShaderTest
 (
@@ -199,7 +200,10 @@ number
 ]
 )
 :
+Promise
+<
 void
+>
 {
 assert
 (
@@ -385,11 +389,12 @@ source
 const
 pipeline
 =
+await
 t
 .
 device
 .
-createComputePipeline
+createComputePipelineAsync
 (
 {
 layout
@@ -1157,6 +1162,7 @@ generateTypes
 .
 fn
 (
+async
 t
 =
 >
@@ -2282,6 +2288,7 @@ GPUBufferUsage
 COPY_DST
 )
 ;
+await
 runShaderTest
 (
 t
@@ -2365,6 +2372,7 @@ bufferBindingEnd
 }
 else
 {
+await
 runShaderTest
 (
 t

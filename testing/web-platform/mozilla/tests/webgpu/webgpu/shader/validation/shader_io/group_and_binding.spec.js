@@ -103,7 +103,9 @@ declared
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -163,7 +165,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -260,7 +264,9 @@ resources
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -339,7 +345,9 @@ resources
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -414,7 +422,9 @@ resources
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -486,7 +496,9 @@ resources
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -573,7 +585,9 @@ pair
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -678,7 +692,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -932,7 +948,9 @@ points
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1011,7 +1029,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {

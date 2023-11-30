@@ -176,7 +176,9 @@ targets
 const
 addTexture
 =
+(
 format
+)
 =
 >
 {
@@ -740,7 +742,9 @@ kInterleaveFormats
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -897,7 +901,9 @@ kInterleaveFormats
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -989,7 +995,9 @@ textures
 .
 map
 (
+(
 texture
+)
 =
 >
 (
@@ -1106,7 +1114,9 @@ kInterleaveFormats
 fn
 (
 async
+(
 t
+)
 =
 >
 {

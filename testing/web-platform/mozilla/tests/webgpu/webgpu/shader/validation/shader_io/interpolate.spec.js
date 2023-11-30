@@ -199,7 +199,9 @@ correctly
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -310,7 +312,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -548,7 +552,9 @@ IO
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -607,7 +613,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -792,7 +800,9 @@ IO
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -865,7 +875,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1031,7 +1043,9 @@ once
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1056,7 +1070,9 @@ flat
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1338,7 +1354,9 @@ interpolation
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1357,7 +1375,9 @@ kValidationTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {

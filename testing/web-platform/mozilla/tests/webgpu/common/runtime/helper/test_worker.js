@@ -136,7 +136,9 @@ worker
 .
 onmessage
 =
+(
 ev
+)
 =
 >
 {
@@ -237,7 +239,9 @@ await
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 {

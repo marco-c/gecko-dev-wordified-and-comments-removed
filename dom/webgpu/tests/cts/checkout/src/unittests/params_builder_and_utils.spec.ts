@@ -126,7 +126,13 @@ UnitTest
 expectParams
 <
 CaseP
+extends
+{
+}
 SubcaseP
+extends
+{
+}
 >
 (
 act

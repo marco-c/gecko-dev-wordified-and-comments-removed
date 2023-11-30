@@ -159,7 +159,9 @@ pass
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -214,7 +216,9 @@ indirect
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -572,7 +576,9 @@ call
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -615,7 +621,9 @@ kAllBufferUsages
 .
 unless
 (
+(
 t
+)
 =
 >
 {
@@ -647,7 +655,9 @@ indirect
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1227,7 +1237,6 @@ end
 const
 fail
 =
-(
 usage0
 =
 =
@@ -1235,7 +1244,6 @@ usage0
 '
 storage
 '
-)
 !
 =
 =
@@ -1332,7 +1340,9 @@ scope
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1455,7 +1465,9 @@ pass
 const
 IsCopy
 =
+(
 usage
+)
 =
 >
 {
@@ -1530,7 +1542,9 @@ compute
 const
 IsValidComputeUsage
 =
+(
 usage
+)
 =
 >
 {
@@ -1600,7 +1614,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -455,6 +455,7 @@ texture
 GPUTexture
 ;
 public
+override
 readonly
 kTextureSize
 =
@@ -466,6 +467,7 @@ as
 const
 ;
 public
+override
 readonly
 kTextureFormat
 :

@@ -71,7 +71,9 @@ this
 .
 validateFinish
 =
+(
 shouldSucceed
+)
 =
 >
 {
@@ -147,7 +149,9 @@ this
 .
 validateFinishAndSubmitGivenState
 =
+(
 resourceState
+)
 =
 >
 {

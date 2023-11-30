@@ -209,7 +209,9 @@ mat_scalar_cases
 .
 flatMap
 (
+(
 cols
+)
 =
 >
 [
@@ -220,7 +222,9 @@ cols
 .
 flatMap
 (
+(
 rows
+)
 =
 >
 [
@@ -230,7 +234,9 @@ false
 .
 map
 (
+(
 nonConst
+)
 =
 >
 (
@@ -336,7 +342,9 @@ scalar_mat_cases
 .
 flatMap
 (
+(
 cols
+)
 =
 >
 [
@@ -347,7 +355,9 @@ cols
 .
 flatMap
 (
+(
 rows
+)
 =
 >
 [
@@ -357,7 +367,9 @@ false
 .
 map
 (
+(
 nonConst
+)
 =
 >
 (
@@ -535,7 +547,9 @@ rounded
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -575,7 +589,9 @@ rows
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -602,7 +618,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -760,7 +778,9 @@ rounded
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -800,7 +820,9 @@ rows
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -827,7 +849,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -985,7 +1009,9 @@ rounded
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1025,7 +1051,9 @@ rows
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1052,7 +1080,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {

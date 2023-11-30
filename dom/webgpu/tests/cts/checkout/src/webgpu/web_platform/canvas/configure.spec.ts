@@ -890,7 +890,8 @@ expand
 '
 usage
 '
-p
+(
+)
 =
 >
 {

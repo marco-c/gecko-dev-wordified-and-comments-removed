@@ -864,7 +864,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -885,7 +887,9 @@ offset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1083,7 +1087,9 @@ to
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1100,7 +1106,9 @@ kMapModeOptions
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1288,7 +1296,9 @@ to
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1322,7 +1332,9 @@ offset
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1573,7 +1585,9 @@ to
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1589,7 +1603,9 @@ kBufferUsagesForMappedAtCreationTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1770,7 +1786,9 @@ to
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1803,7 +1821,9 @@ offset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2020,7 +2040,9 @@ to
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2129,7 +2151,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -2148,7 +2172,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2398,7 +2424,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -2417,7 +2445,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2594,7 +2624,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -2647,7 +2679,9 @@ rowsPerImage
 .
 filter
 (
+(
 t
+)
 =
 >
 {
@@ -2678,7 +2712,9 @@ rowsPerImage
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3116,7 +3152,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -3135,7 +3173,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3405,7 +3445,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -3424,7 +3466,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3692,7 +3736,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -3711,7 +3757,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3979,7 +4027,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -3998,7 +4048,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4435,7 +4487,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -4454,7 +4508,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4879,7 +4935,9 @@ to
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4913,7 +4971,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5363,7 +5423,9 @@ to
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -5382,7 +5444,9 @@ bufferOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {

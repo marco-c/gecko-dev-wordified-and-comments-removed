@@ -165,7 +165,9 @@ subqueriesToExpand
 .
 map
 (
+(
 s
+)
 =
 >
 {

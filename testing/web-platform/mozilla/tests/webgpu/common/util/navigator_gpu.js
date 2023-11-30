@@ -229,7 +229,9 @@ promise
 then
 (
 async
+(
 adapter
+)
 =
 >
 {

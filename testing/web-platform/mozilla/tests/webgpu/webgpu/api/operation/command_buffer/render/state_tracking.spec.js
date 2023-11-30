@@ -472,7 +472,9 @@ call
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1048,7 +1050,9 @@ fromTexelsAsBytes
 '
 rgba8unorm
 '
+(
 coord
+)
 =
 >
 coord
@@ -1147,7 +1151,9 @@ correctly
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1649,7 +1655,9 @@ fromTexelsAsBytes
 '
 rgba8unorm
 '
+(
 coord
+)
 =
 >
 kColors
@@ -1717,7 +1725,9 @@ pipeline
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2157,7 +2167,9 @@ fromTexelsAsBytes
 '
 rgba8unorm
 '
+(
 coord
+)
 =
 >
 coord
@@ -2291,7 +2303,9 @@ correctly
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3048,7 +3062,9 @@ fromTexelsAsBytes
 '
 rgba8unorm
 '
+(
 coord
+)
 =
 >
 kExpectedColors
@@ -3097,7 +3113,9 @@ draw
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3500,7 +3518,9 @@ fromTexelsAsBytes
 '
 rgba8unorm
 '
+(
 coord
+)
 =
 >
 kColors

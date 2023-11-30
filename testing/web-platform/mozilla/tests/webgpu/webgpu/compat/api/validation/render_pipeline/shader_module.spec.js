@@ -148,7 +148,9 @@ succeeds
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -171,7 +173,9 @@ fsWithSampleMaskUsage
 .
 fn
 (
+(
 t
+)
 =
 >
 {

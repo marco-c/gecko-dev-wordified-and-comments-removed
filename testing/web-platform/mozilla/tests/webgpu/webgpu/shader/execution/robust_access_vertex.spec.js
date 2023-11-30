@@ -1864,7 +1864,9 @@ validValues
 .
 map
 (
+(
 v
+)
 =
 >
 f
@@ -1942,7 +1944,9 @@ attributeNames
 .
 map
 (
+(
 a
+)
 =
 >
 validationFunc
@@ -2529,7 +2533,9 @@ vertex_buffer_access
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2714,7 +2720,9 @@ errorScale
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -2741,7 +2749,9 @@ errorScale
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -159,7 +159,9 @@ messages
 .
 map
 (
+(
 m
+)
 =
 >
 {
@@ -211,7 +213,9 @@ messages
 .
 some
 (
+(
 m
+)
 =
 >
 m
@@ -443,7 +447,9 @@ messages
 .
 map
 (
+(
 m
+)
 =
 >
 {
@@ -495,7 +501,9 @@ messages
 .
 some
 (
+(
 m
+)
 =
 >
 m
@@ -678,7 +686,9 @@ constants
 .
 map
 (
+(
 c
+)
 =
 >
 _
@@ -715,7 +725,9 @@ reference
 .
 map
 (
+(
 c
+)
 =
 >
 _
@@ -858,7 +870,9 @@ enabledExtensions
 .
 map
 (
+(
 x
+)
 =
 >
 enable

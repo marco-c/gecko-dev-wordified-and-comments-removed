@@ -514,7 +514,9 @@ TexelView
 fromTexelsAsColors
 (
 renderTargetFormat
-coords
+(
+_coords
+)
 =
 >
 expColor
@@ -803,7 +805,9 @@ disabled
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1034,7 +1038,9 @@ value
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1100,7 +1106,9 @@ kRedStencilColor
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1324,7 +1332,9 @@ true
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1383,7 +1393,9 @@ kGreenStencilColor
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1556,7 +1568,9 @@ modes
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1570,7 +1584,9 @@ kDepthStencilFormats
 .
 filter
 (
+(
 format
+)
 =
 >
 kTextureFormatInfo
@@ -1953,7 +1969,9 @@ triangleColor
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1973,7 +1991,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2533,7 +2553,9 @@ visualized
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2552,7 +2574,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -278,7 +278,9 @@ correctly
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -298,7 +300,9 @@ f16
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -317,7 +321,9 @@ kCases
 .
 fn
 (
+(
 t
+)
 =
 >
 {

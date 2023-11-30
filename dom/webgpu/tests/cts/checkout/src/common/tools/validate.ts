@@ -96,6 +96,15 @@ batching
 correctly
 if
 used
+-
+That
+each
+case
+query
+is
+not
+too
+long
 Example
 :
 tools

@@ -527,7 +527,9 @@ storageMemoryMessagePassingTestCode
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1001,7 +1003,9 @@ storageMemoryStoreTestCode
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1469,7 +1473,9 @@ storageMemoryLoadBufferTestCode
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1961,7 +1967,9 @@ storageMemoryReadTestCode
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2445,7 +2453,9 @@ storageMemoryStoreBufferTestCode
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2901,7 +2911,9 @@ storageMemory2P2WTestCode
 fn
 (
 async
+(
 t
+)
 =
 >
 {

@@ -206,7 +206,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -232,7 +234,9 @@ kValuesTypes
 .
 filter
 (
+(
 u
+)
 =
 >
 stageSupportsType
@@ -258,7 +262,9 @@ expand
 '
 value
 '
+(
 u
+)
 =
 >
 unique
@@ -279,7 +285,9 @@ type
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -319,7 +327,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -417,7 +427,9 @@ builtin
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -436,7 +448,9 @@ kIntegerArgumentTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {

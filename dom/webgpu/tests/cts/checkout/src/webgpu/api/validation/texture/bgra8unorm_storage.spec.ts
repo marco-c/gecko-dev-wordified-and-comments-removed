@@ -799,7 +799,8 @@ expand
 '
 usage
 '
-p
+(
+)
 =
 >
 {
@@ -1031,7 +1032,8 @@ expand
 '
 usage
 '
-p
+(
+)
 =
 >
 {

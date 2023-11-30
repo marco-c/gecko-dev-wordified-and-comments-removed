@@ -498,7 +498,9 @@ workgroupMemoryTestCode
 fn
 (
 async
+(
 t
+)
 =
 >
 {

@@ -270,7 +270,9 @@ passed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -342,7 +344,9 @@ height
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -362,7 +366,9 @@ dstColorFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -836,7 +842,9 @@ passed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -878,7 +886,9 @@ kCopySubrectInfo
 .
 fn
 (
+(
 t
+)
 =
 >
 {

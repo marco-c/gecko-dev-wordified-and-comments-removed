@@ -4,7 +4,7 @@ checkType
 T
 >
 (
-x
+_
 :
 T
 )

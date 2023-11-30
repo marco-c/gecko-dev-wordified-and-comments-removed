@@ -114,7 +114,9 @@ kDepthStencilFormats
 .
 filter
 (
+(
 format
+)
 =
 >
 kTextureFormatInfo
@@ -920,7 +922,9 @@ TexelView
 fromTexelsAsColors
 (
 renderTargetFormat
-coords
+(
+_coords
+)
 =
 >
 expColor
@@ -1212,7 +1216,9 @@ expected
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1564,7 +1570,9 @@ kGreenStencilColor
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1584,7 +1592,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1711,7 +1721,9 @@ value
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1905,7 +1917,9 @@ _expectedStencil
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1925,7 +1939,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2069,7 +2085,9 @@ value
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2278,7 +2296,9 @@ _expectedStencil
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2298,7 +2318,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2446,7 +2468,9 @@ value
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2460,7 +2484,9 @@ kDepthStencilFormats
 .
 filter
 (
+(
 format
+)
 =
 >
 {
@@ -2682,7 +2708,9 @@ _expectedStencil
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2702,7 +2730,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2959,7 +2989,9 @@ stencil
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3033,7 +3065,9 @@ kRedStencilColor
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3053,7 +3087,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3255,7 +3291,9 @@ pass
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3271,7 +3309,9 @@ kStencilFormats
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3291,7 +3331,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {

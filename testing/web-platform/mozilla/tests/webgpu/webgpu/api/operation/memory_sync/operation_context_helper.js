@@ -161,7 +161,9 @@ kOperationContexts
 .
 filter
 (
+(
 c
+)
 =
 >
 c
@@ -176,7 +178,9 @@ kOperationContexts
 .
 filter
 (
+(
 c
+)
 =
 >
 c

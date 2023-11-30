@@ -116,11 +116,7 @@ timestamp
 -
 x
 =
-{
-pipeline
-statistics
 timestamp
-}
 query
 {
 enable

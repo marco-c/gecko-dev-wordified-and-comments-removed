@@ -367,7 +367,9 @@ buffer
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -387,7 +389,9 @@ false
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -412,7 +416,9 @@ Uint32Array
 range
 (
 count
+(
 i
+)
 =
 >
 i
@@ -778,7 +784,9 @@ names
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -798,7 +806,9 @@ false
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -990,7 +1000,9 @@ buffer
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1010,7 +1022,9 @@ false
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1026,7 +1040,7 @@ c2
 =
 3
 .
-141592653589793238
+141592653589793
 ;
 await
 t
@@ -1174,7 +1188,9 @@ constant
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1239,7 +1255,9 @@ z
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1457,7 +1475,9 @@ module
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1477,7 +1497,9 @@ false
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2030,7 +2052,9 @@ them
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2050,7 +2074,9 @@ false
 fn
 (
 async
+(
 t
+)
 =
 >
 {

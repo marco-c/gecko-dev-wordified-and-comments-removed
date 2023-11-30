@@ -164,7 +164,9 @@ self
 onmessage
 =
 async
+(
 ev
+)
 =
 >
 {

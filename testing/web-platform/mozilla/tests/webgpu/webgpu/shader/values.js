@@ -162,7 +162,9 @@ result_as_bits
 .
 map
 (
+(
 u
+)
 =
 >
 uint32ToFloat32

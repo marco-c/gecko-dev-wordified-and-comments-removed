@@ -59,8 +59,10 @@ export
 type
 CanvasType
 =
+(
 typeof
 kAllCanvasTypes
+)
 [
 number
 ]
@@ -115,8 +117,10 @@ export
 type
 CanvasContext
 =
+(
 typeof
 kValidCanvasContextIds
+)
 [
 number
 ]

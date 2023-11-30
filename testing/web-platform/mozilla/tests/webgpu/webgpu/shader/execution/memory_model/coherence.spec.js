@@ -828,7 +828,9 @@ rmw_variant
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1352,7 +1354,9 @@ rmw_variant
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2068,7 +2072,9 @@ rmw_variant
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2482,7 +2488,9 @@ workgroupMemoryCorw1TestCode
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3196,7 +3204,9 @@ rmw_variant
 fn
 (
 async
+(
 t
+)
 =
 >
 {

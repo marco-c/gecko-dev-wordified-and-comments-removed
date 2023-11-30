@@ -159,8 +159,10 @@ number
 ;
 arrayType
 :
+(
 typeof
 kTypedArrays
+)
 [
 number
 ]

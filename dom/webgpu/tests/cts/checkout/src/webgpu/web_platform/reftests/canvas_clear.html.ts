@@ -43,7 +43,6 @@ HTMLCanvasElement
 const
 ctx
 =
-(
 canvas
 .
 getContext
@@ -54,7 +53,6 @@ webgpu
 )
 as
 unknown
-)
 as
 GPUCanvasContext
 ;

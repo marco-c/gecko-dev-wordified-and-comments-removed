@@ -169,7 +169,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -193,7 +195,9 @@ kResourceStates
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -392,7 +396,9 @@ queryCount
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -524,7 +530,9 @@ QUERY_RESOLVE
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -551,7 +559,9 @@ QUERY_RESOLVE
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -682,7 +692,9 @@ of
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -703,7 +715,9 @@ destinationOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -837,7 +851,9 @@ queryCount
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -921,7 +937,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1080,7 +1098,9 @@ true
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1096,7 +1116,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {

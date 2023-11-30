@@ -82,7 +82,9 @@ const
 kScalarTypeInfo
 =
 {
+'
 i32
+'
 :
 {
 layout
@@ -105,7 +107,9 @@ innerLength
 :
 0
 }
+'
 u32
+'
 :
 {
 layout
@@ -128,7 +132,9 @@ innerLength
 :
 0
 }
+'
 f32
+'
 :
 {
 layout
@@ -151,7 +157,9 @@ innerLength
 :
 0
 }
+'
 bool
+'
 :
 {
 layout
@@ -183,7 +191,9 @@ const
 kVectorContainerTypeInfo
 =
 {
+'
 vec2
+'
 :
 {
 layout
@@ -203,7 +213,9 @@ innerLength
 :
 0
 }
+'
 vec3
+'
 :
 {
 layout
@@ -223,7 +235,9 @@ innerLength
 :
 0
 }
+'
 vec4
+'
 :
 {
 layout
@@ -259,7 +273,9 @@ const
 kMatrixContainerTypeInfo
 =
 {
+'
 mat2x2
+'
 :
 {
 layout
@@ -279,7 +295,9 @@ innerLength
 :
 2
 }
+'
 mat3x2
+'
 :
 {
 layout
@@ -299,7 +317,9 @@ innerLength
 :
 2
 }
+'
 mat4x2
+'
 :
 {
 layout
@@ -319,7 +339,9 @@ innerLength
 :
 2
 }
+'
 mat2x3
+'
 :
 {
 layout
@@ -339,7 +361,9 @@ innerLength
 :
 3
 }
+'
 mat3x3
+'
 :
 {
 layout
@@ -359,7 +383,9 @@ innerLength
 :
 3
 }
+'
 mat4x3
+'
 :
 {
 layout
@@ -379,7 +405,9 @@ innerLength
 :
 3
 }
+'
 mat2x4
+'
 :
 {
 layout
@@ -399,7 +427,9 @@ innerLength
 :
 4
 }
+'
 mat3x4
+'
 :
 {
 layout
@@ -419,7 +449,9 @@ innerLength
 :
 4
 }
+'
 mat4x4
+'
 :
 {
 layout
@@ -1346,7 +1378,6 @@ p
 return
 (
 (
-(
 p
 .
 addressSpace
@@ -1367,7 +1398,6 @@ storageMode
 '
 read_write
 '
-)
 |
 |
 p

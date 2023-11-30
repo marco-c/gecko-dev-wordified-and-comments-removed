@@ -174,7 +174,7 @@ import
 {
 fullRangeForType
 kConstantAndOverrideStages
-kMinus3PiTo3Pi
+kSparseMinus3PiTo3Pi
 stageSupportsType
 unique
 validateConstOrOverrideBuiltinEval
@@ -293,7 +293,7 @@ u
 >
 unique
 (
-kMinus3PiTo3Pi
+kSparseMinus3PiTo3Pi
 fullRangeForType
 (
 kValuesTypes
@@ -317,7 +317,7 @@ u
 >
 unique
 (
-kMinus3PiTo3Pi
+kSparseMinus3PiTo3Pi
 fullRangeForType
 (
 kValuesTypes

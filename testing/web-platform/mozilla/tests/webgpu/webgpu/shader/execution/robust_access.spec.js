@@ -171,6 +171,7 @@ kMinI32
 -
 0x8000_0000
 ;
+async
 function
 runShaderTest
 (
@@ -366,11 +367,12 @@ source
 const
 pipeline
 =
+await
 t
 .
 device
 .
-createComputePipeline
+createComputePipelineAsync
 (
 {
 layout
@@ -774,7 +776,9 @@ expression
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1070,10 +1074,11 @@ expand
 '
 isAtomic
 '
+(
 p
+)
 =
 >
-(
 supportsAtomics
 (
 p
@@ -1087,7 +1092,6 @@ true
 [
 false
 ]
-)
 )
 .
 beginSubcases
@@ -1110,7 +1114,10 @@ generateTypes
 .
 fn
 (
+async
+(
 t
+)
 =
 >
 {
@@ -2227,6 +2234,7 @@ GPUBufferUsage
 COPY_DST
 )
 ;
+await
 runShaderTest
 (
 t
@@ -2310,6 +2318,7 @@ bufferBindingEnd
 }
 else
 {
+await
 runShaderTest
 (
 t

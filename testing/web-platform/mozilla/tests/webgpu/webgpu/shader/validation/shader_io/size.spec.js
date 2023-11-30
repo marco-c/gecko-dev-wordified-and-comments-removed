@@ -418,7 +418,9 @@ ize
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -437,7 +439,9 @@ kSizeTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -551,7 +555,9 @@ fp16
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -573,7 +579,9 @@ h
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -593,7 +601,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -827,7 +837,9 @@ struct
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -846,7 +858,9 @@ kNonStructTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {

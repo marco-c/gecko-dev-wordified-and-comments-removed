@@ -106,6 +106,7 @@ getVertexStateWithOutputs
 (
 outputs
 :
+readonly
 string
 [
 ]
@@ -228,6 +229,7 @@ getFragmentStateWithInputs
 (
 inputs
 :
+readonly
 string
 [
 ]

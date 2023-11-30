@@ -1066,7 +1066,7 @@ addEventListener
 '
 finish
 '
-ev
+_ev
 =
 >
 this
@@ -5714,13 +5714,11 @@ shouldReject
 Error
 '
 treePromise
-'
-loadTree
-should
-have
-thrown
-Error
-'
+{
+allowMissingStack
+:
+true
+}
 )
 ;
 return

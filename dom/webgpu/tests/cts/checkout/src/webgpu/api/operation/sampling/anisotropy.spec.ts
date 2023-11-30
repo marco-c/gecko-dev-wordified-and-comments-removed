@@ -463,6 +463,7 @@ GPURenderPipeline
 |
 undefined
 ;
+override
 async
 init
 (
@@ -2149,7 +2150,7 @@ TexelView
 fromTexelsAsBytes
 (
 kTextureFormat
-coords_
+_coords
 =
 >
 value

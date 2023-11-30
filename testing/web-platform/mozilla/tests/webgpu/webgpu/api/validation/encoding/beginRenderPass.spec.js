@@ -400,7 +400,9 @@ true
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -416,7 +418,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -702,7 +706,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -721,7 +727,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -737,7 +745,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -919,7 +929,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -938,7 +950,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -954,7 +968,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1064,7 +1080,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1083,7 +1101,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1116,7 +1136,9 @@ query
 .
 fn
 (
+(
 t
+)
 =
 >
 {

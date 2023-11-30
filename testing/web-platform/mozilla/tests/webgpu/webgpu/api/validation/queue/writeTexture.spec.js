@@ -138,7 +138,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -154,7 +156,9 @@ kResourceStates
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -327,7 +331,9 @@ COPY_DST
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -471,7 +477,9 @@ not
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -490,7 +498,9 @@ sampleCount
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -632,7 +642,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -651,7 +663,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -667,7 +681,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {

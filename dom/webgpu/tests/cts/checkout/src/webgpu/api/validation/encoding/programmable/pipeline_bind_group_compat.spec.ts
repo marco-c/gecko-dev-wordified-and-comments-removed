@@ -331,8 +331,10 @@ const
 type
 ComputeCmd
 =
+(
 typeof
 kComputeCmds
+)
 [
 number
 ]
@@ -360,8 +362,10 @@ const
 type
 RenderCmd
 =
+(
 typeof
 kRenderCmds
+)
 [
 number
 ]

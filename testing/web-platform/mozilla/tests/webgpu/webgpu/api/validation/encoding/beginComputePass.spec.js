@@ -193,7 +193,9 @@ generated
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -209,7 +211,9 @@ kQueryTypes
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -234,7 +238,9 @@ queryType
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -335,7 +341,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -358,7 +366,9 @@ invalid
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -380,7 +390,9 @@ query
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -483,7 +495,9 @@ unique
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -519,7 +533,9 @@ undefined
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -541,7 +557,9 @@ query
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -673,7 +691,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -692,7 +712,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -725,7 +747,9 @@ query
 .
 fn
 (
+(
 t
+)
 =
 >
 {

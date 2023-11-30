@@ -419,7 +419,9 @@ updated
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -443,7 +445,9 @@ VideoFrame
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -667,7 +671,9 @@ microtasks
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -691,7 +697,9 @@ VideoFrame
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -873,7 +881,9 @@ expired
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -897,7 +907,9 @@ VideoFrame
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1079,7 +1091,9 @@ GPUExternalTexture
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1300,7 +1314,9 @@ called
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1465,7 +1481,9 @@ again
 fn
 (
 async
+(
 t
+)
 =
 >
 {

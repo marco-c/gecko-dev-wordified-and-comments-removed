@@ -34,8 +34,10 @@ export
 type
 RenderEncodeType
 =
+(
 typeof
 kRenderEncodeTypes
+)
 [
 number
 ]
@@ -61,8 +63,10 @@ export
 type
 ProgrammableEncoderType
 =
+(
 typeof
 kProgrammableEncoderTypes
+)
 [
 number
 ]
@@ -89,8 +93,10 @@ export
 type
 EncoderType
 =
+(
 typeof
 kEncoderTypes
+)
 [
 number
 ]
