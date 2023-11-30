@@ -22,7 +22,9 @@ parametrize
 device_pixel_ratio
 "
 [
-1
+0
+.
+5
 2
 ]
 )
@@ -103,7 +105,9 @@ parametrize
 device_pixel_ratio
 "
 [
-1
+0
+.
+5
 2
 ]
 )

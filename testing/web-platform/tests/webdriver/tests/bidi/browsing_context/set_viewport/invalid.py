@@ -630,6 +630,7 @@ browsing_context
 .
 set_viewport
 (
+            
 context
 =
 new_tab
@@ -638,9 +639,15 @@ new_tab
 context
 "
 ]
+            
 device_pixel_ratio
 =
 device_pixel_ratio
+            
+viewport
+=
+None
+        
 )
 pytest
 .
@@ -685,6 +692,7 @@ browsing_context
 .
 set_viewport
 (
+            
 context
 =
 new_tab
@@ -693,7 +701,13 @@ new_tab
 context
 "
 ]
+            
 device_pixel_ratio
 =
 device_pixel_ratio
+            
+viewport
+=
+None
+        
 )
