@@ -145,9 +145,9 @@ const
 4
 )
 (
-any
+extern
 .
-convert_extern
+internalize
 (
 local
 .

@@ -38153,7 +38153,7 @@ values
 }
 static
 bool
-EmitAnyConvertExtern
+EmitExternInternalize
 (
 FunctionCompiler
 &
@@ -38213,7 +38213,7 @@ true
 }
 static
 bool
-EmitExternConvertAny
+EmitExternExternalize
 (
 FunctionCompiler
 &
@@ -44288,12 +44288,12 @@ uint16_t
 GcOp
 :
 :
-AnyConvertExtern
+ExternInternalize
 )
 :
 CHECK
 (
-EmitAnyConvertExtern
+EmitExternInternalize
 (
 f
 )
@@ -44305,12 +44305,12 @@ uint16_t
 GcOp
 :
 :
-ExternConvertAny
+ExternExternalize
 )
 :
 CHECK
 (
-EmitExternConvertAny
+EmitExternExternalize
 (
 f
 )

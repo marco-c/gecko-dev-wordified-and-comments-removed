@@ -231,8 +231,6 @@ const
 )
 )
 (
-then
-(
 local
 .
 set
@@ -240,7 +238,6 @@ tmp
 (
 call
 item
-)
 )
 )
 )

@@ -89,8 +89,6 @@ i
 )
 )
 (
-then
-(
 local
 .
 get
@@ -100,13 +98,9 @@ i
 8
 }
 )
-)
-(
-else
 {
 tests
 }
-)
 )
 ;
 }
@@ -185,8 +179,6 @@ get
 p
 )
 (
-then
-(
 local
 .
 set
@@ -210,7 +202,6 @@ local
 .
 get
 p
-)
 )
 )
 )

@@ -3845,14 +3845,6 @@ core
 HeapType
 :
 :
-Exn
-|
-core
-:
-:
-HeapType
-:
-:
 Any
 |
 core
@@ -3920,7 +3912,7 @@ core
 HeapType
 :
 :
-Concrete
+Index
 (
 id
 )

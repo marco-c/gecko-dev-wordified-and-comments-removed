@@ -76,6 +76,15 @@ TypeBounds
 ValType
 }
 ;
+use
+wasmparser
+:
+:
+names
+:
+:
+KebabString
+;
 mod
 encode
 ;
@@ -341,13 +350,13 @@ import_names
 :
 HashSet
 <
-String
+KebabString
 >
 import_urls
 :
 HashSet
 <
-String
+KebabString
 >
 funcs
 :
@@ -6098,7 +6107,7 @@ exports
 mut
 HashSet
 <
-String
+KebabString
 >
 export_urls
 :
@@ -6106,7 +6115,7 @@ export_urls
 mut
 HashSet
 <
-String
+KebabString
 >
 type_fuel
 :
@@ -6136,13 +6145,13 @@ ComponentBuilder
 mut
 HashSet
 <
-String
+KebabString
 >
 &
 mut
 HashSet
 <
-String
+KebabString
 >
 &
 mut
@@ -8848,7 +8857,7 @@ mut
 self
 name
 :
-String
+KebabString
 url
 :
 Option
@@ -11957,7 +11966,7 @@ Export
 {
 name
 :
-String
+KebabString
 url
 :
 Option
@@ -12119,7 +12128,7 @@ Export
 {
 name
 :
-String
+KebabString
 url
 :
 Option
@@ -12150,7 +12159,7 @@ params
 Vec
 <
 (
-String
+KebabString
 ComponentValType
 )
 >
@@ -12161,7 +12170,7 @@ Vec
 (
 Option
 <
-String
+KebabString
 >
 ComponentValType
 )
@@ -12465,7 +12474,7 @@ fields
 Vec
 <
 (
-String
+KebabString
 ComponentValType
 )
 >
@@ -12489,7 +12498,7 @@ cases
 Vec
 <
 (
-String
+KebabString
 Option
 <
 ComponentValType
@@ -12558,7 +12567,7 @@ fields
 :
 Vec
 <
-String
+KebabString
 >
 }
 #
@@ -12579,7 +12588,7 @@ variants
 :
 Vec
 <
-String
+KebabString
 >
 }
 #
@@ -12660,7 +12669,7 @@ Import
 {
 name
 :
-String
+KebabString
 url
 :
 Option

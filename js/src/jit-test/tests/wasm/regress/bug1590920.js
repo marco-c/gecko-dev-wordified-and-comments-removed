@@ -53,10 +53,7 @@ const
 1
 )
 (
-then
-(
 return
-)
 )
 )
 )

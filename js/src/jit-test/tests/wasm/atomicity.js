@@ -488,11 +488,8 @@ barrierValue
 )
 )
 (
-then
-(
 br
 c1
-)
 )
 )
 )
@@ -810,8 +807,6 @@ get
 n
 )
 (
-then
-(
 block
 {
 isMaster
@@ -1102,7 +1097,6 @@ const
 (
 br
 outer
-)
 )
 )
 )

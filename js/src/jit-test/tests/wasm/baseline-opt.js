@@ -749,8 +749,6 @@ get
 )
 )
 (
-then
-(
 local
 .
 set
@@ -764,9 +762,6 @@ trueBranch
 }
 )
 )
-)
-(
-else
 (
 local
 .
@@ -779,7 +774,6 @@ const
 {
 falseBranch
 }
-)
 )
 )
 )
@@ -926,8 +920,6 @@ value
 )
 )
 (
-then
-(
 local
 .
 set
@@ -941,9 +933,6 @@ trueBranch
 }
 )
 )
-)
-(
-else
 (
 local
 .
@@ -956,7 +945,6 @@ const
 {
 falseBranch
 }
-)
 )
 )
 )

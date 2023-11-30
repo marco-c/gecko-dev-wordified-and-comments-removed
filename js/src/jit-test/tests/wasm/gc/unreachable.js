@@ -241,14 +241,14 @@ s
 )
 "
 "
-any
+extern
 .
-convert_extern
+internalize
 "
 "
 extern
 .
-convert_any
+externalize
 "
 ]
 ;

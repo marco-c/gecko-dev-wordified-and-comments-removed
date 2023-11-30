@@ -5218,7 +5218,7 @@ uint16_t
 GcOp
 :
 :
-AnyConvertExtern
+ExternInternalize
 )
 :
 {
@@ -5252,7 +5252,7 @@ uint16_t
 GcOp
 :
 :
-ExternConvertAny
+ExternExternalize
 )
 :
 {
