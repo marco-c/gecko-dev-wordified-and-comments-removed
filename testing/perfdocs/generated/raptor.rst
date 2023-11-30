@@ -95640,7 +95640,7 @@ com
 /
 gallery
 /
-rCXZUil
+WuOobqV
 >
 __
 *
@@ -95662,7 +95662,7 @@ com
 /
 gallery
 /
-m5tYJL6
+uTI7fKy
 >
 __
 *
@@ -115831,7 +115831,6 @@ PerceptualSpeedIndex
 SpeedIndex
 FirstVisualChange
 LastVisualChange
-largestContentfulPaint
 *
 *
 *
@@ -115907,6 +115906,20 @@ true
 *
 *
 *
+measure
+*
+*
+:
+fcp
+loadtime
+ContentfulSpeedIndex
+PerceptualSpeedIndex
+SpeedIndex
+FirstVisualChange
+LastVisualChange
+*
+*
+*
 page
 cycles
 *
@@ -115939,7 +115952,7 @@ manifest
 *
 *
 :
-mitm7
+mitm8
 -
 linux
 -
