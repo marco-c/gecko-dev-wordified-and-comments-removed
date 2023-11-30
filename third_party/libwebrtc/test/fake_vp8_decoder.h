@@ -127,10 +127,15 @@ const
 override
 ;
 static
-const
+constexpr
 char
-*
 kImplementationName
+[
+]
+=
+"
+fake_vp8_decoder
+"
 ;
 private
 :
