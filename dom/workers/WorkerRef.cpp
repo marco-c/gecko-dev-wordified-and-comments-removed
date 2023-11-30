@@ -938,10 +938,7 @@ nullptr
 ref
 -
 >
-mWorkerPrivate
--
->
-AdjustNonblockingCCBackgroundActorCount
+SetActorCount
 (
 1
 )
@@ -989,7 +986,7 @@ false
 )
 mActorCount
 (
-1
+0
 )
 {
 }
