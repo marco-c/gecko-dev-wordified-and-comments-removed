@@ -681,15 +681,6 @@ TrialInliningState
 :
 :
 Failure
-&
-&
-state
-!
-=
-TrialInliningState
-:
-:
-MonomorphicInlined
 )
 {
 switch
