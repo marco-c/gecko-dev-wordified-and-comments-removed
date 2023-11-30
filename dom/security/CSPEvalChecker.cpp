@@ -562,6 +562,11 @@ unknown
 )
 ;
 }
+columnNum
++
+=
+1
+;
 nsCOMPtr
 <
 nsIContentSecurityPolicy
@@ -701,6 +706,11 @@ unknown
 )
 ;
 }
+columnNum
++
+=
+1
+;
 RefPtr
 <
 WorkerCSPCheckRunnable

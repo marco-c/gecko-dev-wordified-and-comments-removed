@@ -3571,6 +3571,11 @@ file
 _ns
 ;
 }
+columnNumber
++
+=
+1
+;
 NS_ConvertUTF8toUTF16
 fileNameA
 (
@@ -5707,7 +5712,7 @@ u
 "
 _ns
 0
-0
+1
 nsIScriptError
 :
 :

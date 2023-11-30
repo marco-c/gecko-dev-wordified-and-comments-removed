@@ -2617,7 +2617,7 @@ fileName
 lineNum
 columnNum
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 scriptSample

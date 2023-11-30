@@ -1121,6 +1121,11 @@ columnNumber
 )
 ;
 }
+columnNumber
++
+=
+1
+;
 AsyncReportViolation
 (
 aTriggeringElement
@@ -2733,6 +2738,14 @@ columnNumber
 aColumnNumber
 ;
 }
+else
+{
+columnNumber
++
+=
+1
+;
+}
 AsyncReportViolation
 (
 aTriggeringElement
@@ -3390,6 +3403,11 @@ columnNumber
 )
 ;
 }
+columnNumber
++
+=
+1
+;
 nsresult
 rv
 =
@@ -8005,7 +8023,7 @@ u
 "
 _ns
 0
-0
+1
 nsIScriptError
 :
 :
