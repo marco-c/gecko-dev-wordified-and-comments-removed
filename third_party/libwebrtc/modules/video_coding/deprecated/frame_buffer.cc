@@ -909,13 +909,14 @@ is_first_packet_in_frame
 )
 )
 {
-playout_delay_
-=
+SetPlayoutDelay
+(
 packet
 .
 video_header
 .
 playout_delay
+)
 ;
 }
 if

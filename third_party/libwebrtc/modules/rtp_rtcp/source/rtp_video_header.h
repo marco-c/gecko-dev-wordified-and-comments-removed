@@ -424,7 +424,13 @@ VideoCodecType
 :
 kVideoCodecGeneric
 ;
+absl
+:
+:
+optional
+<
 VideoPlayoutDelay
+>
 playout_delay
 ;
 VideoSendTiming
