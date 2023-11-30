@@ -1294,6 +1294,16 @@ browser
 /
 components
 /
+aboutwelcome
+/
+*
+*
+"
+"
+browser
+/
+components
+/
 attribution
 /
 *
