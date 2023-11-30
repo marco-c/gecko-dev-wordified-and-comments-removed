@@ -1582,6 +1582,15 @@ Bug
 "
 browser_inplace
 -
+editor_focus_closest_editor
+.
+js
+"
+]
+[
+"
+browser_inplace
+-
 editor_maxwidth
 .
 js
