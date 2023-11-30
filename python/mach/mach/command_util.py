@@ -5,6 +5,8 @@ ast
 import
 errno
 import
+shlex
+import
 sys
 import
 types
@@ -3249,9 +3251,23 @@ aliases
 command
 ]
             
+arg_string
+=
+shlex
+.
+split
+(
+alias
+)
+            
 command
 =
-alias
+arg_string
+.
+pop
+(
+0
+)
         
 setattr
 (
