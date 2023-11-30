@@ -750,10 +750,10 @@ const
 LayoutDeviceRect
 &
 aSCBounds
-VideoInfo
+wr
 :
 :
-Rotation
+WrRotation
 aRotation
 const
 wr
