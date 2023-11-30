@@ -267,17 +267,6 @@ is
 no
 longer
 working
-[
-ed
-.
-I
-need
-a
-better
-phrase
-for
-this
-]
 Until
 the
 change
