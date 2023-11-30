@@ -301,6 +301,8 @@ bool
 aIsAtEndOfLine
 int32_t
 aGranularity
+bool
+aFromUser
 )
 ;
 async

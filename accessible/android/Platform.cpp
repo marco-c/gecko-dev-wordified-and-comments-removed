@@ -739,6 +739,8 @@ const
 LayoutDeviceIntRect
 &
 aCaretRect
+bool
+aFromUser
 )
 {
 RefPtr

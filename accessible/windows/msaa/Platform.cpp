@@ -469,6 +469,8 @@ const
 LayoutDeviceIntRect
 &
 aCaretRect
+bool
+aFromUser
 )
 {
 AccessibleWrap
