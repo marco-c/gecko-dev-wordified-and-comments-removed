@@ -166,7 +166,7 @@ docLoaderFactory
 nsContentUtils
 :
 :
-FindInternalContentViewer
+FindInternalDocumentViewer
 (
 aType
 &

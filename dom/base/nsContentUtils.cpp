@@ -35318,7 +35318,7 @@ nsIDocumentLoaderFactory
 nsContentUtils
 :
 :
-FindInternalContentViewer
+FindInternalDocumentViewer
 (
 const
 nsACString
