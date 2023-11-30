@@ -74,6 +74,13 @@ js
 ]
 [
 "
+browser_bannerClicking_globalRules_telemetry
+.
+js
+"
+]
+[
+"
 browser_bannerClicking_globalRules
 .
 js
@@ -248,6 +255,13 @@ sjs
 [
 "
 browser_cookieinjector_events
+.
+js
+"
+]
+[
+"
+browser_cookieinjector_telemetry
 .
 js
 "
