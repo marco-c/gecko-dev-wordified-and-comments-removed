@@ -5634,12 +5634,15 @@ nsIContent
 >
 targetContent
 =
-do_QueryInterface
+nsIContent
+:
+:
+FromEventTargetOrNull
 (
 aKeyboardEvent
 -
 >
-GetDOMEventTarget
+GetOriginalDOMEventTarget
 (
 )
 )

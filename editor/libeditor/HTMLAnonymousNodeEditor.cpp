@@ -1523,7 +1523,7 @@ if
 selectionContainerElement
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
