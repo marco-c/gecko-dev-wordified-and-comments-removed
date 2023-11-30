@@ -11,6 +11,15 @@ cubeb_utils
 .
 h
 "
+#
+include
+<
+CoreAudio
+/
+CoreAudioTypes
+.
+h
+>
 typedef
 struct
 {

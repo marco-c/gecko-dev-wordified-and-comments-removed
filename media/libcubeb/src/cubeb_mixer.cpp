@@ -826,7 +826,7 @@ maxcoef
 =
 0
 ;
-float
+double
 maxval
 ;
 cubeb_channel_layout

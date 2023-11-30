@@ -37,6 +37,13 @@ atomic
 #
 include
 <
+math
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -45,13 +52,6 @@ h
 include
 <
 string
-.
-h
->
-#
-include
-<
-math
 .
 h
 >
@@ -120,6 +120,8 @@ version
 checking
 infrastructure
 .
+"
+"
 Claiming
 to
 be
