@@ -1713,13 +1713,6 @@ type
 "
 media
 "
-mediaText
-:
-rule
-.
-media
-.
-mediaText
 conditionText
 :
 rule
