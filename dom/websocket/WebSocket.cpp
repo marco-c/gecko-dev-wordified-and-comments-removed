@@ -738,7 +738,7 @@ mScriptLine
 )
 mScriptColumn
 (
-0
+1
 )
 mInnerWindowID
 (
@@ -5973,7 +5973,7 @@ get
 lineno
 column
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 )
@@ -7031,7 +7031,7 @@ mScriptColumn
 =
 column
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 ;
