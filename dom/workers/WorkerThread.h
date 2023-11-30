@@ -250,6 +250,15 @@ aKey
 )
 const
 ;
+NS_IMETHOD
+HasPendingEvents
+(
+bool
+*
+aHasPendingEvents
+)
+override
+;
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 WorkerThread

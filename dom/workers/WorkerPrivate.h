@@ -3916,6 +3916,12 @@ WorkerRunnable
 aDebuggerRunnable
 )
 ;
+bool
+IsOnParentThread
+(
+)
+const
+;
 #
 ifdef
 DEBUG
