@@ -339,7 +339,7 @@ VCMDecoderDatabase
 GetDecoder
 (
 const
-VCMEncodedFrame
+EncodedFrame
 &
 frame
 VCMDecodedFrameCallback
@@ -504,7 +504,7 @@ VCMDecoderDatabase
 CreateAndInitDecoder
 (
 const
-VCMEncodedFrame
+EncodedFrame
 &
 frame
 )

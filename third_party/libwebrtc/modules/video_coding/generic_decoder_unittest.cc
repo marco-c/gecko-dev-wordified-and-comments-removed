@@ -476,7 +476,7 @@ CreatePacketInfos
 3
 )
 ;
-VCMEncodedFrame
+EncodedFrame
 encoded_frame
 ;
 encoded_frame
@@ -589,7 +589,7 @@ kMaxFramesInFlight
 i
 )
 {
-VCMEncodedFrame
+EncodedFrame
 encoded_frame
 ;
 encoded_frame
@@ -693,7 +693,7 @@ SetDelayedDecoding
 )
 ;
 {
-VCMEncodedFrame
+EncodedFrame
 encoded_frame
 ;
 encoded_frame
@@ -776,7 +776,7 @@ GenericDecoderTest
 MaxCompositionDelayNotSetByDefault
 )
 {
-VCMEncodedFrame
+EncodedFrame
 encoded_frame
 ;
 generic_decoder_
@@ -858,7 +858,7 @@ GenericDecoderTest
 MaxCompositionDelayActivatedByPlayoutDelay
 )
 {
-VCMEncodedFrame
+EncodedFrame
 encoded_frame
 ;
 constexpr
@@ -956,7 +956,7 @@ GenericDecoderTest
 IsLowLatencyStreamFalseByDefault
 )
 {
-VCMEncodedFrame
+EncodedFrame
 encoded_frame
 ;
 generic_decoder_
@@ -1028,7 +1028,7 @@ GenericDecoderTest
 IsLowLatencyStreamActivatedByPlayoutDelay
 )
 {
-VCMEncodedFrame
+EncodedFrame
 encoded_frame
 ;
 const
