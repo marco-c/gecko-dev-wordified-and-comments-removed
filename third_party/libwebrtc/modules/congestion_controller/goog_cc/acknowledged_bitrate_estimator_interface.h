@@ -135,7 +135,7 @@ key_value_config
 bool
 enabled
 =
-false
+true
 ;
 unsigned
 window_packets
