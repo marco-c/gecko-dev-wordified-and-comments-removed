@@ -53,6 +53,6 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]

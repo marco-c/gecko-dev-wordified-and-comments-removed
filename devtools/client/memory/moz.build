@@ -173,7 +173,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

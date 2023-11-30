@@ -17,7 +17,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 if

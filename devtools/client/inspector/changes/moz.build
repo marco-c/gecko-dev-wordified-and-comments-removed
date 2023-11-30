@@ -54,7 +54,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 with

@@ -86,7 +86,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 DevToolsModules

@@ -77,7 +77,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 DIRS
