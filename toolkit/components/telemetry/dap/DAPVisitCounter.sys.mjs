@@ -252,6 +252,9 @@ this
 .
 send
 (
+2
+*
+1000
 )
 ;
 }
@@ -440,6 +443,9 @@ this
 .
 send
 (
+30
+*
+1000
 )
 ;
 }
@@ -625,6 +631,9 @@ this
 .
 send
 (
+30
+*
+1000
 )
 ;
 lazy
@@ -684,6 +693,7 @@ minutes
 async
 send
 (
+timeout
 )
 {
 let
@@ -822,6 +832,7 @@ sendDAPMeasurement
 (
 task
 measurement
+timeout
 )
 ;
 }

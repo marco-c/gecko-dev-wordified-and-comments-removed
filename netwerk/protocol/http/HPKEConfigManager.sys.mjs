@@ -219,6 +219,13 @@ await
 fetch
 (
 aURL
+{
+signal
+:
+aOptions
+.
+abortSignal
+}
 )
 ;
 if
