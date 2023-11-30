@@ -14,6 +14,13 @@ js
 ]
 [
 "
+browser_devtools_loader
+.
+js
+"
+]
+[
+"
 browser_getActor
 .
 js

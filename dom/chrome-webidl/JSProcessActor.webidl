@@ -69,6 +69,11 @@ includeParent
 =
 false
 ;
+boolean
+loadInDevToolsLoader
+=
+false
+;
 ProcessActorSidedOptions
 parent
 ;

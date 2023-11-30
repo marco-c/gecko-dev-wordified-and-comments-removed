@@ -337,6 +337,11 @@ const
 =
 0
 ;
+bool
+mLoadInDevToolsLoader
+=
+false
+;
 }
 ;
 }
