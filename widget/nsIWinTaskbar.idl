@@ -16,9 +16,6 @@ interface
 nsIDocShell
 ;
 interface
-nsIJumpListBuilder
-;
-interface
 nsITaskbarTabPreview
 ;
 interface
@@ -34,7 +31,7 @@ interface
 nsITaskbarOverlayIconController
 ;
 interface
-nsILegacyJumpListBuilder
+nsIJumpListBuilder
 ;
 interface
 mozIDOMWindow
@@ -107,14 +104,6 @@ getOverlayIconController
 in
 nsIDocShell
 shell
-)
-;
-nsILegacyJumpListBuilder
-createLegacyJumpListBuilder
-(
-in
-boolean
-aPrivateBrowsing
 )
 ;
 nsIJumpListBuilder
