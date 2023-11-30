@@ -105,13 +105,6 @@ U
 "
 ;
 CSSOMString
-variant
-=
-"
-normal
-"
-;
-CSSOMString
 featureSettings
 =
 "
@@ -220,10 +213,6 @@ stretch
 attribute
 CSSOMString
 unicodeRange
-;
-attribute
-CSSOMString
-variant
 ;
 attribute
 CSSOMString

@@ -83,13 +83,3 @@ illuminance
 ;
 }
 ;
-dictionary
-AmbientLightReadingValues
-{
-required
-double
-?
-illuminance
-;
-}
-;

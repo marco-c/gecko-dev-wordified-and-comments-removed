@@ -772,6 +772,11 @@ pointer
 "
 screen
 "
+"
+transient
+-
+pointer
+"
 }
 ;
 [
