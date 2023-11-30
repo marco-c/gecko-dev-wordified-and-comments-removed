@@ -48,17 +48,6 @@ enabled
 =
 true
 "
-"
-gfx
-.
-webgpu
-.
-ignore
--
-blocklist
-=
-true
-"
 ]
 support
 -
