@@ -1254,10 +1254,10 @@ rtp_video_stream_receiver_frame_transformer_delegate
 .
 cc
 index
-5dd316e206
+79a3238522
 .
 .
-5c6b62d068
+99fc711579
 100644
 -
 -
@@ -1356,6 +1356,7 @@ SetMetadata
 const
 VideoFrameMetadata
 &
+metadata
 )
 override
 {
