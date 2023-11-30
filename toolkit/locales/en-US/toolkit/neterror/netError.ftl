@@ -751,7 +751,7 @@ trr
 -
 only
 -
-reason
+reason2
 =
 {
 -
@@ -773,9 +773,9 @@ s
 address
 through
 our
-trusted
+secure
 DNS
-resolver
+provider
 .
 Here
 s
@@ -1025,7 +1025,7 @@ native
 -
 fallback
 -
-reason
+reason2
 =
 {
 -
@@ -1047,9 +1047,9 @@ s
 address
 through
 our
-trusted
+secure
 DNS
-resolver
+provider
 .
 Here
 s

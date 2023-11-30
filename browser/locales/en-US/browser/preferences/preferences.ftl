@@ -11491,7 +11491,7 @@ preferences
 -
 doh
 -
-description
+description2
 =
 Domain
 Name
@@ -11512,7 +11512,7 @@ through
 an
 encrypted
 connection
-creating
+providing
 a
 secure
 DNS
@@ -11714,11 +11714,12 @@ doh
 -
 group
 -
-message
+message2
 =
 Enable
-secure
 DNS
+over
+HTTPS
 using
 :
 preferences
