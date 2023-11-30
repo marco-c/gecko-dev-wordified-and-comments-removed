@@ -9731,7 +9731,7 @@ OperatorCode
 OperatorCode
 [
 "
-extern_internalize
+any_convert_extern
 "
 ]
 =
@@ -9739,7 +9739,7 @@ extern_internalize
 ]
 =
 "
-extern_internalize
+any_convert_extern
 "
 ;
 OperatorCode
@@ -9747,7 +9747,7 @@ OperatorCode
 OperatorCode
 [
 "
-extern_externalize
+extern_convert_any
 "
 ]
 =
@@ -9755,7 +9755,7 @@ extern_externalize
 ]
 =
 "
-extern_externalize
+extern_convert_any
 "
 ;
 OperatorCode
@@ -12995,14 +12995,14 @@ br_on_cast
 br_on_cast_fail
 "
 "
-extern
+any
 .
-internalize
+convert_extern
 "
 "
 extern
 .
-externalize
+convert_any
 "
 "
 ref
