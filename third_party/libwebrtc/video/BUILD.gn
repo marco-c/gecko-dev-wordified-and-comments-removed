@@ -1663,6 +1663,14 @@ checks
 /
 rtc_base
 :
+event_tracer
+"
+"
+.
+.
+/
+rtc_base
+:
 logging
 "
 "
