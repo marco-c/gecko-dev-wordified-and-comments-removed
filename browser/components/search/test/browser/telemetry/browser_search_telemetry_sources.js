@@ -544,6 +544,13 @@ expectedScalarSource
 }
 ;
 let
+adImpressionPromise
+=
+waitForPageWithAdImpressions
+(
+)
+;
+let
 tab
 =
 await
@@ -633,9 +640,7 @@ false
 )
 ;
 await
-promiseAdImpressionReceived
-(
-)
+adImpressionPromise
 ;
 let
 pageLoadPromise
