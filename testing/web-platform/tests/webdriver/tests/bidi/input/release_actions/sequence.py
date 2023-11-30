@@ -549,31 +549,6 @@ button
     
 ]
     
-if
-not
-release_actions
-:
-        
-expected
-.
-append
-(
-{
-"
-type
-"
-:
-"
-dblclick
-"
-"
-button
-"
-:
-0
-}
-)
-    
 filtered_events
 =
 [
