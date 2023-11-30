@@ -6,7 +6,6 @@ utils
 :
 :
 {
-noop_data_callback
 test_audiounit_get_buffer_frame_size
 test_get_default_audiounit
 test_get_default_device
@@ -1146,10 +1145,13 @@ null_mut
 )
 }
 latency_frames
-Some
-(
-noop_data_callback
-)
+None
+/
+/
+No
+data
+callback
+.
 None
 /
 /
@@ -2374,10 +2376,7 @@ else
 None
 }
 latency_frames
-Some
-(
-noop_data_callback
-)
+None
 None
 ptr
 :

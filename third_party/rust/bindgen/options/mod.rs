@@ -9809,7 +9809,7 @@ callable
 [
 cfg_attr
 (
-feature
+features
 =
 "
 experimental
