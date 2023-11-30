@@ -396,7 +396,7 @@ ruleD
 )
 ;
 await
-testCMPResultTelemetry
+testClickResultTelemetry
 (
 {
 }
@@ -444,7 +444,7 @@ OptOut
 )
 ;
 await
-testCMPResultTelemetry
+testClickResultTelemetry
 (
 {
 success
@@ -488,7 +488,7 @@ OptOut
 )
 ;
 await
-testCMPResultTelemetry
+testClickResultTelemetry
 (
 {
 success
@@ -554,7 +554,7 @@ bannerB
 )
 ;
 await
-testCMPResultTelemetry
+testClickResultTelemetry
 (
 {
 success
@@ -665,7 +665,7 @@ popPrefEnv
 )
 ;
 await
-testCMPResultTelemetry
+testClickResultTelemetry
 (
 {
 success
@@ -962,7 +962,7 @@ ruleDomain
 )
 ;
 await
-testCMPResultTelemetry
+testClickResultTelemetry
 (
 {
 }
@@ -1009,9 +1009,15 @@ OptIn
 )
 ;
 await
-testCMPResultTelemetry
+testClickResultTelemetry
 (
 {
+success
+:
+1
+success_dom_content_loaded
+:
+1
 }
 )
 ;

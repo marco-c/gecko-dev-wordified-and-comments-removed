@@ -1331,11 +1331,6 @@ optIn
 }
 return
 {
-id
-:
-rule
-.
-id
 hide
 :
 rule
@@ -1357,11 +1352,6 @@ rule
 .
 skipPresenceVisibilityCheck
 target
-isGlobalRule
-:
-rule
-.
-isGlobalRule
 }
 ;
 }
