@@ -173,7 +173,7 @@ let
 historyListener
 =
 {
-OnContentViewerEvicted
+OnDocumentViewerEvicted
 (
 )
 {
@@ -278,7 +278,7 @@ let
 historyListener
 =
 {
-OnContentViewerEvicted
+OnDocumentViewerEvicted
 (
 )
 {
