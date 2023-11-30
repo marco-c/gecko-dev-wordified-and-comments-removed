@@ -2811,7 +2811,7 @@ Embed
 (
 nsIDocumentViewer
 *
-aContentViewer
+aDocumentViewer
 mozilla
 :
 :

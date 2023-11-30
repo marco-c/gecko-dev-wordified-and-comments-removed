@@ -143,7 +143,7 @@ aDocListener
 nsIDocumentViewer
 *
 *
-aContentViewer
+aDocumentViewer
 )
 ;
 static

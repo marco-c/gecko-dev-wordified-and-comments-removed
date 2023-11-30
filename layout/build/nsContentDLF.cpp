@@ -981,7 +981,7 @@ aCommand
 nsIDocumentViewer
 *
 *
-aContentViewer
+aDocumentViewer
 )
 {
 MOZ_ASSERT
@@ -1011,7 +1011,7 @@ viewer
 .
 forget
 (
-aContentViewer
+aDocumentViewer
 )
 ;
 return
@@ -1415,7 +1415,7 @@ aDocListener
 nsIDocumentViewer
 *
 *
-aContentViewer
+aDocumentViewer
 )
 {
 MOZ_ASSERT
@@ -1580,7 +1580,7 @@ viewer
 .
 forget
 (
-aContentViewer
+aDocumentViewer
 )
 ;
 return
