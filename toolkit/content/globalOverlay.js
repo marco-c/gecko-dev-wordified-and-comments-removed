@@ -32,17 +32,6 @@ mjs
 "
 )
 ;
-console
-.
-error
-(
-"
-Hello
-from
-closeWindow
-"
-)
-;
 if
 (
 AppConstants
