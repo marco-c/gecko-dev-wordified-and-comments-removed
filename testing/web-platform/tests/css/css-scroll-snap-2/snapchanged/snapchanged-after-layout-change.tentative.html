@@ -380,9 +380,11 @@ setup
 t
 )
 {
-checkSnapchangedSupport
+checkSnapEventSupport
 (
-t
+"
+snapchanged
+"
 )
 ;
 await
@@ -588,7 +590,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapchangedEvent
+assertSnapEvent
 (
 evt
 [
@@ -834,7 +836,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapchangedEvent
+assertSnapEvent
 (
 evt
 [
@@ -934,7 +936,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapchangedEvent
+assertSnapEvent
 (
 evt
 [
@@ -965,7 +967,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapchangedEvent
+assertSnapEvent
 (
 evt
 [
@@ -1041,7 +1043,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapchangedEvent
+assertSnapEvent
 (
 evt
 [
@@ -1081,7 +1083,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapchangedEvent
+assertSnapEvent
 (
 evt
 [
