@@ -4084,9 +4084,6 @@ GPUSize64
 indirectOffset
 )
 ;
-[
-Throws
-]
 undefined
 end
 (
@@ -4213,9 +4210,6 @@ GPURenderBundle
 bundles
 )
 ;
-[
-Throws
-]
 undefined
 end
 (
