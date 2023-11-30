@@ -92,6 +92,7 @@ subscribe_events
 inline
 top_context
 wait_for_event
+wait_for_future_safe
 log_method
 expect_stack
 )
@@ -382,7 +383,10 @@ complete
 event_data
 =
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 assert_console_entry
 (
@@ -463,6 +467,7 @@ subscribe_events
 inline
 top_context
 wait_for_event
+wait_for_future_safe
 )
 :
     
@@ -657,7 +662,10 @@ complete
 event_data
 =
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 assert_javascript_entry
 (
