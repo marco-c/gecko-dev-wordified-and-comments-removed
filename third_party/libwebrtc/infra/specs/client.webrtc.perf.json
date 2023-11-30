@@ -127,10 +127,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 android_devices
@@ -170,7 +169,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -330,10 +328,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 android_devices
@@ -373,7 +370,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -542,10 +538,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 android_devices
@@ -585,7 +580,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -745,10 +739,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 android_devices
@@ -788,7 +781,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -1044,10 +1036,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 cpu
@@ -1086,7 +1077,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -1310,10 +1300,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 cpu
@@ -1352,7 +1341,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -1507,10 +1495,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 gce
@@ -1540,7 +1527,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -1703,10 +1689,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 gce
@@ -1736,7 +1721,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -1891,10 +1875,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 cpu
@@ -1931,7 +1914,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -2094,10 +2076,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 cpu
@@ -2134,7 +2115,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -2291,10 +2271,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 cpu
@@ -2333,7 +2312,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -2496,10 +2474,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 cpu
@@ -2538,7 +2515,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -2693,10 +2669,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 gce
@@ -2724,7 +2699,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
@@ -2887,10 +2861,9 @@ swarming
 :
 {
 "
-dimension_sets
+dimensions
 "
 :
-[
 {
 "
 gce
@@ -2918,7 +2891,6 @@ WebRTC
 perf
 "
 }
-]
 "
 expiration
 "
