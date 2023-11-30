@@ -181,6 +181,11 @@ disablePageLabels
 :
 false
 "
+enableHighlightEditor
+"
+:
+false
+"
 enablePermissions
 "
 :
