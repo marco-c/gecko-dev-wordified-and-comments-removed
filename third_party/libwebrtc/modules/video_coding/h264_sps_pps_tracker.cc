@@ -820,14 +820,6 @@ size
 1
 )
 {
-RTC_DCHECK
-(
-video_header
--
->
-is_first_packet_in_frame
-)
-;
 required_size
 +
 =
