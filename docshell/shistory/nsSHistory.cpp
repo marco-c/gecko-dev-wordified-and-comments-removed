@@ -5838,7 +5838,7 @@ NS_IMETHODIMP
 nsSHistory
 :
 :
-EvictAllContentViewers
+EvictAllDocumentViewers
 (
 )
 {

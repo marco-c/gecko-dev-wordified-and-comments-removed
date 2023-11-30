@@ -5563,7 +5563,7 @@ undefined
 ;
 case
 "
-EvictAllContentViewers
+EvictAllDocumentViewers
 "
 :
 this
@@ -5574,7 +5574,7 @@ top
 .
 sessionHistory
 .
-evictAllContentViewers
+evictAllDocumentViewers
 (
 )
 ;

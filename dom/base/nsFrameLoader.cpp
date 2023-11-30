@@ -6583,7 +6583,7 @@ shistory
 shistory
 -
 >
-EvictAllContentViewers
+EvictAllDocumentViewers
 (
 )
 ;

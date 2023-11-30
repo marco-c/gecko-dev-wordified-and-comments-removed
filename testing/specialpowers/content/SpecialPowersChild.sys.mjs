@@ -9798,7 +9798,7 @@ val
 ;
 }
 async
-evictAllContentViewers
+evictAllDocumentViewers
 (
 )
 {
@@ -9817,7 +9817,7 @@ this
 sendQuery
 (
 "
-EvictAllContentViewers
+EvictAllDocumentViewers
 "
 )
 ;
@@ -9834,7 +9834,7 @@ childSessionHistory
 .
 legacySHistory
 .
-evictAllContentViewers
+evictAllDocumentViewers
 (
 )
 ;
