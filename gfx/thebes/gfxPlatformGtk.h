@@ -275,12 +275,6 @@ CheckVariationFontSupport
 protected
 :
 void
-InitAcceleration
-(
-)
-override
-;
-void
 InitX11EGLConfig
 (
 )
