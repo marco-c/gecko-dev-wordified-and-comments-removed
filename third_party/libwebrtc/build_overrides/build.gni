@@ -142,6 +142,10 @@ builds
 build_with_chromium
 =
 false
+use_cxx17
+=
+!
+is_android
 #
 Use
 our
@@ -477,6 +481,9 @@ enable_base_tracing
 =
 false
 use_perfetto_client_library
+=
+false
+use_perfetto_trace_processor
 =
 false
 #
