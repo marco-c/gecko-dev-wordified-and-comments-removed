@@ -109,10 +109,8 @@ nsClickRule
 =
 default
 ;
-nsCOMPtr
-<
 nsICookieBannerRule
->
+*
 mCookieBannerRule
 ;
 nsCString
