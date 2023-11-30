@@ -927,7 +927,7 @@ UpdatePrefs
 nsSHistory
 :
 :
-GloballyEvictContentViewers
+GloballyEvictDocumentViewers
 (
 )
 ;
@@ -5739,7 +5739,7 @@ EvictOutOfRangeWindowDocumentViewers
 aIndex
 )
 ;
-GloballyEvictContentViewers
+GloballyEvictDocumentViewers
 (
 )
 ;
@@ -7670,7 +7670,7 @@ void
 nsSHistory
 :
 :
-GloballyEvictContentViewers
+GloballyEvictDocumentViewers
 (
 )
 {
@@ -8358,7 +8358,7 @@ sHistoryMaxTotalViewers
 =
 0
 ;
-GloballyEvictContentViewers
+GloballyEvictDocumentViewers
 (
 )
 ;
