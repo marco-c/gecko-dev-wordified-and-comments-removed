@@ -1726,17 +1726,6 @@ encoder_queue_
 FrameEncodeMetadataWriter
 frame_encode_metadata_writer_
 ;
-const
-std
-:
-:
-array
-<
-uint8_t
-2
->
-experiment_groups_
-;
 struct
 AutomaticAnimationDetectionExperiment
 {
