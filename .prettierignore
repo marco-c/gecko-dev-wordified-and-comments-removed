@@ -441,15 +441,6 @@ panels
 xhtml
 browser
 /
-base
-/
-content
-/
-webrtcLegacyIndicator
-.
-xhtml
-browser
-/
 components
 /
 downloads
