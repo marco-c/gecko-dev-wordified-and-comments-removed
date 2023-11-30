@@ -4,9 +4,7 @@ AboutWelcomeDefaults
 }
 from
 "
-aboutwelcome
-/
-lib
+modules
 /
 AboutWelcomeDefaults
 .
@@ -23,8 +21,6 @@ content
 -
 src
 /
-aboutwelcome
-/
 components
 /
 MultiStageProtonScreen
@@ -36,7 +32,7 @@ AWScreenUtils
 }
 from
 "
-lib
+modules
 /
 AWScreenUtils
 .

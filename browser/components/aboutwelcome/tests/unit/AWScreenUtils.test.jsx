@@ -4,7 +4,7 @@ AWScreenUtils
 }
 from
 "
-lib
+modules
 /
 AWScreenUtils
 .
@@ -17,6 +17,8 @@ GlobalOverrider
 }
 from
 "
+newtab
+/
 test
 /
 unit
@@ -30,6 +32,8 @@ ASRouter
 }
 from
 "
+newtab
+/
 lib
 /
 ASRouter

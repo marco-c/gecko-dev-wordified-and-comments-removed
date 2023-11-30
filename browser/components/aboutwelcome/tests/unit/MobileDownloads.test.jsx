@@ -21,6 +21,8 @@ GlobalOverrider
 }
 from
 "
+newtab
+/
 test
 /
 unit
@@ -37,8 +39,6 @@ from
 content
 -
 src
-/
-aboutwelcome
 /
 components
 /

@@ -4,6 +4,8 @@ GlobalOverrider
 }
 from
 "
+newtab
+/
 test
 /
 unit
@@ -25,8 +27,6 @@ content
 -
 src
 /
-aboutwelcome
-/
 components
 /
 MultiStageAboutWelcome
@@ -41,8 +41,6 @@ from
 content
 -
 src
-/
-aboutwelcome
 /
 components
 /
@@ -72,9 +70,7 @@ AboutWelcomeDefaults
 }
 from
 "
-aboutwelcome
-/
-lib
+modules
 /
 AboutWelcomeDefaults
 .

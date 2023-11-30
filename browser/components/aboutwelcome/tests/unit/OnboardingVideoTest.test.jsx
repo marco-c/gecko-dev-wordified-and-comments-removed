@@ -24,8 +24,6 @@ content
 -
 src
 /
-aboutwelcome
-/
 components
 /
 OnboardingVideo
