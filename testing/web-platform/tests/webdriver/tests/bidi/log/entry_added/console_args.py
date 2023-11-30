@@ -299,8 +299,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-    
-wait_for_future_safe
 data
 remote_value
 )
@@ -354,10 +352,7 @@ data
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 args
 =
@@ -1370,8 +1365,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-    
-wait_for_future_safe
 data
 remote_value
 )
@@ -1418,10 +1411,7 @@ data
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 arg
 =
@@ -1734,8 +1724,6 @@ subscribe_events
 get_test_page
 top_context
 wait_for_event
-    
-wait_for_future_safe
 data
 expected
 )
@@ -1811,10 +1799,7 @@ data
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (

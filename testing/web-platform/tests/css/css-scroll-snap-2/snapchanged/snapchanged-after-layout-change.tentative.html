@@ -104,17 +104,6 @@ script
 src
 =
 "
-/
-css
-/
-css
--
-scroll
--
-snap
--
-2
-/
 resources
 /
 common
@@ -391,11 +380,9 @@ setup
 t
 )
 {
-checkSnapEventSupport
+checkSnapchangedSupport
 (
-"
-snapchanged
-"
+t
 )
 ;
 await
@@ -601,7 +588,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapEvent
+assertSnapchangedEvent
 (
 evt
 [
@@ -847,7 +834,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapEvent
+assertSnapchangedEvent
 (
 evt
 [
@@ -947,7 +934,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapEvent
+assertSnapchangedEvent
 (
 evt
 [
@@ -978,7 +965,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapEvent
+assertSnapchangedEvent
 (
 evt
 [
@@ -1054,7 +1041,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapEvent
+assertSnapchangedEvent
 (
 evt
 [
@@ -1094,7 +1081,7 @@ evt
 await
 snapchanged_promise
 ;
-assertSnapEvent
+assertSnapchangedEvent
 (
 evt
 [

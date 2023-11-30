@@ -139,8 +139,6 @@ bidi_session
 setup_network_test
                                               
 wait_for_event
-wait_for_future_safe
-                                              
 fetch
 url
 )
@@ -189,10 +187,7 @@ text_url
 response_completed_event
 =
 await
-wait_for_future_safe
-(
 on_response_completed
-)
     
 request
 =

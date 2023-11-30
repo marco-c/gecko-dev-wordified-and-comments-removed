@@ -37,7 +37,6 @@ test_subscribe_twice
 bidi_session
 new_tab
 wait_for_event
-wait_for_future_safe
 log_type
 )
 :
@@ -138,10 +137,7 @@ text1
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert
 len
@@ -215,7 +211,6 @@ test_subscribe_unsubscribe
 bidi_session
 new_tab
 wait_for_event
-wait_for_future_safe
 log_type
 )
 :
@@ -262,10 +257,7 @@ text
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 await
 bidi_session
@@ -506,10 +498,7 @@ text_2
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert
 len
@@ -618,10 +607,7 @@ text_3
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert
 len

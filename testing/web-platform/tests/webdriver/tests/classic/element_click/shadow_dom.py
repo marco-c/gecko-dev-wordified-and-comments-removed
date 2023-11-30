@@ -7,6 +7,7 @@ support
 .
 asserts
 import
+assert_error
 assert_success
 def
 element_click
@@ -51,6 +52,7 @@ session_id
 session
 .
 session_id
+            
 element_id
 =
 element
@@ -139,7 +141,6 @@ input
 "
 "
 "
-                                              
 args
 =
 (
@@ -168,7 +169,6 @@ checked
 "
 "
 "
-                                            
 args
 =
 (
@@ -178,7 +178,8 @@ checkbox_element
     
 assert
 is_pre_checked
-is
+=
+=
 False
     
 response
@@ -220,7 +221,6 @@ checked
 "
 "
 "
-                                             
 args
 =
 (
@@ -230,7 +230,8 @@ checkbox_element
     
 assert
 is_post_checked
-is
+=
+=
 True
 pytest
 .
@@ -241,7 +242,6 @@ parametrize
 "
 click_on
 "
-                         
 [
 "
 outer_element
@@ -324,7 +324,6 @@ element
 "
 "
 "
-                                           
 args
 =
 (
@@ -360,7 +359,6 @@ input
 "
 "
 "
-                                      
 args
 =
 (
@@ -383,7 +381,6 @@ arguments
 .
 checked
 "
-                                            
 args
 =
 (
@@ -393,7 +390,8 @@ checkbox
     
 assert
 is_pre_checked
-is
+=
+=
 False
     
 click_response
@@ -429,7 +427,6 @@ arguments
 .
 checked
 "
-                                             
 args
 =
 (
@@ -439,5 +436,6 @@ checkbox
     
 assert
 is_post_checked
-is
+=
+=
 True

@@ -12,6 +12,16 @@ import
 Actions
 get_element_origin
 from
+webdriver
+.
+bidi
+.
+modules
+.
+script
+import
+ContextTarget
+from
 .
 .
 import
@@ -424,6 +434,15 @@ pressure
 .
 78
             
+tilt_x
+=
+21
+            
+tilt_y
+=
+-
+8
+            
 twist
 =
 355
@@ -462,6 +481,15 @@ pressure
 0
 .
 91
+            
+tilt_x
+=
+-
+19
+            
+tilt_y
+=
+62
             
 twist
 =
@@ -921,7 +949,7 @@ pressure
 91
 async
 def
-test_touch_pointer_properties_angle_twist
+test_touch_pointer_properties_tilt_twist
 (
     
 bidi_session
@@ -954,6 +982,8 @@ pointerArea
 "
 )
     
+center
+=
 await
 get_inview_center_bidi
 (
@@ -1026,15 +1056,14 @@ pressure
 .
 78
             
-altitude_angle
+tilt_x
 =
-1
-.
-2
+21
             
-azimuth_angle
+tilt_y
 =
-6
+-
+8
             
 twist
 =
@@ -1075,17 +1104,14 @@ pressure
 .
 91
             
-altitude_angle
+tilt_x
 =
-0
-.
-5
+-
+19
             
-azimuth_angle
+tilt_y
 =
-1
-.
-8
+62
             
 twist
 =
@@ -1244,7 +1270,7 @@ tiltX
 ]
 =
 =
-20
+21
     
 assert
 events
@@ -1259,7 +1285,7 @@ tiltY
 =
 =
 -
-6
+8
     
 assert
 events
@@ -1304,7 +1330,7 @@ tiltX
 =
 =
 -
-23
+19
     
 assert
 events
@@ -1318,7 +1344,7 @@ tiltY
 ]
 =
 =
-61
+62
     
 assert
 events

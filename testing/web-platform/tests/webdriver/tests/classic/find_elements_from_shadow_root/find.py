@@ -1113,6 +1113,8 @@ host
 .
 shadow_root
     
+expected
+=
 session
 .
 execute_script

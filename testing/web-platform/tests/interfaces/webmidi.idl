@@ -353,7 +353,6 @@ eventInitDict
 readonly
 attribute
 Uint8Array
-?
 data
 ;
 }
@@ -394,7 +393,6 @@ eventInitDict
 readonly
 attribute
 MIDIPort
-?
 port
 ;
 }

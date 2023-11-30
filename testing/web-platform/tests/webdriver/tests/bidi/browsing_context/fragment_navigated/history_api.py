@@ -113,8 +113,6 @@ new_tab
 url
 subscribe_events
 wait_for_event
-    
-wait_for_future_safe
 hash_before
 hash_after
 )
@@ -284,9 +282,6 @@ target_url
 }
         
 await
-wait_for_future_safe
-(
 on_frame_navigated
-)
     
 )

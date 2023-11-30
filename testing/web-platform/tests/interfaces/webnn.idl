@@ -220,7 +220,7 @@ nhwc
 }
 ;
 enum
-MLOperandDataType
+MLOperandType
 {
 "
 float32
@@ -249,12 +249,11 @@ MLOperandDescriptor
 /
 The
 operand
-data
 type
 .
 required
-MLOperandDataType
-dataType
+MLOperandType
+type
 ;
 /
 /
@@ -596,8 +595,8 @@ constant
 double
 value
 optional
-MLOperandDataType
-dataType
+MLOperandType
+type
 =
 "
 float32

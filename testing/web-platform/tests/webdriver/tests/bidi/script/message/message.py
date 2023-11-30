@@ -199,7 +199,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -298,10 +297,7 @@ context
 event
 =
 await
-wait_for_future_safe
-(
 on_script_message
-)
     
 assert
 event

@@ -211,7 +211,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -271,10 +270,7 @@ url
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -308,7 +304,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -379,10 +374,7 @@ url
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 time_end
 =
@@ -753,7 +745,6 @@ test_new_context
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 type_hint
 )
 :
@@ -792,10 +783,7 @@ type_hint
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -844,7 +832,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -931,10 +918,7 @@ False
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -976,7 +960,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -1047,10 +1030,7 @@ url
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (

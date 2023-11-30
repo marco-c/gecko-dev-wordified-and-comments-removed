@@ -46,6 +46,7 @@ script
 .
 evaluate
 (
+        
 expression
 =
 "
@@ -60,12 +61,11 @@ open
 "
 "
 "
-                                       
+        
 target
 =
 ContextTarget
 (
-                                           
 top_context
 [
 "
@@ -73,7 +73,7 @@ context
 "
 ]
 )
-                                       
+        
 await_promise
 =
 False
@@ -91,7 +91,6 @@ call_function
         
 function_declaration
 =
-        
 "
 (
 )
@@ -137,6 +136,7 @@ result
 =
 =
 {
+        
 "
 type
 "
@@ -144,6 +144,7 @@ type
 "
 boolean
 "
+        
 "
 value
 "
@@ -186,6 +187,7 @@ script
 .
 evaluate
 (
+        
 expression
 =
 "
@@ -200,12 +202,11 @@ open
 "
 "
 "
-                                       
+        
 target
 =
 ContextTarget
 (
-                                           
 top_context
 [
 "
@@ -213,7 +214,7 @@ context
 "
 ]
 )
-                                       
+        
 await_promise
 =
 False
@@ -231,7 +232,6 @@ call_function
         
 function_declaration
 =
-        
 "
 (
 )
@@ -254,10 +254,6 @@ test
 )
 &
 &
-"
-+
-        
-"
 document
 .
 execCommand
@@ -304,6 +300,7 @@ result
 =
 =
 {
+        
 "
 type
 "
@@ -311,6 +308,7 @@ type
 "
 boolean
 "
+        
 "
 value
 "

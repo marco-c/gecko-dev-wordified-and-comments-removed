@@ -104,7 +104,7 @@ key
 "
 ]
 =
-chr
+unichr
 (
 int
 (

@@ -30,6 +30,7 @@ from
 .
 import
 any_int
+any_string
 recursive_compare
 int_interval
 from
@@ -224,7 +225,6 @@ subscribe_events
 url
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -315,10 +315,7 @@ complete
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -448,10 +445,7 @@ complete
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 time_end
 =
@@ -498,7 +492,6 @@ new_tab
 url
 subscribe_events
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -558,6 +551,7 @@ EMPTY_PAGE
 foo
 '
 )
+;
     
 result
 =
@@ -629,10 +623,7 @@ target_url
 }
         
 await
-wait_for_future_safe
-(
 on_frame_navigated
-)
     
 )
 async
@@ -644,7 +635,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -721,6 +711,7 @@ url
 #
 foo
 '
+;
     
 await
 bidi_session
@@ -772,10 +763,7 @@ target_url
 }
         
 await
-wait_for_future_safe
-(
 on_frame_navigated
-)
     
 )
 async
@@ -789,7 +777,6 @@ url
 inline
 subscribe_events
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -992,10 +979,7 @@ target_url
 }
         
 await
-wait_for_future_safe
-(
 on_frame_navigated
-)
     
 )
 pytest
@@ -1055,7 +1039,6 @@ new_tab
 url
 subscribe_events
 wait_for_event
-wait_for_future_safe
 hash_before
 hash_after
 )
@@ -1222,10 +1205,7 @@ target_url
 }
         
 await
-wait_for_future_safe
-(
 on_frame_navigated
-)
     
 )
 pytest
@@ -1285,7 +1265,6 @@ new_tab
 url
 subscribe_events
 wait_for_event
-wait_for_future_safe
 hash_before
 hash_after
 )
@@ -1403,10 +1382,7 @@ target_url
 }
         
 await
-wait_for_future_safe
-(
 on_frame_navigated
-)
     
 )
 pytest

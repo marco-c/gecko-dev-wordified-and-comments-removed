@@ -766,8 +766,6 @@ fetch
     
 substitute_host
     
-wait_for_future_safe
-    
 patterns
     
 url_template
@@ -882,10 +880,7 @@ url_template
 event
 =
 await
-wait_for_future_safe
-(
 on_network_event
-)
     
 assert_before_request_sent_event
 (
@@ -1246,8 +1241,6 @@ fetch
     
 substitute_host
     
-wait_for_future_safe
-    
 pattern
     
 url_template
@@ -1356,10 +1349,7 @@ url_template
 event
 =
 await
-wait_for_future_safe
-(
 on_network_event
-)
     
 assert_before_request_sent_event
 (
@@ -1824,8 +1814,6 @@ fetch
     
 substitute_host
     
-wait_for_future_safe
-    
 pattern
     
 url_template
@@ -1921,10 +1909,7 @@ url_template
 event
 =
 await
-wait_for_future_safe
-(
 on_network_event
-)
     
 assert_before_request_sent_event
 (
@@ -2280,8 +2265,6 @@ fetch
     
 substitute_host
     
-wait_for_future_safe
-    
 pattern
     
 url_template
@@ -2375,10 +2358,7 @@ url_template
 event
 =
 await
-wait_for_future_safe
-(
 on_network_event
-)
     
 assert_before_request_sent_event
 (

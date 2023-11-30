@@ -242,7 +242,7 @@ input
 input
 '
 {
-dataType
+type
 :
 '
 float32
@@ -267,7 +267,7 @@ builder
 constant
 (
 {
-dataType
+type
 :
 '
 float32

@@ -1665,10 +1665,10 @@ base
 tensor
 and
 broadcastable
-0D
+1D
 integer
 exponent
-scalar
+tensor
 "
 "
 inputs
@@ -1799,6 +1799,7 @@ shape
 "
 :
 [
+1
 ]
 "
 data
@@ -1950,10 +1951,10 @@ base
 tensor
 and
 broadcastable
-0D
+1D
 integer
 exponent
-scalar
+tensor
 "
 "
 inputs
@@ -2071,6 +2072,7 @@ shape
 "
 :
 [
+1
 ]
 "
 data

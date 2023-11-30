@@ -1283,11 +1283,10 @@ context
 )
 ;
 }
-click_fedcm_dialog_button
+confirm_idp_login
 :
 function
 (
-dialog_button
 context
 =
 null
@@ -1298,9 +1297,8 @@ window
 .
 test_driver_internal
 .
-click_fedcm_dialog_button
+confirm_idp_login
 (
-dialog_button
 context
 )
 ;
@@ -2327,9 +2325,8 @@ js
 ;
 }
 async
-click_fedcm_dialog_button
+confirm_idp_login
 (
-dialog_button
 context
 =
 null
@@ -2340,7 +2337,7 @@ new
 Error
 (
 "
-click_fedcm_dialog_button
+confirm_idp_login
 (
 )
 is

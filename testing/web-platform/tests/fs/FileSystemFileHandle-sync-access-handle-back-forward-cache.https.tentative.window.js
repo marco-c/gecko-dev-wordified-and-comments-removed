@@ -147,7 +147,7 @@ forward
 (
 )
 ;
-assert_true
+assert_equals
 (
 await
 createAndReleaseSAH
@@ -155,6 +155,7 @@ createAndReleaseSAH
 mode
 fileName
 )
+shouldRestoreFromBFCache
 )
 ;
 await

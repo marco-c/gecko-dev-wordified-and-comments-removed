@@ -375,8 +375,6 @@ subscribe_events
     
 wait_for_event
     
-wait_for_future_safe
-    
 add_preload_script
     
 channel
@@ -476,10 +474,7 @@ tab
 event_data
 =
 await
-wait_for_future_safe
-(
 on_script_message
-)
     
 recursive_compare
 (
@@ -538,7 +533,6 @@ test_channel_with_multiple_arguments
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 add_preload_script
 )
 :
@@ -641,10 +635,7 @@ tab
 event_data
 =
 await
-wait_for_future_safe
-(
 on_script_message
-)
     
 recursive_compare
 (
@@ -720,8 +711,6 @@ bidi_session
 subscribe_events
     
 wait_for_event
-    
-wait_for_future_safe
     
 new_tab
     
@@ -993,10 +982,7 @@ context
 event_data
 =
 await
-wait_for_future_safe
-(
 on_script_message
-)
     
 recursive_compare
 (

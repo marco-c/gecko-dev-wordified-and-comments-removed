@@ -26,7 +26,6 @@ subscribe_events
 current_time
 top_context
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -80,10 +79,7 @@ cached_message
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 time_end
 =

@@ -481,6 +481,8 @@ foo
 "
 )
     
+a
+=
 session
 .
 find

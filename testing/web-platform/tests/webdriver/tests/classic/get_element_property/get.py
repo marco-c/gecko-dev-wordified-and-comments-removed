@@ -15,6 +15,7 @@ support
 asserts
 import
 assert_error
+assert_same_element
 assert_success
 def
 get_element_property

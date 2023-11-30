@@ -212,7 +212,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 prompt_type
 )
 :
@@ -290,10 +289,7 @@ script
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert
 event
@@ -370,7 +366,6 @@ inline
 new_tab
 subscribe_events
 wait_for_event
-wait_for_future_safe
 default
 )
 :
@@ -488,10 +483,7 @@ script
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 expected_event
 =
@@ -572,7 +564,6 @@ bidi_session
 subscribe_events
 inline
 wait_for_event
-wait_for_future_safe
 type_hint
 )
 :
@@ -795,10 +786,7 @@ script
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert
 event
@@ -889,8 +877,6 @@ test_origin
 subscribe_events
     
 wait_for_event
-    
-wait_for_future_safe
 )
 :
     
@@ -1059,10 +1045,7 @@ script
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert
 event

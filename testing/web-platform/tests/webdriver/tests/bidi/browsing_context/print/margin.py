@@ -797,13 +797,13 @@ assert_pdf_dimensions
 (
 value
 {
-        
+       
 "
 width
 "
 :
 expected_width
-        
+       
 "
 height
 "

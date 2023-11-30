@@ -628,7 +628,8 @@ type
 (
 x
 )
-is
+=
+=
 str
 )
 ALL_EVENTS

@@ -18,7 +18,7 @@ id
 )
 ;
 const
-pointerdownHandler
+clickHandler
 =
 (
 )
@@ -47,7 +47,7 @@ removeEventListener
 "
 pointerdown
 "
-pointerdownHandler
+clickHandler
 )
 ;
 }
@@ -59,7 +59,7 @@ addEventListener
 "
 pointerdown
 "
-pointerdownHandler
+clickHandler
 )
 ;
 await

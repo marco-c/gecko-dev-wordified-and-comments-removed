@@ -60,7 +60,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 sandbox_name
 )
 :
@@ -150,10 +149,7 @@ sandbox_name
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (

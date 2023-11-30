@@ -341,10 +341,7 @@ tilt
 MediaSettingsRange
 zoom
 ;
-sequence
-<
 boolean
->
 torch
 ;
 }

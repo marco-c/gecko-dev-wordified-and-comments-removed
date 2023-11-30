@@ -40,7 +40,6 @@ test_alert
 (
 bidi_session
 wait_for_event
-wait_for_future_safe
 top_context
 subscribe_events
 )
@@ -109,10 +108,7 @@ False
 )
     
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 await
 bidi_session
@@ -172,7 +168,6 @@ test_confirm
     
 bidi_session
 wait_for_event
-wait_for_future_safe
 top_context
 subscribe_events
 accept
@@ -242,10 +237,7 @@ False
 )
     
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 await
 bidi_session
@@ -313,7 +305,6 @@ test_prompt
     
 bidi_session
 wait_for_event
-wait_for_future_safe
 top_context
 subscribe_events
 accept
@@ -386,10 +377,7 @@ False
 )
     
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 test_user_text
 =
@@ -496,8 +484,6 @@ top_context
 inline
 subscribe_events
 wait_for_event
-    
-wait_for_future_safe
 type_hint
 )
 :
@@ -574,10 +560,7 @@ script
 )
     
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 with
 pytest
@@ -660,8 +643,6 @@ test_page_multiple_frames
 subscribe_events
     
 wait_for_event
-    
-wait_for_future_safe
 )
 :
     
@@ -831,10 +812,7 @@ script
 )
     
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 await
 bidi_session

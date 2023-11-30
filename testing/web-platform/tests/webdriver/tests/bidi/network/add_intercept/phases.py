@@ -1,4 +1,6 @@
 import
+asyncio
+import
 pytest
 from
 webdriver
@@ -137,8 +139,6 @@ setup_network_test
 add_intercept
     
 fetch
-    
-wait_for_future_safe
     
 phases
     
@@ -286,10 +286,7 @@ text_url
 )
     
 await
-wait_for_future_safe
-(
 on_network_event
-)
     
 expected_request
 =

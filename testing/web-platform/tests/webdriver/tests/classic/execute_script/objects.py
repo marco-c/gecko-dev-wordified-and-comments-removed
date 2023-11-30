@@ -246,6 +246,8 @@ fail
 "
 )
     
+value
+=
 assert_error
 (
 response

@@ -28,7 +28,7 @@ b
 def
 flatten
 (
-a
+l
 )
 :
     
@@ -38,7 +38,7 @@ item
 for
 x
 in
-a
+l
 for
 item
 in
@@ -82,7 +82,6 @@ capabilities
 .
 intersection
 (
-            
 set
 (
 capabilities
@@ -129,7 +128,7 @@ fixture_configuration
 configuration
 )
 :
-    
+  
 "
 "
 "
@@ -167,7 +166,7 @@ interference
 "
 "
 "
-    
+  
 if
 "
 acceptInsecureCerts
@@ -180,14 +179,14 @@ capabilities
 "
 ]
 :
-        
+    
 configuration
 =
 dict
 (
 configuration
 )
-        
+    
 del
 configuration
 [
@@ -200,7 +199,7 @@ capabilities
 acceptInsecureCerts
 "
 ]
-    
+  
 return
 configuration
 pytest
@@ -318,14 +317,12 @@ configuration
 host
 "
 ]
-        
 configuration
 [
 "
 port
 "
 ]
-        
 url_prefix
 =
 "

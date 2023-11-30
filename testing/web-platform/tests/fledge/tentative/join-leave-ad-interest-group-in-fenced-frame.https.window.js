@@ -1713,7 +1713,7 @@ uuid
 )
 ;
 await
-runBasicFledgeTestExpectingNoWinner
+runBasicFledgeTestExpectingWinner
 (
 test
 uuid
