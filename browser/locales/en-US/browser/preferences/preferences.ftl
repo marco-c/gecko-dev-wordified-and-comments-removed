@@ -5763,6 +5763,8 @@ appear
 .
 search
 -
+show
+-
 suggestions
 -
 option
@@ -5770,13 +5772,13 @@ option
 .
 label
 =
-Provide
+Show
 search
 suggestions
 .
 accesskey
 =
-s
+S
 search
 -
 show
