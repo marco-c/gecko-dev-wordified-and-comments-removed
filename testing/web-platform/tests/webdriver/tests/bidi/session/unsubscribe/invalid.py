@@ -280,6 +280,7 @@ bidi_session
 subscribe_events
 send_blocking_command
 wait_for_event
+wait_for_future_safe
 top_context
 )
 :
@@ -394,7 +395,10 @@ text1
 )
     
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 assert
 len
@@ -770,6 +774,7 @@ bidi_session
 subscribe_events
 send_blocking_command
 wait_for_event
+wait_for_future_safe
 top_context
 )
 :
@@ -905,7 +910,10 @@ text1
 )
     
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 assert
 len
