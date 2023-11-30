@@ -420,6 +420,9 @@ MOZ_ASAN
 void
 EnsureWidevineL1PathForSandbox
 (
+StringVector
+&
+aExtraOpts
 )
 ;
 #
