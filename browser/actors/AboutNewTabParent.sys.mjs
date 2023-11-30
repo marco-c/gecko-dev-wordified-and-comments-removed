@@ -379,16 +379,9 @@ Init
 :
 {
 let
-actor
-=
-message
-.
-target
-;
-let
 browsingContext
 =
-actor
+this
 .
 browsingContext
 ;
@@ -415,6 +408,8 @@ tabDetails
 =
 {
 actor
+:
+this
 browser
 browsingContext
 portID
@@ -528,7 +523,7 @@ disconnected
 so
 /
 /
-an
+as
 a
 backup
 look
@@ -546,9 +541,7 @@ this
 .
 getByBrowsingContext
 (
-message
-.
-target
+this
 .
 browsingContext
 )
@@ -674,9 +667,7 @@ messageToSend
 {
 target
 :
-message
-.
-target
+this
 data
 :
 message
