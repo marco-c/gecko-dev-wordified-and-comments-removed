@@ -468,6 +468,15 @@ selfId
 )
 ;
 async
+TextureDestroy
+(
+RawId
+selfId
+RawId
+deviceId
+)
+;
+async
 TextureDrop
 (
 RawId
