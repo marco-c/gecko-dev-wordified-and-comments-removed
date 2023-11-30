@@ -466,6 +466,8 @@ add_intercept
 fetch
     
 setup_network_test
+    
+wait_for_future_safe
 )
 :
     
@@ -586,7 +588,10 @@ text_url
 event
 =
 await
+wait_for_future_safe
+(
 on_network_event
+)
     
 assert_before_request_sent_event
 (
@@ -635,7 +640,10 @@ other_url
 event
 =
 await
+wait_for_future_safe
+(
 on_network_event
+)
     
 assert_before_request_sent_event
 (
@@ -694,7 +702,10 @@ text_url
 event
 =
 await
+wait_for_future_safe
+(
 on_network_event
+)
     
 assert_before_request_sent_event
 (
