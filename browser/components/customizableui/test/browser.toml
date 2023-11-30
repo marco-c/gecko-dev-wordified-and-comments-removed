@@ -1528,6 +1528,13 @@ js
 ]
 [
 "
+browser_panel_menulist
+.
+js
+"
+]
+[
+"
 browser_panel_toggle
 .
 js
