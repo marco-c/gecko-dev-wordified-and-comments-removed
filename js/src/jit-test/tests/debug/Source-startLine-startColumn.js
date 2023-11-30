@@ -78,7 +78,7 @@ script
 source
 .
 startColumn
-0
+1
 )
 ;
 g
@@ -139,6 +139,6 @@ script
 source
 .
 startColumn
-5
+6
 )
 ;

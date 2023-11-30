@@ -217,7 +217,7 @@ line
 6
 minColumn
 :
-7
+8
 }
 3
 )
@@ -230,7 +230,7 @@ line
 6
 maxColumn
 :
-16
+17
 }
 3
 )
@@ -243,10 +243,10 @@ line
 6
 minColumn
 :
-7
+8
 maxColumn
 :
-16
+17
 }
 2
 )
@@ -342,7 +342,7 @@ minLine
 9
 minColumn
 :
-0
+1
 }
 2
 )
@@ -355,7 +355,7 @@ minLine
 9
 minColumn
 :
-8
+9
 }
 1
 )
@@ -384,7 +384,7 @@ assertBPError
 {
 minColumn
 :
-1
+2
 }
 "
 minColumn
@@ -412,7 +412,7 @@ minLine
 minColumn
 :
 "
-1
+2
 "
 }
 "
@@ -443,7 +443,7 @@ maxLine
 7
 maxColumn
 :
-0
+1
 }
 5
 )
@@ -456,7 +456,7 @@ maxLine
 7
 maxColumn
 :
-8
+9
 }
 6
 )
@@ -485,7 +485,7 @@ assertBPError
 {
 maxColumn
 :
-1
+2
 }
 "
 maxColumn
@@ -513,7 +513,7 @@ maxLine
 maxColumn
 :
 "
-1
+2
 "
 }
 "
@@ -547,7 +547,7 @@ minLine
 6
 minColumn
 :
-8
+9
 maxLine
 :
 8
@@ -566,7 +566,7 @@ maxLine
 8
 maxColumn
 :
-8
+9
 }
 7
 )
@@ -579,13 +579,13 @@ minLine
 6
 minColumn
 :
-8
+9
 maxLine
 :
 8
 maxColumn
 :
-8
+9
 }
 6
 )

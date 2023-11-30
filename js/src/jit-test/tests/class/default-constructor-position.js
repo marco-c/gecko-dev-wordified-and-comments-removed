@@ -285,6 +285,8 @@ getStartColumn
 className
 )
 column
++
+1
 )
 ;
 offset
