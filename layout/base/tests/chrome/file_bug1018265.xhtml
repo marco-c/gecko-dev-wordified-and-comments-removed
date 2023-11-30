@@ -194,7 +194,7 @@ testcontent
 "
 )
 ;
-shouldHaveTwoNonHiddenContentViewers
+shouldHaveTwoNonHiddenDocumentViewers
 (
 )
 ;
@@ -270,7 +270,7 @@ didGoBack
 true
 )
 ;
-shouldHaveTwoNonHiddenContentViewers
+shouldHaveTwoNonHiddenDocumentViewers
 (
 )
 ;
@@ -293,7 +293,7 @@ close
 ;
 }
 function
-getContentViewer
+getDocumentViewer
 (
 win
 )
@@ -307,7 +307,7 @@ contentViewer
 ;
 }
 function
-shouldHaveTwoNonHiddenContentViewers
+shouldHaveTwoNonHiddenDocumentViewers
 (
 )
 {
@@ -320,7 +320,7 @@ arguments
 .
 is
 (
-getContentViewer
+getDocumentViewer
 (
 testcontent
 .
@@ -332,7 +332,7 @@ false
 "
 Top
 level
-ContentViewer
+DocumentViewer
 should
 not
 be
@@ -350,7 +350,7 @@ arguments
 .
 is
 (
-getContentViewer
+getDocumentViewer
 (
 testcontent
 .
@@ -368,7 +368,7 @@ false
 Iframe
 '
 s
-ContentViewer
+DocumentViewer
 should
 not
 be
