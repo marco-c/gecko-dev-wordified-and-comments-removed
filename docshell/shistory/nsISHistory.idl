@@ -1298,7 +1298,7 @@ noscript
 notxpcom
 ]
 void
-evictExpiredContentViewerForEntry
+evictExpiredDocumentViewerForEntry
 (
 in
 SHEntrySharedParentStatePtr

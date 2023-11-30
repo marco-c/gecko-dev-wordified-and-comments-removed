@@ -8176,7 +8176,7 @@ void
 nsSHistory
 :
 :
-EvictExpiredContentViewerForEntry
+EvictExpiredDocumentViewerForEntry
 (
 SHEntrySharedParentState
 *
