@@ -970,6 +970,13 @@ temps
 this
 )
 ;
+BlockTrampolinePoolScope
+block_trampoline_pool
+(
+this
+8
+)
+;
 int64_t
 up_32
 =
