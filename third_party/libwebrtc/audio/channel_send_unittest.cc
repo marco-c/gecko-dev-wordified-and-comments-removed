@@ -652,12 +652,15 @@ send_rtp
 &
 ]
 (
+rtc
+:
+:
+ArrayView
+<
 const
 uint8_t
-*
+>
 data
-size_t
-length
 const
 PacketOptions
 &
@@ -676,7 +679,6 @@ packet
 Parse
 (
 data
-length
 )
 ;
 timestamp
