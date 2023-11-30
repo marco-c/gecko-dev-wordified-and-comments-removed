@@ -103,7 +103,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 SPHINX_TREES

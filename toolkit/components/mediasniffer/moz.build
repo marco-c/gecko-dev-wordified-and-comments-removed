@@ -9,7 +9,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 EXPORTS

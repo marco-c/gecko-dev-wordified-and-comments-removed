@@ -9,7 +9,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 if
@@ -36,7 +36,7 @@ unit_win
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 elif
@@ -63,7 +63,7 @@ unit_unix
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES

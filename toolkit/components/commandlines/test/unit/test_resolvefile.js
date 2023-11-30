@@ -19,7 +19,7 @@ do_get_file
 "
 xpcshell
 .
-ini
+toml
 "
 )
 ;
@@ -95,7 +95,7 @@ resolveFile
 "
 xpcshell
 .
-ini
+toml
 "
 )
 "
@@ -137,7 +137,7 @@ resolveFile
 "
 xpcshell
 .
-ini
+toml
 "
 )
 ;

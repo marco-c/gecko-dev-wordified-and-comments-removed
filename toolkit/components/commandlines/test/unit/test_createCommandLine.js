@@ -19,7 +19,7 @@ do_get_file
 "
 xpcshell
 .
-ini
+toml
 "
 )
 ;

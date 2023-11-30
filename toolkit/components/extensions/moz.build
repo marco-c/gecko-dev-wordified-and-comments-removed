@@ -588,7 +588,7 @@ xpcshell
 /
 native_messaging
 .
-ini
+toml
 "
 "
 test
@@ -599,7 +599,7 @@ xpcshell
 -
 e10s
 .
-ini
+toml
 "
 "
 test
@@ -612,7 +612,7 @@ legacy
 -
 ep
 .
-ini
+toml
 "
 "
 test
@@ -623,7 +623,7 @@ xpcshell
 -
 remote
 .
-ini
+toml
 "
 "
 test
@@ -632,7 +632,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 if
@@ -658,7 +658,7 @@ api
 /
 xpcshell
 .
-ini
+toml
 "
 "
 test

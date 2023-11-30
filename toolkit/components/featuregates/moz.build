@@ -38,7 +38,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 PYTHON_UNITTEST_MANIFESTS
