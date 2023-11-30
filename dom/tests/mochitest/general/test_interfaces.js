@@ -4046,9 +4046,6 @@ LargestContentfulPaint
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
