@@ -37,16 +37,6 @@ self
 stream
 :
 :
-Device
-;
-pub
-use
-self
-:
-:
-stream
-:
-:
 PulseStream
 ;
 use
