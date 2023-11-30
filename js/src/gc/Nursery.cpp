@@ -3175,6 +3175,8 @@ Zone
 zone
 size_t
 nbytes
+arena_id_t
+arenaId
 )
 {
 MOZ_ASSERT
@@ -3218,11 +3220,12 @@ buffer
 zone
 -
 >
-pod_malloc
+pod_arena_malloc
 <
 uint8_t
 >
 (
+arenaId
 nbytes
 )
 ;
@@ -3270,6 +3273,8 @@ Cell
 cell
 size_t
 nbytes
+arena_id_t
+arenaId
 )
 {
 MOZ_ASSERT
@@ -3311,6 +3316,7 @@ allocateBuffer
 (
 zone
 nbytes
+arenaId
 )
 ;
 }
@@ -3329,6 +3335,8 @@ Cell
 cell
 size_t
 nbytes
+arena_id_t
+arenaId
 )
 {
 MOZ_ASSERT
@@ -3373,11 +3381,12 @@ zone
 )
 -
 >
-pod_malloc
+pod_arena_malloc
 <
 uint8_t
 >
 (
+arenaId
 nbytes
 )
 ;
@@ -3591,6 +3600,8 @@ size_t
 oldBytes
 size_t
 newBytes
+arena_id_t
+arena
 )
 {
 if
@@ -3728,6 +3739,7 @@ allocateBuffer
 (
 zone
 newBytes
+arena
 )
 ;
 if
