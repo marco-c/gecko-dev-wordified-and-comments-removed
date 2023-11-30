@@ -1374,7 +1374,14 @@ PrivateIDBRequest
 {
 foundInterface
 =
+static_cast
+<
+EventTarget
+*
+>
+(
 this
+)
 ;
 }
 else

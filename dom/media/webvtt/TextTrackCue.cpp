@@ -620,7 +620,14 @@ sParserWrapper
 ConvertCueToDOMTree
 (
 window
+static_cast
+<
+EventTarget
+*
+>
+(
 this
+)
 getter_AddRefs
 (
 frag

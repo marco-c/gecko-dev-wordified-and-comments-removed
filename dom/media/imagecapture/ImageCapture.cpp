@@ -793,7 +793,14 @@ error
 new
 ImageCaptureError
 (
+static_cast
+<
+EventTarget
+*
+>
+(
 this
+)
 aErrorCode
 errorMsg
 )

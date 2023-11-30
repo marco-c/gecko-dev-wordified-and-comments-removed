@@ -725,7 +725,7 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIInProcessContentFrameMessageManager
 )
-NS_INTERFACE_MAP_ENTRY
+NS_INTERFACE_MAP_ENTRY_CONCRETE
 (
 ContentFrameMessageManager
 )

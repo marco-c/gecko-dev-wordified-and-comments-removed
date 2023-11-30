@@ -14729,7 +14729,7 @@ data
 mScope
 -
 >
-DisconnectEventTargetObjects
+DisconnectGlobalTeardownObservers
 (
 )
 ;
@@ -26572,7 +26572,7 @@ data
 mScope
 -
 >
-DisconnectEventTargetObjects
+DisconnectGlobalTeardownObservers
 (
 )
 ;

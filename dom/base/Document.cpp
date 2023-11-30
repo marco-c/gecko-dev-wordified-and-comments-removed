@@ -14254,7 +14254,14 @@ cb
 .
 NoteXPCOMChild
 (
+static_cast
+<
+EventTarget
+*
+>
+(
 mql
+)
 )
 ;
 }
