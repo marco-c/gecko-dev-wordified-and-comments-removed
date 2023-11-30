@@ -66,6 +66,13 @@ be
 focusable
 [
 "
+browser_firefoxview_next_navigation
+.
+js
+"
+]
+[
+"
 browser_history_firefoxview_next
 .
 js
