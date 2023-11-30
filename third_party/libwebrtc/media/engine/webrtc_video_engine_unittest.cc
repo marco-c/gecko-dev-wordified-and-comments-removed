@@ -3351,7 +3351,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -3440,7 +3440,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -3525,7 +3525,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -3785,7 +3785,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -3839,7 +3839,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -4307,7 +4307,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -5528,7 +5528,7 @@ EXPECT_TRUE
 channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -5611,7 +5611,7 @@ EXPECT_TRUE
 channel
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6000,7 +6000,7 @@ ASSERT_TRUE
 receive_channel
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6270,7 +6270,7 @@ ASSERT_TRUE
 receive_channel
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6847,7 +6847,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -6953,7 +6953,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 new_parameters
 )
@@ -7083,7 +7083,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -7357,7 +7357,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -7613,7 +7613,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -8390,7 +8390,7 @@ EXPECT_TRUE
 receive_channel
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -9488,7 +9488,7 @@ EXPECT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -9658,7 +9658,7 @@ EXPECT_TRUE
 receive_channel
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -9841,7 +9841,7 @@ ASSERT_TRUE
 send_channel
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10610,7 +10610,7 @@ recv_codecs
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -11851,7 +11851,7 @@ send_codecs
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -12260,7 +12260,7 @@ success
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13945,7 +13945,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -14378,7 +14378,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -14806,7 +14806,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -14825,7 +14825,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -15456,7 +15456,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -16922,7 +16922,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -17088,7 +17088,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -17243,7 +17243,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -17453,7 +17453,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -17836,7 +17836,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -18397,7 +18397,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -18529,7 +18529,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -18688,7 +18688,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -18776,7 +18776,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -18787,7 +18787,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -18843,7 +18843,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -18965,7 +18965,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -18990,7 +18990,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 123
 )
@@ -19011,7 +19011,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -19052,7 +19052,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -19063,7 +19063,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 123
 )
@@ -19079,7 +19079,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -19090,7 +19090,7 @@ EXPECT_EQ
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 123
 )
@@ -19141,7 +19141,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -19318,7 +19318,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -19736,7 +19736,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 limited_send_params
 )
@@ -20140,7 +20140,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -20168,7 +20168,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -20704,7 +20704,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcs1
 [
@@ -21021,7 +21021,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -21090,7 +21090,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -21121,7 +21121,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -21191,7 +21191,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -21314,7 +21314,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -21339,7 +21339,7 @@ ASSERT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 123
 )
@@ -21356,7 +21356,7 @@ EXPECT_STREQ
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 123
 )
@@ -21443,7 +21443,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -21537,7 +21537,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -21615,7 +21615,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -21665,7 +21665,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -21721,7 +21721,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -21771,7 +21771,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -21813,7 +21813,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -22110,7 +22110,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -22244,7 +22244,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -22321,7 +22321,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -22422,7 +22422,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -22642,7 +22642,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -22721,7 +22721,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -22817,7 +22817,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -23039,7 +23039,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -23517,7 +23517,7 @@ true
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -23849,7 +23849,7 @@ true
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -23944,7 +23944,7 @@ true
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -24048,7 +24048,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -24589,7 +24589,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -24798,7 +24798,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -24873,7 +24873,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -25611,7 +25611,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -25818,7 +25818,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -26025,7 +26025,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -26266,7 +26266,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -26488,7 +26488,7 @@ max_bandwidth_bps
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -26553,7 +26553,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -26932,7 +26932,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -27628,7 +27628,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -27972,7 +27972,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -28196,7 +28196,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -28388,7 +28388,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -28617,7 +28617,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -28855,7 +28855,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -28943,7 +28943,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -29670,7 +29670,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -29803,7 +29803,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -29977,7 +29977,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -30131,7 +30131,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -30332,7 +30332,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -30695,7 +30695,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -30787,7 +30787,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -30897,7 +30897,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -31158,7 +31158,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -31280,7 +31280,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -31428,7 +31428,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -31550,7 +31550,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -31607,7 +31607,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -31779,7 +31779,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -31888,7 +31888,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -32027,7 +32027,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -32093,7 +32093,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -32205,7 +32205,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -32330,7 +32330,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -32446,7 +32446,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -32553,7 +32553,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -32781,7 +32781,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -32791,7 +32791,7 @@ send_parameters_
 TEST_F
 (
 WebRtcVideoChannelTest
-SetSendParametersRemovesSelectedCodecFromRtpParameters
+SetSenderParametersRemovesSelectedCodecFromRtpParameters
 )
 {
 EXPECT_TRUE
@@ -32846,7 +32846,7 @@ VP9
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -32950,7 +32950,7 @@ VP8
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -33058,7 +33058,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33083,7 +33083,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33123,7 +33123,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33157,7 +33157,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33205,7 +33205,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33234,7 +33234,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33258,7 +33258,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33297,7 +33297,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33354,7 +33354,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33454,7 +33454,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33548,7 +33548,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33661,7 +33661,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -33855,7 +33855,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -34051,7 +34051,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -34144,7 +34144,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -34228,7 +34228,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -34374,7 +34374,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -34492,7 +34492,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -34634,7 +34634,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -34722,7 +34722,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -34792,7 +34792,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters1
 )
@@ -34838,7 +34838,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters2
 )
@@ -34887,7 +34887,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -34989,7 +34989,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35028,7 +35028,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35076,7 +35076,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35125,7 +35125,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35201,7 +35201,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35358,7 +35358,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35437,7 +35437,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35536,7 +35536,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35647,7 +35647,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35828,7 +35828,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -35953,7 +35953,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36214,7 +36214,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36308,7 +36308,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36358,7 +36358,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36433,7 +36433,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36509,7 +36509,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36583,7 +36583,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36617,7 +36617,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36745,7 +36745,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36797,7 +36797,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -36863,7 +36863,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -36924,7 +36924,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -37134,7 +37134,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -37251,7 +37251,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -37365,7 +37365,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -37500,7 +37500,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -37641,7 +37641,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -37805,7 +37805,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -37877,7 +37877,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -37947,7 +37947,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -38011,7 +38011,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -38063,7 +38063,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters1
 )
@@ -38133,7 +38133,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters2
 )
@@ -38838,7 +38838,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -38974,7 +38974,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -39223,7 +39223,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -42867,7 +42867,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -47750,7 +47750,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -48058,7 +48058,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -48149,7 +48149,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -48348,7 +48348,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -48493,7 +48493,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -50878,7 +50878,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -51710,7 +51710,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -52201,7 +52201,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -53006,7 +53006,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -54474,7 +54474,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -55367,7 +55367,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -55660,7 +55660,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -56561,7 +56561,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -58741,7 +58741,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -59072,7 +59072,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 vp8_parameters
 )
@@ -61129,7 +61129,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -61203,7 +61203,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -61460,7 +61460,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -63005,7 +63005,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters1
 )
@@ -63177,7 +63177,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters2
 )
@@ -63276,7 +63276,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -63713,7 +63713,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -63811,7 +63811,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -63826,7 +63826,7 @@ rtp_parameters
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 last_ssrc_
 )
@@ -63989,7 +63989,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -64030,7 +64030,7 @@ rtp_parameters
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 last_ssrc_
 )
@@ -64258,7 +64258,7 @@ rtp_parameters
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 last_ssrc_
 )
@@ -64338,7 +64338,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -64353,7 +64353,7 @@ initial_params
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 last_ssrc_
 )
@@ -64364,7 +64364,7 @@ initial_params
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 last_ssrc_
 )
@@ -64416,7 +64416,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -64667,7 +64667,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -66156,7 +66156,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -67752,7 +67752,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -67909,7 +67909,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -68389,7 +68389,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -68851,7 +68851,7 @@ ASSERT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )

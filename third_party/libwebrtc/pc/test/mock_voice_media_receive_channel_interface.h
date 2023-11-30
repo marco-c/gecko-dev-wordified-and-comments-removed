@@ -134,7 +134,7 @@ this
 MOCK_METHOD
 (
 bool
-SetRecvParameters
+SetReceiverParameters
 (
 const
 AudioReceiverParameters
@@ -152,7 +152,7 @@ webrtc
 :
 :
 RtpParameters
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 uint32_t
 ssrc

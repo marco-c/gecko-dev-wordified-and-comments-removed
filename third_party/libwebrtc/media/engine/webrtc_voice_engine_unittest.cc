@@ -2416,7 +2416,7 @@ enable
 ;
 }
 void
-SetSendParameters
+SetSenderParameters
 (
 const
 cricket
@@ -2437,7 +2437,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 params
 )
@@ -2555,7 +2555,7 @@ kSsrcX
 )
 ;
 }
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -2597,7 +2597,7 @@ push_back
 codec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -2794,7 +2794,7 @@ extmap_allow_mixed
 =
 extmap_allow_mixed
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -2939,7 +2939,7 @@ if
 expected_result
 )
 {
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -2952,7 +2952,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -3065,7 +3065,7 @@ max_bandwidth_bps
 =
 bitrate
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -3434,7 +3434,7 @@ expected_max_bitrate_bps
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -3500,7 +3500,7 @@ unknownextention
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -3530,7 +3530,7 @@ clear
 (
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -3574,7 +3574,7 @@ id
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -3738,7 +3738,7 @@ clear
 (
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -3802,7 +3802,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -3842,7 +3842,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -3853,7 +3853,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -3877,7 +3877,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -3888,7 +3888,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -3926,7 +3926,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -3937,7 +3937,7 @@ EXPECT_EQ
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -3961,7 +3961,7 @@ EXPECT_EQ
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcY
 )
@@ -3985,7 +3985,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -3996,7 +3996,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -4012,7 +4012,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcY
 )
@@ -6093,7 +6093,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6235,7 +6235,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6297,7 +6297,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6346,7 +6346,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6471,7 +6471,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6606,7 +6606,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6763,7 +6763,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -6910,7 +6910,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7003,7 +7003,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7022,7 +7022,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7055,7 +7055,7 @@ EXPECT_FALSE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7116,7 +7116,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7144,7 +7144,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7196,7 +7196,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7218,7 +7218,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7286,7 +7286,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -7536,7 +7536,7 @@ max_bandwidth_bps
 =
 kDesiredBitrate
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -7584,7 +7584,7 @@ SetupSendStream
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -7604,7 +7604,7 @@ max_bandwidth_bps
 =
 128000
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -7629,7 +7629,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -8300,7 +8300,7 @@ audio_network_adaptor_config
 "
 }
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -8618,7 +8618,7 @@ push_back
 kPcmuCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -8919,7 +8919,7 @@ push_back
 kPcmuCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -9018,7 +9018,7 @@ push_back
 kPcmuCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -9116,7 +9116,7 @@ push_back
 kPcmuCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -9180,7 +9180,7 @@ push_back
 kOpusCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters
 )
@@ -9537,7 +9537,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -9552,7 +9552,7 @@ rtp_parameters
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -9622,7 +9622,7 @@ rtp_parameters
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -9695,7 +9695,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -9710,7 +9710,7 @@ initial_params
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -9724,7 +9724,7 @@ new_params
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -9735,7 +9735,7 @@ initial_params
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 kSsrcX
 )
@@ -9784,7 +9784,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -9957,7 +9957,7 @@ ASSERT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -10152,7 +10152,7 @@ bitrate
 =
 22000
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10290,7 +10290,7 @@ push_back
 kOpusCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10378,7 +10378,7 @@ push_back
 kOpusCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10488,7 +10488,7 @@ params
 111
 "
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10598,7 +10598,7 @@ push_back
 kOpusCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10706,7 +10706,7 @@ push_back
 kOpusCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10794,7 +10794,7 @@ params
 111
 "
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10864,7 +10864,7 @@ params
 111
 "
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -10996,7 +10996,7 @@ GetNumCreatedSendStreams
 (
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11011,7 +11011,7 @@ GetNumCreatedSendStreams
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11082,7 +11082,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11144,7 +11144,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11224,7 +11224,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11286,7 +11286,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11366,7 +11366,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11446,7 +11446,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11492,7 +11492,7 @@ bitrate
 =
 0
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11564,7 +11564,7 @@ stereo
 0
 "
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11636,7 +11636,7 @@ bitrate
 =
 5999
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11661,7 +11661,7 @@ bitrate
 =
 510001
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11733,7 +11733,7 @@ stereo
 1
 "
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11805,7 +11805,7 @@ bitrate
 =
 5999
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11830,7 +11830,7 @@ bitrate
 =
 510001
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -11884,7 +11884,7 @@ bitrate
 =
 96000
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12008,7 +12008,7 @@ stereo
 0
 "
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12062,7 +12062,7 @@ bitrate
 =
 30000
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12134,7 +12134,7 @@ stereo
 1
 "
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12314,7 +12314,7 @@ max_bitrate_bps
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -12388,7 +12388,7 @@ nack
 rtp_history_ms
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12505,7 +12505,7 @@ nack
 rtp_history_ms
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12587,7 +12587,7 @@ kParamValueEmpty
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12624,7 +12624,7 @@ push_back
 kOpusCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12707,7 +12707,7 @@ kParamValueEmpty
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -12787,7 +12787,7 @@ push_back
 kOpusCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 opus_parameters
 )
@@ -12864,7 +12864,7 @@ push_back
 kOpusCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 pcmu_parameters
 )
@@ -12908,7 +12908,7 @@ c_str
 )
 ;
 }
-SetSendParameters
+SetSenderParameters
 (
 opus_parameters
 )
@@ -12981,7 +12981,7 @@ push_back
 kPcmuCodec
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13044,7 +13044,7 @@ bitrate
 =
 0
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13116,7 +13116,7 @@ bitrate
 =
 0
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13193,7 +13193,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13268,7 +13268,7 @@ id
 =
 96
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13385,7 +13385,7 @@ id
 =
 96
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13490,7 +13490,7 @@ id
 =
 96
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13526,7 +13526,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13553,7 +13553,7 @@ id
 =
 127
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13585,7 +13585,7 @@ EXPECT_FALSE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13650,7 +13650,7 @@ id
 =
 98
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13789,7 +13789,7 @@ id
 =
 98
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -13953,7 +13953,7 @@ id
 =
 98
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -14097,7 +14097,7 @@ id
 =
 97
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -14153,7 +14153,7 @@ codecs
 =
 kCn8000Codec
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -14216,7 +14216,7 @@ codecs
 =
 kOpusCodec
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -14365,7 +14365,7 @@ id
 =
 98
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -14583,7 +14583,7 @@ SetupSendStream
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -14636,7 +14636,7 @@ SetupSendStream
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -14718,7 +14718,7 @@ SetupSendStream
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -14838,7 +14838,7 @@ kAudioLevelUri
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -14880,7 +14880,7 @@ clear
 (
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -14916,7 +14916,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -15174,7 +15174,7 @@ id
 =
 97
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -15273,7 +15273,7 @@ codecs
 =
 kCn16000Codec
 ;
-SetSendParameters
+SetSenderParameters
 (
 parameters
 )
@@ -15507,7 +15507,7 @@ kSsrcY
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -15517,7 +15517,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -15898,7 +15898,7 @@ SetupSendStream
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -16117,7 +16117,7 @@ audio_network_adaptor_config
 "
 }
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -16169,7 +16169,7 @@ audio_network_adaptor_config
 "
 }
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -16254,7 +16254,7 @@ audio_network_adaptor_config
 "
 }
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -16375,7 +16375,7 @@ kSsrcY
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -16385,7 +16385,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters_
 )
@@ -18789,7 +18789,7 @@ EXPECT_TRUE
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -18867,7 +18867,7 @@ SetupSendStream
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19232,7 +19232,7 @@ AudioOptions
 (
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19285,7 +19285,7 @@ echo_cancellation
 =
 false
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19310,7 +19310,7 @@ echo_cancellation
 =
 true
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19335,7 +19335,7 @@ echo_cancellation
 =
 false
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19360,7 +19360,7 @@ echo_cancellation
 =
 true
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19373,7 +19373,7 @@ auto_gain_control
 =
 false
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19407,7 +19407,7 @@ auto_gain_control
 =
 true
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19457,7 +19457,7 @@ stereo_swapping
 =
 true
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -19509,7 +19509,7 @@ kDefaultNsLevel
 )
 ;
 }
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -20118,7 +20118,7 @@ EXPECT_TRUE
 send_channel1
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters_options_all
 )
@@ -20183,7 +20183,7 @@ EXPECT_TRUE
 send_channel2
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters_options_all
 )
@@ -20240,7 +20240,7 @@ EXPECT_TRUE
 send_channel1
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters_options_no_ns
 )
@@ -20348,7 +20348,7 @@ EXPECT_TRUE
 send_channel2
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters_options_no_agc
 )
@@ -20435,7 +20435,7 @@ EXPECT_TRUE
 send_channel_
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters_options_all
 )
@@ -20596,7 +20596,7 @@ EXPECT_TRUE
 send_channel2
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 parameters_options_no_agc_nor_ns
 )
@@ -22036,7 +22036,7 @@ SetupSendStream
 )
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -22097,7 +22097,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 ssrc
 )
@@ -22143,7 +22143,7 @@ header_extensions
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_parameters
 )
@@ -22175,7 +22175,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 ssrc
 )
@@ -22194,7 +22194,7 @@ header_extensions
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 cricket
 :
@@ -22217,7 +22217,7 @@ EXPECT_THAT
 receive_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 ssrc
 )
@@ -22329,7 +22329,7 @@ ReceiveImpl
 (
 )
 ;
-SetSendParameters
+SetSenderParameters
 (
 send_parameters_
 )
@@ -23437,7 +23437,7 @@ kAudioLevelUri
 receive_channel_
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -25220,7 +25220,7 @@ EXPECT_TRUE
 (
 channel
 .
-SetRecvParameters
+SetReceiverParameters
 (
 parameters
 )
@@ -25545,7 +25545,7 @@ EXPECT_TRUE
 (
 channel
 .
-SetSendParameters
+SetSenderParameters
 (
 params
 )

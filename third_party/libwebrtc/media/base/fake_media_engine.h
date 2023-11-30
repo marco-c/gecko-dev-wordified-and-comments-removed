@@ -769,7 +769,7 @@ webrtc
 :
 :
 RtpParameters
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 uint32_t
 ssrc
@@ -2812,7 +2812,7 @@ MEDIA_TYPE_AUDIO
 ;
 }
 bool
-SetRecvParameters
+SetReceiverParameters
 (
 const
 AudioReceiverParameters
@@ -3329,7 +3329,7 @@ MEDIA_TYPE_AUDIO
 ;
 }
 bool
-SetSendParameters
+SetSenderParameters
 (
 const
 AudioSenderParameter
@@ -3820,7 +3820,7 @@ max_bps
 const
 ;
 bool
-SetRecvParameters
+SetReceiverParameters
 (
 const
 VideoReceiverParameters
@@ -4297,7 +4297,7 @@ max_bps
 const
 ;
 bool
-SetSendParameters
+SetSenderParameters
 (
 const
 VideoSenderParameters
