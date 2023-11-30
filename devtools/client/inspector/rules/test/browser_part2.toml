@@ -1003,6 +1003,17 @@ js
 "
 browser_rules_inherited
 -
+custom
+-
+properties
+.
+js
+"
+]
+[
+"
+browser_rules_inherited
+-
 properties_01
 .
 js

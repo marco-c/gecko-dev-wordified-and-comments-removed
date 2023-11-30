@@ -8162,6 +8162,7 @@ properties
 :
 generateCssProperties
 (
+document
 )
 }
 )

@@ -1485,6 +1485,9 @@ InspectorUtils
 .
 isInheritedProperty
 (
+this
+.
+viewedDocument
 property
 )
 )
@@ -3684,6 +3687,11 @@ InspectorUtils
 .
 isInheritedProperty
 (
+this
+.
+_cssLogic
+.
+viewedDocument
 this
 .
 property

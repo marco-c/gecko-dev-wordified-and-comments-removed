@@ -111,6 +111,7 @@ Actor
 constructor
 (
 conn
+targetActor
 )
 {
 super
@@ -118,6 +119,12 @@ super
 conn
 cssPropertiesSpec
 )
+;
+this
+.
+targetActor
+=
+targetActor
 ;
 }
 getCSSDatabase
@@ -129,6 +136,13 @@ properties
 =
 generateCssProperties
 (
+this
+.
+targetActor
+.
+window
+.
+document
 )
 ;
 return
@@ -147,6 +161,7 @@ CssPropertiesActor
 function
 generateCssProperties
 (
+doc
 )
 {
 const
@@ -291,6 +306,7 @@ InspectorUtils
 .
 isInheritedProperty
 (
+doc
 name
 )
 values
