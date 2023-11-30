@@ -8,9 +8,11 @@ import
 ABCMeta
 abstractmethod
 from
-shutil
+distutils
+.
+spawn
 import
-which
+find_executable
 import
 six
 from
@@ -199,7 +201,7 @@ None
 paths
 =
 [
-which
+find_executable
 (
 "
 emulator
@@ -521,7 +523,7 @@ paths
 )
         
 return
-which
+find_executable
 (
 binary
 )
