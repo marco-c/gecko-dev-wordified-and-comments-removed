@@ -1,0 +1,8 @@
+export
+const
+{
+checkMicrotask
+}
+=
+globalThis
+;
