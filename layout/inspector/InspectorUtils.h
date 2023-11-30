@@ -225,6 +225,9 @@ IsInheritedProperty
 GlobalObject
 &
 aGlobal
+Document
+&
+aDocument
 const
 nsACString
 &

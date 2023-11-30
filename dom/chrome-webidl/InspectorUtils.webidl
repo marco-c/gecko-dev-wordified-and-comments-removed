@@ -280,6 +280,8 @@ sheet
 boolean
 isInheritedProperty
 (
+Document
+document
 UTF8String
 property
 )
