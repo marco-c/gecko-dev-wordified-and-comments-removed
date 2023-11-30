@@ -3506,8 +3506,9 @@ const
 unsigned
 nonVolatileRegsPushSize
 =
-masm
-.
+MacroAssembler
+:
+:
 PushRegsInMaskSizeInBytes
 (
 NonVolatileRegs

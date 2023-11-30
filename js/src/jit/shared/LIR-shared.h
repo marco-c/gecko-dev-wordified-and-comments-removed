@@ -19194,6 +19194,10 @@ framePushedAtStackMapBase_
 0
 )
 {
+setIsCall
+(
+)
+;
 }
 CodeOffset
 safepointLocation

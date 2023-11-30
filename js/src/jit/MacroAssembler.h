@@ -1175,6 +1175,7 @@ framePushed_
 ;
 public
 :
+static
 size_t
 PushRegsInMaskSizeInBytes
 (
