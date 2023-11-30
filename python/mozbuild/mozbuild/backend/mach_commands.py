@@ -854,6 +854,9 @@ typescriptreact
 json
 ]
 [
+jsonc
+]
+[
 html
 ]
 "
@@ -1075,7 +1078,10 @@ lost
             
 )
         
-if
+deprecated
+=
+[
+            
 "
 [
 javascript
@@ -1090,34 +1096,6 @@ typescript
 typescriptreact
 ]
 "
-in
-old_settings
-:
-            
-old_settings
-.
-pop
-(
-                
-"
-[
-javascript
-]
-[
-javascriptreact
-]
-[
-typescript
-]
-[
-typescriptreact
-]
-"
-            
-)
-        
-if
-(
             
 "
 [
@@ -1137,17 +1115,6 @@ json
 ]
 "
             
-in
-old_settings
-        
-)
-:
-            
-old_settings
-.
-pop
-(
-                
 "
 [
 javascript
@@ -1164,8 +1131,30 @@ typescriptreact
 [
 json
 ]
+[
+html
+]
 "
+        
+]
+        
+for
+entry
+in
+deprecated
+:
             
+if
+entry
+in
+old_settings
+:
+                
+old_settings
+.
+pop
+(
+entry
 )
         
 settings
