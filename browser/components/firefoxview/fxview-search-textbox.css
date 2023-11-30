@@ -89,6 +89,12 @@ primary
 color
 )
 ;
+display
+:
+inline
+-
+flex
+;
 position
 :
 relative
