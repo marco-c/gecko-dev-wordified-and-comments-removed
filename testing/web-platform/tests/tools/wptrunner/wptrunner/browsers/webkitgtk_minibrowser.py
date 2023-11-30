@@ -541,6 +541,7 @@ return
 def
 run_info_extras
 (
+logger
 *
 *
 kwargs
