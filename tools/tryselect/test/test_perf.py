@@ -1591,6 +1591,11 @@ chrom
                         
 "
 !
+fenix
+"
+                        
+"
+!
 safari
 "
                         
@@ -1650,6 +1655,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -1741,6 +1751,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -1884,6 +1899,11 @@ chrom
                         
 "
 !
+fenix
+"
+                        
+"
+!
 safari
 "
                         
@@ -1938,6 +1958,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -2004,6 +2029,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -2151,6 +2181,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -2349,6 +2384,11 @@ profil
                         
 "
 !
+fenix
+"
+                        
+"
+!
 safari
 "
                         
@@ -2406,6 +2446,11 @@ bytecode
 "
 !
 profil
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -2516,7 +2561,7 @@ android
 True
 }
             
-88
+78
             
 {
                 
@@ -2570,6 +2615,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -2665,6 +2715,14 @@ Firefox
 Pageload
 android
 "
+                
+"
+Pageload
+android
+-
+a51
+fenix
+"
             
 ]
         
@@ -2685,7 +2743,7 @@ chrome
 True
 }
             
-138
+128
             
 {
                 
@@ -2734,6 +2792,11 @@ live
 "
 !
 profil
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -2855,7 +2918,7 @@ profile
 True
 }
             
-176
+164
             
 {
                 
@@ -2899,6 +2962,11 @@ bytecode
 "
 !
 live
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -2957,6 +3025,189 @@ profil
 "
 !
 swr
+"
+                    
+]
+                
+}
+            
+}
+            
+[
+                
+"
+Resource
+Usage
+desktop
+profiling
+"
+                
+"
+DAMP
+(
+Devtools
+)
+desktop
+chrome
+"
+                
+"
+Resource
+Usage
+android
+"
+                
+"
+Resource
+Usage
+windows
+chromium
+"
+            
+]
+        
+)
+        
+(
+            
+{
+"
+android
+"
+:
+True
+"
+fenix
+"
+:
+True
+}
+            
+88
+            
+{
+                
+"
+Pageload
+android
+-
+a51
+"
+:
+{
+                    
+"
+raptor
+"
+:
+[
+                        
+"
+'
+browsertime
+'
+tp6
+"
+                        
+"
+'
+android
+'
+a51
+'
+shippable
+'
+aarch64
+"
+                        
+"
+!
+nofis
+"
+                        
+"
+!
+live
+"
+                        
+"
+!
+profil
+"
+                        
+"
+!
+chrom
+"
+                        
+"
+!
+safari
+"
+                        
+"
+!
+m
+-
+car
+"
+                    
+]
+                
+}
+                
+"
+Pageload
+android
+-
+a51
+fenix
+"
+:
+{
+                    
+"
+raptor
+"
+:
+[
+                        
+"
+'
+browsertime
+'
+tp6
+"
+                        
+"
+'
+android
+'
+a51
+'
+shippable
+'
+aarch64
+"
+                        
+"
+'
+fenix
+"
+                        
+"
+!
+nofis
+"
+                        
+"
+!
+live
+"
+                        
+"
+!
+profil
 "
                     
 ]
@@ -4374,6 +4625,11 @@ chrom
                         
 "
 !
+fenix
+"
+                        
+"
+!
 safari
 "
                         
@@ -4436,6 +4692,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+fenix
 "
                         
 "
@@ -4700,7 +4961,7 @@ expected_log_message
 }
             
 [
-9
+10
 2
 2
 10
@@ -4814,7 +5075,7 @@ firefox
 }
             
 [
-9
+10
 2
 2
 10
@@ -4923,7 +5184,7 @@ cached_base_revision
 }
             
 [
-9
+10
 1
 1
 10
@@ -5030,7 +5291,7 @@ True
 }
             
 [
-9
+10
 1
 1
 10
@@ -5363,7 +5624,7 @@ True
 }
             
 [
-9
+10
 1
 1
 4
@@ -5436,7 +5697,7 @@ True
 }
             
 [
-10
+11
 2
 2
 10
@@ -5543,7 +5804,7 @@ True
 }
             
 [
-9
+10
 2
 2
 10
@@ -5825,9 +6086,7 @@ as
 perf_print
 :
         
-fzf
-.
-side_effect
+fzf_side_effects
 =
 [
             
@@ -5893,6 +6152,12 @@ TASKS
 [
 "
 "
+TASKS
+]
+            
+[
+"
+"
 [
 "
 Perftest
@@ -5903,6 +6168,24 @@ Detector
 ]
         
 ]
+        
+assert
+len
+(
+fzf_side_effects
+)
+>
+=
+call_counts
+[
+0
+]
+        
+fzf
+.
+side_effect
+=
+fzf_side_effects
         
 ccr
 .
@@ -6036,7 +6319,7 @@ True
 }
             
 [
-10
+11
 0
 0
 2
@@ -6073,6 +6356,8 @@ live
 profil
 !
 chrom
+!
+fenix
 !
 safari
 !
@@ -6259,9 +6544,7 @@ as
 perf_print
 :
         
-fzf
-.
-side_effect
+fzf_side_effects
 =
 [
             
@@ -6329,8 +6612,38 @@ TASKS
 "
 TASKS
 ]
+            
+[
+"
+"
+TASKS
+]
+            
+[
+"
+"
+TASKS
+]
         
 ]
+        
+assert
+len
+(
+fzf_side_effects
+)
+>
+=
+call_counts
+[
+0
+]
+        
+fzf
+.
+side_effect
+=
+fzf_side_effects
         
 with
 pytest
