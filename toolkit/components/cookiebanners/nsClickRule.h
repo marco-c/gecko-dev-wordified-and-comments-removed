@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsICookieBannerRule
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -33,6 +40,9 @@ NS_DECL_NSICLICKRULE
 explicit
 nsClickRule
 (
+nsICookieBannerRule
+*
+aCookieBannerRule
 const
 nsACString
 &
@@ -60,6 +70,10 @@ nsACString
 aOptIn
 )
 :
+mCookieBannerRule
+(
+aCookieBannerRule
+)
 mPresence
 (
 aPresence
@@ -94,6 +108,12 @@ nsClickRule
 )
 =
 default
+;
+nsCOMPtr
+<
+nsICookieBannerRule
+>
+mCookieBannerRule
 ;
 nsCString
 mPresence
