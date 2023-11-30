@@ -17715,11 +17715,6 @@ template
 -
 quiet
 '
-'
--
--
-hook
-'
 ]
 }
 ]
