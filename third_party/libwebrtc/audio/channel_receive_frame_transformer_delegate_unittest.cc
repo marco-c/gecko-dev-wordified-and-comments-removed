@@ -848,7 +848,7 @@ std
 :
 make_unique
 <
-MockTransformableFrame
+MockTransformableAudioFrame
 >
 (
 )
