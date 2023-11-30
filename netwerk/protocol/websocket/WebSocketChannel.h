@@ -935,9 +935,6 @@ mHashedSecret
 nsCString
 mAddress
 ;
-nsCString
-mPath
-;
 int32_t
 mPort
 ;
