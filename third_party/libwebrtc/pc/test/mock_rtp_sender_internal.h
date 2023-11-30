@@ -295,7 +295,7 @@ override
 MOCK_METHOD
 (
 RTCError
-CheckSVCParameters
+CheckCodecParameters
 (
 const
 RtpParameters
@@ -309,7 +309,7 @@ override
 MOCK_METHOD
 (
 void
-SetVideoCodecPreferences
+SetCodecPreferences
 (
 std
 :

@@ -10341,7 +10341,7 @@ codec
 return
 codec
 .
-MatchesCapability
+MatchesRtpCodec
 (
 capability
 )
