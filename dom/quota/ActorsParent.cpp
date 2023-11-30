@@ -12485,7 +12485,7 @@ directory
 )
 )
 ;
-QM_TRY
+QM_WARNONLY_TRY
 (
 OkIf
 (
@@ -12497,10 +12497,6 @@ mLastAccessTime
 metadata
 .
 mLastAccessTime
-)
-Err
-(
-NS_ERROR_FAILURE
 )
 )
 ;
