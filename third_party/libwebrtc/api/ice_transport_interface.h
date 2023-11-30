@@ -224,6 +224,17 @@ async_dns_resolver_factory_
 async_dns_resolver_factory
 ;
 }
+[
+[
+deprecated
+(
+"
+Use
+async_dns_resolver_factory
+"
+)
+]
+]
 AsyncResolverFactory
 *
 async_resolver_factory

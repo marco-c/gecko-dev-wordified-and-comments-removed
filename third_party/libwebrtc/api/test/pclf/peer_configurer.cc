@@ -491,7 +491,7 @@ PeerConfigurer
 PeerConfigurer
 :
 :
-SetAsyncResolverFactory
+SetAsyncDnsResolverFactory
 (
 std
 :
@@ -501,9 +501,9 @@ unique_ptr
 webrtc
 :
 :
-AsyncResolverFactory
+AsyncDnsResolverFactoryInterface
 >
-async_resolver_factory
+async_dns_resolver_factory
 )
 {
 components_
@@ -512,14 +512,14 @@ components_
 pc_dependencies
 -
 >
-async_resolver_factory
+async_dns_resolver_factory
 =
 std
 :
 :
 move
 (
-async_resolver_factory
+async_dns_resolver_factory
 )
 ;
 return

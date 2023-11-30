@@ -40,7 +40,7 @@ include
 "
 api
 /
-async_resolver_factory
+async_dns_resolver
 .
 h
 "
@@ -467,7 +467,7 @@ SetUseNetworkThreadAsWorkerThread
 ;
 PeerConfigurer
 *
-SetAsyncResolverFactory
+SetAsyncDnsResolverFactory
 (
 std
 :
@@ -477,7 +477,7 @@ unique_ptr
 webrtc
 :
 :
-AsyncResolverFactory
+AsyncDnsResolverFactoryInterface
 >
 async_resolver_factory
 )

@@ -29,7 +29,7 @@ include
 "
 api
 /
-async_resolver_factory
+async_dns_resolver
 .
 h
 "
@@ -399,9 +399,9 @@ unique_ptr
 webrtc
 :
 :
-AsyncResolverFactory
+AsyncDnsResolverFactoryInterface
 >
-async_resolver_factory
+async_dns_resolver_factory
 ;
 std
 :
