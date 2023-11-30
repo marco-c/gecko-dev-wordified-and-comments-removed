@@ -93,8 +93,6 @@ const
 EncodedImage
 &
 input_image
-bool
-missing_frames
 int64_t
 render_time_ms
 )
@@ -257,8 +255,6 @@ const
 EncodedImage
 &
 input_image
-bool
-missing_frames
 int64_t
 render_time_ms
 )
@@ -272,7 +268,6 @@ decoder_
 Decode
 (
 input_image
-missing_frames
 render_time_ms
 )
 ;

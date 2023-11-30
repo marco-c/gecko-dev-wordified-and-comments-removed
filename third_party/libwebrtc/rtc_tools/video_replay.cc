@@ -1352,7 +1352,6 @@ const
 EncodedImage
 &
 encoded_frame
-bool
 int64_t
 )
 override
@@ -1586,7 +1585,6 @@ const
 EncodedImage
 &
 encoded_frame
-bool
 int64_t
 render_time_ms
 )

@@ -488,7 +488,6 @@ Decode
 (
 *
 image
-false
 0
 )
 )

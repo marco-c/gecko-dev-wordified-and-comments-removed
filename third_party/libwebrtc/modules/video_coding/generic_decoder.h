@@ -465,8 +465,6 @@ Timestamp
 now
 int64_t
 render_time_ms
-int64_t
-missing_frame
 )
 ;
 VCMDecodedFrameCallback

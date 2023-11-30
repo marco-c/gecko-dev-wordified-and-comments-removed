@@ -133,8 +133,6 @@ const
 EncodedImage
 &
 input
-bool
-missing_frames
 int64_t
 render_time_ms
 )
@@ -237,8 +235,6 @@ const
 EncodedImage
 &
 input
-bool
-missing_frames
 int64_t
 render_time_ms
 )

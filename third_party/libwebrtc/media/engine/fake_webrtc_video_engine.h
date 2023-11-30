@@ -235,7 +235,6 @@ webrtc
 :
 EncodedImage
 &
-bool
 int64_t
 )
 override

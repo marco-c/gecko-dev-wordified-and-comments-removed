@@ -97,8 +97,6 @@ const
 EncodedImage
 &
 input_image
-bool
-missing_frames
 int64_t
 )
 override

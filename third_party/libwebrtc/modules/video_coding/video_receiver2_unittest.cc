@@ -615,6 +615,10 @@ EXPECT_CALL
 *
 decoder
 Decode
+(
+_
+_
+)
 )
 .
 WillOnce

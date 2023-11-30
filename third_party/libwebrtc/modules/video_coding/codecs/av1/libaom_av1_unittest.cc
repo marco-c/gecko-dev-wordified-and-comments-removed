@@ -556,7 +556,6 @@ decoder_
 Decode
 (
 image
-false
 image
 .
 capture_time_ms_

@@ -1648,11 +1648,6 @@ frame
 RenderTimeMs
 (
 )
-frame
-.
-MissingFrame
-(
-)
 )
 ;
 }
@@ -1680,11 +1675,6 @@ frame
 RenderTimeMs
 (
 )
-frame
-.
-MissingFrame
-(
-)
 )
 ;
 }
@@ -1702,8 +1692,6 @@ Timestamp
 now
 int64_t
 render_time_ms
-int64_t
-missing_frame
 )
 {
 TRACE_EVENT1
@@ -1888,7 +1876,6 @@ decoder_
 Decode
 (
 frame
-missing_frame
 render_time_ms
 )
 ;

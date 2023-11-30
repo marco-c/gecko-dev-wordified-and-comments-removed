@@ -139,6 +139,17 @@ const
 EncodedImage
 &
 input_image
+int64_t
+)
+override
+;
+int
+Decode
+(
+const
+EncodedImage
+&
+input_image
 bool
 missing_frames
 int64_t
@@ -274,9 +285,6 @@ inited_
 vpx_codec_ctx_t
 *
 decoder_
-;
-int
-propagation_cnt_
 ;
 int
 last_frame_width_
