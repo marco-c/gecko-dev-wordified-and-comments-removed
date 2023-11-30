@@ -1577,11 +1577,6 @@ attribute
 changed
 "
 "
-virtual
-cursor
-changed
-"
-"
 text
 value
 change
