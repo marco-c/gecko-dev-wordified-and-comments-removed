@@ -1863,6 +1863,11 @@ string
 rid
 ;
 bool
+request_key_frame
+=
+false
+;
+bool
 adaptive_ptime
 =
 false
