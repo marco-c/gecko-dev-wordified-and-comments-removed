@@ -950,12 +950,6 @@ SSRC
 rtp_sender_
 -
 >
-Csrcs
-(
-)
-rtp_sender_
--
->
 Rid
 (
 )
