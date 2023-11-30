@@ -3944,6 +3944,20 @@ loadtime
 loadEventEnd
 "
 )
+            
+(
+"
+largestContentfulPaint
+"
+[
+"
+largestContentfulPaint
+"
+"
+renderTime
+"
+]
+)
         
 )
         
