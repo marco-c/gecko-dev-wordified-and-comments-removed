@@ -883,6 +883,7 @@ MediaSourceDemuxer
 :
 AttachSourceBuffer
 (
+const
 RefPtr
 <
 TrackBuffersManager
@@ -1002,6 +1003,7 @@ MediaSourceDemuxer
 :
 DetachSourceBuffer
 (
+const
 RefPtr
 <
 TrackBuffersManager

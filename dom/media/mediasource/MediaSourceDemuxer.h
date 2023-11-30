@@ -195,6 +195,7 @@ false
 void
 AttachSourceBuffer
 (
+const
 RefPtr
 <
 TrackBuffersManager
@@ -206,6 +207,7 @@ aSourceBuffer
 void
 DetachSourceBuffer
 (
+const
 RefPtr
 <
 TrackBuffersManager
