@@ -1842,12 +1842,13 @@ nsPresContext
 *
 mPresContext
 ;
-typedef
+using
+EventArray
+=
 nsTArray
 <
 AnimationEventInfo
 >
-EventArray
 ;
 EventArray
 mPendingEvents
