@@ -90,6 +90,13 @@ CanvasContext
 &
 &
 aTargetContexts
+RefPtr
+<
+CommandEncoder
+>
+&
+&
+aEncoder
 )
 ;
 Maybe
@@ -131,6 +138,12 @@ CanvasContext
 >
 >
 mTargetContexts
+;
+RefPtr
+<
+CommandEncoder
+>
+mEncoder
 ;
 }
 ;

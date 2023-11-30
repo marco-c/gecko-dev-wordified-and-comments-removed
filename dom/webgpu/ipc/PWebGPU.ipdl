@@ -530,13 +530,6 @@ selfId
 )
 ;
 async
-CommandBufferDrop
-(
-RawId
-selfId
-)
-;
-async
 RenderBundleDrop
 (
 RawId
