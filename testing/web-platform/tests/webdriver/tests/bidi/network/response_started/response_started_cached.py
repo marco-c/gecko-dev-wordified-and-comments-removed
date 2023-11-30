@@ -45,6 +45,8 @@ test_cached
     
 wait_for_event
     
+wait_for_future_safe
+    
 url
     
 fetch
@@ -139,7 +141,10 @@ cached_url
 )
     
 await
+wait_for_future_safe
+(
 on_response_started
+)
     
 assert
 len
@@ -227,7 +232,10 @@ cached_url
 )
     
 await
+wait_for_future_safe
+(
 on_response_started
+)
     
 assert
 len
@@ -670,6 +678,7 @@ test_cached_revalidate
 (
      
 wait_for_event
+wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -764,7 +773,10 @@ method
 )
     
 await
+wait_for_future_safe
+(
 on_response_started
+)
     
 assert
 len
@@ -866,7 +878,10 @@ true
 )
     
 await
+wait_for_future_safe
+(
 on_response_started
+)
     
 assert
 len

@@ -61,6 +61,7 @@ test_same_navigation_id
 bidi_session
 top_context
 wait_for_event
+wait_for_future_safe
 url
 setup_network_test
 )
@@ -159,7 +160,10 @@ complete
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len
@@ -362,6 +366,7 @@ def
 test_same_request_id
 (
 wait_for_event
+wait_for_future_safe
 url
 setup_network_test
 fetch
@@ -458,7 +463,10 @@ text_url
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len
@@ -649,6 +657,7 @@ test_subscribe_to_one_context
 bidi_session
 top_context
 wait_for_event
+wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -774,7 +783,10 @@ top_context
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len

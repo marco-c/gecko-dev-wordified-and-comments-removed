@@ -138,6 +138,8 @@ add_intercept
     
 fetch
     
+wait_for_future_safe
+    
 phases
     
 intercepted_phase
@@ -284,7 +286,10 @@ text_url
 )
     
 await
+wait_for_future_safe
+(
 on_network_event
+)
     
 expected_request
 =
