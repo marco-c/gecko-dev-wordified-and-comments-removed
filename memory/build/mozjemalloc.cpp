@@ -7901,17 +7901,12 @@ mAddr
 leadsize
 )
 ;
-ChunkType
-chunk_type
-=
+MOZ_ASSERT
+(
 node
 -
 >
 mChunkType
-;
-MOZ_ASSERT
-(
-chunk_type
 =
 =
 ZEROED_CHUNK
@@ -8004,7 +7999,7 @@ chunk_dealloc
 (
 ret
 aSize
-chunk_type
+ZEROED_CHUNK
 )
 ;
 return
@@ -8050,7 +8045,7 @@ node
 >
 mChunkType
 =
-chunk_type
+ZEROED_CHUNK
 ;
 gChunksBySize
 .
