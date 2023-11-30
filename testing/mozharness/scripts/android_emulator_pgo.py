@@ -103,6 +103,26 @@ html
 "
     
 "
+js
+-
+input
+/
+webkit
+/
+PerformanceTests
+/
+Speedometer3
+/
+index
+.
+html
+?
+startAutomatically
+=
+true
+"
+    
+"
 blueprint
 /
 sample
@@ -1818,10 +1838,6 @@ timeout
 if
 "
 Speedometer
-/
-index
-.
-html
 "
 in
 page
