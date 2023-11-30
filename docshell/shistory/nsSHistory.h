@@ -1004,7 +1004,7 @@ GloballyEvictContentViewers
 ;
 static
 void
-GloballyEvictAllContentViewers
+GloballyEvictAllDocumentViewers
 (
 )
 ;
