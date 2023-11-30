@@ -661,6 +661,13 @@ js
 ]
 [
 "
+test_richsuggestions_order
+.
+js
+"
+]
+[
+"
 test_search_engine_restyle
 .
 js
