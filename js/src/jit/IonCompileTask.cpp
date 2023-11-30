@@ -1034,7 +1034,7 @@ if
 !
 freeTask
 .
-appendCompileTask
+addIonCompileToFreeTaskBatch
 (
 task
 )
