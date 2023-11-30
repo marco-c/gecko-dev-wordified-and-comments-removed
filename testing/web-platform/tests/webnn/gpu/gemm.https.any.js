@@ -9,5 +9,8 @@ testWebNNOperation
 gemm
 '
 buildGemm
+'
+gpu
+'
 )
 ;

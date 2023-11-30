@@ -6,8 +6,11 @@ strict
 testWebNNOperation
 (
 '
-gemm
+split
 '
-buildGemm
+buildSplit
+'
+gpu
+'
 )
 ;

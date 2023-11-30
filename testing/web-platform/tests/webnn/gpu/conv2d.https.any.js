@@ -6,8 +6,11 @@ strict
 testWebNNOperation
 (
 '
-gemm
+conv2d
 '
-buildGemm
+buildConv2d
+'
+gpu
+'
 )
 ;

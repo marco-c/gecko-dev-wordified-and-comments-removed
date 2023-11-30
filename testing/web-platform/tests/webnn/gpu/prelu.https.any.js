@@ -6,8 +6,11 @@ strict
 testWebNNOperation
 (
 '
-gemm
+prelu
 '
-buildGemm
+buildOperationWithTwoInputs
+'
+gpu
+'
 )
 ;

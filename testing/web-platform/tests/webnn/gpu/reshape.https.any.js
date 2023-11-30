@@ -6,8 +6,11 @@ strict
 testWebNNOperation
 (
 '
-gemm
+reshape
 '
-buildGemm
+buildReshape
+'
+gpu
+'
 )
 ;
