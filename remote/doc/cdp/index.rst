@@ -208,9 +208,6 @@ md
 Architecture
 .
 md
-PuppeteerVendor
-.
-md
 RequiredPreferences
 .
 md
