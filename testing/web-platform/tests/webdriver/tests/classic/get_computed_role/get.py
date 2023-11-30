@@ -5,12 +5,6 @@ webdriver
 import
 WebElement
 from
-webdriver
-.
-error
-import
-NoSuchAlertException
-from
 tests
 .
 support

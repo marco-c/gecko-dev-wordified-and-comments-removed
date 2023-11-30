@@ -7,7 +7,6 @@ support
 .
 asserts
 import
-assert_error
 assert_success
 from
 tests

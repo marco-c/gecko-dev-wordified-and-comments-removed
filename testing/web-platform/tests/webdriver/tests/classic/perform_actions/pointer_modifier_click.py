@@ -39,7 +39,7 @@ modifier
 prop
 "
 [
-   
+    
 (
 Keys
 .
@@ -48,7 +48,7 @@ ALT
 altKey
 "
 )
-   
+    
 (
 Keys
 .
@@ -57,7 +57,7 @@ R_ALT
 altKey
 "
 )
-   
+    
 (
 Keys
 .
@@ -66,7 +66,7 @@ META
 metaKey
 "
 )
-   
+    
 (
 Keys
 .
@@ -75,7 +75,7 @@ R_META
 metaKey
 "
 )
-   
+    
 (
 Keys
 .
@@ -84,7 +84,7 @@ SHIFT
 shiftKey
 "
 )
-   
+    
 (
 Keys
 .

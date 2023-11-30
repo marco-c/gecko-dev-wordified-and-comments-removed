@@ -35,7 +35,7 @@ utf
 -
 8
 "
-isBase64
+is_base64
 =
 False
 )
@@ -62,7 +62,7 @@ charset
 "
     
 elif
-isBase64
+is_base64
 :
         
 encoding

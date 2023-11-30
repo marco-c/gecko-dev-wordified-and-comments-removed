@@ -1559,8 +1559,7 @@ type
 (
 screenshot
 )
-=
-=
+is
 str
 :
         

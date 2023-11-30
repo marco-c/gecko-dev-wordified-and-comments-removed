@@ -1,8 +1,4 @@
 from
-webdriver
-import
-WebElement
-from
 tests
 .
 support

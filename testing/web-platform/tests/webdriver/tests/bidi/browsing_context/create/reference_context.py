@@ -5,16 +5,6 @@ from
 .
 import
 assert_browsing_context
-from
-webdriver
-.
-bidi
-.
-modules
-.
-script
-import
-ContextTarget
 pytestmark
 =
 pytest
