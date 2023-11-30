@@ -2,7 +2,7 @@ import
 {
 RequestTokenStatus
 LogoutRpsStatus
-RevokeStatus
+DisconnectStatus
 FederatedAuthRequest
 FederatedAuthRequestReceiver
 }
@@ -138,9 +138,9 @@ kError
 ;
 this
 .
-revokeStatus_
+disconnectStatus_
 =
-RevokeStatus
+DisconnectStatus
 .
 kError
 ;
@@ -298,7 +298,7 @@ logoutRpsStatus_
 validated
 ;
 }
-revokeReturn
+disconnectReturn
 (
 status
 )
@@ -306,7 +306,7 @@ status
 let
 validated
 =
-RevokeStatus
+DisconnectStatus
 [
 status
 ]
@@ -334,7 +334,7 @@ status
 ;
 this
 .
-revokeStatus_
+disconnectStatus_
 =
 validated
 ;
@@ -486,7 +486,7 @@ logoutRpsStatus_
 ;
 }
 async
-revoke
+disconnect
 (
 provider
 client_id
@@ -503,7 +503,7 @@ status
 :
 this
 .
-revokeStatus_
+disconnectStatus_
 }
 )
 ;
@@ -584,9 +584,9 @@ kError
 ;
 this
 .
-revokeStatus_
+disconnectStatus_
 =
-RevokeStatus
+DisconnectStatus
 .
 kError
 ;

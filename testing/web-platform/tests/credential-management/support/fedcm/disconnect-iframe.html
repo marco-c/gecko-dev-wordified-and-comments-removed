@@ -49,7 +49,7 @@ module
 >
 import
 {
-revoke_options
+disconnect_options
 request_options_with_mediation_required
 set_fedcm_cookie
 manifest_origin
@@ -116,7 +116,7 @@ get
 |
 "
 Failed
-revoke
+disconnect
 "
 /
 /
@@ -131,7 +131,7 @@ name
 }
 async
 function
-attemptRevoke
+attemptDisconnect
 (
 )
 {
@@ -140,9 +140,9 @@ try
 await
 IdentityCredential
 .
-revoke
+disconnect
 (
-revoke_options
+disconnect_options
 (
 "
 1234
@@ -185,7 +185,7 @@ result
 :
 "
 Failed
-revoke
+disconnect
 "
 errorType
 :
@@ -235,7 +235,7 @@ skip_get
 )
 )
 {
-attemptRevoke
+attemptDisconnect
 (
 )
 ;
@@ -259,6 +259,8 @@ the
 get
 (
 )
+/
+/
 promise
 is
 resolved
@@ -350,10 +352,10 @@ get
 )
 attempt
 to
-revoke
+disconnect
 permission
 .
-attemptRevoke
+attemptDisconnect
 (
 )
 ;

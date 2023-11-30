@@ -1017,7 +1017,7 @@ credentialPromise
 }
 export
 function
-revoke_options
+disconnect_options
 (
 accountHint
 manifest_filename
@@ -1079,7 +1079,7 @@ accountHint
 }
 export
 function
-alt_revoke_options
+alt_disconnect_options
 (
 accountHint
 manifest_filename

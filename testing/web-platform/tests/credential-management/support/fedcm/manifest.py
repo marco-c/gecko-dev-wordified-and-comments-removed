@@ -105,11 +105,11 @@ py
 "
   
 "
-revocation_endpoint
+disconnect_endpoint
 "
 :
 "
-revoke
+disconnect
 .
 py
 "
