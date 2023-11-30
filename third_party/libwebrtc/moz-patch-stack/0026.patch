@@ -146,10 +146,10 @@ TextureBufferImpl
 .
 java
 index
-c08fc4c29b
+7e2bed84fc
 .
 .
-8e0e40ef70
+43470d6e39
 100644
 -
 -
@@ -294,6 +294,4 @@ scaleHeight
 )
 ;
 }
-/
-*
-*
+Override
