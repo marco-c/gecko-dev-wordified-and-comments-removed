@@ -73,6 +73,5 @@ maxdepth
 RenderingOverview
 LayersHistory
 AsyncPanZoom
-AdvancedLayers
 Silk
 Moz2D

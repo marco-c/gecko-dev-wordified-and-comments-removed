@@ -63,13 +63,6 @@ urlbar
 index
 BrowserUsageTelemetry
 CommandLineParameters
-app
-/
-pbproxy
-/
-docs
-/
-index
 components
 /
 enterprisepolicies
@@ -150,11 +143,6 @@ docs
 /
 index
 search
-/
-index
-base
-/
-sslerrorreport
 /
 index
 base

@@ -181,7 +181,6 @@ toctree
 maxdepth
 :
 1
-androideclipse
 cppeclipse
 visualstudio
 mozbuild

@@ -57,11 +57,6 @@ components
 backgroundtasks
 /
 index
-crash
--
-reporting
-/
-index
 components
 /
 crashes
