@@ -606,6 +606,12 @@ height
 ;
 printSettings
 .
+usePageRuleSizeAsPaperSize
+=
+true
+;
+printSettings
+.
 marginBottom
 =
 cmToInches
