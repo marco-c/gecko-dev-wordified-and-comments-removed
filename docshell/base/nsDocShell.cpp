@@ -50483,7 +50483,7 @@ LegacySHistory
 )
 -
 >
-EvictContentViewersOrReplaceEntry
+EvictDocumentViewersOrReplaceEntry
 (
 newSHEntry
 aReplace

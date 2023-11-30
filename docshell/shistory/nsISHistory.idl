@@ -1681,7 +1681,7 @@ aEntry
 notxpcom
 ]
 void
-EvictContentViewersOrReplaceEntry
+EvictDocumentViewersOrReplaceEntry
 (
 in
 nsISHEntry
