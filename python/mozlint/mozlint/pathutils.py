@@ -1200,6 +1200,19 @@ in
 include
 :
             
+if
+inc
+.
+isfile
+:
+                
+keep
+.
+add
+(
+inc
+)
+            
 excs
 =
 [
