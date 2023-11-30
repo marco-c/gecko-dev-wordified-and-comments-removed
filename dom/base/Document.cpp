@@ -8118,10 +8118,6 @@ mIsGoingAway
 (
 false
 )
-mInXBLUpdate
-(
-false
-)
 mStyleSetFilled
 (
 false

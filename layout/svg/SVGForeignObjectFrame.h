@@ -408,9 +408,6 @@ gfxMatrix
 >
 mCanvasTM
 ;
-bool
-mInReflow
-;
 }
 ;
 }
