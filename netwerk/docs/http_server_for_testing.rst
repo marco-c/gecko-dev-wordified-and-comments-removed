@@ -881,8 +881,6 @@ option
 note
 :
 :
-Note
-:
 You
 *
 *

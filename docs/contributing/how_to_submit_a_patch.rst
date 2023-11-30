@@ -2014,8 +2014,6 @@ reviewed
 note
 :
 :
-Note
-:
 Be
 sure
 to
