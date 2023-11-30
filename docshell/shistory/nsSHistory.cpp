@@ -5708,7 +5708,7 @@ NS_IMETHODIMP
 nsSHistory
 :
 :
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 int32_t
 aIndex
@@ -5726,7 +5726,7 @@ Debug
 nsSHistory
 :
 :
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 %
 i
 "
@@ -5786,7 +5786,7 @@ curIndex
 1
 )
 {
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 curIndex
 )
@@ -6303,7 +6303,7 @@ aFrameLoader
 shistory
 -
 >
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 indexOfHistoryLoad
 )

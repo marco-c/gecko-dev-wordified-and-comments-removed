@@ -12126,7 +12126,7 @@ aChangeID
 shistory
 -
 >
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 index
 )

@@ -8011,7 +8011,7 @@ LegacySHistory
 )
 -
 >
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 loadedIndex
 )
