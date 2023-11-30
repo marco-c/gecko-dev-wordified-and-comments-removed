@@ -143,7 +143,7 @@ body
 >
 ;
 const
-popup_unloaded
+popup_navigated
 =
 new
 Promise
@@ -155,7 +155,7 @@ window
 .
 popup
 .
-onunload
+onpagehide
 =
 e
 =
@@ -175,7 +175,7 @@ iframe
 )
 ;
 await
-popup_unloaded
+popup_navigated
 ;
 test
 .
