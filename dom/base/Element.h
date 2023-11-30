@@ -6471,15 +6471,6 @@ EventChainPostVisitor
 aVisitor
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-void
-ActivationBehaviorForLinks
-(
-EventChainPostVisitor
-&
-aVisitor
-)
-;
 public
 :
 bool
