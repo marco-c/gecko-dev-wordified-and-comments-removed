@@ -174,6 +174,12 @@ ProcessBuffers
 (
 )
 ;
+rtc
+:
+:
+RaceChecker
+pipewire_checker_
+;
 const
 rtc
 :
@@ -199,7 +205,7 @@ VideoCaptureCapability
 configured_capability_
 RTC_GUARDED_BY
 (
-capture_checker_
+pipewire_checker_
 )
 ;
 bool
@@ -215,7 +221,7 @@ pw_stream
 stream_
 RTC_GUARDED_BY
 (
-capture_checker_
+pipewire_checker_
 )
 =
 nullptr
@@ -225,7 +231,7 @@ spa_hook
 stream_listener_
 RTC_GUARDED_BY
 (
-capture_checker_
+pipewire_checker_
 )
 ;
 }
