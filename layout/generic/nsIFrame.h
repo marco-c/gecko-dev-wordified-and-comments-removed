@@ -428,7 +428,7 @@ enum
 class
 PeekOffsetOption
 :
-uint8_t
+uint16_t
 ;
 enum
 class
@@ -9368,6 +9368,11 @@ false
 ;
 bool
 mJumpedHardBreak
+=
+false
+;
+bool
+mFoundPlaceholder
 =
 false
 ;

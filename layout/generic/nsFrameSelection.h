@@ -328,11 +328,12 @@ enum
 class
 PeekOffsetOption
 :
-uint8_t
+uint16_t
 {
 JumpLines
 PreserveSpaces
 ScrollViewStop
+StopAtPlaceholder
 IsKeyboardSelect
 Visual
 Extend

@@ -108,6 +108,13 @@ mIsWrapped
 =
 false
 ;
+nsIFrame
+*
+GetLastFrameOnLine
+(
+)
+const
+;
 }
 ;
 virtual
