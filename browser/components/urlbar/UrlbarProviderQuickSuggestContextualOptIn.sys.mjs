@@ -441,12 +441,18 @@ PROVIDER_TYPE
 HEURISTIC
 ;
 }
-shouldDisplayContextualOptIn
+_shouldDisplayContextualOptIn
 (
 queryContext
+=
+null
 )
 {
 if
+(
+queryContext
+&
+&
 (
 queryContext
 .
@@ -466,6 +472,7 @@ searchString
 queryContext
 .
 searchMode
+)
 )
 {
 return
@@ -615,7 +622,7 @@ return
 (
 this
 .
-shouldDisplayContextualOptIn
+_shouldDisplayContextualOptIn
 (
 queryContext
 )
@@ -1078,7 +1085,6 @@ _handleCommand
 details
 .
 element
-queryContext
 controller
 result
 )
@@ -1087,7 +1093,6 @@ result
 _handleCommand
 (
 element
-queryContext
 controller
 result
 container
@@ -1221,9 +1226,8 @@ if
 !
 this
 .
-isActive
+_shouldDisplayContextualOptIn
 (
-queryContext
 )
 )
 {

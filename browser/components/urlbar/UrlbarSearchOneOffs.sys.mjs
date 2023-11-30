@@ -560,6 +560,9 @@ _on_popupshowing
 )
 ;
 }
+#
+queryContext
+;
 onQueryStarted
 (
 queryContext
@@ -567,6 +570,7 @@ queryContext
 {
 this
 .
+#
 queryContext
 =
 queryContext
@@ -627,7 +631,7 @@ if
 !
 provider
 .
-shouldDisplayContextualOptIn
+_shouldDisplayContextualOptIn
 (
 queryContext
 )
@@ -1466,9 +1470,6 @@ quickSuggestOptInProvider
 _handleCommand
 (
 element
-this
-.
-queryContext
 this
 .
 view
@@ -3385,6 +3386,7 @@ if
 (
 this
 .
+#
 queryContext
 )
 {
@@ -3395,6 +3397,7 @@ buildQuickSuggestOptIn
 (
 this
 .
+#
 queryContext
 )
 ;
