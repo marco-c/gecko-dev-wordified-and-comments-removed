@@ -19,5 +19,13 @@ lib
 firefox
 /
 firefox
+-
+-
+name
+org
+.
+mozilla
+.
+firefox
 "
 "
