@@ -1442,6 +1442,11 @@ now
 =
 compound_packet
 ;
+RTC_CHECK
+(
+packet
+)
+;
 const
 bool
 is_media
