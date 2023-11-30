@@ -91,10 +91,10 @@ class
 nsIContentSecurityPolicy
 ;
 class
-nsIContentViewer
+nsIDocShellTreeItem
 ;
 class
-nsIDocShellTreeItem
+nsIDocumentViewer
 ;
 class
 nsILayoutHistoryState
@@ -455,7 +455,7 @@ mChildShells
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 mContentViewer
 ;
@@ -582,7 +582,7 @@ DropPresentationState
 nsresult
 SetContentViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 )

@@ -993,7 +993,7 @@ suspendMediaWhenInactive
 Default
 value
 for
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 authorStyleDisabled

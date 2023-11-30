@@ -526,14 +526,14 @@ h
 #
 include
 "
-nsIContentViewer
+nsID
 .
 h
 "
 #
 include
 "
-nsID
+nsIDocumentViewer
 .
 h
 "
@@ -1710,7 +1710,7 @@ mDocument
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 mViewer
 ;
@@ -1788,7 +1788,7 @@ SetupViewer
 nsIRequest
 *
 aRequest
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aViewer
@@ -2014,7 +2014,7 @@ AddExternalResource
 nsIURI
 *
 aURI
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 nsILoadGroup
@@ -7592,9 +7592,9 @@ CreateStaticClone
 nsIDocShell
 *
 aCloneContainer
-nsIContentViewer
+nsIDocumentViewer
 *
-aContentViewer
+aDocumentViewer
 nsIPrintSettings
 *
 aPrintSettings

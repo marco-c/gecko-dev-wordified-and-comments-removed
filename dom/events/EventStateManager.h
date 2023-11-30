@@ -131,7 +131,7 @@ class
 imgIContainer
 ;
 class
-nsIContentViewer
+nsIDocumentViewer
 ;
 class
 nsIScrollableFrame

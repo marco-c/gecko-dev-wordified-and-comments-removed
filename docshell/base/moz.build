@@ -176,11 +176,6 @@ XPIDL_SOURCES
 =
 [
 "
-nsIContentViewer
-.
-idl
-"
-"
 nsIDocShell
 .
 idl
@@ -197,6 +192,11 @@ idl
 "
 "
 nsIDocumentLoaderFactory
+.
+idl
+"
+"
+nsIDocumentViewer
 .
 idl
 "

@@ -6103,7 +6103,7 @@ mMap
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =
@@ -6151,7 +6151,7 @@ mMap
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =
@@ -6238,7 +6238,7 @@ AddExternalResource
 nsIURI
 *
 aURI
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 nsILoadGroup
@@ -6606,7 +6606,7 @@ NS_BINDING_ABORTED
 }
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;
@@ -6695,7 +6695,7 @@ SetupViewer
 nsIRequest
 *
 aRequest
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aViewer
@@ -6947,7 +6947,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;
@@ -46443,9 +46443,9 @@ PrepareForNewContentModel
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 ;
 shell
 -
@@ -46454,16 +46454,16 @@ GetContentViewer
 (
 getter_AddRefs
 (
-cv
+viewer
 )
 )
 ;
 if
 (
-cv
+viewer
 )
 {
-cv
+viewer
 -
 >
 LoadStart
@@ -63151,7 +63151,7 @@ CreateStaticClone
 nsIDocShell
 *
 aCloneContainer
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 nsIPrintSettings

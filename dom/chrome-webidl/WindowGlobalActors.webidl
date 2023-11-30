@@ -366,7 +366,7 @@ this
 in
 sync
 with
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 PermitUnloadAction

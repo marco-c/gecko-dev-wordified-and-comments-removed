@@ -48,14 +48,14 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocShellTreeItem
 .
 h
 "
 #
 include
 "
-nsIDocShellTreeItem
+nsIDocumentViewer
 .
 h
 "
@@ -4038,7 +4038,7 @@ EvictContentViewer
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =
@@ -4082,7 +4082,7 @@ nsSHEntry
 :
 SetContentViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 )
@@ -4105,7 +4105,7 @@ nsSHEntry
 :
 GetContentViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aResult

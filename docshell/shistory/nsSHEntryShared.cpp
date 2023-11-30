@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -1006,7 +1006,7 @@ nsSHEntryShared
 :
 SetContentViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 )
@@ -1158,7 +1158,7 @@ this
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =
@@ -1248,7 +1248,7 @@ NS_ERROR_UNEXPECTED
 }
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =

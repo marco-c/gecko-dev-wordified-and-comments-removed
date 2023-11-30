@@ -154,7 +154,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -962,9 +962,9 @@ nsHTMLDocument
 :
 TryReloadCharset
 (
-nsIContentViewer
+nsIDocumentViewer
 *
-aCv
+aViewer
 int32_t
 &
 aCharsetSource
@@ -980,7 +980,7 @@ aEncoding
 {
 if
 (
-aCv
+aViewer
 )
 {
 int32_t
@@ -990,7 +990,7 @@ const
 auto
 reloadEncoding
 =
-aCv
+aViewer
 -
 >
 GetReloadEncodingAndSource
@@ -1007,7 +1007,7 @@ kCharsetUninitialized
 reloadEncodingSource
 )
 {
-aCv
+aViewer
 -
 >
 ForgetReloadEncoding
@@ -1064,9 +1064,9 @@ nsHTMLDocument
 :
 TryUserForcedCharset
 (
-nsIContentViewer
+nsIDocumentViewer
 *
-aCv
+aViewer
 nsIDocShell
 *
 aDocShell
@@ -2050,7 +2050,7 @@ parentAsItem
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 parentContentViewer
 ;
@@ -2081,9 +2081,9 @@ rv
 }
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 ;
 if
 (
@@ -2097,7 +2097,7 @@ GetContentViewer
 (
 getter_AddRefs
 (
-cv
+viewer
 )
 )
 ;
@@ -2105,10 +2105,10 @@ cv
 if
 (
 !
-cv
+viewer
 )
 {
-cv
+viewer
 =
 std
 :
@@ -2260,7 +2260,7 @@ executor
 ;
 TryUserForcedCharset
 (
-cv
+viewer
 docShell
 charsetSource
 encoding
@@ -2269,7 +2269,7 @@ forceAutoDetection
 ;
 TryReloadCharset
 (
-cv
+viewer
 charsetSource
 encoding
 )

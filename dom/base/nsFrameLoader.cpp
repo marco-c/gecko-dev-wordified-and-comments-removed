@@ -38,7 +38,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -5707,7 +5707,7 @@ return
 }
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 contentViewer
 ;
@@ -13715,7 +13715,7 @@ kungFuDeathGrip
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;

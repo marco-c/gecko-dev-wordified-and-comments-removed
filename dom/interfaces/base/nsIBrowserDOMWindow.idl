@@ -1173,7 +1173,7 @@ responsible
 for
 calling
 *
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 PermitUnload

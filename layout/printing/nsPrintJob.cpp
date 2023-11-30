@@ -505,7 +505,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -2834,9 +2834,9 @@ nullptr
 }
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 =
 do_QueryInterface
 (
@@ -2848,7 +2848,7 @@ if
 NS_WARN_IF
 (
 !
-cv
+viewer
 )
 )
 {
@@ -2862,7 +2862,7 @@ Document
 >
 doc
 =
-cv
+viewer
 -
 >
 GetDocument
@@ -4535,9 +4535,9 @@ mIsDoingPrinting
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 =
 do_QueryInterface
 (
@@ -4550,7 +4550,7 @@ Document
 *
 document
 =
-cv
+viewer
 -
 >
 GetDocument
@@ -5568,9 +5568,9 @@ if
 (
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 =
 do_QueryInterface
 (
@@ -5579,7 +5579,7 @@ mDocViewerPrint
 )
 {
 return
-cv
+viewer
 -
 >
 FindContainerView
@@ -6217,9 +6217,9 @@ if
 (
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 =
 do_QueryInterface
 (
@@ -6230,7 +6230,7 @@ mDocViewerPrint
 nsIntRect
 bounds
 ;
-cv
+viewer
 -
 >
 GetBounds
@@ -10027,9 +10027,9 @@ GetPrintPageDelay
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 =
 do_QueryInterface
 (
@@ -10038,7 +10038,7 @@ mDocViewerPrint
 ;
 NS_ENSURE_TRUE
 (
-cv
+viewer
 NS_ERROR_FAILURE
 )
 ;
@@ -10048,7 +10048,7 @@ Document
 >
 doc
 =
-cv
+viewer
 -
 >
 GetDocument
@@ -10211,9 +10211,9 @@ mDocViewerPrint
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 =
 do_QueryInterface
 (
@@ -10222,7 +10222,7 @@ mDocViewerPrint
 ;
 NS_ENSURE_TRUE_VOID
 (
-cv
+viewer
 )
 ;
 nsCOMPtr
@@ -10231,7 +10231,7 @@ Document
 >
 doc
 =
-cv
+viewer
 -
 >
 GetDocument

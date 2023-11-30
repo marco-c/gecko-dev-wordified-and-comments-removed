@@ -2371,13 +2371,6 @@ h
 #
 include
 "
-nsIContentViewer
-.
-h
-"
-#
-include
-"
 nsIDOMWindowUtils
 .
 h
@@ -2407,6 +2400,13 @@ h
 include
 "
 nsIDocumentLoaderFactory
+.
+h
+"
+#
+include
+"
+nsIDocumentViewer
 .
 h
 "

@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -1388,7 +1388,7 @@ nsDocumentViewer
 final
 :
 public
-nsIContentViewer
+nsIDocumentViewer
 public
 nsIDocumentViewerEdit
 public
@@ -1420,7 +1420,7 @@ nsDocumentViewer
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICONTENTVIEWER
+NS_DECL_NSIDOCUMENTVIEWER
 NS_DECL_NSIDOCUMENTVIEWEREDIT
 #
 ifdef
@@ -1662,7 +1662,7 @@ mFocusListener
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 mPreviousViewer
 ;
@@ -1812,7 +1812,7 @@ mDocument
 ;
 already_AddRefed
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 NS_NewContentViewer
 (
@@ -2000,7 +2000,7 @@ nsDocumentViewer
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIContentViewer
+nsIDocumentViewer
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -2013,7 +2013,7 @@ nsIDocumentViewerPrint
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIContentViewer
+nsIDocumentViewer
 )
 #
 ifdef
@@ -2094,7 +2094,7 @@ User
 did
 not
 call
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 Destroy
@@ -4803,7 +4803,7 @@ GetDocShell
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 contentViewer
 (
@@ -5635,7 +5635,7 @@ aShell
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;
@@ -6148,7 +6148,7 @@ SynchronizeLayoutHistoryState
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;
@@ -7426,7 +7426,7 @@ return
 NS_OK
 ;
 }
-nsIContentViewer
+nsIDocumentViewer
 *
 nsDocumentViewer
 :
@@ -7445,7 +7445,7 @@ nsDocumentViewer
 :
 SetPreviousViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 )
@@ -7476,7 +7476,7 @@ one
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 prevViewer
 =
@@ -7734,7 +7734,7 @@ height
 (
 aFlags
 &
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 eDelayResize
@@ -7749,7 +7749,7 @@ mPreviousViewer
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 previousViewer
 =
@@ -7854,7 +7854,7 @@ mPreviousViewer
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 prevViewer
 (
@@ -8404,7 +8404,7 @@ ifdef
 DEBUG
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 currentViewer
 ;

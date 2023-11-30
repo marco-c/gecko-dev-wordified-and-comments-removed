@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -269,7 +269,7 @@ SetupViewer
 nsIRequest
 *
 aRequest
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aViewer
@@ -296,7 +296,7 @@ UnregisterForXPCOMShutdown
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 mViewer
 ;

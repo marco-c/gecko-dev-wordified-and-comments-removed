@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -5379,9 +5379,9 @@ GetDocShell
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 ;
 ds
 -
@@ -5390,13 +5390,13 @@ GetContentViewer
 (
 getter_AddRefs
 (
-cv
+viewer
 )
 )
 ;
 while
 (
-cv
+viewer
 )
 {
 RefPtr
@@ -5405,7 +5405,7 @@ nsPresContext
 >
 pc
 =
-cv
+viewer
 -
 >
 GetPresContext
@@ -5468,7 +5468,7 @@ nsView
 *
 v
 =
-cv
+viewer
 -
 >
 FindContainerView
@@ -5494,9 +5494,9 @@ nullptr
 )
 ;
 }
-cv
+viewer
 =
-cv
+viewer
 -
 >
 GetPreviousViewer

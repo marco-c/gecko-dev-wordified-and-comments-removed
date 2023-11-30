@@ -45,7 +45,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -158,7 +158,7 @@ Document
 ;
 already_AddRefed
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 NS_NewContentViewer
 (
@@ -376,7 +376,7 @@ nsIStreamListener
 *
 *
 aDocListener
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aDocViewer
@@ -978,7 +978,7 @@ const
 char
 *
 aCommand
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aContentViewer
@@ -991,7 +991,7 @@ aDocument
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 contentViewer
 =
@@ -1412,7 +1412,7 @@ nsIStreamListener
 *
 *
 aDocListener
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aContentViewer
@@ -1524,7 +1524,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 contentViewer
 =

@@ -15,7 +15,7 @@ interface
 nsILayoutHistoryState
 ;
 interface
-nsIContentViewer
+nsIDocumentViewer
 ;
 interface
 nsIURI
@@ -219,7 +219,7 @@ referrerInfo
 infallible
 ]
 attribute
-nsIContentViewer
+nsIDocumentViewer
 contentViewer
 ;
 [

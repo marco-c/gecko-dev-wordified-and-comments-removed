@@ -1349,7 +1349,7 @@ name
 "
 :
 "
-nsIContentViewer
+nsIDocumentViewer
 "
 "
 tag
@@ -2759,7 +2759,7 @@ name
 "
 :
 "
-nsIContentViewer
+nsIDocumentViewer
 "
 "
 parent
@@ -2773,15 +2773,15 @@ uuid
 "
 :
 "
-2da17016
+48118355
 -
-7851
+e9a5
 -
-4a45
+4452
 -
-a7a8
+ab18
 -
-00b360e01595
+59cc426fb817
 "
 }
 {
@@ -4385,7 +4385,7 @@ name
 "
 :
 "
-nsIContentViewer
+nsIDocumentViewer
 "
 "
 tag
@@ -6812,7 +6812,7 @@ name
 "
 :
 "
-nsIContentViewer
+nsIDocumentViewer
 "
 "
 tag
@@ -13470,7 +13470,7 @@ name
 "
 :
 "
-nsIContentViewer
+nsIDocumentViewer
 "
 "
 tag
@@ -13637,7 +13637,7 @@ name
 "
 :
 "
-nsIContentViewer
+nsIDocumentViewer
 "
 "
 tag

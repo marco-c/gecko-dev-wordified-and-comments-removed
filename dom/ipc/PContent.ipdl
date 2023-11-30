@@ -1188,7 +1188,7 @@ dom
 PermitUnloadResult
 from
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "

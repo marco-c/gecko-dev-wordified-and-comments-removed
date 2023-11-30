@@ -4308,7 +4308,7 @@ WindowGlobalParent
 aWGP
 bool
 aHasInProcessBlocker
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 PermitUnloadAction
@@ -4752,7 +4752,7 @@ dom_disable_beforeunload
 {
 action
 =
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 eDontPromptAndUnload
@@ -4763,7 +4763,7 @@ if
 action
 !
 =
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 ePrompt
@@ -4774,7 +4774,7 @@ SendReply
 action
 =
 =
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 eDontPromptAndUnload
@@ -5061,7 +5061,7 @@ mPendingRequests
 =
 0
 ;
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 PermitUnloadAction
@@ -5235,7 +5235,7 @@ CheckPermitUnloadRequest
 (
 this
 false
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 PermitUnloadAction
@@ -5310,7 +5310,7 @@ CheckPermitUnloadRequest
 (
 this
 false
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 PermitUnloadAction

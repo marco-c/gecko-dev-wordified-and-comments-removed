@@ -100,7 +100,7 @@ interface
 nsIChannel
 ;
 interface
-nsIContentViewer
+nsIDocumentViewer
 ;
 interface
 nsIStreamListener
@@ -207,7 +207,7 @@ nsIDocumentLoaderFactory
 :
 nsISupports
 {
-nsIContentViewer
+nsIDocumentViewer
 createInstance
 (
 in
@@ -233,7 +233,7 @@ nsIStreamListener
 aDocListenerResult
 )
 ;
-nsIContentViewer
+nsIDocumentViewer
 createInstanceForDocument
 (
 in

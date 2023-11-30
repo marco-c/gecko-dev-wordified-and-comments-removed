@@ -300,10 +300,10 @@ interface
 nsIChannel
 ;
 interface
-nsIContentViewer
+nsIContentSecurityPolicy
 ;
 interface
-nsIContentSecurityPolicy
+nsIDocumentViewer
 ;
 interface
 nsIEditor
@@ -837,7 +837,7 @@ infallible
 ]
 readonly
 attribute
-nsIContentViewer
+nsIDocumentViewer
 contentViewer
 ;
 /
@@ -2070,7 +2070,7 @@ void
 beginRestore
 (
 in
-nsIContentViewer
+nsIDocumentViewer
 viewer
 in
 boolean
