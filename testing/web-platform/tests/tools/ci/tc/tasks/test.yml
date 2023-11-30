@@ -485,6 +485,13 @@ capability
 :
 privileged
 "
+chunks
+-
+override
+:
+testharness
+:
+20
 tox
 -
 python3_7
