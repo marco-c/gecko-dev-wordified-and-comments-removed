@@ -683,13 +683,6 @@ AllowSoftwareWebRenderOGL
 bool
 false
 )
-\
-_
-(
-WebglUseHardware
-bool
-true
-)
 class
 gfxVars
 final
