@@ -181,6 +181,7 @@ uint8_t
 >
 TimeDelta
 VideoContentType
+VideoFrameType
 )
 (
 override

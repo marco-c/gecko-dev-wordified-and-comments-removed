@@ -184,6 +184,9 @@ ntp_time_ms
 RtpPacketInfos
 packet_infos
 ;
+VideoFrameType
+frame_type
+;
 }
 ;
 class
