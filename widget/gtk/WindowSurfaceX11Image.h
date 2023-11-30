@@ -149,6 +149,9 @@ mTransparencyBitmapHeight
 bool
 mIsShaped
 ;
+Window
+mWindowParent
+;
 }
 ;
 }
