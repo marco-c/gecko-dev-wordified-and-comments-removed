@@ -1990,11 +1990,6 @@ optInDark
 .
 avif
 "
-height
-:
-"
-172px
-"
 marginInline
 :
 "
