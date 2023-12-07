@@ -1631,6 +1631,15 @@ dll
 100
 )
 )
+DllBlocklistEntry
+(
+"
+UsrDNIeCertStore
+.
+dll
+"
+ALL_VERSIONS
+)
 ]
 CHILD_PROCESSES
 +
