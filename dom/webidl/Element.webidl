@@ -1884,6 +1884,11 @@ slotAssignment
 named
 "
 ;
+boolean
+clonable
+=
+false
+;
 }
 ;
 /

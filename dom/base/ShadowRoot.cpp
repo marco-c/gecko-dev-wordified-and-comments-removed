@@ -314,6 +314,10 @@ DelegatesFocus
 aDelegatesFocus
 SlotAssignmentMode
 aSlotAssignment
+Clonable
+aIsClonable
+Declarative
+aDeclarative
 already_AddRefed
 <
 mozilla
@@ -371,6 +375,14 @@ details
 mIsAvailableToElementInternals
 (
 false
+)
+mIsDeclarative
+(
+aDeclarative
+)
+mIsClonable
+(
+aIsClonable
 )
 {
 MOZ_ASSERT
