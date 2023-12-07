@@ -102,11 +102,7 @@ ConceptualParent
 (
 )
 const
-{
-return
-mParent
 ;
-}
 void
 Update
 (
@@ -233,9 +229,8 @@ mPosInSet
 uint32_t
 mSetSize
 ;
-Accessible
-*
-mParent
+uint64_t
+mParentId
 ;
 const
 Accessible
