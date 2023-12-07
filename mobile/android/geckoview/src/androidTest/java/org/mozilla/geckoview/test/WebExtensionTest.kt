@@ -1531,6 +1531,7 @@ borderify
 .
 xpi
 "
+null
 )
 )
 checkDisabledState
@@ -1904,6 +1905,7 @@ borderify
 .
 xpi
 "
+null
 )
 )
 mainSession
@@ -2142,6 +2144,7 @@ borderify
 .
 xpi
 "
+null
 )
 )
 assertTrue
@@ -2528,6 +2531,7 @@ dummy
 .
 xpi
 "
+null
 )
 )
 assertNull
@@ -2674,6 +2678,7 @@ borderify
 .
 xpi
 "
+null
 )
 val
 dummyResult
@@ -2697,6 +2702,7 @@ dummy
 .
 xpi
 "
+null
 )
 val
 (
@@ -3043,6 +3049,7 @@ web_extensions
 /
 name
 "
+null
 )
 .
 accept
@@ -3208,6 +3215,7 @@ unsigned
 .
 xpi
 "
+null
 )
 .
 then
@@ -3499,6 +3507,7 @@ id
 .
 xpi
 "
+null
 )
 .
 accept
@@ -3706,6 +3715,7 @@ borderify
 .
 xpi
 "
+null
 )
 .
 accept
@@ -6522,6 +6532,7 @@ data
 .
 xpi
 "
+null
 )
 )
 val
@@ -6887,6 +6898,7 @@ remove
 .
 xpi
 "
+null
 )
 )
 sessionRule
@@ -6957,6 +6969,7 @@ remove
 .
 xpi
 "
+null
 )
 )
 tabsExtensionPB
@@ -11033,6 +11046,7 @@ update
 .
 xpi
 "
+null
 )
 )
 mainSession
@@ -11307,6 +11321,7 @@ update
 .
 xpi
 "
+null
 )
 )
 val
@@ -11511,6 +11526,7 @@ perms
 .
 xpi
 "
+null
 )
 )
 mainSession
@@ -11833,6 +11849,7 @@ update
 .
 xpi
 "
+null
 )
 )
 mainSession
@@ -12042,6 +12059,7 @@ perms
 .
 xpi
 "
+null
 )
 )
 mainSession
@@ -12263,6 +12281,7 @@ test
 .
 xpi
 "
+null
 )
 val
 cancel
@@ -12328,7 +12347,7 @@ allow
 }
 }
 )
-var
+val
 install
 =
 controller
@@ -12350,6 +12369,7 @@ borderify
 .
 xpi
 "
+null
 )
 val
 borderify
@@ -12546,6 +12566,7 @@ postpone
 .
 xpi
 "
+null
 )
 )
 mainSession
@@ -12939,6 +12960,7 @@ update
 .
 xpi
 "
+null
 )
 )
 mainSession
@@ -13460,6 +13482,7 @@ true
 .
 xpi
 "
+null
 )
 )
 val
@@ -13891,6 +13914,7 @@ false
 .
 xpi
 "
+null
 )
 )
 val
@@ -15582,6 +15606,7 @@ borderify
 .
 xpi
 "
+null
 )
 )
 var
@@ -16160,6 +16185,7 @@ borderify
 .
 xpi
 "
+null
 )
 )
 val

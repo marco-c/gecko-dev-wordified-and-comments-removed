@@ -4811,6 +4811,7 @@ installWebExtension
 (
 aInstallId
 aUri
+installMethod
 )
 {
 const
@@ -4837,6 +4838,12 @@ geckoview
 -
 app
 "
+method
+:
+installMethod
+|
+|
+undefined
 }
 }
 )
@@ -6189,6 +6196,7 @@ const
 {
 locationUri
 installId
+installMethod
 }
 =
 aData
@@ -6244,6 +6252,7 @@ installWebExtension
 (
 installId
 uri
+installMethod
 )
 ;
 if

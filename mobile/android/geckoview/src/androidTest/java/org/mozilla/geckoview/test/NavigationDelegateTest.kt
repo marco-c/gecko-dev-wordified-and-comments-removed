@@ -13052,6 +13052,7 @@ history
 .
 xpi
 "
+null
 )
 )
 sessionRule
