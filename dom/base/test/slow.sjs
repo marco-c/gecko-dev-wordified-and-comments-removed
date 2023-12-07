@@ -46,6 +46,8 @@ response
 write
 (
 "
+/
+*
 Here
 the
 content
@@ -53,6 +55,8 @@ content
 But
 slowly
 .
+*
+/
 "
 )
 ;
