@@ -408,12 +408,6 @@ PermissionName
 :
 Persistent_storage
 :
-case
-PermissionName
-:
-:
-Screen_wake_lock
-:
 return
 PermissionStatus
 :
