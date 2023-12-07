@@ -666,18 +666,6 @@ addons
 install
 (
 extensions
-unpack
-=
-True
-)
-    
-new_profile
-.
-addons
-.
-install
-(
-extensions
 )
     
 shutil
