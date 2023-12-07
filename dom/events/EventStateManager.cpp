@@ -10873,7 +10873,6 @@ getter_AddRefs
 (
 dragDataNode
 )
-aPrincipal
 aCsp
 aCookieJarSettings
 )

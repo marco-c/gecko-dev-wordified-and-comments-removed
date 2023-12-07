@@ -99,10 +99,6 @@ nsIContent
 *
 *
 aDragNode
-nsIPrincipal
-*
-*
-aPrincipal
 nsIContentSecurityPolicy
 *
 *
