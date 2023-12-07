@@ -3892,7 +3892,7 @@ ads
 .
 userEnabled
 "
-false
+true
 )
 ;
 pref
