@@ -19,7 +19,7 @@ createPrivateLoadContext
 const
 CURRENT_DB_VERSION
 =
-5
+6
 ;
 do_get_profile
 (

@@ -79,6 +79,13 @@ js
 ]
 [
 "
+test_migrationToSchema6
+.
+js
+"
+]
+[
+"
 test_observers
 .
 js
