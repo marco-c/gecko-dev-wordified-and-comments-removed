@@ -1,4 +1,6 @@
 import
+itertools
+import
 logging
 import
 sys
@@ -879,6 +881,7 @@ task_id
 decision_task_id
 full_task_graph
 label_to_taskid
+_
 =
 fetch_graph_and_labels
 (
@@ -1213,6 +1216,7 @@ parameters
 decision_task_id
 full_task_graph
 label_to_taskid
+label_to_taskids
 =
 fetch_graph_and_labels
 (
@@ -1240,10 +1244,16 @@ if
 task_id
 not
 in
+itertools
+.
+chain
+(
+*
 label_to_taskid
 .
 values
 (
+)
 )
 :
         
@@ -1572,6 +1582,7 @@ task_id
 decision_task_id
 full_task_graph
 label_to_taskid
+label_to_taskids
 =
 fetch_graph_and_labels
 (
@@ -1678,12 +1689,18 @@ in
 rerun_tasks
 :
             
-_rerun_task
-(
-label_to_taskid
+for
+rerun_taskid
+in
+label_to_taskids
 [
 label
 ]
+:
+                
+_rerun_task
+(
+rerun_taskid
 label
 )
         

@@ -1518,6 +1518,7 @@ task_id
 decision_task_id
 full_task_graph
 label_to_taskid
+_
 =
 fetch_graph_and_labels
 (
