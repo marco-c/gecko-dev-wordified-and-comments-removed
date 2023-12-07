@@ -1391,13 +1391,9 @@ nsThread
 :
 MAIN_THREAD
 {
-.
-stackSize
-=
 0
-.
-longTaskLength
-=
+false
+false
 Some
 (
 W3_LONGTASK_BUSY_WINDOW_MS
