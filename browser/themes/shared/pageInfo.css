@@ -105,6 +105,16 @@ platform
 macos
 )
 {
+:
+root
+{
+background
+-
+color
+:
+transparent
+;
+}
 #
 topBar
 {
