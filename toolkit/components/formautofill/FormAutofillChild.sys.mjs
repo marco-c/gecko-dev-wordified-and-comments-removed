@@ -492,6 +492,13 @@ _nextHandleElement
 if
 (
 isAnyFieldIdentified
+&
+&
+lazy
+.
+FormAutofill
+.
+captureOnFormRemoval
 )
 {
 this
