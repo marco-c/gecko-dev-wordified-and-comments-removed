@@ -59,12 +59,14 @@ githubusercontent
 com
 /
 mozilla
+-
+releng
 /
 git
 -
 repo
 /
-master
+main
 /
 repo
 "

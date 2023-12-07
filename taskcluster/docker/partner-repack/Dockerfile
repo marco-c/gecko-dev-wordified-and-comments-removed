@@ -56,8 +56,6 @@ openssh
 -
 client
 \
-python2
-\
 unzip
 \
 zip
