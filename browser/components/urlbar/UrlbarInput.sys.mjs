@@ -2947,6 +2947,11 @@ e
 )
 {
 }
+let
+isInitialPageControlledByWebContent
+=
+false
+;
 /
 /
 Replace
@@ -3008,6 +3013,10 @@ value
 }
 else
 {
+isInitialPageControlledByWebContent
+=
+true
+;
 /
 /
 We
@@ -3115,6 +3124,9 @@ moz
 extension
 "
 )
+|
+|
+isInitialPageControlledByWebContent
 )
 ;
 }
