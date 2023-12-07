@@ -3853,7 +3853,7 @@ richSuggestions
 .
 featureGate
 "
-false
+true
 ]
 /
 /

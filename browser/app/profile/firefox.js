@@ -2511,12 +2511,6 @@ true
 ;
 #
 endif
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
 pref
 (
 "
@@ -2547,8 +2541,6 @@ fen
 "
 )
 ;
-#
-endif
 pref
 (
 "
