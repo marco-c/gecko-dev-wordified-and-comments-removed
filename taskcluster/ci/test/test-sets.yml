@@ -631,6 +631,10 @@ browsertime
 pageload
 -
 benchmark
+-
+browsertime
+-
+indexeddb
 browsertime
 -
 clang

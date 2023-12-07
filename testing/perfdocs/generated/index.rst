@@ -54,6 +54,7 @@ hidden
 glob
 :
 DAMP
+IndexedDB
 awsy
 fxrecord
 mach
@@ -135,6 +136,11 @@ documentation
 doc
 :
 DAMP
+*
+:
+doc
+:
+IndexedDB
 *
 :
 doc
