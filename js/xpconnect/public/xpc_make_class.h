@@ -481,6 +481,7 @@ _flags
 &
 XPC_SCRIPTABLE_IS_GLOBAL_OBJECT
 )
+\
 ?
 JS_GlobalObjectTraceHook
 \

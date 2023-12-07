@@ -330,6 +330,7 @@ func
 #
 define
 gss_init_sec_context_ptr
+\
 (
 (
 gss_init_sec_context_type

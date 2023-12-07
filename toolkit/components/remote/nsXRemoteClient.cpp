@@ -58,13 +58,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 prsystem
 .
 h
