@@ -2485,12 +2485,6 @@ handlers
 note
 :
 :
-*
-*
-Note
-:
-*
-*
 State
 saved
 by
@@ -2560,12 +2554,6 @@ changed
 note
 :
 :
-*
-*
-Note
-:
-*
-*
 The
 predefined
 __LOCATION__
