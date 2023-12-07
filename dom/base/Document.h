@@ -10442,6 +10442,13 @@ WakeLockType
 aType
 )
 ;
+void
+UnlockAllWakeLocks
+(
+WakeLockType
+aType
+)
+;
 nsIHTMLCollection
 *
 Children
