@@ -519,13 +519,10 @@ unwrap
 let
 canonical_type_name
 =
-canonical_name
-(
 typ
 .
-borrow
+canonical_name
 (
-)
 )
 .
 borrow

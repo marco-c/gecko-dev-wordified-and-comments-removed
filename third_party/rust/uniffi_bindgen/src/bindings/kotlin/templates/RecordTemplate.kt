@@ -51,9 +51,6 @@ var_name
 field
 |
 type_name
-(
-ci
-)
 -
 }
 }
@@ -87,7 +84,6 @@ literal
 render_literal
 (
 field
-ci
 )
 }
 }
@@ -188,8 +184,6 @@ rec
 endif
 %
 }
-companion
-object
 }
 public
 object

@@ -73,10 +73,7 @@ rustCallWithError
 {
 e
 |
-type_name
-(
-ci
-)
+error_type_name
 }
 }
 )
@@ -176,10 +173,7 @@ rustCallWithError
 {
 e
 |
-type_name
-(
-ci
-)
+error_type_name
 }
 }
 )
@@ -370,9 +364,7 @@ var_name
 arg
 |
 type_name
-(
-ci
-)
+-
 }
 }
 {
@@ -405,7 +397,6 @@ literal
 render_literal
 (
 arg
-ci
 )
 }
 }
@@ -489,9 +480,7 @@ var_name
 arg
 |
 type_name
-(
-ci
-)
+-
 }
 }
 {

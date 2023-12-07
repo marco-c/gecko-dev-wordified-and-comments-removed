@@ -1,5 +1,5 @@
 class
-_UniffiPointerManagerCPython
+UniFfiPointerManagerCPython
 :
     
 "
@@ -41,7 +41,7 @@ CPython
 platform
 .
 See
-_UniffiPointerManagerGeneral
+UniFfiPointerManagerGeneral
 for
 the
 alternative
@@ -209,7 +209,7 @@ py_object
 .
 value
 class
-_UniffiPointerManagerGeneral
+UniFfiPointerManagerGeneral
 :
     
 "
@@ -235,7 +235,7 @@ the
 same
 API
 as
-_UniffiPointerManagerCPython
+UniFfiPointerManagerCPython
 but
 doesn
 '
@@ -406,12 +406,12 @@ CPython
 '
 :
     
-_UniffiPointerManager
+UniFfiPointerManager
 =
-_UniffiPointerManagerCPython
+UniFfiPointerManagerCPython
 else
 :
     
-_UniffiPointerManager
+UniFfiPointerManager
 =
-_UniffiPointerManagerGeneral
+UniFfiPointerManagerGeneral
