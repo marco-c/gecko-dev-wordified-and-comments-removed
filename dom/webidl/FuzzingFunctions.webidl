@@ -138,7 +138,7 @@ Exposed
 =
 Window
 ]
-interface
+namespace
 FuzzingFunctions
 {
 /
@@ -153,7 +153,6 @@ collection
 .
 *
 /
-static
 undefined
 garbageCollect
 (
@@ -172,7 +171,6 @@ collection
 .
 *
 /
-static
 undefined
 garbageCollectCompacting
 (
@@ -189,7 +187,6 @@ crash
 .
 *
 /
-static
 undefined
 crash
 (
@@ -213,7 +210,6 @@ collection
 .
 *
 /
-static
 undefined
 cycleCollect
 (
@@ -240,7 +236,6 @@ actions
 .
 *
 /
-static
 undefined
 memoryPressure
 (
@@ -258,7 +253,6 @@ accessibility
 [
 Throws
 ]
-static
 undefined
 enableAccessibility
 (
@@ -278,7 +272,6 @@ parent
 .
 *
 /
-static
 undefined
 signalIPCReady
 (
@@ -1061,7 +1054,6 @@ DOM_VK_COLON
 [
 Throws
 ]
-static
 undefined
 synthesizeKeyboardEvents
 (
