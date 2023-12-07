@@ -19417,6 +19417,7 @@ nsGridContainerFrame
 :
 ImplicitNamedAreas
 *
+&
 aAreas
 )
 {
