@@ -304,7 +304,7 @@ SOME_STILL_OTHER_STRING_SCALAR
 ;
 }
 case
-20
+21
 :
 {
 return
@@ -318,7 +318,7 @@ TELEMETRY_TEST_MIRROR_FOR_QUANTITY
 ;
 }
 case
-23
+24
 :
 {
 return
