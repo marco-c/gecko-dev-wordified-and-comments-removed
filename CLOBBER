@@ -203,9 +203,9 @@ third_party
 libwebrtc
 -
 Bug
-1860685
+1864008
 -
-Vendor
-libwebrtc
-from
-f2827c4b1a
+Move
+libvpx
+to
+libgkcodecs
