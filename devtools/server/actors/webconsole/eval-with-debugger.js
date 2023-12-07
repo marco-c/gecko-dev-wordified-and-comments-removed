@@ -539,6 +539,11 @@ if
 options
 .
 disableBreaks
+|
+|
+options
+.
+eager
 )
 {
 evalOptions
@@ -547,6 +552,14 @@ hideFromDebugger
 =
 true
 ;
+}
+if
+(
+options
+.
+disableBreaks
+)
+{
 evalOptions
 .
 useInnerBindings
