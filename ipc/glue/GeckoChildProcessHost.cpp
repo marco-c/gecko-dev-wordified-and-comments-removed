@@ -6744,8 +6744,14 @@ base
 LaunchApp
 (
 mChildArgv
+std
+:
+:
+move
+(
 *
 mLaunchOptions
+)
 &
 handle
 )
