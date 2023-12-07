@@ -47,7 +47,7 @@ self
 ;
 openee
 .
-onunload
+onpagehide
 =
 t
 .
@@ -197,7 +197,7 @@ self
 ;
 openee2
 .
-onunload
+onpagehide
 =
 t
 .
