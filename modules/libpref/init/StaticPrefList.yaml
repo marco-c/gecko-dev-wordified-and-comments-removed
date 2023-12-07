@@ -79158,7 +79158,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+IS_NOT_ANDROID
 mirror
 :
 always
