@@ -65,14 +65,9 @@ nsBaseFilePicker
 public
 nsIFilePicker
 {
-#
-ifndef
-XP_WIN
 class
 AsyncShowFilePicker
 ;
-#
-endif
 public
 :
 nsBaseFilePicker
@@ -127,9 +122,6 @@ aPromise
 )
 override
 ;
-#
-ifndef
-XP_WIN
 NS_IMETHOD
 Open
 (
@@ -139,8 +131,6 @@ aCallback
 )
 override
 ;
-#
-endif
 NS_IMETHOD
 AppendFilters
 (

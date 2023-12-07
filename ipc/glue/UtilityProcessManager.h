@@ -277,7 +277,7 @@ RefPtr
 <
 WinFileDialogPromise
 >
-CreateWinFileDialogActor
+CreateWinFileDialogAsync
 (
 )
 ;

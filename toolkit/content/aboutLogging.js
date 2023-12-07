@@ -308,9 +308,6 @@ WindowsEvent
 TaskbarConcealer
 :
 5
-FileDialog
-:
-5
 "
 l10nIds
 :
