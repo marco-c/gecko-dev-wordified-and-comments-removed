@@ -4151,6 +4151,15 @@ ini
 '
 -
 '
+*
+*
+/
+perftest
+.
+toml
+'
+-
+'
 python
 /
 mozperftest
