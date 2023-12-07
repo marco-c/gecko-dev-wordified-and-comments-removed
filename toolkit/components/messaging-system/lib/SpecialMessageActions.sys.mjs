@@ -644,13 +644,11 @@ window
 object
 *
 /
-async
 setDefaultBrowser
 (
 window
 )
 {
-await
 window
 .
 getShellService
@@ -3015,7 +3013,6 @@ data
 privatePin
 )
 ;
-await
 this
 .
 setDefaultBrowser
@@ -3030,7 +3027,6 @@ case
 SET_DEFAULT_BROWSER
 "
 :
-await
 this
 .
 setDefaultBrowser
