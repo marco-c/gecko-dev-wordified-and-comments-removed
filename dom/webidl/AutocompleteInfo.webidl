@@ -141,6 +141,12 @@ fieldName
 "
 "
 ;
+DOMString
+credentialType
+=
+"
+"
+;
 boolean
 canAutomaticallyPersist
 =
