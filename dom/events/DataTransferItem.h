@@ -471,14 +471,6 @@ nsAString
 aContentType
 )
 ;
-already_AddRefed
-<
-nsIGlobalObject
->
-GetGlobalFromDataTransfer
-(
-)
-;
 uint32_t
 mIndex
 ;

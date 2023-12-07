@@ -1281,6 +1281,15 @@ kImageRequestMime
 kPDFJSMime
 }
 ;
+already_AddRefed
+<
+nsIGlobalObject
+>
+GetGlobal
+(
+)
+const
+;
 protected
 :
 nsresult
