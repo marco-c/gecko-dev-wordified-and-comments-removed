@@ -1447,6 +1447,12 @@ tile_id
 "
 fooidx
 "
+shim
+:
+"
+click
+shim
+"
 }
 }
 )
