@@ -8,7 +8,6 @@ ASRouter
 messages
 such
 as
-snippets
 contextual
 feature
 recommendations
@@ -2115,12 +2114,12 @@ foo_test
 "
 cohort
 for
-snippets
+cfr
 ?
 java
 providerCohorts
 .
-snippets
+cfr
 =
 =
 "
@@ -3015,10 +3014,6 @@ cfrFeatures
 boolean
 ;
 cfrAddons
-:
-boolean
-;
-snippets
 :
 boolean
 ;

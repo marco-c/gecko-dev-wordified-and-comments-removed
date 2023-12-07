@@ -2594,9 +2594,7 @@ newtab
 is
 for
 the
-?
-endpoint
-query
+#
 parameter
 /
 /
@@ -2604,8 +2602,9 @@ that
 is
 used
 for
-snippets
-debugging
+the
+newtab
+devtools
 .
 The
 wildcard
