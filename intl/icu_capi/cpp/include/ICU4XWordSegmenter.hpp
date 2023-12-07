@@ -255,6 +255,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XWordSegmenter
 (
 capi

@@ -281,6 +281,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XDataProvider
 (
 capi

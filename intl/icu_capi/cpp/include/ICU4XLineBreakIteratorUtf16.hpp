@@ -143,6 +143,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XLineBreakIteratorUtf16
 (
 capi

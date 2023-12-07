@@ -152,6 +152,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XLocaleFallbackIterator
 (
 capi

@@ -589,6 +589,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XLocale
 (
 capi

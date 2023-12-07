@@ -813,6 +813,12 @@ GH4109
 .
 patch
 \
+003
+-
+explicit
+.
+patch
+\
 ;
 do
 patch

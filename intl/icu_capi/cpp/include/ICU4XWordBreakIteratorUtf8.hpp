@@ -162,6 +162,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XWordBreakIteratorUtf8
 (
 capi
