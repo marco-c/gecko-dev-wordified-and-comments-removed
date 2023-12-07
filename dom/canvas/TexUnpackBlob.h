@@ -112,8 +112,6 @@ const
 ivec3
 &
 offset
-GLenum
-internalFormat
 const
 webgl
 :
@@ -123,8 +121,6 @@ PackingInfo
 const
 TexUnpackBlobDesc
 &
-bool
-isRgb8Renderable
 )
 ;
 class
