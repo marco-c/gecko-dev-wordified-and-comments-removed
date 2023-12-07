@@ -654,8 +654,6 @@ minor_code
 =
 %
 d
-\
-n
 "
 ev
 -

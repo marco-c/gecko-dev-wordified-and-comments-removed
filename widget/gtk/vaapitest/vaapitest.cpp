@@ -1049,8 +1049,6 @@ test
 unknown
 profile
 .
-\
-n
 "
 )
 ;
