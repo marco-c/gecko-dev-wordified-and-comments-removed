@@ -193,7 +193,7 @@ it
 .
 The
 API
-accept
+accepts
 iterators
 in
 order

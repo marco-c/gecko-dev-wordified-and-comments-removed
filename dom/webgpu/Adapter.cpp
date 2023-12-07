@@ -706,18 +706,10 @@ GPUFeatureName
 :
 Float32_filterable
 :
-#
-ifdef
-WGPUFeatures_FLOAT32_FILTERABLE
-#
-error
-fix
-todo
-#
-endif
 return
-Nothing
+Some
 (
+WGPUFeatures_FLOAT32_FILTERABLE
 )
 ;
 case
@@ -2704,7 +2696,7 @@ ffiDesc
 ;
 ffiDesc
 .
-features
+required_features
 =
 *
 MakeFeatureBits
@@ -2716,7 +2708,7 @@ mRequiredFeatures
 ;
 ffiDesc
 .
-limits
+required_limits
 =
 deviceLimits
 ;
@@ -2771,7 +2763,7 @@ request
 mId
 ffiDesc
 .
-limits
+required_limits
 )
 ;
 for

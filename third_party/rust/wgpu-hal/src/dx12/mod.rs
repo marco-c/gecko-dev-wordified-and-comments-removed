@@ -1195,10 +1195,10 @@ Empty
 Constant
 SpecialConstantBuffer
 {
-base_vertex
+first_vertex
 :
 i32
-base_instance
+first_instance
 :
 u32
 other

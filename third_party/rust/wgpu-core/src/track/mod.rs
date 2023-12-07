@@ -2087,9 +2087,6 @@ self
 id
 :
 Id
-external_count
-:
-usize
 )
 -
 >

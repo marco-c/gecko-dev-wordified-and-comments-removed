@@ -971,7 +971,7 @@ Option
 wgt
 :
 :
-BufferSize
+BufferAddress
 >
 }
 ClearTexture

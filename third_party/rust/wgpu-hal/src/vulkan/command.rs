@@ -4131,13 +4131,13 @@ draw
 &
 mut
 self
-start_vertex
+first_vertex
 :
 u32
 vertex_count
 :
 u32
-start_instance
+first_instance
 :
 u32
 instance_count
@@ -4160,8 +4160,8 @@ self
 active
 vertex_count
 instance_count
-start_vertex
-start_instance
+first_vertex
+first_instance
 )
 }
 ;
@@ -4173,7 +4173,7 @@ draw_indexed
 &
 mut
 self
-start_index
+first_index
 :
 u32
 index_count
@@ -4182,7 +4182,7 @@ u32
 base_vertex
 :
 i32
-start_instance
+first_instance
 :
 u32
 instance_count
@@ -4205,9 +4205,9 @@ self
 active
 index_count
 instance_count
-start_index
+first_index
 base_vertex
-start_instance
+first_instance
 )
 }
 ;

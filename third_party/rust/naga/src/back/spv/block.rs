@@ -7972,6 +7972,16 @@ Sk
 :
 :
 Bool
+|
+Sk
+:
+:
+AbstractInt
+|
+Sk
+:
+:
+AbstractFloat
 =
 >
 unreachable

@@ -500,6 +500,10 @@ types
 [
 features
 ]
+api_log_info
+=
+[
+]
 default
 =
 [
@@ -631,6 +635,10 @@ naga
 deserialize
 "
 ]
+resource_log_info
+=
+[
+]
 serial
 -
 pass
@@ -746,7 +754,7 @@ version
 .
 3
 .
-64
+66
 "
 features
 =

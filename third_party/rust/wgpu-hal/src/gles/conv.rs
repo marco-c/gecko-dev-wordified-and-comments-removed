@@ -1017,6 +1017,16 @@ UNSIGNED_INT_24_8
 Tf
 :
 :
+NV12
+=
+>
+unreachable
+!
+(
+)
+Tf
+:
+:
 Rgb9e5Ufloat
 =
 >

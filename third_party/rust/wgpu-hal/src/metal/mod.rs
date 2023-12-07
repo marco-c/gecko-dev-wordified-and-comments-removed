@@ -943,10 +943,10 @@ bool
 sampler_clamp_to_border
 :
 bool
-base_instance
+indirect_draw_dispatch
 :
 bool
-base_vertex_instance_drawing
+base_vertex_first_instance_drawing
 :
 bool
 dual_source_blending
@@ -968,6 +968,9 @@ depth_clip_mode
 :
 bool
 texture_cube_array
+:
+bool
+supports_float_filtering
 :
 bool
 format_depth24_stencil8

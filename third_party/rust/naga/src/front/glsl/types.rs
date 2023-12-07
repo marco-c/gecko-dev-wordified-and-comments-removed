@@ -1282,6 +1282,16 @@ ScalarKind
 :
 :
 Bool
+|
+ScalarKind
+:
+:
+AbstractInt
+|
+ScalarKind
+:
+:
+AbstractFloat
 =
 >
 return

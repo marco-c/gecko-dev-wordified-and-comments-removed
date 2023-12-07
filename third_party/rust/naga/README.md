@@ -603,8 +603,7 @@ a
 CLI
 which
 allows
-to
-test
+testing
 the
 conversion
 of

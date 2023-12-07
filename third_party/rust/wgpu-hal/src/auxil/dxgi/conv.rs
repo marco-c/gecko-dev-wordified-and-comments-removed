@@ -489,6 +489,13 @@ DXGI_FORMAT_D32_FLOAT_S8X24_UINT
 Tf
 :
 :
+NV12
+=
+>
+DXGI_FORMAT_NV12
+Tf
+:
+:
 Bc1RgbaUnorm
 =
 >

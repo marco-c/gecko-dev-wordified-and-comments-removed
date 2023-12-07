@@ -6129,13 +6129,13 @@ draw
 &
 mut
 self
-start_vertex
+first_vertex
 :
 u32
 vertex_count
 :
 u32
-start_instance
+first_instance
 :
 u32
 instance_count
@@ -6161,7 +6161,7 @@ unwrap
 )
 ;
 if
-start_instance
+first_instance
 !
 =
 0
@@ -6175,7 +6175,7 @@ self
 state
 .
 raw_primitive_type
-start_vertex
+first_vertex
 as
 _
 vertex_count
@@ -6184,7 +6184,7 @@ _
 instance_count
 as
 _
-start_instance
+first_instance
 as
 _
 )
@@ -6206,7 +6206,7 @@ self
 state
 .
 raw_primitive_type
-start_vertex
+first_vertex
 as
 _
 vertex_count
@@ -6229,7 +6229,7 @@ self
 state
 .
 raw_primitive_type
-start_vertex
+first_vertex
 as
 _
 vertex_count
@@ -6246,7 +6246,7 @@ draw_indexed
 &
 mut
 self
-start_index
+first_index
 :
 u32
 index_count
@@ -6255,7 +6255,7 @@ u32
 base_vertex
 :
 i32
-start_instance
+first_instance
 :
 u32
 instance_count
@@ -6308,7 +6308,7 @@ index
 .
 stride
 *
-start_index
+first_index
 as
 wgt
 :
@@ -6322,7 +6322,7 @@ base_vertex
 0
 |
 |
-start_instance
+first_instance
 !
 =
 0
@@ -6356,7 +6356,7 @@ _
 base_vertex
 as
 _
-start_instance
+first_instance
 as
 _
 )
