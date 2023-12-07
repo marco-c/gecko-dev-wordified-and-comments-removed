@@ -979,6 +979,17 @@ visitTime
 )
 ;
 static
+nsLiteralCString
+GetTagsSqlFragment
+(
+const
+uint16_t
+aQueryType
+bool
+aExcludeItems
+)
+;
+static
 mozilla
 :
 :
