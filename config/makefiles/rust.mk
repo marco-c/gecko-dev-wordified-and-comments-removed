@@ -1378,6 +1378,14 @@ HOST_CXX_BASE_FLAGS
 =
 -
 DUNICODE
+endif
+ifeq
+(
+WINNT
+(
+OS_ARCH
+)
+)
 CC_BASE_FLAGS
 +
 =
