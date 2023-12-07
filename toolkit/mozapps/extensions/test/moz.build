@@ -55,7 +55,7 @@ blocklist
 /
 xpcshell
 .
-ini
+toml
 "
 "
 xpcshell
@@ -71,7 +71,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 with

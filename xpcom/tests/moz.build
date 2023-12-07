@@ -100,7 +100,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 if

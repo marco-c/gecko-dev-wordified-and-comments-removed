@@ -29,7 +29,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 EXTRA_JS_MODULES

@@ -24,7 +24,7 @@ searchconfigs
 /
 xpcshell
 .
-ini
+toml
 "
 "
 tests
@@ -33,7 +33,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES

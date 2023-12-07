@@ -76,14 +76,14 @@ unit_aus_update
 /
 xpcshell
 .
-ini
+toml
 "
 "
 unit_base_updater
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 if
@@ -103,7 +103,7 @@ unit_service_updater
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 if
@@ -135,7 +135,7 @@ unit_background_update
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 SimplePrograms

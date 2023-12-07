@@ -101,7 +101,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS

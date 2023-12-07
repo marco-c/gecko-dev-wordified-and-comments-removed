@@ -67,6 +67,6 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
