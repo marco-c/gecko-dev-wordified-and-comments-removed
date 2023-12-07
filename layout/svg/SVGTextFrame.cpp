@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsQuickSort
-.
-h
-"
-#
-include
-"
 SVGPaintServerFrame
 .
 h
