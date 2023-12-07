@@ -624,17 +624,6 @@ StyleScrollTimeline
 aNew
 )
 ;
-void
-NotifyAnimationContentVisibilityChanged
-(
-Animation
-*
-aAnimation
-bool
-aIsVisible
-)
-override
-;
 protected
 :
 virtual

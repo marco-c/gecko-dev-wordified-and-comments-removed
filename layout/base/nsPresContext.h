@@ -3389,11 +3389,6 @@ return
 mFontPaletteValueSet
 ;
 }
-void
-UpdateHiddenByContentVisibilityForAnimations
-(
-)
-;
 protected
 :
 friend
