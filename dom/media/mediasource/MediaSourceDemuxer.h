@@ -59,7 +59,7 @@ include
 "
 mozilla
 /
-Monitor
+Mutex
 .
 h
 "
@@ -325,7 +325,7 @@ aType
 )
 MOZ_REQUIRES
 (
-mMonitor
+mMutex
 )
 ;
 TrackInfo
@@ -339,7 +339,7 @@ TrackType
 )
 MOZ_REQUIRES
 (
-mMonitor
+mMutex
 )
 ;
 void
@@ -410,8 +410,8 @@ InitPromise
 mInitPromise
 ;
 mutable
-Monitor
-mMonitor
+Mutex
+mMutex
 ;
 nsTArray
 <
@@ -423,7 +423,7 @@ MediaSourceTrackDemuxer
 mDemuxers
 MOZ_GUARDED_BY
 (
-mMonitor
+mMutex
 )
 ;
 RefPtr
@@ -433,7 +433,7 @@ TrackBuffersManager
 mAudioTrack
 MOZ_GUARDED_BY
 (
-mMonitor
+mMutex
 )
 ;
 RefPtr
@@ -443,14 +443,14 @@ TrackBuffersManager
 mVideoTrack
 MOZ_GUARDED_BY
 (
-mMonitor
+mMutex
 )
 ;
 MediaInfo
 mInfo
 MOZ_GUARDED_BY
 (
-mMonitor
+mMutex
 )
 ;
 }
@@ -487,7 +487,7 @@ MOZ_REQUIRES
 aParent
 -
 >
-mMonitor
+mMutex
 )
 ;
 UniquePtr
@@ -698,8 +698,8 @@ TrackInfo
 TrackType
 mType
 ;
-Monitor
-mMonitor
+Mutex
+mMutex
 MOZ_UNANNOTATED
 ;
 media
