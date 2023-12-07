@@ -129,7 +129,7 @@ exists
 ;
 is
 (
-isButtonChecked
+isButtonPressed
 (
 lightButton
 )
@@ -149,7 +149,7 @@ checked
 ;
 is
 (
-isButtonChecked
+isButtonPressed
 (
 darkButton
 )
@@ -345,7 +345,7 @@ waitFor
 )
 =
 >
-isButtonChecked
+isButtonPressed
 (
 darkButton
 )
@@ -365,7 +365,7 @@ checked
 ;
 is
 (
-isButtonChecked
+isButtonPressed
 (
 lightButton
 )
@@ -563,7 +563,7 @@ waitFor
 )
 =
 >
-isButtonChecked
+isButtonPressed
 (
 lightButton
 )
@@ -585,7 +585,7 @@ state
 ;
 is
 (
-isButtonChecked
+isButtonPressed
 (
 darkButton
 )
@@ -642,7 +642,7 @@ waitFor
 =
 >
 !
-isButtonChecked
+isButtonPressed
 (
 lightButton
 )
@@ -1049,7 +1049,7 @@ DevTools
 )
 ;
 function
-isButtonChecked
+isButtonPressed
 (
 el
 )
@@ -1057,13 +1057,19 @@ el
 return
 el
 .
-classList
-.
-contains
+getAttribute
 (
 "
-checked
+aria
+-
+pressed
 "
 )
+=
+=
+=
+"
+true
+"
 ;
 }
