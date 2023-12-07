@@ -2304,8 +2304,18 @@ filter_raptor_jobs
 (
 full_task_graph
 label_to_taskid
+project
 )
 :
+    
+from
+.
+.
+util
+.
+attributes
+import
+match_run_on_projects
     
 to_run
 =
@@ -2365,6 +2375,28 @@ suite
 "
 raptor
 "
+:
+            
+continue
+        
+if
+not
+match_run_on_projects
+(
+project
+entry
+.
+attributes
+.
+get
+(
+"
+run_on_projects
+"
+[
+]
+)
+)
 :
             
 continue
@@ -2799,6 +2831,12 @@ filter_raptor_jobs
 (
 full_task_graph
 label_to_taskid
+parameters
+[
+"
+project
+"
+]
 )
     
 create_tasks
