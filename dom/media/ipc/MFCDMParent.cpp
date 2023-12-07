@@ -4671,7 +4671,7 @@ for
 const
 auto
 &
-schme
+scheme
 :
 aCapabilitiesOut
 .
@@ -4713,7 +4713,7 @@ type
 ;
 if
 (
-schme
+scheme
 =
 =
 CryptoScheme
@@ -4786,7 +4786,7 @@ s
 "
 CryptoSchemeToString
 (
-schme
+scheme
 )
 codec
 .
@@ -4864,7 +4864,7 @@ s
 "
 CryptoSchemeToString
 (
-schme
+scheme
 )
 codec
 .
