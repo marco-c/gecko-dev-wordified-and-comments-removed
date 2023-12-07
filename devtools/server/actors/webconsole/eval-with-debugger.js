@@ -1242,6 +1242,12 @@ Debugger
 (
 )
 ;
+dbg
+.
+exclusiveDebuggerOnEval
+=
+true
+;
 for
 (
 const

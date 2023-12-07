@@ -5255,7 +5255,7 @@ promiseRejectionTrackerCallbackData
 this
 nullptr
 )
-insideDebuggerEvaluationWithOnNativeCallHook
+insideExclusiveDebuggerOnEval
 (
 this
 nullptr

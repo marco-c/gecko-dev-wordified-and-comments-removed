@@ -2512,6 +2512,9 @@ bool
 allowUnobservedWasm
 ;
 bool
+exclusiveDebuggerOnEval
+;
+bool
 collectCoverageInfo
 ;
 template
@@ -3466,6 +3469,12 @@ const
 ;
 IsObserving
 observesNativeCalls
+(
+)
+const
+;
+bool
+isExclusiveDebuggerOnEval
 (
 )
 const
