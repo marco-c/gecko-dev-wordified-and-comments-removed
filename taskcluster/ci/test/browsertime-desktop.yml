@@ -792,7 +792,6 @@ apps
 [
 firefox
 chrome
-chromium
 ]
 test
 :
@@ -900,7 +899,6 @@ apps
 [
 firefox
 chrome
-chromium
 ]
 test
 :
@@ -1213,7 +1211,6 @@ apps
 [
 firefox
 chrome
-chromium
 ]
 #
 Disable
@@ -1694,7 +1691,6 @@ apps
 [
 firefox
 chrome
-chromium
 safari
 custom
 -
@@ -2642,7 +2638,6 @@ apps
 [
 firefox
 chrome
-chromium
 safari
 ]
 subtests
@@ -3408,7 +3403,6 @@ apps
 [
 firefox
 chrome
-chromium
 safari
 ]
 test
@@ -4449,7 +4443,6 @@ apps
 [
 firefox
 chrome
-chromium
 safari
 ]
 subtests
