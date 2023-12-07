@@ -74,6 +74,8 @@ DebugProtocolPart
                        
 SPCTransactionsProtocolPart
                        
+RPHRegistrationsProtocolPart
+                       
 FedCMProtocolPart
                        
 VirtualSensorProtocolPart
@@ -2366,6 +2368,69 @@ mode
 body
 )
 class
+WebDriverRPHRegistrationsProtocolPart
+(
+RPHRegistrationsProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+webdriver
+=
+self
+.
+parent
+.
+webdriver
+    
+def
+set_rph_registration_mode
+(
+self
+mode
+)
+:
+        
+body
+=
+{
+"
+mode
+"
+:
+mode
+}
+        
+return
+self
+.
+webdriver
+.
+send_session_command
+(
+"
+POST
+"
+"
+custom
+-
+handlers
+/
+set
+-
+mode
+"
+body
+)
+class
 WebDriverFedCMProtocolPart
 (
 FedCMProtocolPart
@@ -2796,6 +2861,8 @@ WebDriverSetPermissionProtocolPart
 WebDriverVirtualAuthenticatorProtocolPart
                   
 WebDriverSPCTransactionsProtocolPart
+                  
+WebDriverRPHRegistrationsProtocolPart
                   
 WebDriverFedCMProtocolPart
                   
