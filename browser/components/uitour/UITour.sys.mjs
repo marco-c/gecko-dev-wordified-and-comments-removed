@@ -10157,6 +10157,7 @@ if
 shell
 )
 {
+await
 shell
 .
 setDefaultBrowser
