@@ -101,6 +101,12 @@ char
 aPath
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 using
 CapabilitiesPromise
 =
