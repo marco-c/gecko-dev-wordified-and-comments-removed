@@ -652,7 +652,7 @@ url
 ;
 schema
 .
-AddKeyFormat
+AddKeyFormatSearchable
 (
 "
 url
@@ -664,6 +664,13 @@ Format
 :
 :
 Url
+MS
+:
+:
+Searchable
+:
+:
+Searchable
 )
 ;
 schema
