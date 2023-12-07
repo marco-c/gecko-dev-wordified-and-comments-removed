@@ -7713,6 +7713,10 @@ method
 {
 scrollMethod
 }
+&
+strict
+=
+true
 prefs
 :
 getSmoothScrollPrefs
@@ -7749,6 +7753,10 @@ method
 {
 scrollMethod
 }
+&
+strict
+=
+false
 prefs
 :
 getSmoothScrollPrefs
