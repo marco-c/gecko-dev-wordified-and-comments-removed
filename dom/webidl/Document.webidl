@@ -1016,6 +1016,14 @@ partial
 interface
 Document
 {
+static
+Document
+parseHTMLUnsafe
+(
+DOMString
+html
+)
+;
 [
 PutForwards
 =
