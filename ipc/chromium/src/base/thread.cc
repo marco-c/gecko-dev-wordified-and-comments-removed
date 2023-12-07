@@ -639,10 +639,6 @@ get
 CreateCurrentThread
 (
 queue
-nsThread
-:
-:
-NOT_MAIN_THREAD
 )
 ;
 }
