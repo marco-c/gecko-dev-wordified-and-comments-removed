@@ -2462,6 +2462,12 @@ AdvanceToNextSample
 )
 ;
 bool
+HavePendingFrameDelayedOffset
+(
+)
+const
+;
+bool
 SampleCompositedAsyncTransform
 (
 const

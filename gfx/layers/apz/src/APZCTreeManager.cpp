@@ -1382,6 +1382,12 @@ InputQueue
 (
 )
 )
+mMapLock
+(
+"
+APZCMapLock
+"
+)
 mRootLayersId
 (
 aRootLayersId
@@ -1398,12 +1404,6 @@ mTreeLock
 (
 "
 APZCTreeLock
-"
-)
-mMapLock
-(
-"
-APZCMapLock
 "
 )
 mRetainedTouchIdentifier
@@ -3799,6 +3799,7 @@ mWrBridge
 }
 )
 ;
+const
 bool
 activeAnimations
 =
