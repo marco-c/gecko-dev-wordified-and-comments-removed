@@ -37,6 +37,9 @@ reciprocal
 sin
 '
 '
+sqrt
+'
+'
 tan
 '
 ]
