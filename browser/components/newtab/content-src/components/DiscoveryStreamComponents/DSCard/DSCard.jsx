@@ -1086,6 +1086,13 @@ this
 props
 .
 recommendation_id
+tile_id
+:
+this
+.
+props
+.
+id
 }
 }
 )
@@ -1325,6 +1332,13 @@ this
 props
 .
 recommendation_id
+tile_id
+:
+this
+.
+props
+.
+id
 }
 }
 )
