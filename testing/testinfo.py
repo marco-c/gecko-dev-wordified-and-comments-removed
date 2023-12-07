@@ -3198,7 +3198,9 @@ date
 ]
 =
 olddata
-[
+.
+get
+(
 str
 (
 nextday
@@ -3207,7 +3209,9 @@ date
 (
 )
 )
-]
+{
+}
+)
             
 startday
 =
