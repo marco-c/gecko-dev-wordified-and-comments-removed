@@ -2980,14 +2980,6 @@ TransportLayer
 TS_OPEN
 )
 ;
-MOZ_ASSERT
-(
-mRtcpState
-=
-=
-mRtpState
-)
-;
 if
 (
 packet
