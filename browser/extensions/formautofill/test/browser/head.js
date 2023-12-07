@@ -4739,6 +4739,10 @@ addressType
 :
 "
 "
+credentialType
+:
+"
+"
 }
 .
 .
