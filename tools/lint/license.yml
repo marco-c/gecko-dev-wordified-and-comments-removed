@@ -188,7 +188,7 @@ data
 -
 intl
 /
-icu_testdata
+icu_segmenter_data
 #
 Imported
 code

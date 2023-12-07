@@ -511,7 +511,7 @@ reftest
 -
 intl
 /
-icu_testdata
+icu_segmenter_data
 -
 intl
 /
