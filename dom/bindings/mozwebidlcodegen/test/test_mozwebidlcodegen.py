@@ -168,15 +168,9 @@ mozpath
 .
 join
 (
-TOPSRCDIR
+OUR_DIR
 "
-dom
-"
-"
-bindings
-"
-"
-Bindings
+TestBindings
 .
 conf
 "
