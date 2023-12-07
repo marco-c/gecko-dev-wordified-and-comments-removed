@@ -192,6 +192,16 @@ font_descriptor
 {
 CTFontDescriptor
 kCTFontDefaultOrientation
+}
+;
+use
+core_text
+:
+:
+font_descriptor
+:
+:
+{
 kCTFontURLAttribute
 kCTFontVariationAttribute
 }
