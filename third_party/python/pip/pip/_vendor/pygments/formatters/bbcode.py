@@ -45,7 +45,7 @@ copyright
 Copyright
 2006
 -
-2023
+2022
 by
 the
 Pygments

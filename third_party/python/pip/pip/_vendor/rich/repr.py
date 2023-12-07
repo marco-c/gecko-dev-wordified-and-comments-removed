@@ -354,7 +354,10 @@ else
 :
                             
 if
+len
+(
 default
+)
 and
 default
 [

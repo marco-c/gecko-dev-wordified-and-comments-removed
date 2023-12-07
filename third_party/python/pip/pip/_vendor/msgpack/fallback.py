@@ -5485,9 +5485,14 @@ memoryview
                 
 n
 =
+len
+(
+obj
+)
+*
 obj
 .
-nbytes
+itemsize
                 
 if
 n

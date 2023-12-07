@@ -160,10 +160,6 @@ str
         
 return
 [
-"
--
-r
-"
 rev
 ]
     

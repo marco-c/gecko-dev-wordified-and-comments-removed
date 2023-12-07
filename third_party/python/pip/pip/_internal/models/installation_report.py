@@ -104,9 +104,12 @@ to_dict
 is_direct
 "
 :
+bool
+(
 ireq
 .
-is_direct
+original_link
+)
             
 "
 requested

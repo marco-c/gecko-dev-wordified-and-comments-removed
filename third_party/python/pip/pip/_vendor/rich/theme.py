@@ -443,7 +443,6 @@ classmethod
 def
 read
 (
-        
 cls
 path
 :
@@ -453,15 +452,6 @@ inherit
 bool
 =
 True
-encoding
-:
-Optional
-[
-str
-]
-=
-None
-    
 )
 -
 >
@@ -515,23 +505,6 @@ Defaults
 to
 True
 .
-            
-encoding
-(
-str
-optional
-)
-:
-Encoding
-of
-the
-config
-file
-.
-Defaults
-to
-None
-.
         
 Returns
 :
@@ -555,9 +528,6 @@ path
 "
 rt
 "
-encoding
-=
-encoding
 )
 as
 config_file

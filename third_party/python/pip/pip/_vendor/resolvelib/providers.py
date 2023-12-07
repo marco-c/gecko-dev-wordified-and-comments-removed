@@ -12,8 +12,7 @@ Delegate
 class
 to
 provide
-the
-required
+requirement
 interface
 for
 the
@@ -161,6 +160,7 @@ identifies
 the
 dependency
 matches
+of
 which
 should
 be
@@ -189,7 +189,6 @@ identifier
 and
 the
 value
-is
 a
 candidate
 .
@@ -313,7 +312,7 @@ candidate
 that
 provides
 (
-depended
+dependend
 on
 )
 the
@@ -333,7 +332,9 @@ preference
 could
 depend
 on
+a
 various
+of
 issues
 including
 (
@@ -516,7 +517,6 @@ possible
 candidates
 that
 satisfy
-the
 given
 constraints
 .
@@ -785,7 +785,7 @@ candidate
 The
 candidate
 is
-guaranteed
+guarenteed
 to
 have
 been

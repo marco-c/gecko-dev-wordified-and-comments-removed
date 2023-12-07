@@ -901,16 +901,12 @@ BaseDistribution
 str
 :
     
-dist_version
-=
-dist
-.
-version
-    
 if
 isinstance
 (
-dist_version
+dist
+.
+version
 Version
 )
 :
@@ -926,7 +922,9 @@ raw_name
 =
 =
 {
-dist_version
+dist
+.
+version
 }
 "
     
@@ -942,7 +940,9 @@ raw_name
 =
 =
 {
-dist_version
+dist
+.
+version
 }
 "
 def

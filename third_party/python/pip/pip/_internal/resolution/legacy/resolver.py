@@ -2522,11 +2522,9 @@ persistent
                 
 req
 .
-cached_wheel_source_link
+original_link_is_in_wheel_cache
 =
-req
-.
-link
+True
             
 if
 cache_entry

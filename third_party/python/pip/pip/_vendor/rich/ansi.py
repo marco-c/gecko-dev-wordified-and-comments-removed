@@ -280,23 +280,6 @@ sgr
             
 if
 sgr
-=
-=
-"
-(
-"
-:
-                
-position
-=
-end
-+
-1
-                
-continue
-            
-if
-sgr
 .
 endswith
 (

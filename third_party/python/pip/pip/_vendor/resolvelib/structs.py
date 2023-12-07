@@ -859,12 +859,6 @@ self
 _factory
 =
 factory
-        
-self
-.
-_iterable
-=
-None
     
 def
 __repr__
@@ -894,6 +888,10 @@ __name__
 list
 (
 self
+.
+_factory
+(
+)
 )
 )
     
@@ -909,9 +907,10 @@ try
             
 next
 (
-iter
-(
 self
+.
+_factory
+(
 )
 )
         
@@ -936,42 +935,12 @@ self
 )
 :
         
-iterable
-=
-(
-            
+return
 self
 .
 _factory
 (
 )
-if
-self
-.
-_iterable
-is
-None
-else
-self
-.
-_iterable
-        
-)
-        
-self
-.
-_iterable
-current
-=
-itertools
-.
-tee
-(
-iterable
-)
-        
-return
-current
 class
 _SequenceIterableView
 (

@@ -25,7 +25,7 @@ main
 main
 pip3
 .
-11
+9
 =
 pip
 .

@@ -22,6 +22,7 @@ logging
 from
 typing
 import
+List
 Optional
 Sequence
 from
@@ -74,7 +75,12 @@ def
 install_editable
 (
     
-*
+install_options
+:
+List
+[
+str
+]
     
 global_options
 :
@@ -178,6 +184,10 @@ setup_py_path
 global_options
 =
 global_options
+        
+install_options
+=
+install_options
         
 no_user_config
 =

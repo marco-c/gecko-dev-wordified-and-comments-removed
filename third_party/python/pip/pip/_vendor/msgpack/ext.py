@@ -400,7 +400,7 @@ seconds
 must
 be
 an
-integer
+interger
 "
 )
         

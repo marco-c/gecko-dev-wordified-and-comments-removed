@@ -43,8 +43,6 @@ import
 check_package_set
     
 create_package_set_from_installed
-    
-warn_legacy_versions_and_specifiers
 )
 from
 pip
@@ -124,11 +122,6 @@ parsing_probs
 =
 create_package_set_from_installed
 (
-)
-        
-warn_legacy_versions_and_specifiers
-(
-package_set
 )
         
 missing

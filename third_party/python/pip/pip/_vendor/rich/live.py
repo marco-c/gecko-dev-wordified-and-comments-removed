@@ -1579,25 +1579,6 @@ False
 "
 "
         
-if
-isinstance
-(
-renderable
-str
-)
-:
-            
-renderable
-=
-self
-.
-console
-.
-render_str
-(
-renderable
-)
-        
 with
 self
 .

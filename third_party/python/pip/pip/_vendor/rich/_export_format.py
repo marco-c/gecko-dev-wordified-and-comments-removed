@@ -65,6 +65,10 @@ body
 >
     
 <
+code
+>
+        
+<
 pre
 style
 =
@@ -87,19 +91,17 @@ New
 monospace
 "
 >
-<
-code
->
 {
 code
 }
 <
 /
-code
+pre
 >
+    
 <
 /
-pre
+code
 >
 <
 /

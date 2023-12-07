@@ -90,6 +90,7 @@ utils
 misc
 import
 ask
+is_local
 normalize_path
 renames
 rmtree
@@ -104,16 +105,6 @@ temp_dir
 import
 AdjacentTempDirectory
 TempDirectory
-from
-pip
-.
-_internal
-.
-utils
-.
-virtualenv
-import
-running_under_virtualenv
 logger
 =
 getLogger
@@ -2372,19 +2363,6 @@ _moved_paths
 StashedUninstallPathSet
 (
 )
-        
-self
-.
-_normalize_path_cached
-=
-functools
-.
-lru_cache
-(
-)
-(
-normalize_path
-)
     
 def
 _permitted
@@ -2427,29 +2405,10 @@ otherwise
 "
 "
         
-if
-not
-running_under_virtualenv
+return
+is_local
 (
-)
-:
-            
-return
-True
-        
-return
 path
-.
-startswith
-(
-self
-.
-_normalize_path_cached
-(
-sys
-.
-prefix
-)
 )
     
 def
@@ -2485,9 +2444,7 @@ path
 .
 join
 (
-self
-.
-_normalize_path_cached
+normalize_path
 (
 head
 )
@@ -2593,9 +2550,7 @@ None
         
 pth_file
 =
-self
-.
-_normalize_path_cached
+normalize_path
 (
 pth_file
 )
@@ -3869,13 +3824,9 @@ strip
                 
 normalized_link_pointer
 =
-paths_to_remove
-.
-_normalize_path_cached
+normalize_path
 (
-                    
 link_pointer
-                
 )
             
 assert
@@ -3898,24 +3849,18 @@ Egg
 -
 link
 {
-develop_egg_link
-}
-(
-to
-{
 link_pointer
 }
-)
 does
 not
 match
+installed
+location
+of
 "
                 
 f
 "
-installed
-location
-of
 {
 dist
 .

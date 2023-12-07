@@ -661,60 +661,8 @@ None
 None
 :
         
-self
-.
-hashes
-=
-hashes
-        
-self
-.
-hash
-=
-hash
-    
-property
-    
-def
-hash
-(
-self
-)
--
->
-Optional
-[
-str
-]
-:
-        
-return
-self
-.
-_hash
-    
-hash
-.
-setter
-    
-def
-hash
-(
-self
-value
-:
-Optional
-[
-str
-]
-)
--
->
-None
-:
-        
 if
-value
+hash
 is
 not
 None
@@ -726,7 +674,7 @@ try
 hash_name
 hash_value
 =
-value
+hash
 .
 split
 (
@@ -753,7 +701,7 @@ hash
 format
 :
 {
-value
+hash
 !
 r
 }
@@ -762,15 +710,11 @@ r
 )
             
 if
-self
-.
 hashes
 is
 None
 :
                 
-self
-.
 hashes
 =
 {
@@ -783,25 +727,17 @@ elif
 hash_name
 not
 in
-self
-.
-hashes
+hash
 :
                 
-self
-.
 hashes
 =
-self
-.
 hashes
 .
 copy
 (
 )
                 
-self
-.
 hashes
 [
 hash_name
@@ -811,9 +747,15 @@ hash_value
         
 self
 .
-_hash
+hash
 =
-value
+hash
+        
+self
+.
+hashes
+=
+hashes
     
 classmethod
     
