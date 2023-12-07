@@ -1,0 +1,15 @@
+export
+enum
+ICU4XLanguageDisplay
+{
+Dialect
+=
+'
+Dialect
+'
+Standard
+=
+'
+Standard
+'
+}
