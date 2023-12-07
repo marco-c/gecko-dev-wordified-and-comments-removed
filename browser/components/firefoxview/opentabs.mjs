@@ -1440,13 +1440,6 @@ isSearchEnabled
 html
 <
 div
-class
-=
-"
-search
--
-container
-"
 >
 <
 fxview
