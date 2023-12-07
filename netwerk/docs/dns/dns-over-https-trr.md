@@ -1,8 +1,4 @@
--
--
--
-title
-:
+#
 DNS
 over
 HTTPS
@@ -11,9 +7,6 @@ Trusted
 Recursive
 Resolver
 )
--
--
--
 #
 #
 Terminology
