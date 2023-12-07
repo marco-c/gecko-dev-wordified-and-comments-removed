@@ -16270,6 +16270,8 @@ message
 getStringArray
 (
 "
+packaging
+/
 appearance
 "
 )
