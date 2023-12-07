@@ -320,7 +320,7 @@ SCIPY_VERSION
 "
 1
 .
-7
+9
 .
 3
 "
@@ -330,9 +330,9 @@ NUMPY_VERSION
 "
 1
 .
-22
+23
 .
-0
+5
 "
     
 PILLOW_VERSION
@@ -340,9 +340,21 @@ PILLOW_VERSION
 "
 9
 .
-0
+2
 .
 0
+"
+    
+OPENCV_VERSION
+=
+"
+4
+.
+7
+.
+0
+.
+72
 "
 MIN_NODE_VERSION
 =
