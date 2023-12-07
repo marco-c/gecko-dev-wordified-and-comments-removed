@@ -869,6 +869,16 @@ FlexLine
 aLines
 )
 ;
+static
+nscoord
+FlexItemConsumedBSize
+(
+const
+FlexItem
+&
+aItem
+)
+;
 #
 ifdef
 DEBUG
