@@ -128,6 +128,9 @@ Window
 interface
 WakeLock
 {
+[
+Throws
+]
 Promise
 <
 WakeLockSentinel

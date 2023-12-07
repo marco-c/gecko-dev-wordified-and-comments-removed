@@ -146,6 +146,7 @@ BinaryName
 "
 releaseLock
 "
+Throws
 ]
 Promise
 <
