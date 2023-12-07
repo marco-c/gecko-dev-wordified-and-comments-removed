@@ -22472,7 +22472,7 @@ itemInPushedItems
 {
 const
 nscoord
-itemBSize
+borderBoxBSize
 =
 item
 .
@@ -22497,7 +22497,7 @@ B
 flexWM
 )
 +
-itemBSize
+borderBoxBSize
 ;
 maxBlockEndEdgeOfChildren
 =
@@ -22529,7 +22529,7 @@ flexWM
 *
 frameBPosBeforePerItemShift
 +
-itemBSize
+borderBoxBSize
 ;
 if
 (
