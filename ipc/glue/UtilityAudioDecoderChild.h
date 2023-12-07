@@ -475,6 +475,12 @@ MOZ_WMF_CDM
 void
 GetKeySystemCapabilities
 (
+dom
+:
+:
+Promise
+*
+aPromise
 )
 ;
 #
