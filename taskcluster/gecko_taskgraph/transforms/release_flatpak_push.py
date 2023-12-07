@@ -238,6 +238,17 @@ product
 "
 ]
         
+Required
+(
+"
+flathub
+-
+scope
+"
+)
+:
+str
+        
 Optional
 (
 "
@@ -473,9 +484,8 @@ add_scope_prefix
 config
                     
 "
-flathub
-:
-firefox
+{
+}
 :
 {
 }
@@ -483,6 +493,16 @@ firefox
 .
 format
 (
+job
+.
+pop
+(
+"
+flathub
+-
+scope
+"
+)
 job
 [
 "
