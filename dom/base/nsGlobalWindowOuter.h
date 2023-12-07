@@ -4495,6 +4495,11 @@ mFullscreenPresShell
 }
 mChromeFields
 ;
+bool
+mIsInFullScreenTransition
+=
+false
+;
 friend
 class
 nsDOMWindowUtils

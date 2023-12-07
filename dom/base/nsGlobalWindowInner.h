@@ -6310,6 +6310,11 @@ GetClientPrincipal
 (
 )
 ;
+bool
+IsInFullScreenTransition
+(
+)
+;
 void
 StorageAccessPermissionChanged
 (
