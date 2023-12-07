@@ -8341,7 +8341,12 @@ HasSelectionInSubtree
 (
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 UpdateIsRelevantContent
 (
 const
