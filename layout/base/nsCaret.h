@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsISelectionListener
 .
 h
@@ -658,9 +651,6 @@ mShowDuringSelection
 ;
 bool
 mIgnoreUserModify
-;
-WeakFrame
-mLastCaretFrame
 ;
 }
 ;
