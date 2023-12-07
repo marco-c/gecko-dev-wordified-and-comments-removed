@@ -101,6 +101,9 @@ aElement1
 nsIFile
 *
 aElement2
+void
+*
+aData
 )
 {
 if
@@ -338,6 +341,7 @@ mArray
 Sort
 (
 compare
+nullptr
 )
 ;
 mBuf

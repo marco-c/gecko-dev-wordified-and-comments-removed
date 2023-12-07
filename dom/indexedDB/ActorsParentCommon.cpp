@@ -2558,17 +2558,8 @@ IndexDataValue
 ;
 }
 #
-if
-defined
-(
-DEBUG
-)
-|
-|
-defined
-(
+ifdef
 NS_BUILD_REFCNT_LOGGING
-)
 IndexDataValue
 :
 :
@@ -2579,7 +2570,6 @@ IndexDataValue
 &
 aOther
 )
-noexcept
 :
 mIndexId
 (

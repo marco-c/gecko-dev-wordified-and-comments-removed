@@ -915,9 +915,11 @@ aRHS
 mBadUnderline
 ;
 }
+const
 nsCString
 mKey
 ;
+const
 nsCString
 mName
 ;
