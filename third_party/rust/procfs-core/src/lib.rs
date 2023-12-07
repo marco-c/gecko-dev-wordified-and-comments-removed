@@ -2054,6 +2054,16 @@ mounts
 *
 ;
 mod
+partitions
+;
+pub
+use
+partitions
+:
+:
+*
+;
+mod
 meminfo
 ;
 pub

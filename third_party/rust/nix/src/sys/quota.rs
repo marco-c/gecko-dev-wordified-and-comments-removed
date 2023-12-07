@@ -54,13 +54,6 @@ QuotaType
 impl
 QuotaCmd
 {
-#
-[
-allow
-(
-unused_unsafe
-)
-]
 fn
 as_int
 (
@@ -70,8 +63,6 @@ self
 -
 >
 c_int
-{
-unsafe
 {
 libc
 :
@@ -89,7 +80,6 @@ self
 as
 i32
 )
-}
 }
 }
 libc_enum

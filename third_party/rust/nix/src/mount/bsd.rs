@@ -1895,13 +1895,6 @@ iov
 as_mut_ptr
 (
 )
-as
-*
-mut
-libc
-:
-:
-iovec
 ;
 let
 res
@@ -1918,6 +1911,8 @@ niov
 flags
 .
 bits
+(
+)
 )
 }
 ;
@@ -2261,6 +2256,8 @@ as_ptr
 flags
 .
 bits
+(
+)
 )
 }
 )

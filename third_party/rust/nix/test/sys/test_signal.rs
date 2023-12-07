@@ -385,6 +385,7 @@ SIGNAL
 "
 the
 {
+SIGNAL
 :
 ?
 }
@@ -400,7 +401,6 @@ a
 different
 one
 "
-SIGNAL
 )
 ;
 let
@@ -496,6 +496,7 @@ SIGNAL
 expected
 the
 {
+SIGNAL
 :
 ?
 }
@@ -503,7 +504,6 @@ to
 be
 blocked
 "
-SIGNAL
 )
 ;
 sigprocmask
@@ -534,11 +534,7 @@ signals
 )
 ;
 }
-lazy_static
-!
-{
 static
-ref
 SIGNALED
 :
 AtomicBool
@@ -551,7 +547,6 @@ new
 false
 )
 ;
-}
 extern
 "
 C

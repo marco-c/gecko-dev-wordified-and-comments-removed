@@ -146,6 +146,11 @@ target_os
 "
 dragonfly
 "
+target_os
+=
+"
+aix
+"
 all
 (
 target_os
@@ -461,6 +466,11 @@ target_os
 =
 "
 dragonfly
+"
+target_os
+=
+"
+aix
 "
 all
 (
@@ -1023,6 +1033,11 @@ target_os
 "
 linux
 "
+target_os
+=
+"
+aix
+"
 )
 )
 ]
@@ -1136,6 +1151,11 @@ target_os
 =
 "
 linux
+"
+target_os
+=
+"
+aix
 "
 )
 )
