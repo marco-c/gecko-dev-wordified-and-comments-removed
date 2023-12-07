@@ -1547,6 +1547,14 @@ aContainer
 )
 )
 ;
+doc
+-
+>
+SetAllowDeclarativeShadowRoots
+(
+true
+)
+;
 rv
 =
 doc
