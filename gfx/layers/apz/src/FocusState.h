@@ -116,6 +116,11 @@ CanIgnoreKeyboardShortcutMisses
 )
 const
 ;
+void
+Reset
+(
+)
+;
 private
 :
 bool

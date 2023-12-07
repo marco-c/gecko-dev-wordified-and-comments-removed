@@ -1721,6 +1721,12 @@ aLayersId
 )
 ;
 }
+mFocusState
+.
+Reset
+(
+)
+;
 UniquePtr
 <
 APZTestData
