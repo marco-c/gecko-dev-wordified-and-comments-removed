@@ -2123,7 +2123,9 @@ default
 :
 [
 '
-trunk
+mozilla
+-
+central
 '
 ]
 mozharness
