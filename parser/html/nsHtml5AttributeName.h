@@ -1314,11 +1314,6 @@ ATTR_RENDERING_INTENT
 static
 nsHtml5AttributeName
 *
-ATTR_SHADOWROOTMODE
-;
-static
-nsHtml5AttributeName
-*
 ATTR_SEED
 ;
 static
@@ -1335,11 +1330,6 @@ static
 nsHtml5AttributeName
 *
 ATTR_SANDBOX
-;
-static
-nsHtml5AttributeName
-*
-ATTR_SHADOWROOTDELEGATESFOCUS
 ;
 static
 nsHtml5AttributeName
