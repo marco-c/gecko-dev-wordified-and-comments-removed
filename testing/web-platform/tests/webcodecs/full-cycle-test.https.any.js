@@ -450,6 +450,14 @@ height
 "
 )
 ;
+if
+(
+!
+options
+.
+realTimeLatencyMode
+)
+{
 assert_equals
 (
 frame
@@ -464,6 +472,7 @@ timestamp
 "
 )
 ;
+}
 assert_equals
 (
 frame
@@ -651,6 +660,14 @@ frames_encoded
 +
 +
 ;
+if
+(
+!
+options
+.
+realTimeLatencyMode
+)
+{
 assert_equals
 (
 chunk
@@ -665,6 +682,7 @@ timestamp
 "
 )
 ;
+}
 }
 error
 (
