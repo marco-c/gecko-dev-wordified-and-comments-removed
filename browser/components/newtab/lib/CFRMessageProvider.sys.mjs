@@ -4393,9 +4393,6 @@ false
 topstories
 :
 false
-snippets
-:
-false
 }
 }
 }
