@@ -1395,6 +1395,13 @@ MAIN_THREAD
 stackSize
 =
 0
+.
+longTaskLength
+=
+Some
+(
+W3_LONGTASK_BUSY_WINDOW_MS
+)
 }
 )
 ;
@@ -2009,11 +2016,6 @@ CreateCurrentThread
 SynchronizedEventQueue
 *
 aQueue
-nsThread
-:
-:
-MainThreadFlag
-aMainThread
 )
 {
 MOZ_ASSERT
@@ -2050,7 +2052,10 @@ WrapNotNull
 (
 aQueue
 )
-aMainThread
+nsThread
+:
+:
+NOT_MAIN_THREAD
 {
 .
 stackSize
