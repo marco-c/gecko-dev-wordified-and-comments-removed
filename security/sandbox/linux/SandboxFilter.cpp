@@ -5548,6 +5548,15 @@ switch
 sysno
 )
 {
+case
+__NR_statx
+:
+return
+Error
+(
+ENOSYS
+)
+;
 CASES_FOR_fstatat
 :
 return
