@@ -7726,6 +7726,7 @@ creationTime
 isHttpOnly
 false
 isSecure
+false
 sameSite
 rawSameSite
 static_cast
