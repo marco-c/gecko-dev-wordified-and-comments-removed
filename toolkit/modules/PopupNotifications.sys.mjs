@@ -11756,7 +11756,7 @@ return
 ;
 }
 let
-timeSinceShown
+now
 =
 this
 .
@@ -11767,6 +11767,11 @@ performance
 now
 (
 )
+;
+let
+timeSinceShown
+=
+now
 -
 notification
 .
@@ -11811,6 +11816,12 @@ timeSinceShown
 ms
 "
 )
+;
+notification
+.
+timeShown
+=
+now
 ;
 return
 ;
