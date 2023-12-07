@@ -3746,6 +3746,10 @@ SpeedIndex
 FirstVisualChange
 LastVisualChange
 "
+                
+"
+largestContentfulPaint
+"
             
 )
         
