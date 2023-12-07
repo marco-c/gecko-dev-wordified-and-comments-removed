@@ -1536,6 +1536,16 @@ moz_mac_disabledtoolbartext
 "
 ui
 .
+-
+moz
+-
+mac
+-
+sidebar
+"
+"
+ui
+.
 accentcolor
 "
 "
