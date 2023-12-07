@@ -1,5 +1,5 @@
 class
-FfiConverterString
+_UniffiConverterString
 :
     
 staticmethod
@@ -60,7 +60,7 @@ size
 =
 buf
 .
-readI32
+read_i32
 (
 )
         
@@ -81,7 +81,7 @@ length
 "
 )
         
-utf8Bytes
+utf8_bytes
 =
 buf
 .
@@ -91,7 +91,7 @@ size
 )
         
 return
-utf8Bytes
+utf8_bytes
 .
 decode
 (
@@ -114,14 +114,14 @@ buf
         
 value
 =
-FfiConverterString
+_UniffiConverterString
 .
 check
 (
 value
 )
         
-utf8Bytes
+utf8_bytes
 =
 value
 .
@@ -136,11 +136,11 @@ utf
         
 buf
 .
-writeI32
+write_i32
 (
 len
 (
-utf8Bytes
+utf8_bytes
 )
 )
         
@@ -148,7 +148,7 @@ buf
 .
 write
 (
-utf8Bytes
+utf8_bytes
 )
     
 staticmethod
@@ -163,7 +163,7 @@ buf
 with
 buf
 .
-consumeWithStream
+consume_with_stream
 (
 )
 as
@@ -202,7 +202,7 @@ value
         
 value
 =
-FfiConverterString
+_UniffiConverterString
 .
 check
 (
@@ -210,9 +210,9 @@ value
 )
         
 with
-RustBuffer
+_UniffiRustBuffer
 .
-allocWithBuilder
+alloc_with_builder
 (
 )
 as

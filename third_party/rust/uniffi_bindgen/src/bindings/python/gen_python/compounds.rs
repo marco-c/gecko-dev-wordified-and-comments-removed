@@ -1,4 +1,10 @@
 use
+super
+:
+:
+CodeType
+;
+use
 crate
 :
 :
@@ -6,7 +12,6 @@ backend
 :
 :
 {
-CodeType
 Literal
 Type
 }

@@ -47,8 +47,6 @@ buf
 return
 Data
 (
-bytes
-:
 try
 readBytes
 (

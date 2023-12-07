@@ -1,7 +1,7 @@
 class
-FfiConverterFloat
+_UniffiConverterFloat
 (
-FfiConverterPrimitiveFloat
+_UniffiConverterPrimitiveFloat
 )
 :
     
@@ -17,14 +17,14 @@ buf
 return
 buf
 .
-readFloat
+read_float
 (
 )
     
 staticmethod
     
 def
-writeUnchecked
+write_unchecked
 (
 value
 buf
@@ -33,7 +33,7 @@ buf
         
 buf
 .
-writeFloat
+write_float
 (
 value
 )

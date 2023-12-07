@@ -30,14 +30,14 @@ e
 ;
 record
 <
-DOMString
+string
 EnumerationAvecDonnees
 >
 copie_carte
 (
 record
 <
-DOMString
+string
 EnumerationAvecDonnees
 >
 c

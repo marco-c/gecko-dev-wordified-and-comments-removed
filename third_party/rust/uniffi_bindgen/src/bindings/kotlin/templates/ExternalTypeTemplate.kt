@@ -8,7 +8,8 @@ self
 .
 external_type_package_name
 (
-crate_name
+module_path
+namespace
 )
 %
 }
