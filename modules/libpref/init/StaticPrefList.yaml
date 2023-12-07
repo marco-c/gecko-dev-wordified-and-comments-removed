@@ -14668,6 +14668,15 @@ false
 mirror
 :
 always
+#
+Enable
+CacheAPI
+in
+private
+browsing
+mode
+with
+encryption
 -
 name
 :
@@ -14683,7 +14692,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
