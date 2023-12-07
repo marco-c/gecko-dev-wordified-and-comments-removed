@@ -406,7 +406,7 @@ cmsg_len
 ;
 errno
 =
-EMSGSIZE
+EPROTO
 ;
 return
 -
@@ -488,7 +488,17 @@ MSG_TRUNC
 ;
 errno
 =
+(
+msg
+.
+msg_flags
+&
+MSG_CTRUNC
+)
+?
 EMFILE
+:
+EPROTO
 ;
 return
 -
