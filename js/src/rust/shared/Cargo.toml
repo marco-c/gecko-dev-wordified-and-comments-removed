@@ -155,9 +155,9 @@ version
 "
 1
 .
-2
+4
 .
-2
+0
 "
 optional
 =
@@ -174,10 +174,10 @@ features
 any_provider
 "
 "
+compiled_data
+"
+"
 icu_segmenter
-"
-"
-provider_test
 "
 ]
 }
