@@ -2515,6 +2515,9 @@ bool
 exclusiveDebuggerOnEval
 ;
 bool
+inspectNativeCallArguments
+;
+bool
 collectCoverageInfo
 ;
 template
