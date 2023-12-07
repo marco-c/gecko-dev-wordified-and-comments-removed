@@ -89,15 +89,6 @@ ctap2
 =
 true
 "
-"
-security
-.
-webauthn
-.
-enable_conditional_mediation
-=
-true
-"
 ]
 [
 "

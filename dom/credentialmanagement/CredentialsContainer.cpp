@@ -813,15 +813,6 @@ aRv
 if
 (
 conditionallyMediated
-&
-&
-!
-StaticPrefs
-:
-:
-security_webauthn_enable_conditional_mediation
-(
-)
 )
 {
 RefPtr
@@ -890,7 +881,6 @@ mPublicKey
 Value
 (
 )
-conditionallyMediated
 aOptions
 .
 mSignal

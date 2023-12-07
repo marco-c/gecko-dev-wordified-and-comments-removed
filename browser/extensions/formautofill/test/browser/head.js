@@ -4739,10 +4739,6 @@ addressType
 :
 "
 "
-credentialType
-:
-"
-"
 }
 .
 .

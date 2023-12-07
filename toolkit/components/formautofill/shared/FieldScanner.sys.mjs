@@ -280,11 +280,6 @@ contactType
 "
 "
 ;
-credentialType
-=
-"
-"
-;
 /
 /
 When
@@ -464,14 +459,6 @@ contactType
 autocompleteInfo
 .
 contactType
-;
-this
-.
-credentialType
-=
-autocompleteInfo
-.
-credentialType
 ;
 }
 else
