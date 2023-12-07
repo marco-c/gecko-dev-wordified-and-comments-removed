@@ -123,11 +123,6 @@ ScrollbarActivity
 default
 ;
 void
-ActivityChanged
-(
-)
-;
-void
 StartFadeTimer
 (
 )
@@ -292,6 +287,11 @@ uint32_t
 mNestedActivityCounter
 =
 0
+;
+bool
+mScrollbarEffectivelyVisible
+=
+false
 ;
 bool
 mListeningForScrollbarEvents
