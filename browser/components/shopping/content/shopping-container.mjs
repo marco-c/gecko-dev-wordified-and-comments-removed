@@ -1114,11 +1114,14 @@ rating
 rating
 =
 {
+ifDefined
+(
 this
 .
 data
 .
 adjusted_rating
+)
 }
 >
 <
