@@ -2393,6 +2393,7 @@ True
             
 print
 (
+                
 "
 *
 *
@@ -2471,10 +2472,12 @@ print
 *
 *
 "
+            
 )
             
 print
 (
+                
 "
 Unable
 to
@@ -2489,10 +2492,12 @@ connected
 android
 device
 "
+            
 )
             
 print
 (
+                
 "
 *
 *
@@ -2571,6 +2576,7 @@ print
 *
 *
 "
+            
 )
             
 return
