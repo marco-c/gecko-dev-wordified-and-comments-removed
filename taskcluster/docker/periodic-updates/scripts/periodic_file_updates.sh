@@ -3807,6 +3807,17 @@ command
 v
 arc
 )
+&
+&
+!
+ARC
+=
+(
+command
+-
+v
+arcanist
+)
 then
 return
 1
