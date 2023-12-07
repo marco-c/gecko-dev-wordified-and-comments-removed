@@ -75,6 +75,14 @@ insecure
 .
 enabled
 "
+    
+"
+extensions
+.
+backgroundServiceWorkerEnabled
+.
+enabled
+"
 }
 PATTERN
 =

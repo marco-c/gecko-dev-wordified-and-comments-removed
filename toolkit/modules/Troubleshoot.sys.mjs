@@ -1030,6 +1030,13 @@ insecure
 enabled
 "
 "
+extensions
+.
+backgroundServiceWorkerEnabled
+.
+enabled
+"
+"
 privacy
 .
 restrict3rdpartystorage
