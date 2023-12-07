@@ -497,9 +497,7 @@ LOCAL_INCLUDES
 [
 "
 /
-third_party
-/
-rust
+intl
 /
 icu_capi
 /
