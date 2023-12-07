@@ -340,6 +340,15 @@ aKeySystemConfig
 ;
 #
 endif
+bool
+DoesKeySystemSupportClearLead
+(
+const
+nsAString
+&
+aKeySystem
+)
+;
 }
 #
 endif

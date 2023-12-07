@@ -6489,5 +6489,9 @@ required
 DOMString
 capabilities
 ;
+required
+boolean
+clearlead
+;
 }
 ;
