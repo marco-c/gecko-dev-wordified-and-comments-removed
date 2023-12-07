@@ -309,7 +309,7 @@ dialog
 -
 items
 -
-added
+added2
 "
 )
 ;
@@ -334,7 +334,7 @@ dialog
 -
 items
 -
-modified
+modified2
 "
 )
 ;
@@ -361,7 +361,7 @@ items
 -
 no
 -
-change
+change2
 "
 )
 ;

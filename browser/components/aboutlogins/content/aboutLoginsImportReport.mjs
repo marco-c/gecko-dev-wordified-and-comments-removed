@@ -271,7 +271,7 @@ import
 -
 report
 -
-added
+added2
 "
 {
 count
@@ -298,7 +298,7 @@ import
 -
 report
 -
-modified
+modified2
 "
 {
 count
@@ -327,7 +327,7 @@ report
 -
 no
 -
-change
+change2
 "
 {
 count
