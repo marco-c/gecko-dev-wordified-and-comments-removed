@@ -959,6 +959,10 @@ kPlayReadyKeySystemHardware
 )
 NS_ConvertUTF8toUTF16
 (
+kPlayReadyHardwareClearLeadKeySystemName
+)
+NS_ConvertUTF8toUTF16
+(
 kWidevineExperimentKeySystemName
 )
 NS_ConvertUTF8toUTF16
