@@ -2510,7 +2510,7 @@ WinFileDialogPromise
 UtilityProcessManager
 :
 :
-CreateWinFileDialogAsync
+CreateWinFileDialogActor
 (
 )
 {
