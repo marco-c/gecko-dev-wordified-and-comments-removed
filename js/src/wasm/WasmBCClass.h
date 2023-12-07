@@ -2704,6 +2704,11 @@ ResultType
 type
 )
 ;
+bool
+insertLeaveFrame
+(
+)
+;
 [
 [
 nodiscard
@@ -7333,7 +7338,7 @@ nodiscard
 ]
 ]
 bool
-emitIntrinsic
+emitCallBuiltinModuleFunc
 (
 )
 ;
