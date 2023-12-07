@@ -210,6 +210,14 @@ WindowSize
 ;
 pub
 const
+DEFAULT_REMOTE_RESET_STREAM_MAX
+:
+usize
+=
+20
+;
+pub
+const
 DEFAULT_RESET_STREAM_MAX
 :
 usize

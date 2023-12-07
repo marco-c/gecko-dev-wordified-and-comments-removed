@@ -1344,10 +1344,10 @@ crate
 Error
 >
 {
-drop
-(
+let
+_
+=
 ping
-)
 ;
 self
 .

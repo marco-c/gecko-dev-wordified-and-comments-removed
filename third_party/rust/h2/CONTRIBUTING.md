@@ -47,7 +47,6 @@ issue
 ]
 or
 ask
-ask
 a
 question
 on
@@ -149,7 +148,7 @@ s
 master
 branch
 .
-6
+5
 .
 Your
 branch

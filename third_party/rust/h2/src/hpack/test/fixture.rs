@@ -428,10 +428,6 @@ unwrap
 (
 )
 wire
-:
-wire
-expect
-:
 expect
 header_table_size
 :
@@ -698,11 +694,8 @@ iter
 map
 (
 |
-&
 (
-ref
 name
-ref
 value
 )
 |
@@ -1022,9 +1015,6 @@ v
 )
 =
 >
-&
-*
-*
 v
 Header
 :
@@ -1051,9 +1041,6 @@ v
 )
 =
 >
-&
-*
-*
 v
 Header
 :
@@ -1065,9 +1052,6 @@ v
 )
 =
 >
-&
-*
-*
 v
 Header
 :

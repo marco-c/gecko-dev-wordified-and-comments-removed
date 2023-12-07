@@ -569,8 +569,6 @@ decode
 (
 &
 [
-0x0
-+
 7
 ]
 )
@@ -811,8 +809,6 @@ dst
 ]
 &
 [
-0x0
-+
 7
 ]
 )
@@ -870,12 +866,8 @@ const
 DATA
 :
 &
-'
-static
 [
 &
-'
-static
 str
 ]
 =
@@ -1131,12 +1123,8 @@ const
 DATA
 :
 &
-'
-static
 [
 &
-'
-static
 [
 u8
 ]

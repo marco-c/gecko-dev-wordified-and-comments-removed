@@ -1323,6 +1323,19 @@ finish
 )
 }
 }
+#
+[
+derive
+(
+Debug
+PartialEq
+Eq
+)
+]
+pub
+struct
+ParseU64Error
+;
 pub
 fn
 parse_u64
@@ -1339,8 +1352,7 @@ u8
 Result
 <
 u64
-(
-)
+ParseU64Error
 >
 {
 if
@@ -1355,8 +1367,7 @@ len
 return
 Err
 (
-(
-)
+ParseU64Error
 )
 ;
 }
@@ -1391,8 +1402,7 @@ b
 return
 Err
 (
-(
-)
+ParseU64Error
 )
 ;
 }
@@ -1437,8 +1447,7 @@ InvalidContentLength
 Result
 <
 u64
-(
-)
+ParseU64Error
 >
 )
 NotSafeAndCacheable
@@ -1611,7 +1620,6 @@ Method
 >
 bool
 {
-return
 method
 =
 =
@@ -1628,7 +1636,6 @@ Method
 :
 :
 HEAD
-;
 }
 pub
 fn

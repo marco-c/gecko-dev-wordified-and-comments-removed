@@ -25,6 +25,16 @@ store
 mod
 stream
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+module_inception
+)
+]
 mod
 streams
 ;
@@ -243,6 +253,10 @@ local_reset_duration
 Duration
 pub
 local_reset_max
+:
+usize
+pub
+remote_reset_max
 :
 usize
 pub

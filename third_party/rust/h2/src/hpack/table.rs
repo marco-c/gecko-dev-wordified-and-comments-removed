@@ -1555,8 +1555,6 @@ self
 indices
 [
 probe
-as
-usize
 ]
 ;
 prev
@@ -1990,7 +1988,6 @@ len
 debug_assert
 !
 (
-!
 self
 .
 indices
@@ -1998,7 +1995,7 @@ indices
 probe
 ]
 .
-is_none
+is_some
 (
 )
 )
@@ -2885,15 +2882,11 @@ HashValue
 >
 usize
 {
-(
 hash
 .
 0
 &
 mask
-)
-as
-usize
 }
 #
 [
@@ -2928,8 +2921,6 @@ hash
 )
 &
 mask
-as
-usize
 }
 fn
 hash_header

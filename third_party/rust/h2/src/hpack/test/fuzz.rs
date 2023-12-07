@@ -398,7 +398,6 @@ resizes
 .
 extend
 (
-&
 [
 low
 high
