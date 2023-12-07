@@ -689,6 +689,15 @@ global
 ;
 static
 bool
+debuggerObservesNativeCall
+(
+GlobalObject
+*
+global
+)
+;
+static
+bool
 isObservedByDebuggerTrackingAllocations
 (
 const

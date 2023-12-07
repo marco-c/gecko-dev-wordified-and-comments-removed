@@ -3560,6 +3560,13 @@ IsObserving
 observing
 )
 ;
+void
+updateObservesNativeCallOnDebuggees
+(
+IsObserving
+observing
+)
+;
 JSObject
 *
 getHook
