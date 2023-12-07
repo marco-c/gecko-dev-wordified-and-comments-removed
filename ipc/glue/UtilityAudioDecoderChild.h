@@ -469,6 +469,16 @@ CreateVideoBridge
 ;
 #
 endif
+#
+ifdef
+MOZ_WMF_CDM
+void
+GetKeySystemCapabilities
+(
+)
+;
+#
+endif
 private
 :
 explicit
