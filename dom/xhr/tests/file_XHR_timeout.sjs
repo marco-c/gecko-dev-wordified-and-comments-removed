@@ -90,7 +90,7 @@ finish
 )
 ;
 }
-3000
+2500
 /
 *
 milliseconds
