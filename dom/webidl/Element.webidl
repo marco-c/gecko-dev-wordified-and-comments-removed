@@ -2626,3 +2626,16 @@ options
 ;
 }
 ;
+partial
+interface
+Element
+{
+undefined
+setHTMLUnsafe
+(
+DOMString
+html
+)
+;
+}
+;
