@@ -4642,7 +4642,7 @@ self
 .
 logger
 .
-error
+warning
 (
 "
 Received
