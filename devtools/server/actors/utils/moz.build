@@ -66,6 +66,15 @@ loop
 js
 "
 "
+gecko
+-
+profile
+-
+collector
+.
+js
+"
+"
 inactive
 -
 property
