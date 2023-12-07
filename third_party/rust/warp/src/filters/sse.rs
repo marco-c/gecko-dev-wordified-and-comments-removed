@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+rustdoc
+:
+:
+invalid_html_tags
+)
+]
 use
 serde
 :

@@ -1356,7 +1356,7 @@ Off
 NoClientAuth
 :
 :
-new
+boxed
 (
 )
 TlsClientAuth
@@ -1380,6 +1380,10 @@ trust_anchor
 )
 ?
 )
+.
+boxed
+(
+)
 }
 TlsClientAuth
 :
@@ -1402,6 +1406,10 @@ trust_anchor
 )
 ?
 )
+.
+boxed
+(
+)
 }
 }
 ;
@@ -1423,10 +1431,6 @@ with_safe_defaults
 with_client_cert_verifier
 (
 client_auth
-.
-into
-(
-)
 )
 .
 with_single_cert_with_ocsp_and_sct
