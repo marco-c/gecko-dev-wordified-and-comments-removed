@@ -84,6 +84,16 @@ werkzeug
 1
 .
 2
+pypi
+:
+zstandard
+=
+=
+0
+.
+19
+.
+0
 vendored
 :
 testing
