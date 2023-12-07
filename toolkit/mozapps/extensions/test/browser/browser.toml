@@ -597,9 +597,6 @@ a11y_checks
 Bug
 1854646
 clicked
-addon
--
-card
 button
 .
 category
@@ -954,9 +951,6 @@ a11y_checks
 Bug
 1854646
 clicked
-addon
--
-card
 button
 #
 details
