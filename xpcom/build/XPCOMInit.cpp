@@ -2768,6 +2768,15 @@ Shutdown
 )
 ;
 }
+#
+ifdef
+NS_FREE_PERMANENT_DATA
+Servo_ShutdownThreadPool
+(
+)
+;
+#
+endif
 AppShutdown
 :
 :
@@ -3266,10 +3275,6 @@ GkRust_Shutdown
 #
 ifdef
 NS_FREE_PERMANENT_DATA
-Servo_ShutdownThreadPool
-(
-)
-;
 NS_ShutdownAtomTable
 (
 )
