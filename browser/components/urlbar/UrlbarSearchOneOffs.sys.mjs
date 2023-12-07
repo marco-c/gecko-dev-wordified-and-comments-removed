@@ -1448,6 +1448,7 @@ quickSuggestOptInContainer
 &
 &
 element
+?
 .
 compareDocumentPosition
 (
