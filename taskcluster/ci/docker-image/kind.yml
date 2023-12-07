@@ -369,6 +369,14 @@ libc6
 -
 ub18
 -
+pygobject
+-
+ub18
+-
+pyatspi
+-
+ub18
+-
 32
 -
 libc6
@@ -1347,7 +1355,7 @@ file
 )
 parent
 :
-debian11
+debian12
 -
 base
 firefox
@@ -1410,7 +1418,7 @@ sync
 )
 parent
 :
-debian11
+debian12
 -
 base
 sentry
@@ -1423,7 +1431,7 @@ sentry
 )
 parent
 :
-debian11
+debian12
 -
 base
 system
@@ -1534,7 +1542,7 @@ try
 )
 parent
 :
-debian11
+debian12
 -
 base
 decision
