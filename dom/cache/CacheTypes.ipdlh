@@ -441,6 +441,9 @@ CacheReadStream
 ?
 body
 ;
+int64_t
+bodyDiskSize
+;
 nsContentPolicyType
 contentPolicyType
 ;
@@ -490,6 +493,9 @@ headersGuard
 CacheReadStream
 ?
 body
+;
+int64_t
+bodyDiskSize
 ;
 nullable
 nsITransportSecurityInfo
