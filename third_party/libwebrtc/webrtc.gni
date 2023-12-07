@@ -2267,8 +2267,7 @@ rtc_build_libsrtp
 build_with_mozilla
 rtc_build_libvpx
 =
-!
-build_with_mozilla
+true
 rtc_libvpx_build_vp9
 =
 true
