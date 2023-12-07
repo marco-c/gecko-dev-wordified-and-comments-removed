@@ -2492,6 +2492,7 @@ MOZ_OPTIMIZE
 "
 :
 "
+1
 "
 "
 MOZ_OPTIMIZE_FLAGS
@@ -2570,14 +2571,7 @@ extra_substs
 =
 {
 "
-MOZ_OPTIMIZE
-"
-:
-"
-1
-"
-"
-MOZ_OPTIMIZE_FLAGS
+HOST_OPTIMIZE_FLAGS
 "
 :
 [
