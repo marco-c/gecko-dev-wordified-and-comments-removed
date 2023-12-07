@@ -15539,6 +15539,14 @@ sent
 -
 view
 {
+media
+not
+(
+prefers
+-
+contrast
+)
+{
 background
 -
 color
@@ -15554,6 +15562,7 @@ background
 success
 )
 ;
+}
 >
 .
 panel

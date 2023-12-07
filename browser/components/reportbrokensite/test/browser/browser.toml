@@ -82,3 +82,10 @@ browser_tab_switch_handling
 js
 "
 ]
+[
+"
+browser_prefers_contrast
+.
+js
+"
+]
