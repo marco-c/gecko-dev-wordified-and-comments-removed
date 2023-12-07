@@ -1885,10 +1885,6 @@ mjs
 events
 :
 {
-DOMDocFetchSuccess
-:
-{
-}
 DOMFormBeforeSubmit
 :
 {
