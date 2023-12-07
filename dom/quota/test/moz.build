@@ -577,3 +577,15 @@ UtilsChild
 js
 "
 ]
+MARIONETTE_UNIT_MANIFESTS
++
+=
+[
+"
+marionette
+/
+manifest
+.
+ini
+"
+]
