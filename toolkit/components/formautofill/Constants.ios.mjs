@@ -402,6 +402,17 @@ extensions
 .
 formautofill
 .
+heuristics
+.
+captureOnFormRemoval
+"
+:
+false
+"
+extensions
+.
+formautofill
+.
 focusOnAutofill
 "
 :
