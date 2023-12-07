@@ -11125,6 +11125,14 @@ mouseEvent
 win
 )
 ;
+state
+.
+clickTracker
+.
+reset
+(
+)
+;
 }
 }
 /
