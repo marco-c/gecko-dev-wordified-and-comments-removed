@@ -4886,6 +4886,24 @@ False
         
 if
 "
+live
+"
+in
+try_name
+and
+"
+sheriffed
+"
+not
+in
+try_name
+:
+            
+return
+False
+        
+if
+"
 android
 "
 not
