@@ -1248,10 +1248,6 @@ id
 "
 migration
 -
-logins
--
-and
--
 passwords
 -
 option
@@ -1971,10 +1967,6 @@ id
 =
 "
 migration
--
-logins
--
-and
 -
 passwords
 -

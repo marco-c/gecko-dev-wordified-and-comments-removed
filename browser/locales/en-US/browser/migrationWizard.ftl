@@ -926,10 +926,6 @@ label
 Favorites
 migration
 -
-logins
--
-and
--
 passwords
 -
 option
@@ -937,8 +933,6 @@ option
 label
 =
 Saved
-logins
-and
 passwords
 migration
 -
