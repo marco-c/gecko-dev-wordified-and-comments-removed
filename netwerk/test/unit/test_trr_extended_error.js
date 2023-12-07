@@ -285,7 +285,7 @@ add_task
 (
 async
 function
-test_extended_error_bogus
+test_extended_error_1
 (
 )
 {
@@ -413,7 +413,7 @@ EDNS_ERROR
 "
 extended_error
 :
-6
+17
 text
 :
 "
