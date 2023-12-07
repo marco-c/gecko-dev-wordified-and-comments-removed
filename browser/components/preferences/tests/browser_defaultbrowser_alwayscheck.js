@@ -1053,6 +1053,7 @@ this
 _isDefault
 ;
 }
+async
 setDefaultBrowser
 (
 )

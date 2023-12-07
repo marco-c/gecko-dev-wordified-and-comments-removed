@@ -74,6 +74,7 @@ mjs
 const
 setDefaultBrowserUserChoiceStub
 =
+async
 (
 )
 =
@@ -109,7 +110,7 @@ defaultAgent
 value
 (
 {
-setDefaultBrowserUserChoice
+setDefaultBrowserUserChoiceAsync
 :
 setDefaultBrowserUserChoiceStub
 }
@@ -241,6 +242,7 @@ need_user_choice
 (
 )
 {
+await
 ShellService
 .
 setDefaultBrowser
@@ -371,6 +373,7 @@ true
 }
 )
 ;
+await
 ShellService
 .
 setDefaultBrowser
@@ -479,6 +482,7 @@ shellService
 "
 )
 ;
+await
 ShellService
 .
 setDefaultBrowser
@@ -646,6 +650,7 @@ true
 }
 )
 ;
+await
 ShellService
 .
 setDefaultBrowser
