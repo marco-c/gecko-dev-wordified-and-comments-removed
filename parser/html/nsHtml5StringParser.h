@@ -82,6 +82,8 @@ bool
 aQuirks
 bool
 aPreventScriptExecution
+bool
+aAllowDeclarativeShadowRoots
 )
 ;
 nsresult
@@ -130,6 +132,8 @@ Document
 aDocument
 bool
 aScriptingEnabledForNoscriptParsing
+bool
+aDeclarativeShadowRootsAllowed
 )
 ;
 RefPtr
