@@ -71,7 +71,7 @@ s
 important
 that
 the
-detils
+details
 of
 how
 this

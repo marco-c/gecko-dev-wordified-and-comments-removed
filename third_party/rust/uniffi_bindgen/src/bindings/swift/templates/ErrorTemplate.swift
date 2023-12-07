@@ -485,7 +485,6 @@ variants
 %
 }
 case
-let
 .
 {
 {
@@ -499,7 +498,14 @@ class_name
 }
 }
 (
+_
+/
+*
 message
+is
+ignored
+*
+/
 )
 :
 writeInt

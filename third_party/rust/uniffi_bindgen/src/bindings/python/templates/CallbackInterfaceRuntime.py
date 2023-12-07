@@ -209,17 +209,17 @@ obj
 IDX_CALLBACK_FREE
 =
 0
-UNIFFI_CALLBACK_SUCCESS
+_UNIFFI_CALLBACK_SUCCESS
 =
 0
-UNIFFI_CALLBACK_ERROR
+_UNIFFI_CALLBACK_ERROR
 =
 1
-UNIFFI_CALLBACK_UNEXPECTED_ERROR
+_UNIFFI_CALLBACK_UNEXPECTED_ERROR
 =
 2
 class
-FfiConverterCallbackInterface
+_UniffiConverterCallbackInterface
 :
     
 _handle_map
@@ -321,7 +321,7 @@ handle
 =
 buf
 .
-readU64
+read_u64
 (
 )
         
@@ -369,7 +369,7 @@ buf
         
 buf
 .
-writeU64
+write_u64
 (
 cls
 .

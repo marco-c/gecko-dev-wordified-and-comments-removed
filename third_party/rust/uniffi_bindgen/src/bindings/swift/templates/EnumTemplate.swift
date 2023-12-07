@@ -65,7 +65,7 @@ name
 (
 )
 |
-enum_variant_swift
+enum_variant_swift_quoted
 }
 }
 {
@@ -202,7 +202,7 @@ name
 (
 )
 |
-enum_variant_swift
+enum_variant_swift_quoted
 }
 }
 {
@@ -237,7 +237,7 @@ name
 (
 )
 |
-var_name
+arg_name
 }
 }
 :
@@ -354,7 +354,7 @@ name
 (
 )
 |
-enum_variant_swift
+enum_variant_swift_quoted
 }
 }
 (
@@ -485,7 +485,7 @@ name
 (
 )
 |
-enum_variant_swift
+enum_variant_swift_quoted
 }
 }
 :

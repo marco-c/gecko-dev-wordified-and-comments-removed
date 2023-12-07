@@ -44,7 +44,7 @@ null
 {
 {
 {
-inner
+inner_type
 .
 ffi_converter
 (
@@ -90,7 +90,7 @@ case
 return
 {
 {
-inner
+inner_type
 .
 ffi_converter
 (
@@ -159,7 +159,7 @@ writeUint8
 ;
 {
 {
-inner
+inner_type
 .
 ffi_converter
 (
@@ -204,7 +204,7 @@ return
 +
 {
 {
-inner
+inner_type
 .
 ffi_converter
 (
