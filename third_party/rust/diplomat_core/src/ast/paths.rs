@@ -34,6 +34,10 @@ Ord
 PartialOrd
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 struct
 Path

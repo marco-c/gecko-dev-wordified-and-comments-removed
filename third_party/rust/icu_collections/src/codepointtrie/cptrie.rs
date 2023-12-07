@@ -3539,8 +3539,6 @@ databake
 quote
 !
 {
-:
-:
 icu_collections
 :
 :
@@ -7050,8 +7048,6 @@ TrieType
 :
 Small
 }
-:
-:
 zerovec
 :
 :
@@ -7061,8 +7057,6 @@ ZeroVec
 new
 (
 )
-:
-:
 zerovec
 :
 :

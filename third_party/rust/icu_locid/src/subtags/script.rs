@@ -34,7 +34,7 @@ Unicode
 base
 language
 code
-conformat
+conformant
 to
 the
 /
@@ -144,9 +144,7 @@ tr35
 unicode_script_id
 Script
 subtags
-:
-:
-Script
+script
 subtags_script
 4
 .

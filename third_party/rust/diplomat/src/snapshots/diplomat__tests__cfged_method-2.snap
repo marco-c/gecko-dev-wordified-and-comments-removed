@@ -171,7 +171,7 @@ cfg
 feature
 =
 "
-bar
+foo
 "
 )
 ]
@@ -182,7 +182,7 @@ cfg
 feature
 =
 "
-foo
+bar
 "
 )
 ]

@@ -36,8 +36,6 @@ Criterion
 let
 best_ex
 =
-vec
-!
 [
 0x41
 0x46

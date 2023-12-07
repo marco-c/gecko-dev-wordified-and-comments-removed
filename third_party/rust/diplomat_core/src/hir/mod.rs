@@ -1,4 +1,7 @@
 mod
+attrs
+;
+mod
 defs
 ;
 mod
@@ -27,6 +30,13 @@ type_context
 ;
 mod
 types
+;
+pub
+use
+attrs
+:
+:
+*
 ;
 pub
 use

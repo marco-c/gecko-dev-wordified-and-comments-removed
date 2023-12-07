@@ -40,7 +40,7 @@ Unicode
 base
 language
 code
-conformat
+conformant
 to
 the
 /
@@ -303,9 +303,7 @@ tr35
 unicode_language_id
 Language
 subtags
-:
-:
-Language
+language
 subtags_language
 2
 .
@@ -499,14 +497,12 @@ icu
 locid
 :
 :
-{
 subtags
 :
 :
-Language
-subtags_language
-as
+{
 language
+Language
 }
 ;
 /

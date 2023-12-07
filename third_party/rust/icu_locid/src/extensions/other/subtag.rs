@@ -76,8 +76,12 @@ icu
 locid
 :
 :
-extensions_other_subtag
-as
+extensions
+:
+:
+other
+:
+:
 subtag
 ;
 /
@@ -113,9 +117,7 @@ extensions
 :
 :
 other
-:
-:
-Subtag
+subtag
 extensions_other_subtag
 2
 .

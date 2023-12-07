@@ -143,9 +143,7 @@ extensions
 :
 :
 transform
-:
-:
-Key
+key
 extensions_transform_key
 2
 .

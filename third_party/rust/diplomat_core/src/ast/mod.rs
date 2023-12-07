@@ -1,9 +1,13 @@
 pub
-(
-crate
-)
 mod
 attrs
+;
+pub
+use
+attrs
+:
+:
+Attrs
 ;
 mod
 methods

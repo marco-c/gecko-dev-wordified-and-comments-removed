@@ -107,7 +107,9 @@ methods
 output_only
 :
 false
-cfg_attrs
+attrs
+:
+cfg
 :
 [
 ]

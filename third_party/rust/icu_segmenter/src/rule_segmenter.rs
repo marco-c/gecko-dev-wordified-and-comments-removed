@@ -586,10 +586,6 @@ advance_iter
 )
 ;
 let
-right_prop
-=
-if
-let
 Some
 (
 right_prop
@@ -600,9 +596,6 @@ self
 get_current_break_property
 (
 )
-{
-right_prop
-}
 else
 {
 self
@@ -723,6 +716,12 @@ previous_left_prop
 =
 left_prop
 ;
+break_state
+&
+=
+!
+INTERMEDIATE_MATCH_RULE
+;
 loop
 {
 self
@@ -731,10 +730,6 @@ advance_iter
 (
 )
 ;
-let
-prop
-=
-if
 let
 Some
 (
@@ -746,9 +741,6 @@ self
 get_current_break_property
 (
 )
-{
-prop
-}
 else
 {
 self
@@ -777,6 +769,12 @@ eot_property
 =
 NOT_MATCH_RULE
 {
+self
+.
+boundary_property
+=
+previous_left_prop
+;
 self
 .
 iter

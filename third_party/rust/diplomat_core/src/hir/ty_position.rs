@@ -77,6 +77,10 @@ Copy
 Clone
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 struct
 Everywhere
@@ -89,6 +93,10 @@ Debug
 Copy
 Clone
 )
+]
+#
+[
+non_exhaustive
 ]
 pub
 struct

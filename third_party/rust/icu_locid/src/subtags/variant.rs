@@ -37,7 +37,7 @@ Unicode
 base
 language
 code
-conformat
+conformant
 to
 the
 /
@@ -147,9 +147,7 @@ tr35
 unicode_variant_id
 Variant
 subtags
-:
-:
-Variant
+variant
 subtags_variant
 4
 .

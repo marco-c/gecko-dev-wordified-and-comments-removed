@@ -355,6 +355,16 @@ PartialOrd
 Ord
 )
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+exhaustive_enums
+)
+]
 pub
 enum
 MaybeStatic

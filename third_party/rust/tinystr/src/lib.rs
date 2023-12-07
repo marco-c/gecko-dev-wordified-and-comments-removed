@@ -72,6 +72,9 @@ error
 mod
 int_ops
 ;
+mod
+unvalidated
+;
 #
 [
 cfg
@@ -150,6 +153,13 @@ error
 :
 :
 TinyStrError
+;
+pub
+use
+unvalidated
+:
+:
+UnvalidatedTinyAsciiStr
 ;
 pub
 type

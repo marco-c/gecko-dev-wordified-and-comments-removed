@@ -34,6 +34,10 @@ Debug
 Clone
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 ValidityError

@@ -987,8 +987,6 @@ test_sum
 let
 lens
 =
-vec
-!
 [
 LengthHint
 :
@@ -1046,8 +1044,6 @@ exact
 let
 lens
 =
-vec
-!
 [
 LengthHint
 :
@@ -1104,8 +1100,6 @@ at_least
 let
 lens
 =
-vec
-!
 [
 LengthHint
 :
@@ -1162,8 +1156,6 @@ at_least
 let
 lens
 =
-vec
-!
 [
 4
 1

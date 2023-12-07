@@ -574,8 +574,6 @@ ZeroHashMap
 :
 from_iter
 (
-vec
-!
 [
 (
 0
@@ -596,10 +594,6 @@ c
 "
 )
 ]
-.
-into_iter
-(
-)
 )
 }
 fn

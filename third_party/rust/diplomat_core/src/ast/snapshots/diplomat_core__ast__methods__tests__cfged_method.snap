@@ -132,8 +132,12 @@ MyStructContainingMethod
 n
 None
 &
-[
-]
+Attrs
+:
+:
+default
+(
+)
 )
 "
 -
@@ -208,7 +212,9 @@ lifetime_env
 :
 {
 }
-cfg_attrs
+attrs
+:
+cfg
 :
 -
 "

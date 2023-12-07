@@ -350,7 +350,7 @@ Attributes
 >
 (
 )
-24
+16
 )
 ;
 assert_eq
@@ -431,7 +431,7 @@ Private
 >
 (
 )
-24
+16
 )
 ;
 assert_eq
@@ -454,7 +454,7 @@ Extensions
 >
 (
 )
-152
+136
 )
 ;
 assert_eq
@@ -474,7 +474,7 @@ Locale
 >
 (
 )
-184
+168
 )
 ;
 }
