@@ -74,7 +74,10 @@ aHandle
 const
 RefPtr
 <
-SharedContextWebgl
+DrawTargetWebgl
+:
+:
+SharedContext
 >
 &
 aSharedContext
@@ -440,7 +443,10 @@ SourceSurfaceWebgl
 :
 OnUnlinkTexture
 (
-SharedContextWebgl
+DrawTargetWebgl
+:
+:
+SharedContext
 *
 aContext
 )
@@ -542,7 +548,10 @@ subHandle
 ;
 RefPtr
 <
-SharedContextWebgl
+DrawTargetWebgl
+:
+:
+SharedContext
 >
 sharedContext
 ;

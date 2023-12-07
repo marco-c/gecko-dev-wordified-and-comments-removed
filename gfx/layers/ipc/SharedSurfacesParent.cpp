@@ -156,7 +156,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-1000
+50
 )
 ;
 void
@@ -450,8 +450,6 @@ wr
 ExternalImageId
 &
 aId
-bool
-aAllowWait
 )
 {
 StaticMonitorAutoLock
@@ -523,16 +521,6 @@ surface
 )
 )
 {
-if
-(
-!
-aAllowWait
-)
-{
-return
-nullptr
-;
-}
 CVStatus
 status
 =
