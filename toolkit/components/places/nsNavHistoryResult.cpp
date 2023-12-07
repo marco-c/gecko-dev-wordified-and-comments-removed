@@ -3747,7 +3747,6 @@ mChildren
 Sort
 (
 aComparator
-nullptr
 )
 ;
 for
@@ -3840,7 +3839,6 @@ mChildren
 [
 0
 ]
-nullptr
 )
 ;
 if
@@ -3889,7 +3887,6 @@ Count
 -
 1
 ]
-nullptr
 )
 ;
 if
@@ -3971,7 +3968,6 @@ mChildren
 [
 center
 ]
-nullptr
 )
 ;
 if
@@ -4117,7 +4113,6 @@ mChildren
 [
 aIndex
 ]
-nullptr
 )
 >
 0
@@ -4155,7 +4150,6 @@ aIndex
 +
 1
 ]
-nullptr
 )
 >
 0
@@ -4255,9 +4249,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -4284,9 +4275,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 uint32_t
@@ -4394,7 +4382,6 @@ SortComparison_Bookmark
 (
 a
 b
-closure
 )
 ;
 }
@@ -4416,9 +4403,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -4427,7 +4411,6 @@ SortComparison_TitleLess
 (
 a
 b
-closure
 )
 ;
 }
@@ -4443,9 +4426,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 int32_t
@@ -4508,7 +4488,6 @@ SortComparison_Bookmark
 (
 a
 b
-closure
 )
 ;
 }
@@ -4529,9 +4508,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -4543,7 +4519,6 @@ SortComparison_DateLess
 (
 a
 b
-closure
 )
 ;
 }
@@ -4559,9 +4534,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 int32_t
@@ -4624,7 +4596,6 @@ SortComparison_Bookmark
 (
 a
 b
-closure
 )
 ;
 }
@@ -4645,9 +4616,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -4659,7 +4627,6 @@ SortComparison_DateAddedLess
 (
 a
 b
-closure
 )
 ;
 }
@@ -4675,9 +4642,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 int32_t
@@ -4740,7 +4704,6 @@ SortComparison_Bookmark
 (
 a
 b
-closure
 )
 ;
 }
@@ -4761,9 +4724,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -4775,7 +4735,6 @@ SortComparison_LastModifiedLess
 (
 a
 b
-closure
 )
 ;
 }
@@ -4791,9 +4750,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 int32_t
@@ -4943,7 +4899,6 @@ SortComparison_Bookmark
 (
 a
 b
-closure
 )
 ;
 }
@@ -4964,9 +4919,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -4975,7 +4927,6 @@ SortComparison_URILess
 (
 a
 b
-closure
 )
 ;
 }
@@ -4991,9 +4942,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 int32_t
@@ -5050,7 +4998,6 @@ SortComparison_Bookmark
 (
 a
 b
-closure
 )
 ;
 }
@@ -5071,9 +5018,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -5085,7 +5029,6 @@ SortComparison_VisitCountLess
 (
 a
 b
-closure
 )
 ;
 }
@@ -5101,9 +5044,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 int32_t
@@ -5170,7 +5110,6 @@ SortComparison_TitleLess
 (
 a
 b
-closure
 )
 ;
 }
@@ -5190,9 +5129,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -5201,7 +5137,6 @@ SortComparison_TagsLess
 (
 a
 b
-closure
 )
 ;
 }
@@ -5217,9 +5152,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 int32_t
@@ -5276,7 +5208,6 @@ SortComparison_Bookmark
 (
 a
 b
-closure
 )
 ;
 }
@@ -5297,9 +5228,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 {
 return
@@ -5311,7 +5239,6 @@ SortComparison_FrecencyLess
 (
 a
 b
-closure
 )
 ;
 }
@@ -8744,7 +8671,6 @@ mChildren
 Sort
 (
 aComparator
-nullptr
 )
 ;
 }

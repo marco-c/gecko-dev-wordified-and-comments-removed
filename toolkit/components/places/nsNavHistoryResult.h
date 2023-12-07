@@ -2083,9 +2083,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2098,9 +2095,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2113,9 +2107,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2128,9 +2119,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2143,9 +2131,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2158,9 +2143,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2173,9 +2155,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2188,9 +2167,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2203,9 +2179,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2218,9 +2191,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2233,9 +2203,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2248,9 +2215,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2263,9 +2227,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2278,9 +2239,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2293,9 +2251,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2308,9 +2263,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 static
@@ -2323,9 +2275,6 @@ a
 nsNavHistoryResultNode
 *
 b
-void
-*
-closure
 )
 ;
 nsNavHistoryResultNode
