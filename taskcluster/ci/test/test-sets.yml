@@ -572,6 +572,12 @@ sheriffed
 -
 browsertime
 -
+tp6
+-
+webextensions
+-
+browsertime
+-
 benchmark
 -
 browsertime
@@ -669,6 +675,12 @@ tp6
 live
 -
 sheriffed
+-
+browsertime
+-
+tp6
+-
+webextensions
 -
 browsertime
 -
