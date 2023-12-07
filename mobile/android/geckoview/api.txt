@@ -21775,6 +21775,16 @@ public
 static
 final
 int
+ERROR_UNSUPPORTED_ADDON_TYPE
+=
+-
+12
+;
+field
+public
+static
+final
+int
 ERROR_USER_CANCELED
 =
 -

@@ -4555,6 +4555,15 @@ public
 static
 final
 int
+ERROR_UNSUPPORTED_ADDON_TYPE
+=
+-
+12
+;
+public
+static
+final
+int
 ERROR_USER_CANCELED
 =
 -
@@ -4816,6 +4825,9 @@ ERROR_USER_CANCELED
 ErrorCodes
 .
 ERROR_POSTPONED
+ErrorCodes
+.
+ERROR_UNSUPPORTED_ADDON_TYPE
 }
 )
 public
