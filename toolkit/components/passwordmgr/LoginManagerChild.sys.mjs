@@ -9738,6 +9738,11 @@ this
 onDOMFormHasPassword
 (
 event
+this
+.
+document
+.
+defaultView
 )
 ;
 let
@@ -10989,6 +10994,7 @@ isPrimaryPasswordSet
 onDOMFormHasPassword
 (
 event
+window
 )
 {
 if
@@ -11002,6 +11008,13 @@ isTrusted
 return
 ;
 }
+this
+.
+setupProgressListener
+(
+window
+)
+;
 const
 isPrimaryPasswordSet
 =

@@ -14099,6 +14099,7 @@ aForm
 {
 BeforeSetForm
 (
+aForm
 aBindToTree
 )
 ;

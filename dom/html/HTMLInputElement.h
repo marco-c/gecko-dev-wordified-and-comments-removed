@@ -3855,6 +3855,9 @@ override
 void
 BeforeSetForm
 (
+HTMLFormElement
+*
+aForm
 bool
 aBindToTree
 )
@@ -5163,6 +5166,14 @@ EventChainVisitor
 aVisitor
 )
 const
+;
+void
+MaybeDispatchLoginManagerEvents
+(
+HTMLFormElement
+*
+aForm
+)
 ;
 void
 MaybeFireInputPasswordRemoved
