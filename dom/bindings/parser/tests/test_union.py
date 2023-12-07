@@ -1,5 +1,7 @@
 import
 string
+import
+WebIDL
 def
 chain
 (
@@ -1056,7 +1058,9 @@ finish
 )
         
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
             
 threw

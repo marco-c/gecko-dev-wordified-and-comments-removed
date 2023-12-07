@@ -1,3 +1,5 @@
+import
+WebIDL
 def
 should_throw
 (
@@ -37,7 +39,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw

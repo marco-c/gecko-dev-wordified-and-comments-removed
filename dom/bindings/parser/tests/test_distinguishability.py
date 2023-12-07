@@ -1,3 +1,5 @@
+import
+WebIDL
 def
 firstArgType
 (
@@ -995,7 +997,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -1123,7 +1127,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -2715,7 +2721,17 @@ finish
 )
         
 except
-Exception
+WebIDL
+.
+WebIDLError
+:
+            
+threw
+=
+True
+        
+except
+AssertionError
 :
             
 threw

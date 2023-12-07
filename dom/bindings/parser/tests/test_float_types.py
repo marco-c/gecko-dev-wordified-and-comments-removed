@@ -643,7 +643,9 @@ arg
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -719,7 +721,9 @@ arg
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -802,7 +806,9 @@ arg
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -889,7 +895,9 @@ arg
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -969,7 +977,9 @@ foo
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
