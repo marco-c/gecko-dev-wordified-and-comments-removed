@@ -1343,7 +1343,7 @@ nsIHttpChannelInternal
 ;
 channel
 .
-getRequestVersion
+getResponseVersion
 (
 httpVersionMaj
 httpVersionMin

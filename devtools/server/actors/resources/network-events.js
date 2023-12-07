@@ -1067,6 +1067,14 @@ responseStart
 :
 resourceUpdates
 .
+httpVersion
+=
+updateResource
+.
+httpVersion
+;
+resourceUpdates
+.
 status
 =
 updateResource
