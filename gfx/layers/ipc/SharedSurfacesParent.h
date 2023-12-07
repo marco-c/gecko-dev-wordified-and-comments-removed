@@ -187,6 +187,10 @@ wr
 ExternalImageId
 &
 aId
+bool
+aAllowWait
+=
+false
 )
 ;
 static
