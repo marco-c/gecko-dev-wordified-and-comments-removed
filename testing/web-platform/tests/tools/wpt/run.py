@@ -3107,6 +3107,9 @@ self
 browser
 .
 apk_path
+timeout
+=
+600
 )
             
 elif
