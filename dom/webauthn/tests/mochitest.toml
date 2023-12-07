@@ -98,6 +98,15 @@ enable_conditional_mediation
 =
 true
 "
+"
+security
+.
+webauthn
+.
+enable_macos_passkeys
+=
+false
+"
 ]
 [
 "
