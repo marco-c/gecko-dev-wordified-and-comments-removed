@@ -804,7 +804,7 @@ eInteger
 ;
 if
 (
-IsEditableRoot
+IsEditingHost
 (
 )
 |

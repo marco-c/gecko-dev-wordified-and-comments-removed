@@ -4063,6 +4063,13 @@ const
 ;
 inline
 bool
+IsEditingHost
+(
+)
+const
+;
+inline
+bool
 IsInDesignMode
 (
 )

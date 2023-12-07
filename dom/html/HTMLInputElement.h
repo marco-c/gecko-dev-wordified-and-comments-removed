@@ -874,6 +874,20 @@ SetLastValueChangeWasInteractive
 bool
 )
 ;
+bool
+IsSingleLineTextControlOrTextArea
+(
+)
+const
+override
+{
+return
+IsSingleLineTextControl
+(
+false
+)
+;
+}
 void
 SetValueChanged
 (
@@ -962,6 +976,7 @@ TextEditor
 GetTextEditorWithoutCreation
 (
 )
+const
 override
 ;
 nsISelectionController
@@ -3552,6 +3567,7 @@ bool
 HasEditor
 (
 )
+const
 ;
 bool
 IsInputEventTarget

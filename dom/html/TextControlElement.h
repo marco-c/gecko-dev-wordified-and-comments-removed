@@ -118,6 +118,15 @@ return
 true
 ;
 }
+virtual
+bool
+IsSingleLineTextControlOrTextArea
+(
+)
+const
+=
+0
+;
 NS_IMPL_FROMNODE_HELPER
 (
 TextControlElement
@@ -244,6 +253,7 @@ TextEditor
 GetTextEditorWithoutCreation
 (
 )
+const
 =
 0
 ;

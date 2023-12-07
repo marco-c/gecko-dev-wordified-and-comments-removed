@@ -3598,14 +3598,6 @@ GetHrefURIForAnchors
 )
 const
 ;
-public
-:
-bool
-IsEditableRoot
-(
-)
-const
-;
 private
 :
 void

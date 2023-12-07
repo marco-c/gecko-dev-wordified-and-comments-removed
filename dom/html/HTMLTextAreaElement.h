@@ -266,6 +266,17 @@ SetLastValueChangeWasInteractive
 bool
 )
 ;
+bool
+IsSingleLineTextControlOrTextArea
+(
+)
+const
+override
+{
+return
+true
+;
+}
 void
 SetValueChanged
 (
@@ -354,6 +365,7 @@ TextEditor
 GetTextEditorWithoutCreation
 (
 )
+const
 override
 ;
 nsISelectionController
@@ -1517,6 +1529,7 @@ bool
 HasEditor
 (
 )
+const
 {
 MOZ_ASSERT
 (

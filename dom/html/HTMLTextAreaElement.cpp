@@ -931,6 +931,7 @@ HTMLTextAreaElement
 GetTextEditorWithoutCreation
 (
 )
+const
 {
 MOZ_ASSERT
 (

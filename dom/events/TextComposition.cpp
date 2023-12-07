@@ -2440,7 +2440,7 @@ if
 contentObserver
 -
 >
-IsManaging
+IsObserving
 (
 *
 this
@@ -2708,7 +2708,7 @@ contentObserver
 contentObserver
 -
 >
-IsManaging
+IsObserving
 (
 *
 this

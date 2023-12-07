@@ -523,6 +523,9 @@ class
 MappedDeclarationsBuilder
 ;
 class
+EditorBase
+;
+class
 ErrorResult
 ;
 class
@@ -4209,6 +4212,13 @@ bool
 HasVisibleScrollbars
 (
 )
+;
+EditorBase
+*
+GetEditorWithoutCreation
+(
+)
+const
 ;
 private
 :
