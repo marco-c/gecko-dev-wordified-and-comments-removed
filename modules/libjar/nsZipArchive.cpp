@@ -3362,6 +3362,12 @@ sig
 !
 =
 ENDSIG
+&
+&
+sig
+!
+=
+ENDSIG64
 )
 {
 return
