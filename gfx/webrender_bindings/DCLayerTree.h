@@ -1699,6 +1699,15 @@ mSlowPresentCount
 =
 0
 ;
+bool
+mFirstPresent
+=
+true
+;
+const
+UINT
+mSwapChainBufferCount
+;
 }
 ;
 class
