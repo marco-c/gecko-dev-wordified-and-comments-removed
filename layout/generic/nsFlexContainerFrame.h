@@ -1117,8 +1117,9 @@ const
 nscoord
 aMaxBlockEndEdgeOfChildren
 const
-bool
-aAnyChildIncomplete
+nsReflowStatus
+&
+aChildrenStatus
 const
 FlexboxAxisTracker
 &
@@ -1134,7 +1135,7 @@ std
 tuple
 <
 nscoord
-bool
+nsReflowStatus
 >
 ReflowChildren
 (
