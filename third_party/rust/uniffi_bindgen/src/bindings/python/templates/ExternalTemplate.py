@@ -2,9 +2,9 @@
 %
 -
 let
-ns
+mod_name
 =
-namespace
+crate_name
 |
 fn_name
 %
@@ -16,7 +16,7 @@ let
 ffi_converter_name
 =
 "
-_UniffiConverterType
+FfiConverterType
 {
 }
 "
@@ -33,7 +33,7 @@ self
 .
 add_import_of
 (
-ns
+mod_name
 ffi_converter_name
 )
 }
@@ -44,7 +44,7 @@ self
 .
 add_import_of
 (
-ns
+mod_name
 name
 )
 }
@@ -57,7 +57,7 @@ let
 rustbuffer_local_name
 =
 "
-_UniffiRustBuffer
+RustBuffer
 {
 }
 "
@@ -74,9 +74,9 @@ self
 .
 add_import_of_as
 (
-ns
+mod_name
 "
-_UniffiRustBuffer
+RustBuffer
 "
 rustbuffer_local_name
 )

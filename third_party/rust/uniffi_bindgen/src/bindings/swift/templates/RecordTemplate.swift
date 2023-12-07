@@ -359,7 +359,7 @@ name
 (
 )
 |
-arg_name
+var_name
 }
 }
 :

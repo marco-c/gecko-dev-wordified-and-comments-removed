@@ -1,7 +1,7 @@
 class
-_UniffiConverterUInt8
+FfiConverterUInt8
 (
-_UniffiConverterPrimitiveInt
+FfiConverterPrimitiveInt
 )
 :
     
@@ -34,14 +34,14 @@ buf
 return
 buf
 .
-read_u8
+readU8
 (
 )
     
 staticmethod
     
 def
-write_unchecked
+writeUnchecked
 (
 value
 buf
@@ -50,7 +50,7 @@ buf
         
 buf
 .
-write_u8
+writeU8
 (
 value
 )

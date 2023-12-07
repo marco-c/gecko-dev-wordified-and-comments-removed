@@ -1,7 +1,7 @@
 class
-_UniffiConverterBytes
+FfiConverterBytes
 (
-_UniffiConverterRustBuffer
+FfiConverterRustBuffer
 )
 :
     
@@ -18,7 +18,7 @@ size
 =
 buf
 .
-read_i32
+readI32
 (
 )
         
@@ -101,7 +101,7 @@ __name__
         
 buf
 .
-write_i32
+writeI32
 (
 len
 (

@@ -63,7 +63,7 @@ push
 (
 {
 {
-inner_type
+inner
 .
 ffi_converter
 (
@@ -110,7 +110,7 @@ innerValue
 {
 {
 {
-inner_type
+inner
 .
 ffi_converter
 (
@@ -158,7 +158,7 @@ size
 =
 {
 {
-inner_type
+inner
 .
 ffi_converter
 (
@@ -222,7 +222,7 @@ try
 {
 {
 {
-inner_type
+inner
 .
 ffi_converter
 (

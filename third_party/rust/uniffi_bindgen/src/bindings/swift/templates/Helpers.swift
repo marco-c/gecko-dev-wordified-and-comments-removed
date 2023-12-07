@@ -215,13 +215,6 @@ Int8
 =
 2
 fileprivate
-let
-CALL_CANCELLED
-:
-Int8
-=
-3
-fileprivate
 extension
 RustCallStatus
 {
@@ -562,13 +555,6 @@ panic
 "
 )
 }
-case
-CALL_CANCELLED
-:
-throw
-CancellationError
-(
-)
 default
 :
 throw

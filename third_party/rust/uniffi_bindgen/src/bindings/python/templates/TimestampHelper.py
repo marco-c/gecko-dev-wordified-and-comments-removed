@@ -4,9 +4,9 @@ datetime
 .
 datetime
 class
-_UniffiConverterTimestamp
+FfiConverterTimestamp
 (
-_UniffiConverterRustBuffer
+FfiConverterRustBuffer
 )
 :
     
@@ -23,7 +23,7 @@ seconds
 =
 buf
 .
-read_i64
+readI64
 (
 )
         
@@ -31,7 +31,7 @@ microseconds
 =
 buf
 .
-read_u32
+readU32
 (
 )
 /
@@ -207,7 +207,7 @@ microseconds
         
 buf
 .
-write_i64
+writeI64
 (
 sign
 *
@@ -216,7 +216,7 @@ seconds
         
 buf
 .
-write_u32
+writeU32
 (
 nanoseconds
 )

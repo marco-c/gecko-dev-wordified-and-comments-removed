@@ -1,5 +1,5 @@
 class
-_UniffiRustBuffer
+RustBuffer
 (
 ctypes
 .
@@ -55,9 +55,9 @@ size
 :
         
 return
-_rust_call
+rust_call
 (
-_UniffiLib
+_UniFFILib
 .
 {
 {
@@ -86,9 +86,9 @@ additional
 :
         
 return
-_rust_call
+rust_call
 (
-_UniffiLib
+_UniFFILib
 .
 {
 {
@@ -115,9 +115,9 @@ self
 :
         
 return
-_rust_call
+rust_call
 (
-_UniffiLib
+_UniFFILib
 .
 {
 {
@@ -144,7 +144,7 @@ self
         
 return
 "
-_UniffiRustBuffer
+RustBuffer
 (
 capacity
 =
@@ -190,7 +190,7 @@ contextlib
 contextmanager
     
 def
-alloc_with_builder
+allocWithBuilder
 (
 *
 args
@@ -209,7 +209,7 @@ a
 buffer
 using
 a
-_UniffiRustBufferBuilder
+RustBufferBuilder
 .
         
 The
@@ -241,7 +241,7 @@ it
         
 builder
 =
-_UniffiRustBufferBuilder
+RustBufferBuilder
 (
 )
         
@@ -267,7 +267,7 @@ contextlib
 contextmanager
     
 def
-consume_with_stream
+consumeWithStream
 (
 self
 )
@@ -285,11 +285,11 @@ a
 buffer
 using
 a
-_UniffiRustBufferStream
+RustBufferStream
 .
         
 The
-_UniffiRustBuffer
+RustBuffer
 will
 be
 freed
@@ -324,7 +324,7 @@ try
             
 s
 =
-_UniffiRustBufferStream
+RustBufferStream
 .
 from_rust_buffer
 (
@@ -357,7 +357,7 @@ buffer
 at
 end
 of
-consume_with_stream
+consumeWithStream
 "
 )
         
@@ -375,7 +375,7 @@ contextlib
 contextmanager
     
 def
-read_with_stream
+readWithStream
 (
 self
 )
@@ -393,13 +393,13 @@ a
 buffer
 using
 a
-_UniffiRustBufferStream
+RustBufferStream
 .
         
 This
 is
 like
-consume_with_stream
+consumeWithStream
 but
 doesn
 '
@@ -417,7 +417,7 @@ be
 used
 with
 borrowed
-_UniffiRustBuffer
+RustBuffer
 data
 .
         
@@ -427,7 +427,7 @@ data
         
 s
 =
-_UniffiRustBufferStream
+RustBufferStream
 .
 from_rust_buffer
 (
@@ -460,11 +460,11 @@ buffer
 at
 end
 of
-read_with_stream
+readWithStream
 "
 )
 class
-_UniffiForeignBytes
+ForeignBytes
 (
 ctypes
 .
@@ -510,7 +510,7 @@ self
         
 return
 "
-_UniffiForeignBytes
+ForeignBytes
 (
 len
 =
@@ -540,7 +540,7 @@ len
 ]
 )
 class
-_UniffiRustBufferStream
+RustBufferStream
 :
     
 "
@@ -555,7 +555,7 @@ of
 bytes
 from
 a
-_UniffiRustBuffer
+RustBuffer
     
 "
 "
@@ -756,7 +756,7 @@ return
 data
     
 def
-read_i8
+readI8
 (
 self
 )
@@ -775,7 +775,7 @@ b
 )
     
 def
-read_u8
+readU8
 (
 self
 )
@@ -794,7 +794,7 @@ B
 )
     
 def
-read_i16
+readI16
 (
 self
 )
@@ -813,7 +813,7 @@ h
 )
     
 def
-read_u16
+readU16
 (
 self
 )
@@ -832,7 +832,7 @@ H
 )
     
 def
-read_i32
+readI32
 (
 self
 )
@@ -851,7 +851,7 @@ i
 )
     
 def
-read_u32
+readU32
 (
 self
 )
@@ -870,7 +870,7 @@ I
 )
     
 def
-read_i64
+readI64
 (
 self
 )
@@ -889,7 +889,7 @@ q
 )
     
 def
-read_u64
+readU64
 (
 self
 )
@@ -908,7 +908,7 @@ Q
 )
     
 def
-read_float
+readFloat
 (
 self
 )
@@ -931,7 +931,7 @@ return
 v
     
 def
-read_double
+readDouble
 (
 self
 )
@@ -950,7 +950,7 @@ d
 )
     
 def
-read_c_size_t
+readCSizeT
 (
 self
 )
@@ -974,7 +974,7 @@ N
 "
 )
 class
-_UniffiRustBufferBuilder
+RustBufferBuilder
 :
     
 "
@@ -989,7 +989,7 @@ of
 bytes
 into
 a
-_UniffiRustBuffer
+RustBuffer
 .
     
 "
@@ -1007,7 +1007,7 @@ self
 .
 rbuf
 =
-_UniffiRustBuffer
+RustBuffer
 .
 alloc
 (
@@ -1082,7 +1082,7 @@ def
 _reserve
 (
 self
-num_bytes
+numBytes
 )
 :
         
@@ -1093,7 +1093,7 @@ rbuf
 .
 len
 +
-num_bytes
+numBytes
 >
 self
 .
@@ -1106,14 +1106,14 @@ self
 .
 rbuf
 =
-_UniffiRustBuffer
+RustBuffer
 .
 reserve
 (
 self
 .
 rbuf
-num_bytes
+numBytes
 )
         
 yield
@@ -1126,7 +1126,7 @@ rbuf
 len
 +
 =
-num_bytes
+numBytes
     
 def
 _pack_into
@@ -1228,7 +1228,7 @@ i
 byte
     
 def
-write_i8
+writeI8
 (
 self
 v
@@ -1248,7 +1248,7 @@ v
 )
     
 def
-write_u8
+writeU8
 (
 self
 v
@@ -1268,7 +1268,7 @@ v
 )
     
 def
-write_i16
+writeI16
 (
 self
 v
@@ -1288,7 +1288,7 @@ v
 )
     
 def
-write_u16
+writeU16
 (
 self
 v
@@ -1308,7 +1308,7 @@ v
 )
     
 def
-write_i32
+writeI32
 (
 self
 v
@@ -1328,7 +1328,7 @@ v
 )
     
 def
-write_u32
+writeU32
 (
 self
 v
@@ -1348,7 +1348,7 @@ v
 )
     
 def
-write_i64
+writeI64
 (
 self
 v
@@ -1368,7 +1368,7 @@ v
 )
     
 def
-write_u64
+writeU64
 (
 self
 v
@@ -1388,7 +1388,7 @@ v
 )
     
 def
-write_float
+writeFloat
 (
 self
 v
@@ -1408,7 +1408,7 @@ v
 )
     
 def
-write_double
+writeDouble
 (
 self
 v
@@ -1428,7 +1428,7 @@ v
 )
     
 def
-write_c_size_t
+writeCSizeT
 (
 self
 v

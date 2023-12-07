@@ -9,7 +9,15 @@
 uniffi
 :
 :
-derive_enum_for_udl
+ffi_converter_enum
+(
+tag
+=
+crate
+:
+:
+UniFfiTag
+)
 ]
 enum
 r

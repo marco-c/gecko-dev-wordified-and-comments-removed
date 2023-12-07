@@ -1,7 +1,7 @@
 class
-_UniffiConverterBool
+FfiConverterBool
 (
-_UniffiConverterPrimitive
+FfiConverterPrimitive
 )
 :
     
@@ -37,7 +37,7 @@ lift
 (
 buf
 .
-read_u8
+readU8
 (
 )
 )
@@ -45,7 +45,7 @@ read_u8
 classmethod
     
 def
-write_unchecked
+writeUnchecked
 (
 cls
 value
@@ -55,7 +55,7 @@ buf
         
 buf
 .
-write_u8
+writeU8
 (
 value
 )

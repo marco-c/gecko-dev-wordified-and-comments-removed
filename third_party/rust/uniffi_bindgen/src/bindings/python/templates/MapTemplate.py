@@ -27,7 +27,7 @@ ffi_converter_name
 }
 }
 (
-_UniffiConverterRustBuffer
+FfiConverterRustBuffer
 )
 :
     
@@ -44,7 +44,7 @@ buf
         
 buf
 .
-write_i32
+writeI32
 (
 len
 (
@@ -103,7 +103,7 @@ count
 =
 buf
 .
-read_i32
+readI32
 (
 )
         

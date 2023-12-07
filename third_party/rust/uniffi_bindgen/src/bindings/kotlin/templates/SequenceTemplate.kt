@@ -7,9 +7,6 @@ inner_type_name
 inner_type
 |
 type_name
-(
-ci
-)
 %
 }
 public

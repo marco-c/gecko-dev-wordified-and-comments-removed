@@ -1,7 +1,7 @@
 class
-_UniffiConverterDouble
+FfiConverterDouble
 (
-_UniffiConverterPrimitiveFloat
+FfiConverterPrimitiveFloat
 )
 :
     
@@ -17,14 +17,14 @@ buf
 return
 buf
 .
-read_double
+readDouble
 (
 )
     
 staticmethod
     
 def
-write_unchecked
+writeUnchecked
 (
 value
 buf
@@ -33,7 +33,7 @@ buf
         
 buf
 .
-write_double
+writeDouble
 (
 value
 )

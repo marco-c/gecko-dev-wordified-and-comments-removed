@@ -19,7 +19,7 @@ self
 .
 external_type_module
 (
-module_path
+crate_name
 )
 }
 }

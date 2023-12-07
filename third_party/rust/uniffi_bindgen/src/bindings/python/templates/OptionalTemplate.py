@@ -16,7 +16,7 @@ ffi_converter_name
 }
 }
 (
-_UniffiConverterRustBuffer
+FfiConverterRustBuffer
 )
 :
     
@@ -39,7 +39,7 @@ None
             
 buf
 .
-write_u8
+writeU8
 (
 0
 )
@@ -48,7 +48,7 @@ return
         
 buf
 .
-write_u8
+writeU8
 (
 1
 )
@@ -79,7 +79,7 @@ flag
 =
 buf
 .
-read_u8
+readU8
 (
 )
         

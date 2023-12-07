@@ -4,9 +4,9 @@ datetime
 .
 timedelta
 class
-_UniffiConverterDuration
+FfiConverterDuration
 (
-_UniffiConverterRustBuffer
+FfiConverterRustBuffer
 )
 :
     
@@ -23,7 +23,7 @@ seconds
 =
 buf
 .
-read_u64
+readU64
 (
 )
         
@@ -31,7 +31,7 @@ microseconds
 =
 buf
 .
-read_u32
+readU32
 (
 )
 /
@@ -106,14 +106,14 @@ negative
         
 buf
 .
-write_i64
+writeI64
 (
 seconds
 )
         
 buf
 .
-write_u32
+writeU32
 (
 nanoseconds
 )

@@ -1,7 +1,7 @@
 class
-_UniffiConverterInt32
+FfiConverterInt32
 (
-_UniffiConverterPrimitiveInt
+FfiConverterPrimitiveInt
 )
 :
     
@@ -38,14 +38,14 @@ buf
 return
 buf
 .
-read_i32
+readI32
 (
 )
     
 staticmethod
     
 def
-write_unchecked
+writeUnchecked
 (
 value
 buf
@@ -54,7 +54,7 @@ buf
         
 buf
 .
-write_i32
+writeI32
 (
 value
 )
