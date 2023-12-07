@@ -1892,8 +1892,10 @@ IsDefunct
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 IPCAccessibilityActive
@@ -2270,8 +2272,10 @@ if
 !
 mDocument
 )
+{
 return
 ;
+}
 }
 if
 (
