@@ -105,6 +105,16 @@ youtube
 .
 json
 "
+                
+"
+condprof
+/
+customization
+/
+webext
+.
+json
+"
             
 ]
         
