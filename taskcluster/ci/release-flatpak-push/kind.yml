@@ -234,15 +234,6 @@ shipping
 product
 :
 firefox
-flathub
--
-scope
-:
-"
-flathub
-:
-firefox
-"
 treeherder
 :
 symbol
