@@ -92,6 +92,17 @@ Skip
 exit
 fi
 #
+Bail
+out
+once
+getting
+an
+error
+.
+set
+-
+e
+#
 Ideally
 sanitizers
 should

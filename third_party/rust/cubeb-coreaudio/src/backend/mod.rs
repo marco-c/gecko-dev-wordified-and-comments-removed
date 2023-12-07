@@ -16627,7 +16627,9 @@ p
 .
 rate
 =
-output_hw_desc
+self
+.
+input_dev_desc
 .
 mSampleRate
 as
