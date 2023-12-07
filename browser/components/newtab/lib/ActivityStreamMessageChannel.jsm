@@ -793,6 +793,14 @@ simulatedDetails
 ;
 }
 }
+lazy
+.
+AboutNewTabParent
+.
+flushQueuedMessagesFromContent
+(
+)
+;
 }
 onNewTabInit
 (
