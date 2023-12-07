@@ -31,6 +31,9 @@ log
 neg
 '
 '
+reciprocal
+'
+'
 sin
 '
 '
