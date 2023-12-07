@@ -1498,6 +1498,17 @@ inline
 )
 ;
 }
+view
+-
+opentabs
+-
+contextmenu
+{
+display
+:
+contents
+;
+}
 /
 *
 This
