@@ -442,6 +442,10 @@ unregister
 "
 )
 ;
+mPresShell
+=
+nullptr
+;
 int32_t
 childDocCount
 =
@@ -503,10 +507,6 @@ Clear
 )
 ;
 mDocument
-=
-nullptr
-;
-mPresShell
 =
 nullptr
 ;
@@ -2439,6 +2439,9 @@ mObservingState
 =
 =
 eNotObservingRefresh
+&
+&
+mPresShell
 )
 {
 if
