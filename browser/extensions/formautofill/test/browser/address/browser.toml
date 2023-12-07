@@ -123,6 +123,13 @@ js
 ]
 [
 "
+browser_address_doorhanger_unsupported_region
+.
+js
+"
+]
+[
+"
 browser_address_telemetry
 .
 js
