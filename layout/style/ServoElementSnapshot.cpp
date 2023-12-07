@@ -70,10 +70,6 @@ mIsTableBorderNonzero
 (
 false
 )
-mIsMozBrowserFrame
-(
-false
-)
 mIsSelectListBox
 (
 false
@@ -147,14 +143,6 @@ return
 mIsTableBorderNonzero
 =
 Gecko_IsTableBorderNonzero
-(
-&
-aElement
-)
-;
-mIsMozBrowserFrame
-=
-Gecko_IsBrowserFrame
 (
 &
 aElement
