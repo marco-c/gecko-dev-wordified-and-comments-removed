@@ -7,10 +7,6 @@ description
 :
 Reformat
 python
-include
-:
--
-mach
 exclude
 :
 -
