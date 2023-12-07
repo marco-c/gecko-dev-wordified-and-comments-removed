@@ -352,11 +352,6 @@ sendOrder
 =
 0
 ;
-boolean
-waitUntilAvailable
-=
-false
-;
 }
 ;
 dictionary

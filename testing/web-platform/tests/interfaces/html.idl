@@ -5074,11 +5074,6 @@ DOMString
 error
 )
 ;
-undefined
-showPicker
-(
-)
-;
 readonly
 attribute
 NodeList

@@ -2799,6 +2799,7 @@ required
 GPUShaderModule
 module
 ;
+required
 USVString
 entryPoint
 ;
@@ -3801,6 +3802,15 @@ offset
 optional
 GPUSize64
 size
+)
+;
+undefined
+writeTimestamp
+(
+GPUQuerySet
+querySet
+GPUSize32
+queryIndex
 )
 ;
 undefined

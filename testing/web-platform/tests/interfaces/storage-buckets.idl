@@ -143,10 +143,14 @@ long
 long
 ?
 quota
+=
+null
 ;
 DOMHighResTimeStamp
 ?
 expires
+=
+null
 ;
 }
 ;
