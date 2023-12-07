@@ -58,6 +58,14 @@ storage
 access
 "
 _ns
+"
+screen
+-
+wake
+-
+lock
+"
+_ns
 }
 ;
 const

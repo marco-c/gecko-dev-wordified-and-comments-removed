@@ -177,6 +177,7 @@ DocHidden
 PolicyDisallowed
 PrefDisabled
 InternalFailure
+PermissionDenied
 }
 ;
 static
