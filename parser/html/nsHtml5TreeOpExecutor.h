@@ -916,6 +916,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 ;
 void
@@ -937,6 +941,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 ;
 void

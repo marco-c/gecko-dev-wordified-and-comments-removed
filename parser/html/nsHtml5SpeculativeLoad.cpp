@@ -446,6 +446,7 @@ mUrlOrSizes
 mCrossOrigin
 mMedia
 mReferrerPolicyOrIntegrity
+mFetchPriority
 )
 ;
 break
@@ -462,6 +463,7 @@ mUrlOrSizes
 mCrossOrigin
 mMedia
 mReferrerPolicyOrIntegrity
+mFetchPriority
 )
 ;
 break

@@ -221,6 +221,8 @@ const
 gfxFontFaceSrc
 *
 aFontFaceSrc
+int32_t
+aSupportsPriorityValue
 )
 {
 if
@@ -413,12 +415,9 @@ priorityChannel
 priorityChannel
 -
 >
-AdjustPriority
+SetPriority
 (
-nsISupportsPriority
-:
-:
-PRIORITY_HIGH
+aSupportsPriorityValue
 )
 ;
 }
@@ -499,6 +498,8 @@ nsIInterfaceRequestor
 aCallbacks
 bool
 aIsPreload
+int32_t
+aSupportsPriorityValue
 )
 {
 nsresult
@@ -661,6 +662,7 @@ channel
 httpChannel
 referrerInfo
 aFontFaceSrc
+aSupportsPriorityValue
 )
 ;
 NS_ENSURE_SUCCESS
@@ -880,6 +882,10 @@ channel
 httpChannel
 referrerInfo
 aFontFaceSrc
+nsISupportsPriority
+:
+:
+PRIORITY_HIGH
 )
 ;
 NS_ENSURE_SUCCESS

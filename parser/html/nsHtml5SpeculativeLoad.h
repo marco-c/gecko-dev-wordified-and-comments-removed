@@ -380,6 +380,8 @@ nsHtml5String
 aMedia
 nsHtml5String
 aReferrerPolicy
+nsHtml5String
+aFetchPriority
 )
 {
 MOZ_ASSERT
@@ -453,6 +455,13 @@ referrerPolicy
 )
 )
 ;
+aFetchPriority
+.
+ToString
+(
+mFetchPriority
+)
+;
 mIsLinkPreload
 =
 true
@@ -470,6 +479,8 @@ nsHtml5String
 aMedia
 nsHtml5String
 aReferrerPolicy
+nsHtml5String
+aFetchPriority
 )
 {
 MOZ_ASSERT
@@ -541,6 +552,13 @@ IsHTMLWhitespace
 (
 referrerPolicy
 )
+)
+;
+aFetchPriority
+.
+ToString
+(
+mFetchPriority
 )
 ;
 mIsLinkPreload

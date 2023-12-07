@@ -77,6 +77,8 @@ nsIInterfaceRequestor
 aCallbacks
 uint64_t
 aEarlyHintPreloaderId
+int32_t
+aSupportsPriorityValue
 )
 {
 if
@@ -115,6 +117,7 @@ aDocument
 aLoadGroup
 aCallbacks
 true
+aSupportsPriorityValue
 )
 ;
 }
