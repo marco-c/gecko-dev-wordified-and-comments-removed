@@ -11164,12 +11164,6 @@ case
 StyleAppearance
 :
 :
-Treeheadersortarrow
-:
-case
-StyleAppearance
-:
-:
 Treeline
 :
 break
@@ -14822,12 +14816,6 @@ StyleAppearance
 :
 :
 Treeheadercell
-:
-case
-StyleAppearance
-:
-:
-Treeheadersortarrow
 :
 case
 StyleAppearance

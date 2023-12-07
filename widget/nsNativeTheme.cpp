@@ -353,15 +353,6 @@ aAppearance
 StyleAppearance
 :
 :
-Treeheadersortarrow
-|
-|
-aAppearance
-=
-=
-StyleAppearance
-:
-:
 ButtonArrowPrevious
 |
 |
