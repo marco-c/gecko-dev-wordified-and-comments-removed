@@ -4047,6 +4047,7 @@ depends
 (
 mozillabuild_bin_paths
 clang_search_path
+rust_search_path
 target
 original_path
 )
@@ -4061,6 +4062,7 @@ altered_path
 (
 mozillabuild_bin_paths
 clang_search_path
+rust_search_path
 target
 original_path
 )
@@ -4086,6 +4088,10 @@ else
 path
 =
 original_path
+path
++
+=
+rust_search_path
 for
 p
 in

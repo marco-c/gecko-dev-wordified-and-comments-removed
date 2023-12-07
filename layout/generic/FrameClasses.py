@@ -6,12 +6,15 @@ Frame
 COMMON
 =
 {
+    
 "
 SupportsCSSTransforms
 "
+    
 "
 SupportsContainLayoutAndPaint
 "
+    
 "
 SupportsAspectRatio
 "
@@ -304,6 +307,7 @@ REPLACED_WITH_BLOCK
     
 Frame
 (
+        
 "
 nsComboboxDisplayFrame
 "
@@ -317,6 +321,7 @@ REPLACED_WITH_BLOCK
 Replaced
 "
 }
+    
 )
     
 Frame
@@ -1288,12 +1293,15 @@ SVG_CONTAINER
     
 Frame
 (
+        
 "
 SVGOuterSVGFrame
 "
+        
 "
 SVGOuterSVG
 "
+        
 SVG_CONTAINER
 |
 {
@@ -1307,6 +1315,7 @@ ReplacedSizing
 SupportsContainLayoutAndPaint
 "
 }
+    
 )
     
 Frame

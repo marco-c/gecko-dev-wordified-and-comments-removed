@@ -168,12 +168,16 @@ get_mozilla_upstream_remote
 )
     
 assert
+(
+        
 remote
 =
 =
 "
 central
 "
+    
+)
 "
 Any
 other
@@ -202,9 +206,13 @@ get_mozilla_upstream_remote
 )
     
 assert
+(
+        
 remote
 is
 None
+    
+)
 "
 None
 should

@@ -3575,7 +3575,6 @@ suggested_commands
 =
 set
 (
-            
 difflib
 .
 get_close_matches
@@ -3588,7 +3587,6 @@ cutoff
 .
 5
 )
-        
 )
         
 suggested_commands

@@ -611,13 +611,13 @@ nobara
 oracle
 "
     
-'
+"
 fedora
 -
 asahi
 -
 remix
-'
+"
 )
 ADD_GIT_CINNABAR_PATH
 =
