@@ -630,6 +630,10 @@ PRemoteDecoderManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aParentId
 )
 {
 MOZ_ASSERT
@@ -654,6 +658,7 @@ move
 (
 aEndpoint
 )
+aParentId
 )
 )
 {

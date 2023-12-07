@@ -2728,6 +2728,9 @@ move
 (
 aEndpoint
 )
+ContentParentId
+(
+)
 true
 )
 ;
@@ -3549,6 +3552,10 @@ PCompositorManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aChildId
 )
 {
 CompositorManagerParent
@@ -3563,6 +3570,7 @@ move
 (
 aEndpoint
 )
+aChildId
 false
 )
 ;
@@ -3591,6 +3599,10 @@ PImageBridgeParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aChildId
 )
 {
 if
@@ -3608,6 +3620,7 @@ move
 (
 aEndpoint
 )
+aChildId
 )
 )
 {
@@ -3643,6 +3656,10 @@ PVRManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aChildId
 )
 {
 if
@@ -3660,6 +3677,7 @@ move
 (
 aEndpoint
 )
+aChildId
 )
 )
 {
@@ -3695,6 +3713,10 @@ PRemoteDecoderManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aChildId
 )
 {
 if
@@ -3712,6 +3734,7 @@ move
 (
 aEndpoint
 )
+aChildId
 )
 )
 {

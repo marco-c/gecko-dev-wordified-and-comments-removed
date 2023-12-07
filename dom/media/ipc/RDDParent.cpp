@@ -962,6 +962,10 @@ PRemoteDecoderManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aParentId
 )
 {
 if
@@ -979,6 +983,7 @@ move
 (
 aEndpoint
 )
+aParentId
 )
 )
 {

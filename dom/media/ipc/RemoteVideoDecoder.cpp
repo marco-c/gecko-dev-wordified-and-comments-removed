@@ -1286,6 +1286,12 @@ texture
 InitIPDLActor
 (
 mKnowsCompositor
+mParent
+-
+>
+GetContentId
+(
+)
 )
 ;
 texture

@@ -16450,6 +16450,7 @@ imageBridge
 vrBridge
 &
 videoManager
+mChildID
 &
 namespaces
 )
@@ -17208,6 +17209,7 @@ imageBridge
 vrBridge
 &
 videoManager
+mChildID
 &
 namespaces
 )

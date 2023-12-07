@@ -748,6 +748,13 @@ const
 TextureFlags
 &
 const
+dom
+:
+:
+ContentParentId
+&
+aContentId
+const
 uint64_t
 &
 aSerial
@@ -824,6 +831,13 @@ LayersBackend
 aLayersBackend
 TextureFlags
 aFlags
+const
+dom
+:
+:
+ContentParentId
+&
+aContentId
 uint64_t
 aSerial
 wr
@@ -854,6 +868,7 @@ aReadLock
 )
 aLayersBackend
 aFlags
+aContentId
 aSerial
 )
 ;

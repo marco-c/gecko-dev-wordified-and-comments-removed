@@ -4273,6 +4273,12 @@ GetCompositorBackendType
 GetFlags
 (
 )
+dom
+:
+:
+ContentParentId
+(
+)
 mSerial
 mExternalImageId
 )
@@ -4407,6 +4413,13 @@ InitIPDLActor
 KnowsCompositor
 *
 aKnowsCompositor
+const
+dom
+:
+:
+ContentParentId
+&
+aContentId
 )
 {
 MOZ_ASSERT
@@ -4655,6 +4668,7 @@ GetCompositorBackendType
 GetFlags
 (
 )
+aContentId
 mSerial
 mExternalImageId
 )

@@ -2658,6 +2658,12 @@ InitIPDLActor
 WrBridge
 (
 )
+dom
+:
+:
+ContentParentId
+(
+)
 )
 ;
 if
