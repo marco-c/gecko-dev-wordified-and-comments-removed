@@ -315,6 +315,9 @@ NS_OK
 ;
 }
 }
+#
+ifndef
+XP_WIN
 class
 nsBaseFilePicker
 :
@@ -462,6 +465,8 @@ mCallback
 ;
 }
 ;
+#
+endif
 class
 nsBaseFilePickerEnumerator
 :
@@ -879,6 +884,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+XP_WIN
 NS_IMETHODIMP
 nsBaseFilePicker
 :
@@ -910,6 +918,8 @@ filePickerEvent
 )
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsBaseFilePicker
 :
