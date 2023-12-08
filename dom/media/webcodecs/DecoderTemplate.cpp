@@ -2270,6 +2270,8 @@ RefPtr
 this
 }
 ]
+(
+)
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
@@ -4543,6 +4545,8 @@ move
 data
 )
 ]
+(
+)
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
@@ -5093,6 +5097,8 @@ this
 }
 promise
 ]
+(
+)
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 promise
@@ -5294,6 +5300,8 @@ move
 data
 )
 ]
+(
+)
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
