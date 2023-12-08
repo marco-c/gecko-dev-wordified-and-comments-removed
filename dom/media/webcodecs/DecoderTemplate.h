@@ -969,6 +969,15 @@ nsresult
 aResult
 )
 ;
+Result
+<
+Ok
+nsresult
+>
+CloseInternalWithAbort
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 ReportError
