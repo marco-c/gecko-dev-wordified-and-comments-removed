@@ -1090,7 +1090,10 @@ mURI
 nsCString
 mRequestedProtocolList
 ;
-nsWeakPtr
+WeakPtr
+<
+Document
+>
 mOriginDocument
 ;
 nsCString
@@ -7154,10 +7157,7 @@ rv
 }
 mOriginDocument
 =
-do_GetWeakReference
-(
 originDoc
-)
 ;
 if
 (
@@ -8172,8 +8172,6 @@ nsCOMPtr
 Document
 >
 doc
-=
-do_QueryReferent
 (
 mOriginDocument
 )

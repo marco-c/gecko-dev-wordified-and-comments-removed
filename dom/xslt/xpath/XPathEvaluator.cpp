@@ -310,10 +310,7 @@ aDocument
 :
 mDocument
 (
-do_GetWeakReference
-(
 aDocument
-)
 )
 {
 }
@@ -353,8 +350,6 @@ nsCOMPtr
 Document
 >
 doc
-=
-do_QueryReferent
 (
 mDocument
 )
@@ -414,8 +409,6 @@ nsCOMPtr
 Document
 >
 doc
-=
-do_QueryReferent
 (
 mDocument
 )
