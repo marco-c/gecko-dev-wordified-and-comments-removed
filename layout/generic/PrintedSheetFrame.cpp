@@ -17,15 +17,6 @@ include
 "
 mozilla
 /
-StaticPrefs_layout
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_print
 .
 h
@@ -1021,7 +1012,7 @@ if
 StaticPrefs
 :
 :
-layout_css_page_orientation_enabled
+print_save_as_pdf_use_page_rule_size_as_paper_size_enabled
 (
 )
 )
