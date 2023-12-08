@@ -8119,6 +8119,12 @@ MOZ_NEVER_INLINE
 __attribute__
 (
 (
+no_profile_instrument_function
+)
+)
+__attribute__
+(
+(
 naked
 )
 )
