@@ -484,6 +484,16 @@ clear
 -
 icon
 "
+role
+=
+"
+button
+"
+tabindex
+=
+"
+0
+"
 ?
 hidden
 =
