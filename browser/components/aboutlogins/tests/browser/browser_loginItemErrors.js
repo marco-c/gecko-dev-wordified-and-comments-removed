@@ -636,6 +636,7 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
 button

@@ -264,6 +264,7 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
 button
@@ -312,9 +313,6 @@ item
 "
 )
 ;
-let
-editButton
-=
 loginItem
 .
 shadowRoot
@@ -322,6 +320,7 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
 button
@@ -336,8 +335,6 @@ querySelector
 button
 "
 )
-;
-editButton
 .
 click
 (
@@ -432,6 +429,7 @@ shadowRoot
 querySelector
 (
 "
+.
 create
 -
 login
