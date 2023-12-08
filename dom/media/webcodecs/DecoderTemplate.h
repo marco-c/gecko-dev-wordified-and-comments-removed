@@ -956,11 +956,7 @@ aResult
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-Result
-<
-Ok
-nsresult
->
+void
 CloseInternal
 (
 const
