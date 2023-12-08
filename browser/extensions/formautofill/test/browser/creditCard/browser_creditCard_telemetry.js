@@ -1142,6 +1142,9 @@ cc_exp
 "
 undetected
 "
+cc_number_multi_parts
+:
+1
 }
 "
 autocomplete
@@ -1452,6 +1455,9 @@ cc_exp
 "
 undetected
 "
+cc_number_multi_parts
+:
+1
 }
 "
 regexp
@@ -1696,6 +1702,9 @@ cc_number
 "
 1
 "
+cc_number_multi_parts
+:
+1
 }
 "
 undetected
@@ -2397,6 +2406,9 @@ cc_exp
 "
 undetected
 "
+cc_number_multi_parts
+:
+1
 }
 "
 autocomplete
@@ -2919,6 +2931,9 @@ cc_exp
 "
 undetected
 "
+cc_number_multi_parts
+:
+1
 }
 "
 autocomplete
@@ -3589,6 +3604,9 @@ cc_exp
 "
 undetected
 "
+cc_number_multi_parts
+:
+1
 }
 "
 autocomplete
@@ -4980,6 +4998,9 @@ cc_exp
 "
 undetected
 "
+cc_number_multi_parts
+:
+1
 }
 "
 autocomplete
