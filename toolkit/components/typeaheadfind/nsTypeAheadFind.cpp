@@ -881,14 +881,11 @@ NS_ERROR_FAILURE
 ;
 mDocument
 =
-do_GetWeakReference
-(
 aDocShell
 -
 >
 GetExtantDocument
 (
-)
 )
 ;
 ReleaseStrongMemberVariables
@@ -2021,10 +2018,7 @@ startingDocument
 {
 mDocument
 =
-do_GetWeakReference
-(
 document
-)
 ;
 }
 nsCOMPtr
@@ -5150,8 +5144,6 @@ RefPtr
 Document
 >
 doc
-=
-do_QueryReferent
 (
 mDocument
 )
@@ -5221,10 +5213,7 @@ GetExtantDocument
 ;
 mDocument
 =
-do_GetWeakReference
-(
 doc
-)
 ;
 return
 doc
