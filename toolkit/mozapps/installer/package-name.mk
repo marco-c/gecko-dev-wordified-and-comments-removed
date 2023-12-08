@@ -129,7 +129,7 @@ TARGET_RAW_OS
 )
 -
 (
-TARGET_CPU
+TARGET_RAW_CPU
 )
 ifeq
 (
@@ -146,13 +146,13 @@ MOZ_PKG_PLATFORM
 android
 -
 (
-TARGET_CPU
+TARGET_RAW_CPU
 )
 endif
 #
 TARGET_RAW_OS
 /
-TARGET_CPU
+TARGET_RAW_CPU
 may
 be
 unintuitive
@@ -229,7 +229,7 @@ MOZ_PKG_PLATFORM
 linux
 -
 (
-TARGET_CPU
+TARGET_RAW_CPU
 )
 endif
 endif

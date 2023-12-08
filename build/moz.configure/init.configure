@@ -4621,6 +4621,15 @@ TARGET_CPU
 "
 target
 .
+cpu
+)
+set_config
+(
+"
+TARGET_RAW_CPU
+"
+target
+.
 raw_cpu
 )
 set_config
