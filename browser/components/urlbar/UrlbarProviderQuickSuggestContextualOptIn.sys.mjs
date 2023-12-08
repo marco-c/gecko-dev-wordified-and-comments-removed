@@ -272,15 +272,6 @@ tag
 "
 strong
 "
-classList
-:
-[
-"
-urlbarView
--
-title
-"
-]
 }
 {
 name

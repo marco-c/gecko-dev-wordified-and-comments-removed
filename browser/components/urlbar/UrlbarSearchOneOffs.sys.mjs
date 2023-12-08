@@ -961,9 +961,6 @@ dynamic
 quickSuggestContextualOptIn
 -
 title
-urlbarView
--
-title
 "
 >
 <
