@@ -101,13 +101,6 @@ h
 #
 include
 "
-gfxPlatform
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ArrayUtils
@@ -140,13 +133,6 @@ mozilla
 gfx
 /
 gfxVars
-.
-h
-"
-#
-include
-"
-nsThreadUtils
 .
 h
 "
