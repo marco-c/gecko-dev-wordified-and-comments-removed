@@ -824,7 +824,7 @@ uniqueItems
 true
 }
 "
-channel
+channels
 "
 :
 {
@@ -834,7 +834,7 @@ title
 :
 "
 Release
-Channel
+Channels
 "
 "
 description

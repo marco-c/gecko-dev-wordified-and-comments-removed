@@ -532,7 +532,7 @@ environment
 :
 {
 "
-channel
+channels
 "
 :
 [
@@ -859,7 +859,7 @@ environment
 :
 {
 "
-channel
+channels
 "
 :
 [
@@ -1051,7 +1051,7 @@ us
 "
 ]
 "
-channel
+channels
 "
 :
 [
@@ -1594,7 +1594,7 @@ environment
 :
 {
 "
-channel
+channels
 "
 :
 [
