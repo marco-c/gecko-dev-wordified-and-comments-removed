@@ -488,6 +488,14 @@ SiteSpecificZoom
 )
 ITEM_VALUE
 (
+FontVisibilityRestrictGenerics
+1llu
+<
+<
+61
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
