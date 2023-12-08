@@ -66,9 +66,9 @@ OS_LIBS
 +
 =
 [
-'
+"
 foo
-'
+"
 ]
 template
 def

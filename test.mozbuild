@@ -92,7 +92,7 @@ DIRS
 +
 =
 [
-'
+"
 python
 /
 mozbuild
@@ -106,5 +106,5 @@ backend
 data
 /
 build
-'
+"
 ]

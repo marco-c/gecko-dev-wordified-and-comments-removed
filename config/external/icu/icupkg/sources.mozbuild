@@ -16,7 +16,7 @@ EDIT
 sources
 =
 [
-'
+"
 /
 intl
 /
@@ -31,5 +31,5 @@ icupkg
 icupkg
 .
 cpp
-'
+"
 ]

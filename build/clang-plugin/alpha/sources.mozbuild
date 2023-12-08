@@ -7,9 +7,9 @@ NonStdMoveChecker
 .
 cpp
 "
-'
+"
 TempRefPtrChecker
 .
 cpp
-'
+"
 ]

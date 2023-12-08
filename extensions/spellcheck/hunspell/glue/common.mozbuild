@@ -6,9 +6,9 @@ HunspellIncludes
 :
 ForceInclude
 (
-'
+"
 hunspell_alloc_hooks
 .
 h
-'
+"
 )
