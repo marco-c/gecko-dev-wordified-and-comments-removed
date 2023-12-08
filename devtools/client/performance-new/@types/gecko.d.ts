@@ -684,6 +684,10 @@ forceNonPrivate
 :
 boolean
 ;
+relatedToCurrent
+:
+boolean
+;
 resolveOnContentBrowserCreated
 :
 (
