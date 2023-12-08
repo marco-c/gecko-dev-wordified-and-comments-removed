@@ -1051,7 +1051,9 @@ nsCString
 >
 GuessMIMETypes
 (
+const
 MIMECreateParam
+&
 aParam
 )
 {
