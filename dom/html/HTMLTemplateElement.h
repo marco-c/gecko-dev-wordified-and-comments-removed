@@ -262,6 +262,17 @@ IgnoredErrorResult
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+void
+SetHTMLUnsafe
+(
+const
+nsAString
+&
+aHTML
+)
+final
+;
 protected
 :
 virtual
