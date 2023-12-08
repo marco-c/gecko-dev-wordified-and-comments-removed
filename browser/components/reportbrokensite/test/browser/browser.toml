@@ -77,6 +77,13 @@ js
 ]
 [
 "
+browser_error_messages
+.
+js
+"
+]
+[
+"
 browser_tab_switch_handling
 .
 js
