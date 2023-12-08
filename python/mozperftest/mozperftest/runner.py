@@ -1302,27 +1302,6 @@ activate_virtualenv
     
 install_package
 (
-mach_cmd
-.
-virtualenv_manager
-"
-opencv
--
-python
-=
-=
-4
-.
-5
-.
-4
-.
-60
-"
-)
-    
-install_package
-(
         
 mach_cmd
 .
@@ -1338,7 +1317,7 @@ tools
 .
 2
 .
-8
+9
 "
     
 )
