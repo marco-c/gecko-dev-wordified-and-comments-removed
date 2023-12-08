@@ -486,6 +486,13 @@ js
 ]
 [
 "
+test_PrivacyLevel
+.
+js
+"
+]
+[
+"
 test_ProfileAge
 .
 js
