@@ -122,6 +122,14 @@ L
 MozillaMaintenance
 "
 #
+define
+MAYBE_WAIT_TIMEOUT_MS
+(
+60U
+*
+1000U
+)
+#
 elif
 XP_MACOSX
 #

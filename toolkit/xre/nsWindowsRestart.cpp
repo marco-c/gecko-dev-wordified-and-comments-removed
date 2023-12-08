@@ -410,13 +410,9 @@ wchar_t
 argv
 HANDLE
 userToken
-=
-nullptr
 HANDLE
 *
 hProcess
-=
-nullptr
 )
 ;
 BOOL

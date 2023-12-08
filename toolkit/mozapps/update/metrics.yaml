@@ -1170,7 +1170,7 @@ send_in_pings
 background
 -
 update
-registered_restart_attempted
+automatic_restart_attempted
 :
 type
 :
@@ -1185,8 +1185,9 @@ background
 update
 task
 successfully
-registered
-a
+attempted
+an
+automatic
 restart
 .
 bugs
@@ -1253,7 +1254,7 @@ send_in_pings
 background
 -
 update
-registered_restart_success
+automatic_restart_success
 :
 type
 :
@@ -1270,8 +1271,8 @@ task
 successfully
 restarted
 after
-a
-registered
+an
+automatic
 restart
 .
 bugs
