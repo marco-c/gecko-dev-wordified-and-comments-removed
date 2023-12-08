@@ -343,15 +343,6 @@ backgroundtasks
 "
 tests
 /
-BackgroundTask_automaticrestart
-.
-sys
-.
-mjs
-"
-"
-tests
-/
 BackgroundTask_backgroundtask_specific_pref
 .
 sys
