@@ -163,6 +163,13 @@ aTarget
 )
 ;
 void
+ResetTimer
+(
+TimeDuration
+aDelay
+)
+;
+void
 SetMinimumUsefulBudget
 (
 int64_t

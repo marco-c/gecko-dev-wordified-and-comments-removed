@@ -566,6 +566,11 @@ aDelay
 )
 ;
 void
+EnsureOrResetGCRunner
+(
+)
+;
+void
 EnsureCCRunner
 (
 TimeDuration

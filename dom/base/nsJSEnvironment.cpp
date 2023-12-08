@@ -9306,9 +9306,8 @@ else
 sScheduler
 -
 >
-EnsureGCRunner
+EnsureOrResetGCRunner
 (
-0
 )
 ;
 }
