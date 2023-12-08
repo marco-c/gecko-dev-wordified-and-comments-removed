@@ -11823,6 +11823,11 @@ MayHaveDOMActivateListeners
 )
 const
 ;
+void
+DropStyleSet
+(
+)
+;
 protected
 :
 WindowContext

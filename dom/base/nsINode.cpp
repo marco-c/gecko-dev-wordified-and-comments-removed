@@ -3857,6 +3857,15 @@ RemoveAllProperties
 (
 )
 ;
+AsDocument
+(
+)
+-
+>
+DropStyleSet
+(
+)
+;
 }
 else
 {

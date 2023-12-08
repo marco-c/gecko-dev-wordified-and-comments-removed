@@ -2479,6 +2479,15 @@ char
 aPrefName
 )
 {
+if
+(
+!
+mPresShell
+)
+{
+return
+;
+}
 nsDependentCString
 prefName
 (
@@ -2535,11 +2544,6 @@ CheckDPIChange
 (
 )
 ;
-if
-(
-mPresShell
-)
-{
 OwningNonNull
 <
 mozilla
@@ -2641,7 +2645,6 @@ width
 height
 )
 ;
-}
 return
 ;
 }
@@ -2691,11 +2694,6 @@ enabled
 )
 )
 {
-if
-(
-mPresShell
-)
-{
 mPresShell
 -
 >
@@ -2703,7 +2701,6 @@ MaybeReflowForInflationScreenSizeChange
 (
 )
 ;
-}
 }
 auto
 changeHint
