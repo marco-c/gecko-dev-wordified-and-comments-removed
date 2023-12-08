@@ -430,7 +430,6 @@ Span
 call_site
 (
 )
-&
 format
 !
 (
@@ -1402,7 +1401,7 @@ methods
 )
 ?
 .
-into_iter
+iter
 (
 )
 .
