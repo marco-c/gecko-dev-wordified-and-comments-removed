@@ -8,11 +8,6 @@ h
 #
 include
 <
-cmath
->
-#
-include
-<
 limits
 >
 #
@@ -54,15 +49,6 @@ h
 include
 "
 ByteWriter
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ArrayUtils
 .
 h
 "
