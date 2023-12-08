@@ -12671,7 +12671,7 @@ char16_t
 {
 external1
 =
-JS_NewExternalString
+JS_NewExternalUCString
 (
 cx
 (
@@ -12717,7 +12717,7 @@ isExternal
 ;
 external2
 =
-JS_NewExternalString
+JS_NewExternalUCString
 (
 cx
 (

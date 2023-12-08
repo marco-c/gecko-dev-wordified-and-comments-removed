@@ -183,7 +183,7 @@ i
 {
 CHECK
 (
-JS_NewExternalString
+JS_NewExternalUCString
 (
 cx
 arr
@@ -195,7 +195,7 @@ callbacks1
 ;
 CHECK
 (
-JS_NewExternalString
+JS_NewExternalUCString
 (
 cx
 arr

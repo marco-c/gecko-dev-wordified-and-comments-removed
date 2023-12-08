@@ -7561,7 +7561,7 @@ value
 JS_PUBLIC_API
 JSString
 *
-JS_NewExternalString
+JS_NewExternalUCString
 (
 JSContext
 *
@@ -7603,7 +7603,7 @@ callbacks
 JS_PUBLIC_API
 JSString
 *
-JS_NewMaybeExternalString
+JS_NewMaybeExternalUCString
 (
 JSContext
 *
