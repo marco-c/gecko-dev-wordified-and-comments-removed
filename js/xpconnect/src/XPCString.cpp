@@ -393,7 +393,7 @@ shared
 if
 (
 !
-StringBufferToJSVal
+UCStringBufferToJSVal
 (
 cx
 buf
