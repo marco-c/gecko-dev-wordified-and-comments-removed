@@ -12,6 +12,11 @@ atomic
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 DecoderTypes
 .
@@ -2265,6 +2270,7 @@ RefPtr
 this
 }
 ]
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
 -
@@ -3242,6 +3248,9 @@ RefPtr
 this
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -3389,6 +3398,7 @@ ResolveOrRejectValue
 &
 aResult
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -3633,6 +3643,9 @@ RefPtr
 self
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -3881,6 +3894,7 @@ closeOnError
 ]
 (
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 mProcessingMessage
 .
@@ -3903,6 +3917,9 @@ RefPtr
 this
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -4099,6 +4116,7 @@ ResolveOrRejectValue
 &
 aResult
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -4348,6 +4366,9 @@ RefPtr
 self
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -4522,6 +4543,7 @@ move
 data
 )
 ]
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
 -
@@ -4820,6 +4842,7 @@ ResolveOrRejectValue
 &
 aResult
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -5070,6 +5093,7 @@ this
 }
 promise
 ]
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 promise
 -
@@ -5270,6 +5294,7 @@ move
 data
 )
 ]
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
 -
@@ -5497,6 +5522,7 @@ this
 ]
 (
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 LOG
 (
@@ -5727,6 +5753,7 @@ mWorkerRef
 (
 bool
 )
+MOZ_CAN_RUN_SCRIPT
 {
 LOG
 (
