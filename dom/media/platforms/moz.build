@@ -218,11 +218,6 @@ PlatformDecoderModule
 cpp
 "
 "
-PlatformEncoderModule
-.
-cpp
-"
-"
 wrappers
 /
 AudioTrimmer
