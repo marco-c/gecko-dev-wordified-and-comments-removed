@@ -290,7 +290,9 @@ finish
 )
     
 except
-AssertionError
+WebIDL
+.
+WebIDLError
 :
         
 threw

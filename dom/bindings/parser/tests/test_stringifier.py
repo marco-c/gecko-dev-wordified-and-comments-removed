@@ -123,7 +123,9 @@ finish
 )
     
 except
-AssertionError
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -926,7 +928,9 @@ finish
 )
     
 except
-AssertionError
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -1012,7 +1016,9 @@ finish
 )
     
 except
-AssertionError
+WebIDL
+.
+WebIDLError
 :
         
 threw

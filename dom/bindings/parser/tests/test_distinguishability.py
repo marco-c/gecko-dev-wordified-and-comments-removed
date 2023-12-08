@@ -2730,14 +2730,6 @@ threw
 =
 True
         
-except
-AssertionError
-:
-            
-threw
-=
-True
-        
 if
 areDistinguishable
 (
