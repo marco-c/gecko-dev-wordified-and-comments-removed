@@ -5479,12 +5479,7 @@ Document
 GetFullscreenRoot
 (
 )
-const
-{
-return
-mFullscreenRoot
 ;
-}
 size_t
 CountFullscreenElements
 (
@@ -5498,12 +5493,7 @@ Document
 *
 aRoot
 )
-{
-mFullscreenRoot
-=
-aRoot
 ;
-}
 static
 void
 ExitFullscreenInDocTree
@@ -14087,10 +14077,7 @@ nsWeakPtr
 >
 mTopLayer
 ;
-WeakPtr
-<
-Document
->
+nsWeakPtr
 mFullscreenRoot
 ;
 RefPtr
