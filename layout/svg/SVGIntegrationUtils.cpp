@@ -4818,6 +4818,8 @@ const
 StyleFilter
 >
 aFilters
+StyleFilterType
+aStyleFilterType
 WrFiltersHolder
 &
 aWrFilters
@@ -4834,6 +4836,7 @@ BuildWebRenderFilters
 (
 aFilteredFrame
 aFilters
+aStyleFilterType
 aWrFilters
 aInitialized
 )
@@ -4888,6 +4891,10 @@ BuildWebRenderFilters
 (
 aFrame
 filterChain
+StyleFilterType
+:
+:
+Filter
 wrFilters
 initialized
 )

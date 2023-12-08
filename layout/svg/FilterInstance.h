@@ -386,6 +386,8 @@ mozilla
 StyleFilter
 >
 aFilters
+StyleFilterType
+aStyleFilterType
 WrFiltersHolder
 &
 aWrFilters
@@ -480,6 +482,8 @@ mozilla
 StyleFilter
 >
 aFilters
+StyleFilterType
+aStyleFilterType
 WrFiltersHolder
 &
 aWrFilters

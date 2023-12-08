@@ -137,6 +137,16 @@ nsDisplayList
 class
 nsDisplayListBuilder
 ;
+enum
+class
+StyleFilterType
+:
+uint8_t
+{
+BackdropFilter
+Filter
+}
+;
 namespace
 gfx
 {
@@ -471,6 +481,8 @@ const
 StyleFilter
 >
 aFilters
+StyleFilterType
+aStyleFilterType
 WrFiltersHolder
 &
 aWrFilters
