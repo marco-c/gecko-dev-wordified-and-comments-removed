@@ -203,6 +203,15 @@ override
 ;
 private
 :
+void
+DoStringify
+(
+nsACString
+&
+aData
+)
+override
+;
 struct
 Entry
 {

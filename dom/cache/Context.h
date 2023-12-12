@@ -237,6 +237,9 @@ mOwningEventTarget
 ;
 class
 Activity
+:
+public
+Stringifyable
 {
 public
 :
