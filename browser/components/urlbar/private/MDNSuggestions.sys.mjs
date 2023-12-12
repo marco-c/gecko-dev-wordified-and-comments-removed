@@ -348,6 +348,7 @@ this
 .
 #
 suggestionsMap
+?
 .
 clear
 (
