@@ -285,7 +285,7 @@ CreateEncoder
 )
 )
 {
-mModules
+mCurrentPEMs
 .
 AppendElement
 (
@@ -333,7 +333,7 @@ CreateEncoder
 )
 )
 {
-mModules
+mCurrentPEMs
 .
 AppendElement
 (
