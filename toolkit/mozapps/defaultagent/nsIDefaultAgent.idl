@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-nsICommandLine
+nsISupports
 .
 idl
 "

@@ -1011,7 +1011,7 @@ telemetry
 .
 console
 .
-error
+info
 (
 "
 Pinged
