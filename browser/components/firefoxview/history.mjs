@@ -351,6 +351,11 @@ SEARCH_DEBOUNCE_TIMEOUT_MS
 =
 1000
 ;
+const
+SEARCH_RESULTS_LIMIT
+=
+300
+;
 class
 HistoryInView
 extends
@@ -835,9 +840,7 @@ searchHistory
 this
 .
 searchQuery
-lazy
-.
-maxRowsPref
+SEARCH_RESULTS_LIMIT
 )
 ;
 }
