@@ -1773,6 +1773,11 @@ Ci
 nsITimer
 )
 ;
+let
+didTimeOut
+=
+false
+;
 if
 (
 typeof
@@ -2012,6 +2017,10 @@ end
 )
 )
 {
+didTimeOut
+=
+true
+;
 resolve
 (
 rejected
@@ -2069,12 +2078,7 @@ res
 {
 if
 (
-Number
-.
-isInteger
-(
-timeout
-)
+didTimeOut
 )
 {
 lazy
