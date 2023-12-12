@@ -1032,10 +1032,13 @@ esc
 .
 isSafeChar
 (
+uint8_t
+(
 s
 [
 i
 ]
+)
 )
 )
 {
@@ -1161,8 +1164,11 @@ convertInto
 out
 char16_t
 (
+uint8_t
+(
 *
 b
+)
 )
 )
 ;
@@ -1197,7 +1203,10 @@ isSafeChar
 (
 char16_t
 (
+uint8_t
+(
 c
+)
 )
 )
 )
@@ -1222,7 +1231,10 @@ convertInto
 out
 char16_t
 (
+uint8_t
+(
 c
+)
 )
 )
 ;
