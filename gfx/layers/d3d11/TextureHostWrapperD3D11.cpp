@@ -1348,6 +1348,9 @@ size
 colorSpace
 colorRange
 false
+Nothing
+(
+)
 )
 ;
 RefPtr
