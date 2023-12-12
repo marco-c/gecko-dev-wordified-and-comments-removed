@@ -1,3 +1,17 @@
+if
+"
+self
+"
+not
+in
+globals
+(
+)
+:
+    
+self
+=
+None
 old
 =
 self
