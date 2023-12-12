@@ -1108,7 +1108,7 @@ id
 )
 ;
 static
-nsAString
+nsString
 *
 sWindowProtocol
 [
@@ -1145,7 +1145,7 @@ id
 )
 ;
 static
-nsAString
+nsString
 *
 sDeviceVendors
 [
@@ -1172,7 +1172,7 @@ id
 )
 ;
 static
-nsAString
+nsString
 *
 sDriverVendors
 [
