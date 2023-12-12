@@ -405,6 +405,16 @@ BUTTON_DELAY_ENABLE
 const
 unsigned
 long
+SHOW_SPINNER
+=
+1
+<
+<
+27
+;
+const
+unsigned
+long
 STD_OK_CANCEL_BUTTONS
 =
 (
