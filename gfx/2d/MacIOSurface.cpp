@@ -1228,7 +1228,7 @@ CFDataRef
 :
 WrapUnderCreateRule
 (
-CGColorSpaceCopyICCProfile
+CGColorSpaceCopyICCData
 (
 colorSpace
 .
@@ -1577,7 +1577,7 @@ CFDataRef
 :
 WrapUnderCreateRule
 (
-CGColorSpaceCopyICCProfile
+CGColorSpaceCopyICCData
 (
 colorSpace
 .
