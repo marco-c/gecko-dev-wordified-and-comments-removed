@@ -106,7 +106,7 @@ override
 {
 return
 "
-Apple
+FFmpeg
 Encoder
 Module
 "
