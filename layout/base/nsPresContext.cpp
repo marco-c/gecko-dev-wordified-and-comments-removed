@@ -1135,6 +1135,15 @@ FlushFontCache
 (
 )
 ;
+if
+(
+!
+mPresShell
+)
+{
+return
+;
+}
 nsChangeHint
 changeHint
 =
