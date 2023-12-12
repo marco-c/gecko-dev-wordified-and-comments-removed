@@ -354,8 +354,6 @@ autofill
 -
 add
 -
-new
--
 card
 -
 title
@@ -365,9 +363,9 @@ autofill
 -
 manage
 -
-credit
+payment
 -
-cards
+methods
 -
 title
 "
