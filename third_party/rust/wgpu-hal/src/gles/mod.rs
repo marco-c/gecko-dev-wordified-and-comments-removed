@@ -483,6 +483,12 @@ Fence
 Fence
 ;
 type
+AccelerationStructure
+=
+(
+)
+;
+type
 BindGroupLayout
 =
 BindGroupLayout
@@ -3403,6 +3409,9 @@ u32
 unclipped_depth
 :
 bool
+polygon_mode
+:
+u32
 }
 type
 InvalidatedAttachments

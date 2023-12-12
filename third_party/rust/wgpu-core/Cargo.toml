@@ -511,15 +511,6 @@ default
 link
 "
 ]
-dx11
-=
-[
-"
-hal
-/
-dx11
-"
-]
 dx12
 =
 [

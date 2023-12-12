@@ -2934,6 +2934,11 @@ textures
 [
 texture_binding
 ]
+acceleration_structures
+:
+&
+[
+]
 entries
 :
 &
@@ -3079,6 +3084,11 @@ samplers
 [
 ]
 textures
+:
+&
+[
+]
+acceleration_structures
 :
 &
 [

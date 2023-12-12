@@ -202,6 +202,11 @@ ComputePipeline
 =
 ComputePipeline
 ;
+type
+AccelerationStructure
+=
+AccelerationStructure
+;
 }
 pub
 struct
@@ -4090,3 +4095,14 @@ for
 CommandBuffer
 {
 }
+#
+[
+derive
+(
+Debug
+)
+]
+pub
+struct
+AccelerationStructure
+;
