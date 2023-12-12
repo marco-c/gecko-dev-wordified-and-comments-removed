@@ -1734,6 +1734,11 @@ mIsColumnBalancing
 1
 ;
 bool
+mIsInLastColumnBalancingReflow
+:
+1
+;
+bool
 mColumnSetWrapperHasNoBSizeLeft
 :
 1

@@ -1546,6 +1546,11 @@ HasAnyStateBits
 NS_FRAME_CONTAINS_RELATIVE_BSIZE
 )
 )
+|
+|
+mFlags
+.
+mIsInLastColumnBalancingReflow
 ;
 }
 void
