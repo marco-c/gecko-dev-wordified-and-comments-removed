@@ -725,6 +725,13 @@ avx512icl
 ;
 init_angular_ipred_fn
 (
+Z2_PRED
+ipred_z2
+avx512icl
+)
+;
+init_angular_ipred_fn
+(
 Z3_PRED
 ipred_z3
 avx512icl
