@@ -5192,6 +5192,10 @@ newtab
 '
 &
 &
+!
+launchOnLoginEnabled
+&
+&
 '
 browser
 .
@@ -5478,6 +5482,10 @@ source
 '
 newtab
 '
+&
+&
+!
+launchOnLoginEnabled
 &
 &
 '
