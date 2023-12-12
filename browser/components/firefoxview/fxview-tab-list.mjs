@@ -2142,6 +2142,13 @@ fxview
 empty
 -
 state
+class
+=
+"
+search
+-
+results
+"
 headerLabel
 =
 "
