@@ -996,7 +996,6 @@ bool
 >
 mOpenComplete
 ;
-;
 }
 ;
 void
