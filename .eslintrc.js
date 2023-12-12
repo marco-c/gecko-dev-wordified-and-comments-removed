@@ -3919,6 +3919,16 @@ browser
 /
 components
 /
+aboutwelcome
+/
+*
+*
+"
+"
+browser
+/
+components
+/
 newtab
 /
 *
