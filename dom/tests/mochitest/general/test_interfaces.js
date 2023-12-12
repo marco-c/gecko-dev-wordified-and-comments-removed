@@ -1430,6 +1430,16 @@ true
 name
 :
 "
+ClipboardItem
+"
+earlyBetaOrEarlier
+:
+true
+}
+{
+name
+:
+"
 CloseEvent
 "
 insecureContext
