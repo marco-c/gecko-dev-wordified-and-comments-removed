@@ -535,13 +535,6 @@ h
 #
 include
 "
-nsQuickSort
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

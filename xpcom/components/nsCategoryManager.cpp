@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsQuickSort
-.
-h
-"
-#
-include
-"
 nsEnumeratorUtils
 .
 h
