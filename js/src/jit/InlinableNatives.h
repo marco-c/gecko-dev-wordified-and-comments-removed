@@ -648,6 +648,11 @@ ObjectIsPrototypeOf
 \
 _
 (
+ObjectKeys
+)
+\
+_
+(
 ObjectToString
 )
 \

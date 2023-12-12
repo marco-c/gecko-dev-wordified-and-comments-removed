@@ -3534,6 +3534,12 @@ hasOneDefUse
 const
 ;
 bool
+hasOneLiveDefUse
+(
+)
+const
+;
+bool
 hasDefUses
 (
 )

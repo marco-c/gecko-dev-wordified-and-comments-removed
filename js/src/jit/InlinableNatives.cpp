@@ -1607,6 +1607,12 @@ case
 InlinableNative
 :
 :
+ObjectKeys
+:
+case
+InlinableNative
+:
+:
 ObjectToString
 :
 case
