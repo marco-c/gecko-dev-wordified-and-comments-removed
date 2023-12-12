@@ -2636,7 +2636,7 @@ category
 reset_event
 "
 ;
-break
+return
 ;
 case
 "
@@ -2688,7 +2688,7 @@ category
 reset_parentapicall
 "
 ;
-break
+return
 ;
 }
 ExtensionTelemetry
