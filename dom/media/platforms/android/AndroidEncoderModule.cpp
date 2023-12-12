@@ -264,12 +264,9 @@ codec
 type
 :
 %
-d
+s
 "
-static_cast
-<
-int
->
+GetCodecTypeString
 (
 aConfig
 .

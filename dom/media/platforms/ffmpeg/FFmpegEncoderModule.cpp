@@ -295,12 +295,9 @@ ffmpeg
 encoder
 for
 %
-d
+s
 "
-static_cast
-<
-int
->
+GetCodecTypeString
 (
 aConfig
 .
@@ -335,7 +332,7 @@ FFMPEGV_LOG
 "
 ffmpeg
 %
-d
+s
 encoder
 :
 %
@@ -344,10 +341,7 @@ has
 been
 created
 "
-static_cast
-<
-int
->
+GetCodecTypeString
 (
 aConfig
 .

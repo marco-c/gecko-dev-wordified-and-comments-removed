@@ -143,6 +143,17 @@ _EndAudio_
 Unknown
 }
 ;
+const
+char
+*
+GetCodecTypeString
+(
+const
+CodecType
+&
+aCodecType
+)
+;
 struct
 H264Specific
 final
