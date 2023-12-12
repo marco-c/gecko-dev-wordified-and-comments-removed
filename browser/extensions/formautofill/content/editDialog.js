@@ -813,7 +813,7 @@ edit
 -
 card
 -
-title2
+title
 "
 )
 ;

@@ -223,6 +223,8 @@ autofill
 -
 add
 -
+new
+-
 address
 -
 title
@@ -352,6 +354,8 @@ autofill
 -
 add
 -
+new
+-
 card
 -
 title
@@ -361,9 +365,9 @@ autofill
 -
 manage
 -
-payment
+credit
 -
-methods
+cards
 -
 title
 "
