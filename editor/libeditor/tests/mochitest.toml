@@ -1980,6 +1980,13 @@ html
 ]
 [
 "
+test_htmleditor_toggle_text_direction
+.
+html
+"
+]
+[
+"
 test_initial_selection_and_caret_of_designMode
 .
 html
