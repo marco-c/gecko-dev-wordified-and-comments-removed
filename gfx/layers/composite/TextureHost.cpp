@@ -1361,11 +1361,6 @@ CanvasManagerParent
 WaitForReplayTexture
 (
 aDeallocator
--
->
-GetChildProcessId
-(
-)
 desc
 .
 textureId
