@@ -1994,6 +1994,17 @@ enabled
 "
 false
 )
+|
+|
+RPMGetBoolPref
+(
+"
+privacy
+.
+fingerprintingProtection
+"
+false
+)
 ;
 let
 tpEnabled

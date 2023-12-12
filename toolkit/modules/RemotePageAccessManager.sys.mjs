@@ -1204,6 +1204,11 @@ enabled
 "
 privacy
 .
+fingerprintingProtection
+"
+"
+privacy
+.
 socialtracking
 .
 block_cookies
