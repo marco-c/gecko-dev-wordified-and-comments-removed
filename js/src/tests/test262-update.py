@@ -256,21 +256,6 @@ Iterator
 "
     
 "
-arraybuffer
--
-transfer
-"
-:
-"
-!
-ArrayBuffer
-.
-prototype
-.
-transfer
-"
-    
-"
 symbols
 -
 as
@@ -358,22 +343,6 @@ enable
 iterator
 -
 helpers
-"
-    
-"
-arraybuffer
--
-transfer
-"
-:
-"
--
--
-enable
--
-arraybuffer
--
-transfer
 "
     
 "
