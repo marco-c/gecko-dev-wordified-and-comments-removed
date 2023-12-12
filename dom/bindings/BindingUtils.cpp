@@ -290,6 +290,13 @@ h
 #
 include
 "
+nsQuickSort
+.
+h
+"
+#
+include
+"
 nsUTF8Utils
 .
 h
