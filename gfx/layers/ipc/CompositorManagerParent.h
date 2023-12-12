@@ -96,9 +96,6 @@ class
 CompositorThreadHolder
 ;
 class
-SharedSurfacesHolder
-;
-class
 CompositorManagerParent
 final
 :
@@ -459,12 +456,6 @@ RefPtr
 CompositorThreadHolder
 >
 mCompositorThreadHolder
-;
-RefPtr
-<
-SharedSurfacesHolder
->
-mSharedSurfacesHolder
 ;
 AutoTArray
 <
