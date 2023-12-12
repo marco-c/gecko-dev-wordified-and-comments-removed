@@ -1521,9 +1521,6 @@ ArrayBufferSlice
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -1548,8 +1545,6 @@ transferToFixedLength
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
@@ -1572,9 +1567,6 @@ ArrayBufferObject
 byteLengthGetter
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_PSG
 (
 "
@@ -1586,8 +1578,6 @@ ArrayBufferObject
 detachedGetter
 0
 )
-#
-endif
 JS_STRING_SYM_PS
 (
 toStringTag
@@ -1833,9 +1823,6 @@ args
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 ArrayBufferObject
 *
@@ -2343,8 +2330,6 @@ args
 )
 ;
 }
-#
-endif
 bool
 ArrayBufferObject
 :
