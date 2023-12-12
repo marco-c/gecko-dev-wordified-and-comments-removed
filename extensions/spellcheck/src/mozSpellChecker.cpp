@@ -288,12 +288,15 @@ RemoteSpellcheckEngineChild
 this
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 contentChild
 -
 >
 SendPRemoteSpellcheckEngineConstructor
 (
 mEngine
+)
 )
 ;
 }

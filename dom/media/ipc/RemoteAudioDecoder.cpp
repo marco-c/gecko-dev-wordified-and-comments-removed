@@ -268,9 +268,8 @@ mIPDLSelfRef
 =
 this
 ;
-Unused
-<
-<
+MOZ_ALWAYS_TRUE
+(
 manager
 -
 >
@@ -285,6 +284,7 @@ Nothing
 aMediaEngineId
 Nothing
 (
+)
 )
 )
 ;

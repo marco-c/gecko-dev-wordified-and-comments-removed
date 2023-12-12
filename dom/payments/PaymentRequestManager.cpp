@@ -2042,6 +2042,9 @@ PaymentRequestChild
 aRequest
 )
 ;
+if
+(
+!
 browserChild
 -
 >
@@ -2049,7 +2052,12 @@ SendPPaymentRequestConstructor
 (
 paymentChild
 )
+)
+{
+return
+nullptr
 ;
+}
 return
 paymentChild
 ;

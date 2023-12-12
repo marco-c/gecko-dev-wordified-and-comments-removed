@@ -1900,8 +1900,10 @@ return
 }
 if
 (
+RefPtr
+<
 DNSRequestChild
-*
+>
 child
 =
 mIPCActor
@@ -2021,6 +2023,8 @@ CanSend
 return
 ;
 }
+MOZ_ALWAYS_TRUE
+(
 socketProcessChild
 -
 >
@@ -2033,6 +2037,7 @@ mPort
 mType
 mOriginAttributes
 mFlags
+)
 )
 ;
 }

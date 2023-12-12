@@ -785,12 +785,15 @@ IdleSchedulerChild
 (
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 background
 -
 >
 SendPIdleSchedulerConstructor
 (
 sMainThreadIdleScheduler
+)
 )
 ;
 }

@@ -696,8 +696,10 @@ preloadResponseEndArgs
 )
 ;
 }
+RefPtr
+<
 FetchEventOpProxyParent
-*
+>
 actor
 =
 new
