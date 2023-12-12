@@ -1343,6 +1343,16 @@ test_symbols_as_weak_keys
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+!
+nightly_build
+"
+]
 [
 "
 test_tearoffs

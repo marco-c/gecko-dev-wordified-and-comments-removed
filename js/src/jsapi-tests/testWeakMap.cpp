@@ -667,6 +667,9 @@ END_TEST
 (
 testWeakMap_setWeakMapEntry_invalid_key
 )
+#
+ifdef
+NIGHTLY_BUILD
 BEGIN_TEST
 (
 testWeakMap_basicOperations_symbols_as_keys
@@ -915,6 +918,8 @@ END_TEST
 (
 testWeakMap_basicOperations_symbols_as_keys
 )
+#
+endif
 BEGIN_TEST
 (
 testWeakMap_keyDelegates
