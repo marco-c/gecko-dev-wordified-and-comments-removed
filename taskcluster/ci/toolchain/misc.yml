@@ -1320,6 +1320,9 @@ target_cpu
 "
 arm64
 "
+use_v8_context_snapshot
+=
+false
 v8_symbol_level
 =
 0
