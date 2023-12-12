@@ -7272,6 +7272,16 @@ mHeight
 =
 aHeight
 ;
+if
+(
+StaticPrefs
+:
+:
+widget_android_use_surfacecontrol_AtStartup
+(
+)
+)
+{
 mSurfaceControl
 =
 java
@@ -7291,6 +7301,7 @@ From
 aSurfaceControl
 )
 ;
+}
 if
 (
 mSurfaceControl
