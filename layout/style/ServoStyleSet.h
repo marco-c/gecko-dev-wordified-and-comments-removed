@@ -844,7 +844,7 @@ aIndex
 const
 ;
 struct
-PageSizeAndOrientation
+FirstPageSizeAndOrientation
 {
 Maybe
 <
@@ -860,9 +860,13 @@ size
 ;
 }
 ;
-PageSizeAndOrientation
-GetDefaultPageSizeAndOrientation
+FirstPageSizeAndOrientation
+GetFirstPageSizeAndOrientation
 (
+const
+nsAtom
+*
+aFirstPageName
 )
 ;
 void
