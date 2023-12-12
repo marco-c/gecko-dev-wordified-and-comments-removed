@@ -18,6 +18,13 @@ nsStringFwd
 .
 h
 "
+#
+include
+"
+SMILTimeValue
+.
+h
+"
 namespace
 mozilla
 {
@@ -29,9 +36,6 @@ SMILKeySpline
 ;
 class
 SMILRepeatCount
-;
-class
-SMILTimeValue
 ;
 class
 SMILTimeValueSpecParams
@@ -196,6 +200,11 @@ const
 nsAString
 &
 aSpec
+SMILTimeValue
+:
+:
+Rounding
+aRounding
 SMILTimeValue
 *
 aResult
