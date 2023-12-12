@@ -276,6 +276,12 @@ logLevel
 "
 ;
 export
+const
+MAX_TABS_FOR_RECENT_BROWSING
+=
+5
+;
+export
 function
 formatURIForDisplay
 (
