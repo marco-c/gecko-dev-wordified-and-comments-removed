@@ -1634,7 +1634,7 @@ video
 .
 red_ulpfec_enabled
 "
-false
+true
 )
 ;
 #
