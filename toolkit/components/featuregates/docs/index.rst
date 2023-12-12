@@ -235,7 +235,9 @@ numbers
 ]
 type
 =
+"
 boolean
+"
 is
 -
 public
@@ -373,7 +375,7 @@ toml
 default
 -
 value
-:
+=
 true
 A
 more
@@ -411,7 +413,7 @@ toml
 default
 -
 value
-:
+=
 {
 default
 =
@@ -451,7 +453,7 @@ toml
 default
 -
 value
-:
+=
 {
 default
 =
@@ -509,7 +511,7 @@ toml
 default
 -
 value
-:
+=
 {
 default
 =
@@ -825,7 +827,9 @@ numbers
 ]
 type
 =
+"
 boolean
+"
 is
 -
 public
