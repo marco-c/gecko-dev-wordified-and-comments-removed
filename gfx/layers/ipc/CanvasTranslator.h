@@ -139,6 +139,9 @@ namespace
 layers
 {
 class
+SharedSurfacesHolder
+;
+class
 TextureData
 ;
 class
@@ -165,6 +168,12 @@ PProtocolParent
 ;
 CanvasTranslator
 (
+layers
+:
+:
+SharedSurfacesHolder
+*
+aSharedSurfacesHolder
 const
 dom
 :
@@ -747,6 +756,12 @@ RefPtr
 TaskQueue
 >
 mTranslationTaskQueue
+;
+RefPtr
+<
+SharedSurfacesHolder
+>
+mSharedSurfacesHolder
 ;
 #
 if
