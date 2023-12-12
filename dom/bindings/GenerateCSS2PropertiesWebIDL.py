@@ -228,11 +228,16 @@ elif
 p
 .
 method
-!
-=
+not
+in
+[
 "
 MozTransform
 "
+"
+MozTransformOrigin
+"
+]
 :
                 
 extendedAttrs
