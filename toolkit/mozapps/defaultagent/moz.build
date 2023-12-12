@@ -84,6 +84,11 @@ UtfConvert
 .
 cpp
 "
+"
+WindowsMutex
+.
+cpp
+"
 ]
 SOURCES
 +
@@ -188,6 +193,11 @@ mozilla
 [
 "
 DefaultAgent
+.
+h
+"
+"
+WindowsMutex
 .
 h
 "
@@ -313,6 +323,11 @@ XPIDL_SOURCES
 [
 "
 nsIDefaultAgent
+.
+idl
+"
+"
+nsIWindowsMutex
 .
 idl
 "
