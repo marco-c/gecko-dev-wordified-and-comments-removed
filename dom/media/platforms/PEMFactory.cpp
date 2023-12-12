@@ -236,7 +236,7 @@ endif
 #
 ifdef
 XP_WIN
-mModules
+mCurrentPEMs
 .
 AppendElement
 (
