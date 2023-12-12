@@ -1321,7 +1321,7 @@ checker
 we
 need
 to
-generated
+generate
 the
 expected
 result
@@ -2006,7 +2006,7 @@ contains
 no
 reports
 .
-either
+Either
 no
 static
 analysis
