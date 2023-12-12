@@ -235,6 +235,8 @@ PCompositorManagerParent
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 mozilla
@@ -446,6 +448,8 @@ const
 ContentParentId
 &
 aChildId
+uint32_t
+aNamespace
 )
 ;
 mozilla

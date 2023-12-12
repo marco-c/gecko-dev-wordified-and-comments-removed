@@ -241,6 +241,7 @@ CompositorManagerParent
 :
 CreateSameProcess
 (
+aNamespace
 )
 ;
 RefPtr

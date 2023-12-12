@@ -1983,6 +1983,13 @@ return
 true
 ;
 }
+uint32_t
+cmNamespace
+=
+AllocateNamespace
+(
+)
+;
 mGPUChild
 -
 >
@@ -1995,6 +2002,7 @@ move
 (
 parentPipe
 )
+cmNamespace
 )
 ;
 CompositorManagerChild
@@ -2009,9 +2017,7 @@ move
 (
 childPipe
 )
-AllocateNamespace
-(
-)
+cmNamespace
 mProcessToken
 )
 ;
@@ -5286,6 +5292,14 @@ uint32_t
 aNamespaces
 )
 {
+const
+uint32_t
+cmNamespace
+=
+AllocateNamespace
+(
+)
+;
 if
 (
 !
@@ -5293,6 +5307,7 @@ CreateContentCompositorManager
 (
 aOtherProcess
 aChildId
+cmNamespace
 aOutCompositor
 )
 |
@@ -5331,9 +5346,7 @@ aNamespaces
 >
 AppendElement
 (
-AllocateNamespace
-(
-)
+cmNamespace
 )
 ;
 aNamespaces
@@ -5376,6 +5389,8 @@ dom
 :
 ContentParentId
 aChildId
+uint32_t
+aNamespace
 ipc
 :
 :
@@ -5519,6 +5534,7 @@ move
 parentPipe
 )
 aChildId
+aNamespace
 )
 ;
 }
@@ -5539,6 +5555,7 @@ move
 parentPipe
 )
 aChildId
+aNamespace
 false
 )
 )

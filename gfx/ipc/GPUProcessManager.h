@@ -813,6 +813,8 @@ dom
 :
 ContentParentId
 aChildId
+uint32_t
+aNamespace
 mozilla
 :
 :
