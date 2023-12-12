@@ -843,7 +843,7 @@ em
 -
 android
 -
-sdk
+emulator
 -
 linux
 -
@@ -1437,7 +1437,7 @@ em
 -
 android
 -
-sdk
+emulator
 -
 linux
 -
