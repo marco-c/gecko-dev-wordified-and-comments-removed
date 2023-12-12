@@ -1538,11 +1538,14 @@ void
 *
 *
 sVals
+MOZ_GUARDED_BY
+(
+sValsMutex
+)
 ;
 static
 StaticMutex
 sValsMutex
-MOZ_UNANNOTATED
 ;
 }
 ;
