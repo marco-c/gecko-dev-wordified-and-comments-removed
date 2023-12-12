@@ -1474,7 +1474,7 @@ mdn
 .
 featureGate
 "
-false
+true
 ]
 /
 /
