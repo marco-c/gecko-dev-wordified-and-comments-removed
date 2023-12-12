@@ -116,6 +116,7 @@ obj
 {
 AppConstants
 :
+"
 resource
 :
 /
@@ -129,6 +130,7 @@ AppConstants
 sys
 .
 mjs
+"
 }
 )
 ;
@@ -201,6 +203,7 @@ lazy
 {
 AppConstants
 :
+"
 resource
 :
 /
@@ -214,6 +217,7 @@ AppConstants
 sys
 .
 mjs
+"
 }
 )
 ;
