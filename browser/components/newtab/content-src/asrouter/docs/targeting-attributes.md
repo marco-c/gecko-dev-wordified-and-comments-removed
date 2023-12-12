@@ -580,10 +580,10 @@ userprefersreducedmotion
 [
 useEmbeddedMigrationWizard
 ]
-[
+(
 #
 useembeddedmigrationwizard
-]
+)
 *
 [
 userPrefs
