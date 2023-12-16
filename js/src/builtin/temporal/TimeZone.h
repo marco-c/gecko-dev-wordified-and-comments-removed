@@ -747,15 +747,6 @@ JSString
 identifier
 )
 ;
-BuiltinTimeZoneObject
-*
-CreateTemporalTimeZoneUTC
-(
-JSContext
-*
-cx
-)
-;
 bool
 ToTemporalTimeZone
 (
