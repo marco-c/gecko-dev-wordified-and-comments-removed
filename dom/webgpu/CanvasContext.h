@@ -418,7 +418,13 @@ MaybeQueueSwapChainPresent
 (
 )
 ;
-void
+Maybe
+<
+layers
+:
+:
+SurfaceDescriptor
+>
 SwapChainPresent
 (
 )
