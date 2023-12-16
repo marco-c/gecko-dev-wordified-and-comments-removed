@@ -1167,6 +1167,10 @@ nsresult
 SetAddress
 (
 )
+MOZ_REQUIRES
+(
+monitor_
+)
 ;
 void
 create_i
