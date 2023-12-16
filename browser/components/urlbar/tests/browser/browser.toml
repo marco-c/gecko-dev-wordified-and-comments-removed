@@ -2923,6 +2923,13 @@ js
 ]
 [
 "
+browser_view_removedSelectedElement
+.
+js
+"
+]
+[
+"
 browser_view_resultDisplay
 .
 js
