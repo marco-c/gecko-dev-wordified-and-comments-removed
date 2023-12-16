@@ -223,8 +223,6 @@ path
 "
 search
 -
-engine
--
 config
 -
 schema
@@ -252,8 +250,6 @@ do_get_cwd
 path
 "
 search
--
-engine
 -
 config
 -
@@ -577,8 +573,6 @@ path
 "
 search
 -
-engine
--
 config
 -
 ui
@@ -680,8 +674,6 @@ do_get_cwd
 path
 "
 search
--
-engine
 -
 config
 -
