@@ -689,7 +689,7 @@ JS
 :
 Handle
 <
-CalendarValue
+CalendarRecord
 >
 calendar
 const
@@ -724,7 +724,7 @@ JS
 :
 Handle
 <
-CalendarValue
+CalendarRecord
 >
 calendar
 const
@@ -767,7 +767,7 @@ JS
 :
 Handle
 <
-CalendarValue
+CalendarRecord
 >
 calendar
 TemporalUnit

@@ -4077,7 +4077,7 @@ TimeZoneMethod
 GetOffsetNanosecondsFor
 :
 return
-GetMethodForCall
+GetMethod
 (
 cx
 object
@@ -4103,7 +4103,7 @@ TimeZoneMethod
 GetPossibleInstantsFor
 :
 return
-GetMethodForCall
+GetMethod
 (
 cx
 object
