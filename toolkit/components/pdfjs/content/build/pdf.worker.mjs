@@ -399966,6 +399966,13 @@ BS
 "
 )
 ;
+if
+(
+dict
+instanceof
+Dict
+)
+{
 const
 dictType
 =
@@ -400044,6 +400051,7 @@ D
 )
 )
 ;
+}
 }
 }
 else
@@ -438531,7 +438539,7 @@ workerVersion
 .
 0
 .
-321
+347
 '
 ;
 if
@@ -442210,14 +442218,14 @@ pdfjsVersion
 .
 0
 .
-321
+347
 '
 ;
 const
 pdfjsBuild
 =
 '
-f54cfe065
+76e3e5202
 '
 ;
 var
