@@ -968,9 +968,9 @@ ICCacheIRStub
 *
 clone
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 ICStubSpace
 &
 newSpace

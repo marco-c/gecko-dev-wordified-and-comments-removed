@@ -159,6 +159,9 @@ class
 ICScript
 ;
 class
+ICStubSpace
+;
+class
 InliningRoot
 {
 public
@@ -242,6 +245,9 @@ purgeStubs
 Zone
 *
 zone
+ICStubSpace
+&
+newStubSpace
 )
 ;
 void
@@ -249,6 +255,11 @@ resetWarmUpCounts
 (
 uint32_t
 count
+)
+;
+void
+purgeInactiveICScripts
+(
 )
 ;
 #

@@ -7377,9 +7377,9 @@ ICCacheIRStub
 :
 clone
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 ICStubSpace
 &
 newSpace
@@ -7497,12 +7497,7 @@ gc
 AutoLockStoreBuffer
 lock
 (
-cx
--
->
-runtime
-(
-)
+rt
 )
 ;
 uint32_t

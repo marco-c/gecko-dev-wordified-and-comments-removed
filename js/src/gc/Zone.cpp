@@ -2503,9 +2503,17 @@ return
 jitScript
 -
 >
+purgeInactiveICScripts
+(
+)
+;
+jitScript
+-
+>
 purgeStubs
 (
 script
+newStubSpace
 )
 ;
 if
