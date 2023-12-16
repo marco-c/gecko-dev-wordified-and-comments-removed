@@ -965,6 +965,11 @@ this
 .
 updateContent
 (
+{
+focusCloseButton
+:
+true
+}
 )
 ;
 }
@@ -1149,6 +1154,9 @@ haveUpdatedURI
 =
 false
 isPolledRequest
+=
+false
+focusCloseButton
 =
 false
 }
@@ -1427,6 +1435,7 @@ null
 recommendationData
 :
 null
+focusCloseButton
 }
 )
 ;
