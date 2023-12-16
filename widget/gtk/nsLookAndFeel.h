@@ -345,12 +345,12 @@ mButtonBorder
 kBlack
 ;
 nscolor
-mFrameOuterLightBorder
+mThreeDHighlight
 =
 kBlack
 ;
 nscolor
-mFrameInnerDarkBorder
+mThreeDShadow
 =
 kBlack
 ;
@@ -379,6 +379,9 @@ mField
 ;
 ColorPair
 mWindow
+;
+ColorPair
+mDialog
 ;
 ColorPair
 mSidebar
@@ -710,6 +713,11 @@ ConfigureAndInitializeAltTheme
 ;
 void
 ConfigureFinalEffectiveTheme
+(
+)
+;
+void
+MaybeApplyAdwaitaOverrides
 (
 )
 ;
