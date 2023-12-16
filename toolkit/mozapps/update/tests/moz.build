@@ -64,7 +64,7 @@ browser
 .
 bits
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
