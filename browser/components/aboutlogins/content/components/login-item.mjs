@@ -4522,7 +4522,7 @@ logins
 -
 confirm
 -
-remove
+delete
 -
 dialog
 -
@@ -4531,6 +4531,10 @@ title
 message
 :
 "
+about
+-
+logins
+-
 confirm
 -
 delete

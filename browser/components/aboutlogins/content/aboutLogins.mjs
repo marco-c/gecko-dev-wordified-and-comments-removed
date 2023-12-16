@@ -1104,7 +1104,7 @@ sync
 -
 dialog
 -
-title
+title2
 "
 ;
 options
@@ -1126,7 +1126,7 @@ sync
 -
 dialog
 -
-message2
+message3
 "
 ;
 }
@@ -1149,7 +1149,7 @@ all
 -
 dialog
 -
-title
+title2
 "
 ;
 options
@@ -1169,7 +1169,7 @@ all
 -
 dialog
 -
-message
+message2
 "
 ;
 }
@@ -1192,7 +1192,7 @@ dialog
 -
 checkbox
 -
-label
+label2
 "
 ;
 options

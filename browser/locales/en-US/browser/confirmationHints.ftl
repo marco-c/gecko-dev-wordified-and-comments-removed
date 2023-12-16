@@ -77,11 +77,11 @@ confirmation
 -
 hint
 -
-login
+password
 -
 removed
 =
-Login
+Password
 removed
 !
 confirmation
