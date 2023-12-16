@@ -286,11 +286,6 @@ mFamily
 0
 }
 ;
-bool
-mCompatibleWithHTMLLightColors
-=
-false
-;
 nsString
 mDefaultFontName
 ;
