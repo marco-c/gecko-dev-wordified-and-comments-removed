@@ -512,6 +512,11 @@ return
 rawScript
 (
 )
+&
+&
+rawScript
+(
+)
 !
 =
 uintptr_t
