@@ -6,6 +6,10 @@ pub
 mod
 declaration_block
 ;
+pub
+mod
+property_declaration
+;
 #
 [
 macro_use
@@ -123,6 +127,16 @@ self
 :
 :
 generated
+:
+:
+*
+;
+pub
+use
+self
+:
+:
+property_declaration
 :
 :
 *
