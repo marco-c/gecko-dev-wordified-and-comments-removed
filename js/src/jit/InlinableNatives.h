@@ -297,6 +297,11 @@ _
 IntlGuardToSegments
 )
 \
+_
+(
+IntlGuardToSegmentIterator
+)
+\
 \
 _
 (
