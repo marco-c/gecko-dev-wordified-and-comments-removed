@@ -1744,13 +1744,6 @@ raw_config
 [
 c
 ]
-if
-k
-!
-=
-"
-target_cpu
-"
 ]
 for
 c
