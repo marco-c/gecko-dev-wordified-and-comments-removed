@@ -215,13 +215,10 @@ virtual
 bool
 InitTranslator
 (
+const
 TextureType
+&
 aTextureType
-gfx
-:
-:
-BackendType
-aBackendType
 Handle
 &
 &
@@ -233,7 +230,9 @@ Handle
 &
 &
 aBufferHandles
+const
 uint64_t
+&
 aBufferSize
 CrossProcessSemaphoreHandle
 &
@@ -243,7 +242,9 @@ CrossProcessSemaphoreHandle
 &
 &
 aWriterSem
+const
 bool
+&
 aUseIPDLThread
 )
 =
@@ -257,7 +258,9 @@ Handle
 &
 &
 aBufferHandle
+const
 uint64_t
+&
 aBufferSize
 )
 =
@@ -286,11 +289,6 @@ Init
 (
 TextureType
 aTextureType
-gfx
-:
-:
-BackendType
-aBackendType
 UniquePtr
 <
 Helpers

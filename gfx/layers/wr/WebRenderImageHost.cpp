@@ -809,10 +809,6 @@ mWaitingReadyCallback
 =
 false
 ;
-mWaitForRemoteTextureOwner
-=
-true
-;
 }
 }
 RefPtr
@@ -1260,12 +1256,7 @@ move
 (
 function
 )
-mWaitForRemoteTextureOwner
 )
-;
-mWaitForRemoteTextureOwner
-=
-false
 ;
 }
 if

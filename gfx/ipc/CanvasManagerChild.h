@@ -198,11 +198,6 @@ DeactivateCanvas
 (
 )
 ;
-void
-BlockCanvas
-(
-)
-;
 RefPtr
 <
 layers
@@ -275,11 +270,6 @@ bool
 mActive
 =
 true
-;
-bool
-mBlocked
-=
-false
 ;
 static
 MOZ_THREAD_LOCAL
