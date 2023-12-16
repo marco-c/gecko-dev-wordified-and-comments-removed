@@ -1078,12 +1078,6 @@ hidden
 )
 ;
 }
-this
-.
-toggleVisibilityInCardContainer
-(
-)
-;
 }
 async
 observe
@@ -4197,12 +4191,6 @@ this
 fullyUpdated
 =
 true
-;
-this
-.
-toggleVisibilityInCardContainer
-(
-)
 ;
 }
 sendTabTelemetry
