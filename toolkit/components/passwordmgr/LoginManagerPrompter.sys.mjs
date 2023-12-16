@@ -412,14 +412,14 @@ autocompleteSelected
 popup
 )
 {
-let
+const
 doc
 =
 popup
 .
 ownerDocument
 ;
-let
+const
 nameField
 =
 doc
@@ -435,7 +435,7 @@ username
 "
 )
 ;
-let
+const
 passwordField
 =
 doc
@@ -451,7 +451,7 @@ password
 "
 )
 ;
-let
+const
 activeElement
 =
 nameField
@@ -535,7 +535,7 @@ text
 "
 :
 {
-let
+const
 input
 =
 subject
@@ -863,7 +863,7 @@ login
 "
 )
 ;
-let
+const
 inPrivateBrowsing
 =
 PrivateBrowsingUtils
@@ -873,7 +873,7 @@ isBrowserPrivate
 aBrowser
 )
 ;
-let
+const
 notification
 =
 LoginManagerPrompter
@@ -934,7 +934,7 @@ dismiss
 (
 )
 {
-let
+const
 {
 PopupNotifications
 }
@@ -1293,7 +1293,7 @@ autoFilledLoginGuid
 .
 )
 ;
-let
+const
 saveMessageIds
 =
 {
@@ -1342,7 +1342,7 @@ deny
 "
 }
 ;
-let
+const
 changeMessageIds
 =
 {
@@ -1394,7 +1394,7 @@ deny
 "
 }
 ;
-let
+const
 initialMessageIds
 =
 type
@@ -1410,14 +1410,14 @@ saveMessageIds
 :
 changeMessageIds
 ;
-let
+const
 promptId
 =
 initialMessageIds
 .
 prompt
 ;
-let
+const
 host
 =
 this
@@ -1429,7 +1429,7 @@ login
 origin
 )
 ;
-let
+const
 promptMessage
 =
 lazy
@@ -1444,7 +1444,7 @@ host
 }
 )
 ;
-let
+const
 histogramName
 =
 type
@@ -1464,7 +1464,7 @@ PWMGR_PROMPT_REMEMBER_ACTION
 PWMGR_PROMPT_UPDATE_ACTION
 "
 ;
-let
+const
 histogram
 =
 Services
@@ -1476,7 +1476,7 @@ getHistogramById
 histogramName
 )
 ;
-let
+const
 chromeDoc
 =
 browser
@@ -1486,7 +1486,7 @@ ownerDocument
 let
 currentNotification
 ;
-let
+const
 wasModifiedEvent
 =
 {
@@ -1517,14 +1517,14 @@ false
 "
 }
 ;
-let
+const
 updateButtonStatus
 =
 element
 =
 >
 {
-let
+const
 mainActionButton
 =
 element
@@ -1640,7 +1640,7 @@ input
 }
 }
 ;
-let
+const
 updateButtonLabel
 =
 (
@@ -1666,7 +1666,7 @@ currentNotification
 )
 ;
 }
-let
+const
 foundLogins
 =
 lazy
@@ -1701,7 +1701,7 @@ schemeUpgrades
 }
 )
 ;
-let
+const
 logins
 =
 this
@@ -1713,7 +1713,7 @@ foundLogins
 autoSavedLoginGuid
 )
 ;
-let
+const
 messageIds
 =
 !
@@ -1742,7 +1742,7 @@ login
 or
 not
 .
-let
+const
 mainButton
 =
 this
@@ -1802,7 +1802,7 @@ notification
 is
 displayed
 .
-let
+const
 element
 =
 [
@@ -1868,7 +1868,7 @@ element
 }
 }
 ;
-let
+const
 writeDataToUI
 =
 (
@@ -1876,7 +1876,7 @@ writeDataToUI
 =
 >
 {
-let
+const
 nameField
 =
 chromeDoc
@@ -1906,7 +1906,7 @@ login
 .
 username
 ;
-let
+const
 toggleCheckbox
 =
 chromeDoc
@@ -1931,7 +1931,7 @@ checked
 "
 )
 ;
-let
+const
 passwordField
 =
 chromeDoc
@@ -1982,7 +1982,7 @@ updateButtonLabel
 ;
 }
 ;
-let
+const
 readDataFromUI
 =
 (
@@ -2030,7 +2030,7 @@ value
 ;
 }
 ;
-let
+const
 onInput
 =
 (
@@ -2048,7 +2048,7 @@ updateButtonLabel
 ;
 }
 ;
-let
+const
 onUsernameInput
 =
 (
@@ -2078,7 +2078,7 @@ onInput
 ;
 }
 ;
-let
+const
 onUsernameSelect
 =
 (
@@ -2104,7 +2104,7 @@ true
 ;
 }
 ;
-let
+const
 onPasswordInput
 =
 (
@@ -2134,7 +2134,7 @@ onInput
 ;
 }
 ;
-let
+const
 onPasswordSelect
 =
 (
@@ -2160,7 +2160,7 @@ true
 ;
 }
 ;
-let
+const
 onKeyUp
 =
 e
@@ -2199,14 +2199,14 @@ doCommand
 }
 }
 ;
-let
+const
 onVisibilityToggle
 =
 commandEvent
 =
 >
 {
-let
+const
 passwordField
 =
 chromeDoc
@@ -2235,14 +2235,14 @@ type
 of
 the
 textbox
-let
+const
 selectionStart
 =
 passwordField
 .
 selectionStart
 ;
-let
+const
 selectionEnd
 =
 passwordField
@@ -2300,7 +2300,7 @@ selectionEnd
 ;
 }
 ;
-let
+const
 togglePopup
 =
 event
@@ -2335,7 +2335,7 @@ toggleHistoryPopup
 ;
 }
 ;
-let
+const
 persistData
 =
 async
@@ -2344,7 +2344,7 @@ async
 =
 >
 {
-let
+const
 foundLogins
 =
 lazy
@@ -2391,7 +2391,7 @@ foundLogins
 autoSavedLoginGuid
 )
 ;
-let
+const
 resolveBy
 =
 [
@@ -2475,7 +2475,7 @@ logins
 let
 loginToRemove
 ;
-let
+const
 loginToUpdate
 =
 logins
@@ -2885,7 +2885,7 @@ PWMGR_PROMPT_UPDATE_ACTION
 true
 }
 ;
-let
+const
 mainButton
 =
 this
@@ -2913,7 +2913,7 @@ Update
 "
 button
 .
-let
+const
 mainAction
 =
 {
@@ -3282,7 +3282,7 @@ histogramName
 }
 }
 ;
-let
+const
 secondaryButton
 =
 this
@@ -3294,7 +3294,7 @@ initialMessageIds
 secondaryButton
 )
 ;
-let
+const
 secondaryActions
 =
 [
@@ -3379,7 +3379,7 @@ save
 "
 )
 {
-let
+const
 neverSaveButton
 =
 this
@@ -3470,7 +3470,7 @@ focus
 )
 ;
 }
-let
+const
 updatePasswordButtonDelete
 =
 this
@@ -3703,7 +3703,7 @@ removed
 )
 ;
 }
-let
+const
 usernamePlaceholder
 =
 lazy
@@ -3725,7 +3725,7 @@ placeholder
 "
 )
 ;
-let
+const
 togglePassword
 =
 this
@@ -3757,7 +3757,7 @@ bug
 comment
 5
 .
-let
+const
 {
 PopupNotifications
 }
@@ -3768,7 +3768,7 @@ ownerGlobal
 .
 wrappedJSObject
 ;
-let
+const
 notificationID
 =
 "
@@ -3807,7 +3807,7 @@ ATTENTION_NOTIFICATION_TIMEOUT_MS
 :
 NOTIFICATION_TIMEOUT_MS
 ;
-let
+const
 options
 =
 Object
@@ -4074,7 +4074,7 @@ usernameSuggestions
 =
 >
 {
-let
+const
 dropmarker
 =
 chromeDoc
@@ -4108,7 +4108,7 @@ usernameSuggestions
 length
 ;
 }
-let
+const
 usernameField
 =
 chromeDoc
@@ -4156,7 +4156,7 @@ length
 }
 )
 ;
-let
+const
 toggleBtn
 =
 chromeDoc
@@ -4224,7 +4224,7 @@ togglePassword
 accessKey
 )
 ;
-let
+const
 hideToggle
 =
 lazy
@@ -4431,7 +4431,7 @@ writeDataToUI
 (
 )
 ;
-let
+const
 anchorIcon
 =
 this
@@ -4547,7 +4547,7 @@ currentNotification
 =
 null
 ;
-let
+const
 usernameField
 =
 chromeDoc
@@ -4583,7 +4583,7 @@ keyup
 onKeyUp
 )
 ;
-let
+const
 passwordField
 =
 chromeDoc
@@ -4664,7 +4664,7 @@ false
 showOptions
 )
 ;
-let
+const
 notification
 =
 PopupNotifications
@@ -4958,7 +4958,7 @@ possibleValues
 undefined
 )
 {
-let
+const
 login
 =
 aOldLogin
@@ -5101,7 +5101,7 @@ username
 "
 ;
 }
-let
+const
 notification
 =
 LoginManagerPrompter
@@ -5137,7 +5137,7 @@ autoFilledLoginGuid
 }
 )
 ;
-let
+const
 oldGUID
 =
 aOldLogin
@@ -5174,7 +5174,7 @@ dismiss
 (
 )
 {
-let
+const
 {
 PopupNotifications
 }
@@ -6395,7 +6395,7 @@ Set
 )
 )
 {
-let
+const
 result
 =
 Cc
@@ -6429,7 +6429,7 @@ setDefaultIndex
 0
 )
 ;
-let
+const
 usernames
 =
 await
@@ -6443,7 +6443,7 @@ possibleUsernames
 ;
 for
 (
-let
+const
 {
 text
 style
@@ -6452,24 +6452,24 @@ of
 usernames
 )
 {
-let
+const
 value
 =
 text
 ;
-let
+const
 comment
 =
 "
 "
 ;
-let
+const
 image
 =
 "
 "
 ;
-let
+const
 _style
 =
 style
@@ -6667,7 +6667,7 @@ return
 ]
 ;
 }
-let
+const
 baseDomainLogins
 =
 await
@@ -6696,7 +6696,7 @@ true
 }
 )
 ;
-let
+const
 saved
 =
 baseDomainLogins
@@ -6724,7 +6724,7 @@ login
 }
 )
 ;
-let
+const
 possible
 =
 [
@@ -6774,7 +6774,7 @@ next
 =
 >
 {
-let
+const
 alreadyInAcc
 =
 acc
@@ -6827,7 +6827,7 @@ username
 "
 )
 {
-let
+const
 existingIndex
 =
 acc
