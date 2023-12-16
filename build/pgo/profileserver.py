@@ -108,6 +108,24 @@ UPLOAD_PATH
 )
     
 if
+not
+upload_path
+:
+        
+upload_path
+=
+os
+.
+environ
+.
+get
+(
+"
+UPLOAD_DIR
+"
+)
+    
+if
 upload_path
 :
         
