@@ -213,7 +213,7 @@ context
 .
 addInitializer
 "
-undefined
+function
 "
 )
 ;
