@@ -125,6 +125,13 @@ h
 #
 include
 "
+ScheduledTaskRemove
+.
+h
+"
+#
+include
+"
 SetDefaultBrowser
 .
 h

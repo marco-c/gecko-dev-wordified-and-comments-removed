@@ -44,6 +44,16 @@ h
 #
 include
 "
+.
+.
+/
+ScheduledTaskRemove
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CmdLineAndEnvUtils
