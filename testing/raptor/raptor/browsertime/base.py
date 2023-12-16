@@ -1522,7 +1522,18 @@ tests
 return
 (
             
+(
+self
+.
+config
+[
+"
+gecko_profile
+"
+]
+or
 extra_profiler_run
+)
             
 and
 test
