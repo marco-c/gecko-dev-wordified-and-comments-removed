@@ -173,4 +173,9 @@ size
 600M
 "
 }
+"
+emulator_prewarm
+"
+:
+false
 }
