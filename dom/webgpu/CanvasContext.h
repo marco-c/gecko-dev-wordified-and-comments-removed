@@ -428,6 +428,11 @@ ForceNewFrame
 (
 )
 ;
+void
+InvalidateCanvasContent
+(
+)
+;
 private
 :
 gfx
