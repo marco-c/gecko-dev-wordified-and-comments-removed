@@ -5,8 +5,7 @@ addEventListener
 '
 fetch
 '
-(
-)
+event
 =
 >
 event
