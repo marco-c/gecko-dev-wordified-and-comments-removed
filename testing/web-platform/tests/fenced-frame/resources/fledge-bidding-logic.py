@@ -334,6 +334,12 @@ beacon
 store
 .
 py
+?
+type
+=
+reserved
+.
+top_navigation_start
 '
         
 '
@@ -363,6 +369,12 @@ beacon
 store
 .
 py
+?
+type
+=
+reserved
+.
+top_navigation_commit
 '
       
 }

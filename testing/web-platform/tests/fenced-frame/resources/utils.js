@@ -228,6 +228,15 @@ top_navigation_start
 '
 :
 BEACON_URL
++
+"
+?
+type
+=
+reserved
+.
+top_navigation_start
+"
 '
 reserved
 .
@@ -235,6 +244,15 @@ top_navigation_commit
 '
 :
 BEACON_URL
++
+"
+?
+type
+=
+reserved
+.
+top_navigation_commit
+"
 }
 }
 ]
@@ -2165,6 +2183,7 @@ async
 function
 readAutomaticBeaconDataFromServer
 (
+event_type
 expected_body
 )
 {
@@ -2191,6 +2210,9 @@ new
 URLSearchParams
 (
 {
+type
+:
+event_type
 expected_body
 :
 expected_body
@@ -2268,6 +2290,7 @@ async
 function
 nextAutomaticBeacon
 (
+event_type
 expected_body
 )
 {
@@ -2285,6 +2308,7 @@ value
 await
 readAutomaticBeaconDataFromServer
 (
+event_type
 expected_body
 )
 ;

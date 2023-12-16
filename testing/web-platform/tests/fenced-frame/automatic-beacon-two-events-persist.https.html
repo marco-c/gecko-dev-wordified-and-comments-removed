@@ -259,6 +259,15 @@ data
 !
 "
 ;
+const
+beacon_type
+=
+"
+reserved
+.
+top_navigation_commit
+"
+;
 await
 fencedframe
 .
@@ -267,6 +276,7 @@ execute
 (
 new_url
 beacon_data
+beacon_type
 )
 =
 >
@@ -284,11 +294,7 @@ beacon_event
 {
 eventType
 :
-"
-reserved
-.
-top_navigation_commit
-"
+beacon_type
 eventData
 :
 beacon_data
@@ -337,6 +343,7 @@ _blank
 [
 new_url
 beacon_data
+beacon_type
 ]
 )
 ;
@@ -396,6 +403,7 @@ beacon_1_initiator_origin
 await
 nextAutomaticBeacon
 (
+beacon_type
 beacon_data
 )
 ;
@@ -464,6 +472,7 @@ beacon_2_initiator_origin
 await
 nextAutomaticBeacon
 (
+beacon_type
 beacon_data
 )
 ;
