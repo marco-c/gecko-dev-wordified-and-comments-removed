@@ -1465,7 +1465,7 @@ export
 -
 dialog
 -
-title
+title2
 "
 message
 :
@@ -1480,7 +1480,7 @@ export
 -
 dialog
 -
-message
+message2
 "
 confirmButtonLabel
 :
@@ -1497,7 +1497,7 @@ dialog
 -
 confirm
 -
-button
+button2
 "
 }
 ;
