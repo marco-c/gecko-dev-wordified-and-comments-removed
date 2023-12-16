@@ -566,3 +566,17 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+network
+.
+http
+.
+http2
+.
+websockets
+"
+true
+)
+;
