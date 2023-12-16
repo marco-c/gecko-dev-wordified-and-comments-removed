@@ -26,6 +26,14 @@ mirror
 "
 )
 ;
+let
+dateAdded
+=
+new
+Date
+(
+)
+;
 await
 PlacesUtils
 .
@@ -89,6 +97,7 @@ title
 "
 B
 "
+dateAdded
 }
 {
 guid
@@ -114,6 +123,7 @@ title
 "
 C
 "
+dateAdded
 }
 ]
 }
@@ -162,6 +172,7 @@ title
 "
 E
 "
+dateAdded
 }
 ]
 }
@@ -808,6 +819,13 @@ false
 visitCount
 :
 0
+dateAdded
+:
+dateAdded
+.
+getTime
+(
+)
 lastVisitDate
 :
 null
@@ -905,6 +923,13 @@ false
 visitCount
 :
 0
+dateAdded
+:
+dateAdded
+.
+getTime
+(
+)
 lastVisitDate
 :
 null
@@ -1942,6 +1967,9 @@ false
 visitCount
 :
 0
+dateAdded
+:
+0
 lastVisitDate
 :
 null
@@ -2030,6 +2058,9 @@ hidden
 :
 false
 visitCount
+:
+0
+dateAdded
 :
 0
 lastVisitDate
@@ -2132,6 +2163,9 @@ false
 visitCount
 :
 0
+dateAdded
+:
+0
 lastVisitDate
 :
 null
@@ -2226,6 +2260,9 @@ hidden
 :
 false
 visitCount
+:
+0
+dateAdded
 :
 0
 lastVisitDate
@@ -2326,6 +2363,9 @@ false
 visitCount
 :
 0
+dateAdded
+:
+0
 lastVisitDate
 :
 null
@@ -2424,6 +2464,9 @@ false
 visitCount
 :
 0
+dateAdded
+:
+0
 lastVisitDate
 :
 null
@@ -2520,6 +2563,9 @@ hidden
 :
 false
 visitCount
+:
+0
+dateAdded
 :
 0
 lastVisitDate
@@ -3581,6 +3627,9 @@ false
 visitCount
 :
 0
+dateAdded
+:
+0
 lastVisitDate
 :
 null
@@ -4638,6 +4687,9 @@ false
 visitCount
 :
 0
+dateAdded
+:
+0
 lastVisitDate
 :
 null
@@ -4728,6 +4780,9 @@ hidden
 :
 false
 visitCount
+:
+0
+dateAdded
 :
 0
 lastVisitDate

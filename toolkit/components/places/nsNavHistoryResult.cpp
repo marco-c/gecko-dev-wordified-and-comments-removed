@@ -14557,6 +14557,8 @@ uint32_t
 aVisitCount
 PRTime
 aLastVisitDate
+PRTime
+aDateAdded
 )
 {
 MOZ_ASSERT
@@ -14873,9 +14875,7 @@ mTargetFolderItemId
 aNewIndex
 aItemType
 itemURI
-RoundedPRNow
-(
-)
+aDateAdded
 aGUID
 aNewParentGUID
 aSource
@@ -19006,6 +19006,12 @@ Value
 )
 *
 1000
+item
+-
+>
+mDateAdded
+*
+1000
 )
 )
 ;
@@ -19109,6 +19115,12 @@ mLastVisitDate
 Value
 (
 )
+*
+1000
+item
+-
+>
+mDateAdded
 *
 1000
 )

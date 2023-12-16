@@ -3177,6 +3177,8 @@ uint32_t
 aVisitCount
 PRTime
 aLastVisitDate
+PRTime
+aDateAdded
 )
 ;
 nsresult

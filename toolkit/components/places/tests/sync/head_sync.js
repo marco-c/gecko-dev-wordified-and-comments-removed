@@ -2038,6 +2038,11 @@ visitCount
 event
 .
 visitCount
+dateAdded
+:
+event
+.
+dateAdded
 lastVisitDate
 :
 event
