@@ -213,6 +213,11 @@ Init
 (
 TextureType
 aTextureType
+gfx
+:
+:
+BackendType
+aBackendType
 UniquePtr
 <
 Helpers
@@ -546,6 +551,7 @@ mHelpers
 InitTranslator
 (
 aTextureType
+aBackendType
 std
 :
 :
