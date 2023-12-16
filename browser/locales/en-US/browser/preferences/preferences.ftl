@@ -7067,7 +7067,7 @@ engine
 -
 payment
 -
-methods
+methods2
 =
 .
 label
@@ -7083,10 +7083,6 @@ numbers
 and
 expiry
 dates
-(
-desktop
-only
-)
 .
 accesskey
 =
