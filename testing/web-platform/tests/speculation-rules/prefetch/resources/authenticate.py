@@ -96,6 +96,7 @@ utf
 headers
 =
 [
+    
 (
 b
 "
@@ -110,6 +111,7 @@ text
 html
 "
 )
+    
 (
 b
 '
@@ -117,10 +119,27 @@ WWW
 -
 Authenticate
 '
+b
 '
 Basic
 '
 )
+    
+(
+b
+'
+Cache
+-
+Control
+'
+b
+'
+no
+-
+store
+'
+)
+  
 ]
   
 status
