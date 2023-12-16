@@ -269,6 +269,11 @@ nsIFilePickerShownCallback
 aFilePickerShownCallback
 )
 ;
+void
+close
+(
+)
+;
 readonly
 attribute
 nsIFilePicker_Mode

@@ -70,6 +70,12 @@ aCallback
 override
 ;
 NS_IMETHOD
+Close
+(
+)
+override
+;
+NS_IMETHOD
 IsModeSupported
 (
 nsIFilePicker
@@ -315,9 +321,6 @@ ResultCode
 mResult
 ;
 bool
-mRunning
-;
-bool
 mAllowURLs
 ;
 nsCString
@@ -405,6 +408,12 @@ mFileChooserDelegate
 ;
 bool
 mUseNativeFileChooser
+;
+void
+*
+mFileChooser
+=
+nullptr
 ;
 }
 ;
