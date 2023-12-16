@@ -21,7 +21,7 @@ Base
 ;
 import
 {
-ASRouterAdmin
+DiscoveryStreamAdmin
 }
 from
 "
@@ -31,9 +31,9 @@ src
 /
 components
 /
-ASRouterAdmin
+DiscoveryStreamAdmin
 /
-ASRouterAdmin
+DiscoveryStreamAdmin
 "
 ;
 import
@@ -370,7 +370,7 @@ it
 should
 render
 an
-ASRouterAdmin
+DiscoveryStreamAdmin
 if
 the
 devtools
@@ -425,7 +425,7 @@ wrapper
 .
 find
 (
-ASRouterAdmin
+DiscoveryStreamAdmin
 )
 1
 )
@@ -440,7 +440,7 @@ should
 not
 render
 an
-ASRouterAdmin
+DiscoveryStreamAdmin
 if
 the
 devtools
@@ -495,7 +495,7 @@ wrapper
 .
 find
 (
-ASRouterAdmin
+DiscoveryStreamAdmin
 )
 0
 )

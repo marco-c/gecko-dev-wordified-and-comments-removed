@@ -729,7 +729,7 @@ src
 /
 components
 /
-ASRouterAdmin
+DiscoveryStreamAdmin
 /
 *
 .
