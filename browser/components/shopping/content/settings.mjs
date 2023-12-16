@@ -402,6 +402,16 @@ optedIn
 2
 )
 ;
+Glean
+.
+shopping
+.
+surfaceOptOutButtonClicked
+.
+record
+(
+)
+;
 }
 fakespotLinkClicked
 (
