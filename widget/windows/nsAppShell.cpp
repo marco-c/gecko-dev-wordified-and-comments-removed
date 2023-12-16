@@ -2282,12 +2282,7 @@ defined
 _M_X64
 )
 MOZ_NEVER_INLINE
-__attribute__
-(
-(
-naked
-)
-)
+MOZ_NAKED
 void
 EnableTrapFlag
 (
@@ -2321,12 +2316,7 @@ retq
 ;
 }
 MOZ_NEVER_INLINE
-__attribute__
-(
-(
-naked
-)
-)
+MOZ_NAKED
 void
 DisableTrapFlag
 (
