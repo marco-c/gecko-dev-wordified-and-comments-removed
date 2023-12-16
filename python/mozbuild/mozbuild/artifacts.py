@@ -7612,7 +7612,7 @@ self
 _substs
 [
 "
-target_cpu
+TARGET_CPU
 "
 ]
 =
@@ -7675,7 +7675,7 @@ self
 _substs
 [
 "
-target_cpu
+TARGET_CPU
 "
 ]
 =
