@@ -227,6 +227,11 @@ textbox
 -
 contextmenu
 "
+showservicesmenu
+=
+"
+true
+"
 >
 {
 this
@@ -286,6 +291,11 @@ class
 textbox
 -
 contextmenu
+"
+showservicesmenu
+=
+"
+true
 "
 >
 <
