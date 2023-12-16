@@ -217,6 +217,7 @@ stdDeviation
 [
 1
 2
+3
 ]
 }
 )
