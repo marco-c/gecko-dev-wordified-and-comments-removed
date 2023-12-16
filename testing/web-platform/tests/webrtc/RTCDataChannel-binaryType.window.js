@@ -86,7 +86,7 @@ dc
 .
 binaryType
 "
-blob
+arraybuffer
 "
 dc
 .
@@ -94,7 +94,7 @@ binaryType
 should
 be
 '
-blob
+arraybuffer
 '
 )
 ;
