@@ -54872,6 +54872,12 @@ InlinableNative
 :
 IntlGuardToSegmenter
 :
+case
+InlinableNative
+:
+:
+IntlGuardToSegments
+:
 return
 tryAttachGuardToClass
 (

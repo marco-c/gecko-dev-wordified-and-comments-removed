@@ -1807,6 +1807,14 @@ globalThis
 \
 MACRO_
 (
+granularity
+"
+granularity
+"
+)
+\
+MACRO_
+(
 group
 "
 group
