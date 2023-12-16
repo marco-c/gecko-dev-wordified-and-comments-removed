@@ -744,11 +744,13 @@ gc
 :
 AllocSite
 *
-createAllocSite
+getOrCreateAllocSite
 (
 JSScript
 *
 outerScript
+uint32_t
+pcOffset
 )
 ;
 void
