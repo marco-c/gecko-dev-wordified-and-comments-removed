@@ -2047,15 +2047,9 @@ version
 rusqlite
 =
 {
-version
+workspace
 =
-"
-0
-.
-29
-.
-0
-"
+true
 features
 =
 [
