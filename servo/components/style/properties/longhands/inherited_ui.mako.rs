@@ -441,9 +441,9 @@ user
 focus
 "
 "
+normal
 none
 ignore
-normal
 "
 engines
 =

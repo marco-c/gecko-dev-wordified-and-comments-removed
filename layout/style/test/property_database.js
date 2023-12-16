@@ -31101,14 +31101,14 @@ initial_values
 :
 [
 "
-none
+normal
 "
 ]
 other_values
 :
 [
 "
-normal
+none
 "
 "
 ignore
