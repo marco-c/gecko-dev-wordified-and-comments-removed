@@ -2306,7 +2306,7 @@ MOZ_ASSERT
 jitScript
 -
 >
-active
+hasActiveICScript
 (
 )
 )
@@ -2319,7 +2319,7 @@ endif
 jit
 :
 :
-MarkActiveJitScriptsAndCopyStubs
+MarkActiveICScriptsAndCopyStubs
 (
 this
 newStubSpace
@@ -2391,6 +2391,11 @@ hasBaselineScript
 &
 !
 jitScript
+-
+>
+icScript
+(
+)
 -
 >
 active
@@ -2532,7 +2537,7 @@ resetPretenuredAllocSites
 jitScript
 -
 >
-resetActive
+resetAllActiveFlags
 (
 )
 ;
