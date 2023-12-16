@@ -67,7 +67,7 @@ html
 ]
 [
 "
-browser_bannerClicking_stopExecuteAfterSeveralAttempt
+browser_bannerClicking_executeOnce
 .
 js
 "
