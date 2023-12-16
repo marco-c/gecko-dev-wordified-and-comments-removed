@@ -384,9 +384,9 @@ cookiebanners
 .
 bannerClicking
 .
-executeOnce
+maxTriesPerSiteAndSession
 "
-false
+0
 ]
 ]
 }
