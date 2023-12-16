@@ -237,6 +237,12 @@ toolbox
 )
 ;
 await
+testScript
+(
+toolbox
+)
+;
+await
 startRecordingAllocations
 (
 {
