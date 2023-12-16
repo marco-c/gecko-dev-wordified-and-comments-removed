@@ -1065,6 +1065,14 @@ CONFIG
 FUZZING_INTERFACES
 '
 ]
+and
+not
+CONFIG
+[
+'
+MOZ_DEBUG
+'
+]
 :
 TEST_DIRS
 +
