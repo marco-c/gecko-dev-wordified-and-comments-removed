@@ -7,7 +7,7 @@ pytest
 /
 python
 .
-ini
+toml
 "
 ]
 TEST_DIRS

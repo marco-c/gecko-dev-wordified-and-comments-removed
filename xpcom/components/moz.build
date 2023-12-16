@@ -319,6 +319,6 @@ test
 /
 python
 .
-ini
+toml
 "
 ]

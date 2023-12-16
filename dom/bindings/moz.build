@@ -948,7 +948,7 @@ test
 /
 python
 .
-ini
+toml
 "
 ]
 if

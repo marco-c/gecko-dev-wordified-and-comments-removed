@@ -504,7 +504,7 @@ smoke
 /
 python
 .
-ini
+toml
 "
 "
 lint
@@ -513,7 +513,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 tryselect
@@ -522,6 +522,6 @@ test
 /
 python
 .
-ini
+toml
 "
 ]

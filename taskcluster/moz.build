@@ -31,14 +31,14 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 test
 /
 python
 .
-ini
+toml
 "
 ]
 SPHINX_TREES

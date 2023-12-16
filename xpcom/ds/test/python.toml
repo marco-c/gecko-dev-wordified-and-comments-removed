@@ -3,9 +3,13 @@ DEFAULT
 ]
 subsuite
 =
+"
 xpcom
+"
 [
-test_gen_static_components
+"
+test_dafsa
 .
 py
+"
 ]

@@ -1,0 +1,15 @@
+[
+DEFAULT
+]
+subsuite
+=
+"
+xpcom
+"
+[
+"
+runtests
+.
+py
+"
+]

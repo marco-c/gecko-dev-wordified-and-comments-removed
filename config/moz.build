@@ -104,7 +104,7 @@ tests
 /
 python
 .
-ini
+toml
 "
 ]
 if
@@ -207,10 +207,7 @@ stl_compiler
 :
 template_file
 =
-SRCDIR
-+
 "
-/
 %
 s
 -
@@ -283,6 +280,11 @@ entry_point
 "
 gen_wrappers
 "
+inputs
+=
+[
+template_file
+]
 flags
 =
 [
@@ -290,7 +292,6 @@ TOPOBJDIR
 +
 output_dir
 stl_compiler
-template_file
 ]
 +
 stl_headers

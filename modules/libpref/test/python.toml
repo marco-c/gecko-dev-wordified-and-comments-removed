@@ -3,9 +3,13 @@ DEFAULT
 ]
 subsuite
 =
+"
 mozbuild
+"
 [
-test_mozwebidlcodegen
+"
+test_generate_static_pref_list
 .
 py
+"
 ]

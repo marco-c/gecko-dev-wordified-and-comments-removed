@@ -690,6 +690,6 @@ test
 /
 python
 .
-ini
+toml
 "
 ]

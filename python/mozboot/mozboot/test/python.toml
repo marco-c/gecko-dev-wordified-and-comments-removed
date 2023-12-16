@@ -3,9 +3,13 @@ DEFAULT
 ]
 subsuite
 =
+"
 mozbuild
+"
 [
+"
 test_mozconfig
 .
 py
+"
 ]

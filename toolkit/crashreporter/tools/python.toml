@@ -2,9 +2,11 @@
 DEFAULT
 ]
 [
+"
 unit
 -
 symbolstore
 .
 py
+"
 ]

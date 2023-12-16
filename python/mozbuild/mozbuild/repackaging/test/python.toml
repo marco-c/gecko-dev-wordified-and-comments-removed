@@ -3,9 +3,13 @@ DEFAULT
 ]
 subsuite
 =
-xpcom
+"
+mozbuild
+"
 [
-runtests
+"
+test_msix
 .
 py
+"
 ]
