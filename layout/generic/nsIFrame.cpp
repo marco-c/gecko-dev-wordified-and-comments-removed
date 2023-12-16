@@ -1206,9 +1206,9 @@ sizeof
 (
 nsIFrame
 )
+<
 =
-=
-76
+80
 "
 nsIFrame
 should
