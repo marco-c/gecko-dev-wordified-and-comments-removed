@@ -2469,7 +2469,7 @@ This
 will
 remove
 the
-passwords
+password
 saved
 to
 {
