@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2021
+2018
 "
 name
 =
@@ -118,7 +118,7 @@ version
 .
 9
 .
-3
+1
 "
 authors
 =
@@ -165,16 +165,6 @@ Cargo
 toml
 "
 "
-LICENSE
--
-APACHE
-"
-"
-LICENSE
--
-MIT
-"
-"
 README
 .
 md
@@ -208,7 +198,7 @@ license
 =
 "
 MIT
-OR
+/
 Apache
 -
 2
