@@ -1990,6 +1990,10 @@ button
 "
 :
 "
+about
+-
+logins
+-
 login
 -
 item
@@ -3760,7 +3764,7 @@ auth
 -
 dialog
 -
-message
+message2
 "
 )
 ;
