@@ -4113,6 +4113,11 @@ matches
 "
 about
 :
+asrouter
+"
+"
+about
+:
 home
 "
 "
@@ -5249,6 +5254,12 @@ DOMDocElementInserted
 matches
 :
 [
+"
+about
+:
+asrouter
+*
+"
 "
 about
 :
