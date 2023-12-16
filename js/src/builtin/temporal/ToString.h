@@ -71,7 +71,7 @@ class
 TimeZoneValue
 ;
 class
-ZonedDateTimeObject
+ZonedDateTime
 ;
 struct
 PlainDateTime
@@ -219,8 +219,7 @@ JS
 :
 Handle
 <
-ZonedDateTimeObject
-*
+ZonedDateTime
 >
 zonedDateTime
 Precision
