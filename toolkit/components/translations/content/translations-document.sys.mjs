@@ -6360,9 +6360,14 @@ order
 const
 translatedNodes
 =
+[
+.
+.
+.
 translatedTree
 .
 childNodes
+]
 ;
 for
 (
