@@ -15,24 +15,12 @@ pytest
 mark
 .
 asyncio
-PAGE_EMPTY_TEXT
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-empty
+from
 .
-txt
-"
+.
+import
+PAGE_EMPTY_TEXT
+RESPONSE_COMPLETED_EVENT
 pytest
 .
 mark
@@ -153,11 +141,7 @@ events
 =
 [
         
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
     
 ]
 )
@@ -166,11 +150,7 @@ on_response_completed
 =
 wait_for_event
 (
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 )
     
 text_url

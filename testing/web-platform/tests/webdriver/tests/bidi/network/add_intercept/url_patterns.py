@@ -7,6 +7,7 @@ from
 .
 import
 assert_before_request_sent_event
+BEFORE_REQUEST_SENT_EVENT
 pytest
 .
 fixture
@@ -780,11 +781,7 @@ subscribe_events
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 contexts
 =
@@ -859,11 +856,7 @@ on_network_event
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 asyncio
@@ -1260,11 +1253,7 @@ subscribe_events
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 contexts
 =
@@ -1333,11 +1322,7 @@ on_network_event
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 asyncio
@@ -1838,11 +1823,7 @@ subscribe_events
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 contexts
 =
@@ -1898,11 +1879,7 @@ on_network_event
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 asyncio
@@ -2294,11 +2271,7 @@ subscribe_events
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 contexts
 =
@@ -2352,11 +2325,7 @@ on_network_event
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 asyncio

@@ -24,82 +24,20 @@ from
 .
 .
 import
-assert_before_request_sent_event
-PAGE_EMPTY_HTML
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-empty
-.
-html
-"
-PAGE_EMPTY_TEXT
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-empty
-.
-txt
-"
-PAGE_REDIRECT_HTTP_EQUIV
-=
 (
     
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-redirect_http_equiv
-.
-html
-"
-)
+assert_before_request_sent_event
+    
+PAGE_EMPTY_HTML
+    
+PAGE_EMPTY_TEXT
+    
+PAGE_REDIRECT_HTTP_EQUIV
+    
 PAGE_REDIRECTED_HTML
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-redirected
-.
-html
-"
+    
+BEFORE_REQUEST_SENT_EVENT
+)
 pytest
 .
 mark
@@ -125,11 +63,7 @@ subscribe_events
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -193,11 +127,7 @@ bidi_session
 add_event_listener
 (
         
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 on_event
     
 )
@@ -213,11 +143,7 @@ on_before_request_sent
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 await
@@ -286,11 +212,7 @@ unsubscribe
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -363,11 +285,7 @@ setup_network_test
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -375,22 +293,14 @@ events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 on_before_request_sent
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 await
@@ -506,11 +416,7 @@ setup_network_test
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -518,22 +424,14 @@ events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 on_before_request_sent
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 result
@@ -645,11 +543,7 @@ on_before_request_sent
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 await
@@ -798,11 +692,7 @@ setup_network_test
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -810,22 +700,14 @@ events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 on_before_request_sent
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 await
@@ -917,11 +799,7 @@ setup_network_test
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -929,22 +807,14 @@ events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 on_before_request_sent
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 await
@@ -1092,11 +962,7 @@ setup_network_test
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -1104,11 +970,7 @@ events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 await
@@ -1156,11 +1018,7 @@ on_before_request_sent
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 await
@@ -1308,11 +1166,7 @@ on_before_request_sent
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 await
@@ -1507,11 +1361,7 @@ setup_network_test
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -1519,11 +1369,7 @@ events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 await
@@ -1712,11 +1558,7 @@ setup_network_test
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -1724,11 +1566,7 @@ events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 result
@@ -2006,11 +1844,7 @@ setup_network_test
 events
 =
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
     
@@ -2018,11 +1852,7 @@ events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 result

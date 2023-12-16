@@ -18,61 +18,22 @@ from
 .
 .
 import
+(
+    
 assert_before_request_sent_event
+    
 PAGE_EMPTY_HTML
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-empty
-.
-html
-"
+    
 PAGE_EMPTY_TEXT
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-empty
-.
-txt
-"
+    
 PAGE_OTHER_TEXT
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-other
-.
-txt
-"
+    
+BEFORE_REQUEST_SENT_EVENT
+    
+RESPONSE_COMPLETED_EVENT
+    
+RESPONSE_STARTED_EVENT
+)
 pytest
 .
 mark
@@ -125,23 +86,11 @@ events
 =
 [
             
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
             
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
         
@@ -316,23 +265,11 @@ events
 =
 [
             
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
             
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
     
@@ -479,23 +416,11 @@ events
 =
 [
             
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
             
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
     
@@ -568,11 +493,7 @@ on_network_event
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 asyncio
@@ -620,11 +541,7 @@ on_network_event
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 asyncio
@@ -682,11 +599,7 @@ on_network_event
 =
 wait_for_event
 (
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 )
     
 asyncio

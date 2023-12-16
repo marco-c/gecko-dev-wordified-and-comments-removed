@@ -11,43 +11,17 @@ import
 assert_before_request_sent_event
     
 assert_response_event
-)
+    
 PAGE_EMPTY_HTML
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-empty
-.
-html
-"
+    
 PAGE_EMPTY_TEXT
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-empty
-.
-txt
-"
+    
+BEFORE_REQUEST_SENT_EVENT
+    
+RESPONSE_COMPLETED_EVENT
+    
+RESPONSE_STARTED_EVENT
+)
 pytest
 .
 mark
@@ -77,23 +51,11 @@ events
 =
 [
             
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
             
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
         
@@ -121,11 +83,7 @@ on_response_completed
 =
 wait_for_event
 (
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 )
     
 result
@@ -170,11 +128,7 @@ len
 (
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
 =
@@ -186,11 +140,7 @@ len
 (
 network_events
 [
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
 ]
 )
 =
@@ -202,11 +152,7 @@ len
 (
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
 )
 =
@@ -245,11 +191,7 @@ assert_before_request_sent_event
         
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 [
 0
@@ -284,11 +226,7 @@ assert_response_event
         
 network_events
 [
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
 ]
 [
 0
@@ -323,11 +261,7 @@ assert_response_event
         
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
 [
 0
@@ -383,23 +317,11 @@ events
 =
 [
             
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
             
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
     
@@ -409,33 +331,21 @@ before_request_sent_events
 =
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
     
 response_started_events
 =
 network_events
 [
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
 ]
     
 response_completed_events
 =
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
     
 text_url
@@ -449,11 +359,7 @@ on_response_completed
 =
 wait_for_event
 (
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -720,23 +626,11 @@ events
 =
 [
             
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
             
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
         
@@ -764,11 +658,7 @@ on_response_completed
 =
 wait_for_event
 (
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -791,11 +681,7 @@ len
 (
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
 =
@@ -807,11 +693,7 @@ len
 (
 network_events
 [
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
 ]
 )
 =
@@ -823,11 +705,7 @@ len
 (
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
 )
 =
@@ -866,11 +744,7 @@ assert_before_request_sent_event
         
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 [
 0
@@ -896,11 +770,7 @@ assert_response_event
         
 network_events
 [
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
 ]
 [
 0
@@ -926,11 +796,7 @@ assert_response_event
         
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
 [
 0
@@ -975,11 +841,7 @@ len
 (
 network_events
 [
-"
-network
-.
-beforeRequestSent
-"
+BEFORE_REQUEST_SENT_EVENT
 ]
 )
 =
@@ -991,11 +853,7 @@ len
 (
 network_events
 [
-"
-network
-.
-responseStarted
-"
+RESPONSE_STARTED_EVENT
 ]
 )
 =
@@ -1007,11 +865,7 @@ len
 (
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
 )
 =
