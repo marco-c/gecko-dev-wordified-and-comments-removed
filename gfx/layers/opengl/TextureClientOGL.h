@@ -180,6 +180,8 @@ OriginPos
 aOriginPos
 bool
 aHasAlpha
+bool
+aForceBT709ColorSpace
 Maybe
 <
 gfx
@@ -265,6 +267,8 @@ bool
 aContinuous
 bool
 aHasAlpha
+bool
+aForceBT709ColorSpace
 Maybe
 <
 gfx
@@ -293,6 +297,10 @@ mContinuous
 const
 bool
 mHasAlpha
+;
+const
+bool
+mForceBT709ColorSpace
 ;
 const
 Maybe

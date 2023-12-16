@@ -977,6 +977,16 @@ remove
 ShaderFeatureFlags
 :
 :
+TEXTURE_EXTERNAL_BT709
+)
+;
+flags
+.
+remove
+(
+ShaderFeatureFlags
+:
+:
 DITHERING
 )
 ;

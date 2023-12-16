@@ -368,6 +368,9 @@ TextureRect
 TextureExternal
 =
 2
+TextureExternalBT709
+=
+3
 }
 #
 [
