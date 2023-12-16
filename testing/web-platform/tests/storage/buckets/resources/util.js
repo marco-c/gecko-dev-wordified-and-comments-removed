@@ -12,8 +12,6 @@ test
 {
 assert_equals
 (
-'
-'
 (
 await
 navigator
@@ -28,6 +26,8 @@ keys
 join
 (
 )
+'
+'
 )
 ;
 test

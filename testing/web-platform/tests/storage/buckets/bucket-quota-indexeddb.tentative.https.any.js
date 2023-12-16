@@ -5,6 +5,11 @@ t
 =
 >
 {
+prepareForBucketTest
+(
+t
+)
+;
 const
 arraySize
 =
