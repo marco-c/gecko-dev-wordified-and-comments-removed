@@ -118,6 +118,10 @@ GFile
 )
 GOBJECT_TRAITS
 (
+GFileMonitor
+)
+GOBJECT_TRAITS
+(
 GMenu
 )
 GOBJECT_TRAITS
