@@ -51,6 +51,11 @@ minChangesThreshold
 =
 50
 ;
+let
+gotPenalty
+=
+false
+;
 await
 new
 Promise
@@ -84,6 +89,10 @@ length
 >
 =
 minChangesThreshold
+&
+&
+!
+gotPenalty
 )
 {
 t
@@ -113,15 +122,6 @@ maxChangesThreshold
 }
 )
 ;
-if
-(
-observerChanges
-.
-length
->
-0
-)
-{
 const
 lastSample
 =
@@ -155,6 +155,10 @@ time
 minPenaltyTimeInMs
 )
 {
+gotPenalty
+=
+true
+;
 observer
 .
 disconnect
@@ -165,7 +169,6 @@ resolve
 (
 )
 ;
-}
 }
 }
 observerChanges
