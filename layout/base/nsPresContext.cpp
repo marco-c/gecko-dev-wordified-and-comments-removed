@@ -5895,7 +5895,7 @@ Document
 )
 -
 >
-IsInitialDocument
+IsEverInitialDocument
 (
 )
 )
