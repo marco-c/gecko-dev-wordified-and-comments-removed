@@ -61,7 +61,7 @@ node_execute
 /
 xpcshell
 .
-ini
+toml
 "
 "
 unit

@@ -32,7 +32,7 @@ no
 -
 pref
 .
-ini
+toml
 "
 "
 mochitest

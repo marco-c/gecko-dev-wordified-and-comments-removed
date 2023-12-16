@@ -114,7 +114,7 @@ browser
 /
 _jsterm
 .
-ini
+toml
 "
 "
 test
@@ -136,7 +136,7 @@ stubs
 /
 stubs
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

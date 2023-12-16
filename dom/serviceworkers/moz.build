@@ -504,7 +504,7 @@ mochitest
 -
 dFPI
 .
-ini
+toml
 "
 "
 test

@@ -85,6 +85,6 @@ mochitest
 -
 common
 .
-ini
+toml
 "
 ]

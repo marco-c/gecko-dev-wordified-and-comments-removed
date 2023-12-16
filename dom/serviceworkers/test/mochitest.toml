@@ -113,7 +113,7 @@ mochitest
 -
 common
 .
-ini
+toml
 so
 that
 these
@@ -136,7 +136,7 @@ mochitest
 -
 common
 .
-ini
+toml
 "
 ]
 [

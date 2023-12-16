@@ -32,7 +32,7 @@ intl
 -
 api
 .
-ini
+toml
 "
 "
 test
@@ -41,7 +41,7 @@ mochitest
 -
 private
 .
-ini
+toml
 "
 "
 test
@@ -50,7 +50,7 @@ mochitest
 -
 regular
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS
