@@ -2574,7 +2574,7 @@ ret
 if
 defined
 (
-NIGHTLY_BUILD
+BLOCK_LOADLIBRARY_INJECTION
 )
 static
 void
@@ -2611,7 +2611,7 @@ false
 if
 defined
 (
-NIGHTLY_BUILD
+BLOCK_LOADLIBRARY_INJECTION
 )
 for
 (
@@ -2871,7 +2871,7 @@ endif
 if
 defined
 (
-NIGHTLY_BUILD
+BLOCK_LOADLIBRARY_INJECTION
 )
 HMODULE
 hKernel
