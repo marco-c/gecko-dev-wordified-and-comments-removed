@@ -1107,6 +1107,8 @@ ifdef
 ENABLE_DECORATORS
 ListNodeType
 decorators
+FunctionNodeType
+addInitializerFunction
 #
 endif
 const

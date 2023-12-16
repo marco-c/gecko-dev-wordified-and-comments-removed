@@ -4367,6 +4367,15 @@ propNamePos
 #
 ifdef
 ENABLE_DECORATORS
+FunctionNodeResult
+synthesizeAddInitializerFunction
+(
+TaggedParserAtomIndex
+initializers
+YieldHandling
+yieldHandling
+)
+;
 ClassMethodResult
 synthesizeAccessor
 (

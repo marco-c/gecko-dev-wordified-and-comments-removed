@@ -2173,6 +2173,8 @@ ifdef
 ENABLE_DECORATORS
 ListNodeType
 decorators
+FunctionNodeType
+addInitializerFunction
 #
 endif
 const
@@ -2194,6 +2196,7 @@ memberBlock
 ifdef
 ENABLE_DECORATORS
 decorators
+addInitializerFunction
 #
 endif
 pos
