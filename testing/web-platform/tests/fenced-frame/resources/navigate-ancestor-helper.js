@@ -69,7 +69,7 @@ resolve
 )
 ;
 const
-unloadPromise
+pagehidePromise
 =
 new
 Promise
@@ -80,7 +80,7 @@ resolve
 {
 win
 .
-onunload
+onpagehide
 =
 resolve
 ;
@@ -103,6 +103,6 @@ close
 )
 ;
 await
-unloadPromise
+pagehidePromise
 ;
 }
