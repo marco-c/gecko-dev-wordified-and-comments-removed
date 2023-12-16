@@ -1033,6 +1033,11 @@ ui
 .
 hideCursorWhileTyping
 "
+"
+ui
+.
+gtkThemeFamily
+"
 }
 ;
 static_assert

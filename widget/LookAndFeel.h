@@ -217,6 +217,7 @@ DynamicRange
 VideoDynamicRange
 PanelAnimations
 HideCursorWhileTyping
+GTKThemeFamily
 End
 }
 ;

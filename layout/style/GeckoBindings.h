@@ -3410,6 +3410,14 @@ mozilla
 StylePlatform
 )
 ;
+mozilla
+:
+:
+StyleGtkThemeFamily
+Gecko_MediaFeatures_GtkThemeFamily
+(
+)
+;
 void
 Gecko_GetSafeAreaInsets
 (
