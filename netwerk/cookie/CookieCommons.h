@@ -451,6 +451,12 @@ ShouldIncludeCrossSiteCookieForDocument
 Cookie
 *
 aCookie
+dom
+:
+:
+Document
+*
+aDocument
 )
 ;
 static
