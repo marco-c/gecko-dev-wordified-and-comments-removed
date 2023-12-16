@@ -154,3 +154,10 @@ browser_userInterference
 js
 "
 ]
+[
+"
+browser_doh_region
+.
+js
+"
+]
