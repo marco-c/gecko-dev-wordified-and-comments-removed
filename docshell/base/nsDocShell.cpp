@@ -38922,6 +38922,16 @@ get
 )
 ;
 }
+if
+(
+StaticPrefs
+:
+:
+dom_security_setdocumenturi
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIPrincipal
@@ -39130,6 +39140,7 @@ false
 return
 NS_OK
 ;
+}
 }
 }
 #
