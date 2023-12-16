@@ -129,13 +129,6 @@ types
 {
 XSIMD_DECLARE_SIMD_REGISTER
 (
-bool
-avx
-__m256i
-)
-;
-XSIMD_DECLARE_SIMD_REGISTER
-(
 signed
 char
 avx

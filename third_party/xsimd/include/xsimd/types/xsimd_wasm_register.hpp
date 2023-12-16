@@ -135,13 +135,6 @@ types
 {
 XSIMD_DECLARE_SIMD_REGISTER
 (
-bool
-wasm
-v128_t
-)
-;
-XSIMD_DECLARE_SIMD_REGISTER
-(
 signed
 char
 wasm

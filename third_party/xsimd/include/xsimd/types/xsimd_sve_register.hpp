@@ -118,7 +118,9 @@ generic
 version
 (
 9
-0
+Width
+/
+32
 0
 )
 ;

@@ -146,13 +146,6 @@ types
 {
 XSIMD_DECLARE_SIMD_REGISTER
 (
-bool
-sse2
-__m128i
-)
-;
-XSIMD_DECLARE_SIMD_REGISTER
-(
 signed
 char
 sse2

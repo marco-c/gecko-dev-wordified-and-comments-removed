@@ -240,13 +240,6 @@ T
 ;
 XSIMD_DECLARE_SIMD_REGISTER
 (
-bool
-avx512f
-__m512i
-)
-;
-XSIMD_DECLARE_SIMD_REGISTER
-(
 signed
 char
 avx512f
