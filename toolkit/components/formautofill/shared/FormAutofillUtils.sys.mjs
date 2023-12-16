@@ -206,7 +206,7 @@ toolkit
 /
 formautofill
 /
-formautofill
+formAutofill
 .
 ftl
 "
