@@ -1679,6 +1679,13 @@ mutexid
 :
 GCLock
 )
+storeBufferLock
+(
+mutexid
+:
+:
+StoreBuffer
+)
 delayedMarkingLock
 (
 mutexid
