@@ -75,7 +75,7 @@ addresses
 title
 =
 Saved
-Addresses
+addresses
 autofill
 -
 manage
@@ -371,15 +371,12 @@ autofill
 -
 add
 -
-new
--
 address
 -
 title
 =
 Add
-New
-Address
+address
 #
 The
 dialog
@@ -400,7 +397,7 @@ address
 title
 =
 Edit
-Address
+address
 autofill
 -
 address
