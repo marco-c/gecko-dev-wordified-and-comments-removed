@@ -457,12 +457,12 @@ CacheDirectoryMetadata
 >
 &
 aDirectoryMetadata
-RefPtr
+already_AddRefed
 <
 DirectoryLock
 >
 aDirectoryLock
-RefPtr
+already_AddRefed
 <
 CipherKeyManager
 >
