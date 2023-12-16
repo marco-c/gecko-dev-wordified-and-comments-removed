@@ -62,6 +62,10 @@ x11
 \
 earlyoom
 \
+fonts
+-
+noto
+\
 fluxbox
 \
 gdebi
