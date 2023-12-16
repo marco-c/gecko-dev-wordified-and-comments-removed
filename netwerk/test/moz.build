@@ -117,14 +117,14 @@ perf
 /
 perftest
 .
-ini
+toml
 "
 "
 unit
 /
 perftest
 .
-ini
+toml
 "
 ]
 MARIONETTE_UNIT_MANIFESTS

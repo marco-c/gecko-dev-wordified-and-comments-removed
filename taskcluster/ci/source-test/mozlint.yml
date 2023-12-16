@@ -2453,7 +2453,7 @@ changed
 /
 *
 .
-ini
+toml
 '
 -
 '
@@ -4139,15 +4139,6 @@ taskcluster
 /
 *
 *
-'
--
-'
-*
-*
-/
-perftest
-.
-ini
 '
 -
 '

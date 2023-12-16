@@ -1866,20 +1866,22 @@ temp_file
 "
 perftest
 .
-ini
+toml
 "
 tempdir
 =
 suite_dir
 content
 =
-"
+'
 [
+"
 perftest_sample
 .
 js
-]
 "
+]
+'
         
 )
 as

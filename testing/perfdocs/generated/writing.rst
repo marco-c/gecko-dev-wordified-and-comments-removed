@@ -311,7 +311,7 @@ this
 file
 perftest
 .
-ini
+toml
 .
 Example
 of
@@ -339,7 +339,7 @@ performance
 /
 perftest
 .
-ini
+toml
 xpcshell
 -
 -
@@ -577,7 +577,7 @@ manifest
 "
 perftest
 .
-ini
+toml
 "
 manifest_flavor
 :
