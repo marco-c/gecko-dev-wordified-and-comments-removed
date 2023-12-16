@@ -746,6 +746,11 @@ length
 )
 ;
 }
+if
+(
+data_
+)
+{
 PodCopy
 (
 data_
@@ -755,6 +760,7 @@ elements
 length
 )
 ;
+}
 length_
 +
 =
@@ -785,6 +791,11 @@ length_
 )
 ;
 }
+if
+(
+data_
+)
+{
 PodZero
 (
 data_
@@ -793,6 +804,7 @@ length_
 length
 )
 ;
+}
 length_
 +
 =
@@ -823,6 +835,11 @@ length_
 )
 ;
 }
+if
+(
+data_
+)
+{
 PodMove
 (
 data_
@@ -838,6 +855,7 @@ data_
 length
 )
 ;
+}
 length_
 +
 =
@@ -875,6 +893,16 @@ length_
 {
 return
 false
+;
+}
+if
+(
+!
+data_
+)
+{
+return
+true
 ;
 }
 if

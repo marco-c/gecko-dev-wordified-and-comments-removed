@@ -261,7 +261,7 @@ if
 cubeb_log_get_level
 (
 )
-<
+>
 =
 level
 &
@@ -309,7 +309,7 @@ if
 cubeb_log_get_level
 (
 )
-<
+>
 =
 level
 &

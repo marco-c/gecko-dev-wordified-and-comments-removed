@@ -8,6 +8,17 @@ _DEFAULT_SOURCE
 define
 _BSD_SOURCE
 #
+if
+defined
+(
+__NetBSD__
+)
+#
+define
+_NETBSD_SOURCE
+#
+endif
+#
 define
 _XOPEN_SOURCE
 500
