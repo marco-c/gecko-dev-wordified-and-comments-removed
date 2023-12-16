@@ -251,6 +251,11 @@ InitInternal
 (
 )
 ;
+void
+ShutdownInternal
+(
+)
+;
 int
 OpenCodecContext
 (
