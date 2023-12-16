@@ -30,7 +30,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -283,7 +283,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -461,7 +461,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -714,8 +714,11 @@ AllowCompilerWarnings
 FINAL_LIBRARY
 =
 '
-gkmedias
+gkcodecs
 '
+NoVisibilityFlags
+(
+)
 if
 CONFIG
 [
