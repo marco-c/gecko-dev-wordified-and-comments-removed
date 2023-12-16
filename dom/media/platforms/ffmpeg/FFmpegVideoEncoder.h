@@ -246,6 +246,11 @@ ProcessShutdown
 (
 )
 ;
+MediaResult
+InitInternal
+(
+)
+;
 int
 OpenCodecContext
 (
