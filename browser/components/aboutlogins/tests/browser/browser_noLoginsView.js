@@ -380,9 +380,7 @@ intro
 -
 heading
 -
-logged
--
-out2
+message
 "
 "
 The
@@ -501,9 +499,7 @@ intro
 -
 heading
 -
-logged
--
-in
+message
 "
 "
 When
