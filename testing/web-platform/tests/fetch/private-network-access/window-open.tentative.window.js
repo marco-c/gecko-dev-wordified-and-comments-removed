@@ -15,7 +15,7 @@ isSecureContext
 }
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
