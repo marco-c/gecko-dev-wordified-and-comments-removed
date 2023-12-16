@@ -154,7 +154,7 @@ context
 .
 addInitializer
 "
-object
+undefined
 "
 )
 ;

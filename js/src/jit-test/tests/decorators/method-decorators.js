@@ -263,7 +263,7 @@ context
 .
 addInitializer
 "
-object
+undefined
 "
 )
 ;
