@@ -32,8 +32,6 @@ true
 Visit
 about
 :
-newtab
-#
 asrouter
 to
 see
