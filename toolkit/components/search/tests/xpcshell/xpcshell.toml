@@ -906,6 +906,13 @@ js
 ]
 [
 "
+test_engine_selector_defaults
+.
+js
+"
+]
+[
+"
 test_engine_selector_application
 .
 js
