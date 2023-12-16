@@ -252,16 +252,6 @@ nodiscard
 ]
 ]
 bool
-emitCheckIsCallable
-(
-)
-;
-[
-[
-nodiscard
-]
-]
-bool
 emitCreateAddInitializerFunction
 (
 )
