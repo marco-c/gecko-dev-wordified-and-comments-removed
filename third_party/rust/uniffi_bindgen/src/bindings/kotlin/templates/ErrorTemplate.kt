@@ -6,7 +6,10 @@ type_name
 =
 type_
 |
-error_type_name
+type_name
+(
+ci
+)
 %
 }
 {
@@ -17,7 +20,7 @@ ffi_converter_name
 =
 type_
 |
-error_ffi_converter_name
+ffi_converter_name
 %
 }
 {
@@ -28,7 +31,7 @@ canonical_type_name
 =
 type_
 |
-error_canonical_name
+canonical_name
 %
 }
 {
@@ -113,9 +116,7 @@ class
 {
 variant
 |
-error_variant
-|
-type_name
+error_variant_name
 }
 }
 (
@@ -238,9 +239,7 @@ variant_name
 =
 variant
 |
-error_variant
-|
-type_name
+error_variant_name
 %
 }
 class
@@ -281,6 +280,9 @@ var_name
 field
 |
 type_name
+(
+ci
+)
 }
 }
 {
@@ -492,9 +494,7 @@ type_name
 {
 variant
 |
-error_variant
-|
-type_name
+error_variant_name
 }
 }
 -
@@ -666,9 +666,7 @@ type_name
 {
 variant
 |
-error_variant
-|
-type_name
+error_variant_name
 }
 }
 (
@@ -763,9 +761,7 @@ type_name
 {
 variant
 |
-error_variant
-|
-type_name
+error_variant_name
 }
 }
 (
@@ -913,9 +909,7 @@ type_name
 {
 variant
 |
-error_variant
-|
-type_name
+error_variant_name
 }
 }
 -
@@ -1043,9 +1037,7 @@ type_name
 {
 variant
 |
-error_variant
-|
-type_name
+error_variant_name
 }
 }
 -

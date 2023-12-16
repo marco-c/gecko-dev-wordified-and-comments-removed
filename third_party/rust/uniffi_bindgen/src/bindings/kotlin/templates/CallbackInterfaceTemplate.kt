@@ -21,6 +21,9 @@ type_name
 cbi
 |
 type_name
+(
+ci
+)
 %
 }
 {
@@ -219,6 +222,9 @@ return_type
 return_type
 |
 type_name
+(
+ci
+)
 -
 }
 }
@@ -240,6 +246,8 @@ endmatch
 endfor
 %
 }
+companion
+object
 }
 /
 /
@@ -269,7 +277,7 @@ TooGenericExceptionCaught
 )
 override
 fun
-invoke
+callback
 (
 handle
 :
@@ -989,7 +997,10 @@ e
 {
 error_type
 |
-error_type_name
+type_name
+(
+ci
+)
 }
 }
 )

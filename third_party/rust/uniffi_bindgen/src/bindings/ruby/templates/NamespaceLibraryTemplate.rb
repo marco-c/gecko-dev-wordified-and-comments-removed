@@ -81,7 +81,7 @@ func
 in
 ci
 .
-iter_ffi_function_definitions
+iter_ffi_function_definitions_non_async
 (
 )
 -

@@ -2,7 +2,7 @@
 %
 -
 match
-kotlin_config
+config
 .
 custom_types
 .
@@ -104,6 +104,9 @@ name
 builtin
 |
 type_name
+(
+ci
+)
 }
 }
 public
@@ -139,14 +142,8 @@ let
 ffi_type_name
 =
 builtin
-.
+|
 ffi_type
-(
-)
-.
-borrow
-(
-)
 |
 ffi_type_name_by_value
 %

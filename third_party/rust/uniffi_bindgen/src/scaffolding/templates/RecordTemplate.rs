@@ -9,15 +9,7 @@
 uniffi
 :
 :
-ffi_converter_record
-(
-tag
-=
-crate
-:
-:
-UniFfiTag
-)
+derive_record_for_udl
 ]
 struct
 r

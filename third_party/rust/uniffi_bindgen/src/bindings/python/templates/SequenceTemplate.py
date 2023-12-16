@@ -16,7 +16,7 @@ ffi_converter_name
 }
 }
 (
-FfiConverterRustBuffer
+_UniffiConverterRustBuffer
 )
 :
     
@@ -40,7 +40,7 @@ value
         
 buf
 .
-writeI32
+write_i32
 (
 items
 )
@@ -77,7 +77,7 @@ count
 =
 buf
 .
-readI32
+read_i32
 (
 )
         

@@ -125,6 +125,55 @@ enum_variant_py
 }
 :
         
+{
+%
+for
+field
+in
+variant
+.
+fields
+(
+)
+%
+}
+            
+{
+{
+-
+field
+.
+name
+(
+)
+|
+var_name
+}
+}
+:
+"
+{
+{
+-
+field
+|
+type_name
+}
+}
+"
+;
+        
+{
+%
+-
+endfor
+%
+}
+        
+typing
+.
+no_type_check
+        
 def
 __init__
 (
@@ -152,6 +201,17 @@ name
 var_name
 }
 }
+:
+"
+{
+{
+-
+field
+|
+type_name
+}
+}
+"
 {
 %
 if
@@ -635,7 +695,7 @@ ffi_converter_name
 }
 }
 (
-FfiConverterRustBuffer
+_UniffiConverterRustBuffer
 )
 :
     
@@ -652,7 +712,7 @@ variant
 =
 buf
 .
-readI32
+read_i32
 (
 )
         
@@ -864,7 +924,7 @@ enum_variant_py
             
 buf
 .
-writeI32
+write_i32
 (
 {
 {
@@ -903,7 +963,7 @@ var_name
             
 buf
 .
-writeI32
+write_i32
 (
 {
 {

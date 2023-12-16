@@ -6,9 +6,14 @@ backend
 :
 :
 {
-CodeType
 Literal
 }
+;
+use
+super
+:
+:
+CodeType
 ;
 #
 [
