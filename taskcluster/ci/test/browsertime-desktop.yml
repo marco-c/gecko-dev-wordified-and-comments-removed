@@ -3875,6 +3875,16 @@ extra
 profiler
 -
 run
+-
+-
+-
+browsertime
+-
+arg
+=
+maxLoadTime
+=
+240000
 run
 -
 on
