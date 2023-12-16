@@ -37,7 +37,7 @@ md
 /
 docs
 /
-_writing
+writing
 -
 tests
 /
