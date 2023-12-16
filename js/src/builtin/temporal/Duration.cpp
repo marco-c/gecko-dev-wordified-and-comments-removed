@@ -3129,8 +3129,13 @@ return
 true
 ;
 }
-static
 int32_t
+js
+:
+:
+temporal
+:
+:
 DaysUntil
 (
 const
@@ -11982,7 +11987,7 @@ dateDifference
 if
 (
 !
-CalendarDateUntil
+DifferenceDate
 (
 cx
 calendar
@@ -20079,7 +20084,7 @@ timePassed
 if
 (
 !
-CalendarDateUntil
+DifferenceDate
 (
 cx
 calendar
