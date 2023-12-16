@@ -6797,6 +6797,13 @@ WebRenderError
 aError
 )
 {
+MOZ_ASSERT
+(
+IsInRenderThread
+(
+)
+)
+;
 if
 (
 mHandlingWebRenderError
