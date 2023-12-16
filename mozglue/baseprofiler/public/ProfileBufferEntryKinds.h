@@ -272,16 +272,6 @@ void
 \
 MACRO
 (
-CounterKey
-uint64_t
-sizeof
-(
-uint64_t
-)
-)
-\
-MACRO
-(
 Number
 uint64_t
 sizeof
