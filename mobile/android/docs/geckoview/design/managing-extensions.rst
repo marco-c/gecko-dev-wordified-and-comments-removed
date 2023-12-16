@@ -354,13 +354,13 @@ is
 available
 at
 :
-chrome
+toolkit
 /
-browser
+global
 /
-browser
+extensionPermissions
 .
-properties
+ftl
 WebExtension
 .
 MetaData
