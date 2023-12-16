@@ -66113,6 +66113,15 @@ value
 :
 true
 #
+elif
+defined
+(
+MOZ_WIDGET_GTK
+)
+value
+:
+false
+#
 else
 value
 :
