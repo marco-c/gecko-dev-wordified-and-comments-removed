@@ -291,9 +291,15 @@ type
 :
 ?
 }
+building
+{
+:
+?
+}
 "
 index
 other
+scalar
 )
 ;
 return

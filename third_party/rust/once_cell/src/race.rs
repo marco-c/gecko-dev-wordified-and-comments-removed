@@ -12,7 +12,7 @@ section
 )
 ]
 use
-atomic_polyfill
+portable_atomic
 as
 atomic
 ;

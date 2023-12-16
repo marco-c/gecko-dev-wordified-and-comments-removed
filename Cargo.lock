@@ -6686,9 +6686,9 @@ wgpu
 ?
 rev
 =
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 #
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 "
 dependencies
 =
@@ -20909,9 +20909,9 @@ wgpu
 ?
 rev
 =
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 #
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 "
 dependencies
 =
@@ -22544,7 +22544,7 @@ version
 "
 1
 .
-18
+19
 .
 0
 "
@@ -22574,7 +22574,7 @@ index
 checksum
 =
 "
-dd8b5dd2ae5ed71462c540258bedcb51965123ad7e7ccf4b9a8cafaa4a63576d
+3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92
 "
 [
 [
@@ -35511,9 +35511,9 @@ wgpu
 ?
 rev
 =
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 #
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 "
 dependencies
 =
@@ -35626,9 +35626,9 @@ wgpu
 ?
 rev
 =
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 #
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 "
 dependencies
 =
@@ -35799,9 +35799,9 @@ wgpu
 ?
 rev
 =
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 #
-ff7b2c399301cca9bcbc5b19a869feb3c29ef785
+6dc9ccab8592645fda3204be1cfb5929fd7f924d
 "
 dependencies
 =

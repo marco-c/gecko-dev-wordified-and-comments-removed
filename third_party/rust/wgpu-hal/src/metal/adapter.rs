@@ -1783,6 +1783,14 @@ crate
 TextureUses
 :
 :
+COPY_SRC
+|
+crate
+:
+:
+TextureUses
+:
+:
 COPY_DST
 }
 )

@@ -3408,9 +3408,6 @@ ImageSubresourceRange
 default
 (
 )
-plane
-:
-None
 }
 ;
 let
@@ -5113,9 +5110,6 @@ ImageSubresourceRange
 default
 (
 )
-plane
-:
-None
 }
 ;
 let

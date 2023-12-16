@@ -3432,9 +3432,6 @@ ptr
 ptr
 )
 }
-plane
-:
-None
 }
 ;
 let

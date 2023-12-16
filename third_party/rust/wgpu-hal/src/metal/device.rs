@@ -2599,7 +2599,7 @@ FormatAspects
 :
 new
 (
-desc
+texture
 .
 format
 desc

@@ -11,7 +11,7 @@ UnwindSafe
 }
 ;
 use
-atomic_polyfill
+portable_atomic
 :
 :
 {
