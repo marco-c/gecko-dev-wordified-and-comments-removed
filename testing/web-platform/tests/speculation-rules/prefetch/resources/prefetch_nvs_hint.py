@@ -8,24 +8,6 @@ response
 )
 :
   
-response
-.
-headers
-.
-set
-(
-"
-Cache
--
-Control
-"
-"
-no
--
-store
-"
-)
-  
 uuid
 =
 request

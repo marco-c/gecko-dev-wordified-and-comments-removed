@@ -218,20 +218,6 @@ text
 html
 "
 )
-(
-b
-"
-Cache
--
-Control
-"
-b
-"
-no
--
-store
-"
-)
 ]
   
 content

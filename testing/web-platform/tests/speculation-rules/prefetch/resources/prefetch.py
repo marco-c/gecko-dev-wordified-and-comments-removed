@@ -60,24 +60,6 @@ prefetch
 "
 )
   
-response
-.
-headers
-.
-set
-(
-"
-Cache
--
-Control
-"
-"
-no
--
-store
-"
-)
-  
 n
 =
 request
