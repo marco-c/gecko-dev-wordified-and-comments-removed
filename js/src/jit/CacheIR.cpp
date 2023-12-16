@@ -54866,6 +54866,12 @@ InlinableNative
 :
 IntlGuardToRelativeTimeFormat
 :
+case
+InlinableNative
+:
+:
+IntlGuardToSegmenter
+:
 return
 tryAttachGuardToClass
 (

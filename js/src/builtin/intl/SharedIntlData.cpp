@@ -2976,6 +2976,12 @@ SupportedLocaleKind
 :
 RelativeTimeFormat
 :
+case
+SupportedLocaleKind
+:
+:
+Segmenter
+:
 *
 supported
 =
@@ -3095,6 +3101,12 @@ SupportedLocaleKind
 :
 :
 RelativeTimeFormat
+:
+case
+SupportedLocaleKind
+:
+:
+Segmenter
 :
 localeSet
 =

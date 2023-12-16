@@ -599,6 +599,7 @@ ListFormat
 NumberFormat
 PluralRules
 RelativeTimeFormat
+Segmenter
 }
 ;
 [
