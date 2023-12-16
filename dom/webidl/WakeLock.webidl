@@ -124,6 +124,15 @@ Exposed
 (
 Window
 )
+Pref
+=
+"
+dom
+.
+screenwakelock
+.
+enabled
+"
 ]
 interface
 WakeLock
