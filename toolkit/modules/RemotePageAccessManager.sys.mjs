@@ -1019,9 +1019,6 @@ RPMSendQuery
 IsPromoBlocked
 "
 "
-ShouldShowSearch
-"
-"
 ShouldShowSearchBanner
 "
 "
