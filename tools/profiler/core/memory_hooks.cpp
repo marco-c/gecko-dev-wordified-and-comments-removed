@@ -96,6 +96,15 @@ h
 #
 include
 "
+mozilla
+/
+ThreadSafety
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
@@ -844,6 +853,12 @@ true
 }
 ;
 class
+MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 Mutex
 :
 private
@@ -869,6 +884,9 @@ void
 Lock
 (
 )
+MOZ_CAPABILITY_ACQUIRE
+(
+)
 {
 :
 :
@@ -888,6 +906,9 @@ lock
 }
 void
 Unlock
+(
+)
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -910,6 +931,7 @@ unlock
 }
 ;
 class
+MOZ_SCOPED_CAPABILITY
 MutexAutoLock
 {
 MutexAutoLock
@@ -945,6 +967,10 @@ Mutex
 &
 aMutex
 )
+MOZ_CAPABILITY_ACQUIRE
+(
+aMutex
+)
 :
 mMutex
 (
@@ -960,6 +986,9 @@ Lock
 }
 ~
 MutexAutoLock
+(
+)
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
