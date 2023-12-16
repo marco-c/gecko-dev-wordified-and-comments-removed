@@ -216,6 +216,11 @@ mSpoolFile
 nsCString
 mTitle
 ;
+bool
+mHasEnumerationFoundAMatch
+=
+false
+;
 private
 :
 void
