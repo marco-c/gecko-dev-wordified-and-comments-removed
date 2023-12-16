@@ -629,6 +629,16 @@ ShaderFeatureFlags
 ADVANCED_BLEND_EQUATION
 )
 ;
+flags
+.
+remove
+(
+ShaderFeatureFlags
+:
+:
+TEXTURE_EXTERNAL_BT709
+)
+;
 for
 (
 shader

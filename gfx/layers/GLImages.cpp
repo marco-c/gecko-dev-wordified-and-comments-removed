@@ -626,6 +626,8 @@ OriginPos
 aOriginPos
 bool
 aHasAlpha
+bool
+aForceBT709ColorSpace
 Maybe
 <
 gfx
@@ -662,6 +664,10 @@ aOriginPos
 mHasAlpha
 (
 aHasAlpha
+)
+mForceBT709ColorSpace
+(
+aForceBT709ColorSpace
 )
 mTransformOverride
 (
@@ -709,6 +715,7 @@ SurfaceFormat
 :
 :
 R8G8B8X8
+mForceBT709ColorSpace
 false
 mTransformOverride
 )
