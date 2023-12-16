@@ -333,6 +333,11 @@ AVPacket
 aPacket
 )
 ;
+void
+ForceEnablingFFmpegDebugLogs
+(
+)
+;
 const
 FFmpegLibWrapper
 *
