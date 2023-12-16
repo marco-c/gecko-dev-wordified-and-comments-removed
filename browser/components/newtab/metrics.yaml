@@ -5609,10 +5609,12 @@ e
 .
 g
 .
-click
-share
-delete
-more_items
+IMPRESSION
+CLICK_BUTTON
+"
+INDEXEDDB_OPEN_FAILED
+"
+SESSION_END
 )
 bugs
 :
