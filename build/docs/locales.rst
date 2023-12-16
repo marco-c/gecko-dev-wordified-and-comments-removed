@@ -1480,10 +1480,9 @@ code
 block
 :
 :
-[
+toml
 [
 paths
-]
 ]
 reference
 =
@@ -2163,9 +2162,7 @@ block
 :
 toml
 [
-[
 filters
-]
 ]
 path
 =

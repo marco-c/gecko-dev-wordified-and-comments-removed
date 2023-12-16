@@ -23,7 +23,7 @@ code
 :
 language
 :
-javascript
+JavaScript
 =
 =
 =
@@ -1838,6 +1838,7 @@ code
 block
 :
 :
+html
 <
 p
 data
@@ -2310,7 +2311,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 document
 .
 l10n
@@ -2376,7 +2377,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 document
 .
 l10n
@@ -2431,7 +2432,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 document
 .
 l10n
@@ -2578,7 +2579,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 let
 [
 msg
@@ -2779,7 +2780,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 document
 .
 l10n
@@ -2931,7 +2932,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 document
 .
 l10n
@@ -3420,7 +3421,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 document
 .
 l10n
@@ -4039,7 +4040,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 const
 myL10n
 =
@@ -4242,7 +4243,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 const
 myL10n
 =
@@ -4554,7 +4555,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 testedFunction
 (
 )
@@ -4625,7 +4626,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 testedFunction
 (
 )

@@ -556,6 +556,7 @@ code
 block
 :
 :
+JavaScript
 const
 {
 gDevTools
@@ -4231,7 +4232,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 let
 def
 =
@@ -4699,7 +4700,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 /
 /
 In
@@ -5331,7 +5332,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 let
 onInit
 =
@@ -6014,7 +6015,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 gDevTools
 .
 registerTool
@@ -6175,7 +6176,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 let
 target
 =
@@ -6267,7 +6268,7 @@ code
 block
 :
 :
-javascript
+JavaScript
 let
 sidebar
 =

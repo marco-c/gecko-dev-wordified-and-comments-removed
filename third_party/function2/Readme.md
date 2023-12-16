@@ -862,9 +862,7 @@ declared
 as
 following
 :
-c
-+
-+
+cpp
 fu2
 :
 :
@@ -1404,9 +1402,7 @@ easy
 to
 use
 :
-c
-+
-+
+cpp
 fu2
 :
 :
@@ -1465,9 +1461,7 @@ functors
 /
 lambdas
 .
-c
-+
-+
+cpp
 fu2
 :
 :
@@ -1571,9 +1565,7 @@ the
 object
 lives
 .
-c
-+
-+
+cpp
 auto
 callable
 =
@@ -1871,9 +1863,7 @@ Yes
 |
 Yes
 |
-c
-+
-+
+cpp
 fu2
 :
 :
@@ -2134,9 +2124,7 @@ optimization
 is
 disabled
 :
-c
-+
-+
+cpp
 template
 <
 typename
@@ -2194,9 +2182,7 @@ r
 -
 value
 .
-c
-+
-+
+cpp
 template
 <
 typename

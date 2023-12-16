@@ -1062,6 +1062,7 @@ ps1
 code
 :
 :
+text
 .
 \
 mach

@@ -1380,6 +1380,7 @@ g
 code
 :
 :
+json
 "
 permissions
 "
@@ -2039,7 +2040,7 @@ js
 code
 :
 :
-javascript
+JavaScript
 let
 manifest
 =
@@ -2755,7 +2756,7 @@ js
 code
 :
 :
-javascript
+JavaScript
 /
 /
 Establish

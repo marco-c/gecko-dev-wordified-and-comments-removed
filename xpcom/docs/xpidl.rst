@@ -1997,6 +1997,7 @@ code
 block
 :
 :
+JavaScript
 webidl
 InterfaceName
 ;
@@ -2196,6 +2197,7 @@ code
 block
 :
 :
+JavaScript
 cenum
 MyCEnum
 :

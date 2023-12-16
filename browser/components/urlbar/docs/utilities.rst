@@ -179,15 +179,10 @@ date
 .
 .
 .
-highlight
-:
-:
-JavaScript
-.
-.
 code
 :
 :
+JavaScript
 /
 /
 Always

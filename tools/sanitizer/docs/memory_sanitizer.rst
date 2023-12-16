@@ -670,6 +670,7 @@ directory
 code
 :
 :
+bash
 mk_add_options
 MOZ_OBJDIR
 =
@@ -1282,6 +1283,7 @@ name
 code
 :
 :
+bash
 #
 !
 /
@@ -1384,7 +1386,6 @@ memory
 \
 LDFLAGS
 =
-"
 "
 -
 fsanitize

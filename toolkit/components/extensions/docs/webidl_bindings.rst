@@ -2318,6 +2318,7 @@ code
 block
 :
 :
+bash
 mach
 xpcshell
 -
@@ -2660,6 +2661,7 @@ code
 block
 :
 :
+bash
 mach
 mochitest
 -

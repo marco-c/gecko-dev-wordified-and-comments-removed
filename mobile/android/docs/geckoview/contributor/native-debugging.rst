@@ -271,6 +271,7 @@ symbols
 code
 :
 :
+text
 ac_add_options
 -
 -
@@ -316,6 +317,7 @@ build
 code
 :
 :
+text
 #
 ac_add_options
 -
@@ -1060,6 +1062,7 @@ console
 code
 :
 :
+text
 b
 <
 file
@@ -1941,6 +1944,7 @@ file
 code
 :
 :
+text
 ac_add_options
 -
 -
@@ -2026,6 +2030,7 @@ mozconfig
 code
 :
 :
+text
 ac_add_options
 STRIP_FLAGS
 =

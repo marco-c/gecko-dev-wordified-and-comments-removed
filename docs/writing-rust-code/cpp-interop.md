@@ -984,9 +984,7 @@ call
 the
 function
 .
-c
-+
-+
+cpp
 #
 include
 "
@@ -1094,9 +1092,7 @@ FluentBuiltInGetPlatform
 FluentPlatform
 ;
 }
-c
-+
-+
+cpp
 ffi
 :
 :
@@ -1357,9 +1353,7 @@ destructor
 via
 DefaultDelete
 .
-c
-+
-+
+cpp
 #
 include
 "
@@ -1474,9 +1468,7 @@ implement
 the
 class
 .
-c
-+
-+
+cpp
 class
 Locale
 {

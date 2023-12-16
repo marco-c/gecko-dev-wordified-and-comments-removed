@@ -8217,9 +8217,7 @@ code
 block
 :
 :
-c
-+
-+
+cpp
 #
 include
 "
@@ -9856,9 +9854,7 @@ code
 block
 :
 :
-c
-+
-+
+cpp
 #
 include
 "

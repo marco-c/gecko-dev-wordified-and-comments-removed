@@ -729,9 +729,7 @@ code
 block
 :
 :
-c
-+
-+
+cpp
 nsCOMPtr
 <
 nsIPromptService
@@ -901,9 +899,7 @@ code
 block
 :
 :
-c
-+
-+
+cpp
 nsCOMPtr
 <
 nsIPromptService
@@ -1071,9 +1067,7 @@ code
 block
 :
 :
-c
-+
-+
+cpp
 void
 PromptHandler
 :

@@ -711,6 +711,7 @@ code
 block
 :
 :
+text
 browser
 /
 browser

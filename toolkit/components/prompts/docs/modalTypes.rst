@@ -396,6 +396,7 @@ code
 block
 :
 :
+JavaScript
 /
 *
 Exception

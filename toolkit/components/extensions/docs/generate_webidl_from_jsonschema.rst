@@ -283,7 +283,7 @@ code
 block
 :
 :
-sh
+bash
 export
 SCRIPT_DIR
 =
@@ -439,6 +439,7 @@ code
 block
 :
 :
+console
 mach
 python
 SCRIPT_DIR

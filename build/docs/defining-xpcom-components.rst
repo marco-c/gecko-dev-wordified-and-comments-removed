@@ -1755,9 +1755,7 @@ code
 block
 :
 :
-c
-+
-+
+cpp
 class
 Foo
 final
@@ -1788,9 +1786,7 @@ code
 block
 :
 :
-c
-+
-+
+cpp
 already_AddRefed
 <
 Foo
@@ -1890,9 +1886,7 @@ code
 block
 :
 :
-c
-+
-+
+cpp
 NS_IMPL_COMPONENT_FACTORY
 (
 Foo

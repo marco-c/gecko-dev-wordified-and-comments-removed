@@ -96,6 +96,7 @@ code
 block
 :
 :
+bash
 mach
 try
 auto

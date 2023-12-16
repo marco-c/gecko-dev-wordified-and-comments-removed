@@ -2647,9 +2647,7 @@ in
 Firefox
 Desktop
 .
-c
-+
-+
+cpp
 #
 include
 "
@@ -2684,9 +2682,7 @@ APIs
 available
 too
 :
-c
-+
-+
+cpp
 #
 include
 "

@@ -535,6 +535,7 @@ console
 code
 :
 :
+text
 locale
 packagename
 localename
@@ -607,6 +608,7 @@ comments
 code
 :
 :
+text
 #
 this
 line
@@ -981,6 +983,7 @@ line
 code
 :
 :
+text
 locale
 packagename
 localename
@@ -1088,6 +1091,7 @@ line
 code
 :
 :
+text
 skin
 packagename
 skinname
@@ -1194,6 +1198,7 @@ syntax
 code
 :
 :
+text
 style
 chrome
 :
@@ -1266,6 +1271,7 @@ instructions
 code
 :
 :
+text
 override
 chrome
 :
@@ -1392,6 +1398,7 @@ instruction
 code
 :
 :
+text
 resource
 aliasname
 uri
@@ -1553,6 +1560,7 @@ flag
 code
 :
 :
+text
 application
 =
 app
@@ -1768,6 +1776,7 @@ flag
 code
 :
 :
+text
 appversion
 =
 version
@@ -1908,6 +1917,7 @@ flag
 code
 :
 :
+text
 platformversion
 =
 version
@@ -2224,6 +2234,7 @@ platform
 code
 :
 :
+text
 os
 =
 WINNT
@@ -2288,6 +2299,7 @@ than
 code
 :
 :
+text
 osversion
 >
 =

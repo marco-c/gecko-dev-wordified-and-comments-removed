@@ -2423,6 +2423,7 @@ origins
 code
 :
 :
+JavaScript
 [
 "
 http

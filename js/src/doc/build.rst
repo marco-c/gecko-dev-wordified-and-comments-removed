@@ -340,6 +340,7 @@ this
 code
 :
 :
+text
 #
 Build
 only
@@ -451,6 +452,7 @@ variable
 code
 :
 :
+text
 export
 MOZCONFIG
 =
@@ -502,6 +504,7 @@ build
 code
 :
 :
+console
 cd
 <
 path
@@ -729,6 +732,7 @@ tests
 code
 :
 :
+console
 .
 /
 mach
@@ -775,6 +779,7 @@ tests
 code
 :
 :
+console
 .
 /
 mach
@@ -853,6 +858,7 @@ this
 code
 :
 :
+text
 #
 Build
 only
@@ -1091,6 +1097,7 @@ file
 code
 :
 :
+console
 export
 PATH
 =
@@ -1144,6 +1151,7 @@ line
 code
 :
 :
+console
 ac_add_options
 -
 -
@@ -1248,6 +1256,7 @@ adb
 code
 :
 :
+console
 adb
 devices
 This
@@ -1478,6 +1487,7 @@ host
 code
 :
 :
+console
 adb
 push
 \
@@ -1588,6 +1598,7 @@ is
 code
 :
 :
+console
 adb
 forward
 tcp
@@ -1617,6 +1628,7 @@ gdbserver
 code
 :
 :
+console
 adb
 shell
 export
@@ -1820,6 +1832,7 @@ above
 code
 :
 :
+console
 ~
 /
 .
@@ -1880,6 +1893,7 @@ device
 code
 :
 :
+console
 (
 gdb
 )

@@ -197,6 +197,7 @@ code
 block
 :
 :
+text
 #
 WebExtension
 API
@@ -430,6 +431,7 @@ code
 block
 :
 :
+text
 #
 WebExtensions
 API
@@ -696,6 +698,7 @@ code
 block
 :
 :
+text
 #
 WebExtensions
 API
@@ -849,6 +852,7 @@ code
 block
 :
 :
+cpp
 /
 /
 browser
@@ -1049,6 +1053,7 @@ code
 block
 :
 :
+cpp
 .
 .
 .
@@ -1149,6 +1154,7 @@ code
 block
 :
 :
+cpp
 .
 .
 .

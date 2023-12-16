@@ -836,9 +836,7 @@ the
 simplest
 possible
 is
-c
-+
-+
+cpp
 snappy
 :
 :
@@ -860,9 +858,7 @@ output
 ;
 and
 similarly
-c
-+
-+
+cpp
 snappy
 :
 :

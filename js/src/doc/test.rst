@@ -189,6 +189,7 @@ using
 code
 :
 :
+bash
 .
 /
 mach
@@ -258,6 +259,7 @@ tests
 code
 :
 :
+bash
 .
 /
 mach
@@ -395,6 +397,7 @@ use
 code
 :
 :
+bash
 .
 /
 mach
@@ -420,6 +423,7 @@ using
 code
 :
 :
+bash
 .
 /
 mach
@@ -566,6 +570,7 @@ using
 code
 :
 :
+bash
 .
 /
 mach
@@ -598,6 +603,7 @@ specified
 code
 :
 :
+bash
 .
 /
 mach

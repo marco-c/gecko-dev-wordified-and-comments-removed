@@ -1017,6 +1017,7 @@ code
 block
 :
 :
+cpp
 interface
 mozIExtensionStorageCallback
 :

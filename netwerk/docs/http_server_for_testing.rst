@@ -639,7 +639,7 @@ module
 code
 :
 :
-javascript
+JavaScript
 ChromeUtils
 .
 import
@@ -679,7 +679,7 @@ follows
 code
 :
 :
-javascript
+JavaScript
 let
 server
 =
@@ -1218,6 +1218,7 @@ look
 code
 :
 :
+text
 HTTP
 404
 I
@@ -1523,7 +1524,7 @@ using
 code
 :
 :
-javascript
+JavaScript
 const
 SJS_EXTENSION
 =
@@ -1564,7 +1565,7 @@ example
 code
 :
 :
-javascript
+JavaScript
 function
 handleRequest
 (
@@ -1850,6 +1851,7 @@ mechanism
 code
 :
 :
+JavaScript
 /
 *
 *
@@ -2285,7 +2287,7 @@ counter
 code
 :
 :
-javascript
+JavaScript
 /
 *
 *
@@ -3031,7 +3033,7 @@ different
 code
 :
 :
-javascript
+JavaScript
 function
 handleRequest
 (
@@ -3403,7 +3405,7 @@ response
 code
 :
 :
-javascript
+JavaScript
 var
 timer
 =
@@ -3945,7 +3947,7 @@ headers
 code
 :
 :
-javascript
+JavaScript
 function
 handleRequest
 (
