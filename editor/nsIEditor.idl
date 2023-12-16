@@ -679,14 +679,6 @@ endTransaction
 (
 )
 ;
-void
-setShouldTxnSetSelection
-(
-in
-boolean
-should
-)
-;
 nsIInlineSpellChecker
 getInlineSpellChecker
 (
