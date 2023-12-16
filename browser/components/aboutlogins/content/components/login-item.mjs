@@ -4526,7 +4526,7 @@ logins
 -
 confirm
 -
-delete
+remove
 -
 dialog
 -
@@ -4535,10 +4535,6 @@ title
 message
 :
 "
-about
--
-logins
--
 confirm
 -
 delete

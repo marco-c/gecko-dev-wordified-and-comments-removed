@@ -824,7 +824,7 @@ all
 -
 dialog
 -
-title2
+title
 "
 "
 Title
@@ -863,7 +863,7 @@ all
 -
 dialog
 -
-message2
+message
 "
 "
 Message
@@ -904,7 +904,7 @@ dialog
 -
 checkbox
 -
-label2
+label
 "
 "
 Label
@@ -1884,7 +1884,7 @@ all
 -
 dialog
 -
-title2
+title
 "
 "
 Title
@@ -1955,7 +1955,7 @@ all
 -
 dialog
 -
-message2
+message
 "
 "
 Message
@@ -2028,7 +2028,7 @@ dialog
 -
 checkbox
 -
-label2
+label
 "
 "
 Label
