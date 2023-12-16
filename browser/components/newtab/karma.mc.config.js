@@ -399,10 +399,10 @@ lines
 66
 functions
 :
-78
+76
 branches
 :
-50
+33
 }
 "
 lib
