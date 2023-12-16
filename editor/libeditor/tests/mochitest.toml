@@ -2178,6 +2178,13 @@ html
 ]
 [
 "
+test_nsIEditor_deleteNode
+.
+html
+"
+]
+[
+"
 test_nsIEditor_documentCharacterSet
 .
 html
@@ -2193,6 +2200,13 @@ html
 [
 "
 test_nsIEditor_insertLineBreak
+.
+html
+"
+]
+[
+"
+test_nsIEditor_insertNode
 .
 html
 "

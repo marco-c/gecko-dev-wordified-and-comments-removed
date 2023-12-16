@@ -835,6 +835,7 @@ aSourceElement
 )
 ;
 [
+optional_argc
 can_run_script
 ]
 void
@@ -850,9 +851,16 @@ in
 unsigned
 long
 aPosition
+[
+optional
+]
+in
+boolean
+aPreserveSelection
 )
 ;
 [
+optional_argc
 can_run_script
 ]
 void
@@ -861,6 +869,12 @@ deleteNode
 in
 Node
 child
+[
+optional
+]
+in
+boolean
+aPreserveSelection
 )
 ;
 AString
