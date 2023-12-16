@@ -655,6 +655,10 @@ nsresult
 LoadArchive
 (
 )
+MOZ_REQUIRES
+(
+mTableLock
+)
 ;
 nsresult
 Init

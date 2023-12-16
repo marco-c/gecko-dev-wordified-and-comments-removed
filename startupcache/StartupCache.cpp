@@ -1322,12 +1322,6 @@ Err
 NS_ERROR_FAILURE
 )
 ;
-mTableLock
-.
-AssertCurrentThreadOwns
-(
-)
-;
 MOZ_TRY
 (
 mCacheData
