@@ -181,31 +181,7 @@ target_alias
 "
         
 "
-target_cpu
-"
-        
-"
-target_os
-"
-        
-"
-target_vendor
-"
-        
-"
 host_alias
-"
-        
-"
-host_cpu
-"
-        
-"
-host_os
-"
-        
-"
-host_vendor
 "
         
 "
