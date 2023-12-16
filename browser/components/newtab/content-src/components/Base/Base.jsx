@@ -78,7 +78,7 @@ mjs
 ;
 import
 {
-DiscoveryStreamAdmin
+ASRouterAdmin
 }
 from
 "
@@ -88,9 +88,9 @@ src
 /
 components
 /
-DiscoveryStreamAdmin
+ASRouterAdmin
 /
-DiscoveryStreamAdmin
+ASRouterAdmin
 "
 ;
 import
@@ -628,7 +628,7 @@ isDevtoolsEnabled
 ?
 (
 <
-DiscoveryStreamAdmin
+ASRouterAdmin
 notifyContent
 =
 {
