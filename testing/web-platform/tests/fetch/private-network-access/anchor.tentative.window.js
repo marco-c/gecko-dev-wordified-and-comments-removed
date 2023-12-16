@@ -20,7 +20,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -66,7 +66,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -112,7 +112,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -158,7 +158,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -202,7 +202,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -248,7 +248,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -294,7 +294,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -338,7 +338,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -382,7 +382,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -428,7 +428,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -481,7 +481,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -534,7 +534,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
