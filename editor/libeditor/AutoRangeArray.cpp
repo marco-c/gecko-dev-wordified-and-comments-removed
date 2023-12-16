@@ -4516,6 +4516,17 @@ EndRef
 )
 )
 ;
+if
+(
+aEditSubAction
+!
+=
+EditSubAction
+:
+:
+eMergeBlockContents
+)
+{
 AutoRangeArray
 :
 :
@@ -4526,6 +4537,7 @@ endPoint
 aEditingHost
 )
 ;
+}
 startPoint
 =
 GetPointAtFirstContentOfLineOrParentHTMLBlockIfFirstContentOfBlock
