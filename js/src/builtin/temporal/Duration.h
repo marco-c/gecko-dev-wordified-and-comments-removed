@@ -439,6 +439,9 @@ class
 PlainDateObject
 ;
 class
+ZonedDateTime
+;
+class
 ZonedDateTimeObject
 ;
 enum
@@ -614,11 +617,7 @@ JS
 :
 Handle
 <
-Wrapped
-<
-ZonedDateTimeObject
-*
->
+ZonedDateTime
 >
 relativeTo
 const
@@ -705,8 +704,7 @@ JS
 :
 Handle
 <
-ZonedDateTimeObject
-*
+ZonedDateTime
 >
 zonedRelativeTo
 const
