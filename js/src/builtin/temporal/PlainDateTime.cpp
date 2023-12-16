@@ -3220,7 +3220,7 @@ addedDate
 if
 (
 !
-CalendarDateAdd
+AddDate
 (
 cx
 calendar
