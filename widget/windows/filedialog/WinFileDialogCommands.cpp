@@ -1789,18 +1789,6 @@ Action
 action
 )
 {
-static
-mozilla
-:
-:
-LazyLogModule
-sLogWFD
-(
-"
-FileDialog
-"
-)
-;
 RefPtr
 <
 nsIThread
@@ -1909,7 +1897,7 @@ res
 {
 MOZ_LOG
 (
-sLogWFD
+sLogFileDialog
 LogLevel
 :
 :
@@ -2039,7 +2027,7 @@ staRegion
 {
 MOZ_LOG
 (
-sLogWFD
+sLogFileDialog
 LogLevel
 :
 :
@@ -2089,7 +2077,7 @@ atq
 ;
 MOZ_LOG
 (
-sLogWFD
+sLogFileDialog
 LogLevel
 :
 :

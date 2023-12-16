@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MozPromise
 .
 h
@@ -61,6 +70,10 @@ widget
 :
 filedialog
 {
+extern
+LazyLogModule
+sLogFileDialog
+;
 enum
 class
 FileDialogType
