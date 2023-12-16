@@ -288,14 +288,6 @@ frTrBs
 \
 _
 (
-ClearStoreBuffer
-"
-clrSB
-"
-)
-\
-_
-(
 ClearNursery
 "
 clear
