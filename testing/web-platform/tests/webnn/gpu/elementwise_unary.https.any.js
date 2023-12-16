@@ -16,6 +16,9 @@ ceil
 cos
 '
 '
+erf
+'
+'
 exp
 '
 '
