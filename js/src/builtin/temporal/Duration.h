@@ -621,6 +621,10 @@ ZonedDateTimeObject
 >
 >
 relativeTo
+const
+PlainDateTime
+&
+precalculatedPlainDateTime
 Duration
 *
 result
@@ -705,6 +709,10 @@ ZonedDateTimeObject
 *
 >
 zonedRelativeTo
+const
+PlainDateTime
+&
+precalculatedPlainDateTime
 Duration
 *
 result
