@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2023
+2018
 Alliance
 for
 Open
@@ -145,7 +145,7 @@ equ
 1
 CONFIG_AV1_ENCODER
 equ
-1
+0
 CONFIG_BIG_ENDIAN
 equ
 0
