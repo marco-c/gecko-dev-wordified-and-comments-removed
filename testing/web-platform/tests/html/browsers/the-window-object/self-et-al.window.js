@@ -202,7 +202,7 @@ broken
 ;
 otherW
 .
-onunload
+onpagehide
 =
 t
 .
@@ -228,7 +228,7 @@ cleared
 after
 browsing
 context
-unload
+pagehide
 )
 ;
 t
