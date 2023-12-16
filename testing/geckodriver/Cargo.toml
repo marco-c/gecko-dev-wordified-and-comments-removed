@@ -126,6 +126,11 @@ geckodriver
 [
 dependencies
 ]
+anyhow
+=
+"
+1
+"
 base64
 =
 "
@@ -385,6 +390,11 @@ tempfile
 =
 "
 3
+"
+thiserror
+=
+"
+1
 "
 unicode
 -

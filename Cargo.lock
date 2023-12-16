@@ -11754,6 +11754,9 @@ dependencies
 =
 [
 "
+anyhow
+"
+"
 base64
 0
 .
@@ -11817,6 +11820,9 @@ serde_yaml
 "
 "
 tempfile
+"
+"
+thiserror
 "
 "
 unicode
