@@ -629,9 +629,10 @@ aProxy
 )
 ;
 return
-"
-Object
-"
+NamesOfInterfacesWithProtos
+(
+mPrototypeID
+)
 ;
 }
 void
