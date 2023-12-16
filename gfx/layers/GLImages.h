@@ -240,8 +240,6 @@ OriginPos
 aOriginPos
 bool
 aHasAlpha
-bool
-aForceBT709ColorSpace
 Maybe
 <
 gfx
@@ -307,16 +305,6 @@ const
 {
 return
 mHasAlpha
-;
-}
-bool
-GetForceBT709ColorSpace
-(
-)
-const
-{
-return
-mForceBT709ColorSpace
 ;
 }
 const
@@ -470,10 +458,6 @@ mOriginPos
 const
 bool
 mHasAlpha
-;
-const
-bool
-mForceBT709ColorSpace
 ;
 const
 Maybe

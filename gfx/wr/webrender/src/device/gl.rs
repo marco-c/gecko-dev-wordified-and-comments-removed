@@ -709,16 +709,6 @@ gl
 :
 :
 TEXTURE_EXTERNAL_OES
-ImageBufferKind
-:
-:
-TextureExternalBT709
-=
->
-gl
-:
-:
-TEXTURE_EXTERNAL_OES
 }
 }
 pub
