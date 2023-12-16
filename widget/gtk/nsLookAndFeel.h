@@ -381,6 +381,14 @@ mField
 ColorPair
 mWindow
 ;
+ColorPair
+mSidebar
+;
+nscolor
+mSidebarBorder
+=
+kBlack
+;
 nscolor
 mMozWindowActiveBorder
 =
