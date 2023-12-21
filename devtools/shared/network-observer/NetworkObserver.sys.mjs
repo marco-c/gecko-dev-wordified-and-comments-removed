@@ -2832,6 +2832,15 @@ httpActivity
 .
 owner
 .
+addServerTimings
+(
+serverTimings
+)
+;
+httpActivity
+.
+owner
+.
 addEventTimings
 (
 timings
@@ -2843,7 +2852,6 @@ timings
 timings
 .
 offsets
-serverTimings
 )
 ;
 }
@@ -5635,6 +5643,15 @@ httpActivity
 .
 owner
 .
+addServerTimings
+(
+serverTimings
+)
+;
+httpActivity
+.
+owner
+.
 addEventTimings
 (
 result
@@ -5646,7 +5663,6 @@ timings
 result
 .
 offsets
-serverTimings
 )
 ;
 }

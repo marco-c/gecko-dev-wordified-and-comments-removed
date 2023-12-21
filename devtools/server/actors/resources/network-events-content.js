@@ -590,6 +590,14 @@ addEventTimings
 ;
 actor
 .
+addServerTimings
+(
+{
+}
+)
+;
+actor
+.
 addResponseContent
 (
 {
