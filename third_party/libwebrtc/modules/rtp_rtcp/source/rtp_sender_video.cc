@@ -597,6 +597,11 @@ kVideoCodecH264
 :
 break
 ;
+case
+kVideoCodecH265
+:
+break
+;
 default
 :
 break

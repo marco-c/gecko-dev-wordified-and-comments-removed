@@ -1145,6 +1145,9 @@ GetQpHigh
 break
 ;
 case
+kVideoCodecH265
+:
+case
 kVideoCodecH264
 :
 low
@@ -1368,6 +1371,9 @@ GetFps
 break
 ;
 case
+kVideoCodecH265
+:
+case
 kVideoCodecVP9
 :
 fps
@@ -1545,6 +1551,9 @@ GetKbps
 ;
 break
 ;
+case
+kVideoCodecH265
+:
 case
 kVideoCodecVP9
 :
@@ -1724,6 +1733,9 @@ GetKbpsRes
 ;
 break
 ;
+case
+kVideoCodecH265
+:
 case
 kVideoCodecVP9
 :

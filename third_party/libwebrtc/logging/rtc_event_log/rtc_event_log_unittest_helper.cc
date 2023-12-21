@@ -1143,7 +1143,7 @@ constexpr
 int
 kNumCodecTypes
 =
-5
+6
 ;
 constexpr
 VideoCodecType
@@ -1158,6 +1158,7 @@ kVideoCodecVP8
 kVideoCodecVP9
 kVideoCodecAV1
 kVideoCodecH264
+kVideoCodecH265
 }
 ;
 const

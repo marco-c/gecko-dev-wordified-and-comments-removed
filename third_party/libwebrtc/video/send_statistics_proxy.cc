@@ -231,6 +231,9 @@ kVideoH264
 kVideoAv1
 =
 4
+kVideoH265
+=
+5
 kVideoMax
 =
 64
@@ -360,6 +363,12 @@ kVideoCodecAV1
 :
 return
 kVideoAv1
+;
+case
+kVideoCodecH265
+:
+return
+kVideoH265
 ;
 default
 :

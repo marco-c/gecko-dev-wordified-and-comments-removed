@@ -180,6 +180,16 @@ frame_size
 )
 ;
 }
+else
+if
+(
+codec_type
+=
+=
+kVideoCodecH265
+)
+{
+}
 return
 absl
 :

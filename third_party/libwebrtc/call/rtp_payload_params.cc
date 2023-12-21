@@ -2051,6 +2051,14 @@ kVideoCodecMultiplex
 :
 return
 ;
+case
+VideoCodecType
+:
+:
+kVideoCodecH265
+:
+return
+;
 }
 RTC_DCHECK_NOTREACHED
 (
@@ -2361,6 +2369,12 @@ VideoCodecType
 :
 :
 kVideoCodecH264
+:
+case
+VideoCodecType
+:
+:
+kVideoCodecH265
 :
 case
 VideoCodecType

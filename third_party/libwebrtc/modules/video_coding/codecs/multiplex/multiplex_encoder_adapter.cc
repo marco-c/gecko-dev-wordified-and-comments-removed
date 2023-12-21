@@ -438,6 +438,11 @@ keyFrameInterval
 ;
 break
 ;
+case
+kVideoCodecH265
+:
+break
+;
 default
 :
 break

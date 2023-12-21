@@ -3691,6 +3691,15 @@ kVideoCodecMultiplex
 MULTIPLEX
 "
 }
+{
+VideoCodecType
+:
+:
+kVideoCodecH265
+"
+H265
+"
+}
 }
 ;
 fprintf

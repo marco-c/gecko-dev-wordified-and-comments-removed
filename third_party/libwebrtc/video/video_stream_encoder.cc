@@ -790,6 +790,15 @@ true
 }
 break
 ;
+case
+kVideoCodecH265
+:
+[
+[
+fallthrough
+]
+]
+;
 default
 :
 break

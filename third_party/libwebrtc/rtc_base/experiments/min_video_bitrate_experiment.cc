@@ -491,6 +491,9 @@ GetOptional
 )
 ;
 case
+kVideoCodecH265
+:
+case
 kVideoCodecVP9
 :
 return

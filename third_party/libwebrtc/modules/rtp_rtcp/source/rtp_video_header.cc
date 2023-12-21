@@ -317,6 +317,14 @@ video_type_header
 ;
 break
 ;
+case
+VideoCodecType
+:
+:
+kVideoCodecH265
+:
+break
+;
 default
 :
 break

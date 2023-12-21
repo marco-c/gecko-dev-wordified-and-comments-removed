@@ -183,6 +183,12 @@ VideoRtpDepacketizerAv1
 )
 ;
 case
+kVideoCodecH265
+:
+return
+nullptr
+;
+case
 kVideoCodecGeneric
 :
 case

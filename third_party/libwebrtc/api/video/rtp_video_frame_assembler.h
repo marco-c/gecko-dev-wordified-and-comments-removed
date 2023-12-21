@@ -184,6 +184,7 @@ kVp8
 kVp9
 kAv1
 kGeneric
+kH265
 }
 ;
 explicit

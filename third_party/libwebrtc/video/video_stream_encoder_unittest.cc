@@ -51662,6 +51662,11 @@ false
 ;
 break
 ;
+case
+kVideoCodecH265
+:
+break
+;
 default
 :
 RTC_DCHECK_NOTREACHED

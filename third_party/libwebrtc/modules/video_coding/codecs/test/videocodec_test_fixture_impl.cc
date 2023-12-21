@@ -1185,6 +1185,11 @@ numberOfTemporalLayers
 ;
 break
 ;
+case
+kVideoCodecH265
+:
+break
+;
 default
 :
 break
@@ -1793,6 +1798,11 @@ uint8_t
 num_temporal_layers
 )
 ;
+break
+;
+case
+kVideoCodecH265
+:
 break
 ;
 default

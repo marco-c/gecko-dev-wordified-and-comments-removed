@@ -525,6 +525,11 @@ numberOfTemporalLayers
 ;
 break
 ;
+case
+kVideoCodecH265
+:
+break
+;
 default
 :
 break
