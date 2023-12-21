@@ -138,9 +138,6 @@ crate
 properties
 :
 :
-property_declaration
-:
-:
 OwnedPropertyDeclarationId
 ;
 use
