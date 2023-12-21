@@ -480,12 +480,7 @@ PostCreateSessionDescriptionFailed
 CreateSessionDescriptionObserver
 *
 observer
-const
-std
-:
-:
-string
-&
+RTCError
 error
 )
 ;
