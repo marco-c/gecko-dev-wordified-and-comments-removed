@@ -20178,6 +20178,16 @@ public
 static
 final
 int
+ERROR_MODEL_DOWNLOAD_REQUIRED
+=
+-
+11
+;
+field
+public
+static
+final
+int
 ERROR_MODEL_LANGUAGE_REQUIRED
 =
 -

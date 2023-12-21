@@ -1302,6 +1302,13 @@ Translations
 :
 SetNeverTranslateSpecifiedSite
 "
+"
+GeckoView
+:
+Translations
+:
+GetTranslateDownloadSize
+"
 ]
 }
 )
