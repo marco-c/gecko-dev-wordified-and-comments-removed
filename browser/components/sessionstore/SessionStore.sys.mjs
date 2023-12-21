@@ -41802,6 +41802,15 @@ activeIndex
 0
 )
 ;
+if
+(
+activeIndex
+in
+tabState
+.
+entries
+)
+{
 let
 title
 =
@@ -41877,6 +41886,7 @@ tabData
 false
 )
 ;
+}
 }
 }
 tIndex
