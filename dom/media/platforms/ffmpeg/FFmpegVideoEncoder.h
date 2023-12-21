@@ -241,7 +241,10 @@ ProcessDrain
 (
 )
 ;
-void
+RefPtr
+<
+ShutdownPromise
+>
 ProcessShutdown
 (
 )
