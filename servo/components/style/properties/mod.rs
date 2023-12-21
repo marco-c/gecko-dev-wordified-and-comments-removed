@@ -1090,6 +1090,13 @@ ToShmem
 MallocSizeOf
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 NonCustomPropertyId
