@@ -990,8 +990,8 @@ DefaultInterval
 )
 ;
 static
-bool
-IsInHighRateMode
+double
+HighRateMultiplier
 (
 )
 ;
