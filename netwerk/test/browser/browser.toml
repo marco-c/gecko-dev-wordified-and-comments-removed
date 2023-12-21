@@ -946,6 +946,13 @@ js
 ]
 [
 "
+browser_test_data_channel_observer
+.
+js
+"
+]
+[
+"
 browser_test_favicon
 .
 js
