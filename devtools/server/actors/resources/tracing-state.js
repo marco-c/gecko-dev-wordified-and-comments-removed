@@ -8,7 +8,7 @@ const
 TYPES
 :
 {
-JSTRACER_STATE
+TRACING_STATE
 }
 }
 =
@@ -180,7 +180,7 @@ onAvailable
 {
 resourceType
 :
-JSTRACER_STATE
+TRACING_STATE
 enabled
 logMethod
 profile

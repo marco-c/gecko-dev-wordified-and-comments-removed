@@ -4277,7 +4277,7 @@ resourceCommand
 .
 TYPES
 .
-JSTRACER_STATE
+TRACING_STATE
 )
 ;
 }
@@ -18801,7 +18801,7 @@ resourceType
 =
 TYPES
 .
-JSTRACER_STATE
+TRACING_STATE
 )
 {
 this

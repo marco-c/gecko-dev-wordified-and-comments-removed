@@ -867,11 +867,6 @@ resourceCommand
 TYPES
 .
 LAST_PRIVATE_CONTEXT_EXIT
-resourceCommand
-.
-TYPES
-.
-JSTRACER_TRACE
 ]
 {
 onAvailable
@@ -1389,11 +1384,6 @@ resourceCommand
 TYPES
 .
 LAST_PRIVATE_CONTEXT_EXIT
-resourceCommand
-.
-TYPES
-.
-JSTRACER_TRACE
 ]
 {
 onAvailable

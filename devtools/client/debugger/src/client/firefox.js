@@ -275,7 +275,7 @@ resourceCommand
 .
 TYPES
 .
-JSTRACER_STATE
+TRACING_STATE
 ]
 {
 onAvailable
@@ -398,7 +398,7 @@ resourceCommand
 .
 TYPES
 .
-JSTRACER_STATE
+TRACING_STATE
 ]
 {
 onAvailable
