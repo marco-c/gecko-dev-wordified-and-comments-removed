@@ -54,13 +54,13 @@ TEST_CHUNK_SIZE
 =
 100
 ;
-add_task
+add_setup
 (
 async
-function
-init
 (
 )
+=
+>
 {
 Assert
 .
