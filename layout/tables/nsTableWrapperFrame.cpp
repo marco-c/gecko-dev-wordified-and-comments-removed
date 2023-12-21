@@ -3811,11 +3811,6 @@ GetCaptionSide
 (
 )
 ;
-WritingMode
-captionWM
-=
-wm
-;
 const
 nscoord
 contentBoxISize
@@ -3891,15 +3886,6 @@ FirstChild
 aOuterRI
 captionRI
 innerBorderISize
-)
-;
-captionWM
-=
-captionRI
--
->
-GetWritingMode
-(
 )
 ;
 }
