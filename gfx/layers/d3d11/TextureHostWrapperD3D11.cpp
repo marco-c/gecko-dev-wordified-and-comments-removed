@@ -1328,10 +1328,7 @@ descD3D10
 =
 SurfaceDescriptorD3D10
 (
-WindowsHandle
-(
 nullptr
-)
 Some
 (
 id

@@ -93,6 +93,17 @@ include
 "
 mozilla
 /
+ipc
+/
+ProtocolMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 APZInputBridge

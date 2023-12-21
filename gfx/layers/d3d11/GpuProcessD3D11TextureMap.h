@@ -306,9 +306,12 @@ ID3D11Texture2D
 >
 mCopiedTexture
 ;
-Maybe
+RefPtr
 <
-HANDLE
+gfx
+:
+:
+FileHandleWrapper
 >
 mCopiedTextureSharedHandle
 ;

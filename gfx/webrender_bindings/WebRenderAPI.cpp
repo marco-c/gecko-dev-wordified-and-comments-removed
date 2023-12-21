@@ -1921,7 +1921,8 @@ layers
 SyncHandle
 syncHandle
 =
-0
+{
+}
 ;
 layers
 :
