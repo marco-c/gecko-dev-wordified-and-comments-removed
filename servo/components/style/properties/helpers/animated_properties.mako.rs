@@ -1824,19 +1824,6 @@ context
 &
 mut
 Context
-extra_custom_properties
-:
-Option
-<
-&
-crate
-:
-:
-custom_properties
-:
-:
-ComputedCustomProperties
->
 initial
 :
 &
@@ -2467,10 +2454,6 @@ substituted
 let
 custom_properties
 =
-extra_custom_properties
-.
-unwrap_or
-(
 &
 context
 .
@@ -2480,7 +2463,6 @@ style
 .
 custom_properties
 (
-)
 )
 ;
 debug_assert
@@ -2541,7 +2523,6 @@ from_declaration
 &
 substituted
 context
-extra_custom_properties
 initial
 )
 }
