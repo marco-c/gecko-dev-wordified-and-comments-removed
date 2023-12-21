@@ -311,14 +311,9 @@ AbsoluteCaptureTimestamp
 (
 )
 const
-{
-return
-absl
-:
-:
-nullopt
+=
+0
 ;
-}
 enum
 class
 FrameType
