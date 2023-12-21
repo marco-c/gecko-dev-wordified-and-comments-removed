@@ -2748,9 +2748,7 @@ globalNames
 !
 =
 0
-:
-            
-if
+and
 len
 (
 self
@@ -2760,21 +2758,14 @@ _exposureGlobalNames
 =
 =
 0
-and
-not
-self
-.
-isPseudoInterface
-(
-)
 :
-                
+            
 raise
 WebIDLError
 (
-                    
+                
 (
-                        
+                    
 "
 '
 %
@@ -2789,7 +2780,7 @@ though
 we
 have
 "
-                        
+                    
 "
 globals
 to
@@ -2797,18 +2788,18 @@ be
 exposed
 to
 "
-                    
+                
 )
-                    
+                
 %
 self
-                    
+                
 [
 self
 .
 location
 ]
-                
+            
 )
         
 globalNameSetToExposureSet
@@ -5489,12 +5480,6 @@ False
 self
 .
 _isOnGlobalProtoChain
-=
-False
-        
-self
-.
-_isPseudo
 =
 False
         
@@ -9934,13 +9919,6 @@ self
 _noInterfaceObject
 "
 )
-and
-not
-self
-.
-isPseudoInterface
-(
-)
     
 def
 hasInterfacePrototypeObject
@@ -9976,14 +9954,6 @@ getUserData
 hasConcreteDescendant
 "
 False
-)
-            
-and
-not
-self
-.
-isPseudoInterface
-(
 )
         
 )
@@ -10343,18 +10313,6 @@ return
 self
 .
 _isOnGlobalProtoChain
-    
-def
-isPseudoInterface
-(
-self
-)
-:
-        
-return
-self
-.
-_isPseudo
     
 def
 _getDependentObjects
