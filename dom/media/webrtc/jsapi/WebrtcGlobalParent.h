@@ -18,17 +18,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-BindingDeclarations
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

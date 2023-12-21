@@ -7,15 +7,6 @@ NULL_TRANSPORT_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 api
 /
 call

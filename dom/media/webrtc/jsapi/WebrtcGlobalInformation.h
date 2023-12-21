@@ -6,11 +6,6 @@ define
 _WEBRTC_GLOBAL_INFORMATION_H_
 #
 include
-<
-tuple
->
-#
-include
 "
 mozilla
 /
@@ -26,13 +21,6 @@ mozilla
 dom
 /
 WebrtcGlobalInformationBinding
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "

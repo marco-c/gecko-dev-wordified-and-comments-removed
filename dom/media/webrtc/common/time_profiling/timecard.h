@@ -6,13 +6,6 @@ define
 timecard_h__
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 prtime
 .
