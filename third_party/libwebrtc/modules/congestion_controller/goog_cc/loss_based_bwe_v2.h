@@ -546,11 +546,6 @@ Zero
 )
 ;
 bool
-bound_by_upper_link_capacity_when_loss_limited
-=
-false
-;
-bool
 not_use_acked_rate_in_alr
 =
 false
