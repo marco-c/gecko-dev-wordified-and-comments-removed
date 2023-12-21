@@ -444,6 +444,15 @@ encode_usage_percent
 )
 override
 ;
+void
+OnSendPacket
+(
+uint32_t
+ssrc
+Timestamp
+capture_time
+)
+;
 int
 GetInputFrameRate
 (

@@ -140,8 +140,6 @@ Timestamp
 time
 )
 ;
-protected
-:
 void
 OnSendPacket
 (
