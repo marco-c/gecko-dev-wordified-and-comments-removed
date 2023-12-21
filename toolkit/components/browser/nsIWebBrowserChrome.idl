@@ -320,6 +320,13 @@ CHROME_WINDOW_MIN
 =
 0x00004000
 ;
+const
+unsigned
+long
+CHROME_WINDOW_POPUP
+=
+0x00008000
+;
 /
 /
 whether

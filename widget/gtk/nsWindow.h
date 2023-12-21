@@ -3020,6 +3020,11 @@ mTitlebarBackdropState
 1
 ;
 bool
+mIsWaylandPanelWindow
+:
+1
+;
+bool
 mIsChildWindow
 :
 1

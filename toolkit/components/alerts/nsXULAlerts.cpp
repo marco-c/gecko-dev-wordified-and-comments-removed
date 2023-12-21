@@ -1753,9 +1753,9 @@ yes
 titlebar
 =
 no
-close
+popup
 =
-no
+yes
 "
 )
 ;
