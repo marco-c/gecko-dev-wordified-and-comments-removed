@@ -2335,9 +2335,9 @@ kParamValueEmpty
 ;
 }
 const
-VideoCodec
+Codec
 *
-FindMatchingCodec
+FindMatchingVideoCodec
 (
 const
 std
@@ -2345,12 +2345,12 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 supported_codecs
 const
-VideoCodec
+Codec
 &
 codec
 )
@@ -2372,7 +2372,7 @@ params
 for
 (
 const
-VideoCodec
+Codec
 &
 supported_codec
 :
@@ -2412,7 +2412,7 @@ std
 vector
 <
 const
-VideoCodec
+Codec
 *
 >
 FindAllMatchingCodecs
@@ -2423,12 +2423,12 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 supported_codecs
 const
-VideoCodec
+Codec
 &
 codec
 )
@@ -2439,7 +2439,7 @@ std
 vector
 <
 const
-VideoCodec
+Codec
 *
 >
 result
@@ -2461,7 +2461,7 @@ params
 for
 (
 const
-VideoCodec
+Codec
 &
 supported_codec
 :

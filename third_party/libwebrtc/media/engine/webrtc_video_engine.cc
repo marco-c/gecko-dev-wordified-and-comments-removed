@@ -15904,7 +15904,7 @@ mapped_codecs
 if
 (
 !
-FindMatchingCodec
+FindMatchingVideoCodec
 (
 local_supported_codecs
 mapped_codec
