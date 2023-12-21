@@ -434,6 +434,13 @@ chrome
 .
 tests
 '
+'
+device_status
+'
+:
+'
+available
+'
 }
 }
 }
@@ -491,6 +498,13 @@ mac
 254
 -
 e504
+'
+'
+device_status
+'
+:
+'
+available
 '
 }
 }
