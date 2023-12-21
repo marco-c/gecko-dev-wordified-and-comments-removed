@@ -253,6 +253,9 @@ console
 -
 prefix
 foo
+-
+-
+values
 "
 "
 console
@@ -313,6 +316,10 @@ wrappedJSObject
 .
 main
 (
+"
+arg
+"
+2
 )
 ;
 }
@@ -334,6 +341,12 @@ foo
 :
 interpreter
 main
+(
+"
+arg
+"
+2
+)
 )
 .
 length
