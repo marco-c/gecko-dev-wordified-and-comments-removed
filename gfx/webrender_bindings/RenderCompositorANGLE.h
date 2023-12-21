@@ -769,6 +769,11 @@ mDisablingNativeCompositor
 =
 false
 ;
+bool
+mFirstPresent
+=
+true
+;
 }
 ;
 }
