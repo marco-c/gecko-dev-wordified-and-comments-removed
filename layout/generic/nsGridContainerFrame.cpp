@@ -52690,10 +52690,7 @@ IsContainPaint
 )
 {
 return
-nsFrameState
-(
-0
-)
+bits
 ;
 }
 outerFrame
