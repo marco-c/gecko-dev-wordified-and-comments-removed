@@ -807,11 +807,6 @@ tabIds
 )
 ;
 await
-Promise
-.
-all
-(
-[
 openWindow
 (
 [
@@ -826,6 +821,8 @@ com
 "
 ]
 )
+;
+await
 openWindow
 (
 [
@@ -849,6 +846,8 @@ org
 "
 ]
 )
+;
+await
 openWindow
 (
 [
@@ -879,8 +878,6 @@ example
 .
 net
 "
-]
-)
 ]
 )
 ;
