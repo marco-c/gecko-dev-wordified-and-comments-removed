@@ -2857,6 +2857,17 @@ linux
 ]
 [
 "
+browser_net_service
+-
+worker
+-
+timings
+.
+js
+"
+]
+[
+"
 browser_net_set
 -
 cookie

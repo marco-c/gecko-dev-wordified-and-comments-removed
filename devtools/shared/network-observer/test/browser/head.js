@@ -252,6 +252,17 @@ hasServerTimings
 true
 ;
 }
+addServiceWorkerTimings
+(
+)
+{
+this
+.
+hasServiceWorkerTimings
+=
+true
+;
+}
 }
 function
 createNetworkEventOwner
