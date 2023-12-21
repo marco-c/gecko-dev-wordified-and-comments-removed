@@ -1285,14 +1285,6 @@ bitrate_observer
 ;
 configuration
 .
-send_side_delay_observer
-=
-observers
-.
-send_delay_observer
-;
-configuration
-.
 send_packet_observer
 =
 observers

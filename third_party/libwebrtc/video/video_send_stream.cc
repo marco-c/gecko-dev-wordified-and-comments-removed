@@ -539,12 +539,6 @@ stats_proxy
 ;
 observers
 .
-send_delay_observer
-=
-nullptr
-;
-observers
-.
 send_packet_observer
 =
 send_packet_observer
