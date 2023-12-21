@@ -1649,6 +1649,13 @@ MallocSizeOf
 aMallocSizeOf
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 MutexAutoLock
 lock
 (
@@ -2098,6 +2105,13 @@ nsACString
 aOldValue
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 aOldValue
 .
 SetIsVoid
