@@ -343,6 +343,15 @@ backgroundtasks
 "
 tests
 /
+BackgroundTask_automaticrestart
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 BackgroundTask_backgroundtask_specific_pref
 .
 sys
@@ -521,7 +530,7 @@ sys
 mjs
 "
 ]
-FINAL_TARGET_FILES
+FINAL_TARGET_PP_FILES
 .
 browser
 .
@@ -539,7 +548,7 @@ backgroundtasks_browser
 js
 "
 ]
-FINAL_TARGET_FILES
+FINAL_TARGET_PP_FILES
 .
 defaults
 .
