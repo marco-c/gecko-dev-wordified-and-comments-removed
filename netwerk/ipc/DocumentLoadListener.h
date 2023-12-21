@@ -561,7 +561,7 @@ Maybe
 <
 bool
 >
-aIsXFOError
+aIsEmbeddingBlockedError
 dom
 :
 :

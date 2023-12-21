@@ -162,7 +162,7 @@ aCacheKey
 bool
 aUriModified
 bool
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 :
 DocumentChannel
@@ -172,7 +172,7 @@ aLoadInfo
 aLoadFlags
 aCacheKey
 aUriModified
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 {
 LOG
@@ -972,7 +972,7 @@ mUriModified
 )
 Some
 (
-mIsXFOError
+mIsEmbeddingBlockedError
 )
 nullptr
 &

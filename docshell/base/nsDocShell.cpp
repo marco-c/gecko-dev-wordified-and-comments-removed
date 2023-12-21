@@ -46556,7 +46556,7 @@ false
 ;
 }
 bool
-isXFOError
+isEmbeddingBlockedError
 =
 false
 ;
@@ -46577,12 +46577,18 @@ GetStatus
 status
 )
 ;
-isXFOError
+isEmbeddingBlockedError
 =
 status
 =
 =
 NS_ERROR_XFO_VIOLATION
+|
+|
+status
+=
+=
+NS_ERROR_CSP_FRAME_ANCESTOR_VIOLATION
 ;
 }
 nsLoadFlags
@@ -46600,7 +46606,7 @@ uriModified
 )
 Some
 (
-isXFOError
+isEmbeddingBlockedError
 )
 )
 ;
@@ -46643,7 +46649,7 @@ loadFlags
 this
 cacheKey
 uriModified
-isXFOError
+isEmbeddingBlockedError
 )
 ;
 MOZ_ASSERT

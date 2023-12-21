@@ -4815,7 +4815,7 @@ Maybe
 <
 bool
 >
-aIsXFOError
+aIsEmbeddingBlockedError
 dom
 :
 :
@@ -4917,7 +4917,7 @@ std
 :
 move
 (
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 )
 ;

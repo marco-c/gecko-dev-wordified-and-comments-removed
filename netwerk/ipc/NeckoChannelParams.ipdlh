@@ -1174,7 +1174,7 @@ bool
 uriModified
 ;
 bool
-isXFOError
+isEmbeddingBlockedError
 ;
 }
 ;

@@ -5189,7 +5189,7 @@ Maybe
 <
 bool
 >
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 {
 MOZ_ASSERT
@@ -5250,7 +5250,7 @@ loadType
 =
 =
 LOAD_ERROR_PAGE
-aIsXFOError
+aIsEmbeddingBlockedError
 .
 isSome
 (
@@ -5269,7 +5269,7 @@ if
 (
 !
 *
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 {
 loadFlags

@@ -173,7 +173,7 @@ aCacheKey
 bool
 aUriModified
 bool
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 ;
 static
@@ -224,7 +224,7 @@ aCacheKey
 bool
 aUriModified
 bool
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 ;
 void
@@ -352,7 +352,7 @@ mUriModified
 false
 ;
 bool
-mIsXFOError
+mIsEmbeddingBlockedError
 =
 false
 ;

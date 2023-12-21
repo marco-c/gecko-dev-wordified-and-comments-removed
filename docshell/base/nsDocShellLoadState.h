@@ -1295,7 +1295,7 @@ Maybe
 <
 bool
 >
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 ;
 mozilla
