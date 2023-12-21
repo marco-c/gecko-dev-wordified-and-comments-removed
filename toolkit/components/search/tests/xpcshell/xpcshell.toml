@@ -1101,13 +1101,6 @@ js
 ]
 [
 "
-test_multipleIcons
-.
-js
-"
-]
-[
-"
 test_nodb_pluschanges
 .
 js
