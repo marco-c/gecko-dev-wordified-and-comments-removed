@@ -3,7 +3,7 @@ include
 "
 pc
 /
-sdp_serializer
+simulcast_sdp_serializer
 .
 h
 "
@@ -1000,7 +1000,7 @@ std
 :
 :
 string
-SdpSerializer
+SimulcastSdpSerializer
 :
 :
 SerializeSimulcastDescription
@@ -1106,7 +1106,7 @@ RTCErrorOr
 <
 SimulcastDescription
 >
-SdpSerializer
+SimulcastSdpSerializer
 :
 :
 DeserializeSimulcastDescription
@@ -1429,7 +1429,7 @@ std
 :
 :
 string
-SdpSerializer
+SimulcastSdpSerializer
 :
 :
 SerializeRidDescription
@@ -1650,7 +1650,7 @@ RTCErrorOr
 <
 RidDescription
 >
-SdpSerializer
+SimulcastSdpSerializer
 :
 :
 DeserializeRidDescription

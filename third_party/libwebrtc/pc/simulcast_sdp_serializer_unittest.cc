@@ -3,7 +3,7 @@ include
 "
 pc
 /
-sdp_serializer
+simulcast_sdp_serializer
 .
 h
 "
@@ -592,7 +592,7 @@ expected
 )
 const
 {
-SdpSerializer
+SimulcastSdpSerializer
 deserializer
 ;
 auto
@@ -642,7 +642,7 @@ expected
 )
 const
 {
-SdpSerializer
+SimulcastSdpSerializer
 serializer
 ;
 auto
@@ -1519,7 +1519,7 @@ SimulcastSdpSerializerTest
 SimulcastDeserializationFailed
 )
 {
-SdpSerializer
+SimulcastSdpSerializer
 deserializer
 ;
 auto
@@ -1999,7 +1999,7 @@ expected
 )
 const
 {
-SdpSerializer
+SimulcastSdpSerializer
 deserializer
 ;
 auto
@@ -2049,7 +2049,7 @@ expected
 )
 const
 {
-SdpSerializer
+SimulcastSdpSerializer
 serializer
 ;
 auto
@@ -3024,7 +3024,7 @@ RidDescriptionSdpSerializerTest
 RidDescriptionDeserializationFailed
 )
 {
-SdpSerializer
+SimulcastSdpSerializer
 deserializer
 ;
 auto

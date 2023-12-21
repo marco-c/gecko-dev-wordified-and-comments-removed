@@ -1,9 +1,9 @@
 #
 ifndef
-PC_SDP_SERIALIZER_H_
+PC_SIMULCAST_SDP_SERIALIZER_H_
 #
 define
-PC_SDP_SERIALIZER_H_
+PC_SIMULCAST_SDP_SERIALIZER_H_
 #
 include
 <
@@ -62,7 +62,7 @@ namespace
 webrtc
 {
 class
-SdpSerializer
+SimulcastSdpSerializer
 {
 public
 :
