@@ -632,6 +632,15 @@ Promise
 aPromise
 )
 ;
+static
+void
+UpdateWidevineL1Path
+(
+nsIFile
+*
+aFile
+)
+;
 private
 :
 static
