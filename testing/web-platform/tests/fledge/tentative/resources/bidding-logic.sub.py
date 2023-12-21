@@ -1,3 +1,7 @@
+from
+pathlib
+import
+Path
 def
 main
 (
@@ -260,12 +264,6 @@ true
 "
 )
     
-body
-=
-b
-'
-'
-    
 if
 error
 =
@@ -279,7 +277,43 @@ body
 :
         
 return
+b
+'
+'
+    
 body
+=
+(
+Path
+(
+__file__
+)
+.
+parent
+.
+resolve
+(
+)
+/
+'
+worklet
+-
+helpers
+.
+js
+'
+)
+.
+read_text
+(
+)
+.
+encode
+(
+"
+ASCII
+"
+)
     
 if
 error
