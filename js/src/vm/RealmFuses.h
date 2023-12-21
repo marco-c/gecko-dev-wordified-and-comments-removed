@@ -369,6 +369,14 @@ fuseOffsets
 ]
 ;
 static
+const
+char
+*
+fuseNames
+[
+]
+;
+static
 int32_t
 offsetOfFuseWordRelativeToRealm
 (
