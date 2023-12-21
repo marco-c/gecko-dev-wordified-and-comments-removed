@@ -212,12 +212,6 @@ DER
 if
 (
 !
-cert
-.
-isBuiltInRoot
-&
-&
-!
 savedDBKey
 )
 {

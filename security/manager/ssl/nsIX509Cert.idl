@@ -98,14 +98,6 @@ emailAddress
 [
 must_use
 ]
-readonly
-attribute
-bool
-isBuiltInRoot
-;
-[
-must_use
-]
 Array
 <
 AString

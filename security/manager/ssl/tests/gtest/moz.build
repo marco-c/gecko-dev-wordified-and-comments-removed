@@ -3,11 +3,6 @@ SOURCES
 =
 [
 "
-CertDBTest
-.
-cpp
-"
-"
 CoseTest
 .
 cpp
