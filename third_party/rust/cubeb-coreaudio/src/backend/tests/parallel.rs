@@ -2076,6 +2076,7 @@ return
 ;
 }
 let
+mut
 context
 =
 AudioUnitContext
@@ -2089,10 +2090,11 @@ let
 context_ptr_value
 =
 &
+mut
 context
 as
 *
-const
+mut
 AudioUnitContext
 as
 usize
