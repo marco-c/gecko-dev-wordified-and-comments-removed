@@ -1299,6 +1299,10 @@ mDefaultPreventedOnContent
 (
 false
 )
+mInHTMLEditorEventListener
+(
+false
+)
 {
 }
 public
@@ -1467,6 +1471,10 @@ mDefaultPreventedOnContent
 aEvent
 .
 mDefaultPreventedOnContent
+;
+mInHTMLEditorEventListener
+=
+false
 ;
 }
 void
