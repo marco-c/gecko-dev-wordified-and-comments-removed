@@ -389,7 +389,7 @@ HRESULT
 AgileReference
 :
 :
-Resolve
+ResolveRaw
 (
 REFIID
 aIid
