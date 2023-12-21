@@ -162,9 +162,6 @@ mscom
 :
 :
 AgileReference
-<
-ICustomDestinationList
->
 mJumpListMgr
 MOZ_GUARDED_BY
 (
