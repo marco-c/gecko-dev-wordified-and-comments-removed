@@ -29,7 +29,7 @@ mozilla
 /
 layers
 /
-KnowsCompositor
+ActiveResource
 .
 h
 "
@@ -112,6 +112,9 @@ DrawTarget
 namespace
 layers
 {
+class
+KnowsCompositor
+;
 struct
 RemoteTextureOwnerId
 ;
