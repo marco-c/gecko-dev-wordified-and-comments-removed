@@ -32,6 +32,16 @@ startup
 tracer
 "
 ]
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
 if
 CONFIG
 [

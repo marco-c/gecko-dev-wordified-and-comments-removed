@@ -573,6 +573,13 @@ traceValues
 options
 .
 traceValues
+traceOnNextInteraction
+:
+!
+!
+options
+.
+traceOnNextInteraction
 }
 )
 ;
