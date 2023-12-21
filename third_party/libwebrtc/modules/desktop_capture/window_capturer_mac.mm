@@ -631,7 +631,7 @@ pid
 ]
 activateWithOptions
 :
-NSApplicationActivateIgnoringOtherApps
+0
 ]
 ;
 CFRelease
