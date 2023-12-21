@@ -139,12 +139,15 @@ UnlockProdImpl
 override
 {
 }
-void
+bool
 ProducerAcquireImpl
 (
 )
 override
 {
+return
+true
+;
 }
 void
 ProducerReleaseImpl

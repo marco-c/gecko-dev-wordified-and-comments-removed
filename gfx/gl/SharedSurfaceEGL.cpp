@@ -638,7 +638,7 @@ fFinish
 )
 ;
 }
-void
+bool
 SharedSurface_EGLImage
 :
 :
@@ -687,6 +687,9 @@ LOCAL_EGL_FOREVER
 )
 ;
 }
+return
+true
+;
 }
 Maybe
 <
