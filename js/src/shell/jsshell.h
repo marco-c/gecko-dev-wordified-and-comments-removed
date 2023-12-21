@@ -617,10 +617,6 @@ extern
 bool
 enableImportAssertions
 ;
-extern
-bool
-enableDestructuringFuse
-;
 #
 ifdef
 JS_GC_ZEAL
