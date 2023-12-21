@@ -769,10 +769,9 @@ icon
 :
 engine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 inPrivateWindow
 :
 true

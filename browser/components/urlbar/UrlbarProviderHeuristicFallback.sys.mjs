@@ -2250,10 +2250,9 @@ icon
 :
 engine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 query
 :
 [

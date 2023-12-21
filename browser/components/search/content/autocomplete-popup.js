@@ -1045,7 +1045,9 @@ uri
 =
 engine
 .
-iconURI
+getIconURL
+(
+)
 ;
 if
 (
@@ -1060,8 +1062,6 @@ setAttribute
 src
 "
 uri
-.
-spec
 )
 ;
 }

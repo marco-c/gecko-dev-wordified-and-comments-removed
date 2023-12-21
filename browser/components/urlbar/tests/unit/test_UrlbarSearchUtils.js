@@ -593,7 +593,9 @@ equal
 (
 matchedEngine
 .
-iconURI
+getIconURL
+(
+)
 null
 )
 ;
@@ -674,7 +676,9 @@ equal
 (
 matchedEngine
 .
-iconURI
+getIconURL
+(
+)
 null
 )
 ;
@@ -924,7 +928,9 @@ equal
 (
 matchedEngine
 .
-iconURI
+getIconURL
+(
+)
 null
 )
 ;
@@ -981,7 +987,9 @@ equal
 (
 matchedEngine
 .
-iconURI
+getIconURL
+(
+)
 null
 )
 ;
@@ -1038,7 +1046,9 @@ equal
 (
 matchedEngine
 .
-iconURI
+getIconURL
+(
+)
 null
 )
 ;
@@ -1160,7 +1170,9 @@ equal
 (
 matchedEngine
 .
-iconURI
+getIconURL
+(
+)
 null
 )
 ;
@@ -1217,7 +1229,9 @@ equal
 (
 matchedEngine
 .
-iconURI
+getIconURL
+(
+)
 null
 )
 ;
@@ -1274,7 +1288,9 @@ equal
 (
 matchedEngine
 .
-iconURI
+getIconURL
+(
+)
 null
 )
 ;

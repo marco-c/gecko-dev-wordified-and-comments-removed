@@ -3291,10 +3291,9 @@ value
 ?
 engine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 :
 entry
 .

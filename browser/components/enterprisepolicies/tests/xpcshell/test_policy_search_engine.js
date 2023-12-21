@@ -843,9 +843,9 @@ engine
 .
 wrappedJSObject
 .
-iconURI
-.
-spec
+getIconURL
+(
+)
 iconURL
 "
 Icon

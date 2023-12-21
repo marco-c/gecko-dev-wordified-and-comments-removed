@@ -275,9 +275,9 @@ expectedIconURL
 =
 privateEngine
 .
-iconURI
-.
-spec
+getIconURL
+(
+)
 ;
 registerCleanupFunction
 (

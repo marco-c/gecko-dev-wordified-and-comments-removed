@@ -578,9 +578,9 @@ selectedButton
 .
 engine
 .
-iconURI
-.
-spec
+getIconURL
+(
+)
 "
 Check
 the

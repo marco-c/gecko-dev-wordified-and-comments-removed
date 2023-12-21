@@ -852,10 +852,9 @@ icon
 :
 engine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 providesSearchMode
 :
 true
@@ -1236,10 +1235,9 @@ icon
 :
 engine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 providesSearchMode
 :
 true

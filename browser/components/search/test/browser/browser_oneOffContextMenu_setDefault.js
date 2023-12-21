@@ -342,9 +342,9 @@ expectedImage
 =
 originalEngine
 .
-iconURI
-.
-spec
+getIconURL
+(
+)
 ;
 if
 (
@@ -361,9 +361,9 @@ expectedImage
 =
 originalPrivateEngine
 .
-iconURI
-.
-spec
+getIconURL
+(
+)
 ;
 }
 Assert

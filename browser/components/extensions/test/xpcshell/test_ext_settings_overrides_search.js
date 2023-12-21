@@ -339,9 +339,9 @@ equal
 (
 engine
 .
-iconURI
-.
-spec
+getIconURL
+(
+)
 baseURI
 .
 resolve
@@ -353,6 +353,7 @@ ico
 "
 )
 "
+16x16
 icon
 path
 matches

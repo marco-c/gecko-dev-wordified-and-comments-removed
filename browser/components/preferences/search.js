@@ -1918,7 +1918,7 @@ if
 (
 e
 .
-iconURI
+iconURL
 )
 {
 item
@@ -1930,9 +1930,7 @@ image
 "
 e
 .
-iconURI
-.
-spec
+iconURL
 )
 ;
 }
@@ -3805,6 +3803,13 @@ var
 clonedObj
 =
 {
+iconURL
+:
+aEngine
+.
+getIconURL
+(
+)
 }
 ;
 for
@@ -3821,9 +3826,6 @@ name
 "
 "
 alias
-"
-"
-iconURI
 "
 "
 hidden
@@ -5021,7 +5023,7 @@ engines
 index
 ]
 .
-iconURI
+iconURL
 )
 {
 return
@@ -5034,9 +5036,7 @@ engines
 index
 ]
 .
-iconURI
-.
-spec
+iconURL
 ;
 }
 if

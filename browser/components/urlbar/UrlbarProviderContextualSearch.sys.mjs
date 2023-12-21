@@ -945,10 +945,9 @@ icon
 :
 engine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 input
 :
 queryContext

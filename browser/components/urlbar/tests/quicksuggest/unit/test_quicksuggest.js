@@ -7505,10 +7505,9 @@ search
 .
 defaultEngine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 heuristic
 :
 true
@@ -7879,10 +7878,9 @@ search
 .
 defaultEngine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 heuristic
 :
 true

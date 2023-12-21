@@ -1958,10 +1958,9 @@ icon
 :
 defaultEngine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 }
 )
 ;
