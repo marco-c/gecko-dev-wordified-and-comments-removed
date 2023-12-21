@@ -487,5 +487,16 @@ ACString
 aRequestToken
 )
 ;
+void
+respondToWarnDialog
+(
+in
+ACString
+aRequestToken
+in
+bool
+aAllowContent
+)
+;
 }
 ;
