@@ -341,13 +341,6 @@ nurseryTimeoutForIdleCollectionMS
 testChangeParam
 (
 "
-pretenureThreshold
-"
-)
-;
-testChangeParam
-(
-"
 zoneAllocDelayKB
 "
 )
