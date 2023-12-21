@@ -1450,13 +1450,6 @@ js
 ]
 [
 "
-browser_tab_preview
-.
-js
-"
-]
-[
-"
 browser_tab_tooltips
 .
 js
