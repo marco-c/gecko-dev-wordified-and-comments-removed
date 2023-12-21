@@ -1135,7 +1135,7 @@ aLock
 bool
 GetHostToLookup
 (
-AddrHostRecord
+nsHostRecord
 *
 *
 result

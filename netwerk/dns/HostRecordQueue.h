@@ -203,7 +203,7 @@ aProofOfLock
 ;
 already_AddRefed
 <
-AddrHostRecord
+nsHostRecord
 >
 Dequeue
 (
