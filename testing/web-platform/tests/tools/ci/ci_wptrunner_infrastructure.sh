@@ -115,12 +115,5 @@ firefox
 "
 nightly
 "
-run_infra_test
-"
-firefox_android
-"
-"
-nightly
-"
 }
 main
