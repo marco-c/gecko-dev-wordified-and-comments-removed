@@ -405,14 +405,11 @@ height
 0
 ;
 virtual
-nsresult
+void
 Initialize
 (
 )
 {
-return
-NS_OK
-;
 }
 NS_IMETHOD
 InitializeWithDrawTarget

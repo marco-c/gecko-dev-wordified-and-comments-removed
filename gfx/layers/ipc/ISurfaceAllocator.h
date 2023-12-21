@@ -830,7 +830,6 @@ ShmemSectionAllocator
 {
 public
 :
-NS_DECL_OWNINGTHREAD
 enum
 AllocationStatus
 {

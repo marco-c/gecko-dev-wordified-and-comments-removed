@@ -292,11 +292,6 @@ OffscreenCanvasDisplayHelper
 aDisplay
 )
 ;
-void
-Destroy
-(
-)
-;
 nsIGlobalObject
 *
 GetParentObject
