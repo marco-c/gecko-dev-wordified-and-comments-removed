@@ -1599,6 +1599,16 @@ SurfaceFormat
 aFormat
 )
 {
+if
+(
+!
+mRecorder
+)
+{
+return
+false
+;
+}
 size_t
 sizeRequired
 =
