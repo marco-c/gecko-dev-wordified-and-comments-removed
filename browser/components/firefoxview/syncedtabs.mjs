@@ -2230,6 +2230,11 @@ class
 "
 blackbox
 notabs
+search
+-
+results
+-
+empty
 "
 data
 -

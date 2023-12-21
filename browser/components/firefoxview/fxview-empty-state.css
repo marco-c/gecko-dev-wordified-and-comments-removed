@@ -293,6 +293,16 @@ size
 :
 unset
 ;
+&
+span
+{
+overflow
+-
+wrap
+:
+anywhere
+;
+}
 }
 &
 :
