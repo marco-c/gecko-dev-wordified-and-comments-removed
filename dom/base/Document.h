@@ -11807,6 +11807,12 @@ aTarget
 )
 const
 ;
+bool
+IsInPrivateBrowsing
+(
+)
+const
+;
 const
 Maybe
 <
@@ -13639,6 +13645,11 @@ mHasUserInteractionTimerScheduled
 ;
 bool
 mShouldResistFingerprinting
+:
+1
+;
+bool
+mIsInPrivateBrowsing
 :
 1
 ;

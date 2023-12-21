@@ -26947,6 +26947,16 @@ nsRFPService
 :
 IsRFPEnabledFor
 (
+mLoadInfo
+.
+mOriginAttributes
+.
+mPrivateBrowsingId
+>
+nsIScriptSecurityManager
+:
+:
+DEFAULT_PRIVATE_BROWSING_ID
 aTarget
 mLoadInfo
 .
