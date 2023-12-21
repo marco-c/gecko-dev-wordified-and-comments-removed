@@ -2021,11 +2021,6 @@ telemetrySelectedIndex
 =
 -
 1
-url
-:
-submission
-.
-uri
 }
 ;
 this

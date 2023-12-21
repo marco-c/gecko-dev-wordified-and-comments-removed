@@ -18630,7 +18630,6 @@ inBackground
 let
 {
 engine
-url
 }
 =
 await
@@ -18674,9 +18673,6 @@ engine
 "
 contextmenu
 "
-{
-url
-}
 )
 ;
 }
@@ -18693,7 +18689,6 @@ csp
 let
 {
 engine
-url
 }
 =
 await
@@ -18729,9 +18724,6 @@ engine
 "
 system
 "
-{
-url
-}
 )
 ;
 }
@@ -18787,13 +18779,6 @@ engine
 "
 webextension
 "
-{
-url
-:
-result
-.
-url
-}
 )
 ;
 }

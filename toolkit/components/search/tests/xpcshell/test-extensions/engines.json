@@ -251,11 +251,6 @@ orderHint
 :
 10000
 "
-sendAttributionRequest
-"
-:
-true
-"
 appliesTo
 "
 :
@@ -502,11 +497,6 @@ everywhere
 :
 true
 }
-"
-sendAttributionRequest
-"
-:
-true
 }
 ]
 }
