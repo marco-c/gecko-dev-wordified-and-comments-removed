@@ -1328,6 +1328,13 @@ aEvent
 )
 ;
 void
+OnVisibilityNotifyEvent
+(
+GdkVisibilityState
+aState
+)
+;
+void
 OnWindowStateEvent
 (
 GtkWidget
