@@ -3,11 +3,6 @@ empty
 {
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 PemptyStruct
 {

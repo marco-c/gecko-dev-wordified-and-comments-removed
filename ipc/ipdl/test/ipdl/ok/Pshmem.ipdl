@@ -7,11 +7,6 @@ Shmem
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 intr
 protocol
 Pshmem

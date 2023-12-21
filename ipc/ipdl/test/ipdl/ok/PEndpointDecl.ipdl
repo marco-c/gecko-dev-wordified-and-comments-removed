@@ -35,11 +35,6 @@ chi
 namespace
 mozilla
 {
-[
-ChildProc
-=
-any
-]
 protocol
 PEndpointDecl
 {

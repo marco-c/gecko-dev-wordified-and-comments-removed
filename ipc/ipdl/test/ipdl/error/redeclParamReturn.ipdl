@@ -10,11 +10,6 @@ f
 first
 declared
 at
-[
-ChildProc
-=
-any
-]
 sync
 protocol
 redeclParamReturn

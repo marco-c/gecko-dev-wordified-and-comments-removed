@@ -64,11 +64,6 @@ x
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 mutualRecStructUnion
 {

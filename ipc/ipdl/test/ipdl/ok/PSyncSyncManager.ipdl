@@ -46,9 +46,6 @@ case
 NestedUpTo
 =
 not
-ChildProc
-=
-any
 ]
 sync
 protocol

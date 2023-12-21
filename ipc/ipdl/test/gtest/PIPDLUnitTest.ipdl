@@ -161,9 +161,6 @@ thread
 .
 [
 NeedsOtherPid
-ChildProc
-=
-IPDLUnitTest
 ]
 async
 protocol

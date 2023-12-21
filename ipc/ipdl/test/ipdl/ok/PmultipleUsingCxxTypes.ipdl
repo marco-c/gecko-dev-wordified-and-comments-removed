@@ -32,11 +32,6 @@ IPCCore
 h
 "
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 PmultipleUsingCxxTypes
 {

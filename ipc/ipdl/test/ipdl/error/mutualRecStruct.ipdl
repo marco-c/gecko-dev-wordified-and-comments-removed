@@ -66,11 +66,6 @@ x
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 mutualRecStruct
 {

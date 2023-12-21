@@ -7,11 +7,6 @@ syntax
 near
 ?
 '
-[
-ChildProc
-=
-any
-]
 protocol
 maybe_Recursive
 {

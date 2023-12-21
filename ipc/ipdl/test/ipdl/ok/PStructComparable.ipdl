@@ -12,11 +12,6 @@ d
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 sync
 protocol
 PStructComparable

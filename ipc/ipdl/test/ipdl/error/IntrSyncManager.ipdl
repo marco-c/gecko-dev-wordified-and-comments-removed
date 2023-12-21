@@ -20,11 +20,6 @@ include
 protocol
 IntrSyncManagee
 ;
-[
-ChildProc
-=
-any
-]
 sync
 protocol
 IntrSyncManager

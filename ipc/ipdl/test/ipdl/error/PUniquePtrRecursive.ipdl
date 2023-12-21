@@ -7,11 +7,6 @@ syntax
 near
 UniquePtr
 '
-[
-ChildProc
-=
-any
-]
 protocol
 PUniquePtrRecursive
 {

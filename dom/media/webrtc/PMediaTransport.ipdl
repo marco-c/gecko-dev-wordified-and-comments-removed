@@ -307,14 +307,6 @@ mozilla
 namespace
 dom
 {
-[
-ParentProc
-=
-Socket
-ChildProc
-=
-Content
-]
 async
 protocol
 PMediaTransport

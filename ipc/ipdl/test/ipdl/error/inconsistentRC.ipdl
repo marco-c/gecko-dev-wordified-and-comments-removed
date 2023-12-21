@@ -51,11 +51,6 @@ SomeFile
 h
 "
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 inconsistentRC
 {

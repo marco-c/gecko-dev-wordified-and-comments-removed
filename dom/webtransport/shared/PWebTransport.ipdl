@@ -196,11 +196,6 @@ StopSendingError
 ;
 }
 ;
-[
-ChildProc
-=
-anydom
-]
 async
 protocol
 PWebTransport

@@ -2,9 +2,6 @@
 NestedUpTo
 =
 inside_cpow
-ChildProc
-=
-any
 ]
 sync
 protocol

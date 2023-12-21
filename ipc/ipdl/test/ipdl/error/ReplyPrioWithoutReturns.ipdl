@@ -13,11 +13,6 @@ specify
 [
 ReplyPriority
 ]
-[
-ChildProc
-=
-any
-]
 async
 protocol
 ReplyPrioWithoutReturns

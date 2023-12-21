@@ -55,11 +55,6 @@ x
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 undefMutualRecStruct
 {

@@ -16,11 +16,6 @@ X
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 undefSelfRecUnion
 {

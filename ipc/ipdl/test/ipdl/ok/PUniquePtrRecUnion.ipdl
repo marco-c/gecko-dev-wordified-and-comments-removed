@@ -32,11 +32,6 @@ X
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 PUniquePtrRecUnion
 {

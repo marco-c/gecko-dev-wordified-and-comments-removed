@@ -68,9 +68,6 @@ ipc
 {
 [
 NeedsOtherPid
-ChildProc
-=
-anydom
 ]
 async
 protocol

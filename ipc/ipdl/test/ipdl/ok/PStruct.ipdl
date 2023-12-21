@@ -9,11 +9,6 @@ d
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 sync
 protocol
 PStruct

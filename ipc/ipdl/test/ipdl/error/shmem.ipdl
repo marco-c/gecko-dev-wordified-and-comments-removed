@@ -53,11 +53,6 @@ h
 /
 /
 redeclaration
-[
-ChildProc
-=
-any
-]
 protocol
 shmem
 {

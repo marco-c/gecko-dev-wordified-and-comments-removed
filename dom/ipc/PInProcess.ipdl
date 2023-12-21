@@ -19,11 +19,6 @@ mozilla
 namespace
 dom
 {
-[
-ChildProc
-=
-Parent
-]
 async
 protocol
 PInProcess

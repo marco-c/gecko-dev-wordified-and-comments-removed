@@ -16,11 +16,6 @@ protocol
 tooWeakSyncAsync
 '
 provides
-[
-ChildProc
-=
-any
-]
 protocol
 tooWeakSyncAsync
 {

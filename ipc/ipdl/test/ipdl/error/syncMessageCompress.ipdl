@@ -15,11 +15,6 @@ but
 is
 not
 async
-[
-ChildProc
-=
-any
-]
 sync
 protocol
 syncMessageCompress

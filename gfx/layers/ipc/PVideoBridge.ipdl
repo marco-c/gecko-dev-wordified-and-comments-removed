@@ -92,12 +92,6 @@ layers
 {
 [
 NeedsOtherPid
-ParentProc
-=
-compositor
-ChildProc
-=
-any
 ]
 sync
 protocol

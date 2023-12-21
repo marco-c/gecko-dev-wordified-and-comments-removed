@@ -62,11 +62,6 @@ mozilla
 namespace
 _ipdltest
 {
-[
-ChildProc
-=
-any
-]
 async
 protocol
 PTestBasic

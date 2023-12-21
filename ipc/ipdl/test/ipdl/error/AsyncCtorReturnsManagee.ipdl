@@ -16,11 +16,6 @@ include
 protocol
 AsyncCtorReturns
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 AsyncCtorReturnsManagee
 {
