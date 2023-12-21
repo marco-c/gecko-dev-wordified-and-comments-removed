@@ -19891,7 +19891,7 @@ search
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -19909,7 +19909,7 @@ list
 .
 enabled
 "
-false
+true
 )
 ;
 pref
