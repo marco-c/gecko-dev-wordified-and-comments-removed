@@ -146,6 +146,22 @@ graph_config
     
 )
     
+parameters_writable
+=
+dict
+(
+parameters
+)
+    
+parameters_writable
+[
+"
+backstop
+"
+]
+=
+True
+    
 target_tasks
 =
 get_artifact
@@ -166,10 +182,6 @@ to_run
 =
 [
 ]
-    
-already_run
-=
-0
     
 for
 label
@@ -199,19 +211,6 @@ test
             
 continue
         
-if
-label
-in
-label_to_taskid
-:
-            
-already_run
-+
-=
-1
-            
-continue
-        
 to_run
 .
 append
@@ -233,6 +232,10 @@ label_to_taskid
 parameters
         
 decision_task_id
+        
+"
+all
+"
     
 )
     
@@ -241,40 +244,19 @@ logger
 info
 (
         
+f
 "
-Out
-of
-{
-}
-test
-tasks
-{
-}
-already
-existed
-and
-the
+The
 action
 created
 {
+len
+(
+to_run
+)
 }
+test
+tasks
 "
-.
-format
-(
-            
-already_run
-+
-len
-(
-to_run
-)
-already_run
-len
-(
-to_run
-)
-        
-)
     
 )
