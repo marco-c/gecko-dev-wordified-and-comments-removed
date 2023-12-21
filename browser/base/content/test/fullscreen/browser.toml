@@ -49,6 +49,13 @@ html
 ]
 [
 "
+browser_domFS_statuspanel
+.
+js
+"
+]
+[
+"
 browser_fullscreen_api_fission
 .
 js
