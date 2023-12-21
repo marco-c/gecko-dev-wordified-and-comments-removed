@@ -10541,6 +10541,9 @@ is_posix
 |
 |
 is_fuchsia
+|
+|
+is_win
 )
 {
 sources
