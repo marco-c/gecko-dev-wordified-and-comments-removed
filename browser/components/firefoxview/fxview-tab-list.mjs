@@ -4620,6 +4620,11 @@ if
 entry
 .
 contentRect
+?
+.
+height
+>
+0
 )
 {
 /
