@@ -243,7 +243,11 @@ frame
 .
 location
 thunkArgs
+{
+waitForSource
+:
 true
+}
 )
 ;
 if

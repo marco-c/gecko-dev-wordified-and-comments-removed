@@ -2182,12 +2182,12 @@ column
 :
 ch
 }
+)
 {
 keepContext
 :
 false
 }
-)
 )
 ;
 }

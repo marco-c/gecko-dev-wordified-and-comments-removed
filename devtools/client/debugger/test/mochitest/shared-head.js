@@ -7776,7 +7776,7 @@ footer
 .
 prettyPrint
 "
-sourceMapLink
+mappedSourceLink
 :
 "
 .

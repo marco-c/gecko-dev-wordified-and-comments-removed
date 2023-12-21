@@ -110,11 +110,17 @@ line
 location
 .
 line
+|
+|
+1
 column
 :
 location
 .
 column
+|
+|
+0
 }
 ;
 }

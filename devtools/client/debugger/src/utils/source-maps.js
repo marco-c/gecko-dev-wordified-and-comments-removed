@@ -98,9 +98,17 @@ getOriginalLocation
 (
 location
 thunkArgs
+{
 waitForSource
 =
 false
+looseSearch
+=
+false
+}
+=
+{
+}
 )
 {
 if
@@ -136,6 +144,9 @@ debuggerToSourceMapLocation
 (
 location
 )
+{
+looseSearch
+}
 )
 ;
 if
