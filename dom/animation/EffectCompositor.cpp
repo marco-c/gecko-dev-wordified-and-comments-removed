@@ -2961,6 +2961,8 @@ PropHasFlags
 property
 .
 mProperty
+.
+mID
 CSSPropFlags
 :
 :
@@ -2976,6 +2978,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -2986,6 +2990,8 @@ AddProperty
 property
 .
 mProperty
+.
+mID
 )
 ;
 propertiesToTrack
@@ -2995,6 +3001,8 @@ AppendElement
 property
 .
 mProperty
+.
+mID
 )
 ;
 }
@@ -3288,6 +3296,8 @@ HasProperty
 prop
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -3298,6 +3308,8 @@ AddProperty
 prop
 .
 mProperty
+.
+mID
 )
 ;
 }
@@ -3322,6 +3334,8 @@ AddProperty
 prop
 .
 mProperty
+.
+mID
 )
 ;
 break
@@ -3342,6 +3356,8 @@ AddProperty
 prop
 .
 mProperty
+.
+mID
 )
 ;
 break
@@ -4294,7 +4310,7 @@ EffectCompositeOrderComparator
 )
 )
 ;
-nsCSSPropertyIDSet
+AnimatedPropertyIDSet
 setProperties
 ;
 for
@@ -4407,12 +4423,14 @@ IsReplaceable
 )
 {
 setProperties
-|
-=
+.
+AddProperties
+(
 effect
 .
 GetPropertySet
 (
+)
 )
 ;
 }

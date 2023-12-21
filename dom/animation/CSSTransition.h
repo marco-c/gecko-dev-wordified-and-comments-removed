@@ -29,6 +29,15 @@ include
 "
 mozilla
 /
+AnimatedPropertyID
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleAnimationValue
 .
 h
@@ -64,6 +73,10 @@ CSSTransition
 nsIGlobalObject
 *
 aGlobal
+const
+AnimatedPropertyID
+&
+aProperty
 )
 :
 Animation
@@ -83,7 +96,7 @@ false
 )
 mTransitionProperty
 (
-eCSSProperty_UNKNOWN
+aProperty
 )
 {
 }
@@ -246,7 +259,9 @@ TickState
 )
 override
 ;
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 TransitionProperty
 (
 )
@@ -629,7 +644,7 @@ mPreviousTransitionPhase
 bool
 mNeedsNewAnimationIndexWhenRun
 ;
-nsCSSPropertyID
+AnimatedPropertyID
 mTransitionProperty
 ;
 AnimationValue

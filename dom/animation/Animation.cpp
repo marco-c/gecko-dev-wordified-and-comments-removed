@@ -3750,7 +3750,9 @@ changed
 =
 false
 ;
-nsCSSPropertyIDSet
+const
+AnimatedPropertyIDSet
+&
 properties
 =
 keyframeEffect
@@ -3762,7 +3764,9 @@ GetPropertySet
 ;
 for
 (
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 property
 :
 properties
@@ -3782,6 +3786,8 @@ get
 (
 )
 property
+.
+mID
 )
 .
 Consume

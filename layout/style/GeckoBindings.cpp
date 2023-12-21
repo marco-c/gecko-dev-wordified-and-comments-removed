@@ -3521,6 +3521,8 @@ transition
 TransitionProperty
 (
 )
+.
+mID
 :
 nsCSSPropertyID
 :

@@ -80,6 +80,15 @@ include
 "
 mozilla
 /
+AnimatedPropertyID
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ComputedStyle
 .
 h
@@ -818,7 +827,9 @@ AnimationValue
 :
 SerializeSpecifiedValue
 (
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 aProperty
 const
 StylePerDocumentStyleData
@@ -839,6 +850,8 @@ Servo_AnimationValue_Serialize
 (
 mServo
 aProperty
+.
+mID
 aRawData
 &
 aString
@@ -851,7 +864,9 @@ AnimationValue
 :
 IsInterpolableWith
 (
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 aProperty
 const
 AnimationValue
