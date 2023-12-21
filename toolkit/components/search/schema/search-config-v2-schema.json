@@ -4063,11 +4063,6 @@ environment
 }
 }
 "
-additionalProperties
-"
-:
-false
-"
 required
 "
 :
