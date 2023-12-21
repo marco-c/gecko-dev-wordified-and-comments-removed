@@ -262,6 +262,11 @@ layers
 RemoteTextureOwnerId
 mRemoteTextureOwnerId
 ;
+bool
+mUsedRemoteTexture
+=
+false
+;
 }
 ;
 }

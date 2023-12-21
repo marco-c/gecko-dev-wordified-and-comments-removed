@@ -184,6 +184,9 @@ return
 false
 ;
 }
+RemoteTextureId
+obsoleteRemoteTextureId
+;
 if
 (
 mRemoteTextureOwnerId
@@ -193,6 +196,17 @@ IsValid
 )
 )
 {
+if
+(
+!
+mUsedRemoteTexture
+)
+{
+obsoleteRemoteTextureId
+=
+mLastRemoteTextureId
+;
+}
 mLastRemoteTextureId
 =
 RemoteTextureId
@@ -201,6 +215,10 @@ RemoteTextureId
 GetNext
 (
 )
+;
+mUsedRemoteTexture
+=
+false
 ;
 }
 if
@@ -274,6 +292,7 @@ RecordedTextureLock
 mTextureId
 aMode
 mLastRemoteTextureId
+obsoleteRemoteTextureId
 )
 )
 ;
@@ -685,6 +704,10 @@ SurfaceDescriptorRemoteTexture
 mLastRemoteTextureId
 mRemoteTextureOwnerId
 )
+;
+mUsedRemoteTexture
+=
+true
 ;
 }
 else
