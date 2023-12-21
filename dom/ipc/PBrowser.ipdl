@@ -2992,15 +2992,8 @@ aStringToInsert
 async
 PasteTransferable
 (
-IPCTransferableData
-aTransferableData
-bool
-aIsPrivateData
-nullable
-nsIPrincipal
-aRequestingPrincipal
-nsContentPolicyType
-aContentPolicyType
+IPCTransferable
+aTransferable
 )
 ;
 async
