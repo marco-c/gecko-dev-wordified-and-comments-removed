@@ -100,12 +100,6 @@ window
 .
 getComputedStyle
 (
-backgroundColorSetOnRoot
-(
-)
-?
-docEl
-:
 toolbox
 )
 ;
@@ -221,12 +215,6 @@ window
 .
 getComputedStyle
 (
-backgroundColorSetOnRoot
-(
-)
-?
-docEl
-:
 toolbox
 )
 ;
