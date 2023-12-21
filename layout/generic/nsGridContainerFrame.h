@@ -1198,6 +1198,16 @@ aAxis
 const
 ;
 static
+bool
+ShouldInhibitSubgridDueToIFC
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsGridContainerFrame
 *
 GetGridContainerFrame
