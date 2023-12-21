@@ -395,6 +395,11 @@ return
 timestamp_rtp_
 ;
 }
+[
+[
+deprecated
+]
+]
 void
 SetTimestamp
 (
@@ -408,6 +413,11 @@ timestamp
 )
 ;
 }
+[
+[
+deprecated
+]
+]
 uint32_t
 Timestamp
 (

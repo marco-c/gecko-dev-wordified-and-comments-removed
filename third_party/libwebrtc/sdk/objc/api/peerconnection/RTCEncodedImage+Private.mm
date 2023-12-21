@@ -438,7 +438,7 @@ timeStamp
 =
 encodedImage
 .
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -657,7 +657,7 @@ encodedHeight
 ;
 encodedImage
 .
-SetTimestamp
+SetRtpTimestamp
 (
 self
 .
