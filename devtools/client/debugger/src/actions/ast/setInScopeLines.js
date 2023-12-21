@@ -350,6 +350,13 @@ location
 |
 !
 sourceTextContent
+|
+|
+!
+isFulfilled
+(
+sourceTextContent
+)
 )
 {
 return
