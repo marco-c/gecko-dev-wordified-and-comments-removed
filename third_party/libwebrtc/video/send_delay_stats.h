@@ -99,9 +99,6 @@ webrtc
 {
 class
 SendDelayStats
-:
-public
-SendPacketObserver
 {
 public
 :
@@ -117,7 +114,6 @@ clock
 SendDelayStats
 (
 )
-override
 ;
 void
 AddSsrcs
@@ -150,7 +146,6 @@ capture_time
 uint32_t
 ssrc
 )
-override
 ;
 private
 :
