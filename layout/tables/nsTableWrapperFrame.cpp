@@ -2536,10 +2536,6 @@ nsTableWrapperFrame
 ComputeFinalBSize
 (
 const
-MaybeCaptionSide
-&
-aCaptionSide
-const
 LogicalSize
 &
 aInnerSize
@@ -4064,7 +4060,6 @@ wm
 =
 ComputeFinalBSize
 (
-captionSide
 innerSize
 captionSize
 captionMargin
