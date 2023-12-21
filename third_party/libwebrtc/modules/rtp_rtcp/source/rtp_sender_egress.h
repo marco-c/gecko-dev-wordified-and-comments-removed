@@ -633,7 +633,13 @@ RecomputeMaxSendDelay
 void
 UpdateOnSendPacket
 (
-int
+absl
+:
+:
+optional
+<
+uint16_t
+>
 packet_id
 Timestamp
 capture_time

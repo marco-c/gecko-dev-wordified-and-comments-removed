@@ -1621,7 +1621,13 @@ virtual
 void
 OnSendPacket
 (
+absl
+:
+:
+optional
+<
 uint16_t
+>
 packet_id
 Timestamp
 capture_time
