@@ -122,6 +122,11 @@ ensureNoPreloadedBrowser
 )
 ;
 await
+ensureAnimationsFinished
+(
+)
+;
+await
 disableFxaBadge
 (
 )
