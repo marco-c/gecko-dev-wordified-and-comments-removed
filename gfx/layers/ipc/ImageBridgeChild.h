@@ -559,6 +559,11 @@ ImageContainer
 aContainer
 )
 ;
+void
+FlushEvents
+(
+)
+;
 bool
 IPCOpen
 (
@@ -609,6 +614,14 @@ aClient
 ImageContainer
 *
 aContainer
+)
+;
+void
+FlushEventsSync
+(
+SynchronousTask
+*
+aTask
 )
 ;
 void
