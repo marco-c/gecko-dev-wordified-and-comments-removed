@@ -2,7 +2,7 @@ verifyProperty
 (
 Atomics
 '
-add
+isLockFree
 '
 {
 enumerable

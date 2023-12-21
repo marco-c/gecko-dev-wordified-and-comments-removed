@@ -46,6 +46,12 @@ toString
 get
 timeZone
 .
+getOffsetNanosecondsFor
+"
+"
+get
+timeZone
+.
 getPossibleInstantsFor
 "
 "
@@ -284,12 +290,6 @@ expected
 concat
 (
 [
-"
-get
-timeZone
-.
-getOffsetNanosecondsFor
-"
 "
 call
 timeZone
