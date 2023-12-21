@@ -13768,6 +13768,11 @@ group_concat
 pp
 .
 title
+ORDER
+BY
+pp
+.
+title
 )
 FROM
 moz_bookmarks
@@ -14301,6 +14306,11 @@ last_visit_date
 SELECT
 group_concat
 (
+pp
+.
+title
+ORDER
+BY
 pp
 .
 title

@@ -16118,6 +16118,11 @@ group_concat
 pp
 .
 title
+ORDER
+BY
+pp
+.
+title
 )
 FROM
 moz_bookmarks
@@ -16743,6 +16748,11 @@ _syncStatus
 SELECT
 group_concat
 (
+pp
+.
+title
+ORDER
+BY
 pp
 .
 title
@@ -21211,6 +21221,11 @@ group_concat
 pp
 .
 title
+ORDER
+BY
+pp
+.
+title
 )
 FROM
 moz_bookmarks
@@ -21414,10 +21429,6 @@ getResultByIndex
 (
 7
 )
-?
-?
-"
-"
 targetFolderGuid
 :
 row

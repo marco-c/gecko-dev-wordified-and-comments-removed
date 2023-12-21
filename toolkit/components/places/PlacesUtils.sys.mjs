@@ -11384,6 +11384,11 @@ group_concat
 p
 .
 title
+ORDER
+BY
+p
+.
+title
 )
 FROM
 moz_bookmarks
