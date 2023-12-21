@@ -660,7 +660,7 @@ tests_dir
 "
 xpcshell
 .
-ini
+toml
 "
 )
         
@@ -697,7 +697,7 @@ xpcshell
 .
 failures
 .
-ini
+toml
 "
             
 )
@@ -1084,7 +1084,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
             
 )

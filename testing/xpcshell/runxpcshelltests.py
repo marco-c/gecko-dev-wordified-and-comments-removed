@@ -6473,7 +6473,7 @@ True
 else
 :
                 
-ini_path
+toml_path
 =
 os
 .
@@ -6485,14 +6485,14 @@ manifest
 "
 xpcshell
 .
-ini
+toml
 "
 )
         
 else
 :
             
-ini_path
+toml_path
 =
 os
 .
@@ -6507,7 +6507,7 @@ tests
 "
 xpcshell
 .
-ini
+toml
 "
 )
         
@@ -6518,7 +6518,7 @@ path
 .
 exists
 (
-ini_path
+toml_path
 )
 :
             
@@ -6526,7 +6526,7 @@ return
 TestManifest
 (
 [
-ini_path
+toml_path
 ]
 strict
 =
@@ -6566,7 +6566,7 @@ explicitly
 .
 "
 %
-ini_path
+toml_path
             
 )
             
@@ -6762,7 +6762,7 @@ Reads
 the
 xpcshell
 .
-ini
+toml
 manifest
 and
 set
@@ -11329,7 +11329,7 @@ failure_manifest
 "
 rerun
 .
-ini
+toml
 "
                 
 )

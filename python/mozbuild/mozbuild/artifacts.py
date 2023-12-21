@@ -1657,7 +1657,7 @@ endswith
 (
 "
 .
-ini
+toml
 "
 )
 :
@@ -2059,7 +2059,7 @@ endswith
 (
 "
 .
-ini
+toml
 "
 )
 :
