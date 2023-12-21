@@ -2809,11 +2809,10 @@ event
 ;
 if
 (
-!
 target
 .
 nodeName
-=
+!
 =
 =
 "
