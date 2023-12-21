@@ -671,6 +671,11 @@ DEPRECATION
 "
 deprecation
 "
+JSTRACER
+:
+"
+jstracer
+"
 }
 MESSAGE_TYPE
 :

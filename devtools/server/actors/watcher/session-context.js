@@ -550,7 +550,16 @@ Resources
 .
 TYPES
 .
-TRACING_STATE
+JSTRACER_TRACE
+]
+:
+true
+[
+Resources
+.
+TYPES
+.
+JSTRACER_STATE
 ]
 :
 true

@@ -89,6 +89,11 @@ EvaluationResult
 js
 "
 "
+JSTracerTrace
+.
+js
+"
+"
 NavigationMarker
 .
 js
