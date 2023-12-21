@@ -2882,9 +2882,6 @@ sinf
 if
 (
 use_fuzzing_engine
-&
-&
-optimize_for_fuzzing
 )
 {
 #
