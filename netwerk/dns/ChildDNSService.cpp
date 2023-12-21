@@ -597,6 +597,15 @@ nsIDNSService
 :
 MODE_TRRONLY
 )
+&
+&
+!
+StaticPrefs
+:
+:
+network_dns_native_https_query
+(
+)
 )
 {
 return

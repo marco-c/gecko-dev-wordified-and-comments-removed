@@ -32,6 +32,17 @@ aIPLiteral
 )
 ;
 async
+AddHTTPSRecordOverride
+(
+nsCString
+aHost
+uint8_t
+[
+]
+aData
+)
+;
+async
 SetCnameOverride
 (
 nsCString
