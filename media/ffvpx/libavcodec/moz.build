@@ -254,16 +254,6 @@ jrevdct
 c
 '
 '
-libaom
-.
-c
-'
-'
-libaomenc
-.
-c
-'
-'
 libopus
 .
 c
