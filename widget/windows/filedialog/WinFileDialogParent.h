@@ -366,6 +366,11 @@ Contents
 (
 )
 ;
+void
+StopProcess
+(
+)
+;
 }
 ;
 RefPtr
