@@ -82,6 +82,10 @@ AnimationName
 ScrollAxis
 ScrollTimelineName
 TransitionProperty
+AnimationComposition
+AnimationDirection
+AnimationFillMode
+AnimationPlayState
 }
 ;
 #
