@@ -1031,6 +1031,17 @@ run
 ;
 add_task
 (
+{
+skip_if
+:
+(
+)
+=
+>
+SearchUtils
+.
+newSearchConfigEnabled
+}
 async
 function
 test_searchConfig_amazon_pre89
