@@ -1097,7 +1097,7 @@ type
 "
 :
 "
-invalid
+css
 "
 "
 value

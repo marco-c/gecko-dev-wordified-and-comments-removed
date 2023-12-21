@@ -194,14 +194,17 @@ call_function
 function_declaration
 =
 "
+function
 (
 )
-=
->
+{
+return
 arguments
 [
 0
 ]
+;
+}
 "
         
 target
@@ -402,22 +405,6 @@ first_sandbox
 "
     
 )
-    
-assert
-first_result
-[
-"
-context
-"
-]
-=
-=
-top_context
-[
-"
-context
-"
-]
     
 assert
 len
@@ -915,35 +902,21 @@ one
 "
 }
         
-sandbox
-=
-"
-first_sandbox
-"
-        
 ownership
 =
 OwnershipModel
 .
 ROOT
+.
+value
+        
+sandbox
+=
+"
+first_sandbox
+"
     
 )
-    
-assert
-first_result
-[
-"
-context
-"
-]
-=
-=
-top_context
-[
-"
-context
-"
-]
     
 assert
 len
@@ -1006,17 +979,19 @@ one
 "
 }
         
-sandbox
-=
-"
-second_sandbox
-"
-        
 ownership
 =
 OwnershipModel
 .
 ROOT
+.
+value
+        
+sandbox
+=
+"
+second_sandbox
+"
     
 )
     

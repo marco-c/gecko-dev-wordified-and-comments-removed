@@ -1,13 +1,9 @@
 import
 pytest
 from
-webdriver
 .
-bidi
 .
-modules
 .
-script
 import
 assert_handle
 pytest
@@ -177,14 +173,15 @@ ownership
 )
     
 assert
+len
+(
 result
 [
 "
 nodes
 "
 ]
-.
-length
+)
 =
 =
 1

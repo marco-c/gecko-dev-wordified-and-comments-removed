@@ -16,7 +16,7 @@ parametrize
 "
 type
 value
-max
+max_count
 expected
 "
 [
@@ -877,7 +877,7 @@ mark
 asyncio
 async
 def
-test_find_by_css_limit_return_count
+test_find_by_locator_limit_return_count
 (
 bidi_session
 inline

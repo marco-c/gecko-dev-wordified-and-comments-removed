@@ -34,7 +34,7 @@ value
 css
 "
 "
-div
+p
 "
 )
     
@@ -45,7 +45,7 @@ xpath
 "
 /
 /
-div
+p
 "
 )
     
@@ -84,15 +84,16 @@ inline
 "
 "
 <
-p
+div
 id
 =
 "
 parent
 "
 >
+        
 <
-div
+p
 data
 -
 class
@@ -104,10 +105,11 @@ one
 foo
 <
 /
-div
+p
 >
+        
 <
-div
+p
 data
 -
 class
@@ -119,11 +121,12 @@ two
 foo
 <
 /
-div
+p
 >
+    
 <
 /
-p
+div
 >
 "
 "
@@ -177,7 +180,7 @@ document
 querySelector
 (
 "
-p
+div
 "
 )
 "
@@ -297,7 +300,7 @@ localName
 "
 :
 "
-div
+p
 "
                 
 "
@@ -379,7 +382,7 @@ localName
 "
 :
 "
-div
+p
 "
                 
 "
@@ -441,7 +444,7 @@ value
 css
 "
 "
-div
+p
 [
 data
 -
@@ -462,7 +465,7 @@ xpath
 .
 /
 /
-div
+p
 [
 data
 -
@@ -511,7 +514,7 @@ inline
 "
                  
 <
-p
+div
 id
 =
 "
@@ -521,7 +524,7 @@ one
 "
 >
 <
-div
+p
 data
 -
 class
@@ -533,10 +536,10 @@ one
 foo
 <
 /
-div
+p
 >
 <
-div
+p
 data
 -
 class
@@ -548,15 +551,15 @@ two
 bar
 <
 /
-div
+p
 >
 <
 /
-p
+div
 >
                  
 <
-p
+div
 id
 =
 "
@@ -566,7 +569,7 @@ two
 "
 >
 <
-div
+p
 data
 -
 class
@@ -578,10 +581,10 @@ one
 foo
 <
 /
-div
+p
 >
 <
-div
+p
 data
 -
 class
@@ -593,11 +596,11 @@ two
 bar
 <
 /
-div
+p
 >
 <
 /
-p
+div
 >
                  
 "
@@ -652,7 +655,7 @@ document
 querySelectorAll
 (
 "
-p
+div
 "
 )
 "
@@ -779,7 +782,7 @@ localName
 "
 :
 "
-div
+p
 "
                 
 "
@@ -861,7 +864,7 @@ localName
 "
 :
 "
-div
+p
 "
                 
 "
