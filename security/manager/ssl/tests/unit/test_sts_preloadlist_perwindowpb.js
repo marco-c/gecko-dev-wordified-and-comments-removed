@@ -852,7 +852,6 @@ test
 ;
 ok
 (
-!
 gSSService
 .
 isSecureURI
