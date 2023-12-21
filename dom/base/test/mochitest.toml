@@ -7682,6 +7682,17 @@ test_youtube_flash_embed
 html
 "
 ]
+prefs
+=
+[
+"
+plugins
+.
+rewrite_youtube_embeds
+=
+true
+"
+]
 skip
 -
 if
