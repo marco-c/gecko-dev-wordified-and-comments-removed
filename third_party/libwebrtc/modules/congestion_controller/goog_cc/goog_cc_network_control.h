@@ -740,16 +740,6 @@ PlusInfinity
 (
 )
 ;
-Timestamp
-last_packet_received_time_
-=
-Timestamp
-:
-:
-MinusInfinity
-(
-)
-;
 double
 pacing_factor_
 ;
