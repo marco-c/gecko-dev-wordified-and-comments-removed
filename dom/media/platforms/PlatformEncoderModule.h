@@ -930,6 +930,12 @@ aConfig
 .
 mBitrateMode
 )
+mCodecSpecific
+(
+aConfig
+.
+mCodecSpecific
+)
 {
 }
 template
