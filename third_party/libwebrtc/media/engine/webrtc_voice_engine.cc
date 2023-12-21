@@ -10692,7 +10692,7 @@ codec
 {
 RTC_LOG
 (
-LS_ERROR
+LS_VERBOSE
 )
 <
 <
