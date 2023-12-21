@@ -210,17 +210,6 @@ false
 "
 browser
 .
-ping
--
-centre
-.
-telemetry
-=
-false
-"
-"
-browser
-.
 newtabpage
 .
 activity

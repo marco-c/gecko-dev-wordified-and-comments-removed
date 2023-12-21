@@ -93,13 +93,6 @@ js
 ]
 [
 "
-test_PingCentre
-.
-js
-"
-]
-[
-"
 test_ProfileCounter
 .
 js
