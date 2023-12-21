@@ -3254,10 +3254,8 @@ url
 =
 engine
 .
-getIconURLBySize
+getIconURL
 (
-16
-16
 )
 ;
 if

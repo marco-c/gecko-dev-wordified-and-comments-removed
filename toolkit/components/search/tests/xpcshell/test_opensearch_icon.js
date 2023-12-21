@@ -370,9 +370,8 @@ ok
 (
 engine
 .
-getIconURLBySize
+getIconURL
 (
-16
 16
 )
 .
@@ -390,9 +389,8 @@ ok
 (
 engine
 .
-getIconURLBySize
+getIconURL
 (
-32
 32
 )
 .
@@ -410,9 +408,8 @@ ok
 (
 engine
 .
-getIconURLBySize
+getIconURL
 (
-74
 74
 )
 .
@@ -448,9 +445,8 @@ equal
 null
 engine
 .
-getIconURLBySize
+getIconURL
 (
-50
 50
 )
 )
@@ -528,9 +524,8 @@ ok
 (
 engine
 .
-getIconURLBySize
+getIconURL
 (
-16
 16
 )
 .
