@@ -1916,7 +1916,7 @@ public
 DOMIfaceAndProtoJSClass
 {
 bool
-wantsInterfaceHasInstance
+wantsInterfaceIsInstance
 ;
 const
 char

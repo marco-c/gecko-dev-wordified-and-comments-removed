@@ -3,13 +3,6 @@ MOCHITEST_MANIFESTS
 =
 [
 "
-hasinstance
-/
-mochitest
-.
-toml
-"
-"
 mochitest
 .
 toml
