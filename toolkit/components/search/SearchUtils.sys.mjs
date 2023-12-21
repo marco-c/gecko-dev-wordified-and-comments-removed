@@ -1293,13 +1293,6 @@ default
 MOZ_PARAM
 :
 {
-DATE
-:
-"
-moz
-:
-date
-"
 LOCALE
 :
 "
