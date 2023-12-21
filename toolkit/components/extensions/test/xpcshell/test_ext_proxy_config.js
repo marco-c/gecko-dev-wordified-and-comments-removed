@@ -692,7 +692,7 @@ autoLogin
 false
 proxyDNS
 :
-false
+true
 httpProxyAll
 :
 false
