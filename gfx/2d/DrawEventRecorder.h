@@ -128,6 +128,7 @@ IntRect
 )
 {
 }
+virtual
 void
 DetachResources
 (
@@ -367,6 +368,7 @@ aObject
 )
 ;
 }
+virtual
 void
 AddPendingDeletion
 (
