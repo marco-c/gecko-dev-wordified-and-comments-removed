@@ -1311,6 +1311,11 @@ logMethod
 LOG_METHODS
 .
 CONSOLE
+type
+:
+"
+radio
+"
 click
 :
 (
@@ -1355,6 +1360,11 @@ getStr
 traceInStdout
 "
 )
+type
+:
+"
+radio
+"
 checked
 :
 this
