@@ -944,6 +944,13 @@ false
 ;
 }
 }
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 ComPtr
 <
 ABI
@@ -999,6 +1006,8 @@ false
 )
 ;
 }
+#
+endif
 allow_zero_hertz_
 =
 options
