@@ -225,13 +225,6 @@ bool
 aEnable
 )
 ;
-async
-SetDebugMode
-(
-int
-aLevel
-)
-;
 #
 endif
 }
