@@ -17649,7 +17649,7 @@ name
 '
 :
 '
-fetch_reclient_cfgs
+configure_reclient_cfgs
 '
 '
 pattern
@@ -17680,7 +17680,7 @@ buildtools
 /
 reclient_cfgs
 /
-fetch_reclient_cfgs
+configure_reclient_cfgs
 .
 py
 '
