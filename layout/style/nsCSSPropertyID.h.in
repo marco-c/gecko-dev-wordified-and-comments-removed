@@ -22,7 +22,6 @@ eCSSProperty_UNKNOWN
 1
 property_ids
 eCSSPropertyExtra_no_properties
-eCSSPropertyExtra_all_properties
 eCSSPropertyExtra_variable
 }
 ;
