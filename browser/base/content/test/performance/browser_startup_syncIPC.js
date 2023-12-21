@@ -419,7 +419,7 @@ ignoreIfUnused
 true
 maxCount
 :
-1
+2
 }
 {
 name
