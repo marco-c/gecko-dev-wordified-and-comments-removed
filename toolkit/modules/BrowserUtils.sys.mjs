@@ -2141,7 +2141,6 @@ sd
 sy
 tm
 tr
-ua
 "
 }
 }
