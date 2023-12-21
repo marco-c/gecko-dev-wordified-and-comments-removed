@@ -2400,11 +2400,6 @@ rtx_codec
 )
 ;
 }
-template
-<
-class
-T
->
 static
 std
 :
@@ -2424,7 +2419,10 @@ std
 :
 vector
 <
-T
+cricket
+:
+:
+Codec
 >
 &
 codecs
@@ -32317,11 +32315,6 @@ audio_sendrecv_codecs
 }
 namespace
 {
-template
-<
-class
-Codec
->
 bool
 CodecsMatch
 (
@@ -32331,6 +32324,9 @@ std
 :
 vector
 <
+cricket
+:
+:
 Codec
 >
 &
@@ -32341,6 +32337,9 @@ std
 :
 vector
 <
+cricket
+:
+:
 Codec
 >
 &
@@ -32645,9 +32644,6 @@ kSendOnly
 EXPECT_TRUE
 (
 CodecsMatch
-<
-AudioCodec
->
 (
 send_codecs
 acd
@@ -32682,9 +32678,6 @@ kRecvOnly
 EXPECT_TRUE
 (
 CodecsMatch
-<
-AudioCodec
->
 (
 recv_codecs
 acd
@@ -32704,9 +32697,6 @@ else
 EXPECT_TRUE
 (
 CodecsMatch
-<
-AudioCodec
->
 (
 sendrecv_codecs
 acd
