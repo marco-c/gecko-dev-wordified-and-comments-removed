@@ -5329,7 +5329,7 @@ m
 if
 (
 typeof
-dump
+console
 !
 =
 =
@@ -5338,7 +5338,9 @@ undefined
 "
 )
 {
-dump
+console
+.
+log
 (
 "
 JSDOMParser
@@ -5359,7 +5361,7 @@ else
 if
 (
 typeof
-console
+dump
 !
 =
 =
@@ -5368,9 +5370,7 @@ undefined
 "
 )
 {
-console
-.
-log
+dump
 (
 "
 JSDOMParser
