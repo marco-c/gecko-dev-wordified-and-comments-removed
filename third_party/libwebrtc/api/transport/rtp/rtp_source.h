@@ -157,6 +157,11 @@ rtp_timestamp
 )
 {
 }
+[
+[
+deprecated
+]
+]
 RtpSource
 (
 int64_t
@@ -242,6 +247,11 @@ return
 timestamp_
 ;
 }
+[
+[
+deprecated
+]
+]
 int64_t
 timestamp_ms
 (
