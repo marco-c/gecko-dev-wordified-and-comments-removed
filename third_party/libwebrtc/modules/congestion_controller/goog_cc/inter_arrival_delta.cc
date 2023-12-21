@@ -18,6 +18,11 @@ algorithm
 >
 #
 include
+<
+cstddef
+>
+#
+include
 "
 api
 /
@@ -35,6 +40,15 @@ api
 units
 /
 timestamp
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

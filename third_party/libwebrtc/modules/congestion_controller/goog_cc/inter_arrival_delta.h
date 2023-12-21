@@ -6,6 +6,11 @@ define
 MODULES_CONGESTION_CONTROLLER_GOOG_CC_INTER_ARRIVAL_DELTA_H_
 #
 include
+<
+cstddef
+>
+#
+include
 "
 api
 /
