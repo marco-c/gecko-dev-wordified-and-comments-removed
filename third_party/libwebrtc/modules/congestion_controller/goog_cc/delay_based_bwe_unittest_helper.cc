@@ -982,6 +982,10 @@ arrival_time_offset_ms_
 (
 0
 )
+next_sequence_number_
+(
+0
+)
 first_update_
 (
 true
@@ -1161,6 +1165,16 @@ sent_packet
 pacing_info
 =
 pacing_info
+;
+packet
+.
+sent_packet
+.
+sequence_number
+=
+next_sequence_number_
++
++
 ;
 if
 (

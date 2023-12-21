@@ -641,6 +641,9 @@ stream_generator_
 int64_t
 arrival_time_offset_ms_
 ;
+int64_t
+next_sequence_number_
+;
 bool
 first_update_
 ;
