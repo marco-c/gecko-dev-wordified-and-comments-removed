@@ -431,14 +431,6 @@ aExtendMode
 )
 final
 ;
-TextureData
-*
-LookupTextureData
-(
-int64_t
-aTextureId
-)
-;
 void
 CheckpointReached
 (
@@ -1121,6 +1113,11 @@ mDrawTarget
 ;
 RemoteTextureOwnerId
 mRemoteTextureOwnerId
+;
+bool
+mTextureLocked
+=
+false
 ;
 bool
 mNotifiedRequiresRefresh
