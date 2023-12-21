@@ -2375,7 +2375,7 @@ terms
 -
 of
 -
-use2
+use3
 =
 By
 selecting
@@ -2395,9 +2395,9 @@ agree
 to
 {
 -
-fakespot
--
 brand
+-
+product
 -
 name
 }
@@ -2421,6 +2421,15 @@ policy
 a
 >
 and
+{
+-
+fakespot
+-
+brand
+-
+name
+}
+s
 <
 a
 data
