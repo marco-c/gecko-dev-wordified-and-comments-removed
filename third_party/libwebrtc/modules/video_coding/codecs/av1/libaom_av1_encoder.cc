@@ -4067,7 +4067,7 @@ kVideoFrameDelta
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 frame
 .

@@ -3460,7 +3460,7 @@ encoded_images_
 i
 ]
 .
-SetTimestamp
+SetRtpTimestamp
 (
 input_frame
 .

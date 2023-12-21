@@ -68,7 +68,7 @@ rtp
 <
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 <
@@ -428,7 +428,7 @@ rtp_timestamp_
 frame
 -
 >
-SetTimestamp
+SetRtpTimestamp
 (
 *
 rtp_timestamp_

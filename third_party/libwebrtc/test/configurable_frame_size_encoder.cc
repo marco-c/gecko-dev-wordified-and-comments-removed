@@ -231,7 +231,7 @@ kVideoFrameKey
 ;
 encodedImage
 .
-SetTimestamp
+SetRtpTimestamp
 (
 inputImage
 .

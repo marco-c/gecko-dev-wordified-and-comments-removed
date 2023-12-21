@@ -4743,7 +4743,7 @@ AheadOf
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 last_assembled_frame_rtp_timestamp_
@@ -4819,7 +4819,7 @@ last_assembled_frame_rtp_timestamp_
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -4841,7 +4841,7 @@ last_assembled_frame_rtp_timestamp_
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;

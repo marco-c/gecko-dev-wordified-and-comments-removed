@@ -1609,7 +1609,7 @@ EXPECT_EQ
 kInitialTimestampRtp
 encoded_frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

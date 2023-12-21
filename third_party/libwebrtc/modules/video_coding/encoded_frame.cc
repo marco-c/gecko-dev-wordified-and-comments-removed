@@ -161,7 +161,7 @@ Reset
 (
 )
 {
-SetTimestamp
+SetRtpTimestamp
 (
 0
 )

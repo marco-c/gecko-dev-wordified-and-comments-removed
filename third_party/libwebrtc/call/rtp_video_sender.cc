@@ -3200,7 +3200,7 @@ rtp_timestamp
 =
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 +
@@ -3231,7 +3231,7 @@ OnSendingRtpFrame
 (
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 encoded_image

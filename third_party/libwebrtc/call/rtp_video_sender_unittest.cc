@@ -1162,7 +1162,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -1358,7 +1358,7 @@ encoded_image_1
 ;
 encoded_image_1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -1571,7 +1571,7 @@ encoded_image_1
 ;
 encoded_image_1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -1778,7 +1778,7 @@ encoded_image_1
 ;
 encoded_image_1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -2381,7 +2381,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -2682,7 +2682,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -2840,7 +2840,7 @@ error
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 2
 )
@@ -3742,7 +3742,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -4375,7 +4375,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -5188,7 +5188,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -5633,7 +5633,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -5777,7 +5777,7 @@ kVideoFrameDelta
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 3000
 )
@@ -6039,7 +6039,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -6143,7 +6143,7 @@ kVideoFrameDelta
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 3000
 )
@@ -6354,7 +6354,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -7153,7 +7153,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -7381,7 +7381,7 @@ empty
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 3
 )
@@ -7510,7 +7510,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 1
 )
@@ -7697,7 +7697,7 @@ error
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 2
 )

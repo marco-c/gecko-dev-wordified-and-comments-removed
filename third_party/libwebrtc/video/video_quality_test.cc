@@ -1381,7 +1381,7 @@ PostEncodeOnFrame
 simulcast_index
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

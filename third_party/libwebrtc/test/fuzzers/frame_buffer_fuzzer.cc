@@ -281,7 +281,7 @@ FuzzyFrameObject
 frame
 -
 >
-SetTimestamp
+SetRtpTimestamp
 (
 helper
 .

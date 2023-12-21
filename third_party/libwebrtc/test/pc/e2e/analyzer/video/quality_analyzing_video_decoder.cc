@@ -329,7 +329,7 @@ kNotSetId
 )
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -354,7 +354,7 @@ insert
 {
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 out
@@ -374,7 +374,7 @@ insert
 {
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 std
@@ -458,7 +458,7 @@ erase
 (
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -469,7 +469,7 @@ erase
 (
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

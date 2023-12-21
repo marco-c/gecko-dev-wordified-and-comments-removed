@@ -401,7 +401,7 @@ kStateEmpty
 _state
 )
 {
-SetTimestamp
+SetRtpTimestamp
 (
 packet
 .

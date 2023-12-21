@@ -1605,7 +1605,7 @@ find
 (
 encodedImage
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

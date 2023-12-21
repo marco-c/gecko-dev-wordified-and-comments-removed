@@ -278,7 +278,7 @@ encoded_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 timestamp_rtp
 )

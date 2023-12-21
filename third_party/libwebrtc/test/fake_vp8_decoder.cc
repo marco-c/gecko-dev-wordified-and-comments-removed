@@ -317,7 +317,7 @@ set_timestamp
 (
 input
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

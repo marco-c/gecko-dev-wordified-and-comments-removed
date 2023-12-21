@@ -461,7 +461,7 @@ NextFrameConfig
 simulcast_index
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -482,7 +482,7 @@ _frameType
 simulcast_index
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

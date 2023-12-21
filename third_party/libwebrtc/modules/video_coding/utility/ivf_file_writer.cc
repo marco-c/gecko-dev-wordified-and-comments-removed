@@ -814,7 +814,7 @@ using_capture_timestamps_
 =
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 =
@@ -977,7 +977,7 @@ Unwrap
 (
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

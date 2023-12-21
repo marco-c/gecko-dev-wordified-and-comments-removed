@@ -218,7 +218,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -347,7 +347,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -442,7 +442,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -617,7 +617,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -816,7 +816,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -832,7 +832,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456720
 )
@@ -848,7 +848,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source3
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456720
 )
@@ -1150,7 +1150,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1166,7 +1166,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1182,7 +1182,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source3
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1553,7 +1553,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1569,7 +1569,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1585,7 +1585,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source3
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1882,7 +1882,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -2106,7 +2106,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -2246,7 +2246,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -2400,7 +2400,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 10
 )
@@ -2416,7 +2416,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 20
 )
@@ -2614,7 +2614,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -2702,7 +2702,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 10
 )
@@ -2718,7 +2718,7 @@ CreateEncodedImageOfSizeNFilledWithValuesFromX
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 20
 )

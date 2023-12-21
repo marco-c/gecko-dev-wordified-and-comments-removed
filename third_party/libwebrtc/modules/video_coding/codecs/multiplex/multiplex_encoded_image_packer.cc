@@ -1475,11 +1475,11 @@ combined_image
 ;
 encoded_image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 combined_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

@@ -720,7 +720,7 @@ find
 (
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -748,7 +748,7 @@ forward_as_tuple
 (
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -791,7 +791,7 @@ find
 (
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -819,7 +819,7 @@ forward_as_tuple
 (
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

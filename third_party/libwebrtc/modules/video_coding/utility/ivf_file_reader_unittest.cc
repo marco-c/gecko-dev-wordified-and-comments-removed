@@ -320,7 +320,7 @@ else
 {
 frame
 .
-SetTimestamp
+SetRtpTimestamp
 (
 i
 )
@@ -481,7 +481,7 @@ EXPECT_EQ
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 static_cast
@@ -503,7 +503,7 @@ EXPECT_EQ
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 static_cast

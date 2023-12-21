@@ -10290,7 +10290,7 @@ size
 ;
 encoded_image_
 .
-SetTimestamp
+SetRtpTimestamp
 (
 input_image_
 -
@@ -10519,7 +10519,7 @@ frame_timestamp_ms
 *
 encoded_image_
 .
-Timestamp
+RtpTimestamp
 (
 )
 /

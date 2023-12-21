@@ -15267,7 +15267,7 @@ buffer
 ;
 encoded
 .
-SetTimestamp
+SetRtpTimestamp
 (
 input_image
 .

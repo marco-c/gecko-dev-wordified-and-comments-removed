@@ -1306,7 +1306,7 @@ ReturnFrame
 img
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 qp

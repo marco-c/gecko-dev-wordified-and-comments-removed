@@ -997,7 +997,7 @@ current_timestamp
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <

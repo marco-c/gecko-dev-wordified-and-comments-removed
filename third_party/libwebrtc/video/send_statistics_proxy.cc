@@ -1547,7 +1547,7 @@ ForwardDiff
 oldest_timestamp
 encoded_frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -1572,7 +1572,7 @@ find
 (
 encoded_frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -1600,7 +1600,7 @@ make_pair
 (
 encoded_frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 Frame

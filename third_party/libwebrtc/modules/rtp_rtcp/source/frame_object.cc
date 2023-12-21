@@ -158,7 +158,7 @@ _payloadType
 =
 payload_type
 ;
-SetTimestamp
+SetRtpTimestamp
 (
 rtp_timestamp
 )

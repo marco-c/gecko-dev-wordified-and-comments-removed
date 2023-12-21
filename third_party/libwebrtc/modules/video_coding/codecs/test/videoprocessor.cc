@@ -2523,7 +2523,7 @@ GetFrameWithTimestamp
 (
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 stream_idx
@@ -3004,7 +3004,7 @@ GetFrameWithTimestamp
 (
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 i
@@ -3938,7 +3938,7 @@ GetFrameWithTimestamp
 (
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 spatial_idx
@@ -4070,14 +4070,14 @@ if
 (
 lower_layer
 .
-Timestamp
+RtpTimestamp
 (
 )
 =
 =
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

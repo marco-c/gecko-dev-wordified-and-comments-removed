@@ -521,7 +521,7 @@ timestamp_rtp
 =
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 spatial_idx
@@ -776,7 +776,7 @@ timestamp_rtp
 =
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 spatial_idx
