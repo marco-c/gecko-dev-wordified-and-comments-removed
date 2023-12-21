@@ -29,13 +29,6 @@ h
 #
 include
 "
-ssl3prot
-.
-h
-"
-#
-include
-"
 gtest_utils
 .
 h
@@ -5795,11 +5788,7 @@ variant_
 ssl_variant_datagram
 )
 ?
-(
-0x7f00
-|
-DTLS_1_3_DRAFT_VERSION
-)
+SSL_LIBRARY_VERSION_DTLS_1_3_WIRE
 :
 SSL_LIBRARY_VERSION_TLS_1_3
 2

@@ -8,10 +8,6 @@ typedef
 PRUint16
 SSL3ProtocolVersion
 ;
-#
-define
-DTLS_1_3_DRAFT_VERSION
-43
 typedef
 PRUint16
 ssl3CipherSuite

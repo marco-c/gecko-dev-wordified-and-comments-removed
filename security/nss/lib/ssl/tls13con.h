@@ -736,6 +736,8 @@ tls13_SetupAeadIv
 (
 PRBool
 isDTLS
+SSL3ProtocolVersion
+v
 unsigned
 char
 *
@@ -875,6 +877,16 @@ message
 PRUint16
 *
 exType
+)
+;
+SECStatus
+tls13_UpdateTrafficKeys
+(
+sslSocket
+*
+ss
+SSLSecretDirection
+direction
 )
 ;
 #

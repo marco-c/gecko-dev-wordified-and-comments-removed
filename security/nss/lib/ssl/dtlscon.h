@@ -252,9 +252,11 @@ DTLSEpoch
 dtls_ReadEpoch
 (
 const
-ssl3CipherSpec
-*
-crSpec
+SSL3ProtocolVersion
+version
+const
+DTLSEpoch
+specEpoch
 const
 PRUint8
 *
