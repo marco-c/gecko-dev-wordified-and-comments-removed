@@ -141,6 +141,13 @@ CONFIG_LIBVPX_VP9_ENCODER
 ff_libvpx_vp9_encoder
 #
 endif
+#
+if
+CONFIG_LIBAOM_AV1_ENCODER
+&
+ff_libaom_av1_encoder
+#
+endif
 NULL
 }
 ;
