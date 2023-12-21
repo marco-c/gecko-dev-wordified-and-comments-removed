@@ -2351,7 +2351,7 @@ titlebar
 scrollbars
 =
 0
-popup
+dialog
 =
 1
 "
