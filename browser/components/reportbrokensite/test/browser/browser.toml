@@ -35,6 +35,13 @@ js
 ]
 [
 "
+browser_tab_key_order
+.
+js
+"
+]
+[
+"
 browser_parent_menuitems
 .
 js
