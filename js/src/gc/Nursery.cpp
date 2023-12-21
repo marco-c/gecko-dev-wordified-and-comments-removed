@@ -9954,6 +9954,9 @@ promotionGrowth
 dutyGrowth
 )
 ;
+#
+ifndef
+DEBUG
 static
 const
 double
@@ -10006,6 +10009,8 @@ timeGrowth
 )
 ;
 }
+#
+endif
 static
 const
 double
