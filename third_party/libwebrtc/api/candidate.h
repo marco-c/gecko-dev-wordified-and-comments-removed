@@ -33,6 +33,17 @@ include
 "
 absl
 /
+base
+/
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
 strings
 /
 string_view
@@ -130,6 +141,7 @@ absl
 :
 string_view
 type
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 uint32_t
 generation
 absl
@@ -497,6 +509,7 @@ absl
 :
 string_view
 type
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 )
 {
 Assign

@@ -1039,6 +1039,11 @@ rtc
 Thread
 *
 thread
+absl
+:
+:
+string_view
+type
 rtc
 :
 :
@@ -1082,7 +1087,7 @@ field_trials
 Port
 (
 thread
-LOCAL_PORT_TYPE
+type
 factory
 network
 username
@@ -1156,6 +1161,11 @@ rtc
 Thread
 *
 thread
+absl
+:
+:
+string_view
+type
 rtc
 :
 :
@@ -1197,7 +1207,7 @@ field_trials
 Port
 (
 thread
-LOCAL_PORT_TYPE
+type
 factory
 network
 min_port
@@ -3670,6 +3680,7 @@ field_trials
 UDPPort
 (
 thread
+STUN_PORT_TYPE
 factory
 network
 min_port
@@ -3680,11 +3691,6 @@ false
 field_trials
 )
 {
-set_type
-(
-STUN_PORT_TYPE
-)
-;
 set_server_addresses
 (
 servers
