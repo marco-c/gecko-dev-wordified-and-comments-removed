@@ -3435,7 +3435,7 @@ c_str
 )
 )
 ;
-SetVisualScrollOffset
+ClampAndSetVisualScrollOffset
 (
 scrollOffset
 )

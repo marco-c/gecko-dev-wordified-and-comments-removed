@@ -183,6 +183,12 @@ mTreeManager
 =
 nullptr
 ;
+RecursiveMutex
+&
+GetTreeLock
+(
+)
+;
 LayersId
 GetRootLayersId
 (

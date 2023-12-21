@@ -78,6 +78,11 @@ TestPointerEventsConsumable
 cpp
 "
 "
+TestScrollbarDragging
+.
+cpp
+"
+"
 TestScrollHandoff
 .
 cpp
