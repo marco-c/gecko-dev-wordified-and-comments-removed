@@ -1272,7 +1272,7 @@ SendAccessiblesWillMove
 )
 ;
 void
-ClearMovedAccessibles
+ClearMutationData
 (
 )
 {
@@ -1283,6 +1283,12 @@ Clear
 )
 ;
 mInsertedAccessibles
+.
+Clear
+(
+)
+;
+mRemovedNodes
 .
 Clear
 (
@@ -1775,6 +1781,13 @@ LocalAccessible
 >
 >
 mInsertedAccessibles
+;
+nsTHashSet
+<
+nsIContent
+*
+>
+mRemovedNodes
 ;
 }
 ;

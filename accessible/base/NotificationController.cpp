@@ -5027,7 +5027,7 @@ mDocument
 mDocument
 -
 >
-ClearMovedAccessibles
+ClearMutationData
 (
 )
 ;
