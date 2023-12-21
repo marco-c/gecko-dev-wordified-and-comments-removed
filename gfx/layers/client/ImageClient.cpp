@@ -861,6 +861,13 @@ in
 BorrowDrawTarget
 "
 ;
+texture
+-
+>
+Unlock
+(
+)
+;
 return
 nullptr
 ;
