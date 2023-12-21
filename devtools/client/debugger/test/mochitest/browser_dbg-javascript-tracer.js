@@ -1657,7 +1657,7 @@ resourceCommand
 .
 TYPES
 .
-TRACING_STATE
+JSTRACER_STATE
 {
 ignoreExistingResources
 :
@@ -1757,7 +1757,7 @@ resourceCommand
 .
 TYPES
 .
-TRACING_STATE
+JSTRACER_STATE
 {
 ignoreExistingResources
 :
