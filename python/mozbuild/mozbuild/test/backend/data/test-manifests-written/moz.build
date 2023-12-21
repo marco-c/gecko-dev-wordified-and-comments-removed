@@ -34,12 +34,12 @@ dir1
 /
 xpcshell
 .
-ini
+toml
 "
 "
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS
@@ -49,6 +49,6 @@ MOCHITEST_MANIFESTS
 "
 mochitest
 .
-ini
+toml
 "
 ]

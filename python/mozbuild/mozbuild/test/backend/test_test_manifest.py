@@ -499,17 +499,17 @@ dir1
 /
 xpcshell
 .
-ini
+toml
 "
 "
 xpcshell
 .
-ini
+toml
 "
 "
 mochitest
 .
-ini
+toml
 "
 ]
 )
@@ -528,7 +528,7 @@ topsrcdir
 "
 xpcshell
 .
-ini
+toml
 "
 )
         
@@ -697,7 +697,7 @@ topsrcdir
 "
 mochitest
 .
-ini
+toml
 "
 )
                     
@@ -713,7 +713,7 @@ mochitest
 -
 common
 .
-ini
+toml
 "
 )
                     

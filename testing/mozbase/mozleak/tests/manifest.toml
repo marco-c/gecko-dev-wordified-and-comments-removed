@@ -1,0 +1,15 @@
+[
+DEFAULT
+]
+subsuite
+=
+"
+mozbase
+"
+[
+"
+test_lsan
+.
+py
+"
+]

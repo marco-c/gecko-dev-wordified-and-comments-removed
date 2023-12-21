@@ -52,7 +52,7 @@ METRO_CHROME_MANIFESTS
 "
 metro
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS
@@ -62,7 +62,7 @@ MOCHITEST_MANIFESTS
 "
 mochitest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
@@ -82,7 +82,7 @@ XPCSHELL_TESTS_MANIFESTS
 "
 xpcshell
 .
-ini
+toml
 "
 ]
 REFTEST_MANIFESTS
@@ -112,6 +112,6 @@ PYTHON_UNITTEST_MANIFESTS
 "
 python
 .
-ini
+toml
 "
 ]

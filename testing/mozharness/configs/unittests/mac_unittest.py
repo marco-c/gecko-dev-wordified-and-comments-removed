@@ -1605,7 +1605,7 @@ tests
 /
 xpcshell
 .
-ini
+toml
 "
             
 ]

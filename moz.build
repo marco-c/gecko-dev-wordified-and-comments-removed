@@ -635,7 +635,7 @@ Files
 /
 a11y
 .
-ini
+toml
 "
 )
 :
@@ -678,7 +678,7 @@ Files
 /
 mochitest
 .
-ini
+toml
 "
 )
 :
@@ -721,7 +721,7 @@ Files
 /
 browser
 .
-ini
+toml
 "
 )
 :
@@ -796,7 +796,7 @@ Files
 /
 chrome
 .
-ini
+toml
 "
 )
 :
@@ -839,7 +839,7 @@ Files
 /
 xpcshell
 .
-ini
+toml
 "
 )
 :

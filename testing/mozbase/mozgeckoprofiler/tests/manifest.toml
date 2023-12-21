@@ -1,0 +1,15 @@
+[
+DEFAULT
+]
+subsuite
+=
+"
+mozbase
+"
+[
+"
+test_view_gecko_profiler
+.
+py
+"
+]

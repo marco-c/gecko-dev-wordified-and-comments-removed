@@ -32,6 +32,6 @@ XPCSHELL_TESTS_MANIFESTS
 "
 does_not_exist
 .
-ini
+toml
 "
 ]

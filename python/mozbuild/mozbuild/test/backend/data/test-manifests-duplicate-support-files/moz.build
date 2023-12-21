@@ -32,11 +32,11 @@ MOCHITEST_MANIFESTS
 "
 mochitest1
 .
-ini
+toml
 "
 "
 mochitest2
 .
-ini
+toml
 "
 ]

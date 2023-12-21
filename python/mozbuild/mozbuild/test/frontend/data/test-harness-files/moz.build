@@ -74,6 +74,6 @@ mochitest
 "
 mochitest
 .
-ini
+toml
 "
 ]
