@@ -34506,6 +34506,7 @@ property
 .
 to_gecko_animated_property_id
 (
+true
 )
 mValue
 :
@@ -34958,6 +34959,7 @@ id
 .
 to_gecko_animated_property_id
 (
+true
 )
 ;
 }
@@ -35579,6 +35581,7 @@ property
 .
 to_gecko_animated_property_id
 (
+false
 )
 )
 ;
@@ -36054,6 +36057,7 @@ property
 .
 to_gecko_animated_property_id
 (
+false
 )
 )
 ;
@@ -36191,6 +36195,7 @@ id
 .
 to_gecko_animated_property_id
 (
+false
 )
 )
 ;

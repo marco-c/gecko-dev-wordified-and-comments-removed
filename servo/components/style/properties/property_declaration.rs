@@ -1099,6 +1099,9 @@ to_gecko_animated_property_id
 (
 &
 self
+owned
+:
+bool
 )
 -
 >
@@ -1172,6 +1175,9 @@ mCustomName
 .
 mRawPtr
 =
+if
+owned
+{
 (
 *
 name
@@ -1184,6 +1190,15 @@ clone
 into_addrefed
 (
 )
+}
+else
+{
+name
+.
+as_ptr
+(
+)
+}
 ;
 property_id
 }
