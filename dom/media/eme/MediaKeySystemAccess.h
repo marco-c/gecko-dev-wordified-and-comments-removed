@@ -81,9 +81,6 @@ ErrorResult
 namespace
 dom
 {
-struct
-MediaKeySystemAccessRequest
-;
 class
 MediaKeySystemAccess
 final
@@ -186,9 +183,9 @@ MediaKeySystemStatus
 GetKeySystemStatus
 (
 const
-MediaKeySystemAccessRequest
+nsAString
 &
-aRequest
+aKeySystem
 nsACString
 &
 aOutExceptionMessage
