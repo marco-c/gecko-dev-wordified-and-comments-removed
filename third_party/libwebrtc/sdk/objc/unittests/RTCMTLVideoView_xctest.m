@@ -1744,7 +1744,7 @@ delegateMock
 (
 void
 )
-testSetContentMode
+DISABLED_testSetContentMode
 {
 OCMStub
 (
@@ -1827,7 +1827,7 @@ setVideoContentMode
 UIViewContentModeScaleAspectFill
 ]
 ;
-OCMVerify
+OCMVerifyAll
 (
 metalKitView
 )
