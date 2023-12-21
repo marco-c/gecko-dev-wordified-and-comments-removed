@@ -48,6 +48,13 @@ h
 "
 mozilla
 /
+AnimatedPropertyID
+.
+h
+"
+"
+mozilla
+/
 css
 /
 SheetLoadData
@@ -1347,6 +1354,12 @@ mozilla
 :
 :
 DeclarationBlockMutationClosure
+"
+"
+mozilla
+:
+:
+AnimatedPropertyID
 "
 "
 mozilla

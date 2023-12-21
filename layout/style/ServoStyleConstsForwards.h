@@ -324,6 +324,9 @@ struct
 StyleForgottenArcSlicePtr
 ;
 struct
+AnimatedPropertyID
+;
+struct
 AnimationPropertySegment
 ;
 struct

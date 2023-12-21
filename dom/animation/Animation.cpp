@@ -3785,9 +3785,8 @@ animationValues
 get
 (
 )
+&
 property
-.
-mID
 )
 .
 Consume

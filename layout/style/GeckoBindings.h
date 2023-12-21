@@ -1502,7 +1502,12 @@ const
 RawServoAnimationValueTable
 *
 aBaseStyles
-nsCSSPropertyID
+const
+mozilla
+:
+:
+AnimatedPropertyID
+*
 aProperty
 )
 ;

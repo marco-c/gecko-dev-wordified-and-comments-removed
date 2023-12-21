@@ -1335,6 +1335,13 @@ nsCSSPropertyIDSet
 nsCSSPropertyIDSet
 "
 "
+AnimatedPropertyID
+"
+=
+"
+AnimatedPropertyID
+"
+"
 nsCSSValueSharedList
 "
 =
