@@ -53239,6 +53239,16 @@ this
 ;
 if
 (
+classNode
+-
+>
+addInitializerFunction
+(
+)
+)
+{
+if
+(
 !
 de
 .
@@ -53287,6 +53297,7 @@ extraInitializersPresent
 =
 true
 ;
+}
 #
 endif
 if
