@@ -33,10 +33,13 @@ Point
 .
 h
 "
-#
-define
+inline
+constexpr
+nscoord
 NS_MAXSIZE
+=
 nscoord_MAX
+;
 typedef
 mozilla
 :
