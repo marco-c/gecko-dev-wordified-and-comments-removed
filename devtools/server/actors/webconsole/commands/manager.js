@@ -95,7 +95,7 @@ commands
 -
 usage
 -
-trace
+trace2
 "
 unblock
 :
@@ -2632,6 +2632,13 @@ prefix
 |
 |
 null
+traceValues
+:
+!
+!
+args
+.
+values
 }
 )
 ;
@@ -2658,6 +2665,9 @@ logMethod
 "
 "
 prefix
+"
+"
+values
 "
 ]
 }
