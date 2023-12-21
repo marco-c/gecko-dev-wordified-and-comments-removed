@@ -1500,6 +1500,11 @@ numStacksCapturedForThrow_
 =
 0
 ;
+uint16_t
+numAllocSitesPretenured
+=
+0
+;
 #
 ifdef
 DEBUG

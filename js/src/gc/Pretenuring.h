@@ -769,6 +769,8 @@ processSite
 GCRuntime
 *
 gc
+size_t
+attentionThreshold
 bool
 reportInfo
 size_t

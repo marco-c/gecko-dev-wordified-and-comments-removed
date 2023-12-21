@@ -693,15 +693,6 @@ data
 js
 :
 :
-MainThreadData
-<
-uint32_t
->
-tenuredBigInts
-;
-js
-:
-:
 MainThreadOrGCTaskData
 <
 size_t

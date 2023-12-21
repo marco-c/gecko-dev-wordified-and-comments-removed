@@ -3630,7 +3630,7 @@ nurseryCellHeaderSize
 if
 (
 traceKind
-=
+!
 =
 JS
 :
@@ -3638,7 +3638,7 @@ JS
 TraceKind
 :
 :
-String
+Object
 |
 |
 runtime
