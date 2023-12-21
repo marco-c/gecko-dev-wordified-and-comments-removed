@@ -262,8 +262,6 @@ optional
 DataRate
 >
 probe_bitrate
-DataRate
-upper_link_capacity
 bool
 in_alr
 )
@@ -1024,16 +1022,6 @@ PlusInfinity
 ;
 DataRate
 delay_based_estimate_
-=
-DataRate
-:
-:
-PlusInfinity
-(
-)
-;
-DataRate
-upper_link_capacity_
 =
 DataRate
 :
