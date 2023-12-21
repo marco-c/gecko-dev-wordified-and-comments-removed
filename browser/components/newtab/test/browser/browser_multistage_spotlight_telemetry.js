@@ -71,13 +71,10 @@ resource
 :
 /
 /
-activity
--
-stream
+/
+modules
 /
 aboutwelcome
-/
-lib
 /
 AboutWelcomeTelemetry
 .

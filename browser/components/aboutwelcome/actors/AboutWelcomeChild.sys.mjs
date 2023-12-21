@@ -135,13 +135,10 @@ resource
 :
 /
 /
-activity
--
-stream
+/
+modules
 /
 aboutwelcome
-/
-lib
 /
 AboutWelcomeDefaults
 .

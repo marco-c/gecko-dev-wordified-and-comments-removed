@@ -144,13 +144,10 @@ resource
 :
 /
 /
-activity
--
-stream
+/
+modules
 /
 aboutwelcome
-/
-lib
 /
 AWScreenUtils
 .

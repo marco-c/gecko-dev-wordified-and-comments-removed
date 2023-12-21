@@ -404,13 +404,13 @@ const
 ABOUT_WELCOME_URL
 =
 "
-resource
+chrome
 :
 /
 /
-activity
--
-stream
+browser
+/
+content
 /
 aboutwelcome
 /
