@@ -774,12 +774,6 @@ firstUpdateComplete
 =
 true
 ;
-this
-.
-toggleVisibilityInCardContainer
-(
-)
-;
 }
 getTabStateValue
 (
@@ -1460,6 +1454,12 @@ this
 fullyUpdated
 =
 true
+;
+this
+.
+toggleVisibilityInCardContainer
+(
+)
 ;
 }
 async
