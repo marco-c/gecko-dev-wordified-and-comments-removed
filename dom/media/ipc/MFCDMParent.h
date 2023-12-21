@@ -616,7 +616,7 @@ mExpirationListener
 }
 ;
 class
-MFCDMCapabilities
+MFCDMService
 {
 public
 :
