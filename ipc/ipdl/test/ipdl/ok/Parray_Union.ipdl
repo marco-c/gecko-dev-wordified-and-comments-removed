@@ -11,6 +11,11 @@ double
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 sync
 protocol
 Parray_Union

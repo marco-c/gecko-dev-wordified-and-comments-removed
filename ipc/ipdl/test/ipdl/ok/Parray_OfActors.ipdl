@@ -2,6 +2,11 @@ include
 protocol
 Parray_OfActorsSub
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 Parray_OfActors
 {

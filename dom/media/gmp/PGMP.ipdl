@@ -141,6 +141,9 @@ ParentImpl
 "
 GMPParent
 "
+ChildProc
+=
+GMPlugin
 ]
 sync
 protocol

@@ -137,6 +137,14 @@ net
 -
 -
 -
+[
+ParentProc
+=
+Socket
+ChildProc
+=
+Content
+]
 async
 protocol
 PBackgroundDataBridge

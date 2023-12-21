@@ -255,6 +255,9 @@ ipc
 {
 [
 NeedsOtherPid
+ChildProc
+=
+Utility
 ]
 protocol
 PUtilityProcess

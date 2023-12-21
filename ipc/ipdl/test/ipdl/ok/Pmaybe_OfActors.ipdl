@@ -2,6 +2,11 @@ include
 protocol
 Pmaybe_OfActorsSub
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 Pmaybe_OfActors
 {

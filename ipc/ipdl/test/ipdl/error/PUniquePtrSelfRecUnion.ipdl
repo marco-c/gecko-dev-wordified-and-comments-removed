@@ -19,6 +19,11 @@ X
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 PUniquePtrSelfRecUnion
 {

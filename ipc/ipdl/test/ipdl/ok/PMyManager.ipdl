@@ -99,6 +99,11 @@ MyOtherData
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 sync
 protocol
 PMyManager

@@ -1878,6 +1878,26 @@ methodspec
 =
 MethodSpec
 .
+FINAL
+:
+            
+self
+.
+write
+(
+"
+final
+"
+)
+        
+elif
+md
+.
+methodspec
+=
+=
+MethodSpec
+.
 PURE
 :
             

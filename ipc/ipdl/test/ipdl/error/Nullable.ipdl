@@ -11,6 +11,11 @@ int
 '
 is
 unsupported
+[
+ChildProc
+=
+any
+]
 protocol
 PNullable
 {

@@ -1,4 +1,6 @@
-comparable
+[
+Comparable
+]
 struct
 S
 {
@@ -10,6 +12,11 @@ d
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 sync
 protocol
 PStructComparable

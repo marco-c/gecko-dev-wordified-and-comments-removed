@@ -8,6 +8,9 @@ InvalidAttr
 '
 [
 InvalidAttr
+ChildProc
+=
+any
 ]
 async
 protocol

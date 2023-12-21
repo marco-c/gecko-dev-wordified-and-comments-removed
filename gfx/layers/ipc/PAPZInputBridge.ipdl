@@ -209,6 +209,14 @@ mozilla
 namespace
 layers
 {
+[
+ParentProc
+=
+GPU
+ChildProc
+=
+Parent
+]
 sync
 protocol
 PAPZInputBridge

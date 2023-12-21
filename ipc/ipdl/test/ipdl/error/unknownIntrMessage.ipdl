@@ -10,6 +10,11 @@ unknownIntrMessage
 :
 :
 Msg
+[
+ChildProc
+=
+any
+]
 intr
 protocol
 unknownIntrMessage

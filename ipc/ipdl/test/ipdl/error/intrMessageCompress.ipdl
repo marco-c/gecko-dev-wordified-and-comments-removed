@@ -32,6 +32,11 @@ but
 is
 not
 async
+[
+ChildProc
+=
+any
+]
 intr
 protocol
 intrMessageCompress

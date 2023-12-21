@@ -15,6 +15,11 @@ by
 protocol
 conflictProtocolMsg
 '
+[
+ChildProc
+=
+any
+]
 protocol
 conflictProtocolMsg
 {

@@ -15,6 +15,11 @@ of
 not
 inside_sync
 inside_cpow
+[
+ChildProc
+=
+any
+]
 protocol
 ExtendedAttrInvalidNestedValue
 {

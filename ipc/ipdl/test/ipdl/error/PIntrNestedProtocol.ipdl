@@ -15,6 +15,9 @@ NestedUpTo
 NestedUpTo
 =
 inside_sync
+ChildProc
+=
+any
 ]
 intr
 protocol

@@ -30,6 +30,12 @@ ParentImpl
 "
 VRGPUParent
 "
+ParentProc
+=
+VR
+ChildProc
+=
+GPU
 ]
 async
 protocol

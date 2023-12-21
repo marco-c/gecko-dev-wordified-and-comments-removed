@@ -1,4 +1,6 @@
-comparable
+[
+Comparable
+]
 union
 Basic
 {
@@ -8,6 +10,11 @@ double
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 sync
 protocol
 Punion_Comparable

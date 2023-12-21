@@ -46,6 +46,11 @@ this
 file
 fails
 .
+[
+ChildProc
+=
+any
+]
 protocol
 ManagerForgot
 {

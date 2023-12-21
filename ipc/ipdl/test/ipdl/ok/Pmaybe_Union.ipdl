@@ -11,6 +11,11 @@ double
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 sync
 protocol
 Pmaybe_Union

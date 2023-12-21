@@ -38,6 +38,11 @@ include
 protocol
 compressCtorManagee
 ;
+[
+ChildProc
+=
+any
+]
 intr
 protocol
 compressCtor
@@ -47,11 +52,13 @@ compressCtorManagee
 ;
 parent
 :
+[
+Compress
+]
 async
 compressCtorManagee
 (
 )
-compress
 ;
 }
 ;

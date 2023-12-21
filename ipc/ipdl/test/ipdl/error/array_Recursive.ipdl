@@ -7,6 +7,11 @@ syntax
 near
 [
 '
+[
+ChildProc
+=
+any
+]
 protocol
 array_Recursive
 {

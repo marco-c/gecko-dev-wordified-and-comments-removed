@@ -111,6 +111,11 @@ SomeFile
 h
 "
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 PInconsistentMoveOnly
 {

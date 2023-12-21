@@ -8,6 +8,11 @@ check
 of
 namespaced
 protocols
+[
+ChildProc
+=
+any
+]
 protocol
 Pnamespace_Basic
 {

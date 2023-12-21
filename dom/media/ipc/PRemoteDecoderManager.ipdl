@@ -160,6 +160,12 @@ VideoDecoderInfoIPDL
 ;
 [
 NeedsOtherPid
+ParentProc
+=
+any
+ChildProc
+=
+anydom
 ]
 sync
 protocol

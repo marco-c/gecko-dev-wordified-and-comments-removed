@@ -19,6 +19,11 @@ Foo
 ipdl
 "
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 oldIncludeSyntax
 {

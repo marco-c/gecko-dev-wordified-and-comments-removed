@@ -528,6 +528,9 @@ mSandboxBroker
 ;
 [
 NeedsOtherPid
+ChildProc
+=
+Socket
 ]
 sync
 protocol

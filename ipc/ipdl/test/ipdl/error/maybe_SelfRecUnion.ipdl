@@ -17,6 +17,11 @@ X
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 maybe_SelfRecUnion
 {

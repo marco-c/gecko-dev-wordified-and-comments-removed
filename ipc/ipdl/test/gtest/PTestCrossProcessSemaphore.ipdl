@@ -88,6 +88,9 @@ virtual
 ChildImpl
 =
 virtual
+ChildProc
+=
+any
 ]
 async
 protocol

@@ -10,6 +10,9 @@ mozilla
 :
 FooBarImpl
 "
+ChildProc
+=
+any
 ]
 async
 protocol

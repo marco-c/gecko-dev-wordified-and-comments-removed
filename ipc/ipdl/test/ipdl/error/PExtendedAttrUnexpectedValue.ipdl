@@ -13,6 +13,9 @@ ManualDealloc
 ManualDealloc
 =
 invalid
+ChildProc
+=
+any
 ]
 async
 protocol
