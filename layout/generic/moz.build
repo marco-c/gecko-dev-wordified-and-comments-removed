@@ -930,6 +930,11 @@ ScrollSnapTargetId
 h
 "
 "
+SelectionMovementUtils
+.
+h
+"
+"
 ViewportFrame
 .
 h
@@ -1284,6 +1289,11 @@ ScrollVelocityQueue
 cpp
 "
 "
+SelectionMovementUtils
+.
+cpp
+"
+"
 StickyScrollContainer
 .
 cpp
@@ -1315,7 +1325,7 @@ and
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
