@@ -185,6 +185,15 @@ include
 "
 mozilla
 /
+CaretAssociationHint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DisplaySVGItem
 .
 h
@@ -12466,7 +12475,10 @@ FocusMode
 :
 :
 kCollapseToNewPoint
-CARET_ASSOCIATE_BEFORE
+CaretAssociationHint
+:
+:
+Before
 )
 ;
 }

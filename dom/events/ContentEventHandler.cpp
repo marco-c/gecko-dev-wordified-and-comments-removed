@@ -5608,9 +5608,15 @@ hint
 =
 aForward
 ?
-CARET_ASSOCIATE_BEFORE
+CaretAssociationHint
 :
-CARET_ASSOCIATE_AFTER
+:
+Before
+:
+CaretAssociationHint
+:
+:
+After
 ;
 nsIFrame
 *

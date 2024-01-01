@@ -195,9 +195,12 @@ any
 more
 .
 Bug
-1869332
+1816581
 -
-Move
-libaom
-to
-libgkcodecs
+part
+1
+moved
+an
+exported
+header
+file
