@@ -14397,7 +14397,7 @@ const
 CGFloat
 radius
 =
-8
+6
 .
 0f
 ;
