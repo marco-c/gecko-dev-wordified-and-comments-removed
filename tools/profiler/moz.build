@@ -292,7 +292,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 in
@@ -520,7 +520,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -559,7 +559,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -625,7 +625,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -654,7 +654,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -725,6 +725,13 @@ SOURCES
 +
 =
 [
+"
+core
+/
+ETWTools
+.
+cpp
+"
 "
 core
 /
@@ -1070,6 +1077,13 @@ EXPORTS
 public
 /
 ChildProfilerController
+.
+h
+"
+"
+public
+/
+ETWTools
 .
 h
 "

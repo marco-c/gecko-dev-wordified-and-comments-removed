@@ -1815,6 +1815,7 @@ uint64_t
 RawQueryPerformanceCounterValue
 (
 )
+const
 {
 return
 mValue

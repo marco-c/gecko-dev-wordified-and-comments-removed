@@ -1343,6 +1343,9 @@ yield
 )
 ;
 }
+#
+undef
+Yield
 void
 Yield
 (
