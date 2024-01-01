@@ -931,7 +931,7 @@ limit
 *
 param
 {
-iterable
+Iterable
 }
 [
 iterable
@@ -1581,7 +1581,12 @@ phase
 *
 param
 {
+function
+(
 Event
+)
+:
+boolean
 }
 [
 test
@@ -1732,6 +1737,8 @@ function
 nsISupports
 string
 )
+:
+boolean
 }
 [
 test

@@ -2674,7 +2674,7 @@ key
 *
 returns
 {
-Document
+Element
 }
 The
 newly
@@ -2997,7 +2997,7 @@ key
 *
 returns
 {
-Document
+Element
 }
 The
 newly

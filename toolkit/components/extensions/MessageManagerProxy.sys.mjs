@@ -1005,7 +1005,7 @@ owner
 *
 param
 {
-Element
+Browser
 }
 target
 *

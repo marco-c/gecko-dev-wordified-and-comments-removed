@@ -2355,7 +2355,9 @@ param
 {
 EventEmitter
 }
+[
 emitter
+]
 optional
 object
 implementing
@@ -2614,7 +2616,9 @@ param
 {
 EventEmitter
 }
+[
 emitter
+]
 optional
 object
 implementing

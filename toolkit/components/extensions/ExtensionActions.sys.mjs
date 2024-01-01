@@ -888,7 +888,8 @@ string
 }
 prop
 *
-String
+Name
+of
 property
 to
 retrieve
@@ -901,10 +902,10 @@ of
 "
 icon
 "
+*
 "
 title
 "
-*
 "
 badgeText
 "
@@ -922,7 +923,7 @@ enabled
 *
 returns
 {
-string
+any
 }
 value
 *

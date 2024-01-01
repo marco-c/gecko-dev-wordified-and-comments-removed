@@ -919,7 +919,9 @@ param
 {
 string
 }
+[
 id
+]
 *
 The
 id
@@ -2394,9 +2396,11 @@ necessary
 *
 returns
 {
+Promise
+<
 object
-|
-null
+?
+>
 }
 Either
 an
@@ -4059,7 +4063,10 @@ name
 *
 returns
 {
+Promise
+<
 string
+>
 }
 *
 The

@@ -5232,10 +5232,9 @@ inspectedWindow
 param
 {
 string
+?
 }
-[
 name
-]
 The
 name
 of
@@ -5273,8 +5272,8 @@ of
 additional
 contexts
 in
-which
 *
+which
 this
 API
 should
@@ -5813,7 +5812,10 @@ entry
 *
 param
 {
+Partial
+<
 Entry
+>
 }
 parentEntry
 *
@@ -8076,7 +8078,7 @@ context
 *
 param
 {
-value
+any
 }
 [
 value
@@ -8220,7 +8222,7 @@ context
 *
 param
 {
-value
+any
 }
 [
 value
@@ -8730,7 +8732,7 @@ object
 *
 param
 {
-Array
+Iterable
 <
 string
 >
@@ -16238,6 +16240,17 @@ if
 this
 returns
 .
+/
+*
+*
+type
+{
+boolean
+|
+object
+}
+*
+/
 let
 returns
 =

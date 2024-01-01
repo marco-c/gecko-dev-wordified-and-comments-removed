@@ -2894,7 +2894,10 @@ setting
 *
 returns
 {
+Promise
+<
 object
+>
 }
 The
 current

@@ -331,9 +331,11 @@ data
 *
 param
 {
-string
+Date
 }
+[
 timeStamp
+]
 The
 timestamp
 for
