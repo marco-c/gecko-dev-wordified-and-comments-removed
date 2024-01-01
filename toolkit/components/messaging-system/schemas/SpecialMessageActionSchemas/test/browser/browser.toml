@@ -145,6 +145,13 @@ js
 ]
 [
 "
+browser_sma_open_firefoxview
+.
+js
+"
+]
+[
+"
 browser_sma_open_private_browser_window
 .
 js
