@@ -277,9 +277,6 @@ marker_type_display
 )
 -
 >
-schema
-:
-:
 MarkerSchema
 ;
 fn
@@ -576,9 +573,6 @@ marker_type_display
 )
 -
 >
-schema
-:
-:
 MarkerSchema
 {
 use
