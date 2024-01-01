@@ -3395,7 +3395,10 @@ request
 )
         
 except
+(
 StreamClosedError
+ProtocolError
+)
 :
             
 queue
@@ -3449,7 +3452,10 @@ data
 )
             
 except
+(
 StreamClosedError
+ProtocolError
+)
 :
                 
 pass
