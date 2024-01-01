@@ -155,6 +155,17 @@ apply
 *
 /
 enum
+BitrateMode
+{
+"
+constant
+"
+"
+variable
+"
+}
+;
+enum
 RecordingState
 {
 "
