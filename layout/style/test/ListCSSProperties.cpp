@@ -408,14 +408,6 @@ visually
 -
 moz
 -
-user
--
-focus
-"
-"
--
-moz
--
 window
 -
 input
