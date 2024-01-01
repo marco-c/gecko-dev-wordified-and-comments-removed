@@ -2877,7 +2877,7 @@ mState
 aState
 )
 ;
-LOG
+LOGV
 (
 "
 EncoderAgent
