@@ -366,6 +366,13 @@ qcms_profile_sRGB
 void
 )
 ;
+qcms_profile
+*
+qcms_profile_displayP3
+(
+void
+)
+;
 void
 qcms_profile_release
 (
