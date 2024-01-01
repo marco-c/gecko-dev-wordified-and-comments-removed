@@ -257,7 +257,7 @@ aData
 override
 ;
 virtual
-VideoDecoderConfig
+VideoDecoderConfigInternal
 EncoderConfigToDecoderConfig
 (
 nsIGlobalObject
