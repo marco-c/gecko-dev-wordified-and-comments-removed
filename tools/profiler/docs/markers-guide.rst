@@ -453,7 +453,8 @@ SpliceableJSONWriter
 &
 aWriter
 uint32_t
-aNumber
+a
+number
 )
 {
 /
@@ -482,7 +483,8 @@ schema
 StreamJSONMarkerDataImpl
 (
 aWriter
-aNumber
+a
+number
 )
 ;
 }
