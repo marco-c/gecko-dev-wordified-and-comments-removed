@@ -614,6 +614,12 @@ mappings_version
 "
 1
 "
+app_version
+:
+APP_VERSION
+channel
+:
+CHANNEL
 locale
 :
 LOCALE
@@ -1344,6 +1350,12 @@ mappings_version
 "
 1
 "
+app_version
+:
+APP_VERSION
+channel
+:
+CHANNEL
 locale
 :
 LOCALE
