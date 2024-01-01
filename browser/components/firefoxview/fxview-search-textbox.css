@@ -118,17 +118,6 @@ position
 :
 relative
 ;
-&
-:
-focus
--
-within
-{
-overflow
-:
-visible
-;
-}
 }
 .
 search

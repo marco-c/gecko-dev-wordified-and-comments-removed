@@ -287,12 +287,6 @@ static
 properties
 =
 {
-.
-.
-.
-ViewPage
-.
-properties
 windows
 :
 {
@@ -1350,14 +1344,6 @@ query
 this
 .
 onSearchQuery
-}
-.
-size
-=
-{
-this
-.
-searchTextboxSize
 }
 >
 <

@@ -376,12 +376,6 @@ static
 properties
 =
 {
-.
-.
-.
-ViewPage
-.
-properties
 searchResults
 :
 {
@@ -1931,14 +1925,6 @@ query
 this
 .
 onSearchQuery
-}
-.
-size
-=
-{
-this
-.
-searchTextboxSize
 }
 >
 <
