@@ -1884,10 +1884,11 @@ window
 .
 test_driver_internal
 .
-confirm_idp_login
+click_fedcm_dialog_button
 =
 function
 (
+dialog_button
 context
 =
 null
@@ -1897,9 +1898,10 @@ return
 create_action
 (
 "
-confirm_idp_login
+click_fedcm_dialog_button
 "
 {
+dialog_button
 context
 }
 )
