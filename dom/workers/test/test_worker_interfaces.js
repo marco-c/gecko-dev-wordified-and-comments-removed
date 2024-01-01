@@ -1941,6 +1941,16 @@ true
 name
 :
 "
+VideoEncoder
+"
+nightly
+:
+true
+}
+{
+name
+:
+"
 VideoFrame
 "
 insecureContext

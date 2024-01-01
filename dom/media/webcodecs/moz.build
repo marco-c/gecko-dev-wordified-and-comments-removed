@@ -119,6 +119,11 @@ VideoDecoder
 h
 "
 "
+VideoEncoder
+.
+h
+"
+"
 VideoFrame
 .
 h
@@ -155,6 +160,11 @@ cpp
 "
 "
 VideoDecoder
+.
+cpp
+"
+"
+VideoEncoder
 .
 cpp
 "
