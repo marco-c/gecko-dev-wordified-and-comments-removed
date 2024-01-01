@@ -74,6 +74,11 @@ cmath
 #
 include
 <
+csignal
+>
+#
+include
+<
 cstdint
 >
 #
@@ -34193,10 +34198,6 @@ UnitTestOptions
 :
 :
 GetAbsolutePathToOutputFile
-(
-)
-.
-c_str
 (
 )
 )

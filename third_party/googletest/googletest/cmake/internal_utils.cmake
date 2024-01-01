@@ -2170,9 +2170,16 @@ ARGN
 endfunction
 (
 )
+if
+(
+gtest_build_tests
+)
 find_package
 (
 Python3
+)
+endif
+(
 )
 #
 cxx_test_with_flags
