@@ -3287,6 +3287,11 @@ tabindex
 "
 0
 "
+role
+=
+"
+link
+"
 >
 <
 /
@@ -3381,6 +3386,11 @@ tabindex
 =
 "
 0
+"
+role
+=
+"
+link
 "
 >
 <
