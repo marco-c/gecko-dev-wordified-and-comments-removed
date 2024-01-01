@@ -229,6 +229,15 @@ mModifiedFrameLimit
 ;
 }
 bool
+GetModifiedFrameCount
+(
+)
+{
+return
+mModifiedFrameCount
+;
+}
+bool
 Remove
 (
 nsIFrame
