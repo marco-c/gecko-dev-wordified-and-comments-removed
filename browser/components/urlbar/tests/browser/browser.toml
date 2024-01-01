@@ -979,6 +979,13 @@ css
 ]
 [
 "
+browser_editAndEnterWithSlowQuery
+.
+js
+"
+]
+[
+"
 browser_edit_invalid_url
 .
 js
