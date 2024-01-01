@@ -98,6 +98,9 @@ DOMSVGPoint
 class
 SVGElement
 ;
+class
+SVGPolyElement
+;
 template
 <
 class
@@ -341,11 +344,9 @@ aList
 dom
 :
 :
-SVGElement
+SVGPolyElement
 *
 aElement
-bool
-aIsAnimValList
 )
 ;
 static
