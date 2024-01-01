@@ -1120,6 +1120,10 @@ callFunction
 functionDeclaration
 arguments
 :
+args
+.
+length
+?
 await
 Promise
 .
@@ -1145,6 +1149,9 @@ arg
 }
 )
 )
+:
+[
+]
 target
 :
 this

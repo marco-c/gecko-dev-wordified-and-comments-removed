@@ -333,7 +333,6 @@ toContain
 setupBrowserHooks
 (
 '
-/
 {
 route
 }
@@ -445,9 +444,7 @@ toContain
 setupBrowserHooks
 (
 '
-{
-route
-}
+home
 '
 )
 ;
@@ -764,7 +761,6 @@ toContain
 setupBrowserHooks
 (
 '
-/
 {
 route
 }
@@ -880,9 +876,7 @@ toContain
 setupBrowserHooks
 (
 '
-{
-route
-}
+home
 '
 )
 ;

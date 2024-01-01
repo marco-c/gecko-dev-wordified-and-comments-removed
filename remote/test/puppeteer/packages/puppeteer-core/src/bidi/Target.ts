@@ -413,6 +413,7 @@ BidiPage
 (
 browsingContext
 browserContext
+this
 )
 ;
 }

@@ -203,6 +203,13 @@ connectBidiOverCdp
 cdp
 :
 CdpConnection
+options
+:
+{
+acceptInsecureCerts
+:
+boolean
+}
 )
 :
 Promise
@@ -268,6 +275,12 @@ close
 cdpConnectionAdapter
 .
 close
+(
+)
+;
+cdp
+.
+dispose
 (
 )
 ;
@@ -347,6 +360,7 @@ browserClient
 )
 '
 '
+options
 undefined
 bidiServerLogger
 )
@@ -379,7 +393,7 @@ CDPSession
 )
 ;
 #
-browser
+browserCdpConnection
 :
 CDPClientAdapter
 <
@@ -403,7 +417,7 @@ cdp
 this
 .
 #
-browser
+browserCdpConnection
 =
 new
 CDPClientAdapter
@@ -425,7 +439,7 @@ return
 this
 .
 #
-browser
+browserCdpConnection
 ;
 }
 getCdpClient
@@ -494,7 +508,7 @@ id
 this
 .
 #
-browser
+browserCdpConnection
 )
 ;
 this
@@ -532,7 +546,7 @@ close
 this
 .
 #
-browser
+browserCdpConnection
 .
 close
 (

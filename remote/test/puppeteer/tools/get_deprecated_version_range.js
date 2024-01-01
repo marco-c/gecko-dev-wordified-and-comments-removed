@@ -1,7 +1,7 @@
 const
 {
 versionsPerRelease
-lastMaintainedChromiumVersion
+lastMaintainedChromeVersion
 }
 =
 require
@@ -23,7 +23,7 @@ versionsPerRelease
 .
 get
 (
-lastMaintainedChromiumVersion
+lastMaintainedChromeVersion
 )
 ;
 if

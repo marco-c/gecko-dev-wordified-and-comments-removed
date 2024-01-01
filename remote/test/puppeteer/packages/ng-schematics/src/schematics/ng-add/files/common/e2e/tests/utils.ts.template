@@ -43,6 +43,16 @@ puppeteer
 const
 baseUrl
 =
+process
+.
+env
+[
+'
+baseUrl
+'
+]
+?
+?
 '
 <
 %
@@ -73,7 +83,6 @@ setupBrowserHooks
 path
 =
 '
-/
 '
 )
 :

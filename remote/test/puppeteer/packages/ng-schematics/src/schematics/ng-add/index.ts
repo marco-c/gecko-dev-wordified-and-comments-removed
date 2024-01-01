@@ -334,6 +334,11 @@ addTask
 new
 NodePackageInstallTask
 (
+{
+allowScripts
+:
+true
+}
 )
 )
 ;

@@ -3059,6 +3059,7 @@ page
 (
 )
 ;
+await
 browser1
 .
 disconnect
