@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
