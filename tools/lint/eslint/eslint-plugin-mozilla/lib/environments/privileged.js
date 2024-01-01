@@ -878,9 +878,6 @@ false
 IDBKeyRange
 :
 false
-IDBLocaleAwareKeyRange
-:
-false
 IDBMutableFile
 :
 false

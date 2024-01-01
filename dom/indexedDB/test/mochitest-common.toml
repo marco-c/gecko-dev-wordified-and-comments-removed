@@ -443,13 +443,6 @@ js
 "
 unit
 /
-test_locale_aware_indexes
-.
-js
-"
-"
-unit
-/
 test_locale_aware_index_getAll
 .
 js
