@@ -1556,6 +1556,15 @@ default
 ;
 }
 ;
+bool
+CanLikelyEncode
+(
+const
+EncoderConfig
+&
+aConfig
+)
+;
 }
 #
 endif
