@@ -270,6 +270,15 @@ mozsearch
 -
 plugin
 /
+BindingOperations
+.
+cpp
+"
+"
+mozsearch
+-
+plugin
+/
 FileOperations
 .
 cpp
