@@ -232,6 +232,11 @@ nsGenConList
 h
 "
 "
+nsIFrameTraversal
+.
+h
+"
+"
 nsIPercentBSizeObserver
 .
 h
