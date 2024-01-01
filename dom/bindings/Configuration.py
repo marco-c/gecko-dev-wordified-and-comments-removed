@@ -2090,6 +2090,10 @@ BindingAlias
 "
                     
 "
+ChromeOnly
+"
+                    
+"
 Pure
 "
                     
