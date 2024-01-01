@@ -1839,6 +1839,15 @@ data
 aData
 )
 {
+if
+(
+!
+mActiveConfig
+)
+{
+return
+;
+}
 RefPtr
 <
 typename
