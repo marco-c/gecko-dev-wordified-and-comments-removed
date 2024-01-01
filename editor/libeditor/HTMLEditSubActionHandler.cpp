@@ -52702,10 +52702,6 @@ EmptyCheckOption
 :
 :
 TreatSingleBRElementAsVisible
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
 }
 )
 &
