@@ -6471,12 +6471,12 @@ PR_IntervalNow
 (
 )
 ;
-TimeStamp
-startTime
-;
 #
 ifdef
 MOZ_GECKO_PROFILER
+TimeStamp
+startTime
+;
 bool
 profiling
 =
@@ -8925,7 +8925,7 @@ self
 mLock
 )
 ;
-MOZ_ASSERT
+if
 (
 gIOService
 -
@@ -8933,10 +8933,8 @@ gIOService
 IsNetTearingDown
 (
 )
-)
-;
-if
-(
+&
+&
 self
 -
 >
