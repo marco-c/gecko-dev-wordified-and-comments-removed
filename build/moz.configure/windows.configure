@@ -2020,6 +2020,15 @@ compiler
 if
 not
 vc_path
+or
+target
+.
+os
+!
+=
+"
+WINNT
+"
 :
 return
 sdk_target
