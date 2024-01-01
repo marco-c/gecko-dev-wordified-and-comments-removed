@@ -731,10 +731,12 @@ task
 *
 param
 {
-function
 (
 MozBrowser
 )
+=
+>
+any
 }
 taskFn
 *

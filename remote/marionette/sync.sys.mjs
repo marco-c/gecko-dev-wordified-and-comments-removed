@@ -2420,6 +2420,8 @@ function
 (
 Event
 )
+:
+void
 }
 fn
 *
@@ -2693,6 +2695,8 @@ function
 (
 Message
 )
+:
+boolean
 =
 }
 options
@@ -3026,6 +3030,8 @@ function
 string
 object
 )
+:
+boolean
 =
 }
 options
