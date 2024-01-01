@@ -969,11 +969,6 @@ Self
 :
 Universal
 (
-Arc
-:
-:
-new
-(
 ComputedPropertyValue
 :
 :
@@ -985,7 +980,6 @@ input
 url_data
 )
 ?
-)
 )
 )
 ;

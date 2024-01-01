@@ -47115,14 +47115,6 @@ parse
 input
 url_data
 )
-.
-map
-(
-Arc
-:
-:
-new
-)
 }
 )
 .
@@ -47165,7 +47157,7 @@ validate_initial_value
 syntax
 initial_value
 .
-as_deref
+as_ref
 (
 )
 )
