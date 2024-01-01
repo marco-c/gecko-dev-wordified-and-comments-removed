@@ -10718,6 +10718,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 AssertIsOnOwningThread
 (
