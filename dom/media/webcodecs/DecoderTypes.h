@@ -7,6 +7,13 @@ mozilla_dom_DecoderTypes_h
 #
 include
 "
+MediaData
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -202,6 +209,11 @@ VideoDecoderConfigInternal
 )
 =
 default
+;
+nsString
+ToString
+(
+)
 ;
 bool
 Equals
