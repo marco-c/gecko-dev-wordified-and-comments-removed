@@ -47,7 +47,7 @@ RUST_BINDGEN
 !
 defined
 (
-__MINGW__
+__MINGW32__
 )
 #
 include
