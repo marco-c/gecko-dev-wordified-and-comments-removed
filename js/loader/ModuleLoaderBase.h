@@ -631,17 +631,6 @@ JS
 :
 Handle
 <
-JS
-:
-:
-Value
->
-aReferencingPrivate
-JS
-:
-:
-Handle
-<
 JSString
 *
 >

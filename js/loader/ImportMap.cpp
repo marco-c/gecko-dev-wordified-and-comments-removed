@@ -2575,6 +2575,15 @@ baseURL
 if
 (
 aScript
+&
+&
+!
+aScript
+-
+>
+IsEventScript
+(
+)
 )
 {
 baseURL
