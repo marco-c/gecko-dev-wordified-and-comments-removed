@@ -6753,12 +6753,14 @@ StartupCache
 delete
 (
 extension
+[
 "
 dnr
 "
 "
 hasEnabledStaticRules
 "
+]
 )
 ;
 }
@@ -7556,7 +7558,7 @@ result
 &
 result
 .
-version
+schemaVersion
 >
 StoreData
 .

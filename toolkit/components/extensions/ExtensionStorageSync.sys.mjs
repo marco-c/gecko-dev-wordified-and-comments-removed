@@ -743,9 +743,15 @@ args
 .
 map
 (
+val
+=
+>
 JSON
 .
 stringify
+(
+val
+)
 )
 ;
 lazy

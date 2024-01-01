@@ -873,7 +873,7 @@ this
 .
 byMethod
 .
-remove
+delete
 (
 name
 )
