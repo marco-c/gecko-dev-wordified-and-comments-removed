@@ -17298,6 +17298,15 @@ builder
 IsPaintingToWindow
 (
 )
+&
+&
+nsLayoutUtils
+:
+:
+AsyncPanZoomEnabled
+(
+aFrame
+)
 )
 {
 DisplayPortUtils
