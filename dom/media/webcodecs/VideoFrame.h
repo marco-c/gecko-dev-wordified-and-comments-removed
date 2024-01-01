@@ -782,6 +782,12 @@ Close
 (
 )
 ;
+bool
+IsClosed
+(
+)
+const
+;
 static
 JSObject
 *
