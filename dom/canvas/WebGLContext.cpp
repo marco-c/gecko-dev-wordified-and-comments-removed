@@ -6226,6 +6226,9 @@ gfxVars
 WebglOopAsyncPresentForceSync
 (
 )
+!
+!
+fb
 )
 ;
 }
