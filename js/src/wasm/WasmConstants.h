@@ -169,6 +169,9 @@ StructRef
 ArrayRef
 =
 0x6a
+ExnRef
+=
+0x69
 NullAnyRef
 =
 0x71
@@ -458,6 +461,9 @@ Throw
 Rethrow
 =
 0x09
+ThrowRef
+=
+0x0a
 End
 =
 0x0b
@@ -506,6 +512,9 @@ SelectNumeric
 SelectTyped
 =
 0x1c
+TryTable
+=
+0x1f
 LocalGet
 =
 0x20
@@ -2847,6 +2856,13 @@ uint32_t
 )
 )
 )
+;
+static
+const
+unsigned
+MaxTryTableCatches
+=
+10000
 ;
 static
 const
