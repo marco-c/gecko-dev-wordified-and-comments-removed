@@ -1775,6 +1775,8 @@ wayland
 -
 socket
 =
+fallback
+-
 x11
 \
 -
