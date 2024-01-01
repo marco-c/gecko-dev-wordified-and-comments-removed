@@ -271,7 +271,7 @@ MOZ_FETCHES_DIR
 /
 MacOSX14
 .
-0
+2
 .
 sdk
 "
@@ -317,7 +317,7 @@ MOZ_FETCHES_DIR
 /
 MacOSX14
 .
-0
+2
 .
 sdk
 "
