@@ -3114,7 +3114,8 @@ this
 )
 ;
 }
-sender
+let
+remote
 =
 Hub
 .
@@ -3128,10 +3129,10 @@ sender
 if
 (
 !
-sender
+remote
 |
 |
-sender
+remote
 .
 actor
 !
@@ -3173,7 +3174,7 @@ Hub
 .
 recvConduitClosed
 (
-sender
+remote
 )
 ;
 }
@@ -3224,6 +3225,8 @@ actor
 this
 query
 sender
+:
+remote
 }
 )
 ;

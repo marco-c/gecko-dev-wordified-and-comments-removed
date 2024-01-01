@@ -312,6 +312,9 @@ default_popup
 |
 "
 "
+icon
+:
+null
 }
 ;
 this

@@ -2173,7 +2173,10 @@ Error
 Unknown
 metric
 {
+String
+(
 prop
+)
 }
 )
 ;

@@ -2532,6 +2532,12 @@ storageSyncInit
 promise
 ;
 }
+storageSyncInit
+.
+promise
+=
+undefined
+;
 /
 /
 Kinto

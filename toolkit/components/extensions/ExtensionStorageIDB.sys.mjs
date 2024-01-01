@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-export
-let
-ExtensionStorageIDB
-;
 import
 {
 XPCOMUtils
@@ -1446,9 +1442,6 @@ transaction
 objectStore
 (
 IDB_DATA_STORENAME
-"
-readwrite
-"
 )
 ;
 const
@@ -3531,6 +3524,8 @@ data
 .
 *
 /
+export
+var
 ExtensionStorageIDB
 =
 {

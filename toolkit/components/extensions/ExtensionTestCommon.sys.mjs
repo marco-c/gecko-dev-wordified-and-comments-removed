@@ -353,10 +353,6 @@ instanceOf
 =
 ExtensionCommon
 ;
-export
-var
-ExtensionTestCommon
-;
 /
 *
 *
@@ -1509,8 +1505,6 @@ persistentListeners
 ?
 .
 size
->
-0
 |
 |
 !
@@ -1792,6 +1786,8 @@ primed
 }
 }
 ;
+export
+var
 ExtensionTestCommon
 =
 class
