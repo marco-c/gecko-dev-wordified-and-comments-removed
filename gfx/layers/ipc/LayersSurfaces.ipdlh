@@ -992,6 +992,17 @@ id
 Comparable
 ]
 struct
+SurfaceDescriptorRecorded
+{
+int64_t
+textureId
+;
+}
+;
+[
+Comparable
+]
+struct
 SurfaceDescriptorRemoteTexture
 {
 RemoteTextureId
@@ -1027,6 +1038,8 @@ SurfaceDescriptorMacIOSurface
 SurfaceDescriptorSharedGLTexture
 ;
 SurfaceDescriptorGPUVideo
+;
+SurfaceDescriptorRecorded
 ;
 SurfaceDescriptorRemoteTexture
 ;

@@ -866,6 +866,13 @@ return
 false
 ;
 }
+bool
+IsAccelerated
+(
+)
+const
+override
+;
 protected
 :
 PersistentBufferProviderShared
