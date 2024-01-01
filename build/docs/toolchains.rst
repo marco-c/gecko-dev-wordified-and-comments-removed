@@ -2484,7 +2484,7 @@ a
 SDK
 package
 the
-sha256
+sha512
 hash
 for
 its

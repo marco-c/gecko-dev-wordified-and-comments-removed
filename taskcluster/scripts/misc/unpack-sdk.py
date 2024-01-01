@@ -32,7 +32,7 @@ def
 unpack_sdk
 (
 url
-sha256
+sha512
 extract_prefix
 out_dir
 =
@@ -56,7 +56,7 @@ hash
 =
 hashlib
 .
-sha256
+sha512
 (
 )
         
@@ -154,7 +154,7 @@ if
 digest
 =
 =
-sha256
+sha512
 :
                 
 break
@@ -179,7 +179,7 @@ digest
 expected
 )
 {
-sha256
+sha512
 }
 "
 )
