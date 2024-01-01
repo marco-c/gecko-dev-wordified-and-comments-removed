@@ -50,7 +50,7 @@ h
 "
 #
 ifdef
-ANDROID
+XP_LINUX
 #
 ifdef
 __cplusplus

@@ -1,6 +1,6 @@
 #
 ifdef
-ANDROID
+XP_LINUX
 #
 include
 "
