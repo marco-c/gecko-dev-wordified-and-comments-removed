@@ -145,6 +145,11 @@ patch
 }
 }
 ;
+struct
+unsupported
+{
+}
+;
 }
 #
 endif
