@@ -3375,10 +3375,6 @@ EmptyCheckOption
 :
 :
 TreatSingleBRElementAsVisible
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
 }
 BlockInlineCheck
 :
