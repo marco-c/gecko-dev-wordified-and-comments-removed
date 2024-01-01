@@ -184,7 +184,6 @@ mRequest
 ;
 class
 AlertNotification
-final
 :
 public
 nsIAlertNotification
