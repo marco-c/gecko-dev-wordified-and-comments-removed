@@ -295,6 +295,11 @@ DestroyFrame
 (
 )
 ;
+bool
+ScaleInputFrame
+(
+)
+;
 #
 if
 LIBAVCODEC_VERSION_MAJOR
