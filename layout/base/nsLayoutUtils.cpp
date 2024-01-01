@@ -36077,14 +36077,6 @@ IsTransformed
 )
 |
 |
-f
--
->
-IsPreserve3DLeaf
-(
-)
-|
-|
 IsPopup
 (
 f
