@@ -1264,13 +1264,6 @@ h
 "
 wr
 /
-AsyncImagePipelineOp
-.
-h
-"
-"
-wr
-/
 ClipManager
 .
 h
@@ -2623,13 +2616,6 @@ cpp
 wr
 /
 AsyncImagePipelineManager
-.
-cpp
-"
-"
-wr
-/
-AsyncImagePipelineOp
 .
 cpp
 "

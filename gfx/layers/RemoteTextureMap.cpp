@@ -2075,6 +2075,14 @@ textureData
 )
 )
 ;
+if
+(
+!
+owner
+-
+>
+mIsSyncMode
+)
 {
 renderingReadyCallbacks
 =
@@ -2129,7 +2137,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 )
 ;
 it
@@ -2138,7 +2146,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 =
 aTextureHost
 ;
@@ -5639,7 +5647,6 @@ called
 )
 ;
 }
-}
 if
 (
 textureId
@@ -5693,7 +5700,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 )
 {
 it
@@ -5702,7 +5709,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 =
 owner
 -
@@ -5720,7 +5727,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 =
 =
 owner
@@ -5729,6 +5736,7 @@ owner
 mLatestTextureHost
 )
 ;
+}
 }
 }
 if
@@ -5862,7 +5870,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 ;
 auto
 *
@@ -6392,7 +6400,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 )
 {
 releasingTextures
@@ -6405,7 +6413,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 )
 ;
 }
@@ -6939,7 +6947,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 )
 {
 return
@@ -6955,7 +6963,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 )
 ;
 if
@@ -7193,7 +7201,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 ;
 while
 (
@@ -7301,7 +7309,7 @@ it
 second
 -
 >
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 ;
 if
 (
