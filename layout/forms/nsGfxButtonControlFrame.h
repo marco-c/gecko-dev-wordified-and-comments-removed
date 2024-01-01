@@ -177,17 +177,6 @@ nsString
 aLabel
 )
 ;
-virtual
-bool
-IsInput
-(
-)
-override
-{
-return
-true
-;
-}
 private
 :
 RefPtr
