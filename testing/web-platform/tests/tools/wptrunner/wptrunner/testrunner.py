@@ -2811,7 +2811,6 @@ logger
 .
 debug
 (
-f
 "
 Test
 left
