@@ -10851,6 +10851,12 @@ IntSize
 (
 )
 ;
+mColorSpace
+=
+VideoColorSpaceInit
+(
+)
+;
 }
 bool
 VideoFrame
