@@ -379,6 +379,9 @@ mTaskQueue
 EncoderConfig
 mConfig
 ;
+nsCString
+mCodecName
+;
 AVCodecContext
 *
 mCodecContext
