@@ -299,7 +299,7 @@ t_obj
 {
 if
 (
-area
+t
 .
 shape
 =
