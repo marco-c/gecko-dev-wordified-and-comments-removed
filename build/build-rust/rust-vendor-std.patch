@@ -172,6 +172,12 @@ src
 /
 bootstrap
 /
+src
+/
+core
+/
+build_steps
+/
 dist
 .
 rs
@@ -183,6 +189,12 @@ b
 src
 /
 bootstrap
+/
+src
+/
+core
+/
+build_steps
 /
 dist
 .
@@ -565,6 +577,8 @@ src
 /
 bootstrap
 /
+src
+/
 lib
 .
 rs
@@ -576,6 +590,8 @@ b
 src
 /
 bootstrap
+/
+src
 /
 lib
 .
