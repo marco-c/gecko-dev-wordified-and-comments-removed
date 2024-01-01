@@ -4685,6 +4685,10 @@ step
 unitless_value
 (
 )
+.
+abs
+(
+)
 ;
 value
 .
