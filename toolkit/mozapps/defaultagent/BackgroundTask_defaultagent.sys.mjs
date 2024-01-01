@@ -1816,7 +1816,7 @@ if
 !
 defaultAgent
 .
-appRecentlyRan
+appRanRecently
 (
 )
 &

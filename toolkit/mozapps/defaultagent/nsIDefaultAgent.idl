@@ -546,7 +546,7 @@ recently
 *
 /
 boolean
-AppRanRecently
+appRanRecently
 (
 )
 ;
