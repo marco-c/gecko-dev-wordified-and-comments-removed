@@ -13135,10 +13135,6 @@ EmptyCheckOption
 :
 :
 TreatTableCellAsVisible
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
 }
 )
 )
@@ -13480,10 +13476,6 @@ EmptyCheckOption
 :
 :
 TreatTableCellAsVisible
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
 }
 &
 seenBR
@@ -13927,10 +13919,6 @@ EmptyCheckOption
 :
 :
 TreatTableCellAsVisible
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
 }
 )
 )
@@ -14003,10 +13991,6 @@ EmptyCheckOption
 :
 :
 TreatTableCellAsVisible
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
 }
 )
 )
@@ -14049,10 +14033,6 @@ EmptyCheckOption
 :
 :
 TreatTableCellAsVisible
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
 }
 BlockInlineCheck
 :
