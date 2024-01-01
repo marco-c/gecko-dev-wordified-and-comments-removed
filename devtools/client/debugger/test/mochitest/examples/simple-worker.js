@@ -40,10 +40,10 @@ self
 .
 onmessage
 =
+function
+onmessage
 (
 )
-=
->
 {
 console
 .

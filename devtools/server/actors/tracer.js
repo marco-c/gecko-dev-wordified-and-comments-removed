@@ -271,6 +271,17 @@ this
 .
 throttleEmitTraces
 =
+isWorker
+?
+this
+.
+flushTraces
+.
+bind
+(
+this
+)
+:
 throttle
 (
 this
