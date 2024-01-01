@@ -906,6 +906,12 @@ GetImage
 )
 const
 ;
+nsCString
+ToString
+(
+)
+const
+;
 public
 :
 class
