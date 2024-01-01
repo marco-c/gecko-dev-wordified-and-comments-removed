@@ -104,6 +104,11 @@ EncodedVideoChunk
 h
 "
 "
+EncoderTypes
+.
+h
+"
+"
 VideoColorSpace
 .
 h
