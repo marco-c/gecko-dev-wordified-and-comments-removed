@@ -413,6 +413,17 @@ extensions
 .
 formautofill
 .
+heuristics
+.
+captureOnPageNavigation
+"
+:
+false
+"
+extensions
+.
+formautofill
+.
 focusOnAutofill
 "
 :

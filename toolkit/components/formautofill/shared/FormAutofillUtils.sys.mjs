@@ -528,6 +528,13 @@ iframe
 -
 pagehide
 "
+PAGE_NAVIGATION
+:
+"
+page
+-
+navigation
+"
 }
 ;
 const
