@@ -3523,7 +3523,7 @@ LOG
 s
 %
 p
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -3626,7 +3626,7 @@ LOGE
 s
 %
 p
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -4241,7 +4241,7 @@ LOGV
 s
 %
 p
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -4344,7 +4344,7 @@ LOGE
 s
 %
 p
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -4969,7 +4969,7 @@ LOG
 s
 %
 p
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -5063,7 +5063,7 @@ LOGE
 s
 %
 p
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -5667,7 +5667,7 @@ AppendPrintf
 "
 Blocker
 for
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -5813,7 +5813,7 @@ will
 shutdown
 notification
 for
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -5888,7 +5888,7 @@ any
 "
 notification
 .
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -5946,7 +5946,7 @@ s
 %
 p
 creates
-DecodeAgent
+DecoderAgent
 #
 %
 d
@@ -6023,7 +6023,7 @@ s
 p
 has
 no
-DecodeAgent
+DecoderAgent
 to
 destroy
 "
@@ -6068,7 +6068,7 @@ s
 %
 p
 destroys
-DecodeAgent
+DecoderAgent
 #
 %
 d
