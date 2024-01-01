@@ -952,6 +952,9 @@ aBitDepth
 uint8_t
 &
 aChromaSubsampling
+mozilla
+:
+:
 VideoColorSpace
 &
 aColorSpace
@@ -988,6 +991,9 @@ aSubsamplingY
 uint8_t
 &
 aChromaSamplePosition
+mozilla
+:
+:
 VideoColorSpace
 &
 aColorSpace
