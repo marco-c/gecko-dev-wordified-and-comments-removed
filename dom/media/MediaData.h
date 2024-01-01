@@ -2337,6 +2337,12 @@ uint32_t
 aFrameID
 )
 ;
+nsCString
+ToString
+(
+)
+const
+;
 void
 MarkSentToCompositor
 (
