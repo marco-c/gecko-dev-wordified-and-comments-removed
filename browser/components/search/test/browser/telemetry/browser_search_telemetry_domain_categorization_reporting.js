@@ -614,6 +614,12 @@ mappings_version
 "
 1
 "
+locale
+:
+LOCALE
+region
+:
+REGION
 partner_code
 :
 "
@@ -1338,6 +1344,12 @@ mappings_version
 "
 1
 "
+locale
+:
+LOCALE
+region
+:
+REGION
 partner_code
 :
 "
