@@ -3634,15 +3634,9 @@ kOghamSpaceMark
 =
 0x1680
 ;
-constexpr
-char16_t
-kIdeographicSpace
-=
-0x3000
-;
 static
 bool
-IsTrimmableSpaceAtStart
+IsTrimmableSpace
 (
 const
 char16_t
@@ -3848,9 +3842,6 @@ case
 :
 case
 kOghamSpaceMark
-:
-case
-kIdeographicSpace
 :
 return
 (
@@ -4171,7 +4162,7 @@ count
 if
 (
 !
-IsTrimmableSpaceAtStart
+IsTrimmableSpace
 (
 str
 fragLen
