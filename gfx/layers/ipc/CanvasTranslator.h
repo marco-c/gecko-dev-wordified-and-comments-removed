@@ -1121,11 +1121,6 @@ RemoteTextureOwnerId
 mRemoteTextureOwnerId
 ;
 bool
-mTextureLocked
-=
-false
-;
-bool
 mNotifiedRequiresRefresh
 =
 false
