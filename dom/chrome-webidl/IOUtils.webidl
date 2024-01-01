@@ -4682,6 +4682,9 @@ enum
 HashAlgorithm
 {
 "
+sha1
+"
+"
 sha256
 "
 "
