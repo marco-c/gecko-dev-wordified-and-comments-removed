@@ -374,13 +374,6 @@ sun_path_offset
 >
 usize
 {
-#
-[
-allow
-(
-invalid_value
-)
-]
 unsafe
 {
 let
@@ -1420,13 +1413,6 @@ len
 struct
 Cmsg
 {
-#
-[
-allow
-(
-dead_code
-)
-]
 hdr
 :
 libc
