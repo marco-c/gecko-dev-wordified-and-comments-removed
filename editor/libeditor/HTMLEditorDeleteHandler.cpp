@@ -32126,12 +32126,6 @@ IsEmptyNode
 (
 *
 editableBlockElement
-{
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
-}
 )
 )
 {
@@ -32190,12 +32184,6 @@ IsEmptyNode
 (
 *
 parentElement
-{
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
-}
 )
 )
 {
