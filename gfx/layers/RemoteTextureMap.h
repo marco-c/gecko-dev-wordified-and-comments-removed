@@ -32,11 +32,6 @@ queue
 #
 include
 <
-stack
->
-#
-include
-<
 unordered_set
 >
 #
@@ -1488,7 +1483,7 @@ mReleasingRenderedTextureHosts
 std
 :
 :
-stack
+queue
 <
 UniquePtr
 <
