@@ -49400,7 +49400,7 @@ height
 )
 ;
 }
-svgFloatSize
+auto
 viewportSize
 =
 aElement
