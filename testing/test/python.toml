@@ -4,7 +4,9 @@ DEFAULT
 subsuite
 =
 "
-skipfails
+skip
+-
+fails
 "
 [
 "
