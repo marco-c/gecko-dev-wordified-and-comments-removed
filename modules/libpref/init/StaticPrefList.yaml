@@ -57983,7 +57983,7 @@ pixel
 alignment
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
