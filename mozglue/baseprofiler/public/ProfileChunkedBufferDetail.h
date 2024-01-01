@@ -1576,6 +1576,8 @@ entrySize
 MOZ_ASSERT
 (
 !
+pointer
+.
 IsNull
 (
 )
@@ -1591,6 +1593,8 @@ buffer
 ;
 return
 !
+pointer
+.
 IsNull
 (
 )
