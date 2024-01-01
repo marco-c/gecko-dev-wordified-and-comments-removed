@@ -466,6 +466,13 @@ nsIGlobalObject
 *
 aGlobal
 const
+RefPtr
+<
+MediaRawData
+>
+&
+aData
+const
 ConfigTypeInternal
 &
 mOutputConfig
