@@ -214,6 +214,7 @@ nsString
 ToString
 (
 )
+const
 ;
 bool
 Equals
