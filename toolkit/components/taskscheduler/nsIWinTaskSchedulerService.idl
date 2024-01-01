@@ -65,6 +65,11 @@ wstring
 aTaskName
 )
 ;
+AString
+getCurrentUserSid
+(
+)
+;
 void
 deleteTask
 (

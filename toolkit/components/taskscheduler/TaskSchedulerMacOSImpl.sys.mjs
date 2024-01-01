@@ -425,6 +425,7 @@ this
 _formatLabelForThisApp
 (
 id
+options
 )
 ;
 /
@@ -935,6 +936,7 @@ async
 deleteTask
 (
 id
+options
 )
 {
 lazy
@@ -959,6 +961,7 @@ this
 _formatLabelForThisApp
 (
 id
+options
 )
 ;
 return
@@ -1433,6 +1436,7 @@ async
 taskExists
 (
 id
+options
 )
 {
 const
@@ -1443,6 +1447,7 @@ this
 _formatLabelForThisApp
 (
 id
+options
 )
 ;
 const
@@ -2023,6 +2028,7 @@ doc
 _formatLabelForThisApp
 (
 id
+options
 )
 {
 let
@@ -2055,6 +2061,7 @@ id
 _labelMatchesThisApp
 (
 label
+options
 )
 {
 let
