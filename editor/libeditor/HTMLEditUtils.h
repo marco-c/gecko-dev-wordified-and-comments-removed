@@ -2697,7 +2697,7 @@ EmptyCheckOption
 TreatSingleBRElementAsVisible
 TreatListItemAsVisible
 TreatTableCellAsVisible
-IgnoreEditableState
+TreatNonEditableContentAsInvisible
 SafeToAskLayout
 }
 ;
@@ -2948,10 +2948,6 @@ IsEmptyNode
 *
 child
 {
-EmptyCheckOption
-:
-:
-IgnoreEditableState
 }
 )
 )
@@ -3365,6 +3361,10 @@ EmptyCheckOption
 :
 :
 TreatSingleBRElementAsVisible
+EmptyCheckOption
+:
+:
+TreatNonEditableContentAsInvisible
 }
 aBlockInlineCheck
 )

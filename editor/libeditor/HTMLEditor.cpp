@@ -5838,6 +5838,10 @@ EmptyCheckOption
 :
 :
 TreatSingleBRElementAsVisible
+EmptyCheckOption
+:
+:
+TreatNonEditableContentAsInvisible
 }
 )
 &
@@ -19927,6 +19931,10 @@ EmptyCheckOption
 :
 :
 TreatSingleBRElementAsVisible
+EmptyCheckOption
+:
+:
+TreatNonEditableContentAsInvisible
 }
 )
 )

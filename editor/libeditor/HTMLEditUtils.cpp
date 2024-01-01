@@ -5332,7 +5332,6 @@ GetNextSibling
 {
 if
 (
-!
 aOptions
 .
 contains
@@ -5340,7 +5339,7 @@ contains
 EmptyCheckOption
 :
 :
-IgnoreEditableState
+TreatNonEditableContentAsInvisible
 )
 &
 &

@@ -4960,6 +4960,12 @@ pointToInsert
 GetContainer
 (
 )
+{
+EmptyCheckOption
+:
+:
+TreatNonEditableContentAsInvisible
+}
 )
 )
 {
@@ -18904,10 +18910,6 @@ EmptyCheckOption
 :
 :
 TreatListItemAsVisible
-EmptyCheckOption
-:
-:
-IgnoreEditableState
 }
 )
 ;

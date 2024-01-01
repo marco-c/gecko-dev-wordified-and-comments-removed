@@ -172,6 +172,14 @@ using
 namespace
 dom
 ;
+using
+EmptyCheckOption
+=
+HTMLEditUtils
+:
+:
+EmptyCheckOption
+;
 template
 AutoRangeArray
 :
@@ -3005,6 +3013,12 @@ IsEmptyNode
 (
 *
 maybeNonEditableBlockElement
+{
+EmptyCheckOption
+:
+:
+TreatNonEditableContentAsInvisible
+}
 )
 )
 {
