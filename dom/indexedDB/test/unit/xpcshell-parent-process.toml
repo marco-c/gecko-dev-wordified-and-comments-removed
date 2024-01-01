@@ -418,10 +418,3 @@ test_wasm_put_get_values
 js
 "
 ]
-[
-"
-test_clear_object_store_with_indexes
-.
-js
-"
-]
