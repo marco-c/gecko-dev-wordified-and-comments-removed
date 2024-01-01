@@ -535,6 +535,13 @@ uiSchema
 }
 )
 ;
+if
+(
+SearchUtils
+.
+newSearchConfigEnabled
+)
+{
 add_task
 (
 async
@@ -639,3 +646,4 @@ uiSchema
 }
 )
 ;
+}
