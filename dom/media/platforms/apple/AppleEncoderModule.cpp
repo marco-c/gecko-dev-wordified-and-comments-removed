@@ -300,6 +300,14 @@ mProfile
 !
 =
 H264_PROFILE_MAIN
+&
+&
+specific
+.
+mProfile
+!
+=
+H264_PROFILE_HIGH
 )
 {
 LOGE
