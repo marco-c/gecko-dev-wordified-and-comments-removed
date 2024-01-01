@@ -1668,10 +1668,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-!
-swgl
 0
 -
 1
