@@ -3384,10 +3384,10 @@ hash
 {
 if
 (
-JSInlineString
+JSAtom
 :
 :
-lengthFits
+lengthFitsInline
 <
 CharT
 >
