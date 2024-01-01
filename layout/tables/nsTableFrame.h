@@ -852,15 +852,6 @@ aPadding
 )
 const
 ;
-nsMargin
-GetDeflationForBackground
-(
-nsPresContext
-*
-aPresContext
-)
-const
-;
 friend
 class
 nsDelayedCalcBCBorders
