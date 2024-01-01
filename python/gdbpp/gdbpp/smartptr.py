@@ -94,7 +94,7 @@ dereference
 )
 [
 "
-mReferent
+mObject
 "
 ]
         
