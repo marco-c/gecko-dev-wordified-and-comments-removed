@@ -2310,6 +2310,17 @@ this
 #
 ifdef
 USE_NATIVE_MENUS
+if
+(
+!
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
+)
+{
 widget
 :
 :
@@ -2322,6 +2333,7 @@ mWindow
 nullptr
 )
 ;
+}
 #
 endif
 window
