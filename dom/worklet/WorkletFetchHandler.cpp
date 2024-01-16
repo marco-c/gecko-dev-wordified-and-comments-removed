@@ -1045,6 +1045,14 @@ request
 >
 SetTextSource
 (
+request
+-
+>
+mLoadContext
+.
+get
+(
+)
 )
 ;
 nsresult

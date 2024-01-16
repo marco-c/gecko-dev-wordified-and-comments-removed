@@ -823,6 +823,7 @@ mRequest
 >
 SetTextSource
 (
+loadContext
 )
 ;
 rv

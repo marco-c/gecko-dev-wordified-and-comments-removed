@@ -892,6 +892,9 @@ aCx
 MaybeSourceText
 *
 aMaybeSource
+LoadContextBase
+*
+aLoadContext
 )
 {
 if
