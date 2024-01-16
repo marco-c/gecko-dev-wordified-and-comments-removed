@@ -369,6 +369,16 @@ CHROME_WINDOW_MINIMIZE
 <
 14
 ;
+const
+unsigned
+long
+CHROME_ALERT
+=
+1
+<
+<
+15
+;
 /
 /
 whether

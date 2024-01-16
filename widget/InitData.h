@@ -250,6 +250,11 @@ mIsPrivate
 =
 false
 ;
+bool
+mIsAlert
+=
+false
+;
 }
 ;
 }
