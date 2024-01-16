@@ -1177,15 +1177,6 @@ map
 .
 loaded
 ;
-}
-catch
-(
-e
-)
-{
-}
-try
-{
 const
 position
 =

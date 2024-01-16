@@ -256,17 +256,6 @@ components
 .
 properties
 "
-"
-devtools
-/
-client
-/
-locales
-/
-toolbox
-.
-properties
-"
 ]
 ;
 const
