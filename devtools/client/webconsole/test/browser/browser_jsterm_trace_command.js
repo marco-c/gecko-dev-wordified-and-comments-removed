@@ -1216,6 +1216,13 @@ findConsoleAPIMessage
 hud
 Stopped
 tracing
+(
+reason
+:
+max
+-
+records
+)
 "
 .
 console
