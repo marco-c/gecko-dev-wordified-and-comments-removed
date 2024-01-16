@@ -986,6 +986,13 @@ js
 ]
 [
 "
+test_engine_selector_variants
+.
+js
+"
+]
+[
+"
 test_engine_set_alias
 .
 js
