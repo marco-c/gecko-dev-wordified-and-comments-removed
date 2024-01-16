@@ -175,6 +175,11 @@ aBufferSize
 )
 ;
 async
+ClearCachedResources
+(
+)
+;
+async
 __delete__
 (
 )

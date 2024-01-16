@@ -1398,6 +1398,10 @@ DropFreeBuffers
 (
 )
 ;
+SendClearCachedResources
+(
+)
+;
 }
 }
 bool
