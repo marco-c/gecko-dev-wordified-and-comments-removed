@@ -59,6 +59,13 @@ true
 ]
 [
 "
+browser_aboutwebauthn_aria_keycontrols
+.
+js
+"
+]
+[
+"
 browser_aboutwebauthn_bio
 .
 js
