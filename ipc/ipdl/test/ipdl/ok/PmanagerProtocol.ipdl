@@ -11,6 +11,11 @@ managed
 /
 manager
 protocols
+[
+ChildProc
+=
+any
+]
 protocol
 PmanagerProtocol
 {

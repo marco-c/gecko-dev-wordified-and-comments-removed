@@ -84,6 +84,14 @@ mozilla
 namespace
 ipc
 {
+[
+ParentProc
+=
+Utility
+ChildProc
+=
+Parent
+]
 protocol
 PUtilityAudioDecoder
 {

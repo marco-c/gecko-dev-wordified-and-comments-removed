@@ -18,6 +18,11 @@ x
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 maybe_SelfRecStruct
 {

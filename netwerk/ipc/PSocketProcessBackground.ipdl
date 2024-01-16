@@ -39,6 +39,11 @@ mozilla
 namespace
 net
 {
+[
+ChildProc
+=
+Socket
+]
 sync
 protocol
 PSocketProcessBackground

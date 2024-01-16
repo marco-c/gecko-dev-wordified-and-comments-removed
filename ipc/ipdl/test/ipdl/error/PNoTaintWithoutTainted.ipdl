@@ -21,6 +21,11 @@ lacks
 the
 Tainted
 attribute
+[
+ChildProc
+=
+any
+]
 intr
 protocol
 PNoTaintWithoutTainted

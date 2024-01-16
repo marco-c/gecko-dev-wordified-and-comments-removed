@@ -9,6 +9,11 @@ valueless
 attribute
 LazySend
 '
+[
+ChildProc
+=
+any
+]
 async
 protocol
 PLazySendInvalid

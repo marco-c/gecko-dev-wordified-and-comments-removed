@@ -5,6 +5,11 @@ PManagedEndpointDecl
 namespace
 mozilla
 {
+[
+ChildProc
+=
+any
+]
 protocol
 PManagedEndpointManager
 {

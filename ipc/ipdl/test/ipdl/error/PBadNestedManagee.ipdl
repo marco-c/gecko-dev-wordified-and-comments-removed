@@ -24,6 +24,9 @@ PBadNestedManager
 NestedUpTo
 =
 inside_sync
+ChildProc
+=
+any
 ]
 async
 protocol

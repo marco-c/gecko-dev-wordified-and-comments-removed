@@ -35,6 +35,9 @@ ParentImpl
 =
 NotQuoted
 ChildImpl
+ChildProc
+=
+any
 ]
 async
 protocol

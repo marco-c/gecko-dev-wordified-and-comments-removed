@@ -17,6 +17,11 @@ input
 vsync
 mediumhigh
 control
+[
+ChildProc
+=
+any
+]
 protocol
 ExtendedAttrInvalidPriorityValue
 {

@@ -33,6 +33,11 @@ y
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 PmutualRecStructUnion
 {

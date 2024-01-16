@@ -4,6 +4,11 @@ header
 namespace
 c
 {
+[
+ChildProc
+=
+any
+]
 protocol
 PheaderProto
 {

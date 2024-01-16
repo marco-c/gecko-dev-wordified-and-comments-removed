@@ -8,6 +8,11 @@ mozilla
 namespace
 dom
 {
+[
+ChildProc
+=
+Utility
+]
 async
 protocol
 PJSOracle

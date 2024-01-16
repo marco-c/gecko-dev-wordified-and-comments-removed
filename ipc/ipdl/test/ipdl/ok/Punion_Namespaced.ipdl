@@ -18,6 +18,11 @@ kitties
 namespace
 puppies
 {
+[
+ChildProc
+=
+any
+]
 protocol
 Punion_Namespaced
 {

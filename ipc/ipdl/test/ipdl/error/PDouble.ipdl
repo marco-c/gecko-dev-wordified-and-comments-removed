@@ -67,6 +67,11 @@ include
 protocol
 PDouble
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 PDouble
 {

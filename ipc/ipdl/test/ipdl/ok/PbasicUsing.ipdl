@@ -273,6 +273,11 @@ SomeMoveonlySendStruct
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 PbasicUsing
 {

@@ -419,6 +419,9 @@ virtual
 ParentImpl
 =
 virtual
+ChildProc
+=
+anydom
 ]
 sync
 protocol

@@ -10,6 +10,11 @@ unknownSyncMessage
 :
 :
 Msg
+[
+ChildProc
+=
+any
+]
 sync
 protocol
 unknownSyncMessage

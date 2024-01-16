@@ -22,6 +22,11 @@ i
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 structUnknownField
 {

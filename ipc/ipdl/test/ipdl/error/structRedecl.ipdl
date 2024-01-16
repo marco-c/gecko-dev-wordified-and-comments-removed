@@ -21,6 +21,11 @@ a
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 protocol
 structRedecl
 {

@@ -7,6 +7,11 @@ ByteBuf
 ;
 }
 ;
+[
+ChildProc
+=
+any
+]
 intr
 protocol
 Pbytebuf
