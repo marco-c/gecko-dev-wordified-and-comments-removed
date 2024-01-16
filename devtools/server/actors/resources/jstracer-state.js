@@ -203,6 +203,13 @@ getProfile
 )
 :
 undefined
+timeStamp
+:
+ChromeUtils
+.
+dateNow
+(
+)
 }
 ]
 )
