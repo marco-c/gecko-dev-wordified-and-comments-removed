@@ -1759,7 +1759,7 @@ TextureHost
 mRemoteTextureHostWrapper
 ;
 CompositableTextureHostRef
-mAsyncRemoteTextureHost
+mRemoteTextureHost
 ;
 bool
 mReadyCheckSuppressed
