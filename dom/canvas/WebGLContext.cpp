@@ -6320,15 +6320,6 @@ mRemoteTextureOwner
 RegisterTextureOwner
 (
 ownerId
-gfx
-:
-:
-gfxVars
-:
-:
-WebglOopAsyncPresentForceSync
-(
-)
 !
 !
 fb

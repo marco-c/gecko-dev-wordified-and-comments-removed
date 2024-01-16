@@ -4971,15 +4971,6 @@ mRemoteTextureOwner
 RegisterTextureOwner
 (
 aOwnerId
-gfx
-:
-:
-gfxVars
-:
-:
-WebglOopAsyncPresentForceSync
-(
-)
 true
 )
 ;

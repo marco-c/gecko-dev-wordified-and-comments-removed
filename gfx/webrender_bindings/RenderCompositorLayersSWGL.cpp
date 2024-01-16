@@ -1840,14 +1840,6 @@ image
 AsRenderAndroidSurfaceTextureHost
 (
 )
-|
-|
-image
--
->
-IsWrappingAsyncRemoteTexture
-(
-)
 )
 ;
 #

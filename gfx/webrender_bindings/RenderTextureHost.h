@@ -384,16 +384,6 @@ nullptr
 ;
 }
 virtual
-bool
-IsWrappingAsyncRemoteTexture
-(
-)
-{
-return
-false
-;
-}
-virtual
 void
 Destroy
 (

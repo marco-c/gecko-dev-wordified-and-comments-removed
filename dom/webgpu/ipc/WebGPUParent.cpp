@@ -5415,7 +5415,6 @@ mRemoteTextureOwner
 RegisterTextureOwner
 (
 aOwnerId
-true
 )
 ;
 auto
