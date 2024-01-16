@@ -6066,6 +6066,17 @@ aRequest
 -
 >
 mFetchOptions
+aRequest
+-
+>
+mURI
+)
+;
+classicScript
+-
+>
+SetBaseURL
+(
 requestBaseURI
 )
 ;

@@ -99,7 +99,7 @@ ScriptFetchOptions
 aFetchOptions
 nsIURI
 *
-aBaseURL
+aURI
 )
 :
 mKind
@@ -114,9 +114,9 @@ mFetchOptions
 (
 aFetchOptions
 )
-mBaseURL
+mURI
 (
-aBaseURL
+aURI
 )
 {
 MOZ_ASSERT
@@ -126,7 +126,7 @@ mFetchOptions
 ;
 MOZ_ASSERT
 (
-mBaseURL
+mURI
 )
 ;
 }
@@ -158,6 +158,11 @@ JSScript
 aScript
 )
 {
+MOZ_ASSERT
+(
+mBaseURL
+)
+;
 MOZ_ASSERT
 (
 JS
@@ -357,7 +362,7 @@ ScriptFetchOptions
 aFetchOptions
 nsIURI
 *
-aBaseURL
+aURI
 )
 :
 LoadedScript
@@ -368,9 +373,14 @@ ScriptKind
 eEvent
 aReferrerPolicy
 aFetchOptions
-aBaseURL
+aURI
 )
 {
+SetBaseURL
+(
+aURI
+)
+;
 }
 ClassicScript
 :
@@ -390,7 +400,7 @@ ScriptFetchOptions
 aFetchOptions
 nsIURI
 *
-aBaseURL
+aURI
 )
 :
 LoadedScript
@@ -401,7 +411,7 @@ ScriptKind
 eClassic
 aReferrerPolicy
 aFetchOptions
-aBaseURL
+aURI
 )
 {
 }
@@ -487,7 +497,7 @@ ScriptFetchOptions
 aFetchOptions
 nsIURI
 *
-aBaseURL
+aURI
 )
 :
 LoadedScript
@@ -498,7 +508,7 @@ ScriptKind
 eModule
 aReferrerPolicy
 aFetchOptions
-aBaseURL
+aURI
 )
 mDebuggerDataInitialized
 (

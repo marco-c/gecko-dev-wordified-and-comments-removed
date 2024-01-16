@@ -3207,6 +3207,17 @@ mFetchOptions
 aRequest
 -
 >
+mURI
+)
+;
+moduleScript
+-
+>
+SetBaseURL
+(
+aRequest
+-
+>
 mBaseURL
 )
 ;
