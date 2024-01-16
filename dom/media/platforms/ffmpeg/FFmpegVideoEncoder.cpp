@@ -1785,16 +1785,11 @@ ProcessReconfigure
 "
 )
 ;
-using
-P
-=
+return
 MediaDataEncoder
 :
 :
 ReconfigurationPromise
-;
-return
-P
 :
 :
 CreateAndReject
