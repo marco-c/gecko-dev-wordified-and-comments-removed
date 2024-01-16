@@ -5173,7 +5173,7 @@ if
 data
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 data
 -
