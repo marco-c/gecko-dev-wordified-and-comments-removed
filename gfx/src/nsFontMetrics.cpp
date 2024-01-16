@@ -2024,15 +2024,6 @@ provider
 ;
 }
 }
-gfx
-:
-:
-COLRFonts
-:
-:
-PaletteCache
-paletteCache
-;
 gfxTextRun
 :
 :
@@ -2040,7 +2031,6 @@ DrawParams
 params
 (
 aContext
-paletteCache
 )
 ;
 params
@@ -2187,15 +2177,6 @@ provider
 ;
 }
 }
-gfx
-:
-:
-COLRFonts
-:
-:
-PaletteCache
-paletteCache
-;
 gfxTextRun
 :
 :
@@ -2203,7 +2184,6 @@ DrawParams
 params
 (
 aContext
-paletteCache
 )
 ;
 params
