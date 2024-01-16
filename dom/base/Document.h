@@ -11528,12 +11528,6 @@ FeaturePolicy
 )
 const
 ;
-bool
-ImportMapsEnabled
-(
-)
-const
-;
 nsIContent
 *
 GetContentInThisDocument

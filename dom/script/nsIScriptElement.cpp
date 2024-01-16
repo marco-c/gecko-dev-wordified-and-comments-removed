@@ -474,14 +474,6 @@ eModule
 }
 if
 (
-aOwnerDoc
--
->
-ImportMapsEnabled
-(
-)
-&
-&
 type
 .
 LowerCaseEqualsASCII
