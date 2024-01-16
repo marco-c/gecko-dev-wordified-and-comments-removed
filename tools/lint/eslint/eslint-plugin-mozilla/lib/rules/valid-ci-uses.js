@@ -131,6 +131,14 @@ windows
 ]
 [
 "
+nsIWindowsMutexFactory
+"
+"
+windows
+"
+]
+[
+"
 nsIWinAppHelper
 "
 "
