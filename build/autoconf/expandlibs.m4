@@ -204,7 +204,7 @@ supported
 by
 the
 linker
-EXPAND_LIBS_LIST_STYLE
+moz_cv_expand_libs_list_style
 [
 echo
 "
@@ -402,7 +402,7 @@ ac_exeext
 }
 ;
 then
-EXPAND_LIBS_LIST_STYLE
+moz_cv_expand_libs_list_style
 =
 linkerscript
 else
@@ -491,7 +491,7 @@ ac_exeext
 }
 ;
 then
-EXPAND_LIBS_LIST_STYLE
+moz_cv_expand_libs_list_style
 =
 filelist
 elif
@@ -520,7 +520,7 @@ ac_exeext
 }
 ;
 then
-EXPAND_LIBS_LIST_STYLE
+moz_cv_expand_libs_list_style
 =
 list
 else
@@ -574,6 +574,9 @@ conftest
 *
 ]
 )
+EXPAND_LIBS_LIST_STYLE
+=
+moz_cv_expand_libs_list_style
 AC_SUBST
 (
 EXPAND_LIBS_LIST_STYLE
