@@ -620,12 +620,13 @@ haveRead
 aRequest
 -
 >
-mScriptTextLength
-=
+SetReceivedScriptTextLength
+(
 scriptText
 .
 length
 (
+)
 )
 ;
 return

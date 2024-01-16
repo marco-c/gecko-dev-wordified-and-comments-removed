@@ -12366,7 +12366,9 @@ sourceLength
 aRequest
 -
 >
-mScriptTextLength
+ReceivedScriptTextLength
+(
+)
 ;
 minLength
 =
