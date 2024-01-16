@@ -1231,6 +1231,10 @@ tagName
 errorCode
 .
 tagName
+.
+toLowerCase
+(
+)
 }
 ;
 }
@@ -1741,6 +1745,10 @@ ecTagName
 ec
 .
 tagName
+.
+toLowerCase
+(
+)
 cdlTextContent
 :
 cdl
@@ -1751,6 +1759,10 @@ cdlTagName
 cdl
 .
 tagName
+.
+toLowerCase
+(
+)
 }
 ;
 }
@@ -3043,6 +3055,10 @@ errorCode
 )
 .
 tagName
+.
+toLowerCase
+(
+)
 "
 a
 "
@@ -3222,6 +3238,10 @@ errorCode
 )
 .
 tagName
+.
+toLowerCase
+(
+)
 "
 a
 "
