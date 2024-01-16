@@ -13761,13 +13761,6 @@ mFontPaletteValuesDirty
 =
 false
 ;
-mFontPaletteCache
-.
-SetPaletteValueSet
-(
-mFontPaletteValueSet
-)
-;
 InvalidatePaintedLayers
 (
 )

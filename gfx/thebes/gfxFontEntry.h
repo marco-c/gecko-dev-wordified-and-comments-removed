@@ -29,6 +29,13 @@ utility
 #
 include
 "
+COLRFonts
+.
+h
+"
+#
+include
+"
 ThebesRLBoxTypes
 .
 h
