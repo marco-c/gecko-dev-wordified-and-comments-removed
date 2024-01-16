@@ -368,7 +368,8 @@ encoding
 cmds
 copyBufferToBuffer
 :
-buffer_state
+buffer
+device_mismatch
 :
 *
 '
@@ -392,8 +393,7 @@ encoding
 cmds
 copyBufferToBuffer
 :
-buffer
-device_mismatch
+buffer_state
 :
 *
 '
@@ -441,7 +441,7 @@ encoding
 cmds
 copyBufferToBuffer
 :
-copy_size_alignment
+copy_offset_alignment
 :
 *
 '
@@ -465,7 +465,7 @@ encoding
 cmds
 copyBufferToBuffer
 :
-copy_offset_alignment
+copy_out_of_bounds
 :
 *
 '
@@ -513,7 +513,7 @@ encoding
 cmds
 copyBufferToBuffer
 :
-copy_out_of_bounds
+copy_size_alignment
 :
 *
 '
