@@ -2417,7 +2417,9 @@ continue
 }
 test
 (
+{
 name
+}
 async
 (
 )

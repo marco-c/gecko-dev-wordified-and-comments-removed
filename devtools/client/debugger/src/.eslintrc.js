@@ -1482,5 +1482,16 @@ vim
 ]
 ]
 }
+settings
+:
+{
+jest
+:
+{
+version
+:
+27
+}
+}
 }
 ;

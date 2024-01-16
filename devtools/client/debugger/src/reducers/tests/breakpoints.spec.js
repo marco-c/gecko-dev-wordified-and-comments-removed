@@ -84,7 +84,6 @@ Selectors
 it
 (
 "
-it
 gets
 a
 breakpoint
@@ -237,7 +236,6 @@ true
 it
 (
 "
-it
 gets
 a
 breakpoint

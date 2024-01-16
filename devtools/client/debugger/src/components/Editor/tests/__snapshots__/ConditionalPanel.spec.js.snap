@@ -15,7 +15,6 @@ fbAQLP
 exports
 [
 ConditionalPanel
-it
 should
 render
 at
@@ -1016,7 +1015,6 @@ url
 exports
 [
 ConditionalPanel
-it
 should
 render
 with
@@ -2044,7 +2042,6 @@ url
 exports
 [
 ConditionalPanel
-it
 should
 render
 with
