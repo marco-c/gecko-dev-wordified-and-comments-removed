@@ -15109,17 +15109,6 @@ mWantsActivationBehavior
 =
 true
 ;
-aVisitor
-.
-mEvent
--
->
-mFlags
-.
-mMultipleActivationPrevented
-=
-true
-;
 }
 aVisitor
 .

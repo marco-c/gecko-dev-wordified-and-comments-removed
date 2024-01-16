@@ -210,11 +210,6 @@ mMultipleActionsPrevented
 1
 ;
 bool
-mMultipleActivationPrevented
-:
-1
-;
-bool
 mIsBeingDispatched
 :
 1
