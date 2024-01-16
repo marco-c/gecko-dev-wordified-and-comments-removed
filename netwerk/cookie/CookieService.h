@@ -189,6 +189,8 @@ bool
 aFromHttp
 bool
 aIsForeignAndNotAddon
+bool
+aPartitionedOnly
 nsIConsoleReportCollector
 *
 aCRC
