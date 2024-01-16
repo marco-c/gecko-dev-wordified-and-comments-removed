@@ -4830,14 +4830,35 @@ name
 return
 None
     
-property
-    
 def
-base_ref
+get_mozilla_remote_arg
 (
 self
 )
+-
+>
+str
 :
+        
+"
+"
+"
+Return
+a
+-
+-
+remotes
+argument
+to
+limit
+revisions
+to
+relevant
+upstreams
+.
+"
+"
+"
         
 official_remote
 =
@@ -4867,6 +4888,26 @@ else
 -
 remotes
 "
+        
+return
+remote_arg
+    
+property
+    
+def
+base_ref
+(
+self
+)
+:
+        
+remote_arg
+=
+self
+.
+get_mozilla_remote_arg
+(
+)
         
 refs
 =
@@ -6024,6 +6065,14 @@ branch
 "
 "
         
+remote_arg
+=
+self
+.
+get_mozilla_remote_arg
+(
+)
+        
 return
 self
 .
@@ -6050,11 +6099,7 @@ reverse
 not
 "
             
-"
--
--
-remotes
-"
+remote_arg
             
 "
 -
