@@ -481,6 +481,15 @@ true
 }
 )
 ;
+ReactDOM
+.
+unmountComponentAtNode
+(
+this
+.
+_root
+)
+;
 this
 .
 store
