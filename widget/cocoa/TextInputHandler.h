@@ -2882,9 +2882,9 @@ ExecutePendingMethods
 void
 InsertTextAsCommittingComposition
 (
-NSAttributedString
+NSString
 *
-aAttrString
+aString
 NSRange
 *
 aReplacementRange
@@ -3161,9 +3161,9 @@ aNativeEvent
 void
 InsertText
 (
-NSAttributedString
+NSString
 *
-aAttrString
+aString
 NSRange
 *
 aReplacementRange
