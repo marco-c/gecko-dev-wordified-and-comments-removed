@@ -266,13 +266,6 @@ button
 -
 tooltip
 "
-onHover
-=
-{
-this
-.
-onHover
-}
 onClick
 =
 {
