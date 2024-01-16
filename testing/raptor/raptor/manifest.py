@@ -70,7 +70,7 @@ dirname
 __file__
 )
 )
-raptor_ini
+raptor_toml
 =
 os
 .
@@ -82,7 +82,7 @@ here
 "
 raptor
 .
-ini
+toml
 "
 )
 tests_dir
@@ -207,7 +207,7 @@ LOG
 .
 info
 (
-raptor_ini
+raptor_toml
 )
     
 test_manifest
@@ -215,7 +215,7 @@ test_manifest
 TestManifest
 (
 [
-raptor_ini
+raptor_toml
 ]
 strict
 =
@@ -260,7 +260,7 @@ info
     
 )
 def
-validate_test_ini
+validate_test_toml
 (
 test_details
 )
@@ -508,6 +508,7 @@ _item
 strip
 (
 )
+            
 for
 _item
 in
@@ -517,6 +518,16 @@ test_details
 alert_on
 "
 ]
+.
+replace
+(
+"
+\
+n
+"
+"
+"
+)
 .
 split
 (
@@ -1939,7 +1950,7 @@ oskey
     
 A
 test
-ini
+toml
 (
 i
 .
@@ -1951,7 +1962,7 @@ firefox
 -
 tp6
 .
-ini
+toml
 )
 will
 have
@@ -1972,7 +1983,7 @@ name
 [
 the
 -
-ini
+toml
 -
 file
 -
@@ -2003,7 +2014,7 @@ listed
 inside
 the
 test
-ini
+toml
 ;
 -
 or
@@ -2022,7 +2033,7 @@ that
 are
 inside
 the
-ini
+toml
     
 A
 test
@@ -2048,7 +2059,7 @@ subtest
 (
 within
 an
-ini
+toml
 )
 -
 or
@@ -2078,7 +2089,7 @@ of
 a
     
 test
-ini
+toml
 itself
 (
 i
@@ -2178,7 +2189,7 @@ subtests
 in
 a
 specified
-ini
+toml
 .
     
 If
@@ -2256,7 +2267,7 @@ tests_to_run
 0
 :
         
-_ini
+_toml
 =
 args
 .
@@ -2264,7 +2275,7 @@ test
 +
 "
 .
-ini
+toml
 "
         
 for
@@ -2294,7 +2305,7 @@ if
 tail
 =
 =
-_ini
+_toml
 :
                 
 tests_to_run
@@ -4034,7 +4045,7 @@ tests_to_run
 :
             
 if
-validate_test_ini
+validate_test_toml
 (
 test
 )
