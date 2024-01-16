@@ -432,7 +432,7 @@ result
 )
 ;
 await
-testHoveringPrimitiveTokens
+testHoveringInvalidTargetTokens
 (
 dbg
 )
@@ -701,7 +701,7 @@ fnName
 }
 async
 function
-testHoveringPrimitiveTokens
+testHoveringInvalidTargetTokens
 (
 dbg
 )
@@ -709,7 +709,7 @@ dbg
 invokeInTab
 (
 "
-primitives
+invalidTargets
 "
 )
 ;
@@ -763,6 +763,15 @@ assertNoPreviews
 dbg
 42
 73
+4
+)
+;
+await
+assertNoPreviews
+(
+dbg
+const
+74
 4
 )
 ;
