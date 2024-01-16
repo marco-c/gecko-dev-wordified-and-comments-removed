@@ -219,11 +219,6 @@ GLUploadHelpers
 h
 "
 "
-GLVendor
-.
-h
-"
-"
 HeapCopyOfStackArray
 .
 h
