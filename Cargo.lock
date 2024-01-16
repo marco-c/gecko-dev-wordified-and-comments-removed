@@ -12534,6 +12534,9 @@ ffi
 "
 "
 uniffi
+"
+"
+uniffi
 -
 example
 -
@@ -12591,9 +12594,6 @@ fixture
 external
 -
 types
-"
-"
-uniffi_core
 "
 "
 url
