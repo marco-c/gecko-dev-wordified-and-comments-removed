@@ -28,13 +28,6 @@ android
 ]
 [
 "
-test_geckoview_actor_telemetry
-.
-html
-"
-]
-[
-"
 test_geckoview_experiment_delegate
 .
 html

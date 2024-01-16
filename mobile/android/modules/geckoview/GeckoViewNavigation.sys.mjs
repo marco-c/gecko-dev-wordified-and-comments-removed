@@ -1865,13 +1865,6 @@ clearStaticClone
 (
 )
 ;
-printActor
-.
-telemetryDotPrintPdfCompleted
-(
-aData
-)
-;
 break
 ;
 }
