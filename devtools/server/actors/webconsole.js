@@ -2891,8 +2891,6 @@ response
 }
 )
 ;
-return
-;
 }
 catch
 (

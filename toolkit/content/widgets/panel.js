@@ -912,8 +912,6 @@ document
 activeElement
 )
 ;
-return
-;
 }
 }
 catch
