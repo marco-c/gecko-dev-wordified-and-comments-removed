@@ -205,9 +205,15 @@ css
 /
 richlistbox
 {
+min
+-
 height
 :
 15em
+;
+contain
+:
+size
 ;
 }
 richlistbox
