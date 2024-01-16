@@ -316,6 +316,15 @@ this
 .
 loggingMethod
 =
+typeof
+isWorker
+=
+=
+"
+boolean
+"
+|
+|
 globalThis
 .
 constructor
@@ -331,7 +340,7 @@ dump
 .
 bind
 (
-globalThis
+null
 )
 :
 dump
