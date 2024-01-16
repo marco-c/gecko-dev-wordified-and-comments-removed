@@ -3297,6 +3297,7 @@ imagePendingRendering
 .
 mLoadTime
 <
+=
 rawNowTime
 )
 ;
