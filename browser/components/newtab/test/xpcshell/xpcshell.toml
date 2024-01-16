@@ -214,6 +214,13 @@ js
 ]
 [
 "
+test_TopSitesFeed_glean
+.
+js
+"
+]
+[
+"
 test_reach_experiments
 .
 js
