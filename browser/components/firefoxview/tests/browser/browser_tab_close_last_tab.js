@@ -209,7 +209,7 @@ info
 "
 Close
 all
-broswer
+browser
 tabs
 .
 .
