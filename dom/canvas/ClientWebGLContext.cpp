@@ -5037,7 +5037,8 @@ notLost
 info
 .
 error
-.
+-
+>
 empty
 (
 )

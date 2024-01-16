@@ -106,7 +106,8 @@ out
 -
 >
 error
-.
+-
+>
 empty
 (
 )
