@@ -963,12 +963,6 @@ false
 ;
 SET_DEFAULT
 (
-enableWatchtowerMegamorphic
-true
-)
-;
-SET_DEFAULT
-(
 onlyInlineSelfHosted
 false
 )

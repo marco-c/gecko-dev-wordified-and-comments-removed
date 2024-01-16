@@ -248,9 +248,6 @@ bool
 lessDebugCode
 ;
 bool
-enableWatchtowerMegamorphic
-;
-bool
 onlyInlineSelfHosted
 ;
 bool
