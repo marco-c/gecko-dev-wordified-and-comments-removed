@@ -795,6 +795,13 @@ type
 :
 Boolean
 }
+searchTextboxSize
+:
+{
+type
+:
+Number
+}
 }
 ;
 }

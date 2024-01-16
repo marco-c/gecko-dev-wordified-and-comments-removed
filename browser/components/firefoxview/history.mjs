@@ -3244,6 +3244,14 @@ attrs
 "
 placeholder
 "
+.
+size
+=
+{
+this
+.
+searchTextboxSize
+}
 fxview
 -
 search

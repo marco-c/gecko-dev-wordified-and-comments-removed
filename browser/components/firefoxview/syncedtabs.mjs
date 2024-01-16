@@ -3645,6 +3645,14 @@ this
 .
 onSearchQuery
 }
+.
+size
+=
+{
+this
+.
+searchTextboxSize
+}
 >
 <
 /

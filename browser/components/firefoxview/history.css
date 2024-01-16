@@ -100,6 +100,16 @@ gap
 :
 8px
 ;
+&
+label
+{
+white
+-
+space
+:
+nowrap
+;
+}
 }
 .
 show
