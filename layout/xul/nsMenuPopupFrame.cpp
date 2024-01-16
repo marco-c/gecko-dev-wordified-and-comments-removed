@@ -2065,7 +2065,7 @@ return
 WindowShadow
 :
 :
-Menu
+Panel
 ;
 }
 }

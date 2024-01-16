@@ -359,6 +359,7 @@ uint8_t
 {
 None
 Menu
+Panel
 Tooltip
 }
 ;

@@ -17766,6 +17766,12 @@ WindowShadow
 :
 Menu
 :
+case
+WindowShadow
+:
+:
+Panel
+:
 return
 kWindowShadowOptionsMenu
 ;
