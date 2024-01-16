@@ -89,6 +89,15 @@ heads
 /
 triggers
 /
+chrome_canary
+"
+"
+refs
+/
+heads
+/
+triggers
+/
 chrome_dev
 "
 "
