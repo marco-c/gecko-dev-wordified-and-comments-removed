@@ -25031,15 +25031,6 @@ appStartup
 NS_ERROR_FAILURE
 )
 ;
-#
-ifdef
-XP_MACOSX
-InitializeMacApp
-(
-)
-;
-#
-endif
 mDirProvider
 .
 DoStartup
