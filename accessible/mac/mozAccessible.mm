@@ -4252,7 +4252,7 @@ children
 "
 A11yUtil
 event
-recieved
+received
 but
 no
 announcement

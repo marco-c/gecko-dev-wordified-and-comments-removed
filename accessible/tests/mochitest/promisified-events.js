@@ -699,7 +699,7 @@ message
 "
 "
 }
-Recieved
+Received
 {
 eventTypeToString
 (
