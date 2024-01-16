@@ -1142,6 +1142,8 @@ logs
 for
 "
 firefox
+-
+bin
 "
 .
 Linux

@@ -719,16 +719,11 @@ PrivateBrowsing_70
 png
 #
 else
-#
-ifndef
-XP_MACOSX
 BINPATH
 /
 MOZ_APP_NAME
 -
 bin
-#
-endif
 BINPATH
 /
 MOZ_APP_NAME

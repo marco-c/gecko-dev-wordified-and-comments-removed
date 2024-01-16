@@ -169,6 +169,8 @@ XPCOM_MEM_BLOAT_LOG
 #
 firefox
 -
+bin
+-
 P
 default
 resource
@@ -217,6 +219,8 @@ XPCOM_MEM_BLOAT_LOG
 #
 firefox
 -
+bin
+-
 P
 default
 resource
@@ -242,6 +246,8 @@ change
 *
 #
 firefox
+-
+bin
 -
 P
 default

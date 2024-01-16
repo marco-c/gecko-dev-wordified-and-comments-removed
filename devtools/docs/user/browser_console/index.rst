@@ -508,6 +508,8 @@ MacOS
 /
 firefox
 -
+bin
+-
 jsconsole
 The
 Browser
