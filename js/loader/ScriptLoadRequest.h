@@ -1136,11 +1136,6 @@ ClearScriptSource
 )
 ;
 void
-EnsureScript
-(
-)
-;
-void
 NoCacheEntryFound
 (
 )

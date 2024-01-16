@@ -13805,13 +13805,6 @@ GetProfilerLabel
 profilerLabelString
 )
 ;
-aRequest
--
->
-EnsureScript
-(
-)
-;
 MOZ_ASSERT
 (
 aRequest

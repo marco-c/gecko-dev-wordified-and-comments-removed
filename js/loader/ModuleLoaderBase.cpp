@@ -3185,13 +3185,6 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-aRequest
--
->
-EnsureScript
-(
-)
-;
 MOZ_ASSERT
 (
 aRequest

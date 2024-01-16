@@ -48,6 +48,9 @@ JS
 :
 loader
 {
+class
+ScriptLoadRequest
+;
 void
 HostAddRefTopLevelScript
 (
@@ -314,7 +317,7 @@ ClassicScript
 =
 default
 ;
-public
+private
 :
 ClassicScript
 (
@@ -333,6 +336,10 @@ nsIURI
 *
 aURI
 )
+;
+friend
+class
+ScriptLoadRequest
 ;
 }
 ;
@@ -429,6 +436,8 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 ModuleScript
 LoadedScript
 )
+private
+:
 ModuleScript
 (
 mozilla
@@ -447,6 +456,12 @@ nsIURI
 aURI
 )
 ;
+friend
+class
+ScriptLoadRequest
+;
+public
+:
 void
 SetModuleRecord
 (
