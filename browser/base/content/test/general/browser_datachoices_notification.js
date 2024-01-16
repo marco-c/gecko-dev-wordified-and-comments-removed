@@ -744,6 +744,11 @@ triggerInfoBar
 await
 alertShownPromise
 ;
+await
+promiseNextTick
+(
+)
+;
 Assert
 .
 equal

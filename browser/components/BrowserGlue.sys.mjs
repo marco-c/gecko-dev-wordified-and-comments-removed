@@ -22586,6 +22586,7 @@ database
 /
 _showPlacesLockedNotificationBox
 :
+async
 function
 BG__showPlacesLockedNotificationBox
 (
@@ -22631,6 +22632,7 @@ getNotificationBox
 var
 notification
 =
+await
 notifyBox
 .
 appendNotification
@@ -28498,6 +28500,7 @@ getNotificationBox
 const
 notification
 =
+await
 notifyBox
 .
 appendNotification
