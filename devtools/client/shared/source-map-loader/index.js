@@ -394,14 +394,14 @@ getFileGeneratedRange
 "
 )
 ;
-getSourceMapIgnoreList
+loadSourceMap
 =
 this
 .
 task
 (
 "
-getSourceMapIgnoreList
+loadSourceMap
 "
 )
 ;
