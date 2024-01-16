@@ -605,7 +605,7 @@ window
 addEventListener
 (
 '
-unload
+pagehide
 '
 (
 )
