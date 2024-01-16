@@ -634,7 +634,6 @@ dom
 ImageBitmapFormat
 ;
 enum
-class
 BitrateMode
 {
 Constant
@@ -642,7 +641,6 @@ Variable
 }
 ;
 enum
-class
 ScalabilityMode
 {
 None
