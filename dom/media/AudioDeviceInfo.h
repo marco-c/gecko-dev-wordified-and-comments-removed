@@ -113,6 +113,16 @@ Name
 const
 ;
 uint32_t
+DefaultRate
+(
+)
+const
+{
+return
+mDefaultRate
+;
+}
+uint32_t
 MaxChannels
 (
 )

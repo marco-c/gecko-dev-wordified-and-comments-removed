@@ -118,6 +118,7 @@ mTrack
 AddAudioOutput
 (
 aKey
+nullptr
 )
 ;
 return
