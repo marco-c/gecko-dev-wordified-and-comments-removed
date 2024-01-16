@@ -3894,6 +3894,17 @@ PXI_TOOLBAR_ENABLED
 {
 this
 .
+updateFxAPanel
+(
+UIState
+.
+get
+(
+)
+)
+;
+this
+.
 updateCTAPanel
 (
 )
