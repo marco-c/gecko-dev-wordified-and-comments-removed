@@ -1048,6 +1048,13 @@ removeProgressListener
 observer
 )
 ;
+this
+.
+#
+webProgress
+=
+null
+;
 }
 /
 *
