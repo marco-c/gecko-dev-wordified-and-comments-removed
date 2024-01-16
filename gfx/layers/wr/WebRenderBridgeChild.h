@@ -1008,14 +1008,9 @@ aFlags
 )
 override
 ;
-void
-UpdateFwdTransactionId
-(
-)
-override
-;
-uint64_t
-GetFwdTransactionId
+FwdTransactionCounter
+&
+GetFwdTransactionCounter
 (
 )
 override

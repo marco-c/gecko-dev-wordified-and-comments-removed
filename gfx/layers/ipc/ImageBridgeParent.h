@@ -131,6 +131,9 @@ struct
 ImageCompositeNotificationInfo
 ;
 class
+RemoteTextureTxnScheduler
+;
+class
 ImageBridgeParent
 final
 :
@@ -636,6 +639,12 @@ RefPtr
 CompositorThreadHolder
 >
 mCompositorThreadHolder
+;
+RefPtr
+<
+RemoteTextureTxnScheduler
+>
+mRemoteTextureTxnScheduler
 ;
 }
 ;
