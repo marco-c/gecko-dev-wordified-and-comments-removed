@@ -5,7 +5,7 @@ pytest
 .
 4
 .
-2
+4
 pytest
 -
 cov
