@@ -75,13 +75,6 @@ js
 ]
 [
 "
-browser_sma_click_element
-.
-js
-"
-]
-[
-"
 browser_sma_configure_homepage
 .
 js
@@ -139,13 +132,6 @@ js
 [
 "
 browser_sma_open_firefox_view
-.
-js
-"
-]
-[
-"
-browser_sma_open_firefoxview
 .
 js
 "
