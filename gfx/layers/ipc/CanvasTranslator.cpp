@@ -1342,6 +1342,10 @@ mDefaultBufferSize
 0
 )
 ;
+CheckAndSignalWriter
+(
+)
+;
 if
 (
 mCurrentShmem
@@ -1904,6 +1908,10 @@ NextBuffer
 (
 )
 {
+CheckAndSignalWriter
+(
+)
+;
 mCurrentShmem
 =
 std
