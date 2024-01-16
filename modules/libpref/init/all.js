@@ -31732,16 +31732,6 @@ pref
 "
 toolkit
 .
-lazyHiddenWindow
-"
-true
-)
-;
-pref
-(
-"
-toolkit
-.
 legacyUserProfileCustomizations
 .
 stylesheets
