@@ -1,0 +1,11 @@
+LIBRARY
+WMFClearKey
+.
+dll
+EXPORTS
+DllCanUnloadNow
+PRIVATE
+DllGetActivationFactory
+PRIVATE
+DllGetClassObject
+PRIVATE
