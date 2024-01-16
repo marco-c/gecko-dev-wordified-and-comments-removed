@@ -330,6 +330,13 @@ js
 ]
 [
 "
+browser_translations_select_context_menu_with_hyperlink
+.
+js
+"
+]
+[
+"
 browser_translations_select_context_menu_with_no_text_selected
 .
 js
