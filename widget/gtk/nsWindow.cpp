@@ -3947,13 +3947,7 @@ IsMapped
 const
 {
 return
-GdkIsWaylandDisplay
-(
-)
-?
 mIsMapped
-:
-true
 ;
 }
 void
