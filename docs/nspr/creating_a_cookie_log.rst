@@ -283,12 +283,7 @@ firefox
 and
 pressing
 Enter
-Mac
-OS
-X
-^
-^
-^
+macOS
 ^
 ^
 ^
@@ -318,9 +313,7 @@ the
 default
 shell
 in
-Mac
-OS
-X
+macOS
 10
 .
 3
@@ -420,8 +413,6 @@ typing
 .
 /
 firefox
--
-bin
 "
 and
 pressing

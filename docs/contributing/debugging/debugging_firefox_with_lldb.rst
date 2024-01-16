@@ -631,8 +631,6 @@ MacOS
 /
 firefox
 -
-bin
--
 no
 -
 remote
@@ -732,8 +730,6 @@ Contents
 MacOS
 /
 firefox
--
-bin
 '
 (
 x86_64
