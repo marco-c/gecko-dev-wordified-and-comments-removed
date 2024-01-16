@@ -384,6 +384,9 @@ script
 asynchronous
 =
 False
+args
+=
+None
 )
 :
         
@@ -403,10 +406,25 @@ marionette
 .
 execute_script
         
+script_args
+=
+args
+if
+args
+is
+not
+None
+else
+[
+]
+        
 return
 method
 (
 script
+script_args
+=
+script_args
 new_sandbox
 =
 False
@@ -6578,19 +6596,6 @@ reset
 (
 )
         
-format_map
-=
-{
-"
-url
-"
-:
-strip_server
-(
-url
-)
-}
-        
 protocol
 .
 base
@@ -6721,8 +6726,14 @@ execute_script
 self
 .
 script_resume
-%
-format_map
+args
+=
+[
+strip_server
+(
+url
+)
+]
 asynchronous
 =
 True
