@@ -110,11 +110,13 @@ portalDetected
 let
 notification
 =
+await
 ensurePortalNotification
 (
 win
 )
 ;
+await
 testShowLoginPageButtonVisibility
 (
 notification
@@ -123,6 +125,7 @@ visible
 "
 )
 ;
+async
 function
 testPortalTabSelectedAndButtonNotVisible
 (
@@ -148,6 +151,7 @@ selected
 "
 )
 ;
+await
 testShowLoginPageButtonVisibility
 (
 notification
@@ -238,6 +242,7 @@ clickButtonAndExpectNewPortalTab
 (
 )
 ;
+await
 testPortalTabSelectedAndButtonNotVisible
 (
 )
@@ -254,6 +259,7 @@ ensureNoPortalTab
 win
 )
 ;
+await
 testShowLoginPageButtonVisibility
 (
 notification
@@ -282,6 +288,7 @@ win
 gBrowser
 )
 ;
+await
 testShowLoginPageButtonVisibility
 (
 notification
@@ -331,6 +338,7 @@ selectedTab
 =
 anotherTab
 ;
+await
 testShowLoginPageButtonVisibility
 (
 notification
