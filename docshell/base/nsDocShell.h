@@ -901,12 +901,6 @@ LOCATION_CHANGE_SAME_DOCUMENT
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-void
-TriggerParentCheckDocShellIsEmpty
-(
-)
-;
 nsresult
 HistoryEntryRemoved
 (
