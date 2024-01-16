@@ -12265,6 +12265,17 @@ return
 nsEventStatus_eIgnore
 ;
 }
+if
+(
+aType
+!
+=
+TapType
+:
+:
+eLongTapUp
+)
+{
 touch
 -
 >
@@ -12272,6 +12283,7 @@ SetSingleTapOccurred
 (
 )
 ;
+}
 }
 APZC_LOG
 (
