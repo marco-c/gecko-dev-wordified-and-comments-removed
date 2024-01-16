@@ -82,6 +82,12 @@ aInfo
 const
 final
 ;
+void
+InvalidateContents
+(
+)
+final
+;
 bool
 Lock
 (
@@ -266,6 +272,11 @@ bool
 mUsedRemoteTexture
 =
 false
+;
+bool
+mInvalidContents
+=
+true
 ;
 }
 ;
