@@ -1,16 +1,3 @@
-const
-FXVIEW_ENABLED_PREF
-=
-"
-browser
-.
-tabs
-.
-firefox
--
-view
-"
-;
 add_task
 (
 async
