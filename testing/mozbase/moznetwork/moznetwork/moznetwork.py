@@ -872,12 +872,20 @@ check_output
 (
             
 [
+                
 cmd
+                
 "
 (
 Get
 -
 NetIPAddress
+-
+AddressFamily
+IPv4
+-
+AddressState
+Preferred
 |
 Format
 -
@@ -887,6 +895,7 @@ Property
 IPAddress
 )
 "
+            
 ]
         
 )
