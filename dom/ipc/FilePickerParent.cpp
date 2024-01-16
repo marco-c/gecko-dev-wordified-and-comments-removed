@@ -1553,6 +1553,11 @@ RecvClose
 (
 )
 {
+if
+(
+mFilePicker
+)
+{
 mFilePicker
 -
 >
@@ -1560,6 +1565,7 @@ Close
 (
 )
 ;
+}
 return
 IPC_OK
 (
