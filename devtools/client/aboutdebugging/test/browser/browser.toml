@@ -1399,6 +1399,13 @@ js
 ]
 [
 "
+browser_aboutdebugging_targets_sorted
+.
+js
+"
+]
+[
+"
 browser_aboutdebugging_telemetry_basic
 .
 js
