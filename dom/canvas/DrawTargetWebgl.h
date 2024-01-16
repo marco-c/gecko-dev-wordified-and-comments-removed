@@ -1603,11 +1603,6 @@ mRefreshClipState
 =
 true
 ;
-bool
-mNeedsPresent
-=
-true
-;
 int32_t
 mLayerDepth
 =
@@ -1963,10 +1958,10 @@ override
 void
 BeginFrame
 (
-const
-IntRect
-&
-aPersistedRect
+bool
+aInvalidContents
+=
+false
 )
 ;
 void
