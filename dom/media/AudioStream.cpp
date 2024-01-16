@@ -919,7 +919,7 @@ double
 aPlaybackRate
 )
 {
-TRACE
+TRACE_COMMENT
 (
 "
 AudioStream
@@ -927,6 +927,11 @@ AudioStream
 :
 SetPlaybackRate
 "
+"
+%
+f
+"
+aPlaybackRate
 )
 ;
 NS_ASSERTION
@@ -988,7 +993,7 @@ bool
 aPreservesPitch
 )
 {
-TRACE
+TRACE_COMMENT
 (
 "
 AudioStream
@@ -996,6 +1001,11 @@ AudioStream
 :
 SetPreservesPitch
 "
+"
+%
+d
+"
+aPreservesPitch
 )
 ;
 if
@@ -1479,7 +1489,7 @@ double
 aVolume
 )
 {
-TRACE
+TRACE_COMMENT
 (
 "
 AudioStream
@@ -1487,6 +1497,11 @@ AudioStream
 :
 SetVolume
 "
+"
+%
+f
+"
+aVolume
 )
 ;
 MOZ_ASSERT
