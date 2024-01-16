@@ -3518,6 +3518,12 @@ anchor
 |
 |
 !
+anchor
+.
+isConnected
+|
+|
+!
 window
 .
 isElementVisible
