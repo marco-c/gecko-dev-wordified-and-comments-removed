@@ -196,7 +196,7 @@ aForeColor
 void
 GetIMESelectionColors
 (
-int32_t
+uint32_t
 aIndex
 nscolor
 *
@@ -209,7 +209,7 @@ aBackColor
 bool
 GetSelectionUnderlineForPaint
 (
-int32_t
+uint32_t
 aIndex
 nscolor
 *
@@ -228,7 +228,7 @@ GetSelectionUnderline
 (
 nsIFrame
 *
-int32_t
+uint32_t
 aIndex
 nscolor
 *
@@ -268,6 +268,8 @@ mPresContext
 ;
 }
 enum
+:
+uint32_t
 {
 eIndexRawInput
 =
@@ -279,7 +281,7 @@ eIndexSpellChecker
 }
 ;
 static
-int32_t
+uint32_t
 GetUnderlineStyleIndexForSelectionType
 (
 SelectionType
@@ -466,14 +468,14 @@ nsSelectionStyle
 *
 SelectionStyle
 (
-int32_t
+uint32_t
 aIndex
 )
 ;
 void
 InitSelectionStyle
 (
-int32_t
+uint32_t
 aIndex
 )
 ;

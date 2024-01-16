@@ -29702,7 +29702,7 @@ SelectionType
 eHighlight
 :
 {
-int32_t
+uint32_t
 index
 =
 nsTextPaintStyle
@@ -40199,7 +40199,7 @@ continue
 float
 relativeSize
 ;
-int32_t
+uint32_t
 index
 =
 nsTextPaintStyle
