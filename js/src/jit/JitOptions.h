@@ -177,6 +177,9 @@ bool
 disableIteratorIndices
 ;
 bool
+disableMarkLoadsUsedAsPropertyKeys
+;
+bool
 disableRangeAnalysis
 ;
 bool

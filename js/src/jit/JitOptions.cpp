@@ -413,6 +413,12 @@ false
 ;
 SET_DEFAULT
 (
+disableMarkLoadsUsedAsPropertyKeys
+false
+)
+;
+SET_DEFAULT
+(
 disableRangeAnalysis
 false
 )

@@ -8003,6 +8003,12 @@ false
 if
 (
 !
+JitOptions
+.
+disableMarkLoadsUsedAsPropertyKeys
+&
+&
+!
 mir
 -
 >
