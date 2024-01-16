@@ -3785,6 +3785,11 @@ tryAttachStringInt32Arith
 (
 )
 ;
+AttachDecision
+tryAttachStringNumberArith
+(
+)
+;
 public
 :
 BinaryArithIRGenerator
