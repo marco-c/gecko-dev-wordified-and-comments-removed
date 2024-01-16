@@ -2579,6 +2579,13 @@ or
 labeled
 [
 "
+browser_net_save_response_as
+.
+js
+"
+]
+[
+"
 browser_net_search
 -
 results
