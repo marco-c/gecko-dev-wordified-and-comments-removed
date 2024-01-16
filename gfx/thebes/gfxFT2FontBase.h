@@ -420,6 +420,7 @@ aBounds
 =
 nullptr
 )
+const
 ;
 protected
 :
@@ -708,7 +709,9 @@ aBounds
 =
 nullptr
 )
+const
 ;
+mutable
 mozilla
 :
 :
