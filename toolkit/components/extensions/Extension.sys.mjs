@@ -25961,6 +25961,8 @@ removeFromPrincipal
 (
 principal
 perm
+.
+type
 )
 ;
 }
