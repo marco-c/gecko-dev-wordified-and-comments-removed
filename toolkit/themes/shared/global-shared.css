@@ -829,11 +829,15 @@ is
 menupopup
 panel
 )
+:
+where
+(
 [
 type
 =
 arrow
 ]
+)
 {
 -
 -
