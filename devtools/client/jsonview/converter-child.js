@@ -132,6 +132,13 @@ src
 resource
 :
 ;
+img
+-
+src
+'
+self
+'
+;
 "
 ;
 loader
