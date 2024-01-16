@@ -2082,7 +2082,6 @@ this
 ]
 (
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
 -
@@ -3174,7 +3173,6 @@ ResolveOrRejectValue
 &
 aResult
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -3670,7 +3668,6 @@ closeOnError
 ]
 (
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 mProcessingMessage
 .
@@ -3892,7 +3889,6 @@ ResolveOrRejectValue
 &
 aResult
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -4621,7 +4617,6 @@ ResolveOrRejectValue
 &
 aResult
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
@@ -5305,7 +5300,6 @@ this
 ]
 (
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 LOG
 (
@@ -5536,7 +5530,6 @@ mWorkerRef
 (
 bool
 )
-MOZ_CAN_RUN_SCRIPT
 {
 LOG
 (
