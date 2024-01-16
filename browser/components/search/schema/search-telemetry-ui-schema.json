@@ -10,6 +10,9 @@ order
 telemetryId
 "
 "
+searchPageMatches
+"
+"
 searchPageRegexp
 "
 "
