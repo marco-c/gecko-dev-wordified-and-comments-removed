@@ -866,6 +866,13 @@ Graphs
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 static
 GraphHashSet
 sGraphs
@@ -18648,6 +18655,13 @@ MediaTrackGraphImpl
 >
 (
 this
+)
+;
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
 )
 ;
 #
