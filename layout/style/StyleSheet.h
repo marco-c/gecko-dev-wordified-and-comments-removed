@@ -2093,6 +2093,11 @@ DropMedia
 )
 ;
 void
+UpdateRelevantGlobal
+(
+)
+;
+void
 UnlinkInner
 (
 )
