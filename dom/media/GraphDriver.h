@@ -1878,15 +1878,9 @@ override
 void
 MixerCallback
 (
-AudioDataValue
+AudioChunk
 *
 aMixedBuffer
-AudioSampleFormat
-aFormat
-uint32_t
-aChannels
-uint32_t
-aFrames
 uint32_t
 aSampleRate
 )
