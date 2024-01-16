@@ -772,9 +772,17 @@ spoofAttributionData
 ;
 registerCleanupFunction
 (
+async
+function
+(
+)
+{
+await
 TelemetryEnvironmentTesting
 .
 cleanupAttributionData
+;
+}
 )
 ;
 }
