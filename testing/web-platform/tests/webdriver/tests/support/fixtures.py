@@ -916,6 +916,19 @@ setWindowRect
 )
 :
         
+if
+_current_session
+.
+window
+.
+size
+!
+=
+defaults
+.
+WINDOW_SIZE
+:
+            
 _current_session
 .
 window
@@ -926,6 +939,19 @@ defaults
 .
 WINDOW_SIZE
         
+if
+_current_session
+.
+window
+.
+position
+!
+=
+defaults
+.
+WINDOW_POSITION
+:
+            
 _current_session
 .
 window
@@ -1215,6 +1241,19 @@ setWindowRect
 )
 :
         
+if
+_current_session
+.
+window
+.
+size
+!
+=
+defaults
+.
+WINDOW_SIZE
+:
+            
 _current_session
 .
 window
@@ -1225,6 +1264,19 @@ defaults
 .
 WINDOW_SIZE
         
+if
+_current_session
+.
+window
+.
+position
+!
+=
+defaults
+.
+WINDOW_POSITION
+:
+            
 _current_session
 .
 window

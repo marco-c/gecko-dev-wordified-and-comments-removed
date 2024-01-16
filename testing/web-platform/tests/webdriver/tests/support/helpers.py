@@ -342,6 +342,19 @@ setWindowRect
 )
 :
             
+if
+session
+.
+window
+.
+size
+!
+=
+defaults
+.
+WINDOW_SIZE
+:
+                
 session
 .
 window
