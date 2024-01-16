@@ -216,6 +216,14 @@ DIRS
 mediafoundation
 "
 ]
+DIRS
++
+=
+[
+"
+clearkey
+"
+]
 include
 (
 "
