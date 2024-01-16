@@ -137,7 +137,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
             
 )
