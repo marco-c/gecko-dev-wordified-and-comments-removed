@@ -2465,13 +2465,6 @@ html
 ]
 [
 "
-test_medialist_privilege
-.
-html
-"
-]
-[
-"
 test_moz_device_pixel_ratio
 .
 html
@@ -2957,6 +2950,13 @@ if
 [
 "
 xorigin
+"
+]
+[
+"
+test_sheet_privilege
+.
+html
 "
 ]
 [
