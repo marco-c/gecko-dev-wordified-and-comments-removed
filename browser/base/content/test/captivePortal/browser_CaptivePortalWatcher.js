@@ -96,6 +96,7 @@ portalDetected
 (
 )
 ;
+await
 ensurePortalNotification
 (
 win1
@@ -106,6 +107,7 @@ ensureNoPortalTab
 win1
 )
 ;
+await
 ensurePortalNotification
 (
 win2
@@ -301,11 +303,13 @@ ensureNoPortalTab
 win2
 )
 ;
+await
 ensurePortalNotification
 (
 win1
 )
 ;
+await
 ensurePortalNotification
 (
 win2
