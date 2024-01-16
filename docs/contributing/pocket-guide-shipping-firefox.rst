@@ -1948,7 +1948,7 @@ Complete
 Milestone
 Nightly
 W4
-Wednesday
+Thursday
 Last
 day
 to
