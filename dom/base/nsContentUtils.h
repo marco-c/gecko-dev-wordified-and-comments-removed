@@ -5777,6 +5777,16 @@ JSObject
 ;
 static
 bool
+IsSecureContextOrWebExtension
+(
+JSContext
+*
+JSObject
+*
+)
+;
+static
+bool
 IsSWFPlayerEnabled
 (
 )

@@ -1138,7 +1138,10 @@ dom_w3c_pointer_events_getcoalescedevents_only_in_securecontext
 )
 |
 |
-IsSecureContextOrObjectIsFromSecureContext
+nsContentUtils
+:
+:
+IsSecureContextOrWebExtension
 (
 aCx
 aGlobal
