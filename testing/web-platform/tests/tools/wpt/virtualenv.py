@@ -229,6 +229,9 @@ rmtree
 self
 .
 path
+ignore_errors
+=
+True
 )
             
 self
