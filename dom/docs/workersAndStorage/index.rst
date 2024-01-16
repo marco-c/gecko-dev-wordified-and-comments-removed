@@ -64,4 +64,5 @@ maxdepth
 :
 1
 CodeStyle
+PerformanceTesting
 WorkerLifeCycleAndWorkerRefs
