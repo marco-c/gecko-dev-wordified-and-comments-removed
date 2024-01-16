@@ -156,6 +156,19 @@ requestCreateAnalysis
 ]
 instead
 .
+-
+Removed
+deprecated
+[
+GeckoSession
+.
+requestAnalysisCreationStatus
+]
+[
+119
+.
+2
+]
 [
 123
 .
@@ -25173,4 +25186,4 @@ api
 version
 ]
 :
-8af2bae39c9b5023991538f71f1f3da0ccfb78c7
+37c99c6944c474d502ea836194b93fae8d1d25e0
