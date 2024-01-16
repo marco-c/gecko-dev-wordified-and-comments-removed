@@ -745,6 +745,17 @@ mozilla
 /
 dom
 /
+UserActivation
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowGlobalChild
 .
 h
@@ -5431,6 +5442,13 @@ const
 nsACString
 &
 aFeatures
+const
+UserActivation
+:
+:
+Modifiers
+&
+aModifiers
 bool
 aForceNoOpener
 bool
@@ -5720,6 +5738,7 @@ aChromeFlags
 aCalledFromJS
 aURI
 features
+aModifiers
 name
 triggeringPrincipal
 csp
@@ -6656,6 +6675,7 @@ GetIsForWindowDotPrint
 )
 aURI
 features
+aModifiers
 triggeringPrincipal
 csp
 referrerInfo
