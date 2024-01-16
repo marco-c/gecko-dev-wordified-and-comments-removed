@@ -2095,6 +2095,12 @@ queueAllLifoBlocksForFreeAfterMinorGC
 allocSitesSpace_
 )
 ;
+PreWriteBarrier
+(
+zone
+this
+)
+;
 }
 void
 JitScript
