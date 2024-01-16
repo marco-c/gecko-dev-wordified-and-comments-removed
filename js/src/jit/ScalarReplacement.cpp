@@ -1755,17 +1755,6 @@ toGuardShape
 (
 )
 ;
-MOZ_ASSERT
-(
-!
-ins
--
->
-isGuardShape
-(
-)
-)
-;
 if
 (
 shape
