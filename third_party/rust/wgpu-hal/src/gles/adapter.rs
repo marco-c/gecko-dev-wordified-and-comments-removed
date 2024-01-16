@@ -1324,8 +1324,10 @@ full_ver
 )
 )
 .
-then_some
+then
 (
+|
+|
 unsafe
 {
 gl

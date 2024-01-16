@@ -3302,9 +3302,7 @@ BufferInitTracker
 :
 new
 (
-desc
-.
-size
+aligned_size
 )
 )
 sync_mapped_writes
