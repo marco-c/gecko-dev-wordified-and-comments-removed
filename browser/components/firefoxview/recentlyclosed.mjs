@@ -1666,8 +1666,6 @@ url
 about
 :
 firefoxview
--
-next
 #
 history
 "

@@ -4237,9 +4237,7 @@ telemetry
 recordEvent
 (
 "
-firefoxview
--
-next
+firefoxview_next
 "
 "
 synced_tabs

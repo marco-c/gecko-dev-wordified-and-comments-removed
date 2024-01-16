@@ -963,8 +963,6 @@ href
 about
 :
 firefoxview
--
-next
 #
 {
 this
@@ -1222,8 +1220,6 @@ href
 about
 :
 firefoxview
--
-next
 #
 {
 this
