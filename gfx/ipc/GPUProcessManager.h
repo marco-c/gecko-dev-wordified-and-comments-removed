@@ -394,6 +394,10 @@ IsGPUProcessLaunching
 nsresult
 EnsureGPUReady
 (
+bool
+aRetryAfterFallback
+=
+true
 )
 ;
 already_AddRefed
@@ -949,6 +953,11 @@ DestroyRemoteCompositorSessions
 ;
 void
 DestroyInProcessCompositorSessions
+(
+)
+;
+void
+OnBlockingProcessUnexpectedShutdown
 (
 )
 ;
