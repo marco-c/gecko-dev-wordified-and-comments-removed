@@ -654,6 +654,11 @@ IsOnMacOS
 (
 )
 ;
+bool
+IsOnLinux
+(
+)
+;
 template
 <
 typename
