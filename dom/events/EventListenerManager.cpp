@@ -24,6 +24,17 @@ h
 #
 include
 "
+js
+/
+loader
+/
+ScriptFetchOptions
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasicEvents
