@@ -201,6 +201,14 @@ void
 )
 )
 ;
+MOCK_METHOD0
+(
+GetDynamicToolbarOffset
+ScreenIntCoord
+(
+)
+)
+;
 void
 SetMVM
 (
