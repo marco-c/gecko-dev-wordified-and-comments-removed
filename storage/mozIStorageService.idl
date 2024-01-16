@@ -871,9 +871,6 @@ database
 *
 *
 param
-[
-optional
-]
 aOpenFlags
 *
 A
@@ -914,9 +911,6 @@ flags
 *
 *
 param
-[
-optional
-]
 aConnectionFlags
 *
 A
@@ -1089,16 +1083,10 @@ openAsyncDatabase
 in
 nsIVariant
 aDatabaseStore
-[
-optional
-]
 in
 unsigned
 long
 aOpenFlags
-[
-optional
-]
 in
 unsigned
 long

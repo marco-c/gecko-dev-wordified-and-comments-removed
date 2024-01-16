@@ -2209,15 +2209,9 @@ showAlertWithIconData
 in
 nsIAlertNotification
 aAlert
-[
-optional
-]
 in
 nsIObserver
 aAlertListener
-[
-optional
-]
 in
 uint32_t
 aIconSize
