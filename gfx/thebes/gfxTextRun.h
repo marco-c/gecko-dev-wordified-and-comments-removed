@@ -1235,6 +1235,8 @@ bool
 aCanWordWrap
 bool
 aCanWhitespaceWrap
+bool
+aIsBreakSpaces
 TrimmableWS
 *
 aOutTrimmableWhitespace
