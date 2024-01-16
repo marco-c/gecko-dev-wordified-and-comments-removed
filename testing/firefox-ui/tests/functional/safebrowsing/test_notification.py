@@ -884,7 +884,7 @@ message
 get_property
 (
 "
-closeButton
+closeButtonEl
 "
 )
             

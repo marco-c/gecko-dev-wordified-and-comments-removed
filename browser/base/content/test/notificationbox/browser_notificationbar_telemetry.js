@@ -180,6 +180,7 @@ initial
 let
 notif3
 =
+await
 box3
 .
 appendNotification
@@ -215,6 +216,11 @@ testtwo
 }
 )
 ;
+await
+notif3
+.
+updateComplete
+;
 verifyTelemetry
 (
 "
@@ -232,6 +238,7 @@ notification
 let
 notif1
 =
+await
 box1
 .
 appendNotification
@@ -303,6 +310,11 @@ Button3
 }
 ]
 )
+;
+await
+notif1
+.
+updateComplete
 ;
 verifyTelemetry
 (
@@ -550,6 +562,7 @@ box
 let
 notif4
 =
+await
 box1
 .
 appendNotification
@@ -601,6 +614,11 @@ Button1
 }
 ]
 )
+;
+await
+notif4
+.
+updateComplete
 ;
 verifyTelemetry
 (
@@ -655,6 +673,7 @@ notification
 let
 notif5
 =
+await
 box1
 .
 appendNotification
@@ -707,6 +726,11 @@ Button1
 }
 ]
 )
+;
+await
+notif5
+.
+updateComplete
 ;
 verifyTelemetry
 (
@@ -761,6 +785,7 @@ notification
 let
 notif6
 =
+await
 box1
 .
 appendNotification
@@ -825,6 +850,11 @@ pressed
 }
 ]
 )
+;
+await
+notif6
+.
+updateComplete
 ;
 verifyTelemetry
 (
