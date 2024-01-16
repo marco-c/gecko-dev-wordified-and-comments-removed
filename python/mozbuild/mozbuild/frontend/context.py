@@ -14736,7 +14736,7 @@ tests
 )
     
 "
-MARIONETTE_LAYOUT_MANIFESTS
+MARIONETTE_MANIFESTS
 "
 :
 (
@@ -14754,38 +14754,6 @@ manifest
 files
 defining
 marionette
--
-layout
-tests
-.
-        
-"
-"
-"
-    
-)
-    
-"
-MARIONETTE_UNIT_MANIFESTS
-"
-:
-(
-        
-ManifestparserManifestList
-        
-list
-        
-"
-"
-"
-List
-of
-manifest
-files
-defining
-marionette
--
-unit
 tests
 .
         

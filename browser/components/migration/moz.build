@@ -12,7 +12,7 @@ xpcshell
 toml
 "
 ]
-MARIONETTE_UNIT_MANIFESTS
+MARIONETTE_MANIFESTS
 +
 =
 [
