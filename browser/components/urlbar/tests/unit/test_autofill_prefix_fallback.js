@@ -230,6 +230,10 @@ host
 /
 fallbackTitle
 :
+UrlbarTestUtils
+.
+trimURL
+(
 https
 :
 /
@@ -239,6 +243,7 @@ www
 {
 host
 }
+)
 heuristic
 :
 true
@@ -402,6 +407,10 @@ host
 /
 fallbackTitle
 :
+UrlbarTestUtils
+.
+trimURL
+(
 https
 :
 /
@@ -409,6 +418,7 @@ https
 {
 host
 }
+)
 heuristic
 :
 true

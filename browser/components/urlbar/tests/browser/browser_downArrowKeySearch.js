@@ -263,6 +263,11 @@ example
 com
 /
 "
+{
+removeSingleTrailingSlash
+:
+false
+}
 )
 )
 ;

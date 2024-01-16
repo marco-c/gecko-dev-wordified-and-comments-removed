@@ -1330,9 +1330,16 @@ toString
 let
 displayURL
 =
-decodeURI
+UrlbarUtils
+.
+prepareUrlForDisplay
 (
 uri
+{
+trimURL
+:
+false
+}
 )
 ;
 /
