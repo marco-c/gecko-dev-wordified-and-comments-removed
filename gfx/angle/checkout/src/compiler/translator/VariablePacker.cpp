@@ -1112,7 +1112,6 @@ GetVariablePackingRows
 variable
 )
 ;
-}
 if
 (
 topNonFullRow_
@@ -1123,6 +1122,7 @@ maxRows_
 return
 false
 ;
+}
 }
 int
 num3ColumnRows
@@ -1186,7 +1186,6 @@ GetVariablePackingRows
 variable
 )
 ;
-}
 if
 (
 topNonFullRow_
@@ -1199,6 +1198,7 @@ maxRows_
 return
 false
 ;
+}
 }
 fillColumns
 (
