@@ -3706,14 +3706,6 @@ fieldNames
 )
 ;
 bool
-IsBuiltinAccessForStringCalendar
-(
-JSContext
-*
-cx
-)
-;
-bool
 WrapCalendarValue
 (
 JSContext
