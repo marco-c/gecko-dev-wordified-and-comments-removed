@@ -975,7 +975,7 @@ feed
 .
 _telemetryUtility
 .
-setRemovedTilesToOversold
+determineFilteredTilesAndSetToOversold
 (
 mergedTiles
 )
@@ -1121,7 +1121,7 @@ createSandbox
 info
 (
 "
-setRemovedTilesToOversold
+determineFilteredTilesAndSetToOversold
 should
 set
 moz
@@ -1240,7 +1240,7 @@ feed
 .
 _telemetryUtility
 .
-setRemovedTilesToOversold
+determineFilteredTilesAndSetToOversold
 (
 mergedTiles
 )
@@ -1373,7 +1373,7 @@ createSandbox
 info
 (
 "
-setRemovedTilesToOversold
+determineFilteredTilesAndSetToOversold
 should
 set
 contile
@@ -1500,7 +1500,7 @@ feed
 .
 _telemetryUtility
 .
-setRemovedTilesToOversold
+determineFilteredTilesAndSetToOversold
 (
 mergedTiles
 )
@@ -1725,7 +1725,7 @@ feed
 .
 _telemetryUtility
 .
-setRemovedTilesToDismissed
+determineFilteredTilesAndSetToDismissed
 (
 mergedTiles
 )
@@ -1955,7 +1955,7 @@ feed
 .
 _telemetryUtility
 .
-setRemovedTilesToDismissed
+determineFilteredTilesAndSetToDismissed
 (
 mergedTiles
 )
@@ -2223,7 +2223,7 @@ feed
 .
 _telemetryUtility
 .
-setRemovedTilesToOversold
+determineFilteredTilesAndSetToOversold
 (
 filteredContileTiles
 )
@@ -5283,9 +5283,9 @@ the
 tile
 count
 should
+update
 from
 cache
-update
 when
 topSitesMaxSponsored
 is
