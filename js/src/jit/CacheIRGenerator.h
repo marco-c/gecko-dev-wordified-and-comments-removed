@@ -2818,7 +2818,17 @@ tryAttachStringFromCodePoint
 )
 ;
 AttachDecision
+tryAttachStringIncludes
+(
+)
+;
+AttachDecision
 tryAttachStringIndexOf
+(
+)
+;
+AttachDecision
+tryAttachStringLastIndexOf
 (
 )
 ;
