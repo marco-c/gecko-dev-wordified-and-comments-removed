@@ -86,7 +86,7 @@ if
 frames
 >
 =
-500
+5000
 |
 |
 frames
