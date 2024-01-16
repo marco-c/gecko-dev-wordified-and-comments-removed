@@ -243,9 +243,9 @@ void
 SetHitTestData
 (
 const
-LayerIntRegion
+LayerIntRect
 &
-aVisibleRegion
+aVisibleRect
 const
 LayerIntSize
 &
@@ -473,9 +473,9 @@ aRemoteLayersId
 const
 ;
 const
-LayerIntRegion
+LayerIntRect
 &
-GetVisibleRegion
+GetVisibleRect
 (
 )
 const
@@ -620,8 +620,8 @@ uint64_t
 >
 mStickyPositionAnimationId
 ;
-LayerIntRegion
-mVisibleRegion
+LayerIntRect
+mVisibleRect
 ;
 LayerIntSize
 mRemoteDocumentSize

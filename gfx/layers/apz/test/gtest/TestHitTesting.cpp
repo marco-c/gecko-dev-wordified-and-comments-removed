@@ -166,8 +166,8 @@ xx
 )
 "
 ;
-LayerIntRegion
-layerVisibleRegion
+LayerIntRect
+layerVisibleRect
 [
 ]
 =
@@ -247,7 +247,7 @@ LayerIntRect
 CreateScrollData
 (
 treeShape
-layerVisibleRegion
+layerVisibleRect
 )
 ;
 SetScrollableFrameMetrics
@@ -362,8 +362,8 @@ x
 )
 "
 ;
-LayerIntRegion
-layerVisibleRegion
+LayerIntRect
+layerVisibleRect
 [
 ]
 =
@@ -387,7 +387,7 @@ LayerIntRect
 CreateScrollData
 (
 treeShape
-layerVisibleRegion
+layerVisibleRect
 )
 ;
 SetScrollableFrameMetrics
@@ -2150,9 +2150,7 @@ layers
 ]
 -
 >
-SetVisibleRegion
-(
-LayerIntRegion
+SetVisibleRect
 (
 LayerIntRect
 (
@@ -2160,7 +2158,6 @@ LayerIntRect
 50
 200
 150
-)
 )
 )
 ;

@@ -27350,12 +27350,9 @@ resolution
 aLayerData
 -
 >
-SetVisibleRegion
-(
-LayerIntRegion
+SetVisibleRect
 (
 layerBounds
-)
 )
 ;
 }

@@ -85,9 +85,9 @@ APZUpdater
 &
 aUpdater
 const
-LayerIntRegion
+LayerIntRect
 *
-aVisibleRegions
+aVisibleRects
 =
 nullptr
 const

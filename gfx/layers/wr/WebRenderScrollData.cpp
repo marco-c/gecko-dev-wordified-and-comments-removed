@@ -973,7 +973,7 @@ visible
 "
 <
 <
-mVisibleRegion
+mVisibleRect
 ;
 if
 (
@@ -2463,7 +2463,7 @@ WriteParam
 aWriter
 aParam
 .
-mVisibleRegion
+mVisibleRect
 )
 ;
 WriteParam
@@ -2676,7 +2676,7 @@ aReader
 aResult
 -
 >
-mVisibleRegion
+mVisibleRect
 )
 &
 &

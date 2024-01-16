@@ -5776,7 +5776,7 @@ SetHitTestData
 (
 aLayer
 .
-GetVisibleRegion
+GetVisibleRect
 (
 )
 aLayer

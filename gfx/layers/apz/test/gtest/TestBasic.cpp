@@ -430,8 +430,8 @@ x
 )
 "
 ;
-LayerIntRegion
-layerVisibleRegion
+LayerIntRect
+layerVisibleRect
 [
 ]
 =
@@ -513,7 +513,7 @@ Create
 treeShape
 *
 updater
-layerVisibleRegion
+layerVisibleRect
 transforms
 )
 ;
