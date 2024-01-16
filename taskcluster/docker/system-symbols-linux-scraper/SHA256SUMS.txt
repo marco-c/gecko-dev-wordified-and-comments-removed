@@ -1,3 +1,9 @@
+d725d9dcacddd5b202c955f51c47460a29f83615e08d750e94d19e3e9a10a0a5
+alpine
+/
+SHA256SUMS
+.
+zip
 b4ba66e218aa6f27e19bfbc48142f86f3fddb64b6540fd5beb30bad11f73a409
 arch
 /

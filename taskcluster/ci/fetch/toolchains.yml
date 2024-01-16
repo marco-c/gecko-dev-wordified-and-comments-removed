@@ -4146,7 +4146,7 @@ type
 git
 repo
 :
-http
+https
 :
 /
 /
@@ -4161,7 +4161,7 @@ symbol
 scrapers
 revision
 :
-d6b42d6475aa9b9a24e2c0a72a5b15afd48b72df
+f3778f70e2c34315b4759b58c8284b76a6d71dfc
 xz
 -
 5
