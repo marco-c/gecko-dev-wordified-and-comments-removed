@@ -6535,6 +6535,9 @@ date
 settings
 .
 largestUnit
+settings
+.
+smallestUnit
 temporalDate
 calendar
 &

@@ -614,6 +614,8 @@ Duration
 duration
 TemporalUnit
 largestUnit
+TemporalUnit
+smallestUnit
 JS
 :
 :
