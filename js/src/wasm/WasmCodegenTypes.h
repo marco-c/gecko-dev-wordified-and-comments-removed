@@ -1893,6 +1893,7 @@ ReturnStub
 Symbolic
 EnterFrame
 LeaveFrame
+CollapseFrame
 Breakpoint
 }
 ;

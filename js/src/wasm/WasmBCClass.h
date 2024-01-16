@@ -2723,7 +2723,7 @@ type
 )
 ;
 bool
-insertLeaveFrame
+insertDebugCollapseFrame
 (
 )
 ;
