@@ -910,6 +910,13 @@ js
 ]
 [
 "
+test_engine_selector_engine_orders
+.
+js
+"
+]
+[
+"
 test_engine_selector_defaults
 .
 js
