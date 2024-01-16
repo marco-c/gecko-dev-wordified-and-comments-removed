@@ -4973,12 +4973,3 @@ maxLogLevel
 }
 }
 ;
-export
-var
-console
-=
-new
-ConsoleAPI
-(
-)
-;
