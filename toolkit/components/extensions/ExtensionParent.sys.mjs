@@ -1837,8 +1837,11 @@ type
 Map
 <
 number
+Partial
+<
 ParentPort
-|
+>
+&
 Promise
 <
 ParentPort

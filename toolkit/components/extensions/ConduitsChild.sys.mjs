@@ -621,6 +621,7 @@ actor
 .
 *
 /
+export
 class
 PointConduit
 extends

@@ -6957,13 +6957,7 @@ file
 *
 param
 {
-Ci
-.
-nsIFileURL
-|
-Ci
-.
-nsIJARURI
+string
 }
 path
 *

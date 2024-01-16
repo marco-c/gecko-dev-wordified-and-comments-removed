@@ -3432,6 +3432,11 @@ mjs
 PointConduit
 }
 *
+type
+{
+ConduitOpen
+}
+*
 /
 openConduit
 (
@@ -11433,6 +11438,11 @@ schemaURLs
 =
 schemaURLs
 ;
+}
+lazyInit
+(
+)
+{
 }
 }
 defineLazyGetter
