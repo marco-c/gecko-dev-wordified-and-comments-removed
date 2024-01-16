@@ -883,9 +883,7 @@ looking
 for
 the
 first
-_firefox
--
-bin_
+_firefox_
 binary
 in
 the
