@@ -237,10 +237,6 @@ notificationEl
 messageText
 .
 textContent
-.
-trim
-(
-)
 "
 The
 device

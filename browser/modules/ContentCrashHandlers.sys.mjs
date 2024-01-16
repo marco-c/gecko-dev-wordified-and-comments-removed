@@ -2395,7 +2395,6 @@ crash
 .
 *
 /
-async
 showSubFrameNotification
 (
 browser
@@ -2628,7 +2627,6 @@ closeAllNotifications
 ;
 notification
 =
-await
 notificationBox
 .
 appendNotification
@@ -5907,7 +5905,6 @@ otherwise
 .
 *
 /
-async
 showPendingSubmissionsNotification
 (
 reportIDs
@@ -5928,7 +5925,6 @@ null
 let
 notification
 =
-await
 this
 .
 show
