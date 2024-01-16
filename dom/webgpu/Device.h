@@ -797,6 +797,9 @@ dom
 GPUShaderModuleDescriptor
 &
 aDesc
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
