@@ -2615,7 +2615,14 @@ border
 -
 color
 :
-ThreeDShadow
+var
+(
+-
+-
+border
+-
+color
+)
 ;
 -
 -
