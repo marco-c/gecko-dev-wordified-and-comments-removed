@@ -2900,6 +2900,12 @@ mTrackInfo
 ;
 Maybe
 <
+uint8_t
+>
+mTemporalLayerId
+;
+Maybe
+<
 media
 :
 :

@@ -5993,6 +5993,16 @@ UpdateTemporalLayerId
 (
 )
 ;
+data
+-
+>
+mTemporalLayerId
+.
+emplace
+(
+temporalLayerId
+)
+;
 }
 return
 data
