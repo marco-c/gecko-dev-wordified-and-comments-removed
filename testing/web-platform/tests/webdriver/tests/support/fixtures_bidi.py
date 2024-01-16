@@ -85,6 +85,9 @@ function_declaration
 arguments
 =
 None
+contexts
+=
+None
 sandbox
 =
 None
@@ -108,6 +111,10 @@ function_declaration
 arguments
 =
 arguments
+            
+contexts
+=
+contexts
             
 sandbox
 =
