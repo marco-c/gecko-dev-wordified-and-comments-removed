@@ -7087,13 +7087,9 @@ Element
 &
 aElement
 const
-Element
+nsIContent
 *
-aPrevSibling
-const
-Element
-*
-aNextSibling
+aFollowingSibling
 )
 {
 Servo_StyleSet_MaybeInvalidateRelativeSelectorForRemoval
@@ -7105,8 +7101,7 @@ get
 )
 &
 aElement
-aPrevSibling
-aNextSibling
+aFollowingSibling
 )
 ;
 }
