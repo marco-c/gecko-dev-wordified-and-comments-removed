@@ -627,9 +627,9 @@ GraphTime
 aStateTime
 GraphTime
 aIterationEnd
-AudioMixer
+MixerCallbackReceiver
 *
-aMixer
+aMixerReceiver
 )
 override
 ;
@@ -640,9 +640,9 @@ GraphTime
 aStateTime
 GraphTime
 aIterationEnd
-AudioMixer
+MixerCallbackReceiver
 *
-aMixer
+aMixerReceiver
 )
 ;
 void
@@ -786,9 +786,9 @@ EnsureNextIteration
 void
 Process
 (
-AudioMixer
+MixerCallbackReceiver
 *
-aMixer
+aMixerReceiver
 )
 ;
 void
@@ -928,9 +928,6 @@ mVolume
 TrackTime
 PlayAudio
 (
-AudioMixer
-*
-aMixer
 const
 TrackKeyAndVolume
 &
@@ -2226,6 +2223,9 @@ private
 :
 DeviceInputTrackManager
 mDeviceInputTrackManagerGraphThread
+;
+AudioMixer
+mMixer
 ;
 }
 ;

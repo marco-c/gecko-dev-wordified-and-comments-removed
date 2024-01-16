@@ -37,8 +37,6 @@ AudioCaptureTrack
 :
 public
 ProcessedMediaTrack
-public
-MixerCallbackReceiver
 {
 public
 :
@@ -81,17 +79,6 @@ override
 ;
 protected
 :
-void
-MixerCallback
-(
-AudioChunk
-*
-aMixedBuffer
-uint32_t
-aSampleRate
-)
-override
-;
 AudioMixer
 mMixer
 ;

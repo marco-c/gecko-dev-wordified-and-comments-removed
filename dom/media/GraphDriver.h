@@ -870,9 +870,9 @@ GraphTime
 aStateComputedEnd
 GraphTime
 aIterationEnd
-AudioMixer
+MixerCallbackReceiver
 *
-aMixer
+aMixerReceiver
 )
 =
 0
@@ -2221,9 +2221,6 @@ mCubebOperationThread
 ;
 cubeb_device_pref
 mInputDevicePreference
-;
-AudioMixer
-mMixer
 ;
 std
 :

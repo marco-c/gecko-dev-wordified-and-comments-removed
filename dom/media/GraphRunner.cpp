@@ -302,9 +302,9 @@ GraphTime
 aStateTime
 GraphTime
 aIterationEnd
-AudioMixer
+MixerCallbackReceiver
 *
-aMixer
+aMixerReceiver
 )
 -
 >
@@ -345,7 +345,7 @@ IterationState
 (
 aStateTime
 aIterationEnd
-aMixer
+aMixerReceiver
 )
 )
 ;
@@ -773,7 +773,7 @@ IterationEnd
 mIterationState
 -
 >
-Mixer
+MixerReceiver
 (
 )
 )
