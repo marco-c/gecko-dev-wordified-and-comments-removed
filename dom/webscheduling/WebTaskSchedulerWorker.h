@@ -124,6 +124,12 @@ WorkerPrivate
 aWorkerPrivate
 )
 ;
+void
+Disconnect
+(
+)
+override
+;
 private
 :
 ~
