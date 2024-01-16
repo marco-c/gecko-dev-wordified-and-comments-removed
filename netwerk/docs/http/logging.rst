@@ -1278,12 +1278,7 @@ log
 .
 txt
 .
-Mac
-OS
-X
-~
-~
-~
+macOS
 ~
 ~
 ~
@@ -1300,9 +1295,7 @@ traffic
 in
 Firefox
 on
-Mac
-OS
-X
+macOS
 .
 #
 .
@@ -1342,9 +1335,7 @@ not
 quit
 Firefox
 on
-Mac
-OS
-X
+macOS
 (
 this
 is
@@ -1442,8 +1433,6 @@ MacOS
 .
 /
 firefox
--
-bin
 (
 The
 instructions

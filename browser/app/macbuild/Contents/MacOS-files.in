@@ -42,10 +42,6 @@ app
 *
 /
 certutil
-/
-MOZ_APP_NAME
--
-bin
 #
 if
 defined

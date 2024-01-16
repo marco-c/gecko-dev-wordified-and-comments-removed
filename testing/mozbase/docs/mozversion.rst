@@ -161,8 +161,6 @@ path
 to
 /
 firefox
--
-bin
 '
 )
 for
