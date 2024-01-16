@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -99,6 +92,12 @@ mozilla
 {
 class
 PresShell
+;
+enum
+class
+WindowShadow
+:
+uint8_t
 ;
 namespace
 dom
@@ -693,7 +692,7 @@ aView
 mozilla
 :
 :
-StyleWindowShadow
+WindowShadow
 GetShadowStyle
 (
 )

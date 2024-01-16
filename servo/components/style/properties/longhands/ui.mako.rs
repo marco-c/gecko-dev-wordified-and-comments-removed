@@ -318,7 +318,7 @@ window
 shadow
 "
 "
-default
+auto
 none
 "
 engines
@@ -336,9 +336,6 @@ gecko_enum_prefix
 "
 StyleWindowShadow
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "

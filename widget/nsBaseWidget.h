@@ -813,8 +813,7 @@ SetWindowShadowStyle
 mozilla
 :
 :
-StyleWindowShadow
-aStyle
+WindowShadow
 )
 override
 {

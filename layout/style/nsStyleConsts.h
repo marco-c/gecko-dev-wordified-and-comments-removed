@@ -828,10 +828,8 @@ StyleWindowShadow
 :
 uint8_t
 {
+Auto
 None
-Default
-Menu
-Tooltip
 }
 ;
 enum
