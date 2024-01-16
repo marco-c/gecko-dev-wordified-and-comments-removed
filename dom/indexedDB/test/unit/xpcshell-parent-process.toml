@@ -436,16 +436,4 @@ if
 "
 tsan
 "
-"
-os
-=
-=
-'
-android
-'
-&
-&
-!
-nightly_build
-"
 ]
