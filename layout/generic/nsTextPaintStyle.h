@@ -423,9 +423,6 @@ mSystemFieldBackgroundColor
 struct
 nsSelectionStyle
 {
-bool
-mInit
-;
 nscolor
 mTextColor
 ;
@@ -443,7 +440,13 @@ mUnderlineRelativeSize
 ;
 }
 ;
+mozilla
+:
+:
+Maybe
+<
 nsSelectionStyle
+>
 mSelectionStyle
 [
 5
