@@ -1015,7 +1015,7 @@ notification
 ;
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
@@ -2083,7 +2083,7 @@ notification
 ;
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
@@ -2399,7 +2399,7 @@ notification
 ;
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
