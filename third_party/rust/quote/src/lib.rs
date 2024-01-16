@@ -20,7 +20,7 @@ quote
 .
 0
 .
-28
+35
 "
 )
 ]
@@ -51,6 +51,10 @@ clippy
 wrong_self_convention
 )
 ]
+extern
+crate
+alloc
+;
 #
 [
 cfg

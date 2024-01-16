@@ -189,6 +189,12 @@ ident
 first
 "
 }
+Token
+!
+[
+:
+:
+]
 PathSegment
 {
 ident
@@ -237,6 +243,12 @@ ident
 first
 "
 }
+Token
+!
+[
+:
+:
+]
 PathSegment
 {
 ident

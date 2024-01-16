@@ -3198,6 +3198,8 @@ ext
 :
 :
 IdentExt
+as
+_
 ;
 use
 crate

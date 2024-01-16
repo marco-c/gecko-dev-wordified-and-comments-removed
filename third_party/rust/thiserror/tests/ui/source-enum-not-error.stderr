@@ -35,9 +35,9 @@ error
 .
 rs
 :
-10
-:
 9
+:
+14
 |
 4
 |
@@ -96,11 +96,14 @@ Error
 .
 .
 .
-10
+9
 |
+Broken
+{
 source
 :
 NotError
+}
 |
 ^
 ^

@@ -45,6 +45,10 @@ allow
 clippy
 :
 :
+blocks_in_conditions
+clippy
+:
+:
 manual_assert
 clippy
 :
@@ -1133,7 +1137,7 @@ message
 &
 diagnostic
 .
-message
+messages
 [
 0
 ]

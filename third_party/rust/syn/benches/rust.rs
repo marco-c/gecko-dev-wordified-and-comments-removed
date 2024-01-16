@@ -30,6 +30,10 @@ allow
 clippy
 :
 :
+arc_with_non_send_sync
+clippy
+:
+:
 cast_lossless
 clippy
 :
@@ -298,8 +302,8 @@ translation
 :
 :
 Translate
+DiagCtxt
 Diagnostic
-Handler
 }
 ;
 use
@@ -460,7 +464,7 @@ _
 |
 {
 let
-cm
+source_map
 =
 Lrc
 :
@@ -495,7 +499,7 @@ SilentEmitter
 let
 handler
 =
-Handler
+DiagCtxt
 :
 :
 with_emitter
@@ -509,10 +513,10 @@ sess
 ParseSess
 :
 :
-with_span_handler
+with_dcx
 (
 handler
-cm
+source_map
 )
 ;
 if

@@ -593,6 +593,12 @@ ident
 serde
 "
 }
+Token
+!
+[
+:
+:
+]
 PathSegment
 {
 ident

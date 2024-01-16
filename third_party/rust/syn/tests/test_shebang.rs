@@ -125,6 +125,12 @@ Default
 block
 :
 Block
+{
+stmts
+:
+[
+]
+}
 }
 ]
 }
@@ -287,6 +293,12 @@ Default
 block
 :
 Block
+{
+stmts
+:
+[
+]
+}
 }
 ]
 }

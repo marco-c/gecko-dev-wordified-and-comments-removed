@@ -7,6 +7,10 @@ clippy
 :
 :
 needless_late_init
+clippy
+:
+:
+uninlined_format_args
 )
 ]
 use

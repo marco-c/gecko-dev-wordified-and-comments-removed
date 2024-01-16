@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2018
+2021
 "
 rust
 -
@@ -125,7 +125,7 @@ version
 .
 0
 .
-40
+56
 "
 authors
 =
@@ -186,6 +186,23 @@ docs
 .
 rs
 ]
+rustdoc
+-
+args
+=
+[
+"
+-
+-
+generate
+-
+link
+-
+to
+-
+definition
+"
+]
 targets
 =
 [
@@ -220,6 +237,8 @@ version
 1
 .
 0
+.
+74
 "
 [
 dependencies
@@ -232,6 +251,8 @@ version
 1
 .
 0
+.
+35
 "
 [
 dependencies
@@ -244,4 +265,6 @@ version
 2
 .
 0
+.
+46
 "

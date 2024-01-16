@@ -10,7 +10,7 @@ iter_cloned_collect
 clippy
 :
 :
-option_if_let_else
+uninlined_format_args
 )
 ]
 use

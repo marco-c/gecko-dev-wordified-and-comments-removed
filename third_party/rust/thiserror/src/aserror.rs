@@ -16,6 +16,13 @@ panic
 :
 UnwindSafe
 ;
+#
+[
+doc
+(
+hidden
+)
+]
 pub
 trait
 AsDynError
@@ -263,6 +270,13 @@ a
 self
 }
 }
+#
+[
+doc
+(
+hidden
+)
+]
 pub
 trait
 Sealed

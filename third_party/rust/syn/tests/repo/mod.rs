@@ -106,7 +106,7 @@ REVISION
 str
 =
 "
-a2f5f9691b6ce64c1703feaf9363710dfd7a56cf
+b10cfcd65fd7f7b1ab9beb34798b2108de003452
 "
 ;
 #
@@ -377,6 +377,17 @@ inner
 variants
 -
 lazy_type_alias
+.
+rs
+"
+"
+compiler
+/
+rustc_codegen_cranelift
+/
+example
+/
+gen_block_iterate
 .
 rs
 "

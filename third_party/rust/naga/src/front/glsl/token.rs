@@ -10,7 +10,6 @@ token
 Float
 Integer
 Location
-PreprocessorError
 Token
 as
 PPToken

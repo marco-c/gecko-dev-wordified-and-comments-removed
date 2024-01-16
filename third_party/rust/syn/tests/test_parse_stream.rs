@@ -17,6 +17,8 @@ ext
 :
 :
 IdentExt
+as
+_
 ;
 use
 syn

@@ -123,7 +123,7 @@ version
 .
 0
 .
-39
+46
 "
 authors
 =
@@ -427,7 +427,7 @@ version
 .
 0
 .
-67
+74
 "
 default
 -
@@ -446,7 +446,7 @@ version
 .
 0
 .
-28
+35
 "
 optional
 =
@@ -536,18 +536,6 @@ dependencies
 ref
 -
 cast
-]
-version
-=
-"
-1
-"
-[
-dev
--
-dependencies
-.
-regex
 ]
 version
 =

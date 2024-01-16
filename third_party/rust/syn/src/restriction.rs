@@ -408,6 +408,8 @@ ext
 :
 :
 IdentExt
+as
+_
 ;
 use
 crate
@@ -420,6 +422,8 @@ discouraged
 :
 :
 Speculative
+as
+_
 ;
 use
 crate

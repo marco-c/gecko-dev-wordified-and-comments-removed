@@ -78,13 +78,6 @@ a
 >
 {
 pub
-original
-:
-&
-'
-a
-DeriveInput
-pub
 attrs
 :
 Attrs
@@ -123,13 +116,6 @@ Enum
 a
 >
 {
-pub
-original
-:
-&
-'
-a
-DeriveInput
 pub
 attrs
 :
@@ -485,9 +471,6 @@ Ok
 (
 Struct
 {
-original
-:
-node
 attrs
 ident
 :
@@ -720,9 +703,6 @@ Ok
 (
 Enum
 {
-original
-:
-node
 attrs
 ident
 :

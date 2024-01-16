@@ -6896,7 +6896,7 @@ wgt
 PresentMode
 :
 :
-Mailbox
+Immediate
 ]
 }
 else

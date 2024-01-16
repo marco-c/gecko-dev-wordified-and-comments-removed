@@ -141,6 +141,15 @@ use
 crate
 :
 :
+snatch
+:
+:
+SnatchGuard
+;
+use
+crate
+:
+:
 init_tracker
 :
 :
@@ -894,6 +903,8 @@ CommandBuffer
 :
 drop
 {
+:
+?
 }
 "
 self
@@ -1219,6 +1230,10 @@ Tracker
 <
 A
 >
+snatch_guard
+:
+&
+SnatchGuard
 )
 {
 profiling
@@ -1263,6 +1278,7 @@ drain_barriers
 (
 raw
 base
+snatch_guard
 )
 ;
 }
@@ -1296,6 +1312,10 @@ UsageScope
 <
 A
 >
+snatch_guard
+:
+&
+SnatchGuard
 )
 {
 profiling
@@ -1340,6 +1360,7 @@ drain_barriers
 (
 raw
 base
+snatch_guard
 )
 ;
 }
@@ -1366,6 +1387,10 @@ Tracker
 <
 A
 >
+snatch_guard
+:
+&
+SnatchGuard
 )
 {
 profiling
@@ -1388,6 +1413,7 @@ buffers
 .
 drain_transitions
 (
+snatch_guard
 )
 ;
 let
