@@ -329,11 +329,7 @@ XP_WIN
 )
 &
 &
-!
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
+0
 #
 define
 TRANSLATE_NEW_LINES
