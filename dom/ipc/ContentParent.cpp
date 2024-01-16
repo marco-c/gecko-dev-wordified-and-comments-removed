@@ -17513,6 +17513,14 @@ ValidatePrincipalOptions
 :
 :
 AllowNullPtr
+ValidatePrincipalOptions
+:
+:
+AllowExpanded
+ValidatePrincipalOptions
+:
+:
+AllowSystem
 }
 )
 )
@@ -21530,7 +21538,7 @@ auto
 *
 targetEmbedder
 =
-aSource
+aTarget
 .
 GetParentWindowContext
 (
