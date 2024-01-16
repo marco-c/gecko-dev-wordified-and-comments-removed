@@ -594,14 +594,6 @@ control
 "
 scrollend
 "
-win
-=
->
-"
-onscrollend
-"
-in
-win
 )
 generalEvent
 (
