@@ -17633,7 +17633,7 @@ MIRType
 Int32
 )
 ;
-LCharCodeAt
+auto
 *
 lir
 =
@@ -17649,7 +17649,7 @@ useRegister
 (
 str
 )
-useRegister
+useRegisterOrZero
 (
 idx
 )
@@ -17755,7 +17755,7 @@ useRegister
 (
 str
 )
-useRegister
+useRegisterOrZero
 (
 idx
 )
