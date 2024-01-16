@@ -139,7 +139,7 @@ mByteReadCount
 void
 AddOutputBytes
 (
-uint64_t
+int32_t
 aBytes
 )
 ;

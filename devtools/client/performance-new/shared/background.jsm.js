@@ -1009,6 +1009,9 @@ java
 "
 processcpu
 "
+"
+bandwidth
+"
 ]
 threads
 :
@@ -1151,6 +1154,9 @@ markersallthreads
 "
 "
 power
+"
+"
+bandwidth
 "
 ]
 threads
