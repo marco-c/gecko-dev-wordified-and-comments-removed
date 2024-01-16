@@ -2665,6 +2665,15 @@ openLocation
 nsIBrowserDOMWindow
 :
 :
+OPEN_NEWTAB_BACKGROUND
+&
+&
+openLocation
+!
+=
+nsIBrowserDOMWindow
+:
+:
 OPEN_CURRENTWINDOW
 &
 &
