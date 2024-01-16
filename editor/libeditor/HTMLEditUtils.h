@@ -388,10 +388,6 @@ meter
 nsGkAtoms
 :
 :
-picture
-nsGkAtoms
-:
-:
 progress
 nsGkAtoms
 :
