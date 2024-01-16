@@ -278,6 +278,7 @@ eIndexSelRawText
 eIndexConvText
 eIndexSelConvText
 eIndexSpellChecker
+eNumSelectionTypes
 }
 ;
 static
