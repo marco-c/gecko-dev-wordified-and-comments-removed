@@ -587,6 +587,14 @@ GfxInfoFeatureStatus
 aFS
 )
 ;
+static
+bool
+OnlyAllowFeatureOnKnownConfig
+(
+int32_t
+aFeature
+)
+;
 protected
 :
 virtual
