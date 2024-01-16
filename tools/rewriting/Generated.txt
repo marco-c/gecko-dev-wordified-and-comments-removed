@@ -256,6 +256,16 @@ changesets
 json
 node_modules
 /
+python
+/
+mozperftest
+/
+mozperftest
+/
+tests
+/
+data
+/
 security
 /
 manager

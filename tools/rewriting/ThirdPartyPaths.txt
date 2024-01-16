@@ -973,6 +973,14 @@ js
 /
 src
 /
+tests
+/
+test262
+/
+js
+/
+src
+/
 vtune
 /
 disable_warnings
