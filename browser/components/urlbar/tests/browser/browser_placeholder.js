@@ -1802,6 +1802,7 @@ bar
 "
 )
 ;
+await
 BrowserSearch
 .
 removalOfSearchEngineNotificationBox
