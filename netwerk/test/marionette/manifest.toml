@@ -1,5 +1,10 @@
 [
+DEFAULT
+]
+[
+"
 test_purge_http_cache_at_shutdown
 .
 py
+"
 ]

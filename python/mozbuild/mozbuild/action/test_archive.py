@@ -581,7 +581,7 @@ unit
 -
 tests
 .
-ini
+toml
 "
             
 ]
@@ -1634,7 +1634,7 @@ pattern
 "
 cppunittest
 .
-ini
+toml
 "
             
 "
@@ -5159,7 +5159,7 @@ unit
 -
 tests
 .
-ini
+toml
 "
         
 "

@@ -1649,7 +1649,7 @@ manifest
 files
 (
 .
-ini
+toml
 )
 or
 directories
@@ -2015,11 +2015,11 @@ from
 a
 JSON
 or
-INI
+TOML
 file
 .
 For
-INI
+TOML
 use
 "
             
@@ -2027,7 +2027,7 @@ use
 '
 file
 .
-ini
+toml
 :
 section
 '
@@ -7168,7 +7168,7 @@ endswith
 (
 "
 .
-ini
+toml
 "
 )
 :
@@ -7308,7 +7308,7 @@ file_ext
 =
 "
 .
-ini
+toml
 "
 :
             

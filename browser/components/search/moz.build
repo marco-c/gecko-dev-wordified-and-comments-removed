@@ -78,7 +78,7 @@ marionette
 /
 manifest
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

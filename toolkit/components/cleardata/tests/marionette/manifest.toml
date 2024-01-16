@@ -1,10 +1,17 @@
 [
+DEFAULT
+]
+[
+"
 test_moved_origin_directory_cleanup
 .
 py
+"
 ]
 [
+"
 test_service_worker_at_shutdown
 .
 py
+"
 ]

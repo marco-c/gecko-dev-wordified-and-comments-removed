@@ -586,6 +586,6 @@ marionette
 /
 manifest
 .
-ini
+toml
 "
 ]

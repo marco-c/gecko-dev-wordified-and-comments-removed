@@ -500,7 +500,7 @@ fake
 /
 manifest
 .
-ini
+toml
 "
         
 self
@@ -852,7 +852,7 @@ run_tests
 "
 fake_tests
 .
-ini
+toml
 "
 ]
 )

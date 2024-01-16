@@ -136,7 +136,7 @@ marionette
 /
 manifest
 .
-ini
+toml
 "
 ]
 if

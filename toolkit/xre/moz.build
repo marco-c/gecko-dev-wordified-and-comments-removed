@@ -107,7 +107,7 @@ marionette
 /
 marionette
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES

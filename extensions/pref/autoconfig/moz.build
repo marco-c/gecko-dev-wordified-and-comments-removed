@@ -40,6 +40,6 @@ marionette
 /
 manifest
 .
-ini
+toml
 "
 ]

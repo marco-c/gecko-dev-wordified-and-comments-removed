@@ -1,5 +1,10 @@
 [
+DEFAULT
+]
+[
+"
 test_ssl_status_after_restart
 .
 py
+"
 ]
