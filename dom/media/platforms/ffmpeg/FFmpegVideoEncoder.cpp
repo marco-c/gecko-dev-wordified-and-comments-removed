@@ -3053,7 +3053,7 @@ get
 ;
 }
 }
-nsCString
+nsAutoCString
 codecSpecificLog
 ;
 if
