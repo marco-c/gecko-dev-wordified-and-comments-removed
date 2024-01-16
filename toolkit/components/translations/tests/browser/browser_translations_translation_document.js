@@ -6,6 +6,7 @@ strict
 const
 {
 TranslationsDocument
+LRUCache
 }
 =
 ChromeUtils
@@ -178,6 +179,10 @@ now
 performance
 .
 now
+(
+)
+new
+LRUCache
 (
 )
 )
