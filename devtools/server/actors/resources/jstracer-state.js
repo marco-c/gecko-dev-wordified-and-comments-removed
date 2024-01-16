@@ -146,6 +146,7 @@ tracingListener
 onTracingToggled
 (
 enabled
+reason
 )
 {
 const
@@ -210,6 +211,7 @@ ChromeUtils
 dateNow
 (
 )
+reason
 }
 ]
 )
