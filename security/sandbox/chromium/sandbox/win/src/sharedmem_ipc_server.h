@@ -128,6 +128,12 @@ uint32_t
 channel_size
 )
 ;
+static
+bool
+CreateBrokerAliveMutex
+(
+)
+;
 private
 :
 FRIEND_TEST_ALL_PREFIXES
