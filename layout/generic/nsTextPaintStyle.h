@@ -464,7 +464,7 @@ InitSelectionColorsAndShadow
 ;
 nsSelectionStyle
 *
-GetSelectionStyle
+SelectionStyle
 (
 int32_t
 aIndex

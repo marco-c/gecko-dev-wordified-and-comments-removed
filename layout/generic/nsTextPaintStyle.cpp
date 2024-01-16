@@ -1251,7 +1251,7 @@ nsSelectionStyle
 *
 selectionStyle
 =
-GetSelectionStyle
+SelectionStyle
 (
 aIndex
 )
@@ -1335,7 +1335,7 @@ nsSelectionStyle
 *
 selectionStyle
 =
-GetSelectionStyle
+SelectionStyle
 (
 aIndex
 )
@@ -1891,7 +1891,7 @@ nsSelectionStyle
 nsTextPaintStyle
 :
 :
-GetSelectionStyle
+SelectionStyle
 (
 int32_t
 aIndex
