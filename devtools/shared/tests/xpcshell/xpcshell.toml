@@ -93,13 +93,6 @@ js
 ]
 [
 "
-test_defer
-.
-js
-"
-]
-[
-"
 test_defineLazyPrototypeGetter
 .
 js

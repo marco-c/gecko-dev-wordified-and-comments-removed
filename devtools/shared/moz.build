@@ -231,11 +231,6 @@ debounce
 js
 "
 "
-defer
-.
-js
-"
-"
 DevToolsInfaillibleUtils
 .
 sys
