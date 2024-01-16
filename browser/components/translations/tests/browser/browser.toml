@@ -323,6 +323,13 @@ js
 ]
 [
 "
+browser_translations_select_context_menu_feature_disabled
+.
+js
+"
+]
+[
+"
 browser_translations_telemetry_firstrun_auto_translate
 .
 js
