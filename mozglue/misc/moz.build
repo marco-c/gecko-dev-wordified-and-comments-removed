@@ -178,6 +178,11 @@ AwakeTimeStamp
 cpp
 "
 "
+Debug
+.
+cpp
+"
+"
 MmapFaultHandler
 .
 cpp
@@ -212,7 +217,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 .
