@@ -2800,7 +2800,7 @@ substs
 get
 (
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
 =
@@ -14605,7 +14605,6 @@ from
 one
 of
 the
-\
 *
 WEBIDL_FILES
         
