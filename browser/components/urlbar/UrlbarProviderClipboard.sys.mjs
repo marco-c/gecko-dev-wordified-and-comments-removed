@@ -305,6 +305,13 @@ if
 (
 !
 textFromClipboard
+|
+|
+textFromClipboard
+.
+length
+>
+2048
 )
 {
 return
