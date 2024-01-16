@@ -705,7 +705,6 @@ yuv
 )
 ;
 static
-const
 vpx_codec_iface_t
 *
 codec

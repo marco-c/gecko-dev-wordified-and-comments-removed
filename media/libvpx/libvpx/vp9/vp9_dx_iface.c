@@ -1797,15 +1797,8 @@ data_sz
 void
 *
 user_priv
-int64_t
-deadline
 )
 {
-(
-void
-)
-deadline
-;
 if
 (
 !
@@ -2001,8 +1994,6 @@ data_sz
 void
 *
 user_priv
-long
-deadline
 )
 {
 const
@@ -2235,7 +2226,6 @@ ctx
 data_start_copy
 frame_size
 user_priv
-deadline
 )
 ;
 if
@@ -2296,7 +2286,6 @@ ctx
 data_start
 frame_size
 user_priv
-deadline
 )
 ;
 if

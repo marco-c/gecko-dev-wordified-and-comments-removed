@@ -278,9 +278,6 @@ h_event_end_decoding
 ;
 #
 endif
-int64_t
-last_time_stamp
-;
 int
 ready_for_new_data
 ;

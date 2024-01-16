@@ -84,7 +84,6 @@ InvalidParams
 )
 {
 static
-const
 vpx_codec_iface_t
 *
 kCodecs
@@ -619,7 +618,6 @@ DecodeAPI
 Vp9InvalidDecode
 )
 {
-const
 vpx_codec_iface_t
 *
 const
@@ -813,7 +811,6 @@ uint32_t
 peek_size
 )
 {
-const
 vpx_codec_iface_t
 *
 const

@@ -1016,8 +1016,7 @@ long
 duration
 vpx_enc_frame_flags_t
 flags
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 )
 {

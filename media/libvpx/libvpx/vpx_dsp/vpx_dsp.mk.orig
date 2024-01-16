@@ -1688,7 +1688,7 @@ HAVE_SSE2
 =
 x86
 /
-loopfilter_intrin_sse2
+loopfilter_sse2
 .
 c
 DSP_SRCS
@@ -3102,7 +3102,7 @@ HAVE_LSX
 =
 loongarch
 /
-quantize_intrin_lsx
+quantize_lsx
 .
 c
 ifeq

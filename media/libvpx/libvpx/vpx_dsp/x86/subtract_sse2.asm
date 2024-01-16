@@ -610,4 +610,5 @@ rowsd
 jg
 .
 loop_4
+emms
 RET

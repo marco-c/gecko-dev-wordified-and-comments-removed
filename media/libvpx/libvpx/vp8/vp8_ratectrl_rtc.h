@@ -131,7 +131,7 @@ GetLoopfilterLevel
 )
 const
 ;
-void
+FrameDropDecision
 ComputeQP
 (
 const

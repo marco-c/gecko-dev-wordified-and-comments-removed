@@ -66,8 +66,7 @@ EncoderWithExpectedError
 (
 vpx_codec_enc_cfg_t
 cfg
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 const
 unsigned

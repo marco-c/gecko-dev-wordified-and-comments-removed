@@ -529,6 +529,11 @@ deadline
 vpx_codec_err_t
 res
 ;
+(
+void
+)
+deadline
+;
 if
 (
 !
@@ -577,7 +582,6 @@ res
 VPX_CODEC_ERROR
 ;
 else
-{
 res
 =
 ctx
@@ -597,10 +601,8 @@ ctx
 data
 data_sz
 user_priv
-deadline
 )
 ;
-}
 return
 SAVE_STATUS
 (

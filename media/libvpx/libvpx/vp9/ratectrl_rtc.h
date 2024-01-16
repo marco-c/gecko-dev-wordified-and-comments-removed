@@ -154,6 +154,10 @@ min_quantizers
 =
 min_quantizer
 ;
+max_consec_drop
+=
+INT_MAX
+;
 }
 int
 ss_number_layers
@@ -181,6 +185,9 @@ scaling_factor_den
 [
 VPX_SS_MAX_LAYERS
 ]
+;
+int
+max_consec_drop
 ;
 }
 ;
@@ -275,7 +282,7 @@ segmentation_data
 )
 const
 ;
-void
+FrameDropDecision
 ComputeQP
 (
 const

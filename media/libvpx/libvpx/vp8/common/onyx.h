@@ -463,6 +463,7 @@ VP8_COMP
 *
 vp8_create_compressor
 (
+const
 VP8_CONFIG
 *
 oxcf

@@ -133,8 +133,6 @@ struct
 VP8D_COMP
 *
 pbi
-int64_t
-time_stamp
 )
 ;
 int
@@ -147,12 +145,6 @@ pbi
 YV12_BUFFER_CONFIG
 *
 sd
-int64_t
-*
-time_stamp
-int64_t
-*
-time_end_stamp
 vp8_ppflags_t
 *
 flags

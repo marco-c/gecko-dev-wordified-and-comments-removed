@@ -2136,6 +2136,9 @@ ext_refresh_frame_flags_pending
 int
 rt_always_update_correction_factor
 ;
+int
+rt_drop_recode_on_overshoot
+;
 }
 VP8_COMP
 ;
@@ -2273,6 +2276,14 @@ TOKENEXTRA
 ;
 void
 vp8_set_speed_features
+(
+VP8_COMP
+*
+cpi
+)
+;
+int
+vp8_check_drop_buffer
 (
 VP8_COMP
 *

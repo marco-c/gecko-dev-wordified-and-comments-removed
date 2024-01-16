@@ -999,6 +999,15 @@ const
 cpi
 )
 ;
+void
+vp9_update_buffer_level_svc_preencode
+(
+struct
+VP9_COMP
+*
+cpi
+)
+;
 #
 ifdef
 __cplusplus
