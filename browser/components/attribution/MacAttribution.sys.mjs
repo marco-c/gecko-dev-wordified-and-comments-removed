@@ -170,10 +170,7 @@ TextEncoder
 .
 encode
 (
-__MOZCUSTOM__
-{
 aAttrStr
-}
 )
 )
 ;

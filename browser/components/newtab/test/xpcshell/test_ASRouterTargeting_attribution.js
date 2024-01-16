@@ -138,7 +138,7 @@ org
 const
 attrStr
 =
-campaign
+__MOZCUSTOM__campaign
 %
 3D
 {
