@@ -277,6 +277,7 @@ JS
 :
 :
 UTF8Chars
+&
 src
 CharT
 *
@@ -304,6 +305,7 @@ JS
 :
 :
 UTF8Chars
+&
 utf8
 const
 CharT
@@ -323,6 +325,7 @@ JS
 :
 :
 UTF8Chars
+&
 utf8
 size_t
 *

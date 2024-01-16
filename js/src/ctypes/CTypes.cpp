@@ -40652,6 +40652,7 @@ JS
 :
 :
 UTF8Chars
+&
 size_t
 *
 arena_id_t

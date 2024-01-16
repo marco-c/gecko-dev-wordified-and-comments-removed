@@ -259,6 +259,7 @@ JS
 :
 :
 UTF8Chars
+&
 s
 )
 ;
