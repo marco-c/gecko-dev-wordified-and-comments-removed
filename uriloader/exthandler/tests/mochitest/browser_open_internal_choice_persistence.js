@@ -859,9 +859,9 @@ launchFile
 let
 fileLaunched
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

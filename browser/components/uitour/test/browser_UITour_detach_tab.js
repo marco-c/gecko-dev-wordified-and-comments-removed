@@ -83,9 +83,9 @@ UITourHighlight
 let
 browserStartupDeferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

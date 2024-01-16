@@ -227,9 +227,9 @@ browser
 ;
 pendingPromise
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -254,9 +254,9 @@ menu
 ;
 pendingPromise
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

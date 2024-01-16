@@ -816,9 +816,9 @@ uiAvailableNotificationObserved
 let
 mockUiAvailableDeferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

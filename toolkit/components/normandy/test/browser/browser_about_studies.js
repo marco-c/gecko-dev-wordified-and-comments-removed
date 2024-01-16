@@ -4694,9 +4694,9 @@ RecipeRunner
 .
 initializedPromise
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

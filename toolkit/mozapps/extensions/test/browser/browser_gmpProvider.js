@@ -2121,9 +2121,9 @@ gInstalledAddonId
 ;
 gInstallDeferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

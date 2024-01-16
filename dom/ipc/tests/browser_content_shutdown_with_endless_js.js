@@ -107,9 +107,9 @@ url
 let
 browserDestroyed
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

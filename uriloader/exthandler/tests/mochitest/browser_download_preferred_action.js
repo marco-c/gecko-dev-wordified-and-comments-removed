@@ -723,9 +723,9 @@ expectLaunch
 {
 fileLaunched
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
