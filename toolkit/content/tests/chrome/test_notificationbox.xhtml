@@ -896,7 +896,6 @@ tests
 =
 [
 {
-async
 test
 (
 nb
@@ -905,7 +904,6 @@ ntf
 {
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -937,11 +935,6 @@ Changed
 string
 "
 ;
-await
-ntf
-.
-updateComplete
-;
 SimpleTest
 .
 is
@@ -951,10 +944,6 @@ ntf
 messageText
 .
 textContent
-.
-trim
-(
-)
 "
 Changed
 string
@@ -965,6 +954,62 @@ notification
 label
 with
 string
+"
+)
+;
+ntf
+.
+label
+=
+{
+"
+l10n
+-
+id
+"
+:
+"
+foo
+-
+bar
+"
+}
+;
+const
+message
+=
+ntf
+.
+messageText
+.
+querySelector
+(
+"
+span
+"
+)
+;
+SimpleTest
+.
+is
+(
+message
+.
+dataset
+.
+l10nId
+"
+foo
+-
+bar
+"
+"
+set
+notification
+label
+with
+l10n
+id
 "
 )
 ;
@@ -1021,7 +1066,6 @@ correctly
 *
 /
 {
-async
 test
 (
 nb
@@ -1030,7 +1074,6 @@ ntf
 {
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -1176,7 +1219,6 @@ correctly
 .
 *
 /
-async
 test
 (
 nb
@@ -1185,7 +1227,6 @@ ntf
 {
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -1307,7 +1348,6 @@ null
 }
 }
 {
-async
 test
 (
 nb
@@ -1322,7 +1362,6 @@ new
 notification
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -1520,7 +1559,6 @@ null
 }
 }
 {
-async
 test
 (
 nb
@@ -1541,7 +1579,6 @@ event
 callback
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -1680,7 +1717,6 @@ ntf
 }
 }
 {
-async
 test
 (
 nb
@@ -1689,7 +1725,6 @@ ntf
 {
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -1898,7 +1933,6 @@ ntf
 }
 }
 {
-async
 test
 (
 nb
@@ -1907,7 +1941,6 @@ ntf
 {
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -2010,7 +2043,6 @@ null
 repeat
 :
 true
-async
 test
 (
 nb
@@ -2049,7 +2081,6 @@ new
 notification
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -2313,7 +2344,6 @@ ntf
 }
 }
 {
-async
 test
 (
 nb
@@ -2327,7 +2357,6 @@ another
 notification
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -2484,7 +2513,6 @@ null
 }
 }
 {
-async
 test
 (
 nb
@@ -2493,7 +2521,6 @@ ntf
 {
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -2590,7 +2617,6 @@ removeAllNotifications
 }
 }
 {
-async
 test
 (
 nb
@@ -2599,7 +2625,6 @@ ntf
 {
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -2732,15 +2757,9 @@ link
 =
 ntf
 .
-querySelector
-(
-"
+messageText
 .
-notification
--
-link
-"
-)
+lastElementChild
 ;
 SimpleTest
 .
@@ -2799,7 +2818,6 @@ removeAllNotifications
 }
 }
 {
-async
 test
 (
 nb
@@ -2814,7 +2832,6 @@ new
 notification
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -2999,7 +3016,6 @@ true
 }
 }
 {
-async
 test
 (
 nb
@@ -3008,7 +3024,6 @@ ntf
 {
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -3040,11 +3055,6 @@ notification_eventCallback
 }
 testtag_notificationbox_supportpage
 )
-;
-await
-ntf
-.
-updateComplete
 ;
 SimpleTest
 .
@@ -3096,15 +3106,9 @@ link
 =
 ntf
 .
-querySelector
-(
-"
+messageText
 .
-notification
--
-link
-"
-)
+firstElementChild
 ;
 SimpleTest
 .
@@ -3473,7 +3477,6 @@ removeAllNotifications
 }
 }
 {
-async
 test
 (
 nb
@@ -3495,7 +3498,6 @@ are
 added
 in
 order
-await
 nb
 .
 appendNotification
@@ -3518,7 +3520,6 @@ PRIORITY_INFO_HIGH
 testtag_notificationbox_buttons
 )
 ;
-await
 nb
 .
 appendNotification
@@ -3541,7 +3542,6 @@ PRIORITY_WARNING_HIGH
 testtag_notificationbox_buttons
 )
 ;
-await
 nb
 .
 appendNotification
@@ -3563,7 +3563,6 @@ PRIORITY_INFO_LOW
 }
 )
 ;
-await
 nb
 .
 appendNotification
@@ -3585,7 +3584,6 @@ PRIORITY_CRITICAL_LOW
 }
 )
 ;
-await
 nb
 .
 appendNotification
@@ -3607,7 +3605,6 @@ PRIORITY_WARNING_LOW
 }
 )
 ;
-await
 nb
 .
 appendNotification
@@ -3629,7 +3626,6 @@ PRIORITY_WARNING_HIGH
 }
 )
 ;
-await
 nb
 .
 appendNotification
@@ -3651,7 +3647,6 @@ PRIORITY_INFO_LOW
 }
 )
 ;
-await
 nb
 .
 appendNotification
@@ -3676,7 +3671,6 @@ PRIORITY_CRITICAL_MEDIUM
 let
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -3698,7 +3692,6 @@ PRIORITY_CRITICAL_HIGH
 }
 )
 ;
-await
 nb
 .
 appendNotification
@@ -3932,7 +3925,6 @@ undefined
 }
 }
 {
-async
 test
 (
 nb
@@ -3946,7 +3938,6 @@ false
 ;
 try
 {
-await
 nb
 .
 appendNotification
@@ -3998,7 +3989,6 @@ false
 ;
 try
 {
-await
 nb
 .
 appendNotification
@@ -4073,7 +4063,6 @@ appendPriorityTests
 =
 [
 {
-async
 test
 (
 nb
@@ -4083,7 +4072,6 @@ priority
 let
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -4195,7 +4183,6 @@ return
 priority
 ;
 }
-async
 result
 (
 nb
@@ -4215,7 +4202,6 @@ PRIORITY_CRITICAL_HIGH
 let
 ntf
 =
-await
 nb
 .
 appendNotification
@@ -4342,10 +4328,6 @@ ntf
 messageText
 .
 textContent
-.
-trim
-(
-)
 label
 testid
 +
@@ -4554,12 +4536,27 @@ type
 ;
 is
 (
+getComputedStyle
+(
 ntf
 .
 messageImage
+"
+:
+:
+after
+"
+)
 .
-src
+backgroundImage
+url
+(
+"
+{
 icon
+}
+"
+)
 "
 notification
 image
@@ -4827,7 +4824,6 @@ array
 .
 *
 /
-async
 function
 runTimedTests
 (
@@ -4908,10 +4904,9 @@ tests
 length
 )
 {
-let
+var
 result
 =
-await
 tests
 [
 idx
