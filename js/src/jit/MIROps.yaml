@@ -4796,6 +4796,9 @@ Int32
 result_type
 :
 String
+folds_to
+:
+custom
 congruent_to
 :
 if_operands_equal
