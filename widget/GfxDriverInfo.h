@@ -1047,7 +1047,8 @@ constexpr
 int32_t
 allFeatures
 =
-0
+-
+1
 ;
 static
 constexpr
@@ -1055,7 +1056,7 @@ int32_t
 optionalFeatures
 =
 -
-1
+2
 ;
 int32_t
 mFeatureStatus
