@@ -4151,6 +4151,13 @@ false
 -
 name
 :
+CharCodeConvertCase
+gen_boilerplate
+:
+false
+-
+name
+:
 StringTrimStartIndex
 operands
 :
