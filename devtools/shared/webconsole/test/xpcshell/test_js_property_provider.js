@@ -5,9 +5,9 @@ strict
 ;
 const
 {
-FallibleJSPropertyProvider
+fallibleJsPropertyProvider
 :
-JSPropertyProvider
+jsPropertyProvider
 }
 =
 require
@@ -640,7 +640,7 @@ options
 )
 =
 >
-JSPropertyProvider
+jsPropertyProvider
 (
 {
 dbgObject

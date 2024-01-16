@@ -421,6 +421,11 @@ openLink
 PropTypes
 .
 func
+openNetworkDetails
+:
+PropTypes
+.
+func
 targetSearchResult
 :
 PropTypes
