@@ -387,7 +387,7 @@ EXPECT_EQ
 stream
 -
 >
-InputSampleRate
+SampleRate
 (
 )
 static_cast
@@ -518,7 +518,7 @@ EXPECT_EQ
 stream
 -
 >
-InputSampleRate
+SampleRate
 (
 )
 static_cast

@@ -825,7 +825,7 @@ OutputChannels
 const
 ;
 uint32_t
-InputSampleRate
+SampleRate
 (
 )
 const
