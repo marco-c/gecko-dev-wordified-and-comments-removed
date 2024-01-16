@@ -473,6 +473,11 @@ tracedGlobal
 docShell
 .
 chromeEventHandler
+|
+|
+this
+.
+tracedGlobal
 ;
 eventHandler
 .
