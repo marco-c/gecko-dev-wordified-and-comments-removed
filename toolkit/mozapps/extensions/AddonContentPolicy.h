@@ -1,13 +1,6 @@
 #
 include
 "
-nsIContentPolicy
-.
-h
-"
-#
-include
-"
 nsIAddonPolicyService
 .
 h
@@ -15,8 +8,6 @@ h
 class
 AddonContentPolicy
 :
-public
-nsIContentPolicy
 public
 nsIAddonContentPolicy
 {
@@ -35,7 +26,6 @@ AddonContentPolicy
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICONTENTPOLICY
 NS_DECL_NSIADDONCONTENTPOLICY
 }
 ;
