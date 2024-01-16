@@ -3738,7 +3738,7 @@ crate
 )
 _shader_modules
 :
-Vec
+ArrayVec
 <
 Arc
 <
@@ -3747,6 +3747,12 @@ ShaderModule
 A
 >
 >
+{
+hal
+:
+:
+MAX_CONCURRENT_SHADER_STAGES
+}
 >
 pub
 (

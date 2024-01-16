@@ -19,13 +19,6 @@ version
 }
 }
 "
-no
--
-dev
--
-version
-=
-true
 tag
 -
 message
@@ -70,6 +63,9 @@ sign
 tag
 =
 true
+publish
+=
+false
 pre
 -
 release

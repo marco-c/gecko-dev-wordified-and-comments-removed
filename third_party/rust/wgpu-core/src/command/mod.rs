@@ -1428,6 +1428,7 @@ textures
 .
 drain_transitions
 (
+snatch_guard
 )
 ;
 let
@@ -1460,7 +1461,11 @@ textures
 i
 ]
 .
-as_ref
+unwrap
+(
+)
+.
+raw
 (
 )
 .
