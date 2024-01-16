@@ -1396,7 +1396,7 @@ ownerGlobal
 ;
 this
 .
-textSelected
+selectedText
 =
 this
 .
@@ -1412,7 +1412,7 @@ isTextSelected
 !
 this
 .
-textSelected
+selectedText
 .
 length
 ;
@@ -11569,7 +11569,7 @@ isTextSelected
 ?
 this
 .
-textSelected
+selectedText
 :
 this
 .
