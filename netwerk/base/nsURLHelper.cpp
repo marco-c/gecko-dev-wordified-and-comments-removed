@@ -3389,7 +3389,6 @@ end
 HTTP_LWS
 "
 ;
-(
 "
 )
 ;
@@ -3658,7 +3657,6 @@ charsetEnd
 HTTP_LWS
 "
 ;
-(
 "
 )
 ;
