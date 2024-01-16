@@ -164,6 +164,13 @@ token
 )
 ;
 const
+resize_lock_frame_requested_after_resize_key
+=
+token
+(
+)
+;
+const
 resize_lock_report_click_location_key
 =
 token
@@ -207,6 +214,7 @@ html
 [
 resize_lock_inner_page_is_ready_key
 resize_lock_resize_is_done_key
+resize_lock_frame_requested_after_resize_key
 resize_lock_report_click_location_key
 resize_lock_report_click_location_key_after_resize
 resize_lock_report_click_location_key_after_resize_2
@@ -321,6 +329,7 @@ frame
 event
 before
 resize
+1
 "
 )
 ;
@@ -371,6 +380,12 @@ resize_lock_resize_is_done_key
 "
 outer_page_attempted_resize
 "
+)
+;
+await
+nextValueFromServer
+(
+resize_lock_frame_requested_after_resize_key
 )
 ;
 /
@@ -670,6 +685,7 @@ frame
 event
 before
 resize
+2
 "
 )
 ;
@@ -779,6 +795,7 @@ frame
 event
 before
 resize
+3
 "
 )
 ;
