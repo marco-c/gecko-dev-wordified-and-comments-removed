@@ -361,13 +361,11 @@ image
 ;
 JxlColorEncoding
 color
-;
+=
 color_encoding
 .
 ToExternal
 (
-&
-color
 )
 ;
 size_t

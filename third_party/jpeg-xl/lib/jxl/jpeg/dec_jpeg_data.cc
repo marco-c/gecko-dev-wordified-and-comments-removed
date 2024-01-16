@@ -915,7 +915,7 @@ available_out
 1
 ;
 uint64_t
-dummy
+sink
 ;
 uint8_t
 *
@@ -928,7 +928,7 @@ uint8_t
 >
 (
 &
-dummy
+sink
 )
 ;
 result

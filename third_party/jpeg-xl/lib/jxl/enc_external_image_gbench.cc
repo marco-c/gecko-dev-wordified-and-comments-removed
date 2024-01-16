@@ -140,11 +140,7 @@ JXL_CHECK
 (
 ConvertFromExternal
 (
-Span
-<
-const
-uint8_t
->
+Bytes
 (
 interleaved
 .

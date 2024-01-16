@@ -2733,6 +2733,8 @@ enc_state
 >
 shared
 .
+frame_dim
+.
 BlockGroupRect
 (
 group_idx
@@ -2746,6 +2748,8 @@ enc_state
 -
 >
 shared
+.
+frame_dim
 .
 GroupRect
 (
@@ -3945,6 +3949,21 @@ aux_out
 )
 ;
 }
+size_t
+context_offset
+=
+histogram_idx
+*
+enc_state
+.
+shared
+.
+block_ctx_map
+.
+NumACContexts
+(
+)
+;
 WriteTokens
 (
 enc_state
@@ -3974,6 +3993,7 @@ pass_idx
 ]
 .
 context_map
+context_offset
 writer
 kLayerACTokens
 aux_out

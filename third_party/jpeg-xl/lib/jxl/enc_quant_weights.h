@@ -6,6 +6,11 @@ define
 LIB_JXL_ENC_QUANT_WEIGHTS_H_
 #
 include
+<
+cstddef
+>
+#
+include
 "
 lib
 /
@@ -29,7 +34,7 @@ DequantMatricesEncode
 (
 const
 DequantMatrices
-*
+&
 matrices
 BitWriter
 *
@@ -51,7 +56,7 @@ DequantMatricesEncodeDC
 (
 const
 DequantMatrices
-*
+&
 matrices
 BitWriter
 *

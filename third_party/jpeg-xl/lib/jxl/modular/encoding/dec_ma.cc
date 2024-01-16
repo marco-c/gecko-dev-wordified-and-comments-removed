@@ -499,10 +499,9 @@ context_map
 if
 (
 mul_bits
-+
-1
 >
 =
+(
 1u
 <
 <
@@ -511,6 +510,9 @@ mul_bits
 -
 mul_log
 )
+)
+-
+1u
 )
 {
 return

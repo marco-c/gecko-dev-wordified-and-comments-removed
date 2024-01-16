@@ -1273,6 +1273,9 @@ i
 ;
 }
 }
+static
+JXL_INLINE
+JXL_MAYBE_UNUSED
 void
 TransformFromPixels
 (
@@ -1320,6 +1323,9 @@ coefficients
 )
 ;
 }
+static
+JXL_INLINE
+JXL_MAYBE_UNUSED
 void
 StoreQuantizedValue
 (
@@ -1354,6 +1360,9 @@ out
 )
 ;
 }
+static
+JXL_INLINE
+JXL_MAYBE_UNUSED
 void
 StoreQuantizedValue
 (

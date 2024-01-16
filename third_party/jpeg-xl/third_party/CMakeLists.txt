@@ -904,7 +904,7 @@ find_package
 LCMS2
 2
 .
-13
+12
 )
 if
 (
@@ -972,7 +972,7 @@ if
 (
 JPEGXL_BUNDLE_LIBPNG
 AND
-JPEGXL_EMSCRIPTEN
+EMSCRIPTEN
 )
 if
 (
@@ -1073,7 +1073,7 @@ h
 )
 set
 (
-ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIRS
 "
 {
 CMAKE_CURRENT_SOURCE_DIR
@@ -1085,7 +1085,7 @@ zlib
 )
 set
 (
-ZLIB_LIBRARY
+ZLIB_LIBRARIES
 "
 "
 )
@@ -1212,7 +1212,7 @@ BOOL
 )
 set
 (
-ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIRS
 "
 {
 CMAKE_CURRENT_SOURCE_DIR
@@ -1224,7 +1224,7 @@ zlib
 )
 set
 (
-ZLIB_LIBRARY
+ZLIB_LIBRARIES
 zlibstatic
 )
 add_subdirectory

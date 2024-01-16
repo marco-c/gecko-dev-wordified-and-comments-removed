@@ -2638,7 +2638,7 @@ cinfo
 }
 HWY_ALIGN_MAX
 coeff_t
-dummy_block
+sink_block
 [
 DCTSIZE2
 ]
@@ -2830,7 +2830,7 @@ height_in_blocks
 {
 coeffs
 =
-dummy_block
+sink_block
 ;
 }
 else

@@ -46,7 +46,7 @@ variables
 libjxl_root_package
 =
 "
-__main__
+libjxl
 "
 libjxl_deps_brotli
 =
@@ -132,17 +132,6 @@ libjpeg_turbo
 jpeg
 "
 ]
-libjxl_deps_jxl_box
-=
-[
-"
-/
-/
-tools
-:
-box
-"
-]
 libjxl_deps_exr
 =
 [
@@ -158,7 +147,7 @@ libjxl_deps_png
 =
 [
 "
-png
+libpng
 /
 /
 :

@@ -13,6 +13,11 @@ h
 "
 #
 include
+<
+cstring
+>
+#
+include
 "
 lib
 /
@@ -66,11 +71,7 @@ str
 )
 {
 return
-Span
-<
-const
-uint8_t
->
+Bytes
 (
 reinterpret_cast
 <

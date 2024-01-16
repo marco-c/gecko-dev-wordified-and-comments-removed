@@ -5,8 +5,6 @@ lib
 /
 jxl
 /
-base
-/
 cache_aligned
 .
 h

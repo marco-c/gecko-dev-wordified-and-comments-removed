@@ -247,6 +247,7 @@ input_values_vec
 ]
 codes
 context_map
+0
 &
 writer
 0
@@ -1439,6 +1440,7 @@ input_values_copy
 ]
 codes
 context_map
+0
 &
 writer
 0

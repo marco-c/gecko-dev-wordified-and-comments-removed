@@ -965,6 +965,14 @@ distance
 )
 ;
 JXL_EXPORT
+float
+JxlEncoderDistanceFromQuality
+(
+float
+quality
+)
+;
+JXL_EXPORT
 JxlEncoderFrameSettings
 *
 JxlEncoderFrameSettingsCreate

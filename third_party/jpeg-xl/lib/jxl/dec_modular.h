@@ -460,6 +460,10 @@ Status
 DecodeGroup
 (
 const
+FrameHeader
+&
+frame_header
+const
 Rect
 &
 rect
@@ -494,6 +498,10 @@ nullptr
 Status
 DecodeVarDCTDC
 (
+const
+FrameHeader
+&
+frame_header
 size_t
 group_id
 BitReader
@@ -507,6 +515,10 @@ dec_state
 Status
 DecodeAcMetadata
 (
+const
+FrameHeader
+&
+frame_header
 size_t
 group_id
 BitReader
@@ -541,6 +553,10 @@ modular_frame_decoder
 Status
 FinalizeDecoding
 (
+const
+FrameHeader
+&
+frame_header
 PassesDecoderState
 *
 dec_state
@@ -584,6 +600,10 @@ private
 Status
 ModularImageToDecodedRect
 (
+const
+FrameHeader
+&
+frame_header
 Image
 &
 gi

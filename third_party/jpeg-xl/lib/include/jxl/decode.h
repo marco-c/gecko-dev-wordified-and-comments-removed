@@ -556,7 +556,7 @@ icc_size
 )
 ;
 JXL_EXPORT
-void
+JxlDecoderStatus
 JxlDecoderSetCms
 (
 JxlDecoder

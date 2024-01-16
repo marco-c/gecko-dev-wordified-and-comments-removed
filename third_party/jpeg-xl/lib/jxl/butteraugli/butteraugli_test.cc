@@ -333,17 +333,10 @@ JXL_CHECK
 (
 ConvertFromExternal
 (
-Span
-<
-const
-uint8_t
->
-(
 pixels
 image
 .
 pixels_size
-)
 image
 .
 xsize

@@ -152,7 +152,7 @@ HWY_MAJOR
 +
 )
 "
-_dummy
+_sink
 "
 {
 HWY_VERSION_CONTENT
@@ -187,7 +187,7 @@ HWY_MINOR
 +
 )
 "
-_dummy
+_sink
 "
 {
 HWY_VERSION_CONTENT
@@ -222,7 +222,7 @@ HWY_PATCH
 +
 )
 "
-_dummy
+_sink
 "
 {
 HWY_VERSION_CONTENT

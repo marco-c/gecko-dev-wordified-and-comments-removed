@@ -26,9 +26,7 @@ files
 Version
 :
 JPEGXL_LIBRARY_VERSION
-Requires
-.
-private
+JPEGXL_REQUIRES_TYPE
 :
 JPEGXL_LIBRARY_REQUIRES
 Libs

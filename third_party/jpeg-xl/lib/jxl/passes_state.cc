@@ -73,13 +73,6 @@ nullptr
 shared
 -
 >
-frame_header
-=
-frame_header
-;
-shared
--
->
 metadata
 =
 frame_header

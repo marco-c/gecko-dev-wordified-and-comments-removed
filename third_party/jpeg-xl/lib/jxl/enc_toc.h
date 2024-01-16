@@ -98,7 +98,7 @@ vector
 <
 coeff_order_t
 >
-*
+&
 permutation
 BitWriter
 *

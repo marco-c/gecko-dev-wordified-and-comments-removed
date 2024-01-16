@@ -260,6 +260,10 @@ void
 ProcessTile
 (
 const
+FrameHeader
+&
+frame_header
+const
 Image3F
 &
 opsin
@@ -371,11 +375,6 @@ SpeedTier
 kWombat
 |
 |
-enc_state
--
->
-shared
-.
 frame_header
 .
 loop_filter
@@ -2906,6 +2905,10 @@ ArControlFieldHeuristics
 RunRect
 (
 const
+FrameHeader
+&
+frame_header
+const
 Rect
 &
 block_rect
@@ -2925,6 +2928,7 @@ HWY_DYNAMIC_DISPATCH
 ProcessTile
 )
 (
+frame_header
 opsin
 enc_state
 block_rect

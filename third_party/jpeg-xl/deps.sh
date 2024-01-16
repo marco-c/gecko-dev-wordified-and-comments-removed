@@ -68,7 +68,7 @@ are
 normally
 pulled
 by
-gtest
+git
 .
 set
 -
@@ -117,7 +117,7 @@ ba0900a4957b929390ab73827235557959234fea
 THIRD_PARTY_SKCMS
 =
 "
-b25b07b4b07990811de121c0356155b2ba0f4318
+42030a771244ba67f86b1c1c76a6493f873c5f91
 "
 THIRD_PARTY_SJPEG
 =
@@ -132,8 +132,14 @@ cacf7f1d4e3d44d871b605da3b647f07d718623f
 THIRD_PARTY_LIBPNG
 =
 "
-a40189cf881e9f0db80511c382292a5604c3c3d1
+f135775ad4e5d4408d2e12ffcc71bb36e6b48551
 "
+#
+v1
+.
+6
+.
+40
 THIRD_PARTY_LIBJPEG_TURBO
 =
 "
@@ -199,6 +205,7 @@ varname
 "
 {
 varname
+/
 /
 [
 \

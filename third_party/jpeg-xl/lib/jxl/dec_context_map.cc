@@ -344,7 +344,7 @@ vector
 <
 uint8_t
 >
-dummy_ctx_map
+sink_ctx_map
 ;
 JXL_RETURN_IF_ERROR
 (
@@ -355,7 +355,7 @@ input
 &
 code
 &
-dummy_ctx_map
+sink_ctx_map
 context_map
 -
 >
@@ -410,7 +410,7 @@ true
 (
 0
 input
-dummy_ctx_map
+sink_ctx_map
 )
 ;
 maxsym
