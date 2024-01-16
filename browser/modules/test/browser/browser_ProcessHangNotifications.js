@@ -721,7 +721,7 @@ notification
 .
 currentNotification
 .
-closeButton
+closeButtonEl
 .
 click
 (
