@@ -813,7 +813,7 @@ linux1804
 tests
 :
 -
-cppunit
+cppunittest
 -
 crashtest
 -
@@ -1030,7 +1030,7 @@ mochitest
 -
 plain
 -
-cppunit
+cppunittest
 -
 crashtest
 -
@@ -1164,7 +1164,7 @@ windows32
 tests
 :
 -
-cppunit
+cppunittest
 -
 crashtest
 -
@@ -1266,7 +1266,7 @@ windows10
 tests
 :
 -
-cppunit
+cppunittest
 -
 gtest
 -
@@ -1354,7 +1354,7 @@ windows11
 tests
 :
 -
-cppunit
+cppunittest
 -
 crashtest
 -
@@ -1486,7 +1486,7 @@ tests
 debug
 :
 -
-cppunit
+cppunittest
 -
 firefox
 -
@@ -1585,7 +1585,7 @@ tests
 debug
 :
 -
-cppunit
+cppunittest
 -
 firefox
 -
@@ -1657,7 +1657,7 @@ tests
 opt
 :
 -
-cppunit
+cppunittest
 -
 mochitest
 -
@@ -1901,7 +1901,7 @@ qr
 tests
 :
 -
-cppunit
+cppunittest
 -
 crashtest
 -
@@ -2163,7 +2163,7 @@ x86_64
 tests
 :
 -
-cppunit
+cppunittest
 -
 crashtest
 -
