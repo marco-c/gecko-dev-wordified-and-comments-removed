@@ -13454,7 +13454,9 @@ MOZ_ASSERT
 aRequest
 -
 >
-mBytecodeOffset
+GetSRILength
+(
+)
 =
 =
 aRequest
@@ -14959,7 +14961,9 @@ SRIAndBytecode
 aRequest
 -
 >
-mBytecodeOffset
+GetSRILength
+(
+)
 compressedBytecode
 )
 )
@@ -16903,12 +16907,7 @@ sriLength
 aRequest
 -
 >
-mBytecodeOffset
-=
-JS
-:
-:
-AlignTranscodingBytecodeOffset
+SetSRILength
 (
 sriLength
 )
@@ -16918,7 +16917,9 @@ if
 aRequest
 -
 >
-mBytecodeOffset
+GetSRILength
+(
+)
 !
 =
 sriLength
@@ -16934,7 +16935,9 @@ resize
 aRequest
 -
 >
-mBytecodeOffset
+GetSRILength
+(
+)
 )
 )
 {
