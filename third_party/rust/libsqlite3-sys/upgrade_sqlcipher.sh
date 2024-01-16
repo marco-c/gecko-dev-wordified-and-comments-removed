@@ -48,6 +48,11 @@ exit
 }
 cargo
 clean
+-
+p
+libsqlite3
+-
+sys
 mkdir
 -
 p

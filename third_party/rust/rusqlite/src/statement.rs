@@ -796,10 +796,6 @@ for
 p
 in
 params
-.
-into_iter
-(
-)
 {
 index
 +
@@ -2153,6 +2149,7 @@ stmt
 clear_bindings
 (
 )
+;
 }
 }
 impl
@@ -4598,9 +4595,9 @@ panic
 Unexpected
 error
 {
+err
 }
 "
-err
 )
 }
 let
@@ -4662,9 +4659,9 @@ panic
 Unexpected
 error
 {
+err
 }
 "
-err
 )
 }
 Ok
@@ -7046,9 +7043,9 @@ panic
 Unexpected
 error
 {
+err
 }
 "
-err
 )
 }
 Ok

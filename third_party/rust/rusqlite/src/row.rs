@@ -1162,6 +1162,10 @@ Row
 stmt
 >
 {
+#
+[
+track_caller
+]
 pub
 fn
 get_unwrap
@@ -1195,6 +1199,10 @@ unwrap
 (
 )
 }
+#
+[
+track_caller
+]
 pub
 fn
 get
@@ -1422,6 +1430,10 @@ Ok
 val_ref
 )
 }
+#
+[
+track_caller
+]
 pub
 fn
 get_ref_unwrap

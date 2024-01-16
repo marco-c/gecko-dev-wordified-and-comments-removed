@@ -835,6 +835,10 @@ Value
 [
 inline
 ]
+#
+[
+track_caller
+]
 fn
 from
 (
