@@ -3466,7 +3466,7 @@ IsContentSubframe
 bc
 -
 >
-GetParent
+GetParentWindowContext
 (
 )
 -
