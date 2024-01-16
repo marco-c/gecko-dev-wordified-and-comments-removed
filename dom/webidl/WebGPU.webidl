@@ -971,6 +971,9 @@ GPUBindGroupDescriptor
 descriptor
 )
 ;
+[
+Throws
+]
 GPUShaderModule
 createShaderModule
 (
