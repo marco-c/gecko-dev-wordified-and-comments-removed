@@ -59,10 +59,6 @@ here
 .
 "
 )
-results
-=
-[
-]
 TEMPLATES
 =
 {
@@ -602,6 +598,14 @@ test
 "
 in
 f
+or
+"
+lint_license_test_tmp_file
+.
+js
+"
+in
+f
 :
         
 return
@@ -944,6 +948,7 @@ license
 )
         
 return
+True
     
 if
 ext
@@ -1010,6 +1015,7 @@ license
 )
         
 return
+True
     
 if
 ext
@@ -1149,6 +1155,10 @@ license
 )
         
 return
+True
+    
+return
+False
 class
 HTMLParseError
 (
@@ -1452,6 +1462,11 @@ lintargs
 )
 :
     
+results
+=
+[
+]
+    
 log
 =
 lintargs
@@ -1512,16 +1527,34 @@ f
 )
 :
             
+if
+fix
+and
+fix_me
+(
+log
+f
+)
+:
+                
+fixed
++
+=
+1
+            
+else
+:
+                
 res
 =
 {
-                
+                    
 "
 path
 "
 :
 f
-                
+                    
 "
 message
 "
@@ -1545,7 +1578,7 @@ licenses
 .
 txt
 "
-                
+                    
 "
 level
 "
@@ -1553,9 +1586,9 @@ level
 "
 error
 "
-            
+                
 }
-            
+                
 results
 .
 append
@@ -1570,21 +1603,6 @@ config
 res
 )
 )
-            
-if
-fix
-:
-                
-fix_me
-(
-log
-f
-)
-                
-fixed
-+
-=
-1
         
 if
 is_html_licence_summary
