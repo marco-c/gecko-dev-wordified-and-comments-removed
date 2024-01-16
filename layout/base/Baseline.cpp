@@ -352,7 +352,7 @@ Border
 return
 LogicalMargin
 (
-wm
+aWM
 )
 ;
 case
