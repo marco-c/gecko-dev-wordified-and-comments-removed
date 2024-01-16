@@ -1614,8 +1614,6 @@ mochitest
 -
 browser
 -
-chrome
--
 screenshots
 "
                 

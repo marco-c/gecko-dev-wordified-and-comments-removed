@@ -1310,8 +1310,6 @@ mochitest
 -
 browser
 -
-chrome
--
 screenshots
 "
 :

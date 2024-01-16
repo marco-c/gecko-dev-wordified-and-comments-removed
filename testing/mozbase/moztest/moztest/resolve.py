@@ -828,8 +828,6 @@ mochitest
 -
 browser
 -
-chrome
--
 screenshots
 "
 :
@@ -906,6 +904,8 @@ task_regex
 :
 [
 "
+mochitest
+-
 browser
 -
 screenshots
@@ -3873,8 +3873,6 @@ screenshots
 mochitest
 -
 browser
--
-chrome
 -
 screenshots
 "

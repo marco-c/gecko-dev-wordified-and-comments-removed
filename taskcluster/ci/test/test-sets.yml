@@ -780,6 +780,8 @@ screenshot
 capture
 :
 -
+mochitest
+-
 browser
 -
 screenshots

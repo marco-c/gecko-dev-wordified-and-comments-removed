@@ -2658,6 +2658,8 @@ false
 virtualization
 :
 virtual
+mochitest
+-
 browser
 -
 screenshots
@@ -2675,8 +2677,6 @@ name
 mochitest
 -
 browser
--
-chrome
 -
 screenshots
 treeherder

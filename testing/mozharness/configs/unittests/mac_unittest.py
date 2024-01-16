@@ -1061,8 +1061,6 @@ mochitest
 -
 browser
 -
-chrome
--
 screenshots
 "
 :
