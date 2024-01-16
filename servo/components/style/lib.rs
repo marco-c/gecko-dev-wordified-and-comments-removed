@@ -307,6 +307,10 @@ custom_properties
 ;
 pub
 mod
+custom_properties_map
+;
+pub
+mod
 data
 ;
 pub
