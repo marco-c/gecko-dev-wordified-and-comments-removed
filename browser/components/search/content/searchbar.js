@@ -300,6 +300,11 @@ urlbar
 -
 icon
 "
+role
+=
+"
+button
+"
 hidden
 =
 "
