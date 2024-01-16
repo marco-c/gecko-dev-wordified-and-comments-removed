@@ -2901,8 +2901,17 @@ library
 %
 ls
 !
+(
+error
+=
+%
+lx
+)
 "
 libraryName
+GetLastError
+(
+)
 )
 ;
 return
