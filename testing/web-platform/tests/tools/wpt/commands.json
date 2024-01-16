@@ -568,6 +568,11 @@ requirements
 .
 txt
 "
+"
+requirements_android
+.
+txt
+"
 ]
 }
 }

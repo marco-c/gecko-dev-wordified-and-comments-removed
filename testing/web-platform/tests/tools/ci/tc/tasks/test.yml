@@ -2502,6 +2502,10 @@ pr
 browser
 -
 firefox
+-
+browser
+-
+firefox_android
 command
 :
 .
@@ -2542,6 +2546,8 @@ browser
 firefox
 -
 chrome
+-
+firefox_android
 channel
 :
 experimental
