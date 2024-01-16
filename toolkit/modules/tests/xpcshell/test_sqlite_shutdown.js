@@ -546,9 +546,9 @@ true
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

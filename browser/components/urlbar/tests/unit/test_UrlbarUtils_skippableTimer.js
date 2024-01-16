@@ -70,9 +70,9 @@ invoked
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -225,9 +225,9 @@ invoked
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -427,9 +427,9 @@ invoked
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

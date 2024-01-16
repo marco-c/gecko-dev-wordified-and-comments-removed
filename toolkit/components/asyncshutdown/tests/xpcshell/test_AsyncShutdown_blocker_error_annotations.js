@@ -54,9 +54,9 @@ test_addBlocker_failure
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

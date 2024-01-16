@@ -543,9 +543,9 @@ this
 .
 deferNextTest
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

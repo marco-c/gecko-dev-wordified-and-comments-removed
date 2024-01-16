@@ -43,9 +43,9 @@ modifierKeys
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

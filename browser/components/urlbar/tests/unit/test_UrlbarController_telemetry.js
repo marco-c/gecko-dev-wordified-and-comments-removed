@@ -298,9 +298,9 @@ clear
 let
 providerCanceledDeferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

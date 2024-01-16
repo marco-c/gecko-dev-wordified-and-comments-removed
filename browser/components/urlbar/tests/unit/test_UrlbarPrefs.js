@@ -1819,9 +1819,9 @@ addObserver
 const
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

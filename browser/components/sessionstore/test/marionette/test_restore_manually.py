@@ -326,9 +326,9 @@ win
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

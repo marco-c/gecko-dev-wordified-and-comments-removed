@@ -3349,9 +3349,9 @@ txt
 let
 deferRequestReceived
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -3890,9 +3890,9 @@ options
 let
 deferCancel
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -4800,9 +4800,9 @@ gMostRecentFirstBytePos
 let
 deferMidway
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
