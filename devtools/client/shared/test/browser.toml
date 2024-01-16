@@ -1637,6 +1637,15 @@ Bug
 ]
 [
 "
+browser_inplace
+-
+editor_stop_on_key
+.
+js
+"
+]
+[
+"
 browser_key_shortcuts
 .
 js
