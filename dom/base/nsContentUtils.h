@@ -5785,12 +5785,6 @@ JSObject
 *
 )
 ;
-static
-bool
-IsSWFPlayerEnabled
-(
-)
-;
 enum
 DocumentViewerType
 {
