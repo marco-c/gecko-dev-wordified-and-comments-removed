@@ -2405,7 +2405,7 @@ used
 .
 If
 you
-sticked
+stuck
 to
 the
 classic
