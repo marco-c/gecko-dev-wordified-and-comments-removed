@@ -1827,6 +1827,10 @@ events
 :
 none
 ;
+overflow
+:
+clip
+;
 filter
 :
 drop
