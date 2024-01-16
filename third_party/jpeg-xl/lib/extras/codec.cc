@@ -945,7 +945,6 @@ CodecFromPath
 pathname
 &
 bits_per_sample
-nullptr
 &
 extension
 )

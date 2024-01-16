@@ -2082,6 +2082,11 @@ rect
 weights
 pool
 out
+Rect
+(
+*
+out
+)
 )
 ;
 }

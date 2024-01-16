@@ -228,15 +228,6 @@ dc_group_index
 =
 0
 ;
-ImageF
-initial_quant_field
-;
-ImageF
-initial_quant_masking
-;
-ImageF
-initial_quant_masking1x1
-;
 std
 :
 :
@@ -367,6 +358,10 @@ const
 Image3F
 &
 opsin
+const
+Rect
+&
+rect
 const
 JxlCmsInterface
 &

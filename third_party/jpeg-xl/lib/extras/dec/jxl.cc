@@ -49,6 +49,11 @@ h
 >
 #
 include
+<
+cinttypes
+>
+#
+include
 "
 lib
 /
@@ -80,7 +85,7 @@ jxl
 /
 base
 /
-printf_macros
+exif
 .
 h
 "
@@ -91,7 +96,9 @@ lib
 /
 jxl
 /
-exif
+base
+/
+printf_macros
 .
 h
 "

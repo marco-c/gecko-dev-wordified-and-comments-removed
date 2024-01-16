@@ -104,6 +104,11 @@ a
 git
 submodule
 .
+TESTDATA
+=
+"
+873045a9c42ed60721756e26e2a6b32e17415205
+"
 THIRD_PARTY_BROTLI
 =
 "
@@ -610,6 +615,11 @@ from
 a
 tarball
 .
+download_github
+testdata
+libjxl
+/
+testdata
 download_github
 third_party
 /

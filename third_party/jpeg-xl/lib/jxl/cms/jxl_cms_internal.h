@@ -57,6 +57,19 @@ jxl
 /
 base
 /
+common
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
+base
+/
 compiler_specific
 .
 h
@@ -7934,6 +7947,7 @@ true
 }
 }
 static
+JXL_MAYBE_UNUSED
 std
 :
 :
@@ -7957,6 +7971,7 @@ c
 ;
 }
 static
+JXL_MAYBE_UNUSED
 Status
 MaybeCreateProfile
 (

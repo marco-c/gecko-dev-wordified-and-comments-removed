@@ -121,6 +121,13 @@ jxl
 /
 base
 /
+exif
+.
+h
+jxl
+/
+base
+/
 fast_math
 -
 inl
@@ -967,11 +974,6 @@ cc
 jxl
 /
 epf
-.
-h
-jxl
-/
-exif
 .
 h
 jxl

@@ -134,6 +134,10 @@ Image3F
 *
 opsin
 const
+Rect
+&
+rect
+const
 JxlCmsInterface
 &
 cms

@@ -319,6 +319,10 @@ GaborishInverse
 (
 &
 fwd
+Rect
+(
+fwd
+)
 weights
 null_pool
 )

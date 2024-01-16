@@ -200,6 +200,8 @@ int
 big_endian
 int
 effort
+int
+oneshot
 )
 ;
 #

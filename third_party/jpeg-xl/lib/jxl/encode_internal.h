@@ -1235,6 +1235,16 @@ return
 true
 ;
 }
+bool
+StreamingInput
+(
+)
+const
+{
+return
+has_input_source_
+;
+}
 const
 size_t
 xsize

@@ -3870,6 +3870,11 @@ w
 GaborishInverse
 (
 color
+Rect
+(
+*
+color
+)
 weights
 pool
 )

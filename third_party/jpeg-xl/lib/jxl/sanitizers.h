@@ -7,13 +7,6 @@ LIB_JXL_SANITIZERS_H_
 #
 include
 <
-inttypes
-.
-h
->
-#
-include
-<
 stddef
 .
 h
@@ -58,6 +51,13 @@ h
 #
 if
 JXL_MEMORY_SANITIZER
+#
+include
+<
+inttypes
+.
+h
+>
 #
 include
 <
