@@ -1380,6 +1380,12 @@ ticks
 >
 =
 mStop
+|
+|
+mStop
+<
+=
+mStart
 )
 {
 ComputeSilence
@@ -1419,6 +1425,13 @@ FillBounds
 output
 ticks
 start
+end
+)
+;
+MOZ_ASSERT
+(
+start
+<
 end
 )
 ;
