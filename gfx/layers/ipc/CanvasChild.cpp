@@ -1018,6 +1018,10 @@ RecvBlockCanvas
 (
 )
 {
+mBlocked
+=
+true
+;
 if
 (
 auto
@@ -2503,6 +2507,15 @@ aTextureId
 )
 const
 {
+if
+(
+mBlocked
+)
+{
+return
+true
+;
+}
 auto
 it
 =
