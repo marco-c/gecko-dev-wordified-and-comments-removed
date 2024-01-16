@@ -79603,6 +79603,11 @@ Document
 :
 NotifyUserGestureActivation
 (
+UserActivation
+:
+:
+Modifiers
+aModifiers
 )
 {
 RefPtr
@@ -79648,6 +79653,7 @@ currentWC
 >
 NotifyUserGestureActivation
 (
+aModifiers
 )
 ;
 for
@@ -79675,6 +79681,7 @@ wc
 >
 NotifyUserGestureActivation
 (
+aModifiers
 )
 ;
 }
@@ -79747,6 +79754,7 @@ wc
 >
 NotifyUserGestureActivation
 (
+aModifiers
 )
 ;
 }

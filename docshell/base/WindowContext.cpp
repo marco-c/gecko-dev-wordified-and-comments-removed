@@ -2544,6 +2544,11 @@ WindowContext
 :
 NotifyUserGestureActivation
 (
+UserActivation
+:
+:
+Modifiers
+aModifiers
 )
 {
 UserActivation
@@ -2563,6 +2568,13 @@ State
 :
 :
 FullActivated
+)
+;
+stateAndModifiers
+.
+SetModifiers
+(
+aModifiers
 )
 ;
 Unused
