@@ -979,6 +979,13 @@ searchmain
 "
 [
 "
+test_engine_selector_remote_override
+.
+js
+"
+]
+[
+"
 test_engine_set_alias
 .
 js
