@@ -123,6 +123,14 @@ windows
 ]
 [
 "
+nsIWindowsAlertNotification
+"
+"
+windows
+"
+]
+[
+"
 nsIWinAppHelper
 "
 "
