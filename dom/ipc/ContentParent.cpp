@@ -29052,6 +29052,7 @@ GetWindowOpenLocation
 (
 outerWin
 aChromeFlags
+aModifiers
 aCalledFromJS
 aForPrinting
 )
