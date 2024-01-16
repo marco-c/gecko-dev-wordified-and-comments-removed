@@ -94,7 +94,7 @@ onRegister
 (
 in
 nsIWorkerDebugger
-debugger
+aDebugger
 )
 ;
 void
@@ -102,7 +102,7 @@ onUnregister
 (
 in
 nsIWorkerDebugger
-debugger
+aDebugger
 )
 ;
 }

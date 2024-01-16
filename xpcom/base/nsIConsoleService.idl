@@ -51,7 +51,7 @@ jsval
 targetGlobal
 in
 jsval
-function
+func
 )
 ;
 cenum

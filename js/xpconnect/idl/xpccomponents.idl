@@ -3495,7 +3495,7 @@ only
 *
 Call
 '
-function
+func
 '
 using
 the
@@ -3576,7 +3576,7 @@ callFunctionWithAsyncStack
 (
 in
 jsval
-function
+func
 in
 nsIStackFrame
 stack
