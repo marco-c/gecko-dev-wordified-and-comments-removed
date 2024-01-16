@@ -9802,7 +9802,6 @@ matchType
 languageMismatchScreenIndex
 negotiatedLanguage
 screen
-screenIndex
 screens
 setScreenIndex
 ]
