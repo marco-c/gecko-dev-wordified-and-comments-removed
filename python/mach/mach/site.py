@@ -3142,11 +3142,6 @@ result
 reason
 }
 "
-file
-=
-sys
-.
-stderr
 )
             
 active_site
@@ -3167,6 +3162,18 @@ self
 .
 _site_name
 :
+                
+print
+(
+result
+.
+reason
+file
+=
+sys
+.
+stderr
+)
                 
 raise
 Exception
