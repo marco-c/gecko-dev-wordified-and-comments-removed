@@ -237,6 +237,8 @@ int32_t
 i
 int32_t
 base
+bool
+lowerCase
 )
 ;
 extern
