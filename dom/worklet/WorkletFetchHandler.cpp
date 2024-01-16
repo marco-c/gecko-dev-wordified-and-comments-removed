@@ -642,6 +642,13 @@ GetSpecOrDefault
 (
 )
 ;
+request
+-
+>
+NoCacheEntryFound
+(
+)
+;
 return
 request
 -

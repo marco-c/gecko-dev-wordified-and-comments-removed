@@ -5315,6 +5315,13 @@ referrer
 context
 )
 ;
+aRequest
+-
+>
+NoCacheEntryFound
+(
+)
+;
 return
 aRequest
 .

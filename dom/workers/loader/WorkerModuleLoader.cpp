@@ -328,6 +328,13 @@ GetSpecOrDefault
 (
 )
 ;
+request
+-
+>
+NoCacheEntryFound
+(
+)
+;
 return
 request
 .
@@ -677,6 +684,13 @@ request
 mDynamicPromise
 =
 aPromise
+;
+request
+-
+>
+NoCacheEntryFound
+(
+)
 ;
 HoldJSObjects
 (

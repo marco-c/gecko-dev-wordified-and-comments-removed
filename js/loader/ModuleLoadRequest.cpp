@@ -442,6 +442,11 @@ MOZ_ASSERT
 IsFetching
 (
 )
+|
+|
+IsPendingFetchingError
+(
+)
 )
 ;
 mModuleScript
@@ -520,6 +525,11 @@ return
 MOZ_ASSERT
 (
 IsFetching
+(
+)
+|
+|
+IsPendingFetchingError
 (
 )
 )
