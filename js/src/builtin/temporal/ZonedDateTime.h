@@ -607,7 +607,7 @@ dateTime
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -646,7 +646,7 @@ dateTime
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -679,7 +679,7 @@ epochNanoseconds
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -714,7 +714,7 @@ epochNanoseconds
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -757,7 +757,7 @@ ns2
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -896,7 +896,7 @@ zonedRelativeTo
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -932,7 +932,7 @@ zonedRelativeTo
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -985,7 +985,7 @@ offsetNanoseconds
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >

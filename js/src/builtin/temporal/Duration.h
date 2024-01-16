@@ -674,7 +674,7 @@ calendar
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -794,7 +794,7 @@ zonedRelativeTo
 JS
 :
 :
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
