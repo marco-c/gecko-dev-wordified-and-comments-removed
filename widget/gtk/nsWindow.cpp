@@ -36834,7 +36834,7 @@ gdk_cursor_new_from_name
 (
 defaultDisplay
 "
-grab
+pointer
 "
 )
 ;
