@@ -596,6 +596,9 @@ GradientStops
 >
 GetOrCreateGradientStops
 (
+DrawTarget
+*
+aDrawTarget
 GradientStop
 *
 aRawStops
@@ -606,9 +609,7 @@ aExtendMode
 )
 {
 return
-GetReferenceDrawTarget
-(
-)
+aDrawTarget
 -
 >
 CreateGradientStops

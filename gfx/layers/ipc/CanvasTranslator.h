@@ -418,6 +418,12 @@ GetOrCreateGradientStops
 gfx
 :
 :
+DrawTarget
+*
+aDrawTarget
+gfx
+:
+:
 GradientStop
 *
 aRawStops
