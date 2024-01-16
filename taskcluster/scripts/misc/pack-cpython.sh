@@ -72,6 +72,8 @@ msiextract
 /
 *
 rm
+-
+f
 api
 -
 ms

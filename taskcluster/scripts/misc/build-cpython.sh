@@ -343,6 +343,21 @@ python
 .
 org
 /
+issue22490
+unset
+__PYVENV_LAUNCHER__
+#
+see
+https
+:
+/
+/
+bugs
+.
+python
+.
+org
+/
 issue44065
 sed
 -
@@ -738,7 +753,7 @@ lib
 /
 python3
 .
-8
+*
 /
 lib
 -
@@ -748,7 +763,8 @@ _ssl
 .
 cpython
 -
-38
+3
+*
 -
 darwin
 .
@@ -796,7 +812,7 @@ lib
 /
 python3
 .
-8
+*
 /
 lib
 -
@@ -806,7 +822,8 @@ _ssl
 .
 cpython
 -
-38
+3
+*
 -
 darwin
 .
@@ -824,7 +841,7 @@ lib
 /
 python3
 .
-8
+*
 /
 lib
 -
@@ -834,7 +851,8 @@ _ssl
 .
 cpython
 -
-38
+3
+*
 -
 darwin
 .
@@ -880,7 +898,7 @@ lib
 /
 python3
 .
-8
+*
 /
 lib
 -
@@ -890,7 +908,8 @@ _lzma
 .
 cpython
 -
-38
+3
+*
 -
 darwin
 .
@@ -908,7 +927,7 @@ lib
 /
 python3
 .
-8
+*
 /
 lib
 -
@@ -918,7 +937,8 @@ _lzma
 .
 cpython
 -
-38
+3
+*
 -
 darwin
 .
