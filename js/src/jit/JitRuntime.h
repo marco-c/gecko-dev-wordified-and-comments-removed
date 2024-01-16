@@ -561,6 +561,15 @@ nullptr
 ;
 MainThreadData
 <
+uint32_t
+>
+ionOsrTempDataSize_
+{
+0
+}
+;
+MainThreadData
+<
 IonFreeCompileTasks
 >
 ionFreeTaskBatch_
