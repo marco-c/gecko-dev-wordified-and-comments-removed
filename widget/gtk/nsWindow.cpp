@@ -9097,7 +9097,7 @@ mPopupTrackInHierarchy
 mPopupAnchored
 int
 (
-mPopupHint
+mPopupType
 )
 )
 ;
@@ -9163,7 +9163,7 @@ gtkTypeHint
 ;
 switch
 (
-mPopupHint
+mPopupType
 )
 {
 case
@@ -9724,7 +9724,7 @@ if
 popup
 -
 >
-mPopupHint
+mPopupType
 =
 =
 PopupType
@@ -13414,7 +13414,7 @@ WaylandPopupPrepareForMove
 ;
 if
 (
-mPopupHint
+mPopupType
 =
 =
 PopupType
@@ -27228,7 +27228,7 @@ GetPopupTypeName
 {
 switch
 (
-mPopupHint
+mPopupType
 )
 {
 case
@@ -28786,13 +28786,6 @@ mGtkWindowRoleName
 Popup
 "
 ;
-mPopupHint
-=
-aInitData
--
->
-mPopupHint
-;
 LOG
 (
 "
@@ -28977,7 +28970,7 @@ gtkTypeHint
 ;
 switch
 (
-mPopupHint
+mPopupType
 )
 {
 case
@@ -29100,7 +29093,7 @@ parentWidget
 ;
 if
 (
-mPopupHint
+mPopupType
 !
 =
 PopupType
