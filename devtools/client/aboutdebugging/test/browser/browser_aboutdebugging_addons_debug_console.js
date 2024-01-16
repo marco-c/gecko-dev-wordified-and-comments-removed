@@ -80,6 +80,8 @@ const
 ADDON_NAME
 =
 "
+base
+-
 test
 -
 devtools
