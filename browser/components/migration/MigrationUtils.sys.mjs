@@ -1204,6 +1204,8 @@ html
 about
 :
 firefoxview
+-
+next
 "
 ]
 }
@@ -6868,6 +6870,8 @@ from
 about
 :
 firefoxview
+-
+next
 *
 /
 FIREFOX_VIEW
