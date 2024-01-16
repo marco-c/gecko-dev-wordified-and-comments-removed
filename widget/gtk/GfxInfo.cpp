@@ -5068,7 +5068,7 @@ All
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -5121,7 +5121,7 @@ All
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -5174,7 +5174,7 @@ NvidiaAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -5211,7 +5211,7 @@ AtiAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
