@@ -48,6 +48,11 @@ net
 =
 [
 "
+WebTransportHash
+.
+h
+"
+"
 WebTransportSessionProxy
 .
 h
@@ -62,6 +67,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+WebTransportHash
+.
+cpp
+"
 "
 WebTransportSessionProxy
 .

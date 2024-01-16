@@ -2670,6 +2670,13 @@ const
 uint32_t
 &
 aCongestionControl
+nsTArray
+<
+WebTransportHash
+>
+&
+&
+aServerCertHashes
 Endpoint
 <
 PWebTransportParent
@@ -2725,6 +2732,13 @@ aClientInfo
 aDedicated
 aRequireUnreliable
 aCongestionControl
+std
+:
+:
+move
+(
+aServerCertHashes
+)
 std
 :
 :

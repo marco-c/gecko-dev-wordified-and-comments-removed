@@ -572,6 +572,13 @@ const
 uint32_t
 &
 aCongestionControl
+nsTArray
+<
+WebTransportHash
+>
+&
+&
+aServerCertHashes
 Endpoint
 <
 PWebTransportParent
@@ -1699,6 +1706,10 @@ ipc
 IPCResult
 RecvRequestCameraAccess
 (
+const
+bool
+&
+aAllowPermissionRequest
 RequestCameraAccessResolver
 &
 &

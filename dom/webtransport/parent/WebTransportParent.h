@@ -174,6 +174,13 @@ const
 uint32_t
 &
 aCongestionControl
+nsTArray
+<
+WebTransportHash
+>
+&
+&
+aServerCertHashes
 Endpoint
 <
 PWebTransportParent
