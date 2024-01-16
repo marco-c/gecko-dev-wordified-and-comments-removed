@@ -3048,9 +3048,9 @@ QueueATask
 (
 "
 Error
-during
-flush
-runnable
+while
+configuring
+decoder
 "
 [
 self
@@ -3719,7 +3719,7 @@ QueueATask
 "
 Error
 during
-configure
+decode
 "
 [
 self
@@ -4168,7 +4168,8 @@ QueueATask
 "
 Error
 during
-configure
+decode
+runnable
 "
 [
 self
