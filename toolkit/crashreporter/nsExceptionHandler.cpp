@@ -8500,6 +8500,8 @@ MINIDUMP_TYPE
 MiniDumpWithFullMemoryInfo
 |
 MiniDumpWithUnloadedModules
+|
+MiniDumpWithHandleData
 )
 ;
 #
