@@ -4530,6 +4530,17 @@ aControl
 )
 ;
 void
+GetUserActivationModifiersForPopup
+(
+UserActivation
+:
+:
+Modifiers
+*
+aModifiers
+)
+;
+void
 IncrementHistoryEntryCountForBrowsingContext
 (
 )

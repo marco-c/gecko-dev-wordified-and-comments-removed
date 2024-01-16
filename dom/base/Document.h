@@ -10743,6 +10743,17 @@ ConsumeTransientUserGestureActivation
 (
 )
 ;
+bool
+GetTransientUserGestureActivationModifiers
+(
+UserActivation
+:
+:
+Modifiers
+*
+aModifiers
+)
+;
 BrowsingContext
 *
 GetBrowsingContext
