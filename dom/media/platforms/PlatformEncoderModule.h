@@ -642,6 +642,7 @@ Variable
 }
 ;
 enum
+class
 ScalabilityMode
 {
 None
