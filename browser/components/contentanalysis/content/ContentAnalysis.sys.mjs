@@ -1382,6 +1382,13 @@ const
 request
 =
 aSubj
+.
+QueryInterface
+(
+Ci
+.
+nsIContentAnalysisRequest
+)
 ;
 if
 (
@@ -1676,6 +1683,13 @@ const
 request
 =
 aSubj
+.
+QueryInterface
+(
+Ci
+.
+nsIContentAnalysisResponse
+)
 ;
 /
 /

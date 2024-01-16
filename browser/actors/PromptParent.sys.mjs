@@ -1808,6 +1808,14 @@ openedWithTabDialog
 =
 true
 ;
+args
+.
+owningBrowsingContext
+=
+this
+.
+browsingContext
+;
 /
 /
 Convert
