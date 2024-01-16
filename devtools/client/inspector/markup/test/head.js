@@ -1827,6 +1827,15 @@ inspector
 :
 selector
 ;
+container
+.
+elt
+.
+scrollIntoView
+(
+true
+)
+;
 const
 rect
 =
