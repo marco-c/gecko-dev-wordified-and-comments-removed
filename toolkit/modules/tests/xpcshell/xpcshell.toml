@@ -500,13 +500,6 @@ js
 ]
 [
 "
-test_PromiseUtils
-.
-js
-"
-]
-[
-"
 test_Region
 .
 js
