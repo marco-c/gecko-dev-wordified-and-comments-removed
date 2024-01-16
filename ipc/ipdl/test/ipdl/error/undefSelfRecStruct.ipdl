@@ -17,11 +17,6 @@ x
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 undefSelfRecStruct
 {

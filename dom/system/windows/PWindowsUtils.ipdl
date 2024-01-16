@@ -8,11 +8,6 @@ mozilla
 namespace
 dom
 {
-[
-ChildProc
-=
-Utility
-]
 protocol
 PWindowsUtils
 {

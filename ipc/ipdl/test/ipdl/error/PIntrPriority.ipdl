@@ -11,11 +11,6 @@ specify
 [
 Priority
 ]
-[
-ChildProc
-=
-any
-]
 intr
 protocol
 PIntrPriority

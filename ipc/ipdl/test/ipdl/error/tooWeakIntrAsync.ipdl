@@ -16,11 +16,6 @@ protocol
 tooWeakIntrAsync
 '
 provides
-[
-ChildProc
-=
-any
-]
 protocol
 tooWeakIntrAsync
 {

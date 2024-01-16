@@ -57,12 +57,6 @@ GMPContentChild
 ParentImpl
 =
 virtual
-ParentProc
-=
-anydom
-ChildProc
-=
-GMPlugin
 ]
 sync
 protocol

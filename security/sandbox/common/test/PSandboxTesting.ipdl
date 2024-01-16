@@ -1,11 +1,6 @@
 namespace
 mozilla
 {
-[
-ChildProc
-=
-anychild
-]
 sync
 protocol
 PSandboxTesting

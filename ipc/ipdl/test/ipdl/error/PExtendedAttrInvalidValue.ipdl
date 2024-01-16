@@ -19,9 +19,6 @@ inside_cpow
 NestedUpTo
 =
 invalid
-ChildProc
-=
-any
 ]
 async
 protocol

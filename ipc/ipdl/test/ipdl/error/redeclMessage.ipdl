@@ -23,11 +23,6 @@ Msg
 first
 declared
 at
-[
-ChildProc
-=
-any
-]
 protocol
 redeclMessage
 {

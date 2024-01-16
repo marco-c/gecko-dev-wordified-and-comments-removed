@@ -37,11 +37,6 @@ as
 its
 manager
 .
-[
-ChildProc
-=
-any
-]
 protocol
 ForgottenManager
 {

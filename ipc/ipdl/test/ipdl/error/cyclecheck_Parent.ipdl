@@ -28,11 +28,6 @@ include
 protocol
 cyclecheck_Child
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 cyclecheck_Parent
 {

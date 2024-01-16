@@ -11,9 +11,6 @@ ManualDealloc
 ]
 [
 ManualDealloc
-ChildProc
-=
-any
 ]
 async
 protocol

@@ -21,11 +21,6 @@ protocol
 syncParentToChild
 '
 )
-[
-ChildProc
-=
-any
-]
 intr
 protocol
 syncParentToChild

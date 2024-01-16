@@ -65,14 +65,6 @@ dom
 namespace
 quota
 {
-[
-ParentProc
-=
-any
-ChildProc
-=
-any
-]
 sync
 protocol
 PQuotaTest

@@ -30,11 +30,6 @@ X
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 PmutualRecUnion
 {

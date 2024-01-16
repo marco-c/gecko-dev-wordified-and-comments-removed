@@ -71,9 +71,6 @@ NeedsOtherPid
 NestedUpTo
 =
 inside_sync
-ChildProc
-=
-RemoteSandboxBroker
 ]
 sync
 protocol

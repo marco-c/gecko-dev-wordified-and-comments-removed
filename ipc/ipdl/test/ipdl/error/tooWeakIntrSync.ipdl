@@ -16,11 +16,6 @@ protocol
 tooWeakIntrSync
 '
 provides
-[
-ChildProc
-=
-any
-]
 sync
 protocol
 tooWeakIntrSync

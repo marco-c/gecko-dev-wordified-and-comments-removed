@@ -20,11 +20,6 @@ Msg
 declares
 return
 values
-[
-ChildProc
-=
-any
-]
 protocol
 PAsyncReturn
 {

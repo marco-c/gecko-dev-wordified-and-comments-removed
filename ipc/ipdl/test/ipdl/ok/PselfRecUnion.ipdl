@@ -9,11 +9,6 @@ R
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 PselfRecUnion
 {

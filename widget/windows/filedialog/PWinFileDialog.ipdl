@@ -50,11 +50,6 @@ widget
 namespace
 filedialog
 {
-[
-ChildProc
-=
-Utility
-]
 protocol
 PWinFileDialog
 {

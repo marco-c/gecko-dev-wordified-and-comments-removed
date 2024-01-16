@@ -40,11 +40,6 @@ nsIURI
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 PNullable
 {

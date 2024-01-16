@@ -13,11 +13,6 @@ async
 can
 be
 delisted
-[
-ChildProc
-=
-any
-]
 protocol
 PasyncMessageListed
 {

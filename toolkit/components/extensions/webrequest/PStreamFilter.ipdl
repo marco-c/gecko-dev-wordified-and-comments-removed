@@ -66,14 +66,6 @@ mozilla
 namespace
 extensions
 {
-[
-ParentProc
-=
-any
-ChildProc
-=
-any
-]
 async
 protocol
 PStreamFilter

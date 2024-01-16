@@ -52,11 +52,6 @@ protocol
 InsideCpowToChild
 '
 provides
-[
-ChildProc
-=
-any
-]
 protocol
 InsideCpowToChild
 {

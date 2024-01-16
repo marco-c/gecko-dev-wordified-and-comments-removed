@@ -52,11 +52,6 @@ X
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 undefMutualRecUnion
 {

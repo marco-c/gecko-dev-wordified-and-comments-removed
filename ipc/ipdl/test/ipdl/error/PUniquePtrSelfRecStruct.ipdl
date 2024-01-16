@@ -20,11 +20,6 @@ x
 ;
 }
 ;
-[
-ChildProc
-=
-any
-]
 protocol
 PUniquePtrSelfRecStruct
 {

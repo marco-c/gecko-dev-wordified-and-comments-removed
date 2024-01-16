@@ -218,12 +218,6 @@ ParentImpl
 "
 VRManagerParent
 "
-ParentProc
-=
-compositor
-ChildProc
-=
-anydom
 ]
 sync
 protocol
