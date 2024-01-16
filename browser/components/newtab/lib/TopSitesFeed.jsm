@@ -3556,6 +3556,15 @@ contilePositionIndex
 >
 0
 ;
+this
+.
+_telemetryUtility
+.
+setRemovedTilesToOversold
+(
+DEFAULT_TOP_SITES
+)
+;
 }
 this
 .
