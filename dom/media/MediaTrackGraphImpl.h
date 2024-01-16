@@ -402,7 +402,7 @@ CubebUtils
 :
 :
 AudioDeviceID
-aOutputDeviceID
+aPrimaryOutputDeviceID
 nsISerialEventTarget
 *
 aMainThread
@@ -421,7 +421,7 @@ CubebUtils
 :
 :
 AudioDeviceID
-aOutputDeviceID
+aPrimaryOutputDeviceID
 )
 ;
 struct
@@ -1162,7 +1162,7 @@ true
 ;
 }
 uint32_t
-AudioOutputChannelCount
+PrimaryOutputChannelCount
 (
 )
 const
@@ -1712,6 +1712,10 @@ this
 ;
 }
 const
+uint64_t
+mWindowID
+;
+const
 RefPtr
 <
 GraphRunner
@@ -1789,17 +1793,6 @@ nsIRunnable
 >
 >
 mPendingUpdateRunnables
-;
-const
-uint64_t
-mWindowID
-;
-const
-CubebUtils
-:
-:
-AudioDeviceID
-mOutputDeviceID
 ;
 class
 PendingResumeOperation
