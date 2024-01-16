@@ -888,14 +888,6 @@ aTime
 )
 const
 ;
-void
-CreateOrDestroyAudioTracks
-(
-MediaTrack
-*
-aTrack
-)
-;
 struct
 TrackAndKey
 {
