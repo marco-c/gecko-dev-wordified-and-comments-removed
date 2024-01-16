@@ -946,9 +946,6 @@ WrapCalendarValue
 JSContext
 *
 cx
-JS
-:
-:
 MutableHandle
 <
 JS

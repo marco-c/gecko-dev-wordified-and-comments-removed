@@ -5588,9 +5588,6 @@ ToFractionalSecondDigits
 JSContext
 *
 cx
-JS
-:
-:
 Handle
 <
 JSObject
