@@ -1211,14 +1211,9 @@ databaseFile
 )
 ;
 const
-auto
+nsCString
 directoryLockIdClause
 =
-aDirectoryLockId
->
-=
-0
-?
 "
 &
 directoryLockId
@@ -1229,10 +1224,6 @@ _ns
 IntToCString
 (
 aDirectoryLockId
-)
-:
-EmptyCString
-(
 )
 ;
 nsCOMPtr

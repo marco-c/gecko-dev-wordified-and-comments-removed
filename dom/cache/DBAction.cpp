@@ -815,13 +815,6 @@ const
 nsCString
 directoryLockIdClause
 =
-aDirectoryMetadata
-.
-mDirectoryLockId
->
-=
-0
-?
 "
 &
 directoryLockId
@@ -834,10 +827,6 @@ IntToCString
 aDirectoryMetadata
 .
 mDirectoryLockId
-)
-:
-EmptyCString
-(
 )
 ;
 const
