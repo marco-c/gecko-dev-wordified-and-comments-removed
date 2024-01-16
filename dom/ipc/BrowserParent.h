@@ -2749,6 +2749,15 @@ LayoutDeviceIntPoint
 TransformParentToChild
 (
 const
+WidgetMouseEvent
+&
+aEvent
+)
+;
+LayoutDeviceIntPoint
+TransformParentToChild
+(
+const
 LayoutDeviceIntPoint
 &
 aPoint
