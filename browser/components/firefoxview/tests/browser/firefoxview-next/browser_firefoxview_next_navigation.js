@@ -5,8 +5,6 @@ URL_BASE
 about
 :
 firefoxview
--
-next
 #
 "
 ;
