@@ -2201,6 +2201,10 @@ bisectChunk
 =
 None
         
+restartAfterFailure
+=
+False
+        
 marionette_args
 =
 None

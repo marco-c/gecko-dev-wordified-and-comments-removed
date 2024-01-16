@@ -980,6 +980,11 @@ _numTimeouts
 TestRunner
 .
 maxTimeouts
+|
+|
+TestRunner
+.
+runUntilFailure
 )
 {
 TestRunner
