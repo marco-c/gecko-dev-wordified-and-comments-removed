@@ -967,18 +967,6 @@ ftl
 properties
 "
 ]
-or
-filename
-.
-endswith
-(
-"
-.
-inc
-.
-xul
-"
-)
 :
         
 for
@@ -1024,10 +1012,6 @@ in
 "
 .
 xml
-"
-"
-.
-xul
 "
 "
 .
