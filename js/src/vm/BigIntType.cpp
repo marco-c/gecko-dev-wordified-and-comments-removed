@@ -20329,6 +20329,7 @@ StringToBigIntHelper
 JSContext
 *
 cx
+const
 Range
 <
 const
@@ -20399,11 +20400,13 @@ StringToBigInt
 JSContext
 *
 cx
+const
 Range
 <
 const
 Latin1Char
 >
+&
 chars
 )
 {
@@ -20425,11 +20428,13 @@ StringToBigInt
 JSContext
 *
 cx
+const
 Range
 <
 const
 char16_t
 >
+&
 chars
 )
 {

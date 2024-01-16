@@ -728,6 +728,7 @@ StringToBigInt
 JSContext
 *
 cx
+const
 mozilla
 :
 :
@@ -736,6 +737,7 @@ Range
 const
 Latin1Char
 >
+&
 chars
 )
 ;
@@ -748,6 +750,7 @@ StringToBigInt
 JSContext
 *
 cx
+const
 mozilla
 :
 :
@@ -756,6 +759,7 @@ Range
 const
 char16_t
 >
+&
 chars
 )
 ;

@@ -1070,6 +1070,7 @@ Range
 const
 char16_t
 >
+&
 tbchars
 )
 ;
@@ -1136,6 +1137,7 @@ Range
 <
 CharT
 >
+&
 chars
 )
 ;
