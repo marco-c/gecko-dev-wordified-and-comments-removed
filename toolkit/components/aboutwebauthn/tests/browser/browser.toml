@@ -59,6 +59,13 @@ true
 ]
 [
 "
+browser_aboutwebauthn_bio
+.
+js
+"
+]
+[
+"
 browser_aboutwebauthn_credentials
 .
 js
