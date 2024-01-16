@@ -13457,7 +13457,7 @@ ABIFunctionType
 sig
 >
 >
-ArgType_Shift
+ABITypeArgShift
 )
 )
 {
@@ -13483,7 +13483,7 @@ i
 i
 >
 >
-ArgType_Shift
+ABITypeArgShift
 ;
 len
 +
@@ -13546,7 +13546,7 @@ abi
 abi
 >
 >
-ArgType_Shift
+ABITypeArgShift
 ;
 argAtLSB
 -
@@ -13556,11 +13556,11 @@ argAtLSB
 return
 ToMIRType
 (
-ABIArgType
+ABIType
 (
 abi
 &
-ArgType_Mask
+ABITypeArgMask
 )
 )
 ;
@@ -13892,7 +13892,7 @@ retType
 =
 ToMIRType
 (
-ABIArgType
+ABIType
 (
 std
 :
@@ -13905,7 +13905,7 @@ ABIFunctionType
 abiType
 )
 &
-ArgType_Mask
+ABITypeArgMask
 )
 )
 ;
@@ -13975,7 +13975,7 @@ retType
 =
 ToMIRType
 (
-ABIArgType
+ABIType
 (
 std
 :
@@ -13988,7 +13988,7 @@ ABIFunctionType
 abiType
 )
 &
-ArgType_Mask
+ABITypeArgMask
 )
 )
 ;
