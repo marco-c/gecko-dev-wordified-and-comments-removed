@@ -43,6 +43,9 @@ toctree
 maxdepth
 :
 1
+javascript
+-
+logging
 mozapps
 /
 extensions
