@@ -1382,6 +1382,15 @@ track
 .
 id
 ;
+document
+.
+body
+.
+appendChild
+(
+elem
+)
+;
 return
 elem
 ;
