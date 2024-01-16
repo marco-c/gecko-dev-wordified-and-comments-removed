@@ -799,7 +799,7 @@ Identical
 Code
 Folding
 ]
-LD_SUPPORTS_ICF
+moz_cv_opt_ld_supports_icf
 [
 echo
 '
@@ -990,11 +990,11 @@ changequote
 )
 ;
 then
-LD_SUPPORTS_ICF
+moz_cv_opt_ld_supports_icf
 =
 yes
 else
-LD_SUPPORTS_ICF
+moz_cv_opt_ld_supports_icf
 =
 no
 fi
@@ -1008,7 +1008,7 @@ conftest
 if
 test
 "
-LD_SUPPORTS_ICF
+moz_cv_opt_ld_supports_icf
 "
 =
 yes
@@ -1297,7 +1297,7 @@ symbols
 breaks
 debugging
 ]
-GC_SECTIONS_BREAKS_DEBUG_RANGES
+moz_cv_opt_gc_sections_breaks_debug_ranges
 [
 echo
 '
@@ -1476,11 +1476,11 @@ ac_ext
 "
 ;
 then
-GC_SECTIONS_BREAKS_DEBUG_RANGES
+moz_cv_opt_gc_sections_breaks_debug_ranges
 =
 no
 else
-GC_SECTIONS_BREAKS_DEBUG_RANGES
+moz_cv_opt_gc_sections_breaks_debug_ranges
 =
 yes
 fi
@@ -1499,7 +1499,7 @@ but
 just
 in
 case
-GC_SECTIONS_BREAKS_DEBUG_RANGES
+moz_cv_opt_gc_sections_breaks_debug_ranges
 =
 "
 no
@@ -1524,7 +1524,7 @@ conftest
 if
 test
 "
-GC_SECTIONS_BREAKS_DEBUG_RANGES
+moz_cv_opt_gc_sections_breaks_debug_ranges
 "
 =
 no
