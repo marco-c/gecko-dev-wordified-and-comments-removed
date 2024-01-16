@@ -31,6 +31,21 @@ mjs
 )
 ;
 const
+FXVIEW_NEXT_ENABLED_PREF
+=
+"
+browser
+.
+tabs
+.
+firefox
+-
+view
+-
+next
+"
+;
+const
 NEVER_REMEMBER_HISTORY_PREF
 =
 "
@@ -228,6 +243,8 @@ href
 about
 :
 firefoxview
+-
+next
 #
 recentlyclosed
 "
@@ -235,6 +252,8 @@ recentlyclosed
 about
 :
 firefoxview
+-
+next
 is
 the
 selected
@@ -1128,6 +1147,10 @@ set
 :
 [
 [
+FXVIEW_NEXT_ENABLED_PREF
+true
+]
+[
 SEARCH_ENABLED_PREF
 true
 ]
@@ -1316,6 +1339,8 @@ href
 about
 :
 firefoxview
+-
+next
 "
 )
 ;
@@ -1469,6 +1494,8 @@ href
 about
 :
 firefoxview
+-
+next
 "
 )
 ;
@@ -1927,6 +1954,8 @@ href
 about
 :
 firefoxview
+-
+next
 "
 )
 ;
@@ -2569,6 +2598,8 @@ href
 about
 :
 firefoxview
+-
+next
 "
 )
 ;
