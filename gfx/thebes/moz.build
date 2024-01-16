@@ -72,6 +72,11 @@ DrawMode
 h
 "
 "
+FontPaletteCache
+.
+h
+"
+"
 gfx2DGlue
 .
 h
@@ -872,6 +877,11 @@ cpp
 "
 "
 COLRFonts
+.
+cpp
+"
+"
+FontPaletteCache
 .
 cpp
 "
