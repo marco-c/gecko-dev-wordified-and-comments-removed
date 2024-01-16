@@ -7789,7 +7789,7 @@ chromeFlags
 nsIWebBrowserChrome
 :
 :
-CHROME_WINDOW_MIN
+CHROME_WINDOW_MINIMIZE
 ;
 }
 if
