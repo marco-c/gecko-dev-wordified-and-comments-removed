@@ -410,6 +410,13 @@ toml
 "
 test
 /
+mochitest_eme_compat
+.
+toml
+"
+"
+test
+/
 mochitest_media_engine
 .
 toml
