@@ -29,6 +29,15 @@ bool
 forRestart
 )
 ;
+bool
+AddURLToCurrentCommandLine
+(
+const
+char
+*
+aURL
+)
+;
 }
 #
 endif
