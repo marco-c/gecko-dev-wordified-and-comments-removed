@@ -144,8 +144,6 @@ mozilla
 ComputedStyle
 *
 aStyle
-nsFrameState
-aFlags
 )
 ;
 nsBlockFrame
@@ -776,8 +774,6 @@ mozilla
 ComputedStyle
 *
 aStyle
-nsFrameState
-aFlags
 )
 ;
 nsIFrame

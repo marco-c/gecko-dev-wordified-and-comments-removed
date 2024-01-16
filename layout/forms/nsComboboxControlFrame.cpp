@@ -428,8 +428,6 @@ aPresShell
 ComputedStyle
 *
 aStyle
-nsFrameState
-aStateFlags
 )
 {
 nsComboboxControlFrame
@@ -461,7 +459,7 @@ it
 >
 AddStateBits
 (
-aStateFlags
+NS_BLOCK_FLOAT_MGR
 )
 ;
 }

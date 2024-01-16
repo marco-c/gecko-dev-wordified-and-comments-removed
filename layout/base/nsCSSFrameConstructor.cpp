@@ -13705,11 +13705,6 @@ IsCombobox
 )
 )
 {
-nsFrameState
-flags
-=
-NS_BLOCK_FLOAT_MGR
-;
 nsComboboxControlFrame
 *
 comboboxFrame
@@ -13718,7 +13713,6 @@ NS_NewComboboxControlFrame
 (
 mPresShell
 computedStyle
-flags
 )
 ;
 nsILayoutHistoryState
@@ -13988,7 +13982,6 @@ NS_NewSelectsAreaFrame
 (
 mPresShell
 computedStyle
-NS_BLOCK_FLOAT_MGR
 )
 ;
 InitializeListboxSelect
