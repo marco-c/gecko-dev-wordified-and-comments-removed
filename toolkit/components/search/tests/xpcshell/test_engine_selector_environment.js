@@ -1175,6 +1175,7 @@ test_selector_match_experiment
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_EXPERIMENT
@@ -1216,6 +1217,7 @@ experiment
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_EXPERIMENT
@@ -1267,6 +1269,7 @@ test_everywhere_and_excluded_locale
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_EVERYWHERE
@@ -1340,6 +1343,7 @@ regions
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_EVERYWHERE
@@ -1404,6 +1408,7 @@ locale
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_EVERYWHERE
@@ -1468,9 +1473,10 @@ region
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
-CONFIG_LOCALES_AND_REGIONS
+CONFIG_EVERYWHERE
 {
 locale
 :
@@ -1541,6 +1547,7 @@ test_selector_locales_and_regions
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_LOCALES_AND_REGIONS
@@ -1578,6 +1585,7 @@ region
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_LOCALES_AND_REGIONS
@@ -1611,6 +1619,7 @@ excluded
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_LOCALES_AND_REGIONS
@@ -1657,6 +1666,7 @@ region
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_LOCALES_AND_REGIONS
@@ -1703,6 +1713,7 @@ region
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_LOCALES_AND_REGIONS
@@ -1734,6 +1745,7 @@ excluded
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_LOCALES_AND_REGIONS
@@ -1778,6 +1790,7 @@ locale
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_LOCALES_AND_REGIONS
@@ -1833,6 +1846,7 @@ test_selector_match_distribution
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -1878,6 +1892,7 @@ distribution
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -1922,6 +1937,7 @@ distributions
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -1966,6 +1982,7 @@ distributions
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -2013,6 +2030,7 @@ locale
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -2056,6 +2074,7 @@ locale
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -2106,6 +2125,7 @@ experiment
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -2157,6 +2177,7 @@ experiment
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -2201,6 +2222,7 @@ distributions
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DISTRIBUTION
@@ -2251,6 +2273,7 @@ test_engine_selector_match_applications
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_CHANNEL_APPLICATION
@@ -2291,6 +2314,7 @@ channel
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_CHANNEL_APPLICATION
@@ -2341,6 +2365,7 @@ test_engine_selector_match_version
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_VERSIONS
@@ -2407,6 +2432,7 @@ minimum
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_VERSIONS
@@ -2453,6 +2479,7 @@ minimum
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_VERSIONS
@@ -2508,6 +2535,7 @@ maximum
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_VERSIONS
@@ -2577,6 +2605,7 @@ maximum
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_VERSIONS
@@ -2635,6 +2664,7 @@ maximum
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_VERSIONS
