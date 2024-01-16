@@ -245,7 +245,7 @@ length
 Waiting
 for
 fxa_continue
-firefoxview
+firefoxview_next
 telemetry
 event
 .
@@ -554,7 +554,7 @@ length
 Waiting
 for
 fxa_mobile
-firefoxview
+firefoxview_next
 telemetry
 event
 .
@@ -1962,7 +1962,7 @@ length
 Waiting
 for
 synced_tabs
-firefoxview
+firefoxview_next
 telemetry
 event
 .
