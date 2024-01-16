@@ -48,7 +48,7 @@ about
 :
 preferences
 #
-privacy
+search
 "
 async
 browser
@@ -110,7 +110,7 @@ contentDocument
 getElementById
 (
 "
-firefoxSuggestDataCollectionToggle
+firefoxSuggestDataCollectionSearchToggle
 "
 )
 .
@@ -179,7 +179,7 @@ contentDocument
 getElementById
 (
 "
-firefoxSuggestDataCollectionToggle
+firefoxSuggestDataCollectionSearchToggle
 "
 )
 .
