@@ -145,6 +145,13 @@ Message
 pbnewtab_promo_schema_
 >
 _
+*
+Protections
+Panel
+<
+protections_panel_schema_
+>
+_
 Together
 they
 are
