@@ -420,7 +420,6 @@ char
 *
 WakeLockTypeNames
 [
-7
 ]
 =
 {
@@ -432,6 +431,9 @@ FreeDesktopScreensaver
 "
 "
 FreeDesktopPower
+"
+"
+FreeDesktopPortal
 "
 "
 GNOME
