@@ -240,12 +240,6 @@ RGB8
 ;
 const
 GLenum
-RGBA8
-=
-0x8058
-;
-const
-GLenum
 RGB10_A2
 =
 0x8059

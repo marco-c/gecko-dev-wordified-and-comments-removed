@@ -493,7 +493,7 @@ eventInitDict
 ;
 readonly
 attribute
-DOMString
+USVString
 ?
 data
 ;
@@ -700,7 +700,7 @@ eventInitDict
 ;
 readonly
 attribute
-DOMString
+USVString
 data
 ;
 }

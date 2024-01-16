@@ -118,6 +118,11 @@ PermissionState
 >
 requestPermission
 (
+optional
+boolean
+absolute
+=
+false
 )
 ;
 }

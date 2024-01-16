@@ -1928,6 +1928,11 @@ slotAssignment
 ;
 readonly
 attribute
+boolean
+clonable
+;
+readonly
+attribute
 Element
 host
 ;

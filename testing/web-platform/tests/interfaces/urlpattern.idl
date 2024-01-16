@@ -170,6 +170,11 @@ attribute
 USVString
 hash
 ;
+readonly
+attribute
+boolean
+hasRegExpGroups
+;
 }
 ;
 dictionary
@@ -267,4 +272,14 @@ undefined
 groups
 ;
 }
+;
+typedef
+(
+USVString
+or
+URLPatternInit
+or
+URLPattern
+)
+URLPatternCompatible
 ;

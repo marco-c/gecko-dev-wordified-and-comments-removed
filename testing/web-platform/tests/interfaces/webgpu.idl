@@ -2820,6 +2820,7 @@ GPUPipelineConstantValue
 May
 represent
 WGSL
+'
 s
 bool
 f32
