@@ -2472,6 +2472,15 @@ YUVColorSpace
 BT709
 ;
 }
+bool
+IsWaveMimetype
+(
+const
+nsACString
+&
+aMimeType
+)
+;
 }
 #
 endif
