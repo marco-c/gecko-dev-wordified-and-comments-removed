@@ -4893,8 +4893,8 @@ suggest
 #
 apply
 (
-event
 direction
+key
 )
 {
 if
@@ -4949,6 +4949,7 @@ this
 .
 cancelled
 direction
+key
 )
 ;
 }
@@ -6134,8 +6135,8 @@ this
 #
 apply
 (
-event
 direction
+key
 )
 ;
 if
