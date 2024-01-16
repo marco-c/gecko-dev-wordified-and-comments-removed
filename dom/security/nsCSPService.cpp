@@ -470,10 +470,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeTypeGuess
 int16_t
 *
 aDecision
@@ -844,10 +840,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeTypeGuess
 int16_t
 *
 aDecision
@@ -858,7 +850,6 @@ ConsultCSP
 (
 aContentLocation
 aLoadInfo
-aMimeTypeGuess
 aDecision
 )
 ;
@@ -875,10 +866,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeTypeGuess
 int16_t
 *
 aDecision
@@ -987,7 +974,6 @@ ShouldLoad
 (
 aContentLocation
 aLoadInfo
-aMimeTypeGuess
 aDecision
 )
 ;

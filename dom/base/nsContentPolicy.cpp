@@ -269,10 +269,6 @@ contentLocation
 nsILoadInfo
 *
 loadInfo
-const
-nsACString
-&
-mimeType
 int16_t
 *
 decision
@@ -527,7 +523,6 @@ policyMethod
 (
 contentLocation
 loadInfo
-mimeType
 decision
 )
 ;
@@ -710,10 +705,6 @@ contentLocation
 nsILoadInfo
 *
 loadInfo
-const
-nsACString
-&
-mimeType
 int16_t
 *
 decision
@@ -742,7 +733,6 @@ nsIContentPolicy
 ShouldLoad
 contentLocation
 loadInfo
-mimeType
 decision
 )
 ;
@@ -769,10 +759,6 @@ contentLocation
 nsILoadInfo
 *
 loadInfo
-const
-nsACString
-&
-mimeType
 int16_t
 *
 decision
@@ -790,7 +776,6 @@ nsIContentPolicy
 ShouldProcess
 contentLocation
 loadInfo
-mimeType
 decision
 )
 ;

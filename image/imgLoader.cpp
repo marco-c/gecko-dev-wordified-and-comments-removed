@@ -4290,9 +4290,6 @@ NS_CheckContentLoadPolicy
 (
 contentLocation
 secCheckLoadInfo
-"
-"
-_ns
 &
 decision
 nsContentUtils
@@ -4408,9 +4405,6 @@ ShouldLoad
 insecureRedirect
 contentLocation
 secCheckLoadInfo
-"
-"
-_ns
 true
 &
 decision

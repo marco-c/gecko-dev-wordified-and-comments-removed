@@ -14692,7 +14692,6 @@ shouldLoad
 (
 contentLocation
 loadInfo
-mimeTypeGuess
 )
 {
 let
@@ -14814,7 +14813,6 @@ shouldProcess
 (
 contentLocation
 loadInfo
-mimeTypeGuess
 )
 {
 return

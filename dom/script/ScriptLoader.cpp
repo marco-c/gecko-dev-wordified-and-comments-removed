@@ -2136,10 +2136,6 @@ aElement
 const
 nsAString
 &
-aType
-const
-nsAString
-&
 aNonce
 ScriptLoadRequest
 *
@@ -2286,10 +2282,6 @@ aRequest
 >
 mURI
 secCheckLoadInfo
-NS_LossyConvertUTF16toASCII
-(
-aType
-)
 &
 shouldLoad
 nsContentUtils
@@ -5378,10 +5370,6 @@ ProcessScriptElement
 nsIScriptElement
 *
 aElement
-const
-nsAutoString
-&
-aTypeAttr
 )
 {
 NS_ENSURE_TRUE
@@ -5554,7 +5542,6 @@ ProcessExternalScript
 (
 aElement
 scriptKind
-aTypeAttr
 scriptContent
 )
 ;
@@ -5615,10 +5602,6 @@ nsIScriptElement
 aElement
 ScriptKind
 aScriptKind
-const
-nsAutoString
-&
-aTypeAttr
 nsIContent
 *
 aScriptContent
@@ -5837,7 +5820,6 @@ CheckContentPolicy
 (
 mDocument
 aElement
-aTypeAttr
 nonce
 request
 )

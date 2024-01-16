@@ -984,7 +984,6 @@ loader
 ProcessScriptElement
 (
 this
-type
 )
 ;
 }

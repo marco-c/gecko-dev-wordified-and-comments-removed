@@ -3931,7 +3931,6 @@ NS_CheckContentLoadPolicy
 (
 mURI
 secCheckLoadInfo
-mContentType
 aContentPolicy
 nsContentUtils
 :
@@ -4182,7 +4181,6 @@ mURI
 :
 mBaseURI
 secCheckLoadInfo
-mContentType
 aContentPolicy
 nsContentUtils
 :

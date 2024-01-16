@@ -468,17 +468,6 @@ channelURI
 )
 )
 ;
-nsAutoCString
-mimeType
-;
-channel
--
->
-GetContentType
-(
-mimeType
-)
-;
 nsCOMPtr
 <
 nsILoadInfo
@@ -591,7 +580,6 @@ NS_CheckContentProcessPolicy
 (
 channelURI
 secCheckLoadInfo
-mimeType
 &
 decision
 nsContentUtils

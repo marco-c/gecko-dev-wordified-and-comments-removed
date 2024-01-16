@@ -94,10 +94,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeTypeGuess
 int16_t
 *
 aDecision

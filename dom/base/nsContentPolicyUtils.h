@@ -623,7 +623,6 @@ action
 (
 contentLocation
 loadInfo
-mimeType
 decision
 )
 ;
@@ -647,7 +646,6 @@ action
 (
 contentLocation
 loadInfo
-mimeType
 decision
 )
 ;
@@ -750,7 +748,6 @@ ConsultCSP
 (
 contentLocation
 loadInfo
-mimeType
 decision
 )
 ;
@@ -941,7 +938,6 @@ action
 (
 contentLocation
 loadInfo
-mimeType
 decision
 )
 ;
@@ -971,10 +967,6 @@ contentLocation
 nsILoadInfo
 *
 loadInfo
-const
-nsACString
-&
-mimeType
 int16_t
 *
 decision
@@ -1052,10 +1044,6 @@ contentLocation
 nsILoadInfo
 *
 loadInfo
-const
-nsACString
-&
-mimeType
 int16_t
 *
 decision

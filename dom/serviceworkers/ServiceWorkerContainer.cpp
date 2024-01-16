@@ -1595,12 +1595,6 @@ NS_CheckContentLoadPolicy
 (
 scriptURI
 secCheckLoadInfo
-"
-application
-/
-javascript
-"
-_ns
 &
 decision
 )

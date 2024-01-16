@@ -1643,9 +1643,6 @@ get
 (
 )
 secCheckLoadInfo
-"
-"
-_ns
 &
 shouldLoad
 nsContentUtils

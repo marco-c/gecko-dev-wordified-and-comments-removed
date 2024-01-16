@@ -19891,9 +19891,6 @@ NS_CheckContentLoadPolicy
 (
 aURI
 secCheckLoadInfo
-"
-"
-_ns
 &
 decision
 GetContentPolicy

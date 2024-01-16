@@ -3368,10 +3368,6 @@ NS_CheckContentLoadPolicy
 (
 url
 secCheckLoadInfo
-NS_ConvertUTF16toUTF8
-(
-aType
-)
 &
 decision
 nsContentUtils

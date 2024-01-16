@@ -179,10 +179,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeGuess
 bool
 aReportError
 int16_t

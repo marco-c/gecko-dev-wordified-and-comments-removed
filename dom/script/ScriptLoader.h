@@ -589,10 +589,6 @@ ProcessScriptElement
 nsIScriptElement
 *
 aElement
-const
-nsAutoString
-&
-aTypeAttr
 )
 ;
 nsIScriptElement
@@ -1098,10 +1094,6 @@ nsIScriptElement
 aElement
 ScriptKind
 aScriptKind
-const
-nsAutoString
-&
-aTypeAttr
 nsIContent
 *
 aScriptContent
@@ -1168,10 +1160,6 @@ aDocument
 nsIScriptElement
 *
 aElement
-const
-nsAString
-&
-aType
 const
 nsAString
 &

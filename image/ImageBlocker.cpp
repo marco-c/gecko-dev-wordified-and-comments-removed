@@ -63,10 +63,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeGuess
 int16_t
 *
 aShouldLoad
@@ -209,10 +205,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeGuess
 int16_t
 *
 aShouldProcess
