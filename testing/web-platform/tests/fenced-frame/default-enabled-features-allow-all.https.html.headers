@@ -9,6 +9,13 @@ reporting
 (
 *
 )
+private
+-
+aggregation
+=
+(
+*
+)
 shared
 -
 storage

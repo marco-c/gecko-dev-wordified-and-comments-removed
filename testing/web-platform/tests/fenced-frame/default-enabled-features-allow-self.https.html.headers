@@ -9,6 +9,13 @@ reporting
 (
 self
 )
+private
+-
+aggregation
+=
+(
+self
+)
 shared
 -
 storage
