@@ -451,6 +451,12 @@ nsIContentPolicy
 :
 :
 TYPE_PROXIED_WEBRTC_MEDIA
+TYPE_WEB_IDENTITY
+=
+nsIContentPolicy
+:
+:
+TYPE_WEB_IDENTITY
 TYPE_WEB_TRANSPORT
 =
 nsIContentPolicy
