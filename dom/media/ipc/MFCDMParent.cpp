@@ -2180,6 +2180,12 @@ IsWidevineKeySystem
 (
 mKeySystem
 )
+|
+|
+IsWMFClearKeySystemAndSupported
+(
+aKeySystem
+)
 )
 ;
 MOZ_ASSERT

@@ -2558,6 +2558,12 @@ mKeySystem
 &
 isHardwareDecryptionSupported
 )
+|
+|
+IsWMFClearKeySystemAndSupported
+(
+mKeySystem
+)
 )
 {
 proxy
