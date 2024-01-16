@@ -146,7 +146,6 @@ tracingListener
 onTracingToggled
 (
 enabled
-reason
 )
 {
 const
@@ -204,14 +203,6 @@ getProfile
 )
 :
 undefined
-timeStamp
-:
-ChromeUtils
-.
-dateNow
-(
-)
-reason
 }
 ]
 )
