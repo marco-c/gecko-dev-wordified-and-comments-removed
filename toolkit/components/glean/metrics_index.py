@@ -493,16 +493,6 @@ metrics
 .
 yaml
 "
-    
-"
-widget
-/
-windows
-/
-metrics
-.
-yaml
-"
 ]
 background_update_metrics
 =
