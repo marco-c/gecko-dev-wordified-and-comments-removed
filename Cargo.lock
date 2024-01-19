@@ -29389,6 +29389,9 @@ gecko
 profiler
 "
 "
+icu_segmenter
+"
+"
 indexmap
 1
 .
@@ -29522,11 +29525,6 @@ uluru
 unicode
 -
 bidi
-"
-"
-unicode
--
-segmentation
 "
 "
 void
