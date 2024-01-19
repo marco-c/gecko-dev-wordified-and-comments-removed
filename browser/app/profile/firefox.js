@@ -16841,7 +16841,7 @@ toolbar
 .
 defaultVisible
 "
-false
+true
 )
 ;
 pref
