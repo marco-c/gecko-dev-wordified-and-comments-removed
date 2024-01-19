@@ -3,6 +3,7 @@ import
 getSymbols
 getFunctionSymbols
 getClassSymbols
+getClosestFunctionName
 clearSymbols
 }
 from
@@ -151,6 +152,7 @@ findBestMatchExpression
 getSymbols
 getFunctionSymbols
 getClassSymbols
+getClosestFunctionName
 getScopes
 clearSources
 :
