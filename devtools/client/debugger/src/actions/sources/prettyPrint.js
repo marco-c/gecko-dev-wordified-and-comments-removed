@@ -61,6 +61,8 @@ from
 .
 /
 breakpoints
+/
+index
 "
 ;
 import
@@ -159,6 +161,8 @@ from
 .
 /
 pause
+/
+index
 "
 ;
 import
@@ -171,6 +175,8 @@ from
 .
 /
 sources
+/
+index
 "
 ;
 import
@@ -207,6 +213,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import

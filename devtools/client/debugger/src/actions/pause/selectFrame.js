@@ -8,6 +8,8 @@ from
 .
 /
 sources
+/
+index
 "
 ;
 import

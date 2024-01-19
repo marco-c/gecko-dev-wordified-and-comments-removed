@@ -97,6 +97,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 function

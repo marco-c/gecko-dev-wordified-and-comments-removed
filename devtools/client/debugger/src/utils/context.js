@@ -14,6 +14,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 export

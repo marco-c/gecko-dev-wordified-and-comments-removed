@@ -44,6 +44,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import

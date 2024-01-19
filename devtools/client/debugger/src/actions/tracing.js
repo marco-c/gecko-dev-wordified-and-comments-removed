@@ -9,6 +9,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import

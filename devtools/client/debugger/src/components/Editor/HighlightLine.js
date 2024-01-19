@@ -51,6 +51,8 @@ from
 utils
 /
 editor
+/
+index
 "
 ;
 import
@@ -109,6 +111,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 function
