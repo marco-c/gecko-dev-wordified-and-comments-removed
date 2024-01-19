@@ -204,6 +204,12 @@ nsChangeHint_VisibilityChange
 <
 <
 28
+nsChangeHint_UpdateBFC
+=
+1u
+<
+<
+29
 nsChangeHint_AllHints
 =
 uint32_t
@@ -212,7 +218,7 @@ uint32_t
 1ull
 <
 <
-29
+30
 )
 -
 1
@@ -571,6 +577,9 @@ nsChangeHint_UpdateTransformLayer
 nsChangeHint_UpdateUsesOpacity
 |
 nsChangeHint_AddOrRemoveTransform
+|
+\
+nsChangeHint_UpdateBFC
 )
 #
 define
