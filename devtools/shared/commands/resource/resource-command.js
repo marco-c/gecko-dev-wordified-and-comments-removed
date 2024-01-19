@@ -1274,6 +1274,12 @@ resourceType
 const
 shouldRunLegacyListeners
 =
+resourceType
+in
+LegacyListeners
+&
+&
+(
 !
 this
 .
@@ -1288,6 +1294,7 @@ this
 _shouldRunLegacyListenerEvenWithWatcherSupport
 (
 resourceType
+)
 )
 ;
 if
