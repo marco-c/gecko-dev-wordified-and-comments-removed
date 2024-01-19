@@ -33,9 +33,6 @@ test_headless
 js
 "
 ]
-disable_e10s
-=
-true
 skip
 -
 if
