@@ -4446,7 +4446,7 @@ GetContainingShadow
 )
 ;
 }
-nsIContent
+Element
 *
 nsINode
 :

@@ -4314,7 +4314,13 @@ GetContainingShadow
 )
 const
 ;
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetContainingShadowHost
 (
