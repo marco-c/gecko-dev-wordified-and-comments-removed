@@ -31,6 +31,13 @@ str
 origin
 :
 str
+path
+:
+str
+=
+"
+/
+"
 )
 :
     
@@ -128,9 +135,7 @@ name
 path
 '
 :
-'
-/
-'
+path
         
 '
 sameSite
