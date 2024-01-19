@@ -222,8 +222,5 @@ fd
 ;
 }
 ;
-class
-_MappableBuffer
-;
 #
 endif
