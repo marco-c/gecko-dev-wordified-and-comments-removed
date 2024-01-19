@@ -1777,8 +1777,6 @@ getDIEsForAddress
 (
 uint64_t
 Address
-)
-{
 -
 1141
 6
