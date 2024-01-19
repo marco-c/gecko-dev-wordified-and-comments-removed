@@ -376,7 +376,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginItem
 )
@@ -986,7 +986,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 emptySearchMessage
 )
@@ -1260,7 +1260,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginItem
 )
@@ -1860,7 +1860,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginItem
 )

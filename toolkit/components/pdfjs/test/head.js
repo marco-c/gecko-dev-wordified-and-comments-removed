@@ -444,7 +444,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 document
 .

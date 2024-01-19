@@ -561,7 +561,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginList
 .
@@ -627,7 +627,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 cancelButton
 )
@@ -695,7 +695,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginItem
 .
@@ -830,7 +830,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginItem
 .
@@ -2206,7 +2206,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginList
 .
@@ -2546,7 +2546,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 cancelButton
 )
@@ -2858,7 +2858,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 cancelButton
 )

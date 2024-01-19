@@ -685,7 +685,7 @@ blockingErrorReporting
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 reportUI
 )
@@ -874,7 +874,7 @@ blockingErrorReporting
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 reportUI
 )
@@ -1082,7 +1082,7 @@ blockingErrorReporting
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 reportUI
 )

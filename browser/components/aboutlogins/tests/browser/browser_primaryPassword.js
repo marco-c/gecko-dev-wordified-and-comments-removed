@@ -1072,7 +1072,7 @@ ok
 !
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 revealCheckbox
 )

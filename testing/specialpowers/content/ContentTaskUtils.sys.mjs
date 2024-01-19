@@ -362,7 +362,7 @@ boolean
 }
 *
 /
-is_visible
+isVisible
 (
 element
 )

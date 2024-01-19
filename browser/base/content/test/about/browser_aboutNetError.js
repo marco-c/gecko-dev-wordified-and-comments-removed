@@ -388,7 +388,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 prefResetButton
 )
@@ -683,7 +683,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 tlsVersionNotice
 )
@@ -712,7 +712,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 learnMoreLink
 )
@@ -1062,7 +1062,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 errorNotice
 )

@@ -531,7 +531,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 isNotDefaultPane
 )
@@ -678,7 +678,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 isDefaultPane
 )

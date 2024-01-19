@@ -1407,7 +1407,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 managePasswordsButton
 )
@@ -1606,7 +1606,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 managePasswordsButton
 )
@@ -3436,7 +3436,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 resolveBreachesButton
 )
@@ -3922,7 +3922,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 manageBreachesButton
 )
@@ -4116,7 +4116,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 viewReportButton
 )
@@ -4310,7 +4310,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 viewReportButton
 )
@@ -5896,7 +5896,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 getVPNLink
 )
@@ -6089,7 +6089,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 androidVPNLink
 )
@@ -6303,7 +6303,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 iosVPNLink
 )
@@ -6873,7 +6873,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 bannerVPNLink
 )
@@ -7075,7 +7075,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 bannerExitLink
 )

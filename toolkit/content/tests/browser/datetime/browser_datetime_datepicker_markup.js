@@ -2080,7 +2080,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 calendarBtn
 )
@@ -2366,7 +2366,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 calendarBtn
 )

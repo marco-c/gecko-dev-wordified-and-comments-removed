@@ -309,7 +309,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 recommendedCard
 )
