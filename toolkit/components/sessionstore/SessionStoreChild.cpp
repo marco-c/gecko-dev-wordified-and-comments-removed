@@ -1067,6 +1067,11 @@ if
 XRE_IsContentProcess
 (
 )
+&
+&
+CanSend
+(
+)
 )
 {
 Unused
@@ -1153,6 +1158,11 @@ aEpoch
 if
 (
 XRE_IsContentProcess
+(
+)
+&
+&
+CanSend
 (
 )
 )
