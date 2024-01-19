@@ -21978,6 +21978,12 @@ true
 }
 #
 endif
+if
+(
+!
+gWaylandProxy
+)
+{
 gWaylandProxy
 =
 WaylandProxy
@@ -21999,6 +22005,7 @@ RunThread
 (
 )
 ;
+}
 }
 }
 #
