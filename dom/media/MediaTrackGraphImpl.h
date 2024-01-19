@@ -1020,6 +1020,11 @@ const
 ;
 private
 :
+void
+SelectOutputDeviceForAEC
+(
+)
+;
 struct
 TrackAndVolume
 ;
@@ -2482,6 +2487,14 @@ nsTArray
 OutputDeviceEntry
 >
 mOutputDevices
+;
+CubebUtils
+:
+:
+AudioDeviceID
+mOutputDeviceForAEC
+=
+nullptr
 ;
 const
 float
