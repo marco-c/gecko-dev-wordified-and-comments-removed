@@ -619,6 +619,12 @@ lastUsed
 *
 1000
 ;
+tab
+.
+inactive
+=
+false
+;
 return
 tab
 ;
@@ -3038,6 +3044,9 @@ icon
 :
 "
 "
+inactive
+:
+false
 lastUsed
 :
 Math
