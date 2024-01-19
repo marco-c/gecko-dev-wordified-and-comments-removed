@@ -198,7 +198,6 @@ UpdateValidityElementStates
 bool
 aNotify
 )
-final
 ;
 void
 UpdateFormOwner

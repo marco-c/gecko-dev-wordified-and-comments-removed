@@ -270,7 +270,6 @@ UpdateValidityElementStates
 bool
 aNotify
 )
-final
 ;
 void
 BeforeSetAttr
