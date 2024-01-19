@@ -44247,11 +44247,6 @@ const
 bool
 mBlockOnload
 ;
-bool
-mRunning
-=
-false
-;
 }
 ;
 void
