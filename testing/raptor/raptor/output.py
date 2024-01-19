@@ -13714,6 +13714,31 @@ values
         
 ]
         
+if
+test
+.
+get
+(
+"
+support_class
+"
+)
+:
+            
+test
+.
+get
+(
+"
+support_class
+"
+)
+.
+summarize_suites
+(
+suites
+)
+        
 suites
 .
 sort
