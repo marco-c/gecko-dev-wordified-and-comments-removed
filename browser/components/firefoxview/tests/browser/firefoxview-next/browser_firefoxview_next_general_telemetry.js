@@ -1710,15 +1710,6 @@ PlacesUtils
 .
 history
 .
-clear
-(
-)
-;
-await
-PlacesUtils
-.
-history
-.
 insert
 (
 {
