@@ -9,6 +9,13 @@ h3Port
 var
 host
 ;
+const
+dns
+=
+Services
+.
+dns
+;
 registerCleanupFunction
 (
 async
