@@ -162,6 +162,10 @@ pk11_kbkdf
 .
 cc
 \
+pk11_kem_unittest
+.
+cc
+\
 pk11_keygen
 .
 cc
@@ -207,6 +211,10 @@ pk11_signature_test
 cc
 \
 pk11_seed_cbc_unittest
+.
+cc
+\
+pk11_symkey_unittest
 .
 cc
 \

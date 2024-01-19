@@ -101,6 +101,10 @@ cc
 ghash_unittest
 .
 cc
+#
+kyber_unittest
+.
+cc
 CPPSRCS
 =
 \

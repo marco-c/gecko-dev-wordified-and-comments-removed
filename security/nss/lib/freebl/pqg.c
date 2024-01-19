@@ -513,9 +513,8 @@ hash_obj
 length
 ;
 }
-static
 SECStatus
-HASH_HashBuf
+PQG_HashBuf
 (
 HASH_HashType
 type
@@ -1403,7 +1402,7 @@ rv
 }
 rv
 =
-HASH_HashBuf
+PQG_HashBuf
 (
 hashtype
 hashOutBuf
@@ -1664,7 +1663,7 @@ offset
 ;
 CHECK_SEC_OK
 (
-HASH_HashBuf
+PQG_HashBuf
 (
 hashtype
 U
@@ -2946,7 +2945,7 @@ step_5
 :
 CHECK_SEC_OK
 (
-HASH_HashBuf
+PQG_HashBuf
 (
 hashtype
 x

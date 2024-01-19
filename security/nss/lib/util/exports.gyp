@@ -125,6 +125,11 @@ hasht
 h
 '
 '
+kyber
+.
+h
+'
+'
 nssb64
 .
 h

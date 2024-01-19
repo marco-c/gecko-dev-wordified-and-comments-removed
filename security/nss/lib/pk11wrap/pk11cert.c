@@ -977,6 +977,9 @@ case
 fortezzaKey
 :
 case
+kyberKey
+:
+case
 nullKey
 :
 break

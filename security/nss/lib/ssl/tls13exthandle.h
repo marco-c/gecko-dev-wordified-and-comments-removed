@@ -449,9 +449,9 @@ PRUint32
 tls13_SizeOfKeyShareEntry
 (
 const
-SECKEYPublicKey
+sslEphemeralKeyPair
 *
-pubKey
+keyPair
 )
 ;
 SECStatus
@@ -460,11 +460,9 @@ tls13_EncodeKeyShareEntry
 sslBuffer
 *
 buf
-SSLNamedGroup
-group
-SECKEYPublicKey
+sslEphemeralKeyPair
 *
-pubKey
+keyPair
 )
 ;
 SECStatus

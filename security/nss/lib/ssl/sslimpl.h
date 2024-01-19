@@ -512,7 +512,7 @@ DTLS_RETRANSMIT_FINISHED_MS
 #
 define
 SSL_NAMED_GROUP_COUNT
-31
+32
 #
 define
 SSL_MAX_DH_KEY_BITS
@@ -2389,6 +2389,14 @@ group
 sslKeyPair
 *
 keys
+;
+sslKeyPair
+*
+kemKeys
+;
+SECItem
+*
+kemCt
 ;
 }
 ;

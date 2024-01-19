@@ -449,6 +449,9 @@ SHAKE_256_Absorb
 SHAKE_256_SqueezeEnd
 SHAKE_256_HashBuf
 SHAKE_256_Hash
+Kyber_NewKey
+Kyber_Encapsulate
+Kyber_Decapsulate
 }
 ;
 const

@@ -353,6 +353,11 @@ tls_grease_unittest
 .
 cc
 '
+'
+tls_xyber_unittest
+.
+cc
+'
 ]
 '
 dependencies

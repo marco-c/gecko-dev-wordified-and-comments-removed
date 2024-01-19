@@ -280,6 +280,10 @@ tls_ech_unittest
 .
 cc
 \
+tls_xyber_unittest
+.
+cc
+\
 (
 SSLKEYLOGFILE_FILES
 )

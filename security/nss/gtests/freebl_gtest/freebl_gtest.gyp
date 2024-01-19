@@ -358,6 +358,11 @@ ghash_unittest
 cc
 '
 '
+kyber_unittest
+.
+cc
+'
+'
 mpi_unittest
 .
 cc

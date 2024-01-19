@@ -940,6 +940,7 @@ library
 boundaries
 .
 NSS_SecureMemcmpZero
+NSS_SecureSelect
 PORT_ZAllocAlignedOffset_Util
 CERT_FindCertByNicknameOrEmailAddrCX
 SECKEY_GetPrivateKeyType

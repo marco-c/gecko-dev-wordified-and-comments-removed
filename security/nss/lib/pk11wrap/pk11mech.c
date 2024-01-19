@@ -1277,6 +1277,12 @@ CKM_NSS_TLS_PRF_GENERAL_SHA256
 return
 CKK_GENERIC_SECRET
 ;
+case
+CKM_NSS_KYBER_KEY_PAIR_GEN
+:
+return
+CKK_NSS_KYBER
+;
 default
 :
 return
