@@ -1209,7 +1209,7 @@ firefoxview
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

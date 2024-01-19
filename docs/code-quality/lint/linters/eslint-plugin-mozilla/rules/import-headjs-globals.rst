@@ -190,15 +190,6 @@ this
 toolboxStrings
 "
 -
-XPCOMUtils
-.
-defineLazyGetter
-(
-this
-"
-clipboardHelper
-"
--
 ChromeUtils
 .
 defineLazyGetter

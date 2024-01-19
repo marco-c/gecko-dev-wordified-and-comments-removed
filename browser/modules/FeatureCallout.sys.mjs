@@ -217,7 +217,7 @@ bundle
 js
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

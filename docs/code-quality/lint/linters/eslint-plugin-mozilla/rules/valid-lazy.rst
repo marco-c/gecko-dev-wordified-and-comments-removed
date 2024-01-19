@@ -149,7 +149,7 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -174,7 +174,7 @@ added
 to
 lazy
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -223,7 +223,7 @@ Unused
 lazy
 property
 foo
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -252,7 +252,7 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -345,7 +345,7 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

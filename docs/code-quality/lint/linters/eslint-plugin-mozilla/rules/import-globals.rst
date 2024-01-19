@@ -16,7 +16,7 @@ globals
 =
 =
 Checks
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 etc

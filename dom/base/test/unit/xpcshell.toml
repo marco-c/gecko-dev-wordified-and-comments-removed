@@ -215,6 +215,13 @@ js
 ]
 [
 "
+test_chromeutils_defineLazyGetter
+.
+js
+"
+]
+[
+"
 test_chromeutils_getXPCOMErrorName
 .
 js
