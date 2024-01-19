@@ -430,6 +430,13 @@ js
 ]
 [
 "
+test_Cu_reportError_column
+.
+js
+"
+]
+[
+"
 test_FrameScriptEnvironment
 .
 js
