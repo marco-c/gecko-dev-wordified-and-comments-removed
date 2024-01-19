@@ -248,6 +248,9 @@ test_subframe_stop_after_parent_error
 js
 "
 ]
+disable_e10s
+=
+true
 skip
 -
 if
