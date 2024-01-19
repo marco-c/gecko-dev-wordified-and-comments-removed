@@ -431,6 +431,7 @@ this
 .
 document
 fromLanguage
+toLanguage
 this
 .
 contentWindow
