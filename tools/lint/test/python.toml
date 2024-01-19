@@ -49,13 +49,6 @@ py
 ]
 [
 "
-test_condprof_addons
-.
-py
-"
-]
-[
-"
 test_eslint
 .
 py
