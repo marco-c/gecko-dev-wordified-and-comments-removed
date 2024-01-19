@@ -889,6 +889,13 @@ section
 "
 )
 ;
+await
+TestUtils
+.
+waitForTick
+(
+)
+;
 info_tab_button
 .
 click
