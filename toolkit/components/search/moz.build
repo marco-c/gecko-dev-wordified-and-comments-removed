@@ -77,13 +77,6 @@ sys
 mjs
 "
 "
-OpenSearchLoader
-.
-sys
-.
-mjs
-"
-"
 PolicySearchEngine
 .
 sys
