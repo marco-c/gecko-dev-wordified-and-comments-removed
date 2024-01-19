@@ -2120,6 +2120,13 @@ if
 alreadyFocused
 )
 {
+FormAutofillParent
+.
+removeMessageObserver
+(
+fieldsIdentifiedObserver
+)
+;
 fieldsIdentifiedPromiseResolver
 (
 )
