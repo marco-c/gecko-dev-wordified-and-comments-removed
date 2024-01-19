@@ -1,3 +1,9 @@
+.
+.
+_assert
+-
+module
+:
 Assert
 module
 =
