@@ -4334,10 +4334,10 @@ removeFront
 }
 JS_PUBLIC_API
 void
-JS
+js
 :
 :
-shadow
+gc
 :
 :
 RegisterWeakCache
@@ -4348,9 +4348,6 @@ JS
 Zone
 *
 zone
-detail
-:
-:
 WeakCacheBase
 *
 cachep

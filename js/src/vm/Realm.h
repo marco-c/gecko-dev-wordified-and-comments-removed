@@ -929,9 +929,6 @@ delete
 ;
 public
 :
-JS
-:
-:
 WeakCache
 <
 js

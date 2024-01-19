@@ -144,9 +144,6 @@ SystemAllocPolicy
 using
 Cache
 =
-JS
-:
-:
 WeakCache
 <
 ObjectSet
@@ -380,9 +377,6 @@ JSObject
 using
 Cache
 =
-JS
-:
-:
 WeakCache
 <
 ObjectMap
@@ -594,9 +588,6 @@ cx
 using
 ObjectVector
 =
-JS
-:
-:
 WeakCache
 <
 GCVector
@@ -1717,9 +1708,6 @@ TempAllocPolicy
 using
 Cache
 =
-JS
-:
-:
 WeakCache
 <
 ObjectSet
@@ -2522,9 +2510,6 @@ TempAllocPolicy
 using
 Cache
 =
-JS
-:
-:
 WeakCache
 <
 ObjectMap
@@ -3351,9 +3336,6 @@ TestReplaceDyingInSet
 using
 Cache
 =
-JS
-:
-:
 WeakCache
 <
 GCHashSet
@@ -3835,9 +3817,6 @@ TestReplaceDyingInMap
 using
 Cache
 =
-JS
-:
-:
 WeakCache
 <
 GCHashMap
@@ -4298,9 +4277,6 @@ ObjectCount
 using
 Cache
 =
-JS
-:
-:
 WeakCache
 <
 GCHashSet

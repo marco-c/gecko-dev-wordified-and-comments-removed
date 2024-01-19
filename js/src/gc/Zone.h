@@ -1002,7 +1002,10 @@ mozilla
 :
 LinkedList
 <
-detail
+js
+:
+:
+gc
 :
 :
 WeakCacheBase
@@ -2488,7 +2491,10 @@ mozilla
 :
 LinkedList
 <
-detail
+js
+:
+:
+gc
 :
 :
 WeakCacheBase
@@ -2509,7 +2515,10 @@ ref
 void
 registerWeakCache
 (
-detail
+js
+:
+:
+gc
 :
 :
 WeakCacheBase
