@@ -116,6 +116,9 @@ Wikipedia
 "
 Amo
 "
+"
+Yelp
+"
 }
 ;
 [
@@ -201,6 +204,14 @@ string
 guid
 f64
 score
+)
+;
+Yelp
+(
+string
+url
+string
+title
 )
 ;
 }

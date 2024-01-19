@@ -528,6 +528,11 @@ checked_mul
 unwrap_or_default
 (
 )
+inactive
+:
+tab
+.
+inactive
 }
 }
 pub
@@ -587,6 +592,11 @@ checked_div
 unwrap_or_default
 (
 )
+inactive
+:
+self
+.
+inactive
 }
 }
 }
