@@ -1492,7 +1492,7 @@ android
 -
 hw
 -
-g5
+p5
 "
 )
 :
@@ -1529,7 +1529,7 @@ gw
 -
 unit
 -
-g5
+p5
 "
             
 else
@@ -1553,7 +1553,7 @@ gw
 -
 perf
 -
-g5
+p5
 "
         
 elif
@@ -1566,7 +1566,7 @@ android
 -
 hw
 -
-p5
+p6
 "
 )
 :
@@ -1603,7 +1603,7 @@ gw
 -
 unit
 -
-p5
+p6
 "
             
 else
@@ -1627,7 +1627,7 @@ gw
 -
 perf
 -
-p5
+p6
 "
         
 elif

@@ -1565,23 +1565,6 @@ False
     
 if
 "
-p2
-"
-in
-platform
-and
-"
-aarch64
-"
-in
-platform
-:
-        
-return
-False
-    
-if
-"
 p5
 "
 in
@@ -1599,7 +1582,13 @@ False
     
 if
 "
-g5
+p6
+"
+in
+platform
+and
+"
+aarch64
 "
 in
 platform
@@ -7948,17 +7937,6 @@ try_name
                 
 if
 "
-g5
-"
-in
-platform
-:
-                    
-return
-False
-                
-if
-"
 power
 "
 in
@@ -8169,17 +8147,6 @@ geckoview
 in
 try_name
 :
-                
-if
-"
-g5
-"
-in
-platform
-:
-                    
-return
-False
                 
 if
 "
