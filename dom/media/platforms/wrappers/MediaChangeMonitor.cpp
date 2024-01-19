@@ -2334,17 +2334,6 @@ unspecified
 "
 )
 ;
-bool
-imageSizeEmpty
-=
-mCurrentConfig
-.
-mImage
-.
-IsEmpty
-(
-)
-;
 mInfo
 =
 Some
@@ -2362,9 +2351,6 @@ mImage
 ;
 if
 (
-imageSizeEmpty
-|
-|
 info
 .
 mDisplayAndImageDifferent
