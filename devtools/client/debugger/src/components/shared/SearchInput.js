@@ -117,15 +117,6 @@ index
 "
 ;
 import
-"
-.
-/
-SearchInput
-.
-css
-"
-;
-import
 {
 getSearchOptions
 }

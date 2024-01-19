@@ -81,17 +81,6 @@ js
 "
 )
 ;
-import
-"
-.
-/
-styles
-/
-CommandBarButton
-.
-css
-"
-;
 export
 function
 debugBtn

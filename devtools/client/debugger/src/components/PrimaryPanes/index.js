@@ -170,15 +170,6 @@ js
 "
 )
 ;
-import
-"
-.
-/
-Sources
-.
-css
-"
-;
 const
 tabs
 =

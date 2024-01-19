@@ -195,15 +195,6 @@ selectors
 index
 "
 ;
-import
-"
-.
-/
-WhyPaused
-.
-css
-"
-;
 class
 WhyPaused
 extends

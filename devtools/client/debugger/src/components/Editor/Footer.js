@@ -184,15 +184,6 @@ js
 "
 )
 ;
-import
-"
-.
-/
-Footer
-.
-css
-"
-;
 class
 SourceFooter
 extends

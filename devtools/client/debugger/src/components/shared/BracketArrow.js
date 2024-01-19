@@ -56,15 +56,6 @@ js
 "
 )
 ;
-import
-"
-.
-/
-BracketArrow
-.
-css
-"
-;
 const
 BracketArrow
 =

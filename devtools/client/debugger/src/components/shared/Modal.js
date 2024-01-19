@@ -71,15 +71,6 @@ js
 "
 )
 ;
-import
-"
-.
-/
-Modal
-.
-css
-"
-;
 class
 Modal
 extends

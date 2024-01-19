@@ -74,17 +74,6 @@ js
 "
 )
 ;
-import
-"
-.
-/
-styles
-/
-PaneToggleButton
-.
-css
-"
-;
 class
 PaneToggleButton
 extends
