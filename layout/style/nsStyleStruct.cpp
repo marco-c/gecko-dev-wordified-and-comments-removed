@@ -12310,6 +12310,13 @@ if
 IsScrollableOverflow
 (
 )
+|
+|
+aOldStyle
+.
+IsRootElementStyle
+(
+)
 )
 {
 hint
