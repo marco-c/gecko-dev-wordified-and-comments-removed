@@ -179,7 +179,10 @@ if
 status
 =
 =
-RegExpRunStatus_Error
+RegExpRunStatus
+:
+:
+Error
 )
 {
 return
@@ -191,7 +194,10 @@ MOZ_ASSERT
 status
 =
 =
-RegExpRunStatus_Success
+RegExpRunStatus
+:
+:
+Success
 )
 ;
 pendingLazyEvaluation
