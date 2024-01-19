@@ -343,7 +343,8 @@ recentBrowsing
 ?
 MAX_TABS_FOR_RECENT_BROWSING
 :
-25
+-
+1
 ;
 this
 .
@@ -2125,6 +2126,12 @@ main
 maxTabsLength
 =
 {
+!
+this
+.
+recentBrowsing
+|
+|
 this
 .
 showAll
@@ -2132,9 +2139,7 @@ showAll
 -
 1
 :
-this
-.
-maxTabsLength
+MAX_TABS_FOR_RECENT_BROWSING
 }
 .
 searchQuery
@@ -2445,9 +2450,7 @@ searchResults
 .
 length
 >
-this
-.
-maxTabsLength
+MAX_TABS_FOR_RECENT_BROWSING
 &
 &
 !
