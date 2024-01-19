@@ -134,11 +134,6 @@ clock
 i64
 last_used
 ;
-boolean
-inactive
-=
-false
-;
 }
 ;
 dictionary

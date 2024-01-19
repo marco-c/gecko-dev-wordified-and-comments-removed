@@ -505,15 +505,6 @@ sys
 .
 mjs
 "
-"
-private
-/
-YelpSuggestions
-.
-sys
-.
-mjs
-"
 ]
 TESTING_JS_MODULES
 +

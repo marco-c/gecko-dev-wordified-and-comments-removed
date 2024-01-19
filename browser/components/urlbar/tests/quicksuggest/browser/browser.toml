@@ -192,13 +192,6 @@ telemetry
 "
 [
 "
-browser_quicksuggest_yelp
-.
-js
-"
-]
-[
-"
 browser_telemetry_dynamicWikipedia
 .
 js
