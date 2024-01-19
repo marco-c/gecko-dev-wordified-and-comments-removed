@@ -4756,6 +4756,17 @@ move
 }
 &
 .
+moving
+{
+touch
+-
+action
+:
+none
+;
+}
+&
+.
 selectedEditor
 {
 border
