@@ -923,6 +923,17 @@ maven_folder
 )
 :
         
+if
+"
+-
+SNAPSHOT
+"
+in
+subdir
+:
+            
+continue
+        
 for
 file
 in
@@ -1159,6 +1170,16 @@ ret
 return
 ret
     
+if
+"
+MOZ_AUTOMATION
+"
+in
+os
+.
+environ
+:
+        
 create_maven_archive
 (
 command_context
