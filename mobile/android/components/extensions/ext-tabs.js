@@ -631,7 +631,6 @@ onUpdated
 (
 {
 fire
-context
 }
 params
 )
@@ -1030,16 +1029,11 @@ listener
 convert
 (
 _fire
-_context
 )
 {
 fire
 =
 _fire
-;
-context
-=
-_context
 ;
 }
 }
