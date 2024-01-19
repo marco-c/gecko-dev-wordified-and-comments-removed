@@ -7479,6 +7479,13 @@ nsChangeHint
 ;
 }
 }
+mDocument
+-
+>
+PostCustomPropertyRegistered
+(
+)
+;
 break
 ;
 case

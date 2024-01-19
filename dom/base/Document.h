@@ -4877,6 +4877,11 @@ StyleSheet
 &
 )
 ;
+void
+PostCustomPropertyRegistered
+(
+)
+;
 enum
 additionalSheetType
 {
