@@ -48,7 +48,7 @@ progress
 TASK_CLUSTER
 =
 "
-TASK_ID
+MOZ_AUTOMATION
 "
 in
 os
@@ -637,9 +637,13 @@ extension
 download_file
 (
 url
-check_mozfetches
+mozfetches_subdir
 =
-True
+"
+firefox
+-
+addons
+"
 )
         
 extensions
@@ -1073,6 +1077,7 @@ def
 check_mozfetches_dir
 (
 target
+mozfetches_subdir
 )
 :
     
@@ -1126,6 +1131,7 @@ path
 join
 (
 fetches
+mozfetches_subdir
 target
 )
     
@@ -1172,9 +1178,9 @@ url
 target
 =
 None
-check_mozfetches
+mozfetches_subdir
 =
-False
+None
 )
 :
     
@@ -1200,7 +1206,10 @@ split
 ]
     
 if
-check_mozfetches
+mozfetches_subdir
+is
+not
+None
 :
         
 filepath
@@ -1208,6 +1217,7 @@ filepath
 check_mozfetches_dir
 (
 target
+mozfetches_subdir
 )
         
 if

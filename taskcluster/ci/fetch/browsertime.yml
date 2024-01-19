@@ -1492,6 +1492,14 @@ addons
 tar
 .
 zst
+add
+-
+prefix
+:
+firefox
+-
+addons
+/
 url
 :
 https
