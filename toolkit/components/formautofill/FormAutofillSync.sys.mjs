@@ -1952,6 +1952,14 @@ resetSync
 (
 )
 ;
+await
+this
+.
+resetLastSync
+(
+0
+)
+;
 }
 async
 _wipeClient
