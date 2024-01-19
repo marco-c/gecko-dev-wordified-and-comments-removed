@@ -27,11 +27,6 @@ Mappable
 .
 cpp
 "
-"
-Zip
-.
-cpp
-"
 ]
 Library
 (
@@ -44,11 +39,3 @@ FINAL_LIBRARY
 "
 mozglue
 "
-TEST_DIRS
-+
-=
-[
-"
-tests
-"
-]
