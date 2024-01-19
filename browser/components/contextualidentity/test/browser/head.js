@@ -301,6 +301,9 @@ browser
 )
 ;
 return
+{
 tab
+browser
+}
 ;
 }

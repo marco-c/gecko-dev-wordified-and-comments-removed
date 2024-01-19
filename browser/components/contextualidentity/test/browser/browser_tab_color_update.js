@@ -46,9 +46,7 @@ uri
 )
 ;
 return
-{
 tab
-}
 ;
 }
 add_task
@@ -65,9 +63,7 @@ kId
 2
 ;
 let
-{
 tab
-}
 =
 await
 openTabInUserContext
