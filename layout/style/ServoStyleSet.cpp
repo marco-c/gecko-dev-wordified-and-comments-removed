@@ -7059,9 +7059,9 @@ ServoStyleSet
 MaybeInvalidateForElementAppend
 (
 const
-Element
+nsIContent
 &
-aElement
+aFirstContent
 )
 {
 Servo_StyleSet_MaybeInvalidateRelativeSelectorForAppend
@@ -7072,7 +7072,7 @@ get
 (
 )
 &
-aElement
+aFirstContent
 )
 ;
 }

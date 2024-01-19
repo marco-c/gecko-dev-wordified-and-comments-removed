@@ -1461,10 +1461,7 @@ void
 MaybeInvalidateForElementAppend
 (
 const
-dom
-:
-:
-Element
+nsIContent
 &
 )
 ;
