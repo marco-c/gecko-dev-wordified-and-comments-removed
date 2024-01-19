@@ -368,6 +368,20 @@ SKIP
 "
 :
             
+self
+.
+groups
+[
+group
+]
+[
+"
+start
+"
+]
+=
+None
+            
 if
 result
 is
