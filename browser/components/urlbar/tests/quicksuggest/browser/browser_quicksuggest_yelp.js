@@ -247,11 +247,11 @@ search
 ?
 find_desc
 =
-ramen
+RaMeN
 &
 find_loc
 =
-tokyo
+tOkYo
 "
 )
 ;
@@ -265,9 +265,9 @@ payload
 .
 title
 "
-ramen
-in
-tokyo
+RaMeN
+iN
+tOkYo
 "
 )
 ;

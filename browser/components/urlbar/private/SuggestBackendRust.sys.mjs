@@ -1005,14 +1005,6 @@ return
 ]
 ;
 }
-searchString
-=
-searchString
-.
-toLocaleLowerCase
-(
-)
-;
 /
 /
 Build
