@@ -1221,7 +1221,7 @@ add_task
 (
 async
 function
-uriFragmentCaseSensitive
+uriFragmentCaseSensitiveNoMatch
 (
 )
 {
@@ -1309,10 +1309,6 @@ t
 "
 fallbackTitle
 :
-UrlbarTestUtils
-.
-trimURL
-(
 "
 http
 :
@@ -1325,7 +1321,6 @@ com
 #
 t
 "
-)
 heuristic
 :
 true
