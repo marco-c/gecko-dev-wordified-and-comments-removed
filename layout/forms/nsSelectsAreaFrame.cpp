@@ -82,7 +82,7 @@ it
 >
 AddStateBits
 (
-NS_BLOCK_FORMATTING_CONTEXT_STATE_BITS
+NS_BLOCK_STATIC_BFC
 )
 ;
 return

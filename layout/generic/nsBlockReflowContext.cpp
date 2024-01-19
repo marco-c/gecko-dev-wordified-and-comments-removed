@@ -1362,7 +1362,7 @@ mFrame
 >
 HasAnyStateBits
 (
-NS_BLOCK_FLOAT_MGR
+NS_BLOCK_BFC_STATE_BITS
 )
 )
 {
