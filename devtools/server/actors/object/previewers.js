@@ -920,11 +920,10 @@ raw
 &
 &
 !
-Object
+obj
 .
 getOwnPropertyDescriptor
 (
-raw
 i
 )
 )
