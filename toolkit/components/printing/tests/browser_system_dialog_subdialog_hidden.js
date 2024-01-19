@@ -108,7 +108,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 systemLink
 )
@@ -529,7 +529,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 systemPrint
 )

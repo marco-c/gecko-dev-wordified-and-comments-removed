@@ -702,7 +702,7 @@ hidden
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 menuItem
 )
@@ -988,7 +988,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -1364,7 +1364,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -1947,7 +1947,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -1977,7 +1977,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2006,7 +2006,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2035,7 +2035,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2063,7 +2063,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2102,7 +2102,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2140,7 +2140,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2165,7 +2165,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2225,7 +2225,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2246,7 +2246,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2266,7 +2266,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2290,7 +2290,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2311,7 +2311,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2330,7 +2330,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2354,7 +2354,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2374,7 +2374,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2394,7 +2394,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .

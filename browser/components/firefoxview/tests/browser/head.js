@@ -782,7 +782,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elem
 )
@@ -899,7 +899,7 @@ isVisible
 ?
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elem
 )
@@ -1001,7 +1001,7 @@ view
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 nextStepElem
 )
@@ -1029,7 +1029,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elem
 )

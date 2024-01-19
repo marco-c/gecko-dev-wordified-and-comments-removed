@@ -401,7 +401,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 link
 )
@@ -587,7 +587,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 container
 )

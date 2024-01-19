@@ -269,7 +269,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 searchModeTitle
 )
@@ -603,7 +603,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 switchTabLabel
 )

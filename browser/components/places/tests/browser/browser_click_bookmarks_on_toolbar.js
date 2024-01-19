@@ -940,7 +940,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 openItem
 )

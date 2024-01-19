@@ -176,7 +176,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -337,7 +337,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -408,7 +408,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -580,7 +580,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -719,7 +719,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -790,7 +790,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -1020,7 +1020,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -1293,7 +1293,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -1364,7 +1364,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -1511,7 +1511,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -1561,7 +1561,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -1618,7 +1618,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -1765,7 +1765,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 separator
 )
@@ -1807,7 +1807,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 menu
 )
@@ -1973,7 +1973,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -2176,7 +2176,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -2304,7 +2304,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 separator
 )
@@ -2346,7 +2346,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 menu
 )
@@ -2497,7 +2497,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -2613,7 +2613,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -2684,7 +2684,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -2816,7 +2816,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )
@@ -2887,7 +2887,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elt
 )

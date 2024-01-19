@@ -835,7 +835,7 @@ firstElementChild
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 gURLBar
 .

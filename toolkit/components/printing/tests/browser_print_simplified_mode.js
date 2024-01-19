@@ -170,7 +170,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 simplifyRadio
 )
@@ -258,7 +258,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 simplifiedPreviewBrowser
 )
@@ -480,7 +480,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sourcePreviewBrowser
 )
@@ -797,7 +797,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 simplifyRadio
 )
@@ -904,7 +904,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sourceRadio
 )

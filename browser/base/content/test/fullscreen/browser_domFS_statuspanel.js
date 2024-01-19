@@ -174,7 +174,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 statuspanel
 )
@@ -252,7 +252,7 @@ waitForCondition
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 statuspanel
 )
@@ -326,7 +326,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 statuspanel
 )
@@ -413,7 +413,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 statuspanel
 )

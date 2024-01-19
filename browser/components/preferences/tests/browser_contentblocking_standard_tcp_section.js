@@ -251,7 +251,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 etpStandardTCPBox
 )
@@ -314,7 +314,7 @@ link
 ;
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 learnMoreLink
 "
@@ -412,7 +412,7 @@ element
 ;
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 description
 "
@@ -458,7 +458,7 @@ element
 ;
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 title
 "
@@ -507,7 +507,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 etpStandardTCPBox
 )
@@ -560,7 +560,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 etpStandardTCPBox
 )
@@ -620,7 +620,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 etpStandardTCPBox
 )

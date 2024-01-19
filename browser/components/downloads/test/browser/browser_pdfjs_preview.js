@@ -1639,7 +1639,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 contextMenu
 )
@@ -2710,7 +2710,7 @@ downloadCount
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listbox
 .

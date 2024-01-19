@@ -300,7 +300,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 firstLoginItem
 )

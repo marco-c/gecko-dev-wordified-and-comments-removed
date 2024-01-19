@@ -372,7 +372,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -503,7 +503,7 @@ panel
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 panel
 )
@@ -534,7 +534,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 panel
 )
@@ -2280,7 +2280,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .

@@ -919,7 +919,7 @@ descriptionEl
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 descriptionEl
 )
@@ -1276,7 +1276,7 @@ checkbox
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 checkbox
 )
@@ -1314,7 +1314,7 @@ checkbox
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 checkboxLabel
 )

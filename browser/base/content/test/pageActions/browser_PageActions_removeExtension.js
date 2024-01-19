@@ -252,7 +252,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 meatballButton
 )
@@ -1334,7 +1334,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 meatballButton
 )

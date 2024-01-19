@@ -418,7 +418,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 noPermissionsMessage
 )
@@ -452,7 +452,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 getPermissionButton
 )

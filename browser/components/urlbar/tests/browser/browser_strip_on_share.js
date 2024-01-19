@@ -590,7 +590,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 menuitem
 )
@@ -821,7 +821,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 menuitem
 )

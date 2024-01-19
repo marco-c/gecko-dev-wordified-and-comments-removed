@@ -409,7 +409,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 titleEl
 )

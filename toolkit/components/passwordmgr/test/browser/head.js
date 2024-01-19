@@ -1696,7 +1696,7 @@ anchorElement
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 notif
 .
@@ -3719,7 +3719,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 generatedPasswordItem
 )
@@ -3738,7 +3738,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 generatedPasswordSeparator
 )
@@ -4366,7 +4366,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 hintElem
 .

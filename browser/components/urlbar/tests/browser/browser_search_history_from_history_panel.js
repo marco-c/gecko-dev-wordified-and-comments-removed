@@ -173,7 +173,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 searchHistoryButton
 "
@@ -380,7 +380,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 searchHistoryButton
 "

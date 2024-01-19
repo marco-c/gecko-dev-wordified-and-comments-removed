@@ -140,7 +140,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 SidebarUI
 .
@@ -236,7 +236,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 SidebarUI
 .

@@ -117,7 +117,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 target
 )
@@ -275,7 +275,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 item
 )
@@ -524,7 +524,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 passwordsButton
 )

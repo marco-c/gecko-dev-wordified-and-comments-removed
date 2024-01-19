@@ -198,7 +198,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 doc
 .
@@ -394,7 +394,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 toolbar
 )
@@ -442,7 +442,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 toolbar
 )

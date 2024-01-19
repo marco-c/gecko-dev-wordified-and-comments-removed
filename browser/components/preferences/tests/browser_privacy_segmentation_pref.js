@@ -195,7 +195,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 section
 )
@@ -215,7 +215,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sectionHeader
 )
@@ -236,7 +236,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sectionDescription
 )
@@ -257,7 +257,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 radioGroup
 )

@@ -6220,7 +6220,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sitepermissionsRow
 )
@@ -9158,7 +9158,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 quarantinedUserAllowedControlsRow
 )
@@ -9229,7 +9229,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 helpRow
 )

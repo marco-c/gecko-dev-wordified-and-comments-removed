@@ -304,7 +304,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 autoplayBlockedIcon
 (

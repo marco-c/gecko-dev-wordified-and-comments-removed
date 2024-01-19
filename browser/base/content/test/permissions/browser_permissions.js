@@ -2350,7 +2350,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 storagePermissionAnchor
 .
@@ -2469,7 +2469,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 storagePermissionAnchor
 .
@@ -2925,7 +2925,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 storagePermissionAnchor
 .
@@ -3054,7 +3054,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 storagePermissionAnchor
 .

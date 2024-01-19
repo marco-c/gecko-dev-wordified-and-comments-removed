@@ -405,7 +405,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 gProtectionsHandler
 .
@@ -815,7 +815,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 gProtectionsHandler
 .
@@ -1154,7 +1154,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 gProtectionsHandler
 .

@@ -253,7 +253,7 @@ if
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 panelview
 )
@@ -517,7 +517,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 panelview
 )
@@ -545,7 +545,7 @@ panelview
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 panelview
 )
@@ -803,7 +803,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 toolbarButtonNormalBrowsing
 )
@@ -906,7 +906,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 toolbarButtonPrivateBrowsing
 )
@@ -1153,7 +1153,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 )

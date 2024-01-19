@@ -274,7 +274,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 paperSize
 )
@@ -409,7 +409,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 paperSize
 )
@@ -470,7 +470,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 paperSize
 )
@@ -1126,7 +1126,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pageSize
 )
@@ -1143,7 +1143,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 orientation
 )
@@ -1260,7 +1260,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pageSize
 )
@@ -1277,7 +1277,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 orientation
 )

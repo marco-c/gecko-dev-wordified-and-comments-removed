@@ -372,7 +372,7 @@ hidden
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pipUrlbarToggle
 )
@@ -382,7 +382,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pipUrlbarToggle
 )
@@ -773,7 +773,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pipUrlbarToggle
 )
@@ -1189,7 +1189,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pipUrlbarToggle
 )
@@ -1262,7 +1262,7 @@ PictureInPicturePanel
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 panel
 )
@@ -1827,7 +1827,7 @@ hidden
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pipUrlbarToggle
 )
@@ -1837,7 +1837,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pipUrlbarToggle
 )

@@ -1981,7 +1981,7 @@ boolean
 }
 *
 /
-is_visible
+isVisible
 (
 element
 )
@@ -2009,7 +2009,7 @@ element
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 element
 .
@@ -2122,7 +2122,7 @@ ownerDocument
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 element
 .

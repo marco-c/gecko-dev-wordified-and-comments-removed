@@ -1489,7 +1489,7 @@ n
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 n
 )
