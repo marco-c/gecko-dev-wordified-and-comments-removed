@@ -14,7 +14,7 @@ prefs
 history
 "
 "
-historyAndFormData
+historyFormDataAndDownloads
 "
 ]
 ;
