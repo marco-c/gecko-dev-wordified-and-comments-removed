@@ -2598,6 +2598,9 @@ test_cookies_thirdparty
 js
 "
 ]
+disable_e10s
+=
+true
 skip
 -
 if
@@ -2641,6 +2644,9 @@ test_cookies_thirdparty_session
 js
 "
 ]
+disable_e10s
+=
+true
 skip
 -
 if
