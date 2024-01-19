@@ -5567,7 +5567,9 @@ lineno
 report
 -
 >
-tokenOffset
+column
+.
+oneOriginValue
 (
 )
 flags

@@ -885,6 +885,13 @@ js
 ]
 [
 "
+test_error_to_exception
+.
+js
+"
+]
+[
+"
 test_eventSource
 .
 js
