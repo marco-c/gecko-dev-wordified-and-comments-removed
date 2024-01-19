@@ -461,12 +461,8 @@ key
 nsresult
 QueuePostMessageEvent
 (
-already_AddRefed
-<
 nsIRunnable
->
-&
-&
+*
 aRunnable
 )
 ;
