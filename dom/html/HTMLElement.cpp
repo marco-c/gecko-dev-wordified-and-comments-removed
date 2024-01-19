@@ -374,6 +374,11 @@ UpdateBarredFromConstraintValidation
 (
 )
 ;
+UpdateValidityElementStates
+(
+false
+)
+;
 return
 rv
 ;
@@ -398,6 +403,11 @@ aNullParent
 ;
 UpdateBarredFromConstraintValidation
 (
+)
+;
+UpdateValidityElementStates
+(
+false
 )
 ;
 }
@@ -1482,6 +1492,11 @@ UpdateBarredFromConstraintValidation
 (
 )
 ;
+UpdateValidityElementStates
+(
+true
+)
+;
 MaybeRestoreFormAssociatedCustomElementState
 (
 )
@@ -2083,6 +2098,11 @@ aNotify
 ;
 UpdateBarredFromConstraintValidation
 (
+)
+;
+UpdateValidityElementStates
+(
+aNotify
 )
 ;
 }
