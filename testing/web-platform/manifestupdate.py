@@ -1064,7 +1064,7 @@ parser
 =
 configparser
 .
-SafeConfigParser
+ConfigParser
 (
 )
     
