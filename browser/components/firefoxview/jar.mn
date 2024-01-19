@@ -86,8 +86,6 @@ browser
 firefoxview
 /
 firefoxview
--
-next
 .
 html
 content
@@ -97,8 +95,6 @@ browser
 firefoxview
 /
 firefoxview
--
-next
 .
 mjs
 content
@@ -175,8 +171,6 @@ browser
 firefoxview
 /
 firefoxview
--
-next
 .
 css
 content
