@@ -1596,12 +1596,6 @@ item
 medium
 )
 ;
-padding
-:
-.
-6em
-1em
-;
 font
 -
 size
@@ -1616,6 +1610,12 @@ size
 -
 small
 )
+;
+align
+-
+items
+:
+center
 ;
 }
 &
