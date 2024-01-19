@@ -7876,7 +7876,7 @@ IsScrollbarOnRight
 {
 result
 .
-left
+right
 =
 size
 ;
@@ -7885,7 +7885,7 @@ else
 {
 result
 .
-right
+left
 =
 size
 ;
