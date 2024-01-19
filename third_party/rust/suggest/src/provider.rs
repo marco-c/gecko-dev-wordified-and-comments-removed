@@ -54,6 +54,9 @@ Amo
 Pocket
 =
 4
+Yelp
+=
+5
 }
 impl
 FromSql
@@ -189,6 +192,16 @@ SuggestionProvider
 :
 :
 Pocket
+)
+5
+=
+>
+Some
+(
+SuggestionProvider
+:
+:
+Yelp
 )
 _
 =
