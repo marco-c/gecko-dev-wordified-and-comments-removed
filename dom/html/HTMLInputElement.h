@@ -646,6 +646,16 @@ aResult
 override
 ;
 bool
+IsDoneCreating
+(
+)
+const
+{
+return
+mDoneCreating
+;
+}
+bool
 LastValueChangeWasInteractive
 (
 )
