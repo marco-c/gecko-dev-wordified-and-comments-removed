@@ -28,6 +28,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -47,6 +50,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -66,6 +72,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -84,6 +93,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -102,6 +114,9 @@ true
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -120,6 +135,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -138,6 +156,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -156,6 +177,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -179,6 +203,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -197,6 +224,9 @@ false
 hasTypes
 :
 true
+framework
+:
+null
 "
 ;
 exports
@@ -215,6 +245,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -234,6 +267,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -252,6 +288,9 @@ true
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -270,6 +309,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -289,6 +331,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -308,6 +353,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -327,6 +375,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -345,6 +396,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -364,6 +418,9 @@ false
 hasTypes
 :
 false
+framework
+:
+React
 "
 ;
 exports
@@ -382,6 +439,9 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
 exports
@@ -400,5 +460,8 @@ false
 hasTypes
 :
 false
+framework
+:
+null
 "
 ;
