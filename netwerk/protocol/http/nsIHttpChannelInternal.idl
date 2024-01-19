@@ -924,12 +924,5 @@ unsigned
 long
 earlyHintLinkType
 ;
-[
-must_use
-]
-attribute
-boolean
-isUserAgentHeaderModified
-;
 }
 ;

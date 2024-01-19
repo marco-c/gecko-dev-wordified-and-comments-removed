@@ -944,9 +944,6 @@ classicScriptHintCharset
 nsString
 documentCharacterSet
 ;
-bool
-isUserAgentHeaderModified
-;
 }
 ;
 struct

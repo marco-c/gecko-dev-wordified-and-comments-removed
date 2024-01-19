@@ -1282,11 +1282,6 @@ a
 documentCharacterSet
 (
 )
-a
-.
-isUserAgentHeaderModified
-(
-)
 )
 ;
 }
@@ -2552,10 +2547,6 @@ const
 nsAString
 &
 aDocumentCharacterSet
-const
-bool
-&
-aIsUserAgentHeaderModified
 )
 {
 MOZ_ASSERT
@@ -3224,14 +3215,6 @@ mMerge
 ;
 }
 }
-httpChannel
--
->
-SetIsUserAgentHeaderModified
-(
-aIsUserAgentHeaderModified
-)
-;
 RefPtr
 <
 ParentChannelListener
