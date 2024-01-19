@@ -72,6 +72,16 @@ mElement
 ;
 if
 (
+!
+element
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 auto
 *
 htmlElement
