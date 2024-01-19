@@ -4813,7 +4813,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 label
 )
@@ -5071,7 +5071,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 label
 )
@@ -5103,7 +5103,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 label
 )
@@ -5257,7 +5257,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 label
 )
@@ -5407,7 +5407,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 label
 )
@@ -5561,7 +5561,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 label
 )
@@ -6359,7 +6359,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 mobilePromotion
 )
@@ -6455,7 +6455,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 mobilePromotion
 )
@@ -6597,7 +6597,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 mobilePromotion
 )
@@ -6698,7 +6698,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 mobilePromotion
 )

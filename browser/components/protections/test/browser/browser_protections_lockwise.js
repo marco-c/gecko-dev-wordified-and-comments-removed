@@ -193,7 +193,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 lockwiseHowItWorks
 )
@@ -294,7 +294,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 lockwiseScannedWrapper
 )
@@ -330,7 +330,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 managePasswordsButton
 )
@@ -899,7 +899,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 savePasswordsButton
 )
@@ -1636,7 +1636,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 lockwiseCard
 )

@@ -185,7 +185,7 @@ boolean
 }
 *
 /
-is_hidden
+isHidden
 (
 element
 )
@@ -274,7 +274,7 @@ DOCUMENT_FRAGMENT_NODE
 return
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 element
 .
@@ -312,7 +312,7 @@ host
 return
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 element
 .
@@ -371,7 +371,7 @@ return
 !
 this
 .
-is_hidden
+isHidden
 (
 element
 )

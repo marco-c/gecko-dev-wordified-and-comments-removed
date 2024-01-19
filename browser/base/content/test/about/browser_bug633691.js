@@ -216,7 +216,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 aP
 )

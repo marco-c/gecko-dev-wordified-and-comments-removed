@@ -216,7 +216,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 proxyCard
 )
@@ -633,7 +633,7 @@ card
 return
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 proxyCard
 )

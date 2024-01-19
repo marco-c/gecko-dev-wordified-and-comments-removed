@@ -96,7 +96,7 @@ equal
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 isDefaultPane
 )
@@ -127,7 +127,7 @@ equal
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 isNotDefaultPane
 )
@@ -504,7 +504,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 isDefaultPane
 )

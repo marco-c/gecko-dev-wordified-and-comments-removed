@@ -551,7 +551,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 reviewHighlights
 )
@@ -718,7 +718,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 reviewHighlights
 )
