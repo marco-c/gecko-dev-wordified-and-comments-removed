@@ -1017,6 +1017,16 @@ login
 ;
 export
 let
+COMMAND_OAUTH
+=
+"
+fxaccounts
+:
+oauth_login
+"
+;
+export
+let
 COMMAND_LOGOUT
 =
 "
