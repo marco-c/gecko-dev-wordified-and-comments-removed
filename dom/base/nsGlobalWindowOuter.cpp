@@ -30804,7 +30804,7 @@ Unused
 StorageAccessAPIHelper
 :
 :
-AllowAccessFor
+AllowAccessForOnChildProcess
 (
 principal
 GetBrowsingContext

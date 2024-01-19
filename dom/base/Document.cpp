@@ -80648,7 +80648,7 @@ Unused
 StorageAccessAPIHelper
 :
 :
-AllowAccessFor
+AllowAccessForOnChildProcess
 (
 NodePrincipal
 (
@@ -84669,7 +84669,7 @@ ConsumeTransientUserGestureActivation
 StorageAccessAPIHelper
 :
 :
-AsyncCheckCookiesPermittedDecidesStorageAccessAPI
+AsyncCheckCookiesPermittedDecidesStorageAccessAPIOnChildProcess
 (
 GetBrowsingContext
 (
@@ -86258,7 +86258,7 @@ return
 StorageAccessAPIHelper
 :
 :
-AsyncCheckCookiesPermittedDecidesStorageAccessAPI
+AsyncCheckCookiesPermittedDecidesStorageAccessAPIOnChildProcess
 (
 bc
 principal
