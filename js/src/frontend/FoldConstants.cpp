@@ -727,13 +727,13 @@ case
 ParseNodeKind
 :
 :
-ImportAssertionList
+ImportAttributeList
 :
 case
 ParseNodeKind
 :
 :
-ImportAssertion
+ImportAttribute
 :
 case
 ParseNodeKind

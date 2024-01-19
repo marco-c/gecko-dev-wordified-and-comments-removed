@@ -397,9 +397,9 @@ ModuleRequest
 )
 ASTDEF
 (
-AST_IMPORT_ASSERTION
+AST_IMPORT_ATTRIBUTE
 "
-ImportAssertion
+ImportAttribute
 "
 )
 ASTDEF

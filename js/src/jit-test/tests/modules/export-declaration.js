@@ -85,7 +85,7 @@ moduleRequest
 =
 (
 specifier
-assertions
+attributes
 )
 =
 >
@@ -100,13 +100,13 @@ ModuleRequest
 source
 :
 specifier
-assertions
+attributes
 :
-assertions
+attributes
 }
 )
 ;
-importAssertion
+importAttribute
 =
 (
 key
@@ -120,7 +120,7 @@ Pattern
 type
 :
 "
-ImportAssertion
+ImportAttribute
 "
 key
 :
@@ -1533,7 +1533,7 @@ b
 "
 )
 [
-importAssertion
+importAttribute
 (
 ident
 (
@@ -1612,7 +1612,7 @@ b
 "
 )
 [
-importAssertion
+importAttribute
 (
 ident
 (
@@ -1691,7 +1691,7 @@ b
 "
 )
 [
-importAssertion
+importAttribute
 (
 ident
 (
@@ -1706,7 +1706,7 @@ js
 '
 )
 )
-importAssertion
+importAttribute
 (
 ident
 (
@@ -1721,7 +1721,7 @@ bar
 '
 )
 )
-importAssertion
+importAttribute
 (
 ident
 (

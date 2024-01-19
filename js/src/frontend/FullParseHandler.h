@@ -3744,7 +3744,7 @@ pos
 ;
 }
 BinaryNodeResult
-newImportAssertion
+newImportAttribute
 (
 Node
 keyNode
@@ -3758,7 +3758,7 @@ newBinary
 ParseNodeKind
 :
 :
-ImportAssertion
+ImportAttribute
 keyNode
 valueNode
 )
@@ -3770,7 +3770,7 @@ newModuleRequest
 Node
 moduleSpec
 Node
-importAssertionList
+importAttributeList
 const
 TokenPos
 &
@@ -3789,7 +3789,7 @@ ParseNodeKind
 ImportModuleRequest
 pos
 moduleSpec
-importAssertionList
+importAttributeList
 )
 ;
 }

@@ -1560,7 +1560,7 @@ NodeEmptyStatement
 ;
 }
 BinaryNodeResult
-newImportAssertion
+newImportAttribute
 (
 Node
 keyNode
@@ -1578,7 +1578,7 @@ newModuleRequest
 Node
 moduleSpec
 Node
-importAssertionList
+importAttributeList
 const
 TokenPos
 &
