@@ -6,6 +6,14 @@ reduxConnect
 }
 from
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 -
 redux
