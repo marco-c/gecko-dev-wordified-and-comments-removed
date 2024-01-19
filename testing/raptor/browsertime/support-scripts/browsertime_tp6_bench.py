@@ -8,6 +8,10 @@ from
 base_python_support
 import
 BasePythonSupport
+from
+utils
+import
+bool_from_str
 DOMAIN_MATCHER
 =
 re
@@ -243,6 +247,26 @@ manifest
 "
 ]
 :
+                
+if
+not
+bool_from_str
+(
+parsed_test
+.
+get
+(
+"
+benchmark_page
+"
+"
+false
+"
+)
+)
+:
+                    
+continue
                 
 test_urls
 .
