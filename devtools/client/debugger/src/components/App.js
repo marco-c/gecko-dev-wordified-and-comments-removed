@@ -106,6 +106,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import
@@ -136,6 +138,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 const
@@ -296,6 +300,8 @@ from
 .
 /
 PrimaryPanes
+/
+index
 "
 ;
 import
@@ -305,6 +311,8 @@ from
 .
 /
 Editor
+/
+index
 "
 ;
 import
@@ -314,6 +322,8 @@ from
 .
 /
 SecondaryPanes
+/
+index
 "
 ;
 import

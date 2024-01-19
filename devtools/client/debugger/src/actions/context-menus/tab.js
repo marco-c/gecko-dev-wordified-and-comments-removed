@@ -52,6 +52,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import

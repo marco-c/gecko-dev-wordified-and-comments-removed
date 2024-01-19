@@ -139,6 +139,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import
@@ -162,6 +164,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import
@@ -193,6 +197,8 @@ from
 shared
 /
 Button
+/
+index
 "
 ;
 import

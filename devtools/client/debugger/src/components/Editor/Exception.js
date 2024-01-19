@@ -51,6 +51,8 @@ from
 utils
 /
 editor
+/
+index
 "
 ;
 import

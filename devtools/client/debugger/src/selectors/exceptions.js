@@ -41,6 +41,7 @@ from
 "
 .
 /
+index
 "
 ;
 export

@@ -10,6 +10,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 async

@@ -148,6 +148,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import

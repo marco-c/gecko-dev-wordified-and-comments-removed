@@ -28,6 +28,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import

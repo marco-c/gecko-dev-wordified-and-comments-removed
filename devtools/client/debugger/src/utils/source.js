@@ -135,6 +135,8 @@ from
 .
 /
 editor
+/
+index
 "
 ;
 export
