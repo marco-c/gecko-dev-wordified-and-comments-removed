@@ -155,6 +155,13 @@ self
 _sites_tested
 =
 0
+        
+self
+.
+_test_pages
+=
+{
+}
     
 def
 setup_test
@@ -268,16 +275,20 @@ false
                     
 continue
                 
-test_urls
-.
-append
-(
+test_url
+=
 parsed_test
 [
 "
 test_url
 "
 ]
+                
+test_urls
+.
+append
+(
+test_url
 )
                 
 playback_pageset_manifests
@@ -304,6 +315,15 @@ name
 )
                 
 )
+                
+self
+.
+_test_pages
+[
+test_url
+]
+=
+parsed_test
         
 if
 len
@@ -461,11 +481,7 @@ load_times
 [
 ]
         
-page_name
-=
-None
-        
-page_title
+result_name
 =
 None
         
@@ -482,13 +498,11 @@ browserScripts
             
 if
 not
-page_name
+result_name
 :
                 
-page_name
+page_url
 =
-extract_domain
-(
 cycle
 [
 "
@@ -504,12 +518,50 @@ url
 "
 "
 )
-)
                 
+if
+self
+.
+_test_pages
+.
+get
+(
+page_url
+None
+)
+is
+not
+None
+:
+                    
+result_name
+=
+self
+.
+_test_pages
+[
+page_url
+]
+[
+"
+name
+"
+]
+                
+else
+:
+                    
+page_name
+=
+extract_domain
+(
+page_url
+)
+                    
 page_title
 =
 (
-                    
+                        
 cycle
 [
 "
@@ -537,8 +589,21 @@ replace
 "
 "
 )
-                
+                    
 )
+                    
+result_name
+=
+f
+"
+{
+page_name
+}
+-
+{
+page_title
+}
+"
             
 load_time
 =
@@ -613,22 +678,16 @@ measurements
 .
 setdefault
 (
-                
 f
 "
 {
-page_name
-}
--
-{
-page_title
+result_name
 }
 -
 loadTime
 "
 [
 ]
-            
 )
 .
 append
@@ -643,11 +702,7 @@ setdefault
 f
 "
 {
-page_name
-}
--
-{
-page_title
+result_name
 }
 -
 fcp
@@ -675,11 +730,7 @@ setdefault
 f
 "
 {
-page_name
-}
--
-{
-page_title
+result_name
 }
 -
 lcp
@@ -690,9 +741,7 @@ lcp
 .
 append
 (
-                    
 lcp
-                
 )
             
 load_times
