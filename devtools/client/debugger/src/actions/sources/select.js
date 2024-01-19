@@ -19,8 +19,6 @@ from
 .
 /
 ast
-/
-index
 "
 ;
 import
@@ -65,8 +63,6 @@ setBreakableLines
 from
 "
 .
-/
-breakableLines
 "
 ;
 import
@@ -165,8 +161,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 export

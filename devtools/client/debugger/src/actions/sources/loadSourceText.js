@@ -33,8 +33,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import
@@ -47,8 +45,6 @@ from
 .
 /
 breakpoints
-/
-index
 "
 ;
 import

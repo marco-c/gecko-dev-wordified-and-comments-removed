@@ -13,8 +13,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import
@@ -25,8 +23,6 @@ fetchFrames
 from
 "
 .
-/
-index
 "
 ;
 import
@@ -39,8 +35,6 @@ from
 .
 /
 breakpoints
-/
-index
 "
 ;
 import
@@ -65,8 +59,6 @@ from
 .
 /
 sources
-/
-index
 "
 ;
 import

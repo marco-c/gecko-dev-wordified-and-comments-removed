@@ -17,8 +17,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import
@@ -103,8 +101,6 @@ utils
 pause
 /
 mapScopes
-/
-index
 "
 ;
 import

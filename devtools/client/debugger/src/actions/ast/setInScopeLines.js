@@ -13,8 +13,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import

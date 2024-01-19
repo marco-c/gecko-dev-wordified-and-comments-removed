@@ -35,8 +35,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import
@@ -50,8 +48,6 @@ from
 .
 /
 sources
-/
-index
 "
 ;
 import

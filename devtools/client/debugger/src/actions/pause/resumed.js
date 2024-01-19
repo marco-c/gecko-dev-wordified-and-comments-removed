@@ -13,8 +13,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import
@@ -44,8 +42,6 @@ from
 utils
 /
 pause
-/
-index
 "
 ;
 export

@@ -25,8 +25,6 @@ from
 utils
 /
 breakpoint
-/
-index
 "
 ;
 import
@@ -81,8 +79,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import
@@ -93,8 +89,6 @@ removeBreakpointAtGeneratedLocation
 from
 "
 .
-/
-modify
 "
 ;
 async

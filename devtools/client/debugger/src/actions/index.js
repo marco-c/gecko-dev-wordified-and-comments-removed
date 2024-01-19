@@ -7,8 +7,6 @@ from
 .
 /
 ast
-/
-index
 "
 ;
 import
@@ -20,8 +18,6 @@ from
 .
 /
 breakpoints
-/
-index
 "
 ;
 import
@@ -68,8 +64,6 @@ from
 .
 /
 pause
-/
-index
 "
 ;
 import
@@ -157,8 +151,6 @@ from
 .
 /
 sources
-/
-index
 "
 ;
 import
@@ -240,8 +232,6 @@ from
 context
 -
 menus
-/
-index
 "
 ;
 import

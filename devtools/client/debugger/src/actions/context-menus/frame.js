@@ -49,8 +49,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import
@@ -86,8 +84,6 @@ from
 actions
 /
 pause
-/
-index
 "
 ;
 import
@@ -107,8 +103,6 @@ utils
 pause
 /
 frames
-/
-index
 "
 ;
 function

@@ -31,8 +31,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import

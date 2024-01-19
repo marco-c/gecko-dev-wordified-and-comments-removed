@@ -21,8 +21,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 export
