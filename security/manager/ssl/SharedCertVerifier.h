@@ -92,7 +92,7 @@ ctMode
 CRLiteMode
 crliteMode
 const
-Vector
+nsTArray
 <
 EnterpriseCert
 >

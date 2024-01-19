@@ -467,10 +467,7 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
-mozilla
-:
-:
-Vector
+nsTArray
 <
 EnterpriseCert
 >

@@ -791,7 +791,7 @@ ctMode
 CRLiteMode
 crliteMode
 const
-Vector
+nsTArray
 <
 EnterpriseCert
 >
@@ -859,13 +859,13 @@ private
 OCSPCache
 mOCSPCache
 ;
-Vector
+nsTArray
 <
 EnterpriseCert
 >
 mThirdPartyCerts
 ;
-Vector
+nsTArray
 <
 mozilla
 :
@@ -877,7 +877,7 @@ Input
 >
 mThirdPartyRootInputs
 ;
-Vector
+nsTArray
 <
 mozilla
 :

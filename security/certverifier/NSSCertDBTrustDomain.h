@@ -362,7 +362,7 @@ OriginAttributes
 &
 originAttributes
 const
-Vector
+nsTArray
 <
 mozilla
 :
@@ -375,7 +375,7 @@ Input
 &
 thirdPartyRootInputs
 const
-Vector
+nsTArray
 <
 mozilla
 :
@@ -1274,7 +1274,7 @@ OriginAttributes
 mOriginAttributes
 ;
 const
-Vector
+nsTArray
 <
 mozilla
 :
@@ -1288,7 +1288,7 @@ Input
 mThirdPartyRootInputs
 ;
 const
-Vector
+nsTArray
 <
 mozilla
 :
