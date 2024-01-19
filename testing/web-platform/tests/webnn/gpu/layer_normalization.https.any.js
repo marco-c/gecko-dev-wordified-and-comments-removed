@@ -1,0 +1,16 @@
+'
+use
+strict
+'
+;
+testWebNNOperation
+(
+'
+layerNormalization
+'
+buildLayerNorm
+'
+gpu
+'
+)
+;
