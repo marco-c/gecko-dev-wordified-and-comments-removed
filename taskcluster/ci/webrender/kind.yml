@@ -1960,6 +1960,12 @@ linux
 -
 linux64
 -
+cargo
+-
+apk
+-
+linux64
+-
 jdk
 -
 linux64
@@ -2354,6 +2360,12 @@ avd
 x86_64
 -
 linux
+-
+linux64
+-
+cargo
+-
+apk
 -
 linux64
 -
