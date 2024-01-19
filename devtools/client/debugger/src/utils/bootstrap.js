@@ -56,6 +56,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +71,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -104,6 +110,10 @@ registerStoreObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +123,8 @@ shared
 redux
 /
 subscriber
+.
+js
 "
 )
 ;
@@ -264,6 +276,10 @@ sanitizeBreakpoints
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -273,6 +289,8 @@ shared
 thread
 -
 utils
+.
+js
 "
 )
 ;

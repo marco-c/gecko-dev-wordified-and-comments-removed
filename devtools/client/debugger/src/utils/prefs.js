@@ -6,6 +6,10 @@ PrefsHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -13,6 +17,8 @@ client
 shared
 /
 prefs
+.
+js
 "
 )
 ;
@@ -1609,6 +1615,10 @@ ThreadUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1618,6 +1628,8 @@ shared
 thread
 -
 utils
+.
+js
 "
 )
 ;

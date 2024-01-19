@@ -154,6 +154,10 @@ Tabs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

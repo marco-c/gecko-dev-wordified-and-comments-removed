@@ -19,6 +19,10 @@ getUnicodeUrlPath
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -28,6 +32,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;

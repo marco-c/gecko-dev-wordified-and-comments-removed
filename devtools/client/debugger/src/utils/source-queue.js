@@ -6,11 +6,17 @@ throttle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 throttle
+.
+js
 "
 )
 ;

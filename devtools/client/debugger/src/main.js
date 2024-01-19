@@ -131,6 +131,10 @@ sanitizeBreakpoints
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +144,8 @@ shared
 thread
 -
 utils
+.
+js
 "
 )
 ;

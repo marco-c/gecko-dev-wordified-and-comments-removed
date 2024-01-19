@@ -153,6 +153,10 @@ KeyShortcuts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +166,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -171,6 +177,10 @@ SplitBox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +192,8 @@ components
 splitter
 /
 SplitBox
+.
+js
 "
 )
 ;
@@ -191,6 +203,10 @@ AppErrorBoundary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +216,8 @@ shared
 components
 /
 AppErrorBoundary
+.
+js
 "
 )
 ;

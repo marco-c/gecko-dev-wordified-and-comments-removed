@@ -4,6 +4,10 @@ SplitBox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -15,6 +19,8 @@ components
 splitter
 /
 SplitBox
+.
+js
 "
 )
 ;
@@ -283,6 +289,10 @@ classnames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

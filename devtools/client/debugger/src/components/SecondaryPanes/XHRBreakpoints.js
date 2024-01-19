@@ -148,6 +148,10 @@ classnames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

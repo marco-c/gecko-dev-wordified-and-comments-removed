@@ -195,6 +195,10 @@ classnames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +221,10 @@ fuzzaldrinScore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

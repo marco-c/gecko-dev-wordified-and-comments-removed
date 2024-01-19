@@ -6,6 +6,10 @@ getUnicodeUrl
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -15,6 +19,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;
@@ -26,6 +32,10 @@ micromatch
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
