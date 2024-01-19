@@ -65,6 +65,11 @@ dom
 namespace
 quota
 {
+[
+ChildProc
+=
+anydom
+]
 sync
 protocol
 PRemoteQuotaObject

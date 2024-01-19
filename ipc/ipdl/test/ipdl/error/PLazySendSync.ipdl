@@ -13,6 +13,11 @@ specify
 [
 LazySend
 ]
+[
+ChildProc
+=
+any
+]
 sync
 protocol
 PLazySendSync

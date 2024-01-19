@@ -20,6 +20,11 @@ include
 protocol
 IntrAsyncManagee
 ;
+[
+ChildProc
+=
+any
+]
 async
 protocol
 IntrAsyncManager

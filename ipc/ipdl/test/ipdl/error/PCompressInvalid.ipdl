@@ -18,6 +18,11 @@ include
 protocol
 compressCtor
 ;
+[
+ChildProc
+=
+any
+]
 async
 protocol
 PCompressInvalid

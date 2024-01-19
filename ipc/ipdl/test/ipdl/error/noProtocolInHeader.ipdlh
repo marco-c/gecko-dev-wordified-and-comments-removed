@@ -20,6 +20,11 @@ protocol
 spec
 instead
 .
+[
+ChildProc
+=
+any
+]
 protocol
 noProtocolInHeader
 {

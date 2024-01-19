@@ -11,6 +11,11 @@ specify
 [
 Nested
 ]
+[
+ChildProc
+=
+any
+]
 intr
 protocol
 PIntrNested

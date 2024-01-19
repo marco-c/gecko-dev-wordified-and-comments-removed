@@ -161,6 +161,9 @@ thread
 .
 [
 NeedsOtherPid
+ChildProc
+=
+any
 ]
 async
 protocol

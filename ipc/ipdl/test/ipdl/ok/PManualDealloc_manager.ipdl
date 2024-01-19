@@ -21,6 +21,11 @@ are
 /
 refcounted
 .
+[
+ChildProc
+=
+any
+]
 async
 protocol
 PManualDealloc_manager

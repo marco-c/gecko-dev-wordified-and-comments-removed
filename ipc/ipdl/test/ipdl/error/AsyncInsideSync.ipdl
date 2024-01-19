@@ -44,6 +44,11 @@ protocol
 AsyncInsideSync
 '
 provides
+[
+ChildProc
+=
+any
+]
 protocol
 AsyncInsideSync
 {

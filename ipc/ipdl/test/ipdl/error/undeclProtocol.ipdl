@@ -13,6 +13,11 @@ has
 not
 been
 declared
+[
+ChildProc
+=
+any
+]
 protocol
 undeclProtocol
 {
