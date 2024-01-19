@@ -410,7 +410,7 @@ down
 await
 helper
 .
-waitForStateChange
+assertStateChange
 (
 "
 resizing
@@ -436,7 +436,7 @@ up
 await
 helper
 .
-waitForStateChange
+assertStateChange
 (
 "
 selected
@@ -1580,7 +1580,7 @@ click
 await
 helper
 .
-waitForStateChange
+assertStateChange
 (
 "
 crosshairs
@@ -1929,7 +1929,7 @@ click
 await
 helper
 .
-waitForStateChange
+assertStateChange
 (
 "
 crosshairs

@@ -1599,17 +1599,6 @@ waitForOverlay
 (
 )
 ;
-await
-helper
-.
-dragOverlay
-(
-50
-50
-300
-300
-)
-;
 screenshotExit
 =
 TestUtils
@@ -1626,7 +1615,7 @@ exit
 await
 helper
 .
-clickCancelButton
+clickPreviewCancelButton
 (
 )
 ;
@@ -2166,7 +2155,7 @@ click
 await
 helper
 .
-waitForStateChange
+assertStateChange
 (
 "
 crosshairs
