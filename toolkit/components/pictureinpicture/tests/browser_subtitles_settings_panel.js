@@ -307,7 +307,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 subtitlesPanel
 )
@@ -704,7 +704,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 subtitlesPanel
 )
@@ -1272,7 +1272,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 subtitlesPanel
 )

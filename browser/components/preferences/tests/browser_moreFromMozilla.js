@@ -1933,7 +1933,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 mobile
 )
@@ -1949,7 +1949,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 monitor
 )
@@ -1965,7 +1965,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 vpn
 )

@@ -121,7 +121,7 @@ if
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 fxaButton
 )

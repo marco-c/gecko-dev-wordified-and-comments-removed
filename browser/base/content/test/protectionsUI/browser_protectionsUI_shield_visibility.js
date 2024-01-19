@@ -516,7 +516,7 @@ is
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gProtectionsHandler
 .

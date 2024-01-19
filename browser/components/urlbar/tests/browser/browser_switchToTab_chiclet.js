@@ -308,7 +308,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 switchTabLabel
 )
@@ -575,7 +575,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 searchModeTitle
 )

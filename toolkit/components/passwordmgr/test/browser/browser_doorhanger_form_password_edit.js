@@ -2381,7 +2381,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 checkbox
 )

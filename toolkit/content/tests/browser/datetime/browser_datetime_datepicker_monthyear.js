@@ -588,7 +588,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 helper
 .
@@ -960,7 +960,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 helper
 .

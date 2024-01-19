@@ -340,7 +340,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 autoplayBlockedIcon
 (
@@ -511,7 +511,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 autoplayBlockedIcon
 (
@@ -1387,7 +1387,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 autoplayBlockedIcon
 (

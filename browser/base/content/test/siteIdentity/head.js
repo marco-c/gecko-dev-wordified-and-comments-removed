@@ -718,7 +718,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 identityIcon
 )
@@ -939,7 +939,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 identityIcon
 )
@@ -1921,7 +1921,7 @@ element
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 element
 )

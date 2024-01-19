@@ -856,7 +856,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 printSelect
 )

@@ -85,7 +85,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )

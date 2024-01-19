@@ -270,7 +270,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 container
 )
@@ -335,7 +335,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 container
 )

@@ -100,7 +100,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 dialogOverlay
 )
@@ -155,7 +155,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 dialogOverlay
 )
@@ -212,7 +212,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 dialogOverlay
 )

@@ -235,7 +235,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 label
 )
@@ -371,7 +371,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 label
 )

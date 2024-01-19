@@ -711,7 +711,7 @@ is
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 moveUp
 )
@@ -741,7 +741,7 @@ is
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 moveDown
 )

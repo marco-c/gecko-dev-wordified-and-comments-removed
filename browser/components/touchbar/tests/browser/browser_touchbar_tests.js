@@ -104,7 +104,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 aElement
 )
@@ -139,7 +139,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 aElement
 )

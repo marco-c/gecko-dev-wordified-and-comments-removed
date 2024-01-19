@@ -316,7 +316,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 customRootWarning
 )
@@ -404,7 +404,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 subPanelInfo
 )

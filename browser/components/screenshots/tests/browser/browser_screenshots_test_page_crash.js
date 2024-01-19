@@ -83,7 +83,7 @@ true
 return
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 panel
 )
@@ -106,7 +106,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 panel
 )
@@ -190,7 +190,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 panel
 )

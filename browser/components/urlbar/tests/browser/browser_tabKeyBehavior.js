@@ -2131,7 +2131,7 @@ disabled
 |
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 nextFocusableElement
 )

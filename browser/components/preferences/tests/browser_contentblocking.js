@@ -7343,7 +7343,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 strictWarning
 )
@@ -7752,7 +7752,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 standardWarning
 )
@@ -7810,7 +7810,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 standardWarning
 )

@@ -1788,7 +1788,7 @@ boolean
 }
 *
 /
-is_hidden
+isHidden
 (
 element
 )
@@ -1816,7 +1816,7 @@ element
 return
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 element
 .
@@ -1933,7 +1933,7 @@ ownerDocument
 return
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 element
 .

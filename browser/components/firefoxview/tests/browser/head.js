@@ -802,7 +802,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 elem
 )
@@ -906,7 +906,7 @@ elem
 :
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 elem
 )
@@ -1056,7 +1056,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 elem
 )

@@ -1334,7 +1334,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 windowHeader
 )
@@ -1354,7 +1354,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 screenHeader
 )
@@ -1403,7 +1403,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 windowHeader
 )
@@ -1425,7 +1425,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 screenHeader
 )

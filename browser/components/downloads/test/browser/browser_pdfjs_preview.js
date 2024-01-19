@@ -1677,7 +1677,7 @@ is
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 useSystemMenuItem
 )
@@ -1712,7 +1712,7 @@ is
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 alwaysMenuItem
 )

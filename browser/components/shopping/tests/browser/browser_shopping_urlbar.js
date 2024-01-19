@@ -73,7 +73,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )
@@ -199,7 +199,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )
@@ -273,7 +273,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )
@@ -589,7 +589,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )
@@ -846,7 +846,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 sidebar
 )
@@ -1193,7 +1193,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 sidebarA
 )
@@ -1213,7 +1213,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 sidebarB
 )
@@ -1464,7 +1464,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )
@@ -1514,7 +1514,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )
@@ -1782,7 +1782,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )
@@ -1832,7 +1832,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )
@@ -2124,7 +2124,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shoppingButton
 )

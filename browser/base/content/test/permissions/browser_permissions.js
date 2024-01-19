@@ -954,7 +954,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 reloadHint
 )
@@ -1014,7 +1014,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 reloadHint
 )
@@ -1073,7 +1073,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 reloadHint
 )
@@ -1099,7 +1099,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 reloadHint
 )
@@ -1146,7 +1146,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 reloadHint
 )
@@ -2122,7 +2122,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gPermissionPanel
 .
@@ -2145,7 +2145,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gPermissionPanel
 .
@@ -2191,7 +2191,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gPermissionPanel
 .
@@ -2287,7 +2287,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 storagePermissionAnchor
 .
@@ -2644,7 +2644,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 storagePermissionAnchor
 .
@@ -2723,7 +2723,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 storagePermissionAnchor
 .
@@ -2862,7 +2862,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 storagePermissionAnchor
 .

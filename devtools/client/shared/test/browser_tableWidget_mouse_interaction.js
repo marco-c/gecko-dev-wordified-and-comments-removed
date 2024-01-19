@@ -676,7 +676,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 column
 )
@@ -883,7 +883,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 column
 )

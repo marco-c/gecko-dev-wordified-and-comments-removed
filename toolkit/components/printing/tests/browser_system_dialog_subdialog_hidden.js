@@ -84,7 +84,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 systemLink
 )

@@ -743,7 +743,7 @@ _identityPopup
 |
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gIdentityHandler
 .
@@ -869,7 +869,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gIdentityHandler
 .

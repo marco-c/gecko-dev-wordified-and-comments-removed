@@ -413,7 +413,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 deleteFileItem
 )
@@ -608,7 +608,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 deleteFileItem
 )

@@ -698,7 +698,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 dialogBoxManager
 .
@@ -742,7 +742,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 dialogBoxManager
 .
