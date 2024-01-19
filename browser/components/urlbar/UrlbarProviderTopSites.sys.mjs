@@ -1910,9 +1910,7 @@ controller
 if
 (
 !
-controller
-.
-input
+queryContext
 .
 isPrivate
 &

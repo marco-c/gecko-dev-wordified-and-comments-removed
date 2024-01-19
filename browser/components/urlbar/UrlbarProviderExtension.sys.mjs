@@ -1666,9 +1666,7 @@ _notifyListener
 "
 engagement
 "
-controller
-.
-input
+queryContext
 .
 isPrivate
 state
