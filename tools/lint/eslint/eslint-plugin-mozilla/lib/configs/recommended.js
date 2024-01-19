@@ -1498,17 +1498,6 @@ event
 "
 no
 -
-return
--
-await
-"
-:
-"
-error
-"
-"
-no
--
 self
 -
 compare
