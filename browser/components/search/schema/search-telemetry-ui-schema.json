@@ -57,5 +57,11 @@ shoppingTab
 "
 domainExtraction
 "
+"
+isSPA
+"
+"
+defaultPageQueryParam
+"
 ]
 }
