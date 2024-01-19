@@ -7484,6 +7484,7 @@ mDocument
 >
 PostCustomPropertyRegistered
 (
+aDefinition
 )
 ;
 break

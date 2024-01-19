@@ -287,6 +287,11 @@ CommandEvent
 webidl
 "
 "
+CSSCustomPropertyRegisteredEvent
+.
+webidl
+"
+"
 DebuggerNotification
 .
 webidl
@@ -575,6 +580,11 @@ webidl
 GENERATED_EVENTS_WEBIDL_FILES
 =
 [
+"
+CSSCustomPropertyRegisteredEvent
+.
+webidl
+"
 "
 PluginCrashedEvent
 .
