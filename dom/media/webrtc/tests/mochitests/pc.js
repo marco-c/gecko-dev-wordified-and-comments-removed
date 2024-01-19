@@ -1471,6 +1471,18 @@ ok
 false
 )
 ;
+throw
+new
+Error
+(
+"
+Could
+not
+get
+size
+"
+)
+;
 }
 }
 ;
@@ -4923,6 +4935,7 @@ info
 )
 {
 return
+undefined
 ;
 }
 info
@@ -5181,6 +5194,7 @@ streams
 )
 {
 return
+undefined
 ;
 }
 return
@@ -5229,6 +5243,7 @@ streams
 )
 {
 return
+undefined
 ;
 }
 return

@@ -111,12 +111,13 @@ done
 =
 true
 ;
-return
 ForceRefreshParent
 .
 done
 (
 )
+;
+return
 ;
 }
 if
@@ -152,7 +153,6 @@ done
 =
 true
 ;
-return
 ForceRefreshParent
 .
 done
@@ -355,12 +355,13 @@ cachedLoadCount
 maxCacheLoadCount
 )
 {
-return
 ForceRefreshParent
 .
 refresh
 (
 )
+;
+return
 ;
 }
 ForceRefreshParent

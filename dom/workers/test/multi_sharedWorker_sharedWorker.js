@@ -278,5 +278,8 @@ return
 true
 ;
 }
+return
+undefined
+;
 }
 ;

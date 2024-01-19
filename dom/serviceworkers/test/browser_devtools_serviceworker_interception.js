@@ -754,10 +754,11 @@ activated
 "
 )
 {
-return
 resolve
 (
 )
+;
+return
 ;
 }
 worker
@@ -785,7 +786,6 @@ activated
 "
 )
 {
-return
 resolve
 (
 )
@@ -816,10 +816,11 @@ serviceWorker
 controller
 )
 {
-return
 resolve
 (
 )
+;
+return
 ;
 }
 content
