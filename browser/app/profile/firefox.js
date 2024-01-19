@@ -5108,7 +5108,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+historyAndFormData
 "
 true
 )
@@ -5147,6 +5147,18 @@ clearOnShutdown_v2
 siteSettings
 "
 false
+)
+;
+pref
+(
+"
+privacy
+.
+clearOnShutdown_v2
+.
+downloads
+"
+true
 )
 ;
 pref
@@ -9786,7 +9798,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+historyAndFormData
 "
 true
 )
