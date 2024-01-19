@@ -156,16 +156,6 @@ scheme
 EqualsLiteral
 (
 "
-ftp
-"
-)
-|
-|
-scheme
-.
-EqualsLiteral
-(
-"
 file
 "
 )

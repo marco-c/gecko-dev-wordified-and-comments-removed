@@ -15,11 +15,11 @@ const
 url
 =
 "
-ftp
+ws
 :
 /
 /
-ftp
+ws
 .
 example
 .
