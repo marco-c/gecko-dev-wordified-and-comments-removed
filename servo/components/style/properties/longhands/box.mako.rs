@@ -4080,7 +4080,7 @@ layout
 enabled_in
 =
 "
-ua
+chrome
 "
 )
 }
