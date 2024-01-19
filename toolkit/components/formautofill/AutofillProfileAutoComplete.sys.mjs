@@ -1752,10 +1752,6 @@ GetRecords
 {
 scenarioName
 :
-"
-signUpForm
-"
-in
 lazy
 .
 FormScenarios
@@ -1766,6 +1762,8 @@ detect
 input
 }
 )
+.
+signUpForm
 ?
 "
 SignUpFormScenario

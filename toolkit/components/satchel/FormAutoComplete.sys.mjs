@@ -3047,10 +3047,6 @@ getAutoCompleteValues
 client
 aInputName
 searchString
-"
-signUpForm
-"
-in
 lazy
 .
 FormScenarios
@@ -3063,6 +3059,8 @@ input
 aField
 }
 )
+.
+signUpForm
 ?
 "
 SignUpFormScenario
