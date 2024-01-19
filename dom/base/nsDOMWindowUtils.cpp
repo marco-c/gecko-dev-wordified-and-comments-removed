@@ -22230,7 +22230,10 @@ dir
 )
 {
 case
-eDir_NotSet
+Directionality
+:
+:
+Unset
 :
 *
 aRetval
@@ -22243,7 +22246,10 @@ DIRECTION_NOT_SET
 break
 ;
 case
-eDir_RTL
+Directionality
+:
+:
+Rtl
 :
 *
 aRetval
@@ -22256,7 +22262,10 @@ DIRECTION_RTL
 break
 ;
 case
-eDir_LTR
+Directionality
+:
+:
+Ltr
 :
 *
 aRetval
@@ -22269,7 +22278,10 @@ DIRECTION_LTR
 break
 ;
 case
-eDir_Auto
+Directionality
+:
+:
+Auto
 :
 MOZ_ASSERT_UNREACHABLE
 (

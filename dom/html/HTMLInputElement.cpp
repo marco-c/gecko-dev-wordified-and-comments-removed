@@ -18172,7 +18172,10 @@ GetComputedDirectionality
 )
 =
 =
-eDir_RTL
+Directionality
+:
+:
+Rtl
 ?
 step
 :
@@ -18195,7 +18198,10 @@ GetComputedDirectionality
 )
 =
 =
-eDir_RTL
+Directionality
+:
+:
+Rtl
 ?
 -
 step
@@ -19784,7 +19790,10 @@ GetComputedDirectionality
 )
 =
 =
-eDir_RTL
+Directionality
+:
+:
+Rtl
 ;
 return
 isRtl
