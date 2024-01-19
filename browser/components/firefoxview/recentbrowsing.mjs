@@ -252,8 +252,6 @@ content
 firefoxview
 /
 firefoxview
--
-next
 .
 css
 "

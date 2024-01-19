@@ -4471,6 +4471,17 @@ updating
 "
 )
 ;
+slot
+.
+tabLists
+[
+0
+]
+.
+scrollIntoView
+(
+)
+;
 await
 TestUtils
 .
