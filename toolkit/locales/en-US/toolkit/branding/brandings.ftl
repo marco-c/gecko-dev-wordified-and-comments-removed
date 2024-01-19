@@ -172,6 +172,15 @@ name
 =
 Monitor
 -
+mozmonitor
+-
+brand
+-
+name
+=
+Mozilla
+Monitor
+-
 pocket
 -
 brand
