@@ -14200,6 +14200,10 @@ pt
 )
 )
 ;
+mApzScrollPos
+=
+pt
+;
 }
 else
 if
