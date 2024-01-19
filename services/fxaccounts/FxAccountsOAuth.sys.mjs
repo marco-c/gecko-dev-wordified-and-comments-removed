@@ -1343,19 +1343,6 @@ param
 {
 string
 }
-sessionTokenHex
-:
-The
-session
-token
-encoded
-in
-hexadecimal
-*
-param
-{
-string
-}
 code
 :
 OAuth
@@ -1458,7 +1445,6 @@ server
 async
 completeOAuthFlow
 (
-sessionTokenHex
 code
 state
 )
@@ -1512,7 +1498,6 @@ fxaClient
 .
 oauthToken
 (
-sessionTokenHex
 code
 verifier
 FX_OAUTH_CLIENT_ID

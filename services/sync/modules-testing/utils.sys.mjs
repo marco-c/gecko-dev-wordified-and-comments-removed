@@ -1053,7 +1053,7 @@ access
 token
 "
 )
-destroyOAuthToken
+_destroyOAuthToken
 :
 (
 )
