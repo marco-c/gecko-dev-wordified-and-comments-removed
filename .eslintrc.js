@@ -3994,15 +3994,6 @@ off
 "
 no
 -
-sequences
-"
-:
-"
-off
-"
-"
-no
--
 shadow
 "
 :
