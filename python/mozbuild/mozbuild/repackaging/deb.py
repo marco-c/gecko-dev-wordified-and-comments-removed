@@ -2582,6 +2582,15 @@ release_type
 "
 release
 "
+or
+release_type
+=
+=
+"
+release
+-
+rc
+"
 :
         
 return
