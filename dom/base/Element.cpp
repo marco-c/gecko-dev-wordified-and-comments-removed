@@ -4732,7 +4732,7 @@ scrollPos
 sf
 -
 >
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 ;
@@ -5062,7 +5062,7 @@ sf
 sf
 -
 >
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 .
@@ -5146,7 +5146,7 @@ CSSIntPoint
 sf
 -
 >
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 .
@@ -5180,7 +5180,7 @@ sf
 sf
 -
 >
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 .
@@ -5245,7 +5245,7 @@ aScrollLeft
 sf
 -
 >
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 .

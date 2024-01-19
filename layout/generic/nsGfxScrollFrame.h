@@ -1234,7 +1234,7 @@ aLastSnapTargetIds
 final
 ;
 CSSIntPoint
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 final

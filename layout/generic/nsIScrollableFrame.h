@@ -578,7 +578,7 @@ aLastSnapTargetIds
 ;
 virtual
 CSSIntPoint
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 =

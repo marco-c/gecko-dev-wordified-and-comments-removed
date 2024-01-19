@@ -10929,7 +10929,7 @@ aMode
 CSSIntPoint
 currentCSSPixels
 =
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 ;
@@ -11253,7 +11253,7 @@ CSSIntPoint
 nsHTMLScrollFrame
 :
 :
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 {
@@ -22646,7 +22646,7 @@ GetScrollPosition
 CSSIntPoint
 currentCSSPixels
 =
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 ;
