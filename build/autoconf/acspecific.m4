@@ -1819,7 +1819,9 @@ conftest
 c
 )
 |
-egrep
+grep
+-
+E
 yes
 >
 /
@@ -1907,7 +1909,9 @@ conftest
 C
 )
 |
-egrep
+grep
+-
+E
 yes
 >
 /
@@ -2014,7 +2018,9 @@ conftest
 fpp
 )
 |
-egrep
+grep
+-
+E
 yes
 >
 /

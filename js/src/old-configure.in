@@ -4914,7 +4914,9 @@ test
 -
 z
 "
-egrep
+grep
+-
+E
 -
 i
 '
@@ -4936,7 +4938,9 @@ a
 -
 z
 "
-egrep
+grep
+-
+E
 -
 i
 '
@@ -5098,7 +5102,9 @@ test
 -
 z
 "
-egrep
+grep
+-
+E
 -
 i
 '
@@ -5120,7 +5126,9 @@ a
 -
 z
 "
-egrep
+grep
+-
+E
 -
 i
 '

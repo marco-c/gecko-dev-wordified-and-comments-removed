@@ -14335,7 +14335,9 @@ changequote
 (
 )
 dnl
-egrep
+grep
+-
+E
 "
 1
 "
