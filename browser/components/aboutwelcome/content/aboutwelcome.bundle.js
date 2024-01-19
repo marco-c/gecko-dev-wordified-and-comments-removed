@@ -4880,6 +4880,14 @@ additional_button
 ?
 .
 flow
+alignment
+:
+content
+.
+additional_button
+?
+.
+alignment
 }
 react__WEBPACK_IMPORTED_MODULE_0___default
 (
