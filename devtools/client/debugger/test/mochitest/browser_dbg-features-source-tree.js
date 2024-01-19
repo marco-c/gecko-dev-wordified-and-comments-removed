@@ -1942,7 +1942,7 @@ module
 js
 "
 "
-react
+javascript
 "
 )
 ;
