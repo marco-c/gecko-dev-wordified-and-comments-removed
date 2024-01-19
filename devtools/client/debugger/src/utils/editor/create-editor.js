@@ -2,10 +2,14 @@ import
 SourceEditor
 from
 "
-.
+devtools
 /
-source
--
+client
+/
+shared
+/
+sourceeditor
+/
 editor
 "
 ;
