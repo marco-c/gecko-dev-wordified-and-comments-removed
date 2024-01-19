@@ -183,3 +183,10 @@ browser_screenshots_test_visible
 js
 "
 ]
+[
+"
+browser_test_element_picker
+.
+js
+"
+]
