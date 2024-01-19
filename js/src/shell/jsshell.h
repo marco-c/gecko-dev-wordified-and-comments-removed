@@ -619,6 +619,10 @@ enableImportAttributes
 ;
 extern
 bool
+enableImportAttributesAssertSyntax
+;
+extern
+bool
 enableDestructuringFuse
 ;
 #
