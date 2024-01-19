@@ -108,12 +108,6 @@ source
 "
         
 "
-import
--
-attributes
-"
-        
-"
 set
 -
 methods
@@ -299,6 +293,22 @@ enable
 import
 -
 assertions
+"
+    
+"
+import
+-
+attributes
+"
+:
+"
+-
+-
+enable
+-
+import
+-
+attributes
 "
     
 "
