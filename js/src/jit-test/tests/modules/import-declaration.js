@@ -1265,7 +1265,7 @@ if
 getRealmConfiguration
 (
 "
-importAssertions
+importAttributes
 "
 )
 )

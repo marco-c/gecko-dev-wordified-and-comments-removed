@@ -546,7 +546,7 @@ this
 ;
 }
 bool
-importAssertions
+importAttributes
 (
 )
 const
@@ -554,14 +554,14 @@ const
 return
 compileOptions_
 .
-importAssertions
+importAttributes
 (
 )
 ;
 }
 ContextOptions
 &
-setImportAssertions
+setImportAttributes
 (
 bool
 enabled
@@ -569,7 +569,7 @@ enabled
 {
 compileOptions_
 .
-setImportAssertions
+setImportAttributes
 (
 enabled
 )

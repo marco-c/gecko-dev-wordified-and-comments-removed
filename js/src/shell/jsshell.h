@@ -615,7 +615,7 @@ enableNewSetMethods
 ;
 extern
 bool
-enableImportAssertions
+enableImportAttributes
 ;
 extern
 bool

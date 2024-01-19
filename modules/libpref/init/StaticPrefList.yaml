@@ -46703,7 +46703,7 @@ options
 .
 experimental
 .
-import_assertions
+import_attributes
 type
 :
 bool

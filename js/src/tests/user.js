@@ -398,7 +398,7 @@ options
 .
 experimental
 .
-import_assertions
+import_attributes
 "
 true
 )

@@ -1506,7 +1506,7 @@ false
 ;
 }
 bool
-importAssertions
+importAttributes
 =
 cx
 -
@@ -1515,7 +1515,7 @@ options
 (
 )
 .
-importAssertions
+importAttributes
 (
 )
 ;
@@ -1527,9 +1527,9 @@ JS_SetProperty
 cx
 info
 "
-importAssertions
+importAttributes
 "
-importAssertions
+importAttributes
 ?
 TrueHandleValue
 :
