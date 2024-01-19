@@ -60,8 +60,6 @@ event
 data
 )
 ;
-break
-;
 }
 }
 ;

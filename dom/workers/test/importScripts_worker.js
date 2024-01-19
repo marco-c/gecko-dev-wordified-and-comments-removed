@@ -245,8 +245,6 @@ event
 data
 )
 ;
-break
-;
 }
 }
 ;
