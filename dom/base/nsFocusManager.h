@@ -1402,7 +1402,7 @@ nsIContent
 aContent
 )
 ;
-nsresult
+void
 GetSelectionLocation
 (
 Document
