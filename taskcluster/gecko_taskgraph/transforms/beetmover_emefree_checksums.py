@@ -922,14 +922,6 @@ partner_path
 ]
             
 )
-            
-"
-partner
--
-public
-"
-:
-True
         
 }
         
