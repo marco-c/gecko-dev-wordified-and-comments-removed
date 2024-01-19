@@ -5098,16 +5098,25 @@ display
 "
 :
 [
+                            
 "
 marker
 -
 chart
 "
+                            
 "
 marker
 -
 table
 "
+                            
+"
+timeline
+-
+overview
+"
+                        
 ]
                         
 "
@@ -5726,6 +5735,12 @@ pausedRanges
 :
 [
 ]
+                    
+"
+showMarkersInTimeline
+"
+:
+True
                     
 "
 name
