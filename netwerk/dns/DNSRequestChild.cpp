@@ -1697,16 +1697,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-if
-(
-mIPCActor
--
->
-CanSend
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIRunnable
@@ -1849,7 +1839,6 @@ forget
 )
 )
 ;
-}
 return
 NS_OK
 ;
