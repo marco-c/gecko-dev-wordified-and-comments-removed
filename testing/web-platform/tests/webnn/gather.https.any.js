@@ -1,0 +1,13 @@
+'
+use
+strict
+'
+;
+testWebNNOperation
+(
+'
+gather
+'
+buildOperationWithTwoInputs
+)
+;
