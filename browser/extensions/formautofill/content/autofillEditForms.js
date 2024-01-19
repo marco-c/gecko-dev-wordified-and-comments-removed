@@ -1282,6 +1282,7 @@ input
 .
 required
 =
+(
 fieldId
 =
 =
@@ -1304,6 +1305,19 @@ has
 (
 fieldId
 )
+)
+&
+&
+input
+.
+id
+!
+=
+"
+additional
+-
+name
+"
 ;
 }
 )
