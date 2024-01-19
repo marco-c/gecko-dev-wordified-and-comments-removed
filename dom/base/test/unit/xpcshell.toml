@@ -185,9 +185,6 @@ t
 do
 that
 .
-disable_e10s
-=
-true
 [
 "
 test_bug553888
