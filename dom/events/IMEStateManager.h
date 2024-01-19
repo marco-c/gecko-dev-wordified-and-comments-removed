@@ -270,6 +270,17 @@ sActiveInputContextWidget
 ;
 }
 static
+nsIWidget
+*
+GetWidgetForTextInputHandling
+(
+)
+{
+return
+sTextInputHandlingWidget
+;
+}
+static
 void
 SetInputContextForChildProcess
 (
