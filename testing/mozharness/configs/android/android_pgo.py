@@ -41,15 +41,4 @@ tests
 "
     
 ]
-    
-"
-output_directory
-"
-:
-"
-/
-sdcard
-/
-pgo_profile
-"
 }
