@@ -623,8 +623,10 @@ XRE_IsContentProcess
 )
 )
 {
+RefPtr
+<
 SpeechSynthesisChild
-*
+>
 actor
 =
 new
@@ -676,10 +678,6 @@ nsSynthVoiceRegistry
 "
 )
 )
-;
-mSpeechSynthChild
-=
-nullptr
 ;
 mUriVoiceMap
 .

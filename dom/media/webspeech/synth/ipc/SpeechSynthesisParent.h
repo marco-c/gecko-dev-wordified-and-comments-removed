@@ -68,6 +68,11 @@ PSpeechSynthesisParent
 ;
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+SpeechSynthesisParent
+override
+)
 void
 ActorDestroy
 (

@@ -354,8 +354,10 @@ VoiceData
 >
 mUriVoiceMap
 ;
+RefPtr
+<
 SpeechSynthesisChild
-*
+>
 mSpeechSynthChild
 ;
 bool
