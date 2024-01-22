@@ -190,7 +190,11 @@ LSDatabase
 *
 mDatabase
 ;
-NS_DECL_OWNINGTHREAD
+NS_INLINE_DECL_REFCOUNTING
+(
+LSDatabaseChild
+override
+)
 public
 :
 void

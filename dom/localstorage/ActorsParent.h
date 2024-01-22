@@ -64,8 +64,10 @@ InitializeLocalStorage
 (
 )
 ;
+already_AddRefed
+<
 PBackgroundLSDatabaseParent
-*
+>
 AllocPBackgroundLSDatabaseParent
 (
 const
@@ -112,14 +114,6 @@ const
 uint64_t
 &
 aDatastoreId
-)
-;
-bool
-DeallocPBackgroundLSDatabaseParent
-(
-PBackgroundLSDatabaseParent
-*
-aActor
 )
 ;
 PBackgroundLSObserverParent
