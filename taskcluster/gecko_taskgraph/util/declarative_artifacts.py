@@ -32,6 +32,8 @@ package
 -
 default
 -
+omni
+-
 arm64
 -
 v8a
@@ -51,6 +53,8 @@ package
 }
 -
 default
+-
+omni
 -
 armeabi
 -
@@ -72,6 +76,8 @@ package
 -
 default
 -
+omni
+-
 x86
 "
     
@@ -89,6 +95,8 @@ package
 }
 -
 default
+-
+omni
 -
 x86_64
 "
