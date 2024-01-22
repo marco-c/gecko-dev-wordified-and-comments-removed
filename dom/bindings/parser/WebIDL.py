@@ -19894,22 +19894,6 @@ isDictionary
 )
 :
             
-if
-other
-.
-isCallback
-(
-)
-:
-                
-return
-not
-other
-.
-callback
-.
-_treatNonObjectAsNull
-            
 return
 other
 .
@@ -35374,22 +35358,6 @@ isDistinguishableFrom
 (
 self
 )
-        
-if
-other
-.
-isDictionaryLike
-(
-)
-:
-            
-return
-not
-self
-.
-callback
-.
-_treatNonObjectAsNull
         
 return
 (
