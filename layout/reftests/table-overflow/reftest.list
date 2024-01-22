@@ -13,8 +13,6 @@ x
 html
 bug785684
 -
-x
--
 ref
 .
 html
@@ -26,8 +24,6 @@ y
 .
 html
 bug785684
--
-y
 -
 ref
 .
