@@ -49,6 +49,13 @@ mSource
 bool
 mTeardownStarted
 ;
+~
+ClientSourceChild
+(
+)
+=
+default
+;
 void
 ActorDestroy
 (
@@ -110,6 +117,11 @@ override
 ;
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+ClientSourceChild
+override
+)
 explicit
 ClientSourceChild
 (
