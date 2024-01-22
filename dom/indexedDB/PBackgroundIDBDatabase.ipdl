@@ -156,7 +156,6 @@ namespace
 indexedDB
 {
 [
-ManualDealloc
 ChildImpl
 =
 "
