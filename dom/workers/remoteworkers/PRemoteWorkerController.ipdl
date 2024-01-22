@@ -130,9 +130,6 @@ thread
 .
 *
 /
-[
-ManualDealloc
-]
 protocol
 PRemoteWorkerController
 {

@@ -6032,17 +6032,6 @@ return
 NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
-controllerChild
-.
-get
-(
-)
--
->
-AddRef
-(
-)
-;
 mControllerChild
 =
 new
