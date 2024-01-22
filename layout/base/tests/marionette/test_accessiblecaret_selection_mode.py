@@ -4357,6 +4357,21 @@ _test_long_press_to_select_a_word
 content
 )
     
+unittest
+.
+skip
+(
+"
+Bug
+1855083
+:
+High
+frequent
+intermittent
+.
+"
+)
+    
 def
 test_long_press_to_select_when_partial_visible_word_is_selected
 (
