@@ -12,9 +12,6 @@ mozilla
 namespace
 ipc
 {
-[
-ManualDealloc
-]
 async
 protocol
 PTestShell

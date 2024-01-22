@@ -66,6 +66,11 @@ PTestShellChild
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+TestShellChild
+override
+)
 TestShellChild
 (
 )
@@ -124,6 +129,13 @@ aCommand
 ;
 private
 :
+~
+TestShellChild
+(
+)
+=
+default
+;
 UniquePtr
 <
 XPCShellEnvironment
