@@ -137,6 +137,15 @@ aom_config
 h
 '
 ]
+SOURCES
++
+=
+files
+[
+'
+X64_WIN_SOURCES
+'
+]
 NO_PGO
 =
 True
