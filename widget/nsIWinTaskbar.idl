@@ -125,6 +125,14 @@ boolean
 aPrivateBrowsing
 )
 ;
+AString
+getGroupIdForWindow
+(
+in
+mozIDOMWindow
+aParent
+)
+;
 void
 setGroupIdForWindow
 (
