@@ -3985,7 +3985,7 @@ Services
 .
 appinfo
 .
-isAnnotationAllowlistedForPing
+isAnnotationAllowedForPing
 (
 line
 )

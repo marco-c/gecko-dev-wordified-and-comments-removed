@@ -7631,7 +7631,7 @@ NS_IMETHODIMP
 nsXULAppInfo
 :
 :
-IsAnnotationAllowlistedForPing
+IsAnnotationAllowedForPing
 (
 const
 nsACString
@@ -7639,7 +7639,7 @@ nsACString
 aValue
 bool
 *
-aIsAllowlisted
+aIsAllowed
 )
 {
 CrashReporter
@@ -7670,12 +7670,12 @@ NS_ERROR_INVALID_ARG
 ;
 }
 *
-aIsAllowlisted
+aIsAllowed
 =
 CrashReporter
 :
 :
-IsAnnotationAllowlistedForPing
+IsAnnotationAllowedForPing
 (
 annotation
 )
