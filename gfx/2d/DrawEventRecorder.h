@@ -305,10 +305,6 @@ mCurrentDT
 =
 nullptr
 ;
-mCurrentFilter
-=
-nullptr
-;
 }
 template
 <
@@ -362,7 +358,6 @@ aEvent
 void
 RecordEvent
 (
-const
 DrawTargetRecording
 *
 aDT
@@ -407,7 +402,6 @@ aDT
 void
 SetCurrentDrawTarget
 (
-const
 DrawTargetRecording
 *
 aDT
@@ -421,7 +415,6 @@ aDT
 void
 ClearCurrentDrawTarget
 (
-const
 DrawTargetRecording
 *
 aDT
@@ -449,7 +442,6 @@ nullptr
 void
 RecordEvent
 (
-const
 FilterNodeRecording
 *
 aFilter
@@ -494,7 +486,6 @@ aFilter
 void
 SetCurrentFilterNode
 (
-const
 FilterNodeRecording
 *
 aFilter
@@ -508,7 +499,6 @@ aFilter
 void
 ClearCurrentFilterNode
 (
-const
 FilterNodeRecording
 *
 aFilter
@@ -536,11 +526,9 @@ nullptr
 void
 RecordEvent
 (
-const
 DrawTargetRecording
 *
 aDT
-const
 FilterNodeRecording
 *
 aFilter
