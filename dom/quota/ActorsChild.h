@@ -162,6 +162,11 @@ mOwningThread
 endif
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+QuotaChild
+override
+)
 void
 AssertIsOnOwningThread
 (
