@@ -35363,7 +35363,7 @@ IPC_OK
 StorageAccessAPIHelper
 :
 :
-CompleteAllowAccessFor
+CompleteAllowAccessForOnParentProcess
 (
 aParentContext
 .
