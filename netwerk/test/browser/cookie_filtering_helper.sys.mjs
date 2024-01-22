@@ -787,13 +787,11 @@ const
 COOKIE_FILTER_TEST_MESSAGE
 =
 "
-cookie
--
 content
 -
-filter
+added
 -
-test
+cookie
 "
 ;
 const
