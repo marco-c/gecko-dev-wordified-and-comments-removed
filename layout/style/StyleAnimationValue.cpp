@@ -80,15 +80,6 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ComputedStyle
 .
 h
@@ -932,8 +923,6 @@ AnimationValue
 :
 ComputeDistance
 (
-nsCSSPropertyID
-aProperty
 const
 AnimationValue
 &
@@ -1004,7 +993,8 @@ AnimationValue
 :
 FromString
 (
-nsCSSPropertyID
+AnimatedPropertyID
+&
 aProperty
 const
 nsACString
@@ -1089,12 +1079,6 @@ MOZ_ASSERT
 computedStyle
 )
 ;
-AnimatedPropertyID
-property
-(
-aProperty
-)
-;
 RefPtr
 <
 StyleLockedDeclarationBlock
@@ -1106,7 +1090,7 @@ ServoCSSParser
 :
 ParseProperty
 (
-property
+aProperty
 aValue
 ServoCSSParser
 :
