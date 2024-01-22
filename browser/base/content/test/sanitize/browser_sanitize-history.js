@@ -14,7 +14,7 @@ categories
 history
 "
 "
-historyAndFormData
+historyFormDataAndDownloads
 "
 ]
 ;
