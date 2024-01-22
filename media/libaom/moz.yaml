@@ -270,7 +270,7 @@ script
 :
 '
 {
-cwd
+yaml_dir
 }
 /
 generate_sources_mozbuild
