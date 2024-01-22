@@ -4,8 +4,6 @@ import
 Any
 Dict
 Mapping
-MutableMapping
-Optional
 Union
 from
 .
@@ -23,6 +21,13 @@ modules
 network
 import
 NetworkBytesValue
+from
+.
+.
+undefined
+import
+UNDEFINED
+Undefined
 class
 BrowsingContextPartitionDescriptor
 (
@@ -75,20 +80,23 @@ __init__
 self
 user_context
 :
-Optional
+Union
 [
+Undefined
 str
 ]
 =
-None
+UNDEFINED
+                 
 source_origin
 :
-Optional
+Union
 [
+Undefined
 str
 ]
 =
-None
+UNDEFINED
 )
 :
         
@@ -108,7 +116,7 @@ if
 user_context
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -124,7 +132,7 @@ if
 source_origin
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -166,48 +174,53 @@ str
             
 path
 :
-Optional
+Union
 [
+Undefined
 str
 ]
 =
-None
+UNDEFINED
             
 http_only
 :
-Optional
+Union
 [
+Undefined
 bool
 ]
 =
-None
+UNDEFINED
             
 secure
 :
-Optional
+Union
 [
+Undefined
 bool
 ]
 =
-None
+UNDEFINED
             
 same_site
 :
-Optional
+Union
 [
+Undefined
 str
 ]
 =
-None
+UNDEFINED
             
 expiry
 :
-Optional
+Union
 [
+Undefined
 int
 ]
 =
-None
+UNDEFINED
     
 )
 :
@@ -232,7 +245,7 @@ if
 path
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -248,7 +261,7 @@ if
 http_only
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -264,7 +277,7 @@ if
 secure
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -280,7 +293,7 @@ if
 same_site
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -296,7 +309,7 @@ if
 expiry
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -329,12 +342,13 @@ get_cookies
 self
 partition
 :
-Optional
+Union
 [
+Undefined
 PartitionDescriptor
 ]
 =
-None
+UNDEFINED
 )
 -
 >
@@ -345,52 +359,40 @@ Any
 ]
 :
         
-params
-=
-{
-}
-        
-if
-partition
-is
-not
-None
-:
-            
-params
-[
-"
-partition
-"
-]
-=
-partition
-        
 return
-params
+{
+"
+partition
+"
+:
+partition
+}
     
 command
     
 def
 set_cookie
 (
+            
 self
+            
 cookie
 :
 PartialCookie
+            
 partition
 :
-Optional
+Union
 [
+Undefined
 PartitionDescriptor
 ]
 =
-None
+UNDEFINED
+    
 )
 -
 >
-\
-            
 Mapping
 [
 str
@@ -398,14 +400,7 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
+return
 {
             
 '
@@ -413,24 +408,11 @@ cookie
 '
 :
 cookie
+            
+"
+partition
+"
+:
+partition
         
 }
-        
-if
-partition
-is
-not
-None
-:
-            
-params
-[
-"
-partition
-"
-]
-=
-partition
-        
-return
-params
