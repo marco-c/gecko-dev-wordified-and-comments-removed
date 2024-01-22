@@ -9135,6 +9135,10 @@ EMCheckCompatibility
 AddonManager
 .
 checkCompatibility
+.
+toString
+(
+)
 )
 ;
 }
