@@ -38,6 +38,13 @@ js
 ]
 [
 "
+browser_cookie_purge_sync
+.
+js
+"
+]
+[
+"
 browser_cookies
 .
 js
