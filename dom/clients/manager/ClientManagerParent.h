@@ -37,6 +37,11 @@ ClientManagerService
 >
 mService
 ;
+~
+ClientManagerParent
+(
+)
+;
 mozilla
 :
 :
@@ -221,11 +226,11 @@ override
 ;
 public
 :
-ClientManagerParent
+NS_INLINE_DECL_REFCOUNTING
 (
+ClientManagerParent
+override
 )
-;
-~
 ClientManagerParent
 (
 )

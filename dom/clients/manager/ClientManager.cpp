@@ -215,8 +215,10 @@ Shutdown
 return
 ;
 }
+RefPtr
+<
 ClientManagerChild
-*
+>
 actor
 =
 ClientManagerChild
