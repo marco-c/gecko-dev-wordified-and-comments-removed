@@ -65,8 +65,6 @@ ClientManagerChild
 ClientManagerChild
 (
 )
-=
-default
 ;
 void
 ActorDestroy
