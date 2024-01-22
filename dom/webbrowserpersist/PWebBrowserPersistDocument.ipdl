@@ -377,9 +377,6 @@ enclosing
 /
 PContent
 .
-[
-ManualDealloc
-]
 protocol
 PWebBrowserPersistDocument
 {

@@ -97,8 +97,10 @@ nsIWebBrowserPersistDocument
 aSubDocument
 )
 {
-auto
-*
+RefPtr
+<
+WebBrowserPersistDocumentChild
+>
 subActor
 =
 new

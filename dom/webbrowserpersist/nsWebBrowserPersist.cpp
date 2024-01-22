@@ -7327,7 +7327,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-UniquePtr
+RefPtr
 <
 WebBrowserPersistDocumentParent
 >
@@ -7395,10 +7395,6 @@ GetContentParent
 SendPWebBrowserPersistDocumentConstructor
 (
 actor
-.
-release
-(
-)
 browserParent
 context
 )
