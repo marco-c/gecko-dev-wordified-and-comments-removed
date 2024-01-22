@@ -912,7 +912,15 @@ dependency
 selector
 dependency
 .
-selector_offset
+selector
+.
+len
+(
+)
+-
+prev_offset
++
+1
 &
 mut
 matching_context
