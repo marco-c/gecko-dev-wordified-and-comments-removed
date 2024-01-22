@@ -6234,7 +6234,7 @@ options
 [
 [
 '
-auto
+normal
 '
 '
 space
