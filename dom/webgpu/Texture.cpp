@@ -106,9 +106,6 @@ aFormat
 auto
 format
 =
-WebGPUChild
-:
-:
 ConvertTextureFormat
 (
 aFormat

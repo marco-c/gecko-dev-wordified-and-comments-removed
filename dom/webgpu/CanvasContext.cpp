@@ -141,6 +141,13 @@ WebGPUChild
 .
 h
 "
+#
+include
+"
+Utility
+.
+h
+"
 namespace
 mozilla
 {
@@ -591,9 +598,6 @@ mDevice
 -
 >
 mId
-WebGPUChild
-:
-:
 ConvertTextureFormat
 (
 aConfig
