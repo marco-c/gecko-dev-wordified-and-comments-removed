@@ -158,8 +158,10 @@ RecvFlushPendingFileDeletions
 )
 override
 ;
+already_AddRefed
+<
 PBackgroundSDBConnectionParent
-*
+>
 AllocPBackgroundSDBConnectionParent
 (
 const
@@ -193,15 +195,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-)
-override
-;
-bool
-DeallocPBackgroundSDBConnectionParent
-(
-PBackgroundSDBConnectionParent
-*
-aActor
 )
 override
 ;

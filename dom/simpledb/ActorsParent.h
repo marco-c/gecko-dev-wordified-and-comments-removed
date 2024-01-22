@@ -47,8 +47,10 @@ class
 Client
 ;
 }
+already_AddRefed
+<
 PBackgroundSDBConnectionParent
-*
+>
 AllocPBackgroundSDBConnectionParent
 (
 const
@@ -105,14 +107,6 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
-)
-;
-bool
-DeallocPBackgroundSDBConnectionParent
-(
-PBackgroundSDBConnectionParent
-*
-aActor
 )
 ;
 namespace

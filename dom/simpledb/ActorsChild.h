@@ -116,7 +116,11 @@ SDBConnection
 *
 mConnection
 ;
-NS_DECL_OWNINGTHREAD
+NS_INLINE_DECL_REFCOUNTING
+(
+SDBConnectionChild
+override
+)
 public
 :
 void

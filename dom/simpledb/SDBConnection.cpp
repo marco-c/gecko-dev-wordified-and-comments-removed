@@ -825,8 +825,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+RefPtr
+<
 SDBConnectionChild
-*
+>
 actor
 =
 new
