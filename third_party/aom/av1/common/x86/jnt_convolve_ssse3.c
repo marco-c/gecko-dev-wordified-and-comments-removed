@@ -10,7 +10,7 @@ include
 "
 config
 /
-aom_dsp_rtcd
+av1_rtcd
 .
 h
 "
@@ -35,7 +35,7 @@ convolve_sse2
 h
 "
 void
-av1_jnt_convolve_2d_ssse3
+av1_dist_wtd_convolve_2d_ssse3
 (
 const
 uint8_t
@@ -62,10 +62,10 @@ InterpFilterParams
 filter_params_y
 const
 int
-subpel_x_q4
+subpel_x_qn
 const
 int
-subpel_y_q4
+subpel_y_qn
 ConvolveParams
 *
 conv_params
@@ -170,12 +170,12 @@ do_average
 ;
 const
 int
-use_jnt_comp_avg
+use_dist_wtd_comp_avg
 =
 conv_params
 -
 >
-use_jnt_comp_avg
+use_dist_wtd_comp_avg
 ;
 const
 uint8_t
@@ -340,7 +340,7 @@ x_filter
 av1_get_interp_filter_subpel_kernel
 (
 filter_params_x
-subpel_x_q4
+subpel_x_qn
 &
 SUBPEL_MASK
 )
@@ -791,7 +791,7 @@ y_filter
 av1_get_interp_filter_subpel_kernel
 (
 filter_params_y
-subpel_y_q4
+subpel_y_qn
 &
 SUBPEL_MASK
 )
@@ -1449,7 +1449,7 @@ data_ref_0
 res_unsigned
 &
 wt
-use_jnt_comp_avg
+use_dist_wtd_comp_avg
 )
 ;
 const
@@ -1506,7 +1506,7 @@ res_8
 else
 *
 (
-uint32_t
+int
 *
 )
 (

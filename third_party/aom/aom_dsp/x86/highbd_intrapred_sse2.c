@@ -5484,6 +5484,9 @@ sum_left
 uint32_t
 sum32
 =
+(
+uint32_t
+)
 _mm_cvtsi128_si32
 (
 sum
@@ -5512,7 +5515,7 @@ row
 _mm_set1_epi16
 (
 (
-uint16_t
+int16_t
 )
 sum32
 )
@@ -5623,6 +5626,9 @@ sum_left
 uint32_t
 sum32
 =
+(
+uint32_t
+)
 _mm_cvtsi128_si32
 (
 sum
@@ -5651,7 +5657,7 @@ row
 _mm_set1_epi16
 (
 (
-uint16_t
+int16_t
 )
 sum32
 )
@@ -5790,6 +5796,9 @@ sum_above
 uint32_t
 sum32
 =
+(
+uint32_t
+)
 _mm_cvtsi128_si32
 (
 sum
@@ -5812,7 +5821,7 @@ row
 _mm_set1_epi16
 (
 (
-uint16_t
+int16_t
 )
 sum32
 )
@@ -5975,6 +5984,9 @@ sum_above
 uint32_t
 sum32
 =
+(
+uint32_t
+)
 _mm_cvtsi128_si32
 (
 sum
@@ -5997,7 +6009,7 @@ row
 _mm_set1_epi16
 (
 (
-uint16_t
+int16_t
 )
 sum32
 )
@@ -6208,6 +6220,9 @@ sum_above
 uint32_t
 sum32
 =
+(
+uint32_t
+)
 _mm_cvtsi128_si32
 (
 sum
@@ -6230,7 +6245,7 @@ row
 _mm_set1_epi16
 (
 (
-uint16_t
+int16_t
 )
 sum32
 )
@@ -6441,6 +6456,9 @@ sum_above
 uint32_t
 sum32
 =
+(
+uint32_t
+)
 _mm_cvtsi128_si32
 (
 sum
@@ -6463,7 +6481,7 @@ row
 _mm_set1_epi16
 (
 (
-uint16_t
+int16_t
 )
 sum32
 )

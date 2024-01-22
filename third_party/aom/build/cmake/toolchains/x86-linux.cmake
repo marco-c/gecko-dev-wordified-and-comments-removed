@@ -149,7 +149,7 @@ Linux
 )
 set
 (
-CMAKE_C_COMPILER_ARG1
+CMAKE_C_FLAGS_INIT
 "
 -
 m32
@@ -157,7 +157,15 @@ m32
 )
 set
 (
-CMAKE_CXX_COMPILER_ARG1
+CMAKE_CXX_FLAGS_INIT
+"
+-
+m32
+"
+)
+set
+(
+CMAKE_EXE_LINKER_FLAGS_INIT
 "
 -
 m32

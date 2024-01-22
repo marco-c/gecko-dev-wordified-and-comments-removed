@@ -851,6 +851,9 @@ round_bits
 }
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 aom_highbd_blend_a64_d16_mask_c
 (
@@ -1664,6 +1667,8 @@ dst_stride
 }
 }
 }
+#
+endif
 void
 aom_blend_a64_mask_c
 (
@@ -2230,6 +2235,9 @@ j
 }
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 aom_highbd_blend_a64_mask_c
 (
@@ -2852,3 +2860,5 @@ j
 }
 }
 }
+#
+endif

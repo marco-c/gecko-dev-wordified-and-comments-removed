@@ -21,9 +21,7 @@ h
 #
 include
 "
-av1
-/
-common
+aom_dsp
 /
 odintrin
 .

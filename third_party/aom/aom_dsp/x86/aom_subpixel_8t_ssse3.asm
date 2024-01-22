@@ -232,7 +232,7 @@ registers
 for
 these
 on
-ARCH_X86_64
+AOM_ARCH_X86_64
 +
 ;
 pmaddubsw
@@ -364,7 +364,7 @@ k6k7
 m3
 %
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 %
 define
 krd
@@ -537,7 +537,7 @@ endm
 -
 %
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 %
 define
 LOCAL_VARS_SIZE_H4
@@ -581,7 +581,7 @@ m4
 m4
 %
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 %
 define
 k0k1k4k5
@@ -1814,7 +1814,7 @@ ifidn
 h8_add_src
 %
 if
-ARCH_X86
+AOM_ARCH_X86
 =
 1
 &
@@ -2026,7 +2026,7 @@ X86_SUBPIX_VFILTER_PREFER_SLOW_CELERON
 1
 %
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 &
 &
 X86_SUBPIX_VFILTER_PREFER_SLOW_CELERON
@@ -2090,13 +2090,13 @@ dec
 heightd
 %
 if
-ARCH_X86
+AOM_ARCH_X86
 |
 |
 X86_SUBPIX_VFILTER_PREFER_SLOW_CELERON
 %
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 %
 define
 src1q
@@ -2658,7 +2658,7 @@ m0
 %
 else
 ;
-ARCH_X86_64
+AOM_ARCH_X86_64
 movx
 m0
 [
@@ -3093,7 +3093,7 @@ m0
 %
 endif
 ;
-ARCH_X86_64
+AOM_ARCH_X86_64
 .
 done
 :
@@ -3207,13 +3207,13 @@ filterq
 SETUP_LOCAL_VARS
 %
 if
-ARCH_X86
+AOM_ARCH_X86
 |
 |
 X86_SUBPIX_VFILTER_PREFER_SLOW_CELERON
 %
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 %
 define
 src1q
@@ -3618,7 +3618,7 @@ REP_RET
 %
 else
 ;
-ARCH_X86_64
+AOM_ARCH_X86_64
 dec
 heightd
 movu
@@ -4204,7 +4204,7 @@ REP_RET
 %
 endif
 ;
-ARCH_X86_64
+AOM_ARCH_X86_64
 %
 endm
 INIT_XMM

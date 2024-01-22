@@ -2187,7 +2187,6 @@ Write
 value
 static_cast
 <
-const
 uint32
 >
 (
@@ -2664,7 +2663,7 @@ major
 *
 minor
 =
-2
+3
 ;
 *
 build

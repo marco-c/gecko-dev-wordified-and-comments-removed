@@ -26,7 +26,16 @@ include
 "
 aom_dsp
 /
-grain_synthesis
+grain_params
+.
+h
+"
+#
+include
+"
+aom_ports
+/
+mem
 .
 h
 "
@@ -297,7 +306,6 @@ uint8_t
 flat_blocks
 )
 ;
-typedef
 enum
 {
 AOM_NOISE_SHAPE_DIAMOND
@@ -307,7 +315,10 @@ AOM_NOISE_SHAPE_SQUARE
 =
 1
 }
+UENUM1BYTE
+(
 aom_noise_shape
+)
 ;
 typedef
 struct
@@ -381,7 +392,6 @@ bit_depth
 }
 aom_noise_model_t
 ;
-typedef
 enum
 {
 AOM_NOISE_STATUS_OK
@@ -392,7 +402,10 @@ AOM_NOISE_STATUS_INSUFFICIENT_FLAT_BLOCKS
 AOM_NOISE_STATUS_DIFFERENT_NOISE_TYPE
 AOM_NOISE_STATUS_INTERNAL_ERROR
 }
+UENUM1BYTE
+(
 aom_noise_status_t
+)
 ;
 int
 aom_noise_model_init
@@ -540,6 +553,8 @@ buf
 aom_film_grain_t
 *
 grain
+int
+apply_denoise
 )
 ;
 struct

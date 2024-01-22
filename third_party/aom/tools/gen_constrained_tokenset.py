@@ -1052,6 +1052,7 @@ sum
 bits
     
 print
+(
 '
 {
 '
@@ -1074,6 +1075,7 @@ parray
 '
 }
 '
+)
 if
 __name__
 =

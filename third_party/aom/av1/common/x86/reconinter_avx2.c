@@ -122,13 +122,13 @@ uint8_t
 *
 src0
 int
-stride0
+src0_stride
 const
 uint8_t
 *
 src1
 int
-stride1
+src1_stride
 int
 h
 int
@@ -193,7 +193,7 @@ xx_loadl_32
 (
 src0
 +
-stride0
+src0_stride
 )
 ;
 const
@@ -204,7 +204,7 @@ xx_loadl_32
 (
 src0
 +
-stride0
+src0_stride
 *
 2
 )
@@ -217,7 +217,7 @@ xx_loadl_32
 (
 src0
 +
-stride0
+src0_stride
 *
 3
 )
@@ -278,7 +278,7 @@ xx_loadl_32
 (
 src1
 +
-stride1
+src1_stride
 )
 ;
 const
@@ -289,7 +289,7 @@ xx_loadl_32
 (
 src1
 +
-stride1
+src1_stride
 *
 2
 )
@@ -302,7 +302,7 @@ xx_loadl_32
 (
 src1
 +
-stride1
+src1_stride
 *
 3
 )
@@ -392,7 +392,7 @@ src0
 +
 =
 (
-stride0
+src0_stride
 <
 <
 2
@@ -402,7 +402,7 @@ src1
 +
 =
 (
-stride1
+src1_stride
 <
 <
 2
@@ -455,7 +455,7 @@ xx_loadl_64
 (
 src0
 +
-stride0
+src0_stride
 )
 ;
 const
@@ -466,7 +466,7 @@ xx_loadl_64
 (
 src0
 +
-stride0
+src0_stride
 *
 2
 )
@@ -479,7 +479,7 @@ xx_loadl_64
 (
 src0
 +
-stride0
+src0_stride
 *
 3
 )
@@ -527,7 +527,7 @@ xx_loadl_64
 (
 src1
 +
-stride1
+src1_stride
 )
 ;
 const
@@ -538,7 +538,7 @@ xx_loadl_64
 (
 src1
 +
-stride1
+src1_stride
 *
 2
 )
@@ -551,7 +551,7 @@ xx_loadl_64
 (
 src1
 +
-stride1
+src1_stride
 *
 3
 )
@@ -623,7 +623,7 @@ m8
 src0
 +
 =
-stride0
+src0_stride
 <
 <
 2
@@ -631,7 +631,7 @@ stride0
 src1
 +
 =
-stride1
+src1_stride
 <
 <
 2
@@ -683,7 +683,7 @@ xx_load_128
 (
 src0
 +
-stride0
+src0_stride
 )
 ;
 const
@@ -703,7 +703,7 @@ xx_load_128
 (
 src1
 +
-stride1
+src1_stride
 )
 ;
 const
@@ -787,7 +787,7 @@ m8
 src0
 +
 =
-stride0
+src0_stride
 <
 <
 1
@@ -795,7 +795,7 @@ stride0
 src1
 +
 =
-stride1
+src1_stride
 <
 <
 1
@@ -962,12 +962,12 @@ w
 src0
 +
 =
-stride0
+src0_stride
 ;
 src1
 +
 =
-stride1
+src1_stride
 ;
 mask
 +
@@ -4182,6 +4182,9 @@ shift
 ;
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 av1_build_compound_diffwtd_mask_highbd_avx2
 (
@@ -5030,3 +5033,5 @@ w
 }
 }
 }
+#
+endif

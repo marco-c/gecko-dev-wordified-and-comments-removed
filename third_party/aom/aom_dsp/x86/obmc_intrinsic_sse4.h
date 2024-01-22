@@ -102,7 +102,7 @@ _mm_cvtsi32_si128
 *
 (
 const
-uint32_t
+int
 *
 )
 (

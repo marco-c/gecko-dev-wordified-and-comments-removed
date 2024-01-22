@@ -30,7 +30,7 @@ extern
 const
 int8_t
 *
-fwd_txfm_shift_ls
+av1_fwd_txfm_shift_ls
 [
 TX_SIZES_ALL
 ]
@@ -38,7 +38,7 @@ TX_SIZES_ALL
 extern
 const
 int8_t
-fwd_cos_bit_col
+av1_fwd_cos_bit_col
 [
 5
 ]
@@ -49,7 +49,7 @@ fwd_cos_bit_col
 extern
 const
 int8_t
-fwd_cos_bit_row
+av1_fwd_cos_bit_row
 [
 5
 ]

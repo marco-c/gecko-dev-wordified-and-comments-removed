@@ -276,11 +276,11 @@ clear
 )
 ;
 }
-virtual
 ~
 AV1ExtTileTest
 (
 )
+override
 {
 aom_img_free
 (
@@ -292,17 +292,13 @@ delete
 decoder_
 ;
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 InitializeConfig
-(
-)
-;
-SetMode
 (
 encoding_mode_
 )
@@ -338,7 +334,6 @@ rc_min_quantizer
 0
 ;
 }
-virtual
 void
 PreEncodeFrameHook
 (
@@ -359,6 +354,7 @@ Encoder
 *
 encoder
 )
+override
 {
 if
 (
@@ -437,6 +433,7 @@ AV1E_SET_TILE_ROWS
 )
 ;
 }
+else
 if
 (
 video
@@ -460,7 +457,6 @@ AOM_EFLAG_NO_UPD_ARF
 ;
 }
 }
-virtual
 void
 DecompressedFrameHook
 (
@@ -471,6 +467,7 @@ img
 aom_codec_pts_t
 pts
 )
+override
 {
 if
 (
@@ -512,7 +509,6 @@ Get
 )
 ;
 }
-virtual
 void
 FramePktHook
 (
@@ -521,6 +517,7 @@ aom_codec_cx_pkt_t
 *
 pkt
 )
+override
 {
 if
 (
@@ -1056,7 +1053,7 @@ TestRoundTrip
 )
 ;
 }
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 AV1ExtTileTest
 :
@@ -1104,7 +1101,7 @@ TestRoundTrip
 )
 ;
 }
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 AV1ExtTileTestLarge
 :

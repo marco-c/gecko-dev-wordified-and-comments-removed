@@ -514,7 +514,7 @@ OR
 NOT
 THE
 OTHER
-PARTRY
+PARTY
 HAS
 BEEN
 ADVISED
@@ -535,7 +535,9 @@ Definitions
 .
 Affiliate
 .
+"
 Affiliate
+"
 means
 an
 entity
@@ -562,7 +564,9 @@ party
 .
 Control
 .
+"
 Control
+"
 means
 direct
 or
@@ -662,8 +666,10 @@ bitstream
 Final
 Deliverable
 .
+"
 Final
 Deliverable
+"
 means
 the
 final
@@ -736,7 +742,9 @@ Implementation
 .
 License
 .
+"
 License
+"
 means
 this
 license
@@ -747,7 +755,9 @@ license
 .
 Licensee
 .
+"
 Licensee
+"
 means
 any
 person
@@ -939,8 +949,10 @@ Implementation
 Reference
 Implementation
 .
+"
 Reference
 Implementation
+"
 means
 an
 Encoder
@@ -966,7 +978,9 @@ Deliverable
 .
 Specification
 .
+"
 Specification
+"
 means
 the
 specification

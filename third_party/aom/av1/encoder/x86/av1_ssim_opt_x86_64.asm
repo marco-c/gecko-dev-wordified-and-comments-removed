@@ -395,12 +395,10 @@ mode
 selection
 code
 .
-global
-sym
+globalsym
 (
 av1_ssim_parms_16x16_sse2
 )
-PRIVATE
 sym
 (
 av1_ssim_parms_16x16_sse2
@@ -773,12 +771,10 @@ mode
 selection
 code
 .
-global
-sym
+globalsym
 (
 av1_ssim_parms_8x8_sse2
 )
-PRIVATE
 sym
 (
 av1_ssim_parms_8x8_sse2

@@ -1,12 +1,5 @@
 #
 include
-<
-tmmintrin
-.
-h
->
-#
-include
 "
 config
 /
@@ -14,6 +7,16 @@ av1_rtcd
 .
 h
 "
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
+#
+include
+<
+tmmintrin
+.
+h
+>
 #
 include
 "
@@ -814,3 +817,5 @@ w
 }
 }
 }
+#
+endif

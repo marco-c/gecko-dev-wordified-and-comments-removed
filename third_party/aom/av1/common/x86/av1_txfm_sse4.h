@@ -71,6 +71,7 @@ INLINE
 void
 av1_round_shift_array_32_sse4_1
 (
+const
 __m128i
 *
 input
@@ -169,6 +170,7 @@ INLINE
 void
 av1_round_shift_rect_array_32_sse4_1
 (
+const
 __m128i
 *
 input

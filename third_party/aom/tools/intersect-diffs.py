@@ -401,9 +401,11 @@ out_hunks
 :
         
 print
+(
 FormatDiffHunks
 (
 out_hunks
+)
 )
         
 sys

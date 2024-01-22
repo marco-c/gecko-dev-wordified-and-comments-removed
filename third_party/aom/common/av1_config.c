@@ -1335,7 +1335,7 @@ frame_height_bits_minus_1
 1
 )
 ;
-int
+uint8_t
 frame_id_numbers_present
 =
 0
@@ -1427,7 +1427,7 @@ enable_order_hint
 {
 AV1C_READ_BIT_OR_RETURN_ERROR
 (
-enable_jnt_comp
+enable_dist_wtd_comp
 )
 ;
 AV1C_READ_BIT_OR_RETURN_ERROR

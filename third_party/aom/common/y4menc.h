@@ -44,7 +44,7 @@ endif
 #
 define
 Y4M_BUFFER_SIZE
-128
+256
 int
 y4m_write_file_header
 (
@@ -71,6 +71,8 @@ fmt
 unsigned
 int
 bit_depth
+aom_color_range_t
+range
 )
 ;
 int

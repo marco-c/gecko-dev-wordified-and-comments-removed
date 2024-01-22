@@ -392,6 +392,10 @@ output_file
 {
 devnull
 }
+|
+|
+return
+1
 [
 -
 e
@@ -591,6 +595,10 @@ file
 -
 -
 ivf
+|
+|
+return
+1
 fi
 decode_to_md5
 "

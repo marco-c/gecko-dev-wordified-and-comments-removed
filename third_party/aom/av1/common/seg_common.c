@@ -65,6 +65,7 @@ SEG_LVL_MAX
 1
 0
 0
+0
 }
 ;
 static
@@ -82,6 +83,7 @@ MAX_LOOP_FILTER
 MAX_LOOP_FILTER
 MAX_LOOP_FILTER
 7
+0
 0
 }
 ;
@@ -112,7 +114,7 @@ feature_mask
 ;
 }
 void
-calculate_segdata
+av1_calculate_segdata
 (
 struct
 segmentation

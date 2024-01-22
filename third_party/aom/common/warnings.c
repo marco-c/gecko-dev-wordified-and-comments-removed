@@ -455,8 +455,12 @@ next_warning
 num_warnings
 )
 {
-warn
+aom_tools_warn
 (
+"
+%
+s
+"
 warning
 -
 >

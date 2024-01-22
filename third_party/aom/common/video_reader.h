@@ -97,6 +97,16 @@ AvxVideoReader
 reader
 )
 ;
+void
+aom_video_reader_set_fourcc
+(
+AvxVideoReader
+*
+reader
+uint32_t
+fourcc
+)
+;
 #
 ifdef
 __cplusplus

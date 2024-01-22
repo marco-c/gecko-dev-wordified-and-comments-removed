@@ -438,10 +438,6 @@ decoder
 features
 include
 :
--
-\
-ref
-usage_cb
 \
 endif
 \
@@ -594,16 +590,6 @@ aom_codec_enc_init
 (
 calls
 aom_codec_enc_init_ver
-(
-)
-)
-\
-li
-#
-aom_codec_enc_init_multi
-(
-calls
-aom_codec_enc_init_multi_ver
 (
 )
 )

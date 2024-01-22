@@ -393,10 +393,14 @@ value
 }
 }
 }
+GTEST_ASSERT_GE
+(
 aom_stop_encode
 (
 &
 bw
+)
+0
 )
 ;
 aom_reader

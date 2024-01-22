@@ -383,6 +383,10 @@ drop_mode
 {
 devnull
 }
+|
+|
+return
+1
 [
 -
 e
@@ -475,6 +479,10 @@ file
 -
 -
 ivf
+|
+|
+return
+1
 fi
 #
 Drop
@@ -497,6 +505,10 @@ av1
 -
 4
 "
+|
+|
+return
+1
 #
 Test
 pattern
@@ -523,6 +535,10 @@ av1
 /
 4
 "
+|
+|
+return
+1
 fi
 }
 #

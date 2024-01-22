@@ -28,7 +28,7 @@ av1_txfm
 h
 "
 void
-av1_idct4_new
+av1_idct4
 (
 const
 int32_t
@@ -378,7 +378,7 @@ stage
 ;
 }
 void
-av1_idct8_new
+av1_idct8
 (
 const
 int32_t
@@ -1300,7 +1300,7 @@ stage
 ;
 }
 void
-av1_idct16_new
+av1_idct16
 (
 const
 int32_t
@@ -3644,7 +3644,7 @@ stage
 ;
 }
 void
-av1_idct32_new
+av1_idct32
 (
 const
 int32_t
@@ -9436,7 +9436,7 @@ stage
 ;
 }
 void
-av1_iadst4_new
+av1_iadst4
 (
 const
 int32_t
@@ -9921,7 +9921,7 @@ bit
 ;
 }
 void
-av1_iadst8_new
+av1_iadst8
 (
 const
 int32_t
@@ -11054,10 +11054,6 @@ stage_range
 stage
 ]
 )
-;
-stage
-+
-+
 ;
 bf0
 =
@@ -11153,7 +11149,7 @@ bf0
 ;
 }
 void
-av1_iadst16_new
+av1_iadst16
 (
 const
 int32_t
@@ -13914,10 +13910,6 @@ stage_range
 stage
 ]
 )
-;
-stage
-+
-+
 ;
 bf0
 =
@@ -14381,7 +14373,7 @@ i
 ;
 }
 void
-av1_idct64_new
+av1_idct64
 (
 const
 int32_t

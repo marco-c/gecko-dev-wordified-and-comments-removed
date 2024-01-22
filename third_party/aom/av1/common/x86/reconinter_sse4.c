@@ -41,6 +41,15 @@ blockd
 .
 h
 "
+#
+include
+"
+config
+/
+av1_rtcd
+.
+h
+"
 static
 INLINE
 __m128i
@@ -160,7 +169,7 @@ _mm_cvtsi32_si128
 (
 *
 (
-uint32_t
+int
 *
 )
 src0
@@ -174,7 +183,7 @@ _mm_cvtsi32_si128
 (
 *
 (
-uint32_t
+int
 *
 )
 (
@@ -211,7 +220,7 @@ _mm_cvtsi32_si128
 (
 *
 (
-uint32_t
+int
 *
 )
 src1
@@ -225,7 +234,7 @@ _mm_cvtsi32_si128
 (
 *
 (
-uint32_t
+int
 *
 )
 (
@@ -277,7 +286,7 @@ m16
 ;
 *
 (
-uint32_t
+int
 *
 )
 mask
@@ -289,7 +298,7 @@ m8
 ;
 *
 (
-uint32_t
+int
 *
 )
 (
@@ -1018,7 +1027,7 @@ else
 {
 *
 (
-uint32_t
+int
 *
 )
 dst

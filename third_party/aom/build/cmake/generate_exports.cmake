@@ -123,6 +123,11 @@ VERSION
 .
 5
 )
+#
+CMAKE_SHARED_LIBRARY_PREFIX
+can
+be
+empty
 set
 (
 REQUIRED_ARGS
@@ -234,8 +239,6 @@ Windows
 |
 MSYS
 "
-AND
-AOM_MSVC
 )
 file
 (
@@ -247,6 +250,9 @@ AOM_SYM_FILE
 "
 "
 LIBRARY
+{
+CMAKE_SHARED_LIBRARY_PREFIX
+}
 aom
 \
 n
@@ -314,8 +320,6 @@ Windows
 |
 MSYS
 "
-AND
-AOM_MSVC
 )
 file
 (
@@ -327,6 +331,9 @@ aom_sym_file
 "
 "
 LIBRARY
+{
+CMAKE_SHARED_LIBRARY_PREFIX
+}
 aom
 \
 n
@@ -434,8 +441,6 @@ Windows
 |
 MSYS
 "
-AND
-AOM_MSVC
 )
 string
 (

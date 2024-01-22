@@ -83,12 +83,10 @@ struct
 {
 char
 *
-(
 strs
 [
 MAX_SYMBOL_TYPES
 ]
-)
 ;
 int
 num_strs

@@ -113,7 +113,8 @@ v_zext_q
 =
 yy_set1_64_from_32i
 (
-0xffffffff
+~
+0
 )
 ;
 __m256i
@@ -366,7 +367,7 @@ v_acc_q_1
 ;
 #
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 csse
 =
 (
@@ -399,7 +400,7 @@ WEDGE_WEIGHT_BITS
 )
 ;
 }
-int
+int8_t
 av1_wedge_sign_from_residuals_avx2
 (
 const
@@ -757,12 +758,9 @@ v_acc_q_1
 ;
 #
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 acc
 =
-(
-uint64_t
-)
 _mm_extract_epi64
 (
 v_acc_q_0
@@ -810,6 +808,9 @@ v_neg_w
 =
 _mm256_set1_epi32
 (
+(
+int
+)
 0xffff0001
 )
 ;

@@ -254,7 +254,7 @@ fpf
 \
 -
 -
-best
+good
 \
 -
 -
@@ -404,14 +404,6 @@ maxframes
 arnr
 -
 strength
-=
-3
-\
--
--
-arnr
--
-type
 =
 3
 else
@@ -461,7 +453,7 @@ fpf
 \
 -
 -
-best
+good
 \
 -
 -
@@ -603,7 +595,7 @@ fpf
 \
 -
 -
-best
+good
 \
 -
 -
@@ -753,14 +745,6 @@ maxframes
 arnr
 -
 strength
-=
-3
-\
--
--
-arnr
--
-type
 =
 3
 fi

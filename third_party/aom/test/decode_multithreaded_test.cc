@@ -382,11 +382,11 @@ AV1_SET_DECODE_TILE_COL
 }
 }
 }
-virtual
 ~
 AV1DecodeMultiThreadedTest
 (
 )
+override
 {
 delete
 single_thread_dec_
@@ -413,17 +413,13 @@ i
 ]
 ;
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 InitializeConfig
-(
-)
-;
-SetMode
 (
 libaom_test
 :
@@ -432,7 +428,6 @@ kTwoPassGood
 )
 ;
 }
-virtual
 void
 PreEncodeFrameHook
 (
@@ -449,6 +444,7 @@ Encoder
 *
 encoder
 )
+override
 {
 if
 (
@@ -460,7 +456,7 @@ frame
 )
 =
 =
-1
+0
 )
 {
 encoder
@@ -604,7 +600,6 @@ img
 )
 ;
 }
-virtual
 void
 FramePktHook
 (
@@ -613,6 +608,7 @@ aom_codec_cx_pkt_t
 *
 pkt
 )
+override
 {
 UpdateMD5
 (
@@ -710,7 +706,7 @@ timebase
 .
 num
 0
-5
+2
 )
 ;
 ASSERT_NO_FATAL_FAILURE
@@ -944,7 +940,7 @@ DoTest
 )
 ;
 }
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 AV1DecodeMultiThreadedTest
 :
@@ -997,7 +993,7 @@ Values
 )
 )
 ;
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 AV1DecodeMultiThreadedTestLarge
 :
@@ -1116,7 +1112,7 @@ DoTest
 )
 ;
 }
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 AV1DecodeMultiThreadedLSTestLarge
 :

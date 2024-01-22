@@ -74,7 +74,7 @@ decoder
 )
 iter_
 (
-NULL
+nullptr
 )
 {
 }
@@ -277,7 +277,7 @@ const
 aom_codec_err_t
 res
 =
-aom_codec_control_
+aom_codec_control
 (
 &
 decoder_
@@ -316,7 +316,7 @@ const
 aom_codec_err_t
 res
 =
-aom_codec_control_
+aom_codec_control
 (
 &
 decoder_
@@ -649,8 +649,9 @@ virtual
 DecoderTest
 (
 )
-{
-}
+=
+default
+;
 const
 CodecFactory
 *

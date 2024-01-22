@@ -41,13 +41,9 @@ AV1Decoder
 *
 const
 pbi
-MACROBLOCKD
+DecoderCodingBlock
 *
-xd
-int
-mi_row
-int
-mi_col
+dcb
 aom_reader
 *
 r

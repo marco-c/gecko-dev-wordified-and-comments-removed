@@ -218,6 +218,9 @@ j
 }
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 aom_highbd_blend_a64_vmask_c
 (
@@ -442,3 +445,5 @@ j
 }
 }
 }
+#
+endif

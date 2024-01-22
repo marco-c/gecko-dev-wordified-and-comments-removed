@@ -359,6 +359,10 @@ output_file
 {
 devnull
 }
+|
+|
+return
+1
 [
 -
 e

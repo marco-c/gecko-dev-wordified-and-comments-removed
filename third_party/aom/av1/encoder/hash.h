@@ -72,9 +72,9 @@ truncPoly
 uint32_t
 av1_get_crc_value
 (
-void
+CRC_CALCULATOR
 *
-crc_calculator
+p_crc_calculator
 uint8_t
 *
 p

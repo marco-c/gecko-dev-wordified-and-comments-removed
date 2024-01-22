@@ -31,6 +31,7 @@ h
 void
 av1_rtcd
 (
+void
 )
 {
 aom_once

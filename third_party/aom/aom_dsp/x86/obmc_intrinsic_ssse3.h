@@ -75,7 +75,7 @@ v_q
 ;
 #
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 return
 _mm_cvtsi128_si64
 (

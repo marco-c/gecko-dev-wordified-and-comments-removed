@@ -20,7 +20,7 @@ char
 byte
 ;
 int
-fast9_corner_score
+aom_fast9_corner_score
 (
 const
 byte
@@ -37,7 +37,7 @@ bstart
 ;
 xy
 *
-fast9_detect
+aom_fast9_detect
 (
 const
 byte
@@ -58,7 +58,7 @@ ret_num_corners
 ;
 int
 *
-fast9_score
+aom_fast9_score
 (
 const
 byte
@@ -66,6 +66,7 @@ byte
 i
 int
 stride
+const
 xy
 *
 corners
@@ -77,7 +78,7 @@ b
 ;
 xy
 *
-fast9_detect_nonmax
+aom_fast9_detect_nonmax
 (
 const
 byte
@@ -93,12 +94,16 @@ int
 b
 int
 *
+*
+ret_scores
+int
+*
 ret_num_corners
 )
 ;
 xy
 *
-nonmax_suppression
+aom_nonmax_suppression
 (
 const
 xy
@@ -110,6 +115,10 @@ int
 scores
 int
 num_corners
+int
+*
+*
+ret_scores
 int
 *
 ret_num_nonmax

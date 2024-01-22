@@ -74,15 +74,6 @@ mem
 .
 h
 "
-#
-include
-"
-aom_ports
-/
-system_state
-.
-h
-"
 static
 int
 horizontal_filter
@@ -636,10 +627,6 @@ blockiness
 int
 i
 j
-;
-aom_clear_system_state
-(
-)
 ;
 for
 (

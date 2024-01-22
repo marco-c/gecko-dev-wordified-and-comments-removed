@@ -24,6 +24,15 @@ h
 #
 include
 "
+config
+/
+aom_dsp_rtcd
+.
+h
+"
+#
+include
+"
 aom_ports
 /
 mem
@@ -946,6 +955,9 @@ OBMC_SUBPIX_VAR
 64
 16
 )
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 static
 INLINE
 void
@@ -1514,7 +1526,7 @@ v_sse_d
 static
 INLINE
 void
-highbd_obmc_variance
+highbd_8_obmc_variance
 (
 const
 uint8_t
@@ -1996,7 +2008,7 @@ H
 \
 unsigned
 int
-aom_highbd_obmc_variance
+aom_highbd_8_obmc_variance
 #
 #
 W
@@ -2037,7 +2049,7 @@ int
 sum
 ;
 \
-highbd_obmc_variance
+highbd_8_obmc_variance
 (
 pre
 pre_stride
@@ -2404,3 +2416,5 @@ HBD_OBMCVARWXH
 64
 16
 )
+#
+endif

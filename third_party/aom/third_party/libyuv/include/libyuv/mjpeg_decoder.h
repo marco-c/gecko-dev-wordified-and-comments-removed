@@ -42,7 +42,7 @@ LIBYUV_BOOL
 ValidateJpeg
 (
 const
-uint8
+uint8_t
 *
 sample
 size_t
@@ -57,7 +57,7 @@ __cplusplus
 endif
 static
 const
-uint32
+uint32_t
 kUnknownDataSize
 =
 0xFFFFFFFF
@@ -67,7 +67,6 @@ JpegSubsamplingType
 {
 kJpegYuv420
 kJpegYuv422
-kJpegYuv411
 kJpegYuv444
 kJpegYuv400
 kJpegUnknown
@@ -77,7 +76,7 @@ struct
 Buffer
 {
 const
-uint8
+uint8_t
 *
 data
 ;
@@ -121,7 +120,7 @@ void
 *
 opaque
 const
-uint8
+uint8_t
 *
 const
 *
@@ -177,7 +176,7 @@ LIBYUV_BOOL
 LoadFrame
 (
 const
-uint8
+uint8_t
 *
 src
 size_t
@@ -280,7 +279,7 @@ UnloadFrame
 LIBYUV_BOOL
 DecodeToBuffers
 (
-uint8
+uint8_t
 *
 *
 planes
@@ -345,7 +344,7 @@ FinishDecode
 void
 SetScanlinePointers
 (
-uint8
+uint8_t
 *
 *
 data
@@ -387,7 +386,7 @@ has_scanline_padding_
 int
 num_outbufs_
 ;
-uint8
+uint8_t
 *
 *
 *
@@ -397,7 +396,7 @@ int
 *
 scanlines_sizes_
 ;
-uint8
+uint8_t
 *
 *
 databuf_

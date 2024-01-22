@@ -665,6 +665,9 @@ h
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 static
 INLINE
 void
@@ -1369,3 +1372,5 @@ h
 ;
 }
 }
+#
+endif

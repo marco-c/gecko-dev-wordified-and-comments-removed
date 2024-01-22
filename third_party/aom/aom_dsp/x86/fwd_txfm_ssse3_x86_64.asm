@@ -332,7 +332,7 @@ SECTION
 text
 %
 if
-ARCH_X86_64
+AOM_ARCH_X86_64
 INIT_XMM
 ssse3
 cglobal

@@ -1288,7 +1288,7 @@ const
 params
 =
 &
-sgr_params
+av1_sgr_params
 [
 sgr_params_idx
 ]
@@ -1346,7 +1346,7 @@ one_over_n
 =
 _mm256_set1_epi32
 (
-one_by_x
+av1_one_by_x
 [
 n
 -
@@ -1380,8 +1380,10 @@ _mm_set_epi32
 (
 0
 0
-0xffffffff
-0xffffffff
+~
+0
+~
+0
 )
 ;
 __m256i
@@ -1615,7 +1617,7 @@ a_res
 =
 _mm256_i32gather_epi32
 (
-x_by_xplus1
+av1_x_by_xplus1
 z
 4
 )
@@ -2126,7 +2128,7 @@ const
 params
 =
 &
-sgr_params
+av1_sgr_params
 [
 sgr_params_idx
 ]
@@ -2184,7 +2186,7 @@ one_over_n
 =
 _mm256_set1_epi32
 (
-one_by_x
+av1_one_by_x
 [
 n
 -
@@ -2218,8 +2220,10 @@ _mm_set_epi32
 (
 0
 0
-0xffffffff
-0xffffffff
+~
+0
+~
+0
 )
 ;
 __m256i
@@ -2454,7 +2458,7 @@ a_res
 =
 _mm256_i32gather_epi32
 (
-x_by_xplus1
+av1_x_by_xplus1
 z
 4
 )
@@ -3425,7 +3429,7 @@ const
 params
 =
 &
-sgr_params
+av1_sgr_params
 [
 sgr_params_idx
 ]
@@ -3586,8 +3590,8 @@ return
 0
 ;
 }
-void
-apply_selfguided_restoration_avx2
+int
+av1_apply_selfguided_restoration_avx2
 (
 const
 uint8_t
@@ -3661,16 +3665,15 @@ bit_depth
 highbd
 )
 ;
+if
 (
-void
-)
 ret
-;
-assert
-(
 !
-ret
+=
+0
 )
+return
+ret
 ;
 const
 sgr_params_type
@@ -3679,7 +3682,7 @@ const
 params
 =
 &
-sgr_params
+av1_sgr_params
 [
 eps
 ]
@@ -3690,7 +3693,7 @@ xq
 2
 ]
 ;
-decode_xq
+av1_decode_xq
 (
 xqd
 xq
@@ -4211,4 +4214,7 @@ res2
 }
 }
 }
+return
+0
+;
 }

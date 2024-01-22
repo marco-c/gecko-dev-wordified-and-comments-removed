@@ -63,7 +63,6 @@ MV_UPDATE_PROB
 define
 MV_JOINTS
 4
-typedef
 enum
 {
 MV_JOINT_ZERO
@@ -79,7 +78,10 @@ MV_JOINT_HNZVNZ
 =
 3
 }
+UENUM1BYTE
+(
 MV_JOINT_TYPE
+)
 ;
 static
 INLINE
@@ -129,7 +131,6 @@ MV_JOINT_HNZVNZ
 define
 MV_CLASSES
 11
-typedef
 enum
 {
 MV_CLASS_0
@@ -166,7 +167,10 @@ MV_CLASS_10
 =
 10
 }
+UENUM1BYTE
+(
 MV_CLASS_TYPE
+)
 ;
 #
 define
@@ -376,7 +380,6 @@ comps
 }
 nmv_context
 ;
-typedef
 enum
 {
 MV_SUBPEL_NONE
@@ -388,7 +391,10 @@ MV_SUBPEL_LOW_PRECISION
 0
 MV_SUBPEL_HIGH_PRECISION
 }
+SENUM1BYTE
+(
 MvSubpelPrecision
+)
 ;
 #
 ifdef

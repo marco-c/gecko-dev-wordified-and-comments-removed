@@ -19,7 +19,7 @@ include
 "
 aom_dsp
 /
-grain_synthesis
+grain_params
 .
 h
 "

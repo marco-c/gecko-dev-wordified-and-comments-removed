@@ -17,7 +17,7 @@ include
 "
 config
 /
-aom_dsp_rtcd
+av1_rtcd
 .
 h
 "
@@ -103,7 +103,7 @@ w
 int
 h
 const
-ConvolveParams
+WienerConvolveParams
 *
 conv_params
 int

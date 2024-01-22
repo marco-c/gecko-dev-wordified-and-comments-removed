@@ -501,7 +501,7 @@ av1_get_block_dimensions
 mbmi
 -
 >
-sb_type
+bsize
 plane
 xd
 &

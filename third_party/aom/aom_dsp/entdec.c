@@ -372,13 +372,6 @@ cnt
 -
 15
 ;
-dec
--
->
-error
-=
-0
-;
 od_ec_dec_refill
 (
 dec
@@ -654,8 +647,6 @@ assert
 7
 -
 EC_PROB_SHIFT
--
-CDF_SHIFT
 >
 =
 0
@@ -722,8 +713,6 @@ EC_PROB_SHIFT
 7
 -
 EC_PROB_SHIFT
--
-CDF_SHIFT
 )
 )
 ;

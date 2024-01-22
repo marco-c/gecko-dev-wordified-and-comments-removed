@@ -62,7 +62,7 @@ block_frame_index
 int
 video_track_index
 ;
-uint64_t
+int64_t
 timestamp_ns
 ;
 int

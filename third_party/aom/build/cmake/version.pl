@@ -522,6 +522,13 @@ git_desc
 2
 )
 ;
+if
+(
+git_desc_components
+>
+1
+)
+{
 version_extra
 =
 git_desc_components
@@ -529,6 +536,7 @@ git_desc_components
 1
 ]
 ;
+}
 }
 open
 (

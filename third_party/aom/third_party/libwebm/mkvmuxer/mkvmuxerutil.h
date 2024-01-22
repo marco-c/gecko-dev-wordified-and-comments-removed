@@ -55,6 +55,16 @@ size
 )
 ;
 int32
+SerializeFloat
+(
+IMkvWriter
+*
+writer
+float
+f
+)
+;
+int32
 GetUIntSize
 (
 uint64

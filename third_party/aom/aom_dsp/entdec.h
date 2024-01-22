@@ -117,9 +117,6 @@ rng
 int16_t
 cnt
 ;
-int
-error
-;
 }
 ;
 void

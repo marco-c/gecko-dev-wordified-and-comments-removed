@@ -13,6 +13,15 @@ smmintrin
 h
 >
 #
+include
+"
+config
+/
+av1_rtcd
+.
+h
+"
+#
 define
 ALIGN_SIZE
 8
@@ -173,7 +182,6 @@ uint64_t
 buf
 len
 )
-;
 crc
 =
 (
@@ -191,7 +199,6 @@ uint32_t
 buf
 len
 )
-;
 CALC_CRC
 (
 _mm_crc32_u16
@@ -200,7 +207,6 @@ uint16_t
 buf
 len
 )
-;
 CALC_CRC
 (
 _mm_crc32_u8
@@ -209,12 +215,10 @@ uint8_t
 buf
 len
 )
-;
 return
 (
 crc
 ^
-=
 0xFFFFFFFF
 )
 ;

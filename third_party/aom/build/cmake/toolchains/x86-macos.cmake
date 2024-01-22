@@ -139,7 +139,7 @@ i386
 )
 set
 (
-CMAKE_C_COMPILER_ARG1
+CMAKE_C_FLAGS_INIT
 "
 -
 arch
@@ -148,7 +148,16 @@ i386
 )
 set
 (
-CMAKE_CXX_COMPILER_ARG1
+CMAKE_CXX_FLAGS_INIT
+"
+-
+arch
+i386
+"
+)
+set
+(
+CMAKE_EXE_LINKER_FLAGS_INIT
 "
 -
 arch
@@ -172,7 +181,7 @@ set
 CONFIG_PIC
 1
 CACHE
-NUMBER
+STRING
 "
 "
 )

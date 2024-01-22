@@ -31,6 +31,7 @@ h
 void
 aom_dsp_rtcd
 (
+void
 )
 {
 aom_once

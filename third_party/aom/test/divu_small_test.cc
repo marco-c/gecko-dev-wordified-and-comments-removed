@@ -36,9 +36,7 @@ h
 #
 include
 "
-av1
-/
-common
+aom_dsp
 /
 odintrin
 .
@@ -52,7 +50,7 @@ ACMRandom
 ;
 TEST
 (
-Daala
+DivuSmallTest
 TestDIVUuptoMAX
 )
 {
@@ -153,7 +151,7 @@ d
 }
 TEST
 (
-Daala
+DivuSmallTest
 TestDIVUrandI31
 )
 {

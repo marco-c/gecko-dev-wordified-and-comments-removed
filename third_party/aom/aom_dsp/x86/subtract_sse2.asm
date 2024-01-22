@@ -238,7 +238,7 @@ srcq
 %
 2
 ]
-mova
+movu
 m1
 [
 predq
@@ -246,7 +246,7 @@ predq
 %
 3
 ]
-mova
+movu
 m5
 [
 predq
@@ -757,4 +757,5 @@ rowsd
 jg
 .
 loop_4
+emms
 RET

@@ -153,7 +153,7 @@ BR_CDF_SIZE
 #
 define
 COEFF_CONTEXT_BITS
-6
+3
 #
 define
 COEFF_CONTEXT_MASK
@@ -181,9 +181,7 @@ NUM_BASE_LEVELS
 define
 BASE_CONTEXT_POSITION_NUM
 12
-typedef
 enum
-TX_CLASS
 {
 TX_CLASS_2D
 =
@@ -198,7 +196,10 @@ TX_CLASSES
 =
 3
 }
+UENUM1BYTE
+(
 TX_CLASS
+)
 ;
 #
 define
@@ -246,6 +247,15 @@ struct
 AV1Common
 *
 cm
+)
+;
+void
+av1_init_mode_probs
+(
+struct
+frame_contexts
+*
+fc
 )
 ;
 struct

@@ -194,7 +194,7 @@ set
 (
 AOM_TEST_DATA_URL
 "
-http
+https
 :
 /
 /

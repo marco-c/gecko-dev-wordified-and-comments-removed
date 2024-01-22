@@ -1,5 +1,12 @@
 #
 include
+<
+stdlib
+.
+h
+>
+#
+include
 "
 config
 /
@@ -125,6 +132,9 @@ return
 sse
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 int64_t
 aom_highbd_sse_c
 (
@@ -250,3 +260,5 @@ return
 sse
 ;
 }
+#
+endif

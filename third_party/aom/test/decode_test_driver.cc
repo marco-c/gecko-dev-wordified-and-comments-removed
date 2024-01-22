@@ -117,7 +117,7 @@ DecodeFrame
 (
 cxdata
 size
-NULL
+nullptr
 )
 ;
 }
@@ -264,12 +264,10 @@ dec_cfg
 flags_
 )
 ;
-ASSERT_TRUE
+ASSERT_NE
 (
 decoder
-!
-=
-NULL
+nullptr
 )
 ;
 bool
@@ -342,7 +340,7 @@ cxdata
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -450,7 +448,7 @@ decoder
 >
 DecodeFrame
 (
-NULL
+nullptr
 0
 )
 ;
@@ -488,7 +486,7 @@ aom_image_t
 *
 img
 =
-NULL
+nullptr
 ;
 while
 (

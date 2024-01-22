@@ -54,11 +54,11 @@ operating_point_idc
 unsigned
 int
 *
-num_spatial_layers
+number_spatial_layers
 unsigned
 int
 *
-num_temporal_layers
+number_temporal_layers
 )
 ;
 #
