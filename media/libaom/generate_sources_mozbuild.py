@@ -108,7 +108,10 @@ startswith
 CMAKE
 '
 '
-AOM
+AOM_C
+'
+'
+AOM_RTCD
 '
 )
 )
@@ -895,6 +898,8 @@ generate_sources
             
 sources
 =
+list
+(
 filter
 (
 lambda
@@ -908,9 +913,12 @@ AOM_DIR
 )
 sources
 )
+)
             
 sources
 =
+list
+(
 filter
 (
 lambda
@@ -928,9 +936,12 @@ pl
 )
 sources
 )
+)
             
 exports
 =
+list
+(
 filter
 (
 lambda
@@ -967,9 +978,12 @@ x
 )
 sources
 )
+)
             
 exports
 =
+list
+(
 filter
 (
 lambda
@@ -991,9 +1005,12 @@ x
 )
 exports
 )
+)
             
 exports
 =
+list
+(
 filter
 (
 lambda
@@ -1027,6 +1044,7 @@ x
 )
 exports
 )
+)
             
 sources
 =
@@ -1041,6 +1059,12 @@ in
 exports
 :
                 
+if
+export
+in
+sources
+:
+                    
 sources
 .
 remove
@@ -1065,6 +1089,29 @@ endswith
 '
 .
 h
+'
+)
+sources
+)
+)
+            
+sources
+=
+sorted
+(
+filter
+(
+lambda
+x
+:
+not
+x
+.
+endswith
+(
+'
+.
+inc
 '
 )
 sources
