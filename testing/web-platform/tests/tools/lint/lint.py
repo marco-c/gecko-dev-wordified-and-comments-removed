@@ -4837,6 +4837,12 @@ endswith
 (
 "
 .
+window
+.
+js
+"
+"
+.
 worker
 .
 js
@@ -4896,12 +4902,13 @@ errors
 ]
     
 for
-idx
+line_no
 line
 in
 enumerate
 (
 f
+1
 )
 :
         
@@ -4965,9 +4972,7 @@ error
 (
 path
 context
-idx
-+
-1
+line_no
 )
 )
             
@@ -5005,9 +5010,7 @@ path
                                                                      
 line_no
 =
-idx
-+
-1
+line_no
 )
 )
             
@@ -5063,9 +5066,81 @@ path
 (
 value
 )
-idx
-+
-1
+line_no
+)
+)
+            
+elif
+key
+=
+=
+b
+"
+script
+"
+:
+                
+if
+value
+=
+=
+b
+"
+/
+resources
+/
+testharness
+.
+js
+"
+:
+                    
+errors
+.
+append
+(
+rules
+.
+MultipleTestharness
+.
+error
+(
+path
+line_no
+=
+line_no
+)
+)
+                
+elif
+value
+=
+=
+b
+"
+/
+resources
+/
+testharnessreport
+.
+js
+"
+:
+                    
+errors
+.
+append
+(
+rules
+.
+MultipleTestharnessReport
+.
+error
+(
+path
+line_no
+=
+line_no
 )
 )
             
@@ -5077,10 +5152,6 @@ in
 b
 "
 title
-"
-b
-"
-script
 "
 b
 "
@@ -5100,12 +5171,9 @@ UnknownMetadata
 error
 (
 path
-                                                          
 line_no
 =
-idx
-+
-1
+line_no
 )
 )
         
@@ -5142,9 +5210,7 @@ error
 path
 line_no
 =
-idx
-+
-1
+line_no
 )
 )
             
@@ -5168,12 +5234,9 @@ IndentedMetadata
 error
 (
 path
-                                                           
 line_no
 =
-idx
-+
-1
+line_no
 )
 )
             
@@ -5199,9 +5262,7 @@ error
 path
 line_no
 =
-idx
-+
-1
+line_no
 )
 )
     
