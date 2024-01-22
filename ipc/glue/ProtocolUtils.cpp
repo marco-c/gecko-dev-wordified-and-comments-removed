@@ -3046,7 +3046,7 @@ Side
 aSide
 )
 :
-IProtocol
+IRefCountedProtocol
 (
 aProtoId
 aSide
