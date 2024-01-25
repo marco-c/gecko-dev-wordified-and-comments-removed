@@ -92,7 +92,7 @@ Srtp
 bool
 enable_gcm_crypto_suites
 =
-false
+true
 ;
 bool
 enable_aes128_sha1_32_crypto_cipher

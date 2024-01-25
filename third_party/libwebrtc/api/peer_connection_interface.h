@@ -3796,12 +3796,8 @@ SSL_PROTOCOL_DTLS_12
 CryptoOptions
 crypto_options
 =
-CryptoOptions
-:
-:
-NoGcm
-(
-)
+{
+}
 ;
 }
 ;
