@@ -3908,13 +3908,13 @@ None
 mozilla
 :
 :
-StyleTextWrap
-mTextWrap
+StyleTextWrapStyle
+mTextWrapStyle
 =
 mozilla
 :
 :
-StyleTextWrap
+StyleTextWrapStyle
 :
 :
 Auto
