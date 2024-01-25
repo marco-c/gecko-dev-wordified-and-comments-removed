@@ -84,6 +84,8 @@ runInPage
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage
@@ -166,6 +168,8 @@ runInPage
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage
@@ -232,6 +236,8 @@ runInPage
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage
@@ -362,6 +368,8 @@ runInPage
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage
@@ -444,6 +452,8 @@ runInPage
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage
@@ -510,6 +520,8 @@ runInPage
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage
