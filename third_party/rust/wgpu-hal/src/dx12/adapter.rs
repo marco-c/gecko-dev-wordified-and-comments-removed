@@ -3268,9 +3268,9 @@ TextureFormat
 :
 Rgba16Float
 ]
-swap_chain_sizes
+maximum_frame_latency
 :
-2
+1
 .
 .
 =

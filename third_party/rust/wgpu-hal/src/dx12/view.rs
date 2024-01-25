@@ -252,6 +252,16 @@ crate
 FormatAspects
 :
 :
+STENCIL
+=
+>
+1
+crate
+:
+:
+FormatAspects
+:
+:
 PLANE_1
 =
 >

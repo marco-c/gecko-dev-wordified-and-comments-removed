@@ -1538,9 +1538,11 @@ set_maximum_drawable_count
 (
 config
 .
-swap_chain_size
+maximum_frame_latency
 as
-_
+u64
++
+1
 )
 ;
 render_layer

@@ -214,10 +214,10 @@ VertexBeyondLimit
 {
 last_vertex
 :
-u32
+u64
 vertex_limit
 :
-u32
+u64
 slot
 :
 u32
@@ -266,10 +266,10 @@ InstanceBeyondLimit
 {
 last_instance
 :
-u32
+u64
 instance_limit
 :
-u32
+u64
 slot
 :
 u32
@@ -305,10 +305,10 @@ IndexBeyondLimit
 {
 last_index
 :
-u32
+u64
 index_limit
 :
-u32
+u64
 }
 #
 [
@@ -1233,7 +1233,7 @@ index
 u32
 num_dynamic_offsets
 :
-u8
+usize
 bind_group_id
 :
 id

@@ -3796,7 +3796,9 @@ min_image_count
 (
 config
 .
-swap_chain_size
+maximum_frame_latency
++
+1
 )
 .
 image_format

@@ -292,7 +292,7 @@ index
 u32
 num_dynamic_offsets
 :
-u8
+usize
 bind_group_id
 :
 id
@@ -2838,11 +2838,7 @@ dynamic_offset_count
 .
 dynamic_offset_count
 +
-(
 num_dynamic_offsets
-as
-usize
-)
 ]
 )
 ;
@@ -2850,8 +2846,6 @@ dynamic_offset_count
 +
 =
 num_dynamic_offsets
-as
-usize
 ;
 let
 bind_group
@@ -4595,14 +4589,6 @@ index
 num_dynamic_offsets
 :
 offset_length
-.
-try_into
-(
-)
-.
-unwrap
-(
-)
 bind_group_id
 }
 )
