@@ -12976,10 +12976,11 @@ OnSetLocalDescriptionComplete
 (
 RTCError
 (
-RTCErrorType
-:
-:
-INTERNAL_ERROR
+error
+.
+type
+(
+)
 std
 :
 :
