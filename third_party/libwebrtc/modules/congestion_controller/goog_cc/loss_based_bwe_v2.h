@@ -470,11 +470,6 @@ Zero
 )
 ;
 bool
-use_acked_bitrate_only_when_overusing
-=
-false
-;
-bool
 not_increase_if_inherent_loss_less_than_average_loss
 =
 false
