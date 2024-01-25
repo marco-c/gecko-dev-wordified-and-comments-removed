@@ -26,7 +26,7 @@ Win32
 System
 :
 :
-WindowsProgramming
+IO
 :
 :
 IO_STATUS_BLOCK
@@ -51,12 +51,10 @@ Win32
 System
 :
 :
-WindowsProgramming
+IO
 :
 :
-{
 IO_STATUS_BLOCK_0
-}
 ;
 impl
 IoStatusBlock
