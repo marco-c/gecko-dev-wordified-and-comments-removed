@@ -1045,7 +1045,9 @@ Firefox
 often
 add
 ac_add_options
+\
 -
+\
 -
 with
 -
