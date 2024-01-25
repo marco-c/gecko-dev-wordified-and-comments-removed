@@ -3424,9 +3424,9 @@ aec3_config
 .
 .
 /
-api
+modules
 /
-audio
+audio_processing
 :
 aec3_config_json
 "

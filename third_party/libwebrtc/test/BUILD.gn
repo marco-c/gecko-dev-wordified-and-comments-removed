@@ -7687,6 +7687,9 @@ call_config_utils
 "
 )
 {
+testonly
+=
+true
 #
 TODO
 (
