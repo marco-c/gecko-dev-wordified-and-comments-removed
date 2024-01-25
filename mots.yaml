@@ -11362,6 +11362,13 @@ Core
 :
 :
 SVG
+peers_emeritus
+:
+-
+Robert
+O
+'
+Callahan
 owners
 :
 -
@@ -11372,9 +11379,6 @@ peers
 -
 *
 longsonr
--
-*
-roc
 -
 *
 dholbert
