@@ -13,6 +13,11 @@ h
 >
 #
 include
+<
+string
+>
+#
+include
 "
 absl
 /
@@ -455,6 +460,15 @@ const
 HdrMetadata
 *
 hdr_metadata
+(
+)
+const
+;
+std
+:
+:
+string
+AsString
 (
 )
 const
