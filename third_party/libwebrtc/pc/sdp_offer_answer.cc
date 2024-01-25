@@ -29226,7 +29226,7 @@ void
 SdpOfferAnswerHandler
 :
 :
-DestroyAllChannels
+DestroyMediaChannels
 (
 )
 {
@@ -29349,15 +29349,6 @@ ClearChannel
 ;
 }
 }
-pc_
--
->
-DestroyDataChannelTransport
-(
-{
-}
-)
-;
 }
 void
 SdpOfferAnswerHandler

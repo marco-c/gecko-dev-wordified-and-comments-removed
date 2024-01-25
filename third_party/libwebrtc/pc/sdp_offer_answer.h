@@ -922,7 +922,7 @@ GuessSslRole
 const
 ;
 void
-DestroyAllChannels
+DestroyMediaChannels
 (
 )
 ;
