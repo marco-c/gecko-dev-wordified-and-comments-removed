@@ -941,7 +941,13 @@ StyleScrollbarWidth
 mozilla
 :
 :
-StyleWhiteSpace
+StyleWhiteSpaceCollapse
+"
+"
+mozilla
+:
+:
+StyleTextWrapMode
 "
 "
 mozilla
