@@ -159,13 +159,14 @@ found
 "
 )
 ;
-assertIsVisible
+assertVisibility
 (
-true
 {
-element
+visible
 :
+{
 label
+}
 }
 )
 ;
