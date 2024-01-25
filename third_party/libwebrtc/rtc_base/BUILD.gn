@@ -4820,6 +4820,11 @@ task_queue
 :
 pending_task_safety_flag
 "
+"
+system
+:
+rtc_export
+"
 ]
 }
 rtc_library

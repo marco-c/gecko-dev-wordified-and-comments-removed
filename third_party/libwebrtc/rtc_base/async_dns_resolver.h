@@ -52,6 +52,17 @@ include
 "
 rtc_base
 /
+system
+/
+rtc_export
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread_annotations
 .
 h
@@ -138,6 +149,7 @@ sequence_checker_
 }
 ;
 class
+RTC_EXPORT
 AsyncDnsResolver
 :
 public
