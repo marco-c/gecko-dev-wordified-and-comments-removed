@@ -98,10 +98,6 @@ allocator
 /
 partition_allocator
 /
-src
-/
-partition_alloc
-/
 build_overrides
 /
 partition_alloc
@@ -117,10 +113,6 @@ base
 allocator
 /
 partition_allocator
-/
-src
-/
-partition_alloc
 /
 build_overrides
 /

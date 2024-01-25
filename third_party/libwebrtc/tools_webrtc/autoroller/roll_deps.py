@@ -207,16 +207,6 @@ src
 /
 third_party
 /
-google
--
-truth
-'
-    
-'
-src
-/
-third_party
-/
 gtest
 -
 parallel
