@@ -7978,6 +7978,13 @@ aResults
 mFreedGCed
 >
 10000
+&
+&
+aResults
+.
+mFreedRefCounted
+>
+10000
 )
 {
 delay
