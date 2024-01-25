@@ -1051,9 +1051,6 @@ params
 :
 {
 category
-initial
-:
-true
 sessionData
 :
 Array
