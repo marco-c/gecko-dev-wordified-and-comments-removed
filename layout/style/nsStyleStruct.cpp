@@ -12093,8 +12093,6 @@ hint
 |
 =
 nsChangeHint_UpdateContainingBlock
-|
-nsChangeHint_UpdateBFC
 ;
 }
 hint
