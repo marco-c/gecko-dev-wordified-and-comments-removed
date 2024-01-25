@@ -1027,6 +1027,11 @@ aManager
 )
 ;
 void
+UnlinkManager
+(
+)
+;
+void
 SetManagerAndRegister
 (
 IRefCountedProtocol
