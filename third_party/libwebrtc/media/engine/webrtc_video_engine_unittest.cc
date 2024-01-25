@@ -260,6 +260,17 @@ api
 /
 video_codecs
 /
+video_codec
+.
+h
+"
+#
+include
+"
+api
+/
+video_codecs
+/
 video_decoder_factory
 .
 h
@@ -935,13 +946,6 @@ RtcpPacketParser
 ;
 namespace
 {
-static
-const
-int
-kDefaultQpMax
-=
-56
-;
 static
 const
 uint8_t
@@ -32939,7 +32943,7 @@ codec
 SetParam
 (
 kCodecParamMaxQuantization
-kDefaultQpMax
+kDefaultVideoMaxQpVpx
 )
 ;
 parameters
@@ -33022,7 +33026,7 @@ GetVideoStreams
 ;
 EXPECT_EQ
 (
-kDefaultQpMax
+kDefaultVideoMaxQpVpx
 streams
 [
 0
@@ -33044,7 +33048,7 @@ codec
 SetParam
 (
 kCodecParamMaxQuantization
-kDefaultQpMax
+kDefaultVideoMaxQpVpx
 +
 1
 )
@@ -33088,7 +33092,7 @@ GetVideoStreams
 ;
 EXPECT_EQ
 (
-kDefaultQpMax
+kDefaultVideoMaxQpVpx
 +
 1
 streams
@@ -66911,7 +66915,7 @@ webrtc
 :
 :
 kDefaultBitratePriority
-kDefaultQpMax
+kDefaultVideoMaxQpVpx
 screenshare
 &
 &
@@ -67031,7 +67035,7 @@ stream
 .
 max_qp
 =
-kDefaultQpMax
+kDefaultVideoMaxQpVpx
 ;
 expected_streams
 .
