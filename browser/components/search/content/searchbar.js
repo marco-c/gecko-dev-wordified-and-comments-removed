@@ -305,6 +305,11 @@ role
 "
 button
 "
+keyNav
+=
+"
+false
+"
 hidden
 =
 "
