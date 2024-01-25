@@ -33,6 +33,9 @@ send_to
 ]
 and
 related
+/
+/
+/
 functions
 .
 /
@@ -189,7 +192,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -228,6 +231,9 @@ recvfrom
 ]
 and
 related
+/
+/
+/
 functions
 .
 /
@@ -384,7 +390,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

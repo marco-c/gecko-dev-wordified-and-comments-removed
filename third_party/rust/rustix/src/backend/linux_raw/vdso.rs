@@ -858,7 +858,7 @@ d
 .
 d_un
 .
-d_val
+d_ptr
 !
 =
 size_of
@@ -869,8 +869,6 @@ Elf_Sym
 >
 (
 )
-as
-_
 {
 return
 None

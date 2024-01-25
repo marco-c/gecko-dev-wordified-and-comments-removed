@@ -29,6 +29,11 @@ redox
 target_os
 =
 "
+vita
+"
+target_os
+=
+"
 wasi
 "
 )
@@ -332,7 +337,6 @@ fuchsia
 )
 )
 ]
-pub
 use
 backend
 :
@@ -453,6 +457,11 @@ target_os
 =
 "
 redox
+"
+target_os
+=
+"
+vita
 "
 target_os
 =

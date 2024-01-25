@@ -108,7 +108,7 @@ poll
 crate
 :
 :
-io
+event
 :
 :
 poll
@@ -398,7 +398,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

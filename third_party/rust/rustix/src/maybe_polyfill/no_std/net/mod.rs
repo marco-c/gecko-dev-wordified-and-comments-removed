@@ -4,6 +4,13 @@ ip_addr
 mod
 socket_addr
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 pub
 use
 self

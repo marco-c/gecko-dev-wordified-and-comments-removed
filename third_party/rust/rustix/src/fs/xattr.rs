@@ -124,7 +124,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

@@ -286,7 +286,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -448,7 +448,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -553,7 +553,7 @@ FSOPEN_CLOEXEC
 const
 FSOPEN_CLOEXEC
 =
-0x00000001
+0x0000_0001
 ;
 /
 /
@@ -569,7 +569,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -674,7 +674,7 @@ FSMOUNT_CLOEXEC
 const
 FSMOUNT_CLOEXEC
 =
-0x00000001
+0x0000_0001
 ;
 /
 /
@@ -690,7 +690,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -863,7 +863,7 @@ MOUNT_ATTR_RDONLY
 const
 MOUNT_ATTR_RDONLY
 =
-0x00000001
+0x0000_0001
 ;
 /
 /
@@ -872,7 +872,7 @@ MOUNT_ATTR_NOSUID
 const
 MOUNT_ATTR_NOSUID
 =
-0x00000002
+0x0000_0002
 ;
 /
 /
@@ -881,7 +881,7 @@ MOUNT_ATTR_NODEV
 const
 MOUNT_ATTR_NODEV
 =
-0x00000004
+0x0000_0004
 ;
 /
 /
@@ -890,7 +890,7 @@ MOUNT_ATTR_NOEXEC
 const
 MOUNT_ATTR_NOEXEC
 =
-0x00000008
+0x0000_0008
 ;
 /
 /
@@ -899,7 +899,7 @@ MOUNT_ATTR__ATIME
 const
 MOUNT_ATTR__ATIME
 =
-0x00000070
+0x0000_0070
 ;
 /
 /
@@ -908,7 +908,7 @@ MOUNT_ATTR_RELATIME
 const
 MOUNT_ATTR_RELATIME
 =
-0x00000000
+0x0000_0000
 ;
 /
 /
@@ -917,7 +917,7 @@ MOUNT_ATTR_NOATIME
 const
 MOUNT_ATTR_NOATIME
 =
-0x00000010
+0x0000_0010
 ;
 /
 /
@@ -926,7 +926,7 @@ MOUNT_ATTR_STRICTATIME
 const
 MOUNT_ATTR_STRICTATIME
 =
-0x00000020
+0x0000_0020
 ;
 /
 /
@@ -935,7 +935,7 @@ MOUNT_ATTR_NODIRATIME
 const
 MOUNT_ATTR_NODIRATIME
 =
-0x00000080
+0x0000_0080
 ;
 /
 /
@@ -944,7 +944,7 @@ MOUNT_ATTR_NOUSER
 const
 MOUNT_ATTR_IDMAP
 =
-0x00100000
+0x0010_0000
 ;
 /
 /
@@ -953,7 +953,7 @@ MOUNT_ATTR__ATIME_FLAGS
 const
 MOUNT_ATTR_NOSYMFOLLOW
 =
-0x00200000
+0x0020_0000
 ;
 /
 /
@@ -978,7 +978,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1083,7 +1083,7 @@ MOVE_MOUNT_F_EMPTY_PATH
 const
 MOVE_MOUNT_F_SYMLINKS
 =
-0x00000001
+0x0000_0001
 ;
 /
 /
@@ -1092,7 +1092,7 @@ MOVE_MOUNT_F_AUTOMOUNTS
 const
 MOVE_MOUNT_F_AUTOMOUNTS
 =
-0x00000002
+0x0000_0002
 ;
 /
 /
@@ -1101,7 +1101,7 @@ MOVE_MOUNT_F_EMPTY_PATH
 const
 MOVE_MOUNT_F_EMPTY_PATH
 =
-0x00000004
+0x0000_0004
 ;
 /
 /
@@ -1110,7 +1110,7 @@ MOVE_MOUNT_T_SYMLINKS
 const
 MOVE_MOUNT_T_SYMLINKS
 =
-0x00000010
+0x0000_0010
 ;
 /
 /
@@ -1119,7 +1119,7 @@ MOVE_MOUNT_T_AUTOMOUNTS
 const
 MOVE_MOUNT_T_AUTOMOUNTS
 =
-0x00000020
+0x0000_0020
 ;
 /
 /
@@ -1128,7 +1128,7 @@ MOVE_MOUNT_T_EMPTY_PATH
 const
 MOVE_MOUNT_T_EMPTY_PATH
 =
-0x00000040
+0x0000_0040
 ;
 /
 /
@@ -1137,7 +1137,7 @@ MOVE_MOUNT__MASK
 const
 MOVE_MOUNT_SET_GROUP
 =
-0x00000100
+0x0000_0100
 ;
 /
 /
@@ -1145,7 +1145,7 @@ TODO
 :
 add
 when
-linux
+Linux
 6
 .
 5
@@ -1162,7 +1162,7 @@ MOVE_MOUNT_BENEATH
 const
 MOVE_MOUNT_BENEATH
 =
-0x00000200
+0x0000_0200
 ;
 /
 /
@@ -1171,7 +1171,7 @@ MOVE_MOUNT__MASK
 const
 MOVE_MOUNT__MASK
 =
-0x00000377
+0x0000_0377
 ;
 /
 /
@@ -1187,7 +1187,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1393,7 +1393,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1498,7 +1498,7 @@ FSPICK_CLOEXEC
 const
 FSPICK_CLOEXEC
 =
-0x00000001
+0x0000_0001
 ;
 /
 /
@@ -1507,7 +1507,7 @@ FSPICK_SYMLINK_NOFOLLOW
 const
 FSPICK_SYMLINK_NOFOLLOW
 =
-0x00000002
+0x0000_0002
 ;
 /
 /
@@ -1516,7 +1516,7 @@ FSPICK_NO_AUTOMOUNT
 const
 FSPICK_NO_AUTOMOUNT
 =
-0x00000004
+0x0000_0004
 ;
 /
 /
@@ -1525,7 +1525,7 @@ FSPICK_EMPTY_PATH
 const
 FSPICK_EMPTY_PATH
 =
-0x00000008
+0x0000_0008
 ;
 /
 /
@@ -1541,7 +1541,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1580,7 +1580,7 @@ for
 use
 with
 [
-change_mount
+mount_change
 ]
 .
 /
@@ -1590,7 +1590,7 @@ change_mount
 /
 /
 [
-change_mount
+mount_change
 ]
 :
 crate
@@ -1599,7 +1599,7 @@ crate
 mount
 :
 :
-change_mount
+mount_change
 #
 [
 repr
@@ -1714,7 +1714,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1804,7 +1804,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

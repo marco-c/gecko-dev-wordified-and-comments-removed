@@ -66,6 +66,7 @@ useful
 for
 testing
 .
+console
 cargo
 test
 -
@@ -108,6 +109,7 @@ use
 libc
 feature
 :
+console
 cargo
 test
 -

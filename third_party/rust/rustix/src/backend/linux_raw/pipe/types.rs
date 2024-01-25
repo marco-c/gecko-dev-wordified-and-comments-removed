@@ -51,7 +51,7 @@ pipe_with
 crate
 :
 :
-io
+pipe
 :
 :
 pipe_with
@@ -142,7 +142,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -289,7 +289,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

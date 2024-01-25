@@ -808,8 +808,6 @@ esi
 "
 "
 push
-DWORD
-PTR
 [
 eax
 +
@@ -819,8 +817,6 @@ eax
 "
 mov
 esi
-DWORD
-PTR
 [
 eax
 +
@@ -830,8 +826,6 @@ eax
 "
 mov
 eax
-DWORD
-PTR
 [
 eax
 +
@@ -840,8 +834,6 @@ eax
 "
 "
 call
-DWORD
-PTR
 [
 esp
 ]
@@ -933,16 +925,6 @@ from_asm
 r0
 )
 }
-#
-[
-allow
-(
-clippy
-:
-:
-too_many_arguments
-)
-]
 #
 [
 inline
@@ -1041,8 +1023,6 @@ esi
 "
 "
 push
-DWORD
-PTR
 [
 eax
 +
@@ -1052,8 +1032,6 @@ eax
 "
 mov
 esi
-DWORD
-PTR
 [
 eax
 +
@@ -1063,8 +1041,6 @@ eax
 "
 mov
 ebp
-DWORD
-PTR
 [
 eax
 +
@@ -1074,8 +1050,6 @@ eax
 "
 mov
 eax
-DWORD
-PTR
 [
 eax
 +
@@ -1084,8 +1058,6 @@ eax
 "
 "
 call
-DWORD
-PTR
 [
 esp
 ]
@@ -2756,8 +2728,6 @@ esi
 "
 mov
 esi
-DWORD
-PTR
 [
 eax
 +
@@ -2767,8 +2737,6 @@ eax
 "
 mov
 ebp
-DWORD
-PTR
 [
 eax
 +
@@ -2778,8 +2746,6 @@ eax
 "
 mov
 eax
-DWORD
-PTR
 [
 eax
 +
@@ -2979,8 +2945,6 @@ esi
 "
 mov
 esi
-DWORD
-PTR
 [
 eax
 +
@@ -2990,8 +2954,6 @@ eax
 "
 mov
 ebp
-DWORD
-PTR
 [
 eax
 +
@@ -3001,8 +2963,6 @@ eax
 "
 mov
 eax
-DWORD
-PTR
 [
 eax
 +

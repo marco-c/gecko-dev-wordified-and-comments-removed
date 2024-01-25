@@ -199,9 +199,9 @@ the
 string
 does
 not
+/
+/
 contain
-/
-/
 embedded
 NULs
 above
@@ -212,6 +212,8 @@ or
 own
 NUL
 terminator
+/
+/
 here
 .
 unsafe

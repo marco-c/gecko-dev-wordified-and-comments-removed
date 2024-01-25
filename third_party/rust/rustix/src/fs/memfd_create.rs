@@ -17,7 +17,6 @@ io
 path
 }
 ;
-pub
 use
 backend
 :
@@ -46,7 +45,7 @@ path
 Arg
 >
 (
-path
+name
 :
 P
 flags
@@ -63,12 +62,12 @@ Result
 OwnedFd
 >
 {
-path
+name
 .
 into_with_c_str
 (
 |
-path
+name
 |
 backend
 :
@@ -81,7 +80,7 @@ syscalls
 :
 memfd_create
 (
-path
+name
 flags
 )
 )

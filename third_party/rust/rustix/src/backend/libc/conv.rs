@@ -138,6 +138,11 @@ espidf
 target_os
 =
 "
+vita
+"
+target_os
+=
+"
 wasi
 "
 )
@@ -1285,6 +1290,11 @@ redox
 target_os
 =
 "
+vita
+"
+target_os
+=
+"
 wasi
 "
 )
@@ -1488,6 +1498,11 @@ target_os
 =
 "
 redox
+"
+target_os
+=
+"
+vita
 "
 target_os
 =

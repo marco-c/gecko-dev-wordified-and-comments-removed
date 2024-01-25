@@ -1,4 +1,5 @@
 #
+!
 [
 allow
 (
@@ -121,13 +122,6 @@ _
 }
 ;
 }
-#
-[
-allow
-(
-unused_macros
-)
-]
 macro_rules
 !
 bitflags_bits

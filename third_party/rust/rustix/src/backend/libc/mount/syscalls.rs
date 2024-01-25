@@ -426,8 +426,7 @@ io
 :
 Result
 <
-(
-)
+OwnedFd
 >
 {
 syscall
@@ -466,7 +465,7 @@ c_int
 }
 unsafe
 {
-ret
+ret_owned_fd
 (
 fsmount
 (

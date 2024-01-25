@@ -94,7 +94,7 @@ pipe_with
 crate
 :
 :
-io
+pipe
 :
 :
 pipe_with
@@ -177,6 +177,11 @@ target_os
 "
 redox
 "
+target_os
+=
+"
+vita
+"
 )
 )
 )
@@ -223,7 +228,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -267,10 +272,10 @@ splice
 [
 vmsplice
 ]
-/
-/
-/
 and
+/
+/
+/
 [
 tee
 ]
@@ -365,7 +370,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

@@ -404,6 +404,8 @@ buffer
 set_len
 (
 len
++
+1
 )
 ;
 }

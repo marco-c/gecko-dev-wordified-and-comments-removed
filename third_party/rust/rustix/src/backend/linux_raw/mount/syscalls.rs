@@ -333,13 +333,12 @@ io
 :
 Result
 <
-(
-)
+OwnedFd
 >
 {
 unsafe
 {
-ret
+ret_owned_fd
 (
 syscall_readonly
 !

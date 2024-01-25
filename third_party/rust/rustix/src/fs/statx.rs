@@ -26,7 +26,6 @@ io
 path
 }
 ;
-pub
 use
 backend
 :
@@ -40,7 +39,6 @@ types
 {
 Statx
 StatxFlags
-StatxTimestamp
 }
 ;
 #

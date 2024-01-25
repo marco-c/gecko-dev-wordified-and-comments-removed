@@ -102,7 +102,7 @@ RawOpcode
 ;
 pub
 const
-WRITE
+READ
 :
 RawOpcode
 =
@@ -110,7 +110,7 @@ RawOpcode
 ;
 pub
 const
-READ
+WRITE
 :
 RawOpcode
 =

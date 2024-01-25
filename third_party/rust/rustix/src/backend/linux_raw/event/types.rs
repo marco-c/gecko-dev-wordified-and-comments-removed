@@ -42,7 +42,7 @@ eventfd
 crate
 :
 :
-io
+event
 :
 :
 eventfd
@@ -133,7 +133,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

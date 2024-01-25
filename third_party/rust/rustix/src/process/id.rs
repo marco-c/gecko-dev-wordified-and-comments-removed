@@ -613,13 +613,7 @@ buffer
 Vec
 :
 :
-new
-(
-)
-;
-buffer
-.
-reserve
+with_capacity
 (
 8
 )

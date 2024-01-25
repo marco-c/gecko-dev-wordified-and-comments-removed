@@ -1444,7 +1444,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -2513,6 +2513,9 @@ the
 purpose
 of
 being
+/
+/
+/
 dereferenced
 by
 the
@@ -2560,6 +2563,9 @@ of
 being
 dereferenced
 by
+/
+/
+/
 the
 kernel
 may
@@ -2622,7 +2628,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

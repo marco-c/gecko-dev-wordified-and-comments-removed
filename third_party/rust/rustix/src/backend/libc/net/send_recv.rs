@@ -33,6 +33,9 @@ send_to
 ]
 and
 related
+/
+/
+/
 functions
 .
 /
@@ -125,6 +128,11 @@ target_os
 =
 "
 haiku
+"
+target_os
+=
+"
+vita
 "
 )
 )
@@ -240,6 +248,11 @@ target_os
 "
 nto
 "
+target_os
+=
+"
+vita
+"
 )
 )
 )
@@ -266,6 +279,11 @@ any
 (
 apple
 windows
+target_os
+=
+"
+vita
+"
 )
 )
 )
@@ -316,7 +334,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -355,6 +373,9 @@ recvfrom
 ]
 and
 related
+/
+/
+/
 functions
 .
 /
@@ -444,6 +465,11 @@ target_os
 "
 nto
 "
+target_os
+=
+"
+vita
+"
 )
 )
 )
@@ -524,6 +550,11 @@ target_os
 =
 "
 nto
+"
+target_os
+=
+"
+vita
 "
 )
 )
@@ -619,7 +650,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

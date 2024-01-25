@@ -700,7 +700,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -4059,6 +4059,9 @@ is
 enabled
 and
 it
+/
+/
+/
 cannot
 be
 undone
@@ -4084,6 +4087,9 @@ is
 enabled
 and
 the
+/
+/
+/
 state
 will
 be
@@ -4150,6 +4156,9 @@ controlled
 per
 thread
 by
+/
+/
+/
 PR_SET_SPECULATION_CTRL
 .
 const
@@ -4213,6 +4222,9 @@ is
 enabled
 and
 it
+/
+/
+/
 cannot
 be
 undone
@@ -4238,6 +4250,9 @@ is
 enabled
 and
 the
+/
+/
+/
 state
 will
 be

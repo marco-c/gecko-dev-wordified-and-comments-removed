@@ -145,7 +145,7 @@ ioctl_tiocgptpeer
 /
 /
 [
-ioctl_tiocgtpeer
+ioctl_tiocgptpeer
 ]
 :
 https
@@ -174,7 +174,7 @@ pty
 /
 fn
 .
-ioctl_tiocgtpeer
+ioctl_tiocgptpeer
 .
 html
 #
@@ -246,6 +246,11 @@ target_os
 "
 redox
 "
+target_os
+=
+"
+vita
+"
 )
 )
 )
@@ -314,7 +319,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

@@ -339,7 +339,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -493,7 +493,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -613,7 +613,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -733,7 +733,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1167,7 +1167,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1369,7 +1369,7 @@ TODO
 :
 add
 when
-linux
+Linux
 6
 .
 5
@@ -1423,7 +1423,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1618,7 +1618,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1783,7 +1783,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -1815,7 +1815,7 @@ for
 use
 with
 [
-change_mount
+mount_change
 ]
 .
 /
@@ -1825,7 +1825,7 @@ change_mount
 /
 /
 [
-change_mount
+mount_change
 ]
 :
 crate
@@ -1834,7 +1834,7 @@ crate
 mount
 :
 :
-change_mount
+mount_change
 #
 [
 repr
@@ -1967,7 +1967,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -2056,7 +2056,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

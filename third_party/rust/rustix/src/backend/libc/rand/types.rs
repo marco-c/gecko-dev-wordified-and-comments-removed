@@ -142,7 +142,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

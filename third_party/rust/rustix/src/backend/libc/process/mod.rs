@@ -4,12 +4,8 @@ cfg
 (
 any
 (
+freebsdlike
 linux_kernel
-target_os
-=
-"
-dragonfly
-"
 target_os
 =
 "
@@ -61,6 +57,11 @@ target_os
 =
 "
 espidf
+"
+target_os
+=
+"
+vita
 "
 target_os
 =

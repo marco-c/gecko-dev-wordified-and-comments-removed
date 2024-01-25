@@ -1,14 +1,3 @@
-#
-[
-cfg
-(
-feature
-=
-"
-alloc
-"
-)
-]
 pub
 mod
 epoll

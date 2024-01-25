@@ -31,6 +31,13 @@ pub
 crate
 )
 mod
+sockopt
+;
+pub
+(
+crate
+)
+mod
 syscalls
 ;
 pub

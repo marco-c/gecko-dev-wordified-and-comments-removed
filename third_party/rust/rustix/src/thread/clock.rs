@@ -54,6 +54,11 @@ redox
 target_os
 =
 "
+vita
+"
+target_os
+=
+"
 wasi
 "
 )
@@ -113,6 +118,11 @@ target_os
 =
 "
 redox
+"
+target_os
+=
+"
+vita
 "
 target_os
 =
@@ -201,6 +211,11 @@ target_os
 =
 "
 redox
+"
+target_os
+=
+"
+vita
 "
 target_os
 =

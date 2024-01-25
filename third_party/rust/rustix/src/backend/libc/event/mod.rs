@@ -47,15 +47,7 @@ syscalls
 [
 cfg
 (
-all
-(
-feature
-=
-"
-alloc
-"
 linux_kernel
-)
 )
 ]
 pub

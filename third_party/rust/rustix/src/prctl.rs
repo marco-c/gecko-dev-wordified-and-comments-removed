@@ -220,7 +220,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
