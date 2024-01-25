@@ -19747,7 +19747,7 @@ str_codePointAt
 0
 StringCodePointAt
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 at
@@ -19755,6 +19755,7 @@ at
 str_at
 1
 0
+StringAt
 )
 JS_SELF_HOSTED_FN
 (
