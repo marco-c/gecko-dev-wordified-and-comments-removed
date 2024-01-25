@@ -48,7 +48,7 @@ using
 namespace
 mozilla
 ;
-UniquePtr
+StaticAutoPtr
 <
 TemporaryAccessGrantObserver
 :
@@ -154,10 +154,8 @@ sObservers
 {
 sObservers
 =
-MakeUnique
-<
+new
 ObserversTable
->
 (
 )
 ;
@@ -447,10 +445,8 @@ nullptr
 ;
 }
 sObservers
-.
-reset
-(
-)
+=
+nullptr
 ;
 }
 return

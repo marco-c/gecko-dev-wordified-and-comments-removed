@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -341,7 +350,7 @@ nsITimer
 >
 ;
 static
-UniquePtr
+StaticAutoPtr
 <
 ObserversTable
 >
