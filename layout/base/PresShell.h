@@ -4776,6 +4776,17 @@ aTime
 )
 override
 {
+Run
+(
+)
+;
+}
+MOZ_CAN_RUN_SCRIPT
+void
+Run
+(
+)
+{
 if
 (
 mPresShell
