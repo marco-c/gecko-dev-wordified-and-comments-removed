@@ -17,6 +17,9 @@ mozIDOMWindowProxy
 interface
 nsISimpleEnumerator
 ;
+webidl
+BrowsingContext
+;
 interface
 nsIFilePickerShownCallback
 ;
@@ -172,6 +175,12 @@ title
 in
 nsIFilePicker_Mode
 mode
+[
+optional
+]
+in
+BrowsingContext
+browsingContext
 )
 ;
 [

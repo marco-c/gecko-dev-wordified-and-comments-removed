@@ -706,6 +706,15 @@ nsIFilePicker
 :
 Mode
 aMode
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
+*
+aBrowsingContext
 )
 {
 MOZ_ASSERT
@@ -757,6 +766,10 @@ NS_ENSURE_TRUE
 widget
 NS_ERROR_FAILURE
 )
+;
+mBrowsingContext
+=
+aBrowsingContext
 ;
 mMode
 =

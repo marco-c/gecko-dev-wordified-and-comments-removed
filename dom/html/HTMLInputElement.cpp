@@ -4221,6 +4221,14 @@ Init
 win
 title
 mode
+OwnerDoc
+(
+)
+-
+>
+GetBrowsingContext
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
