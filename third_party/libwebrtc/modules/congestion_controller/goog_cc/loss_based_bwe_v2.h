@@ -392,6 +392,11 @@ append_delay_based_estimate_candidate
 =
 false
 ;
+bool
+append_upper_bound_candidate_in_alr
+=
+false
+;
 TimeDelta
 observation_duration_lower_bound
 =
