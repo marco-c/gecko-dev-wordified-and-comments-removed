@@ -231,7 +231,11 @@ nsStyleUIReset
 &
 aStyle
 uint32_t
-transitionIdx
+aTransitionIndex
+float
+aDelay
+float
+aDuration
 mozilla
 :
 :
