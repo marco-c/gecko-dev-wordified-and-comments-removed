@@ -3944,6 +3944,17 @@ return
 false
 ;
 }
+substats
+.
+ssl_peer_signature_algorithm
+=
+dtls_transport
+-
+>
+GetSslPeerSignatureAlgorithm
+(
+)
+;
 stats
 -
 >

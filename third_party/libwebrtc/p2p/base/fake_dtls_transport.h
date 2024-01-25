@@ -1067,6 +1067,17 @@ ssl_cipher_suite_
 cipher_suite
 ;
 }
+uint16_t
+GetSslPeerSignatureAlgorithm
+(
+)
+const
+override
+{
+return
+0
+;
+}
 rtc
 :
 :

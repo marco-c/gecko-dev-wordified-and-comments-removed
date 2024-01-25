@@ -287,6 +287,15 @@ cipher
 0
 ;
 virtual
+uint16_t
+GetSslPeerSignatureAlgorithm
+(
+)
+const
+=
+0
+;
+virtual
 rtc
 :
 :

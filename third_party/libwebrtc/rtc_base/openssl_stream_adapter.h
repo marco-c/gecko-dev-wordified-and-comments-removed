@@ -462,6 +462,13 @@ result_len
 )
 override
 ;
+uint16_t
+GetPeerSignatureAlgorithm
+(
+)
+const
+override
+;
 bool
 SetDtlsSrtpCryptoSuites
 (

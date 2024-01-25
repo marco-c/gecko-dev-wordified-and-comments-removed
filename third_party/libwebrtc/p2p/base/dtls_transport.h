@@ -540,6 +540,13 @@ cipher
 )
 override
 ;
+uint16_t
+GetSslPeerSignatureAlgorithm
+(
+)
+const
+override
+;
 bool
 GetDtlsRole
 (

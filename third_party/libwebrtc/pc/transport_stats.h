@@ -142,6 +142,14 @@ kNew
 IceTransportStats
 ice_transport_stats
 ;
+uint16_t
+ssl_peer_signature_algorithm
+=
+rtc
+:
+:
+kSslSignatureAlgorithmUnknown
+;
 }
 ;
 typedef
