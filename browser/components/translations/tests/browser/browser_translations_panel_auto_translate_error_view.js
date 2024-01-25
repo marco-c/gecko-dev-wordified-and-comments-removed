@@ -275,6 +275,8 @@ assertPanelErrorView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage

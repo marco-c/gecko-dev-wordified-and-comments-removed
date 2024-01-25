@@ -104,8 +104,11 @@ langTag
 (
 )
 ;
+class
+FullPageTranslationsTestUtils
+{
+static
 async
-function
 assertPageIsUntranslated
 (
 runInPage
@@ -189,6 +192,7 @@ Mancha
 }
 )
 ;
+}
 }
 async
 function
