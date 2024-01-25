@@ -7188,10 +7188,10 @@ importAttributes
 (
 ListNode
 *
-assertionList
+attributeList
 NodeVector
 &
-assertions
+attributes
 )
 ;
 bool
