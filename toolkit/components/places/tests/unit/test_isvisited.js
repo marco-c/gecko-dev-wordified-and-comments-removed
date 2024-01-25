@@ -253,10 +253,8 @@ mailbox
 Inbox
 "
 "
-moz
+cached
 -
-anno
-:
 favicon
 :
 http

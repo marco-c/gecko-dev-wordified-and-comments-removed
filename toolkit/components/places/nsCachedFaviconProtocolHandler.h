@@ -1,9 +1,9 @@
 #
 ifndef
-nsAnnoProtocolHandler_h___
+nsCachedFaviconProtocolHandler_h___
 #
 define
-nsAnnoProtocolHandler_h___
+nsCachedFaviconProtocolHandler_h___
 #
 include
 "
@@ -50,7 +50,7 @@ h
 "
 #
 define
-NS_ANNOPROTOCOLHANDLER_CID
+NS_CACHEDFAVICONPROTOCOLHANDLER_CID
 \
 {
 \
@@ -72,7 +72,7 @@ NS_ANNOPROTOCOLHANDLER_CID
 \
 }
 class
-nsAnnoProtocolHandler
+nsCachedFaviconProtocolHandler
 final
 :
 public
@@ -82,7 +82,7 @@ nsSupportsWeakReference
 {
 public
 :
-nsAnnoProtocolHandler
+nsCachedFaviconProtocolHandler
 (
 )
 =
@@ -93,16 +93,14 @@ NS_DECL_NSIPROTOCOLHANDLER
 private
 :
 ~
-nsAnnoProtocolHandler
+nsCachedFaviconProtocolHandler
 (
 )
 =
 default
 ;
-protected
-:
 nsresult
-ParseAnnoURI
+ParseCachedFaviconURI
 (
 nsIURI
 *
@@ -111,9 +109,6 @@ nsIURI
 *
 *
 aResultURI
-nsCString
-&
-aName
 )
 ;
 nsresult
@@ -124,7 +119,7 @@ nsIURI
 aURI
 nsIURI
 *
-aAnnotationURI
+aCachedFaviconURI
 nsILoadInfo
 *
 aLoadInfo

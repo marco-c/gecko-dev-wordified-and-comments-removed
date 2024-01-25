@@ -288,10 +288,8 @@ sidebar
 icon
 :
 "
-moz
+cached
 -
-anno
-:
 favicon
 :
 https
@@ -375,10 +373,8 @@ oldversion
 icon
 :
 "
-moz
+cached
 -
-anno
-:
 favicon
 :
 https
@@ -450,10 +446,8 @@ US
 icon
 :
 "
-moz
+cached
 -
-anno
-:
 favicon
 :
 https

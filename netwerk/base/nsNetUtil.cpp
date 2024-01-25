@@ -8993,9 +8993,9 @@ scheme
 EqualsLiteral
 (
 "
-moz
+cached
 -
-anno
+favicon
 "
 )
 )

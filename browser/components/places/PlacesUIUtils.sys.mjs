@@ -11584,10 +11584,8 @@ it
 *
 Generates
 a
-moz
+cached
 -
-anno
-:
 favicon
 :
 link
@@ -11599,8 +11597,8 @@ that
 will
 allow
 to
-*
 fetch
+*
 the
 icon
 from
@@ -11653,10 +11651,8 @@ string
 }
 a
 "
-moz
+cached
 -
-anno
-:
 favicon
 :
 "

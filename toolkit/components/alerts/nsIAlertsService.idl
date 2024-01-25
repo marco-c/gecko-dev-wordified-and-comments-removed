@@ -2266,9 +2266,9 @@ Web
 notifications
 use
 |
-moz
+cached
 -
-anno
+favicon
 :
 |
 *

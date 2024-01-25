@@ -475,10 +475,4 @@ mDefaultIconURIPreferredSize
 }
 ;
 #
-define
-FAVICON_ANNOTATION_NAME
-"
-favicon
-"
-#
 endif

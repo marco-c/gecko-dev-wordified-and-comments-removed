@@ -666,10 +666,8 @@ Example
 iconUri
 :
 "
-moz
+cached
 -
-anno
-:
 favicon
 :
 http

@@ -195,10 +195,8 @@ info
 (
 "
 Check
-moz
+cached
 -
-anno
-:
 favicon
 protocol
 "
