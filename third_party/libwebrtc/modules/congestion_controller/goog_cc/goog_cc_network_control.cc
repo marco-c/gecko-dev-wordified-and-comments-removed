@@ -617,7 +617,7 @@ IgnoreProbesLowerThanNetworkStateEstimate
 )
 limit_probes_lower_than_throughput_estimate_
 (
-IsEnabled
+IsNotDisabled
 (
 key_value_config_
 "
