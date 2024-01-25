@@ -191,6 +191,7 @@ returnValue
 [
 CEReactions
 Throws
+UseCounter
 ]
 undefined
 show
