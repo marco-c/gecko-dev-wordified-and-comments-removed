@@ -21,13 +21,6 @@ EXPORTS
 "
 public
 /
-BaseProfilerSharedLibraries
-.
-h
-"
-"
-public
-/
 BaseProfilingStack
 .
 h
@@ -139,7 +132,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 in
@@ -239,7 +232,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -440,6 +433,13 @@ h
 public
 /
 BaseProfiler
+.
+h
+"
+"
+public
+/
+BaseProfilerSharedLibraries
 .
 h
 "
