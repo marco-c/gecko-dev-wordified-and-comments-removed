@@ -98,7 +98,7 @@ FirstContinuation
 (
 )
 const
-override
+final
 ;
 nsIFrame
 *

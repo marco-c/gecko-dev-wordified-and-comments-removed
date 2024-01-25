@@ -238,14 +238,6 @@ aPD
 )
 const
 ;
-nsIFrame
-*
-FirstContinuation
-(
-)
-const
-final
-;
 protected
 :
 explicit
