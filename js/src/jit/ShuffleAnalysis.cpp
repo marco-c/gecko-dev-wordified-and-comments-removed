@@ -1937,6 +1937,14 @@ IsPowerOfTwo
 (
 i
 )
+|
+|
+lanes
+[
+i
+]
+<
+16
 )
 {
 return
