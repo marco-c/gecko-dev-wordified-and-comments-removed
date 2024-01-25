@@ -162,6 +162,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsTranslated
 (
 "

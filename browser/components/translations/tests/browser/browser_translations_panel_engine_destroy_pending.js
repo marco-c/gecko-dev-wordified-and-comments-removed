@@ -72,6 +72,8 @@ resolveDownloads
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsTranslated
 (
 "
