@@ -18,15 +18,6 @@ include
 "
 vm
 /
-AsyncFunctionResolveKind
-.
-h
-"
-#
-include
-"
-vm
-/
 GeneratorObject
 .
 h
@@ -116,9 +107,7 @@ AsyncFunctionGeneratorObject
 >
 generator
 HandleValue
-valueOrReason
-AsyncFunctionResolveKind
-resolveKind
+value
 )
 ;
 JSObject

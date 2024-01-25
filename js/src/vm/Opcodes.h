@@ -2276,10 +2276,10 @@ MACRO
 AsyncResolve
 async_resolve
 NULL
-2
+1
 2
 1
-JOF_UINT8
+JOF_BYTE
 )
 \
 \
