@@ -173,10 +173,7 @@ aSharedState
 webrtc
 :
 :
-Call
-:
-:
-Config
+CallConfig
 config
 (
 wrapper
@@ -274,6 +271,10 @@ wrapper
 >
 mClock
 )
+)
+.
+release
+(
 )
 )
 )
@@ -382,7 +383,9 @@ IsOnCurrentThread
 ;
 for
 (
+const
 auto
+&
 conduit
 :
 mConduits
