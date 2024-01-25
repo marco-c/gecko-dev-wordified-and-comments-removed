@@ -184,6 +184,14 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 nsTableCellFrame
 )
+nsIScrollableFrame
+*
+GetScrollTargetFrame
+(
+)
+const
+final
+;
 nsTableRowFrame
 *
 GetTableRowFrame
