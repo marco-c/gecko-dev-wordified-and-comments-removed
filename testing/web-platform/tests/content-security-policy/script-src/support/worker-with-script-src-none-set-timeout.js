@@ -92,6 +92,7 @@ message
 )
 ;
 }
+;
 port
 .
 postMessage
