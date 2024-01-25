@@ -2364,3 +2364,15 @@ tracer
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+tsan
+"
+#
+Bug
+1832135
+]
