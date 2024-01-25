@@ -167,6 +167,8 @@ es
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickChangeSourceLanguageButton
 (
 {
@@ -306,6 +308,8 @@ es
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickCancelButton
 (
 )
@@ -455,6 +459,8 @@ es
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickDismissErrorButton
 (
 )

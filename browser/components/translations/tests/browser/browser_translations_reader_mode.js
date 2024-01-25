@@ -313,6 +313,8 @@ assertPanelDefaultView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickTranslateButton
 (
 {

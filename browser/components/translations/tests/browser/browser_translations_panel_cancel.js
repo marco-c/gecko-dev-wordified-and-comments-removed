@@ -61,6 +61,8 @@ assertPanelDefaultView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickCancelButton
 (
 )

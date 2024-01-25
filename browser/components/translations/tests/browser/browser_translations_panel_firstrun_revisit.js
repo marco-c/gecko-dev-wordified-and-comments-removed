@@ -84,6 +84,8 @@ assertPanelFirstShowView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickCancelButton
 (
 )
@@ -101,6 +103,8 @@ assertPanelFirstShowView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickCancelButton
 (
 )
@@ -135,6 +139,8 @@ assertPanelDefaultView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickCancelButton
 (
 )
@@ -170,6 +176,8 @@ assertPanelDefaultView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickCancelButton
 (
 )

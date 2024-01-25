@@ -242,6 +242,8 @@ es
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickTranslateButton
 (
 {
@@ -918,6 +920,8 @@ en
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickCancelButton
 (
 )

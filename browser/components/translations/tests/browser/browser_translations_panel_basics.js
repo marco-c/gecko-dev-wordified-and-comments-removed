@@ -168,6 +168,8 @@ label
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickTranslateButton
 (
 )
@@ -215,6 +217,8 @@ assertPanelLoadingView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickCancelButton
 (
 )
@@ -252,6 +256,8 @@ assertPanelRevisitView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickRestoreButton
 (
 )
