@@ -443,7 +443,6 @@ MN
 "
 "
 Nadeem
-Regular
 "
 "
 New
