@@ -192,6 +192,25 @@ setPref
 )
                 
 if
+isinstance
+(
+set_pref
+dict
+)
+:
+                    
+set_pref
+=
+set_pref
+.
+get
+(
+"
+pref
+"
+)
+                
+if
 set_pref
 is
 not
