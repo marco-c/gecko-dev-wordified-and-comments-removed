@@ -9113,7 +9113,7 @@ Attach
 }
 static
 void
-CheckDOMProxyExpandoDoesNotShadow
+CheckDOMProxyDoesNotShadow
 (
 CacheIRWriter
 &
@@ -9334,7 +9334,7 @@ obj
 ;
 JSObject
 *
-checkObj
+protoObj
 =
 obj
 -
@@ -9346,7 +9346,7 @@ staticPrototype
 if
 (
 !
-checkObj
+protoObj
 )
 {
 return
@@ -9374,7 +9374,7 @@ kind
 CanAttachNativeGetProp
 (
 cx_
-checkObj
+protoObj
 id
 &
 holder
@@ -9403,10 +9403,10 @@ NoAction
 }
 auto
 *
-nativeCheckObj
+nativeProtoObj
 =
 &
-checkObj
+protoObj
 -
 >
 as
@@ -9428,7 +9428,7 @@ obj
 objId
 )
 ;
-CheckDOMProxyExpandoDoesNotShadow
+CheckDOMProxyDoesNotShadow
 (
 writer
 obj
@@ -9538,7 +9538,7 @@ EmitCallGetterResultNoGuards
 cx_
 writer
 kind
-nativeCheckObj
+nativeProtoObj
 holder
 *
 prop
@@ -25526,7 +25526,7 @@ obj
 objId
 )
 ;
-CheckDOMProxyExpandoDoesNotShadow
+CheckDOMProxyDoesNotShadow
 (
 writer
 obj
