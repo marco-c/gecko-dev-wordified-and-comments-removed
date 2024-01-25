@@ -87,8 +87,6 @@ frame
 AddStateBits
 (
 aStateFlags
-|
-NS_BLOCK_STATIC_BFC
 )
 ;
 return
