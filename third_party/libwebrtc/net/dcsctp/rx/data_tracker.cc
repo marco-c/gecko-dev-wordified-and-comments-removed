@@ -916,7 +916,7 @@ return
 is_duplicate
 ;
 }
-void
+bool
 DataTracker
 :
 :
@@ -964,6 +964,7 @@ behind
 )
 ;
 return
+false
 ;
 }
 last_cumulative_acked_tsn_
@@ -1121,6 +1122,9 @@ delayed
 )
 ;
 }
+return
+true
+;
 }
 SackChunk
 DataTracker

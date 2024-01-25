@@ -242,7 +242,7 @@ ObservePacketEnd
 (
 )
 ;
-void
+bool
 HandleForwardTsn
 (
 TSN
