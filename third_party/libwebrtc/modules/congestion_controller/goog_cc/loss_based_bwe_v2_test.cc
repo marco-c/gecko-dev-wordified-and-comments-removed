@@ -7392,9 +7392,6 @@ InstantUpperBoundBwBalance
 ObservationDurationLowerBound
 :
 200ms
-NotUseAckedRateInAlr
-:
-true
 /
 "
 )
@@ -7590,9 +7587,6 @@ InstantUpperBoundBwBalance
 ObservationDurationLowerBound
 :
 200ms
-NotUseAckedRateInAlr
-:
-true
 /
 "
 )
