@@ -2040,7 +2040,7 @@ key
 A
 maximum
 of
-15
+50
 extra
 keys
 is
@@ -2121,7 +2121,7 @@ required
 description
 maxProperties
 :
-15
+50
 default
 :
 {
