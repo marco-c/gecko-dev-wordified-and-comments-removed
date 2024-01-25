@@ -80,6 +80,13 @@ js
 ]
 [
 "
+browser_translations_about_preferences_settings_ui
+.
+js
+"
+]
+[
+"
 browser_translations_panel_a11y_focus
 .
 js
