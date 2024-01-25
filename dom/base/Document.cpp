@@ -82283,16 +82283,6 @@ MakeBrowsingContextNonSynthetic
 {
 if
 (
-nsContentUtils
-:
-:
-ShouldHideObjectOrEmbedImageDocument
-(
-)
-)
-{
-if
-(
 BrowsingContext
 *
 bc
@@ -82323,7 +82313,6 @@ SetSyntheticDocumentContainer
 false
 )
 ;
-}
 }
 }
 }

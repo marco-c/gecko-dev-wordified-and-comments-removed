@@ -8022,12 +8022,6 @@ Base64
 )
 ;
 static
-bool
-ShouldHideObjectOrEmbedImageDocument
-(
-)
-;
-static
 nsresult
 EnsureAndLoadStringBundle
 (
