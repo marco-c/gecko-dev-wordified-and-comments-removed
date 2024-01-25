@@ -9871,9 +9871,6 @@ name
 "
 WakeLock
 "
-nightly
-:
-true
 }
 {
 name
@@ -9881,9 +9878,6 @@ name
 "
 WakeLockSentinel
 "
-nightly
-:
-true
 }
 {
 name
