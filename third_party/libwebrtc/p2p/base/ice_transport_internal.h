@@ -312,6 +312,7 @@ candidates
 )
 ;
 struct
+RTC_EXPORT
 IceConfig
 {
 absl
