@@ -310,9 +310,8 @@ Mancha
 )
 ;
 }
-}
+static
 async
-function
 assertTranslationsButton
 (
 visibleAssertions
@@ -524,6 +523,7 @@ return
 elements
 ;
 }
+}
 async
 function
 openTranslationsPanel
@@ -602,6 +602,8 @@ button
 }
 =
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -1398,6 +1400,8 @@ downloadHandler
 )
 {
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -1967,6 +1971,8 @@ locale
 }
 =
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -2325,6 +2331,8 @@ downloadHandler
 )
 {
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -3214,6 +3222,8 @@ downloadHandler
 )
 {
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

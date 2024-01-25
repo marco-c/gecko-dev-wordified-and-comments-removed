@@ -30,6 +30,8 @@ LANGUAGE_PAIRS
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -132,6 +134,8 @@ LANGUAGE_PAIRS
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -327,6 +331,8 @@ LANGUAGE_PAIRS
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

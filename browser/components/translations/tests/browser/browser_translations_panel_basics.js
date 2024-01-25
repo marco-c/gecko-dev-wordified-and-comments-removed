@@ -37,6 +37,8 @@ button
 }
 =
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -169,6 +171,8 @@ clickTranslateButton
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -255,6 +259,8 @@ runInPage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

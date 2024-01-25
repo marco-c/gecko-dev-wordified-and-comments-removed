@@ -57,6 +57,8 @@ en
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -170,6 +172,8 @@ FRENCH_PAGE_URL
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

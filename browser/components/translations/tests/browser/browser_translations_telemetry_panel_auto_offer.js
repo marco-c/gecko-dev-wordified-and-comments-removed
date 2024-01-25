@@ -179,6 +179,8 @@ SPANISH_PAGE_URL_2
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
