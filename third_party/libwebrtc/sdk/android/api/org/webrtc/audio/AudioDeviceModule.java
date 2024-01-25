@@ -45,4 +45,16 @@ return
 false
 ;
 }
+default
+boolean
+setPreferredMicrophoneFieldDimension
+(
+float
+dimension
+)
+{
+return
+false
+;
+}
 }
