@@ -1464,11 +1464,6 @@ nullptr
 const
 ;
 void
-FreezeCandidatePool
-(
-)
-;
-void
 DiscardCandidatePool
 (
 )
@@ -2055,11 +2050,6 @@ PortAllocatorSession
 >
 >
 pooled_sessions_
-;
-bool
-candidate_pool_frozen_
-=
-false
 ;
 webrtc
 :
