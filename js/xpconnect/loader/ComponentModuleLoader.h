@@ -270,6 +270,15 @@ aPromise
 )
 override
 ;
+void
+OnDynamicImportStarted
+(
+ModuleLoadRequest
+*
+aRequest
+)
+override
+;
 bool
 CanStartLoad
 (
