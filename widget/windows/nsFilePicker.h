@@ -536,6 +536,11 @@ const
 commands
 )
 ;
+void
+ClearFiles
+(
+)
+;
 protected
 :
 void
