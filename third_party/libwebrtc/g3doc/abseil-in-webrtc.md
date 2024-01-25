@@ -231,6 +231,16 @@ InlinedVector
 absl
 :
 :
+Nonnull
+and
+absl
+:
+:
+Nullable
+*
+absl
+:
+:
 WrapUnique
 *
 absl
