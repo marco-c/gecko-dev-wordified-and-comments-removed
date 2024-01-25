@@ -6330,12 +6330,6 @@ if
 send_
 &
 &
-source_
-!
-=
-nullptr
-&
-&
 rtp_parameters_
 .
 encodings
