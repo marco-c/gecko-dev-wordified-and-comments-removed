@@ -155,9 +155,6 @@ ObjectType
 eType_Loading
 =
 TYPE_LOADING
-eType_Image
-=
-TYPE_IMAGE
 eType_Fallback
 =
 TYPE_FALLBACK

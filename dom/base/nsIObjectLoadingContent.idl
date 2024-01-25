@@ -54,13 +54,6 @@ TYPE_LOADING
 const
 unsigned
 long
-TYPE_IMAGE
-=
-1
-;
-const
-unsigned
-long
 TYPE_FALLBACK
 =
 2

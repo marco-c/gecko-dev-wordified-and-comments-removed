@@ -574,16 +574,6 @@ ChromeOnly
 const
 unsigned
 long
-TYPE_IMAGE
-=
-1
-;
-[
-ChromeOnly
-]
-const
-unsigned
-long
 TYPE_FALLBACK
 =
 2
