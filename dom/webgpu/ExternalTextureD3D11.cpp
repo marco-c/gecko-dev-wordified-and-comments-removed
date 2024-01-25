@@ -496,6 +496,15 @@ ExternalTextureD3D11
 :
 ToSurfaceDescriptor
 (
+Maybe
+<
+gfx
+:
+:
+FenceInfo
+>
+&
+aFenceInfo
 )
 {
 const
@@ -547,9 +556,7 @@ ColorRange
 :
 FULL
 false
-Nothing
-(
-)
+aFenceInfo
 )
 )
 ;

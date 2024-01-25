@@ -133,6 +133,15 @@ SurfaceDescriptor
 >
 ToSurfaceDescriptor
 (
+Maybe
+<
+gfx
+:
+:
+FenceInfo
+>
+&
+aFenceInfo
 )
 override
 ;
