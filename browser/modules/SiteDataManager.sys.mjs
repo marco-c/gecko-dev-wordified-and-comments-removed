@@ -3438,6 +3438,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_COOKIE_BANNER_EXECUTED_RECORD
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_FINGERPRINTING_PROTECTION_STATE
 ;
 promises
 .
