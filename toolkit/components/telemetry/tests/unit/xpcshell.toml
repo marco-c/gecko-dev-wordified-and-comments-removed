@@ -1157,7 +1157,12 @@ apple_silicon
 bug
 1707747
 "
-win11_2009
+os
+=
+=
+'
+win
+'
 &
 &
 bits

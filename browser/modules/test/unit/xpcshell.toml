@@ -5,6 +5,11 @@ head
 =
 '
 '
+#
+no
+value
+from
+INI
 firefox
 -
 appdir
@@ -18,7 +23,7 @@ if
 =
 [
 "
-os
+toolkit
 =
 =
 '

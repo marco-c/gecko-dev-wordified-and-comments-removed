@@ -71,11 +71,11 @@ if
 =
 [
 "
-os
+toolkit
 =
 =
 '
-mac
+cocoa
 '
 "
 ]

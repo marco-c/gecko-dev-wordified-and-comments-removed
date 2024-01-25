@@ -193,7 +193,12 @@ if
 =
 [
 "
-win11_2009
+os
+=
+=
+'
+win
+'
 &
 &
 bits
@@ -205,6 +210,11 @@ bits
 intermittent
 failures
 on
+win7
+/
+32
+still
+run
 on
 win11
 /
