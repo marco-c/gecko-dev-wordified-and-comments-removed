@@ -189,6 +189,8 @@ es
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickAlwaysOfferTranslations
 (
 )

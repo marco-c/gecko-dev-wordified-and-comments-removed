@@ -118,6 +118,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickNeverTranslateLanguage
 (
 )

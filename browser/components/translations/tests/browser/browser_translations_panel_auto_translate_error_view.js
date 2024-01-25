@@ -145,6 +145,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickAlwaysTranslateLanguage
 (
 {

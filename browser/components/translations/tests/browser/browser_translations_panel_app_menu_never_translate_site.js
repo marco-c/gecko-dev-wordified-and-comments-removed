@@ -98,6 +98,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickNeverTranslateSite
 (
 )
@@ -147,6 +149,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickNeverTranslateSite
 (
 )
@@ -292,6 +296,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickNeverTranslateSite
 (
 )
@@ -375,6 +381,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickNeverTranslateSite
 (
 )

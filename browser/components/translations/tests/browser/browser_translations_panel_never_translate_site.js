@@ -98,6 +98,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickNeverTranslateSite
 (
 )
@@ -354,6 +356,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickNeverTranslateSite
 (
 )
@@ -601,6 +605,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickAlwaysTranslateLanguage
 (
 {
@@ -692,6 +698,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickNeverTranslateSite
 (
 )

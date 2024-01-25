@@ -49,6 +49,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickManageLanguages
 (
 )
