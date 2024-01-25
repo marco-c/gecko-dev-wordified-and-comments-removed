@@ -5674,9 +5674,6 @@ nsHTMLScrollFrame
 :
 IntrinsicScrollbarGutterSizeAtInlineEdges
 (
-gfxContext
-*
-aRenderingContext
 )
 {
 const
@@ -6044,7 +6041,6 @@ result
 +
 IntrinsicScrollbarGutterSizeAtInlineEdges
 (
-aRenderingContext
 )
 ;
 }
@@ -6098,7 +6094,6 @@ NSCoordSaturatingAdd
 result
 IntrinsicScrollbarGutterSizeAtInlineEdges
 (
-aRenderingContext
 )
 )
 ;
