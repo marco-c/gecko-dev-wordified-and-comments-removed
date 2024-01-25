@@ -551,12 +551,12 @@ rhs
 const
 {
 return
-send_bitrate_bps
+send_bitrate
 =
 =
 rhs
 .
-send_bitrate_bps
+send_bitrate
 &
 &
 probe_cluster_id
