@@ -305,6 +305,8 @@ selection
 ]
 =
 "
+outgoing_bitrate
+network_delay_feedback
 "
 ;
 size_t
