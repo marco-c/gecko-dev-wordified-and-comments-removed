@@ -722,6 +722,13 @@ html
 ]
 [
 "
+test_proxy_missing_prop
+.
+html
+"
+]
+[
+"
 test_remoteProxyAsPrototype
 .
 html
