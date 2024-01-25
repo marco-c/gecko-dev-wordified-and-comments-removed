@@ -456,7 +456,7 @@ stream_id
 *
 data
 .
-message_id
+mid
 <
 <
 "

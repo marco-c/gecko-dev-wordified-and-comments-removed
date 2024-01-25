@@ -79,7 +79,7 @@ unordered
 (
 false
 )
-message_id
+mid
 (
 0
 )
@@ -92,7 +92,7 @@ unordered
 StreamID
 stream_id
 MID
-message_id
+mid
 )
 :
 stream_id
@@ -107,9 +107,9 @@ unordered
 (
 unordered
 )
-message_id
+mid
 (
-message_id
+mid
 )
 {
 }
@@ -123,7 +123,7 @@ IsUnordered
 unordered
 ;
 MID
-message_id
+mid
 ;
 bool
 operator
@@ -162,12 +162,12 @@ other
 unordered
 &
 &
-message_id
+mid
 =
 =
 other
 .
-message_id
+mid
 ;
 }
 }

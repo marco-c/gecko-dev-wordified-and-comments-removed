@@ -185,7 +185,7 @@ tsn
 StreamID
 stream_id
 MID
-message_id
+mid
 PPID
 ppid
 FSN
@@ -212,7 +212,7 @@ SSN
 (
 0
 )
-message_id
+mid
 fsn
 ppid
 std

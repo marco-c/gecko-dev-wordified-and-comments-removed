@@ -303,7 +303,7 @@ Load8
 )
 ;
 MID
-message_id
+mid
 (
 sub_reader
 .
@@ -321,7 +321,7 @@ emplace_back
 (
 unordered
 stream_id
-message_id
+mid
 )
 ;
 offset
@@ -514,7 +514,7 @@ skipped
 i
 ]
 .
-message_id
+mid
 )
 ;
 offset

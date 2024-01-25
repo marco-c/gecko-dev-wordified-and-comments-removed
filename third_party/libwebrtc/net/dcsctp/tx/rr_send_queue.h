@@ -229,7 +229,7 @@ unordered
 StreamID
 stream_id
 MID
-message_id
+mid
 )
 override
 ;
@@ -694,7 +694,7 @@ Discard
 IsUnordered
 unordered
 MID
-message_id
+mid
 )
 ;
 void
@@ -898,7 +898,7 @@ optional
 <
 MID
 >
-message_id
+mid
 =
 absl
 :

@@ -92,7 +92,7 @@ optional
 <
 MID
 >
-message_id
+mid
 =
 absl
 :
@@ -118,7 +118,7 @@ explicit
 DataGenerator
 (
 MID
-start_message_id
+start_mid
 =
 MID
 (
@@ -126,9 +126,9 @@ MID
 )
 )
 :
-message_id_
+mid_
 (
-start_message_id
+start_mid
 )
 {
 }
@@ -189,7 +189,7 @@ ResetStream
 (
 )
 {
-message_id_
+mid_
 =
 MID
 (
@@ -200,7 +200,7 @@ MID
 private
 :
 MID
-message_id_
+mid_
 ;
 FSN
 fsn_

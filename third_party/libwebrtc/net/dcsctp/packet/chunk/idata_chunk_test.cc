@@ -159,7 +159,7 @@ EXPECT_EQ
 *
 chunk
 .
-message_id
+mid
 (
 )
 0u
@@ -297,7 +297,7 @@ EXPECT_EQ
 *
 deserialized
 .
-message_id
+mid
 (
 )
 789u
@@ -350,7 +350,7 @@ stream_id
 456
 "
 "
-message_id
+mid
 =
 789
 ppid
@@ -441,7 +441,7 @@ EXPECT_EQ
 *
 chunk
 .
-message_id
+mid
 (
 )
 1u
@@ -564,7 +564,7 @@ EXPECT_EQ
 *
 deserialized
 .
-message_id
+mid
 (
 )
 789u
@@ -632,7 +632,7 @@ stream_id
 456
 "
 "
-message_id
+mid
 =
 789
 fsn

@@ -84,7 +84,7 @@ stream_id
 SSN
 ssn
 MID
-message_id
+mid
 FSN
 fsn
 PPID
@@ -113,9 +113,9 @@ ssn
 (
 ssn
 )
-message_id
+mid
 (
-message_id
+mid
 )
 fsn
 (
@@ -183,7 +183,7 @@ Data
 (
 stream_id
 ssn
-message_id
+mid
 fsn
 ppid
 payload
@@ -214,7 +214,7 @@ SSN
 ssn
 ;
 MID
-message_id
+mid
 ;
 FSN
 fsn

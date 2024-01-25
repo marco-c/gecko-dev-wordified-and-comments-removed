@@ -844,7 +844,7 @@ if
 !
 item
 .
-message_id
+mid
 .
 has_value
 (
@@ -893,7 +893,7 @@ next_ordered_mid_
 ;
 item
 .
-message_id
+mid
 =
 mid
 ;
@@ -1175,7 +1175,7 @@ SSN
 )
 item
 .
-message_id
+mid
 .
 value
 (
@@ -1498,7 +1498,7 @@ Discard
 IsUnordered
 unordered
 MID
-message_id
+mid
 )
 {
 bool
@@ -1540,7 +1540,7 @@ unordered
 &
 item
 .
-message_id
+mid
 .
 has_value
 (
@@ -1550,10 +1550,10 @@ has_value
 *
 item
 .
-message_id
+mid
 =
 =
-message_id
+mid
 )
 {
 HandleMessageExpired
@@ -1994,7 +1994,7 @@ size
 ;
 item
 .
-message_id
+mid
 =
 absl
 :
@@ -2088,7 +2088,7 @@ front
 (
 )
 .
-message_id
+mid
 .
 has_value
 (
@@ -2313,7 +2313,7 @@ unordered
 StreamID
 stream_id
 MID
-message_id
+mid
 )
 {
 bool
@@ -2327,7 +2327,7 @@ stream_id
 Discard
 (
 unordered
-message_id
+mid
 )
 ;
 RTC_DCHECK
