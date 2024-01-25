@@ -57,6 +57,9 @@ rc1
 '
 WebRTC
 '
+'
+LiveMediaStreamTrack
+'
 ]
 )
 ;
