@@ -6962,6 +6962,10 @@ get_preferred_sample_rate
 =
 alsa_get_preferred_sample_rate
 .
+get_supported_input_processing_params
+=
+NULL
+.
 enumerate_devices
 =
 alsa_enumerate_devices
@@ -7011,6 +7015,14 @@ stream_set_name
 NULL
 .
 stream_get_current_device
+=
+NULL
+.
+stream_set_input_mute
+=
+NULL
+.
+stream_set_input_processing_params
 =
 NULL
 .

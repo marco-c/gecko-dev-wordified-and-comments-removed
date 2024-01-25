@@ -17352,6 +17352,7 @@ wasapi_get_backend_id
 wasapi_get_max_channel_count
 wasapi_get_min_latency
 wasapi_get_preferred_sample_rate
+NULL
 wasapi_enumerate_devices
 wasapi_device_collection_destroy
 wasapi_destroy
@@ -17363,6 +17364,8 @@ wasapi_stream_get_position
 wasapi_stream_get_latency
 wasapi_stream_get_input_latency
 wasapi_stream_set_volume
+NULL
+NULL
 NULL
 NULL
 NULL

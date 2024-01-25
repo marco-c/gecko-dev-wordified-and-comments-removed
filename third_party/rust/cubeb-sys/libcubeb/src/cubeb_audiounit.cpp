@@ -17520,6 +17520,7 @@ audiounit_get_backend_id
 audiounit_get_max_channel_count
 audiounit_get_min_latency
 audiounit_get_preferred_sample_rate
+NULL
 audiounit_enumerate_devices
 audiounit_device_collection_destroy
 audiounit_destroy
@@ -17533,6 +17534,8 @@ NULL
 audiounit_stream_set_volume
 NULL
 audiounit_stream_get_current_device
+NULL
+NULL
 audiounit_stream_device_destroy
 audiounit_stream_register_device_changed_callback
 audiounit_register_device_collection_changed

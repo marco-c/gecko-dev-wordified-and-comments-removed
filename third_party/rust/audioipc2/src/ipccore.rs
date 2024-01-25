@@ -156,6 +156,8 @@ ThreadId
 >
 >
 =
+const
+{
 std
 :
 :
@@ -169,6 +171,7 @@ new
 (
 None
 )
+}
 )
 ;
 fn

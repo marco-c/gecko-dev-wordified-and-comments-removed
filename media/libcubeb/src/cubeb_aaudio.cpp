@@ -8790,6 +8790,7 @@ aaudio_get_min_latency
 aaudio_get_preferred_sample_rate
 nullptr
 nullptr
+nullptr
 aaudio_destroy
 aaudio_stream_init
 aaudio_stream_destroy
@@ -8799,6 +8800,8 @@ aaudio_stream_get_position
 aaudio_stream_get_latency
 aaudio_stream_get_input_latency
 aaudio_stream_set_volume
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr

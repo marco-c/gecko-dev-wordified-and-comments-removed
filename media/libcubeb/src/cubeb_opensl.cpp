@@ -10556,6 +10556,10 @@ get_preferred_sample_rate
 =
 nullptr
 .
+get_supported_input_processing_params
+=
+nullptr
+.
 enumerate_devices
 =
 nullptr
@@ -10605,6 +10609,14 @@ stream_set_name
 nullptr
 .
 stream_get_current_device
+=
+nullptr
+.
+stream_set_input_mute
+=
+nullptr
+.
+stream_set_input_processing_params
 =
 nullptr
 .

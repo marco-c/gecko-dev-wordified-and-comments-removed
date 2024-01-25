@@ -1388,6 +1388,7 @@ kai_get_preferred_sample_rate
 NULL
 NULL
 NULL
+NULL
 kai_destroy
 kai_stream_init
 kai_stream_destroy
@@ -1397,6 +1398,8 @@ kai_stream_get_position
 kai_stream_get_latency
 NULL
 kai_stream_set_volume
+NULL
+NULL
 NULL
 NULL
 NULL
