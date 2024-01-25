@@ -4734,14 +4734,6 @@ numRun
 runCount
 )
 {
-if
-(
-frame
-!
-=
-NS_BIDI_CONTROL_FRAME
-)
-{
 storeBidiDataToFrame
 (
 )
@@ -4762,7 +4754,6 @@ contentOffset
 fragmentLength
 )
 ;
-}
 }
 break
 ;
