@@ -609,6 +609,17 @@ gunit_helpers
 /
 rtc_base
 :
+random
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 threading
 "
 "
