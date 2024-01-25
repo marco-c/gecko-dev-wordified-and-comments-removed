@@ -1453,6 +1453,15 @@ OriginAttributesPattern
 aPattern
 )
 ;
+void
+ClearBrowsingSessionKey
+(
+const
+OriginAttributes
+&
+aOriginAttributes
+)
+;
 nsTHashMap
 <
 nsCStringHashKey
