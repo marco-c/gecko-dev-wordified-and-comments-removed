@@ -3524,6 +3524,16 @@ pingsender
 product
 }
 /
+platform
+.
+ini
+"
+        
+"
+{
+product
+}
+/
 plugin
 -
 container
@@ -4510,6 +4520,12 @@ libclearkey
 .
 dylib
 "
+                        
+"
+platform
+.
+ini
+"
                     
 ]
                 
@@ -4864,6 +4880,16 @@ product
 dependentlibs
 .
 list
+"
+        
+"
+{
+product
+}
+/
+platform
+.
+ini
 "
         
 "
