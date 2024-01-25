@@ -220,7 +220,9 @@ url
 SPANISH_PAGE_URL_DOT_ORG
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;

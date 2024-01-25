@@ -93,7 +93,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;
@@ -212,7 +214,9 @@ openFromAppMenu
 true
 onOpenPanel
 :
-assertPanelUnsupportedLanguageView
+FullPageTranslationsTestUtils
+.
+assertPanelViewUnsupportedLanguage
 }
 )
 ;
@@ -263,7 +267,9 @@ openFromAppMenu
 true
 onOpenPanel
 :
-assertPanelRevisitView
+FullPageTranslationsTestUtils
+.
+assertPanelViewRevisit
 }
 )
 ;

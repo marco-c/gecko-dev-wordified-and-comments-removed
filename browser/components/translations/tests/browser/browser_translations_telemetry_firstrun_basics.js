@@ -87,7 +87,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelFirstShowView
+FullPageTranslationsTestUtils
+.
+assertPanelViewFirstShow
 }
 )
 ;
@@ -235,7 +237,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelFirstShowView
+FullPageTranslationsTestUtils
+.
+assertPanelViewFirstShow
 }
 )
 ;

@@ -157,7 +157,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;
@@ -252,7 +254,9 @@ downloadHandler
 rejectDownloads
 onOpenPanel
 :
-assertPanelErrorView
+FullPageTranslationsTestUtils
+.
+assertPanelViewError
 }
 )
 ;
@@ -631,7 +635,9 @@ downloadHandler
 rejectDownloads
 onOpenPanel
 :
-assertPanelErrorView
+FullPageTranslationsTestUtils
+.
+assertPanelViewError
 }
 )
 ;
