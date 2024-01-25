@@ -17,6 +17,11 @@ bug_1865410_module_b
 mjs
 "
 "
+bug_1873417
+.
+mjs
+"
+"
 module_importMap_with_external_script_0
 .
 mjs
@@ -158,6 +163,13 @@ html
 [
 "
 test_bug_1865410
+.
+html
+"
+]
+[
+"
+test_bug_1873417
 .
 html
 "
