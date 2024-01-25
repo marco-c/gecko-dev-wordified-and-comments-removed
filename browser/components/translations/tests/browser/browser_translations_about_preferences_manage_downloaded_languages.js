@@ -216,7 +216,7 @@ row
 )
 ;
 await
-assertVisibility
+ensureVisibility
 (
 {
 message
@@ -284,7 +284,7 @@ downloaded
 )
 ;
 await
-assertVisibility
+ensureVisibility
 (
 {
 message
@@ -331,7 +331,7 @@ French
 )
 ;
 await
-assertVisibility
+ensureVisibility
 (
 {
 message
@@ -619,7 +619,7 @@ downloaded
 )
 ;
 await
-assertVisibility
+ensureVisibility
 (
 {
 message
@@ -662,7 +662,7 @@ languages
 )
 ;
 await
-assertVisibility
+ensureVisibility
 (
 {
 message
@@ -758,7 +758,7 @@ assertNoNewDownloads
 )
 ;
 await
-assertVisibility
+ensureVisibility
 (
 {
 message
