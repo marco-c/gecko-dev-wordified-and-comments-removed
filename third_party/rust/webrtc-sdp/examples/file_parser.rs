@@ -139,7 +139,6 @@ File
 :
 open
 (
-&
 path
 )
 {
@@ -439,12 +438,12 @@ structure
 \
 n
 {
+sdp
 :
 #
 ?
 }
 "
-sdp
 )
 }
 if

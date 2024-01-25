@@ -62,9 +62,9 @@ format
 IN
 IP4
 {
+ipv4
 }
 "
-ipv4
 )
 IpAddr
 :
@@ -82,9 +82,9 @@ format
 IN
 IP6
 {
+ipv6
 }
 "
-ipv6
 )
 }
 }
