@@ -85,7 +85,7 @@ TelemetryFeed
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -100,7 +100,9 @@ lib
 /
 TelemetryFeed
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
