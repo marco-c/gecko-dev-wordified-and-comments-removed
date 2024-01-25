@@ -1696,6 +1696,16 @@ shortcuts
 *
 *
 throws
+NS_ERROR_NOT_IMPLEMENTED
+*
+if
+run
+on
+a
+MinGW
+compilation
+*
+throws
 NS_ERROR_ABORT
 *
 if

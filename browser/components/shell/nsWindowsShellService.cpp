@@ -7342,6 +7342,14 @@ nsString
 aShortcutPaths
 )
 {
+#
+ifdef
+__MINGW32__
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+#
+else
 aShortcutPaths
 .
 Clear
@@ -7592,12 +7600,6 @@ RefPtr
 IShellLinkW
 >
 link
-;
-RefPtr
-<
-IPersistFile
->
-ppf
 ;
 RefPtr
 <
@@ -7890,6 +7892,8 @@ fileHandle
 return
 NS_OK
 ;
+#
+endif
 }
 static
 nsresult
