@@ -257,10 +257,15 @@ memory
 maps
 -
 [
+x
 ]
 huge
 page
 support
+(
+linux
+only
+)
 A
 list
 of
