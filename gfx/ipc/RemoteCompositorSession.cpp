@@ -236,7 +236,16 @@ NotifySessionLost
 (
 )
 {
+RefPtr
+<
+nsBaseWidget
+>
+widget
+(
 mWidget
+)
+;
+widget
 -
 >
 NotifyCompositorSessionLost
