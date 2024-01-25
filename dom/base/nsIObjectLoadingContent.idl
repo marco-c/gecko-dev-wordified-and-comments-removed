@@ -111,15 +111,6 @@ unsigned
 long
 displayedType
 ;
-unsigned
-long
-getContentTypeForMIMEType
-(
-in
-AUTF8String
-aMimeType
-)
-;
 void
 reload
 (
