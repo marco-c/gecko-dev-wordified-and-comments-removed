@@ -6590,9 +6590,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -6699,9 +6696,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -6802,9 +6796,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -6905,9 +6896,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -7035,9 +7023,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -7461,9 +7446,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -7563,9 +7545,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -7665,9 +7644,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -7767,9 +7743,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -7869,9 +7842,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -7971,9 +7941,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -8073,9 +8040,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -8175,9 +8139,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -8277,9 +8238,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -8379,9 +8337,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -8481,9 +8436,6 @@ message
 matched
 .
 "
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -8582,9 +8534,6 @@ the
 message
 matched
 .
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -8694,9 +8643,6 @@ the
 message
 matched
 .
-isEarlyStartup
-:
-false
 schema
 :
 uri
@@ -8782,9 +8728,6 @@ background
 -
 task
 hasExposure
-:
-false
-isEarlyStartup
 :
 false
 variables
@@ -14548,9 +14491,6 @@ links
 in
 Firefox
 .
-isEarlyStartup
-:
-false
 variables
 :
 dualPrompt
