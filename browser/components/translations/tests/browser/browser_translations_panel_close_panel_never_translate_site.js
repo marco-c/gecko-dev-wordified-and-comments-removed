@@ -86,6 +86,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 waitForTranslationsPopupEvent
 (
 "
@@ -309,6 +311,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 waitForTranslationsPopupEvent
 (
 "
@@ -497,6 +501,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 waitForTranslationsPopupEvent
 (
 "
