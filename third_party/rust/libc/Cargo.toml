@@ -109,7 +109,7 @@ version
 .
 2
 .
-150
+152
 "
 authors
 =
@@ -332,6 +332,13 @@ extra_traits
 targets
 =
 [
+"
+aarch64
+-
+apple
+-
+darwin
+"
 "
 aarch64
 -

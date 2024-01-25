@@ -172,6 +172,14 @@ c_ulong
 ;
 pub
 type
+__ipc_pid_t
+=
+:
+:
+c_int
+;
+pub
+type
 Elf64_Half
 =
 u16

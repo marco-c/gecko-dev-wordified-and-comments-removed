@@ -69,7 +69,7 @@ The
 offset
 is
 the
-numer
+number
 of
 the
 first

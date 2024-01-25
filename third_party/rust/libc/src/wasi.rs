@@ -414,6 +414,13 @@ repr
 transparent
 )
 ]
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 struct
 clockid_t

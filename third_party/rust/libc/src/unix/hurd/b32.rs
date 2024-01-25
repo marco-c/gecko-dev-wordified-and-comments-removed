@@ -172,6 +172,14 @@ __uint64_t
 ;
 pub
 type
+__ipc_pid_t
+=
+:
+:
+c_ushort
+;
+pub
+type
 Elf32_Half
 =
 u16
