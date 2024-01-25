@@ -510,6 +510,11 @@ use_in_start_phase
 =
 false
 ;
+int
+min_num_observations
+=
+0
+;
 }
 ;
 struct
