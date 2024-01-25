@@ -838,10 +838,6 @@ runID
 ;
 HTMLObjectElement
 includes
-MozImageLoadingContent
-;
-HTMLObjectElement
-includes
 MozFrameLoaderOwner
 ;
 HTMLObjectElement
