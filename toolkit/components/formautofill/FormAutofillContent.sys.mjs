@@ -947,6 +947,15 @@ formSubmissionReason
 }
 )
 ;
+lazy
+.
+AutofillTelemetry
+.
+recordFormSubmissionHeuristicCount
+(
+formSubmissionReason
+)
+;
 if
 (
 !
