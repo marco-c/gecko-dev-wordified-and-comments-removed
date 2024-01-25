@@ -73,7 +73,7 @@ mochitest
 -
 errata
 .
-ini
+toml
 -
 testing
 /

@@ -49,7 +49,7 @@ xpcshell
 -
 phc
 .
-ini
+toml
 "
 "
 unit_ipc
@@ -58,7 +58,7 @@ xpcshell
 -
 phc
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS
@@ -242,7 +242,7 @@ and
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =

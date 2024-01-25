@@ -18,7 +18,7 @@ CONFIG
 -
 DIRS
 .
-ini
+toml
 "
 "
 test
@@ -29,7 +29,7 @@ CONFIG
 -
 HOME
 .
-ini
+toml
 "
 "
 test
@@ -1784,7 +1784,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 in
