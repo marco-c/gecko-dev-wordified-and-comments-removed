@@ -480,7 +480,7 @@ kL1T1
 }
 }
 bool
-configured_for_single_spatial_layer
+requested_single_spatial_layer
 =
 ScalabilityModeToNumSpatialLayers
 (
@@ -725,7 +725,7 @@ true
 }
 if
 (
-configured_for_single_spatial_layer
+requested_single_spatial_layer
 )
 {
 SpatialLayer
