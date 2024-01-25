@@ -2104,8 +2104,9 @@ enum
 class
 StringChar
 {
-CodeAt
-At
+CharCodeAt
+CodePointAt
+CharAt
 }
 ;
 enum
@@ -2799,6 +2800,11 @@ kind
 ;
 AttachDecision
 tryAttachStringCharCodeAt
+(
+)
+;
+AttachDecision
+tryAttachStringCodePointAt
 (
 )
 ;
