@@ -1151,6 +1151,7 @@ aInclusive
 SendAccessibilityFocusedEvent
 (
 result
+true
 )
 ;
 }
@@ -1230,6 +1231,7 @@ virtualViewID
 SendAccessibilityFocusedEvent
 (
 acc
+true
 )
 ;
 }
@@ -2570,6 +2572,8 @@ SendAccessibilityFocusedEvent
 Accessible
 *
 aAccessible
+bool
+aScrollIntoView
 )
 {
 MOZ_ASSERT
@@ -2611,6 +2615,11 @@ aAccessible
 nullptr
 )
 ;
+if
+(
+aScrollIntoView
+)
+{
 aAccessible
 -
 >
@@ -2622,6 +2631,7 @@ nsIAccessibleScrollType
 SCROLL_TYPE_ANYWHERE
 )
 ;
+}
 }
 void
 SessionAccessibility
