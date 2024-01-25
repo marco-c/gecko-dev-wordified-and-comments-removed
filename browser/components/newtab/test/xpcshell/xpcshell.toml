@@ -175,6 +175,13 @@ js
 ]
 [
 "
+test_HighlightsFeed
+.
+js
+"
+]
+[
+"
 test_InflightAssetsMessageProvider
 .
 js
