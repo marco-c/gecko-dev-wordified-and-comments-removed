@@ -83,7 +83,7 @@ JsonValue
 ;
 pub
 struct
-Store
+WebExtStorageStore
 {
 db
 :
@@ -93,7 +93,7 @@ ThreadSafeStorageDb
 >
 }
 impl
-Store
+WebExtStorageStore
 {
 pub
 fn
@@ -649,14 +649,10 @@ exist
 return
 Err
 (
-ErrorKind
+Error
 :
 :
 OtherConnectionReferencesExist
-.
-into
-(
-)
 )
 ;
 }
@@ -944,7 +940,7 @@ ensure_send
 :
 :
 <
-Store
+WebExtStorageStore
 >
 (
 )
@@ -957,9 +953,9 @@ new_mem_store
 )
 -
 >
-Store
+WebExtStorageStore
 {
-Store
+WebExtStorageStore
 {
 db
 :

@@ -253,7 +253,7 @@ crate
 error
 :
 :
-ErrorKind
+Error
 :
 :
 DatabaseConnectionClosed
@@ -1251,7 +1251,7 @@ crate
 error
 :
 :
-ErrorKind
+Error
 :
 :
 SyncError
@@ -1261,10 +1261,6 @@ value
 to_string
 (
 )
-)
-.
-into
-(
 )
 }
 }

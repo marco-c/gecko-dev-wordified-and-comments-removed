@@ -39,6 +39,8 @@ webext_storage
 store
 :
 :
+WebExtStorageStore
+as
 Store
 ;
 use
