@@ -733,6 +733,13 @@ html
 ]
 [
 "
+test_ext_browserSettings_overrideDocumentColors
+.
+html
+"
+]
+[
+"
 test_ext_browsingData_indexedDB
 .
 html
