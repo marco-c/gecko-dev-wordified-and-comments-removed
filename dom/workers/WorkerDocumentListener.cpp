@@ -296,9 +296,6 @@ aVisible
 WorkerRunnable
 (
 aWorkerPrivate
-"
-VisibleRunnable
-"
 )
 mVisible
 (

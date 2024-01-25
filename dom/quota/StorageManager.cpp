@@ -629,12 +629,6 @@ mProxy
 GetWorkerPrivate
 (
 )
-"
-RequestResolver
-:
-:
-FinishWorkerRunnable
-"
 )
 mResolver
 (

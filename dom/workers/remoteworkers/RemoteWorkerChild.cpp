@@ -600,9 +600,6 @@ aPortIdentifier
 WorkerRunnable
 (
 aWorkerPrivate
-"
-MessagePortIdentifierRunnable
-"
 )
 mActor
 (

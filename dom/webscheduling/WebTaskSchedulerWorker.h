@@ -61,7 +61,6 @@ dom
 {
 class
 WebTaskWorkerRunnable
-final
 :
 public
 WorkerSameThreadRunnable

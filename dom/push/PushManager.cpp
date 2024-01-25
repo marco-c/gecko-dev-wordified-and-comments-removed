@@ -599,9 +599,6 @@ aAppServerKey
 WorkerRunnable
 (
 aWorkerPrivate
-"
-GetSubscriptionResultRunnable
-"
 )
 mProxy
 (
@@ -1570,9 +1567,6 @@ aProxy
 GetWorkerPrivate
 (
 )
-"
-PermissionResultRunnable
-"
 )
 mProxy
 (
