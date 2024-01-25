@@ -40,15 +40,6 @@ res
 /
 android
 "
-package
-=
-"
-org
-.
-mozilla
-.
-geckoview_example
-"
 >
 <
 uses

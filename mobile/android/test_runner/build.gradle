@@ -275,6 +275,16 @@ project
 configureProductFlavors
 (
 )
+namespace
+'
+org
+.
+mozilla
+.
+geckoview
+.
+test_runner
+'
 }
 dependencies
 {

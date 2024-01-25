@@ -200,6 +200,16 @@ java
 }
 }
 }
+namespace
+'
+org
+.
+mozilla
+.
+geckoview
+.
+thirdparty
+'
 }
 apply
 plugin
@@ -301,7 +311,8 @@ type
 Jar
 )
 {
-classifier
+archiveClassifier
+=
 '
 sources
 '
