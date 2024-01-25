@@ -1082,7 +1082,7 @@ payload
 )
 ;
 void
-MaybeResetStreamsDeferredAndDeliverMessages
+MaybeDeliverMessages
 (
 )
 ;
