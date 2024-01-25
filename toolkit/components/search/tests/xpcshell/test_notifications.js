@@ -111,12 +111,13 @@ ADDED
 )
 ;
 await
-Services
+SearchTestUtils
 .
-search
-.
-addOpenSearchEngine
+promiseNewSearchEngine
 (
+{
+url
+:
 gDataUrl
 +
 "
@@ -124,7 +125,7 @@ engine
 .
 xml
 "
-null
+}
 )
 ;
 engine
