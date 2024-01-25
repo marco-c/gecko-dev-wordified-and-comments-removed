@@ -328,6 +328,13 @@ js
 ]
 [
 "
+browser_connection_valid_hostname
+.
+js
+"
+]
+[
+"
 browser_containers_name_input
 .
 js

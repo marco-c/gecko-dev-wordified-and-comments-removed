@@ -360,6 +360,14 @@ nsIURI
 aURI
 )
 ;
+boolean
+isValidHostname
+(
+in
+AUTF8String
+hostname
+)
+;
 attribute
 boolean
 manageOfflineStatus
