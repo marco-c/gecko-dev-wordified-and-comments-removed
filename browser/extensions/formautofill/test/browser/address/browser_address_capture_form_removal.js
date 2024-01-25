@@ -114,8 +114,7 @@ name
 "
 :
 "
-Test
-User
+John
 "
 organization
 :
