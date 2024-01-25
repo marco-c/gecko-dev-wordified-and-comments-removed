@@ -3299,9 +3299,9 @@ Captiontext
 COLOR
 (
 Inactivecaptiontext
-0x00
-0x00
-0x00
+0x6D
+0x6D
+0x6D
 )
 COLOR
 (
@@ -6481,6 +6481,11 @@ Field
 BIT_FOR
 (
 Fieldtext
+)
+|
+BIT_FOR
+(
+Inactivecaptiontext
 )
 |
 BIT_FOR
