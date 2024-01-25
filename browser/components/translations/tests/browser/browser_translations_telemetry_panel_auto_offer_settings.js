@@ -96,6 +96,8 @@ assertPanelDefaultView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsSettingsMenu
 (
 )

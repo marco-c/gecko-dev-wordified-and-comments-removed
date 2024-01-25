@@ -117,6 +117,8 @@ assertPanelRevisitView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsSettingsMenu
 (
 )
