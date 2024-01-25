@@ -53,6 +53,10 @@ needLocation
 true
 }
 ]
+yelpModifiers
+:
+[
+]
 }
 }
 ]
