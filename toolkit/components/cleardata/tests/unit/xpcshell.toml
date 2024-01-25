@@ -77,6 +77,13 @@ js
 ]
 [
 "
+test_fingerprinting_protection_state
+.
+js
+"
+]
+[
+"
 test_identity_credential_storage
 .
 js

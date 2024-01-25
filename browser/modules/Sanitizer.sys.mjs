@@ -5593,6 +5593,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_AUTH_CACHE
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_FINGERPRINTING_PROTECTION_STATE
 )
 ;
 }
@@ -5636,6 +5642,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_AUTH_CACHE
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_FINGERPRINTING_PROTECTION_STATE
 )
 ;
 }
