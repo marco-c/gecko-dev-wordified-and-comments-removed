@@ -5333,6 +5333,10 @@ deps
 [
 "
 :
+async_dns_resolver
+"
+"
+:
 async_resolver_interface
 "
 "
@@ -5393,6 +5397,10 @@ rtc_task_queue
 "
 "
 :
+socket
+"
+"
+:
 socket_address
 "
 "
@@ -5402,6 +5410,14 @@ socket_server
 "
 :
 timeutils
+"
+"
+.
+.
+/
+api
+:
+async_dns_resolver
 "
 "
 .
