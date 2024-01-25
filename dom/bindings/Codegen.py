@@ -28335,16 +28335,6 @@ aPrincipal
 Argument
 (
 "
-bool
-"
-"
-aInitStandardClasses
-"
-)
-            
-Argument
-(
-"
 JS
 :
 :
@@ -28625,8 +28615,6 @@ ToJSClass
 aOptions
                                              
 aPrincipal
-                                             
-aInitStandardClasses
                                              
 aReflector
 )
