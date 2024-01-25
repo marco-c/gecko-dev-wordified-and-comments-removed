@@ -10,16 +10,13 @@ def
 test_unique_id
 (
 bidi_session
+create_user_context
 )
 :
     
 first_context
 =
 await
-bidi_session
-.
-browser
-.
 create_user_context
 (
 )
@@ -34,10 +31,6 @@ str
 other_context
 =
 await
-bidi_session
-.
-browser
-.
 create_user_context
 (
 )
