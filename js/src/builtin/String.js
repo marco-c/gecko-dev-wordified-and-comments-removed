@@ -2949,6 +2949,11 @@ return
 result
 ;
 }
+SetIsInlinableLargeFunction
+(
+StringIteratorNext
+)
+;
 #
 if
 JS_HAS_INTL_API
