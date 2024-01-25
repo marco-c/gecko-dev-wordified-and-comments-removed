@@ -5,9 +5,6 @@ ProfileAdditionalInformation_h
 define
 ProfileAdditionalInformation_h
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 shared
@@ -16,8 +13,6 @@ libraries
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -58,9 +53,6 @@ mozilla
 struct
 ProfileGenerationAdditionalInformation
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 ProfileGenerationAdditionalInformation
 (
 )
@@ -151,8 +143,6 @@ const
 SharedLibraryInfo
 mSharedLibraries
 ;
-#
-endif
 }
 ;
 struct
@@ -222,9 +212,6 @@ Length
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 mAdditionalInformation
@@ -245,8 +232,6 @@ SizeOf
 )
 ;
 }
-#
-endif
 return
 size
 ;

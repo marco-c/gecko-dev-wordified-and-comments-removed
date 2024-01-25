@@ -225,9 +225,6 @@ endif
 namespace
 IPC
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 void
 IPC
 :
@@ -555,8 +552,6 @@ mEntries
 )
 ;
 }
-#
-endif
 void
 IPC
 :
@@ -581,9 +576,6 @@ paramType
 aParam
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 WriteParam
 (
 aWriter
@@ -592,8 +584,6 @@ aParam
 mSharedLibraries
 )
 ;
-#
-endif
 }
 bool
 IPC
@@ -618,9 +608,6 @@ paramType
 aResult
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 return
 ReadParam
 (
@@ -632,12 +619,5 @@ aResult
 mSharedLibraries
 )
 ;
-#
-else
-return
-true
-;
-#
-endif
 }
 }
