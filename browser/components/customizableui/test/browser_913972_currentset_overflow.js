@@ -175,12 +175,13 @@ overflowing
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 navbarTarget
 .
 childElementCount
-<
 oldChildCount
 "
 Should

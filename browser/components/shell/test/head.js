@@ -368,12 +368,13 @@ stat
 path
 )
 ;
-ok
+Assert
+.
+greater
 (
 info
 .
 size
->
 0
 "
 Screenshot

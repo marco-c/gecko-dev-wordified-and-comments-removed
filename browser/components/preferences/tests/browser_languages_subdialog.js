@@ -277,7 +277,9 @@ activeLanguages
 .
 children
 ;
-ok
+Assert
+.
+equal
 (
 activeLanguages
 [
@@ -285,8 +287,6 @@ activeLanguages
 ]
 .
 id
-=
-=
 "
 en
 -
@@ -310,7 +310,9 @@ set
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 activeLanguages
 [
@@ -320,8 +322,6 @@ activeLanguages
 firstChild
 .
 value
-=
-=
 "
 English
 (
@@ -353,7 +353,9 @@ resolved
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 activeLanguages
 [
@@ -361,8 +363,6 @@ activeLanguages
 ]
 .
 id
-=
-=
 "
 en
 -
@@ -386,7 +386,9 @@ set
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 activeLanguages
 [
@@ -396,8 +398,6 @@ activeLanguages
 firstChild
 .
 value
-=
-=
 "
 English
 [
@@ -428,7 +428,9 @@ en
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 activeLanguages
 [
@@ -438,8 +440,6 @@ activeLanguages
 firstChild
 .
 value
-=
-=
 "
 [
 foo

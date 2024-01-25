@@ -224,7 +224,9 @@ changed
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 JSON
 .
@@ -237,7 +239,6 @@ indexOf
 (
 aValue
 )
->
 -
 1
 "

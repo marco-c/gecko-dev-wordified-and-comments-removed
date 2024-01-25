@@ -782,7 +782,9 @@ restored
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -792,8 +794,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "

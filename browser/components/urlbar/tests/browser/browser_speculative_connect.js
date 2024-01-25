@@ -999,7 +999,9 @@ true
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 UrlbarTestUtils
 .
@@ -1007,7 +1009,6 @@ getResultCount
 (
 window
 )
->
 0
 "
 Has

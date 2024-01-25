@@ -65,7 +65,9 @@ matrix
 )
 "
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 content
 .
@@ -87,9 +89,6 @@ menu
 )
 .
 transform
-!
-=
-=
 defaultPos
 "
 Customize

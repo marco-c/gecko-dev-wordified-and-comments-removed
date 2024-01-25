@@ -502,12 +502,13 @@ now
 (
 )
 ;
-ok
+Assert
+.
+less
 (
 currentTime
 -
 closedTime
-<
 5000
 "
 Close

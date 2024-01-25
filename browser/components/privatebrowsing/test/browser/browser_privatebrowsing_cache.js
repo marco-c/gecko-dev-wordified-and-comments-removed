@@ -368,11 +368,11 @@ function
 nrEntriesP
 )
 {
-ok
+Assert
+.
+greaterOrEqual
 (
 nrEntriesP
->
-=
 1
 "
 Memory

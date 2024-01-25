@@ -340,14 +340,13 @@ rootVirtualList
 .
 maxRenderCountEstimate
 ;
-ok
+Assert
+.
+strictEqual
 (
 rootVirtualList
 .
 maxRenderCountEstimate
-=
-=
-=
 newMaxRenderCount
 The
 maxRenderCountEstimate

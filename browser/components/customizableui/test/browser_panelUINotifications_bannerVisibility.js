@@ -174,7 +174,9 @@ shown
 await
 labelPromise
 ;
-ok
+Assert
+.
+notEqual
 (
 banner
 .
@@ -184,8 +186,6 @@ getAttribute
 label
 "
 )
-!
-=
 "
 "
 "
@@ -387,7 +387,9 @@ shown
 await
 labelPromise
 ;
-ok
+Assert
+.
+notEqual
 (
 banner
 .
@@ -397,8 +399,6 @@ getAttribute
 label
 "
 )
-!
-=
 "
 "
 "
@@ -696,7 +696,9 @@ shown
 await
 labelPromise
 ;
-ok
+Assert
+.
+notEqual
 (
 banner
 .
@@ -706,8 +708,6 @@ getAttribute
 label
 "
 )
-!
-=
 "
 "
 "

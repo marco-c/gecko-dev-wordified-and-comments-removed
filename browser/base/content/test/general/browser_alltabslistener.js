@@ -635,11 +635,11 @@ aState
 aBrowser
 )
 {
-ok
+Assert
+.
+equal
 (
 aBrowser
-=
-=
 gTestBrowser
 aState
 +

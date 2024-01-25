@@ -328,10 +328,11 @@ concurrently
 }
 else
 {
-ok
+Assert
+.
+less
 (
 isRestoring
-<
 4
 "
 restoring

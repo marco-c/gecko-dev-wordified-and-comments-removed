@@ -1636,11 +1636,11 @@ notifyObj
 browser
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 notification
-!
-=
 null
 "
 Notification

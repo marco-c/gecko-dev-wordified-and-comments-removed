@@ -103,7 +103,9 @@ width
 }
 px
 ;
-ok
+Assert
+.
+less
 (
 container
 .
@@ -112,7 +114,6 @@ getBoundingClientRect
 )
 .
 width
-<
 window
 .
 innerWidth

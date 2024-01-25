@@ -739,7 +739,9 @@ temporary
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -749,8 +751,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -904,7 +904,9 @@ hidePopup
 await
 popupHidden
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -914,8 +916,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -964,7 +964,9 @@ promiseNewTab
 (
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -974,8 +976,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1138,7 +1138,9 @@ permanent
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1148,8 +1150,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1382,7 +1382,9 @@ notification
 await
 confirmationSaved
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1392,8 +1394,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1446,7 +1446,9 @@ promiseNewTab
 extensionNewTabUrl
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1456,8 +1458,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1554,7 +1554,9 @@ promiseNewTab
 extensionNewTabUrl
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1564,8 +1566,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1772,7 +1772,9 @@ temporary
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1782,8 +1784,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1975,7 +1975,9 @@ popupHidden
 await
 preferencesShown
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1985,8 +1987,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -2036,7 +2036,9 @@ promiseNewTab
 (
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -2046,8 +2048,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -2288,7 +2288,9 @@ temporary
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -2298,8 +2300,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -2798,7 +2798,9 @@ promiseNewTab
 (
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -2808,8 +2810,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -2894,7 +2894,9 @@ promiseNewTab
 (
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -2904,8 +2906,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "

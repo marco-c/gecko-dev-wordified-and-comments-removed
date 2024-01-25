@@ -1207,13 +1207,13 @@ node
 "
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 nodes
 .
 length
->
-=
 1
 "
 The

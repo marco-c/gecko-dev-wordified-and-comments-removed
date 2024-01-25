@@ -291,11 +291,11 @@ delta
 ms
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 delta
->
-=
 1000
 "
 Popup

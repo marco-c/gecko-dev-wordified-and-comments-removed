@@ -1327,13 +1327,13 @@ toolbarbutton
 .
 firstElementChild
 ;
-ok
+Assert
+.
+equal
 (
 buttonMenupopup
 .
 tagName
-=
-=
 "
 menupopup
 "

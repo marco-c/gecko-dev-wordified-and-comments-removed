@@ -567,12 +567,13 @@ expectedTab
 tabInfo
 )
 ;
-ok
+Assert
+.
+greater
 (
 tabInfo
 .
 lastAccessed
->
 lastAccessedTimes
 .
 get
@@ -680,7 +681,9 @@ x
 ]
 )
 ;
-ok
+Assert
+.
+greater
 (
 tabInfos
 [
@@ -688,7 +691,6 @@ x
 ]
 .
 lastAccessed
->
 lastAccessedTimes
 .
 get

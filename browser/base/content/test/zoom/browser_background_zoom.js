@@ -276,10 +276,11 @@ gTab1
 )
 )
 ;
-ok
+Assert
+.
+greater
 (
 gLevel
->
 1
 "
 New

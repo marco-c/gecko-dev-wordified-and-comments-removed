@@ -583,11 +583,11 @@ window
 return
 ;
 }
-ok
+Assert
+.
+greaterOrEqual
 (
 matchingIndex
->
-=
 0
 {
 msg

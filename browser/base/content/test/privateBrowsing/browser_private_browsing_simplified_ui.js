@@ -247,7 +247,9 @@ collapsed
 )
 )
 ;
-ok
+Assert
+.
+equal
 (
 bookmarksBar
 .
@@ -261,8 +263,6 @@ collapsed
 toString
 (
 )
-=
-=
 "
 false
 "

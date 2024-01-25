@@ -2212,12 +2212,11 @@ getZoomForBrowser
 browser
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 zoomLevel
-!
-=
-=
 1
 "
 should
@@ -2242,7 +2241,9 @@ crashFrame
 browser
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 ZoomManager
 .
@@ -2250,9 +2251,6 @@ getZoomForBrowser
 (
 browser
 )
-=
-=
-=
 1
 "
 zoom
@@ -2284,7 +2282,9 @@ restoreTab
 await
 tabRestoredPromise
 ;
-ok
+Assert
+.
+strictEqual
 (
 ZoomManager
 .
@@ -2292,9 +2292,6 @@ getZoomForBrowser
 (
 browser
 )
-=
-=
-=
 zoomLevel
 "
 zoom

@@ -487,10 +487,11 @@ now
 )
 ;
 }
-ok
+Assert
+.
+greater
 (
 recentFetchTime
->
 previousFetchTime
 "
 The

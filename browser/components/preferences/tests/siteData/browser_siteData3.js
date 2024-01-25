@@ -647,7 +647,9 @@ persistent
 "
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 parseFloat
 (
@@ -657,8 +659,6 @@ args
 .
 value
 )
->
-=
 parseFloat
 (
 value

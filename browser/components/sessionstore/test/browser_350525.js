@@ -512,10 +512,11 @@ getClosedTabCountForWindow
 window
 )
 ;
-ok
+Assert
+.
+greater
 (
 newcount
->
 count
 "
 after

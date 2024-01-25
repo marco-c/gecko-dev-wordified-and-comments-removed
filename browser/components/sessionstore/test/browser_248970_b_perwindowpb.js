@@ -874,7 +874,9 @@ removeTab
 tab_A
 )
 ;
-ok
+Assert
+.
+greater
 (
 ss
 .
@@ -882,7 +884,6 @@ getClosedTabCountForWindow
 (
 aWin
 )
->
 count
 "
 getClosedTabCountForWindow

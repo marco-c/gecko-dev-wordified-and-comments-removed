@@ -307,10 +307,11 @@ pageZoomLevel
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 pageZoomLevel
->
 100
 "
 Page

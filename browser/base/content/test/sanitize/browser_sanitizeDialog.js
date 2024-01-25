@@ -2868,12 +2868,13 @@ preference
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 cb
 .
 length
->
 1
 "
 found

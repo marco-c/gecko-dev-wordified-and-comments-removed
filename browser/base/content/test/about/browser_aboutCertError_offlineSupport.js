@@ -180,11 +180,11 @@ href
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 supportPageURL
-=
-=
 expectedURL
 +
 "

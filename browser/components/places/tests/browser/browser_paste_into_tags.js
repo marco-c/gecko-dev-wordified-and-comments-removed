@@ -368,13 +368,13 @@ getTagsForURI
 MOZURISPEC
 )
 ;
-ok
+Assert
+.
+equal
 (
 tags
 .
 length
-=
-=
 1
 "
 history

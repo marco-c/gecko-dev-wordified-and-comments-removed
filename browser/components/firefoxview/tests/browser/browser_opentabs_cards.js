@@ -2124,7 +2124,9 @@ getUpdateComplete
 (
 )
 ;
-ok
+Assert
+.
+less
 (
 (
 await
@@ -2135,7 +2137,6 @@ lastCard
 )
 .
 length
-<
 NUMBER_OF_TABS
 "
 Not

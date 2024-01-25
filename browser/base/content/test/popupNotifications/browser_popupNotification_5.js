@@ -1351,14 +1351,15 @@ event
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 this
 .
 notification
 .
 timeShown
->
 timeShown
 "
 should

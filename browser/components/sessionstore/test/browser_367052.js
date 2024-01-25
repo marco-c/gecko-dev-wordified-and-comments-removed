@@ -107,11 +107,11 @@ tab
 linkedBrowser
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 count
->
-=
 1
 "
 the

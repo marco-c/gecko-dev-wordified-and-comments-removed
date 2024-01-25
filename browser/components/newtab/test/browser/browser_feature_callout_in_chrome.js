@@ -5279,7 +5279,9 @@ dir
 rtl
 "
 ;
-ok
+Assert
+.
+strictEqual
 (
 win
 .
@@ -5293,9 +5295,6 @@ getAttribute
 dir
 "
 )
-=
-=
-=
 "
 rtl
 "

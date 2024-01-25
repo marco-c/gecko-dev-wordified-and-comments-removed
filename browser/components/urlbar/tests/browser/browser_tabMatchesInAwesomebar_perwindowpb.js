@@ -285,10 +285,11 @@ length
 }
 )
 ;
-ok
+Assert
+.
+less
 (
 sessionHistoryCount
-<
 2
 The
 test

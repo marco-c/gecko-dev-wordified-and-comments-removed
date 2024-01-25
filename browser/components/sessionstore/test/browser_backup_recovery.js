@@ -751,14 +751,13 @@ yet
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 Paths
 .
 upgradeBackup
-=
-=
-=
 "
 "
 "

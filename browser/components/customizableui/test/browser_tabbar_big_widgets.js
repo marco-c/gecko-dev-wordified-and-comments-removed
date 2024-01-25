@@ -112,10 +112,11 @@ getBoundingClientRect
 .
 height
 ;
-ok
+Assert
+.
+greater
 (
 currentHeight
->
 originalHeight
 "
 Titlebar

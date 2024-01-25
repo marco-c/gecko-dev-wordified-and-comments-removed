@@ -162,10 +162,11 @@ max_serialize_back
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 MAX_BACK
->
 -
 1
 "

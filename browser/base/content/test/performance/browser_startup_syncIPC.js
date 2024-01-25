@@ -1641,13 +1641,13 @@ shouldPass
 false
 ;
 }
-ok
+Assert
+.
+lessOrEqual
 (
 entry
 .
 useCount
-<
-=
 entry
 .
 maxCount

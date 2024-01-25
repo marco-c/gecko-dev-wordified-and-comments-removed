@@ -252,10 +252,11 @@ gTab1
 )
 )
 ;
-ok
+Assert
+.
+greater
 (
 gLevel1
->
 1
 "
 New
@@ -394,10 +395,11 @@ gTab2
 )
 )
 ;
-ok
+Assert
+.
+less
 (
 level2
-<
 1
 "
 New

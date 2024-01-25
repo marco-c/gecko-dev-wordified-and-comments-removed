@@ -1753,14 +1753,14 @@ than
 expected
 ;
 }
-ok
+Assert
+.
+greaterOrEqual
 (
 entry
 [
 op
 ]
->
-=
 0
 {
 message

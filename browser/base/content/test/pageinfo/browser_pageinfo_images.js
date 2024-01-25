@@ -125,11 +125,11 @@ broken
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 imageRowsNum
-=
-=
 7
 "
 Number

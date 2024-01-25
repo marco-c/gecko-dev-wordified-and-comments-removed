@@ -239,11 +239,11 @@ concurrently
 }
 else
 {
-ok
+Assert
+.
+lessOrEqual
 (
 isRestoring
-<
-=
 3
 "
 restoring

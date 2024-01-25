@@ -2044,10 +2044,11 @@ reports
 .
 length
 ;
-ok
+Assert
+.
+greater
 (
 secondLen
->
 firstLen
 "
 After
@@ -2779,7 +2780,9 @@ at
 1
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 last
 .
@@ -2788,8 +2791,6 @@ timestamp
 first
 .
 timestamp
-<
-=
 STORAGE_WINDOW_S
 *
 1000

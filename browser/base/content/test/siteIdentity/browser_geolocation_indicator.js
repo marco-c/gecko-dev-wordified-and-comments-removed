@@ -938,11 +938,11 @@ lastAccess
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 timestamp
-!
-=
 null
 "
 Geo

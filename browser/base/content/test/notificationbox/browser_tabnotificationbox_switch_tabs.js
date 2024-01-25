@@ -82,11 +82,11 @@ _stack
 .
 parentElement
 ;
-ok
+Assert
+.
+notEqual
 (
 selectedViewName
-!
-=
 name
 Box
 is

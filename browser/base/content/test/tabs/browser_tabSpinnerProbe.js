@@ -257,7 +257,9 @@ removeTab
 hangTab
 )
 ;
-ok
+Assert
+.
+greater
 (
 sum
 (
@@ -270,7 +272,6 @@ snapshot
 values
 )
 )
->
 0
 Spinner
 probe

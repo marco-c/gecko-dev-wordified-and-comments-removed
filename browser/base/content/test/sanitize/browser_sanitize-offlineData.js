@@ -465,13 +465,13 @@ origin
 "
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 principals
 .
 length
->
-=
 2
 "
 We
