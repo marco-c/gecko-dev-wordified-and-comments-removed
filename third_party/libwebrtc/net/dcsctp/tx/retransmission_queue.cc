@@ -517,12 +517,10 @@ my_initial_tsn
 this
 ]
 (
-IsUnordered
-unordered
 StreamID
 stream_id
-MID
-mid
+OutgoingMessageId
+message_id
 )
 {
 return
@@ -530,9 +528,8 @@ send_queue_
 .
 Discard
 (
-unordered
 stream_id
-mid
+message_id
 )
 ;
 }
@@ -2318,6 +2315,10 @@ outstanding_data_
 .
 Insert
 (
+chunk_opt
+-
+>
+message_id
 chunk_opt
 -
 >
