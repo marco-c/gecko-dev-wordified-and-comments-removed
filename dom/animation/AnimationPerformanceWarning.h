@@ -49,8 +49,6 @@ ContentTooLarge
 ContentTooLargeArea
 TransformBackfaceVisibilityHidden
 TransformSVG
-TransformWithGeometricProperties
-TransformWithSyncGeometricAnimations
 TransformFrameInactive
 TransformIsBlockedByImportantRules
 OpacityFrameInactive
