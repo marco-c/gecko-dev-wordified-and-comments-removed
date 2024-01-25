@@ -2805,6 +2805,14 @@ rtc_p2p
 /
 api
 :
+async_dns_resolver
+"
+"
+.
+.
+/
+api
+:
 packet_socket_factory
 "
 "

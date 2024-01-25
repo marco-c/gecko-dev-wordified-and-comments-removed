@@ -1449,12 +1449,13 @@ address
 void
 OnResolveResult
 (
-rtc
+const
+webrtc
 :
 :
-AsyncResolverInterface
-*
-resolver
+AsyncDnsResolverResult
+&
+result
 )
 ;
 void

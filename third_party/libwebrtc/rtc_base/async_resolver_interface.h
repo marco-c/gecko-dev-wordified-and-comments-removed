@@ -50,6 +50,17 @@ namespace
 rtc
 {
 class
+[
+[
+deprecated
+(
+"
+Use
+AsyncDnsResolver
+"
+)
+]
+]
 RTC_EXPORT
 AsyncResolverInterface
 {
