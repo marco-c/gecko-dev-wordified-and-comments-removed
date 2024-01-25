@@ -483,12 +483,6 @@ mInstanceCount
 ;
 nsCOMPtr
 <
-nsISerialEventTarget
->
-mIntermediatePreloadingHealerTaskQueue
-;
-nsCOMPtr
-<
 nsITimer
 >
 mIntermediatePreloadingHealerTimer
