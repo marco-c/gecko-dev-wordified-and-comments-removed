@@ -312,15 +312,6 @@ CanvasChild
 >
 mCanvasChild
 ;
-RefPtr
-<
-webgpu
-:
-:
-WebGPUChild
->
-mWebGPUChild
-;
 UniquePtr
 <
 layers
