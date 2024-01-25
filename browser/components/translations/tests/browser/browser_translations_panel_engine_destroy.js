@@ -51,6 +51,8 @@ available
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {

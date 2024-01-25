@@ -68,6 +68,8 @@ runInPage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {
@@ -284,6 +286,8 @@ runInPage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {
@@ -318,6 +322,8 @@ runInPage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {
@@ -548,6 +554,8 @@ available
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {
@@ -635,6 +643,8 @@ runInPage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {

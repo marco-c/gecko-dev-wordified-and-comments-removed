@@ -30,6 +30,8 @@ LANGUAGE_PAIRS
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {

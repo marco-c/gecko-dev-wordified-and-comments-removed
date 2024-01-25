@@ -68,6 +68,8 @@ runInPage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {
