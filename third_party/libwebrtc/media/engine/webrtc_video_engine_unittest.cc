@@ -17716,14 +17716,6 @@ parameters
 )
 )
 ;
-send_channel_
--
->
-SetVideoCodecSwitchingEnabled
-(
-true
-)
-;
 auto
 send_codecs
 =

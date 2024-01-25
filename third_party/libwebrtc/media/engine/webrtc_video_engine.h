@@ -1294,14 +1294,6 @@ encoder_selector
 override
 ;
 void
-SetVideoCodecSwitchingEnabled
-(
-bool
-enabled
-)
-override
-;
-void
 SetSendCodecChangedCallback
 (
 absl
@@ -2835,11 +2827,6 @@ RTC_GUARDED_BY
 (
 thread_checker_
 )
-;
-bool
-allow_codec_switching_
-=
-false
 ;
 webrtc
 :
