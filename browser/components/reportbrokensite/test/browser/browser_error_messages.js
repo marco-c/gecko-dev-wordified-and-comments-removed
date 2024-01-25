@@ -270,7 +270,7 @@ isReasonNeededMessageShown
 ;
 rbs
 .
-close
+clickCancel
 (
 )
 ;
