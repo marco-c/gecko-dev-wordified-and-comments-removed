@@ -8028,14 +8028,6 @@ ShouldHideObjectOrEmbedImageDocument
 )
 ;
 static
-uint32_t
-ResolveObjectType
-(
-uint32_t
-aType
-)
-;
-static
 nsresult
 EnsureAndLoadStringBundle
 (
