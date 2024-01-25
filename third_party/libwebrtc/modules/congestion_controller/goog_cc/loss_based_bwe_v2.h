@@ -103,12 +103,15 @@ LossBasedState
 kIncreasing
 =
 0
-kDecreasing
+kIncreaseUsingPadding
 =
 1
-kDelayBasedEstimate
+kDecreasing
 =
 2
+kDelayBasedEstimate
+=
+3
 }
 ;
 class

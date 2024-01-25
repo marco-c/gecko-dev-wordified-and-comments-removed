@@ -719,6 +719,9 @@ last_pushback_target_rate_
 DataRate
 last_stable_target_rate_
 ;
+LossBasedState
+last_loss_base_state_
+;
 absl
 :
 :
