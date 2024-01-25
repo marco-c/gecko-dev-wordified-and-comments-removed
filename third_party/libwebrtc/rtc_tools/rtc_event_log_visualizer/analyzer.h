@@ -280,6 +280,14 @@ plot
 )
 ;
 void
+CreateOutgoingTWCCLossRateGraph
+(
+Plot
+*
+plot
+)
+;
+void
 CreateGoogCcSimulationGraph
 (
 Plot
