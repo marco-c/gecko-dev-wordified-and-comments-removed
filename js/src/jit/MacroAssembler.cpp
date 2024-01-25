@@ -17157,6 +17157,13 @@ Volatile
 )
 )
 ;
+regs
+.
+takeUnchecked
+(
+scratch2
+)
+;
 LiveRegisterSet
 save
 (
@@ -17170,13 +17177,6 @@ asLiveSet
 PushRegsInMask
 (
 save
-)
-;
-regs
-.
-takeUnchecked
-(
-scratch2
 )
 ;
 Register
