@@ -2994,16 +2994,6 @@ linkCompiledCode
 JitContext
 jcx
 ;
-metadata_
--
->
-featureUsage
-|
-=
-code
-.
-featureUsage
-;
 if
 (
 !

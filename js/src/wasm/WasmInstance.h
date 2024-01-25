@@ -1223,11 +1223,7 @@ Spec
 void
 setPendingException
 (
-Handle
-<
-WasmExceptionObject
-*
->
+HandleAnyRef
 exn
 )
 ;

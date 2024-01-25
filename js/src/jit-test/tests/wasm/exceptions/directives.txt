@@ -17,16 +17,6 @@ also
 -
 wasm
 -
-exnref
-;
-test
--
-also
-=
--
--
-wasm
--
 compiler
 =
 optimizing

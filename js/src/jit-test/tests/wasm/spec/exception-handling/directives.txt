@@ -103,12 +103,6 @@ wasm
 -
 exceptions
 ;
--
--
-wasm
--
-exnref
-;
 skip
 -
 if

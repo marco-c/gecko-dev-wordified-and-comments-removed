@@ -6145,7 +6145,7 @@ g2
 register
 (
 28
-M3
+M
 )
 ;
 let
@@ -6206,7 +6206,7 @@ func
 (
 import
 "
-M3
+M
 "
 "
 g
@@ -6353,7 +6353,7 @@ g2
 register
 (
 30
-M4
+M
 )
 ;
 let
@@ -6475,7 +6475,7 @@ func
 (
 import
 "
-M4
+M
 "
 "
 g
@@ -6587,7 +6587,7 @@ g2
 register
 (
 32
-M5
+M
 )
 ;
 assert_unlinkable
@@ -6651,7 +6651,7 @@ func
 (
 import
 "
-M5
+M
 "
 "
 g
@@ -6766,7 +6766,7 @@ g
 register
 (
 33
-M6
+M
 )
 ;
 let
@@ -6853,7 +6853,7 @@ func
 (
 import
 "
-M6
+M
 "
 "
 g
@@ -7020,7 +7020,7 @@ h
 register
 (
 35
-M7
+M
 )
 ;
 let
@@ -7162,7 +7162,7 @@ func
 (
 import
 "
-M7
+M
 "
 "
 h
@@ -7178,7 +7178,7 @@ func
 (
 import
 "
-M7
+M
 "
 "
 h
@@ -7313,7 +7313,7 @@ unreachable
 register
 (
 37
-M8
+M
 )
 ;
 let
@@ -7404,7 +7404,7 @@ func
 (
 import
 "
-M8
+M
 "
 "
 f11
@@ -7420,7 +7420,7 @@ func
 (
 import
 "
-M8
+M
 "
 "
 f11
@@ -7436,7 +7436,7 @@ func
 (
 import
 "
-M8
+M
 "
 "
 f12
@@ -7452,7 +7452,7 @@ func
 (
 import
 "
-M8
+M
 "
 "
 f12
@@ -7665,7 +7665,7 @@ unreachable
 register
 (
 39
-M9
+M
 )
 ;
 let
@@ -7834,7 +7834,7 @@ func
 (
 import
 "
-M9
+M
 "
 "
 g11
@@ -7850,7 +7850,7 @@ func
 (
 import
 "
-M9
+M
 "
 "
 g11
@@ -7866,7 +7866,7 @@ func
 (
 import
 "
-M9
+M
 "
 "
 g12
@@ -7882,7 +7882,7 @@ func
 (
 import
 "
-M9
+M
 "
 "
 g12
@@ -7898,7 +7898,7 @@ func
 (
 import
 "
-M9
+M
 "
 "
 g11
@@ -7914,7 +7914,7 @@ func
 (
 import
 "
-M9
+M
 "
 "
 g11
@@ -7930,7 +7930,7 @@ func
 (
 import
 "
-M9
+M
 "
 "
 g12
@@ -7946,7 +7946,7 @@ func
 (
 import
 "
-M9
+M
 "
 "
 g12
@@ -8034,7 +8034,7 @@ f21
 register
 (
 41
-M10
+M
 )
 ;
 assert_unlinkable
@@ -8076,7 +8076,7 @@ func
 (
 import
 "
-M10
+M
 "
 "
 f
@@ -8191,7 +8191,7 @@ f21
 register
 (
 42
-M11
+M
 )
 ;
 assert_unlinkable
@@ -8257,7 +8257,7 @@ func
 (
 import
 "
-M11
+M
 "
 "
 f

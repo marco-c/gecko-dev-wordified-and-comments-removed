@@ -85,7 +85,7 @@ tbl
 (
 table
 1
-funcref
+anyfunc
 )
 )
 (
@@ -140,7 +140,7 @@ tbl
 (
 table
 1
-funcref
+anyfunc
 )
 )
 (
@@ -195,7 +195,7 @@ initial
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )

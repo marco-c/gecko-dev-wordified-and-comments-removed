@@ -5358,17 +5358,6 @@ instance
 useCounter
 )
 ;
-SetUseCountersForFeatureUsage
-(
-cx
-instance
-metadata
-(
-)
-.
-featureUsage
-)
-;
 if
 (
 cx

@@ -947,7 +947,7 @@ maximum
 '
 '
 }
-funcref
+anyfunc
 )
 )
 )
@@ -1013,7 +1013,7 @@ maximum
 '
 '
 }
-funcref
+anyfunc
 )
 )
 pattern
@@ -1071,7 +1071,7 @@ maximum
 element
 :
 '
-funcref
+anyfunc
 '
 }
 )
@@ -1133,7 +1133,7 @@ maximum
 '
 '
 }
-funcref
+anyfunc
 )
 )
 )
@@ -1184,7 +1184,7 @@ maximum
 element
 :
 '
-funcref
+anyfunc
 '
 }
 )
@@ -1289,7 +1289,7 @@ maximum
 '
 '
 }
-funcref
+anyfunc
 )
 )
 )
@@ -1316,7 +1316,7 @@ maximum
 element
 :
 '
-funcref
+anyfunc
 '
 }
 )

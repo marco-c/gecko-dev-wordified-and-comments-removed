@@ -2168,7 +2168,7 @@ t1
 register
 (
 13
-Mr1
+M
 )
 ;
 let
@@ -2201,7 +2201,7 @@ func
 (
 import
 "
-Mr1
+M
 "
 "
 f
@@ -2327,7 +2327,7 @@ t3
 register
 (
 15
-Mr2
+M
 )
 ;
 let
@@ -2390,7 +2390,7 @@ func
 (
 import
 "
-Mr2
+M
 "
 "
 f1
@@ -2409,7 +2409,7 @@ func
 (
 import
 "
-Mr2
+M
 "
 "
 f2
@@ -2428,7 +2428,7 @@ func
 (
 import
 "
-Mr2
+M
 "
 "
 f3
@@ -2554,7 +2554,7 @@ t3
 register
 (
 17
-Mr3
+M
 )
 ;
 let
@@ -2617,7 +2617,7 @@ func
 (
 import
 "
-Mr3
+M
 "
 "
 f1
@@ -2636,7 +2636,7 @@ func
 (
 import
 "
-Mr3
+M
 "
 "
 f2
@@ -2655,7 +2655,7 @@ func
 (
 import
 "
-Mr3
+M
 "
 "
 f3
@@ -2829,7 +2829,7 @@ t3
 register
 (
 19
-Mr4
+M
 )
 ;
 let
@@ -2940,7 +2940,7 @@ func
 (
 import
 "
-Mr4
+M
 "
 "
 f1
@@ -2959,7 +2959,7 @@ func
 (
 import
 "
-Mr4
+M
 "
 "
 f2
@@ -2978,7 +2978,7 @@ func
 (
 import
 "
-Mr4
+M
 "
 "
 f3

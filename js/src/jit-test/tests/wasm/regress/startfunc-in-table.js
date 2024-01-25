@@ -13,7 +13,7 @@ start
 table
 0
 1
-funcref
+anyfunc
 )
 (
 elem

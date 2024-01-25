@@ -4512,7 +4512,7 @@ void
 loadTag
 (
 RegPtr
-instance
+instanceData
 uint32_t
 tagIndex
 RegRef
@@ -4522,8 +4522,6 @@ tagDst
 void
 consumePendingException
 (
-RegPtr
-instance
 RegRef
 *
 exnDst
