@@ -2117,16 +2117,6 @@ data
 jsonUrl
 "
 ]
-.
-replace
-(
-"
-www
-.
-"
-"
-"
-)
         
 results_of_test
 =
