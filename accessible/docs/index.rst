@@ -86,3 +86,4 @@ DocumentAccessibilityLifecycle
 GeckoViewThreadTopography
 ColorsAndHighContrastMode
 HCMSettings
+HCMMediaQueries
