@@ -1693,6 +1693,24 @@ icu_locid_transform
 ICU4X_LICENSE_SHA256
         
 "
+icu_locid_transform_data
+"
+:
+ICU4X_LICENSE_SHA256
+        
+"
+icu_properties
+"
+:
+ICU4X_LICENSE_SHA256
+        
+"
+icu_properties_data
+"
+:
+ICU4X_LICENSE_SHA256
+        
+"
 icu_provider
 "
 :
