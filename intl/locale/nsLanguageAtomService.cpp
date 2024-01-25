@@ -100,6 +100,15 @@ ServoUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
 using
 namespace
 mozilla
@@ -458,7 +467,7 @@ x_tibt
 }
 ;
 static
-UniquePtr
+StaticAutoPtr
 <
 nsLanguageAtomService
 >
@@ -481,10 +490,8 @@ gLangAtomService
 {
 gLangAtomService
 =
-MakeUnique
-<
+new
 nsLanguageAtomService
->
 (
 )
 ;
