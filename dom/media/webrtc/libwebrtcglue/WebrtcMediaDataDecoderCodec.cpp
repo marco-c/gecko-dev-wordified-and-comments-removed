@@ -418,7 +418,7 @@ FromMicroseconds
 (
 aInputImage
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -631,7 +631,7 @@ set_timestamp_rtp
 (
 aInputImage
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
