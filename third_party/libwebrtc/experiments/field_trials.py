@@ -4681,23 +4681,6 @@ FieldTrial
 '
 WebRTC
 -
-QuickPerfTest
-'
-               
-'
-webrtc
-:
-7101
-'
-               
-INDEFINITE
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 RtcEventLogKillSwitch
 '
                

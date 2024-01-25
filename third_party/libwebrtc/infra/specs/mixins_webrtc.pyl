@@ -980,14 +980,7 @@ args
 '
 -
 -
-force_fieldtrials
-=
-WebRTC
--
-QuickPerfTest
-/
-Enabled
-/
+webrtc_quick_perf_test
 '
 '
 -
