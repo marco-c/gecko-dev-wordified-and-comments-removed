@@ -305,6 +305,12 @@ nsPIDOMWindowInner
 aWindow
 )
 {
+NS_ENSURE_TRUE
+(
+aWindow
+false
+)
+;
 dom
 :
 :
