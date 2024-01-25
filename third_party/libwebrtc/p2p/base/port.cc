@@ -1032,11 +1032,11 @@ RTC_DCHECK_RUN_ON
 thread_
 )
 ;
-CancelPendingTasks
+DestroyAllConnections
 (
 )
 ;
-DestroyAllConnections
+CancelPendingTasks
 (
 )
 ;

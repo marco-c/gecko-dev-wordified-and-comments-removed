@@ -452,6 +452,17 @@ active
 const
 ;
 bool
+pending_delete
+(
+)
+const
+{
+return
+!
+port_
+;
+}
+bool
 dead
 (
 int64_t
