@@ -3393,7 +3393,7 @@ COLOR
 Infobackground
 0xFF
 0xFF
-0xE1
+0xFF
 )
 COLOR
 (
@@ -6511,6 +6511,11 @@ Background
 BIT_FOR
 (
 Inactivecaption
+)
+|
+BIT_FOR
+(
+Infobackground
 )
 |
 BIT_FOR
