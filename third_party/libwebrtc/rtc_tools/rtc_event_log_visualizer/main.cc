@@ -4481,6 +4481,9 @@ collection
 .
 AppendNewPlot
 (
+plot
+.
+label
 )
 ;
 plot
@@ -4488,16 +4491,6 @@ plot
 plot_func
 (
 output
-)
-;
-output
--
->
-SetId
-(
-plot
-.
-label
 )
 ;
 }
