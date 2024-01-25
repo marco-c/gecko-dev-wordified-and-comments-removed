@@ -63,6 +63,10 @@ in
 "
 ansicon
 "
+    
+"
+pip
+"
 }
 class
 VendorPython
