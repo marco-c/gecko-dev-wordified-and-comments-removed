@@ -480,10 +480,7 @@ transport
 {
 CreateSenderCall
 (
-Call
-:
-:
-Config
+CallConfig
 (
 send_event_log_
 .

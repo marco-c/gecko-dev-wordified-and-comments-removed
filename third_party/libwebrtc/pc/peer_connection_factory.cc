@@ -1997,13 +1997,7 @@ worker_thread
 )
 )
 ;
-webrtc
-:
-:
-Call
-:
-:
-Config
+CallConfig
 call_config
 (
 event_log
@@ -2324,14 +2318,6 @@ configuration
 pacer_burst_interval
 ;
 return
-std
-:
-:
-unique_ptr
-<
-Call
->
-(
 context_
 -
 >
@@ -2343,7 +2329,6 @@ call_factory
 CreateCall
 (
 call_config
-)
 )
 ;
 }
