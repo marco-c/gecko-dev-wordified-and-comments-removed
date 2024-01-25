@@ -3285,9 +3285,9 @@ Activecaption
 COLOR
 (
 Inactivecaption
-0xF0
-0xF0
-0xF4
+0xFF
+0xFF
+0xFF
 )
 COLOR
 (
@@ -6511,6 +6511,11 @@ Appworkspace
 BIT_FOR
 (
 Background
+)
+|
+BIT_FOR
+(
+Inactivecaption
 )
 |
 BIT_FOR
