@@ -403,6 +403,16 @@ empty
 )
 )
 {
+const
+SourceId
+token_id
+=
+selected_source_id_
+?
+selected_source_id_
+:
+source_id_
+;
 RestoreTokenManager
 :
 :
@@ -412,7 +422,7 @@ GetInstance
 .
 AddToken
 (
-source_id_
+token_id
 screencast_portal
 -
 >
@@ -652,7 +662,7 @@ GetInstance
 (
 )
 .
-TakeToken
+GetToken
 (
 selected_source_id_
 )

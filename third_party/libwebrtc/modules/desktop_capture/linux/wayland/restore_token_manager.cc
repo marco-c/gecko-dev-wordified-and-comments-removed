@@ -81,7 +81,7 @@ string
 RestoreTokenManager
 :
 :
-TakeToken
+GetToken
 (
 DesktopCapturer
 :
@@ -90,6 +90,7 @@ SourceId
 id
 )
 {
+const
 std
 :
 :
@@ -100,13 +101,6 @@ restore_tokens_
 [
 id
 ]
-;
-restore_tokens_
-.
-erase
-(
-id
-)
 ;
 return
 token
