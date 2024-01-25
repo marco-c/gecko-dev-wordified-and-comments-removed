@@ -547,7 +547,6 @@ LazySend
 async
 UpdateDocumentURI
 (
-nullable
 nsIURI
 aUri
 )
@@ -751,7 +750,6 @@ singleChannelId
 async
 SetDocumentDomain
 (
-nullable
 nsIURI
 aDomain
 )

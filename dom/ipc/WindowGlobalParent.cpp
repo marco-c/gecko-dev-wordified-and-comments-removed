@@ -2362,8 +2362,11 @@ WindowGlobalParent
 :
 RecvUpdateDocumentURI
 (
+NotNull
+<
 nsIURI
 *
+>
 aURI
 )
 {
@@ -7219,8 +7222,11 @@ WindowGlobalParent
 :
 RecvSetDocumentDomain
 (
+NotNull
+<
 nsIURI
 *
+>
 aDomain
 )
 {
@@ -7292,10 +7298,6 @@ IPC_OK
 }
 if
 (
-!
-aDomain
-|
-|
 !
 Document
 :

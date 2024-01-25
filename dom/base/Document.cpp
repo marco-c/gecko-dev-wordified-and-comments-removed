@@ -42992,7 +42992,10 @@ wgc
 >
 SendSetDocumentDomain
 (
+WrapNotNull
+(
 newURI
+)
 )
 ;
 }
