@@ -400,6 +400,17 @@ JS
 Value
 >
 reason
+JS
+:
+:
+Handle
+<
+SavedFrame
+*
+>
+unwrappedRejectionStack
+=
+nullptr
 )
 ;
 [

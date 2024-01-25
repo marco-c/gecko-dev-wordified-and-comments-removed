@@ -3786,6 +3786,12 @@ case
 JSOp
 :
 :
+AsyncReject
+:
+case
+JSOp
+:
+:
 CheckResumeKind
 :
 case
