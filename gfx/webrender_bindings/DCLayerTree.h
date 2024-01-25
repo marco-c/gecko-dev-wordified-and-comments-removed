@@ -85,6 +85,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -1080,7 +1089,7 @@ mOutputColorProfile
 protected
 :
 static
-UniquePtr
+StaticAutoPtr
 <
 GpuOverlayInfo
 >

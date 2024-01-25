@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-UniquePtr
+StaticPtr
 .
 h
 "
@@ -59,7 +59,7 @@ namespace
 gfx
 {
 static
-UniquePtr
+StaticAutoPtr
 <
 gfxConfig
 >
@@ -1503,13 +1503,8 @@ Init
 {
 sConfig
 =
-mozilla
-:
-:
-MakeUnique
-<
+new
 gfxConfig
->
 (
 )
 ;
