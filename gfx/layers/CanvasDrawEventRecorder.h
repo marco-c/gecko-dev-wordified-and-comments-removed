@@ -243,6 +243,8 @@ CrossProcessSemaphoreHandle
 &
 &
 aWriterSem
+bool
+aUseIPDLThread
 )
 =
 0

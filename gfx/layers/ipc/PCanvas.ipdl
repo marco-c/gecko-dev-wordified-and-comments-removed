@@ -147,6 +147,8 @@ CrossProcessSemaphoreHandle
 aReaderSem
 CrossProcessSemaphoreHandle
 aWriterSem
+bool
+aUseIPDLThread
 )
 ;
 async

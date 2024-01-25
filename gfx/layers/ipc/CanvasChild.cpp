@@ -221,6 +221,8 @@ CrossProcessSemaphoreHandle
 &
 &
 aWriterSem
+bool
+aUseIPDLThread
 )
 override
 {
@@ -279,6 +281,7 @@ move
 (
 aWriterSem
 )
+aUseIPDLThread
 )
 ;
 }
