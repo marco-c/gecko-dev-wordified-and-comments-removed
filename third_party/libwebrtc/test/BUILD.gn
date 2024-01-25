@@ -7035,13 +7035,6 @@ test_flags
 "
 )
 {
-visibility
-=
-[
-"
-*
-"
-]
 testonly
 =
 true
