@@ -32,6 +32,6 @@ MOCHITEST_MANIFESTS
 "
 test
 .
-ini
+toml
 "
 ]

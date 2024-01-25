@@ -49,6 +49,6 @@ xpcshell
 -
 smartcards
 .
-ini
+toml
 "
 ]
