@@ -888,10 +888,6 @@ ConsumeBits
 uint32_t
 slice_type
 =
-0
-;
-slice_type
-=
 slice_reader
 .
 ReadExponentialGolomb
@@ -1590,6 +1586,8 @@ num_pic_total_curr
 ;
 uint32_t
 curr_sps_idx
+=
+0
 ;
 if
 (
