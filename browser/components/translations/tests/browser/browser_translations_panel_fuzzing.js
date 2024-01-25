@@ -374,9 +374,9 @@ destroyEngineProcess
 )
 ;
 await
-TranslationsParent
+EngineProcess
 .
-destroyEngineProcess
+destroyTranslationsEngine
 (
 )
 ;
