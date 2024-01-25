@@ -2261,8 +2261,6 @@ report
 .
 packet_feedbacks
 delay_based_limit_
-delay_detector_state
-probe_bitrate
 in_alr
 )
 ;
