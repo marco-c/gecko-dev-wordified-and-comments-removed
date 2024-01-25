@@ -87,6 +87,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "
@@ -107,6 +109,8 @@ clickNeverTranslateLanguage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "
@@ -304,6 +308,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "
@@ -324,6 +330,8 @@ clickNeverTranslateLanguage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "
@@ -451,6 +459,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -464,6 +474,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "
@@ -489,6 +501,8 @@ resolveDownloads
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -502,6 +516,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "
@@ -548,6 +564,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -561,6 +579,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "
@@ -581,6 +601,8 @@ clickNeverTranslateLanguage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -594,6 +616,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "

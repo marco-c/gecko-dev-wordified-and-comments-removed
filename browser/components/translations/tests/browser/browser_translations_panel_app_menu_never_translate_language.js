@@ -105,6 +105,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "
@@ -125,6 +127,8 @@ clickNeverTranslateLanguage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "

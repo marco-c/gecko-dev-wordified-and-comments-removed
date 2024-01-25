@@ -87,6 +87,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
@@ -105,6 +107,8 @@ clickNeverTranslateSite
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
@@ -345,6 +349,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
@@ -363,6 +369,8 @@ clickNeverTranslateSite
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
@@ -581,6 +589,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -594,6 +604,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
@@ -617,6 +629,8 @@ resolveDownloads
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -630,6 +644,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
@@ -674,6 +690,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -687,6 +705,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
@@ -705,6 +725,8 @@ clickNeverTranslateSite
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -718,6 +740,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
