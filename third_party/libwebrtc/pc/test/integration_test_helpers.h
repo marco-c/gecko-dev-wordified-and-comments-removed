@@ -1306,6 +1306,16 @@ SessionDescription
 desc
 )
 ;
+void
+ReplaceFirstSsrc
+(
+StreamParams
+&
+stream
+uint32_t
+ssrc
+)
+;
 int
 FindFirstMediaStatsIndexByKind
 (
