@@ -105,6 +105,12 @@ GetTopLeft
 ;
 virtual
 bool
+ShouldBeCapturable
+(
+)
+;
+virtual
+bool
 IsCapturable
 (
 )
@@ -450,6 +456,12 @@ Graphics
 :
 SizeInt32
 GetSize
+(
+)
+override
+;
+bool
+ShouldBeCapturable
 (
 )
 override

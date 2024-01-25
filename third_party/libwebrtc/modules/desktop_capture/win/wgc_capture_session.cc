@@ -1263,6 +1263,8 @@ DesktopFrame
 >
 *
 output_frame
+bool
+source_should_be_capturable
 )
 {
 RTC_DCHECK_RUN_ON
@@ -1271,6 +1273,10 @@ RTC_DCHECK_RUN_ON
 sequence_checker_
 )
 ;
+if
+(
+source_should_be_capturable
+)
 EnsureFrame
 (
 )

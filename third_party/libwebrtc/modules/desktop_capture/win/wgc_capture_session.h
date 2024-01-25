@@ -214,6 +214,8 @@ DesktopFrame
 >
 *
 output_frame
+bool
+source_should_be_capturable
 )
 ;
 bool
