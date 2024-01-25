@@ -1385,7 +1385,7 @@ raises
 (
 error
 .
-InvalidArgumentException
+NoSuchFrameException
 )
 :
         

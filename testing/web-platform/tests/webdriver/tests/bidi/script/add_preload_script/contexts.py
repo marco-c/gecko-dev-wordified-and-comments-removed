@@ -558,7 +558,9 @@ result
 =
 =
 {
+"
 type
+"
 :
 "
 undefined
@@ -729,7 +731,5 @@ number
 value
 "
 :
-"
 1
-"
 }
