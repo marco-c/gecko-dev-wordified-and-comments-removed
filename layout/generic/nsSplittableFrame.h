@@ -216,6 +216,11 @@ aID
 )
 {
 }
+void
+UpdateFirstContinuationAndFirstInFlowCache
+(
+)
+;
 nscoord
 CalcAndCacheConsumedBSize
 (
