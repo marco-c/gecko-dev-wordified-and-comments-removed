@@ -9697,6 +9697,11 @@ nodejs
 on
 slack
 '
+peers_emeritus
+:
+-
+Kate
+Hudson
 owners
 :
 -
@@ -9710,9 +9715,6 @@ standard8
 -
 *
 dcoates
--
-*
-k88hudson
 -
 *
 ed
