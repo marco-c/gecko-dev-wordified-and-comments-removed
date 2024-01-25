@@ -722,6 +722,13 @@ AudioMixer
 UpdatesSourceCountHistogram
 )
 {
+metrics
+:
+:
+Reset
+(
+)
+;
 constexpr
 int
 kAudioSourcesGroup1
