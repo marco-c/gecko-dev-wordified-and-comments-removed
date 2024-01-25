@@ -91,9 +91,9 @@ process
 )
 ;
 await
-EngineProcess
+TranslationsParent
 .
-destroyTranslationsEngine
+destroyEngineProcess
 (
 )
 ;
