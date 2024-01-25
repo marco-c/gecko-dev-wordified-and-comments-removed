@@ -277,9 +277,12 @@ format
 "
 duplicate
 identifier
+:
+duplicate
 {
+desc
 }
-for
+named
 {
 }
 "
@@ -288,7 +291,6 @@ name
 name
 (
 )
-desc
 )
 )
 )

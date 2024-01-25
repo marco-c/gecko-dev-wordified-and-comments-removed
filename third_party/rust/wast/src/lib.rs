@@ -1058,12 +1058,6 @@ any
 custom_keyword
 !
 (
-anyfunc
-)
-;
-custom_keyword
-!
-(
 anyref
 )
 ;
