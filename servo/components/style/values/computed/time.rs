@@ -32,6 +32,7 @@ ToCss
 [
 derive
 (
+Animate
 Clone
 Copy
 Debug

@@ -63,6 +63,7 @@ C
 [
 derive
 (
+Animate
 Clone
 Debug
 MallocSizeOf
