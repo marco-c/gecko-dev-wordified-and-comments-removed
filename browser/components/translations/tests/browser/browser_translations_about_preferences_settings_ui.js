@@ -72,6 +72,8 @@ header
 }
 =
 await
+TranslationsSettingsTestUtils
+.
 openAboutPreferencesTranslationsSettingsPane
 (
 settingsButton
