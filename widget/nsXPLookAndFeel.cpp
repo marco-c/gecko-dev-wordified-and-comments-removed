@@ -6540,6 +6540,11 @@ Infotext
 |
 BIT_FOR
 (
+Menutext
+)
+|
+BIT_FOR
+(
 Window
 )
 |
