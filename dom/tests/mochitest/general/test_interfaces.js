@@ -1495,9 +1495,6 @@ ContentVisibilityAutoStateChangeEvent
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
