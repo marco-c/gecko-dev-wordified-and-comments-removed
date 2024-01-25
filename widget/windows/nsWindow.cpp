@@ -12736,6 +12736,15 @@ aCursor
 HCURSOR
 cursor
 =
+nullptr
+;
+if
+(
+mCustomCursorAllowed
+)
+{
+cursor
+=
 CursorForImage
 (
 aCursor
@@ -12744,6 +12753,7 @@ GetDefaultScale
 )
 )
 ;
+}
 bool
 custom
 =

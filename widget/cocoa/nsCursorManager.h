@@ -79,6 +79,12 @@ widgetScaleFactor
 CGFloat
 )
 aWidgetScaleFactor
+forceUpdate
+:
+(
+bool
+)
+aForceUpdate
 ;
 +
 (
