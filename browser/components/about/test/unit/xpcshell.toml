@@ -7,7 +7,7 @@ if
 =
 [
 "
-toolkit
+os
 =
 =
 '
@@ -22,11 +22,6 @@ head
 =
 '
 '
-#
-no
-value
-from
-INI
 #
 make
 the
