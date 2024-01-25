@@ -3520,6 +3520,7 @@ button
 CustomizableUI
 .
 AREA_NAVBAR
+0
 )
 ;
 let
