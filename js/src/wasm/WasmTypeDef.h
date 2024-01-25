@@ -1154,7 +1154,7 @@ FuncType
 struct
 StructField
 {
-FieldType
+StorageType
 type
 ;
 uint32_t
@@ -1268,7 +1268,7 @@ isMutable
 )
 {
 return
-FieldType
+StorageType
 :
 :
 isSubTypeOf
@@ -1796,7 +1796,7 @@ public
 CheckedInt32
 addField
 (
-FieldType
+StorageType
 type
 )
 ;
@@ -1812,7 +1812,7 @@ ArrayType
 {
 public
 :
-FieldType
+StorageType
 elementType_
 ;
 bool
@@ -1832,7 +1832,7 @@ false
 }
 ArrayType
 (
-FieldType
+StorageType
 elementType
 bool
 isMutable
@@ -2092,7 +2092,7 @@ isMutable_
 )
 {
 return
-FieldType
+StorageType
 :
 :
 isSubTypeOf
@@ -4078,14 +4078,14 @@ recGroup
 }
 ;
 auto
-visitFieldType
+visitStorageType
 =
 [
 this
 visitor
 ]
 (
-FieldType
+StorageType
 type
 )
 {
@@ -4295,7 +4295,7 @@ structType
 fields_
 )
 {
-visitFieldType
+visitStorageType
 (
 field
 .
@@ -4324,7 +4324,7 @@ arrayType
 (
 )
 ;
-visitFieldType
+visitStorageType
 (
 arrayType
 .

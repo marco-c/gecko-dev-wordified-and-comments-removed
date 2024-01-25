@@ -658,15 +658,15 @@ ModuleEnvironment
 env
 size_t
 opcodeOffset
-FieldType
+StorageType
 subType
-FieldType
+StorageType
 superType
 )
 {
 if
 (
-FieldType
+StorageType
 :
 :
 isSubTypeOf
@@ -12014,7 +12014,7 @@ if
 !
 d
 .
-readFieldType
+readStorageType
 (
 *
 env
@@ -12200,7 +12200,7 @@ enabled
 )
 ;
 }
-FieldType
+StorageType
 elementType
 ;
 if
@@ -12208,7 +12208,7 @@ if
 !
 d
 .
-readFieldType
+readStorageType
 (
 *
 env
@@ -18742,7 +18742,7 @@ ValType
 elemType
 )
 .
-fieldType
+storageType
 (
 )
 ValType
@@ -18750,7 +18750,7 @@ ValType
 tblElemType
 )
 .
-fieldType
+storageType
 (
 )
 )

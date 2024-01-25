@@ -1979,7 +1979,7 @@ const
 void
 *
 src
-FieldType
+StorageType
 type
 MutableHandleValue
 dst
@@ -2004,7 +2004,7 @@ const
 void
 *
 src
-FieldType
+StorageType
 type
 MutableHandleValue
 dst
@@ -2022,7 +2022,7 @@ ToJSValueMayGC
 NoDebug
 >
 (
-FieldType
+StorageType
 type
 )
 ;
@@ -2036,7 +2036,7 @@ ToJSValueMayGC
 DebugCodegenVal
 >
 (
-FieldType
+StorageType
 type
 )
 ;
@@ -4621,7 +4621,7 @@ const
 void
 *
 src
-FieldType
+StorageType
 type
 MutableHandleValue
 dst
@@ -4673,7 +4673,7 @@ kind
 )
 {
 case
-FieldType
+StorageType
 :
 :
 I8
@@ -4699,7 +4699,7 @@ dst
 )
 ;
 case
-FieldType
+StorageType
 :
 :
 I16
@@ -4725,7 +4725,7 @@ dst
 )
 ;
 case
-FieldType
+StorageType
 :
 :
 I32
@@ -4751,7 +4751,7 @@ dst
 )
 ;
 case
-FieldType
+StorageType
 :
 :
 I64
@@ -4777,7 +4777,7 @@ dst
 )
 ;
 case
-FieldType
+StorageType
 :
 :
 F32
@@ -4803,7 +4803,7 @@ dst
 )
 ;
 case
-FieldType
+StorageType
 :
 :
 F64
@@ -4829,7 +4829,7 @@ dst
 )
 ;
 case
-FieldType
+StorageType
 :
 :
 V128
@@ -4837,7 +4837,7 @@ V128
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 Ref
@@ -4987,7 +4987,7 @@ wasm
 :
 ToJSValueMayGC
 (
-FieldType
+StorageType
 type
 )
 {
@@ -4999,7 +4999,7 @@ kind
 )
 =
 =
-FieldType
+StorageType
 :
 :
 I64
@@ -5039,7 +5039,7 @@ ToJSValue
 (
 cx
 src
-FieldType
+StorageType
 (
 type
 .
@@ -5073,7 +5073,7 @@ wasm
 :
 ToJSValueMayGC
 (
-FieldType
+StorageType
 (
 type
 .

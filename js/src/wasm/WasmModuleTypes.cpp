@@ -709,7 +709,7 @@ layout
 .
 addField
 (
-FieldType
+StorageType
 (
 argTypes_
 [

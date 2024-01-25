@@ -566,7 +566,7 @@ WasmGcObject
 PropOffset
 *
 offset
-FieldType
+StorageType
 *
 type
 )
@@ -849,7 +849,7 @@ WasmGcObject
 PropOffset
 offset
 ;
-FieldType
+StorageType
 type
 ;
 if
@@ -1113,7 +1113,7 @@ const
 Val
 &
 val
-FieldType
+StorageType
 ty
 void
 *
@@ -1130,7 +1130,7 @@ kind
 )
 {
 case
-FieldType
+StorageType
 :
 :
 I8
@@ -1153,7 +1153,7 @@ i32
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 I16
@@ -1176,7 +1176,7 @@ i32
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 I32
@@ -1199,7 +1199,7 @@ i32
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 I64
@@ -1222,7 +1222,7 @@ i64
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 F32
@@ -1245,7 +1245,7 @@ f32
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 F64
@@ -1268,7 +1268,7 @@ f64
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 V128
@@ -1291,7 +1291,7 @@ v128
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 Ref
@@ -3458,7 +3458,7 @@ structType
 (
 )
 ;
-FieldType
+StorageType
 fieldType
 =
 structType

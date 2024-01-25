@@ -19017,7 +19017,7 @@ static
 void
 fieldLoadInfoToMIR
 (
-FieldType
+StorageType
 type
 FieldWideningOp
 wideningOp
@@ -19039,7 +19039,7 @@ kind
 )
 {
 case
-FieldType
+StorageType
 :
 :
 I8
@@ -19107,7 +19107,7 @@ MOZ_CRASH
 }
 }
 case
-FieldType
+StorageType
 :
 :
 I16
@@ -19221,7 +19221,7 @@ static
 MNarrowingOp
 fieldStoreInfoToMIR
 (
-FieldType
+StorageType
 type
 )
 {
@@ -19235,7 +19235,7 @@ kind
 )
 {
 case
-FieldType
+StorageType
 :
 :
 I8
@@ -19247,7 +19247,7 @@ MNarrowingOp
 To8
 ;
 case
-FieldType
+StorageType
 :
 :
 I16
@@ -19278,7 +19278,7 @@ writeGcValueAtBasePlusOffset
 (
 uint32_t
 lineOrBytecode
-FieldType
+StorageType
 fieldType
 MDefinition
 *
@@ -19534,7 +19534,7 @@ writeGcValueAtBasePlusScaledIndex
 (
 uint32_t
 lineOrBytecode
-FieldType
+StorageType
 fieldType
 MDefinition
 *
@@ -19703,7 +19703,7 @@ MDefinition
 *
 readGcValueAtBasePlusOffset
 (
-FieldType
+StorageType
 fieldType
 FieldWideningOp
 fieldWideningOp
@@ -19840,7 +19840,7 @@ MDefinition
 *
 readGcValueAtBasePlusScaledIndex
 (
-FieldType
+StorageType
 fieldType
 FieldWideningOp
 fieldWideningOp
@@ -20317,7 +20317,7 @@ WasmPreBarrierKind
 preBarrierKind
 )
 {
-FieldType
+StorageType
 fieldType
 =
 field
@@ -20511,7 +20511,7 @@ MDefinition
 structObject
 )
 {
-FieldType
+StorageType
 fieldType
 =
 field
@@ -21490,8 +21490,8 @@ type
 (
 )
 ;
-FieldType
-valFieldType
+StorageType
+elemType
 =
 arrayType
 .
@@ -21499,7 +21499,7 @@ elementType_
 ;
 MOZ_ASSERT
 (
-valFieldType
+elemType
 .
 widenToValType
 (
@@ -21516,7 +21516,7 @@ valMIRType
 uint32_t
 elemSize
 =
-valFieldType
+elemType
 .
 size
 (
@@ -21831,7 +21831,7 @@ if
 writeGcValueAtBasePlusOffset
 (
 lineOrBytecode
-valFieldType
+elemType
 arrayObject
 AliasSet
 :
@@ -37609,8 +37609,8 @@ arrayType
 (
 )
 ;
-FieldType
-elemFieldType
+StorageType
+elemType
 =
 arrayType
 .
@@ -37619,7 +37619,7 @@ elementType_
 uint32_t
 elemSize
 =
-elemFieldType
+elemType
 .
 size
 (
@@ -37685,7 +37685,7 @@ f
 writeGcValueAtBasePlusOffset
 (
 lineOrBytecode
-elemFieldType
+elemType
 arrayObject
 AliasSet
 :
@@ -38442,8 +38442,8 @@ arrayType
 (
 )
 ;
-FieldType
-elemFieldType
+StorageType
+elemType
 =
 arrayType
 .
@@ -38452,7 +38452,7 @@ elementType_
 uint32_t
 elemSize
 =
-elemFieldType
+elemType
 .
 size
 (
@@ -38478,7 +38478,7 @@ f
 writeGcValueAtBasePlusScaledIndex
 (
 lineOrBytecode
-elemFieldType
+elemType
 arrayObject
 AliasSet
 :
@@ -38600,8 +38600,8 @@ arrayType
 (
 )
 ;
-FieldType
-elemFieldType
+StorageType
+elemType
 =
 arrayType
 .
@@ -38610,7 +38610,7 @@ elementType_
 uint32_t
 elemSize
 =
-elemFieldType
+elemType
 .
 size
 (
@@ -38638,7 +38638,7 @@ f
 .
 readGcValueAtBasePlusScaledIndex
 (
-elemFieldType
+elemType
 wideningOp
 arrayObject
 AliasSet

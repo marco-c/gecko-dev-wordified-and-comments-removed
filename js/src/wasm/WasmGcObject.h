@@ -128,7 +128,7 @@ js
 wasm
 :
 :
-FieldType
+StorageType
 ;
 namespace
 js
@@ -414,7 +414,7 @@ id
 PropOffset
 *
 offset
-FieldType
+StorageType
 *
 type
 )
@@ -1016,7 +1016,7 @@ inline
 void
 fieldOffsetToAreaAndOffset
 (
-FieldType
+StorageType
 fieldType
 uint32_t
 fieldOffset
@@ -1033,7 +1033,7 @@ uint8_t
 *
 fieldOffsetToAddress
 (
-FieldType
+StorageType
 fieldType
 uint32_t
 fieldOffset
@@ -1269,7 +1269,7 @@ WasmStructObject
 :
 fieldOffsetToAreaAndOffset
 (
-FieldType
+StorageType
 fieldType
 uint32_t
 fieldOffset
@@ -1349,7 +1349,7 @@ WasmStructObject
 :
 fieldOffsetToAddress
 (
-FieldType
+StorageType
 fieldType
 uint32_t
 fieldOffset
