@@ -96,11 +96,6 @@ SearchUtils
 .
 MODIFIED_TYPE
 .
-LOADED
-SearchUtils
-.
-MODIFIED_TYPE
-.
 ADDED
 ]
 SearchUtils

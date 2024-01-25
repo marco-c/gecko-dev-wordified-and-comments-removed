@@ -251,6 +251,15 @@ engine
 await
 promiseEngineAdded
 ;
+engine
+.
+QueryInterface
+(
+Ci
+.
+nsISearchEngine
+)
+;
 await
 promiseEngineChanged
 ;
