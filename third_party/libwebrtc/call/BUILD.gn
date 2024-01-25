@@ -4323,6 +4323,14 @@ test_common
 /
 test
 :
+test_flags
+"
+"
+.
+.
+/
+test
+:
 test_support
 "
 "

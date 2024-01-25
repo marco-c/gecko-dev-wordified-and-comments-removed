@@ -73,5 +73,11 @@ bool
 export_perf_results_new_api
 )
 ;
+ABSL_DECLARE_FLAG
+(
+bool
+webrtc_quick_perf_test
+)
+;
 #
 endif
