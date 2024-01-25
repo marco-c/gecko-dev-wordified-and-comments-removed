@@ -286,7 +286,7 @@ ERROR
 duration
 "
 :
-50
+20
 "
 action
 "
@@ -437,7 +437,7 @@ null
 duration
 "
 :
-null
+0
 "
 action
 "
@@ -864,7 +864,7 @@ ERROR
 duration
 "
 :
-50
+20
 "
 action
 "
@@ -1134,7 +1134,7 @@ OK
 duration
 "
 :
-59
+29
 "
 action
 "
@@ -1616,7 +1616,7 @@ ERROR
 duration
 "
 :
-79
+49
 "
 action
 "
@@ -1874,7 +1874,7 @@ OK
 duration
 "
 :
-50
+20
 "
 action
 "
@@ -2187,7 +2187,7 @@ ERROR
 duration
 "
 :
-50
+20
 "
 action
 "
