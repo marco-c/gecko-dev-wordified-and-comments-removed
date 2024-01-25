@@ -154,7 +154,7 @@ S
 var
 matched
 =
-SubstringKernel
+Substring
 (
 S
 position
