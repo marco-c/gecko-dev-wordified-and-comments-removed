@@ -67,13 +67,7 @@ DocAccessibleChild
 DocAccessible
 *
 aDoc
-mozilla
-:
-:
-ipc
-:
-:
-IRefCountedProtocol
+IProtocol
 *
 aManager
 )
