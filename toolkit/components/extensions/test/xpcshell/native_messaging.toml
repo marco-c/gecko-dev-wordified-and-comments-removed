@@ -7,9 +7,6 @@ head
 head
 .
 js
-head_e10s
-.
-js
 head_native_messaging
 .
 js

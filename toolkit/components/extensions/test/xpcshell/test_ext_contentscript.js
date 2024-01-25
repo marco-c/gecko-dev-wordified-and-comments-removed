@@ -780,9 +780,11 @@ AppConstants
 DEBUG
 &
 &
-ExtensionTestUtils
+Services
 .
-remoteContentScripts
+appinfo
+.
+browserTabsRemoteAutostart
 )
 {
 return

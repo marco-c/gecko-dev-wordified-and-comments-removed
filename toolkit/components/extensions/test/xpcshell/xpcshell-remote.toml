@@ -10,9 +10,6 @@ js
 head_remote
 .
 js
-head_e10s
-.
-js
 head_telemetry
 .
 js
