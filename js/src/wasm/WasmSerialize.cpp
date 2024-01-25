@@ -5294,7 +5294,7 @@ wasm
 :
 :
 LinkData
-7968
+8760
 )
 ;
 if
@@ -5895,7 +5895,7 @@ wasm
 :
 :
 Metadata
-440
+448
 )
 ;
 if
