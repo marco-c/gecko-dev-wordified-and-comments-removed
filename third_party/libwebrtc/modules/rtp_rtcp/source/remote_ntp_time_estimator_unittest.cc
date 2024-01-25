@@ -219,7 +219,7 @@ kTestRtt
 2
 )
 ;
-RTC_DCHECK
+EXPECT_TRUE
 (
 estimator_
 .
@@ -283,7 +283,7 @@ kTestRtt
 networking_delay
 )
 ;
-RTC_DCHECK
+EXPECT_TRUE
 (
 estimator_
 .
