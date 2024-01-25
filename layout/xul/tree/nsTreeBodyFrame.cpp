@@ -2840,16 +2840,6 @@ Nothing
 )
 ;
 }
-RefPtr
-<
-nsPresContext
->
-presContext
-=
-PresContext
-(
-)
-;
 nsIntRect
 rect
 =
@@ -2866,9 +2856,6 @@ nsIFrame
 *
 rootFrame
 =
-presContext
--
->
 PresShell
 (
 )

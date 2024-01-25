@@ -1551,14 +1551,6 @@ true
 }
 )
 ;
-nsPresContext
-*
-pc
-=
-PresContext
-(
-)
-;
 mozilla
 :
 :
@@ -1566,9 +1558,6 @@ PresShell
 *
 presShell
 =
-pc
--
->
 PresShell
 (
 )

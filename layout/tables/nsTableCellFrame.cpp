@@ -1174,14 +1174,6 @@ cells
 int16_t
 displaySelection
 ;
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 displaySelection
 =
 DetermineDisplaySelection
@@ -1199,9 +1191,6 @@ nsFrameSelection
 >
 frameSelection
 =
-presContext
--
->
 PresShell
 (
 )

@@ -11847,12 +11847,7 @@ return
 aFrame
 -
 >
-PresContext
-(
-)
--
->
-GetPresShell
+PresShell
 (
 )
 -

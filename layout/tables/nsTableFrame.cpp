@@ -3331,14 +3331,6 @@ GetContent
 (
 )
 ;
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 mozilla
 :
 :
@@ -3346,9 +3338,6 @@ PresShell
 *
 presShell
 =
-presContext
--
->
 PresShell
 (
 )

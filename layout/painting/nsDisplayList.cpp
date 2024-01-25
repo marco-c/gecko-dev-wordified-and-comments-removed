@@ -27320,11 +27320,6 @@ IsScrollbarLayerForRoot
 mFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
