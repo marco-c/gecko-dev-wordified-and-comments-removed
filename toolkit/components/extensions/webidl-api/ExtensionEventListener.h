@@ -468,6 +468,7 @@ MOZ_UNANNOTATED
 ;
 class
 ExtensionListenerCallWorkerRunnable
+final
 :
 public
 dom
@@ -542,6 +543,9 @@ aExtensionEventListener
 GetWorkerPrivate
 (
 )
+"
+ExtensionListenerCallWorkerRunnable
+"
 WorkerThread
 )
 mListener

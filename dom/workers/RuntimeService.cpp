@@ -2859,6 +2859,9 @@ aDispatchable
 WorkerRunnable
 (
 aWorkerPrivate
+"
+JSDispatchableRunnable
+"
 WorkerRunnable
 :
 :
@@ -6863,6 +6866,7 @@ namespace
 {
 class
 DumpCrashInfoRunnable
+final
 :
 public
 WorkerControlRunnable
@@ -6880,6 +6884,9 @@ aWorkerPrivate
 WorkerControlRunnable
 (
 aWorkerPrivate
+"
+DumpCrashInfoRunnable
+"
 WorkerThread
 )
 mMonitor

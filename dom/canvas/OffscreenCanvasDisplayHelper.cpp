@@ -517,6 +517,9 @@ aDisplayHelper
 WorkerRunnable
 (
 aWorkerPrivate
+"
+FlushWorkerRunnable
+"
 )
 mDisplayHelper
 (

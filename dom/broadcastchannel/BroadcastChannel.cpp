@@ -455,6 +455,9 @@ aActor
 WorkerControlRunnable
 (
 aWorkerPrivate
+"
+TeardownRunnableOnWorker
+"
 WorkerThread
 )
 TeardownRunnable
