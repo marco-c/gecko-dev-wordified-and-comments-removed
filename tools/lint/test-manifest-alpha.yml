@@ -80,7 +80,7 @@ mochitest
 -
 errata
 .
-toml
+ini
 -
 python
 /

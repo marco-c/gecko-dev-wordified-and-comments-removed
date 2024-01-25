@@ -233,7 +233,7 @@ generated
 -
 mochitest
 .
-toml
+ini
 "
 "
 test

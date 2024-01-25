@@ -18,7 +18,7 @@ CONFIG
 -
 DIRS
 .
-toml
+ini
 "
 "
 test
@@ -29,7 +29,7 @@ CONFIG
 -
 HOME
 .
-toml
+ini
 "
 "
 test
