@@ -57,3 +57,10 @@ browser_TabManager
 js
 "
 ]
+[
+"
+browser_UserContextManager
+.
+js
+"
+]

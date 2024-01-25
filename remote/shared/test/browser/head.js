@@ -8,6 +8,7 @@ addTab
 (
 browser
 url
+options
 )
 {
 const
@@ -19,6 +20,7 @@ addTab
 (
 browser
 url
+options
 )
 ;
 registerCleanupFunction

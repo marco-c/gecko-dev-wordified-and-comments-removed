@@ -74,6 +74,13 @@ js
 ]
 [
 "
+browser_ContextualIdentityListener
+.
+js
+"
+]
+[
+"
 browser_NetworkListener
 .
 js
