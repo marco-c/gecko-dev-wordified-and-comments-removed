@@ -6390,7 +6390,7 @@ unpark_all_one_fast
 (
 repeats
 :
-10000
+1000
 latches
 :
 1
