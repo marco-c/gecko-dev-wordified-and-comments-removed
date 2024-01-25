@@ -48,7 +48,9 @@ search
 <
 ShortName
 >
-483086b
+searchform
+-
+invalid
 <
 /
 ShortName
@@ -59,7 +61,7 @@ Description
 Bug
 483086
 Test
-2
+1
 <
 /
 Description
@@ -177,7 +179,7 @@ moz
 :
 SearchForm
 >
-https
+foo
 :
 /
 /

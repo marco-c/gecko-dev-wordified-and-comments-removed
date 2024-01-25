@@ -1176,6 +1176,15 @@ xml
 "
 opensearch
 /
+searchform
+-
+invalid
+.
+xml
+"
+"
+opensearch
+/
 simple
 .
 xml
