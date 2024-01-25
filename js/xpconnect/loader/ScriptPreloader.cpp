@@ -770,7 +770,7 @@ ScriptPreloader
 :
 gChildScriptPreloader
 ;
-UniquePtr
+StaticAutoPtr
 <
 AutoMemMap
 >
@@ -779,7 +779,7 @@ ScriptPreloader
 :
 gCacheData
 ;
-UniquePtr
+StaticAutoPtr
 <
 AutoMemMap
 >
@@ -812,10 +812,8 @@ XRE_IsParentProcess
 {
 gCacheData
 =
-MakeUnique
-<
+new
 AutoMemMap
->
 (
 )
 ;
@@ -885,10 +883,8 @@ gChildScriptPreloader
 {
 gChildCacheData
 =
-MakeUnique
-<
+new
 AutoMemMap
->
 (
 )
 ;
