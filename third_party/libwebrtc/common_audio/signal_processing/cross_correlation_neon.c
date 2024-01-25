@@ -372,7 +372,7 @@ int
 step_seq2
 )
 {
-size_t
+int
 i
 =
 0
@@ -385,6 +385,9 @@ i
 ;
 i
 <
+(
+int
+)
 dim_cross_correlation
 ;
 i
