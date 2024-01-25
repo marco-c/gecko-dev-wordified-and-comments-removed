@@ -62,6 +62,9 @@ aRef
 WorkerControlRunnable
 (
 aWorkerPrivate
+"
+ReleaseRefControlRunnable
+"
 WorkerThread
 )
 mRef
