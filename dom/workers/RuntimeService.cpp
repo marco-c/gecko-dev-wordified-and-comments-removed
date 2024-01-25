@@ -4655,7 +4655,7 @@ override
 }
 }
 }
-UniquePtr
+StaticAutoPtr
 <
 JSSettings
 >
@@ -6287,10 +6287,8 @@ AddRef
 ;
 sDefaultJSSettings
 =
-MakeUnique
-<
+new
 JSSettings
->
 (
 )
 ;
