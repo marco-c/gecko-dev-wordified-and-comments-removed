@@ -47791,6 +47791,8 @@ aColumnContent
 AddStateBits
 (
 NS_FRAME_HAS_MULTI_COLUMN_ANCESTOR
+|
+NS_BLOCK_STATIC_BFC
 )
 ;
 SetInitialSingleChild
