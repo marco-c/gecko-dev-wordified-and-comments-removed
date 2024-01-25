@@ -69,6 +69,8 @@ assertPanelDefaultView
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 assertSelectedFromLanguage
 (
 "
@@ -76,6 +78,8 @@ es
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedFromLanguage
 (
 "
@@ -201,6 +205,8 @@ en
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedFromLanguage
 (
 "
@@ -246,6 +252,8 @@ es
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedFromLanguage
 (
 "
@@ -269,6 +277,8 @@ expectedEventCount
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedFromLanguage
 (
 "
@@ -388,6 +398,8 @@ assertPanelDefaultView
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 assertSelectedToLanguage
 (
 "
@@ -395,6 +407,8 @@ en
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedToLanguage
 (
 "
@@ -520,6 +534,8 @@ fr
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedToLanguage
 (
 "
@@ -565,6 +581,8 @@ en
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedToLanguage
 (
 "
@@ -588,6 +606,8 @@ expectedEventCount
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedToLanguage
 (
 "
