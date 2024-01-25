@@ -3433,9 +3433,9 @@ Threeddarkshadow
 COLOR
 (
 Threedface
-0xF0
-0xF0
-0xF0
+0xE9
+0xE9
+0xED
 )
 COLOR
 (
@@ -6491,6 +6491,11 @@ Buttonhighlight
 BIT_FOR
 (
 Buttonshadow
+)
+|
+BIT_FOR
+(
+Threedface
 )
 |
 BIT_FOR
