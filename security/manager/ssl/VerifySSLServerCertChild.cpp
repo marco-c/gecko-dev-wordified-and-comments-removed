@@ -595,6 +595,12 @@ parentEndpoint
 childEndpoint
 )
 ;
+nsCString
+hostName
+(
+aHostName
+)
+;
 if
 (
 NS_FAILED
@@ -631,9 +637,12 @@ peerCertBytes
 )
 hostName
 =
-PromiseFlatCString
+std
+:
+:
+move
 (
-aHostName
+hostName
 )
 port
 (
