@@ -536,12 +536,6 @@ RemoveFirstChild
 (
 )
 ;
-nsIFrame
-*
-RemoveLastChild
-(
-)
-;
 inline
 bool
 StartRemoveFrame

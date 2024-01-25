@@ -156,6 +156,14 @@ EnsurePageName
 (
 )
 ;
+nsIFrame
+*
+FirstContinuation
+(
+)
+const
+final
+;
 #
 ifdef
 DEBUG_FRAME_DUMP

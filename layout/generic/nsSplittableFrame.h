@@ -98,7 +98,7 @@ FirstContinuation
 (
 )
 const
-final
+override
 ;
 nsIFrame
 *
@@ -216,11 +216,6 @@ aID
 )
 {
 }
-void
-UpdateFirstContinuationAndFirstInFlowCache
-(
-)
-;
 nscoord
 CalcAndCacheConsumedBSize
 (

@@ -4510,11 +4510,6 @@ PageValues
 const
 values
 =
-FirstInFlow
-(
-)
--
->
 GetProperty
 (
 PageValuesProperty
@@ -4550,11 +4545,6 @@ PageValues
 const
 values
 =
-FirstInFlow
-(
-)
--
->
 GetProperty
 (
 PageValuesProperty
