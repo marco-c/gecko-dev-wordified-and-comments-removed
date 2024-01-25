@@ -3797,8 +3797,10 @@ rate_control_settings_
 RateControlSettings
 :
 :
-ParseFromFieldTrials
+ParseFromKeyValueConfig
 (
+&
+field_trials
 )
 )
 encoder_selector_from_constructor_
@@ -7831,6 +7833,7 @@ EncoderBitrateAdjuster
 >
 (
 codec
+field_trials_
 )
 ;
 bitrate_adjuster_

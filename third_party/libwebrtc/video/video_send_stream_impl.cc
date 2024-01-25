@@ -830,6 +830,10 @@ const
 PacingConfig
 &
 default_pacing_config
+const
+FieldTrialsView
+&
+field_trials
 )
 {
 if
@@ -876,8 +880,10 @@ rate_control_settings
 RateControlSettings
 :
 :
-ParseFromFieldTrials
+ParseFromKeyValueConfig
 (
+&
+field_trials
 )
 ;
 return
@@ -1218,6 +1224,7 @@ GetConfiguredPacingFactor
 config_
 content_type
 pacing_config_
+field_trials
 )
 )
 {
@@ -1400,8 +1407,10 @@ rate_control_settings
 RateControlSettings
 :
 :
-ParseFromFieldTrials
+ParseFromKeyValueConfig
 (
+&
+field_trials
 )
 ;
 enable_alr_bw_probing

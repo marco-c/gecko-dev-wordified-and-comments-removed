@@ -14,7 +14,7 @@ include
 "
 test
 /
-field_trial
+gtest
 .
 h
 "
@@ -23,7 +23,7 @@ include
 "
 test
 /
-gtest
+scoped_key_value_config
 .
 h
 "
@@ -224,7 +224,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -238,6 +238,7 @@ QualityScalingExperiment
 :
 Enabled
 (
+field_trials
 )
 )
 ;
@@ -256,7 +257,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -270,6 +271,7 @@ QualityScalingExperiment
 :
 Enabled
 (
+field_trials
 )
 )
 ;
@@ -288,7 +290,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -310,6 +312,7 @@ QualityScalingExperiment
 :
 Enabled
 (
+field_trials
 )
 )
 ;
@@ -351,7 +354,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -391,6 +394,7 @@ QualityScalingExperiment
 :
 ParseSettings
 (
+field_trials
 )
 ;
 EXPECT_TRUE
@@ -425,7 +429,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -439,6 +443,7 @@ QualityScalingExperiment
 :
 ParseSettings
 (
+field_trials
 )
 )
 ;
@@ -457,7 +462,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -471,6 +476,7 @@ QualityScalingExperiment
 :
 ParseSettings
 (
+field_trials
 )
 )
 ;
@@ -489,7 +495,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -513,6 +519,7 @@ QualityScalingExperiment
 :
 ParseSettings
 (
+field_trials
 )
 )
 ;
@@ -529,7 +536,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -569,6 +576,7 @@ QualityScalingExperiment
 :
 GetConfig
 (
+field_trials
 )
 ;
 EXPECT_EQ
@@ -611,7 +619,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -637,6 +645,7 @@ QualityScalingExperiment
 :
 GetConfig
 (
+field_trials
 )
 ;
 ExpectEqualConfig
@@ -675,7 +684,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -715,6 +724,7 @@ QualityScalingExperiment
 :
 GetConfig
 (
+field_trials
 )
 ;
 ExpectEqualConfig
@@ -736,7 +746,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -777,6 +787,7 @@ QualityScalingExperiment
 GetQpThresholds
 (
 kVideoCodecVP8
+field_trials
 )
 ;
 EXPECT_TRUE
@@ -815,7 +826,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -856,6 +867,7 @@ QualityScalingExperiment
 GetQpThresholds
 (
 kVideoCodecVP8
+field_trials
 )
 ;
 EXPECT_FALSE
@@ -876,7 +888,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -917,6 +929,7 @@ QualityScalingExperiment
 GetQpThresholds
 (
 kVideoCodecVP9
+field_trials
 )
 ;
 EXPECT_TRUE
@@ -955,7 +968,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -996,6 +1009,7 @@ QualityScalingExperiment
 GetQpThresholds
 (
 kVideoCodecVP9
+field_trials
 )
 ;
 EXPECT_FALSE
@@ -1016,7 +1030,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1057,6 +1071,7 @@ QualityScalingExperiment
 GetQpThresholds
 (
 kVideoCodecH264
+field_trials
 )
 ;
 EXPECT_TRUE
@@ -1095,7 +1110,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1136,6 +1151,7 @@ QualityScalingExperiment
 GetQpThresholds
 (
 kVideoCodecH264
+field_trials
 )
 ;
 EXPECT_FALSE
@@ -1156,7 +1172,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1197,6 +1213,7 @@ QualityScalingExperiment
 GetQpThresholds
 (
 kVideoCodecGeneric
+field_trials
 )
 ;
 EXPECT_TRUE
@@ -1235,7 +1252,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1276,6 +1293,7 @@ QualityScalingExperiment
 GetQpThresholds
 (
 kVideoCodecGeneric
+field_trials
 )
 ;
 EXPECT_FALSE
