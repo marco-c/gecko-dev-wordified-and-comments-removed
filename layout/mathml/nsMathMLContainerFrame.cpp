@@ -5978,14 +5978,6 @@ GetPresContext
 )
 )
 ;
-newFrame
--
->
-AddStateBits
-(
-NS_BLOCK_STATIC_BFC
-)
-;
 return
 newFrame
 ;
