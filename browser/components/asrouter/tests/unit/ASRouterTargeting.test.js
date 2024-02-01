@@ -7,7 +7,7 @@ QueryCache
 }
 from
 "
-lib
+modules
 /
 ASRouterTargeting
 .
@@ -20,6 +20,8 @@ OnboardingMessageProvider
 }
 from
 "
+newtab
+/
 lib
 /
 OnboardingMessageProvider
@@ -33,7 +35,7 @@ ASRouterPreferences
 }
 from
 "
-asroutermodules
+modules
 /
 ASRouterPreferences
 .
