@@ -17,6 +17,13 @@ utility
 #
 include
 "
+ErrorList
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h
@@ -172,6 +179,9 @@ private
 bool
 mCallingCancelWithinRun
 ;
+bool
+mCallingWithoutNesting
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -211,6 +221,11 @@ FromRunnable
 nsIRunnable
 *
 aRunnable
+)
+;
+nsresult
+RunDirectly
+(
 )
 ;
 protected
@@ -258,6 +273,10 @@ aName
 #
 endif
 mCallingCancelWithinRun
+(
+false
+)
+mCallingWithoutNesting
 (
 false
 )
