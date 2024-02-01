@@ -8828,6 +8828,11 @@ tobj
 length
 (
 )
+.
+valueOr
+(
+0
+)
 ;
 if
 (
@@ -10610,6 +10615,11 @@ tobj
 >
 length
 (
+)
+.
+valueOr
+(
+0
 )
 ;
 if
