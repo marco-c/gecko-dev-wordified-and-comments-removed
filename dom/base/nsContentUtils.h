@@ -7611,8 +7611,6 @@ const
 nsCString
 &
 aMIMEType
-bool
-aNoFakePlugin
 )
 ;
 static

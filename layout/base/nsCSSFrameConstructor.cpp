@@ -16986,14 +16986,6 @@ nsIObjectLoadingContent
 TYPE_DOCUMENT
 NS_NewSubDocumentFrame
 )
-SIMPLE_INT_CREATE
-(
-nsIObjectLoadingContent
-:
-:
-TYPE_FAKE_PLUGIN
-NS_NewSubDocumentFrame
-)
 }
 ;
 return
