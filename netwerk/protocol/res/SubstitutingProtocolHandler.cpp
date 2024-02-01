@@ -298,16 +298,11 @@ do_QueryInterface
 handler
 )
 ;
-if
+MOZ_ASSERT
 (
-!
 substHandler
 )
-{
-return
-NS_ERROR_NO_INTERFACE
 ;
-}
 nsAutoCString
 spec
 ;
