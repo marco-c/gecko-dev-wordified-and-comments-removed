@@ -57,15 +57,6 @@ sys
 .
 mjs
 "
-"
-test
-/
-NimbusRolloutMessageProvider
-.
-sys
-.
-mjs
-"
 ]
 SPHINX_TREES
 [
