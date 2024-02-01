@@ -156,6 +156,17 @@ bool
 aIsPreventingShutdown
 )
 :
+#
+ifdef
+DEBUG
+mDebugMutex
+(
+"
+WorkerRef
+"
+)
+#
+endif
 mWorkerPrivate
 (
 aWorkerPrivate
