@@ -4093,7 +4093,7 @@ case
 GuardClassKind
 :
 :
-ArrayBuffer
+FixedLengthArrayBuffer
 :
 if
 (
@@ -4106,7 +4106,7 @@ getClass
 !
 =
 &
-ArrayBufferObject
+FixedLengthArrayBufferObject
 :
 :
 class_

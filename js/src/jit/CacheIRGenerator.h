@@ -2720,6 +2720,11 @@ native
 )
 ;
 AttachDecision
+tryAttachGuardToArrayBuffer
+(
+)
+;
+AttachDecision
 tryAttachHasClass
 (
 const

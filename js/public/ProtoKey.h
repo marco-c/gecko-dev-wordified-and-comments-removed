@@ -377,7 +377,7 @@ REAL
 ArrayBuffer
 OCLASP
 (
-ArrayBuffer
+FixedLengthArrayBuffer
 )
 )
 \

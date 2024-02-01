@@ -2263,11 +2263,11 @@ case
 GuardClassKind
 :
 :
-ArrayBuffer
+FixedLengthArrayBuffer
 :
 return
 &
-ArrayBufferObject
+FixedLengthArrayBufferObject
 :
 :
 class_
