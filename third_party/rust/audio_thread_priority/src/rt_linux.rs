@@ -1515,13 +1515,13 @@ audio_samplerate_hz
 let
 budget_us
 =
-(
 buffer_frames
+as
+u64
 *
 1_000_000
 /
 audio_samplerate_hz
-)
 as
 u64
 ;

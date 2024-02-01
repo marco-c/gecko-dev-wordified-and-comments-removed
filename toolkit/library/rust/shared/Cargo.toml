@@ -545,7 +545,7 @@ audioipc
 rev
 =
 "
-8b391135f9421dc5ab0c45f646c21651a906ce7f
+596bdb7fbb5745ea415726e16bd497e6c850a540
 "
 optional
 =
@@ -574,7 +574,7 @@ audioipc
 rev
 =
 "
-8b391135f9421dc5ab0c45f646c21651a906ce7f
+596bdb7fbb5745ea415726e16bd497e6c850a540
 "
 optional
 =
@@ -969,7 +969,7 @@ version
 "
 0
 .
-30
+31
 "
 default_features
 =
