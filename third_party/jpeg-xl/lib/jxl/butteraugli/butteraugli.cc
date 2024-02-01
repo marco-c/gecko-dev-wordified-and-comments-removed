@@ -149,17 +149,6 @@ lib
 /
 jxl
 /
-gauss_blur
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 image_ops
 .
 h

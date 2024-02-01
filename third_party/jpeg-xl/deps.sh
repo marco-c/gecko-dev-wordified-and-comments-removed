@@ -132,8 +132,14 @@ e5ab13008bb214deb66d5f3e17ca2f8dbff150bf
 THIRD_PARTY_ZLIB
 =
 "
-cacf7f1d4e3d44d871b605da3b647f07d718623f
+51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf
 "
+#
+v1
+.
+3
+.
+1
 THIRD_PARTY_LIBPNG
 =
 "

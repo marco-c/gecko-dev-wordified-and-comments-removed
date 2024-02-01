@@ -599,10 +599,8 @@ cache
 "
 "
 {
-CMAKE_SOURCE_DIR
+JPEGXL_TEST_DATA_PATH
 }
-/
-testdata
 /
 jxl
 /

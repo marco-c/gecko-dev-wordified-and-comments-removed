@@ -187,16 +187,6 @@ ColorCorrelationMap
 cmap
 )
 ;
-void
-ComputeDC
-(
-bool
-fast
-ColorCorrelationMap
-*
-cmap
-)
-;
 ImageF
 dc_values
 ;

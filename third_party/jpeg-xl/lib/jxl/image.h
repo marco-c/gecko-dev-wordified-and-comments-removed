@@ -66,6 +66,11 @@ sstream
 #
 include
 <
+string
+>
+#
+include
+<
 utility
 >
 #
@@ -1712,6 +1717,7 @@ T
 >
 parent
 )
+const
 {
 T
 new_x0

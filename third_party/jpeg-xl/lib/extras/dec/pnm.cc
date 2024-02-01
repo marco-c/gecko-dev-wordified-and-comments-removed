@@ -2736,13 +2736,7 @@ ppm
 ;
 }
 return
-std
-:
-:
-move
-(
 dec
-)
 ;
 }
 jxl

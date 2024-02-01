@@ -43,17 +43,6 @@ lib
 /
 jxl
 /
-encode_internal
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 test_utils
 .
 h

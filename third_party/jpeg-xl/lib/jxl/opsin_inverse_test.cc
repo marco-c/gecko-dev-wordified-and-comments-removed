@@ -9,6 +9,11 @@ h
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 lib
 /
@@ -82,7 +87,7 @@ lib
 /
 jxl
 /
-image_bundle
+image_ops
 .
 h
 "

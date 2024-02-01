@@ -9,6 +9,15 @@ include
 <
 jxl
 /
+memory_manager
+.
+h
+>
+#
+include
+<
+jxl
+/
 resizable_parallel_runner
 .
 h

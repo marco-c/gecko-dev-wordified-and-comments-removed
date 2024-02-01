@@ -19,6 +19,15 @@ h
 #
 include
 <
+jxl
+/
+version
+.
+h
+>
+#
+include
+<
 algorithm
 >
 #

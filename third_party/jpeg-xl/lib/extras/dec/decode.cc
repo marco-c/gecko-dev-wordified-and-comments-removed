@@ -201,12 +201,6 @@ std
 :
 :
 string
-base
-;
-std
-:
-:
-string
 ext
 =
 GetExtension

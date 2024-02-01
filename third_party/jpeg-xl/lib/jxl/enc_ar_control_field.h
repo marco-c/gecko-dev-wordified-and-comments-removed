@@ -23,6 +23,17 @@ lib
 /
 jxl
 /
+ac_strategy
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 enc_params
 .
 h
