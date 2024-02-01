@@ -3886,11 +3886,6 @@ variants
 :
 convertToBlob
 :
-test_type
-:
-"
-promise
-"
 canvasType
 :
 [
@@ -3912,11 +3907,6 @@ convertToBlob
 )
 createImageBitmap
 :
-test_type
-:
-"
-promise
-"
 operation
 :
 createImageBitmap
@@ -3925,11 +3915,6 @@ canvas
 )
 toBlob
 :
-test_type
-:
-"
-promise
-"
 canvasType
 :
 [
