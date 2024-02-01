@@ -44,6 +44,13 @@ jsm
 "
 modules
 /
+ASRouterParentProcessMessageHandler
+.
+jsm
+"
+"
+modules
+/
 ASRouterPreferences
 .
 jsm

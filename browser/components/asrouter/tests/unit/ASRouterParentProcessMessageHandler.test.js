@@ -4,7 +4,7 @@ ASRouterParentProcessMessageHandler
 }
 from
 "
-lib
+modules
 /
 ASRouterParentProcessMessageHandler
 .
@@ -17,6 +17,8 @@ _ASRouter
 }
 from
 "
+newtab
+/
 lib
 /
 ASRouter
