@@ -48,6 +48,16 @@ INDEX_QUARANTINE_ERROR
 =
 3
 ;
+const
+INDEX_EMPTY_ERROR
+=
+4
+;
+const
+INDEX_NULL_ERROR
+=
+5
+;
 add_setup
 (
 function

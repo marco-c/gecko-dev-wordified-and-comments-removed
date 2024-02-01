@@ -110958,6 +110958,12 @@ write_error
 "
 quarantine_error
 "
+"
+empty_error
+"
+"
+null_error
+"
 ]
 "
 description
@@ -110991,9 +110997,14 @@ full
 on
 macOS
 from
+an
+extended
+attributed
+on
 the
-quarantine
-database
+.
+app
+bundle
 .
 "
 "
@@ -111012,6 +111023,7 @@ bug_numbers
 [
 1621402
 1525076
+1874944
 ]
 "
 alert_emails
