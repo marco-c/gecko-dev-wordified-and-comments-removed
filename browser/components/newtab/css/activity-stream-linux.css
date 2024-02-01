@@ -5043,12 +5043,6 @@ width
 :
 120px
 ;
-padding
-:
-20px
-16px
-4px
-;
 border
 -
 radius
@@ -5095,6 +5089,12 @@ inner
 >
 a
 {
+padding
+:
+20px
+16px
+4px
+;
 color
 :
 inherit
