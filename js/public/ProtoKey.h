@@ -530,7 +530,7 @@ REAL
 DataView
 OCLASP
 (
-DataView
+FixedLengthDataView
 )
 )
 \

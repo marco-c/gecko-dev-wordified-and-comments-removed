@@ -10028,7 +10028,7 @@ case
 GuardClassKind
 :
 :
-DataView
+FixedLengthDataView
 :
 MOZ_ASSERT
 (
@@ -10037,7 +10037,7 @@ obj
 >
 is
 <
-DataViewObject
+FixedLengthDataViewObject
 >
 (
 )
@@ -10952,7 +10952,7 @@ obj
 >
 is
 <
-DataViewObject
+FixedLengthDataViewObject
 >
 (
 )
@@ -10975,7 +10975,7 @@ obj
 >
 as
 <
-DataViewObject
+FixedLengthDataViewObject
 >
 (
 )
@@ -33409,7 +33409,7 @@ toObject
 .
 is
 <
-DataViewObject
+FixedLengthDataViewObject
 >
 (
 )
@@ -33490,7 +33490,7 @@ AttachDecision
 NoAction
 ;
 }
-DataViewObject
+auto
 *
 dv
 =
@@ -33503,7 +33503,7 @@ toObject
 .
 as
 <
-DataViewObject
+FixedLengthDataViewObject
 >
 (
 )
@@ -33639,7 +33639,7 @@ toObject
 GuardClassKind
 :
 :
-DataView
+FixedLengthDataView
 )
 ;
 ValOperandId
@@ -33778,7 +33778,7 @@ toObject
 .
 is
 <
-DataViewObject
+FixedLengthDataViewObject
 >
 (
 )
@@ -33879,7 +33879,7 @@ AttachDecision
 NoAction
 ;
 }
-DataViewObject
+auto
 *
 dv
 =
@@ -33892,7 +33892,7 @@ toObject
 .
 as
 <
-DataViewObject
+FixedLengthDataViewObject
 >
 (
 )
@@ -33972,7 +33972,7 @@ toObject
 GuardClassKind
 :
 :
-DataView
+FixedLengthDataView
 )
 ;
 ValOperandId
