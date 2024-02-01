@@ -1107,11 +1107,9 @@ AppConstants
 MOZ_UPDATE_CHANNEL
 version
 :
-Services
+AppConstants
 .
-appinfo
-.
-version
+MOZ_APP_VERSION_DISPLAY
 }
 ;
 }
