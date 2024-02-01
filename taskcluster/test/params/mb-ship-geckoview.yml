@@ -39,9 +39,6 @@ do_not_optimize
 :
 [
 ]
-enable_always_target
-:
-false
 existing_tasks
 :
 build
