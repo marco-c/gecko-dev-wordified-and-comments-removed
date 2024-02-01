@@ -16512,12 +16512,7 @@ result
 =
 this
 .
-view
-.
-getResultAtIndex
-(
-0
-)
+_resultForCurrentValue
 ;
 if
 (
