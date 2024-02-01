@@ -125,8 +125,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -2805,5 +2805,4 @@ mTimerEventQueue
 mWorkerEventQueue
 mDocGroups
 )
-}
 }
