@@ -4788,13 +4788,13 @@ HeapSlot
 ;
 static_assert
 (
-TypedArrayObject
+FixedLengthTypedArrayObject
 :
 :
 FIXED_DATA_START
 =
 =
-TypedArrayObject
+FixedLengthTypedArrayObject
 :
 :
 DATA_SLOT
@@ -4817,7 +4817,7 @@ slot
 ;
 static_assert
 (
-TypedArrayObject
+FixedLengthTypedArrayObject
 :
 :
 INLINE_BUFFER_LIMIT
@@ -4899,7 +4899,7 @@ Fixed
 nbytes
 <
 =
-TypedArrayObject
+FixedLengthTypedArrayObject
 :
 :
 INLINE_BUFFER_LIMIT
