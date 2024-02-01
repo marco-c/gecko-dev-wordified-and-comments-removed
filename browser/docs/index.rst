@@ -131,12 +131,6 @@ places
 index
 components
 /
-newtab
-/
-content
--
-src
-/
 asrouter
 /
 docs

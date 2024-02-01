@@ -15,14 +15,6 @@ import
 docs
 from
 "
-newtab
-/
-content
--
-src
-/
-asrouter
-/
 docs
 /
 targeting
