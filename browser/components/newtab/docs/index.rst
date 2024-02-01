@@ -63,13 +63,10 @@ on
 about
 :
 home
-about
-:
-newtab
 and
 about
 :
-welcome
+newtab
 can
 be
 found

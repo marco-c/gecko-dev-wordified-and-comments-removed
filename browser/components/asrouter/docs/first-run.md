@@ -358,9 +358,7 @@ true
 Open
 about
 :
-newtab
-#
-devtools
+asrouter
 -
 Click
 Targeting

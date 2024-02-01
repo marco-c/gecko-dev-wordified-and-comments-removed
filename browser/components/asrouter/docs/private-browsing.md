@@ -114,9 +114,7 @@ go
 to
 about
 :
-newtab
-#
-devtools
+asrouter
 3
 .
 On
@@ -198,13 +196,11 @@ browser
 /
 components
 /
-newtab
+asrouter
 /
 content
 -
 src
-/
-asrouter
 /
 templates
 /

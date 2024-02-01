@@ -92,9 +92,7 @@ go
 to
 about
 :
-newtab
-#
-devtools
+asrouter
 in
 the
 url
@@ -206,13 +204,11 @@ browser
 /
 components
 /
-newtab
+asrouter
 /
 content
 -
 src
-/
-asrouter
 /
 templates
 /
