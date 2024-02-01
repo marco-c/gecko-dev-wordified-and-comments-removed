@@ -648,6 +648,12 @@ isDetached
 ;
 }
 bool
+hasResizableBuffer
+(
+)
+const
+;
+bool
 isLengthPinned
 (
 )
