@@ -7,6 +7,15 @@ nsTPromiseFlatString_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsTString
 .
 h
@@ -17,6 +26,7 @@ typename
 T
 >
 class
+MOZ_STACK_CLASS
 nsTPromiseFlatString
 :
 public
