@@ -2256,23 +2256,6 @@ py
 "
         
 "
-aarch64
--
-profile
--
-generate
-"
-:
-path_base
-+
-"
-%
-s_aarch64_profile_generate
-.
-py
-"
-        
-"
 android
 -
 geckoview
