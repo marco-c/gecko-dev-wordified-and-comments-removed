@@ -1512,11 +1512,6 @@ TypedArrayObject
 length
 (
 )
-.
-valueOr
-(
-0
-)
 ;
 static_assert
 (

@@ -4093,7 +4093,7 @@ case
 GuardClassKind
 :
 :
-FixedLengthArrayBuffer
+ArrayBuffer
 :
 if
 (
@@ -4106,7 +4106,7 @@ getClass
 !
 =
 &
-FixedLengthArrayBufferObject
+ArrayBufferObject
 :
 :
 class_
@@ -4125,7 +4125,7 @@ case
 GuardClassKind
 :
 :
-FixedLengthSharedArrayBuffer
+SharedArrayBuffer
 :
 if
 (
@@ -4138,7 +4138,7 @@ getClass
 !
 =
 &
-FixedLengthSharedArrayBufferObject
+SharedArrayBufferObject
 :
 :
 class_
@@ -4157,7 +4157,7 @@ case
 GuardClassKind
 :
 :
-FixedLengthDataView
+DataView
 :
 if
 (
@@ -4170,7 +4170,7 @@ getClass
 !
 =
 &
-FixedLengthDataViewObject
+DataViewObject
 :
 :
 class_
@@ -11209,10 +11209,6 @@ GuardIsNotArrayBufferMaybeShared
 CACHEOP_CASE_UNIMPL
 (
 GuardIsTypedArray
-)
-CACHEOP_CASE_UNIMPL
-(
-GuardIsFixedLengthTypedArray
 )
 CACHEOP_CASE_UNIMPL
 (
