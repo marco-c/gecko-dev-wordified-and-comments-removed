@@ -36,11 +36,7 @@ FAKE_REMOTE_SETTINGS_PROVIDER
 }
 from
 "
-test
-/
-unit
-/
-asrouter
+.
 /
 constants
 "
