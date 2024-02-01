@@ -2581,6 +2581,13 @@ cpp
 "
 vm
 /
+InvalidatingFuse
+.
+cpp
+"
+"
+vm
+/
 Iteration
 .
 cpp

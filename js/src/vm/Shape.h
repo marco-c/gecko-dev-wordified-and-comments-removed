@@ -829,6 +829,9 @@ gcx
 }
 BaseShape
 (
+JSContext
+*
+cx
 const
 JSClass
 *
