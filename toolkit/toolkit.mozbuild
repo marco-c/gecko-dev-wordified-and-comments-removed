@@ -25,7 +25,7 @@ selftest
 /
 python
 .
-ini
+toml
 "
 "
 /
@@ -39,7 +39,7 @@ tests
 /
 python
 .
-ini
+toml
 "
 "
 /
@@ -57,7 +57,7 @@ harness_unit
 /
 python
 .
-ini
+toml
 "
 "
 /
@@ -71,7 +71,7 @@ python
 /
 python
 .
-ini
+toml
 "
 "
 /
@@ -83,7 +83,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 /
@@ -97,7 +97,7 @@ unittests
 /
 python
 .
-ini
+toml
 "
 ]
 DIRS
