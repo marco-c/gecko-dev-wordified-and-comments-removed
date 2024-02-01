@@ -110,6 +110,15 @@ ASRouterTriggerListeners
 .
 jsm
 "
+"
+modules
+/
+CFRMessageProvider
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +

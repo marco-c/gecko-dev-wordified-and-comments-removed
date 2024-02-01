@@ -4,7 +4,7 @@ CFRMessageProvider
 }
 from
 "
-lib
+asroutermodules
 /
 CFRMessageProvider
 .

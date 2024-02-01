@@ -4,9 +4,7 @@ CFRMessageProvider
 }
 from
 "
-newtab
-/
-lib
+modules
 /
 CFRMessageProvider
 .
