@@ -6709,6 +6709,12 @@ GetClientAreaRect
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+nsSize
+GetScrollSize
+(
+)
+;
 template
 <
 class
