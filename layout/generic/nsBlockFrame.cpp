@@ -7741,10 +7741,10 @@ StyleText
 )
 -
 >
-mTextWrapStyle
+mTextWrap
 =
 =
-StyleTextWrapStyle
+StyleTextWrap
 :
 :
 Balance

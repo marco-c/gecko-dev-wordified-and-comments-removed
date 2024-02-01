@@ -941,13 +941,7 @@ StyleScrollbarWidth
 mozilla
 :
 :
-StyleWhiteSpaceCollapse
-"
-"
-mozilla
-:
-:
-StyleTextWrapMode
+StyleWhiteSpace
 "
 "
 mozilla
@@ -1175,7 +1169,7 @@ StyleWritingModeProperty
 mozilla
 :
 :
-StyleTextWrapStyle
+StyleTextWrap
 "
 "
 StyleFontVariantEmoji

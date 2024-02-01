@@ -3636,7 +3636,7 @@ NameAtom
 EditorUtils
 :
 :
-GetComputedWhiteSpaceStyles
+GetComputedWhiteSpaceStyle
 (
 aLeftBlockElement
 )
@@ -3645,7 +3645,7 @@ aLeftBlockElement
 EditorUtils
 :
 :
-GetComputedWhiteSpaceStyles
+GetComputedWhiteSpaceStyle
 (
 aRightBlockElement
 )
