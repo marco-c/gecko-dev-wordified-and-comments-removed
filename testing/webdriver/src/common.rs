@@ -432,6 +432,7 @@ Element
 (
 WebElement
 )
+Top
 }
 fn
 serialize_webelement_id
