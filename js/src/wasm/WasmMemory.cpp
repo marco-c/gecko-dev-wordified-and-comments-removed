@@ -527,7 +527,7 @@ actual
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 /
 PageSize
 ;
@@ -589,7 +589,7 @@ static_assert
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 >
 =
 INT32_MAX

@@ -1949,12 +1949,12 @@ NativeType
 static
 constexpr
 auto
-MaxByteLength
+ByteLengthLimit
 =
 TypedArrayObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 ;
 static
 constexpr
@@ -2931,7 +2931,7 @@ MOZ_ASSERT
 bufferByteLength
 <
 =
-MaxByteLength
+ByteLengthLimit
 )
 ;
 size_t
@@ -3106,7 +3106,7 @@ MOZ_ASSERT
 len
 <
 =
-MaxByteLength
+ByteLengthLimit
 /
 BYTES_PER_ELEMENT
 )
@@ -3642,7 +3642,7 @@ if
 (
 count
 >
-MaxByteLength
+ByteLengthLimit
 /
 BYTES_PER_ELEMENT
 )
@@ -3671,7 +3671,7 @@ MOZ_ASSERT
 byteLength
 <
 =
-MaxByteLength
+ByteLengthLimit
 )
 ;
 static_assert
@@ -4261,7 +4261,7 @@ MOZ_ASSERT
 len
 <
 =
-MaxByteLength
+ByteLengthLimit
 /
 BYTES_PER_ELEMENT
 )
@@ -4749,7 +4749,7 @@ size_t
 len
 )
 >
-MaxByteLength
+ByteLengthLimit
 /
 BYTES_PER_ELEMENT
 )
@@ -4781,7 +4781,7 @@ MOZ_ASSERT
 nbytes
 <
 =
-MaxByteLength
+ByteLengthLimit
 )
 ;
 bool
@@ -5231,7 +5231,7 @@ MOZ_ASSERT
 len
 <
 =
-MaxByteLength
+ByteLengthLimit
 /
 BYTES_PER_ELEMENT
 )
@@ -7072,7 +7072,7 @@ MOZ_ASSERT
 len
 <
 =
-MaxByteLength
+ByteLengthLimit
 /
 BYTES_PER_ELEMENT
 )
@@ -7300,7 +7300,7 @@ nbytes
 TypedArrayObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 return

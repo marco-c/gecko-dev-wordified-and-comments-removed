@@ -563,7 +563,7 @@ slot
 static
 constexpr
 size_t
-MaxByteLengthForSmallBuffer
+ByteLengthLimitForSmallBuffer
 =
 INT32_MAX
 ;
@@ -573,7 +573,7 @@ JS_64BIT
 static
 constexpr
 size_t
-MaxByteLength
+ByteLengthLimit
 =
 size_t
 (
@@ -591,9 +591,9 @@ else
 static
 constexpr
 size_t
-MaxByteLength
+ByteLengthLimit
 =
-MaxByteLengthForSmallBuffer
+ByteLengthLimitForSmallBuffer
 ;
 #
 endif
@@ -2472,7 +2472,7 @@ length
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 setFixedSlot
