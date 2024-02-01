@@ -42285,7 +42285,6 @@ str
 dumpRepresentation
 (
 out
-0
 )
 ;
 args
@@ -42377,7 +42376,6 @@ str
 dumpRepresentation
 (
 out
-0
 )
 ;
 JSString
