@@ -1004,9 +1004,9 @@ you
 #
 #
 Debugging
-Intermittent
-Test
-Failures
+intermittent
+test
+failures
 There
 are
 a
@@ -1369,7 +1369,7 @@ analysis
 Writing
 Necko
 XPCShell
-Tests
+tests
 The
 most
 typical

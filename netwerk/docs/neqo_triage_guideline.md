@@ -1,7 +1,7 @@
 #
 Neqo
-Triage
-Guideline
+triage
+guideline
 [
 Neqo
 ]

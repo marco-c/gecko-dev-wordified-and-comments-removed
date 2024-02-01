@@ -11,7 +11,7 @@ and
 HTTP
 /
 3
-Support
+support
 The
 Mochitest
 framework
@@ -800,8 +800,8 @@ PATH_TO_TEST_FILE
 #
 Reasons
 for
-Skipped
-Tests
+skipped
+tests
 We
 have
 several

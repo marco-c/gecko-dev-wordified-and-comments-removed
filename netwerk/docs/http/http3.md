@@ -1,7 +1,7 @@
 #
 Http3Session
 and
-Streams
+streams
 The
 HTTP
 /
@@ -280,10 +280,10 @@ G
 #
 Interactions
 with
-Sockets
+sockets
 and
-Driving
-Neqo
+driving
+neqo
 As
 described
 in
@@ -1192,8 +1192,8 @@ HTTP
 and
 WebTransport
 Streams
-Reading
-Data
+reading
+data
 The
 following
 diagram
@@ -1649,8 +1649,8 @@ HTTP
 and
 WebTransport
 Streams
-Writing
-Data
+writing
+data
 The
 following
 diagram
@@ -1919,7 +1919,7 @@ stream
 #
 #
 Neqo
-Events
+events
 For
 *
 *
@@ -2243,7 +2243,7 @@ lost
 #
 #
 WebTransport
-Events
+events
 *
 *
 Negotiated
