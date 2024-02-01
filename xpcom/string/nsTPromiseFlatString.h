@@ -120,6 +120,15 @@ delete
 ;
 nsTPromiseFlatString
 (
+const
+self_type
+&
+)
+=
+delete
+;
+nsTPromiseFlatString
+(
 )
 =
 delete
