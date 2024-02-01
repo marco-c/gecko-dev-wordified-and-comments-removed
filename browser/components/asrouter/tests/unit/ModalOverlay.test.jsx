@@ -4,6 +4,8 @@ ModalOverlayWrapper
 }
 from
 "
+newtab
+/
 content
 -
 src

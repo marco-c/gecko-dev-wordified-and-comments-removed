@@ -4,7 +4,7 @@ ASRouterTriggerListeners
 }
 from
 "
-asroutermodules
+modules
 /
 ASRouterTriggerListeners
 .
@@ -17,7 +17,7 @@ ASRouterPreferences
 }
 from
 "
-asroutermodules
+modules
 /
 ASRouterPreferences
 .

@@ -5,6 +5,8 @@ _RemoteL10n
 }
 from
 "
+newtab
+/
 lib
 /
 RemoteL10n

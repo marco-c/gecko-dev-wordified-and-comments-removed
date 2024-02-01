@@ -5,6 +5,8 @@ PageAction
 }
 from
 "
+newtab
+/
 lib
 /
 CFRPageActions
@@ -18,7 +20,11 @@ FAKE_RECOMMENDATION
 }
 from
 "
-.
+test
+/
+unit
+/
+asrouter
 /
 constants
 "
@@ -42,6 +48,8 @@ CFRMessageProvider
 }
 from
 "
+newtab
+/
 lib
 /
 CFRMessageProvider
