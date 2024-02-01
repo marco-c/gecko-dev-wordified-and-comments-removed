@@ -968,7 +968,7 @@ buffer
 alias
 :
 {
-asroutermodules
+asrouter
 :
 path
 .
@@ -980,8 +980,6 @@ __dirname
 .
 /
 asrouter
-/
-modules
 "
 )
 }

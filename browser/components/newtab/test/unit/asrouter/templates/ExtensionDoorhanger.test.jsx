@@ -4,7 +4,9 @@ CFRMessageProvider
 }
 from
 "
-asroutermodules
+asrouter
+/
+modules
 /
 CFRMessageProvider
 .

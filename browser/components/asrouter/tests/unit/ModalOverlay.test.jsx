@@ -4,13 +4,9 @@ ModalOverlayWrapper
 }
 from
 "
-newtab
-/
 content
 -
 src
-/
-asrouter
 /
 components
 /
