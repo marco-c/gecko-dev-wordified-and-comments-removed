@@ -3,6 +3,8 @@ asyncio
 import
 collections
 import
+inspect
+import
 sys
 import
 time
@@ -1738,6 +1740,20 @@ self
 .
 session
 )
+                    
+if
+inspect
+.
+isawaitable
+(
+result
+)
+:
+                        
+result
+=
+await
+result
                 
 except
 (
