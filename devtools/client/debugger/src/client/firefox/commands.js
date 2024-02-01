@@ -475,7 +475,6 @@ async
 function
 toggleTracing
 (
-logMethod
 )
 {
 return
@@ -485,7 +484,6 @@ tracerCommand
 .
 toggle
 (
-logMethod
 )
 ;
 }

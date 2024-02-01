@@ -173,6 +173,15 @@ getLogMethod
 (
 )
 ;
+if
+(
+!
+logMethod
+)
+{
+return
+;
+}
 this
 .
 onAvailable

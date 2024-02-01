@@ -1,6 +1,7 @@
 import
 {
 getIsJavascriptTracingEnabled
+getJavascriptTracingLogMethod
 }
 from
 "
@@ -31,7 +32,6 @@ export
 function
 toggleTracing
 (
-logMethod
 )
 {
 return
@@ -51,6 +51,16 @@ const
 isTracingEnabled
 =
 getIsJavascriptTracingEnabled
+(
+getState
+(
+)
+)
+;
+const
+logMethod
+=
+getJavascriptTracingLogMethod
 (
 getState
 (
@@ -103,7 +113,6 @@ client
 .
 toggleTracing
 (
-logMethod
 )
 enabled
 :
