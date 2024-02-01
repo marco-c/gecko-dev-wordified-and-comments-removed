@@ -620,14 +620,8 @@ void
 CallOnAllTopDescendants
 (
 const
-std
-:
-:
-function
+FunctionRef
 <
-mozilla
-:
-:
 CallState
 (
 CanonicalBrowsingContext
