@@ -44,6 +44,15 @@ jsm
 "
 modules
 /
+ASRouterNewTabHook
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 ASRouterParentProcessMessageHandler
 .
 jsm
