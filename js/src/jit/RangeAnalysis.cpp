@@ -10260,7 +10260,7 @@ constexpr
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 <
 =
 INT32_MAX
@@ -10298,7 +10298,7 @@ constexpr
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 <
 =
 INT32_MAX

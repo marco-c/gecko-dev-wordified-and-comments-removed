@@ -249,7 +249,7 @@ length
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 return
@@ -320,7 +320,7 @@ length
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -331,7 +331,7 @@ maxLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 MOZ_ASSERT_IF
@@ -477,7 +477,7 @@ length
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 size_t
@@ -779,7 +779,7 @@ byteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 size_t
@@ -2206,7 +2206,7 @@ byteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 JS_ReportErrorNumberASCII
@@ -3844,7 +3844,7 @@ nbytes
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 JS_ReportErrorNumberASCII
