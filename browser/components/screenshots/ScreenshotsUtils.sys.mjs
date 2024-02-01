@@ -4318,9 +4318,7 @@ prefs
 setStringPref
 (
 SCREENSHOTS_LAST_SCREENSHOT_METHOD_PREF
-"
-fullpage
-"
+lastUsedMethod
 )
 ;
 this
