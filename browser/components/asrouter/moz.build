@@ -126,6 +126,15 @@ CFRPageActions
 .
 jsm
 "
+"
+modules
+/
+RemoteL10n
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +

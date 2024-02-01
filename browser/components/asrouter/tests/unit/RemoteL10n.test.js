@@ -5,9 +5,7 @@ _RemoteL10n
 }
 from
 "
-newtab
-/
-lib
+modules
 /
 RemoteL10n
 .
