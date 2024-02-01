@@ -839,7 +839,7 @@ use_ldflags
 [
 "
 -
-ORDERFILE
+ORDER
 :
 "
 +
