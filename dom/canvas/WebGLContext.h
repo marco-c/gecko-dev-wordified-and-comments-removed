@@ -2140,7 +2140,7 @@ SwapChainOptions
 )
 )
 ;
-void
+bool
 CopyToSwapChain
 (
 WebGLFramebuffer

@@ -1935,8 +1935,13 @@ HasDataSnapshot
 )
 const
 ;
+bool
+EnsureDataSnapshot
+(
+)
+;
 void
-PrepareData
+PrepareShmem
 (
 )
 ;
@@ -2828,7 +2833,7 @@ aType
 )
 override
 ;
-void
+bool
 CopyToSwapChain
 (
 layers
@@ -3181,6 +3186,11 @@ ReadIntoSkia
 ;
 void
 FlattenSkia
+(
+)
+;
+bool
+PrepareSkia
 (
 )
 ;

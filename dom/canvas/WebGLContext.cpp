@@ -5811,7 +5811,7 @@ options
 ;
 }
 }
-void
+bool
 WebGLContext
 :
 :
@@ -5861,8 +5861,11 @@ IsContextLost
 (
 )
 )
+{
 return
+false
 ;
+}
 OnEndOfFrame
 (
 )
@@ -5872,8 +5875,11 @@ if
 !
 srcFb
 )
+{
 return
+false
 ;
+}
 const
 auto
 *
@@ -5893,6 +5899,7 @@ info
 )
 {
 return
+false
 ;
 }
 gfx
@@ -5969,6 +5976,7 @@ TextureType
 Unknown
 )
 {
+return
 PushRemoteTexture
 (
 srcFb
@@ -5980,8 +5988,6 @@ nullptr
 options
 ownerClient
 )
-;
-return
 ;
 }
 {
@@ -6031,6 +6037,7 @@ LoseContext
 )
 ;
 return
+false
 ;
 }
 const
@@ -6075,6 +6082,7 @@ if
 useAsync
 )
 {
+return
 PushRemoteTexture
 (
 srcFb
@@ -6095,6 +6103,9 @@ ownerClient
 )
 ;
 }
+return
+true
+;
 }
 bool
 WebGLContext
