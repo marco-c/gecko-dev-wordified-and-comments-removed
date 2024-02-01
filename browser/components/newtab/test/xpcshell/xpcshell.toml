@@ -210,6 +210,13 @@ js
 ]
 [
 "
+test_PlacesFeed
+.
+js
+"
+]
+[
+"
 test_TopSitesFeed_glean
 .
 js
