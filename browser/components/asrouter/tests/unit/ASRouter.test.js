@@ -78,9 +78,7 @@ CFRPageActions
 }
 from
 "
-newtab
-/
-lib
+modules
 /
 CFRPageActions
 .

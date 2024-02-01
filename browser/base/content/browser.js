@@ -1412,11 +1412,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 CFRPageActions
 .

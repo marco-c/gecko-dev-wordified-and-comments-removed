@@ -5,9 +5,7 @@ PageAction
 }
 from
 "
-newtab
-/
-lib
+modules
 /
 CFRPageActions
 .
