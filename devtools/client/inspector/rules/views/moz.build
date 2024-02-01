@@ -65,6 +65,15 @@ previewer
 js
 "
 "
+registered
+-
+property
+-
+editor
+.
+js
+"
+"
 rule
 -
 editor
