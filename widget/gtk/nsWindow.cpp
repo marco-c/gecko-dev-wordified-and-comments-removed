@@ -24046,6 +24046,13 @@ GdkEventScroll
 aEvent
 )
 {
+LOG
+(
+"
+OnScrollEvent
+"
+)
+;
 if
 (
 CheckForRollup
@@ -39380,8 +39387,11 @@ window
 ;
 if
 (
+NS_WARN_IF
+(
 !
 window
+)
 )
 {
 return
