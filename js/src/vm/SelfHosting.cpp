@@ -2896,7 +2896,7 @@ info
 str
 -
 >
-dumpCharsNoNewline
+dumpCharsNoQuote
 (
 out
 )
@@ -2994,7 +2994,7 @@ str
 str
 -
 >
-dumpCharsNoNewline
+dumpCharsNoQuote
 (
 out
 )

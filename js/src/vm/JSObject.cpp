@@ -15364,7 +15364,7 @@ toString
 )
 -
 >
-dumpNoNewline
+dumpChars
 (
 out
 )
@@ -16088,7 +16088,7 @@ toAtom
 )
 -
 >
-dumpCharsNoNewline
+dumpChars
 (
 out
 )
