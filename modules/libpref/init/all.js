@@ -5405,16 +5405,6 @@ pref
 "
 dom
 .
-send_after_paint_to_content
-"
-false
-)
-;
-pref
-(
-"
-dom
-.
 forms
 .
 datetime
