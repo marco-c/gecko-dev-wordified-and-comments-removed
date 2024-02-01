@@ -33,6 +33,13 @@ js
 ]
 [
 "
+browser_doh_region
+.
+js
+"
+]
+[
+"
 browser_doorhangerUserReject
 .
 js
@@ -140,13 +147,6 @@ js
 [
 "
 browser_userInterference
-.
-js
-"
-]
-[
-"
-browser_doh_region
 .
 js
 "

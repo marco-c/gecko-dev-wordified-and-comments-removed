@@ -60,6 +60,13 @@ js
 ]
 [
 "
+browser_test_clipboard_contextmenu
+.
+js
+"
+]
+[
+"
 browser_test_clipboardcache
 .
 js
@@ -102,13 +109,6 @@ linux
 #
 Bug
 1792749
-]
-[
-"
-browser_test_clipboard_contextmenu
-.
-js
-"
 ]
 [
 "

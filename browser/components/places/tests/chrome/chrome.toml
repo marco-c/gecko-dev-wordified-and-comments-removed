@@ -21,13 +21,6 @@ xhtml
 ]
 [
 "
-test_bug1163447_selectItems_through_shortcut
-.
-xhtml
-"
-]
-[
-"
 test_bug549192
 .
 xhtml
@@ -36,6 +29,13 @@ xhtml
 [
 "
 test_bug549491
+.
+xhtml
+"
+]
+[
+"
+test_bug1163447_selectItems_through_shortcut
 .
 xhtml
 "

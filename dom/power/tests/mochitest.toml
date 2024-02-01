@@ -21,7 +21,7 @@ https
 "
 [
 "
-test_wakelock_default_permission
+test_dynamic_pref_change
 .
 html
 "
@@ -45,7 +45,7 @@ permissions
 policy
 [
 "
-test_dynamic_pref_change
+test_wakelock_default_permission
 .
 html
 "
