@@ -4404,13 +4404,6 @@ mObserver
 mObserver
 -
 >
-OnReportPerformanceTiming
-(
-)
-;
-mObserver
--
->
 OnResponseEnd
 (
 FetchDriverObserver
