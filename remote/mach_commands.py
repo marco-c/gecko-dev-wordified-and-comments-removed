@@ -2463,21 +2463,6 @@ test
 parameters
 :
         
-bidi
-:
-          
-Boolean
-to
-indicate
-whether
-to
-test
-Firefox
-with
-BiDi
-protocol
-.
-        
 binary
 :
           
@@ -2495,6 +2480,21 @@ the
 local
           
 build
+.
+        
+cdp
+:
+          
+Boolean
+to
+indicate
+whether
+to
+test
+Firefox
+with
+CDP
+protocol
 .
         
 headless
@@ -2557,14 +2557,14 @@ setup
 (
 )
         
-with_bidi
+with_cdp
 =
 params
 .
 get
 (
 "
-bidi
+cdp
 "
 False
 )
@@ -2858,9 +2858,8 @@ cache
 )
         
 if
-with_bidi
-is
-True
+not
+with_cdp
 :
             
 test_command
@@ -3134,7 +3133,7 @@ is_relevant_expectation
                 
 expectation
 product
-with_bidi
+with_cdp
 env
 [
 "
@@ -3265,41 +3264,6 @@ add_argument
 "
 -
 -
-bidi
-"
-        
-action
-=
-"
-store_true
-"
-        
-help
-=
-"
-Flag
-that
-indicates
-whether
-to
-test
-Firefox
-with
-BiDi
-protocol
-.
-"
-    
-)
-    
-p
-.
-add_argument
-(
-        
-"
--
--
 binary
 "
         
@@ -3320,6 +3284,42 @@ to
 local
 Firefox
 build
+.
+"
+    
+)
+    
+p
+.
+add_argument
+(
+        
+"
+-
+-
+cdp
+"
+        
+action
+=
+"
+store_true
+"
+        
+help
+=
+"
+Flag
+that
+indicates
+whether
+to
+test
+Firefox
+with
+the
+CDP
+protocol
 .
 "
     
@@ -3665,7 +3665,7 @@ is_relevant_expectation
     
 expectation
 expected_product
-with_bidi
+with_cdp
 is_headless
 expected_platform
 )
@@ -3711,9 +3711,19 @@ in
 parameters
     
 if
-with_bidi
-is
-True
+with_cdp
+:
+        
+is_expected_protocol
+=
+"
+webDriverBiDi
+"
+not
+in
+parameters
+    
+else
 :
         
 is_expected_protocol
@@ -3730,18 +3740,6 @@ is_headless
 "
 True
 "
-    
-else
-:
-        
-is_expected_protocol
-=
-"
-webDriverBiDi
-"
-not
-in
-parameters
     
 if
 is_headless
@@ -3872,13 +3870,13 @@ puppeteer_test
     
 command_context
     
-bidi
-=
-None
-    
 binary
 =
 None
+    
+cdp
+=
+False
     
 ci
 =
@@ -4333,16 +4331,16 @@ params
 {
         
 "
-bidi
+binary
 "
 :
-bidi
+binary
         
 "
-binary
+cdp
 "
 :
-binary
+cdp
         
 "
 headless

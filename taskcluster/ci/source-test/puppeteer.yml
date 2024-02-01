@@ -286,6 +286,9 @@ firefox
 firefox
 -
 -
+cdp
+-
+-
 headless
 -
 -
@@ -399,9 +402,6 @@ MOZ_FETCHES_DIR
 firefox
 /
 firefox
--
--
-bidi
 -
 -
 log
