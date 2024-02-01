@@ -59,10 +59,10 @@ contributing
 to
 Necko
 .
-[
 Necko
 '
 s
+[
 wiki
 page
 ]
@@ -277,7 +277,7 @@ Bird
 s
 -
 eye
-view
+View
 <
 https
 :

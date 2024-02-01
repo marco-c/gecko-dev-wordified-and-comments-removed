@@ -1,6 +1,6 @@
 #
 URL
-parsers
+Parsers
 {
 warning
 }
@@ -633,7 +633,7 @@ symbol
 #
 Diagram
 of
-interfaces
+Interfaces
 {
 mermaid
 }
@@ -800,7 +800,7 @@ nsIURI
 #
 #
 Additional
-interfaces
+Interfaces
 -
 [
 nsISerializable
@@ -1363,7 +1363,7 @@ files
 #
 Diagram
 of
-implementations
+Implementations
 {
 mermaid
 }
@@ -1437,8 +1437,8 @@ nsJARURI
 #
 Class
 and
-interface
-diagram
+Interface
+Diagram
 {
 mermaid
 }

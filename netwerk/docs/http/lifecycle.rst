@@ -1,9 +1,9 @@
 The
-lifecycle
+Lifecycle
 of
 a
 HTTP
-request
+Request
 =
 =
 =
@@ -69,8 +69,8 @@ though
 .
 What
 is
-available
-when
+Available
+When
 -
 -
 -
@@ -1901,7 +1901,7 @@ nsIPipe_
 -
 +
 The
-request
+Request
 :
 http
 -
@@ -2297,7 +2297,7 @@ request
 body
 .
 The
-response
+Response
 :
 http
 -
@@ -2481,7 +2481,7 @@ same
 interface
 .
 The
-response
+Response
 body
 :
 onStopRequest
@@ -3093,9 +3093,9 @@ essentially
 this
 .
 Character
-encodings
+Encodings
 and
-compression
+Compression
 -
 -
 -
@@ -3132,7 +3132,7 @@ compression
 -
 -
 Canceling
-requests
+Requests
 -
 -
 -
@@ -3152,9 +3152,9 @@ requests
 -
 -
 HTTP
-activity
-distributor
-notes
+Activity
+Distributor
+Notes
 -
 -
 -
@@ -3187,7 +3187,7 @@ notes
 -
 -
 URIContentLoader
-notes
+Notes
 -
 -
 -
@@ -3212,7 +3212,7 @@ notes
 -
 Order
 of
-operations
+Operations
 -
 -
 -
@@ -3331,10 +3331,10 @@ notification
 fires
 .
 Useful
-code
-samples
+Code
+Samples
 and
-references
+References
 -
 -
 -

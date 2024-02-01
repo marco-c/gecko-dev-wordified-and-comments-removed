@@ -897,7 +897,7 @@ pref
 #
 #
 TRR
-confirmation
+Confirmation
 TRR
 requests
 normally
@@ -1272,7 +1272,7 @@ provider
 #
 #
 Excluded
-domains
+Domains
 Some
 domains
 will
@@ -1476,7 +1476,7 @@ occurs
 #
 #
 User
-choice
+Choice
 The
 TRR
 feature
