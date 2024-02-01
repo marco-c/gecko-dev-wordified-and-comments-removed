@@ -13,11 +13,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-TestWifiMonitor
-.
-cpp
-"
 ]
 FINAL_LIBRARY
 =
