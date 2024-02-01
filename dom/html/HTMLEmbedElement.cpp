@@ -981,8 +981,6 @@ GetCapabilities
 const
 {
 return
-eSupportPlugins
-|
 eAllowPluginSkipChannel
 |
 eSupportImages

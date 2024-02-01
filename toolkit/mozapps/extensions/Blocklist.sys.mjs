@@ -8990,8 +8990,6 @@ otherwise
 item
 -
 the
-nsIPluginTag
-or
 Addon
 object
 *
