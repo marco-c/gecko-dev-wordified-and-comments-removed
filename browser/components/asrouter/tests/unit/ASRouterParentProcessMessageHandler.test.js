@@ -17,9 +17,7 @@ _ASRouter
 }
 from
 "
-newtab
-/
-lib
+modules
 /
 ASRouter
 .

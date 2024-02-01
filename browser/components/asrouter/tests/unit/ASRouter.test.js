@@ -5,7 +5,7 @@ MessageLoaderUtils
 }
 from
 "
-lib
+modules
 /
 ASRouter
 .
@@ -18,7 +18,7 @@ QueryCache
 }
 from
 "
-asroutermodules
+modules
 /
 ASRouterTargeting
 .
@@ -36,7 +36,11 @@ FAKE_REMOTE_SETTINGS_PROVIDER
 }
 from
 "
-.
+test
+/
+unit
+/
+asrouter
 /
 constants
 "
@@ -48,7 +52,7 @@ TARGETING_PREFERENCES
 }
 from
 "
-asroutermodules
+modules
 /
 ASRouterPreferences
 .
@@ -61,7 +65,7 @@ ASRouterTriggerListeners
 }
 from
 "
-asroutermodules
+modules
 /
 ASRouterTriggerListeners
 .
@@ -74,6 +78,8 @@ CFRPageActions
 }
 from
 "
+newtab
+/
 lib
 /
 CFRPageActions
@@ -100,6 +106,8 @@ PanelTestProvider
 }
 from
 "
+newtab
+/
 lib
 /
 PanelTestProvider
@@ -113,6 +121,8 @@ import
 ProviderResponseSchema
 from
 "
+newtab
+/
 content
 -
 src

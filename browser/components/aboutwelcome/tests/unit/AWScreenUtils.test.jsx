@@ -32,9 +32,7 @@ ASRouter
 }
 from
 "
-newtab
-/
-lib
+asroutermodules
 /
 ASRouter
 .

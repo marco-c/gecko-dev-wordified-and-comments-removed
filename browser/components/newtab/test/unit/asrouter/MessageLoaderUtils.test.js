@@ -4,7 +4,7 @@ MessageLoaderUtils
 }
 from
 "
-lib
+asroutermodules
 /
 ASRouter
 .
