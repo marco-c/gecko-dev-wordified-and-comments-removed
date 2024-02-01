@@ -399,6 +399,13 @@ js
 ]
 [
 "
+browser_glean_telemetry_exposure_edge_cases
+.
+js
+"
+]
+[
+"
 browser_glean_telemetry_impression_groups
 .
 js
