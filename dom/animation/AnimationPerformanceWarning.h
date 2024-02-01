@@ -47,7 +47,6 @@ uint8_t
 None
 ContentTooLarge
 ContentTooLargeArea
-TransformBackfaceVisibilityHidden
 TransformSVG
 TransformFrameInactive
 TransformIsBlockedByImportantRules
