@@ -558,7 +558,7 @@ REAL
 SharedArrayBuffer
 OCLASP
 (
-SharedArrayBuffer
+FixedLengthSharedArrayBuffer
 )
 )
 \

@@ -2019,7 +2019,7 @@ uint8_t
 Array
 PlainObject
 FixedLengthArrayBuffer
-SharedArrayBuffer
+FixedLengthSharedArrayBuffer
 FixedLengthDataView
 MappedArguments
 UnmappedArguments
