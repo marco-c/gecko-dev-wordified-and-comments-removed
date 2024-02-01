@@ -139,6 +139,12 @@ tests
 *
 *
 "
+"
+modules
+/
+*
+*
+"
 ]
 rules
 :
