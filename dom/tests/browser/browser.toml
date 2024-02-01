@@ -155,13 +155,6 @@ https_first_disabled
 true
 [
 "
-browser_bug396843
-.
-js
-"
-]
-[
-"
 browser_bug1004814
 .
 js
@@ -271,6 +264,13 @@ sjs
 file_empty_cross_site_frame
 .
 html
+"
+]
+[
+"
+browser_bug396843
+.
+js
 "
 ]
 [

@@ -122,7 +122,11 @@ if
 [
 "
 debug
+|
+|
+asan
 "
+]
 #
 Disabled
 for
@@ -132,10 +136,6 @@ in
 Bug
 1873571
 .
-"
-asan
-"
-]
 [
 "
 browser_networkobserver_invalid_constructor
@@ -161,11 +161,7 @@ fail
 -
 if
 =
-[
-"
 true
-"
-]
 #
 Disabled
 until

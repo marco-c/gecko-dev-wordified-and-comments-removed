@@ -22,13 +22,6 @@ true
 ]
 [
 "
-browser_bug617076
-.
-js
-"
-]
-[
-"
 browser_bug1701027
 -
 1
@@ -161,6 +154,13 @@ if
 "
 !
 sessionHistoryInParent
+"
+]
+[
+"
+browser_bug617076
+.
+js
 "
 ]
 [

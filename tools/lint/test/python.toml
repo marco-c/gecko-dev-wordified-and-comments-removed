@@ -163,13 +163,6 @@ py
 ]
 [
 "
-test_manifest_toml
-.
-py
-"
-]
-[
-"
 test_perfdocs
 .
 py

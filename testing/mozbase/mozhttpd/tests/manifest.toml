@@ -17,11 +17,7 @@ skip
 -
 if
 =
-[
-"
 true
-"
-]
 [
 "
 baseurl
@@ -47,11 +43,7 @@ skip
 -
 if
 =
-[
-"
 true
-"
-]
 [
 "
 paths

@@ -185,6 +185,13 @@ html
 ]
 [
 "
+test_import_errorMessage
+.
+html
+"
+]
+[
+"
 test_importIntroType
 .
 html
@@ -200,13 +207,6 @@ html
 [
 "
 test_importResolveFailed
-.
-html
-"
-]
-[
-"
-test_import_errorMessage
 .
 html
 "

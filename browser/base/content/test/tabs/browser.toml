@@ -993,14 +993,14 @@ js
 ]
 [
 "
-browser_openURI_background
+browser_open_newtab_start_observer_notification
 .
 js
 "
 ]
 [
 "
-browser_open_newtab_start_observer_notification
+browser_openURI_background
 .
 js
 "

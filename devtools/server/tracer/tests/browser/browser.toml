@@ -13,13 +13,6 @@ devtools
 "
 [
 "
-browser_document_tracer
-.
-js
-"
-]
-[
-"
 browser_worker_tracer
 .
 js
@@ -41,6 +34,13 @@ js
 WorkerDebugger
 .
 tracer
+.
+js
+"
+]
+[
+"
+browser_document_tracer
 .
 js
 "

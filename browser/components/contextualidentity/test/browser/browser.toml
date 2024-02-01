@@ -172,13 +172,6 @@ Bug
 1541885
 [
 "
-browser_guessusercontext
-.
-js
-"
-]
-[
-"
 browser_imageCache
 .
 js
@@ -202,6 +195,13 @@ os
 '
 win
 '
+"
+]
+[
+"
+browser_guessusercontext
+.
+js
 "
 ]
 [

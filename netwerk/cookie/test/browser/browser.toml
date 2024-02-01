@@ -109,7 +109,7 @@ sjs
 ]
 [
 "
-browser_partitionedConsole
+browser_partitioned_telemetry
 .
 js
 "
@@ -127,7 +127,7 @@ sjs
 ]
 [
 "
-browser_partitioned_telemetry
+browser_partitionedConsole
 .
 js
 "

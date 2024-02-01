@@ -1,7 +1,4 @@
 [
-DEFAULT
-]
-#
 '
 include
 :
@@ -20,6 +17,7 @@ mochitest
 .
 toml
 '
+]
 #
 NOTE
 :

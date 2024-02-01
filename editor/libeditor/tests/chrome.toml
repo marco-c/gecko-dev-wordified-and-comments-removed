@@ -17,6 +17,13 @@ android
 ]
 [
 "
+test_bug1397412
+.
+xhtml
+"
+]
+[
+"
 test_bug489202
 .
 xhtml
@@ -46,13 +53,6 @@ xhtml
 [
 "
 test_bug780908
-.
-xhtml
-"
-]
-[
-"
-test_bug1397412
 .
 xhtml
 "
