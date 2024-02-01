@@ -2713,6 +2713,7 @@ Unknown
 Adwaita
 Breeze
 Yaru
+YaruRemix
 }
 fn
 eval_gtk_theme_family
