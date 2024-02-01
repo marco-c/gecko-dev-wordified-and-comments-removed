@@ -67,6 +67,11 @@ indent
 (
 )
 ;
+void
+beforeValue
+(
+)
+;
 public
 :
 explicit
