@@ -1649,6 +1649,13 @@ CHANGE_REASON_UITOUR
 =
 0xC
 ;
+const
+unsigned
+short
+CHANGE_REASON_ENGINE_UPDATE
+=
+0xD
+;
 /
 *
 *
