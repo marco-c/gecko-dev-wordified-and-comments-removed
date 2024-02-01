@@ -290,7 +290,7 @@ showExposureResults
 ;
 gProvider
 .
-_results
+results
 =
 [
 ]
@@ -313,7 +313,7 @@ i
 {
 gProvider
 .
-_results
+results
 .
 push
 (
@@ -409,7 +409,7 @@ bookmark
 ;
 gProvider
 .
-_results
+results
 =
 [
 new
@@ -1096,7 +1096,7 @@ showExposureResults
 ;
 gProvider
 .
-_results
+results
 =
 [
 ]
@@ -1151,7 +1151,7 @@ bookmark
 ;
 gProvider
 .
-_results
+results
 =
 [
 new
@@ -1582,7 +1582,7 @@ cancelSecondQuery
 ;
 gProvider
 .
-_results
+results
 =
 [
 new
@@ -1702,7 +1702,7 @@ bookmark
 ;
 gProvider
 .
-_results
+results
 =
 [
 new
@@ -2085,7 +2085,7 @@ result
 of
 this
 .
-_results
+results
 )
 {
 addCallback
