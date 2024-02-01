@@ -21,28 +21,14 @@ parametrize
 (
     
 "
-path
+http_only
 "
     
 [
         
-"
-/
-"
+True
         
-"
-/
-some_path
-"
-        
-"
-/
-some
-/
-nested
-/
-path
-"
+False
         
 None
     
@@ -50,13 +36,13 @@ None
 )
 async
 def
-test_cookie_path
+test_cookie_http_only
 (
 bidi_session
-test_page
 set_cookie
+test_page
 domain_value
-path
+http_only
 )
 :
     
@@ -65,6 +51,7 @@ set_cookie_result
 await
 set_cookie
 (
+        
 cookie
 =
 create_cookie
@@ -74,9 +61,9 @@ domain
 domain_value
 (
 )
-path
+http_only
 =
-path
+http_only
 )
 )
     
@@ -95,29 +82,31 @@ partitionKey
     
 }
     
-expected_path
+expected_http_only
 =
-path
+http_only
 if
-path
+http_only
 is
 not
 None
 else
-"
-/
-"
+False
     
 await
 assert_cookie_is_set
 (
+        
 bidi_session
-path
-=
-expected_path
+        
 domain
 =
 domain_value
 (
 )
+        
+http_only
+=
+expected_http_only
+    
 )

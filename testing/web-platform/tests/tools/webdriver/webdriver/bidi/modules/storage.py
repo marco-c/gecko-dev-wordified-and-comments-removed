@@ -4,6 +4,8 @@ import
 Any
 Dict
 Mapping
+MutableMapping
+Optional
 Union
 from
 .
@@ -21,13 +23,6 @@ modules
 network
 import
 NetworkBytesValue
-from
-.
-.
-undefined
-import
-UNDEFINED
-Undefined
 class
 BrowsingContextPartitionDescriptor
 (
@@ -80,23 +75,21 @@ __init__
 self
 user_context
 :
-Union
+Optional
 [
-Undefined
 str
 ]
 =
-UNDEFINED
+None
                  
 source_origin
 :
-Union
+Optional
 [
-Undefined
 str
 ]
 =
-UNDEFINED
+None
 )
 :
         
@@ -116,7 +109,7 @@ if
 user_context
 is
 not
-UNDEFINED
+None
 :
             
 self
@@ -132,7 +125,7 @@ if
 source_origin
 is
 not
-UNDEFINED
+None
 :
             
 self
@@ -174,53 +167,48 @@ str
             
 path
 :
-Union
+Optional
 [
-Undefined
 str
 ]
 =
-UNDEFINED
+None
             
 http_only
 :
-Union
+Optional
 [
-Undefined
 bool
 ]
 =
-UNDEFINED
+None
             
 secure
 :
-Union
+Optional
 [
-Undefined
 bool
 ]
 =
-UNDEFINED
+None
             
 same_site
 :
-Union
+Optional
 [
-Undefined
 str
 ]
 =
-UNDEFINED
+None
             
 expiry
 :
-Union
+Optional
 [
-Undefined
 int
 ]
 =
-UNDEFINED
+None
     
 )
 :
@@ -245,7 +233,7 @@ if
 path
 is
 not
-UNDEFINED
+None
 :
             
 self
@@ -261,7 +249,7 @@ if
 http_only
 is
 not
-UNDEFINED
+None
 :
             
 self
@@ -277,7 +265,7 @@ if
 secure
 is
 not
-UNDEFINED
+None
 :
             
 self
@@ -293,7 +281,7 @@ if
 same_site
 is
 not
-UNDEFINED
+None
 :
             
 self
@@ -309,7 +297,7 @@ if
 expiry
 is
 not
-UNDEFINED
+None
 :
             
 self
@@ -342,13 +330,12 @@ get_cookies
 self
 partition
 :
-Union
+Optional
 [
-Undefined
 PartitionDescriptor
 ]
 =
-UNDEFINED
+None
 )
 -
 >
@@ -359,14 +346,35 @@ Any
 ]
 :
         
-return
-{
-"
-partition
-"
+params
 :
-partition
+MutableMapping
+[
+str
+Any
+]
+=
+{
 }
+        
+if
+partition
+is
+not
+None
+:
+            
+params
+[
+"
+partition
+"
+]
+=
+partition
+        
+return
+params
     
 command
     
@@ -382,13 +390,12 @@ PartialCookie
             
 partition
 :
-Union
+Optional
 [
-Undefined
 PartitionDescriptor
 ]
 =
-UNDEFINED
+None
     
 )
 -
@@ -400,19 +407,79 @@ Any
 ]
 :
         
-return
+"
+"
+"
+        
+Use
+with
+caution
+:
+this
+command
+will
+not
+clean
+the
+cookie
+up
+after
+the
+test
+is
+done
+which
+can
+lead
+to
+unexpected
+        
+test
+failures
+.
+Use
+set_cookie
+fixture
+instead
+.
+        
+"
+"
+"
+        
+params
+:
+MutableMapping
+[
+str
+Any
+]
+=
 {
             
-'
-cookie
-'
-:
-cookie
-            
 "
-partition
+cookie
 "
 :
-partition
+cookie
         
 }
+        
+if
+partition
+is
+not
+None
+:
+            
+params
+[
+"
+partition
+"
+]
+=
+partition
+        
+return
+params

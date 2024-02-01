@@ -21,27 +21,21 @@ parametrize
 (
     
 "
-path
+same_site
 "
     
 [
         
 "
-/
+strict
 "
         
 "
-/
-some_path
+lax
 "
         
 "
-/
-some
-/
-nested
-/
-path
+none
 "
         
 None
@@ -50,13 +44,13 @@ None
 )
 async
 def
-test_cookie_path
+test_cookie_secure
 (
 bidi_session
-test_page
 set_cookie
+test_page
 domain_value
-path
+same_site
 )
 :
     
@@ -65,6 +59,7 @@ set_cookie_result
 await
 set_cookie
 (
+        
 cookie
 =
 create_cookie
@@ -74,9 +69,9 @@ domain
 domain_value
 (
 )
-path
+same_site
 =
-path
+same_site
 )
 )
     
@@ -95,29 +90,29 @@ partitionKey
     
 }
     
-expected_path
+expected_same_site
 =
-path
+same_site
 if
-path
+same_site
 is
 not
 None
 else
-"
-/
-"
+'
+none
+'
     
 await
 assert_cookie_is_set
 (
 bidi_session
-path
-=
-expected_path
 domain
 =
 domain_value
 (
 )
+same_site
+=
+expected_same_site
 )
