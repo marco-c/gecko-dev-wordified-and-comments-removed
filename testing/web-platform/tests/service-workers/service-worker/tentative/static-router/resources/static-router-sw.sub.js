@@ -1,10 +1,10 @@
-var
+let
 requests
 =
 [
 ]
 ;
-var
+let
 errors
 =
 [
@@ -32,6 +32,11 @@ mode
 req
 .
 mode
+destination
+:
+req
+.
+destination
 }
 )
 ;
