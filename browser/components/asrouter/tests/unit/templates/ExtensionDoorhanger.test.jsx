@@ -4,8 +4,6 @@ CFRMessageProvider
 }
 from
 "
-asrouter
-/
 modules
 /
 CFRMessageProvider
@@ -22,8 +20,6 @@ from
 content
 -
 src
-/
-asrouter
 /
 templates
 /
@@ -46,8 +42,6 @@ content
 -
 src
 /
-asrouter
-/
 templates
 /
 CFR
@@ -68,8 +62,6 @@ from
 content
 -
 src
-/
-asrouter
 /
 templates
 /

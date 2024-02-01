@@ -119,13 +119,9 @@ import
 ProviderResponseSchema
 from
 "
-newtab
-/
 content
 -
 src
-/
-asrouter
 /
 schemas
 /

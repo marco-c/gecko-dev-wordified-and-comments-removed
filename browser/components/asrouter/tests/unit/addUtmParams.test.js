@@ -9,8 +9,6 @@ content
 -
 src
 /
-asrouter
-/
 templates
 /
 FirstRun
