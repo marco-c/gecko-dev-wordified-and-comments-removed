@@ -395,6 +395,15 @@ include
 "
 vm
 /
+PromiseObject
+.
+h
+"
+#
+include
+"
+vm
+/
 ProxyObject
 .
 h
@@ -15560,6 +15569,11 @@ M
 M
 (
 JSFunction
+)
+\
+M
+(
+PromiseObject
 )
 \
 M
