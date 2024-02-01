@@ -8,7 +8,7 @@ TEST_PROVIDERS
 }
 from
 "
-lib
+asroutermodules
 /
 ASRouterPreferences
 .

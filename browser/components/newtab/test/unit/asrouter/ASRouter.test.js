@@ -48,7 +48,7 @@ TARGETING_PREFERENCES
 }
 from
 "
-lib
+asroutermodules
 /
 ASRouterPreferences
 .

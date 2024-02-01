@@ -17,7 +17,7 @@ ASRouterPreferences
 }
 from
 "
-lib
+asroutermodules
 /
 ASRouterPreferences
 .

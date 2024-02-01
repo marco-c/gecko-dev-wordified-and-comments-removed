@@ -26,11 +26,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 ASRouterPreferences
 .
