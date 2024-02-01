@@ -1190,12 +1190,6 @@ disabled
 if
 (
 allowNonUtility
-|
-|
-!
-isNightlyOrEalyBeta
-(
-)
 )
 {
 extraKey

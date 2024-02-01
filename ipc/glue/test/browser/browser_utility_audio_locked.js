@@ -92,7 +92,8 @@ isNightlyOnly
 )
 expectError
 :
-isBetaOnly
+!
+isNightlyOnly
 (
 )
 }
