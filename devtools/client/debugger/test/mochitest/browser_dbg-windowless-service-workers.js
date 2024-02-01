@@ -6,7 +6,7 @@ strict
 const
 SW_URL
 =
-EXAMPLE_URL
+EXAMPLE_URL_WITH_PORT
 +
 "
 service
@@ -85,8 +85,10 @@ const
 dbg
 =
 await
-initDebugger
+initDebuggerWithAbsoluteURL
 (
+EXAMPLE_URL_WITH_PORT
++
 "
 doc
 -
@@ -215,7 +217,7 @@ await
 openNewTabAndToolbox
 (
 {
-EXAMPLE_URL
+EXAMPLE_URL_WITH_PORT
 }
 doc
 -
@@ -386,7 +388,7 @@ await
 openNewTabAndToolbox
 (
 {
-EXAMPLE_URL
+EXAMPLE_URL_WITH_PORT
 }
 doc
 -
@@ -442,7 +444,7 @@ await
 addTab
 (
 {
-EXAMPLE_URL
+EXAMPLE_URL_WITH_PORT
 }
 service
 -
@@ -470,7 +472,7 @@ await
 addTab
 (
 {
-EXAMPLE_URL
+EXAMPLE_URL_WITH_PORT
 }
 doc
 -
@@ -625,7 +627,7 @@ await
 addTab
 (
 {
-EXAMPLE_URL
+EXAMPLE_URL_WITH_PORT
 }
 service
 -
@@ -683,7 +685,7 @@ await
 openNewTabAndToolbox
 (
 {
-EXAMPLE_URL
+EXAMPLE_URL_WITH_PORT
 }
 doc
 -
