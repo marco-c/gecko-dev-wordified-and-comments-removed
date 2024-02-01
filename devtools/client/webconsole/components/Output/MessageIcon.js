@@ -355,6 +355,14 @@ level
 .
 jstracer
 "
+|
+|
+type
+=
+=
+MESSAGE_TYPE
+.
+JSTRACER
 )
 {
 classnames

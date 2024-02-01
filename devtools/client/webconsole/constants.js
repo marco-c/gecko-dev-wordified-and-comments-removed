@@ -795,6 +795,11 @@ SIMPLE_TABLE
 "
 simpleTable
 "
+JSTRACER
+:
+"
+jstracer
+"
 }
 MESSAGE_LEVEL
 :
