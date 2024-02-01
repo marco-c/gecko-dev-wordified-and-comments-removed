@@ -2495,7 +2495,9 @@ if
 expectToBeSet
 )
 {
-ok
+Assert
+.
+greater
 (
 Glean
 .
@@ -2508,7 +2510,6 @@ crashed_over_threshold_fg
 testGetValue
 (
 )
->
 0
 "
 Expect
@@ -3272,7 +3273,9 @@ if
 fg
 )
 {
-ok
+Assert
+.
+greater
 (
 Glean
 .
@@ -3285,7 +3288,6 @@ crashed_over_threshold_fg
 testGetValue
 (
 )
->
 0
 "
 Expect
@@ -3328,7 +3330,9 @@ if
 bg
 )
 {
-ok
+Assert
+.
+greater
 (
 Glean
 .
@@ -3341,7 +3345,6 @@ crashed_over_threshold_bg
 testGetValue
 (
 )
->
 0
 "
 Expect

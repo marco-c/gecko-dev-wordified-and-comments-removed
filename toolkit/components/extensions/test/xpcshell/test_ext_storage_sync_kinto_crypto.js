@@ -213,12 +213,11 @@ exception
 message
 ;
 }
-ok
+Assert
+.
+strictEqual
 (
 constraint
-=
-=
-=
 message
 debuggingMessage
 )

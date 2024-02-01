@@ -268,7 +268,9 @@ defaultPolicy
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 [
 2
@@ -279,7 +281,6 @@ indexOf
 (
 defaultPolicy
 )
->
 -
 1
 "

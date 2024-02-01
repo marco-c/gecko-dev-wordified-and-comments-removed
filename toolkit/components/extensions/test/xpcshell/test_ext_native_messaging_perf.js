@@ -584,11 +584,11 @@ unload
 (
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 roundTripTime
-<
-=
 MAX_ROUND_TRIP_TIME_MS
 Expected
 round

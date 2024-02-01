@@ -311,12 +311,11 @@ openWWW
 "
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 wwwButton
-!
-=
-=
 null
 "
 The

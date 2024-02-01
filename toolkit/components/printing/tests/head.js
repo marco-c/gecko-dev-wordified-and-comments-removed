@@ -997,7 +997,9 @@ hidden
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 this
 .
@@ -1010,7 +1012,6 @@ getBoundingClientRect
 )
 .
 width
->
 0
 "
 The
@@ -1129,12 +1130,13 @@ run
 50
 )
 ;
-ok
+Assert
+.
+greater
 (
 file
 .
 fileSize
->
 0
 "
 Target

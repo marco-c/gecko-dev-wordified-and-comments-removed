@@ -3656,13 +3656,13 @@ experiment
 slug
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 modifiedExperiment
 .
 temporaryErrorDeadline
-!
-=
 invalidDeadline
 The
 temporary

@@ -201,11 +201,11 @@ NUM_RANDOMIZED_CANVAS_BITS
 *
 2
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 diffCnt
-<
-=
 expected
 "
 The
@@ -1497,7 +1497,9 @@ testFlushAllChildren
 (
 )
 ;
-ok
+Assert
+.
+greater
 (
 Glean
 .
@@ -1510,7 +1512,6 @@ testGetValue
 )
 .
 sum
->
 0
 "
 The

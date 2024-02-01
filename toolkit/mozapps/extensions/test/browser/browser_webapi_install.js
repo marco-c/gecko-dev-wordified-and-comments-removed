@@ -1097,7 +1097,9 @@ installPromptPromise
 await
 promptPromise
 ;
-ok
+Assert
+.
+greater
 (
 AddonManager
 .
@@ -1106,7 +1108,6 @@ webAPI
 installs
 .
 size
->
 0
 "
 webAPI
@@ -1393,7 +1394,9 @@ installed
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 AddonManager
 .
@@ -1402,7 +1405,6 @@ webAPI
 installs
 .
 size
->
 0
 "
 webAPI
@@ -1538,7 +1540,9 @@ installed
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 AddonManager
 .
@@ -1547,7 +1551,6 @@ webAPI
 installs
 .
 size
->
 0
 "
 webAPI
@@ -1685,7 +1688,9 @@ installed
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 AddonManager
 .
@@ -1694,7 +1699,6 @@ webAPI
 installs
 .
 size
->
 0
 "
 webAPI

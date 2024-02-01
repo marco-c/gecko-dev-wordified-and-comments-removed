@@ -440,12 +440,13 @@ com
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 b
 .
 time
->
 0
 "
 connectionEnd

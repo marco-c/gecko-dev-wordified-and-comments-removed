@@ -304,11 +304,11 @@ autoscrolling
 await
 promiseStartAutoScroll
 ;
-ok
+Assert
+.
+notEqual
 (
 autoScroller
-!
-=
 null
 "
 Autoscrolling

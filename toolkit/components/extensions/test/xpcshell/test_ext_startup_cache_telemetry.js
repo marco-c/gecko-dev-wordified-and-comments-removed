@@ -258,10 +258,11 @@ data
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 expectedByteLength
->
 0
 "
 Got
@@ -764,7 +765,9 @@ number
 "
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -774,8 +777,6 @@ gleanMetric
 -
 mirror
 )
-<
-=
 1
 Expect
 Glean

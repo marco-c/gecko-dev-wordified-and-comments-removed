@@ -223,10 +223,11 @@ css
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 foundEntryCount
->
 0
 Cache
 entries

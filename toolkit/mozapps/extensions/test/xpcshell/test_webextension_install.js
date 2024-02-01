@@ -605,7 +605,9 @@ generated
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -617,7 +619,6 @@ installDate
 -
 testDate
 )
-<
 10000
 "
 addon
@@ -628,7 +629,9 @@ installDate
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -640,7 +643,6 @@ updateDate
 -
 testDate
 )
-<
 10000
 "
 addon

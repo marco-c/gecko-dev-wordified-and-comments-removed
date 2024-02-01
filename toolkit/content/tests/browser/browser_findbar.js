@@ -487,7 +487,9 @@ S
 true
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 gBrowser
 .
@@ -500,9 +502,6 @@ _findStatusDesc
 dataset
 .
 l10nId
-=
-=
-=
 undefined
 "
 Findbar
@@ -654,7 +653,9 @@ S
 true
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 findbar2
 .
@@ -663,9 +664,6 @@ _findStatusDesc
 dataset
 .
 l10nId
-=
-=
-=
 undefined
 "
 Findbar
@@ -823,7 +821,9 @@ s
 false
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 findbar
 .
@@ -832,9 +832,6 @@ _findStatusDesc
 dataset
 .
 l10nId
-=
-=
-=
 undefined
 "
 Findbar
@@ -982,7 +979,9 @@ s
 false
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 findbar
 .
@@ -991,9 +990,6 @@ _findStatusDesc
 dataset
 .
 l10nId
-=
-=
-=
 undefined
 "
 Findbar
@@ -1438,10 +1434,11 @@ scrollTop
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 scrollPosition
->
 0
 "
 Scrolled

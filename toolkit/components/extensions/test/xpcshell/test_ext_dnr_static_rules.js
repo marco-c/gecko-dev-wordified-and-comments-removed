@@ -5483,10 +5483,11 @@ number
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 MAX_NUMBER_OF_STATIC_RULESETS
->
 MAX_NUMBER_OF_ENABLED_STATIC_RULESETS
 "
 Expect

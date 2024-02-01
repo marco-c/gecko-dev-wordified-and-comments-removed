@@ -2354,7 +2354,9 @@ video
 .
 textTracks
 ;
-ok
+Assert
+.
+strictEqual
 (
 tracks
 [
@@ -2362,9 +2364,6 @@ tracks
 ]
 .
 mode
-=
-=
-=
 "
 hidden
 "

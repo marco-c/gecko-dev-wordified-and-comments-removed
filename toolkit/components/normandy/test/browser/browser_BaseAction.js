@@ -557,13 +557,13 @@ finalize
 (
 )
 ;
-ok
+Assert
+.
+equal
 (
 action
 .
 state
-=
-=
 NoopAction
 .
 STATE_FINALIZED

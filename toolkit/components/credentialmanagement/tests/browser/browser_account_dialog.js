@@ -1971,7 +1971,9 @@ expected
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 icons
 [
@@ -1979,8 +1981,6 @@ icons
 ]
 .
 src
-!
-=
 icons
 [
 1

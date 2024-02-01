@@ -244,10 +244,11 @@ png
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 foundEntryCount
->
 0
 Cache
 entries

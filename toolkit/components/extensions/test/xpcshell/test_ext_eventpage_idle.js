@@ -719,7 +719,9 @@ HISTOGRAM_EVENTPAGE_IDLE_RESULT_CATEGORIES
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 Glean
 .
@@ -733,7 +735,6 @@ testGetValue
 ?
 .
 sum
->
 0
 Expect
 stored
@@ -980,10 +981,11 @@ done
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 time
->
 100
 Background
 script

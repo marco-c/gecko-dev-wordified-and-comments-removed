@@ -197,13 +197,13 @@ GetAllFeatures
 (
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 allFeaturesAcceptedByProfiler
 .
 length
->
-=
 2
 "
 Either

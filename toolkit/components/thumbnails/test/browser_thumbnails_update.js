@@ -424,13 +424,14 @@ gBrowser
 selectedBrowser
 )
 ;
-ok
+Assert
+.
+less
 (
 getThumbnailModifiedTime
 (
 URL
 )
-<
 now
 "
 modified

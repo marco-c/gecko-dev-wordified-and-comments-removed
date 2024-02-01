@@ -182,11 +182,11 @@ blank
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 win2
-!
-=
 null
 "
 Should

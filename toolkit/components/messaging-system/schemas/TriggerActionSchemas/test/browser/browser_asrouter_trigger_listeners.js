@@ -1563,11 +1563,11 @@ is
 valid
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 pageLoadSum
-<
-=
 pageLoad
 "
 pageLoad

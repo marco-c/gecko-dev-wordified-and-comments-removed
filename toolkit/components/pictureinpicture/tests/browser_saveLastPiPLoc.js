@@ -1505,12 +1505,13 @@ window
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 pipWin
 .
 innerWidth
-<
 width
 "
 New

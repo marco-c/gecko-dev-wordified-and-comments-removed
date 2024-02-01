@@ -1076,7 +1076,9 @@ lastModifiedTime
 -
 startupTime
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -1084,7 +1086,6 @@ abs
 (
 difference
 )
-<
 MAX_TIME_DIFFERENCE
 )
 ;

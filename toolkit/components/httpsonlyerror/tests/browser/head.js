@@ -339,11 +339,11 @@ openInsecure
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 openInsecureButton
-!
-=
 null
 "
 openInsecureButton
