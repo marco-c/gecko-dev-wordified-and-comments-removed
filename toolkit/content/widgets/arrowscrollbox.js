@@ -139,6 +139,11 @@ scrollbutton
 -
 up
 "
+keyNav
+=
+"
+false
+"
 /
 >
 <
@@ -231,6 +236,11 @@ part
 scrollbutton
 -
 down
+"
+keyNav
+=
+"
+false
 "
 /
 >
