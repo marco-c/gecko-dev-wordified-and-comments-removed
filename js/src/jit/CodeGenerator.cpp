@@ -43321,7 +43321,7 @@ initialHeap
 (
 )
 ;
-TypedArrayObject
+auto
 *
 ttemplate
 =
@@ -43331,7 +43331,7 @@ templateObject
 >
 as
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
@@ -43559,7 +43559,7 @@ initialHeap
 (
 )
 ;
-TypedArrayObject
+auto
 *
 ttemplate
 =
@@ -43569,7 +43569,7 @@ templateObject
 >
 as
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
