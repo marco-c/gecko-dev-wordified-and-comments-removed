@@ -148,3 +148,10 @@ browser_sanitizeDialog_v2
 js
 "
 ]
+[
+"
+browser_sanitizeOnShutdown_migration
+.
+js
+"
+]

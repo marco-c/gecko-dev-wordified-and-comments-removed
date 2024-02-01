@@ -980,6 +980,12 @@ remove
 (
 )
 ;
+Sanitizer
+.
+maybeMigrateSanitizeOnShutdownPrefs
+(
+)
+;
 }
 else
 if
