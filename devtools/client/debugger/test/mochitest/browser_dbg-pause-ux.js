@@ -270,11 +270,11 @@ getScrollTop
 dbg
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 pauseScrollTop
-!
-=
 matchScrollTop
 "
 did

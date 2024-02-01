@@ -234,7 +234,9 @@ zoom
 }
 )
 {
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -246,8 +248,6 @@ outerWidth
 -
 width
 )
-<
-=
 2
 window
 .
@@ -272,7 +272,9 @@ outerWidth
 .
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -284,8 +286,6 @@ outerHeight
 -
 height
 )
-<
-=
 2
 window
 .
@@ -362,7 +362,9 @@ screen
 =
 content
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -374,8 +376,6 @@ availWidth
 -
 width
 )
-<
-=
 2
 screen
 .
@@ -400,7 +400,9 @@ availWidth
 .
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -412,8 +414,6 @@ availHeight
 -
 height
 )
-<
-=
 2
 screen
 .
@@ -438,7 +438,9 @@ availHeight
 .
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -450,8 +452,6 @@ width
 -
 width
 )
-<
-=
 2
 screen
 .
@@ -477,7 +477,9 @@ width
 .
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -489,8 +491,6 @@ height
 -
 height
 )
-<
-=
 2
 screen
 .

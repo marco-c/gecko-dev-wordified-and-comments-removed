@@ -116,12 +116,13 @@ i
 ]
 )
 ;
-ok
+Assert
+.
+greater
 (
 token
 .
 endOffset
->
 token
 .
 startOffset

@@ -179,10 +179,11 @@ open
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 itemCount
->
 0
 "
 popup

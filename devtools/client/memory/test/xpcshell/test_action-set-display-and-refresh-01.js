@@ -228,7 +228,9 @@ snapshots
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 getState
 (
@@ -237,9 +239,6 @@ getState
 errors
 .
 length
-=
-=
-=
 0
 "
 No

@@ -335,7 +335,9 @@ value
 "
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 textboxes
 [
@@ -343,9 +345,6 @@ textboxes
 ]
 .
 textContent
-!
-=
-=
 "
 "
 "
@@ -358,7 +357,9 @@ empty
 "
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 textboxes
 [
@@ -366,9 +367,6 @@ textboxes
 ]
 .
 textContent
-!
-=
-=
 "
 "
 "

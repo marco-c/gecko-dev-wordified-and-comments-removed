@@ -589,14 +589,15 @@ box1
 )
 )
 ;
-ok
+Assert
+.
+greater
 (
 tooltip
 .
 panel
 .
 scrollHeight
->
 tooltip
 .
 panel

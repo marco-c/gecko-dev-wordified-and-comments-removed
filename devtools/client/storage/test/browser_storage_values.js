@@ -1642,10 +1642,11 @@ now
 -
 start
 ;
-ok
+Assert
+.
+less
 (
 time
-<
 15000
 item
 {

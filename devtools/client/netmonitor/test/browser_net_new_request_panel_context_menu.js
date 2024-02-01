@@ -728,13 +728,13 @@ input
 "
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 headersValues
 .
 length
->
-=
 6
 "
 The

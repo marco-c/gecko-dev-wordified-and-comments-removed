@@ -253,14 +253,13 @@ getState
 )
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 originalRequest
 .
 url
-=
-=
-=
 selectedRequest
 .
 url

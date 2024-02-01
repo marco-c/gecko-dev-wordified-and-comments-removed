@@ -318,13 +318,13 @@ node
 children
 )
 {
-ok
+Assert
+.
+lessOrEqual
 (
 child
 .
 bytes
-<
-=
 lastSelfBytes
 {
 child

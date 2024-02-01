@@ -253,7 +253,9 @@ element
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 clipPathContainer
 .
@@ -262,9 +264,6 @@ editor
 tag
 .
 textContent
-=
-=
-=
 "
 svg
 :
@@ -303,7 +302,9 @@ element
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 circlePathContainer
 .
@@ -312,9 +313,6 @@ editor
 tag
 .
 textContent
-=
-=
-=
 "
 svg
 :

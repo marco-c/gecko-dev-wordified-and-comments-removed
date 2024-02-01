@@ -740,13 +740,13 @@ number
 "
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 reflow
 .
 end
->
-=
 reflow
 .
 start

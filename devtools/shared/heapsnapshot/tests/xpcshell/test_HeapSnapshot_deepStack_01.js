@@ -416,11 +416,11 @@ is
 depth
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 depth
-<
-=
 MAX_STACK_DEPTH
 "
 Every

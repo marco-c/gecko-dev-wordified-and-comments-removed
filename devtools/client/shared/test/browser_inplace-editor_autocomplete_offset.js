@@ -517,10 +517,11 @@ getPopupOffset
 editor
 )
 ;
-ok
+Assert
+.
+greater
 (
 offset
->
 previousOffset
 "
 New

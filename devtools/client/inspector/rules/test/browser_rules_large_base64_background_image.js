@@ -410,14 +410,13 @@ container
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 ruleviewContainer
 .
 scrollHeight
-=
-=
-=
 ruleviewContainer
 .
 clientHeight

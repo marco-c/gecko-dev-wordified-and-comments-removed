@@ -167,7 +167,9 @@ state
 .
 animations
 ;
-ok
+Assert
+.
+greater
 (
 animations
 [
@@ -179,7 +181,6 @@ state
 currentTime
 +
 WAIT_TIME
->
 animations
 [
 1

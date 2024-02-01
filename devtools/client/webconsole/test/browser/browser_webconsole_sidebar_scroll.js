@@ -282,12 +282,13 @@ length
 1
 )
 ;
-ok
+Assert
+.
+greater
 (
 sidebarContents
 .
 scrollHeight
->
 sidebarContents
 .
 clientHeight

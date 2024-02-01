@@ -147,14 +147,13 @@ state
 "
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 s1
 .
 id
-!
-=
-=
 s2
 .
 id

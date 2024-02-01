@@ -388,10 +388,11 @@ left
 "
 )
 {
-ok
+Assert
+.
+greater
 (
 arrowCentre
->
 panelBoundsCentre
 tooltip
 hangs
@@ -409,10 +410,11 @@ id
 }
 else
 {
-ok
+Assert
+.
+less
 (
 arrowCentre
-<
 panelBoundsCentre
 tooltip
 hangs

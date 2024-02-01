@@ -244,11 +244,11 @@ commandId
 .
 timeStamp
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 delta
->
-=
 500
 The
 result

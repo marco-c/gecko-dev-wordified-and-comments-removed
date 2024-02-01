@@ -322,10 +322,11 @@ now
 -
 start
 ;
-ok
+Assert
+.
+greater
 (
 duration
->
 10
 *
 100

@@ -82,7 +82,9 @@ element
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 clipPathContainer
 .
@@ -91,9 +93,6 @@ editor
 tag
 .
 textContent
-=
-=
-=
 "
 clipPath
 "
@@ -129,7 +128,9 @@ element
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 divContainer
 .
@@ -138,9 +139,6 @@ editor
 tag
 .
 textContent
-=
-=
-=
 "
 div
 "

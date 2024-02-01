@@ -182,10 +182,11 @@ eventsCount
 await
 onMediaListChanged
 ;
-ok
+Assert
+.
+less
 (
 eventsCount
-<
 MAX_EVENTS
 Too
 many

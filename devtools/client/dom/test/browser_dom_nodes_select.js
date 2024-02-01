@@ -101,12 +101,11 @@ inspector
 "
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 node
-!
-=
-=
 null
 "
 Node

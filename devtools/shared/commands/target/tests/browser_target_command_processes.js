@@ -265,12 +265,13 @@ onDestroyed
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 created
 .
 length
->
 1
 "
 We

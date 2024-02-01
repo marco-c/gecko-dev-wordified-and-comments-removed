@@ -255,11 +255,11 @@ hidden
 "
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 delay
->
-=
 inspector
 .
 HIGHLIGHTER_AUTOHIDE_TIMER

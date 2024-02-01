@@ -223,12 +223,13 @@ onDestroyed
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 targets
 .
 size
->
 1
 "
 We

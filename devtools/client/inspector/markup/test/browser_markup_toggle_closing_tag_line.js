@@ -287,14 +287,13 @@ nodes
 0
 ]
 ;
-ok
+Assert
+.
+strictEqual
 (
 documentFront
 .
 displayName
-=
-=
-=
 "
 #
 document

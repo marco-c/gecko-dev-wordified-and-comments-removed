@@ -245,13 +245,13 @@ getAnimationPlayersForNode
 frameBody
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 players
 .
 length
->
-=
 4
 "
 All

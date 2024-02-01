@@ -233,12 +233,13 @@ updated
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 state
 .
 currentTime
->
 player
 .
 initialState

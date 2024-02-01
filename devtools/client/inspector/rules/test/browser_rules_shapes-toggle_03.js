@@ -694,13 +694,13 @@ active
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 highlighters
 .
 shapesHighlighterShown
-!
-=
 firstShapesHighlighterShown
 "
 shapes

@@ -556,12 +556,13 @@ rules
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 uaRules
 .
 length
->
 data
 .
 numUARules

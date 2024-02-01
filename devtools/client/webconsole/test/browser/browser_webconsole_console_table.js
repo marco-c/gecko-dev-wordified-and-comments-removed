@@ -3039,12 +3039,13 @@ wrapper
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 tableWrapperNode
 .
 scrollHeight
->
 tableWrapperNode
 .
 clientHeight
@@ -3058,7 +3059,9 @@ overflows
 "
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 getComputedStyle
 (
@@ -3066,9 +3069,6 @@ tableWrapperNode
 )
 .
 overflowY
-!
-=
-=
 "
 hidden
 "

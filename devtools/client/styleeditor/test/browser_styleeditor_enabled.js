@@ -358,7 +358,9 @@ exists
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 stylesheetToggle
 .
@@ -367,11 +369,12 @@ getBoundingClientRect
 )
 .
 width
->
 0
 )
 ;
-ok
+Assert
+.
+greater
 (
 stylesheetToggle
 .
@@ -380,7 +383,6 @@ getBoundingClientRect
 )
 .
 height
->
 0
 )
 ;

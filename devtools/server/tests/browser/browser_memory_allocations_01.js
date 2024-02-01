@@ -324,13 +324,13 @@ filter
 isTestAllocation
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 testAllocations
 .
 length
->
-=
 3
 "
 Should

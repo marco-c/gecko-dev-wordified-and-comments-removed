@@ -243,14 +243,13 @@ isEveryFrameTargetEnabled
 )
 )
 {
-ok
+Assert
+.
+notStrictEqual
 (
 documentNodeFront
 .
 walkerFront
-!
-=
-=
 walker
 "
 The

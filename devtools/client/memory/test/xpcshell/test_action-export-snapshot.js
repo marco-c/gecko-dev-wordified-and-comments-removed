@@ -221,12 +221,13 @@ stat
 size
 )
 ;
-ok
+Assert
+.
+greater
 (
 stat
 .
 size
->
 0
 "
 destination

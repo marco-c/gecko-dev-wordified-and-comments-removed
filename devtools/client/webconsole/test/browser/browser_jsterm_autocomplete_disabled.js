@@ -252,7 +252,9 @@ in
 await
 onUpdated
 ;
-ok
+Assert
+.
+equal
 (
 popup
 .
@@ -261,8 +263,6 @@ getItems
 )
 .
 length
-=
-=
 2
 "
 '

@@ -271,10 +271,11 @@ timeScale
 listContainerEl
 )
 ;
-ok
+Assert
+.
+less
 (
 timelineTickItemLength
-<
 listContainerEl
 .
 querySelectorAll

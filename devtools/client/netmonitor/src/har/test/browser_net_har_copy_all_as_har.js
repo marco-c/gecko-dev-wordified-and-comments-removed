@@ -577,7 +577,9 @@ true
 }
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 har
 .
@@ -586,8 +588,6 @@ log
 entries
 .
 length
->
-=
 1
 "
 There
@@ -1156,12 +1156,13 @@ request
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 entry
 .
 time
->
 0
 "
 Check

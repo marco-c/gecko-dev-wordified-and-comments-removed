@@ -205,12 +205,13 @@ jsterm
 .
 autocompletePopup
 ;
-ok
+Assert
+.
+greater
 (
 popup
 .
 itemCount
->
 0
 There
 '

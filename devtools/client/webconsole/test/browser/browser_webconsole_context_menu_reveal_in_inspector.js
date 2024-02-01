@@ -659,12 +659,11 @@ querySelector
 revealInInspectorMenuItemId
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 revealInInspectorMenuItem
-!
-=
-=
 null
 "
 There

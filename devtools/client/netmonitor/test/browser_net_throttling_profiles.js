@@ -430,7 +430,9 @@ requestItem
 eventTimings
 )
 {
-ok
+Assert
+.
+greater
 (
 requestItem
 .
@@ -439,7 +441,6 @@ eventTimings
 timings
 .
 receive
->
 1000
 Request
 was

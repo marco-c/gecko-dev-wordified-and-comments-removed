@@ -565,12 +565,11 @@ root2
 await
 rootNodePromise
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 root1
-!
-=
-=
 root2
 "
 onAvailable

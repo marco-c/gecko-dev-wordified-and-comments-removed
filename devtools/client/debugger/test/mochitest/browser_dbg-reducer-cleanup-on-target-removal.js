@@ -303,7 +303,9 @@ js
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 dbg
 .
@@ -312,7 +314,6 @@ selectors
 getSourceCount
 (
 )
->
 0
 "
 Some
@@ -359,7 +360,9 @@ opened
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 dbg
 .
@@ -370,7 +373,6 @@ getAllThreads
 )
 .
 length
->
 1
 "
 There
@@ -467,7 +469,9 @@ item
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 dbg
 .
@@ -478,7 +482,6 @@ getExpandedState
 )
 .
 size
->
 0
 "
 Has
@@ -576,7 +579,9 @@ exists
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 state
 .
@@ -585,7 +590,6 @@ sourceActors
 mutableSourceActors
 .
 size
->
 0
 "
 Some
@@ -595,7 +599,9 @@ exists
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 state
 .
@@ -604,7 +610,6 @@ sourceActors
 mutableBreakableLines
 .
 size
->
 0
 "
 Some
@@ -614,7 +619,9 @@ exists
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 state
 .
@@ -623,7 +630,6 @@ sources
 mutableBreakpointPositions
 .
 size
->
 0
 "
 Some
@@ -633,7 +639,9 @@ exists
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 state
 .
@@ -642,7 +650,6 @@ sources
 mutableOriginalBreakableLines
 .
 size
->
 0
 "
 Some

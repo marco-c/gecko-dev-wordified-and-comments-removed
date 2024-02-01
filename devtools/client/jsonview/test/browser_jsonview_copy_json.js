@@ -53,11 +53,11 @@ treeRow
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 countBefore
-=
-=
 1
 "
 There

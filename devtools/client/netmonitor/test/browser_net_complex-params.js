@@ -624,7 +624,9 @@ incorrect
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 tabpanel
 .
@@ -637,9 +639,6 @@ empty
 notice
 "
 )
-=
-=
-=
 null
 "
 The
@@ -679,7 +678,9 @@ displayed
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 tabpanel
 .
@@ -692,9 +693,6 @@ CodeMirror
 code
 "
 )
-=
-=
-=
 null
 "
 The
@@ -1041,7 +1039,9 @@ correct
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 tabpanel
 .
@@ -1054,9 +1054,6 @@ empty
 notice
 "
 )
-=
-=
-=
 null
 "
 The
@@ -1406,7 +1403,9 @@ correct
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 tabpanel
 .
@@ -1419,9 +1418,6 @@ empty
 notice
 "
 )
-=
-=
-=
 null
 "
 The

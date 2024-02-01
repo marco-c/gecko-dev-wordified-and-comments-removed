@@ -329,7 +329,9 @@ rect
 .
 x
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -337,8 +339,6 @@ abs
 (
 delta
 )
-<
-=
 1
 delta
 is
@@ -924,7 +924,9 @@ height
 -
 delta
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -942,7 +944,6 @@ x
 inlineOffset
 )
 )
-<
 1
 Rect
 approximately
@@ -967,7 +968,9 @@ inlineOffset
 )
 )
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -985,7 +988,6 @@ y
 blockOffset
 )
 )
-<
 1
 Rect
 approximately
@@ -1010,7 +1012,9 @@ blockOffset
 )
 )
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -1030,7 +1034,6 @@ inlineOffset
 2
 )
 )
-<
 1
 Rect
 approximately
@@ -1057,7 +1060,9 @@ inlineOffset
 )
 )
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -1077,7 +1082,6 @@ blockOffset
 2
 )
 )
-<
 1
 Rect
 approximately

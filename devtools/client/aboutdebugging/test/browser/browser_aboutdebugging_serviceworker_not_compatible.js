@@ -453,12 +453,11 @@ warning
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 hasMessage
-=
-=
-=
 expectedMessage
 expectedMessage
 ?

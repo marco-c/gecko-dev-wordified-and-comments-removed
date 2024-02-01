@@ -369,7 +369,9 @@ filters
 .
 textContent
 ;
-ok
+Assert
+.
+greater
 (
 text
 .
@@ -384,7 +386,6 @@ emptyFilterList
 "
 )
 )
->
 -
 1
 "
@@ -402,7 +403,9 @@ none
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 text
 .
@@ -417,7 +420,6 @@ addUsingList
 "
 )
 )
->
 -
 1
 "

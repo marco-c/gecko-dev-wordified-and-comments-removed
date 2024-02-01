@@ -350,10 +350,11 @@ width
 expectedWidth
 )
 ;
-ok
+Assert
+.
+less
 (
 widthsDiff
-<
 2
 Column
 {

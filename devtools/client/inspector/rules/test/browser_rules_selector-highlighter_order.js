@@ -275,7 +275,9 @@ parentNode
 childNodes
 ]
 ;
-ok
+Assert
+.
+less
 (
 childNodes
 .
@@ -283,7 +285,6 @@ indexOf
 (
 selectorContainer
 )
-<
 childNodes
 .
 indexOf
@@ -302,7 +303,9 @@ icon
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 childNodes
 .
@@ -310,7 +313,6 @@ indexOf
 (
 highlighterIcon
 )
-<
 childNodes
 .
 indexOf

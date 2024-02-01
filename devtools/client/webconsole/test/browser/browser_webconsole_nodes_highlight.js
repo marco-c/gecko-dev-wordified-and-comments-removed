@@ -196,12 +196,11 @@ node
 "
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 node
-!
-=
-=
 null
 "
 Node

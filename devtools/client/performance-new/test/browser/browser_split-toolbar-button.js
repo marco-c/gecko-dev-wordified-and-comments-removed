@@ -453,7 +453,9 @@ inactive
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 dropmarker
 .
@@ -463,8 +465,6 @@ getAttribute
 open
 "
 )
-=
-=
 "
 true
 "

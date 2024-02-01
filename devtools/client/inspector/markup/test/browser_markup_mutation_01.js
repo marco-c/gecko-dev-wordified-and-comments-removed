@@ -1288,7 +1288,9 @@ nodes
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 container
 .
@@ -1303,8 +1305,6 @@ querySelector
 text
 "
 )
-=
-=
 null
 "
 Single
@@ -1539,7 +1539,9 @@ container
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 container
 .
@@ -1554,8 +1556,6 @@ querySelector
 text
 "
 )
-=
-=
 null
 "
 Single

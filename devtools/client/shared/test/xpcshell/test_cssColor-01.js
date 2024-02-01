@@ -506,7 +506,9 @@ input
 "
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 InspectorUtils
 .
@@ -516,9 +518,6 @@ test
 .
 input
 )
-!
-=
-=
 null
 "
 '
@@ -564,7 +563,9 @@ of
 invalidColors
 )
 {
-ok
+Assert
+.
+equal
 (
 InspectorUtils
 .
@@ -572,8 +573,6 @@ colorToRGBA
 (
 invalidColor
 )
-=
-=
 null
 '
 {

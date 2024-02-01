@@ -214,7 +214,9 @@ frame
 1
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 cm
 .
@@ -223,8 +225,6 @@ getScrollInfo
 )
 .
 top
-!
-=
 0
 "
 frame

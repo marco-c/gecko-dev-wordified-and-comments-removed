@@ -169,7 +169,9 @@ getShadowHost
 selectedNode
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 selectedNode
 .
@@ -178,9 +180,6 @@ tagName
 toLowerCase
 (
 )
-!
-=
-=
 "
 video
 "

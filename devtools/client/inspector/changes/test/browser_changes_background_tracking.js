@@ -292,12 +292,11 @@ onTimeout
 ]
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 raceResult
-=
-=
-=
 sym
 "
 RESET_CHANGES

@@ -492,7 +492,9 @@ win
 await
 tagFocused
 ;
-ok
+Assert
+.
+strictEqual
 (
 inspector
 .
@@ -501,9 +503,6 @@ markup
 doc
 .
 activeElement
-=
-=
-=
 tagSpan
 "
 Focus

@@ -401,13 +401,13 @@ time
 +
 ONE_DAY_IN_SECONDS
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 actualExpiry
 -
 expectedExpiry
-<
-=
 2
 "
 expiry

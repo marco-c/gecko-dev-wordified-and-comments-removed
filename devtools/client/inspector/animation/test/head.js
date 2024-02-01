@@ -3774,7 +3774,9 @@ animation2
 .
 createdTime
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -3784,7 +3786,6 @@ adjustedCurrentTimeDiff
 -
 createdTimeDiff
 )
-<
 0
 .
 1

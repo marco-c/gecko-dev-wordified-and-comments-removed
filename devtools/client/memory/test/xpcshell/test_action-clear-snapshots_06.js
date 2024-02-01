@@ -324,7 +324,9 @@ events
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 getState
 (
@@ -333,9 +335,6 @@ getState
 snapshots
 .
 length
-=
-=
-=
 0
 "
 Snapshots

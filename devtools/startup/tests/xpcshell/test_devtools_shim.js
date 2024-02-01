@@ -126,7 +126,9 @@ length
 lastArgs
 )
 {
-ok
+Assert
+.
+strictEqual
 (
 mock
 .
@@ -136,9 +138,6 @@ method
 ]
 .
 length
-=
-=
-=
 length
 "
 Devtools
@@ -196,7 +195,9 @@ lastArgs
 i
 ]
 ;
-ok
+Assert
+.
+strictEqual
 (
 mock
 .
@@ -212,9 +213,6 @@ length
 [
 i
 ]
-=
-=
-=
 expectedArg
 Devtools
 .

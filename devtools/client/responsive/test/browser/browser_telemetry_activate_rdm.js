@@ -452,10 +452,11 @@ DATA
 i
 ]
 ;
-ok
+Assert
+.
+greater
 (
 timestamp
->
 0
 "
 timestamp

@@ -293,11 +293,11 @@ destroyed
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 comTabTarget
-!
-=
 newTarget
 "
 With

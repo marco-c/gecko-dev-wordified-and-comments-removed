@@ -2499,14 +2499,13 @@ Set
 nodes
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 nodeSet
 .
 size
-=
-=
-=
 nodes
 .
 length

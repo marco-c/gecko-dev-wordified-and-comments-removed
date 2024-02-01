@@ -233,7 +233,9 @@ checkButtons
 true
 )
 ;
-ok
+Assert
+.
+less
 (
 toolbox
 .
@@ -250,7 +252,6 @@ tab
 )
 .
 length
-<
 initialTabCount
 "
 Count
