@@ -2032,6 +2032,14 @@ rule
 "
 stopOnReturn
 :
+this
+.
+ruleView
+.
+inplaceEditorFocusNextOnEnter
+!
+=
+=
 true
 }
 )
