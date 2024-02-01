@@ -4125,7 +4125,7 @@ case
 GuardClassKind
 :
 :
-SharedArrayBuffer
+FixedLengthSharedArrayBuffer
 :
 if
 (
@@ -4138,7 +4138,7 @@ getClass
 !
 =
 &
-SharedArrayBufferObject
+FixedLengthSharedArrayBufferObject
 :
 :
 class_
