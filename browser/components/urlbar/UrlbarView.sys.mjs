@@ -19047,7 +19047,6 @@ appendChild
 textModeLabel
 )
 ;
-}
 let
 iconModeLabel
 =
@@ -19138,6 +19137,16 @@ icon
 ;
 userContextIcon
 .
+setAttribute
+(
+"
+alt
+"
+label
+)
+;
+userContextIcon
+.
 src
 =
 "
@@ -19201,6 +19210,7 @@ tooltiptext
 label
 )
 ;
+}
 }
 }
 else
