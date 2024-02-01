@@ -3926,7 +3926,7 @@ autoOpen
 .
 enabled
 "
-true
+false
 )
 ;
 pref
