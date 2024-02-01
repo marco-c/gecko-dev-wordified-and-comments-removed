@@ -165,7 +165,8 @@ get
 name
 "
 )
-in
+=
+=
 specified_tests
 :
                 
