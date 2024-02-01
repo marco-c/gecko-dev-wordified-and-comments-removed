@@ -178,6 +178,7 @@ __dirname
 .
 '
 '
+.
 cache
 '
 '

@@ -488,11 +488,9 @@ string
 ]
 env
 :
-Record
-<
-string
-any
->
+NodeJS
+.
+ProcessEnv
 =
 {
 }

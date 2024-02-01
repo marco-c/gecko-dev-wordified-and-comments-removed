@@ -1390,7 +1390,7 @@ html
 const
 messages
 :
-any
+string
 [
 ]
 =

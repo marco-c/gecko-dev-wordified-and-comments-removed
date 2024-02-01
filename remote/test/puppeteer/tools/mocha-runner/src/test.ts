@@ -26,6 +26,7 @@ type
 {
 Platform
 TestExpectation
+MochaTestResult
 }
 from
 '
@@ -896,8 +897,6 @@ work
 ;
 }
 }
-as
-any
 ;
 for
 (
@@ -952,6 +951,8 @@ MochaTestResult
 {
 const
 test
+:
+MochaTestResult
 =
 {
 title
@@ -980,8 +981,6 @@ should
 work
 '
 }
-as
-any
 ;
 for
 (

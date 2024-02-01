@@ -2,6 +2,7 @@ export
 {
 bufferCount
 catchError
+concat
 concatMap
 defaultIfEmpty
 defer
@@ -21,6 +22,7 @@ merge
 mergeMap
 NEVER
 noop
+Observable
 of
 pipe
 race
@@ -32,6 +34,7 @@ takeUntil
 tap
 throwIfEmpty
 timer
+zip
 }
 from
 '

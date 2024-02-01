@@ -127,11 +127,7 @@ handle
 .
 catch
 (
-(
 error
-:
-any
-)
 =
 >
 {

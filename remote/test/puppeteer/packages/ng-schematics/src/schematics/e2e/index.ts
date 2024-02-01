@@ -657,8 +657,6 @@ file
 return
 addCommonFiles
 (
-tree
-context
 {
 [
 foundProject

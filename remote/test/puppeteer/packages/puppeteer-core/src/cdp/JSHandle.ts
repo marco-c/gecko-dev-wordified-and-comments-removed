@@ -46,7 +46,6 @@ js
 import
 {
 debugError
-valueFromRemoteObject
 }
 from
 '
@@ -84,6 +83,19 @@ from
 .
 /
 IsolatedWorld
+.
+js
+'
+;
+import
+{
+valueFromRemoteObject
+}
+from
+'
+.
+/
+utils
 .
 js
 '

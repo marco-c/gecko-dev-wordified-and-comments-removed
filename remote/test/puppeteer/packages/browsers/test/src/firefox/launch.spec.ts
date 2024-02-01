@@ -135,6 +135,7 @@ buildId
 cacheDir
 :
 '
+.
 cache
 '
 }
@@ -144,6 +145,7 @@ path
 join
 (
 '
+.
 cache
 '
 '

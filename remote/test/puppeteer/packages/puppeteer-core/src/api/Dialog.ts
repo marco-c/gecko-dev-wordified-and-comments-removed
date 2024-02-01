@@ -140,7 +140,7 @@ defaultValue
 }
 protected
 abstract
-sendCommand
+handle
 (
 options
 :
@@ -205,7 +205,7 @@ true
 await
 this
 .
-sendCommand
+handle
 (
 {
 accept
@@ -257,7 +257,7 @@ true
 await
 this
 .
-sendCommand
+handle
 (
 {
 accept

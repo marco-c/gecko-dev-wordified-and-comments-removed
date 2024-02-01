@@ -13,9 +13,9 @@ version
 "
 21
 .
-6
+10
 .
-1
+0
 "
 "
 description
@@ -977,11 +977,11 @@ cosmiconfig
 "
 :
 "
-8
+9
 .
-3
+0
 .
-6
+0
 "
 "
 puppeteer
@@ -992,9 +992,9 @@ core
 "
 21
 .
-6
+10
 .
-1
+0
 "
 "
 puppeteer
@@ -1007,7 +1007,7 @@ browsers
 .
 9
 .
-0
+1
 "
 }
 "

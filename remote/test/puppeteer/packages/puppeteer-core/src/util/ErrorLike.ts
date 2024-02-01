@@ -201,13 +201,11 @@ string
 let
 message
 =
-{
 object
 .
 error
 .
 message
-}
 ;
 if
 (

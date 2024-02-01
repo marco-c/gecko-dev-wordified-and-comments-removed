@@ -92,7 +92,7 @@ client
 }
 override
 async
-sendCommand
+handle
 (
 options
 :

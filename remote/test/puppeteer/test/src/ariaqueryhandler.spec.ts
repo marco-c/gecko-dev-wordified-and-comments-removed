@@ -1154,6 +1154,8 @@ it
 '
 should
 find
+2nd
+element
 by
 name
 '

@@ -249,6 +249,10 @@ path
 '
 format
 '
+|
+'
+timeout
+'
 >
 &
 ParsedPDFOptionsInterface

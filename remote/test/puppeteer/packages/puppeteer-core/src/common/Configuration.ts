@@ -66,6 +66,16 @@ skipDownload
 :
 boolean
 ;
+skipChromeDownload
+?
+:
+boolean
+;
+skipChromeHeadlessShellDownload
+?
+:
+boolean
+;
 logLevel
 ?
 :

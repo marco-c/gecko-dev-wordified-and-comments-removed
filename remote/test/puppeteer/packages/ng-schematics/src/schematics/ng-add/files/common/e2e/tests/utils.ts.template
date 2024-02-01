@@ -239,6 +239,7 @@ async
 {
 await
 page
+?
 .
 close
 (
@@ -279,6 +280,7 @@ async
 {
 await
 browser
+?
 .
 close
 (
@@ -324,6 +326,7 @@ async
 {
 await
 browser
+?
 .
 close
 (

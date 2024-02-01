@@ -522,8 +522,6 @@ tree
 return
 addCommonFilesHelper
 (
-tree
-context
 projects
 {
 options
@@ -610,8 +608,6 @@ tree
 return
 addFrameworkFiles
 (
-tree
-context
 projects
 {
 options

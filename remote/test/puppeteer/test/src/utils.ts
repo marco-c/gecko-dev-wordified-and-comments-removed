@@ -561,7 +561,7 @@ frameId
 string
 url
 :
-any
+string
 )
 {
 const

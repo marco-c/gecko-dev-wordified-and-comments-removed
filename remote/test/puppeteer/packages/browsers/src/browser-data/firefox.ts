@@ -1077,6 +1077,17 @@ updateEnabled
 :
 false
 '
+media
+.
+sanity
+-
+test
+.
+disabled
+'
+:
+true
+'
 network
 .
 cookie

@@ -97,7 +97,7 @@ Rule
 {
 return
 (
-tree
+_tree
 :
 Tree
 context
@@ -125,8 +125,6 @@ file
 return
 addFilesSingle
 (
-tree
-context
 '
 '
 {

@@ -18,7 +18,7 @@ core
 /
 internal
 /
-cdp
+api
 /
 WebWorker
 .

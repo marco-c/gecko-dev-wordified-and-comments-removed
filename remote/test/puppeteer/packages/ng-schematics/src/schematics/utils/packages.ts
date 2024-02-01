@@ -178,11 +178,7 @@ on
 '
 data
 '
-(
 chunk
-:
-any
-)
 =
 >
 {
@@ -796,6 +792,8 @@ json
 getObjectAsJson
 (
 angularJson
+as
+any
 )
 )
 ;

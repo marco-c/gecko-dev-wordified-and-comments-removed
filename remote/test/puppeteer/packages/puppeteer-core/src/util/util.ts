@@ -15,17 +15,6 @@ from
 '
 .
 /
-DebuggableDeferred
-.
-js
-'
-;
-export
-*
-from
-'
-.
-/
 Deferred
 .
 js

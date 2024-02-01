@@ -104,7 +104,7 @@ context
 }
 override
 async
-sendCommand
+handle
 (
 options
 :

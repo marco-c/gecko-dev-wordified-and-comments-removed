@@ -43,7 +43,7 @@ string
 Record
 <
 string
-any
+unknown
 >
 {
 try
@@ -106,7 +106,7 @@ object
 Record
 <
 string
-any
+unknown
 >
 )
 :
@@ -146,6 +146,8 @@ angular
 json
 '
 )
+as
+unknown
 as
 AngularJson
 ;

@@ -15,6 +15,17 @@ from
 '
 .
 /
+CallbackRegistry
+.
+js
+'
+;
+export
+*
+from
+'
+.
+/
 Configuration
 .
 js

@@ -870,7 +870,7 @@ isCloseError
 (
 error
 :
-any
+unknown
 )
 :
 boolean
@@ -889,7 +889,16 @@ BidiMapper
 .
 EventEmitter
 <
-any
+{
+bidiResponse
+:
+Bidi
+.
+ChromiumBidi
+.
+Message
+;
+}
 >
 implements
 BidiMapper
