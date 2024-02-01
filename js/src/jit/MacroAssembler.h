@@ -22358,6 +22358,16 @@ notTypedArray
 )
 ;
 void
+branchIfClassIsNotFixedLengthTypedArray
+(
+Register
+clasp
+Label
+*
+notTypedArray
+)
+;
+void
 branchIfHasDetachedArrayBuffer
 (
 Register
