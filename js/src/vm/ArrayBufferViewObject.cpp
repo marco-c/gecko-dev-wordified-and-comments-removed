@@ -1577,6 +1577,11 @@ TypedArrayObject
 byteLength
 (
 )
+.
+valueOr
+(
+0
+)
 ;
 return
 length
@@ -1724,6 +1729,11 @@ TypedArrayObject
 byteOffset
 (
 )
+.
+valueOr
+(
+0
+)
 ;
 return
 offset
@@ -1810,6 +1820,11 @@ TypedArrayObject
 .
 byteLength
 (
+)
+.
+valueOr
+(
+0
 )
 ;
 ArrayBufferViewObject
@@ -2098,6 +2113,11 @@ TypedArrayObject
 .
 byteLength
 (
+)
+.
+valueOr
+(
+0
 )
 ;
 return
