@@ -174,6 +174,9 @@ true
 touchEventsOverride
 :
 true
+tracerOptions
+:
+true
 useSimpleHighlightersForReducedMotion
 :
 true

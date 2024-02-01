@@ -3942,6 +3942,14 @@ docShell
 return
 ;
 }
+super
+.
+updateTargetConfiguration
+(
+options
+calledFromDocumentCreation
+)
+;
 let
 reload
 =
