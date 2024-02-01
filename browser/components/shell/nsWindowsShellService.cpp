@@ -7257,6 +7257,11 @@ nsIMIMEService
 :
 :
 VALIDATE_SANITIZE_ONLY
+|
+nsIMIMEService
+:
+:
+VALIDATE_DONT_COLLAPSE_WHITESPACE
 ;
 nsAutoString
 outFilename
