@@ -1218,9 +1218,9 @@ TIMESPAN_EVERYTHING
 &
 &
 !
-arg
+this
 .
-inClearOnShutdown
+_inClearOnShutdownNewDialog
 )
 {
 this
