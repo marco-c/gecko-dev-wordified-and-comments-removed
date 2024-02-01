@@ -2716,6 +2716,11 @@ tryAttachGuardToArrayBuffer
 )
 ;
 AttachDecision
+tryAttachGuardToSharedArrayBuffer
+(
+)
+;
+AttachDecision
 tryAttachHasClass
 (
 const
