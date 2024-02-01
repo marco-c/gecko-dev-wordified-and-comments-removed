@@ -5083,7 +5083,7 @@ masm_
 public
 :
 size_t
-numStackArgWords
+numStackArgBytes
 ;
 MachineStackTracker
 machineStackTracker
@@ -5140,7 +5140,7 @@ masm_
 (
 masm
 )
-numStackArgWords
+numStackArgBytes
 (
 0
 )

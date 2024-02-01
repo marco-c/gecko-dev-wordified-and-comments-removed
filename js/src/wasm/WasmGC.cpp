@@ -216,6 +216,15 @@ void
 )
 ;
 const
+size_t
+nInboundStackArgBytesAligned
+=
+AlignStackArgAreaSize
+(
+nInboundStackArgBytes
+)
+;
+const
 DebugOnly
 <
 size_t
@@ -228,7 +237,7 @@ nBytesReservedBeforeTrap
 +
 nFrameBytes
 +
-nInboundStackArgBytes
+nInboundStackArgBytesAligned
 ;
 StackMapBoolVector
 vec
@@ -384,7 +393,7 @@ false
 }
 MOZ_ASSERT
 (
-nInboundStackArgBytes
+nInboundStackArgBytesAligned
 %
 sizeof
 (
@@ -400,7 +409,7 @@ const
 size_t
 numStackArgWords
 =
-nInboundStackArgBytes
+nInboundStackArgBytesAligned
 /
 sizeof
 (
