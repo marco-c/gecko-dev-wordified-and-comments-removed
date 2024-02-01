@@ -325,6 +325,17 @@ char
 name
 )
 ;
+GenericPrinter
+&
+beginStringPropertyName
+(
+)
+;
+void
+endStringPropertyName
+(
+)
+;
 enum
 TimePrecision
 {
