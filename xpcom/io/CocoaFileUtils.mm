@@ -143,9 +143,6 @@ NS_ERROR_INVALID_ARG
 nsAutoreleasePool
 localPool
 ;
-BOOL
-success
-=
 [
 [
 NSWorkspace
@@ -161,13 +158,7 @@ url
 ]
 ;
 return
-(
-success
-?
 NS_OK
-:
-NS_ERROR_FAILURE
-)
 ;
 NS_OBJC_END_TRY_BLOCK_RETURN
 (
