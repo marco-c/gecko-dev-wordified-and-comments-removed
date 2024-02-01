@@ -602,6 +602,11 @@ EnsureTypedArrayWithArrayBuffer
 O
 )
 ;
+PossiblyWrappedTypedArrayLength
+(
+O
+)
+;
 return
 CreateArrayIterator
 (
@@ -2059,6 +2064,11 @@ O
 this
 ;
 EnsureTypedArrayWithArrayBuffer
+(
+O
+)
+;
+PossiblyWrappedTypedArrayLength
 (
 O
 )
@@ -4145,6 +4155,11 @@ O
 this
 ;
 EnsureTypedArrayWithArrayBuffer
+(
+O
+)
+;
+PossiblyWrappedTypedArrayLength
 (
 O
 )
