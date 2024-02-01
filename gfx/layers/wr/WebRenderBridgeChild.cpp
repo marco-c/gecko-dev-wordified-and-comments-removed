@@ -2384,6 +2384,13 @@ aSize
 const
 TextureFlags
 aFlags
+const
+RefPtr
+<
+FwdTransactionTracker
+>
+&
+aTracker
 )
 {
 AddWebRenderParentCommand
@@ -2404,6 +2411,11 @@ aSize
 aFlags
 )
 )
+)
+;
+TrackFwdTransaction
+(
+aTracker
 )
 ;
 }

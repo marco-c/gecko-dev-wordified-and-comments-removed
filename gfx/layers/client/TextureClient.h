@@ -317,6 +317,9 @@ class
 CompositableForwarder
 ;
 class
+FwdTransactionTracker
+;
+class
 KnowsCompositor
 ;
 class
@@ -1275,7 +1278,10 @@ false
 ;
 }
 virtual
-void
+already_AddRefed
+<
+FwdTransactionTracker
+>
 UseCompositableForwarder
 (
 CompositableForwarder
@@ -1283,6 +1289,9 @@ CompositableForwarder
 aForwarder
 )
 {
+return
+nullptr
+;
 }
 protected
 :
