@@ -1170,16 +1170,6 @@ cpp
 -
 dom
 /
-plugins
-/
-base
-/
-nsPluginHost
-.
-h
--
-dom
-/
 tests
 /
 mochitest
