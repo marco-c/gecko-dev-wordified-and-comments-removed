@@ -1413,10 +1413,6 @@ mIsRootPaginatedDocument
 (
 false
 )
-mPrefScrollbarSide
-(
-0
-)
 mPendingThemeChanged
 (
 false
@@ -2053,15 +2049,6 @@ PreferenceSheet
 :
 :
 EnsureInitialized
-(
-)
-;
-mPrefScrollbarSide
-=
-StaticPrefs
-:
-:
-layout_scrollbar_side
 (
 )
 ;
