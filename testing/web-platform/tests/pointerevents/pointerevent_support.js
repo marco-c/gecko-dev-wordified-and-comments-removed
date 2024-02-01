@@ -109,6 +109,9 @@ check_PointerEvent
 (
 event
 testNamePrefix
+standardAttrs
+=
+true
 )
 {
 if
@@ -159,6 +162,11 @@ event
 .
 type
 ;
+if
+(
+standardAttrs
+)
+{
 if
 (
 expectedPointerType
@@ -227,6 +235,7 @@ event
 "
 )
 ;
+}
 var
 idl_type_check
 =
@@ -343,6 +352,12 @@ object
 }
 }
 ;
+if
+(
+!
+standardAttrs
+)
+{
 test
 (
 function
@@ -413,6 +428,9 @@ null
 "
 )
 ;
+}
+else
+{
 test
 (
 function
@@ -918,6 +936,7 @@ pointerup
 "
 )
 ;
+}
 }
 }
 function
