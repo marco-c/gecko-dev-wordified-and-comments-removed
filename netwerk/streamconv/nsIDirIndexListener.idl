@@ -39,17 +39,6 @@ nsIDirIndex
 aIndex
 )
 ;
-void
-onInformationAvailable
-(
-in
-nsIRequest
-aRequest
-in
-AString
-aInfo
-)
-;
 }
 ;
 [
