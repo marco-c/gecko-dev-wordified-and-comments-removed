@@ -216,7 +216,6 @@ object
 -
 element
 [
-NeedResolve
 Exposed
 =
 Window
