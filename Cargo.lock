@@ -20665,7 +20665,14 @@ serde_json
 uuid
 "
 "
-winapi
+windows
+-
+sys
+0
+.
+52
+.
+0
 "
 ]
 [
