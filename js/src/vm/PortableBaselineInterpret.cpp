@@ -11344,6 +11344,10 @@ TruncateDoubleToUInt32
 )
 CACHEOP_CASE_UNIMPL
 (
+DoubleToUint8Clamped
+)
+CACHEOP_CASE_UNIMPL
+(
 MegamorphicLoadSlotResult
 )
 CACHEOP_CASE_UNIMPL
