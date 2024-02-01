@@ -2018,7 +2018,7 @@ uint8_t
 {
 Array
 PlainObject
-ArrayBuffer
+FixedLengthArrayBuffer
 SharedArrayBuffer
 DataView
 MappedArguments
