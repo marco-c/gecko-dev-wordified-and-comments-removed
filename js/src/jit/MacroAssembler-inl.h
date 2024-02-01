@@ -2986,6 +2986,13 @@ scratch
 Label
 done
 ;
+if
+(
+JitOptions
+.
+useHasSeenEmulatesUndefinedFuse
+)
+{
 loadPtr
 (
 AbsoluteAddress
@@ -3017,6 +3024,7 @@ nullptr
 done
 )
 ;
+}
 loadObjClassUnsafe
 (
 objReg

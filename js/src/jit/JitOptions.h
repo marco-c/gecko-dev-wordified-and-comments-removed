@@ -441,6 +441,9 @@ trace_regexp_parser
 bool
 trace_regexp_peephole_optimization
 ;
+bool
+useHasSeenEmulatesUndefinedFuse
+;
 DefaultJitOptions
 (
 )
