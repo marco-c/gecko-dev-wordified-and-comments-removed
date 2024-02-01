@@ -1626,7 +1626,7 @@ len
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 JS_ReportErrorUTF8
