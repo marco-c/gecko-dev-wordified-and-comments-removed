@@ -15404,7 +15404,7 @@ toBigInt
 )
 -
 >
-dump
+dumpLiteral
 (
 out
 )
