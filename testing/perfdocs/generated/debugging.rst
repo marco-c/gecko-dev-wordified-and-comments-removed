@@ -2016,15 +2016,6 @@ With
 your
 android
 device
-(
-i
-.
-e
-.
-Google
-Pixel
-2
-)
 all
 set
 up
@@ -2147,9 +2138,8 @@ Firefox
 Custom
 on
 Android
-Pixel
-2
 "
+)
 -
 click
 on

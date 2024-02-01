@@ -521,12 +521,6 @@ choices
 :
 [
 "
-g5
-"
-"
-pixel2
-"
-"
 linux
 "
 "

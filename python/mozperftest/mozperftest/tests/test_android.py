@@ -626,22 +626,11 @@ test_android_perf_tuning_all_calls
 for
 name
 in
-(
-"
-Moto
-G
-(
-5
-)
-"
-"
-Pixel
-2
-"
+[
 "
 ?
 "
-)
+]
 :
         
 device
