@@ -103,13 +103,6 @@ int
 screen
 Window
 window
-ScopedXFree
-<
-GLXFBConfig
->
-*
-const
-out_scopedConfigArr
 GLXFBConfig
 *
 const
