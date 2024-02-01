@@ -928,14 +928,14 @@ value
 )
 {
 let
-processor
+testProcessor
 =
 new
 XSLTProcessor
 (
 )
 ;
-processor
+testProcessor
 .
 setParameter
 (
@@ -949,7 +949,7 @@ value
 let
 parameter
 =
-processor
+testProcessor
 .
 getParameter
 (
@@ -965,7 +965,7 @@ value
 parameter
 )
 ;
-processor
+testProcessor
 .
 importStylesheet
 (
@@ -975,7 +975,7 @@ styleDoc
 let
 fragment
 =
-processor
+testProcessor
 .
 transformToFragment
 (
