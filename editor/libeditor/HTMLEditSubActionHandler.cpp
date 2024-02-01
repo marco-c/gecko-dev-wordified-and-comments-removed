@@ -23826,7 +23826,7 @@ eCreateOrRemoveBlock
 BlockInlineCheck
 :
 :
-UseHTMLDefaultStyle
+UseComputedDisplayOutsideStyle
 aEditingHost
 )
 ;
@@ -23846,7 +23846,7 @@ this
 BlockInlineCheck
 :
 :
-UseHTMLDefaultStyle
+UseComputedDisplayOutsideStyle
 aEditingHost
 )
 ;
@@ -24028,7 +24028,7 @@ arrayOfContents
 BlockInlineCheck
 :
 :
-UseHTMLDefaultStyle
+UseComputedDisplayOutsideStyle
 )
 )
 {
@@ -24173,7 +24173,7 @@ ClosestEditableBlockElement
 BlockInlineCheck
 :
 :
-UseHTMLDefaultStyle
+UseComputedDisplayOutsideStyle
 )
 ;
 if
@@ -24274,7 +24274,7 @@ IgnoreNonEditableNode
 BlockInlineCheck
 :
 :
-UseHTMLDefaultStyle
+UseComputedDisplayOutsideStyle
 &
 aEditingHost
 )
@@ -24572,7 +24572,7 @@ StopAtBlockBoundary
 BlockInlineCheck
 :
 :
-UseHTMLDefaultStyle
+UseComputedDisplayOutsideStyle
 &
 aEditingHost
 )
@@ -25001,7 +25001,7 @@ XULParagraphStateCommand
 BlockInlineCheck
 :
 :
-UseHTMLDefaultStyle
+UseComputedDisplayOutsideStyle
 )
 ;
 if
