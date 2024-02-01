@@ -3120,6 +3120,11 @@ obj
 length
 (
 )
+.
+valueOr
+(
+0
+)
 ;
 if
 (
