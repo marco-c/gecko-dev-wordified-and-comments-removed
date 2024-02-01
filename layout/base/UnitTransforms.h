@@ -64,7 +64,6 @@ ContentProcessIsLayerInUiProcess
 PropagatingToChildProcess
 DeltaIsPageProportion
 CSSPixelsOfSurroundingContent
-UntypedPrePostScale
 }
 ;
 template
