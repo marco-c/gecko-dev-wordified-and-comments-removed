@@ -8,8 +8,6 @@ content
 -
 src
 /
-asrouter
-/
 template
 -
 utils
