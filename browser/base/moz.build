@@ -501,6 +501,17 @@ content
 /
 test
 /
+tabcrashed
+/
+browser_aboutRestartRequired_noForkServer
+.
+toml
+"
+"
+content
+/
+test
+/
 tabdialogs
 /
 browser
