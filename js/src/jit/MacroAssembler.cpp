@@ -8194,6 +8194,12 @@ scratch
 notSplit
 )
 ;
+branchIfRope
+(
+leftChild
+maybeSplit
+)
+;
 loadStringChars
 (
 leftChild
