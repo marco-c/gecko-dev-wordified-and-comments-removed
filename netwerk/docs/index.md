@@ -372,3 +372,6 @@ new_to_necko_resources
 neqo_triage_guideline
 .
 md
+necko_lingo
+.
+md
