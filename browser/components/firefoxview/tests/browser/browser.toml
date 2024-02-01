@@ -416,6 +416,13 @@ bug
 1858460
 [
 "
+browser_opentabs_tab_indicators
+.
+js
+"
+]
+[
+"
 browser_recentlyclosed_firefoxview
 .
 js

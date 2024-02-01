@@ -77,9 +77,15 @@ min
 -
 content
 3fr
+min
+-
+content
 2fr
 1fr
 1fr
+min
+-
+content
 min
 -
 content
@@ -116,6 +122,12 @@ content
 min
 -
 content
+min
+-
+content
+min
+-
+content
 ;
 }
 virtual
@@ -131,7 +143,7 @@ grid
 column
 :
 span
-7
+9
 ;
 grid
 -
@@ -155,7 +167,7 @@ grid
 column
 :
 span
-7
+9
 ;
 }
 }
