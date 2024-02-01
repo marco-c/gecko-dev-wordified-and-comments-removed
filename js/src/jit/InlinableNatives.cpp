@@ -1264,6 +1264,12 @@ case
 InlinableNative
 :
 :
+IntrinsicTypedArrayLengthZeroOnOutOfBounds
+:
+case
+InlinableNative
+:
+:
 IntrinsicTypedArrayByteOffset
 :
 case
