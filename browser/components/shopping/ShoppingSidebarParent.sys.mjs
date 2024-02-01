@@ -1894,7 +1894,7 @@ lazy
 .
 ShoppingUtils
 .
-maybeRecordExposure
+onLocationChange
 (
 aLocationURI
 aFlags
