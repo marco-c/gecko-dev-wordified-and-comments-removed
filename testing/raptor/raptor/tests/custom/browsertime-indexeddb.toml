@@ -23,6 +23,8 @@ true
 gecko_profile_entries
 =
 131072000
+#
+1GB
 gecko_profile_features
 =
 "

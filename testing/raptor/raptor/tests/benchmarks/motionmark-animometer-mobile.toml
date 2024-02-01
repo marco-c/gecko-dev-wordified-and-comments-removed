@@ -15,9 +15,6 @@ chrome
 m
 geckoview
 "
-gecko_profile_entries
-=
-8000000
 gecko_profile_interval
 =
 1

@@ -17,9 +17,6 @@ alert_threshold
 browser_cycles
 =
 1
-gecko_profile_entries
-=
-14000000
 gecko_profile_interval
 =
 1

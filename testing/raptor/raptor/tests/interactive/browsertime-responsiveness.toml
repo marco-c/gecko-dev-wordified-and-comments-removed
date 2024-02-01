@@ -31,9 +31,6 @@ safari
 browser_cycles
 =
 25
-gecko_profile_entries
-=
-14000000
 gecko_profile_interval
 =
 1

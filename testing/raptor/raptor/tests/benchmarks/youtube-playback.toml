@@ -6,9 +6,6 @@ alert_threshold
 2
 .
 0
-gecko_profile_entries
-=
-50000000
 gecko_profile_interval
 =
 1000
