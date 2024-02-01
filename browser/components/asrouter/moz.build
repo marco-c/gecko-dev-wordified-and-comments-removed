@@ -28,3 +28,17 @@ Messaging
 System
 "
 )
+EXTRA_JS_MODULES
+.
+asrouter
++
+=
+[
+"
+modules
+/
+ASRouterDefaultConfig
+.
+jsm
+"
+]
