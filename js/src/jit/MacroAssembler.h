@@ -748,7 +748,7 @@ class
 StaticStrings
 ;
 class
-FixedLengthTypedArrayObject
+TypedArrayObject
 ;
 enum
 class
@@ -22358,16 +22358,6 @@ notTypedArray
 )
 ;
 void
-branchIfClassIsNotFixedLengthTypedArray
-(
-Register
-clasp
-Label
-*
-notTypedArray
-)
-;
-void
 branchIfHasDetachedArrayBuffer
 (
 Register
@@ -23598,7 +23588,7 @@ liveRegs
 Label
 *
 fail
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 templateObj
 TypedArrayLength

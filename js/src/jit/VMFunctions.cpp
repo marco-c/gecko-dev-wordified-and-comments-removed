@@ -11413,11 +11413,6 @@ TypedArrayObject
 length
 (
 )
-.
-valueOr
-(
-0
-)
 ;
 vp
 [
@@ -13350,12 +13345,12 @@ UndefinedValue
 ;
 constexpr
 size_t
-byteLengthLimit
+maxByteLength
 =
 TypedArrayObject
 :
 :
-ByteLengthLimit
+MaxByteLength
 ;
 if
 (
@@ -13370,7 +13365,7 @@ size_t
 count
 )
 >
-byteLengthLimit
+maxByteLength
 /
 obj
 -
@@ -13436,7 +13431,7 @@ MOZ_ASSERT
 nbytes
 <
 =
-byteLengthLimit
+maxByteLength
 )
 ;
 nbytes
@@ -14661,7 +14656,7 @@ static
 int32_t
 AtomicsCompareExchange
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -14852,7 +14847,7 @@ static
 int32_t
 AtomicsExchange
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -15037,7 +15032,7 @@ static
 int32_t
 AtomicsAdd
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -15222,7 +15217,7 @@ static
 int32_t
 AtomicsSub
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -15407,7 +15402,7 @@ static
 int32_t
 AtomicsAnd
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -15592,7 +15587,7 @@ static
 int32_t
 AtomicsOr
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -15777,7 +15772,7 @@ static
 int32_t
 AtomicsXor
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -15971,7 +15966,7 @@ AtomicAccess64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16160,7 +16155,7 @@ static
 auto
 AtomicAccess64
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16318,7 +16313,7 @@ AtomicsLoad64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16357,7 +16352,7 @@ addr
 void
 AtomicsStore64
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16408,7 +16403,7 @@ AtomicsCompareExchange64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16467,7 +16462,7 @@ AtomicsExchange64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16518,7 +16513,7 @@ AtomicsAdd64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16569,7 +16564,7 @@ AtomicsAnd64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16620,7 +16615,7 @@ AtomicsOr64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16671,7 +16666,7 @@ AtomicsSub64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -16722,7 +16717,7 @@ AtomicsXor64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t

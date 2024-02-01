@@ -607,10 +607,6 @@ enableArrayBufferTransfer
 ;
 extern
 bool
-enableArrayBufferResizable
-;
-extern
-bool
 enableSymbolsAsWeakMapKeys
 ;
 extern

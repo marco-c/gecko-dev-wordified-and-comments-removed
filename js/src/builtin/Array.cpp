@@ -2376,11 +2376,6 @@ typedArray
 length
 (
 )
-.
-valueOr
-(
-0
-)
 =
 =
 length
@@ -17386,11 +17381,6 @@ TypedArrayObject
 .
 length
 (
-)
-.
-valueOr
-(
-0
 )
 ;
 for
