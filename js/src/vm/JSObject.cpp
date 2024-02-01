@@ -18903,7 +18903,7 @@ if
 (
 is
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
@@ -18912,7 +18912,7 @@ TypedArrayObject
 !
 as
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
@@ -18932,7 +18932,7 @@ if
 (
 as
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
@@ -18947,7 +18947,7 @@ nbytes
 =
 as
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
@@ -18958,7 +18958,7 @@ byteLength
 ;
 allocKind
 =
-TypedArrayObject
+FixedLengthTypedArrayObject
 :
 :
 AllocKindForLazyBuffer

@@ -39,12 +39,13 @@ TYPED_ARRAY_CLASP
 (
 TYPE
 )
+\
 (
 &
 TypedArrayObject
 :
 :
-classes
+fixedLengthClasses
 [
 JS
 :
