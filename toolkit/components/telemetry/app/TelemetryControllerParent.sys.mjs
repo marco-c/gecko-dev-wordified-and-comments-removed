@@ -5360,7 +5360,7 @@ lazy
 .
 TelemetryStorage
 .
-addPendingPing
+savePendingPing
 (
 ping
 )
