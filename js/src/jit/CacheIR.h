@@ -2020,7 +2020,7 @@ Array
 PlainObject
 FixedLengthArrayBuffer
 SharedArrayBuffer
-DataView
+FixedLengthDataView
 MappedArguments
 UnmappedArguments
 WindowProxy
