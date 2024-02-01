@@ -179,7 +179,7 @@ Ci
 .
 nsIObjectLoadingContent
 .
-TYPE_NULL
+TYPE_FALLBACK
 "
 plugin
 should
