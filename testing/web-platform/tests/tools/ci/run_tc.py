@@ -710,6 +710,9 @@ choices
 experimental
 "
 "
+canary
+"
+"
 dev
 "
 "
@@ -1250,6 +1253,17 @@ install_chrome
 channel
 )
 :
+    
+if
+channel
+=
+=
+"
+canary
+"
+:
+        
+return
     
 if
 channel

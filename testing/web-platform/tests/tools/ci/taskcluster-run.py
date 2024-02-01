@@ -193,8 +193,7 @@ chromium
 "
 :
         
-args
-=
+return
 [
 "
 -
@@ -203,22 +202,6 @@ enable
 -
 swiftshader
 "
-]
-        
-if
-channel
-=
-=
-"
-nightly
-"
-:
-            
-args
-.
-extend
-(
-[
 "
 -
 -
@@ -234,10 +217,6 @@ install
 webdriver
 "
 ]
-)
-        
-return
-args
     
 if
 product
