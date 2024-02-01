@@ -4012,12 +4012,6 @@ if
 FormAutofill
 .
 isAutofillAddressesCaptureEnabled
-&
-&
-!
-FormAutofill
-.
-isAutofillAddressesCaptureV2Enabled
 )
 {
 return

@@ -108,8 +108,6 @@ addresses
 .
 capture
 .
-v2
-.
 enabled
 "
 true

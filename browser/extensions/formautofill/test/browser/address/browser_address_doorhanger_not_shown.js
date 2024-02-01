@@ -551,8 +551,6 @@ addresses
 .
 capture
 .
-v2
-.
 enabled
 "
 false
@@ -586,8 +584,6 @@ formautofill
 addresses
 .
 capture
-.
-v2
 .
 enabled
 "
