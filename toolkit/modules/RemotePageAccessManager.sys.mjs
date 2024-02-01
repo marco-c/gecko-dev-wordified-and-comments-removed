@@ -1609,6 +1609,17 @@ ads
 .
 userEnabled
 "
+"
+browser
+.
+shopping
+.
+experience2023
+.
+autoOpen
+.
+userEnabled
+"
 ]
 RPMGetFormatURLPref
 :
