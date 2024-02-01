@@ -371,12 +371,6 @@ false
 ;
 docShell
 .
-allowPlugins
-=
-false
-;
-docShell
-.
 allowContentRetargeting
 =
 false

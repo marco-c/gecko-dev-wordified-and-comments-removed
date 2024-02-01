@@ -389,11 +389,6 @@ y
 PR_END_MACRO
 TRY_ALLOWPROP
 (
-Plugins
-)
-;
-TRY_ALLOWPROP
-(
 MetaRedirects
 )
 ;
