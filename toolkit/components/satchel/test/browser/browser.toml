@@ -61,10 +61,3 @@ if
 verify
 "
 ]
-[
-"
-browser_window_resize
-.
-js
-"
-]
