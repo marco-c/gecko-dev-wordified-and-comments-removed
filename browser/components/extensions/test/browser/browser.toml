@@ -2009,6 +2009,13 @@ js
 ]
 [
 "
+browser_ext_runtime_onPerformanceWarning
+.
+js
+"
+]
+[
+"
 browser_ext_runtime_openOptionsPage
 .
 js
@@ -2330,6 +2337,12 @@ debug
 "
 asan
 "
+"
+tsan
+"
+#
+Bug
+1874317
 ]
 [
 "
