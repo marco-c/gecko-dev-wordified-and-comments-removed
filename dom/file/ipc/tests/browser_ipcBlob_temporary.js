@@ -182,7 +182,7 @@ window
 .
 Promise
 (
-resolve
+innerResolve
 =
 >
 {
@@ -301,7 +301,7 @@ if
 count
 )
 {
-resolve
+innerResolve
 (
 true
 )

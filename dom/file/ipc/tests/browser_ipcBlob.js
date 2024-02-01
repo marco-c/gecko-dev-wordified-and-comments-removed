@@ -78,7 +78,7 @@ function
 )
 {
 let
-blob
+innerBlob
 =
 new
 Blob
@@ -102,7 +102,7 @@ join
 )
 ;
 return
-blob
+innerBlob
 ;
 }
 )
@@ -191,7 +191,7 @@ blob
 ]
 function
 (
-blob
+innerBlob
 )
 {
 return
@@ -216,7 +216,7 @@ fr
 .
 readAsText
 (
-blob
+innerBlob
 )
 ;
 fr
@@ -335,7 +335,7 @@ function
 )
 {
 let
-blob
+innerBlob
 =
 new
 Blob
@@ -350,7 +350,7 @@ world
 )
 ;
 return
-blob
+innerBlob
 ;
 }
 )
@@ -430,7 +430,7 @@ blob
 ]
 function
 (
-blob
+innerBlob
 )
 {
 return
@@ -455,7 +455,7 @@ fr
 .
 readAsText
 (
-blob
+innerBlob
 )
 ;
 fr
@@ -1135,7 +1135,7 @@ blobURL
 ]
 function
 (
-blobURL
+innerBlobURL
 )
 {
 return
@@ -1163,7 +1163,7 @@ open
 "
 GET
 "
-blobURL
+innerBlobURL
 )
 ;
 xhr
@@ -1379,7 +1379,7 @@ newBlob
 ]
 function
 (
-blob
+innerBlob
 )
 {
 return
@@ -1411,7 +1411,7 @@ Blob
 "
 hello
 "
-blob
+innerBlob
 ]
 )
 )
