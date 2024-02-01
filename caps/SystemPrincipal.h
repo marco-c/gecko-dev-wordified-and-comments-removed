@@ -66,13 +66,6 @@ class
 nsScriptSecurityManager
 ;
 namespace
-Json
-{
-class
-Value
-;
-}
-namespace
 mozilla
 {
 class
