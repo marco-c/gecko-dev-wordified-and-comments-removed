@@ -287,13 +287,6 @@ h
 #
 include
 "
-nsISocketTransport
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener
 .
 h
@@ -6758,7 +6751,7 @@ nsISocketProvider
 :
 BE_CONSERVATIVE
 |
-nsISocketTransport
+nsISocketProvider
 :
 :
 DONT_TRY_ECH
@@ -6917,7 +6910,7 @@ nsISocketProvider
 :
 BE_CONSERVATIVE
 |
-nsISocketTransport
+nsISocketProvider
 :
 :
 IS_RETRY
