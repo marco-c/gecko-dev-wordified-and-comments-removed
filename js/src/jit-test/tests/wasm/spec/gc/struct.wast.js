@@ -1359,6 +1359,7 @@ null
 )
 null
 structure
+reference
 )
 ;
 assert_trap
@@ -1380,6 +1381,7 @@ null
 )
 null
 structure
+reference
 )
 ;
 let
