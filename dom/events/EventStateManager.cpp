@@ -8180,6 +8180,10 @@ Manager
 MaybeInvokeDragSession
 (
 browserParent
+aEvent
+-
+>
+mMessage
 )
 ;
 nsCOMPtr
