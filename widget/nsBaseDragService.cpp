@@ -3057,6 +3057,13 @@ aKeyModifiers
 if
 (
 widget
+&
+&
+event
+.
+CanConvertToInputData
+(
+)
 )
 {
 widget
