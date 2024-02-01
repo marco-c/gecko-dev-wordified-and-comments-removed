@@ -721,7 +721,7 @@ Nowrap
 ;
 enum
 class
-StyleTextWrap
+StyleTextWrapStyle
 :
 uint8_t
 {
