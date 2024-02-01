@@ -207,6 +207,13 @@ https_first_disabled
 true
 [
 "
+browser_protectionsUI_info_message
+.
+js
+"
+]
+[
+"
 browser_protectionsUI_milestones
 .
 js
