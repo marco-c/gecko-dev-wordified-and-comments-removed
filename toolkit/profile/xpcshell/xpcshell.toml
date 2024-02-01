@@ -136,13 +136,6 @@ js
 ]
 [
 "
-test_register_app_services_logger
-.
-js
-"
-]
-[
-"
 test_remove
 .
 js
