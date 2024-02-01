@@ -16964,9 +16964,11 @@ MOZ_ASSERT
 currentThread
 )
 ;
-MOZ_ASSERT
+Unused
+<
+<
+NS_WARN_IF
 (
-!
 NS_HasPendingEvents
 (
 currentThread
