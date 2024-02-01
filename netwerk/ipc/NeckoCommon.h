@@ -658,7 +658,6 @@ nsTArray
 <
 StreamListenerFunction
 >
-&
 aCalls
 nsIStreamListener
 *

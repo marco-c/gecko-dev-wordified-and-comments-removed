@@ -7377,7 +7377,13 @@ Clear
 }
 ForwardStreamListenerFunctions
 (
+std
+:
+:
+move
+(
 streamListenerFunctions
+)
 aListener
 )
 ;
@@ -13217,7 +13223,13 @@ VariantIndex
 OnDataAvailableParams
 {
 aRequest
+std
+:
+:
+move
+(
 data
+)
 aOffset
 aCount
 }
