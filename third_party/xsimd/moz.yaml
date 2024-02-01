@@ -5,12 +5,10 @@ bugzilla
 :
 product
 :
-Toolkit
+Core
 component
 :
-"
-General
-"
+Performance
 origin
 :
 name
