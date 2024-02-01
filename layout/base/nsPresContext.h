@@ -4164,11 +4164,6 @@ mInterruptsEnabled
 1
 ;
 unsigned
-mSendAfterPaintToContent
-:
-1
-;
-unsigned
 mDrawImageBackground
 :
 1
