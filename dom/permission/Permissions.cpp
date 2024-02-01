@@ -235,7 +235,7 @@ Handle
 JSObject
 *
 >
-aPermission
+aPermissionDesc
 nsPIDOMWindowInner
 *
 aWindow
@@ -245,7 +245,7 @@ aRv
 )
 {
 PermissionDescriptor
-permission
+rootDesc
 ;
 JS
 :
@@ -257,7 +257,7 @@ JS
 :
 Value
 >
-value
+permissionDescValue
 (
 aCx
 JS
@@ -265,7 +265,7 @@ JS
 :
 ObjectOrNullValue
 (
-aPermission
+aPermissionDesc
 )
 )
 ;
@@ -274,12 +274,12 @@ if
 NS_WARN_IF
 (
 !
-permission
+rootDesc
 .
 Init
 (
 aCx
-value
+permissionDescValue
 )
 )
 )
@@ -297,7 +297,7 @@ nullptr
 }
 switch
 (
-permission
+rootDesc
 .
 mName
 )
@@ -322,7 +322,7 @@ midiPerm
 Init
 (
 aCx
-value
+permissionDescValue
 )
 )
 )
@@ -403,7 +403,7 @@ PermissionStatus
 Create
 (
 aWindow
-permission
+rootDesc
 .
 mName
 )

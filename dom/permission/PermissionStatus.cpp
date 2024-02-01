@@ -526,7 +526,6 @@ NS_OK
 __func__
 )
 ;
-;
 }
 bool
 PermissionStatus
