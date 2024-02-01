@@ -6918,12 +6918,12 @@ rval
 (
 )
 .
-set
+setNumber
 (
 tarr
 -
 >
-byteOffsetValue
+byteOffset
 (
 )
 )
@@ -11048,6 +11048,11 @@ view
 .
 byteLength
 (
+)
+.
+valueOr
+(
+0
 )
 ;
 return
