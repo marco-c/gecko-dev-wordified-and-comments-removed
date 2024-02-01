@@ -1743,11 +1743,15 @@ estimates
 :
 In
 the
-top
-62
+shortest
+38
 %
 of
 durations
+(
+thanks
+!
+)
 estimates
 :
 Should
