@@ -31,7 +31,7 @@ browser
 /
 components
 /
-newtab
+asrouter
 /
 docs
 /
@@ -41,12 +41,6 @@ browser
 components
 /
 newtab
-/
-content
--
-src
-/
-asrouter
 /
 docs
 /
