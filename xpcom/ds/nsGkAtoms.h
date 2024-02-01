@@ -157,16 +157,6 @@ AtomsCount
 ;
 }
 ;
-const
-ptrdiff_t
-kGkAtomsArrayOffset
-=
-offsetof
-(
-GkAtoms
-mAtoms
-)
-;
 #
 if
 defined
