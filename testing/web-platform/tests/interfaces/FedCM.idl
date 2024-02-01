@@ -146,6 +146,11 @@ USVString
 ?
 token
 ;
+readonly
+attribute
+boolean
+isAutoSelected
+;
 }
 ;
 dictionary

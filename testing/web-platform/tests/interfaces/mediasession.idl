@@ -292,6 +292,7 @@ type
 dictionary
 MediaPositionState
 {
+unrestricted
 double
 duration
 ;
