@@ -2702,9 +2702,9 @@ browser
 /
 components
 /
-newtab
+asrouter
 /
-lib
+modules
 /
 OnboardingMessageProvider
 .

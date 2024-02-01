@@ -20,9 +20,7 @@ OnboardingMessageProvider
 }
 from
 "
-newtab
-/
-lib
+modules
 /
 OnboardingMessageProvider
 .

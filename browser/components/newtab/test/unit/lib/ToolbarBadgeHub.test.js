@@ -30,7 +30,9 @@ OnboardingMessageProvider
 }
 from
 "
-lib
+asrouter
+/
+modules
 /
 OnboardingMessageProvider
 .
