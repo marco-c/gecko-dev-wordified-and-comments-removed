@@ -38,7 +38,7 @@ CRASHTEST_MANIFESTS
 =
 [
 "
-crashtest
+crashtests
 /
 crashtests
 .
