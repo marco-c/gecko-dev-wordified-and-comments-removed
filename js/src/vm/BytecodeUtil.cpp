@@ -10517,7 +10517,7 @@ pc
 )
 -
 >
-dumpLiteral
+dump
 (
 sprinter
 )
