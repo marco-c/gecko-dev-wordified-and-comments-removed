@@ -6769,6 +6769,17 @@ SchemeIs
 about
 "
 )
+|
+|
+aPrincipal
+-
+>
+SchemeIs
+(
+"
+jar
+"
+)
 )
 {
 truncatedPrincipal
