@@ -50,7 +50,14 @@ py
 ]
 [
 "
-test_get_upstream_remote
+test_get_mozilla_remote_args
+.
+py
+"
+]
+[
+"
+test_get_upstream_remotes
 .
 py
 "

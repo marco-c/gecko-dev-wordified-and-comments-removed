@@ -19,6 +19,8 @@ typing
 import
 (
     
+Iterator
+    
 List
     
 Optional
@@ -4706,13 +4708,13 @@ strip
 )
     
 def
-get_mozilla_upstream_remote
+get_mozilla_upstream_remotes
 (
 self
 )
 -
 >
-Optional
+Iterator
 [
 str
 ]
@@ -4727,7 +4729,7 @@ Mozilla
 -
 official
 upstream
-remote
+remotes
 for
 this
 repo
@@ -4757,7 +4759,6 @@ out
 :
             
 return
-None
         
 remotes
 =
@@ -4773,39 +4774,13 @@ remotes
 :
             
 return
-None
         
-for
-upstream
-in
-(
-"
-hg
-.
-mozilla
-.
-org
-/
-mozilla
--
-unified
-"
-"
-hg
-.
-mozilla
-.
-org
-"
-)
-:
-            
 for
 line
 in
 remotes
 :
-                
+            
 name
 url
 action
@@ -4815,27 +4790,62 @@ line
 split
 (
 )
-                
+            
 if
-upstream
+action
+!
+=
+"
+(
+fetch
+)
+"
+:
+                
+continue
+            
+if
+"
+hg
+.
+mozilla
+.
+org
+"
 in
 url
+and
+not
+url
+.
+endswith
+(
+"
+hg
+.
+mozilla
+.
+org
+/
+try
+"
+)
 :
-                    
-return
+                
+yield
 name
-        
-return
-None
     
 def
-get_mozilla_remote_arg
+get_mozilla_remote_args
 (
 self
 )
 -
 >
+List
+[
 str
+]
 :
         
 "
@@ -4843,31 +4853,27 @@ str
 "
 Return
 a
+list
+of
 -
 -
 remotes
-argument
+arguments
 to
 limit
-revisions
+commits
 to
-relevant
-upstreams
+official
+remotes
 .
 "
 "
 "
         
-official_remote
+official_remotes
 =
-self
-.
-get_mozilla_upstream_remote
-(
-)
-        
-remote_arg
-=
+[
+            
 f
 "
 -
@@ -4875,20 +4881,32 @@ f
 remotes
 =
 {
-official_remote
+remote
 }
 "
+for
+remote
+in
+self
+.
+get_mozilla_upstream_remotes
+(
+)
+        
+]
+        
+return
+official_remotes
 if
-official_remote
+official_remotes
 else
+[
 "
 -
 -
 remotes
 "
-        
-return
-remote_arg
+]
     
 property
     
@@ -4899,11 +4917,11 @@ self
 )
 :
         
-remote_arg
+remote_args
 =
 self
 .
-get_mozilla_remote_arg
+get_mozilla_remote_args
 (
 )
         
@@ -4939,7 +4957,8 @@ boundary
 -
 not
 "
-remote_arg
+*
+remote_args
         
 )
 .
@@ -6063,11 +6082,11 @@ branch
 "
 "
         
-remote_arg
+remote_args
 =
 self
 .
-get_mozilla_remote_arg
+get_mozilla_remote_args
 (
 )
         
@@ -6097,7 +6116,8 @@ reverse
 not
 "
             
-remote_arg
+*
+remote_args
             
 "
 -
