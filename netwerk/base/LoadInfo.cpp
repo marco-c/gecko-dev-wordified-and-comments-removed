@@ -6983,6 +6983,17 @@ hostPort
 +
 path
 ;
+nsAutoCString
+principalSpec
+;
+aPrincipal
+-
+>
+GetSpec
+(
+principalSpec
+)
+;
 nsCOMPtr
 <
 nsIURI
