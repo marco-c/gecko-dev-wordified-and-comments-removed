@@ -207,12 +207,13 @@ true
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 scroller
 .
 scrollTop
->
 0
 "
 scrollIntoView

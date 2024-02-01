@@ -267,14 +267,13 @@ thrown
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 e
 .
 resultCode
-=
-=
-=
 NS_ERROR_FILE_NO_DEVICE_SPACE
 "
 Threw

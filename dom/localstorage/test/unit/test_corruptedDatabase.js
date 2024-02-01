@@ -79,12 +79,11 @@ storage
 .
 length
 ;
-ok
+Assert
+.
+strictEqual
 (
 length
-=
-=
-=
 0
 "
 Correct

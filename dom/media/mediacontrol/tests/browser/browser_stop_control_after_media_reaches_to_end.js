@@ -484,12 +484,13 @@ the
 end
 )
 ;
-ok
+Assert
+.
+greater
 (
 video
 .
 duration
->
 1
 .
 0

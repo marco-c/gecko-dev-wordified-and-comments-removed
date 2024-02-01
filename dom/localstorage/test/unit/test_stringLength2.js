@@ -336,14 +336,13 @@ data
 secondKey
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 value
 .
 length
-=
-=
-=
 data
 .
 value

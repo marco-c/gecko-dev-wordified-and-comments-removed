@@ -316,14 +316,13 @@ requestFinished
 request
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 request
 .
 result
-=
-=
-=
 true
 "
 The

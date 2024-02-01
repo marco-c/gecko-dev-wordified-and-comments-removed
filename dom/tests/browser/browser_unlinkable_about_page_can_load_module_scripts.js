@@ -256,10 +256,11 @@ page
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 errorCount
->
 0
 "
 Should

@@ -332,10 +332,11 @@ innerHeight
 }
 )
 ;
-ok
+Assert
+.
+less
 (
 originalInnerWidth
-<
 innerWidth
 "
 window
@@ -354,10 +355,11 @@ original
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 originalInnerHeight
-<
 innerHeight
 "
 window

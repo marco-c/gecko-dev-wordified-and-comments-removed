@@ -180,13 +180,13 @@ catch
 ex
 )
 {
-ok
+Assert
+.
+equal
 (
 request
 .
 resultCode
-=
-=
 NS_ERROR_STORAGE_BUSY
 "
 Good

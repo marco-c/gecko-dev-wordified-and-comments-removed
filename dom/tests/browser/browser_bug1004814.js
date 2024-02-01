@@ -212,10 +212,11 @@ true
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 duration
->
 0
 "
 ConsoleEvent

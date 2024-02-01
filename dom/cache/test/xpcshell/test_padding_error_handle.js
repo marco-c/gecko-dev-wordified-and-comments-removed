@@ -248,14 +248,13 @@ com
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 cacheEntries
 .
 length
-=
-=
-=
 1
 "
 Cache

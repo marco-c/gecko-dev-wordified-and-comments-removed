@@ -491,14 +491,13 @@ created
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 origin
 .
 dirName
-=
-=
-=
 dir
 .
 leafName

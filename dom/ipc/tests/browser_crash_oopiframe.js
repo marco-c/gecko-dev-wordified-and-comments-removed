@@ -270,13 +270,13 @@ crash
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 event
 .
 childID
-!
-=
 0
 "
 childID

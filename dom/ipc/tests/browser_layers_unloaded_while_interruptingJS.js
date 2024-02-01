@@ -139,14 +139,15 @@ initialTab
 await
 layersCleared
 ;
-ok
+Assert
+.
+less
 (
 performance
 .
 now
 (
 )
-<
 startWaiting
 +
 2000

@@ -407,11 +407,11 @@ aCurrentTiming
 =
 >
 {
-ok
+Assert
+.
+lessOrEqual
 (
 aPreviousTiming
-<
-=
 aCurrentTiming
 "
 Checking

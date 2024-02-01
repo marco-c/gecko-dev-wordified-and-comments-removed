@@ -217,12 +217,13 @@ textScaleFactor
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 window
 .
 devicePixelRatio
->
 dpi
 "
 DPI

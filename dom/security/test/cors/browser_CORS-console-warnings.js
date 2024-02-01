@@ -273,10 +273,11 @@ finished
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 messages_seen
->
 0
 "
 Saw
@@ -359,10 +360,11 @@ messages_seen
 0
 )
 ;
-ok
+Assert
+.
+greater
 (
 messages_seen
->
 0
 "
 Saw

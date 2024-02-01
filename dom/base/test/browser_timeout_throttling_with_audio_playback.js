@@ -296,11 +296,11 @@ delay
 }
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 timeout
-<
-=
 kMinTimeoutBackground
 Got
 the

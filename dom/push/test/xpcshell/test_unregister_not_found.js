@@ -143,12 +143,11 @@ false
 }
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 result
-=
-=
-=
 false
 "
 unregister

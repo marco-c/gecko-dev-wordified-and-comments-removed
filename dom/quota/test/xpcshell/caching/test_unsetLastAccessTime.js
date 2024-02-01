@@ -120,7 +120,9 @@ time
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 BigInt
 (
@@ -130,8 +132,6 @@ result
 .
 lastAccessTime
 )
-!
-=
 INT64_MIN
 "
 Correct

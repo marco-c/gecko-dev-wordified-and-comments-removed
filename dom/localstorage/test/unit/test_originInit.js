@@ -642,11 +642,11 @@ readUsageFromUsageFile
 usageFile
 )
 ;
-ok
+Assert
+.
+equal
 (
 usage
-=
-=
 data
 .
 usage

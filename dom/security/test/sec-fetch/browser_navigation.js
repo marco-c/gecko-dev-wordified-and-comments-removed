@@ -950,12 +950,11 @@ forward
 await
 loaded
 ;
-ok
+Assert
+.
+strictEqual
 (
 gTestCounter
-=
-=
-=
 7
 "
 testing

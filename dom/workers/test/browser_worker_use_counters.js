@@ -552,10 +552,11 @@ correct
 .
 )
 ;
-ok
+Assert
+.
+greater
 (
 destructions_after
->
 destructions_before
 {
 worker_type
@@ -566,10 +567,11 @@ are
 correct
 )
 ;
-ok
+Assert
+.
+greater
 (
 glean_destructions_after
->
 glean_destructions_before
 Glean
 {
