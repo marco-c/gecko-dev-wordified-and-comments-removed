@@ -161,6 +161,14 @@ testSendingMoreInfo
 (
 )
 {
+ensureReportBrokenSitePreffedOn
+(
+)
+;
+ensureSendMoreInfoEnabled
+(
+)
+;
 const
 win
 =
