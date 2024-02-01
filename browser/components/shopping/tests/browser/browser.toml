@@ -317,13 +317,6 @@ js
 ]
 [
 "
-browser_auto_open
-.
-js
-"
-]
-[
-"
 browser_exposure_telemetry
 .
 js
