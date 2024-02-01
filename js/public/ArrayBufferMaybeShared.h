@@ -101,6 +101,16 @@ JSObject
 obj
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+IsResizableArrayBufferMaybeShared
+(
+JSObject
+*
+obj
+)
+;
 }
 #
 endif

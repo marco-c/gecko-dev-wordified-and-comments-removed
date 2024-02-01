@@ -1066,6 +1066,16 @@ dataPointerShared
 )
 ;
 }
+bool
+isGrowable
+(
+)
+const
+{
+return
+false
+;
+}
 static
 SharedArrayBufferObject
 *
