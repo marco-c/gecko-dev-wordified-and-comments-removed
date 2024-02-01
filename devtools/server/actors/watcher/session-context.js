@@ -397,6 +397,15 @@ Resources
 .
 TYPES
 .
+CSS_REGISTERED_PROPERTIES
+]
+:
+true
+[
+Resources
+.
+TYPES
+.
 DOCUMENT_EVENT
 ]
 :

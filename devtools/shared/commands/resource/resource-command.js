@@ -3626,6 +3626,15 @@ css
 -
 message
 "
+CSS_REGISTERED_PROPERTIES
+:
+"
+css
+-
+registered
+-
+properties
+"
 ERROR_MESSAGE
 :
 "
