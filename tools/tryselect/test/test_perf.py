@@ -8209,13 +8209,20 @@ MAX_PERF_TASKS
 )
             
 {
+                
 "
 show_all
 "
 :
 True
+                
 "
-try_config
+try_config_params
+"
+:
+{
+"
+try_task_config
 "
 :
 {
@@ -8225,6 +8232,8 @@ rebuild
 :
 2
 }
+}
+            
 }
             
 [
@@ -9067,7 +9076,13 @@ PerfParser
 .
 setup_try_config
 (
+{
+"
+try_task_config
+"
+:
 try_config
+}
 [
 ]
 selected_tasks

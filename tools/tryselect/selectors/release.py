@@ -431,7 +431,7 @@ limit_locales
     
 tasks
     
-try_config
+try_config_params
 =
 None
     
@@ -743,17 +743,31 @@ major_number
 task_config
 =
 {
-        
 "
 version
 "
 :
 2
-        
 "
 parameters
 "
 :
+try_config_params
+or
+{
+}
+}
+    
+task_config
+[
+"
+parameters
+"
+]
+.
+update
+(
+        
 {
             
 "
@@ -779,25 +793,7 @@ release_type
         
 }
     
-}
-    
-if
-try_config
-:
-        
-task_config
-[
-"
-parameters
-"
-]
-[
-"
-try_task_config
-"
-]
-=
-try_config
+)
     
 with
 open

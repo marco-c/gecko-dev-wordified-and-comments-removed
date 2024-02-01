@@ -2532,7 +2532,7 @@ def
 run
 (
     
-try_config
+try_config_params
 =
 {
 }
@@ -2853,7 +2853,16 @@ test_files
     
 }
     
-try_config
+try_config_params
+.
+setdefault
+(
+"
+try_task_config
+"
+{
+}
+)
 .
 setdefault
 (
@@ -2866,7 +2875,9 @@ env
 .
 update
 (
+        
 path_env
+    
 )
     
 msg
@@ -2904,7 +2915,7 @@ generate_try_task_config
 coverage
 "
 tasks
-try_config
+try_config_params
 )
         
 stage_changes

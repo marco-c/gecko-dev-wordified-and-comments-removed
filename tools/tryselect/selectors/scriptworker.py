@@ -769,7 +769,7 @@ task_type
     
 release_type
     
-try_config
+try_config_params
 =
 None
     
@@ -934,52 +934,51 @@ locales
     
 }
     
-try_config
-=
-try_config
-or
-{
-}
-    
 task_config
 =
 {
-        
 "
 version
 "
 :
 2
-        
 "
 parameters
 "
 :
+try_config_params
+or
 {
-            
-"
-existing_tasks
-"
-:
-existing_tasks
-            
-"
-try_task_config
-"
-:
-try_config
-            
-"
-try_mode
-"
-:
-"
-try_task_config
-"
-        
+}
 }
     
-}
+task_config
+[
+"
+parameters
+"
+]
+[
+"
+optimize_target_tasks
+"
+]
+=
+True
+    
+task_config
+[
+"
+parameters
+"
+]
+[
+"
+existing_tasks
+"
+]
+=
+existing_tasks
     
 for
 param
@@ -1031,6 +1030,24 @@ previous_parameters
 [
 param
 ]
+    
+try_config
+=
+task_config
+[
+"
+parameters
+"
+]
+.
+setdefault
+(
+"
+try_task_config
+"
+{
+}
+)
     
 try_config
 [

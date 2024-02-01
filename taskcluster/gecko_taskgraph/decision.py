@@ -2623,7 +2623,16 @@ parameters
 ]
 )
             
-return
+parameters
+[
+"
+try_mode
+"
+]
+=
+"
+try_task_config
+"
         
 else
 :
@@ -2714,25 +2723,14 @@ try_task_config
 :
         
 parameters
-[
+.
+setdefault
+(
 "
 optimize_target_tasks
 "
-]
-=
 False
-    
-else
-:
-        
-parameters
-[
-"
-optimize_target_tasks
-"
-]
-=
-True
+)
 def
 set_decision_indexes
 (

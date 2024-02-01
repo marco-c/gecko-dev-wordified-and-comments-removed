@@ -131,6 +131,10 @@ profile_name
 "
 target_path
 "
+        
+"
+try_task_config
+"
     
 ]
 )
