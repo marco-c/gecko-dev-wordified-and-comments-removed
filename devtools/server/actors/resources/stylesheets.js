@@ -335,7 +335,7 @@ this
 .
 _styleSheetsManager
 .
-_getNodeHref
+getNodeHref
 (
 styleSheet
 )
@@ -346,7 +346,7 @@ this
 .
 _styleSheetsManager
 .
-_getSourcemapBaseURL
+getSourcemapBaseURL
 (
 styleSheet
 )
@@ -361,9 +361,9 @@ this
 .
 _styleSheetsManager
 .
-_getStyleSheetIndex
+getStyleSheetIndex
 (
-styleSheet
+resourceId
 )
 system
 :
