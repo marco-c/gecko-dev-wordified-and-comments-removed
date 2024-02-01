@@ -3,6 +3,8 @@ typing
 import
 Any
 Mapping
+MutableMapping
+Optional
 from
 .
 _module
@@ -212,7 +214,10 @@ remove_user_context
 self
 user_context
 :
+Optional
+[
 str
+]
 =
 None
     
