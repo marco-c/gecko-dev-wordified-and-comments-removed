@@ -78,13 +78,6 @@ xhtml
 ]
 [
 "
-test_bug1197913
-.
-xhtml
-"
-]
-[
-"
 test_bug159346
 .
 xhtml
@@ -164,6 +157,13 @@ mousedown
 event
 on
 Linux
+[
+"
+test_bug1197913
+.
+xhtml
+"
+]
 [
 "
 test_menuitem_ctrl_click

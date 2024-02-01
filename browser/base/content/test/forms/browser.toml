@@ -123,6 +123,13 @@ js
 ]
 [
 "
+browser_selectpopup_hr
+.
+js
+"
+]
+[
+"
 browser_selectpopup_large
 .
 js
@@ -190,13 +197,6 @@ js
 [
 "
 browser_selectpopup_xhtml
-.
-js
-"
-]
-[
-"
-browser_selectpopup_hr
 .
 js
 "

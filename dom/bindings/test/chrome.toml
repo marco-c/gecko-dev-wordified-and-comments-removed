@@ -61,6 +61,13 @@ html
 ]
 [
 "
+test_bug775543
+.
+html
+"
+]
+[
+"
 test_bug1123516_maplikesetlikechrome
 .
 xhtml
@@ -94,13 +101,6 @@ html
 [
 "
 test_bug1457051
-.
-html
-"
-]
-[
-"
-test_bug775543
 .
 html
 "

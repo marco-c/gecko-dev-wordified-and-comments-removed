@@ -155,13 +155,6 @@ mjs
 ]
 [
 "
-test_importMap_with_external_script
-.
-html
-"
-]
-[
-"
 test_bug_1865410
 .
 html
@@ -170,6 +163,13 @@ html
 [
 "
 test_bug_1873417
+.
+html
+"
+]
+[
+"
+test_importMap_with_external_script
 .
 html
 "

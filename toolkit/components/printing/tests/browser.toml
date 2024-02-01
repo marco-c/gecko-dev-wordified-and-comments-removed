@@ -206,14 +206,14 @@ js
 ]
 [
 "
-browser_print_disabled
+browser_print_copies
 .
 js
 "
 ]
 [
 "
-browser_print_copies
+browser_print_disabled
 .
 js
 "
