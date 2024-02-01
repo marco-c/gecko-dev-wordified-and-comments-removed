@@ -3746,6 +3746,11 @@ return
 mCurrentContextPaint
 ;
 }
+bool
+GetAllowPlugins
+(
+)
+;
 nsresult
 SetSubDocumentFor
 (

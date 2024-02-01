@@ -341,7 +341,7 @@ aHTMLEditor
 )
 ;
 nsresult
-DisableJS
+DisableJSAndPlugins
 (
 nsPIDOMWindowInner
 *
@@ -349,7 +349,7 @@ aWindow
 )
 ;
 nsresult
-RestoreJS
+RestoreJSAndPlugins
 (
 nsPIDOMWindowInner
 *
@@ -371,10 +371,13 @@ bool
 mMakeWholeDocumentEditable
 ;
 bool
-mDisabledJS
+mDisabledJSAndPlugins
 ;
 bool
 mScriptsEnabled
+;
+bool
+mPluginsEnabled
 ;
 bool
 mProgressListenerRegistered
