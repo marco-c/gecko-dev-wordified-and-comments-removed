@@ -1008,6 +1008,29 @@ features
 ]
 )
     
+new_headless_mode
+=
+(
+"
+-
+-
+headless
+=
+new
+"
+in
+kwargs
+.
+get
+(
+"
+binary_args
+"
+[
+]
+)
+)
+    
 if
 (
 (
@@ -1042,6 +1065,9 @@ chrome_options
 args
 "
 ]
+and
+not
+new_headless_mode
 )
 :
         
