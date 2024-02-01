@@ -227,7 +227,7 @@ MOZ_NO_THREAD_SAFETY_ANALYSIS
 ;
 Promise
 *
-WorkerPromise
+GetWorkerPromise
 (
 )
 const

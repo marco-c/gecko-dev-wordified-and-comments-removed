@@ -1327,7 +1327,7 @@ return
 mPromiseProxy
 -
 >
-WorkerPromise
+GetWorkerPromise
 (
 )
 ;
@@ -4130,11 +4130,16 @@ WorkerPromise
 aWorkerPrivate
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 promise
 )
+{
+return
+true
 ;
+}
 RefPtr
 <
 FetchObserver
