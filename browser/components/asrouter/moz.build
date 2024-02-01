@@ -145,6 +145,15 @@ jsm
 "
 modules
 /
+PanelTestProvider
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 RemoteL10n
 .
 sys

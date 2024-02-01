@@ -100,9 +100,7 @@ PanelTestProvider
 }
 from
 "
-newtab
-/
-lib
+modules
 /
 PanelTestProvider
 .

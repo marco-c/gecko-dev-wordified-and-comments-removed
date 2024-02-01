@@ -30,7 +30,9 @@ PanelTestProvider
 }
 from
 "
-lib
+asrouter
+/
+modules
 /
 PanelTestProvider
 .
