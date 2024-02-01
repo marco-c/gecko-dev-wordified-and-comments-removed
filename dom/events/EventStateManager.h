@@ -2381,7 +2381,7 @@ false
 ;
 static
 LayoutDeviceIntPoint
-sPreLockPoint
+sPreLockScreenPoint
 ;
 static
 LayoutDeviceIntPoint
@@ -2611,9 +2611,9 @@ SetPointerLock
 nsIWidget
 *
 aWidget
-nsIContent
+nsPresContext
 *
-aElement
+aPresContext
 )
 ;
 static
