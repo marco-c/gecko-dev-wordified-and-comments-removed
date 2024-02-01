@@ -10304,7 +10304,7 @@ templateObject
 .
 as
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
