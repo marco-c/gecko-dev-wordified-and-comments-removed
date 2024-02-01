@@ -27645,12 +27645,11 @@ case
 0
 :
 return
-presContext
--
->
-GetCachedIntPref
+StaticPrefs
+:
+:
+bidi_direction
 (
-kPresContext_BidiDirection
 )
 =
 =
