@@ -1512,6 +1512,11 @@ bool
 mNeedFloatManager
 ;
 bool
+mUsedOverflowWrap
+=
+false
+;
+bool
 mBalancing
 =
 false
@@ -1602,6 +1607,10 @@ mBlockEndEdgeOfChildren
 mContainerWidth
 =
 0
+;
+mUsedOverflowWrap
+=
+false
 ;
 }
 }
@@ -1923,7 +1932,7 @@ BlockReflowState
 aState
 )
 ;
-void
+bool
 ReflowDirtyLines
 (
 BlockReflowState
@@ -1939,7 +1948,7 @@ nsLineBox
 aLine
 )
 ;
-void
+bool
 ReflowLine
 (
 BlockReflowState
@@ -2048,7 +2057,7 @@ bool
 aKeepGoing
 )
 ;
-void
+bool
 ReflowInlineFrames
 (
 BlockReflowState

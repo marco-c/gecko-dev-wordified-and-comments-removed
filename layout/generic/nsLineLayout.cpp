@@ -331,6 +331,10 @@ IsInSVGTextSubtree
 (
 )
 )
+mUsedOverflowWrap
+(
+false
+)
 #
 ifdef
 DEBUG
@@ -973,14 +977,12 @@ psd
 mInset
 =
 aISize
-<
+>
 aInset
-*
-2
 ?
-0
-:
 aInset
+:
+0
 ;
 mContainerSize
 =
@@ -1307,7 +1309,7 @@ mWritingMode
 }
 }
 }
-void
+bool
 nsLineLayout
 :
 :
@@ -1520,6 +1522,9 @@ mFramesAllocated
 }
 #
 endif
+return
+mUsedOverflowWrap
+;
 }
 void
 nsLineLayout

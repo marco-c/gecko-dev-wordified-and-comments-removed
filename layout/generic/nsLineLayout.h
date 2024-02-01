@@ -186,7 +186,7 @@ aInset
 0
 )
 ;
-void
+bool
 EndLineReflow
 (
 )
@@ -886,6 +886,16 @@ mSuppressLineWrap
 aEnabled
 ;
 }
+void
+SetUsedOverflowWrap
+(
+)
+{
+mUsedOverflowWrap
+=
+true
+;
+}
 protected
 :
 nsFloatManager
@@ -1508,6 +1518,11 @@ mHasRuby
 ;
 bool
 mSuppressLineWrap
+:
+1
+;
+bool
+mUsedOverflowWrap
 :
 1
 ;
