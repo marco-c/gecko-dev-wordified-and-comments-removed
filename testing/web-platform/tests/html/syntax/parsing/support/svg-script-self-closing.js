@@ -1,0 +1,4 @@
+scriptSelfClosing
+=
+true
+;
