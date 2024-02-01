@@ -173,9 +173,12 @@ const
 nsACString
 &
 aCSPHeader
-nsIInterfaceRequestor
+dom
+:
+:
+CanonicalBrowsingContext
 *
-aCallbacks
+aLoadingBrowsingContext
 )
 {
 mEarlyHintsCount
@@ -437,7 +440,7 @@ loadInfo
 GetBrowsingContextID
 (
 )
-aCallbacks
+aLoadingBrowsingContext
 false
 )
 ;
@@ -486,7 +489,7 @@ loadInfo
 GetBrowsingContextID
 (
 )
-aCallbacks
+aLoadingBrowsingContext
 true
 )
 ;

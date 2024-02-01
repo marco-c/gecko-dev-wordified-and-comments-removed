@@ -14546,7 +14546,9 @@ GetChannelCreationURI
 mChannel
 aReferrerPolicy
 aCSPHeader
-this
+GetLoadingBrowsingContext
+(
+)
 )
 ;
 return
