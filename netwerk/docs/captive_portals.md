@@ -1,13 +1,13 @@
 #
 Captive
-portal
-detection
+Portal
+Detection
 #
 #
 What
 are
-captive
-portals
+Captive
+Portals
 ?
 A
 captive
