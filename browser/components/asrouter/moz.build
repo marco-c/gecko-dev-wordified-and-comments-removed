@@ -199,6 +199,15 @@ jsm
 "
 modules
 /
+PageEventManager
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 PanelTestProvider
 .
 sys
