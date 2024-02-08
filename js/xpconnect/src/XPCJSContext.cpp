@@ -278,6 +278,15 @@ include
 "
 js
 /
+Prefs
+.
+h
+"
+#
+include
+"
+js
+/
 WasmFeatures
 .
 h
@@ -4086,6 +4095,8 @@ XPCJSContext
 xpccx
 )
 {
+SET_JS_PREFS_FROM_BROWSER_PREFS
+;
 JSContext
 *
 cx
@@ -4566,6 +4577,8 @@ void
 aXpccx
 )
 {
+SET_NON_STARTUP_JS_PREFS_FROM_BROWSER_PREFS
+;
 auto
 xpccx
 =

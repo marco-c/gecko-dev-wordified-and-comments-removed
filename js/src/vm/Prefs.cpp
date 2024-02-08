@@ -1,0 +1,11 @@
+#
+include
+"
+js
+/
+Prefs
+.
+h
+"
+JS_PREF_CLASS_FIELDS_INIT
+;

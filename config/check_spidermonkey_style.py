@@ -191,6 +191,14 @@ h
 "
 js
 /
+PrefsGenerated
+.
+h
+"
+        
+"
+js
+/
 ProfilingCategoryList
 .
 h

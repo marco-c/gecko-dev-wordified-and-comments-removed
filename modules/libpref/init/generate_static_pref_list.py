@@ -58,6 +58,10 @@ include
 "
 rust
 "
+    
+"
+set_spidermonkey_pref
+"
 }
 VALID_BOOL_TYPES
 =
@@ -2600,7 +2604,7 @@ substs
 get
 (
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
 =
