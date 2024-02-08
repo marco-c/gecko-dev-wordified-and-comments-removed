@@ -179,10 +179,9 @@ ID
 from
 browser
 /
-browser
+confirmationHints
 .
-properties
-.
+ftl
 *
 param
 {
