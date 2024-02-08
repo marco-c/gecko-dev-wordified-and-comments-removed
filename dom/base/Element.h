@@ -1910,6 +1910,8 @@ const
 Element
 *
 aInvoker
+bool
+isPopover
 )
 const
 ;

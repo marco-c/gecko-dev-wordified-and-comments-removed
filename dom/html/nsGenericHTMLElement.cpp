@@ -17749,6 +17749,7 @@ ancestor
 GetTopmostPopoverAncestor
 (
 aInvoker
+true
 )
 ;
 if
