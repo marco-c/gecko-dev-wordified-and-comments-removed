@@ -183,15 +183,6 @@ include
 "
 mozilla
 /
-FileUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HalTypes
 .
 h
@@ -6709,7 +6700,7 @@ mIdleListeners
 #
 ifdef
 MOZ_X11
-ScopedClose
+UniqueFileHandle
 mChildXSocketFdDup
 ;
 #
