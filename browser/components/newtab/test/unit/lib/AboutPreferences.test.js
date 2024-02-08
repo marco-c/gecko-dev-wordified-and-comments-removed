@@ -9,7 +9,9 @@ lib
 /
 AboutPreferences
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
