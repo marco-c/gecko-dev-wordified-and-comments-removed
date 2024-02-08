@@ -214,13 +214,6 @@ SchemaURL
 ]
 )
 ;
-let
-{
-errors
-}
-=
-result
-;
 if
 (
 !
@@ -244,6 +237,8 @@ JSON
 .
 stringify
 (
+result
+.
 errors
 undefined
 2
