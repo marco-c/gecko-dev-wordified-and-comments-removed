@@ -41,6 +41,13 @@ slotsToThingKind
 [
 ]
 ;
+extern
+const
+uint32_t
+slotsToAllocKindBytes
+[
+]
+;
 static
 inline
 AllocKind

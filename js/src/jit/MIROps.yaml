@@ -11503,6 +11503,13 @@ WasmNewStructObject
 gen_boilerplate
 :
 false
+-
+name
+:
+WasmNewArrayObject
+gen_boilerplate
+:
+false
 #
 ifdef
 FUZZING_JS_FUZZILLI

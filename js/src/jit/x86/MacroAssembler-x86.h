@@ -5223,7 +5223,7 @@ return
 fco
 ;
 }
-void
+FaultingCodeOffset
 storePtr
 (
 Register
@@ -5234,6 +5234,16 @@ BaseIndex
 address
 )
 {
+FaultingCodeOffset
+fco
+=
+FaultingCodeOffset
+(
+currentOffset
+(
+)
+)
+;
 movl
 (
 src
@@ -5242,6 +5252,9 @@ Operand
 address
 )
 )
+;
+return
+fco
 ;
 }
 void

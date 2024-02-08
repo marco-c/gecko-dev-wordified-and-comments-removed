@@ -11992,7 +11992,7 @@ scratch2
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssemblerARMCompat
 :
 :
@@ -12006,6 +12006,7 @@ BaseIndex
 address
 )
 {
+return
 store32
 (
 src
