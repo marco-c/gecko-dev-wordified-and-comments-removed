@@ -57,7 +57,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 identity
@@ -170,7 +170,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 identity
@@ -274,7 +274,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 identity
@@ -349,7 +349,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 identity

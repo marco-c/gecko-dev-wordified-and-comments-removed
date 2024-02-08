@@ -28,7 +28,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 registerEngines

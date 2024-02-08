@@ -253,7 +253,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 HOST_PREF
 )

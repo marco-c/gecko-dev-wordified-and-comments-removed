@@ -185,7 +185,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 log

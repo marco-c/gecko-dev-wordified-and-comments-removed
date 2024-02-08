@@ -1653,7 +1653,7 @@ Level
 [
 lookPrefBranch
 .
-getCharPref
+getStringPref
 (
 prefName
 null
@@ -1726,7 +1726,7 @@ this
 .
 _prefs
 .
-getCharPref
+getStringPref
 (
 prefName
 null

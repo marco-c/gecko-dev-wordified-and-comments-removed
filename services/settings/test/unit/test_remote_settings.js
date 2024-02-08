@@ -365,7 +365,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 services
@@ -395,7 +395,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 services

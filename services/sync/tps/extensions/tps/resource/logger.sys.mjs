@@ -180,7 +180,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 tps
@@ -199,7 +199,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 tps

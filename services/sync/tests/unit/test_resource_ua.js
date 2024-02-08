@@ -469,7 +469,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 client
@@ -568,7 +568,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 client

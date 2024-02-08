@@ -2043,7 +2043,7 @@ this
 .
 _prefs
 .
-getCharPref
+getStringPref
 (
 selectedThemeIDPref
 null

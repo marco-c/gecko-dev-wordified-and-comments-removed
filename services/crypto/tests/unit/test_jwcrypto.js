@@ -33,7 +33,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 services

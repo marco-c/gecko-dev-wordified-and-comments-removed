@@ -736,7 +736,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 steam
@@ -780,7 +780,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 steam
@@ -821,7 +821,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 steam

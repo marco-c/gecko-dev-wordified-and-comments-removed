@@ -304,7 +304,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 PREF_LOG_LEVEL
 )

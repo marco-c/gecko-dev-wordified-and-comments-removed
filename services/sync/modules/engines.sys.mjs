@@ -4123,7 +4123,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 declinedEngines
@@ -6292,7 +6292,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 this
 .
@@ -6536,7 +6536,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 this
 .

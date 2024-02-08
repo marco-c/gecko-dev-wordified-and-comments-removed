@@ -2617,7 +2617,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 AUTOCONFIG_PREF
 autoconfig

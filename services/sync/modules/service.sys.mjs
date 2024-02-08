@@ -2861,7 +2861,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 registerEngines
@@ -2923,7 +2923,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 declinedEngines
@@ -7087,7 +7087,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 lastversion
@@ -9142,7 +9142,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 firstSync

@@ -449,7 +449,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 this
 .
@@ -623,7 +623,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 this
 .

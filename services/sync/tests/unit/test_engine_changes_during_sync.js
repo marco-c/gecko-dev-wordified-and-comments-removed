@@ -1294,7 +1294,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 TEST_PREF
 "

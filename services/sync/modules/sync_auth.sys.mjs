@@ -1481,7 +1481,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 firstSync
@@ -2558,7 +2558,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 identity

@@ -87,7 +87,7 @@ value
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 test00
@@ -231,7 +231,7 @@ test_get_bounds_checking
 {
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 test_bounds_checking
@@ -378,7 +378,7 @@ test_get_invalid_number
 {
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 get_invalid_number

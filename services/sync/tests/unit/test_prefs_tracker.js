@@ -667,7 +667,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 testing

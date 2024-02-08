@@ -151,7 +151,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 services
@@ -169,7 +169,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 PREF_SETTINGS_SERVER
 http

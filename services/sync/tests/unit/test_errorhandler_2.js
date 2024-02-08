@@ -678,7 +678,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 lastSync
@@ -773,7 +773,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 lastSync
@@ -2021,7 +2021,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 firstSync
@@ -2104,7 +2104,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 firstSync
@@ -2207,7 +2207,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 lastSync
@@ -2486,7 +2486,7 @@ Svc
 .
 PrefBranch
 .
-getCharPref
+getStringPref
 (
 "
 lastSync

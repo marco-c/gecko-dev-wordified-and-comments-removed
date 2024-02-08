@@ -76,7 +76,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 identity

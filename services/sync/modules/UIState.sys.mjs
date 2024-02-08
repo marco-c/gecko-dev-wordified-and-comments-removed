@@ -1261,7 +1261,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 services

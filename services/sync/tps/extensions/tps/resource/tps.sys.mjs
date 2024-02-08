@@ -1571,7 +1571,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 firstSync
@@ -7072,7 +7072,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 tps
@@ -8952,7 +8952,7 @@ Svc
 .
 PrefBranch
 .
-setCharPref
+setStringPref
 (
 "
 firstSync

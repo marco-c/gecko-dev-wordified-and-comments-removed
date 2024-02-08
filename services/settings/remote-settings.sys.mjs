@@ -1642,7 +1642,7 @@ lazy
 .
 gPrefs
 .
-getCharPref
+getStringPref
 (
 PREF_SETTINGS_SERVER_BACKOFF
 )
@@ -2074,7 +2074,7 @@ lazy
 .
 gPrefs
 .
-getCharPref
+getStringPref
 (
 PREF_SETTINGS_LAST_ETAG
 "
@@ -2483,7 +2483,7 @@ lazy
 .
 gPrefs
 .
-setCharPref
+setStringPref
 (
 PREF_SETTINGS_SERVER_BACKOFF
 backoffReleaseTime
@@ -3064,7 +3064,7 @@ lazy
 .
 gPrefs
 .
-setCharPref
+setStringPref
 (
 PREF_SETTINGS_LAST_ETAG
 currentEtag
@@ -3490,7 +3490,7 @@ lazy
 .
 gPrefs
 .
-getCharPref
+getStringPref
 (
 PREF_SETTINGS_LAST_ETAG
 null

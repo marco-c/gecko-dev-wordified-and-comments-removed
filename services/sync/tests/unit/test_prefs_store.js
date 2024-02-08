@@ -371,7 +371,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 extensions
@@ -1006,7 +1006,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 testing
@@ -1037,7 +1037,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 testing
@@ -1102,7 +1102,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 testing
@@ -1399,7 +1399,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 testing
@@ -1442,7 +1442,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 testing
@@ -1509,7 +1509,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 testing
@@ -1549,7 +1549,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 testing
@@ -2168,7 +2168,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 testing
@@ -2432,7 +2432,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 testing
@@ -2478,7 +2478,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 testing
@@ -2541,7 +2541,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 testing
@@ -2576,7 +2576,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 testing
