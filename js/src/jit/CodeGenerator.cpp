@@ -90560,7 +90560,7 @@ MOZ_ASSERT
 stackMap
 -
 >
-getBit
+get
 (
 stackMap
 -
@@ -90580,7 +90580,16 @@ i
 )
 =
 =
-0
+wasm
+:
+:
+StackMap
+:
+:
+Kind
+:
+:
+POD
 )
 ;
 }
