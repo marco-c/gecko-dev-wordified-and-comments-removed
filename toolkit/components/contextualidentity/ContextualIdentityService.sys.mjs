@@ -2965,6 +2965,10 @@ closeContainerTabs
 userContextId
 =
 0
+removeTabOptions
+=
+{
+}
 )
 {
 return
@@ -3041,6 +3045,7 @@ tabbrowser
 removeTab
 (
 tab
+removeTabOptions
 )
 ;
 }
