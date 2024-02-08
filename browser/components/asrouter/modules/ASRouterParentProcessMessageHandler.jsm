@@ -53,11 +53,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-common
+modules
+/
+asrouter
 /
 ActorConstants
 .
