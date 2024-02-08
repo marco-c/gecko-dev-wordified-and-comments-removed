@@ -23195,9 +23195,6 @@ if
 defaultPrevented
 &
 &
-mDrawInTitlebar
-&
-&
 mDraggableRegion
 .
 Contains
