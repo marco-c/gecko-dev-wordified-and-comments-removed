@@ -5874,8 +5874,6 @@ netlify
 .
 app
 /
-#
-/
 compare
 -
 results
@@ -5883,14 +5881,20 @@ results
 "
                 
 "
-revs
+baseRev
 =
-revision
 revision
 &
-repos
+newRev
+=
+revision
+&
+baseRepo
 =
 try
+&
+newRepo
+=
 try
 \
 n
