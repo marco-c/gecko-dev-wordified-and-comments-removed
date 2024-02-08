@@ -52590,9 +52590,6 @@ SetFirstLetterComplete
 }
 if
 (
-brokeText
-&
-&
 breakPriority
 =
 =
