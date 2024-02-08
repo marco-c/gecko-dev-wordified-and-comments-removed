@@ -890,6 +890,25 @@ realm
 "
             
 )
+            
+if
+navigate
+:
+                
+blocked_url
+=
+f
+"
+{
+blocked_url
+}
+&
+contenttype
+=
+text
+/
+html
+"
         
 else
 :
