@@ -38,10 +38,7 @@ HalApi
 id
 :
 :
-{
 BufferId
-TypedId
-}
 resource
 :
 :
@@ -108,11 +105,6 @@ Self
 :
 :
 EXCLUSIVE
-;
-type
-Id
-=
-BufferId
 ;
 type
 Selector
@@ -500,7 +492,6 @@ Buffer
 <
 A
 >
-BufferId
 >
 id
 :
@@ -602,7 +593,6 @@ metadata
 ResourceMetadata
 <
 A
-BufferId
 Buffer
 <
 A
@@ -1168,7 +1158,6 @@ Buffer
 <
 A
 >
-BufferId
 >
 id
 :
@@ -1362,7 +1351,6 @@ metadata
 ResourceMetadata
 <
 A
-BufferId
 Buffer
 <
 A
@@ -1386,7 +1374,6 @@ HalApi
 >
 ResourceTracker
 <
-BufferId
 Buffer
 <
 A
@@ -2837,7 +2824,6 @@ mut
 ResourceMetadata
 <
 A
-BufferId
 Buffer
 <
 A
@@ -2863,7 +2849,6 @@ ResourceMetadataProvider
 '
 _
 A
-BufferId
 Buffer
 <
 A
@@ -2970,7 +2955,6 @@ mut
 ResourceMetadata
 <
 A
-BufferId
 Buffer
 <
 A
@@ -3003,7 +2987,6 @@ ResourceMetadataProvider
 '
 _
 A
-BufferId
 Buffer
 <
 A
@@ -3134,7 +3117,6 @@ mut
 ResourceMetadata
 <
 A
-BufferId
 Buffer
 <
 A
@@ -3167,7 +3149,6 @@ ResourceMetadataProvider
 '
 _
 A
-BufferId
 Buffer
 <
 A
@@ -3358,7 +3339,6 @@ ResourceMetadataProvider
 '
 _
 A
-BufferId
 Buffer
 <
 A

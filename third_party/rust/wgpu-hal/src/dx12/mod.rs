@@ -1618,9 +1618,6 @@ d3d12
 :
 :
 GraphicsCommandList
-closed
-:
-bool
 }
 unsafe
 impl
@@ -4269,6 +4266,13 @@ command_buffers
 [
 &
 CommandBuffer
+]
+_surface_textures
+:
+&
+[
+&
+Texture
 ]
 signal_fence
 :
