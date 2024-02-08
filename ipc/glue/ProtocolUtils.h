@@ -2777,16 +2777,7 @@ aWrite
 ResolveOrReject
 (
 true
-std
-:
-:
-forward
-<
-F
->
-(
 aWrite
-)
 )
 ;
 }
