@@ -43170,14 +43170,14 @@ mem
 max_legal_imgframe_size_kb
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 -
 1
 mirror
 :
-once
+always
 #
 Whether
 we
