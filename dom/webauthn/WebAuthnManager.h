@@ -100,10 +100,6 @@ NextId
 (
 )
 )
-mVisibilityChanged
-(
-false
-)
 {
 MOZ_ASSERT
 (
@@ -121,9 +117,6 @@ mPromise
 ;
 uint64_t
 mId
-;
-bool
-mVisibilityChanged
 ;
 private
 :
@@ -336,14 +329,6 @@ override
 ;
 void
 RunAbortAlgorithm
-(
-)
-override
-;
-protected
-:
-void
-HandleVisibilityChange
 (
 )
 override
