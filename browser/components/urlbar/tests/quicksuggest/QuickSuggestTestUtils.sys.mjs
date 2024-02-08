@@ -1815,12 +1815,19 @@ lazy
 .
 RemoteSettingsConfig
 (
+{
+collectionName
+:
 "
 quicksuggest
 "
+bucketName
+:
 "
 main
 "
+serverUrl
+:
 this
 .
 #
@@ -1831,6 +1838,7 @@ url
 toString
 (
 )
+}
 )
 ;
 /
