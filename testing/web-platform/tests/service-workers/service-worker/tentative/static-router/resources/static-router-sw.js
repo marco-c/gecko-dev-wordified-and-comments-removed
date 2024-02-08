@@ -40,6 +40,17 @@ sub
 js
 '
 ;
+import
+'
+.
+/
+imported
+-
+sw
+.
+js
+'
+;
 self
 .
 addEventListener
