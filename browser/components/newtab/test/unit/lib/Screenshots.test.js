@@ -26,7 +26,9 @@ lib
 /
 Screenshots
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const
