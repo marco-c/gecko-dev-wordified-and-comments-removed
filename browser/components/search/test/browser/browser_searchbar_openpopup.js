@@ -444,9 +444,6 @@ mousedown
 "
 contextmenu
 "
-"
-mouseup
-"
 ]
 )
 {
