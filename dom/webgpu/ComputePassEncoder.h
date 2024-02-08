@@ -42,7 +42,7 @@ namespace
 ffi
 {
 struct
-WGPUComputePass
+WGPURecordedComputePass
 ;
 }
 class
@@ -68,7 +68,7 @@ operator
 ffi
 :
 :
-WGPUComputePass
+WGPURecordedComputePass
 *
 )
 ;
@@ -133,7 +133,7 @@ unique_ptr
 ffi
 :
 :
-WGPUComputePass
+WGPURecordedComputePass
 ffiWGPUComputePassDeleter
 >
 mPass
