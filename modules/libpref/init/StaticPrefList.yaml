@@ -46501,6 +46501,9 @@ true
 mirror
 :
 always
+set_spidermonkey_pref
+:
+startup
 #
 Support
 for
