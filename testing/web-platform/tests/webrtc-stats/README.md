@@ -1,6 +1,5 @@
 The
 following
-4
 test
 cases
 in
@@ -31,16 +30,6 @@ html
 RTCPeerConnection
 -
 getStats
-.
-https
-.
-html
-*
-RTCPeerConnection
--
-track
--
-stats
 .
 https
 .
