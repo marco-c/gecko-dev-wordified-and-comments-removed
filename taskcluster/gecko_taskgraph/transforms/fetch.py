@@ -648,6 +648,15 @@ attributes
 attributes
 [
 "
+artifact_prefix
+"
+]
+=
+artifact_prefix
+        
+attributes
+[
+"
 fetch
 -
 artifact
