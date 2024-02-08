@@ -620,11 +620,6 @@ MakeApzcZoomable
 (
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -641,7 +636,6 @@ ScreenIntPoint
 1
 .
 25
-touchInputId
 PinchOptions
 (
 )
@@ -1484,11 +1478,6 @@ MakeApzcUnzoomable
 (
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -1508,7 +1497,6 @@ ScreenIntPoint
 100
 )
 1
-touchInputId
 PinchOptions
 (
 )
@@ -1560,11 +1548,6 @@ MakeApzcUnzoomable
 (
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -1584,7 +1567,6 @@ ScreenIntPoint
 100
 )
 2
-touchInputId
 PinchOptions
 (
 )
@@ -1685,11 +1667,6 @@ MakeApzcZoomable
 (
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -1709,7 +1686,6 @@ ScreenIntPoint
 100
 )
 1
-touchInputId
 PinchOptions
 (
 )
@@ -1761,11 +1737,6 @@ MakeApzcZoomable
 (
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -1785,7 +1756,6 @@ ScreenIntPoint
 100
 )
 1
-touchInputId
 PinchOptions
 (
 )
@@ -1875,11 +1845,6 @@ MakeApzcUnzoomable
 (
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -1899,7 +1864,6 @@ ScreenIntPoint
 100
 )
 1
-touchInputId
 PinchOptions
 (
 )
@@ -2665,11 +2629,6 @@ Times
 1
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -2686,7 +2645,6 @@ ScreenIntPoint
 1
 .
 25
-touchInputId
 PinchOptions
 (
 )
