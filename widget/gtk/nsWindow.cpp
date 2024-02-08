@@ -27543,6 +27543,11 @@ EnsureGdkWindow
 (
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+mIsMapped
+)
+;
 if
 (
 !
@@ -44694,10 +44699,6 @@ nsWindow
 :
 GetCompositorWidgetInitData
 "
-)
-;
-EnsureGdkWindow
-(
 )
 ;
 *
