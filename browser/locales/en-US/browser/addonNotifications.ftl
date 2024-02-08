@@ -459,7 +459,9 @@ xpinstall
 -
 disabled
 -
-locked
+by
+-
+policy
 =
 Software
 installation
@@ -468,8 +470,7 @@ been
 disabled
 by
 your
-system
-administrator
+organization
 .
 xpinstall
 -
@@ -552,7 +553,7 @@ on
 .
 addon
 -
-install
+installation
 -
 blocked
 -
@@ -572,8 +573,7 @@ is
 blocked
 by
 your
-system
-administrator
+organization
 .
 #
 This
@@ -598,6 +598,8 @@ policy
 .
 addon
 -
+install
+-
 domain
 -
 blocked
@@ -607,8 +609,7 @@ by
 policy
 =
 Your
-system
-administrator
+organization
 prevented
 this
 site
