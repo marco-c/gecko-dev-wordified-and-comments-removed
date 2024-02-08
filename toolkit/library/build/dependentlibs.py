@@ -475,8 +475,13 @@ re
 sub
 (
 "
-^
+(
+?
+:
+rpath
+|
 executable_path
+)
 /
 "
 "
