@@ -120,7 +120,7 @@ if
 aPtr
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_DEBUG_OR_FUZZING
 (
 !
 aLength
@@ -203,7 +203,7 @@ checkIdenticalRange
 aEnd
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_DEBUG_OR_FUZZING
 (
 aStart
 <
