@@ -179,9 +179,6 @@ ModuleLoaderBase
 (
 aScriptLoader
 aGlobalObject
-GetCurrentSerialEventTarget
-(
-)
 )
 {
 MOZ_ASSERT
