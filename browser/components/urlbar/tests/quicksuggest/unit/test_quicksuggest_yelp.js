@@ -112,7 +112,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 "
 true
 ]
@@ -376,7 +376,7 @@ add_task
 (
 async
 function
-nonsponsoredDisabled
+sponsoredDisabled
 (
 )
 {
@@ -389,7 +389,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+nonsponsored
 "
 false
 )
@@ -463,7 +463,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 "
 false
 )
@@ -508,7 +508,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 "
 true
 )
@@ -522,7 +522,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+nonsponsored
 "
 )
 ;
