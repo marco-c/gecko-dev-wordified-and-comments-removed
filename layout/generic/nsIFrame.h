@@ -9910,16 +9910,6 @@ aUncontainedSize
 )
 const
 {
-MOZ_ASSERT
-(
-aAxes
-=
-=
-GetContainSizeAxes
-(
-)
-)
-;
 auto
 result
 =
