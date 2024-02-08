@@ -4614,7 +4614,7 @@ time
 :
 tab
 .
-lastSeenActive
+lastAccessed
 title
 :
 tab
