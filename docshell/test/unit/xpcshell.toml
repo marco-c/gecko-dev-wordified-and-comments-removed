@@ -248,17 +248,3 @@ test_subframe_stop_after_parent_error
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-os
-=
-=
-'
-android
-'
-"
-]
