@@ -109,7 +109,9 @@ SectionsFeed
 in
 SectionsManager
 .
-jsm
+sys
+.
+mjs
 add
 the
 sections

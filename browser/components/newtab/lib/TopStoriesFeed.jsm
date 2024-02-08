@@ -97,7 +97,7 @@ SectionsManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -112,7 +112,9 @@ lib
 /
 SectionsManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
