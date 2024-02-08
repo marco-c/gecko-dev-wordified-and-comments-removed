@@ -166,6 +166,9 @@ uint8_t
 *
 resumePCinCurrentFrame_
 ;
+bool
+failedUnwindSignatureMismatch_
+;
 void
 popFrame
 (

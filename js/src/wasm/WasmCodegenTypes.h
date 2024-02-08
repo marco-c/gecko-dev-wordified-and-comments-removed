@@ -990,6 +990,9 @@ trap
 uint32_t
 bytecodeOffset
 ;
+bool
+failedUnwindSignatureMismatch
+;
 }
 ;
 struct
