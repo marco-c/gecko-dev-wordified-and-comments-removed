@@ -790,6 +790,17 @@ get
 )
 ;
 }
+void
+SetBaseURLFromChannelAndOriginalURI
+(
+nsIChannel
+*
+aChannel
+nsIURI
+*
+aOriginalURI
+)
+;
 const
 ScriptKind
 mKind
