@@ -18,6 +18,16 @@ function
 "
 )
 ;
+const
+realSet
+=
+new
+Set
+(
+[
+]
+)
+;
 assert
 .
 throws
@@ -32,6 +42,7 @@ union
 call
 (
 undefined
+realSet
 )
 "
 undefined
@@ -52,6 +63,7 @@ union
 call
 (
 null
+realSet
 )
 "
 null
@@ -72,6 +84,7 @@ union
 call
 (
 true
+realSet
 )
 "
 true
@@ -93,6 +106,7 @@ call
 (
 "
 "
+realSet
 )
 "
 empty
@@ -116,6 +130,7 @@ call
 Symbol
 (
 )
+realSet
 )
 "
 symbol
@@ -136,6 +151,7 @@ union
 call
 (
 1
+realSet
 )
 "
 1
@@ -156,6 +172,7 @@ union
 call
 (
 1n
+realSet
 )
 "
 1n
@@ -177,6 +194,7 @@ call
 (
 {
 }
+realSet
 )
 "
 plain
@@ -199,6 +217,7 @@ call
 (
 [
 ]
+realSet
 )
 "
 array
@@ -222,6 +241,7 @@ new
 Map
 (
 )
+realSet
 )
 "
 map
@@ -244,6 +264,7 @@ call
 Set
 .
 prototype
+realSet
 )
 "
 Set

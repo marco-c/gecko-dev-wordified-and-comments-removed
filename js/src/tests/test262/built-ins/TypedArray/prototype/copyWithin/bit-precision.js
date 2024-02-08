@@ -98,10 +98,7 @@ copiedBytes
 testWithTypedArrayConstructors
 (
 body
-[
-Float32Array
-Float64Array
-]
+floatArrayConstructors
 )
 ;
 reportCompare

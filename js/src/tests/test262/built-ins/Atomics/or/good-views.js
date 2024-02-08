@@ -19,7 +19,7 @@ ArrayBuffer
 var
 views
 =
-intArrayConstructors
+nonClampedIntArrayConstructors
 .
 slice
 (
