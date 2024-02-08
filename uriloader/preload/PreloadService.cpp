@@ -887,7 +887,7 @@ return
 nsISupportsPriority
 :
 :
-PRIORITY_NORMAL
+PRIORITY_HIGH
 ;
 }
 switch
@@ -940,7 +940,7 @@ return
 nsISupportsPriority
 :
 :
-PRIORITY_NORMAL
+PRIORITY_HIGH
 ;
 }
 }
