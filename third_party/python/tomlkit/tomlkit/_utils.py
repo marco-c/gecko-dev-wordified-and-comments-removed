@@ -1231,6 +1231,20 @@ i
 +
 inc
     
+found_sequences
+=
+{
+seq
+for
+seq
+in
+escape_sequences
+if
+seq
+in
+s
+}
+    
 i
 =
 0
@@ -1247,7 +1261,7 @@ s
 for
 seq
 in
-escape_sequences
+found_sequences
 :
             
 seq_len

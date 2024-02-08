@@ -123,6 +123,12 @@ tomlkit
 .
 api
 import
+register_encoder
+from
+tomlkit
+.
+api
+import
 string
 from
 tomlkit
@@ -141,6 +147,12 @@ tomlkit
 .
 api
 import
+unregister_encoder
+from
+tomlkit
+.
+api
+import
 value
 from
 tomlkit
@@ -153,9 +165,9 @@ __version__
 "
 0
 .
-11
+12
 .
-8
+3
 "
 __all__
 =
@@ -259,5 +271,13 @@ value
     
 "
 ws
+"
+    
+"
+register_encoder
+"
+    
+"
+unregister_encoder
 "
 ]
