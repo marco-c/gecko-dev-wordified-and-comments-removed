@@ -900,13 +900,7 @@ DestroyContext
 )
 override
 ;
-mozilla
-:
-:
-Maybe
-<
 Cursor
->
 GetCursor
 (
 const

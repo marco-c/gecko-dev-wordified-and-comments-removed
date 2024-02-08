@@ -27942,13 +27942,10 @@ disp
 mTouchAction
 ;
 }
-Maybe
-<
 nsIFrame
 :
 :
 Cursor
->
 nsIFrame
 :
 :
@@ -28038,8 +28035,6 @@ VerticalText
 ;
 }
 return
-Some
-(
 Cursor
 {
 kind
@@ -28048,7 +28043,6 @@ AllowCustomCursorImage
 :
 Yes
 }
-)
 ;
 }
 void

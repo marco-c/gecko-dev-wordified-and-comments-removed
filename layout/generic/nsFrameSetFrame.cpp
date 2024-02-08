@@ -428,10 +428,7 @@ aEventStatus
 )
 override
 ;
-Maybe
-<
 Cursor
->
 GetCursor
 (
 const
@@ -3208,13 +3205,10 @@ return
 NS_OK
 ;
 }
-Maybe
-<
 nsIFrame
 :
 :
 Cursor
->
 nsHTMLFramesetFrame
 :
 :
@@ -3257,8 +3251,6 @@ NsResize
 ;
 }
 return
-Some
-(
 Cursor
 {
 kind
@@ -3267,7 +3259,6 @@ AllowCustomCursorImage
 :
 No
 }
-)
 ;
 }
 void
@@ -8033,13 +8024,10 @@ return
 NS_OK
 ;
 }
-Maybe
-<
 nsIFrame
 :
 :
 Cursor
->
 nsHTMLFramesetBorderFrame
 :
 :
@@ -8079,8 +8067,6 @@ NsResize
 ;
 }
 return
-Some
-(
 Cursor
 {
 kind
@@ -8089,7 +8075,6 @@ AllowCustomCursorImage
 :
 No
 }
-)
 ;
 }
 #

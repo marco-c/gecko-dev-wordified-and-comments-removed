@@ -289,13 +289,7 @@ aEventStatus
 )
 override
 ;
-mozilla
-:
-:
-Maybe
-<
 Cursor
->
 GetCursor
 (
 const

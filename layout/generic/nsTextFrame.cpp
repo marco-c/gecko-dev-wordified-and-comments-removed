@@ -23356,13 +23356,10 @@ nsTextFrame
 =
 default
 ;
-Maybe
-<
 nsIFrame
 :
 :
 Cursor
->
 nsTextFrame
 :
 :
@@ -23441,8 +23438,6 @@ Text
 }
 }
 return
-Some
-(
 Cursor
 {
 kind
@@ -23451,7 +23446,6 @@ AllowCustomCursorImage
 :
 Yes
 }
-)
 ;
 }
 nsTextFrame

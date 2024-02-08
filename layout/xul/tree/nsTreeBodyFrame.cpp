@@ -10672,13 +10672,10 @@ return
 width
 ;
 }
-Maybe
-<
 nsIFrame
 :
 :
 Cursor
->
 nsTreeBodyFrame
 :
 :
@@ -10794,8 +10791,6 @@ Default
 ;
 }
 return
-Some
-(
 Cursor
 {
 kind
@@ -10811,7 +10806,6 @@ move
 childContext
 )
 }
-)
 ;
 }
 }

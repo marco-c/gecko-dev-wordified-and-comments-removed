@@ -6758,10 +6758,7 @@ mStyle
 }
 ;
 virtual
-Maybe
-<
 Cursor
->
 GetCursor
 (
 const

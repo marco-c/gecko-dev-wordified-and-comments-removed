@@ -390,13 +390,7 @@ nsEventStatus
 )
 override
 ;
-mozilla
-:
-:
-Maybe
-<
 Cursor
->
 GetCursor
 (
 const
