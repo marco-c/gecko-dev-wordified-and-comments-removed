@@ -819,6 +819,14 @@ explicit
 .
 patch
 \
+004
+-
+dead
+-
+code
+.
+patch
+\
 ;
 do
 patch
