@@ -61,15 +61,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 shortURL
 :
 "
@@ -85,7 +76,9 @@ lib
 /
 ShortURL
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

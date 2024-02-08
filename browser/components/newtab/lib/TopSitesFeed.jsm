@@ -128,7 +128,7 @@ shortURL
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -143,7 +143,9 @@ lib
 /
 ShortURL
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
