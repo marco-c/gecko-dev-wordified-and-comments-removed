@@ -1732,6 +1732,7 @@ Slots
 Elements
 Pointer
 WasmAnyRef
+WasmArrayData
 StackResults
 Shape
 Last
@@ -2386,6 +2387,17 @@ WasmAnyRef
 return
 "
 WasmAnyRef
+"
+;
+case
+MIRType
+:
+:
+WasmArrayData
+:
+return
+"
+WasmArrayData
 "
 ;
 case

@@ -33263,8 +33263,11 @@ EmitWasmPreBarrierGuard
 masm
 instance
 scratch
+Address
+(
 valueAddr
 0
+)
 &
 skipBarrier
 nullptr
@@ -33315,7 +33318,7 @@ sp
 ;
 #
 endif
-EmitWasmPreBarrierCall
+EmitWasmPreBarrierCallImmediate
 (
 masm
 instance
