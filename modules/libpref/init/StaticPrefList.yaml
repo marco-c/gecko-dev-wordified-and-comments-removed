@@ -46354,6 +46354,9 @@ IS_NIGHTLY_OR_DEV_EDITION
 mirror
 :
 always
+set_spidermonkey_pref
+:
+startup
 #
 Support
 for
