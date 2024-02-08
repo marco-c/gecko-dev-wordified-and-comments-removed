@@ -329,7 +329,9 @@ modules
 /
 *
 .
-jsm
+sys
+.
+mjs
 "
 :
 {
@@ -357,7 +359,7 @@ aboutwelcome
 -
 utils
 .
-js
+mjs
 "
 :
 {
@@ -1079,6 +1081,8 @@ test
 /
 \
 .
+m
+?
 js
 [
 mx

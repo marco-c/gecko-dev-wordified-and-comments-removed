@@ -88,6 +88,8 @@ lib
 aboutwelcome
 -
 utils
+.
+mjs
 "
 ;
 const
