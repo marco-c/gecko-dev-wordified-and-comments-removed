@@ -1814,7 +1814,10 @@ TERM
 "
 term
 "
-nullptr
+nsGkAtoms
+:
+:
+term
 ATK_ROLE_DESCRIPTION_TERM
 NSAccessibilityGroupRole
 "
@@ -1837,7 +1840,10 @@ DEFINITION
 "
 definition
 "
-nullptr
+nsGkAtoms
+:
+:
+definition
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
 "

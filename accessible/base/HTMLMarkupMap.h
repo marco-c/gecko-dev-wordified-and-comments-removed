@@ -354,6 +354,15 @@ DETAILS
 )
 MARKUPMAP
 (
+dfn
+New_HyperText
+roles
+:
+:
+TERM
+)
+MARKUPMAP
+(
 dialog
 New_HyperText
 roles
