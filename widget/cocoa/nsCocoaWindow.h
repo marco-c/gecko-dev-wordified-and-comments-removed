@@ -1978,6 +1978,11 @@ ProcessTransitions
 (
 )
 ;
+void
+CancelAllTransitions
+(
+)
+;
 bool
 mInProcessTransitions
 =
