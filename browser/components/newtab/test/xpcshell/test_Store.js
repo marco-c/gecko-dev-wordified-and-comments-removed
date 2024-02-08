@@ -10,7 +10,7 @@ Store
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ lib
 /
 Store
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
