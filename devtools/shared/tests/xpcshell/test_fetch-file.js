@@ -99,7 +99,9 @@ modules
 /
 XPIProvider
 .
-jsm
+sys
+.
+mjs
 -
 >
 file

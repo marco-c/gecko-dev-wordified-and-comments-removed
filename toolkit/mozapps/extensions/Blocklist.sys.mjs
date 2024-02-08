@@ -726,9 +726,13 @@ equivalent
 to
 ALL_XPI_TYPES
 in
+/
+/
 XPIProvider
 .
-jsm
+sys
+.
+mjs
 .
 /
 /
