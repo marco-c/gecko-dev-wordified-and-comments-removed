@@ -89,6 +89,7 @@ wasm32
 )
 reBeforeArg
 =
+r
 "
 (
 ?
@@ -103,6 +104,7 @@ s
 "
 reArgType
 =
+r
 "
 (
 ?
@@ -126,6 +128,7 @@ s
 "
 reArgName
 =
+r
 "
 (
 ?
@@ -142,6 +145,7 @@ w
 "
 reArgDefault
 =
+r
 "
 (
 ?
@@ -299,6 +303,7 @@ reMatchArg
 .
 sub
 (
+r
 "
 \
 g
@@ -388,6 +393,7 @@ archs
 .
 *
 "
+r
 "
 \
 g

@@ -797,6 +797,7 @@ re
 .
 match
 (
+r
 "
 MSG_DEF
 \

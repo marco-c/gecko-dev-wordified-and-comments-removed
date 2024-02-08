@@ -256,6 +256,7 @@ re
 compile
 (
             
+r
 "
 ^
 \

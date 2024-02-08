@@ -734,6 +734,7 @@ re
 .
 search
 (
+r
 "
 version
 (

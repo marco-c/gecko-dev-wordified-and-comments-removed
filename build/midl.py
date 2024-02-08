@@ -278,6 +278,7 @@ re
 .
 compile
 (
+r
 '
 import
 \
