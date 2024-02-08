@@ -1346,9 +1346,6 @@ nodiscard
 ]
 ]
 static
-mozilla
-:
-:
 Maybe
 <
 uint32_t
@@ -1397,9 +1394,6 @@ nodiscard
 ]
 ]
 static
-mozilla
-:
-:
 Maybe
 <
 uint32_t
@@ -1747,15 +1741,9 @@ NO_OVERLAP
 undef
 NO_OVERLAP
 static
-mozilla
-:
-:
 Atomic
 <
 uint32_t
-mozilla
-:
-:
 MemoryOrdering
 :
 :
