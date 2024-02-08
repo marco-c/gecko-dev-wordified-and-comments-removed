@@ -654,7 +654,7 @@ lazy
 .
 UserContextManager
 .
-DEFAULT_CONTEXT_ID
+defaultUserContextId
 )
 {
 throw
