@@ -1496,7 +1496,7 @@ EndComputePass
 ffi
 :
 :
-WGPURecordedComputePass
+WGPUComputePass
 &
 aPass
 )
@@ -1564,7 +1564,7 @@ EndRenderPass
 ffi
 :
 :
-WGPURecordedRenderPass
+WGPURenderPass
 &
 aPass
 )
@@ -1606,7 +1606,7 @@ byteBuf
 mBridge
 -
 >
-SendRenderPass
+SendCommandEncoderAction
 (
 mId
 mParent
