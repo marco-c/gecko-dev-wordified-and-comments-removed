@@ -4247,11 +4247,9 @@ MakeApzcZoomable
 (
 )
 ;
-uint64_t
-touchBlockId
+APZEventResult
+result
 =
-0
-;
 Tap
 (
 apzc
@@ -4268,8 +4266,6 @@ FromMilliseconds
 100
 )
 nullptr
-&
-touchBlockId
 )
 ;
 mcc
@@ -4309,7 +4305,9 @@ mInputBlockId
 ;
 EXPECT_NE
 (
-touchBlockId
+result
+.
+mInputBlockId
 wheelBlockId
 )
 ;
