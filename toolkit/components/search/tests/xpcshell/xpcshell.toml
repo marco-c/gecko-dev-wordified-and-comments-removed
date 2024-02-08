@@ -634,9 +634,11 @@ simple
 -
 engines
 /
-basic
-/
-manifest
+search
+-
+config
+-
+v2
 .
 json
 "
@@ -645,7 +647,7 @@ simple
 -
 engines
 /
-hidden
+basic
 /
 manifest
 .
