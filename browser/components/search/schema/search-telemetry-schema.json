@@ -2199,8 +2199,9 @@ ref
 "
 :
 "
+#
 /
-schemas
+definitions
 /
 extraction
 "
@@ -2246,8 +2247,9 @@ ref
 "
 :
 "
+#
 /
-schemas
+definitions
 /
 extraction
 "
@@ -2419,7 +2421,7 @@ value
 }
 }
 "
-defs
+definitions
 "
 :
 {
@@ -2428,16 +2430,6 @@ extraction
 "
 :
 {
-"
-id
-"
-:
-"
-/
-schemas
-/
-extraction
-"
 "
 anyOf
 "
