@@ -233,14 +233,6 @@ case
 RequestFullscreen
 "
 :
-this
-.
-browsingContext
-.
-isActive
-=
-true
-;
 return
 Promise
 .
