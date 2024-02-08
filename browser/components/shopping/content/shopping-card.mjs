@@ -1113,6 +1113,7 @@ disconnectedCallback
 this
 .
 contentResizeObserver
+?
 .
 disconnect
 (
