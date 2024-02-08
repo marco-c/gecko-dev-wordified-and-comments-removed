@@ -393,13 +393,6 @@ if
 mContext
 )
 {
-GLContext
-:
-:
-ResetTLSCurrentContext
-(
-)
-;
 [
 mContext
 makeCurrentContext
