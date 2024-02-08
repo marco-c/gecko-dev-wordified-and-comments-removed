@@ -73,6 +73,10 @@ src
 /
 *
 *
+/
+*
+.
+js
 "
 "
 test
@@ -81,6 +85,10 @@ schemas
 /
 *
 *
+/
+*
+.
+js
 "
 "
 test
@@ -89,6 +97,10 @@ unit
 /
 *
 *
+/
+*
+.
+js
 "
 ]
 parserOptions
