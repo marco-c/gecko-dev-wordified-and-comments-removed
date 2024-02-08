@@ -1929,8 +1929,8 @@ value
 =
 deserialize
 (
-realm
 serialized
+realm
 {
 }
 )
@@ -2191,7 +2191,6 @@ value
 =
 deserialize
 (
-realm
 {
 type
 :
@@ -2202,6 +2201,7 @@ value
 :
 dateString
 }
+realm
 {
 }
 )
@@ -2302,8 +2302,8 @@ value
 =
 deserialize
 (
-realm
 serialized
+realm
 {
 }
 )
@@ -2449,8 +2449,8 @@ value
 =
 deserialize
 (
-realm
 channel
+realm
 deserializationOptions
 {
 }
@@ -2604,8 +2604,8 @@ value
 =
 deserialize
 (
-realm1
 remoteReference
+realm1
 {
 }
 )
@@ -2629,8 +2629,8 @@ throws
 >
 deserialize
 (
-realm2
 remoteReference
+realm2
 {
 }
 )
@@ -2669,8 +2669,8 @@ throws
 >
 deserialize
 (
-realm1
 remoteReference
+realm1
 {
 }
 )
@@ -2745,7 +2745,6 @@ throws
 >
 deserialize
 (
-realm
 {
 type
 :
@@ -2756,6 +2755,7 @@ handle
 :
 invalidType
 }
+realm
 {
 }
 )
@@ -2929,11 +2929,11 @@ throws
 >
 deserialize
 (
-realm
 {
 type
 value
 }
+realm
 {
 }
 )
@@ -3264,7 +3264,6 @@ throws
 >
 deserialize
 (
-realm
 {
 type
 :
@@ -3275,6 +3274,7 @@ value
 :
 dateString
 }
+realm
 {
 }
 )
@@ -3355,12 +3355,12 @@ throws
 >
 deserialize
 (
-realm
 {
 type
 :
 invalidType
 }
+realm
 {
 }
 )
@@ -3388,7 +3388,6 @@ throws
 >
 deserialize
 (
-realm
 {
 type
 :
@@ -3405,6 +3404,7 @@ invalidType
 }
 ]
 }
+realm
 {
 }
 )
@@ -3839,11 +3839,11 @@ throws
 >
 deserialize
 (
-realm
 {
 type
 value
 }
+realm
 {
 }
 )
@@ -5483,8 +5483,8 @@ type
 return
 deserialize
 (
-realm
 _serialized
+realm
 {
 }
 )

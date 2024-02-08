@@ -2329,10 +2329,10 @@ this
 .
 deserialize
 (
-realm
 clip
 .
 element
+realm
 )
 ;
 const
@@ -2486,8 +2486,8 @@ this
 .
 deserialize
 (
-realm
 serializedStartNode
+realm
 )
 ;
 lazy

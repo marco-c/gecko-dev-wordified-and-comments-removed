@@ -1264,8 +1264,8 @@ this
 .
 deserialize
 (
-realm
 arg
+realm
 {
 emitScriptMessage
 :
@@ -1971,8 +1971,8 @@ this
 .
 deserialize
 (
-realm
 arg
+realm
 {
 emitScriptMessage
 :
@@ -2000,8 +2000,8 @@ this
 .
 deserialize
 (
-realm
 thisParameter
+realm
 {
 emitScriptMessage
 :

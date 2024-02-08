@@ -645,8 +645,8 @@ this
 .
 deserialize
 (
-realm
 sharedReference
+realm
 )
 ;
 if
