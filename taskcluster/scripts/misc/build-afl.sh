@@ -93,6 +93,10 @@ GNUmakefile
 llvm
 install
 \
+CODE_COVERAGE
+=
+1
+\
 CPPFLAGS
 =
 "
