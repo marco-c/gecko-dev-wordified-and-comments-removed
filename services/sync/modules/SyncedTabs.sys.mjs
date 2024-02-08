@@ -521,6 +521,11 @@ lastUsed
 tab
 .
 lastUsed
+inactive
+:
+tab
+.
+inactive
 }
 ;
 }
