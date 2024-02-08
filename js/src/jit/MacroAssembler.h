@@ -23820,10 +23820,15 @@ dest
 )
 ;
 void
-loadStringToAtomCacheLastLookups
+lookupStringInAtomCacheLastLookups
 (
 Register
-dest
+str
+Register
+scratch
+Label
+*
+fail
 )
 ;
 void
