@@ -114,7 +114,7 @@ DiscoveryStreamFeed
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -129,7 +129,9 @@ lib
 /
 DiscoveryStreamFeed
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

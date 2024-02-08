@@ -54,7 +54,9 @@ lib
 /
 DiscoveryStreamFeed
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
