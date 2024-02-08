@@ -2480,6 +2480,8 @@ info
 (
 "
 Doing
+keywords
+test
 search
 :
 "

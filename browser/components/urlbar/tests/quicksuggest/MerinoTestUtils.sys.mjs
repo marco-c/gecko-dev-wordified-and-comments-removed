@@ -347,6 +347,16 @@ keywords
 [
 WEATHER_KEYWORD
 ]
+min_keyword_length
+:
+3
+score
+:
+"
+0
+.
+29
+"
 }
 ;
 const
