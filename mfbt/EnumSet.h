@@ -820,7 +820,7 @@ EnumSet
 *
 mSet
 ;
-uint32_t
+size_t
 mPos
 ;
 #
@@ -858,7 +858,7 @@ const
 EnumSet
 &
 aSet
-uint32_t
+size_t
 aPos
 )
 :
