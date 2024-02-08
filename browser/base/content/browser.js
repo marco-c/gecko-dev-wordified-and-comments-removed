@@ -42902,7 +42902,7 @@ position
 ?
 ?
 "
-bottomcenter
+bottomleft
 topleft
 "
 triggerEvent
