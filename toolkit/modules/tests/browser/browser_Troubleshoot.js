@@ -3294,6 +3294,15 @@ type
 string
 "
 }
+fontDetermination
+:
+{
+type
+:
+"
+string
+"
+}
 }
 }
 media
