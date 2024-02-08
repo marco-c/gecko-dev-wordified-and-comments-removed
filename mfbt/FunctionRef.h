@@ -641,6 +641,7 @@ Callable
 &
 &
 aCallable
+MOZ_LIFETIME_BOUND
 )
 noexcept
 :
