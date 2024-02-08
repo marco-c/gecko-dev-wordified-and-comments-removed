@@ -117,11 +117,11 @@ modules
 .
 forEach
 (
-m
+module
 =
 >
 {
-m
+module
 ?
 .
 declarations

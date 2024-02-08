@@ -63,6 +63,11 @@ ContentSearchUIController
 ContentSearchHandoffUIController
 *
 /
+"
+use
+strict
+"
+;
 import
 {
 actionCreators

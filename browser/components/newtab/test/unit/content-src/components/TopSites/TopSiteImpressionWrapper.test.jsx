@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 import
 {
 TopSiteImpressionWrapper

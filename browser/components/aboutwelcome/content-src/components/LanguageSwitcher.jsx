@@ -92,8 +92,6 @@ lib
 aboutwelcome
 -
 utils
-.
-mjs
 "
 ;
 /

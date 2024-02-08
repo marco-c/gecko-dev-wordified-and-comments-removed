@@ -357,7 +357,7 @@ aboutwelcome
 -
 utils
 .
-mjs
+js
 "
 :
 {
@@ -1079,8 +1079,6 @@ test
 /
 \
 .
-m
-?
 js
 [
 mx

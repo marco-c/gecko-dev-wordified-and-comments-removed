@@ -77,8 +77,6 @@ lib
 aboutwelcome
 -
 utils
-.
-mjs
 "
 ;
 export

@@ -423,17 +423,6 @@ eslintrc
 .
 js
 "
-"
-*
-.
-config
-.
-?
-(
-m
-)
-js
-"
 ]
 env
 :

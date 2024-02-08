@@ -9,11 +9,11 @@ content
 -
 src
 /
-lib
+templates
+/
+FirstRun
 /
 addUtmParams
-.
-mjs
 "
 ;
 describe
