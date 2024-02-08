@@ -92,6 +92,11 @@ keywords
 array
 "
 ]
+score
+:
+0
+.
+24
 }
 ]
 }
@@ -119,7 +124,7 @@ REMOTE_SETTINGS_DATA
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -217,6 +222,19 @@ result
 payload
 .
 provider
+UrlbarPrefs
+.
+get
+(
+"
+quickSuggestRustEnabled
+"
+)
+?
+"
+Mdn
+"
+:
 "
 MDNSuggestions
 "
@@ -279,7 +297,7 @@ clear
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -376,7 +394,7 @@ window
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -480,7 +498,7 @@ forceSync
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -566,7 +584,7 @@ forceSync
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
