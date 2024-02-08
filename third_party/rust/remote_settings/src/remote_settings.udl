@@ -72,10 +72,7 @@ dictionary
 RemoteSettingsConfig
 {
 string
-?
-server_url
-=
-null
+collection_name
 ;
 string
 ?
@@ -84,7 +81,10 @@ bucket_name
 null
 ;
 string
-collection_name
+?
+server_url
+=
+null
 ;
 }
 ;

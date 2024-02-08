@@ -132,6 +132,14 @@ com
 >
 "
 ]
+exclude
+=
+[
+"
+/
+android
+"
+]
 autotests
 =
 false
