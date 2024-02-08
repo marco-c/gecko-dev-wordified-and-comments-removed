@@ -637,13 +637,6 @@ tests
 ]
 [
 "
-test_webauthn_isexternalctap2securitykeysupported
-.
-html
-"
-]
-[
-"
 test_webauthn_isplatformauthenticatoravailable
 .
 html
