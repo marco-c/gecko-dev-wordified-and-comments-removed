@@ -265,10 +265,7 @@ NaN
 )
 ;
 }
-[
-Float64Array
-Float32Array
-]
+floatArrayConstructors
 )
 ;
 reportCompare

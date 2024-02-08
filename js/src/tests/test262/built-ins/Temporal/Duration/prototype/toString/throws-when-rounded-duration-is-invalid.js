@@ -12,12 +12,10 @@ seconds
 :
 Number
 .
-MAX_VALUE
+MAX_SAFE_INTEGER
 milliseconds
 :
-Number
-.
-MAX_VALUE
+999
 }
 )
 ;
@@ -29,6 +27,11 @@ smallestUnit
 :
 "
 seconds
+"
+roundingMode
+:
+"
+ceil
 "
 }
 ;

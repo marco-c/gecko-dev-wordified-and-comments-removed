@@ -42,10 +42,5 @@ js
 '
 with
 {
-type
-:
-'
-foo
-'
 }
 ;
