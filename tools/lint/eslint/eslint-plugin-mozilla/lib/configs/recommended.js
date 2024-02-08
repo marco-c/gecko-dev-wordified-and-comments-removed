@@ -14,7 +14,7 @@ env
 browser
 :
 true
-es2021
+es2022
 :
 true
 "
@@ -441,6 +441,15 @@ files
 mjs
 "
 ]
+parserOptions
+:
+{
+sourceType
+:
+"
+module
+"
+}
 rules
 :
 {

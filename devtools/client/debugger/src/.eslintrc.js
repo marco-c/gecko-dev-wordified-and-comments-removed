@@ -13,9 +13,6 @@ react
 mozilla
 "
 "
-babel
-"
-"
 import
 "
 "
@@ -124,13 +121,6 @@ ecmaFeatures
 jsx
 :
 true
-}
-babelOptions
-:
-{
-root
-:
-__dirname
 }
 }
 env

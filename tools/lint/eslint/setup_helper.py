@@ -1224,19 +1224,6 @@ dependencies
 }
 )
         
-dependencies
-.
-pop
-(
-"
-eslint
--
-visitor
--
-keys
-"
-)
-        
 expected_modules
 .
 update
