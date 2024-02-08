@@ -538,6 +538,11 @@ IsCurrentGlobal
 )
 ;
 bool
+IsActiveInTab
+(
+)
+;
+bool
 IsProcessRoot
 (
 )
