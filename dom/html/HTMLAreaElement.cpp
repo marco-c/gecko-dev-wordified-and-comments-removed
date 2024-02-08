@@ -298,7 +298,7 @@ nsGkAtoms
 :
 :
 rel
-sSupportedRelValues
+sAnchorAndFormRelValues
 )
 ;
 }

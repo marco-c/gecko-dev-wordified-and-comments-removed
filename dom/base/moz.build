@@ -691,11 +691,6 @@ AncestorIterator
 h
 "
 "
-AnchorAreaFormRelValues
-.
-h
-"
-"
 AnimationFrameProvider
 .
 h
@@ -1488,11 +1483,6 @@ cpp
 "
 "
 AbstractRange
-.
-cpp
-"
-"
-AnchorAreaFormRelValues
 .
 cpp
 "
@@ -2412,7 +2402,7 @@ and
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -2543,7 +2533,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 .
