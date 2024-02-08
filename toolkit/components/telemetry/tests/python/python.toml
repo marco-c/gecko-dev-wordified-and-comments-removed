@@ -50,3 +50,10 @@ test_parse_scalars
 py
 "
 ]
+[
+"
+test_usecounters
+.
+py
+"
+]

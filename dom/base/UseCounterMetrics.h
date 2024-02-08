@@ -33,9 +33,7 @@ WorkerKind
 :
 uint8_t
 ;
-const
-char
-*
+void
 IncrementUseCounter
 (
 UseCounter
@@ -44,9 +42,7 @@ bool
 aIsPage
 )
 ;
-const
-char
-*
+void
 IncrementWorkerUseCounter
 (
 UseCounterWorker
