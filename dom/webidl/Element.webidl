@@ -1475,6 +1475,13 @@ attribute
 long
 scrollHeight
 ;
+[
+BinaryName
+=
+"
+scrollTo
+"
+]
 undefined
 scroll
 (
@@ -1486,6 +1493,13 @@ double
 y
 )
 ;
+[
+BinaryName
+=
+"
+scrollTo
+"
+]
 undefined
 scroll
 (
