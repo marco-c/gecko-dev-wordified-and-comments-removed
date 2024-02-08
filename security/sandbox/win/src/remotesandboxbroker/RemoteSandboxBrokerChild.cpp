@@ -288,10 +288,7 @@ value
 )
 ;
 }
-ipc
-:
-:
-ScopedProcessHandle
+UniqueFileHandle
 parentProcHandle
 ;
 if
@@ -305,11 +302,9 @@ OpenProcessHandle
 OtherPid
 (
 )
-&
-parentProcHandle
-.
-rwget
+getter_Transfers
 (
+parentProcHandle
 )
 )
 )
@@ -330,6 +325,10 @@ mSandboxBroker
 AddTargetPeer
 (
 parentProcHandle
+.
+get
+(
+)
 )
 ;
 if
