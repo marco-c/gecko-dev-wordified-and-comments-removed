@@ -107,3 +107,9 @@ kExpectedRequests
 }
 ]
 ;
+export
+const
+kTestDataDisabled
+=
+kTestData
+;
