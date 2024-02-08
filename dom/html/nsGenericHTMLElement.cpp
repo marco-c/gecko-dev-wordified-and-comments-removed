@@ -1742,7 +1742,7 @@ frameType
 LayoutFrameType
 :
 :
-Table
+TableWrapper
 )
 {
 nsIContent
