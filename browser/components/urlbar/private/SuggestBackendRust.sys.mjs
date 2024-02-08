@@ -1216,12 +1216,8 @@ lazy
 .
 SuggestionQuery
 (
-{
-keyword
-:
 searchString
 providers
-}
 )
 )
 ;
@@ -1481,14 +1477,9 @@ lazy
 .
 RemoteSettingsConfig
 (
-collectionName
-:
-:
 "
 quicksuggest
 "
-bucketName
-:
 lazy
 .
 Utils
@@ -1499,8 +1490,6 @@ actualBucketName
 main
 "
 )
-serverUrl
-:
 lazy
 .
 Utils
