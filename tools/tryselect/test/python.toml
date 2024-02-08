@@ -100,13 +100,6 @@ sequential
 true
 [
 "
-test_push
-.
-py
-"
-]
-[
-"
 test_release
 .
 py
