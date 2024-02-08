@@ -3360,7 +3360,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-35
+42
 /
 /
 fixture_callbacks
@@ -3523,7 +3523,7 @@ UniFFIScaffolding
 .
 callSync
 (
-36
+43
 /
 /
 fixture_callbacks

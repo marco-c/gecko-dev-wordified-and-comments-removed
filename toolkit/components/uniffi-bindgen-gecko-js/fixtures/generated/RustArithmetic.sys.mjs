@@ -1942,7 +1942,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-28
+35
 /
 /
 arithmetic
@@ -2110,7 +2110,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-29
+36
 /
 /
 arithmetic
@@ -2278,7 +2278,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-30
+37
 /
 /
 arithmetic
@@ -2456,7 +2456,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-31
+38
 /
 /
 arithmetic
