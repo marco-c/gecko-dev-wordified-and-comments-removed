@@ -4285,11 +4285,6 @@ targetFrameRate
 windowProtocol
 :
 null
-fontVisibilityDeterminationStr
-:
-"
-fontDetermination
-"
 }
 ;
 for

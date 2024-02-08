@@ -2518,16 +2518,6 @@ Parameters
 compositing
 =
 Compositing
-support
--
-font
--
-determination
-=
-Font
-Visibility
-Debug
-Info
 hardware
 -
 h264
