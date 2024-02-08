@@ -68,6 +68,7 @@ HeaderVariety
 eVarietyUnknown
 eVarietyRequestOverride
 eVarietyRequestDefault
+eVarietyRequestEnforceDefault
 eVarietyResponseNetOriginalAndResponse
 eVarietyResponseNetOriginal
 eVarietyResponse
