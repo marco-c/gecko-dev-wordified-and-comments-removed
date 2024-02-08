@@ -139,9 +139,6 @@ slot_
 DISALLOW_COPY_AND_ASSIGN
 (
 ThreadLocalPointer
-<
-T
->
 )
 ;
 }
@@ -298,9 +295,6 @@ DeleteTlsPtr
 DISALLOW_COPY_AND_ASSIGN
 (
 ThreadLocalOwnedPointer
-<
-T
->
 )
 ;
 }

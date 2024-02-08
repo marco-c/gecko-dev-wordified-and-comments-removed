@@ -345,9 +345,6 @@ num_assigned_threads_
 DISALLOW_COPY_AND_ASSIGN
 (
 CheckedThreadLocalOwnedPointer
-<
-T
->
 )
 ;
 }
