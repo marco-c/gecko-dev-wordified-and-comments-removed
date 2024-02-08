@@ -762,12 +762,6 @@ scripts
 ref
 .
 html
-random
--
-if
-(
-gtkWidget
-)
 =
 =
 mo
@@ -786,9 +780,6 @@ size
 ref
 .
 html
-#
-bug
-1309426
 =
 =
 operator
