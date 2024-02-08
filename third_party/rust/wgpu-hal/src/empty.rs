@@ -568,13 +568,6 @@ command_buffers
 &
 Resource
 ]
-surface_textures
-:
-&
-[
-&
-Resource
-]
 signal_fence
 :
 Option

@@ -70,6 +70,10 @@ CommandEncoderId
 DeviceId
 TextureId
 }
+identity
+:
+:
+GlobalIdentityHandlerFactory
 init_tracker
 :
 :
@@ -581,7 +585,15 @@ DeviceError
 )
 }
 impl
+<
+G
+:
+GlobalIdentityHandlerFactory
+>
 Global
+<
+G
+>
 {
 pub
 fn

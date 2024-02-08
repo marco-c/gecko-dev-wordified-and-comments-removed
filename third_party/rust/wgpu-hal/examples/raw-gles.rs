@@ -1152,9 +1152,6 @@ submit
 &
 cmd_buf
 ]
-&
-[
-]
 None
 )
 .

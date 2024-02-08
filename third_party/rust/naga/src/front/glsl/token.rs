@@ -103,7 +103,6 @@ Span
 [
 derive
 (
-Clone
 Debug
 PartialEq
 )

@@ -17,7 +17,6 @@ error
 {
 Error
 ErrorKind
-ParseError
 }
 token
 :
@@ -103,10 +102,6 @@ err
 unwrap
 (
 )
-ParseError
-{
-errors
-:
 vec
 !
 [
@@ -133,7 +128,6 @@ new
 )
 }
 ]
-}
 )
 ;
 assert_eq
@@ -176,10 +170,6 @@ err
 unwrap
 (
 )
-ParseError
-{
-errors
-:
 vec
 !
 [
@@ -206,7 +196,6 @@ new
 )
 }
 ]
-}
 )
 ;
 assert_eq
@@ -250,10 +239,6 @@ err
 unwrap
 (
 )
-ParseError
-{
-errors
-:
 vec
 !
 [
@@ -286,7 +271,6 @@ new
 )
 }
 ]
-}
 )
 ;
 assert_eq
@@ -331,10 +315,6 @@ err
 unwrap
 (
 )
-ParseError
-{
-errors
-:
 vec
 !
 [
@@ -406,7 +386,6 @@ new
 )
 }
 ]
-}
 )
 ;
 frontend
@@ -1899,10 +1878,6 @@ err
 unwrap
 (
 )
-ParseError
-{
-errors
-:
 vec
 !
 [
@@ -1937,7 +1912,6 @@ new
 )
 }
 ]
-}
 )
 ;
 println
@@ -2835,10 +2809,6 @@ err
 unwrap
 (
 )
-ParseError
-{
-errors
-:
 vec
 !
 [
@@ -2877,7 +2847,6 @@ new
 )
 }
 ]
-}
 )
 ;
 assert_eq
@@ -2942,10 +2911,6 @@ err
 unwrap
 (
 )
-ParseError
-{
-errors
-:
 vec
 !
 [
@@ -2986,7 +2951,6 @@ new
 )
 }
 ]
-}
 )
 ;
 }
