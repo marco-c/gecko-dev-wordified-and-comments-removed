@@ -1983,6 +1983,13 @@ html
 ]
 [
 "
+test_peerConnection_sillyCodecPriorities
+.
+html
+"
+]
+[
+"
 test_peerConnection_simulcastAnswer
 .
 html
