@@ -23,10 +23,6 @@ global
 :
 :
 Global
-identity
-:
-:
-IdentityManagerFactory
 }
 ;
 pub
@@ -54,9 +50,6 @@ global
 '
 a
 Global
-<
-IdentityManagerFactory
->
 }
 impl
 <
@@ -884,9 +877,6 @@ global
 :
 &
 Global
-<
-IdentityManagerFactory
->
 error
 :
 &
