@@ -4,7 +4,7 @@ _ToolbarPanelHub
 }
 from
 "
-lib
+modules
 /
 ToolbarPanelHub
 .
@@ -30,8 +30,6 @@ PanelTestProvider
 }
 from
 "
-asrouter
-/
 modules
 /
 PanelTestProvider

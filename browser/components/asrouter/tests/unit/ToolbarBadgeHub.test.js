@@ -44,9 +44,7 @@ ToolbarPanelHub
 }
 from
 "
-newtab
-/
-lib
+modules
 /
 ToolbarPanelHub
 .
