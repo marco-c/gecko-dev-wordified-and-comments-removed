@@ -311,10 +311,14 @@ primary
 -
 password
 -
-admin
+required
+-
+by
+-
+policy
 =
 Your
-administrator
+organization
 requires
 that
 you
