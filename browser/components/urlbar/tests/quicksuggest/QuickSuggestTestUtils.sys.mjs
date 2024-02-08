@@ -1815,6 +1815,12 @@ lazy
 .
 RemoteSettingsConfig
 (
+"
+quicksuggest
+"
+"
+main
+"
 this
 .
 #
@@ -1825,12 +1831,6 @@ url
 toString
 (
 )
-"
-main
-"
-"
-quicksuggest
-"
 )
 ;
 /
