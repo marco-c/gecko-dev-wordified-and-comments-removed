@@ -1086,11 +1086,9 @@ tabpickup
 -
 fxa
 -
+admin
+-
 disabled
--
-by
--
-policy
 -
 description
 "

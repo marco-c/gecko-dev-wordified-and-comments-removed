@@ -734,11 +734,9 @@ tabpickup
 -
 fxa
 -
+admin
+-
 disabled
--
-by
--
-policy
 -
 description
 =
@@ -760,7 +758,7 @@ between
 devices
 because
 your
-organization
+administrator
 has
 disabled
 syncing

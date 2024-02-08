@@ -592,8 +592,8 @@ bookmarks
 are
 created
 by
-enterprise
-policy
+an
+administrator
 and
 cannot
 be
