@@ -1603,7 +1603,7 @@ SynthesizeBaseline
 const
 FindItemInGridOrderResult
 &
-aItem
+aGridOrderItem
 LogicalAxis
 aAxis
 BaselineSharingGroup
