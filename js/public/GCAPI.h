@@ -1702,15 +1702,6 @@ JSRuntime
 rt
 )
 ;
-extern
-JS_PUBLIC_API
-void
-SetSiteBasedPretenuringEnabled
-(
-bool
-enable
-)
-;
 class
 JS_PUBLIC_API
 AutoRequireNoGC

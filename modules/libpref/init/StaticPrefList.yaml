@@ -47726,11 +47726,12 @@ true
 mirror
 :
 always
-#
-LoadStartupJSPrefs
 do_not_use_directly
 :
 true
+set_spidermonkey_pref
+:
+startup
 #
 if
 !
