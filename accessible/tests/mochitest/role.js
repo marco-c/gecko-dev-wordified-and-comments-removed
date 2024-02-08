@@ -825,6 +825,13 @@ nsIAccessibleRole
 ROLE_STATUSBAR
 ;
 const
+ROLE_STRONG
+=
+nsIAccessibleRole
+.
+ROLE_STRONG
+;
+const
 ROLE_SUBSCRIPT
 =
 nsIAccessibleRole
