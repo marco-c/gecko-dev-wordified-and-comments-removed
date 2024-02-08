@@ -4,7 +4,7 @@ _ToolbarBadgeHub
 }
 from
 "
-lib
+modules
 /
 ToolbarBadgeHub
 .
@@ -30,8 +30,6 @@ OnboardingMessageProvider
 }
 from
 "
-asrouter
-/
 modules
 /
 OnboardingMessageProvider
@@ -46,6 +44,8 @@ ToolbarPanelHub
 }
 from
 "
+newtab
+/
 lib
 /
 ToolbarPanelHub
