@@ -17,7 +17,6 @@ error
 Error
 ErrorKind
 ExpectedToken
-ParseError
 }
 ;
 pub
@@ -494,7 +493,10 @@ result
 Result
 <
 Module
-ParseError
+Vec
+<
+Error
+>
 >
 {
 self
@@ -583,10 +585,6 @@ self
 .
 errors
 )
-.
-into
-(
-)
 )
 }
 }
@@ -621,10 +619,6 @@ mut
 self
 .
 errors
-)
-.
-into
-(
 )
 )
 }

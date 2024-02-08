@@ -32,6 +32,11 @@ hal_api
 :
 :
 HalApi
+id
+identity
+:
+:
+GlobalIdentityHandlerFactory
 instance
 :
 :
@@ -209,6 +214,10 @@ adapters
 :
 Registry
 <
+id
+:
+:
+AdapterId
 Adapter
 <
 A
@@ -219,6 +228,10 @@ devices
 :
 Registry
 <
+id
+:
+:
+DeviceId
 Device
 <
 A
@@ -229,6 +242,10 @@ queues
 :
 Registry
 <
+id
+:
+:
+QueueId
 Queue
 <
 A
@@ -239,6 +256,10 @@ pipeline_layouts
 :
 Registry
 <
+id
+:
+:
+PipelineLayoutId
 PipelineLayout
 <
 A
@@ -249,6 +270,10 @@ shader_modules
 :
 Registry
 <
+id
+:
+:
+ShaderModuleId
 ShaderModule
 <
 A
@@ -259,6 +284,10 @@ bind_group_layouts
 :
 Registry
 <
+id
+:
+:
+BindGroupLayoutId
 BindGroupLayout
 <
 A
@@ -269,6 +298,10 @@ bind_groups
 :
 Registry
 <
+id
+:
+:
+BindGroupId
 BindGroup
 <
 A
@@ -279,6 +312,10 @@ command_buffers
 :
 Registry
 <
+id
+:
+:
+CommandBufferId
 CommandBuffer
 <
 A
@@ -289,6 +326,10 @@ render_bundles
 :
 Registry
 <
+id
+:
+:
+RenderBundleId
 RenderBundle
 <
 A
@@ -299,6 +340,10 @@ render_pipelines
 :
 Registry
 <
+id
+:
+:
+RenderPipelineId
 RenderPipeline
 <
 A
@@ -309,6 +354,10 @@ compute_pipelines
 :
 Registry
 <
+id
+:
+:
+ComputePipelineId
 ComputePipeline
 <
 A
@@ -319,6 +368,10 @@ query_sets
 :
 Registry
 <
+id
+:
+:
+QuerySetId
 QuerySet
 <
 A
@@ -329,6 +382,10 @@ buffers
 :
 Registry
 <
+id
+:
+:
+BufferId
 Buffer
 <
 A
@@ -339,6 +396,10 @@ staging_buffers
 :
 Registry
 <
+id
+:
+:
+StagingBufferId
 StagingBuffer
 <
 A
@@ -349,6 +410,10 @@ textures
 :
 Registry
 <
+id
+:
+:
+TextureId
 Texture
 <
 A
@@ -359,6 +424,10 @@ texture_views
 :
 Registry
 <
+id
+:
+:
+TextureViewId
 TextureView
 <
 A
@@ -369,6 +438,10 @@ samplers
 :
 Registry
 <
+id
+:
+:
+SamplerId
 Sampler
 <
 A
@@ -388,7 +461,16 @@ A
 {
 fn
 new
+<
+F
+:
+GlobalIdentityHandlerFactory
+>
 (
+factory
+:
+&
+F
 )
 -
 >
@@ -407,6 +489,7 @@ A
 :
 :
 VARIANT
+factory
 )
 devices
 :
@@ -419,6 +502,7 @@ A
 :
 :
 VARIANT
+factory
 )
 queues
 :
@@ -431,6 +515,7 @@ A
 :
 :
 VARIANT
+factory
 )
 pipeline_layouts
 :
@@ -443,6 +528,7 @@ A
 :
 :
 VARIANT
+factory
 )
 shader_modules
 :
@@ -455,6 +541,7 @@ A
 :
 :
 VARIANT
+factory
 )
 bind_group_layouts
 :
@@ -467,6 +554,7 @@ A
 :
 :
 VARIANT
+factory
 )
 bind_groups
 :
@@ -479,6 +567,7 @@ A
 :
 :
 VARIANT
+factory
 )
 command_buffers
 :
@@ -491,6 +580,7 @@ A
 :
 :
 VARIANT
+factory
 )
 render_bundles
 :
@@ -503,6 +593,7 @@ A
 :
 :
 VARIANT
+factory
 )
 render_pipelines
 :
@@ -515,6 +606,7 @@ A
 :
 :
 VARIANT
+factory
 )
 compute_pipelines
 :
@@ -527,6 +619,7 @@ A
 :
 :
 VARIANT
+factory
 )
 query_sets
 :
@@ -539,6 +632,7 @@ A
 :
 :
 VARIANT
+factory
 )
 buffers
 :
@@ -551,6 +645,7 @@ A
 :
 :
 VARIANT
+factory
 )
 staging_buffers
 :
@@ -563,6 +658,7 @@ A
 :
 :
 VARIANT
+factory
 )
 textures
 :
@@ -575,6 +671,7 @@ A
 :
 :
 VARIANT
+factory
 )
 texture_views
 :
@@ -587,6 +684,7 @@ A
 :
 :
 VARIANT
+factory
 )
 samplers
 :
@@ -599,6 +697,7 @@ A
 :
 :
 VARIANT
+factory
 )
 }
 }
@@ -617,6 +716,10 @@ surface_guard
 Storage
 <
 Surface
+id
+:
+:
+SurfaceId
 >
 with_adapters
 :
@@ -1346,7 +1449,16 @@ crate
 )
 fn
 new
+<
+F
+:
+GlobalIdentityHandlerFactory
+>
 (
+factory
+:
+&
+F
 )
 -
 >
@@ -1368,6 +1480,7 @@ Hub
 :
 new
 (
+factory
 )
 #
 [
@@ -1383,6 +1496,7 @@ Hub
 :
 new
 (
+factory
 )
 #
 [
@@ -1398,6 +1512,7 @@ Hub
 :
 new
 (
+factory
 )
 #
 [
@@ -1413,6 +1528,7 @@ Hub
 :
 new
 (
+factory
 )
 #
 [
@@ -1446,6 +1562,7 @@ Hub
 :
 new
 (
+factory
 )
 }
 }
