@@ -1312,9 +1312,11 @@ PR_WRONLY
 PR_IRUSR
 |
 PR_IWUSR
-getter_Transfers
-(
+&
 fd
+.
+rwget
+(
 )
 )
 ;
@@ -1348,10 +1350,6 @@ amount
 PR_Write
 (
 fd
-.
-get
-(
-)
 data
 length
 )

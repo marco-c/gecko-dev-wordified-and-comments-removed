@@ -14,6 +14,15 @@ h
 #
 include
 "
+mozilla
+/
+Scoped
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

@@ -798,10 +798,6 @@ if
 fseek
 (
 file
-.
-get
-(
-)
 0
 SEEK_END
 )
@@ -822,10 +818,6 @@ uint64_t
 ftell
 (
 file
-.
-get
-(
-)
 )
 )
 ;
@@ -858,10 +850,6 @@ if
 fseek
 (
 file
-.
-get
-(
-)
 0
 SEEK_SET
 )
@@ -1115,10 +1103,6 @@ aLongLineSize
 +
 1
 file
-.
-get
-(
-)
 )
 )
 {
@@ -1140,10 +1124,6 @@ get
 (
 )
 temp
-.
-get
-(
-)
 )
 <
 0
@@ -1166,10 +1146,6 @@ n
 ferror
 (
 temp
-.
-get
-(
-)
 )
 )
 .

@@ -831,10 +831,6 @@ if
 fscanf
 (
 stream
-.
-get
-(
-)
 "
 Distributor
 ID
