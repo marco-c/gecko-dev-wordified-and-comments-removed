@@ -20,6 +20,8 @@ resource
 /
 modules
 /
+asrouter
+/
 FeatureCallout
 .
 sys

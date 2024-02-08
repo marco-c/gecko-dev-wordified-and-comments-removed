@@ -78,6 +78,8 @@ resource
 /
 modules
 /
+asrouter
+/
 FeatureCallout
 .
 sys
@@ -314,6 +316,8 @@ resource
 /
 /
 modules
+/
+asrouter
 /
 FeatureCallout
 .

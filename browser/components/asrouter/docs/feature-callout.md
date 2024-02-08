@@ -556,9 +556,9 @@ browser
 /
 components
 /
-newtab
+asrouter
 /
-lib
+modules
 /
 FeatureCalloutMessages
 .
