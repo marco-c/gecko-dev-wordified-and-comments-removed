@@ -1145,6 +1145,19 @@ trials
         
 ]
         
+chrome_args
++
+=
+[
+"
+-
+-
+enable
+-
+benchmarking
+"
+]
+        
 if
 test
 .
@@ -1410,36 +1423,6 @@ profile
 merge
 (
 path
-)
-            
-self
-.
-profile
-.
-set_preferences
-(
-                
-{
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-:
-self
-.
-config
-[
-"
-e10s
-"
-]
-}
-            
 )
             
 self

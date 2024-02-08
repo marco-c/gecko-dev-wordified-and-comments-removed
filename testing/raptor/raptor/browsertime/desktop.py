@@ -254,6 +254,19 @@ trials
         
 )
         
+chrome_args
++
+=
+[
+"
+-
+-
+enable
+-
+benchmarking
+"
+]
+        
 btime_chrome_args
 =
 [
