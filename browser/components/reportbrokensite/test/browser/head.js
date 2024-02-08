@@ -894,6 +894,10 @@ REPORTER_ENABLED
 true
 )
 ;
+ensureReasonDisabled
+(
+)
+;
 }
 function
 ensureReportBrokenSitePreffedOff
