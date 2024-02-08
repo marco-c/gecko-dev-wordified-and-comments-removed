@@ -65,12 +65,6 @@ jsm
 -
 *
 .
-jsm
-.
-js
--
-*
-.
 xhtml
 with
 there
