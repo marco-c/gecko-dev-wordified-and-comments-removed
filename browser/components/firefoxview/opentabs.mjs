@@ -2611,6 +2611,15 @@ this
 .
 recentBrowsing
 }
+?
+removeBlockEndMargin
+=
+{
+!
+this
+.
+recentBrowsing
+}
 >
 {
 when
