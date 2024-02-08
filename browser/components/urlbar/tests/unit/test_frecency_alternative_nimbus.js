@@ -191,7 +191,7 @@ initNimbusFeature
 {
 }
 "
-frecency
+urlbar
 "
 "
 config
@@ -278,7 +278,7 @@ enableVariable
 true
 }
 "
-frecency
+urlbar
 "
 "
 config
@@ -394,7 +394,7 @@ initNimbusFeature
 (
 config
 "
-frecency
+urlbar
 "
 "
 config
