@@ -195,7 +195,9 @@ M5
 fill
 =
 "
-black
+context
+-
+fill
 "
 /
 >
@@ -420,7 +422,9 @@ M13
 fill
 =
 "
-black
+context
+-
+fill
 "
 /
 >
@@ -477,7 +481,9 @@ M11
 fill
 =
 "
-black
+context
+-
+fill
 "
 /
 >
