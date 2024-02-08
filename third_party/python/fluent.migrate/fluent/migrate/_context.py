@@ -1,3 +1,15 @@
+from
+__future__
+import
+annotations
+from
+typing
+import
+Dict
+Optional
+Set
+Tuple
+cast
 import
 os
 import
@@ -12,6 +24,18 @@ from
 itertools
 import
 zip_longest
+from
+compare_locales
+.
+parser
+import
+getParser
+from
+compare_locales
+.
+plurals
+import
+get_plural
 import
 fluent
 .
@@ -37,17 +61,15 @@ serializer
 import
 FluentSerializer
 from
-compare_locales
 .
-parser
+changesets
 import
-getParser
+Changes
 from
-compare_locales
 .
-plurals
+errors
 import
-get_plural
+UnreadableReferenceError
 from
 .
 evaluator
@@ -60,12 +82,9 @@ import
 merge_resource
 from
 .
-errors
+transforms
 import
-(
-    
-UnreadableReferenceError
-)
+Source
 class
 InternalContext
 :
@@ -95,18 +114,44 @@ MigrationContext
 "
 "
     
+dependencies
+:
+Dict
+[
+Tuple
+[
+str
+str
+]
+Set
+[
+Tuple
+[
+str
+Source
+]
+]
+]
+=
+{
+}
+    
+localization_dir
+:
+str
+    
+reference_dir
+:
+str
+    
 def
 __init__
 (
-        
 self
 lang
-reference_dir
-localization_dir
 enforce_translated
 =
 False
-    
 )
 :
         
@@ -152,9 +197,9 @@ logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
             
 logger
@@ -162,30 +207,27 @@ logger
 warning
 (
                 
+f
 '
 Plural
 rule
 for
 "
 {
+lang
 }
 "
 is
 not
 defined
 in
-'
-                
-'
+"
 compare
 -
 locales
+"
 '
-.
-format
-(
-lang
-)
+            
 )
             
 self
@@ -193,12 +235,12 @@ self
 plural_categories
 =
 (
-'
+"
 one
-'
-'
+"
+"
 other
-'
+"
 )
         
 self
@@ -249,6 +291,8 @@ read_ftl_resource
 (
 self
 path
+:
+str
 )
 :
         
@@ -277,12 +321,12 @@ codecs
 open
 (
 path
-'
+"
 r
-'
-'
+"
+"
 utf8
-'
+"
 )
         
 try
@@ -308,9 +352,9 @@ logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
             
 logger
@@ -318,7 +362,7 @@ logger
 warning
 (
 f
-'
+"
 Unable
 to
 read
@@ -330,7 +374,7 @@ path
 {
 err
 }
-'
+"
 )
             
 raise
@@ -400,9 +444,9 @@ logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
             
 for
@@ -422,7 +466,7 @@ logger
 warning
 (
 f
-'
+"
 Syntax
 error
 in
@@ -433,7 +477,7 @@ path
 {
 msg
 }
-'
+"
 )
         
 return
@@ -444,6 +488,8 @@ read_legacy_resource
 (
 self
 path
+:
+str
 )
 :
         
@@ -489,6 +535,7 @@ key
 entity
 .
 val
+            
 for
 entity
 in
@@ -510,6 +557,8 @@ read_reference_ftl
 (
 self
 path
+:
+str
 )
 :
         
@@ -577,7 +626,7 @@ OSError
 error_message
 =
 f
-'
+"
 Missing
 reference
 file
@@ -585,15 +634,15 @@ file
 {
 fullpath
 }
-'
+"
             
 logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
 .
 error
@@ -616,7 +665,7 @@ err
 error_message
 =
 f
-'
+"
 Error
 reading
 file
@@ -627,15 +676,15 @@ fullpath
 {
 err
 }
-'
+"
             
 logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
 .
 error
@@ -654,6 +703,8 @@ read_localization_ftl
 (
 self
 path
+:
+str
 )
 :
         
@@ -731,9 +782,9 @@ logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
             
 logger
@@ -741,7 +792,7 @@ logger
 info
 (
                 
-'
+"
 Localization
 file
 {
@@ -750,19 +801,20 @@ does
 not
 exist
 and
-'
+"
                 
-'
+"
 it
 will
 be
 created
-'
+"
 .
 format
 (
 path
 )
+            
 )
             
 return
@@ -782,9 +834,9 @@ logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
             
 logger
@@ -792,7 +844,7 @@ logger
 warning
 (
                 
-'
+"
 Localization
 file
 {
@@ -801,9 +853,9 @@ has
 broken
 encoding
 .
-'
+"
                 
-'
+"
 It
 will
 be
@@ -813,18 +865,19 @@ created
 and
 some
 translations
-'
+"
                 
-'
+"
 may
 be
 lost
-'
+"
 .
 format
 (
 path
 )
+            
 )
             
 return
@@ -839,6 +892,8 @@ maybe_add_localization
 (
 self
 path
+:
+str
 )
 :
         
@@ -911,10 +966,10 @@ fullpath
 .
 endswith
 (
-'
+"
 .
 ftl
-'
+"
 )
 :
                 
@@ -949,9 +1004,9 @@ logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
             
 logger
@@ -959,7 +1014,7 @@ logger
 warning
 (
 f
-'
+"
 Missing
 localization
 file
@@ -967,7 +1022,7 @@ file
 {
 path
 }
-'
+"
 )
         
 else
@@ -987,7 +1042,11 @@ get_legacy_source
 (
 self
 path
+:
+str
 key
+:
+str
 )
 :
         
@@ -1039,7 +1098,11 @@ get_fluent_source_pattern
 (
 self
 path
+:
+str
 key
+:
+str
 )
 :
         
@@ -1096,9 +1159,9 @@ key
 .
 partition
 (
-'
+"
 .
-'
+"
 )
         
 found
@@ -1285,14 +1348,16 @@ sorted
 (
             
 (
+                
 entry
+                
 for
 entry
 in
 res1
 .
 body
-             
+                
 if
 isinstance
 (
@@ -1301,7 +1366,6 @@ FTL
 .
 Message
 )
-                
 or
 isinstance
 (
@@ -1310,11 +1374,13 @@ FTL
 .
 Term
 )
+            
 )
             
 key
 =
 message_id
+        
 )
         
 messages2
@@ -1323,14 +1389,16 @@ sorted
 (
             
 (
+                
 entry
+                
 for
 entry
 in
 res2
 .
 body
-             
+                
 if
 isinstance
 (
@@ -1339,7 +1407,6 @@ FTL
 .
 Message
 )
-                
 or
 isinstance
 (
@@ -1348,11 +1415,13 @@ FTL
 .
 Term
 )
+            
 )
             
 key
 =
 message_id
+        
 )
         
 for
@@ -1398,13 +1467,27 @@ True
 def
 merge_changeset
 (
+        
 self
+        
 changeset
+:
+Optional
+[
+Changes
+]
 =
 None
+        
 known_translations
+:
+Optional
+[
+Changes
+]
 =
 None
+    
 )
 :
         
@@ -1574,10 +1657,10 @@ path
 .
 endswith
 (
-'
+"
 .
 ftl
-'
+"
 )
                 
 for
@@ -1647,6 +1730,7 @@ in_changeset
 changeset
 known_translations
 path
+            
 )
             
 snapshot
@@ -1690,12 +1774,23 @@ snapshot
 def
 in_changeset
 (
+        
 self
 changeset
+:
+Changes
 known_translations
+:
+Changes
 path
+:
+str
 ident
+    
 )
+-
+>
+bool
 :
         
 "
@@ -1856,9 +1951,13 @@ True
         
 active_deps
 =
+cast
+(
+bool
 message_deps
 &
 changeset
+)
         
 available_deps
 =
@@ -1877,11 +1976,20 @@ available_deps
 def
 serialize_changeset
 (
+        
 self
 changeset
+:
+Changes
 known_translations
+:
+Optional
+[
+Changes
+]
 =
 None
+    
 )
 :
         
@@ -1944,10 +2052,8 @@ self
 .
 merge_changeset
 (
-                
 changeset
 known_translations
-            
 )
         
 }

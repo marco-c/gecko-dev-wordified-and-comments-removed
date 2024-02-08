@@ -80,7 +80,7 @@ node
 value
 ast
 .
-Str
+Constant
 )
 :
         
@@ -90,7 +90,7 @@ node
 .
 value
 .
-s
+value
     
 elif
 isinstance
@@ -134,6 +134,13 @@ val
 node
 .
 value
+    
+else
+:
+        
+val
+=
+None
     
 if
 val
@@ -321,8 +328,6 @@ ast
 :
             
 if
-(
-                
 isinstance
 (
 top_level
@@ -330,18 +335,15 @@ ast
 .
 FunctionDef
 )
-                
 and
 top_level
 .
 name
 =
 =
-'
+"
 migrate
-'
-            
-)
+"
 :
                 
 if
@@ -351,14 +353,12 @@ migrate_func
 raise
 MigrateNotFoundException
 (
-                        
-'
+"
 Duplicate
 definition
 of
 migrate
-'
-                    
+"
 )
                 
 migrate_func
@@ -407,9 +407,9 @@ ImportFrom
 :
                 
 if
-'
+"
 module
-'
+"
 in
 top_level
 .
@@ -460,7 +460,7 @@ module
 dotted
 =
 f
-'
+"
 {
 module
 }
@@ -468,7 +468,7 @@ module
 {
 dotted
 }
-'
+"
                     
 global_assigns
 [
@@ -485,14 +485,12 @@ migrate_func
 raise
 MigrateNotFoundException
 (
-                
-'
+"
 migrate
 function
 not
 found
-'
-            
+"
 )
         
 return
@@ -508,8 +506,6 @@ global_assigns
 :
         
 if
-(
-                
 len
 (
 migrate_func
@@ -522,10 +518,9 @@ args
 =
 1
 or
-                
 any
 (
-                    
+            
 getattr
 (
 migrate_func
@@ -533,7 +528,7 @@ migrate_func
 args
 arg_field
 )
-                    
+            
 for
 arg_field
 in
@@ -542,16 +537,14 @@ migrate_func
 args
 .
 _fields
-                    
+            
 if
 arg_field
 !
 =
-'
+"
 args
-'
-                
-)
+"
         
 )
 :
@@ -559,16 +552,14 @@ args
 raise
 MigrateNotFoundException
 (
-                
-'
+"
 migrate
 takes
 only
 one
 positional
 argument
-'
-            
+"
 )
         
 arg
@@ -625,17 +616,17 @@ migrate_func
 return
 {
             
-'
+"
 references
-'
+"
 :
 visitor
 .
 references
             
-'
+"
 issues
-'
+"
 :
 visitor
 .
@@ -708,9 +699,9 @@ id
 )
     
 return
-'
+"
 .
-'
+"
 .
 join
 (
@@ -891,13 +882,13 @@ not
 in
 (
                 
-'
+"
 add_transforms
-'
+"
                 
-'
+"
 locale
-'
+"
             
 )
 :
@@ -906,7 +897,7 @@ raise
 BadContextAPIException
 (
                     
-'
+"
 Unexpected
 attribute
 access
@@ -916,7 +907,7 @@ on
 .
 {
 }
-'
+"
 .
 format
 (
@@ -949,7 +940,7 @@ node
         
 if
 (
-                
+            
 isinstance
 (
 node
@@ -959,8 +950,8 @@ ast
 .
 Attribute
 )
+            
 and
-                
 isinstance
 (
 node
@@ -972,8 +963,8 @@ ast
 .
 Name
 )
+            
 and
-                
 node
 .
 func
@@ -1014,7 +1005,7 @@ if
 dotted
 =
 =
-'
+"
 fluent
 .
 migrate
@@ -1022,7 +1013,7 @@ migrate
 helpers
 .
 transforms_from
-'
+"
 :
             
 return
@@ -1038,12 +1029,12 @@ dotted
 .
 startswith
 (
-'
+"
 fluent
 .
 migrate
 .
-'
+"
 )
 :
             
@@ -1079,9 +1070,9 @@ func
 attr
 =
 =
-'
+"
 add_transforms
-'
+"
 :
             
 return
@@ -1096,7 +1087,7 @@ raise
 BadContextAPIException
 (
             
-'
+"
 Unexpected
 call
 on
@@ -1105,11 +1096,10 @@ on
 .
 {
 }
-'
+"
 .
 format
 (
-                
 self
 .
 ctx_var
@@ -1118,7 +1108,6 @@ node
 func
 .
 attr
-            
 )
         
 )
@@ -1135,7 +1124,7 @@ args_msg
 =
 (
             
-'
+"
 Expected
 arguments
 to
@@ -1144,13 +1133,13 @@ to
 .
 add_transforms
 :
-'
+"
             
-'
+"
 target_ftl_path
 reference_ftl_path
 list_of_transforms
-'
+"
         
 )
 .
@@ -1165,7 +1154,7 @@ ref_msg
 =
 (
             
-'
+"
 Expected
 second
 argument
@@ -1175,9 +1164,9 @@ to
 .
 add_transforms
 :
-'
+"
             
-'
+"
 reference
 should
 be
@@ -1187,7 +1176,7 @@ variable
 with
 string
 value
-'
+"
         
 )
 .
@@ -1225,23 +1214,25 @@ issues
 .
 append
 (
-{
                 
-'
+{
+                    
+"
 msg
-'
+"
 :
 args_msg
-                
-'
+                    
+"
 line
-'
+"
 :
 node
 .
 lineno
-            
+                
 }
+            
 )
             
 return
@@ -1284,7 +1275,7 @@ isinstance
 in_reference
 ast
 .
-Str
+Constant
 )
 :
             
@@ -1292,7 +1283,7 @@ in_reference
 =
 in_reference
 .
-s
+value
         
 if
 not
@@ -1309,17 +1300,18 @@ issues
 .
 append
 (
-{
                 
-'
+{
+                    
+"
 msg
-'
+"
 :
 ref_msg
-                
-'
+                    
+"
 line
-'
+"
 :
 node
 .
@@ -1329,8 +1321,9 @@ args
 ]
 .
 lineno
-            
+                
 }
+            
 )
             
 return
@@ -1372,9 +1365,9 @@ dotted
 .
 rsplit
 (
-'
+"
 .
-'
+"
 1
 )
         
@@ -1383,18 +1376,18 @@ module
 not
 in
 (
-'
+"
 fluent
 .
 migrate
-'
-'
+"
+"
 fluent
 .
 migrate
 .
 transforms
-'
+"
 )
 :
             
@@ -1424,7 +1417,7 @@ return
 bad_args
 =
 f
-'
+"
 {
 called
 }
@@ -1436,7 +1429,7 @@ as
 first
 two
 params
-'
+"
         
 if
 not
@@ -1446,28 +1439,33 @@ check_arguments
 (
             
 node
+            
 (
+                
 (
 ast
 .
-Str
+Constant
 ast
 .
 Name
 )
+                
 (
 ast
 .
-Str
+Constant
 ast
 .
 Name
 )
+            
 )
             
 allow_more
 =
 True
+            
 check_kwargs
 =
 False
@@ -1482,21 +1480,18 @@ issues
 append
 (
 {
-                
-'
+"
 msg
-'
+"
 :
 bad_args
-                
-'
+"
 line
-'
+"
 :
 node
 .
 lineno
-            
 }
 )
             
@@ -1517,7 +1512,7 @@ isinstance
 path
 ast
 .
-Str
+Constant
 )
 :
             
@@ -1525,7 +1520,7 @@ path
 =
 path
 .
-s
+value
         
 if
 isinstance
@@ -1566,21 +1561,18 @@ issues
 append
 (
 {
-                
-'
+"
 msg
-'
+"
 :
 bad_args
-                
-'
+"
 line
-'
+"
 :
 node
 .
 lineno
-            
 }
 )
     
@@ -1594,24 +1586,19 @@ node
         
 args_msg
 =
-(
-            
-'
+"
 Expected
 arguments
 to
 transforms_from
 :
-'
-            
-'
+"
+"
 str
 *
 *
 substitions
-'
-        
-)
+"
         
 if
 not
@@ -1619,17 +1606,15 @@ self
 .
 check_arguments
 (
-            
 node
 (
 ast
 .
-Str
+Constant
 )
 check_kwargs
 =
 False
-        
 )
 :
             
@@ -1639,23 +1624,25 @@ issues
 .
 append
 (
-{
                 
-'
+{
+                    
+"
 msg
-'
+"
 :
 args_msg
-                
-'
+                    
+"
 line
-'
+"
 :
 node
 .
 lineno
-            
+                
 }
+            
 )
             
 return
@@ -1689,7 +1676,7 @@ isinstance
 v
 ast
 .
-Str
+Constant
 )
 :
                 
@@ -1697,7 +1684,7 @@ v
 =
 v
 .
-s
+value
             
 if
 isinstance
@@ -1734,11 +1721,11 @@ Call
                 
 v
 =
-'
+"
 determined
 at
 runtime
-'
+"
             
 if
 not
@@ -1751,7 +1738,7 @@ PATH_TYPES
                 
 msg
 =
-'
+"
 Bad
 keyword
 arg
@@ -1759,15 +1746,13 @@ arg
 }
 to
 transforms_from
-'
+"
 .
 format
 (
-                    
 keyword
 .
 arg
-                
 )
                 
 self
@@ -1776,23 +1761,25 @@ issues
 .
 append
 (
-{
                     
-'
+{
+                        
+"
 msg
-'
+"
 :
 msg
-                    
-'
+                        
+"
 line
-'
+"
 :
 node
 .
 lineno
-                
+                    
 }
+                
 )
                 
 found_bad_keywords
@@ -1831,7 +1818,7 @@ args
 0
 ]
 .
-s
+value
 *
 *
 kwargs
@@ -1849,26 +1836,28 @@ issues
 .
 append
 (
-{
                 
-'
+{
+                    
+"
 msg
-'
+"
 :
 str
 (
 e
 )
-                
-'
+                    
+"
 line
-'
+"
 :
 node
 .
 lineno
-            
+                
 }
+            
 )
             
 return
@@ -1892,23 +1881,25 @@ issues
 .
 extend
 (
-{
             
-'
+{
+                
+"
 msg
-'
+"
 :
 issue
-            
-'
+                
+"
 line
-'
+"
 :
 node
 .
 lineno
-        
+            
 }
+            
 for
 issue
 in
@@ -1918,12 +1909,12 @@ ti
 .
 issues
 )
+        
 )
     
 def
 check_arguments
 (
-        
 self
 node
 argspec
@@ -1933,7 +1924,6 @@ True
 allow_more
 =
 False
-    
 )
 :
         
@@ -1946,14 +1936,13 @@ node
 .
 keywords
 or
-            
 (
 hasattr
 (
 node
-'
+"
 kwargs
-'
+"
 )
 and
 node
@@ -1971,9 +1960,9 @@ if
 hasattr
 (
 node
-'
+"
 starargs
-'
+"
 )
 and
 node
@@ -2097,7 +2086,6 @@ issues
 .
 append
 (
-                    
 f
 '
 Source
@@ -2113,7 +2101,6 @@ a
 normalized
 path
 '
-                
 )
         
 super
@@ -2142,9 +2129,9 @@ parser
 .
 add_argument
 (
-'
+"
 migration
-'
+"
 )
     
 args
@@ -2166,9 +2153,9 @@ args
 migration
 )
 [
-'
+"
 issues
-'
+"
 ]
     
 for
@@ -2181,19 +2168,19 @@ print
 (
 issue
 [
-'
+"
 msg
-'
+"
 ]
-'
+"
 at
 line
-'
+"
 issue
 [
-'
+"
 line
-'
+"
 ]
 )
     

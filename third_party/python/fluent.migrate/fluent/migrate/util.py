@@ -61,9 +61,9 @@ string
 .
 encode
 (
-'
+"
 utf8
-'
+"
 )
 )
     
@@ -154,7 +154,6 @@ merged_iter
     
 return
 {
-        
 path
 :
 resource
@@ -162,13 +161,11 @@ resource
 to_json
 (
 )
-        
 for
 path
 resource
 in
 merged_iter
-    
 }
 LOCALIZABLE_ENTRIES
 =
@@ -433,10 +430,10 @@ code
 .
 lstrip
 (
-'
+"
 \
 n
-'
+"
 )
     
 return

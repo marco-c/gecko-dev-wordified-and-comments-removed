@@ -2,9 +2,9 @@ __path__
 =
 __import__
 (
-'
+"
 pkgutil
-'
+"
 )
 .
 extend_path

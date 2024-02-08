@@ -65,6 +65,14 @@ MigrationContext
 "
 "
 from
+__future__
+import
+annotations
+from
+typing
+import
+List
+from
 fluent
 .
 syntax
@@ -119,7 +127,6 @@ FTL
 .
 VariableReference
 (
-        
 id
 =
 FTL
@@ -128,7 +135,6 @@ Identifier
 (
 name
 )
-    
 )
 def
 MESSAGE_REFERENCE
@@ -171,9 +177,9 @@ attribute
 "
     
 if
-'
+"
 .
-'
+"
 in
 name
 :
@@ -185,9 +191,9 @@ name
 .
 split
 (
-'
+"
 .
-'
+"
 )
         
 attribute
@@ -250,7 +256,6 @@ FTL
 .
 TermReference
 (
-        
 id
 =
 FTL
@@ -259,7 +264,6 @@ Identifier
 (
 name
 )
-    
 )
 class
 IntoTranforms
@@ -349,7 +353,9 @@ anno
 span
 .
 start
+            
 )
+        
 )
     
 def
@@ -409,6 +415,7 @@ format
 (
 name
 )
+            
 )
         
 if
@@ -452,25 +459,25 @@ format
 (
 name
 )
+            
 )
         
 if
 name
 in
 (
-'
+"
 COPY
-'
-'
+"
+"
 COPY_PATTERN
-'
+"
 )
 :
             
 args
 =
 (
-                
 self
 .
 into_argument
@@ -485,7 +492,6 @@ node
 arguments
 .
 positional
-            
 )
             
 kwargs
@@ -515,15 +521,16 @@ node
 arguments
 .
 named
+            
 }
             
 if
 name
 =
 =
-'
+"
 COPY
-'
+"
 :
                 
 return
@@ -819,13 +826,13 @@ COPY
 .
 format
 (
-                        
 node
 .
 id
 .
 name
 )
+                
 )
         
 else
@@ -848,7 +855,6 @@ COPY
 .
 format
 (
-                    
 type
 (
 node
@@ -856,6 +862,7 @@ node
 .
 __name__
 )
+            
 )
 def
 transforms_from
@@ -865,6 +872,18 @@ ftl
 *
 substitutions
 )
+-
+>
+List
+[
+FTL
+.
+Message
+|
+FTL
+.
+Term
+]
 :
     
 "

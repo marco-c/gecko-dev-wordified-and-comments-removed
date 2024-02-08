@@ -120,9 +120,7 @@ body
         
 return
 [
-            
 entry
-            
 for
 entry
 in
@@ -131,13 +129,11 @@ map
 merge_entry
 body
 )
-            
 if
 entry
 is
 not
 None
-        
 ]
     
 def

@@ -1,7 +1,16 @@
+from
+__future__
 import
-os
+annotations
+from
+types
 import
-logging
+ModuleType
+from
+typing
+import
+Iterable
+cast
 import
 argparse
 from
@@ -11,9 +20,28 @@ contextmanager
 import
 importlib
 import
-sys
+logging
 import
-hglib
+os
+import
+sys
+from
+fluent
+.
+migrate
+.
+blame
+import
+Blame
+from
+fluent
+.
+migrate
+.
+changesets
+import
+Changes
+convert_blame_to_changesets
 from
 fluent
 .
@@ -35,17 +63,9 @@ fluent
 .
 migrate
 .
-changesets
+repo_client
 import
-convert_blame_to_changesets
-from
-fluent
-.
-migrate
-.
-blame
-import
-Blame
+RepoClient
 contextmanager
 def
 dont_write_bytecode
@@ -79,11 +99,21 @@ Migrator
 def
 __init__
 (
+        
 self
 locale
+:
+str
 reference_dir
+:
+str
 localization_dir
+:
+str
 dry_run
+:
+bool
+    
 )
 :
         
@@ -138,18 +168,11 @@ self
 .
 _client
 =
-hglib
-.
-open
+RepoClient
 (
 self
 .
 localization_dir
-'
-utf
--
-8
-'
 )
         
 return
@@ -186,12 +209,14 @@ run
 (
 self
 migration
+:
+ModuleType
 )
 :
         
 print
 (
-'
+"
 \
 nRunning
 migration
@@ -200,11 +225,10 @@ migration
 for
 {
 }
-'
+"
 .
 format
 (
-            
 migration
 .
 __name__
@@ -218,7 +242,6 @@ ctx
 =
 MigrationContext
 (
-            
 self
 .
 locale
@@ -228,7 +251,6 @@ reference_dir
 self
 .
 localization_dir
-        
 )
         
 try
@@ -249,7 +271,8 @@ e
             
 print
 (
-'
+                
+"
 Skipping
 migration
 {
@@ -262,11 +285,11 @@ for
 n
 {
 }
-'
+"
 .
 format
 (
-                
+                    
 migration
 .
 __name__
@@ -274,7 +297,9 @@ self
 .
 locale
 e
+                
 )
+            
 )
             
 return
@@ -285,11 +310,15 @@ index
         
 description_template
 =
+cast
+(
+str
 migration
 .
 migrate
 .
 __doc__
+)
         
 files
 =
@@ -344,9 +373,9 @@ snapshot
 ctx
 changeset
 [
-'
+"
 changes
-'
+"
 ]
 known_legacy_translations
             
@@ -375,31 +404,40 @@ self
 .
 commit_changeset
 (
-                
 description_template
 changeset
 [
-'
+"
 author
-'
+"
 ]
 index
-            
 )
     
 def
 snapshot
 (
+        
 self
+        
 ctx
+:
+MigrationContext
+        
 changes_in_changeset
+:
+Changes
+        
 known_legacy_translations
+:
+Changes
+    
 )
 :
         
-'
-'
-'
+"
+"
+"
 Run
 the
 migration
@@ -419,9 +457,9 @@ legacy
 translations
 .
         
-'
-'
-'
+"
+"
+"
         
 known_legacy_translations
 .
@@ -435,11 +473,8 @@ ctx
 .
 serialize_changeset
 (
-            
 changes_in_changeset
-            
 known_legacy_translations
-        
 )
     
 def
@@ -450,9 +485,9 @@ snapshot
 )
 :
         
-'
-'
-'
+"
+"
+"
 Write
 serialized
 FTL
@@ -460,9 +495,9 @@ files
 to
 disk
 .
-'
-'
-'
+"
+"
+"
         
 for
 path
@@ -492,13 +527,13 @@ path
 print
 (
 f
-'
+"
 Writing
 to
 {
 fullpath
 }
-'
+"
 )
             
 if
@@ -542,9 +577,9 @@ with
 open
 (
 fullpath
-'
+"
 wb
-'
+"
 )
 as
 f
@@ -558,9 +593,9 @@ content
 .
 encode
 (
-'
+"
 utf8
-'
+"
 )
 )
                     
@@ -573,12 +608,16 @@ close
 def
 commit_changeset
 (
-        
 self
 description_template
+:
+str
 author
+:
+str
 index
-    
+:
+int
 )
 :
         
@@ -588,28 +627,25 @@ description_template
 .
 format
 (
-            
 index
 =
 index
-            
 author
 =
 author
-        
 )
         
 print
 (
 f
-'
+"
 Committing
 changeset
 :
 {
 message
 }
-'
+"
 )
         
 if
@@ -629,32 +665,12 @@ client
 .
 commit
 (
-                
 message
-user
-=
 author
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-addremove
-=
-True
-            
 )
         
 except
-hglib
-.
-error
-.
-CommandError
+Exception
 as
 err
 :
@@ -662,10 +678,9 @@ err
 print
 (
 f
-'
+"
 WARNING
 :
-hg
 commit
 failed
 (
@@ -673,16 +688,32 @@ failed
 err
 }
 )
-'
+"
 )
 def
 main
 (
+    
 locale
+    
 reference_dir
+:
+str
+    
 localization_dir
+:
+str
+    
 migrations
+:
+Iterable
+[
+ModuleType
+]
+    
 dry_run
+:
+bool
 )
 :
     
@@ -742,17 +773,15 @@ argparse
 .
 ArgumentParser
 (
-        
 description
 =
-'
+"
 Migrate
 translations
 to
 FTL
 .
-'
-    
+"
 )
     
 parser
@@ -760,26 +789,29 @@ parser
 add_argument
 (
         
-'
+"
 migrations
-'
+"
+        
 metavar
 =
-'
+"
 MIGRATION
-'
+"
+        
 type
 =
 str
+        
 nargs
 =
-'
+"
 +
-'
+"
         
 help
 =
-'
+"
 migrations
 to
 run
@@ -787,7 +819,7 @@ run
 Python
 modules
 )
-'
+"
     
 )
     
@@ -796,23 +828,22 @@ parser
 add_argument
 (
         
-'
+"
 -
 -
 locale
-'
-'
+"
+"
 -
 -
 lang
-'
+"
 type
 =
 str
-        
 help
 =
-'
+"
 target
 locale
 code
@@ -823,7 +854,7 @@ lang
 is
 deprecated
 )
-'
+"
     
 )
     
@@ -832,26 +863,25 @@ parser
 add_argument
 (
         
-'
+"
 -
 -
 reference
 -
 dir
-'
+"
 type
 =
 str
-        
 help
 =
-'
+"
 directory
 with
 reference
 FTL
 files
-'
+"
     
 )
     
@@ -860,25 +890,24 @@ parser
 add_argument
 (
         
-'
+"
 -
 -
 localization
 -
 dir
-'
+"
 type
 =
 str
-        
 help
 =
-'
+"
 directory
 for
 localization
 files
-'
+"
     
 )
     
@@ -887,22 +916,23 @@ parser
 add_argument
 (
         
-'
+"
 -
 -
 dry
 -
 run
-'
+"
+        
 action
 =
-'
+"
 store_true
-'
+"
         
 help
 =
-'
+"
 do
 not
 write
@@ -912,7 +942,7 @@ nor
 commit
 any
 changes
-'
+"
     
 )
     
@@ -931,9 +961,9 @@ logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
     
 logger
@@ -1007,9 +1037,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 cli
