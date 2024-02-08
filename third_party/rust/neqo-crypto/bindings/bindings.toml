@@ -164,6 +164,9 @@ SSL_PeerStapledOCSPResponses
 SSL_ResetHandshake
 "
 "
+SSL_SendAdditionalKeyShares
+"
+"
 SSL_SetNextProtoNego
 "
 "

@@ -28,6 +28,12 @@ pedantic
 )
 ]
 use
+std
+:
+:
+mem
+;
+use
 neqo_crypto
 :
 :
@@ -48,12 +54,6 @@ hp
 :
 HpKey
 }
-;
-use
-std
-:
-:
-mem
 ;
 use
 test_fixture

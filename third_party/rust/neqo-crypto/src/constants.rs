@@ -311,6 +311,9 @@ ssl_grp_ec_secp521r1
 TLS_GRP_EC_X25519
 =
 ssl_grp_ec_curve25519
+TLS_GRP_KEM_XYBER768D00
+=
+ssl_grp_kem_xyber768d00
 }
 }
 remap_enum

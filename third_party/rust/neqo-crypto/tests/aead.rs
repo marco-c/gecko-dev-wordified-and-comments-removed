@@ -46,6 +46,7 @@ use
 neqo_crypto
 :
 :
+{
 constants
 :
 :
@@ -54,18 +55,9 @@ Cipher
 TLS_AES_128_GCM_SHA256
 TLS_VERSION_1_3
 }
-;
-use
-neqo_crypto
-:
-:
 hkdf
-;
-use
-neqo_crypto
-:
-:
 Aead
+}
 ;
 use
 test_fixture

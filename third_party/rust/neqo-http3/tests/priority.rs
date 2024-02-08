@@ -1,4 +1,13 @@
 use
+std
+:
+:
+time
+:
+:
+Instant
+;
+use
 neqo_common
 :
 :
@@ -26,15 +35,6 @@ Http3ServerEvent
 Http3State
 Priority
 }
-;
-use
-std
-:
-:
-time
-:
-:
-Instant
 ;
 use
 test_fixture
@@ -72,6 +72,10 @@ client
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -97,6 +101,10 @@ server
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -186,7 +194,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -203,7 +211,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -220,7 +228,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -295,7 +303,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -363,7 +371,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -380,7 +388,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -397,7 +405,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -414,7 +422,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -430,7 +438,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now

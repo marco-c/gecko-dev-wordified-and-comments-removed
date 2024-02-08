@@ -1,10 +1,4 @@
 use
-crate
-:
-:
-Res
-;
-use
 neqo_common
 :
 :
@@ -18,6 +12,12 @@ neqo_transport
 Connection
 StreamId
 }
+;
+use
+crate
+:
+:
+Res
 ;
 #
 [

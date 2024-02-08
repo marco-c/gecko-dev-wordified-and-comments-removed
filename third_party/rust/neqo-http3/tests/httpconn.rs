@@ -7,6 +7,21 @@ unused_assignments
 )
 ]
 use
+std
+:
+:
+{
+mem
+time
+:
+:
+{
+Duration
+Instant
+}
+}
+;
+use
 neqo_common
 :
 :
@@ -54,24 +69,6 @@ ConnectionParameters
 Error
 Output
 StreamType
-}
-;
-use
-std
-:
-:
-mem
-;
-use
-std
-:
-:
-time
-:
-:
-{
-Duration
-Instant
 }
 ;
 use
@@ -580,7 +577,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -597,7 +594,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -616,7 +613,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -705,7 +702,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -722,7 +719,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -739,7 +736,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -756,7 +753,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -855,7 +852,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -875,7 +872,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -895,7 +892,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1001,7 +998,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1021,7 +1018,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1041,7 +1038,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1061,7 +1058,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1162,6 +1159,10 @@ client
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -1178,6 +1179,10 @@ server
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -1323,6 +1328,10 @@ hconn_c
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 (
 )
@@ -1350,7 +1359,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1369,7 +1378,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1422,7 +1431,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1455,7 +1464,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1562,6 +1571,10 @@ hconn_c
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 (
 )
@@ -1576,7 +1589,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1595,7 +1608,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1699,7 +1712,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1795,7 +1808,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1810,6 +1823,7 @@ process_client_events
 mut
 hconn_c
 )
+;
 }
 #
 [
@@ -2569,6 +2583,10 @@ hconn_c
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 (
 )
@@ -2583,7 +2601,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2911,6 +2929,10 @@ hconn_c
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 )
 ;
