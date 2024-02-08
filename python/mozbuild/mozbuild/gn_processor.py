@@ -1367,7 +1367,7 @@ target_os
 ]
         
 "
-CPU_ARCH
+TARGET_CPU
 "
 :
 cpus
@@ -3806,6 +3806,88 @@ KeyError
                 
 pass
             
+try
+:
+                
+if
+relsrcdir
+in
+write_mozbuild_variables
+[
+"
+INCLUDE_SYSTEM_LIBVPX_HANDLING
+"
+]
+:
+                    
+mb
+.
+write
+(
+'
+if
+not
+CONFIG
+[
+"
+MOZ_SYSTEM_LIBVPX
+"
+]
+:
+\
+n
+'
+)
+                    
+mb
+.
+write
+(
+'
+LOCAL_INCLUDES
++
+=
+[
+"
+/
+media
+/
+libvpx
+/
+libvpx
+/
+"
+]
+\
+n
+'
+)
+                    
+mb
+.
+write
+(
+'
+CXXFLAGS
++
+=
+CONFIG
+[
+"
+MOZ_LIBVPX_CFLAGS
+"
+]
+\
+n
+'
+)
+            
+except
+KeyError
+:
+                
+pass
+            
 all_args
 =
 [
@@ -3839,7 +3921,7 @@ OS_TARGET
                 
 (
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
                 
@@ -3866,7 +3948,7 @@ MOZ_X11
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
                 
@@ -3875,7 +3957,7 @@ CPU_ARCH
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 "
 MOZ_X11
@@ -3887,7 +3969,7 @@ MOZ_X11
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 "
 MOZ_DEBUG
@@ -3899,7 +3981,7 @@ MOZ_DEBUG
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 "
 MOZ_DEBUG
@@ -4177,7 +4259,7 @@ OS_TARGET
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
             
@@ -4186,7 +4268,7 @@ CPU_ARCH
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 "
 MOZ_X11
