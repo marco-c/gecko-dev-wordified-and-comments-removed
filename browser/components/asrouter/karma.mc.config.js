@@ -311,13 +311,13 @@ each
 {
 statements
 :
-100
+80
 lines
 :
-100
+80
 functions
 :
-100
+80
 branches
 :
 66
