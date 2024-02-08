@@ -3716,9 +3716,6 @@ theme
 unlimitedStorage
 "
 "
-urlbar
-"
-"
 webRequest
 "
 "

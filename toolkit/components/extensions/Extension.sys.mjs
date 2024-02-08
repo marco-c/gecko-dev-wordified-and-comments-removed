@@ -1689,9 +1689,6 @@ normandyAddonStudy
 "
 telemetry
 "
-"
-urlbar
-"
 ]
 )
 ;
@@ -1723,9 +1720,6 @@ Set
 [
 "
 normandyAddonStudy
-"
-"
-urlbar
 "
 ]
 )

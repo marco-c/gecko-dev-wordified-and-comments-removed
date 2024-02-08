@@ -2925,16 +2925,6 @@ Bug
 ]
 [
 "
-browser_ext_urlbar
-.
-js
-"
-]
-https_first_disabled
-=
-true
-[
-"
 browser_ext_user_events
 .
 js

@@ -243,15 +243,6 @@ browser
 /
 schemas
 /
-urlbar
-.
-json
-content
-/
-browser
-/
-schemas
-/
 windows
 .
 json
