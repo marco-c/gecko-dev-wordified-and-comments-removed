@@ -521,6 +521,10 @@ winchecksec
 -
 vs
 -
+windows
+-
+rs
+-
 sysroot
 -
 wasm32
