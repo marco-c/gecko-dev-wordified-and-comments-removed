@@ -57,12 +57,6 @@ Version
     
 getpreferredencoding
 )
-from
-mozbuild
-.
-util
-import
-exec_
 class
 TestConfigureOutputHandler
 (
@@ -3370,7 +3364,7 @@ status
 try
 :
             
-exec_
+exec
 (
 command
 sandbox

@@ -30,12 +30,6 @@ from
 common
 import
 ConfigureTestSandbox
-from
-mozbuild
-.
-util
-import
-exec_
 class
 BaseCompileChecks
 (
@@ -745,7 +739,7 @@ configure
 )
 )
         
-exec_
+exec
 (
 mock_compiler_defs
 sandbox
@@ -779,7 +773,7 @@ status
 try
 :
             
-exec_
+exec
 (
 command
 sandbox

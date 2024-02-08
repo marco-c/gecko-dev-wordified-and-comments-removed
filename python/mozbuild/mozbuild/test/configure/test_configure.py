@@ -51,7 +51,6 @@ mozbuild
 util
 import
 ReadOnlyNamespace
-exec_
 memoized_property
 test_data_path
 =
@@ -2707,7 +2706,7 @@ ImportError
 )
 :
             
-exec_
+exec
 (
                 
 textwrap
@@ -2743,7 +2742,7 @@ sandbox
             
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -2802,7 +2801,7 @@ os_path
 {
 }
         
-exec_
+exec
 (
 "
 from
@@ -2839,7 +2838,7 @@ ReadOnlyNamespace
 os_path
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -2900,7 +2899,7 @@ foo
 os_path
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -2966,7 +2965,7 @@ foo
 os_path
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -3043,7 +3042,7 @@ forbidden
 "
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -3129,7 +3128,7 @@ close
 (
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -3216,7 +3215,7 @@ forbidden
 "
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -3270,7 +3269,7 @@ foo
 sandbox
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -3364,7 +3363,7 @@ ConfigureSandbox
 BUILTINS
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -3556,7 +3555,7 @@ out
 out
 )
         
-exec_
+exec
 (
             
 textwrap
@@ -3682,7 +3681,7 @@ out
 out
 )
         
-exec_
+exec
 (
             
 textwrap
