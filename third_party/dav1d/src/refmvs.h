@@ -672,6 +672,14 @@ dsp
 )
 ;
 void
+dav1d_refmvs_dsp_init_loongarch
+(
+Dav1dRefmvsDSPContext
+*
+dsp
+)
+;
+void
 dav1d_refmvs_dsp_init_x86
 (
 Dav1dRefmvsDSPContext
