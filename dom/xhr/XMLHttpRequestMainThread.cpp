@@ -18507,11 +18507,9 @@ OpenNSPRFileDesc
 (
 PR_RDONLY
 0
-&
-pr_fd
-.
-rwget
+getter_Transfers
 (
+pr_fd
 )
 )
 ;
@@ -18537,6 +18535,10 @@ CreateMappedArrayBufferContents
 PR_FileDesc2NativeHandle
 (
 pr_fd
+.
+get
+(
+)
 )
 offset
 size
