@@ -42,5 +42,10 @@ js
 '
 with
 {
+type
+:
+'
+foo
+'
 }
 ;

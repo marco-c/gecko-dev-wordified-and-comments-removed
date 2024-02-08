@@ -8,11 +8,11 @@ Duration
 from
 (
 {
-seconds
+nanoseconds
 :
 Number
 .
-MAX_SAFE_INTEGER
+MAX_VALUE
 }
 )
 ;

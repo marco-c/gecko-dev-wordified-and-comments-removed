@@ -77,7 +77,10 @@ resultBytes
 testWithTypedArrayConstructors
 (
 body
-floatArrayConstructors
+[
+Float32Array
+Float64Array
+]
 )
 ;
 reportCompare

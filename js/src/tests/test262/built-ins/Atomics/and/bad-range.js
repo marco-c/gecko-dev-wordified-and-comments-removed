@@ -14,7 +14,7 @@ BYTES_PER_ELEMENT
 const
 views
 =
-nonClampedIntArrayConstructors
+intArrayConstructors
 .
 slice
 (
