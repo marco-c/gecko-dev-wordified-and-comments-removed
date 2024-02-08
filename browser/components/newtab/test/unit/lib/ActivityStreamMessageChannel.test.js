@@ -29,7 +29,9 @@ lib
 /
 ActivityStreamMessageChannel
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
