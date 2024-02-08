@@ -2094,13 +2094,6 @@ cpp
 "
 builtin
 /
-ParseRecordObject
-.
-cpp
-"
-"
-builtin
-/
 Profilers
 .
 cpp
