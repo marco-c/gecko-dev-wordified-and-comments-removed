@@ -472,6 +472,14 @@ aRate
 )
 const
 ;
+bool
+IsBase
+(
+int64_t
+aBase
+)
+const
+;
 double
 ToSeconds
 (
