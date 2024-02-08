@@ -10,7 +10,7 @@ Spotlight
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ lib
 /
 Spotlight
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
