@@ -1237,11 +1237,6 @@ OnUnmap
 )
 ;
 void
-OnUnrealize
-(
-)
-;
-void
 OnSizeAllocate
 (
 GtkAllocation
