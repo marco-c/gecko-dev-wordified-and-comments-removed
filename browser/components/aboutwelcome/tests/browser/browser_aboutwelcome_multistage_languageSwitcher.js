@@ -36,7 +36,7 @@ AWScreenUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -50,7 +50,9 @@ aboutwelcome
 /
 AWScreenUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

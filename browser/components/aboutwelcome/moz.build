@@ -94,6 +94,8 @@ modules
 /
 AWScreenUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
