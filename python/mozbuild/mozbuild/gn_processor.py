@@ -3810,7 +3810,10 @@ try
 :
                 
 if
+(
+                    
 relsrcdir
+                    
 in
 write_mozbuild_variables
 [
@@ -3818,6 +3821,8 @@ write_mozbuild_variables
 INCLUDE_SYSTEM_LIBVPX_HANDLING
 "
 ]
+                
+)
 :
                     
 mb
