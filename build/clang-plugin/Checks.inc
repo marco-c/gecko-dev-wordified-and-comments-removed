@@ -389,6 +389,17 @@ literal
 )
 CHECK
 (
+TemporaryLifetimeBoundChecker
+"
+temporary
+-
+lifetime
+-
+bound
+"
+)
+CHECK
+(
 TrivialCtorDtorChecker
 "
 trivial
