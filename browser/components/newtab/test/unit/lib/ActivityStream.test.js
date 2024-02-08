@@ -24,7 +24,9 @@ lib
 /
 ActivityStream
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

@@ -91,7 +91,9 @@ lib
 /
 ActivityStream
 .
-jsm
+sys
+.
+mjs
 .
 The
 configuration

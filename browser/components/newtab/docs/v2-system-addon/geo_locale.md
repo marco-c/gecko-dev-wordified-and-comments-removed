@@ -45,7 +45,9 @@ basis
 in
 ActivityStream
 .
-jsm
+sys
+.
+mjs
 )
 .
 #
