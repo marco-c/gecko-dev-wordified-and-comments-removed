@@ -1109,6 +1109,13 @@ tid
 ;
 }
 }
+GLContext
+:
+:
+ResetTLSCurrentContext
+(
+)
+;
 WRAP
 (
 fMakeCurrent
