@@ -53,6 +53,11 @@ parameters
 :
 {
 "
+optimize_target_tasks
+"
+:
+false
+"
 try_task_config
 "
 :
@@ -141,6 +146,11 @@ parameters
 "
 :
 {
+"
+optimize_target_tasks
+"
+:
+false
 "
 try_task_config
 "

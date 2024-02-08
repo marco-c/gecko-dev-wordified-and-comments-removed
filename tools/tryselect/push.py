@@ -519,6 +519,16 @@ or
 {
 }
     
+params
+.
+setdefault
+(
+"
+optimize_target_tasks
+"
+False
+)
+    
 try_config
 =
 params
