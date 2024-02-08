@@ -667,6 +667,13 @@ c
 ecp_secp521r1
 .
 c
+\
+ecp_secp384r1_wrap
+.
+c
+ecp_secp521r1_wrap
+.
+c
 SHA_SRCS
 =
 sha_fast

@@ -192,9 +192,9 @@ c
 .
 c
 -
-URIG_NULL
+DRIG_NULL
 -
-DRIG_NSS
+URIG_NSS
 -
 URIG_GOST
 -

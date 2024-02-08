@@ -2042,7 +2042,10 @@ inet
 .
 ip
 =
+PR_htonl
+(
 PR_INADDR_ANY
+)
 ;
 hostenum
 =

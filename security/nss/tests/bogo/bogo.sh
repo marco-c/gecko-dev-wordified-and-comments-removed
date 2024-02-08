@@ -232,7 +232,7 @@ BorringSSL
 version
 BOGO_VERSION
 =
-48f794765b0df3310649e6a6c6f71c5cd845f445
+f5e0c8f92a22679b0cd8d24d0d670769c1cc07f3
 bogo_init
 (
 )

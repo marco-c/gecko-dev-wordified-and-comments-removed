@@ -28,11 +28,13 @@ ZLIB_VERSION
 1
 .
 3
+.
+1
 "
 #
 define
 ZLIB_VERNUM
-0x1300
+0x1310
 #
 define
 ZLIB_VER_MAJOR
@@ -44,7 +46,7 @@ ZLIB_VER_MINOR
 #
 define
 ZLIB_VER_REVISION
-0
+1
 #
 define
 ZLIB_VER_SUBREVISION

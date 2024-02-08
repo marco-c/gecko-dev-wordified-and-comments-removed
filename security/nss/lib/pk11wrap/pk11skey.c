@@ -7890,9 +7890,9 @@ rv
 =
 PK11_SymKeysToSameSlot
 (
-target
-operation
-operation
+CKM_CONCATENATE_BASE_AND_KEY
+CKA_DERIVE
+CKA_DERIVE
 left
 right
 &

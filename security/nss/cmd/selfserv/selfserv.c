@@ -9007,7 +9007,10 @@ inet
 .
 ip
 =
+PR_htonl
+(
 PR_INADDR_ANY
+)
 ;
 addr
 .
@@ -10092,7 +10095,7 @@ rv
 SSL_EncodeEchConfigId
 (
 configId
-echParamsStr
+public_name
 100
 HpkeDhKemX25519Sha256
 pubKey
