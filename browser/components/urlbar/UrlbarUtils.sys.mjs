@@ -13172,7 +13172,7 @@ getFixupURIInfo
 (
 this
 .
-trimmedSearchString
+searchString
 flags
 )
 ;
