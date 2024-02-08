@@ -32,22 +32,30 @@ assert_browsing_context
 (
     
 info
+    
 context
+    
 children
 =
 None
+    
 is_root
 =
 True
+    
 parent
 =
 None
+    
 url
 =
 None
+    
 user_context
 =
-None
+"
+default
+"
 )
 :
     
@@ -240,13 +248,6 @@ url
 =
 url
     
-if
-user_context
-is
-not
-None
-:
-      
 assert
 info
 [
