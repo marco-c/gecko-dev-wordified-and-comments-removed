@@ -23,7 +23,9 @@ PersonalityProvider
 /
 PersonalityProvider
 .
-jsm
+sys
+.
+mjs
 "
 ;
 describe
