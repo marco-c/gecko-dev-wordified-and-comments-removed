@@ -46,7 +46,7 @@ ReactDOM
 )
 (
 (
-__unused_webpack_module
+__unused_webpack___webpack_module__
 __webpack_exports__
 __webpack_require__
 )
@@ -788,7 +788,7 @@ __webpack_require__
 )
 ;
 var
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 =
 __webpack_require__
 (
@@ -1188,7 +1188,7 @@ _
 screenInitials
 }
 ;
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -1323,7 +1323,7 @@ metricsFlowUri
 setFlowParams
 (
 await
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -2902,7 +2902,7 @@ toString
 ;
 }
 return
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -3026,7 +3026,7 @@ action
 return
 ;
 }
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -3058,7 +3058,7 @@ event
 name
 )
 {
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -3157,7 +3157,7 @@ type
 actionResult
 =
 await
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -3179,7 +3179,7 @@ FXA_SIGNIN_FLOW
 "
 )
 {
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -3259,7 +3259,7 @@ AWWaitForMigrationClose
 (
 )
 ;
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -3597,7 +3597,7 @@ unshift
 multiSelectActions
 )
 ;
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -4365,7 +4365,7 @@ __webpack_require__
 )
 ;
 var
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 =
 __webpack_require__
 (
@@ -5477,7 +5477,7 @@ darkModeReducedMotionImageURL
 {
 if
 (
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -7361,7 +7361,7 @@ props
 iconURL
 loading
 :
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -7818,7 +7818,7 @@ __webpack_require__
 )
 ;
 var
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 =
 __webpack_require__
 (
@@ -8116,7 +8116,7 @@ QRCode
 image_url
 loading
 :
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -9318,7 +9318,7 @@ __webpack_require__
 )
 ;
 var
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 =
 __webpack_require__
 (
@@ -10477,7 +10477,7 @@ onClick
 =
 >
 {
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .
@@ -10936,7 +10936,7 @@ react__WEBPACK_IMPORTED_MODULE_0__
 )
 ;
 var
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 =
 __webpack_require__
 (
@@ -11012,7 +11012,7 @@ src
 url
 loading
 :
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 .
 AboutWelcomeUtils
 .
@@ -12918,7 +12918,7 @@ react__WEBPACK_IMPORTED_MODULE_0__
 )
 ;
 var
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 =
 __webpack_require__
 (
@@ -13018,7 +13018,7 @@ return
 ;
 }
 }
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 .
 AboutWelcomeUtils
 .
@@ -13030,7 +13030,7 @@ data
 }
 )
 ;
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 .
 AboutWelcomeUtils
 .
@@ -13827,7 +13827,7 @@ react__WEBPACK_IMPORTED_MODULE_0__
 )
 ;
 var
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 =
 __webpack_require__
 (
@@ -13920,7 +13920,7 @@ setState
 flowParams
 :
 await
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 .
 AboutWelcomeUtils
 .
@@ -14097,7 +14097,7 @@ params
 }
 ;
 }
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 .
 AboutWelcomeUtils
 .
@@ -14109,7 +14109,7 @@ data
 }
 )
 ;
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 .
 AboutWelcomeUtils
 .
@@ -14345,7 +14345,7 @@ ReturnToAMO
 .
 defaultProps
 =
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_1__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_1__
 .
 DEFAULT_RTAMO_CONTENT
 ;
@@ -14728,7 +14728,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1__
 )
 ;
 var
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 =
 __webpack_require__
 (
@@ -14985,7 +14985,7 @@ pop
 (
 )
 ;
-_lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_2__
+_lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
 .
 AboutWelcomeUtils
 .

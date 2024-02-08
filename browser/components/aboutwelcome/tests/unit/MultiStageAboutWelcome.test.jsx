@@ -94,6 +94,8 @@ lib
 aboutwelcome
 -
 utils
+.
+mjs
 "
 ;
 describe
