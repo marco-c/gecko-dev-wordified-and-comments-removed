@@ -214,6 +214,15 @@ webDriverBiDi
 :
 {
 '
+browser
+.
+tabs
+.
+closeWindowWithLastTab
+'
+:
+false
+'
 fission
 .
 bfcacheInParent
