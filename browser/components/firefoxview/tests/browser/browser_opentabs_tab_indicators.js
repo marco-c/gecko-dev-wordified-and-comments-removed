@@ -858,7 +858,7 @@ soundTab
 hasAttribute
 (
 "
-soundplaying
+muted
 "
 )
 "
@@ -869,7 +869,7 @@ doesn
 t
 have
 the
-soundplaying
+muted
 attribute
 .
 "
