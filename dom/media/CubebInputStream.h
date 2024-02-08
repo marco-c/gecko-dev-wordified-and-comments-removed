@@ -274,6 +274,16 @@ Listener
 mListener
 ;
 const
+RefPtr
+<
+CubebUtils
+:
+:
+CubebHandle
+>
+mCubeb
+;
+const
 UniquePtr
 <
 cubeb_stream
