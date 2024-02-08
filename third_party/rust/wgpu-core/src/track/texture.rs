@@ -24,10 +24,7 @@ HalApi
 id
 :
 :
-{
 TextureId
-TypedId
-}
 resource
 :
 :
@@ -157,11 +154,6 @@ Self
 :
 :
 EXCLUSIVE
-;
-type
-Id
-=
-TextureId
 ;
 type
 Selector
@@ -1059,7 +1051,6 @@ metadata
 ResourceMetadata
 <
 A
-TextureId
 Texture
 <
 A
@@ -1666,7 +1657,6 @@ metadata
 ResourceMetadata
 <
 A
-TextureId
 Texture
 <
 A
@@ -1696,7 +1686,6 @@ HalApi
 >
 ResourceTracker
 <
-TextureId
 Texture
 <
 A
@@ -3689,7 +3678,6 @@ mut
 ResourceMetadata
 <
 A
-TextureId
 Texture
 <
 A
@@ -3712,7 +3700,6 @@ ResourceMetadataProvider
 '
 _
 A
-TextureId
 Texture
 <
 A
@@ -3823,7 +3810,6 @@ mut
 ResourceMetadata
 <
 A
-TextureId
 Texture
 <
 A
@@ -3856,7 +3842,6 @@ ResourceMetadataProvider
 '
 _
 A
-TextureId
 Texture
 <
 A
@@ -4006,7 +3991,6 @@ mut
 ResourceMetadata
 <
 A
-TextureId
 Texture
 <
 A
@@ -4039,7 +4023,6 @@ ResourceMetadataProvider
 '
 _
 A
-TextureId
 Texture
 <
 A
@@ -4533,7 +4516,6 @@ ResourceMetadataProvider
 '
 _
 A
-TextureId
 Texture
 <
 A
