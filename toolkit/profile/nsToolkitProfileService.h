@@ -511,6 +511,9 @@ mUseDedicatedProfile
 nsString
 mStartupReason
 ;
+nsCString
+mStartupFileVersion
+;
 bool
 mMaybeLockProfile
 ;
