@@ -260,6 +260,13 @@ js
 ]
 [
 "
+browser_firefoxview_search_telemetry
+.
+js
+"
+]
+[
+"
 browser_firefoxview_virtual_list
 .
 js
