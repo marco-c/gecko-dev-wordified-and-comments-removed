@@ -169,6 +169,15 @@ sys
 .
 mjs
 "
+"
+modules
+/
+ToastNotification
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
