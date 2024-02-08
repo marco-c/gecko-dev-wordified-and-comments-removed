@@ -11244,6 +11244,10 @@ GuardStringToNumber
 )
 CACHEOP_CASE_UNIMPL
 (
+StringToAtom
+)
+CACHEOP_CASE_UNIMPL
+(
 BooleanToNumber
 )
 CACHEOP_CASE_UNIMPL
@@ -11369,6 +11373,10 @@ MegamorphicSetElement
 CACHEOP_CASE_UNIMPL
 (
 MegamorphicHasPropResult
+)
+CACHEOP_CASE_UNIMPL
+(
+SmallObjectVariableKeyHasOwnResult
 )
 CACHEOP_CASE_UNIMPL
 (
