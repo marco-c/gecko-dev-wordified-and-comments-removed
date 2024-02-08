@@ -9722,6 +9722,7 @@ overwritten
 .
 *
 /
+async
 fetch
 (
 guidOrInfo
@@ -10201,14 +10202,6 @@ info
 behavior
 )
 ;
-return
-(
-async
-(
-)
-=
->
-{
 let
 results
 ;
@@ -10583,11 +10576,6 @@ results
 [
 0
 ]
-;
-}
-)
-(
-)
 ;
 }
 /
