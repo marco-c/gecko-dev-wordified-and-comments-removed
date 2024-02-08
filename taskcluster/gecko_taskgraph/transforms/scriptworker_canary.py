@@ -18,7 +18,7 @@ canaries
 "
 "
 from
-pipes
+shlex
 import
 quote
 as
