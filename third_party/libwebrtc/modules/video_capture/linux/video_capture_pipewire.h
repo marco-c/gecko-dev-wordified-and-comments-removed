@@ -209,6 +209,13 @@ pipewire_checker_
 )
 ;
 bool
+initialized_
+RTC_GUARDED_BY
+(
+capture_checker_
+)
+;
+bool
 started_
 RTC_GUARDED_BY
 (
