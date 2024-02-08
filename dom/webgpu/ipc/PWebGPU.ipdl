@@ -378,6 +378,17 @@ buf
 )
 ;
 async
+RenderPass
+(
+RawId
+selfId
+RawId
+aDeviceId
+ByteBuf
+buf
+)
+;
+async
 BumpImplicitBindGroupLayout
 (
 RawId

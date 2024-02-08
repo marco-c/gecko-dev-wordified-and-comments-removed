@@ -38,6 +38,10 @@ client
 ;
 pub
 mod
+command
+;
+pub
+mod
 error
 ;
 pub
