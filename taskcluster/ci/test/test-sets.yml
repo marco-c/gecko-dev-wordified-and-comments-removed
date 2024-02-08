@@ -2268,6 +2268,14 @@ wdspec
 xpcshell
 android
 -
+x86
+-
+tests
+:
+-
+cppunittest
+android
+-
 hw
 -
 aarch64
