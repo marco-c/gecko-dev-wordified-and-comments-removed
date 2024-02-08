@@ -23599,7 +23599,7 @@ ProfilerMenuButton
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23620,9 +23620,9 @@ menu
 -
 button
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;

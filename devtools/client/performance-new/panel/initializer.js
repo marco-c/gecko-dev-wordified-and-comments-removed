@@ -470,7 +470,7 @@ createLocalSymbolicationService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -489,9 +489,9 @@ shared
 /
 symbolication
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;
@@ -504,7 +504,7 @@ registerProfileCaptureForBrowser
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -523,9 +523,9 @@ shared
 /
 background
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;

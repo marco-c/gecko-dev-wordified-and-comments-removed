@@ -174,7 +174,7 @@ function
 return
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -193,9 +193,9 @@ shared
 /
 background
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;
