@@ -1806,6 +1806,9 @@ freshenLexicalEnvironment
 JSContext
 *
 cx
+jsbytecode
+*
+pc
 )
 ;
 bool
@@ -1814,6 +1817,9 @@ recreateLexicalEnvironment
 JSContext
 *
 cx
+jsbytecode
+*
+pc
 )
 ;
 bool

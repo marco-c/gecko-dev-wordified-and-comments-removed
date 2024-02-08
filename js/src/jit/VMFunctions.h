@@ -1783,7 +1783,7 @@ nodiscard
 ]
 ]
 bool
-DebugLeaveThenFreshenLexicalEnv
+DebuggeeFreshenLexicalEnv
 (
 JSContext
 *
@@ -1819,7 +1819,7 @@ nodiscard
 ]
 ]
 bool
-DebugLeaveThenRecreateLexicalEnv
+DebuggeeRecreateLexicalEnv
 (
 JSContext
 *
