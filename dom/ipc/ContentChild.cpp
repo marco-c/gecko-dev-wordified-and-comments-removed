@@ -9113,7 +9113,7 @@ Unused
 CubebUtils
 :
 :
-GetCubeb
+GetCubebContext
 (
 )
 ;
