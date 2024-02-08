@@ -17,8 +17,6 @@ PanelTestProvider
 }
 from
 "
-asrouter
-/
 modules
 /
 PanelTestProvider
@@ -34,7 +32,7 @@ _MomentsPageHub
 }
 from
 "
-lib
+modules
 /
 MomentsPageHub
 .
