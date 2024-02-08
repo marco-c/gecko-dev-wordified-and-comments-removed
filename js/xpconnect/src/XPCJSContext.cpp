@@ -3812,8 +3812,6 @@ XPCJSContext
 xpccx
 )
 {
-SET_JS_PREFS_FROM_BROWSER_PREFS
-;
 JSContext
 *
 cx

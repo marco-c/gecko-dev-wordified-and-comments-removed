@@ -694,6 +694,18 @@ init_value
         
 )
         
+is_startup_pref_bool
+=
+"
+true
+"
+if
+is_startup_pref
+else
+"
+false
+"
+        
 macro_entries
 .
 append
@@ -712,15 +724,20 @@ MACRO
 }
 {
 }
+{
+}
 )
 '
 .
 format
 (
+                
 name
 cpp_name
 type
 setter_name
+is_startup_pref_bool
+            
 )
         
 )
@@ -785,6 +802,9 @@ Prefs
 {
 }
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :

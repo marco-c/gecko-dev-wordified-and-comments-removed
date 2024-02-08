@@ -604,6 +604,15 @@ h
 #
 include
 "
+js
+/
+Prefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_javascript
@@ -1174,6 +1183,8 @@ javascript_options_wasm_simd_avx
 ;
 #
 endif
+SET_JS_PREFS_FROM_BROWSER_PREFS
+;
 const
 char
 *
