@@ -2631,7 +2631,9 @@ lib
 /
 PrefsFeed
 .
-jsm
+sys
+.
+mjs
 "
                 
 (
@@ -2646,7 +2648,9 @@ lib
 /
 PrefsFeed
 .
-jsm
+sys
+.
+mjs
 "
 None
 )

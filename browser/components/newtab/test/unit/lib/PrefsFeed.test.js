@@ -41,7 +41,9 @@ lib
 /
 PrefsFeed
 .
-jsm
+sys
+.
+mjs
 "
 ;
 let
