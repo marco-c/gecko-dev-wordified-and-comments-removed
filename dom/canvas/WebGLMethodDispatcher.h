@@ -603,6 +603,13 @@ DEFINE_ASYNC
 HostWebGLContext
 :
 :
+BufferData_SizeOnly
+)
+DEFINE_ASYNC
+(
+HostWebGLContext
+:
+:
 BufferSubData
 )
 DEFINE_ASYNC
