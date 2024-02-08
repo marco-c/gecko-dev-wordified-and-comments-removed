@@ -158,6 +158,15 @@ Workspace
 .
 policy
 -
+AllowFileSelectionDialogs
+=
+Allow
+file
+selection
+dialogs
+.
+policy
+-
 AppAutoUpdate
 =
 Enable

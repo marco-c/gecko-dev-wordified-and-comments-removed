@@ -168,6 +168,13 @@ js
 ]
 [
 "
+browser_policy_allowfileselectiondialogs
+.
+js
+"
+]
+[
+"
 browser_policy_app_auto_update
 .
 js
