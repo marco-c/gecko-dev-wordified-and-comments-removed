@@ -238,12 +238,12 @@ function
 {
 let
 {
-XPIProvider
+XPIExports
 }
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -256,9 +256,11 @@ modules
 /
 addons
 /
-XPIProvider
+XPIExports
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -268,6 +270,8 @@ Promise
 all
 (
 [
+XPIExports
+.
 XPIProvider
 .
 updateSystemAddons

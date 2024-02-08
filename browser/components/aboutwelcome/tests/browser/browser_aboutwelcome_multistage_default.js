@@ -2603,12 +2603,12 @@ test_AWMultistage_can_restore_theme
 {
 const
 {
-XPIProvider
+XPIExports
 }
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2621,9 +2621,11 @@ modules
 /
 addons
 /
-XPIProvider
+XPIExports
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2786,6 +2788,8 @@ sandbox
 .
 stub
 (
+XPIExports
+.
 XPIProvider
 "
 getAddonsByTypes
@@ -2801,6 +2805,8 @@ sandbox
 .
 stub
 (
+XPIExports
+.
 XPIProvider
 "
 getAddonByID
@@ -2909,6 +2915,8 @@ Assert
 .
 equal
 (
+XPIExports
+.
 XPIProvider
 .
 getAddonByID
@@ -2990,6 +2998,8 @@ Assert
 .
 equal
 (
+XPIExports
+.
 XPIProvider
 .
 getAddonByID

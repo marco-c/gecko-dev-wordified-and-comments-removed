@@ -58,6 +58,13 @@ XPIDatabase
 jsm
 "
 "
+XPIExports
+.
+sys
+.
+mjs
+"
+"
 XPIInstall
 .
 jsm

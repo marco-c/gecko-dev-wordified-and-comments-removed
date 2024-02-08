@@ -1,11 +1,11 @@
 const
 {
-XPIInstall
+XPIExports
 }
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,9 +18,11 @@ modules
 /
 addons
 /
-XPIInstall
+XPIExports
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -29,6 +31,8 @@ run_test
 (
 )
 {
+XPIExports
+.
 XPIInstall
 .
 cancelAll
@@ -71,6 +75,8 @@ true
 }
 }
 ;
+XPIExports
+.
 XPIInstall
 .
 doing
@@ -78,6 +84,8 @@ doing
 getsCancelled
 )
 ;
+XPIExports
+.
 XPIInstall
 .
 cancelAll
@@ -116,6 +124,8 @@ cancelled
 )
 }
 ;
+XPIExports
+.
 XPIInstall
 .
 doing
@@ -127,6 +137,8 @@ Assert
 .
 ok
 (
+XPIExports
+.
 XPIInstall
 .
 done
@@ -135,6 +147,8 @@ doesntGetCancelled
 )
 )
 ;
+XPIExports
+.
 XPIInstall
 .
 cancelAll
@@ -180,6 +194,8 @@ isCancelled
 =
 true
 ;
+XPIExports
+.
 XPIInstall
 .
 doing
@@ -190,6 +206,8 @@ getsCancelled
 }
 }
 ;
+XPIExports
+.
 XPIInstall
 .
 doing
@@ -197,6 +215,8 @@ doing
 addsAnother
 )
 ;
+XPIExports
+.
 XPIInstall
 .
 cancelAll
@@ -254,6 +274,8 @@ isCancelled
 =
 true
 ;
+XPIExports
+.
 XPIInstall
 .
 done
@@ -264,6 +286,8 @@ doesntGetCancelled
 }
 }
 ;
+XPIExports
+.
 XPIInstall
 .
 doing
@@ -271,6 +295,8 @@ doing
 removesAnother
 )
 ;
+XPIExports
+.
 XPIInstall
 .
 doing
@@ -278,6 +304,8 @@ doing
 doesntGetCancelled
 )
 ;
+XPIExports
+.
 XPIInstall
 .
 cancelAll
