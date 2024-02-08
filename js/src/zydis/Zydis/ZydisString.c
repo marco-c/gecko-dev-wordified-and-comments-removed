@@ -95,6 +95,7 @@ defined
 (
 ZYAN_PPC
 )
+static
 ZyanStatus
 ZydisStringAppendDecU32
 (
@@ -363,6 +364,7 @@ ZYAN_STATUS_SUCCESS
 }
 #
 endif
+static
 ZyanStatus
 ZydisStringAppendDecU64
 (
@@ -432,10 +434,11 @@ buffer_write_pointer
 =
 2
 ;
+ZYAN_DIV64
+(
 value
-/
-=
 100
+)
 ;
 ZYAN_MEMCPY
 (
@@ -659,6 +662,7 @@ defined
 (
 ZYAN_PPC
 )
+static
 ZyanStatus
 ZydisStringAppendHexU32
 (
@@ -1035,6 +1039,7 @@ ZYAN_STATUS_SUCCESS
 }
 #
 endif
+static
 ZyanStatus
 ZydisStringAppendHexU64
 (
@@ -1478,6 +1483,12 @@ defined
 (
 ZYAN_RISCV64
 )
+|
+|
+defined
+(
+ZYAN_LOONGARCH
+)
 ZYAN_CHECK
 (
 ZydisStringAppendDecU64
@@ -1602,6 +1613,12 @@ ZYAN_PPC64
 defined
 (
 ZYAN_RISCV64
+)
+|
+|
+defined
+(
+ZYAN_LOONGARCH
 )
 ZYAN_CHECK
 (

@@ -47,6 +47,7 @@ endif
 ZyanU32
 ZyanMemoryGetSystemPageSize
 (
+void
 )
 {
 #
@@ -87,6 +88,7 @@ endif
 ZyanU32
 ZyanMemoryGetSystemAllocationGranularity
 (
+void
 )
 {
 #

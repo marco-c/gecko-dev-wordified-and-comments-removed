@@ -136,6 +136,10 @@ ZYAN_FREE
 free
 #
 define
+ZYAN_GETENV
+getenv
+#
+define
 ZYAN_MALLOC
 malloc
 #

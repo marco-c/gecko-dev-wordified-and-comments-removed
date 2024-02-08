@@ -142,12 +142,14 @@ ZYCORE_EXPORT
 ZyanU32
 ZyanMemoryGetSystemPageSize
 (
+void
 )
 ;
 ZYCORE_EXPORT
 ZyanU32
 ZyanMemoryGetSystemAllocationGranularity
 (
+void
 )
 ;
 ZYCORE_EXPORT
