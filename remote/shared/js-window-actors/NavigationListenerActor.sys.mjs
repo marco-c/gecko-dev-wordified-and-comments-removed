@@ -327,6 +327,17 @@ getAllBrowsingContextsInSubtree
 )
 )
 {
+if
+(
+!
+context
+.
+currentWindowGlobal
+)
+{
+continue
+;
+}
 context
 .
 currentWindowGlobal
