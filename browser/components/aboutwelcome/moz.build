@@ -85,7 +85,9 @@ modules
 /
 AboutWelcomeTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 "
 modules
