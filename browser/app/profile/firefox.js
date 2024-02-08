@@ -17737,7 +17737,7 @@ view
 .
 focusNextOnEnter
 "
-false
+true
 )
 ;
 pref
