@@ -200,17 +200,6 @@ astSource
 )
 ;
 }
-hasSyntaxError
-=
-this
-.
-task
-(
-"
-hasSyntaxError
-"
-)
-;
 mapExpression
 =
 this
