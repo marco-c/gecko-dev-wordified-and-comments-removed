@@ -3335,7 +3335,6 @@ device_id
 |
 hal_device
 |
-{
 hal_device
 .
 map
@@ -3353,7 +3352,6 @@ clone
 (
 )
 )
-}
 )
 }
 ;
@@ -3417,7 +3415,6 @@ device_id
 |
 hal_fence
 |
-{
 hal_fence
 .
 map
@@ -3435,7 +3432,6 @@ clone
 (
 )
 )
-}
 )
 }
 ;
