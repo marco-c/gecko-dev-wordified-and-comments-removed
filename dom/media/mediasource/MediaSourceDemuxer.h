@@ -292,7 +292,7 @@ TimeUnit
 :
 FromMicroseconds
 (
-550000
+1000000
 )
 ;
 private
