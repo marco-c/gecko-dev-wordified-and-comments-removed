@@ -244,13 +244,6 @@ h
 #
 include
 "
-TemporaryLifetimeBoundChecker
-.
-h
-"
-#
-include
-"
 TrivialCtorDtorChecker
 .
 h

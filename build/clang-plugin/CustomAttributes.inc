@@ -116,10 +116,6 @@ moz_temporary_class
 )
 ATTR
 (
-moz_lifetime_bound
-)
-ATTR
-(
 moz_trivial_ctor_dtor
 )
 ATTR

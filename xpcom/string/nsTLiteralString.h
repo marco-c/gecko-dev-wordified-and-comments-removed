@@ -152,7 +152,6 @@ nsTLiteralString
 =
 default
 ;
-MOZ_LIFETIME_BOUND
 const
 nsTString
 <
@@ -163,6 +162,7 @@ AsString
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 *
@@ -180,7 +180,6 @@ this
 )
 ;
 }
-MOZ_LIFETIME_BOUND
 operator
 const
 nsTString
@@ -191,6 +190,7 @@ T
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 AsString
