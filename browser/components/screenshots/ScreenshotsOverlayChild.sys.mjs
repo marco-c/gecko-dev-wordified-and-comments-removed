@@ -681,6 +681,9 @@ class
 screenshots
 -
 button
+ghost
+-
+button
 "
 id
 =
