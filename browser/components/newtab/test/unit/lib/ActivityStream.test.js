@@ -97,7 +97,9 @@ lib
 /
 NewTabInit
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

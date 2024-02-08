@@ -28,7 +28,9 @@ lib
 /
 NewTabInit
 .
-jsm
+sys
+.
+mjs
 "
 ;
 describe
