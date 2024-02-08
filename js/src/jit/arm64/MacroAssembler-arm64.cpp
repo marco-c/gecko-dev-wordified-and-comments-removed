@@ -8244,10 +8244,6 @@ finish
 )
 ;
 }
-syncStackPtr
-(
-)
-;
 assertStackAlignment
 (
 ABIStackAlignment
