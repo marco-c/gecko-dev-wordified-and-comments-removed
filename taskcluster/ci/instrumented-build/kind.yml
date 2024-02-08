@@ -2509,6 +2509,10 @@ wasm32
 wasi
 -
 vs
+-
+windows
+-
+rs
 fetch
 :
 -
@@ -2678,6 +2682,10 @@ wasm32
 wasi
 -
 vs
+-
+windows
+-
+rs
 fetch
 :
 -

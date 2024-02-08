@@ -377,22 +377,6 @@ lock
 PACKAGES_WE_DONT_WANT
 =
 {
-    
-"
-windows
-"
-:
-"
-The
-windows
-crate
-is
-too
-big
-to
-vendor
-.
-"
 }
 PACKAGES_WE_ALWAYS_WANT_AN_OVERRIDE_OF
 =
@@ -408,6 +392,10 @@ cmake
     
 "
 vcpkg
+"
+    
+"
+windows
 "
     
 "

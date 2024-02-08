@@ -2517,8 +2517,6 @@ detect_win32k_conflicts
 "
 }
 windows
--
-core
 =
 "
 =

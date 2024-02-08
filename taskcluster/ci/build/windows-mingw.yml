@@ -106,6 +106,14 @@ unless
 expanded
 :
 null
+fetches
+:
+toolchain
+:
+-
+windows
+-
+rs
 win32
 -
 mingwclang
