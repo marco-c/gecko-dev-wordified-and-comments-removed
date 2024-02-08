@@ -2356,6 +2356,7 @@ SetCharacterMap
 (
 sharedFontList
 charmap
+mShmemFamily
 )
 ;
 if

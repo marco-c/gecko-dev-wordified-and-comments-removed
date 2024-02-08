@@ -1687,6 +1687,9 @@ IsUserFont
 &
 &
 mShmemFace
+&
+&
+mShmemFamily
 )
 {
 mShmemFace
@@ -1696,6 +1699,7 @@ SetCharacterMap
 (
 sharedFontList
 charmap
+mShmemFamily
 )
 ;
 if
