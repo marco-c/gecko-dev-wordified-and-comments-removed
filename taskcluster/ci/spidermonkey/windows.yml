@@ -146,6 +146,10 @@ toolchain
 -
 win64
 -
+cbindgen
+-
+win64
+-
 clang
 -
 win64
@@ -236,6 +240,10 @@ toolchain
 -
 win64
 -
+cbindgen
+-
+win64
+-
 clang
 -
 win64
@@ -307,6 +315,10 @@ fetches
 :
 toolchain
 :
+-
+win64
+-
+cbindgen
 -
 win64
 -
@@ -400,6 +412,10 @@ toolchain
 -
 win64
 -
+cbindgen
+-
+win64
+-
 clang
 -
 win64
@@ -471,6 +487,10 @@ fetches
 :
 toolchain
 :
+-
+win64
+-
+cbindgen
 -
 win64
 -
@@ -556,6 +576,10 @@ fetches
 :
 toolchain
 :
+-
+win64
+-
+cbindgen
 -
 win64
 -
