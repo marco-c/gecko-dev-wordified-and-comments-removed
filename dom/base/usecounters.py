@@ -4749,6 +4749,10 @@ constexpr
 struct
 {
     
+UseCounter
+counter
+;
+    
 const
 char
 *
@@ -4823,10 +4827,6 @@ len
 css_doc
 )
     
-index
-=
-0
-    
 for
 pc
 dc
@@ -4876,20 +4876,6 @@ f
 {
 {
           
-(
-[
-]
-{
-{
-static_assert
-(
-{
-index
-}
-=
-=
-size_t
-(
 UseCounter
 :
 :
@@ -4899,13 +4885,7 @@ pc
 0
 ]
 }
-)
-)
-;
-}
-}
-(
-)
+          
 "
 {
 pc
@@ -4914,7 +4894,6 @@ pc
 ]
 }
 "
-)
           
 glean
 :
@@ -4949,11 +4928,6 @@ pc
 "
         
 )
-        
-index
-+
-=
-1
     
 for
 pc
@@ -5004,20 +4978,6 @@ f
 {
 {
           
-(
-[
-]
-{
-{
-static_assert
-(
-{
-index
-}
-=
-=
-size_t
-(
 UseCounter
 :
 :
@@ -5027,13 +4987,7 @@ pc
 0
 ]
 }
-)
-)
-;
-}
-}
-(
-)
+          
 "
 deprecated_ops
 .
@@ -5044,7 +4998,6 @@ pc
 ]
 }
 "
-)
           
 glean
 :
@@ -5079,11 +5032,6 @@ pc
 "
         
 )
-        
-index
-+
-=
-1
     
 for
 pc
@@ -5134,20 +5082,6 @@ f
 {
 {
           
-(
-[
-]
-{
-{
-static_assert
-(
-{
-index
-}
-=
-=
-size_t
-(
 UseCounter
 :
 :
@@ -5157,13 +5091,7 @@ pc
 0
 ]
 }
-)
-)
-;
-}
-}
-(
-)
+          
 "
 css
 .
@@ -5174,7 +5102,6 @@ pc
 ]
 }
 "
-)
           
 glean
 :
@@ -5209,11 +5136,6 @@ pc
 "
         
 )
-        
-index
-+
-=
-1
     
 f
 .
@@ -5256,6 +5178,22 @@ aUseCounter
 ]
 ;
   
+MOZ_ASSERT
+(
+entry
+.
+counter
+=
+=
+aUseCounter
+"
+Wrongly
+ordered
+array
+"
+)
+;
+  
 (
 aIsPage
 ?
@@ -5295,6 +5233,10 @@ static
 constexpr
 struct
 {
+    
+UseCounterWorker
+counter
+;
     
 const
 char
@@ -5368,10 +5310,6 @@ len
 service
 )
     
-index
-=
-0
-    
 for
 dc
 sc
@@ -5447,20 +5385,6 @@ f
 {
 {
           
-(
-[
-]
-{
-{
-static_assert
-(
-{
-index
-}
-=
-=
-size_t
-(
 UseCounterWorker
 :
 :
@@ -5470,13 +5394,7 @@ dc
 0
 ]
 }
-)
-)
-;
-}
-}
-(
-)
+          
 "
 {
 dc
@@ -5485,7 +5403,6 @@ dc
 ]
 }
 "
-)
           
 glean
 :
@@ -5533,11 +5450,6 @@ dc
 "
         
 )
-        
-index
-+
-=
-1
     
 f
 .
@@ -5578,6 +5490,22 @@ size_t
 aUseCounter
 )
 ]
+;
+  
+MOZ_ASSERT
+(
+entry
+.
+counter
+=
+=
+aUseCounter
+"
+Wrongly
+ordered
+array
+"
+)
 ;
   
 switch
