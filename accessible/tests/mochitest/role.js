@@ -902,6 +902,13 @@ nsIAccessibleRole
 ROLE_TEXT_LEAF
 ;
 const
+ROLE_TIME
+=
+nsIAccessibleRole
+.
+ROLE_TIME
+;
+const
 ROLE_TIME_EDITOR
 =
 nsIAccessibleRole
