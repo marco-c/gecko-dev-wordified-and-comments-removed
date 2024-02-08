@@ -557,6 +557,9 @@ ColorRange
 FULL
 false
 aFenceInfo
+Nothing
+(
+)
 )
 )
 ;
