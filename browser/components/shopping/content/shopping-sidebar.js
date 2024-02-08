@@ -69,6 +69,11 @@ message
 "
 true
 "
+manualactiveness
+=
+"
+true
+"
 remoteType
 =
 "
