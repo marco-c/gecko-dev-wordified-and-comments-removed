@@ -1993,7 +1993,7 @@ return
 callFunction
 (
 String_repeat
-separator
+sep
 len
 -
 1
@@ -2115,7 +2115,7 @@ R
 callFunction
 (
 String_repeat
-separator
+sep
 len
 -
 limit
