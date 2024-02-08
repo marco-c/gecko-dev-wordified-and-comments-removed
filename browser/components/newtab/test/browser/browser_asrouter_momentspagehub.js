@@ -32,7 +32,7 @@ MomentsPageHub
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ lib
 /
 MomentsPageHub
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
