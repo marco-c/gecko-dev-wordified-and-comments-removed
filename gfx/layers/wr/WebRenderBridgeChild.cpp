@@ -1874,6 +1874,13 @@ WebRenderBridgeChild
 :
 SyncWithCompositor
 (
+const
+Maybe
+<
+uint64_t
+>
+&
+aWindowID
 )
 {
 if
