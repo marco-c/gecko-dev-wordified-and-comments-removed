@@ -296,6 +296,9 @@ final
 :
 public
 TrailingArray
+<
+ICScript
+>
 {
 public
 :
@@ -1003,6 +1006,9 @@ JitScript
 >
 public
 TrailingArray
+<
+JitScript
+>
 {
 friend
 class

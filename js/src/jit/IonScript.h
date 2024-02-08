@@ -125,6 +125,9 @@ final
 :
 public
 TrailingArray
+<
+IonScript
+>
 {
 private
 :

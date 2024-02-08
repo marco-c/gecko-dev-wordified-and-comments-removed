@@ -1580,6 +1580,9 @@ final
 :
 public
 TrailingArray
+<
+ImmutableScriptData
+>
 {
 private
 :

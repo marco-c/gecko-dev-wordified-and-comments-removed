@@ -5421,6 +5421,9 @@ final
 :
 public
 TrailingArray
+<
+PrivateScriptData
+>
 {
 private
 :
