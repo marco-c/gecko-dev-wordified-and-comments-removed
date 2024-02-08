@@ -169,6 +169,13 @@ html
 ]
 [
 "
+test_dynamic_importMap_with_external_script
+.
+html
+"
+]
+[
+"
 test_importMap_with_external_script
 .
 html

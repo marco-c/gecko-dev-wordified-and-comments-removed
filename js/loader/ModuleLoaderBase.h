@@ -1441,6 +1441,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+bool
+IsScriptPreloadedAndHasParseError
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 enum
 {
 ModulePrivateSlot
