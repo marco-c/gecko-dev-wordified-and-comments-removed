@@ -129,6 +129,15 @@ jsm
 "
 modules
 /
+InfoBar
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 MessagingExperimentConstants
 .
 sys
