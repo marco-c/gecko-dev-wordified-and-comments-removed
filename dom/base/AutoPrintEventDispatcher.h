@@ -74,9 +74,10 @@ Document
 aDocs
 )
 {
-auto
-recurse
-=
+aDoc
+.
+EnumerateSubDocuments
+(
 [
 &
 aDocs
@@ -108,12 +109,6 @@ CallState
 Continue
 ;
 }
-;
-aDoc
-.
-EnumerateSubDocuments
-(
-recurse
 )
 ;
 }
