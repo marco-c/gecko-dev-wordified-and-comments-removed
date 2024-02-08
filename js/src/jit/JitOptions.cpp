@@ -877,7 +877,7 @@ true
 SET_DEFAULT
 (
 spectreJitToCxxCalls
-false
+true
 )
 ;
 #
