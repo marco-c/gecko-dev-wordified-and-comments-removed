@@ -46571,6 +46571,9 @@ false
 mirror
 :
 always
+set_spidermonkey_pref
+:
+startup
 #
 Experimental
 support
