@@ -1579,7 +1579,7 @@ nullptr
 nullptr
 &
 blockId
-PinchOptions
+PinchFlags
 :
 :
 LiftFinger2
@@ -1762,7 +1762,7 @@ nullptr
 nullptr
 &
 blockId
-PinchOptions
+PinchFlags
 :
 :
 LiftFinger2
@@ -1867,7 +1867,7 @@ nullptr
 nullptr
 &
 blockId
-PinchOptions
+PinchFlags
 :
 :
 LiftFinger2
