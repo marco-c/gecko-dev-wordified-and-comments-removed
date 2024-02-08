@@ -79,6 +79,10 @@ esr115
 "
 pine
 "
+    
+"
+larch
+"
 }
 RELEASE_PROMOTION_PROJECTS
 =

@@ -624,7 +624,7 @@ release
         
 self
 .
-assertFalse
+assertTrue
 (
 match_run_on_projects
 (
@@ -860,7 +860,7 @@ maple
         
 self
 .
-assertFalse
+assertTrue
 (
 match_run_on_projects
 (
