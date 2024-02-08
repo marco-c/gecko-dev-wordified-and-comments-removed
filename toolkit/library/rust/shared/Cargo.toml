@@ -2516,16 +2516,6 @@ xre
 detect_win32k_conflicts
 "
 }
-windows
-=
-"
-=
-0
-.
-52
-.
-0
-"
 [
 features
 ]
