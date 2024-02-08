@@ -731,7 +731,7 @@ do_get_file_hash
 (
 xpi
 "
-sha1
+sha256
 "
 )
 .
@@ -799,7 +799,7 @@ do_get_file_hash
 (
 xpi
 "
-sha1
+sha256
 "
 )
 .
