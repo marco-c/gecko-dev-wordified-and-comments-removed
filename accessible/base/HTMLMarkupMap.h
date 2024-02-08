@@ -1030,6 +1030,15 @@ HEADING
 )
 MARKUPMAP
 (
+hgroup
+New_HyperText
+roles
+:
+:
+GROUPING
+)
+MARKUPMAP
+(
 hr
 [
 ]
