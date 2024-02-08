@@ -961,6 +961,12 @@ crossorigin
 )
 ;
 }
+nsDOMTokenList
+*
+Blocking
+(
+)
+;
 void
 NodeInfoChanged
 (
@@ -1106,6 +1112,12 @@ RefPtr
 nsDOMTokenList
 >
 mSizes
+;
+RefPtr
+<
+nsDOMTokenList
+>
+mBlocking
 ;
 WeakPtr
 <

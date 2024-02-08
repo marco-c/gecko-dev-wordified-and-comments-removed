@@ -6321,6 +6321,13 @@ kDontCallAfterSetAttr
 =
 false
 ;
+static
+const
+DOMTokenListSupportedToken
+sSupportedBlockingValues
+[
+]
+;
 nsresult
 SetAttrAndNotify
 (

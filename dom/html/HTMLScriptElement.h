@@ -49,6 +49,9 @@ nsStringFwd
 .
 h
 "
+class
+nsDOMTokenList
+;
 namespace
 mozilla
 :
@@ -92,6 +95,11 @@ aFromParser
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+HTMLScriptElement
+nsGenericHTMLElement
+)
 void
 GetInnerHTML
 (
@@ -736,6 +744,12 @@ aReferrerPolicy
 )
 ;
 }
+nsDOMTokenList
+*
+Blocking
+(
+)
+;
 using
 nsGenericHTMLElement
 :
@@ -819,6 +833,12 @@ HasScriptContent
 (
 )
 override
+;
+RefPtr
+<
+nsDOMTokenList
+>
+mBlocking
 ;
 }
 ;
