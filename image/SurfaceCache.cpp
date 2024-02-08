@@ -8653,7 +8653,7 @@ maxSize
 StaticPrefs
 :
 :
-image_mem_max_legal_imgframe_size_kb
+image_mem_max_legal_imgframe_size_kb_AtStartup
 (
 )
 ;
