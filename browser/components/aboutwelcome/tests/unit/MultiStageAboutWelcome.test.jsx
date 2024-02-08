@@ -74,7 +74,9 @@ modules
 /
 AboutWelcomeDefaults
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

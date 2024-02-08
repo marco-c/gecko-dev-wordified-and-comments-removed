@@ -78,7 +78,9 @@ modules
 /
 AboutWelcomeDefaults
 .
-jsm
+sys
+.
+mjs
 "
 "
 modules
