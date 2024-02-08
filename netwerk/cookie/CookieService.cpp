@@ -1918,7 +1918,7 @@ NS_OK
 ;
 }
 bool
-potentiallyTurstworthy
+potentiallyTrustworthy
 =
 principal
 -
@@ -2066,7 +2066,7 @@ IsSecure
 &
 &
 !
-potentiallyTurstworthy
+potentiallyTrustworthy
 )
 {
 continue
@@ -4400,7 +4400,7 @@ break
 ;
 }
 bool
-potentiallyTurstworthy
+potentiallyTrustworthy
 =
 nsMixedContentBlocker
 :
@@ -4526,7 +4526,7 @@ IsSecure
 &
 &
 !
-potentiallyTurstworthy
+potentiallyTrustworthy
 &
 &
 !
@@ -5074,7 +5074,7 @@ newCookie
 ;
 }
 bool
-potentiallyTurstworthy
+potentiallyTrustworthy
 =
 nsMixedContentBlocker
 :
@@ -5450,7 +5450,7 @@ if
 CheckPrefixes
 (
 aCookieData
-potentiallyTurstworthy
+potentiallyTrustworthy
 )
 )
 {
@@ -5641,7 +5641,7 @@ isSecure
 &
 &
 !
-potentiallyTurstworthy
+potentiallyTrustworthy
 )
 {
 COOKIE_LOGFAILURE
