@@ -575,7 +575,7 @@ debuggerGlobal
 frame
 evalInput
 selectedNodeActorID
-ignoreExistingBindings
+preferConsoleCommandsOverLocalSymbols
 )
 {
 const
@@ -686,7 +686,7 @@ commands
 if
 (
 !
-ignoreExistingBindings
+preferConsoleCommandsOverLocalSymbols
 &
 &
 (

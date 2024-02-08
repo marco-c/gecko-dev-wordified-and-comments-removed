@@ -114,6 +114,9 @@ actor
 disableBreaks
 :
 true
+preferConsoleCommandsOverLocalSymbols
+:
+true
 }
 )
 ;
@@ -229,6 +232,9 @@ selectedObjectActor
 :
 actor
 disableBreaks
+:
+true
+preferConsoleCommandsOverLocalSymbols
 :
 true
 }

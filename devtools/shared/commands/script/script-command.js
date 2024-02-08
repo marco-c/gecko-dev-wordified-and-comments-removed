@@ -237,6 +237,11 @@ disableBreaks
 options
 .
 disableBreaks
+preferConsoleCommandsOverLocalSymbols
+:
+options
+.
+preferConsoleCommandsOverLocalSymbols
 }
 )
 .

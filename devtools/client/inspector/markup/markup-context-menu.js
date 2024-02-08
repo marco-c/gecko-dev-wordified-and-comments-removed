@@ -1530,6 +1530,9 @@ actorID
 disableBreaks
 :
 true
+preferConsoleCommandsOverLocalSymbols
+:
+true
 }
 )
 ;

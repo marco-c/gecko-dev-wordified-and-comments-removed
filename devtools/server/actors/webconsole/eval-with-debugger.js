@@ -386,11 +386,9 @@ string
 options
 .
 selectedNodeActor
-!
-!
 options
 .
-disableBreaks
+preferConsoleCommandsOverLocalSymbols
 )
 ;
 let
@@ -557,7 +555,7 @@ if
 (
 options
 .
-disableBreaks
+preferConsoleCommandsOverLocalSymbols
 )
 {
 evalOptions

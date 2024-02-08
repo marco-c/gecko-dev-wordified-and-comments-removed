@@ -3079,6 +3079,13 @@ disableBreaks
 request
 .
 disableBreaks
+preferConsoleCommandsOverLocalSymbols
+:
+!
+!
+request
+.
+preferConsoleCommandsOverLocalSymbols
 }
 ;
 const
