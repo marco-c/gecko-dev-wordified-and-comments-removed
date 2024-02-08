@@ -1673,13 +1673,6 @@ mac
 ]
 [
 "
-browser_ext_optionsPage_activity
-.
-js
-"
-]
-[
-"
 browser_ext_optionsPage_browser_style
 .
 js
