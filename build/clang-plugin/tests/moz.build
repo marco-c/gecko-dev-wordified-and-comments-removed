@@ -203,11 +203,6 @@ TestRefCountedCopyConstructor
 cpp
 "
 "
-TestRefCountedThisInsideConstructor
-.
-cpp
-"
-"
 TestSprintfLiteral
 .
 cpp
