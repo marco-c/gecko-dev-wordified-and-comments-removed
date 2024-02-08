@@ -971,5 +971,12 @@ ROLE_SUPERSCRIPT
 =
 134
 ;
+const
+unsigned
+long
+ROLE_EMPHASIS
+=
+135
+;
 }
 ;

@@ -770,6 +770,15 @@ TERM
 )
 MARKUPMAP
 (
+em
+New_HyperText
+roles
+:
+:
+EMPHASIS
+)
+MARKUPMAP
+(
 figcaption
 [
 ]
