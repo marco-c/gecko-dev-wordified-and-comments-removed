@@ -3823,8 +3823,6 @@ forceClosePopup
 identity
 -
 icon
--
-box
 "
 )
 ;
