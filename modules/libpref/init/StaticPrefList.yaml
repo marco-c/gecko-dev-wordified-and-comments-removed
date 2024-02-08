@@ -46719,6 +46719,9 @@ true
 mirror
 :
 always
+set_spidermonkey_pref
+:
+startup
 #
 ifdef
 NIGHTLY_BUILD
