@@ -48,6 +48,15 @@ kWidgetId
 "
 idontexistyet
 "
+tooltiptext
+:
+"
+I
+am
+an
+accessible
+name
+"
 onBeforeCreated
 (
 doc

@@ -49,6 +49,15 @@ type
 "
 button
 "
+tooltiptext
+:
+"
+I
+am
+an
+accessible
+name
+"
 onClick
 (
 )
