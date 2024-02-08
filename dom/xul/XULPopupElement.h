@@ -200,12 +200,8 @@ IsMenu
 const
 {
 return
-IsAnyOfXULElements
+IsXULElement
 (
-nsGkAtoms
-:
-:
-popup
 nsGkAtoms
 :
 :
@@ -450,10 +446,6 @@ nsGkAtoms
 :
 :
 menupopup
-nsGkAtoms
-:
-:
-popup
 nsGkAtoms
 :
 :
