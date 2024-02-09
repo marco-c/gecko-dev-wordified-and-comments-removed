@@ -5531,6 +5531,17 @@ state
 mPresShell
 )
 ;
+caret
+-
+>
+SetLastCaretFrame
+(
+state
+-
+>
+mCaretFrame
+)
+;
 MarkFrameForDisplay
 (
 state
