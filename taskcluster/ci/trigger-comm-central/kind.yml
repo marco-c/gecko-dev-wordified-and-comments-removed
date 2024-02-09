@@ -106,6 +106,8 @@ projects
 mozilla
 -
 central
+-
+only
 '
 ]
 treeherder
