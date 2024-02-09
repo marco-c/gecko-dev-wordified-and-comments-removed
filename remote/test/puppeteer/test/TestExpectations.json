@@ -9023,13 +9023,7 @@ expectations
 :
 [
 "
-FAIL
-"
-"
 PASS
-"
-"
-TIMEOUT
 "
 ]
 }
