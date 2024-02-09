@@ -1014,11 +1014,6 @@ props
 .
 handleAction
 }
-activeMultiSelect
-=
-{
-activeMultiSelect
-}
 /
 >
 )
