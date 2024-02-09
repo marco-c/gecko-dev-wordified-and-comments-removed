@@ -1470,6 +1470,15 @@ RecoverFromCDMProcessCrashIfNeeded
 (
 )
 ;
+void
+ReportTelemetry
+(
+const
+MediaResult
+&
+aError
+)
+;
 UniquePtr
 <
 ExternalPlaybackEngine
@@ -1513,6 +1522,9 @@ gfx
 :
 IntSize
 mVideoDisplay
+;
+nsCString
+mKeySystem
 ;
 }
 ;
