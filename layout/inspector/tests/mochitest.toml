@@ -65,6 +65,11 @@ files
 =
 [
 "
+at_property
+.
+css
+"
+"
 bug1202095
 .
 css
@@ -80,6 +85,11 @@ css
 bug856317
 .
 css
+"
+"
+css_register_property
+.
+js
 "
 "
 file_bug522601
