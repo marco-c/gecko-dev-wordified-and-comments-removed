@@ -195,6 +195,11 @@ hideIgnoredSources
 prefs
 .
 hideIgnoredSources
+sourceMapsEnabled
+:
+prefs
+.
+clientSourceMapsEnabled
 sourceMapIgnoreListEnabled
 :
 prefs
@@ -365,6 +370,11 @@ return
 .
 .
 state
+sourceMapsEnabled
+:
+action
+.
+value
 }
 ;
 }
