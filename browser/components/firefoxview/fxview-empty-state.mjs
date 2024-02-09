@@ -705,6 +705,9 @@ class
 =
 "
 header
+heading
+-
+large
 "
 ?
 hidden
