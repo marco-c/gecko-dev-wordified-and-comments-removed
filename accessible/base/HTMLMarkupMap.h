@@ -1779,6 +1779,15 @@ Document
 )
 MARKUPMAP
 (
+strong
+New_HyperText
+roles
+:
+:
+STRONG
+)
+MARKUPMAP
+(
 sub
 New_HyperText
 roles
