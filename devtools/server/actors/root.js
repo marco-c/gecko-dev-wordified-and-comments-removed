@@ -330,6 +330,9 @@ true
 supportsReleaseActors
 :
 true
+throttledResources
+:
+true
 }
 ;
 }
