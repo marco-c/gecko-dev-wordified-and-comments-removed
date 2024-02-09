@@ -34573,6 +34573,10 @@ PickerOpen
 (
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 mPickerDisplayCount
 +
 +
@@ -34586,6 +34590,10 @@ PickerClosed
 (
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 NS_ASSERTION
 (
 mPickerDisplayCount
