@@ -1882,7 +1882,10 @@ MARKUPMAP
 (
 time
 New_HyperText
-0
+roles
+:
+:
+TIME
 Attr
 (
 xmlroles
