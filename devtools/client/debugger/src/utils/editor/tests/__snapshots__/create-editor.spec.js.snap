@@ -84,6 +84,11 @@ Object
 {
 }
 "
+cm6
+"
+:
+false
+"
 contextMenu
 "
 :
@@ -548,6 +553,11 @@ autocompleteOpts
 Object
 {
 }
+"
+cm6
+"
+:
+false
 "
 contextMenu
 "

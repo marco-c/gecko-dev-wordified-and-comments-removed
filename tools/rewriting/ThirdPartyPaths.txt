@@ -129,6 +129,16 @@ shared
 /
 sourceeditor
 /
+codemirror6
+/
+devtools
+/
+client
+/
+shared
+/
+sourceeditor
+/
 test
 /
 cm_mode_ruby
