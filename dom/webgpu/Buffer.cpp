@@ -1128,6 +1128,11 @@ GetBridge
 >
 SendBufferMap
 (
+GetDevice
+(
+)
+.
+mId
 mId
 aMode
 aOffset
