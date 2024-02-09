@@ -1014,6 +1014,11 @@ props
 .
 handleAction
 }
+activeMultiSelect
+=
+{
+activeMultiSelect
+}
 /
 >
 )
@@ -1775,15 +1780,6 @@ this
 props
 .
 setActiveMultiSelect
-}
-handleAction
-=
-{
-this
-.
-props
-.
-handleAction
 }
 /
 >
