@@ -741,10 +741,7 @@ GetStatusForPolicy
 PromiseId
 aPromiseId
 const
-dom
-:
-:
-HDCPVersion
+nsAString
 &
 aMinHdcpVersion
 )

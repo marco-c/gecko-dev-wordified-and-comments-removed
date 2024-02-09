@@ -1154,16 +1154,6 @@ scheme
 )
 ;
 }
-aKeySystemConfig
-.
-mIsHDCP22Compatible
-=
-aCDMConfig
-.
-isHDCP22Compatible
-(
-)
-;
 EME_LOG
 (
 "
