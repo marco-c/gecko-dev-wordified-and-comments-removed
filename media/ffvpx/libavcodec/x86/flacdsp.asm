@@ -475,6 +475,9 @@ pred_orderd
 jle
 .
 ret
+movsxdifnidn
+pred_orderq
+pred_orderd
 lea
 decodedq
 [

@@ -163,6 +163,15 @@ AV_PIX_FMT_FLAG_FLOAT
 <
 9
 )
+#
+define
+AV_PIX_FMT_FLAG_XYZ
+(
+1
+<
+<
+10
+)
 int
 av_get_bits_per_pixel
 (

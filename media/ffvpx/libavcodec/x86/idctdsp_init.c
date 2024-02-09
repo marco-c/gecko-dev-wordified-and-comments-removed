@@ -180,6 +180,9 @@ switch
 perm_type
 )
 {
+#
+if
+ARCH_X86_32
 case
 FF_IDCT_PERM_SIMPLE
 :
@@ -210,6 +213,8 @@ i
 return
 1
 ;
+#
+endif
 case
 FF_IDCT_PERM_SSE2
 :

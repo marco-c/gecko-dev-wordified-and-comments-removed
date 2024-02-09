@@ -123,7 +123,8 @@ is_copy
 int
 pad_samples
 ;
-AVBufferRef
+struct
+FramePool
 *
 pool
 ;
@@ -336,15 +337,6 @@ const
 AVCodec
 *
 codec
-)
-;
-AVCPBProperties
-*
-ff_add_cpb_side_data
-(
-AVCodecContext
-*
-avctx
 )
 ;
 int

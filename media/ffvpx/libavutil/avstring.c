@@ -82,13 +82,6 @@ macros
 .
 h
 "
-#
-include
-"
-version
-.
-h
-"
 int
 av_strstart
 (

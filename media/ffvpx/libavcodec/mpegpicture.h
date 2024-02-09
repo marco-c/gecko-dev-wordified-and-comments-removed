@@ -154,10 +154,6 @@ alloc_mb_height
 int
 alloc_mb_stride
 ;
-AVBufferRef
-*
-hwaccel_priv_buf
-;
 void
 *
 hwaccel_picture_private
@@ -202,13 +198,7 @@ ScratchpadContext
 *
 sc
 int
-shared
-int
 encoding
-int
-chroma_x_shift
-int
-chroma_y_shift
 int
 out_format
 int
@@ -246,9 +236,6 @@ linesize
 int
 ff_mpeg_ref_picture
 (
-AVCodecContext
-*
-avctx
 Picture
 *
 dst
@@ -260,9 +247,6 @@ src
 void
 ff_mpeg_unref_picture
 (
-AVCodecContext
-*
-avctx
 Picture
 *
 picture
@@ -271,9 +255,6 @@ picture
 void
 ff_mpv_picture_free
 (
-AVCodecContext
-*
-avctx
 Picture
 *
 pic

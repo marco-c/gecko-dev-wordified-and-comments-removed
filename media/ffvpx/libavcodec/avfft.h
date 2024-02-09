@@ -4,6 +4,25 @@ AVCODEC_AVFFT_H
 #
 define
 AVCODEC_AVFFT_H
+#
+include
+"
+libavutil
+/
+attributes
+.
+h
+"
+#
+include
+"
+version_major
+.
+h
+"
+#
+if
+FF_API_AVFFT
 typedef
 float
 FFTSample
@@ -24,6 +43,7 @@ struct
 FFTContext
 FFTContext
 ;
+attribute_deprecated
 FFTContext
 *
 av_fft_init
@@ -34,6 +54,7 @@ int
 inverse
 )
 ;
+attribute_deprecated
 void
 av_fft_permute
 (
@@ -45,6 +66,7 @@ FFTComplex
 z
 )
 ;
+attribute_deprecated
 void
 av_fft_calc
 (
@@ -56,6 +78,7 @@ FFTComplex
 z
 )
 ;
+attribute_deprecated
 void
 av_fft_end
 (
@@ -64,6 +87,7 @@ FFTContext
 s
 )
 ;
+attribute_deprecated
 FFTContext
 *
 av_mdct_init
@@ -76,6 +100,7 @@ double
 scale
 )
 ;
+attribute_deprecated
 void
 av_imdct_calc
 (
@@ -91,6 +116,7 @@ FFTSample
 input
 )
 ;
+attribute_deprecated
 void
 av_imdct_half
 (
@@ -106,6 +132,7 @@ FFTSample
 input
 )
 ;
+attribute_deprecated
 void
 av_mdct_calc
 (
@@ -121,6 +148,7 @@ FFTSample
 input
 )
 ;
+attribute_deprecated
 void
 av_mdct_end
 (
@@ -143,6 +171,7 @@ struct
 RDFTContext
 RDFTContext
 ;
+attribute_deprecated
 RDFTContext
 *
 av_rdft_init
@@ -154,6 +183,7 @@ RDFTransformType
 trans
 )
 ;
+attribute_deprecated
 void
 av_rdft_calc
 (
@@ -165,6 +195,7 @@ FFTSample
 data
 )
 ;
+attribute_deprecated
 void
 av_rdft_end
 (
@@ -189,6 +220,7 @@ DCT_I
 DST_I
 }
 ;
+attribute_deprecated
 DCTContext
 *
 av_dct_init
@@ -200,6 +232,7 @@ DCTTransformType
 type
 )
 ;
+attribute_deprecated
 void
 av_dct_calc
 (
@@ -211,6 +244,7 @@ FFTSample
 data
 )
 ;
+attribute_deprecated
 void
 av_dct_end
 (
@@ -219,5 +253,7 @@ DCTContext
 s
 )
 ;
+#
+endif
 #
 endif

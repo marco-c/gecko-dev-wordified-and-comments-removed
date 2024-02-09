@@ -118,7 +118,7 @@ VP9Frame
 ThreadFrame
 tf
 ;
-AVBufferRef
+void
 *
 extradata
 ;
@@ -132,10 +132,6 @@ mv
 ;
 int
 uses_2pass
-;
-AVBufferRef
-*
-hwaccel_priv_buf
 ;
 void
 *

@@ -627,6 +627,7 @@ endrep
 movd
 eax
 m2
+emms
 RET
 ;
 -

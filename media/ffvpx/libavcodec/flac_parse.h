@@ -102,9 +102,9 @@ streaminfo_start
 int
 ff_flac_decode_frame_header
 (
-AVCodecContext
+void
 *
-avctx
+logctx
 GetBitContext
 *
 gb

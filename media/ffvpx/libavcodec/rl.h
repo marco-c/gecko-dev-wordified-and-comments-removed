@@ -152,7 +152,7 @@ static_size
 ;
 #
 define
-INIT_VLC_RL
+VLC_INIT_RL
 (
 rl
 static_size

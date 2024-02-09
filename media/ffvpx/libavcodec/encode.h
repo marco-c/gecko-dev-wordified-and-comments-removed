@@ -109,6 +109,15 @@ int
 got_packet
 )
 ;
+AVCPBProperties
+*
+ff_encode_add_cpb_side_data
+(
+AVCodecContext
+*
+avctx
+)
+;
 static
 av_always_inline
 int64_t

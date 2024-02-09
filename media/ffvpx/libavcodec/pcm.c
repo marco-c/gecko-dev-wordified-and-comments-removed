@@ -3002,10 +3002,6 @@ nb_channels
 )
 )
 ;
-emms_c
-(
-)
-;
 }
 *
 got_frame_ptr

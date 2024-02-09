@@ -280,7 +280,7 @@ if
 seq_profile
 =
 =
-FF_PROFILE_AV1_PROFESSIONAL
+AV_PROFILE_AV1_PROFESSIONAL
 &
 &
 current
@@ -331,7 +331,7 @@ if
 seq_profile
 =
 =
-FF_PROFILE_AV1_HIGH
+AV_PROFILE_AV1_HIGH
 )
 infer
 (
@@ -516,7 +516,7 @@ if
 seq_profile
 =
 =
-FF_PROFILE_AV1_MAIN
+AV_PROFILE_AV1_MAIN
 )
 {
 infer
@@ -538,7 +538,7 @@ if
 seq_profile
 =
 =
-FF_PROFILE_AV1_HIGH
+AV_PROFILE_AV1_HIGH
 )
 {
 infer
@@ -802,8 +802,8 @@ fc
 (
 3
 seq_profile
-FF_PROFILE_AV1_MAIN
-FF_PROFILE_AV1_PROFESSIONAL
+AV_PROFILE_AV1_MAIN
+AV_PROFILE_AV1_PROFESSIONAL
 )
 ;
 flag
@@ -5754,15 +5754,15 @@ coded_lossless
 infer
 (
 tx_mode
-0
+AV1_ONLY_4X4
 )
 ;
 else
 increment
 (
 tx_mode
-1
-2
+AV1_TX_MODE_LARGEST
+AV1_TX_MODE_SELECT
 )
 ;
 return

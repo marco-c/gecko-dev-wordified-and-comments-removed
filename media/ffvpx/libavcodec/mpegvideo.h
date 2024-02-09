@@ -287,9 +287,6 @@ int
 picture_number
 ;
 int
-extradata_parsed
-;
-int
 picture_in_gop_number
 ;
 int

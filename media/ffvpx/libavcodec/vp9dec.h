@@ -30,15 +30,6 @@ include
 "
 libavutil
 /
-buffer
-.
-h
-"
-#
-include
-"
-libavutil
-/
 mem_internal
 .
 h
@@ -613,7 +604,8 @@ mvstep
 2
 ]
 ;
-AVBufferPool
+struct
+FFRefStructPool
 *
 frame_extradata_pool
 ;

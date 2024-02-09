@@ -6605,7 +6605,7 @@ avctx
 profile
 !
 =
-FF_PROFILE_UNKNOWN
+AV_PROFILE_UNKNOWN
 )
 enccfg
 .
@@ -7592,7 +7592,7 @@ g_bit_depth
 endif
 cpb_props
 =
-ff_add_cpb_side_data
+ff_encode_add_cpb_side_data
 (
 avctx
 )

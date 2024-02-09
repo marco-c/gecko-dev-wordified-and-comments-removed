@@ -129,9 +129,9 @@ val
 int
 ff_flac_decode_frame_header
 (
-AVCodecContext
+void
 *
-avctx
+logctx
 GetBitContext
 *
 gb
@@ -165,7 +165,7 @@ gb
 {
 av_log
 (
-avctx
+logctx
 AV_LOG_ERROR
 +
 log_level_offset
@@ -284,7 +284,7 @@ else
 {
 av_log
 (
-avctx
+logctx
 AV_LOG_ERROR
 +
 log_level_offset
@@ -326,7 +326,7 @@ bps_code
 {
 av_log
 (
-avctx
+logctx
 AV_LOG_ERROR
 +
 log_level_offset
@@ -369,7 +369,7 @@ gb
 {
 av_log
 (
-avctx
+logctx
 AV_LOG_ERROR
 +
 log_level_offset
@@ -409,7 +409,7 @@ frame_or_sample_num
 {
 av_log
 (
-avctx
+logctx
 AV_LOG_ERROR
 +
 log_level_offset
@@ -441,7 +441,7 @@ bs_code
 {
 av_log
 (
-avctx
+logctx
 AV_LOG_ERROR
 +
 log_level_offset
@@ -608,7 +608,7 @@ else
 {
 av_log
 (
-avctx
+logctx
 AV_LOG_ERROR
 +
 log_level_offset
@@ -659,7 +659,7 @@ gb
 {
 av_log
 (
-avctx
+logctx
 AV_LOG_ERROR
 +
 log_level_offset

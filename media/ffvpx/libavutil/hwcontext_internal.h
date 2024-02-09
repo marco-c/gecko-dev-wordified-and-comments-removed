@@ -451,6 +451,11 @@ ff_hwcontext_type_d3d11va
 extern
 const
 HWContextType
+ff_hwcontext_type_d3d12va
+;
+extern
+const
+HWContextType
 ff_hwcontext_type_drm
 ;
 extern

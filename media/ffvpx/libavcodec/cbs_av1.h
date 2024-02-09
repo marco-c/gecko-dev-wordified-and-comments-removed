@@ -1278,7 +1278,7 @@ AV1RawSequenceHeader
 *
 sequence_header
 ;
-AVBufferRef
+AV1RawOBU
 *
 sequence_header_ref
 ;
@@ -1352,6 +1352,9 @@ AV1_NUM_REF_FRAMES
 ;
 int
 operating_point
+;
+int
+fixed_obu_size_length
 ;
 }
 CodedBitstreamAV1Context

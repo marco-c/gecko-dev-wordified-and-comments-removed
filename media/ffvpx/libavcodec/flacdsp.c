@@ -650,6 +650,16 @@ channels
 ;
 #
 elif
+ARCH_RISCV
+ff_flacdsp_init_riscv
+(
+c
+fmt
+channels
+)
+;
+#
+elif
 ARCH_X86
 ff_flacdsp_init_x86
 (

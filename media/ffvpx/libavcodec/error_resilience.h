@@ -33,13 +33,6 @@ me_cmp
 h
 "
 #
-include
-"
-threadframe
-.
-h
-"
-#
 define
 VP_START
 1
@@ -95,6 +88,8 @@ AVFrame
 *
 f
 ;
+const
+struct
 ThreadFrame
 *
 tf
@@ -300,6 +295,9 @@ ff_er_frame_end
 ERContext
 *
 s
+int
+*
+decode_error_flags
 )
 ;
 void

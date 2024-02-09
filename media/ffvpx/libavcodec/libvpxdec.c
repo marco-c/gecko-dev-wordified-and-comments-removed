@@ -581,7 +581,7 @@ avctx
 >
 profile
 =
-FF_PROFILE_VP9_0
+AV_PROFILE_VP9_0
 ;
 avctx
 -
@@ -608,7 +608,7 @@ avctx
 >
 profile
 =
-FF_PROFILE_VP9_1
+AV_PROFILE_VP9_1
 ;
 avctx
 -
@@ -628,7 +628,7 @@ avctx
 >
 profile
 =
-FF_PROFILE_VP9_1
+AV_PROFILE_VP9_1
 ;
 avctx
 -
@@ -648,7 +648,7 @@ avctx
 >
 profile
 =
-FF_PROFILE_VP9_1
+AV_PROFILE_VP9_1
 ;
 avctx
 -
@@ -678,7 +678,7 @@ avctx
 >
 profile
 =
-FF_PROFILE_VP9_2
+AV_PROFILE_VP9_2
 ;
 if
 (
@@ -739,7 +739,7 @@ avctx
 >
 profile
 =
-FF_PROFILE_VP9_3
+AV_PROFILE_VP9_3
 ;
 if
 (
@@ -800,7 +800,7 @@ avctx
 >
 profile
 =
-FF_PROFILE_VP9_3
+AV_PROFILE_VP9_3
 ;
 if
 (
@@ -861,7 +861,7 @@ avctx
 >
 profile
 =
-FF_PROFILE_VP9_3
+AV_PROFILE_VP9_3
 ;
 if
 (
@@ -1871,19 +1871,12 @@ buf
 1
 ]
 )
-{
-av_frame_unref
-(
-picture
-)
-;
 return
 AVERROR
 (
 ENOMEM
 )
 ;
-}
 }
 for
 (
@@ -1949,7 +1942,7 @@ picture
 return
 ret
 ;
-av_image_copy
+av_image_copy2
 (
 picture
 -
@@ -1959,12 +1952,6 @@ picture
 -
 >
 linesize
-(
-const
-uint8_t
-*
-*
-)
 planes
 linesizes
 avctx

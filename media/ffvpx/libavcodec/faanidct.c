@@ -14,6 +14,15 @@ common
 .
 h
 "
+#
+include
+"
+libavutil
+/
+emms
+.
+h
+"
 typedef
 float
 FLOAT

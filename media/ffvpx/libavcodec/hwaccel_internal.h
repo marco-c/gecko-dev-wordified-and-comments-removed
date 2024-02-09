@@ -19,6 +19,13 @@ avcodec
 h
 "
 #
+include
+"
+refstruct
+.
+h
+"
+#
 define
 HWACCEL_CAP_ASYNC_SAFE
 (
@@ -187,10 +194,9 @@ void
 free_frame_priv
 )
 (
-void
-*
+FFRefStructOpaque
 hwctx
-uint8_t
+void
 *
 data
 )

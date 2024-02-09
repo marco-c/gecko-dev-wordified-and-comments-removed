@@ -140,7 +140,9 @@ TABLE_4_3_SIZE
 #
 endif
 extern
-VLC
+const
+VLCElem
+*
 ff_huff_vlc
 [
 16
