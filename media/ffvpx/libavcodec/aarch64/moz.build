@@ -67,11 +67,6 @@ idctdsp_neon
 S
 '
 '
-mdct_neon
-.
-S
-'
-'
 mpegaudiodsp_init
 .
 c
