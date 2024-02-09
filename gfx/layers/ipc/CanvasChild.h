@@ -64,6 +64,9 @@ namespace
 gfx
 {
 class
+DrawTargetRecording
+;
+class
 SourceSurface
 ;
 }
@@ -219,7 +222,7 @@ already_AddRefed
 gfx
 :
 :
-DrawTarget
+DrawTargetRecording
 >
 CreateDrawTarget
 (

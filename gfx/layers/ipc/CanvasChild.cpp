@@ -1448,7 +1448,7 @@ already_AddRefed
 gfx
 :
 :
-DrawTarget
+DrawTargetRecording
 >
 CanvasChild
 :
@@ -1528,7 +1528,7 @@ RefPtr
 gfx
 :
 :
-DrawTarget
+DrawTargetRecording
 >
 dt
 =

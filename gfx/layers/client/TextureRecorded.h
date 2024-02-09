@@ -243,7 +243,7 @@ RefPtr
 gfx
 :
 :
-DrawTarget
+DrawTargetRecording
 >
 mDT
 ;
@@ -256,7 +256,7 @@ SourceSurface
 >
 mSnapshot
 ;
-ThreadSafeWeakPtr
+RefPtr
 <
 gfx
 :
