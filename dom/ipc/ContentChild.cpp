@@ -10352,10 +10352,7 @@ IPC_OK
 )
 ;
 }
-RefPtr
-<
-GenericPromise
->
+void
 ContentChild
 :
 :
@@ -10391,7 +10388,6 @@ CookieServiceChild
 "
 )
 ;
-return
 csChild
 -
 >

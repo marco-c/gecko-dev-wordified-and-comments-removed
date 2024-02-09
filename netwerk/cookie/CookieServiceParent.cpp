@@ -1053,7 +1053,7 @@ IPCResult
 CookieServiceParent
 :
 :
-RecvGetCookieList
+RecvPrepareCookieList
 (
 nsIURI
 *
@@ -1094,10 +1094,6 @@ const
 OriginAttributes
 &
 aAttrs
-GetCookieListResolver
-&
-&
-aResolve
 )
 {
 if
@@ -1167,9 +1163,13 @@ matchingCookiesList
 aHost
 )
 ;
-aResolve
+Unused
+<
+<
+SendTrackCookiesLoad
 (
 matchingCookiesList
+aAttrs
 )
 ;
 return
