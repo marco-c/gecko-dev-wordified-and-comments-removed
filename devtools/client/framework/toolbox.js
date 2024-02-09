@@ -17967,7 +17967,6 @@ viewSource
 (
 sourceURL
 sourceLine
-sourceColumn
 )
 {
 return
@@ -17978,7 +17977,6 @@ viewSource
 this
 sourceURL
 sourceLine
-sourceColumn
 )
 ;
 }
