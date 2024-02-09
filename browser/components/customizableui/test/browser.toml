@@ -1559,6 +1559,13 @@ js
 ]
 [
 "
+browser_searchbar_removal
+.
+js
+"
+]
+[
+"
 browser_sidebar_toggle
 .
 js
