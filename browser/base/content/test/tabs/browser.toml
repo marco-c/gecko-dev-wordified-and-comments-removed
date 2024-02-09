@@ -355,13 +355,6 @@ js
 ]
 [
 "
-browser_lastSeenActive
-.
-js
-"
-]
-[
-"
 browser_lazy_tab_browser_events
 .
 js
