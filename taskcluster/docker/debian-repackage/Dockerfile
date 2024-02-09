@@ -232,9 +232,6 @@ apt
 get
 install
 debootstrap
-python3
--
-distutils
 &
 &
 set

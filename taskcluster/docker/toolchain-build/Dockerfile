@@ -165,12 +165,6 @@ procps
 \
 python3
 -
-distutils
--
-extra
-\
-python3
--
 requests
 \
 python3
