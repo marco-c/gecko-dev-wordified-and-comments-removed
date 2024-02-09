@@ -503,7 +503,7 @@ aspect
 ?
 }
 from
-fromat
+format
 {
 format
 :

@@ -1077,7 +1077,7 @@ Vec
 <
 FixedSizeHeap
 >
-avaliable_heap_indices
+available_heap_indices
 :
 BitSet
 }
@@ -1120,7 +1120,7 @@ Vec
 new
 (
 )
-avaliable_heap_indices
+available_heap_indices
 :
 BitSet
 :
@@ -1157,7 +1157,7 @@ heap_index
 =
 self
 .
-avaliable_heap_indices
+available_heap_indices
 .
 iter
 (
@@ -1214,7 +1214,7 @@ ty
 ;
 self
 .
-avaliable_heap_indices
+available_heap_indices
 .
 insert
 (
@@ -1259,7 +1259,7 @@ is_full
 {
 self
 .
-avaliable_heap_indices
+available_heap_indices
 .
 remove
 (
@@ -1305,7 +1305,7 @@ raw
 ;
 self
 .
-avaliable_heap_indices
+available_heap_indices
 .
 insert
 (

@@ -898,7 +898,7 @@ Buffer
 map
 must
 emulated
-becuase
+because
 it
 is
 not

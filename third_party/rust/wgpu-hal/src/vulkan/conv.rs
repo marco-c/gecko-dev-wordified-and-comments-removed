@@ -7499,7 +7499,7 @@ vk_flags
 }
 pub
 fn
-map_acceleration_structure_geomety_flags
+map_acceleration_structure_geometry_flags
 (
 flags
 :

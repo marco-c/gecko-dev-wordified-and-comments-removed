@@ -243,6 +243,7 @@ entry
 .
 binding
 >
+=
 device_limits
 .
 max_bindings_per_bind_group

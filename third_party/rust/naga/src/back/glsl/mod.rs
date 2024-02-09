@@ -1792,7 +1792,7 @@ VaryingOptions
 output
 :
 bool
-targetting_webgl
+targeting_webgl
 :
 bool
 draw_parameters
@@ -1821,7 +1821,7 @@ Self
 Self
 {
 output
-targetting_webgl
+targeting_webgl
 :
 options
 .
@@ -24894,7 +24894,7 @@ ViewIndex
 if
 options
 .
-targetting_webgl
+targeting_webgl
 =
 >
 "

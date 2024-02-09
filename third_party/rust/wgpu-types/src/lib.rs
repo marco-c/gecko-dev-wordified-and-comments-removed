@@ -9931,7 +9931,7 @@ The
 queries
 will
 be
-guarenteed
+guaranteed
 finished
 so
 will

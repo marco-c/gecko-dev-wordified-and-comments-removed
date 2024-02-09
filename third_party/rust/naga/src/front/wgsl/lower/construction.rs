@@ -865,7 +865,7 @@ Err
 Error
 :
 :
-TypeNotInferrable
+TypeNotInferable
 (
 ty_span
 )

@@ -41,7 +41,7 @@ excpt
 }
 ;
 static
-EXCEPTION_HANLDER_COUNT
+EXCEPTION_HANDLER_COUNT
 :
 Mutex
 <
@@ -73,7 +73,7 @@ let
 mut
 count_guard
 =
-EXCEPTION_HANLDER_COUNT
+EXCEPTION_HANDLER_COUNT
 .
 lock
 (
@@ -119,7 +119,7 @@ let
 mut
 count_guard
 =
-EXCEPTION_HANLDER_COUNT
+EXCEPTION_HANDLER_COUNT
 .
 lock
 (

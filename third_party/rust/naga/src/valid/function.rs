@@ -1002,7 +1002,7 @@ switch
 case
 contains
 a
-falltrough
+fallthrough
 "
 )
 ]

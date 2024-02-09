@@ -7817,7 +7817,7 @@ pull
 /
 2040
 -
-Explicitely
+Explicitly
 enable
 std
 for
@@ -9756,7 +9756,7 @@ firstLeadingBit
 Specification
 Changes
 (
-relavant
+relevant
 changes
 have
 also
@@ -10237,7 +10237,7 @@ F
 *
 -
 Declare
-attribtues
+attributes
 with
 attrib
 instead
@@ -11380,7 +11380,7 @@ JCapucho
 Fix
 last
 case
-falltrough
+fallthrough
 and
 empty
 switch

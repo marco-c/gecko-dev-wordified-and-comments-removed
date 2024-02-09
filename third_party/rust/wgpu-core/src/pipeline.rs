@@ -2859,7 +2859,7 @@ device
 The
 WebGPU
 spec
-guarentees
+guarantees
 {
 2
 :
@@ -3126,7 +3126,7 @@ device
 The
 WebGPU
 spec
-guarentees
+guarantees
 {
 2
 :
