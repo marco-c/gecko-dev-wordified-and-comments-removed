@@ -293,6 +293,9 @@ markup
 -
 view
 "
+cm6
+:
+true
 }
 ;
 const
