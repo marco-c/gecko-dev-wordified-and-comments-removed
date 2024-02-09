@@ -742,7 +742,9 @@ rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
+rust_mdn
 rust_pocket
+rust_yelp
 search_engine
 search_history
 search_suggest
@@ -1410,7 +1412,9 @@ rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
+rust_mdn
 rust_pocket
+rust_yelp
 search_engine
 search_history
 search_shortcut_button
@@ -1848,7 +1852,9 @@ rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
+rust_mdn
 rust_pocket
+rust_yelp
 search_engine
 search_history
 search_suggest
@@ -2631,7 +2637,9 @@ rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
+rust_mdn
 rust_pocket
+rust_yelp
 search_engine
 search_history
 search_suggest
