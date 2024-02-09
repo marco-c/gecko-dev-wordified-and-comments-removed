@@ -2362,7 +2362,7 @@ GetScrollFrame
 nsIFrame
 *
 *
-aStyledFrame
+aFrame
 =
 nullptr
 FlushType
