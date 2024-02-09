@@ -2147,6 +2147,15 @@ AudioDataValue
 >
 mBuffer
 ;
+RefPtr
+<
+CubebUtils
+:
+:
+CubebHandle
+>
+mCubeb
+;
 nsAutoRef
 <
 cubeb_stream
