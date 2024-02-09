@@ -20474,9 +20474,6 @@ firefox
 "
 fennec
 "
-"
-geckoview_streaming
-"
 ]
 "
 expires_in_version
@@ -20585,9 +20582,6 @@ firefox
 "
 "
 fennec
-"
-"
-geckoview_streaming
 "
 ]
 "
@@ -20804,9 +20798,6 @@ firefox
 "
 "
 fennec
-"
-"
-geckoview_streaming
 "
 ]
 "
@@ -112897,9 +112888,6 @@ firefox
 "
 fennec
 "
-"
-geckoview_streaming
-"
 ]
 "
 alert_emails
@@ -131931,9 +131919,6 @@ firefox
 "
 "
 fennec
-"
-"
-geckoview_streaming
 "
 ]
 "
