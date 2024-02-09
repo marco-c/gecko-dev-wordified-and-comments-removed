@@ -181,6 +181,10 @@ void
 data
 GLenum
 usage
+bool
+allowUninitialized
+=
+false
 )
 ;
 void
