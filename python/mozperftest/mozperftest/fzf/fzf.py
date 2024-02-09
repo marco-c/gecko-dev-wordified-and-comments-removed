@@ -7,15 +7,13 @@ subprocess
 import
 sys
 from
-distutils
-.
-spawn
-import
-find_executable
-from
 pathlib
 import
 Path
+from
+shutil
+import
+which
 from
 mach
 .
@@ -675,12 +673,13 @@ test_objects
     
 fzf_bin
 =
-find_executable
+which
 (
-        
 "
 fzf
 "
+path
+=
 str
 (
 Path
@@ -696,14 +695,15 @@ bin
 "
 )
 )
-    
 )
 or
-find_executable
+which
 (
+        
 "
 fzf
 "
+    
 )
     
 if

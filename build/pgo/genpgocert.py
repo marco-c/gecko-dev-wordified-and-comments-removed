@@ -10,12 +10,6 @@ import
 subprocess
 import
 sys
-from
-distutils
-.
-spawn
-import
-find_executable
 import
 mozinfo
 from
@@ -719,7 +713,9 @@ return
     
 openssl
 =
-find_executable
+shutil
+.
+which
 (
 "
 openssl

@@ -71,15 +71,11 @@ base64
 import
 os
 import
+shutil
+import
 subprocess
 import
 sys
-from
-distutils
-.
-spawn
-import
-find_executable
 import
 mozinfo
 import
@@ -438,7 +434,9 @@ flush
             
 openssl
 =
-find_executable
+shutil
+.
+which
 (
 "
 openssl

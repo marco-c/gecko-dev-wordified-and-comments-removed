@@ -1,17 +1,13 @@
 import
 os
 import
+shutil
+import
 signal
 import
 subprocess
 import
 sys
-from
-distutils
-.
-spawn
-import
-find_executable
 here
 =
 os
@@ -129,7 +125,9 @@ replace
     
 python
 =
-find_executable
+shutil
+.
+which
 (
 "
 python3
