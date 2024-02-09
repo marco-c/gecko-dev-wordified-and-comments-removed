@@ -2481,6 +2481,13 @@ js
 ]
 [
 "
+test_cookie_partitioned_attribute
+.
+js
+"
+]
+[
+"
 test_cookiejars
 .
 js
