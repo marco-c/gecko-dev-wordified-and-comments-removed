@@ -10591,6 +10591,9 @@ dependencies
 =
 [
 "
+bhttp
+"
+"
 cstr
 "
 "
@@ -10607,10 +10610,16 @@ glean
 log
 "
 "
+mozbuild
+"
+"
 nserror
 "
 "
 nsstring
+"
+"
+ohttp
 "
 "
 once_cell
@@ -10622,6 +10631,9 @@ static_prefs
 thin
 -
 vec
+"
+"
+thiserror
 "
 "
 url
