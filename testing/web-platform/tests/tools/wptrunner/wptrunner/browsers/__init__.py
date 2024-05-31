@@ -242,14 +242,6 @@ edgechromium
 "
                 
 "
-edge
-"
-                
-"
-edge_webdriver
-"
-                
-"
 firefox
 "
                 

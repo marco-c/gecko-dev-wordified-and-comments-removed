@@ -92,16 +92,6 @@ chrome_android
 }
         
 "
-edge
-"
-:
-{
-"
-edge_webdriver
-"
-}
-        
-"
 servo
 "
 :
