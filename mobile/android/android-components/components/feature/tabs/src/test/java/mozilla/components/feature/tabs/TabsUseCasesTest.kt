@@ -1049,7 +1049,7 @@ size
 )
 useCases
 .
-removeAllTabsOfTypeUseCase
+removeAllTabsOfType
 .
 invoke
 (
@@ -1129,7 +1129,7 @@ size
 )
 useCases
 .
-removeAllTabsOfTypeUseCase
+removeAllTabsOfType
 .
 invoke
 (

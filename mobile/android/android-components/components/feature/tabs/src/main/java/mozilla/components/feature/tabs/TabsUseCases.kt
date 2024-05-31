@@ -643,7 +643,7 @@ sessionManager
 )
 }
 val
-removeAllTabsOfTypeUseCase
+removeAllTabsOfType
 :
 RemoveAllTabsOfTypeUseCase
 by
