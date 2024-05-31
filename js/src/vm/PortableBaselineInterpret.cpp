@@ -17425,6 +17425,10 @@ GuardIsFixedLengthTypedArray
 )
 CACHEOP_CASE_UNIMPL
 (
+GuardIsResizableTypedArray
+)
+CACHEOP_CASE_UNIMPL
+(
 StringToAtom
 )
 CACHEOP_CASE_UNIMPL
@@ -17566,6 +17570,14 @@ ArrayBufferViewByteOffsetInt32Result
 CACHEOP_CASE_UNIMPL
 (
 ArrayBufferViewByteOffsetDoubleResult
+)
+CACHEOP_CASE_UNIMPL
+(
+ResizableTypedArrayByteOffsetMaybeOutOfBoundsInt32Result
+)
+CACHEOP_CASE_UNIMPL
+(
+ResizableTypedArrayByteOffsetMaybeOutOfBoundsDoubleResult
 )
 CACHEOP_CASE_UNIMPL
 (
