@@ -179,6 +179,11 @@ aInset
 0
 )
 ;
+void
+UndoAlignContentShift
+(
+)
+;
 nsFlowAreaRect
 GetFloatAvailableSpace
 (
@@ -912,6 +917,9 @@ mTrailingClearFromPIF
 const
 nscoord
 mConsumedBSize
+;
+nscoord
+mAlignContentShift
 ;
 Maybe
 <
