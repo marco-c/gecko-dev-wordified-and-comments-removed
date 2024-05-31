@@ -3521,7 +3521,7 @@ assertNotEquals
 (
 View
 .
-GONE
+INVISIBLE
 engineView
 .
 currentWebView
@@ -3654,7 +3654,7 @@ assertEquals
 (
 View
 .
-GONE
+INVISIBLE
 engineView
 .
 currentWebView
@@ -3713,7 +3713,7 @@ assertEquals
 (
 View
 .
-GONE
+INVISIBLE
 engineView
 .
 currentWebView
