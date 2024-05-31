@@ -108,6 +108,14 @@ concept
 engine
 .
 EngineView
+import
+org
+.
+mozilla
+.
+geckoview
+.
+GeckoRuntime
 /
 *
 *
@@ -127,9 +135,9 @@ GeckoEngine
 (
 private
 val
-context
+runtime
 :
-Context
+GeckoRuntime
 )
 :
 Engine
@@ -195,7 +203,7 @@ EngineSession
 return
 GeckoEngineSession
 (
-context
+runtime
 )
 }
 /
