@@ -267,7 +267,7 @@ if
 !
 Glean
 .
-getMetricsEnabled
+getUploadEnabled
 (
 )
 |

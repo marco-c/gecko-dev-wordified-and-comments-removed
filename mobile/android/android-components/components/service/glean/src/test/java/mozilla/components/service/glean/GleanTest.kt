@@ -371,7 +371,7 @@ resetGlobalState
 {
 Glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 true
 )
@@ -430,7 +430,7 @@ clearAllStores
 )
 Glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 false
 )
@@ -439,7 +439,7 @@ assertEquals
 false
 Glean
 .
-getMetricsEnabled
+getUploadEnabled
 (
 )
 )
@@ -539,7 +539,7 @@ clearAllStores
 )
 Glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 true
 )
@@ -548,7 +548,7 @@ assertEquals
 true
 Glean
 .
-getMetricsEnabled
+getUploadEnabled
 (
 )
 )
@@ -590,7 +590,7 @@ size
 )
 Glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 false
 )
@@ -599,7 +599,7 @@ assertEquals
 false
 Glean
 .
-getMetricsEnabled
+getUploadEnabled
 (
 )
 )
@@ -641,7 +641,7 @@ size
 )
 Glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 true
 )
@@ -2368,7 +2368,7 @@ port
 )
 Glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 false
 )

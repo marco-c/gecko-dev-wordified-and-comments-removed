@@ -278,7 +278,7 @@ to
 control
 Glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 )
 )
@@ -953,7 +953,10 @@ and
 re
 -
 enable
-metrics
+data
+collection
+and
+upload
 .
 This
 is
@@ -962,7 +965,7 @@ with
 the
 glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 )
 method
