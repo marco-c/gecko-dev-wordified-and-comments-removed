@@ -808,6 +808,13 @@ js
 ]
 [
 "
+browser_sidebar_preferences_button
+.
+js
+"
+]
+[
+"
 browser_sidebar_restore_category
 .
 js

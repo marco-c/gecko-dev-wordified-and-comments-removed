@@ -74,6 +74,13 @@ xpi
 ]
 [
 "
+browser_about_settings
+.
+js
+"
+]
+[
+"
 browser_advanced_update
 .
 js
