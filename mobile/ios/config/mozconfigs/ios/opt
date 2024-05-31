@@ -11,12 +11,6 @@ ios
 ac_add_options
 -
 -
-disable
--
-tests
-ac_add_options
--
--
 enable
 -
 clang
