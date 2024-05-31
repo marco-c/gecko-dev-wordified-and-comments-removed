@@ -202,6 +202,7 @@ CDATA
 <
 p
 >
+.
 <
 /
 p
@@ -300,6 +301,7 @@ ul
 <
 li
 >
+.
 <
 /
 li
@@ -307,6 +309,8 @@ li
 <
 li
 >
+-
+.
 <
 /
 li
@@ -405,6 +409,8 @@ ul
 <
 li
 >
+-
+.
 <
 /
 li
@@ -412,6 +418,8 @@ li
 <
 li
 >
+.
+.
 <
 /
 li
@@ -513,6 +521,8 @@ CDATA
 <
 p
 >
+.
+.
 <
 /
 p
@@ -523,6 +533,8 @@ ul
 <
 li
 >
+.
+.
 <
 /
 li
@@ -533,6 +545,7 @@ li
 Wi
 -
 Fi
+.
 <
 /
 li
@@ -621,6 +634,7 @@ CDATA
 <
 p
 >
+.
 <
 /
 p
@@ -631,6 +645,8 @@ ul
 <
 li
 >
+.
+.
 <
 /
 li
@@ -638,6 +654,7 @@ li
 <
 li
 >
+.
 <
 /
 li
@@ -645,6 +662,9 @@ li
 <
 li
 >
+-
+-
+.
 <
 /
 li
@@ -652,6 +672,8 @@ li
 <
 li
 >
+-
+.
 <
 /
 li
@@ -742,6 +764,8 @@ ul
 <
 li
 >
+.
+.
 <
 /
 li
@@ -752,6 +776,7 @@ li
 Wi
 -
 Fi
+.
 <
 /
 li
@@ -806,6 +831,7 @@ name
 mozac_browser_errorpages_unknown_socket_type_title
 "
 >
+/
 <
 /
 string
@@ -851,6 +877,7 @@ CDATA
 <
 p
 >
+.
 <
 /
 p
@@ -946,6 +973,7 @@ CDATA
 <
 p
 >
+.
 <
 /
 p
@@ -956,7 +984,7 @@ ul
 <
 li
 >
-Cookie
+.
 <
 /
 li
@@ -964,7 +992,7 @@ li
 <
 li
 >
-Cookie
+.
 <
 /
 li
@@ -1064,6 +1092,7 @@ CDATA
 <
 p
 >
+.
 <
 /
 p
@@ -1074,6 +1103,7 @@ ul
 <
 li
 >
+?
 <
 /
 li
@@ -1081,6 +1111,7 @@ li
 <
 li
 >
+.
 <
 /
 li
@@ -1177,22 +1208,22 @@ CDATA
 p
 >
 (
-mozilla
-.
-jp
-80
 <
 q
 >
 mozilla
 .
-jp
+org
 :
 80
 <
 /
 q
 >
+80
+mozilla
+.
+org
 )
 <
 em
@@ -1201,6 +1232,9 @@ em
 /
 em
 >
+-
+.
+.
 <
 /
 p
@@ -1290,6 +1324,8 @@ CDATA
 <
 p
 >
+.
+.
 <
 /
 p
@@ -1300,6 +1336,8 @@ ul
 <
 li
 >
+.
+.
 <
 /
 li
@@ -1310,6 +1348,7 @@ li
 Wi
 -
 Fi
+.
 <
 /
 li
@@ -1414,6 +1453,8 @@ ul
 <
 li
 >
+-
+.
 <
 /
 li
@@ -1513,6 +1554,7 @@ CDATA
 <
 p
 >
+.
 <
 /
 p
@@ -1523,6 +1565,8 @@ ul
 <
 li
 >
+-
+.
 <
 /
 li
@@ -1583,6 +1627,7 @@ CDATA
 <
 p
 >
+.
 <
 /
 p
@@ -1593,6 +1638,8 @@ ul
 <
 li
 >
+-
+.
 <
 /
 li
@@ -1633,11 +1680,6 @@ name
 mozac_browser_errorpages_invalid_content_encoding_title
 "
 >
-(
-Content
--
-Encoding
-)
 <
 /
 string
@@ -1658,6 +1700,7 @@ CDATA
 <
 p
 >
+.
 <
 /
 p
@@ -1668,6 +1711,8 @@ ul
 <
 li
 >
+-
+.
 <
 /
 li
@@ -1750,6 +1795,10 @@ CDATA
 <
 p
 >
+(
+URL
+)
+.
 <
 /
 p
@@ -1763,27 +1812,27 @@ li
 <
 strong
 >
-www
-<
-/
-strong
->
-.
-example
-.
-com
-<
-strong
->
 ww
 <
 /
 strong
 >
 .
-example
+test
 .
-com
+ru
+<
+strong
+>
+www
+<
+/
+strong
+>
+.
+test
+.
+ru
 <
 /
 li
@@ -1794,6 +1843,7 @@ li
 Wi
 -
 Fi
+.
 <
 /
 li
@@ -1854,6 +1904,8 @@ CDATA
 <
 p
 >
+.
+.
 <
 /
 p
@@ -1864,23 +1916,6 @@ p
 <
 /
 string
->
-<
-!
--
--
-The
-document
-title
-and
-heading
-of
-an
-error
-page
-.
--
--
 >
 <
 !
@@ -1949,6 +1984,7 @@ ul
 <
 li
 >
+-
 <
 strong
 >
@@ -1958,9 +1994,9 @@ http
 /
 www
 .
-example
+test
 .
-com
+ru
 /
 <
 /
@@ -1983,6 +2019,7 @@ strong
 strong
 >
 )
+.
 <
 /
 li
@@ -2056,6 +2093,7 @@ wxyz
 q
 >
 )
+.
 <
 /
 p
@@ -2066,6 +2104,7 @@ ul
 <
 li
 >
+.
 <
 /
 li
@@ -2073,6 +2112,7 @@ li
 <
 li
 >
+.
 <
 /
 li
@@ -2136,6 +2176,7 @@ ul
 <
 li
 >
+?
 <
 /
 li
@@ -2143,7 +2184,8 @@ li
 <
 li
 >
-/
+-
+.
 <
 /
 li
@@ -2151,6 +2193,7 @@ li
 <
 li
 >
+.
 <
 /
 li
@@ -2214,6 +2257,7 @@ ul
 <
 li
 >
+.
 <
 /
 li
@@ -2254,6 +2298,7 @@ name
 mozac_browser_errorpages_proxy_connection_refused_title
 "
 >
+-
 <
 /
 string
@@ -2274,6 +2319,9 @@ CDATA
 <
 p
 >
+-
+-
+.
 <
 /
 p
@@ -2284,6 +2332,8 @@ ul
 <
 li
 >
+-
+.
 <
 /
 li
@@ -2291,6 +2341,8 @@ li
 <
 li
 >
+-
+.
 <
 /
 li
@@ -2298,6 +2350,8 @@ li
 <
 li
 >
+-
+.
 <
 /
 li
@@ -2338,6 +2392,7 @@ name
 mozac_browser_errorpages_unknown_proxy_host_title
 "
 >
+-
 <
 /
 string
@@ -2358,6 +2413,9 @@ CDATA
 <
 p
 >
+-
+-
+.
 <
 /
 p
@@ -2368,6 +2426,8 @@ ul
 <
 li
 >
+-
+.
 <
 /
 li
@@ -2375,6 +2435,7 @@ li
 <
 li
 >
+.
 <
 /
 li
@@ -2382,6 +2443,8 @@ li
 <
 li
 >
+-
+.
 <
 /
 li
@@ -2464,6 +2527,8 @@ p
 %
 1
 s
+.
+.
 <
 /
 p
@@ -2542,6 +2607,8 @@ p
 %
 1
 s
+.
+.
 <
 /
 p
@@ -2620,6 +2687,8 @@ p
 %
 1
 s
+.
+.
 <
 /
 p
@@ -2695,9 +2764,12 @@ CDATA
 <
 p
 >
+-
 %
 1
 s
+.
+.
 <
 /
 p

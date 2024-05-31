@@ -44,7 +44,6 @@ name
 mozac_feature_prompts_ok
 "
 >
-Vale
 <
 /
 string
@@ -74,7 +73,6 @@ name
 mozac_feature_prompts_cancel
 "
 >
-Cancelar
 <
 /
 string
@@ -115,15 +113,6 @@ name
 mozac_feature_prompts_no_more_dialogs
 "
 >
-Evitar
-que
-esta
-p
-gina
-cree
-di
-logos
-adicionales
 <
 /
 string
@@ -158,9 +147,6 @@ name
 mozac_feature_prompts_pick_a_date
 "
 >
-Elegir
-una
-fecha
 <
 /
 string
@@ -195,9 +181,6 @@ name
 mozac_feature_prompts_pick_a_time
 "
 >
-Elegir
-una
-hora
 <
 /
 string
@@ -233,10 +216,6 @@ name
 mozac_feature_prompts_pick_a_date_and_time
 "
 >
-Elegir
-fecha
-y
-hora
 <
 /
 string
@@ -273,7 +252,6 @@ name
 mozac_feature_prompts_set_date
 "
 >
-Establecer
 <
 /
 string
@@ -309,7 +287,6 @@ name
 mozac_feature_prompts_clear
 "
 >
-Limpiar
 <
 /
 string
@@ -338,9 +315,6 @@ name
 mozac_feature_prompt_sign_in
 "
 >
-Iniciar
-sesi
-n
 <
 /
 string
@@ -369,9 +343,6 @@ name
 mozac_feature_prompt_username_hint
 "
 >
-Nombre
-de
-usuario
 <
 /
 string
@@ -400,8 +371,6 @@ name
 mozac_feature_prompt_password_hint
 "
 >
-Contrase
-a
 <
 /
 string
@@ -473,15 +442,6 @@ name
 mozac_feature_prompts_content_description_input_label
 "
 >
-Etiqueta
-para
-ingresar
-un
-campo
-de
-entrada
-de
-texto
 <
 /
 string
@@ -516,9 +476,6 @@ name
 mozac_feature_prompts_choose_a_color
 "
 >
-Elegir
-un
-color
 <
 /
 string
@@ -552,7 +509,6 @@ name
 mozac_feature_prompts_allow
 "
 >
-Permitir
 <
 /
 string
@@ -586,7 +542,6 @@ name
 mozac_feature_prompts_deny
 "
 >
-Denegar
 <
 /
 string

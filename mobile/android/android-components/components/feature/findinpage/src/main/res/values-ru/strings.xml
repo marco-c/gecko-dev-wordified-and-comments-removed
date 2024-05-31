@@ -63,11 +63,6 @@ name
 mozac_feature_findindpage_input
 "
 >
-Buscar
-en
-la
-p
-gina
 <
 /
 string
@@ -193,7 +188,6 @@ PluralsCandidate
 %
 1
 d
-de
 %
 2
 d
@@ -231,9 +225,6 @@ name
 mozac_feature_findindpage_next_result
 "
 >
-Buscar
-resultado
-siguiente
 <
 /
 string
@@ -268,9 +259,6 @@ name
 mozac_feature_findindpage_previous_result
 "
 >
-Buscar
-resultado
-anterior
 <
 /
 string
@@ -312,11 +300,6 @@ name
 mozac_feature_findindpage_dismiss
 "
 >
-Descartar
-buscar
-en
-p
-gina
 <
 /
 string

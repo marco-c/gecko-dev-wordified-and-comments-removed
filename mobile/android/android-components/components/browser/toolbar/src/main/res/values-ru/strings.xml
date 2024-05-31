@@ -58,7 +58,6 @@ name
 mozac_browser_toolbar_menu_button
 "
 >
-Men
 <
 /
 string
@@ -71,7 +70,6 @@ name
 mozac_clear_button_description
 "
 >
-Limpiar
 <
 /
 string
@@ -108,7 +106,6 @@ name
 mozac_browser_toolbar_progress_loading
 "
 >
-Cargando
 <
 /
 string
