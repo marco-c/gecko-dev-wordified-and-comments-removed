@@ -2943,6 +2943,12 @@ mainSession
 waitForPageStop
 (
 )
+sessionRule
+.
+waitForContentTransformsReceived
+(
+mainSession
+)
 val
 requestClientRect
 :
@@ -2963,6 +2969,12 @@ mainSession
 .
 waitForPageStop
 (
+)
+sessionRule
+.
+waitForContentTransformsReceived
+(
+mainSession
 )
 mainSession
 .
@@ -3151,6 +3163,8 @@ a
 screenRectA
 b
 screenRectB
+expectedDiff
+expectedDiff
 "
 result
 equalTo
