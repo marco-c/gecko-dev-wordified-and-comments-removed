@@ -110,6 +110,9 @@ val
 language
 :
 String
+get
+(
+)
 =
 Locale
 .
@@ -123,6 +126,9 @@ val
 country
 :
 String
+get
+(
+)
 =
 Locale
 .
