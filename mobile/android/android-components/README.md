@@ -2274,7 +2274,7 @@ components
 /
 feature
 /
-sidepermissions
+sitepermissions
 /
 README
 .
