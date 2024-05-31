@@ -415,6 +415,15 @@ this
 .
 store
 }
+Suppress
+(
+"
+TooGenericExceptionThrown
+"
+"
+ThrowsCount
+"
+)
 /
 /
 Helper

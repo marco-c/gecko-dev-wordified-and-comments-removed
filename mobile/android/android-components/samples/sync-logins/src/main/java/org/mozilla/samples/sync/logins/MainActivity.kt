@@ -786,10 +786,8 @@ permissionCheck
 PackageManager
 .
 PERMISSION_GRANTED
-)
-{
-if
-(
+&
+&
 Build
 .
 VERSION
@@ -821,7 +819,6 @@ WRITE_EXTERNAL_STORAGE
 )
 1
 )
-}
 }
 val
 appFiles

@@ -1319,6 +1319,11 @@ projectDir
 /
 buildSrc
 "
+"
+projectDir
+/
+samples
+"
 )
 config
 =

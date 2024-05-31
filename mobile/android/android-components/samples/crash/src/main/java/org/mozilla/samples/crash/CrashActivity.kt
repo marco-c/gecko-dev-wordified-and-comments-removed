@@ -336,6 +336,12 @@ unregisterReceiver
 receiver
 )
 }
+Suppress
+(
+"
+TooGenericExceptionThrown
+"
+)
 override
 fun
 onClick

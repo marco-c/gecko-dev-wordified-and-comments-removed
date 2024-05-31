@@ -163,6 +163,12 @@ Seedling
 "
 )
 }
+Suppress
+(
+"
+MagicNumber
+"
+)
 class
 ConfigurationAdapter
 (
@@ -456,6 +462,12 @@ view
 .
 *
 /
+Suppress
+(
+"
+MagicNumber
+"
+)
 class
 UrlBoxProgressView
 (

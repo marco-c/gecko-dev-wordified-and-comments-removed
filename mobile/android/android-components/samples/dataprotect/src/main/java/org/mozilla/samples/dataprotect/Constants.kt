@@ -70,6 +70,10 @@ android
 util
 .
 Base64
+object
+Constants
+{
+const
 val
 B64_FLAGS
 =
@@ -84,6 +88,7 @@ or
 Base64
 .
 NO_PADDING
+const
 val
 KEYSTORE_LABEL
 =
@@ -92,3 +97,4 @@ samples
 -
 dataprotect
 "
+}
