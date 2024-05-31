@@ -186,9 +186,9 @@ android
 text
 =
 "
-FxA
-Sign
-In
+string
+/
+sign_in
 "
 /
 >
