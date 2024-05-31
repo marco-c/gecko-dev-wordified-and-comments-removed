@@ -3144,7 +3144,7 @@ loc
 bool
 transpose
 const
-Range
+Span
 <
 const
 webgl
