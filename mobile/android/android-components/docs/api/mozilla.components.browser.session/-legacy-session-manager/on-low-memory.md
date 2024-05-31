@@ -142,7 +142,7 @@ LegacySessionManager
 .
 kt
 #
-L504
+L532
 )
 Informs
 this

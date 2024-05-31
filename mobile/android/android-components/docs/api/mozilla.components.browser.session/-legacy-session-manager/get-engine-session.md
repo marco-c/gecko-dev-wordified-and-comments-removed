@@ -159,7 +159,7 @@ LegacySessionManager
 .
 kt
 #
-L244
+L272
 )
 Gets
 the
