@@ -169,6 +169,16 @@ Dependencies
 .
 support_design
 testImplementation
+project
+(
+'
+:
+support
+-
+test
+'
+)
+testImplementation
 Dependencies
 .
 testing_junit

@@ -331,6 +331,9 @@ SampleRequestInterceptor
 (
 applicationContext
 )
+supportMultipleWindows
+=
+true
 )
 SystemEngine
 (
