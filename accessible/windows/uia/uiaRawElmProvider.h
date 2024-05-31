@@ -176,6 +176,11 @@ Acc
 (
 )
 ;
+bool
+IsControl
+(
+)
+;
 }
 ;
 }

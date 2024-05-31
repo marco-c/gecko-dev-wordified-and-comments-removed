@@ -740,6 +740,12 @@ const
 =
 0
 ;
+bool
+NameIsEmpty
+(
+)
+const
+;
 virtual
 void
 Description
@@ -2189,12 +2195,6 @@ ApplyImplicitState
 uint64_t
 &
 aState
-)
-const
-;
-bool
-NameIsEmpty
-(
 )
 const
 ;
