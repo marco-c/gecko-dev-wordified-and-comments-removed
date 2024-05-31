@@ -360,9 +360,8 @@ hasConsoleMessage
 dbg
 "
 DOM
-(
+|
 message
-)
 "
 )
 ;

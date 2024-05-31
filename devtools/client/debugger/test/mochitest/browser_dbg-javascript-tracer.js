@@ -309,9 +309,8 @@ hasConsoleMessage
 dbg
 "
 DOM
-(
+|
 click
-)
 "
 )
 ;
