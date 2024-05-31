@@ -761,7 +761,7 @@ absolutePath
 /
 logins
 .
-mentatdb
+sqlite
 "
 )
 val
