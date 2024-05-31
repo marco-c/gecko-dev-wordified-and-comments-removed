@@ -594,6 +594,9 @@ maven
 .
 zip
 "
+includeEmptyDirs
+=
+false
 destinationDir
 (
 file
