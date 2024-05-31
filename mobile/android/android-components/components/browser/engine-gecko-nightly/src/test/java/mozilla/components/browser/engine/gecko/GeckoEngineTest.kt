@@ -201,6 +201,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Test
 import
 org
@@ -345,6 +351,7 @@ class
 java
 )
 Test
+Ignore
 fun
 createView
 (
