@@ -195,6 +195,12 @@ see
 pauseObserver
 ]
 (
+.
+.
+/
+-
+observable
+/
 pause
 -
 observer
