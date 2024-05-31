@@ -929,7 +929,7 @@ settings
 /
 override
 fun
-setDesktopMode
+toggleDesktopMode
 (
 enable
 :

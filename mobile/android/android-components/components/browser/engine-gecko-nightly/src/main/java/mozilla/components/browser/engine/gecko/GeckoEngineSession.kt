@@ -961,7 +961,7 @@ settings
 /
 override
 fun
-setDesktopMode
+toggleDesktopMode
 (
 enable
 :
@@ -1023,7 +1023,7 @@ newMode
 )
 notifyObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 enable
 )

@@ -3774,7 +3774,7 @@ Observer
 {
 override
 fun
-onDesktopModeEnabled
+onDesktopModeChange
 (
 enabled
 :
@@ -3789,7 +3789,7 @@ true
 )
 engineSession
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 )
@@ -3802,7 +3802,7 @@ desktopModeEnabled
 false
 engineSession
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 )
@@ -3827,7 +3827,7 @@ USER_AGENT_MODE_DESKTOP
 )
 engineSession
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 )
@@ -3837,7 +3837,7 @@ desktopModeEnabled
 )
 engineSession
 .
-setDesktopMode
+toggleDesktopMode
 (
 false
 )

@@ -512,7 +512,7 @@ goForward
 }
 }
 class
-RequestDesktopSite
+RequestDesktopSiteUseCase
 internal
 constructor
 (
@@ -564,7 +564,7 @@ getOrCreateEngineSession
 session
 )
 .
-setDesktopMode
+toggleDesktopMode
 (
 enable
 true
@@ -646,11 +646,11 @@ sessionManager
 val
 requestDesktopSite
 :
-RequestDesktopSite
+RequestDesktopSiteUseCase
 by
 lazy
 {
-RequestDesktopSite
+RequestDesktopSiteUseCase
 (
 sessionManager
 )

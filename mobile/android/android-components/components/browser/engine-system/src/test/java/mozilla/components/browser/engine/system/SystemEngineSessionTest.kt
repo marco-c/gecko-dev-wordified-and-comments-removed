@@ -2391,7 +2391,7 @@ java
 )
 engineSession
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 )
@@ -2449,7 +2449,7 @@ userAgentMobile
 )
 engineSession
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 )
@@ -2473,7 +2473,7 @@ true
 )
 engineSession
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 )
@@ -2490,7 +2490,7 @@ reload
 )
 engineSession
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 true

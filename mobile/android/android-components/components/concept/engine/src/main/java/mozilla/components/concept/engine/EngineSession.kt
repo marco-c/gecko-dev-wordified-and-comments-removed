@@ -282,7 +282,7 @@ HitResult
 =
 Unit
 fun
-onDesktopModeEnabled
+onDesktopModeChange
 (
 enabled
 :
@@ -1063,7 +1063,7 @@ after
 /
 abstract
 fun
-setDesktopMode
+toggleDesktopMode
 (
 enable
 :

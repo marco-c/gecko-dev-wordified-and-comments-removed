@@ -1214,13 +1214,13 @@ See
 [
 EngineSession
 .
-setDesktopMode
+toggleDesktopMode
 ]
 *
 /
 override
 fun
-setDesktopMode
+toggleDesktopMode
 (
 enable
 :

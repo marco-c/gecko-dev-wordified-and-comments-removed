@@ -744,7 +744,7 @@ verify
 engineSession
 )
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 true
@@ -776,7 +776,7 @@ verify
 selectedEngineSession
 )
 .
-setDesktopMode
+toggleDesktopMode
 (
 true
 true

@@ -311,7 +311,7 @@ session
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -454,7 +454,7 @@ verify
 observer
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -629,7 +629,7 @@ session
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -745,7 +745,7 @@ session
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -860,7 +860,7 @@ verify
 observer
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -994,7 +994,7 @@ never
 )
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -1195,7 +1195,7 @@ session
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -1310,7 +1310,7 @@ session
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -1425,7 +1425,7 @@ verify
 observer
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -1559,7 +1559,7 @@ never
 )
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -1699,7 +1699,7 @@ never
 )
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -1877,7 +1877,7 @@ session
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -1992,7 +1992,7 @@ session
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -2107,7 +2107,7 @@ verify
 observer
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -2241,7 +2241,7 @@ never
 )
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -2432,7 +2432,7 @@ otherSession
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -2571,7 +2571,7 @@ never
 )
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -2690,7 +2690,7 @@ session
 .
 notifyInternalObservers
 {
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -2837,7 +2837,7 @@ times
 )
 )
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 false
 )
@@ -3504,7 +3504,7 @@ onExternalResource
 )
 defaultObserver
 .
-onDesktopModeEnabled
+onDesktopModeChange
 (
 true
 )
@@ -3699,7 +3699,7 @@ disableTrackingProtection
 }
 override
 fun
-setDesktopMode
+toggleDesktopMode
 (
 enable
 :
