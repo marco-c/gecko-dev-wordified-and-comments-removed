@@ -42,9 +42,7 @@ section
 #
 the
 -
-common
--
-information
+ping_info
 -
 section
 )
@@ -85,10 +83,14 @@ baseline
 md
 )
 -
+[
 events
 ping
+]
 (
-TBD
+events
+.
+md
 )
 -
 metrics
