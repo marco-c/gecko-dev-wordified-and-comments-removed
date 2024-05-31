@@ -221,18 +221,14 @@ com
 const
 char
 *
-kHostXyberAlertAfterServerHello
+kHostXyberAlertUnexpected
 =
 "
 xyber
 -
 alert
 -
-after
--
-server
--
-hello
+unexpected
 .
 example
 .
@@ -292,7 +288,7 @@ kCertWildcard
 Xyber
 }
 {
-kHostXyberAlertAfterServerHello
+kHostXyberAlertUnexpected
 kCertWildcard
 Xyber
 }
@@ -1113,7 +1109,7 @@ host
 -
 >
 mHostName
-kHostXyberAlertAfterServerHello
+kHostXyberAlertUnexpected
 )
 )
 {
@@ -1121,7 +1117,7 @@ SSL3_SendAlert
 (
 ss
 alert_fatal
-close_notify
+no_alert
 )
 ;
 }
