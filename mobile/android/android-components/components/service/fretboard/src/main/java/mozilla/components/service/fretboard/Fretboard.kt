@@ -270,6 +270,8 @@ fun
 updateExperiments
 (
 )
+:
+Boolean
 {
 if
 (
@@ -281,6 +283,7 @@ loadExperiments
 (
 )
 }
+return
 try
 {
 val
@@ -301,6 +304,7 @@ save
 (
 serverExperiments
 )
+true
 }
 catch
 (
@@ -325,6 +329,7 @@ e
 message
 e
 )
+false
 }
 }
 /
