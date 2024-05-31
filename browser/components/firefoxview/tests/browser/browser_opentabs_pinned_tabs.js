@@ -451,7 +451,7 @@ synthesizeMouseAtCenter
 (
 openTabEl
 .
-secondaryButtonEl
+buttonEl
 {
 }
 content
@@ -1553,7 +1553,7 @@ isActiveElement
 (
 firstUnpinnedTab
 .
-secondaryButtonEl
+buttonEl
 )
 "
 Focus
@@ -1622,7 +1622,7 @@ isActiveElement
 (
 firstUnpinnedTab
 .
-secondaryButtonEl
+buttonEl
 )
 "
 Focus
@@ -1724,7 +1724,7 @@ isActiveElement
 (
 firstUnpinnedTab
 .
-secondaryButtonEl
+buttonEl
 )
 "
 Focus
@@ -1760,7 +1760,7 @@ isActiveElement
 (
 secondUnpinnedTab
 .
-secondaryButtonEl
+buttonEl
 )
 "
 Focus

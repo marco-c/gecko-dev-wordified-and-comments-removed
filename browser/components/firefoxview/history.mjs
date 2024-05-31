@@ -2326,12 +2326,14 @@ slot
 "
 main
 "
-secondaryActionClass
+class
 =
 "
-options
+with
 -
-button
+context
+-
+menu
 "
 dateTimeFormat
 =
