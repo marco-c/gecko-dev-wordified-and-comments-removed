@@ -269,6 +269,15 @@ include
 "
 mozilla
 /
+ClearOnShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EffectCompositor
 .
 h
