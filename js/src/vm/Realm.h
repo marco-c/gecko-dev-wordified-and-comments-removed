@@ -1536,11 +1536,6 @@ isUnlimitedStacksCapturingEnabled
 =
 false
 ;
-bool
-warnedAboutDateLateWeekday
-=
-false
-;
 private
 :
 void
