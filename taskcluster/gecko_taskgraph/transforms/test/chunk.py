@@ -275,16 +275,30 @@ MOZHARNESS_TEST_PATHS
 "
 )
                 
-frozenset
-(
 config
 .
 params
-[
+.
+get
+(
 "
-files_changed
+head_repository
 "
-]
+"
+"
+)
+                
+config
+.
+params
+.
+get
+(
+"
+head_rev
+"
+"
+"
 )
                 
 task
