@@ -10886,15 +10886,6 @@ nscoord
 aWidth
 )
 {
-if
-(
-!
-aLength
-)
-{
-return
-;
-}
 uint32_t
 ch
 =
