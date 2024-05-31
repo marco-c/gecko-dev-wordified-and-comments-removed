@@ -151,6 +151,16 @@ utils
 '
 )
 implementation
+project
+(
+'
+:
+support
+-
+ktx
+'
+)
+implementation
 Deps
 .
 kotlin_stdlib
