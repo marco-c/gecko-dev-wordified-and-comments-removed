@@ -295,12 +295,6 @@ skip
 -
 if
 (
-MinGW
-)
-skip
--
-if
-(
 cocoaWidget
 )
 fuzzy
@@ -337,12 +331,6 @@ skip
 if
 (
 Android
-)
-skip
--
-if
-(
-MinGW
 )
 fuzzy
 (

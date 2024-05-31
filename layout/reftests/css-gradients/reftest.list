@@ -1906,8 +1906,7 @@ fuzzy
 -
 if
 (
-!
-contentSameGfxBackendAsCanvas
+winWidget
 0
 -
 3
