@@ -2632,6 +2632,13 @@ this
 .
 onContextMenu
 }
+secondaryActionClass
+=
+"
+options
+-
+button
+"
 >
 {
 this

@@ -2285,6 +2285,14 @@ this
 .
 onReopenTab
 }
+secondaryActionClass
+=
+"
+dismiss
+-
+button
+"
+;
 >
 <
 /
