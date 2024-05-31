@@ -2758,6 +2758,12 @@ Ci
 .
 nsIPromptService
 .
+BUTTON_POS_1_DEFAULT
++
+Ci
+.
+nsIPromptService
+.
 SHOW_SPINNER
 null
 null
