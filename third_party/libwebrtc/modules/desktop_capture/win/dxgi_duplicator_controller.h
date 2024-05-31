@@ -296,7 +296,7 @@ Reset
 ;
 friend
 class
-rtc
+webrtc
 :
 :
 scoped_refptr
