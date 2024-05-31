@@ -142,7 +142,7 @@ navigation
 ;
 attribute
 DOMTokenList
-type
+typeList
 ;
 }
 ;
