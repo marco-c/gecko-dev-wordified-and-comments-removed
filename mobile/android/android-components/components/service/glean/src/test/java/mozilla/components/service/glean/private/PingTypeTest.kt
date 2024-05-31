@@ -115,7 +115,7 @@ service
 .
 glean
 .
-isWorkScheduled
+getWorkerStatus
 import
 mozilla
 .
@@ -779,12 +779,14 @@ any
 pings
 scheduled
 "
-isWorkScheduled
+getWorkerStatus
 (
 PingUploadWorker
 .
 PING_WORKER_TAG
 )
+.
+isEnqueued
 )
 }
 Test
