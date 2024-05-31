@@ -427,6 +427,7 @@ ByReference
 OAuthInfo
 .
 Raw
+?
 fun
 fxa_config_free
 (
