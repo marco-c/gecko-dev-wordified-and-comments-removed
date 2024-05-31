@@ -198,12 +198,10 @@ exclude
 '
 HtmlOutputReport
 '
-#
 -
 '
 PlainOutputReport
 '
-#
 -
 '
 XmlOutputReport
@@ -1038,7 +1036,7 @@ CollapsibleIfStatements
 :
 active
 :
-false
+true
 DataClassContainsFunctions
 :
 active
@@ -1157,7 +1155,7 @@ MayBeConst
 :
 active
 :
-false
+true
 ModifierOrder
 :
 active
@@ -1177,7 +1175,7 @@ NoTabs
 :
 active
 :
-false
+true
 OptionalAbstractKeyword
 :
 active
@@ -1230,7 +1228,7 @@ SpacingBetweenPackageAndImports
 :
 active
 :
-false
+true
 ThrowsCount
 :
 active
@@ -1248,7 +1246,7 @@ UnnecessaryAbstractClass
 :
 active
 :
-false
+true
 UnnecessaryInheritance
 :
 active
