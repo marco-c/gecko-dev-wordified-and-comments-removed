@@ -453,12 +453,6 @@ mPagePoint
 nsIntPoint
 mMovementPoint
 ;
-bool
-mIsPointerLocked
-;
-CSSIntPoint
-mLastClientPoint
-;
 static
 Modifiers
 ComputeModifierState
