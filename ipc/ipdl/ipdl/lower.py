@@ -15197,6 +15197,23 @@ s
         
 self
 .
+includeHeaders
+.
+add
+(
+"
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
+)
+        
+self
+.
 maybeTypedef
 (
 "
@@ -15254,6 +15271,23 @@ visited
 add
 (
 s
+)
+        
+self
+.
+includeHeaders
+.
+add
+(
+"
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
 )
         
 self
