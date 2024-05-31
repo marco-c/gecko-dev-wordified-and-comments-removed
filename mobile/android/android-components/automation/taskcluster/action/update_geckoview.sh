@@ -391,7 +391,7 @@ sample
 -
 browser
 :
-assembleGeckoBetaArm
+assembleGeckoBetaUniversal
 elif
 [
 "
