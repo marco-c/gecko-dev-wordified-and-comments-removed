@@ -993,6 +993,8 @@ engineSession
 toggleDesktopMode
 (
 true
+reload
+=
 true
 )
 when
@@ -1025,6 +1027,8 @@ selectedEngineSession
 toggleDesktopMode
 (
 true
+reload
+=
 true
 )
 }

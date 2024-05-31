@@ -197,11 +197,6 @@ search
 "
 feature
 -
-session
-"
-"
-feature
--
 sitepermissions
 "
 "
