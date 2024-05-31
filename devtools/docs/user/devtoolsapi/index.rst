@@ -643,7 +643,7 @@ details
 .
 unregisterTool
 (
-tool
+toolId
 )
 Unregisters
 the

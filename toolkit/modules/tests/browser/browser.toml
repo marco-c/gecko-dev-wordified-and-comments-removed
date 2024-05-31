@@ -79,13 +79,6 @@ failures
 jobs
 [
 "
-browser_Deprecated
-.
-js
-"
-]
-[
-"
 browser_Finder
 .
 js
