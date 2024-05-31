@@ -20867,7 +20867,9 @@ BrowserExtensionContent
 in
 ExtensionChild
 .
-jsm
+sys
+.
+mjs
 serializeExtended
 (
 )

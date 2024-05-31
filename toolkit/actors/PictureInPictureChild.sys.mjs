@@ -11643,7 +11643,9 @@ false
 *
 vtt
 .
-jsm
+sys
+.
+mjs
 currently
 sets
 snapToLines

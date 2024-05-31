@@ -1568,7 +1568,9 @@ reserved
 for
 UpdateService
 .
-jsm
+sys
+.
+mjs
 and
 are
 not
@@ -12329,7 +12331,9 @@ in
 /
 UpdateTelemetry
 .
-jsm
+sys
+.
+mjs
 default
 :
 stateCode
@@ -21910,7 +21914,9 @@ path
 (
 AppUpdater
 .
-jsm
+sys
+.
+mjs
 creates
 its
 own

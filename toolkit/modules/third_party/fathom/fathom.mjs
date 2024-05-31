@@ -5,7 +5,7 @@ NOT
 TOUCH
 fathom
 .
-jsm
+mjs
 DIRECTLY
 .
 See

@@ -1694,7 +1694,9 @@ modules
 /
 CFRMessageProvider
 .
-jsm
+sys
+.
+mjs
 .
 .
 _PanelTestProvider
@@ -1723,7 +1725,9 @@ modules
 /
 PanelTestProvider
 .
-jsm
+sys
+.
+mjs
 .
 .
 _OnboardingMessageProvider

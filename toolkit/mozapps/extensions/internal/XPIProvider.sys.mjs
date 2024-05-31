@@ -1377,7 +1377,9 @@ module
 Requires
 AddonManager
 .
-jsm
+sys
+.
+mjs
 )
 var
 logger

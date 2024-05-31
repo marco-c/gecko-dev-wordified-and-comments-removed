@@ -191,7 +191,9 @@ bug
 The
 kvstore
 .
-jsm
+sys
+.
+mjs
 module
 wraps
 this
@@ -1261,7 +1263,9 @@ use
 the
 kvstore
 .
-jsm
+sys
+.
+mjs
 module
 from
 JS

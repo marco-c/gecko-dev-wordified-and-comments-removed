@@ -8838,7 +8838,9 @@ disallowed
 by
 AddonManager
 .
-jsm
+sys
+.
+mjs
 )
 to
 /
@@ -8877,7 +8879,9 @@ going
 through
 AddonManager
 .
-jsm
+sys
+.
+mjs
 .
 Thankfully
 this
