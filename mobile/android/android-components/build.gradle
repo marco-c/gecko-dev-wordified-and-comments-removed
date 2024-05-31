@@ -1009,7 +1009,7 @@ DokkaAndroidTask
 outputFormat
 =
 '
-jekyll
+html
 '
 reportUndocumented
 =
