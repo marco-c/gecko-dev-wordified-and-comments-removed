@@ -281,12 +281,12 @@ lint
 "
 ui
 -
-autocomplete
+progress
 "
 "
 ui
 -
-progress
+tabcounter
 "
 )
 }
