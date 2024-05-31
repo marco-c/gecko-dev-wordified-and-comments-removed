@@ -937,8 +937,6 @@ selected
 channel
 from
 below
-"
-"
 if
 \
 n
@@ -951,8 +949,6 @@ channel
 is
 specified
 then
-"
-"
 the
 \
 n
@@ -964,8 +960,6 @@ be
 set
 whichever
 specified
-"
-"
 filter
 \
 n
@@ -976,6 +970,8 @@ first
 in
 STRUCTURED_CHANNEL_LIST
 .
+\
+n
 "
 "
 AtStartup
@@ -1019,8 +1015,6 @@ Entry
 counters
 during
 Ion
-"
-"
 analysis
 \
 n
@@ -1032,11 +1026,7 @@ the
 CacheIR
 information
 and
-"
-"
 associated
-"
-"
 rating
 \
 n
