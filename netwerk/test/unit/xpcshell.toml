@@ -5123,6 +5123,13 @@ js
 ]
 [
 "
+test_on_dispatching_transaction_notification
+.
+js
+"
+]
+[
+"
 test_orb_empty_header
 .
 js
