@@ -12505,6 +12505,16 @@ pref
 "
 sidebar
 .
+companion
+"
+false
+)
+;
+pref
+(
+"
+sidebar
+.
 position_start
 "
 true
