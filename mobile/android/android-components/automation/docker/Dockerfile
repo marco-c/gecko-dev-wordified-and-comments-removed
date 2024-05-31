@@ -952,6 +952,10 @@ taskcluster
 5
 '
 RUN
+pip
+install
+arrow
+RUN
 locale
 -
 gen
