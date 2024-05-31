@@ -514,14 +514,11 @@ mozilla
 EnumeratedArray
 <
 ThreadType
-size_t
-size_t
-(
 ThreadType
 :
 :
 THREAD_TYPE_MAX
-)
+size_t
 >
 runningTaskCount
 ;

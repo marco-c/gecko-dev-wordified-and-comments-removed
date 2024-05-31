@@ -17343,6 +17343,17 @@ RequestMode
 aMode
 )
 {
+MOZ_ASSERT
+(
+aMode
+!
+=
+RequestMode
+:
+:
+EndGuard_
+)
+;
 mRequestMode
 =
 aMode

@@ -583,12 +583,15 @@ mPresContext
 EnumeratedArray
 <
 CascadeLevel
+CascadeLevel
+(
+kCascadeLevelCount
+)
 nsTHashMap
 <
 PseudoElementHashEntry
 bool
 >
-kCascadeLevelCount
 >
 mElementsToRestyle
 ;

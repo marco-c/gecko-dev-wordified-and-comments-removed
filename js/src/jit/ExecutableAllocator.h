@@ -151,14 +151,11 @@ mozilla
 EnumeratedArray
 <
 CodeKind
-size_t
-size_t
-(
 CodeKind
 :
 :
 Count
-)
+size_t
 >
 m_codeBytes
 ;

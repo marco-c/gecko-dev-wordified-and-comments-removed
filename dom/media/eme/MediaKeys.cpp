@@ -4554,7 +4554,10 @@ sessionsInfo
 .
 AppendASCII
 (
-GetEnumString
+MediaKeyStatusValues
+:
+:
+GetString
 (
 keyStatusMap
 -
@@ -4727,7 +4730,10 @@ minHdcpVersion
 s
 .
 "
-GetEnumString
+HDCPVersionValues
+:
+:
+GetString
 (
 aPolicy
 .
@@ -4738,7 +4744,7 @@ Value
 )
 )
 .
-get
+data
 (
 )
 )

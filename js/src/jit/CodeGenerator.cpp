@@ -12670,14 +12670,11 @@ mozilla
 EnumeratedArray
 <
 FallbackKind
-Label
-size_t
-(
 FallbackKind
 :
 :
 Count
-)
+Label
 >
 fallbacks_
 joins_

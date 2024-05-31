@@ -26067,6 +26067,15 @@ PrefersColorSchemeOverride
 :
 None
 :
+case
+dom
+:
+:
+PrefersColorSchemeOverride
+:
+:
+EndGuard_
+:
 break
 ;
 }

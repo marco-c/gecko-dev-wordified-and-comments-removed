@@ -489,14 +489,11 @@ SymbolicLinkArray
 EnumeratedArray
 <
 SymbolicAddress
-Uint32Vector
-size_t
-(
 SymbolicAddress
 :
 :
 Limit
-)
+Uint32Vector
 >
 {
 size_t

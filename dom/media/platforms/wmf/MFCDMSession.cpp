@@ -1729,7 +1729,7 @@ Individualization_request
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -1738,6 +1738,15 @@ message
 type
 "
 )
+;
+return
+dom
+:
+:
+MediaKeyMessageType
+:
+:
+EndGuard_
 ;
 }
 }

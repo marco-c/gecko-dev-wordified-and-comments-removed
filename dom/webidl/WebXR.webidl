@@ -205,13 +205,13 @@ XRSessionInit
 {
 sequence
 <
-DOMString
+any
 >
 requiredFeatures
 ;
 sequence
 <
-DOMString
+any
 >
 optionalFeatures
 ;

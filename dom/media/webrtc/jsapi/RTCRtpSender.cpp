@@ -8119,6 +8119,15 @@ MediaSourceEnum
 :
 AudioCapture
 :
+case
+dom
+:
+:
+MediaSourceEnum
+:
+:
+EndGuard_
+:
 MOZ_ASSERT
 (
 false

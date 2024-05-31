@@ -3221,7 +3221,10 @@ No_cors
 NS_ConvertASCIItoUTF16
 modeString
 (
-GetEnumString
+RequestModeValues
+:
+:
+GetString
 (
 mRequestMode
 )

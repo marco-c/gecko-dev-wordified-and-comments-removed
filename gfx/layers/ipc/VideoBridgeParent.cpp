@@ -91,15 +91,12 @@ VideoBridgeTable
 EnumeratedArray
 <
 VideoBridgeSource
-VideoBridgeParent
-*
-size_t
-(
 VideoBridgeSource
 :
 :
 _Count
-)
+VideoBridgeParent
+*
 >
 ;
 static

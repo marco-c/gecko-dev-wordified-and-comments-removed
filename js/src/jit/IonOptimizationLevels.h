@@ -598,14 +598,11 @@ mozilla
 EnumeratedArray
 <
 OptimizationLevel
-OptimizationInfo
-size_t
-(
 OptimizationLevel
 :
 :
 Count
-)
+OptimizationInfo
 >
 infos_
 ;

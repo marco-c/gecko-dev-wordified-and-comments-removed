@@ -405,6 +405,10 @@ mMediaMetadata
 EnumeratedArray
 <
 MediaSessionAction
+MediaSessionAction
+:
+:
+EndGuard_
 RefPtr
 <
 MediaSessionActionHandler

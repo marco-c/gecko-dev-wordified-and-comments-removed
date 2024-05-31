@@ -1491,6 +1491,16 @@ Direction
 :
 kInactive
 ;
+case
+dom
+:
+:
+RTCRtpTransceiverDirection
+:
+:
+EndGuard_
+:
+;
 }
 MOZ_CRASH
 (
