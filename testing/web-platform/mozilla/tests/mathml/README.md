@@ -821,3 +821,16 @@ issues
 149
 )
 .
+-
+zoom
+:
+Tests
+to
+check
+MathML
+rendering
+at
+different
+zoom
+levels
+.

@@ -1117,15 +1117,6 @@ reftest
 .
 list
 #
-mathml
-/
-include
-mathml
-/
-reftest
-.
-list
-#
 margin
 -
 collapsing
