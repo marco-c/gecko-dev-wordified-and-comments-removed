@@ -1094,6 +1094,13 @@ trace
 returns
 .
 png
+(
+:
+trace
+-
+-
+returns
+)
 Tracing
 values
 -

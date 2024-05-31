@@ -2862,6 +2862,13 @@ prefix
 |
 |
 null
+traceFunctionReturn
+:
+!
+!
+args
+.
+returns
 traceValues
 :
 !
@@ -2959,6 +2966,9 @@ mutations
 "
 "
 prefix
+"
+"
+returns
 "
 "
 values
