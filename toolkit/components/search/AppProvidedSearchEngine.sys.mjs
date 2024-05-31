@@ -1626,6 +1626,17 @@ searchTerms
 }
 "
 )
+&
+&
+!
+urlType
+.
+includes
+(
+"
+trending
+"
+)
 )
 {
 throw
