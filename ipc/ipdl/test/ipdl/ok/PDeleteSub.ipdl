@@ -11,16 +11,11 @@ PDelete
 ;
 parent
 :
-sync
+async
 __delete__
 (
 int
 x
-)
-returns
-(
-double
-d
 )
 ;
 }
