@@ -151,9 +151,7 @@ assets
 google
 "
 "
-search
-/
-default
+searchplugins
 /
 google
 -
