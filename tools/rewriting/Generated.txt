@@ -365,6 +365,13 @@ package
 lock
 .
 json
+tools
+/
+ts
+/
+error_list
+.
+json
 try_task_config
 .
 json
