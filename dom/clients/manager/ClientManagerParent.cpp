@@ -418,6 +418,9 @@ ClientSourceParent
 aActor
 )
 ;
+IPCResult
+result
+=
 actor
 -
 >
@@ -425,6 +428,16 @@ Init
 (
 )
 ;
+if
+(
+!
+result
+)
+{
+return
+result
+;
+}
 return
 IPC_OK
 (

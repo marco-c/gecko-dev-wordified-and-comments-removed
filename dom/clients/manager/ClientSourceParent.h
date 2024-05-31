@@ -122,11 +122,6 @@ mExecutionReady
 bool
 mFrozen
 ;
-void
-KillInvalidChild
-(
-)
-;
 ~
 ClientSourceParent
 (
@@ -275,7 +270,13 @@ ContentParentId
 aContentParentId
 )
 ;
-void
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 Init
 (
 )
