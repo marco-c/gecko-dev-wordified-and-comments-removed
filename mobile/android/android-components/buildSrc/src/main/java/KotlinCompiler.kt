@@ -143,10 +143,5 @@ feature
 -
 prompts
 "
-"
-service
--
-glean
-"
 )
 }
