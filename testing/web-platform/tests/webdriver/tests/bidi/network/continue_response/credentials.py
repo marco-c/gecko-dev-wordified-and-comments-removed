@@ -197,6 +197,7 @@ subscribe_events
 wait_for_event
 bidi_session
 navigate
+wait_for_future_safe
 )
 :
     
@@ -344,23 +345,38 @@ correct_credentials
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 if
 navigate
 :
         
 await
+wait_for_future_safe
+(
 on_load
+)
     
 wait
 =
 AsyncPoll
 (
+        
 bidi_session
-timeout
+message
 =
-2
+"
+Didn
+'
+t
+receive
+response
+completed
+events
+"
 )
     
 await
@@ -376,18 +392,27 @@ len
 response_completed_events
 )
 >
-=
-2
-)
-    
-assert
-len
-(
+0
+and
 response_completed_events
+[
+-
+1
+]
+[
+"
+response
+"
+]
+[
+"
+status
+"
+]
+=
+=
+200
 )
-=
-=
-2
     
 remove_listener
 (

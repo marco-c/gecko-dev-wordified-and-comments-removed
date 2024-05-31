@@ -42,8 +42,6 @@ assert_response_event
     
 AUTH_REQUIRED_EVENT
     
-PAGE_EMPTY_TEXT
-    
 RESPONSE_COMPLETED_EVENT
 )
 pytestmark
@@ -62,7 +60,7 @@ setup_blocked_request
 subscribe_events
 wait_for_event
 bidi_session
-url
+wait_for_future_safe
 )
 :
     
@@ -116,7 +114,10 @@ on_response_completed
 response_event
 =
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert_response_event
 (
@@ -151,9 +152,7 @@ test_default
     
 setup_blocked_request
 subscribe_events
-wait_for_event
 bidi_session
-url
 )
 :
     
@@ -277,7 +276,6 @@ test_provideCredentials
 setup_blocked_request
 subscribe_events
 bidi_session
-url
 )
 :
     
@@ -451,7 +449,7 @@ setup_blocked_request
 subscribe_events
 bidi_session
 wait_for_event
-url
+wait_for_future_safe
 )
 :
     
@@ -570,7 +568,10 @@ wrong_credentials
 )
     
 await
+wait_for_future_safe
+(
 on_auth_required
+)
     
 correct_credentials
 =
