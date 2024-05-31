@@ -403,8 +403,9 @@ metadata
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 )
 ;
@@ -590,8 +591,9 @@ RTPVideoHeader
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 )
 ;
@@ -1570,8 +1572,9 @@ _
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 frame_csrcs
 )
@@ -1835,8 +1838,9 @@ RTPVideoHeader
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 )
 ;
