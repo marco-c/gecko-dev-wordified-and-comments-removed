@@ -3635,6 +3635,7 @@ mozJSModuleLoader
 :
 GetOrCreateDevToolsLoader
 (
+aCx
 )
 ;
 }
@@ -3968,6 +3969,7 @@ mozJSModuleLoader
 :
 GetOrCreateDevToolsLoader
 (
+aCx
 )
 ;
 case
@@ -4028,6 +4030,7 @@ mozJSModuleLoader
 :
 GetOrCreateDevToolsLoader
 (
+aCx
 )
 ;
 }

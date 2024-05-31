@@ -369,6 +369,7 @@ mozJSModuleLoader
 :
 GetOrCreateDevToolsLoader
 (
+aCx
 )
 :
 mozJSModuleLoader
@@ -392,7 +393,6 @@ loader
 >
 GetSharedGlobal
 (
-aCx
 )
 )
 ;
