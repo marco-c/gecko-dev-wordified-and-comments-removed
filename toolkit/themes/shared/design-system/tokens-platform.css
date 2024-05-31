@@ -80,13 +80,10 @@ css
 "
 )
 ;
-media
-not
-(
-prefers
+layer
+tokens
 -
-contrast
-)
+foundation
 {
 :
 root
