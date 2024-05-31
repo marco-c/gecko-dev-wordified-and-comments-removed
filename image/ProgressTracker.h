@@ -484,15 +484,6 @@ ObserverCount
 )
 const
 ;
-already_AddRefed
-<
-nsIEventTarget
->
-GetEventTarget
-(
-)
-const
-;
 void
 ResetImage
 (
