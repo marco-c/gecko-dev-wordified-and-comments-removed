@@ -6954,7 +6954,7 @@ true
 )
 assertEquals
 (
-session2
+session1
 manager
 .
 selectedSession
@@ -6966,7 +6966,9 @@ https
 :
 /
 /
-getpocket
+www
+.
+firefox
 .
 com
 "
@@ -7307,7 +7309,7 @@ session4
 )
 assertEquals
 (
-session2
+session9
 manager
 .
 selectedSession
@@ -7316,11 +7318,11 @@ manager
 .
 remove
 (
-session2
+session9
 )
 assertEquals
 (
-session9
+session2
 manager
 .
 selectedSession
@@ -7329,7 +7331,7 @@ manager
 .
 remove
 (
-session9
+session2
 )
 assertNull
 (
