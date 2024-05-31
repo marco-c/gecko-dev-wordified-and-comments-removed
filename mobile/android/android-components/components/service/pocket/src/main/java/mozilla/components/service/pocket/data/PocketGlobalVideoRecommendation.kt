@@ -342,7 +342,7 @@ constructor
 val
 id
 :
-Int
+Long
 val
 url
 :
