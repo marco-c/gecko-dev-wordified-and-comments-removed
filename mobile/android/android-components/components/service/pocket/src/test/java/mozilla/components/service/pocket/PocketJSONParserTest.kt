@@ -257,7 +257,9 @@ expectedSubset
 =
 PocketTestResource
 .
-videoRecommendationFirstTwo
+getExpectedPocketVideoRecommendationFirstTwo
+(
+)
 val
 pocketJSON
 =

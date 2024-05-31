@@ -627,7 +627,9 @@ expected
 =
 PocketTestResource
 .
-videoRecommendationFirstTwo
+getExpectedPocketVideoRecommendationFirstTwo
+(
+)
 when
 (
 raw
