@@ -1731,6 +1731,11 @@ if
 active
 )
 {
+if
+(
+shouldSetActive
+)
+{
 self
 .
 isActive
@@ -1744,6 +1749,7 @@ notifyDidSetActive
 active
 ]
 ;
+}
 [
 self
 decrementActivationCount
