@@ -336,6 +336,12 @@ mockito
 Mockito
 .
 verifyZeroInteractions
+Suppress
+(
+"
+Deprecation
+"
+)
 RunWith
 (
 AndroidJUnit4

@@ -424,8 +424,6 @@ loadUrl
 testContext
 .
 resources
-.
-displayMetrics
 )
 val
 intent

@@ -795,8 +795,6 @@ loadUrl
 applicationContext
 .
 resources
-.
-displayMetrics
 )
 }
 /
