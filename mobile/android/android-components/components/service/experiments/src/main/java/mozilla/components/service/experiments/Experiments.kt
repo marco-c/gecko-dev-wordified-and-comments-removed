@@ -241,7 +241,15 @@ var
 storage
 :
 FlatFileExperimentStorage
-private
+VisibleForTesting
+(
+otherwise
+=
+VisibleForTesting
+.
+PRIVATE
+)
+internal
 lateinit
 var
 updater

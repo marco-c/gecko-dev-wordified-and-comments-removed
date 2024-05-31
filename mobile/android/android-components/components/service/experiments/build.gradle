@@ -209,6 +209,14 @@ Dependencies
 .
 kotlin_reflect
 testImplementation
+Dependencies
+.
+androidx_work_testing
+testImplementation
+Dependencies
+.
+androidx_espresso_core
+testImplementation
 project
 (
 '
