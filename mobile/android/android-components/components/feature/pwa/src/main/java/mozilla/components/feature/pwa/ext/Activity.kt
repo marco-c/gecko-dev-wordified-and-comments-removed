@@ -140,11 +140,13 @@ applyOrientation
 manifest
 :
 WebAppManifest
+?
 )
 {
 when
 (
 manifest
+?
 .
 orientation
 )
