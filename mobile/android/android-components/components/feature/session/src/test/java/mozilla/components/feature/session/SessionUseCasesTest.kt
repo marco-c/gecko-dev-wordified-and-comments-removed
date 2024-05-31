@@ -1072,7 +1072,7 @@ loadUseCase
 =
 SessionUseCases
 .
-LoadUrlUseCase
+DefaultLoadUrlUseCase
 (
 sessionManager
 )
