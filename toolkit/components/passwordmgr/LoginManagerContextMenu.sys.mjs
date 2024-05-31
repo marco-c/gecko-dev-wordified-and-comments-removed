@@ -448,6 +448,7 @@ command
 function
 (
 login
+_event
 )
 {
 this

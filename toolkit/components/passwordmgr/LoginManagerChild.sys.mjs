@@ -840,6 +840,7 @@ onStateChange
 aWebProgress
 aRequest
 aState
+_aStatus
 )
 {
 const
@@ -1143,6 +1144,7 @@ observe
 (
 subject
 topic
+_data
 )
 {
 switch

@@ -1822,6 +1822,7 @@ accessKey
 acceptKey
 callback
 (
+_event
 )
 {
 let
@@ -1873,6 +1874,7 @@ accessKey
 cancelKey
 callback
 (
+_event
 )
 {
 reject
@@ -2755,6 +2757,7 @@ accessKey
 acceptKey
 callback
 (
+_event
 )
 {
 resolve
@@ -2778,6 +2781,7 @@ accessKey
 cancelKey
 callback
 (
+_event
 )
 {
 resolve
@@ -4074,6 +4078,7 @@ accessKey
 acceptKey
 callback
 (
+_event
 )
 {
 let
@@ -4125,6 +4130,7 @@ accessKey
 cancelKey
 callback
 (
+_event
 )
 {
 reject

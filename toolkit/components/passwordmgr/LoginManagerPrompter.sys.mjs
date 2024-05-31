@@ -515,6 +515,7 @@ observe
 (
 subject
 topic
+_data
 )
 {
 switch
@@ -3784,6 +3785,7 @@ case
 showing
 "
 :
+{
 lazy
 .
 log
@@ -4344,6 +4346,7 @@ possibleValues
 usernames
 )
 ;
+}
 break
 ;
 case

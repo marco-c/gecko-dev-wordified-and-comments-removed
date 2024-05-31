@@ -543,6 +543,7 @@ checkVisibility
 =
 function
 (
+_options
 )
 {
 throw
@@ -1019,6 +1020,8 @@ defaultValue
 =
 null
 onUpdate
+=
+null
 transform
 =
 val

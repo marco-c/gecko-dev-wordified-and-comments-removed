@@ -300,8 +300,7 @@ run_next_test
 .
 catch
 (
-(
-)
+_error
 =
 >
 {

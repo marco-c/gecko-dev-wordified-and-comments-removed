@@ -440,6 +440,7 @@ TEST_ORIGIN
 async
 function
 (
+_browser
 )
 {
 info

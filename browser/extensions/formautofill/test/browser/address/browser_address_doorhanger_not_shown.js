@@ -730,7 +730,6 @@ formValue
 await
 ensureNoDoorhanger
 (
-browser
 )
 ;
 }

@@ -825,7 +825,6 @@ formValue
 await
 ensureNoDoorhanger
 (
-browser
 )
 ;
 }

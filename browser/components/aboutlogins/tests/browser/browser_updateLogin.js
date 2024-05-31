@@ -1724,12 +1724,6 @@ spawn
 (
 browser
 [
-LoginHelper
-.
-loginToVanillaObject
-(
-TEST_LOGIN1
-)
 ]
 async
 (
@@ -2196,12 +2190,6 @@ spawn
 (
 browser
 [
-LoginHelper
-.
-loginToVanillaObject
-(
-TEST_LOGIN1
-)
 ]
 async
 (

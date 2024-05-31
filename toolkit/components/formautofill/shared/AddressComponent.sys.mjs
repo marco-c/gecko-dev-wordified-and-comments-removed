@@ -1251,8 +1251,6 @@ replaceControlCharacters
 this
 .
 userValue
-"
-"
 )
 )
 ;
@@ -2610,6 +2608,7 @@ country_code
 }
 contains
 (
+_other
 )
 {
 return
@@ -4764,6 +4763,7 @@ options
 }
 contains
 (
+_other
 )
 {
 return

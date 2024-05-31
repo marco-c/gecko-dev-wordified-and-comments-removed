@@ -78,8 +78,7 @@ MockFilePicker
 .
 showCallback
 =
-(
-)
+_fp
 =
 >
 {
@@ -1940,7 +1939,6 @@ CsvImportHelper
 .
 getDetailedReportData
 (
-browser
 )
 ;
 BrowserTestUtils

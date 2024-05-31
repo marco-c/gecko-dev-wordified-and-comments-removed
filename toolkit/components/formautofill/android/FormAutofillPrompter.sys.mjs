@@ -221,6 +221,13 @@ creditCards
 async
 promptToSaveAddress
 (
+_browser
+_storage
+_flowId
+{
+_oldRecord
+_newRecord
+}
 )
 {
 throw

@@ -3066,6 +3066,7 @@ method
 async
 handleCancelEvent
 (
+_e
 )
 {
 let

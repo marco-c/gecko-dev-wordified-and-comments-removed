@@ -59,7 +59,11 @@ LoginStats
 :
 NewSavedPassword
 "
+(
 subject
+_topic
+_data
+)
 =
 >
 subject

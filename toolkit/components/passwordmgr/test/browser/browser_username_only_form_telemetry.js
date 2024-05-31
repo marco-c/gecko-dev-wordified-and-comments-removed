@@ -445,7 +445,6 @@ setupForms
 (
 numUsernameOnlyForms
 numBasicForms
-2
 )
 ;
 await
@@ -516,7 +515,6 @@ setupForms
 (
 numUsernameOnlyForms
 numBasicForms
-2
 )
 ;
 await
@@ -587,7 +585,6 @@ setupForms
 (
 numUsernameOnlyForms1
 numBasicForms1
-2
 )
 ;
 await
@@ -630,7 +627,6 @@ setupForms
 (
 numUsernameOnlyForms2
 numBasicForms2
-2
 )
 ;
 await
@@ -724,7 +720,6 @@ setupForms
 (
 numUsernameOnlyForms
 numBasicForms
-2
 )
 ;
 await

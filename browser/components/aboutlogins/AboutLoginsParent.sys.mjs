@@ -4732,6 +4732,9 @@ passwordSyncEnabled
 }
 onPasswordSyncEnabledPreferenceChange
 (
+_data
+_previous
+_latest
 )
 {
 this

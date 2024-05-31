@@ -40,6 +40,10 @@ nsIProtocolProxyCallback
 )
 onProxyAvailable
 (
+_req
+_uri
+_pi
+_status
 )
 {
 class
@@ -47,6 +51,7 @@ ProxyChannelListener
 {
 onStartRequest
 (
+_request
 )
 {
 resolve
@@ -57,6 +62,8 @@ proxyChannel
 }
 onStopRequest
 (
+_request
+_status
 )
 {
 }
@@ -271,7 +278,7 @@ callback
 {
 onAuthAvailable
 (
-context
+_context
 authInfo
 )
 {

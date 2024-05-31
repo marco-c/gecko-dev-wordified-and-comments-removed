@@ -80,6 +80,8 @@ FormAutofill
 defineLogGetter
 =
 (
+_scope
+_logPrefix
 )
 =
 >

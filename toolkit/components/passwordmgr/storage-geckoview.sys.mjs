@@ -322,6 +322,10 @@ terminate
 async
 addLoginsAsync
 (
+_logins
+_continueOnDuplicates
+=
+false
 )
 {
 throw
@@ -339,6 +343,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 removeLogin
 (
+_login
 )
 {
 throw
@@ -356,6 +361,8 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 modifyLogin
 (
+_oldLogin
+_newLoginData
 )
 {
 throw
@@ -1024,6 +1031,7 @@ instead
 /
 searchLogins
 (
+_matchData
 )
 {
 throw
@@ -1070,6 +1078,9 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 countLogins
 (
+_origin
+_formActionOrigin
+_httpRealm
 )
 {
 throw
@@ -1203,6 +1214,7 @@ NS_ERROR_NOT_IMPLEMENTED
 async
 setSyncID
 (
+_syncID
 )
 {
 throw
@@ -1239,6 +1251,7 @@ NS_ERROR_NOT_IMPLEMENTED
 async
 setLastSync
 (
+_timestamp
 )
 {
 throw

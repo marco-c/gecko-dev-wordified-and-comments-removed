@@ -661,6 +661,8 @@ nsISupportsWeakReference
 observe
 (
 subject
+_topic
+_data
 )
 {
 Assert

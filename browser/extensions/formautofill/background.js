@@ -11,8 +11,7 @@ onUpdateAvailable
 .
 addListener
 (
-(
-)
+_details
 =
 >
 {

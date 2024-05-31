@@ -1142,6 +1142,7 @@ false
 _parsePhoneFields
 (
 scanner
+_fieldDetail
 )
 {
 let
@@ -1746,6 +1747,7 @@ false
 _parseStreetAddressFields
 (
 scanner
+_fieldDetail
 )
 {
 const

@@ -781,9 +781,6 @@ spawn
 browser
 [
 [
-TEST_LOGIN1
-.
-guid
 VULNERABLE_TEST_LOGIN2
 .
 guid
@@ -795,7 +792,6 @@ guid
 async
 (
 [
-_regularLoginGuid
 vulnerableLoginGuid
 breachedLoginGuid
 ]

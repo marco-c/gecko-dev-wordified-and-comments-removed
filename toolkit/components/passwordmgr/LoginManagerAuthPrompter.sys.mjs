@@ -662,8 +662,9 @@ _uiBusyResolve
 null
 observe
 (
-subject
+_subject
 topic
+_data
 )
 {
 this
