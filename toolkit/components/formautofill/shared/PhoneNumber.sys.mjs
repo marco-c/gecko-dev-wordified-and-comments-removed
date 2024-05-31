@@ -101,9 +101,11 @@ resource
 :
 /
 /
-autofill
+gre
 /
-phonenumberutils
+modules
+/
+shared
 /
 PhoneNumberMetaData
 .
@@ -131,9 +133,11 @@ resource
 :
 /
 /
-autofill
+gre
 /
-phonenumberutils
+modules
+/
+shared
 /
 PhoneNumberNormalizer
 .
