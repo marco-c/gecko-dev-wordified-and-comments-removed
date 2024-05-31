@@ -1533,6 +1533,12 @@ SetCDMPromise
 >
 mSetCDMProxyRequest
 ;
+MozPromiseRequestHolder
+<
+GenericNonExclusivePromise
+>
+mInitEngineForCDMRequest
+;
 gfx
 :
 :
