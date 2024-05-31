@@ -1183,6 +1183,9 @@ mDLBuilder
 ScrollUpdatesMap
 mPendingScrollUpdates
 ;
+LayoutDeviceIntSize
+mFlushWidgetSize
+;
 }
 ;
 }
