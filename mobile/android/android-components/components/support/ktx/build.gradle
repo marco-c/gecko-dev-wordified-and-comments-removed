@@ -137,6 +137,10 @@ kotlin_stdlib
 implementation
 Dependencies
 .
+kotlin_coroutines
+implementation
+Dependencies
+.
 androidx_core
 implementation
 Dependencies
@@ -172,6 +176,10 @@ support
 test
 '
 )
+testImplementation
+Dependencies
+.
+kotlin_coroutines_test
 testImplementation
 Dependencies
 .
