@@ -1954,7 +1954,6 @@ findIndex
 (
 [
 pat
-count
 ]
 )
 =

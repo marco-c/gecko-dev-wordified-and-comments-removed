@@ -85,7 +85,8 @@ filter
 .
 onstop
 =
-event
+(
+)
 =
 >
 {
@@ -255,7 +256,8 @@ onErrorOccurred
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -481,7 +483,6 @@ addListener
 (
 {
 tabId
-windowId
 }
 )
 =
@@ -534,8 +535,6 @@ onRemoved
 addListener
 (
 (
-tabId
-removeInfo
 )
 =
 >
@@ -552,8 +551,6 @@ onAttached
 addListener
 (
 (
-tabId
-attachInfo
 )
 =
 >
@@ -570,8 +567,6 @@ onDetached
 addListener
 (
 (
-tabId
-detachInfo
 )
 =
 >

@@ -5267,7 +5267,6 @@ MouseMoveRegistered
 function
 processed
 (
-message
 )
 {
 mm
@@ -5845,7 +5844,6 @@ KeyRegistered
 function
 processed
 (
-message
 )
 {
 mm
@@ -14211,7 +14209,8 @@ this
 .
 handleEvent
 =
-aEvent
+(
+)
 =
 >
 {

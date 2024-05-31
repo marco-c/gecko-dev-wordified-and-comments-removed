@@ -8,7 +8,8 @@ addEventListener
 "
 load
 "
-loadevt
+(
+)
 =
 >
 {
@@ -148,7 +149,8 @@ TabPaint
 :
 Ping
 "
-e
+(
+)
 =
 >
 {
@@ -225,7 +227,8 @@ TabPaint
 :
 OpenFromContent
 "
-msg
+(
+)
 =
 >
 {

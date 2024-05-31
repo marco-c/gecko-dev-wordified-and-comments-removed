@@ -1818,7 +1818,6 @@ testFunction
 line
 file
 }
-pauseOptions
 )
 {
 const

@@ -180,7 +180,6 @@ actorCreated
 }
 handleEvent
 (
-event
 )
 {
 }

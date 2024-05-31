@@ -120,7 +120,8 @@ addEventListener
 "
 TalosPowersContentForceCCAndGC
 "
-e
+(
+)
 =
 >
 {
@@ -164,7 +165,8 @@ addEventListener
 "
 TalosPowersContentFocus
 "
-e
+(
+)
 =
 >
 {
@@ -283,7 +285,8 @@ addEventListener
 "
 TalosPowersContentGetStartupInfo
 "
-e
+(
+)
 =
 >
 {
@@ -375,7 +378,8 @@ addEventListener
 "
 TalosPowersContentDumpConsole
 "
-e
+(
+)
 =
 >
 {
@@ -528,7 +532,8 @@ addEventListener
 "
 TalosPowersWebRenderCapture
 "
-e
+(
+)
 =
 >
 {

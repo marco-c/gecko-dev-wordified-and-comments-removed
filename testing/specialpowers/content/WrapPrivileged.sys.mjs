@@ -1862,7 +1862,6 @@ get
 (
 target
 prop
-receiver
 )
 {
 let
@@ -1929,7 +1928,6 @@ set
 target
 prop
 val
-receiver
 )
 {
 return
@@ -2025,9 +2023,6 @@ prop
 }
 defineProperty
 (
-target
-prop
-descriptor
 )
 {
 throw
@@ -2350,7 +2345,6 @@ this
 }
 preventExtensions
 (
-target
 )
 {
 throw

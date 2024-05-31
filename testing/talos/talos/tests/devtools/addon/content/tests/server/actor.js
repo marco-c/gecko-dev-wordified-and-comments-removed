@@ -62,7 +62,6 @@ arg
 {
 option
 }
-arraySize
 )
 {
 this

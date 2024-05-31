@@ -1415,7 +1415,6 @@ ping
 (
 arg
 callback
-win
 )
 {
 callback
@@ -1476,7 +1475,6 @@ requestDumpCoverageCounters
 (
 arg
 callback
-win
 )
 {
 PerTestCoverageUtils
@@ -1495,7 +1493,6 @@ requestResetCoverageCounters
 (
 arg
 callback
-win
 )
 {
 PerTestCoverageUtils
@@ -1514,7 +1511,6 @@ dumpAboutSupport
 (
 arg
 callback
-win
 )
 {
 const

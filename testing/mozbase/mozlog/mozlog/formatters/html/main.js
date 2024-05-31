@@ -321,7 +321,6 @@ click
 "
 function
 (
-event
 )
 {
 toggle_sort_states

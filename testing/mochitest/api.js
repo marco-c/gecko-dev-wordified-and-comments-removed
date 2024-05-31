@@ -111,7 +111,6 @@ observe
 (
 window
 topic
-data
 )
 {
 if

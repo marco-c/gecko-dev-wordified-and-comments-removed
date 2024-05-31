@@ -1490,7 +1490,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 function

@@ -564,7 +564,6 @@ onStateChange
 webProgress
 request
 stateFlags
-statusCode
 )
 {
 request
@@ -1433,7 +1432,6 @@ true
 }
 didChangeBrowserRemoteness
 (
-event
 )
 {
 /

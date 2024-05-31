@@ -220,7 +220,6 @@ logWithLevel
 function
 (
 level
-message
 )
 {
 var

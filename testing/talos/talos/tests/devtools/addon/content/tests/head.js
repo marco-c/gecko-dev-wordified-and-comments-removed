@@ -479,7 +479,8 @@ ownerGlobal
 .
 MutationObserver
 (
-mutations
+(
+)
 =
 >
 {

@@ -558,7 +558,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 waitForPaints

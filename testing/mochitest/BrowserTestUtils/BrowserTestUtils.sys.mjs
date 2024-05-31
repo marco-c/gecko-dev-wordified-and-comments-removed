@@ -4227,7 +4227,6 @@ testFn
 function
 (
 aStateFlags
-aStatus
 )
 {
 return
@@ -4636,10 +4635,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -4956,10 +4952,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -4973,7 +4966,6 @@ aBrowser
 aWebProgress
 aRequest
 aLocationURI
-aFlags
 )
 {
 if
@@ -5292,7 +5284,6 @@ async
 (
 win
 topic
-data
 )
 =
 >
@@ -5987,7 +5978,6 @@ observer
 (
 subject
 topic
-data
 )
 {
 if
@@ -6362,7 +6352,6 @@ observer
 (
 subject
 topic
-data
 )
 {
 if
@@ -7063,11 +7052,7 @@ browser
 let
 observer
 =
-(
 subject
-topic
-data
-)
 =
 >
 {
@@ -7272,11 +7257,7 @@ flush
 let
 observer
 =
-(
 subject
-topic
-data
-)
 =
 >
 {
@@ -9722,7 +9703,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch
@@ -12375,7 +12355,6 @@ observer
 (
 subject
 topic
-data
 )
 =
 >
@@ -12852,10 +12831,7 @@ push
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -13155,9 +13131,6 @@ let
 observer
 =
 (
-subject
-topic
-data
 )
 =
 >
@@ -13401,7 +13374,8 @@ mut
 new
 MutationObserver
 (
-mutations
+(
+)
 =
 >
 {
@@ -13579,7 +13553,8 @@ mut
 new
 MutationObserver
 (
-mutations
+(
+)
 =
 >
 {

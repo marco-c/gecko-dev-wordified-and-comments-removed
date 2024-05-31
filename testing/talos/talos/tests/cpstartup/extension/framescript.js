@@ -30,7 +30,8 @@ CPStartup
 :
 Ping
 "
-e
+(
+)
 =
 >
 {

@@ -43,7 +43,6 @@ blank
 async
 function
 (
-browser
 )
 {
 ok

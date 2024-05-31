@@ -1332,9 +1332,6 @@ prefName
 function
 observer
 (
-subject
-topic
-data
 )
 {
 try

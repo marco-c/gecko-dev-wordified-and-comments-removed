@@ -320,7 +320,6 @@ open
 (
 root
 path
-mode
 )
 {
 let
@@ -443,7 +442,6 @@ name
 }
 getValueType
 (
-name
 )
 {
 return

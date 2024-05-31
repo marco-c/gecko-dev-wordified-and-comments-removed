@@ -189,7 +189,6 @@ chan
 }
 getURIFlags
 (
-aURI
 )
 {
 return

@@ -575,7 +575,6 @@ nsIConsoleListener
 observe
 (
 msg
-topic
 )
 {
 let
@@ -1070,9 +1069,6 @@ snapshotRect
 }
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 /
@@ -6534,9 +6530,6 @@ _getPref
 (
 prefName
 prefType
-{
-defaultValue
-}
 )
 {
 switch
@@ -6775,7 +6768,6 @@ listener
 }
 getFormFillController
 (
-window
 )
 {
 return
@@ -11062,7 +11054,6 @@ SPRemoveServiceWorkerDataForExampleDomain
 cleanUpSTSData
 (
 origin
-flags
 )
 {
 return
@@ -11082,7 +11073,6 @@ origin
 async
 requestDumpCoverageCounters
 (
-cb
 )
 {
 /
@@ -11127,7 +11117,6 @@ SPRequestDumpCoverageCounters
 async
 requestResetCoverageCounters
 (
-cb
 )
 {
 /
@@ -13019,7 +13008,6 @@ shutdown
 :
 function
 (
-aMessage
 )
 {
 Services

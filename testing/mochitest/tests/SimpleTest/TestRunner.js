@@ -213,7 +213,6 @@ ret
 function
 flattenArguments
 (
-lst
 )
 {
 var

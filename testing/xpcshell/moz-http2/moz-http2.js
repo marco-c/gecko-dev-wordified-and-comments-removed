@@ -351,8 +351,6 @@ newTransform
 function
 (
 frame
-encoding
-done
 )
 {
 if
@@ -12266,7 +12264,6 @@ function
 (
 req
 clientSocket
-head
 )
 {
 clientSocket

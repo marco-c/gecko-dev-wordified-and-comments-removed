@@ -1270,7 +1270,6 @@ runall
 =
 function
 (
-e
 )
 {
 if
@@ -1332,7 +1331,6 @@ runtests
 =
 function
 (
-e
 )
 {
 var
