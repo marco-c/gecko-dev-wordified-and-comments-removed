@@ -3304,9 +3304,6 @@ internal
 fun
 geckoErrorToErrorType
 (
-WebRequestError
-.
-Error
 errorCode
 :
 Int
