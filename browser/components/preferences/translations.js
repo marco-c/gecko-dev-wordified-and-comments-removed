@@ -24,7 +24,7 @@ button
 addEventListener
 (
 "
-command
+click
 "
 function
 (
