@@ -107,6 +107,14 @@ EditorInfo
 import
 android
 .
+view
+.
+inputmethod
+.
+InputMethodManager
+import
+android
+.
 widget
 .
 ImageView
@@ -592,6 +600,11 @@ urlView
 .
 showKeyboard
 (
+flags
+=
+InputMethodManager
+.
+SHOW_FORCED
 )
 }
 /
