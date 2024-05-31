@@ -2695,6 +2695,10 @@ mSourceWindowContext
 =
 nullptr
 ;
+mSourceTopWindowContext
+=
+nullptr
+;
 mTriggeringPrincipal
 =
 nullptr
