@@ -164,6 +164,8 @@ url
 :
 String
 )
+=
+Unit
 fun
 onProgress
 (
@@ -171,6 +173,8 @@ progress
 :
 Int
 )
+=
+Unit
 fun
 onLoadingStateChange
 (
@@ -178,6 +182,8 @@ loading
 :
 Boolean
 )
+=
+Unit
 fun
 onNavigationStateChange
 (
@@ -194,6 +200,8 @@ Boolean
 =
 null
 )
+=
+Unit
 fun
 onSecurityChange
 (
@@ -213,6 +221,8 @@ String
 =
 null
 )
+=
+Unit
 }
 /
 *
