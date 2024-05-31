@@ -69,7 +69,7 @@ nightly_version
 .
 0
 .
-20190119095933
+20190121125354
 "
 const
 val
