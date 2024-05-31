@@ -5820,11 +5820,6 @@ userContextId
 =
 0
 ;
-boolean
-inIsolatedMozBrowser
-=
-false
-;
 unsigned
 long
 privateBrowsingId
@@ -5861,9 +5856,6 @@ OriginAttributesPatternDictionary
 unsigned
 long
 userContextId
-;
-boolean
-inIsolatedMozBrowser
 ;
 unsigned
 long
