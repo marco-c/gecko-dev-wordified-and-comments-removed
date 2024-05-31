@@ -1369,12 +1369,11 @@ event
 action
 "
 ]
-in
-[
+=
+=
 "
 published
 "
-]
 '
 then
 :
