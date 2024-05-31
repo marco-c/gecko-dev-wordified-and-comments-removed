@@ -27617,14 +27617,6 @@ false
 ;
 }
 }
-if
-(
-ExceptionsAvailable
-(
-cx
-)
-)
-{
 constexpr
 NameAndProtoKey
 exceptionEntries
@@ -27674,7 +27666,6 @@ id
 return
 false
 ;
-}
 }
 }
 RootedObject
