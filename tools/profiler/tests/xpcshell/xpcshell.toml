@@ -237,6 +237,12 @@ win
 &
 socketprocess_networking
 "
+"
+tsan
+"
+#
+bug
+1885381
 ]
 [
 "
