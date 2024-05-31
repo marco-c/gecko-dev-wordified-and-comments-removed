@@ -245,7 +245,7 @@ glean
 .
 metrics
 .
-Baseline
+GleanBaseline
 import
 mozilla
 .
@@ -1511,7 +1511,7 @@ Set
 the
 OS
 type
-Baseline
+GleanBaseline
 .
 os
 .
@@ -1548,7 +1548,7 @@ os
 Build
 .
 VERSION
-Baseline
+GleanBaseline
 .
 osVersion
 .
@@ -1664,7 +1664,7 @@ Suppress
 MagicNumber
 "
 )
-Baseline
+GleanBaseline
 .
 device
 .
@@ -1702,7 +1702,7 @@ Set
 the
 CPU
 architecture
-Baseline
+GleanBaseline
 .
 architecture
 .
@@ -1739,7 +1739,7 @@ AccessibilityManager
 .
 let
 {
-Baseline
+GleanBaseline
 .
 a11yServices
 .

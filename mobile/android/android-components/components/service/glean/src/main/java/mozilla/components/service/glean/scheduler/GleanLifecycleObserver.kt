@@ -111,7 +111,7 @@ glean
 .
 metrics
 .
-Baseline
+GleanBaseline
 /
 *
 *
@@ -199,7 +199,7 @@ spent
 on
 foreground
 .
-Baseline
+GleanBaseline
 .
 duration
 .
@@ -356,7 +356,7 @@ goes
 to
 background
 .
-Baseline
+GleanBaseline
 .
 duration
 .
