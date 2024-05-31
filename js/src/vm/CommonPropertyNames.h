@@ -2546,6 +2546,14 @@ string
 \
 MACRO_
 (
+json
+"
+json
+"
+)
+\
+MACRO_
+(
 keys
 "
 keys
