@@ -167,7 +167,9 @@ r
 .
 height
 =
-100
+99
+.
+9
 ;
 assert_equals
 (
