@@ -964,16 +964,11 @@ self
 .
 register_virtualenv_module
 (
-                
 requirements
 =
 [
 requirements_file
 ]
-two_pass
-=
-True
-            
 )
         
 self
