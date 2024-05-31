@@ -466,26 +466,6 @@ strparam
 }
 "
 ]
-            
-"
-requires
-"
-:
-[
-"
-anonymous
--
-client
--
-ip
--
-when
--
-cross
--
-origin
-"
-]
           
 }
 }
