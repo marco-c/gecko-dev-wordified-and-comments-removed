@@ -1081,7 +1081,7 @@ to
 calling
 Glean
 .
-initialized
+initialize
 (
 )
 .
@@ -1099,6 +1099,9 @@ and
 pings
 are
 cleared
+except
+for
+first_run_date
 .
 When
 re
