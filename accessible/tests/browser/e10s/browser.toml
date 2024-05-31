@@ -159,6 +159,15 @@ enabled
 =
 true
 "
+"
+accessibility
+.
+ARIAElementReflection
+.
+enabled
+=
+true
+"
 ]
 [
 "
