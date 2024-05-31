@@ -294,6 +294,13 @@ sessionStorage
 persist
 (
 sessionManager
+.
+engine
+sessionManager
+.
+createSnapshot
+(
+)
 )
 }
 }
