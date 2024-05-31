@@ -118,6 +118,17 @@ class
 class
 ExperimentTest
 {
+private
+var
+currentTime
+=
+System
+.
+currentTimeMillis
+(
+)
+/
+1000
 Test
 fun
 test
@@ -163,7 +174,7 @@ createDefaultMatcher
 )
 lastModified
 =
-12345
+currentTime
 schemaModified
 =
 null

@@ -154,6 +154,17 @@ class
 class
 JSONExperimentParserTest
 {
+private
+var
+currentTime
+=
+System
+.
+currentTimeMillis
+(
+)
+/
+1000
 Test
 fun
 toJson
@@ -271,7 +282,7 @@ branch3
 )
 lastModified
 =
-1526991669
+currentTime
 )
 val
 jsonObject
@@ -318,7 +329,7 @@ description
 )
 assertEquals
 (
-1526991669
+currentTime
 jsonObject
 .
 getLong
@@ -918,7 +929,7 @@ en
 last_modified
 "
 :
-1526991669
+currentTime
 }
 "
 "
@@ -984,7 +995,7 @@ Buckets
 )
 lastModified
 =
-1526991669
+currentTime
 )
 assertEquals
 (
@@ -1113,7 +1124,7 @@ en
 last_modified
 "
 :
-1526991669
+currentTime
 "
 debug_tags
 "
@@ -1200,7 +1211,7 @@ Buckets
 )
 lastModified
 =
-1526991669
+currentTime
 )
 assertEquals
 (

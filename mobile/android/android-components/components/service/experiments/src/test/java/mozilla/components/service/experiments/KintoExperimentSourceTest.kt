@@ -193,6 +193,24 @@ collectionName
 "
 experiments
 "
+private
+var
+currentTime
+=
+System
+.
+currentTimeMillis
+(
+)
+/
+1000
+private
+var
+pastTime
+=
+currentTime
+-
+1000
 Test
 fun
 noExperiments
@@ -400,7 +418,7 @@ description
 last_modified
 "
 :
-1523549895713
+pastTime
 "
 match
 "
@@ -571,7 +589,7 @@ Buckets
 )
 lastModified
 =
-1523549895713
+pastTime
 )
 val
 experimentSource
@@ -619,7 +637,7 @@ experiments
 )
 assertEquals
 (
-1523549895713
+pastTime
 kintoExperiments
 .
 lastModified
@@ -698,7 +716,7 @@ description
 last_modified
 "
 :
-1523549895713
+pastTime
 "
 match
 "
@@ -869,7 +887,7 @@ Buckets
 )
 lastModified
 =
-1523549895713
+currentTime
 )
 val
 storageExperiment
@@ -920,7 +938,7 @@ Buckets
 )
 lastModified
 =
-1523549890000
+pastTime
 )
 val
 experimentSource
@@ -945,7 +963,7 @@ listOf
 (
 storageExperiment
 )
-1523549890000
+pastTime
 )
 )
 assertEquals
@@ -979,7 +997,7 @@ experiments
 )
 assertEquals
 (
-1523549895713
+pastTime
 kintoExperiments
 .
 lastModified
@@ -1052,7 +1070,7 @@ Buckets
 )
 lastModified
 =
-1523549890000
+pastTime
 )
 val
 secondExperiment
@@ -1103,7 +1121,7 @@ Buckets
 )
 lastModified
 =
-1523549890000
+pastTime
 )
 val
 json
@@ -1134,7 +1152,7 @@ id
 last_modified
 "
 :
-1523549899999
+currentTime
 }
 ]
 }
@@ -1176,7 +1194,7 @@ records
 ?
 _since
 =
-1523549890000
+pastTime
 "
 200
 MutableHeaders
@@ -1218,7 +1236,7 @@ listOf
 storageExperiment
 secondExperiment
 )
-1523549890000
+pastTime
 )
 )
 assertEquals
@@ -1232,7 +1250,7 @@ size
 )
 assertEquals
 (
-1523549899999
+currentTime
 kintoExperiments
 .
 lastModified
@@ -1319,7 +1337,7 @@ ExperimentsSnapshot
 kintoExperiments
 .
 experiments
-1523549899999
+currentTime
 )
 )
 assertEquals
@@ -1333,7 +1351,7 @@ size
 )
 assertEquals
 (
-1523549899999
+currentTime
 experimentsResult
 .
 lastModified
@@ -1412,7 +1430,7 @@ description
 last_modified
 "
 :
-1523549895713
+currentTime
 "
 match
 "
@@ -1583,7 +1601,7 @@ Buckets
 )
 lastModified
 =
-1523549895713
+currentTime
 )
 val
 storageExperiment
@@ -1636,7 +1654,7 @@ Buckets
 )
 lastModified
 =
-1523549800000
+pastTime
 )
 val
 experimentSource
@@ -1661,7 +1679,7 @@ listOf
 (
 storageExperiment
 )
-1523549800000
+pastTime
 )
 )
 assertEquals
@@ -1685,7 +1703,7 @@ experiments
 )
 assertEquals
 (
-1523549895713
+currentTime
 kintoExperiments
 .
 lastModified
@@ -1727,7 +1745,7 @@ records
 ?
 _since
 =
-1523549895713
+pastTime
 "
 val
 json
@@ -1835,7 +1853,7 @@ Buckets
 )
 lastModified
 =
-1523549895713
+pastTime
 )
 val
 experimentSource
@@ -1860,7 +1878,7 @@ listOf
 (
 storageExperiment
 )
-1523549895713
+pastTime
 )
 )
 assertEquals
@@ -1884,7 +1902,7 @@ experiments
 )
 assertEquals
 (
-1523549895713
+pastTime
 kintoExperiments
 .
 lastModified
