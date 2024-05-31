@@ -59,6 +59,7 @@ md
 #
 removeAll
 Synchronized
+WorkerThread
 fun
 removeAll
 (
@@ -147,7 +148,7 @@ SessionBundleStorage
 .
 kt
 #
-L96
+L108
 )
 Removes
 all

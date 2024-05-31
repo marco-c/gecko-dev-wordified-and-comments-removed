@@ -57,6 +57,7 @@ md
 #
 remove
 Synchronized
+WorkerThread
 fun
 remove
 (
@@ -163,7 +164,7 @@ SessionBundleStorage
 .
 kt
 #
-L80
+L89
 )
 Removes
 the

@@ -57,6 +57,7 @@ md
 #
 restore
 Synchronized
+WorkerThread
 fun
 restore
 (
@@ -133,7 +134,7 @@ SessionBundleStorage
 .
 kt
 #
-L47
+L54
 )
 Restores
 the

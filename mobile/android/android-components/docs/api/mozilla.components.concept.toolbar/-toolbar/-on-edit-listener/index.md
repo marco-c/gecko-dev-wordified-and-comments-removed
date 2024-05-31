@@ -160,7 +160,7 @@ editing
 md
 )
 |
-abstract
+open
 fun
 onCancelEditing
 (

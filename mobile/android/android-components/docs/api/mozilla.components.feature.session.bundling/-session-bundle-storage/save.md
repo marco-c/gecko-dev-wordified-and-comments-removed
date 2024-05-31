@@ -57,6 +57,7 @@ md
 #
 save
 Synchronized
+WorkerThread
 fun
 save
 (
@@ -177,7 +178,7 @@ SessionBundleStorage
 .
 kt
 #
-L63
+L71
 )
 Overrides
 [

@@ -56,6 +56,7 @@ md
 )
 #
 clear
+WorkerThread
 fun
 clear
 (
@@ -142,7 +143,7 @@ SessionStorage
 .
 kt
 #
-L43
+L47
 )
 Clears
 the

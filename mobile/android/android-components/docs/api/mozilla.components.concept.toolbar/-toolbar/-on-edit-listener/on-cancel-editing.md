@@ -76,7 +76,7 @@ md
 )
 #
 onCancelEditing
-abstract
+open
 fun
 onCancelEditing
 (
