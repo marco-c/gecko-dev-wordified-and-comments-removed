@@ -39,10 +39,6 @@ xml
 l10n
 =
 "
-{
-l10n_base
-}
-/
 components
 /
 ui
@@ -94,10 +90,6 @@ xml
 l10n
 =
 "
-{
-l10n_base
-}
-/
 components
 /
 browser
@@ -149,10 +141,6 @@ xml
 l10n
 =
 "
-{
-l10n_base
-}
-/
 components
 /
 browser
@@ -204,10 +192,6 @@ xml
 l10n
 =
 "
-{
-l10n_base
-}
-/
 components
 /
 feature
@@ -259,10 +243,6 @@ xml
 l10n
 =
 "
-{
-l10n_base
-}
-/
 components
 /
 feature
@@ -314,10 +294,6 @@ xml
 l10n
 =
 "
-{
-l10n_base
-}
-/
 components
 /
 feature
