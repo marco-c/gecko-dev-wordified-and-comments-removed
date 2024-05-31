@@ -798,7 +798,7 @@ javadoc
 outputFormat
 =
 "
-html
+gfm
 "
 jdkVersion
 =
