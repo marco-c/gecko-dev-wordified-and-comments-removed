@@ -876,7 +876,8 @@ this
 .
 _activeItems
 =
-null
+{
+}
 ;
 }
 }
