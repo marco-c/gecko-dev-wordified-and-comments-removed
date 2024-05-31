@@ -82,7 +82,7 @@ thirdPartyId
 :
 "
 opensearch
-tests
+search
 .
 mozilla
 .
