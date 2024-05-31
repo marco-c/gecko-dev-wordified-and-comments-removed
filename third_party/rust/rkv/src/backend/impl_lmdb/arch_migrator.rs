@@ -141,6 +141,11 @@ bitflags
 derive
 (
 Default
+PartialEq
+Eq
+Debug
+Clone
+Copy
 )
 ]
 struct
@@ -203,6 +208,11 @@ bitflags
 derive
 (
 Default
+PartialEq
+Eq
+Debug
+Clone
+Copy
 )
 ]
 struct

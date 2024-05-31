@@ -33,6 +33,7 @@ common
 {
 DatabaseFlags
 EnvironmentFlags
+RecoveryStrategy
 WriteFlags
 }
 error
@@ -417,14 +418,14 @@ mut
 Self
 ;
 fn
-set_discard_if_corrupted
+set_corruption_recovery_strategy
 (
 &
 mut
 self
-discard_if_corrupted
+strategy
 :
-bool
+RecoveryStrategy
 )
 -
 >
