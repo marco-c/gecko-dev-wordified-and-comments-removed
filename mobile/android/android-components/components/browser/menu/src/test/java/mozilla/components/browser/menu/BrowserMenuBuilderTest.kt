@@ -221,6 +221,8 @@ recyclerAdapter
 recyclerView
 .
 adapter
+!
+!
 assertNotNull
 (
 recyclerAdapter
