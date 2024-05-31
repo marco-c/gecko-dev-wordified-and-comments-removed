@@ -2992,6 +2992,28 @@ zlib
 "
 )
     
+already_added_dirs
+=
+[
+        
+"
+angle_common
+"
+        
+"
+translator
+"
+        
+"
+libEGL
+"
+        
+"
+libGLESv2
+"
+    
+]
+    
 append_arr
 (
 lines
@@ -3003,6 +3025,7 @@ dep_libs
     
 append_arr
 (
+        
 lines
 "
 DIRS
@@ -3019,7 +3042,13 @@ for
 x
 in
 dep_dirs
+if
+x
+not
+in
+already_added_dirs
 ]
+    
 )
     
 append_arr

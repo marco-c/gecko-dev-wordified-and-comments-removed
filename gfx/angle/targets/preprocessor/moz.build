@@ -1326,17 +1326,6 @@ USE_LIBS
 angle_common
 "
 ]
-DIRS
-+
-=
-[
-"
-.
-.
-/
-angle_common
-"
-]
 #
 LDFLAGS
 +

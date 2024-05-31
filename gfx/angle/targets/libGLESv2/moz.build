@@ -5170,12 +5170,6 @@ DIRS
 .
 .
 /
-angle_common
-"
-"
-.
-.
-/
 angle_gpu_info_util
 "
 "
@@ -5189,12 +5183,6 @@ angle_image_util
 .
 /
 compression_utils_portable
-"
-"
-.
-.
-/
-translator
 "
 ]
 OS_LIBS

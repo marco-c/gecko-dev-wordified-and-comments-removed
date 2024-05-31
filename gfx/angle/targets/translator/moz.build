@@ -4151,12 +4151,6 @@ DIRS
 .
 .
 /
-angle_common
-"
-"
-.
-.
-/
 preprocessor
 "
 ]
