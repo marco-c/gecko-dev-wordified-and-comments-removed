@@ -1,0 +1,16 @@
+'
+use
+strict
+'
+;
+testWebNNOperation
+(
+'
+triangular
+'
+buildOperationWithSingleInput
+'
+gpu
+'
+)
+;
