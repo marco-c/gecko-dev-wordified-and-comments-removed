@@ -193,7 +193,7 @@ junit
 .
 Test
 class
-SessionBundleStorageTest
+BundleDaoTest
 {
 private
 val
@@ -280,10 +280,6 @@ BundleEntity
 id
 =
 null
-state
-=
-"
-"
 savedAt
 =
 100
@@ -317,10 +313,6 @@ BundleEntity
 id
 =
 null
-state
-=
-"
-"
 savedAt
 =
 200
@@ -354,10 +346,6 @@ BundleEntity
 id
 =
 null
-state
-=
-"
-"
 savedAt
 =
 50
