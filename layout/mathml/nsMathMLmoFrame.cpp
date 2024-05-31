@@ -3209,14 +3209,6 @@ aDesiredStretchSize
 ;
 if
 (
-NS_MATHML_HAS_ERROR
-(
-mPresentationData
-.
-flags
-)
-|
-|
 NS_FAILED
 (
 rv
