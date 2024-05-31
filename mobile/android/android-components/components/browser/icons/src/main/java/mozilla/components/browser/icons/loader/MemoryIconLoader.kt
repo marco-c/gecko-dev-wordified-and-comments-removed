@@ -69,6 +69,12 @@ loader
 import
 android
 .
+content
+.
+Context
+import
+android
+.
 graphics
 .
 Bitmap
@@ -148,6 +154,9 @@ override
 fun
 load
 (
+context
+:
+Context
 request
 :
 IconRequest

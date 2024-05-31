@@ -67,6 +67,12 @@ icons
 .
 processor
 import
+android
+.
+content
+.
+Context
+import
 mozilla
 .
 components
@@ -146,6 +152,9 @@ IconProcessor
 fun
 process
 (
+context
+:
+Context
 request
 :
 IconRequest

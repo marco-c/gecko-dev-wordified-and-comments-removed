@@ -320,6 +320,9 @@ loader
 .
 load
 (
+mock
+(
+)
 request
 resource
 )
@@ -340,6 +343,9 @@ processor
 .
 process
 (
+mock
+(
+)
 request
 resource
 icon
@@ -361,6 +367,9 @@ loader
 .
 load
 (
+mock
+(
+)
 request
 resource
 )
@@ -446,6 +455,9 @@ preparer
 .
 prepare
 (
+mock
+(
+)
 newRequest
 )
 assertEquals
@@ -469,6 +481,9 @@ loader
 .
 load
 (
+mock
+(
+)
 preparedRequest
 preparedRequest
 .

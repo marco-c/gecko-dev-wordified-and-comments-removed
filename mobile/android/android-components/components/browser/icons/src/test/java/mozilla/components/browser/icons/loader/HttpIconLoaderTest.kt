@@ -305,6 +305,9 @@ load
 mock
 (
 )
+mock
+(
+)
 IconRequest
 .
 Resource
@@ -488,6 +491,9 @@ client
 .
 load
 (
+mock
+(
+)
 mock
 (
 )

@@ -69,6 +69,12 @@ loader
 import
 android
 .
+content
+.
+Context
+import
+android
+.
 util
 .
 Base64
@@ -126,6 +132,9 @@ override
 fun
 load
 (
+context
+:
+Context
 request
 :
 IconRequest

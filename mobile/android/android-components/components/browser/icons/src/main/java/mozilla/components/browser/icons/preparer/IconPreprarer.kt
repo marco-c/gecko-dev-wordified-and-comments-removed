@@ -67,6 +67,12 @@ icons
 .
 preparer
 import
+android
+.
+content
+.
+Context
+import
 mozilla
 .
 components
@@ -122,6 +128,9 @@ IconPreprarer
 fun
 prepare
 (
+context
+:
+Context
 request
 :
 IconRequest

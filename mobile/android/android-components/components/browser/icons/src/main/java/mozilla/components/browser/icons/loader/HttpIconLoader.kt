@@ -67,6 +67,12 @@ icons
 .
 loader
 import
+android
+.
+content
+.
+Context
+import
 mozilla
 .
 components
@@ -177,6 +183,9 @@ override
 fun
 load
 (
+context
+:
+Context
 request
 :
 IconRequest

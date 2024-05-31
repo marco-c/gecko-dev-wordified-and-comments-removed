@@ -229,6 +229,10 @@ implementation
 Dependencies
 .
 androidx_annotation
+implementation
+Dependencies
+.
+thirdparty_disklrucache
 testImplementation
 project
 (

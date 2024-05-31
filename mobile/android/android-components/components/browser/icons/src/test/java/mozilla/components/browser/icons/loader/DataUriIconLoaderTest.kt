@@ -184,6 +184,9 @@ load
 mock
 (
 )
+mock
+(
+)
 IconRequest
 .
 Resource
@@ -224,6 +227,9 @@ loader
 .
 load
 (
+mock
+(
+)
 mock
 (
 )
@@ -281,6 +287,9 @@ loader
 .
 load
 (
+mock
+(
+)
 mock
 (
 )
@@ -387,6 +396,9 @@ loader
 .
 load
 (
+mock
+(
+)
 mock
 (
 )

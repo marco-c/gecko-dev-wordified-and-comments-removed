@@ -67,6 +67,12 @@ icons
 .
 processor
 import
+android
+.
+content
+.
+Context
+import
 mozilla
 .
 components
@@ -142,6 +148,9 @@ override
 fun
 process
 (
+context
+:
+Context
 request
 :
 IconRequest
@@ -232,4 +241,12 @@ MEMORY
 -
 >
 false
+Icon
+.
+Source
+.
+DISK
+-
+>
+true
 }
