@@ -139,6 +139,9 @@ webrtc_fuzzer_main
 cc
 "
 ]
+testonly
+=
+true
 deps
 =
 [
