@@ -351,9 +351,6 @@ components
 .
 sessionUseCases
 engineView
-components
-.
-sessionStorage
 sessionId
 )
 toolbarFeature

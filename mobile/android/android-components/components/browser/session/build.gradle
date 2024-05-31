@@ -157,7 +157,15 @@ kotlin_stdlib
 implementation
 Dependencies
 .
+kotlin_coroutines
+implementation
+Dependencies
+.
 support_customtabs
+implementation
+Dependencies
+.
+arch_lifecycle
 /
 /
 We
