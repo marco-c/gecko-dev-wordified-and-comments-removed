@@ -165,7 +165,7 @@ BrowserIcons
 .
 kt
 #
-L51
+L76
 )
 Installs
 the
