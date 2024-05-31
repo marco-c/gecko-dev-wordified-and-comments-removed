@@ -106,10 +106,6 @@ deviceMigration
 "
     
 "
-frecency
-"
-    
-"
 fullPageTranslation
 "
     
