@@ -7909,6 +7909,9 @@ MainThreadWorkerSyncRunnable
 (
 aWorkerPrivate
 aSyncLoopTarget
+"
+ScriptExecutorRunnable
+"
 )
 mScriptLoader
 (
