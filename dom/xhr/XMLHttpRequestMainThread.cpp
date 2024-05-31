@@ -1096,7 +1096,6 @@ RefPtr
 <
 ThreadSafeWorkerRef
 >
-&
 mTSWorkerRef
 ;
 nsCString
