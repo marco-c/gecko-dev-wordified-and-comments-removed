@@ -139,6 +139,16 @@ Dependencies
 .
 androidx_appcompat
 testImplementation
+project
+(
+"
+:
+support
+-
+test
+"
+)
+testImplementation
 Dependencies
 .
 testing_junit

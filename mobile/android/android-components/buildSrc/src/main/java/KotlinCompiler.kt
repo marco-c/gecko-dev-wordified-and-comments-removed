@@ -281,11 +281,6 @@ lint
 "
 ui
 -
-progress
-"
-"
-ui
--
 tabcounter
 "
 )
