@@ -561,7 +561,7 @@ html
 )
 :
 [
-Boolean
+Unit
 ]
 (
 https
@@ -583,7 +583,7 @@ stdlib
 kotlin
 /
 -
-boolean
+unit
 /
 index
 .

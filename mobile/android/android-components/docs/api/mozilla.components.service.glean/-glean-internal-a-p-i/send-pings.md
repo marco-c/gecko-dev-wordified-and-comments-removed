@@ -126,7 +126,7 @@ html
 )
 :
 [
-Boolean
+Unit
 ]
 (
 https
@@ -148,7 +148,7 @@ stdlib
 kotlin
 /
 -
-boolean
+unit
 /
 index
 .
@@ -204,7 +204,7 @@ Glean
 .
 kt
 #
-L358
+L357
 )
 Send
 a
@@ -304,19 +304,3 @@ pings
 to
 send
 .
-*
-*
-Return
-*
-*
-true
-if
-any
-pings
-had
-content
-and
-were
-queued
-for
-uploading

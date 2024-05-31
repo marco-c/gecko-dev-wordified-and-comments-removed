@@ -112,7 +112,7 @@ Glean
 .
 kt
 #
-L455
+L442
 )
 #
 #
@@ -639,7 +639,7 @@ html
 )
 :
 [
-Boolean
+Unit
 ]
 (
 https
@@ -661,7 +661,7 @@ stdlib
 kotlin
 /
 -
-boolean
+unit
 /
 index
 .
