@@ -21840,7 +21840,7 @@ type
 bool
 value
 :
-EARLY_BETA_OR_EARLIER
+true
 mirror
 :
 always
