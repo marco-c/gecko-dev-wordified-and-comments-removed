@@ -290,13 +290,13 @@ host
 *
 *
 param
-host
+hostUri
 the
 host
 URI
 *
 param
-host
+resource
 the
 resources
 URI
