@@ -1277,6 +1277,13 @@ Assert
 .
 assertTrue
 (
+"
+A
+scheduled
+PingUploadWorker
+must
+exist
+"
 isWorkScheduled
 (
 PingUploadWorker

@@ -893,6 +893,15 @@ String
 String
 ?
 {
+logger
+.
+debug
+(
+"
+Collecting
+storage
+"
+)
 val
 jsonPing
 =
