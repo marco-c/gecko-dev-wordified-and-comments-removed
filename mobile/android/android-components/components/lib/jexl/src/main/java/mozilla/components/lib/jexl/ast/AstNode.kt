@@ -407,6 +407,12 @@ Map
 >
 )
 {
+Suppress
+(
+"
+UNCHECKED_CAST
+"
+)
 val
 obj
 =
@@ -423,7 +429,7 @@ for
 (
 (
 key
-value
+objValue
 )
 in
 obj
@@ -432,7 +438,7 @@ obj
 val
 objectValue
 =
-value
+objValue
 .
 toString
 (
@@ -749,6 +755,12 @@ List
 >
 )
 {
+Suppress
+(
+"
+UNCHECKED_CAST
+"
+)
 val
 array
 =
