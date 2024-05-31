@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestSyncError
-.
-h
-"
-"
 TestSyncHang
 .
 h
@@ -76,11 +71,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestSyncError
 .
 cpp
 "
@@ -162,11 +152,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestSyncError
 .
 ipdl
 "
