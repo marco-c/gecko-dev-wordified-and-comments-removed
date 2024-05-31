@@ -669,7 +669,7 @@ invoke
 {
 sessionManager
 .
-removeAll
+removeSessions
 (
 )
 }
@@ -719,7 +719,7 @@ Boolean
 {
 sessionManager
 .
-all
+sessions
 .
 filter
 {
