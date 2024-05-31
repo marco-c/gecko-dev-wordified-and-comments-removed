@@ -4765,12 +4765,13 @@ aElement
 )
 {
 RefPtr
-self
-=
-MakeRefPtr
 <
 DBusMenuBar
 >
+self
+=
+new
+DBusMenuBar
 (
 aElement
 )
