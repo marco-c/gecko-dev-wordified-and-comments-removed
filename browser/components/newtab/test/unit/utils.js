@@ -687,7 +687,7 @@ prefName
 }
 prefIsLocked
 (
-_prefName
+prefName
 )
 {
 return
@@ -708,7 +708,7 @@ getBranch
 }
 getDefaultBranch
 (
-_prefix
+prefix
 )
 {
 return
@@ -775,13 +775,13 @@ callback
 }
 observeBranch
 (
-_listener
+listener
 )
 {
 }
 ignoreBranch
 (
-_listener
+listener
 )
 {
 }
@@ -1304,7 +1304,7 @@ return
 getEntriesByName
 (
 name
-_type
+type
 )
 {
 if

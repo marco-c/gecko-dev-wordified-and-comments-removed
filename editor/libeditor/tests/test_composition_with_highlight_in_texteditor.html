@@ -208,6 +208,9 @@ nsIEditActionListener
 WillDeleteText
 :
 (
+textNode
+offset
+length
 )
 =
 >
@@ -216,6 +219,9 @@ WillDeleteText
 DidInsertText
 :
 (
+textNode
+offset
+aString
 )
 =
 >
@@ -224,6 +230,7 @@ DidInsertText
 WillDeleteRanges
 :
 (
+rangesToDelete
 )
 =
 >

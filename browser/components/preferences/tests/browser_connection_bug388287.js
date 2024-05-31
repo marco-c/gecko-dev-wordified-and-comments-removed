@@ -240,6 +240,7 @@ async
 function
 tabOpened
 (
+aContentWindow
 )
 {
 let

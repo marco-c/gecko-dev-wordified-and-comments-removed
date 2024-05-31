@@ -810,6 +810,7 @@ test_parentChildSync_synchronously
 instance
 :
 parentInstance
+sandbox
 }
 )
 {
@@ -937,6 +938,7 @@ test_parentChildSync_async
 instance
 :
 parentInstance
+sandbox
 }
 )
 {
@@ -1064,6 +1066,7 @@ test_earlyChildSync
 instance
 :
 parentInstance
+sandbox
 }
 )
 {
@@ -1195,6 +1198,7 @@ test_updateStoreData
 (
 {
 instance
+sandbox
 }
 )
 {

@@ -868,6 +868,7 @@ value
 }
 restorePrefDefaults
 (
+event
 )
 {
 this

@@ -199,8 +199,7 @@ className
 onClick
 =
 {
-(
-)
+e
 =
 >
 onClick

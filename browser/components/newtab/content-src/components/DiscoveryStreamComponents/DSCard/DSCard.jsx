@@ -476,6 +476,7 @@ context_type
 sponsor
 sponsored_by_override
 saveToPocketCard
+isRecentSave
 ctaButtonVariant
 }
 )
@@ -1040,6 +1041,7 @@ height
 }
 onLinkClick
 (
+event
 )
 {
 if
@@ -1283,6 +1285,7 @@ recommendation_id
 }
 onSaveClick
 (
+event
 )
 {
 if
@@ -3102,8 +3105,7 @@ export
 const
 PlaceholderDSCard
 =
-(
-)
+props
 =
 >
 <

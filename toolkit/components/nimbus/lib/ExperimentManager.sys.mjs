@@ -4317,6 +4317,9 @@ out
 /
 observe
 (
+aSubject
+aTopic
+aPrefName
 )
 {
 if

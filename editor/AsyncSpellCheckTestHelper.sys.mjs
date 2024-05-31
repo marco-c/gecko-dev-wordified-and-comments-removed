@@ -453,6 +453,7 @@ observe
 (
 subj
 topic
+data
 )
 {
 if

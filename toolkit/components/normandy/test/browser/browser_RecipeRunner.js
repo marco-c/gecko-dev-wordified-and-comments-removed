@@ -1165,6 +1165,7 @@ function
 testClientClassificationCache
 (
 {
+mockNormandyApi
 getClientClassificationStub
 }
 )
@@ -1560,6 +1561,7 @@ testReadFromRemoteSettings
 {
 verifyObjectSignatureStub
 processRecipeStub
+finalizeStub
 reportRecipeStub
 }
 )
@@ -1731,6 +1733,7 @@ map
 (
 {
 recipe
+signature
 }
 )
 =
@@ -2590,6 +2593,7 @@ testInitFirstRun
 {
 runStub
 registerTimerStub
+watchPrefsStub
 }
 )
 {
@@ -4390,6 +4394,10 @@ async
 function
 testRunEvents
 (
+{
+reportRunnerStub
+finalizeStub
+}
 )
 {
 const

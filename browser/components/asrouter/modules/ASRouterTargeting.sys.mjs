@@ -3364,8 +3364,7 @@ data
 .
 catch
 (
-(
-)
+e
 =
 >
 resolve

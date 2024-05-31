@@ -652,6 +652,7 @@ get
 (
 target
 prop
+receiver
 )
 {
 if
@@ -691,6 +692,7 @@ set
 target
 prop
 value
+receiver
 )
 {
 cache

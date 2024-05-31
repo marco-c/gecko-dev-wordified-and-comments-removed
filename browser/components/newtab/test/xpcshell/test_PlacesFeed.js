@@ -2574,8 +2574,7 @@ ownerGlobal
 openTrustedLinkIn
 whereToOpenLink
 :
-(
-)
+e
 =
 >
 "
@@ -2773,8 +2772,7 @@ ownerGlobal
 openTrustedLinkIn
 whereToOpenLink
 :
-(
-)
+e
 =
 >
 "
@@ -3032,8 +3030,7 @@ ownerGlobal
 openTrustedLinkIn
 whereToOpenLink
 :
-(
-)
+e
 =
 >
 "
@@ -3189,8 +3186,7 @@ ownerGlobal
 openTrustedLinkIn
 whereToOpenLink
 :
-(
-)
+e
 =
 >
 "
@@ -3378,8 +3374,7 @@ ownerGlobal
 openTrustedLinkIn
 whereToOpenLink
 :
-(
-)
+e
 =
 >
 "
