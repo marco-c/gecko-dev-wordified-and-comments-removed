@@ -112,6 +112,15 @@ uint8_t
 payload
 int64_t
 absolute_capture_timestamp_ms
+rtc
+:
+:
+ArrayView
+<
+const
+uint32_t
+>
+csrcs
 )
 >
 ;
