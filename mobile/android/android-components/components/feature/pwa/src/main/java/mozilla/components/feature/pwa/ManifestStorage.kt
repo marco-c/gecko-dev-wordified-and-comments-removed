@@ -124,7 +124,6 @@ pwa
 db
 .
 ManifestEntity
-internal
 class
 ManifestStorage
 (
