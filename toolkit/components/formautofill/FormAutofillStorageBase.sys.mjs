@@ -1991,7 +1991,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch
@@ -9697,7 +9696,6 @@ inherited
 .
 _recordReadProcessor
 (
-record
 )
 {
 }
@@ -9712,7 +9710,6 @@ inherited
 async
 computeFields
 (
-record
 )
 {
 }
@@ -9796,7 +9793,6 @@ field
 /
 _normalizeFields
 (
-partialRecord
 )
 {
 }
@@ -9867,7 +9863,6 @@ throws
 /
 _validateFields
 (
-record
 )
 {
 }
@@ -9881,7 +9876,6 @@ inherited
 .
 migrateRemoteRecord
 (
-remoteRecord
 )
 {
 }
@@ -12454,7 +12448,6 @@ hasNewComputedFields
 async
 _encryptNumber
 (
-creditCard
 )
 {
 throw

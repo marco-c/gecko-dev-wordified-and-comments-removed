@@ -361,7 +361,6 @@ async
 promptForPrimaryPassword
 (
 resolve
-messageId
 )
 {
 resolve

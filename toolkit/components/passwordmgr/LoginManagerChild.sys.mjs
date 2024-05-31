@@ -840,7 +840,6 @@ onStateChange
 aWebProgress
 aRequest
 aState
-aStatus
 )
 {
 const
@@ -1144,7 +1143,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch
@@ -14833,7 +14831,6 @@ targetField
 usernameField
 newPasswordField
 oldPasswordField
-confirmPasswordField
 isSubmission
 triggeredByFillingGenerated
 }

@@ -367,7 +367,6 @@ handleSubmit
 }
 handleInput
 (
-event
 )
 {
 this

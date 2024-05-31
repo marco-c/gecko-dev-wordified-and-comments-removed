@@ -629,7 +629,6 @@ ProxyChannelListener
 {
 onStartRequest
 (
-request
 )
 {
 sendAsyncMessage
@@ -642,8 +641,6 @@ initDone
 }
 onStopRequest
 (
-request
-status
 )
 {
 }
@@ -803,7 +800,6 @@ onProxyAvailable
 req
 uri
 pi
-status
 )
 {
 await

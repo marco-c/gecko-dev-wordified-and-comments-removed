@@ -421,7 +421,6 @@ target
 }
 handleInput
 (
-event
 )
 {
 }
@@ -498,7 +497,6 @@ trim
 }
 updateCustomValidity
 (
-field
 )
 {
 }

@@ -1089,10 +1089,7 @@ let
 decryptHelper
 =
 async
-(
 cipherText
-reauth
-)
 =
 >
 {

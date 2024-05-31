@@ -889,7 +889,6 @@ recordFormSubmitted
 (
 section
 record
-form
 )
 {
 let
@@ -1186,9 +1185,6 @@ extra
 }
 recordGleanFormEvent
 (
-eventName
-flowId
-extra
 )
 {
 throw
@@ -1369,7 +1365,6 @@ manage
 }
 recordAutofillProfileCount
 (
-count
 )
 {
 throw
@@ -1771,9 +1766,6 @@ tel
 ;
 recordGleanFormEvent
 (
-eventName
-flowId
-extra
 )
 {
 /

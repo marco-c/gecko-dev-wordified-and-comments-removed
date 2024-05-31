@@ -793,7 +793,6 @@ filter
 (
 (
 [
-time
 category
 method
 object

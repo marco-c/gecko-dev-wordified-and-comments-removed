@@ -489,7 +489,6 @@ load
 "
 function
 (
-e
 )
 {
 resolve
@@ -650,7 +649,6 @@ load
 "
 function
 (
-e
 )
 {
 resolve

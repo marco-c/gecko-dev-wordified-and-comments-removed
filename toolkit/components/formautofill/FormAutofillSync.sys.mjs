@@ -1681,7 +1681,6 @@ super
 }
 getModifiedTimestamp
 (
-id
 )
 {
 throw

@@ -4732,9 +4732,6 @@ passwordSyncEnabled
 }
 onPasswordSyncEnabledPreferenceChange
 (
-data
-previous
-latest
 )
 {
 this

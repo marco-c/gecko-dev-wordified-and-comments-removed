@@ -2731,8 +2731,6 @@ function
 checkSubmitDoesNotSave
 (
 formNumber
-inputName
-value
 )
 {
 return
@@ -2741,7 +2739,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -2768,7 +2765,8 @@ addEventListener
 submit
 "
 async
-e
+(
+)
 =
 >
 {
@@ -2825,7 +2823,6 @@ function
 checkInvalidFirstInputDoesNotSave
 (
 formNumber
-value
 )
 {
 return
@@ -2834,7 +2831,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -2873,7 +2869,8 @@ addEventListener
 invalid
 "
 async
-e
+(
+)
 =
 >
 {

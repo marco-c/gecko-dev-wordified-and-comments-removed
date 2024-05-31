@@ -1646,7 +1646,6 @@ static
 replaceControlCharacters
 (
 s
-replace
 )
 {
 return

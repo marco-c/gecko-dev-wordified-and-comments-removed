@@ -370,7 +370,6 @@ withTestPage
 (
 function
 (
-aBrowser
 )
 {
 gURLBar

@@ -80,8 +80,6 @@ FormAutofill
 defineLogGetter
 =
 (
-scope
-logPrefix
 )
 =
 >

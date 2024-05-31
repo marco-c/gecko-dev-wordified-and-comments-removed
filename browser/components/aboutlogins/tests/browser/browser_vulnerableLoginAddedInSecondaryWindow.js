@@ -1190,10 +1190,8 @@ find
 (
 (
 [
-guid
 {
 login
-listItem
 }
 ]
 )

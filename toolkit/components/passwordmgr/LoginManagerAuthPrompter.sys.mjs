@@ -664,7 +664,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 this

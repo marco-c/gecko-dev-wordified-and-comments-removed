@@ -182,7 +182,6 @@ function
 testOnWindow
 (
 aOptions
-aCallback
 )
 {
 return

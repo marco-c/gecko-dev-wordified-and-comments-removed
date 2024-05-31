@@ -78,7 +78,8 @@ MockFilePicker
 .
 showCallback
 =
-fp
+(
+)
 =
 >
 {
@@ -978,7 +979,6 @@ static
 async
 getDetailedReportData
 (
-browser
 )
 {
 const

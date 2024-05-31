@@ -221,13 +221,6 @@ creditCards
 async
 promptToSaveAddress
 (
-browser
-storage
-flowId
-{
-oldRecord
-newRecord
-}
 )
 {
 throw

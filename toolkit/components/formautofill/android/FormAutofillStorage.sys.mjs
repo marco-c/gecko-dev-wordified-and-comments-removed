@@ -442,14 +442,6 @@ async
 _saveRecord
 (
 record
-{
-sourceSync
-=
-false
-}
-=
-{
-}
 )
 {
 lazy
@@ -752,7 +744,6 @@ getSavedFieldNames
 async
 reconcile
 (
-remoteRecord
 )
 {
 throw
@@ -771,7 +762,6 @@ NS_ERROR_NOT_IMPLEMENTED
 async
 findDuplicateGUID
 (
-remoteRecord
 )
 {
 throw
@@ -796,7 +786,6 @@ CreditCardsBase
 async
 _encryptNumber
 (
-creditCard
 )
 {
 /
@@ -858,14 +847,6 @@ async
 _saveRecord
 (
 record
-{
-sourceSync
-=
-false
-}
-=
-{
-}
 )
 {
 lazy
@@ -1399,7 +1380,6 @@ null
 async
 reconcile
 (
-remoteRecord
 )
 {
 throw
@@ -1418,7 +1398,6 @@ NS_ERROR_NOT_IMPLEMENTED
 async
 findDuplicateGUID
 (
-remoteRecord
 )
 {
 throw

@@ -448,7 +448,6 @@ command
 function
 (
 login
-event
 )
 {
 this
@@ -578,8 +577,6 @@ async
 useGeneratedPassword
 (
 inputElementIdentifier
-documentURI
-browser
 )
 {
 let

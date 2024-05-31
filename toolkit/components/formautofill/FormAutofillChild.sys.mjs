@@ -254,7 +254,6 @@ onStateChange
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 if
@@ -593,7 +592,6 @@ popupStateChanged
 (
 messageName
 data
-target
 )
 {
 let

@@ -59,10 +59,7 @@ LoginStats
 :
 NewSavedPassword
 "
-(
 subject
-data
-)
 =
 >
 subject

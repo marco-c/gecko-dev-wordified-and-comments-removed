@@ -66,7 +66,6 @@ url
 async
 function
 (
-browser
 )
 {
 }

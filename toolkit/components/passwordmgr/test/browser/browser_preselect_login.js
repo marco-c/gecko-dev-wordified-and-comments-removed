@@ -766,7 +766,6 @@ TEST_URL_PATH
 async
 function
 (
-browser
 )
 {
 await

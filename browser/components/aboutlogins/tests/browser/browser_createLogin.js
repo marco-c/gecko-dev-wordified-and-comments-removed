@@ -420,7 +420,6 @@ async
 (
 [
 aOriginTuple
-index
 ]
 )
 =
@@ -1496,7 +1495,8 @@ browser
 originTuple
 ]
 async
-aOriginTuple
+(
+)
 =
 >
 {
@@ -1579,7 +1579,8 @@ browser
 originTuple
 ]
 async
-aOriginTuple
+(
+)
 =
 >
 {
@@ -2015,7 +2016,8 @@ testCases
 length
 ]
 async
-testCasesLength
+(
+)
 =
 >
 {
