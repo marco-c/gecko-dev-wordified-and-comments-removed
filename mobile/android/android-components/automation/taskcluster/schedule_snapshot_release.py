@@ -257,6 +257,44 @@ slugids
 name
 ]
     
+repository_parts
+=
+params
+[
+'
+html_url
+'
+]
+.
+split
+(
+'
+/
+'
+)
+    
+repository_full_name
+=
+'
+/
+'
+.
+join
+(
+(
+repository_parts
+[
+-
+2
+]
+repository_parts
+[
+-
+1
+]
+)
+)
+    
 context
 =
 {
@@ -340,6 +378,12 @@ params
 html_url
 '
 ]
+                
+'
+full_name
+'
+:
+repository_full_name
             
 }
             
