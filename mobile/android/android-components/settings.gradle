@@ -1824,7 +1824,9 @@ include
 :
 service
 -
-fxa
+firefox
+-
+accounts
 '
 project
 (
@@ -1832,7 +1834,9 @@ project
 :
 service
 -
-fxa
+firefox
+-
+accounts
 '
 )
 .
@@ -1846,7 +1850,9 @@ components
 /
 service
 /
-fxa
+firefox
+-
+accounts
 '
 )
 include
@@ -2413,7 +2419,9 @@ include
 :
 samples
 -
-fxa
+firefox
+-
+accounts
 '
 project
 (
@@ -2421,7 +2429,9 @@ project
 :
 samples
 -
-fxa
+firefox
+-
+accounts
 '
 )
 .
@@ -2434,7 +2444,9 @@ rootDir
 '
 samples
 /
-fxa
+firefox
+-
+accounts
 '
 )
 include
