@@ -264,7 +264,7 @@ state
 "
 [
 "
-UNKOWN
+UNKNOWN
 "
 "
 Granted
