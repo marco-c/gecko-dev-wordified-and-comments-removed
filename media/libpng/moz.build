@@ -265,13 +265,6 @@ UNIFIED_SOURCES
 '
 mips
 /
-filter_mmi_inline_assembly
-.
-c
-'
-'
-mips
-/
 filter_msa_intrinsics
 .
 c

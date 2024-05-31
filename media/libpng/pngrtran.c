@@ -923,7 +923,7 @@ png_debug
 1
 "
 in
-png_set_alpha_mode_fixed
+png_set_alpha_mode
 "
 )
 ;
@@ -3633,7 +3633,7 @@ png_debug
 1
 "
 in
-png_set_rgb_to_gray_fixed
+png_set_rgb_to_gray
 "
 )
 ;

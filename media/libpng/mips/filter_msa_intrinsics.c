@@ -7,6 +7,13 @@ h
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 .
 .
@@ -28,13 +35,6 @@ PNG_MIPS_MSA_IMPLEMENTATION
 include
 <
 msa
-.
-h
->
-#
-include
-<
-stdint
 .
 h
 >
