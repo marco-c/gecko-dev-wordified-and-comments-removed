@@ -601,7 +601,7 @@ Default
 .
 launch
 {
-load
+loadAsync
 (
 applicationContext
 )

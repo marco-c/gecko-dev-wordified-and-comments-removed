@@ -206,6 +206,10 @@ test
 testImplementation
 Dependencies
 .
+kotlin_coroutines_test
+testImplementation
+Dependencies
+.
 androidx_test_core
 testImplementation
 Dependencies

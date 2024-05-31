@@ -155,11 +155,6 @@ servo
 "
 browser
 -
-search
-"
-"
-browser
--
 storage
 -
 sync
