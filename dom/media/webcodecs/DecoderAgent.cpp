@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-atomic
->
-#
-include
 "
 ImageContainer
 .
