@@ -3039,7 +3039,7 @@ sender_it
 }
 static
 MediaSessionOptions
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 {
@@ -5691,7 +5691,7 @@ f1_
 .
 CreateOfferOrError
 (
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 nullptr
@@ -5953,7 +5953,7 @@ name
 auto
 opts
 =
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 ;
@@ -6232,7 +6232,7 @@ name
 auto
 opts
 =
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 ;
@@ -9621,7 +9621,7 @@ f1_
 .
 CreateOfferOrError
 (
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 nullptr
@@ -9658,7 +9658,7 @@ offer
 get
 (
 )
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 nullptr
@@ -9839,7 +9839,7 @@ SEC_ENABLED
 MediaSessionOptions
 opts
 =
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 ;
@@ -12294,7 +12294,7 @@ AudioOfferAnswerWithCryptoDisabled
 MediaSessionOptions
 opts
 =
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 ;
@@ -26276,7 +26276,7 @@ f1_
 .
 CreateOfferOrError
 (
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 nullptr
@@ -26359,7 +26359,7 @@ offer
 get
 (
 )
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 nullptr
@@ -26449,7 +26449,7 @@ f1_
 .
 CreateOfferOrError
 (
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 nullptr
@@ -26532,7 +26532,7 @@ offer
 get
 (
 )
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 nullptr
@@ -27331,7 +27331,7 @@ TestSecureAnswerToUnsecureOffer
 MediaSessionOptions
 options
 =
-CreatePlanBMediaSessionOptions
+CreateAudioMediaSession
 (
 )
 ;
