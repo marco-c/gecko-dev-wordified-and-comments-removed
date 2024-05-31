@@ -139,10 +139,10 @@ catch
 err
 )
 {
-assert_false
+assert_true
 (
 privateKey
-=
+!
 =
 =
 undefined
@@ -156,10 +156,10 @@ valid
 "
 )
 ;
-assert_false
+assert_true
 (
 publicKey
-=
+!
 =
 =
 undefined
