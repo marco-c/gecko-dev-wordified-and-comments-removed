@@ -331,13 +331,6 @@ js
 ]
 [
 "
-test_bookmark_list
-.
-js
-"
-]
-[
-"
 test_bookmarks_html
 .
 js
