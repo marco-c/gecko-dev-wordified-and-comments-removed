@@ -8606,6 +8606,19 @@ return
 false
 ;
 }
+if
+(
+!
+seg
+-
+>
+bytes
+.
+empty
+(
+)
+)
+{
 memcpy
 (
 arrayObj
@@ -8630,6 +8643,7 @@ value
 )
 )
 ;
+}
 return
 true
 ;
