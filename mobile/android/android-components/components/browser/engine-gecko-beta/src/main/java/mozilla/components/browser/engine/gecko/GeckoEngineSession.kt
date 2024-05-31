@@ -1616,6 +1616,7 @@ GeckoSession
 uri
 :
 String
+?
 category
 :
 Int

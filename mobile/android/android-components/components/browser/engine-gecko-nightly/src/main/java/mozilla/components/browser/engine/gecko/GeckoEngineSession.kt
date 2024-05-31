@@ -1640,6 +1640,7 @@ GeckoSession
 uri
 :
 String
+?
 error
 :
 WebRequestError
