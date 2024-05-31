@@ -106,10 +106,6 @@ deviceMigration
 "
     
 "
-gcParallelMarking
-"
-    
-"
 gleanInternalSdk
 "
     
