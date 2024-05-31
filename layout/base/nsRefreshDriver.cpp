@@ -10219,6 +10219,14 @@ aDocument
 HasResizeObservers
 (
 )
+|
+|
+aDocument
+-
+>
+HasElementsWithLastRememberedSize
+(
+)
 ;
 }
 ;

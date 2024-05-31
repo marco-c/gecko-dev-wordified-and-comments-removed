@@ -11487,15 +11487,6 @@ HasLastRememberedISize
 document
 -
 >
-UnobserveForLastRememberedSize
-(
-*
-this
-)
-;
-document
--
->
 ObserveForLastRememberedSize
 (
 *
