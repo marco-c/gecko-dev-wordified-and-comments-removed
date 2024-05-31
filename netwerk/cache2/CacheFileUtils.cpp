@@ -344,6 +344,12 @@ case
 b
 '
 :
+originAttribs
+.
+mInIsolatedMozBrowser
+=
+true
+;
 break
 ;
 case

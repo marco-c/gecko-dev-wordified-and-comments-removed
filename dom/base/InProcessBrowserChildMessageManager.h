@@ -439,6 +439,9 @@ bool
 mLoadingScript
 ;
 bool
+mIsBrowserFrame
+;
+bool
 mPreventEventsEscaping
 ;
 RefPtr

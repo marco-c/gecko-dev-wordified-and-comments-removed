@@ -702,6 +702,14 @@ infallible
 readonly
 attribute
 boolean
+isInIsolatedMozBrowserElement
+;
+[
+infallible
+]
+readonly
+attribute
+boolean
 isNullPrincipal
 ;
 [

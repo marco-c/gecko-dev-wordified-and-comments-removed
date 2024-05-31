@@ -853,6 +853,10 @@ http
 foo
 .
 com
+^
+inBrowser
+=
+1
 "
 "
 A

@@ -1590,6 +1590,10 @@ mModificationTime
 (
 0
 )
+mIsInBrowserElement
+(
+false
+)
 {
 }
 nsCString
@@ -1612,6 +1616,9 @@ mExpireTime
 ;
 int64_t
 mModificationTime
+;
+bool
+mIsInBrowserElement
 ;
 }
 ;

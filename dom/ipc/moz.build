@@ -1256,6 +1256,16 @@ MOZ_ENABLE_FREETYPE
 ]
 =
 True
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
 BROWSER_CHROME_MANIFESTS
 +
 =
