@@ -404,6 +404,13 @@ js
 ]
 [
 "
+browser_dns_over_https_exceptions_subdialog
+.
+js
+"
+]
+[
+"
 browser_engines
 .
 js
