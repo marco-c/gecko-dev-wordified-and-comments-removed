@@ -160,11 +160,6 @@ accounts
 "
 feature
 -
-contextmenu
-"
-"
-feature
--
 downloads
 "
 "
