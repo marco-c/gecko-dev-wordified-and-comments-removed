@@ -91,6 +91,8 @@ analyzer
 #
 endif
 /
+nmhproxy
+/
 pingsender
 /
 pk12util

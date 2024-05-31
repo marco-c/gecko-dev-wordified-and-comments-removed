@@ -60,6 +60,14 @@ members
 =
 [
 "
+browser
+/
+app
+/
+nmhproxy
+/
+"
+"
 js
 /
 src
