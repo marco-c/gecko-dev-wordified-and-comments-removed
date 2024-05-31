@@ -293,7 +293,6 @@ stored
 .
 *
 /
-internal
 fun
 save
 (
@@ -522,15 +521,7 @@ map
 putIfAllowed
 (
 CAMERA
-cameraFront
-permission
-)
-map
-.
-putIfAllowed
-(
-CAMERA
-cameraBack
+camera
 permission
 )
 map
