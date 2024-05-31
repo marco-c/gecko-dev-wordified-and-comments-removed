@@ -53980,7 +53980,7 @@ BigInt
 (
 JSContext
 *
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 size_t
 const
@@ -55298,7 +55298,7 @@ BigInt
 (
 JSContext
 *
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 size_t
 )
@@ -55729,7 +55729,7 @@ void
 *
 )
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 size_t
 const

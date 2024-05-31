@@ -93,9 +93,6 @@ class
 ArrayObject
 ;
 class
-FixedLengthTypedArrayObject
-;
-class
 GlobalObject
 ;
 class
@@ -2743,7 +2740,7 @@ int32_t
 *
 )
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 size_t
 int32_t
@@ -2758,7 +2755,7 @@ int32_t
 *
 )
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 size_t
 int32_t
@@ -2841,7 +2838,7 @@ AtomicsLoad64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -2851,7 +2848,7 @@ index
 void
 AtomicsStore64
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -2869,7 +2866,7 @@ AtomicsCompareExchange64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -2891,7 +2888,7 @@ AtomicsExchange64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -2909,7 +2906,7 @@ AtomicsAdd64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -2927,7 +2924,7 @@ AtomicsAnd64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -2945,7 +2942,7 @@ AtomicsOr64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -2963,7 +2960,7 @@ AtomicsSub64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
@@ -2981,7 +2978,7 @@ AtomicsXor64
 JSContext
 *
 cx
-FixedLengthTypedArrayObject
+TypedArrayObject
 *
 typedArray
 size_t
