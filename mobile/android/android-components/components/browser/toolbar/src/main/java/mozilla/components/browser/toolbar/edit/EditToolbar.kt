@@ -554,10 +554,6 @@ dimen
 mozac_browser_toolbar_url_padding
 )
 )
-setSelectAllOnFocus
-(
-true
-)
 setOnCommitListener
 {
 /
