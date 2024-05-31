@@ -674,5 +674,25 @@ Type
 content_type
 )
     
+response
+.
+headers
+.
+set
+(
+b
+"
+Cache
+-
+control
+"
+b
+"
+no
+-
+store
+"
+)
+    
 return
 body
