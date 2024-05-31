@@ -2146,7 +2146,7 @@ blobContentType
 )
 ;
 const
-Maybe
+RefPtr
 <
 mozilla
 :
@@ -2162,17 +2162,13 @@ contentRange
 mChannel
 -
 >
-GetContentRange
+ContentRange
 (
 )
 ;
 if
 (
 contentRange
-.
-isSome
-(
-)
 )
 {
 IgnoredErrorResult

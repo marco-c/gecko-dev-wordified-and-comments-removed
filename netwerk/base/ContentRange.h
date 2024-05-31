@@ -38,6 +38,13 @@ ContentRange
 {
 private
 :
+~
+ContentRange
+(
+)
+=
+default
+;
 uint64_t
 mStart
 {
@@ -143,6 +150,10 @@ aOutString
 )
 const
 ;
+NS_INLINE_DECL_REFCOUNTING
+(
+ContentRange
+)
 }
 ;
 }

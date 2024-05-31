@@ -68,6 +68,11 @@ nsIBackgroundFileSaver
 idl
 "
 "
+nsIBaseChannel
+.
+idl
+"
+"
 nsIBufferedStreams
 .
 idl
