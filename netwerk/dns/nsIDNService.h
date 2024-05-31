@@ -76,6 +76,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIPrefBranch
 ;
@@ -177,6 +184,10 @@ nsACString
 out
 stringPrepFlag
 flag
+const
+nsACString
+&
+tld
 )
 ;
 nsresult
@@ -270,6 +281,10 @@ const
 nsAString
 &
 label
+const
+nsAString
+&
+tld
 )
 MOZ_EXCLUDES
 (
