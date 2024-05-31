@@ -434,6 +434,10 @@ flags
 Intent
 .
 FLAG_ACTIVITY_NEW_TASK
+or
+Intent
+.
+FLAG_ACTIVITY_MULTIPLE_TASK
 intent
 .
 package
