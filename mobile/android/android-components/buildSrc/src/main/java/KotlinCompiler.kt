@@ -139,13 +139,6 @@ browser
 domains
 "
 "
-browser
--
-storage
--
-sync
-"
-"
 feature
 -
 accounts
