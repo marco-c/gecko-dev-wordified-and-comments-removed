@@ -97,7 +97,7 @@ BrowserIcons
 .
 kt
 #
-L52
+L57
 )
 Entry
 point
@@ -424,6 +424,10 @@ MemoryIconPreparer
 (
 sharedMemoryCache
 )
+DiskIconPreparer
+(
+sharedDiskCache
+)
 )
 loaders
 :
@@ -495,6 +499,10 @@ listOf
 MemoryIconLoader
 (
 sharedMemoryCache
+)
+DiskIconLoader
+(
+sharedDiskCache
 )
 HttpIconLoader
 (
@@ -648,6 +656,10 @@ listOf
 MemoryIconProcessor
 (
 sharedMemoryCache
+)
+DiskIconProcessor
+(
+sharedDiskCache
 )
 )
 jobDispatcher
@@ -833,7 +845,7 @@ md
 fun
 loadIcon
 (
-initialRequest
+request
 :
 [
 IconRequest

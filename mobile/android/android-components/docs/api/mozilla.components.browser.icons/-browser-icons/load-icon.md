@@ -59,7 +59,7 @@ loadIcon
 fun
 loadIcon
 (
-initialRequest
+request
 :
 [
 IconRequest
@@ -146,7 +146,7 @@ BrowserIcons
 .
 kt
 #
-L79
+L88
 )
 Asynchronously
 loads

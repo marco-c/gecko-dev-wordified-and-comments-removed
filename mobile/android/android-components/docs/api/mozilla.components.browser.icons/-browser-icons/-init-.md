@@ -230,6 +230,10 @@ MemoryIconPreparer
 (
 sharedMemoryCache
 )
+DiskIconPreparer
+(
+sharedDiskCache
+)
 )
 loaders
 :
@@ -301,6 +305,10 @@ listOf
 MemoryIconLoader
 (
 sharedMemoryCache
+)
+DiskIconLoader
+(
+sharedDiskCache
 )
 HttpIconLoader
 (
@@ -454,6 +462,10 @@ listOf
 MemoryIconProcessor
 (
 sharedMemoryCache
+)
+DiskIconProcessor
+(
+sharedDiskCache
 )
 )
 jobDispatcher
