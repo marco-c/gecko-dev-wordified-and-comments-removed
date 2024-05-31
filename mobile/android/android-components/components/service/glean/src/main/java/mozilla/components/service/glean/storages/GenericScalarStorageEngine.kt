@@ -1185,7 +1185,7 @@ protected
 fun
 recordScalar
 (
-metric
+metricData
 :
 CommonMetricData
 value
@@ -1240,7 +1240,7 @@ Editor
 =
 if
 (
-metric
+metricData
 .
 lifetime
 =
@@ -1256,7 +1256,7 @@ edit
 )
 else
 null
-metric
+metricData
 .
 getStorageNames
 (
@@ -1269,7 +1269,7 @@ storeData
 =
 dataStores
 [
-metric
+metricData
 .
 lifetime
 .
@@ -1313,7 +1313,7 @@ entryName
 =
 if
 (
-metric
+metricData
 .
 category
 .
@@ -1322,7 +1322,7 @@ isEmpty
 )
 )
 {
-metric
+metricData
 .
 name
 }
@@ -1330,13 +1330,13 @@ else
 {
 "
 {
-metric
+metricData
 .
 category
 }
 .
 {
-metric
+metricData
 .
 name
 }
@@ -1359,7 +1359,7 @@ user
 lifetime
 if
 (
-metric
+metricData
 .
 lifetime
 =

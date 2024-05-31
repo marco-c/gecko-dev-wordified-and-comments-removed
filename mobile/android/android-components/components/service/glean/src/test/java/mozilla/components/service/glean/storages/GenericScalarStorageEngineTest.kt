@@ -272,7 +272,7 @@ Int
 fun
 record
 (
-metric
+metricData
 :
 CommonMetricData
 value
@@ -284,7 +284,7 @@ super
 .
 recordScalar
 (
-metric
+metricData
 value
 )
 }
