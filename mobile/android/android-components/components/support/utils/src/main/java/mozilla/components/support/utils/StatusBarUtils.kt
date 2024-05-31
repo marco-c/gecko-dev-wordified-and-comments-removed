@@ -94,6 +94,12 @@ asynchronously
 .
 *
 /
+Suppress
+(
+"
+unused
+"
+)
 fun
 getStatusBarHeight
 (

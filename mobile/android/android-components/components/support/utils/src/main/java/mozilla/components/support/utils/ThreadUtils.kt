@@ -82,6 +82,12 @@ android
 os
 .
 Looper
+Suppress
+(
+"
+unused
+"
+)
 object
 ThreadUtils
 {

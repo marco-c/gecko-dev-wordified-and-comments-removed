@@ -177,6 +177,16 @@ Dependencies
 .
 androidx_appcompat
 testImplementation
+project
+(
+"
+:
+support
+-
+test
+"
+)
+testImplementation
 Dependencies
 .
 androidx_test_core

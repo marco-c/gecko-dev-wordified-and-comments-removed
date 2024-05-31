@@ -244,11 +244,8 @@ for
 i
 in
 1
-.
-.
+until
 rhsLength
--
-1
 )
 {
 newCost
@@ -262,11 +259,8 @@ for
 j
 in
 1
-.
-.
+until
 lhsLength
--
-1
 )
 {
 val
