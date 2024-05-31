@@ -2882,12 +2882,11 @@ else
 if
 device
 .
-supports_extension
+get_capabilities
 (
-"
-GL_KHR_debug
-"
 )
+.
+supports_khr_debug
 {
 GpuDebugMethod
 :
