@@ -203,6 +203,9 @@ in
 boolean
 aPreciseTimestamps
 in
+boolean
+aIncludeInfoSections
+in
 Array
 <
 ACString

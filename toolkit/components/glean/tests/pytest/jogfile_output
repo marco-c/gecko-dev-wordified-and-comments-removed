@@ -638,6 +638,7 @@ baseline
 true
 false
 true
+true
 [
 "
 background
@@ -661,6 +662,7 @@ request
 true
 true
 true
+true
 [
 ]
 ]
@@ -672,6 +674,7 @@ events
 "
 true
 false
+true
 true
 [
 "
@@ -693,6 +696,7 @@ metrics
 "
 true
 false
+true
 true
 [
 "

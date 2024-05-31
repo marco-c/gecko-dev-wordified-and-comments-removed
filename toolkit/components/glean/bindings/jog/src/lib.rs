@@ -698,6 +698,9 @@ bool
 precise_timestamps
 :
 bool
+include_info_sections
+:
+bool
 reason_codes
 :
 &
@@ -750,6 +753,7 @@ ping_name
 include_client_id
 send_if_empty
 precise_timestamps
+include_info_sections
 reason_codes
 )
 .
@@ -779,6 +783,9 @@ send_if_empty
 :
 bool
 precise_timestamps
+:
+bool
+include_info_sections
 :
 bool
 reason_codes
@@ -830,6 +837,7 @@ ping_name
 include_client_id
 send_if_empty
 precise_timestamps
+include_info_sections
 reason_codes
 )
 ;
@@ -1007,6 +1015,9 @@ send_if_empty
 :
 bool
 precise_timestamps
+:
+bool
+include_info_sections
 :
 bool
 reason_codes
@@ -1276,6 +1287,9 @@ send_if_empty
 ping
 .
 precise_timestamps
+ping
+.
+include_info_sections
 ping
 .
 reason_codes

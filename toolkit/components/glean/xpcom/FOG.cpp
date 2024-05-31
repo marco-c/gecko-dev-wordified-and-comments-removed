@@ -2287,6 +2287,9 @@ const
 bool
 aPreciseTimestamps
 const
+bool
+aIncludeInfoSections
+const
 nsTArray
 <
 nsCString
@@ -2319,6 +2322,7 @@ aName
 aIncludeClientId
 aSendIfEmpty
 aPreciseTimestamps
+aIncludeInfoSections
 &
 aReasonCodes
 )
