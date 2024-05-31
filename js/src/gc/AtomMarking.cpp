@@ -262,7 +262,7 @@ AllAllocKinds
 {
 for
 (
-ArenaIter
+ArenaIterInGC
 aiter
 (
 atomsZone
@@ -440,7 +440,7 @@ AllAllocKinds
 {
 for
 (
-ArenaIter
+ArenaIterInGC
 aiter
 (
 atomsZone
