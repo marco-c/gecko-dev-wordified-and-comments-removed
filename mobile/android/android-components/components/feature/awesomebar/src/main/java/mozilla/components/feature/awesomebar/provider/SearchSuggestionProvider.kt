@@ -928,16 +928,6 @@ catch
 (
 e
 :
-ClassCastException
-)
-{
-return
-null
-}
-catch
-(
-e
-:
 ArrayIndexOutOfBoundsException
 )
 {
