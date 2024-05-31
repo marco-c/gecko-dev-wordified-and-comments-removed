@@ -7,9 +7,6 @@ post
 title
 :
 "
-:
-sunny
-:
 Google
 Summer
 of
