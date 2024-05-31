@@ -175,6 +175,7 @@ requestInterceptor
 =
 SampleRequestInterceptor
 (
+applicationContext
 )
 }
 GeckoEngine
