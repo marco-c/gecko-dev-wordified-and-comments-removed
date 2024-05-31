@@ -113,6 +113,9 @@ componentsVersion
 String
 )
 {
+companion
+object
+{
 /
 /
 Maven
@@ -122,6 +125,7 @@ used
 for
 all
 components
+const
 val
 componentsGroupId
 =
@@ -140,14 +144,17 @@ configuration
 for
 all
 modules
+const
 val
 compileSdkVersion
 =
 28
+const
 val
 minSdkVersion
 =
 21
+const
 val
 targetSdkVersion
 =
@@ -164,8 +171,10 @@ from
 API
 23
 .
+const
 val
 minSdkVersion_dataprotect
 =
 23
+}
 }
