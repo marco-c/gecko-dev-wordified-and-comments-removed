@@ -313,7 +313,6 @@ md
 =
 DefaultIconGenerator
 (
-context
 )
 preparers
 :
@@ -382,6 +381,12 @@ md
 =
 listOf
 (
+TippyTopIconPreparer
+(
+context
+.
+assets
+)
 MemoryIconPreparer
 (
 sharedMemoryCache
