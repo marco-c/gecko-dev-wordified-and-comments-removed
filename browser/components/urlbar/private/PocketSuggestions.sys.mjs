@@ -414,11 +414,12 @@ lazy
 .
 QuickSuggest
 .
-jsBackend
+backend
 .
 config
+?
 .
-show_less_frequently_cap
+showLessFrequentlyCap
 |
 |
 0

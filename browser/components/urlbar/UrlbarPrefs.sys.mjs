@@ -3154,7 +3154,7 @@ quicksuggest
 .
 rustEnabled
 "
-false
+true
 ]
 /
 /

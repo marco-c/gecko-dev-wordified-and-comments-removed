@@ -2768,7 +2768,7 @@ quicksuggest
 .
 rustEnabled
 "
-false
+true
 )
 ;
 pref
