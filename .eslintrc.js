@@ -1330,7 +1330,9 @@ lib
 /
 ASRouterPreferences
 .
-jsm
+sys
+.
+mjs
 "
 "
 browser
