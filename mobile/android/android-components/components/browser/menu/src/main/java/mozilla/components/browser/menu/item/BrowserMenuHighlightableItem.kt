@@ -288,8 +288,6 @@ NO_ID
 val
 highlight
 :
-BrowserMenuHighlightableItem
-.
 Highlight
 val
 isHighlighted
@@ -361,8 +359,6 @@ Int
 NO_ID
 highlight
 :
-BrowserMenuHighlightableItem
-.
 Highlight
 ?
 =
