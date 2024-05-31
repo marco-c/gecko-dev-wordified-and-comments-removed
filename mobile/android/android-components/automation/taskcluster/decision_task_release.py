@@ -305,26 +305,6 @@ assemble_task
 assembleRelease
 '
     
-scopes
-=
-[
-        
-"
-secrets
-:
-get
-:
-project
-/
-android
--
-components
-/
-publish
-"
-    
-]
-    
 artifacts
 =
 fetch_build_task_artifacts
@@ -427,7 +407,8 @@ focus
         
 scopes
 =
-scopes
+[
+]
         
 artifacts
 =
