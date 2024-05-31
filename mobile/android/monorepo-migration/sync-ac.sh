@@ -72,7 +72,7 @@ git
 /
 REPO_NAME_TO_SYNC
 "
-REPO_BRANCH_NAME
+TMP_REPO_BRANCH_NAME
 =
 '
 firefox
@@ -352,7 +352,7 @@ git
 fetch
 origin
 "
-REPO_BRANCH_NAME
+TMP_REPO_BRANCH_NAME
 "
 }
 function
@@ -363,7 +363,7 @@ _update_repo_branch
 git
 checkout
 "
-REPO_BRANCH_NAME
+TMP_REPO_BRANCH_NAME
 "
 git
 rebase
@@ -372,7 +372,7 @@ git
 push
 origin
 "
-REPO_BRANCH_NAME
+TMP_REPO_BRANCH_NAME
 "
 -
 -
