@@ -26,6 +26,15 @@ GeckoArgs
 h
 "
 #
+include
+"
+mozilla
+/
+ProcInfo
+.
+h
+"
+#
 if
 defined
 (
@@ -354,6 +363,10 @@ winmm
 .
 dll
 "
+)
+;
+GetCpuFrequencyMHz
+(
 )
 ;
 if
