@@ -5845,14 +5845,4 @@ notifyObservers
 block
 )
 }
-override
-fun
-captureThumbnail
-(
-)
-:
-Bitmap
-?
-=
-null
 }
