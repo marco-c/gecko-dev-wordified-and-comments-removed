@@ -44386,7 +44386,7 @@ return
 }
 mPendingTitleChangeEvent
 .
-Forget
+Revoke
 (
 )
 ;
