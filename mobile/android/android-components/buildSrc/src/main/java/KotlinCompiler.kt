@@ -308,10 +308,5 @@ ui
 -
 progress
 "
-"
-ui
--
-tabcounter
-"
 )
 }
