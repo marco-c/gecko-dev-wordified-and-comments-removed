@@ -257,9 +257,6 @@ url
 String
 =
 "
-about
-:
-blank
 "
 override
 fun
@@ -270,6 +267,11 @@ engineSession
 EngineSession
 )
 {
+newWebView
+?
+.
+let
+{
 (
 engineSession
 as
@@ -278,7 +280,8 @@ SystemEngineSession
 .
 webView
 =
-newWebView
+it
+}
 }
 override
 fun

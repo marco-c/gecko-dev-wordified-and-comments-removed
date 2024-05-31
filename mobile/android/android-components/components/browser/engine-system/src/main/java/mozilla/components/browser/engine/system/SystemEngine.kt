@@ -206,6 +206,8 @@ interface
 class
 SystemEngine
 (
+private
+val
 context
 :
 Context
@@ -349,6 +351,7 @@ simpleName
 return
 SystemEngineSession
 (
+context
 defaultSettings
 )
 }
