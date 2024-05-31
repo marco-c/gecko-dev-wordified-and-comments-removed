@@ -160,6 +160,13 @@ enabled
 true
 "
 ]
+[
+"
+browser_aria_activedescendant
+.
+js
+"
+]
 #
 Caching
 tests
