@@ -656,6 +656,13 @@ js
 ]
 [
 "
+test_auth_jar
+.
+js
+"
+]
+[
+"
 test_auth_multiple
 .
 js
