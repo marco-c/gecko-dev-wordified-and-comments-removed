@@ -1231,14 +1231,6 @@ CXXFLAGS
 msse2
 "
 ]
-OS_LIBS
-+
-=
-[
-"
-android_support
-"
-]
 if
 CONFIG
 [

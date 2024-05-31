@@ -497,9 +497,6 @@ OS_LIBS
 =
 [
 "
-android_support
-"
-"
 unwind
 "
 ]
@@ -533,14 +530,6 @@ WEBRTC_ENABLE_AVX2
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-android_support
-"
-]
 if
 CONFIG
 [

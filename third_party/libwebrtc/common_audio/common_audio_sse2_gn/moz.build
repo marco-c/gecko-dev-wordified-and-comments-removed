@@ -1248,14 +1248,6 @@ msse2
 msse2
 "
 ]
-OS_LIBS
-+
-=
-[
-"
-android_support
-"
-]
 if
 CONFIG
 [
