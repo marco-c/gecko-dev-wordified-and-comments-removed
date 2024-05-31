@@ -172,7 +172,6 @@ callback
 function
 (
 mutationsList
-observer
 )
 {
 for

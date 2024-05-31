@@ -851,7 +851,8 @@ addEventListener
 "
 change
 "
-event
+(
+)
 =
 >
 {
@@ -873,7 +874,8 @@ addEventListener
 "
 pointerdown
 "
-event
+(
+)
 =
 >
 {
@@ -4863,7 +4865,6 @@ tooltip
 }
 onResize
 (
-event
 )
 {
 this
@@ -4896,7 +4897,6 @@ arm
 }
 onCommand
 (
-event
 )
 {
 this

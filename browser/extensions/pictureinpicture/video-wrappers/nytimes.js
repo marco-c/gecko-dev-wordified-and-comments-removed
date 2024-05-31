@@ -45,8 +45,6 @@ callback
 =
 function
 (
-mutationsList
-observer
 )
 {
 let

@@ -131,7 +131,8 @@ false
 let
 listener
 =
-e
+(
+)
 =
 >
 {

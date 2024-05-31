@@ -44,7 +44,8 @@ false
 let
 listener
 =
-msg
+(
+)
 =
 >
 {

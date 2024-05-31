@@ -83,7 +83,6 @@ sessionId
 }
 getCurrentTime
 (
-video
 )
 {
 return
@@ -100,7 +99,6 @@ getCurrentTime
 }
 getDuration
 (
-video
 )
 {
 return
@@ -178,8 +176,6 @@ callback
 =
 function
 (
-mutationsList
-observer
 )
 {
 let

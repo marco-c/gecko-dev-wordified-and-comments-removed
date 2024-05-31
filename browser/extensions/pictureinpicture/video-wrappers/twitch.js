@@ -8,7 +8,6 @@ PictureInPictureVideoWrapper
 {
 isLive
 (
-video
 )
 {
 return
