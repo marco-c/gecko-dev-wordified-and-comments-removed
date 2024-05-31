@@ -294,13 +294,13 @@ if
 CONFIG
 [
 "
-OS_ARCH
+TARGET_OS
 "
 ]
 =
 =
 "
-Darwin
+OSX
 "
 :
 UNIFIED_SOURCES

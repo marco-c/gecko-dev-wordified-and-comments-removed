@@ -653,7 +653,7 @@ if
 CONFIG
 [
 "
-OS_TARGET
+TARGET_OS
 "
 ]
 in
@@ -662,7 +662,7 @@ in
 WINNT
 "
 "
-Darwin
+OSX
 "
 ]
 :

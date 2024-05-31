@@ -15,7 +15,7 @@ and
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 !
@@ -755,13 +755,13 @@ if
 CONFIG
 [
 "
-OS_ARCH
+TARGET_OS
 "
 ]
 =
 =
 "
-Darwin
+OSX
 "
 :
 UNIFIED_SOURCES
