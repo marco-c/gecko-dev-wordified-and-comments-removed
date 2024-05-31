@@ -163,7 +163,7 @@ final
 int
 MAX_EXTRA_KEYS
 =
-10
+200
 ;
 private
 static
