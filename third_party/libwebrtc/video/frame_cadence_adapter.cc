@@ -287,8 +287,8 @@ OnFrame
 (
 Timestamp
 post_time
-int
-frames_scheduled_for_processing
+bool
+queue_overload
 const
 VideoFrame
 &
@@ -363,8 +363,8 @@ OnFrame
 (
 Timestamp
 post_time
-int
-frames_scheduled_for_processing
+bool
+queue_overload
 const
 VideoFrame
 &
@@ -384,7 +384,7 @@ callback_
 OnFrame
 (
 post_time
-frames_scheduled_for_processing
+queue_overload
 frame
 )
 ;
@@ -555,8 +555,8 @@ OnFrame
 (
 Timestamp
 post_time
-int
-frames_scheduled_for_processing
+bool
+queue_overload
 const
 VideoFrame
 &
@@ -1420,8 +1420,8 @@ OnFrame
 (
 Timestamp
 post_time
-int
-frames_scheduled_for_processing
+bool
+queue_overload
 const
 VideoFrame
 &
@@ -2464,7 +2464,7 @@ callback_
 OnFrame
 (
 now
-1
+false
 frame
 )
 ;
@@ -3080,6 +3080,8 @@ OnFrameOnMainQueue
 (
 post_time
 frames_scheduled_for_processing
+>
+1
 std
 :
 :

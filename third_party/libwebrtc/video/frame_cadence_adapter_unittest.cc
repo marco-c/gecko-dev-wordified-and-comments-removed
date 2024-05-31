@@ -428,7 +428,7 @@ void
 OnFrame
 (
 Timestamp
-int
+bool
 const
 VideoFrame
 &
@@ -735,7 +735,7 @@ callback
 OnFrame
 (
 _
-2
+true
 _
 )
 )
@@ -751,7 +751,7 @@ callback
 OnFrame
 (
 _
-1
+false
 _
 )
 )
@@ -802,7 +802,7 @@ callback
 OnFrame
 (
 _
-1
+false
 _
 )
 )
@@ -1788,7 +1788,7 @@ Invoke
 (
 Timestamp
 post_time
-int
+bool
 const
 VideoFrame
 &
@@ -2311,7 +2311,7 @@ Invoke
 (
 Timestamp
 post_time
-int
+bool
 const
 VideoFrame
 &
@@ -2399,7 +2399,7 @@ Invoke
 (
 Timestamp
 post_time
-int
+bool
 const
 VideoFrame
 &
@@ -2497,7 +2497,7 @@ Invoke
 (
 Timestamp
 post_time
-int
+bool
 const
 VideoFrame
 &
@@ -2672,7 +2672,7 @@ Invoke
 (
 Timestamp
 post_time
-int
+bool
 const
 VideoFrame
 &
@@ -2756,7 +2756,7 @@ Invoke
 (
 Timestamp
 post_time
-int
+bool
 const
 VideoFrame
 &
@@ -2974,7 +2974,7 @@ Invoke
 ]
 (
 Timestamp
-int
+bool
 const
 VideoFrame
 &
@@ -4847,7 +4847,7 @@ OnFrame
 origin
 +
 delay
-_
+false
 _
 )
 )
@@ -5588,7 +5588,7 @@ Invoke
 ]
 (
 Timestamp
-int
+bool
 const
 VideoFrame
 &

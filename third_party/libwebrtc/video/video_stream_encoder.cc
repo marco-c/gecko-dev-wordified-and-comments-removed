@@ -8409,8 +8409,8 @@ OnFrame
 (
 Timestamp
 post_time
-int
-frames_scheduled_for_processing
+bool
+queue_overload
 const
 VideoFrame
 &
@@ -8718,10 +8718,8 @@ value
 ;
 if
 (
-frames_scheduled_for_processing
-=
-=
-1
+!
+queue_overload
 &
 &
 !
