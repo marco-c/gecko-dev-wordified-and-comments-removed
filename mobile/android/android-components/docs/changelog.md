@@ -1607,6 +1607,15 @@ screen
 reader
 accessibility
 .
+*
+Announce
+result
+count
+for
+screen
+reader
+users
+.
 #
 0
 .

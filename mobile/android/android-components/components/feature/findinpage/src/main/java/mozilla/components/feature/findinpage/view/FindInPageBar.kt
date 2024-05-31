@@ -524,9 +524,8 @@ resultFormat
 ordinal
 numberOfMatches
 )
-resultsCountTextView
-.
-contentDescription
+val
+accessibilityLabel
 =
 String
 .
@@ -535,6 +534,15 @@ format
 accessibilityFormat
 ordinal
 numberOfMatches
+)
+resultsCountTextView
+.
+contentDescription
+=
+accessibilityLabel
+announceForAccessibility
+(
+accessibilityLabel
 )
 }
 else
