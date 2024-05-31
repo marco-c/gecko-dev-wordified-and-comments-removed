@@ -41,7 +41,7 @@ EDIT
 n
 "
 )
-FEATURE_MANIFEST_SCHEMA
+FEATURE_SCHEMA
 =
 Path
 (
@@ -49,7 +49,7 @@ Path
 schemas
 "
 "
-ExperimentFeatureManifest
+ExperimentFeature
 .
 schema
 .
@@ -816,7 +816,7 @@ input_file
 .
 parent
 /
-FEATURE_MANIFEST_SCHEMA
+FEATURE_SCHEMA
 input_file
 manifest
         
