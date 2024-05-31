@@ -480,6 +480,13 @@ JSContext
 aCx
 )
 ;
+bool
+ShouldLog
+(
+ConsoleLogLevel
+aLevel
+)
+;
 void
 ReportForServiceWorkerScope
 (
