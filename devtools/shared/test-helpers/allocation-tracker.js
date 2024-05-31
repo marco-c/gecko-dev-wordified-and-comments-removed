@@ -64,6 +64,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 addDebuggerToGlobal

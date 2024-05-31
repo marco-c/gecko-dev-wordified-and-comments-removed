@@ -99,6 +99,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 const

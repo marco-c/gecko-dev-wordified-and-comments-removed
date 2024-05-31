@@ -504,6 +504,13 @@ sys
 mjs
 "
 }
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 /
@@ -570,6 +577,13 @@ certDecoder
 .
 mjs
 "
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 return

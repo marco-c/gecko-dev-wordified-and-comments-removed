@@ -168,6 +168,13 @@ sys
 mjs
 "
 }
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 /
@@ -2412,6 +2419,13 @@ ChromeUtils
 importESModule
 (
 uri
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 }

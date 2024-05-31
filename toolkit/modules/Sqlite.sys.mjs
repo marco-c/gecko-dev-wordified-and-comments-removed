@@ -286,6 +286,13 @@ sys
 mjs
 "
 }
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 XPCOMUtils
