@@ -63,6 +63,7 @@ baseline
 true
 true
 true
+true
 vec
 !
 [
@@ -101,6 +102,7 @@ metrics
 "
 true
 false
+true
 true
 vec
 !
@@ -155,6 +157,7 @@ events
 true
 false
 true
+true
 vec
 !
 [
@@ -193,6 +196,7 @@ deletion
 -
 request
 "
+true
 true
 true
 true

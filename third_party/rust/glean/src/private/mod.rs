@@ -2,6 +2,9 @@ mod
 event
 ;
 mod
+object
+;
+mod
 ping
 ;
 pub
@@ -142,6 +145,13 @@ glean_core
 Datetime
 DatetimeMetric
 }
+;
+pub
+use
+object
+:
+:
+ObjectMetric
 ;
 pub
 use
