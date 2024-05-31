@@ -1188,6 +1188,13 @@ html
 ]
 [
 "
+test_bug1836801
+.
+html
+"
+]
+[
+"
 test_caret_browsing_around_form_controls
 .
 html
