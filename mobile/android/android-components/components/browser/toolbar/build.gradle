@@ -186,16 +186,6 @@ project
 (
 '
 :
-ui
--
-progress
-'
-)
-implementation
-project
-(
-'
-:
 support
 -
 ktx
