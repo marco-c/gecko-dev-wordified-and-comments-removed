@@ -305,11 +305,6 @@ snackbarDelegate
 TestSnackbarDelegate
 (
 )
-ContextMenuCandidate
-.
-snackbarDelegate
-=
-snackbarDelegate
 }
 Test
 fun
@@ -472,6 +467,7 @@ createOpenInNewTabCandidate
 context
 tabsUseCases
 parentView
+snackbarDelegate
 )
 /
 /
@@ -887,6 +883,7 @@ createOpenInPrivateTabCandidate
 context
 tabsUseCases
 parentView
+snackbarDelegate
 )
 /
 /
@@ -1311,6 +1308,7 @@ createOpenImageInNewTabCandidate
 context
 tabsUseCases
 parentView
+snackbarDelegate
 )
 /
 /
@@ -1755,6 +1753,7 @@ createOpenImageInNewTabCandidate
 context
 tabsUseCases
 parentView
+snackbarDelegate
 )
 assertEquals
 (
@@ -2527,6 +2526,7 @@ createCopyLinkCandidate
 (
 context
 parentView
+snackbarDelegate
 )
 /
 /
@@ -2857,6 +2857,7 @@ createCopyImageLocationCandidate
 (
 context
 parentView
+snackbarDelegate
 )
 /
 /
@@ -3165,9 +3166,9 @@ private
 class
 TestSnackbarDelegate
 :
+ContextMenuCandidate
+.
 SnackbarDelegate
-(
-)
 {
 var
 hasShownSnackbar
