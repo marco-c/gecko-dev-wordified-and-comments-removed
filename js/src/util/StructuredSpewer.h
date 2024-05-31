@@ -132,11 +132,6 @@ BaselineICStats
 \
 _
 (
-ScriptStats
-)
-\
-_
-(
 CacheIRHealthReport
 )
 enum
