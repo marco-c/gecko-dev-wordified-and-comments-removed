@@ -473,7 +473,6 @@ sessionManager
 /
 /
 Search
-private
 val
 searchEngineManager
 by
@@ -505,7 +504,6 @@ await
 }
 }
 }
-private
 val
 searchUseCases
 by
