@@ -6139,6 +6139,8 @@ js_services_json
 "
 ]
 =
+(
+        
 json
 .
 dumps
@@ -6149,7 +6151,14 @@ sort_keys
 True
 indent
 =
-4
+2
+)
++
+"
+\
+n
+"
+    
 )
     
 substs
