@@ -655,7 +655,9 @@ invoke
 (
 hitResult
 .
-src
+getLink
+(
+)
 selectTab
 =
 false
