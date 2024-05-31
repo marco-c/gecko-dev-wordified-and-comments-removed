@@ -160,9 +160,7 @@ mozilla
 .
 samples
 .
-sync
-.
-logins
+glean
 .
 MainActivity
 "
@@ -225,9 +223,7 @@ mozilla
 .
 samples
 .
-sync
-.
-logins
+glean
 .
 MainActivity
 "
