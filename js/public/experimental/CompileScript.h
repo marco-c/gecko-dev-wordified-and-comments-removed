@@ -281,6 +281,7 @@ options
 )
 ;
 struct
+JS_PUBLIC_API
 CompilationStorage
 {
 private
