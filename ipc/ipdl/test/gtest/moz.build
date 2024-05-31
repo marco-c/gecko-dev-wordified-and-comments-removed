@@ -132,6 +132,11 @@ TestSyncError
 .
 cpp
 "
+"
+TestUniquePtrIPC
+.
+cpp
+"
 ]
 IPDL_SOURCES
 +
@@ -279,6 +284,11 @@ ipdl
 "
 "
 PTestSyncError
+.
+ipdl
+"
+"
+PTestUniquePtrIPC
 .
 ipdl
 "
