@@ -401,7 +401,7 @@ searchUseCase
 :
 SearchUseCases
 .
-DefaultSearchUrlUseCase
+DefaultSearchUseCase
 )
 :
 AwesomeBarFeature

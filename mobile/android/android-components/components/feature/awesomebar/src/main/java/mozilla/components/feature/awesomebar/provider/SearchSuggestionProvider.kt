@@ -188,7 +188,7 @@ searchUseCase
 :
 SearchUseCases
 .
-DefaultSearchUrlUseCase
+DefaultSearchUseCase
 )
 :
 AwesomeBar
