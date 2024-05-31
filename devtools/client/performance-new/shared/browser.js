@@ -435,6 +435,8 @@ FilePicker
 init
 (
 window
+.
+browsingContext
 "
 Pick
 build
