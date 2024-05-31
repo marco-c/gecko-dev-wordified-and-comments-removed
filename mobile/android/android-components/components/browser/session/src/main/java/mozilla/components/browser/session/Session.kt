@@ -1873,15 +1873,12 @@ old
 new
 )
 {
-notifyObservers
-{
 onFullScreenChanged
 (
 this
 Session
-fullScreenMode
+new
 )
-}
 }
 }
 /

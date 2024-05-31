@@ -322,15 +322,9 @@ java
 val
 expectedFlags
 =
-(
 View
 .
-SYSTEM_UI_FLAG_LAYOUT_STABLE
-or
-View
-.
-SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-)
+SYSTEM_UI_FLAG_VISIBLE
 when
 (
 activity
