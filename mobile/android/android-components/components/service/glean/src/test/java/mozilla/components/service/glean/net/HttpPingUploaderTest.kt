@@ -105,6 +105,12 @@ org
 .
 junit
 .
+Test
+import
+org
+.
+junit
+.
 Assert
 .
 assertEquals
@@ -124,12 +130,6 @@ junit
 Assert
 .
 assertTrue
-import
-org
-.
-junit
-.
-Test
 import
 org
 .
@@ -366,7 +366,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doReturn
@@ -409,6 +408,7 @@ upload
 (
 testPath
 testPing
+testDefaultConfig
 )
 verify
 <
@@ -482,7 +482,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doReturn
@@ -525,6 +524,7 @@ upload
 (
 testPath
 testPing
+testDefaultConfig
 )
 verify
 (
@@ -595,7 +595,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doReturn
@@ -638,6 +637,7 @@ upload
 (
 testPath
 testPing
+testDefaultConfig
 )
 verify
 (
@@ -759,7 +759,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doReturn
@@ -789,6 +788,7 @@ upload
 (
 testPath
 testPing
+testDefaultConfig
 )
 )
 verify
@@ -885,7 +885,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doReturn
@@ -915,6 +914,7 @@ upload
 (
 testPath
 testPing
+testDefaultConfig
 )
 )
 verify
@@ -1012,7 +1012,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doReturn
@@ -1042,6 +1041,7 @@ upload
 (
 testPath
 testPing
+testDefaultConfig
 )
 )
 verify
@@ -1142,7 +1142,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doReturn
@@ -1172,6 +1171,7 @@ upload
 (
 testPath
 testPing
+testDefaultConfig
 )
 )
 verify
@@ -1267,7 +1267,6 @@ client
 =
 HttpPingUploader
 (
-testConfig
 )
 assertTrue
 (
@@ -1277,6 +1276,7 @@ upload
 (
 testPath
 testPing
+testConfig
 )
 )
 val
@@ -1383,7 +1383,6 @@ client
 =
 HttpPingUploader
 (
-testDefaultConfig
 )
 CookieHandler
 .
@@ -1734,7 +1733,6 @@ client
 =
 HttpPingUploader
 (
-testConfig
 )
 assertTrue
 (
@@ -1744,6 +1742,7 @@ upload
 (
 testPath
 testPing
+testConfig
 )
 )
 val
@@ -1910,7 +1909,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doThrow
@@ -1975,6 +1973,7 @@ path
 "
 ping
 "
+testDefaultConfig
 )
 )
 }
@@ -2061,7 +2060,6 @@ HttpPingUploader
 (
 HttpPingUploader
 (
-testDefaultConfig
 )
 )
 doReturn
@@ -2121,6 +2119,7 @@ path
 "
 ping
 "
+testDefaultConfig
 )
 )
 verify

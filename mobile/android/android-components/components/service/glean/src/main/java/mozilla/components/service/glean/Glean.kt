@@ -623,7 +623,6 @@ httpPingUploader
 =
 HttpPingUploader
 (
-configuration
 )
 initialized
 =
@@ -1205,6 +1204,9 @@ path
 data
 =
 pingContent
+config
+=
+configuration
 )
 }
 }
