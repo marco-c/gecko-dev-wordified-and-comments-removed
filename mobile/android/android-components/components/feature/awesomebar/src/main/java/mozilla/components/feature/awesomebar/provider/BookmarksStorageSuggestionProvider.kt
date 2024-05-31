@@ -341,6 +341,11 @@ provider
 =
 this
 BookmarksStorageSuggestionProvider
+id
+=
+it
+.
+guid
 icon
 =
 icons
