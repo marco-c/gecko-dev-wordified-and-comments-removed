@@ -1613,7 +1613,7 @@ ErrorRecording
 .
 ErrorType
 .
-InvalidValue
+InvalidLabel
 )
 )
 assertEquals

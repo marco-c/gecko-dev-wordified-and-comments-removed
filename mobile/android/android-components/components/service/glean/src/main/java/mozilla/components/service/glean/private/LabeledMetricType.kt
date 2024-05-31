@@ -742,7 +742,7 @@ recordError
 this
 ErrorType
 .
-InvalidValue
+InvalidLabel
 "
 label
 length
@@ -784,7 +784,7 @@ recordError
 this
 ErrorType
 .
-InvalidValue
+InvalidLabel
 "
 label
 must
