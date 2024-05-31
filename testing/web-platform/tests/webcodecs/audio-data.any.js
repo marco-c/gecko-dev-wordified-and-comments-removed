@@ -1593,6 +1593,7 @@ values
 expected
 sourceType
 message
+assert_func
 )
 {
 if
@@ -1652,7 +1653,7 @@ values
 )
 )
 ;
-assert_true
+assert_func
 (
 Math
 .
@@ -1712,7 +1713,7 @@ eps
 )
 ;
 }
-assert_true
+assert_func
 (
 true
 {
@@ -1888,6 +1889,7 @@ interleaved
 channel
 0
 "
+assert_func
 )
 ;
 data
@@ -1925,6 +1927,7 @@ interleaved
 channel
 0
 "
+assert_func
 )
 ;
 let
@@ -1975,6 +1978,7 @@ conversion
 only
 )
 "
+assert_implements_optional
 )
 ;
 data
@@ -2058,6 +2062,7 @@ planar
 channel
 0
 "
+assert_func
 )
 ;
 data
@@ -2095,6 +2100,7 @@ planar
 channel
 1
 "
+assert_func
 )
 ;
 }
