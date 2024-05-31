@@ -909,6 +909,15 @@ keys
 allFrames
 :
 true
+messageManagerGroups
+:
+[
+"
+browsers
+"
+"
+"
+]
 }
 )
 ;
