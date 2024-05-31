@@ -74,7 +74,7 @@ componentsVersion
 "
 0
 .
-24
+25
 "
 /
 /
