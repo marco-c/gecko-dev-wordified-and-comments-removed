@@ -994,17 +994,11 @@ value
 -
 >
 storeData
-?
-.
-let
-{
-it
 [
 metricName
 ]
 =
 value
-}
 }
 ?
 :

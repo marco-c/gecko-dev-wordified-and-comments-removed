@@ -471,6 +471,12 @@ first
 :
 Boolean
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API
@@ -619,6 +625,12 @@ first
 :
 TimingDistributionData
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API

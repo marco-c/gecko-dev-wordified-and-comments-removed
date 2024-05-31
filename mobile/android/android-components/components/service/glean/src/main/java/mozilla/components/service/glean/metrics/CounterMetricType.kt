@@ -464,6 +464,12 @@ first
 :
 Boolean
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API
@@ -612,6 +618,12 @@ first
 :
 Int
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API

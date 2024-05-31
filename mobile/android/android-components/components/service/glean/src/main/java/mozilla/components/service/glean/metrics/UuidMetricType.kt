@@ -560,6 +560,12 @@ first
 :
 Boolean
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API
@@ -708,6 +714,12 @@ first
 :
 UUID
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API

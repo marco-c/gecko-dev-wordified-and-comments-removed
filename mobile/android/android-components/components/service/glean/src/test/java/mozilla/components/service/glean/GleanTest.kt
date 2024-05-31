@@ -2025,9 +2025,6 @@ they
 are
 missing
 .
-val
-storageManager
-=
 StorageEngineManager
 (
 applicationContext

@@ -1531,11 +1531,6 @@ return
 Response
 (
 responseUrl
-?
-:
-request
-.
-url
 responseStatus
 request
 .

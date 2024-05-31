@@ -778,6 +778,12 @@ first
 :
 Boolean
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API
@@ -941,6 +947,12 @@ List
 RecordedEventData
 >
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API
