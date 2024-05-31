@@ -225,6 +225,13 @@ MainActivity
 "
 android
 :
+windowSoftInputMode
+=
+"
+adjustResize
+"
+android
+:
 launchMode
 =
 "
