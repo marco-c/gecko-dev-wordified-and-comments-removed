@@ -5134,7 +5134,7 @@ public
 :
 nsIContent
 *
-GetPreviousContent
+GetPrevNode
 (
 const
 nsINode

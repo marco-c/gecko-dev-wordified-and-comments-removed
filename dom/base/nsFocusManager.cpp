@@ -19491,7 +19491,7 @@ GetNextNode
 iterStartContent
 -
 >
-GetPreviousContent
+GetPrevNode
 (
 )
 ;

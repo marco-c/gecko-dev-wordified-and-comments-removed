@@ -4030,7 +4030,7 @@ node
 node
 -
 >
-GetPreviousContent
+GetPrevNode
 (
 aRootNode
 )
