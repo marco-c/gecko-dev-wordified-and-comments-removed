@@ -175,6 +175,10 @@ testing_robolectric
 testImplementation
 Dependencies
 .
+androidx_test_core
+testImplementation
+Dependencies
+.
 testing_mockito
 testImplementation
 project
