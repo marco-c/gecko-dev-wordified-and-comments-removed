@@ -1200,6 +1200,12 @@ test
 sets
 :
 -
+talos
+-
+ref
+-
+hw
+-
 windows
 -
 ref
@@ -1260,6 +1266,12 @@ test
 -
 sets
 :
+-
+talos
+-
+ref
+-
+hw
 -
 windows
 -
