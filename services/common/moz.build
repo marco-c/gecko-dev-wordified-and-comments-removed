@@ -90,7 +90,9 @@ offline
 -
 client
 .
-js
+sys
+.
+mjs
 "
 "
 kinto

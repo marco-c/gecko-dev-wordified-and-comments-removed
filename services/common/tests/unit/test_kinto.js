@@ -5,7 +5,7 @@ Kinto
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ offline
 -
 client
 .
-js
+sys
+.
+mjs
 "
 )
 ;
