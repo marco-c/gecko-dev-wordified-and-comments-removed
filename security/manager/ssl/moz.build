@@ -755,13 +755,13 @@ if
 CONFIG
 [
 "
-TARGET_OS
+TARGET_KERNEL
 "
 ]
 =
 =
 "
-OSX
+Darwin
 "
 :
 UNIFIED_SOURCES
