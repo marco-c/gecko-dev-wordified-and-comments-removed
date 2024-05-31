@@ -5638,10 +5638,7 @@ BrowsingContext
 &
 aContext
 const
-Maybe
-<
 PositionState
->
 &
 aState
 )
