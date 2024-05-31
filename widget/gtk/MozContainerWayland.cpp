@@ -598,7 +598,7 @@ eglwindow
 )
 {
 return
-false
+true
 ;
 }
 if
