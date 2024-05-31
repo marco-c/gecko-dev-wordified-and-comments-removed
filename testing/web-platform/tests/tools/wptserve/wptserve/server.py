@@ -792,6 +792,7 @@ EPIPE
 errno
 .
 ECONNABORTED
+0
 )
     
 request_queue_size
@@ -1513,6 +1514,23 @@ in
 self
 .
 acceptable_errors
+)
+or
+            
+isinstance
+(
+error
+ssl
+.
+SSLEOFError
+)
+or
+isinstance
+(
+error
+ssl
+.
+SSLError
 )
 )
 :
