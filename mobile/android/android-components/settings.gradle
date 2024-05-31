@@ -353,6 +353,15 @@ buildconfig
 .
 componentsVersion
 )
+gradle
+.
+rootProject
+.
+ext
+.
+buildConfig
+=
+buildconfig
 }
 /
 /
