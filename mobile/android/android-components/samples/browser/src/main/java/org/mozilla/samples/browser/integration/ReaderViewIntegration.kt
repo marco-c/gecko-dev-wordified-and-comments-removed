@@ -519,12 +519,6 @@ onBackPressed
 :
 Boolean
 {
-readerViewButton
-.
-setSelected
-(
-false
-)
 return
 feature
 .
