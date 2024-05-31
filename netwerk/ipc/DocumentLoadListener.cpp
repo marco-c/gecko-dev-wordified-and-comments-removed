@@ -1534,9 +1534,17 @@ request
 ;
 if
 (
+(
 NS_SUCCEEDED
 (
 rv
+)
+|
+|
+rv
+=
+=
+NS_ERROR_WONT_HANDLE_CONTENT
 )
 &
 &
