@@ -214,9 +214,6 @@ qr
 opt
 :
 [
-mozilla
--
-beta
 trunk
 ]
 (
@@ -263,9 +260,6 @@ windows
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -450,9 +444,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -623,9 +614,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -699,9 +687,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 mozharness
@@ -801,9 +786,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -877,9 +859,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 mozharness
@@ -979,9 +958,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -1055,9 +1031,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 mozharness
@@ -1410,9 +1383,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 mozharness
@@ -1559,9 +1529,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -1632,9 +1599,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -1818,9 +1782,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -1891,9 +1852,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -2045,9 +2003,6 @@ qr
 opt
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -2118,9 +2073,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -2316,9 +2268,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -2389,9 +2338,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -2591,9 +2537,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 mozharness
@@ -2719,9 +2662,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -2995,9 +2935,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -3068,9 +3005,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -3491,9 +3425,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -3564,9 +3495,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -3764,9 +3692,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -3939,9 +3864,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -4012,9 +3934,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -4168,9 +4087,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -4241,9 +4157,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -4556,9 +4469,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -4629,9 +4539,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
@@ -4884,9 +4791,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 windows11
@@ -4901,9 +4805,6 @@ qr
 *
 :
 [
-mozilla
--
-beta
 trunk
 ]
 default
@@ -5107,9 +5008,6 @@ qr
 default
 :
 [
-mozilla
--
-beta
 trunk
 ]
 max
