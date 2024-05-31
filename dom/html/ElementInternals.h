@@ -644,6 +644,16 @@ aria_busy
 )
 ARIA_REFLECT_ATTR
 (
+AriaBrailleLabel
+aria_braillelabel
+)
+ARIA_REFLECT_ATTR
+(
+AriaBrailleRoleDescription
+aria_brailleroledescription
+)
+ARIA_REFLECT_ATTR
+(
 AriaChecked
 aria_checked
 )

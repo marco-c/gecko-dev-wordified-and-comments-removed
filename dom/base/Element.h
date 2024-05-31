@@ -2149,6 +2149,16 @@ aria_autocomplete
 )
 REFLECT_NULLABLE_DOMSTRING_ATTR
 (
+AriaBrailleLabel
+aria_braillelabel
+)
+REFLECT_NULLABLE_DOMSTRING_ATTR
+(
+AriaBrailleRoleDescription
+aria_brailleroledescription
+)
+REFLECT_NULLABLE_DOMSTRING_ATTR
+(
 AriaBusy
 aria_busy
 )
