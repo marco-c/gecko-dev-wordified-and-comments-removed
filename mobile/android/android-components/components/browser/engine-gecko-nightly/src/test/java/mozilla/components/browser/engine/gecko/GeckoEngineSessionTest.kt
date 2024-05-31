@@ -5874,6 +5874,7 @@ exitFullScreen
 (
 )
 }
+Test
 fun
 clearData
 (
