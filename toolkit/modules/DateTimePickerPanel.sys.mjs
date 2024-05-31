@@ -441,16 +441,6 @@ DateTimePickerValueCleared
 )
 ;
 }
-else
-{
-this
-.
-setInputBoxValue
-(
-true
-)
-;
-}
 this
 .
 pickerState

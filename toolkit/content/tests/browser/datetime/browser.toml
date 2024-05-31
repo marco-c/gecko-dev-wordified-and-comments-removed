@@ -75,6 +75,13 @@ Bug
 ]
 [
 "
+browser_datetime_change_event
+.
+js
+"
+]
+[
+"
 browser_datetime_datepicker
 .
 js
