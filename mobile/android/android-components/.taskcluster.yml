@@ -1093,14 +1093,6 @@ if
 :
 '
 is_repo_trusted
-&
-&
-tasks_for
-!
-=
-"
-cron
-"
 '
 then
 :
@@ -1544,13 +1536,6 @@ nightly_or_release_definition
 -
 scopes
 :
-#
-TODO
-Activate
-production
-workers
-on
-cron
 -
 project
 :
@@ -1570,7 +1555,7 @@ maven
 -
 snapshot
 -
-staging
+production
 payload
 :
 command
