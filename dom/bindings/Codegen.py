@@ -1130,29 +1130,6 @@ desc
 proxy
     
 )
-lineStartDetector
-=
-re
-.
-compile
-(
-"
-^
-(
-?
-=
-[
-^
-\
-n
-#
-]
-)
-"
-re
-.
-MULTILINE
-)
 def
 indent
 (
@@ -1209,10 +1186,18 @@ endif
 "
     
 if
+not
 s
-=
-=
+or
+s
+[
+0
+]
+in
 "
+\
+n
+#
 "
 :
         
@@ -1220,17 +1205,14 @@ return
 s
     
 return
-re
-.
-sub
 (
-lineStartDetector
 indentLevel
 *
 "
 "
-s
 )
++
+s
 def
 memoize
 (
