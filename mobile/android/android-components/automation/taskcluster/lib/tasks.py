@@ -147,21 +147,26 @@ None
 )
 :
         
-if
-is_snapshot
-:
-            
 taskcluster_artifacts
 =
 {
 }
+        
 if
 component
 is
+not
 None
-else
-{
+:
+            
+if
+is_snapshot
+:
                 
+taskcluster_artifacts
+=
+{
+                    
 component
 [
 '
@@ -170,7 +175,7 @@ artifact
 ]
 :
 {
-                    
+                        
 '
 type
 '
@@ -178,7 +183,7 @@ type
 '
 file
 '
-                    
+                        
 '
 expires
 '
@@ -194,7 +199,7 @@ fromNow
 DEFAULT_EXPIRES_IN
 )
 )
-                    
+                        
 '
 path
 '
@@ -205,24 +210,12 @@ component
 path
 '
 ]
+                    
+}
                 
 }
             
-}
-        
 else
-:
-            
-taskcluster_artifacts
-=
-{
-}
-            
-if
-component
-is
-not
-None
 :
                 
 taskcluster_artifacts
