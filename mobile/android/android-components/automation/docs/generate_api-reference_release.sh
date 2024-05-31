@@ -144,6 +144,10 @@ build
 /
 javadoc
 /
+android
+-
+components
+/
 *
 .
 /
