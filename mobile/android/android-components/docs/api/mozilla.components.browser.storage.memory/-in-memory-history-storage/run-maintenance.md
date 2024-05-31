@@ -151,7 +151,7 @@ L144
 )
 Overrides
 [
-HistoryStorage
+Storage
 .
 runMaintenance
 ]
@@ -171,8 +171,6 @@ concept
 storage
 /
 -
-history
--
 storage
 /
 run
@@ -181,8 +179,8 @@ maintenance
 .
 md
 )
-Perform
+Runs
 internal
-storage
+database
 maintenance
-.
+tasks

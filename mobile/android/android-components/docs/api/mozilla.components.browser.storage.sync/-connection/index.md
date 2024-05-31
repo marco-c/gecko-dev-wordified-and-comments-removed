@@ -247,7 +247,7 @@ reader
 (
 )
 :
-ReadableHistoryConnection
+PlacesReaderConnection
 |
 |
 [
@@ -329,5 +329,5 @@ writer
 (
 )
 :
-WritableHistoryConnection
+PlacesWriterConnection
 |

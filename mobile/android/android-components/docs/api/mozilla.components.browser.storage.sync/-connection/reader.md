@@ -62,7 +62,7 @@ reader
 (
 )
 :
-ReadableHistoryConnection
+PlacesReaderConnection
 [
 (
 source

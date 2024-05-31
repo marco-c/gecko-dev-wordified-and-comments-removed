@@ -62,7 +62,7 @@ writer
 (
 )
 :
-WritableHistoryConnection
+PlacesWriterConnection
 [
 (
 source
