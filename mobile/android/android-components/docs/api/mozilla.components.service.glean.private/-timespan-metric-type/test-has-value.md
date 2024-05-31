@@ -185,7 +185,7 @@ TimespanMetricType
 .
 kt
 #
-L77
+L98
 )
 Tests
 whether

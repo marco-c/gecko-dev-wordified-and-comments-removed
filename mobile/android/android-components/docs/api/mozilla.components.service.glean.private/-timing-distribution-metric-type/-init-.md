@@ -316,9 +316,7 @@ the
 accumulate
 ]
 (
-accumulate
-.
-md
+#
 )
 method
 which
