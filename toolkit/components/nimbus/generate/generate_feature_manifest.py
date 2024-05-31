@@ -134,6 +134,10 @@ shellService
 "
     
 "
+testFeature
+"
+    
+"
 updatePrompt
 "
     
