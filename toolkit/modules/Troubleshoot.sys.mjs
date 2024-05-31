@@ -4288,7 +4288,7 @@ null
 fontVisibilityDeterminationStr
 :
 "
-fontDetermination
+supportFontDetermination
 "
 }
 ;
