@@ -151,6 +151,16 @@ base
 '
 )
 testImplementation
+project
+(
+'
+:
+support
+-
+test
+'
+)
+testImplementation
 Dependencies
 .
 testing_junit

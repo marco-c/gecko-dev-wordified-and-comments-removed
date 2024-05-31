@@ -752,7 +752,7 @@ intent
 getBooleanExtra
 (
 EXTRA_DEFAULT_SHARE_MENU_ITEM
-true
+false
 )
 if
 (
