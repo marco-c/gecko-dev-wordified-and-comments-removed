@@ -283,11 +283,6 @@ testDefaultConfig
 =
 Configuration
 (
-applicationId
-=
-"
-test
-"
 )
 .
 copy
