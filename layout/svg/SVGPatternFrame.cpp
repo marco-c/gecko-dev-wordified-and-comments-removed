@@ -1974,8 +1974,12 @@ animTransformList
 )
 {
 return
-gfxMatrix
+SVGUtils
+:
+:
+GetTransformMatrixInUserSpace
 (
+this
 )
 ;
 }

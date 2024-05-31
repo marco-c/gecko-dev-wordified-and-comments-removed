@@ -781,6 +781,17 @@ animTransformList
 {
 return
 bboxMatrix
+.
+PreMultiply
+(
+SVGUtils
+:
+:
+GetTransformMatrixInUserSpace
+(
+this
+)
+)
 ;
 }
 gfxMatrix
