@@ -329,16 +329,6 @@ view
 0
 )
 val
-holder3
-=
-adapter
-.
-createViewHolder
-(
-view
-0
-)
-val
 session1
 :
 Session
