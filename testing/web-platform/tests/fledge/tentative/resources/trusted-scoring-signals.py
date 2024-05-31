@@ -13,10 +13,8 @@ fledge
 tentative
 .
 resources
-.
-fledge_http_server_util
 import
-headersToAscii
+fledge_http_server_util
 def
 main
 (
@@ -908,7 +906,9 @@ headers
                         
 value
 =
-headersToAscii
+fledge_http_server_util
+.
+headers_to_ascii
 (
 request
 .
