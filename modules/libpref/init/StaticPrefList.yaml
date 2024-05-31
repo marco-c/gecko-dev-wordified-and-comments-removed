@@ -62765,6 +62765,15 @@ value
 :
 1
 #
+elif
+defined
+(
+MOZ_DEV_EDITION
+)
+value
+:
+2
+#
 else
 value
 :
