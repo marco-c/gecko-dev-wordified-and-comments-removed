@@ -100,7 +100,7 @@ disabled
 Boolean
 ?
 val
-group
+category
 :
 String
 ?
