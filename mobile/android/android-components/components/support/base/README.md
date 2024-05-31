@@ -93,6 +93,8 @@ mozilla
 .
 components
 :
+support
+-
 base
 :
 {
@@ -100,6 +102,7 @@ latest
 -
 version
 }
+"
 #
 #
 #

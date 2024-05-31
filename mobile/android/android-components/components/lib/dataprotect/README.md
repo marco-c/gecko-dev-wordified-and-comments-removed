@@ -58,6 +58,8 @@ mozilla
 .
 components
 :
+lib
+-
 dataprotect
 :
 {
@@ -65,6 +67,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

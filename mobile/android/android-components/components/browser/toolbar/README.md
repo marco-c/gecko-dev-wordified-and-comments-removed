@@ -55,6 +55,8 @@ mozilla
 .
 components
 :
+browser
+-
 toolbar
 :
 {
@@ -62,6 +64,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

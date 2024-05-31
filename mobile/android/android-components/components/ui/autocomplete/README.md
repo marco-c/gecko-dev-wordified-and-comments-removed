@@ -58,6 +58,8 @@ mozilla
 .
 components
 :
+ui
+-
 autocomplete
 :
 {
@@ -65,6 +67,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

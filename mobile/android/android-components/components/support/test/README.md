@@ -57,6 +57,8 @@ mozilla
 .
 components
 :
+support
+-
 test
 :
 {
@@ -64,6 +66,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

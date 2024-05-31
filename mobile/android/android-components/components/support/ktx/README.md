@@ -65,6 +65,8 @@ mozilla
 .
 components
 :
+support
+-
 ktx
 :
 {
@@ -72,6 +74,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

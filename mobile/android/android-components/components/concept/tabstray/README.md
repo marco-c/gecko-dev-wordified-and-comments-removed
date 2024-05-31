@@ -57,7 +57,7 @@ mozilla
 .
 components
 :
-abstract
+concept
 -
 tabstray
 :
@@ -66,6 +66,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

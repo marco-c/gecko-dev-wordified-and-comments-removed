@@ -123,6 +123,8 @@ mozilla
 .
 components
 :
+service
+-
 sync
 -
 logins
@@ -132,6 +134,7 @@ latest
 -
 version
 }
+"
 You
 will
 also

@@ -192,6 +192,8 @@ mozilla
 .
 components
 :
+concept
+-
 engine
 :
 {
@@ -199,6 +201,7 @@ latest
 -
 version
 }
+"
 #
 #
 #

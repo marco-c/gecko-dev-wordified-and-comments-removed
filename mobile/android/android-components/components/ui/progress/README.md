@@ -59,6 +59,8 @@ mozilla
 .
 photon
 :
+ui
+-
 progress
 :
 {
@@ -66,6 +68,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

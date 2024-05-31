@@ -61,6 +61,8 @@ mozilla
 .
 components
 :
+browser
+-
 search
 :
 {
@@ -68,6 +70,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

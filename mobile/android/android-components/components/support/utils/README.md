@@ -58,6 +58,8 @@ mozilla
 .
 components
 :
+support
+-
 utils
 :
 {
@@ -65,6 +67,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

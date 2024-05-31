@@ -113,6 +113,8 @@ mozilla
 .
 components
 :
+browser
+-
 engine
 -
 system
@@ -122,6 +124,7 @@ latest
 -
 version
 }
+"
 #
 #
 #

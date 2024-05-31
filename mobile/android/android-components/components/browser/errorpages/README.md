@@ -57,6 +57,8 @@ mozilla
 .
 components
 :
+browser
+-
 errorpages
 :
 {
@@ -64,6 +66,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

@@ -56,6 +56,8 @@ mozilla
 .
 components
 :
+browser
+-
 tabstray
 :
 {
@@ -63,6 +65,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

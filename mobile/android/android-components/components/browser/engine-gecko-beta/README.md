@@ -130,6 +130,8 @@ mozilla
 .
 components
 :
+browser
+-
 engine
 -
 gecko
@@ -141,6 +143,7 @@ latest
 -
 version
 }
+"
 #
 #
 #

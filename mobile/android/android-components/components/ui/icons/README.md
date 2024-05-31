@@ -57,6 +57,8 @@ mozilla
 .
 photon
 :
+ui
+-
 icons
 :
 {
@@ -64,6 +66,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

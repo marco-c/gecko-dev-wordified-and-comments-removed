@@ -63,6 +63,8 @@ mozilla
 .
 components
 :
+ui
+-
 tabcounter
 :
 {
@@ -70,6 +72,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

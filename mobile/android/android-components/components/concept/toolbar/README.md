@@ -57,7 +57,7 @@ mozilla
 .
 components
 :
-abstract
+concept
 -
 toolbar
 :
@@ -66,6 +66,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

@@ -117,6 +117,8 @@ mozilla
 .
 components
 :
+service
+-
 telemetry
 :
 {
@@ -124,6 +126,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

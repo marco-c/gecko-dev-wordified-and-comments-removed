@@ -116,6 +116,8 @@ mozilla
 .
 components
 :
+browser
+-
 session
 :
 {
@@ -123,6 +125,7 @@ latest
 -
 version
 }
+"
 #
 #
 #

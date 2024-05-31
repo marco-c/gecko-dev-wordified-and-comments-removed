@@ -60,6 +60,8 @@ mozilla
 .
 components
 :
+browser
+-
 menu
 :
 {
@@ -67,6 +69,7 @@ latest
 -
 version
 }
+"
 #
 #
 License

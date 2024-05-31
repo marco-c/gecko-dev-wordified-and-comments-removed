@@ -68,6 +68,8 @@ mozilla
 .
 components
 :
+service
+-
 fretboard
 :
 {

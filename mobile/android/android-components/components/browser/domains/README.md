@@ -61,6 +61,8 @@ mozilla
 .
 components
 :
+browser
+-
 domains
 :
 {
@@ -68,6 +70,7 @@ latest
 -
 version
 }
+"
 #
 #
 License
