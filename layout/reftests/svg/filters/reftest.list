@@ -416,7 +416,7 @@ skip
 -
 if
 (
-d2d
+winWidget
 )
 fuzzy
 (
@@ -611,7 +611,7 @@ skip
 -
 if
 (
-d2d
+winWidget
 )
 =
 =
@@ -1659,7 +1659,7 @@ skip
 -
 if
 (
-d2d
+winWidget
 )
 =
 =

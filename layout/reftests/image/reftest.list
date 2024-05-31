@@ -42,16 +42,6 @@ fails
 -
 if
 (
-usesRepeatResampling
-&
-&
-!
-winWidget
-)
-fails
--
-if
-(
 useDrawSnapshot
 )
 =

@@ -1056,7 +1056,7 @@ if
 (
 !
 (
-d2d
+winWidget
 |
 |
 cocoaWidget
@@ -1066,7 +1066,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 !
 =

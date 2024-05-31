@@ -12,7 +12,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 =
 =
@@ -36,7 +36,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 =
 =

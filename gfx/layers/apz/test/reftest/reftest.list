@@ -33,8 +33,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 pref
 (
@@ -61,8 +60,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 pref
 (
@@ -127,8 +125,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 pref
 (
@@ -199,8 +196,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 pref
 (
@@ -271,8 +267,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 pref
 (
@@ -343,8 +338,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 pref
 (
@@ -419,8 +413,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 pref
 (
@@ -495,8 +488,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 pref
 (
@@ -1388,8 +1380,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =

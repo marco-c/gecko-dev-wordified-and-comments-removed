@@ -285,12 +285,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-d2d
-)
 load
 1287515
 -

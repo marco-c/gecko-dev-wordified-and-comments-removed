@@ -2,8 +2,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -27,8 +26,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -56,8 +54,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -85,8 +82,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -114,8 +110,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -139,8 +134,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -170,8 +164,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -201,8 +194,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 (
@@ -239,8 +231,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -285,8 +276,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -349,8 +339,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -386,8 +375,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -423,8 +411,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -511,8 +498,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -552,8 +538,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -585,8 +570,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -615,8 +599,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -636,8 +619,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -657,8 +639,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -678,8 +659,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -703,8 +683,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -740,8 +719,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -765,8 +743,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -794,8 +771,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -823,8 +799,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -888,8 +863,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -920,8 +894,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -945,8 +918,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -987,8 +959,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1016,8 +987,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -1057,8 +1027,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1086,8 +1055,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1115,8 +1083,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1144,8 +1111,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1173,8 +1139,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1202,8 +1167,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -1243,8 +1207,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 (
@@ -1317,8 +1280,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1338,8 +1300,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1367,8 +1328,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1405,8 +1365,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1447,8 +1406,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1480,8 +1438,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1513,8 +1470,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1546,8 +1502,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1579,8 +1534,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1608,8 +1562,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1646,8 +1599,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1688,8 +1640,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1713,8 +1664,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -1833,8 +1783,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -1917,8 +1866,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2047,8 +1995,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2131,8 +2078,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2171,8 +2117,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2232,8 +2177,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2296,8 +2240,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2324,8 +2267,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2356,8 +2298,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2389,7 +2330,7 @@ fuzzy
 -
 if
 (
-d2d
+winWidget
 0
 -
 1
@@ -2401,8 +2342,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -2445,8 +2385,7 @@ if
 Android
 |
 |
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -2469,8 +2408,7 @@ if
 Android
 |
 |
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -2526,8 +2464,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2610,8 +2547,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2682,8 +2618,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2754,8 +2689,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2790,8 +2724,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2823,8 +2756,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2884,8 +2816,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -2998,8 +2929,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3059,8 +2989,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3119,8 +3048,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -3246,8 +3174,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3322,8 +3249,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3396,8 +3322,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3434,8 +3359,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3455,8 +3379,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3476,8 +3399,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3497,8 +3419,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =
@@ -3817,8 +3738,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 |
 |
 Android
@@ -3857,8 +3777,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 |
 |
 Android
@@ -3899,8 +3818,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 |
 |
 Android
@@ -3943,8 +3861,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 |
 |
 Android
@@ -3987,8 +3904,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 |
 |
 Android
@@ -4031,8 +3947,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 |
 |
 Android
@@ -4107,8 +4022,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 |
 |
 Android
@@ -4172,8 +4086,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 |
 |
 Android

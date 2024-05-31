@@ -345,9 +345,6 @@ skip
 if
 (
 Android
-&
-&
-asyncPan
 )
 =
 =

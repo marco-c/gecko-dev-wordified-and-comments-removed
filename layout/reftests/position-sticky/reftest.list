@@ -758,8 +758,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -1037,8 +1036,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fails
 -
@@ -1067,8 +1065,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -
@@ -1137,8 +1134,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 fuzzy
 -

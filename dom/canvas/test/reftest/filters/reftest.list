@@ -31,13 +31,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-winWidget
-|
-|
-azureSkia
 0
 -
 1
@@ -336,7 +330,7 @@ fuzzy
 -
 if
 (
-d2d
+winWidget
 &
 &
 !

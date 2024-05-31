@@ -2196,8 +2196,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =

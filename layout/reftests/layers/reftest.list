@@ -336,8 +336,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -357,8 +356,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -378,8 +376,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -413,8 +410,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -448,8 +444,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -469,8 +464,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -633,8 +627,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 !
 =
@@ -656,8 +649,7 @@ skip
 -
 if
 (
-!
-asyncPan
+useDrawSnapshot
 )
 =
 =

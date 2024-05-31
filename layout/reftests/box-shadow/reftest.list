@@ -366,7 +366,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 fuzzy
 (
@@ -446,7 +446,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 fuzzy
 (
@@ -475,7 +475,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 fuzzy
 (
@@ -504,7 +504,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 fuzzy
 (
@@ -631,7 +631,7 @@ fuzzy
 -
 if
 (
-d2d
+winWidget
 0
 -
 2
@@ -710,7 +710,7 @@ fuzzy
 -
 if
 (
-d2d
+winWidget
 0
 -
 26
@@ -936,7 +936,7 @@ fuzzy
 -
 if
 (
-d2d
+winWidget
 0
 -
 1

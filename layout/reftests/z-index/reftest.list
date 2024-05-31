@@ -89,16 +89,6 @@ context
 no
 .
 html
-fails
--
-if
-(
-Android
-&
-&
-!
-asyncPan
-)
 !
 =
 overlayscrollbar

@@ -546,16 +546,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-Android
-&
-&
-!
-asyncPan
-)
 !
 =
 492155

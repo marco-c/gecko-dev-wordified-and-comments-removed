@@ -298,7 +298,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 =
 =
@@ -946,16 +946,6 @@ random
 if
 (
 gtkWidget
-)
-random
--
-if
-(
-winWidget
-&
-&
-!
-d2d
 )
 =
 =

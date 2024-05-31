@@ -713,7 +713,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 fuzzy
 (
@@ -742,7 +742,7 @@ random
 -
 if
 (
-d2d
+winWidget
 )
 fuzzy
 (
@@ -1629,7 +1629,7 @@ fuzzy
 -
 if
 (
-d2d
+winWidget
 0
 -
 127
@@ -1677,7 +1677,7 @@ fuzzy
 -
 if
 (
-d2d
+winWidget
 0
 -
 127
@@ -2378,18 +2378,6 @@ fuzzy
 -
 if
 (
-d2d
-0
--
-47
-0
--
-400
-)
-fuzzy
--
-if
-(
 winWidget
 0
 -
@@ -2417,7 +2405,7 @@ ref2
 .
 html
 #
-d2d
+winWidget
 interpolates
 the
 hard
