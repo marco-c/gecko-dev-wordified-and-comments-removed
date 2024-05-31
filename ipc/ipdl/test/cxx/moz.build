@@ -35,11 +35,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestLatency
-.
-h
-"
-"
 TestManyChildAllocs
 .
 h
@@ -149,11 +144,6 @@ SOURCES
 +
 =
 [
-"
-TestLatency
-.
-cpp
-"
 "
 TestManyChildAllocs
 .
@@ -302,11 +292,6 @@ ipdl
 "
 "
 PTestIndirectProtocolParamSecond
-.
-ipdl
-"
-"
-PTestLatency
 .
 ipdl
 "
