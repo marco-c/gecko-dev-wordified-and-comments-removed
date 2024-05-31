@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestSyncWakeup
-.
-h
-"
-"
 TestUniquePtrIPC
 .
 h
@@ -66,11 +61,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestSyncWakeup
 .
 cpp
 "
@@ -142,11 +132,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestSyncWakeup
 .
 ipdl
 "
