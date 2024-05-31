@@ -914,8 +914,6 @@ entry
 }
 buildPageTimings
 (
-page
-networkEvent
 )
 {
 const

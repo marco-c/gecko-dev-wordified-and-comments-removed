@@ -43,7 +43,6 @@ return
 (
 {
 dispatch
-getState
 client
 }
 )

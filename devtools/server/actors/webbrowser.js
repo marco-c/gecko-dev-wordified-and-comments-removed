@@ -2392,7 +2392,6 @@ onDisabled
 =
 function
 (
-addon
 )
 {
 this
@@ -2411,7 +2410,6 @@ onEnabled
 =
 function
 (
-addon
 )
 {
 this
@@ -2430,7 +2428,6 @@ onInstalled
 =
 function
 (
-addon
 )
 {
 this
@@ -2449,7 +2446,6 @@ onOperationCancelled
 =
 function
 (
-addon
 )
 {
 this
@@ -2468,7 +2464,6 @@ onUninstalling
 =
 function
 (
-addon
 )
 {
 this
@@ -2517,7 +2512,6 @@ _onAddonManagerUpdated
 =
 function
 (
-addon
 )
 {
 this

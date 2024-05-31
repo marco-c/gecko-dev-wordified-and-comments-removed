@@ -821,7 +821,6 @@ null
 onTracingToggled
 (
 enabled
-reason
 )
 {
 const
@@ -1353,7 +1352,6 @@ false
 onTracingFrame
 (
 {
-frameId
 frame
 depth
 formatedDisplayName

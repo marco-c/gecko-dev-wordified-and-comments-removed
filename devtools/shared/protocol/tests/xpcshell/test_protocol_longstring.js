@@ -505,7 +505,6 @@ then
 (
 [
 applicationType
-traits
 ]
 )
 =

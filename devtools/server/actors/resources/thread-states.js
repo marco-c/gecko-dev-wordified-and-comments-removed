@@ -435,7 +435,6 @@ form
 }
 onResumed
 (
-packet
 )
 {
 if

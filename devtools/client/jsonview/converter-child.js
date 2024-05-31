@@ -220,9 +220,6 @@ this
 convert
 (
 fromStream
-fromType
-toType
-ctx
 )
 {
 return
@@ -234,7 +231,6 @@ asyncConvertData
 fromType
 toType
 listener
-ctx
 )
 {
 this
@@ -246,8 +242,6 @@ listener
 }
 getConvertedType
 (
-fromType
-channel
 )
 {
 return
@@ -1707,7 +1701,6 @@ unload
 "
 function
 (
-event
 )
 {
 removeThemeObserver

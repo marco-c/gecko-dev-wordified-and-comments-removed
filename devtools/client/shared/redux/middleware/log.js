@@ -6,10 +6,6 @@ strict
 function
 log
 (
-{
-dispatch
-getState
-}
 )
 {
 return

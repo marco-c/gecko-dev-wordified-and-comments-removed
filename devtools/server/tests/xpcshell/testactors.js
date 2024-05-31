@@ -888,7 +888,8 @@ _global
 ]
 shouldAddNewGlobalAsDebuggee
 :
-g
+(
+)
 =
 >
 gAllowNewThreadGlobals
@@ -1091,7 +1092,6 @@ actors
 }
 detach
 (
-request
 )
 {
 this
@@ -1114,7 +1114,6 @@ detached
 }
 reload
 (
-request
 )
 {
 this

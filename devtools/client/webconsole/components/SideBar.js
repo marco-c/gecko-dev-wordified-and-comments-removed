@@ -559,7 +559,6 @@ function
 mapStateToProps
 (
 state
-props
 )
 {
 return

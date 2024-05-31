@@ -174,8 +174,6 @@ destroyed
 _onContentGlobalCreated
 (
 subject
-topic
-data
 )
 {
 if
@@ -206,8 +204,6 @@ subject
 _onInnerWindowDestroyed
 (
 subject
-topic
-data
 )
 {
 const

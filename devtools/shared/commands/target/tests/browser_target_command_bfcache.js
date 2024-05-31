@@ -1201,7 +1201,6 @@ async
 function
 testTopLevelNavigationsOnDocumentWithIframe
 (
-bfcacheInParent
 )
 {
 info

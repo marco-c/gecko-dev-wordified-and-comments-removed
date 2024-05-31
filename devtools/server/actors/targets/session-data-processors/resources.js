@@ -73,7 +73,6 @@ removeSessionDataEntry
 (
 targetActor
 entries
-isDocumentCreation
 )
 {
 Resources

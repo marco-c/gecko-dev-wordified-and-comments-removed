@@ -128,8 +128,6 @@ null
 }
 getValueRep
 (
-value
-colId
 )
 {
 }

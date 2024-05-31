@@ -354,8 +354,6 @@ object
 }
 onStopListening
 (
-socket
-status
 )
 {
 }

@@ -2615,7 +2615,6 @@ hide
 }
 onShapesHighlighterHidden
 (
-data
 )
 {
 this
@@ -3734,7 +3733,6 @@ find
 (
 (
 [
-key
 value
 ]
 )

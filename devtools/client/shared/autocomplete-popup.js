@@ -856,7 +856,6 @@ stopPropagation
 }
 onInputBlur
 (
-event
 )
 {
 if

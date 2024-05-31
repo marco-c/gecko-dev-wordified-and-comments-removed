@@ -4048,10 +4048,7 @@ ui
 shouldExpandHeadersUrlPreview
 }
 )
-(
 dispatch
-props
-)
 =
 >
 (

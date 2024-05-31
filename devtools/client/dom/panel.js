@@ -565,9 +565,6 @@ refresh
 }
 _onTargetSelected
 (
-{
-targetFront
-}
 )
 {
 this

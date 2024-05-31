@@ -1222,7 +1222,6 @@ catchAndIgnore
 function
 (
 snapshot
-propName
 )
 {
 const

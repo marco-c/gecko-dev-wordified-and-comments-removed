@@ -484,9 +484,6 @@ onWindowDestroy
 }
 webSocketCreated
 (
-webSocketSerialID
-uri
-protocols
 )
 {
 }
@@ -539,9 +536,6 @@ resource
 }
 webSocketMessageAvailable
 (
-webSocketSerialID
-data
-messageType
 )
 {
 }

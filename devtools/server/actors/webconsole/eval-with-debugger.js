@@ -1834,7 +1834,6 @@ function
 getEvalInput
 (
 string
-bindings
 )
 {
 const

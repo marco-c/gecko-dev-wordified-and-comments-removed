@@ -475,7 +475,6 @@ index
 removeTab
 (
 tabId
-tabPanelId
 )
 {
 this

@@ -14840,22 +14840,10 @@ s
 name
 .
 *
-param
-object
-aDescriptor
-*
-The
-variable
-'
-s
-descriptor
-.
-*
 /
 _init
 (
 aName
-aDescriptor
 )
 {
 this
@@ -21479,7 +21467,6 @@ null
 symbol
 (
 aGrip
-aOptions
 )
 {
 const
@@ -21509,9 +21496,6 @@ name
 mapEntry
 (
 aGrip
-{
-concise
-}
 )
 {
 const
@@ -25778,7 +25762,6 @@ prototype
 {
 _reset
 (
-e
 )
 {
 /
@@ -25811,7 +25794,6 @@ deactivate
 }
 _next
 (
-e
 )
 {
 /

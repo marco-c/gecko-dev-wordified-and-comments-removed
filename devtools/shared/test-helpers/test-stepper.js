@@ -38,8 +38,6 @@ traceFrame
 (
 {
 frame
-depth
-prefix
 }
 )
 {

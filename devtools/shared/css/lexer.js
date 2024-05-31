@@ -4235,7 +4235,6 @@ RIGHT_PARENTHESIS
 Next
 (
 aToken
-aSkip
 )
 {
 aToken

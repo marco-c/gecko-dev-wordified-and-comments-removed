@@ -1600,10 +1600,6 @@ resource
 async
 onWebSocketOpened
 (
-httpChannelId
-effectiveURI
-protocols
-extensions
 )
 {
 }

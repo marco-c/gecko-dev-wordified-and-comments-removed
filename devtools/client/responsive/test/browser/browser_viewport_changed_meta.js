@@ -404,7 +404,6 @@ function
 {
 ui
 manager
-browser
 }
 )
 {

@@ -487,7 +487,6 @@ map
 key
 value
 ]
-index
 )
 =
 >

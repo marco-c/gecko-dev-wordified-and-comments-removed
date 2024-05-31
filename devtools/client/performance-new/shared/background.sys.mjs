@@ -4957,7 +4957,6 @@ ProfilerMenuButton
 .
 addToNavbar
 (
-ownerDocument
 )
 ;
 /

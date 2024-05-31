@@ -629,7 +629,6 @@ _scrollItemIntoView
 }
 UNSAFE_componentWillReceiveProps
 (
-nextProps
 )
 {
 this
@@ -1665,7 +1664,6 @@ _updateHeight
 }
 _onScroll
 (
-e
 )
 {
 this
@@ -3116,7 +3114,6 @@ isRequired
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 return

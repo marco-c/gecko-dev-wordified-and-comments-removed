@@ -394,10 +394,7 @@ mouse
 "
 x
 :
-(
 width
-height
-)
 =
 >
 width
@@ -411,10 +408,7 @@ expected
 {
 x
 :
-(
 width
-height
-)
 =
 >
 width
@@ -444,10 +438,7 @@ expected
 {
 x
 :
-(
 width
-height
-)
 =
 >
 width

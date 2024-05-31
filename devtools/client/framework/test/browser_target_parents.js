@@ -290,7 +290,8 @@ await
 testGetTargetWithConcurrentCalls
 (
 processes
-processTarget
+(
+)
 =
 >
 {

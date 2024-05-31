@@ -436,10 +436,6 @@ location
 {
 return
 (
-{
-dispatch
-getState
-}
 )
 =
 >
@@ -462,10 +458,6 @@ location
 {
 return
 (
-{
-dispatch
-getState
-}
 )
 =
 >
@@ -562,7 +554,6 @@ async
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -632,7 +623,6 @@ async
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -702,7 +692,6 @@ async
 (
 {
 dispatch
-getState
 }
 )
 =

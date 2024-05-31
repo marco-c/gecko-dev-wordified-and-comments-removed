@@ -102,7 +102,6 @@ function
 findBreakpointPosition
 (
 {
-getState
 dispatch
 }
 location

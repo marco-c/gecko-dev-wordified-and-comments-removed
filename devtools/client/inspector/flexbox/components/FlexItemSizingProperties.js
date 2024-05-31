@@ -439,7 +439,6 @@ renderCssProperty
 (
 name
 value
-isDefaultValue
 )
 {
 return
@@ -510,7 +509,6 @@ renderBaseSizeSection
 (
 {
 mainBaseSize
-clampState
 }
 properties
 dimension

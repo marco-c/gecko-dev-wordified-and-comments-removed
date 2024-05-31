@@ -817,7 +817,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -1211,7 +1210,6 @@ targetActor
 }
 destroy
 (
-conn
 )
 {
 super

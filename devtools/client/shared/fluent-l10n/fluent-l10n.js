@@ -180,9 +180,10 @@ _bundles
 }
 getString
 (
-id
+.
+.
+.
 args
-fallback
 )
 {
 return
@@ -197,7 +198,7 @@ apply
 this
 .
 _reactLocalization
-arguments
+args
 )
 ;
 }

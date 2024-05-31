@@ -434,10 +434,6 @@ typeObject
 =
 {
 }
-options
-=
-{
-}
 )
 {
 if

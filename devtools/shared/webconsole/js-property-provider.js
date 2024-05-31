@@ -2613,9 +2613,6 @@ null
 }
 getProperty
 (
-obj
-name
-rootObj
 )
 {
 throw

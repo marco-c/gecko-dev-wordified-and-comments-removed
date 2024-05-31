@@ -395,9 +395,6 @@ TEST_URL
 function
 rdmPreTask
 (
-{
-browser
-}
 )
 {
 reloadOnUAChange
@@ -600,9 +597,6 @@ false
 function
 rdmPostTask
 (
-{
-browser
-}
 )
 {
 }

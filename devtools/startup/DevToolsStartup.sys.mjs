@@ -6976,9 +6976,6 @@ observe
 =
 function
 (
-subject
-topic
-data
 )
 {
 devtoolsThreadResumed
@@ -9542,7 +9539,6 @@ getSystemPrincipal
 }
 onError
 (
-status
 )
 {
 throw

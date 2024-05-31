@@ -207,7 +207,6 @@ clear
 httpFailedOpeningRequest
 (
 subject
-topic
 )
 {
 const

@@ -251,8 +251,6 @@ Sniffer
 getMIMETypeFromContent
 (
 request
-data
-length
 )
 {
 if

@@ -1823,10 +1823,7 @@ state
 )
 }
 )
-(
 dispatch
-props
-)
 =
 >
 (

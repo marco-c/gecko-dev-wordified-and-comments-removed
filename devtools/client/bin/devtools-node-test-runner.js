@@ -496,7 +496,6 @@ function
 getJestErrors
 (
 out
-err
 )
 {
 const

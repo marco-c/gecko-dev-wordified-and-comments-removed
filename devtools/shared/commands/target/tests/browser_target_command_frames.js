@@ -2127,7 +2127,6 @@ async
 function
 testTabFrames
 (
-mainRoot
 )
 {
 info

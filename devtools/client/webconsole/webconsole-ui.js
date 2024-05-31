@@ -2168,9 +2168,6 @@ messageUpdates
 async
 _onTargetAvailable
 (
-{
-targetFront
-}
 )
 {
 }
@@ -2854,7 +2851,8 @@ on
 "
 Esc
 "
-event
+(
+)
 =
 >
 {

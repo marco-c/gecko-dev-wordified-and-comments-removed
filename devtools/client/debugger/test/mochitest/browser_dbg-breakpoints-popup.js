@@ -143,7 +143,6 @@ popupBrowsingContext
 ]
 function
 (
-url
 )
 {
 return

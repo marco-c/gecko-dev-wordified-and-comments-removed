@@ -151,8 +151,6 @@ require
 exports
 module
 {
-Ci
-Cc
 }
 ChromeWorker
 dumpn

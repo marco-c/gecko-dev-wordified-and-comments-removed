@@ -33,7 +33,8 @@ js
 const
 tabComponentDataMiddleware
 =
-store
+(
+)
 =
 >
 next

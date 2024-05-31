@@ -36,7 +36,6 @@ EventEmitter
 constructor
 (
 commands
-selection
 )
 {
 super
@@ -974,7 +973,8 @@ node
 #
 onCanceled
 =
-data
+(
+)
 =
 >
 {

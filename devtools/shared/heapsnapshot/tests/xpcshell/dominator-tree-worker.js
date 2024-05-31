@@ -18,7 +18,8 @@ self
 .
 onmessage
 =
-e
+(
+)
 =
 >
 {

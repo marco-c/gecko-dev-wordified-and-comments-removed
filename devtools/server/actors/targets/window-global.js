@@ -2563,7 +2563,6 @@ return
 }
 listFrames
 (
-request
 )
 {
 const
@@ -2655,7 +2654,6 @@ shouldPause
 }
 listWorkers
 (
-request
 )
 {
 return
@@ -2849,9 +2847,6 @@ workerListChanged
 }
 _onConsoleApiProfilerEvent
 (
-subject
-topic
-data
 )
 {
 const
@@ -2920,7 +2915,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -3595,7 +3589,6 @@ null
 }
 detach
 (
-request
 )
 {
 DevToolsUtils
@@ -5721,7 +5714,6 @@ makeInfallible
 function
 (
 subject
-topic
 )
 {
 if
@@ -5853,7 +5845,6 @@ function
 progress
 request
 flag
-status
 )
 {
 if

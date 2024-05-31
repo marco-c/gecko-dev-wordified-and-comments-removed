@@ -754,7 +754,6 @@ responseHeaders
 }
 componentDidUpdate
 (
-prevProps
 )
 {
 MediaQueryList

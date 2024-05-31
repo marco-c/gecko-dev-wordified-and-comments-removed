@@ -1843,7 +1843,6 @@ toggleRecording
 }
 renderBlockingButton
 (
-toggleSearchPanel
 )
 {
 const

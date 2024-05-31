@@ -489,7 +489,6 @@ returnSpan
 function
 getClassTitle
 (
-grip
 )
 {
 return

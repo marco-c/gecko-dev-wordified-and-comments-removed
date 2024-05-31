@@ -35,7 +35,8 @@ js
 const
 workerComponentDataMiddleware
 =
-store
+(
+)
 =
 >
 next

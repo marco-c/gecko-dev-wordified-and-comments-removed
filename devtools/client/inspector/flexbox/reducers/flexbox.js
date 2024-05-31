@@ -106,7 +106,6 @@ reducers
 CLEAR_FLEXBOX
 ]
 (
-flexbox
 _
 )
 {

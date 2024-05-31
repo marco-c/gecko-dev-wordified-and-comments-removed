@@ -14,7 +14,6 @@ addOrSetSessionDataEntry
 targetActor
 entries
 isDocumentCreation
-updateType
 )
 {
 if
@@ -67,9 +66,6 @@ isDocumentCreation
 }
 removeSessionDataEntry
 (
-targetActor
-entries
-isDocumentCreation
 )
 {
 }

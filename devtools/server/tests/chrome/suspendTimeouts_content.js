@@ -155,9 +155,6 @@ true
 function
 handle_echo
 (
-{
-data
-}
 )
 {
 ok

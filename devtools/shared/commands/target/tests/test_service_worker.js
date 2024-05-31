@@ -9,7 +9,6 @@ onfetch
 =
 function
 (
-event
 )
 {
 }

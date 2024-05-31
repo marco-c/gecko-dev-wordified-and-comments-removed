@@ -565,7 +565,8 @@ searchText
 ;
 onFocus
 =
-event
+(
+)
 =
 >
 {
@@ -584,7 +585,8 @@ true
 ;
 onBlur
 =
-event
+(
+)
 =
 >
 {

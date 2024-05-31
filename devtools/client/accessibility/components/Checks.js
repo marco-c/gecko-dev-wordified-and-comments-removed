@@ -536,7 +536,6 @@ mapStateToProps
 (
 {
 details
-ui
 }
 )
 =

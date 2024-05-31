@@ -1427,7 +1427,6 @@ testAriaAttributesOnSpectrumElements
 spectrum
 colorName
 rgbString
-alpha
 )
 {
 for

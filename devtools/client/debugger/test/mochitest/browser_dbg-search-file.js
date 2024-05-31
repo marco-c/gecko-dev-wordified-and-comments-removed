@@ -569,7 +569,6 @@ navigateWithKey
 dbg
 key
 expectedLine
-assertionMessage
 )
 {
 pressKey

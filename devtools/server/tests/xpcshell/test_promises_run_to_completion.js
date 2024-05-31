@@ -69,7 +69,6 @@ onDebuggerStatement
 function
 handleDebuggerStatement
 (
-frame
 )
 {
 dbg
@@ -170,7 +169,8 @@ resolve
 .
 then
 (
-v
+(
+)
 =
 >
 {

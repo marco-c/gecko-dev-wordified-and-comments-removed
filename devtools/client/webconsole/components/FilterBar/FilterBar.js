@@ -694,7 +694,6 @@ wrapperNode
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 const

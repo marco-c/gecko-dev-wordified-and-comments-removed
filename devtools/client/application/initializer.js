@@ -371,7 +371,6 @@ bootstrap
 {
 toolbox
 commands
-panel
 }
 )
 {

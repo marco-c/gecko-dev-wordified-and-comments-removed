@@ -94,7 +94,6 @@ filter
 (
 (
 [
-type
 check
 ]
 )
@@ -108,7 +107,6 @@ map
 (
 [
 type
-check
 ]
 )
 =

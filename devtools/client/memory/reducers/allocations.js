@@ -69,7 +69,6 @@ TOGGLE_RECORD_ALLOCATION_STACKS_START
 function
 (
 state
-action
 )
 {
 assert
@@ -115,7 +114,6 @@ TOGGLE_RECORD_ALLOCATION_STACKS_END
 function
 (
 state
-action
 )
 {
 assert

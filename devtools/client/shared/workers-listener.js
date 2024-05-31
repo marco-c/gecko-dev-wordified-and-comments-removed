@@ -257,7 +257,6 @@ _listener
 }
 removeListener
 (
-listener
 )
 {
 if

@@ -716,7 +716,6 @@ filter
 (
 (
 {
-name
 location
 }
 )

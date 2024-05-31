@@ -81,7 +81,6 @@ TESTS
 async
 action
 (
-win
 )
 {
 await

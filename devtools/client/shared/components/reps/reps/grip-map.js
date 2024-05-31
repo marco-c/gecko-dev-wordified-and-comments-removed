@@ -763,10 +763,7 @@ indexes
 .
 map
 (
-(
 index
-i
-)
 =
 >
 {

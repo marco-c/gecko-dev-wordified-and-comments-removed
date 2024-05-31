@@ -450,11 +450,6 @@ Function
 ]
 }
 }
-type
-=
-"
-popover
-"
 >
 <
 svg
@@ -929,11 +924,6 @@ Function
 ]
 }
 }
-type
-=
-"
-tooltip
-"
 >
 <
 svg
@@ -1409,11 +1399,6 @@ Function
 ]
 }
 }
-type
-=
-"
-tooltip
-"
 >
 <
 svg
@@ -1971,11 +1956,6 @@ Function
 ]
 }
 }
-type
-=
-"
-popover
-"
 >
 <
 svg

@@ -115,9 +115,6 @@ jsonReply
 (
 {
 length
-reader
-reply
-done
 }
 )
 {

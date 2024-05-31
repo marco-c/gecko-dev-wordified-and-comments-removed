@@ -1798,7 +1798,6 @@ addResponseContent
 (
 content
 {
-discardResponseBody
 blockedReason
 blockingExtension
 }

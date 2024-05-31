@@ -548,13 +548,11 @@ window
 }
 _startListeners
 (
-windows
 )
 {
 }
 _stopListeners
 (
-windows
 )
 {
 }

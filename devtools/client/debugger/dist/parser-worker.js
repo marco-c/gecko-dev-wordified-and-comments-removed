@@ -267606,7 +267606,6 @@ ast
 (
 node
 ancestors
-b
 )
 =
 >

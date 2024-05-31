@@ -383,7 +383,6 @@ function
 {
 ui
 manager
-browser
 }
 )
 {

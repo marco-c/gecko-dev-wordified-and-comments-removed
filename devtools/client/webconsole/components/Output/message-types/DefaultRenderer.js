@@ -42,7 +42,6 @@ DefaultRenderer
 function
 DefaultRenderer
 (
-props
 )
 {
 return

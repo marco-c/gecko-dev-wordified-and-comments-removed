@@ -1620,7 +1620,6 @@ cpt
 function
 emitContentBlockedMessage
 (
-hud
 )
 {
 const

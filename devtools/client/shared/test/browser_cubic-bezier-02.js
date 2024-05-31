@@ -900,9 +900,6 @@ function
 pointsCanBeMovedWithKeyboard
 (
 widget
-win
-doc
-offsets
 )
 {
 info

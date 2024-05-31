@@ -181,10 +181,6 @@ connect
 then
 (
 (
-[
-type
-traits
-]
 )
 =
 >
@@ -552,7 +548,8 @@ prefix1
 /
 root
 "
-reply
+(
+)
 =
 >
 run_next_test
@@ -623,7 +620,8 @@ prefix2
 /
 root
 "
-reply
+(
+)
 =
 >
 run_next_test

@@ -8,7 +8,6 @@ function
 testFinish
 (
 {
-threadFront
 devToolsClient
 }
 )

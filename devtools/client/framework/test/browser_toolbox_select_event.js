@@ -399,8 +399,6 @@ const
 onSelect
 =
 (
-event
-id
 )
 =
 >

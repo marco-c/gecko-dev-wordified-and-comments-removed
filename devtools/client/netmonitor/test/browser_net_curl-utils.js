@@ -762,7 +762,6 @@ parameters
 function
 testWriteEmptyPostDataTextParams
 (
-data
 )
 {
 const

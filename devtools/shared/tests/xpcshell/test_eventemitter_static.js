@@ -1928,7 +1928,6 @@ object
 handler
 ]
 (
-type
 )
 {
 actual

@@ -113,7 +113,6 @@ Actor
 constructor
 (
 conn
-parent
 )
 {
 super

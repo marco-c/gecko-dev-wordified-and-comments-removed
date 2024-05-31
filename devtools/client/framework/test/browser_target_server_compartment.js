@@ -123,7 +123,6 @@ function
 (
 subject
 topic
-data
 )
 {
 if
@@ -353,7 +352,6 @@ function
 (
 subject
 topic
-data
 )
 {
 if
@@ -447,7 +445,6 @@ function
 (
 subject
 topic
-data
 )
 {
 if

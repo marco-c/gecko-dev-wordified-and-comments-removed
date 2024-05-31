@@ -243,7 +243,6 @@ async
 (
 {
 dispatch
-getState
 }
 )
 =

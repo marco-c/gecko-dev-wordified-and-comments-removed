@@ -1153,7 +1153,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 Object

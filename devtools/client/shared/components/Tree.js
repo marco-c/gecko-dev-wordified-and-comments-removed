@@ -362,7 +362,6 @@ bool
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 return
@@ -1823,7 +1822,6 @@ focused
 }
 UNSAFE_componentWillReceiveProps
 (
-nextProps
 )
 {
 this
@@ -1836,7 +1834,6 @@ _autoExpand
 componentDidUpdate
 (
 prevProps
-prevState
 )
 {
 if

@@ -257,7 +257,6 @@ messages
 }
 shouldHandleTarget
 (
-targetActor
 )
 {
 return
@@ -266,8 +265,6 @@ true
 }
 shouldHandleMessage
 (
-targetActor
-message
 )
 {
 throw
@@ -293,8 +290,8 @@ nsIConsoleListenerWatcher
 }
 buildResource
 (
-targetActor
-message
+_targetActor
+_message
 )
 {
 throw

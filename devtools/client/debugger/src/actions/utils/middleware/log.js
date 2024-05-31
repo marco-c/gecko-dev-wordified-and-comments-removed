@@ -403,10 +403,6 @@ export
 function
 log
 (
-{
-dispatch
-getState
-}
 )
 {
 return

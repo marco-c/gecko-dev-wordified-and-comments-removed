@@ -18,7 +18,6 @@ async
 {
 threadFront
 debuggee
-client
 }
 )
 =
@@ -144,7 +143,6 @@ paused
 "
 function
 (
-packet
 )
 {
 gThreadFront

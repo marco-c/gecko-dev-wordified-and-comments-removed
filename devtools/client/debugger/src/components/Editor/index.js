@@ -1187,7 +1187,8 @@ codeMirror
 const
 toggleFoldMarkerVisibility
 =
-e
+(
+)
 =
 >
 {
@@ -2554,7 +2555,6 @@ sourceLocation
 shouldScrollToLocation
 (
 nextProps
-editor
 )
 {
 if

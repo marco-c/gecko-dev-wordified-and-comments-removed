@@ -975,7 +975,6 @@ rule
 index
 oldName
 newName
-value
 )
 {
 const

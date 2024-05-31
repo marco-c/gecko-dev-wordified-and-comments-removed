@@ -38,7 +38,8 @@ await
 withWebChannelTestDocument
 (
 async
-browser
+(
+)
 =
 >
 {

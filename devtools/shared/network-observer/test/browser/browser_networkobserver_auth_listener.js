@@ -289,7 +289,8 @@ spec
 AUTH_URL
 onNetworkEvent
 :
-event
+(
+)
 =
 >
 {
@@ -538,7 +539,8 @@ spec
 AUTH_URL
 onNetworkEvent
 :
-event
+(
+)
 =
 >
 {
@@ -823,7 +825,8 @@ spec
 AUTH_URL
 onNetworkEvent
 :
-event
+(
+)
 =
 >
 {

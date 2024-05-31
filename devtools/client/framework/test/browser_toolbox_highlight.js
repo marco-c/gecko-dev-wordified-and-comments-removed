@@ -261,7 +261,8 @@ finish
 .
 catch
 (
-error
+(
+)
 =
 >
 {

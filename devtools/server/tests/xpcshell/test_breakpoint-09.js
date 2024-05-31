@@ -220,7 +220,6 @@ paused
 "
 function
 (
-packet
 )
 {
 threadFront

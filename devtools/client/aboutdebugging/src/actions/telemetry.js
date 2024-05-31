@@ -40,7 +40,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =

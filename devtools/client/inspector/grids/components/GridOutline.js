@@ -1300,7 +1300,6 @@ renderGridOutlineBorder
 (
 borderWidth
 borderHeight
-color
 )
 {
 return

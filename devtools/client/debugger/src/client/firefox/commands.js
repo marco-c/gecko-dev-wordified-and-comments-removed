@@ -491,7 +491,6 @@ function
 resume
 (
 thread
-frameId
 )
 {
 return

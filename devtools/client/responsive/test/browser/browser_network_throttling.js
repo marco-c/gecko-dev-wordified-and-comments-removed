@@ -59,7 +59,6 @@ function
 (
 {
 ui
-manager
 }
 )
 {

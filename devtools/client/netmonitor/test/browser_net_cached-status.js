@@ -463,8 +463,6 @@ nsIObserver
 observe
 (
 subject
-topic
-data
 )
 {
 subject

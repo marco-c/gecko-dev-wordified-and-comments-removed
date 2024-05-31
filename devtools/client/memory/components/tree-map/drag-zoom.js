@@ -1101,7 +1101,6 @@ function
 getScrollDelta
 (
 event
-window
 )
 {
 if

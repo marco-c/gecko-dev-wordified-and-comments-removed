@@ -765,7 +765,6 @@ testClearedRequests
 {
 tab
 monitor
-toolbox
 }
 )
 {
@@ -1303,7 +1302,6 @@ function
 reloadAndCopyAllAsHar
 (
 {
-tab
 monitor
 toolbox
 reloadTwice

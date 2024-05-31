@@ -754,7 +754,6 @@ extensions
 "
 oncommand
 (
-event
 )
 {
 openDocLink

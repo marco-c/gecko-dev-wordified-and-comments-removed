@@ -94,7 +94,8 @@ clear
 )
 getLine
 :
-line
+(
+)
 =
 >
 "

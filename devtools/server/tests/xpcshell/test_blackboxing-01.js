@@ -558,7 +558,6 @@ doStuff
 (
 function
 (
-n
 )
 {
 (

@@ -193,7 +193,6 @@ FETCH_INDIVIDUALS_START
 function
 (
 individuals
-action
 )
 {
 assert

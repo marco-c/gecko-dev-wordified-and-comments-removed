@@ -224,7 +224,6 @@ clear
 }
 destroy
 (
-targetActor
 )
 {
 this
@@ -303,7 +302,6 @@ onChannelRedirect
 (
 oldChannel
 newChannel
-flags
 )
 {
 try

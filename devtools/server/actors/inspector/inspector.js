@@ -701,7 +701,8 @@ getWalker
 .
 then
 (
-walker
+(
+)
 =
 >
 {

@@ -570,7 +570,8 @@ succeed
 )
 ;
 }
-error
+(
+)
 =
 >
 {
@@ -622,7 +623,8 @@ succeed
 )
 ;
 }
-error
+(
+)
 =
 >
 {

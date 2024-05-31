@@ -255,7 +255,8 @@ this
 .
 setState
 (
-previousState
+(
+)
 =
 >
 {
@@ -280,7 +281,8 @@ this
 .
 setState
 (
-previousState
+(
+)
 =
 >
 {
@@ -1470,8 +1472,6 @@ jest
 fn
 (
 (
-prev
-next
 )
 =
 >
@@ -5930,7 +5930,8 @@ A
 "
 isExpandable
 :
-item
+(
+)
 =
 >
 false

@@ -85,7 +85,6 @@ HANDLER_MAP
 top
 (
 areaWidth
-areaHeight
 )
 {
 return
@@ -109,7 +108,6 @@ y
 topright
 (
 areaWidth
-areaHeight
 )
 {
 return
@@ -231,8 +229,6 @@ areaHeight
 }
 topleft
 (
-areaWidth
-areaHeight
 )
 {
 return

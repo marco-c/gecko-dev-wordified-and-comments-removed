@@ -331,8 +331,6 @@ async
 function
 loadInitialState
 (
-commands
-toolbox
 )
 {
 const
@@ -461,10 +459,6 @@ initialState
 await
 loadInitialState
 (
-commands
-panel
-.
-toolbox
 )
 ;
 const

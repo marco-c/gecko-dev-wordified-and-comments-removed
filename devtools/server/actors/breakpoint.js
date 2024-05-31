@@ -255,7 +255,6 @@ _newOffsetsOrOptions
 (
 script
 offsets
-oldOptions
 )
 {
 for

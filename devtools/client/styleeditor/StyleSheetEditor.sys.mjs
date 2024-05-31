@@ -1658,10 +1658,6 @@ text
 async
 _fetchSourceText
 (
-options
-=
-{
-}
 )
 {
 const

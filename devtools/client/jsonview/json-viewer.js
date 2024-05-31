@@ -8,8 +8,6 @@ define
 function
 (
 require
-exports
-module
 )
 {
 const
@@ -428,7 +426,6 @@ value
 }
 onPrettify
 (
-data
 )
 {
 if
@@ -521,7 +518,6 @@ prettified
 }
 onCollapse
 (
-data
 )
 {
 input
@@ -541,7 +537,6 @@ forceUpdate
 }
 onExpand
 (
-data
 )
 {
 input

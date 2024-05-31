@@ -391,10 +391,7 @@ items
 .
 forEach
 (
-(
 item
-index
-)
 =
 >
 {

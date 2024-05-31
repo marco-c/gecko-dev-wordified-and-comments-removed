@@ -564,7 +564,6 @@ release
 }
 form
 (
-detail
 )
 {
 const

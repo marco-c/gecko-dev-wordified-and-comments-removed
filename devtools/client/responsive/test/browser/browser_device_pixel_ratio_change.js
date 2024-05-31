@@ -139,7 +139,6 @@ function
 (
 {
 ui
-manager
 }
 )
 {

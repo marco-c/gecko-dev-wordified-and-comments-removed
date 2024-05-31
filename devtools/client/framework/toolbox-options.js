@@ -947,7 +947,6 @@ updateSourceMapPref
 }
 _themeRegistered
 (
-themeId
 )
 {
 this

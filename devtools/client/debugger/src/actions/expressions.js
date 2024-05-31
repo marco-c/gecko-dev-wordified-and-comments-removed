@@ -76,7 +76,6 @@ async
 {
 dispatch
 getState
-parserWorker
 }
 )
 =
@@ -266,9 +265,7 @@ return
 async
 (
 {
-getState
 dispatch
-parserWorker
 }
 )
 =

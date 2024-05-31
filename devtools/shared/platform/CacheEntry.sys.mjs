@@ -521,7 +521,8 @@ OPEN_SECRETLY
 {
 onCacheEntryCheck
 :
-entry
+(
+)
 =
 >
 {
@@ -535,11 +536,7 @@ ENTRY_WANTED
 }
 onCacheEntryAvailable
 :
-(
 cacheEntry
-isnew
-status
-)
 =
 >
 {

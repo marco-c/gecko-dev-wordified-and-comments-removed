@@ -67,7 +67,6 @@ then
 async
 (
 {
-tab
 monitor
 }
 )

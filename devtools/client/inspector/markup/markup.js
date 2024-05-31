@@ -6721,9 +6721,6 @@ true
 }
 _onTargetAvailable
 (
-{
-targetFront
-}
 )
 {
 }
@@ -8703,11 +8700,6 @@ node
 markNodeAsSelected
 (
 node
-reason
-=
-"
-nodeselected
-"
 )
 {
 const

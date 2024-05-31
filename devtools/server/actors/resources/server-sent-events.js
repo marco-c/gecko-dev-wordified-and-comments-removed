@@ -463,7 +463,6 @@ onWindowDestroy
 }
 eventSourceConnectionOpened
 (
-httpChannelId
 )
 {
 }

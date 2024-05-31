@@ -1459,10 +1459,7 @@ expectedXHRMethods
 .
 forEach
 (
-(
 expectedMethod
-i
-)
 =
 >
 {

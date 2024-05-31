@@ -1167,7 +1167,8 @@ await
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 getBreakpointCount

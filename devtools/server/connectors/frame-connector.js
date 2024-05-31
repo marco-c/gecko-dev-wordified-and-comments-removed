@@ -505,8 +505,6 @@ onMessageManagerClose
 function
 (
 subject
-topic
-data
 )
 {
 if

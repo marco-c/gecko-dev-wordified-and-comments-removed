@@ -9,7 +9,6 @@ baseCopyFormatter
 {
 name
 value
-object
 hasChildren
 }
 )

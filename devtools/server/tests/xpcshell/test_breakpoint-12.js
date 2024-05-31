@@ -90,7 +90,6 @@ function
 (
 [
 response
-bpClient
 ]
 )
 {
@@ -426,7 +425,6 @@ paused
 "
 function
 (
-packet
 )
 {
 Assert

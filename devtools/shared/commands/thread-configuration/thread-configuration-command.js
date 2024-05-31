@@ -86,7 +86,6 @@ filter
 (
 [
 key
-value
 ]
 )
 =

@@ -451,10 +451,7 @@ DATA_URL_INLINE_STYLE
 }
 validate
 :
-(
 container
-inspector
-)
 =
 >
 {
@@ -546,10 +543,7 @@ LONG_ATTRIBUTE
 }
 validate
 :
-(
 container
-inspector
-)
 =
 >
 {
@@ -638,10 +632,7 @@ DATA_URL_ATTRIBUTE
 }
 validate
 :
-(
 container
-inspector
-)
 =
 >
 {
@@ -740,7 +731,6 @@ LONG_ATTRIBUTE
 }
 setUp
 (
-inspector
 )
 {
 Services
@@ -762,10 +752,7 @@ false
 }
 validate
 :
-(
 container
-inspector
-)
 =
 >
 {
@@ -813,7 +800,6 @@ LONG_ATTRIBUTE
 }
 tearDown
 (
-inspector
 )
 {
 Services
@@ -871,7 +857,6 @@ LONG_ATTRIBUTE
 }
 setUp
 (
-inspector
 )
 {
 Services
@@ -893,10 +878,7 @@ collapseAttributeLength
 }
 validate
 :
-(
 container
-inspector
-)
 =
 >
 {
@@ -976,7 +958,6 @@ collapsed
 }
 tearDown
 (
-inspector
 )
 {
 Services

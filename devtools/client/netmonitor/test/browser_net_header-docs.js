@@ -217,7 +217,6 @@ monitor
 function
 testShowLearnMore
 (
-data
 )
 {
 const
@@ -243,10 +242,7 @@ selector
 .
 forEach
 (
-(
 rowEl
-index
-)
 =
 >
 {

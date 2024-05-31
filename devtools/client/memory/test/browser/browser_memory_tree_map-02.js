@@ -114,7 +114,6 @@ async
 function
 (
 {
-tab
 panel
 }
 )

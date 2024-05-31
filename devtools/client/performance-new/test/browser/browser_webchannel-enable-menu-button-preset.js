@@ -150,7 +150,7 @@ await
 withWebChannelTestDocument
 (
 async
-browser
+_browser
 =
 >
 {

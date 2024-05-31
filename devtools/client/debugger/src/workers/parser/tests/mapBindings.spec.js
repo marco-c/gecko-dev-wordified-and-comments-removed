@@ -72,7 +72,6 @@ function
 excludedTest
 (
 {
-name
 expression
 bindings
 =
@@ -115,7 +114,6 @@ function
 includedTest
 (
 {
-name
 expression
 newExpression
 bindings

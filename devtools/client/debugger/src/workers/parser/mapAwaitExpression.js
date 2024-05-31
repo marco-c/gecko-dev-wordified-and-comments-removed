@@ -60,7 +60,6 @@ ast
 (
 node
 ancestors
-b
 )
 =
 >

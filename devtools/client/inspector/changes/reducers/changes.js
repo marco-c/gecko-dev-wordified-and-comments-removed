@@ -1292,7 +1292,6 @@ state
 RESET_CHANGES
 ]
 (
-state
 )
 {
 return

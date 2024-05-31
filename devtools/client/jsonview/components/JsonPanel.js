@@ -9,7 +9,6 @@ function
 (
 require
 exports
-module
 )
 {
 const
@@ -403,7 +402,6 @@ true
 }
 onKeyPress
 (
-e
 )
 {
 }

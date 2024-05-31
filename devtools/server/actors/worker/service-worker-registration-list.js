@@ -511,7 +511,6 @@ false
 }
 onRegister
 (
-registration
 )
 {
 this
@@ -523,7 +522,6 @@ _notifyListChanged
 }
 onUnregister
 (
-registration
 )
 {
 this

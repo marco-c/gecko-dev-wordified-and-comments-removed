@@ -267,7 +267,6 @@ true
 function
 createNetworkEventOwner
 (
-event
 )
 {
 return

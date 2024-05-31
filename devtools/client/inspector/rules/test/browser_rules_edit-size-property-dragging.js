@@ -1468,7 +1468,6 @@ testIncrement
 (
 editor
 options
-view
 )
 {
 info

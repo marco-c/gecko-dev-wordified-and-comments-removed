@@ -54,9 +54,6 @@ null
 async
 function
 (
-{
-message
-}
 )
 {
 const

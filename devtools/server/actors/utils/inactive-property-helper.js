@@ -5028,7 +5028,6 @@ hasGridFragments
 }
 isGridItem
 (
-node
 )
 {
 return

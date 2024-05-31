@@ -2471,7 +2471,8 @@ addEventListener
 "
 click
 "
-event
+(
+)
 =
 >
 {
@@ -4370,7 +4371,6 @@ _onSelectorDone
 value
 commit
 direction
-key
 )
 {
 if

@@ -177,8 +177,6 @@ toolbox
 destroy
 "
 (
-toolbox
-iframe
 )
 =
 >
@@ -210,8 +208,6 @@ id
 destroy
 "
 (
-toolbox
-iframe
 )
 =
 >

@@ -11,7 +11,6 @@ async
 (
 {
 threadFront
-client
 debuggee
 }
 )

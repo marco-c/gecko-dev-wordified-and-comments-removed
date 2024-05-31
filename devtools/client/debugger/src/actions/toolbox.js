@@ -118,7 +118,6 @@ export
 function
 openInspector
 (
-grip
 )
 {
 return

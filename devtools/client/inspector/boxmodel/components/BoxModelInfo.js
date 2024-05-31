@@ -240,7 +240,6 @@ this
 }
 onToggleGeometryEditor
 (
-e
 )
 {
 this

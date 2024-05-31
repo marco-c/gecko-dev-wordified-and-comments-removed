@@ -5869,7 +5869,6 @@ ownProperties
 _onWillNavigate
 (
 {
-window
 isTopLevel
 }
 )

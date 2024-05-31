@@ -1695,7 +1695,6 @@ read
 =
 function
 (
-stream
 )
 {
 throw

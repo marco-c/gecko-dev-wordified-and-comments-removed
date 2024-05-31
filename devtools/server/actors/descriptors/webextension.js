@@ -780,9 +780,6 @@ _form
 }
 reloadDescriptor
 (
-{
-bypassCache
-}
 )
 {
 return

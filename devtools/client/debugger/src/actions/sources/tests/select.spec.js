@@ -96,8 +96,6 @@ on
 unhandledRejection
 "
 (
-reason
-p
 )
 =
 >

@@ -575,7 +575,6 @@ assertPosition
 barEl
 areaEl
 expectedRate
-animationInspector
 )
 {
 const

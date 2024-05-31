@@ -4005,7 +4005,6 @@ _onEditorKeyHandled
 (
 cm
 key
-e
 )
 {
 const

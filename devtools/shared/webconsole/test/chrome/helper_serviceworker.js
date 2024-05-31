@@ -37,7 +37,6 @@ install
 "
 function
 (
-evt
 )
 {
 console
@@ -60,7 +59,6 @@ activate
 "
 function
 (
-evt
 )
 {
 console

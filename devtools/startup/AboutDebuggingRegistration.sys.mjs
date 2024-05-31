@@ -216,7 +216,6 @@ chan
 }
 getURIFlags
 (
-uri
 )
 {
 return

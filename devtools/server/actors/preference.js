@@ -224,7 +224,6 @@ forEach
 function
 (
 name
-index
 )
 {
 try

@@ -113,8 +113,6 @@ const
 DEBUG_PLATFORM_EVENTS_FILTER
 =
 (
-eventName
-channel
 )
 =
 >
@@ -1603,7 +1601,6 @@ makeInfallible
 (
 subject
 topic
-data
 )
 =
 >

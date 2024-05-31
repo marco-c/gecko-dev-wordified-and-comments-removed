@@ -242,7 +242,6 @@ function
 populateTree
 (
 tree
-doc
 )
 {
 tree
@@ -973,7 +972,6 @@ function
 populateUnsortedTree
 (
 tree
-doc
 )
 {
 tree
@@ -1104,7 +1102,6 @@ function
 testUnsortedTreeItemInsertedCorrectly
 (
 tree
-doc
 )
 {
 ok

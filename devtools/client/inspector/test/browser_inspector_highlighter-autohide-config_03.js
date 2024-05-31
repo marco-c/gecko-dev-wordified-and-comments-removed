@@ -264,10 +264,7 @@ waitForExtraEvent
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

@@ -64,7 +64,6 @@ x
 function
 squareError
 (
-x
 )
 {
 return
@@ -80,7 +79,6 @@ Nope
 function
 squarePromiseReject
 (
-x
 )
 {
 return

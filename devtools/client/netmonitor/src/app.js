@@ -224,7 +224,6 @@ bootstrap
 {
 toolbox
 document
-win
 }
 )
 {

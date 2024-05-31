@@ -1949,7 +1949,6 @@ renderHighlight
 (
 candidateString
 query
-name
 )
 {
 const

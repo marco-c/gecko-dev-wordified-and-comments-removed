@@ -33,7 +33,6 @@ async
 (
 {
 threadFront
-client
 debuggee
 commands
 }

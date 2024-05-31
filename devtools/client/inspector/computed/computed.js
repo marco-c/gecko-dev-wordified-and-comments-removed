@@ -6244,7 +6244,6 @@ preventDefault
 }
 mdnLinkClick
 (
-event
 )
 {
 if

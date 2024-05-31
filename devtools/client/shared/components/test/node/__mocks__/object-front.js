@@ -38,7 +38,6 @@ ownProperties
 }
 enumProperties
 (
-options
 )
 {
 return
@@ -133,8 +132,6 @@ return
 {
 slice
 (
-start
-count
 )
 {
 return

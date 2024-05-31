@@ -317,7 +317,7 @@ enabled
 function
 debug
 (
-msg
+_msg
 )
 {
 }

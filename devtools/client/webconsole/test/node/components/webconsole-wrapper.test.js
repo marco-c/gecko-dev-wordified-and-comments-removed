@@ -169,7 +169,8 @@ objectCommand
 releaseObjects
 :
 async
-frontsToRelease
+(
+)
 =
 >
 {

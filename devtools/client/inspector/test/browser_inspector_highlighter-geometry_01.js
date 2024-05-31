@@ -360,7 +360,6 @@ isHiddenForNonPositionedNonSizedElement
 (
 {
 show
-hide
 isElementHidden
 }
 )

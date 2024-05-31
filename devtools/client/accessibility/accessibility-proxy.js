@@ -2129,7 +2129,6 @@ onTargetAvailable
 (
 {
 targetFront
-isTargetSwitching
 }
 )
 {

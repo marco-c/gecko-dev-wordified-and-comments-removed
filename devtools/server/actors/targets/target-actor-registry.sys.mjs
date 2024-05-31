@@ -195,7 +195,6 @@ targetActor
 }
 unregisterXpcShellTargetActor
 (
-targetActor
 )
 {
 xpcShellTargetActor

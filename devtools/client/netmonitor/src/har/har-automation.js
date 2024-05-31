@@ -137,10 +137,6 @@ trace
 {
 log
 (
-.
-.
-.
-args
 )
 {
 }
@@ -336,7 +332,6 @@ true
 }
 pageLoadBegin
 (
-response
 )
 {
 this
@@ -426,7 +421,8 @@ waitForHarLoad
 .
 then
 (
-collector
+(
+)
 =
 >
 {

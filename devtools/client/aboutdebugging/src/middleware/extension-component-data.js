@@ -64,7 +64,8 @@ js
 const
 extensionComponentDataMiddleware
 =
-store
+(
+)
 =
 >
 next

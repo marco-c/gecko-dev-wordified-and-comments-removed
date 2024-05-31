@@ -901,7 +901,6 @@ workerTargetDestroyed
 (
 {
 watcherActorID
-forwardingPrefix
 workerTargetForm
 }
 )

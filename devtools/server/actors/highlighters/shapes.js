@@ -1998,7 +1998,6 @@ padding
 handleEvent
 (
 event
-id
 )
 {
 if
@@ -6121,10 +6120,7 @@ coordinates
 .
 map
 (
-(
 coords
-i
-)
 =
 >
 {
@@ -15230,9 +15226,6 @@ zoom
 }
 _updatePolygonShape
 (
-width
-height
-zoom
 )
 {
 const
@@ -15362,9 +15355,6 @@ hidden
 }
 _updateEllipseShape
 (
-width
-height
-zoom
 )
 {
 const
@@ -15569,9 +15559,6 @@ hidden
 }
 _updateInsetShape
 (
-width
-height
-zoom
 )
 {
 const

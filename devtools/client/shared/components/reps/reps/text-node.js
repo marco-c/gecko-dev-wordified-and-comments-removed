@@ -568,7 +568,6 @@ e
 function
 getTitle
 (
-grip
 )
 {
 const
@@ -592,9 +591,6 @@ function
 supportsObject
 (
 grip
-noGrip
-=
-false
 )
 {
 return

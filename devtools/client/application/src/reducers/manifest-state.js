@@ -244,7 +244,6 @@ filter
 (
 [
 key
-value
 ]
 )
 =

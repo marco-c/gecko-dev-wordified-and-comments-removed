@@ -355,7 +355,6 @@ true
 }
 form
 (
-hint
 )
 {
 return

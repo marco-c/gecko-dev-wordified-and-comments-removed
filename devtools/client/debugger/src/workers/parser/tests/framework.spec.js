@@ -40,11 +40,6 @@ Parser
 getFramework
 "
 (
-{
-name
-file
-value
-}
 )
 =
 >

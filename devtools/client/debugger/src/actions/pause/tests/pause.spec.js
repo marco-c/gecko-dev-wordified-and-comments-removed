@@ -170,10 +170,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1048,7 +1045,8 @@ sourceMapLoaderMock
 {
 getOriginalStackFrames
 :
-loc
+(
+)
 =
 >
 Promise

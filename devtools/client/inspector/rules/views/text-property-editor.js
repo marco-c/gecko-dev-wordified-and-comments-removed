@@ -1935,7 +1935,8 @@ addEventListener
 "
 mouseup
 "
-event
+(
+)
 =
 >
 {
@@ -5508,7 +5509,6 @@ _onNameDone
 value
 commit
 direction
-key
 )
 {
 const
@@ -5895,7 +5895,6 @@ value
 "
 commit
 direction
-key
 )
 {
 const

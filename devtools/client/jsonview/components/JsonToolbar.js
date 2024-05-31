@@ -9,7 +9,6 @@ function
 (
 require
 exports
-module
 )
 {
 const
@@ -245,7 +244,6 @@ this
 }
 onSave
 (
-event
 )
 {
 this
@@ -261,7 +259,6 @@ onSaveJson
 }
 onCopy
 (
-event
 )
 {
 this
@@ -277,7 +274,6 @@ onCopyJson
 }
 onCollapse
 (
-event
 )
 {
 this
@@ -293,7 +289,6 @@ onCollapse
 }
 onExpand
 (
-event
 )
 {
 this

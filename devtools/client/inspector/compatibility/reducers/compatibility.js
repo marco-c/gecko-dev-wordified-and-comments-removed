@@ -628,9 +628,6 @@ COMPATIBILITY_UPDATE_TOP_LEVEL_TARGET_COMPLETE
 ]
 (
 state
-{
-target
-}
 )
 {
 return

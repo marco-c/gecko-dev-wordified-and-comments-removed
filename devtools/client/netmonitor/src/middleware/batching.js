@@ -40,7 +40,6 @@ REQUESTS_REFRESH_RATE
 function
 batchingMiddleware
 (
-store
 )
 {
 return

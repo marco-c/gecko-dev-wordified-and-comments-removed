@@ -334,7 +334,8 @@ infiniteLoop
 .
 catch
 (
-e
+(
+)
 =
 >
 {

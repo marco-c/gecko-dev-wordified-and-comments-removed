@@ -2484,7 +2484,6 @@ onProgress
 (
 request
 progress
-progressMax
 )
 {
 this

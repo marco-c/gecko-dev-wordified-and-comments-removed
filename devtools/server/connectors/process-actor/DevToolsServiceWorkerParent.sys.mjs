@@ -914,7 +914,6 @@ serviceWorkerTargetDestroyed
 (
 {
 watcherActorID
-forwardingPrefix
 serviceWorkerTargetForm
 }
 )

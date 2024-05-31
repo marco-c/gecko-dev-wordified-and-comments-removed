@@ -448,11 +448,7 @@ DevToolsUtils
 .
 makeInfallible
 (
-(
 subject
-topic
-data
-)
 =
 >
 {

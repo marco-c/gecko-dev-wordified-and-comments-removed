@@ -1373,7 +1373,6 @@ statechange
 function
 stateHandler
 (
-evt
 )
 {
 if

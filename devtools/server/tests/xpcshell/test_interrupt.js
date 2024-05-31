@@ -11,9 +11,6 @@ async
 (
 {
 threadFront
-debuggee
-client
-targetFront
 }
 )
 =

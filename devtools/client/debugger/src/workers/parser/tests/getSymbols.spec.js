@@ -44,7 +44,6 @@ getSymbols
 "
 (
 {
-name
 file
 original
 type

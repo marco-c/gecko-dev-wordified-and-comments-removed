@@ -189,8 +189,6 @@ set
 (
 target
 property
-value
-receiver
 )
 {
 if

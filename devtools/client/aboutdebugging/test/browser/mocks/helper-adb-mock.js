@@ -128,7 +128,6 @@ registerListener
 =
 function
 (
-listener
 )
 {
 console
@@ -213,7 +212,6 @@ unregisterListener
 =
 function
 (
-listener
 )
 {
 console

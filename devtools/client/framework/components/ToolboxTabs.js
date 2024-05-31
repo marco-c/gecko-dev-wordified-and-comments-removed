@@ -491,7 +491,6 @@ overflowedTabIds
 componentDidUpdate
 (
 prevProps
-prevState
 )
 {
 if
@@ -1076,7 +1075,6 @@ willOverflowTabs
 }
 resizeHandler
 (
-evt
 )
 {
 window

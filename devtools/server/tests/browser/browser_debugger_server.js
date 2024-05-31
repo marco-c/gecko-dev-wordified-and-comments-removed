@@ -822,7 +822,6 @@ setContentServerKeepAlive
 (
 tab
 keepAlive
-message
 )
 {
 await

@@ -177,7 +177,8 @@ runtimeClientFactoryMock
 createClientForRuntime
 =
 async
-runtime
+(
+)
 =
 >
 {

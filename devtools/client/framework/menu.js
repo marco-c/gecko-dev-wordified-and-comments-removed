@@ -150,8 +150,8 @@ insert
 =
 function
 (
-pos
-menuItem
+_pos
+_menuItem
 )
 {
 throw
