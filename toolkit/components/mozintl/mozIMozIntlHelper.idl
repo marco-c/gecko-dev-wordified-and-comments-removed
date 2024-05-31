@@ -519,5 +519,16 @@ jsval
 intlObject
 )
 ;
+[
+implicit_jscontext
+]
+boolean
+stringHasRTLChars
+(
+in
+jsval
+str
+)
+;
 }
 ;
