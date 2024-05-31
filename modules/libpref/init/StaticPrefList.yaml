@@ -62743,7 +62743,7 @@ RelaxedAtomicUint32
 if
 defined
 (
-IS_NIGHTLY_OR_DEV_EDITION
+NIGHTLY_BUILD
 )
 value
 :
