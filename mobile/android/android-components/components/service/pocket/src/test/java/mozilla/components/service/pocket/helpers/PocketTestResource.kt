@@ -765,9 +765,11 @@ mp3
 "
 status
 =
-"
-available
-"
+PocketListenArticleMetadata
+.
+Status
+.
+AVAILABLE
 voice
 =
 "
