@@ -6,6 +6,13 @@ define
 U_MATH_H
 #
 include
+"
+c99_math
+.
+h
+"
+#
+include
 <
 assert
 .
@@ -15,13 +22,6 @@ h
 include
 <
 float
-.
-h
->
-#
-include
-<
-math
 .
 h
 >
