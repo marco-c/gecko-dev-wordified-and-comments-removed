@@ -969,7 +969,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -1443,7 +1443,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -1999,7 +1999,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -2348,7 +2348,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -2506,7 +2506,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -3125,7 +3125,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -3261,7 +3261,7 @@ collapsed
 )
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -3270,7 +3270,7 @@ syncedtabs
 )
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "

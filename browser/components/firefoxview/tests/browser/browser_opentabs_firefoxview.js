@@ -692,7 +692,7 @@ linkedBrowser
 contentDocument
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "

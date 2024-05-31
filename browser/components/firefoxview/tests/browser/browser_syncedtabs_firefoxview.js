@@ -122,7 +122,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -416,7 +416,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -763,7 +763,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -986,7 +986,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -1229,7 +1229,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -1587,7 +1587,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -2150,7 +2150,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -2406,7 +2406,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -2740,7 +2740,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -4359,7 +4359,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "

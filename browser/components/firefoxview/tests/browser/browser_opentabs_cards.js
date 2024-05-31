@@ -130,7 +130,7 @@ opentabs
 )
 {
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 browser
 .
@@ -3790,7 +3790,7 @@ viewTab
 linkedBrowser
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 browser
 .
