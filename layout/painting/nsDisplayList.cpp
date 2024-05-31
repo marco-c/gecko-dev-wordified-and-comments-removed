@@ -12773,10 +12773,16 @@ true
 ;
 }
 return
-nsLayoutUtils
+nsContentUtils
 :
 :
 CompareTreePosition
+<
+TreeKind
+:
+:
+Flat
+>
 (
 content1
 content2
