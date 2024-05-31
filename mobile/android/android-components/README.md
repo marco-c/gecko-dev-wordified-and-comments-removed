@@ -695,7 +695,7 @@ icons
 *
 *
 Progress
-+
+*
 *
 -
 An
