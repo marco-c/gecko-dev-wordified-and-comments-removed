@@ -237,6 +237,18 @@ android
 tint
 =
 "
+?
+android
+:
+attr
+/
+textColorPrimary
+"
+tools
+:
+tint
+=
+"
 #
 000000
 "
@@ -289,7 +301,7 @@ layout_marginStart
 "
 8dp
 "
-android
+tools
 :
 textColor
 =
