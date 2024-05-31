@@ -405,10 +405,8 @@ UpdateSettings
 framework
 cp
 (
-DIST
+XPCSHELLTESTDIR
 )
-/
-bin
 /
 UpdateSettings
 -

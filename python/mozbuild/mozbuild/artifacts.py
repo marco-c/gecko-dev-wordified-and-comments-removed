@@ -4177,10 +4177,6 @@ UpdateSettings
 .
 framework
 /
-Versions
-/
-A
-/
 UpdateSettings
 "
                 
@@ -4222,10 +4218,6 @@ Frameworks
 ChannelPrefs
 .
 framework
-/
-Versions
-/
-A
 /
 ChannelPrefs
 "
