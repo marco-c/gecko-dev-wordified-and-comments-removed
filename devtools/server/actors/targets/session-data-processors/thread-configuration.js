@@ -156,6 +156,17 @@ threadOptions
 ;
 }
 else
+if
+(
+!
+targetActor
+.
+threadActor
+.
+isDestroyed
+(
+)
+)
 {
 await
 targetActor
