@@ -447,7 +447,7 @@ HTMLTextFieldAccessible
 }
 virtual
 ENameValueFlag
-NativeName
+Name
 (
 nsString
 &
