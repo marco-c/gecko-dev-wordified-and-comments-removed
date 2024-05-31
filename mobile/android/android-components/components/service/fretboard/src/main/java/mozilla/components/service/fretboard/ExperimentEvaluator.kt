@@ -684,7 +684,6 @@ bucket
 max
 )
 }
-private
 fun
 getUserBucket
 (
