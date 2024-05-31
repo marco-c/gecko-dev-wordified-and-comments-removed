@@ -4214,12 +4214,6 @@ rule
 .
 pseudoElement
 )
-|
-|
-new
-Map
-(
-)
 }
 )
 ;
