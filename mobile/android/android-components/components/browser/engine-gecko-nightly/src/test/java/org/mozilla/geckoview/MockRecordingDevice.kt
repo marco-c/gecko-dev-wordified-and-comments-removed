@@ -70,6 +70,7 @@ components
 test
 .
 ReflectionUtils
+internal
 class
 MockRecordingDevice
 (
