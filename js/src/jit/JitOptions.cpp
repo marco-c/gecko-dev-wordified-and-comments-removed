@@ -1046,6 +1046,12 @@ false
 ;
 SET_DEFAULT
 (
+js_regexp_duplicate_named_groups
+false
+)
+;
+SET_DEFAULT
+(
 correctness_fuzzer_suppressions
 false
 )
