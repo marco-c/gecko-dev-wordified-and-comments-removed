@@ -109,15 +109,6 @@ trials
 =
 nullptr
 ;
-absl
-:
-:
-optional
-<
-TimeDelta
->
-pacer_burst_interval
-;
 }
 ;
 }

@@ -7122,7 +7122,7 @@ OnBitrateUpdated
 (
 CreateBitrateAllocationUpdate
 (
-30
+10
 '
 000
 )
@@ -7294,7 +7294,7 @@ Bytes
 (
 kImageSizeBytes
 /
-4
+3
 )
 )
 ;

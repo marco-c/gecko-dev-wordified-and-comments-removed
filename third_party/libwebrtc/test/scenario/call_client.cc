@@ -500,14 +500,6 @@ audio_state
 ;
 call_config
 .
-pacer_burst_interval
-=
-config
-.
-pacer_burst_interval
-;
-call_config
-.
 trials
 =
 config

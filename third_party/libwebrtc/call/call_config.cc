@@ -108,12 +108,6 @@ trials
 =
 trials
 ;
-transportConfig
-.
-pacer_burst_interval
-=
-pacer_burst_interval
-;
 return
 transportConfig
 ;

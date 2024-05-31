@@ -2369,14 +2369,6 @@ get
 (
 )
 ;
-call_config
-.
-pacer_burst_interval
-=
-configuration
-.
-pacer_burst_interval
-;
 return
 context_
 -
