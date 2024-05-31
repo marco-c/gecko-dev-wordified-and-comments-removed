@@ -149,14 +149,6 @@ always_ask_before_handling_new_types
 "
 false
 ]
-[
-"
-dom
-.
-block_download_insecure
-"
-false
-]
 ]
 }
 )
