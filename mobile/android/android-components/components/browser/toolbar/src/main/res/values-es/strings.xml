@@ -58,6 +58,7 @@ name
 mozac_browser_toolbar_menu_button
 "
 >
+Men
 <
 /
 string
@@ -70,6 +71,7 @@ name
 mozac_close_button_description
 "
 >
+Cerrar
 <
 /
 string
