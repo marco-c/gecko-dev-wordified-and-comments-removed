@@ -301,9 +301,6 @@ sync
 scope
 "
 )
-{
-it
-}
 val
 results
 =
@@ -445,9 +442,6 @@ val
 testStore
 :
 SyncableStore
-<
-AuthInfo
->
 =
 mock
 (
@@ -471,9 +465,6 @@ sync
 scope
 "
 )
-{
-it
-}
 when
 (
 testStore
@@ -606,9 +597,6 @@ val
 anotherStore
 :
 SyncableStore
-<
-AuthInfo
->
 =
 mock
 (
@@ -641,9 +629,6 @@ sync
 scope
 "
 )
-{
-it
-}
 when
 (
 anotherStore
@@ -886,9 +871,6 @@ testStore
 object
 :
 SyncableStore
-<
-AuthInfo
->
 {
 override
 suspend
@@ -938,9 +920,6 @@ sync
 scope
 "
 )
-{
-it
-}
 /
 /
 These

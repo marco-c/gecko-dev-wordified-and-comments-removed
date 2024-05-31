@@ -135,6 +135,16 @@ concept
 .
 sync
 .
+AuthInfo
+import
+mozilla
+.
+components
+.
+concept
+.
+sync
+.
 SyncError
 import
 mozilla
@@ -2624,9 +2634,6 @@ String
 )
 :
 SyncableStore
-<
-SyncUnlockInfo
->
 {
 override
 suspend
@@ -2635,7 +2642,7 @@ sync
 (
 authInfo
 :
-SyncUnlockInfo
+AuthInfo
 )
 :
 SyncStatus
@@ -2650,6 +2657,10 @@ it
 sync
 (
 authInfo
+.
+into
+(
+)
 )
 .
 await

@@ -94,9 +94,6 @@ AuthInfo
 /
 interface
 SyncableStore
-<
-AuthInfo
->
 {
 /
 *
