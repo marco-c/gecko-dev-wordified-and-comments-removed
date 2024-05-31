@@ -237,11 +237,6 @@ import
 findInPath
     
 from
-six
-import
-string_types
-    
-from
 valgrind
 .
 output_handler
@@ -447,7 +442,7 @@ if
 isinstance
 (
 v
-string_types
+str
 )
 :
                 
@@ -596,6 +591,17 @@ G_SLICE
 always
 -
 malloc
+"
+        
+env
+[
+"
+MOZ_FORCE_DISABLE_E10S
+"
+]
+=
+"
+1
 "
         
 env
