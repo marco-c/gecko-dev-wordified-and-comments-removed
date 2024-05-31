@@ -229,7 +229,7 @@ concept
 .
 sync
 .
-AuthInfo
+SyncAuthInfo
 import
 mozilla
 .
@@ -5444,7 +5444,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -5452,6 +5452,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "
@@ -5480,7 +5481,7 @@ passedAuthInfo
 !
 !
 .
-tokenserverURL
+tokenServerUrl
 )
 assertEquals
 (
@@ -5492,6 +5493,15 @@ passedAuthInfo
 !
 .
 fxaAccessToken
+)
+assertEquals
+(
+123L
+passedAuthInfo
+!
+!
+.
+fxaAccessTokenExpiresAt
 )
 assertEquals
 (
@@ -5602,7 +5612,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -5610,6 +5620,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "
@@ -5737,7 +5748,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -5745,6 +5756,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "
@@ -6366,7 +6378,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -6374,6 +6386,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "
@@ -7298,7 +7311,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -7306,6 +7319,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "
@@ -7613,7 +7627,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -7621,6 +7635,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "
@@ -7762,7 +7777,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -7770,6 +7785,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "

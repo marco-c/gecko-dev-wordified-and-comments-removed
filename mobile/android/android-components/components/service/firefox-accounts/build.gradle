@@ -246,6 +246,10 @@ androidx_test_junit
 testImplementation
 Dependencies
 .
+androidx_work_testing
+testImplementation
+Dependencies
+.
 testing_robolectric
 testImplementation
 Dependencies

@@ -220,16 +220,6 @@ logins
 '
 )
 implementation
-project
-(
-'
-:
-feature
--
-sync
-'
-)
-implementation
 Dependencies
 .
 kotlin_stdlib

@@ -203,7 +203,7 @@ service
 .
 fxa
 .
-Config
+ServerConfig
 import
 mozilla
 .
@@ -779,7 +779,7 @@ it
 val
 config
 =
-Config
+ServerConfig
 (
 CONFIG_URL
 CLIENT_ID

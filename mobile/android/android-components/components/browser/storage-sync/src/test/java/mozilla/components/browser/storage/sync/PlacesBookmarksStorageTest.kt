@@ -189,7 +189,7 @@ concept
 .
 sync
 .
-AuthInfo
+SyncAuthInfo
 import
 mozilla
 .
@@ -2130,7 +2130,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -2138,6 +2138,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "
@@ -3028,7 +3029,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -3036,6 +3037,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "
@@ -3365,7 +3367,7 @@ storage
 .
 sync
 (
-AuthInfo
+SyncAuthInfo
 (
 "
 kid
@@ -3373,6 +3375,7 @@ kid
 "
 token
 "
+123L
 "
 key
 "

@@ -175,7 +175,7 @@ concept
 .
 sync
 .
-AuthInfo
+SyncAuthInfo
 import
 mozilla
 .
@@ -1283,7 +1283,7 @@ sync
 (
 authInfo
 :
-AuthInfo
+SyncAuthInfo
 )
 :
 SyncStatus
@@ -1303,10 +1303,6 @@ places
 syncBookmarks
 (
 authInfo
-.
-into
-(
-)
 )
 }
 }

@@ -75,7 +75,7 @@ concept
 .
 sync
 .
-AuthInfo
+SyncAuthInfo
 /
 *
 *
@@ -102,7 +102,7 @@ boundary
 *
 /
 fun
-AuthInfo
+SyncAuthInfo
 .
 into
 (

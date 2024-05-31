@@ -155,7 +155,7 @@ concept
 .
 sync
 .
-AuthInfo
+SyncAuthInfo
 import
 mozilla
 .
@@ -207,16 +207,6 @@ AUTOCOMPLETE_SOURCE_NAME
 "
 placesHistory
 "
-typealias
-SyncAuthInfo
-=
-mozilla
-.
-appservices
-.
-places
-.
-SyncAuthInfo
 /
 *
 *
@@ -1206,7 +1196,7 @@ sync
 (
 authInfo
 :
-AuthInfo
+SyncAuthInfo
 )
 :
 SyncStatus
@@ -1226,10 +1216,6 @@ places
 syncHistory
 (
 authInfo
-.
-into
-(
-)
 )
 }
 }

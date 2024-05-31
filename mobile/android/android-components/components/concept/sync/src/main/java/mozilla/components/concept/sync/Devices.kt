@@ -229,7 +229,7 @@ DeviceType
 MOBILE
 capabilities
 :
-List
+Set
 <
 DeviceCapability
 >
@@ -409,7 +409,7 @@ ensureCapabilitiesAsync
 (
 capabilities
 :
-List
+Set
 <
 DeviceCapability
 >

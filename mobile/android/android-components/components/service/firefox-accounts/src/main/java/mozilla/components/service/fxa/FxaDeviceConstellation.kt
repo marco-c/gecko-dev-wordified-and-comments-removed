@@ -429,7 +429,7 @@ type
 DeviceType
 capabilities
 :
-List
+Set
 <
 DeviceCapability
 >
@@ -594,7 +594,7 @@ ensureCapabilitiesAsync
 (
 capabilities
 :
-List
+Set
 <
 DeviceCapability
 >
