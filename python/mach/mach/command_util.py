@@ -1304,27 +1304,6 @@ py
 )
     
 "
-macos
--
-sign
-"
-:
-MachCommandReference
-(
-"
-tools
-/
-signing
-/
-macos
-/
-mach_commands
-.
-py
-"
-)
-    
-"
 manifest
 "
 :
