@@ -97,6 +97,17 @@ webcompat
 .
 perform_ua_overrides
 "
+SYSTEM_ADDON_UPDATES_PREF
+=
+"
+extensions
+.
+systemAddon
+.
+update
+.
+enabled
+"
 class
 WebDriver
 :
@@ -477,6 +488,13 @@ test_config
 use_strict_etp
 "
 ]
+        
+prefs
+[
+SYSTEM_ADDON_UPDATES_PREF
+]
+=
+False
         
 cookieBehavior
 =
