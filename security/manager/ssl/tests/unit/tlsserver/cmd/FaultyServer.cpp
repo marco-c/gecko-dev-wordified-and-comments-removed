@@ -850,7 +850,7 @@ SSL3_SendAlert
 (
 ss
 alert_fatal
-no_alert
+unexpected_message
 )
 ;
 }
