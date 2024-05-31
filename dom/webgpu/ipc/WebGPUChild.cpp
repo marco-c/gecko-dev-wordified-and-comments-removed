@@ -281,6 +281,10 @@ cx
 (
 )
 "
+Uncaptured
+WebGPU
+error
+:
 %
 s
 "
@@ -298,7 +302,8 @@ else
 printf_stderr
 (
 "
-Validation
+Uncaptured
+WebGPU
 error
 without
 device
