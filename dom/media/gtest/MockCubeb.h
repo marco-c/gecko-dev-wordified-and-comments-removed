@@ -909,11 +909,6 @@ aNrFrames
 )
 ;
 void
-NotifyDeviceChangedNow
-(
-)
-;
-void
 SetOutputRecordingEnabled
 (
 bool
@@ -1058,11 +1053,6 @@ NotifyState
 (
 cubeb_state
 aState
-)
-;
-void
-NotifyDeviceChanged
-(
 )
 ;
 static
