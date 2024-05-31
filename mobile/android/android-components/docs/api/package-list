@@ -4236,6 +4236,17 @@ engine
 .
 gecko
 .
+integration
+mozilla
+.
+components
+.
+browser
+.
+engine
+.
+gecko
+.
 permission
 mozilla
 .
