@@ -177,6 +177,12 @@ aRv
 )
 {
 SetDoubleAttr
+<
+Reflection
+:
+:
+OnlyPositive
+>
 (
 nsGkAtoms
 :
