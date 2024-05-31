@@ -1879,6 +1879,9 @@ state
 AccountState
 .
 AuthenticatedWithProfile
+AccountState
+.
+AuthenticationProblem
 -
 >
 profile

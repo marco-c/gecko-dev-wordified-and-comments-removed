@@ -6502,8 +6502,9 @@ authenticatedAccount
 (
 )
 )
-assertNull
+assertEquals
 (
+profile
 manager
 .
 accountProfile
