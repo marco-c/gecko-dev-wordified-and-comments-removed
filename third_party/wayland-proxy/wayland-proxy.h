@@ -114,6 +114,15 @@ aProxy
 )
 ;
 bool
+CheckWaylandDisplay
+(
+const
+char
+*
+aWaylandDisplay
+)
+;
+bool
 SetupWaylandDisplays
 (
 )
