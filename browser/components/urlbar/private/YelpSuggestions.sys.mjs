@@ -284,6 +284,13 @@ return
 "
 suggest
 .
+quicksuggest
+.
+sponsored
+"
+"
+suggest
+.
 yelp
 "
 ]
