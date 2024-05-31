@@ -233,6 +233,8 @@ fp
 init
 (
 window
+.
+browsingContext
 L10N
 .
 getStr
