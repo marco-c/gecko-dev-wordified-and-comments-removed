@@ -63,6 +63,9 @@ script
 .
 /
 gradlew
+-
+-
+info
 clean
 assembleDebug
 lint
