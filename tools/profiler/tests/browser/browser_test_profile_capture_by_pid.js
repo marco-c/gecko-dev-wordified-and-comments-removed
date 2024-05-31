@@ -584,7 +584,8 @@ profile
 await
 test_with_filter
 (
-contentPid
+(
+)
 =
 >
 [
@@ -886,7 +887,8 @@ profile
 await
 test_with_filter
 (
-contentPid
+(
+)
 =
 >
 [

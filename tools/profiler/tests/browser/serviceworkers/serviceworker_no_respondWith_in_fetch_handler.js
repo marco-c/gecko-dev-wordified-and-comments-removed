@@ -5,7 +5,8 @@ addEventListener
 "
 install
 "
-event
+(
+)
 =
 >
 {
