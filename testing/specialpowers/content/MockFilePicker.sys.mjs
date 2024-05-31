@@ -323,13 +323,15 @@ pendingPromises
 ]
 init
 (
-window
+browsingContext
 )
 {
 this
 .
 window
 =
+browsingContext
+.
 window
 ;
 this
@@ -344,6 +346,8 @@ factory
 =
 newFactory
 (
+this
+.
 window
 )
 ;
