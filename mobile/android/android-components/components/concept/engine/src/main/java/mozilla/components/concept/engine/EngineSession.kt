@@ -467,6 +467,15 @@ Media
 )
 =
 Unit
+fun
+onCrashStateChange
+(
+crashed
+:
+Boolean
+)
+=
+Unit
 Suppress
 (
 "

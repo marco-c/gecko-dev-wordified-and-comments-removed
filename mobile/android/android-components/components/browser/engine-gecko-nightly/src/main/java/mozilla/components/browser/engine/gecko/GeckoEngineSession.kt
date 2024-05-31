@@ -2317,6 +2317,15 @@ close
 createGeckoSession
 (
 )
+notifyObservers
+{
+onCrashStateChange
+(
+crashed
+=
+true
+)
+}
 }
 override
 fun
