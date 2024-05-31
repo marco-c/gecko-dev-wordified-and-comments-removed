@@ -104,6 +104,17 @@ mozilla
 /
 dom
 /
+CanonicalBrowsingContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Directory
 .
 h
