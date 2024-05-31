@@ -1331,6 +1331,10 @@ pub
 icon_id
 :
 String
+pub
+score
+:
+f64
 }
 #
 [
