@@ -2060,12 +2060,9 @@ RunOnControllerThread
 NewRunnableMethod
 <
 uint64_t
-StoreCopyPassByLRef
-<
 nsTArray
 <
 TouchBehaviorFlags
->
 >
 >
 (
