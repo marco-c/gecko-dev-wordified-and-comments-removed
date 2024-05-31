@@ -8,8 +8,6 @@ from
 collections
 import
 defaultdict
-import
-six
 from
 WebIDL
 import
@@ -2800,11 +2798,10 @@ for
 key
 val
 in
-six
-.
-iteritems
-(
 filters
+.
+items
+(
 )
 :
             
