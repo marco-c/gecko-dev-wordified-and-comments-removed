@@ -660,7 +660,14 @@ Value
 using
 PropertyVector
 =
-IdValueVector
+JS
+:
+:
+GCVector
+<
+IdValuePair
+10
+>
 ;
 enum
 class

@@ -13130,6 +13130,15 @@ NewPlainObjectWithUniqueNames
 (
 cx
 props
+.
+begin
+(
+)
+props
+.
+length
+(
+)
 )
 ;
 args
