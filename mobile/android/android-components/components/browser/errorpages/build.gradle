@@ -126,10 +126,6 @@ AndroidJUnitRunner
 }
 lintOptions
 {
-warningsAsErrors
-true
-abortOnError
-true
 /
 /
 Lint

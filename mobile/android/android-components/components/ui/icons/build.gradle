@@ -106,10 +106,6 @@ targetSdkVersion
 }
 lintOptions
 {
-warningsAsErrors
-true
-abortOnError
-true
 /
 /
 All

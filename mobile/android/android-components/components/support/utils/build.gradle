@@ -124,13 +124,6 @@ runner
 AndroidJUnitRunner
 "
 }
-lintOptions
-{
-warningsAsErrors
-true
-abortOnError
-true
-}
 buildTypes
 {
 release

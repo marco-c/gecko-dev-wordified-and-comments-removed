@@ -1658,6 +1658,13 @@ includeAndroidResources
 true
 }
 }
+lintOptions
+{
+warningsAsErrors
+true
+abortOnError
+true
+}
 task
 docs
 (
