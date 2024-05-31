@@ -462,6 +462,7 @@ bool
 aElementValidityState
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 CheckValidFormSubmission
 (
@@ -922,6 +923,7 @@ nullptr
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 bool
 ReportValidity
 (
@@ -1435,6 +1437,17 @@ MOZ_CAN_RUN_SCRIPT
 void
 ReportInvalidUnfocusableElements
 (
+const
+nsTArray
+<
+RefPtr
+<
+Element
+>
+>
+&
+&
+aInvalidElements
 )
 ;
 ~
