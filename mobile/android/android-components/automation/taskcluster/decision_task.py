@@ -2128,18 +2128,6 @@ components
 )
     
 if
-result
-.
-is_snapshot
-:
-        
-components
-=
-snapshot_components
-(
-)
-    
-if
 command
 =
 =
@@ -2208,7 +2196,7 @@ ordered_groups_of_tasks
 =
 pr
 (
-artifacts_info
+components
 )
     
 elif
@@ -2224,7 +2212,7 @@ ordered_groups_of_tasks
 =
 push
 (
-artifacts_info
+components
 )
     
 elif
@@ -2235,6 +2223,18 @@ command
 release
 '
 :
+        
+if
+result
+.
+is_snapshot
+:
+            
+components
+=
+snapshot_components
+(
+)
         
 ordered_groups_of_tasks
 =
