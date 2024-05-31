@@ -2025,6 +2025,11 @@ WebTransportState
 FAILED
 )
 {
+if
+(
+mChild
+)
+{
 mChild
 -
 >
@@ -2037,6 +2042,7 @@ mChild
 =
 nullptr
 ;
+}
 return
 ;
 }
