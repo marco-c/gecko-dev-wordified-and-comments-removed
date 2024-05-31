@@ -1595,7 +1595,7 @@ platform
 :
         
 return
-False
+True
     
 if
 "
@@ -1612,7 +1612,7 @@ platform
 :
         
 return
-False
+True
     
 if
 "
@@ -5136,6 +5136,26 @@ try_name
 )
 :
                 
+if
+"
+hw
+-
+s21
+"
+in
+platform
+and
+"
+speedometer3
+"
+not
+in
+try_name
+:
+                    
+return
+False
+                
 return
 True
         
@@ -5435,6 +5455,26 @@ accept_raptor_android_build
 platform
 )
 :
+            
+if
+"
+hw
+-
+s21
+"
+in
+platform
+and
+"
+speedometer3
+"
+not
+in
+try_name
+:
+                
+return
+False
             
 if
 "
@@ -5888,6 +5928,26 @@ get
 raptor_try_name
 "
 )
+            
+if
+"
+hw
+-
+s21
+"
+in
+platform
+and
+"
+speedometer3
+"
+not
+in
+try_name
+:
+                
+return
+False
             
 if
 (
