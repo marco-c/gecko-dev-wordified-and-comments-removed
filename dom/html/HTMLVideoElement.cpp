@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+AppShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AsyncEventDispatcher
 .
 h

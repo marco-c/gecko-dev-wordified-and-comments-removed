@@ -86,6 +86,17 @@ include
 "
 mozilla
 /
+glean
+/
+GleanMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 CookieJarSettings

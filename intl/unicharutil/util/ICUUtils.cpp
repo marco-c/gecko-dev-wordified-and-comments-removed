@@ -31,6 +31,15 @@ include
 "
 mozilla
 /
+ClearOnShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_dom
 .
 h
