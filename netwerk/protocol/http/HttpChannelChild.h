@@ -1630,6 +1630,11 @@ mSuspendedByWaitingForPermissionCookie
 :
 1
 ;
+uint8_t
+mAlreadyReleased
+:
+1
+;
 void
 CleanupRedirectingChannel
 (

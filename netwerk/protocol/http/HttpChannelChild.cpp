@@ -569,6 +569,10 @@ mSuspendedByWaitingForPermissionCookie
 (
 false
 )
+mAlreadyReleased
+(
+false
+)
 {
 LOG
 (
@@ -1167,6 +1171,9 @@ LoadOnStopRequestCalled
 |
 !
 mListener
+|
+|
+mAlreadyReleased
 )
 {
 NS_LOG_RELEASE
@@ -1185,6 +1192,10 @@ return
 0
 ;
 }
+mAlreadyReleased
+=
+true
+;
 if
 (
 NS_SUCCEEDED
