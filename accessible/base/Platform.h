@@ -122,7 +122,7 @@ MOZ_ACCESSIBILITY_ATK
 |
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 bool
 ShouldA11yBeEnabled
