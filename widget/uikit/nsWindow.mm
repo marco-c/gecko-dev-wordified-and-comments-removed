@@ -445,6 +445,7 @@ nsAutoRetainUIKitObject
 {
 public
 :
+explicit
 nsAutoRetainUIKitObject
 (
 id
@@ -5023,6 +5024,14 @@ aEvent
 >
 mWidget
 )
+;
+mozilla
+:
+:
+Unused
+<
+<
+kungFuDeathGrip
 ;
 if
 (
