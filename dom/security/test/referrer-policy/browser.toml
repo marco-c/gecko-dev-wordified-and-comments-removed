@@ -14,7 +14,7 @@ sjs
 ]
 [
 "
-browser_fragment_navigation
+browser_session_history
 .
 js
 "
@@ -25,7 +25,7 @@ files
 =
 [
 "
-file_fragment_navigation
+file_session_history
 .
 sjs
 "
