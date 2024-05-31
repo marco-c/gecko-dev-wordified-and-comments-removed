@@ -2766,6 +2766,7 @@ get
 (
 )
 kStunAddr
+main_
 )
 )
 turn_server_
@@ -5759,13 +5760,10 @@ rtc
 BasicPacketSocketFactory
 nat_socket_factory2_
 ;
-std
-:
-:
-unique_ptr
-<
 TestStunServer
->
+:
+:
+StunServerPtr
 stun_server_
 ;
 TestTurnServer
