@@ -210,6 +210,13 @@ mozac_browser_menu_padding_vertical
 "
 android
 :
+overScrollMode
+=
+"
+never
+"
+android
+:
 layout_width
 =
 "
