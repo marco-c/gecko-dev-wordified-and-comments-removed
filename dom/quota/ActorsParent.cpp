@@ -889,6 +889,15 @@ h
 #
 include
 "
+mozilla
+/
+StorageOriginAttributes
+.
+h
+"
+#
+include
+"
 nsAppDirectoryServiceDefs
 .
 h
@@ -14515,7 +14524,7 @@ AssertIsOnIOThread
 (
 )
 ;
-OriginAttributes
+StorageOriginAttributes
 groupAttributes
 ;
 nsCString
@@ -14545,7 +14554,9 @@ GetJarPrefix
 (
 groupAttributes
 .
-mInIsolatedMozBrowser
+InIsolatedMozBrowser
+(
+)
 groupPrefix
 )
 ;
@@ -14556,7 +14567,7 @@ groupPrefix
 +
 groupNoSuffix
 ;
-OriginAttributes
+StorageOriginAttributes
 originAttributes
 ;
 nsCString
@@ -14586,7 +14597,9 @@ GetJarPrefix
 (
 originAttributes
 .
-mInIsolatedMozBrowser
+InIsolatedMozBrowser
+(
+)
 originPrefix
 )
 ;
