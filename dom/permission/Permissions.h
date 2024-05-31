@@ -40,6 +40,9 @@ Promise
 class
 PermissionStatus
 ;
+struct
+PermissionSetParameters
+;
 class
 Permissions
 final
@@ -126,14 +129,9 @@ ParseSetParameters
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
+const
+PermissionSetParameters
+&
 aParameters
 ErrorResult
 &
