@@ -61,7 +61,7 @@ mozilla
 .
 components
 .
-service
+feature
 .
 sync
 import
@@ -137,7 +137,7 @@ concept
 .
 sync
 .
-SyncError
+SyncResult
 import
 mozilla
 .
@@ -147,7 +147,7 @@ concept
 .
 sync
 .
-SyncResult
+SyncStatus
 import
 mozilla
 .
@@ -224,16 +224,8 @@ of
 [
 SyncableStore
 ]
-which
-*
-all
-share
-a
-common
-generic
-[
-AuthInfo
-]
+-
+s
 .
 *
 /
@@ -452,7 +444,9 @@ storeName
 =
 StoreSyncStatus
 (
-SyncError
+SyncStatus
+.
+Error
 (
 e
 )
@@ -527,7 +521,9 @@ if
 (
 it
 is
-SyncError
+SyncStatus
+.
+Error
 )
 {
 logger

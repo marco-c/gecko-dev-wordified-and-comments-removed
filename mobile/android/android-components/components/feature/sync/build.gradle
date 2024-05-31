@@ -193,6 +193,10 @@ support
 base
 '
 )
+implementation
+Dependencies
+.
+arch_workmanager
 testImplementation
 Dependencies
 .

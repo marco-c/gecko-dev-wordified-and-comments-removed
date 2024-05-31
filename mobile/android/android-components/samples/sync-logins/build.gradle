@@ -226,7 +226,7 @@ project
 (
 '
 :
-service
+feature
 -
 sync
 '

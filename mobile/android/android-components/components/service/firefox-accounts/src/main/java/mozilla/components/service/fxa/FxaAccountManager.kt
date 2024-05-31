@@ -153,16 +153,6 @@ concept
 .
 sync
 .
-SyncDispatcher
-import
-mozilla
-.
-components
-.
-concept
-.
-sync
-.
 SyncManager
 import
 java

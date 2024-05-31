@@ -61,7 +61,7 @@ mozilla
 .
 components
 .
-service
+feature
 .
 sync
 import
