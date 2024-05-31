@@ -58,6 +58,7 @@ md
 )
 #
 wrapConsumers
+Synchronized
 fun
 <
 V
@@ -254,7 +255,7 @@ ObserverRegistry
 .
 kt
 #
-L105
+L137
 )
 Overrides
 [

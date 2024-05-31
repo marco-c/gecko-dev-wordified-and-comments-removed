@@ -58,6 +58,7 @@ md
 )
 #
 resumeObserver
+Synchronized
 fun
 resumeObserver
 (
@@ -156,7 +157,7 @@ ObserverRegistry
 .
 kt
 #
-L89
+L123
 )
 Overrides
 [

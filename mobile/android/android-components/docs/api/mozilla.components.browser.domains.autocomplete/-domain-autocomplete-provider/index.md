@@ -101,7 +101,7 @@ Providers
 .
 kt
 #
-L45
+L33
 )
 #
 #
@@ -232,7 +232,7 @@ index
 md
 )
 |
-abstract
+open
 class
 BaseDomainAutocompleteProvider
 :
@@ -246,6 +246,7 @@ index
 .
 md
 )
+CoroutineScope
 <
 br
 >

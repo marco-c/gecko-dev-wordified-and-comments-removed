@@ -90,6 +90,7 @@ gt
 ;
 TwoStateButton
 (
+DrawableRes
 primaryImageResource
 :
 [
@@ -152,6 +153,7 @@ index
 .
 html
 )
+ColorRes
 primaryImageTintResource
 :
 [
@@ -184,7 +186,8 @@ index
 html
 )
 =
-0
+NO_ID
+DrawableRes
 secondaryImageResource
 :
 [
@@ -251,6 +254,7 @@ html
 )
 =
 primaryContentDescription
+ColorRes
 secondaryImageTintResource
 :
 [

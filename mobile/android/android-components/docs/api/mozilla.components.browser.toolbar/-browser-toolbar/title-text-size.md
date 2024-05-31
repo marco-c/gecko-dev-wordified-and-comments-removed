@@ -140,7 +140,7 @@ BrowserToolbar
 .
 kt
 #
-L217
+L218
 )
 Sets
 the
@@ -155,4 +155,17 @@ displayed
 in
 the
 toolbar
+up
+to
+the
+MAX_TITLE_SIZE
+Also
+resizes
+url
+text
+size
+to
+accommodate
+the
+title
 .

@@ -156,7 +156,7 @@ support
 /
 test
 /
-ArgumentCaptor
+KArgumentCaptor
 .
 kt
 #

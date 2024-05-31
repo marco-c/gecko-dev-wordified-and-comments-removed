@@ -58,6 +58,7 @@ md
 )
 #
 notifyObservers
+Synchronized
 fun
 notifyObservers
 (
@@ -190,7 +191,7 @@ ObserverRegistry
 .
 kt
 #
-L95
+L128
 )
 Overrides
 [

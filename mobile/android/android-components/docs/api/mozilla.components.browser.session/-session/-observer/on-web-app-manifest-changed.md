@@ -116,9 +116,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /
@@ -215,5 +215,5 @@ Session
 .
 kt
 #
-L57
+L61
 )

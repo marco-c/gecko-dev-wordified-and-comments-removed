@@ -129,9 +129,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /
@@ -231,9 +231,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /
@@ -266,9 +266,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /
@@ -300,9 +300,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /

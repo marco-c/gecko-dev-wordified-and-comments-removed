@@ -132,7 +132,7 @@ md
 Deferred
 <
 [
-Unit
+Boolean
 ]
 (
 https
@@ -154,7 +154,7 @@ stdlib
 kotlin
 /
 -
-unit
+boolean
 /
 index
 .
@@ -213,7 +213,7 @@ FxaDeviceConstellation
 .
 kt
 #
-L142
+L161
 )
 Overrides
 [
@@ -297,6 +297,10 @@ that
 will
 be
 resolved
+with
+a
+success
+flag
 once
 operation
 is

@@ -138,7 +138,7 @@ BrowserToolbar
 .
 kt
 #
-L226
+L229
 )
 Sets
 the
@@ -156,4 +156,8 @@ displayed
 in
 the
 toolbar
+up
+to
+the
+MAX_TITLE_SIZE
 .

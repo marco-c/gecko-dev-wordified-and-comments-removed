@@ -106,9 +106,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /
@@ -206,7 +206,7 @@ Activity
 .
 kt
 #
-L16
+L15
 )
 Sets
 the
@@ -259,9 +259,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /
@@ -294,9 +294,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /
@@ -328,9 +328,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 /

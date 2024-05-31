@@ -63,12 +63,14 @@ onError
 error
 :
 [
-Error
+PushError
 ]
 (
 .
 .
 /
+-
+push
 -
 error
 /
@@ -157,7 +159,7 @@ PushProcessor
 .
 kt
 #
-L48
+L40
 )
 An
 error

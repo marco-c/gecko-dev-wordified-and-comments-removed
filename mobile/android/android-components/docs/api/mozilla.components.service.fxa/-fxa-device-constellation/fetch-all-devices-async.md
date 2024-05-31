@@ -125,6 +125,7 @@ index
 md
 )
 >
+?
 >
 [
 (
@@ -178,7 +179,7 @@ FxaDeviceConstellation
 .
 kt
 #
-L114
+L123
 )
 Overrides
 [
@@ -236,4 +237,8 @@ devices
 in
 the
 constellation
+or
+null
+on
+failure
 .

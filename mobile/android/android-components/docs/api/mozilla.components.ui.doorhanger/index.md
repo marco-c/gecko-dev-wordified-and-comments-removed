@@ -70,7 +70,11 @@ md
 )
 |
 class
+~
+~
 Doorhanger
+~
+~
 <
 br
 >
@@ -131,7 +135,11 @@ md
 )
 |
 class
+~
+~
 DoorhangerPrompt
+~
+~
 <
 br
 >

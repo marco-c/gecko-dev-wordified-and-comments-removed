@@ -58,6 +58,7 @@ md
 )
 #
 unregisterObservers
+Synchronized
 fun
 unregisterObservers
 (
@@ -144,7 +145,7 @@ ObserverRegistry
 .
 kt
 #
-L73
+L101
 )
 Overrides
 [

@@ -115,6 +115,7 @@ index
 md
 )
 >
+?
 >
 [
 (
@@ -166,7 +167,7 @@ Devices
 .
 kt
 #
-L61
+L64
 )
 Get
 all
@@ -188,4 +189,8 @@ devices
 in
 the
 constellation
+or
+null
+on
+failure
 .

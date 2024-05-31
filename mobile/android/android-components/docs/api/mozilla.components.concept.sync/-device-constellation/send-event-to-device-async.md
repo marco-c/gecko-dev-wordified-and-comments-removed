@@ -122,7 +122,7 @@ md
 Deferred
 <
 [
-Unit
+Boolean
 ]
 (
 https
@@ -144,7 +144,7 @@ stdlib
 kotlin
 /
 -
-unit
+boolean
 /
 index
 .
@@ -201,7 +201,7 @@ Devices
 .
 kt
 #
-L83
+L86
 )
 Send
 an
@@ -247,6 +247,10 @@ that
 will
 be
 resolved
+with
+a
+success
+flag
 once
 operation
 is

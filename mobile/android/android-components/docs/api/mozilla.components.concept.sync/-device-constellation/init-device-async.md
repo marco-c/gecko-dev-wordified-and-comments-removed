@@ -171,7 +171,7 @@ md
 Deferred
 <
 [
-Unit
+Boolean
 ]
 (
 https
@@ -193,7 +193,7 @@ stdlib
 kotlin
 /
 -
-unit
+boolean
 /
 index
 .
@@ -346,8 +346,12 @@ that
 will
 be
 resolved
+with
+a
+success
+flag
 once
-initialization
+operation
 is
 complete
 .

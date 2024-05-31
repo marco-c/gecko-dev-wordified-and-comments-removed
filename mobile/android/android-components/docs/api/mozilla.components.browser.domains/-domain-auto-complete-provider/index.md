@@ -101,7 +101,7 @@ DomainAutoCompleteProvider
 .
 kt
 #
-L21
+L24
 )
 *
 *
@@ -110,17 +110,9 @@ Deprecated
 *
 *
 Use
-[
-Providers
-.
 ShippedDomainsProvider
-]
 or
-[
-Providers
-.
 CustomDomainsProvider
-]
 Provides
 autocomplete
 functionality

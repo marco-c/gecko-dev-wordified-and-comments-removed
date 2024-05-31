@@ -56,7 +56,6 @@ md
 )
 #
 initialize
-abstract
 fun
 initialize
 (
@@ -169,5 +168,5 @@ Providers
 .
 kt
 #
-L59
+L57
 )

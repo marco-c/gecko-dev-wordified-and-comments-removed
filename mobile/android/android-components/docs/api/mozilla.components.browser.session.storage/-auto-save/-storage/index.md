@@ -275,7 +275,11 @@ md
 )
 |
 class
+~
+~
 SessionBundleStorage
+~
+~
 :
 [
 Storage

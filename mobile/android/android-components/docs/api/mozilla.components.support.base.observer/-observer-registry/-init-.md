@@ -101,3 +101,9 @@ LifecycleOwner
 is
 provided
 .
+ObserverRegistry
+is
+thread
+-
+safe
+.

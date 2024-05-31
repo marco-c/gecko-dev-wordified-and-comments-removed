@@ -56,6 +56,7 @@ md
 )
 #
 render
+Synchronized
 fun
 render
 (
@@ -175,7 +176,7 @@ GeckoEngineView
 .
 kt
 #
-L48
+L68
 )
 Overrides
 [

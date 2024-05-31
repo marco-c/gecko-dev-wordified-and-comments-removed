@@ -100,7 +100,7 @@ html
 Deferred
 <
 [
-Unit
+Boolean
 ]
 (
 https
@@ -122,7 +122,7 @@ stdlib
 kotlin
 /
 -
-unit
+boolean
 /
 index
 .
@@ -179,7 +179,7 @@ Devices
 .
 kt
 #
-L68
+L71
 )
 Set
 name
@@ -214,6 +214,10 @@ that
 will
 be
 resolved
+with
+a
+success
+flag
 once
 operation
 is

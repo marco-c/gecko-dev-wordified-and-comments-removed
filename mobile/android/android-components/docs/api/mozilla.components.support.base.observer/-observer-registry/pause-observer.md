@@ -58,6 +58,7 @@ md
 )
 #
 pauseObserver
+Synchronized
 fun
 pauseObserver
 (
@@ -156,7 +157,7 @@ ObserverRegistry
 .
 kt
 #
-L83
+L118
 )
 Overrides
 [

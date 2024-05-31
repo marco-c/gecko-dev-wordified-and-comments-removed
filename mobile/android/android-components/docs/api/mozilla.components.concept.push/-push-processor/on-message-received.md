@@ -65,12 +65,14 @@ onMessageReceived
 message
 :
 [
-PushMessage
+EncryptedPushMessage
 ]
 (
 .
 .
 /
+-
+encrypted
 -
 push
 -
@@ -161,7 +163,7 @@ PushProcessor
 .
 kt
 #
-L43
+L35
 )
 A
 new

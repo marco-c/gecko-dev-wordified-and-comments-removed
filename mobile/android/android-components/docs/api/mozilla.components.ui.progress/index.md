@@ -75,7 +75,11 @@ md
 |
 open
 class
+~
+~
 AnimatedProgressBar
+~
+~
 :
 [
 ProgressBar
