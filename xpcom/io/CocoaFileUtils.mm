@@ -1195,7 +1195,7 @@ CFURLGetTypeID
 mozilla
 :
 :
-CopyCocoaStringToXPCOMString
+CopyNSStringToXPCOMString
 (
 (
 NSString

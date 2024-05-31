@@ -79,11 +79,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-return
 mozilla
 :
 :
-CopyCocoaStringToXPCOMString
+CopyNSStringToXPCOMString
 (
 (
 NSString

@@ -364,7 +364,7 @@ AppendElement
 (
 )
 ;
-CopyCocoaStringToXPCOMString
+CopyNSStringToXPCOMString
 (
 recognizedText
 .

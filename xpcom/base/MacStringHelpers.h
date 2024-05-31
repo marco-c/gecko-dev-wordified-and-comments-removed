@@ -23,9 +23,10 @@ h
 namespace
 mozilla
 {
-nsresult
-CopyCocoaStringToXPCOMString
+void
+CopyNSStringToXPCOMString
 (
+const
 NSString
 *
 aFrom

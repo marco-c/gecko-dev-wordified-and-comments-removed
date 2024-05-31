@@ -3200,8 +3200,11 @@ Functions
 -
 -
 Converting
-Cocoa
+NSString
 strings
+~
+~
+~
 ~
 ~
 ~
@@ -3230,7 +3233,7 @@ Use
 mozilla
 :
 :
-CopyCocoaStringToXPCOMString
+CopyNSStringToXPCOMString
 (
 )
 in
@@ -3241,7 +3244,7 @@ MacStringHelpers
 h
 to
 convert
-Cocoa
+NSString
 strings
 to
 XPCOM

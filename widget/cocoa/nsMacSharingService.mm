@@ -403,7 +403,7 @@ imageData
 bitmapRep
 representationUsingType
 :
-NSPNGFileType
+NSBitmapImageFileTypePNG
 properties
 :
 {
@@ -477,7 +477,7 @@ strVal
 mozilla
 :
 :
-CopyCocoaStringToXPCOMString
+CopyNSStringToXPCOMString
 (
 aVal
 strVal
