@@ -36857,9 +36857,6 @@ AddressSanitizer
 )
 |
 |
-Android
-|
-|
 ThreadSanitizer
 )
 |
@@ -36941,9 +36938,6 @@ gtkWidget
 &
 AddressSanitizer
 )
-|
-|
-Android
 |
 |
 ThreadSanitizer
