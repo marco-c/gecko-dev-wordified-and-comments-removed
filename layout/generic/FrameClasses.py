@@ -40,6 +40,13 @@ SVG
 SVG
 "
 }
+BFC
+=
+{
+"
+BlockFormattingContext
+"
+}
 BLOCK
 =
 COMMON
@@ -290,6 +297,8 @@ ColumnSetWrapperFrame
 ColumnSetWrapper
 "
 BLOCK
+|
+BFC
 )
     
 Frame
@@ -360,6 +369,8 @@ Block
 REPLACED_WITH_BLOCK
 |
 LEAF
+|
+BFC
 )
     
 Frame
@@ -595,6 +606,8 @@ Block
 BLOCK
 |
 MATHML
+|
+BFC
 )
     
 Frame
@@ -1025,6 +1038,8 @@ nsSelectsAreaFrame
 Block
 "
 BLOCK
+|
+BFC
 )
     
 Frame

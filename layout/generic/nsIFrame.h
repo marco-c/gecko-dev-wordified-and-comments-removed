@@ -1901,6 +1901,12 @@ SupportsAspectRatio
 <
 <
 14
+BlockFormattingContext
+=
+1
+<
+<
+15
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
@@ -7862,6 +7868,12 @@ const
 nsStyleDisplay
 *
 aDisp
+)
+const
+;
+bool
+IsSuppressedScrollableBlockForPrint
+(
 )
 const
 ;
