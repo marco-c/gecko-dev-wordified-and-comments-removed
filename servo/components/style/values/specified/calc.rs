@@ -9,7 +9,7 @@ parsing
 :
 :
 {
-AngleOrNumber
+NumberOrAngle
 NumberOrPercentage
 }
 ;
@@ -7325,7 +7325,7 @@ UnspecifiedError
 }
 pub
 fn
-parse_angle_or_number
+parse_number_or_angle
 <
 '
 i
@@ -7356,7 +7356,7 @@ MathFunction
 >
 Result
 <
-AngleOrNumber
+NumberOrAngle
 ParseError
 <
 '
@@ -7407,7 +7407,7 @@ degrees
 return
 Ok
 (
-AngleOrNumber
+NumberOrAngle
 :
 :
 Angle
@@ -7432,7 +7432,7 @@ value
 >
 Ok
 (
-AngleOrNumber
+NumberOrAngle
 :
 :
 Number
