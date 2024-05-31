@@ -4593,6 +4593,26 @@ build_platform
 "
 "
 )
+            
+or
+(
+task
+.
+kind
+=
+=
+"
+test
+"
+and
+"
+msix
+"
+in
+task
+.
+label
+)
         
 )
 :
