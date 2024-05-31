@@ -10159,6 +10159,11 @@ getData
 (
 xferable
 whichClipboard
+this
+.
+browsingContext
+.
+currentWindowContext
 )
 ;
 var

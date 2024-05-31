@@ -790,6 +790,16 @@ getData
 (
 xferable
 whichClipboard
+SpecialPowers
+.
+wrap
+(
+window
+)
+.
+browsingContext
+.
+currentWindowContext
 )
 ;
 let

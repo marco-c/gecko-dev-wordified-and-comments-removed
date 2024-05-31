@@ -684,6 +684,16 @@ getData
 (
 trans
 aClipboardType
+SpecialPowers
+.
+wrap
+(
+window
+)
+.
+browsingContext
+.
+currentWindowContext
 )
 ;
 try
