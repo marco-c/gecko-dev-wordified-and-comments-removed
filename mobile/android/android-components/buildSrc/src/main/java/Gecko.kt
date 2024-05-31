@@ -87,11 +87,11 @@ val
 release_version
 =
 "
-63
+64
 .
 0
 .
-20181018182531
+20181214004633
 "
 }
 Suppress
@@ -262,8 +262,6 @@ geckoview
 :
 geckoview
 -
-release
--
 armeabi
 -
 v7a
@@ -287,8 +285,6 @@ geckoview
 :
 geckoview
 -
-release
--
 x86
 :
 {
@@ -309,8 +305,6 @@ mozilla
 geckoview
 :
 geckoview
--
-release
 -
 arm64
 -

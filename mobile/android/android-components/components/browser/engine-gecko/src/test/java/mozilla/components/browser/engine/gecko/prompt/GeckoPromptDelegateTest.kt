@@ -114,20 +114,6 @@ engine
 prompt
 .
 PromptRequest
-.
-Alert
-import
-mozilla
-.
-components
-.
-concept
-.
-engine
-.
-prompt
-.
-PromptRequest
 import
 mozilla
 .
@@ -1255,6 +1241,8 @@ Alert
 (
 alertRequest
 as
+PromptRequest
+.
 Alert
 )
 .
@@ -1268,6 +1256,8 @@ dismissWasCalled
 (
 alertRequest
 as
+PromptRequest
+.
 Alert
 )
 .
@@ -1284,6 +1274,8 @@ assertEquals
 (
 alertRequest
 as
+PromptRequest
+.
 Alert
 )
 .
@@ -1297,6 +1289,8 @@ assertEquals
 (
 alertRequest
 as
+PromptRequest
+.
 Alert
 )
 .
