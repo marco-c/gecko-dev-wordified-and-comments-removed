@@ -169,9 +169,11 @@ sys
 mjs
 "
 {
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 ;
@@ -472,9 +474,11 @@ importESModule
 (
 EXTENSION_CONTENT_SYS_MJS
 {
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 .

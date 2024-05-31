@@ -32,9 +32,11 @@ sys
 mjs
 "
 {
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 ;

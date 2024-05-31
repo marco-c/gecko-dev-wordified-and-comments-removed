@@ -76,9 +76,11 @@ sys
 mjs
 "
 {
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 ;
@@ -238,9 +240,11 @@ sys
 mjs
 "
 {
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 ;

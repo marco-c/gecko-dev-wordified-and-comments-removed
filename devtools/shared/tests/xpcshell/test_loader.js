@@ -82,9 +82,11 @@ sys
 mjs
 "
 {
-loadInDevToolsLoader
+global
 :
-true
+"
+devtools
+"
 }
 )
 )
