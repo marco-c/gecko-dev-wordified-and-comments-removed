@@ -539,11 +539,6 @@ pref
 )
 ;
 async
-ScreenInformationChanged
-(
-)
-;
-async
 NewContentCompositorManager
 (
 Endpoint

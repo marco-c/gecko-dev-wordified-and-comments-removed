@@ -435,17 +435,6 @@ ipc
 :
 :
 IPCResult
-RecvScreenInformationChanged
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvNewContentCompositorManager
 (
 Endpoint
