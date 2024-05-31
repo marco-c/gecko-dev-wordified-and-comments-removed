@@ -614,6 +614,9 @@ loadUrl
 url
 :
 String
+flags
+:
+LoadUrlFlags
 )
 {
 requestFromWebContent
@@ -624,6 +627,9 @@ geckoSession
 loadUri
 (
 url
+flags
+.
+value
 )
 }
 /

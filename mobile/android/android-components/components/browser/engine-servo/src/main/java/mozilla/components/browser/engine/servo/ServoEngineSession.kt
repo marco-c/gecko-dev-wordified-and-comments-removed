@@ -391,6 +391,9 @@ loadUrl
 url
 :
 String
+flags
+:
+LoadUrlFlags
 )
 {
 val

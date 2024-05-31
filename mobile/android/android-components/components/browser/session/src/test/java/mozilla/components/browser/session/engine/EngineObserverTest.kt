@@ -521,6 +521,9 @@ loadUrl
 url
 :
 String
+flags
+:
+LoadUrlFlags
 )
 {
 notifyObservers
@@ -844,6 +847,9 @@ loadUrl
 url
 :
 String
+flags
+:
+LoadUrlFlags
 )
 {
 if
@@ -1100,6 +1106,9 @@ loadUrl
 url
 :
 String
+flags
+:
+LoadUrlFlags
 )
 {
 }
