@@ -1110,9 +1110,6 @@ WebRenderBridgeChild
 >
 mWrChild
 ;
-bool
-mHasFlushedThisChild
-;
 RefPtr
 <
 TransactionIdAllocator

@@ -489,10 +489,6 @@ WebRenderBridgeChild
 bridge
 )
 ;
-mHasFlushedThisChild
-=
-false
-;
 TextureFactoryIdentifier
 textureFactoryIdentifier
 ;
@@ -3495,11 +3491,6 @@ RESIZE
 }
 if
 (
-!
-mHasFlushedThisChild
-|
-|
-(
 resizing
 &
 &
@@ -3517,7 +3508,6 @@ StaticPrefs
 :
 layers_force_synchronous_resize
 (
-)
 )
 )
 )
@@ -3542,10 +3532,6 @@ aReasons
 )
 ;
 }
-mHasFlushedThisChild
-=
-true
-;
 }
 void
 WebRenderLayerManager
