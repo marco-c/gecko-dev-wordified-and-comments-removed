@@ -630,7 +630,7 @@ onPositiveClickAction
 feature
 ?
 .
-onSelect
+onConfirm
 (
 sessionId
 selectedDate
