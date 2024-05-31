@@ -1809,6 +1809,10 @@ const
 LogicalMargin
 &
 aBorderPadding
+const
+nsReflowStatus
+&
+aStatus
 )
 ;
 void
