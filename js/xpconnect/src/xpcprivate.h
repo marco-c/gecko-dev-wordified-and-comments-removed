@@ -1852,12 +1852,6 @@ JSObject
 *
 )
 ;
-JSObject
-*
-LoaderGlobal
-(
-)
-;
 void
 DeleteSingletonScopes
 (
@@ -2156,12 +2150,6 @@ WeakPtr
 SandboxPrivate
 >
 mUnprivilegedJunkScope
-;
-JS
-:
-:
-PersistentRootedObject
-mLoaderGlobal
 ;
 RefPtr
 <
