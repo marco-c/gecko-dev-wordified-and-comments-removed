@@ -735,14 +735,6 @@ pictureRegion
 mKnowsCompositor
 )
 ;
-RefPtr
-<
-GMPVideoDecoder
->
-self
-=
-this
-;
 if
 (
 v
