@@ -3830,7 +3830,6 @@ addonStudies
 [
 study
 ]
-sendEventSpy
 }
 )
 =
