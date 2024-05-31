@@ -416,13 +416,8 @@ setOnClickListener
 {
 Glean
 .
-handleEvent
+handleBackgroundEvent
 (
-Glean
-.
-PingEvent
-.
-Background
 )
 }
 Test

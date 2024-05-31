@@ -373,10 +373,10 @@ time
 *
 *
 param
-date
+calendar
 the
 [
-Date
+Calendar
 ]
 object
 to
@@ -741,7 +741,7 @@ what
 SimpleDateFormat
 will
 expect
-var
+val
 correctedDate
 =
 if
