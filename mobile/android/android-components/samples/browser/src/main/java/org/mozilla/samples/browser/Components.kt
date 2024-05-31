@@ -172,7 +172,7 @@ Components
 (
 private
 val
-applcationContext
+applicationContext
 :
 Context
 )
@@ -185,9 +185,9 @@ lazy
 {
 GeckoRuntime
 .
-create
+getDefault
 (
-applcationContext
+applicationContext
 )
 }
 val

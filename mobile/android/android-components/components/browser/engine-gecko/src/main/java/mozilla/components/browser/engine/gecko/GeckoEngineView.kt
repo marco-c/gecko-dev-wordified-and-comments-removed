@@ -153,8 +153,8 @@ defStyleAttr
 )
 EngineView
 {
-private
-val
+internal
+var
 currentGeckoView
 =
 GeckoView
@@ -228,6 +228,18 @@ internalSession
 session
 as
 GeckoEngineSession
+if
+(
+currentGeckoView
+.
+session
+!
+=
+internalSession
+.
+geckoSession
+)
+{
 currentGeckoView
 .
 session
@@ -235,5 +247,6 @@ session
 internalSession
 .
 geckoSession
+}
 }
 }
