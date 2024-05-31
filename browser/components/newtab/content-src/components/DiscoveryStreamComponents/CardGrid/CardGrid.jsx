@@ -1911,6 +1911,8 @@ compactGrid
 essentialReadsHeader
 editorsPicksHeader
 onboardingExperience
+ctaButtonSponsors
+ctaButtonVariant
 widgets
 recentSavesEnabled
 hideDescriptions
@@ -2211,6 +2213,16 @@ saveToPocketCard
 =
 {
 saveToPocketCard
+}
+ctaButtonSponsors
+=
+{
+ctaButtonSponsors
+}
+ctaButtonVariant
+=
+{
+ctaButtonVariant
 }
 recommendation_id
 =
