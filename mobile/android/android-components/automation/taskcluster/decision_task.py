@@ -1572,12 +1572,12 @@ build_tasks
 {
 }
     
-sign_tasks
+wait_on_builds_tasks
 =
 {
 }
     
-wait_on_all_signing_tasks
+sign_tasks
 =
 {
 }
@@ -1592,7 +1592,7 @@ other_tasks
 {
 }
     
-wait_on_all_signing_task_id
+wait_on_builds_task_id
 =
 taskcluster
 .
@@ -1727,6 +1727,7 @@ craft_sign_task
 (
             
 build_task_id
+wait_on_builds_task_id
 [
 _to_release_artifact
 (
@@ -1814,7 +1815,6 @@ craft_beetmover_task
             
 build_task_id
 sign_task_id
-wait_on_all_signing_task_id
 beetmover_build_artifacts
 beetmover_sign_artifacts
             
@@ -1829,16 +1829,16 @@ is_staging
         
 )
     
-wait_on_all_signing_tasks
+wait_on_builds_tasks
 [
-wait_on_all_signing_task_id
+wait_on_builds_task_id
 ]
 =
 BUILDER
 .
 craft_barrier_task
 (
-sign_tasks
+build_tasks
 .
 keys
 (
@@ -1881,8 +1881,8 @@ craft_function
 return
 (
 build_tasks
+wait_on_builds_task_id
 sign_tasks
-wait_on_all_signing_tasks
 beetmover_tasks
 other_tasks
 )
