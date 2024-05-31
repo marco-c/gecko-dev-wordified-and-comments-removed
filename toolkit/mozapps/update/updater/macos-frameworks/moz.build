@@ -30,6 +30,11 @@ UpdateSettings
 -
 xpcshell
 "
+"
+UpdateSettings
+-
+WrongChannel
+"
 ]
 EXPORTS
 +
