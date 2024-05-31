@@ -879,6 +879,10 @@ JSONObject
 (
 metricsJsonData
 )
+checkPingSchema
+(
+metricsJson
+)
 assertEquals
 (
 "
