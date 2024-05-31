@@ -177,16 +177,6 @@ WaitForAllTargets
 ;
 virtual
 ResultCode
-AddTargetPeer
-(
-HANDLE
-peer_process
-)
-=
-0
-;
-virtual
-ResultCode
 GetPolicyDiagnostics
 (
 std
