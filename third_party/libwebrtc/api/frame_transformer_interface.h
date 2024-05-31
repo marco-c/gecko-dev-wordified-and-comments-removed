@@ -378,6 +378,13 @@ frame
 =
 0
 ;
+virtual
+void
+StartShortCircuiting
+(
+)
+{
+}
 protected
 :
 ~
