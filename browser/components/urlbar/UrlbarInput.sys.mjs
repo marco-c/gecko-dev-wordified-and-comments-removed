@@ -25291,6 +25291,8 @@ maxRichResults
 searchString
 userContextId
 :
+parseInt
+(
 this
 .
 window
@@ -25304,6 +25306,10 @@ getAttribute
 "
 usercontextid
 "
+)
+|
+|
+0
 )
 currentPage
 :

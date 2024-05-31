@@ -6974,6 +6974,8 @@ maxResults
 searchString
 userContextId
 :
+parseInt
+(
 window
 .
 gBrowser
@@ -6985,6 +6987,10 @@ getAttribute
 "
 usercontextid
 "
+)
+|
+|
+0
 )
 prohibitRemoteResults
 :
