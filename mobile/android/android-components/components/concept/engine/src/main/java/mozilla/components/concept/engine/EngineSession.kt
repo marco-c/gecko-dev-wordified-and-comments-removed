@@ -1477,6 +1477,15 @@ LoadUrlFlags
 NONE
 )
 fun
+external
+(
+)
+=
+LoadUrlFlags
+(
+EXTERNAL
+)
+fun
 select
 (
 vararg
