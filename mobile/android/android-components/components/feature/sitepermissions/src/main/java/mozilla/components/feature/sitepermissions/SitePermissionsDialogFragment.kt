@@ -176,12 +176,6 @@ core
 content
 .
 ContextCompat
-import
-kotlin
-.
-properties
-.
-Delegates
 internal
 const
 val
@@ -462,12 +456,8 @@ var
 userSelectionCheckBox
 :
 Boolean
-by
-Delegates
-.
-notNull
-(
-)
+=
+false
 override
 fun
 onCreateDialog
