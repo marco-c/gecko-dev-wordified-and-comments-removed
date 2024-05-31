@@ -640,9 +640,13 @@ components
 searchUseCases
 .
 defaultSearch
+fetchClient
+=
 HttpURLConnectionClient
 (
 )
+mode
+=
 SearchSuggestionProvider
 .
 Mode
