@@ -236,6 +236,9 @@ a
 isPrivate
 :
 false
+allowAutofill
+:
+false
 }
 )
 ;
