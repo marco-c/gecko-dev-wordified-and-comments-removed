@@ -451,9 +451,6 @@ client
 .
 fetchBodyOrNull
 (
-"
-getArticleListenMetadata
-"
 request
 )
 }

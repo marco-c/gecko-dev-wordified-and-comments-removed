@@ -386,8 +386,6 @@ client
 .
 fetchBodyOrNull
 (
-"
-"
 testRequest
 )
 )
@@ -420,8 +418,6 @@ client
 .
 fetchBodyOrNull
 (
-"
-"
 testRequest
 )
 )
@@ -454,8 +450,6 @@ client
 .
 fetchBodyOrNull
 (
-"
-"
 testRequest
 )
 assertEquals
@@ -488,8 +482,6 @@ client
 .
 fetchBodyOrNull
 (
-"
-"
 testRequest
 )
 verify
@@ -532,8 +524,6 @@ client
 .
 fetchBodyOrNull
 (
-"
-"
 testRequest
 )
 verify

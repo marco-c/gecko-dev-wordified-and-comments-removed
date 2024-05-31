@@ -235,9 +235,6 @@ String
 =
 makeRequest
 (
-"
-getGlobalVideoRecommendations
-"
 urls
 .
 globalVideoRecs
@@ -270,9 +267,6 @@ private
 fun
 makeRequest
 (
-callingMethod
-:
-String
 pocketEndpoint
 :
 Uri
@@ -307,7 +301,6 @@ client
 .
 fetchBodyOrNull
 (
-callingMethod
 request
 )
 }

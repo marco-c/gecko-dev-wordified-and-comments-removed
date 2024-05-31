@@ -180,9 +180,6 @@ Client
 .
 fetchBodyOrNull
 (
-callingMethod
-:
-String
 request
 :
 Request
@@ -216,8 +213,6 @@ logger
 debug
 (
 "
-callingMethod
-:
 network
 error
 "
