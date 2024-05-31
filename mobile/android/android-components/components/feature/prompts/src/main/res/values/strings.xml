@@ -15,6 +15,11 @@ utf
 -
 8
 "
+standalone
+=
+"
+yes
+"
 ?
 >
 <
@@ -399,7 +404,7 @@ mozac_feature_prompt_sign_in
 "
 >
 Sign
-In
+in
 <
 /
 string
@@ -683,7 +688,7 @@ this
 site
 from
 opening
-this
+a
 pop
 -
 up

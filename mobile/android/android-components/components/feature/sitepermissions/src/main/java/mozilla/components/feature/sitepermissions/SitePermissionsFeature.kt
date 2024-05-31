@@ -2546,7 +2546,7 @@ R
 .
 string
 .
-mozac_feature_sitepermissions_do_not_ask_again_on_this_site
+mozac_feature_sitepermissions_do_not_ask_again_on_this_site2
 )
 return
 CheckBox
@@ -2903,7 +2903,7 @@ R
 .
 string
 .
-mozac_feature_sitepermissions_back_facing_camera
+mozac_feature_sitepermissions_back_facing_camera2
 }
 else
 {
@@ -2911,7 +2911,7 @@ R
 .
 string
 .
-mozac_feature_sitepermissions_selfie_camera
+mozac_feature_sitepermissions_selfie_camera2
 }
 val
 option2Text
@@ -2930,7 +2930,7 @@ R
 .
 string
 .
-mozac_feature_sitepermissions_back_facing_camera
+mozac_feature_sitepermissions_back_facing_camera2
 }
 else
 {
@@ -2938,7 +2938,7 @@ R
 .
 string
 .
-mozac_feature_sitepermissions_selfie_camera
+mozac_feature_sitepermissions_selfie_camera2
 }
 return
 context
