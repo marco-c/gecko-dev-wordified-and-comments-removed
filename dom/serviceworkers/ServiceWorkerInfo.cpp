@@ -297,10 +297,13 @@ nsIServiceWorkerInfo
 STATE_UNKNOWN
 =
 =
-ServiceWorkerStateValues
+ContiguousEnumSize
+<
+ServiceWorkerState
+>
 :
 :
-Count
+value
 "
 ServiceWorkerState
 enumeration
