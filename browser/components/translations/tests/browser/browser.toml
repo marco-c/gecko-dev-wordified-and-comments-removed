@@ -369,6 +369,13 @@ js
 ]
 [
 "
+browser_translations_select_panel_mainview_ui
+.
+js
+"
+]
+[
+"
 browser_translations_telemetry_firstrun_auto_translate
 .
 js
