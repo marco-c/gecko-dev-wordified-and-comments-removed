@@ -6687,16 +6687,6 @@ aVideoProcessor
 )
 ;
 }
-MOZ_ASSERT_UNREACHABLE
-(
-"
-Unexpected
-to
-be
-called
-"
-)
-;
 return
 false
 ;
