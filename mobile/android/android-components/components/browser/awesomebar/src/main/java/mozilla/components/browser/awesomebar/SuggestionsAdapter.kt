@@ -772,6 +772,11 @@ Int
 )
 :
 Long
+=
+synchronized
+(
+suggestions
+)
 {
 val
 suggestion
