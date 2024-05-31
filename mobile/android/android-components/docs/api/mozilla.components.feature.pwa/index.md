@@ -82,6 +82,7 @@ class
 AbstractWebAppShellActivity
 :
 AppCompatActivity
+CoroutineScope
 <
 br
 >
@@ -121,6 +122,7 @@ class
 WebAppLauncherActivity
 :
 AppCompatActivity
+CoroutineScope
 <
 br
 >

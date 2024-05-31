@@ -1838,6 +1838,13 @@ md
 .
 asTaskDescription
 (
+icon
+:
+<
+ERROR
+CLASS
+>
+?
 )
 :
 <

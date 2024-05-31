@@ -34,7 +34,7 @@ md
 )
 /
 [
-AbstractWebAppShellActivity
+WebAppLauncherActivity
 ]
 (
 index
@@ -156,9 +156,9 @@ feature
 /
 pwa
 /
-AbstractWebAppShellActivity
+WebAppLauncherActivity
 .
 kt
 #
-L85
+L100
 )

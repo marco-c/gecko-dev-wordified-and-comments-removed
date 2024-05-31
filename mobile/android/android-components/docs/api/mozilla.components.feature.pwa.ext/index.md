@@ -110,6 +110,7 @@ index
 .
 md
 )
+?
 )
 :
 [
@@ -305,6 +306,13 @@ md
 .
 asTaskDescription
 (
+icon
+:
+<
+ERROR
+CLASS
+>
+?
 )
 :
 <

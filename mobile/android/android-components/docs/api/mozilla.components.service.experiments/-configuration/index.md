@@ -246,7 +246,7 @@ html
 =
 ExperimentsUpdater
 .
-KINTO_ENDPOINT_DEV
+KINTO_ENDPOINT_PROD
 )
 <
 br
