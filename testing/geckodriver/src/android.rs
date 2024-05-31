@@ -1571,6 +1571,9 @@ String
 envs
 :
 I
+enable_crash_reporter
+:
+bool
 )
 -
 >
@@ -1729,6 +1732,10 @@ to_string
 )
 ;
 }
+if
+!
+enable_crash_reporter
+{
 config
 .
 env
@@ -1831,6 +1838,7 @@ to_owned
 )
 )
 ;
+}
 let
 mut
 contents
@@ -1901,6 +1909,9 @@ String
 env
 :
 I
+enable_crash_reporter
+:
+bool
 )
 -
 >
@@ -2072,6 +2083,7 @@ generate_config_file
 (
 args
 env
+enable_crash_reporter
 )
 ?
 ;
