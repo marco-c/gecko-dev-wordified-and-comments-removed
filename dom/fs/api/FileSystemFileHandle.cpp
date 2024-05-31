@@ -495,16 +495,7 @@ aReader
 uint32_t
 kind
 =
-static_cast
-<
-uint32_t
->
-(
-FileSystemHandleKind
-:
-:
-EndGuard_
-)
+UINT32_MAX
 ;
 if
 (

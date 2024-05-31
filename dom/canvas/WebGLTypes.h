@@ -1356,17 +1356,6 @@ ColorSpace2
 :
 DISPLAY_P3
 ;
-case
-dom
-:
-:
-PredefinedColorSpace
-:
-:
-EndGuard_
-:
-break
-;
 }
 MOZ_CRASH
 (

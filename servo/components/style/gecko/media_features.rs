@@ -854,11 +854,6 @@ ScreenColorGamut
 :
 :
 Srgb
-|
-ScreenColorGamut
-:
-:
-EndGuard_
 =
 >
 ColorGamut
