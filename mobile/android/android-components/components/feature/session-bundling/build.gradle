@@ -333,10 +333,9 @@ config
 .
 componentsGroupId
 archivesBaseName
-gradle
+project
 .
-componentDescriptions
-[
-archivesBaseName
-]
+ext
+.
+description
 )
