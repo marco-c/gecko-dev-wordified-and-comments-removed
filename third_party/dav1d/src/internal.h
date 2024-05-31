@@ -992,7 +992,7 @@ pal_sz
 pal_idx_sz
 cf_sz
 ;
-int
+unsigned
 *
 tile_start_off
 ;

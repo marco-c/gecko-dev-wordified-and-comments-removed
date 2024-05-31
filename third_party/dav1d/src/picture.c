@@ -596,7 +596,7 @@ itut_t35_ctx
 }
 static
 int
-picture_alloc_with_edges
+picture_alloc
 (
 Dav1dContext
 *
@@ -1121,7 +1121,7 @@ const
 int
 res
 =
-picture_alloc_with_edges
+picture_alloc
 (
 c
 &
@@ -1276,6 +1276,7 @@ int
 flags_mask
 =
 (
+(
 f
 -
 >
@@ -1289,6 +1290,22 @@ c
 -
 >
 output_invisible_frames
+)
+&
+&
+c
+-
+>
+max_spatial_id
+=
+=
+f
+-
+>
+frame_hdr
+-
+>
+spatial_id
 )
 ?
 0
@@ -1437,7 +1454,7 @@ const
 int
 res
 =
-picture_alloc_with_edges
+picture_alloc
 (
 c
 dst
