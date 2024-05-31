@@ -127,6 +127,13 @@ pro
 '
 }
 }
+testOptions
+.
+unitTests
+.
+includeAndroidResources
+=
+true
 }
 dependencies
 {
@@ -137,7 +144,7 @@ kotlin_stdlib
 testImplementation
 Dependencies
 .
-testing_junit
+androidx_test_junit
 testImplementation
 Dependencies
 .
