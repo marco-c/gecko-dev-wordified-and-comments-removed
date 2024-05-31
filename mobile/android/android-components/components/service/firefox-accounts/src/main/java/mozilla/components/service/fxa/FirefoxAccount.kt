@@ -1190,16 +1190,6 @@ getAccessToken
 (
 singleScope
 )
-.
-let
-{
-AccessTokenInfo
-.
-fromInternal
-(
-it
-)
-}
 }
 }
 /
