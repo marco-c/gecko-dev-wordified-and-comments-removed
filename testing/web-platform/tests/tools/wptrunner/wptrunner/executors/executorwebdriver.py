@@ -4095,7 +4095,7 @@ result
 )
 !
 =
-2
+3
 :
                 
 try
@@ -4136,6 +4136,14 @@ execution
 .
 "
 )
+            
+if
+result
+is
+None
+:
+                
+continue
             
 done
 rv
