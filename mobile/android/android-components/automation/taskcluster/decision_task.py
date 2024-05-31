@@ -177,10 +177,16 @@ findall
 '
 module
 :
+name
+=
 (
 .
 *
 )
+buildPath
+=
+.
+*
 '
 output
 re
