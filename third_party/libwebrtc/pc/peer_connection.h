@@ -3335,6 +3335,7 @@ const
 bool
 is_unified_plan_
 ;
+const
 std
 :
 :
@@ -3343,17 +3344,6 @@ unique_ptr
 RtcEventLog
 >
 event_log_
-RTC_GUARDED_BY
-(
-worker_thread
-(
-)
-)
-;
-RtcEventLog
-*
-const
-event_log_ptr_
 RTC_PT_GUARDED_BY
 (
 worker_thread
