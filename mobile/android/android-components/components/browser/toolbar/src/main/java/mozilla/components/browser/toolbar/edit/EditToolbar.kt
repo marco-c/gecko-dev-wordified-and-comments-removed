@@ -699,7 +699,7 @@ R
 .
 string
 .
-mozac_close_button_description
+mozac_clear_button_description
 )
 scaleType
 =
