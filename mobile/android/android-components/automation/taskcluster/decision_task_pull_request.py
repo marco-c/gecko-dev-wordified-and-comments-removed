@@ -82,6 +82,8 @@ get
 '
 GITHUB_PULL_TITLE
 '
+'
+'
 )
 SKIP_TASKS_TRIGGER
 =
