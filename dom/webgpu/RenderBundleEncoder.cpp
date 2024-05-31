@@ -358,9 +358,8 @@ if
 (
 !
 bundle
-&
-&
-!
+)
+{
 aBridge
 -
 >
@@ -374,15 +373,6 @@ move
 (
 failureAction
 )
-)
-)
-{
-MOZ_CRASH
-(
-"
-IPC
-failure
-"
 )
 ;
 }
