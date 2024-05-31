@@ -738,9 +738,12 @@ suggestions
 position
 ]
 return
-suggestion
+awesomeBar
 .
-generatedUniqueId
+getUniqueSuggestionId
+(
+suggestion
+)
 }
 override
 fun
