@@ -16,7 +16,7 @@ buildconfig
 substs
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 is_gcc
@@ -289,20 +289,6 @@ insns
 "
         
 if
-barrier
-:
-            
-insns
-+
-=
-fmt_insn
-(
-"
-mfence
-"
-)
-        
-if
 size
 =
 =
@@ -409,20 +395,6 @@ arg
 [
 res
 ]
-"
-)
-        
-if
-barrier
-:
-            
-insns
-+
-=
-fmt_insn
-(
-"
-mfence
 "
 )
         
@@ -545,21 +517,6 @@ insns
 =
 "
 "
-        
-if
-barrier
-:
-            
-insns
-+
-=
-fmt_insn
-(
-"
-dmb
-ish
-"
-)
         
 if
 size
@@ -815,21 +772,6 @@ insns
 "
         
 if
-barrier
-:
-            
-insns
-+
-=
-fmt_insn
-(
-"
-dmb
-sy
-"
-)
-        
-if
 size
 =
 =
@@ -1068,20 +1010,6 @@ insns
 =
 "
 "
-        
-if
-barrier
-:
-            
-insns
-+
-=
-fmt_insn
-(
-"
-mfence
-"
-)
         
 if
 size
