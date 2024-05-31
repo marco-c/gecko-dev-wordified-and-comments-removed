@@ -767,7 +767,7 @@ fuzzy
 if
 (
 !
-OSX
+cocoaWidget
 0
 -
 1
@@ -1036,7 +1036,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 1

@@ -94,13 +94,8 @@ skip
 -
 if
 (
-OSX
-|
-|
-winWidget
-|
-|
-Android
+!
+gtkWidget
 )
 =
 =

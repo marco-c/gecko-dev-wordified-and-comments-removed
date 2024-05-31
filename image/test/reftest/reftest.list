@@ -221,8 +221,7 @@ if
 Android
 |
 |
-!
-jxl
+release_or_beta
 )
 include
 jxl

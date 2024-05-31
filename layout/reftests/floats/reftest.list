@@ -2107,7 +2107,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 28
@@ -2149,7 +2149,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 28

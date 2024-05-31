@@ -190,11 +190,6 @@ if
 Android
 )
 random
--
-if
-(
-layersGPUAccelerated
-)
 =
 =
 encoded

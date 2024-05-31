@@ -40,10 +40,10 @@ random
 -
 if
 (
-winWidget
-|
-|
 gtkWidget
+|
+|
+winWidget
 )
 =
 =
@@ -311,10 +311,10 @@ random
 -
 if
 (
-winWidget
-|
-|
 gtkWidget
+|
+|
+winWidget
 )
 =
 =
@@ -2473,7 +2473,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 198
 -
 198
@@ -2513,7 +2513,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 198
 -
 198

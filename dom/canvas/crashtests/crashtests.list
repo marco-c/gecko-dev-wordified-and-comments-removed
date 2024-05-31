@@ -45,9 +45,6 @@ skip
 if
 (
 Android
-&
-&
-browserIsRemote
 )
 load
 727547
@@ -252,12 +249,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-azureCairo
-)
 load
 1229983
 -

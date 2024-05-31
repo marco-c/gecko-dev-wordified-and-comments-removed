@@ -321,11 +321,6 @@ fuzzy
 18
 )
 random
--
-if
-(
-layersGPUAccelerated
-)
 =
 =
 boxshadow

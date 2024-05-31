@@ -28,7 +28,7 @@ if
 winWidget
 &
 &
-browserIsFission
+fission
 47
 -
 137
@@ -99,7 +99,7 @@ if
 winWidget
 &
 &
-browserIsFission
+fission
 47
 -
 137

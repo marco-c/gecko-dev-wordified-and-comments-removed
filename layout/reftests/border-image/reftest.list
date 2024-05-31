@@ -779,22 +779,6 @@ fuzzy
 -
 if
 (
-asyncPan
-&
-&
-!
-layersGPUAccelerated
-0
--
-140
-0
--
-514
-)
-fuzzy
--
-if
-(
 winWidget
 0
 -
@@ -1077,7 +1061,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 1
@@ -1197,7 +1181,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 1
@@ -1290,7 +1274,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 5
@@ -1362,7 +1346,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 1
@@ -1430,7 +1414,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 1
@@ -2152,7 +2136,7 @@ fails
 -
 if
 (
-OSX
+cocoaWidget
 )
 fuzzy
 (
@@ -2205,7 +2189,7 @@ fails
 -
 if
 (
-OSX
+cocoaWidget
 )
 fuzzy
 (
@@ -2452,7 +2436,7 @@ fails
 -
 if
 (
-OSX
+cocoaWidget
 )
 fuzzy
 (
@@ -2557,7 +2541,7 @@ fails
 -
 if
 (
-OSX
+cocoaWidget
 )
 fuzzy
 (
@@ -2653,7 +2637,7 @@ fails
 -
 if
 (
-OSX
+cocoaWidget
 )
 fuzzy
 (

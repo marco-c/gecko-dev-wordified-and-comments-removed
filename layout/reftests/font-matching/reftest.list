@@ -1976,7 +1976,7 @@ random
 if
 (
 !
-OSX
+cocoaWidget
 )
 =
 =
@@ -2006,7 +2006,7 @@ random
 if
 (
 !
-OSX
+cocoaWidget
 )
 =
 =
@@ -2036,7 +2036,7 @@ random
 if
 (
 !
-OSX
+cocoaWidget
 )
 =
 =
@@ -2066,7 +2066,7 @@ random
 if
 (
 !
-OSX
+cocoaWidget
 )
 =
 =
@@ -2096,7 +2096,7 @@ random
 if
 (
 !
-OSX
+cocoaWidget
 )
 !
 =
@@ -2124,7 +2124,7 @@ random
 if
 (
 !
-OSX
+cocoaWidget
 )
 !
 =
@@ -2154,7 +2154,7 @@ random
 if
 (
 !
-OSX
+cocoaWidget
 )
 !
 =
@@ -2184,7 +2184,7 @@ random
 if
 (
 !
-OSX
+cocoaWidget
 )
 !
 =

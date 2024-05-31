@@ -90,7 +90,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 1
@@ -188,7 +188,7 @@ fuzzy
 -
 if
 (
-dwrite
+winWidget
 0
 -
 104
@@ -655,7 +655,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 23
 -
 65
@@ -3930,7 +3930,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 1
 -
 65

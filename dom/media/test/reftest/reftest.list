@@ -8,7 +8,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 80
@@ -45,9 +45,6 @@ fuzzy
 if
 (
 gtkWidget
-&
-&
-layersGPUAccelerated
 0
 -
 70
@@ -88,7 +85,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 87
@@ -125,9 +122,6 @@ fuzzy
 if
 (
 gtkWidget
-&
-&
-layersGPUAccelerated
 0
 -
 60
@@ -181,9 +175,6 @@ fuzzy
 if
 (
 gtkWidget
-&
-&
-layersGPUAccelerated
 0
 -
 57
@@ -195,7 +186,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 55
 -
 80
@@ -236,7 +227,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 25
@@ -310,7 +301,7 @@ skip
 -
 if
 (
-OSX
+cocoaWidget
 )
 fuzzy
 (
@@ -420,7 +411,7 @@ skip
 -
 if
 (
-OSX
+cocoaWidget
 )
 =
 =

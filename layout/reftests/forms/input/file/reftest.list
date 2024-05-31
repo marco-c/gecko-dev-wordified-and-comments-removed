@@ -226,7 +226,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 46

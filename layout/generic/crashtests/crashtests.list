@@ -3420,9 +3420,6 @@ skip
 if
 (
 Android
-&
-&
-browserIsRemote
 )
 load
 947158
@@ -3988,7 +3985,7 @@ if
 Android
 |
 |
-OSX
+cocoaWidget
 0
 -
 2
@@ -4341,10 +4338,7 @@ load
 .
 html
 asserts
--
-if
 (
-browserIsRemote
 0
 -
 5

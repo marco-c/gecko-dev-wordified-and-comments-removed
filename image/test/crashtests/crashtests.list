@@ -232,9 +232,6 @@ skip
 if
 (
 Android
-&
-&
-browserIsRemote
 )
 load
 1355898

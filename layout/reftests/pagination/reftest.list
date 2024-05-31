@@ -1833,7 +1833,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 23
 -
 23

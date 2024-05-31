@@ -99,7 +99,7 @@ skip
 -
 if
 (
-OSX
+cocoaWidget
 )
 =
 =

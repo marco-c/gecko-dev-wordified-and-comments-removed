@@ -118,14 +118,7 @@ fuzzy
 -
 if
 (
-xulRuntime
-.
-widgetToolkit
-=
-=
-"
-gtk
-"
+gtkWidget
 0
 -
 1

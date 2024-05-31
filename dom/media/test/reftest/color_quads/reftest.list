@@ -208,7 +208,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 16
 -
 73
@@ -305,7 +305,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 35
@@ -317,7 +317,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 &
 &
 swgl
@@ -494,7 +494,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 30
 -
 32
@@ -615,7 +615,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 35
@@ -627,7 +627,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 &
 &
 swgl
@@ -935,7 +935,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 16
@@ -947,7 +947,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 &
 &
 swgl
@@ -1055,7 +1055,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 2
 -
 36
@@ -1184,7 +1184,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 16
@@ -1196,7 +1196,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 &
 &
 swgl
@@ -1458,7 +1458,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 60
 -
 74
@@ -1518,7 +1518,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 12
@@ -1714,7 +1714,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 12
@@ -1795,11 +1795,11 @@ fuzzy
 -
 if
 (
-swgl
-&
-&
 !
 winWidget
+&
+&
+swgl
 36
 -
 52
@@ -1811,10 +1811,10 @@ fuzzy
 -
 if
 (
-swgl
-&
-&
 winWidget
+&
+&
+swgl
 36
 -
 52
@@ -1829,7 +1829,7 @@ if
 swgl
 &
 &
-OSX
+cocoaWidget
 34
 -
 50
@@ -1901,7 +1901,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 12
@@ -2097,7 +2097,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 12

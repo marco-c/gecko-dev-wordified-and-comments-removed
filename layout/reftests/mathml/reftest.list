@@ -44,7 +44,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 79
 -
 153
@@ -289,7 +289,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 16
@@ -315,7 +315,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 1
@@ -377,10 +377,7 @@ fails
 -
 if
 (
-OSX
->
-=
-1010
+cocoaWidget
 )
 =
 =

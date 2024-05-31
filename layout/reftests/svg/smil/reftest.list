@@ -2803,9 +2803,6 @@ fuzzy
 if
 (
 cocoaWidget
-&
-&
-layersGPUAccelerated
 0
 -
 1

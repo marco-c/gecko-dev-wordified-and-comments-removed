@@ -449,9 +449,6 @@ winWidget
 isDebugBuild
 &
 &
-layersGPUAccelerated
-&
-&
 !
 is64Bit
 1

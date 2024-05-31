@@ -18,7 +18,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -35,7 +35,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -54,7 +54,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -73,7 +73,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -92,7 +92,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -109,7 +109,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -142,7 +142,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -159,7 +159,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -178,7 +178,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -197,7 +197,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -216,7 +216,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -233,7 +233,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -266,7 +266,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -283,7 +283,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -302,7 +302,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -321,7 +321,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =
@@ -338,7 +338,7 @@ random
 -
 if
 (
-transparentScrollbars
+gtkWidget
 )
 =
 =

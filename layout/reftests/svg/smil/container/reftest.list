@@ -139,9 +139,6 @@ random
 if
 (
 cocoaWidget
-&
-&
-layersGPUAccelerated
 )
 =
 =
@@ -169,9 +166,6 @@ random
 if
 (
 cocoaWidget
-&
-&
-layersGPUAccelerated
 )
 fuzzy
 (
@@ -208,9 +202,6 @@ random
 if
 (
 cocoaWidget
-&
-&
-layersGPUAccelerated
 )
 fuzzy
 (

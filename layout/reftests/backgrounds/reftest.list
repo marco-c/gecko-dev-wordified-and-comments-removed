@@ -1907,7 +1907,7 @@ fuzzy
 -
 if
 (
-OSX
+cocoaWidget
 0
 -
 1
