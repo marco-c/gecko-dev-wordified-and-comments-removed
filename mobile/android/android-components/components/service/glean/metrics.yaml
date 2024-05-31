@@ -115,6 +115,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 os
 :
 type
@@ -174,6 +177,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 os_version
 :
 type
@@ -233,6 +239,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 device_manufacturer
 :
 type
@@ -296,6 +305,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 device_model
 :
 type
@@ -359,6 +371,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 architecture
 :
 type
@@ -429,6 +444,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 locale
 :
 type
@@ -500,6 +518,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 glean
 .
 internal
@@ -564,6 +585,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 app_build
 :
 type
@@ -636,6 +660,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 app_display_version
 :
 type
@@ -707,6 +734,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 first_run_date
 :
 type
@@ -772,6 +802,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 glean
 .
 error
@@ -849,6 +882,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 invalid_label
 :
 type
@@ -922,3 +958,6 @@ dev
 mozilla
 .
 com
+expires
+:
+never

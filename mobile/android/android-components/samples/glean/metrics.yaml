@@ -104,6 +104,9 @@ is
 key
 two
 "
+expires
+:
+never
 basic
 :
 os
@@ -140,6 +143,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 test
 :
 test_string_list
@@ -181,6 +187,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 test_counter
 :
 type
@@ -219,6 +228,9 @@ dev
 mozilla
 .
 com
+expires
+:
+never
 test_timespan
 :
 type
@@ -257,3 +269,6 @@ dev
 mozilla
 .
 com
+expires
+:
+never
