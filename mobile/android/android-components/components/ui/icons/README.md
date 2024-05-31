@@ -97,7 +97,7 @@ org
 .
 mozilla
 .
-photon
+components
 :
 ui
 -
