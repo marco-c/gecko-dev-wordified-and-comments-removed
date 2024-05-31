@@ -464,6 +464,7 @@ LayoutParams
 {
 if
 (
+(
 params
 .
 gravity
@@ -471,6 +472,7 @@ and
 Gravity
 .
 BOTTOM
+)
 =
 =
 Gravity
