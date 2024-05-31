@@ -364,6 +364,12 @@ cx
 -
 >
 -
+export
+TERM
+=
+dumb
+&
+&
 mkdir
 -
 p
