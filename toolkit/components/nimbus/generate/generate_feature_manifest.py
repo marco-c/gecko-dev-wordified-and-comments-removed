@@ -442,7 +442,7 @@ raise
 Exception
 (
 "
-isEarlyStatup
+isEarlyStartup
 is
 deprecated
 "
