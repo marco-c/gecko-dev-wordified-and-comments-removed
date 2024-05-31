@@ -849,6 +849,13 @@ u32
 u64
 isize
 usize
+std
+:
+:
+num
+:
+:
+NonZeroUsize
 )
 ;
 impl_trivial_to_shmem
