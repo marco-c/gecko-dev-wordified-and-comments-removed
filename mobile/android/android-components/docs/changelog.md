@@ -359,7 +359,11 @@ components
 /
 blob
 /
-master
+v0
+.
+40
+.
+0
 /
 buildSrc
 /
@@ -396,7 +400,11 @@ components
 /
 blob
 /
-master
+v0
+.
+40
+.
+0
 /
 buildSrc
 /
@@ -433,7 +441,11 @@ components
 /
 blob
 /
-master
+v0
+.
+40
+.
+0
 /
 buildSrc
 /
@@ -585,7 +597,7 @@ and
 view
 binding
 .
-Kotlin
+kotlin
 /
 /
 Create
@@ -752,7 +764,7 @@ suggestions
 .
 .
 )
-Kotlin
+kotlin
 awesomeBar
 .
 transformer
