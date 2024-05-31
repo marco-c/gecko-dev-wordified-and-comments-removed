@@ -415,16 +415,6 @@ _UNICODE
 ]
 =
 True
-FINAL_TARGET_FILES
-+
-=
-[
-"
-defaultagent
-.
-ini
-"
-]
 FINAL_LIBRARY
 =
 "
