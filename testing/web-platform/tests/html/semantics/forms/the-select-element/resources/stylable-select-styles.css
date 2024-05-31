@@ -126,7 +126,9 @@ start
 :
 anchor
 (
-auto
+self
+-
+end
 )
 ;
 inset
@@ -137,9 +139,9 @@ start
 :
 anchor
 (
-auto
+self
 -
-same
+start
 )
 ;
 font
