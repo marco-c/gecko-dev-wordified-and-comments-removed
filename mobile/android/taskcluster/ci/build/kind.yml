@@ -192,6 +192,10 @@ affecting
 components
 :
 ^
+android
+-
+components
+/
 build
 .
 gradle
@@ -200,6 +204,10 @@ all
 -
 components
 ^
+android
+-
+components
+/
 settings
 .
 gradle
@@ -208,6 +216,10 @@ all
 -
 components
 ^
+android
+-
+components
+/
 buildSrc
 .
 *
@@ -216,6 +228,10 @@ all
 -
 components
 ^
+android
+-
+components
+/
 gradle
 .
 properties
@@ -224,6 +240,10 @@ all
 -
 components
 ^
+android
+-
+components
+/
 gradle
 /
 wrapper
