@@ -4433,7 +4433,7 @@ annotations
 .
 jar
 .
-archivePath
+archiveFile
 classpath
 project
 (
