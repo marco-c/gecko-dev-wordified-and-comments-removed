@@ -2742,8 +2742,7 @@ DownloadUtils
 .
 guessFileName
 (
-"
-"
+null
 response
 .
 uri

@@ -1046,3 +1046,17 @@ hashCode
 (
 )
 }
+fun
+List
+<
+Header
+>
+.
+toMutableHeaders
+(
+)
+=
+MutableHeaders
+(
+this
+)
