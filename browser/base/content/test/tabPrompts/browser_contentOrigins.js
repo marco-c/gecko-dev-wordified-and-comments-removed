@@ -676,14 +676,6 @@ set
 "
 prompts
 .
-contentPromptSubDialog
-"
-true
-]
-[
-"
-prompts
-.
 modalType
 .
 httpAuth
