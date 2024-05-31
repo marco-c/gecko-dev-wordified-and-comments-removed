@@ -465,8 +465,6 @@ parent
 View
 )
 :
-BrowserMenu
-.
 Orientation
 {
 val
@@ -503,16 +501,12 @@ Gravity
 BOTTOM
 )
 {
-BrowserMenu
-.
 Orientation
 .
 UP
 }
 else
 {
-BrowserMenu
-.
 Orientation
 .
 DOWN
@@ -520,8 +514,6 @@ DOWN
 }
 else
 {
-BrowserMenu
-.
 Orientation
 .
 DOWN

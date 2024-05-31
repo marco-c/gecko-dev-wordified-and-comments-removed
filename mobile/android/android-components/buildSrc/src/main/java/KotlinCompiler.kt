@@ -155,11 +155,6 @@ servo
 "
 browser
 -
-menu
-"
-"
-browser
--
 search
 "
 "
