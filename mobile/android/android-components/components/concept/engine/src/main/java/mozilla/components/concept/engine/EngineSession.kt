@@ -354,9 +354,6 @@ String
 fileName
 :
 String
-?
-=
-null
 contentLength
 :
 Long
