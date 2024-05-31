@@ -89,7 +89,7 @@ appservices
 .
 places
 .
-ReadableHistoryConnection
+PlacesReaderConnection
 import
 mozilla
 .
@@ -97,7 +97,7 @@ appservices
 .
 places
 .
-WritableHistoryConnection
+PlacesWriterConnection
 import
 java
 .
@@ -215,13 +215,13 @@ reader
 (
 )
 :
-ReadableHistoryConnection
+PlacesReaderConnection
 fun
 writer
 (
 )
 :
-WritableHistoryConnection
+PlacesWriterConnection
 fun
 sync
 (
@@ -282,7 +282,7 @@ private
 var
 cachedReader
 :
-ReadableHistoryConnection
+PlacesReaderConnection
 ?
 =
 null
@@ -415,7 +415,7 @@ reader
 (
 )
 :
-ReadableHistoryConnection
+PlacesReaderConnection
 =
 synchronized
 (
@@ -448,7 +448,7 @@ writer
 (
 )
 :
-WritableHistoryConnection
+PlacesWriterConnection
 {
 check
 (
