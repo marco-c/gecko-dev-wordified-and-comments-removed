@@ -6284,6 +6284,14 @@ bounds
 /
 )
 ;
+if
+(
+!
+wasmMultiMemoryEnabled
+(
+)
+)
+{
 wasmFailValidateText
 (
 '
@@ -6361,6 +6369,7 @@ memory
 /
 )
 ;
+}
 var
 m
 =

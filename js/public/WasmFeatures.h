@@ -646,7 +646,7 @@ fuzz
 enable
 *
 /
-false
+true
 \
 /
 *

@@ -86,6 +86,14 @@ memory
 )
 )
 ;
+if
+(
+!
+wasmMultiMemoryEnabled
+(
+)
+)
+{
 assert_invalid
 (
 (
@@ -143,6 +151,7 @@ multiple
 memories
 )
 ;
+}
 let
 6
 =

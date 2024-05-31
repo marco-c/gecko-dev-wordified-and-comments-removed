@@ -62,6 +62,14 @@ i64
 )
 )
 ;
+if
+(
+!
+wasmMultiMemoryEnabled
+(
+)
+)
+{
 assert_invalid
 (
 (
@@ -123,6 +131,7 @@ multiple
 memories
 )
 ;
+}
 let
 4
 =
