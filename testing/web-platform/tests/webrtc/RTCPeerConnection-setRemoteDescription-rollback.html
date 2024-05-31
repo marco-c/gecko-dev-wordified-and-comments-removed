@@ -442,12 +442,14 @@ remoteDescription
 null
 )
 ;
-assert_not_equals
+assert_equals
 (
 pc
 .
 pendingRemoteDescription
-null
+pc
+.
+remoteDescription
 )
 ;
 assert_equals

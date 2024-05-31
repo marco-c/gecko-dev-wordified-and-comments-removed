@@ -401,12 +401,14 @@ localDescription
 offer
 )
 ;
-assert_session_desc_similar
+assert_equals
 (
 pc
 .
 pendingLocalDescription
-offer
+pc
+.
+localDescription
 )
 ;
 assert_equals
