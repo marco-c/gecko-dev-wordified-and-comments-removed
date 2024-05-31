@@ -304,8 +304,7 @@ state
 of
 the
 content
-displayed
-in
+within
 a
 [
 SessionState
