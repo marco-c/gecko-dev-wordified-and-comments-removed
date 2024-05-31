@@ -157,7 +157,7 @@ Bitmap
 CompressFormat
 .
 PNG
-100
+BITMAP_COMPRESSION_QUALITY
 stream
 )
 val
@@ -185,10 +185,15 @@ image
 png
 ;
 base64
-"
-+
 encodedImage
+"
 }
+private
+const
+val
+BITMAP_COMPRESSION_QUALITY
+=
+100
 /
 *
 *

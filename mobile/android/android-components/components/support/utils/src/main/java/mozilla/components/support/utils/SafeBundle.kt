@@ -162,6 +162,12 @@ bundle
 Bundle
 )
 {
+SuppressWarnings
+(
+"
+TooGenericExceptionCaught
+"
+)
 fun
 getString
 (
@@ -235,6 +241,12 @@ e
 null
 }
 }
+SuppressWarnings
+(
+"
+TooGenericExceptionCaught
+"
+)
 fun
 <
 T

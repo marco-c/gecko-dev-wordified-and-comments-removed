@@ -99,6 +99,12 @@ color
 *
 /
 JvmStatic
+SuppressWarnings
+(
+"
+MagicNumber
+"
+)
 fun
 getReadableTextColor
 (
@@ -149,6 +155,12 @@ Color
 BLACK
 }
 }
+SuppressWarnings
+(
+"
+MagicNumber
+"
+)
 private
 fun
 grayscaleFromRGB

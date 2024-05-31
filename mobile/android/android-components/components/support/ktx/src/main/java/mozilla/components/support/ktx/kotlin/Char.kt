@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+file
+:
+SuppressWarnings
+(
+"
+TopLevelPropertyNaming
+"
+)
 package
 mozilla
 .
