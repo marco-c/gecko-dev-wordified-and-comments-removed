@@ -274,6 +274,9 @@ settings
 markdown
 :
 kramdown
+highlighter
+:
+rouge
 theme
 :
 minima
