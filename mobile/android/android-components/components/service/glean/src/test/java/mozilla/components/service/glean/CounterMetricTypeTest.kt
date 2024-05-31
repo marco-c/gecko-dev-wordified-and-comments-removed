@@ -179,6 +179,11 @@ setUp
 (
 )
 {
+Glean
+.
+initialized
+=
+true
 CountersStorageEngine
 .
 applicationContext

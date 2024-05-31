@@ -185,6 +185,11 @@ setUp
 (
 )
 {
+Glean
+.
+initialized
+=
+true
 UuidsStorageEngine
 .
 applicationContext

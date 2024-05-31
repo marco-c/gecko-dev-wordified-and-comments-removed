@@ -177,6 +177,11 @@ setUp
 (
 )
 {
+Glean
+.
+initialized
+=
+true
 EventsStorageEngine
 .
 clearAllStores
