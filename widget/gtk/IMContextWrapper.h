@@ -332,6 +332,14 @@ OnLayoutChange
 (
 )
 ;
+void
+SetGdkWindow
+(
+GdkWindow
+*
+aGdkWindow
+)
+;
 TextEventDispatcher
 *
 GetTextEventDispatcher
