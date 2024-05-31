@@ -7111,10 +7111,6 @@ deps
 [
 "
 :
-callfactory_api
-"
-"
-:
 enable_media_with_defaults
 "
 "
