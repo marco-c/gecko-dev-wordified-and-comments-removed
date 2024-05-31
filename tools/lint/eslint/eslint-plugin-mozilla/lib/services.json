@@ -119,13 +119,6 @@ nsIDAPTelemetry
 DAPTelemetry
 "
 "
-nsIDOMRequestService
-"
-:
-"
-DOMRequest
-"
-"
 nsIDOMStorageManager
 "
 :

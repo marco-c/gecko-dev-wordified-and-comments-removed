@@ -105,11 +105,6 @@ nsIContentPolicy
 idl
 "
 "
-nsIDOMRequestService
-.
-idl
-"
-"
 nsIDroppedLinkHandler
 .
 idl
@@ -896,11 +891,6 @@ DOMRect
 h
 "
 "
-DOMRequest
-.
-h
-"
-"
 DOMStringList
 .
 h
@@ -1658,11 +1648,6 @@ cpp
 "
 "
 DOMRect
-.
-cpp
-"
-"
-DOMRequest
 .
 cpp
 "

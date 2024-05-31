@@ -166,9 +166,6 @@ class
 ServiceWorkerContainer
 ;
 class
-DOMRequest
-;
-class
 CredentialsContainer
 ;
 class

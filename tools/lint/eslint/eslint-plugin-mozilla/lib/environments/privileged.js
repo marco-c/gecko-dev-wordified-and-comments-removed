@@ -395,9 +395,6 @@ false
 DOMRectReadOnly
 :
 false
-DOMRequest
-:
-false
 DOMStringList
 :
 false
