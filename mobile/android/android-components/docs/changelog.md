@@ -288,6 +288,15 @@ bottom
 default
 )
 .
+*
+Adds
+the
+ability
+to
+long
+click
+the
+urlView
 #
 0
 .
