@@ -3,6 +3,13 @@ EXTRA_JS_MODULES
 =
 [
 "
+ScreenshotsHelperChild
+.
+sys
+.
+mjs
+"
+"
 ScreenshotsOverlayChild
 .
 sys
