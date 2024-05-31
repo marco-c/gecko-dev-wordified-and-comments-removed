@@ -2150,8 +2150,8 @@ depth
 Int
 )
 {
-bookmarksRootAndChildren
-+
+val
+desc
 =
 "
 "
@@ -2185,6 +2185,11 @@ guid
 \
 n
 "
+;
+bookmarksRootAndChildren
++
+=
+desc
 ;
 node
 .
@@ -2223,7 +2228,6 @@ getInstance
 (
 )
 )
-;
 bookmarksResultTextView
 .
 text
