@@ -1946,7 +1946,7 @@ nsTArray
 <
 RefPtr
 <
-VideoFrame
+OutputType
 >
 >
 frames
@@ -1969,7 +1969,7 @@ mActiveConfig
 ;
 RefPtr
 <
-VideoFrameOutputCallback
+OutputCallbackType
 >
 cb
 (
@@ -1980,7 +1980,7 @@ for
 (
 RefPtr
 <
-VideoFrame
+OutputType
 >
 &
 frame
@@ -2010,7 +2010,7 @@ Timestamp
 ;
 RefPtr
 <
-VideoFrame
+OutputType
 >
 f
 =
@@ -2022,7 +2022,7 @@ cb
 Call
 (
 (
-VideoFrame
+OutputType
 &
 )
 (
