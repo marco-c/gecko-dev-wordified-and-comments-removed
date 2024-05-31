@@ -24,10 +24,10 @@ template
 <
 typename
 IndexType
-IndexType
-SizeAsEnumValue
 typename
 ValueType
+IndexType
+SizeAsEnumValue
 >
 inline
 void
@@ -39,8 +39,8 @@ mozilla
 EnumeratedArray
 <
 IndexType
-SizeAsEnumValue
 ValueType
+SizeAsEnumValue
 >
 &
 aField
@@ -81,10 +81,10 @@ template
 <
 typename
 IndexType
-IndexType
-SizeAsEnumValue
 typename
 ValueType
+IndexType
+SizeAsEnumValue
 >
 inline
 void
@@ -99,8 +99,8 @@ mozilla
 EnumeratedArray
 <
 IndexType
-SizeAsEnumValue
 ValueType
+SizeAsEnumValue
 >
 &
 aField

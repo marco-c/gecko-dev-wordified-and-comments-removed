@@ -3654,11 +3654,11 @@ mozilla
 EnumeratedArray
 <
 WindowButtonType
+LayoutDeviceIntRect
 WindowButtonType
 :
 :
 Count
-LayoutDeviceIntRect
 >
 mWindowBtnRect
 ;

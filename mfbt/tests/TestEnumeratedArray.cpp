@@ -29,11 +29,11 @@ TestArray
 EnumeratedArray
 <
 AnimalSpecies
+int
 AnimalSpecies
 :
 :
 Count
-int
 >
 ;
 void

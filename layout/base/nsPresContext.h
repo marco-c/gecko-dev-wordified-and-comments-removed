@@ -4296,11 +4296,11 @@ mozilla
 EnumeratedArray
 <
 nsLayoutPhase
+uint32_t
 nsLayoutPhase
 :
 :
 COUNT
-uint32_t
 >
 mLayoutPhaseCount
 ;

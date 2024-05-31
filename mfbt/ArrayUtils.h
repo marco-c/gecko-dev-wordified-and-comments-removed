@@ -75,10 +75,10 @@ template
 <
 typename
 IndexType
-IndexType
-SizeAsEnumValue
 typename
 ValueType
+IndexType
+SizeAsEnumValue
 >
 class
 EnumeratedArray
@@ -181,10 +181,10 @@ template
 <
 typename
 E
-E
-N
 typename
 T
+E
+N
 >
 constexpr
 size_t
@@ -194,8 +194,8 @@ const
 EnumeratedArray
 <
 E
-N
 T
+N
 >
 &
 aArr

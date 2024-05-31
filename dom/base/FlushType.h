@@ -53,13 +53,13 @@ const
 EnumeratedArray
 <
 FlushType
+const
+char
+*
 FlushType
 :
 :
 Count
-const
-char
-*
 >
 kFlushTypeNames
 =

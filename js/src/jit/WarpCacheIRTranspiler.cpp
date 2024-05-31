@@ -262,11 +262,11 @@ mozilla
 EnumeratedArray
 <
 ArgumentKind
+OperandId
 ArgumentKind
 :
 :
 NumKinds
-OperandId
 >
 ;
 ArgumentKindArray

@@ -680,11 +680,11 @@ DirectoryArray
 EnumeratedArray
 <
 Directory
+T
 Directory
 :
 :
 Count
-T
 >
 ;
 DirectoryArray

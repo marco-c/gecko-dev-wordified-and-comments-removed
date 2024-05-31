@@ -25,10 +25,10 @@ template
 <
 typename
 IndexType
-IndexType
-SizeAsEnumValue
 typename
 ValueType
+IndexType
+SizeAsEnumValue
 >
 class
 EnumeratedArray

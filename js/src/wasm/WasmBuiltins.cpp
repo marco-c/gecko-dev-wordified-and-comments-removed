@@ -10126,11 +10126,11 @@ SymbolicAddressToCodeRangeArray
 EnumeratedArray
 <
 SymbolicAddress
+uint32_t
 SymbolicAddress
 :
 :
 Limit
-uint32_t
 >
 ;
 struct

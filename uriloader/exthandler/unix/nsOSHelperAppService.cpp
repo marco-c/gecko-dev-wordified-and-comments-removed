@@ -787,11 +787,11 @@ this
 EnumeratedArray
 <
 FileKind
+Entry
 FileKind
 :
 :
 Count
-Entry
 >
 mEntries
 ;

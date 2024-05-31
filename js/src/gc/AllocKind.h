@@ -998,11 +998,11 @@ mozilla
 EnumeratedArray
 <
 AllocKind
+ValueType
 AllocKind
 :
 :
 LIMIT
-ValueType
 >
 ;
 template
@@ -1019,11 +1019,11 @@ mozilla
 EnumeratedArray
 <
 AllocKind
+ValueType
 AllocKind
 :
 :
 OBJECT_LIMIT
-ValueType
 >
 ;
 template

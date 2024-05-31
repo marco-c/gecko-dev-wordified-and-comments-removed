@@ -459,13 +459,13 @@ mozilla
 EnumeratedArray
 <
 SpewChannel
+const
+char
+*
 SpewChannel
 :
 :
 Count
-const
-char
-*
 >
 ;
 static

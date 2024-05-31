@@ -514,11 +514,11 @@ mozilla
 EnumeratedArray
 <
 Annotation
+nsCString
 Annotation
 :
 :
 Count
-nsCString
 >
 AnnotationTable
 ;

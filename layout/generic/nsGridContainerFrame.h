@@ -492,11 +492,11 @@ mozilla
 EnumeratedArray
 <
 BaselineSharingGroup
+T
 BaselineSharingGroup
 (
 2
 )
-T
 >
 ;
 template
@@ -513,11 +513,11 @@ mozilla
 EnumeratedArray
 <
 LogicalAxis
+T
 LogicalAxis
 (
 2
 )
-T
 >
 ;
 void
