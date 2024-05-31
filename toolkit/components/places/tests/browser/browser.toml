@@ -221,6 +221,13 @@ sjs
 ]
 [
 "
+browser_favicon
+.
+js
+"
+]
+[
+"
 browser_favicon_privatebrowsing_perwindowpb
 .
 js
