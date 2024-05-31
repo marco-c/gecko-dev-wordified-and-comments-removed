@@ -179,13 +179,11 @@ false
 ]
 [
 "
-browser
+ui
 .
-tabs
+tooltip
 .
-cardPreview
-.
-delayMs
+delay_ms
 "
 0
 ]
