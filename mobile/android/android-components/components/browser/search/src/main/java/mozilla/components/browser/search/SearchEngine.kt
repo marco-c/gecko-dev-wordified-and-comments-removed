@@ -137,7 +137,6 @@ Uri
 null
 )
 {
-internal
 val
 canProvideSearchSuggestions
 :
