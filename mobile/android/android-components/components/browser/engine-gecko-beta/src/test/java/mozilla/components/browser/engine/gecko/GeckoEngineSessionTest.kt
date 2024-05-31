@@ -79,6 +79,14 @@ os
 .
 Message
 import
+kotlinx
+.
+coroutines
+.
+experimental
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -2528,6 +2536,8 @@ title
 changes
 (
 )
+=
+runBlocking
 {
 val
 engineSession
@@ -2740,6 +2750,8 @@ private
 sessions
 (
 )
+=
+runBlocking
 {
 val
 engineSession

@@ -154,6 +154,10 @@ implementation
 Deps
 .
 kotlin_stdlib
+implementation
+Deps
+.
+kotlin_coroutines
 testImplementation
 Deps
 .
