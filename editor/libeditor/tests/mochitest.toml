@@ -1858,13 +1858,6 @@ html
 ]
 [
 "
-test_command_state_when_readonly
-.
-html
-"
-]
-[
-"
 test_composition_event_created_in_chrome
 .
 html
