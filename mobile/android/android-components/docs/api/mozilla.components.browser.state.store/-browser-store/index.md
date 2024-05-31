@@ -938,7 +938,7 @@ Summary
 |
 |
 [
-broadcastChannel
+channel
 ]
 (
 .
@@ -957,8 +957,6 @@ state
 .
 ext
 /
-broadcast
--
 channel
 .
 md
@@ -1063,8 +1061,6 @@ state
 .
 ext
 /
-broadcast
--
 channel
 .
 md
@@ -1091,8 +1087,6 @@ state
 .
 ext
 /
-broadcast
--
 channel
 .
 md
@@ -1101,7 +1095,7 @@ A
 )
 >
 .
-broadcastChannel
+channel
 (
 owner
 :
@@ -1114,7 +1108,7 @@ get
 )
 )
 :
-BroadcastChannel
+ReceiveChannel
 <
 [
 S
@@ -1136,8 +1130,6 @@ state
 .
 ext
 /
-broadcast
--
 channel
 .
 md
@@ -1152,7 +1144,7 @@ Creates
 a
 conflated
 [
-BroadcastChannel
+Channel
 ]
 (
 #

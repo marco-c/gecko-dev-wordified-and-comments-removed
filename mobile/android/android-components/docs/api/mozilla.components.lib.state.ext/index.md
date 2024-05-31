@@ -109,11 +109,9 @@ Summary
 |
 |
 [
-broadcastChannel
+channel
 ]
 (
-broadcast
--
 channel
 .
 md
@@ -193,8 +191,6 @@ md
 S
 ]
 (
-broadcast
--
 channel
 .
 md
@@ -205,8 +201,6 @@ S
 A
 ]
 (
-broadcast
--
 channel
 .
 md
@@ -215,7 +209,7 @@ A
 )
 >
 .
-broadcastChannel
+channel
 (
 owner
 :
@@ -228,14 +222,12 @@ get
 )
 )
 :
-BroadcastChannel
+ReceiveChannel
 <
 [
 S
 ]
 (
-broadcast
--
 channel
 .
 md
@@ -250,7 +242,7 @@ Creates
 a
 conflated
 [
-BroadcastChannel
+Channel
 ]
 (
 #
