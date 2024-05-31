@@ -516,7 +516,7 @@ authErrorRegistry
 .
 notifyObservers
 {
-onAuthError
+onAuthErrorAsync
 (
 AuthException
 (
@@ -753,7 +753,7 @@ authErrorRegistry
 .
 notifyObservers
 {
-onAuthError
+onAuthErrorAsync
 (
 AuthException
 (

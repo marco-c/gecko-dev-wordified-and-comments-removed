@@ -1563,7 +1563,7 @@ authErrorRegistry
 .
 notifyObservers
 {
-onAuthError
+onAuthErrorAsync
 (
 status
 .
