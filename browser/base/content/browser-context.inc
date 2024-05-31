@@ -4468,6 +4468,17 @@ translate
 -
 selection
 "
+oncommand
+=
+"
+SelectTranslationsPanel
+.
+open
+(
+event
+)
+;
+"
 /
 >
 <
