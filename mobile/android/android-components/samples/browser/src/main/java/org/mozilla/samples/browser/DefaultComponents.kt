@@ -404,6 +404,9 @@ SampleRequestInterceptor
 (
 applicationContext
 )
+remoteDebuggingEnabled
+=
+true
 supportMultipleWindows
 =
 true
