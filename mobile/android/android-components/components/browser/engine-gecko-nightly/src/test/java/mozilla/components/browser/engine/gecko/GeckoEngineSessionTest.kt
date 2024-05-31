@@ -4932,6 +4932,15 @@ assertEquals
 (
 TrackingProtectionPolicy
 .
+FINGERPRINTING
+ContentBlocking
+.
+AT_FINGERPRINTING
+)
+assertEquals
+(
+TrackingProtectionPolicy
+.
 all
 (
 )

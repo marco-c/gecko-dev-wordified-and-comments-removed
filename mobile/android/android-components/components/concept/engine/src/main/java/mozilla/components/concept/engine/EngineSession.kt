@@ -694,6 +694,13 @@ CRYPTOMINING
 1
 shl
 6
+const
+val
+FINGERPRINTING
+=
+1
+shl
+7
 internal
 const
 val
@@ -712,6 +719,8 @@ CONTENT
 TEST
 +
 CRYPTOMINING
++
+FINGERPRINTING
 fun
 none
 (

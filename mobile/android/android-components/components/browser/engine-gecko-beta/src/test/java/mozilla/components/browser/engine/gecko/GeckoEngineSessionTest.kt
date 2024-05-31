@@ -5038,6 +5038,14 @@ CRYPTOMINING
 inv
 (
 )
+and
+TrackingProtectionPolicy
+.
+FINGERPRINTING
+.
+inv
+(
+)
 ContentBlocking
 .
 AT_ALL

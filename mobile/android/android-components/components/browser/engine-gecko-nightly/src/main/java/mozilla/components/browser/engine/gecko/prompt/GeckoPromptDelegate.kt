@@ -1841,10 +1841,6 @@ id
 !
 disabled
 label
-?
-:
-"
-"
 selected
 separator
 choiceChildren

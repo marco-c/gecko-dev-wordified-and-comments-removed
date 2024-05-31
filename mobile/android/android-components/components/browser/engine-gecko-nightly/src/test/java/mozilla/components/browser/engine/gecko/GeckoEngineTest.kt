@@ -869,6 +869,9 @@ TEST
 TrackingProtectionPolicy
 .
 CRYPTOMINING
+TrackingProtectionPolicy
+.
+FINGERPRINTING
 )
 .
 categories
@@ -1125,6 +1128,9 @@ TEST
 TrackingProtectionPolicy
 .
 CRYPTOMINING
+TrackingProtectionPolicy
+.
+FINGERPRINTING
 )
 .
 categories
