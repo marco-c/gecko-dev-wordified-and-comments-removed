@@ -265,9 +265,6 @@ Bitmap
 .
 html
 )
-?
-=
-null
 color
 :
 [
@@ -423,7 +420,6 @@ Bitmap
 .
 html
 )
-?
 <
 br
 >
@@ -456,14 +452,6 @@ Bitmap
 .
 html
 )
-or
-null
-if
-no
-icon
-could
-be
-loaded
 .
 |
 |

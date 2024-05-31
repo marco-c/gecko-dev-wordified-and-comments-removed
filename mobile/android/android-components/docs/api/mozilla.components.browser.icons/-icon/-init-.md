@@ -96,9 +96,6 @@ Bitmap
 .
 html
 )
-?
-=
-null
 color
 :
 [

@@ -81,7 +81,6 @@ Bitmap
 .
 html
 )
-?
 [
 (
 source
@@ -163,14 +162,6 @@ Bitmap
 .
 html
 )
-or
-null
-if
-no
-icon
-could
-be
-loaded
 .
 #
 #
@@ -207,12 +198,4 @@ Bitmap
 .
 html
 )
-or
-null
-if
-no
-icon
-could
-be
-loaded
 .

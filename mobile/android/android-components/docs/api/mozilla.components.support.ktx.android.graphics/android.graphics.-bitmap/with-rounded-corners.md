@@ -206,7 +206,7 @@ Bitmap
 .
 kt
 #
-L36
+L38
 )
 Returns
 a

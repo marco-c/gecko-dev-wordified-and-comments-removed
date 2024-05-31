@@ -183,7 +183,7 @@ Bitmap
 .
 kt
 #
-L52
+L54
 )
 Returns
 true
