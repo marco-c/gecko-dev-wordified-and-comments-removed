@@ -156,11 +156,6 @@ feature
 prompts
 "
 "
-feature
--
-search
-"
-"
 service
 -
 glean
