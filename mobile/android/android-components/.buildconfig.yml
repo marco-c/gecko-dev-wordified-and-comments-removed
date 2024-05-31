@@ -2260,16 +2260,12 @@ false
 samples
 -
 sync
--
-history
 :
 path
 :
 samples
 /
 sync
--
-history
 description
 :
 '
@@ -2281,6 +2277,8 @@ Firefox
 Sync
 (
 History
+Bookmarks
+etc
 )
 integration
 .

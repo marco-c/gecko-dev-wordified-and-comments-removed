@@ -64,8 +64,6 @@ mozilla
 samples
 .
 sync
-.
-history
 import
 android
 .
