@@ -363,6 +363,16 @@ var
 to
 SearchEngineManager
 *
+Adds
+optional
+SearchEngine
+to
+invoke
+(
+)
+in
+SearchUseCases
+*
 *
 *
 service
