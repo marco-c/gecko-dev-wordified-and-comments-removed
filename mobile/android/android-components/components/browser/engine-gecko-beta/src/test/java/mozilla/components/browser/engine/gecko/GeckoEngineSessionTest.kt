@@ -2765,7 +2765,6 @@ observedUrl
 }
 Test
 fun
-GeckoEngineSession
 keeps
 track
 of
@@ -2881,8 +2880,6 @@ currentUrl
 }
 Test
 fun
-WebView
-client
 notifies
 configured
 history
@@ -3068,8 +3065,6 @@ World
 }
 Test
 fun
-WebView
-client
 notifies
 configured
 history

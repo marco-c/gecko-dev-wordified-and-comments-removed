@@ -2809,7 +2809,6 @@ observedUrl
 }
 Test
 fun
-GeckoEngineSession
 keeps
 track
 of
@@ -2923,8 +2922,6 @@ currentUrl
 }
 Test
 fun
-WebView
-client
 notifies
 configured
 history
@@ -3105,8 +3102,6 @@ World
 }
 Test
 fun
-WebView
-client
 does
 not
 notify
@@ -3320,8 +3315,6 @@ Mozilla
 }
 Test
 fun
-WebView
-client
 does
 not
 notify
@@ -3500,8 +3493,6 @@ anyBoolean
 }
 Test
 fun
-WebView
-client
 does
 not
 notify
@@ -3627,8 +3618,6 @@ anyBoolean
 }
 Test
 fun
-WebView
-client
 notifies
 configured
 history
@@ -3755,8 +3744,6 @@ false
 }
 Test
 fun
-WebView
-client
 notifies
 configured
 history
@@ -3895,8 +3882,6 @@ true
 }
 Test
 fun
-WebView
-client
 does
 not
 notify
@@ -4032,8 +4017,6 @@ anyBoolean
 }
 Test
 fun
-WebView
-client
 requests
 visited
 URLs
@@ -4246,8 +4229,6 @@ org
 }
 Test
 fun
-WebView
-client
 does
 not
 request
