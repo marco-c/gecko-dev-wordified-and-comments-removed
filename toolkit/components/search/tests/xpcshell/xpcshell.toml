@@ -1578,6 +1578,13 @@ js
 ]
 [
 "
+test_reload_engines_duplicate
+.
+js
+"
+]
+[
+"
 test_reload_engines_experiment
 .
 js
@@ -1753,13 +1760,6 @@ js
 [
 "
 test_settings_persist
-.
-js
-"
-]
-[
-"
-test_settings_persist_diff_locale_same_name
 .
 js
 "
