@@ -22252,6 +22252,13 @@ Image
 icon
 ;
 field
+Nullable
+public
+final
+String
+incognito
+;
+field
 public
 final
 boolean

@@ -1605,6 +1605,7 @@ fullDescription
 homepageURL
 icons
 id
+incognito
 isActive
 isBuiltin
 isCorrectlySigned
@@ -1966,6 +1967,7 @@ isActive
 fullDescription
 homepageURL
 icons
+incognito
 isRecommended
 name
 openOptionsPageInTab
