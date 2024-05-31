@@ -1265,6 +1265,11 @@ FontList
 aList
 )
 ;
+mozilla
+:
+:
+Maybe
+<
 std
 :
 :
@@ -1272,6 +1277,7 @@ pair
 <
 uint32_t
 bool
+>
 >
 FindIndex
 (
