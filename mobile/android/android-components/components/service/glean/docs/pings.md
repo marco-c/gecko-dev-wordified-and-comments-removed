@@ -93,10 +93,14 @@ events
 md
 )
 -
+[
 metrics
 ping
+]
 (
-TBD
+metrics
+.
+md
 )
 #
 #
