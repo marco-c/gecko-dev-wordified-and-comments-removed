@@ -564,6 +564,17 @@ item
 style
 >
 *
+Added
+option
+to
+style
+SimpleBrowserMenuItem
+and
+BrowserMenuImageText
+with
+textColorResource
+.
+*
 *
 *
 browser
