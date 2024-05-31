@@ -196,17 +196,10 @@ property
 )
 {
 val
-state
-=
-BrowserState
-(
-)
-val
 store
 =
 BrowserStore
 (
-state
 )
 assertNull
 (

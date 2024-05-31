@@ -142,17 +142,10 @@ tab
 )
 {
 val
-state
-=
-BrowserState
-(
-)
-val
 store
 =
 BrowserStore
 (
-state
 )
 assertEquals
 (

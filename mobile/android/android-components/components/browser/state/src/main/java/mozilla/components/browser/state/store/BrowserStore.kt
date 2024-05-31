@@ -173,6 +173,10 @@ BrowserStore
 initialState
 :
 BrowserState
+=
+BrowserState
+(
+)
 )
 :
 Store
