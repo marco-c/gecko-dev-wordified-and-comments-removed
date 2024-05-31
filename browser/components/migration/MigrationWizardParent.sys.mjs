@@ -1364,8 +1364,6 @@ fp
 init
 (
 window
-.
-browsingContext
 filePickerConfig
 .
 title
@@ -1853,8 +1851,6 @@ fp
 init
 (
 window
-.
-browsingContext
 filePickerConfig
 .
 title

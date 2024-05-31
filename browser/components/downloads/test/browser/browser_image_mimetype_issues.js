@@ -45,8 +45,6 @@ MockFilePicker
 init
 (
 window
-.
-browsingContext
 )
 ;
 add_task

@@ -705,8 +705,6 @@ fp
 init
 (
 parent
-.
-browsingContext
 saveCertAs
 Ci
 .

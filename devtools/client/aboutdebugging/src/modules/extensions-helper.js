@@ -233,8 +233,6 @@ fp
 init
 (
 win
-.
-browsingContext
 message
 Ci
 .

@@ -1516,8 +1516,6 @@ FilePicker
 init
 (
 window
-.
-browsingContext
 dialogTitle
 FilePicker
 .

@@ -3417,8 +3417,6 @@ webConsoleUI
 document
 .
 defaultView
-.
-browsingContext
 l10n
 .
 getStr

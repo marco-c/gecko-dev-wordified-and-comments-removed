@@ -2712,7 +2712,8 @@ init
 (
 this
 .
-browsingContext
+#
+ownerGlobal
 title
 Ci
 .
@@ -2914,6 +2915,10 @@ tsv
 "
 }
 ]
+this
+.
+#
+ownerGlobal
 )
 ;
 if
@@ -3129,6 +3134,7 @@ openFilePickerDialog
 title
 okButtonLabel
 appendFilters
+ownerGlobal
 )
 {
 return
@@ -3166,9 +3172,7 @@ fp
 .
 init
 (
-this
-.
-browsingContext
+ownerGlobal
 title
 Ci
 .

@@ -172,7 +172,7 @@ nsIFilePicker
 /
 init
 (
-aBrowsingContext
+aParent
 aTitle
 aMode
 )
@@ -223,7 +223,7 @@ lazy
 .
 GeckoViewPrompter
 (
-aBrowsingContext
+aParent
 )
 ;
 this

@@ -1848,8 +1848,6 @@ nsString
 aTitle
 Mode
 aMode
-MaybeDiscardedBrowsingContext
-aBrowsingContext
 )
 ;
 async

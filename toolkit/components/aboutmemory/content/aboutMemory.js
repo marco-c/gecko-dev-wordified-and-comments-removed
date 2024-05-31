@@ -10592,8 +10592,6 @@ fp
 init
 (
 window
-.
-browsingContext
 "
 Save
 Memory

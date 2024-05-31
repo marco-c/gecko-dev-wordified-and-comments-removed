@@ -1895,8 +1895,6 @@ fp
 init
 (
 window
-.
-browsingContext
 title
 fpMode
 )

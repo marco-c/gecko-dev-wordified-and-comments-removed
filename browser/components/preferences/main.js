@@ -15077,8 +15077,6 @@ fp
 init
 (
 window
-.
-browsingContext
 winTitle
 Ci
 .
@@ -15473,8 +15471,6 @@ fp
 init
 (
 window
-.
-browsingContext
 title
 Ci
 .

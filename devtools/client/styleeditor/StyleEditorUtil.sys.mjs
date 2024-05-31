@@ -885,8 +885,6 @@ fp
 init
 (
 parentWindow
-.
-browsingContext
 getString
 (
 key

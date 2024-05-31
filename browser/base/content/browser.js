@@ -14250,8 +14250,6 @@ fp
 init
 (
 window
-.
-browsingContext
 gNavigatorBundle
 .
 getString

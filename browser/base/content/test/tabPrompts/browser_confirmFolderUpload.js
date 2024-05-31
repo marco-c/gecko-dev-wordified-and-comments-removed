@@ -459,8 +459,6 @@ MockFilePicker
 init
 (
 content
-.
-browsingContext
 "
 A
 Mock

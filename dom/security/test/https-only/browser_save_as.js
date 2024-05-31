@@ -102,8 +102,6 @@ MockFilePicker
 init
 (
 window
-.
-browsingContext
 )
 ;
 const

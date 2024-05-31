@@ -1967,8 +1967,6 @@ fp
 init
 (
 window
-.
-browsingContext
 ContentAreaUtils
 .
 stringBundle
