@@ -142,9 +142,15 @@ nsIURI
 >
 PotentiallyDowngradeHttpsFirstRequest
 (
-nsIChannel
+mozilla
+:
+:
+net
+:
+:
+DocumentLoadListener
 *
-aChannel
+aDocumentLoadListener
 nsresult
 aStatus
 )
