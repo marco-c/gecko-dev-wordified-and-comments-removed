@@ -153,11 +153,6 @@ accounts
 "
 feature
 -
-downloads
-"
-"
-feature
--
 prompts
 "
 "
