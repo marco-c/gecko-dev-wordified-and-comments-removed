@@ -427,7 +427,6 @@ function
 triggerWebRequestListener
 (
 webPageURL
-pause
 )
 {
 let

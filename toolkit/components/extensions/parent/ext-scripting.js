@@ -1023,7 +1023,6 @@ filter
 (
 [
 id
-scriptId
 ]
 )
 =
@@ -1049,7 +1048,6 @@ map
 (
 (
 [
-id
 scriptId
 ]
 )

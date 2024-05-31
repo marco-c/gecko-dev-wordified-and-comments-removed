@@ -75,7 +75,6 @@ function
 createMarkup
 (
 doc
-popup
 )
 {
 let
@@ -560,7 +559,6 @@ function
 closePopupWithAction
 (
 action
-extensionId
 )
 {
 let

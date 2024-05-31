@@ -35,8 +35,6 @@ registerPathHandler
 downloadtest
 "
 (
-req
-res
 )
 =
 >

@@ -314,13 +314,6 @@ messageListener
 async
 receiveMessage
 (
-{
-target
-messageName
-recipient
-data
-name
-}
 )
 {
 let
@@ -752,7 +745,8 @@ eventName
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

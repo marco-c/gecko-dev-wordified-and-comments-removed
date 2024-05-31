@@ -1569,7 +1569,8 @@ transactionCompleted
 .
 catch
 (
-err
+(
+)
 =
 >
 {

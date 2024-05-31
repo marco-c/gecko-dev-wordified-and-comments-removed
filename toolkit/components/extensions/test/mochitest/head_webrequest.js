@@ -1136,7 +1136,6 @@ onBeforeRequest
 (
 expected
 details
-result
 )
 {
 browser
@@ -1470,7 +1469,6 @@ onSendHeaders
 (
 expected
 details
-result
 )
 {
 if
@@ -1621,7 +1619,6 @@ onCompleted
 (
 expected
 details
-result
 )
 {
 if
@@ -1797,7 +1794,6 @@ onErrorOccurred
 (
 expected
 details
-result
 )
 {
 if

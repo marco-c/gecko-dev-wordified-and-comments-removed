@@ -271,7 +271,6 @@ addListener
 (
 message
 tabId
-result
 )
 =
 >
@@ -329,7 +328,6 @@ listener
 (
 tabId_
 changed
-tab
 )
 {
 if
@@ -1686,9 +1684,6 @@ onUpdated
 addListener
 (
 (
-tabId
-changeInfo
-tab
 )
 =
 >

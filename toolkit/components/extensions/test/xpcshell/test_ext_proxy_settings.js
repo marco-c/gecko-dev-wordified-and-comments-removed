@@ -244,7 +244,8 @@ onCompleted
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -287,7 +288,8 @@ onErrorOccurred
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

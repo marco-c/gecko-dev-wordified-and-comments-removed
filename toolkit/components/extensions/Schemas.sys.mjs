@@ -2328,7 +2328,6 @@ preprocessors
 localize
 (
 value
-context
 )
 {
 return
@@ -2615,7 +2614,7 @@ param
 {
 string
 }
-permission
+_permission
 *
 The
 name
@@ -2644,7 +2643,7 @@ permission
 /
 hasPermission
 (
-permission
+_permission
 )
 {
 return
@@ -2674,7 +2673,7 @@ param
 {
 string
 }
-permission
+_permission
 *
 The
 name
@@ -2702,7 +2701,7 @@ revokable
 /
 isPermissionRevokable
 (
-permission
+_permission
 )
 {
 return
@@ -5138,7 +5137,7 @@ param
 {
 string
 }
-namespace
+_namespace
 The
 namespace
 of
@@ -5170,7 +5169,7 @@ param
 string
 ?
 }
-name
+_name
 The
 name
 of
@@ -5201,7 +5200,7 @@ Array
 string
 >
 }
-allowedContexts
+_allowedContexts
 A
 list
 of
@@ -5266,9 +5265,9 @@ injected
 /
 shouldInject
 (
-namespace
-name
-allowedContexts
+_namespace
+_name
+_allowedContexts
 )
 {
 throw
@@ -5302,7 +5301,7 @@ param
 {
 string
 }
-namespace
+_namespace
 The
 full
 path
@@ -5337,7 +5336,7 @@ param
 {
 string
 }
-name
+_name
 The
 name
 of
@@ -5362,8 +5361,8 @@ API
 /
 getImplementation
 (
-namespace
-name
+_namespace
+_name
 )
 {
 throw
@@ -6010,7 +6009,6 @@ FORMATS
 hostname
 (
 string
-context
 )
 {
 /
@@ -6109,7 +6107,6 @@ string
 canonicalDomain
 (
 string
-context
 )
 {
 let
@@ -6579,7 +6576,6 @@ context
 unresolvedRelativeUrl
 (
 string
-context
 )
 {
 if
@@ -6974,7 +6970,6 @@ string
 date
 (
 string
-context
 )
 {
 /
@@ -7166,7 +7161,6 @@ string
 manifestShortcutKey
 (
 string
-context
 )
 {
 if
@@ -8222,7 +8216,7 @@ Array
 string
 >
 }
-path
+_path
 The
 API
 path
@@ -8244,7 +8238,7 @@ param
 {
 InjectionContext
 }
-context
+_context
 *
 *
 returns
@@ -8287,8 +8281,8 @@ revoked
 /
 getDescriptor
 (
-path
-context
+_path
+_context
 )
 {
 return
@@ -8980,7 +8974,6 @@ type
 checking
 checkBaseType
 (
-baseType
 )
 {
 return
@@ -9162,7 +9155,6 @@ context
 }
 checkBaseType
 (
-baseType
 )
 {
 return

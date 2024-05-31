@@ -2171,7 +2171,7 @@ ChromeWindow
 |
 null
 }
-target
+_target
 *
 Browser
 tab
@@ -2187,7 +2187,7 @@ null
 /
 updateOnChange
 (
-target
+_target
 )
 {
 }
@@ -2207,7 +2207,7 @@ param
 {
 string
 }
-tabId
+_tabId
 *
 Internal
 id
@@ -2221,7 +2221,7 @@ get
 /
 getTab
 (
-tabId
+_tabId
 )
 {
 }
@@ -2240,7 +2240,7 @@ param
 {
 string
 }
-windowId
+_windowId
 *
 Internal
 id
@@ -2254,7 +2254,7 @@ get
 /
 getWindow
 (
-windowId
+_windowId
 )
 {
 }
@@ -2289,7 +2289,7 @@ param
 {
 object
 }
-details
+_details
 *
 An
 object
@@ -2306,7 +2306,7 @@ param
 number
 }
 [
-details
+_details
 .
 tabId
 ]
@@ -2316,7 +2316,7 @@ param
 number
 }
 [
-details
+_details
 .
 windowId
 ]
@@ -2373,10 +2373,7 @@ null
 /
 getTargetFromDetails
 (
-{
-tabId
-windowId
-}
+_details
 )
 {
 return
@@ -2398,7 +2395,7 @@ param
 {
 XULElement
 }
-tab
+_tab
 *
 The
 tab
@@ -2414,7 +2411,7 @@ param
 {
 object
 }
-clickInfo
+_clickInfo
 *
 Extra
 data
@@ -2437,8 +2434,8 @@ event
 /
 dispatchClick
 (
-tab
-clickInfo
+_tab
+_clickInfo
 )
 {
 }
@@ -2459,7 +2456,7 @@ param
 {
 XULElement
 }
-tab
+_tab
 *
 The
 tab
@@ -2475,7 +2472,7 @@ boolean
 /
 isShownForTab
 (
-tab
+_tab
 )
 {
 return
@@ -3184,7 +3181,6 @@ getTargetFromDetails
 (
 {
 tabId
-windowId
 }
 )
 {

@@ -100,8 +100,6 @@ script
 js
 "
 (
-request
-response
 )
 =
 >

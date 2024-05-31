@@ -307,7 +307,6 @@ getLocalIDBBackend
 context
 {
 fireOnChanged
-serialize
 storagePrincipal
 }
 )
@@ -1404,7 +1403,6 @@ deserialize
 }
 set
 (
-items
 )
 {
 return
@@ -1430,7 +1428,6 @@ only
 }
 remove
 (
-keys
 )
 {
 return

@@ -191,7 +191,8 @@ onMessage
 .
 addListener
 (
-msg
+(
+)
 =
 >
 {
@@ -218,7 +219,8 @@ ws
 .
 onopen
 =
-e
+(
+)
 =
 >
 {
@@ -237,7 +239,8 @@ ws
 .
 onclose
 =
-e
+(
+)
 =
 >
 {
@@ -247,7 +250,8 @@ ws
 .
 onerror
 =
-e
+(
+)
 =
 >
 {
@@ -257,7 +261,8 @@ ws
 .
 onmessage
 =
-e
+(
+)
 =
 >
 {

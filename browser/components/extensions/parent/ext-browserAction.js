@@ -504,7 +504,6 @@ extension
 async
 onManifestEntry
 (
-entryName
 )
 {
 let
@@ -1959,10 +1958,7 @@ true
 }
 onBeforeCommand
 :
-(
 event
-node
-)
 =
 >
 {

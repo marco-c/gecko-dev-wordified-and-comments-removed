@@ -97,7 +97,6 @@ addListener
 (
 msg
 sender
-respond
 )
 =
 >
@@ -1545,10 +1544,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-sender
-)
 =
 >
 {
@@ -1915,10 +1911,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-sender
-)
 =
 >
 {

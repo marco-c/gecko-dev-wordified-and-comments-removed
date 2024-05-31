@@ -2388,7 +2388,6 @@ function
 testContextMenu
 (
 menuId
-customizing
 )
 {
 info

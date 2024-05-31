@@ -84,7 +84,6 @@ addListener
 (
 tabId
 changes
-tab
 )
 =
 >

@@ -345,7 +345,8 @@ onCompleted
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

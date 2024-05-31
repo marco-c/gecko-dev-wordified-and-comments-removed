@@ -257,14 +257,12 @@ nsIStreamListener
 )
 onStartRequest
 (
-request
 )
 {
 }
 onStopRequest
 (
 request
-statusCode
 )
 {
 let

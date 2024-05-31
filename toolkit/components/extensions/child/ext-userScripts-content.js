@@ -1050,7 +1050,6 @@ handler
 event
 metadata
 scriptSandbox
-eventResult
 )
 =
 >

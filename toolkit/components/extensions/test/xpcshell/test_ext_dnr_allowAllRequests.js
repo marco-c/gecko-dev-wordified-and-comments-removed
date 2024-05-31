@@ -108,8 +108,6 @@ registerPathHandler
 never_reached
 "
 (
-req
-res
 )
 =
 >

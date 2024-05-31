@@ -1664,7 +1664,8 @@ useCapture
 true
 test
 =
-event
+(
+)
 =
 >
 true

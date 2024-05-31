@@ -45,9 +45,6 @@ checkPolicy
 policy
 flags
 expectedResult
-message
-=
-null
 )
 =
 >
@@ -468,9 +465,6 @@ checkPolicy
 (
 policy
 expectedResult
-message
-=
-null
 )
 =
 >
@@ -1374,9 +1368,6 @@ checkPolicy
 (
 policy
 expectedResult
-message
-=
-null
 )
 =
 >

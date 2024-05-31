@@ -167,8 +167,6 @@ function
 listener
 (
 subject
-topic
-data
 )
 {
 try
@@ -1170,7 +1168,6 @@ listener
 (
 subject
 _topic
-data
 )
 {
 const

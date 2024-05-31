@@ -540,10 +540,7 @@ defaultsearch
 -
 prompt
 "
-(
 subject
-message
-)
 =
 >
 {
@@ -1091,10 +1088,7 @@ defaultsearch
 -
 prompt
 "
-(
 subject
-message
-)
 =
 >
 {
@@ -1563,10 +1557,7 @@ defaultsearch
 -
 prompt
 "
-(
 subject
-message
-)
 =
 >
 {
@@ -1631,10 +1622,7 @@ defaultsearch
 -
 prompt
 "
-(
 subject
-message
-)
 =
 >
 {

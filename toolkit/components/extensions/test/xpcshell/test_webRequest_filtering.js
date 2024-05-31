@@ -426,7 +426,6 @@ async
 function
 openAndCloseContentPage
 (
-url
 )
 {
 let

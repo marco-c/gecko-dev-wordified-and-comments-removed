@@ -360,7 +360,6 @@ addListener
 (
 tabId
 changeInfo
-tab
 )
 =
 >

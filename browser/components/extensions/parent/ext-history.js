@@ -482,7 +482,6 @@ message
 }
 handleCompletion
 (
-reason
 )
 {
 resolve

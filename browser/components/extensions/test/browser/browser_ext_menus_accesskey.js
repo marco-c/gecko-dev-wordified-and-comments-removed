@@ -1076,7 +1076,6 @@ selectedBrowser
 ]
 function
 (
-arg
 )
 {
 let

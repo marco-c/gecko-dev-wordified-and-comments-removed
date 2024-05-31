@@ -1164,8 +1164,6 @@ webExtContextData
 observe
 (
 subject
-topic
-data
 )
 {
 pendingMenuEvent

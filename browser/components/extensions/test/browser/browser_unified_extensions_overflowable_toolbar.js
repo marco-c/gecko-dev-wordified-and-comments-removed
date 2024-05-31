@@ -721,7 +721,6 @@ promise
 onWidgetAdded
 (
 widgetID
-area
 )
 {
 if
@@ -952,8 +951,6 @@ promise
 }
 onWidgetOverflow
 (
-widgetNode
-areaNode
 )
 {
 this
@@ -2138,7 +2135,6 @@ async
 (
 defaultList
 unifiedExtensionList
-extensionIDs
 )
 =
 >
@@ -2643,7 +2639,6 @@ async
 (
 defaultList
 unifiedExtensionList
-extensionIDs
 )
 =
 >
@@ -3916,7 +3911,6 @@ async
 (
 defaultList
 unifiedExtensionList
-extensionIDs
 )
 =
 >
@@ -4272,7 +4266,6 @@ async
 (
 defaultList
 unifiedExtensionList
-extensionIDs
 )
 =
 >
@@ -5553,9 +5546,6 @@ whenOverflowed
 :
 async
 (
-defaultList
-unifiedExtensionList
-extensionIDs
 )
 =
 >
@@ -6780,7 +6770,6 @@ async
 (
 defaultList
 unifiedExtensionList
-extensionIDs
 )
 =
 >

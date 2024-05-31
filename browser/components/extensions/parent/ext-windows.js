@@ -637,7 +637,8 @@ lastOnFocusChangedWindowId
 let
 listener
 =
-event
+(
+)
 =
 >
 {

@@ -95,7 +95,6 @@ extension
 }
 onManifestEntry
 (
-entryName
 )
 {
 let

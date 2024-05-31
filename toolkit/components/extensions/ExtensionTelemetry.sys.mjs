@@ -750,7 +750,8 @@ gleanTimerIdsMap
 new
 DefaultWeakMap
 (
-ext
+(
+)
 =
 >
 new
@@ -2119,7 +2120,6 @@ get
 (
 target
 prop
-receiver
 )
 {
 /

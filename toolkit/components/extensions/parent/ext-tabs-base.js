@@ -3055,7 +3055,7 @@ undefined
 static
 getState
 (
-window
+_window
 )
 {
 throw
@@ -3117,7 +3117,7 @@ implemented
 }
 getTabAtIndex
 (
-index
+_index
 )
 {
 throw
@@ -3200,7 +3200,7 @@ implemented
 }
 getId
 (
-nativeTab
+_nativeTab
 )
 {
 throw
@@ -3216,10 +3216,8 @@ implemented
 }
 getTab
 (
-tabId
-default_
-=
-undefined
+_tabId
+_default
 )
 {
 throw
@@ -3235,7 +3233,6 @@ implemented
 }
 getBrowserData
 (
-browser
 )
 {
 throw
@@ -3403,7 +3400,6 @@ browser
 webProgress
 request
 locationURI
-flags
 )
 {
 if
@@ -4690,8 +4686,8 @@ listener
 }
 addProgressListener
 (
-window
-listener
+_window
+_listener
 )
 {
 throw
@@ -4707,8 +4703,8 @@ implemented
 }
 removeProgressListener
 (
-window
-listener
+_window
+_listener
 )
 {
 throw
@@ -4994,7 +4990,7 @@ nativeTab
 }
 canAccessTab
 (
-nativeTab
+_nativeTab
 )
 {
 throw
@@ -5320,7 +5316,7 @@ tabWrapper
 }
 get
 (
-tabId
+_tabId
 )
 {
 throw
@@ -5336,7 +5332,7 @@ implemented
 }
 wrapTab
 (
-nativeTab
+_nativeTab
 )
 {
 throw
@@ -5645,8 +5641,8 @@ windowWrapper
 }
 get
 (
-windowId
-context
+_windowId
+_context
 )
 {
 throw
@@ -5677,7 +5673,7 @@ implemented
 }
 wrapWindow
 (
-window
+_window
 )
 {
 throw

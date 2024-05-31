@@ -1223,8 +1223,6 @@ id
 observe
 (
 subject
-topic
-data
 )
 {
 /

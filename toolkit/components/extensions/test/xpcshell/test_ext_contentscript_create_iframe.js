@@ -59,10 +59,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-sender
-)
 =
 >
 {

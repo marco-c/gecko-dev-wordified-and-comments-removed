@@ -1439,10 +1439,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1754,10 +1751,7 @@ promisedWin
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

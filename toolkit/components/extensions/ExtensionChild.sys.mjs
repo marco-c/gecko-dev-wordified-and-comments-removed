@@ -2894,7 +2894,6 @@ allowedOrigins
 getSharedData
 (
 key
-value
 )
 {
 return

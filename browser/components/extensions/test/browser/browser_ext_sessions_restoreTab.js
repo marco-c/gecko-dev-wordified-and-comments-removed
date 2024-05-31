@@ -73,10 +73,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-filter
-)
 =
 >
 {
@@ -394,10 +391,7 @@ onMessage
 addListener
 (
 async
-(
 msg
-filter
-)
 =
 >
 {

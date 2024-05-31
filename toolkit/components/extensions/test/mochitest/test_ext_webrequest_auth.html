@@ -769,9 +769,6 @@ nsIAuthPrompt2
 )
 promptAuth
 (
-channel
-level
-authInfo
 )
 {
 throw
@@ -789,8 +786,6 @@ NS_ERROR_NO_INTERFACE
 }
 getAuthPrompt
 (
-reason
-iid
 )
 {
 return
@@ -802,8 +797,6 @@ asyncPromptAuth
 channel
 callback
 context
-level
-authInfo
 )
 {
 /
@@ -1266,9 +1259,6 @@ nsIAuthPrompt2
 )
 promptAuth
 (
-request
-level
-authInfo
 )
 {
 throw
@@ -1287,10 +1277,6 @@ NS_ERROR_NO_INTERFACE
 asyncPromptAuth
 (
 request
-callback
-context
-level
-authInfo
 )
 {
 /

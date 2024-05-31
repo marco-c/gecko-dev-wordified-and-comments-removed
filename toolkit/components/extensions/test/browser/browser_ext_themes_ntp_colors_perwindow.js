@@ -317,7 +317,6 @@ function
 test_ntp_default_theme
 (
 browser
-url
 )
 {
 Services

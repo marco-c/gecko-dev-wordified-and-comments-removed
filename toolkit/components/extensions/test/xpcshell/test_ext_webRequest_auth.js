@@ -128,7 +128,6 @@ proxy_realm
 function
 checkAuthorization
 (
-authorization
 )
 {
 let

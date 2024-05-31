@@ -3010,7 +3010,8 @@ onDisconnect
 .
 addListener
 (
-msgPort
+(
+)
 =
 >
 {
@@ -3792,7 +3793,8 @@ onMessage
 .
 addListener
 (
-msg
+(
+)
 =
 >
 {
@@ -4969,7 +4971,8 @@ onMessage
 .
 addListener
 (
-msg
+(
+)
 =
 >
 {

@@ -437,7 +437,6 @@ async
 (
 tabId
 changeInfo
-tab
 )
 =
 >

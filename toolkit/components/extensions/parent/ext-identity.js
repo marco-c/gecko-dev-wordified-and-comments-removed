@@ -491,11 +491,6 @@ httpObserver
 observeActivity
 (
 channel
-type
-subtype
-timestamp
-sizeData
-stringData
 )
 {
 try
@@ -614,7 +609,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return

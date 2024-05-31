@@ -993,7 +993,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1048,7 +1049,8 @@ onRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

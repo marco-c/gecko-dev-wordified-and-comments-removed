@@ -49,7 +49,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return

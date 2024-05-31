@@ -123,8 +123,6 @@ onUpdated
 addListener
 (
 (
-tabId
-changeInfo
 )
 =
 >
@@ -397,8 +395,6 @@ onUpdated
 addListener
 (
 (
-tabId
-changeInfo
 )
 =
 >

@@ -216,9 +216,6 @@ let
 observerStatus
 =
 (
-subject
-topic
-data
 )
 =
 >

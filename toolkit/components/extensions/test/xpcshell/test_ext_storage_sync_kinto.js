@@ -1261,10 +1261,7 @@ registerPathHandler
 "
 /
 "
-(
 request
-response
-)
 =
 >
 {
@@ -3825,7 +3822,6 @@ async
 function
 (
 extensionStorageSync
-fxaService
 )
 {
 async
@@ -6619,7 +6615,6 @@ withSyncContext
 async
 function
 (
-context
 )
 {
 await

@@ -107,8 +107,6 @@ assertSetIconThrows
 function
 (
 detail
-error
-message
 )
 {
 detail
@@ -1191,7 +1189,8 @@ url
 let
 matchURLForbidden
 =
-url
+(
+)
 =
 >
 (

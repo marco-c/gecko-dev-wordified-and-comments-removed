@@ -161,7 +161,8 @@ tabContext
 new
 TabContext
 (
-tab
+(
+)
 =
 >
 this
@@ -353,7 +354,6 @@ addon
 async
 onManifestEntry
 (
-entryName
 )
 {
 let
@@ -653,10 +653,7 @@ enabled
 )
 onCommand
 :
-(
 event
-buttonNode
-)
 =
 >
 {

@@ -270,7 +270,6 @@ popupshown
 "
 function
 (
-event
 )
 {
 resolve
@@ -2520,7 +2519,8 @@ browserReady
 .
 then
 (
-browser
+(
+)
 =
 >
 {

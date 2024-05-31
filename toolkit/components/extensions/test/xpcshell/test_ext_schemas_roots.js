@@ -620,7 +620,6 @@ preprocessors
 localize
 (
 value
-context
 )
 {
 return

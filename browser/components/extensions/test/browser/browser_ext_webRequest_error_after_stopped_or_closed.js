@@ -344,7 +344,8 @@ await
 runTest
 (
 async
-slowTab
+(
+)
 =
 >
 {

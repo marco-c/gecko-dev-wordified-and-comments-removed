@@ -29,7 +29,6 @@ async
 (
 tabId
 changeInfo
-tabInfo
 )
 =
 >

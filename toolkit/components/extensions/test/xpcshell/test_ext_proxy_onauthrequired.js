@@ -1218,7 +1218,8 @@ onBeforeSendHeaders
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1273,7 +1274,8 @@ onAuthRequired
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1496,7 +1498,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1533,7 +1536,8 @@ onAuthRequired
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

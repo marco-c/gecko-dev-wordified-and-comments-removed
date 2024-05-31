@@ -619,7 +619,8 @@ onRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -996,7 +997,8 @@ random
 .
 then
 (
-text
+(
+)
 =
 >
 {
@@ -1198,7 +1200,8 @@ completed
 .
 catch
 (
-req
+(
+)
 =
 >
 {

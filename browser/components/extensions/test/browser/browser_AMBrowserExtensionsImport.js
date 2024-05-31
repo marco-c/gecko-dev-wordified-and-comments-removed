@@ -196,8 +196,6 @@ return
 async
 getMappedAddons
 (
-browserID
-extensionIDs
 )
 {
 return
@@ -678,7 +676,8 @@ importedAddonIDs
 .
 map
 (
-id
+(
+)
 =
 >
 AddonTestUtils

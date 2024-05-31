@@ -1580,7 +1580,6 @@ setProperty
 }
 hasListener
 (
-listener
 )
 {
 /

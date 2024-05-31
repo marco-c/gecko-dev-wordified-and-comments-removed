@@ -158,7 +158,6 @@ for
 now
 constructor
 (
-extension
 )
 {
 }

@@ -420,7 +420,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -782,7 +783,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1089,7 +1091,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1356,7 +1359,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1946,7 +1950,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -2376,7 +2381,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -2430,7 +2436,8 @@ onSendHeaders
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -2610,7 +2617,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -2664,7 +2672,8 @@ onBeforeSendHeaders
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -2713,7 +2722,8 @@ onSendHeaders
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -3427,7 +3437,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

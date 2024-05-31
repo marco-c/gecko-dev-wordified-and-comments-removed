@@ -276,7 +276,6 @@ tabsOnUpdatedAfterLoad
 (
 tabId
 changeInfo
-tab
 )
 {
 browser

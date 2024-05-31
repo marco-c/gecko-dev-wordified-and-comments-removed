@@ -1718,7 +1718,6 @@ function
 onUpdated
 (
 tabId
-changeInfo
 )
 {
 if
@@ -1768,10 +1767,7 @@ onRemoved
 .
 addListener
 (
-(
 tabId
-removedInfo
-)
 =
 >
 {

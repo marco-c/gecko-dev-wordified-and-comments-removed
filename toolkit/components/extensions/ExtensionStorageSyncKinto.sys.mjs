@@ -3037,7 +3037,6 @@ collection
 }
 validate
 (
-id
 )
 {
 return

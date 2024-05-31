@@ -260,7 +260,8 @@ MockFilePicker
 .
 showCallback
 =
-fp
+(
+)
 =
 >
 {

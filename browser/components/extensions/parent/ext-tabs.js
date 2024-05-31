@@ -433,9 +433,6 @@ onLocationChange
 (
 browser
 webProgress
-request
-locationURI
-flags
 )
 {
 if
@@ -1752,7 +1749,6 @@ function
 matchFilters
 (
 tab
-changed
 )
 {
 if
@@ -3383,7 +3379,8 @@ onReplaced
 "
 register
 :
-fire
+(
+)
 =
 >
 {
@@ -3451,10 +3448,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -3541,11 +3535,7 @@ delayedStartupFinished
 let
 obs
 =
-(
 finishedWindow
-topic
-data
-)
 =
 >
 {

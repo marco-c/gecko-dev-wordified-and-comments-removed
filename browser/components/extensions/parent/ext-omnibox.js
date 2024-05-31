@@ -57,7 +57,8 @@ this
 let
 listener
 =
-eventName
+(
+)
 =
 >
 {
@@ -126,7 +127,8 @@ this
 let
 listener
 =
-eventName
+(
+)
 =
 >
 {
@@ -405,7 +407,6 @@ _fire
 ;
 onManifestEntry
 (
-entryName
 )
 {
 let

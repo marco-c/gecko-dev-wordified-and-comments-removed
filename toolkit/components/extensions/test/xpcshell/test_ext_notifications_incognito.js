@@ -103,7 +103,6 @@ alertListener
 }
 closeAlert
 (
-name
 )
 {
 }

@@ -1776,7 +1776,6 @@ filterByCategory
 =
 (
 [
-timestamp
 category
 ]
 )

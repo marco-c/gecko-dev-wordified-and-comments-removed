@@ -2080,7 +2080,6 @@ selectedBrowser
 async
 function
 (
-arg
 )
 {
 let
@@ -2416,7 +2415,6 @@ selectedBrowser
 ]
 function
 (
-arg
 )
 {
 let
@@ -2651,7 +2649,6 @@ selectedBrowser
 ]
 function
 (
-arg
 )
 {
 let

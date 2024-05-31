@@ -7346,8 +7346,6 @@ false
 examine
 (
 channel
-topic
-data
 )
 {
 if

@@ -10669,7 +10669,6 @@ cloneScope
 global
 shouldInject
 (
-ns
 )
 {
 return
@@ -10999,7 +10998,6 @@ cloneScope
 global
 shouldInject
 (
-ns
 )
 {
 return
@@ -11571,7 +11569,6 @@ cloneScope
 sandbox
 shouldInject
 (
-ns
 )
 {
 return

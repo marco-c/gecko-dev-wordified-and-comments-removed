@@ -320,7 +320,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return
@@ -543,7 +542,8 @@ foo
 onChildEvent
 register
 :
-fire
+(
+)
 =
 >
 {
@@ -1537,7 +1537,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return
@@ -1594,7 +1593,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return

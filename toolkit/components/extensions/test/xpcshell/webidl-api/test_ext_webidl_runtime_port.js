@@ -75,7 +75,6 @@ backgroundScript
 (
 {
 testAsserts
-testLog
 }
 )
 {

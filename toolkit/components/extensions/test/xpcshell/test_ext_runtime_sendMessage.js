@@ -424,11 +424,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-sender
-respond
-)
 =
 >
 {
@@ -1657,7 +1653,8 @@ return
 new
 Promise
 (
-r
+(
+)
 =
 >
 {

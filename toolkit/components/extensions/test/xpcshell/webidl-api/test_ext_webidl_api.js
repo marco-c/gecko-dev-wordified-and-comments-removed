@@ -248,8 +248,6 @@ err
 }
 mockAPIRequestHandler
 (
-policy
-request
 )
 {
 return
@@ -357,8 +355,6 @@ message
 function
 mockAPIRequestHandler
 (
-policy
-request
 )
 {
 throw
@@ -879,8 +875,6 @@ arg0
 }
 mockAPIRequestHandler
 (
-policy
-request
 )
 {
 return
@@ -1002,8 +996,6 @@ err
 }
 mockAPIRequestHandler
 (
-policy
-request
 )
 {
 return
@@ -1127,8 +1119,6 @@ err
 }
 mockAPIRequestHandler
 (
-policy
-request
 )
 {
 return
@@ -1549,8 +1539,6 @@ err
 }
 mockAPIRequestHandler
 (
-policy
-request
 )
 {
 return
@@ -1653,8 +1641,6 @@ arg0
 }
 mockAPIRequestHandler
 (
-policy
-request
 )
 {
 return
@@ -2304,8 +2290,6 @@ propertyAsString
 }
 mockAPIRequestHandler
 (
-policy
-request
 )
 {
 return
@@ -2468,7 +2452,6 @@ assertResults
 (
 {
 testError
-testResult
 }
 )
 {

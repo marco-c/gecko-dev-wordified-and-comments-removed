@@ -75,8 +75,6 @@ registerPathHandler
 never_reached
 "
 (
-req
-res
 )
 =
 >
@@ -1309,7 +1307,8 @@ onBeforeRequest
 .
 addListener
 (
-d
+(
+)
 =
 >
 {

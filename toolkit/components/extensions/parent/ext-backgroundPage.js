@@ -2143,7 +2143,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -3393,7 +3392,6 @@ ExtensionAPI
 async
 onManifestEntry
 (
-entryName
 )
 {
 let

@@ -755,8 +755,6 @@ info
 function
 onPageActionClicked
 (
-tab
-info
 )
 {
 browser

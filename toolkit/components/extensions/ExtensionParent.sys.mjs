@@ -4283,9 +4283,6 @@ savedBrowser
 }
 logActivity
 (
-type
-name
-data
 )
 {
 /
@@ -5733,7 +5730,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -6452,7 +6448,6 @@ recvContextLoaded
 data
 {
 actor
-sender
 }
 )
 {
@@ -10887,8 +10882,6 @@ function
 observer
 (
 subject
-topic
-data
 )
 {
 if
@@ -12438,8 +12431,6 @@ getPreferredIcon
 (
 icons
 extension
-=
-null
 size
 =
 16
@@ -13502,7 +13493,8 @@ id
 .
 catch
 (
-e
+(
+)
 =
 >
 {
@@ -13544,7 +13536,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

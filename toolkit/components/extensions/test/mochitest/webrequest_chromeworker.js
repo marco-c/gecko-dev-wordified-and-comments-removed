@@ -7,7 +7,6 @@ onmessage
 =
 function
 (
-event
 )
 {
 fetch

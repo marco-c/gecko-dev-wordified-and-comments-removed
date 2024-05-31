@@ -183,7 +183,8 @@ addEventListener
 "
 mousedown
 "
-e
+(
+)
 =
 >
 {
@@ -230,7 +231,8 @@ addEventListener
 "
 mousedown
 "
-e
+(
+)
 =
 >
 {

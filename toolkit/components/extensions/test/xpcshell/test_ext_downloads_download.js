@@ -2100,7 +2100,6 @@ content
 function
 background
 (
-code
 )
 {
 let

@@ -707,7 +707,6 @@ NEW_TAB_SETTING_NAME
 async
 onManifestEntry
 (
-entryName
 )
 {
 let

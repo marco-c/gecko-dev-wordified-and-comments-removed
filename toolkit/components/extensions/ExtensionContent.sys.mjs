@@ -6014,8 +6014,6 @@ destroyed
 "
 (
 subject
-topic
-data
 )
 {
 let

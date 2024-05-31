@@ -1471,7 +1471,6 @@ HandleUserInput
 receiveMessage
 (
 {
-name
 data
 }
 )
@@ -1809,7 +1808,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

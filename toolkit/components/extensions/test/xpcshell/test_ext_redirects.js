@@ -379,10 +379,7 @@ modify
 -
 request
 "
-(
 subject
-data
-)
 =
 >
 {
@@ -421,7 +418,6 @@ then
 (
 [
 subject
-data
 ]
 )
 =
@@ -1428,7 +1424,8 @@ onHeadersReceived
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1470,7 +1467,8 @@ onResponseStarted
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -3055,7 +3053,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

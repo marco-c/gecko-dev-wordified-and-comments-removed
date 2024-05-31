@@ -149,7 +149,6 @@ extension
 }
 getAPI
 (
-context
 )
 {
 const

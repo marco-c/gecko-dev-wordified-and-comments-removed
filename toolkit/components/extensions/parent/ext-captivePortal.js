@@ -215,8 +215,6 @@ let
 observer
 =
 (
-subject
-topic
 )
 =
 >
@@ -298,7 +296,6 @@ state
 convert
 (
 _fire
-context
 )
 {
 fire
@@ -395,7 +392,6 @@ connectivity
 convert
 (
 _fire
-context
 )
 {
 fire
@@ -424,8 +420,6 @@ let
 listener
 =
 (
-text
-id
 )
 =
 >
@@ -488,7 +482,6 @@ listener
 convert
 (
 _fire
-context
 )
 {
 fire

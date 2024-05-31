@@ -192,7 +192,6 @@ extensionId
 async
 onManifestEntry
 (
-entryName
 )
 {
 let
