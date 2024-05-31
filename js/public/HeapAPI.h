@@ -295,6 +295,14 @@ MarkBitsPerCell
 ;
 const
 size_t
+MinCellSize
+=
+CellBytesPerMarkBit
+*
+MarkBitsPerCell
+;
+const
+size_t
 ArenaBitmapBits
 =
 ArenaSize

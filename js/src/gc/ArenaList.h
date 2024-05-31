@@ -343,13 +343,6 @@ SortedArenaList
 {
 public
 :
-static
-const
-size_t
-MinThingSize
-=
-16
-;
 static_assert
 (
 ArenaSize
@@ -381,7 +374,7 @@ SortedArenaList
 ;
 static_assert
 (
-MinThingSize
+MinCellSize
 >
 =
 16
@@ -420,7 +413,7 @@ ArenaSize
 ArenaHeaderSize
 )
 /
-MinThingSize
+MinCellSize
 ;
 static
 const

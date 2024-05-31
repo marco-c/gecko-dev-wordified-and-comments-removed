@@ -107,14 +107,6 @@ CellAlignShift
 -
 1
 ;
-const
-size_t
-MinCellSize
-=
-CellBytesPerMarkBit
-*
-MarkBitsPerCell
-;
 static_assert
 (
 ArenaSize
