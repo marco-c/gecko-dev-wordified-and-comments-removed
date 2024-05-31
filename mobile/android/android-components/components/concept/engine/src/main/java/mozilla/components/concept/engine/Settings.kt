@@ -1180,7 +1180,7 @@ fontInflationEnabled
 :
 Boolean
 =
-false
+true
 override
 var
 fontSizeFactor

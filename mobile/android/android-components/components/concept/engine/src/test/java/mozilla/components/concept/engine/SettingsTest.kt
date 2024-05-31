@@ -715,7 +715,7 @@ settings
 .
 suspendMediaWhenInactive
 )
-assertFalse
+assertTrue
 (
 settings
 .
@@ -836,7 +836,7 @@ suspendMediaWhenInactive
 true
 fontInflationEnabled
 =
-true
+false
 fontSizeFactor
 =
 2
@@ -1006,7 +1006,7 @@ defaultSettings
 .
 suspendMediaWhenInactive
 )
-assertTrue
+assertFalse
 (
 defaultSettings
 .
