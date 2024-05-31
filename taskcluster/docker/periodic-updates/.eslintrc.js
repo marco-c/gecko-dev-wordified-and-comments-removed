@@ -151,17 +151,6 @@ expressions
 "
 error
 "
-"
-no
--
-useless
--
-escape
-"
-:
-"
-error
-"
 strict
 :
 [
