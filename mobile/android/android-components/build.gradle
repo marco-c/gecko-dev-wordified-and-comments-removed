@@ -86,14 +86,10 @@ classpath
 Dependencies
 .
 tools_dokka
-/
-/
-Publish
-.
 classpath
 Dependencies
 .
-tools_mavengradle
+tools_androidmavenpublish
 /
 /
 Mozilla
