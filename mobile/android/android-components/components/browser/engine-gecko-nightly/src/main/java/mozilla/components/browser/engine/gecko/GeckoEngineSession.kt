@@ -116,6 +116,14 @@ mozilla
 geckoview
 .
 GeckoSession
+import
+kotlinx
+.
+coroutines
+.
+experimental
+.
+launch
 /
 *
 *
@@ -432,6 +440,8 @@ Any
 >
 (
 )
+launch
+{
 geckoSession
 .
 saveState
@@ -483,6 +493,7 @@ state
 }
 }
 )
+}
 stateMap
 .
 await

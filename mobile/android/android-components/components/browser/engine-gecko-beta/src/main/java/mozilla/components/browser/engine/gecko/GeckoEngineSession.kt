@@ -81,6 +81,14 @@ coroutines
 .
 experimental
 .
+launch
+import
+kotlinx
+.
+coroutines
+.
+experimental
+.
 runBlocking
 import
 mozilla
@@ -432,6 +440,8 @@ Any
 >
 (
 )
+launch
+{
 geckoSession
 .
 saveState
@@ -483,6 +493,7 @@ state
 }
 }
 )
+}
 stateMap
 .
 await
