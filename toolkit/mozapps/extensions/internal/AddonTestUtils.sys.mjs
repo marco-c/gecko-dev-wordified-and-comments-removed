@@ -3598,7 +3598,7 @@ async
 (
 file
 result
-cert
+signatureInfos
 callback
 )
 =
@@ -3828,7 +3828,20 @@ callback
 Cr
 .
 NS_OK
+[
+{
+signerCert
+:
 fakeCert
+signatureAlgorithm
+:
+Ci
+.
+nsIAppSignatureInfo
+.
+COSE_WITH_SHA256
+}
+]
 ]
 ;
 }
@@ -3907,7 +3920,7 @@ return
 [
 callback
 result
-cert
+signatureInfos
 ]
 ;
 }
@@ -4017,7 +4030,7 @@ file
 (
 result
 zipReader
-cert
+signatureInfos
 )
 =
 >
@@ -4030,7 +4043,7 @@ clone
 (
 )
 result
-cert
+signatureInfos
 callback
 )
 .
@@ -4040,7 +4053,7 @@ then
 [
 callback
 result
-cert
+signatureInfos
 ]
 )
 =
@@ -4052,7 +4065,7 @@ openSignedAppFileFinished
 (
 result
 zipReader
-cert
+signatureInfos
 )
 ;
 }
