@@ -253,7 +253,7 @@ mExtraInfo
 ScopedLogExtraInfo
 :
 :
-kTagQuery
+kTagQueryTainted
 aQuery
 }
 {
