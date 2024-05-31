@@ -245,7 +245,7 @@ WeakPtr
 CanvasContext
 >
 >
-mTargetContexts
+mPresentationContexts
 ;
 public
 :

@@ -89,7 +89,7 @@ CanvasContext
 >
 &
 &
-aTargetContexts
+aPresentationContexts
 RefPtr
 <
 CommandEncoder
@@ -137,7 +137,7 @@ WeakPtr
 CanvasContext
 >
 >
-mTargetContexts
+mPresentationContexts
 ;
 RefPtr
 <
