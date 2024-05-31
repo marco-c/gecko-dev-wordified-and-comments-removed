@@ -965,6 +965,12 @@ Blocking
 (
 )
 ;
+bool
+IsPotentiallyRenderBlocking
+(
+)
+override
+;
 void
 NodeInfoChanged
 (

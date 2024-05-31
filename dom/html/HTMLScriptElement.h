@@ -750,6 +750,12 @@ Blocking
 (
 )
 ;
+bool
+IsPotentiallyRenderBlocking
+(
+)
+override
+;
 using
 nsGenericHTMLElement
 :
