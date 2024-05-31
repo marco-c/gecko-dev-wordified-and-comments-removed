@@ -367,8 +367,6 @@ CookieManager
 }
 private
 fun
-okhttp3
-.
 OkHttpClient
 .
 rebuildFor
@@ -382,8 +380,6 @@ Context
 ?
 )
 :
-okhttp3
-.
 OkHttpClient
 {
 Suppress
@@ -686,9 +682,7 @@ readBytes
 }
 )
 }
-val
-requestBuilder
-=
+return
 RequestBuilder
 (
 )
@@ -709,8 +703,6 @@ method
 name
 requestBody
 )
-return
-requestBuilder
 }
 private
 fun

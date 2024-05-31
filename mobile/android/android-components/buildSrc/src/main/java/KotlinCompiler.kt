@@ -210,13 +210,6 @@ feature
 tabs
 "
 "
-lib
--
-fetch
--
-okhttp
-"
-"
 samples
 -
 toolbar
