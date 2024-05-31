@@ -165,18 +165,6 @@ components
 .
 feature
 .
-downloads
-.
-SimpleDownloadDialogFragment
-.
-DownloadDialogListener
-import
-mozilla
-.
-components
-.
-feature
-.
 session
 .
 CoordinateScrollingFeature
@@ -265,7 +253,6 @@ Fragment
 (
 )
 BackHandler
-DownloadDialogListener
 {
 private
 lateinit
