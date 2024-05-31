@@ -243,6 +243,12 @@ WindowGlobalParent
 >
 mWindowGlobalParent
 ;
+friend
+class
+:
+:
+ContentAnalysisTest
+;
 }
 ;
 #
@@ -693,6 +699,12 @@ mParsedUrlLists
 friend
 class
 ContentAnalysisResponse
+;
+friend
+class
+:
+:
+ContentAnalysisTest
 ;
 }
 ;
