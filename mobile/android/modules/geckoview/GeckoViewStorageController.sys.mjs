@@ -1587,7 +1587,8 @@ resolve
 .
 then
 (
-resultFlags
+(
+)
 =
 >
 {
@@ -1640,7 +1641,8 @@ resolve
 .
 then
 (
-resultFlags
+(
+)
 =
 >
 {
@@ -1693,7 +1695,8 @@ resolve
 .
 then
 (
-resultFlags
+(
+)
 =
 >
 {

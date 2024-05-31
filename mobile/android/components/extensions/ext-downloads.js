@@ -700,7 +700,6 @@ onChanged
 {
 fire
 }
-params
 )
 {
 const
@@ -1182,7 +1181,6 @@ id
 }
 removeFile
 (
-downloadId
 )
 {
 throw
@@ -1198,7 +1196,6 @@ implemented
 }
 search
 (
-query
 )
 {
 throw
@@ -1214,7 +1211,6 @@ implemented
 }
 pause
 (
-downloadId
 )
 {
 throw
@@ -1230,7 +1226,6 @@ implemented
 }
 resume
 (
-downloadId
 )
 {
 throw
@@ -1246,7 +1241,6 @@ implemented
 }
 cancel
 (
-downloadId
 )
 {
 throw
@@ -1277,7 +1271,6 @@ implemented
 }
 erase
 (
-query
 )
 {
 throw
@@ -1293,7 +1286,6 @@ implemented
 }
 open
 (
-downloadId
 )
 {
 throw
@@ -1309,7 +1301,6 @@ implemented
 }
 show
 (
-downloadId
 )
 {
 throw
@@ -1325,8 +1316,6 @@ implemented
 }
 getFileIcon
 (
-downloadId
-options
 )
 {
 throw

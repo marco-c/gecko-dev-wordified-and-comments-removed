@@ -1037,7 +1037,6 @@ onEvent
 (
 aEvent
 aData
-aCallback
 )
 {
 debug
@@ -1907,7 +1906,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -2382,7 +2380,6 @@ aOpenWindowInfo
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 )
 {
 debug
@@ -3178,7 +3175,6 @@ onLocationChange
 aWebProgress
 aRequest
 aLocationURI
-aFlags
 )
 {
 debug

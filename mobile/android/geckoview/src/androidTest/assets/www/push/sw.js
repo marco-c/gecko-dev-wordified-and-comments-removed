@@ -171,7 +171,6 @@ pushsubscriptionchange
 async
 function
 (
-e
 )
 {
 const

@@ -254,7 +254,6 @@ onEvent
 (
 aEvent
 aData
-aCallback
 )
 {
 resolve
@@ -461,7 +460,6 @@ onEvent
 (
 aEvent
 aData
-aCallback
 )
 {
 resolve

@@ -601,7 +601,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 debug
@@ -1767,7 +1766,6 @@ onEvent
 (
 aEvent
 aData
-aCallback
 )
 {
 debug

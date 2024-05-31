@@ -267,9 +267,6 @@ aLogin
 dismissed
 =
 false
-notifySaved
-=
-false
 )
 {
 const
@@ -400,8 +397,6 @@ dismissed
 =
 false
 notifySaved
-=
-false
 autoSavedLoginGuid
 =
 "

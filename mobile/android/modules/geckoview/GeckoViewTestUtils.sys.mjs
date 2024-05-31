@@ -176,11 +176,7 @@ resolve
 const
 openingObserver
 =
-(
 subject
-topic
-data
-)
 =
 >
 {

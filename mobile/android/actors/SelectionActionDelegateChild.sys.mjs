@@ -716,7 +716,8 @@ e
 selectionEditable
 perform
 :
-e
+(
+)
 =
 >
 this
@@ -758,7 +759,8 @@ e
 selectionEditable
 perform
 :
-e
+(
+)
 =
 >
 this
@@ -801,7 +803,8 @@ e
 selectionEditable
 perform
 :
-e
+(
+)
 =
 >
 this
@@ -987,7 +990,8 @@ true
 }
 perform
 :
-e
+(
+)
 =
 >
 this

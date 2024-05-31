@@ -365,7 +365,6 @@ onStateChange
 webProgress
 request
 stateFlags
-status
 )
 {
 if
@@ -682,7 +681,6 @@ history
 }
 handleEvent
 (
-event
 )
 {
 this
@@ -716,8 +714,6 @@ collect
 }
 OnHistoryNewEntry
 (
-newURI
-oldIndex
 )
 {
 this
@@ -729,8 +725,6 @@ collect
 }
 OnHistoryGotoIndex
 (
-index
-gotoURI
 )
 {
 this
@@ -742,7 +736,6 @@ collect
 }
 OnHistoryPurge
 (
-numEntries
 )
 {
 this
@@ -754,8 +747,6 @@ collect
 }
 OnHistoryReload
 (
-reloadURI
-reloadFlags
 )
 {
 this
@@ -770,7 +761,6 @@ true
 }
 OnHistoryReplaceEntry
 (
-index
 )
 {
 this

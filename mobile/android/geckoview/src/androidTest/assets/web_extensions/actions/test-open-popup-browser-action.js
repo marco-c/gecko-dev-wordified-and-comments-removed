@@ -22,7 +22,8 @@ addEventListener
 "
 click
 "
-event
+(
+)
 =
 >
 {

@@ -95,8 +95,6 @@ Bug
 1658980
 registerListener
 (
-aListener
-aEvents
 )
 {
 throw
@@ -115,8 +113,6 @@ actor
 }
 unregisterListener
 (
-aListener
-aEvents
 )
 {
 throw

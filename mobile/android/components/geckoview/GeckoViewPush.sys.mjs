@@ -219,7 +219,6 @@ createSubscription
 (
 {
 scope
-principal
 browserPublicKey
 authSecret
 endpoint
@@ -330,9 +329,6 @@ nsIObserver
 methods
 observe
 (
-subject
-topic
-data
 )
 {
 }
@@ -705,13 +701,11 @@ nsIPushQuotaManager
 methods
 notificationForOriginShown
 (
-origin
 )
 {
 }
 notificationForOriginClosed
 (
-origin
 )
 {
 }
@@ -721,8 +715,6 @@ nsIPushErrorReporter
 methods
 reportDeliveryError
 (
-messageId
-reason
 )
 {
 }

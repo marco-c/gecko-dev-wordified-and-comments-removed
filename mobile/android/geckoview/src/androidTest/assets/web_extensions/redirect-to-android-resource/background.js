@@ -18,7 +18,8 @@ onBeforeRequest
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

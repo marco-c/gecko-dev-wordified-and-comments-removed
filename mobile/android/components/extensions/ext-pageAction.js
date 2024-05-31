@@ -113,7 +113,8 @@ tabContext
 new
 TabContext
 (
-tabId
+(
+)
 =
 >
 this
@@ -360,7 +361,6 @@ extension
 async
 onManifestEntry
 (
-entryName
 )
 {
 const

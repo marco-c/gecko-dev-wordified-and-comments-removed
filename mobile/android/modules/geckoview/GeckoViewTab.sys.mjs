@@ -722,7 +722,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -1177,7 +1176,6 @@ onEvent
 (
 aEvent
 aData
-aCallback
 )
 {
 debug

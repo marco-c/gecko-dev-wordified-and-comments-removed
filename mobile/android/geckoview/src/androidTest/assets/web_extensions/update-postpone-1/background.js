@@ -6,7 +6,8 @@ onUpdateAvailable
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

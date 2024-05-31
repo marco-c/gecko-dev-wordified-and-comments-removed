@@ -688,7 +688,6 @@ onEvent
 (
 aEvent
 aData
-aCallback
 )
 {
 if
@@ -755,7 +754,6 @@ _dispatch
 (
 aEvent
 aData
-aCallback
 )
 {
 debug

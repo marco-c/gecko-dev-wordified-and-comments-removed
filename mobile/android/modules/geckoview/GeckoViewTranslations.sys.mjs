@@ -1009,7 +1009,6 @@ then
 (
 function
 (
-value
 )
 {
 aCallback
@@ -1103,7 +1102,6 @@ then
 (
 function
 (
-value
 )
 {
 aCallback
@@ -1179,7 +1177,6 @@ then
 (
 function
 (
-value
 )
 {
 aCallback
@@ -1273,7 +1270,6 @@ then
 (
 function
 (
-value
 )
 {
 aCallback

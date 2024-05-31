@@ -1932,7 +1932,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 debug
