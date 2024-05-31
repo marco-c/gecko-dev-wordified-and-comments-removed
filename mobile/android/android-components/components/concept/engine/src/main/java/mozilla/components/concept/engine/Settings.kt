@@ -928,6 +928,7 @@ var
 fontInflationEnabled
 :
 Boolean
+?
 by
 UnsupportedSetting
 (
@@ -961,6 +962,7 @@ var
 fontSizeFactor
 :
 Float
+?
 by
 UnsupportedSetting
 (
@@ -1179,17 +1181,17 @@ var
 fontInflationEnabled
 :
 Boolean
+?
 =
-true
+null
 override
 var
 fontSizeFactor
 :
 Float
+?
 =
-1
-.
-0F
+null
 )
 :
 Settings
