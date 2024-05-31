@@ -632,6 +632,7 @@ org
 mozilla
 .
 components
+#
 public
 /
 build
@@ -646,6 +647,7 @@ maven
 .
 zip
 :
+#
 path
 :
 /
@@ -670,6 +672,7 @@ target
 maven
 .
 zip
+#
 name
 :
 browser
@@ -677,6 +680,7 @@ browser
 engine
 -
 servo
+#
 old_artifact_id
 :
 browser
@@ -684,6 +688,7 @@ browser
 engine
 -
 servo
+#
 new_group_id
 :
 org
