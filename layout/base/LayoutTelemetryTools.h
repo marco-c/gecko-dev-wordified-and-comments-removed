@@ -132,11 +132,11 @@ LayoutSubsystemDurations
 EnumeratedArray
 <
 LayoutSubsystem
+double
 LayoutSubsystem
 :
 :
 Count
-double
 >
 ;
 using
@@ -145,11 +145,11 @@ LayoutFlushCount
 EnumeratedArray
 <
 FlushKind
+SaturateUint8
 FlushKind
 :
 :
 Count
-SaturateUint8
 >
 ;
 struct

@@ -1927,6 +1927,7 @@ nsTextPaintStyle
 :
 :
 SelectionStyleIndex
+StyleIDs
 nsTextPaintStyle
 :
 :
@@ -1934,7 +1935,6 @@ SelectionStyleIndex
 :
 :
 Count
-StyleIDs
 >
 SelectionStyleIDs
 =

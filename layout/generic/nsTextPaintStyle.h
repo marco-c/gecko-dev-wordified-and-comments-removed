@@ -478,10 +478,6 @@ mozilla
 EnumeratedArray
 <
 SelectionStyleIndex
-SelectionStyleIndex
-:
-:
-Count
 mozilla
 :
 :
@@ -489,6 +485,10 @@ Maybe
 <
 nsSelectionStyle
 >
+SelectionStyleIndex
+:
+:
+Count
 >
 mSelectionStyle
 ;

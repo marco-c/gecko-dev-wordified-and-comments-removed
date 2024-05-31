@@ -785,11 +785,11 @@ PhaseTable
 EnumeratedArray
 <
 Phase
+PhaseInfo
 Phase
 :
 :
 LIMIT
-PhaseInfo
 >
 ;
 using
@@ -798,11 +798,11 @@ PhaseKindTable
 EnumeratedArray
 <
 PhaseKind
+PhaseKindInfo
 PhaseKind
 :
 :
 LIMIT
-PhaseKindInfo
 >
 ;
 #

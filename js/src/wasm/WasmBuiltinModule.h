@@ -377,11 +377,11 @@ mozilla
 EnumeratedArray
 <
 BuiltinModuleFuncId
+BuiltinModuleFunc
 BuiltinModuleFuncId
 :
 :
 Limit
-BuiltinModuleFunc
 >
 ;
 Storage

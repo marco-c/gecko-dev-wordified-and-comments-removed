@@ -923,11 +923,11 @@ TrapSiteVectorArray
 EnumeratedArray
 <
 Trap
+TrapSiteVector
 Trap
 :
 :
 Limit
-TrapSiteVector
 >
 {
 bool
