@@ -253,10 +253,6 @@ fromJSONString
 (
 it
 )
-.
-await
-(
-)
 }
 To
 persist
