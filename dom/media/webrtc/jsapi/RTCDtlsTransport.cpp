@@ -48,6 +48,7 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 RTCDtlsTransport
 DOMEventTargetHelper
+mIceTransport
 )
 NS_IMPL_ADDREF_INHERITED
 (
@@ -88,6 +89,14 @@ RTCDtlsTransportState
 :
 :
 New
+)
+mIceTransport
+(
+new
+RTCIceTransport
+(
+aWindow
+)
 )
 {
 }
