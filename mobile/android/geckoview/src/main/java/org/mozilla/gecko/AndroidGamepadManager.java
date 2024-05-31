@@ -804,6 +804,10 @@ if
 sStarted
 )
 {
+sStarted
+=
+true
+;
 scanForGamepads
 (
 )
@@ -812,10 +816,6 @@ addDeviceListener
 (
 context
 )
-;
-sStarted
-=
-true
 ;
 }
 }
