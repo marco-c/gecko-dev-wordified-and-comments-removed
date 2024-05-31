@@ -249,13 +249,6 @@ experiments
 "
 service
 -
-firefox
--
-accounts
-"
-"
-service
--
 fretboard
 "
 "
