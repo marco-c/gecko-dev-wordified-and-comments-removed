@@ -123,13 +123,6 @@ experimentsLoaded
 Boolean
 =
 false
-private
-val
-evaluator
-=
-ExperimentEvaluator
-(
-)
 /
 *
 *
