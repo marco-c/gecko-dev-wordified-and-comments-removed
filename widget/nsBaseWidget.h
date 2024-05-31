@@ -1698,6 +1698,11 @@ widget
 ThemeChangeKind
 )
 ;
+void
+NotifyAPZOfDPIChange
+(
+)
+;
 #
 ifdef
 ACCESSIBILITY

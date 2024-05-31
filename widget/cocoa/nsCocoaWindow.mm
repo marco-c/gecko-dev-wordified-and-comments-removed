@@ -8953,6 +8953,10 @@ mBackingScaleFactor
 =
 newScale
 ;
+NotifyAPZOfDPIChange
+(
+)
+;
 if
 (
 !
