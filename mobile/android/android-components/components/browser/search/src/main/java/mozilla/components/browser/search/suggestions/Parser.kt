@@ -360,6 +360,7 @@ available
 Parsers
 *
 /
+internal
 val
 defaultResponseParser
 =
@@ -367,6 +368,7 @@ buildJSONArrayParser
 (
 1
 )
+internal
 val
 azerdictResponseParser
 =
@@ -376,6 +378,7 @@ buildJSONObjectParser
 suggestions
 "
 )
+internal
 val
 daumResponseParser
 =
@@ -385,6 +388,7 @@ buildJSONObjectParser
 items
 "
 )
+internal
 val
 qwantResponseParser
 =
@@ -404,6 +408,7 @@ a
 SearchEngine
 *
 /
+internal
 fun
 selectResponseParser
 (
