@@ -246,6 +246,13 @@ View
 VISIBLE
 .
 *
+deprecated
+Use
+Android
+KTX
+instead
+.
+*
 /
 fun
 View
