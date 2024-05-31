@@ -932,13 +932,12 @@ This
 component
 is
 almost
+/
+partially
 ready
 and
 can
 be
-(
-partially
-)
 tested
 in
 products
