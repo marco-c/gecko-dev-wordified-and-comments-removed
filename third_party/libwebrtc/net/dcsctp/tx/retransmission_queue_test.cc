@@ -542,10 +542,10 @@ t3_rtx
 )
 {
 return
-absl
-:
-:
-nullopt
+DurationMs
+(
+0
+)
 ;
 }
 TimerOptions

@@ -711,13 +711,7 @@ ParameterDescriptor
 descriptor
 )
 ;
-absl
-:
-:
-optional
-<
 DurationMs
->
 OnReconfigTimerExpiry
 (
 )
