@@ -74,9 +74,9 @@ through
 .
 6
 .
-42
+43
 -
-January
+February
 2024
 Updated
 and
@@ -9516,7 +9516,7 @@ PNG_UINT_32_MAX
 (
 sizeof
 (
-png_byte
+png_bytep
 )
 )
 )
