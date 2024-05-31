@@ -198,7 +198,7 @@ AndroidJUnit4
 class
 )
 class
-DiskCacheTest
+IconDiskCacheTest
 {
 Test
 fun
@@ -212,7 +212,7 @@ resources
 val
 cache
 =
-DiskCache
+IconDiskCache
 (
 )
 val
@@ -421,7 +421,7 @@ bytes
 val
 cache
 =
-DiskCache
+IconDiskCache
 (
 )
 val

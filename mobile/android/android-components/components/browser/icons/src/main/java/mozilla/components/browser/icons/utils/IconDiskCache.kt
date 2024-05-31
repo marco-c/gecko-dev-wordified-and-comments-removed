@@ -286,9 +286,8 @@ disk
 .
 *
 /
-internal
 class
-DiskCache
+IconDiskCache
 :
 DiskIconLoader
 .
@@ -309,7 +308,7 @@ Logger
 "
 Icons
 /
-DiskCache
+IconDiskCache
 "
 )
 private

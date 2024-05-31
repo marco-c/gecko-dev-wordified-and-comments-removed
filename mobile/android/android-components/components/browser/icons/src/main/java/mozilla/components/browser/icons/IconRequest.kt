@@ -227,6 +227,14 @@ dimen
 .
 mozac_browser_icons_size_launcher
 )
+LAUNCHER_ADAPTIVE
+(
+R
+.
+dimen
+.
+mozac_browser_icons_size_launcher_adaptive
+)
 }
 /
 *

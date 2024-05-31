@@ -759,6 +759,7 @@ WebAppUseCases
 (
 applicationContext
 sessionManager
+client
 )
 }
 /

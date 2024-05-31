@@ -202,7 +202,7 @@ AndroidJUnit4
 class
 )
 class
-MemoryCacheTest
+IconMemoryCacheTest
 {
 Test
 fun
@@ -216,7 +216,7 @@ interaction
 val
 cache
 =
-MemoryCache
+IconMemoryCache
 (
 )
 val

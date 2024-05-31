@@ -365,11 +365,6 @@ largestSize
 )
 }
 }
-originalBitmap
-.
-recycle
-(
-)
 return
 icon
 .

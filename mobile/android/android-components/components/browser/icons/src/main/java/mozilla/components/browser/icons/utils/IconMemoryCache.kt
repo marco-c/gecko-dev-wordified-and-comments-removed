@@ -197,9 +197,8 @@ MAXIMUM_CACHE_BITMAP_BYTES
 /
 25
 MB
-internal
 class
-MemoryCache
+IconMemoryCache
 :
 ProcessorMemoryCache
 LoaderMemoryCache

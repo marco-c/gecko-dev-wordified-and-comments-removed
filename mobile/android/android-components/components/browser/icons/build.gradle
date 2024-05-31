@@ -286,6 +286,10 @@ androidx_test_junit
 testImplementation
 Dependencies
 .
+kotlin_reflect
+testImplementation
+Dependencies
+.
 testing_mockito
 testImplementation
 Dependencies
