@@ -181,7 +181,7 @@ tab_collections
 id
 ORDER
 BY
-created_at
+updated_at
 DESC
 "
 "
@@ -210,7 +210,7 @@ FROM
 tab_collections
 ORDER
 BY
-created_at
+updated_at
 DESC
 LIMIT
 :
