@@ -420,3 +420,16 @@ clear
 title
 =
 Clear
+text
+-
+action
+-
+highlight
+-
+selection
+=
+.
+label
+=
+Highlight
+Selection
