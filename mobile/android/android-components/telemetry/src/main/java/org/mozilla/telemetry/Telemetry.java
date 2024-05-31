@@ -210,7 +210,7 @@ this
 ;
 }
 public
-void
+Telemetry
 queuePing
 (
 String
@@ -228,6 +228,7 @@ isCollectionEnabled
 )
 {
 return
+this
 ;
 }
 final
@@ -252,6 +253,7 @@ canBuild
 )
 {
 return
+this
 ;
 }
 final
@@ -270,6 +272,9 @@ store
 (
 ping
 )
+;
+return
+this
 ;
 }
 public
@@ -290,7 +295,7 @@ pingType
 ;
 }
 public
-void
+Telemetry
 scheduleUpload
 (
 String
@@ -308,6 +313,7 @@ isUploadEnabled
 )
 {
 return
+this
 ;
 }
 if
@@ -324,6 +330,7 @@ pingType
 )
 {
 return
+this
 ;
 }
 scheduler
@@ -333,6 +340,9 @@ scheduleUpload
 configuration
 pingType
 )
+;
+return
+this
 ;
 }
 public
@@ -423,7 +433,7 @@ countSession
 ;
 }
 public
-void
+Telemetry
 recordSessionEnd
 (
 )
@@ -439,6 +449,7 @@ isCollectionEnabled
 )
 {
 return
+this
 ;
 }
 if
@@ -497,6 +508,9 @@ getSessionDurationMeasurement
 recordSessionEnd
 (
 )
+;
+return
+this
 ;
 }
 RestrictTo
