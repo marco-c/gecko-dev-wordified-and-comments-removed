@@ -451,7 +451,7 @@ output_stream_params
 >
 rate
 >
-192000
+384000
 |
 |
 output_stream_params
@@ -495,7 +495,7 @@ input_stream_params
 >
 rate
 >
-192000
+384000
 |
 |
 input_stream_params
