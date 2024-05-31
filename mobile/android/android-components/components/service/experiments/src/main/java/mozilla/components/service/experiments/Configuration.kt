@@ -133,4 +133,12 @@ HttpURLConnectionClient
 (
 )
 }
+val
+kintoEndpoint
+:
+String
+=
+ExperimentsUpdater
+.
+KINTO_ENDPOINT_DEV
 )

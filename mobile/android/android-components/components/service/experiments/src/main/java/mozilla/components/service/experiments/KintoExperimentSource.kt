@@ -159,7 +159,7 @@ internal
 class
 KintoExperimentSource
 (
-private
+internal
 val
 baseUrl
 :

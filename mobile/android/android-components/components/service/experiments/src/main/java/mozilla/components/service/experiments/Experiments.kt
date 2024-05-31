@@ -268,6 +268,12 @@ var
 isInitialized
 =
 false
+internal
+lateinit
+var
+configuration
+:
+Configuration
 /
 *
 *
@@ -389,6 +395,11 @@ first
 )
 return
 }
+this
+.
+configuration
+=
+configuration
 experimentsResult
 =
 ExperimentsSnapshot
