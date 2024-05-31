@@ -233,7 +233,7 @@ components
 .
 browser
 .
-session
+state
 .
 action
 /
@@ -290,7 +290,7 @@ components
 .
 browser
 .
-session
+state
 .
 state
 /

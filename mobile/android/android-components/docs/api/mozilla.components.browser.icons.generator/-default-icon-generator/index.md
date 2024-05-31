@@ -118,7 +118,7 @@ DefaultIconGenerator
 .
 kt
 #
-L24
+L25
 )
 [
 IconGenerator

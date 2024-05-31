@@ -150,7 +150,7 @@ Resources
 .
 kt
 #
-L9
+L12
 )
 Converts
 a
@@ -170,4 +170,15 @@ values
 for
 the
 display
+.
+*
+*
+Deprecated
+*
+*
+use
+Int
+.
+dpToPx
+instead
 .

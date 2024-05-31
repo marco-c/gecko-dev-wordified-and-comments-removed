@@ -156,7 +156,7 @@ components
 .
 browser
 .
-session
+state
 .
 state
 /

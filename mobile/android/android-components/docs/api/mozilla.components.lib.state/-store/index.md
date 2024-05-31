@@ -1619,7 +1619,7 @@ components
 .
 browser
 .
-session
+state
 .
 store
 /
@@ -1663,7 +1663,7 @@ components
 .
 browser
 .
-session
+state
 .
 state
 /
@@ -1692,7 +1692,7 @@ components
 .
 browser
 .
-session
+state
 .
 action
 /
@@ -1724,7 +1724,7 @@ components
 .
 browser
 .
-session
+state
 .
 store
 /
@@ -1755,7 +1755,7 @@ components
 .
 browser
 .
-session
+state
 .
 state
 /

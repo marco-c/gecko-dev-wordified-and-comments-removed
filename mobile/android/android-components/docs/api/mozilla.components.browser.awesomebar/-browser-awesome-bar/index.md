@@ -126,7 +126,7 @@ BrowserAwesomeBar
 .
 kt
 #
-L40
+L34
 )
 A
 customizable
