@@ -229,6 +229,10 @@ EventWithOptionsRunnable
 Worker
 &
 aWorker
+const
+char
+*
+aName
 )
 :
 WorkerDebuggeeRunnable
@@ -236,6 +240,7 @@ WorkerDebuggeeRunnable
 aWorker
 .
 mWorkerPrivate
+aName
 WorkerRunnable
 :
 :

@@ -172,6 +172,7 @@ namespace
 {
 class
 DebuggerMessageEventRunnable
+final
 :
 public
 WorkerDebuggerRunnable
@@ -195,6 +196,9 @@ aMessage
 WorkerDebuggerRunnable
 (
 aWorkerPrivate
+"
+DebuggerMessageEventRunnable
+"
 )
 mMessage
 (
@@ -410,6 +414,9 @@ aDocumentEncoding
 WorkerDebuggerRunnable
 (
 aWorkerPrivate
+"
+CompileDebuggerScriptRunnable
+"
 )
 mScriptURL
 (

@@ -496,6 +496,9 @@ aReport
 WorkerDebuggeeRunnable
 (
 aWorkerPrivate
+"
+ReportErrorRunnable
+"
 )
 mReport
 (
@@ -799,6 +802,9 @@ aWorkerPrivate
 WorkerDebuggeeRunnable
 (
 aWorkerPrivate
+"
+ReportGenericErrorRunnable
+"
 )
 {
 aWorkerPrivate

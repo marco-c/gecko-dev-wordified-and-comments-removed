@@ -66,6 +66,14 @@ EventWithOptionsRunnable
 Worker
 &
 aWorker
+const
+char
+*
+aName
+=
+"
+EventWithOptionsRunnable
+"
 )
 ;
 void
