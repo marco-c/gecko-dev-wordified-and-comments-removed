@@ -259,6 +259,7 @@ the
 selected
 session
 .
+operator
 fun
 invoke
 (

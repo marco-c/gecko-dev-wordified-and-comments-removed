@@ -98,7 +98,7 @@ Experiments
 .
 kt
 #
-L17
+L18
 )
 Entry
 point
@@ -218,12 +218,6 @@ md
 fun
 withExperiment
 (
-context
-:
-<
-ERROR
-CLASS
->
 experimentId
 :
 [

@@ -259,6 +259,7 @@ the
 new
 tab
 .
+operator
 fun
 invoke
 (

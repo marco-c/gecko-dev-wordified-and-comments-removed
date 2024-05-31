@@ -59,12 +59,6 @@ withExperiment
 fun
 withExperiment
 (
-context
-:
-<
-ERROR
-CLASS
->
 experimentId
 :
 [
@@ -243,7 +237,7 @@ Experiments
 .
 kt
 #
-L172
+L233
 )
 Performs
 an
@@ -261,9 +255,6 @@ experiment
 #
 #
 Parameters
-context
--
-context
 experimentId
 -
 the

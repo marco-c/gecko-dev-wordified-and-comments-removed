@@ -261,6 +261,7 @@ new
 private
 tab
 .
+operator
 fun
 invoke
 (

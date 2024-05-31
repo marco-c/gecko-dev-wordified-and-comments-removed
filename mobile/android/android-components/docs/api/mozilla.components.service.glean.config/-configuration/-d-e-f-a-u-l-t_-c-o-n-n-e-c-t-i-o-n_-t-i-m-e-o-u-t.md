@@ -188,5 +188,5 @@ Configuration
 .
 kt
 #
-L70
+L69
 )

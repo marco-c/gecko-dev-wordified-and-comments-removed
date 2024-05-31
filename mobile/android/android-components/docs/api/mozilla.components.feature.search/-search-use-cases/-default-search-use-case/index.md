@@ -449,6 +449,7 @@ currently
 selected
 session
 .
+operator
 fun
 invoke
 (

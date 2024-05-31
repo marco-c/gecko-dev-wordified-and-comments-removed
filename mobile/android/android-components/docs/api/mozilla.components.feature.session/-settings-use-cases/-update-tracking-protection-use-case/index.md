@@ -585,6 +585,7 @@ invoke
 md
 )
 |
+operator
 fun
 invoke
 (
