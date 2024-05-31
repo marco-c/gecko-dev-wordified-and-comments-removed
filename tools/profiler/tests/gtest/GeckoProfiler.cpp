@@ -806,6 +806,11 @@ name
 ;
 TimeStamp
 baseRegistrationTime
+;
+#
+ifdef
+MOZ_GECKO_PROFILER
+baseRegistrationTime
 =
 baseprofiler
 :
@@ -817,6 +822,8 @@ GetThreadRegistrationTime
 (
 )
 ;
+#
+endif
 if
 (
 baseRegistrationTime
