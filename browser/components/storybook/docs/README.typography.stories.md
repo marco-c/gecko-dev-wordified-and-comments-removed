@@ -1996,8 +1996,6 @@ code
 font
 -
 weight
--
-default
 <
 /
 code
