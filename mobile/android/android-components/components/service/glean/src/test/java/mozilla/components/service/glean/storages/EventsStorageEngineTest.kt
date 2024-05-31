@@ -219,8 +219,6 @@ assertEquals
 telemetry
 "
 snapshot
-!
-!
 .
 first
 (
@@ -234,8 +232,6 @@ assertEquals
 test_event_no_optional
 "
 snapshot
-!
-!
 .
 first
 (
@@ -249,8 +245,6 @@ assertEquals
 test_event_object
 "
 snapshot
-!
-!
 .
 first
 (
@@ -273,8 +267,6 @@ not
 provided
 "
 snapshot
-!
-!
 .
 first
 (
@@ -297,8 +289,6 @@ not
 provided
 "
 snapshot
-!
-!
 .
 first
 (
@@ -442,8 +432,6 @@ assertEquals
 telemetry
 "
 snapshot
-!
-!
 .
 first
 (
@@ -457,8 +445,6 @@ assertEquals
 test_event_with_optional
 "
 snapshot
-!
-!
 .
 first
 (
@@ -472,8 +458,6 @@ assertEquals
 test_event_object
 "
 snapshot
-!
-!
 .
 first
 (
@@ -487,8 +471,6 @@ assertEquals
 user_value
 "
 snapshot
-!
-!
 .
 first
 (
@@ -516,8 +498,6 @@ value2
 "
 )
 snapshot
-!
-!
 .
 first
 (
@@ -625,8 +605,6 @@ assertEquals
 telemetry
 "
 snapshot
-!
-!
 .
 first
 (
@@ -640,8 +618,6 @@ assertEquals
 test_event_time
 "
 snapshot
-!
-!
 .
 first
 (
@@ -655,8 +631,6 @@ assertEquals
 test_event_object
 "
 snapshot
-!
-!
 .
 first
 (
@@ -679,8 +653,6 @@ not
 provided
 "
 snapshot
-!
-!
 .
 first
 (
@@ -703,8 +675,6 @@ not
 provided
 "
 snapshot
-!
-!
 .
 first
 (
@@ -716,8 +686,6 @@ assertEquals
 (
 expectedTimeSinceStart
 snapshot
-!
-!
 .
 first
 (
@@ -979,8 +947,6 @@ assertEquals
 telemetry
 "
 s
-!
-!
 .
 first
 (
@@ -994,8 +960,6 @@ assertEquals
 test_event_clear
 "
 s
-!
-!
 .
 first
 (
@@ -1009,8 +973,6 @@ assertEquals
 test_event_object
 "
 s
-!
-!
 .
 first
 (
@@ -1033,8 +995,6 @@ not
 provided
 "
 s
-!
-!
 .
 first
 (
@@ -1057,8 +1017,6 @@ not
 provided
 "
 s
-!
-!
 .
 first
 (
