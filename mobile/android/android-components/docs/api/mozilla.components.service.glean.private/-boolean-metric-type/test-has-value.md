@@ -185,7 +185,7 @@ BooleanMetricType
 .
 kt
 #
-L66
+L63
 )
 Tests
 whether

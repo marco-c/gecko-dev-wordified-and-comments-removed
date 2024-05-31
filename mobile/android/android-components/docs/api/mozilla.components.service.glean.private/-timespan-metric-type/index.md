@@ -121,7 +121,7 @@ TimespanMetricType
 .
 kt
 #
-L21
+L19
 )
 This
 implements

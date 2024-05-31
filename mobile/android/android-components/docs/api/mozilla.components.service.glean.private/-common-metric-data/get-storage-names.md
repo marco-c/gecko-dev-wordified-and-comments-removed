@@ -180,7 +180,7 @@ CommonMetricData
 .
 kt
 #
-L74
+L72
 )
 Get
 the

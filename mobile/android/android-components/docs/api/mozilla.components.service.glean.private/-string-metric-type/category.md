@@ -140,7 +140,7 @@ StringMetricType
 .
 kt
 #
-L25
+L23
 )
 Overrides
 [

@@ -142,7 +142,7 @@ TimespanMetricType
 .
 kt
 #
-L62
+L60
 )
 Abort
 a

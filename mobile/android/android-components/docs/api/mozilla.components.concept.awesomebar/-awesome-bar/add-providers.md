@@ -157,7 +157,7 @@ AwesomeBar
 .
 kt
 #
-L25
+L24
 )
 Adds
 the

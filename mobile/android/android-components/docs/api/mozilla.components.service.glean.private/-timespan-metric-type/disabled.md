@@ -140,7 +140,7 @@ TimespanMetricType
 .
 kt
 #
-L22
+L20
 )
 Overrides
 [

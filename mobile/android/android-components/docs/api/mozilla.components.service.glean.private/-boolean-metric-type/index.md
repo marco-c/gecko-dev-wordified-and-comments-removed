@@ -121,7 +121,7 @@ BooleanMetricType
 .
 kt
 #
-L22
+L20
 )
 This
 implements

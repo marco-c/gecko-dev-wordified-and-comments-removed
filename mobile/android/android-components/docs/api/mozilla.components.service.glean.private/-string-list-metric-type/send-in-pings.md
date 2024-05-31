@@ -177,7 +177,7 @@ StringListMetricType
 .
 kt
 #
-L28
+L26
 )
 Overrides
 [

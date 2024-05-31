@@ -220,7 +220,7 @@ EventMetricType
 .
 kt
 #
-L125
+L122
 )
 Returns
 the

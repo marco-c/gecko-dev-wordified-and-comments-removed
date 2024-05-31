@@ -157,7 +157,7 @@ AwesomeBar
 .
 kt
 #
-L30
+L29
 )
 Removes
 the

@@ -172,5 +172,5 @@ GleanDebugActivity
 .
 kt
 #
-L30
+L28
 )

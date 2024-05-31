@@ -174,7 +174,7 @@ AwesomeBar
 .
 kt
 #
-L47
+L46
 )
 Fired
 whenever

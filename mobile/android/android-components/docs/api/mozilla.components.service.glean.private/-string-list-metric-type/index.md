@@ -121,7 +121,7 @@ StringListMetricType
 .
 kt
 #
-L23
+L21
 )
 This
 implements

@@ -121,7 +121,7 @@ TimingDistributionMetricType
 .
 kt
 #
-L24
+L22
 )
 This
 implements

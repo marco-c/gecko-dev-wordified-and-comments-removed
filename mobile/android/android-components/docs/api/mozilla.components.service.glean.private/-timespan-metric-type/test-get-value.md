@@ -185,7 +185,7 @@ TimespanMetricType
 .
 kt
 #
-L93
+L91
 )
 Returns
 the

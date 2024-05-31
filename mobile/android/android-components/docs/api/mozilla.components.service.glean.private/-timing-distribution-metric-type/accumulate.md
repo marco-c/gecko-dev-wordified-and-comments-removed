@@ -173,7 +173,7 @@ TimingDistributionMetricType
 .
 kt
 #
-L42
+L40
 )
 Accumulates
 a
