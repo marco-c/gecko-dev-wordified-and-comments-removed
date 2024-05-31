@@ -1555,7 +1555,7 @@ stateObserved
 )
 }
 }
-private
+internal
 class
 MockedLifecycleOwner
 (
