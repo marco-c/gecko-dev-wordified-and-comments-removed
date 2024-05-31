@@ -122,9 +122,7 @@ yaml
 #
 The
 -
-metrics
--
-yaml
+metricsyaml
 -
 file
 )
