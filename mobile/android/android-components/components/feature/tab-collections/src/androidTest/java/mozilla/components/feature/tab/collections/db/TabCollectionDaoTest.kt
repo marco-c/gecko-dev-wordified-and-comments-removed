@@ -293,7 +293,7 @@ title
 Collection
 One
 "
-createdAt
+updatedAt
 =
 10
 )
@@ -308,7 +308,7 @@ title
 Collection
 Two
 "
-createdAt
+updatedAt
 =
 50
 )
@@ -572,7 +572,7 @@ title
 Collection
 One
 "
-createdAt
+updatedAt
 =
 10
 )
@@ -587,7 +587,7 @@ title
 Collection
 Two
 "
-createdAt
+updatedAt
 =
 50
 )
@@ -602,7 +602,7 @@ title
 Collection
 Three
 "
-createdAt
+updatedAt
 =
 75
 )
@@ -737,7 +737,7 @@ title
 Collection
 One
 "
-createdAt
+updatedAt
 =
 10
 )
@@ -752,7 +752,7 @@ title
 Collection
 Two
 "
-createdAt
+updatedAt
 =
 50
 )

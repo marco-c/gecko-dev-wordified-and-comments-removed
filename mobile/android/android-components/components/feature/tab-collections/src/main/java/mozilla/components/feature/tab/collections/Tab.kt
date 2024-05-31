@@ -81,16 +81,6 @@ browser
 .
 session
 .
-SessionManager
-import
-mozilla
-.
-components
-.
-browser
-.
-session
-.
 Session
 import
 mozilla
@@ -183,9 +173,7 @@ returns
 a
 matching
 [
-SessionManager
-.
-Snapshot
+Session
 ]
 .
 *
@@ -273,7 +261,6 @@ Boolean
 false
 )
 :
-SessionManager
-.
-Snapshot
+Session
+?
 }
