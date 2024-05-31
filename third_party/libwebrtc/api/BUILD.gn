@@ -306,6 +306,9 @@ system
 :
 rtc_export
 "
+"
+environment
+"
 ]
 if
 (
@@ -7307,6 +7310,9 @@ system_wrappers
 test
 /
 time_controller
+"
+"
+environment
 "
 ]
 absl_deps

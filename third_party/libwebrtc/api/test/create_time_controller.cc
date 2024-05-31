@@ -44,6 +44,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 peer_connection_interface
 .
 h
@@ -414,6 +425,10 @@ MediaEngineInterface
 >
 CreateMediaEngine
 (
+const
+Environment
+&
+env
 PeerConnectionFactoryDependencies
 &
 dependencies
@@ -426,6 +441,7 @@ media_factory_
 >
 CreateMediaEngine
 (
+env
 dependencies
 )
 ;
