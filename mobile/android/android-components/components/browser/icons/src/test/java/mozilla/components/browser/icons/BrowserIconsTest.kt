@@ -652,8 +652,6 @@ assertNotNull
 icon
 .
 bitmap
-!
-!
 )
 val
 serverRequest

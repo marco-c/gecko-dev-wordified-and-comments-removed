@@ -617,16 +617,6 @@ putResources
 context
 request
 )
-if
-(
-icon
-.
-bitmap
-!
-=
-null
-)
-{
 putIconBitmap
 (
 context
@@ -635,7 +625,6 @@ icon
 .
 bitmap
 )
-}
 }
 override
 fun

@@ -67,6 +67,16 @@ icons
 .
 decoder
 import
+mozilla
+.
+components
+.
+browser
+.
+icons
+.
+DesiredSize
+import
 org
 .
 junit
@@ -120,6 +130,8 @@ mozac
 png
 "
 )
+DesiredSize
+(
 targetSize
 =
 32
@@ -131,6 +143,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNotNull
 (
@@ -182,6 +195,8 @@ cat
 gif
 "
 )
+DesiredSize
+(
 targetSize
 =
 64
@@ -193,6 +208,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNotNull
 (
@@ -244,6 +260,8 @@ tonys
 jpg
 "
 )
+DesiredSize
+(
 targetSize
 =
 64
@@ -255,6 +273,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNotNull
 (
@@ -306,6 +325,8 @@ test
 bmp
 "
 )
+DesiredSize
+(
 targetSize
 =
 64
@@ -317,6 +338,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNotNull
 (
@@ -368,6 +390,8 @@ test
 webp
 "
 )
+DesiredSize
+(
 targetSize
 =
 64
@@ -379,6 +403,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNotNull
 (

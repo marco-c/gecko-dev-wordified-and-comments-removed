@@ -440,12 +440,6 @@ bitmap
 icon
 .
 bitmap
-assertNotNull
-(
-bitmap
-!
-!
-)
 assertEquals
 (
 100

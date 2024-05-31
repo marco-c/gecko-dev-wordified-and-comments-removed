@@ -1006,8 +1006,6 @@ dp32
 icon
 .
 bitmap
-!
-!
 .
 width
 )
@@ -1017,8 +1015,6 @@ dp32
 icon
 .
 bitmap
-!
-!
 .
 height
 )
@@ -1032,8 +1028,6 @@ ARGB_8888
 icon
 .
 bitmap
-!
-!
 .
 config
 )

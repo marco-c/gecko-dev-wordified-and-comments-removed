@@ -101,14 +101,6 @@ a
 [
 Bitmap
 ]
-or
-null
-if
-no
-icon
-could
-be
-loaded
 .
 *
 property
@@ -149,9 +141,6 @@ val
 bitmap
 :
 Bitmap
-?
-=
-null
 val
 color
 :

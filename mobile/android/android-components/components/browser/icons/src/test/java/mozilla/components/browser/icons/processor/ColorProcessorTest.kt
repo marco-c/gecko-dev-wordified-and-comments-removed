@@ -222,6 +222,9 @@ mock
 (
 )
 icon
+mock
+(
+)
 )
 assertEquals
 (
@@ -286,6 +289,9 @@ mock
 (
 )
 icon
+mock
+(
+)
 )
 assertEquals
 (

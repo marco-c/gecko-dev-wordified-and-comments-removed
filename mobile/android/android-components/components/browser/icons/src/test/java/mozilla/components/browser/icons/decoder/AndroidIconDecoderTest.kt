@@ -89,6 +89,16 @@ mozilla
 .
 components
 .
+browser
+.
+icons
+.
+DesiredSize
+import
+mozilla
+.
+components
+.
 support
 .
 test
@@ -213,6 +223,8 @@ mozac
 png
 "
 )
+DesiredSize
+(
 targetSize
 =
 32
@@ -224,6 +236,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNotNull
 (
@@ -282,6 +295,8 @@ ByteArray
 (
 0
 )
+DesiredSize
+(
 targetSize
 =
 64
@@ -293,6 +308,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNull
 (
@@ -378,6 +394,8 @@ ByteArray
 (
 0
 )
+DesiredSize
+(
 targetSize
 =
 64
@@ -389,6 +407,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNull
 (
@@ -474,6 +493,8 @@ ByteArray
 (
 0
 )
+DesiredSize
+(
 targetSize
 =
 64
@@ -485,6 +506,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNull
 (
@@ -539,6 +561,8 @@ ByteArray
 (
 0
 )
+DesiredSize
+(
 targetSize
 =
 64
@@ -551,6 +575,7 @@ maxScaleFactor
 .
 0f
 )
+)
 assertNull
 (
 decodedBitmap
@@ -635,6 +660,8 @@ ByteArray
 (
 0
 )
+DesiredSize
+(
 targetSize
 =
 256
@@ -646,6 +673,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNull
 (
@@ -731,6 +759,8 @@ ByteArray
 (
 0
 )
+DesiredSize
+(
 targetSize
 =
 256
@@ -742,6 +772,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNull
 (
@@ -827,6 +858,8 @@ ByteArray
 (
 0
 )
+DesiredSize
+(
 targetSize
 =
 256
@@ -838,6 +871,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNull
 (
@@ -923,6 +957,8 @@ ByteArray
 (
 0
 )
+DesiredSize
+(
 targetSize
 =
 256
@@ -934,6 +970,7 @@ maxScaleFactor
 2
 .
 0f
+)
 )
 assertNull
 (
