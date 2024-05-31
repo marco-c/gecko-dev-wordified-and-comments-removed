@@ -626,7 +626,9 @@ addBlocker
 "
 PlacesPreviews
 .
-jsm
+sys
+.
+mjs
 :
 :
 DeletionHandler
@@ -1150,7 +1152,9 @@ withConnectionWrapper
 "
 PlacesPreviews
 .
-jsm
+sys
+.
+mjs
 :
 :
 ExpirePreviews
@@ -1910,7 +1914,9 @@ in
 See
 BackgroundPageThumbs
 .
-jsm
+sys
+.
+mjs
 for
 *
 additional
@@ -2652,7 +2658,9 @@ withConnectionWrapper
 "
 PlacesPreviews
 .
-jsm
+sys
+.
+mjs
 :
 :
 deleteOrphans

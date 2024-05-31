@@ -141,7 +141,9 @@ here
 use
 ExtensionContent
 .
-jsm
+sys
+.
+mjs
 instead
 .
 *
@@ -2618,7 +2620,9 @@ serializeExtended
 in
 Extension
 .
-jsm
+sys
+.
+mjs
 let
 ed
 =
@@ -4468,7 +4472,9 @@ actors
 see
 ConduitsChild
 .
-jsm
+sys
+.
+mjs
 )
 to
 communicate
@@ -4481,7 +4487,9 @@ singleton
 in
 ExtensionParent
 .
-jsm
+sys
+.
+mjs
 .
 /
 /

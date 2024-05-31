@@ -736,7 +736,9 @@ args
 /
 Extension
 .
-jsm
+sys
+.
+mjs
 emits
 a
 "

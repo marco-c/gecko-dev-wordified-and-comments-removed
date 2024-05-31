@@ -8537,7 +8537,9 @@ prompts
 /
 Prompter
 .
-jsm
+sys
+.
+mjs
 :
 openPromptSync
 "

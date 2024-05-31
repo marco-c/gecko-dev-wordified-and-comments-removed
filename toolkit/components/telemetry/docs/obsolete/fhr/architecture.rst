@@ -29,7 +29,9 @@ Architecture
 =
 healthreporter
 .
-jsm
+sys
+.
+mjs
 contains
 the
 main
@@ -52,7 +54,9 @@ data_reporting_service
 .
 providers
 .
-jsm
+sys
+.
+mjs
 contains
 numerous
 Metrics
@@ -959,7 +963,9 @@ the
 URI
 of
 a
-JSM
+sys
+.
+mjs
 to
 import
 that

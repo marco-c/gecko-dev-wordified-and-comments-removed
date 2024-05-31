@@ -472,7 +472,9 @@ src
 /
 Prompter
 .
-jsm
+sys
+.
+mjs
 ]
 *
 /
@@ -4584,7 +4586,9 @@ spinEventLoopUntilOrQuit
 "
 LoginManagerAuthPrompter
 .
-jsm
+sys
+.
+mjs
 :
 promptAuth
 "

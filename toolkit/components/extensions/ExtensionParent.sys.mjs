@@ -137,7 +137,9 @@ proxied
 from
 ExtensionChild
 .
-jsm
+sys
+.
+mjs
 .
 *
 /
@@ -3499,7 +3501,9 @@ context
 in
 ExtensionChild
 .
-jsm
+sys
+.
+mjs
 for
 the
 *
@@ -4597,7 +4601,9 @@ running
 in
 ExtensionContent
 .
-jsm
+sys
+.
+mjs
 .
 *
 /
@@ -4638,7 +4644,9 @@ in
 *
 ExtensionChild
 .
-jsm
+sys
+.
+mjs
 .
 *
 /
@@ -4900,7 +4908,9 @@ running
 in
 ExtensionChild
 .
-jsm
+sys
+.
+mjs
 .
 *
 /

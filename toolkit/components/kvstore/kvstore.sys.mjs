@@ -170,9 +170,15 @@ name
 *
 *
 *
+let
+{
+keyValueService
+}
+=
+*
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -185,7 +191,9 @@ modules
 /
 kvstore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

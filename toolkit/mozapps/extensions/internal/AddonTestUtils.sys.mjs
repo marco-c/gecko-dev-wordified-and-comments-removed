@@ -1979,7 +1979,9 @@ ons
 in
 AddonRepository
 .
-jsm
+sys
+.
+mjs
 Services
 .
 prefs
@@ -10651,7 +10653,9 @@ extensions
 /
 ExtensionXPCShellUtils
 .
-jsm
+sys
+.
+mjs
 *
 param
 {

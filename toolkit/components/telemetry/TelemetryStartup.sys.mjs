@@ -152,7 +152,9 @@ notification
 to
 TelemetryController
 .
-jsm
+sys
+.
+mjs
 .
 *
 /
