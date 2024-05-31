@@ -1628,7 +1628,7 @@ childElementCount
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -1638,7 +1638,7 @@ button
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -1648,7 +1648,7 @@ label
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -1658,7 +1658,7 @@ description
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -1668,7 +1668,7 @@ menulist
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -1678,7 +1678,7 @@ menuitem
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -1801,7 +1801,7 @@ if
 (
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -1811,7 +1811,7 @@ label
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -1902,7 +1902,7 @@ valueResult
 =
 nodeObject
 .
-tagName
+localName
 !
 =
 =
@@ -1913,7 +1913,7 @@ menuitem
 &
 nodeObject
 .
-tagName
+localName
 !
 =
 =
@@ -2012,7 +2012,7 @@ keywordsResult
 (
 nodeObject
 .
-tagName
+localName
 =
 =
 =
@@ -2023,7 +2023,7 @@ button
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -2049,7 +2049,7 @@ keywordsResult
 &
 nodeObject
 .
-tagName
+localName
 =
 =
 =
@@ -2118,7 +2118,7 @@ if
 (
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -2128,7 +2128,7 @@ menulist
 |
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -2182,7 +2182,7 @@ if
 (
 nodeObject
 .
-tagName
+localName
 =
 =
 "
@@ -2357,7 +2357,7 @@ result
 &
 nodeObject
 .
-tagName
+localName
 =
 =
 =
