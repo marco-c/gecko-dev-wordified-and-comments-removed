@@ -48,6 +48,7 @@ mozac_feature_sitepermissions_notification_title
 %
 1
 s
+?
 <
 /
 string
@@ -80,6 +81,7 @@ mozac_feature_sitepermissions_camera_title
 %
 1
 s
+?
 <
 /
 string
@@ -112,6 +114,7 @@ mozac_feature_sitepermissions_microfone_title
 %
 1
 s
+?
 <
 /
 string
@@ -144,6 +147,7 @@ mozac_feature_sitepermissions_location_title
 %
 1
 s
+?
 <
 /
 string
@@ -178,6 +182,7 @@ mozac_feature_sitepermissions_camera_and_microphone
 %
 1
 s
+?
 <
 /
 string
