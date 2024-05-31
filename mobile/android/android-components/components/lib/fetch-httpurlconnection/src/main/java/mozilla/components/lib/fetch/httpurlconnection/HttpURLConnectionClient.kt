@@ -378,7 +378,7 @@ flush
 }
 }
 }
-private
+internal
 fun
 HttpURLConnection
 .
@@ -460,6 +460,11 @@ toInt
 (
 )
 }
+useCaches
+=
+request
+.
+useCaches
 /
 /
 HttpURLConnection
