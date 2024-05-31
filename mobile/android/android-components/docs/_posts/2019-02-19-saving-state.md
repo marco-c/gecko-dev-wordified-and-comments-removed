@@ -7,7 +7,7 @@ post
 title
 :
 "
-Savind
+Saving
 and
 restoring
 browser
