@@ -2836,9 +2836,6 @@ u8
 PRECACHE_OUTPUT_SIZE
 ]
 )
--
->
-bool
 {
 match
 trc
@@ -3038,7 +3035,6 @@ inverted
 }
 }
 }
-true
 }
 fn
 build_linear_table
