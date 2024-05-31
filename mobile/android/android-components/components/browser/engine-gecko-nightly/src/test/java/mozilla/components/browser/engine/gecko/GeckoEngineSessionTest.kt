@@ -1232,7 +1232,6 @@ GeckoSession
 PermissionDelegate
 .
 PERMISSION_GEOLOCATION
-null
 mock
 (
 GeckoSession
@@ -1264,7 +1263,6 @@ GeckoSession
 PermissionDelegate
 .
 PERMISSION_GEOLOCATION
-null
 mock
 (
 GeckoSession

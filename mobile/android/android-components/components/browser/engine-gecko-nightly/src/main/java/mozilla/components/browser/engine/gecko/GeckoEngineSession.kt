@@ -2272,10 +2272,6 @@ String
 type
 :
 Int
-access
-:
-String
-?
 callback
 :
 GeckoSession
