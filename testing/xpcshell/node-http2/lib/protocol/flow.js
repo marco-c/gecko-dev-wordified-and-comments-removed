@@ -606,6 +606,19 @@ DATA
 }
 else
 {
+if
+(
+!
+this
+.
+listenerCount
+(
+'
+window_update
+'
+)
+)
+{
 this
 .
 once
@@ -618,6 +631,7 @@ this
 _read
 )
 ;
+}
 }
 }
 ;
