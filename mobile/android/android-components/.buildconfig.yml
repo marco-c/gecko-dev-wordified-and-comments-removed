@@ -2124,7 +2124,7 @@ Messaging
 '
 publish
 :
-false
+true
 lib
 -
 push
