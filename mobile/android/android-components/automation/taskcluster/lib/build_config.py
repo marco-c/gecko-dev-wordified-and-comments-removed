@@ -80,7 +80,7 @@ f
 return
 cached_build_config
 def
-module_definitions
+components
 (
 )
 :
