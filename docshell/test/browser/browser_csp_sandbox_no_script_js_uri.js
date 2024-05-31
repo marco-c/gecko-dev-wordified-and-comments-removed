@@ -109,11 +109,11 @@ obs
 subject
 )
 {
-ok
+Assert
+.
+equal
 (
 subject
-=
-=
 content
 "
 Should

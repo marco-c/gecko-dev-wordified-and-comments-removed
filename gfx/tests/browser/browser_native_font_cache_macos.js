@@ -498,10 +498,11 @@ nfrm_match
 1
 ]
 ;
-ok
+Assert
+.
+less
 (
 nfrm_mb
-<
 MB_EXCLUSIVE_MAX
 native
 -
@@ -607,10 +608,11 @@ gfx_match
 1
 ]
 ;
-ok
+Assert
+.
+less
 (
 gfx_mb
-<
 MB_EXCLUSIVE_MAX
 Explicit
 Allocations

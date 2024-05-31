@@ -882,10 +882,11 @@ iframe
 observeFrameUpdate
 )
 ;
-ok
+Assert
+.
+greater
 (
 frameCount
->
 0
 "
 There
