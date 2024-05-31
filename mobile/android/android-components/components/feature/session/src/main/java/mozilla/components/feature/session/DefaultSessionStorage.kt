@@ -435,6 +435,7 @@ session
 =
 deserializeSession
 (
+it
 jsonSession
 .
 getJSONObject
@@ -742,6 +743,9 @@ internal
 fun
 deserializeSession
 (
+id
+:
+String
 json
 :
 JSONObject
@@ -760,6 +764,7 @@ getString
 url
 "
 )
+id
 )
 }
 private
