@@ -1110,6 +1110,9 @@ aWasClick
 {
 if
 (
+mCanBePan
+&
+&
 !
 (
 mTarget
