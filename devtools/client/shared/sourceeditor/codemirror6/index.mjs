@@ -138,7 +138,7 @@ codemirror6
 .
 bundle
 .
-mjs
+js
 file
 /
 /
