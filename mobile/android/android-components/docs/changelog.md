@@ -300,6 +300,13 @@ toolbar
 APIs
 :
 kotlin
+val
+toolbar
+=
+BrowserToolbar
+(
+context
+)
 toolbar
 .
 textColor
@@ -428,7 +435,7 @@ wrap_content
 >
 *
 [
-Api
+API
 improvement
 ]
 (
@@ -541,7 +548,7 @@ toolbar
 :
 *
 [
-Api
+API
 improvement
 ]
 (
@@ -1205,7 +1212,7 @@ to
 be
 used
 :
-Kotlin
+kotlin
 CrashReporter
 (
 promptConfiguration
