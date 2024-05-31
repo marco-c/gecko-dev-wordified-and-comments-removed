@@ -7899,6 +7899,10 @@ mColor
 =
 aColor
 ;
+mPaintingShadows
+=
+false
+;
 GeneralPattern
 fillPattern
 ;
