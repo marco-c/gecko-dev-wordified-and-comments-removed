@@ -10,7 +10,7 @@ test_profile_root
 tmp_path
 configuration
 geckodriver
-user_prefs
+default_preferences
 )
 :
     
@@ -65,7 +65,7 @@ prefs
 "
 ]
 =
-user_prefs
+default_preferences
     
 del
 config
