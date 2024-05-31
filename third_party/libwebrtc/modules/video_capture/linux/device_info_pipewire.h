@@ -29,9 +29,7 @@ modules
 /
 video_capture
 /
-linux
-/
-pipewire_session
+video_capture_options
 .
 h
 "
@@ -96,6 +94,11 @@ productUniqueIdUTF8Length
 pid_t
 *
 pid
+=
+0
+bool
+*
+deviceIsPlaceholder
 =
 0
 )
