@@ -1148,7 +1148,6 @@ value
 "
 [
 None
-None
 False
 42
 {
