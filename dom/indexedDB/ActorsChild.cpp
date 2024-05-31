@@ -5029,7 +5029,7 @@ if
 !
 factory
 .
-GetParentObject
+GetOwnerGlobal
 (
 )
 )

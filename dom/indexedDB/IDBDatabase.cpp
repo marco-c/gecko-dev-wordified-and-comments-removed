@@ -987,14 +987,11 @@ nsPIDOMWindowInner
 >
 window
 =
-do_QueryInterface
-(
 aFactory
 -
 >
-GetParentObject
+GetOwner
 (
-)
 )
 ;
 if
