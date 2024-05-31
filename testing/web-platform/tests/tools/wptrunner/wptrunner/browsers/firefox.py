@@ -620,6 +620,12 @@ binary
 ]
                       
 "
+package_name
+"
+:
+None
+                      
+"
 webdriver_binary
 "
 :
@@ -4522,8 +4528,9 @@ disable_fission
 debug_test
 browser_channel
 binary
-certutil_binary
                  
+package_name
+certutil_binary
 ca_certificate_path
 )
 :
@@ -4587,6 +4594,12 @@ self
 binary
 =
 binary
+        
+self
+.
+package_name
+=
+package_name
         
 self
 .
@@ -5585,8 +5598,10 @@ __init__
 self
 logger
 binary
+package_name
 prefs_root
 test_type
+                 
 extra_prefs
 =
 None
@@ -5758,6 +5773,8 @@ debug_test
 browser_channel
                                          
 binary
+                                         
+package_name
                                          
 certutil_binary
                                          
@@ -6154,6 +6171,7 @@ __init__
 self
 logger
 binary
+package_name
 prefs_root
 webdriver_binary
 webdriver_args
@@ -6200,18 +6218,22 @@ None
 config
 =
 None
-                 
 browser_channel
 =
 "
 nightly
 "
+                 
 headless
 =
 None
 debug_test
 =
 False
+profile_creator_cls
+=
+ProfileCreator
+                 
 *
 *
 kwargs
@@ -6235,6 +6257,12 @@ self
 binary
 =
 binary
+        
+self
+.
+package_name
+=
+package_name
         
 self
 .
@@ -6295,30 +6323,32 @@ e10s
         
 profile_creator
 =
-ProfileCreator
+profile_creator_cls
 (
 logger
-                                         
+                                              
 prefs_root
-                                         
+                                              
 config
-                                         
+                                              
 "
 wdspec
 "
-                                         
+                                              
 extra_prefs
-                                         
+                                              
 disable_fission
-                                         
+                                              
 debug_test
-                                         
+                                              
 browser_channel
-                                         
+                                              
 binary
-                                         
+                                              
+package_name
+                                              
 certutil_binary
-                                         
+                                              
 ca_certificate_path
 )
         
