@@ -4943,6 +4943,10 @@ cssparser
 :
 :
 SourceLocation
+cssparser
+:
+:
+SourcePosition
 )
 ;
 malloc_size_of_is_0

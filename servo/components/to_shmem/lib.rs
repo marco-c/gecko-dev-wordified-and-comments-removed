@@ -858,11 +858,10 @@ cssparser
 :
 :
 SourceLocation
-)
-;
-impl_trivial_to_shmem
-!
-(
+cssparser
+:
+:
+SourcePosition
 cssparser
 :
 :
