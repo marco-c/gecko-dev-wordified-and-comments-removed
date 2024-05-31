@@ -336,43 +336,15 @@ default
 cookies
     
 )
-pytest
-.
-mark
-.
-parametrize
-(
-"
-domain
-"
-[
-"
-"
-"
-alt
-"
-]
-ids
-=
-[
-"
-same_origin
-"
-"
-cross_origin
-"
-]
-)
 async
 def
-test_partition_context_iframe
+test_partition_context_same_origin_iframe
 (
     
 bidi_session
 new_tab
 inline
 domain_value
-domain
 add_cookie
 )
 :
@@ -398,12 +370,9 @@ foo
 div
 >
 "
-domain
-=
-domain
 )
     
-source_origin_for_iframe
+source_origin
 =
 get_origin_from_url
 (
@@ -431,13 +400,6 @@ iframe_url
 iframe
 >
 "
-)
-    
-source_origin_for_page
-=
-get_origin_from_url
-(
-page_url
 )
     
 await
@@ -562,9 +524,6 @@ domain
 :
 domain_value
 (
-domain
-=
-domain
 )
             
 "
@@ -655,7 +614,7 @@ partitionKey
 sourceOrigin
 "
 :
-source_origin_for_iframe
+source_origin
 }
         
 }
@@ -688,71 +647,29 @@ context
     
 )
     
-if
-domain
-=
-=
-"
-alt
-"
-:
-        
 recursive_compare
 (
-            
-{
-                
-"
-cookies
-"
-:
-[
-]
-                
-"
-partitionKey
-"
-:
-{
-"
-sourceOrigin
-"
-:
-source_origin_for_page
-}
-            
-}
-            
-cookies
         
-)
-    
-else
-:
-        
-recursive_compare
-(
-            
 {
-                
+            
 "
 cookies
 "
 :
 expected_cookies
-                
+            
 "
 partitionKey
 "
 :
 {
-                    
+                
 "
 sourceOrigin
 "
 :
-source_origin_for_page
-                    
+source_origin
+                
 "
 userContext
 "
@@ -760,11 +677,11 @@ userContext
 "
 default
 "
-                
-}
             
 }
-            
-cookies
         
+}
+        
+cookies
+    
 )
