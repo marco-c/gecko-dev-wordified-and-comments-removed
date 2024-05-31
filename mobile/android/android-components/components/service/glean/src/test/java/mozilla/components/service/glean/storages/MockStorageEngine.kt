@@ -67,6 +67,12 @@ glean
 .
 storages
 import
+android
+.
+content
+.
+Context
+import
 org
 .
 junit
@@ -137,6 +143,12 @@ test
 :
 StorageEngine
 {
+override
+lateinit
+var
+applicationContext
+:
+Context
 override
 fun
 getSnapshotAsJSON

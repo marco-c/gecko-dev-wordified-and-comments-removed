@@ -66,6 +66,12 @@ service
 glean
 .
 storages
+import
+android
+.
+content
+.
+Context
 /
 *
 *
@@ -88,6 +94,10 @@ internal
 interface
 StorageEngine
 {
+var
+applicationContext
+:
+Context
 /
 *
 *
