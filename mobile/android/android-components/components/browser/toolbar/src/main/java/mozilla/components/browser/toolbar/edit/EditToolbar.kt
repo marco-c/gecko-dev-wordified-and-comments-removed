@@ -571,6 +571,13 @@ string
 .
 mozac_close_button_description
 )
+scaleType
+=
+ImageView
+.
+ScaleType
+.
+CENTER
 setOnClickListener
 {
 toolbar
