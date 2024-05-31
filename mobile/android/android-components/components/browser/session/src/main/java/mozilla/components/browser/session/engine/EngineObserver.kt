@@ -415,6 +415,9 @@ Boolean
 {
 if
 (
+triggeredByRedirect
+|
+|
 triggeredByWebContent
 )
 {
