@@ -184,6 +184,8 @@ target
 "
 cfg
 (
+any
+(
 target_os
 =
 \
@@ -191,6 +193,14 @@ target_os
 macos
 \
 "
+target_os
+=
+\
+"
+ios
+\
+"
+)
 )
 "
 .
@@ -213,6 +223,8 @@ target
 "
 cfg
 (
+any
+(
 target_os
 =
 \
@@ -220,6 +232,14 @@ target_os
 macos
 \
 "
+target_os
+=
+\
+"
+ios
+\
+"
+)
 )
 "
 .
