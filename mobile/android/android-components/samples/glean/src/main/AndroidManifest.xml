@@ -222,6 +222,14 @@ Light
 .
 DarkActionBar
 "
+android
+:
+name
+=
+"
+.
+GleanApplication
+"
 >
 <
 activity
