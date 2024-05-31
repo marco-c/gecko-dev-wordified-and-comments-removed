@@ -255,7 +255,7 @@ const
 ;
 virtual
 ScopedEvent
-Clone
+CloneForBroadcast
 (
 )
 const
@@ -869,7 +869,7 @@ const
 override
 ;
 ScopedEvent
-Clone
+CloneForBroadcast
 (
 )
 const
@@ -967,13 +967,6 @@ buffer
 const
 override
 ;
-ScopedEvent
-Clone
-(
-)
-const
-override
-;
 const
 uint64_t
 last_sequence_num_
@@ -1062,13 +1055,6 @@ SerializeData
 void
 *
 buffer
-)
-const
-override
-;
-ScopedEvent
-Clone
-(
 )
 const
 override

@@ -3792,7 +3792,7 @@ clone
 event
 -
 >
-Clone
+CloneForBroadcast
 (
 )
 ;
