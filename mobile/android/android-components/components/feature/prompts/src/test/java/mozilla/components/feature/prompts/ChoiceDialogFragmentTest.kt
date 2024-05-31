@@ -1820,7 +1820,7 @@ verify
 mockFeature
 )
 .
-onSingleChoiceSelect
+onConfirm
 (
 "
 sessionId
@@ -1984,7 +1984,7 @@ verify
 mockFeature
 )
 .
-onSingleChoiceSelect
+onConfirm
 (
 "
 sessionId
@@ -2210,7 +2210,7 @@ verify
 mockFeature
 )
 .
-onMultipleChoiceSelect
+onConfirm
 (
 "
 sessionId
@@ -2448,7 +2448,7 @@ verify
 mockFeature
 )
 .
-onMultipleChoiceSelect
+onConfirm
 (
 "
 sessionId

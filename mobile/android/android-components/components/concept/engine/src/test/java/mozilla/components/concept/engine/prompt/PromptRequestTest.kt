@@ -216,7 +216,7 @@ emptyArray
 }
 single
 .
-onSelect
+onConfirm
 (
 Choice
 (
@@ -249,7 +249,7 @@ emptyArray
 }
 multiple
 .
-onSelect
+onConfirm
 (
 arrayOf
 (
@@ -285,7 +285,7 @@ emptyArray
 }
 menu
 .
-onSelect
+onConfirm
 (
 Choice
 (
@@ -354,7 +354,7 @@ onDismiss
 )
 alert
 .
-onShouldShowNoMoreDialogs
+onConfirm
 (
 true
 )
@@ -390,7 +390,7 @@ onDismiss
 )
 alert
 .
-onShouldShowNoMoreDialogs
+onConfirm
 (
 true
 )
@@ -532,7 +532,7 @@ maximumDate
 )
 dateRequest
 .
-onSelect
+onConfirm
 (
 Date
 (

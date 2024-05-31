@@ -818,7 +818,7 @@ verify
 mockFeature
 )
 .
-onConfirmAuthentication
+onConfirm
 (
 "
 sessionId
@@ -826,6 +826,7 @@ sessionId
 "
 username
 "
+to
 "
 password
 "

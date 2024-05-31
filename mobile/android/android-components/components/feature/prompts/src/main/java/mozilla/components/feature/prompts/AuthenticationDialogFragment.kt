@@ -452,10 +452,11 @@ onPositiveClickAction
 feature
 ?
 .
-onConfirmAuthentication
+onConfirm
 (
 sessionId
 username
+to
 password
 )
 }

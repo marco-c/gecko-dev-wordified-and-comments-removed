@@ -379,7 +379,7 @@ else
 feature
 ?
 .
-onShouldMoreDialogsChecked
+onConfirm
 (
 sessionId
 userSelectionNoMoreDialogs

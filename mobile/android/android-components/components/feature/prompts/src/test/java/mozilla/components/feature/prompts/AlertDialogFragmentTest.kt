@@ -726,7 +726,7 @@ verify
 mockFeature
 )
 .
-onShouldMoreDialogsChecked
+onConfirm
 (
 "
 sessionId

@@ -598,12 +598,6 @@ DialogInterface
 ?
 )
 {
-super
-.
-onCancel
-(
-dialog
-)
 feature
 ?
 .
@@ -621,10 +615,11 @@ onPositiveClickAction
 feature
 ?
 .
-onConfirmTextPrompt
+onConfirm
 (
 sessionId
 userSelectionNoMoreDialogs
+to
 userSelectionEditText
 )
 }

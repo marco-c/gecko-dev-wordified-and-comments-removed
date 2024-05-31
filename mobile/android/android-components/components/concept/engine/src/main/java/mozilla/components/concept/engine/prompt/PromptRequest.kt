@@ -131,7 +131,7 @@ options
 .
 *
 property
-onSelect
+onConfirm
 A
 callback
 indicating
@@ -154,7 +154,7 @@ Array
 Choice
 >
 val
-onSelect
+onConfirm
 :
 (
 Choice
@@ -193,7 +193,7 @@ options
 .
 *
 property
-onSelect
+onConfirm
 A
 callback
 indicating
@@ -217,7 +217,7 @@ Array
 Choice
 >
 val
-onSelect
+onConfirm
 :
 (
 Array
@@ -259,7 +259,7 @@ options
 .
 *
 property
-onSelect
+onConfirm
 A
 callback
 indicating
@@ -282,7 +282,7 @@ Array
 Choice
 >
 val
-onSelect
+onConfirm
 :
 (
 Choice
@@ -361,7 +361,7 @@ dialog
 .
 *
 property
-onShouldShowNoMoreDialogs
+onConfirm
 tells
 the
 web
@@ -404,7 +404,7 @@ onDismiss
 >
 Unit
 val
-onShouldShowNoMoreDialogs
+onConfirm
 :
 (
 Boolean
@@ -438,6 +438,7 @@ message
 .
 *
 property
+title
 title
 of
 the
@@ -637,7 +638,7 @@ wants
 .
 *
 property
-onSelect
+onConfirm
 callback
 that
 is
@@ -710,7 +711,7 @@ Type
 .
 DATE
 val
-onSelect
+onConfirm
 :
 (
 java

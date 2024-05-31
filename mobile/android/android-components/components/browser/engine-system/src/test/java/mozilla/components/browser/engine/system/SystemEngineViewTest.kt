@@ -7412,7 +7412,7 @@ message
 )
 alertRequest
 .
-onShouldShowNoMoreDialogs
+onConfirm
 (
 true
 )
@@ -7446,7 +7446,7 @@ cancel
 )
 alertRequest
 .
-onShouldShowNoMoreDialogs
+onConfirm
 (
 true
 )

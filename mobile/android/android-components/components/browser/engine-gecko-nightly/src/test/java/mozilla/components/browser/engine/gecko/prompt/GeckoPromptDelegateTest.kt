@@ -790,7 +790,7 @@ as
 SingleChoice
 request
 .
-onSelect
+onConfirm
 (
 request
 .
@@ -1035,7 +1035,7 @@ as
 MultipleChoice
 )
 .
-onSelect
+onConfirm
 (
 arrayOf
 (
@@ -1290,7 +1290,7 @@ PromptRequest
 MenuChoice
 request
 .
-onSelect
+onConfirm
 (
 request
 .
@@ -1489,7 +1489,7 @@ PromptRequest
 Alert
 )
 .
-onShouldShowNoMoreDialogs
+onConfirm
 (
 true
 )
@@ -1949,7 +1949,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 Date
 (
@@ -2275,7 +2275,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 selectedDate
 )
@@ -2487,7 +2487,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 Date
 (
@@ -2776,7 +2776,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 selectedDate
 )
@@ -2986,7 +2986,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 Date
 (
@@ -3287,7 +3287,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 selectedDate
 )
@@ -3500,7 +3500,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 Date
 (
@@ -3789,7 +3789,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 selectedDate
 )
@@ -4003,7 +4003,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 Date
 (
@@ -4352,7 +4352,7 @@ PromptRequest
 TimeSelection
 )
 .
-onSelect
+onConfirm
 (
 selectedDate
 )

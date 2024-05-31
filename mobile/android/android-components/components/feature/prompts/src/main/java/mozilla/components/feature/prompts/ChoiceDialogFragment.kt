@@ -514,7 +514,7 @@ Choice
 feature
 ?
 .
-onSingleChoiceSelect
+onConfirm
 (
 sessionId
 selectedChoice
@@ -666,7 +666,7 @@ _
 feature
 ?
 .
-onMultipleChoiceSelect
+onConfirm
 (
 sessionId
 mapSelectChoice
