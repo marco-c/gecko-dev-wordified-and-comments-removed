@@ -584,6 +584,9 @@ GpuProcessQueryId
 ?
 gpuProcessQueryId
 ;
+bool
+useCompositorDevice
+;
 }
 ;
 [

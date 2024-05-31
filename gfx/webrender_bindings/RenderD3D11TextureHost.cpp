@@ -200,6 +200,8 @@ GpuProcessQueryId
 >
 &
 aGpuProcessQueryId
+bool
+aUseCompositorDevice
 )
 :
 mHandle
@@ -253,6 +255,10 @@ aHasKeyedMutex
 mAcquireFenceInfo
 (
 aAcquireFenceInfo
+)
+mUseCompositorDevice
+(
+aUseCompositorDevice
 )
 mLocked
 (
@@ -2466,6 +2472,10 @@ mHasKeyedMutex
 mAcquireFenceInfo
 .
 mFenceHandle
+&
+&
+!
+mUseCompositorDevice
 ;
 }
 RenderDXGIYCbCrTextureHost
