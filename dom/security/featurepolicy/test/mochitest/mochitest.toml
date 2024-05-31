@@ -59,6 +59,13 @@ html
 ]
 [
 "
+test_initial_aboutblank
+.
+html
+"
+]
+[
+"
 test_parser
 .
 html
