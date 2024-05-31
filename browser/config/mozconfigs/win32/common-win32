@@ -24,13 +24,11 @@ topsrcdir
 /
 build
 /
-win32
-/
 mozconfig
 .
-vs
+clang
 -
-latest
+cl
 if
 test
 uname

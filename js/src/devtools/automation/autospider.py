@@ -3026,20 +3026,15 @@ topsrcdir
 /
 build
 /
-%
-s
-/
 mozconfig
 .
-vs
+clang
 -
-latest
+cl
 "
 \
 n
 '
-%
-variant_platform
 )
     
 fh

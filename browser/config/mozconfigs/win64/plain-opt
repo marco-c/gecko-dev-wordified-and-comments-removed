@@ -21,10 +21,8 @@ topsrcdir
 /
 build
 /
-win64
-/
 mozconfig
 .
-vs
+clang
 -
-latest
+cl
