@@ -15,7 +15,7 @@ import
 ContextTarget
 async
 def
-is_selector_focused
+is_element_focused
 (
 bidi_session
 context

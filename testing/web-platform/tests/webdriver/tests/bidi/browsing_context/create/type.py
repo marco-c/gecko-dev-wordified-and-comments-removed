@@ -1,11 +1,6 @@
 import
 pytest
 from
-.
-.
-import
-assert_browsing_context
-from
 webdriver
 .
 bidi
@@ -15,6 +10,12 @@ modules
 script
 import
 ContextTarget
+from
+.
+.
+import
+assert_browsing_context
+assert_document_status
 pytestmark
 =
 pytest
@@ -29,7 +30,7 @@ mark
 parametrize
 (
 "
-value
+type_hint
 "
 [
 "
@@ -45,9 +46,19 @@ def
 test_type
 (
 bidi_session
-value
+top_context
+type_hint
 )
 :
+    
+is_window
+=
+type_hint
+=
+=
+"
+window
+"
     
 contexts
 =
@@ -72,6 +83,19 @@ contexts
 =
 1
     
+await
+assert_document_status
+(
+bidi_session
+top_context
+visible
+=
+True
+focused
+=
+True
+)
+    
 new_context
 =
 await
@@ -83,7 +107,7 @@ create
 (
 type_hint
 =
-value
+type_hint
 )
     
 assert
@@ -104,6 +128,32 @@ new_context
 context
 "
 ]
+    
+await
+assert_document_status
+(
+bidi_session
+new_context
+visible
+=
+True
+focused
+=
+True
+)
+    
+await
+assert_document_status
+(
+bidi_session
+top_context
+visible
+=
+is_window
+focused
+=
+False
+)
     
 contexts
 =
