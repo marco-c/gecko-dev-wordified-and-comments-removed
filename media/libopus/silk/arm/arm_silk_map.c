@@ -93,6 +93,7 @@ silk_biquad_alt_stride2_c
 silk_biquad_alt_stride2_c
 silk_biquad_alt_stride2_c
 silk_biquad_alt_stride2_neon
+silk_biquad_alt_stride2_neon
 }
 ;
 opus_int32
@@ -120,6 +121,7 @@ order
 silk_LPC_inverse_pred_gain_c
 silk_LPC_inverse_pred_gain_c
 silk_LPC_inverse_pred_gain_c
+silk_LPC_inverse_pred_gain_neon
 silk_LPC_inverse_pred_gain_neon
 }
 ;
@@ -156,12 +158,8 @@ pulses
 ]
 const
 opus_int16
-PredCoef_Q12
-[
-2
 *
-MAX_LPC_ORDER
-]
+PredCoef_Q12
 const
 opus_int16
 LTPCoef_Q14
@@ -221,6 +219,7 @@ silk_NSQ_del_dec_c
 silk_NSQ_del_dec_c
 silk_NSQ_del_dec_c
 silk_NSQ_del_dec_neon
+silk_NSQ_del_dec_neon
 }
 ;
 opus_int32
@@ -254,6 +253,7 @@ order
 silk_NSQ_noise_shape_feedback_loop_c
 silk_NSQ_noise_shape_feedback_loop_c
 silk_NSQ_noise_shape_feedback_loop_c
+silk_NSQ_noise_shape_feedback_loop_neon
 silk_NSQ_noise_shape_feedback_loop_neon
 }
 ;
@@ -316,6 +316,7 @@ order
 silk_warped_autocorrelation_FIX_c
 silk_warped_autocorrelation_FIX_c
 silk_warped_autocorrelation_FIX_c
+silk_warped_autocorrelation_FIX_neon
 silk_warped_autocorrelation_FIX_neon
 }
 ;

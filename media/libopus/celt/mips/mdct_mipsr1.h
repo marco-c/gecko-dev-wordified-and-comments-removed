@@ -1,9 +1,9 @@
 #
 ifndef
-__MDCT_MIPSR1_H__
+MDCT_MIPSR1_H__
 #
 define
-__MDCT_MIPSR1_H__
+MDCT_MIPSR1_H__
 #
 ifndef
 SKIP_CONFIG_H

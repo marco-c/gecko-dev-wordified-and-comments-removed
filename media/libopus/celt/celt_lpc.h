@@ -37,7 +37,7 @@ h
 endif
 #
 define
-LPC_ORDER
+CELT_LPC_ORDER
 24
 void
 _celt_lpc

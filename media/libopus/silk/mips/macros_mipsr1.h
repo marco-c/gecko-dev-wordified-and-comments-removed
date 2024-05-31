@@ -1,9 +1,9 @@
 #
 ifndef
-__SILK_MACROS_MIPSR1_H__
+SILK_MACROS_MIPSR1_H__
 #
 define
-__SILK_MACROS_MIPSR1_H__
+SILK_MACROS_MIPSR1_H__
 #
 define
 mips_clz

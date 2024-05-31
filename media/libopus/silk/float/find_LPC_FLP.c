@@ -49,6 +49,8 @@ x
 const
 silk_float
 minInvGain
+int
+arch
 )
 {
 opus_int
@@ -125,6 +127,7 @@ psEncC
 -
 >
 predictLPCOrder
+arch
 )
 ;
 if
@@ -175,6 +178,7 @@ psEncC
 -
 >
 predictLPCOrder
+arch
 )
 ;
 silk_A2NLSF_FLP

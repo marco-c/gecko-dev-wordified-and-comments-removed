@@ -51,7 +51,7 @@ h
 #
 define
 OPUS_ARCHMASK
-3
+7
 #
 elif
 defined
@@ -113,14 +113,14 @@ OPUS_X86_PRESUME_SSE4_1
 (
 defined
 (
-OPUS_X86_MAY_HAVE_AVX
+OPUS_X86_MAY_HAVE_AVX2
 )
 &
 &
 !
 defined
 (
-OPUS_X86_PRESUME_AVX
+OPUS_X86_PRESUME_AVX2
 )
 )
 )

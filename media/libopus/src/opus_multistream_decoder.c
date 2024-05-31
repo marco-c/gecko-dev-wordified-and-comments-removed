@@ -735,6 +735,8 @@ size
 NULL
 &
 packet_offset
+NULL
+NULL
 )
 ;
 if
@@ -1140,6 +1142,8 @@ nb_streams
 &
 packet_offset
 soft_clip
+NULL
+0
 )
 ;
 if

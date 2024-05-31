@@ -38,6 +38,8 @@ opus_int
 inputDataSize
 opus_int
 correlationCount
+int
+arch
 )
 {
 opus_int
@@ -87,6 +89,7 @@ i
 inputDataSize
 -
 i
+arch
 )
 ;
 }

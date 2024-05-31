@@ -1515,6 +1515,7 @@ silk_inner_product_FLP
 basis_ptr
 target_ptr
 sf_length_8kHz
+arch
 )
 ;
 if

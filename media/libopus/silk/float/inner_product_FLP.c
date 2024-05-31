@@ -18,7 +18,7 @@ SigProc_FLP
 h
 "
 double
-silk_inner_product_FLP
+silk_inner_product_FLP_c
 (
 const
 silk_float

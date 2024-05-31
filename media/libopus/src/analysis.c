@@ -7451,7 +7451,7 @@ lowECount
 .
 067930f
 ;
-compute_dense
+analysis_compute_dense
 (
 &
 layer0
@@ -7459,7 +7459,7 @@ layer_out
 features
 )
 ;
-compute_gru
+analysis_compute_gru
 (
 &
 layer1
@@ -7470,7 +7470,7 @@ rnn_state
 layer_out
 )
 ;
-compute_dense
+analysis_compute_dense
 (
 &
 layer2

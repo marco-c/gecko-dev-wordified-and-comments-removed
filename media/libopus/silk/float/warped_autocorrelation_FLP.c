@@ -129,7 +129,6 @@ i
 +
 warping
 *
-(
 state
 [
 i
@@ -137,8 +136,9 @@ i
 1
 ]
 -
+warping
+*
 tmp1
-)
 ;
 state
 [
@@ -171,7 +171,6 @@ i
 +
 warping
 *
-(
 state
 [
 i
@@ -179,8 +178,9 @@ i
 2
 ]
 -
+warping
+*
 tmp2
-)
 ;
 state
 [

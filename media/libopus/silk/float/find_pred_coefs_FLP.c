@@ -216,6 +216,12 @@ psEnc
 sCmn
 .
 nb_subfr
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 silk_quant_LTP_gains_FLP
@@ -518,6 +524,12 @@ sCmn
 NLSF_Q15
 LPC_in_pre
 minInvGain
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 silk_process_NLSFs_FLP

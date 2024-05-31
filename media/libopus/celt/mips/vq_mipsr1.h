@@ -1,9 +1,9 @@
 #
 ifndef
-__VQ_MIPSR1_H__
+VQ_MIPSR1_H__
 #
 define
-__VQ_MIPSR1_H__
+VQ_MIPSR1_H__
 #
 ifdef
 HAVE_CONFIG_H

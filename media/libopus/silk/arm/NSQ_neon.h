@@ -365,7 +365,7 @@ do
 if
 (
 arch
-=
+>
 =
 OPUS_ARCH_ARM_NEON
 )
@@ -504,7 +504,7 @@ arch
 \
 (
 arch
-=
+>
 =
 OPUS_ARCH_ARM_NEON
 ?

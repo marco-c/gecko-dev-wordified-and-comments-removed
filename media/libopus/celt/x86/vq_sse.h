@@ -17,9 +17,6 @@ defined
 (
 FIXED_POINT
 )
-#
-define
-OVERRIDE_OP_PVQ_SEARCH
 opus_val16
 op_pvq_search_sse2
 (
@@ -45,6 +42,9 @@ OPUS_X86_PRESUME_SSE2
 )
 #
 define
+OVERRIDE_OP_PVQ_SEARCH
+#
+define
 op_pvq_search
 (
 x
@@ -65,7 +65,14 @@ arch
 )
 )
 #
-else
+elif
+defined
+(
+OPUS_HAVE_RTCD
+)
+#
+define
+OVERRIDE_OP_PVQ_SEARCH
 extern
 opus_val16
 (

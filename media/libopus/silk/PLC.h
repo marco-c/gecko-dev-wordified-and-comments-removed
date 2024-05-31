@@ -127,6 +127,14 @@ frame
 ]
 opus_int
 lost
+#
+ifdef
+ENABLE_DEEP_PLC
+LPCNetPLCState
+*
+lpcnet
+#
+endif
 int
 arch
 )

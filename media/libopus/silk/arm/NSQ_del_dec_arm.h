@@ -45,12 +45,8 @@ pulses
 ]
 const
 opus_int16
-PredCoef_Q12
-[
-2
 *
-MAX_LPC_ORDER
-]
+PredCoef_Q12
 const
 opus_int16
 LTPCoef_Q14
@@ -243,12 +239,8 @@ pulses
 ]
 const
 opus_int16
-PredCoef_Q12
-[
-2
 *
-MAX_LPC_ORDER
-]
+PredCoef_Q12
 const
 opus_int16
 LTPCoef_Q14

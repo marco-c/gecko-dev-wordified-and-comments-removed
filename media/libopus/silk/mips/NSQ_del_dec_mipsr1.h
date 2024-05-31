@@ -1,9 +1,9 @@
 #
 ifndef
-__NSQ_DEL_DEC_MIPSR1_H__
+NSQ_DEL_DEC_MIPSR1_H__
 #
 define
-__NSQ_DEL_DEC_MIPSR1_H__
+NSQ_DEL_DEC_MIPSR1_H__
 #
 ifdef
 HAVE_CONFIG_H

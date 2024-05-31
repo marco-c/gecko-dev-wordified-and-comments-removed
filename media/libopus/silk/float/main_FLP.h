@@ -260,6 +260,8 @@ x
 const
 silk_float
 minInvGain
+int
+arch
 )
 ;
 void
@@ -298,6 +300,8 @@ subfr_length
 const
 opus_int
 nb_subfr
+int
+arch
 )
 ;
 void
@@ -506,6 +510,8 @@ Order
 silk_float
 *
 XX
+int
+arch
 )
 ;
 void
@@ -528,6 +534,8 @@ Order
 silk_float
 *
 Xt
+int
+arch
 )
 ;
 void

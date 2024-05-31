@@ -79,6 +79,7 @@ celt_inner_prod_c
 celt_inner_prod_c
 celt_inner_prod_c
 celt_inner_prod_neon
+celt_inner_prod_neon
 }
 ;
 void
@@ -119,6 +120,7 @@ xy2
 dual_inner_prod_c
 dual_inner_prod_c
 dual_inner_prod_c
+dual_inner_prod_neon
 dual_inner_prod_neon
 }
 ;
@@ -218,6 +220,10 @@ MAY_HAVE_NEON
 (
 celt_pitch_xcorr
 )
+MAY_HAVE_NEON
+(
+celt_pitch_xcorr
+)
 }
 ;
 #
@@ -266,6 +272,7 @@ int
 celt_pitch_xcorr_c
 celt_pitch_xcorr_c
 celt_pitch_xcorr_c
+celt_pitch_xcorr_float_neon
 celt_pitch_xcorr_float_neon
 }
 ;
@@ -333,6 +340,7 @@ xcorr_kernel_c
 xcorr_kernel_c
 xcorr_kernel_c
 xcorr_kernel_neon_fixed
+xcorr_kernel_neon_fixed
 }
 ;
 #
@@ -377,6 +385,7 @@ opus_fft_alloc_arch_c
 opus_fft_alloc_arch_c
 opus_fft_alloc_arch_c
 opus_fft_alloc_arm_neon
+opus_fft_alloc_arm_neon
 }
 ;
 void
@@ -400,6 +409,7 @@ st
 opus_fft_free_arch_c
 opus_fft_free_arch_c
 opus_fft_free_arch_c
+opus_fft_free_arm_neon
 opus_fft_free_arm_neon
 }
 ;
@@ -435,6 +445,7 @@ opus_fft_c
 opus_fft_c
 opus_fft_c
 opus_fft_neon
+opus_fft_neon
 }
 ;
 void
@@ -466,6 +477,7 @@ fout
 opus_ifft_c
 opus_ifft_c
 opus_ifft_c
+opus_ifft_neon
 opus_ifft_neon
 }
 ;
@@ -511,6 +523,7 @@ clt_mdct_forward_c
 clt_mdct_forward_c
 clt_mdct_forward_c
 clt_mdct_forward_neon
+clt_mdct_forward_neon
 }
 ;
 void
@@ -554,6 +567,7 @@ arch
 clt_mdct_backward_c
 clt_mdct_backward_c
 clt_mdct_backward_c
+clt_mdct_backward_neon
 clt_mdct_backward_neon
 }
 ;

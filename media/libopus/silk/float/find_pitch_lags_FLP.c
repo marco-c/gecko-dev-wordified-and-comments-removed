@@ -300,6 +300,7 @@ sCmn
 pitchEstimationLPCOrder
 +
 1
+arch
 )
 ;
 auto_corr

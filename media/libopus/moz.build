@@ -80,7 +80,7 @@ OPUS_VERSION
 ]
 =
 "
-c85499757c148fede8604cffa12454206b6138ba
+ab4e83598e7fc8b2ce82dc633a0fc0c452b629aa
 "
 DEFINES
 [
@@ -111,7 +111,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -465,7 +465,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 in
@@ -641,7 +641,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -726,7 +726,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
