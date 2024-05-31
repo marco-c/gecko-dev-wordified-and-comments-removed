@@ -5874,6 +5874,14 @@ FINGERPRINTING
 inv
 (
 )
+and
+TrackingProtectionPolicy
+.
+SAFE_BROWSING_ALL
+.
+inv
+(
+)
 ContentBlocking
 .
 AT_ALL
