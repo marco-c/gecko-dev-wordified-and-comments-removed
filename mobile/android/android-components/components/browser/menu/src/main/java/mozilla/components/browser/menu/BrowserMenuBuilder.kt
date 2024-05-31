@@ -100,7 +100,6 @@ from
 class
 BrowserMenuBuilder
 (
-private
 val
 items
 :

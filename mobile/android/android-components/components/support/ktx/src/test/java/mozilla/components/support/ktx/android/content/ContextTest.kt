@@ -487,7 +487,7 @@ assertEquals
 FLAG_ACTIVITY_NEW_TASK
 argCaptor
 .
-firstValue
+value
 .
 flags
 )

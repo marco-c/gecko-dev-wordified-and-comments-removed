@@ -691,6 +691,9 @@ layout
 .
 toolbar
 sessionId
+components
+.
+menuBuilder
 )
 {
 activity
