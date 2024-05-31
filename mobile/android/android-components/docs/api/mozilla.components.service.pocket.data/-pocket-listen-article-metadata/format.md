@@ -140,7 +140,7 @@ PocketListenArticleMetadata
 .
 kt
 #
-L25
+L27
 )
 the
 encoding

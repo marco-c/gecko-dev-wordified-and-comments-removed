@@ -62,7 +62,7 @@ writer
 (
 )
 :
-WritablePlacesConnectionInterface
+WritableHistoryConnection
 [
 (
 source
@@ -117,5 +117,5 @@ Connection
 .
 kt
 #
-L29
+L27
 )

@@ -140,7 +140,7 @@ PocketListenArticleMetadata
 .
 kt
 #
-L30
+L32
 )
 size
 of

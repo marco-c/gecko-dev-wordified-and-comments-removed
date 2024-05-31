@@ -128,7 +128,7 @@ Connection
 .
 kt
 #
-L27
+L25
 )
 A
 slight
@@ -247,7 +247,7 @@ reader
 (
 )
 :
-ReadablePlacesConnectionInterface
+ReadableHistoryConnection
 |
 |
 [
@@ -265,7 +265,22 @@ sync
 (
 syncInfo
 :
+[
 SyncAuthInfo
+]
+(
+.
+.
+/
+-
+sync
+-
+auth
+-
+info
+.
+md
+)
 )
 :
 [
@@ -314,5 +329,5 @@ writer
 (
 )
 :
-WritablePlacesConnectionInterface
+WritableHistoryConnection
 |

@@ -140,7 +140,7 @@ PocketListenArticleMetadata
 .
 kt
 #
-L28
+L30
 )
 the
 voice

@@ -62,7 +62,7 @@ reader
 (
 )
 :
-ReadablePlacesConnectionInterface
+ReadableHistoryConnection
 [
 (
 source
@@ -117,5 +117,5 @@ Connection
 .
 kt
 #
-L28
+L26
 )
