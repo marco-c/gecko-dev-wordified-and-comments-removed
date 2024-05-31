@@ -232,7 +232,7 @@ observers
 .
 *
 /
-private
+internal
 fun
 notifyObservers
 (
