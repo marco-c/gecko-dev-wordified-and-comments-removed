@@ -86,9 +86,6 @@ configure
 ]
         
 +
-extra_args
-        
-+
 [
 "
 -
@@ -108,6 +105,9 @@ devnull
 }
 "
 ]
+        
++
+extra_args
         
 logger
 =
@@ -181,20 +181,6 @@ configure
 "
 )
 )
-    
-sandbox
-[
-"
-developer_options
-"
-]
-=
-sandbox
-[
-"
-always
-"
-]
     
 sandbox
 .

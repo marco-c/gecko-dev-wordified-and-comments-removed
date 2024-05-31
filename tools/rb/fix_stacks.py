@@ -156,20 +156,6 @@ configure
 )
     
 sandbox
-[
-"
-developer_options
-"
-]
-=
-sandbox
-[
-"
-always
-"
-]
-    
-sandbox
 .
 include_file
 (
