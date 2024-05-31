@@ -8174,7 +8174,6 @@ runWithSessionIdOrSelected
 "
 )
 {
-true
 }
 assertTrue
 (
@@ -8217,7 +8216,6 @@ runWithSessionIdOrSelected
 null
 )
 {
-true
 }
 assertFalse
 (
@@ -8233,7 +8231,6 @@ runWithSessionIdOrSelected
 "
 )
 {
-true
 }
 assertFalse
 (
@@ -8317,7 +8314,6 @@ selectedSessionId
 session
 .
 id
-true
 }
 assertTrue
 (
