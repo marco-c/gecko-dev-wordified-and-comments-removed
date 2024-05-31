@@ -814,6 +814,9 @@ value
 )
 ;
 }
+return
+0
+;
 }
 Result
 <
@@ -1206,6 +1209,11 @@ value
 )
 ;
 }
+return
+"
+unsupported
+"
+;
 }
 already_AddRefed
 <
