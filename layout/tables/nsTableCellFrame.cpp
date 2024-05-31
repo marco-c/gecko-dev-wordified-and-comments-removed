@@ -2279,8 +2279,6 @@ overflow
 (
 nsPoint
 (
-0
-0
 )
 GetSize
 (
