@@ -1205,6 +1205,11 @@ LoopingChanged
 override
 ;
 void
+PlaybackRateChanged
+(
+)
+;
+void
 SetIsLiveStream
 (
 bool
@@ -1536,6 +1541,15 @@ mVideoDisplay
 ;
 nsCString
 mKeySystem
+;
+nsTArray
+<
+RefPtr
+<
+nsIRunnable
+>
+>
+mPendingTasks
 ;
 }
 ;
