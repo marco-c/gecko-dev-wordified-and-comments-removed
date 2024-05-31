@@ -139,7 +139,7 @@ Places
 lib
 via
 [
-PlacesConnection
+PlacesApi
 ]
 (
 #
