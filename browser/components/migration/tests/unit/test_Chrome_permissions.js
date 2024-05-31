@@ -167,7 +167,11 @@ MockFilePicker
 .
 init
 (
+{
+window
+:
 globalThis
+}
 )
 ;
 registerCleanupFunction
