@@ -710,6 +710,9 @@ menuBuilder
 =
 BrowserMenuBuilder
 (
+emptyList
+(
+)
 )
 assertTrue
 (

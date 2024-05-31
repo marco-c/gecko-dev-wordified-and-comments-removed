@@ -1472,6 +1472,9 @@ menuBuilder
 =
 BrowserMenuBuilder
 (
+emptyList
+(
+)
 )
 toolbar
 .
