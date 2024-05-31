@@ -69,6 +69,12 @@ display
 import
 android
 .
+animation
+.
+LayoutTransition
+import
+android
+.
 annotation
 .
 SuppressLint
@@ -972,6 +978,11 @@ progressView
 setWillNotDraw
 (
 false
+)
+layoutTransition
+=
+LayoutTransition
+(
 )
 }
 /
