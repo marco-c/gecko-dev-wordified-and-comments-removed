@@ -77,6 +77,7 @@ the
 server
 *
 /
+internal
 class
 ExperimentDownloadException
 :

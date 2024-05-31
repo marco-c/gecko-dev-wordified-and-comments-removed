@@ -77,6 +77,7 @@ associated
 data
 *
 /
+internal
 class
 ExperimentPayload
 {

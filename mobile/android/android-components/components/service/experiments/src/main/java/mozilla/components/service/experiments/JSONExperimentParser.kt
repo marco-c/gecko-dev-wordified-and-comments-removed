@@ -182,6 +182,7 @@ parsing
 implementation
 *
 /
+internal
 class
 JSONExperimentParser
 {

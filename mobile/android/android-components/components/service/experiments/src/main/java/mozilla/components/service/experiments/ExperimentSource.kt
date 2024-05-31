@@ -88,6 +88,7 @@ etc
 )
 *
 /
+internal
 interface
 ExperimentSource
 {

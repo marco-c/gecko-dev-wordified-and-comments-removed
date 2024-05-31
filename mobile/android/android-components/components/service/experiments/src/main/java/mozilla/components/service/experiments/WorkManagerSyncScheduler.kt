@@ -64,10 +64,6 @@ components
 service
 .
 experiments
-.
-scheduler
-.
-workmanager
 import
 androidx
 .
@@ -126,6 +122,7 @@ using
 WorkManager
 *
 /
+internal
 class
 WorkManagerSyncScheduler
 {

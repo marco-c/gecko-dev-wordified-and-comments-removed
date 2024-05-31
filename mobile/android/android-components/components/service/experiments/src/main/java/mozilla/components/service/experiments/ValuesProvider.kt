@@ -102,6 +102,7 @@ filter
 values
 *
 /
+internal
 open
 class
 ValuesProvider

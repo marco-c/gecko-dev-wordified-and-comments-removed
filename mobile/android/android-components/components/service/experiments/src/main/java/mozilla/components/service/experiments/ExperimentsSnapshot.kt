@@ -75,6 +75,7 @@ sync
 result
 *
 /
+internal
 data
 class
 ExperimentsSnapshot

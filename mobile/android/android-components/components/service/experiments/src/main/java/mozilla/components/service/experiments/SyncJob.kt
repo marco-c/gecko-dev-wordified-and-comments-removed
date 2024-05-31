@@ -64,10 +64,6 @@ components
 service
 .
 experiments
-.
-scheduler
-.
-jobscheduler
 import
 android
 .
@@ -84,16 +80,6 @@ app
 job
 .
 JobService
-import
-mozilla
-.
-components
-.
-service
-.
-experiments
-.
-Experiments
 import
 java
 .
@@ -117,6 +103,7 @@ of
 experiments
 *
 /
+internal
 abstract
 class
 SyncJob

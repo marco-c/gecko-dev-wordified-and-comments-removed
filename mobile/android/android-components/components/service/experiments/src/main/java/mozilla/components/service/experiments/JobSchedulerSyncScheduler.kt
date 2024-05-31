@@ -64,10 +64,6 @@ components
 service
 .
 experiments
-.
-scheduler
-.
-jobscheduler
 import
 android
 .
@@ -127,6 +123,7 @@ context
 context
 *
 /
+internal
 class
 JobSchedulerSyncScheduler
 (

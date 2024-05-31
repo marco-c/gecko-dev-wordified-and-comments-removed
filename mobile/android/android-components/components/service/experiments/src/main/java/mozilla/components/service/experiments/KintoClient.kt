@@ -64,10 +64,6 @@ components
 service
 .
 experiments
-.
-source
-.
-kinto
 import
 mozilla
 .
@@ -108,16 +104,6 @@ concept
 fetch
 .
 isSuccess
-import
-mozilla
-.
-components
-.
-service
-.
-experiments
-.
-ExperimentDownloadException
 import
 java
 .

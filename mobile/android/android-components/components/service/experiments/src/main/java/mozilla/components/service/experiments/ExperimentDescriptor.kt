@@ -82,6 +82,7 @@ experiment
 name
 *
 /
+internal
 data
 class
 ExperimentDescriptor

@@ -82,6 +82,7 @@ the
 device
 *
 /
+internal
 interface
 ExperimentStorage
 {
