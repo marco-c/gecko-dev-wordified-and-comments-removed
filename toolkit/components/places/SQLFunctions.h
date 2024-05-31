@@ -512,7 +512,7 @@ default
 }
 ;
 class
-MD5HexFunction
+SHA256HexFunction
 final
 :
 public
@@ -534,7 +534,7 @@ aDBConn
 private
 :
 ~
-MD5HexFunction
+SHA256HexFunction
 (
 )
 =

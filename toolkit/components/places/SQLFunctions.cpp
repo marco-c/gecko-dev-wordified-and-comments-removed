@@ -5537,7 +5537,7 @@ NS_OK
 ;
 }
 nsresult
-MD5HexFunction
+SHA256HexFunction
 :
 :
 create
@@ -5549,12 +5549,12 @@ aDBConn
 {
 RefPtr
 <
-MD5HexFunction
+SHA256HexFunction
 >
 function
 =
 new
-MD5HexFunction
+SHA256HexFunction
 (
 )
 ;
@@ -5565,7 +5565,7 @@ aDBConn
 CreateFunction
 (
 "
-md5hex
+sha256hex
 "
 _ns
 -
@@ -5576,11 +5576,11 @@ function
 }
 NS_IMPL_ISUPPORTS
 (
-MD5HexFunction
+SHA256HexFunction
 mozIStorageFunction
 )
 NS_IMETHODIMP
-MD5HexFunction
+SHA256HexFunction
 :
 :
 OnFunctionCall
@@ -5667,7 +5667,7 @@ Init
 nsICryptoHash
 :
 :
-MD5
+SHA256
 )
 ;
 NS_ENSURE_SUCCESS

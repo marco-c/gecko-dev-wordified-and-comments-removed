@@ -1238,7 +1238,7 @@ in
 WebP
 format
 using
-MD5
+SHA256
 hash
 of
 the
@@ -1668,7 +1668,7 @@ lazy
 .
 PlacesUtils
 .
-md5
+sha256
 (
 url
 {
@@ -1708,7 +1708,7 @@ param
 string
 }
 hash
-md5
+SHA256
 hash
 in
 hex
@@ -2709,7 +2709,7 @@ FROM
 files
 EXCEPT
 SELECT
-md5hex
+sha256hex
 (
 url
 )
