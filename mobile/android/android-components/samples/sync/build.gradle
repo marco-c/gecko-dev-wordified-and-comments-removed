@@ -230,5 +230,5 @@ sync
 implementation
 Dependencies
 .
-androidx_constraintlayout
+androidx_recyclerview
 }

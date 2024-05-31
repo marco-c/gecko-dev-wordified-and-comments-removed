@@ -241,4 +241,8 @@ implementation
 Dependencies
 .
 androidx_browser
+implementation
+Dependencies
+.
+androidx_recyclerview
 }
