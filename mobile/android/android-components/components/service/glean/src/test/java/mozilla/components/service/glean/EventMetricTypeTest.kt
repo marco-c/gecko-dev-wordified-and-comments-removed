@@ -1416,11 +1416,6 @@ test_name
 "
 )
 )
-Glean
-.
-testClearAllData
-(
-)
 assertEquals
 (
 true
