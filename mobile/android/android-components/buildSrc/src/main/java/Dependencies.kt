@@ -241,7 +241,7 @@ mozilla_app_services
 "
 0
 .
-7
+8
 .
 1
 "
