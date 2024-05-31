@@ -418,6 +418,8 @@ byteCode
 -
 >
 length
+(
+)
 ;
 }
 }
