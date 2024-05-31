@@ -144,6 +144,15 @@ mixin
 ARIAMixin
 {
 [
+Pref
+=
+"
+accessibility
+.
+ARIAElementReflection
+.
+enabled
+"
 CEReactions
 ]
 attribute
