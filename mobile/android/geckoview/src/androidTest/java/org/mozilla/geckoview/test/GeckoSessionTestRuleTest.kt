@@ -4968,6 +4968,12 @@ object
 :
 NavigationDelegate
 {
+Suppress
+(
+"
+OVERRIDE_DEPRECATION
+"
+)
 override
 fun
 onLocationChange

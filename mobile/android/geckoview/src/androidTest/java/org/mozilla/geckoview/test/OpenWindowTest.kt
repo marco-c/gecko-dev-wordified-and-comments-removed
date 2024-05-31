@@ -452,6 +452,9 @@ PermissionDelegate
 .
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 /
@@ -530,6 +533,9 @@ PermissionDelegate
 .
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 /
@@ -698,6 +704,9 @@ PermissionDelegate
 .
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 assertThat
@@ -901,6 +910,9 @@ PermissionDelegate
 .
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 assertThat
