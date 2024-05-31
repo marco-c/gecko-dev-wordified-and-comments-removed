@@ -2874,7 +2874,6 @@ required
 GPUShaderModule
 module
 ;
-required
 USVString
 entryPoint
 ;
