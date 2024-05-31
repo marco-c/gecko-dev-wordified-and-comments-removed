@@ -103,6 +103,7 @@ getSelectedLocation
 getSelectedSourceTextContent
 getPauseCommand
 getCurrentThread
+getShouldHighlightSelectedLocation
 }
 from
 "
@@ -382,6 +383,7 @@ pauseCommand
 selectedLocation
 selectedFrame
 selectedSourceTextContent
+shouldHighlightSelectedLocation
 }
 =
 this
@@ -422,6 +424,11 @@ selectedSourceTextContent
 )
 ;
 }
+if
+(
+shouldHighlightSelectedLocation
+)
+{
 this
 .
 setHighlightLine
@@ -431,6 +438,7 @@ selectedFrame
 selectedSourceTextContent
 )
 ;
+}
 endOperation
 (
 )
@@ -751,6 +759,12 @@ getCurrentThread
 (
 state
 )
+)
+shouldHighlightSelectedLocation
+:
+getShouldHighlightSelectedLocation
+(
+state
 )
 selectedFrame
 :

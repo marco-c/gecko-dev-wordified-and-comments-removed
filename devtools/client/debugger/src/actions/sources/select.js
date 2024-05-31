@@ -176,6 +176,7 @@ setSelectedLocation
 (
 location
 shouldSelectOriginalLocation
+shouldHighlightSelectedLocation
 )
 =
 >
@@ -188,6 +189,7 @@ SET_SELECTED_LOCATION
 "
 location
 shouldSelectOriginalLocation
+shouldHighlightSelectedLocation
 }
 )
 ;
@@ -543,6 +545,9 @@ location
 keepContext
 =
 true
+highlight
+=
+true
 }
 =
 {
@@ -753,6 +758,7 @@ setSelectedLocation
 (
 location
 shouldSelectOriginalLocation
+highlight
 )
 )
 ;

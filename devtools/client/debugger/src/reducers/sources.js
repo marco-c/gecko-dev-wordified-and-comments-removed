@@ -139,6 +139,9 @@ undefined
 selectedOriginalLocation
 :
 UNDEFINED_LOCATION
+shouldHighlightSelectedLocation
+:
+true
 shouldSelectOriginalLocation
 :
 true
@@ -261,6 +264,11 @@ shouldSelectOriginalLocation
 action
 .
 shouldSelectOriginalLocation
+shouldHighlightSelectedLocation
+:
+action
+.
+shouldHighlightSelectedLocation
 }
 ;
 }

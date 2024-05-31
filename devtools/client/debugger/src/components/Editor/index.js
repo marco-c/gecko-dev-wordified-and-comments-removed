@@ -2222,6 +2222,9 @@ ch
 keepContext
 :
 false
+highlight
+:
+false
 }
 )
 ;
