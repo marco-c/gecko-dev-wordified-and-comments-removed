@@ -215,8 +215,6 @@ metrics
 stringMetric
 .
 defaultStorageDestinations
-(
-)
 )
 }
 Test

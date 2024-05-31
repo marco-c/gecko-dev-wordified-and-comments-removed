@@ -338,15 +338,13 @@ type
 will
 need
 to
-implement
+override
 this
 .
 *
 /
-fun
+val
 defaultStorageDestinations
-(
-)
 :
 List
 <
@@ -425,7 +423,5 @@ return
 filteredNames
 +
 defaultStorageDestinations
-(
-)
 }
 }

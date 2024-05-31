@@ -213,7 +213,6 @@ to
 record
 *
 /
-public
 fun
 record
 (
@@ -345,7 +344,6 @@ store
 *
 /
 Synchronized
-public
 fun
 getSnapshot
 (

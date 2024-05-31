@@ -241,8 +241,6 @@ events
 click
 .
 defaultStorageDestinations
-(
-)
 )
 }
 Test
