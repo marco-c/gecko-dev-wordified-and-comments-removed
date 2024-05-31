@@ -611,13 +611,6 @@ mDXGIDeviceManager
 =
 nullptr
 ;
-wmf
-:
-:
-MFUnlockDXGIDeviceManager
-(
-)
-;
 }
 if
 (
