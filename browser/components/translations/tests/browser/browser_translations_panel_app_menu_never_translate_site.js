@@ -70,7 +70,7 @@ visible
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel
@@ -124,7 +124,7 @@ true
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 openFromAppMenu
@@ -267,7 +267,7 @@ runInPage
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel
@@ -359,7 +359,7 @@ runInPage
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 openFromAppMenu

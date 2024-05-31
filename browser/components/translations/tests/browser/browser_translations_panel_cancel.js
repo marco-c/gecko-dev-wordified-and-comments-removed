@@ -51,7 +51,7 @@ available
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel

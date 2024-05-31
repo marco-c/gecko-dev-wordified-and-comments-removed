@@ -46,7 +46,7 @@ false
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel
@@ -87,7 +87,7 @@ SPANISH_PAGE_URL_2
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel

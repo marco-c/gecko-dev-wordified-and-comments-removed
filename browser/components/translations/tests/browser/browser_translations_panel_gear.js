@@ -32,7 +32,7 @@ LANGUAGE_PAIRS
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel

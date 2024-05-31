@@ -62,7 +62,7 @@ available
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel
@@ -165,7 +165,7 @@ runInPage
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel

@@ -57,7 +57,7 @@ fr
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 openFromAppMenu
