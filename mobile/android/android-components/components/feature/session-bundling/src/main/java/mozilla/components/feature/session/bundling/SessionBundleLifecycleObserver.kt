@@ -297,6 +297,12 @@ internal
 class
 SessionBundleLifecycleObserver
 (
+Suppress
+(
+"
+DEPRECATION
+"
+)
 private
 val
 storage
