@@ -62,7 +62,7 @@ val
 connectionTimeout
 :
 [
-Int
+Long
 ]
 (
 https
@@ -84,7 +84,7 @@ stdlib
 kotlin
 /
 -
-int
+long
 /
 index
 .
@@ -142,7 +142,7 @@ Configuration
 .
 kt
 #
-L24
+L27
 )
 the
 timeout

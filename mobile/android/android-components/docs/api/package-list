@@ -3587,13 +3587,6 @@ components
 .
 service
 .
-pocket
-mozilla
-.
-components
-.
-service
-.
 sync
 .
 logins
