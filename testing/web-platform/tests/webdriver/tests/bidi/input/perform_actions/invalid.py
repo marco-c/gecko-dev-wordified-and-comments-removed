@@ -3418,9 +3418,6 @@ pointerDown
 "
 pointerMove
 "
-"
-pointerUp
-"
 ]
 )
 pytest
@@ -3597,9 +3594,6 @@ pointerDown
 "
 pointerMove
 "
-"
-pointerUp
-"
 ]
 )
 pytest
@@ -3732,9 +3726,6 @@ pointerDown
 "
 "
 pointerMove
-"
-"
-pointerUp
 "
 ]
 )
@@ -3897,9 +3888,6 @@ pointerDown
 "
 pointerMove
 "
-"
-pointerUp
-"
 ]
 )
 pytest
@@ -4010,9 +3998,6 @@ pointerDown
 "
 pointerMove
 "
-"
-pointerUp
-"
 ]
 )
 pytest
@@ -4113,9 +4098,6 @@ pointerDown
 "
 "
 pointerMove
-"
-"
-pointerUp
 "
 ]
 )
