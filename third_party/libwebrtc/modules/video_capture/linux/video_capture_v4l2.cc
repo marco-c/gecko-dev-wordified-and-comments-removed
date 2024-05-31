@@ -1769,9 +1769,6 @@ SpawnJoinable
 [
 self
 =
-rtc
-:
-:
 scoped_refptr
 (
 this
