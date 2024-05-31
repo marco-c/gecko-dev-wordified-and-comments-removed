@@ -293,7 +293,7 @@ u8
 transform
 )
 .
-output_table_r
+precache_output
 .
 as_deref
 (
@@ -303,7 +303,7 @@ unwrap
 (
 )
 .
-data
+lut_r
 .
 as_ptr
 (
@@ -321,7 +321,7 @@ u8
 transform
 )
 .
-output_table_g
+precache_output
 .
 as_deref
 (
@@ -331,7 +331,7 @@ unwrap
 (
 )
 .
-data
+lut_g
 .
 as_ptr
 (
@@ -349,7 +349,7 @@ u8
 transform
 )
 .
-output_table_b
+precache_output
 .
 as_deref
 (
@@ -359,7 +359,7 @@ unwrap
 (
 )
 .
-data
+lut_b
 .
 as_ptr
 (
