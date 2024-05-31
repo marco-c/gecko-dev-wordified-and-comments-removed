@@ -180,6 +180,14 @@ UTF8String
 property
 )
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+float
+usedFontSize
+;
 UTF8String
 getPropertyValue
 (
