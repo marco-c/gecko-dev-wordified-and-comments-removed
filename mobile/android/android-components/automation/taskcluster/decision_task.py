@@ -1880,7 +1880,7 @@ craft_function
 return
 (
 build_tasks
-wait_on_builds_task_id
+wait_on_builds_tasks
 sign_tasks
 beetmover_tasks
 other_tasks
