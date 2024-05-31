@@ -1655,6 +1655,9 @@ debug_static_bot
 '
 arm
 '
+'
+h265
+'
 ]
 '
 android_debug_static_bot_arm64
@@ -1669,6 +1672,9 @@ debug_static_bot
 '
 '
 arm64
+'
+'
+h265
 '
 ]
 '
@@ -1685,6 +1691,9 @@ debug_static_bot
 '
 x64
 '
+'
+h265
+'
 ]
 '
 android_debug_static_bot_x86
@@ -1699,6 +1708,9 @@ debug_static_bot
 '
 '
 x86
+'
+'
+h265
 '
 ]
 '
@@ -1745,6 +1757,9 @@ release_bot
 '
 arm
 '
+'
+h265
+'
 ]
 '
 android_release_bot_arm64
@@ -1759,6 +1774,9 @@ release_bot
 '
 '
 arm64
+'
+'
+h265
 '
 ]
 '
@@ -1775,6 +1793,9 @@ release_bot
 '
 x64
 '
+'
+h265
+'
 ]
 '
 android_release_bot_x86
@@ -1789,6 +1810,9 @@ release_bot
 '
 '
 x86
+'
+'
+h265
 '
 ]
 '
