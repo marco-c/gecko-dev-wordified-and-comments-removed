@@ -3338,6 +3338,7 @@ crate
 enum
 FloatKind
 {
+Float16
 Float
 Double
 LongDouble
