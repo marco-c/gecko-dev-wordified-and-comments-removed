@@ -757,10 +757,6 @@ getVisited
 (
 )
 .
-await
-(
-)
-.
 size
 /
 /
