@@ -3582,8 +3582,6 @@ bytecode
 -
 >
 length
-(
-)
 ;
 re
 -
@@ -4437,6 +4435,7 @@ PreprocessRegExp
 (
 &
 data
+flags
 isLatin1
 )
 ;

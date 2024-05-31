@@ -2277,6 +2277,8 @@ PreprocessRegExp
 RegExpCompileData
 *
 data
+RegExpFlags
+flags
 bool
 is_one_byte
 )
@@ -2422,7 +2424,6 @@ recursion_depth_
 -
 ;
 }
-inline
 RegExpFlags
 flags
 (
@@ -2431,19 +2432,6 @@ const
 {
 return
 flags_
-;
-}
-inline
-void
-set_flags
-(
-RegExpFlags
-flags
-)
-{
-flags_
-=
-flags
 ;
 }
 void
@@ -2651,6 +2639,7 @@ work_list_
 int
 recursion_depth_
 ;
+const
 RegExpFlags
 flags_
 ;

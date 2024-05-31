@@ -81,6 +81,17 @@ SpecialAddSet
 )
 ;
 static
+const
+icu
+:
+:
+UnicodeSet
+&
+UnicodeNonSimpleCloseOverSet
+(
+)
+;
+static
 UChar32
 Canonicalize
 (
