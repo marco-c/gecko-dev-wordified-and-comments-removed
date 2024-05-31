@@ -172,6 +172,10 @@ testImplementation
 Deps
 .
 testing_mockito
+testImplementation
+Deps
+.
+testing_mockwebserver
 }
 apply
 from
