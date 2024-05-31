@@ -135,7 +135,7 @@ components
 .
 feature
 .
-session
+toolbar
 .
 ToolbarFeature
 class

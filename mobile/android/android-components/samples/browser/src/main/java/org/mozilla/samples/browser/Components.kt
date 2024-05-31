@@ -85,7 +85,7 @@ components
 .
 engine
 .
-gecko
+system
 .
 SystemEngine
 import

@@ -63,7 +63,7 @@ components
 .
 feature
 .
-session
+toolbar
 import
 mozilla
 .
