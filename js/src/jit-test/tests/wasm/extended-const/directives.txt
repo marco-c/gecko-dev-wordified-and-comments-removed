@@ -3,14 +3,6 @@ jit
 -
 test
 |
--
--
-setpref
-=
-wasm_extended_const
-=
-true
-;
 test
 -
 also

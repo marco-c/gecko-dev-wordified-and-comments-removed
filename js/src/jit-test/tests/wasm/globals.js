@@ -426,13 +426,6 @@ x
 x
 )
 ;
-if
-(
-wasmExtendedConstEnabled
-(
-)
-)
-{
 {
 const
 module
@@ -989,7 +982,6 @@ module
 11
 )
 ;
-}
 }
 wasmFailValidateText
 (
