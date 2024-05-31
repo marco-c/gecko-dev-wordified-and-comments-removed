@@ -22,7 +22,7 @@ sys
 import
 lib
 .
-artifacts
+module_definitions
 import
 lib
 .
@@ -800,11 +800,7 @@ v1
     
 modules
 =
-map
-(
-lambda
-artifact
-:
+[
 '
 :
 '
@@ -815,14 +811,17 @@ artifact
 name
 '
 ]
+for
+artifact
+in
 lib
 .
-artifacts
+module_definitions
 .
 from_gradle
 (
 )
-)
+]
     
 if
 len

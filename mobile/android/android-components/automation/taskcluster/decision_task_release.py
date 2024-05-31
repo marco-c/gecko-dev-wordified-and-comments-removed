@@ -27,7 +27,7 @@ taskcluster
 import
 lib
 .
-artifacts
+module_definitions
 import
 lib
 .
@@ -663,7 +663,7 @@ artifacts_info
 =
 lib
 .
-artifacts
+module_definitions
 .
 from_gradle
 (
