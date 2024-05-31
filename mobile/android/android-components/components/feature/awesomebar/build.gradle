@@ -221,6 +221,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+support
+-
+utils
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
@@ -246,6 +256,10 @@ storage
 memory
 '
 )
+testImplementation
+Dependencies
+.
+androidx_test_core
 testImplementation
 Dependencies
 .

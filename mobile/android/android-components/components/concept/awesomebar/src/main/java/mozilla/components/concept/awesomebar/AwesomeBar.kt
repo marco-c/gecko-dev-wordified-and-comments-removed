@@ -833,6 +833,7 @@ Flag
 {
 BOOKMARK
 OPEN_TAB
+CLIPBOARD
 }
 /
 *

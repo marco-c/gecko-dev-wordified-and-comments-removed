@@ -176,7 +176,7 @@ test
 testImplementation
 Dependencies
 .
-testing_androidx
+androidx_test_core
 testImplementation
 Dependencies
 .

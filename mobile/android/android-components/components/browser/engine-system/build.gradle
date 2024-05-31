@@ -178,6 +178,10 @@ test
 testImplementation
 Dependencies
 .
+androidx_test_core
+testImplementation
+Dependencies
+.
 testing_junit
 testImplementation
 Dependencies
@@ -187,10 +191,6 @@ testImplementation
 Dependencies
 .
 testing_mockito
-testImplementation
-Dependencies
-.
-testing_androidx
 }
 apply
 from
