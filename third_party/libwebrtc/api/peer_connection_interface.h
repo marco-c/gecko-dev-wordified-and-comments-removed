@@ -3662,6 +3662,11 @@ TaskQueueFactory
 >
 task_queue_factory
 ;
+[
+[
+deprecated
+]
+]
 std
 :
 :
@@ -3674,6 +3679,11 @@ MediaEngineInterface
 >
 media_engine
 ;
+[
+[
+deprecated
+]
+]
 std
 :
 :
