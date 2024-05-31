@@ -590,7 +590,7 @@ Int
 =
 1
 shl
-0
+1
 const
 val
 ANALYTICS
@@ -599,7 +599,7 @@ Int
 =
 1
 shl
-1
+2
 const
 val
 SOCIAL
@@ -608,7 +608,7 @@ Int
 =
 1
 shl
-2
+3
 const
 val
 CONTENT
@@ -617,7 +617,7 @@ Int
 =
 1
 shl
-3
+4
 /
 /
 This
@@ -632,12 +632,12 @@ GeckoView
 (
 which
 has
-CATEGORY_TEST
+AT_TEST
 =
 1
 <
 <
-4
+5
 )
 const
 val
@@ -647,7 +647,7 @@ Int
 =
 1
 shl
-4
+5
 internal
 const
 val
@@ -658,7 +658,7 @@ Int
 (
 1
 shl
-5
+6
 )
 -
 1

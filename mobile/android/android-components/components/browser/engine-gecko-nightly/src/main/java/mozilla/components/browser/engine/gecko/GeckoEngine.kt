@@ -525,7 +525,9 @@ runtime
 .
 settings
 .
-trackingProtectionCategories
+contentBlocking
+.
+categories
 )
 set
 (
@@ -541,7 +543,9 @@ runtime
 .
 settings
 .
-trackingProtectionCategories
+contentBlocking
+.
+categories
 =
 it
 .
