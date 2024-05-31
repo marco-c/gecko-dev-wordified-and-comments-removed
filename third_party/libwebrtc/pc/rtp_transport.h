@@ -467,6 +467,17 @@ int
 flags
 )
 ;
+flat_set
+<
+uint32_t
+>
+GetSsrcsForSink
+(
+RtpPacketSinkInterface
+*
+sink
+)
+;
 virtual
 void
 OnNetworkRouteChanged

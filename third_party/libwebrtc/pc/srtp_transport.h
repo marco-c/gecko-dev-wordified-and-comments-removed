@@ -387,6 +387,15 @@ rtp_abs_sendtime_extn_id_
 rtp_abs_sendtime_extn_id
 ;
 }
+bool
+UnregisterRtpDemuxerSink
+(
+RtpPacketSinkInterface
+*
+sink
+)
+override
+;
 protected
 :
 void
