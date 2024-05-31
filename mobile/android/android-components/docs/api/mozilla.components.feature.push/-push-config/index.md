@@ -210,9 +210,11 @@ html
 )
 =
 "
+updates
+.
 push
 .
-service
+services
 .
 mozilla
 .

@@ -185,7 +185,7 @@ TimingDistributionMetricType
 .
 kt
 #
-L117
+L132
 )
 Returns
 the

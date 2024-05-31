@@ -60,6 +60,7 @@ md
 )
 #
 disableUrlbarHiding
+inline
 val
 disableUrlbarHiding
 :
@@ -144,5 +145,5 @@ CustomTabConfig
 .
 kt
 #
-L29
+L42
 )

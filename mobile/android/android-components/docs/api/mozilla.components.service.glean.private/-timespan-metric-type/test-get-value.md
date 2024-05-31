@@ -183,7 +183,7 @@ TimespanMetricType
 .
 kt
 #
-L157
+L166
 )
 Returns
 the
@@ -193,6 +193,14 @@ for
 testing
 purposes
 only
+in
+the
+metric
+'
+s
+time
+unit
+.
 #
 #
 #

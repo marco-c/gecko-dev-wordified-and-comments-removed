@@ -303,6 +303,15 @@ CLASS
 ?
 =
 null
+icon
+:
+<
+ERROR
+CLASS
+>
+?
+=
+null
 )
 Value
 type
