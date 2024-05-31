@@ -379,11 +379,12 @@ releaseSession
 }
 currentGeckoView
 .
-session
-=
+setSession
+(
 internalSession
 .
 geckoSession
+)
 }
 }
 override
