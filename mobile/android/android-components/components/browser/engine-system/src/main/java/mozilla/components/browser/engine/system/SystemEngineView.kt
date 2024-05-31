@@ -3457,7 +3457,7 @@ session
 .
 webView
 val
-thumbnails
+thumbnail
 =
 if
 (
@@ -3505,7 +3505,7 @@ outBitmap
 }
 onFinish
 (
-thumbnails
+thumbnail
 )
 }
 private
