@@ -82,7 +82,7 @@ kotlin
 .
 3
 .
-0
+10
 "
 const
 val

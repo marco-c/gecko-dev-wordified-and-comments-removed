@@ -151,11 +151,15 @@ Kotlin
 (
 Stdlib
 :
+*
+*
 1
 .
 3
 .
-0
+10
+*
+*
 Coroutines
 :
 1
