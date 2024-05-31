@@ -95,7 +95,7 @@ fretboard
 .
 storage
 .
-atomicfile
+flatfile
 "
 /
 >
