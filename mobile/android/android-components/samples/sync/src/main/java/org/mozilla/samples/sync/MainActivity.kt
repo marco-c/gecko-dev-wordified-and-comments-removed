@@ -2185,12 +2185,10 @@ guid
 \
 n
 "
-;
 bookmarksRootAndChildren
 +
 =
 desc
-;
 node
 .
 children
