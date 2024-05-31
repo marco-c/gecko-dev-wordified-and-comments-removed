@@ -96,17 +96,6 @@ include
 "
 api
 /
-call
-/
-call_factory_interface
-.
-h
-"
-#
-include
-"
-api
-/
 create_peerconnection_factory
 .
 h
