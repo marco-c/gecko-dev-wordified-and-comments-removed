@@ -519,6 +519,7 @@ pingMaker
 PingMaker
 (
 storageEngineManager
+applicationContext
 )
 this
 .
