@@ -134,7 +134,7 @@ EngineSession
 .
 kt
 #
-L125
+L123
 )
 Subtype
 of
@@ -278,7 +278,7 @@ sessions
 md
 )
 |
-var
+val
 useForPrivateSessions
 :
 [
@@ -337,7 +337,7 @@ sessions
 md
 )
 |
-var
+val
 useForRegularSessions
 :
 [

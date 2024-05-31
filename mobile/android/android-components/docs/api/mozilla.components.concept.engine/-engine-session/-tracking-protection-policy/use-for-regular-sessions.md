@@ -78,7 +78,7 @@ md
 )
 #
 useForRegularSessions
-var
+val
 useForRegularSessions
 :
 [

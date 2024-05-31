@@ -78,7 +78,7 @@ md
 )
 #
 useForPrivateSessions
-var
+val
 useForPrivateSessions
 :
 [
