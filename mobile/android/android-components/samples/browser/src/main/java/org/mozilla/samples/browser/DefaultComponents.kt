@@ -671,7 +671,7 @@ Page
 "
 )
 {
-onFindPageClicked
+onFindInPageClicked
 ?
 .
 invoke
@@ -728,7 +728,7 @@ checked
 )
 }
 var
-onFindPageClicked
+onFindInPageClicked
 :
 (
 (

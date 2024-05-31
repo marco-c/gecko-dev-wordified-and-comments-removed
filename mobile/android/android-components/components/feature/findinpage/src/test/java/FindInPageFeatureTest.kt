@@ -352,7 +352,7 @@ After
 stopping
 the
 feature
-none
+no
 new
 onFindResult
 events
@@ -426,7 +426,7 @@ selected
 session
 the
 findInPageView
-sessionEngine
+engineSession
 must
 be
 assigned
@@ -475,7 +475,7 @@ verify
 mockFindInPageView
 )
 .
-sessionEngine
+engineSession
 =
 mockEngineSession
 }
@@ -489,7 +489,7 @@ is
 selected
 the
 findInPageView
-sessionEngine
+engineSession
 must
 be
 assigned
@@ -548,7 +548,7 @@ times
 )
 )
 .
-sessionEngine
+engineSession
 =
 mockEngineSession
 }

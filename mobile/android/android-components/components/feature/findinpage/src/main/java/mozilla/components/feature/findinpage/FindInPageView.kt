@@ -281,7 +281,7 @@ access
 to
 the
 underneath
-engine
+engineSession
 to
 start
 the
@@ -306,7 +306,7 @@ buttons
 /
 lateinit
 var
-sessionEngine
+engineSession
 :
 EngineSession
 VisibleForTesting
@@ -406,7 +406,7 @@ show
 {
 checkNotNull
 (
-sessionEngine
+engineSession
 )
 /
 /
@@ -441,8 +441,10 @@ showKeyboard
 *
 *
 *
-Tells
-if
+Returns
+whether
+or
+not
 the
 widget
 is
@@ -490,7 +492,7 @@ isNotBlank
 )
 )
 {
-sessionEngine
+engineSession
 .
 findAll
 (
@@ -505,7 +507,7 @@ text
 =
 "
 "
-sessionEngine
+engineSession
 .
 clearFindMatches
 (
@@ -518,7 +520,7 @@ onPreviousButtonClicked
 (
 )
 {
-sessionEngine
+engineSession
 .
 findNext
 (
@@ -534,7 +536,7 @@ onNextButtonClicked
 (
 )
 {
-sessionEngine
+engineSession
 .
 findNext
 (
@@ -582,7 +584,7 @@ null
 visibility
 =
 GONE
-sessionEngine
+engineSession
 .
 clearFindMatches
 (

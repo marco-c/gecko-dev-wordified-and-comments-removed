@@ -303,7 +303,7 @@ selectedSession
 return
 findInPageView
 .
-sessionEngine
+engineSession
 =
 engineSession
 }
@@ -503,7 +503,7 @@ feature
 .
 findInPageView
 .
-sessionEngine
+engineSession
 =
 engineSession
 }

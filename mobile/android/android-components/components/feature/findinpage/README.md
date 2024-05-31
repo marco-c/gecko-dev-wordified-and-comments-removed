@@ -160,10 +160,8 @@ page
 .
 To
 use
+this
 feature
-find
-in
-page
 you
 have
 to

@@ -911,7 +911,7 @@ VISIBLE
 }
 components
 .
-onFindPageClicked
+onFindInPageClicked
 =
 {
 disableToolBarScroll
