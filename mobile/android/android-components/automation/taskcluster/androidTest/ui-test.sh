@@ -753,13 +753,9 @@ APK_TEST
 project
 =
 GOOGLE_PROJECT
-echo
-echo
 exitcode
 =
 ?
-failure_check
-echo
 echo
 echo
 echo
