@@ -175,6 +175,16 @@ project
 (
 '
 :
+ui
+-
+colors
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 ktx

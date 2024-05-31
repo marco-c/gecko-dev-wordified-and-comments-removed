@@ -3980,7 +3980,7 @@ toolbar
 .
 displayToolbar
 .
-iconView
+siteSecurityIconView
 .
 isVisible
 (
@@ -4003,7 +4003,7 @@ toolbar
 .
 displayToolbar
 .
-iconView
+siteSecurityIconView
 .
 visibility
 )
@@ -4021,7 +4021,7 @@ toolbar
 .
 displayToolbar
 .
-iconView
+siteSecurityIconView
 .
 visibility
 )
