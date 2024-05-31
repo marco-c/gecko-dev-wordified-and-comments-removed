@@ -14,7 +14,7 @@ if
 =
 [
 "
-toolkit
+os
 =
 =
 '
@@ -24,12 +24,7 @@ android
 #
 1536217
 "
-os
-=
-=
-'
-win
-'
+win11_2009
 &
 &
 msix
