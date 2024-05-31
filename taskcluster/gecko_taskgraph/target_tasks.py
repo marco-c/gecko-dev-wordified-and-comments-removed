@@ -7004,6 +7004,16 @@ debug
 "
         
 "
+searchfox
+-
+ios
+-
+searchfox
+/
+debug
+"
+        
+"
 source
 -
 test
