@@ -172,6 +172,16 @@ project
 (
 '
 :
+ui
+-
+icons
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 ktx
