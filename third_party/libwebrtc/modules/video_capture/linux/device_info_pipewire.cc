@@ -505,7 +505,7 @@ _lastUsedDeviceNameLength
 =
 node
 .
-display_name
+unique_id
 (
 )
 .
