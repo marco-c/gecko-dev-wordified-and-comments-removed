@@ -254,9 +254,13 @@ GetPicture
 (
 )
 ;
+Result
+<
 already_AddRefed
 <
 VideoData
+>
+MediaResult
 >
 ConstructImage
 (
