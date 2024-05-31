@@ -137,7 +137,6 @@ pro
 }
 configurations
 {
-fxa
 /
 /
 There
@@ -345,7 +344,7 @@ jnaForTest
 Deps
 .
 jnaForTest
-fxa
+api
 Deps
 .
 mozilla_fxa
