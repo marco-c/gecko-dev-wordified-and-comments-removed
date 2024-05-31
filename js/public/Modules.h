@@ -647,6 +647,16 @@ JSObject
 moduleObj
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+ModuleIsLinked
+(
+JSObject
+*
+moduleObj
+)
+;
 }
 #
 endif

@@ -125,6 +125,17 @@ nsACString
 aOutString
 )
 ;
+virtual
+bool
+IsPreload
+(
+)
+const
+{
+return
+false
+;
+}
 bool
 IsWindowContext
 (
