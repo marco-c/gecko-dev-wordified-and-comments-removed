@@ -77,7 +77,7 @@ event_type
 }
 }
 function
-assertSnapEvent
+assertSnapEventDeprecated
 (
 evt
 expected_ids
@@ -165,7 +165,7 @@ targets
 }
 async
 function
-test_snap_event
+test_snap_event_deprecated
 (
 test
 test_data
@@ -226,7 +226,7 @@ evt
 await
 event_promise
 ;
-assertSnapEvent
+assertSnapEventDeprecated
 (
 evt
 test_data
@@ -288,7 +288,7 @@ test_data
 )
 {
 await
-test_snap_event
+test_snap_event_deprecated
 (
 test
 test_data
