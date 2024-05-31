@@ -475,7 +475,7 @@ browsers
 [
 browser
 -
-erropages
+errorpages
 ]
 (
 https
