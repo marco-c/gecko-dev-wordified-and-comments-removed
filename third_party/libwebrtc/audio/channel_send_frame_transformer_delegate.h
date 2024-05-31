@@ -11,6 +11,11 @@ memory
 >
 #
 include
+<
+string
+>
+#
+include
 "
 api
 /
@@ -159,6 +164,13 @@ int64_t
 absolute_capture_timestamp_ms
 uint32_t
 ssrc
+const
+std
+:
+:
+string
+&
+codec_mime_type
 )
 ;
 void

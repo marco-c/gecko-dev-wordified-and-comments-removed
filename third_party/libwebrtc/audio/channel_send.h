@@ -234,6 +234,10 @@ SetEncoder
 (
 int
 payload_type
+const
+SdpAudioFormat
+&
+encoder_format
 std
 :
 :

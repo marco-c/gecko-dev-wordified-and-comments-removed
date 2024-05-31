@@ -1680,6 +1680,10 @@ this
 (
 int
 payload_type
+const
+SdpAudioFormat
+&
+format
 std
 :
 :
@@ -3884,6 +3888,10 @@ stolen_encoder
 (
 int
 payload_type
+const
+SdpAudioFormat
+&
+format
 std
 :
 :

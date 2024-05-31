@@ -626,6 +626,11 @@ data
 )
 0
 0
+"
+audio
+/
+opus
+"
 )
 ;
 channel_queue
@@ -839,6 +844,11 @@ data
 )
 0
 0
+"
+audio
+/
+opus
+"
 )
 ;
 channel_queue
