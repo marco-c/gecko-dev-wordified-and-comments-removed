@@ -121,8 +121,6 @@ viewportWidth
 =
 "
 24
-.
-0
 "
 android
 :
@@ -130,15 +128,6 @@ viewportHeight
 =
 "
 24
-.
-0
-"
-android
-:
-autoMirrored
-=
-"
-true
 "
 >
 <
@@ -148,8 +137,9 @@ android
 fillColor
 =
 "
-#
-FFFFFF
+color
+/
+mozac_ui_icons_fill
 "
 android
 :
