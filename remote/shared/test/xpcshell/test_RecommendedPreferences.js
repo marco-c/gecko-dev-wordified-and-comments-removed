@@ -528,6 +528,12 @@ applyPreferences
 (
 )
 ;
+RecommendedPreferences
+.
+applyPreferences
+(
+)
+;
 cleanup
 (
 )

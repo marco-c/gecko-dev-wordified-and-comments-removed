@@ -22,6 +22,8 @@ remote
 prefs
 .
 recommended
+.
+applied
 "
 )
     
