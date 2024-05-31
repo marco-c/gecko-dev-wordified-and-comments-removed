@@ -327,6 +327,11 @@ CompositorWidgetParent
 cpp
 "
 "
+DBusMenu
+.
+cpp
+"
+"
 DMABufLibWrapper
 .
 cpp
