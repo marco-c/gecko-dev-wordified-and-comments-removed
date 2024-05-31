@@ -1034,7 +1034,7 @@ String
 "
 private
 var
-listener
+urlCommitListener
 :
 (
 (
@@ -1431,7 +1431,7 @@ progress
 }
 override
 fun
-setOnUrlChangeListener
+setOnUrlCommitListener
 (
 listener
 :
@@ -1445,7 +1445,7 @@ Unit
 {
 this
 .
-listener
+urlCommitListener
 =
 listener
 }
@@ -1913,7 +1913,7 @@ String
 displayMode
 (
 )
-listener
+urlCommitListener
 ?
 .
 invoke

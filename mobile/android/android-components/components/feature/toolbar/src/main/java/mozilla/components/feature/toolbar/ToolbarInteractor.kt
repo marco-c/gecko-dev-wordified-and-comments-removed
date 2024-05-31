@@ -189,7 +189,7 @@ start
 {
 toolbar
 .
-setOnUrlChangeListener
+setOnUrlCommitListener
 {
 text
 -
@@ -251,7 +251,7 @@ stop
 {
 toolbar
 .
-setOnUrlChangeListener
+setOnUrlCommitListener
 {
 }
 }
