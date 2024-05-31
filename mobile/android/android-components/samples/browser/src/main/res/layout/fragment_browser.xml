@@ -248,7 +248,9 @@ feature
 .
 findinpage
 .
-FindInPageView
+view
+.
+FindInPageBar
 android
 :
 id
@@ -257,7 +259,7 @@ id
 +
 id
 /
-find_in_page
+findInPage
 "
 android
 :
@@ -287,6 +289,13 @@ layout_height
 =
 "
 56dp
+"
+android
+:
+visibility
+=
+"
+gone
 "
 android
 :
