@@ -547,6 +547,11 @@ CheckModuleDependenciesLoaded
 )
 ;
 void
+ChildModuleUnlinked
+(
+)
+;
+void
 AssertAllImportsFinished
 (
 )
