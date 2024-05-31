@@ -55,6 +55,9 @@ class
 BounceTrackingProtectionStorage
 ;
 class
+ContentBlockingAllowListCache
+;
+class
 OriginAttributes
 ;
 extern
@@ -189,6 +192,9 @@ PurgeBounceTrackersForStateGlobal
 BounceTrackingStateGlobal
 *
 aStateGlobal
+ContentBlockingAllowListCache
+&
+aContentBlockingAllowList
 nsTArray
 <
 RefPtr
