@@ -159,4 +159,8 @@ implementation
 Dependencies
 .
 testing_junit
+implementation
+Dependencies
+.
+kotlin_coroutines
 }
