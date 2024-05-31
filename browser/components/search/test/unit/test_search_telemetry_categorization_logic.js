@@ -739,6 +739,10 @@ async
 =
 >
 {
+do_get_profile
+(
+)
+;
 Services
 .
 prefs
@@ -757,6 +761,13 @@ enabled
 true
 )
 ;
+await
+SearchSERPDomainToCategoriesMap
+.
+init
+(
+)
+;
 }
 )
 ;
@@ -768,6 +779,7 @@ test_categorization_simple
 (
 )
 {
+await
 SearchSERPDomainToCategoriesMap
 .
 overrideMapForTests
@@ -838,6 +850,7 @@ com
 let
 resultsToReport
 =
+await
 SearchSERPCategorization
 .
 applyCategorizationLogic
@@ -891,6 +904,7 @@ test_categorization_inconclusive
 (
 )
 {
+await
 SearchSERPDomainToCategoriesMap
 .
 overrideMapForTests
@@ -961,6 +975,7 @@ com
 let
 resultsToReport
 =
+await
 SearchSERPCategorization
 .
 applyCategorizationLogic
@@ -1016,6 +1031,7 @@ test_categorization_unknown
 (
 )
 {
+await
 SearchSERPDomainToCategoriesMap
 .
 overrideMapForTests
@@ -1086,6 +1102,7 @@ com
 let
 resultsToReport
 =
+await
 SearchSERPCategorization
 .
 applyCategorizationLogic
@@ -1141,6 +1158,7 @@ test_categorization_unknown_and_inconclusive
 (
 )
 {
+await
 SearchSERPDomainToCategoriesMap
 .
 overrideMapForTests
@@ -1211,6 +1229,7 @@ com
 let
 resultsToReport
 =
+await
 SearchSERPCategorization
 .
 applyCategorizationLogic
@@ -1266,6 +1285,7 @@ test_categorization_all_types
 (
 )
 {
+await
 SearchSERPDomainToCategoriesMap
 .
 overrideMapForTests
@@ -1336,6 +1356,7 @@ com
 let
 resultsToReport
 =
+await
 SearchSERPCategorization
 .
 applyCategorizationLogic
@@ -1389,6 +1410,7 @@ test_categorization_tie
 (
 )
 {
+await
 SearchSERPDomainToCategoriesMap
 .
 overrideMapForTests
@@ -1459,6 +1481,7 @@ com
 let
 resultsToReport
 =
+await
 SearchSERPCategorization
 .
 applyCategorizationLogic
@@ -1546,6 +1569,7 @@ test_rank_penalization_equal_scores
 (
 )
 {
+await
 SearchSERPDomainToCategoriesMap
 .
 overrideMapForTests
@@ -1616,6 +1640,7 @@ com
 let
 resultsToReport
 =
+await
 SearchSERPCategorization
 .
 applyCategorizationLogic
@@ -1669,6 +1694,7 @@ test_rank_penalization_highest_score_lower_on_page
 (
 )
 {
+await
 SearchSERPDomainToCategoriesMap
 .
 overrideMapForTests
@@ -1699,6 +1725,7 @@ com
 let
 resultsToReport
 =
+await
 SearchSERPCategorization
 .
 applyCategorizationLogic

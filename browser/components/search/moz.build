@@ -10,6 +10,13 @@ sys
 mjs
 "
 "
+DomainToCategoriesMap
+.
+worker
+.
+mjs
+"
+"
 SearchOneOffs
 .
 sys
