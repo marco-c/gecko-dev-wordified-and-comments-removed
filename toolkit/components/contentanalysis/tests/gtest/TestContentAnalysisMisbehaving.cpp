@@ -48,7 +48,7 @@ h
 #
 include
 "
-TestContentAnalysisAgent
+TestContentAnalysis
 .
 h
 "

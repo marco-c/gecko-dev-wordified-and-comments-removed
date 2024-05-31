@@ -57,16 +57,6 @@ TestContentAnalysis
 .
 cpp
 "
-]
-SOURCES
-+
-=
-[
-"
-TestContentAnalysisAgent
-.
-cpp
-"
 "
 TestContentAnalysisMisbehaving
 .
