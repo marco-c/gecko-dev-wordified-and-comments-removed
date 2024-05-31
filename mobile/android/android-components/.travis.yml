@@ -62,9 +62,9 @@ no
 -
 daemon
 clean
-assemble
 test
-jacocoTestReport
+-
+Pcoverage
 after_success
 :
 -
