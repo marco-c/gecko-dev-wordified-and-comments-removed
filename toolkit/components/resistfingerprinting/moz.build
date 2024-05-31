@@ -39,6 +39,11 @@ nsRFPService
 cpp
 "
 "
+nsUserCharacteristics
+.
+cpp
+"
+"
 RelativeTimeline
 .
 cpp
