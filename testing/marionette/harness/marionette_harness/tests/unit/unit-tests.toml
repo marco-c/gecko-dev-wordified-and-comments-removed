@@ -562,6 +562,13 @@ py
 ]
 [
 "
+test_set_permission
+.
+py
+"
+]
+[
+"
 test_skip_setup
 .
 py
