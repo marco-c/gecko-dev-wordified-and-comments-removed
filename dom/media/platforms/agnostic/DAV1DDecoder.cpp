@@ -1146,8 +1146,7 @@ res
 LOG
 (
 "
-Decode
-error
+dav1d_get_picture
 :
 %
 d
@@ -1159,6 +1158,16 @@ aResult
 =
 MediaResult
 (
+res
+=
+=
+DAV1D_ERR
+(
+EAGAIN
+)
+?
+NS_ERROR_DOM_MEDIA_WAITING_FOR_DATA
+:
 NS_ERROR_DOM_MEDIA_DECODE_ERR
 __func__
 )
