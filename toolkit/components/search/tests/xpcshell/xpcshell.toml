@@ -367,6 +367,17 @@ json
 "
 data
 /
+search
+-
+config
+-
+v2
+.
+json
+"
+"
+data
+/
 iconsRedirect
 .
 sjs
