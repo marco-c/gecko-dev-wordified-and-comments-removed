@@ -77,7 +77,7 @@ Debugging
 activity
 exported
 by
-glean
+Glean
 to
 allow
 easier
@@ -90,7 +90,7 @@ debug
 mode
 in
 the
-glean
+Glean
 sample
 application
 can

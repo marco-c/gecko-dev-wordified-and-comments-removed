@@ -313,7 +313,10 @@ GeckoNativeWebExtension
 (
 url
 id
+createWebExtensionFlags
+(
 allowContentMessaging
+)
 )
 )
 Gecko

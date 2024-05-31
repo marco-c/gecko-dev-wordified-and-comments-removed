@@ -465,7 +465,10 @@ GeckoNativeWebExtension
 (
 url
 id
+createWebExtensionFlags
+(
 allowContentMessaging
+)
 )
 )
 <

@@ -177,7 +177,7 @@ all
 users
 of
 the
-glean
+Glean
 testing
 API
 .
@@ -237,7 +237,7 @@ Get
 whether
 or
 not
-glean
+Glean
 is
 allowed
 to
@@ -416,7 +416,7 @@ html
 br
 >
 Initialize
-glean
+Glean
 .
 |
 |
@@ -897,7 +897,7 @@ br
 Enable
 or
 disable
-glean
+Glean
 collection
 and
 upload

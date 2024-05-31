@@ -200,7 +200,7 @@ kt
 L79
 )
 Initialize
-glean
+Glean
 .
 This
 should
@@ -216,7 +216,7 @@ not
 by
 libraries
 using
-glean
+Glean
 .
 A
 message

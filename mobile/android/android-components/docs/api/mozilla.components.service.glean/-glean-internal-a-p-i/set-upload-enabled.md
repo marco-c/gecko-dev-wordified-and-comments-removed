@@ -173,12 +173,12 @@ Glean
 .
 kt
 #
-L131
+L136
 )
 Enable
 or
 disable
-glean
+Glean
 collection
 and
 upload
