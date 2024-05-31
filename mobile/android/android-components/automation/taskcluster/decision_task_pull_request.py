@@ -149,7 +149,7 @@ re
 findall
 (
 '
-mobule
+module
 :
 (
 .
