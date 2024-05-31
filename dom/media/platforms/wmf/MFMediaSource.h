@@ -503,16 +503,6 @@ AssertOnMFThreadPool
 )
 const
 ;
-void
-NotifyEndOfStreamInternal
-(
-TrackInfo
-:
-:
-TrackType
-aType
-)
-;
 bool
 IsSeekable
 (
