@@ -139,6 +139,16 @@ Release
 (
 )
 ;
+bool
+allow_iosurface
+(
+)
+const
+{
+return
+allow_iosurface_
+;
+}
 private
 :
 SequenceChecker
