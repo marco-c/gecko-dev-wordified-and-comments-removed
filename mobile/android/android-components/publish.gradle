@@ -200,7 +200,12 @@ rootProject
 .
 ext
 .
+library
+[
+'
 version
+'
+]
 task
 sourcesJar
 (
