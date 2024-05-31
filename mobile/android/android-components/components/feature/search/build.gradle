@@ -135,16 +135,6 @@ project
 (
 '
 :
-feature
--
-session
-'
-)
-implementation
-project
-(
-'
-:
 browser
 -
 session
