@@ -6109,13 +6109,6 @@ disableTrackingProtection
 }
 override
 fun
-clearData
-(
-)
-{
-}
-override
-fun
 toggleDesktopMode
 (
 enable
