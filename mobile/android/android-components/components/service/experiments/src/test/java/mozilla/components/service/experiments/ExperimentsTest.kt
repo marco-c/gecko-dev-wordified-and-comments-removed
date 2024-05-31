@@ -5359,17 +5359,15 @@ initialize
 context
 configuration
 )
-assertTrue
+assertEquals
 (
+954
 experiments
 .
 getUserBucket
 (
 mockContext
 )
-=
-=
-54
 )
 }
 Test
@@ -5428,7 +5426,7 @@ configuration
 )
 assertEquals
 (
-79
+779
 experiments
 .
 getUserBucket
@@ -5479,7 +5477,7 @@ configuration
 )
 assertEquals
 (
-55
+355
 experiments
 .
 getUserBucket

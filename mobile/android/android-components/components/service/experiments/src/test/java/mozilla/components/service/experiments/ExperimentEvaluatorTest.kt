@@ -3060,7 +3060,7 @@ f077724e848a
 )
 assertEquals
 (
-79
+779
 evaluator1
 .
 getUserBucket
@@ -3105,7 +3105,7 @@ a7ba
 )
 assertEquals
 (
-55
+355
 evaluator2
 .
 getUserBucket
@@ -3274,6 +3274,8 @@ distribution
 groupingBy
 {
 it
+/
+10
 }
 .
 eachCount
@@ -3302,7 +3304,7 @@ groupingBy
 {
 it
 /
-10
+100
 }
 .
 eachCount
@@ -3331,7 +3333,7 @@ groupingBy
 {
 it
 /
-50
+500
 }
 .
 eachCount
