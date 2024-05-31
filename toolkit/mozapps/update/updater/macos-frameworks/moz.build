@@ -25,6 +25,11 @@ DIRS
 "
 UpdateSettings
 "
+"
+UpdateSettings
+-
+xpcshell
+"
 ]
 EXPORTS
 +
