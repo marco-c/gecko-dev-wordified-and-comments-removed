@@ -257,13 +257,8 @@ label
 isChecked
 =
 initialState
-.
-invoke
 (
 )
-}
-view
-.
 setOnCheckedChangeListener
 {
 _
@@ -271,8 +266,6 @@ checked
 -
 >
 listener
-.
-invoke
 (
 checked
 )
@@ -281,6 +274,7 @@ menu
 dismiss
 (
 )
+}
 }
 }
 }
