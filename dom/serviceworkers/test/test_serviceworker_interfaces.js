@@ -473,16 +473,9 @@ DOMRect
 "
 DOMRectReadOnly
 "
-{
-name
-:
 "
 DOMRequest
 "
-disabled
-:
-true
-}
 "
 DOMStringList
 "

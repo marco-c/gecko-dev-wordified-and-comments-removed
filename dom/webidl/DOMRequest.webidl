@@ -141,15 +141,6 @@ onerror
 }
 ;
 [
-Pref
-=
-"
-dom
-.
-domrequest
-.
-enabled
-"
 Exposed
 =
 (

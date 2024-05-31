@@ -1087,9 +1087,6 @@ DOMRequest
 insecureContext
 :
 true
-disabled
-:
-true
 }
 {
 name
