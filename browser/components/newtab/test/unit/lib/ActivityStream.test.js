@@ -3735,6 +3735,8 @@ addObserver
 callsFake
 (
 (
+pref
+obs
 )
 =
 >

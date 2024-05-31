@@ -3847,6 +3847,8 @@ find
 (
 (
 [
+doc
+el
 args
 ]
 )
@@ -5615,6 +5617,8 @@ find
 (
 (
 [
+doc
+el
 args
 ]
 )
@@ -5750,6 +5754,8 @@ find
 (
 (
 [
+doc
+el
 args
 ]
 )

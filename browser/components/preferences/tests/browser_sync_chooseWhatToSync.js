@@ -863,8 +863,7 @@ sync
 sync
 "
 async
-(
-)
+browser
 =
 >
 {

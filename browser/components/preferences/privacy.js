@@ -2641,6 +2641,9 @@ trackingProtectionObserver
 {
 observe
 (
+subject
+topic
+data
 )
 {
 gPrivacyPane
@@ -15744,6 +15747,7 @@ checked
 }
 initOptOutStudyCheckbox
 (
+doc
 )
 {
 const
@@ -15908,6 +15912,7 @@ observe
 (
 aSubject
 aTopic
+aData
 )
 {
 switch

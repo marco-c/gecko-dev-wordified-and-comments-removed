@@ -120,6 +120,7 @@ return
 }
 isSeparator
 (
+index
 )
 {
 return
@@ -136,6 +137,7 @@ false
 }
 isContainer
 (
+index
 )
 {
 return
@@ -144,11 +146,14 @@ false
 }
 setTree
 (
+tree
 )
 {
 }
 getImageSrc
 (
+row
+column
 )
 {
 }
@@ -187,11 +192,13 @@ undefined
 }
 cycleHeader
 (
+column
 )
 {
 }
 getRowProperties
 (
+row
 )
 {
 return
@@ -201,6 +208,7 @@ return
 }
 getColumnProperties
 (
+column
 )
 {
 return

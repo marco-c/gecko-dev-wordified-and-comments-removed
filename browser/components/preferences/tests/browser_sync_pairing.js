@@ -180,6 +180,11 @@ FxAccountsPairingFlow
 start
 =
 (
+{
+emitter
+:
+e
+}
 )
 =
 >

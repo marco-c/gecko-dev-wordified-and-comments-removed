@@ -1915,6 +1915,10 @@ tab
 getValue
 :
 (
+{
+geo
+locale
+}
 )
 =
 >
@@ -4504,6 +4508,7 @@ observe
 (
 subject
 topic
+data
 )
 {
 switch

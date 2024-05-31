@@ -2867,6 +2867,7 @@ value
 }
 restorePrefDefaults
 (
+event
 )
 {
 this
@@ -7825,8 +7826,7 @@ empty
 )
 ShowPrivacyInfo
 :
-(
-)
+site
 =
 >
 (
@@ -9906,6 +9906,7 @@ this
 openContextMenu
 (
 isKeyBoard
+event
 )
 {
 if
@@ -12945,6 +12946,7 @@ context_type
 sponsor
 sponsored_by_override
 saveToPocketCard
+isRecentSave
 ctaButtonVariant
 }
 )
@@ -13324,6 +13326,7 @@ height
 }
 onLinkClick
 (
+event
 )
 {
 if
@@ -13567,6 +13570,7 @@ recommendation_id
 }
 onSaveClick
 (
+event
 )
 {
 if
@@ -15330,8 +15334,7 @@ _DSCard
 const
 PlaceholderDSCard
 =
-(
-)
+props
 =
 >
 external_React_default
@@ -16913,6 +16916,7 @@ function
 OnboardingExperience
 (
 {
+children
 dispatch
 windowObj
 =
@@ -20481,6 +20485,8 @@ false
 }
 componentDidCatch
 (
+error
+info
 )
 {
 this
@@ -21716,6 +21722,7 @@ this
 }
 onLearnLinkClick
 (
+event
 )
 {
 this
@@ -21746,6 +21753,7 @@ DS_PRIVACY_MODAL
 }
 onManageLinkClick
 (
+event
 )
 {
 this
@@ -39881,7 +39889,10 @@ external_ReactRedux_namespaceObject
 connect
 )
 (
+(
 state
+props
+)
 =
 >
 (
@@ -42797,6 +42808,10 @@ prefs
 =
 {
 }
+locale
+=
+"
+"
 }
 )
 =
@@ -44368,6 +44383,7 @@ selectors
 renderComponent
 (
 component
+embedWidth
 )
 {
 switch
@@ -50937,8 +50953,7 @@ action
 const
 messageMiddleware
 =
-(
-)
+store
 =
 >
 next

@@ -110,6 +110,7 @@ idleTime
 addIdleObserver
 (
 observer
+time
 )
 {
 this
@@ -125,6 +126,7 @@ observer
 removeIdleObserver
 (
 observer
+time
 )
 {
 this

@@ -123,8 +123,7 @@ empty
 )
 ShowPrivacyInfo
 :
-(
-)
+site
 =
 >
 (
