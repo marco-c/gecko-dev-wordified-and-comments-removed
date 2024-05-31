@@ -274,9 +274,15 @@ false
 val
 httpClient
 :
+Lazy
+<
 Client
+>
 =
+lazy
+{
 HttpURLConnectionClient
 (
 )
+}
 )

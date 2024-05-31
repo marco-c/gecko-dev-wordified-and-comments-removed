@@ -573,6 +573,8 @@ performUpload
 config
 .
 httpClient
+.
+value
 request
 )
 }
