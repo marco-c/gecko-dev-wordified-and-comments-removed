@@ -845,6 +845,7 @@ GpuBufferBuilderF
 GpuBufferI
 GpuBufferBuilderI
 GpuBufferAddress
+GpuBufferBuilder
 }
 ;
 pub

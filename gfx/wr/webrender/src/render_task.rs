@@ -953,7 +953,7 @@ content_origin
 :
 DevicePoint
 pub
-prim_address
+prim_address_f
 :
 GpuBufferAddress
 pub
@@ -2714,7 +2714,7 @@ DevicePixelScale
 content_origin
 :
 DevicePoint
-prim_address
+prim_address_f
 :
 GpuBufferAddress
 transform_id
@@ -2748,7 +2748,7 @@ prim_spatial_node_index
 raster_spatial_node_index
 device_pixel_scale
 content_origin
-prim_address
+prim_address_f
 transform_id
 edge_flags
 quad_flags
@@ -4230,7 +4230,7 @@ prim_spatial_node_index
 :
 SpatialNodeIndex
 pub
-main_prim_address
+prim_address_f
 :
 GpuBufferAddress
 }

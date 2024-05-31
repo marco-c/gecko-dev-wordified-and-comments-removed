@@ -1204,9 +1204,13 @@ cache_key
 frame_state
 .
 gpu_cache
+&
+mut
 frame_state
 .
-frame_gpu_data_f
+frame_gpu_data
+.
+f32
 frame_state
 .
 rg_builder

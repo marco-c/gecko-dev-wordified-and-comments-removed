@@ -233,8 +233,8 @@ renderer
 :
 :
 {
-GpuBufferBuilderF
 GpuBufferAddress
+GpuBufferBuilder
 }
 ;
 use
@@ -622,6 +622,11 @@ _cmd_buffers
 :
 &
 CommandBufferList
+_gpu_buffer_builder
+:
+&
+mut
+GpuBufferBuilder
 )
 {
 }
@@ -647,7 +652,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilderF
+GpuBufferBuilder
 render_tasks
 :
 &
@@ -815,6 +820,11 @@ cmd_buffers
 :
 &
 CommandBufferList
+gpu_buffer_builder
+:
+&
+mut
+GpuBufferBuilder
 )
 {
 if
@@ -850,6 +860,7 @@ transforms
 z_generator
 prim_instances
 cmd_buffers
+gpu_buffer_builder
 )
 ;
 }
@@ -1211,6 +1222,11 @@ cmd_buffers
 :
 &
 CommandBufferList
+gpu_buffer_builder
+:
+&
+mut
+GpuBufferBuilder
 )
 {
 profile_scope
@@ -1231,17 +1247,6 @@ AlphaBatchContainer
 new
 (
 None
-)
-;
-let
-mut
-gpu_buffer_builder
-=
-GpuBufferBuilderF
-:
-:
-new
-(
 )
 ;
 for
@@ -1412,8 +1417,6 @@ pic_task
 surface_spatial_node_index
 z_generator
 prim_instances
-&
-mut
 gpu_buffer_builder
 segments
 )
@@ -1514,7 +1517,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilderF
+GpuBufferBuilder
 render_tasks
 :
 &
@@ -1589,7 +1592,7 @@ info
 transform_id
 info
 .
-prim_address
+prim_address_f
 info
 .
 quad_flags
@@ -1608,6 +1611,7 @@ ZBufferId
 0
 )
 render_tasks
+gpu_buffer_builder
 |
 _
 instance
@@ -2358,7 +2362,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilderF
+GpuBufferBuilder
 render_tasks
 :
 &
@@ -4769,7 +4773,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilderF
+GpuBufferBuilder
 transforms
 :
 &
@@ -4873,6 +4877,8 @@ writer
 =
 gpu_buffer_builder
 .
+f32
+.
 write_blocks
 (
 3
@@ -4950,6 +4956,8 @@ mut
 writer
 =
 gpu_buffer_builder
+.
+f32
 .
 write_blocks
 (
@@ -5089,6 +5097,8 @@ mut
 writer
 =
 gpu_buffer_builder
+.
+f32
 .
 write_blocks
 (
@@ -5274,7 +5284,11 @@ clip_prim_address
 =
 write_prim_blocks
 (
+&
+mut
 gpu_buffer_builder
+.
+f32
 rect
 rect
 PremultipliedColorF
@@ -5345,6 +5359,7 @@ ZBufferId
 0
 )
 render_tasks
+gpu_buffer_builder
 |
 _
 prim
@@ -5504,7 +5519,11 @@ main_prim_address
 =
 write_prim_blocks
 (
+&
+mut
 gpu_buffer_builder
+.
+f32
 task_world_rect
 .
 cast_unit
@@ -5664,6 +5683,7 @@ ZBufferId
 0
 )
 render_tasks
+gpu_buffer_builder
 |
 _
 prim
@@ -5795,7 +5815,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilderF
+GpuBufferBuilder
 render_tasks
 :
 &
@@ -6009,7 +6029,7 @@ device_pixel_scale
 target_rect
 masks
 .
-main_prim_address
+prim_address_f
 masks
 .
 prim_spatial_node_index
