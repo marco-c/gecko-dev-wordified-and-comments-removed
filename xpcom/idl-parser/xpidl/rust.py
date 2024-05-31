@@ -2060,12 +2060,7 @@ try
 if
 p
 .
-name
-=
-=
-"
-bool
-"
+substitute
 :
                     
 continue
