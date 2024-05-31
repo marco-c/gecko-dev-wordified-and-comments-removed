@@ -2108,6 +2108,16 @@ TIME
 TimePickerDialogFragment
 .
 SELECTION_TYPE_TIME
+TimeSelection
+.
+Type
+.
+MONTH
+-
+>
+TimePickerDialogFragment
+.
+SELECTION_TYPE_MONTH
 }
 with
 (

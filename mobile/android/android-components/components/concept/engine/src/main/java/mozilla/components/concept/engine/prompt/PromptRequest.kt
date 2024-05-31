@@ -796,6 +796,7 @@ Type
 DATE
 DATE_AND_TIME
 TIME
+MONTH
 }
 }
 /
