@@ -300,6 +300,9 @@ override
 fun
 deserializeSingleMetric
 (
+metricName
+:
+String
 value
 :
 Any
@@ -492,6 +495,10 @@ List
 <
 String
 >
+extraSerializationData
+:
+Any
+?
 )
 {
 /
@@ -641,6 +648,7 @@ listOf
 (
 value
 )
+null
 )
 {
 currentValue

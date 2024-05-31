@@ -177,6 +177,15 @@ initialize
 (
 applicationContext
 )
+GleanMetrics
+.
+Test
+.
+testTimespan
+.
+start
+(
+)
 /
 /
 Set

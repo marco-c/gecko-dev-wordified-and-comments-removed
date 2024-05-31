@@ -256,6 +256,9 @@ override
 fun
 deserializeSingleMetric
 (
+metricName
+:
+String
 value
 :
 Any
@@ -305,6 +308,10 @@ String
 value
 :
 Int
+extraSerializationData
+:
+Any
+?
 )
 {
 userPreferences
@@ -405,6 +412,7 @@ recordScalar
 (
 metricData
 amount
+null
 )
 {
 currentValue

@@ -262,6 +262,9 @@ override
 fun
 deserializeSingleMetric
 (
+metricName
+:
+String
 value
 :
 Any
@@ -315,6 +318,10 @@ String
 value
 :
 UUID
+extraSerializationData
+:
+Any
+?
 )
 {
 userPreferences

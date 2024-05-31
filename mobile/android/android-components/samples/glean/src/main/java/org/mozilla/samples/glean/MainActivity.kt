@@ -401,5 +401,14 @@ PingEvent
 Background
 )
 }
+GleanMetrics
+.
+Test
+.
+testTimespan
+.
+stopAndSum
+(
+)
 }
 }

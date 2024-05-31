@@ -153,6 +153,11 @@ string_list
 to
 StringListsStorageEngine
 "
+timespan
+"
+to
+TimespansStorageEngine
+"
 uuid
 "
 to
