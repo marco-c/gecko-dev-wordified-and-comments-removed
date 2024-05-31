@@ -1,5 +1,5 @@
 import
-re
+json
 import
 subprocess
 def
@@ -26,6 +26,11 @@ gradlew
 no
 -
 daemon
+"
+"
+-
+-
+quiet
 "
 "
 printModules
@@ -74,42 +79,20 @@ error
 "
 exit_code
     
-tuples
+gradle_modules
 =
-re
+json
 .
-findall
+loads
 (
-'
-module
-:
-name
-=
-(
-.
-*
-)
-buildPath
-=
-(
-.
-*
-)
-'
 output
-re
-.
-M
 )
     
 return
 map
 (
 lambda
-(
-name
-build_path
-)
+module
 :
 {
         
@@ -117,7 +100,12 @@ build_path
 name
 '
 :
+module
+[
+'
 name
+'
+]
 [
 1
 :
@@ -134,7 +122,12 @@ build
 /
 '
 +
+module
+[
+'
 name
+'
+]
 [
 1
 :
@@ -162,7 +155,12 @@ zip
 path
 '
 :
-build_path
+module
+[
+'
+buildPath
+'
+]
 +
 '
 /
@@ -174,5 +172,5 @@ zip
 '
     
 }
-tuples
+gradle_modules
 )
