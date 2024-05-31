@@ -653,17 +653,6 @@ InputStreamParams
 T__None
 )
 {
-MOZ_ASSERT_UNREACHABLE
-(
-"
-Serializing
-as
-a
-pipe
-failed
-"
-)
-;
 return
 false
 ;
