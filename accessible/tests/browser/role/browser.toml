@@ -78,3 +78,10 @@ browser_computedARIARole
 js
 "
 ]
+[
+"
+browser_minimumRole
+.
+js
+"
+]
