@@ -1971,12 +1971,6 @@ case
 ParseNodeKind
 :
 :
-ArgumentsLength
-:
-case
-ParseNodeKind
-:
-:
 ElemExpr
 :
 case

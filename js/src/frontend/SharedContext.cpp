@@ -238,10 +238,6 @@ isScriptExtraFieldCopiedToStencil
 (
 false
 )
-eligibleForArgumentsLength
-(
-true
-)
 {
 if
 (
