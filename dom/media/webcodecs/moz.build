@@ -89,6 +89,11 @@ dom
 =
 [
 "
+AudioData
+.
+h
+"
+"
 DecoderTemplate
 .
 h
@@ -148,6 +153,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+AudioData
+.
+cpp
+"
 "
 DecoderAgent
 .
