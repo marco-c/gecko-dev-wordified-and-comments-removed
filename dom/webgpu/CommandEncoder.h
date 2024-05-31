@@ -109,7 +109,7 @@ struct
 WGPUComputePass
 ;
 struct
-WGPURenderPass
+WGPURecordedRenderPass
 ;
 struct
 WGPUImageDataLayout
@@ -279,7 +279,7 @@ EndRenderPass
 ffi
 :
 :
-WGPURenderPass
+WGPURecordedRenderPass
 &
 aPass
 )
