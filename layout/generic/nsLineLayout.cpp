@@ -2505,10 +2505,7 @@ psd
 >
 mInset
 =
-mCurrentSpan
--
->
-mInset
+0
 ;
 psd
 -
