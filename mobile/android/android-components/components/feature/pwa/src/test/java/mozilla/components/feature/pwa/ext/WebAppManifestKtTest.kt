@@ -173,6 +173,7 @@ com
 .
 asTaskDescription
 (
+null
 )
 assertEquals
 (
@@ -241,6 +242,7 @@ rgb
 .
 asTaskDescription
 (
+null
 )
 assertEquals
 (

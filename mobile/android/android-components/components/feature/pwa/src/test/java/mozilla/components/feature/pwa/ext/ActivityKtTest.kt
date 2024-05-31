@@ -169,7 +169,7 @@ name
 =
 "
 Test
-Manifst
+Manifest
 "
 startUrl
 =
@@ -222,7 +222,7 @@ name
 =
 "
 Test
-Manifst
+Manifest
 "
 startUrl
 =
@@ -269,7 +269,7 @@ name
 =
 "
 Test
-Manifst
+Manifest
 "
 startUrl
 =
@@ -316,7 +316,7 @@ name
 =
 "
 Test
-Manifst
+Manifest
 "
 startUrl
 =

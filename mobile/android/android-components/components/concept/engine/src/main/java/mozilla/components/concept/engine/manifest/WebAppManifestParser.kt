@@ -491,10 +491,7 @@ json
 :
 String
 )
-:
-Result
-{
-return
+=
 try
 {
 parse
@@ -518,7 +515,6 @@ Failure
 (
 e
 )
-}
 }
 fun
 serialize
