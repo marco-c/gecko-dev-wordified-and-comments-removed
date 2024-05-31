@@ -593,7 +593,7 @@ setVisibility
 value
 )
 }
-private
+internal
 fun
 animateClosing
 (
