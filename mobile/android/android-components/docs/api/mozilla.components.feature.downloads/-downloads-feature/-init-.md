@@ -146,12 +146,7 @@ completed
 md
 )
 =
-{
-_
-_
--
->
-}
+noop
 downloadManager
 :
 [
@@ -187,7 +182,6 @@ md
 AndroidDownloadManager
 (
 applicationContext
-onDownloadCompleted
 )
 sessionManager
 :

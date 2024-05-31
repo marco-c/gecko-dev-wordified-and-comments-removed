@@ -189,7 +189,7 @@ DownloadsFeature
 .
 kt
 #
-L46
+L47
 )
 Feature
 implementation
@@ -329,12 +329,7 @@ completed
 md
 )
 =
-{
-_
-_
--
->
-}
+noop
 downloadManager
 :
 [
@@ -370,7 +365,6 @@ md
 AndroidDownloadManager
 (
 applicationContext
-onDownloadCompleted
 )
 sessionManager
 :

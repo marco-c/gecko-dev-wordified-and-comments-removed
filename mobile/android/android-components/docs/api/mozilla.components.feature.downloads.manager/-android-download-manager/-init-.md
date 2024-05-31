@@ -97,12 +97,7 @@ completed
 md
 )
 =
-{
-_
-_
--
->
-}
+noop
 )
 Handles
 the
