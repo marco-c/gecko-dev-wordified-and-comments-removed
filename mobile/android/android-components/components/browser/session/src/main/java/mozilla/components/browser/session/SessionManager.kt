@@ -890,6 +890,14 @@ IllegalArgumentException
 Bulk
 adding
 of
+sessions
+with
+a
+parent
+is
+not
+supported
+.
 "
 )
 }
