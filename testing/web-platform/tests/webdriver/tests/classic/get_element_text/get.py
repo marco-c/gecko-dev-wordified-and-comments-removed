@@ -862,13 +862,11 @@ slot
 span
 style
 =
-\
-"
+'
 display
 :
 none
-\
-"
+'
 >
 foo
 <
