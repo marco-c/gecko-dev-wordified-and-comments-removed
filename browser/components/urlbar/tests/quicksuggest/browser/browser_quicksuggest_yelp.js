@@ -798,7 +798,7 @@ openResultMenuAndClickItem
 (
 window
 "
-show_less_frequentry
+show_less_frequently
 "
 {
 resultIndex
