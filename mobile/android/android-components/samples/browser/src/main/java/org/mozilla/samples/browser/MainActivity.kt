@@ -212,14 +212,14 @@ SessionFeature
 (
 components
 .
-sessionProvider
+sessionManager
 components
 .
 sessionUseCases
+engineView
 components
 .
-engine
-engineView
+sessionStorage
 )
 toolbarFeature
 =
@@ -227,8 +227,6 @@ ToolbarFeature
 (
 toolbar
 components
-.
-sessionProvider
 .
 sessionManager
 components
