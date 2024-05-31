@@ -1668,6 +1668,8 @@ fallthrough
 case
 eTouchCancel
 :
+if
+(
 mActiveElementManager
 -
 >
@@ -1675,7 +1677,13 @@ HandleTouchEndEvent
 (
 mEndTouchIsClick
 )
+)
+{
+mEndTouchIsClick
+=
+false
 ;
+}
 [
 [
 fallthrough
@@ -2440,6 +2448,8 @@ mEndTouchIsClick
 =
 aArg
 ;
+if
+(
 mActiveElementManager
 -
 >
@@ -2447,7 +2457,13 @@ HandleTouchEnd
 (
 mEndTouchIsClick
 )
+)
+{
+mEndTouchIsClick
+=
+false
 ;
+}
 break
 ;
 }
