@@ -2192,6 +2192,12 @@ aState
 )
 const
 ;
+bool
+NameIsEmpty
+(
+)
+const
+;
 private
 :
 static
