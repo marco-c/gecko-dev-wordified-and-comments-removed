@@ -73,6 +73,18 @@ mozilla
 .
 components
 .
+lib
+.
+fetch
+.
+httpurlconnection
+.
+HttpURLConnectionClient
+import
+mozilla
+.
+components
+.
 service
 .
 fretboard
@@ -7467,7 +7479,7 @@ JSONObject
 val
 client
 =
-HttpURLConnectionHttpClient
+HttpURLConnectionClient
 (
 )
 val
