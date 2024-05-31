@@ -64,6 +64,14 @@ util
 attributes
 import
 is_try
+from
+gecko_taskgraph
+.
+util
+.
+perftest
+import
+is_external_browser
 VARIANTS
 =
 [
@@ -380,6 +388,8 @@ test
 ]
     
 if
+(
+        
 "
 android
 "
@@ -392,9 +402,10 @@ test
 platform
 "
 ]
+        
 and
 (
-        
+            
 get_variant
 (
 test
@@ -406,7 +417,7 @@ platform
 "
 ]
 )
-        
+            
 in
 (
 "
@@ -429,6 +440,26 @@ lite
 -
 qr
 "
+)
+        
+)
+        
+and
+not
+is_external_browser
+(
+test
+.
+get
+(
+"
+try
+-
+name
+"
+"
+"
+)
 )
     
 )
