@@ -1403,6 +1403,15 @@ aidl
 =
 true
 }
+publishing
+{
+singleVariant
+(
+'
+withGeckoBinariesDebug
+'
+)
+}
 namespace
 '
 org

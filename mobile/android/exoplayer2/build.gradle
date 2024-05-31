@@ -200,6 +200,15 @@ java
 }
 }
 }
+publishing
+{
+singleVariant
+(
+"
+debug
+"
+)
+}
 namespace
 '
 org
