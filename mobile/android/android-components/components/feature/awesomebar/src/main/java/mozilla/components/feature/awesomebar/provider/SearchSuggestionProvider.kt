@@ -127,7 +127,7 @@ concept
 .
 fetch
 .
-success
+isSuccess
 import
 mozilla
 .
@@ -947,7 +947,7 @@ if
 !
 response
 .
-success
+isSuccess
 )
 {
 return

@@ -117,7 +117,7 @@ concept
 .
 fetch
 .
-success
+isSuccess
 import
 okhttp3
 .
@@ -1964,7 +1964,7 @@ assertTrue
 (
 response
 .
-success
+isSuccess
 )
 assertEquals
 (

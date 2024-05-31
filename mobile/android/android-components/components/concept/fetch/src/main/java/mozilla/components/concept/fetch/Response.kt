@@ -958,7 +958,7 @@ MagicNumber
 val
 Response
 .
-success
+isSuccess
 :
 Boolean
 get
@@ -1008,7 +1008,7 @@ MagicNumber
 val
 Response
 .
-clientError
+isClientError
 :
 Boolean
 get

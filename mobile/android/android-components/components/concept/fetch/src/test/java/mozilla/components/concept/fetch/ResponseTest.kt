@@ -803,7 +803,7 @@ mock
 )
 )
 .
-success
+isSuccess
 )
 assertTrue
 (
@@ -833,7 +833,7 @@ mock
 )
 )
 .
-success
+isSuccess
 )
 assertFalse
 (
@@ -863,7 +863,7 @@ mock
 )
 )
 .
-success
+isSuccess
 )
 assertFalse
 (
@@ -893,7 +893,7 @@ mock
 )
 )
 .
-success
+isSuccess
 )
 assertFalse
 (
@@ -923,7 +923,7 @@ mock
 )
 )
 .
-success
+isSuccess
 )
 }
 Test
@@ -970,7 +970,7 @@ mock
 )
 )
 .
-clientError
+isClientError
 )
 assertTrue
 (
@@ -1000,7 +1000,7 @@ mock
 )
 )
 .
-clientError
+isClientError
 )
 assertFalse
 (
@@ -1030,7 +1030,7 @@ mock
 )
 )
 .
-clientError
+isClientError
 )
 assertFalse
 (
@@ -1060,7 +1060,7 @@ mock
 )
 )
 .
-clientError
+isClientError
 )
 assertFalse
 (
@@ -1090,7 +1090,7 @@ mock
 )
 )
 .
-clientError
+isClientError
 )
 assertFalse
 (
@@ -1120,7 +1120,7 @@ mock
 )
 )
 .
-clientError
+isClientError
 )
 }
 Test

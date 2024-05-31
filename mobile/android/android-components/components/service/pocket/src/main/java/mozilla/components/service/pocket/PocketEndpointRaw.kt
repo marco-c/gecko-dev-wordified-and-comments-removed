@@ -145,7 +145,7 @@ concept
 .
 fetch
 .
-success
+isSuccess
 import
 java
 .
@@ -360,7 +360,7 @@ if
 (
 response
 .
-success
+isSuccess
 )
 response
 .
