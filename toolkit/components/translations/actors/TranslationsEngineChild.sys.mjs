@@ -754,6 +754,14 @@ options
 .
 message
 *
+param
+{
+number
+}
+options
+.
+innerWindowId
+*
 /
 TE_addProfilerMarker
 (

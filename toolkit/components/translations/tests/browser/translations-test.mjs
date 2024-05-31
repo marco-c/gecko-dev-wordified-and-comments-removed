@@ -440,7 +440,7 @@ param
 {
 string
 }
-messages
+message
 *
 /
 function

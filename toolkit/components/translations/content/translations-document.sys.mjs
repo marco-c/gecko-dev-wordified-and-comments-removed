@@ -1806,6 +1806,7 @@ translatedHTML
 :
 string
 }
+>
 }
 *
 /
@@ -1859,6 +1860,7 @@ attribute
 :
 string
 }
+>
 }
 *
 /
@@ -2912,6 +2914,7 @@ Array
 string
 >
 }
+attributeList
 *
 /
 queueAttributeNodeForTranslation
@@ -7604,10 +7607,12 @@ node
 *
 *
 returns
+{
 Array
 <
 string
 >
+}
 *
 /
 function
@@ -10861,6 +10866,7 @@ Map
 <
 number
 TranslationRequest
+>
 }
 *
 /
@@ -10962,12 +10968,6 @@ param
 MessagePort
 }
 port
-*
-param
-{
-Document
-}
-document
 *
 param
 {
@@ -11599,9 +11599,9 @@ queued
 *
 param
 {
-node
-}
 Node
+}
+node
 *
 param
 {

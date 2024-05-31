@@ -478,12 +478,6 @@ toLanguage
 *
 param
 {
-number
-}
-innerWindowId
-*
-param
-{
 MessagePort
 }
 port
