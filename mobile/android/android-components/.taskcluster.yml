@@ -849,6 +849,11 @@ taskcluster
 decision_task
 .
 py
+pr
+-
+or
+-
+push
 in
 :
 -
@@ -1443,9 +1448,10 @@ automation
 /
 taskcluster
 /
-decision_task_publish
+decision_task
 .
 py
+release
 -
 -
 version
@@ -1561,9 +1567,10 @@ automation
 /
 taskcluster
 /
-decision_task_publish
+decision_task
 .
 py
+release
 -
 -
 snapshot
