@@ -445,9 +445,6 @@ mockTabs
 "
 somePath
 "
-"
-somePath
-"
 this
 .
 coroutineContext
@@ -530,9 +527,6 @@ FirefoxAccountsAuthFeature
 (
 manager
 mockTabs
-"
-somePath
-"
 "
 somePath
 "
@@ -626,9 +620,6 @@ FirefoxAccountsAuthFeature
 (
 manager
 mockTabs
-"
-somePath
-"
 "
 somePath
 "
@@ -729,9 +720,6 @@ FirefoxAccountsAuthFeature
 (
 manager
 mockTabs
-"
-somePath
-"
 "
 somePath
 "
