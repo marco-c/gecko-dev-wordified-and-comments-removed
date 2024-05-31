@@ -1063,16 +1063,6 @@ return
 mIsLoadingJSURI
 ;
 }
-nsDOMNavigationTiming
-*
-GetTiming
-(
-)
-{
-return
-mTiming
-;
-}
 mozilla
 :
 :
