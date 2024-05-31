@@ -255,7 +255,9 @@ modules
 /
 ToolbarPanelHub
 .
-jsm
+sys
+.
+mjs
 "
 ]
 BROWSER_CHROME_MANIFESTS

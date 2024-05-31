@@ -8,7 +8,9 @@ modules
 /
 ToolbarPanelHub
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

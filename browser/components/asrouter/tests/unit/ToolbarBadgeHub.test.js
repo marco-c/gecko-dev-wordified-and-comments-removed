@@ -50,7 +50,9 @@ modules
 /
 ToolbarPanelHub
 .
-jsm
+sys
+.
+mjs
 "
 ;
 describe
