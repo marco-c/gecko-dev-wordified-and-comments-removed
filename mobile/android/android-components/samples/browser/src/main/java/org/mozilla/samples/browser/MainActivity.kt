@@ -198,6 +198,14 @@ layout
 .
 activity_main
 )
+toolbar
+.
+setMenuBuilder
+(
+components
+.
+menuBuilder
+)
 sessionFeature
 =
 SessionFeature
