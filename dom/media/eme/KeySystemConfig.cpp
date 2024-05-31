@@ -233,7 +233,6 @@ kWidevineExperimentKeySystemName
 }
 if
 (
-(
 IsPlayReadyKeySystemAndSupported
 (
 aKeySystem
@@ -241,16 +240,6 @@ aKeySystem
 |
 |
 IsWMFClearKeySystemAndSupported
-(
-aKeySystem
-)
-)
-&
-&
-WMFCDMImpl
-:
-:
-Supports
 (
 aKeySystem
 )
