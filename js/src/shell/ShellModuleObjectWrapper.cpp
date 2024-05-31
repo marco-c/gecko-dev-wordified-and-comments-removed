@@ -2454,7 +2454,7 @@ IdentFilter
 DEFINE_GETTER_FUNCTIONS
 (
 ModuleRequestObject
-assertions
+attributes
 ObjectOrNullValue
 IdentFilter
 )
@@ -2479,7 +2479,7 @@ JS_PSG
 "
 assertions
 "
-ShellModuleRequestObjectWrapper_assertionsGetter
+ShellModuleRequestObjectWrapper_attributesGetter
 0
 )
 JS_PS_END

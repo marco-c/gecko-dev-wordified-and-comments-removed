@@ -1086,7 +1086,7 @@ ArrayObject
 ModuleRequestObject
 :
 :
-assertions
+attributes
 (
 )
 const
@@ -1097,7 +1097,7 @@ obj
 =
 getReservedSlot
 (
-AssertionSlot
+AttributesSlot
 )
 .
 toObjectOrNull
@@ -1180,7 +1180,7 @@ Handle
 ArrayObject
 *
 >
-maybeAssertions
+maybeAttributes
 )
 {
 ModuleRequestObject
@@ -1223,10 +1223,10 @@ self
 >
 initReservedSlot
 (
-AssertionSlot
+AttributesSlot
 ObjectOrNullValue
 (
-maybeAssertions
+maybeAttributes
 )
 )
 ;
