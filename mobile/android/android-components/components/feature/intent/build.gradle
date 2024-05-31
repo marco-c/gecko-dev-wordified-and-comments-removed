@@ -247,7 +247,7 @@ kotlin_coroutines
 testImplementation
 Dependencies
 .
-kotlin_coroutines_test
+testing_coroutines
 }
 apply
 from

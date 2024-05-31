@@ -206,7 +206,7 @@ test
 testImplementation
 Dependencies
 .
-kotlin_coroutines_test
+testing_coroutines
 testImplementation
 Dependencies
 .
