@@ -474,6 +474,11 @@ react_external_listeners
 js
 "
 "
+resources
+/
+*
+"
+"
 shadowdom_open_debugger
 .
 min
