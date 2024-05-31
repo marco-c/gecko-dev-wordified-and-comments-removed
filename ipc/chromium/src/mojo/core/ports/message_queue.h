@@ -162,6 +162,11 @@ filter
 )
 ;
 void
+MessageProcessed
+(
+)
+;
+void
 AcceptMessage
 (
 mozilla
