@@ -70,7 +70,7 @@ glean
 .
 private
 .
-Lifetime
+DatetimeMetricType
 import
 mozilla
 .
@@ -82,7 +82,7 @@ glean
 .
 private
 .
-DatetimeMetricType
+Lifetime
 import
 mozilla
 .
@@ -689,8 +689,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 value
 .
 set
@@ -1357,8 +1355,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 value
 .
 set
@@ -1694,8 +1690,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 expectedNanosecond
 .
 timeZone
@@ -1776,8 +1770,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 expectedMillisecond
 .
 timeZone
@@ -1858,8 +1850,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 expectedSecond
 .
 timeZone
@@ -1938,8 +1928,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 expectedMinute
 .
 timeZone
@@ -2016,8 +2004,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 expectedHour
 .
 timeZone
@@ -2092,8 +2078,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 expectedDay
 .
 timeZone

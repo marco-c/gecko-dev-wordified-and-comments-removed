@@ -241,8 +241,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 value
 .
 set
@@ -311,8 +309,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 value2
 .
 set
@@ -399,8 +395,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 value3
 .
 set
@@ -514,8 +508,6 @@ Calendar
 getInstance
 (
 )
-!
-!
 /
 /
 value4
