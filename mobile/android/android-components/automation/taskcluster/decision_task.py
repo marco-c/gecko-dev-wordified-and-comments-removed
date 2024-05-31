@@ -1159,6 +1159,16 @@ components_version
 (
 )
     
+if
+is_snapshot
+:
+        
+release_snapshot
+(
+components
+is_staging
+)
+    
 build_tasks
 =
 {
