@@ -25936,10 +25936,7 @@ STATE_RESTORING
 {
 if
 (
-StaticPrefs
-:
-:
-browser_sessionstore_platform_collection_AtStartup
+SessionStorePlatformCollection
 (
 )
 )
@@ -29088,10 +29085,7 @@ NS_OK
 }
 if
 (
-StaticPrefs
-:
-:
-browser_sessionstore_platform_collection_AtStartup
+SessionStorePlatformCollection
 (
 )
 )

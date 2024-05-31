@@ -681,10 +681,7 @@ aBrowsingContext
 {
 MOZ_RELEASE_ASSERT
 (
-StaticPrefs
-:
-:
-browser_sessionstore_platform_collection_AtStartup
+SessionStorePlatformCollection
 (
 )
 )
