@@ -217,7 +217,7 @@ aSheet
 ;
 static
 void
-GetStyleSheetRuleCountAndAtRules
+GetAllStyleSheetCSSStyleRules
 (
 GlobalObject
 &
@@ -225,7 +225,16 @@ aGlobal
 StyleSheet
 &
 aSheet
-InspectorStyleSheetRuleCountAndAtRulesResult
+nsTArray
+<
+RefPtr
+<
+css
+:
+:
+Rule
+>
+>
 &
 aResult
 )
