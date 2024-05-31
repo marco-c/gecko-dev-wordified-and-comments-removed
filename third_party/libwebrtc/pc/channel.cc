@@ -5469,7 +5469,7 @@ c
 return
 send_codec
 .
-Matches
+MatchesWithoutPacketization
 (
 *
 c
@@ -6114,7 +6114,7 @@ c
 return
 recv_codec
 .
-Matches
+MatchesWithoutPacketization
 (
 *
 c
