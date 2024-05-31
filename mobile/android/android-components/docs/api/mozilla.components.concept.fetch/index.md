@@ -553,9 +553,11 @@ Summary
 |
 |
 [
-clientError
+isClientError
 ]
 (
+is
+-
 client
 -
 error
@@ -576,7 +578,7 @@ index
 md
 )
 .
-clientError
+isClientError
 :
 [
 Boolean
@@ -635,9 +637,11 @@ otherwise
 |
 |
 [
-success
+isSuccess
 ]
 (
+is
+-
 success
 .
 md
@@ -656,7 +660,7 @@ index
 md
 )
 .
-success
+isSuccess
 :
 [
 Boolean
