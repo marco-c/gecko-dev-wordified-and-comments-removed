@@ -735,7 +735,7 @@ is_top_pick
 ?
 38
 :
-24
+16
 showFeedbackMenu
 :
 true
