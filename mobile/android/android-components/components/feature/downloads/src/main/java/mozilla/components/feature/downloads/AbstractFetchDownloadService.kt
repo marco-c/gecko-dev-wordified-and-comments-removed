@@ -1277,13 +1277,11 @@ channelId
 .
 setSmallIcon
 (
-android
-.
 R
 .
 drawable
 .
-stat_sys_download
+mozac_feature_download_ic_download
 )
 .
 setContentTitle
