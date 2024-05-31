@@ -66,6 +66,9 @@ mozperftest
 perf
 -
 sheriffing
+performance
+-
+infrastructure
 raptor
 talos
 Performance
@@ -172,6 +175,13 @@ doc
 perf
 -
 sheriffing
+*
+:
+doc
+:
+performance
+-
+infrastructure
 *
 :
 doc
