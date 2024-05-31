@@ -4181,7 +4181,7 @@ retransmission_queue
 (
 )
 .
-outstanding_items
+unacked_items
 (
 )
 +
@@ -10369,7 +10369,7 @@ retransmission_queue
 (
 )
 .
-outstanding_bytes
+unacked_bytes
 (
 )
 !
