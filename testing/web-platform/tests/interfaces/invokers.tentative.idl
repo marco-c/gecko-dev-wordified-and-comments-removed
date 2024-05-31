@@ -16,16 +16,8 @@ invokeTargetElement
 [
 CEReactions
 Reflect
-ReflectMissing
 =
-"
-auto
-"
-ReflectEmpty
-=
-"
-auto
-"
+invokeaction
 ]
 attribute
 DOMString
@@ -78,7 +70,6 @@ DOMString
 action
 =
 "
-auto
 "
 ;
 }
