@@ -695,7 +695,7 @@ class
 )
 fun
 WHEN
-getInstance
+newInstance
 is
 called
 with
@@ -732,7 +732,7 @@ class
 )
 fun
 WHEN
-getInstance
+newInstance
 is
 called
 with
@@ -761,7 +761,7 @@ VALID_API_KEY
 Test
 fun
 WHEN
-getInstance
+newInstance
 is
 called
 with
@@ -814,6 +814,9 @@ end
 to
 -
 end
+global
+video
+recommendations
 request
 THEN
 20
