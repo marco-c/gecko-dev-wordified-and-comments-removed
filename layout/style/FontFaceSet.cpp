@@ -2479,12 +2479,6 @@ FontFaceLoadStatus
 :
 Loading
 :
-case
-FontFaceLoadStatus
-:
-:
-EndGuard_
-:
 MOZ_ASSERT_UNREACHABLE
 (
 "
