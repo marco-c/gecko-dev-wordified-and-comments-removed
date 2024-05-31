@@ -7,6 +7,13 @@ mozilla_dom_AudioData_h
 #
 include
 "
+MediaData
+.
+h
+"
+#
+include
+"
 WebCodecsUtils
 .
 h

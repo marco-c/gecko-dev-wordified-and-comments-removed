@@ -94,6 +94,11 @@ AudioData
 h
 "
 "
+AudioDecoder
+.
+h
+"
+"
 DecoderTemplate
 .
 h
@@ -160,6 +165,11 @@ UNIFIED_SOURCES
 [
 "
 AudioData
+.
+cpp
+"
+"
+AudioDecoder
 .
 cpp
 "
