@@ -1734,6 +1734,17 @@ thenReturn
 (
 true
 )
+when
+(
+webViewSettings
+.
+mediaPlaybackRequiresUserGesture
+)
+.
+thenReturn
+(
+true
+)
 val
 webView
 =
@@ -1906,7 +1917,7 @@ userAgentString
 "
 userAgent
 "
-assertFalse
+assertTrue
 (
 engineSession
 .
