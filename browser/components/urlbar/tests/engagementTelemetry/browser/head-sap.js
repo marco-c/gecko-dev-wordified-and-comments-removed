@@ -70,11 +70,6 @@ x
 )
 ;
 await
-waitForPauseImpression
-(
-)
-;
-await
 doEnter
 (
 )
