@@ -338,7 +338,6 @@ browser
 async
 function
 (
-obj
 )
 {
 await

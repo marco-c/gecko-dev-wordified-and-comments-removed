@@ -215,10 +215,7 @@ perm
 -
 changed
 "
-(
 aSubject
-aData
-)
 =
 >
 {
@@ -337,10 +334,7 @@ perm
 -
 changed
 "
-(
 aSubject
-aData
-)
 =
 >
 {
@@ -474,9 +468,6 @@ id
 function
 observer
 (
-subject
-topic
-data
 )
 {
 ok
@@ -684,7 +675,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve

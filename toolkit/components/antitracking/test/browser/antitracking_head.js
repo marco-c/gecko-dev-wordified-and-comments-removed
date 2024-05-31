@@ -904,7 +904,6 @@ observer
 (
 subject
 topic
-data
 )
 {
 if
@@ -4985,7 +4984,6 @@ notification
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -5462,7 +5460,6 @@ notification
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -5857,7 +5854,6 @@ prototype
 {
 onStartRequest
 (
-request
 )
 {
 }
@@ -5881,7 +5877,6 @@ cnt
 onStopRequest
 (
 request
-st
 )
 {
 let

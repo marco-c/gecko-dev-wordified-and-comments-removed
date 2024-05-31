@@ -128,8 +128,6 @@ cacheVisitor
 {
 onCacheStorageInfo
 (
-num
-consumption
 )
 {
 }

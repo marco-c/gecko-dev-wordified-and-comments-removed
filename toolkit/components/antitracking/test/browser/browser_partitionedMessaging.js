@@ -9,7 +9,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -99,7 +98,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve

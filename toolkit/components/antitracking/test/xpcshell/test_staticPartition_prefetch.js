@@ -157,8 +157,6 @@ cacheVisitor
 {
 onCacheStorageInfo
 (
-num
-consumption
 )
 {
 }

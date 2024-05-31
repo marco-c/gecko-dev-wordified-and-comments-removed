@@ -285,7 +285,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -467,7 +468,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -559,7 +561,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -712,7 +715,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve

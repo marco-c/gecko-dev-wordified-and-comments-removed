@@ -397,7 +397,8 @@ frame
 add_task
 (
 async
-setup
+(
+)
 =
 >
 {
@@ -466,7 +467,8 @@ false
 add_task
 (
 async
-test_contentPrincipalHTTPS
+(
+)
 =
 >
 {
@@ -503,7 +505,8 @@ content
 add_task
 (
 async
-test_contentPrincipalHTTP
+(
+)
 =
 >
 {
@@ -566,7 +569,8 @@ privateBrowsingId
 add_task
 (
 async
-test_systemPrincipal
+(
+)
 =
 >
 {
@@ -599,7 +603,8 @@ system
 add_task
 (
 async
-test_TopLevelSandbox
+(
+)
 =
 >
 {
@@ -673,7 +678,8 @@ privateBrowsingId
 add_task
 (
 async
-test_windowOpen
+(
+)
 =
 >
 {
@@ -791,7 +797,8 @@ tab
 add_task
 (
 async
-test_windowOpenFromSandboxedFrame
+(
+)
 =
 >
 {

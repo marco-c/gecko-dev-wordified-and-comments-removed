@@ -170,11 +170,6 @@ true
 }
 asyncPromptAuth
 (
-chan
-cb
-ctx
-lvl
-info
 )
 {
 throw

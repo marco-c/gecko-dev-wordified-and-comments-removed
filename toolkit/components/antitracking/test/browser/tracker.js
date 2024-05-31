@@ -5,7 +5,8 @@ addEventListener
 "
 message
 "
-e
+(
+)
 =
 >
 {

@@ -13,10 +13,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -30,8 +27,6 @@ function
 observer
 (
 subject
-topic
-data
 )
 {
 let

@@ -153,7 +153,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -189,7 +190,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -353,7 +353,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -389,7 +390,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -409,7 +409,8 @@ wow
 then
 (
 async
-cache
+(
+)
 =
 >
 {
@@ -464,7 +465,8 @@ wow
 then
 (
 async
-cache
+(
+)
 =
 >
 {
@@ -529,7 +531,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve

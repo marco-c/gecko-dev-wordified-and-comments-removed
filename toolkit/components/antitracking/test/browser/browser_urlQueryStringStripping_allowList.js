@@ -77,10 +77,7 @@ before
 -
 connect
 "
-(
 subject
-data
-)
 =
 >
 {

@@ -159,7 +159,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -241,7 +242,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -393,7 +393,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -474,7 +475,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -607,7 +607,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -689,7 +690,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -952,7 +952,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -1035,7 +1036,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -1418,7 +1418,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -1500,7 +1501,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -1761,7 +1761,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -1843,7 +1844,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -2174,7 +2174,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -2488,7 +2489,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -2662,7 +2664,8 @@ port
 .
 onmessage
 =
-msg
+(
+)
 =
 >
 {
@@ -2748,7 +2751,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -2833,7 +2837,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -2897,7 +2900,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -2987,7 +2991,6 @@ async
 (
 win3rdParty
 win1stParty
-allowed
 )
 =
 >
@@ -3051,7 +3054,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve

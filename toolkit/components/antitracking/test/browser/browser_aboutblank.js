@@ -76,7 +76,6 @@ browser
 async
 function
 (
-obj
 )
 {
 let
@@ -149,7 +148,6 @@ ifr
 async
 function
 (
-obj
 )
 {
 ok
