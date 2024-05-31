@@ -104,13 +104,9 @@ android
 authorities
 =
 "
-mozilla
-.
-components
-.
-feature
-.
-prompts
+{
+applicationId
+}
 .
 fileprovider
 "
