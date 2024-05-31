@@ -63,7 +63,7 @@ components
 .
 browser
 .
-session
+state
 .
 store
 import
@@ -73,7 +73,7 @@ components
 .
 browser
 .
-session
+state
 .
 action
 .
@@ -85,11 +85,11 @@ components
 .
 browser
 .
-session
+state
 .
 reducer
 .
-BrowserReducers
+BrowserStateReducer
 import
 mozilla
 .
@@ -97,7 +97,7 @@ components
 .
 browser
 .
-session
+state
 .
 state
 .
@@ -182,7 +182,7 @@ BrowserAction
 >
 (
 initialState
-BrowserReducers
+BrowserStateReducer
 :
 :
 reduce

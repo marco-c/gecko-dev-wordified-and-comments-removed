@@ -171,6 +171,10 @@ kotlin_stdlib
 implementation
 Dependencies
 .
+kotlin_coroutines
+implementation
+Dependencies
+.
 androidx_test_junit
 implementation
 Dependencies
