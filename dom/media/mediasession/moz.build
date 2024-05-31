@@ -10,6 +10,16 @@ mochitest
 toml
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+test
+/
+gtest
+"
+]
 EXPORTS
 .
 mozilla
