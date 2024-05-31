@@ -151,6 +151,16 @@ icons
 '
 )
 implementation
+project
+(
+'
+:
+ui
+-
+doorhanger
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib

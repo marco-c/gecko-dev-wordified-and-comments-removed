@@ -748,6 +748,11 @@ feature
 =
 SitePermissionsFeature
 (
+anchorView
+=
+layout
+.
+toolbar
 sessionManager
 =
 components

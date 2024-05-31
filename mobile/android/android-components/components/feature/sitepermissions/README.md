@@ -272,6 +272,9 @@ sitePermissionsFeature
 =
 SitePermissionsFeature
 (
+anchorView
+=
+toolbar
 sessionManager
 =
 components
