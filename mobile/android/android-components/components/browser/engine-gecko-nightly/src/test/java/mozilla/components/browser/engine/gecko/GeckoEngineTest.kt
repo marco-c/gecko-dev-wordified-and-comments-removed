@@ -793,6 +793,9 @@ CONTENT
 TrackingProtectionPolicy
 .
 TEST
+TrackingProtectionPolicy
+.
+CRYPTOMINING
 )
 .
 categories
@@ -1041,6 +1044,9 @@ CONTENT
 TrackingProtectionPolicy
 .
 TEST
+TrackingProtectionPolicy
+.
+CRYPTOMINING
 )
 .
 categories

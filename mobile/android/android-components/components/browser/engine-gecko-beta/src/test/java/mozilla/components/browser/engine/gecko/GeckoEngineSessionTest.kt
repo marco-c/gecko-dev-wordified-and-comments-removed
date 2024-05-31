@@ -5030,6 +5030,14 @@ all
 )
 .
 categories
+and
+TrackingProtectionPolicy
+.
+CRYPTOMINING
+.
+inv
+(
+)
 ContentBlocking
 .
 AT_ALL

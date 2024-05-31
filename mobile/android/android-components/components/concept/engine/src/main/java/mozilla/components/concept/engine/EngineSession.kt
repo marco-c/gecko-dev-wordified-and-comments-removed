@@ -678,6 +678,13 @@ Int
 1
 shl
 5
+const
+val
+CRYPTOMINING
+=
+1
+shl
+6
 internal
 const
 val
@@ -694,6 +701,8 @@ SOCIAL
 CONTENT
 +
 TEST
++
+CRYPTOMINING
 fun
 none
 (
