@@ -164,15 +164,6 @@ browser
 -
 engine
 -
-gecko
--
-nightly
-"
-"
-browser
--
-engine
--
 servo
 "
 "

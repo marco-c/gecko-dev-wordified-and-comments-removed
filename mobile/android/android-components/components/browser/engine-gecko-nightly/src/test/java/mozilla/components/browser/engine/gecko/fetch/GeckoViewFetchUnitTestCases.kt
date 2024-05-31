@@ -1032,6 +1032,12 @@ class
 .
 java
 )
+Suppress
+(
+"
+UNCHECKED_CAST
+"
+)
 when
 (
 geckoWebExecutor
@@ -1499,6 +1505,12 @@ anyLong
 thenReturn
 (
 null
+)
+Suppress
+(
+"
+UNCHECKED_CAST
+"
 )
 when
 (
