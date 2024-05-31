@@ -2890,6 +2890,9 @@ event
 )
 ;
 }
+#
+ifndef
+FUZZING_SNAPSHOT
 {
 SinglePortLocker
 locker
@@ -3051,6 +3054,8 @@ OK
 ;
 }
 }
+#
+endif
 int
 ret
 =
