@@ -2085,7 +2085,6 @@ label1
 .
 start
 (
-this
 )
 labeledTimespanMetric
 [
@@ -2094,9 +2093,8 @@ label1
 "
 ]
 .
-stopAndSum
+stop
 (
-this
 )
 labeledTimespanMetric
 [
@@ -2107,7 +2105,6 @@ label2
 .
 start
 (
-this
 )
 labeledTimespanMetric
 [
@@ -2116,9 +2113,8 @@ label2
 "
 ]
 .
-stopAndSum
+stop
 (
-this
 )
 assertTrue
 (

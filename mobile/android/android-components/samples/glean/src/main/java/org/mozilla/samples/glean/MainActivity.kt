@@ -426,9 +426,8 @@ Test
 .
 testTimespan
 .
-stopAndSum
+stop
 (
-applicationContext
 )
 /
 /

@@ -197,9 +197,8 @@ GleanBaseline
 .
 duration
 .
-stopAndSum
+stop
 (
-this
 )
 Glean
 .
@@ -352,7 +351,6 @@ duration
 .
 start
 (
-this
 )
 }
 }
