@@ -17,7 +17,11 @@ md
 >
 Samples
 >
+Firefox
+Accounts
+(
 FxA
+)
 !
 [
 ]
@@ -43,7 +47,9 @@ showcasing
 the
 service
 -
-fxa
+firefox
+-
+account
 component
 .
 #
