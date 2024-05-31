@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestRaceDeadlock
-.
-h
-"
-"
 TestRaceDeferral
 .
 h
@@ -131,11 +126,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestRaceDeadlock
 .
 cpp
 "
@@ -272,11 +262,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestRaceDeadlock
 .
 ipdl
 "
