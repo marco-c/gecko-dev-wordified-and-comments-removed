@@ -1440,9 +1440,10 @@ data
 )
 class
 PrettyPrinted
+(
+type
+)
 :
-    
-classmethod
     
 def
 __hash__
@@ -1459,8 +1460,6 @@ cls
 pretty
 )
     
-classmethod
-    
 def
 __str__
 (
@@ -1475,6 +1474,8 @@ pretty
 class
 ASYNC
 (
+metaclass
+=
 PrettyPrinted
 )
 :
@@ -1487,6 +1488,8 @@ async
 class
 INTR
 (
+metaclass
+=
 PrettyPrinted
 )
 :
@@ -1499,6 +1502,8 @@ intr
 class
 SYNC
 (
+metaclass
+=
 PrettyPrinted
 )
 :
@@ -1511,6 +1516,8 @@ sync
 class
 INOUT
 (
+metaclass
+=
 PrettyPrinted
 )
 :
@@ -1523,6 +1530,8 @@ inout
 class
 IN
 (
+metaclass
+=
 PrettyPrinted
 )
 :
@@ -1535,6 +1544,8 @@ in
 class
 OUT
 (
+metaclass
+=
 PrettyPrinted
 )
 :

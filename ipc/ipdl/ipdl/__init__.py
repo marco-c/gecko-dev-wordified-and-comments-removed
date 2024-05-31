@@ -425,13 +425,13 @@ outdir
 :
     
 return
+ast
+.
+accept
+(
 IPDLCodeGen
 (
 )
-.
-cgen
-(
-ast
 )
 def
 genmsgenum
