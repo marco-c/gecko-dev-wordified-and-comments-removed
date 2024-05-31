@@ -716,6 +716,17 @@ resourceURLString
 return
 true
 }
+if
+(
+resourceHost
+=
+=
+null
+)
+{
+return
+false
+}
 for
 (
 (
