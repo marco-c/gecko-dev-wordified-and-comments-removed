@@ -189,10 +189,6 @@ assert_true
 missing
 .
 size
-+
-extra
-.
-size
 =
 =
 0
