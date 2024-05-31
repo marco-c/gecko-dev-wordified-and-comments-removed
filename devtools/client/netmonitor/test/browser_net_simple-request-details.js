@@ -757,12 +757,12 @@ treeLabelCell
 )
 .
 length
-23
+24
 "
 There
 should
 be
-23
+24
 header
 values
 displayed
