@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-46fd3cd06cd7696fdd46d77acfe33685a7adfb9c
+4c4be495bbf5e19a73586b704e13be07c4b22f13
 '
 #
 Fetch
@@ -188,9 +188,9 @@ version
 :
 16
 .
-20231110
+20231117
 .
-0
+2
 .
 1
 '
@@ -433,7 +433,7 @@ chromium
 src
 /
 base
-f4de6e31145e000e6650ec9ce83de5bd8c6440d0
+4174b8ace3813fec82a43b0cec280392ab7d780e
 '
 '
 src
@@ -457,7 +457,7 @@ chromium
 src
 /
 build
-de1ba1ab649db5f4bf60999b3010c1fcfe91afb4
+cd2687c456137bfc010e8bb096713fddf080f73e
 '
 '
 src
@@ -481,7 +481,7 @@ chromium
 src
 /
 buildtools
-7d02c8ca33182a111e87f07989f93064316836ba
+51b30feb6fa387428928692e33ecfbc3a996d064
 '
 #
 Gradle
@@ -577,7 +577,7 @@ chromium
 src
 /
 ios
-0592794f91fb80f3a9e13baae0f4992f8fe0aa0b
+34f09a3ec2e018aaeb385c2f37f5c89901ebd17f
 '
 '
 condition
@@ -609,7 +609,7 @@ chromium
 src
 /
 testing
-b2d323f348444c7006b2c2c8a78398303296cfc7
+6cfbceb01264bfc96e495c8eb4119229d2e43f73
 '
 '
 src
@@ -633,7 +633,7 @@ chromium
 src
 /
 third_party
-2000b60bdb47881f3183f1d735dbd847b06946d8
+634e6f2507505bc0659fd3dfa0778ca8cd6af3ca
 '
 '
 src
@@ -997,7 +997,7 @@ project
 libcxx
 .
 git
-4399383935f808337a178b81e0c6657bf7e33f6c
+038521e9561dab50fc8b50ef987e87225f39c8f6
 '
 '
 src
@@ -1038,7 +1038,7 @@ project
 libcxxabi
 .
 git
-d529bb588f45b6c3e6ccd36219a3f55260ed13b0
+79413b1359092d6feb34874e9a819466518b7262
 '
 '
 src
@@ -1076,7 +1076,7 @@ project
 libunwind
 .
 git
-19b1234bfbad647ffc0e9f165a6a1b1a35126621
+668c76fe4d440ee5e36971c9ca39f1b616af8078
 '
 '
 src
@@ -1420,7 +1420,7 @@ com
 catapult
 .
 git
-bb1266a08187f247dfde592850c40b586a4da7de
+e04aba79979be87883ec296d65d2b77f88a55821
 '
 '
 src
@@ -1597,7 +1597,7 @@ tools
 depot_tools
 .
 git
-06c4261af7368fdf57e3b3dfdce2cfef6b659f29
+eb48a6ac0fa5835353ddd137ac35f44eee011716
 '
 '
 src
@@ -2644,7 +2644,7 @@ external
 perfetto
 .
 git
-867067368dec61b75f63cf6798c25c49670d1e8c
+0447454ec8cefdbaa41ec2c67ca7013a83188ac0
 '
 '
 src
@@ -2924,9 +2924,9 @@ version
 '
 :
 '
-LSKbogNru
+mIydEkNvLtzm1YbYV6Vch1Oj7Hwzdgw
 -
-rwoTlrVtJniI4WT8_ZQbcI8QyWQJfwHXoC
+XVLHEKLmjq4C
 '
 }
 ]
@@ -3102,7 +3102,7 @@ chromium
 src
 /
 tools
-741e7ab8f620bd69ee426fd15fb4c13d608749ed
+ba6f6d8ef21310324b78dedcfebea1f7806b530c
 '
 '
 src
@@ -3453,7 +3453,9 @@ version
 '
 :
 '
-iOMhhch3r8SFts_GRS6uFcUZVmbZ_r0A1NXDpyS1Z64C
+SVekkV
+-
+WsTydJ9quroV_dvN5Q7X7UZ_C4eJ8VstiLzoC
 '
 }
 ]
