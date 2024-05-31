@@ -192,11 +192,6 @@ downloads
 "
 feature
 -
-intent
-"
-"
-feature
--
 prompts
 "
 "
