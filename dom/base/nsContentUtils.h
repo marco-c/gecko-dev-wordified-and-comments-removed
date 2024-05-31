@@ -8174,6 +8174,8 @@ dom
 ShadowRootMode
 aMode
 bool
+aIsClonable
+bool
 aDelegatesFocus
 )
 ;

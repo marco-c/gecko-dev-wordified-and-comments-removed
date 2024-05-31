@@ -217,6 +217,16 @@ shadowrootmode
 Atom
 (
 "
+shadowrootclonable
+"
+"
+shadowrootclonable
+"
+)
+    
+Atom
+(
+"
 stddeviation
 "
 "

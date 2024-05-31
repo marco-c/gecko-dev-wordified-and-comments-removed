@@ -155,6 +155,8 @@ aTemplateNode
 nsHtml5String
 aShadowRootMode
 bool
+aShadowRootIsClonable
+bool
 aShadowRootDelegatesFocus
 )
 ;
