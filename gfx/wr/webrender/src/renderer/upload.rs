@@ -3200,12 +3200,7 @@ panic
 "
 unexpected
 format
-{
-:
-?
-}
 "
-format
 )
 ;
 }
