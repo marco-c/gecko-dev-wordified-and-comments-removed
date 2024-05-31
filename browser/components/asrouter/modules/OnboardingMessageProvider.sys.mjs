@@ -5708,6 +5708,11 @@ screens
 :
 [
 {
+id
+:
+"
+FOX_DOODLE_SET_DEFAULT_SCREEN
+"
 content
 :
 {
