@@ -1556,7 +1556,7 @@ ContainerWidget
 const
 ;
 bool
-IsActiveDescendant
+IsActiveDescendantId
 (
 LocalAccessible
 *
