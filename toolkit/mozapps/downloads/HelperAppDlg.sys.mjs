@@ -2017,6 +2017,8 @@ picker
 init
 (
 parent
+.
+browsingContext
 windowTitle
 nsIFilePicker
 .
@@ -8514,6 +8516,8 @@ init
 this
 .
 mDialog
+.
+browsingContext
 this
 .
 dialogElement
