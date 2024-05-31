@@ -2092,7 +2092,10 @@ aRv
 ;
 Maybe
 <
-nsBaseChannel
+mozilla
+:
+:
+net
 :
 :
 ContentRange
