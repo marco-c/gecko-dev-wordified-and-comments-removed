@@ -1085,6 +1085,7 @@ layers
 CanvasChild
 >
 (
+mWorkerRef
 )
 ;
 if
@@ -1096,6 +1097,13 @@ mCanvasChild
 )
 )
 {
+mCanvasChild
+-
+>
+Destroy
+(
+)
+;
 mCanvasChild
 =
 nullptr
