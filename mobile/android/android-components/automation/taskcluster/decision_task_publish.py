@@ -180,7 +180,7 @@ BUILD_GRADLE_TASK_NAMES
 =
 (
 '
-assembleRelease
+assemble
 '
 '
 test
@@ -359,12 +359,26 @@ join
 :
 {
 }
+{
+}
 '
 .
 format
 (
+            
 module_name
+            
 gradle_task
+            
+'
+'
+if
+is_snapshot
+else
+'
+Release
+'
+        
 )
         
 for
