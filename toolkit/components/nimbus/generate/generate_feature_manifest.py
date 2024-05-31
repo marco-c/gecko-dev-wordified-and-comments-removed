@@ -118,10 +118,6 @@ newtab
 "
     
 "
-phc
-"
-    
-"
 pocketNewtab
 "
     
