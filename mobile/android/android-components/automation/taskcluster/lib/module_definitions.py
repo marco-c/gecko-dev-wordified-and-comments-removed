@@ -168,4 +168,11 @@ for
 module
 in
 gradle_modules
+if
+module
+[
+'
+enableTaskcluster
+'
+]
 ]
