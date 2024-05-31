@@ -214,7 +214,7 @@ RenderCompositorNative
 if
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 |
 |
@@ -572,7 +572,7 @@ UseWebRenderCompositor
 if
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 return
 layers
@@ -671,7 +671,7 @@ aCaps
 if
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 aCaps
 -
@@ -3053,7 +3053,7 @@ InsertFrameDoneSync
 {
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 if
 (
 mThisFrameDoneSync

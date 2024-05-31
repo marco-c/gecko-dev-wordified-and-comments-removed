@@ -245,7 +245,7 @@ h
 "
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 #
 include
 "
@@ -3022,7 +3022,7 @@ mD3D11YCbCrRecycleAllocator
 endif
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 already_AddRefed
 <
 MacIOSurfaceRecycleAllocator
