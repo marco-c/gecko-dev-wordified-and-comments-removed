@@ -108,13 +108,6 @@ js
 ]
 [
 "
-browser_ignore_unfocusable_fields
-.
-js
-"
-]
-[
-"
 browser_label_rules
 .
 js
@@ -165,6 +158,13 @@ js
 [
 "
 browser_sections_by_name
+.
+js
+"
+]
+[
+"
+browser_sections_with_invisible_fields
 .
 js
 "

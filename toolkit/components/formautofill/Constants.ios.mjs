@@ -415,6 +415,17 @@ focusOnAutofill
 "
 :
 false
+"
+extensions
+.
+formautofill
+.
+test
+.
+ignoreVisibilityCheck
+"
+:
+false
 }
 ;
 /
