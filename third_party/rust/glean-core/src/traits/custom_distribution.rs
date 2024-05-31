@@ -22,6 +22,16 @@ i64
 )
 ;
 fn
+accumulate_single_sample_signed
+(
+&
+self
+sample
+:
+i64
+)
+;
+fn
 test_get_value
 <
 '

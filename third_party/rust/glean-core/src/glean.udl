@@ -2653,6 +2653,13 @@ i64
 samples
 )
 ;
+void
+accumulate_single_sample
+(
+i64
+sample
+)
+;
 DistributionData
 ?
 test_get_value
@@ -2844,6 +2851,13 @@ sequence
 i64
 >
 samples
+)
+;
+void
+accumulate_single_sample
+(
+i64
+sample
 )
 ;
 DistributionData

@@ -1312,7 +1312,7 @@ rate_limit
 None
 enable_event_timestamps
 :
-false
+true
 experimentation_id
 :
 None
