@@ -112,6 +112,15 @@ const
 0
 ;
 virtual
+bool
+MustWait
+(
+)
+const
+=
+0
+;
+virtual
 nsTArray
 <
 RefPtr

@@ -828,6 +828,13 @@ return
 mAcquired
 ;
 }
+bool
+MustWait
+(
+)
+const
+override
+;
 nsTArray
 <
 RefPtr
