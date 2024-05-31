@@ -173,6 +173,15 @@ reftest
 .
 list
 #
+PNG
+tests
+include
+png
+/
+reftest
+.
+list
+#
 BMP
 tests
 skip
