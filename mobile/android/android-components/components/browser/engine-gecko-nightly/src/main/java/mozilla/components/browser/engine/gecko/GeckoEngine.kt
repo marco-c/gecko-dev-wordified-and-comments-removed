@@ -206,4 +206,15 @@ GeckoEngineSession
 runtime
 )
 }
+override
+fun
+name
+(
+)
+:
+String
+=
+"
+Gecko
+"
 }

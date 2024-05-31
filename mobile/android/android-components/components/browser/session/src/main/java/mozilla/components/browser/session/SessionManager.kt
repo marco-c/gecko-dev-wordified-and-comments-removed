@@ -142,7 +142,6 @@ sessions
 class
 SessionManager
 (
-private
 val
 engine
 :
