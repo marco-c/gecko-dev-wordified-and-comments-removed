@@ -226,6 +226,11 @@ title
 "
 session
 .
+icon
+=
+null
+session
+.
 contentPermissionRequest
 .
 consume
