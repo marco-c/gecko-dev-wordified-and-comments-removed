@@ -1451,7 +1451,9 @@ getAllModuleClasses
 (
 ModuleCache
 .
-jsm
+sys
+.
+mjs
 )
 for
 more

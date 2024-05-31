@@ -1025,7 +1025,9 @@ macos
 See
 Marionette
 .
-jsm
+sys
+.
+mjs
 :
 :
 handle

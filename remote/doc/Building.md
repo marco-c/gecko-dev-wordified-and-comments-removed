@@ -161,7 +161,9 @@ files
 ending
 with
 .
-jsm
+sys
+.
+mjs
 )
 are
 symlinked
