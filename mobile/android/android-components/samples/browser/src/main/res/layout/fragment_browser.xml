@@ -485,6 +485,13 @@ gone
 "
 android
 :
+layout_gravity
+=
+"
+bottom
+"
+android
+:
 layout_width
 =
 "
