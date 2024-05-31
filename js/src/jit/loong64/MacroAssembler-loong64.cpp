@@ -18351,9 +18351,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 T
@@ -18934,9 +18932,7 @@ wasm
 MemoryAccessDesc
 *
 access
-const
 Synchronization
-&
 sync
 const
 T
@@ -19141,9 +19137,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 T
@@ -19675,9 +19669,7 @@ wasm
 MemoryAccessDesc
 *
 access
-const
 Synchronization
-&
 sync
 const
 T
@@ -19844,9 +19836,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -20535,9 +20525,7 @@ wasm
 MemoryAccessDesc
 *
 access
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -20808,9 +20796,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 Address
@@ -20858,9 +20844,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -20903,9 +20887,7 @@ MacroAssembler
 :
 compareExchange64
 (
-const
 Synchronization
-&
 sync
 const
 Address
@@ -20938,9 +20920,7 @@ MacroAssembler
 :
 compareExchange64
 (
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -21178,9 +21158,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 Address
@@ -21225,9 +21203,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -21267,9 +21243,7 @@ MacroAssembler
 :
 atomicExchange64
 (
-const
 Synchronization
-&
 sync
 const
 Address
@@ -21299,9 +21273,7 @@ MacroAssembler
 :
 atomicExchange64
 (
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -21444,9 +21416,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -21494,9 +21464,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -21539,9 +21507,7 @@ MacroAssembler
 :
 atomicFetchOp64
 (
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -21577,9 +21543,7 @@ MacroAssembler
 :
 atomicFetchOp64
 (
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -21615,9 +21579,7 @@ MacroAssembler
 :
 atomicEffectOp64
 (
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -21651,9 +21613,7 @@ MacroAssembler
 :
 atomicEffectOp64
 (
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -21819,9 +21779,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -22739,9 +22697,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 T
@@ -22842,9 +22798,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 T
@@ -22941,9 +22895,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -23038,9 +22990,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 Address
@@ -23090,9 +23040,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -23142,9 +23090,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 Address
@@ -23191,9 +23137,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -23240,9 +23184,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -23292,9 +23234,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -23344,9 +23284,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -23391,9 +23329,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op

@@ -14835,9 +14835,7 @@ wasm
 MemoryAccessDesc
 *
 access
-const
 Synchronization
-&
 sync
 const
 T
@@ -15085,9 +15083,7 @@ MacroAssembler
 :
 compareExchange64
 (
-const
 Synchronization
-&
 sync
 const
 Address
@@ -15120,9 +15116,7 @@ MacroAssembler
 :
 compareExchange64
 (
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -15168,9 +15162,7 @@ wasm
 MemoryAccessDesc
 *
 access
-const
 Synchronization
-&
 sync
 const
 T
@@ -15407,9 +15399,7 @@ MacroAssembler
 :
 atomicExchange64
 (
-const
 Synchronization
-&
 sync
 const
 Address
@@ -15439,9 +15429,7 @@ MacroAssembler
 :
 atomicExchange64
 (
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -15484,9 +15472,7 @@ wasm
 MemoryAccessDesc
 *
 access
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -15822,9 +15808,7 @@ MacroAssembler
 :
 atomicFetchOp64
 (
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -15860,9 +15844,7 @@ MacroAssembler
 :
 atomicFetchOp64
 (
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -15898,9 +15880,7 @@ MacroAssembler
 :
 atomicEffectOp64
 (
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -15934,9 +15914,7 @@ MacroAssembler
 :
 atomicEffectOp64
 (
-const
 Synchronization
-&
 sync
 AtomicOp
 op
