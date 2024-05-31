@@ -186,10 +186,6 @@ shellService
 "
     
 "
-testFeature
-"
-    
-"
 updatePrompt
 "
     

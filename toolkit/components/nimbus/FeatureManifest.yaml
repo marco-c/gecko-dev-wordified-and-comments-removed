@@ -146,9 +146,6 @@ task
 hasExposure
 :
 false
-isEarlyStartup
-:
-true
 variables
 :
 enabled
