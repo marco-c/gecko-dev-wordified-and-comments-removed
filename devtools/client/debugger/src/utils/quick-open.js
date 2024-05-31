@@ -11,7 +11,6 @@ utils
 ;
 import
 {
-getFilename
 getSourceClassnames
 getRelativeUrl
 }
@@ -254,14 +253,6 @@ projectDirectoryRoot
 )
 {
 const
-title
-=
-getFilename
-(
-source
-)
-;
-const
 relativeUrlWithQuery
 =
 {
@@ -301,6 +292,10 @@ return
 {
 value
 title
+:
+source
+.
+shortName
 subtitle
 icon
 :

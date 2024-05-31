@@ -77,7 +77,6 @@ index
 ;
 import
 {
-getFilename
 getFileURL
 }
 from
@@ -322,12 +321,11 @@ source
 false
 )
 :
-getFilename
-(
 location
 .
 source
-)
+.
+shortName
 ;
 return
 React

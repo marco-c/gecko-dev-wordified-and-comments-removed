@@ -38,7 +38,6 @@ import
 {
 isPretty
 getRawSourceURL
-getFilename
 shouldBlackbox
 findBlackBoxRange
 }
@@ -1805,10 +1804,9 @@ click
 downloadFile
 (
 selectedContent
-getFilename
-(
 selectedSource
-)
+.
+shortName
 )
 }
 )
