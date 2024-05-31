@@ -1,9 +1,6 @@
 revert_remove_AddTargetPeer
 .
 patch
-revert_remove_BrokerDuplicateHandle
-.
-patch
 replace_ScopedNativeLibrary_in_ApplyMitigationsToCurrentThread
 .
 patch
