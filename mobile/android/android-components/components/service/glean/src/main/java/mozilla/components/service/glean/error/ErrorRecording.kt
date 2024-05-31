@@ -435,9 +435,7 @@ sendInPings
 =
 metricData
 .
-getStorageNames
-(
-)
+sendInPings
 if
 (
 !
@@ -704,9 +702,7 @@ use
 *
 metricData
 .
-getStorageNames
-(
-)
+sendInPings
 .
 first
 (
@@ -777,9 +773,7 @@ run
 {
 metricData
 .
-getStorageNames
-(
-)
+sendInPings
 .
 first
 (

@@ -1842,7 +1842,7 @@ sendInPings
 listOf
 (
 "
-default
+events
 "
 )
 allowedExtraKeys

@@ -971,7 +971,7 @@ sendInPings
 listOf
 (
 "
-default
+events
 "
 )
 )

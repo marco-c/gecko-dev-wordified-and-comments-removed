@@ -1378,9 +1378,7 @@ storeName
 in
 metricData
 .
-getStorageNames
-(
-)
+sendInPings
 )
 {
 val

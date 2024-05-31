@@ -1872,9 +1872,7 @@ null
 }
 metricData
 .
-getStorageNames
-(
-)
+sendInPings
 .
 forEach
 {

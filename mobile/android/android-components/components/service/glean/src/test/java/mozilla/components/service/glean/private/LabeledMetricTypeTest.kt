@@ -390,23 +390,6 @@ String
 )
 :
 CommonMetricData
-{
-override
-val
-defaultStorageDestinations
-:
-List
-<
-String
->
-=
-listOf
-(
-"
-metrics
-"
-)
-}
 Before
 fun
 setup
@@ -472,7 +455,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -507,7 +490,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -818,7 +801,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -853,7 +836,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -1198,7 +1181,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -1233,7 +1216,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -1556,7 +1539,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -1591,7 +1574,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -1720,7 +1703,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 timeUnit
@@ -1760,7 +1743,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -1878,7 +1861,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -1913,7 +1896,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -2012,7 +1995,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -2047,7 +2030,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -2154,7 +2137,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -2189,7 +2172,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -2283,7 +2266,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -2318,7 +2301,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
@@ -2417,7 +2400,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 )
@@ -2455,7 +2438,7 @@ sendInPings
 listOf
 (
 "
-default
+metrics
 "
 )
 subMetric
