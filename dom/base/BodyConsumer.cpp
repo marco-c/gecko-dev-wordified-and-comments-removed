@@ -378,6 +378,9 @@ aResult
 MainThreadWorkerRunnable
 (
 aWorkerPrivate
+"
+ContinueConsumeBodyRunnable
+"
 )
 mBodyConsumer
 (
@@ -671,6 +674,9 @@ aBlobImpl
 MainThreadWorkerRunnable
 (
 aWorkerPrivate
+"
+ContinueConsumeBlobBodyRunnable
+"
 )
 mBodyConsumer
 (

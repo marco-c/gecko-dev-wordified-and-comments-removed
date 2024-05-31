@@ -4055,6 +4055,9 @@ aResponse
 MainThreadWorkerRunnable
 (
 aWorkerPrivate
+"
+WorkerFetchResponseRunnable
+"
 )
 mResolver
 (
@@ -4326,6 +4329,9 @@ aResolver
 MainThreadWorkerRunnable
 (
 aWorkerPrivate
+"
+WorkerDataAvailableRunnable
+"
 )
 mResolver
 (
@@ -4494,6 +4500,9 @@ aReason
 MainThreadWorkerRunnable
 (
 aWorkerPrivate
+"
+WorkerFetchResponseEndRunnable
+"
 )
 WorkerFetchResponseEndBase
 (

@@ -91,6 +91,9 @@ aJSON
 MainThreadWorkerRunnable
 (
 aWorkerPrivate
+"
+WorkerCSPEventRunnable
+"
 )
 mJSON
 (
