@@ -188,14 +188,23 @@ iframe
 =
 self
 .
-_driver
+_wait
 .
-find_element
+until
+(
+                
+EC
+.
+visibility_of_element_located
+(
 (
 By
 .
 CSS_SELECTOR
 iframe_selector
+)
+)
+            
 )
             
 self
