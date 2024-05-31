@@ -801,6 +801,12 @@ mGlobalObject
 ;
 }
 bool
+HasFetchingModules
+(
+)
+const
+;
+bool
 HasPendingDynamicImports
 (
 )
