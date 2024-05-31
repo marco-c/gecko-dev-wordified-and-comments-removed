@@ -412,7 +412,7 @@ param
 {
 object
 }
-payload
+_payload
 *
 The
 event
@@ -436,6 +436,7 @@ payload
 interceptEvent
 (
 name
+_payload
 )
 {
 throw

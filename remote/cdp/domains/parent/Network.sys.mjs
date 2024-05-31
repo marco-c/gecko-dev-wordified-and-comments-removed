@@ -1000,13 +1000,6 @@ field
 .
 *
 *
-param
-{
-object
-}
-options
-*
-*
 returns
 {
 Array
