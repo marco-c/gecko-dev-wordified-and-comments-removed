@@ -2137,11 +2137,6 @@ success
 Boolean
 )
 {
-if
-(
-success
-)
-{
 notifyObservers
 {
 onProgress
@@ -2152,7 +2147,6 @@ onLoadingStateChange
 (
 false
 )
-}
 }
 }
 override
