@@ -148,9 +148,7 @@ domain
 method
 :
 "
-data
--
-attribute
+dataAttribute
 "
 options
 :
