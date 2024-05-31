@@ -635,6 +635,17 @@ aProxy
 =
 0
 ;
+virtual
+bool
+IsExternalEngineStateMachine
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 virtual
