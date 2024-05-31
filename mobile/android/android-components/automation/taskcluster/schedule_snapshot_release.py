@@ -337,7 +337,7 @@ html_url
 params
 [
 '
-repository_github_html_url
+html_url
 '
 ]
             
@@ -493,7 +493,7 @@ v1
 }
 )
     
-repository_github_html_url
+html_url
 branch
 head_rev
 =
@@ -507,10 +507,10 @@ params
 {
         
 '
-repository_github_html_url
+html_url
 '
 :
-repository_github_html_url
+html_url
         
 '
 head_rev
