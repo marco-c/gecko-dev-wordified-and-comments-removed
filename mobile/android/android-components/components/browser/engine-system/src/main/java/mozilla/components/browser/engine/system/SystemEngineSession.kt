@@ -1155,8 +1155,6 @@ fun
 initSettings
 (
 )
-:
-Settings
 {
 webView
 .
@@ -1237,7 +1235,6 @@ webSettings
 builtInZoomControls
 =
 true
-return
 initSettings
 (
 webView
@@ -1324,8 +1321,6 @@ s
 :
 WebSettings
 )
-:
-Settings
 {
 internalSettings
 =
@@ -1749,8 +1744,6 @@ it
 supportMultipleWindows
 }
 }
-return
-internalSettings
 }
 /
 *

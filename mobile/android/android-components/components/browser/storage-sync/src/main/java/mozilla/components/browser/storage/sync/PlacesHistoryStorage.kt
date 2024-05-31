@@ -672,12 +672,12 @@ it
 url
 }
 )
+return
 resultText
 ?
 .
 let
 {
-return
 HistoryAutocompleteResult
 (
 it

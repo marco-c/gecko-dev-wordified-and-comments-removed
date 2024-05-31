@@ -424,6 +424,7 @@ parse
 (
 rawUrl
 )
+return
 url
 .
 host
@@ -444,7 +445,6 @@ query
 )
 )
 {
-return
 host
 +
 url
@@ -459,6 +459,8 @@ orEmpty
 (
 )
 }
+else
+{
 val
 strippedHost
 =
@@ -467,7 +469,6 @@ host
 noCommonSubdomains
 (
 )
-return
 if
 (
 strippedHost
@@ -507,6 +508,7 @@ orEmpty
 url
 .
 path
+}
 }
 }
 }
