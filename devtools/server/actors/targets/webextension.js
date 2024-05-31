@@ -412,16 +412,6 @@ extensionWindow
 docShell
 )
 ;
-this
-.
-threadActor
-.
-attach
-(
-{
-}
-)
-;
 }
 get
 docShells

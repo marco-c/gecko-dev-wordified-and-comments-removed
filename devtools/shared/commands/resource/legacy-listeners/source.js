@@ -97,15 +97,6 @@ thread
 "
 )
 ;
-await
-threadFront
-.
-attach
-(
-{
-}
-)
-;
 const
 sourcesActorIDCache
 =

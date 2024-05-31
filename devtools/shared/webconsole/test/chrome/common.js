@@ -365,6 +365,13 @@ morphWorkerDescriptorIntoWorkerTarget
 ;
 }
 }
+await
+target
+.
+attachThread
+(
+)
+;
 const
 webConsoleFront
 =

@@ -176,14 +176,6 @@ onAvailable
 ;
 threadActor
 .
-attach
-(
-{
-}
-)
-;
-threadActor
-.
 disableNewSourceEvents
 (
 )

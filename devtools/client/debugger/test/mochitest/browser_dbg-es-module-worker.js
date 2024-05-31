@@ -276,8 +276,7 @@ correct
 const
 source
 =
-await
-waitForSource
+findSource
 (
 dbg
 "
