@@ -3726,13 +3726,6 @@ const
 int32_t
 &
 aWhichClipboard
-const
-MaybeDiscarded
-<
-WindowContext
->
-&
-aRequestingWindowContext
 IPCTransferableData
 *
 aTransferableData

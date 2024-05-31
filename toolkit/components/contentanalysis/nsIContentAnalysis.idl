@@ -5,9 +5,6 @@ nsISupports
 .
 idl
 "
-interface
-nsIURI
-;
 webidl
 WindowGlobalParent
 ;
@@ -321,7 +318,7 @@ filePath
 ;
 readonly
 attribute
-nsIURI
+AString
 url
 ;
 readonly
@@ -446,7 +443,7 @@ nsISupports
 {
 readonly
 attribute
-boolean
+bool
 isActive
 ;
 readonly
