@@ -2661,15 +2661,10 @@ keys
 URL_MATCHER
 ?
 .
-let
-{
-it
-.
 setCategoriesEnabled
 (
 categories
 )
-}
 ?
 :
 run

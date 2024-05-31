@@ -71,7 +71,7 @@ coroutines
 .
 experimental
 .
-CoroutineScope
+async
 import
 kotlinx
 .
@@ -79,7 +79,7 @@ coroutines
 .
 experimental
 .
-Deferred
+CoroutineScope
 import
 kotlinx
 .
@@ -95,7 +95,7 @@ coroutines
 .
 experimental
 .
-Job
+Deferred
 import
 kotlinx
 .
@@ -103,7 +103,7 @@ coroutines
 .
 experimental
 .
-async
+Job
 import
 kotlinx
 .
@@ -477,6 +477,8 @@ Profile
 >
 {
 return
+scope
+.
 async
 {
 val
