@@ -133,6 +133,11 @@ StorageEngine
 mapOf
 (
 "
+counter
+"
+to
+CountersStorageEngine
+"
 events
 "
 to

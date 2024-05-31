@@ -218,6 +218,7 @@ StringsStorageEngine
 StringsStorageEngineImplementation
 (
 )
+internal
 open
 class
 StringsStorageEngineImplementation
