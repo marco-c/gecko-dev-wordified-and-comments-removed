@@ -993,7 +993,9 @@ dyldImageLoadAddress_
 ptrdiff_t
 dyldSlide_
 ;
-string
+const
+char
+*
 dyldPath_
 ;
 breakpad_ucontext_t
