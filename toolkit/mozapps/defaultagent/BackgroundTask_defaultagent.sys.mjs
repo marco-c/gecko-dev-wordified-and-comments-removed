@@ -401,9 +401,9 @@ Currently
 12
 hours
 +
-10
+5
 additional
-seconds
+minutes
 .
 export
 const
@@ -415,7 +415,9 @@ backgroundTaskTimeoutSec
 *
 60
 +
-10
+60
+*
+5
 ;
 const
 kNotificationTimeoutMs
