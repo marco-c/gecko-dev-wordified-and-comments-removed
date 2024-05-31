@@ -183,6 +183,16 @@ testImplementation
 Deps
 .
 testing_mockito
+testImplementation
+project
+(
+'
+:
+support
+-
+test
+'
+)
 }
 archivesBaseName
 =
