@@ -159,7 +159,7 @@ harness_result
 =
 test
 .
-result_cls
+make_result
 (
 status
 result

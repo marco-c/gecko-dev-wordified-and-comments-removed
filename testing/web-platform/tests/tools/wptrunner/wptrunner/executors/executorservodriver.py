@@ -1124,7 +1124,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 *
 data
@@ -1477,7 +1477,7 @@ OSError
 return
 test
 .
-result_cls
+make_result
 (
 "
 CRASH
@@ -1494,7 +1494,7 @@ TimeoutError
 return
 test
 .
-result_cls
+make_result
 (
 "
 TIMEOUT
@@ -1546,7 +1546,7 @@ format_exc
 return
 test
 .
-result_cls
+make_result
 (
 "
 INTERNAL

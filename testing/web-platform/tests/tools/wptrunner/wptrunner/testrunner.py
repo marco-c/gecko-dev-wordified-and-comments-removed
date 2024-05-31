@@ -4533,21 +4533,21 @@ test
 (
 test
 .
-result_cls
+make_result
 (
 "
 EXTERNAL
 -
 TIMEOUT
 "
-                             
+                              
 "
 TestRunner
 hit
 external
 timeout
 "
-                             
+                              
 "
 (
 this
@@ -4707,25 +4707,15 @@ continue
             
 expected
 =
-test
-.
-expected
-(
 result
 .
-name
-)
+expected
             
 known_intermittent
 =
-test
-.
-known_intermittent
-(
 result
 .
-name
-)
+known_intermittent
             
 is_unexpected
 =
@@ -4936,19 +4926,15 @@ subsuite
         
 expected
 =
-test
+file_result
 .
 expected
-(
-)
         
 known_intermittent
 =
-test
+file_result
 .
 known_intermittent
-(
-)
         
 status
 =
