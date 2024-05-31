@@ -167,7 +167,7 @@ Float
 :
 Bitmap
 ?
-{
+=
 try
 {
 val
@@ -177,7 +177,6 @@ decodeBitmap
 (
 data
 )
-return
 when
 {
 bitmap
@@ -317,9 +316,7 @@ e
 OutOfMemoryError
 )
 {
-return
 null
-}
 }
 VisibleForTesting
 (

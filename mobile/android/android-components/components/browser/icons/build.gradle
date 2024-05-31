@@ -232,6 +232,10 @@ androidx_annotation
 implementation
 Dependencies
 .
+androidx_palette
+implementation
+Dependencies
+.
 thirdparty_disklrucache
 testImplementation
 project
