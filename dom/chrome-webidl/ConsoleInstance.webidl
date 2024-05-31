@@ -1160,7 +1160,7 @@ t
 specified
 )
 .
-DOMString
+UTF8String
 maxLogLevelPref
 =
 "
