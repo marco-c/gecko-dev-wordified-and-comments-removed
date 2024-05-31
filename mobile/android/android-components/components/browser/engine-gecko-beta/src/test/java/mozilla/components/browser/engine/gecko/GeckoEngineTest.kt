@@ -244,7 +244,7 @@ java
 )
 Test
 fun
-testCreateView
+createView
 (
 )
 {
@@ -270,7 +270,7 @@ GeckoEngineView
 }
 Test
 fun
-testCreateSession
+createSession
 (
 )
 {
@@ -293,7 +293,7 @@ GeckoEngineSession
 }
 Test
 fun
-testName
+name
 (
 )
 {
@@ -317,7 +317,7 @@ name
 }
 Test
 fun
-testSettings
+settings
 (
 )
 {
@@ -563,7 +563,7 @@ UnsupportedSettingException
 }
 Test
 fun
-testDefaultSettings
+defaultSettings
 (
 )
 {

@@ -222,7 +222,7 @@ apply
 }
 Test
 fun
-testDomainCreation
+domainCreation
 (
 )
 {
@@ -327,7 +327,7 @@ com
 }
 Test
 fun
-testDomainCanCreateUrl
+domainCanCreateUrl
 (
 )
 {
@@ -406,7 +406,7 @@ IllegalStateException
 class
 )
 fun
-testDomainCreationWithBadURLThrowsException
+domainCreationWithBadURLThrowsException
 (
 )
 {
@@ -426,7 +426,7 @@ www
 }
 Test
 fun
-testAutocompletionWithShippedDomains
+autocompletionWithShippedDomains
 (
 )
 {
@@ -707,7 +707,7 @@ yahoo
 }
 Test
 fun
-testAutocompletionWithCustomDomains
+autocompletionWithCustomDomains
 (
 )
 {
@@ -1040,7 +1040,7 @@ org
 }
 Test
 fun
-testAutocompletionWithoutDomains
+autocompletionWithoutDomains
 (
 )
 {

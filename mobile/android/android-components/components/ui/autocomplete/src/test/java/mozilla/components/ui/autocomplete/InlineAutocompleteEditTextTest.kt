@@ -287,7 +287,7 @@ java
 )
 Test
 fun
-testAutoCompleteResult
+autoCompleteResult
 (
 )
 {
@@ -395,7 +395,7 @@ formattedText
 }
 Test
 fun
-testGetNonAutocompleteText
+getNonAutocompleteText
 (
 )
 {
@@ -465,7 +465,7 @@ nonAutocompleteText
 }
 Test
 fun
-testGetOriginalText
+getOriginalText
 (
 )
 {
@@ -537,7 +537,7 @@ originalText
 }
 Test
 fun
-testOnFocusChange
+onFocusChange
 (
 )
 {
@@ -677,7 +677,7 @@ searchStates
 }
 Test
 fun
-testSendAccessibilityEventUnchecked
+sendAccessibilityEventUnchecked
 (
 )
 {
@@ -776,7 +776,7 @@ event
 }
 Test
 fun
-testOnAutocompleteSetsEmptyResult
+onAutocompleteSetsEmptyResult
 (
 )
 {
@@ -863,7 +863,7 @@ autocompleteResult
 }
 Test
 fun
-testOnAutocompleteDiscardsStaleResult
+onAutocompleteDiscardsStaleResult
 (
 )
 {
@@ -969,7 +969,7 @@ toString
 }
 Test
 fun
-testOnAutocompleteReplacesExistingAutocompleteText
+onAutocompleteReplacesExistingAutocompleteText
 (
 )
 {
@@ -1047,7 +1047,7 @@ toString
 }
 Test
 fun
-testOnAutocompleteAppendsExistingText
+onAutocompleteAppendsExistingText
 (
 )
 {
@@ -1114,7 +1114,7 @@ toString
 }
 Test
 fun
-testOnAutocompleteSetsSpan
+onAutocompleteSetsSpan
 (
 )
 {
@@ -1205,7 +1205,7 @@ AUTOCOMPLETE_SPAN
 }
 Test
 fun
-testOnKeyPreImeListenerInvocation
+onKeyPreImeListenerInvocation
 (
 )
 {
@@ -1278,7 +1278,7 @@ invokedWithParams
 }
 Test
 fun
-testOnSelectionChangedListenerInvocation
+onSelectionChangedListenerInvocation
 (
 )
 {
@@ -1335,7 +1335,7 @@ invokedWithParams
 }
 Test
 fun
-testOnSelectionChangedCommitsResult
+onSelectionChangedCommitsResult
 (
 )
 {
@@ -1411,7 +1411,7 @@ AUTOCOMPLETE_SPAN
 }
 Test
 fun
-testOnWindowFocusChangedListenerInvocation
+onWindowFocusChangedListenerInvocation
 (
 )
 {
@@ -1464,7 +1464,7 @@ invokedWithParams
 }
 Test
 fun
-testOnCommitListenerInvocation
+onCommitListenerInvocation
 (
 )
 {
@@ -1516,7 +1516,7 @@ invoked
 }
 Test
 fun
-testOnTextChangeListenerInvocation
+onTextChangeListenerInvocation
 (
 )
 {
@@ -1583,7 +1583,7 @@ invokedWithParams
 }
 Test
 fun
-testOnSearchStateChangeListenerInvocation
+onSearchStateChangeListenerInvocation
 (
 )
 {
@@ -1658,7 +1658,7 @@ invokedWithParams
 }
 Test
 fun
-testOnFilterListenerInvocation
+onFilterListenerInvocation
 (
 )
 {
@@ -1825,7 +1825,7 @@ invokedWithParams
 }
 Test
 fun
-testOnCreateInputConnection
+onCreateInputConnection
 (
 )
 {
@@ -2085,7 +2085,7 @@ toString
 }
 Test
 fun
-testRemoveAutocompleteOnComposing
+removeAutocompleteOnComposing
 (
 )
 {

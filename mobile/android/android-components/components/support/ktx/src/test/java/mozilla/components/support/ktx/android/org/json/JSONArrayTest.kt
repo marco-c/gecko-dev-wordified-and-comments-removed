@@ -124,7 +124,7 @@ JSONArrayTest
 {
 Test
 fun
-testItCanBeIterated
+itCanBeIterated
 (
 )
 {
@@ -168,7 +168,7 @@ sum
 }
 Test
 fun
-testToListNull
+toListNull
 (
 )
 {
@@ -200,7 +200,7 @@ size
 }
 Test
 fun
-testToListEmpty
+toListEmpty
 (
 )
 {
@@ -231,7 +231,7 @@ size
 }
 Test
 fun
-testToListNotEmpty
+toListNotEmpty
 (
 )
 {

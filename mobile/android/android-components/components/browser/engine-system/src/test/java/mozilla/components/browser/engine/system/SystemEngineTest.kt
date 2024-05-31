@@ -211,7 +211,7 @@ string
 }
 Test
 fun
-testCreateView
+createView
 (
 )
 {
@@ -236,7 +236,7 @@ SystemEngineView
 }
 Test
 fun
-testCreateSession
+createSession
 (
 )
 {
@@ -291,7 +291,7 @@ UnsupportedOperationException
 }
 Test
 fun
-testName
+name
 (
 )
 {
@@ -316,7 +316,7 @@ name
 }
 Test
 fun
-testSettings
+settings
 (
 )
 {

@@ -424,7 +424,7 @@ engineSession
 }
 Test
 fun
-testProcessWithDefaultHandlers
+processWithDefaultHandlers
 (
 )
 {
@@ -632,7 +632,7 @@ source
 }
 Test
 fun
-testProcessWithDefaultHandlersUsingSelectedSession
+processWithDefaultHandlersUsingSelectedSession
 (
 )
 {
@@ -717,7 +717,7 @@ org
 }
 Test
 fun
-testProcessWithDefaultHandlersHavingNoSelectedSession
+processWithDefaultHandlersHavingNoSelectedSession
 (
 )
 {
@@ -829,7 +829,7 @@ org
 }
 Test
 fun
-testProcessWithoutDefaultHandlers
+processWithoutDefaultHandlers
 (
 )
 {
@@ -902,7 +902,7 @@ engineSession
 }
 Test
 fun
-testProcessWithCustomHandlers
+processWithCustomHandlers
 (
 )
 {
@@ -998,7 +998,7 @@ handlerInvoked
 }
 Test
 fun
-testProcessCustomTabIntentWithDefaultHandlers
+processCustomTabIntentWithDefaultHandlers
 (
 )
 {

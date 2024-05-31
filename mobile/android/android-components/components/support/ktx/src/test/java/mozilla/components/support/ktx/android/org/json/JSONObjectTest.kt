@@ -72,7 +72,7 @@ JSONObjectTest
 {
 Test
 fun
-testSortKeys
+sortKeys
 (
 )
 {
@@ -264,7 +264,7 @@ toString
 }
 Test
 fun
-testPutIfNotNull
+putIfNotNull
 (
 )
 {
@@ -336,7 +336,7 @@ key
 }
 Test
 fun
-testTryGetStringNull
+tryGetStringNull
 (
 )
 {
@@ -386,7 +386,7 @@ key
 }
 Test
 fun
-testTryGetStringNotNull
+tryGetStringNotNull
 (
 )
 {
@@ -428,7 +428,7 @@ key
 }
 Test
 fun
-testTryGetLongNull
+tryGetLongNull
 (
 )
 {
@@ -478,7 +478,7 @@ key
 }
 Test
 fun
-testTryGetLongNotNull
+tryGetLongNotNull
 (
 )
 {
@@ -516,7 +516,7 @@ key
 }
 Test
 fun
-testTryGetIntNull
+tryGetIntNull
 (
 )
 {
@@ -566,7 +566,7 @@ key
 }
 Test
 fun
-testTryGetIntNotNull
+tryGetIntNotNull
 (
 )
 {

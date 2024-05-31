@@ -124,7 +124,7 @@ TrieTest
 {
 Test
 fun
-testFindNode
+findNode
 (
 )
 {

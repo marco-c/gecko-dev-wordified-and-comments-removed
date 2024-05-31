@@ -151,7 +151,7 @@ SettingsTest
 {
 Test
 fun
-testSettingsThrowByDefault
+settingsThrowByDefault
 (
 )
 {
@@ -410,7 +410,7 @@ block
 }
 Test
 fun
-testDefaultSettings
+defaultSettings
 (
 )
 {

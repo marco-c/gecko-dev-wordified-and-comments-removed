@@ -369,7 +369,7 @@ unlimited
 }
 Test
 fun
-testWorkingWithLabel
+workingWithLabel
 (
 )
 {
@@ -427,7 +427,7 @@ available
 }
 Test
 fun
-testCreateEncryptCipher
+createEncryptCipher
 (
 )
 {
@@ -547,7 +547,7 @@ iv
 }
 Test
 fun
-testCreateDecryptCipher
+createDecryptCipher
 (
 )
 {
@@ -694,7 +694,7 @@ errors
 )
 Test
 fun
-testCryptoRoundTrip
+cryptoRoundTrip
 (
 )
 {

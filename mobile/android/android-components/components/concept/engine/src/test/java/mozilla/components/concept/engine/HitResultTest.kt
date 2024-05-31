@@ -33,7 +33,7 @@ HitResultTest
 {
 Test
 fun
-testConstructor
+constructor
 (
 )
 {

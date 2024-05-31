@@ -102,7 +102,7 @@ StringIndexOutOfBoundsException
 class
 )
 fun
-testOutOfBounds
+outOfBounds
 (
 )
 {
@@ -145,7 +145,7 @@ StringIndexOutOfBoundsException
 class
 )
 fun
-testOutOfBoundsAfterSubstring
+outOfBoundsAfterSubstring
 (
 )
 {
@@ -197,7 +197,7 @@ StringIndexOutOfBoundsException
 class
 )
 fun
-testOutOfBoundsSubstring
+outOfBoundsSubstring
 (
 )
 {
@@ -240,7 +240,7 @@ StringIndexOutOfBoundsException
 class
 )
 fun
-testOutOfBoundsSubstringNegative
+outOfBoundsSubstringNegative
 (
 )
 {
@@ -284,7 +284,7 @@ StringIndexOutOfBoundsException
 class
 )
 fun
-testOutOfBoundsAfterSubstringEmpty
+outOfBoundsAfterSubstringEmpty
 (
 )
 {
@@ -321,7 +321,7 @@ charAt
 }
 Test
 fun
-testSubstringLength
+substringLength
 (
 )
 {
@@ -440,7 +440,7 @@ length
 }
 Test
 fun
-testForwardString
+forwardString
 (
 )
 {
@@ -569,7 +569,7 @@ i
 }
 Test
 fun
-testReverseString
+reverseString
 (
 )
 {
@@ -717,7 +717,7 @@ i
 }
 Test
 fun
-testReverseReversedString
+reverseReversedString
 (
 )
 {

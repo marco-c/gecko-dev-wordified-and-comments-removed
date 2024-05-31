@@ -348,7 +348,7 @@ ExperimentsSerializerTest
 {
 Test
 fun
-testFromJsonValid
+fromJsonValid
 (
 )
 {
@@ -720,7 +720,7 @@ JSONException
 class
 )
 fun
-testFromJsonEmptyString
+fromJsonEmptyString
 (
 )
 {
@@ -736,7 +736,7 @@ fromJson
 }
 Test
 fun
-testFromJsonEmptyArray
+fromJsonEmptyArray
 (
 )
 {
@@ -786,7 +786,7 @@ lastModified
 }
 Test
 fun
-testToJsonValid
+toJsonValid
 (
 )
 {
@@ -1330,7 +1330,7 @@ last_modified
 }
 Test
 fun
-testToJsonEmptyList
+toJsonEmptyList
 (
 )
 {

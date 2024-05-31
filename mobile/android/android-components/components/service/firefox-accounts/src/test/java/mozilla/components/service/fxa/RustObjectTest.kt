@@ -249,7 +249,7 @@ NullPointerException
 class
 )
 fun
-testValidPointerThrowsIfNull
+validPointerThrowsIfNull
 (
 )
 {
@@ -268,7 +268,7 @@ validPointer
 }
 Test
 fun
-testConsumePointer
+consumePointer
 (
 )
 {
@@ -301,7 +301,7 @@ isConsumed
 }
 Test
 fun
-testCloseConsumesAndDestroys
+closeConsumesAndDestroys
 (
 )
 {
@@ -346,7 +346,7 @@ destroyed
 }
 Test
 fun
-testGetAndConsumeString
+getAndConsumeString
 (
 )
 {
@@ -402,7 +402,7 @@ strPointer
 }
 Test
 fun
-testSafeAsync
+safeAsync
 (
 )
 {
@@ -554,7 +554,7 @@ complete
 }
 Test
 fun
-testSafeSync
+safeSync
 (
 )
 {

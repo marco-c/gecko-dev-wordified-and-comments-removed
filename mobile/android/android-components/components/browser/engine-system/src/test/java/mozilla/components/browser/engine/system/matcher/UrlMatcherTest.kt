@@ -192,7 +192,7 @@ UrlMatcherTest
 {
 Test
 fun
-testBasicMatching
+basicMatching
 (
 )
 {
@@ -714,7 +714,7 @@ blocked
 /
 Test
 fun
-testEnableDisableCategories
+enableDisableCategories
 (
 )
 {
@@ -1615,7 +1615,7 @@ de
 "
 Test
 fun
-testCreateMatcher
+createMatcher
 (
 )
 {
@@ -1984,7 +1984,7 @@ com
 }
 Test
 fun
-testIsWebFont
+isWebFont
 (
 )
 {
@@ -2131,7 +2131,7 @@ otf
 }
 Test
 fun
-testSetCategoriesEnabled
+setCategoriesEnabled
 (
 )
 {

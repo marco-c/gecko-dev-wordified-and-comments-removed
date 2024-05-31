@@ -110,7 +110,7 @@ ColorUtilsTest
 {
 Test
 fun
-testGetReadableTextColor
+getReadableTextColor
 (
 )
 {

@@ -202,7 +202,7 @@ com
 /
 Test
 fun
-testWhiteList
+whiteList
 (
 )
 {
@@ -711,7 +711,7 @@ bla
 }
 Test
 fun
-testWhiteListTrie
+whiteListTrie
 (
 )
 {
@@ -913,7 +913,7 @@ de
 "
 Test
 fun
-testFromJson
+fromJson
 (
 )
 {

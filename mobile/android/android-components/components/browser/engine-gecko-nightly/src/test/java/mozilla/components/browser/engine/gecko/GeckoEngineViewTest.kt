@@ -152,7 +152,7 @@ GeckoEngineViewTest
 {
 Test
 fun
-testRender
+render
 (
 )
 {

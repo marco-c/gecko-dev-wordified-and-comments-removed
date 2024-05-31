@@ -35,7 +35,7 @@ ScheduledLoadTest
 {
 Test
 fun
-testConstructorNullability
+constructorNullability
 (
 )
 {

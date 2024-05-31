@@ -204,7 +204,7 @@ ExperimentDownloadException
 class
 )
 fun
-testGETIOException
+gETIOException
 (
 )
 {
@@ -288,7 +288,7 @@ ExperimentDownloadException
 class
 )
 fun
-testNonHTTPURL
+nonHTTPURL
 (
 )
 {
@@ -322,7 +322,7 @@ ExperimentDownloadException
 class
 )
 fun
-testOpenConnectionException
+openConnectionException
 (
 )
 {
@@ -372,7 +372,7 @@ ExperimentDownloadException
 class
 )
 fun
-testGET404
+get404
 (
 )
 {
@@ -391,7 +391,7 @@ ExperimentDownloadException
 class
 )
 fun
-testGET500
+get500
 (
 )
 {
@@ -410,7 +410,7 @@ ExperimentDownloadException
 class
 )
 fun
-testGET199
+get199
 (
 )
 {
@@ -429,7 +429,7 @@ ExperimentDownloadException
 class
 )
 fun
-testGET300
+get300
 (
 )
 {
@@ -440,7 +440,7 @@ testGETResponseCode
 }
 Test
 fun
-testGET299
+get299
 (
 )
 {
@@ -453,7 +453,7 @@ responseCode
 }
 Test
 fun
-testGETWithoutHeaders
+getWithoutHeaders
 (
 )
 {
@@ -463,7 +463,7 @@ testGET
 }
 Test
 fun
-testGETWithHeaders
+getWithHeaders
 (
 )
 {
@@ -555,7 +555,7 @@ ExperimentDownloadException
 class
 )
 fun
-testArrayIndexOutOfBoundsException
+arrayIndexOutOfBoundsException
 (
 )
 {

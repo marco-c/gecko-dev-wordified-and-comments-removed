@@ -122,7 +122,7 @@ StringTest
 {
 Test
 fun
-testToNormalizedUrl
+toNormalizedUrl
 (
 )
 {
@@ -188,7 +188,7 @@ toNormalizedUrl
 }
 Test
 fun
-testIsUrl
+isUrl
 (
 )
 {
@@ -313,7 +313,7 @@ isUrl
 }
 Test
 fun
-testIsPhone
+isPhone
 (
 )
 {
@@ -398,7 +398,7 @@ isPhone
 }
 Test
 fun
-testIsEmail
+isEmail
 (
 )
 {
@@ -480,7 +480,7 @@ isEmail
 }
 Test
 fun
-testGeoLocation
+geoLocation
 (
 )
 {

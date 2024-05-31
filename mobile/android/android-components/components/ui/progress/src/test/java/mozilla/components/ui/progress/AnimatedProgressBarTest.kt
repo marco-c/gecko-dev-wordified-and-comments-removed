@@ -140,7 +140,7 @@ AnimatedProgressBarTest
 {
 Test
 fun
-testSetProgress
+setProgress
 (
 )
 {
@@ -205,7 +205,7 @@ progress
 }
 Test
 fun
-testSetVisibility
+setVisibility
 (
 )
 {

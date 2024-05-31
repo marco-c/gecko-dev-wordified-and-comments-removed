@@ -210,7 +210,7 @@ ExperimentEvaluatorTest
 {
 Test
 fun
-testEvaluateEmtpyMatchers
+evaluateEmtpyMatchers
 (
 )
 {
@@ -430,7 +430,7 @@ experiment
 }
 Test
 fun
-testEvaluateBuckets
+evaluateBuckets
 (
 )
 {
@@ -772,7 +772,7 @@ experiment
 }
 Test
 fun
-testEvaluateAppId
+evaluateAppId
 (
 )
 {
@@ -1046,7 +1046,7 @@ experiment
 }
 Test
 fun
-testEvaluateLanguage
+evaluateLanguage
 (
 )
 {
@@ -1366,7 +1366,7 @@ experiment
 }
 Test
 fun
-testEvaluateCountry
+evaluateCountry
 (
 )
 {
@@ -1686,7 +1686,7 @@ experiment
 }
 Test
 fun
-testEvaluateVersion
+evaluateVersion
 (
 )
 {
@@ -1957,7 +1957,7 @@ experiment
 }
 Test
 fun
-testEvaluateDevice
+evaluateDevice
 (
 )
 {
@@ -2277,7 +2277,7 @@ experiment
 }
 Test
 fun
-testEvaluateReleaseChannel
+evaluateReleaseChannel
 (
 )
 {
@@ -2595,7 +2595,7 @@ experiment
 }
 Test
 fun
-testEvaluateManufacturer
+evaluateManufacturer
 (
 )
 {
@@ -2915,7 +2915,7 @@ experiment
 }
 Test
 fun
-testEvaluateRegion
+evaluateRegion
 (
 )
 {
@@ -3230,7 +3230,7 @@ experiment
 }
 Test
 fun
-testEvaluateActivateOverride
+evaluateActivateOverride
 (
 )
 {
@@ -3408,7 +3408,7 @@ experiment
 }
 Test
 fun
-testEvaluateDeactivateOverride
+evaluateDeactivateOverride
 (
 )
 {
@@ -3584,7 +3584,7 @@ experiment
 }
 Test
 fun
-testEvaluateNoExperimentSameAsDescriptor
+evaluateNoExperimentSameAsDescriptor
 (
 )
 {
@@ -3643,7 +3643,7 @@ savedExperiment
 }
 Test
 fun
-testSetOverrideActivate
+setOverrideActivate
 (
 )
 {
@@ -3777,7 +3777,7 @@ true
 }
 Test
 fun
-testSetOverrideDeactivate
+setOverrideDeactivate
 (
 )
 {
@@ -3922,7 +3922,7 @@ false
 }
 Test
 fun
-testClearOverride
+clearOverride
 (
 )
 {
@@ -4051,7 +4051,7 @@ name
 }
 Test
 fun
-testClearAllOverrides
+clearAllOverrides
 (
 )
 {
@@ -4164,7 +4164,7 @@ clear
 }
 Test
 fun
-testOverridingClientId
+overridingClientId
 (
 )
 {

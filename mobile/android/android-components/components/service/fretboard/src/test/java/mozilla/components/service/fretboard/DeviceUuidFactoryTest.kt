@@ -178,7 +178,7 @@ DeviceUuidFactoryTest
 {
 Test
 fun
-testUuidNoPreference
+uuidNoPreference
 (
 )
 {
@@ -319,7 +319,7 @@ uuid
 }
 Test
 fun
-testUuidSavedInPreferences
+uuidSavedInPreferences
 (
 )
 {

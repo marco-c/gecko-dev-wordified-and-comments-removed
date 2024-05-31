@@ -352,7 +352,7 @@ SystemEngineSessionTest
 {
 Test
 fun
-testWebChromeClientNotifiesObservers
+webChromeClientNotifiesObservers
 (
 )
 {
@@ -427,7 +427,7 @@ observedProgress
 }
 Test
 fun
-testLoadUrl
+loadUrl
 (
 )
 {
@@ -633,7 +633,7 @@ With
 }
 Test
 fun
-testLoadData
+loadData
 (
 )
 {
@@ -893,7 +893,7 @@ base64
 }
 Test
 fun
-testStopLoading
+stopLoading
 (
 )
 {
@@ -963,7 +963,7 @@ stopLoading
 }
 Test
 fun
-testReload
+reload
 (
 )
 {
@@ -1033,7 +1033,7 @@ reload
 }
 Test
 fun
-testGoBack
+goBack
 (
 )
 {
@@ -1103,7 +1103,7 @@ goBack
 }
 Test
 fun
-testGoForward
+goForward
 (
 )
 {
@@ -1173,7 +1173,7 @@ goForward
 }
 Test
 fun
-testSaveState
+saveState
 (
 )
 {
@@ -1261,7 +1261,7 @@ java
 }
 Test
 fun
-testRestoreState
+restoreState
 (
 )
 {
@@ -1355,7 +1355,7 @@ java
 }
 Test
 fun
-testEnableTrackingProtection
+enableTrackingProtection
 (
 )
 {
@@ -1490,7 +1490,7 @@ Boolean
 }
 Test
 fun
-testDisableTrackingProtection
+disableTrackingProtection
 (
 )
 {
@@ -1570,7 +1570,7 @@ Boolean
 }
 Test
 fun
-testSettings
+settings
 (
 )
 {
@@ -1711,7 +1711,7 @@ settings
 }
 Test
 fun
-testInitSettings
+initSettings
 (
 )
 {
@@ -2321,7 +2321,7 @@ true
 }
 Test
 fun
-testDefaultSettings
+defaultSettings
 (
 )
 {
@@ -2524,7 +2524,7 @@ webFontsEnabled
 }
 Test
 fun
-testSharedFieldsAreVolatile
+sharedFieldsAreVolatile
 (
 )
 {
@@ -2612,7 +2612,7 @@ modifiers
 }
 Test
 fun
-testSettingRequestInterceptor
+settingRequestInterceptor
 (
 )
 {
@@ -2822,7 +2822,7 @@ encoding
 }
 Test
 fun
-testOnLoadRequestWithoutInterceptor
+onLoadRequestWithoutInterceptor
 (
 )
 {
@@ -2915,7 +2915,7 @@ response
 }
 Test
 fun
-testOnLoadRequestWithInterceptorThatDoesNotIntercept
+onLoadRequestWithInterceptorThatDoesNotIntercept
 (
 )
 {
@@ -3058,7 +3058,7 @@ response
 }
 Test
 fun
-testWebViewErrorMappingToErrorType
+webViewErrorMappingToErrorType
 (
 )
 {
@@ -3240,7 +3240,7 @@ webViewErrorToErrorType
 }
 Test
 fun
-testDesktopMode
+desktopMode
 (
 )
 {
@@ -3421,7 +3421,7 @@ reload
 }
 Test
 fun
-testDesktopModeUA
+desktopModeUA
 (
 )
 {
@@ -3513,7 +3513,7 @@ userAgentDesktop
 }
 Test
 fun
-testFindAll
+findAll
 (
 )
 {
@@ -3634,7 +3634,7 @@ findObserved
 }
 Test
 fun
-testFindNext
+findNext
 (
 )
 {
@@ -3716,7 +3716,7 @@ true
 }
 Test
 fun
-testClearFindMatches
+clearFindMatches
 (
 )
 {
@@ -3786,7 +3786,7 @@ clearMatches
 }
 Test
 fun
-testClearDataMakingExpectedCalls
+clearDataMakingExpectedCalls
 (
 )
 {
@@ -4015,7 +4015,7 @@ clearHttpAuthUsernamePassword
 }
 Test
 fun
-testCaptureThumbnail
+captureThumbnail
 (
 )
 {

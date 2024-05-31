@@ -213,7 +213,7 @@ asView
 }
 Test
 fun
-testLifecycleObserver
+lifecycleObserver
 (
 )
 {

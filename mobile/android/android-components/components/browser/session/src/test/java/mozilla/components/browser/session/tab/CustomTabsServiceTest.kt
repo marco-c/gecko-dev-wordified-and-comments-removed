@@ -180,7 +180,7 @@ CustomTabsServiceTest
 {
 Test
 fun
-testCustomTabService
+customTabService
 (
 )
 {

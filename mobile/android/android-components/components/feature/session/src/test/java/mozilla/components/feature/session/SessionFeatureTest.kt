@@ -206,7 +206,7 @@ sessionManager
 )
 Test
 fun
-testStart
+start
 (
 )
 {
@@ -248,7 +248,7 @@ sessionManager
 }
 Test
 fun
-testHandleBackPressed
+handleBackPressed
 (
 )
 {
@@ -363,7 +363,7 @@ goBack
 }
 Test
 fun
-testStop
+stop
 (
 )
 {

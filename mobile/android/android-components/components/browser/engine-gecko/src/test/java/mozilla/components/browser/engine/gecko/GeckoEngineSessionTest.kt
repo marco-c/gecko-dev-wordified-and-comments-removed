@@ -442,7 +442,7 @@ GeckoEngineSessionTest
 {
 Test
 fun
-testEngineSessionInitialization
+engineSessionInitialization
 (
 )
 {
@@ -492,7 +492,7 @@ progressDelegate
 }
 Test
 fun
-testProgressDelegateNotifiesObservers
+progressDelegateNotifiesObservers
 (
 )
 {
@@ -745,7 +745,7 @@ observedSecurityChange
 }
 Test
 fun
-testNavigationDelegateNotifiesObservers
+navigationDelegateNotifiesObservers
 (
 )
 {
@@ -944,7 +944,7 @@ observedCanGoForward
 }
 Test
 fun
-testLoadUrl
+loadUrl
 (
 )
 {
@@ -1013,7 +1013,7 @@ loadUriReceived
 }
 Test
 fun
-testLoadData
+loadData
 (
 )
 {
@@ -1164,7 +1164,7 @@ loadUriReceived
 }
 Test
 fun
-testLoadDataBase64
+loadDataBase64
 (
 )
 {
@@ -1329,7 +1329,7 @@ plain
 }
 Test
 fun
-testStopLoading
+stopLoading
 (
 )
 {
@@ -1389,7 +1389,7 @@ stopLoadingReceived
 }
 Test
 fun
-testReload
+reload
 (
 )
 {
@@ -1463,7 +1463,7 @@ reloadReceived
 }
 Test
 fun
-testGoBack
+goBack
 (
 )
 {
@@ -1523,7 +1523,7 @@ eventReceived
 }
 Test
 fun
-testGoForward
+goForward
 (
 )
 {
@@ -1583,7 +1583,7 @@ eventReceived
 }
 Test
 fun
-testSaveState
+saveState
 (
 )
 {
@@ -1679,7 +1679,7 @@ saveState
 }
 Test
 fun
-testRestoreState
+restoreState
 (
 )
 {
@@ -1748,7 +1748,7 @@ eventReceived
 }
 Test
 fun
-testProgressDelegateIgnoresInitialLoadOfAboutBlank
+progressDelegateIgnoresInitialLoadOfAboutBlank
 (
 )
 {
@@ -2043,7 +2043,7 @@ observedSecurityChange
 }
 Test
 fun
-testNavigationDelegateIgnoresInitialLoadOfAboutBlank
+navigationDelegateIgnoresInitialLoadOfAboutBlank
 (
 )
 {
@@ -2250,7 +2250,7 @@ observedUrl
 }
 Test
 fun
-testTrackingProtectionDelegateNotifiesObservers
+trackingProtectionDelegateNotifiesObservers
 (
 )
 {
@@ -2325,7 +2325,7 @@ trackerBlocked
 }
 Test
 fun
-testEnableTrackingProtection
+enableTrackingProtection
 (
 )
 {
@@ -2434,7 +2434,7 @@ USE_TRACKING_PROTECTION
 }
 Test
 fun
-testDisableTrackingProtection
+disableTrackingProtection
 (
 )
 {
@@ -2533,7 +2533,7 @@ USE_TRACKING_PROTECTION
 }
 Test
 fun
-testSettingPrivateMode
+settingPrivateMode
 (
 )
 {
@@ -2616,7 +2616,7 @@ USE_PRIVATE_MODE
 }
 Test
 fun
-testUnsupportedSettings
+unsupportedSettings
 (
 )
 {
@@ -2686,7 +2686,7 @@ all
 }
 Test
 fun
-testSettingRequestInterceptor
+settingRequestInterceptor
 (
 )
 {
@@ -2835,7 +2835,7 @@ html
 }
 Test
 fun
-testOnLoadRequestWithoutInterceptor
+onLoadRequestWithoutInterceptor
 (
 )
 {
@@ -2912,7 +2912,7 @@ anyString
 }
 Test
 fun
-testOnLoadRequestWithInterceptorThatDoesNotIntercept
+onLoadRequestWithInterceptorThatDoesNotIntercept
 (
 )
 {
@@ -3041,7 +3041,7 @@ anyString
 }
 Test
 fun
-testContentDelegate
+contentDelegate
 (
 )
 {
@@ -3167,7 +3167,7 @@ observedChanged
 }
 Test
 fun
-testHandleLongClick
+handleLongClick
 (
 )
 {
@@ -3626,7 +3626,7 @@ result
 }
 Test
 fun
-testFindAll
+findAll
 (
 )
 {
@@ -3824,7 +3824,7 @@ mozilla
 }
 Test
 fun
-testFindNext
+findNext
 (
 )
 {
@@ -4016,7 +4016,7 @@ FINDER_FIND_BACKWARDS
 }
 Test
 fun
-testClearFindMatches
+clearFindMatches
 (
 )
 {
@@ -4289,7 +4289,7 @@ exitFullScreen
 }
 Test
 fun
-testClearData
+clearData
 (
 )
 {

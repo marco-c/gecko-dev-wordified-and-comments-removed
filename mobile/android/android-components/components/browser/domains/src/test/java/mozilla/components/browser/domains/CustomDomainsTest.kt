@@ -162,7 +162,7 @@ apply
 }
 Test
 fun
-testCustomListIsEmptyByDefault
+customListIsEmptyByDefault
 (
 )
 {
@@ -190,7 +190,7 @@ size
 }
 Test
 fun
-testSaveAndRemoveDomains
+saveAndRemoveDomains
 (
 )
 {
@@ -293,7 +293,7 @@ elementAt
 }
 Test
 fun
-testAddAndLoadDomains
+addAndLoadDomains
 (
 )
 {
@@ -345,7 +345,7 @@ elementAt
 }
 Test
 fun
-testSaveAndLoadDomains
+saveAndLoadDomains
 (
 )
 {

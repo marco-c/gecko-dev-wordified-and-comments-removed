@@ -108,7 +108,7 @@ DomainsTest
 {
 Test
 fun
-testLoadDomains
+loadDomains
 (
 )
 {
@@ -157,7 +157,7 @@ com
 }
 Test
 fun
-testLoadDomainsWithDefaultCountries
+loadDomainsWithDefaultCountries
 (
 )
 {

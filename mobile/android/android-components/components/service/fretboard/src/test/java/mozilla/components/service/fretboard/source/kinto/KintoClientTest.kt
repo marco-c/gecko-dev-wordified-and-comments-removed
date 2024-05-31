@@ -149,7 +149,7 @@ experiments
 "
 Test
 fun
-testGet
+get
 (
 )
 {
@@ -213,7 +213,7 @@ records
 }
 Test
 fun
-testDiff
+diff
 (
 )
 {

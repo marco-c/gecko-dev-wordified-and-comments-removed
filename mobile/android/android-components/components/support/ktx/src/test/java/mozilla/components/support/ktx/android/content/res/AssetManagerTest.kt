@@ -175,7 +175,7 @@ stream
 /
 Test
 fun
-testReadJSONObjectClosesStream
+readJSONObjectClosesStream
 (
 )
 {
@@ -346,7 +346,7 @@ instance
 /
 Test
 fun
-testStreamsIsTransformedIntoJSONObject
+streamsIsTransformedIntoJSONObject
 (
 )
 {

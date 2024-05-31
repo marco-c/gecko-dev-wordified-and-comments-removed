@@ -230,7 +230,7 @@ ExperimentDownloadException
 class
 )
 fun
-testValidSignatureOneCertificate
+validSignatureOneCertificate
 (
 )
 {
@@ -628,7 +628,7 @@ false
 }
 Test
 fun
-testValidSignatureCorrect
+validSignatureCorrect
 (
 )
 {
@@ -1507,7 +1507,7 @@ true
 }
 Test
 fun
-testValidSignatureIncorrect
+validSignatureIncorrect
 (
 )
 {
@@ -2394,7 +2394,7 @@ ExperimentDownloadException
 class
 )
 fun
-testValidSignatureInvalidChainOrder
+validSignatureInvalidChainOrder
 (
 )
 {
@@ -3283,7 +3283,7 @@ ExperimentDownloadException
 class
 )
 fun
-testValidSignatureExpiredCertificate
+validSignatureExpiredCertificate
 (
 )
 {
@@ -4208,7 +4208,7 @@ ExperimentDownloadException
 class
 )
 fun
-testValidSignatureCertificateNotYetValid
+validSignatureCertificateNotYetValid
 (
 )
 {

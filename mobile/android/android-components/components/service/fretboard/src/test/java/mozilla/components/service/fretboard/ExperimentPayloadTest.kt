@@ -120,7 +120,7 @@ ExperimentPayloadTest
 {
 Test
 fun
-testGet
+get
 (
 )
 {
@@ -172,7 +172,7 @@ other
 }
 Test
 fun
-testGetKeys
+getKeys
 (
 )
 {
@@ -256,7 +256,7 @@ key
 }
 Test
 fun
-testGetBooleanList
+getBooleanList
 (
 )
 {
@@ -310,7 +310,7 @@ ClassCastException
 class
 )
 fun
-testGetBooleanListInvalidType
+getBooleanListInvalidType
 (
 )
 {
@@ -348,7 +348,7 @@ key
 }
 Test
 fun
-testGetIntList
+getIntList
 (
 )
 {
@@ -402,7 +402,7 @@ ClassCastException
 class
 )
 fun
-testGetIntListInvalidType
+getIntListInvalidType
 (
 )
 {
@@ -440,7 +440,7 @@ key
 }
 Test
 fun
-testGetLongList
+getLongList
 (
 )
 {
@@ -494,7 +494,7 @@ ClassCastException
 class
 )
 fun
-testGetLongListInvalidType
+getLongListInvalidType
 (
 )
 {
@@ -532,7 +532,7 @@ key
 }
 Test
 fun
-testGetDoubleList
+getDoubleList
 (
 )
 {
@@ -590,7 +590,7 @@ ClassCastException
 class
 )
 fun
-testGetDoubleListInvalidType
+getDoubleListInvalidType
 (
 )
 {
@@ -628,7 +628,7 @@ key
 }
 Test
 fun
-testGetStringList
+getStringList
 (
 )
 {
@@ -690,7 +690,7 @@ ClassCastException
 class
 )
 fun
-testGetStringListInvalidType
+getStringListInvalidType
 (
 )
 {

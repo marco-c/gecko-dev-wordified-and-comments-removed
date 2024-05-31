@@ -110,7 +110,7 @@ JSONExperimentParserTest
 {
 Test
 fun
-testToJson
+toJson
 (
 )
 {
@@ -437,7 +437,7 @@ last_modified
 }
 Test
 fun
-testToJsonNullValues
+toJsonNullValues
 (
 )
 {
@@ -535,7 +535,7 @@ name
 }
 Test
 fun
-testFromJson
+fromJson
 (
 )
 {
@@ -699,7 +699,7 @@ json
 }
 Test
 fun
-testFromJsonNonPresentValues
+fromJsonNonPresentValues
 (
 )
 {
@@ -754,7 +754,7 @@ json
 }
 Test
 fun
-testFromJsonNullValues
+fromJsonNullValues
 (
 )
 {
@@ -946,7 +946,7 @@ emptyObjects
 }
 Test
 fun
-testPayloadFromJson
+payloadFromJson
 (
 )
 {
@@ -1137,7 +1137,7 @@ e
 }
 Test
 fun
-testPayloadToJson
+payloadToJson
 (
 )
 {

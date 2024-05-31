@@ -186,7 +186,7 @@ FlatFileExperimentStorageTest
 {
 Test
 fun
-testSave
+save
 (
 )
 {
@@ -322,7 +322,7 @@ delete
 }
 Test
 fun
-testReplacingContent
+replacingContent
 (
 )
 {
@@ -754,7 +754,7 @@ last_modified
 }
 Test
 fun
-testRetrieve
+retrieve
 (
 )
 {
@@ -1059,7 +1059,7 @@ lastModified
 }
 Test
 fun
-testRetrieveFileNotFound
+retrieveFileNotFound
 (
 )
 {
@@ -1108,7 +1108,7 @@ lastModified
 }
 Test
 fun
-testReadingCorruptJSON
+readingCorruptJSON
 (
 )
 {

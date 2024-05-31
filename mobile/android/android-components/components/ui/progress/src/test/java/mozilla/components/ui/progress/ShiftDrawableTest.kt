@@ -148,7 +148,7 @@ ShiftDrawableTest
 {
 Test
 fun
-testDraw
+draw
 (
 )
 {

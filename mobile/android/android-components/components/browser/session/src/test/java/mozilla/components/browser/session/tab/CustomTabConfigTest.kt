@@ -208,7 +208,7 @@ CustomTabConfigTest
 {
 Test
 fun
-testIsCustomTabIntent
+isCustomTabIntent
 (
 )
 {
@@ -261,7 +261,7 @@ java
 }
 Test
 fun
-testCreateFromIntentAssignsId
+createFromIntentAssignsId
 (
 )
 {
@@ -306,7 +306,7 @@ isNotBlank
 }
 Test
 fun
-testCreateFromIntentWithToolbarColor
+createFromIntentWithToolbarColor
 (
 )
 {
@@ -371,7 +371,7 @@ TOOLBAR_COLOR_OPTION
 }
 Test
 fun
-testCreateFromIntentWithCloseButton
+createFromIntentWithCloseButton
 (
 )
 {
@@ -477,7 +477,7 @@ CLOSE_BUTTON_OPTION
 }
 Test
 fun
-testCreateFromIntentWithMaxOversizedCloseButton
+createFromIntentWithMaxOversizedCloseButton
 (
 )
 {
@@ -562,7 +562,7 @@ CLOSE_BUTTON_OPTION
 }
 Test
 fun
-testCreateFromIntentWithInvalidCloseButton
+createFromIntentWithInvalidCloseButton
 (
 )
 {
@@ -639,7 +639,7 @@ CLOSE_BUTTON_OPTION
 }
 Test
 fun
-testCreateFromIntentWithUrlbarHiding
+createFromIntentWithUrlbarHiding
 (
 )
 {
@@ -698,7 +698,7 @@ DISABLE_URLBAR_HIDING_OPTION
 }
 Test
 fun
-testCreateFromIntentWithShareMenuItem
+createFromIntentWithShareMenuItem
 (
 )
 {
@@ -757,7 +757,7 @@ SHARE_MENU_ITEM_OPTION
 }
 Test
 fun
-testCreateFromIntentWithCustomizedMenu
+createFromIntentWithCustomizedMenu
 (
 )
 {
@@ -896,7 +896,7 @@ CUSTOMIZED_MENU_OPTION
 }
 Test
 fun
-testCreateFromIntentWithActionButton
+createFromIntentWithActionButton
 (
 )
 {
@@ -1025,7 +1025,7 @@ ACTION_BUTTON_OPTION
 }
 Test
 fun
-testCreateFromIntentWithInvalidActionButton
+createFromIntentWithInvalidActionButton
 (
 )
 {
@@ -1081,7 +1081,7 @@ actionButtonConfig
 }
 Test
 fun
-testCreateFromIntentWithInvalidExtras
+createFromIntentWithInvalidExtras
 (
 )
 {
@@ -1182,7 +1182,7 @@ actionButtonConfig
 }
 Test
 fun
-testCreateFromIntentWithActionButtonTint
+createFromIntentWithActionButtonTint
 (
 )
 {
@@ -1241,7 +1241,7 @@ ACTION_BUTTON_TINT_OPTION
 }
 Test
 fun
-testCreateFromIntentWithBottomToolbarOption
+createFromIntentWithBottomToolbarOption
 (
 )
 {
@@ -1302,7 +1302,7 @@ BOTTOM_TOOLBAR_OPTION
 }
 Test
 fun
-testCreateFromIntentWithExitAnimationOption
+createFromIntentWithExitAnimationOption
 (
 )
 {
@@ -1363,7 +1363,7 @@ EXIT_ANIMATION_OPTION
 }
 Test
 fun
-testCreateFromIntentWithPageTitleOption
+createFromIntentWithPageTitleOption
 (
 )
 {

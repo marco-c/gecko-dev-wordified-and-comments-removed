@@ -150,7 +150,7 @@ MapTest
 {
 Test
 fun
-testToBundle
+toBundle
 (
 )
 {

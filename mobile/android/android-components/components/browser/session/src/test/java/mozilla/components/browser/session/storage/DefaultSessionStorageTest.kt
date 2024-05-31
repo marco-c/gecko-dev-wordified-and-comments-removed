@@ -332,7 +332,7 @@ DefaultSessionStorageTest
 {
 Test
 fun
-testPersistAndRestore
+persistAndRestore
 (
 )
 {
@@ -647,7 +647,7 @@ last
 }
 Test
 fun
-testPersistAndRestoreWithoutSession
+persistAndRestoreWithoutSession
 (
 )
 {
@@ -752,7 +752,7 @@ size
 }
 Test
 fun
-testPersistIgnoresCustomTabSessions
+persistIgnoresCustomTabSessions
 (
 )
 {
@@ -984,7 +984,7 @@ size
 }
 Test
 fun
-testPersistIgnoresPrivateSessions
+persistIgnoresPrivateSessions
 (
 )
 {
@@ -1204,7 +1204,7 @@ size
 }
 Test
 fun
-testRestoreReturnsFalseOnIOException
+restoreReturnsFalseOnIOException
 (
 )
 {
@@ -1319,7 +1319,7 @@ restored
 }
 Test
 fun
-testRestoreReturnsFalseOnJSONException
+restoreReturnsFalseOnJSONException
 (
 )
 {
@@ -1473,7 +1473,7 @@ restored
 }
 Test
 fun
-testPersistReturnsFalseOnIOException
+persistReturnsFalseOnIOException
 (
 )
 {
@@ -1627,7 +1627,7 @@ persisted
 }
 Test
 fun
-testPersistReturnsFalseOnJSONException
+persistReturnsFalseOnJSONException
 (
 )
 {
@@ -1782,7 +1782,7 @@ persisted
 }
 Test
 fun
-testStartSchedulesPeriodicSaves
+startSchedulesPeriodicSaves
 (
 )
 {
@@ -1925,7 +1925,7 @@ SECONDS
 }
 Test
 fun
-testStopCancelsScheduledTask
+stopCancelsScheduledTask
 (
 )
 {
@@ -2072,7 +2072,7 @@ false
 }
 Test
 fun
-testDeserializeWithInvalidSource
+deserializeWithInvalidSource
 (
 )
 {

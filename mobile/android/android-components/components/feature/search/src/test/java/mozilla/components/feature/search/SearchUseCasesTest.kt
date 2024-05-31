@@ -235,7 +235,7 @@ sessionManager
 )
 Test
 fun
-testDefaultSearch
+defaultSearch
 (
 )
 {

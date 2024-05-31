@@ -176,7 +176,7 @@ java
 )
 Test
 fun
-testStartRegistersObserver
+startRegistersObserver
 (
 )
 {
@@ -205,7 +205,7 @@ engineViewPresenter
 }
 Test
 fun
-testStartRendersSession
+startRendersSession
 (
 )
 {
@@ -303,7 +303,7 @@ testSession
 }
 Test
 fun
-testStopUnregistersObserver
+stopUnregistersObserver
 (
 )
 {

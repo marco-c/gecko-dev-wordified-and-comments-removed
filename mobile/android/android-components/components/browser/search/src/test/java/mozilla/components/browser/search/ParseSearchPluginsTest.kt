@@ -172,7 +172,7 @@ Exception
 class
 )
 fun
-testParser
+parser
 (
 )
 {

@@ -169,7 +169,7 @@ EngineObserverTest
 {
 Test
 fun
-testEngineSessionObserver
+engineSessionObserver
 (
 )
 {
@@ -544,7 +544,7 @@ desktopMode
 }
 Test
 fun
-testEngineSessionObserverWithSecurityChanges
+engineSessionObserverWithSecurityChanges
 (
 )
 {
@@ -863,7 +863,7 @@ securityInfo
 }
 Test
 fun
-testEngineSessionObserverWithTrackingProtection
+engineSessionObserverWithTrackingProtection
 (
 )
 {
@@ -1164,7 +1164,7 @@ trackersBlocked
 }
 Test
 fun
-testEngineObserverClearsWebsiteTitleIfNewPageStartsLoading
+engineObserverClearsWebsiteTitleIfNewPageStartsLoading
 (
 )
 {
@@ -1242,7 +1242,7 @@ title
 }
 Test
 fun
-testEngineObserverClearsBlockedTrackersIfNewPageStartsLoading
+engineObserverClearsBlockedTrackersIfNewPageStartsLoading
 (
 )
 {
@@ -1322,7 +1322,7 @@ trackersBlocked
 }
 Test
 fun
-testEngineObserverPassingHitResult
+engineObserverPassingHitResult
 (
 )
 {
@@ -1403,7 +1403,7 @@ true
 }
 Test
 fun
-testEngineObserverClearsFindResults
+engineObserverClearsFindResults
 (
 )
 {
@@ -1505,7 +1505,7 @@ findResults
 }
 Test
 fun
-testEngineObserverClearsFindResultIfNewPageStartsLoading
+engineObserverClearsFindResultIfNewPageStartsLoading
 (
 )
 {
@@ -1603,7 +1603,7 @@ findResults
 }
 Test
 fun
-testEngineObserverNotifiesFullscreenMode
+engineObserverNotifiesFullscreenMode
 (
 )
 {

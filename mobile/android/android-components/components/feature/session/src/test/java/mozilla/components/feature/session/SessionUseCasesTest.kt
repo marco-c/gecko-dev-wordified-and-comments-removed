@@ -234,7 +234,7 @@ selectedEngineSession
 }
 Test
 fun
-testLoadUrl
+loadUrl
 (
 )
 {
@@ -308,7 +308,7 @@ com
 }
 Test
 fun
-testLoadData
+loadData
 (
 )
 {
@@ -464,7 +464,7 @@ base64
 }
 Test
 fun
-testReload
+reload
 (
 )
 {
@@ -554,7 +554,7 @@ reload
 }
 Test
 fun
-testStopLoading
+stopLoading
 (
 )
 {
@@ -644,7 +644,7 @@ stopLoading
 }
 Test
 fun
-testGoBack
+goBack
 (
 )
 {
@@ -666,7 +666,7 @@ goBack
 }
 Test
 fun
-testGoForward
+goForward
 (
 )
 {
@@ -688,7 +688,7 @@ goForward
 }
 Test
 fun
-testRequestDesktopSite
+requestDesktopSite
 (
 )
 {
@@ -784,7 +784,7 @@ true
 }
 Test
 fun
-testClearData
+clearData
 (
 )
 {

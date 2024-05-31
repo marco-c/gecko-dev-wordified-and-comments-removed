@@ -270,7 +270,7 @@ FretboardTest
 {
 Test
 fun
-testLoadExperiments
+loadExperiments
 (
 )
 {
@@ -322,7 +322,7 @@ retrieve
 }
 Test
 fun
-testUpdateExperimentsStorageNotLoaded
+updateExperimentsStorageNotLoaded
 (
 )
 {
@@ -395,7 +395,7 @@ retrieve
 }
 Test
 fun
-testUpdateExperimentsEmptyStorage
+updateExperimentsEmptyStorage
 (
 )
 {
@@ -524,7 +524,7 @@ null
 }
 Test
 fun
-testUpdateExperimentsFromStorage
+updateExperimentsFromStorage
 (
 )
 {
@@ -688,7 +688,7 @@ null
 }
 Test
 fun
-testExperiments
+experiments
 (
 )
 {
@@ -830,7 +830,7 @@ experiments
 }
 Test
 fun
-testExperimentsNoExperiments
+experimentsNoExperiments
 (
 )
 {
@@ -908,7 +908,7 @@ size
 }
 Test
 fun
-testGetActiveExperiments
+getActiveExperiments
 (
 )
 {
@@ -1336,7 +1336,7 @@ id
 }
 Test
 fun
-testGetExperimentsMap
+getExperimentsMap
 (
 )
 {
@@ -1778,7 +1778,7 @@ true
 }
 Test
 fun
-testIsInExperiment
+isInExperiment
 (
 )
 {
@@ -2195,7 +2195,7 @@ name
 }
 Test
 fun
-testWithExperiment
+withExperiment
 (
 )
 {
@@ -2651,7 +2651,7 @@ invocations
 }
 Test
 fun
-testGetExperiment
+getExperiment
 (
 )
 {
@@ -2783,7 +2783,7 @@ name
 }
 Test
 fun
-testSetOverride
+setOverride
 (
 )
 {
@@ -3278,7 +3278,7 @@ true
 }
 Test
 fun
-testClearOverride
+clearOverride
 (
 )
 {
@@ -3738,7 +3738,7 @@ name
 }
 Test
 fun
-testClearAllOverrides
+clearAllOverrides
 (
 )
 {
@@ -4167,7 +4167,7 @@ clear
 }
 Test
 fun
-testUpdateExperimentsException
+updateExperimentsException
 (
 )
 {
@@ -4252,7 +4252,7 @@ updateExperiments
 }
 Test
 fun
-testGetUserBucket
+getUserBucket
 (
 )
 {
@@ -4456,7 +4456,7 @@ context
 }
 Test
 fun
-testGetUserBucketWithOverridenClientId
+getUserBucketWithOverridenClientId
 (
 )
 {
@@ -4585,7 +4585,7 @@ application
 }
 Test
 fun
-testEvenDistribution
+evenDistribution
 (
 )
 {
@@ -4847,7 +4847,7 @@ in
 }
 Test
 fun
-testLoadingCorruptJSON
+loadingCorruptJSON
 (
 )
 {

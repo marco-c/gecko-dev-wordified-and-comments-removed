@@ -185,7 +185,7 @@ experiments
 "
 Test
 fun
-testNoExperiments
+noExperiments
 (
 )
 {
@@ -287,7 +287,7 @@ lastModified
 }
 Test
 fun
-testGetExperimentsNoDiff
+getExperimentsNoDiff
 (
 )
 {
@@ -530,7 +530,7 @@ lastModified
 }
 Test
 fun
-testGetExperimentsDiffAdd
+getExperimentsDiffAdd
 (
 )
 {
@@ -828,7 +828,7 @@ lastModified
 }
 Test
 fun
-testGetExperimentsDiffDelete
+getExperimentsDiffDelete
 (
 )
 {
@@ -1113,7 +1113,7 @@ lastModified
 }
 Test
 fun
-testGetExperimentsDiffUpdate
+getExperimentsDiffUpdate
 (
 )
 {
@@ -1403,7 +1403,7 @@ lastModified
 }
 Test
 fun
-testGetExperimentsEmptyDiff
+getExperimentsEmptyDiff
 (
 )
 {

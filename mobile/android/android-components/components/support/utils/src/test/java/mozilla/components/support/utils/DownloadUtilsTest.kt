@@ -154,7 +154,7 @@ null
 }
 Test
 fun
-testGuessFileName_contentDisposition
+guessFileName_contentDisposition
 (
 )
 {
@@ -674,7 +674,7 @@ null
 }
 Test
 fun
-testGuessFileName_url
+guessFileName_url
 (
 )
 {
@@ -765,7 +765,7 @@ jpg
 }
 Test
 fun
-testGuessFileName_mimeType
+guessFileName_mimeType
 (
 )
 {
