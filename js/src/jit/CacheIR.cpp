@@ -26389,7 +26389,7 @@ obj
 >
 is
 <
-FixedLengthTypedArrayObject
+TypedArrayObject
 >
 (
 )
@@ -26429,7 +26429,7 @@ obj
 >
 as
 <
-FixedLengthTypedArrayObject
+TypedArrayObject
 >
 (
 )
@@ -26499,6 +26499,11 @@ tarr
 >
 length
 (
+)
+.
+valueOr
+(
+0
 )
 )
 {
@@ -26589,6 +26594,14 @@ keyId
 handleOOB
 )
 ;
+auto
+viewKind
+=
+ToArrayBufferViewKind
+(
+tarr
+)
+;
 writer
 .
 storeTypedArrayElement
@@ -26598,6 +26611,7 @@ elementType
 indexId
 rhsValId
 handleOOB
+viewKind
 )
 ;
 writer

@@ -5179,6 +5179,9 @@ RawId
 handleOOB
 :
 BoolImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
