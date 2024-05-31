@@ -79,13 +79,13 @@ browser
 /
 translations
 /
-translationsPanel
+fullPageTranslationsPanel
 .
 js
 (
 content
 /
-translationsPanel
+fullPageTranslationsPanel
 .
 js
 )

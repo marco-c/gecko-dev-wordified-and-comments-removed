@@ -1859,7 +1859,7 @@ content
 /
 translations
 /
-translationsPanel
+fullPageTranslationsPanel
 .
 js
 "
