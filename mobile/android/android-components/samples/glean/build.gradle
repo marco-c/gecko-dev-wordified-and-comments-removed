@@ -108,7 +108,7 @@ extensions
 android
 {
 compileSdkVersion
-Config
+config
 .
 compileSdkVersion
 defaultConfig
@@ -124,11 +124,11 @@ samples
 glean
 "
 minSdkVersion
-Config
+config
 .
 minSdkVersion
 targetSdkVersion
-Config
+config
 .
 targetSdkVersion
 versionCode

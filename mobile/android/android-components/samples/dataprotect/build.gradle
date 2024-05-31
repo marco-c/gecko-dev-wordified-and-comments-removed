@@ -29,7 +29,7 @@ extensions
 android
 {
 compileSdkVersion
-Config
+config
 .
 compileSdkVersion
 defaultConfig
@@ -45,11 +45,11 @@ samples
 dataprotect
 "
 minSdkVersion
-Config
+config
 .
 minSdkVersion_dataprotect
 targetSdkVersion
-Config
+config
 .
 targetSdkVersion
 versionCode

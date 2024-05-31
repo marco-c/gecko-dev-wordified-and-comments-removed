@@ -87,7 +87,7 @@ extensions
 android
 {
 compileSdkVersion
-Config
+config
 .
 compileSdkVersion
 defaultConfig
@@ -103,11 +103,11 @@ samples
 fxa
 "
 minSdkVersion
-Config
+config
 .
 minSdkVersion
 targetSdkVersion
-Config
+config
 .
 targetSdkVersion
 versionCode

@@ -190,7 +190,7 @@ libUrl
 }
 version
 =
-Config
+config
 .
 componentsVersion
 +
@@ -385,7 +385,7 @@ pom
 .
 version
 =
-Config
+config
 .
 componentsVersion
 +
