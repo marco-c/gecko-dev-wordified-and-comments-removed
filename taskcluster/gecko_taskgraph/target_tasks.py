@@ -5384,17 +5384,6 @@ in
 try_name
 :
                     
-if
-"
-speedometer3
-"
-in
-try_name
-:
-                        
-return
-False
-                    
 return
 True
         

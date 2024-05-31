@@ -1052,7 +1052,7 @@ opt
 "
         
 "
-macosx1300
+macosx1400
 -
 64
 /
@@ -1068,7 +1068,7 @@ opt
 "
         
 "
-macosx1300
+macosx1400
 -
 64
 -
@@ -1080,7 +1080,7 @@ opt
 "
 osx
 -
-1300
+1400
 -
 shippable
 /
@@ -2557,7 +2557,7 @@ node
 ]
                 
 "
-macosx1300
+macosx1400
 .
 *
 "
@@ -2782,7 +2782,7 @@ ffmpeg
 ]
                 
 "
-macosx1300
+macosx1400
 .
 *
 "
@@ -2983,7 +2983,7 @@ chromedriver
 ]
             
 "
-macosx1300
+macosx1400
 .
 *
 "
@@ -3170,7 +3170,7 @@ chromium
 ]
             
 "
-macosx1300
+macosx1400
 .
 *
 "
@@ -5898,7 +5898,7 @@ debug
 "
                 
 "
-macosx1300
+macosx1400
 -
 64
 -
@@ -5910,7 +5910,7 @@ opt
 "
                 
 "
-macosx1300
+macosx1400
 -
 64
 -

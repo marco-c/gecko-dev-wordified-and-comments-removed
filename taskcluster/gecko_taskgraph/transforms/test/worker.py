@@ -1091,7 +1091,7 @@ m1
 "
     
 "
-macosx1300
+macosx1400
 -
 64
 "
@@ -1101,7 +1101,7 @@ t
 -
 osx
 -
-1300
+1400
 -
 m2
 "
@@ -1247,7 +1247,7 @@ test_platform
 startswith
 (
 "
-macosx1300
+macosx1400
 -
 64
 "
@@ -1266,7 +1266,7 @@ type
 MACOSX_WORKER_TYPES
 [
 "
-macosx1300
+macosx1400
 -
 64
 "
