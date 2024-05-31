@@ -142,13 +142,6 @@ FFFFFF
 "
 android
 :
-fillType
-=
-"
-evenOdd
-"
-android
-:
 pathData
 =
 "
@@ -240,8 +233,8 @@ M4
 1h
 -
 4zM6
-7h12v9L6
-16L6
+7v9h12L18
+7L6
 7z
 "
 /
