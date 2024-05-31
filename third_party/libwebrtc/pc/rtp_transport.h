@@ -642,6 +642,11 @@ processing_ready_to_send_
 =
 false
 ;
+bool
+processing_sent_packet_
+=
+false
+;
 ScopedTaskSafety
 safety_
 ;
