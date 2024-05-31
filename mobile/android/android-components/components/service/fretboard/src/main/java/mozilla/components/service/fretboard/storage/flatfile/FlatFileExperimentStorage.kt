@@ -134,6 +134,7 @@ retrieve
 :
 ExperimentsSnapshot
 {
+return
 try
 {
 val
@@ -147,7 +148,6 @@ readFully
 (
 )
 )
-return
 ExperimentsSerializer
 (
 )
@@ -164,7 +164,6 @@ e
 FileNotFoundException
 )
 {
-return
 ExperimentsSnapshot
 (
 listOf

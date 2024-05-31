@@ -347,9 +347,7 @@ JSONObject
 )
 val
 lastModified
-:
-Long
-?
+=
 if
 (
 experimentsJson
@@ -360,8 +358,6 @@ LAST_MODIFIED_KEY
 )
 )
 {
-lastModified
-=
 experimentsJson
 .
 getLong
@@ -371,8 +367,6 @@ LAST_MODIFIED_KEY
 }
 else
 {
-lastModified
-=
 null
 }
 return
