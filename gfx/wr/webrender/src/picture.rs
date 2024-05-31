@@ -510,9 +510,7 @@ crate
 filterdata
 :
 :
-{
 FilterDataHandle
-}
 ;
 use
 crate
@@ -558,9 +556,7 @@ crate
 scene_building
 :
 :
-{
 SliceFlags
-}
 ;
 const
 MAX_BLUR_RADIUS
@@ -15226,7 +15222,7 @@ SpatialTree
 >
 Option
 <
-DeviceRect
+DeviceIntRect
 >
 {
 let
@@ -15340,6 +15336,10 @@ device_pixel_scale
 )
 .
 round_out
+(
+)
+.
+to_i32
 (
 )
 )
