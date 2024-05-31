@@ -4817,6 +4817,14 @@ widget
 ;
 event
 .
+mFlags
+.
+mIsSynthesizedForTests
+=
+true
+;
+event
+.
 mModifiers
 =
 nsContentUtils
