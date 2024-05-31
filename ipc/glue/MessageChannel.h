@@ -1028,17 +1028,6 @@ MOZ_EXCLUDES
 mMonitor
 )
 ;
-void
-TestOnlyWaitForTransactionCompletion
-(
-)
-const
-MOZ_EXCLUDES
-(
-*
-mMonitor
-)
-;
 bool
 IsClosed
 (
