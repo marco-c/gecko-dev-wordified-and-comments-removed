@@ -6517,6 +6517,12 @@ SystemEngineView
 URL_MATCHER
 =
 null
+val
+resources
+=
+testContext
+.
+resources
 var
 urlMatcher
 =
@@ -6524,7 +6530,7 @@ SystemEngineView
 .
 getOrCreateUrlMatcher
 (
-testContext
+resources
 TrackingProtectionPolicy
 .
 select
@@ -6558,7 +6564,7 @@ SystemEngineView
 .
 getOrCreateUrlMatcher
 (
-testContext
+resources
 TrackingProtectionPolicy
 .
 select

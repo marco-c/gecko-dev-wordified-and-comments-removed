@@ -87,6 +87,14 @@ Context
 import
 android
 .
+content
+.
+res
+.
+Resources
+import
+android
+.
 graphics
 .
 Bitmap
@@ -1561,9 +1569,7 @@ isForMainFrame
 &
 getOrCreateUrlMatcher
 (
-view
-.
-context
+resources
 it
 )
 .
@@ -4460,9 +4466,9 @@ internal
 fun
 getOrCreateUrlMatcher
 (
-context
+resources
 :
-Context
+Resources
 policy
 :
 TrackingProtectionPolicy
@@ -4503,7 +4509,7 @@ UrlMatcher
 .
 createMatcher
 (
-context
+resources
 R
 .
 raw

@@ -347,8 +347,6 @@ TooManyFunctions
 class
 SystemEngineSession
 (
-private
-val
 context
 :
 Context
@@ -366,6 +364,13 @@ EngineSession
 (
 )
 {
+private
+val
+resources
+=
+context
+.
+resources
 Volatile
 internal
 lateinit
@@ -824,7 +829,7 @@ SystemEngineView
 .
 getOrCreateUrlMatcher
 (
-context
+resources
 policy
 )
 }
