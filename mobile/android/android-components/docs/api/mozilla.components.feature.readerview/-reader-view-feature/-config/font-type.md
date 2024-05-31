@@ -81,6 +81,9 @@ fontType
 FontType
 ]
 (
+.
+.
+/
 -
 font
 -
@@ -140,5 +143,5 @@ ReaderViewFeature
 .
 kt
 #
-L71
+L73
 )

@@ -87,7 +87,7 @@ onFontSizeIncreased
 )
 :
 [
-Unit
+Int
 ]
 (
 https
@@ -109,7 +109,7 @@ stdlib
 kotlin
 /
 -
-unit
+int
 /
 index
 .

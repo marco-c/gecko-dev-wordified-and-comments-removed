@@ -142,5 +142,11 @@ ReaderViewFeature
 .
 kt
 #
-L164
+L166
 )
+Hides
+the
+reader
+view
+UI
+.

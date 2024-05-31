@@ -90,9 +90,6 @@ view
 feature
 /
 -
-config
-/
--
 font
 -
 type

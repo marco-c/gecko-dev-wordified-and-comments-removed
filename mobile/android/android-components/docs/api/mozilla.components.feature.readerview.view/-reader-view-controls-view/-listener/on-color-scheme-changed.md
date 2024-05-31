@@ -115,9 +115,6 @@ view
 feature
 /
 -
-config
-/
--
 color
 -
 scheme

@@ -190,9 +190,6 @@ view
 feature
 /
 -
-config
-/
--
 color
 -
 scheme
@@ -282,9 +279,6 @@ view
 feature
 /
 -
-config
-/
--
 font
 -
 type
@@ -348,7 +342,7 @@ onFontSizeDecreased
 )
 :
 [
-Unit
+Int
 ]
 (
 https
@@ -370,7 +364,7 @@ stdlib
 kotlin
 /
 -
-unit
+int
 /
 index
 .
@@ -400,7 +394,7 @@ onFontSizeIncreased
 )
 :
 [
-Unit
+Int
 ]
 (
 https
@@ -422,7 +416,7 @@ stdlib
 kotlin
 /
 -
-unit
+int
 /
 index
 .

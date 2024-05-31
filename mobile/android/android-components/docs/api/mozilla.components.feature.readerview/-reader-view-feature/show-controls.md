@@ -140,10 +140,12 @@ ReaderViewFeature
 .
 kt
 #
-L173
+L178
 )
-Show
-ReaderView
+Shows
+the
+reader
+view
 appearance
 controls
 .

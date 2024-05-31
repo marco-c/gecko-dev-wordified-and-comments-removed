@@ -413,9 +413,6 @@ view
 feature
 /
 -
-config
-/
--
 color
 -
 scheme
@@ -507,9 +504,6 @@ reader
 view
 -
 feature
-/
--
-config
 /
 -
 font
