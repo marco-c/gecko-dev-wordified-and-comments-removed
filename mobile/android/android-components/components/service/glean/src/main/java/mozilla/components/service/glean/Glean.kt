@@ -267,6 +267,10 @@ TooManyFunctions
 open
 class
 GleanInternalAPI
+internal
+constructor
+(
+)
 {
 private
 val

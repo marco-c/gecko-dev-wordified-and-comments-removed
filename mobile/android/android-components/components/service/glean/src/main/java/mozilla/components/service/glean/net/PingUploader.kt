@@ -104,6 +104,7 @@ pings
 .
 *
 /
+internal
 interface
 PingUploader
 {

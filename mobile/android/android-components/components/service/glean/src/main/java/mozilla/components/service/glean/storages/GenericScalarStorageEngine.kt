@@ -296,6 +296,7 @@ behaviours
 .
 *
 /
+internal
 abstract
 class
 GenericScalarStorageEngine

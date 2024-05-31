@@ -187,6 +187,7 @@ again
 .
 *
 /
+internal
 class
 HttpPingUploader
 (
