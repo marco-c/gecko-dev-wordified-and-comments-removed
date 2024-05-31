@@ -110,6 +110,13 @@ js
 ]
 [
 "
+test_UrlbarUtils_copySnakeKeysToCamel
+.
+js
+"
+]
+[
+"
 test_UrlbarUtils_getShortcutOrURIAndPostData
 .
 js

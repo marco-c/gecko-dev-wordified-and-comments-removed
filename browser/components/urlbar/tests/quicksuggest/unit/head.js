@@ -390,9 +390,16 @@ name
 {
 value
 :
+(
 taskFn
 .
 name
+|
+|
+"
+anonymousTask
+"
+)
 +
 (
 rustEnabled
