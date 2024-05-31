@@ -108,8 +108,10 @@ supported
 by
 the
 Timespan
+and
+TimingDistribution
 metric
-type
+types
 .
 #
 #

@@ -116,7 +116,7 @@ IconRequest
 .
 kt
 #
-L23
+L25
 )
 Supported
 sizes

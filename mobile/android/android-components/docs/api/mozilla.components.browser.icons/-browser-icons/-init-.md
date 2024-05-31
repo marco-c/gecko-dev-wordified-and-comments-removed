@@ -199,6 +199,9 @@ md
 =
 listOf
 (
+AndroidIconDecoder
+(
+)
 ICOIconDecoder
 (
 )

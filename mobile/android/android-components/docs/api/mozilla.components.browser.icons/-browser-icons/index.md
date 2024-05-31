@@ -97,7 +97,7 @@ BrowserIcons
 .
 kt
 #
-L28
+L29
 )
 Entry
 point
@@ -393,6 +393,9 @@ md
 =
 listOf
 (
+AndroidIconDecoder
+(
+)
 ICOIconDecoder
 (
 )
