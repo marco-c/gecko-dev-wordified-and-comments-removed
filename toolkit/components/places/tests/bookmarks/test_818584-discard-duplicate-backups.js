@@ -91,7 +91,7 @@ equal
 hash
 .
 length
-24
+44
 )
 ;
 oldBackupName
