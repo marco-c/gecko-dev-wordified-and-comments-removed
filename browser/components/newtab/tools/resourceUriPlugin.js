@@ -1,3 +1,13 @@
+const
+path
+=
+require
+(
+"
+path
+"
+)
+;
 module
 .
 exports
@@ -117,6 +127,10 @@ continue
 const
 pathname
 =
+path
+.
+join
+(
 url
 .
 href
@@ -125,6 +139,7 @@ replace
 (
 regex
 replacement
+)
 )
 ;
 resourceData
