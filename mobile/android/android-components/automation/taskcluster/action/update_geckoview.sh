@@ -582,6 +582,9 @@ Ptitle
 GeckoView
 update
 (
+CHANNEL
+)
+(
 TIMESTAMP
 )
 "
