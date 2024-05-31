@@ -2857,6 +2857,13 @@ mozac_ic_forward
 "
 Forward
 "
+isEnabled
+=
+{
+canGoForward
+(
+)
+}
 )
 {
 simulateReload
