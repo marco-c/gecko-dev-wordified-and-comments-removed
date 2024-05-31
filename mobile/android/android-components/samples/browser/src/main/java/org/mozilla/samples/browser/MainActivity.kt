@@ -125,7 +125,7 @@ components
 .
 feature
 .
-toolbar
+session
 .
 SessionFeature
 import
@@ -135,7 +135,7 @@ components
 .
 feature
 .
-toolbar
+session
 .
 ToolbarFeature
 class
