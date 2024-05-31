@@ -139,7 +139,7 @@ String
 GLEAN_PING_SCHEMA_GIT_HASH
 =
 "
-0f6b6f
+231ad5b
 "
 String
 GLEAN_PING_SCHEMA_URL
@@ -155,7 +155,9 @@ githubusercontent
 .
 com
 /
-mdboom
+mozilla
+-
+services
 /
 mozilla
 -
