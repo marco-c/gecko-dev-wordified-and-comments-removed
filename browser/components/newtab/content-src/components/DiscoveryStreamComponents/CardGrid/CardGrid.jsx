@@ -1912,6 +1912,7 @@ editorsPicksHeader
 onboardingExperience
 ctaButtonSponsors
 ctaButtonVariant
+spocMessageVariant
 widgets
 recentSavesEnabled
 hideDescriptions
@@ -2222,6 +2223,11 @@ ctaButtonVariant
 =
 {
 ctaButtonVariant
+}
+spocMessageVariant
+=
+{
+spocMessageVariant
 }
 recommendation_id
 =
