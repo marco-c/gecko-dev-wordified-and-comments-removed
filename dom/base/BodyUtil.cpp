@@ -1186,7 +1186,7 @@ return
 false
 ;
 }
-UniquePtr
+RefPtr
 <
 CMimeType
 >
