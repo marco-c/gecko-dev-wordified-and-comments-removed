@@ -101,7 +101,7 @@ io
 .
 FileNotFoundException
 class
-AtomicFileExperimentStorage
+FlatFileExperimentStorage
 (
 private
 val

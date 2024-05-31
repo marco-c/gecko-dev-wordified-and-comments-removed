@@ -160,7 +160,7 @@ AndroidJUnit4
 class
 )
 class
-AtomicFileExperimentStorageTest
+FlatFileExperimentStorageTest
 {
 Test
 fun
@@ -252,7 +252,7 @@ exists
 (
 )
 )
-AtomicFileExperimentStorage
+FlatFileExperimentStorage
 (
 atomicFile
 )
@@ -649,7 +649,7 @@ last_modified
 val
 experiments
 =
-AtomicFileExperimentStorage
+FlatFileExperimentStorage
 (
 AtomicFile
 (
@@ -825,7 +825,7 @@ json
 val
 experiments
 =
-AtomicFileExperimentStorage
+FlatFileExperimentStorage
 (
 AtomicFile
 (
