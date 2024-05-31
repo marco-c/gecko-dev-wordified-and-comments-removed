@@ -191,7 +191,7 @@ SearchEngineManager
 .
 kt
 #
-L65
+L66
 )
 Returns
 the
@@ -199,7 +199,13 @@ default
 search
 engine
 .
-The
+If
+defaultSearchEngine
+has
+not
+been
+set
+the
 default
 engine
 is
