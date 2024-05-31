@@ -262,6 +262,12 @@ Logger
 (
 LOG_TAG
 )
+private
+lateinit
+var
+config
+:
+Configuration
 internal
 lateinit
 var
@@ -277,6 +283,9 @@ configuration
 Configuration
 )
 {
+config
+=
+configuration
 source
 =
 getExperimentSource
@@ -643,7 +652,10 @@ try
 val
 serverExperiments
 =
-source
+getExperimentSource
+(
+config
+)
 .
 getExperiments
 (
