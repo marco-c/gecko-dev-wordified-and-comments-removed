@@ -1735,7 +1735,7 @@ else
 CrashReporter
 :
 :
-AnnotateCrashReport
+AutoRecordAnnotation
 (
 CrashReporter
 :

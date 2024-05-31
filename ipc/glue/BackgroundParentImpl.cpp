@@ -1079,7 +1079,7 @@ else
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -1088,7 +1088,7 @@ Annotation
 :
 :
 ipc_channel_error
-reason
+aReason
 )
 ;
 MOZ_CRASH

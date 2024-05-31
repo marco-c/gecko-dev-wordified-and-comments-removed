@@ -369,7 +369,7 @@ profiler_is_active
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -384,7 +384,6 @@ Profiling
 Dispatching
 ShutdownProfilerChild
 "
-_ns
 )
 ;
 profilerChildThread
@@ -428,7 +427,7 @@ else
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -444,7 +443,6 @@ profiling
 Running
 ShutdownProfilerChild
 "
-_ns
 )
 ;
 NS_DispatchAndSpinEventLoopUntilComplete
@@ -681,7 +679,7 @@ aOutShutdownProfileInformation
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -697,7 +695,6 @@ Profiling
 -
 GrabShutdownProfile
 "
-_ns
 :
 "
 Not
@@ -705,7 +702,6 @@ profiling
 -
 GrabShutdownProfile
 "
-_ns
 )
 ;
 *
@@ -722,7 +718,7 @@ GrabShutdownProfile
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -739,7 +735,6 @@ Profiling
 Destroying
 ProfilerChild
 "
-_ns
 :
 "
 Not
@@ -748,7 +743,6 @@ profiling
 Destroying
 ProfilerChild
 "
-_ns
 )
 ;
 mProfilerChild
@@ -765,7 +759,7 @@ nullptr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -783,10 +777,11 @@ ShutdownProfilerChild
 complete
 waiting
 for
+"
+"
 thread
 shutdown
 "
-_ns
 :
 "
 Not
@@ -795,11 +790,12 @@ Profiling
 ShutdownProfilerChild
 complete
 waiting
+"
+"
 for
 thread
 shutdown
 "
-_ns
 )
 ;
 }

@@ -1514,7 +1514,9 @@ Annotation
 :
 ShutdownReason
 ;
-nsCString
+const
+char
+*
 reasonStr
 ;
 switch
@@ -1533,7 +1535,6 @@ reasonStr
 "
 AppClose
 "
-_ns
 ;
 break
 ;
@@ -1548,7 +1549,6 @@ reasonStr
 "
 AppRestart
 "
-_ns
 ;
 break
 ;
@@ -1563,7 +1563,6 @@ reasonStr
 "
 OSForceClose
 "
-_ns
 ;
 break
 ;
@@ -1578,7 +1577,6 @@ reasonStr
 "
 OSSessionEnd
 "
-_ns
 ;
 break
 ;
@@ -1593,7 +1591,6 @@ reasonStr
 "
 OSShutdown
 "
-_ns
 ;
 break
 ;
@@ -1608,7 +1605,6 @@ reasonStr
 "
 WinUnexpectedMozQuit
 "
-_ns
 ;
 break
 ;
@@ -1634,7 +1630,6 @@ reasonStr
 "
 Unknown
 "
-_ns
 ;
 break
 ;
@@ -1642,7 +1637,7 @@ break
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 key
 reasonStr

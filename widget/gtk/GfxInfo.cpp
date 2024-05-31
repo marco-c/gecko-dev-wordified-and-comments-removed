@@ -389,7 +389,7 @@ AddCrashReportAnnotations
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -404,7 +404,7 @@ mVendorId
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -419,7 +419,7 @@ mDeviceId
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -434,7 +434,7 @@ mDriverVendor
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -449,7 +449,7 @@ mDriverVersion
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationBool
 (
 CrashReporter
 :
@@ -464,7 +464,7 @@ mIsWayland
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :

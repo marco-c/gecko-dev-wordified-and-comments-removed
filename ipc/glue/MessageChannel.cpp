@@ -2033,7 +2033,7 @@ IsClosedLocked
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -2042,10 +2042,7 @@ Annotation
 :
 :
 IPCFatalErrorProtocol
-nsDependentCString
-(
 mName
-)
 )
 ;
 switch

@@ -213,7 +213,7 @@ get
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :

@@ -1280,7 +1280,7 @@ XRE_IsParentProcess
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationBool
 (
 CrashReporter
 :

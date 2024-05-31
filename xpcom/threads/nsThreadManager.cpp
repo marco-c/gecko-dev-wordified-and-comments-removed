@@ -2761,7 +2761,7 @@ aStack
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -2779,7 +2779,7 @@ else
 CrashReporter
 :
 :
-AnnotateCrashReport
+UnrecordAnnotation
 (
 CrashReporter
 :
@@ -2788,9 +2788,6 @@ Annotation
 :
 :
 XPCOMSpinEventLoopStack
-"
-"
-_ns
 )
 ;
 }

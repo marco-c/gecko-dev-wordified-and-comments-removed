@@ -8341,7 +8341,7 @@ Init
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -8353,7 +8353,6 @@ Accessibility
 "
 Active
 "
-_ns
 )
 ;
 if

@@ -4010,7 +4010,7 @@ true
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -16656,7 +16656,7 @@ aLocation
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :

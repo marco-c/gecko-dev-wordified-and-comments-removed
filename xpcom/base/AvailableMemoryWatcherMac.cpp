@@ -230,7 +230,7 @@ aString
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 aAnnotation
 aString
@@ -252,7 +252,7 @@ aData
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationU32
 (
 aAnnotation
 aData
@@ -746,7 +746,7 @@ mAvailMemSysctl
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -761,7 +761,7 @@ mLevelStr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -776,7 +776,7 @@ mNormalTimeStr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -791,7 +791,7 @@ mWarningTimeStr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -806,7 +806,7 @@ mCriticalTimeStr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationU32
 (
 CrashReporter
 :
@@ -821,7 +821,7 @@ mLevelSysctl
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationU32
 (
 CrashReporter
 :
@@ -1645,7 +1645,7 @@ aCrashReporter
 aCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :
@@ -1660,7 +1660,7 @@ mLevelStr
 aCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :
@@ -1675,7 +1675,7 @@ mNormalTimeStr
 aCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :
@@ -1690,7 +1690,7 @@ mWarningTimeStr
 aCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :
@@ -1705,7 +1705,7 @@ mCriticalTimeStr
 aCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationU32
 (
 CrashReporter
 :
@@ -1720,7 +1720,7 @@ mLevelSysctl
 aCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationU32
 (
 CrashReporter
 :

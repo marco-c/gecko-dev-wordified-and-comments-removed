@@ -3164,7 +3164,7 @@ Clear
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -3176,13 +3176,12 @@ GPUProcessStatus
 "
 Running
 "
-_ns
 )
 ;
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationU32
 (
 CrashReporter
 :
@@ -3191,13 +3190,7 @@ Annotation
 :
 :
 GPUProcessLaunchCount
-static_cast
-<
-int
->
-(
 mTotalProcessAttempts
-)
 )
 ;
 ReinitializeRendering
@@ -4089,7 +4082,7 @@ aReason
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationU32
 (
 CrashReporter
 :
@@ -4098,7 +4091,10 @@ Annotation
 :
 :
 DeviceResetReason
-int
+static_cast
+<
+uint32_t
+>
 (
 aReason
 )
@@ -5076,7 +5072,7 @@ nullptr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -5088,7 +5084,6 @@ GPUProcessStatus
 "
 Destroyed
 "
-_ns
 )
 ;
 }

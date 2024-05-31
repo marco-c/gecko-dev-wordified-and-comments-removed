@@ -956,13 +956,10 @@ return
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 annotation
-nsDependentCString
-(
 aValue
-)
 )
 ;
 }
@@ -1007,7 +1004,7 @@ return
 CrashReporter
 :
 :
-RemoveCrashReportAnnotation
+UnrecordAnnotation
 (
 annotation
 )
@@ -7070,7 +7067,7 @@ IsRootWebRenderBridgeParent
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -7758,7 +7755,7 @@ IsRootWebRenderBridgeParent
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :

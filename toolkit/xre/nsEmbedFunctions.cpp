@@ -1162,8 +1162,8 @@ XRE_GetProcessType
 GeckoProcessType_Content
 )
 {
-int
-level
+uint32_t
+contentSandboxLevel
 =
 GetEffectiveContentSandboxLevel
 (
@@ -1172,7 +1172,7 @@ GetEffectiveContentSandboxLevel
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationU32
 (
 CrashReporter
 :
@@ -1181,7 +1181,7 @@ Annotation
 :
 :
 ContentSandboxLevel
-level
+contentSandboxLevel
 )
 ;
 }
@@ -1196,8 +1196,8 @@ XRE_GetProcessType
 GeckoProcessType_GPU
 )
 {
-int
-level
+uint32_t
+gpuSandboxLevel
 =
 GetEffectiveGpuSandboxLevel
 (
@@ -1206,7 +1206,7 @@ GetEffectiveGpuSandboxLevel
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationU32
 (
 CrashReporter
 :
@@ -1215,7 +1215,7 @@ Annotation
 :
 :
 GpuSandboxLevel
-level
+gpuSandboxLevel
 )
 ;
 }

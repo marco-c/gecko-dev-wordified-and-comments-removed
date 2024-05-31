@@ -416,7 +416,7 @@ aAdapter
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoLibPath
 (
 CrashReporter

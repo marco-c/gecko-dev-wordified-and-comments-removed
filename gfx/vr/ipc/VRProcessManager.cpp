@@ -369,7 +369,7 @@ nullptr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -381,7 +381,6 @@ VRProcessStatus
 "
 Destroyed
 "
-_ns
 )
 ;
 }
@@ -558,7 +557,7 @@ Clear
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -570,7 +569,6 @@ VRProcessStatus
 "
 Running
 "
-_ns
 )
 ;
 }

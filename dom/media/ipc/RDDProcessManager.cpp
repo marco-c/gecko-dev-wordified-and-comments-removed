@@ -850,7 +850,7 @@ Clear
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -862,7 +862,6 @@ RDDProcessStatus
 "
 Running
 "
-_ns
 )
 ;
 if
@@ -1311,7 +1310,7 @@ Clear
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -1323,7 +1322,6 @@ RDDProcessStatus
 "
 Destroyed
 "
-_ns
 )
 ;
 }

@@ -22520,7 +22520,7 @@ browser
 mCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :
@@ -22541,7 +22541,7 @@ aReason
 mCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :

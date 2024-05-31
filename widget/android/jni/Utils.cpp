@@ -1519,7 +1519,7 @@ NS_SUCCEEDED
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
