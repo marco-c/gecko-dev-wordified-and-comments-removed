@@ -37373,6 +37373,14 @@ MemberInitializers
 initializers
 (
 hasPrivateBrand
+#
+ifdef
+ENABLE_DECORATORS
+classInitializedMembers
+.
+hasInstanceDecorators
+#
+endif
 numMemberInitializers
 )
 ;
