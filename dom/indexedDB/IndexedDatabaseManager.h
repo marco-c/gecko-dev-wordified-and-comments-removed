@@ -375,6 +375,11 @@ FlushPendingFileDeletions
 (
 )
 ;
+nsresult
+EnsureLocale
+(
+)
+;
 static
 const
 nsCString

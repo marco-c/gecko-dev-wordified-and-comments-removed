@@ -108,6 +108,10 @@ const
 LoggingInfo
 &
 aLoggingInfo
+const
+nsACString
+&
+aSystemLocale
 )
 override
 ;
@@ -127,6 +131,10 @@ const
 LoggingInfo
 &
 aLoggingInfo
+const
+nsACString
+&
+aSystemLocale
 )
 override
 ;

@@ -108,6 +108,10 @@ const
 LoggingInfo
 &
 aLoggingInfo
+const
+nsACString
+&
+aSystemLocale
 )
 ;
 bool
@@ -120,6 +124,10 @@ const
 LoggingInfo
 &
 aLoggingInfo
+const
+nsACString
+&
+aSystemLocale
 )
 ;
 bool
