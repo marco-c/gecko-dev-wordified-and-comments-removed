@@ -213,11 +213,11 @@ ktx
 implementation
 Dependencies
 .
-support_fragment
+androidx_fragment
 implementation
 Dependencies
 .
-support_recyclerview
+androidx_recyclerview
 implementation
 Dependencies
 .

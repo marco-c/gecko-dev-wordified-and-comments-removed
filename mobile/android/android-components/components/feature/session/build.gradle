@@ -177,7 +177,7 @@ kotlin_stdlib
 implementation
 Dependencies
 .
-support_design
+google_material
 testImplementation
 project
 (
@@ -207,7 +207,7 @@ androidx_test_core
 testImplementation
 Dependencies
 .
-support_customtabs
+androidx_browser
 }
 apply
 from

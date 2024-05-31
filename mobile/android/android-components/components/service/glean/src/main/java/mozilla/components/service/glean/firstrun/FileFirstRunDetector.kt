@@ -67,9 +67,7 @@ glean
 .
 firstrun
 import
-android
-.
-support
+androidx
 .
 annotation
 .

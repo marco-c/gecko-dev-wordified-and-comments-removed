@@ -92,9 +92,7 @@ config
 targetSdkVersion
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
@@ -185,7 +183,7 @@ testing_robolectric
 testImplementation
 Dependencies
 .
-support_compat
+androidx_core
 testImplementation
 project
 (

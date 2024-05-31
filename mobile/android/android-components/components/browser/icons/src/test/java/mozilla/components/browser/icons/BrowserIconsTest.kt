@@ -423,8 +423,6 @@ png
 )
 .
 buffer
-(
-)
 )
 )
 server
@@ -742,8 +740,6 @@ png
 )
 .
 buffer
-(
-)
 )
 )
 server

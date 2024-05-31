@@ -67,9 +67,7 @@ storage
 .
 memory
 import
-android
-.
-support
+androidx
 .
 annotation
 .
@@ -789,13 +787,8 @@ score
 ?
 .
 score
-if
-(
-maxScore
-=
-=
-null
-)
+?
+:
 return
 synchronized
 listOf

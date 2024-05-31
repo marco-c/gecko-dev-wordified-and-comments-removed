@@ -120,9 +120,7 @@ versionName
 "
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
@@ -181,13 +179,13 @@ kotlin_coroutines
 implementation
 Dependencies
 .
-support_appcompat
+androidx_appcompat
 implementation
 Dependencies
 .
-support_design
+google_material
 implementation
 Dependencies
 .
-support_recyclerview
+androidx_recyclerview
 }

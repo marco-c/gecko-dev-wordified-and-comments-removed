@@ -161,11 +161,11 @@ kotlin_coroutines
 implementation
 Dependencies
 .
-support_customtabs
+androidx_browser
 implementation
 Dependencies
 .
-arch_lifecycle
+androidx_lifecycle_extensions
 /
 /
 We

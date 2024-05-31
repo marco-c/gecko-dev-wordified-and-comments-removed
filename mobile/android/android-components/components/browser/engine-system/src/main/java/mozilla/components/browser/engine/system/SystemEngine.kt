@@ -75,14 +75,6 @@ Context
 import
 android
 .
-support
-.
-annotation
-.
-VisibleForTesting
-import
-android
-.
 util
 .
 AttributeSet
@@ -98,6 +90,12 @@ android
 webkit
 .
 WebView
+import
+androidx
+.
+annotation
+.
+VisibleForTesting
 import
 mozilla
 .

@@ -120,9 +120,7 @@ versionName
 "
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
@@ -232,5 +230,5 @@ sync
 implementation
 Dependencies
 .
-support_constraintlayout
+androidx_constraintlayout
 }

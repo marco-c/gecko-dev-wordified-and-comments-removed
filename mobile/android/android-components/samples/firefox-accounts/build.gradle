@@ -120,9 +120,7 @@ versionName
 "
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
@@ -220,7 +218,7 @@ base
 implementation
 Dependencies
 .
-support_constraintlayout
+androidx_constraintlayout
 implementation
 Dependencies
 .
@@ -232,9 +230,9 @@ kotlin_coroutines
 implementation
 Dependencies
 .
-support_appcompat
+androidx_appcompat
 implementation
 Dependencies
 .
-support_customtabs
+androidx_browser
 }

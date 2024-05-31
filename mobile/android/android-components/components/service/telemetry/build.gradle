@@ -143,7 +143,7 @@ fetch
 implementation
 Dependencies
 .
-support_annotations
+androidx_annotation
 implementation
 Dependencies
 .

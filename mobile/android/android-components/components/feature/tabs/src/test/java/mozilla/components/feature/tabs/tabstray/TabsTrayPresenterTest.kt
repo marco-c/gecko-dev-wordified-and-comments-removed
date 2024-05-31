@@ -67,9 +67,7 @@ tabs
 .
 tabstray
 import
-android
-.
-arch
+androidx
 .
 lifecycle
 .

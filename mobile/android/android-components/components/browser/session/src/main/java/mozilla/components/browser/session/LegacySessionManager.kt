@@ -65,9 +65,7 @@ browser
 .
 session
 import
-android
-.
-support
+androidx
 .
 annotation
 .

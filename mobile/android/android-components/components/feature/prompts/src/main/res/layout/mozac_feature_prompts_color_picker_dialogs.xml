@@ -345,11 +345,9 @@ listPreferredItemHeightSmall
 LinearLayout
 >
 <
-android
+androidx
 .
-support
-.
-v7
+recyclerview
 .
 widget
 .

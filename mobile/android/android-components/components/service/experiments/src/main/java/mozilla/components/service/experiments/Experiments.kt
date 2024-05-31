@@ -95,9 +95,7 @@ glean
 .
 Glean
 import
-android
-.
-support
+androidx
 .
 annotation
 .

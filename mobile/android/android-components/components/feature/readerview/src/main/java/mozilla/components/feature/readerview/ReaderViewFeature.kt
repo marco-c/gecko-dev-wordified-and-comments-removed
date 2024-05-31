@@ -77,9 +77,7 @@ content
 .
 SharedPreferences
 import
-android
-.
-support
+androidx
 .
 annotation
 .

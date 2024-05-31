@@ -165,7 +165,6 @@ List
 String
 >
 =
-(
 preferences
 (
 context
@@ -174,13 +173,11 @@ context
 getString
 (
 KEY_DOMAINS
-null
-)
-?
-:
 "
 "
 )
+!
+!
 .
 split
 (

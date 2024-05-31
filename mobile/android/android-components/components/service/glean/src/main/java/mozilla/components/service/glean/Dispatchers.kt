@@ -65,9 +65,7 @@ service
 .
 glean
 import
-android
-.
-support
+androidx
 .
 annotation
 .

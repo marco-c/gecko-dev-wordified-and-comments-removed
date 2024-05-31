@@ -229,7 +229,7 @@ testing_mockito
 testImplementation
 Dependencies
 .
-support_customtabs
+androidx_browser
 testImplementation
 Dependencies
 .

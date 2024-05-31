@@ -122,9 +122,7 @@ versionName
 "
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
@@ -238,9 +236,9 @@ kotlin_stdlib
 implementation
 Dependencies
 .
-support_appcompat
+androidx_appcompat
 implementation
 Dependencies
 .
-support_customtabs
+androidx_browser
 }

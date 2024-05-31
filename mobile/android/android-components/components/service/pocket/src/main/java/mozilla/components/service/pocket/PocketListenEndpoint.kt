@@ -65,9 +65,7 @@ service
 .
 pocket
 import
-android
-.
-support
+androidx
 .
 annotation
 .

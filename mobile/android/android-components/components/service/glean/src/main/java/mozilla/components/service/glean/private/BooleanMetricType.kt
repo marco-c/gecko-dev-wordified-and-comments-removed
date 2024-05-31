@@ -67,9 +67,7 @@ glean
 .
 private
 import
-android
-.
-support
+androidx
 .
 annotation
 .

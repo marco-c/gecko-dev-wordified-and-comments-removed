@@ -196,7 +196,7 @@ base
 implementation
 Dependencies
 .
-arch_workmanager
+androidx_work_runtime
 testImplementation
 Dependencies
 .

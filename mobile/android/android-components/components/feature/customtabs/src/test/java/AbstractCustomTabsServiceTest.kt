@@ -107,6 +107,14 @@ customtabs
 .
 ICustomTabsService
 import
+androidx
+.
+browser
+.
+customtabs
+.
+CustomTabsService
+import
 mozilla
 .
 components
@@ -408,7 +416,9 @@ java
 )
 assertEquals
 (
-0
+CustomTabsService
+.
+RESULT_FAILURE_DISALLOWED
 stub
 .
 postMessage

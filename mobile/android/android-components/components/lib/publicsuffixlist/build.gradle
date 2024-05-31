@@ -108,9 +108,7 @@ config
 targetSdkVersion
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .

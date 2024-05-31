@@ -69,14 +69,6 @@ internal
 import
 android
 .
-support
-.
-annotation
-.
-VisibleForTesting
-import
-android
-.
 text
 .
 SpannableStringBuilder
@@ -88,6 +80,12 @@ text
 style
 .
 ForegroundColorSpan
+import
+androidx
+.
+annotation
+.
+VisibleForTesting
 import
 kotlinx
 .

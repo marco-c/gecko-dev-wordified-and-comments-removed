@@ -153,7 +153,7 @@ kotlin_coroutines
 implementation
 Dependencies
 .
-support_appcompat
+androidx_appcompat
 implementation
 project
 (

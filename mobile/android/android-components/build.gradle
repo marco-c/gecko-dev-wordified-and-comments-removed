@@ -872,6 +872,17 @@ atomicfu
 kotlin_module
 '
 }
+compileOptions
+{
+sourceCompatibility
+1
+.
+8
+targetCompatibility
+1
+.
+8
+}
 }
 if
 (

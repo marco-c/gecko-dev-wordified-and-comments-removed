@@ -193,11 +193,11 @@ ktx
 implementation
 Dependencies
 .
-support_appcompat
+androidx_appcompat
 implementation
 Dependencies
 .
-support_design
+google_material
 implementation
 Dependencies
 .

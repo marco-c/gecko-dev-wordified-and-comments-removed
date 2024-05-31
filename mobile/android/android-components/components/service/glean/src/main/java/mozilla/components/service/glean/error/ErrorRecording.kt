@@ -75,9 +75,7 @@ glean
 .
 error
 import
-android
-.
-support
+androidx
 .
 annotation
 .

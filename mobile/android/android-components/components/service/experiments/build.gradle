@@ -131,7 +131,7 @@ kotlin_coroutines
 implementation
 Dependencies
 .
-arch_workmanager
+androidx_work_runtime
 implementation
 project
 (

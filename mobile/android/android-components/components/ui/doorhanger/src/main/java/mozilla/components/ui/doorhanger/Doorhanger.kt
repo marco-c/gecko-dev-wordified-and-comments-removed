@@ -87,14 +87,6 @@ ColorDrawable
 import
 android
 .
-support
-.
-annotation
-.
-VisibleForTesting
-import
-android
-.
 view
 .
 LayoutInflater
@@ -122,6 +114,12 @@ android
 widget
 .
 PopupWindow
+import
+androidx
+.
+annotation
+.
+VisibleForTesting
 /
 *
 *

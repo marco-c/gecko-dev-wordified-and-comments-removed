@@ -79,11 +79,9 @@ MPL
 -
 >
 <
-android
+androidx
 .
-support
-.
-v7
+cardview
 .
 widget
 .
@@ -196,11 +194,9 @@ padding
 >
 <
 /
-android
+androidx
 .
-support
-.
-v7
+cardview
 .
 widget
 .

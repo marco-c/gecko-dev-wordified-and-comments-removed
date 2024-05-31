@@ -71,9 +71,7 @@ graphics
 .
 Bitmap
 import
-android
-.
-support
+androidx
 .
 annotation
 .

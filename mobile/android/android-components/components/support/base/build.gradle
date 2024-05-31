@@ -111,9 +111,7 @@ config
 targetSdkVersion
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
@@ -191,7 +189,7 @@ automatically
 api
 Dependencies
 .
-support_appcompat
+androidx_appcompat
 testImplementation
 project
 (

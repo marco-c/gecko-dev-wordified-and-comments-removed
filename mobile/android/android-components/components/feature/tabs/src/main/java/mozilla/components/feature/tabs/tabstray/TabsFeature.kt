@@ -67,9 +67,7 @@ tabs
 .
 tabstray
 import
-android
-.
-support
+androidx
 .
 annotation
 .

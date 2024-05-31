@@ -92,9 +92,7 @@ config
 targetSdkVersion
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
@@ -149,11 +147,11 @@ kotlin_stdlib
 implementation
 Dependencies
 .
-support_annotations
+androidx_annotation
 implementation
 Dependencies
 .
-support_compat
+androidx_core
 /
 /
 We
@@ -177,7 +175,7 @@ automatically
 api
 Dependencies
 .
-support_appcompat
+androidx_appcompat
 testImplementation
 Dependencies
 .

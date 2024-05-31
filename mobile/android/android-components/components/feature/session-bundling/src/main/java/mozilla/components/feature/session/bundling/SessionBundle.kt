@@ -67,9 +67,7 @@ session
 .
 bundling
 import
-android
-.
-support
+androidx
 .
 annotation
 .

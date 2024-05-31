@@ -149,14 +149,6 @@ Context
 import
 android
 .
-support
-.
-annotation
-.
-VisibleForTesting
-import
-android
-.
 util
 .
 AttributeSet
@@ -172,6 +164,12 @@ android
 view
 .
 View
+import
+androidx
+.
+annotation
+.
+VisibleForTesting
 /
 *
 *

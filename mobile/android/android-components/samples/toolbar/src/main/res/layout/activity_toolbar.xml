@@ -145,7 +145,7 @@ context
 =
 "
 .
-MainActivity
+ToolbarActivity
 "
 >
 <
@@ -185,11 +185,9 @@ wrap_content
 /
 >
 <
-android
+androidx
 .
-support
-.
-v7
+recyclerview
 .
 widget
 .

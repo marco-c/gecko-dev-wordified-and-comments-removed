@@ -147,7 +147,7 @@ kotlin_stdlib
 implementation
 Dependencies
 .
-support_annotations
+androidx_annotation
 implementation
 Dependencies
 .

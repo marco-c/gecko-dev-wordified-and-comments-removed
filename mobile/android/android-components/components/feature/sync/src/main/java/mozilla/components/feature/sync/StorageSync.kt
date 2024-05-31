@@ -65,9 +65,7 @@ feature
 .
 sync
 import
-android
-.
-support
+androidx
 .
 annotation
 .

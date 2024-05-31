@@ -157,7 +157,7 @@ kotlin_stdlib
 implementation
 Dependencies
 .
-support_design
+google_material
 testImplementation
 Dependencies
 .

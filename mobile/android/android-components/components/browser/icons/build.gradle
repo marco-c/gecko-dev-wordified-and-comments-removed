@@ -218,7 +218,7 @@ kotlin_coroutines
 implementation
 Dependencies
 .
-support_annotations
+androidx_annotation
 testImplementation
 project
 (

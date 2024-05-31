@@ -211,7 +211,7 @@ kotlin_coroutines
 api
 Dependencies
 .
-support_customtabs
+androidx_browser
 testImplementation
 project
 (

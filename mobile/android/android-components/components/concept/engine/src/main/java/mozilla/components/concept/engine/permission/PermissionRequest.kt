@@ -66,20 +66,6 @@ concept
 engine
 .
 permission
-import
-android
-.
-os
-.
-Parcelable
-import
-kotlinx
-.
-android
-.
-parcel
-.
-Parcelize
 /
 *
 *
@@ -373,10 +359,7 @@ String
 "
 "
 )
-:
-Parcelable
 {
-Parcelize
 data
 class
 ContentAudioCapture
@@ -405,7 +388,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentAudioMicrophone
@@ -434,7 +416,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentAudioOther
@@ -463,7 +444,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentGeoLocation
@@ -492,7 +472,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentNotification
@@ -521,7 +500,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentProtectedMediaId
@@ -550,7 +528,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentVideoApplication
@@ -579,7 +556,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentVideoBrowser
@@ -608,7 +584,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentVideoCamera
@@ -637,7 +612,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentVideoCapture
@@ -666,7 +640,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentVideoScreen
@@ -695,7 +668,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentVideoWindow
@@ -724,7 +696,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 ContentVideoOther
@@ -753,7 +724,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 AppCamera
@@ -782,7 +752,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 AppAudio
@@ -811,7 +780,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 AppLocationCoarse
@@ -840,7 +808,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 AppLocationFine
@@ -869,7 +836,6 @@ Permission
 (
 id
 )
-Parcelize
 data
 class
 Generic

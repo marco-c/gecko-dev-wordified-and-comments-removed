@@ -69,9 +69,7 @@ facts
 .
 processor
 import
-android
-.
-support
+androidx
 .
 annotation
 .

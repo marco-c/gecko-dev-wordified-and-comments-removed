@@ -69,14 +69,6 @@ layout
 import
 android
 .
-support
-.
-annotation
-.
-VisibleForTesting
-import
-android
-.
 view
 .
 LayoutInflater
@@ -104,6 +96,12 @@ android
 widget
 .
 TextView
+import
+androidx
+.
+annotation
+.
+VisibleForTesting
 import
 kotlinx
 .

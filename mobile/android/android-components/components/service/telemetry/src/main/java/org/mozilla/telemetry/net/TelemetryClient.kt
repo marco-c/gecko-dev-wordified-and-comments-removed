@@ -65,9 +65,7 @@ telemetry
 .
 net
 import
-android
-.
-support
+androidx
 .
 annotation
 .
