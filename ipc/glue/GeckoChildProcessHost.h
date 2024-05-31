@@ -836,12 +836,6 @@ InitWindowsGroupID
 nsString
 mGroupId
 ;
-CrashReporter
-:
-:
-WindowsErrorReportingData
-mWerData
-;
 #
 ifdef
 MOZ_SANDBOX
