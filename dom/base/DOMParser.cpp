@@ -904,15 +904,9 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nsDependentCSubstring
-(
-SupportedTypeValues
-:
-:
-GetString
+GetEnumString
 (
 aType
-)
 )
 )
 ;

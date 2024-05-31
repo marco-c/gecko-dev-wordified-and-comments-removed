@@ -3620,15 +3620,12 @@ aPromiseId
 dom
 :
 :
-HDCPVersionValues
-:
-:
-GetString
+GetEnumString
 (
 aMinHdcpVersion
 )
 .
-data
+get
 (
 )
 )

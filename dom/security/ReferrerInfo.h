@@ -484,16 +484,6 @@ nsAString
 aContent
 )
 ;
-static
-const
-char
-*
-ReferrerPolicyToString
-(
-ReferrerPolicyEnum
-aPolicy
-)
-;
 HashNumber
 Hash
 (

@@ -2160,15 +2160,9 @@ mKeySystem
 get
 (
 )
-nsCString
-(
-MediaKeySystemStatusValues
-:
-:
-GetString
+GetEnumString
 (
 status
-)
 )
 .
 get

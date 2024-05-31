@@ -1368,10 +1368,7 @@ Value
 .
 AssignASCII
 (
-VideoFacingModeEnumValues
-:
-:
-GetString
+GetEnumString
 (
 VideoFacingModeEnum
 :
