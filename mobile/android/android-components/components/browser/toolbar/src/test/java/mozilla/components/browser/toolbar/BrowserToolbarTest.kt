@@ -651,8 +651,8 @@ editToolbar
 ediToolbar
 toolbar
 .
-displayUrl
-(
+url
+=
 "
 https
 :
@@ -664,7 +664,6 @@ mozilla
 .
 org
 "
-)
 verify
 (
 displayToolbar
@@ -745,8 +744,8 @@ editToolbar
 ediToolbar
 toolbar
 .
-displayUrl
-(
+url
+=
 "
 https
 :
@@ -758,7 +757,6 @@ mozilla
 .
 org
 "
-)
 verify
 (
 ediToolbar
@@ -1726,8 +1724,8 @@ android
 )
 toolbar
 .
-displayUrl
-(
+url
+=
 "
 https
 :
@@ -1739,7 +1737,6 @@ mozilla
 .
 org
 "
-)
 toolbar
 .
 editMode
@@ -1785,8 +1782,8 @@ setSearchTerms
 )
 toolbar
 .
-displayUrl
-(
+url
+=
 "
 https
 :
@@ -1798,7 +1795,6 @@ mozilla
 .
 org
 "
-)
 toolbar
 .
 editMode
