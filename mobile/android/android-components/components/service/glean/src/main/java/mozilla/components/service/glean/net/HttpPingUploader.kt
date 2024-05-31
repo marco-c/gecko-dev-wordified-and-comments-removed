@@ -326,7 +326,17 @@ JSON
 e
 "
 )
+/
+/
+COVERAGE
+-
+IGNORE
 null
+/
+/
+COVERAGE
+-
+IGNORE
 }
 indented
 ?
