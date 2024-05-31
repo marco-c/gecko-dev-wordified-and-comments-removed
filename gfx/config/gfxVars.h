@@ -697,6 +697,13 @@ WebRenderOverlayVpAutoHDR
 bool
 false
 )
+\
+_
+(
+WebRenderOverlayVpSuperResolution
+bool
+false
+)
 class
 gfxVars
 final
