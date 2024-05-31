@@ -759,6 +759,11 @@ nsIPrincipal
 aPrincipal
 )
 ;
+nsresult
+EnsureBackgroundActor
+(
+)
+;
 [
 [
 nodiscard
