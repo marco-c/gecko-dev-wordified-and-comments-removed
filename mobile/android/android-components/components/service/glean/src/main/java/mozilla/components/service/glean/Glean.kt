@@ -113,18 +113,6 @@ coroutines
 .
 launch
 import
-mozilla
-.
-components
-.
-service
-.
-glean
-.
-GleanMetrics
-.
-GleanBaseline
-import
 java
 .
 util
@@ -1494,7 +1482,7 @@ GleanInternalMetrics
 clientId
 uuid
 )
-GleanBaseline
+GleanInternalMetrics
 .
 firstRunDate
 .
