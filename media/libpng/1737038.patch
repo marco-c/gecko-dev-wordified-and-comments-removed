@@ -87,10 +87,10 @@ strategy
 PNG_Z_DEFAULT_NOFILTER_STRATEGY
 ;
 -
-828
+823
 12
 +
-830
+825
 16
 png_write_IHDR
 (
