@@ -143,13 +143,6 @@ browser
 -
 engine
 -
-gecko
-"
-"
-browser
--
-engine
--
 servo
 "
 "
