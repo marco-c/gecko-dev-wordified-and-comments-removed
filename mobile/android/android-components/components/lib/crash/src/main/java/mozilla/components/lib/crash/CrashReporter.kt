@@ -482,8 +482,6 @@ Context
 :
 CrashReporter
 {
-CrashReporter
-.
 instance
 =
 this
