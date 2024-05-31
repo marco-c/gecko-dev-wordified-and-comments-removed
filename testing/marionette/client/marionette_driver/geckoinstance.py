@@ -219,6 +219,14 @@ True
 "
 dom
 .
+disable_open_during_load
+"
+:
+False
+        
+"
+dom
+.
 file
 .
 createInChild
