@@ -108,12 +108,13 @@ val
 storage
 :
 ExperimentStorage
-regionProvider
+valuesProvider
 :
-RegionProvider
-?
+ValuesProvider
 =
-null
+ValuesProvider
+(
+)
 )
 {
 private
@@ -142,7 +143,7 @@ evaluator
 =
 ExperimentEvaluator
 (
-regionProvider
+valuesProvider
 )
 /
 *

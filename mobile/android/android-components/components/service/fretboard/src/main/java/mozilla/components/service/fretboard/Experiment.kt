@@ -193,6 +193,13 @@ String
 ?
 =
 null
+val
+releaseChannel
+:
+String
+?
+=
+null
 )
 data
 class
