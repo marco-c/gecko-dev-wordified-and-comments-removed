@@ -703,6 +703,12 @@ clean
 args
 .
 clean
+            
+screenshot_on_failure
+=
+args
+.
+screenshot_on_failure
         
 )
     

@@ -476,6 +476,17 @@ clean
 "
 ]
         
+self
+.
+screenshot_on_failure
+=
+kwargs
+[
+"
+screenshot_on_failure
+"
+]
+        
 if
 Conditions
 .
@@ -916,6 +927,14 @@ clean
 self
 .
 clean
+            
+"
+screenshot_on_failure
+"
+:
+self
+.
+screenshot_on_failure
         
 }
         
