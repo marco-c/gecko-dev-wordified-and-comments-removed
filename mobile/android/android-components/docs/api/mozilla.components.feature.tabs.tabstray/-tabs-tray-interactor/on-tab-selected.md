@@ -173,7 +173,7 @@ TabsTrayInteractor
 .
 kt
 #
-L34
+L30
 )
 Overrides
 [

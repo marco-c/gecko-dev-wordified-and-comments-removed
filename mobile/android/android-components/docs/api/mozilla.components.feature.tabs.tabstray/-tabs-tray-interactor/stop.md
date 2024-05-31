@@ -142,5 +142,5 @@ TabsTrayInteractor
 .
 kt
 #
-L30
+L26
 )

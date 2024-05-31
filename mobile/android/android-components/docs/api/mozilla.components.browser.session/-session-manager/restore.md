@@ -151,7 +151,7 @@ SessionManager
 .
 kt
 #
-L195
+L194
 )
 Restores
 sessions
@@ -246,18 +246,4 @@ snapshot
 .
 md
 )
-.
-#
-#
-#
-Exceptions
-IllegalArgumentException
--
-if
-an
-empty
-snapshot
-is
-passed
-in
 .
