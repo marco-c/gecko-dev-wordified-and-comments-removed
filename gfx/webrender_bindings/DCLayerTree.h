@@ -1742,6 +1742,11 @@ mVpAutoHDRFailed
 =
 false
 ;
+bool
+mVpSuperResolutionFailed
+=
+false
+;
 }
 ;
 class
