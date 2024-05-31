@@ -129,6 +129,8 @@ service
 .
 fxa
 .
+manager
+.
 FxaAccountManager
 import
 mozilla

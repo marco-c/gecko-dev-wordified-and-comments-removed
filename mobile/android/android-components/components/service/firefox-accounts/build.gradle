@@ -221,6 +221,10 @@ implementation
 Dependencies
 .
 kotlin_coroutines
+implementation
+Dependencies
+.
+androidx_work_runtime
 testImplementation
 project
 (
@@ -247,6 +251,10 @@ testImplementation
 Dependencies
 .
 testing_mockito
+testImplementation
+Dependencies
+.
+kotlin_coroutines_test
 }
 apply
 from
