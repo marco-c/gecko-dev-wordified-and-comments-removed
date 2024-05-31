@@ -1012,6 +1012,10 @@ mozilla
 ComputedStyle
 *
 aComputedStyle
+const
+NSSize
+&
+aPreferredSize
 NSImage
 *
 *
@@ -1045,6 +1049,10 @@ mozilla
 ComputedStyle
 *
 aComputedStyle
+const
+NSSize
+&
+aPreferredSize
 NSImage
 *
 *

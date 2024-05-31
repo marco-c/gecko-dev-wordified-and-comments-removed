@@ -2750,6 +2750,11 @@ imgIContainer
 FRAME_FIRST
 nullptr
 nullptr
+NSMakeSize
+(
+0
+0
+)
 &
 cocoaImage
 )
