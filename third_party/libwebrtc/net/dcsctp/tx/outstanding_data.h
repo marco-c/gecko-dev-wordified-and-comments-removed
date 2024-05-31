@@ -227,8 +227,6 @@ OutstandingData
 size_t
 data_chunk_header_size
 UnwrappedTSN
-next_tsn
-UnwrappedTSN
 last_cumulative_tsn_ack
 std
 :
@@ -247,10 +245,6 @@ discard_from_send_queue
 data_chunk_header_size_
 (
 data_chunk_header_size
-)
-next_tsn_
-(
-next_tsn
 )
 last_cumulative_tsn_ack_
 (
@@ -428,7 +422,13 @@ next_tsn
 const
 {
 return
-next_tsn_
+highest_outstanding_tsn
+(
+)
+.
+next_value
+(
+)
 ;
 }
 UnwrappedTSN
@@ -553,8 +553,6 @@ const
 void
 ResetSequenceNumbers
 (
-UnwrappedTSN
-next_tsn
 UnwrappedTSN
 last_cumulative_tsn
 )
@@ -1060,9 +1058,6 @@ const
 const
 size_t
 data_chunk_header_size_
-;
-UnwrappedTSN
-next_tsn_
 ;
 UnwrappedTSN
 last_cumulative_tsn_ack_
