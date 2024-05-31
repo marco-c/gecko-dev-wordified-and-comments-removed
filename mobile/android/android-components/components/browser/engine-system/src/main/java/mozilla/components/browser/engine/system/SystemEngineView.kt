@@ -1338,6 +1338,9 @@ view
 .
 loadDataWithBaseURL
 (
+url
+?
+:
 error
 .
 url
@@ -1398,6 +1401,9 @@ view
 .
 loadDataWithBaseURL
 (
+url
+?
+:
 failingUrl
 data
 mimeType
