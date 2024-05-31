@@ -15,7 +15,6 @@ expect
 import
 {
 getTestState
-isHeadless
 launch
 setupTestBrowserHooks
 }
@@ -2831,7 +2830,7 @@ context
 await
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 )
 ;
@@ -3337,16 +3336,7 @@ jpg
 }
 )
 ;
-(
-!
-isHeadless
-?
 it
-:
-it
-.
-skip
-)
 (
 '
 should

@@ -118,9 +118,3 @@ NetworkConditions
 }
 )
 ;
-export
-const
-networkConditions
-=
-PredefinedNetworkConditions
-;

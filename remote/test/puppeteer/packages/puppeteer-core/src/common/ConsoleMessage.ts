@@ -57,7 +57,7 @@ error
 '
 |
 '
-warning
+warn
 '
 |
 '

@@ -1038,10 +1038,6 @@ cdp
 await
 page
 .
-target
-(
-)
-.
 createCDPSession
 (
 )

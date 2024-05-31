@@ -125,13 +125,6 @@ puppeteer
 .
 launch
 (
-{
-headless
-:
-'
-new
-'
-}
 )
 ;
 }
@@ -179,13 +172,6 @@ puppeteer
 .
 launch
 (
-{
-headless
-:
-'
-new
-'
-}
 )
 ;
 }

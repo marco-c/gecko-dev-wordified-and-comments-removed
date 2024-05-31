@@ -9197,9 +9197,3 @@ freeze
 knownDevicesByName
 )
 ;
-export
-const
-devices
-=
-KnownDevices
-;

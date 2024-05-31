@@ -41,11 +41,6 @@ downloadBaseUrl
 :
 string
 ;
-downloadPath
-?
-:
-string
-;
 executablePath
 ?
 :

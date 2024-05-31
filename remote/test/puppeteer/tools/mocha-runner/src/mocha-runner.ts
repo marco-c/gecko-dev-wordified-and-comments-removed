@@ -6,6 +6,8 @@ usr
 bin
 /
 env
+-
+S
 node
 import
 {
@@ -193,7 +195,7 @@ boolean
 true
 default
 :
-true
+false
 }
 )
 .

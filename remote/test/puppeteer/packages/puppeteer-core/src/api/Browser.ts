@@ -22,7 +22,6 @@ protocol
 ;
 import
 {
-filterAsync
 firstValueFrom
 from
 merge
@@ -84,6 +83,7 @@ import
 {
 debugError
 fromEmitterEvent
+filterAsync
 timeout
 }
 from
@@ -545,13 +545,6 @@ targetdiscovered
 '
 }
 export
-{
-BrowserEvent
-as
-BrowserEmittedEvents
-}
-;
-export
 interface
 BrowserEvents
 extends
@@ -646,7 +639,7 @@ ChildProcess
 null
 ;
 abstract
-createIncognitoBrowserContext
+createBrowserContext
 (
 options
 ?

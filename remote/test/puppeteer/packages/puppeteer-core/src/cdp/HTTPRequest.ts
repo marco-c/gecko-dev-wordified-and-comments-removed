@@ -143,6 +143,11 @@ CdpHTTPRequest
 extends
 HTTPRequest
 {
+override
+id
+:
+string
+;
 declare
 _redirectChain
 :
@@ -397,7 +402,7 @@ client
 ;
 this
 .
-_requestId
+id
 =
 data
 .
@@ -1034,7 +1039,7 @@ requestId
 :
 this
 .
-_requestId
+id
 }
 )
 ;

@@ -1447,7 +1447,7 @@ headless
 boolean
 |
 '
-new
+shell
 '
 )
 :
@@ -1522,7 +1522,7 @@ headless
 boolean
 |
 '
-new
+shell
 '
 )
 {
@@ -1542,7 +1542,9 @@ headless
 =
 =
 =
-true
+'
+shell
+'
 )
 {
 return

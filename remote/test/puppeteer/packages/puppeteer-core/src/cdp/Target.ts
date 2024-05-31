@@ -1524,6 +1524,14 @@ _getTargetInfo
 )
 .
 url
+this
+.
+_targetId
+this
+.
+type
+(
+)
 (
 )
 =

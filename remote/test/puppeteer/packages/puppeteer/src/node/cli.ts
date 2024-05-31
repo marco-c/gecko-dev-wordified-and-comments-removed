@@ -55,13 +55,6 @@ puppeteer
 .
 configuration
 .
-downloadPath
-?
-?
-puppeteer
-.
-configuration
-.
 cacheDirectory
 !
 ;

@@ -42,7 +42,7 @@ headless
 boolean
 |
 '
-new
+shell
 '
 ;
 userDataDir
