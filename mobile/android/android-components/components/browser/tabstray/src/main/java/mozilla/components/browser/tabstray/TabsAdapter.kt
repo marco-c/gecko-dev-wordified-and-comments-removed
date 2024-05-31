@@ -261,6 +261,7 @@ mozac_browser_tabstray_item
 parent
 false
 )
+tabsTray
 )
 .
 also

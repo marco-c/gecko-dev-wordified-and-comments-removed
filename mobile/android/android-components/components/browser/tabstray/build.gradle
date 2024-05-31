@@ -196,6 +196,10 @@ test
 testImplementation
 Dependencies
 .
+testing_androidx
+testImplementation
+Dependencies
+.
 testing_junit
 testImplementation
 Dependencies
