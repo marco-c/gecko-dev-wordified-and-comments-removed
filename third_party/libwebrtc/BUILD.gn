@@ -4831,7 +4831,7 @@ poison_audio_codecs
 group
 (
 "
-poison_default_task_queue
+poison_default_echo_detector
 "
 )
 {
@@ -4839,7 +4839,7 @@ poison_default_task_queue
 group
 (
 "
-poison_default_echo_detector
+poison_environment_construction
 "
 )
 {
