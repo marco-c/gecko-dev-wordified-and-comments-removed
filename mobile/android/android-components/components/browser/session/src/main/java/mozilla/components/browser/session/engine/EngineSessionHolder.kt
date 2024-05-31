@@ -80,6 +80,7 @@ internal
 class
 EngineSessionHolder
 {
+Volatile
 var
 engineSession
 :
@@ -87,6 +88,7 @@ EngineSession
 ?
 =
 null
+Volatile
 var
 engineObserver
 :
