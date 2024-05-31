@@ -9,3 +9,14 @@ pocket
 apiKey
 .
 txt
+src
+/
+test
+/
+resources
+/
+pocket
+/
+listenAccessToken
+.
+txt
