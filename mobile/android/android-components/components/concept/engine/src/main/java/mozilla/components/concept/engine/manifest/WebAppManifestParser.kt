@@ -888,12 +888,11 @@ type
 =
 obj
 .
-optString
+tryGetString
 (
 "
 type
 "
-null
 )
 purpose
 =

@@ -1204,9 +1204,10 @@ getLink
 )
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 clip
+)
 snackbarDelegate
 .
 show
@@ -1339,9 +1340,10 @@ src
 )
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 clip
+)
 snackbarDelegate
 .
 show

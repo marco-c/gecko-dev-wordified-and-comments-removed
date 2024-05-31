@@ -330,9 +330,9 @@ runBlocking
 {
 clipboardManager
 .
-primaryClip
-=
-null
+clearPrimaryClip
+(
+)
 val
 provider
 =
@@ -383,8 +383,8 @@ clip
 {
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 ClipData
 .
 newHtmlText
@@ -414,6 +414,7 @@ org
 b
 >
 "
+)
 )
 assertNull
 (
@@ -608,8 +609,8 @@ start
 {
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 ClipData
 .
 newPlainText
@@ -629,6 +630,7 @@ mozilla
 .
 org
 "
+)
 )
 val
 provider
@@ -750,8 +752,8 @@ suggestion
 {
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 ClipData
 .
 newPlainText
@@ -769,6 +771,7 @@ mozilla
 .
 org
 "
+)
 )
 val
 bitmap
@@ -879,8 +882,8 @@ runBlocking
 {
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 ClipData
 .
 newPlainText
@@ -901,6 +904,7 @@ mozilla
 .
 org
 "
+)
 )
 val
 selectedEngineSession
@@ -1122,8 +1126,8 @@ runBlocking
 {
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 ClipData
 .
 newPlainText
@@ -1144,6 +1148,7 @@ mozilla
 .
 org
 "
+)
 )
 val
 provider
@@ -1248,8 +1253,8 @@ Suggestion
 {
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 ClipData
 .
 newPlainText
@@ -1259,6 +1264,7 @@ Test
 label
 "
 text
+)
 )
 return
 getSuggestion
