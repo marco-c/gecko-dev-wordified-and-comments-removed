@@ -292,7 +292,7 @@ observer
 }
 Test
 fun
-obserber
+observer
 is
 notified
 when

@@ -209,6 +209,9 @@ components
 .
 engine
 engineView
+components
+.
+sessionMapping
 )
 toolbarFeature
 =
@@ -217,6 +220,11 @@ ToolbarFeature
 components
 .
 sessionManager
+components
+.
+sessionUseCases
+.
+loadUrl
 toolbar
 )
 }
