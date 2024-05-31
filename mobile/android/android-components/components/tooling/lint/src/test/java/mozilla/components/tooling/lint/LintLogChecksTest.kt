@@ -313,7 +313,7 @@ LintLogChecks
 )
 logCheck
 .
-visitMethod
+visitMethodCall
 (
 context
 node
@@ -352,7 +352,7 @@ methodIdentifier
 )
 logCheck
 .
-visitMethod
+visitMethodCall
 (
 context
 node
@@ -393,7 +393,7 @@ clazz
 )
 logCheck
 .
-visitMethod
+visitMethodCall
 (
 context
 node
@@ -440,7 +440,7 @@ Class
 )
 logCheck
 .
-visitMethod
+visitMethodCall
 (
 context
 node
@@ -487,7 +487,7 @@ Class
 )
 logCheck
 .
-visitMethod
+visitMethodCall
 (
 context
 node

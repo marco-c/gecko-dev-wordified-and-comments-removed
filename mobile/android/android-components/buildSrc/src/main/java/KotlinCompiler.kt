@@ -225,11 +225,6 @@ support
 test
 "
 "
-tooling
--
-lint
-"
-"
 ui
 -
 tabcounter
