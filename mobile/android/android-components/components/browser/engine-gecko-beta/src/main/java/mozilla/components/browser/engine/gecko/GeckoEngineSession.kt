@@ -239,6 +239,16 @@ geckoview
 .
 GeckoSession
 .
+NavigationDelegate
+import
+org
+.
+mozilla
+.
+geckoview
+.
+GeckoSession
+.
 ContentDelegate
 .
 ELEMENT_TYPE_AUDIO
@@ -2362,8 +2372,6 @@ internal
 fun
 geckoErrorToErrorType
 (
-GeckoSession
-.
 NavigationDelegate
 .
 LoadError
@@ -2377,8 +2385,6 @@ when
 errorCode
 )
 {
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_UNKNOWN
@@ -2387,8 +2393,6 @@ ERROR_UNKNOWN
 ErrorType
 .
 UNKNOWN
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_SECURITY_SSL
@@ -2397,8 +2401,6 @@ ERROR_SECURITY_SSL
 ErrorType
 .
 ERROR_SECURITY_SSL
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_SECURITY_BAD_CERT
@@ -2407,8 +2409,6 @@ ERROR_SECURITY_BAD_CERT
 ErrorType
 .
 ERROR_SECURITY_BAD_CERT
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_NET_INTERRUPT
@@ -2417,8 +2417,6 @@ ERROR_NET_INTERRUPT
 ErrorType
 .
 ERROR_NET_INTERRUPT
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_NET_TIMEOUT
@@ -2427,8 +2425,6 @@ ERROR_NET_TIMEOUT
 ErrorType
 .
 ERROR_NET_TIMEOUT
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_CONNECTION_REFUSED
@@ -2437,8 +2433,6 @@ ERROR_CONNECTION_REFUSED
 ErrorType
 .
 ERROR_CONNECTION_REFUSED
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_UNKNOWN_SOCKET_TYPE
@@ -2447,8 +2441,6 @@ ERROR_UNKNOWN_SOCKET_TYPE
 ErrorType
 .
 ERROR_UNKNOWN_SOCKET_TYPE
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_REDIRECT_LOOP
@@ -2457,8 +2449,6 @@ ERROR_REDIRECT_LOOP
 ErrorType
 .
 ERROR_REDIRECT_LOOP
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_OFFLINE
@@ -2467,8 +2457,6 @@ ERROR_OFFLINE
 ErrorType
 .
 ERROR_OFFLINE
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_PORT_BLOCKED
@@ -2477,8 +2465,6 @@ ERROR_PORT_BLOCKED
 ErrorType
 .
 ERROR_PORT_BLOCKED
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_NET_RESET
@@ -2487,8 +2473,6 @@ ERROR_NET_RESET
 ErrorType
 .
 ERROR_NET_RESET
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_UNSAFE_CONTENT_TYPE
@@ -2497,8 +2481,6 @@ ERROR_UNSAFE_CONTENT_TYPE
 ErrorType
 .
 ERROR_UNSAFE_CONTENT_TYPE
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_CORRUPTED_CONTENT
@@ -2507,8 +2489,6 @@ ERROR_CORRUPTED_CONTENT
 ErrorType
 .
 ERROR_CORRUPTED_CONTENT
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_CONTENT_CRASHED
@@ -2517,8 +2497,6 @@ ERROR_CONTENT_CRASHED
 ErrorType
 .
 ERROR_CONTENT_CRASHED
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_INVALID_CONTENT_ENCODING
@@ -2527,8 +2505,6 @@ ERROR_INVALID_CONTENT_ENCODING
 ErrorType
 .
 ERROR_INVALID_CONTENT_ENCODING
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_UNKNOWN_HOST
@@ -2537,8 +2513,6 @@ ERROR_UNKNOWN_HOST
 ErrorType
 .
 ERROR_UNKNOWN_HOST
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_MALFORMED_URI
@@ -2547,8 +2521,6 @@ ERROR_MALFORMED_URI
 ErrorType
 .
 ERROR_MALFORMED_URI
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_UNKNOWN_PROTOCOL
@@ -2557,8 +2529,6 @@ ERROR_UNKNOWN_PROTOCOL
 ErrorType
 .
 ERROR_UNKNOWN_PROTOCOL
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_FILE_NOT_FOUND
@@ -2567,8 +2537,6 @@ ERROR_FILE_NOT_FOUND
 ErrorType
 .
 ERROR_FILE_NOT_FOUND
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_FILE_ACCESS_DENIED
@@ -2577,8 +2545,6 @@ ERROR_FILE_ACCESS_DENIED
 ErrorType
 .
 ERROR_FILE_ACCESS_DENIED
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_PROXY_CONNECTION_REFUSED
@@ -2587,8 +2553,6 @@ ERROR_PROXY_CONNECTION_REFUSED
 ErrorType
 .
 ERROR_PROXY_CONNECTION_REFUSED
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_UNKNOWN_PROXY_HOST
@@ -2597,8 +2561,6 @@ ERROR_UNKNOWN_PROXY_HOST
 ErrorType
 .
 ERROR_UNKNOWN_PROXY_HOST
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_SAFEBROWSING_MALWARE_URI
@@ -2607,8 +2569,6 @@ ERROR_SAFEBROWSING_MALWARE_URI
 ErrorType
 .
 ERROR_SAFEBROWSING_MALWARE_URI
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_SAFEBROWSING_UNWANTED_URI
@@ -2617,8 +2577,6 @@ ERROR_SAFEBROWSING_UNWANTED_URI
 ErrorType
 .
 ERROR_SAFEBROWSING_UNWANTED_URI
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_SAFEBROWSING_HARMFUL_URI
@@ -2627,8 +2585,6 @@ ERROR_SAFEBROWSING_HARMFUL_URI
 ErrorType
 .
 ERROR_SAFEBROWSING_HARMFUL_URI
-GeckoSession
-.
 NavigationDelegate
 .
 ERROR_SAFEBROWSING_PHISHING_URI
