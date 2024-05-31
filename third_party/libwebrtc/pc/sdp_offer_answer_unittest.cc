@@ -10333,11 +10333,6 @@ contents
 media_description
 (
 )
--
->
-as_audio
-(
-)
 ;
 ASSERT_GT
 (
