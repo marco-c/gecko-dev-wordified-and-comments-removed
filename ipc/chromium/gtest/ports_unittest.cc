@@ -7614,7 +7614,7 @@ D
 EXPECT_EQ
 (
 OK
-node0
+node1
 .
 SendStringMessage
 (
