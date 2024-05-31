@@ -135,6 +135,12 @@ threadCanary
 false
 runBlocking
 {
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 Dispatchers
 .
 API

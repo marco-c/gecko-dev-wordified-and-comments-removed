@@ -809,6 +809,12 @@ labels
 .
 *
 /
+Suppress
+(
+"
+UNCHECKED_CAST
+"
+)
 internal
 fun
 getMetricWithNewName

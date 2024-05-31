@@ -69,12 +69,6 @@ ping
 import
 android
 .
-content
-.
-Context
-import
-android
-.
 os
 .
 Build
@@ -128,11 +122,6 @@ pings
 internal
 class
 BaselinePing
-(
-applicationContext
-:
-Context
-)
 {
 private
 val

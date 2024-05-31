@@ -228,6 +228,12 @@ EventsStorageEngineTest
 get
 :
 Rule
+Suppress
+(
+"
+EXPERIMENTAL_API_USAGE
+"
+)
 val
 fakeDispatchers
 =

@@ -261,6 +261,12 @@ name
 "
 LauncherActivity
 "
+Suppress
+(
+"
+DEPRECATION
+"
+)
 shadowOf
 (
 pm

@@ -1276,6 +1276,12 @@ applicationContext
 packageName
 0
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 StringsStorageEngine
 .
 record
@@ -1380,7 +1386,6 @@ baselinePing
 =
 BaselinePing
 (
-applicationContext
 )
 }
 /
