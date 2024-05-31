@@ -165,6 +165,11 @@ PocketJSONParser
 return
 The
 videos
+removing
+entries
+that
+are
+invalid
 or
 null
 on
