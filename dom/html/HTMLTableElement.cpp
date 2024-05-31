@@ -4605,8 +4605,9 @@ HTMLTableElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 ReleaseInheritedAttributes
@@ -4618,7 +4619,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

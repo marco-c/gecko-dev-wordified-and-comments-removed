@@ -295,8 +295,9 @@ SVGMPathElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 mMPathObserver
@@ -312,7 +313,7 @@ SVGMPathElementBase
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

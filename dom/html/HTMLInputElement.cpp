@@ -20892,8 +20892,9 @@ HTMLInputElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 if
@@ -20954,7 +20955,6 @@ nsImageLoadingContent
 :
 UnbindFromTree
 (
-aNullParent
 )
 ;
 nsGenericHTMLFormControlElementWithState
@@ -20962,7 +20962,7 @@ nsGenericHTMLFormControlElementWithState
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 if

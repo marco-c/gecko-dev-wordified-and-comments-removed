@@ -473,10 +473,6 @@ const
 void
 UnbindFromTree
 (
-bool
-aNullParent
-=
-true
 )
 ;
 virtual

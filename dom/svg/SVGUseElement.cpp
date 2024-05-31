@@ -895,8 +895,9 @@ SVGUseElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 SVGUseElementBase
@@ -904,7 +905,7 @@ SVGUseElementBase
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 OwnerDoc

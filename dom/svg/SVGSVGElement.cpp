@@ -1521,8 +1521,9 @@ SVGSVGElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 if
@@ -1544,7 +1545,7 @@ SVGGraphicsElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

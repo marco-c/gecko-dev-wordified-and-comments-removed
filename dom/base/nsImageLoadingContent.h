@@ -542,8 +542,6 @@ aParent
 void
 UnbindFromTree
 (
-bool
-aNullParent
 )
 ;
 void

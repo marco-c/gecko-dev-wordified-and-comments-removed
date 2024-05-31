@@ -763,8 +763,9 @@ SVGAnimationElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 SMILAnimationController
@@ -815,7 +816,7 @@ SVGAnimationElementBase
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

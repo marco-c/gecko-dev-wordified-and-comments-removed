@@ -22818,8 +22818,9 @@ HTMLMediaElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 mVisibilityState
@@ -22846,7 +22847,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 MOZ_ASSERT

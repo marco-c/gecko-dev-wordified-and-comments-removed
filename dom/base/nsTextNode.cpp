@@ -196,10 +196,8 @@ virtual
 void
 UnbindFromTree
 (
-bool
-aNullParent
-=
-true
+UnbindContext
+&
 )
 override
 ;
@@ -550,8 +548,9 @@ nsTextNode
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 ResetDirectionSetByTextNode
@@ -564,7 +563,7 @@ CharacterData
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }
@@ -1114,8 +1113,9 @@ nsAttributeTextNode
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 if
@@ -1141,7 +1141,7 @@ nsTextNode
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

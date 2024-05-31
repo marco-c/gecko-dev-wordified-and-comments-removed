@@ -133,10 +133,8 @@ virtual
 void
 UnbindFromTree
 (
-bool
-aNullParent
-=
-true
+UnbindContext
+&
 )
 override
 ;

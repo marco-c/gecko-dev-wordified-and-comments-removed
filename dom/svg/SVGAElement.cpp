@@ -805,8 +805,9 @@ SVGAElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 SVGAElementBase
@@ -814,7 +815,7 @@ SVGAElementBase
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 Link

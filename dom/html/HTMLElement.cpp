@@ -389,8 +389,9 @@ HTMLElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsGenericHTMLFormElement
@@ -398,7 +399,7 @@ nsGenericHTMLFormElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 UpdateBarredFromConstraintValidation

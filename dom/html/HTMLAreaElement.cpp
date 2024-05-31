@@ -356,8 +356,9 @@ HTMLAreaElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsGenericHTMLElement
@@ -365,7 +366,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 Link

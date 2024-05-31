@@ -113,10 +113,8 @@ override
 void
 UnbindFromTree
 (
-bool
-aNullParent
-=
-true
+UnbindContext
+&
 )
 override
 ;
@@ -324,12 +322,9 @@ TabIndexDefault
 )
 final
 ;
-bool
-IsFocusableInternal
+Focusable
+IsFocusableWithoutStyle
 (
-int32_t
-*
-aTabIndex
 bool
 aWithMouse
 )

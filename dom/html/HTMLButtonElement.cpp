@@ -1457,8 +1457,9 @@ HTMLButtonElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsGenericHTMLFormControlElementWithState
@@ -1466,7 +1467,7 @@ nsGenericHTMLFormControlElementWithState
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 UpdateBarredFromConstraintValidation

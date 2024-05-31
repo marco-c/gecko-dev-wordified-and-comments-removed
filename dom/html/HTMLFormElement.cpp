@@ -2455,8 +2455,9 @@ HTMLFormElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 MaybeFireFormRemoved
@@ -2511,7 +2512,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 nsINode

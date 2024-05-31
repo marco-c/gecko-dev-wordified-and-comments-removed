@@ -3775,8 +3775,9 @@ nsXULElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 if
@@ -3903,7 +3904,7 @@ nsStyledElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

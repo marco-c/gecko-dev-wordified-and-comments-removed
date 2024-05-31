@@ -1066,8 +1066,9 @@ HTMLVideoElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 if
@@ -1121,7 +1122,7 @@ HTMLMediaElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

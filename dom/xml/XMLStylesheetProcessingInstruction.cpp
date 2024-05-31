@@ -190,8 +190,9 @@ XMLStylesheetProcessingInstruction
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsCOMPtr
@@ -209,7 +210,7 @@ ProcessingInstruction
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 Unused

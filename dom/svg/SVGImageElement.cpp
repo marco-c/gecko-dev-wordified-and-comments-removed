@@ -1321,8 +1321,9 @@ SVGImageElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsImageLoadingContent
@@ -1330,7 +1331,6 @@ nsImageLoadingContent
 :
 UnbindFromTree
 (
-aNullParent
 )
 ;
 SVGImageElementBase
@@ -1338,7 +1338,7 @@ SVGImageElementBase
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

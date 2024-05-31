@@ -400,8 +400,9 @@ XULMenuBarElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 if
@@ -464,7 +465,7 @@ XULMenuParentElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }
