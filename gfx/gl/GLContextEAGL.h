@@ -68,8 +68,6 @@ context
 GLContext
 *
 sharedContext
-ContextProfile
-profile
 )
 ;
 ~
