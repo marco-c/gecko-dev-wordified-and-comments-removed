@@ -292,6 +292,16 @@ bandwidth_rampup_upper_bound_factor
 0
 ;
 double
+bandwidth_rampup_upper_bound_factor_in_hold
+=
+0
+;
+double
+bandwidth_rampup_hold_threshold
+=
+0
+;
+double
 rampup_acceleration_max_factor
 =
 0
