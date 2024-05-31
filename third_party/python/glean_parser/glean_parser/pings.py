@@ -225,6 +225,22 @@ precise_timestamps
 True
 )
         
+self
+.
+include_info_sections
+=
+self
+.
+metadata
+.
+get
+(
+"
+include_info_sections
+"
+True
+)
+        
 if
 data_reviews
 is
@@ -509,6 +525,20 @@ modified_dict
 "
 precise_timestamps
 "
+)
+        
+modified_dict
+=
+util
+.
+remove_output_params
+(
+            
+modified_dict
+"
+include_info_sections
+"
+        
 )
         
 return
