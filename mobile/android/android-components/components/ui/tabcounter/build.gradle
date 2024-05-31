@@ -96,7 +96,7 @@ buildTypes
 release
 {
 minifyEnabled
-true
+false
 proguardFiles
 getDefaultProguardFile
 (
@@ -115,15 +115,6 @@ rules
 .
 pro
 '
-}
-}
-testOptions
-{
-unitTests
-{
-includeAndroidResources
-=
-true
 }
 }
 }
