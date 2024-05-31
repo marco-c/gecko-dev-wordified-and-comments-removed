@@ -672,6 +672,9 @@ engine
 -
 fr
 "
+"
+fixup_search
+"
 ]
 ;
 const
