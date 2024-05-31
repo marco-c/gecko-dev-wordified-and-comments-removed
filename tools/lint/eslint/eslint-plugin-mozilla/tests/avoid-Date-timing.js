@@ -60,7 +60,6 @@ invalidCode
 (
 code
 type
-message
 )
 {
 return

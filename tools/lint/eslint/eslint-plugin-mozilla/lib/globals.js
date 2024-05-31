@@ -2874,7 +2874,6 @@ parser
 {
 Program
 (
-node
 )
 {
 globalScope

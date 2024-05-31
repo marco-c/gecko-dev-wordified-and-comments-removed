@@ -44,7 +44,6 @@ importHead
 (
 context
 path
-node
 )
 {
 try

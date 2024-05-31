@@ -898,7 +898,6 @@ ast
 enter
 (
 node
-parent
 )
 {
 listener
@@ -920,8 +919,6 @@ node
 }
 leave
 (
-node
-parent
 )
 {
 if
@@ -1180,14 +1177,6 @@ node
 }
 getPermissiveConfig
 (
-{
-useBabel
-=
-true
-}
-=
-{
-}
 )
 {
 return
