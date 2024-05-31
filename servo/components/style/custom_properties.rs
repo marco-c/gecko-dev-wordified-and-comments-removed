@@ -3283,6 +3283,7 @@ next_including_whitespace_and_comments
 else
 {
 break
+;
 }
 ;
 let
@@ -9070,6 +9071,7 @@ Err
 (
 )
 )
+;
 }
 ;
 do_substitute_chunk
