@@ -648,6 +648,17 @@ URLPattern
 ]
 =
 None
+contexts
+:
+Optional
+[
+List
+[
+str
+]
+]
+=
+None
     
 )
 -
@@ -692,6 +703,22 @@ urlPatterns
 ]
 =
 url_patterns
+        
+if
+contexts
+is
+not
+None
+:
+            
+params
+[
+"
+contexts
+"
+]
+=
+contexts
         
 return
 params
