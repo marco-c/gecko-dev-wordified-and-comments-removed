@@ -136,6 +136,11 @@ strings
 "
 to
 StringsStorageEngine
+"
+uuids
+"
+to
+UuidsStorageEngine
 )
 )
 {
