@@ -145,9 +145,11 @@ ktx
 .
 android
 .
-view
+content
 .
-dp
+res
+.
+pxToDp
 /
 *
 *
@@ -345,7 +347,9 @@ LayoutParams
 0
 view
 .
-dp
+resources
+.
+pxToDp
 (
 ICON_HEIGHT_DP
 )

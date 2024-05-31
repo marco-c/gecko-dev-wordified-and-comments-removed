@@ -183,9 +183,11 @@ ktx
 .
 android
 .
-view
+content
 .
-dp
+res
+.
+pxToDp
 import
 mozilla
 .
@@ -661,7 +663,9 @@ apply
 val
 padding
 =
-dp
+resources
+.
+pxToDp
 (
 ICON_PADDING_DP
 )
@@ -756,7 +760,9 @@ apply
 val
 padding
 =
-dp
+resources
+.
+pxToDp
 (
 MENU_PADDING_DP
 )
@@ -1768,7 +1774,9 @@ MeasureSpec
 .
 makeMeasureSpec
 (
-dp
+resources
+.
+pxToDp
 (
 PROGRESS_BAR_HEIGHT_DP
 )

@@ -149,9 +149,11 @@ ktx
 .
 android
 .
-view
+content
 .
-dp
+res
+.
+pxToDp
 import
 mozilla
 .
@@ -440,7 +442,9 @@ TYPE_TEXT_VARIATION_URI
 val
 padding
 =
-dp
+resources
+.
+pxToDp
 (
 URL_PADDING_DP
 )
@@ -483,7 +487,9 @@ apply
 val
 padding
 =
-dp
+resources
+.
+pxToDp
 (
 CANCEL_PADDING_DP
 )

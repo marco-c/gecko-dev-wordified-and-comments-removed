@@ -139,9 +139,11 @@ ktx
 .
 android
 .
-view
+content
 .
-dp
+res
+.
+pxToDp
 import
 mozilla
 .
@@ -300,7 +302,9 @@ elevation
 =
 view
 .
-dp
+resources
+.
+pxToDp
 (
 MENU_ELEVATION_DP
 )
