@@ -136,11 +136,6 @@ setOf
 "
 browser
 -
-awesomebar
-"
-"
-browser
--
 domains
 "
 "
