@@ -46737,7 +46737,7 @@ newtab
 -
 custom
 -
-pocket
+stories
 -
 toggle
 "
