@@ -7168,10 +7168,13 @@ GetPowerIsCharging
 bool
 useVpAutoHDR
 =
-StaticPrefs
+gfx
 :
 :
-gfx_webrender_video_true_hdr_nvidia_AtStartup
+gfxVars
+:
+:
+WebRenderOverlayVpAutoHDR
 (
 )
 &

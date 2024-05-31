@@ -690,6 +690,13 @@ WebglUseHardware
 bool
 true
 )
+\
+_
+(
+WebRenderOverlayVpAutoHDR
+bool
+false
+)
 class
 gfxVars
 final
