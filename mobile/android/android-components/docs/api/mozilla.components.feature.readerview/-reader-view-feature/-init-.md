@@ -241,6 +241,7 @@ installed
 prior
 to
 use
+(
 see
 [
 ReaderViewFeature
@@ -251,5 +252,6 @@ install
 install
 .
 md
+)
 )
 .

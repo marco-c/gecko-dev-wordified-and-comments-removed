@@ -663,14 +663,6 @@ index
 .
 html
 )
-<
-br
->
-Normalizes
-a
-URL
-String
-.
 |
 |
 [

@@ -4267,6 +4267,17 @@ browser
 .
 engine
 .
+gecko
+.
+webextension
+mozilla
+.
+components
+.
+browser
+.
+engine
+.
 servo
 mozilla
 .

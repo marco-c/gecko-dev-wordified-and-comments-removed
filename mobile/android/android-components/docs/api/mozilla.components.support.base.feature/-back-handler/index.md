@@ -792,6 +792,7 @@ installed
 prior
 to
 use
+(
 see
 [
 ReaderViewFeature
@@ -823,6 +824,7 @@ feature
 install
 .
 md
+)
 )
 .
 |
