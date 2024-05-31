@@ -3893,6 +3893,12 @@ Safari
 36
 "
 val
+defaultSettings
+=
+DefaultSettings
+(
+)
+val
 engineSession
 =
 spy
@@ -3900,6 +3906,7 @@ spy
 SystemEngineSession
 (
 testContext
+defaultSettings
 )
 )
 val
