@@ -153,6 +153,10 @@ support_appcompat
 implementation
 Dependencies
 .
+support_constraintlayout
+implementation
+Dependencies
+.
 support_cardview
 testImplementation
 project
