@@ -41648,6 +41648,9 @@ index
 if
 (
 !
+binding_detail
+:
+:
 FindEnumStringIndex
 <
 {
@@ -41659,7 +41662,7 @@ cx
 {
 val
 }
-                                                                 
+                                                                                 
 binding_detail
 :
 :
@@ -41672,7 +41675,7 @@ enumtype
 :
 :
 Values
-                                                                 
+                                                                                 
 "
 {
 enumtype
@@ -41683,7 +41686,7 @@ enumtype
 sourceDescription
 }
 "
-                                                                 
+                                                                                 
 &
 index
 )
