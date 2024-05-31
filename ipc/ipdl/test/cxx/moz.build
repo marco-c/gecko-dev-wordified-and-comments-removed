@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestShmem
-.
-h
-"
-"
 TestShutdown
 .
 h
@@ -91,11 +86,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestShmem
 .
 cpp
 "
@@ -192,11 +182,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestShmem
 .
 ipdl
 "
