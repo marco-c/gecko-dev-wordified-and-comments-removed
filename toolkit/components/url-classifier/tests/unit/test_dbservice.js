@@ -826,7 +826,6 @@ checkNoHost
 function
 expireSubSuccess
 (
-result
 )
 {
 dbservice

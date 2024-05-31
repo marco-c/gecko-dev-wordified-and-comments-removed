@@ -925,7 +925,6 @@ TEST_TABLES
 {
 onStartRequest
 (
-request
 )
 {
 }
@@ -998,8 +997,6 @@ event
 }
 onStopRequest
 (
-request
-status
 )
 {
 }
@@ -1149,7 +1146,6 @@ TEST_TABLES
 {
 onStartRequest
 (
-request
 )
 {
 }
@@ -1222,8 +1218,6 @@ event
 }
 onStopRequest
 (
-request
-status
 )
 {
 }
@@ -1395,7 +1389,6 @@ TEST_TABLES
 {
 onStartRequest
 (
-request
 )
 {
 }
@@ -1468,8 +1461,6 @@ event
 }
 onStopRequest
 (
-request
-status
 )
 {
 }
@@ -1853,7 +1844,6 @@ nsIUrlClassifierStreamUpdater
 function
 updateSuccessOrError
 (
-aEvent
 )
 {
 do_throw
@@ -1870,7 +1860,6 @@ error
 function
 downloadError
 (
-aEvent
 )
 {
 run_next_test
@@ -1956,7 +1945,6 @@ nsIUrlClassifierStreamUpdater
 function
 updateSuccessOrDownloadError
 (
-aEvent
 )
 {
 do_throw
@@ -1973,7 +1961,6 @@ error
 function
 updateError
 (
-aEvent
 )
 {
 run_next_test
@@ -2078,7 +2065,6 @@ TEST_TABLES
 {
 onStartRequest
 (
-request
 )
 {
 }
@@ -2151,8 +2137,6 @@ event
 }
 onStopRequest
 (
-request
-status
 )
 {
 }

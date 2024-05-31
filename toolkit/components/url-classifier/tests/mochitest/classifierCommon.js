@@ -126,13 +126,11 @@ nsIUrlClassifierUpdateObserver
 )
 updateUrlRequested
 (
-url
 )
 {
 }
 streamFinished
 (
-status
 )
 {
 }
@@ -152,7 +150,6 @@ errorCode
 }
 updateSuccess
 (
-requestedTimeout
 )
 {
 sendAsyncMessage

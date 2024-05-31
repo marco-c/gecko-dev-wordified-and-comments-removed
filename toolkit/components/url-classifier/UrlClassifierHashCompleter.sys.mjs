@@ -5231,7 +5231,6 @@ onStartRequest
 function
 HCR_onStartRequest
 (
-aRequest
 )
 {
 /
@@ -5701,7 +5700,6 @@ HCR_observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

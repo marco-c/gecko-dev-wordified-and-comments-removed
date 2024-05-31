@@ -124,7 +124,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 classifierHelper
@@ -549,7 +548,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 gScript

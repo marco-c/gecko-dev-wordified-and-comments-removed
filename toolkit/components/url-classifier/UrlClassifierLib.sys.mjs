@@ -286,7 +286,6 @@ BindToObject
 (
 fn
 self
-opt_args
 )
 {
 var

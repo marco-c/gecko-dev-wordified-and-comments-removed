@@ -624,10 +624,7 @@ asyncOpen
 {
 onStartRequest
 :
-(
 request
-context
-)
 =
 >
 {
@@ -678,11 +675,6 @@ resolve
 onDataAvailable
 :
 (
-request
-context
-stream
-offset
-count
 )
 =
 >
@@ -691,9 +683,6 @@ count
 onStopRequest
 :
 (
-request
-context
-status
 )
 =
 >

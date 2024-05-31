@@ -241,7 +241,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -441,10 +440,7 @@ openPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -456,8 +452,6 @@ asyncOpen
 onStartRequest
 :
 (
-request
-context
 )
 =
 >
@@ -466,11 +460,6 @@ context
 onDataAvailable
 :
 (
-request
-context
-stream
-offset
-count
 )
 =
 >
@@ -659,10 +648,7 @@ openPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -674,8 +660,6 @@ asyncOpen
 onStartRequest
 :
 (
-request
-context
 )
 =
 >
@@ -684,11 +668,6 @@ context
 onDataAvailable
 :
 (
-request
-context
-stream
-offset
-count
 )
 =
 >
@@ -862,10 +841,7 @@ openPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -877,8 +853,6 @@ asyncOpen
 onStartRequest
 :
 (
-request
-context
 )
 =
 >
@@ -887,11 +861,6 @@ context
 onDataAvailable
 :
 (
-request
-context
-stream
-offset
-count
 )
 =
 >
