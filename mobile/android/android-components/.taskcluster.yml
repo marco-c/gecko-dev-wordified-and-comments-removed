@@ -494,6 +494,12 @@ id
 {
 scheduler_id
 }
+-
+queue
+:
+route
+:
+statuses
 routes
 :
 -
