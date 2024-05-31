@@ -97,6 +97,16 @@ tabs
 .
 TabsUseCases
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+mock
+import
 org
 .
 junit

@@ -75,6 +75,16 @@ session
 .
 Session
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+mock
+import
 org
 .
 junit
