@@ -794,14 +794,6 @@ jsval
 locale
 )
 ;
-boolean
-stringHasRTLChars
-(
-in
-jsval
-str
-)
-;
 readonly
 attribute
 jsval

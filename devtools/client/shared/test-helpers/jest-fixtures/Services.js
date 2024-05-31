@@ -1943,17 +1943,6 @@ NodeTest
 ;
 }
 }
-intl
-:
-{
-stringHasRTLChars
-:
-(
-)
-=
->
-false
-}
 }
 ;
 function
