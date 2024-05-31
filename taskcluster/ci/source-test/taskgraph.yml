@@ -248,7 +248,9 @@ txt
 -
 -
 diff
-FIND_BASE
+{
+base_rev
+}
 &
 &
 python
