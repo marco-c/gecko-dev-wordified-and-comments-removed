@@ -98,15 +98,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 QueryCache
 :
 "
@@ -121,7 +112,9 @@ asrouter
 /
 ASRouterTargeting
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

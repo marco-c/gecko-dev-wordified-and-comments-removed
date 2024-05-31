@@ -180,7 +180,7 @@ SECTION_ID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -195,7 +195,9 @@ lib
 /
 HighlightsFeed
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
