@@ -196,6 +196,9 @@ override
 fun
 createSession
 (
+private
+:
+Boolean
 )
 :
 EngineSession
@@ -204,6 +207,7 @@ return
 GeckoEngineSession
 (
 runtime
+private
 )
 }
 /

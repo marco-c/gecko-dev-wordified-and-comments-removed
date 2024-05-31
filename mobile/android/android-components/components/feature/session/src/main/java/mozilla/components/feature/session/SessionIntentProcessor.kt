@@ -259,6 +259,7 @@ session
 Session
 (
 url
+false
 Source
 .
 CUSTOM_TAB
@@ -318,6 +319,7 @@ openNewTab
 Session
 (
 url
+false
 Source
 .
 ACTION_VIEW
@@ -346,6 +348,7 @@ selectedSession
 Session
 (
 url
+false
 Source
 .
 ACTION_VIEW

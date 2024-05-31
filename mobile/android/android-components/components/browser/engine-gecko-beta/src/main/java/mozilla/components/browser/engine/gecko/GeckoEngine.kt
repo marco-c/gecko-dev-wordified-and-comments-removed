@@ -146,7 +146,7 @@ Engine
 *
 *
 *
-Create
+Creates
 a
 new
 Gecko
@@ -182,7 +182,7 @@ attrs
 *
 *
 *
-Create
+Creates
 a
 new
 Gecko
@@ -196,6 +196,9 @@ override
 fun
 createSession
 (
+private
+:
+Boolean
 )
 :
 EngineSession
@@ -204,6 +207,7 @@ return
 GeckoEngineSession
 (
 runtime
+private
 )
 }
 override

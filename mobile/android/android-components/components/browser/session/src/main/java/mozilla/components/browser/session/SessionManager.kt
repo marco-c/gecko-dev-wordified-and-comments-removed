@@ -667,6 +667,9 @@ engine
 .
 createSession
 (
+session
+.
+private
 )
 .
 apply

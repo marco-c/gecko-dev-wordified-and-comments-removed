@@ -691,6 +691,14 @@ sessionManager
 .
 sessions
 .
+filter
+{
+!
+it
+.
+private
+}
+.
 forEach
 {
 session
@@ -953,6 +961,7 @@ getString
 url
 "
 )
+false
 source
 id
 )
