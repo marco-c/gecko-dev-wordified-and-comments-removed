@@ -62,6 +62,14 @@ int
 window_size_ms
 )
 ;
+virtual
+~
+PacketArrivalHistory
+(
+)
+=
+default
+;
 void
 Insert
 (
@@ -71,6 +79,7 @@ int64_t
 arrival_time_ms
 )
 ;
+virtual
 int
 GetDelayMs
 (
@@ -81,6 +90,7 @@ time_ms
 )
 const
 ;
+virtual
 int
 GetMaxDelayMs
 (
