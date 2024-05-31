@@ -1934,16 +1934,11 @@ bool
 aCopyData
 )
 {
-if
+MOZ_ASSERT
 (
-!
 aVideoImage
 )
-{
-return
-false
 ;
-}
 PlanarYCbCrData
 data
 =
