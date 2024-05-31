@@ -408,6 +408,10 @@ sequence_num_acknowledge_interval
 int
 AcceptEvent
 (
+const
+NodeName
+&
+from_node
 ScopedEvent
 event
 )
@@ -547,6 +551,10 @@ delegate_
 int
 OnUserMessage
 (
+const
+NodeName
+&
+from_node
 mozilla
 :
 :
