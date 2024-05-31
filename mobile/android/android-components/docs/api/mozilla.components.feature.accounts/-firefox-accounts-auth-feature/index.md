@@ -173,6 +173,8 @@ components
 service
 .
 fxa
+.
+manager
 /
 -
 fxa
