@@ -107,6 +107,14 @@ test
 .
 mock
 import
+mozilla
+.
+components
+.
+test
+.
+ReflectionUtils
+import
 org
 .
 junit
@@ -188,16 +196,6 @@ GeckoSession
 PermissionDelegate
 .
 PERMISSION_GEOLOCATION
-import
-org
-.
-robolectric
-.
-util
-.
-ReflectionHelpers
-.
-setField
 RunWith
 (
 AndroidJUnit4
@@ -379,7 +377,7 @@ mozilla
 .
 org
 "
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -437,7 +435,7 @@ mozilla
 .
 org
 "
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -570,7 +568,7 @@ permission
 "
 )
 )
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -1013,7 +1011,7 @@ audioOther
 "
 )
 )
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -1138,7 +1136,7 @@ listOf
 (
 videoCamera
 )
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -1252,7 +1250,7 @@ listOf
 (
 videoCamera
 )
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -1301,6 +1299,8 @@ MediaSource
 {
 init
 {
+ReflectionUtils
+.
 setField
 (
 this
@@ -1309,6 +1309,8 @@ id
 "
 id
 )
+ReflectionUtils
+.
 setField
 (
 this
@@ -1317,6 +1319,8 @@ name
 "
 name
 )
+ReflectionUtils
+.
 setField
 (
 this
@@ -1325,6 +1329,8 @@ source
 "
 source
 )
+ReflectionUtils
+.
 setField
 (
 this

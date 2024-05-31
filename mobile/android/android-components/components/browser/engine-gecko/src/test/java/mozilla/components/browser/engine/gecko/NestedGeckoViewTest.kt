@@ -236,6 +236,8 @@ org
 robolectric
 .
 Robolectric
+.
+buildActivity
 RunWith
 (
 AndroidJUnit4
@@ -255,8 +257,6 @@ get
 (
 )
 =
-Robolectric
-.
 buildActivity
 (
 Activity

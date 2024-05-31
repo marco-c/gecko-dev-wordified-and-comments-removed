@@ -208,6 +208,8 @@ GeckoEngineSessionState
 GeckoSession
 .
 SessionState
+.
+fromString
 (
 state
 )
