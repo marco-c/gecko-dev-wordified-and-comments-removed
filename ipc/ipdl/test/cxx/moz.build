@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestRaceDeferral
-.
-h
-"
-"
 TestRacyInterruptReplies
 .
 h
@@ -126,11 +121,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestRaceDeferral
 .
 cpp
 "
@@ -262,11 +252,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestRaceDeferral
 .
 ipdl
 "
