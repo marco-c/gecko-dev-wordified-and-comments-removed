@@ -899,7 +899,9 @@ create
 session
 hitResult
 .
-src
+getLink
+(
+)
 ids
 labels
 )

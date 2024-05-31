@@ -1592,7 +1592,7 @@ startsWith
 http
 "
 )
-private
+internal
 fun
 HitResult
 .
