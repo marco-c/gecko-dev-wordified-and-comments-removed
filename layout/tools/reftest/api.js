@@ -441,7 +441,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 Services

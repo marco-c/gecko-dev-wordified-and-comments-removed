@@ -404,7 +404,6 @@ onStateChange
 webprogress
 request
 flags
-status
 )
 {
 let
@@ -1479,7 +1478,6 @@ res
 function
 setupDisplayport
 (
-contentRootElement
 )
 {
 let
@@ -3809,7 +3807,6 @@ function
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -5908,7 +5905,6 @@ then
 (
 function
 (
-result
 )
 {
 setupAsyncZoom
@@ -5957,7 +5953,6 @@ then
 (
 function
 (
-result
 )
 {
 setupAsyncZoom
@@ -5990,7 +5985,6 @@ Clear
 "
 function
 (
-m
 )
 {
 RecvClear
@@ -6106,7 +6100,6 @@ ResetRenderingState
 "
 function
 (
-m
 )
 {
 RecvResetRenderingState
@@ -6741,7 +6734,6 @@ fileName
 function
 SendExpectProcessCrash
 (
-runtimeMs
 )
 {
 sendAsyncMessage

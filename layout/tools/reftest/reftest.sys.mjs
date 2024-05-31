@@ -11731,7 +11731,6 @@ FailedNoPaint
 "
 function
 (
-m
 )
 {
 RecvFailedNoPaint
@@ -11754,7 +11753,6 @@ FailedNoDisplayList
 "
 function
 (
-m
 )
 {
 RecvFailedNoDisplayList
@@ -11777,7 +11775,6 @@ FailedDisplayList
 "
 function
 (
-m
 )
 {
 RecvFailedDisplayList
@@ -11856,7 +11853,6 @@ InitCanvasWithSnapshot
 "
 function
 (
-m
 )
 {
 RecvInitCanvasWithSnapshot
@@ -12077,7 +12073,6 @@ UpdateWholeCanvasForInvalidation
 "
 function
 (
-m
 )
 {
 RecvUpdateWholeCanvasForInvalidation
@@ -12100,7 +12095,6 @@ ExpectProcessCrash
 "
 function
 (
-m
 )
 {
 RecvExpectProcessCrash
@@ -13020,7 +13014,6 @@ OnProcessCrashed
 (
 subject
 topic
-data
 )
 {
 let
