@@ -657,6 +657,11 @@ task_graph
     
 artifacts_info
 =
+[
+info
+for
+info
+in
 lib
 .
 module_definitions
@@ -664,6 +669,14 @@ module_definitions
 from_gradle
 (
 )
+if
+info
+[
+'
+shouldPublish
+'
+]
+]
     
 build_task_id
 build_task
