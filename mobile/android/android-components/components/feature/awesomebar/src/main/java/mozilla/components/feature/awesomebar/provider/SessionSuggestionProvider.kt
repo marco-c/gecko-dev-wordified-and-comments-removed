@@ -201,6 +201,7 @@ session
 >
 if
 (
+(
 session
 .
 url
@@ -225,6 +226,13 @@ ignoreCase
 =
 true
 )
+)
+&
+&
+!
+session
+.
+private
 )
 {
 suggestions
