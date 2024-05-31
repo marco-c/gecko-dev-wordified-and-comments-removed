@@ -3252,6 +3252,7 @@ engine
 let
 url
 =
+await
 engine
 .
 getIconURL

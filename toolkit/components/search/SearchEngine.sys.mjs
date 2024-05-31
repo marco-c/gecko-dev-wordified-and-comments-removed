@@ -10918,12 +10918,16 @@ desired
 *
 returns
 {
+Promise
+<
 string
 |
 undefined
+>
 }
 *
 /
+async
 getIconURL
 (
 preferredWidth

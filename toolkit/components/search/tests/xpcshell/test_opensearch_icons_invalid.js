@@ -98,6 +98,7 @@ Assert
 equal
 (
 undefined
+await
 engine1
 .
 getIconURL
@@ -110,6 +111,7 @@ Assert
 equal
 (
 undefined
+await
 engine2
 .
 getIconURL
@@ -223,6 +225,7 @@ Assert
 equal
 (
 undefined
+await
 engine
 .
 getIconURL

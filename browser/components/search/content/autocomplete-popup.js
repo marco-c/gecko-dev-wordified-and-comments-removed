@@ -1045,6 +1045,7 @@ getDefault
 let
 uri
 =
+await
 engine
 .
 getIconURL

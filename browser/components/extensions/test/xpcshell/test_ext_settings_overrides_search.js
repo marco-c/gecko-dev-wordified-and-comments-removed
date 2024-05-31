@@ -337,6 +337,7 @@ extension
 ;
 equal
 (
+await
 engine
 .
 getIconURL
@@ -362,6 +363,7 @@ matches
 ;
 equal
 (
+await
 engine
 .
 getIconURL

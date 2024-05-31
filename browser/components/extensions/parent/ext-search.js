@@ -184,6 +184,7 @@ engine
 let
 favIconUrl
 =
+await
 engine
 .
 getIconURL

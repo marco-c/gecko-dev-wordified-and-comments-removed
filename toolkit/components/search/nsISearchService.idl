@@ -713,7 +713,7 @@ desired
 .
 *
 /
-jsval
+Promise
 getIconURL
 (
 [

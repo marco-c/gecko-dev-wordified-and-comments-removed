@@ -3043,12 +3043,14 @@ added
 .
 *
 /
+async
 _rebuildEngineList
 (
 engines
 addEngines
 )
 {
+await
 super
 .
 _rebuildEngineList

@@ -3143,6 +3143,7 @@ getEngineInfo
 .
 engines
 ;
+await
 this
 .
 _rebuildEngineList
@@ -3197,6 +3198,7 @@ added
 .
 *
 /
+async
 _rebuildEngineList
 (
 engines
@@ -3263,10 +3265,13 @@ engine
 let
 iconURL
 =
+(
+await
 engine
 .
 getIconURL
 (
+)
 )
 |
 |
@@ -6595,6 +6600,7 @@ engine
 )
 ;
 }
+async
 _on_command
 (
 event
@@ -7031,10 +7037,13 @@ flicker
 let
 iconURL
 =
+(
+await
 currentEngine
 .
 getIconURL
 (
+)
 )
 |
 |

@@ -3277,6 +3277,7 @@ entry
 .
 value
 ?
+await
 engine
 .
 getIconURL

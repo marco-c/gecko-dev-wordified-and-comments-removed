@@ -839,6 +839,7 @@ Assert
 .
 equal
 (
+await
 engine
 .
 wrappedJSObject

@@ -619,6 +619,7 @@ str
 let
 searchResult
 =
+await
 this
 .
 _engineSearchResult
@@ -652,6 +653,7 @@ return
 }
 result
 =
+await
 this
 .
 _searchModeKeywordResult
@@ -659,6 +661,19 @@ _searchModeKeywordResult
 queryContext
 )
 ;
+if
+(
+instance
+!
+=
+this
+.
+queryInstance
+)
+{
+return
+;
+}
 if
 (
 result
@@ -675,6 +690,7 @@ return
 }
 result
 =
+await
 this
 .
 _engineSearchResult
@@ -1594,6 +1610,7 @@ return
 result
 ;
 }
+async
 _searchModeKeywordResult
 (
 queryContext
@@ -1922,6 +1939,7 @@ SEARCH
 {
 result
 =
+await
 this
 .
 _engineSearchResult
@@ -2002,6 +2020,7 @@ return
 result
 ;
 }
+async
 _engineSearchResult
 (
 queryContext
@@ -2233,6 +2252,7 @@ TYPED
 ]
 icon
 :
+await
 engine
 .
 getIconURL

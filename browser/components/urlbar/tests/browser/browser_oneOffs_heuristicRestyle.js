@@ -841,10 +841,13 @@ equal
 resultDetails
 .
 image
+(
+await
 engine
 .
 getIconURL
 (
+)
 )
 |
 |

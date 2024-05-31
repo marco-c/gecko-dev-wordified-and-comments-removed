@@ -7500,6 +7500,7 @@ defaultEngine
 name
 engineIconUri
 :
+await
 Services
 .
 search
@@ -7873,6 +7874,7 @@ defaultEngine
 name
 engineIconUri
 :
+await
 Services
 .
 search

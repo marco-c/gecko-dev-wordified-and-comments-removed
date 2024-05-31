@@ -356,6 +356,7 @@ engine
 name
 engineIconUri
 :
+await
 engine
 .
 getIconURL
