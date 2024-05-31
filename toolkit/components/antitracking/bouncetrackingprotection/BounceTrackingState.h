@@ -7,6 +7,13 @@ mozilla_BounceTrackingState_h
 #
 include
 "
+BounceTrackingRecord
+.
+h
+"
+#
+include
+"
 mozilla
 /
 WeakPtr
@@ -71,9 +78,6 @@ mozilla
 {
 class
 BounceTrackingProtection
-;
-class
-BounceTrackingRecord
 ;
 namespace
 dom
@@ -143,8 +147,12 @@ OriginAttributesPattern
 aPattern
 )
 ;
+const
+Maybe
+<
 BounceTrackingRecord
-*
+>
+&
 GetBounceTrackingRecord
 (
 )
@@ -266,7 +274,7 @@ BounceTrackingProtection
 >
 mBounceTrackingProtection
 ;
-RefPtr
+Maybe
 <
 BounceTrackingRecord
 >

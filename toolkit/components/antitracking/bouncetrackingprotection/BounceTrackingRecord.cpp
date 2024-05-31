@@ -28,11 +28,6 @@ extern
 LazyLogModule
 gBounceTrackingProtectionLog
 ;
-NS_IMPL_CYCLE_COLLECTION
-(
-BounceTrackingRecord
-)
-;
 void
 BounceTrackingRecord
 :
@@ -59,6 +54,7 @@ BounceTrackingRecord
 GetInitialHost
 (
 )
+const
 {
 return
 mInitialHost
@@ -90,6 +86,7 @@ BounceTrackingRecord
 GetFinalHost
 (
 )
+const
 {
 return
 mFinalHost
@@ -269,6 +266,7 @@ BounceTrackingRecord
 GetBounceHosts
 (
 )
+const
 {
 return
 mBounceHosts
@@ -286,6 +284,7 @@ BounceTrackingRecord
 GetStorageAccessHosts
 (
 )
+const
 {
 return
 mStorageAccessHosts
