@@ -169,7 +169,7 @@ StringListMetricType
 .
 kt
 #
-L44
+L39
 )
 Appends
 a

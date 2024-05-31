@@ -106,7 +106,7 @@ CommonMetricData
 .
 kt
 #
-L25
+L20
 )
 The
 metric

@@ -181,7 +181,7 @@ CounterMetricType
 .
 kt
 #
-L69
+L64
 )
 Tests
 whether

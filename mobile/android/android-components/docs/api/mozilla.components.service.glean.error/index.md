@@ -69,8 +69,6 @@ ErrorRecording
 error
 -
 recording
-/
-index
 .
 md
 )
