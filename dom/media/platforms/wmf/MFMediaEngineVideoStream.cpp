@@ -1274,7 +1274,7 @@ const
 return
 mRawDataQueueForFeedingEngine
 .
-Duration
+PreciseDuration
 (
 )
 >

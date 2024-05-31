@@ -708,6 +708,14 @@ mIsSelected
 (
 false
 )
+mRawDataQueueForFeedingEngine
+(
+true
+)
+mRawDataQueueForGeneratingOutput
+(
+true
+)
 mReceivedEOS
 (
 false
@@ -2951,7 +2959,7 @@ GetSize
 )
 mRawDataQueueForFeedingEngine
 .
-Duration
+PreciseDuration
 (
 )
 )
@@ -3041,7 +3049,7 @@ enough
 "
 mRawDataQueueForFeedingEngine
 .
-Duration
+PreciseDuration
 (
 )
 )
