@@ -108,6 +108,14 @@ UserCharacteristics
 "
 )
 ;
+namespace
+testing
+{
+extern
+"
+C
+"
+{
 int
 MaxTouchPoints
 (
@@ -159,6 +167,9 @@ return
 0
 ;
 }
+}
+}
+;
 const
 int
 kSubmissionSchema
@@ -711,6 +722,9 @@ max_touch_points
 .
 Set
 (
+testing
+:
+:
 MaxTouchPoints
 (
 )
