@@ -27,8 +27,6 @@ scheduleUpload
 (
 TelemetryConfiguration
 configuration
-String
-pingType
 )
 ;
 }
