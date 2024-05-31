@@ -1178,10 +1178,6 @@ return
 publish
 {
 }
-{
-}
-:
-zipMavenArtifacts
 "
 .
 format
