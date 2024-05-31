@@ -5077,7 +5077,7 @@ RemoteSecuritySettings
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -5092,7 +5092,9 @@ psm
 /
 RemoteSecuritySettings
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -5109,7 +5111,7 @@ BlocklistPrivate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -5122,7 +5124,9 @@ modules
 /
 Blocklist
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

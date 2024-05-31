@@ -1049,7 +1049,9 @@ copied
 from
 SyncedBookmarksMirror
 .
-jsm
+sys
+.
+mjs
 .
 *
 /

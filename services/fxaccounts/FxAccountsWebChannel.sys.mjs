@@ -2357,7 +2357,9 @@ observerPreloads
 in
 FxAccounts
 .
-jsm
+sys
+.
+mjs
 ?
 let
 xps

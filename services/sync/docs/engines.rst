@@ -801,7 +801,9 @@ modules
 /
 SyncedTabs
 .
-jsm
+sys
+.
+mjs
 >
 _
 is
@@ -1103,7 +1105,9 @@ formautofill
 /
 FormAutofillSync
 .
-jsm
+sys
+.
+mjs
 >
 _
 .
