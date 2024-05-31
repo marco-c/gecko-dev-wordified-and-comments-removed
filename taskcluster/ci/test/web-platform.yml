@@ -2972,7 +2972,7 @@ ccov
 .
 *
 :
-4
+6
 .
 *
 -
@@ -2986,7 +2986,7 @@ tsan
 8
 default
 :
-3
+5
 mozharness
 :
 extra
