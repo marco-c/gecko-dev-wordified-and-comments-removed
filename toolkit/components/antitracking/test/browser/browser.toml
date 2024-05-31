@@ -1811,6 +1811,13 @@ Bug
 1700551
 [
 "
+browser_storageAccess_cookies_on_grant
+.
+js
+"
+]
+[
+"
 browser_storageAccess_userActivation
 .
 js
