@@ -105,10 +105,7 @@ bool
 aStringIsFilePath
 nsCString
 aSha256Digest
-nsCOMPtr
-<
-nsIURI
->
+nsString
 aUrl
 OperationType
 aOperationType
@@ -171,10 +168,7 @@ mTextContent
 nsString
 mFilePath
 ;
-nsCOMPtr
-<
-nsIURI
->
+nsString
 mUrl
 ;
 nsCString
