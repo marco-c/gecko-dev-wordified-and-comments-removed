@@ -237,7 +237,7 @@ properties
 all
 -
 components
-job
+task
 -
 defaults
 :
@@ -926,7 +926,7 @@ time
 1200
 overriden
 -
-jobs
+tasks
 :
 #
 Treeherder

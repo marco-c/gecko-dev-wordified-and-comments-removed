@@ -89,7 +89,7 @@ dependencies
 :
 -
 toolchain
-job
+task
 -
 defaults
 :
@@ -277,7 +277,7 @@ run
 time
 :
 2400
-jobs
+tasks
 :
 unit
 -
@@ -1019,7 +1019,7 @@ downloads
 '
 overriden
 -
-jobs
+tasks
 :
 #
 names

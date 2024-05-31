@@ -421,7 +421,7 @@ def
 add_notifications
 (
 config
-jobs
+tasks
 )
 :
     
@@ -433,14 +433,14 @@ config
 )
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 notifications
 =
-job
+task
 .
 pop
 (
@@ -528,7 +528,7 @@ in
 status_types
 :
                 
-job
+task
 .
 setdefault
 (
@@ -565,7 +565,7 @@ emails
                 
 )
             
-job
+task
 .
 setdefault
 (
@@ -611,7 +611,7 @@ if
 message
 :
                 
-job
+task
 [
 '
 extra
@@ -636,4 +636,4 @@ content
 message
         
 yield
-job
+task

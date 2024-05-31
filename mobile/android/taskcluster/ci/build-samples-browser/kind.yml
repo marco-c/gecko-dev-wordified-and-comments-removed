@@ -105,7 +105,7 @@ dependencies
 :
 -
 toolchain
-job
+task
 -
 defaults
 :
@@ -236,7 +236,7 @@ run
 time
 :
 1200
-jobs
+tasks
 :
 gecko
 :

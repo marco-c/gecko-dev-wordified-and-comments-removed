@@ -121,7 +121,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -278,7 +278,7 @@ default
 :
 {
 }
-jobs
+tasks
 :
 pr
 :

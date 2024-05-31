@@ -966,7 +966,7 @@ components
 ]
 )
     
-jobs
+tasks
 =
 {
         
@@ -1108,7 +1108,7 @@ regular
     
 }
     
-overridden_jobs
+overridden_tasks
 =
 {
 k
@@ -1125,7 +1125,7 @@ pop
 '
 overriden
 -
-jobs
+tasks
 '
 {
 }
@@ -1141,29 +1141,29 @@ ALL_COMPONENTS
 or
 k
 in
-jobs
+tasks
 .
 keys
 (
 )
 }
     
-jobs
+tasks
 =
 merge
 (
-jobs
-overridden_jobs
+tasks
+overridden_tasks
 )
     
 config
 [
 '
-jobs
+tasks
 '
 ]
 =
-jobs
+tasks
     
 return
 base_loader

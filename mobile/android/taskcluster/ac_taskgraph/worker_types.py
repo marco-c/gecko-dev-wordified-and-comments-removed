@@ -12,7 +12,7 @@ util
 schema
 import
 taskref_or_string
-WHITELISTED_SCHEMA_IDENTIFIERS
+EXCEPTED_SCHEMA_IDENTIFIERS
 from
 taskgraph
 .
@@ -21,7 +21,7 @@ transforms
 task
 import
 payload_builder
-WHITELISTED_SCHEMA_IDENTIFIERS
+EXCEPTED_SCHEMA_IDENTIFIERS
 .
 extend
 (
