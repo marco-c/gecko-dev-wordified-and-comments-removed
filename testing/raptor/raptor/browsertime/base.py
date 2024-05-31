@@ -5828,6 +5828,7 @@ support_class
 modify_command
 (
 cmd
+test
 )
         
 output_timeout
