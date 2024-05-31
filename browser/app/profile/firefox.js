@@ -20881,15 +20881,3 @@ enabled
 false
 )
 ;
-pref
-(
-"
-browser
-.
-profiles
-.
-enabled
-"
-false
-)
-;
