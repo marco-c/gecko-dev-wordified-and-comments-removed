@@ -162,6 +162,7 @@ System
 .
 *
 /
+open
 class
 AnimatedProgressBar
 JvmOverloads
