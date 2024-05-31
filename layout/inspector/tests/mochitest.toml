@@ -269,6 +269,13 @@ html
 ]
 [
 "
+test_getRuleIndex
+.
+html
+"
+]
+[
+"
 test_get_all_style_sheets
 .
 html

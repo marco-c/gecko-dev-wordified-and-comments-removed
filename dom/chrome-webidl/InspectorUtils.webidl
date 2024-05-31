@@ -211,6 +211,17 @@ CSSRule
 rule
 )
 ;
+sequence
+<
+unsigned
+long
+>
+getRuleIndex
+(
+CSSRule
+rule
+)
+;
 boolean
 hasRulesModifiedByCSSOM
 (
