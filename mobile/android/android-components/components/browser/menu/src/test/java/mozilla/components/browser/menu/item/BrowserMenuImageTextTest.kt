@@ -206,6 +206,9 @@ val
 context
 :
 Context
+get
+(
+)
 =
 ApplicationProvider
 .
