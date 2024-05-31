@@ -724,9 +724,6 @@ resume_from_crash
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -753,8 +750,6 @@ enableAllTestMocks
 false
 )
 ;
-#
-endif
 pref
 (
 "
