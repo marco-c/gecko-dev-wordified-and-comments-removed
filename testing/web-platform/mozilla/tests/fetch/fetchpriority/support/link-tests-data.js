@@ -30,7 +30,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_HIGH
+PRIORITY_NORMAL
 }
 {
 fileNameAndSuffix
@@ -70,7 +70,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_HIGHEST
+PRIORITY_NORMAL
 }
 {
 fileNameAndSuffix
@@ -90,7 +90,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_HIGHEST
+PRIORITY_NORMAL
 }
 {
 fileNameAndSuffix
@@ -130,7 +130,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_LOW
+PRIORITY_NORMAL
 }
 {
 fileNameAndSuffix
@@ -150,7 +150,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_LOW
+PRIORITY_NORMAL
 }
 {
 fileNameAndSuffix
@@ -170,7 +170,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_LOW
+PRIORITY_NORMAL
 }
 {
 fileNameAndSuffix
@@ -210,7 +210,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_LOW
+PRIORITY_NORMAL
 }
 {
 fileNameAndSuffix
@@ -230,7 +230,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_LOW
+PRIORITY_NORMAL
 }
 {
 fileNameAndSuffix
@@ -250,7 +250,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_LOW
+PRIORITY_NORMAL
 }
 ]
 ;
@@ -1066,7 +1066,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_HIGH
+PRIORITY_HIGHEST
 }
 {
 fileNameAndSuffix
@@ -1086,7 +1086,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_HIGH
+PRIORITY_HIGHEST
 }
 {
 fileNameAndSuffix
@@ -1106,7 +1106,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_HIGH
+PRIORITY_HIGHEST
 }
 ]
 ;
