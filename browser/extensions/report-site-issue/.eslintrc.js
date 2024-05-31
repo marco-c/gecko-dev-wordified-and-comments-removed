@@ -141,15 +141,6 @@ warn
 "
 no
 -
-fallthrough
-"
-:
-"
-error
-"
-"
-no
--
 multi
 -
 str

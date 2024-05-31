@@ -136,15 +136,6 @@ error
 "
 no
 -
-fallthrough
-"
-:
-"
-error
-"
-"
-no
--
 inline
 -
 comments

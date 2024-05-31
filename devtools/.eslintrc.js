@@ -1192,15 +1192,6 @@ error
 "
 no
 -
-fallthrough
-"
-:
-"
-error
-"
-"
-no
--
 multi
 -
 str
