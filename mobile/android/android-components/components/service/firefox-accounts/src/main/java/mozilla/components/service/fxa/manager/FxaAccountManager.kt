@@ -2469,6 +2469,9 @@ deviceConstellation
 .
 ensureCapabilitiesAsync
 (
+deviceTuple
+.
+capabilities
 )
 .
 await
