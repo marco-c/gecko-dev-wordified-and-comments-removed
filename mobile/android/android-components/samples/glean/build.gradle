@@ -177,6 +177,14 @@ rules
 pro
 '
 }
+debug
+{
+applicationIdSuffix
+"
+.
+debug
+"
+}
 }
 }
 dependencies
