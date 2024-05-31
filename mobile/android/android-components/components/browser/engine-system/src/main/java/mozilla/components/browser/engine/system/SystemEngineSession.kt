@@ -159,6 +159,12 @@ coroutines
 .
 Dispatchers
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -770,6 +776,13 @@ Map
 String
 Any
 >
+=
+runBlocking
+(
+Dispatchers
+.
+Main
+)
 {
 val
 state
@@ -786,7 +799,6 @@ saveState
 (
 state
 )
-return
 mutableMapOf
 <
 String
