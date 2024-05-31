@@ -313,7 +313,7 @@ lazy
 {
 RustPlacesConnection
 .
-createLongLivedConnection
+init
 (
 storageDir
 )
@@ -338,7 +338,7 @@ launch
 {
 places
 .
-api
+writer
 (
 )
 .
@@ -398,7 +398,7 @@ launch
 {
 places
 .
-api
+writer
 (
 )
 .
@@ -458,7 +458,7 @@ async
 {
 places
 .
-api
+reader
 (
 )
 .
@@ -491,7 +491,7 @@ async
 {
 places
 .
-api
+reader
 (
 )
 .
@@ -573,7 +573,7 @@ integer
 return
 places
 .
-api
+reader
 (
 )
 .
@@ -625,7 +625,7 @@ url
 =
 places
 .
-api
+reader
 (
 )
 .
@@ -691,18 +691,9 @@ AuthInfo
 SyncStatus
 {
 return
-RustPlacesConnection
-.
-newConnection
-(
-storageDir
-)
-.
-use
-{
 try
 {
-it
+places
 .
 sync
 (
@@ -729,7 +720,6 @@ Error
 (
 e
 )
-}
 }
 }
 }
