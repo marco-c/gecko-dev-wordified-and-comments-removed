@@ -541,7 +541,7 @@ symbols
 /
 commit
 /
-0373708893e45e8299e58ca692764be448e3457d
+390b8c4be82c720dd3977ff205fb34bd7d0e00ba
 const
 WASM_MODULE_URL
 =
@@ -564,7 +564,7 @@ get
 -
 symbols
 /
-0373708893e45e8299e58ca692764be448e3457d
+390b8c4be82c720dd3977ff205fb34bd7d0e00ba
 .
 wasm
 "
@@ -575,9 +575,11 @@ WASM_MODULE_INTEGRITY
 "
 sha384
 -
-rUGgHTg1eAKP2MB4JcX
-/
-HGROSBlRUmvpm6FFIihH0gGQ74zfJE2p7P8cxR86faQ7
+P8j6U9jY
++
+M4zSfJKXb1ECjsTPkzQ0hAvgb4zv3gHvlg
++
+THRtVpOrDSywHJBhin00
 "
 ;
 const
