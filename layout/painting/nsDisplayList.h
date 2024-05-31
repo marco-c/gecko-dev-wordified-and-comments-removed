@@ -11667,6 +11667,14 @@ MOZ_ASSERT
 GetBottom
 (
 )
+|
+|
+aBuilder
+-
+>
+PartialBuildFailed
+(
+)
 "
 mOldItems
 should
