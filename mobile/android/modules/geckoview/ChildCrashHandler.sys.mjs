@@ -271,7 +271,9 @@ up
 in
 GeckoViewStartup
 .
-jsm
+sys
+.
+mjs
 observe
 (
 aSubject

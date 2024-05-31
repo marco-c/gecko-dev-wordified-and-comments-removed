@@ -284,7 +284,9 @@ spinEventLoopUntil
 "
 LoadURIDelegate
 .
-jsm
+sys
+.
+mjs
 :
 load
 "
@@ -488,7 +490,9 @@ spinEventLoopUntil
 "
 LoadURIDelegate
 .
-jsm
+sys
+.
+mjs
 :
 handleLoadError
 "

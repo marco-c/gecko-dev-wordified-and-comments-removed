@@ -227,7 +227,9 @@ logcat
 using
 AndroidLog
 .
-jsm
+sys
+.
+mjs
 *
 /
 class
@@ -375,7 +377,9 @@ return
 /
 AndroidLog
 .
-jsm
+sys
+.
+mjs
 always
 prepends
 "
@@ -2606,7 +2610,9 @@ of
 the
 Log
 .
-jsm
+sys
+.
+mjs
 logger
 to
 forward

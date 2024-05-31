@@ -2340,7 +2340,9 @@ spinEventLoopUntil
 "
 GeckoViewNavigation
 .
-jsm
+sys
+.
+mjs
 :
 handleNewSession
 "

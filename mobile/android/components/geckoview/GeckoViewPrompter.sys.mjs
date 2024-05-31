@@ -785,7 +785,9 @@ spinEventLoopUntil
 "
 GeckoViewPrompter
 .
-jsm
+sys
+.
+mjs
 :
 showPrompt
 "
