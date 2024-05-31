@@ -205,7 +205,7 @@ session2
 val
 observer
 :
-Session
+AllSessionsObserver
 .
 Observer
 =
@@ -266,7 +266,7 @@ mock
 val
 observer
 :
-Session
+AllSessionsObserver
 .
 Observer
 =
@@ -398,7 +398,7 @@ session2
 val
 observer
 :
-Session
+AllSessionsObserver
 .
 Observer
 =
@@ -486,7 +486,7 @@ mock
 val
 observer
 :
-Session
+AllSessionsObserver
 .
 Observer
 =
@@ -656,7 +656,7 @@ session2
 val
 observer
 :
-Session
+AllSessionsObserver
 .
 Observer
 =
@@ -770,7 +770,7 @@ session1
 val
 observer
 :
-Session
+AllSessionsObserver
 .
 Observer
 =

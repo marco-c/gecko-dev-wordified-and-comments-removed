@@ -101,6 +101,18 @@ mozilla
 .
 components
 .
+browser
+.
+session
+.
+utils
+.
+AllSessionsObserver
+import
+mozilla
+.
+components
+.
 concept
 .
 engine
@@ -221,7 +233,7 @@ extension
 WebExtension
 )
 :
-Session
+AllSessionsObserver
 .
 Observer
 {
