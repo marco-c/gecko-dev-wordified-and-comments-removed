@@ -584,6 +584,7 @@ All
 derive
 (
 Clone
+Copy
 Debug
 MallocSizeOf
 Parse
