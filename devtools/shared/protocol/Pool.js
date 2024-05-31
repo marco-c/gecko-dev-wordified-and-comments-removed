@@ -567,6 +567,13 @@ destroy
 ;
 }
 }
+if
+(
+this
+.
+conn
+)
+{
 this
 .
 conn
@@ -582,6 +589,7 @@ conn
 =
 null
 ;
+}
 }
 }
 exports
