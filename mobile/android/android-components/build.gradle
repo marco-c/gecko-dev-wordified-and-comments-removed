@@ -1530,6 +1530,11 @@ shouldPublish
 ]
 }
 println
+"
+modules
+:
+"
++
 groovy
 .
 json
