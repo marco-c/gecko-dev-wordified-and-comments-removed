@@ -215,7 +215,7 @@ mozilla
 :
 geckoview
 -
-release
+nightly
 -
 armeabi
 -
@@ -226,7 +226,7 @@ rootProject
 .
 ext
 .
-geckoRelease
+geckoNightly
 [
 '
 version
@@ -234,7 +234,7 @@ version
 ]
 }
 "
-implementation
+testImplementation
 "
 org
 .
@@ -242,7 +242,7 @@ mozilla
 :
 geckoview
 -
-release
+nightly
 -
 armeabi
 -
@@ -253,7 +253,7 @@ rootProject
 .
 ext
 .
-geckoRelease
+geckoNightly
 [
 '
 version
@@ -408,6 +408,8 @@ archivesBaseName
 engine
 -
 gecko
+-
+nightly
 "
 apply
 from
@@ -441,6 +443,8 @@ components
 engine
 -
 gecko
+-
+nightly
 '
 '
 Engine
@@ -448,6 +452,9 @@ implementation
 based
 on
 GeckoView
+(
+Nightly
+)
 .
 '
 )

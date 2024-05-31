@@ -64,10 +64,6 @@ Mobile
 /
 GeckoView
 )
-(
-Nightly
-channel
-)
 .
 #
 #
@@ -100,8 +96,6 @@ components
 engine
 -
 gecko
--
-nightly
 :
 {
 latest

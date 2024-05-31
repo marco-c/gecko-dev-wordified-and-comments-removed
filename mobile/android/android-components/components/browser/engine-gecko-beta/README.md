@@ -65,7 +65,7 @@ Mobile
 GeckoView
 )
 (
-Nightly
+Beta
 channel
 )
 .
@@ -101,7 +101,7 @@ engine
 -
 gecko
 -
-nightly
+beta
 :
 {
 latest

@@ -215,7 +215,7 @@ mozilla
 :
 geckoview
 -
-release
+beta
 -
 armeabi
 -
@@ -226,7 +226,7 @@ rootProject
 .
 ext
 .
-geckoRelease
+geckoBeta
 [
 '
 version
@@ -234,7 +234,7 @@ version
 ]
 }
 "
-implementation
+testImplementation
 "
 org
 .
@@ -242,7 +242,7 @@ mozilla
 :
 geckoview
 -
-release
+beta
 -
 armeabi
 -
@@ -253,7 +253,7 @@ rootProject
 .
 ext
 .
-geckoRelease
+geckoBeta
 [
 '
 version
@@ -408,6 +408,8 @@ archivesBaseName
 engine
 -
 gecko
+-
+beta
 "
 apply
 from
@@ -441,6 +443,8 @@ components
 engine
 -
 gecko
+-
+beta
 '
 '
 Engine
@@ -448,6 +452,10 @@ implementation
 based
 on
 GeckoView
+(
+Beta
+channel
+)
 .
 '
 )
