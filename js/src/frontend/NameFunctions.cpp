@@ -360,6 +360,12 @@ case
 ParseNodeKind
 :
 :
+ArgumentsLength
+:
+case
+ParseNodeKind
+:
+:
 DotExpr
 :
 {
