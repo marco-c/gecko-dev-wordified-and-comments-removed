@@ -1564,9 +1564,7 @@ a
 .
 source
 .
-displayURL
-.
-filename
+longName
 .
 localeCompare
 (
@@ -1574,9 +1572,7 @@ b
 .
 source
 .
-displayURL
-.
-filename
+longName
 )
 ;
 }
