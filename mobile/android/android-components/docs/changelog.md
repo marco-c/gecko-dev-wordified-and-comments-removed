@@ -259,7 +259,7 @@ implementation
 is
 provided
 which
-frowards
+forwards
 events
 to
 EngineView
