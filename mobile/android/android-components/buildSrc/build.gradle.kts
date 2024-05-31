@@ -62,3 +62,9 @@ kotlin
 -
 dsl
 }
+repositories
+{
+jcenter
+(
+)
+}
