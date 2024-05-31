@@ -3092,7 +3092,7 @@ Subprocess
 .
 sys
 .
-jsm
+mjs
 ;
 other
 would

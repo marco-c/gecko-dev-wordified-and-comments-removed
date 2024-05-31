@@ -107,7 +107,9 @@ conjunction
 with
 ManifestProcessor
 .
-jsm
+sys
+.
+mjs
 *
 *
 Creates

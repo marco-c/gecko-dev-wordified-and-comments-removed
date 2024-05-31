@@ -323,7 +323,9 @@ symbols
 from
 AddonManager
 .
-jsm
+sys
+.
+mjs
 readonly
 attribute
 DOMString
@@ -340,7 +342,9 @@ symbols
 from
 AddonManager
 .
-jsm
+sys
+.
+mjs
 or
 null
 readonly

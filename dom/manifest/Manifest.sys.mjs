@@ -61,7 +61,9 @@ MPL
 *
 Manifest
 .
-jsm
+sys
+.
+mjs
 is
 the
 top

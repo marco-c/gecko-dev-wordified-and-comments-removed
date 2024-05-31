@@ -345,7 +345,9 @@ implementation
 loads
 PushService
 .
-jsm
+sys
+.
+mjs
 at
 app
 startup
@@ -651,7 +653,9 @@ loads
 *
 PushService
 .
-jsm
+sys
+.
+mjs
 at
 startup
 and
