@@ -82,9 +82,7 @@ svg
 ?
 branch
 =
-sebastian
-%
-2Fdevelopment
+master
 )
 ]
 (
@@ -108,9 +106,7 @@ android
 ?
 branch
 =
-sebastian
-%
-2Fdevelopment
+master
 )
 telemetry
 -
