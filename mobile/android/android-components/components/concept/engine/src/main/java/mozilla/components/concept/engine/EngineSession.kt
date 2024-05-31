@@ -272,6 +272,15 @@ String
 )
 =
 Unit
+fun
+onLongPress
+(
+hitResult
+:
+HitResult
+)
+=
+Unit
 Suppress
 (
 "
