@@ -2275,7 +2275,7 @@ aTimecode
 )
 ;
 static
-bool
+MediaResult
 SetVideoDataToImage
 (
 PlanarYCbCrImage
