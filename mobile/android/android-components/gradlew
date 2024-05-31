@@ -347,8 +347,12 @@ script
 .
 DEFAULT_JVM_OPTS
 =
+'
 "
+-
+Xmx64m
 "
+'
 #
 Use
 the

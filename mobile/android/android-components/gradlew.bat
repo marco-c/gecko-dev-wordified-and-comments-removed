@@ -248,6 +248,10 @@ script
 set
 DEFAULT_JVM_OPTS
 =
+"
+-
+Xmx64m
+"
 rem
 Find
 java
