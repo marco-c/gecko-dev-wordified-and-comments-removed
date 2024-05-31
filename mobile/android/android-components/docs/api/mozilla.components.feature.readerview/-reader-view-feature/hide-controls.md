@@ -140,7 +140,7 @@ ReaderViewFeature
 .
 kt
 #
-L164
+L180
 )
 Hide
 ReaderView
