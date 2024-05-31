@@ -697,6 +697,24 @@ emulator_latest
 "
 )
     
+if
+os
+.
+path
+.
+exists
+(
+latest_emulator_path
+)
+:
+        
+shutil
+.
+rmtree
+(
+latest_emulator_path
+)
+    
 os
 .
 rename
