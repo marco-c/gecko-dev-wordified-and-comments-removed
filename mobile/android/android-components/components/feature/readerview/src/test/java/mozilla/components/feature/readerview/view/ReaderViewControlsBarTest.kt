@@ -325,8 +325,6 @@ setFont
 (
 ReaderViewFeature
 .
-Config
-.
 FontType
 .
 SERIF
@@ -349,11 +347,9 @@ setFont
 (
 ReaderViewFeature
 .
-Config
-.
 FontType
 .
-SANS_SERIF
+SANSSERIF
 )
 assertTrue
 (
@@ -574,8 +570,6 @@ setColorScheme
 (
 ReaderViewFeature
 .
-Config
-.
 ColorScheme
 .
 DARK
@@ -604,8 +598,6 @@ setColorScheme
 (
 ReaderViewFeature
 .
-Config
-.
 ColorScheme
 .
 SEPIA
@@ -633,8 +625,6 @@ bar
 setColorScheme
 (
 ReaderViewFeature
-.
-Config
 .
 ColorScheme
 .
@@ -861,11 +851,9 @@ onFontChanged
 (
 ReaderViewFeature
 .
-Config
-.
 FontType
 .
-SANS_SERIF
+SANSSERIF
 )
 }
 Test
@@ -1002,8 +990,6 @@ listener
 onColorSchemeChanged
 (
 ReaderViewFeature
-.
-Config
 .
 ColorScheme
 .

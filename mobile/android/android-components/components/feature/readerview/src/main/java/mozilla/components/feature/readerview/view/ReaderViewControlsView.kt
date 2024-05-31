@@ -84,8 +84,6 @@ readerview
 .
 ReaderViewFeature
 .
-Config
-.
 ColorScheme
 import
 mozilla
@@ -97,8 +95,6 @@ feature
 readerview
 .
 ReaderViewFeature
-.
-Config
 .
 FontType
 /
@@ -275,10 +271,14 @@ fun
 onFontSizeIncreased
 (
 )
+:
+Int
 fun
 onFontSizeDecreased
 (
 )
+:
+Int
 fun
 onColorSchemeChanged
 (
