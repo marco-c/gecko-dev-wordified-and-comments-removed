@@ -519,6 +519,11 @@ SearchUseCase
 fetchClient
 :
 Client
+limit
+:
+Int
+=
+15
 mode
 :
 SearchSuggestionProvider
@@ -543,6 +548,7 @@ SearchSuggestionProvider
 searchEngine
 searchUseCase
 fetchClient
+limit
 mode
 )
 )
