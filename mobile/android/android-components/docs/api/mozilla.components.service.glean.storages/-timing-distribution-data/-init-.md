@@ -253,7 +253,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 histogram
@@ -420,7 +420,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 time
@@ -537,7 +537,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 histogram
@@ -600,7 +600,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 time

@@ -2539,7 +2539,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 BooleanMetricType
 ]
@@ -2555,7 +2555,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 boolean
@@ -4036,7 +4036,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 CommonMetricData
 ]
@@ -4052,7 +4052,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 common
@@ -4686,7 +4686,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 CounterMetricType
 ]
@@ -4702,7 +4702,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 counter
@@ -5604,7 +5604,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 DatetimeMetricType
 ]
@@ -5620,7 +5620,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 datetime
@@ -7560,7 +7560,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 EventMetricType
 ]
@@ -7576,7 +7576,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 event
@@ -10768,7 +10768,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 HistogramType
 ]
@@ -10784,7 +10784,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 histogram
@@ -13764,7 +13764,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 LabeledMetricType
 ]
@@ -13780,7 +13780,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 labeled
@@ -14008,7 +14008,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 Lifetime
 ]
@@ -14024,7 +14024,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 lifetime
@@ -15314,7 +15314,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 NoExtraKeys
 ]
@@ -15330,7 +15330,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 no
@@ -15376,7 +15376,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 event
@@ -22195,7 +22195,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 StringListMetricType
 ]
@@ -22211,7 +22211,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 string
@@ -22250,7 +22250,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 StringMetricType
 ]
@@ -22266,7 +22266,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 string
@@ -25578,7 +25578,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimeUnit
 ]
@@ -25594,7 +25594,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 time
@@ -25630,7 +25630,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimespanMetricType
 ]
@@ -25646,7 +25646,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 timespan
@@ -25804,7 +25804,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimingDistributionMetricType
 ]
@@ -25820,7 +25820,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 timing
@@ -26439,7 +26439,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 UuidMetricType
 ]
@@ -26455,7 +26455,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 uuid

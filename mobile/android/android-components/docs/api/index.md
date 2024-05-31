@@ -2938,7 +2938,7 @@ service
 .
 glean
 .
-metrics
+private
 ]
 (
 mozilla
@@ -2949,7 +2949,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 index
 .

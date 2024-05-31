@@ -79,7 +79,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 histogram
@@ -163,7 +163,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 histogram

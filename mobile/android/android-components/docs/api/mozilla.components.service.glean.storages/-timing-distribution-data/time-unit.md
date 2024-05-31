@@ -79,7 +79,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 time
@@ -164,7 +164,7 @@ service
 .
 glean
 .
-metrics
+private
 /
 -
 time
