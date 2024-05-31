@@ -1182,6 +1182,25 @@ CodecSpecificInfo
 codec_specific_info
 )
 ;
+void
+ProcessDroppedFrame
+(
+const
+VideoFrame
+&
+frame
+VideoStreamEncoderObserver
+:
+:
+DropReason
+reason
+)
+RTC_RUN_ON
+(
+&
+encoder_queue_
+)
+;
 const
 FieldTrialsView
 &
@@ -1199,6 +1218,8 @@ number_of_cores_
 EncoderSink
 *
 sink_
+=
+nullptr
 ;
 const
 VideoStreamEncoderSettings
@@ -1251,6 +1272,10 @@ encoder_stats_observer_
 ;
 CadenceCallback
 cadence_callback_
+{
+*
+this
+}
 ;
 std
 :
@@ -1300,6 +1325,8 @@ encoder_queue_
 ;
 bool
 encoder_initialized_
+=
+false
 ;
 std
 :
@@ -1327,6 +1354,9 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+-
+1
 ;
 bool
 pending_encoder_reconfiguration_
@@ -1335,6 +1365,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+false
 ;
 bool
 pending_encoder_creation_
@@ -1343,6 +1375,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+false
 ;
 absl
 :
@@ -1380,6 +1414,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 int
 crop_height_
@@ -1388,6 +1424,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 absl
 :
@@ -1410,6 +1448,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 absl
 :
@@ -1432,6 +1472,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+false
 ;
 bool
 was_encode_called_since_last_initialization_
@@ -1440,6 +1482,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+false
 ;
 bool
 encoder_failed_
@@ -1448,6 +1492,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+false
 ;
 Clock
 *
@@ -1461,6 +1507,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 const
 int64_t
@@ -1486,6 +1534,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 int
 dropped_frame_cwnd_pushback_count_
@@ -1494,6 +1544,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 int
 dropped_frame_encoder_block_count_
@@ -1502,6 +1554,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 absl
 :
@@ -1524,6 +1578,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 VideoFrame
 :
@@ -1543,6 +1599,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+true
 ;
 absl
 :
@@ -1568,6 +1626,13 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+Timestamp
+:
+:
+PlusInfinity
+(
+)
 ;
 bool
 cap_resolution_due_to_video_content_
@@ -1576,6 +1641,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+false
 ;
 enum
 class
@@ -1591,6 +1658,11 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+ExpectResizeState
+:
+:
+kNoResize
 ;
 FecControllerOverride
 *
@@ -1600,6 +1672,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+nullptr
 ;
 absl
 :
@@ -1663,6 +1737,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+false
 ;
 std
 :
@@ -1672,6 +1748,9 @@ atomic
 int
 >
 pending_frame_drops_
+{
+0
+}
 ;
 absl
 :
@@ -1694,6 +1773,8 @@ RTC_GUARDED_BY
 &
 encoder_queue_
 )
+=
+0
 ;
 std
 :
@@ -1725,6 +1806,9 @@ encoder_queue_
 ;
 FrameEncodeMetadataWriter
 frame_encode_metadata_writer_
+{
+this
+}
 ;
 struct
 AutomaticAnimationDetectionExperiment
