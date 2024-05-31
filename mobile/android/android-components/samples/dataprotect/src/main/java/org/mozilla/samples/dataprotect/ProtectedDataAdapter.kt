@@ -109,12 +109,6 @@ android
 .
 widget
 .
-EditText
-import
-android
-.
-widget
-.
 TextView
 import
 mozilla

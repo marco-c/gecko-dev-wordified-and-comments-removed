@@ -121,12 +121,6 @@ Base64
 import
 android
 .
-util
-.
-Log
-import
-android
-.
 widget
 .
 Button
@@ -397,9 +391,7 @@ plain
 "
 value
 for
-{
 datakey
-}
 "
 val
 encrypted
@@ -442,13 +434,9 @@ info
 created
 pref
 item
-{
 datakey
-}
 =
-{
 dataval
-}
 "
 )
 }

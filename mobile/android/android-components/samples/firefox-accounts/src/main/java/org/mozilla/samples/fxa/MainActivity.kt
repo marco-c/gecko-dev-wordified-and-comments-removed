@@ -153,16 +153,6 @@ service
 .
 fxa
 .
-FxaResult
-import
-mozilla
-.
-components
-.
-service
-.
-fxa
-.
 OAuthInfo
 import
 mozilla

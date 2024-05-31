@@ -107,14 +107,6 @@ org
 .
 mozilla
 .
-geckoview
-.
-GeckoRuntime
-import
-org
-.
-mozilla
-.
 samples
 .
 browser
