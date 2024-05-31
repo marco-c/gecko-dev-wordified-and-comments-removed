@@ -141,11 +141,6 @@ domains
 "
 feature
 -
-accounts
-"
-"
-feature
--
 prompts
 "
 "
