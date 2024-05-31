@@ -639,6 +639,9 @@ clearSiteData
 &
 !
 clearCache
+&
+&
+useOldClearHistoryDialog
 )
 {
 clearCacheCheckbox
