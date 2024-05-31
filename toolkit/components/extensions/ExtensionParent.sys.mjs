@@ -4780,6 +4780,9 @@ this
 appWindow
 ;
 }
+return
+undefined
+;
 }
 get
 tabId
@@ -4823,6 +4826,9 @@ data
 tabId
 ;
 }
+return
+undefined
+;
 }
 unload
 (

@@ -488,6 +488,9 @@ this
 _url
 ;
 }
+return
+undefined
+;
 }
 get
 _uri
@@ -540,6 +543,9 @@ this
 _title
 ;
 }
+return
+undefined
+;
 }
 get
 _favIconUrl
@@ -575,6 +581,9 @@ this
 _favIconUrl
 ;
 }
+return
+undefined
+;
 }
 get
 lastAccessed
@@ -3039,6 +3048,9 @@ this
 _title
 ;
 }
+return
+undefined
+;
 }
 static
 getState
