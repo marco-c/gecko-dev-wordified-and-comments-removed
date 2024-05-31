@@ -5324,6 +5324,12 @@ nsAtom
 *
 ComputePageValue
 (
+const
+nsAtom
+*
+aAutoValue
+=
+nullptr
 )
 const
 MOZ_NONNULL_RETURN
