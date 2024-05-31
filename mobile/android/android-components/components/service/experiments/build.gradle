@@ -137,9 +137,9 @@ project
 (
 '
 :
-concept
+service
 -
-fetch
+glean
 '
 )
 implementation

@@ -875,7 +875,6 @@ initialized
 .
 *
 /
-internal
 fun
 isInitialized
 (

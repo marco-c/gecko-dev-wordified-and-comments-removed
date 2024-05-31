@@ -174,6 +174,8 @@ val
 collectionName
 :
 String
+private
+val
 httpClient
 :
 Client
@@ -185,8 +187,6 @@ Boolean
 =
 false
 )
-:
-ExperimentSource
 {
 private
 val
@@ -208,7 +208,6 @@ SignatureVerifier
 httpClient
 kintoClient
 )
-override
 fun
 getExperiments
 (

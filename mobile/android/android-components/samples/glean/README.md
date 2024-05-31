@@ -45,6 +45,10 @@ the
 mobile
 telemetry
 SDK
+&
+the
+Experiments
+library
 .
 #
 #
@@ -94,6 +98,13 @@ generated
 specific
 metrics
 API
+.
+*
+Integration
+of
+the
+Experiments
+library
 .
 #
 #
