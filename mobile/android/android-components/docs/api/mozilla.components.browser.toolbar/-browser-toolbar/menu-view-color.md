@@ -140,5 +140,16 @@ BrowserToolbar
 .
 kt
 #
-L108
+L131
 )
+Gets
+/
+Sets
+the
+color
+tint
+of
+the
+menu
+button
+.
