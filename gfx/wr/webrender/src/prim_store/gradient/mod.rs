@@ -31,7 +31,7 @@ renderer
 :
 {
 GpuBufferAddress
-GpuBufferBuilder
+GpuBufferBuilderF
 }
 ;
 use
@@ -754,7 +754,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 src_stops
 :
 &

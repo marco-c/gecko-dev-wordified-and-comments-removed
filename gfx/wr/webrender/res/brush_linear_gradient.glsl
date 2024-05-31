@@ -353,7 +353,7 @@ address
 =
 swgl_validateGradient
 (
-sGpuBuffer
+sGpuBufferF
 get_gpu_buffer_uv
 (
 v_gradient_address
@@ -382,7 +382,7 @@ return
 }
 swgl_commitLinearGradientRGBA8
 (
-sGpuBuffer
+sGpuBufferF
 address
 GRADIENT_ENTRIES
 true
