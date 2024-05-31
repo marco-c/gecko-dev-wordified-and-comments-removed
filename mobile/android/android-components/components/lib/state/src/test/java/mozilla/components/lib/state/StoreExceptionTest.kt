@@ -166,11 +166,7 @@ Test
 (
 expected
 =
-java
-.
-lang
-.
-IllegalStateException
+StoreException
 :
 :
 class
