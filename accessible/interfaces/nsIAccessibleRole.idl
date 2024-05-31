@@ -992,5 +992,12 @@ ROLE_TIME
 =
 137
 ;
+const
+unsigned
+long
+ROLE_GRID
+=
+138
+;
 }
 ;

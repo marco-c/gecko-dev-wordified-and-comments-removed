@@ -258,6 +258,13 @@ nsIAccessibleRole
 ROLE_GRAPHIC
 ;
 const
+ROLE_GRID
+=
+nsIAccessibleRole
+.
+ROLE_GRID
+;
+const
 ROLE_GRID_CELL
 =
 nsIAccessibleRole
