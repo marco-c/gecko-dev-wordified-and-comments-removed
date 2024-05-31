@@ -168,6 +168,12 @@ provider
 localization
 .
 LocaleSearchLocalizationProvider
+import
+kotlin
+.
+coroutines
+.
+CoroutineContext
 /
 *
 *
@@ -207,6 +213,13 @@ LocaleSearchLocalizationProvider
 )
 )
 )
+coroutineContext
+:
+CoroutineContext
+=
+Dispatchers
+.
+Default
 )
 {
 private
@@ -229,9 +242,7 @@ scope
 =
 CoroutineScope
 (
-Dispatchers
-.
-Default
+coroutineContext
 )
 var
 defaultSearchEngine
@@ -658,7 +669,7 @@ await
 return
 searchEngines
 }
-private
+internal
 val
 localeChangedReceiver
 by
