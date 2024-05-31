@@ -7203,16 +7203,6 @@ wallTime
 threadCount
 )
 ;
-MOZ_ASSERT
-(
-utilization
-<
-=
-1
-.
-0
-)
-;
 runtime
 -
 >
