@@ -218,6 +218,8 @@ kind
 build
 platform
 :
+AC
+-
 android
 -
 all
