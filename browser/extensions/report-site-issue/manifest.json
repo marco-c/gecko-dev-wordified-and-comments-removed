@@ -47,7 +47,7 @@ version
 "
 2
 .
-0
+1
 .
 0
 "
@@ -288,6 +288,18 @@ background
 "
 :
 {
+"
+persistent
+"
+:
+false
+"
+type
+"
+:
+"
+module
+"
 "
 scripts
 "
