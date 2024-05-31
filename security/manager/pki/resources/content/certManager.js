@@ -2882,6 +2882,8 @@ fp
 init
 (
 window
+.
+browsingContext
 backupFileDialog
 Ci
 .
@@ -3156,6 +3158,8 @@ fp
 init
 (
 window
+.
+browsingContext
 restoreFileDialog
 Ci
 .
@@ -3899,6 +3903,8 @@ fp
 init
 (
 window
+.
+browsingContext
 importCa
 Ci
 .
@@ -4071,6 +4077,8 @@ fp
 init
 (
 window
+.
+browsingContext
 importEmail
 Ci
 .
