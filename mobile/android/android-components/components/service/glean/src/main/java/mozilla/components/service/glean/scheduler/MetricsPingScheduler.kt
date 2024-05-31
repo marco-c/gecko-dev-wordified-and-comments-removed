@@ -1654,7 +1654,7 @@ now
 )
 Glean
 .
-sendPings
+sendPingsInternal
 (
 listOf
 (
