@@ -1715,6 +1715,14 @@ aDesc
 .
 mLodMaxClamp
 ;
+desc
+.
+max_anisotropy
+=
+aDesc
+.
+mMaxAnisotropy
+;
 ffi
 :
 :
