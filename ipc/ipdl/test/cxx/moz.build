@@ -35,11 +35,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestDemon
-.
-h
-"
-"
 TestDesc
 .
 h
@@ -204,11 +199,6 @@ SOURCES
 +
 =
 [
-"
-TestDemon
-.
-cpp
-"
 "
 TestDesc
 .
@@ -395,11 +385,6 @@ IPDL_SOURCES
 +
 =
 [
-"
-PTestDemon
-.
-ipdl
-"
 "
 PTestDesc
 .
