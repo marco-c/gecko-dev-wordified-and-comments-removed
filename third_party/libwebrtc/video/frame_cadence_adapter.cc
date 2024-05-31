@@ -979,8 +979,8 @@ OnFrameOnMainQueue
 (
 Timestamp
 post_time
-int
-frames_scheduled_for_processing
+bool
+queue_overload
 const
 VideoFrame
 &
@@ -3261,8 +3261,8 @@ OnFrameOnMainQueue
 (
 Timestamp
 post_time
-int
-frames_scheduled_for_processing
+bool
+queue_overload
 const
 VideoFrame
 &
@@ -3280,7 +3280,7 @@ current_adapter_mode_
 OnFrame
 (
 post_time
-frames_scheduled_for_processing
+queue_overload
 frame
 )
 ;
