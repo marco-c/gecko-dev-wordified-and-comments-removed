@@ -4846,8 +4846,10 @@ NonPremult
 ;
 Maybe
 <
-RawBuffer
+Span
 <
+const
+uint8_t
 >
 >
 cpuData
