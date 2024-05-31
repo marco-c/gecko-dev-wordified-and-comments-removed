@@ -134,12 +134,15 @@ glean
 )
 -
 [
-Defining
+Adding
+new
 metrics
 ]
 (
 #
-defining
+adding
+-
+new
 -
 metrics
 )
@@ -259,6 +262,8 @@ service
 glean
 /
 docs
+/
+pings
 /
 pings
 .
@@ -807,6 +812,8 @@ pings
 ]
 (
 docs
+/
+pings
 /
 pings
 .
