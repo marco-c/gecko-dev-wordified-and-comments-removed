@@ -3686,6 +3686,7 @@ scope
 ;
 check_buffer_usage
 (
+buffer_id
 indirect_buffer
 .
 usage

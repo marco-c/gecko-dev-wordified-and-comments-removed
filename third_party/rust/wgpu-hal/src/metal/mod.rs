@@ -1140,6 +1140,9 @@ u64
 max_color_render_targets
 :
 u8
+max_color_attachment_bytes_per_sample
+:
+u8
 max_varying_components
 :
 u32
