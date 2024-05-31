@@ -155,15 +155,6 @@ browser
 -
 engine
 -
-gecko
--
-beta
-"
-"
-browser
--
-engine
--
 servo
 "
 "
