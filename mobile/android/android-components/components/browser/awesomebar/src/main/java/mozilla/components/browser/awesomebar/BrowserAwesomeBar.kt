@@ -521,8 +521,6 @@ layoutManager
 LinearLayoutManager
 (
 context
-RecyclerView
-.
 VERTICAL
 false
 )
@@ -821,8 +819,6 @@ job
 scope
 .
 launch
-(
-)
 {
 providers
 .
