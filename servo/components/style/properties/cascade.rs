@@ -2019,6 +2019,17 @@ declaration
 PropertyDeclaration
 :
 :
+CSSWideKeyword
+(
+.
+.
+)
+=
+>
+return
+PropertyDeclaration
+:
+:
 BackgroundColor
 (
 ref
