@@ -248,6 +248,10 @@ DocAccessible
 *
 mDocument
 ;
+nsIContent
+*
+mDependentContent
+;
 nsAtom
 *
 mRelAttr
@@ -261,6 +265,9 @@ mProviders
 ;
 uint32_t
 mIndex
+;
+bool
+mIsWalkingDependentElements
 ;
 }
 ;
