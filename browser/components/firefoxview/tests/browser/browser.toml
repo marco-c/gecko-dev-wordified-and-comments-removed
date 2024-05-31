@@ -489,6 +489,17 @@ mac
 &
 verify
 "
+"
+os
+=
+=
+'
+linux
+'
+"
+#
+Bug
+1875877
 ]
 #
 macos
