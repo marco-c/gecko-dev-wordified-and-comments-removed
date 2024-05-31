@@ -172,6 +172,10 @@ testImplementation
 Dependencies
 .
 testing_mockito
+testImplementation
+Dependencies
+.
+androidx_test_core
 }
 apply
 from
