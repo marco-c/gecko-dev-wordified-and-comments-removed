@@ -231,13 +231,13 @@ act
 Glean
 telemetry
 library
+/
 components
 /
 service
 /
 glean
 /
-*
 Dexterp37
 mdboom
 georgf
