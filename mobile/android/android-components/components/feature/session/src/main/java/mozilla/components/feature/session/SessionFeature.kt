@@ -133,7 +133,7 @@ SessionMapping
 )
 )
 {
-private
+internal
 val
 presenter
 =
