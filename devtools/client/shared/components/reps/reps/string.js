@@ -61,6 +61,7 @@ types
 ;
 const
 {
+appendRTLClassNameIfNeeded
 containsURL
 escapeString
 getGripType
@@ -415,6 +416,18 @@ text
 )
 ;
 }
+config
+.
+className
+=
+appendRTLClassNameIfNeeded
+(
+config
+.
+className
+text
+)
+;
 return
 span
 (
