@@ -172,11 +172,6 @@ accounts
 "
 feature
 -
-awesomebar
-"
-"
-feature
--
 contextmenu
 "
 "

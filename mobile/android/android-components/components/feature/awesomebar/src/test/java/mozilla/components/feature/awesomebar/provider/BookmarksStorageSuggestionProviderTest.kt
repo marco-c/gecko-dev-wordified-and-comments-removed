@@ -186,6 +186,7 @@ class
 class
 BookmarksStorageSuggestionProviderTest
 {
+private
 val
 bookmarks
 =
@@ -832,9 +833,6 @@ a
 higher
 score
 .
-val
-maxScore
-=
 urlMatches
 .
 maxBy
@@ -846,13 +844,8 @@ score
 ?
 .
 score
-if
-(
-maxScore
-=
-=
-null
-)
+?
+:
 return
 synchronized
 listOf
