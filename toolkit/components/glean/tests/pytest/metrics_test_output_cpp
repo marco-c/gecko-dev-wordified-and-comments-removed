@@ -337,7 +337,7 @@ impl
 DatetimeMetric
 datetime_metric
 (
-16
+17
 )
 ;
 constexpr
@@ -350,7 +350,7 @@ NoExtraKeys
 >
 event_metric
 (
-17
+18
 )
 ;
 struct
@@ -502,7 +502,7 @@ EventMetricWithExtraExtra
 >
 event_metric_with_extra
 (
-18
+19
 )
 ;
 constexpr
@@ -512,7 +512,7 @@ impl
 DenominatorMetric
 external_denominator
 (
-19
+20
 )
 ;
 constexpr
@@ -522,7 +522,7 @@ impl
 CounterMetric
 optimizable_counter_metric
 (
-20
+21
 )
 ;
 constexpr
@@ -532,7 +532,7 @@ impl
 QuantityMetric
 quantity_metric
 (
-21
+22
 )
 ;
 constexpr
@@ -542,7 +542,7 @@ impl
 RateMetric
 rate_metric
 (
-22
+23
 )
 ;
 constexpr
@@ -552,7 +552,7 @@ impl
 NumeratorMetric
 rate_with_external_denominator
 (
-23
+24
 )
 ;
 constexpr
@@ -562,7 +562,7 @@ impl
 UuidMetric
 uuid_metric
 (
-24
+25
 )
 ;
 }

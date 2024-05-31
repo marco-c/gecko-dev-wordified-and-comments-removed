@@ -55,6 +55,9 @@ mod
 numerator
 ;
 mod
+object
+;
+mod
 ping
 ;
 mod
@@ -204,6 +207,16 @@ numerator
 :
 :
 NumeratorMetric
+;
+pub
+use
+self
+:
+:
+object
+:
+:
+ObjectMetric
 ;
 pub
 use

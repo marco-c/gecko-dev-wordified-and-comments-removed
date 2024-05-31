@@ -45,6 +45,9 @@ mod
 numerator
 ;
 mod
+object
+;
+mod
 ping
 ;
 mod
