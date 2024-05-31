@@ -1122,6 +1122,9 @@ html
 |
 input
 :
+where
+(
+:
 not
 (
 [
@@ -1142,6 +1145,7 @@ type
 range
 i
 ]
+)
 )
 html
 |
@@ -1199,9 +1203,13 @@ transparent
 ;
 &
 :
+where
+(
+:
 user
 -
 invalid
+)
 {
 outline
 :
@@ -1247,9 +1255,13 @@ outline
 }
 &
 :
+where
+(
+:
 focus
 -
 visible
+)
 {
 outline
 :
@@ -1300,6 +1312,9 @@ html
 |
 select
 :
+where
+(
+:
 not
 (
 [
@@ -1308,6 +1323,7 @@ size
 [
 multiple
 ]
+)
 )
 {
 appearance
