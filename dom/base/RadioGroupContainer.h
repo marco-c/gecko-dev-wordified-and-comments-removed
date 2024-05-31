@@ -117,16 +117,6 @@ HTMLInputElement
 aRadioOut
 )
 ;
-HTMLInputElement
-*
-GetFirstRadioButton
-(
-const
-nsAString
-&
-aName
-)
-;
 void
 AddToRadioGroup
 (
