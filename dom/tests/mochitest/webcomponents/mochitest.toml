@@ -247,6 +247,13 @@ html
 ]
 [
 "
+test_event_stopping
+.
+html
+"
+]
+[
+"
 test_link_prefetch
 .
 html
