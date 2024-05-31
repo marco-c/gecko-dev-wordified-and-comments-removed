@@ -5,11 +5,11 @@ test
 |
 -
 -
-wasm
--
-multi
--
-memory
+setpref
+=
+wasm_multi_memory
+=
+true
 ;
 test
 -
