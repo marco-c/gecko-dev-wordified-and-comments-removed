@@ -80,6 +80,8 @@ fp
 init
 (
 window
+.
+browsingContext
 loadPK11ModuleFilePickerTitle
 Ci
 .
