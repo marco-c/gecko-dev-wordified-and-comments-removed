@@ -430,7 +430,7 @@ value
 )
 view
 .
-onAutocomplete
+applyAutocompleteResult
 (
 InlineAutocompleteEditText
 .

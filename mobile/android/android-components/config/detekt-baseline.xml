@@ -200,12 +200,11 @@ InlineAutocompleteEditText
 kt
 InlineAutocompleteEditText
 fun
-onAutocomplete
+applyAutocompleteResult
 (
 result
 :
 AutocompleteResult
-?
 )
 <
 /
@@ -494,12 +493,11 @@ InlineAutocompleteEditText
 kt
 InlineAutocompleteEditText
 fun
-onAutocomplete
+applyAutocompleteResult
 (
 result
 :
 AutocompleteResult
-?
 )
 <
 /

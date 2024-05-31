@@ -804,7 +804,7 @@ et
 isEnabled
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -841,24 +841,7 @@ et
 isEnabled
 et
 .
-onAutocomplete
-(
-null
-)
-assertEquals
-(
-AutocompleteResult
-.
-emptyResult
-(
-)
-et
-.
-autocompleteResult
-)
-et
-.
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 .
@@ -916,7 +899,7 @@ text
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -956,7 +939,7 @@ SPAN_EXCLUSIVE_EXCLUSIVE
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -1033,7 +1016,7 @@ SPAN_EXCLUSIVE_EXCLUSIVE
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -1100,7 +1083,7 @@ text
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -1167,7 +1150,7 @@ text
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -1379,7 +1362,7 @@ text
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -1727,7 +1710,7 @@ autocomplete
 result
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -1895,7 +1878,7 @@ text
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -1957,7 +1940,7 @@ toString
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
@@ -2029,7 +2012,7 @@ toString
 )
 et
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
