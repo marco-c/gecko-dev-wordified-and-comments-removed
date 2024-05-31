@@ -38,6 +38,12 @@ glean
 .
 storages
 import
+android
+.
+os
+.
+SystemClock
+import
 org
 .
 junit
@@ -79,14 +85,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-org
-.
-robolectric
-.
-shadows
-.
-ShadowSystemClock
 RunWith
 (
 RobolectricTestRunner
@@ -540,7 +538,7 @@ in
 the
 store
 .
-ShadowSystemClock
+SystemClock
 .
 sleep
 (

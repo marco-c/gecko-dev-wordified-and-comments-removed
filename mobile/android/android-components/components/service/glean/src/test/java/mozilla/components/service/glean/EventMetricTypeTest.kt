@@ -65,6 +65,12 @@ service
 .
 glean
 import
+android
+.
+os
+.
+SystemClock
+import
 mozilla
 .
 components
@@ -126,14 +132,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-org
-.
-robolectric
-.
-shadows
-.
-ShadowSystemClock
 RunWith
 (
 RobolectricTestRunner
@@ -342,7 +340,7 @@ expectedTimeSinceStart
 Long
 =
 37
-ShadowSystemClock
+SystemClock
 .
 sleep
 (

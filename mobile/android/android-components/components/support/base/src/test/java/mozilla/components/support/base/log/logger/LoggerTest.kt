@@ -69,6 +69,12 @@ log
 .
 logger
 import
+android
+.
+os
+.
+SystemClock
+import
 mozilla
 .
 components
@@ -152,14 +158,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-org
-.
-robolectric
-.
-shadows
-.
-ShadowSystemClock
 RunWith
 (
 RobolectricTestRunner
@@ -797,7 +795,7 @@ Pretend
 to
 do
 something
-ShadowSystemClock
+SystemClock
 .
 sleep
 (

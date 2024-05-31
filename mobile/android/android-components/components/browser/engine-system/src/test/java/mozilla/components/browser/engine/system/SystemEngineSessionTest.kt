@@ -323,14 +323,6 @@ robolectric
 .
 RuntimeEnvironment
 import
-org
-.
-robolectric
-.
-shadows
-.
-ShadowBitmap
-import
 java
 .
 lang
@@ -4256,7 +4248,7 @@ drawingCache
 .
 thenReturn
 (
-ShadowBitmap
+Bitmap
 .
 createBitmap
 (
