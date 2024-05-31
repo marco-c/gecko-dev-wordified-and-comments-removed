@@ -2274,6 +2274,17 @@ more
 information
 .
 *
+Disabling
+telemetry
+through
+setUploadEnabled
+now
+clears
+all
+metrics
+immediately
+.
+*
 *
 *
 ui

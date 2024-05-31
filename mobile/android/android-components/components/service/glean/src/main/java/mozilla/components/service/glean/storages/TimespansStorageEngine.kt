@@ -79,12 +79,6 @@ content
 .
 SharedPreferences
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 mozilla
 .
 components
@@ -1387,14 +1381,6 @@ stores
 .
 *
 /
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-NONE
-)
 override
 fun
 clearAllStores

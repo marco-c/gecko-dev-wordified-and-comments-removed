@@ -72,12 +72,6 @@ android
 content
 .
 Context
-import
-androidx
-.
-annotation
-.
-VisibleForTesting
 /
 *
 *
@@ -283,14 +277,6 @@ storage
 engine
 *
 /
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-NONE
-)
 fun
 clearAllStores
 (

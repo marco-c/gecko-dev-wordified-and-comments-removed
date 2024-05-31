@@ -451,6 +451,15 @@ uploadPings
 :
 Boolean
 {
+if
+(
+Glean
+.
+getUploadEnabled
+(
+)
+)
+{
 val
 httpPingUploader
 =
@@ -469,6 +478,9 @@ httpPingUploader
 :
 upload
 )
+}
+return
+false
 }
 }
 /
