@@ -760,6 +760,9 @@ in
 assemble
 '
 '
+assembleAndroidTest
+'
+'
 test
 '
 override
@@ -829,6 +832,9 @@ in
 [
 '
 assemble
+'
+'
+assembleAndroidTest
 '
 '
 test
