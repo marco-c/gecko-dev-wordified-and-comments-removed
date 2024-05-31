@@ -61,9 +61,11 @@ mozilla
 .
 components
 .
-support
+browser
 .
-utils
+engine
+.
+system
 .
 matcher
 /

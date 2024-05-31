@@ -61,9 +61,11 @@ mozilla
 .
 components
 .
-support
+browser
 .
-utils
+engine
+.
+system
 .
 matcher
 import
@@ -101,9 +103,11 @@ mozilla
 .
 components
 .
-support
+browser
 .
-utils
+engine
+.
+system
 .
 R
 import

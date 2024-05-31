@@ -160,6 +160,7 @@ ScheduledLoad
 (
 null
 )
+Volatile
 internal
 var
 trackingProtectionEnabled
