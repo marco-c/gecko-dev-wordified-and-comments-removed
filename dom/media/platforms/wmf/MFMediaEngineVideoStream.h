@@ -299,6 +299,14 @@ ShouldDelayVideoDecodeBeforeDcompReady
 (
 )
 ;
+void
+SendRequestSampleEvent
+(
+bool
+aIsEnough
+)
+override
+;
 HANDLE
 mDCompSurfaceHandle
 ;
