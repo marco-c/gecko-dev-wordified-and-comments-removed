@@ -389,7 +389,7 @@ itemCount
 )
 adapter
 .
-clearSuggestions
+optionallyClearSuggestions
 (
 )
 assertEquals
@@ -458,7 +458,7 @@ itemCount
 )
 adapter
 .
-clearSuggestions
+optionallyClearSuggestions
 (
 )
 assertEquals
@@ -503,7 +503,7 @@ itemCount
 )
 adapter
 .
-clearSuggestions
+optionallyClearSuggestions
 (
 )
 assertEquals
@@ -548,6 +548,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -561,6 +564,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -574,6 +580,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -587,6 +596,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -600,6 +612,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -613,6 +628,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -627,6 +645,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -779,6 +800,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -789,6 +813,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "

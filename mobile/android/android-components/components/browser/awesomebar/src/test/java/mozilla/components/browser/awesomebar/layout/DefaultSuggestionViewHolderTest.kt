@@ -159,6 +159,16 @@ res
 .
 pxToDp
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+mock
+import
 org
 .
 junit
@@ -280,6 +290,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 title
 =
 "
@@ -428,6 +441,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 onSuggestionClicked
 =
 {
@@ -517,6 +533,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 chips
 =
 listOf
@@ -709,6 +728,9 @@ AwesomeBar
 .
 Suggestion
 (
+mock
+(
+)
 chips
 =
 listOf
