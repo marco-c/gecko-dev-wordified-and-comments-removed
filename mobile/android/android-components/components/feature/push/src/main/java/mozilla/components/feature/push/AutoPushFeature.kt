@@ -1766,9 +1766,11 @@ serverHost
 String
 =
 "
+updates
+.
 push
 .
-service
+services
 .
 mozilla
 .

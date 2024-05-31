@@ -236,9 +236,11 @@ senderId
 assertEquals
 (
 "
+updates
+.
 push
 .
-service
+services
 .
 mozilla
 .
