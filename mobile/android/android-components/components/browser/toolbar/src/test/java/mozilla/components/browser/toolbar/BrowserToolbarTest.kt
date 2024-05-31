@@ -1332,6 +1332,7 @@ editToolbar
 measuredHeight
 )
 }
+Test
 fun
 toolbar
 will
@@ -1803,6 +1804,7 @@ addPageAction
 action
 )
 }
+Test
 fun
 URL
 update
@@ -1882,7 +1884,7 @@ www
 .
 mozilla
 .
-org
+com
 "
 toolbar
 .
@@ -1905,7 +1907,7 @@ www
 .
 mozilla
 .
-org
+com
 "
 )
 verify
