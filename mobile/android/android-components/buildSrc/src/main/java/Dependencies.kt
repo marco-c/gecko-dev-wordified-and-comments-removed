@@ -276,7 +276,7 @@ mozilla_fxa
 "
 0
 .
-10
+11
 .
 0
 "
@@ -287,7 +287,7 @@ mozilla_sync_logins
 "
 0
 .
-10
+11
 .
 0
 "
@@ -298,7 +298,7 @@ mozilla_places
 "
 0
 .
-10
+11
 .
 0
 "
