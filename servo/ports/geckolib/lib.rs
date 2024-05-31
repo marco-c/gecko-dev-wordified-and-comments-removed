@@ -82,6 +82,10 @@ extern
 crate
 to_shmem
 ;
+extern
+crate
+lazy_static
+;
 mod
 error_reporter
 ;

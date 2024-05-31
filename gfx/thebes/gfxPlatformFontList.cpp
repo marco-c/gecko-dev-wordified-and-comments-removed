@@ -4256,7 +4256,7 @@ aDeferOtherFamilyNamesLoading
 StaticPrefs
 :
 :
-gfx_font_loader_delay_AtStartup
+gfx_font_loader_delay
 (
 )
 >
@@ -13711,7 +13711,7 @@ if
 StaticPrefs
 :
 :
-gfx_font_loader_delay_AtStartup
+gfx_font_loader_delay
 (
 )
 >
@@ -14267,7 +14267,7 @@ max
 StaticPrefs
 :
 :
-gfx_font_loader_delay_AtStartup
+gfx_font_loader_delay
 (
 )
 )

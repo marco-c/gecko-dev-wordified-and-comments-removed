@@ -37654,7 +37654,7 @@ font_loader
 delay
 type
 :
-uint32_t
+RelaxedAtomicUint32
 #
 if
 defined
@@ -37673,7 +37673,7 @@ value
 endif
 mirror
 :
-once
+always
 #
 Disable
 antialiasing
@@ -54315,14 +54315,14 @@ stylo
 threads
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 -
 1
 mirror
 :
-once
+always
 rust
 :
 true
