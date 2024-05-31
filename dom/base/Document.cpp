@@ -58905,6 +58905,10 @@ bool
 aLinkPreload
 uint64_t
 aEarlyHintPreloaderId
+const
+nsAString
+&
+aFetchPriority
 )
 {
 nsLoadFlags
@@ -59028,6 +59032,13 @@ policyType
 false
 aLinkPreload
 aEarlyHintPreloaderId
+nsGenericHTMLElement
+:
+:
+ToFetchPriority
+(
+aFetchPriority
+)
 )
 ;
 if
@@ -59077,6 +59088,10 @@ bool
 aIsImgSet
 bool
 aLinkPreload
+const
+nsAString
+&
+aFetchPriority
 )
 {
 const
@@ -59133,6 +59148,7 @@ aReferrerPolicy
 aIsImgSet
 aLinkPreload
 0
+aFetchPriority
 )
 ;
 }
@@ -59166,6 +59182,7 @@ aReferrerPolicy
 aIsImgSet
 aLinkPreload
 0
+aFetchPriority
 )
 ;
 }

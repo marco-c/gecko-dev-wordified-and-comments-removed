@@ -1099,6 +1099,16 @@ nsHtml5AttributeName
 ATTR_SIZES
 )
 ;
+auto
+fetchPriority
+=
+nsHtml5String
+:
+:
+EmptyString
+(
+)
+;
 mSpeculativeLoadQueue
 .
 AppendElement
@@ -1115,6 +1125,7 @@ referrerPolicy
 srcset
 sizes
 false
+fetchPriority
 )
 ;
 }
@@ -2106,6 +2117,7 @@ referrerPolicy
 srcset
 sizes
 true
+fetchPriority
 )
 ;
 }
@@ -2456,6 +2468,11 @@ if
 url
 )
 {
+auto
+fetchPriority
+=
+nullptr
+;
 mSpeculativeLoadQueue
 .
 AppendElement
@@ -2472,6 +2489,7 @@ nullptr
 nullptr
 nullptr
 false
+fetchPriority
 )
 ;
 }
@@ -2822,6 +2840,11 @@ if
 url
 )
 {
+auto
+fetchPriority
+=
+nullptr
+;
 mSpeculativeLoadQueue
 .
 AppendElement
@@ -2838,6 +2861,7 @@ nullptr
 nullptr
 nullptr
 false
+fetchPriority
 )
 ;
 }
