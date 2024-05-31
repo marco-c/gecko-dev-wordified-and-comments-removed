@@ -1212,6 +1212,12 @@ RawId
 >
 mLostDeviceIds
 ;
+std
+:
+:
+unordered_map
+<
+RawId
 RefPtr
 <
 gfx
@@ -1219,7 +1225,8 @@ gfx
 :
 FileHandleWrapper
 >
-mFenceHandle
+>
+mDeviceFenceHandles
 ;
 struct
 DeviceLostRequest
