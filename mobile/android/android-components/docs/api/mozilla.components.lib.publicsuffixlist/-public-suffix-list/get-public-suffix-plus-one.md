@@ -195,14 +195,8 @@ level
 known
 as
 the
-effective
-top
--
-level
+registrable
 domain
-(
-eTLD
-)
 .
 Returns
 null

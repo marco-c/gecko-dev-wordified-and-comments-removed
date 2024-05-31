@@ -148,7 +148,7 @@ PublicSuffixList
 .
 kt
 #
-L92
+L93
 )
 Returns
 the
@@ -186,6 +186,18 @@ String
 )
 /
 domain
+)
+;
+known
+as
+the
+effective
+top
+-
+level
+domain
+(
+eTLD
 )
 .
 Returns

@@ -59,7 +59,7 @@ var
 url
 :
 [
-String
+CharSequence
 ]
 (
 https
@@ -81,7 +81,9 @@ stdlib
 kotlin
 /
 -
-string
+char
+-
+sequence
 /
 index
 .

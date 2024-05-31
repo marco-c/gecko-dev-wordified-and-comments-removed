@@ -148,7 +148,7 @@ PublicSuffixList
 .
 kt
 #
-L113
+L114
 )
 Strips
 the

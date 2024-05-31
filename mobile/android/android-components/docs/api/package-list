@@ -3468,6 +3468,15 @@ service
 .
 glean
 .
+debug
+mozilla
+.
+components
+.
+service
+.
+glean
+.
 storages
 mozilla
 .
