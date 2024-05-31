@@ -115,6 +115,11 @@ getEnterpriseRoots
 (
 )
 ;
+ACString
+getEnterpriseRootsPEM
+(
+)
+;
 Array
 <
 Array
@@ -123,6 +128,11 @@ octet
 >
 >
 getEnterpriseIntermediates
+(
+)
+;
+ACString
+getEnterpriseIntermediatesPEM
 (
 )
 ;
