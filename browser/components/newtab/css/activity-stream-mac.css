@@ -5075,6 +5075,14 @@ inline
 -
 block
 ;
+margin
+-
+block
+-
+end
+:
+16px
+;
 }
 .
 top
@@ -5240,8 +5248,7 @@ inline
 -
 end
 :
--
-9px
+3px
 ;
 opacity
 :
