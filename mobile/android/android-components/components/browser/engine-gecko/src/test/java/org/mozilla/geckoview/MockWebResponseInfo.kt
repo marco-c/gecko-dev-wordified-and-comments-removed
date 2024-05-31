@@ -63,13 +63,15 @@ mozilla
 .
 geckoview
 import
-mozilla
+org
 .
-components
+robolectric
 .
-test
+util
 .
-ReflectionUtils
+ReflectionHelpers
+.
+setField
 class
 MockWebResponseInfo
 (
@@ -96,8 +98,6 @@ WebResponseInfo
 {
 init
 {
-ReflectionUtils
-.
 setField
 (
 this
@@ -106,8 +106,6 @@ uri
 "
 uri
 )
-ReflectionUtils
-.
 setField
 (
 this
@@ -116,8 +114,6 @@ contentType
 "
 contentType
 )
-ReflectionUtils
-.
 setField
 (
 this
@@ -126,8 +122,6 @@ filename
 "
 filename
 )
-ReflectionUtils
-.
 setField
 (
 this
