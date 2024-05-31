@@ -180,6 +180,11 @@ DirectoryLock
 h
 "
 "
+DirectoryLockCategory
+.
+h
+"
+"
 DummyCipherStrategy
 .
 h

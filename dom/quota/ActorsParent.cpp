@@ -21945,6 +21945,8 @@ Type
 aClientType
 bool
 aExclusive
+DirectoryLockCategory
+aCategory
 Maybe
 <
 RefPtr
@@ -22045,6 +22047,7 @@ aPersistenceType
 aOriginScope
 aClientType
 aExclusive
+aCategory
 )
 ;
 RefPtr
@@ -22695,6 +22698,8 @@ Type
 aClientType
 bool
 aExclusive
+DirectoryLockCategory
+aCategory
 )
 {
 AssertIsOnOwningThread
@@ -22715,6 +22720,7 @@ aPersistenceType
 aOriginScope
 aClientType
 aExclusive
+aCategory
 )
 ;
 }

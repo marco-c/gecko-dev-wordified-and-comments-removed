@@ -57145,6 +57145,10 @@ Client
 IDB
 )
 false
+DirectoryLockCategory
+:
+:
+None
 SomeRef
 (
 mPendingDirectoryLock
