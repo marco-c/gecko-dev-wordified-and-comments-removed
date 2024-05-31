@@ -232,12 +232,12 @@ nightlyDate
 .
 07
 .
-04
+24
 '
 revision
 :
 '
-cc3401e78e8bbae22e6dbc854e525ceae4923bcf
+1e5fa52a612e8985e12212d1950a732954e00e45
 '
 version
 :
@@ -246,7 +246,7 @@ version
 .
 0
 .
-20180704100138
+20180724100046
 '
 ]
 /
@@ -272,11 +272,11 @@ mozilla
 -
 beta
 :
-FENNEC_62_0b5_RELEASE
+FENNEC_62_0b9_RELEASE
 revision
 :
 '
-801112336847960bbb9a018695cf09ea437dc137
+d7ab2f3df0840cdb8557659afd46f61afa310379
 '
 version
 :
@@ -285,7 +285,7 @@ version
 .
 0
 .
-20180702164905
+20180713213322
 '
 ]
 ext
