@@ -454,6 +454,10 @@ attribute
 bool
 mightBeActive
 ;
+attribute
+bool
+isSetByEnterprisePolicy
+;
 [
 implicit_jscontext
 ]
@@ -504,6 +508,14 @@ aAllowContent
 void
 cancelAllRequests
 (
+)
+;
+void
+testOnlySetCACmdLineArg
+(
+in
+boolean
+aVal
 )
 ;
 }

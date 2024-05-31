@@ -438,6 +438,9 @@ mCaClientPromise
 bool
 mClientCreationAttempted
 ;
+bool
+mSetByEnterprise
+;
 class
 CallbackData
 final
