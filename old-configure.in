@@ -1103,13 +1103,6 @@ vcruntime140
 dll
 if
 test
--
-n
-"
-IS_VS2019_OR_MORE
-"
--
-a
 "
 TARGET_CPU
 "
