@@ -95,7 +95,7 @@ kotlinx
 .
 coroutines
 .
-Job
+SupervisorJob
 import
 kotlinx
 .
@@ -1474,7 +1474,7 @@ private
 val
 job
 =
-Job
+SupervisorJob
 (
 )
 private
