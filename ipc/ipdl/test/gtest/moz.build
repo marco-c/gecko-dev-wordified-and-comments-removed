@@ -97,6 +97,11 @@ TestManyHandles
 .
 cpp
 "
+"
+TestMostNested
+.
+cpp
+"
 ]
 IPDL_SOURCES
 +
@@ -179,6 +184,11 @@ ipdl
 "
 "
 PTestManyHandles
+.
+ipdl
+"
+"
+PTestMostNested
 .
 ipdl
 "
