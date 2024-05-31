@@ -1565,7 +1565,6 @@ the
 page
 .
 *
-*
 type
 {
 string
@@ -2899,6 +2898,7 @@ of
 attributes
 .
 *
+*
 param
 {
 Node
@@ -2909,7 +2909,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 *
@@ -3160,6 +3160,7 @@ mutation
 *
 observer
 .
+*
 *
 param
 {
@@ -4140,6 +4141,7 @@ on
 these
 nodes
 *
+*
 param
 {
 Node
@@ -4635,7 +4637,7 @@ Node
 }
 node
 *
-return
+returns
 {
 number
 }
@@ -5043,6 +5045,7 @@ for
 translation
 .
 *
+*
 param
 {
 Node
@@ -5135,6 +5138,7 @@ in
 the
 viewport
 .
+*
 *
 returns
 {
@@ -5411,6 +5415,7 @@ in
 the
 viewport
 .
+*
 *
 returns
 {
@@ -6632,6 +6637,7 @@ the
 translate
 function
 *
+*
 param
 {
 Node
@@ -6644,7 +6650,7 @@ string
 }
 text
 *
-prop
+property
 {
 boolean
 }
@@ -7243,6 +7249,7 @@ trigger
 observations
 .
 *
+*
 param
 {
 Function
@@ -7594,6 +7601,7 @@ a
 given
 node
 .
+*
 *
 returns
 Array
@@ -7954,7 +7962,6 @@ param
 Node
 }
 node
-*
 returns
 {
 HTMLElement
@@ -8475,6 +8482,7 @@ have
 been
 cloned
 .
+*
 *
 type
 {
@@ -9849,6 +9857,7 @@ p
 :
 no
 *
+*
 param
 {
 Node
@@ -10671,35 +10680,35 @@ request
 *
 typedef
 {
-Object
+object
 }
 TranslationRequest
 *
-prop
+property
 {
 Node
 }
 node
 *
-prop
+property
 {
 string
 }
 sourceText
 *
-prop
+property
 {
 boolean
 }
 isHTML
 *
-prop
+property
 {
 Function
 }
 resolve
 *
-prop
+property
 {
 Function
 }
@@ -10845,6 +10854,7 @@ resolved
 response
 .
 *
+*
 type
 {
 Map
@@ -10893,6 +10903,7 @@ requests
 being
 removed
 .
+*
 *
 type
 {
@@ -11285,6 +11296,7 @@ portRequest
 .
 resolve
 .
+*
 *
 returns
 {
@@ -11893,7 +11905,7 @@ boolean
 }
 isHTML
 *
-return
+returns
 {
 {
 translateText
@@ -12187,6 +12199,7 @@ resumes
 *
 translations
 .
+*
 *
 param
 {

@@ -367,6 +367,7 @@ the
 worker
 .
 *
+*
 type
 {
 Promise
@@ -459,6 +460,7 @@ by
 the
 device
 ?
+*
 *
 type
 {
@@ -3722,7 +3724,7 @@ keyboard
 *
 param
 {
-Object
+object
 }
 settings
 *
@@ -4065,6 +4067,7 @@ a
 resolved
 response
 .
+*
 *
 type
 {

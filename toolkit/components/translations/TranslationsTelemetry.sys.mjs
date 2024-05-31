@@ -251,6 +251,7 @@ Translations
 panel
 .
 *
+*
 returns
 {
 Panel
@@ -283,6 +284,7 @@ and
 returns
 it
 .
+*
 *
 returns
 {
@@ -339,6 +341,7 @@ new
 one
 otherwise
 .
+*
 *
 returns
 {

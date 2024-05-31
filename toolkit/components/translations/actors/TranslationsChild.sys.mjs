@@ -202,6 +202,7 @@ same
 origin
 .
 *
+*
 type
 {
 LRUCache
