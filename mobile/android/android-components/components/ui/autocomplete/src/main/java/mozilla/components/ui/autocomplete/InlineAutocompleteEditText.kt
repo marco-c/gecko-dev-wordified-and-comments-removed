@@ -538,6 +538,7 @@ val
 totalItems
 :
 Int
+private
 val
 textFormatter
 :
