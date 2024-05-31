@@ -65,7 +65,7 @@ browser
 .
 search
 .
-parser
+suggestions
 import
 org
 .
@@ -102,7 +102,7 @@ RobolectricTestRunner
 class
 )
 class
-SuggestionParserTest
+ParserTest
 {
 Test
 fun
@@ -193,7 +193,7 @@ cache
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -406,7 +406,7 @@ apps
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -532,7 +532,7 @@ laws
 val
 results
 =
-azerdictParser
+azerdictResponseParser
 (
 json
 )
@@ -647,7 +647,7 @@ android
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -827,7 +827,7 @@ ons
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -1150,7 +1150,7 @@ QUERY
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -1356,7 +1356,7 @@ r_items
 val
 results
 =
-daumParser
+daumResponseParser
 (
 json
 )
@@ -1522,7 +1522,7 @@ themes
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -2050,7 +2050,7 @@ mobile
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -2389,7 +2389,7 @@ p
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -2605,7 +2605,7 @@ availableQwick
 val
 results
 =
-qwantParser
+qwantResponseParser
 (
 json
 )
@@ -2753,7 +2753,7 @@ firefox
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -3657,7 +3657,7 @@ Codex_Vaticanus
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -3773,7 +3773,7 @@ update
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
@@ -3863,7 +3863,7 @@ com
 val
 results
 =
-defaultParser
+defaultResponseParser
 (
 json
 )
