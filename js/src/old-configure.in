@@ -4747,7 +4747,7 @@ fi
 dnl
 Checks
 for
-math
+nl_langinfo
 functions
 .
 dnl
@@ -4807,11 +4807,6 @@ dnl
 =
 =
 =
-AC_CHECK_LIB
-(
-m
-sin
-)
 AM_LANGINFO_CODESET
 AC_LANG_C
 dnl
