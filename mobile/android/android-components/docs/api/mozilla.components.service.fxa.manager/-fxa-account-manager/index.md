@@ -185,7 +185,7 @@ FxaAccountManager
 .
 kt
 #
-L100
+L102
 )
 An
 account
@@ -335,7 +335,7 @@ for
 account
 initialization
 .
-scopes
+applicationScopes
 -
 A
 list
@@ -452,7 +452,7 @@ config
 .
 md
 )
-scopes
+applicationScopes
 :
 [
 Array

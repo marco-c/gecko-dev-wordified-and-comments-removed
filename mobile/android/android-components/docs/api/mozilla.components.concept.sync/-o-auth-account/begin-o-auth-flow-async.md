@@ -69,7 +69,7 @@ beginOAuthFlowAsync
 scopes
 :
 [
-Array
+Set
 ]
 (
 https
@@ -89,9 +89,11 @@ jvm
 stdlib
 /
 kotlin
+.
+collections
 /
 -
-array
+set
 /
 index
 .

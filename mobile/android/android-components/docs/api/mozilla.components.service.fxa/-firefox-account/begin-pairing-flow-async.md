@@ -97,7 +97,7 @@ html
 scopes
 :
 [
-Array
+Set
 ]
 (
 https
@@ -117,9 +117,11 @@ jvm
 stdlib
 /
 kotlin
+.
+collections
 /
 -
-array
+set
 /
 index
 .
@@ -243,7 +245,7 @@ FirefoxAccount
 .
 kt
 #
-L117
+L118
 )
 Overrides
 [

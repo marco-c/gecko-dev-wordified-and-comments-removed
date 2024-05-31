@@ -68,7 +68,7 @@ beginOAuthFlowAsync
 scopes
 :
 [
-Array
+Set
 ]
 (
 https
@@ -88,9 +88,11 @@ jvm
 stdlib
 /
 kotlin
+.
+collections
 /
 -
-array
+set
 /
 index
 .
@@ -245,7 +247,7 @@ FirefoxAccount
 .
 kt
 #
-L109
+L110
 )
 Overrides
 [

@@ -123,7 +123,7 @@ config
 .
 md
 )
-scopes
+applicationScopes
 :
 [
 Array
@@ -433,7 +433,7 @@ for
 account
 initialization
 .
-scopes
+applicationScopes
 -
 A
 list
