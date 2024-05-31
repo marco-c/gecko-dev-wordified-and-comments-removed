@@ -191,16 +191,6 @@ options
 }
 )
 ;
-[
-Func
-=
-"
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
-"
-]
 sequence
 <
 Animation

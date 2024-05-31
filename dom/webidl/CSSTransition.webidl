@@ -150,14 +150,6 @@ apply
 *
 /
 [
-Func
-=
-"
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
-"
 HeaderFile
 =
 "
