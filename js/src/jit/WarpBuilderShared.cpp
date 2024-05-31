@@ -103,6 +103,14 @@ ins
 isInt64ToBigInt
 (
 )
+|
+|
+ins
+-
+>
+isPostIntPtrConversion
+(
+)
 )
 ;
 MOZ_ASSERT
