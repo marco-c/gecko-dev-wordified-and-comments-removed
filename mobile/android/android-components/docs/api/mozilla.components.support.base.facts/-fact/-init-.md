@@ -74,7 +74,10 @@ Fact
 (
 component
 :
-Component
+<
+ERROR
+CLASS
+>
 action
 :
 [

@@ -72,7 +72,6 @@ index
 .
 md
 )
-?
 [
 (
 source
@@ -182,11 +181,9 @@ index
 .
 md
 )
-or
-null
-if
-no
-sessions
-are
-present
+of
+the
+current
+session
+state
 .

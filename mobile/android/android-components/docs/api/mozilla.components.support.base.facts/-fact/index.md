@@ -157,7 +157,10 @@ Fact
 (
 component
 :
-Component
+<
+ERROR
+CLASS
+>
 action
 :
 [
@@ -434,7 +437,10 @@ md
 val
 component
 :
-Component
+<
+ERROR
+CLASS
+>
 <
 br
 >

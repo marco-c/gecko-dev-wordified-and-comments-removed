@@ -59,7 +59,10 @@ component
 val
 component
 :
-Component
+<
+ERROR
+CLASS
+>
 [
 (
 source
