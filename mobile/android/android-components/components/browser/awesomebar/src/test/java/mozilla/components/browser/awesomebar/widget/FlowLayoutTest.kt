@@ -65,7 +65,7 @@ browser
 .
 awesomebar
 .
-layout
+widget
 import
 android
 .

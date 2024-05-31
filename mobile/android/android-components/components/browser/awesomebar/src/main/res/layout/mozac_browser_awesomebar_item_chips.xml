@@ -246,7 +246,7 @@ browser
 .
 awesomebar
 .
-layout
+widget
 .
 FlowLayout
 android
