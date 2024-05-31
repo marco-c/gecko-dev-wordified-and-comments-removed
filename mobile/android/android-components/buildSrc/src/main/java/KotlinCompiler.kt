@@ -239,11 +239,6 @@ experiments
 "
 service
 -
-fretboard
-"
-"
-service
--
 glean
 "
 "
