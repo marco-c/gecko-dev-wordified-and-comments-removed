@@ -750,10 +750,10 @@ video_capture
 .
 h
 index
-6614032299
+43a6a7f832
 .
 .
-378a53b4d2
+f59c34f8b2
 100644
 -
 -
@@ -789,9 +789,6 @@ class
 VideoCaptureModule
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 uint32_t

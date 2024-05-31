@@ -9581,6 +9581,14 @@ make_ref_counted
 /
 api
 :
+ref_count
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

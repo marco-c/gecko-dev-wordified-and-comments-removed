@@ -236,6 +236,12 @@ make_ref_counted
 .
 .
 :
+ref_count
+"
+"
+.
+.
+:
 scoped_refptr
 "
 "

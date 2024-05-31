@@ -10716,10 +10716,10 @@ video_capture
 .
 h
 index
-eddc31414a
+48920b27c0
 .
 .
-e207598d68
+f31b239c71
 100644
 -
 -
@@ -10848,9 +10848,6 @@ class
 VideoCaptureModule
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public
@@ -11010,9 +11007,6 @@ class
 VideoCaptureModule
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 char
@@ -11081,9 +11075,6 @@ class
 VideoCaptureModule
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 uint32_t
@@ -11131,9 +11122,6 @@ class
 VideoCaptureModule
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 RawVideoSinkInterface
@@ -13139,10 +13127,10 @@ BUILD
 .
 gn
 index
-6fa8f0d392
+ac237ed4c8
 .
 .
-b2615d166d
+97b56d19c4
 100644
 -
 -

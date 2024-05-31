@@ -131,10 +131,10 @@ video_capture
 .
 h
 index
-58485f28e9
+7279bed476
 .
 .
-04203033b0
+db07580921
 100644
 -
 -
@@ -242,9 +242,6 @@ class
 VideoCaptureModule
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 virtual
@@ -375,9 +372,6 @@ class
 VideoCaptureModule
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 virtual

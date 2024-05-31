@@ -213,6 +213,17 @@ array_view
 /
 api
 :
+ref_count
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

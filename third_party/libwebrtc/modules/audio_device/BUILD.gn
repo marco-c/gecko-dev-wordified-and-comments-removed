@@ -351,6 +351,17 @@ deps
 /
 api
 :
+ref_count
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

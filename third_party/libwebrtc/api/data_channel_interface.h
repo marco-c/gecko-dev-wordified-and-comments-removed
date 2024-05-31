@@ -306,9 +306,6 @@ RTC_EXPORT
 DataChannelInterface
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public
