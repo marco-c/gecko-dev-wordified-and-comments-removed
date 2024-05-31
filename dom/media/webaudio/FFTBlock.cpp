@@ -23,17 +23,12 @@ double
 >
 Complex
 ;
-#
-ifdef
-MOZ_LIBAV_FFT
 FFmpegRDFTFuncs
 FFTBlock
 :
 :
 sRDFTFuncs
 ;
-#
-endif
 static
 double
 fdlibm_cabs
