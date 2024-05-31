@@ -81,12 +81,6 @@ Context
 import
 android
 .
-text
-.
-TextUtils
-import
-android
-.
 view
 .
 Gravity
@@ -844,13 +838,6 @@ visibility
 View
 .
 GONE
-ellipsize
-=
-TextUtils
-.
-TruncateAt
-.
-END
 setSingleLine
 (
 true
