@@ -272,11 +272,11 @@ mozilla
 -
 beta
 :
-FENNEC_62_0b3_RELEASE
+FENNEC_62_0b5_RELEASE
 revision
 :
 '
-1716b76aa7b8df189e74bf87394d3a11e0c5ac12
+801112336847960bbb9a018695cf09ea437dc137
 '
 version
 :
@@ -285,7 +285,7 @@ version
 .
 0
 .
-20180625141512
+20180702164905
 '
 ]
 ext
