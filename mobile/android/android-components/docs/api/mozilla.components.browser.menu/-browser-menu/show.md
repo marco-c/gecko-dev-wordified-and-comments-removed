@@ -97,8 +97,6 @@ index
 md
 )
 =
-Orientation
-.
 DOWN
 )
 :
@@ -176,5 +174,5 @@ BrowserMenu
 .
 kt
 #
-L31
+L36
 )

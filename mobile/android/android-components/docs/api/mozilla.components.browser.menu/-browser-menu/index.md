@@ -97,7 +97,7 @@ BrowserMenu
 .
 kt
 #
-L24
+L29
 )
 A
 popup
@@ -303,8 +303,6 @@ index
 md
 )
 =
-Orientation
-.
 DOWN
 )
 :
