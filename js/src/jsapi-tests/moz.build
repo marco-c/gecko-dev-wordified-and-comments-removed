@@ -585,6 +585,11 @@ testSharedImmutableStringsCache
 cpp
 "
 "
+testSinglyLinkedList
+.
+cpp
+"
+"
 testSliceBudget
 .
 cpp
