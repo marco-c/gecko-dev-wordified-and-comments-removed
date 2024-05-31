@@ -1793,6 +1793,10 @@ DeleteSelf
 void
 DoNotifyListener
 (
+bool
+aUseEventQueue
+=
+true
 )
 ;
 void
