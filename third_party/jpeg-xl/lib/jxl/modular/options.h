@@ -21,6 +21,17 @@ include
 <
 vector
 >
+#
+include
+"
+lib
+/
+jxl
+/
+enc_ans_params
+.
+h
+"
 namespace
 jxl
 {
@@ -288,6 +299,9 @@ TreeKind
 :
 :
 kLearn
+;
+HistogramParams
+histogram_params
 ;
 bool
 zero_tokens

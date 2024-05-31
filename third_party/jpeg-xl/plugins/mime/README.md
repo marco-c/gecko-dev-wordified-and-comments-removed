@@ -17,7 +17,7 @@ by
 [
 shared
 -
-mine
+mime
 -
 info
 2

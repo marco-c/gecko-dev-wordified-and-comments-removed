@@ -24,6 +24,19 @@ lib
 /
 jxl
 /
+base
+/
+status
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 image
 .
 h
@@ -31,7 +44,7 @@ h
 namespace
 jxl
 {
-void
+Status
 GaborishInverse
 (
 Image3F
@@ -41,6 +54,7 @@ const
 Rect
 &
 rect
+const
 float
 mul
 [

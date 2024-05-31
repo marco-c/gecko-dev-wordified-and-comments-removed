@@ -7,15 +7,6 @@ JXL_TYPES_H_
 #
 include
 <
-jxl
-/
-jxl_export
-.
-h
->
-#
-include
-<
 stddef
 .
 h

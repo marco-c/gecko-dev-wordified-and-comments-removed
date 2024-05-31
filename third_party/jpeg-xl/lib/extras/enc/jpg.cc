@@ -2046,9 +2046,15 @@ cinfo
 .
 optimize_coding
 =
+static_cast
+<
+boolean
+>
+(
 params
 .
 optimize_coding
+)
 ;
 if
 (

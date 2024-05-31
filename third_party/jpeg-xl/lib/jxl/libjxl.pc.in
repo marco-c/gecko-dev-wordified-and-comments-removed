@@ -38,12 +38,12 @@ libdir
 }
 -
 ljxl
+JPEGXL_PUBLIC_LIBS
 Libs
 .
 private
 :
--
-lm
+JPEGXL_PRIVATE_LIBS
 Cflags
 :
 -

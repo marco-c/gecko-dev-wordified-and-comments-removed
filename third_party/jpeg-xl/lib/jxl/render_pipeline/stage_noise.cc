@@ -1167,7 +1167,7 @@ first_c
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -1202,6 +1202,7 @@ HasAny
 )
 )
 return
+true
 ;
 const
 StrengthEvalLut
@@ -1615,6 +1616,9 @@ float
 )
 )
 ;
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode
@@ -1754,7 +1758,7 @@ first_c
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -2122,6 +2126,9 @@ x
 ;
 }
 }
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode

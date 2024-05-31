@@ -749,11 +749,11 @@ mode
 make_blending
 (
 info_
-&
 blending_info_
-[
-0
-]
+.
+data
+(
+)
 )
 ;
 for
@@ -804,7 +804,7 @@ return
 initialized_
 ;
 }
-void
+Status
 ProcessRow
 (
 const
@@ -926,6 +926,7 @@ image_ysize_
 )
 {
 return
+true
 ;
 }
 if
@@ -1200,6 +1201,7 @@ data
 ;
 }
 }
+return
 PerformBlending
 (
 bg_row_ptrs_

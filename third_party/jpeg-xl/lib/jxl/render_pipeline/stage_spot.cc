@@ -60,7 +60,7 @@ spot_c_
 )
 ;
 }
-void
+Status
 ProcessRow
 (
 const
@@ -193,6 +193,9 @@ x
 ;
 }
 }
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode

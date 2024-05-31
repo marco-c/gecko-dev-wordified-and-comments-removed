@@ -19,6 +19,15 @@ MaxVectorSize
 (
 )
 ;
+size_t
+BytesPerRow
+(
+size_t
+xsize
+size_t
+sizeof_t
+)
+;
 }
 #
 endif

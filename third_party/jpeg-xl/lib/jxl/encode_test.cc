@@ -229,6 +229,19 @@ jxl
 /
 base
 /
+override
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
+base
+/
 span
 .
 h
@@ -1660,7 +1673,7 @@ VerifyFrameEncoding
 129
 enc
 frame_settings
-2700
+27000
 false
 )
 ;
@@ -1750,7 +1763,7 @@ get
 )
 nullptr
 )
-4300
+4550
 false
 )
 ;
@@ -2181,7 +2194,7 @@ nb_options
 -
 2
 -
-1
+2
 -
 2
 -
@@ -2357,7 +2370,7 @@ JxlEncoderFrameSettingsSetOption
 (
 frame_settings
 JXL_ENC_FRAME_SETTING_EFFORT
-10
+11
 )
 )
 ;
@@ -2377,7 +2390,7 @@ JxlEncoderFrameSettingsSetOption
 (
 frame_settings
 JXL_ENC_FRAME_SETTING_EFFORT
-10
+11
 )
 )
 ;
@@ -2591,7 +2604,7 @@ get
 (
 )
 frame_settings
-2500
+3700
 false
 )
 ;
@@ -2722,7 +2735,7 @@ get
 (
 )
 frame_settings
-3030
+3130
 false
 )
 ;
@@ -3028,7 +3041,7 @@ get
 (
 )
 frame_settings
-2830
+3430
 false
 )
 ;

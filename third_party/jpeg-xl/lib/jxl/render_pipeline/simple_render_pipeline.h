@@ -57,7 +57,7 @@ thread_id
 )
 override
 ;
-void
+Status
 ProcessBuffers
 (
 size_t
@@ -67,7 +67,7 @@ thread_id
 )
 override
 ;
-void
+Status
 PrepareForThreadsInternal
 (
 size_t

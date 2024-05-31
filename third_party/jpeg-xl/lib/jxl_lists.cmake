@@ -1134,6 +1134,11 @@ jxl
 /
 image_ops
 .
+cc
+jxl
+/
+image_ops
+.
 h
 jxl
 /

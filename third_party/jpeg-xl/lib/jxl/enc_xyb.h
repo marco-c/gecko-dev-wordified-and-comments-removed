@@ -123,7 +123,7 @@ JXL_RESTRICT
 linear
 )
 ;
-void
+Status
 ToXYB
 (
 const

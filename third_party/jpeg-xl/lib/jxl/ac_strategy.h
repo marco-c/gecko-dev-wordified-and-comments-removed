@@ -899,7 +899,12 @@ AcStrategyImage
 =
 default
 ;
+static
+StatusOr
+<
 AcStrategyImage
+>
+Create
 (
 size_t
 xsize

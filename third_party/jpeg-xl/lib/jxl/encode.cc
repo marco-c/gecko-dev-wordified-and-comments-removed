@@ -9235,8 +9235,7 @@ metadata
 m
 .
 num_extra_channels
--
-1
+0
 )
 ;
 JxlEncoderFrameSettings
@@ -9651,8 +9650,7 @@ metadata
 m
 .
 num_extra_channels
--
-1
+0
 )
 ;
 }
@@ -9889,7 +9887,7 @@ value
 |
 value
 >
-10
+11
 )
 {
 return
@@ -9911,7 +9909,7 @@ in
 1
 .
 .
-10
+11
 ]
 "
 )
@@ -9929,7 +9927,7 @@ value
 |
 value
 >
-9
+10
 )
 {
 return
@@ -9951,7 +9949,7 @@ in
 1
 .
 .
-9
+10
 ]
 "
 )
@@ -11331,7 +11329,8 @@ if
 (
 value
 <
-0
+-
+1
 |
 |
 value
@@ -11354,7 +11353,8 @@ to
 be
 in
 [
-0
+-
+1
 .
 .
 3

@@ -122,7 +122,7 @@ channel
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -312,6 +312,9 @@ x
 )
 ;
 }
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode
@@ -396,7 +399,7 @@ channel
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -619,6 +622,9 @@ x
 )
 ;
 }
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode

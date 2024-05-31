@@ -31,6 +31,19 @@ lib
 /
 jxl
 /
+base
+/
+status
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 frame_header
 .
 h
@@ -258,7 +271,7 @@ RenderPipelineStage
 default
 ;
 virtual
-void
+Status
 ProcessRow
 (
 const
@@ -322,7 +335,7 @@ true
 ;
 }
 virtual
-void
+Status
 SetInputSizes
 (
 const
@@ -344,6 +357,9 @@ size_t
 input_sizes
 )
 {
+return
+true
+;
 }
 virtual
 Status

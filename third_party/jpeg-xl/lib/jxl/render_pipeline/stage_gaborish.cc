@@ -285,7 +285,7 @@ mul
 ;
 }
 }
-void
+Status
 ProcessRow
 (
 const
@@ -675,6 +675,9 @@ x
 ;
 }
 }
+return
+true
+;
 }
 #
 undef

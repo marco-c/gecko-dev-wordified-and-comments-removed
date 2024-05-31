@@ -1254,7 +1254,7 @@ WASM
 modules
 with
 threads
-suppurt
+support
 "
 )
 #

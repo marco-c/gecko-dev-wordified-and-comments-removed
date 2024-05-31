@@ -943,6 +943,8 @@ nullptr
 unsigned
 int
 icc_len
+=
+0
 ;
 JXL_CHECK
 (

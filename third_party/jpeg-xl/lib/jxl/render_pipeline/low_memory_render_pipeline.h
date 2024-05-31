@@ -71,7 +71,7 @@ thread_id
 )
 override
 ;
-void
+Status
 PrepareForThreadsInternal
 (
 size_t
@@ -81,7 +81,7 @@ use_group_ids
 )
 override
 ;
-void
+Status
 ProcessBuffers
 (
 size_t
@@ -107,13 +107,13 @@ i
 )
 ;
 }
-void
+Status
 Init
 (
 )
 override
 ;
-void
+Status
 EnsureBordersStorage
 (
 )
@@ -134,7 +134,7 @@ c
 )
 const
 ;
-void
+Status
 RenderRect
 (
 size_t
@@ -154,7 +154,7 @@ Rect
 image_max_color_channel_rect
 )
 ;
-void
+Status
 RenderPadding
 (
 size_t

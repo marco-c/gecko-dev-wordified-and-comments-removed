@@ -32,6 +32,17 @@ lib
 /
 jxl
 /
+image_ops
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 modular
 /
 modular_image

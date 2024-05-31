@@ -37,12 +37,12 @@ libdir
 }
 -
 ljxl_cms
+JPEGXL_CMS_PUBLIC_LIBS
 Libs
 .
 private
 :
--
-lm
+JPEGXL_CMS_PRIVATE_LIBS
 Cflags
 :
 -

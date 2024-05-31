@@ -80,7 +80,7 @@ h
 namespace
 jxl
 {
-void
+Status
 AdaptiveDCSmoothing
 (
 const
@@ -122,7 +122,9 @@ const
 float
 *
 cfl_factors
+const
 YCbCrChromaSubsampling
+&
 chroma_subsampling
 const
 BlockCtxMap

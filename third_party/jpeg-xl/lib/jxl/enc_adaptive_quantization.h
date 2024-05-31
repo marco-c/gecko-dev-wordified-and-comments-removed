@@ -83,7 +83,10 @@ jxl
 struct
 AuxOut
 ;
+StatusOr
+<
 ImageF
+>
 InitialQuantField
 (
 float
@@ -134,7 +137,7 @@ ImageF
 quant_field
 )
 ;
-void
+Status
 FindBestQuantizer
 (
 const

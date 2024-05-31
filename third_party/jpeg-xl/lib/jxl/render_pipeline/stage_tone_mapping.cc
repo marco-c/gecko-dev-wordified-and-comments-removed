@@ -325,7 +325,7 @@ tone_mapper_
 hlg_ootf_
 ;
 }
-void
+Status
 ProcessRow
 (
 const
@@ -361,6 +361,7 @@ hlg_ootf_
 )
 )
 return
+true
 ;
 const
 HWY_FULL
@@ -774,6 +775,9 @@ xsize_v
 xsize
 )
 )
+;
+return
+true
 ;
 }
 RenderPipelineChannelMode

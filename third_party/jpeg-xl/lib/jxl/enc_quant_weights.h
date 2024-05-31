@@ -90,7 +90,7 @@ float
 scale
 )
 ;
-void
+Status
 DequantMatricesSetCustom
 (
 DequantMatrices
