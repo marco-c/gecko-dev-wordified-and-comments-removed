@@ -389,7 +389,7 @@ eventTarget
 aEvent
 -
 >
-GetOriginalTarget
+GetComposedTarget
 (
 )
 ;
@@ -444,8 +444,6 @@ GetTarget
 )
 ;
 }
-if
-(
 nsXULPopupManager
 *
 pm
@@ -456,6 +454,10 @@ nsXULPopupManager
 GetInstance
 (
 )
+;
+if
+(
+pm
 )
 {
 nsCOMPtr
@@ -627,7 +629,7 @@ eventTarget
 aEvent
 -
 >
-GetOriginalTarget
+GetComposedTarget
 (
 )
 ;
@@ -733,15 +735,12 @@ nsIContent
 >
 sourceContent
 =
-nsIContent
-:
-:
-FromEventTargetOrNull
+do_QueryInterface
 (
 aEvent
 -
 >
-GetOriginalTarget
+GetCurrentTarget
 (
 )
 )

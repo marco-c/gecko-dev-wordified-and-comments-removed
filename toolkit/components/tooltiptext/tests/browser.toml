@@ -93,13 +93,6 @@ bug
 )
 [
 "
-browser_nac_tooltip
-.
-js
-"
-]
-[
-"
 browser_shadow_dom_tooltip
 .
 js
