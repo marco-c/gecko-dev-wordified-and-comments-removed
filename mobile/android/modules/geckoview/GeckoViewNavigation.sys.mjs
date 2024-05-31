@@ -2756,6 +2756,17 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_NEWTAB_BACKGROUND
+|
+|
+where
+=
+=
+=
+Ci
+.
+nsIBrowserDOMWindow
+.
+OPEN_NEWTAB_FOREGROUND
 )
 {
 browser
