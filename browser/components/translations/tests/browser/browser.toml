@@ -439,6 +439,13 @@ js
 ]
 [
 "
+browser_translations_select_panel_language_selectors
+.
+js
+"
+]
+[
+"
 browser_translations_select_panel_mainview_ui
 .
 js

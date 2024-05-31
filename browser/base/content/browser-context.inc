@@ -4471,9 +4471,9 @@ selection
 oncommand
 =
 "
-SelectTranslationsPanel
+gContextMenu
 .
-open
+openSelectTranslationsPanel
 (
 event
 )
