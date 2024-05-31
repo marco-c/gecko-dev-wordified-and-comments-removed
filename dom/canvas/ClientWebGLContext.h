@@ -5016,7 +5016,7 @@ webgl
 :
 ReadPixelsDesc
 &
-Range
+Span
 <
 uint8_t
 >
