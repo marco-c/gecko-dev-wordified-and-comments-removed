@@ -60,12 +60,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-org
-.
-robolectric
-.
-RuntimeEnvironment
 RunWith
 (
 RobolectricTestRunner
