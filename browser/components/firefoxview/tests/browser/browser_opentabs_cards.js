@@ -130,7 +130,7 @@ opentabs
 )
 {
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 browser
 .
@@ -1962,6 +1962,13 @@ open
 }
 )
 ;
+await
+BrowserTestUtils
+.
+openNewBrowserWindow
+(
+)
+;
 let
 tabChangeRaised
 =
@@ -1973,13 +1980,6 @@ NonPrivateTabs
 "
 TabChange
 "
-)
-;
-await
-BrowserTestUtils
-.
-openNewBrowserWindow
-(
 )
 ;
 await
@@ -3790,7 +3790,7 @@ viewTab
 linkedBrowser
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 browser
 .
