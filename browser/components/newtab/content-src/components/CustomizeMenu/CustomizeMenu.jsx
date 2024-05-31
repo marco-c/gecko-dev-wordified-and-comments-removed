@@ -513,6 +513,15 @@ DiscoveryStream
 .
 recentSavesEnabled
 }
+spocMessageVariant
+=
+{
+this
+.
+props
+.
+spocMessageVariant
+}
 dispatch
 =
 {
