@@ -36268,6 +36268,9 @@ dependencies
 =
 [
 "
+arrayvec
+"
+"
 bincode
 "
 "

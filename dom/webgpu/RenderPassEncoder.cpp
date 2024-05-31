@@ -88,7 +88,7 @@ operator
 ffi
 :
 :
-WGPURenderPass
+WGPURecordedRenderPass
 *
 raw
 )
@@ -535,7 +535,7 @@ WGPUColor
 ffi
 :
 :
-WGPURenderPass
+WGPURecordedRenderPass
 *
 BeginRenderPass
 (
@@ -1029,10 +1029,6 @@ ffi
 :
 wgpu_command_encoder_begin_render_pass
 (
-aParent
--
->
-mId
 &
 desc
 )
@@ -1191,7 +1187,7 @@ aBindGroup
 ffi
 :
 :
-wgpu_render_pass_set_bind_group
+wgpu_recorded_render_pass_set_bind_group
 (
 mPass
 .
@@ -1244,7 +1240,7 @@ aPipeline
 ffi
 :
 :
-wgpu_render_pass_set_pipeline
+wgpu_recorded_render_pass_set_pipeline
 (
 mPass
 .
@@ -1322,7 +1318,7 @@ WGPUIndexFormat_Uint16
 ffi
 :
 :
-wgpu_render_pass_set_index_buffer
+wgpu_recorded_render_pass_set_index_buffer
 (
 mPass
 .
@@ -1373,7 +1369,7 @@ aBuffer
 ffi
 :
 :
-wgpu_render_pass_set_vertex_buffer
+wgpu_recorded_render_pass_set_vertex_buffer
 (
 mPass
 .
@@ -1414,7 +1410,7 @@ mValid
 ffi
 :
 :
-wgpu_render_pass_draw
+wgpu_recorded_render_pass_draw
 (
 mPass
 .
@@ -1455,7 +1451,7 @@ mValid
 ffi
 :
 :
-wgpu_render_pass_draw_indexed
+wgpu_recorded_render_pass_draw_indexed
 (
 mPass
 .
@@ -1493,7 +1489,7 @@ mValid
 ffi
 :
 :
-wgpu_render_pass_draw_indirect
+wgpu_recorded_render_pass_draw_indirect
 (
 mPass
 .
@@ -1530,7 +1526,7 @@ mValid
 ffi
 :
 :
-wgpu_render_pass_draw_indexed_indirect
+wgpu_recorded_render_pass_draw_indexed_indirect
 (
 mPass
 .
@@ -1573,7 +1569,7 @@ mValid
 ffi
 :
 :
-wgpu_render_pass_set_viewport
+wgpu_recorded_render_pass_set_viewport
 (
 mPass
 .
@@ -1614,7 +1610,7 @@ mValid
 ffi
 :
 :
-wgpu_render_pass_set_scissor_rect
+wgpu_recorded_render_pass_set_scissor_rect
 (
 mPass
 .
@@ -1663,7 +1659,7 @@ color
 ffi
 :
 :
-wgpu_render_pass_set_blend_constant
+wgpu_recorded_render_pass_set_blend_constant
 (
 mPass
 .
@@ -1694,7 +1690,7 @@ mValid
 ffi
 :
 :
-wgpu_render_pass_set_stencil_reference
+wgpu_recorded_render_pass_set_stencil_reference
 (
 mPass
 .
@@ -1779,7 +1775,7 @@ mId
 ffi
 :
 :
-wgpu_render_pass_execute_bundles
+wgpu_recorded_render_pass_execute_bundles
 (
 mPass
 .
@@ -1827,7 +1823,7 @@ aString
 ffi
 :
 :
-wgpu_render_pass_push_debug_group
+wgpu_recorded_render_pass_push_debug_group
 (
 mPass
 .
@@ -1860,7 +1856,7 @@ mValid
 ffi
 :
 :
-wgpu_render_pass_pop_debug_group
+wgpu_recorded_render_pass_pop_debug_group
 (
 mPass
 .
@@ -1898,7 +1894,7 @@ aString
 ffi
 :
 :
-wgpu_render_pass_insert_debug_marker
+wgpu_recorded_render_pass_insert_debug_marker
 (
 mPass
 .
