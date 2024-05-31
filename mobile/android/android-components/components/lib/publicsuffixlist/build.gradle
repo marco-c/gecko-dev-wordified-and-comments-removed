@@ -84,6 +84,12 @@ android
 -
 extensions
 '
+apply
+plugin
+:
+plugins
+.
+PublicSuffixListPlugin
 android
 {
 compileSdkVersion
