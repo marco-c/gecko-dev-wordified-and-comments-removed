@@ -639,6 +639,13 @@ stream_type
 :
 H3StreamType
 pub
+stream_type_value
+:
+Option
+<
+u64
+>
+pub
 associated_push_id
 :
 Option

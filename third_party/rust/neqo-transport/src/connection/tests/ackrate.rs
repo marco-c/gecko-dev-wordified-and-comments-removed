@@ -15,8 +15,8 @@ test_fixture
 :
 :
 {
-addr_v4
 assertions
+DEFAULT_ADDR_V4
 }
 ;
 use
@@ -1042,15 +1042,11 @@ migrate
 (
 Some
 (
-addr_v4
-(
-)
+DEFAULT_ADDR_V4
 )
 Some
 (
-addr_v4
-(
-)
+DEFAULT_ADDR_V4
 )
 true
 now
