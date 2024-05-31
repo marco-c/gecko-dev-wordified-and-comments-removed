@@ -159,7 +159,7 @@ size
 *
 *
 *
-Get
+Gets
 the
 currently
 selected
@@ -189,7 +189,7 @@ selected
 *
 *
 *
-Register
+Registers
 an
 observer
 to
@@ -237,7 +237,7 @@ observer
 *
 *
 *
-Unregister
+Unregisters
 an
 observer
 .
@@ -262,7 +262,7 @@ observer
 *
 *
 *
-Mark
+Marks
 the
 given
 session
