@@ -2101,13 +2101,6 @@ single
 chunk
 .
 *
-*
-param
-{
-IdleDeadline
-}
-deadline
-*
 /
 onIdle
 (

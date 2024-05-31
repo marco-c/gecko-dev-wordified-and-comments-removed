@@ -648,14 +648,6 @@ string
 }
 topic
 *
-param
-{
-string
-|
-undefined
-}
-data
-*
 /
 observe
 :
