@@ -126,7 +126,7 @@ TextEvent
 "
 :
 "
-CompositionEvent
+TextEvent
 "
 "
 UIEvent
