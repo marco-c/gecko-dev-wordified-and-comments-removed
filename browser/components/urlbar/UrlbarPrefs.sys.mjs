@@ -4355,6 +4355,9 @@ weatherKeywordsMinimumLength
 weatherKeywordsMinimumLengthCap
 :
 0
+weatherSimpleUI
+:
+false
 }
 ;
 /
