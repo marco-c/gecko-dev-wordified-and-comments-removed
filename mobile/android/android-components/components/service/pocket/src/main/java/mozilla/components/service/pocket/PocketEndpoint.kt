@@ -143,7 +143,7 @@ data
 *
 see
 [
-getInstance
+newInstance
 ]
 to
 retrieve
@@ -389,7 +389,8 @@ object
 *
 *
 Returns
-an
+a
+new
 instance
 of
 [
@@ -449,7 +450,7 @@ invalid
 *
 /
 fun
-getInstance
+newInstance
 (
 client
 :

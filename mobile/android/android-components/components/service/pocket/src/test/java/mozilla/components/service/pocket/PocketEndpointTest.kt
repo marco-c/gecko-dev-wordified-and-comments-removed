@@ -711,7 +711,7 @@ thrown
 {
 PocketEndpoint
 .
-getInstance
+newInstance
 (
 client
 "
@@ -748,7 +748,7 @@ thrown
 {
 PocketEndpoint
 .
-getInstance
+newInstance
 (
 client
 VALID_API_KEY
@@ -775,7 +775,7 @@ thrown
 {
 PocketEndpoint
 .
-getInstance
+newInstance
 (
 client
 VALID_API_KEY
@@ -865,7 +865,7 @@ endpoint
 =
 PocketEndpoint
 .
-getInstance
+newInstance
 (
 client
 apiKey
