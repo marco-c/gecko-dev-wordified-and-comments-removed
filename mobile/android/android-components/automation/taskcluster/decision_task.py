@@ -2136,6 +2136,18 @@ release
 '
 :
         
+if
+result
+.
+is_snapshot
+:
+            
+components
+=
+snapshot_components
+(
+)
+        
 components
 =
 [
@@ -2223,18 +2235,6 @@ command
 release
 '
 :
-        
-if
-result
-.
-is_snapshot
-:
-            
-components
-=
-snapshot_components
-(
-)
         
 ordered_groups_of_tasks
 =
