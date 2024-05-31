@@ -949,14 +949,8 @@ jacoco
 includeNoLocationClasses
 =
 true
-doLast
-{
+finalizedBy
 jacocoTestReport
-.
-execute
-(
-)
-}
 }
 task
 jacocoTestReport
