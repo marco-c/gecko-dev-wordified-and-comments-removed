@@ -490,6 +490,7 @@ nscoord
 IntrinsicScrollbarGutterSizeAtInlineEdges
 (
 )
+const
 ;
 nsMargin
 ComputeStableScrollbarGutter
