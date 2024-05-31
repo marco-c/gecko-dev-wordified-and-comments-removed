@@ -481,13 +481,6 @@ err
 "
 max
 -
-depth
-"
-:
-0
-"
-max
--
 nested
 -
 callbacks

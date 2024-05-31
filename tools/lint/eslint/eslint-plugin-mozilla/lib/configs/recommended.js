@@ -683,15 +683,6 @@ off
 "
 max
 -
-depth
-"
-:
-"
-off
-"
-"
-max
--
 nested
 -
 callbacks
