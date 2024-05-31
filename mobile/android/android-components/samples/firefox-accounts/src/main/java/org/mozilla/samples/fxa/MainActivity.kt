@@ -471,6 +471,8 @@ Config
 custom
 (
 CONFIG_URL_PAIRING
+CLIENT_ID
+REDIRECT_URL
 )
 .
 await
@@ -488,8 +490,6 @@ acct
 FirefoxAccount
 (
 config
-CLIENT_ID
-REDIRECT_URL
 )
 val
 url
@@ -521,6 +521,8 @@ Config
 custom
 (
 CONFIG_URL
+CLIENT_ID
+REDIRECT_URL
 )
 .
 await
@@ -535,8 +537,6 @@ config
 FirefoxAccount
 (
 config
-CLIENT_ID
-REDIRECT_URL
 )
 }
 }

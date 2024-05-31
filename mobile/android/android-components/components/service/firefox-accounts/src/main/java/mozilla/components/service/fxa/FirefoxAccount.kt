@@ -228,12 +228,6 @@ constructor
 config
 :
 Config
-clientId
-:
-String
-redirectUri
-:
-String
 )
 :
 this
@@ -241,10 +235,6 @@ this
 InternalFxAcct
 (
 config
-.
-inner
-clientId
-redirectUri
 )
 )
 override
