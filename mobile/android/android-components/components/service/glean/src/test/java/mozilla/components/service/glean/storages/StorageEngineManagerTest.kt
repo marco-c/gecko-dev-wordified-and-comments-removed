@@ -277,6 +277,13 @@ assertEquals
 {
 \
 "
+metrics
+\
+"
+:
+{
+\
+"
 engine1
 \
 "
@@ -317,6 +324,7 @@ c
 \
 "
 ]
+}
 }
 "
 data

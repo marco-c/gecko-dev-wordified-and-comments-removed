@@ -826,6 +826,16 @@ return
 eventsArray
 }
 }
+override
+val
+sendAsTopLevelField
+:
+Boolean
+get
+(
+)
+=
+true
 VisibleForTesting
 internal
 fun
