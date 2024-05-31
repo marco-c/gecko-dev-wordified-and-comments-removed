@@ -169,9 +169,7 @@ notification_emails
 CHANGE
 -
 ME
-test
--
-only
+example
 .
 com
 expires
