@@ -139,7 +139,7 @@ Error
 val
 exception
 :
-Exception
+Throwable
 )
 :
 SyncStatus
