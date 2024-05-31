@@ -159,7 +159,6 @@ of
 domains
 *
 /
-suspend
 fun
 load
 (
@@ -183,7 +182,6 @@ getCountriesInDefaultLocaleList
 )
 }
 internal
-suspend
 fun
 load
 (

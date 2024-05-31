@@ -152,7 +152,6 @@ custom
 domains
 *
 /
-suspend
 fun
 load
 (
@@ -285,7 +284,6 @@ to
 add
 *
 /
-suspend
 fun
 add
 (
@@ -354,7 +352,6 @@ to
 remove
 *
 /
-suspend
 fun
 remove
 (

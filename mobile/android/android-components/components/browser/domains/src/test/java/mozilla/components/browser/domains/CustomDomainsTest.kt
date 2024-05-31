@@ -193,8 +193,6 @@ fun
 testSaveAndRemoveDomains
 (
 )
-=
-runBlocking
 {
 CustomDomains
 .
@@ -298,8 +296,6 @@ fun
 testAddAndLoadDomains
 (
 )
-=
-runBlocking
 {
 CustomDomains
 .
@@ -352,8 +348,6 @@ fun
 testSaveAndLoadDomains
 (
 )
-=
-runBlocking
 {
 CustomDomains
 .

@@ -65,14 +65,6 @@ browser
 .
 domains
 import
-kotlinx
-.
-coroutines
-.
-experimental
-.
-runBlocking
-import
 org
 .
 junit
@@ -119,8 +111,6 @@ fun
 testLoadDomains
 (
 )
-=
-runBlocking
 {
 val
 domains
@@ -170,8 +160,6 @@ fun
 testLoadDomainsWithDefaultCountries
 (
 )
-=
-runBlocking
 {
 val
 domains
