@@ -1291,10 +1291,6 @@ iter
 )
 {
 return
-[
-.
-.
-.
 this
 .
 _sourceActors
@@ -1302,7 +1298,6 @@ _sourceActors
 values
 (
 )
-]
 ;
 }
 observe
