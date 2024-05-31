@@ -343,7 +343,17 @@ mozac_ic_close
 /
 >
 <
-ImageView
+mozilla
+.
+components
+.
+browser
+.
+tabstray
+.
+thumbnail
+.
+TabThumbnailView
 android
 :
 id
@@ -384,7 +394,7 @@ contentDescription
 "
 string
 /
-mozac_browser_tabstray_close_tab
+mozac_browser_tabstray_open_tab
 "
 /
 >
