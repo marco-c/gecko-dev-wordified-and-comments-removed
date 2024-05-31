@@ -169,9 +169,6 @@ format
 "
 rustfmt
 "
-"
-isort
-"
 }
 VALID_ANDROID_FORMATTERS
 =
