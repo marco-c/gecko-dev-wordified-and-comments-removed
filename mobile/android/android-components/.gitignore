@@ -43,6 +43,12 @@ gradle
 /
 build
 /
+!
+automation
+/
+docker
+/
+build
 #
 Local
 configuration
