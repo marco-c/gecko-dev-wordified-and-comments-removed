@@ -1410,8 +1410,6 @@ editor
 blackboxedRanges
 isSourceOnIgnoreList
 clickedLine
-=
-null
 dispatch
 )
 =
