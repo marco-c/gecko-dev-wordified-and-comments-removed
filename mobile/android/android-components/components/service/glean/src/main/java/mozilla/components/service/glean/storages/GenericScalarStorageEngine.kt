@@ -704,10 +704,9 @@ if
 (
 storeName
 .
-length
-<
-=
-1
+isEmpty
+(
+)
 )
 {
 continue
