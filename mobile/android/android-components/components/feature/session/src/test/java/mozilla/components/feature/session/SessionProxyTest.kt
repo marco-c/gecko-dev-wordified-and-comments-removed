@@ -140,6 +140,13 @@ goForward
 }
 override
 fun
+reload
+(
+)
+{
+}
+override
+fun
 loadUrl
 (
 url
