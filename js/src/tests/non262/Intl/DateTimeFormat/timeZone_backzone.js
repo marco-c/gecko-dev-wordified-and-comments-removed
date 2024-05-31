@@ -767,17 +767,6 @@ Antarctica
 Syowa
 "
 "
-Antarctica
-/
-Vostok
-"
-:
-"
-Antarctica
-/
-Vostok
-"
-"
 Asia
 /
 Aden
