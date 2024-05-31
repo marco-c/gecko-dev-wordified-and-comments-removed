@@ -100,6 +100,12 @@ Phone
 )
 "
 )
+SEEDLING
+(
+"
+Seedling
+"
+)
 }
 class
 ConfigurationAdapter
