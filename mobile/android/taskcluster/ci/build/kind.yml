@@ -289,6 +289,10 @@ checkouts
 /
 vcs
 /
+android
+-
+components
+/
 {
 component_path
 }
@@ -343,6 +347,10 @@ checkouts
 /
 vcs
 /
+android
+-
+components
+/
 {
 component_path
 }
@@ -386,6 +394,10 @@ worker
 checkouts
 /
 vcs
+/
+android
+-
+components
 /
 {
 component_path
@@ -462,6 +474,10 @@ worker
 checkouts
 /
 vcs
+/
+android
+-
+components
 /
 {
 component_path
