@@ -121,8 +121,6 @@ GpuProcessQueryId
 >
 &
 aGpuProcessQueryId
-bool
-aUseCompositorDevice
 )
 ;
 wr
@@ -646,10 +644,6 @@ gfx
 :
 FenceInfo
 mAcquireFenceInfo
-;
-const
-bool
-mUseCompositorDevice
 ;
 private
 :

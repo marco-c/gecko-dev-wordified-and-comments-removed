@@ -560,7 +560,6 @@ aFenceInfo
 Nothing
 (
 )
-true
 )
 )
 ;
