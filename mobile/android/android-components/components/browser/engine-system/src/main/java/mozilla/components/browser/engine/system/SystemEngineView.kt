@@ -1714,6 +1714,13 @@ onLoadRequest
 (
 request
 .
+url
+.
+toString
+(
+)
+request
+.
 hasGesture
 (
 )

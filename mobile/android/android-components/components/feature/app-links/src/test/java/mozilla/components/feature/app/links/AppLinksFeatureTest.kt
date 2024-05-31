@@ -345,8 +345,6 @@ java
 )
 mockSessionManager
 =
-Mockito
-.
 spy
 (
 SessionManager
@@ -530,9 +528,6 @@ private
 fun
 createSession
 (
-url
-:
-String
 isPrivate
 :
 Boolean
@@ -563,17 +558,6 @@ thenReturn
 (
 isPrivate
 )
-when
-(
-session
-.
-url
-)
-.
-thenReturn
-(
-url
-)
 return
 session
 }
@@ -597,9 +581,9 @@ onLoadRequest
 (
 createSession
 (
-url
 private
 )
+url
 triggeredByRedirect
 =
 false
@@ -682,7 +666,6 @@ session
 =
 createSession
 (
-webUrl
 false
 )
 val
@@ -701,6 +684,7 @@ subject
 handleLoadRequest
 (
 session
+webUrl
 true
 )
 verify
@@ -752,7 +736,6 @@ mockSession
 =
 createSession
 (
-webUrl
 false
 )
 when
@@ -1049,9 +1032,9 @@ onLoadRequest
 (
 createSession
 (
-webUrl
 true
 )
+webUrl
 triggeredByRedirect
 =
 false

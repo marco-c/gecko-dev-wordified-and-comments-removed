@@ -1797,6 +1797,11 @@ redirect
 "
 onLoadRequest
 (
+url
+=
+request
+.
+uri
 triggeredByRedirect
 =
 request

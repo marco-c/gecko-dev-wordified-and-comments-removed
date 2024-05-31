@@ -460,6 +460,9 @@ onLoadRequest
 session
 :
 Session
+url
+:
+String
 triggeredByRedirect
 :
 Boolean
@@ -471,6 +474,7 @@ Boolean
 handleLoadRequest
 (
 session
+url
 triggeredByWebContent
 )
 }
@@ -547,6 +551,9 @@ handleLoadRequest
 session
 :
 Session
+url
+:
+String
 triggeredByWebContent
 :
 Boolean
@@ -560,12 +567,6 @@ triggeredByWebContent
 {
 return
 }
-val
-url
-=
-session
-.
-url
 val
 redirect
 =

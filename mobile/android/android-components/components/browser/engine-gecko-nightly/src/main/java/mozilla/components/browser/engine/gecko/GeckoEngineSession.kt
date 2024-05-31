@@ -1831,6 +1831,11 @@ id
 1545170
 onLoadRequest
 (
+url
+=
+request
+.
+uri
 triggeredByRedirect
 =
 request

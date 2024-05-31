@@ -542,6 +542,16 @@ request
 *
 *
 param
+url
+The
+string
+url
+that
+was
+requested
+.
+*
+param
 triggeredByRedirect
 True
 if
@@ -589,6 +599,9 @@ chrome
 fun
 onLoadRequest
 (
+url
+:
+String
 triggeredByRedirect
 :
 Boolean
