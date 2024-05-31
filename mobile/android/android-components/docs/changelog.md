@@ -304,6 +304,17 @@ XML
 attribute
 .
 *
+Added
+BrowserToolbar
+attribute
+browserToolbarCancelColor
+to
+color
+the
+cancel
+icon
+.
+*
 *
 *
 feature
