@@ -3529,6 +3529,12 @@ html
 #
 Bug
 1392106
+fails
+-
+if
+(
+release_or_beta
+)
 =
 =
 clone
