@@ -1164,9 +1164,6 @@ XMLHttpRequest
 >
 mXHR
 ;
-nsString
-mEventType
-;
 uint32_t
 mChannelId
 ;
