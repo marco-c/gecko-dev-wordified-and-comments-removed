@@ -84,7 +84,7 @@ RawConfig
 {
 override
 fun
-destroyPointer
+destroy
 (
 p
 :

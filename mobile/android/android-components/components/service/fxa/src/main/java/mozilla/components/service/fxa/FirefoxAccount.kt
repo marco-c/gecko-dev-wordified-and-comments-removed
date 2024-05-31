@@ -153,7 +153,7 @@ result
 }
 override
 fun
-destroyPointer
+destroy
 (
 p
 :
