@@ -133,11 +133,15 @@ updateExperiments
 )
 Result
 .
-SUCCESS
+success
+(
+)
 else
 Result
 .
-RETRY
+retry
+(
+)
 }
 /
 *
