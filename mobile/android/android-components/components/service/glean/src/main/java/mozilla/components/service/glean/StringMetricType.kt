@@ -222,6 +222,9 @@ glean
 StringMetricType
 "
 )
+companion
+object
+{
 /
 /
 Maximum
@@ -238,10 +241,12 @@ sequence
 length
 .
 private
+const
 val
 MAX_LENGTH_VALUE
 =
 50
+}
 /
 *
 *

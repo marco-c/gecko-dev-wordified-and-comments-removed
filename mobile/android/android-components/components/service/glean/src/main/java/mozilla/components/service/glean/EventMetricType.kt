@@ -283,6 +283,9 @@ glean
 EventMetricType
 "
 )
+companion
+object
+{
 /
 /
 Maximum
@@ -302,6 +305,7 @@ sequence
 length
 .
 private
+const
 val
 MAX_LENGTH_EXTRA_KEY_VALUE
 =
@@ -322,10 +326,12 @@ sequence
 length
 .
 private
+const
 val
 MAX_LENGTH_VALUE
 =
 80
+}
 /
 *
 *
