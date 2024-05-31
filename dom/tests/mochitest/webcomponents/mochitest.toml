@@ -205,6 +205,13 @@ html
 ]
 [
 "
+test_declarative_shadowdom_reentry
+.
+html
+"
+]
+[
+"
 test_detached_style
 .
 html
