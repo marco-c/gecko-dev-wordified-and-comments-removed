@@ -165,11 +165,6 @@ storage
 sync
 "
 "
-browser
--
-toolbar
-"
-"
 feature
 -
 accounts

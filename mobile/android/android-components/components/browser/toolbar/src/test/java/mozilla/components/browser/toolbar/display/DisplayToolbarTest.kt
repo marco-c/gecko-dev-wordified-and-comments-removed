@@ -69,12 +69,6 @@ display
 import
 android
 .
-content
-.
-Context
-import
-android
-.
 graphics
 .
 Rect
@@ -114,16 +108,6 @@ android
 widget
 .
 TextView
-import
-androidx
-.
-test
-.
-core
-.
-app
-.
-ApplicationProvider
 import
 mozilla
 .
@@ -249,6 +233,18 @@ test
 .
 mock
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+robolectric
+.
+testContext
+import
 org
 .
 junit
@@ -361,12 +357,6 @@ org
 .
 robolectric
 .
-RuntimeEnvironment
-import
-org
-.
-robolectric
-.
 Shadows
 .
 shadowOf
@@ -380,20 +370,6 @@ class
 class
 DisplayToolbarTest
 {
-private
-val
-context
-:
-Context
-get
-(
-)
-=
-ApplicationProvider
-.
-getApplicationContext
-(
-)
 Test
 fun
 clicking
@@ -426,7 +402,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -481,7 +457,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -572,7 +548,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -667,7 +643,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -758,7 +734,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -839,7 +815,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -897,7 +873,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -989,7 +965,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 assertNull
@@ -1035,7 +1011,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -1081,7 +1057,7 @@ menuBuilder
 .
 build
 (
-context
+testContext
 )
 displayToolbar
 .
@@ -1098,7 +1074,7 @@ never
 .
 build
 (
-context
+testContext
 )
 verify
 (
@@ -1124,7 +1100,7 @@ menuBuilder
 .
 build
 (
-context
+testContext
 )
 verify
 (
@@ -1196,7 +1172,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 assertNull
@@ -1301,7 +1277,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -1368,7 +1344,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -1491,7 +1467,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 assertNull
@@ -1597,7 +1573,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -1684,7 +1660,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -1792,7 +1768,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 assertNull
@@ -1904,7 +1880,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 var
@@ -1988,7 +1964,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -2107,7 +2083,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 var
@@ -2227,7 +2203,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -2329,7 +2305,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -2439,7 +2415,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -2547,7 +2523,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -2650,7 +2626,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -2842,7 +2818,7 @@ view
 =
 TextView
 (
-context
+testContext
 )
 val
 toolbar
@@ -2861,7 +2837,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 view
@@ -2915,7 +2891,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -2960,7 +2936,7 @@ view
 =
 TextView
 (
-context
+testContext
 )
 displayToolbar
 .
@@ -3114,7 +3090,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -3159,7 +3135,7 @@ view
 =
 TextView
 (
-context
+testContext
 )
 displayToolbar
 .
@@ -3483,7 +3459,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -3519,7 +3495,7 @@ view
 =
 TextView
 (
-context
+testContext
 )
 displayToolbar
 .
@@ -3812,7 +3788,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -3995,7 +3971,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -4294,7 +4270,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -4560,7 +4536,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 displayToolbar
@@ -4662,7 +4638,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 var
@@ -4721,7 +4697,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 var
@@ -4799,9 +4775,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-RuntimeEnvironment
-.
-application
+testContext
 toolbar
 )
 var
@@ -4913,9 +4887,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-RuntimeEnvironment
-.
-application
+testContext
 toolbar
 )
 displayToolbar
@@ -4978,7 +4950,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -5061,7 +5033,7 @@ displayToolbar
 =
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 val
@@ -5253,7 +5225,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertNull
 (
