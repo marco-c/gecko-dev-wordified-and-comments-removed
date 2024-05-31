@@ -267,6 +267,11 @@ search
 "
 feature
 -
+session
+"
+"
+feature
+-
 sitepermissions
 "
 "
@@ -342,6 +347,11 @@ test
 support
 -
 utils
+"
+"
+tooling
+-
+lint
 "
 "
 ui
