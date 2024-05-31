@@ -90,10 +90,7 @@ performCollection
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

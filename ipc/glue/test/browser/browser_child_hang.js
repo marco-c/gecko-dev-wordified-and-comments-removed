@@ -36,7 +36,6 @@ true
 async
 function
 (
-browser
 )
 {
 ok

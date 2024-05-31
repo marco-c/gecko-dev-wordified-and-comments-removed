@@ -194,10 +194,7 @@ file
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
