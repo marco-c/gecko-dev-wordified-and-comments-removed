@@ -1160,7 +1160,6 @@ if
 (
 filenum
 >
-=
 MAX_LIBWAY_FDS
 )
 {
