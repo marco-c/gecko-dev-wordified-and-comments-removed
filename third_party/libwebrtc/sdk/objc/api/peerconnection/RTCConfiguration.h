@@ -343,6 +343,14 @@ activeResetSrtpParams
 property
 (
 nonatomic
+assign
+)
+BOOL
+allowCodecSwitching
+;
+property
+(
+nonatomic
 nullable
 )
 RTC_OBJC_TYPE
