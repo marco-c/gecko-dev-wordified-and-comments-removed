@@ -1810,12 +1810,11 @@ equal
 to
 the
 bucket
-value
+limit
 .
 *
 If
 a
-mapped
 value
 doesn
 '
