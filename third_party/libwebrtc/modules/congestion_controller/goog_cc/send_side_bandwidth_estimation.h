@@ -19,6 +19,11 @@ deque
 #
 include
 <
+memory
+>
+#
+include
+<
 utility
 >
 #
@@ -642,6 +647,11 @@ LossBasedBandwidthEstimatorV2ReadyForUse
 )
 const
 ;
+const
+FieldTrialsView
+*
+key_value_config_
+;
 RttBasedBackoff
 rtt_backoff_
 ;
@@ -765,7 +775,13 @@ bitrate_threshold_
 LossBasedBandwidthEstimation
 loss_based_bandwidth_estimator_v1_
 ;
+std
+:
+:
+unique_ptr
+<
 LossBasedBweV2
+>
 loss_based_bandwidth_estimator_v2_
 ;
 LossBasedState

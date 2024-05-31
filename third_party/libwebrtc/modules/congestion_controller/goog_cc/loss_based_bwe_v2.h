@@ -204,6 +204,12 @@ ReadyToUseInStartPhase
 )
 const
 ;
+bool
+UseInStartPhase
+(
+)
+const
+;
 Result
 GetLossBasedResult
 (
