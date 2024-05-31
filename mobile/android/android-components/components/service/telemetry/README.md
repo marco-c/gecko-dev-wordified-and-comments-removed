@@ -279,9 +279,9 @@ mozilla
 -
 mobile
 /
-telemetry
--
 android
+-
+components
 /
 issues
 ]
@@ -298,9 +298,9 @@ mozilla
 -
 mobile
 /
-telemetry
--
 android
+-
+components
 /
 issues
 )
