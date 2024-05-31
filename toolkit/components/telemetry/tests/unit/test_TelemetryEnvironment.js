@@ -1957,10 +1957,7 @@ testWatchAddons_Changes
 "
 +
 aExpected
-(
 reason
-data
-)
 =
 >
 {
@@ -2949,10 +2946,7 @@ registerChangeListener
 "
 test_WebExtension
 "
-(
 reason
-data
-)
 =
 >
 {
@@ -4077,10 +4071,7 @@ testBrokenAddon_collection
 "
 +
 aExpected
-(
 reason
-data
-)
 =
 >
 {
@@ -4912,9 +4903,6 @@ checkExperiment
 environmentData
 id
 branch
-type
-=
-null
 )
 =
 >

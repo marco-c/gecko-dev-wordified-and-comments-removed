@@ -1713,7 +1713,6 @@ forEach
 (
 (
 {
-optout
 event
 }
 )

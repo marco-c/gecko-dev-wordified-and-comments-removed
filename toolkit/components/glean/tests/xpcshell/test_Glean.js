@@ -1558,7 +1558,8 @@ onePingOnly
 .
 testBeforeNextSubmit
 (
-reason
+(
+)
 =
 >
 {
@@ -1638,7 +1639,8 @@ submitted
 let
 rec
 =
-reason
+(
+)
 =
 >
 {
@@ -1870,7 +1872,6 @@ reduce
 (
 acc
 [
-bucket
 count
 ]
 )

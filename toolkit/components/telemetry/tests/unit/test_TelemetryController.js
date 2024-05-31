@@ -2468,8 +2468,6 @@ PingServer
 registerPingHandler
 (
 (
-req
-res
 )
 =
 >

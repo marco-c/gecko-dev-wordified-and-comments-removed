@@ -2792,7 +2792,6 @@ aBrowser
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 =
 >
@@ -2996,7 +2995,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

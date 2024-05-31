@@ -530,10 +530,7 @@ this
 .
 registerPingHandler
 (
-(
 request
-response
-)
 =
 >
 {
@@ -2250,7 +2247,8 @@ Policy
 .
 gzipCompressString
 =
-data
+(
+)
 =
 >
 {
@@ -2818,10 +2816,7 @@ true
 }
 fakePingSendTimer
 (
-(
 callback
-timeout
-)
 =
 >
 {

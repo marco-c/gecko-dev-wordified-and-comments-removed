@@ -248,7 +248,6 @@ aExpectedNum
 function
 pingHandler
 (
-aRequest
 )
 {
 gSeenPings

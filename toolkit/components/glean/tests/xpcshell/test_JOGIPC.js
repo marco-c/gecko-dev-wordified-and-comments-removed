@@ -1340,7 +1340,6 @@ reduce
 (
 acc
 [
-bucket
 count
 ]
 )

@@ -887,7 +887,6 @@ reduce
 (
 acc
 [
-bucket
 count
 ]
 )

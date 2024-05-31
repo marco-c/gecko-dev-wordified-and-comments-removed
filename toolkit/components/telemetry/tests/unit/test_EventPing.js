@@ -34,7 +34,6 @@ checkPingStructure
 (
 type
 payload
-options
 )
 {
 Assert
@@ -367,8 +366,6 @@ recordEvents
 fakePolicy
 (
 (
-callback
-delay
 )
 =
 >
@@ -614,10 +611,7 @@ recordEvents
 ;
 fakePolicy
 (
-(
 callback
-delay
-)
 =
 >
 {
@@ -911,10 +905,7 @@ recordEvents
 ;
 fakePolicy
 (
-(
 callback
-delay
-)
 =
 >
 {

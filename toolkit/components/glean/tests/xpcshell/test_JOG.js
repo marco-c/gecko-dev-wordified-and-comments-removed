@@ -1728,7 +1728,8 @@ jogPing
 .
 testBeforeNextSubmit
 (
-reason
+(
+)
 =
 >
 {
@@ -1986,7 +1987,6 @@ reduce
 (
 acc
 [
-bucket
 count
 ]
 )

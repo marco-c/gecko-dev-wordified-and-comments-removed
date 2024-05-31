@@ -637,8 +637,6 @@ filter
 function
 (
 library
-idx
-array
 )
 {
 return
@@ -766,8 +764,6 @@ return
 function
 (
 obj
-idx
-array
 )
 {
 return

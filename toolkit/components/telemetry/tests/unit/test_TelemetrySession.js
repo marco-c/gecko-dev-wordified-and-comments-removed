@@ -4825,8 +4825,6 @@ PingServer
 registerPingHandler
 (
 (
-req
-res
 )
 =
 >
@@ -5009,8 +5007,6 @@ PingServer
 registerPingHandler
 (
 (
-req
-res
 )
 =
 >
@@ -7168,10 +7164,7 @@ PingServer
 .
 registerPingHandler
 (
-(
 req
-res
-)
 =
 >
 {
@@ -10156,10 +10149,7 @@ PingServer
 .
 registerPingHandler
 (
-(
 req
-res
-)
 =
 >
 {
@@ -10301,10 +10291,7 @@ PingServer
 .
 registerPingHandler
 (
-(
 req
-res
-)
 =
 >
 {
