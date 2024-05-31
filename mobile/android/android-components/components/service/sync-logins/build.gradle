@@ -349,6 +349,16 @@ Dependencies
 .
 mozilla_sync_logins
 implementation
+project
+(
+'
+:
+concept
+-
+storage
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
