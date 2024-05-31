@@ -340,7 +340,7 @@ private
 :
 MOZ_ALWAYS_INLINE
 void
-onNurseryObjectEdge
+onNonForwardedNurseryObjectEdge
 (
 JSObject
 *
@@ -350,7 +350,7 @@ objp
 ;
 MOZ_ALWAYS_INLINE
 void
-onNurseryStringEdge
+onNonForwardedNurseryStringEdge
 (
 JSString
 *
@@ -360,7 +360,7 @@ strp
 ;
 MOZ_ALWAYS_INLINE
 void
-onNurseryBigIntEdge
+onNonForwardedNurseryBigIntEdge
 (
 JS
 :
