@@ -1331,7 +1331,10 @@ operation
 )
 =
 =
-AtomicFetchAddOp
+AtomicOp
+:
+:
+Add
 |
 |
 ins
@@ -1342,7 +1345,10 @@ operation
 )
 =
 =
-AtomicFetchSubOp
+AtomicOp
+:
+:
+Sub
 )
 ;
 LInt64Definition
@@ -2634,7 +2640,10 @@ operation
 )
 =
 =
-AtomicFetchAddOp
+AtomicOp
+:
+:
+Add
 |
 |
 ins
@@ -2645,7 +2654,10 @@ operation
 )
 =
 =
-AtomicFetchSubOp
+AtomicOp
+:
+:
+Sub
 )
 ;
 bool

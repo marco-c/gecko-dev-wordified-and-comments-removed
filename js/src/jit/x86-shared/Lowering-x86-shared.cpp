@@ -4718,7 +4718,10 @@ operation
 )
 =
 =
-AtomicFetchAddOp
+AtomicOp
+:
+:
+Add
 |
 |
 ins
@@ -4729,7 +4732,10 @@ operation
 )
 =
 =
-AtomicFetchSubOp
+AtomicOp
+:
+:
+Sub
 )
 ;
 bool
