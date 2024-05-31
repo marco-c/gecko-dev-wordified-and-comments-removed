@@ -6,6 +6,7 @@ from
 import
 assert_cookie_is_set
 create_cookie
+get_default_partition_key
 pytestmark
 =
 pytest
@@ -90,8 +91,13 @@ set_cookie_result
 partitionKey
 '
 :
-{
-}
+(
+await
+get_default_partition_key
+(
+bidi_session
+)
+)
     
 }
     

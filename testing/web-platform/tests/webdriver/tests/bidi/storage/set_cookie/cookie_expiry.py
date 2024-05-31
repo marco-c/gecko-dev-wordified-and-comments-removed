@@ -7,6 +7,7 @@ import
 assert_cookie_is_not_set
 assert_cookie_is_set
 create_cookie
+get_default_partition_key
 from
 datetime
 import
@@ -65,8 +66,13 @@ set_cookie_result
 partitionKey
 '
 :
-{
-}
+(
+await
+get_default_partition_key
+(
+bidi_session
+)
+)
     
 }
     
@@ -153,8 +159,13 @@ set_cookie_result
 partitionKey
 '
 :
-{
-}
+(
+await
+get_default_partition_key
+(
+bidi_session
+)
+)
     
 }
     
@@ -241,8 +252,13 @@ set_cookie_result
 partitionKey
 '
 :
-{
-}
+(
+await
+get_default_partition_key
+(
+bidi_session
+)
+)
     
 }
     
