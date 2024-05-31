@@ -174,6 +174,13 @@ resources
 ]
 }
 }
+testOptions
+.
+unitTests
+.
+includeAndroidResources
+=
+true
 }
 dependencies
 {
@@ -274,11 +281,7 @@ androidx_test_core
 testImplementation
 Dependencies
 .
-testing_junit
-testImplementation
-Dependencies
-.
-testing_robolectric
+androidx_test_junit
 testImplementation
 Dependencies
 .
@@ -287,6 +290,10 @@ testImplementation
 Dependencies
 .
 testing_mockwebserver
+testImplementation
+Dependencies
+.
+testing_robolectric
 androidTestImplementation
 Dependencies
 .
