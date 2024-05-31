@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestStackHooks
-.
-h
-"
-"
 TestSyncError
 .
 h
@@ -81,11 +76,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestStackHooks
 .
 cpp
 "
@@ -172,11 +162,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestStackHooks
 .
 ipdl
 "
