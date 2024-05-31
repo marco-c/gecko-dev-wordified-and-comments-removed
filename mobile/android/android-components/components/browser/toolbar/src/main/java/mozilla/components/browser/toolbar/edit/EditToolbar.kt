@@ -428,6 +428,13 @@ context
 .
 apply
 {
+id
+=
+R
+.
+id
+.
+mozac_browser_toolbar_edit_url_view
 imeOptions
 =
 EditorInfo
@@ -527,6 +534,13 @@ context
 .
 apply
 {
+id
+=
+R
+.
+id
+.
+mozac_browser_toolbar_cancel_view
 val
 padding
 =
