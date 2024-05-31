@@ -271,7 +271,7 @@ ScalarType
 *
 *
 param
-data
+value
 loaded
 from
 the
@@ -279,6 +279,7 @@ storage
 as
 [
 Any
+?
 ]
 *
 *
@@ -286,7 +287,8 @@ return
 data
 as
 [
-ScalarType
+String
+?
 ]
 or
 null
