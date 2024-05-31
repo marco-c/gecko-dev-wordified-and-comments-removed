@@ -1726,11 +1726,6 @@ requestInterceptor
 it
 .
 requestInterceptor
-userAgentString
-=
-it
-.
-userAgentString
 mediaPlaybackRequiresUserGesture
 =
 it
@@ -1771,6 +1766,11 @@ horizontalScrollBarEnabled
 it
 .
 horizontalScrollBarEnabled
+userAgentString
+=
+it
+.
+userAgentString
 }
 }
 return
