@@ -609,25 +609,23 @@ maven
 -
 snapshot
 -
-staging
+production
 '
             
 bucket_public_url
 =
 '
-https
+http
 :
 /
 /
-maven
--
 snapshots
 .
-stage
+maven
 .
-mozaws
+mozilla
 .
-net
+org
 /
 '
     
