@@ -234,11 +234,6 @@ toolbar
 "
 service
 -
-experiments
-"
-"
-service
--
 glean
 "
 "
