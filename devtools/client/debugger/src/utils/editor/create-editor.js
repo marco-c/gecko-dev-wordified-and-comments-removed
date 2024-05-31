@@ -30,6 +30,9 @@ export
 function
 createEditor
 (
+useCm6
+=
+false
 )
 {
 const
@@ -77,9 +80,14 @@ SourceEditor
 {
 mode
 :
-"
-javascript
-"
+SourceEditor
+.
+modes
+.
+js
+cm6
+:
+useCm6
 foldGutter
 :
 features
