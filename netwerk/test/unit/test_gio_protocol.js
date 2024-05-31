@@ -331,7 +331,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 if

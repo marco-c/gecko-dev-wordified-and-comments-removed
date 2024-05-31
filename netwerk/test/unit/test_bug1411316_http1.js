@@ -317,16 +317,11 @@ prototype
 {
 onStartRequest
 (
-request
 )
 {
 }
 onDataAvailable
 (
-request
-stream
-off
-cnt
 )
 {
 }

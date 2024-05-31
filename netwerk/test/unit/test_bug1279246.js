@@ -243,8 +243,6 @@ NS_ERROR_ABORT
 }
 onStopRequest
 (
-request
-status
 )
 {
 if

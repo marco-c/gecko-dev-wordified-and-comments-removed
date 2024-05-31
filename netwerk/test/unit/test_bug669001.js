@@ -112,7 +112,6 @@ prepare
 }
 test
 (
-response
 )
 {
 Assert
@@ -132,7 +131,6 @@ prepare
 }
 test
 (
-response
 )
 {
 Assert
@@ -163,7 +161,6 @@ Agent
 }
 test
 (
-response
 )
 {
 Assert
@@ -183,7 +180,6 @@ prepare
 }
 test
 (
-response
 )
 {
 Assert
@@ -214,7 +210,6 @@ Agent
 }
 test
 (
-response
 )
 {
 Assert
@@ -234,7 +229,6 @@ prepare
 }
 test
 (
-response
 )
 {
 Assert

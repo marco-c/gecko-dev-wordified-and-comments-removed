@@ -131,8 +131,6 @@ asyncOnChannelRedirect
 (
 oldChan
 newChan
-flags
-callback
 )
 {
 Assert
@@ -373,10 +371,6 @@ _origURI
 }
 onDataAvailable
 (
-req
-stream
-offset
-count
 )
 {
 do_throw

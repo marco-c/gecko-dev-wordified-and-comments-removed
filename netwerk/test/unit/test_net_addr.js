@@ -240,7 +240,6 @@ reset
 }
 onStopListening
 (
-socket
 )
 {
 }

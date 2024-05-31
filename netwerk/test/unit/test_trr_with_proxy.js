@@ -894,10 +894,6 @@ null
 getProxyForURI
 :
 (
-aSpec
-aScheme
-aHost
-aPort
 )
 =
 >

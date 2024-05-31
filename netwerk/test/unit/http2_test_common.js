@@ -636,7 +636,6 @@ onStopRequest
 function
 (
 request
-status
 )
 {
 Assert
@@ -1482,7 +1481,6 @@ onStopRequest
 function
 (
 request
-status
 )
 {
 Assert
@@ -1630,7 +1628,6 @@ onStopRequest
 function
 (
 request
-status
 )
 {
 Assert
@@ -2468,7 +2465,6 @@ readystatechange
 "
 function
 (
-evt
 )
 {
 checkXhr
@@ -2550,7 +2546,6 @@ onStopRequest
 function
 (
 request
-status
 )
 {
 this
@@ -4659,7 +4654,6 @@ function
 test_onStopR
 (
 request
-status
 )
 {
 var
@@ -4996,7 +4990,6 @@ function
 test_onStopR
 (
 request
-status
 )
 {
 var
@@ -5442,7 +5435,6 @@ onStartRequest
 function
 pushAPIOnStart
 (
-request
 )
 {
 }
@@ -5648,7 +5640,6 @@ function
 test_onStopR
 (
 request
-status
 )
 {
 if
@@ -6193,7 +6184,6 @@ onStopRequest
 function
 (
 request
-status
 )
 {
 var
@@ -6514,7 +6504,6 @@ onStopRequest
 function
 (
 request
-status
 )
 {
 var
@@ -6639,8 +6628,6 @@ onStopRequest
 =
 function
 (
-request
-status
 )
 {
 var

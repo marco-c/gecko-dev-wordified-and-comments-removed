@@ -906,7 +906,6 @@ startTime_handleAsync2
 function
 init_handleAsync2
 (
-ch
 )
 {
 var

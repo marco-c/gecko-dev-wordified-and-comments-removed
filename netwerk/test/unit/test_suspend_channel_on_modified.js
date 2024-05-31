@@ -180,8 +180,6 @@ addObserver
 observe
 (
 subject
-topic
-data
 )
 {
 obs
@@ -261,7 +259,6 @@ ChannelListener
 (
 request
 data
-context
 )
 =
 >

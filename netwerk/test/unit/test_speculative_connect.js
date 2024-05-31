@@ -351,8 +351,6 @@ nsIServerSocket
 )
 onSocketAccepted
 (
-socket
-trans
 )
 {
 try
@@ -386,7 +384,6 @@ next_test
 }
 onStopListening
 (
-socket
 )
 {
 }

@@ -88,7 +88,6 @@ function
 contentHandler
 (
 metadata
-response
 )
 {
 Assert
@@ -117,8 +116,6 @@ do_test_finished
 function
 dummyHandler
 (
-request
-buffer
 )
 {
 }

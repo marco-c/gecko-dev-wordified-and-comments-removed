@@ -213,7 +213,6 @@ data
 "
 function
 (
-entry
 )
 {
 mc
@@ -263,7 +262,6 @@ data
 "
 function
 (
-entry
 )
 {
 mc

@@ -110,12 +110,6 @@ prompt
 function
 ap1_prompt
 (
-title
-text
-realm
-save
-defaultText
-result
 )
 {
 do_throw
@@ -198,11 +192,6 @@ promptPassword
 function
 promptPW
 (
-title
-text
-realm
-save
-pwd
 )
 {
 do_throw
@@ -276,7 +265,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

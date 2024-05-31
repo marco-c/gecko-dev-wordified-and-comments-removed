@@ -502,9 +502,6 @@ ENTRY_WANTED
 }
 onCacheEntryAvailable
 (
-entry
-isnew
-status
 )
 {
 info
@@ -627,15 +624,6 @@ onCacheStorageInfo
 async
 onCacheEntryInfo
 (
-aURI
-aIdEnhance
-aDataSize
-aAltDataSize
-aFetchCount
-aLastModifiedTime
-aExpirationTime
-aPinned
-aInfo
 )
 {
 entryCount

@@ -46,7 +46,6 @@ onStartRequest
 =
 function
 (
-request
 )
 {
 }
@@ -59,8 +58,6 @@ onStopRequest
 =
 function
 (
-request
-status
 )
 {
 httpserv
@@ -175,7 +172,6 @@ function
 bug412945
 (
 metadata
-response
 )
 {
 if

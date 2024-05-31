@@ -169,9 +169,6 @@ resolve
 function
 observer
 (
-subject
-topic
-data
 )
 {
 is
@@ -392,7 +389,8 @@ time
 .
 catch
 (
-msg
+(
+)
 =
 >
 {

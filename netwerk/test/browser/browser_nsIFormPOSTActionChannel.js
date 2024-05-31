@@ -146,7 +146,6 @@ aLoadInfo
 allowPort
 (
 port
-scheme
 )
 {
 return
@@ -303,8 +302,6 @@ NS_ERROR_NOT_IMPLEMENTED
 setUploadStream
 (
 aStream
-aContentType
-aContentLength
 )
 {
 this
@@ -977,7 +974,6 @@ NS_OK
 }
 cancel
 (
-status
 )
 {
 }

@@ -77,7 +77,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -108,7 +107,6 @@ listener
 {
 onStartRequest
 (
-request
 )
 {
 buffer
@@ -1659,8 +1657,6 @@ cached
 function
 bug482601_only_from_cache
 (
-metadata
-response
 )
 {
 do_throw

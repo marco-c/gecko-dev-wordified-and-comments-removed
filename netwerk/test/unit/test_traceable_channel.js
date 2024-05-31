@@ -265,8 +265,6 @@ onStartRequest
 }
 onStopRequest
 (
-request
-statusCode
 )
 {
 dump
@@ -480,8 +478,6 @@ n
 observe
 (
 subject
-topic
-data
 )
 {
 dump
@@ -734,9 +730,6 @@ nsIHttpChannel
 function
 channel_finished
 (
-request
-input
-ctx
 )
 {
 httpserver

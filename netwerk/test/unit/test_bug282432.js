@@ -40,7 +40,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-aRequest
 )
 {
 }
@@ -67,10 +66,6 @@ do_test_finished
 }
 onDataAvailable
 (
-aRequest
-aStream
-aOffset
-aCount
 )
 {
 do_throw

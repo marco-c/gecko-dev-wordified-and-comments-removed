@@ -12,7 +12,6 @@ onStartRequest
 function
 test_onStartR
 (
-request
 )
 {
 }
@@ -41,8 +40,6 @@ onStopRequest
 function
 test_onStopR
 (
-request
-status
 )
 {
 do_test_finished

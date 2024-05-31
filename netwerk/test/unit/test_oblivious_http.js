@@ -1030,10 +1030,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1045,7 +1042,6 @@ obliviousHttpChannel
 function
 (
 inputStream
-result
 )
 {
 let
@@ -1208,10 +1204,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

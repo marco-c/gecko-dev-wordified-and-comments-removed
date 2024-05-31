@@ -701,9 +701,6 @@ length
 function
 checkRequest
 (
-request
-data
-context
 )
 {
 Assert

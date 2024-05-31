@@ -531,7 +531,6 @@ completeIter
 (
 request
 data
-ctx
 )
 {
 if

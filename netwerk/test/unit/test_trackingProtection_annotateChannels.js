@@ -262,10 +262,6 @@ _nextTest
 onDataAvailable
 :
 (
-request
-stream
-offset
-count
 )
 =
 >
@@ -274,8 +270,6 @@ count
 onStopRequest
 :
 (
-request
-status
 )
 =
 >

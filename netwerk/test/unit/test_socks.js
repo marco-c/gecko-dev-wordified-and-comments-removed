@@ -2635,7 +2635,6 @@ client
 }
 onStopListening
 (
-socket
 )
 {
 }

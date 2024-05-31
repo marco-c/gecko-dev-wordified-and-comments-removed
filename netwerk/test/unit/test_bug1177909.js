@@ -268,10 +268,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -287,7 +284,6 @@ onProxyAvailable
 req
 uri
 pi
-status
 )
 {
 resolve

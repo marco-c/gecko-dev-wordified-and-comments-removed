@@ -183,7 +183,6 @@ registerConnectHandler
 (
 req
 clientSocket
-head
 )
 =
 >

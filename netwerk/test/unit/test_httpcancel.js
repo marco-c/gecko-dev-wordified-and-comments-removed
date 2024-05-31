@@ -108,8 +108,6 @@ nsIObserver
 observe
 (
 subject
-topic
-data
 )
 {
 subject
@@ -425,8 +423,6 @@ onStopRequest
 function
 test_onStopR
 (
-request
-status
 )
 {
 this
@@ -458,7 +454,6 @@ function
 test_onStartR
 (
 request
-ctx
 )
 {
 Assert
@@ -550,8 +545,6 @@ function
 test_onStopR
 (
 request
-ctx
-status
 )
 {
 Assert
@@ -1078,7 +1071,6 @@ function
 test_onStartR
 (
 request
-ctx
 )
 {
 Assert
@@ -1130,7 +1122,6 @@ function
 test_onStopR
 (
 request
-status
 )
 {
 info
@@ -1264,8 +1255,6 @@ NS_BINDING_ABORTED
 function
 failtest
 (
-metadata
-response
 )
 {
 do_throw

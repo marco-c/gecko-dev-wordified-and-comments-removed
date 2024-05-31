@@ -131,8 +131,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -326,7 +324,6 @@ function
 testFullLoop
 (
 request
-buffer
 )
 {
 Assert
@@ -367,7 +364,6 @@ function
 testRelativeLoop
 (
 request
-buffer
 )
 {
 Assert
@@ -408,7 +404,6 @@ function
 testEmptyLoop
 (
 request
-buffer
 )
 {
 Assert

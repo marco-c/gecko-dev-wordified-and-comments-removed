@@ -149,9 +149,6 @@ onProgressNotificationCount
 }
 onStatus
 (
-request
-status
-statusArg
 )
 {
 }
@@ -246,7 +243,6 @@ function
 testOnStopRequest
 (
 request
-status
 )
 {
 let

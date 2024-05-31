@@ -43,7 +43,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 var

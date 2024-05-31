@@ -277,8 +277,6 @@ async
 function
 test_onStopR
 (
-request
-status
 )
 {
 if

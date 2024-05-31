@@ -264,7 +264,6 @@ TEST_URL
 async
 function
 (
-browser
 )
 {
 await
@@ -276,7 +275,6 @@ TEST_URL2
 async
 function
 (
-browser
 )
 {
 let

@@ -233,7 +233,6 @@ onStartRequest
 function
 test_onStartR
 (
-request
 )
 {
 }

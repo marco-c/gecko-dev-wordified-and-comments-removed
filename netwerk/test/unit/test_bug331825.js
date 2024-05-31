@@ -53,7 +53,6 @@ onStartRequest
 =
 function
 (
-request
 )
 {
 }
@@ -67,7 +66,6 @@ onStopRequest
 function
 (
 request
-status
 )
 {
 var

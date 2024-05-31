@@ -497,7 +497,6 @@ buffer
 "
 onStartRequest
 (
-request
 )
 {
 }
@@ -570,7 +569,6 @@ close
 onStopRequest
 (
 request
-status
 )
 {
 var
@@ -683,7 +681,6 @@ buffer
 "
 onStartRequest
 (
-request
 )
 {
 }
@@ -717,7 +714,6 @@ string
 onStopRequest
 (
 request
-status
 )
 {
 var

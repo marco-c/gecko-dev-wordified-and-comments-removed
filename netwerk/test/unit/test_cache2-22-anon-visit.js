@@ -152,7 +152,6 @@ an2
 "
 function
 (
-entry
 )
 {
 mc
@@ -202,7 +201,6 @@ an2
 "
 function
 (
-entry
 )
 {
 mc

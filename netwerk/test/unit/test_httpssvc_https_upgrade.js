@@ -1154,7 +1154,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -1677,7 +1676,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -1764,8 +1762,6 @@ registerPathHandler
 function
 handler
 (
-metadata
-response
 )
 {
 Assert
@@ -1870,7 +1866,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

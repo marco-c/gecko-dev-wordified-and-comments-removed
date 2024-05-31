@@ -111,14 +111,11 @@ prototype
 {
 onStartRequest
 (
-request
 )
 {
 }
 onDataAvailable
 (
-request
-stream
 )
 {
 }

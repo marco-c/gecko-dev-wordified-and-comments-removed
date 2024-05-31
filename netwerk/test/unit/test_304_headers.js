@@ -538,7 +538,6 @@ resolve
 }
 onStartRequest
 (
-req
 )
 {
 }
@@ -666,7 +665,6 @@ resolve
 }
 onStartRequest
 (
-req
 )
 {
 }

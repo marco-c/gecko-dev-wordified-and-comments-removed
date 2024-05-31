@@ -76,9 +76,6 @@ null
 function
 make_channel
 (
-flags
-vary
-value
 )
 {
 var
@@ -216,7 +213,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 }
@@ -248,8 +244,6 @@ count
 }
 onStopRequest
 (
-request
-status
 )
 {
 Assert

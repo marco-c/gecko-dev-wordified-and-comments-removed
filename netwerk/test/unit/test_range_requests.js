@@ -131,8 +131,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -193,7 +191,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 }
@@ -296,7 +293,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 this
@@ -336,7 +332,6 @@ count
 onStopRequest
 (
 request
-status
 )
 {
 this
@@ -392,7 +387,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 }
@@ -1040,8 +1034,6 @@ case_4_request_no
 function
 received_partial_4
 (
-request
-data
 )
 {
 var

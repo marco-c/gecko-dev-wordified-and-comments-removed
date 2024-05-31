@@ -206,10 +206,6 @@ NS_BINDING_ABORTED
 }
 onDataAvailable
 (
-request
-stream
-offset
-count
 )
 {
 do_throw

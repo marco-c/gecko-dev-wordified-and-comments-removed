@@ -89,14 +89,11 @@ listener
 {
 onStartRequest
 (
-request
 )
 {
 }
 onDataAvailable
 (
-request
-stream
 )
 {
 }

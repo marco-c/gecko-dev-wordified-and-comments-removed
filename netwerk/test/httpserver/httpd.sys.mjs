@@ -3246,7 +3246,6 @@ onStopListening
 onStopListening
 (
 socket
-status
 )
 {
 dumpn
@@ -27907,7 +27906,6 @@ copyObserver
 {
 onStartRequest
 (
-request
 )
 {
 dumpn
@@ -28186,7 +28184,6 @@ copyObserver
 {
 onStartRequest
 (
-request
 )
 {
 dumpn

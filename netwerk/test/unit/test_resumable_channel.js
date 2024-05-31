@@ -96,8 +96,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -184,11 +182,6 @@ asyncPromptAuth
 function
 ap2_async
 (
-chan
-cb
-ctx
-lvl
-info
 )
 {
 throw
@@ -366,8 +359,6 @@ function
 get_entity_id
 (
 request
-data
-ctx
 )
 {
 dump
@@ -463,8 +454,6 @@ function
 try_resume
 (
 request
-data
-ctx
 )
 {
 dump
@@ -532,7 +521,6 @@ try_resume_zero
 (
 request
 data
-ctx
 )
 {
 dump
@@ -633,8 +621,6 @@ function
 try_no_range
 (
 request
-data
-ctx
 )
 {
 dump
@@ -732,7 +718,6 @@ try_bytes_range
 (
 request
 data
-ctx
 )
 {
 dump
@@ -829,8 +814,6 @@ function
 try_foo_bar_range
 (
 request
-data
-ctx
 )
 {
 dump
@@ -928,8 +911,6 @@ function
 try_foobar_range
 (
 request
-data
-ctx
 )
 {
 dump
@@ -1028,7 +1009,6 @@ try_bytes_foobar_range
 (
 request
 data
-ctx
 )
 {
 dump
@@ -1125,8 +1105,6 @@ function
 try_bytesfoo_bar_range
 (
 request
-data
-ctx
 )
 {
 dump
@@ -1205,7 +1183,6 @@ try_no_accept_ranges
 (
 request
 data
-ctx
 )
 {
 dump
@@ -1285,7 +1262,6 @@ try_suspend_resume
 (
 request
 data
-ctx
 )
 {
 dump
@@ -1362,7 +1338,6 @@ success
 (
 request
 data
-ctx
 )
 {
 dump
@@ -1458,8 +1433,6 @@ function
 test_auth_nopw
 (
 request
-data
-ctx
 )
 {
 dump
@@ -1564,8 +1537,6 @@ function
 test_auth
 (
 request
-data
-ctx
 )
 {
 dump
@@ -1690,7 +1661,6 @@ test_auth_resume
 (
 request
 data
-ctx
 )
 {
 dump
@@ -1791,8 +1761,6 @@ function
 test_404
 (
 request
-data
-ctx
 )
 {
 dump
@@ -1872,8 +1840,6 @@ function
 test_416
 (
 request
-data
-ctx
 )
 {
 dump
@@ -1975,7 +1941,6 @@ test_redir_resume
 (
 request
 data
-ctx
 )
 {
 dump
@@ -2090,8 +2055,6 @@ function
 test_redir_noresume
 (
 request
-data
-ctx
 )
 {
 dump

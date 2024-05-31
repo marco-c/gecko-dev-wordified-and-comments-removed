@@ -97,7 +97,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 aSubject

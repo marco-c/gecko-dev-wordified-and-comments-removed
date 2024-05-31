@@ -85,7 +85,6 @@ onStartRequest
 function
 test_onStartR
 (
-request
 )
 {
 }
@@ -138,8 +137,6 @@ onStopRequest
 function
 test_onStopR
 (
-request
-status
 )
 {
 httpserver
@@ -186,7 +183,6 @@ onStartRequest
 function
 test_onStartR
 (
-request
 )
 {
 }
@@ -240,7 +236,6 @@ function
 test_onStopR
 (
 request
-status
 )
 {
 request
@@ -334,7 +329,6 @@ onStartRequest
 function
 test_onStartR
 (
-request
 )
 {
 }
@@ -388,7 +382,6 @@ function
 test_onStopR
 (
 request
-status
 )
 {
 request

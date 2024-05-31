@@ -123,7 +123,6 @@ false
 function
 initialStart
 (
-ch
 )
 {
 dumpn
@@ -357,7 +356,6 @@ false
 function
 intermediateStart
 (
-ch
 )
 {
 dumpn
@@ -606,7 +604,6 @@ false
 function
 triggerStart
 (
-ch
 )
 {
 dumpn

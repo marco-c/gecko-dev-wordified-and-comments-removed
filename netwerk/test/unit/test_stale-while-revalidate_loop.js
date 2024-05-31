@@ -37,7 +37,6 @@ function
 get_response
 (
 channel
-fromCache
 )
 {
 return
@@ -58,8 +57,6 @@ ChannelListener
 (
 request
 buffer
-ctx
-isFromCache
 )
 =
 >

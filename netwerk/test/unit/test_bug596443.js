@@ -194,7 +194,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 this
@@ -233,8 +232,6 @@ count
 }
 onStopRequest
 (
-request
-status
 )
 {
 Assert

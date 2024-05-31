@@ -735,8 +735,6 @@ function
 checkResponse
 (
 request
-data
-context
 )
 {
 if
@@ -1111,7 +1109,6 @@ function
 visit
 (
 aName
-aValue
 )
 {
 if

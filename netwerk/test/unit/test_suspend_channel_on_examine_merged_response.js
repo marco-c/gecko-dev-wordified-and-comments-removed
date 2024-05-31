@@ -75,7 +75,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -172,7 +171,6 @@ listener
 {
 onStartRequest
 (
-request
 )
 {
 buffer

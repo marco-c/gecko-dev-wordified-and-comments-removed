@@ -199,8 +199,6 @@ function
 make_channel
 (
 channelUrl
-callback
-ctx
 )
 {
 return

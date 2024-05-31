@@ -47,16 +47,12 @@ listener
 {
 onStartRequest
 (
-req
 )
 {
 }
 onDataAvailable
 (
 req
-stream
-off
-count
 )
 {
 Assert
@@ -88,8 +84,6 @@ NS_BINDING_ABORTED
 }
 onStopRequest
 (
-req
-stat
 )
 {
 httpServer

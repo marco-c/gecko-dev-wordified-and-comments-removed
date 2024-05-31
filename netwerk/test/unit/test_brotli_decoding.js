@@ -86,7 +86,6 @@ onStartRequest
 function
 testOnStartRequest
 (
-request
 )
 {
 }
@@ -197,8 +196,6 @@ onStopRequest
 function
 testOnStopRequest
 (
-request
-status
 )
 {
 this

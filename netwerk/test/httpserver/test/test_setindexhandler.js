@@ -237,7 +237,6 @@ stopDefaultIndexHandler
 (
 ch
 status
-data
 )
 {
 Assert

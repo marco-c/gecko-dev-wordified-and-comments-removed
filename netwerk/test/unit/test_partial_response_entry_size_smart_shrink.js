@@ -69,8 +69,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -516,8 +514,6 @@ do_test_pending
 function
 firstTimeThrough
 (
-request
-buffer
 )
 {
 Services

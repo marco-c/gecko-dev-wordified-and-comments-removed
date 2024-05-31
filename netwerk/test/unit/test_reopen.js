@@ -284,7 +284,6 @@ onStartRequest
 function
 test_onStartR
 (
-request
 )
 {
 check_async_open_throws
@@ -326,8 +325,6 @@ onStopRequest
 function
 test_onStopR
 (
-request
-status
 )
 {
 check_async_open_throws

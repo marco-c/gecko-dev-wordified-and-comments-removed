@@ -858,7 +858,6 @@ test
 function
 setupFileMapping
 (
-ch
 )
 {
 srv

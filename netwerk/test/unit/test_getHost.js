@@ -201,8 +201,6 @@ error
 }
 onStopRequest
 (
-request
-statusCode
 )
 {
 dump

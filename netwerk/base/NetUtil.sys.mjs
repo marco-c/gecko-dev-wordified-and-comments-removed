@@ -574,7 +574,6 @@ observer
 {
 onStartRequest
 (
-aRequest
 )
 {
 }
@@ -938,7 +937,6 @@ outputStream
 {
 onStartRequest
 (
-aRequest
 )
 {
 }

@@ -81,8 +81,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -147,7 +145,6 @@ function
 checkFailed
 (
 request
-buffer
 )
 {
 Assert

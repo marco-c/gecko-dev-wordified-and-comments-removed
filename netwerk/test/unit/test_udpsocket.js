@@ -160,8 +160,6 @@ run_next_test
 }
 onStopListening
 (
-aSocket
-aStatus
 )
 {
 }
@@ -365,8 +363,6 @@ run_next_test
 }
 onStopListening
 (
-aSocket
-aStatus
 )
 {
 }
@@ -578,8 +574,6 @@ run_next_test
 }
 onStopListening
 (
-aSocket
-aStatus
 )
 {
 }

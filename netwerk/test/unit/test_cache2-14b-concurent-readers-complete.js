@@ -43,7 +43,6 @@ x1d
 "
 function
 (
-entry
 )
 {
 }

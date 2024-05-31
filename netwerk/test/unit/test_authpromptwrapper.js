@@ -225,9 +225,6 @@ ap1_prompt
 title
 text
 realm
-save
-defaultText
-result
 )
 {
 this

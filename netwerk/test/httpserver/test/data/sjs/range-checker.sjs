@@ -1,8 +1,6 @@
 function
 handleRequest
 (
-request
-response
 )
 {
 }

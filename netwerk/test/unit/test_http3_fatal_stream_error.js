@@ -135,7 +135,6 @@ onStartRequest
 function
 testOnStartRequest
 (
-request
 )
 {
 }
@@ -662,7 +661,6 @@ onStartRequest
 function
 testOnStartRequest
 (
-request
 )
 {
 }

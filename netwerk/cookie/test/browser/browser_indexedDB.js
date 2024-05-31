@@ -290,7 +290,6 @@ onerror
 =
 function
 (
-e
 )
 {
 reject
@@ -485,7 +484,6 @@ onerror
 =
 function
 (
-e
 )
 {
 reject

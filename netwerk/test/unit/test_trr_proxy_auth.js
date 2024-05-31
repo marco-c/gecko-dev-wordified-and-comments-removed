@@ -116,11 +116,6 @@ asyncPromptAuth
 function
 ap_async
 (
-chan
-cb
-ctx
-lvl
-info
 )
 {
 throw
@@ -502,7 +497,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

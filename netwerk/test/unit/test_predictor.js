@@ -191,7 +191,6 @@ nsICacheEntryOpenCallback
 )
 onCacheEntryCheck
 (
-entry
 )
 {
 return
@@ -205,8 +204,6 @@ ENTRY_WANTED
 onCacheEntryAvailable
 (
 entry
-isnew
-status
 )
 {
 Assert
@@ -790,7 +787,6 @@ cb
 }
 onCacheEntryCheck
 (
-entry
 )
 {
 return
@@ -2574,8 +2570,6 @@ cnt
 }
 onStopRequest
 (
-request
-status
 )
 {
 run_next_test
@@ -3407,15 +3401,6 @@ onCacheStorageInfo
 async
 onCacheEntryInfo
 (
-aURI
-aIdEnhance
-aDataSize
-aAltDataSize
-aFetchCount
-aLastModifiedTime
-aExpirationTime
-aPinned
-aInfo
 )
 {
 entryCount
@@ -3549,7 +3534,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

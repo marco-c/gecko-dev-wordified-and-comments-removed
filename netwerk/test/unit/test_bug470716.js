@@ -112,7 +112,6 @@ copyObserver
 {
 onStartRequest
 (
-request
 )
 {
 }

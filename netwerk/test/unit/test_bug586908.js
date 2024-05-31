@@ -112,7 +112,6 @@ redirect
 "
 getProxyForURI
 (
-aURI
 )
 {
 throw
@@ -138,7 +137,6 @@ checkValue
 (
 request
 data
-ctx
 )
 {
 Assert

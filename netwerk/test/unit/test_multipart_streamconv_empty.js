@@ -210,7 +210,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 }

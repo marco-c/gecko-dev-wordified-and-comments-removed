@@ -556,7 +556,6 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 this
@@ -636,7 +635,6 @@ ex
 onStopRequest
 (
 request
-status
 )
 {
 try

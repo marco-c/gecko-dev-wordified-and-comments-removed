@@ -231,8 +231,6 @@ true
 }
 onStopRequest
 (
-request
-status
 )
 {
 Assert

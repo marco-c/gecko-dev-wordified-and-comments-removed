@@ -500,7 +500,6 @@ ChannelListener
 function
 (
 aRequest
-aData
 )
 {
 syncWithCacheIOThread
@@ -656,7 +655,6 @@ ChannelListener
 function
 (
 aRequest
-aData
 )
 {
 syncWithCacheIOThread
@@ -962,7 +960,6 @@ ChannelListener
 function
 (
 aRequest
-aData
 )
 {
 syncWithCacheIOThread

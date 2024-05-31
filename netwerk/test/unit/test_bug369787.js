@@ -163,8 +163,6 @@ onStopRequest
 =
 function
 (
-request
-status
 )
 {
 try
@@ -312,8 +310,6 @@ do_test_pending
 function
 bug369787
 (
-metadata
-response
 )
 {
 }

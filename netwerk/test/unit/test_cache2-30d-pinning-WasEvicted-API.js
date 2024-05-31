@@ -232,7 +232,6 @@ p
 i
 function
 (
-entry
 )
 {
 mc
@@ -293,7 +292,6 @@ d
 i
 function
 (
-entry
 )
 {
 mc
@@ -322,9 +320,6 @@ addObserver
 {
 observe
 (
-subject
-topic
-data
 )
 {
 log_
@@ -435,7 +430,6 @@ p
 i
 function
 (
-entry
 )
 {
 mc
@@ -494,7 +488,6 @@ d2
 i
 function
 (
-entry
 )
 {
 mc

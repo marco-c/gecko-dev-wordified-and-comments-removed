@@ -876,7 +876,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 Services

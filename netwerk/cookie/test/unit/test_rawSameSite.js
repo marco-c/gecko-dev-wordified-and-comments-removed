@@ -547,9 +547,6 @@ resolve
 function
 observer
 (
-subject
-topic
-data
 )
 {
 Services

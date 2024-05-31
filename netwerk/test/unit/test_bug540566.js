@@ -7,7 +7,6 @@ function
 continue_test
 (
 status
-entry
 )
 {
 Assert

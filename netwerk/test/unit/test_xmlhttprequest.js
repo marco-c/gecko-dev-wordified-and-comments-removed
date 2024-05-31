@@ -250,7 +250,6 @@ readystatechange
 "
 function
 (
-event
 )
 {
 if

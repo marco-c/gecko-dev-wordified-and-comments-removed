@@ -851,7 +851,6 @@ file
 function
 on_read_complete
 (
-data
 )
 {
 dump
