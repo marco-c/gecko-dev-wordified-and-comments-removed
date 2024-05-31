@@ -7,7 +7,7 @@ HTML
 title
 >
 Tests
-pageconceal
+pageswap
 dispatch
 on
 iframe
@@ -160,7 +160,7 @@ frame
 contentWindow
 ;
 let
-pageconcealfired
+pageswapfired
 =
 false
 ;
@@ -180,7 +180,7 @@ new
 ;
 frameWindow
 .
-onpageconceal
+onpageswap
 =
 (
 e
@@ -203,7 +203,7 @@ activation
 url
 incorrect
 in
-pageconceal
+pageswap
 '
 )
 ;
@@ -222,7 +222,7 @@ navigation
 type
 incorrect
 in
-pageconceal
+pageswap
 '
 )
 ;
@@ -243,7 +243,7 @@ from
 entry
 incorrect
 in
-pageconceal
+pageswap
 '
 )
 ;
@@ -267,7 +267,7 @@ document
 '
 )
 ;
-pageconcealfired
+pageswapfired
 =
 true
 ;
@@ -284,9 +284,9 @@ e
 {
 assert_true
 (
-pageconcealfired
+pageswapfired
 '
-pageconceal
+pageswap
 not
 fired
 '
