@@ -1300,9 +1300,6 @@ listOf
 (
 AndroidIconDecoder
 (
-ignoreSize
-=
-true
 )
 ICOIconDecoder
 (

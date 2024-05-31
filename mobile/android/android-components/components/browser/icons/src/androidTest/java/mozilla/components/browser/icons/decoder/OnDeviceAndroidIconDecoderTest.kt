@@ -219,6 +219,8 @@ bitmap
 assertEquals
 (
 250
+/
+3
 bitmap
 .
 width
@@ -226,6 +228,8 @@ width
 assertEquals
 (
 250
+/
+3
 bitmap
 .
 height
@@ -283,14 +287,14 @@ bitmap
 )
 assertEquals
 (
-532
+67
 bitmap
 .
 width
 )
 assertEquals
 (
-532
+67
 bitmap
 .
 height
@@ -414,6 +418,8 @@ bitmap
 assertEquals
 (
 192
+/
+3
 bitmap
 .
 width
@@ -421,6 +427,8 @@ width
 assertEquals
 (
 192
+/
+3
 bitmap
 .
 height
