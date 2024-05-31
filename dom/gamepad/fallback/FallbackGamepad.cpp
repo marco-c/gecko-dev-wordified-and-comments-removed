@@ -16,6 +16,15 @@ GamepadHandle
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Tainting
+.
+h
+"
 namespace
 mozilla
 {
