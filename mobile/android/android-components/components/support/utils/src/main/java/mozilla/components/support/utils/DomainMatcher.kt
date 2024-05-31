@@ -228,7 +228,6 @@ rawUrl
 val
 host
 =
-(
 try
 {
 URL
@@ -245,7 +244,6 @@ MalformedURLException
 {
 null
 }
-)
 ?
 .
 host
