@@ -2185,8 +2185,6 @@ initialized
 true
 }
 Test
-(
-)
 fun
 Initializing
 twice
