@@ -75,7 +75,7 @@ fetch
 .
 Headers
 .
-Common
+Names
 .
 CONTENT_TYPE
 import

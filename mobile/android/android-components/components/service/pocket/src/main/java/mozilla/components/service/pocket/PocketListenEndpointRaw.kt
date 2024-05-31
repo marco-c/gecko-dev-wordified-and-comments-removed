@@ -111,7 +111,7 @@ fetch
 .
 Headers
 .
-Common
+Names
 .
 CONTENT_TYPE
 import
@@ -125,7 +125,7 @@ fetch
 .
 Headers
 .
-Common
+Names
 .
 USER_AGENT
 import
@@ -139,9 +139,7 @@ fetch
 .
 Headers
 .
-Common
-.
-Value
+Values
 .
 CONTENT_TYPE_FORM_URLENCODED
 import
