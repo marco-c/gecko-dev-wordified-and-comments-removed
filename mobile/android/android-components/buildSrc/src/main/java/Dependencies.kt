@@ -236,7 +236,7 @@ jna
 "
 const
 val
-fxa
+mozilla_app_services
 =
 "
 0
@@ -244,17 +244,6 @@ fxa
 5
 .
 1
-"
-const
-val
-sync_logins
-=
-"
-0
-.
-4
-.
-3
 "
 }
 /
@@ -798,9 +787,8 @@ fxa_client
 {
 Versions
 .
-fxa
+mozilla_app_services
 }
-aar
 "
 const
 val
@@ -818,7 +806,7 @@ logins
 {
 Versions
 .
-sync_logins
+mozilla_app_services
 }
 "
 const
