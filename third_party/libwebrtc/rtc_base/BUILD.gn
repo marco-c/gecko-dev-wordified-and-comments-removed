@@ -3110,6 +3110,13 @@ h
 "
 strings
 /
+str_join
+.
+h
+"
+"
+strings
+/
 string_builder
 .
 cc
@@ -9371,6 +9378,13 @@ cc
 "
 "
 string_utils_unittest
+.
+cc
+"
+"
+strings
+/
+str_join_unittest
 .
 cc
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-NET_DCSCTP_COMMON_STR_JOIN_H_
+RTC_BASE_STRINGS_STR_JOIN_H_
 #
 define
-NET_DCSCTP_COMMON_STR_JOIN_H_
+RTC_BASE_STRINGS_STR_JOIN_H_
 #
 include
 <
@@ -32,7 +32,7 @@ string_builder
 h
 "
 namespace
-dcsctp
+webrtc
 {
 template
 <
