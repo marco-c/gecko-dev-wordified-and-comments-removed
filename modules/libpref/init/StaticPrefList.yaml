@@ -94582,17 +94582,6 @@ before
 it
 is
 cleared
-by
-the
-mouse
-sequences
-fired
-after
-a
-#
-touchstart
-/
-touchend
 .
 -
 name
@@ -94607,7 +94596,7 @@ type
 int32_t
 value
 :
-10
+50
 mirror
 :
 always
