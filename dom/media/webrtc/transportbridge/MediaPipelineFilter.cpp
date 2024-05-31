@@ -565,7 +565,7 @@ size
 ;
 if
 (
-payload_type_set_
+receive_payload_type_set_
 .
 count
 (
@@ -652,7 +652,7 @@ types
 header
 .
 payloadType
-payload_type_set_
+receive_payload_type_set_
 .
 size
 (
@@ -706,13 +706,13 @@ void
 MediaPipelineFilter
 :
 :
-AddUniquePT
+AddUniqueReceivePT
 (
 uint8_t
 payload_type
 )
 {
-payload_type_set_
+receive_payload_type_set_
 .
 insert
 (
@@ -791,11 +791,11 @@ filter_update
 mRemoteMidBindings
 ;
 }
-payload_type_set_
+receive_payload_type_set_
 =
 filter_update
 .
-payload_type_set_
+receive_payload_type_set_
 ;
 mExtMap
 =

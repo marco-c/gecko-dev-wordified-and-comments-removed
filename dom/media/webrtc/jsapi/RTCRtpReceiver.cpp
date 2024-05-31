@@ -4273,7 +4273,7 @@ GetNegotiatedDetails
 )
 -
 >
-GetUniquePayloadTypes
+GetUniqueReceivePayloadTypes
 (
 )
 ;
@@ -4290,7 +4290,7 @@ uniquePts
 filter
 -
 >
-AddUniquePT
+AddUniqueReceivePT
 (
 uniquePt
 )

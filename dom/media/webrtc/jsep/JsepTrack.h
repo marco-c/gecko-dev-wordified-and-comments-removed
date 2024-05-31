@@ -155,11 +155,11 @@ orig
 .
 mExtmap
 )
-mUniquePayloadTypes
+mUniqueReceivePayloadTypes
 (
 orig
 .
-mUniquePayloadTypes
+mUniqueReceivePayloadTypes
 )
 mTias
 (
@@ -378,13 +378,13 @@ vector
 <
 uint8_t
 >
-GetUniquePayloadTypes
+GetUniqueReceivePayloadTypes
 (
 )
 const
 {
 return
-mUniquePayloadTypes
+mUniqueReceivePayloadTypes
 ;
 }
 uint32_t
@@ -436,7 +436,7 @@ vector
 <
 uint8_t
 >
-mUniquePayloadTypes
+mUniqueReceivePayloadTypes
 ;
 std
 :
@@ -1213,7 +1213,7 @@ local
 ;
 static
 void
-SetUniquePayloadTypes
+SetUniqueReceivePayloadTypes
 (
 std
 :

@@ -3845,7 +3845,7 @@ void
 JsepTrack
 :
 :
-SetUniquePayloadTypes
+SetUniqueReceivePayloadTypes
 (
 std
 :
@@ -4012,7 +4012,7 @@ trackDetails
 trackDetails
 -
 >
-mUniquePayloadTypes
+mUniqueReceivePayloadTypes
 .
 push_back
 (
