@@ -631,6 +631,10 @@ last_modified
 "
 "
 "
+.
+trimIndent
+(
+)
 val
 expectedExperiment
 =
@@ -728,6 +732,10 @@ name
 "
 "
 "
+.
+trimIndent
+(
+)
 assertEquals
 (
 Experiment
@@ -807,6 +815,10 @@ null
 "
 "
 "
+.
+trimIndent
+(
+)
 assertEquals
 (
 Experiment
@@ -900,6 +912,10 @@ null
 "
 "
 "
+.
+trimIndent
+(
+)
 assertEquals
 (
 Experiment
@@ -1035,6 +1051,10 @@ e
 "
 "
 "
+.
+trimIndent
+(
+)
 val
 experiment
 =
