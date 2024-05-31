@@ -1448,6 +1448,12 @@ nsCSSPropertyID
 )
 const
 ;
+bool
+NeedsToFlushLayoutForContainerQuery
+(
+)
+const
+;
 void
 Flush
 (
