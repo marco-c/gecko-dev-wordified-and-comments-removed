@@ -9885,10 +9885,16 @@ GetContent
 int32_t
 result
 =
-nsLayoutUtils
+nsContentUtils
 :
 :
 CompareTreePosition
+<
+TreeKind
+:
+:
+Flat
+>
 (
 srcContent
 destContent
