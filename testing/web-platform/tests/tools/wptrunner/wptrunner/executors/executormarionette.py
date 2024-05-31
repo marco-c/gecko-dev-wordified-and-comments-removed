@@ -3596,8 +3596,9 @@ PerTestCoverageUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
+                
 "
 chrome
 :
@@ -3611,8 +3612,11 @@ marionette
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
+            
 )
 ;
             
@@ -3687,8 +3691,9 @@ PerTestCoverageUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
+                
 "
 chrome
 :
@@ -3702,8 +3707,11 @@ marionette
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
+            
 )
 ;
             
@@ -3855,8 +3863,9 @@ PerTestCoverageUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
+                
 "
 chrome
 :
@@ -3870,8 +3879,11 @@ marionette
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
+            
 )
 ;
             
@@ -4715,7 +4727,7 @@ DevToolsShim
 =
 ChromeUtils
 .
-import
+importESModule
 (
   
 "
@@ -4731,7 +4743,9 @@ content
 /
 DevToolsShim
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

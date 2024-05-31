@@ -929,7 +929,7 @@ ClientID
 =
 ChromeUtils
 .
-import
+importESModule
 (
                   
 "
@@ -943,7 +943,9 @@ modules
 /
 ClientID
 .
-jsm
+sys
+.
+mjs
 "
                 
 )
@@ -1215,7 +1217,7 @@ TelemetryEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
               
 "
@@ -1229,7 +1231,9 @@ modules
 /
 TelemetryEnvironment
 .
-jsm
+sys
+.
+mjs
 "
             
 )
