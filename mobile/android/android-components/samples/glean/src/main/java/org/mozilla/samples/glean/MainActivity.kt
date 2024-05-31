@@ -422,13 +422,8 @@ setOnClickListener
 {
 Glean
 .
-handleEvent
+schedulePingsNow
 (
-Glean
-.
-PingEvent
-.
-Background
 )
 }
 Test
