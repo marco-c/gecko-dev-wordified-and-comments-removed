@@ -151,17 +151,6 @@ p2p
 /
 base
 /
-mock_async_resolver
-.
-h
-"
-#
-include
-"
-p2p
-/
-base
-/
 mock_ice_controller
 .
 h

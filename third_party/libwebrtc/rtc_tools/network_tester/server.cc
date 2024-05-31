@@ -10,6 +10,15 @@ h
 #
 include
 "
+rtc_base
+/
+thread
+.
+h
+"
+#
+include
+"
 rtc_tools
 /
 network_tester

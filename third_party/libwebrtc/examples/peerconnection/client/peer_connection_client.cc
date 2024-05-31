@@ -71,6 +71,15 @@ net_helpers
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+thread
+.
+h
+"
 namespace
 {
 constexpr
