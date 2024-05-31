@@ -105,6 +105,18 @@ GITHUB_PULL_TITLE
 '
 '
 )
+BUILD_WORKER_TYPE
+=
+os
+.
+environ
+.
+get
+(
+'
+BUILD_WORKER_TYPE
+'
+)
 SKIP_TASKS_TRIGGER
 =
 '
@@ -212,13 +224,7 @@ return
 workerType
 "
 :
-'
-android
--
-components
--
-g
-'
+BUILD_WORKER_TYPE
         
 "
 taskGroupId

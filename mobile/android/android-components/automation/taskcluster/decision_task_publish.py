@@ -163,6 +163,19 @@ SCHEDULER_ID
 '
 )
     
+build_worker_type
+=
+os
+.
+environ
+.
+get
+(
+'
+BUILD_WORKER_TYPE
+'
+)
+    
 tasks_priority
 =
 os
@@ -213,7 +226,6 @@ generate_build_task
 version
 artifact_info
 is_snapshot
-is_staging
 )
 :
     
@@ -490,10 +502,6 @@ scopes
 artifacts
 =
 artifacts
-        
-is_staging
-=
-is_staging
     
 )
 def
@@ -1253,7 +1261,6 @@ generate_args
 version
 artifact_info
 is_snapshot
-is_staging
 )
         
 )

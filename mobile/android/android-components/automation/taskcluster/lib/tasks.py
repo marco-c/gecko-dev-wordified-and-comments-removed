@@ -22,6 +22,7 @@ commit
 owner
 source
 scheduler_id
+build_worker_type
 tasks_priority
 =
 '
@@ -71,6 +72,12 @@ self
 scheduler_id
 =
 scheduler_id
+        
+self
+.
+build_worker_type
+=
+build_worker_type
         
 self
 .
@@ -412,10 +419,6 @@ features
 =
 {
 }
-                   
-is_staging
-=
-False
 )
 :
         
@@ -483,21 +486,9 @@ return
 workerType
 "
 :
-'
-android
--
-components
--
-g
-'
-if
-is_staging
-else
-'
-gecko
--
-focus
-'
+self
+.
+build_worker_type
             
 "
 taskGroupId
