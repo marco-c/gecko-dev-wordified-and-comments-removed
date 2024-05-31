@@ -1377,7 +1377,6 @@ baz
 ]
 function
 (
-aURI
 )
 {
 var
@@ -1509,7 +1508,6 @@ baz
 ]
 function
 (
-aURI
 )
 {
 var
@@ -3329,7 +3327,6 @@ async
 function
 task_cleanDatabase
 (
-aCallback
 )
 {
 await

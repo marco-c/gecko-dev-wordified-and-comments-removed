@@ -349,7 +349,8 @@ withNewTab
 gBrowser
 }
 async
-initialTab
+(
+)
 =
 >
 {

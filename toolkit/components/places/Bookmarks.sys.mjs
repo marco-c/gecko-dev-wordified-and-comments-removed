@@ -11156,14 +11156,6 @@ promiseBookmarksTree
 )
 fetchTree
 (
-guid
-=
-"
-"
-options
-=
-{
-}
 )
 {
 throw

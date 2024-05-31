@@ -408,7 +408,6 @@ async
 function
 promiseImportExport
 (
-aWindow
 )
 {
 saveDir

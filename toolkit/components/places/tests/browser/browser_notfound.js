@@ -109,7 +109,8 @@ gBrowser
 url
 }
 async
-browser
+(
+)
 =
 >
 {

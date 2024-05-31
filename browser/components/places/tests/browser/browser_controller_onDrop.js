@@ -234,7 +234,6 @@ TYPE_X_MOZ_PLACE
 ]
 mozTypesAt
 (
-i
 )
 {
 return
@@ -252,7 +251,6 @@ type
 }
 mozGetDataAt
 (
-i
 )
 {
 return

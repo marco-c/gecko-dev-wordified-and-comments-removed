@@ -334,7 +334,8 @@ com
 "
 }
 async
-browser
+(
+)
 =
 >
 {
@@ -519,7 +520,8 @@ com
 "
 }
 async
-browser
+(
+)
 =
 >
 {
@@ -715,7 +717,8 @@ test
 "
 }
 async
-browser
+(
+)
 =
 >
 {

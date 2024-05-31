@@ -328,7 +328,6 @@ LosingOwnership
 function
 PC_LosingOwnership
 (
-aXferable
 )
 {
 this
@@ -1499,7 +1498,6 @@ onEvent
 function
 PC_onEvent
 (
-eventName
 )
 {
 }

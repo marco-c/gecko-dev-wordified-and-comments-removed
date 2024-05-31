@@ -402,7 +402,6 @@ unload
 "
 function
 (
-event
 )
 {
 tagsField
@@ -1094,7 +1093,6 @@ unload
 "
 function
 (
-event
 )
 {
 tagsField
@@ -1705,7 +1703,8 @@ addEventListener
 "
 unload
 "
-event
+(
+)
 =
 >
 {

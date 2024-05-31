@@ -1104,7 +1104,6 @@ aPopup
 }
 destroyContextMenu
 (
-aPopup
 )
 {
 this
@@ -2096,7 +2095,6 @@ cutting
 nodeURIChanged
 (
 aPlacesNode
-aURIString
 )
 {
 let
@@ -2328,7 +2326,6 @@ nodeRemoved
 (
 aParentPlacesNode
 aPlacesNode
-aIndex
 )
 {
 let
@@ -7466,7 +7463,6 @@ uri
 }
 _onMouseOut
 (
-aEvent
 )
 {
 window
@@ -8312,7 +8308,6 @@ stopPropagation
 }
 _onDragLeave
 (
-aEvent
 )
 {
 PlacesControllerDragHelper
@@ -8359,7 +8354,6 @@ hoverTime
 }
 _onDragEnd
 (
-aEvent
 )
 {
 this

@@ -98,6 +98,7 @@ test
 .
 places
 .
+y
 {
 i
 }
@@ -551,7 +552,7 @@ test
 .
 places
 .
-0
+y0
 /
 "
 "
@@ -1188,6 +1189,7 @@ test
 .
 places
 .
+y
 {
 index
 }
@@ -2096,7 +2098,8 @@ mut
 new
 MutationObserver
 (
-mutations
+(
+)
 =
 >
 {

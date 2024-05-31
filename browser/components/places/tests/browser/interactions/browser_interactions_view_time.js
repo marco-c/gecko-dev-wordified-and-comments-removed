@@ -301,7 +301,8 @@ withNewTab
 (
 TEST_URL
 async
-browser
+(
+)
 =
 >
 {
@@ -1412,7 +1413,8 @@ withNewTab
 (
 TEST_URL
 async
-browser
+(
+)
 =
 >
 {

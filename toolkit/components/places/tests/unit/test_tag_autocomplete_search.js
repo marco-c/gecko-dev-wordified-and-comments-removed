@@ -87,7 +87,6 @@ popup
 {
 setSelectedIndex
 (
-aIndex
 )
 {
 }

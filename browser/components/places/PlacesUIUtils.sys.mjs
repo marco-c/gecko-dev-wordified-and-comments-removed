@@ -500,7 +500,6 @@ _cancelRequest
 (
 {
 uri
-innerWindowID
 timerID
 callback
 }

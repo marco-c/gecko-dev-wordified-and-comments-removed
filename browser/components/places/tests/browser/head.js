@@ -1880,7 +1880,8 @@ else
 let
 onPopupShown
 =
-event
+(
+)
 =
 >
 {
@@ -1932,7 +1933,8 @@ resolve
 let
 onPopupHidden
 =
-event
+(
+)
 =
 >
 {

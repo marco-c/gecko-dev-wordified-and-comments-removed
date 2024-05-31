@@ -2068,7 +2068,6 @@ TS_observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

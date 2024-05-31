@@ -581,7 +581,8 @@ withNewTab
 (
 TEST_URL
 async
-browser
+(
+)
 =
 >
 {

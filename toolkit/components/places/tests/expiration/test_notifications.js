@@ -12,9 +12,6 @@ notifications
 0
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 this

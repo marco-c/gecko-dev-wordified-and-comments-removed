@@ -128,8 +128,6 @@ filter
 function
 (
 aVisit
-aIndex
-aArray
 )
 {
 if
@@ -504,7 +502,8 @@ aSequences
 .
 map
 (
-i
+(
+)
 =
 >
 0

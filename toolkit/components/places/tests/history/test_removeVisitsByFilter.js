@@ -707,10 +707,7 @@ removedItems
 .
 findIndex
 (
-(
 v
-index
-)
 =
 >
 v

@@ -4544,7 +4544,6 @@ onFetchLocalTree
 took
 itemCount
 deleteCount
-problemsBag
 )
 =
 >

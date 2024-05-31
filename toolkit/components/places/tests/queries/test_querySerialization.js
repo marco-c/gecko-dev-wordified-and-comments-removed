@@ -47,7 +47,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -76,7 +75,6 @@ TIME_RELATIVE_EPOCH
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -139,7 +137,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -168,7 +165,6 @@ TIME_RELATIVE_EPOCH
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -225,7 +221,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -243,7 +238,6 @@ wine
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -288,7 +282,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -311,7 +304,6 @@ false
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -336,7 +328,6 @@ true
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -378,7 +369,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -423,7 +413,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -457,7 +446,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -602,7 +590,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -617,7 +604,6 @@ setParents
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -637,7 +623,6 @@ rootGuid
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -807,7 +792,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -821,7 +805,6 @@ tags
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -837,7 +820,6 @@ tags
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -898,7 +880,6 @@ so
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -1098,7 +1079,6 @@ runs
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -1113,7 +1093,6 @@ setTransitions
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -1133,7 +1112,6 @@ TRANSITION_DOWNLOAD
 function
 (
 aQuery
-aQueryOptions
 )
 {
 aQuery
@@ -1506,7 +1484,8 @@ aSequences
 .
 map
 (
-i
+(
+)
 =
 >
 0

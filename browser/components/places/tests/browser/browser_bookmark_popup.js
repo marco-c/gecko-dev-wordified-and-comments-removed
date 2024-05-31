@@ -1440,7 +1440,6 @@ true
 async
 popupShowFn
 (
-browser
 )
 {
 EventUtils
@@ -2058,7 +2057,6 @@ isNewBookmark
 true
 popupShowFn
 (
-browser
 )
 {
 win
@@ -2126,7 +2124,6 @@ isNewBookmark
 false
 popupShowFn
 (
-browser
 )
 {
 EventUtils
@@ -2209,7 +2206,6 @@ isNewBookmark
 true
 popupShowFn
 (
-browser
 )
 {
 EventUtils
@@ -2421,7 +2417,6 @@ isNewBookmark
 true
 popupShowFn
 (
-browser
 )
 {
 EventUtils
@@ -2602,7 +2597,6 @@ false
 async
 popupShowFn
 (
-browser
 )
 {
 PlacesUtils
@@ -2813,7 +2807,6 @@ false
 async
 popupShowFn
 (
-browser
 )
 {
 PlacesUtils

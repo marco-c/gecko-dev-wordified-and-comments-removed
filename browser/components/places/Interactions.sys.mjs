@@ -2599,7 +2599,6 @@ inactive
 #
 onDeactivateWindow
 (
-win
 )
 {
 lazy
@@ -2902,7 +2901,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

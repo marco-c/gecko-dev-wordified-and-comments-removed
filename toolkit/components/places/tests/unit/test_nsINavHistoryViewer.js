@@ -9,7 +9,6 @@ nodeInserted
 (
 parent
 node
-newIndex
 )
 {
 this
@@ -26,7 +25,6 @@ nodeRemoved
 (
 parent
 node
-oldIndex
 )
 {
 this
@@ -74,8 +72,6 @@ null
 nodeHistoryDetailsChanged
 (
 node
-oldVisitDate
-oldVisitCount
 )
 {
 this
@@ -107,10 +103,6 @@ null
 nodeMoved
 (
 node
-oldParent
-oldIndex
-newParent
-newIndex
 )
 {
 this

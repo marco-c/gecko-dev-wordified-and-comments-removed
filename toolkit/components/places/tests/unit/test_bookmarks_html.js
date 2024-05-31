@@ -1422,7 +1422,6 @@ PAGE_URI
 uri
 dataLen
 faviconData
-mimeType
 )
 =
 >

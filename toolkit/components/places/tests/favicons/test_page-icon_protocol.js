@@ -1155,7 +1155,8 @@ addEventListener
 "
 error
 "
-e
+(
+)
 =
 >
 {
@@ -1187,7 +1188,8 @@ addEventListener
 "
 load
 "
-e
+(
+)
 =
 >
 {
@@ -1348,7 +1350,8 @@ addEventListener
 "
 error
 "
-e
+(
+)
 =
 >
 {
@@ -1381,7 +1384,8 @@ addEventListener
 "
 load
 "
-e
+(
+)
 =
 >
 {

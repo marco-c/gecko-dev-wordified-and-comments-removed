@@ -177,9 +177,6 @@ pageURI
 function
 (
 uri
-dataLen
-data
-mimeType
 )
 {
 is

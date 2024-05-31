@@ -119,8 +119,6 @@ ignoreResults
 true
 handleError
 (
-aResultCode
-aPlace
 )
 {
 errors
@@ -130,7 +128,6 @@ errors
 }
 handleResult
 (
-aPlace
 )
 {
 results
@@ -320,8 +317,6 @@ ignoreResults
 true
 handleError
 (
-aResultCode
-aPlace
 )
 {
 errors
@@ -331,7 +326,6 @@ errors
 }
 handleResult
 (
-aPlace
 )
 {
 results

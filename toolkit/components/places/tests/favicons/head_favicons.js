@@ -126,9 +126,6 @@ aPageURI
 function
 (
 aURI
-aDataLen
-aData
-aMimeType
 )
 {
 Assert

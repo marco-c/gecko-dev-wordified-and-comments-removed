@@ -2233,7 +2233,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 lazy
@@ -3388,7 +3387,6 @@ recalculateSomePagesAlternativeFrecencies
 (
 {
 chunkSize
-variables
 }
 )
 {

@@ -135,10 +135,7 @@ p
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

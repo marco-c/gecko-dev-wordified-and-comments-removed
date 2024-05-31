@@ -976,8 +976,6 @@ onStartRequest
 onStopRequest
 (
 aRequest
-aContext
-aStatusCode
 )
 {
 let
@@ -1026,9 +1024,6 @@ resolve
 onDataAvailable
 (
 aRequest
-aInputStream
-aOffset
-aCount
 )
 {
 aRequest

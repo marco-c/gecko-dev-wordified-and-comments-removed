@@ -121,7 +121,8 @@ mut
 new
 MutationObserver
 (
-mutations
+(
+)
 =
 >
 {
@@ -794,7 +795,8 @@ withNewTab
 gBrowser
 }
 async
-tab
+(
+)
 =
 >
 {

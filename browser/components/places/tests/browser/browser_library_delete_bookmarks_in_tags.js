@@ -104,7 +104,6 @@ map
 (
 uri
 index
-arr
 )
 =
 >

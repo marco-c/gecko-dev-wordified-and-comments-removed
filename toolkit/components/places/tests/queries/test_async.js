@@ -459,9 +459,6 @@ false
 }
 opened
 (
-node
-newState
-oldState
 )
 {
 do_throw

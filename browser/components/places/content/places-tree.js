@@ -26,7 +26,8 @@ addEventListener
 "
 focus
 "
-event
+(
+)
 =
 >
 {
@@ -57,7 +58,8 @@ addEventListener
 "
 select
 "
-event
+(
+)
 =
 >
 {
@@ -516,7 +518,8 @@ addEventListener
 "
 dragend
 "
-event
+(
+)
 =
 >
 {
@@ -3223,7 +3226,6 @@ aPopup
 }
 destroyContextMenu
 (
-aPopup
 )
 {
 }

@@ -1656,7 +1656,8 @@ await
 checkContextMenu
 (
 async
-bookmark
+(
+)
 =
 >
 {
@@ -1832,7 +1833,8 @@ await
 checkContextMenu
 (
 async
-bookmark
+(
+)
 =
 >
 {
@@ -2470,7 +2472,6 @@ BookmarksToolbar
 async
 (
 {
-left
 right
 }
 )
@@ -2636,7 +2637,6 @@ BookmarksToolbar
 async
 (
 {
-left
 right
 }
 )
@@ -3151,7 +3151,8 @@ await
 checkContextMenu
 (
 async
-bookmark
+(
+)
 =
 >
 {
@@ -3481,7 +3482,6 @@ BookmarksToolbar
 async
 (
 {
-left
 right
 }
 )
@@ -3492,7 +3492,8 @@ await
 checkContextMenu
 (
 async
-bookmark
+(
+)
 =
 >
 {

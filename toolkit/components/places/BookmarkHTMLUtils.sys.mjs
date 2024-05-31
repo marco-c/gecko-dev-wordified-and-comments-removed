@@ -2972,7 +2972,6 @@ _handleSeparator
 function
 handleSeparator
 (
-aElt
 )
 {
 let
