@@ -203,9 +203,9 @@ android_gradle_plugin
 "
 3
 .
-1
+2
 .
-4
+1
 "
 const
 val
@@ -223,9 +223,9 @@ lint
 "
 26
 .
-1
+2
 .
-3
+1
 "
 const
 val
