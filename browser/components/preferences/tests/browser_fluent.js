@@ -10,7 +10,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 const
@@ -33,7 +32,6 @@ addObserver
 function
 observer
 (
-aSubject
 )
 {
 Services

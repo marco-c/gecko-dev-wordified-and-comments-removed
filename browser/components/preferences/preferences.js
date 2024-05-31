@@ -2613,7 +2613,6 @@ function
 scrollAndHighlight
 (
 subcategory
-category
 )
 {
 let
@@ -3337,7 +3336,8 @@ clientHeight
 .
 catch
 (
-err
+(
+)
 =
 >
 Cu

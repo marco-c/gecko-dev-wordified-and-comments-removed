@@ -604,8 +604,6 @@ _defaultFont
 null
 EnumerateFontsAsync
 (
-lang
-type
 )
 {
 return
