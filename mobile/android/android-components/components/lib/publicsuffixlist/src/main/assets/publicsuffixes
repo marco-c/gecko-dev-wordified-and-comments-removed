@@ -1,4 +1,4 @@
-^
+s
 *
 .
 0emm
@@ -1379,6 +1379,11 @@ apigee
 .
 io
 app
+app
+.
+banzaicloud
+.
+io
 app
 .
 lmpm
@@ -5686,7 +5691,6 @@ doesntexist
 .
 org
 dog
-doha
 dolls
 .
 museum
@@ -26526,6 +26530,9 @@ it
 tselinograd
 .
 su
+tsk
+.
+tr
 tsu
 .
 mie
