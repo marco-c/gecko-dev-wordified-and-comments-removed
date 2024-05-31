@@ -2082,6 +2082,18 @@ default
 ]
 )
     
+parameters
+[
+"
+backstop
+"
+]
+=
+is_backstop
+(
+parameters
+)
+    
 if
 options
 .
@@ -2108,11 +2120,14 @@ target_tasks_method
 ]
     
 if
+(
+        
 "
 DONTBUILD
 "
 in
 commit_message
+        
 and
 options
 [
@@ -2127,6 +2142,17 @@ hg
 -
 push
 "
+        
+and
+not
+parameters
+[
+"
+backstop
+"
+]
+    
+)
 :
         
 parameters
@@ -2318,18 +2344,6 @@ options
 optimize_target_tasks
 "
 ]
-    
-parameters
-[
-"
-backstop
-"
-]
-=
-is_backstop
-(
-parameters
-)
     
 if
 "
