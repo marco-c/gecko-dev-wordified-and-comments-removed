@@ -280,6 +280,17 @@ thenReturn
 (
 session
 )
+when
+(
+sessionManager
+.
+selectedSessionOrThrow
+)
+.
+thenReturn
+(
+session
+)
 val
 engineSession
 =

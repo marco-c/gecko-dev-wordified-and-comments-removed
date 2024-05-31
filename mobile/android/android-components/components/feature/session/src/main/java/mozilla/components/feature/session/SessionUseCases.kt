@@ -179,7 +179,7 @@ Session
 =
 sessionManager
 .
-selectedSession
+selectedSessionOrThrow
 )
 {
 sessionManager
@@ -256,7 +256,7 @@ Session
 =
 sessionManager
 .
-selectedSession
+selectedSessionOrThrow
 )
 {
 sessionManager

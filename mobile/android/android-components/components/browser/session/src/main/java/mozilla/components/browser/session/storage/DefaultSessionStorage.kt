@@ -667,8 +667,13 @@ SELECTED_SESSION_KEY
 sessionManager
 .
 selectedSession
+?
 .
 id
+?
+:
+"
+"
 )
 sessionManager
 .

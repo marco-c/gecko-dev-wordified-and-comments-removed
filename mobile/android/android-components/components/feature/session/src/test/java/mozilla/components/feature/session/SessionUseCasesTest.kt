@@ -211,7 +211,7 @@ when
 (
 sessionManager
 .
-selectedSession
+selectedSessionOrThrow
 )
 .
 thenReturn

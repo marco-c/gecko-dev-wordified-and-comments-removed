@@ -329,7 +329,7 @@ org
 "
 sessionManager
 .
-selectedSession
+selectedSessionOrThrow
 .
 url
 )

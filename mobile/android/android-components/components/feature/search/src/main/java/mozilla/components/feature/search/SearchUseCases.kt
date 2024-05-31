@@ -213,7 +213,7 @@ Session
 =
 sessionManager
 .
-selectedSession
+selectedSessionOrThrow
 )
 {
 val

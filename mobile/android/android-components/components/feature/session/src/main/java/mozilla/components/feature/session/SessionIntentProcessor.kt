@@ -323,6 +323,12 @@ else
 sessionManager
 .
 selectedSession
+?
+:
+Session
+(
+url
+)
 }
 sessionUseCases
 .
