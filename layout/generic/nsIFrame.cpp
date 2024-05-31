@@ -11056,10 +11056,6 @@ nsIFrame
 :
 ComputePageValue
 (
-const
-nsAtom
-*
-aAutoValue
 )
 const
 {
@@ -11068,10 +11064,6 @@ nsAtom
 *
 value
 =
-aAutoValue
-?
-aAutoValue
-:
 nsGkAtoms
 :
 :
