@@ -25686,22 +25686,11 @@ ABORT0
 (
 )
 ;
-bool
-startSeg
-;
 BCMapCellInfo
 info
 (
 this
 )
-ajaInfo
-(
-this
-)
-;
-BCCellBorder
-currentBorder
-adjacentBorder
 ;
 BCCorners
 bStartCorners
@@ -25980,6 +25969,7 @@ SetColumn
 colIdx
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -26079,6 +26069,7 @@ set
 "
 )
 ;
+bool
 startSeg
 =
 firstRowBStartEdgeBorder
@@ -26279,6 +26270,7 @@ info
 mRowIndex
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -26356,6 +26348,7 @@ eLogicalSideBStart
 currentBorder
 )
 ;
+bool
 startSeg
 =
 SetBorder
@@ -26496,6 +26489,7 @@ info
 mRowIndex
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -26634,6 +26628,7 @@ brCorner
 bevel
 )
 ;
+bool
 startSeg
 =
 SetBorder
@@ -26709,6 +26704,12 @@ segLength
 0
 ;
 BCMapCellInfo
+ajaInfo
+(
+this
+)
+;
+BCMapCellInfo
 priorAjaInfo
 (
 this
@@ -26747,6 +26748,7 @@ rowB
 ajaInfo
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -26755,6 +26757,7 @@ GetIEndInternalBorder
 (
 )
 ;
+BCCellBorder
 adjacentBorder
 =
 ajaInfo
@@ -26813,6 +26816,7 @@ mRowSpan
 rowB
 )
 ;
+bool
 startSeg
 =
 SetBorder
@@ -27003,6 +27007,7 @@ GetBEndInternalBorder
 (
 )
 ;
+BCCellBorder
 adjacentBorder
 =
 ajaInfo
@@ -27324,6 +27329,7 @@ SetColumn
 colIdx
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -27448,6 +27454,7 @@ true
 )
 ;
 }
+bool
 startSeg
 =
 SetInlineDirBorder
@@ -27566,6 +27573,12 @@ segLength
 =
 0
 ;
+BCMapCellInfo
+ajaInfo
+(
+this
+)
+;
 for
 (
 int32_t
@@ -27599,6 +27612,7 @@ colIdx
 ajaInfo
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -27607,6 +27621,7 @@ GetBEndInternalBorder
 (
 )
 ;
+BCCellBorder
 adjacentBorder
 =
 ajaInfo
@@ -27934,6 +27949,7 @@ false
 ;
 }
 }
+bool
 startSeg
 =
 SetInlineDirBorder
