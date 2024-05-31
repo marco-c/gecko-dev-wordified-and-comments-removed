@@ -63,12 +63,6 @@ properties
 .
 libRepositoryName
 def
-libGroupId
-=
-properties
-.
-libGroupId
-def
 libUrl
 =
 properties
@@ -97,6 +91,7 @@ ext
 configurePublish
 =
 {
+groupIdArg
 artifactIdArg
 descriptionArg
 -
@@ -117,9 +112,7 @@ maven
 '
 group
 =
-properties
-.
-libGroupId
+groupIdArg
 install
 {
 repositories
@@ -135,7 +128,7 @@ packaging
 aar
 '
 groupId
-libGroupId
+groupIdArg
 artifactId
 artifactIdArg
 name
@@ -203,9 +196,11 @@ bintray
 '
 version
 =
-properties
+rootProject
 .
-libVersion
+ext
+.
+version
 task
 sourcesJar
 (
