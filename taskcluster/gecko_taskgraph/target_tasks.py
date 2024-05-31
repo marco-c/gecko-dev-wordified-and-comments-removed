@@ -1599,6 +1599,23 @@ False
     
 if
 "
+s21
+"
+in
+platform
+and
+"
+aarch64
+"
+in
+platform
+:
+        
+return
+False
+    
+if
+"
 a51
 "
 in
