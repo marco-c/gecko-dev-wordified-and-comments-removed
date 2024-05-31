@@ -1645,13 +1645,6 @@ handleBackgroundEvent
 (
 )
 }
-Glean
-.
-pingStorageEngine
-.
-testWait
-(
-)
 /
 /
 We

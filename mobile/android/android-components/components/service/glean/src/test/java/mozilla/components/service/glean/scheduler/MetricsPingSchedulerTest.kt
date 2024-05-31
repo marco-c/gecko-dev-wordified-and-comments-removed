@@ -527,6 +527,11 @@ getApplicationContext
 (
 )
 )
+Glean
+.
+enableTestingMode
+(
+)
 }
 Test
 fun
