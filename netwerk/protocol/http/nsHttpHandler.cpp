@@ -4791,6 +4791,8 @@ defined
 ANDROID
 )
 "
+Linux
+;
 Android
 "
 #
