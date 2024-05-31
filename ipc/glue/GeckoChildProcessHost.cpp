@@ -1493,11 +1493,16 @@ CommandLine
 >
 mCmdLine
 ;
+#
+ifdef
+MOZ_SANDBOX
 bool
 mUseSandbox
 =
 false
 ;
+#
+endif
 const
 Buffer
 <
