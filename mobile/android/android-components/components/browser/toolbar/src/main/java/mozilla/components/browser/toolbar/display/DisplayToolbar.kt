@@ -832,6 +832,13 @@ context
 .
 apply
 {
+id
+=
+R
+.
+id
+.
+mozac_browser_toolbar_url_view
 gravity
 =
 Gravity
