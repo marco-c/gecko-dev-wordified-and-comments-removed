@@ -732,6 +732,10 @@ clang
 vs
 -
 toolchain
+-
+win64
+-
+libxml2
 linux64
 -
 clang
