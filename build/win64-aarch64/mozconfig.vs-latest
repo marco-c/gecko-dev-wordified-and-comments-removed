@@ -22,15 +22,3 @@ clang
 -
 cl
 "
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
-lld
--
-link
-"

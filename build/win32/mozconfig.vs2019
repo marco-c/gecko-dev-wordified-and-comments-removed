@@ -66,14 +66,6 @@ VC142
 .
 CRT
 "
-export
-WINSYSROOT
-=
-"
-{
-VSPATH
-}
-"
 fi
 ac_add_options
 -
