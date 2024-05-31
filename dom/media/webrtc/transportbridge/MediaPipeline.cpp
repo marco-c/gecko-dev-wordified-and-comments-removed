@@ -8373,13 +8373,15 @@ HALF_WIDTH_AND_HEIGHT
 ;
 if
 (
-!
+NS_FAILED
+(
 yuvImage
 -
 >
 CopyData
 (
 yuvData
+)
 )
 )
 {

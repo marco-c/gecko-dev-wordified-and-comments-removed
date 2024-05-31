@@ -456,13 +456,15 @@ HALF_WIDTH_AND_HEIGHT
 ;
 if
 (
-!
+NS_FAILED
+(
 image
 -
 >
 CopyData
 (
 data
+)
 )
 )
 {

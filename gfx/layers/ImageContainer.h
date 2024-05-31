@@ -2473,7 +2473,7 @@ PlanarYCbCrImage
 )
 ;
 virtual
-bool
+nsresult
 CopyData
 (
 const
@@ -2776,7 +2776,7 @@ RecyclingPlanarYCbCrImage
 (
 )
 ;
-bool
+nsresult
 CopyData
 (
 const

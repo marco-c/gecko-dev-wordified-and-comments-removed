@@ -1964,10 +1964,6 @@ CopyData
 (
 data
 )
-?
-NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 RESULT_DETAIL
 (
 "

@@ -617,12 +617,15 @@ aBufferRecycleBin
 bool
 setData
 =
+NS_SUCCEEDED
+(
 image
 -
 >
 CopyData
 (
 pData
+)
 )
 ;
 MOZ_ASSERT

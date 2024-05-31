@@ -3012,13 +3012,15 @@ CreatePlanarYCbCrImage
 ;
 if
 (
-!
+NS_FAILED
+(
 image
 -
 >
 CopyData
 (
 data
+)
 )
 )
 {

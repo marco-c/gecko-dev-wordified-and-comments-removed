@@ -383,7 +383,7 @@ GetAsSourceSurface
 )
 ;
 }
-bool
+nsresult
 SharedPlanarYCbCrImage
 :
 :
@@ -419,7 +419,7 @@ CbCrDataSize
 )
 {
 return
-false
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 TextureClientAutoLock
@@ -456,7 +456,7 @@ texture
 )
 ;
 return
-false
+NS_ERROR_UNEXPECTED
 ;
 }
 if
@@ -485,7 +485,7 @@ TextureClient
 )
 ;
 return
-false
+NS_ERROR_UNEXPECTED
 ;
 }
 mTextureClient
@@ -496,7 +496,7 @@ MarkImmutable
 )
 ;
 return
-true
+NS_OK
 ;
 }
 nsresult

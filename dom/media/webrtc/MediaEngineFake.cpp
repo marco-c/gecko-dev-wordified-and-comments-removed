@@ -1956,12 +1956,15 @@ endif
 bool
 setData
 =
+NS_SUCCEEDED
+(
 ycbcr_image
 -
 >
 CopyData
 (
 data
+)
 )
 ;
 MOZ_ASSERT
