@@ -295,6 +295,7 @@ clicked
 .
 *
 /
+open
 class
 BrowserMenuImageText
 (

@@ -264,8 +264,6 @@ R
 color
 .
 black
-highlight
-=
 BrowserMenuHighlightableItem
 .
 Highlight
@@ -354,8 +352,6 @@ R
 color
 .
 black
-highlight
-=
 BrowserMenuHighlightableItem
 .
 Highlight
@@ -376,8 +372,6 @@ color
 holo_red_light
 )
 )
-{
-}
 val
 view
 =
@@ -537,8 +531,6 @@ color
 holo_red_light
 )
 )
-{
-}
 val
 view
 =
@@ -624,9 +616,10 @@ R
 drawable
 .
 ic_menu_report_image
+highlight
+=
+null
 )
-{
-}
 val
 view
 =

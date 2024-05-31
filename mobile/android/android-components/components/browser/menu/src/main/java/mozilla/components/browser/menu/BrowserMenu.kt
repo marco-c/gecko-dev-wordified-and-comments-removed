@@ -339,6 +339,16 @@ endOfMenuAlwaysVisible
 Boolean
 =
 false
+onDismiss
+:
+(
+)
+-
+>
+Unit
+=
+{
+}
 )
 :
 PopupWindow
@@ -469,6 +479,9 @@ null
 currentPopup
 =
 null
+onDismiss
+(
+)
 }
 displayPopup
 (
