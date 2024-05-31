@@ -173,6 +173,12 @@ Request
 ]
 object
 .
+This
+call
+is
+*
+synchronous
+.
 *
 *
 A
