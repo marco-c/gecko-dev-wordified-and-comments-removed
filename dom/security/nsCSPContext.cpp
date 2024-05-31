@@ -993,6 +993,9 @@ true
 nsAutoString
 violatedDirective
 ;
+nsAutoString
+violatedDirectiveString
+;
 for
 (
 uint32_t
@@ -1032,6 +1035,7 @@ aContentLocation
 aOriginalURIIfRedirect
 aSpecific
 violatedDirective
+violatedDirectiveString
 )
 )
 {
@@ -1132,6 +1136,7 @@ BlockedContentSource
 eUnknown
 aOriginalURIIfRedirect
 violatedDirective
+violatedDirectiveString
 aDir
 p
 u
@@ -2559,6 +2564,10 @@ const
 nsAString
 &
 aViolatedDirective
+const
+nsAString
+&
+aViolatedDirectiveString
 CSPDirective
 aEffectiveDirective
 uint32_t
@@ -2724,6 +2733,7 @@ BlockedContentSource
 eInline
 mSelfURI
 aViolatedDirective
+aViolatedDirectiveString
 aEffectiveDirective
 aViolatedPolicyIndex
 observerSubject
@@ -3123,6 +3133,9 @@ false
 nsAutoString
 violatedDirective
 ;
+nsAutoString
+violatedDirectiveString
+;
 bool
 reportSample
 =
@@ -3134,10 +3147,11 @@ i
 ]
 -
 >
-getDirectiveStringAndReportSampleForContentType
+getViolatedDirectiveInformation
 (
 aDirective
 violatedDirective
+violatedDirectiveString
 &
 reportSample
 )
@@ -3151,6 +3165,7 @@ aNonce
 reportSample
 content
 violatedDirective
+violatedDirectiveString
 aDirective
 i
 aLineNumber
@@ -3341,6 +3356,9 @@ continue
 nsAutoString
 violatedDirective
 ;
+nsAutoString
+violatedDirectiveString
+;
 bool
 reportSample
 =
@@ -3352,10 +3370,11 @@ p
 ]
 -
 >
-getDirectiveStringAndReportSampleForContentType
+getViolatedDirectiveInformation
 (
 SCRIPT_SRC_DIRECTIVE
 violatedDirective
+violatedDirectiveString
 &
 reportSample
 )
@@ -3368,6 +3387,7 @@ nullptr
 blockedContentSource
 nullptr
 violatedDirective
+violatedDirectiveString
 CSPDirective
 :
 :
@@ -6103,6 +6123,10 @@ nsAString
 &
 aViolatedDirective
 const
+nsAString
+&
+aViolatedDirectiveString
+const
 CSPDirective
 aEffectiveDirective
 const
@@ -6172,6 +6196,10 @@ aReportSample
 mViolatedDirective
 (
 aViolatedDirective
+)
+mViolatedDirectiveString
+(
+aViolatedDirectiveString
 )
 mEffectiveDirective
 (
@@ -6727,6 +6755,9 @@ mReportSample
 nsString
 mViolatedDirective
 ;
+nsString
+mViolatedDirectiveString
+;
 CSPDirective
 mEffectiveDirective
 ;
@@ -6780,6 +6811,10 @@ const
 nsAString
 &
 aViolatedDirective
+const
+nsAString
+&
+aViolatedDirectiveString
 const
 CSPDirective
 aEffectiveDirective
@@ -6846,6 +6881,7 @@ getReportOnlyFlag
 (
 )
 aViolatedDirective
+aViolatedDirectiveString
 aEffectiveDirective
 aObserverSubject
 aSourceFile
