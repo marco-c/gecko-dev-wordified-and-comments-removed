@@ -8399,12 +8399,6 @@ IsHiddenByContentVisibilityOfInFlowParentForLayout
 const
 ;
 bool
-IsDescendantOfTopLayerElement
-(
-)
-const
-;
-bool
 HasSelectionInSubtree
 (
 )
