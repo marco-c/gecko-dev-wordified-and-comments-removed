@@ -250,10 +250,6 @@ firefox_android
 "
                 
 "
-ie
-"
-                
-"
 safari
 "
                 
