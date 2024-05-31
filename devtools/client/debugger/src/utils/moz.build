@@ -256,11 +256,6 @@ tabs
 js
 "
 "
-task
-.
-js
-"
-"
 telemetry
 .
 js
