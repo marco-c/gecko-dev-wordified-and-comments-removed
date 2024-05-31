@@ -235,16 +235,6 @@ project
 (
 '
 :
-ui
--
-doorhanger
-'
-)
-implementation
-project
-(
-'
-:
 support
 -
 ktx
