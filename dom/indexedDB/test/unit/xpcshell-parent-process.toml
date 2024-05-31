@@ -225,6 +225,13 @@ tsan
 ]
 [
 "
+test_connection_idle_maintenance
+.
+js
+"
+]
+[
+"
 test_database_close_without_onclose
 .
 js
