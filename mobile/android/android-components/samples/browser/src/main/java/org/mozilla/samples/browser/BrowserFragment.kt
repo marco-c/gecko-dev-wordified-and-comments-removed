@@ -496,6 +496,7 @@ toolbar
 components
 .
 sessionManager
+sessionId
 :
 :
 showTabs
@@ -691,6 +692,14 @@ layout
 toolbar
 sessionId
 )
+{
+activity
+?
+.
+finish
+(
+)
+}
 /
 /
 Observe
