@@ -3087,11 +3087,6 @@ IME
 finishComposingText
 (
 )
-setComposingRegion
-(
-composingStart
-composingEnd
-)
 return
 true
 }
