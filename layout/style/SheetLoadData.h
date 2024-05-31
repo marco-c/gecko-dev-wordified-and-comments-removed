@@ -392,6 +392,12 @@ aBytes2
 nsIChannel
 *
 aChannel
+nsIURI
+*
+aFinalChannelURI
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 NS_DECL_ISUPPORTS
@@ -612,6 +618,10 @@ bool
 mIntentionallyDropped
 =
 false
+;
+const
+bool
+mRecordErrors
 ;
 bool
 ShouldDefer
