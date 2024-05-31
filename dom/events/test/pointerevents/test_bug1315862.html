@@ -332,9 +332,13 @@ arr
 {
 SpecialPowers
 .
-addSystemEventListener
+wrap
 (
 target
+)
+.
+addEventListener
+(
 event
 (
 )
@@ -365,6 +369,11 @@ receivePointerEvents
 =
 true
 ;
+}
+{
+mozSystemGroup
+:
+true
 }
 )
 ;
