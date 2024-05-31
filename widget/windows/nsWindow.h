@@ -2673,8 +2673,6 @@ wchar_t
 ChooseWindowClass
 (
 WindowType
-bool
-aForMenupopupFrame
 )
 ;
 static
@@ -3301,7 +3299,7 @@ mResizable
 false
 ;
 bool
-mForMenupopupFrame
+mIsAlert
 =
 false
 ;
