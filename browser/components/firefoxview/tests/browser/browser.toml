@@ -497,9 +497,6 @@ os
 linux
 '
 "
-#
-Bug
-1875877
 ]
 #
 macos
@@ -514,6 +511,14 @@ windows
 see
 bug
 1858460
+Bug
+1875877
+-
+frequent
+fails
+on
+linux
+.
 [
 "
 browser_opentabs_tab_indicators
