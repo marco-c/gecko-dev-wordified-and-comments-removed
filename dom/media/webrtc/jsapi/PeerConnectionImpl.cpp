@@ -4497,6 +4497,15 @@ mComponents
 datachannelTransceiver
 -
 >
+mTransport
+.
+mDtls
+|
+|
+!
+datachannelTransceiver
+-
+>
 mSendTrack
 .
 GetNegotiatedDetails
