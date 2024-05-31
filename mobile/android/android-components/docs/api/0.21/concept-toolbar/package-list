@@ -2,7 +2,7 @@ dokka
 .
 format
 :
-jekyll
+html
 dokka
 .
 linkExtension
