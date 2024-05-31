@@ -1515,11 +1515,11 @@ StringCast
 BuiltinModuleFuncId
 :
 :
-StringFromWTF16Array
+StringFromCharCodeArray
 BuiltinModuleFuncId
 :
 :
-StringToWTF16Array
+StringIntoCharCodeArray
 BuiltinModuleFuncId
 :
 :
@@ -1543,7 +1543,7 @@ StringLength
 BuiltinModuleFuncId
 :
 :
-StringConcatenate
+StringConcat
 BuiltinModuleFuncId
 :
 :

@@ -10732,7 +10732,7 @@ void
 Instance
 :
 :
-stringFromWTF16Array
+stringFromCharCodeArray
 (
 Instance
 *
@@ -10884,7 +10884,7 @@ int32_t
 Instance
 :
 :
-stringToWTF16Array
+stringIntoCharCodeArray
 (
 Instance
 *
@@ -11613,7 +11613,7 @@ void
 Instance
 :
 :
-stringConcatenate
+stringConcat
 (
 Instance
 *

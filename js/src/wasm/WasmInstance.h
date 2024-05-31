@@ -2381,7 +2381,7 @@ stringArg
 static
 void
 *
-stringFromWTF16Array
+stringFromCharCodeArray
 (
 Instance
 *
@@ -2397,7 +2397,7 @@ arrayCount
 ;
 static
 int32_t
-stringToWTF16Array
+stringIntoCharCodeArray
 (
 Instance
 *
@@ -2409,7 +2409,7 @@ void
 *
 arrayArg
 uint32_t
-start
+arrayStart
 )
 ;
 static
@@ -2479,7 +2479,7 @@ stringArg
 static
 void
 *
-stringConcatenate
+stringConcat
 (
 Instance
 *
