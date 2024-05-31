@@ -429,6 +429,9 @@ OS_LIBS
 =
 [
 "
+android_support
+"
+"
 unwind
 "
 ]

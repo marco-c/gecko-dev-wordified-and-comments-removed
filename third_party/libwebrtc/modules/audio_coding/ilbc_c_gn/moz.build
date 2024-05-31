@@ -2599,6 +2599,9 @@ OS_LIBS
 =
 [
 "
+android_support
+"
+"
 unwind
 "
 ]
@@ -2634,6 +2637,14 @@ CFLAGS
 "
 -
 msse2
+"
+]
+OS_LIBS
++
+=
+[
+"
+android_support
 "
 ]
 if
