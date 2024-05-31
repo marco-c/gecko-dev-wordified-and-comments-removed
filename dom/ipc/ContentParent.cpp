@@ -1843,13 +1843,6 @@ h
 #
 include
 "
-nsIMozBrowserFrame
-.
-h
-"
-#
-include
-"
 nsINetworkLinkService
 .
 h
