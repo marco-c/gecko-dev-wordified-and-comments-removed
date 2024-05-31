@@ -377,12 +377,6 @@ click
 .
 record
 (
-"
-object1
-"
-"
-data
-"
 mapOf
 (
 "

@@ -86,12 +86,6 @@ dev
 mozilla
 .
 com
-objects
-:
--
-object1
--
-object2
 extra_keys
 :
 key1

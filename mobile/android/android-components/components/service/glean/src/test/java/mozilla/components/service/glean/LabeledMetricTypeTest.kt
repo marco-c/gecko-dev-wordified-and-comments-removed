@@ -2415,17 +2415,6 @@ listOf
 default
 "
 )
-objects
-=
-listOf
-(
-"
-foo
-"
-"
-bar
-"
-)
 )
 val
 labeledEventMetric
