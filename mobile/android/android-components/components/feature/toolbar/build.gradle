@@ -217,6 +217,10 @@ testing_mockito
 testImplementation
 Dependencies
 .
+testing_robolectric
+testImplementation
+Dependencies
+.
 kotlin_coroutines
 }
 apply
