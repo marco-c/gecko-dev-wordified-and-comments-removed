@@ -87,6 +87,16 @@ mozilla
 .
 components
 .
+concept
+.
+engine
+.
+EngineView
+import
+mozilla
+.
+components
+.
 feature
 .
 findinpage
@@ -141,6 +151,11 @@ val
 view
 :
 FindInPageView
+private
+val
+engineView
+:
+EngineView
 )
 :
 LifecycleAwareFeature
@@ -154,6 +169,7 @@ FindInPageFeature
 (
 sessionManager
 view
+engineView
 :
 :
 onClose

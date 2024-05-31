@@ -97,6 +97,16 @@ mozilla
 .
 components
 .
+concept
+.
+engine
+.
+EngineView
+import
+mozilla
+.
+components
+.
 feature
 .
 findinpage
@@ -185,6 +195,9 @@ SessionManager
 view
 :
 FindInPageView
+engineView
+:
+EngineView
 private
 val
 onClose
@@ -223,6 +236,7 @@ FindInPageInteractor
 this
 sessionManager
 view
+engineView
 )
 private
 var

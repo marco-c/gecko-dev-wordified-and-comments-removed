@@ -196,6 +196,9 @@ mock
 mock
 (
 )
+mock
+(
+)
 )
 feature
 .
@@ -262,6 +265,9 @@ feature
 =
 FindInPageFeature
 (
+mock
+(
+)
 mock
 (
 )
@@ -334,6 +340,9 @@ feature
 =
 FindInPageFeature
 (
+mock
+(
+)
 mock
 (
 )
@@ -424,6 +433,9 @@ mock
 mock
 (
 )
+mock
+(
+)
 )
 )
 feature
@@ -507,6 +519,9 @@ mock
 mock
 (
 )
+mock
+(
+)
 )
 )
 feature
@@ -572,6 +587,9 @@ feature
 =
 FindInPageFeature
 (
+mock
+(
+)
 mock
 (
 )
@@ -645,6 +663,9 @@ feature
 =
 FindInPageFeature
 (
+mock
+(
+)
 mock
 (
 )
