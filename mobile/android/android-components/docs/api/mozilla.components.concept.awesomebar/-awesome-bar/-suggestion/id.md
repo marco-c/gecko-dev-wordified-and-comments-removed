@@ -154,11 +154,15 @@ AwesomeBar
 .
 kt
 #
-L72
+L75
 )
 A
 unique
 ID
+(
+provider
+scope
+)
 identifying
 this
 [
@@ -238,6 +242,10 @@ id
 A
 unique
 ID
+(
+provider
+scope
+)
 identifying
 this
 [

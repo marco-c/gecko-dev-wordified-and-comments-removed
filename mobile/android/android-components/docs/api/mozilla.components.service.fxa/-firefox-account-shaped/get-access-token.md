@@ -110,8 +110,6 @@ access
 token
 -
 info
-/
-index
 .
 md
 )
@@ -168,5 +166,5 @@ FirefoxAccount
 .
 kt
 #
-L25
+L27
 )

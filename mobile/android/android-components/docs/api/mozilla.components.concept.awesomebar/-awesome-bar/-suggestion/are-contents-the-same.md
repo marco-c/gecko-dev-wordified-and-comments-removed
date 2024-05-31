@@ -172,7 +172,7 @@ AwesomeBar
 .
 kt
 #
-L107
+L125
 )
 Returns
 true

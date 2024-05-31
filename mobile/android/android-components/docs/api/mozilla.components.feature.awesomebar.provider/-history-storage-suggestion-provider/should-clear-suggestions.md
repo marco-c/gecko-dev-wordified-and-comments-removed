@@ -36,7 +36,7 @@ md
 )
 /
 [
-SearchSuggestionProvider
+HistoryStorageSuggestionProvider
 ]
 (
 index
@@ -140,11 +140,11 @@ awesomebar
 /
 provider
 /
-SearchSuggestionProvider
+HistoryStorageSuggestionProvider
 .
 kt
 #
-L128
+L33
 )
 Overrides
 [

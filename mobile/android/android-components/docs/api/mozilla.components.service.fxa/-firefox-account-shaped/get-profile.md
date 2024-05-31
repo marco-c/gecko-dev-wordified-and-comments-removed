@@ -162,7 +162,7 @@ FirefoxAccount
 .
 kt
 #
-L22
+L24
 )
 abstract
 fun
@@ -239,5 +239,5 @@ FirefoxAccount
 .
 kt
 #
-L23
+L25
 )

@@ -109,8 +109,6 @@ access
 token
 -
 info
-/
-index
 .
 md
 )
@@ -167,7 +165,7 @@ FirefoxAccount
 .
 kt
 #
-L125
+L156
 )
 Overrides
 [
@@ -274,8 +272,6 @@ access
 token
 -
 info
-/
-index
 .
 md
 )

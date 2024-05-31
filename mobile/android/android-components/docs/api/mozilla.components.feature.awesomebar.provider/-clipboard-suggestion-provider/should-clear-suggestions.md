@@ -36,7 +36,7 @@ md
 )
 /
 [
-SearchSuggestionProvider
+ClipboardSuggestionProvider
 ]
 (
 index
@@ -140,11 +140,11 @@ awesomebar
 /
 provider
 /
-SearchSuggestionProvider
+ClipboardSuggestionProvider
 .
 kt
 #
-L128
+L50
 )
 Overrides
 [

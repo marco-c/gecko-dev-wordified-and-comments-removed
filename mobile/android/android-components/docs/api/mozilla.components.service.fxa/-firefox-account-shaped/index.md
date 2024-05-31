@@ -124,7 +124,7 @@ FirefoxAccount
 .
 kt
 #
-L19
+L21
 )
 Facilitates
 testing
@@ -627,8 +627,6 @@ access
 token
 -
 info
-/
-index
 .
 md
 )

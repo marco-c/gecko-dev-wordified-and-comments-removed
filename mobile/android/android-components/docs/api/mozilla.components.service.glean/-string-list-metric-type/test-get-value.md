@@ -214,7 +214,7 @@ StringListMetricType
 .
 kt
 #
-L137
+L139
 )
 Returns
 the
