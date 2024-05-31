@@ -543,6 +543,12 @@ UnregisterThreadCallback
 >
 unregisterThread
 ;
+HelperThreadLockData
+<
+size_t
+>
+gcParallelMarkingThreads
+;
 private
 :
 IonCompileTaskVector
