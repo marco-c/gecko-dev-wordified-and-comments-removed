@@ -890,7 +890,6 @@ aCx
 JS_ReportErrorUTF8
 (
 aCx
-u8
 "
 Invalid
 event
@@ -900,8 +899,6 @@ property
 s
 "
 NS_ConvertUTF16toUTF8
-(
-nsString
 (
 reinterpret_cast
 <
@@ -913,7 +910,6 @@ char16_t
 keyChars
 )
 keyLen
-)
 )
 .
 get
