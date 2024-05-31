@@ -225,7 +225,7 @@ Updates
 the
 baseline
 .
-sessions
+duration
 metric
 when
 entering
@@ -316,13 +316,6 @@ onEnterForeground
 (
 )
 {
-Baseline
-.
-sessions
-.
-add
-(
-)
 /
 /
 Note
