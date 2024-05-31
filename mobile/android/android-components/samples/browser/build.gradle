@@ -741,6 +741,10 @@ geckoview_release_aarch64
 implementation
 Deps
 .
+support_design
+implementation
+Deps
+.
 kotlin_stdlib
 implementation
 Deps

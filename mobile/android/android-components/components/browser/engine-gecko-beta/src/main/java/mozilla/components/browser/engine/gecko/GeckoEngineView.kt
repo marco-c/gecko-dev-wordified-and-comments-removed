@@ -104,14 +104,6 @@ concept
 engine
 .
 EngineView
-import
-org
-.
-mozilla
-.
-geckoview
-.
-GeckoView
 /
 *
 *
@@ -159,7 +151,7 @@ currentGeckoView
 =
 object
 :
-GeckoView
+NestedGeckoView
 (
 context
 )

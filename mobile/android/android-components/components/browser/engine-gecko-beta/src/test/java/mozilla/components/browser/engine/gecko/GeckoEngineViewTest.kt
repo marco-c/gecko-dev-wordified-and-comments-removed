@@ -123,14 +123,6 @@ GeckoSession
 import
 org
 .
-mozilla
-.
-geckoview
-.
-GeckoView
-import
-org
-.
 robolectric
 .
 RobolectricTestRunner
@@ -194,7 +186,7 @@ geckoView
 =
 mock
 (
-GeckoView
+NestedGeckoView
 :
 :
 class
