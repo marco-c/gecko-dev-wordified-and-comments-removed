@@ -2209,6 +2209,11 @@ ATTR_IN
 static
 nsHtml5AttributeName
 *
+ATTR_EVENT
+;
+static
+nsHtml5AttributeName
+*
 ATTR_ICON
 ;
 static
