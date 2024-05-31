@@ -115,11 +115,11 @@ color
 name
 =
 "
-mozac_feature_readerview_dark_text_color
+mozac_feature_readerview_text_color_disabled
 "
 >
 #
-F9F9FB
+B1B1B3
 <
 /
 color
