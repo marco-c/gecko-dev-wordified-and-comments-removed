@@ -180,6 +180,19 @@ version
 )
 )
 ;
+if
+(
+!
+type
+.
+equals
+(
+TelemetryPocketEventPingBuilder
+.
+TYPE
+)
+)
+{
 addMeasurement
 (
 new
@@ -189,6 +202,7 @@ configuration
 )
 )
 ;
+}
 }
 public
 TelemetryConfiguration
