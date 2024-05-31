@@ -173,11 +173,6 @@ feature
 search
 "
 "
-feature
--
-sitepermissions
-"
-"
 service
 -
 glean
