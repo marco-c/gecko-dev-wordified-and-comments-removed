@@ -212,6 +212,12 @@ project
 }
 }
 }
+Suppress
+(
+"
+TooGenericExceptionThrown
+"
+)
 private
 fun
 updateGVNightlyVersion

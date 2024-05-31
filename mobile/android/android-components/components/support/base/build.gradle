@@ -133,7 +133,7 @@ pro
 dependencies
 {
 implementation
-Deps
+Dependencies
 .
 kotlin_stdlib
 /
@@ -157,7 +157,7 @@ Lifecycle
 classes
 automatically
 api
-Deps
+Dependencies
 .
 support_appcompat
 testImplementation
@@ -171,15 +171,15 @@ test
 '
 )
 testImplementation
-Deps
+Dependencies
 .
 testing_junit
 testImplementation
-Deps
+Dependencies
 .
 testing_robolectric
 testImplementation
-Deps
+Dependencies
 .
 testing_mockito
 }

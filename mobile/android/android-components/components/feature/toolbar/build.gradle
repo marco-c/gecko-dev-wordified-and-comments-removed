@@ -161,7 +161,7 @@ ktx
 '
 )
 implementation
-Deps
+Dependencies
 .
 kotlin_stdlib
 }

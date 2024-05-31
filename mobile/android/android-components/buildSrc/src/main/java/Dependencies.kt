@@ -308,8 +308,14 @@ by
 some
 )
 modules
+Suppress
+(
+"
+MaxLineLength
+"
+)
 object
-Deps
+Dependencies
 {
 const
 val

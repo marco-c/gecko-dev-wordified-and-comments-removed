@@ -94,6 +94,12 @@ release_version
 20181018182531
 "
 }
+Suppress
+(
+"
+MaxLineLength
+"
+)
 object
 Gecko
 {

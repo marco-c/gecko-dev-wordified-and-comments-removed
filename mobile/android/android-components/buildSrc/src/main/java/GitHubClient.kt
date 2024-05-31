@@ -197,6 +197,12 @@ bodyJson
 tokenHeader
 )
 }
+Suppress
+(
+"
+TooGenericExceptionCaught
+"
+)
 private
 fun
 httpPOST
