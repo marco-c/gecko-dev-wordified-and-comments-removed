@@ -230,6 +230,9 @@ HttpIconLoader
 (
 httpClient
 )
+DataUriIconLoader
+(
+)
 )
 decoders
 :

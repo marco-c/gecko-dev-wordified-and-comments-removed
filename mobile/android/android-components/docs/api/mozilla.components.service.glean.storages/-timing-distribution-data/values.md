@@ -94,7 +94,7 @@ html
 )
 <
 [
-String
+Int
 ]
 (
 https
@@ -116,7 +116,7 @@ stdlib
 kotlin
 /
 -
-string
+int
 /
 index
 .

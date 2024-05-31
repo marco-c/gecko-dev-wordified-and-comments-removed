@@ -142,7 +142,7 @@ Configuration
 .
 kt
 #
-L28
+L31
 )
 the
 user
@@ -151,6 +151,12 @@ used
 when
 sending
 pings
+only
+to
+be
+used
+internally
+.
 #
 #
 #
@@ -164,3 +170,9 @@ used
 when
 sending
 pings
+only
+to
+be
+used
+internally
+.

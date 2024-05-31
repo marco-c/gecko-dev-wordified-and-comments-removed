@@ -97,7 +97,7 @@ BrowserIcons
 .
 kt
 #
-L40
+L41
 )
 Entry
 point
@@ -423,6 +423,9 @@ listOf
 HttpIconLoader
 (
 httpClient
+)
+DataUriIconLoader
+(
 )
 )
 decoders
