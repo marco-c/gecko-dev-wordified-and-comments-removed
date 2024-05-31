@@ -239,6 +239,7 @@ val
 positiveButtonTitle
 :
 String
+?
 by
 lazy
 {
@@ -254,6 +255,7 @@ val
 negativeButtonTitle
 :
 String
+?
 by
 lazy
 {
@@ -269,6 +271,7 @@ val
 neutralButtonTitle
 :
 String
+?
 by
 lazy
 {
@@ -517,9 +520,10 @@ Builder
 {
 if
 (
+!
 positiveButtonTitle
 .
-isNotEmpty
+isNullOrBlank
 (
 )
 )
@@ -549,9 +553,10 @@ POSITIVE
 }
 if
 (
+!
 negativeButtonTitle
 .
-isNotEmpty
+isNullOrBlank
 (
 )
 )
@@ -581,9 +586,10 @@ NEGATIVE
 }
 if
 (
+!
 neutralButtonTitle
 .
-isNotEmpty
+isNullOrBlank
 (
 )
 )

@@ -1291,12 +1291,16 @@ String
 (
 )
 val
+region
+=
+localizationProvider
+.
+region
+val
 regionOverrides
 =
 if
 (
-localizationProvider
-.
 region
 !
 =
@@ -1307,8 +1311,6 @@ overrides
 .
 has
 (
-localizationProvider
-.
 region
 )
 )
@@ -1317,8 +1319,6 @@ overrides
 .
 getJSONObject
 (
-localizationProvider
-.
 region
 )
 }

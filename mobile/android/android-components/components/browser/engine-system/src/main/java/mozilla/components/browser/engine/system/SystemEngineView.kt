@@ -2821,10 +2821,6 @@ PromptRequest
 TextPrompt
 (
 title
-?
-:
-"
-"
 message
 ?
 :

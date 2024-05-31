@@ -1184,6 +1184,12 @@ encodedFileName
 !
 =
 null
+&
+&
+encoding
+!
+=
+null
 )
 {
 return

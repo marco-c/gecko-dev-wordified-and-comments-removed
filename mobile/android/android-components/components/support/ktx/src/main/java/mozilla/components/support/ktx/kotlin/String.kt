@@ -430,10 +430,7 @@ locale
 return
 if
 (
-!
-this
-.
-isEmpty
+isNotEmpty
 (
 )
 )
@@ -443,6 +440,11 @@ formatter
 parse
 (
 this
+)
+?
+:
+Date
+(
 )
 }
 else
