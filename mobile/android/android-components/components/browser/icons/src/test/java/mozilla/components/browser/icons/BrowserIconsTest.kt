@@ -624,7 +624,7 @@ assertEquals
 (
 "
 /
-icon64
+icon128
 .
 png
 "
