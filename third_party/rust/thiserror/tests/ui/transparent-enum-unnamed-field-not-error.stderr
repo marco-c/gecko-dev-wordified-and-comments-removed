@@ -113,9 +113,6 @@ String
 -
 -
 -
-|
-|
-|
 doesn
 '
 t
@@ -127,11 +124,7 @@ AsDynError
 '
 _
 >
-|
-doesn
-'
-t
-satisfy
+or
 String
 :
 std
