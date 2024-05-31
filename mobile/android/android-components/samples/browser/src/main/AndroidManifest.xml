@@ -582,11 +582,9 @@ mozilla
 .
 components
 .
-browser
+feature
 .
-session
-.
-tab
+customtabs
 .
 CustomTabsService
 "
