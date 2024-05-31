@@ -5344,7 +5344,7 @@ ValidateInvalidateFramebuffer
 GLenum
 target
 const
-Range
+Span
 <
 const
 GLenum
