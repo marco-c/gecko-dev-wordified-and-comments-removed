@@ -456,6 +456,12 @@ tabs
 "
 browser
 .
+toolbars
+.
+"
+"
+browser
+.
 urlbar
 .
 "
