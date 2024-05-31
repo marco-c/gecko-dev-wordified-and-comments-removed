@@ -1069,6 +1069,7 @@ test
 detektCheck
 ktlint
 assembleRelease
+docs
 &
 &
 python
