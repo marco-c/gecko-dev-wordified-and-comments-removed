@@ -904,6 +904,10 @@ extraQueryParams
 {
 }
 reportingOrigin
+extraHeaders
+=
+[
+]
 }
 )
 =
@@ -1095,6 +1099,15 @@ headers
 )
 ;
 }
+headers
+=
+headers
+.
+concat
+(
+extraHeaders
+)
+;
 const
 url
 =
