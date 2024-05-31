@@ -1311,11 +1311,11 @@ targetInfo
 targetId
 )
 ;
-ok
+Assert
+.
+equal
 (
 afterTarget
-=
-=
 null
 "
 New

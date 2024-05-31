@@ -289,7 +289,9 @@ be
 tracked
 )
 ;
-ok
+Assert
+.
+greater
 (
 changedIDs
 [
@@ -297,7 +299,6 @@ guid
 ]
 .
 modified
->
 0
 {
 guid
@@ -309,7 +310,9 @@ modified
 time
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 changedIDs
 [
@@ -317,8 +320,6 @@ guid
 ]
 .
 counter
->
-=
 -
 1
 {

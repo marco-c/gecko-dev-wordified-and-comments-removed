@@ -614,10 +614,11 @@ test_load_dump_after_non_empty_import
 (
 )
 {
-ok
+Assert
+.
+greater
 (
 DUMP_LAST_MODIFIED
->
 1234
 "
 Assuming
@@ -705,10 +706,11 @@ test_load_dump_after_import_from_broken_distro
 (
 )
 {
-ok
+Assert
+.
+greater
 (
 DUMP_LAST_MODIFIED
->
 1234
 "
 Assuming

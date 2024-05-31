@@ -52,7 +52,9 @@ EXPECTED
 =
 false
 ;
-ok
+Assert
+.
+equal
 (
 (
 await
@@ -80,8 +82,6 @@ null
 [
 0
 ]
-=
-=
 EXPECTED
 "
 nsIOSReauthenticator

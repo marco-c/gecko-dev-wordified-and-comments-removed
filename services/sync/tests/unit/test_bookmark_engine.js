@@ -5593,7 +5593,9 @@ record3
 dateAdded
 )
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -5609,7 +5611,6 @@ record3
 .
 dateAdded
 )
-<
 24
 *
 60

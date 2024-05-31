@@ -304,10 +304,11 @@ if
 atEnd
 )
 {
-ok
+Assert
+.
+greater
 (
 caretX
->
 charX
 .
 value

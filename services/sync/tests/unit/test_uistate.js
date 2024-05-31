@@ -1874,7 +1874,9 @@ newState
 syncing
 )
 ;
-ok
+Assert
+.
+greater
 (
 new
 Date
@@ -1883,7 +1885,6 @@ newState
 .
 lastSync
 )
->
 new
 Date
 (

@@ -90,12 +90,13 @@ SNAP
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 snap
 .
 length
->
 1
 "
 SNAP

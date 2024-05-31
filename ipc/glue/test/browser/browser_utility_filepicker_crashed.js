@@ -259,11 +259,11 @@ result
 =
 >
 {
-ok
+Assert
+.
+equal
 (
 result
-=
-=
 fp
 .
 returnCancel

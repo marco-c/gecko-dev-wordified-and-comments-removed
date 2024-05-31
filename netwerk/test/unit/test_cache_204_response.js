@@ -153,11 +153,11 @@ isFromCache
 =
 >
 {
-ok
+Assert
+.
+equal
 (
 fromCache
-=
-=
 isFromCache
 got
 response

@@ -159,11 +159,11 @@ remoteTab
 .
 osPid
 ;
-ok
+Assert
+.
+notEqual
 (
 pid1
-!
-=
 pid2
 "
 We

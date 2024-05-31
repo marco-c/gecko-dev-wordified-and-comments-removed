@@ -285,10 +285,11 @@ UNIQUE
 uniqueIssuerReplacement
 )
 ;
-ok
+Assert
+.
+less
 (
 gUniqueIssuerCounter
-<
 127
 "
 should

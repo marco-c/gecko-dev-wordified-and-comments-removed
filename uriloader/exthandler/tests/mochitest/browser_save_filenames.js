@@ -1662,11 +1662,11 @@ filename
 )
 ;
 }
-ok
+Assert
+.
+greaterOrEqual
 (
 fileIdx
->
-=
 0
 "
 file

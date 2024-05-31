@@ -1221,7 +1221,9 @@ cookies
 path
 )
 ;
-ok
+Assert
+.
+greater
 (
 cookie
 .
@@ -1233,7 +1235,6 @@ cookies
 ]
 .
 expiry
->
 new
 Date
 (

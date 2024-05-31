@@ -2737,12 +2737,13 @@ syncCounter
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 deletedLogin
 .
 timePasswordChanged
->
 0
 "
 deleted
@@ -3273,7 +3274,9 @@ field
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 logins
 [
@@ -3281,7 +3284,6 @@ logins
 ]
 .
 timePasswordChanged
->
 details
 .
 timePasswordChanged
@@ -3464,7 +3466,9 @@ field
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 logins
 [
@@ -3472,7 +3476,6 @@ logins
 ]
 .
 timePasswordChanged
->
 details
 .
 timePasswordChanged

@@ -216,10 +216,11 @@ timeBefore
 /
 1000
 ;
-ok
+Assert
+.
+less
 (
 secondsElapsed
-<
 120
 "
 verifications

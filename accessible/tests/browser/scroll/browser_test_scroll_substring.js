@@ -184,10 +184,11 @@ value
 ;
 }
 ;
-ok
+Assert
+.
+less
 (
 containerHeight
-<
 getCharY
 (
 )

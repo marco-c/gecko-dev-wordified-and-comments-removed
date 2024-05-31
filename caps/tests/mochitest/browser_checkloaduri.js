@@ -1832,11 +1832,11 @@ canLoadWithoutInherit
 !
 canLoad
 ;
-ok
+Assert
+.
+equal
 (
 threw
-=
-=
 shouldThrow
 "
 Should

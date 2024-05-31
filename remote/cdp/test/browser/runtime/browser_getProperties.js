@@ -866,12 +866,13 @@ false
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 result2
 .
 length
->
 1
 "
 We
