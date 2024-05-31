@@ -350,11 +350,11 @@ OPENCV_VERSION
 "
 4
 .
-7
+6
 .
 0
 .
-72
+66
 "
 MIN_NODE_VERSION
 =
