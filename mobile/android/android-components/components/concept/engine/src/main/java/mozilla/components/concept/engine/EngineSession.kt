@@ -887,7 +887,7 @@ trackers
 .
 *
 /
-open
+abstract
 fun
 enableTrackingProtection
 (
@@ -901,8 +901,6 @@ all
 (
 )
 )
-=
-Unit
 /
 *
 *
@@ -917,13 +915,11 @@ session
 .
 *
 /
-open
+abstract
 fun
 disableTrackingProtection
 (
 )
-=
-Unit
 /
 *
 *

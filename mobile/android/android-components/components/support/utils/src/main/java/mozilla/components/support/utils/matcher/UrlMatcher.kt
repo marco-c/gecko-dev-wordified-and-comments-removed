@@ -224,7 +224,6 @@ var
 blockWebfonts
 =
 true
-internal
 constructor
 (
 patterns
