@@ -95,7 +95,7 @@ AccountState
 {
 Start
 NotAuthenticated
-AuthenticationProblems
+AuthenticationProblem
 AuthenticatedNoProfile
 AuthenticatedWithProfile
 }

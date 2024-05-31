@@ -393,7 +393,7 @@ when
 (
 mockAccount
 .
-getAccessToken
+getAccessTokenAsync
 (
 any
 (
@@ -782,7 +782,7 @@ when
 (
 mockAccount
 .
-getAccessToken
+getAccessTokenAsync
 (
 any
 (
