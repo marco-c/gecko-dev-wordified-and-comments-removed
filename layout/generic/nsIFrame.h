@@ -4680,12 +4680,6 @@ return
 nullptr
 ;
 }
-bool
-HasUnreflowedContainerQueryAncestor
-(
-)
-const
-;
 private
 :
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
