@@ -546,15 +546,9 @@ add
 Session
 (
 "
-https
+about
 :
-/
-/
-www
-.
-mozilla
-.
-org
+blank
 "
 )
 )
