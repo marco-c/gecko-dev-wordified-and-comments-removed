@@ -102,8 +102,8 @@ optimize_target_tasks
 false
 owner
 :
-sfink
-mozilla
+user
+example
 .
 com
 project
