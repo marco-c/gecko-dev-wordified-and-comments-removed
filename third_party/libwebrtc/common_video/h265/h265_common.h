@@ -126,10 +126,10 @@ kPrefixSei
 kSuffixSei
 =
 40
-kAP
+kAp
 =
 48
-kFU
+kFu
 =
 49
 }
