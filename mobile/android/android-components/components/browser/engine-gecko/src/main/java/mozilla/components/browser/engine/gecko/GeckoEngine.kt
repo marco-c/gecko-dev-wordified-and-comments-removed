@@ -479,6 +479,12 @@ trackingProtectionCategories
 it
 .
 categories
+defaultSettings
+?
+.
+trackingProtectionPolicy
+=
+value
 }
 }
 override
