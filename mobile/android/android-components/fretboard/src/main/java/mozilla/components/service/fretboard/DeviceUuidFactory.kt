@@ -126,6 +126,10 @@ fromString
 (
 prefUuid
 )
+.
+toString
+(
+)
 }
 else
 {
@@ -157,6 +161,10 @@ apply
 (
 )
 uuid
+.
+toString
+(
+)
 }
 }
 companion
