@@ -41513,7 +41513,7 @@ Document
 *
 document
 =
-GetExtantDocument
+GetDocument
 (
 )
 ;
