@@ -1,10 +1,10 @@
 #
 include
-"
-c99_math
+<
+math
 .
 h
-"
+>
 #
 include
 "
