@@ -1,4 +1,8 @@
 #
+define
+_UCRT_NEGATIVE_NAN
+1
+#
 include
 "
 mozilla
