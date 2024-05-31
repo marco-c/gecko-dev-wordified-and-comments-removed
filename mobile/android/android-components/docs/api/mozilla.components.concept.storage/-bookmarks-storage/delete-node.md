@@ -173,7 +173,7 @@ BookmarksStorage
 .
 kt
 #
-L83
+L99
 )
 Deletes
 a
