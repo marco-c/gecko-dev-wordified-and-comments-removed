@@ -291,6 +291,12 @@ simpleName
 }
 }
 object
+RecoveredFromAuthenticationProblem
+:
+Event
+(
+)
+object
 FetchProfile
 :
 Event

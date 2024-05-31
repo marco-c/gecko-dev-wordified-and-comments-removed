@@ -191,7 +191,7 @@ beginOAuthFlowAsync
 (
 scopes
 :
-Array
+Set
 <
 String
 >
@@ -213,7 +213,7 @@ pairingUrl
 String
 scopes
 :
-Array
+Set
 <
 String
 >
@@ -273,6 +273,19 @@ String
 Deferred
 <
 AccessTokenInfo
+?
+>
+fun
+checkAuthorizationStatusAsync
+(
+singleScope
+:
+String
+)
+:
+Deferred
+<
+Boolean
 ?
 >
 fun
