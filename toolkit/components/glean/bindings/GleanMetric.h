@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsTHashMap
 .
 h
