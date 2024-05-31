@@ -83,7 +83,7 @@ used
 to
 communicate
 with
-FormAutofillContent
+FormAutofillChild
 .
 Each
 item
@@ -115,7 +115,7 @@ Please
 refer
 to
 *
-FormAutofillContent
+FormAutofillChild
 .
 js
 for
@@ -1710,7 +1710,7 @@ the
 message
 coming
 from
-FormAutofillContent
+FormAutofillChild
 .
 *
 *
