@@ -135,7 +135,7 @@ only
 .
 flat
 varying
-mediump
+highp
 vec4
 vColorLine
 ;
@@ -290,7 +290,7 @@ clipping
 .
 flat
 varying
-mediump
+highp
 vec4
 vClipRadii
 ;
@@ -306,7 +306,7 @@ lines
 .
 flat
 varying
-mediump
+highp
 vec4
 vEdgeReference
 ;
@@ -329,7 +329,7 @@ FS
 .
 flat
 varying
-mediump
+highp
 vec4
 vPartialWidths
 ;
