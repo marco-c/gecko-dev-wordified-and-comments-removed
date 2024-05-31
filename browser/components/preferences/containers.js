@@ -739,7 +739,6 @@ value
 }
 onAddButtonCommand
 (
-button
 )
 {
 this

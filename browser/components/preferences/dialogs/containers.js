@@ -414,7 +414,6 @@ trim
 }
 createIconButtons
 (
-defaultIcon
 )
 {
 let
@@ -614,7 +613,6 @@ radiogroup
 }
 createColorSwatches
 (
-defaultColor
 )
 {
 let

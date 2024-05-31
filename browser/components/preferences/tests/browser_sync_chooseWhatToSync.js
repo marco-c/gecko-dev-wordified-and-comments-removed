@@ -863,7 +863,8 @@ sync
 sync
 "
 async
-browser
+(
+)
 =
 >
 {

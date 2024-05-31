@@ -315,7 +315,6 @@ e
 }
 onCheckboxCommand
 (
-event
 )
 {
 this
