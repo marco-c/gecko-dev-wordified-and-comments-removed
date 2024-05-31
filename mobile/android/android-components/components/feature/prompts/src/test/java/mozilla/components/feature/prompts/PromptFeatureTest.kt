@@ -623,8 +623,6 @@ mockFragmentManager
 )
 mockSessionManager
 =
-Mockito
-.
 spy
 (
 SessionManager
