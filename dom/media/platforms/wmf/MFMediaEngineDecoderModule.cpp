@@ -590,6 +590,15 @@ gfxVars
 CanUseHardwareVideoDecoding
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+media_wmf_media_engine_bypass_gfx_blocklist
+(
+)
 )
 {
 return
