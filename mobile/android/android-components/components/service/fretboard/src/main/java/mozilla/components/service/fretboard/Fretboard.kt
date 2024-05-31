@@ -147,6 +147,7 @@ ValuesProvider
 )
 )
 {
+Volatile
 private
 var
 experimentsResult
