@@ -281,10 +281,13 @@ const
 bool
 &
 aHadCrossSiteRedirects
-const
+nsTArray
+<
 OriginAttributes
+>
 &
-aAttrs
+&
+aAttrsList
 GetCookieListResolver
 &
 &
@@ -293,7 +296,7 @@ aResolve
 ;
 static
 void
-SerializeCookieList
+SerializeCookieListTable
 (
 const
 nsTArray
@@ -305,10 +308,10 @@ Cookie
 aFoundCookieList
 nsTArray
 <
-CookieStruct
+CookieStructTable
 >
 &
-aCookiesList
+aCookiesListTable
 nsIURI
 *
 aHostURI

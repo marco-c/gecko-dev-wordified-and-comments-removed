@@ -193,15 +193,11 @@ RecvTrackCookiesLoad
 (
 nsTArray
 <
-CookieStruct
+CookieStructTable
 >
 &
 &
-aCookiesList
-const
-OriginAttributes
-&
-aAttrs
+aCookiesListTable
 )
 ;
 mozilla
