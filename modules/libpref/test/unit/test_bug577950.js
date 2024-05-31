@@ -24,9 +24,6 @@ observe
 function
 observe
 (
-aSubject
-aTopic
-aState
 )
 {
 }
