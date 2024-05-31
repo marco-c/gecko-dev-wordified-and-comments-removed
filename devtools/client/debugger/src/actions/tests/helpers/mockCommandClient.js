@@ -130,8 +130,6 @@ mockCommandClient
 =
 {
 sourceContents
-:
-function
 (
 {
 source

@@ -811,8 +811,6 @@ source
 .
 id
 onClick
-:
-onClick
 title
 :
 getFileURL

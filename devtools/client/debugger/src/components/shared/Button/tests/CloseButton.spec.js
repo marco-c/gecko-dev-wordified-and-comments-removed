@@ -74,8 +74,6 @@ createElement
 CloseButton
 {
 tooltip
-:
-tooltip
 handleClick
 :
 (

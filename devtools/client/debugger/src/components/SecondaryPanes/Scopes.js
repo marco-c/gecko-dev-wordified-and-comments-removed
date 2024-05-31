@@ -1394,8 +1394,6 @@ mayUseCustomFormatter
 :
 true
 openLink
-:
-openLink
 onDOMNodeClick
 :
 grip
@@ -1451,8 +1449,6 @@ selectedFrame
 path
 expand
 )
-initiallyExpanded
-:
 initiallyExpanded
 renderItemActions
 :

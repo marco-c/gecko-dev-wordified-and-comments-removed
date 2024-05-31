@@ -1365,8 +1365,6 @@ disableWrap
 :
 true
 openLink
-:
-openLink
 createElement
 :
 this

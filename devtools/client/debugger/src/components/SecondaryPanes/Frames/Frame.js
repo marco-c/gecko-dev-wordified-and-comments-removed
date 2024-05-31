@@ -790,8 +790,6 @@ frame
 .
 id
 className
-:
-className
 onMouseDown
 :
 e
@@ -836,8 +834,6 @@ e
 tabIndex
 :
 0
-title
-:
 title
 }
 frame

@@ -518,8 +518,6 @@ result
 list
 "
 role
-:
-role
 "
 aria
 -

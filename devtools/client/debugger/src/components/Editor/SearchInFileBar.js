@@ -1693,8 +1693,6 @@ state
 .
 query
 count
-:
-count
 placeholder
 :
 L10N

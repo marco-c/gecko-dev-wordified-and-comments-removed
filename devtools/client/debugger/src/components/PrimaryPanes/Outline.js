@@ -1780,8 +1780,6 @@ createElement
 OutlineFilter
 {
 filter
-:
-filter
 updateFilter
 :
 this

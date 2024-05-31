@@ -246,8 +246,6 @@ status
 done
 "
 value
-:
-value
 }
 )
 ;

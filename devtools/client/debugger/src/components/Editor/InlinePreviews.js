@@ -282,8 +282,6 @@ createElement
 InlinePreviewRow
 {
 editor
-:
-editor
 key
 :
 line

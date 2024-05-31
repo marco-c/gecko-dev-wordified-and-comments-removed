@@ -314,8 +314,6 @@ createElement
 InlinePreview
 {
 line
-:
-line
 key
 :
 {
@@ -338,13 +336,7 @@ preview
 .
 value
 openElementInInspector
-:
-openElementInInspector
 highlightDomElement
-:
-highlightDomElement
-unHighlightDomElement
-:
 unHighlightDomElement
 }
 )

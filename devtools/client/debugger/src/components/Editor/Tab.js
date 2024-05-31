@@ -456,16 +456,8 @@ draggable
 :
 true
 onDragOver
-:
-onDragOver
-onDragStart
-:
 onDragStart
 onDragEnd
-:
-onDragEnd
-className
-:
 className
 "
 data

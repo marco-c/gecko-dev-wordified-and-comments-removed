@@ -99,8 +99,6 @@ createElement
 SearchInput
 {
 store
-:
-store
 query
 :
 "

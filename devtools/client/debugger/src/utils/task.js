@@ -4,8 +4,6 @@ Task
 =
 {
 async
-:
-function
 (
 task
 )
@@ -29,8 +27,6 @@ arguments
 ;
 }
 spawn
-:
-function
 (
 task
 scope

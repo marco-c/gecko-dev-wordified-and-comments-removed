@@ -1067,13 +1067,6 @@ comments
 :
 0
 "
-object
--
-shorthand
-"
-:
-0
-"
 one
 -
 var
