@@ -326,7 +326,7 @@ osversion
 assertEquals
 (
 "
-28
+27
 "
 results
 .

@@ -259,6 +259,7 @@ BrowserMenuItemViewHolder
 itemView
 :
 View
+?
 )
 :
 RecyclerView

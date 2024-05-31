@@ -88,7 +88,7 @@ const
 val
 compileSdkVersion
 =
-28
+27
 const
 val
 minSdkVersion
@@ -98,7 +98,7 @@ const
 val
 targetSdkVersion
 =
-28
+27
 /
 /
 Component
