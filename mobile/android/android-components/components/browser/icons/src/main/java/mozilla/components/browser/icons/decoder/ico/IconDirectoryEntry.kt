@@ -143,15 +143,6 @@ Comparable
 IconDirectoryEntry
 >
 {
-Suppress
-(
-"
-ReturnCount
-"
-"
-ComplexMethod
-"
-)
 override
 fun
 compareTo
@@ -162,8 +153,7 @@ IconDirectoryEntry
 )
 :
 Int
-{
-return
+=
 when
 {
 width
@@ -361,9 +351,7 @@ payloadIsPNG
 else
 -
 >
-return
 0
-}
 }
 fun
 toBitmap

@@ -2317,12 +2317,6 @@ java
 )
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 internal
 fun
 webViewErrorToErrorType

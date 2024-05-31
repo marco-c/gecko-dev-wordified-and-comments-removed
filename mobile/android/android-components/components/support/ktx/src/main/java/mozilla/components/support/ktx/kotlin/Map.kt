@@ -114,12 +114,6 @@ a
 Bundle
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 <
 K
@@ -160,9 +154,34 @@ k
 toString
 (
 )
+put
+(
+key
+v
+)
+}
+}
+}
+private
+fun
+<
+V
+>
+Bundle
+.
+put
+(
+key
+:
+String
+value
+:
+V
+)
+{
 when
 (
-v
+value
 )
 {
 is
@@ -172,7 +191,7 @@ IBinder
 putBinder
 (
 key
-v
+value
 )
 is
 Boolean
@@ -181,7 +200,7 @@ Boolean
 putBoolean
 (
 key
-v
+value
 )
 is
 BooleanArray
@@ -190,7 +209,7 @@ BooleanArray
 putBooleanArray
 (
 key
-v
+value
 )
 is
 Bundle
@@ -199,7 +218,7 @@ Bundle
 putBundle
 (
 key
-v
+value
 )
 is
 Byte
@@ -208,7 +227,7 @@ Byte
 putByte
 (
 key
-v
+value
 )
 is
 ByteArray
@@ -217,7 +236,7 @@ ByteArray
 putByteArray
 (
 key
-v
+value
 )
 is
 Char
@@ -226,7 +245,7 @@ Char
 putChar
 (
 key
-v
+value
 )
 is
 CharArray
@@ -235,7 +254,7 @@ CharArray
 putCharArray
 (
 key
-v
+value
 )
 is
 CharSequence
@@ -244,7 +263,7 @@ CharSequence
 putCharSequence
 (
 key
-v
+value
 )
 is
 Double
@@ -253,7 +272,7 @@ Double
 putDouble
 (
 key
-v
+value
 )
 is
 DoubleArray
@@ -262,7 +281,7 @@ DoubleArray
 putDoubleArray
 (
 key
-v
+value
 )
 is
 Float
@@ -271,7 +290,7 @@ Float
 putFloat
 (
 key
-v
+value
 )
 is
 FloatArray
@@ -280,7 +299,7 @@ FloatArray
 putFloatArray
 (
 key
-v
+value
 )
 is
 Int
@@ -289,7 +308,7 @@ Int
 putInt
 (
 key
-v
+value
 )
 is
 IntArray
@@ -298,7 +317,7 @@ IntArray
 putIntArray
 (
 key
-v
+value
 )
 is
 Long
@@ -307,7 +326,7 @@ Long
 putLong
 (
 key
-v
+value
 )
 is
 LongArray
@@ -316,7 +335,7 @@ LongArray
 putLongArray
 (
 key
-v
+value
 )
 is
 Parcelable
@@ -325,7 +344,7 @@ Parcelable
 putParcelable
 (
 key
-v
+value
 )
 is
 Serializable
@@ -334,7 +353,7 @@ Serializable
 putSerializable
 (
 key
-v
+value
 )
 is
 Short
@@ -343,7 +362,7 @@ Short
 putShort
 (
 key
-v
+value
 )
 is
 ShortArray
@@ -352,7 +371,7 @@ ShortArray
 putShortArray
 (
 key
-v
+value
 )
 is
 Size
@@ -361,7 +380,7 @@ Size
 putSize
 (
 key
-v
+value
 )
 is
 SizeF
@@ -370,9 +389,7 @@ SizeF
 putSizeF
 (
 key
-v
+value
 )
-}
-}
 }
 }

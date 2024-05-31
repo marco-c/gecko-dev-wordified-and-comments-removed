@@ -127,9 +127,6 @@ Suppress
 "
 ComplexMethod
 "
-"
-ReturnCount
-"
 )
 override
 fun
@@ -149,6 +146,7 @@ Resource
 :
 Int
 {
+return
 if
 (
 resource
@@ -183,9 +181,9 @@ them
 as
 equal
 .
-return
 0
 }
+else
 if
 (
 resource
@@ -198,7 +196,6 @@ other
 type
 )
 {
-return
 if
 (
 resource
@@ -222,6 +219,7 @@ rank
 else
 1
 }
+else
 if
 (
 resource
@@ -234,7 +232,6 @@ other
 maxSize
 )
 {
-return
 if
 (
 resource
@@ -250,6 +247,8 @@ maxSize
 else
 1
 }
+else
+{
 /
 /
 If
@@ -266,6 +265,8 @@ prefer
 container
 types
 .
+/
+/
 They
 *
 might
@@ -276,8 +277,6 @@ image
 larger
 than
 the
-/
-/
 size
 given
 in
@@ -307,7 +306,6 @@ isResourceContainerType
 isOtherContainerType
 )
 {
-return
 if
 (
 isResourceContainerType
@@ -317,6 +315,8 @@ isResourceContainerType
 else
 1
 }
+else
+{
 /
 /
 There
@@ -340,11 +340,11 @@ pick
 a
 consistent
 one
+/
+/
 to
 avoid
 breaking
-/
-/
 set
 implementations
 (
@@ -354,6 +354,8 @@ Bug
 1331808
 )
 .
+/
+/
 Therefore
 we
 are
@@ -365,7 +367,6 @@ comparing
 the
 URLs
 .
-return
 resource
 .
 url
@@ -376,6 +377,8 @@ other
 .
 url
 )
+}
+}
 }
 }
 Suppress
