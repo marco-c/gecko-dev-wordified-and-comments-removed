@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestRacyInterruptReplies
-.
-h
-"
-"
 TestRacyReentry
 .
 h
@@ -121,11 +116,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestRacyInterruptReplies
 .
 cpp
 "
@@ -252,11 +242,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestRacyInterruptReplies
 .
 ipdl
 "
