@@ -2839,13 +2839,6 @@ aState
 {
 NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
-if
-(
-!
-mWindow
-)
-return
-;
 nsAutoreleasePool
 localPool
 ;
