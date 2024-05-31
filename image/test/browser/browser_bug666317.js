@@ -95,7 +95,6 @@ decodeComplete
 function
 onDecodeComplete
 (
-aRequest
 )
 {
 decodeCallback
@@ -111,7 +110,6 @@ discard
 function
 onDiscard
 (
-request
 )
 {
 if
