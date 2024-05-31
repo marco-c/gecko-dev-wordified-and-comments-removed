@@ -3565,6 +3565,12 @@ invoke
 hasFocus
 )
 }
+Suppress
+(
+"
+ClickableViewAccessibility
+"
+)
 override
 fun
 onTouchEvent
