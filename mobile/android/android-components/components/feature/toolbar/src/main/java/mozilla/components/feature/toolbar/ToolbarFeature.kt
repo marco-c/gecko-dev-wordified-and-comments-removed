@@ -163,6 +163,12 @@ SearchUseCase
 ?
 =
 null
+sessionId
+:
+String
+?
+=
+null
 )
 {
 private
@@ -173,6 +179,7 @@ ToolbarPresenter
 (
 toolbar
 sessionManager
+sessionId
 )
 private
 val

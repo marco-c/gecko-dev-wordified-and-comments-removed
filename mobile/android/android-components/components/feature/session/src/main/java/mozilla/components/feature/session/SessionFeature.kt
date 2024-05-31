@@ -138,6 +138,12 @@ SessionStorage
 ?
 =
 null
+sessionId
+:
+String
+?
+=
+null
 )
 {
 internal
@@ -148,6 +154,7 @@ EngineViewPresenter
 (
 sessionManager
 engineView
+sessionId
 )
 /
 *

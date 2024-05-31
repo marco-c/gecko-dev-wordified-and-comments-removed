@@ -667,7 +667,6 @@ sessionManager
 sessions
 .
 forEach
-(
 {
 session
 -
@@ -713,7 +712,6 @@ id
 sessionJson
 )
 }
-)
 file
 =
 getFile

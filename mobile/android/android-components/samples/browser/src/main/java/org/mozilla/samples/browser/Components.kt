@@ -227,6 +227,9 @@ applicationContext
 Context
 )
 {
+/
+/
+Engine
 val
 engine
 :
@@ -323,6 +326,7 @@ lazy
 SessionIntentProcessor
 (
 sessionUseCases
+sessionManager
 )
 }
 /
