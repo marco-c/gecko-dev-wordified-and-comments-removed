@@ -90,6 +90,7 @@ gt
 ;
 Highlight
 (
+DrawableRes
 imageResource
 :
 [
@@ -121,8 +122,7 @@ index
 .
 html
 )
-=
-NO_ID
+ColorRes
 backgroundResource
 :
 [
@@ -154,6 +154,4 @@ index
 .
 html
 )
-=
-NO_ID
 )

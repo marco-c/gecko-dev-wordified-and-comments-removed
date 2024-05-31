@@ -330,6 +330,9 @@ concept
 engine
 .
 Engine
+kotlin
+.
+Boolean
 mozilla
 .
 components
@@ -5484,6 +5487,15 @@ concept
 engine
 .
 request
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
+utils
 mozilla
 .
 components

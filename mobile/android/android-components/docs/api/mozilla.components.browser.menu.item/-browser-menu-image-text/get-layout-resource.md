@@ -60,6 +60,7 @@ md
 )
 #
 getLayoutResource
+open
 fun
 getLayoutResource
 (
