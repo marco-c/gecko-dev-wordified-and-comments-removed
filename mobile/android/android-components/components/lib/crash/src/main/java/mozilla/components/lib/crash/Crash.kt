@@ -589,6 +589,8 @@ getBundleExtra
 (
 INTENT_CRASH
 )
+!
+!
 return
 if
 (
