@@ -2626,6 +2626,7 @@ Platform
 {
 Android
 Linux
+Ios
 Macos
 Windows
 }
