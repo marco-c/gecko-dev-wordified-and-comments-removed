@@ -959,7 +959,7 @@ if
 Compatibility
 :
 :
-IsA11ySuppressedForClipboardCopy
+IsA11ySuppressed
 (
 )
 )
