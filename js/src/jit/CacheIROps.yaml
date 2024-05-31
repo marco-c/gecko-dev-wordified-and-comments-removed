@@ -5212,6 +5212,9 @@ RawId
 elementType
 :
 ScalarTypeImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -5239,6 +5242,9 @@ RawId
 elementType
 :
 ScalarTypeImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -5269,6 +5275,9 @@ ScalarTypeImm
 forEffect
 :
 BoolImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -5299,6 +5308,9 @@ ScalarTypeImm
 forEffect
 :
 BoolImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -5329,6 +5341,9 @@ ScalarTypeImm
 forEffect
 :
 BoolImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -5359,6 +5374,9 @@ ScalarTypeImm
 forEffect
 :
 BoolImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -5389,6 +5407,9 @@ ScalarTypeImm
 forEffect
 :
 BoolImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -5413,6 +5434,9 @@ IntPtrId
 elementType
 :
 ScalarTypeImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -5440,6 +5464,9 @@ RawId
 elementType
 :
 ScalarTypeImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
