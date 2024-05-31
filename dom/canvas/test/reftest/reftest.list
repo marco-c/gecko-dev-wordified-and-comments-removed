@@ -3,6 +3,12 @@ Canvas
 Filter
 Reftests
 include
+colors
+/
+_generated_reftest
+.
+list
+include
 filters
 /
 reftest
