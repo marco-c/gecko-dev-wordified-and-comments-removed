@@ -350,6 +350,12 @@ xpidl
 .
 Attribute
 )
+and
+m
+.
+isScriptable
+(
+)
 :
                 
 members
@@ -369,6 +375,12 @@ m
 xpidl
 .
 Method
+)
+and
+m
+.
+isScriptable
+(
 )
 :
                 
