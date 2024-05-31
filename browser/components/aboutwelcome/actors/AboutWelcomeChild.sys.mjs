@@ -1355,7 +1355,9 @@ handled
 by
 AboutWelcomeParent
 .
-jsm
+sys
+.
+mjs
 *
 *
 param

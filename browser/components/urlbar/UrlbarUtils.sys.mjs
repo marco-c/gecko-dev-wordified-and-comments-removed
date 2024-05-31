@@ -15155,7 +15155,9 @@ in
 *
 UrlbarController
 .
-jsm
+sys
+.
+mjs
 .
 *
 {

@@ -834,7 +834,9 @@ messages
 from
 AboutWelcomeChild
 .
-jsm
+sys
+.
+mjs
 *
 *
 param
@@ -1769,7 +1771,9 @@ messages
 from
 AboutWelcomeChild
 .
-jsm
+sys
+.
+mjs
 *
 *
 param

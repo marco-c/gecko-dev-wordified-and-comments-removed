@@ -648,8 +648,7 @@ avoid
 /
 loading
 this
-.
-jsm
+module
 when
 WebRTC
 is

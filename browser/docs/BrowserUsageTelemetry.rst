@@ -54,7 +54,9 @@ Telemetry
 The
 BrowserUsageTelemetry
 .
-jsm
+sys
+.
+mjs
 <
 https
 :
@@ -76,7 +78,9 @@ modules
 /
 BrowserUsageTelemetry
 .
-jsm
+sys
+.
+mjs
 >
 _
 module

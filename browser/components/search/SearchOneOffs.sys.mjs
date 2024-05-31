@@ -155,7 +155,9 @@ urlbar
 /
 UrlbarSearchOneOffs
 .
-jsm
+sys
+.
+mjs
 .
 If
 you

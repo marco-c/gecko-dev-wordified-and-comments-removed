@@ -520,13 +520,15 @@ specifiers
 see
 ESEDBReader
 .
-jsm
+sys
+.
+mjs
 )
 or
 a
 function
-that
 *
+that
 generates
 them
 based

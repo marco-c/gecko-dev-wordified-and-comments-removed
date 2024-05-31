@@ -613,7 +613,9 @@ urlbar
 /
 UrlbarProviderPlaces
 .
-jsm
+sys
+.
+mjs
 >
 _
 which
@@ -659,7 +661,9 @@ urlbar
 /
 UrlbarMuxerUnifiedComplete
 .
-jsm
+sys
+.
+mjs
 >
 _
 .
@@ -1331,7 +1335,9 @@ end
 with
 TestUtils
 .
-jsm
+sys
+.
+mjs
 .
 However
 not
@@ -1343,7 +1349,9 @@ end
 with
 TestUtils
 .
-jsm
+sys
+.
+mjs
 .
 For
 example
@@ -1371,7 +1379,9 @@ places
 /
 PlacesUtils
 .
-jsm
+sys
+.
+mjs
 >
 _
 does
@@ -1586,7 +1596,9 @@ actually
 in
 other
 .
-jsm
+sys
+.
+mjs
 files
 .
 The
@@ -2038,7 +2050,9 @@ TestUtils
 ~
 TestUtils
 .
-jsm
+sys
+.
+mjs
 <
 .
 .
@@ -2209,7 +2223,9 @@ is
 not
 a
 .
-jsm
+sys
+.
+mjs
 file
 .
 EventUtils

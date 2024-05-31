@@ -6014,7 +6014,9 @@ copied
 from
 ExtensionParent
 .
-jsm
+sys
+.
+mjs
 so
 that
 our

@@ -247,11 +247,7 @@ createInstance
 prefix
 :
 "
-*
-*
 Sanitizer
-.
-jsm
 "
 maxLogLevelPref
 :
@@ -3088,7 +3084,9 @@ geckoview
 /
 GeckoViewStorageController
 .
-jsm
+sys
+.
+mjs
 )
 as
 well

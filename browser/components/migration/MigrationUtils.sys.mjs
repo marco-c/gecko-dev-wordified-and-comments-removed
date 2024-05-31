@@ -2599,7 +2599,9 @@ spinEventLoopUntil
 "
 MigrationUtils
 .
-jsm
+sys
+.
+mjs
 :
 MU_spinResolve
 "

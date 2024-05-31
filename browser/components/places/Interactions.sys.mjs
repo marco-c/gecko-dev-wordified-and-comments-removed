@@ -3505,7 +3505,9 @@ addBlocker
 "
 Interactions
 .
-jsm
+sys
+.
+mjs
 :
 :
 store
@@ -3667,7 +3669,9 @@ withConnectionWrapper
 "
 Interactions
 .
-jsm
+sys
+.
+mjs
 :
 :
 reset
@@ -4407,7 +4411,9 @@ withConnectionWrapper
 "
 Interactions
 .
-jsm
+sys
+.
+mjs
 :
 :
 updateDatabase

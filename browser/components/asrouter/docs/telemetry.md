@@ -1331,7 +1331,9 @@ path
 =
 *
 .
-jsm
+sys
+.
+mjs
 &
 case
 =

@@ -425,10 +425,13 @@ search
 provider
 information
 .
+*
 see
 SearchTelemetry
 .
-jsm
+sys
+.
+mjs
 *
 /
 get

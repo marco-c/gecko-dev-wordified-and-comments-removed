@@ -1624,7 +1624,7 @@ if
 (
 Cu
 .
-isModuleLoaded
+isESModuleLoaded
 (
 "
 resource
@@ -1637,7 +1637,9 @@ modules
 /
 LoginManagerContextMenu
 .
-jsm
+sys
+.
+mjs
 "
 )
 )

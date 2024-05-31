@@ -95,7 +95,9 @@ urlbar
 /
 UrlbarMuxerUnifiedComplete
 .
-jsm
+sys
+.
+mjs
 >
 _
 according

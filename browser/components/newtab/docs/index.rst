@@ -132,9 +132,6 @@ directory
 :
 For
 .
-jsm
-or
-.
 sys
 .
 mjs
