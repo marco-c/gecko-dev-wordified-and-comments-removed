@@ -47181,6 +47181,8 @@ builtinModuleFunc
 -
 >
 usesMemory
+(
+)
 )
 {
 pushHeapBase
@@ -47192,10 +47194,13 @@ pushHeapBase
 return
 emitInstanceCall
 (
+*
 builtinModuleFunc
 -
 >
-signature
+sig
+(
+)
 )
 ;
 }
