@@ -3263,14 +3263,6 @@ fxview
 search
 -
 textbox
-.
-query
-=
-{
-this
-.
-searchQuery
-}
 data
 -
 l10n
