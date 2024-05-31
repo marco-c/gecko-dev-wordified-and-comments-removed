@@ -147,6 +147,12 @@ last
 used
 search
 terms
+(
+or
+an
+empty
+string
+)
 .
 *
 *
@@ -160,6 +166,12 @@ last
 used
 search
 terms
+(
+or
+an
+empty
+string
+)
 .
 *
 *
@@ -173,4 +185,10 @@ last
 used
 search
 terms
+(
+or
+an
+empty
+string
+)
 .

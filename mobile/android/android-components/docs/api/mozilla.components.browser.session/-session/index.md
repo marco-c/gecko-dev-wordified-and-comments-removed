@@ -2407,6 +2407,12 @@ last
 used
 search
 terms
+(
+or
+an
+empty
+string
+)
 .
 |
 |
