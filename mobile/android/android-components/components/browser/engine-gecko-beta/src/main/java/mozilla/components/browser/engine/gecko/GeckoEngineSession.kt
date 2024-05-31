@@ -2024,11 +2024,14 @@ DownloadUtils
 .
 guessFileName
 (
+"
+"
 response
 .
 uri
-null
-null
+response
+.
+contentType
 )
 onExternalResource
 (
