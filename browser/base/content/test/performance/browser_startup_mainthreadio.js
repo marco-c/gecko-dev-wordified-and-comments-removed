@@ -441,6 +441,10 @@ prefs
 .
 js
 "
+condition
+:
+!
+MAC
 stat
 :
 1
