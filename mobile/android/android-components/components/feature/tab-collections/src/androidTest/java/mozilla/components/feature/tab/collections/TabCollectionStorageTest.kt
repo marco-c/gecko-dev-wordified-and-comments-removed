@@ -412,6 +412,8 @@ TabEntity
 getStateDirectory
 (
 context
+.
+filesDir
 )
 .
 truncateDirectory
@@ -1985,6 +1987,8 @@ TabEntity
 getStateDirectory
 (
 context
+.
+filesDir
 )
 .
 listFiles
@@ -2015,6 +2019,8 @@ TabEntity
 getStateDirectory
 (
 context
+.
+filesDir
 )
 .
 listFiles

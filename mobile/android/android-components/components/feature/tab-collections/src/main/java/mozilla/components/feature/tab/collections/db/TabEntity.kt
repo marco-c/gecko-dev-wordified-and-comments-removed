@@ -71,12 +71,6 @@ db
 import
 android
 .
-content
-.
-Context
-import
-android
-.
 util
 .
 AtomicFile
@@ -280,9 +274,9 @@ internal
 fun
 getStateFile
 (
-context
+filesDir
 :
-Context
+File
 )
 :
 AtomicFile
@@ -294,7 +288,7 @@ File
 (
 getStateDirectory
 (
-context
+filesDir
 )
 stateFile
 )
@@ -307,9 +301,9 @@ internal
 fun
 getStateDirectory
 (
-context
+filesDir
 :
-Context
+File
 )
 :
 File
@@ -317,8 +311,6 @@ File
 return
 File
 (
-context
-.
 filesDir
 "
 mozac

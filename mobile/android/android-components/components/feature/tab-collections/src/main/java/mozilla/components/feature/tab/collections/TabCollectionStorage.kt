@@ -209,6 +209,12 @@ truncateDirectory
 import
 java
 .
+io
+.
+File
+import
+java
+.
 util
 .
 UUID
@@ -235,8 +241,6 @@ collections
 class
 TabCollectionStorage
 (
-private
-val
 context
 :
 Context
@@ -245,6 +249,15 @@ val
 sessionManager
 :
 SessionManager
+private
+val
+filesDir
+:
+File
+=
+context
+.
+filesDir
 )
 {
 internal
@@ -498,7 +511,7 @@ entity
 .
 getStateFile
 (
-context
+filesDir
 )
 .
 writeSnapshotItem
@@ -601,7 +614,7 @@ tabEntity
 .
 getStateFile
 (
-context
+filesDir
 )
 .
 delete
@@ -1000,7 +1013,7 @@ tab
 .
 getStateFile
 (
-context
+filesDir
 )
 .
 delete
@@ -1037,7 +1050,7 @@ TabEntity
 .
 getStateDirectory
 (
-context
+filesDir
 )
 .
 truncateDirectory
