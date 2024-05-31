@@ -16,13 +16,7 @@ opcode
 bad
 type
 |
-\
-(
-ref
-T
-\
-)
-types
+gc
 not
 enabled
 /
