@@ -47,9 +47,6 @@ use
 crate
 :
 :
-windows
-:
-:
 setup_config
 :
 :
