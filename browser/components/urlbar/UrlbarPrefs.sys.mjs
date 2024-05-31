@@ -3602,7 +3602,7 @@ switchTabs
 .
 searchAllContainers
 "
-false
+true
 ]
 /
 /
