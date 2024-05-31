@@ -2046,12 +2046,6 @@ createAccount
 (
 config
 )
-notifyObservers
-{
-onLoggedOut
-(
-)
-}
 null
 }
 Event
