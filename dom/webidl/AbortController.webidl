@@ -118,10 +118,7 @@ abortcontroller
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 AbortController
