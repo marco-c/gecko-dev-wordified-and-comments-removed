@@ -1202,7 +1202,7 @@ const
 val
 TITLE_TEXT_SIZE
 =
-16f
+15f
 const
 val
 URL_TEXT_SIZE
