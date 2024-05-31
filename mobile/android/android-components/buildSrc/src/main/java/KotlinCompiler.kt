@@ -141,13 +141,6 @@ domains
 "
 browser
 -
-engine
--
-servo
-"
-"
-browser
--
 storage
 -
 sync
