@@ -335,5 +335,17 @@ nomatch
 urls
 )
 )
+assertNull
+(
+segmentAwareDomainMatch
+(
+"
+about
+:
+blank
+"
+urls
+)
+)
 }
 }
