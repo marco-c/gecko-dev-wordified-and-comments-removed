@@ -76,6 +76,17 @@ mozilla
 /
 dom
 /
+ConsoleInstanceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RootedDictionary
 .
 h
