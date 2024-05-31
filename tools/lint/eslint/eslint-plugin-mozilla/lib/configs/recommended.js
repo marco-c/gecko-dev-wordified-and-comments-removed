@@ -1385,7 +1385,7 @@ no
 -
 new
 -
-object
+wrappers
 "
 :
 "
@@ -1394,9 +1394,9 @@ error
 "
 no
 -
-new
+object
 -
-wrappers
+constructor
 "
 :
 "
