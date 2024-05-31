@@ -729,9 +729,6 @@ client
 mainRoot
 :
 {
-supportsReleaseActors
-:
-true
 }
 }
 objectCommand

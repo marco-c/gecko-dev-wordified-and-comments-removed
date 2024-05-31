@@ -178,9 +178,6 @@ client
 mainRoot
 :
 {
-supportsReleaseActors
-:
-true
 }
 }
 objectCommand
@@ -514,9 +511,6 @@ client
 mainRoot
 :
 {
-supportsReleaseActors
-:
-true
 }
 }
 objectCommand
@@ -891,9 +885,6 @@ client
 mainRoot
 :
 {
-supportsReleaseActors
-:
-true
 }
 }
 objectCommand
