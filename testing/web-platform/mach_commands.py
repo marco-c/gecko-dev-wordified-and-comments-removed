@@ -1346,12 +1346,24 @@ txt
 ]
         
 if
+(
+            
 hasattr
 (
 browser_cls
 "
 requirements
 "
+)
+            
+and
+browser_cls
+.
+requirements
+is
+not
+None
+        
 )
 :
             
