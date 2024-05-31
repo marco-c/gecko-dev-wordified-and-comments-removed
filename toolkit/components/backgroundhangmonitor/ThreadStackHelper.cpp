@@ -118,15 +118,6 @@ include
 "
 mozilla
 /
-Scoped
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
