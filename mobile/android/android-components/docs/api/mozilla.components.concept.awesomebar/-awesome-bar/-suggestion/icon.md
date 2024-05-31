@@ -75,6 +75,7 @@ icon
 val
 icon
 :
+suspend
 (
 width
 :

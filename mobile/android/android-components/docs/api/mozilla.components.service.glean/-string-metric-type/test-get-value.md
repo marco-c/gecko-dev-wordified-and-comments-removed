@@ -181,7 +181,7 @@ StringMetricType
 .
 kt
 #
-L101
+L86
 )
 Returns
 the

@@ -140,7 +140,7 @@ Client
 .
 kt
 #
-L40
+L41
 )
 Starts
 the
@@ -171,6 +171,11 @@ index
 md
 )
 object
+.
+This
+call
+is
+synchronous
 .
 A
 [

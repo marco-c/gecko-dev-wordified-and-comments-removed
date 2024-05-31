@@ -531,6 +531,7 @@ html
 null
 icon
 :
+suspend
 (
 width
 :
@@ -623,13 +624,7 @@ html
 )
 ?
 =
-{
-_
-_
--
->
 null
-}
 chips
 :
 [
@@ -1254,6 +1249,7 @@ md
 val
 icon
 :
+suspend
 (
 width
 :

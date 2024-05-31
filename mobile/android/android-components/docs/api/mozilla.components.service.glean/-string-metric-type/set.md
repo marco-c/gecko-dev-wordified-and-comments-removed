@@ -169,7 +169,7 @@ StringMetricType
 .
 kt
 #
-L48
+L43
 )
 Set
 a
@@ -197,13 +197,9 @@ of
 the
 string
 exceeds
-[
-MAX_LENGTH_VALUE
-]
-(
-#
-)
-characters
+the
+maximum
+length
 it
 will
 be

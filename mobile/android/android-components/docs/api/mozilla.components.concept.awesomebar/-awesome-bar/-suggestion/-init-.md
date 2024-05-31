@@ -217,6 +217,7 @@ html
 null
 icon
 :
+suspend
 (
 width
 :
@@ -309,13 +310,7 @@ html
 )
 ?
 =
-{
-_
-_
--
->
 null
-}
 chips
 :
 [

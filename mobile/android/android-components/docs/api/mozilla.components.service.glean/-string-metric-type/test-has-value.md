@@ -181,7 +181,7 @@ StringMetricType
 .
 kt
 #
-L84
+L69
 )
 Tests
 whether

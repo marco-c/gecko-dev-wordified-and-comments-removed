@@ -181,7 +181,7 @@ StringListMetricType
 .
 kt
 #
-L122
+L91
 )
 Tests
 whether

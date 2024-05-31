@@ -3562,6 +3562,15 @@ service
 .
 glean
 .
+error
+mozilla
+.
+components
+.
+service
+.
+glean
+.
 scheduler
 mozilla
 .
