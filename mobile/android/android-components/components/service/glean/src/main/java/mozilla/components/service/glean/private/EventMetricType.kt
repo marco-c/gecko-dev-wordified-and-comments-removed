@@ -406,6 +406,12 @@ MAX_LENGTH_EXTRA_KEY_VALUE
 ]
 *
 /
+Suppress
+(
+"
+NestedBlockDepth
+"
+)
 fun
 record
 (
