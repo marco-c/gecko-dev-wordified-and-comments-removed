@@ -98,7 +98,7 @@ Devices
 .
 kt
 #
-L139
+L148
 )
 Capabilities
 that

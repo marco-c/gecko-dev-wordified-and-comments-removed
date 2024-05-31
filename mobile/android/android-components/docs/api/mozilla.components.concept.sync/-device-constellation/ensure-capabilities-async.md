@@ -146,7 +146,7 @@ Devices
 .
 kt
 #
-L34
+L43
 )
 Ensure
 that

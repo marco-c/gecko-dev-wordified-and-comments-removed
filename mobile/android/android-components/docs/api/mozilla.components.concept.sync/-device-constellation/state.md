@@ -127,7 +127,7 @@ Devices
 .
 kt
 #
-L40
+L49
 )
 Current
 state

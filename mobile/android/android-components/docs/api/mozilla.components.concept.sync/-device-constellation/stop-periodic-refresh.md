@@ -143,7 +143,7 @@ Devices
 .
 kt
 #
-L97
+L106
 )
 Stop
 periodically

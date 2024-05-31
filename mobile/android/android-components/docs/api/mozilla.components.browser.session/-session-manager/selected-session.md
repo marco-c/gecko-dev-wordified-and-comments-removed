@@ -124,7 +124,7 @@ SessionManager
 .
 kt
 #
-L40
+L45
 )
 Gets
 the
