@@ -64,6 +64,8 @@ components
 feature
 .
 downloads
+.
+manager
 import
 android
 .
@@ -220,7 +222,7 @@ RobolectricTestRunner
 class
 )
 class
-DownloadManagerTest
+AndroidDownloadManagerTest
 {
 private
 lateinit
@@ -324,7 +326,7 @@ Safari
 )
 downloadManager
 =
-DownloadManager
+AndroidDownloadManager
 (
 testContext
 )
@@ -533,7 +535,7 @@ yummy_cookie
 =
 choco
 "
-refererURL
+refererUrl
 =
 "
 https

@@ -145,6 +145,16 @@ project
 (
 '
 :
+concept
+-
+fetch
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 ktx
@@ -160,6 +170,10 @@ support
 utils
 '
 )
+implementation
+Dependencies
+.
+androidx_core_ktx
 implementation
 Dependencies
 .

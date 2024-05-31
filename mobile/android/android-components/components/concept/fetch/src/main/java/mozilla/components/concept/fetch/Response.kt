@@ -65,6 +65,18 @@ concept
 .
 fetch
 import
+mozilla
+.
+components
+.
+concept
+.
+fetch
+.
+Response
+.
+Body
+import
 java
 .
 io
@@ -108,7 +120,7 @@ data
 class
 represents
 a
-reponse
+response
 to
 a
 [
