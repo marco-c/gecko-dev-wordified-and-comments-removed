@@ -1,30 +1,11 @@
 import
 pytest
 from
-webdriver
-.
-bidi
-.
-modules
-.
-network
-import
-AuthCredentials
-from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
-from
 .
 .
 import
 AUTH_REQUIRED_EVENT
 RESPONSE_COMPLETED_EVENT
-RESPONSE_STARTED_EVENT
 pytestmark
 =
 pytest
@@ -66,6 +47,7 @@ subscribe_events
 wait_for_event
 bidi_session
 navigate
+wait_for_future_safe
 )
 :
     
@@ -144,7 +126,10 @@ request
 )
     
 await
+wait_for_future_safe
+(
 on_auth_required
+)
 pytest
 .
 mark
@@ -179,6 +164,7 @@ subscribe_events
 wait_for_event
 bidi_session
 navigate
+wait_for_future_safe
 )
 :
     
@@ -250,11 +236,17 @@ request
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 if
 navigate
 :
         
 await
+wait_for_future_safe
+(
 on_load
+)
