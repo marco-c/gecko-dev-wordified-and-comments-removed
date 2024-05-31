@@ -121,10 +121,14 @@ hasNext
 }
 }
 typealias
+JSONResponse
+=
+String
+typealias
 Parser
 =
 (
-String
+JSONResponse
 )
 -
 >
