@@ -69,6 +69,12 @@ provider
 .
 filter
 import
+android
+.
+content
+.
+Context
+import
 mozilla
 .
 components
@@ -138,6 +144,9 @@ ignored
 fun
 filter
 (
+context
+:
+Context
 searchEngine
 :
 SearchEngine
