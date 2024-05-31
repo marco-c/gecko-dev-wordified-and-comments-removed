@@ -405,7 +405,6 @@ value
 .
 *
 /
-Synchronized
 fun
 record
 (

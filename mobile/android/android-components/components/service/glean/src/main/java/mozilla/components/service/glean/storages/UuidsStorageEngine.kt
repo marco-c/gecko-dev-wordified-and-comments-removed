@@ -367,7 +367,6 @@ to
 record
 *
 /
-Synchronized
 fun
 record
 (

@@ -1773,6 +1773,7 @@ adding
 .
 *
 /
+Synchronized
 protected
 fun
 recordScalar
