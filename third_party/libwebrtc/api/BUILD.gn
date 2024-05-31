@@ -296,6 +296,16 @@ pc
 :
 media_factory
 "
+"
+.
+.
+/
+rtc_base
+/
+system
+:
+rtc_export
+"
 ]
 if
 (
