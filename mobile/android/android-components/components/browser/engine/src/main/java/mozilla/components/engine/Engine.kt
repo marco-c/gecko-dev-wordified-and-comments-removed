@@ -87,4 +87,4 @@ URL
 *
 /
 interface
-BrowserEngine
+Engine
