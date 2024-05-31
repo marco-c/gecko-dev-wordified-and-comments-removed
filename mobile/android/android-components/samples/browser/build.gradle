@@ -647,16 +647,6 @@ project
 :
 feature
 -
-storage
-'
-)
-implementation
-project
-(
-'
-:
-feature
--
 toolbar
 '
 )

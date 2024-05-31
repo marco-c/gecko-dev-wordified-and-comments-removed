@@ -197,7 +197,7 @@ private
 val
 defaultSettings
 :
-DefaultSettings
+Settings
 =
 DefaultSettings
 (
