@@ -159,7 +159,7 @@ page
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
