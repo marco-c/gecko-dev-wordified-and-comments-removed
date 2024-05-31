@@ -69,7 +69,7 @@ RunThread
 )
 ;
 void
-SetWaylandDisplay
+RestoreWaylandDisplay
 (
 )
 ;
@@ -157,10 +157,6 @@ const
 char
 *
 aOperation
-bool
-aPrintErrno
-=
-true
 )
 ;
 void
@@ -170,10 +166,6 @@ const
 char
 *
 aOperation
-bool
-aPrintErrno
-=
-true
 )
 ;
 void
