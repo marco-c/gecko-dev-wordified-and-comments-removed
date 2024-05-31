@@ -277,16 +277,6 @@ false
 user_pref
 (
 "
-dom
-.
-disable_beforeunload
-"
-true
-)
-;
-user_pref
-(
-"
 layout
 .
 css
