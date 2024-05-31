@@ -196,6 +196,8 @@ SurfaceFormat
 aFormat
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 )
 ;
 void

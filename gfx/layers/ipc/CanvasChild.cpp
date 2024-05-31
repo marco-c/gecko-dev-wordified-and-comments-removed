@@ -206,6 +206,8 @@ InitTranslator
 (
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 gfx
 :
 :
@@ -260,6 +262,7 @@ mCanvasChild
 SendInitTranslator
 (
 aTextureType
+aWebglTextureType
 aBackendType
 std
 :
@@ -1133,6 +1136,8 @@ SurfaceFormat
 aFormat
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 )
 {
 NS_ASSERT_OWNINGTHREAD
@@ -1184,6 +1189,7 @@ recorder
 Init
 (
 aTextureType
+aWebglTextureType
 backendType
 MakeUnique
 <

@@ -2864,6 +2864,11 @@ CopyToSwapChain
 layers
 :
 :
+TextureType
+aTextureType
+layers
+:
+:
 RemoteTextureId
 aId
 layers

@@ -68,6 +68,8 @@ SurfaceFormat
 aFormat
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 )
 :
 mCanvasChild
@@ -91,6 +93,7 @@ EnsureRecorder
 aSize
 aFormat
 aTextureType
+aWebglTextureType
 )
 ;
 }

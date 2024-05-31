@@ -133,6 +133,8 @@ InitTranslator
 (
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 BackendType
 aBackendType
 Handle

@@ -255,6 +255,8 @@ RecvInitTranslator
 (
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 gfx
 :
 :
@@ -1170,6 +1172,14 @@ mReaderSemaphore
 ;
 TextureType
 mTextureType
+=
+TextureType
+:
+:
+Unknown
+;
+TextureType
+mWebglTextureType
 =
 TextureType
 :
