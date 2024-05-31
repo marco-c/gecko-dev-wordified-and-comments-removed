@@ -1029,6 +1029,17 @@ mMonitor
 )
 ;
 bool
+TestOnlyIsTransactionComplete
+(
+)
+const
+MOZ_EXCLUDES
+(
+*
+mMonitor
+)
+;
+bool
 IsClosed
 (
 )
