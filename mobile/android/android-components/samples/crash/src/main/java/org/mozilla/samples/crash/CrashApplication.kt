@@ -230,6 +230,13 @@ browsing
 session
 .
 "
+theme
+=
+R
+.
+style
+.
+CrashDialogTheme
 )
 nonFatalCrashIntent
 =
