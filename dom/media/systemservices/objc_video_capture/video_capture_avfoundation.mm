@@ -457,9 +457,6 @@ _Nonnull
 )
 frame
 {
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -485,9 +482,6 @@ _mutex
 ;
 cap
 =
-rtc
-:
-:
 scoped_refptr
 (
 _capturer
