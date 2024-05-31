@@ -90,12 +90,7 @@ true
 )
 ;
 await
-closeSettingsMenuIfOpen
-(
-)
-;
-await
-closeTranslationsPanelIfOpen
+closeAllOpenPanelsAndMenus
 (
 )
 ;
