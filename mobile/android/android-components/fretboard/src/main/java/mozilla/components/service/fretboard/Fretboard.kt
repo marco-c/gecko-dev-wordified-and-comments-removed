@@ -104,7 +104,7 @@ storage
 ExperimentStorage
 )
 {
-internal
+private
 var
 experiments
 :
@@ -117,7 +117,12 @@ listOf
 (
 )
 private
-set
+var
+experimentsLoaded
+:
+Boolean
+=
+false
 /
 *
 *
@@ -141,6 +146,9 @@ storage
 retrieve
 (
 )
+experimentsLoaded
+=
+true
 }
 /
 *
@@ -166,6 +174,14 @@ updateExperiments
 (
 )
 {
+if
+(
+!
+experimentsLoaded
+)
+loadExperiments
+(
+)
 try
 {
 val
