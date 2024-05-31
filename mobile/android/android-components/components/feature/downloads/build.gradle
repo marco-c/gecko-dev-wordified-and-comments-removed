@@ -177,6 +177,10 @@ androidx_core_ktx
 implementation
 Dependencies
 .
+kotlin_coroutines
+implementation
+Dependencies
+.
 kotlin_stdlib
 testImplementation
 Dependencies
@@ -186,6 +190,10 @@ testImplementation
 Dependencies
 .
 androidx_test_junit
+testImplementation
+Dependencies
+.
+kotlin_coroutines_test
 testImplementation
 Dependencies
 .

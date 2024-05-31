@@ -838,6 +838,12 @@ inflater
 }
 }
 }
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 View

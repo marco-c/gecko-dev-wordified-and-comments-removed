@@ -468,6 +468,15 @@ engineSettings
 )
 }
 val
+client
+by
+lazy
+{
+HttpURLConnectionClient
+(
+)
+}
+val
 icons
 by
 lazy
@@ -475,9 +484,7 @@ lazy
 BrowserIcons
 (
 applicationContext
-HttpURLConnectionClient
-(
-)
+client
 )
 }
 /
