@@ -429,7 +429,7 @@ var
 storageEngineManager
 :
 StorageEngineManager
-private
+internal
 lateinit
 var
 pingMaker
@@ -1368,6 +1368,11 @@ clearPendingPings
 storageEngineManager
 .
 clearAllStores
+(
+)
+pingMaker
+.
+resetPingSequenceNumbers
 (
 )
 /
