@@ -526,7 +526,10 @@ expected
 {
 hasSuggestion
 :
-false
+true
+hasShowLessItem
+:
+true
 }
 }
 ]
@@ -1560,9 +1563,9 @@ browser
 .
 urlbar
 .
-quicksuggest
+yelp
 .
-yelpPriority
+priority
 "
 topPick
 ]
