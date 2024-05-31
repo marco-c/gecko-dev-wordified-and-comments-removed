@@ -743,10 +743,9 @@ isObserved
 Boolean
 {
 return
-!
 observers
 .
-isEmpty
+isNotEmpty
 (
 )
 }
