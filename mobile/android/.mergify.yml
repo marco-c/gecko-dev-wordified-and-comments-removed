@@ -81,6 +81,7 @@ components
 /
 (
 Gecko
+\
 .
 kt
 |
@@ -113,6 +114,7 @@ components
 /
 (
 Gecko
+\
 .
 kt
 |
@@ -207,10 +209,12 @@ components
 +
 /
 strings
+\
 .
 xml
 |
 l10n
+\
 .
 toml
 )
@@ -232,10 +236,12 @@ components
 +
 /
 strings
+\
 .
 xml
 |
 l10n
+\
 .
 toml
 )
@@ -297,8 +303,10 @@ android
 components
 /
 (
+\
 .
 buildconfig
+\
 .
 yml
 |
@@ -311,6 +319,7 @@ main
 java
 /
 Gecko
+\
 .
 kt
 )
@@ -328,8 +337,10 @@ android
 components
 /
 (
+\
 .
 buildconfig
+\
 .
 yml
 |
@@ -342,6 +353,7 @@ main
 java
 /
 Gecko
+\
 .
 kt
 )
