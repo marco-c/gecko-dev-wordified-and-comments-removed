@@ -74,13 +74,6 @@ h
 #
 include
 "
-nsLayoutCID
-.
-h
-"
-#
-include
-"
 nsITextControlFrame
 .
 h

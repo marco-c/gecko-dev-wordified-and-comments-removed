@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsLayoutCID
-.
-h
-"
-#
-include
-"
 nsBidiPresUtils
 .
 h
