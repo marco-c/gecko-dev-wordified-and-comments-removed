@@ -2400,3 +2400,10 @@ test_WaitingToEndedTransition_mp4
 html
 "
 ]
+[
+"
+test_BufferedSeekCanPlayThrough
+.
+html
+"
+]
