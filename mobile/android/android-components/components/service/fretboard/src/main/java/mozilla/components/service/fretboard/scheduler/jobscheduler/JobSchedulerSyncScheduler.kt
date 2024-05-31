@@ -242,6 +242,13 @@ toMillis
 )
 )
 .
+setRequiredNetworkType
+(
+JobInfo
+.
+NETWORK_TYPE_ANY
+)
+.
 build
 (
 )
