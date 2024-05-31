@@ -2331,6 +2331,9 @@ val
 eventMetric
 =
 EventMetricType
+<
+NoExtraKeys
+>
 (
 disabled
 =
@@ -2365,6 +2368,9 @@ labeledEventMetric
 LabeledMetricType
 <
 EventMetricType
+<
+NoExtraKeys
+>
 >
 (
 disabled

@@ -707,6 +707,9 @@ val
 click
 =
 EventMetricType
+<
+NoExtraKeys
+>
 (
 disabled
 =
