@@ -718,12 +718,6 @@ enabled
 ;
 #
 endif
-#
-if
-defined
-(
-MOZ_FFVPX
-)
 Preferences
 :
 :
@@ -740,8 +734,6 @@ enabled
 "
 )
 ;
-#
-endif
 #
 if
 defined

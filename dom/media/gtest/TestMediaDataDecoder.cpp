@@ -330,13 +330,6 @@ MOZ_WIDGET_GTK
 )
 &
 &
-defined
-(
-MOZ_FFVPX
-)
-&
-&
-\
 !
 defined
 (

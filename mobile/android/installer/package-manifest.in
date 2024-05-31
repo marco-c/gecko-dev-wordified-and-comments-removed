@@ -223,9 +223,6 @@ BINPATH
 DLL_PREFIX
 gkcodecs
 DLL_SUFFIX
-#
-ifdef
-MOZ_FFVPX
 BINPATH
 /
 DLL_PREFIX
@@ -236,8 +233,6 @@ BINPATH
 DLL_PREFIX
 mozavcodec
 DLL_SUFFIX
-#
-endif
 #
 ifdef
 MOZ_OMX_PLUGIN

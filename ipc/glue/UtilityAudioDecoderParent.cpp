@@ -429,12 +429,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-defined
-(
-MOZ_FFVPX
-)
 UtilityProcessImpl
 :
 :
