@@ -854,8 +854,11 @@ OkHttp
 val
 client
 =
+TelemetryClient
+(
 OkHttpClient
 (
+)
 )
 val
 telemetry
