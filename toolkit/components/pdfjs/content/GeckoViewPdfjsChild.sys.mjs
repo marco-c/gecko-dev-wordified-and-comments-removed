@@ -156,11 +156,6 @@ init
 aSupportsFind
 )
 {
-if
-(
-aSupportsFind
-)
-{
 this
 .
 sendAsyncMessage
@@ -172,9 +167,11 @@ Parent
 :
 addEventListener
 "
+{
+aSupportsFind
+}
 )
 ;
-}
 }
 dispatchEvent
 (
