@@ -95,6 +95,18 @@ browser
 session
 .
 SessionManager
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+LifecycleAwareFeature
 /
 *
 *
@@ -153,6 +165,7 @@ SelectionAwareSessionObserver
 (
 sessionManager
 )
+LifecycleAwareFeature
 {
 /
 *
@@ -172,6 +185,7 @@ changes
 .
 *
 /
+override
 fun
 start
 (
