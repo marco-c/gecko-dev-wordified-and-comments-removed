@@ -317,6 +317,11 @@ Length
 )
 ;
 }
+mIsADTS
+=
+!
+configLength
+;
 AACAudioSpecificConfigToUserData
 (
 aConfig
@@ -563,6 +568,15 @@ WMFStreamType
 AAC
 )
 {
+UINT32
+payloadType
+=
+mIsADTS
+?
+1
+:
+0
+;
 hr
 =
 inputType
@@ -571,7 +585,7 @@ inputType
 SetUINT32
 (
 MF_MT_AAC_PAYLOAD_TYPE
-0x0
+payloadType
 )
 ;
 NS_ENSURE_TRUE
