@@ -762,6 +762,10 @@ onLoadingStateChange
 (
 true
 )
+onLocationChange
+(
+it
+)
 }
 }
 }
