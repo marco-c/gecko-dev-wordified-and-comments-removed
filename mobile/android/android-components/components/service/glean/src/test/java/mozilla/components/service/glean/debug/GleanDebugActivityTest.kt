@@ -149,6 +149,8 @@ service
 .
 glean
 .
+metrics
+.
 BooleanMetricType
 import
 mozilla
@@ -158,6 +160,8 @@ components
 service
 .
 glean
+.
+metrics
 .
 Lifetime
 import

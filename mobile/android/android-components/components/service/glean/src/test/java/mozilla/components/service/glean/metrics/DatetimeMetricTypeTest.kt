@@ -64,6 +64,8 @@ components
 service
 .
 glean
+.
+metrics
 import
 kotlinx
 .
@@ -76,6 +78,16 @@ kotlinx
 coroutines
 .
 ObsoleteCoroutinesApi
+import
+mozilla
+.
+components
+.
+service
+.
+glean
+.
+resetGlean
 import
 org
 .

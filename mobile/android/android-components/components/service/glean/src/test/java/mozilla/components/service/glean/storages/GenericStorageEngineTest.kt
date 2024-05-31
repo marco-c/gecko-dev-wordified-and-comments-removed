@@ -97,6 +97,8 @@ service
 .
 glean
 .
+metrics
+.
 CommonMetricData
 import
 mozilla
@@ -106,6 +108,8 @@ components
 service
 .
 glean
+.
+metrics
 .
 Lifetime
 import

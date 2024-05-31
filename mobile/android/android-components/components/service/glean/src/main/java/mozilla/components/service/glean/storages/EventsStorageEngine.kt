@@ -187,6 +187,8 @@ service
 .
 glean
 .
+metrics
+.
 EventMetricType
 import
 mozilla
@@ -196,6 +198,8 @@ components
 service
 .
 glean
+.
+metrics
 .
 Lifetime
 import

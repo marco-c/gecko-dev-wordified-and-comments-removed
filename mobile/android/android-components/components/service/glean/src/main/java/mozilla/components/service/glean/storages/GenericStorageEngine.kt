@@ -101,7 +101,9 @@ service
 .
 glean
 .
-Lifetime
+metrics
+.
+CommonMetricData
 import
 mozilla
 .
@@ -111,7 +113,9 @@ service
 .
 glean
 .
-CommonMetricData
+metrics
+.
+Lifetime
 import
 mozilla
 .

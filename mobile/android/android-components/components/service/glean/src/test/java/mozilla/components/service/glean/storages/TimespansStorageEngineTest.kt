@@ -68,6 +68,8 @@ service
 .
 glean
 .
+metrics
+.
 CommonMetricData
 import
 mozilla
@@ -78,6 +80,8 @@ service
 .
 glean
 .
+metrics
+.
 Lifetime
 import
 mozilla
@@ -87,6 +91,8 @@ components
 service
 .
 glean
+.
+metrics
 .
 TimeUnit
 import

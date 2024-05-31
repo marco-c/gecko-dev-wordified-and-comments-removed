@@ -125,6 +125,8 @@ service
 .
 glean
 .
+metrics
+.
 Lifetime
 import
 mozilla
@@ -145,6 +147,8 @@ service
 .
 glean
 .
+metrics
+.
 StringMetricType
 import
 mozilla
@@ -154,6 +158,8 @@ components
 service
 .
 glean
+.
+metrics
 .
 TimeUnit
 import

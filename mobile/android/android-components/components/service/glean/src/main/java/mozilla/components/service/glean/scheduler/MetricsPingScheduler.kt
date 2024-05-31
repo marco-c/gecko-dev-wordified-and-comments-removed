@@ -125,12 +125,6 @@ work
 .
 WorkerParameters
 import
-kotlinx
-.
-coroutines
-.
-launch
-import
 mozilla
 .
 components
@@ -196,6 +190,8 @@ components
 service
 .
 glean
+.
+metrics
 .
 TimeUnit
 import

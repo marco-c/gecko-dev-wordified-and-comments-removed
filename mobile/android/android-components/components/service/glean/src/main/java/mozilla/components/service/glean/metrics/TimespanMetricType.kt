@@ -64,6 +64,8 @@ components
 service
 .
 glean
+.
+metrics
 import
 android
 .

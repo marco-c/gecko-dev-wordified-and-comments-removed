@@ -85,6 +85,8 @@ service
 .
 glean
 .
+metrics
+.
 Lifetime
 import
 mozilla
@@ -94,6 +96,8 @@ components
 service
 .
 glean
+.
+metrics
 .
 StringMetricType
 import

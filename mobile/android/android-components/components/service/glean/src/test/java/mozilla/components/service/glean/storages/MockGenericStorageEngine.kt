@@ -81,6 +81,8 @@ service
 .
 glean
 .
+metrics
+.
 CommonMetricData
 import
 mozilla

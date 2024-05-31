@@ -68,6 +68,8 @@ service
 .
 glean
 .
+metrics
+.
 Lifetime
 import
 mozilla
@@ -77,6 +79,8 @@ components
 service
 .
 glean
+.
+metrics
 .
 UuidMetricType
 import

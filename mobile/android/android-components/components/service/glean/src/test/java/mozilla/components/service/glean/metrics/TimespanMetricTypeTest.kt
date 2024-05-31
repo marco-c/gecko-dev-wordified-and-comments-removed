@@ -6,6 +6,8 @@ components
 service
 .
 glean
+.
+metrics
 import
 mozilla
 .
@@ -34,6 +36,16 @@ error
 ErrorRecording
 .
 testGetNumRecordedErrors
+import
+mozilla
+.
+components
+.
+service
+.
+glean
+.
+resetGlean
 import
 org
 .
