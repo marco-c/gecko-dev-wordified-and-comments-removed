@@ -23,6 +23,8 @@ components
 feature
 .
 downloads
+.
+manager
 ]
 (
 .
@@ -34,7 +36,7 @@ md
 )
 /
 [
-DownloadManager
+AndroidDownloadManager
 ]
 (
 index
@@ -68,7 +70,7 @@ init
 &
 gt
 ;
-DownloadManager
+AndroidDownloadManager
 (
 applicationContext
 :
@@ -131,15 +133,7 @@ the
 AndroidDownloadManager
 ]
 (
-.
-.
-/
--
-android
--
-download
--
-manager
+index
 .
 md
 )

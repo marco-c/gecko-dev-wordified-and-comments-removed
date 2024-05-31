@@ -175,7 +175,7 @@ data
 class
 represents
 a
-reponse
+response
 to
 a
 [

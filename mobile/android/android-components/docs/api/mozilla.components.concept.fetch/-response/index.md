@@ -123,7 +123,7 @@ Response
 .
 kt
 #
-L30
+L31
 )
 The
 [
@@ -140,7 +140,7 @@ data
 class
 represents
 a
-reponse
+response
 to
 a
 [
@@ -659,7 +659,7 @@ data
 class
 represents
 a
-reponse
+response
 to
 a
 [
