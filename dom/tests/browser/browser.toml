@@ -131,6 +131,13 @@ js
 ]
 [
 "
+browser_alert_from_about_blank
+.
+js
+"
+]
+[
+"
 browser_autofocus_background
 .
 js
