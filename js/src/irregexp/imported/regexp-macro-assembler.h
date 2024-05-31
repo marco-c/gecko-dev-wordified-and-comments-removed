@@ -1388,7 +1388,10 @@ static
 int
 ExecuteForTesting
 (
+Tagged
+<
 String
+>
 input
 int
 start_offset
@@ -1408,7 +1411,10 @@ output_size
 Isolate
 *
 isolate
+Tagged
+<
 JSRegExp
+>
 regexp
 )
 ;
@@ -1474,7 +1480,10 @@ call_origin
 Address
 *
 return_address
+Tagged
+<
 InstructionStream
+>
 re_code
 Address
 *
@@ -1489,6 +1498,8 @@ uint8_t
 *
 *
 input_end
+uintptr_t
+gap
 )
 ;
 static
@@ -1542,7 +1553,10 @@ static
 int
 Execute
 (
+Tagged
+<
 String
+>
 input
 int
 start_offset
@@ -1562,7 +1576,10 @@ output_size
 Isolate
 *
 isolate
+Tagged
+<
 JSRegExp
+>
 regexp
 )
 ;

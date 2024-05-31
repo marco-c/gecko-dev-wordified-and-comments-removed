@@ -1960,7 +1960,7 @@ Copy
 array
 -
 >
-GetDataStartAddress
+begin
 (
 )
 )
