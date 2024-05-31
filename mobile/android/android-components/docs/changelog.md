@@ -21,12 +21,6 @@ changelog
 29
 .
 0
--
-SNAPSHOT
-(
-In
-Development
-)
 *
 [
 Commits
