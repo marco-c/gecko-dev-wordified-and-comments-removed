@@ -11976,9 +11976,6 @@ ProcessNormal
 break
 ;
 case
-300
-:
-case
 301
 :
 case
@@ -44388,12 +44385,6 @@ status
 )
 {
 return
-status
-=
-=
-300
-|
-|
 status
 =
 =
