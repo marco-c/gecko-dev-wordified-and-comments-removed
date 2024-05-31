@@ -670,7 +670,7 @@ org
 .
 mozilla
 .
-fxaclient
+appservices
 :
 fxaclient
 '
@@ -695,7 +695,7 @@ org
 .
 mozilla
 .
-sync15
+appservices
 :
 logins
 '
@@ -718,7 +718,7 @@ org
 .
 mozilla
 .
-places
+appservices
 :
 places
 '

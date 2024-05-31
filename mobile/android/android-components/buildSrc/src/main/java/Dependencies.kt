@@ -293,9 +293,9 @@ mozilla_appservices
 "
 0
 .
-19
+20
 .
-0
+2
 "
 const
 val
@@ -1066,7 +1066,7 @@ org
 .
 mozilla
 .
-fxaclient
+appservices
 :
 fxaclient
 :
@@ -1085,7 +1085,7 @@ org
 .
 mozilla
 .
-sync15
+appservices
 :
 logins
 :
@@ -1104,7 +1104,7 @@ org
 .
 mozilla
 .
-places
+appservices
 :
 places
 :
