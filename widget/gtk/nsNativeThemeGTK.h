@@ -382,13 +382,6 @@ nsIFrame
 StyleAppearance
 )
 ;
-bool
-IsWidgetVisible
-(
-StyleAppearance
-aAppearance
-)
-;
 void
 RefreshWidgetWindow
 (

@@ -1011,6 +1011,11 @@ titlebarRadius
 "
 ui
 .
+titlebarButtonSpacing
+"
+"
+ui
+.
 dynamicRange
 "
 "

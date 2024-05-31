@@ -212,6 +212,7 @@ AllPointerCapabilities
 SystemScrollbarSize
 TouchDeviceSupportPresent
 TitlebarRadius
+TitlebarButtonSpacing
 DynamicRange
 VideoDynamicRange
 PanelAnimations

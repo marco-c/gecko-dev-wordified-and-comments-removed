@@ -491,6 +491,11 @@ mTitlebarRadius
 =
 0
 ;
+int32_t
+mTitlebarButtonSpacing
+=
+0
+;
 char16_t
 mInvisibleCharacter
 =
