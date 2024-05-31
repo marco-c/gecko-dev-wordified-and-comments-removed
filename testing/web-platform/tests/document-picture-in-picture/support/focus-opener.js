@@ -1,0 +1,6 @@
+opener
+.
+focus
+(
+)
+;
