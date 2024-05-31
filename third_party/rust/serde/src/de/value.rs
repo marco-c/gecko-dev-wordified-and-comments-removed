@@ -5487,10 +5487,10 @@ self
 =
 1
 {
-write
-!
-(
 formatter
+.
+write_str
+(
 "
 1
 element
@@ -8153,10 +8153,10 @@ self
 =
 1
 {
-write
-!
-(
 formatter
+.
+write_str
+(
 "
 1
 element
