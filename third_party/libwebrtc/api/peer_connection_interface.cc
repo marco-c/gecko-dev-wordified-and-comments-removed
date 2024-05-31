@@ -12,6 +12,15 @@ include
 <
 utility
 >
+#
+include
+"
+pc
+/
+media_factory
+.
+h
+"
 namespace
 webrtc
 {
