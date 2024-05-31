@@ -184,6 +184,9 @@ const
 size_t
 SizeOfIncludingThis
 (
+mozilla
+:
+:
 MallocSizeOf
 )
 const

@@ -310,6 +310,11 @@ CanvasUtils
 h
 "
 "
+DmdStdContainers
+.
+h
+"
+"
 GeneratePlaceholderCanvasData
 .
 h
