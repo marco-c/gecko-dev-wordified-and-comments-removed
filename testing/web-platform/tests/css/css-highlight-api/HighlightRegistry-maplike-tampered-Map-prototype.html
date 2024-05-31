@@ -255,22 +255,22 @@ endOffset
 )
 ;
 const
-highlightRegister
+highlightRegistry
 =
 new
-HighlightRegister
+HighlightRegistry
 (
 )
 ;
 assert_equals
 (
-highlightRegister
+highlightRegistry
 .
 size
 0
 )
 ;
-highlightRegister
+highlightRegistry
 .
 set
 (
@@ -282,7 +282,7 @@ highlight
 ;
 assert_equals
 (
-highlightRegister
+highlightRegistry
 .
 size
 1
@@ -290,7 +290,7 @@ size
 ;
 assert_true
 (
-highlightRegister
+highlightRegistry
 .
 has
 (
@@ -306,7 +306,7 @@ assert_equals
 .
 .
 .
-highlightRegister
+highlightRegistry
 .
 entries
 (
@@ -323,7 +323,7 @@ foo
 "
 )
 ;
-highlightRegister
+highlightRegistry
 .
 clear
 (
@@ -331,7 +331,7 @@ clear
 ;
 assert_equals
 (
-highlightRegister
+highlightRegistry
 .
 size
 0
@@ -339,7 +339,7 @@ size
 ;
 assert_equals
 (
-highlightRegister
+highlightRegistry
 .
 get
 (
@@ -350,7 +350,7 @@ foo
 undefined
 )
 ;
-highlightRegister
+highlightRegistry
 .
 set
 (
@@ -362,7 +362,7 @@ highlight
 ;
 assert_equals
 (
-highlightRegister
+highlightRegistry
 .
 get
 (
@@ -379,7 +379,7 @@ assert_equals
 .
 .
 .
-highlightRegister
+highlightRegistry
 ]
 [
 0
@@ -390,7 +390,7 @@ highlightRegister
 highlight
 )
 ;
-highlightRegister
+highlightRegistry
 .
 delete
 (
@@ -401,7 +401,7 @@ bar
 ;
 assert_equals
 (
-highlightRegister
+highlightRegistry
 .
 size
 0
@@ -409,7 +409,7 @@ size
 ;
 assert_false
 (
-highlightRegister
+highlightRegistry
 .
 has
 (
@@ -419,7 +419,7 @@ bar
 )
 )
 ;
-highlightRegister
+highlightRegistry
 .
 set
 (
@@ -435,7 +435,7 @@ assert_equals
 .
 .
 .
-highlightRegister
+highlightRegistry
 .
 keys
 (
@@ -455,7 +455,7 @@ assert_equals
 .
 .
 .
-highlightRegister
+highlightRegistry
 .
 values
 (
@@ -472,7 +472,7 @@ callbackCalled
 =
 false
 ;
-highlightRegister
+highlightRegistry
 .
 forEach
 (
