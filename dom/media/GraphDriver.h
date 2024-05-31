@@ -2093,8 +2093,12 @@ Stop
 (
 )
 ;
+Result
+<
 bool
-EnsureFallbackDriver
+FallbackDriverState
+>
+TryStartingFallbackDriver
 (
 )
 ;
