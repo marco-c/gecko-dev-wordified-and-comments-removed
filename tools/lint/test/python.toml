@@ -149,6 +149,13 @@ py
 ]
 [
 "
+test_ignorefile
+.
+py
+"
+]
+[
+"
 test_lintpref
 .
 py
