@@ -454,6 +454,7 @@ BytesValueType
 }
 *
 /
+export
 const
 BytesValueType
 =
