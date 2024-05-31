@@ -154,6 +154,10 @@ mSentXyberShare
 (
 false
 )
+mHasTls13HandshakeSecrets
+(
+false
+)
 mIsShortWritePending
 (
 false
