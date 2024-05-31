@@ -620,13 +620,6 @@ moxARIARelevant
 ;
 -
 (
-NSString
-*
-)
-moxPlaceholderValue
-;
--
-(
 id
 )
 moxTitleUIElement
