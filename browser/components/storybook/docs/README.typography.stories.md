@@ -255,6 +255,9 @@ text
 truncated
 -
 ellipsis
+toc
+-
+ignore
 "
 >
 The
@@ -370,6 +373,9 @@ text
 truncated
 -
 ellipsis
+toc
+-
+ignore
 "
 >
 The
@@ -485,6 +491,9 @@ text
 truncated
 -
 ellipsis
+toc
+-
+ignore
 "
 >
 The
@@ -2461,6 +2470,13 @@ html
 story
 <
 h2
+class
+=
+"
+toc
+-
+ignore
+"
 >
 Recent
 browsing
