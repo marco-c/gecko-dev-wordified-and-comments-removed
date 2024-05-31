@@ -31,6 +31,15 @@ rewrite_youtube_embeds
 =
 true
 "
+"
+dom
+.
+domrequest
+.
+enabled
+=
+true
+"
 ]
 support
 -
