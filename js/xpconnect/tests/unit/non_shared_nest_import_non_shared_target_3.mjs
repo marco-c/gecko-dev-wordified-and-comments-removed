@@ -1,13 +1,10 @@
-await
-1
-;
 export
 function
-foo
+func3
 (
 )
 {
 return
-10
+11
 ;
 }

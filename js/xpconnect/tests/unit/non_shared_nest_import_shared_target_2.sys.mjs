@@ -1,13 +1,10 @@
-await
-1
-;
 export
 function
-foo
+sys2
 (
 )
 {
 return
-10
+7
 ;
 }
