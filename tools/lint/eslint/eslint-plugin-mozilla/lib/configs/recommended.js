@@ -1625,15 +1625,6 @@ callback
 "
 off
 "
-"
-require
--
-yield
-"
-:
-"
-off
-"
 }
 }
 ;
