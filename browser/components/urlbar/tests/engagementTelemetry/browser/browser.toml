@@ -183,6 +183,13 @@ js
 ]
 [
 "
+browser_glean_telemetry_abandonment_type
+.
+js
+"
+]
+[
+"
 browser_glean_telemetry_abandonment_sap
 .
 js
