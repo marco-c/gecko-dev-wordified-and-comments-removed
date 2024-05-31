@@ -1431,7 +1431,14 @@ glean
 .
 baseline
 .
-device
+device_manufacturer
+"
+"
+glean
+.
+baseline
+.
+device_model
 "
 "
 glean
