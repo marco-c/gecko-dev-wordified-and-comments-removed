@@ -672,6 +672,13 @@ Request
 desktop
 site
 "
+{
+sessionManager
+.
+selectedSessionOrThrow
+.
+desktopMode
+}
 )
 {
 checked
