@@ -90,6 +90,9 @@ Config
 clientId
 :
 String
+redirectUri
+:
+String
 )
 :
 this
@@ -118,6 +121,7 @@ consumePointer
 (
 )
 clientId
+redirectUri
 e
 )
 }
@@ -146,9 +150,6 @@ p
 fun
 beginOAuthFlow
 (
-redirectURI
-:
-String
 scopes
 :
 Array
@@ -193,7 +194,6 @@ fxa_begin_oauth_flow
 validPointer
 (
 )
-redirectURI
 scope
 wantsKeys
 e
@@ -493,6 +493,9 @@ Config
 clientId
 :
 String
+redirectUri
+:
+String
 webChannelResponse
 :
 String
@@ -526,6 +529,7 @@ consumePointer
 (
 )
 clientId
+redirectUri
 webChannelResponse
 e
 )

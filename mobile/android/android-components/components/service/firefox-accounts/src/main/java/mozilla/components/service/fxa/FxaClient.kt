@@ -234,6 +234,9 @@ RawConfig
 clientId
 :
 String
+redirectUri
+:
+String
 e
 :
 Error
@@ -249,6 +252,9 @@ config
 :
 RawConfig
 clientId
+:
+String
+redirectUri
 :
 String
 webChannelResponse
@@ -282,9 +288,6 @@ fxa_begin_oauth_flow
 fxa
 :
 RawFxAccount
-redirectUri
-:
-String
 scopes
 :
 String

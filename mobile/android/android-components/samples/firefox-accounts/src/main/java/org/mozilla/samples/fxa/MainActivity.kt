@@ -278,6 +278,7 @@ FirefoxAccount
 (
 value
 CLIENT_ID
+REDIRECT_URL
 )
 }
 findViewById
@@ -299,7 +300,6 @@ account
 .
 beginOAuthFlow
 (
-REDIRECT_URL
 scopes
 false
 )
