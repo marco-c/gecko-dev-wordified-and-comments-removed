@@ -14905,9 +14905,6 @@ the
 user
 experience
 .
-isEarlyStartup
-:
-true
 variables
 :
 enableUpdatesForUnelevatedInstallations
@@ -14948,7 +14945,7 @@ setPref
 :
 branch
 :
-default
+user
 pref
 :
 app

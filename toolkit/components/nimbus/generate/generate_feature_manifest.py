@@ -98,10 +98,6 @@ aboutwelcome
 "
     
 "
-backgroundUpdate
-"
-    
-"
 bookmarks
 "
     
