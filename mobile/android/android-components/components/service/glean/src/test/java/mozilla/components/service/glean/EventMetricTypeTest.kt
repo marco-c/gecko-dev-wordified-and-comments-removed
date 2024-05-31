@@ -992,7 +992,7 @@ repeat
 substring
 (
 0
-MAX_LENGTH_VALUE
+MAX_LENGTH_EVENT_VALUE
 )
 secondEvent
 .
