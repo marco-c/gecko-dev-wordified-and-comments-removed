@@ -69,6 +69,8 @@ mozilla
 .
 components
 .
+concept
+.
 engine
 .
 Engine
@@ -76,6 +78,8 @@ import
 mozilla
 .
 components
+.
+concept
 .
 engine
 .
@@ -85,6 +89,8 @@ mozilla
 .
 components
 .
+browser
+.
 session
 .
 Session
@@ -92,6 +98,8 @@ import
 mozilla
 .
 components
+.
+browser
 .
 session
 .

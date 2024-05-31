@@ -75,6 +75,8 @@ mozilla
 .
 components
 .
+concept
+.
 engine
 .
 Engine
@@ -82,6 +84,8 @@ import
 mozilla
 .
 components
+.
+browser
 .
 engine
 .
@@ -93,6 +97,8 @@ mozilla
 .
 components
 .
+browser
+.
 session
 .
 SessionManager
@@ -100,6 +106,8 @@ import
 mozilla
 .
 components
+.
+browser
 .
 session
 .

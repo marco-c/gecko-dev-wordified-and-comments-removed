@@ -85,9 +85,11 @@ android
 package
 =
 "
-org
-.
 mozilla
+.
+components
+.
+browser
 .
 toolbar
 "

@@ -115,6 +115,8 @@ mozilla
 .
 components
 .
+concept
+.
 engine
 .
 EngineView

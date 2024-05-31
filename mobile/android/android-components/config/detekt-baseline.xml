@@ -394,6 +394,8 @@ mozilla
 .
 components
 .
+support
+.
 utils
 .
 SafeIntent
@@ -414,6 +416,8 @@ kt
 mozilla
 .
 components
+.
+support
 .
 utils
 .

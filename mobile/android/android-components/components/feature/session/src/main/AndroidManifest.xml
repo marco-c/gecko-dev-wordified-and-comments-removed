@@ -85,9 +85,9 @@ android
 package
 =
 "
-org
-.
 mozilla
+.
+components
 .
 feature
 .

@@ -153,6 +153,8 @@ mozilla
 .
 components
 .
+browser
+.
 toolbar
 .
 BrowserToolbar
@@ -194,6 +196,8 @@ aaaaaa
 mozilla
 .
 components
+.
+concept
 .
 engine
 .

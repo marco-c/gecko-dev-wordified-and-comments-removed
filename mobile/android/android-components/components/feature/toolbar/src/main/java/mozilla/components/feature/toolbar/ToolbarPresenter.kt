@@ -69,6 +69,8 @@ mozilla
 .
 components
 .
+concept
+.
 toolbar
 .
 Toolbar
@@ -77,6 +79,8 @@ mozilla
 .
 components
 .
+browser
+.
 session
 .
 Session
@@ -84,6 +88,8 @@ import
 mozilla
 .
 components
+.
+browser
 .
 session
 .
