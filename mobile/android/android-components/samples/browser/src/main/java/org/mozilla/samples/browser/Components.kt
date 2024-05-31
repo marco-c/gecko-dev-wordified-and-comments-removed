@@ -151,6 +151,16 @@ feature
 .
 session
 .
+DefaultSessionStorage
+import
+mozilla
+.
+components
+.
+feature
+.
+session
+.
 SessionIntentProcessor
 import
 mozilla
@@ -250,7 +260,6 @@ sessionProvider
 =
 SessionProvider
 (
-applicationContext
 Session
 (
 "
@@ -264,6 +273,10 @@ mozilla
 .
 org
 "
+)
+DefaultSessionStorage
+(
+applicationContext
 )
 )
 val
