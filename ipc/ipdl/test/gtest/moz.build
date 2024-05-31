@@ -137,6 +137,11 @@ TestUniquePtrIPC
 .
 cpp
 "
+"
+TestUrgency
+.
+cpp
+"
 ]
 IPDL_SOURCES
 +
@@ -289,6 +294,11 @@ ipdl
 "
 "
 PTestUniquePtrIPC
+.
+ipdl
+"
+"
+PTestUrgency
 .
 ipdl
 "
