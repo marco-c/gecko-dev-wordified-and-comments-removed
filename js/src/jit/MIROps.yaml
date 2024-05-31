@@ -8917,6 +8917,13 @@ false
 -
 name
 :
+GuardToEitherClass
+gen_boilerplate
+:
+false
+-
+name
+:
 GuardToFunction
 gen_boilerplate
 :

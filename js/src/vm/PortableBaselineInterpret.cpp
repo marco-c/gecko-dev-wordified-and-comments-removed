@@ -17449,6 +17449,10 @@ GuardXrayNoExpando
 )
 CACHEOP_CASE_UNIMPL
 (
+GuardEitherClass
+)
+CACHEOP_CASE_UNIMPL
+(
 LoadScriptedProxyHandler
 )
 CACHEOP_CASE_UNIMPL
