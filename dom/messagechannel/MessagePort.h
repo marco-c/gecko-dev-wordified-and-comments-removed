@@ -453,8 +453,11 @@ messageerror
 void
 UnshippedEntangle
 (
+RefPtr
+<
 MessagePort
-*
+>
+&
 aEntangledPort
 )
 ;
@@ -519,6 +522,7 @@ private
 enum
 State
 {
+eStateInitializingUnshippedEntangled
 eStateUnshippedEntangled
 eStateEntangling
 eStateEntanglingForDisentangle
