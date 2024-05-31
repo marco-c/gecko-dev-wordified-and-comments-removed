@@ -1079,9 +1079,6 @@ isHttp3
 bool
 webTransport
 ;
-uint64_t
-webTransportId
-;
 bool
 hasIPHintAddress
 ;
