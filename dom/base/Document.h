@@ -14331,7 +14331,6 @@ mLastModifiedViewportMetaData
 TreeOrderedArray
 <
 HTMLMetaElement
-*
 >
 mColorSchemeMetaTags
 ;

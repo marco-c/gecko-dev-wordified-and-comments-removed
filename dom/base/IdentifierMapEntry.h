@@ -897,7 +897,6 @@ dom
 TreeOrderedArray
 <
 Element
-*
 >
 mIdContentList
 ;

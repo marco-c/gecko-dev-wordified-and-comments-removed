@@ -1340,7 +1340,7 @@ nsGenericHTMLFormElement
 *
 mFirstSubmitNotInElements
 ;
-TreeOrderedArray
+nsTArray
 <
 HTMLImageElement
 *

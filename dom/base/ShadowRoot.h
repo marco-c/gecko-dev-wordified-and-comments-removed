@@ -999,7 +999,6 @@ SlotArray
 TreeOrderedArray
 <
 HTMLSlotElement
-*
 >
 ;
 nsClassHashtable
