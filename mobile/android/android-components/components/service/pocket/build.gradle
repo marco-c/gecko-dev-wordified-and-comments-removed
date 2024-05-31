@@ -157,6 +157,10 @@ fetch
 testImplementation
 Dependencies
 .
+kotlin_reflect
+testImplementation
+Dependencies
+.
 androidx_test_core
 testImplementation
 Dependencies
