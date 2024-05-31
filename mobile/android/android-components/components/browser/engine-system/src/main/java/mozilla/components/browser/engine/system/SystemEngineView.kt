@@ -861,7 +861,6 @@ onPageStarted
 view
 :
 WebView
-?
 url
 :
 String
@@ -892,6 +891,19 @@ true
 onLocationChange
 (
 it
+)
+onNavigationStateChange
+(
+view
+.
+canGoBack
+(
+)
+view
+.
+canGoForward
+(
+)
 )
 }
 }
