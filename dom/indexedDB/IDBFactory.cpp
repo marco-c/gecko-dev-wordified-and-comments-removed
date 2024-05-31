@@ -3117,7 +3117,7 @@ PersistenceType
 persistenceType
 ;
 bool
-isInternal
+isPersistent
 =
 principalInfo
 .
@@ -3134,7 +3134,7 @@ TSystemPrincipalInfo
 if
 (
 !
-isInternal
+isPersistent
 &
 &
 principalInfo
@@ -3163,7 +3163,7 @@ originNoSuffix
 (
 )
 ;
-isInternal
+isPersistent
 =
 QuotaManager
 :
@@ -3207,7 +3207,7 @@ mPrivateBrowsingId
 ;
 if
 (
-isInternal
+isPersistent
 )
 {
 persistenceType
