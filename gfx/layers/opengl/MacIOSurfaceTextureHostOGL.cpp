@@ -60,13 +60,6 @@ WebRenderAPI
 .
 h
 "
-#
-include
-"
-GLContextCGL
-.
-h
-"
 namespace
 mozilla
 {
