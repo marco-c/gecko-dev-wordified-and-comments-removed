@@ -1107,6 +1107,12 @@ origin
 }
 destroy
 (
+{
+isModeSwitching
+}
+=
+{
+}
 )
 {
 if
@@ -1139,6 +1145,9 @@ emit
 "
 destroyed
 "
+{
+isModeSwitching
+}
 )
 ;
 super

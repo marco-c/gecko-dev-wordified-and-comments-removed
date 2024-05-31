@@ -958,7 +958,7 @@ isModeSwitching
 {
 WatcherRegistry
 .
-maybeUnregisteringJSWindowActor
+maybeUnregisterJSActors
 (
 )
 ;
@@ -2040,7 +2040,7 @@ targetActorResourceTypes
 }
 WatcherRegistry
 .
-maybeUnregisteringJSWindowActor
+maybeUnregisterJSActors
 (
 )
 ;
