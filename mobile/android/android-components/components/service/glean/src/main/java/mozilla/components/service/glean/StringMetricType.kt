@@ -168,7 +168,7 @@ only
 exposes
 the
 [
-record
+set
 ]
 method
 which
@@ -370,7 +370,7 @@ it
 Delegate
 storing
 the
-event
+string
 to
 the
 storage
