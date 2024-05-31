@@ -332,11 +332,6 @@ files
 :
 [
 "
-*
-.
-jsm
-"
-"
 lib
 /
 cache

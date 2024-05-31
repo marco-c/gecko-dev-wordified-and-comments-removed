@@ -125,7 +125,7 @@ SomeProp
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -138,13 +138,15 @@ modules
 /
 Foo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
 ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -161,7 +163,9 @@ modules
 /
 Foo
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
@@ -229,7 +233,7 @@ OtherProp
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -242,7 +246,9 @@ modules
 /
 Foo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

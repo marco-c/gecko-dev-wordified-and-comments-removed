@@ -248,13 +248,6 @@ files
 :
 [
 "
-modules
-/
-*
-.
-jsm
-"
-"
 tests
 /
 *

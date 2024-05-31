@@ -68,7 +68,7 @@ false
 "
 mozilla
 /
-jsm
+sysmjs
 "
 :
 true
