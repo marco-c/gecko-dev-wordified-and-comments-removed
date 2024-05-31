@@ -216,6 +216,11 @@ providers
 )
 {
 runBlocking
+(
+testMainScope
+.
+coroutineContext
+)
 {
 val
 provider1
@@ -527,6 +532,11 @@ jobs
 )
 {
 runBlocking
+(
+testMainScope
+.
+coroutineContext
+)
 {
 var
 providerTriggered
@@ -687,6 +697,11 @@ detached
 )
 {
 runBlocking
+(
+testMainScope
+.
+coroutineContext
+)
 {
 var
 providerTriggered
@@ -853,6 +868,11 @@ again
 )
 {
 runBlocking
+(
+testMainScope
+.
+coroutineContext
+)
 {
 var
 firstProviderCallCancelled
