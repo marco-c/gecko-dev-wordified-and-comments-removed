@@ -497,6 +497,7 @@ currentWebView
 loadUrl
 (
 it
+additionalHeaders
 )
 internalSession
 .
