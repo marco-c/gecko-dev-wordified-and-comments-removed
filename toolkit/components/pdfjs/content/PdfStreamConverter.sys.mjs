@@ -2586,9 +2586,6 @@ false
 hasSelectedEditor
 :
 false
-hasSelectedText
-:
-false
 }
 ;
 }
