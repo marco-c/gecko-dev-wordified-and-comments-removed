@@ -220,8 +220,11 @@ tabs
 .
 size
 )
-assertNull
+assertEquals
 (
+tab
+.
+id
 store
 .
 state
