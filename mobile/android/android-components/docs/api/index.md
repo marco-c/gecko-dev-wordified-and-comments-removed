@@ -1717,6 +1717,8 @@ components
 feature
 .
 pwa
+.
+ext
 ]
 (
 mozilla
@@ -1726,6 +1728,8 @@ components
 feature
 .
 pwa
+.
+ext
 /
 index
 .
