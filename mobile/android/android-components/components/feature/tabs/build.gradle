@@ -149,16 +149,6 @@ pro
 }
 }
 }
-kotlin
-{
-experimental
-{
-coroutines
-"
-enable
-"
-}
-}
 dependencies
 {
 implementation
