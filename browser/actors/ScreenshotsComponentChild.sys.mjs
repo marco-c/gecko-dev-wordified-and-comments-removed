@@ -603,7 +603,6 @@ Screenshots
 OverlaySelection
 "
 :
-{
 let
 {
 hasSelection
@@ -624,7 +623,6 @@ hasSelection
 ;
 break
 ;
-}
 case
 "
 Screenshots
@@ -632,7 +630,6 @@ Screenshots
 RecordEvent
 "
 :
-{
 let
 {
 eventName
@@ -655,7 +652,6 @@ args
 ;
 break
 ;
-}
 case
 "
 Screenshots
