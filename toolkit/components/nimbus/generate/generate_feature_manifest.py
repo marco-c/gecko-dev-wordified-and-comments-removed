@@ -102,10 +102,6 @@ dapTelemetry
 "
     
 "
-deviceMigration
-"
-    
-"
 gleanInternalSdk
 "
     
