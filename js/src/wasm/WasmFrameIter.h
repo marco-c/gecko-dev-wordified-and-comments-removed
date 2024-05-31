@@ -762,6 +762,14 @@ RegisterState
 state
 )
 ;
+enum
+Category
+{
+Baseline
+Ion
+Other
+}
+;
 void
 operator
 +
@@ -832,6 +840,12 @@ const
 char
 *
 label
+(
+)
+const
+;
+Category
+category
 (
 )
 const

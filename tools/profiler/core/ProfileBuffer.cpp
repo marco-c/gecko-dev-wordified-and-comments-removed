@@ -982,6 +982,11 @@ ProfileBufferCollector
 :
 CollectWasmFrame
 (
+JS
+:
+:
+ProfilingCategoryPair
+aCategory
 const
 char
 *
@@ -1005,13 +1010,7 @@ Nothing
 )
 Some
 (
-JS
-:
-:
-ProfilingCategoryPair
-:
-:
-JS_Wasm
+aCategory
 )
 )
 ;
