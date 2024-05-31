@@ -419,6 +419,14 @@ testing
 :
 UnorderedElementsAre
 ;
+using
+:
+:
+webrtc
+:
+:
+TimeDelta
+;
 constexpr
 uint32_t
 kArwnd
@@ -886,7 +894,7 @@ MockFunction
 <
 void
 (
-DurationMs
+TimeDelta
 rtt_ms
 )
 >
@@ -6874,7 +6882,10 @@ EXPECT_CALL
 on_rtt_
 Call
 (
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 123
 )

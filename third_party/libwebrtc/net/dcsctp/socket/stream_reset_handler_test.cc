@@ -398,6 +398,14 @@ testing
 UnorderedElementsAre
 ;
 using
+:
+:
+webrtc
+:
+:
+TimeDelta
+;
+using
 ResponseResult
 =
 ReconfigurationResponseParameter
@@ -845,8 +853,8 @@ producer_
 [
 ]
 (
-DurationMs
-rtt_ms
+TimeDelta
+rtt
 )
 {
 }
@@ -1425,8 +1433,8 @@ producer_
 [
 ]
 (
-DurationMs
-rtt_ms
+TimeDelta
+rtt
 )
 {
 }

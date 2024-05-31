@@ -279,7 +279,10 @@ function
 <
 void
 (
-DurationMs
+webrtc
+:
+:
+TimeDelta
 rtt
 )
 >
@@ -802,7 +805,10 @@ function
 <
 void
 (
-DurationMs
+webrtc
+:
+:
+TimeDelta
 rtt
 )
 >

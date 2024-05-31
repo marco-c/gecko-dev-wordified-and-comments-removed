@@ -129,7 +129,10 @@ virtual
 void
 ObserveRTT
 (
-DurationMs
+webrtc
+:
+:
+TimeDelta
 rtt_ms
 )
 =

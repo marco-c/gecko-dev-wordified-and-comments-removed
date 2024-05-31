@@ -486,13 +486,10 @@ CreateIForwardTsn
 )
 const
 ;
-absl
+webrtc
 :
 :
-optional
-<
-DurationMs
->
+TimeDelta
 MeasureRTT
 (
 TimeMs

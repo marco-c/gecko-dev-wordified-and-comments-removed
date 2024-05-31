@@ -402,7 +402,10 @@ callbacks_
 void
 ObserveRTT
 (
-DurationMs
+webrtc
+:
+:
+TimeDelta
 rtt
 )
 override
