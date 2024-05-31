@@ -4028,7 +4028,7 @@ renderURL2
 throw
 "
 Unexpected
-biddingSignals
+browserSignals
 :
 "
 +
