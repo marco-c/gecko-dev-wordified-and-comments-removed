@@ -951,9 +951,7 @@ aSnap
 =
 false
 ;
-nsRect
-shadowRect
-=
+return
 nsLayoutUtils
 :
 :
@@ -961,14 +959,6 @@ GetTextShadowRectsUnion
 (
 mRect
 mFrame
-)
-;
-return
-mRect
-.
-Union
-(
-shadowRect
 )
 ;
 }
