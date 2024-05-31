@@ -101,6 +101,10 @@ IPCResult
 RecvOnGatheringStateChange
 (
 const
+string
+&
+transportId
+const
 int
 &
 state
@@ -115,6 +119,10 @@ ipc
 IPCResult
 RecvOnConnectionStateChange
 (
+const
+string
+&
+transportId
 const
 int
 &
