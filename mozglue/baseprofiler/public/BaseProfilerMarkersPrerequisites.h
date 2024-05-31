@@ -4218,6 +4218,13 @@ nullptr
 ;
 static
 constexpr
+bool
+StoreName
+=
+false
+;
+static
+constexpr
 MarkerSchema
 :
 :
