@@ -9865,6 +9865,9 @@ name
 "
 WakeLock
 "
+earlyBetaOrEarlier
+:
+true
 }
 {
 name
@@ -9872,6 +9875,9 @@ name
 "
 WakeLockSentinel
 "
+earlyBetaOrEarlier
+:
+true
 }
 {
 name
