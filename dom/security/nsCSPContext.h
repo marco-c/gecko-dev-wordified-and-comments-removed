@@ -360,8 +360,7 @@ nsAString
 &
 aViolatedDirective
 const
-nsAString
-&
+CSPDirective
 aEffectiveDirective
 uint32_t
 aViolatedPolicyIndex
@@ -543,9 +542,7 @@ const
 nsAString
 &
 aViolatedDirective
-const
-nsAString
-&
+CSPDirective
 aEffectiveDirective
 uint32_t
 aViolatedPolicyIndex
