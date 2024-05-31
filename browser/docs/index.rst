@@ -231,3 +231,10 @@ and
 html
 .
 stories
+components
+/
+backup
+/
+docs
+/
+index

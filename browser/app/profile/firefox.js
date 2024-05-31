@@ -20925,3 +20925,15 @@ os
 true
 )
 ;
+pref
+(
+"
+browser
+.
+backup
+.
+enabled
+"
+false
+)
+;

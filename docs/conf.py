@@ -305,6 +305,17 @@ browser
 /
 components
 /
+backup
+"
+    
+"
+.
+.
+/
+browser
+/
+components
+/
 extensions
 "
     
