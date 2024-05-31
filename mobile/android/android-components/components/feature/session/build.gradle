@@ -164,6 +164,10 @@ implementation
 Dependencies
 .
 kotlin_stdlib
+implementation
+Dependencies
+.
+support_design
 testImplementation
 Dependencies
 .
