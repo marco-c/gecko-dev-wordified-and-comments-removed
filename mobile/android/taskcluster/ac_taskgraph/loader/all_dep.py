@@ -76,8 +76,8 @@ tasks
 based
 on
 the
-jobs
-dependant
+tasks
+dependent
 kind
 designed
 to
@@ -135,7 +135,7 @@ build
 type
     
 Optional
-job
+task
 -
 template
 kind
@@ -162,14 +162,14 @@ used
 "
 "
     
-job_template
+task_template
 =
 config
 .
 get
 (
 '
-job
+task
 -
 template
 '
@@ -185,7 +185,7 @@ loaded_tasks
 )
 :
         
-job
+task
 =
 {
 '
@@ -208,10 +208,10 @@ dep_tasks
 }
         
 if
-job_template
+task_template
 :
             
-job
+task
 .
 update
 (
@@ -219,9 +219,9 @@ copy
 .
 deepcopy
 (
-job_template
+task_template
 )
 )
         
 yield
-job
+task

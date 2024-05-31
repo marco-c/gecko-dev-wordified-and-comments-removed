@@ -133,7 +133,7 @@ group
 by
 :
 component
-job
+task
 -
 template
 :

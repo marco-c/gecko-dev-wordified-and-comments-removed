@@ -100,8 +100,8 @@ tasks
 based
 on
 the
-jobs
-dependant
+tasks
+dependent
 kinds
 designed
 for
@@ -199,14 +199,14 @@ types
 for
 which
 a
-job
+task
 will
 be
 created
 .
     
 Optional
-job
+task
 -
 template
 kind
@@ -233,14 +233,14 @@ used
 "
 "
     
-job_template
+task_template
 =
 config
 .
 get
 (
 '
-job
+task
 -
 template
 '
@@ -305,7 +305,7 @@ in
 dep_tasks
 }
         
-job
+task
 =
 {
 '
@@ -317,7 +317,7 @@ tasks
 dep_tasks_per_kind
 }
         
-job
+task
 [
 '
 primary
@@ -333,10 +333,10 @@ dep_tasks_per_kind
 )
         
 if
-job_template
+task_template
 :
             
-job
+task
 .
 update
 (
@@ -344,12 +344,12 @@ copy
 .
 deepcopy
 (
-job_template
+task_template
 )
 )
         
 yield
-job
+task
 def
 assert_unique_members
 (

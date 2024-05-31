@@ -666,7 +666,7 @@ No
 lintRelease
 on
 this
-job
+task
 gradle
 task
 isn
@@ -722,7 +722,7 @@ No
 testRelease
 on
 this
-job
+task
 gradle
 task
 isn
