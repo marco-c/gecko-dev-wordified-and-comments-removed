@@ -2107,8 +2107,6 @@ opt
 linux64
 -
 node
--
-12
 macosx1015
 -
 64
@@ -2119,8 +2117,6 @@ opt
 macosx64
 -
 node
--
-12
 windows11
 -
 64
@@ -2131,8 +2127,6 @@ opt
 win64
 -
 node
--
-12
 -
 win64
 -

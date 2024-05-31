@@ -1244,8 +1244,6 @@ linux64
 -
 node
 -
-12
--
 linux64
 -
 minidump
@@ -1265,8 +1263,6 @@ macosx
 macosx64
 -
 node
--
-12
 -
 macosx64
 -
@@ -1292,8 +1288,6 @@ win64
 -
 node
 -
-12
--
 win32
 -
 minidump
@@ -1316,8 +1310,6 @@ win
 win32
 -
 node
--
-12
 -
 win32
 -
@@ -1366,8 +1358,6 @@ linux
 linux64
 -
 node
--
-12
 -
 linux64
 -
@@ -3857,8 +3847,6 @@ linux64
 -
 node
 -
-12
--
 linux64
 -
 minidump
@@ -3878,8 +3866,6 @@ macosx
 macosx64
 -
 node
--
-12
 -
 macosx64
 -
@@ -3905,8 +3891,6 @@ win64
 -
 node
 -
-12
--
 win32
 -
 minidump
@@ -3929,8 +3913,6 @@ win
 win32
 -
 node
--
-12
 -
 win32
 -
@@ -3979,8 +3961,6 @@ linux
 linux64
 -
 node
--
-12
 -
 linux64
 -
