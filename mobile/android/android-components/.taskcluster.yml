@@ -434,6 +434,7 @@ no
 daemon
 clean
 assemble
+test
 metadata
 :
 name
