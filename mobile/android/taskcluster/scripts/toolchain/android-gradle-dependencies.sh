@@ -107,7 +107,7 @@ get_abs_path
 0
 )
 "
-PROJECT_DIR
+REPO_ROOT_DIR
 =
 "
 (
@@ -127,9 +127,21 @@ CURRENT_DIR
 .
 )
 "
+PROJECT_DIR
+=
+"
+REPO_ROOT_DIR
+/
+android
+-
+components
+"
 pushd
 PROJECT_DIR
 .
+"
+REPO_ROOT_DIR
+/
 taskcluster
 /
 scripts
@@ -145,6 +157,7 @@ dependencies
 before
 .
 sh
+"
 COMPONENT_REGEX
 =
 '
@@ -646,6 +659,9 @@ do
 not
 exist
 .
+"
+REPO_ROOT_DIR
+/
 taskcluster
 /
 scripts
@@ -661,4 +677,5 @@ dependencies
 after
 .
 sh
+"
 popd
