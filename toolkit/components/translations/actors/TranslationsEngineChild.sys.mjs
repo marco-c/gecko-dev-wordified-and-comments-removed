@@ -1037,13 +1037,9 @@ engines
 are
 still
 alive
-signal
-that
+destroy
 the
 process
-can
-be
-destroyed
 .
 *
 /
