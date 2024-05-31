@@ -140,6 +140,16 @@ implementation
 Deps
 .
 support_compat
+implementation
+project
+(
+'
+:
+support
+-
+base
+'
+)
 testImplementation
 Deps
 .
