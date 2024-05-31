@@ -441,6 +441,11 @@ this
 )
 internalSession
 .
+initSettings
+(
+)
+internalSession
+.
 scheduledLoad
 .
 data
