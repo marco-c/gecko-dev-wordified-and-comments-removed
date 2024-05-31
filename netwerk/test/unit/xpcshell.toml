@@ -2285,15 +2285,6 @@ test_channel_close
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-socketprocess_networking
-"
-]
 [
 "
 test_channel_long_domain
