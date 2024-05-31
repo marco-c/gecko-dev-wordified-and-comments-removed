@@ -261,11 +261,17 @@ Engineering
 pipeline
 /
 automation
+/
 mozilla
 -
 mobile
 /
 releng
+mozilla
+-
+mobile
+/
+act
 /
 CODEOWNERS
 mozilla
@@ -273,3 +279,8 @@ mozilla
 mobile
 /
 releng
+mozilla
+-
+mobile
+/
+act
