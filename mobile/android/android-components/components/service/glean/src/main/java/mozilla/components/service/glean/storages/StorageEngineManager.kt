@@ -148,6 +148,11 @@ string
 to
 StringsStorageEngine
 "
+string_list
+"
+to
+StringListsStorageEngine
+"
 uuid
 "
 to
