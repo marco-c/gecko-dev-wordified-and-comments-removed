@@ -126,7 +126,7 @@ BrowserAction
 .
 kt
 #
-L60
+L71
 )
 Removes
 both
