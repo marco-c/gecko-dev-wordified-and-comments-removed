@@ -227,6 +227,14 @@ sessionUseCases
 loadUrl
 toolbar
 )
+components
+.
+sessionIntentProcessor
+.
+process
+(
+intent
+)
 }
 override
 fun
