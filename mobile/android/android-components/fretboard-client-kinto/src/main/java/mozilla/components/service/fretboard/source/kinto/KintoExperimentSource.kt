@@ -523,10 +523,8 @@ lastModified
 !
 =
 null
-)
-{
-if
-(
+&
+&
 lastModified
 >
 maxLastModified
@@ -535,7 +533,6 @@ maxLastModified
 maxLastModified
 =
 lastModified
-}
 }
 }
 return
