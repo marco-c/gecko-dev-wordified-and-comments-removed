@@ -54,7 +54,6 @@ gamepad
 Exposed
 =
 Window
-SecureContext
 ]
 interface
 Gamepad
@@ -114,7 +113,6 @@ vibrationActuator
 Exposed
 =
 Window
-SecureContext
 ]
 interface
 GamepadButton
@@ -274,7 +272,6 @@ getGamepads
 Exposed
 =
 Window
-SecureContext
 ]
 interface
 GamepadEvent

@@ -132,6 +132,11 @@ attribute
 CSSFontFeatureValuesMap
 styleset
 ;
+readonly
+attribute
+CSSFontFeatureValuesMap
+historicalForms
+;
 }
 ;
 [
