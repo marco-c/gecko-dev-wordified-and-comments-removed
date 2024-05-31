@@ -90,6 +90,7 @@ ad
 struct
 ActorWrapper
 {
+nullable
 PTestDataStructuresSub
 actor
 ;
