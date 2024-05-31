@@ -773,9 +773,14 @@ TimeMs
 TimeMillis
 (
 )
-=
+{
+return
+TimeMs
+(
 0
+)
 ;
+}
 virtual
 webrtc
 :

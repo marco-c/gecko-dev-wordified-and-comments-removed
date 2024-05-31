@@ -317,7 +317,10 @@ false
 bool
 HandleSack
 (
-TimeMs
+webrtc
+:
+:
+Timestamp
 now
 const
 SackChunk
@@ -380,7 +383,10 @@ Data
 >
 GetChunksToSend
 (
-TimeMs
+webrtc
+:
+:
+Timestamp
 now
 size_t
 bytes_remaining_in_packet
@@ -549,7 +555,10 @@ const
 bool
 ShouldSendForwardTsn
 (
-TimeMs
+webrtc
+:
+:
+Timestamp
 now
 )
 ;
@@ -691,7 +700,10 @@ const
 void
 UpdateRTT
 (
-TimeMs
+webrtc
+:
+:
+Timestamp
 now
 UnwrappedTSN
 cumulative_tsn_ack

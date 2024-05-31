@@ -301,6 +301,11 @@ TimeMillis
 (
 )
 {
+RTC_DCHECK
+(
+false
+)
+;
 return
 underlying_
 .

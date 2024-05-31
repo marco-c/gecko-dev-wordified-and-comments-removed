@@ -936,7 +936,7 @@ kRto
 void
 AdvanceTime
 (
-DurationMs
+TimeDelta
 duration
 )
 {
@@ -944,10 +944,7 @@ callbacks_
 .
 AdvanceTime
 (
-DurationMs
-(
-kRto
-)
+duration
 )
 ;
 for
@@ -4866,10 +4863,7 @@ Times
 ;
 AdvanceTime
 (
-DurationMs
-(
 kRto
-)
 )
 ;
 std

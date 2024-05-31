@@ -347,6 +347,14 @@ webrtc
 :
 TimeDelta
 ;
+using
+:
+:
+webrtc
+:
+:
+Timestamp
+;
 constexpr
 float
 kMinBytesRequiredToSendFactor
@@ -1245,7 +1253,7 @@ RetransmissionQueue
 :
 HandleSack
 (
-TimeMs
+Timestamp
 now
 const
 SackChunk
@@ -1612,7 +1620,7 @@ RetransmissionQueue
 :
 UpdateRTT
 (
-TimeMs
+Timestamp
 now
 UnwrappedTSN
 cumulative_tsn_ack
@@ -2097,7 +2105,7 @@ RetransmissionQueue
 :
 GetChunksToSend
 (
-TimeMs
+Timestamp
 now
 size_t
 bytes_remaining_in_packet
@@ -2345,10 +2353,10 @@ chunk_opt
 >
 expires_at
 :
-TimeMs
+Timestamp
 :
 :
-InfiniteFuture
+PlusInfinity
 (
 )
 chunk_opt
@@ -2649,7 +2657,7 @@ RetransmissionQueue
 :
 ShouldSendForwardTsn
 (
-TimeMs
+Timestamp
 now
 )
 {
