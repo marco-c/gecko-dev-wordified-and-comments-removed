@@ -358,9 +358,6 @@ updateActiveInput
 element
 )
 ;
-const
-validDetails
-=
 this
 .
 fieldDetailsManager
@@ -382,6 +379,18 @@ activeFieldDetail
 .
 fieldName
 ;
+const
+activeFieldDetails
+=
+this
+.
+fieldDetailsManager
+.
+activeSection
+?
+.
+fieldDetails
+;
 /
 /
 Only
@@ -400,7 +409,7 @@ field
 if
 (
 !
-validDetails
+activeFieldDetails
 ?
 .
 find
@@ -428,7 +437,7 @@ this
 .
 transformToFieldNamesWithValues
 (
-validDetails
+activeFieldDetails
 )
 ;
 if
