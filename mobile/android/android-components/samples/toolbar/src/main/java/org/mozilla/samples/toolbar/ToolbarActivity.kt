@@ -1564,6 +1564,17 @@ Focus
 /
 /
 val
+fenix
+=
+SimpleBrowserMenuItem
+(
+"
+POWERED
+BY
+MOZILLA
+"
+)
+val
 share
 =
 SimpleBrowserMenuItem
@@ -1642,6 +1653,7 @@ BrowserMenuBuilder
 (
 listOf
 (
+fenix
 share
 homeScreen
 open

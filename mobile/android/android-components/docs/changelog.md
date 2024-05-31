@@ -245,6 +245,12 @@ redundant
 BrowserMenuImageText
 contentDescription
 *
+Adds
+textSize
+parameter
+to
+SimpleBrowserMenuItem
+*
 *
 *
 concept
