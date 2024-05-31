@@ -1496,6 +1496,13 @@ js
 ]
 [
 "
+test_override_allowlist_switch
+.
+js
+"
+]
+[
+"
 test_parseSubmissionURL
 .
 js
