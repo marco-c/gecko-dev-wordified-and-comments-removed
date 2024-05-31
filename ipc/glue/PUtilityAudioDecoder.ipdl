@@ -120,10 +120,6 @@ Endpoint
 PVideoBridgeChild
 >
 endpoint
-GfxVarUpdate
-[
-]
-updates
 ContentDeviceData
 contentDeviceData
 )

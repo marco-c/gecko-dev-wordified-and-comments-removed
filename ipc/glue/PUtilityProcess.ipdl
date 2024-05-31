@@ -67,6 +67,9 @@ ByteBufUtils
 h
 "
 ;
+include
+GraphicsMessages
+;
 using
 mozilla
 :
@@ -448,6 +451,10 @@ Endpoint
 PUtilityAudioDecoderParent
 >
 aEndpoint
+GfxVarUpdate
+[
+]
+updates
 )
 ;
 async
