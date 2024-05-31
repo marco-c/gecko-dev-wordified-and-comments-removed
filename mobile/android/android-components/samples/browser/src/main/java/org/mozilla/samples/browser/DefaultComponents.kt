@@ -589,6 +589,7 @@ IntentProcessor
 sessionUseCases
 sessionManager
 searchUseCases
+applicationContext
 )
 }
 /

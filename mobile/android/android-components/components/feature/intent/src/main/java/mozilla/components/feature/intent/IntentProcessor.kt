@@ -69,6 +69,12 @@ android
 .
 content
 .
+Context
+import
+android
+.
+content
+.
 Intent
 import
 android
@@ -296,6 +302,11 @@ searchUseCases
 SearchUseCases
 private
 val
+context
+:
+Context
+private
+val
 useDefaultHandlers
 :
 Boolean
@@ -371,6 +382,14 @@ CUSTOM_TAB
 .
 apply
 {
+val
+displayMetrics
+=
+context
+.
+resources
+.
+displayMetrics
 this
 .
 customTabConfig
@@ -380,6 +399,7 @@ CustomTabConfig
 createFromIntent
 (
 safeIntent
+displayMetrics
 )
 }
 sessionManager
