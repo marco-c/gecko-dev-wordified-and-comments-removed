@@ -36,17 +36,6 @@ include
 "
 api
 /
-rtc_event_log
-/
-rtc_event_log
-.
-h
-"
-#
-include
-"
-api
-/
 test
 /
 video
