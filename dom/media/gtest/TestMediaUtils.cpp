@@ -68,6 +68,12 @@ defined
 (
 ANDROID
 )
+&
+&
+defined
+(
+GTEST_HAS_DEATH_TEST
+)
 #
 define
 DISABLE_CRASH_REPORTING
