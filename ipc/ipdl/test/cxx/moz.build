@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestRacyReentry
-.
-h
-"
-"
 TestRacyUndefer
 .
 h
@@ -116,11 +111,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestRacyReentry
 .
 cpp
 "
@@ -242,11 +232,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestRacyReentry
 .
 ipdl
 "
