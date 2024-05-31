@@ -140,7 +140,7 @@ the
 metric
 by
 calling
-glean
+Glean
 .
 *
 *
@@ -194,7 +194,7 @@ metric
 automatically
 collected
 by
-glean
+Glean
 .
 #
 The
@@ -1112,7 +1112,7 @@ sent
 immediately
 so
 that
-glean
+Glean
 can
 start
 over

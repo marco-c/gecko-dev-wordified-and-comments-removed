@@ -576,7 +576,7 @@ script
 .
 For
 the
-glean
+Glean
 sample
 application
 this
@@ -730,7 +730,7 @@ release
 build
 of
 the
-glean
+Glean
 sample
 application
 to

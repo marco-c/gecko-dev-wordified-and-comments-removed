@@ -1541,7 +1541,7 @@ test
 server
 and
 make
-glean
+Glean
 point
 to
 it
@@ -2707,7 +2707,7 @@ Test
 /
 /
 fun
-glean
+Glean
 should
 close
 the
@@ -2803,7 +2803,7 @@ data
 then
 "
 pretend
-glean
+Glean
 is
 disabled
 "
@@ -2825,7 +2825,7 @@ the
 main
 thread
 init
-glean
+Glean
 in
 a
 separate
@@ -2940,7 +2940,7 @@ default
 /
 /
 Start
-glean
+Glean
 in
 the
 current
@@ -3013,7 +3013,7 @@ testHasValue
 /
 /
 Pretend
-glean
+Glean
 is
 disabled
 .
@@ -3033,7 +3033,7 @@ and
 /
 /
 /
-glean
+Glean
 will
 init
 again
@@ -3254,7 +3254,7 @@ try
 /
 /
 Restart
-glean
+Glean
 in
 a
 separate

@@ -480,7 +480,7 @@ application
 id
 detected
 by
-glean
+Glean
 to
 be
 used
@@ -545,7 +545,7 @@ PingStorageEngine
 *
 *
 Initialize
-glean
+Glean
 .
 *
 *
@@ -564,7 +564,7 @@ by
 *
 libraries
 using
-glean
+Glean
 .
 A
 message
@@ -796,7 +796,7 @@ information
 and
 scheduling
 for
-glean
+Glean
 owned
 pings
 .
@@ -904,7 +904,7 @@ initialized
 Enable
 or
 disable
-glean
+Glean
 collection
 and
 upload
@@ -979,7 +979,7 @@ Get
 whether
 or
 not
-glean
+Glean
 is
 allowed
 to
@@ -2888,7 +2888,7 @@ but
 only
 if
 *
-glean
+Glean
 is
 initialized
 upload
@@ -3028,7 +3028,7 @@ all
 users
 of
 the
-glean
+Glean
 testing
 API
 .

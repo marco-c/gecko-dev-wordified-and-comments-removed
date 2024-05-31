@@ -922,7 +922,7 @@ done
 before
 any
 other
-glean
+Glean
 API
 calls
 and

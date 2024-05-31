@@ -295,7 +295,7 @@ send
 param
 config
 the
-glean
+Glean
 configuration
 object
 *
@@ -461,7 +461,7 @@ handle
 pings
 coming
 from
-glean
+Glean
 on
 the
 legacy
@@ -494,7 +494,7 @@ send
 param
 config
 the
-glean
+Glean
 configuration
 object
 *

@@ -622,7 +622,7 @@ not
 be
 recorded
 if
-glean
+Glean
 is
 disabled
 "
@@ -1540,7 +1540,7 @@ not
 be
 recorded
 if
-glean
+Glean
 is
 not
 initialized

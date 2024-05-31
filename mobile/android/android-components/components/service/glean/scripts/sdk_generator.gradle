@@ -175,7 +175,7 @@ all
 libraries
 that
 use
-glean
+Glean
 .
 This
 is
@@ -1296,7 +1296,7 @@ included
 in
 /
 /
-glean
+Glean
 and
 nothing
 more

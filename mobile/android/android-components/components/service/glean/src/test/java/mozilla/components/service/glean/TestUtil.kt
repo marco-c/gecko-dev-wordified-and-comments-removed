@@ -309,7 +309,7 @@ ping
 content
 against
 the
-glean
+Glean
 ping
 schema
 .
@@ -557,7 +557,7 @@ ping
 content
 against
 the
-glean
+Glean
 ping
 schema
 .
@@ -666,7 +666,7 @@ checks
 it
 against
 the
-glean
+Glean
 ping
 schema
 .
@@ -752,7 +752,7 @@ jsonString
 *
 Resets
 the
-glean
+Glean
 state
 and
 trigger
@@ -768,7 +768,7 @@ application
 context
 to
 init
-glean
+Glean
 with
 *
 param
@@ -779,7 +779,7 @@ Configuration
 ]
 to
 init
-glean
+Glean
 with
 *
 param
@@ -840,7 +840,7 @@ bunch
 of
 places
 and
-glean
+Glean
 will
 crash
 /
@@ -956,7 +956,7 @@ reset
 /
 /
 Init
-glean
+Glean
 .
 Glean
 .
@@ -1016,7 +1016,7 @@ be
 used
 to
 init
-glean
+Glean
 *
 /
 internal

@@ -149,7 +149,7 @@ dir
 that
 *
 contains
-glean
+Glean
 files
 .
 *
@@ -223,7 +223,7 @@ file
 exists
 in
 the
-glean
+Glean
 '
 s
 data
@@ -369,7 +369,7 @@ is
 the
 first
 time
-glean
+Glean
 was
 run
 .

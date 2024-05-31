@@ -604,7 +604,7 @@ which
 /
 /
 -
-glean
+Glean
 is
 killed
 but
@@ -618,7 +618,7 @@ there
 /
 /
 -
-glean
+Glean
 restarts
 ;
 /

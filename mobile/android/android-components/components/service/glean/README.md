@@ -124,7 +124,7 @@ system
 -
 [
 Initializing
-glean
+Glean
 ]
 (
 #
@@ -201,7 +201,7 @@ metrics
 Debugging
 products
 using
-glean
+Glean
 ]
 (
 #
@@ -248,7 +248,7 @@ the
 library
 Products
 using
-glean
+Glean
 to
 collect
 telemetry
@@ -574,7 +574,7 @@ the
 same
 file
 the
-glean
+Glean
 build
 script
 must
@@ -663,7 +663,7 @@ version
 number
 of
 the
-glean
+Glean
 library
 used
 by
@@ -734,7 +734,7 @@ gradle
 #
 #
 Initializing
-glean
+Glean
 Before
 any
 data
@@ -742,7 +742,7 @@ collection
 can
 take
 place
-glean
+Glean
 *
 *
 must
@@ -853,7 +853,7 @@ if
 collection
 is
 enabled
-glean
+Glean
 will
 automatically
 start
@@ -952,7 +952,7 @@ then
 it
 can
 provide
-glean
+Glean
 with
 this
 information
@@ -1134,7 +1134,7 @@ metric
 automatically
 collected
 by
-glean
+Glean
 .
 #
 #
@@ -1210,7 +1210,7 @@ ping
 automatically
 collected
 by
-glean
+Glean
 .
 #
 #
@@ -1276,7 +1276,7 @@ to
 [
 Unit
 testing
-glean
+Glean
 metrics
 ]
 (
@@ -1364,7 +1364,7 @@ initialize
 to
 ensure
 that
-glean
+Glean
 doesn
 '
 t
@@ -1384,7 +1384,7 @@ disabled
 Debugging
 products
 using
-glean
+Glean
 Glean
 exports
 the
@@ -1515,7 +1515,7 @@ script
 .
 For
 the
-glean
+Glean
 sample
 application
 this
@@ -1653,7 +1653,7 @@ If
 set
 to
 true
-glean
+Glean
 dumps
 pings
 to
@@ -1739,7 +1739,7 @@ release
 build
 of
 the
-glean
+Glean
 sample
 application
 to

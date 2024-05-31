@@ -230,7 +230,7 @@ Helper
 function
 to
 ensure
-glean
+Glean
 is
 being
 used
@@ -301,7 +301,7 @@ use
 the
 testing
 API
-glean
+Glean
 must
 be
 in
@@ -341,7 +341,7 @@ makes
 all
 of
 the
-glean
+Glean
 public
 API
 synchronous

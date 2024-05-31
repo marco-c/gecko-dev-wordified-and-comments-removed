@@ -1,7 +1,7 @@
 #
 Unit
 testing
-glean
+Glean
 metrics
 In
 order
@@ -14,7 +14,7 @@ of
 client
 applications
 using
-glean
+Glean
 a
 set
 of
@@ -30,7 +30,7 @@ intent
 is
 to
 make
-glean
+Glean
 easier
 to
 test
@@ -105,13 +105,13 @@ calls
 when
 unit
 testing
-glean
+Glean
 it
 is
 important
 to
 put
-glean
+Glean
 into
 testing
 mode
