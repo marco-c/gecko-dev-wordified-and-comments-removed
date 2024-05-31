@@ -1379,7 +1379,8 @@ expected
 .
 map
 (
-it
+(
+)
 =
 >
 0
