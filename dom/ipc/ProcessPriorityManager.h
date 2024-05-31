@@ -95,15 +95,6 @@ bool
 aPriority
 )
 ;
-static
-void
-RemoteBrowserFrameShown
-(
-nsFrameLoader
-*
-aFrameLoader
-)
-;
 private
 :
 ProcessPriorityManager

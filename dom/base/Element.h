@@ -479,9 +479,6 @@ class
 nsIHTMLCollection
 ;
 class
-nsIMozBrowserFrame
-;
-class
 nsIPrincipal
 ;
 class
@@ -1472,17 +1469,6 @@ IsInteractiveHTMLContent
 )
 const
 ;
-virtual
-nsIMozBrowserFrame
-*
-GetAsMozBrowserFrame
-(
-)
-{
-return
-nullptr
-;
-}
 NS_IMETHOD_
 (
 bool
