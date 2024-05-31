@@ -174,9 +174,6 @@ stringMetric
 =
 StringMetricType
 (
-applicationProperty
-=
-true
 disabled
 =
 false
@@ -185,6 +182,11 @@ category
 "
 telemetry
 "
+lifetime
+=
+Lifetime
+.
+Application
 name
 =
 "
@@ -198,9 +200,6 @@ listOf
 store1
 "
 )
-userProperty
-=
-false
 )
 /
 /
@@ -394,9 +393,6 @@ stringMetric
 =
 StringMetricType
 (
-applicationProperty
-=
-true
 disabled
 =
 false
@@ -405,6 +401,11 @@ category
 "
 telemetry
 "
+lifetime
+=
+Lifetime
+.
+Application
 name
 =
 "
@@ -418,9 +419,6 @@ listOf
 store1
 "
 )
-userProperty
-=
-false
 )
 stringMetric
 .
@@ -543,9 +541,6 @@ stringMetric
 =
 StringMetricType
 (
-applicationProperty
-=
-false
 disabled
 =
 true
@@ -554,6 +549,11 @@ category
 "
 telemetry
 "
+lifetime
+=
+Lifetime
+.
+Ping
 name
 =
 "
@@ -567,9 +567,6 @@ listOf
 store1
 "
 )
-userProperty
-=
-false
 )
 /
 /
@@ -674,9 +671,6 @@ stringMetric
 =
 StringMetricType
 (
-applicationProperty
-=
-true
 disabled
 =
 true
@@ -685,6 +679,11 @@ category
 "
 telemetry
 "
+lifetime
+=
+Lifetime
+.
+Application
 name
 =
 "
@@ -698,9 +697,6 @@ listOf
 store1
 "
 )
-userProperty
-=
-false
 )
 /
 /

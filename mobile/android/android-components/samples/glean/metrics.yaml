@@ -137,9 +137,9 @@ client_id
 type
 :
 uuid
-user_property
+lifetime
 :
-true
+user
 description
 :
 >

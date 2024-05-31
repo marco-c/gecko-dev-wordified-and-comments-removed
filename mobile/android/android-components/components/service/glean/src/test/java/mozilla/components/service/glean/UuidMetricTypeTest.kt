@@ -180,9 +180,6 @@ uuidMetric
 =
 UuidMetricType
 (
-applicationProperty
-=
-true
 disabled
 =
 false
@@ -191,6 +188,11 @@ category
 "
 telemetry
 "
+lifetime
+=
+Lifetime
+.
+Application
 name
 =
 "
@@ -204,9 +206,6 @@ listOf
 store1
 "
 )
-userProperty
-=
-false
 )
 /
 /
@@ -429,9 +428,6 @@ uuidMetric
 =
 UuidMetricType
 (
-applicationProperty
-=
-false
 disabled
 =
 true
@@ -440,6 +436,11 @@ category
 "
 telemetry
 "
+lifetime
+=
+Lifetime
+.
+Ping
 name
 =
 "
@@ -453,9 +454,6 @@ listOf
 store1
 "
 )
-userProperty
-=
-false
 )
 /
 /
@@ -557,9 +555,6 @@ uuidMetric
 =
 UuidMetricType
 (
-applicationProperty
-=
-true
 disabled
 =
 true
@@ -568,6 +563,11 @@ category
 "
 telemetry
 "
+lifetime
+=
+Lifetime
+.
+Application
 name
 =
 "
@@ -581,9 +581,6 @@ listOf
 store1
 "
 )
-userProperty
-=
-false
 )
 /
 /

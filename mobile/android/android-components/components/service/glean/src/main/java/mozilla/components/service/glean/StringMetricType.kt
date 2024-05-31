@@ -175,11 +175,6 @@ StringMetricType
 (
 override
 val
-applicationProperty
-:
-Boolean
-override
-val
 disabled
 :
 Boolean
@@ -188,6 +183,11 @@ val
 category
 :
 String
+override
+val
+lifetime
+:
+Lifetime
 override
 val
 name
@@ -201,11 +201,6 @@ List
 <
 String
 >
-override
-val
-userProperty
-:
-Boolean
 )
 :
 CommonMetricData
