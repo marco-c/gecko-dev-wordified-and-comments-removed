@@ -1629,6 +1629,9 @@ GENERIC_UTILITY
 :
 break
 ;
+#
+ifdef
+MOZ_APPLEMEDIA
 case
 ipc
 :
@@ -1669,6 +1672,8 @@ c_str
 }
 break
 ;
+#
+endif
 default
 :
 MOZ_ASSERT
