@@ -717,6 +717,12 @@ setSingleLine
 (
 true
 )
+isClickable
+=
+true
+isFocusable
+=
+true
 setOnClickListener
 {
 if
