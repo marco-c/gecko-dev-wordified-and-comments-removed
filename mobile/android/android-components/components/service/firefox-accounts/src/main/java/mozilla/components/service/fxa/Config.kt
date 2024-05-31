@@ -67,12 +67,10 @@ fxa
 typealias
 Config
 =
-org
-.
 mozilla
 .
-fxaclient
+appservices
 .
-internal
+fxaclient
 .
 Config

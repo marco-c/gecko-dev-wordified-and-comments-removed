@@ -65,13 +65,11 @@ service
 .
 fxa
 import
-org
-.
 mozilla
 .
-fxaclient
+appservices
 .
-internal
+fxaclient
 .
 Profile
 as

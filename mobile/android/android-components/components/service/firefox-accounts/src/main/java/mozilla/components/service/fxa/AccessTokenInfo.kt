@@ -71,13 +71,11 @@ json
 .
 JSONObject
 import
-org
-.
 mozilla
 .
-fxaclient
+appservices
 .
-internal
+fxaclient
 .
 AccessTokenInfo
 as
