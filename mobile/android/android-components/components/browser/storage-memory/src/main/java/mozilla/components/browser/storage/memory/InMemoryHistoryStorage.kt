@@ -715,6 +715,7 @@ urlMatch
 return
 HistoryAutocompleteResult
 (
+query
 urlMatch
 .
 matchedSegment

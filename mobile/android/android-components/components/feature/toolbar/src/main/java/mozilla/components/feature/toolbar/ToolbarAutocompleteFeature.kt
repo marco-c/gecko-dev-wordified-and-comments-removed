@@ -243,6 +243,7 @@ delegate
 .
 noAutocompleteResult
 (
+value
 )
 }
 }
@@ -430,6 +431,11 @@ AutocompleteResult
 return
 AutocompleteResult
 (
+input
+=
+this
+.
+input
 text
 =
 this
@@ -465,6 +471,11 @@ AutocompleteResult
 return
 AutocompleteResult
 (
+input
+=
+this
+.
+input
 text
 =
 this

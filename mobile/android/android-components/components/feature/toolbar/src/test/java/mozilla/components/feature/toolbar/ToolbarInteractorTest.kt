@@ -248,6 +248,7 @@ setAutocompleteListener
 (
 filter
 :
+suspend
 (
 String
 AutocompleteDelegate
