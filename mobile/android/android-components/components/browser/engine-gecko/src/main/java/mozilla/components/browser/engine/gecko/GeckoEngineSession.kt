@@ -2679,11 +2679,8 @@ createGeckoSession
 )
 notifyObservers
 {
-onCrashStateChange
+onCrash
 (
-crashed
-=
-true
 )
 }
 }
