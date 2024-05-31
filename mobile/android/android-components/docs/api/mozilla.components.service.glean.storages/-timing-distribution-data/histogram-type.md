@@ -78,6 +78,8 @@ components
 service
 .
 glean
+.
+metrics
 /
 -
 histogram
@@ -160,6 +162,8 @@ components
 service
 .
 glean
+.
+metrics
 /
 -
 histogram

@@ -78,6 +78,8 @@ components
 service
 .
 glean
+.
+metrics
 /
 -
 time
@@ -161,6 +163,8 @@ components
 service
 .
 glean
+.
+metrics
 /
 -
 time
