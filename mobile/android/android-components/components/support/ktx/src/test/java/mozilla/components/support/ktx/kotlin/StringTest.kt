@@ -800,6 +800,12 @@ isGeoLocation
 )
 )
 }
+Suppress
+(
+"
+Deprecation
+"
+)
 Test
 fun
 toUri
