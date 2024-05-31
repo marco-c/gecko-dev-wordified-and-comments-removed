@@ -95,9 +95,9 @@ content
 .
 Intent
 import
-junit
+org
 .
-framework
+junit
 .
 Assert
 .

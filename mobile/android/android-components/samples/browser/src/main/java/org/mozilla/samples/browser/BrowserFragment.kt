@@ -145,6 +145,18 @@ components
 .
 feature
 .
+downloads
+.
+SimpleDownloadDialogFragment
+.
+DownloadDialogListener
+import
+mozilla
+.
+components
+.
+feature
+.
 session
 .
 SessionFeature
@@ -203,6 +215,7 @@ Fragment
 (
 )
 BackHandler
+DownloadDialogListener
 {
 private
 lateinit
@@ -358,6 +371,9 @@ sessionManager
 components
 .
 sessionManager
+fragmentManager
+=
+childFragmentManager
 )
 downloadsFeature
 .
