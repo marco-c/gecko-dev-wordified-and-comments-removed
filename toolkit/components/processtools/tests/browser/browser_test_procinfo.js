@@ -161,7 +161,7 @@ processCpuTime
 =
 Math
 .
-ceil
+floor
 (
 proc
 .
@@ -169,6 +169,8 @@ cpuTime
 /
 NS_PER_MS
 )
++
+1
 ;
 if
 (
