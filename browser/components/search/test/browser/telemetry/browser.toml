@@ -163,6 +163,11 @@ searchTelemetryAd_components_visibility
 html
 "
 "
+searchTelemetryAd_components_cookie_banner
+.
+html
+"
+"
 serp
 .
 css
