@@ -1618,10 +1618,7 @@ TestFuncConstructor
 Func
 =
 "
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
+IsNotUAWidget
 "
 ]
 constructor
@@ -1727,10 +1724,7 @@ func
 =
 [
 "
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
+IsNotUAWidget
 "
 ]
     
@@ -1783,10 +1777,7 @@ SecureContext
 Func
 =
 "
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
+IsNotUAWidget
 "
 ]
 \
@@ -1902,10 +1893,7 @@ func
 =
 [
 "
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
+IsNotUAWidget
 "
 ]
         

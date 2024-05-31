@@ -11052,10 +11052,7 @@ Window
 Func
 =
 "
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
+IsNotUAWidget
 "
 ]
 interface
@@ -11130,10 +11127,7 @@ Func
 Func
 =
 "
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
+IsNotUAWidget
 "
 ]
 constructor
@@ -11188,10 +11182,7 @@ func
 Func
 =
 "
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
+IsNotUAWidget
 "
 ]
 constructor
@@ -11223,10 +11214,7 @@ SecureContext
 Func
 =
 "
-Document
-:
-:
-IsWebAnimationsGetAnimationsEnabled
+IsNotUAWidget
 "
 ]
 /
