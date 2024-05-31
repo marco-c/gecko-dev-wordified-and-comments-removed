@@ -59,12 +59,7 @@ MPL
 uniform
 HIGHP_SAMPLER_FLOAT
 sampler2D
-sGpuBufferF
-;
-uniform
-HIGHP_SAMPLER_FLOAT
-sampler2D
-sGpuBufferI
+sGpuBuffer
 ;
 ivec2
 get_gpu_buffer_uv
@@ -93,7 +88,7 @@ WR_MAX_VERTEX_TEXTURE_WIDTH
 ;
 }
 vec4
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_buffer_1
 (
 HIGHP_FS_ADDRESS
 int
@@ -111,7 +106,7 @@ address
 return
 texelFetch
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 )
@@ -121,7 +116,7 @@ vec4
 [
 2
 ]
-fetch_from_gpu_buffer_2f
+fetch_from_gpu_buffer_2
 (
 HIGHP_FS_ADDRESS
 int
@@ -144,7 +139,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2
@@ -155,7 +150,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2
@@ -171,7 +166,7 @@ vec4
 [
 3
 ]
-fetch_from_gpu_buffer_3f
+fetch_from_gpu_buffer_3
 (
 HIGHP_FS_ADDRESS
 int
@@ -194,7 +189,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2
@@ -205,7 +200,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2
@@ -216,7 +211,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2
@@ -232,7 +227,7 @@ vec4
 [
 4
 ]
-fetch_from_gpu_buffer_4f
+fetch_from_gpu_buffer_4
 (
 HIGHP_FS_ADDRESS
 int
@@ -255,7 +250,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2
@@ -266,7 +261,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2
@@ -277,7 +272,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2
@@ -288,7 +283,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sGpuBufferF
+sGpuBuffer
 uv
 0
 ivec2

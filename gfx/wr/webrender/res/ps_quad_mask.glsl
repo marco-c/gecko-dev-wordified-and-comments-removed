@@ -214,7 +214,7 @@ texels
 3
 ]
 =
-fetch_from_gpu_buffer_3f
+fetch_from_gpu_buffer_3
 (
 index
 )
@@ -267,7 +267,7 @@ texels
 4
 ]
 =
-fetch_from_gpu_buffer_4f
+fetch_from_gpu_buffer_4
 (
 index
 )

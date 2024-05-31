@@ -230,7 +230,7 @@ texels
 2
 ]
 =
-fetch_from_gpu_buffer_2f
+fetch_from_gpu_buffer_2
 (
 base
 +
@@ -290,7 +290,7 @@ texels
 3
 ]
 =
-fetch_from_gpu_buffer_3f
+fetch_from_gpu_buffer_3
 (
 index
 )

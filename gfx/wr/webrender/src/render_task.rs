@@ -200,7 +200,7 @@ renderer
 :
 {
 GpuBufferAddress
-GpuBufferBuilderF
+GpuBufferBuilder
 }
 ;
 use
@@ -2911,7 +2911,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilderF
+GpuBufferBuilder
 resource_cache
 :
 &
