@@ -2012,16 +2012,6 @@ data
 )
 {
 const
-probeInfo
-=
-JSON
-.
-parse
-(
-data
-)
-;
-const
 actor
 =
 getActor
@@ -2043,7 +2033,7 @@ Parent
 :
 reportTelemetry
 "
-probeInfo
+data
 )
 ;
 }
