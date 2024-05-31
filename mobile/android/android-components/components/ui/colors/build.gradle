@@ -129,6 +129,11 @@ dependencies
 /
 None
 }
+archivesBaseName
+=
+"
+colors
+"
 apply
 from
 :

@@ -250,6 +250,11 @@ core
 0
 '
 }
+archivesBaseName
+=
+"
+utils
+"
 apply
 from
 :

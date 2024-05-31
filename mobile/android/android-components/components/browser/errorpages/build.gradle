@@ -238,6 +238,11 @@ stdlib
 kotlin_version
 "
 }
+archivesBaseName
+=
+"
+errorpages
+"
 apply
 from
 :

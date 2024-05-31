@@ -232,6 +232,11 @@ core
 0
 '
 }
+archivesBaseName
+=
+"
+ktx
+"
 apply
 from
 :
