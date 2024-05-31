@@ -5341,6 +5341,16 @@ true
 name
 :
 "
+RTCIceTransport
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 RTCPeerConnection
 "
 insecureContext

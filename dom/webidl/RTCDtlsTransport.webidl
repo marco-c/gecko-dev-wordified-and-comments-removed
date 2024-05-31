@@ -158,6 +158,14 @@ RTCDtlsTransport
 :
 EventTarget
 {
+[
+SameObject
+]
+readonly
+attribute
+RTCIceTransport
+iceTransport
+;
 readonly
 attribute
 RTCDtlsTransportState
