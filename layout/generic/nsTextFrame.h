@@ -1929,6 +1929,8 @@ PaintDecorationLine
 (
 Rect
 aPath
+bool
+aPaintingShadows
 nscolor
 aColor
 )
@@ -1940,6 +1942,8 @@ PaintSelectionDecorationLine
 (
 Rect
 aPath
+bool
+aPaintingShadows
 nscolor
 aColor
 )
@@ -1949,6 +1953,8 @@ virtual
 void
 NotifyBeforeText
 (
+bool
+aPaintingShadows
 nscolor
 aColor
 )
