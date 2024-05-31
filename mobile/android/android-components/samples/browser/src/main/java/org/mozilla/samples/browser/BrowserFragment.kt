@@ -788,6 +788,9 @@ sessionManager
 components
 .
 sessionManager
+sessionId
+=
+sessionId
 fragmentManager
 =
 requireFragmentManager
@@ -843,6 +846,9 @@ sessionManager
 components
 .
 sessionManager
+sessionId
+=
+sessionId
 fragmentManager
 =
 requireFragmentManager

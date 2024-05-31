@@ -783,6 +783,14 @@ sessionManager
 :
 SessionManager
 private
+var
+sessionId
+:
+String
+?
+=
+null
+private
 val
 fragmentManager
 :
@@ -900,8 +908,9 @@ start
 {
 observer
 .
-observeSelected
+observeIdOrSelected
 (
+sessionId
 )
 fragmentManager
 .
