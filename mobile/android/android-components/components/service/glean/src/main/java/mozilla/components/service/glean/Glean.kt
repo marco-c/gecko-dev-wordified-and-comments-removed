@@ -287,7 +287,7 @@ var
 pingMaker
 :
 PingMaker
-private
+internal
 lateinit
 var
 configuration
@@ -413,10 +413,6 @@ Context
 configuration
 :
 Configuration
-=
-Configuration
-(
-)
 )
 {
 if
@@ -789,7 +785,11 @@ return
 /
 submit
 /
-glean
+{
+configuration
+.
+applicationId
+}
 /
 docType
 /
