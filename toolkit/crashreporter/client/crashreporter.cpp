@@ -4190,6 +4190,19 @@ string
 >
 restartArgs
 ;
+if
+(
+!
+extraData
+.
+isMember
+(
+"
+WindowsErrorReporting
+"
+)
+)
+{
 string
 programPath
 =
@@ -4321,6 +4334,7 @@ c_str
 )
 )
 ;
+}
 }
 char
 *
