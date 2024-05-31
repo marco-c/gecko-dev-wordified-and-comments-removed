@@ -133,6 +133,13 @@ CKM_ECDSA
 }
 {
 "
+EDDSA
+"
+SECMOD_ECC_FLAG
+CKM_EDDSA
+}
+{
+"
 DH
 "
 SECMOD_DH_FLAG
@@ -4057,6 +4064,12 @@ return
 &
 pk11_dhSlotList
 ;
+case
+CKM_EDDSA
+:
+case
+CKM_EC_EDWARDS_KEY_PAIR_GEN
+:
 case
 CKM_ECDSA
 :

@@ -941,6 +941,9 @@ break
 case
 ecKey
 :
+case
+edKey
+:
 PK11_SETATTRS
 (
 &
@@ -1013,6 +1016,15 @@ keyType
 !
 =
 ecKey
+&
+&
+pubKey
+-
+>
+keyType
+!
+=
+edKey
 )
 {
 pk11_SignedToUnsigned
@@ -5207,6 +5219,9 @@ break
 ;
 case
 ecKey
+:
+case
+edKey
 :
 newItem
 =

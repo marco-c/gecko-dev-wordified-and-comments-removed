@@ -64,10 +64,6 @@ ex_sender
 }
 sslExtensionBuilder
 ;
-typedef
-PRUint16
-SSLCertificateCompressionAlgorithmID
-;
 struct
 TLSExtensionDataStr
 {

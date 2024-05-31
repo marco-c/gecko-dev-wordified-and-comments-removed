@@ -2394,7 +2394,7 @@ PRFileDesc
 *
 _fd
 \
-SSLCertificateCompressionAlgorithmType
+SSLCertificateCompressionAlgorithm
 t
 )
 \

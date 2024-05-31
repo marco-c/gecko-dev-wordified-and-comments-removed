@@ -9357,6 +9357,16 @@ crv
 break
 ;
 case
+edKey
+:
+PORT_SetError
+(
+SEC_ERROR_BAD_KEY
+)
+;
+break
+;
+case
 ecKey
 :
 {

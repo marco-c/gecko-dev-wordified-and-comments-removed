@@ -134,6 +134,7 @@ ECCurve_WTLS_1
 ECCurve_WTLS_8
 ECCurve_WTLS_9
 ECCurve25519
+ECCurve_Ed25519
 ECCurve_pastLastCurve
 }
 ECCurveName

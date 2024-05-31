@@ -2598,6 +2598,9 @@ key
 )
 ;
 case
+edKey
+:
+case
 ecKey
 :
 rv

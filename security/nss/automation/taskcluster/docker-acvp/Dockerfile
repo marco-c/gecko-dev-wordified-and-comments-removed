@@ -14,7 +14,7 @@ rust
 :
 1
 .
-70
+74
 LABEL
 maintainer
 =
@@ -109,10 +109,6 @@ mercurial
 python3
 -
 pip
-\
-python
--
-setuptools
 \
 build
 -

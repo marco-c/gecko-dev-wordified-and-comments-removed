@@ -452,6 +452,9 @@ SHAKE_256_Hash
 Kyber_NewKey
 Kyber_Encapsulate
 Kyber_Decapsulate
+ED_SignMessage
+ED_VerifyMessage
+ED_DerivePublicKey
 }
 ;
 const

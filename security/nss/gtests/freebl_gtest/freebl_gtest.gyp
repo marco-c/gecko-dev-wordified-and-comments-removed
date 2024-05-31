@@ -378,6 +378,11 @@ rsa_unittest
 cc
 '
 '
+ed25519_unittest
+.
+cc
+'
+'
 <
 (
 DEPTH

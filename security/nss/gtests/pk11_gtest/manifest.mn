@@ -122,6 +122,10 @@ pk11_ecdsa_unittest
 .
 cc
 \
+pk11_eddsa_unittest
+.
+cc
+\
 pk11_ecdh_unittest
 .
 cc
@@ -175,6 +179,10 @@ pk11_key_unittest
 cc
 \
 pk11_module_unittest
+.
+cc
+\
+pk11_pbe_unittest
 .
 cc
 \

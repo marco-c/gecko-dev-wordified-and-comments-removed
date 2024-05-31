@@ -493,6 +493,9 @@ build
 hacl
 "
 "
+acvp
+"
+"
 ecckiila
 "
 "

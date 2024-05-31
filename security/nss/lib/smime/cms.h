@@ -1418,6 +1418,15 @@ envd
 )
 ;
 extern
+PRBool
+NSS_CMSRecipient_IsSupported
+(
+CERTCertificate
+*
+cert
+)
+;
+extern
 NSSCMSRecipientInfo
 *
 NSS_CMSRecipientInfo_Create
