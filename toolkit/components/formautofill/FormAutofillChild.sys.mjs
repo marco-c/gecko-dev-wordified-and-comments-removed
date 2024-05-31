@@ -1705,15 +1705,9 @@ target
 nodePrincipal
 ;
 return
-(
 nodePrincipal
 .
 isSystemPrincipal
-|
-|
-nodePrincipal
-.
-isNullPrincipal
 |
 |
 nodePrincipal
@@ -1723,7 +1717,6 @@ schemeIs
 "
 about
 "
-)
 )
 ;
 }
