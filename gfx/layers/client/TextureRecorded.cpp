@@ -583,6 +583,14 @@ IsDirty
 )
 )
 {
+mCanvasChild
+-
+>
+AttachSurface
+(
+mSnapshotWrapper
+)
+;
 return
 do_AddRef
 (
