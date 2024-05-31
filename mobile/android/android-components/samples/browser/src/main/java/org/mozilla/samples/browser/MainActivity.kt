@@ -225,6 +225,7 @@ toolbarFeature
 =
 ToolbarFeature
 (
+toolbar
 components
 .
 sessionProvider
@@ -235,7 +236,9 @@ components
 sessionUseCases
 .
 loadUrl
-toolbar
+components
+.
+defaultSearchUseCase
 )
 components
 .

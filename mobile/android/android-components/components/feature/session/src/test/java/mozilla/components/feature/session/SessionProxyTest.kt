@@ -230,6 +230,14 @@ url
 )
 assertEquals
 (
+"
+"
+session
+.
+searchTerms
+)
+assertEquals
+(
 100
 session
 .

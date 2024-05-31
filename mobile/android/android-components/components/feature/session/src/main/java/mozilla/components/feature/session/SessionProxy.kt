@@ -152,6 +152,12 @@ session
 url
 =
 url
+session
+.
+searchTerms
+=
+"
+"
 }
 override
 fun
