@@ -136,7 +136,7 @@ SessionManager
 .
 kt
 #
-L32
+L30
 )
 Returns
 the

@@ -152,7 +152,7 @@ Session
 .
 kt
 #
-L23
+L22
 )
 Checks
 if

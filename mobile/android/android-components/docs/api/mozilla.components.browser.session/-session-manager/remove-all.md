@@ -140,7 +140,7 @@ SessionManager
 .
 kt
 #
-L198
+L196
 )
 Removes
 all

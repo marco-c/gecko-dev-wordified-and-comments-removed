@@ -132,7 +132,7 @@ BrowserAction
 .
 kt
 #
-L31
+L37
 )
 Marks
 the
@@ -376,4 +376,15 @@ index
 .
 html
 )
+<
+br
+>
+the
+ID
+of
+the
+tab
+to
+select
+.
 |

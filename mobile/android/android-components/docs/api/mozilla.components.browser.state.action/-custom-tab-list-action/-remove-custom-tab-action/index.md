@@ -132,7 +132,7 @@ BrowserAction
 .
 kt
 #
-L71
+L88
 )
 Removes
 an
@@ -424,4 +424,16 @@ index
 .
 html
 )
+<
+br
+>
+the
+ID
+of
+the
+custom
+tab
+to
+remove
+.
 |
