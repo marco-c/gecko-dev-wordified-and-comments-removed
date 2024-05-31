@@ -732,6 +732,11 @@ context
 .
 apply
 {
+visibility
+=
+View
+.
+GONE
 id
 =
 R
