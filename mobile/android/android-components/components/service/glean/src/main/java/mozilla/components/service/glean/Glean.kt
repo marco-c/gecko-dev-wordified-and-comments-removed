@@ -708,6 +708,9 @@ initializeCoreMetrics
 (
 applicationContext
 )
+initialized
+=
+true
 /
 /
 Deal
@@ -785,9 +788,6 @@ metricsPingScheduler
 startupCheck
 (
 )
-initialized
-=
-true
 /
 /
 Other
