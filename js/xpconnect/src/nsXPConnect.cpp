@@ -720,13 +720,6 @@ NS_LogDtor
 ;
 #
 endif
-ReadOnlyPage
-:
-:
-Init
-(
-)
-;
 gSelf
 =
 new

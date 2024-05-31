@@ -262,6 +262,14 @@ loader
 "
 "
 /
+js
+/
+xpconnect
+/
+src
+"
+"
+/
 layout
 /
 build
