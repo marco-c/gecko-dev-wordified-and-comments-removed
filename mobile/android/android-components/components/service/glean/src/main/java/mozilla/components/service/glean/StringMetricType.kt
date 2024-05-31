@@ -458,7 +458,7 @@ Dispatchers
 .
 API
 .
-awaitJob
+assertInTestingMode
 (
 )
 return
@@ -606,7 +606,7 @@ Dispatchers
 .
 API
 .
-awaitJob
+assertInTestingMode
 (
 )
 return

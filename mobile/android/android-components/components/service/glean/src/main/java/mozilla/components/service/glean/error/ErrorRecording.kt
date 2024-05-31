@@ -748,7 +748,7 @@ Dispatchers
 .
 API
 .
-awaitJob
+assertInTestingMode
 (
 )
 val

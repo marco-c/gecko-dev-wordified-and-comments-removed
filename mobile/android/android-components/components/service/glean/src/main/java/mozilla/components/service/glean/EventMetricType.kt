@@ -564,7 +564,7 @@ Dispatchers
 .
 API
 .
-awaitJob
+assertInTestingMode
 (
 )
 val
@@ -727,7 +727,7 @@ Dispatchers
 .
 API
 .
-awaitJob
+assertInTestingMode
 (
 )
 return
