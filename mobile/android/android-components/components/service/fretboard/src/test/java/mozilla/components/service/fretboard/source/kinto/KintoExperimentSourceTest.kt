@@ -251,6 +251,7 @@ KintoExperimentSource
 baseUrl
 bucketName
 collectionName
+false
 httpClient
 )
 val
@@ -482,6 +483,7 @@ KintoExperimentSource
 baseUrl
 bucketName
 collectionName
+false
 httpClient
 )
 val
@@ -768,6 +770,7 @@ KintoExperimentSource
 baseUrl
 bucketName
 collectionName
+false
 httpClient
 )
 val
@@ -1040,6 +1043,7 @@ KintoExperimentSource
 baseUrl
 bucketName
 collectionName
+false
 httpClient
 )
 val
@@ -1351,6 +1355,7 @@ KintoExperimentSource
 baseUrl
 bucketName
 collectionName
+false
 httpClient
 )
 val
@@ -1513,6 +1518,7 @@ KintoExperimentSource
 baseUrl
 bucketName
 collectionName
+false
 httpClient
 )
 val
