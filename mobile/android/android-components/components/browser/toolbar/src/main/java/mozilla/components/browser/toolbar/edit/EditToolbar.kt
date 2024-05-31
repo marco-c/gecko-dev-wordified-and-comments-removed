@@ -783,10 +783,10 @@ setOnClickListener
 {
 urlView
 .
-text
-.
-clear
+setText
 (
+"
+"
 )
 }
 }
