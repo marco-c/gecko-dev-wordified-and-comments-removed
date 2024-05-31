@@ -1098,11 +1098,7 @@ saveState
 (
 )
 :
-Map
-<
-String
-Any
->
+EngineSessionState
 /
 *
 *
@@ -1136,11 +1132,7 @@ restoreState
 (
 state
 :
-Map
-<
-String
-Any
->
+EngineSessionState
 )
 /
 *

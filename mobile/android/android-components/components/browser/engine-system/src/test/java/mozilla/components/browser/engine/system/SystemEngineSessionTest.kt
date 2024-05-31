@@ -1383,8 +1383,11 @@ engineSession
 .
 restoreState
 (
-emptyMap
+SystemEngineSessionState
 (
+Bundle
+(
+)
 )
 )
 verify
@@ -1424,8 +1427,11 @@ engineSession
 .
 restoreState
 (
-emptyMap
+SystemEngineSessionState
 (
+Bundle
+(
+)
 )
 )
 verify
