@@ -995,6 +995,7 @@ Theme_Mozac_CrashReporter
 companion
 object
 {
+Volatile
 private
 var
 instance
