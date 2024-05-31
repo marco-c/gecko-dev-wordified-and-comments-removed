@@ -148,7 +148,7 @@ pro
 }
 dependencies
 {
-implementation
+api
 project
 (
 '
