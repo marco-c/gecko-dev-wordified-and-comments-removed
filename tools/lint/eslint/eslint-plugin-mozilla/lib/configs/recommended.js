@@ -1116,17 +1116,6 @@ error
 "
 no
 -
-case
--
-declarations
-"
-:
-"
-off
-"
-"
-no
--
 console
 "
 :
