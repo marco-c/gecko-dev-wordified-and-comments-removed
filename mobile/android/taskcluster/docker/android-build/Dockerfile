@@ -57,17 +57,6 @@ ARG
 DOCKER_IMAGE_PARENT
 FROM
 DOCKER_IMAGE_PARENT
-MAINTAINER
-Johan
-Lorenzo
-<
-jlorenzo
-+
-tc
-mozilla
-.
-com
->
 VOLUME
 /
 builds
