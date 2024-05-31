@@ -262,7 +262,13 @@ testing
 :
 Return
 (
-DurationMs
+webrtc
+:
+:
+TimeDelta
+:
+:
+Millis
 (
 123
 )
@@ -372,7 +378,10 @@ override
 ;
 MOCK_METHOD
 (
-DurationMs
+webrtc
+:
+:
+TimeDelta
 current_rto
 (
 )

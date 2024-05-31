@@ -139,7 +139,10 @@ rtt_ms
 0
 ;
 virtual
-DurationMs
+webrtc
+:
+:
+TimeDelta
 current_rto
 (
 )

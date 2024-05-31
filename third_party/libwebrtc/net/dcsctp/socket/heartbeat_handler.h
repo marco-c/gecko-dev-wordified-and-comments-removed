@@ -188,7 +188,10 @@ TimerManager
 timer_manager_
 ;
 const
-DurationMs
+webrtc
+:
+:
+TimeDelta
 interval_duration_
 ;
 const
