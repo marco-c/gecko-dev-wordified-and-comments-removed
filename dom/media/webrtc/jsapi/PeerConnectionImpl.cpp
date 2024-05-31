@@ -24298,6 +24298,16 @@ MediaPacket
 aPacket
 )
 {
+if
+(
+call
+-
+>
+Call
+(
+)
+)
+{
 call
 -
 >
@@ -24331,6 +24341,7 @@ len
 )
 )
 ;
+}
 }
 )
 ;
