@@ -333,6 +333,8 @@ pagedList
 !
 !
 .
+collection
+.
 title
 )
 assertEquals
@@ -347,6 +349,8 @@ pagedList
 ]
 !
 !
+.
+collection
 .
 title
 )
@@ -482,6 +486,8 @@ pagedList
 !
 !
 .
+collection
+.
 title
 )
 assertEquals
@@ -496,6 +502,8 @@ pagedList
 ]
 !
 !
+.
+collection
 .
 title
 )
@@ -643,6 +651,8 @@ pagedList
 !
 !
 .
+collection
+.
 title
 )
 assertEquals
@@ -657,6 +667,8 @@ pagedList
 ]
 !
 !
+.
+collection
 .
 title
 )
