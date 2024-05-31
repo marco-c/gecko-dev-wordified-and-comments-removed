@@ -494,16 +494,6 @@ codec
 const
 ;
 bool
-MatchesWithoutPacketization
-(
-const
-Codec
-&
-codec
-)
-const
-;
-bool
 MatchesRtpCodec
 (
 const
