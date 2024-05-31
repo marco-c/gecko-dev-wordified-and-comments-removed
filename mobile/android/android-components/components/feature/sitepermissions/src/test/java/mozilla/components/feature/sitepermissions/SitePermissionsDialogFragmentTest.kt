@@ -892,6 +892,12 @@ id
 .
 do_not_ask_again
 )
+assertTrue
+(
+fragment
+.
+userSelectionCheckBox
+)
 assertFalse
 (
 checkBox

@@ -52,6 +52,13 @@ layout_height
 "
 wrap_content
 "
+tools
+:
+ignore
+=
+"
+Overdraw
+"
 android
 :
 background
