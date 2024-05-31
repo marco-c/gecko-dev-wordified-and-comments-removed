@@ -5319,6 +5319,16 @@ sourceObject
 )
 )
 ;
+MOZ_ASSERT
+(
+script
+-
+>
+filename
+(
+)
+)
+;
 initReservedSlot
 (
 ScriptSlot

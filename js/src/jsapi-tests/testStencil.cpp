@@ -549,6 +549,15 @@ options
 cx
 )
 ;
+options
+.
+setFile
+(
+"
+testStencil_Module
+"
+)
+;
 RefPtr
 <
 JS
