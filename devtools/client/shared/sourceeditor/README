@@ -93,7 +93,7 @@ codemirror6
 .
 bundle
 .
-js
+mjs
 )
 using
 rollup
