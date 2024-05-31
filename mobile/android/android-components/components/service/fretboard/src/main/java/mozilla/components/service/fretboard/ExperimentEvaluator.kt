@@ -697,12 +697,12 @@ Int
 val
 uuid
 =
-DeviceUuidFactory
+valuesProvider
+.
+getClientId
 (
 context
 )
-.
-uuid
 val
 crc
 =
