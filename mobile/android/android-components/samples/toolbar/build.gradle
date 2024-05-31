@@ -215,6 +215,16 @@ project
 (
 '
 :
+feature
+-
+toolbar
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 ktx
