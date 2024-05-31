@@ -138,7 +138,7 @@ implementation
 Dependencies
 .
 firebase_core
-implementation
+api
 Dependencies
 .
 firebase_messaging
