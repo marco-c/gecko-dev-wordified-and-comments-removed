@@ -211,11 +211,9 @@ mozilla
 .
 components
 .
-browser
+lib
 .
-session
-.
-action
+state
 /
 -
 action

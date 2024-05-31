@@ -56,7 +56,6 @@ md
 )
 #
 onMeasure
-protected
 fun
 onMeasure
 (

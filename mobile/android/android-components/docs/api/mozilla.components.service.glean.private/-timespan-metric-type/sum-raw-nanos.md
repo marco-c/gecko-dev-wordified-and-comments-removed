@@ -177,7 +177,7 @@ TimespanMetricType
 .
 kt
 #
-L96
+L116
 )
 Add
 an
@@ -224,14 +224,10 @@ md
 )
 /
 [
-stopAndSum
+stop
 ]
 (
 stop
--
-and
--
-sum
 .
 md
 )

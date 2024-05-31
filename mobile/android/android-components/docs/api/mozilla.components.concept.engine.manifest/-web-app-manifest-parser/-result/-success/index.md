@@ -153,7 +153,7 @@ WebAppManifestParser
 .
 kt
 #
-L25
+L27
 )
 The
 JSON

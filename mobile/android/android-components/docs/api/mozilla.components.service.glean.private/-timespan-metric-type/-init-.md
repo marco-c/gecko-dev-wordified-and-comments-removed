@@ -305,7 +305,7 @@ yaml
 file
 .
 The
-timespans
+timespan
 API
 exposes
 the
@@ -318,14 +318,10 @@ start
 md
 )
 [
-stopAndSum
+stop
 ]
 (
 stop
--
-and
--
-sum
 .
 md
 )

@@ -183,7 +183,7 @@ TimingDistributionMetricType
 .
 kt
 #
-L105
+L99
 )
 Tests
 whether

@@ -62,7 +62,6 @@ md
 )
 #
 onDetachedFromWindow
-protected
 fun
 onDetachedFromWindow
 (
