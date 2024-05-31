@@ -439,6 +439,14 @@ getLaunchIntentForPackage
 (
 packageName
 )
+if
+(
+launchIntent
+!
+=
+null
+)
+{
 launchIntent
 .
 flags
@@ -454,6 +462,7 @@ startActivity
 (
 launchIntent
 )
+}
 finish
 (
 )
