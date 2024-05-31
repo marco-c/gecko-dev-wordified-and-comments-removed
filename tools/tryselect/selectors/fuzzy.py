@@ -690,6 +690,14 @@ profile
 "
         
 "
+new
+-
+test
+-
+config
+"
+        
+"
 path
 "
         
@@ -785,6 +793,10 @@ push_to_lando
 False
     
 show_chunk_numbers
+=
+False
+    
+new_test_config
 =
 False
 )
@@ -1475,37 +1487,6 @@ save_query
         
 return
 queries
-    
-if
-not
-show_chunk_numbers
-:
-        
-selected
-=
-set
-(
-            
-task_name
-            
-for
-task_name
-task
-in
-all_tasks
-.
-items
-(
-)
-            
-if
-task
-.
-chunk_pattern
-in
-selected
-        
-)
     
 msg
 =

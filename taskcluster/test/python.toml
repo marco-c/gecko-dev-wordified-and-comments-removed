@@ -41,3 +41,10 @@ test_mozilla_central
 py
 "
 ]
+[
+"
+test_new_config
+.
+py
+"
+]

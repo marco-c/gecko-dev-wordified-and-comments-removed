@@ -2375,6 +2375,31 @@ try_tests
             
 )
         
+if
+self
+.
+config
+.
+get
+(
+"
+restartAfterFailure
+"
+False
+)
+:
+            
+cmd
+.
+append
+(
+"
+-
+-
+restartAfterFailure
+"
+)
+        
 return
 cmd
     
