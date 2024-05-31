@@ -61,9 +61,11 @@ mozilla
 .
 components
 .
-feature
+concept
 .
 session
+.
+storage
 import
 mozilla
 .
