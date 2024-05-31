@@ -2138,6 +2138,11 @@ GetSelections
 )
 )
 {
+if
+(
+selection
+)
+{
 ancestorSelections
 .
 Insert
@@ -2145,6 +2150,7 @@ Insert
 selection
 )
 ;
+}
 }
 }
 }
