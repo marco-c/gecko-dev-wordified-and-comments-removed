@@ -255,6 +255,8 @@ self
 module
 entry_point
 :
+Some
+(
 cow_label
 (
 &
@@ -265,6 +267,7 @@ entry_point
 .
 unwrap
 (
+)
 )
 }
 }

@@ -919,9 +919,8 @@ scalar_components
 =
 members
 .
-get
+first
 (
-0
 )
 .
 and_then

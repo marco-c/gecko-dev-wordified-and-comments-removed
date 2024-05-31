@@ -2361,7 +2361,7 @@ parse_declaration
 frontend
 ctx
 false
-false
+is_inside_loop
 )
 ?
 ;

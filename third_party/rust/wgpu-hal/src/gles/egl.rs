@@ -4638,6 +4638,16 @@ platform
 "
 )
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+unnecessary_literal_unwrap
+)
+]
 let
 egl
 =

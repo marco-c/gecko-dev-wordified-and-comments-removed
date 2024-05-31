@@ -16,6 +16,10 @@ doc_auto_cfg
 [
 allow
 (
+clippy
+:
+:
+arc_with_non_send_sync
 unknown_lints
 clippy
 :

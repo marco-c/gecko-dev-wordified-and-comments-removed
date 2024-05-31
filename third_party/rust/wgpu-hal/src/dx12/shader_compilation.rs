@@ -59,7 +59,7 @@ Device
 source
 :
 &
-String
+str
 source_name
 :
 &
