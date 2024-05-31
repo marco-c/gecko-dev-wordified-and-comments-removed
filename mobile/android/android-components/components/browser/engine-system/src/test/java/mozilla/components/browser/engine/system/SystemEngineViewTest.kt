@@ -4358,7 +4358,7 @@ fullScreenCallback
 assertEquals
 (
 "
-mosac_system_engine_fullscreen
+mozac_system_engine_fullscreen
 "
 view
 .
@@ -4554,7 +4554,7 @@ View
 >
 (
 "
-mosac_system_engine_fullscreen
+mozac_system_engine_fullscreen
 "
 )
 .
@@ -4631,7 +4631,7 @@ not_fullscreen
 tag
 =
 "
-mosac_system_engine_fullscreen
+mozac_system_engine_fullscreen
 "
 engineView
 .
