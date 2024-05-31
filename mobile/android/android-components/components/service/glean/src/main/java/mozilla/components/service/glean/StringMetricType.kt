@@ -65,6 +65,12 @@ service
 .
 glean
 import
+kotlinx
+.
+coroutines
+.
+launch
+import
 mozilla
 .
 components
@@ -378,6 +384,12 @@ MAX_LENGTH_VALUE
 }
 it
 }
+Dispatchers
+.
+API
+.
+launch
+{
 /
 /
 Delegate
@@ -394,9 +406,11 @@ StringsStorageEngine
 record
 (
 this
+StringMetricType
 value
 =
 truncatedValue
 )
+}
 }
 }

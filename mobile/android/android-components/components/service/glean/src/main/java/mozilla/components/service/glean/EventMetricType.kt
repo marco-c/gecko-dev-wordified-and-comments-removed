@@ -65,6 +65,12 @@ service
 .
 glean
 import
+kotlinx
+.
+coroutines
+.
+launch
+import
 mozilla
 .
 components
@@ -813,6 +819,12 @@ MAX_LENGTH_EXTRA_KEY_VALUE
 }
 eventKeys
 }
+Dispatchers
+.
+API
+.
+launch
+{
 /
 /
 Delegate
@@ -849,5 +861,6 @@ extra
 =
 truncatedExtraKeys
 )
+}
 }
 }
