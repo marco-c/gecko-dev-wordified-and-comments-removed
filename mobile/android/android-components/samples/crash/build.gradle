@@ -173,6 +173,16 @@ project
 (
 '
 :
+service
+-
+glean
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 base
