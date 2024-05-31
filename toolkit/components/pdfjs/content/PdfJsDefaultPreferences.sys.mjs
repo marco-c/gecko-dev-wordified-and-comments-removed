@@ -171,6 +171,9 @@ false
 enableHighlightEditor
 :
 false
+enableML
+:
+false
 enablePermissions
 :
 false
