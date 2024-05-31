@@ -98,7 +98,6 @@ import
 {
 getTruncatedFileName
 getDisplayPath
-getSourceQueryString
 getFileURL
 }
 from
@@ -273,14 +272,6 @@ source
 sources
 )
 ;
-const
-query
-=
-getSourceQueryString
-(
-source
-)
-;
 return
 div
 (
@@ -372,7 +363,6 @@ filename
 getTruncatedFileName
 (
 source
-query
 )
 path
 &
