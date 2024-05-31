@@ -18,11 +18,6 @@ TestBufferedInputStream
 cpp
 "
 "
-TestCacheControlParser
-.
-cpp
-"
-"
 TestCommon
 .
 cpp
@@ -270,14 +265,6 @@ base
 netwerk
 /
 cookie
-"
-"
-/
-netwerk
-/
-protocol
-/
-http
 "
 "
 /
