@@ -533,15 +533,11 @@ thing
 interface
 .
 filename
-(
-)
 !
 =
 thing
 .
 filename
-(
-)
 :
                     
 raise
@@ -683,15 +679,11 @@ if
 partial
 .
 filename
-(
-)
 !
 =
 thing
 .
 filename
-(
-)
 :
                         
 raise
@@ -852,8 +844,6 @@ isInWebIDLRoot
 iface
 .
 filename
-(
-)
 )
                 
 )
@@ -1132,8 +1122,6 @@ d
 interface
 .
 filename
-(
-)
 [
 ]
 )
@@ -1266,8 +1254,6 @@ if
 t
 .
 filename
-(
-)
 not
 in
 filenamesForUnion
@@ -1277,8 +1263,6 @@ if
 t
 .
 filename
-(
-)
 =
 =
 "
@@ -1307,8 +1291,6 @@ uniqueFilenameForUnion
 t
 .
 filename
-(
-)
                 
 else
 :
@@ -1408,8 +1390,6 @@ add
 t
 .
 filename
-(
-)
 )
         
 def
@@ -3211,8 +3191,6 @@ if
 e
 .
 filename
-(
-)
 =
 =
 webIDLFile
@@ -3239,8 +3217,6 @@ if
 d
 .
 filename
-(
-)
 =
 =
 webIDLFile
@@ -3267,8 +3243,6 @@ if
 c
 .
 filename
-(
-)
 =
 =
 webIDLFile
@@ -3928,8 +3902,6 @@ self
 interface
 .
 filename
-(
-)
 )
             
 headerDefault
