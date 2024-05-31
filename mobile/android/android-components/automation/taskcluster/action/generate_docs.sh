@@ -127,7 +127,6 @@ destination
 /
 gradlew
 clean
-assemble
 docs
 rm
 -
