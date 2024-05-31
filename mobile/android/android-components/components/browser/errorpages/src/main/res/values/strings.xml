@@ -115,7 +115,7 @@ string
 name
 =
 "
-error_connection_failure_title_alternative
+mozac_browser_errorpages_connection_failure_title_alternative
 "
 >
 Unable
@@ -130,7 +130,7 @@ string
 name
 =
 "
-error_connection_failure_message_alternative
+mozac_browser_errorpages_connection_failure_message_alternative
 "
 >
 <
@@ -237,7 +237,7 @@ string
 name
 =
 "
-error_host_lookup_title
+mozac_browser_errorpages_host_lookup_title
 "
 >
 Server
@@ -274,7 +274,7 @@ string
 name
 =
 "
-error_host_lookup_message
+mozac_browser_errorpages_host_lookup_message
 "
 >
 <
@@ -397,7 +397,7 @@ string
 name
 =
 "
-error_malformed_uri_title_alternative
+mozac_browser_errorpages_malformed_uri_title_alternative
 "
 >
 The
@@ -433,7 +433,7 @@ string
 name
 =
 "
-error_malformed_uri_message_alternative
+mozac_browser_errorpages_malformed_uri_message_alternative
 "
 >
 <
@@ -549,7 +549,7 @@ string
 name
 =
 "
-error_redirect_loop_title_alternative
+mozac_browser_errorpages_redirect_loop_title_alternative
 "
 >
 The
@@ -567,7 +567,7 @@ string
 name
 =
 "
-error_redirect_loop_message_alternative
+mozac_browser_errorpages_redirect_loop_message_alternative
 "
 >
 <
@@ -644,7 +644,7 @@ string
 name
 =
 "
-error_unsupported_protocol_title
+mozac_browser_errorpages_unsupported_protocol_title
 "
 >
 The
@@ -661,7 +661,7 @@ string
 name
 =
 "
-error_unsupported_protocol_message
+mozac_browser_errorpages_unsupported_protocol_message
 "
 >
 <
@@ -736,7 +736,7 @@ string
 name
 =
 "
-error_ssl_handshake_title
+mozac_browser_errorpages_ssl_handshake_title
 "
 >
 Secure
@@ -751,7 +751,7 @@ string
 name
 =
 "
-error_ssl_handshake_message
+mozac_browser_errorpages_ssl_handshake_message
 "
 >
 <
@@ -865,7 +865,7 @@ string
 name
 =
 "
-error_page_title
+mozac_browser_errorpages_page_title
 "
 >
 Problem
@@ -899,7 +899,7 @@ string
 name
 =
 "
-error_page_refresh
+mozac_browser_errorpages_page_refresh
 "
 >
 Try
@@ -942,7 +942,7 @@ string
 name
 =
 "
-error_generic_title
+mozac_browser_errorpages_generic_title
 "
 >
 Cannot
@@ -957,7 +957,7 @@ string
 name
 =
 "
-error_generic_message
+mozac_browser_errorpages_generic_message
 "
 >
 <
@@ -1024,7 +1024,7 @@ string
 name
 =
 "
-error_security_ssl_title
+mozac_browser_errorpages_security_ssl_title
 "
 >
 Secure
@@ -1039,7 +1039,7 @@ string
 name
 =
 "
-error_security_ssl_message
+mozac_browser_errorpages_security_ssl_message
 "
 >
 <
@@ -1143,7 +1143,7 @@ string
 name
 =
 "
-error_security_bad_cert_title
+mozac_browser_errorpages_security_bad_cert_title
 "
 >
 Secure
@@ -1158,7 +1158,7 @@ string
 name
 =
 "
-error_security_bad_cert_message
+mozac_browser_errorpages_security_bad_cert_message
 "
 >
 <
@@ -1272,7 +1272,7 @@ string
 name
 =
 "
-error_net_interrupt_title
+mozac_browser_errorpages_net_interrupt_title
 "
 >
 Data
@@ -1287,7 +1287,7 @@ string
 name
 =
 "
-error_net_interrupt_message
+mozac_browser_errorpages_net_interrupt_message
 "
 >
 <
@@ -1410,7 +1410,7 @@ string
 name
 =
 "
-error_net_timeout_title
+mozac_browser_errorpages_net_timeout_title
 "
 >
 Network
@@ -1424,7 +1424,7 @@ string
 name
 =
 "
-error_net_timeout_message
+mozac_browser_errorpages_net_timeout_message
 "
 >
 <
@@ -1600,7 +1600,7 @@ string
 name
 =
 "
-error_connection_failure_title
+mozac_browser_errorpages_connection_failure_title
 "
 >
 Failed
@@ -1615,7 +1615,7 @@ string
 name
 =
 "
-error_connection_failure_message
+mozac_browser_errorpages_connection_failure_message
 "
 >
 <
@@ -1759,7 +1759,7 @@ string
 name
 =
 "
-error_unknown_socket_type_title
+mozac_browser_errorpages_unknown_socket_type_title
 "
 >
 Incorrect
@@ -1773,7 +1773,7 @@ string
 name
 =
 "
-error_unknown_socket_type_message
+mozac_browser_errorpages_unknown_socket_type_message
 "
 >
 <
@@ -1846,7 +1846,7 @@ string
 name
 =
 "
-error_redirect_loop_title
+mozac_browser_errorpages_redirect_loop_title
 "
 >
 Redirect
@@ -1860,7 +1860,7 @@ string
 name
 =
 "
-error_redirect_loop_message
+mozac_browser_errorpages_redirect_loop_message
 "
 >
 <
@@ -2005,7 +2005,7 @@ string
 name
 =
 "
-error_offline_title
+mozac_browser_errorpages_offline_title
 "
 >
 Offline
@@ -2019,7 +2019,7 @@ string
 name
 =
 "
-error_offline_message
+mozac_browser_errorpages_offline_message
 "
 >
 <
@@ -2134,7 +2134,7 @@ string
 name
 =
 "
-error_port_blocked_title
+mozac_browser_errorpages_port_blocked_title
 "
 >
 Port
@@ -2151,7 +2151,7 @@ string
 name
 =
 "
-error_port_blocked_message
+mozac_browser_errorpages_port_blocked_message
 "
 >
 <
@@ -2266,7 +2266,7 @@ string
 name
 =
 "
-error_net_reset_title
+mozac_browser_errorpages_net_reset_title
 "
 >
 Connection
@@ -2280,7 +2280,7 @@ string
 name
 =
 "
-error_net_reset_message
+mozac_browser_errorpages_net_reset_message
 "
 >
 <
@@ -2350,7 +2350,7 @@ string
 name
 =
 "
-error_unsafe_content_type_title
+mozac_browser_errorpages_unsafe_content_type_title
 "
 >
 Unsafe
@@ -2365,7 +2365,7 @@ string
 name
 =
 "
-error_unsafe_content_type_message
+mozac_browser_errorpages_unsafe_content_type_message
 "
 >
 <
@@ -2440,7 +2440,7 @@ string
 name
 =
 "
-error_corrupted_content_title
+mozac_browser_errorpages_corrupted_content_title
 "
 >
 Corrupted
@@ -2455,7 +2455,7 @@ string
 name
 =
 "
-error_corrupted_content_message
+mozac_browser_errorpages_corrupted_content_message
 "
 >
 <
@@ -2557,7 +2557,7 @@ string
 name
 =
 "
-error_content_crashed_title
+mozac_browser_errorpages_content_crashed_title
 "
 >
 Content
@@ -2571,7 +2571,7 @@ string
 name
 =
 "
-error_content_crashed_message
+mozac_browser_errorpages_content_crashed_message
 "
 >
 <
@@ -2673,7 +2673,7 @@ string
 name
 =
 "
-error_invalid_content_encoding_title
+mozac_browser_errorpages_invalid_content_encoding_title
 "
 >
 Content
@@ -2688,7 +2688,7 @@ string
 name
 =
 "
-error_invalid_content_encoding_message
+mozac_browser_errorpages_invalid_content_encoding_message
 "
 >
 <
@@ -2791,7 +2791,7 @@ string
 name
 =
 "
-error_unknown_host_title
+mozac_browser_errorpages_unknown_host_title
 "
 >
 Address
@@ -2828,7 +2828,7 @@ string
 name
 =
 "
-error_unknown_host_message
+mozac_browser_errorpages_unknown_host_message
 "
 >
 <
@@ -3040,7 +3040,7 @@ string
 name
 =
 "
-error_malformed_uri_title
+mozac_browser_errorpages_malformed_uri_title
 "
 >
 Invalid
@@ -3054,7 +3054,7 @@ string
 name
 =
 "
-error_malformed_uri_message
+mozac_browser_errorpages_malformed_uri_message
 "
 >
 <
@@ -3131,7 +3131,7 @@ string
 name
 =
 "
-error_unknown_protocol_title
+mozac_browser_errorpages_unknown_protocol_title
 "
 >
 Unknown
@@ -3145,7 +3145,7 @@ string
 name
 =
 "
-error_unknown_protocol_message
+mozac_browser_errorpages_unknown_protocol_message
 "
 >
 <
@@ -3296,7 +3296,7 @@ string
 name
 =
 "
-error_file_not_found_title
+mozac_browser_errorpages_file_not_found_title
 "
 >
 File
@@ -3311,7 +3311,7 @@ string
 name
 =
 "
-error_file_not_found_message
+mozac_browser_errorpages_file_not_found_message
 "
 >
 <
@@ -3422,7 +3422,7 @@ string
 name
 =
 "
-error_file_access_denied_title
+mozac_browser_errorpages_file_access_denied_title
 "
 >
 Access
@@ -3440,7 +3440,7 @@ string
 name
 =
 "
-error_file_access_denied_message
+mozac_browser_errorpages_file_access_denied_message
 "
 >
 <
@@ -3517,7 +3517,7 @@ string
 name
 =
 "
-error_proxy_connection_refused_title
+mozac_browser_errorpages_proxy_connection_refused_title
 "
 >
 Proxy
@@ -3533,7 +3533,7 @@ string
 name
 =
 "
-error_proxy_connection_refused_message
+mozac_browser_errorpages_proxy_connection_refused_message
 "
 >
 <
@@ -3672,7 +3672,7 @@ string
 name
 =
 "
-error_unknown_proxy_host_title
+mozac_browser_errorpages_unknown_proxy_host_title
 "
 >
 Proxy
@@ -3688,7 +3688,7 @@ string
 name
 =
 "
-error_unknown_proxy_host_message
+mozac_browser_errorpages_unknown_proxy_host_message
 "
 >
 <
@@ -3827,7 +3827,7 @@ string
 name
 =
 "
-error_safe_browsing_malware_uri_title
+mozac_browser_errorpages_safe_browsing_malware_uri_title
 "
 >
 Malware
@@ -3861,7 +3861,7 @@ string
 name
 =
 "
-error_safe_browsing_malware_uri_message
+mozac_browser_errorpages_safe_browsing_malware_uri_message
 "
 >
 <
@@ -3940,7 +3940,7 @@ string
 name
 =
 "
-error_safe_browsing_unwanted_uri_title
+mozac_browser_errorpages_safe_browsing_unwanted_uri_title
 "
 >
 Unwanted
@@ -3974,7 +3974,7 @@ string
 name
 =
 "
-error_safe_browsing_unwanted_uri_message
+mozac_browser_errorpages_safe_browsing_unwanted_uri_message
 "
 >
 <
@@ -4053,7 +4053,7 @@ string
 name
 =
 "
-error_safe_harmful_uri_title
+mozac_browser_errorpages_safe_harmful_uri_title
 "
 >
 Harmful
@@ -4087,7 +4087,7 @@ string
 name
 =
 "
-error_safe_harmful_uri_message
+mozac_browser_errorpages_safe_harmful_uri_message
 "
 >
 <
@@ -4167,7 +4167,7 @@ string
 name
 =
 "
-error_safe_phishing_uri_title
+mozac_browser_errorpages_safe_phishing_uri_title
 "
 >
 Deceptive
@@ -4201,7 +4201,7 @@ string
 name
 =
 "
-error_safe_phishing_uri_message
+mozac_browser_errorpages_safe_phishing_uri_message
 "
 >
 <
