@@ -373,6 +373,7 @@ TrackType
 =
 0
 ;
+virtual
 RefPtr
 <
 MediaDataDecoder
@@ -421,6 +422,7 @@ return
 nullptr
 ;
 }
+virtual
 RefPtr
 <
 MediaDataDecoder
