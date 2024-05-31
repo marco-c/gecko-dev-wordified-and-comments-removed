@@ -41,14 +41,6 @@ Test
 .
 kt
 '
--
-'
-.
-*
-Spec
-.
-kt
-'
 exclude
 -
 rule
