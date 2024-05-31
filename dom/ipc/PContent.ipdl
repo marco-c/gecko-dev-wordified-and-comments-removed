@@ -10476,6 +10476,7 @@ NotifyPositionStateChanged
 MaybeDiscardedBrowsingContext
 aContext
 PositionState
+?
 aState
 )
 ;
