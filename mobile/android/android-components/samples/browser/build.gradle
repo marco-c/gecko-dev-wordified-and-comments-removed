@@ -645,6 +645,16 @@ project
 (
 '
 :
+feature
+-
+prompts
+'
+)
+implementation
+project
+(
+'
+:
 ui
 -
 autocomplete
