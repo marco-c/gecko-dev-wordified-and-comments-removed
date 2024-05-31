@@ -1980,7 +1980,6 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 <
-const
 nsTArray
 <
 RefPtr
@@ -1988,8 +1987,6 @@ RefPtr
 nsIWifiAccessPoint
 >
 >
-&
-&
 bool
 >
 (
@@ -2018,6 +2015,7 @@ nsWifiMonitor
 :
 CallWifiListeners
 (
+const
 nsTArray
 <
 RefPtr
@@ -2025,7 +2023,6 @@ RefPtr
 nsIWifiAccessPoint
 >
 >
-&
 &
 aAccessPoints
 bool
