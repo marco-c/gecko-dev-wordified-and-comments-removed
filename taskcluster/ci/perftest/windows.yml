@@ -769,6 +769,12 @@ perftest_http3_facebook_scroll
 .
 js
 ]
+#
+broken
+:
+bug
+1879851
+#
 -
 [
 g
@@ -915,6 +921,12 @@ firstPaint
 timeToContentfulPaint
 requestsPerSecond
 ]
+#
+broken
+:
+bug
+1879851
+#
 g
 -
 image
