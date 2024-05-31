@@ -5303,6 +5303,12 @@ pinned
 media
 -
 button
+ghost
+-
+button
+icon
+-
+button
 "
 id
 =
