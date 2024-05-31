@@ -1913,6 +1913,7 @@ else
 val
 urlWidth
 =
+(
 width
 -
 iconSize
@@ -1928,6 +1929,7 @@ navigationActionsWidth
 2
 *
 urlBoxMargin
+)
 val
 urlWidthSpec
 =
