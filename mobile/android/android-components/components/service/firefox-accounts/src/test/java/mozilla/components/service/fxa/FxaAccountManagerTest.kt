@@ -1132,7 +1132,7 @@ runBlocking
 {
 manager
 .
-init
+initAsync
 (
 )
 .
@@ -1239,7 +1239,7 @@ accountObserver
 )
 manager
 .
-init
+initAsync
 (
 )
 .
@@ -1494,7 +1494,7 @@ accountObserver
 )
 manager
 .
-init
+initAsync
 (
 )
 .
@@ -1626,7 +1626,7 @@ accountProfile
 Make
 sure
 '
-logout
+logoutAsync
 '
 clears
 out
@@ -1646,7 +1646,7 @@ accountStorage
 )
 manager
 .
-logout
+logoutAsync
 (
 )
 .
@@ -2052,7 +2052,7 @@ runBlocking
 {
 manager
 .
-init
+initAsync
 (
 )
 .
@@ -2099,7 +2099,7 @@ url
 "
 manager
 .
-beginAuthentication
+beginAuthenticationAsync
 (
 )
 .
@@ -2128,7 +2128,7 @@ runBlocking
 {
 manager
 .
-finishAuthentication
+finishAuthenticationAsync
 (
 "
 dummyCode
@@ -2559,7 +2559,7 @@ runBlocking
 {
 manager
 .
-init
+initAsync
 (
 )
 .
@@ -2599,7 +2599,7 @@ try
 {
 manager
 .
-beginAuthentication
+beginAuthenticationAsync
 (
 )
 .
@@ -2728,7 +2728,7 @@ url
 "
 manager
 .
-beginAuthentication
+beginAuthenticationAsync
 (
 )
 .
@@ -2757,7 +2757,7 @@ runBlocking
 {
 manager
 .
-finishAuthentication
+finishAuthenticationAsync
 (
 "
 dummyCode
@@ -3153,7 +3153,7 @@ runBlocking
 {
 manager
 .
-init
+initAsync
 (
 )
 .
@@ -3200,7 +3200,7 @@ url
 "
 manager
 .
-beginAuthentication
+beginAuthenticationAsync
 (
 )
 .
@@ -3229,7 +3229,7 @@ runBlocking
 {
 manager
 .
-finishAuthentication
+finishAuthenticationAsync
 (
 "
 dummyCode
@@ -3435,7 +3435,7 @@ runBlocking
 {
 manager
 .
-updateProfile
+updateProfileAsync
 (
 )
 .

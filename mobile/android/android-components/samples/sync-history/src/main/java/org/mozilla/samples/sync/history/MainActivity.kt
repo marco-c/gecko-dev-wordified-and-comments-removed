@@ -508,7 +508,7 @@ try
 {
 accountManager
 .
-beginAuthentication
+beginAuthenticationAsync
 (
 )
 .
@@ -580,7 +580,7 @@ launch
 {
 accountManager
 .
-logout
+logoutAsync
 (
 )
 .
@@ -675,7 +675,7 @@ launch
 {
 accountManager
 .
-init
+initAsync
 (
 )
 .
@@ -902,7 +902,7 @@ popBackStack
 )
 accountManager
 .
-finishAuthentication
+finishAuthenticationAsync
 (
 code
 state

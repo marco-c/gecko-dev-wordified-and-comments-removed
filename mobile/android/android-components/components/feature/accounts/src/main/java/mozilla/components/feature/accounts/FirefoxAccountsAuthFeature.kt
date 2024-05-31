@@ -223,7 +223,7 @@ try
 {
 accountManager
 .
-beginAuthentication
+beginAuthenticationAsync
 (
 )
 .
@@ -438,7 +438,7 @@ success
 .
 accountManager
 .
-finishAuthentication
+finishAuthenticationAsync
 (
 code
 state

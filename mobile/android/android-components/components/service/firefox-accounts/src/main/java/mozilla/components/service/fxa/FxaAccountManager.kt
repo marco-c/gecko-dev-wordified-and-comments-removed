@@ -1332,7 +1332,7 @@ class
 *
 /
 fun
-init
+initAsync
 (
 )
 :
@@ -1342,7 +1342,7 @@ Unit
 >
 {
 return
-processQueue
+processQueueAsync
 (
 Event
 .
@@ -1405,7 +1405,7 @@ null
 }
 }
 fun
-updateProfile
+updateProfileAsync
 (
 )
 :
@@ -1415,7 +1415,7 @@ Unit
 >
 {
 return
-processQueue
+processQueueAsync
 (
 Event
 .
@@ -1423,7 +1423,7 @@ FetchProfile
 )
 }
 fun
-beginAuthentication
+beginAuthenticationAsync
 (
 )
 :
@@ -1497,7 +1497,7 @@ error
 }
 }
 )
-processQueue
+processQueueAsync
 (
 Event
 .
@@ -1507,7 +1507,7 @@ return
 deferredAuthUrl
 }
 fun
-finishAuthentication
+finishAuthenticationAsync
 (
 code
 :
@@ -1523,7 +1523,7 @@ Unit
 >
 {
 return
-processQueue
+processQueueAsync
 (
 Event
 .
@@ -1535,7 +1535,7 @@ state
 )
 }
 fun
-logout
+logoutAsync
 (
 )
 :
@@ -1545,7 +1545,7 @@ Unit
 >
 {
 return
-processQueue
+processQueueAsync
 (
 Event
 .
@@ -1593,7 +1593,7 @@ resolve
 /
 private
 fun
-processQueue
+processQueueAsync
 (
 event
 :
@@ -1875,7 +1875,7 @@ be
 entered
 after
 a
-logout
+logoutAsync
 and
 its
 side

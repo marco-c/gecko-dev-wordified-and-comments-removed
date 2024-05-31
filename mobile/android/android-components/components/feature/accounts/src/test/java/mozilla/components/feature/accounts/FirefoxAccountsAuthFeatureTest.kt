@@ -652,7 +652,7 @@ runBlocking
 {
 manager
 .
-init
+initAsync
 (
 )
 .
@@ -1013,7 +1013,7 @@ runBlocking
 {
 manager
 .
-init
+initAsync
 (
 )
 .

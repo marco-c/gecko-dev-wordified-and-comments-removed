@@ -615,7 +615,7 @@ launch
 {
 accountManager
 .
-init
+initAsync
 (
 )
 .
@@ -646,7 +646,7 @@ try
 {
 accountManager
 .
-beginAuthentication
+beginAuthenticationAsync
 (
 )
 .
@@ -852,7 +852,7 @@ launch
 {
 accountManager
 .
-finishAuthentication
+finishAuthenticationAsync
 (
 code
 state
