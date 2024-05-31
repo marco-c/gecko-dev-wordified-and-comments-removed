@@ -468,7 +468,15 @@ now
 )
 -
 start
+Math
+.
+max
+(
+0
 expectedTime
+-
+1
+)
 expectedTime
 +
 4000
