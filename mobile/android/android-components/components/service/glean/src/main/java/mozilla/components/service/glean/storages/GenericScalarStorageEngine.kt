@@ -518,7 +518,7 @@ type
 param
 userPreferences
 [
-SharedPreference
+SharedPreferences
 .
 Editor
 ]
@@ -1073,7 +1073,6 @@ store
 *
 /
 Synchronized
-open
 fun
 getSnapshot
 (
