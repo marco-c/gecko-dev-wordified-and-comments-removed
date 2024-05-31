@@ -208,6 +208,13 @@ SignatureVerifier
 httpClient
 kintoClient
 )
+Throws
+(
+ExperimentDownloadException
+:
+:
+class
+)
 fun
 getExperiments
 (

@@ -77,9 +77,9 @@ experiment
 *
 *
 property
-name
+id
 experiment
-name
+id
 *
 /
 internal
@@ -88,7 +88,7 @@ class
 ExperimentDescriptor
 (
 val
-name
+id
 :
 String
 )
