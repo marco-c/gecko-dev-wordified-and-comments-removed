@@ -81,6 +81,13 @@ minSdkVersion
 targetSdkVersion
 27
 }
+lintOptions
+{
+warningsAsErrors
+true
+abortOnError
+true
+}
 buildTypes
 {
 release
