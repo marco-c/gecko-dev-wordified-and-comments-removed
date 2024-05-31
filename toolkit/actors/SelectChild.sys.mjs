@@ -175,9 +175,7 @@ Duplicated
 in
 SelectParent
 .
-sys
-.
-mjs
+jsm
 /
 /
 Please

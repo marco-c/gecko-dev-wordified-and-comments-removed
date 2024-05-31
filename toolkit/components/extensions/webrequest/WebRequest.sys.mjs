@@ -177,9 +177,7 @@ mjs
 /
 WebRequest
 .
-sys
-.
-mjs
+jsm
 '
 s
 only

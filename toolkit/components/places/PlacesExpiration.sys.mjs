@@ -2913,9 +2913,7 @@ withConnectionWrapper
 "
 PlacesExpiration
 .
-sys
-.
-mjs
+jsm
 :
 setup
 "
@@ -5114,9 +5112,7 @@ withConnectionWrapper
 "
 PlacesExpiration
 .
-sys
-.
-mjs
+jsm
 :
 expire
 "

@@ -427,9 +427,7 @@ captivedetect
 /
 CaptiveDetect
 .
-sys
-.
-mjs
+jsm
 )
 to
 perform

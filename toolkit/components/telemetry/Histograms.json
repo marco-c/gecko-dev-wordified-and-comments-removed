@@ -60644,9 +60644,7 @@ update
 /
 UpdateTelemetry
 .
-sys
-.
-mjs
+jsm
 "
 }
 "
@@ -66541,9 +66539,7 @@ update
 /
 UpdateTelemetry
 .
-sys
-.
-mjs
+jsm
 )
 "
 }
@@ -71100,9 +71096,7 @@ ID
 see
 MigrationUtils
 .
-sys
-.
-mjs
+jsm
 )
 "
 }
@@ -71836,9 +71830,7 @@ gAvailableMigratorKeys
 in
 MigrationUtils
 .
-sys
-.
-mjs
+jsm
 )
 .
 The
@@ -71994,9 +71986,7 @@ gAvailableMigratorKeys
 in
 MigrationUtils
 .
-sys
-.
-mjs
+jsm
 )
 .
 The
@@ -72165,9 +72155,7 @@ gAvailableMigratorKeys
 in
 MigrationUtils
 .
-sys
-.
-mjs
+jsm
 )
 .
 The
@@ -107720,9 +107708,7 @@ constants
 in
 BackgroundPageThumbs
 .
-sys
-.
-mjs
+jsm
 )
 "
 }

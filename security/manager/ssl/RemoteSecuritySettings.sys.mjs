@@ -261,6 +261,8 @@ prefix
 :
 "
 RemoteSecuritySettings
+.
+jsm
 "
 /
 /

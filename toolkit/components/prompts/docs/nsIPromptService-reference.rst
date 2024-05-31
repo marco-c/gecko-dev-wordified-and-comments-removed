@@ -57,9 +57,7 @@ from
 the
 Prompter
 .
-sys
-.
-mjs
+jsm
 implementation
 .
 You

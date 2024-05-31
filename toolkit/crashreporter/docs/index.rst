@@ -1486,9 +1486,7 @@ crashes
 using
 CrashSubmit
 .
-sys
-.
-mjs
+jsm
 .
 Memory
 Reports

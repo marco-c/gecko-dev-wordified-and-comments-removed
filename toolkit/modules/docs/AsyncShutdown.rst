@@ -624,7 +624,7 @@ FooService
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -637,9 +637,7 @@ modules
 /
 FooService
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -1118,7 +1116,7 @@ FooService
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -1131,9 +1129,7 @@ modules
 /
 FooService
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

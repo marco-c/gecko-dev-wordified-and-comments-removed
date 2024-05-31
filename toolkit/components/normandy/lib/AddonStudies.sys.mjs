@@ -1204,9 +1204,7 @@ called
 from
 NormandyMigrations
 .
-sys
-.
-mjs
+jsm
 and
 *
 tests

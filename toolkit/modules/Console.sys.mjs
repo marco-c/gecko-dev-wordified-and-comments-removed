@@ -96,9 +96,7 @@ See
 also
 Browser
 .
-sys
-.
-mjs
+jsm
 for
 an
 implementation

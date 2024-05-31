@@ -1215,9 +1215,7 @@ in
 /
 ProfileAutoCompleteResult
 .
-sys
-.
-mjs
+jsm
 and
 reuse
 it

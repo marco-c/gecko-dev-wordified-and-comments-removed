@@ -21002,9 +21002,7 @@ values
 in
 UpdateTelemetry
 .
-sys
-.
-mjs
+jsm
 .
 expires
 :

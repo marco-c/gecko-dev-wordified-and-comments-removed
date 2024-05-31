@@ -189,9 +189,7 @@ Error
 "
 LoginManager
 .
-sys
-.
-mjs
+jsm
 should
 only
 run

@@ -132,7 +132,11 @@ createInstance
 prefix
 :
 "
+*
+*
 PrincipalsCollector
+.
+jsm
 "
 maxLogLevelPref
 :

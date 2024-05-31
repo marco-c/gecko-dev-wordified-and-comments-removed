@@ -218,9 +218,7 @@ Duplicated
 in
 SelectChild
 .
-sys
-.
-mjs
+jsm
 /
 /
 Please

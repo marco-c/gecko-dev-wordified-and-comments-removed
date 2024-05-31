@@ -1429,9 +1429,7 @@ duplicated
 from
 WebRequest
 .
-sys
-.
-mjs
+jsm
 with
 small
 changes
@@ -1445,9 +1443,7 @@ sync
 with
 WebRequest
 .
-sys
-.
-mjs
+jsm
 as
 well
 as

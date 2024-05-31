@@ -10044,9 +10044,7 @@ string
 in
 FxaMigration
 .
-sys
-.
-mjs
+jsm
 .
 This
 reflects

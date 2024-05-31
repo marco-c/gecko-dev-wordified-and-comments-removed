@@ -201,6 +201,8 @@ prefix
 :
 "
 RFPHelper
+.
+jsm
 "
 maxLogLevelPref
 :

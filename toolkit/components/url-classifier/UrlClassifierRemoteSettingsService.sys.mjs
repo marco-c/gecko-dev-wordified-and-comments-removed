@@ -346,9 +346,7 @@ request
 See
 UrlClassifierListManager
 .
-sys
-.
-mjs
+jsm
 makeUpdateRequest
 /
 /

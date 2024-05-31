@@ -132,9 +132,7 @@ those
 in
 Bookmarks
 .
-sys
-.
-mjs
+jsm
 and
 *
 nsINavBookmarksService
@@ -8961,9 +8959,7 @@ in
 /
 Bookmarks
 .
-sys
-.
-mjs
+jsm
 .
 var
 fetchChildGuids

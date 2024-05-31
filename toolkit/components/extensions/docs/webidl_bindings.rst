@@ -88,9 +88,7 @@ defined
 in
 Schemas
 .
-sys
-.
-mjs
+jsm
 <
 https
 :

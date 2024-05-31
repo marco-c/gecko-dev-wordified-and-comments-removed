@@ -617,9 +617,7 @@ to
 ensure
 SafeBrowsing
 .
-sys
-.
-mjs
+jsm
 is
 inited
 this

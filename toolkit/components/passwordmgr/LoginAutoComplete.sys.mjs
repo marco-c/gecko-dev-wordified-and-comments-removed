@@ -2652,9 +2652,7 @@ Avoid
 loading
 InsecurePasswordUtils
 .
-sys
-.
-mjs
+jsm
 in
 a
 sandboxed

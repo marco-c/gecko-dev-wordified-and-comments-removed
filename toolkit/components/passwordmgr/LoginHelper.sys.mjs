@@ -8990,9 +8990,7 @@ loginFormAttrRegex
 in
 NewPasswordModel
 .
-sys
-.
-mjs
+jsm
 const
 loginExpr
 =

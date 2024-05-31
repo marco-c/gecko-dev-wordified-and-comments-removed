@@ -628,9 +628,7 @@ look
 at
 History
 .
-sys
-.
-mjs
+jsm
 instead
 *
 that
@@ -661,9 +659,7 @@ go
 to
 History
 .
-sys
-.
-mjs
+jsm
 unless
 it
 needs

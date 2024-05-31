@@ -938,9 +938,7 @@ actors
 /
 RemotePageChild
 .
-sys
-.
-mjs
+jsm
 to
 the
 actual

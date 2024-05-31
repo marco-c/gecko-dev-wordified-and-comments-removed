@@ -1348,9 +1348,7 @@ app
 /
 TelemetryEnvironment
 .
-sys
-.
-mjs
+jsm
 *
 returns
 {

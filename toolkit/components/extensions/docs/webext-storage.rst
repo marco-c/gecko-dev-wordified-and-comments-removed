@@ -2093,9 +2093,7 @@ created
 in
 ExtensionStorageSync
 .
-sys
-.
-mjs
+jsm
 End
 result
 :

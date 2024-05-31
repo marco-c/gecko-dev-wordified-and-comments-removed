@@ -131,9 +131,7 @@ Error
 "
 ServiceWorkerCleanUp
 .
-sys
-.
-mjs
+jsm
 can
 only
 be

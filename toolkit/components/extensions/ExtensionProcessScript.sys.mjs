@@ -1924,9 +1924,7 @@ parent
 process
 Extension
 .
-sys
-.
-mjs
+jsm
 updates
 the
 policy

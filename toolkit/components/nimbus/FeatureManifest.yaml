@@ -2220,9 +2220,7 @@ fallbackPref
 See
 UrlbarPrefs
 .
-sys
-.
-mjs
+jsm
 .
 type
 :

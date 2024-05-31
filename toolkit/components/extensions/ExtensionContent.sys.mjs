@@ -4479,9 +4479,7 @@ defined
 in
 ExtensionParent
 .
-sys
-.
-mjs
+jsm
 .
 *
 /

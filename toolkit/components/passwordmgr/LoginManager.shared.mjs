@@ -269,9 +269,7 @@ hasLabelMatchingRegex
 in
 NewPasswordModel
 .
-sys
-.
-mjs
+jsm
 *
 /
 static

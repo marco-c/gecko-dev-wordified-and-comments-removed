@@ -689,9 +689,7 @@ settings
 see
 BackgroundTasksUtils
 .
-sys
-.
-mjs
+jsm
 <
 https
 :
@@ -715,9 +713,7 @@ backgroundtasks
 /
 BackgroundTasksUtils
 .
-sys
-.
-mjs
+jsm
 >
 __
 )
@@ -1420,9 +1416,7 @@ see
 the
 TaskScheduler
 .
-sys
-.
-mjs
+jsm
 <
 https
 :
@@ -1446,9 +1440,7 @@ taskscheduler
 /
 TaskScheduler
 .
-sys
-.
-mjs
+jsm
 >
 __
 module
@@ -1797,9 +1789,7 @@ the
 regular
 UpdateService
 .
-sys
-.
-mjs
+jsm
 <
 https
 :
@@ -1823,9 +1813,7 @@ update
 /
 UpdateService
 .
-sys
-.
-mjs
+jsm
 >
 __
 check

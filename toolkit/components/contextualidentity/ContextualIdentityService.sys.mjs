@@ -544,9 +544,7 @@ used
 by
 ExtensionStorageIDB
 .
-sys
-.
-mjs
+jsm
 to
 create
 an

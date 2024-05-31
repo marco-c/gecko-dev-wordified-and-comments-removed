@@ -963,9 +963,7 @@ Utils
 Requires
 AddonManager
 .
-sys
-.
-mjs
+jsm
 )
 var
 logger
