@@ -4024,7 +4024,8 @@ mColorDepth
 ;
 if
 (
-!
+NS_FAILED
+(
 aImage
 -
 >
@@ -4033,6 +4034,7 @@ CreateEmptyBuffer
 data
 paddedYSize
 paddedCbCrSize
+)
 )
 )
 {

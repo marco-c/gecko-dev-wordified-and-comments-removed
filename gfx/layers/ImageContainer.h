@@ -2495,7 +2495,7 @@ aData
 )
 ;
 virtual
-bool
+nsresult
 CreateEmptyBuffer
 (
 const
@@ -2519,7 +2519,7 @@ aCbCrSize
 )
 {
 return
-false
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 virtual

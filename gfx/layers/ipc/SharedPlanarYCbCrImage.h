@@ -159,7 +159,7 @@ aData
 )
 override
 ;
-bool
+nsresult
 CreateEmptyBuffer
 (
 const
