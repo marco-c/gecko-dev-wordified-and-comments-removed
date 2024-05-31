@@ -77,6 +77,11 @@ TextInputHandler
 .
 mm
 "
+"
+UIKitUtils
+.
+mm
+"
 ]
 include
 (
