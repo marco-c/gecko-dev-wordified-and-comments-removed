@@ -186,12 +186,6 @@ abort
 -
 Zpanic_abort_tests
 -
-Clink
--
-dead
--
-code
--
 Coverflow
 -
 checks
