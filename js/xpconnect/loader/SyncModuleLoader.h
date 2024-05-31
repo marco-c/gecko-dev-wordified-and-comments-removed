@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_loader_ComponentModuleLoader_h
+mozilla_loader_SyncModuleLoader_h
 #
 define
-mozilla_loader_ComponentModuleLoader_h
+mozilla_loader_SyncModuleLoader_h
 #
 include
 "
@@ -43,7 +43,7 @@ namespace
 loader
 {
 class
-ComponentScriptLoader
+SyncScriptLoader
 :
 public
 JS
@@ -60,7 +60,7 @@ NS_DECL_ISUPPORTS
 private
 :
 ~
-ComponentScriptLoader
+SyncScriptLoader
 (
 )
 =
@@ -137,7 +137,7 @@ override
 }
 ;
 class
-ComponentModuleLoader
+SyncModuleLoader
 :
 public
 JS
@@ -153,7 +153,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-ComponentModuleLoader
+SyncModuleLoader
 JS
 :
 :
@@ -162,9 +162,9 @@ loader
 :
 ModuleLoaderBase
 )
-ComponentModuleLoader
+SyncModuleLoader
 (
-ComponentScriptLoader
+SyncScriptLoader
 *
 aScriptLoader
 nsIGlobalObject
@@ -193,7 +193,7 @@ aCx
 private
 :
 ~
-ComponentModuleLoader
+SyncModuleLoader
 (
 )
 ;
@@ -347,7 +347,7 @@ mLoadException
 }
 ;
 class
-ComponentLoadContext
+SyncLoadContext
 :
 public
 JS
@@ -360,7 +360,7 @@ LoadContextBase
 {
 public
 :
-ComponentLoadContext
+SyncLoadContext
 (
 )
 :
@@ -375,7 +375,7 @@ loader
 ContextKind
 :
 :
-Component
+Sync
 )
 {
 }
