@@ -1217,6 +1217,8 @@ Name
 =
 "
 firefox
+-
+bridge
 "
 Parameters
 =
@@ -1241,6 +1243,7 @@ uap
 DisplayName
 >
 Firefox
+Bridge
 Protocol
 <
 /
@@ -1298,6 +1301,8 @@ Name
 firefox
 -
 private
+-
+bridge
 "
 Parameters
 =
@@ -1325,7 +1330,7 @@ DisplayName
 >
 Firefox
 Private
-Browsing
+Bridge
 Protocol
 <
 /

@@ -1674,6 +1674,8 @@ array
 string
 >
 firefox
+-
+bridge
 <
 /
 string
@@ -1725,6 +1727,8 @@ string
 firefox
 -
 private
+-
+bridge
 <
 /
 string

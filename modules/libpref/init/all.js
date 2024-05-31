@@ -6831,6 +6831,8 @@ handler
 external
 .
 firefox
+-
+bridge
 "
 false
 )
@@ -6849,6 +6851,8 @@ external
 firefox
 -
 private
+-
+bridge
 "
 false
 )
