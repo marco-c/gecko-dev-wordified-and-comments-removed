@@ -3846,6 +3846,16 @@ payload
 .
 isSponsored
 ;
+details
+.
+userContextId
+=
+result
+.
+payload
+.
+userContextId
+;
 let
 actions
 =

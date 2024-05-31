@@ -23267,6 +23267,7 @@ this
 .
 textbox
 :
+{
 this
 .
 _mousedownOnUrlbarDescendant
@@ -23541,6 +23542,7 @@ hasFocus
 }
 break
 ;
+}
 case
 this
 .
