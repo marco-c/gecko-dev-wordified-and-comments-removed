@@ -117,6 +117,13 @@ pro
 '
 }
 }
+testOptions
+.
+unitTests
+.
+includeAndroidResources
+=
+true
 }
 dependencies
 {
@@ -191,7 +198,11 @@ test
 testImplementation
 Dependencies
 .
-testing_junit
+androidx_test_core
+testImplementation
+Dependencies
+.
+androidx_test_junit
 testImplementation
 Dependencies
 .
@@ -200,10 +211,6 @@ testImplementation
 Dependencies
 .
 testing_mockito
-testImplementation
-Dependencies
-.
-androidx_test_core
 testImplementation
 Dependencies
 .

@@ -106,6 +106,16 @@ test
 .
 mock
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+whenever
+import
 org
 .
 junit
@@ -135,14 +145,6 @@ mockito
 ArgumentMatchers
 .
 anyString
-import
-org
-.
-mockito
-.
-Mockito
-.
-when
 import
 org
 .
@@ -283,7 +285,7 @@ abc
 {
 }
 )
-when
+whenever
 (
 sessionManager
 .
@@ -453,7 +455,7 @@ Session
 mock
 (
 )
-when
+whenever
 (
 fullscreenFeature
 .
@@ -464,7 +466,7 @@ thenReturn
 (
 activeSession
 )
-when
+whenever
 (
 activeSession
 .
@@ -526,7 +528,7 @@ useCases
 {
 }
 )
-when
+whenever
 (
 sessionManager
 .
@@ -540,7 +542,7 @@ thenReturn
 (
 engineSession
 )
-when
+whenever
 (
 fullscreenFeature
 .
@@ -551,7 +553,7 @@ thenReturn
 (
 activeSession
 )
-when
+whenever
 (
 activeSession
 .
@@ -562,7 +564,7 @@ thenReturn
 (
 true
 )
-when
+whenever
 (
 useCases
 .
