@@ -176,6 +176,13 @@ SiteSecurity
 .
 INSECURE
 override
+var
+private
+:
+Boolean
+=
+false
+override
 fun
 setSearchTerms
 (

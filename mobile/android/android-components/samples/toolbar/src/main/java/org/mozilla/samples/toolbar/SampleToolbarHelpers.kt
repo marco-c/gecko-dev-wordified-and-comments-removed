@@ -169,6 +169,13 @@ Custom
 Menu
 "
 )
+PRIVATE_MODE
+(
+"
+Private
+Mode
+"
+)
 }
 Suppress
 (
