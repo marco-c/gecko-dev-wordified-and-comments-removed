@@ -893,6 +893,15 @@ awesomeBar
 onInputStarted
 (
 )
+awesomeBar
+.
+job
+!
+!
+.
+join
+(
+)
 /
 /
 Confirm
