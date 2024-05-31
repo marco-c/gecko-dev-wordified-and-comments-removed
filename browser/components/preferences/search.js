@@ -2733,7 +2733,7 @@ this
 .
 _engineStore
 .
-_engines
+engines
 ;
 if
 (
@@ -2785,7 +2785,7 @@ this
 .
 _engineStore
 .
-_engines
+engines
 .
 forEach
 (
@@ -3321,7 +3321,7 @@ CHANGE_REASON_USER
 class
 EngineStore
 {
-_engines
+engines
 =
 [
 ]
@@ -3434,30 +3434,6 @@ someHidden
 )
 ;
 }
-get
-engines
-(
-)
-{
-return
-this
-.
-_engines
-;
-}
-set
-engines
-(
-val
-)
-{
-this
-.
-_engines
-=
-val
-;
-}
 _getIndexForEngine
 (
 aEngine
@@ -3466,7 +3442,7 @@ aEngine
 return
 this
 .
-_engines
+engines
 .
 indexOf
 (
@@ -3482,7 +3458,7 @@ aName
 return
 this
 .
-_engines
+engines
 .
 find
 (
@@ -3585,7 +3561,7 @@ aEngine
 {
 this
 .
-_engines
+engines
 .
 push
 (
@@ -3608,7 +3584,7 @@ engineToUpdate
 =
 this
 .
-_engines
+engines
 .
 findIndex
 (
@@ -3669,7 +3645,7 @@ aNewIndex
 >
 this
 .
-_engines
+engines
 .
 length
 -
@@ -3744,7 +3720,7 @@ removedEngine
 =
 this
 .
-_engines
+engines
 .
 splice
 (
@@ -3757,7 +3733,7 @@ index
 ;
 this
 .
-_engines
+engines
 .
 splice
 (
@@ -3789,7 +3765,7 @@ if
 (
 this
 .
-_engines
+engines
 .
 length
 =
@@ -3823,7 +3799,7 @@ index
 =
 this
 .
-_engines
+engines
 .
 findIndex
 (
@@ -3861,7 +3837,7 @@ engine
 }
 this
 .
-_engines
+engines
 .
 splice
 (
@@ -4105,7 +4081,7 @@ if
 (
 this
 .
-_engines
+engines
 .
 some
 (
@@ -4144,7 +4120,7 @@ alias
 ;
 this
 .
-_engines
+engines
 .
 splice
 (
@@ -4315,7 +4291,7 @@ engine
 }
 this
 .
-_engines
+engines
 [
 index
 ]
