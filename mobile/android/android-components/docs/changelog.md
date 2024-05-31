@@ -827,8 +827,17 @@ autocomplete
 *
 *
 *
-Fixing
+Fixed
+a
 bug
+where
+pressing
+backspace
+could
+skip
+a
+character
+(
 [
 #
 1489
@@ -853,6 +862,7 @@ components
 issues
 /
 1489
+)
 )
 .
 *
