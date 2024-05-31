@@ -375,7 +375,7 @@ amount
 )
 {
 currentValue
-amount
+newAmount
 -
 >
 currentValue
@@ -385,11 +385,11 @@ let
 {
 it
 +
-amount
+newAmount
 }
 ?
 :
-amount
+newAmount
 }
 }
 }
