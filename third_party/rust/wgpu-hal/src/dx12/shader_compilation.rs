@@ -1191,8 +1191,6 @@ compile
 error
 :
 {
-:
-?
 }
 "
 get_error_string_from_dxc_result

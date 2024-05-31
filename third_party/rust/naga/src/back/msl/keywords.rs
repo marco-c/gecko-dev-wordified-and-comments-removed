@@ -11,6 +11,9 @@ str
 &
 [
 "
+assert
+"
+"
 and
 "
 "
