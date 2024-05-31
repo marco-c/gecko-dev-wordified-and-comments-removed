@@ -171,6 +171,8 @@ ktx
 archivesBaseName
 =
 "
+support
+-
 test
 "
 apply
@@ -202,6 +204,8 @@ mozilla
 components
 '
 '
+support
+-
 test
 '
 '

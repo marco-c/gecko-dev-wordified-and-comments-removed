@@ -191,6 +191,8 @@ testing_mockito
 archivesBaseName
 =
 "
+browser
+-
 engine
 -
 system
@@ -224,6 +226,8 @@ mozilla
 components
 '
 '
+browser
+-
 engine
 -
 system

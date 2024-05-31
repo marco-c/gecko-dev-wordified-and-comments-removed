@@ -194,6 +194,8 @@ testing_mockito
 archivesBaseName
 =
 "
+support
+-
 utils
 "
 apply
@@ -225,6 +227,8 @@ mozilla
 components
 '
 '
+support
+-
 utils
 '
 '

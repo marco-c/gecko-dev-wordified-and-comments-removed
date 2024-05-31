@@ -150,6 +150,8 @@ testing_mockito
 archivesBaseName
 =
 "
+ui
+-
 tabcounter
 "
 apply
@@ -181,6 +183,8 @@ mozilla
 components
 '
 '
+ui
+-
 tabcounter
 '
 '

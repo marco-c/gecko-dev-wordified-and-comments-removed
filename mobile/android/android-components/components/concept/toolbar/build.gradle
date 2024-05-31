@@ -144,7 +144,7 @@ testing_robolectric
 archivesBaseName
 =
 "
-abstract
+concept
 -
 toolbar
 "
@@ -177,7 +177,7 @@ mozilla
 components
 '
 '
-abstract
+concept
 -
 toolbar
 '

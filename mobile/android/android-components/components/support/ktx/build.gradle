@@ -156,6 +156,8 @@ testing_mockito
 archivesBaseName
 =
 "
+support
+-
 ktx
 "
 apply
@@ -187,6 +189,8 @@ mozilla
 components
 '
 '
+support
+-
 ktx
 '
 '

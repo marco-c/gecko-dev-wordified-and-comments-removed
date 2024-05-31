@@ -291,6 +291,8 @@ test
 archivesBaseName
 =
 "
+browser
+-
 engine
 -
 gecko
@@ -326,6 +328,8 @@ mozilla
 components
 '
 '
+browser
+-
 engine
 -
 gecko

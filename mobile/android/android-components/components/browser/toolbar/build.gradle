@@ -194,6 +194,8 @@ testing_mockito
 archivesBaseName
 =
 "
+browser
+-
 toolbar
 "
 apply
@@ -225,6 +227,8 @@ mozilla
 components
 '
 '
+browser
+-
 toolbar
 '
 '

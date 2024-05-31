@@ -227,6 +227,8 @@ testing_mockito
 archivesBaseName
 =
 "
+browser
+-
 session
 "
 apply
@@ -258,6 +260,8 @@ mozilla
 components
 '
 '
+browser
+-
 session
 '
 '

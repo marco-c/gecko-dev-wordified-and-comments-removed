@@ -209,6 +209,8 @@ testing_mockito
 archivesBaseName
 =
 "
+browser
+-
 search
 "
 apply
@@ -240,6 +242,8 @@ mozilla
 components
 '
 '
+browser
+-
 search
 '
 '

@@ -186,6 +186,8 @@ test
 archivesBaseName
 =
 "
+service
+-
 fretboard
 "
 apply
@@ -217,6 +219,8 @@ mozilla
 components
 '
 '
+service
+-
 fretboard
 '
 '

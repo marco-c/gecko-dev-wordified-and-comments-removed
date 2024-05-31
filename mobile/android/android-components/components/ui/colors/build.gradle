@@ -119,6 +119,8 @@ None
 archivesBaseName
 =
 "
+ui
+-
 colors
 "
 apply
@@ -147,9 +149,11 @@ org
 .
 mozilla
 .
-photon
+components
 '
 '
+ui
+-
 colors
 '
 '

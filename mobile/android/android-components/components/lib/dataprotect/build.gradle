@@ -152,6 +152,8 @@ testing_mockito
 archivesBaseName
 =
 "
+lib
+-
 dataprotect
 "
 apply
@@ -183,6 +185,8 @@ mozilla
 components
 '
 '
+lib
+-
 dataprotect
 '
 '

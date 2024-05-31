@@ -385,7 +385,11 @@ testing_mockito
 archivesBaseName
 =
 "
-fxa
+service
+-
+firefox
+-
+accounts
 "
 apply
 from
@@ -416,7 +420,11 @@ mozilla
 components
 '
 '
-fxa
+service
+-
+firefox
+-
+accounts
 '
 '
 A

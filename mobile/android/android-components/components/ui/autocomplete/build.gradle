@@ -156,6 +156,8 @@ testing_mockito
 archivesBaseName
 =
 "
+ui
+-
 autocomplete
 "
 apply
@@ -187,6 +189,8 @@ mozilla
 components
 '
 '
+ui
+-
 autocomplete
 '
 '

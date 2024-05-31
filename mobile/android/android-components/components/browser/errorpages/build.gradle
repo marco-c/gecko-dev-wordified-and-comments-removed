@@ -229,6 +229,8 @@ testing_mockito
 archivesBaseName
 =
 "
+browser
+-
 errorpages
 "
 apply
@@ -260,6 +262,8 @@ mozilla
 components
 '
 '
+browser
+-
 errorpages
 '
 '

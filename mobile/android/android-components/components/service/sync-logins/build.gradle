@@ -389,6 +389,8 @@ testing_mockito
 archivesBaseName
 =
 "
+service
+-
 sync
 -
 logins
@@ -422,6 +424,8 @@ mozilla
 components
 '
 '
+service
+-
 sync
 -
 logins

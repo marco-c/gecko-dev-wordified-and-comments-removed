@@ -119,6 +119,8 @@ None
 archivesBaseName
 =
 "
+ui
+-
 fonts
 "
 apply
@@ -147,9 +149,11 @@ org
 .
 mozilla
 .
-photon
+components
 '
 '
+ui
+-
 fonts
 '
 '

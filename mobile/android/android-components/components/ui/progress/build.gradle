@@ -154,6 +154,8 @@ testing_mockito
 archivesBaseName
 =
 "
+ui
+-
 progress
 "
 apply
@@ -182,9 +184,11 @@ org
 .
 mozilla
 .
-photon
+components
 '
 '
+ui
+-
 progress
 '
 '

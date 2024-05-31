@@ -207,6 +207,8 @@ test
 archivesBaseName
 =
 "
+concept
+-
 engine
 "
 apply
@@ -238,6 +240,8 @@ mozilla
 components
 '
 '
+concept
+-
 engine
 '
 '

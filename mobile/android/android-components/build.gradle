@@ -118,10 +118,6 @@ Publish
 classpath
 Deps
 .
-tools_bintray
-classpath
-Deps
-.
 tools_mavengradle
 }
 }

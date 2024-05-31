@@ -158,6 +158,8 @@ testing_mockwebserver
 archivesBaseName
 =
 "
+service
+-
 telemetry
 "
 apply
@@ -189,6 +191,8 @@ mozilla
 components
 '
 '
+service
+-
 telemetry
 '
 '

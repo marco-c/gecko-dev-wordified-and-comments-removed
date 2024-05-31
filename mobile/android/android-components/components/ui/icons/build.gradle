@@ -136,6 +136,8 @@ None
 archivesBaseName
 =
 "
+ui
+-
 icons
 "
 apply
@@ -164,9 +166,11 @@ org
 .
 mozilla
 .
-photon
+components
 '
 '
+ui
+-
 icons
 '
 '
