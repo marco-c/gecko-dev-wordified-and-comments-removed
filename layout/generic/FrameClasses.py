@@ -300,28 +300,20 @@ nsComboboxControlFrame
 "
 ComboboxControl
 "
-BLOCK
-|
 REPLACED_WITH_BLOCK
+|
+LEAF
 )
     
 Frame
 (
-        
 "
-nsComboboxDisplayFrame
+ComboboxLabelFrame
 "
 "
-ComboboxDisplay
+Block
 "
-REPLACED_WITH_BLOCK
--
-{
-"
-Replaced
-"
-}
-    
+BLOCK
 )
     
 Frame

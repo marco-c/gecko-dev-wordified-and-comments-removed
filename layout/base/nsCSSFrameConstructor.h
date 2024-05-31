@@ -3841,7 +3841,7 @@ private
 :
 nsIFrame
 *
-ConstructSelectFrame
+ConstructFieldSetFrame
 (
 nsFrameConstructorState
 &
@@ -3863,7 +3863,7 @@ aFrameList
 ;
 nsIFrame
 *
-ConstructFieldSetFrame
+ConstructListBoxSelectFrame
 (
 nsFrameConstructorState
 &
@@ -4037,6 +4037,19 @@ Element
 nsIFrame
 *
 aParentFrame
+ComputedStyle
+&
+)
+;
+static
+const
+FrameConstructionData
+*
+FindSelectData
+(
+const
+Element
+&
 ComputedStyle
 &
 )

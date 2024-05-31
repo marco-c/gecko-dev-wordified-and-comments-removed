@@ -157,8 +157,8 @@ TextDrawTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 css
 {
 class
@@ -4820,6 +4820,19 @@ if
 aBlockFrame
 -
 >
+GetParent
+(
+)
+&
+&
+aBlockFrame
+-
+>
+GetParent
+(
+)
+-
+>
 IsComboboxControlFrame
 (
 )
@@ -5347,6 +5360,5 @@ mInitialized
 =
 true
 ;
-}
 }
 }
