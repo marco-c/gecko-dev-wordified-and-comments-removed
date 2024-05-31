@@ -315,6 +315,8 @@ synchronize
 pull_request
 .
 reopened
+-
+push
 payload
 :
 maxRunTime
