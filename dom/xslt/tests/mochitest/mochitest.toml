@@ -211,6 +211,13 @@ html
 ]
 [
 "
+test_parameter_conversion
+.
+html
+"
+]
+[
+"
 test_sorting_invalid_lang
 .
 html
