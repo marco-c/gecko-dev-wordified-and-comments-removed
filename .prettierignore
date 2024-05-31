@@ -2513,15 +2513,6 @@ test
 /
 mochitest
 /
-test_bug511449
-.
-html
-docshell
-/
-test
-/
-mochitest
-/
 test_bug530396
 .
 html
