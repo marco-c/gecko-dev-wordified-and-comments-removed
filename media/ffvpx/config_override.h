@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_LIBAV_FFT
-#
 undef
 CONFIG_FFT
 #
@@ -15,8 +12,6 @@ CONFIG_FFT
 define
 CONFIG_RDFT
 1
-#
-endif
 #
 if
 defined
