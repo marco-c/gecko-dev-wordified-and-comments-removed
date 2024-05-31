@@ -52,6 +52,9 @@ connected
 new
 "
 "
+checking
+"
+"
 completed
 "
 "
@@ -66,6 +69,9 @@ completed
 [
 "
 new
+"
+"
+checking
 "
 "
 disconnected
