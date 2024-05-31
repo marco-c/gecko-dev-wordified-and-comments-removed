@@ -2595,13 +2595,6 @@ to
 TrackingProtectionPolicy
 .
 SOCIAL
-UrlMatcher
-.
-WEBFONTS
-to
-TrackingProtectionPolicy
-.
-WEBFONTS
 )
 Synchronized
 internal
