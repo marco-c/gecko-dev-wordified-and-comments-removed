@@ -10836,14 +10836,6 @@ else
 if
 (
 redirectChannel
-&
-&
-StaticPrefs
-:
-:
-network_http_redirect_raceDeletion
-(
-)
 )
 {
 redirectChannel
