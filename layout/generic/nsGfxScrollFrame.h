@@ -493,6 +493,12 @@ IntrinsicScrollbarGutterSizeAtInlineEdges
 const
 ;
 nsMargin
+IntrinsicScrollbarGutterSize
+(
+)
+const
+;
+nsMargin
 ComputeStableScrollbarGutter
 (
 const
