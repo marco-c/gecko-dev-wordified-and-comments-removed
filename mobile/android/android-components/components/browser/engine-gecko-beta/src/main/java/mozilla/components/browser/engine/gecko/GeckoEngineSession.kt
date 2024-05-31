@@ -1791,11 +1791,14 @@ id
 1545170
 onLoadRequest
 (
-triggeredByUserInteraction
+triggeredByRedirect
 =
 request
 .
 isRedirect
+triggeredByWebContent
+=
+true
 )
 }
 GeckoResult

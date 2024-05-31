@@ -563,6 +563,7 @@ notifyInternalObservers
 onLoadRequest
 (
 true
+true
 )
 }
 verify
@@ -804,6 +805,7 @@ observer
 .
 onLoadRequest
 (
+true
 true
 )
 verifyNoMoreInteractions
@@ -1121,6 +1123,7 @@ notifyInternalObservers
 onLoadRequest
 (
 true
+true
 )
 }
 session
@@ -1352,6 +1355,7 @@ notifyInternalObservers
 onLoadRequest
 (
 false
+true
 )
 }
 verify
@@ -1547,6 +1551,7 @@ observer
 .
 onLoadRequest
 (
+true
 true
 )
 verify
@@ -1820,6 +1825,7 @@ never
 onLoadRequest
 (
 false
+true
 )
 verifyNoMoreInteractions
 (

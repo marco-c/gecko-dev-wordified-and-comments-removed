@@ -3067,6 +3067,7 @@ observer
 onLoadRequest
 (
 true
+true
 )
 val
 redirect
@@ -3141,6 +3142,7 @@ observer
 onLoadRequest
 (
 false
+true
 )
 }
 Test
@@ -3337,6 +3339,9 @@ never
 .
 onLoadRequest
 (
+anyBoolean
+(
+)
 anyBoolean
 (
 )
