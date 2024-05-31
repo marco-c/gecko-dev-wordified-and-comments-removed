@@ -1232,6 +1232,8 @@ start
 }
 catch
 (
+IllegalArgumentException
+|
 IllegalStateException
 e
 )
