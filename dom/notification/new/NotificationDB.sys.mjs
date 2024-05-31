@@ -483,7 +483,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

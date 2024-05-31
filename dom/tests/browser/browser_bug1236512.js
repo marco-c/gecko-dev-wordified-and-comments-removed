@@ -194,7 +194,8 @@ document
 visibilitychange
 "
 true
-aEvent
+(
+)
 =
 >
 {
@@ -287,7 +288,8 @@ winTest
 resize
 "
 false
-e
+(
+)
 =
 >
 {

@@ -2561,7 +2561,6 @@ tuple
 async
 deriveKeyAndNonce
 (
-ikm
 )
 {
 throw
@@ -2788,8 +2787,6 @@ removed
 /
 unpadChunk
 (
-chunk
-last
 )
 {
 throw

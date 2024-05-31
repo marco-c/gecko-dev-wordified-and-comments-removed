@@ -354,7 +354,6 @@ oncomplete
 =
 function
 (
-event
 )
 {
 if
@@ -389,7 +388,6 @@ onabort
 =
 function
 (
-event
 )
 {
 is

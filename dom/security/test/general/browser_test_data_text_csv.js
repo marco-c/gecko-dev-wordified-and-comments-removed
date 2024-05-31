@@ -48,7 +48,6 @@ function
 addWindowListener
 (
 aURL
-aCallback
 )
 {
 return
@@ -139,7 +138,6 @@ domwindow
 }
 onCloseWindow
 (
-aXULWindow
 )
 {
 }

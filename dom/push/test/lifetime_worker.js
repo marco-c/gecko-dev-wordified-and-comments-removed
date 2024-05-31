@@ -155,7 +155,6 @@ Promise
 function
 (
 res
-rej
 )
 {
 if
@@ -332,7 +331,6 @@ Promise
 function
 (
 res
-rej
 )
 {
 if

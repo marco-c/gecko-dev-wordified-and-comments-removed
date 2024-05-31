@@ -71,10 +71,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -118,7 +115,8 @@ req
 .
 onsuccess
 =
-event
+(
+)
 =
 >
 {

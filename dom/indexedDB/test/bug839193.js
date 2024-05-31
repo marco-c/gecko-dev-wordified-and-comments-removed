@@ -26,7 +26,6 @@ localhost
 function
 onUsageCallback
 (
-request
 )
 {
 }

@@ -6,7 +6,7 @@ strict
 function
 debug
 (
-msg
+_msg
 )
 {
 }

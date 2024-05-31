@@ -1104,7 +1104,6 @@ TEST_URL
 async
 function
 (
-url
 )
 {
 let
@@ -1232,7 +1231,6 @@ TEST_URL
 async
 function
 (
-url
 )
 {
 let

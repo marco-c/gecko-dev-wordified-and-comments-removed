@@ -40,7 +40,6 @@ onmessage
 async
 function
 (
-msg
 )
 {
 const

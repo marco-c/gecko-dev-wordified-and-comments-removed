@@ -382,7 +382,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 Assert

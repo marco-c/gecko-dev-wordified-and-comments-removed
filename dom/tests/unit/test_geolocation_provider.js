@@ -66,7 +66,6 @@ watchID
 function
 successCallback
 (
-pos
 )
 {
 terminate
@@ -78,7 +77,6 @@ true
 function
 errorCallback
 (
-pos
 )
 {
 terminate

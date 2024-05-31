@@ -234,7 +234,8 @@ addEventListener
 "
 timeupdate
 "
-e
+(
+)
 =
 >
 {

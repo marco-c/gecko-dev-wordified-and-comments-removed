@@ -434,7 +434,6 @@ aIID
 }
 onStartRequest
 (
-aRequest
 )
 {
 lazy
@@ -1034,7 +1033,6 @@ prototype
 {
 onStartRequest
 (
-aRequest
 )
 {
 }
@@ -1241,16 +1239,11 @@ prototype
 {
 onStartRequest
 (
-aRequest
 )
 {
 }
 onDataAvailable
 (
-aRequest
-aStream
-aOffset
-aCount
 )
 {
 }
@@ -2358,7 +2351,6 @@ null
 async
 connect
 (
-broadcastListeners
 )
 {
 let
@@ -2384,8 +2376,6 @@ subscriptions
 async
 sendSubscribeBroadcast
 (
-serviceId
-version
 )
 {
 /
@@ -4113,7 +4103,8 @@ error
 ;
 }
 }
-error
+(
+)
 =
 >
 {

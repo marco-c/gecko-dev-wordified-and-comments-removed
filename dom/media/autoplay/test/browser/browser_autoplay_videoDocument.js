@@ -226,10 +226,7 @@ iframeLoaded
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -240,7 +237,8 @@ addEventListener
 "
 load
 "
-e
+(
+)
 =
 >
 resolve

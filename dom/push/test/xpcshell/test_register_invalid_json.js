@@ -137,7 +137,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

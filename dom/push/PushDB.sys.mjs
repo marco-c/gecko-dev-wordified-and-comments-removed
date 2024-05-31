@@ -302,7 +302,6 @@ upgradeSchema
 aTransaction
 aDb
 aOldVersion
-aNewVersion
 )
 {
 if
@@ -2374,7 +2373,8 @@ req
 .
 onsuccess
 =
-aEvent
+(
+)
 =
 >
 {

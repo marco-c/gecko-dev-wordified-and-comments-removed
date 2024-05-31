@@ -31,7 +31,6 @@ function
 promiseUnregister
 (
 keyID
-code
 )
 {
 return
@@ -261,7 +260,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

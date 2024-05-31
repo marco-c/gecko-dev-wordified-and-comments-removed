@@ -457,7 +457,6 @@ false
 }
 onHello
 (
-request
 )
 {
 this
@@ -581,7 +580,6 @@ status
 }
 onAck
 (
-request
 )
 {
 }
@@ -982,7 +980,6 @@ Promise
 function
 (
 res
-rej
 )
 {
 var
@@ -1265,7 +1262,6 @@ statechange
 function
 onStateChange
 (
-evt
 )
 {
 if

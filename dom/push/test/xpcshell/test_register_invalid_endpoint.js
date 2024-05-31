@@ -140,7 +140,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -170,7 +169,6 @@ userAgentID
 }
 onRegister
 (
-request
 )
 {
 this

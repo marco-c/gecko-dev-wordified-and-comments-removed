@@ -446,7 +446,6 @@ mousedown
 "
 function
 (
-e
 )
 {
 content

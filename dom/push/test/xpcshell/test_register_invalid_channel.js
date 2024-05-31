@@ -132,7 +132,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -162,7 +161,6 @@ status
 }
 onRegister
 (
-request
 )
 {
 this

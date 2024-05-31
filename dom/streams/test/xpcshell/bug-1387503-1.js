@@ -83,13 +83,11 @@ ReadableStream
 {
 start
 (
-controller
 )
 {
 }
 pull
 (
-controller
 )
 {
 debugger

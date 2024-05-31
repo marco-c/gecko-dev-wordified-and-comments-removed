@@ -21,10 +21,7 @@ wasNotified
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

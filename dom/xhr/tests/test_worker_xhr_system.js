@@ -55,7 +55,6 @@ onmessage
 function
 onmessage
 (
-event
 )
 {
 const

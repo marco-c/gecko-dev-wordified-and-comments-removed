@@ -351,7 +351,6 @@ teardown
 "
 function
 (
-msg
 )
 {
 pushService

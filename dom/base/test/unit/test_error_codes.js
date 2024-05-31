@@ -58,7 +58,6 @@ loadend
 function
 doAsyncRequest_onLoad
 (
-event
 )
 {
 Assert

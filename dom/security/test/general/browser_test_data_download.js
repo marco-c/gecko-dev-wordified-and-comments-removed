@@ -138,7 +138,6 @@ domwindow
 }
 onCloseWindow
 (
-aXULWindow
 )
 {
 }
@@ -159,10 +158,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

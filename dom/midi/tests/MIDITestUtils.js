@@ -17,10 +17,7 @@ permPromise
 new
 Promise
 (
-(
 res
-rej
-)
 =
 >
 {

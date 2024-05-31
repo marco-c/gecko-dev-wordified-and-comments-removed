@@ -57,7 +57,6 @@ TEST_PAGE
 async
 function
 (
-browser
 )
 {
 let
@@ -256,7 +255,6 @@ TEST_PAGE
 async
 function
 (
-browser
 )
 {
 let

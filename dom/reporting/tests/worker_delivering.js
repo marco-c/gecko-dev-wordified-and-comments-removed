@@ -29,7 +29,8 @@ text
 .
 then
 (
-text
+(
+)
 =
 >
 {

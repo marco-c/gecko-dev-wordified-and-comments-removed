@@ -391,7 +391,6 @@ CS_observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

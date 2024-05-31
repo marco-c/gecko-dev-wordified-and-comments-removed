@@ -58,8 +58,6 @@ function
 checkSecFetchUser
 (
 subject
-topic
-data
 )
 {
 let

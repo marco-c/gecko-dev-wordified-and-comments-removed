@@ -432,7 +432,6 @@ OK
 function
 notTransferableTest
 (
-msg
 )
 {
 sendAsyncMessage

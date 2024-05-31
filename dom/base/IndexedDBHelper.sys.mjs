@@ -103,7 +103,6 @@ debug
 =
 function
 (
-s
 )
 {
 }
@@ -460,7 +459,6 @@ onversionchange
 =
 function
 (
-event
 )
 {
 if
@@ -628,7 +626,6 @@ onblocked
 =
 function
 (
-aEvent
 )
 {
 if

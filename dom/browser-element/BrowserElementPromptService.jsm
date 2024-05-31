@@ -29,7 +29,6 @@ BrowserElementPromptService
 function
 debug
 (
-msg
 )
 {
 }
@@ -106,8 +105,6 @@ alertCheck
 (
 title
 text
-checkMsg
-checkState
 )
 {
 this
@@ -156,8 +153,6 @@ confirmCheck
 (
 title
 text
-checkMsg
-checkState
 )
 {
 return
@@ -305,8 +300,6 @@ prompt
 title
 text
 value
-checkMsg
-checkState
 )
 {
 let
@@ -358,10 +351,6 @@ null
 }
 promptUsernameAndPassword
 (
-title
-text
-username
-password
 )
 {
 throw
@@ -379,9 +368,6 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 promptPassword
 (
-title
-text
-password
 )
 {
 throw
@@ -399,10 +385,6 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 select
 (
-title
-text
-aSelectList
-aOutSelection
 )
 {
 throw
@@ -826,9 +808,6 @@ promptAuth
 function
 promptAuth
 (
-channel
-level
-authInfo
 )
 {
 throw
@@ -2824,7 +2803,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

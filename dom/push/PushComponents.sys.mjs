@@ -525,7 +525,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -915,7 +914,8 @@ result
 )
 ;
 }
-error
+(
+)
 =
 >
 {
@@ -1025,7 +1025,8 @@ domain
 .
 then
 (
-result
+(
+)
 =
 >
 {
@@ -1039,7 +1040,8 @@ NS_OK
 )
 ;
 }
-error
+(
+)
 =
 >
 {

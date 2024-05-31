@@ -106,7 +106,6 @@ return
 function
 (
 request
-response
 )
 {
 if

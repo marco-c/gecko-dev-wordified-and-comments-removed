@@ -184,7 +184,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

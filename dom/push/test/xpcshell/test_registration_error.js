@@ -109,8 +109,6 @@ db
 {
 getByIdentifiers
 (
-prev
-scope
 )
 {
 return

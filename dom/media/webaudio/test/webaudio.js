@@ -202,7 +202,6 @@ then
 (
 function
 (
-res
 )
 {
 ok

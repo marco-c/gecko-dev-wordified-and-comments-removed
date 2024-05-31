@@ -259,7 +259,8 @@ advance
 var
 onerror
 =
-xhr
+(
+)
 =
 >
 {
@@ -307,7 +308,6 @@ RESET_STATE
 advance
 function
 (
-xhr
 )
 {
 ok

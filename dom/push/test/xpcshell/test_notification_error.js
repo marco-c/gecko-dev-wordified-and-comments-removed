@@ -420,7 +420,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

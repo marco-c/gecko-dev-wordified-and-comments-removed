@@ -43,7 +43,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 check

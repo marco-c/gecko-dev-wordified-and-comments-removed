@@ -106,7 +106,6 @@ then
 (
 function
 (
-c
 )
 {
 return

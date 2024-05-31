@@ -54,7 +54,6 @@ aBrowser
 ]
 function
 (
-opts
 )
 {
 const

@@ -18,7 +18,6 @@ ReadableStream
 {
 start
 (
-controller
 )
 {
 log

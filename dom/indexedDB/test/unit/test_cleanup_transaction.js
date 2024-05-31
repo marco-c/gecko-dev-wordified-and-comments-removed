@@ -316,7 +316,6 @@ oncomplete
 =
 function
 (
-event
 )
 {
 i
@@ -342,7 +341,6 @@ onabort
 =
 function
 (
-event
 )
 {
 is

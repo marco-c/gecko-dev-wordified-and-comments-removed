@@ -3,7 +3,6 @@ ModuleLoader
 (
 base
 depth
-proto
 )
 {
 const

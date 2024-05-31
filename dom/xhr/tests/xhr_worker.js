@@ -334,7 +334,6 @@ foopety
 "
 function
 (
-event
 )
 {
 }
@@ -349,7 +348,6 @@ doopety
 "
 function
 (
-event
 )
 {
 }
@@ -361,7 +359,6 @@ onloadend
 =
 function
 (
-event
 )
 {
 const
@@ -395,7 +392,6 @@ onprogress
 =
 function
 (
-event
 )
 {
 }
@@ -409,7 +405,6 @@ foo
 "
 function
 (
-event
 )
 {
 }
@@ -424,7 +419,6 @@ foo
 "
 function
 (
-event
 )
 {
 }
@@ -439,7 +433,6 @@ load
 "
 function
 (
-event
 )
 {
 }
@@ -454,7 +447,6 @@ foo
 "
 function
 (
-event
 )
 {
 }
@@ -466,7 +458,6 @@ onload
 =
 function
 (
-event
 )
 {
 const

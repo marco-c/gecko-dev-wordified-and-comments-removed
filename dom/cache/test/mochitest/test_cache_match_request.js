@@ -974,7 +974,6 @@ then
 (
 function
 (
-result
 )
 {
 is

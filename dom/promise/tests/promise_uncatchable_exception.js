@@ -16,8 +16,6 @@ Promise
 (
 function
 (
-resolve
-reject
 )
 {
 TestFunctions
@@ -46,7 +44,6 @@ catch
 (
 function
 (
-exception
 )
 {
 ok

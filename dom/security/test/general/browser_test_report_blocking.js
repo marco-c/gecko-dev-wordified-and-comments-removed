@@ -654,7 +654,8 @@ frameBC
 type
 ]
 async
-obj
+(
+)
 =
 >
 {

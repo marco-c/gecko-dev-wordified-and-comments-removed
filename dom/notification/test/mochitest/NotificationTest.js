@@ -328,7 +328,6 @@ false
 }
 clickNotification
 (
-notification
 )
 {
 }

@@ -602,7 +602,6 @@ msgSaveHandler
 =
 function
 (
-message
 )
 {
 calls

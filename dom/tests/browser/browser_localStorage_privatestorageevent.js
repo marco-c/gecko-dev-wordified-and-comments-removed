@@ -214,7 +214,6 @@ pubBrowser
 ]
 function
 (
-opts
 )
 {
 content
@@ -234,7 +233,8 @@ addEventListener
 "
 storage
 "
-ev
+(
+)
 =
 >
 {
@@ -262,7 +262,6 @@ privBrowser
 ]
 function
 (
-opts
 )
 {
 content
@@ -293,7 +292,6 @@ pubBrowser
 ]
 function
 (
-opts
 )
 {
 return
@@ -337,7 +335,6 @@ privBrowser
 ]
 function
 (
-opts
 )
 {
 content
@@ -357,7 +354,8 @@ addEventListener
 "
 storage
 "
-ev
+(
+)
 =
 >
 {
@@ -385,7 +383,6 @@ privBrowser
 ]
 function
 (
-opts
 )
 {
 content
@@ -405,7 +402,8 @@ addEventListener
 "
 storage
 "
-ev
+(
+)
 =
 >
 {
@@ -433,7 +431,6 @@ pubBrowser
 ]
 function
 (
-opts
 )
 {
 content
@@ -464,7 +461,6 @@ privBrowser
 ]
 function
 (
-opts
 )
 {
 return

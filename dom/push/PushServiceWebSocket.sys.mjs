@@ -584,8 +584,6 @@ statusCode
 }
 onAcknowledge
 (
-context
-size
 )
 {
 /
@@ -594,8 +592,6 @@ EMPTY
 }
 onBinaryMessageAvailable
 (
-context
-message
 )
 {
 /
@@ -5698,10 +5694,7 @@ promise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -6028,7 +6021,6 @@ protocol
 handshake
 _wsOnStart
 (
-context
 )
 {
 lazy

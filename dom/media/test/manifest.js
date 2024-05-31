@@ -5369,10 +5369,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -13653,7 +13650,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 target
@@ -13711,7 +13707,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 let

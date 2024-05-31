@@ -2,7 +2,6 @@ onmessage
 =
 function
 (
-event
 )
 {
 postMessage

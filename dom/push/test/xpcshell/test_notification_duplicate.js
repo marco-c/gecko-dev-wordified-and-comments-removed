@@ -559,7 +559,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

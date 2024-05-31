@@ -43,8 +43,6 @@ function
 checkSecFetchUser
 (
 subject
-topic
-data
 )
 {
 let
@@ -261,9 +259,6 @@ reqStopped
 =
 async
 (
-subject
-topic
-data
 )
 =
 >

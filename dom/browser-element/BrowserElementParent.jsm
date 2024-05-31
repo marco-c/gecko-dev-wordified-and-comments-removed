@@ -30,7 +30,6 @@ jsm
 function
 debug
 (
-msg
 )
 {
 }

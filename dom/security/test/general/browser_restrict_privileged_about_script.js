@@ -123,7 +123,6 @@ scripts
 async
 function
 (
-browser
 )
 {
 info

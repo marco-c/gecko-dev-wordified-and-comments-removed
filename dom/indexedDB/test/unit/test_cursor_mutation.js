@@ -618,7 +618,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 objectStore
@@ -639,7 +638,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 cursor

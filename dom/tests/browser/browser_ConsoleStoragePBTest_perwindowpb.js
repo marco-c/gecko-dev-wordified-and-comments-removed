@@ -162,7 +162,6 @@ then
 function
 observe
 (
-aSubject
 )
 {
 afterEvents

@@ -333,7 +333,6 @@ win
 function
 dismissNotification
 (
-popup
 )
 {
 info

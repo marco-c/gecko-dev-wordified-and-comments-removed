@@ -444,8 +444,6 @@ then
 =
 function
 (
-onFulfilled
-onRejected
 )
 {
 resolve
@@ -521,8 +519,6 @@ then
 =
 function
 (
-onFulfilled
-onRejected
 )
 {
 called

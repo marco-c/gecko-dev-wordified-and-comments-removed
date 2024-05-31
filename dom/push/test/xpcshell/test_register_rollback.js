@@ -172,8 +172,6 @@ db
 {
 put
 (
-prev
-record
 )
 {
 return

@@ -229,16 +229,11 @@ prototype
 {
 onStartRequest
 (
-request
 )
 {
 }
 onDataAvailable
 (
-request
-stream
-offset
-count
 )
 {
 do_throw
@@ -257,7 +252,6 @@ data
 onStopRequest
 (
 request
-status
 )
 {
 var
@@ -364,8 +358,6 @@ chan
 function
 serverHandler
 (
-metadata
-response
 )
 {
 }

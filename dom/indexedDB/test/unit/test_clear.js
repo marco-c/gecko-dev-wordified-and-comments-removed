@@ -447,7 +447,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 let

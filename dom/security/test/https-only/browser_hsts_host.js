@@ -676,7 +676,6 @@ observer
 (
 subject
 topic
-state
 )
 {
 info

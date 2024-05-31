@@ -33,7 +33,6 @@ async
 function
 get_access
 (
-browser
 )
 {
 return
@@ -67,7 +66,6 @@ async
 function
 reset_access
 (
-browser
 )
 {
 return
@@ -101,7 +99,6 @@ async
 function
 get_num_ports
 (
-browser
 )
 {
 return
@@ -135,7 +132,6 @@ async
 function
 add_port
 (
-browser
 )
 {
 return
@@ -170,7 +166,6 @@ async
 function
 remove_port
 (
-browser
 )
 {
 return
@@ -205,7 +200,6 @@ async
 function
 force_refresh
 (
-browser
 )
 {
 return

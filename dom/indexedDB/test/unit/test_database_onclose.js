@@ -718,7 +718,6 @@ onerror
 =
 function
 (
-event
 )
 {
 info
@@ -1304,7 +1303,6 @@ onerror
 =
 function
 (
-event
 )
 {
 info

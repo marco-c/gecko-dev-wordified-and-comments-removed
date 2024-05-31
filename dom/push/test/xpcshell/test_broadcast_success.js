@@ -975,7 +975,6 @@ test
 }
 onBroadcastSubscribe
 (
-data
 )
 {
 }
@@ -1210,7 +1209,6 @@ uri
 {
 onHello
 (
-data
 )
 {
 }

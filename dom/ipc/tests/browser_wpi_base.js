@@ -810,7 +810,8 @@ hasSavedLogin
 setup_com
 :
 async
-expected
+(
+)
 =
 >
 {
@@ -949,7 +950,8 @@ isLoggedIn
 setup_com
 :
 async
-expected
+(
+)
 =
 >
 {

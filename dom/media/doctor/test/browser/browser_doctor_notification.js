@@ -1164,10 +1164,7 @@ linkedBrowser
 params
 ]
 async
-(
 params
-shouldReportNotification
-)
 =
 >
 {

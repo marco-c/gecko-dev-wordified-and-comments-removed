@@ -456,7 +456,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 cursor
@@ -635,7 +634,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 indexCount

@@ -433,8 +433,6 @@ testDecoderForBig5
 function
 testConstructorFatalOption
 (
-data
-expectedString
 )
 {
 testCharset

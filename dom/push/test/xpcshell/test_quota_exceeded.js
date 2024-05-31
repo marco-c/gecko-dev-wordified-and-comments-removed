@@ -441,8 +441,6 @@ PushServiceComponent
 .
 pushTopic
 (
-subject
-data
 )
 =
 >
@@ -512,7 +510,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -687,7 +684,6 @@ unregisterDone
 }
 onACK
 (
-request
 )
 {
 }

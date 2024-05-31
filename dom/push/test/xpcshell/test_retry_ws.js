@@ -167,7 +167,6 @@ init
 (
 observer
 delay
-type
 )
 {
 reconnects
@@ -273,7 +272,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 if

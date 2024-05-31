@@ -300,7 +300,8 @@ addEventListener
 "
 load
 "
-event
+(
+)
 =
 >
 {

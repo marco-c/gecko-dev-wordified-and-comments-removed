@@ -984,7 +984,6 @@ onabort
 =
 function
 (
-event
 )
 {
 ok
@@ -1110,7 +1109,6 @@ oncomplete
 =
 function
 (
-event
 )
 {
 ok
@@ -2024,7 +2022,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 executeSoon
@@ -2094,7 +2091,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 continueToNextStep
@@ -2218,7 +2214,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 transaction

@@ -139,7 +139,6 @@ TEST_URI
 }
 function
 (
-browser
 )
 {
 }

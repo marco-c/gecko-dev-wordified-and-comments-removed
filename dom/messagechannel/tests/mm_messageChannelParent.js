@@ -394,7 +394,8 @@ port
 .
 onmessage
 =
-message
+(
+)
 =
 >
 {
@@ -506,7 +507,8 @@ empty_transferable
 let
 finishPrepare
 =
-msg
+(
+)
 =
 >
 {
@@ -584,7 +586,8 @@ not_transferable
 let
 finishPrepare
 =
-msg
+(
+)
 =
 >
 {
@@ -638,7 +641,6 @@ PortCreated
 function
 finishLoad
 (
-msg
 )
 {
 run_tests

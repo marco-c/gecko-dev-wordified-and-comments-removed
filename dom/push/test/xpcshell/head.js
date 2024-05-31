@@ -320,7 +320,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 Services
@@ -504,10 +503,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1338,8 +1334,6 @@ msg
 }
 close
 (
-code
-reason
 )
 {
 waterfall
@@ -1952,7 +1946,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

@@ -431,7 +431,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -550,7 +549,6 @@ unregisterDone
 }
 onACK
 (
-request
 )
 {
 }

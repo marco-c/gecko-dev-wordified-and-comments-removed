@@ -26,7 +26,6 @@ name
 ]
 function
 (
-name
 )
 {
 return
@@ -61,7 +60,6 @@ then
 (
 function
 (
-response
 )
 {
 ok
@@ -90,7 +88,6 @@ catch
 (
 function
 (
-err
 )
 {
 ok
@@ -166,7 +163,6 @@ then
 (
 function
 (
-result
 )
 {
 ok
@@ -195,7 +191,6 @@ catch
 (
 function
 (
-err
 )
 {
 ok
@@ -271,7 +266,6 @@ then
 (
 function
 (
-c
 )
 {
 ok
@@ -300,7 +294,6 @@ catch
 (
 function
 (
-err
 )
 {
 ok
@@ -376,7 +369,6 @@ then
 (
 function
 (
-result
 )
 {
 ok
@@ -405,7 +397,6 @@ catch
 (
 function
 (
-err
 )
 {
 ok
@@ -453,7 +444,6 @@ name
 ]
 function
 (
-name
 )
 {
 return
@@ -478,7 +468,6 @@ then
 (
 function
 (
-names
 )
 {
 ok
@@ -507,7 +496,6 @@ catch
 (
 function
 (
-err
 )
 {
 ok
@@ -845,7 +833,8 @@ linkedBrowser
 .
 then
 (
-tab
+(
+)
 =
 >
 {

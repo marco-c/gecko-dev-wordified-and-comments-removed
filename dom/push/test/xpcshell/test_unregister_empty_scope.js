@@ -80,7 +80,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

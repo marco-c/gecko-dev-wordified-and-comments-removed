@@ -416,7 +416,6 @@ x
 }
 returnBadUnion
 (
-x
 )
 {
 return
@@ -425,13 +424,11 @@ return
 }
 testSequenceOverload
 (
-arg
 )
 {
 }
 testSequenceUnion
 (
-arg
 )
 {
 }
@@ -544,7 +541,6 @@ NS_BINDING_ABORTED
 }
 testThrowNsresultFromNative
 (
-x
 )
 {
 /

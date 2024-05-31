@@ -8,7 +8,6 @@ add_task
 async
 function
 (
-test
 )
 {
 return
@@ -45,7 +44,6 @@ add_task
 (
 function
 (
-test
 )
 {
 var
@@ -107,7 +105,6 @@ add_task
 (
 function
 (
-test
 )
 {
 var
@@ -183,7 +180,6 @@ readMore
 (
 {
 done
-value
 }
 )
 {

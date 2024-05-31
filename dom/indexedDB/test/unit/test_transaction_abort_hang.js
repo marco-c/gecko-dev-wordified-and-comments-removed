@@ -240,7 +240,6 @@ oncomplete
 =
 function
 (
-event
 )
 {
 ok
@@ -408,7 +407,6 @@ oncomplete
 =
 function
 (
-event
 )
 {
 ok

@@ -6,7 +6,6 @@ strict
 function
 debug
 (
-msg
 )
 {
 }

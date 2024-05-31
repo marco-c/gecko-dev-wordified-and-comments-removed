@@ -16,7 +16,6 @@ true
 async
 test
 (
-browser
 )
 {
 if

@@ -44,7 +44,6 @@ browser
 async
 function
 (
-arg
 )
 {
 const

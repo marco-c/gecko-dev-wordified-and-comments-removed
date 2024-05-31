@@ -1285,7 +1285,6 @@ cutCopyAll
 function
 docut
 (
-aSucc
 )
 {
 synthesizeKey
@@ -1304,7 +1303,6 @@ true
 function
 docopy
 (
-aSucc
 )
 {
 synthesizeKey
@@ -1433,7 +1431,6 @@ cutCopyAll
 function
 doCut
 (
-aSucc
 )
 {
 is
@@ -1465,7 +1462,6 @@ callback
 function
 doCopy
 (
-aSucc
 )
 {
 is

@@ -73,7 +73,6 @@ PartyStreamer
 {
 start
 (
-c
 )
 {
 started

@@ -115,7 +115,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

@@ -2225,7 +2225,6 @@ statusMessage
 }
 notify
 (
-timer
 )
 {
 this

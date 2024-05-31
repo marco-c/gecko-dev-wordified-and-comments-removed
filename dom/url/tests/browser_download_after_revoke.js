@@ -278,7 +278,6 @@ true
 }
 onCloseWindow
 (
-aXULWindow
 )
 {
 }

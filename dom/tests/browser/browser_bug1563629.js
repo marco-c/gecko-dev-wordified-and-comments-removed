@@ -77,7 +77,6 @@ win
 function
 listener
 (
-event
 )
 {
 ok

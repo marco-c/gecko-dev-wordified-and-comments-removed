@@ -123,7 +123,8 @@ browser
 {
 }
 async
-args
+(
+)
 =
 >
 {

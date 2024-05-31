@@ -27,7 +27,6 @@ onmessage
 =
 function
 (
-event
 )
 {
 var

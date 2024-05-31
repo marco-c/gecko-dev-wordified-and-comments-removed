@@ -226,7 +226,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 cursor

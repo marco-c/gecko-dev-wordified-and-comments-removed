@@ -57,7 +57,6 @@ onupgradeneeded
 =
 function
 (
-event
 )
 {
 info
@@ -174,7 +173,6 @@ onupgradeneeded
 =
 function
 (
-event
 )
 {
 info

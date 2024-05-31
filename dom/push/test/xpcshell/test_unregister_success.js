@@ -206,7 +206,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

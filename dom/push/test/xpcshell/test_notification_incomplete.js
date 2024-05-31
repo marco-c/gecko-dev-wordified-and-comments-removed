@@ -323,9 +323,6 @@ record
 function
 observeMessage
 (
-subject
-topic
-data
 )
 {
 ok
@@ -459,7 +456,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
