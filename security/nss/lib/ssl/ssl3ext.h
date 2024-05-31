@@ -64,6 +64,10 @@ ex_sender
 }
 sslExtensionBuilder
 ;
+typedef
+PRUint16
+SSLCertificateCompressionAlgorithmID
+;
 struct
 TLSExtensionDataStr
 {
@@ -227,6 +231,12 @@ selectedPsk
 sslEchXtnState
 *
 ech
+;
+SSLCertificateCompressionAlgorithmID
+compressionAlg
+;
+PRBool
+certificateCompressionAdvertised
 ;
 }
 ;

@@ -149,6 +149,11 @@ ssl_cert_ext_unittest
 cc
 '
 '
+ssl_certificate_compression_unittest
+.
+cc
+'
+'
 ssl_cipherorder_unittest
 .
 cc

@@ -195,6 +195,7 @@ ssl_app_layer_protocol_xtn
 ssl_signed_cert_timestamp_xtn
 ssl_padding_xtn
 ssl_extended_master_secret_xtn
+ssl_certificate_compression_xtn
 ssl_session_ticket_xtn
 ssl_tls13_key_share_xtn
 ssl_tls13_pre_shared_key_xtn

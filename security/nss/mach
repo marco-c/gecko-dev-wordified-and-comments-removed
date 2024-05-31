@@ -915,12 +915,6 @@ self
 args
 )
 :
-from
-distutils
-.
-spawn
-import
-find_executable
 if
 platform
 .
@@ -937,7 +931,9 @@ self
 .
 restorecon
 =
-find_executable
+shutil
+.
+which
 (
 "
 restorecon
@@ -945,7 +941,9 @@ restorecon
 )
 dcmd
 =
-find_executable
+shutil
+.
+which
 (
 "
 docker

@@ -142,6 +142,12 @@ kTlsHandshakeKeyUpdate
 ;
 const
 uint8_t
+kTlsHandshakeCertificateCompression
+=
+25
+;
+const
+uint8_t
 kTlsAlertWarning
 =
 1

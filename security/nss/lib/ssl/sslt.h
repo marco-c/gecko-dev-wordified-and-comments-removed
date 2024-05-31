@@ -86,6 +86,9 @@ ssl_hs_certificate_status
 ssl_hs_key_update
 =
 24
+ssl_hs_compressed_certificate
+=
+25
 ssl_hs_next_proto
 =
 67
@@ -1022,6 +1025,9 @@ ssl_padding_xtn
 ssl_extended_master_secret_xtn
 =
 23
+ssl_certificate_compression_xtn
+=
+27
 ssl_record_size_limit_xtn
 =
 28
@@ -1092,7 +1098,7 @@ ssl_supported_groups_xtn
 #
 define
 SSL_MAX_EXTENSIONS
-21
+22
 typedef
 enum
 {
