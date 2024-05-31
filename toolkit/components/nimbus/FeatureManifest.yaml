@@ -15051,9 +15051,6 @@ com
 hasExposure
 :
 false
-isEarlyStartup
-:
-true
 variables
 :
 enableBookmarksToolbar
