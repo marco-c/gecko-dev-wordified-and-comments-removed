@@ -1515,11 +1515,6 @@ SitePermsAddonInstalling
 extends
 SitePermsAddonWrapper
 {
-#
-install
-=
-null
-;
 /
 *
 *
@@ -1642,13 +1637,6 @@ siteOriginNoSuffix
 permission
 ]
 )
-;
-this
-.
-#
-install
-=
-install
 ;
 }
 get

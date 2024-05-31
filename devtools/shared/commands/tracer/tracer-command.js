@@ -16,15 +16,6 @@ commands
 this
 .
 #
-targetCommand
-=
-commands
-.
-targetCommand
-;
-this
-.
-#
 targetConfigurationCommand
 =
 commands
@@ -43,9 +34,6 @@ resourceCommand
 }
 #
 resourceCommand
-;
-#
-targetCommand
 ;
 #
 targetConfigurationCommand

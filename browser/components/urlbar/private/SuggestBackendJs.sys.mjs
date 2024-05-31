@@ -1776,11 +1776,6 @@ emitter
 null
 ;
 #
-logger
-=
-null
-;
-#
 onSettingsSync
 =
 null

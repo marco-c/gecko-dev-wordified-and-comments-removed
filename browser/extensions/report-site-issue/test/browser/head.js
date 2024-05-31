@@ -232,11 +232,6 @@ true
 class
 HelpMenuHelper
 {
-#
-popup
-=
-null
-;
 async
 open
 (
