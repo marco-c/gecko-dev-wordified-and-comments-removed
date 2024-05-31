@@ -186,9 +186,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-event
+webdriver
+/
+Event
 .
 sys
 .
