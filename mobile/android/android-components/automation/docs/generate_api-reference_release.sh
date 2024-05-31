@@ -174,4 +174,4 @@ docs
 generate_reference_page
 .
 py
-version
+VERSION
