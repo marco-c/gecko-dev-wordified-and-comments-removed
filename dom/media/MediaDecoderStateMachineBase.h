@@ -839,6 +839,7 @@ aTarget
 =
 0
 ;
+virtual
 void
 DecodeError
 (
