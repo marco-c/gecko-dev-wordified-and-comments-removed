@@ -17633,6 +17633,10 @@ GuardResizableArrayBufferViewInBounds
 )
 CACHEOP_CASE_UNIMPL
 (
+GuardResizableArrayBufferViewInBoundsOrDetached
+)
+CACHEOP_CASE_UNIMPL
+(
 NewArrayIteratorResult
 )
 CACHEOP_CASE_UNIMPL

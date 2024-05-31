@@ -3058,11 +3058,8 @@ tryAttachTypedArrayLength
 (
 bool
 isPossiblyWrapped
-)
-;
-AttachDecision
-tryAttachTypedArrayLengthZeroOnOutOfBounds
-(
+bool
+allowOutOfBounds
 )
 ;
 AttachDecision
