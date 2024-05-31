@@ -85,7 +85,7 @@ TextUtils
 Normalizes
 a
 URL
-string
+String
 .
 *
 /
@@ -138,9 +138,8 @@ http
 :
 /
 /
-"
-+
 trimmedInput
+"
 )
 }
 return
@@ -157,7 +156,7 @@ toString
 Checks
 if
 this
-string
+String
 is
 a
 URL
