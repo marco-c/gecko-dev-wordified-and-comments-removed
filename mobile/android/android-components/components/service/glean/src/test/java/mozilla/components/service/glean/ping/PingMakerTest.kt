@@ -179,6 +179,14 @@ robolectric
 .
 RobolectricTestRunner
 import
+org
+.
+robolectric
+.
+annotation
+.
+Config
+import
 java
 .
 time
@@ -216,6 +224,12 @@ class
 java
 )
 Test
+Config
+(
+minSdk
+=
+21
+)
 fun
 "
 ping_info
@@ -423,7 +437,7 @@ start_time
 "
 )
 )
->
+<
 =
 OffsetDateTime
 .
