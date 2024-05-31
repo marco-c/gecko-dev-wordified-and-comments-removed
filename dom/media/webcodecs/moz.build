@@ -104,6 +104,11 @@ DecoderTypes
 h
 "
 "
+EncodedAudioChunk
+.
+h
+"
+"
 EncodedVideoChunk
 .
 h
@@ -165,6 +170,11 @@ cpp
 "
 "
 DecoderTemplate
+.
+cpp
+"
+"
+EncodedAudioChunk
 .
 cpp
 "

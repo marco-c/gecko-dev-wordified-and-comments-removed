@@ -3473,6 +3473,11 @@ ElementInternals
 webidl
 "
 "
+EncodedAudioChunk
+.
+webidl
+"
+"
 EncodedVideoChunk
 .
 webidl
