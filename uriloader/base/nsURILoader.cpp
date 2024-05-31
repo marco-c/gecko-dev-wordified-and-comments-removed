@@ -1334,19 +1334,6 @@ forceExternalHandling
 =
 false
 ;
-if
-(
-!
-(
-mFlags
-&
-nsIURILoader
-:
-:
-DONT_RETARGET
-)
-)
-{
 uint32_t
 disposition
 ;
@@ -1382,7 +1369,6 @@ forceExternalHandling
 =
 true
 ;
-}
 }
 LOG
 (
