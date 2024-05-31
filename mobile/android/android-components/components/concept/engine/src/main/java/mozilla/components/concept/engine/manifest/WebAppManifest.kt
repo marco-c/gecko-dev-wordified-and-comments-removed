@@ -66,6 +66,12 @@ concept
 engine
 .
 manifest
+import
+androidx
+.
+annotation
+.
+ColorInt
 /
 *
 *
@@ -677,6 +683,7 @@ DisplayMode
 DisplayMode
 .
 BROWSER
+ColorInt
 val
 backgroundColor
 :
@@ -732,6 +739,7 @@ String
 ?
 =
 null
+ColorInt
 val
 themeColor
 :

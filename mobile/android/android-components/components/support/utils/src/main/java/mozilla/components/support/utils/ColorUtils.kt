@@ -70,6 +70,12 @@ android
 graphics
 .
 Color
+import
+androidx
+.
+annotation
+.
+ColorInt
 object
 ColorUtils
 {
@@ -108,6 +114,7 @@ MagicNumber
 fun
 getReadableTextColor
 (
+ColorInt
 backgroundColor
 :
 Int
@@ -165,6 +172,7 @@ private
 fun
 grayscaleFromRGB
 (
+ColorInt
 color
 :
 Int
