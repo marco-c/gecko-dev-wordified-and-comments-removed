@@ -204,6 +204,16 @@ coroutines
 }
 "
 testImplementation
+project
+(
+'
+:
+support
+-
+test
+'
+)
+testImplementation
 "
 junit
 :
