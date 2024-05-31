@@ -12460,6 +12460,13 @@ DEFAULT_TAG
 }
 )
 ;
+engine
+.
+copyUserSettingsFrom
+(
+prevCurrentEngine
+)
+;
 this
 .
 #

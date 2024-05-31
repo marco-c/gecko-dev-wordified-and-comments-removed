@@ -816,9 +816,9 @@ options
 *
 *
 *
-An
-optional
-shortcut
+A
+user
+defined
 alias
 for
 the
@@ -831,7 +831,8 @@ an
 empty
 string
 this
-is
+should
+be
 a
 unique
 identifier
