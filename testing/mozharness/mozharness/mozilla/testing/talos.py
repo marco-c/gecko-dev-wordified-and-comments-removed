@@ -5681,6 +5681,10 @@ requirements
 mozbase_requirements
 ]
             
+two_pass
+=
+True
+            
 editable
 =
 True
