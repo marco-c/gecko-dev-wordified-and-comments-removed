@@ -838,6 +838,17 @@ static
 constexpr
 nsStaticAtom
 *
+PopupType
+=
+nsGkAtoms
+:
+:
+ispopup
+;
+static
+constexpr
+nsStaticAtom
+*
 PrimaryAction
 =
 nsGkAtoms
