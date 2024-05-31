@@ -147,11 +147,7 @@ logger
 =
 Logger
 (
-"
-telemetry
-/
-debug
-"
+tag
 )
 override
 fun
