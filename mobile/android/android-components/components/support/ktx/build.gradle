@@ -144,11 +144,7 @@ kotlin
 -
 stdlib
 :
-1
-.
-2
-.
-30
+kotlin_version
 "
 provided
 "
@@ -180,11 +176,7 @@ kotlin
 -
 stdlib
 :
-1
-.
-2
-.
-30
+kotlin_version
 "
 testCompile
 '
