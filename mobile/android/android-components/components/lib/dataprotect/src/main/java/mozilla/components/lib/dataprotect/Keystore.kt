@@ -857,6 +857,7 @@ VERSION_CODES
 .
 M
 )
+open
 class
 Keystore
 (
@@ -1235,6 +1236,7 @@ be
 stored
 *
 /
+open
 fun
 encryptBytes
 (
@@ -1404,6 +1406,7 @@ plaintext
 data
 *
 /
+open
 fun
 decryptBytes
 (
