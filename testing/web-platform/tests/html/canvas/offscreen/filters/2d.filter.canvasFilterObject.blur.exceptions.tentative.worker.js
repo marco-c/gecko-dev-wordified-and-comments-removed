@@ -37,12 +37,8 @@ async_test
 Test
 exceptions
 on
-CanvasFilter
-(
-)
-blur
-.
-object
+gaussianBlur
+filter
 "
 )
 ;
