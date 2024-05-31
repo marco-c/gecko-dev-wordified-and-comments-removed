@@ -175,11 +175,6 @@ browser
 toolbar
 "
 "
-concept
--
-toolbar
-"
-"
 feature
 -
 accounts

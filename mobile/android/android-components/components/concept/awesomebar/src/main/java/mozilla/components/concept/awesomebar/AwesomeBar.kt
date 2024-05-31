@@ -215,8 +215,9 @@ SuggestionProvider
 Removes
 all
 [
-SuggestionProviders
+SuggestionProvider
 ]
+s
 *
 /
 fun
