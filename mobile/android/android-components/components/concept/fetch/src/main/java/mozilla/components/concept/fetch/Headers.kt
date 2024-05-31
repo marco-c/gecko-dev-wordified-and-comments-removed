@@ -367,6 +367,15 @@ Content
 -
 Type
 "
+const
+val
+USER_AGENT
+=
+"
+User
+-
+Agent
+"
 }
 }
 /
