@@ -1986,9 +1986,6 @@ requirements
 [
 requirements
 ]
-two_pass
-=
-True
 )
         
 webtransport_requirements
@@ -2037,16 +2034,11 @@ self
 .
 register_virtualenv_module
 (
-            
 requirements
 =
 [
 webtransport_requirements
 ]
-two_pass
-=
-True
-        
 )
     
 def
