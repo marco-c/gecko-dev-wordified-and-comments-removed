@@ -1507,6 +1507,14 @@ JSStringFuncs
 BuiltinModuleFuncId
 :
 :
+StringTest
+BuiltinModuleFuncId
+:
+:
+StringCast
+BuiltinModuleFuncId
+:
+:
 StringFromWTF16Array
 BuiltinModuleFuncId
 :
