@@ -1545,6 +1545,9 @@ String
 mimeType
 :
 String
+encoding
+:
+String
 )
 {
 }
