@@ -174,13 +174,6 @@ resources
 ]
 }
 }
-testOptions
-.
-unitTests
-.
-includeAndroidResources
-=
-true
 }
 dependencies
 {

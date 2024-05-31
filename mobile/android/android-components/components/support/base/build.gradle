@@ -289,13 +289,6 @@ generatedSrcDir
 }
 }
 }
-testOptions
-.
-unitTests
-.
-includeAndroidResources
-=
-true
 }
 dependencies
 {

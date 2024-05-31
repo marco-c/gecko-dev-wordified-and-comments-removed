@@ -137,13 +137,6 @@ experimental
 =
 true
 }
-testOptions
-.
-unitTests
-.
-includeAndroidResources
-=
-true
 }
 dependencies
 {

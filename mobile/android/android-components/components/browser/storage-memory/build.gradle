@@ -117,13 +117,6 @@ pro
 '
 }
 }
-testOptions
-.
-unitTests
-.
-includeAndroidResources
-=
-true
 }
 dependencies
 {

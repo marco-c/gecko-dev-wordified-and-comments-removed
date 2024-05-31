@@ -197,13 +197,6 @@ toString
 )
 )
 }
-testOptions
-.
-unitTests
-.
-includeAndroidResources
-=
-true
 }
 dependencies
 {

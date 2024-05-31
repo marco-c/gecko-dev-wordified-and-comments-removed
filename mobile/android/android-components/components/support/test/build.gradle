@@ -161,13 +161,6 @@ xml
 "
 )
 }
-testOptions
-.
-unitTests
-.
-includeAndroidResources
-=
-true
 }
 dependencies
 {
