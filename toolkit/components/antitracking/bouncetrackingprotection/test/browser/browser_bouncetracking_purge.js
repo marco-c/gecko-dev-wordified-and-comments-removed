@@ -66,6 +66,8 @@ bounceTrackingProtection
 .
 testAddBounceTrackerCandidate
 (
+{
+}
 "
 example
 .
@@ -78,6 +80,8 @@ bounceTrackingProtection
 .
 testAddBounceTrackerCandidate
 (
+{
+}
 "
 example
 .
@@ -107,6 +111,8 @@ bounceTrackingProtection
 .
 testAddBounceTrackerCandidate
 (
+{
+}
 "
 example
 .
