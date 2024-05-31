@@ -133,10 +133,5 @@ projectsWithWarningsAsErrorsDisabled
 =
 setOf
 (
-"
-browser
--
-domains
-"
 )
 }
