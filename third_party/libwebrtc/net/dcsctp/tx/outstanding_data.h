@@ -1015,9 +1015,6 @@ NackItem
 (
 UnwrappedTSN
 tsn
-Item
-&
-item
 bool
 retransmit_now
 bool
