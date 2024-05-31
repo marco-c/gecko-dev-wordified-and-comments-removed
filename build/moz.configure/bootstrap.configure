@@ -1608,6 +1608,10 @@ kwargs
 depends
 (
 enable_bootstrap
+dependable
+(
+path
+)
 bootstrap_path
 (
 path
@@ -1624,6 +1628,7 @@ bootstrap_search_path
 (
 bootstrap
 path
+bootstrap_path
 order
 paths
 original_path
@@ -1639,7 +1644,7 @@ paths
 original_path
 if
 not
-path
+bootstrap_path
 :
 return
 paths
@@ -1691,7 +1696,7 @@ prepend
 :
 return
 [
-path
+bootstrap_path
 ]
 +
 paths
@@ -1699,7 +1704,7 @@ return
 paths
 +
 [
-path
+bootstrap_path
 ]
 return
 bootstrap_search_path
