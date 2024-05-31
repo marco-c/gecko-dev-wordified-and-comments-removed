@@ -171,6 +171,16 @@ support
 base
 '
 )
+api
+project
+(
+'
+:
+browser
+-
+errorpages
+'
+)
 testImplementation
 Deps
 .
