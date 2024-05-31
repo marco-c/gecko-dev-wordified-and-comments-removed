@@ -2114,9 +2114,6 @@ store
 =
 BrowserStore
 (
-BrowserState
-(
-)
 )
 assertEquals
 (

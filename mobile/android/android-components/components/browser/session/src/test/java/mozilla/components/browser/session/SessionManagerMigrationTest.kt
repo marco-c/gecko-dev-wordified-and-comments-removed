@@ -1540,9 +1540,6 @@ store
 =
 BrowserStore
 (
-BrowserState
-(
-)
 )
 val
 manager
@@ -1628,9 +1625,6 @@ store
 =
 BrowserStore
 (
-BrowserState
-(
-)
 )
 val
 manager
@@ -2122,9 +2116,6 @@ store
 =
 BrowserStore
 (
-BrowserState
-(
-)
 )
 val
 manager

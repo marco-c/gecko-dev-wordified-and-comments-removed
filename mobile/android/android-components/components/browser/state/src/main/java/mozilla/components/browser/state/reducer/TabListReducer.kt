@@ -382,6 +382,7 @@ g
 from
 an
 Intent
+)
 and
 so
 we
