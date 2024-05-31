@@ -893,7 +893,6 @@ detektCheck
 ktlint
 assembleRelease
 docs
-lint
 uploadArchives
 zipMavenArtifacts
 &
