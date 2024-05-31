@@ -119,8 +119,6 @@ kotlinx
 .
 coroutines
 .
-experimental
-.
 launch
 import
 mozilla
@@ -153,15 +151,11 @@ kotlinx
 .
 coroutines
 .
-experimental
-.
 CoroutineScope
 import
 kotlinx
 .
 coroutines
-.
-experimental
 .
 Dispatchers
 import

@@ -77,15 +77,11 @@ kotlinx
 .
 coroutines
 .
-experimental
-.
 CompletableDeferred
 import
 kotlinx
 .
 coroutines
-.
-experimental
 .
 Deferred
 import

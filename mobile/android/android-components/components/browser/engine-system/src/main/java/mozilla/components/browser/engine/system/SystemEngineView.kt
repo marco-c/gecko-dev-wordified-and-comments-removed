@@ -273,8 +273,6 @@ kotlinx
 .
 coroutines
 .
-experimental
-.
 runBlocking
 import
 mozilla

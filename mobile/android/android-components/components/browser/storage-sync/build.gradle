@@ -177,14 +177,11 @@ Deps
 .
 jna
 testImplementation
-files
-(
 configurations
 .
 jnaForTest
 .
-files
-)
+dependencies
 testImplementation
 project
 (

@@ -89,15 +89,11 @@ kotlinx
 .
 coroutines
 .
-experimental
-.
 delay
 import
 kotlinx
 .
 coroutines
-.
-experimental
 .
 runBlocking
 import

@@ -361,14 +361,11 @@ Deps
 .
 kotlin_coroutines
 testImplementation
-files
-(
 configurations
 .
 jnaForTest
 .
-files
-)
+dependencies
 testImplementation
 Deps
 .

@@ -71,8 +71,6 @@ kotlinx
 .
 coroutines
 .
-experimental
-.
 Deferred
 /
 *

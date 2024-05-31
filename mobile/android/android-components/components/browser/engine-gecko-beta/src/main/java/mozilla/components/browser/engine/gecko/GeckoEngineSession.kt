@@ -83,15 +83,11 @@ kotlinx
 .
 coroutines
 .
-experimental
-.
 CompletableDeferred
 import
 kotlinx
 .
 coroutines
-.
-experimental
 .
 runBlocking
 import
