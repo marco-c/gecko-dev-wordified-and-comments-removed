@@ -195,6 +195,8 @@ nsAString
 aKeySystem
 MediaKeySessionType
 aSessionType
+bool
+aHardwareDecryption
 ErrorResult
 &
 aRv
@@ -534,6 +536,9 @@ mKeyStatusMap
 ;
 double
 mExpiration
+;
+bool
+mHardwareDecryption
 ;
 }
 ;

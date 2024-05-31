@@ -261,6 +261,8 @@ const
 nsAString
 &
 aInitDataType
+bool
+aIsHardwareDecryption
 )
 ;
 static
