@@ -2483,7 +2483,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -3101,7 +3100,6 @@ init
 (
 triggerHandler
 params
-patterns
 )
 {
 params
@@ -3330,7 +3328,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -3662,7 +3659,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch

@@ -788,7 +788,6 @@ obs
 (
 subject
 topic
-data
 )
 =
 >

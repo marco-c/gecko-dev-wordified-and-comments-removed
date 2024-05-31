@@ -545,8 +545,6 @@ updates
 /
 onExperimentUpdated
 (
-event
-reason
 )
 {
 const
@@ -1615,7 +1613,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

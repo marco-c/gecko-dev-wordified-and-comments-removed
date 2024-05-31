@@ -2208,7 +2208,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -2828,8 +2827,6 @@ defaultURL
 }
 aboutHomeChannel
 (
-uri
-loadInfo
 )
 {
 throw

@@ -302,7 +302,6 @@ function
 OnboardingExperience
 (
 {
-children
 dispatch
 windowObj
 =

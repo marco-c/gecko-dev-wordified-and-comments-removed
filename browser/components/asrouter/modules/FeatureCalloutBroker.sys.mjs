@@ -1493,7 +1493,6 @@ handleFeatureCalloutCallback
 (
 win
 event
-data
 )
 {
 switch

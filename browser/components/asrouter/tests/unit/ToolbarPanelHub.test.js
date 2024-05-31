@@ -2465,8 +2465,6 @@ find
 (
 (
 [
-doc
-el
 args
 ]
 )
@@ -2522,8 +2520,6 @@ find
 (
 (
 [
-doc
-el
 args
 ]
 )
@@ -2576,7 +2572,6 @@ find
 (
 (
 [
-doc
 el
 args
 ]
@@ -2617,8 +2612,6 @@ find
 (
 (
 [
-doc
-el
 args
 ]
 )
@@ -2915,8 +2908,6 @@ filter
 (
 (
 [
-doc
-el
 args
 ]
 )
@@ -2944,8 +2935,6 @@ map
 (
 (
 [
-doc
-el
 args
 ]
 )
@@ -3189,8 +3178,6 @@ find
 (
 (
 [
-doc
-el
 elArgs
 ]
 )
@@ -3352,7 +3339,6 @@ filter
 (
 (
 [
-doc
 el
 args
 ]

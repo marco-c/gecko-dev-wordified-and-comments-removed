@@ -366,8 +366,6 @@ false
 }
 componentDidCatch
 (
-error
-info
 )
 {
 this

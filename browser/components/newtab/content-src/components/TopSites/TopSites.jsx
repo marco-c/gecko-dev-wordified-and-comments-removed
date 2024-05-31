@@ -1189,10 +1189,7 @@ TopSites
 =
 connect
 (
-(
 state
-props
-)
 =
 >
 (

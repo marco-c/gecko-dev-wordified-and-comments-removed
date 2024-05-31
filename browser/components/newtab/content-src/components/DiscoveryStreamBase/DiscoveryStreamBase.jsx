@@ -999,7 +999,6 @@ selectors
 renderComponent
 (
 component
-embedWidth
 )
 {
 switch

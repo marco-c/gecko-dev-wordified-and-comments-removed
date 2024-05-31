@@ -308,7 +308,6 @@ BUILT_IN_SECTIONS
 =
 (
 {
-newtab
 pocketNewtab
 }
 )
@@ -690,7 +689,8 @@ section
 highlights
 "
 :
-options
+(
+)
 =
 >
 (

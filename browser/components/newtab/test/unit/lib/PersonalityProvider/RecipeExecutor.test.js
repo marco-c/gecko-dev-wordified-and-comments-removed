@@ -52,7 +52,6 @@ tagScoreMap
 }
 tagTokens
 (
-tokens
 )
 {
 if
