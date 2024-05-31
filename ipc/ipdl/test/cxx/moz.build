@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestSanity
-.
-h
-"
-"
 TestSelfManageRoot
 .
 h
@@ -101,11 +96,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestSanity
 .
 cpp
 "
@@ -212,11 +202,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestSanity
 .
 ipdl
 "
