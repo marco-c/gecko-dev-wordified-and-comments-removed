@@ -1011,6 +1011,16 @@ child
 "
 )
 ;
+let
+hide
+=
+waitForMacEvent
+(
+"
+AXUIElementDestroyed
+"
+)
+;
 EventUtils
 .
 synthesizeKey
@@ -1030,6 +1040,9 @@ identityPopup
 hidden
 "
 )
+;
+await
+hide
 ;
 is
 (
