@@ -350,6 +350,14 @@ mozilla
 geckoview
 .
 GeckoSessionSettings
+import
+org
+.
+mozilla
+.
+geckoview
+.
+WebRequestError
 /
 *
 *
@@ -1703,12 +1711,9 @@ GeckoSession
 uri
 :
 String
-category
-:
-Int
 error
 :
-Int
+WebRequestError
 )
 :
 GeckoResult
@@ -1728,6 +1733,8 @@ GeckoEngineSession
 geckoErrorToErrorType
 (
 error
+.
+code
 )
 uri
 )
@@ -2760,9 +2767,9 @@ internal
 fun
 geckoErrorToErrorType
 (
-NavigationDelegate
+WebRequestError
 .
-LoadError
+Error
 errorCode
 :
 Int
@@ -2773,7 +2780,7 @@ when
 errorCode
 )
 {
-NavigationDelegate
+WebRequestError
 .
 ERROR_UNKNOWN
 -
@@ -2781,7 +2788,7 @@ ERROR_UNKNOWN
 ErrorType
 .
 UNKNOWN
-NavigationDelegate
+WebRequestError
 .
 ERROR_SECURITY_SSL
 -
@@ -2789,7 +2796,7 @@ ERROR_SECURITY_SSL
 ErrorType
 .
 ERROR_SECURITY_SSL
-NavigationDelegate
+WebRequestError
 .
 ERROR_SECURITY_BAD_CERT
 -
@@ -2797,7 +2804,7 @@ ERROR_SECURITY_BAD_CERT
 ErrorType
 .
 ERROR_SECURITY_BAD_CERT
-NavigationDelegate
+WebRequestError
 .
 ERROR_NET_INTERRUPT
 -
@@ -2805,7 +2812,7 @@ ERROR_NET_INTERRUPT
 ErrorType
 .
 ERROR_NET_INTERRUPT
-NavigationDelegate
+WebRequestError
 .
 ERROR_NET_TIMEOUT
 -
@@ -2813,7 +2820,7 @@ ERROR_NET_TIMEOUT
 ErrorType
 .
 ERROR_NET_TIMEOUT
-NavigationDelegate
+WebRequestError
 .
 ERROR_CONNECTION_REFUSED
 -
@@ -2821,7 +2828,7 @@ ERROR_CONNECTION_REFUSED
 ErrorType
 .
 ERROR_CONNECTION_REFUSED
-NavigationDelegate
+WebRequestError
 .
 ERROR_UNKNOWN_SOCKET_TYPE
 -
@@ -2829,7 +2836,7 @@ ERROR_UNKNOWN_SOCKET_TYPE
 ErrorType
 .
 ERROR_UNKNOWN_SOCKET_TYPE
-NavigationDelegate
+WebRequestError
 .
 ERROR_REDIRECT_LOOP
 -
@@ -2837,7 +2844,7 @@ ERROR_REDIRECT_LOOP
 ErrorType
 .
 ERROR_REDIRECT_LOOP
-NavigationDelegate
+WebRequestError
 .
 ERROR_OFFLINE
 -
@@ -2845,7 +2852,7 @@ ERROR_OFFLINE
 ErrorType
 .
 ERROR_OFFLINE
-NavigationDelegate
+WebRequestError
 .
 ERROR_PORT_BLOCKED
 -
@@ -2853,7 +2860,7 @@ ERROR_PORT_BLOCKED
 ErrorType
 .
 ERROR_PORT_BLOCKED
-NavigationDelegate
+WebRequestError
 .
 ERROR_NET_RESET
 -
@@ -2861,7 +2868,7 @@ ERROR_NET_RESET
 ErrorType
 .
 ERROR_NET_RESET
-NavigationDelegate
+WebRequestError
 .
 ERROR_UNSAFE_CONTENT_TYPE
 -
@@ -2869,7 +2876,7 @@ ERROR_UNSAFE_CONTENT_TYPE
 ErrorType
 .
 ERROR_UNSAFE_CONTENT_TYPE
-NavigationDelegate
+WebRequestError
 .
 ERROR_CORRUPTED_CONTENT
 -
@@ -2877,7 +2884,7 @@ ERROR_CORRUPTED_CONTENT
 ErrorType
 .
 ERROR_CORRUPTED_CONTENT
-NavigationDelegate
+WebRequestError
 .
 ERROR_CONTENT_CRASHED
 -
@@ -2885,7 +2892,7 @@ ERROR_CONTENT_CRASHED
 ErrorType
 .
 ERROR_CONTENT_CRASHED
-NavigationDelegate
+WebRequestError
 .
 ERROR_INVALID_CONTENT_ENCODING
 -
@@ -2893,7 +2900,7 @@ ERROR_INVALID_CONTENT_ENCODING
 ErrorType
 .
 ERROR_INVALID_CONTENT_ENCODING
-NavigationDelegate
+WebRequestError
 .
 ERROR_UNKNOWN_HOST
 -
@@ -2901,7 +2908,7 @@ ERROR_UNKNOWN_HOST
 ErrorType
 .
 ERROR_UNKNOWN_HOST
-NavigationDelegate
+WebRequestError
 .
 ERROR_MALFORMED_URI
 -
@@ -2909,7 +2916,7 @@ ERROR_MALFORMED_URI
 ErrorType
 .
 ERROR_MALFORMED_URI
-NavigationDelegate
+WebRequestError
 .
 ERROR_UNKNOWN_PROTOCOL
 -
@@ -2917,7 +2924,7 @@ ERROR_UNKNOWN_PROTOCOL
 ErrorType
 .
 ERROR_UNKNOWN_PROTOCOL
-NavigationDelegate
+WebRequestError
 .
 ERROR_FILE_NOT_FOUND
 -
@@ -2925,7 +2932,7 @@ ERROR_FILE_NOT_FOUND
 ErrorType
 .
 ERROR_FILE_NOT_FOUND
-NavigationDelegate
+WebRequestError
 .
 ERROR_FILE_ACCESS_DENIED
 -
@@ -2933,7 +2940,7 @@ ERROR_FILE_ACCESS_DENIED
 ErrorType
 .
 ERROR_FILE_ACCESS_DENIED
-NavigationDelegate
+WebRequestError
 .
 ERROR_PROXY_CONNECTION_REFUSED
 -
@@ -2941,7 +2948,7 @@ ERROR_PROXY_CONNECTION_REFUSED
 ErrorType
 .
 ERROR_PROXY_CONNECTION_REFUSED
-NavigationDelegate
+WebRequestError
 .
 ERROR_UNKNOWN_PROXY_HOST
 -
@@ -2949,7 +2956,7 @@ ERROR_UNKNOWN_PROXY_HOST
 ErrorType
 .
 ERROR_UNKNOWN_PROXY_HOST
-NavigationDelegate
+WebRequestError
 .
 ERROR_SAFEBROWSING_MALWARE_URI
 -
@@ -2957,7 +2964,7 @@ ERROR_SAFEBROWSING_MALWARE_URI
 ErrorType
 .
 ERROR_SAFEBROWSING_MALWARE_URI
-NavigationDelegate
+WebRequestError
 .
 ERROR_SAFEBROWSING_UNWANTED_URI
 -
@@ -2965,7 +2972,7 @@ ERROR_SAFEBROWSING_UNWANTED_URI
 ErrorType
 .
 ERROR_SAFEBROWSING_UNWANTED_URI
-NavigationDelegate
+WebRequestError
 .
 ERROR_SAFEBROWSING_HARMFUL_URI
 -
@@ -2973,7 +2980,7 @@ ERROR_SAFEBROWSING_HARMFUL_URI
 ErrorType
 .
 ERROR_SAFEBROWSING_HARMFUL_URI
-NavigationDelegate
+WebRequestError
 .
 ERROR_SAFEBROWSING_PHISHING_URI
 -
