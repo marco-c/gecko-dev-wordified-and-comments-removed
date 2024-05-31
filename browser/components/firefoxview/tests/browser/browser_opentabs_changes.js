@@ -1,5 +1,6 @@
 const
 {
+NonPrivateTabs
 getTabsTargetForWindow
 }
 =
