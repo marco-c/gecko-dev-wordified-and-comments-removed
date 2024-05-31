@@ -133,6 +133,11 @@ StorageEngine
 mapOf
 (
 "
+boolean
+"
+to
+BooleansStorageEngine
+"
 counter
 "
 to
