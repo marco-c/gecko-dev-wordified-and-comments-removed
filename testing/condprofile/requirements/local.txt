@@ -14,6 +14,12 @@ mozfile
 /
 mozbase
 /
+mozlog
+.
+.
+/
+mozbase
+/
 mozprofile
 .
 .
@@ -21,9 +27,3 @@ mozprofile
 mozbase
 /
 mozdevice
-.
-.
-/
-mozbase
-/
-mozlog

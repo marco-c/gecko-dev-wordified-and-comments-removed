@@ -32,10 +32,10 @@ root
 mozfile
 .
 /
+mozlog
+.
+/
 mozprofile
 .
 /
 mozdevice
-.
-/
-mozlog

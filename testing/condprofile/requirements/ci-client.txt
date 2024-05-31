@@ -61,7 +61,7 @@ root
 mozfile
 .
 /
-mozprofile
+mozlog
 .
 /
-mozlog
+mozprofile
