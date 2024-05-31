@@ -503,13 +503,13 @@ PresShell
 aShell
 nsIFrame
 *
-aFrame
+aEventTargetFrame
 nsIContent
 *
-aContent
+aEventTargetContent
 WidgetGUIEvent
 *
-aEvent
+aMouseOrTouchEvent
 bool
 aDontRetargetEvents
 nsEventStatus
@@ -518,7 +518,9 @@ aStatus
 nsIContent
 *
 *
-aTargetContent
+aMouseOrTouchEventTarget
+=
+nullptr
 )
 ;
 static
