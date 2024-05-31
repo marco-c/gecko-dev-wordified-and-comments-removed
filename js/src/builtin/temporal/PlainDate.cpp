@@ -9614,15 +9614,6 @@ NewPlainObjectWithUniqueNames
 (
 cx
 fields
-.
-begin
-(
-)
-fields
-.
-length
-(
-)
 )
 ;
 if
