@@ -521,11 +521,8 @@ e
 .
 g
 search
-refresh
 load
-a
-new
-tab
+URL
 )
 .
 Features
@@ -556,8 +553,7 @@ components
 .
 See
 [
-Component
-list
+Components
 ]
 (
 #
@@ -567,7 +563,6 @@ for
 a
 complete
 and
-most
 up
 -
 to
