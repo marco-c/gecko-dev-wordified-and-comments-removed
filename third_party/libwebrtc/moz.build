@@ -3805,16 +3805,6 @@ libwebrtc
 /
 rtc_base
 /
-async_resolver_interface_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-rtc_base
-/
 audio_format_to_string_gn
 "
 "
