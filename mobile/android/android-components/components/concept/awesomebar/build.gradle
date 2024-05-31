@@ -135,13 +135,6 @@ Dependencies
 .
 kotlin_stdlib
 }
-archivesBaseName
-=
-"
-concept
--
-awesomebar
-"
 apply
 from
 :

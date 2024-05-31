@@ -146,7 +146,7 @@ implementation
 Dependencies
 .
 kotlin_stdlib
-implementation
+testImplementation
 Dependencies
 .
 kotlin_coroutines

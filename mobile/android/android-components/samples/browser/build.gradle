@@ -809,10 +809,6 @@ kotlin_stdlib
 implementation
 Dependencies
 .
-kotlin_coroutines
-implementation
-Dependencies
-.
 support_appcompat
 implementation
 Dependencies

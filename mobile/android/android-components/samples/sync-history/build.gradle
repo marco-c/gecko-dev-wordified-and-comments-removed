@@ -100,7 +100,7 @@ mozilla
 .
 samples
 .
-fxa
+history
 "
 minSdkVersion
 Config
@@ -233,16 +233,4 @@ implementation
 Dependencies
 .
 support_constraintlayout
-implementation
-Dependencies
-.
-kotlin_stdlib
-implementation
-Dependencies
-.
-kotlin_coroutines
-implementation
-Dependencies
-.
-support_appcompat
 }
