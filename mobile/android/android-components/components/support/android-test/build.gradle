@@ -176,6 +176,14 @@ implementation
 Dependencies
 .
 androidx_espresso_core
+implementation
+Dependencies
+.
+androidx_test_core
+implementation
+Dependencies
+.
+testing_leakcanary
 }
 apply
 from
