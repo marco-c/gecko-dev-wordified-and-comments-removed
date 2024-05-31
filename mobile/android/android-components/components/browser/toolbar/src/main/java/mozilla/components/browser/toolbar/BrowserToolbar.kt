@@ -658,7 +658,7 @@ urlView
 .
 paddingBottom
 )
-{
+=
 displayToolbar
 .
 urlView
@@ -670,7 +670,6 @@ top
 right
 bottom
 )
-}
 private
 var
 state
