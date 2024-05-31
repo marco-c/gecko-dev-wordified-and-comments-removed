@@ -202,9 +202,10 @@ third_party
 /
 libwebrtc
 -
-Remove
-android_support
-dependency
-from
+Bug
+1876843
+-
+Vendor
 libwebrtc
-.
+from
+d6bac61b64
