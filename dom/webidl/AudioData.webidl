@@ -149,6 +149,17 @@ Exposed
 Window
 DedicatedWorker
 )
+Pref
+=
+"
+dom
+.
+media
+.
+webcodecs
+.
+enabled
+"
 ]
 interface
 AudioData
