@@ -37,7 +37,7 @@ ASRouterDefaultConfig
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -51,7 +51,9 @@ asrouter
 /
 ASRouterDefaultConfig
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

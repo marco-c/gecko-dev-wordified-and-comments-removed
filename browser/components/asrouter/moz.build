@@ -80,7 +80,9 @@ modules
 /
 ASRouterDefaultConfig
 .
-jsm
+sys
+.
+mjs
 "
 "
 modules
