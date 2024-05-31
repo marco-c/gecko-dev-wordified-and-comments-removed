@@ -1705,6 +1705,8 @@ fp
 init
 (
 win
+.
+browsingContext
 ContentAreaUtils
 .
 stringBundle

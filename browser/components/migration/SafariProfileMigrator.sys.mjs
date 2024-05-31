@@ -4026,6 +4026,9 @@ fp
 init
 (
 win
+?
+.
+browsingContext
 "
 "
 Ci

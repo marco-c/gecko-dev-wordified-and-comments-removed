@@ -6855,6 +6855,8 @@ init
 activeTab
 .
 ownerGlobal
+.
+browsingContext
 title
 Ci
 .
