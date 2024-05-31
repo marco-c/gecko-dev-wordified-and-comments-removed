@@ -1971,6 +1971,13 @@ webSettings
 useWideViewPort
 =
 enable
+notifyObservers
+{
+onDesktopModeChange
+(
+enable
+)
+}
 if
 (
 reload
