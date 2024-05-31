@@ -9,7 +9,7 @@ include
 <
 IOSurface
 /
-IOSurface
+IOSurfaceRef
 .
 h
 >

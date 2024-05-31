@@ -57,6 +57,14 @@ gl_provider
 "
 EAGL
 "
+DEFINES
+[
+"
+GLES_SILENCE_DEPRECATION
+"
+]
+=
+1
 elif
 CONFIG
 [
