@@ -32,6 +32,11 @@ include
 <
 type_traits
 >
+#
+include
+<
+limits
+>
 namespace
 mozilla
 {
