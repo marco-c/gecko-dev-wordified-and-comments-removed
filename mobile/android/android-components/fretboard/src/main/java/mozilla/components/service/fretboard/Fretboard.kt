@@ -134,6 +134,7 @@ local
 storage
 *
 /
+Synchronized
 fun
 loadExperiments
 (
@@ -169,6 +170,7 @@ local
 storage
 *
 /
+Synchronized
 fun
 updateExperiments
 (
@@ -179,9 +181,11 @@ if
 !
 experimentsLoaded
 )
+{
 loadExperiments
 (
 )
+}
 try
 {
 val
