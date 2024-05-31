@@ -405,7 +405,6 @@ et
 InlineAutocompleteEditText
 (
 context
-attributes
 )
 et
 .
@@ -549,6 +548,11 @@ InlineAutocompleteEditText
 (
 context
 attributes
+R
+.
+attr
+.
+editTextStyle
 )
 val
 searchStates
