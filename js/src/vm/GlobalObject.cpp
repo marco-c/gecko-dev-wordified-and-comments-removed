@@ -1062,12 +1062,6 @@ defined
 (
 MOZ_ICU4X
 )
-&
-&
-defined
-(
-NIGHTLY_BUILD
-)
 return
 false
 ;
