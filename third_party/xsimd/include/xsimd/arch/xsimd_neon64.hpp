@@ -522,7 +522,7 @@ noexcept
 return
 broadcast
 <
-neon64
+A
 >
 (
 val
