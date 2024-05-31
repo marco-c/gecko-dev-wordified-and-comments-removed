@@ -2099,16 +2099,6 @@ tooltip
 /
 menupopup
 panel
-{
-flex
--
-direction
-:
-column
-;
-}
-menupopup
-panel
 tooltip
 {
 position
