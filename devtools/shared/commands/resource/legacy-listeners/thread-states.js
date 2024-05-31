@@ -84,11 +84,6 @@ isNonTopLevelFrameTarget
 return
 ;
 }
-await
-targetFront
-.
-onThreadAttached
-;
 if
 (
 targetFront
