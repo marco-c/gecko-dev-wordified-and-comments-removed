@@ -211,7 +211,7 @@ R
 .
 string
 .
-errorpage_title
+error_page_title
 )
 )
 .
@@ -230,7 +230,7 @@ R
 .
 string
 .
-errorpage_refresh
+error_page_refresh
 )
 )
 .
