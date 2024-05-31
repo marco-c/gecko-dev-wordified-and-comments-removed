@@ -272,6 +272,7 @@ done
 function
 verifySelectedSnapTarget
 (
+t
 scroller
 expected_snap_target
 axis
@@ -334,6 +335,15 @@ target_top
 }
 px
 ;
+t
+.
+step
+(
+(
+)
+=
+>
+{
 assert_equals
 (
 scroller
@@ -374,6 +384,9 @@ axis
 )
 ;
 }
+)
+;
+}
 else
 {
 const
@@ -403,6 +416,15 @@ target_left
 }
 px
 ;
+t
+.
+step
+(
+(
+)
+=
+>
+{
 assert_equals
 (
 scroller
@@ -440,6 +462,9 @@ in
 x
 axis
 "
+)
+;
+}
 )
 ;
 }
@@ -537,6 +562,7 @@ both
 {
 verifySelectedSnapTarget
 (
+t
 scroller
 expected_target_y
 axis
@@ -563,6 +589,7 @@ both
 {
 verifySelectedSnapTarget
 (
+t
 scroller
 expected_target_x
 axis
@@ -701,6 +728,7 @@ axis
 ;
 verifySelectedSnapTarget
 (
+t
 scroller
 expected_target
 axis
