@@ -122,6 +122,12 @@ entityColumn
 "
 tab_collection_id
 "
+entity
+=
+TabEntity
+:
+:
+class
 )
 lateinit
 var
