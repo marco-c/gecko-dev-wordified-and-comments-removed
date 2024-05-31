@@ -241,6 +241,9 @@ Context
 engine
 :
 Engine
+restoreSessionId
+:
+Boolean
 )
 :
 SessionManager
@@ -255,6 +258,7 @@ engine
 entity
 .
 tabs
+restoreSessionId
 )
 }
 override
@@ -273,6 +277,9 @@ List
 <
 Tab
 >
+restoreSessionId
+:
+Boolean
 )
 :
 SessionManager
@@ -317,6 +324,7 @@ restore
 context
 engine
 entities
+restoreSessionId
 )
 }
 private
@@ -335,6 +343,9 @@ List
 <
 TabEntity
 >
+restoreSessionId
+:
+Boolean
 )
 :
 SessionManager
@@ -363,6 +374,7 @@ filesDir
 readSnapshotItem
 (
 engine
+restoreSessionId
 )
 }
 return

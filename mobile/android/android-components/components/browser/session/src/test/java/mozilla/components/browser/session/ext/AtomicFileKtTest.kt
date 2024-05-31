@@ -1236,6 +1236,9 @@ file
 readSnapshotItem
 (
 engine
+restoreSessionId
+=
+true
 )
 assertNotNull
 (

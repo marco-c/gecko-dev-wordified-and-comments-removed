@@ -2696,6 +2696,9 @@ NEW_TAB
 deserializeSession
 (
 json
+restoreId
+=
+true
 )
 .
 source
@@ -2757,6 +2760,9 @@ NONE
 deserializeSession
 (
 jsonInvalid
+restoreId
+=
+true
 )
 .
 source

@@ -218,6 +218,9 @@ Engine
 tab
 :
 Tab
+restoreSessionId
+:
+Boolean
 )
 :
 SessionManager
@@ -239,6 +242,7 @@ filesDir
 readSnapshotItem
 (
 engine
+restoreSessionId
 )
 return
 SessionManager

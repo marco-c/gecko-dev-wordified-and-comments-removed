@@ -304,12 +304,16 @@ readSnapshotItem
 engine
 :
 Engine
+restoreSessionId
+:
+Boolean
 serializer
 :
 SnapshotSerializer
 =
 SnapshotSerializer
 (
+restoreSessionId
 )
 )
 :
