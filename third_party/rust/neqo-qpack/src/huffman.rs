@@ -16,8 +16,8 @@ huffman_decode_helper
 :
 :
 {
-huffman_decoder_root
 HuffmanDecoderNode
+HUFFMAN_DECODE_ROOT
 }
 huffman_table
 :
@@ -533,9 +533,8 @@ node
 &
 HuffmanDecoderNode
 =
-huffman_decoder_root
-(
-)
+&
+HUFFMAN_DECODE_ROOT
 ;
 let
 mut
