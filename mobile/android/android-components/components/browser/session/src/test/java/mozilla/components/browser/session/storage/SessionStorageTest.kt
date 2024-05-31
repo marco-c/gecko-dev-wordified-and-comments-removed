@@ -2441,6 +2441,9 @@ selectedSessionIndex
 saveSnapshotToDisk
 (
 file
+SnapshotSerializer
+(
+)
 snapshot
 )
 verify
@@ -2501,6 +2504,11 @@ file
 engine
 =
 mock
+(
+)
+serializer
+=
+SnapshotSerializer
 (
 )
 )
@@ -2574,6 +2582,11 @@ file
 engine
 =
 mock
+(
+)
+serializer
+=
+SnapshotSerializer
 (
 )
 )
