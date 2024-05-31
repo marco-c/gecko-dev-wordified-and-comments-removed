@@ -567,6 +567,14 @@ use
 }
 )
 .
+*
+Added
+Bitmap
+.
+arePixelsAllTheSame
+(
+)
+.
 #
 0
 .
