@@ -205,6 +205,7 @@ duration
 .
 stopAndSum
 (
+this
 )
 Glean
 .
@@ -357,6 +358,7 @@ duration
 .
 start
 (
+this
 )
 }
 }
