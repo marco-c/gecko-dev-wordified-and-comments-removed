@@ -138,12 +138,6 @@ MockWebServer
 import
 org
 .
-json
-.
-JSONObject
-import
-org
-.
 junit
 .
 Before
@@ -1550,7 +1544,7 @@ readUtf8
 val
 eventsJson
 =
-JSONObject
+checkPingSchema
 (
 eventsJsonData
 )
@@ -1567,10 +1561,6 @@ events
 )
 !
 !
-checkPingSchema
-(
-eventsJson
-)
 assertEquals
 (
 500
