@@ -198,10 +198,10 @@ implementation
 Dependencies
 .
 kotlin_coroutines
-api
+implementation
 Dependencies
 .
-support_customtabs
+support_constraintlayout
 testImplementation
 project
 (
