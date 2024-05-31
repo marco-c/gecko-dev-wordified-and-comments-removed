@@ -501,6 +501,7 @@ close
 action
 addCloseButton
 (
+session
 config
 .
 closeButtonIcon
@@ -617,6 +618,9 @@ internal
 fun
 addCloseButton
 (
+session
+:
+Session
 bitmap
 :
 Bitmap
@@ -687,6 +691,12 @@ mozac_feature_customtabs_exit_button
 {
 emitCloseFact
 (
+)
+sessionManager
+.
+remove
+(
+session
 )
 closeListener
 .
