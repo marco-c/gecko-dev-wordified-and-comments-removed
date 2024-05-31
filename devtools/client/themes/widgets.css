@@ -910,6 +910,15 @@ translateZ
 1px
 )
 ;
+&
+>
+scrollbox
+{
+overflow
+:
+auto
+;
+}
 }
 .
 variables
