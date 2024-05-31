@@ -721,10 +721,6 @@ com
 "
 )
 )
-.
-await
-(
-)
 verify
 (
 places
@@ -769,10 +765,6 @@ getVisited
 listOf
 (
 )
-)
-.
-await
-(
 )
 verify
 (
@@ -820,10 +812,6 @@ places
 storage
 .
 getVisited
-(
-)
-.
-await
 (
 )
 verify

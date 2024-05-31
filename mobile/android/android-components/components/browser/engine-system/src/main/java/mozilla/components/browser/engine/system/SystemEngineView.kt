@@ -927,9 +927,6 @@ onVisited
 (
 url
 isReload
-privateMode
-=
-false
 )
 }
 }
@@ -1890,11 +1887,6 @@ it
 .
 getVisited
 (
-false
-)
-.
-await
-(
 )
 .
 toTypedArray
@@ -2018,9 +2010,6 @@ onTitleChanged
 (
 url
 titleOrEmpty
-privateMode
-=
-false
 )
 }
 }

@@ -2148,7 +2148,6 @@ onTitleChanged
 (
 url
 title
-privateMode
 )
 }
 }

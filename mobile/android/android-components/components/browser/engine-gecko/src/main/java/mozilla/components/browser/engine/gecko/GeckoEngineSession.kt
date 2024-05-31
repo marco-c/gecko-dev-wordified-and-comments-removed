@@ -2136,7 +2136,6 @@ onTitleChanged
 (
 url
 title
-privateMode
 )
 }
 }
