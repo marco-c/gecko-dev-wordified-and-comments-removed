@@ -4154,6 +4154,16 @@ nsAtom
 *
 )
 ;
+Element
+*
+GetExplicitlySetAttrElement
+(
+nsAtom
+*
+aAttr
+)
+const
+;
 PseudoStyleType
 GetPseudoElementType
 (
