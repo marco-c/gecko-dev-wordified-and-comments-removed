@@ -870,9 +870,6 @@ com
 /
 photon
 /
-welcome
-.
-html
 )
 for
 Firefox
@@ -990,9 +987,6 @@ com
 /
 photon
 /
-welcome
-.
-html
 )
 .
 *
@@ -1053,9 +1047,6 @@ com
 /
 photon
 /
-welcome
-.
-html
 )
 .
 .
