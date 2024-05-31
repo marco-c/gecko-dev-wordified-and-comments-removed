@@ -214,6 +214,10 @@ cwd
 {
 checkout
 }
+/
+android
+-
+components
 '
 command
 :
