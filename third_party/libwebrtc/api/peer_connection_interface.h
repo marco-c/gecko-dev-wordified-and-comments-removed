@@ -1844,15 +1844,6 @@ absl
 :
 optional
 <
-bool
->
-allow_codec_switching
-;
-absl
-:
-:
-optional
-<
 int
 >
 report_usage_pattern_delay_ms
