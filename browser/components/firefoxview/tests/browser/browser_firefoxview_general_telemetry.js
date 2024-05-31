@@ -174,7 +174,8 @@ tabSelectedTelemetry
 enteredTelemetry
 ]
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -520,7 +521,8 @@ clearAllParentTelemetryEvents
 (
 )
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -534,7 +536,8 @@ telemetryEvent
 changePageEvent
 )
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -963,7 +966,7 @@ showing
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -1326,7 +1329,7 @@ showing
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -1793,7 +1796,7 @@ showing
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
