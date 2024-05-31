@@ -146,7 +146,7 @@ Engine
 *
 *
 *
-Creates
+Create
 a
 new
 Gecko
@@ -182,7 +182,7 @@ attrs
 *
 *
 *
-Creates
+Create
 a
 new
 Gecko
@@ -206,18 +206,6 @@ GeckoEngineSession
 runtime
 )
 }
-/
-*
-*
-*
-See
-[
-Engine
-.
-name
-]
-*
-/
 override
 fun
 name
