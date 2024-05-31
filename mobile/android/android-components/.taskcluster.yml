@@ -1740,7 +1740,11 @@ fetch
 repository
 }
 {
-head_branch
+event
+.
+release
+.
+target_commitish
 }
 &
 &
