@@ -438,8 +438,6 @@ CHANNEL
 exit
 1
 fi
-exit
-28
 #
 Get
 token
