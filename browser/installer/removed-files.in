@@ -712,6 +712,9 @@ defaults
 /
 pref
 /
+DIR_RESOURCES
+defaults
+/
 #
 endif
 #
