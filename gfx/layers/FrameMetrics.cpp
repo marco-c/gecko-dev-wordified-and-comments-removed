@@ -1038,7 +1038,7 @@ GetSource
 )
 )
 ;
-ClampAndSetVisualScrollOffset
+SetVisualScrollOffset
 (
 origin
 +
