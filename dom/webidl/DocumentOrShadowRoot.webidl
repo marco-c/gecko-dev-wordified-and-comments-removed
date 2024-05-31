@@ -360,6 +360,16 @@ interface
 mixin
 DocumentOrShadowRoot
 {
+[
+Func
+=
+"
+Document
+:
+:
+IsWebAnimationsGetAnimationsEnabled
+"
+]
 sequence
 <
 Animation
