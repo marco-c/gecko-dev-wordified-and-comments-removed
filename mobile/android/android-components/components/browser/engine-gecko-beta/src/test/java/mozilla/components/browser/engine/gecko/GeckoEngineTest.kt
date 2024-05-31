@@ -540,17 +540,6 @@ true
 )
 when
 (
-runtimeSettings
-.
-webFontsEnabled
-)
-.
-thenReturn
-(
-true
-)
-when
-(
 runtime
 .
 settings

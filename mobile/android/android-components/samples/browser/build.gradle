@@ -498,6 +498,8 @@ betaArmImplementation
 org
 .
 mozilla
+.
+geckoview
 :
 geckoview
 -
@@ -525,6 +527,8 @@ betaX86Implementation
 org
 .
 mozilla
+.
+geckoview
 :
 geckoview
 -
@@ -550,6 +554,8 @@ betaAarch64Implementation
 org
 .
 mozilla
+.
+geckoview
 :
 geckoview
 -

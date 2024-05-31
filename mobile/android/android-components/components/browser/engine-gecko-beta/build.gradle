@@ -194,6 +194,8 @@ compileOnly
 org
 .
 mozilla
+.
+geckoview
 :
 geckoview
 -
@@ -221,6 +223,8 @@ testImplementation
 org
 .
 mozilla
+.
+geckoview
 :
 geckoview
 -
