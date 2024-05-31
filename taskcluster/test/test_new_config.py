@@ -259,10 +259,35 @@ qr
 /
 opt
 "
+                
+and
+(
+"
+spi
+-
+nw
+"
+not
+in
+t
+.
+label
+and
+"
+a11y
+-
+checks
+"
+not
+in
+t
+.
+label
+)
             
 )
             
-64
+32
             
 id
 =
