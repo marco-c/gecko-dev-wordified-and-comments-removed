@@ -1453,6 +1453,8 @@ bool
 aNavigateByKey
 bool
 aSkipOwner
+bool
+aReachedToEndForDocumentNavigation
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1484,6 +1486,8 @@ bool
 aForDocumentNavigation
 bool
 aNavigateByKey
+bool
+aReachedToEndForDocumentNavigation
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1517,6 +1521,8 @@ bool
 aNavigateByKey
 bool
 aSkipPopover
+bool
+aReachedToEndForDocumentNavigation
 nsIContent
 *
 *
@@ -1574,6 +1580,8 @@ nsIContent
 *
 *
 aNextContent
+bool
+aReachedToEndForDocumentNavigation
 )
 ;
 mozilla
@@ -1709,6 +1717,8 @@ bool
 aForDocumentNavigation
 bool
 aNavigateByKey
+bool
+aReachedToEndForDocumentNavigation
 nsIContent
 *
 *
