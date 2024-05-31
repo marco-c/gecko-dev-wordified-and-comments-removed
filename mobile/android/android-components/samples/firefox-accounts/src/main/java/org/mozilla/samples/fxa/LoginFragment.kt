@@ -204,6 +204,8 @@ getString
 (
 AUTH_URL
 )
+!
+!
 redirectUrl
 =
 it
@@ -212,6 +214,8 @@ getString
 (
 REDIRECT_URL
 )
+!
+!
 }
 }
 SuppressLint
