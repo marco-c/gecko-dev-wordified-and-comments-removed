@@ -35251,7 +35251,7 @@ once
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 -
 name
@@ -37909,7 +37909,7 @@ always
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 Set

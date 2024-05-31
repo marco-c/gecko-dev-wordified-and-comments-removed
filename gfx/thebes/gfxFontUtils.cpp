@@ -148,7 +148,7 @@ h
 "
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 #
 include
 <
@@ -6834,7 +6834,7 @@ X_USER_DEFINED_ENCODING
 {
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 if
 (
 aPlatformCode
