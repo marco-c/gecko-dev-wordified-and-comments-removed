@@ -254,6 +254,9 @@ mObservers
 ;
 }
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 class
 DBusMenuBar
 final
@@ -352,6 +355,8 @@ nullptr
 endif
 }
 ;
+#
+endif
 }
 }
 #

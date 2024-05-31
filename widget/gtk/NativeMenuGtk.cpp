@@ -2634,6 +2634,9 @@ Element
 )
 {
 }
+#
+ifdef
+MOZ_ENABLE_DBUS
 class
 MenubarModelDBus
 final
@@ -4911,4 +4914,6 @@ DBusMenuBar
 =
 default
 ;
+#
+endif
 }

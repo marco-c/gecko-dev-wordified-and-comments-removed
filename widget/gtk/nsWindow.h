@@ -1988,6 +1988,9 @@ aRegion
 )
 override
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 void
 SetDBusMenuBar
 (
@@ -2004,6 +2007,8 @@ DBusMenuBar
 aDbusMenuBar
 )
 ;
+#
+endif
 gint
 GdkCeiledScaleFactor
 (
@@ -3734,6 +3739,9 @@ nsWindow
 >
 mWaylandPopupPrev
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 RefPtr
 <
 mozilla
@@ -3746,6 +3754,8 @@ DBusMenuBar
 >
 mDBusMenuBar
 ;
+#
+endif
 LayoutDeviceIntSize
 mMoveToRectPopupSize
 ;
