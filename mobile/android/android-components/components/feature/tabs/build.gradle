@@ -185,6 +185,16 @@ project
 (
 '
 :
+ui
+-
+tabcounter
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 ktx

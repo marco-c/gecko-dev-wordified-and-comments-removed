@@ -378,10 +378,10 @@ tabsToolbarFeature
 =
 TabsToolbarFeature
 (
-requireContext
-(
-)
 toolbar
+components
+.
+sessionManager
 :
 :
 showTabs
