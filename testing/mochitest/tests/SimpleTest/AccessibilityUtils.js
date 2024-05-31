@@ -3453,6 +3453,12 @@ isUnlabeledUrlBarCombobox
 (
 DOMNode
 )
+|
+|
+isUnlabeledUrlBarOption
+(
+DOMNode
+)
 )
 {
 return
