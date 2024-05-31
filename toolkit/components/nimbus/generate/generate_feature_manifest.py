@@ -166,14 +166,6 @@ newtab
 "
     
 "
-nimbus
--
-qa
--
-2
-"
-    
-"
 opaqueResponseBlocking
 "
     

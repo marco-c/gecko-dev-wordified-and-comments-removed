@@ -298,9 +298,6 @@ barret
 mozilla
 .
 com
-isEarlyStartup
-:
-true
 hasExposure
 :
 false
