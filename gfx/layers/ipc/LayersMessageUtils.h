@@ -3587,7 +3587,7 @@ mozilla
 ScrollUpdateType
 :
 :
-MergeableAbsolute
+PureRelative
 >
 {
 }

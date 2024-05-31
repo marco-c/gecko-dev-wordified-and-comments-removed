@@ -19,7 +19,6 @@ Apz
 Restore
 Relative
 Clamp
-AnchorAdjustment
 Other
 Pixels
 Lines
