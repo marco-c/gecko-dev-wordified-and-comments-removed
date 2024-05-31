@@ -325,6 +325,13 @@ js
 ]
 [
 "
+test_insert_thousands_bookmarks
+.
+js
+"
+]
+[
+"
 test_insertTree_fixupOrSkipInvalidEntries
 .
 js
