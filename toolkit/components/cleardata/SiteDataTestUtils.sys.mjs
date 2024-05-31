@@ -2469,12 +2469,6 @@ Ci
 nsIClearDataService
 .
 CLEAR_FINGERPRINTING_PROTECTION_STATE
-|
-Ci
-.
-nsIClearDataService
-.
-CLEAR_BOUNCE_TRACKING_PROTECTION_STATE
 resolve
 )
 ;
