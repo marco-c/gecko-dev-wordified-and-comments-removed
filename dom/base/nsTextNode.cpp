@@ -180,7 +180,6 @@ name
 )
 ;
 }
-virtual
 nsresult
 BindToTree
 (
@@ -192,7 +191,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -203,7 +201,6 @@ override
 ;
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
-virtual
 already_AddRefed
 <
 CharacterData
@@ -553,16 +550,17 @@ UnbindContext
 aContext
 )
 {
-ResetDirectionSetByTextNode
-(
-this
-)
-;
 CharacterData
 :
 :
 UnbindFromTree
 (
+aContext
+)
+;
+ResetDirectionSetByTextNode
+(
+this
 aContext
 )
 ;

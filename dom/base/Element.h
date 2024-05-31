@@ -3363,15 +3363,6 @@ N
 )
 ;
 }
-static
-nsStaticAtom
-*
-const
-*
-HTMLSVGPropertiesToTraverseAndUnlink
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 virtual
 void

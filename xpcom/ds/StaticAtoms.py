@@ -3408,16 +3408,6 @@ dir
 Atom
 (
 "
-dirAutoSetBy
-"
-"
-dirAutoSetBy
-"
-)
-    
-Atom
-(
-"
 directory
 "
 "
@@ -12685,16 +12675,6 @@ textLink
 text
 -
 link
-"
-)
-    
-Atom
-(
-"
-textNodeDirectionalityMap
-"
-"
-textNodeDirectionalityMap
 "
 )
     

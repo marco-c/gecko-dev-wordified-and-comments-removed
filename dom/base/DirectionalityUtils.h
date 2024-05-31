@@ -42,6 +42,9 @@ Element
 class
 HTMLSlotElement
 ;
+struct
+UnbindContext
+;
 }
 namespace
 mozilla
@@ -235,7 +238,11 @@ ResetDirectionSetByTextNode
 (
 nsTextNode
 *
-aTextNode
+dom
+:
+:
+UnbindContext
+&
 )
 ;
 void
