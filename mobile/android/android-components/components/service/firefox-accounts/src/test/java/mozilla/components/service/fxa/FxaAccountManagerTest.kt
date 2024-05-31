@@ -440,6 +440,12 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+kotlin
+.
+coroutines
+.
+CoroutineContext
 /
 /
 Same
@@ -539,6 +545,9 @@ DeviceCapability
 listOf
 (
 )
+coroutineContext
+:
+CoroutineContext
 val
 block
 :
@@ -571,6 +580,7 @@ UNKNOWN
 capabilities
 )
 null
+coroutineContext
 )
 {
 override
@@ -1602,6 +1612,9 @@ DeviceCapability
 .
 SEND_TAB
 )
+this
+.
+coroutineContext
 )
 {
 account
@@ -1929,6 +1942,9 @@ DeviceCapability
 .
 SEND_TAB
 )
+this
+.
+coroutineContext
 )
 {
 account
@@ -2003,8 +2019,6 @@ NotAuthenticated
 "
 state
 .
-runBlocking
-{
 manager
 .
 initAsync
@@ -2014,7 +2028,6 @@ initAsync
 await
 (
 )
-}
 assertNull
 (
 account
@@ -2026,8 +2039,6 @@ persistenceCallback
 Perform
 authentication
 .
-runBlocking
-{
 assertEquals
 (
 "
@@ -2047,7 +2058,6 @@ await
 (
 )
 )
-}
 /
 /
 Assert
@@ -2075,8 +2085,6 @@ never
 startPeriodicRefresh
 (
 )
-runBlocking
-{
 manager
 .
 finishAuthenticationAsync
@@ -2092,7 +2100,6 @@ dummyState
 await
 (
 )
-}
 /
 /
 Assert
@@ -2464,6 +2471,8 @@ persisted
 account
 (
 )
+=
+runBlocking
 {
 val
 accountStorage
@@ -2530,6 +2539,11 @@ profile
 "
 )
 accountStorage
+coroutineContext
+=
+this
+.
+coroutineContext
 )
 var
 onErrorCalled
@@ -2625,8 +2639,6 @@ register
 (
 accountObserver
 )
-runBlocking
-{
 manager
 .
 initAsync
@@ -2636,7 +2648,6 @@ initAsync
 await
 (
 )
-}
 assertTrue
 (
 onErrorCalled
@@ -2713,6 +2724,11 @@ profile
 "
 )
 accountStorage
+coroutineContext
+=
+this
+.
+coroutineContext
 )
 val
 accountObserver
@@ -3005,6 +3021,9 @@ accountStorage
 emptyList
 (
 )
+this
+.
+coroutineContext
 )
 val
 accountObserver
@@ -3327,23 +3346,6 @@ accountProfile
 (
 )
 )
-manager
-.
-close
-(
-)
-verify
-(
-mockAccount
-times
-(
-1
-)
-)
-.
-close
-(
-)
 }
 Test
 fun
@@ -3354,6 +3356,8 @@ profile
 flow
 (
 )
+=
+runBlocking
 {
 val
 mockAccount
@@ -3425,6 +3429,9 @@ mockAccount
 profile
 accountStorage
 accountObserver
+this
+.
+coroutineContext
 )
 /
 /
@@ -3480,8 +3487,6 @@ reset
 (
 accountObserver
 )
-runBlocking
-{
 assertEquals
 (
 "
@@ -3501,7 +3506,6 @@ await
 (
 )
 )
-}
 assertNull
 (
 manager
@@ -3555,8 +3559,6 @@ unitCompletedDeferrable
 (
 )
 )
-runBlocking
-{
 manager
 .
 finishAuthenticationAsync
@@ -3572,7 +3574,6 @@ dummyState
 await
 (
 )
-}
 verify
 (
 accountStorage
@@ -3676,6 +3677,8 @@ profile
 flow
 (
 )
+=
+runBlocking
 {
 val
 mockAccount
@@ -3747,6 +3750,9 @@ mockAccount
 profile
 accountStorage
 accountObserver
+this
+.
+coroutineContext
 )
 /
 /
@@ -3802,8 +3808,6 @@ reset
 (
 accountObserver
 )
-runBlocking
-{
 assertEquals
 (
 "
@@ -3832,7 +3836,6 @@ await
 (
 )
 )
-}
 assertNull
 (
 manager
@@ -3886,8 +3889,6 @@ unitCompletedDeferrable
 (
 )
 )
-runBlocking
-{
 manager
 .
 finishAuthenticationAsync
@@ -3903,7 +3904,6 @@ dummyState
 await
 (
 )
-}
 verify
 (
 accountStorage
@@ -4004,6 +4004,8 @@ authentication
 flow
 (
 )
+=
+runBlocking
 {
 val
 accountStorage
@@ -4086,6 +4088,9 @@ profile
 accountStorage
 accountObserver
 fxaException
+this
+.
+coroutineContext
 )
 when
 (
@@ -4154,8 +4159,6 @@ reset
 (
 accountObserver
 )
-runBlocking
-{
 try
 {
 manager
@@ -4187,7 +4190,6 @@ e
 .
 message
 )
-}
 }
 /
 /
@@ -4296,8 +4298,6 @@ unitCompletedDeferrable
 (
 )
 )
-runBlocking
-{
 assertEquals
 (
 "
@@ -4317,7 +4317,6 @@ await
 (
 )
 )
-}
 assertNull
 (
 manager
@@ -4334,8 +4333,6 @@ accountProfile
 (
 )
 )
-runBlocking
-{
 manager
 .
 finishAuthenticationAsync
@@ -4351,7 +4348,6 @@ dummyState
 await
 (
 )
-}
 verify
 (
 accountStorage
@@ -4453,6 +4449,8 @@ authentication
 flow
 (
 )
+=
+runBlocking
 {
 val
 accountStorage
@@ -4535,6 +4533,9 @@ profile
 accountStorage
 accountObserver
 fxaException
+this
+.
+coroutineContext
 )
 when
 (
@@ -4603,8 +4604,6 @@ reset
 (
 accountObserver
 )
-runBlocking
-{
 try
 {
 manager
@@ -4645,7 +4644,6 @@ e
 .
 message
 )
-}
 }
 /
 /
@@ -4754,8 +4752,6 @@ unitCompletedDeferrable
 (
 )
 )
-runBlocking
-{
 assertEquals
 (
 "
@@ -4784,7 +4780,6 @@ await
 (
 )
 )
-}
 assertNull
 (
 manager
@@ -4801,8 +4796,6 @@ accountProfile
 (
 )
 )
-runBlocking
-{
 manager
 .
 finishAuthenticationAsync
@@ -4818,7 +4811,6 @@ dummyState
 await
 (
 )
-}
 verify
 (
 accountStorage
@@ -4920,6 +4912,8 @@ fetching
 flow
 (
 )
+=
+runBlocking
 {
 val
 accountStorage
@@ -5130,6 +5124,11 @@ scope
 "
 )
 accountStorage
+coroutineContext
+=
+this
+.
+coroutineContext
 )
 {
 mockAccount
@@ -5148,8 +5147,6 @@ register
 (
 accountObserver
 )
-runBlocking
-{
 manager
 .
 initAsync
@@ -5159,7 +5156,6 @@ initAsync
 await
 (
 )
-}
 /
 /
 We
@@ -5214,8 +5210,6 @@ reset
 (
 accountObserver
 )
-runBlocking
-{
 assertEquals
 (
 "
@@ -5235,7 +5229,6 @@ await
 (
 )
 )
-}
 assertNull
 (
 manager
@@ -5252,8 +5245,6 @@ accountProfile
 (
 )
 )
-runBlocking
-{
 manager
 .
 finishAuthenticationAsync
@@ -5269,7 +5260,6 @@ dummyState
 await
 (
 )
-}
 verify
 (
 accountStorage
@@ -5464,8 +5454,6 @@ CompletableDeferred
 profile
 )
 )
-runBlocking
-{
 manager
 .
 updateProfileAsync
@@ -5475,7 +5463,6 @@ updateProfileAsync
 await
 (
 )
-}
 verify
 (
 accountObserver
@@ -5554,6 +5541,9 @@ AccountStorage
 accountObserver
 :
 AccountObserver
+coroutineContext
+:
+CoroutineContext
 )
 :
 FxaAccountManager
@@ -5711,6 +5701,9 @@ scope
 "
 )
 accountStorage
+coroutineContext
+=
+coroutineContext
 )
 {
 mockAccount
@@ -5722,6 +5715,9 @@ register
 accountObserver
 )
 runBlocking
+(
+coroutineContext
+)
 {
 manager
 .
@@ -5755,6 +5751,9 @@ AccountObserver
 fxaException
 :
 FxaException
+coroutineContext
+:
+CoroutineContext
 )
 :
 FxaAccountManager
@@ -5923,6 +5922,9 @@ scope
 "
 )
 accountStorage
+coroutineContext
+=
+coroutineContext
 )
 {
 mockAccount
@@ -5934,6 +5936,9 @@ register
 accountObserver
 )
 runBlocking
+(
+coroutineContext
+)
 {
 manager
 .
