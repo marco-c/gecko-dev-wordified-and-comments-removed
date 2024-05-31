@@ -289,6 +289,13 @@ panelview
 .
 ownerDocument
 ;
+const
+window
+=
+document
+.
+defaultView
+;
 /
 *
 *
