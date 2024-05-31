@@ -626,6 +626,15 @@ const
 CreateDecoderParamsForAsync
 mParams
 ;
+Maybe
+<
+media
+:
+:
+TimeUnit
+>
+mPendingSeekThreshold
+;
 }
 ;
 }
