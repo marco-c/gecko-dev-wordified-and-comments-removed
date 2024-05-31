@@ -2398,6 +2398,12 @@ Authenticated
 {
 account
 .
+registerPersistenceCallback
+(
+statePersistenceCallback
+)
+account
+.
 completeOAuthFlow
 (
 via
@@ -2410,12 +2416,6 @@ state
 .
 await
 (
-)
-account
-.
-registerPersistenceCallback
-(
-statePersistenceCallback
 )
 notifyObservers
 {
