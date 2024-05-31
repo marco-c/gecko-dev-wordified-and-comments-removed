@@ -2494,7 +2494,7 @@ org
 /
 wiki
 /
-Mozilla
+mozilla
 "
 res
 .
@@ -2515,7 +2515,7 @@ org
 /
 wiki
 /
-Mozilla
+mozilla
 "
 res
 .
