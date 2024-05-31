@@ -66,6 +66,16 @@ browser
 session
 .
 state
+import
+mozilla
+.
+components
+.
+lib
+.
+state
+.
+State
 /
 *
 *
@@ -143,3 +153,5 @@ String
 =
 null
 )
+:
+State
