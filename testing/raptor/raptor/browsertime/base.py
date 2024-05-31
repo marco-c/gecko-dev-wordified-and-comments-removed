@@ -31,6 +31,7 @@ from
 cmdline
 import
 CHROME_ANDROID_APPS
+DESKTOP_APPS
 from
 logger
 .
@@ -46,7 +47,6 @@ evaluate_list_from_string
 from
 perftest
 import
-FIREFOX_APPS
 GECKO_PROFILER_APPS
 TRACE_APPS
 Perftest
@@ -5288,6 +5288,7 @@ self
 :
         
 if
+not
 (
             
 self
@@ -5311,16 +5312,46 @@ app
 "
 ]
 in
-FIREFOX_APPS
+DESKTOP_APPS
         
 )
 :
             
+return
+        
+if
+self
+.
+config
+[
+"
+app
+"
+]
+in
+TRACE_APPS
+and
+"
+win
+"
+in
+self
+.
+config
+[
+"
+platform
+"
+]
+:
+            
+return
+        
 from
 mozscreenshot
 import
 dump_screen
-            
+        
 obj_dir
 =
 os
@@ -5334,13 +5365,13 @@ MOZ_DEVELOPER_OBJ_DIR
 "
 None
 )
-            
+        
 if
 obj_dir
 is
 None
 :
-                
+            
 build_dir
 =
 pathlib
@@ -5360,7 +5391,7 @@ MOZ_UPLOAD_DIR
 )
 .
 parent
-                
+            
 utility_path
 =
 pathlib
@@ -5375,10 +5406,10 @@ tests
 bin
 "
 )
-            
+        
 else
 :
-                
+            
 utility_path
 =
 os
@@ -5395,7 +5426,7 @@ dist
 bin
 "
 )
-            
+        
 dump_screen
 (
 utility_path
