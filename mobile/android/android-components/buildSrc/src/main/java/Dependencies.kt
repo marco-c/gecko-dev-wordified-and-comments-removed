@@ -266,7 +266,7 @@ mozilla_fxa
 .
 13
 .
-2
+3
 "
 const
 val
@@ -277,7 +277,7 @@ mozilla_sync_logins
 .
 13
 .
-2
+3
 "
 const
 val
@@ -288,7 +288,7 @@ mozilla_places
 .
 13
 .
-2
+3
 "
 const
 val
