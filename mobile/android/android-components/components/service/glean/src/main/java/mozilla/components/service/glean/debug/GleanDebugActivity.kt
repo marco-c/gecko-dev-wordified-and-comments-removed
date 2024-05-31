@@ -532,7 +532,7 @@ let
 {
 Glean
 .
-sendPingsInternal
+sendPingsByName
 (
 listOf
 (

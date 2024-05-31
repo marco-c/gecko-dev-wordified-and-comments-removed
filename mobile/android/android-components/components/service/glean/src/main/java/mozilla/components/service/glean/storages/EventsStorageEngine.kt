@@ -1105,7 +1105,7 @@ isNotEmpty
 {
 Glean
 .
-sendPingsInternal
+sendPingsByName
 (
 eventStores
 .
@@ -1459,7 +1459,7 @@ storeName
 }
 Glean
 .
-sendPingsInternal
+sendPingsByName
 (
 eventStoresToUpload
 )

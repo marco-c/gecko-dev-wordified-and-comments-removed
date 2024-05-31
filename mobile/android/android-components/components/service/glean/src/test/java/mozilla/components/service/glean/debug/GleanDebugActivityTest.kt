@@ -878,7 +878,7 @@ sendInPings
 listOf
 (
 "
-store1
+metrics
 "
 )
 )
@@ -935,7 +935,7 @@ GleanDebugActivity
 .
 SEND_PING_EXTRA_KEY
 "
-store1
+metrics
 "
 )
 val
@@ -1082,7 +1082,7 @@ service
 -
 glean
 /
-store1
+metrics
 "
 )
 )
@@ -1225,7 +1225,7 @@ sendInPings
 listOf
 (
 "
-store1
+metrics
 "
 )
 )
@@ -1282,7 +1282,7 @@ GleanDebugActivity
 .
 SEND_PING_EXTRA_KEY
 "
-store1
+metrics
 "
 )
 intent
@@ -1433,7 +1433,7 @@ service
 -
 glean
 /
-store1
+metrics
 "
 )
 )
@@ -1640,7 +1640,7 @@ sendInPings
 listOf
 (
 "
-store1
+metrics
 "
 )
 )
@@ -1697,7 +1697,7 @@ GleanDebugActivity
 .
 SEND_PING_EXTRA_KEY
 "
-store1
+metrics
 "
 )
 intent

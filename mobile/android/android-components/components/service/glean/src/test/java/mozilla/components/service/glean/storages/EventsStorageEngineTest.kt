@@ -2483,7 +2483,7 @@ sendInPings
 listOf
 (
 "
-store1
+events
 "
 )
 allowedExtraKeys
@@ -2648,7 +2648,7 @@ submit
 /
 applicationId
 /
-store1
+events
 /
 {
 Glean
@@ -2806,7 +2806,7 @@ sendInPings
 listOf
 (
 "
-store1
+events
 "
 )
 allowedExtraKeys
@@ -2892,7 +2892,7 @@ EventsStorageEngine
 writeEventToDisk
 (
 "
-store1
+events
 "
 "
 [
@@ -2910,7 +2910,7 @@ EventsStorageEngine
 writeEventToDisk
 (
 "
-store1
+events
 "
 "
 [
@@ -3084,7 +3084,7 @@ submit
 /
 applicationId
 /
-store1
+events
 /
 {
 Glean
