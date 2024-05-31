@@ -68,12 +68,6 @@ android
 view
 .
 View
-import
-android
-.
-view
-.
-WindowInsets
 object
 StatusBarUtils
 {
