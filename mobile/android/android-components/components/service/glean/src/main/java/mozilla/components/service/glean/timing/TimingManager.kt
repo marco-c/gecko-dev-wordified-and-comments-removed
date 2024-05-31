@@ -407,6 +407,11 @@ startTime
 getElapsedNanos
 (
 )
+synchronized
+(
+this
+)
+{
 val
 metricName
 =
@@ -449,11 +454,6 @@ logger
 return
 }
 }
-synchronized
-(
-this
-)
-{
 uncommittedStartTimes
 .
 getOrPut
