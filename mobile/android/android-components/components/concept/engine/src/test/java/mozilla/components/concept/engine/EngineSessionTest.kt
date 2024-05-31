@@ -65,6 +65,12 @@ concept
 .
 engine
 import
+android
+.
+graphics
+.
+Bitmap
+import
 mozilla
 .
 components
@@ -4034,4 +4040,14 @@ notifyObservers
 block
 )
 }
+override
+fun
+captureThumbnail
+(
+)
+:
+Bitmap
+?
+=
+null
 }
