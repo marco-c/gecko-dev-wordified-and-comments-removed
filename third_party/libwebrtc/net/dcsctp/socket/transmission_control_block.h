@@ -418,10 +418,13 @@ const
 override
 {
 return
+DurationMs
+(
 rto_
 .
 rto
 (
+)
 )
 ;
 }
@@ -589,10 +592,13 @@ current_srtt
 const
 {
 return
+DurationMs
+(
 rto_
 .
 srtt
 (
+)
 )
 ;
 }
