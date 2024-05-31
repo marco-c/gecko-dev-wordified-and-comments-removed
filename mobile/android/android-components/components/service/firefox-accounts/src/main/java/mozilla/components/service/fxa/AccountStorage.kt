@@ -120,9 +120,9 @@ OAuthAccount
 fun
 write
 (
-account
+accountState
 :
-OAuthAccount
+String
 )
 fun
 clear
@@ -211,9 +211,9 @@ override
 fun
 write
 (
-account
+accountState
 :
-OAuthAccount
+String
 )
 {
 accountPreferences
@@ -227,11 +227,7 @@ edit
 putString
 (
 FXA_STATE_KEY
-account
-.
-toJSONString
-(
-)
+accountState
 )
 .
 apply
