@@ -121,10 +121,10 @@ aParent
 >
 SetDBusMenuBar
 (
-MakeRefPtr
-<
 DBusMenuBar
->
+:
+:
+Create
 (
 aMenuBarElement
 )
