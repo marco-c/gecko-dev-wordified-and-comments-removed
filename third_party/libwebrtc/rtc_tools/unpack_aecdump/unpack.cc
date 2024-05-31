@@ -119,15 +119,6 @@ include
 "
 rtc_base
 /
-ignore_wundef
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 strings
 /
 string_builder
@@ -145,9 +136,6 @@ arch
 .
 h
 "
-RTC_PUSH_IGNORING_WUNDEF
-(
-)
 #
 include
 "
@@ -161,9 +149,6 @@ pb
 .
 h
 "
-RTC_POP_IGNORING_WUNDEF
-(
-)
 ABSL_FLAG
 (
 std

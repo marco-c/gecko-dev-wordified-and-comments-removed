@@ -5,18 +5,6 @@ LOGGING_RTC_EVENT_LOG_RTC_EVENT_LOG2_PROTO_INCLUDE_H_
 define
 LOGGING_RTC_EVENT_LOG_RTC_EVENT_LOG2_PROTO_INCLUDE_H_
 #
-include
-"
-rtc_base
-/
-ignore_wundef
-.
-h
-"
-RTC_PUSH_IGNORING_WUNDEF
-(
-)
-#
 ifdef
 WEBRTC_ANDROID_PLATFORM_BUILD
 #
@@ -55,8 +43,5 @@ h
 "
 #
 endif
-RTC_POP_IGNORING_WUNDEF
-(
-)
 #
 endif

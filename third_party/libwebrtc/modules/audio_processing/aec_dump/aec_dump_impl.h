@@ -50,15 +50,6 @@ include
 "
 rtc_base
 /
-ignore_wundef
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 race_checker
 .
 h
@@ -92,9 +83,6 @@ thread_annotations
 .
 h
 "
-RTC_PUSH_IGNORING_WUNDEF
-(
-)
 #
 ifdef
 WEBRTC_ANDROID_PLATFORM_BUILD
@@ -134,9 +122,6 @@ h
 "
 #
 endif
-RTC_POP_IGNORING_WUNDEF
-(
-)
 namespace
 webrtc
 {

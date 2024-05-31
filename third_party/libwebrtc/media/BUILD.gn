@@ -3894,14 +3894,6 @@ event_tracer
 /
 rtc_base
 :
-ignore_wundef
-"
-"
-.
-.
-/
-rtc_base
-:
 logging
 "
 "

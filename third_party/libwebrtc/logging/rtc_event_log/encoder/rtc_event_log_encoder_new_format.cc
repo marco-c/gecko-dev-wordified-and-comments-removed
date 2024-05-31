@@ -681,15 +681,6 @@ include
 "
 rtc_base
 /
-ignore_wundef
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 logging
 .
 h
@@ -705,9 +696,6 @@ field_trial
 .
 h
 "
-RTC_PUSH_IGNORING_WUNDEF
-(
-)
 #
 ifdef
 WEBRTC_ANDROID_PLATFORM_BUILD
@@ -747,9 +735,6 @@ h
 "
 #
 endif
-RTC_POP_IGNORING_WUNDEF
-(
-)
 using
 webrtc_event_logging
 :

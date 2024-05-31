@@ -97,9 +97,6 @@ h
 #
 ifdef
 WEBRTC_NETEQ_UNITTEST_BITEXACT
-RTC_PUSH_IGNORING_WUNDEF
-(
-)
 #
 ifdef
 WEBRTC_ANDROID_PLATFORM_BUILD
@@ -143,9 +140,6 @@ h
 "
 #
 endif
-RTC_POP_IGNORING_WUNDEF
-(
-)
 #
 endif
 namespace

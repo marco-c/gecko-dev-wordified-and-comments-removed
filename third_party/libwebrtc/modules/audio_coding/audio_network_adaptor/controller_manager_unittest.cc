@@ -74,15 +74,6 @@ h
 #
 include
 "
-rtc_base
-/
-ignore_wundef
-.
-h
-"
-#
-include
-"
 test
 /
 gtest
@@ -92,9 +83,6 @@ h
 #
 if
 WEBRTC_ENABLE_PROTOBUF
-RTC_PUSH_IGNORING_WUNDEF
-(
-)
 #
 ifdef
 WEBRTC_ANDROID_PLATFORM_BUILD
@@ -138,9 +126,6 @@ h
 "
 #
 endif
-RTC_POP_IGNORING_WUNDEF
-(
-)
 #
 endif
 namespace
