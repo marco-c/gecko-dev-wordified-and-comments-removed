@@ -240,7 +240,6 @@ event
 }
 dispatchEvent
 (
-event
 )
 {
 if
@@ -266,8 +265,6 @@ click
 }
 removeEventListener
 (
-name
-func
 )
 {
 this
@@ -1065,7 +1062,8 @@ expected_count
 {
 checkFn
 :
-event
+(
+)
 =
 >
 {
@@ -1086,7 +1084,8 @@ expected_count
 {
 checkFn
 :
-event
+(
+)
 =
 >
 count
@@ -2325,10 +2324,7 @@ await
 new
 PollPromise
 (
-(
 resolve
-reject
-)
 =
 >
 {

@@ -3833,7 +3833,6 @@ function
 (
 subject
 topic
-data
 )
 {
 switch

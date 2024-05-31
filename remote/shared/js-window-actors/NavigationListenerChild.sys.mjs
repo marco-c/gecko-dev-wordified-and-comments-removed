@@ -343,7 +343,6 @@ above
 /
 handleEvent
 (
-event
 )
 {
 }
@@ -358,7 +357,6 @@ above
 /
 receiveMessage
 (
-message
 )
 {
 }

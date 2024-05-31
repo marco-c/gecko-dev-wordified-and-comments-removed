@@ -571,10 +571,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -796,8 +793,6 @@ nsIObserver
 observe
 (
 subject
-topic
-data
 )
 {
 if

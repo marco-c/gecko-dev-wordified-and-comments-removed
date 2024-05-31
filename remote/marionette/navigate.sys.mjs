@@ -1711,7 +1711,8 @@ true
 const
 onTimer
 =
-timer
+(
+)
 =
 >
 {
@@ -2294,7 +2295,8 @@ true
 const
 onUnload
 =
-event
+(
+)
 =
 >
 {

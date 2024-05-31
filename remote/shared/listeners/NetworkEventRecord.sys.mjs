@@ -1032,8 +1032,6 @@ requests
 /
 addSecurityInfo
 (
-info
-isRacing
 )
 {
 }
@@ -1115,9 +1113,6 @@ start
 /
 addEventTimings
 (
-total
-timings
-offsets
 )
 {
 }
@@ -1168,7 +1163,6 @@ property
 /
 addResponseCache
 (
-options
 )
 {
 }
@@ -1343,7 +1337,6 @@ timings
 /
 addServerTimings
 (
-serverTimings
 )
 {
 }
@@ -1389,7 +1382,6 @@ timings
 /
 addServiceWorkerTimings
 (
-serviceWorkerTimings
 )
 {
 }

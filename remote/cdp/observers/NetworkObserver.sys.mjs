@@ -1138,7 +1138,6 @@ oldChannel
 _onRequest
 (
 channel
-topic
 )
 {
 const
@@ -1447,7 +1446,6 @@ _onResponse
 (
 fromCache
 httpChannel
-topic
 )
 {
 const

@@ -1014,7 +1014,6 @@ forEach
 {
 payload
 }
-index
 )
 =
 >

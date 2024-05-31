@@ -363,7 +363,6 @@ here
 static
 getIdFromContext
 (
-context
 )
 {
 return

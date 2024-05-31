@@ -392,9 +392,6 @@ async
 function
 testDefault
 (
-{
-Security
-}
 )
 {
 for

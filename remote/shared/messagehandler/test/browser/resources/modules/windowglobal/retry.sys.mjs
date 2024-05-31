@@ -268,7 +268,8 @@ await
 new
 Promise
 (
-r
+(
+)
 =
 >
 {
@@ -316,7 +317,8 @@ await
 new
 Promise
 (
-r
+(
+)
 =
 >
 {
@@ -405,7 +407,8 @@ await
 new
 Promise
 (
-r
+(
+)
 =
 >
 {
@@ -495,7 +498,8 @@ await
 new
 Promise
 (
-r
+(
+)
 =
 >
 {

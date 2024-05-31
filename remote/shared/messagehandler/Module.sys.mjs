@@ -436,7 +436,6 @@ payload
 interceptEvent
 (
 name
-payload
 )
 {
 throw

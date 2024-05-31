@@ -11,7 +11,6 @@ raisesWithoutArguments
 (
 {
 client
-tab
 }
 )
 {
@@ -69,7 +68,6 @@ raisesWithUnknownTargetId
 (
 {
 client
-tab
 }
 )
 {
@@ -136,7 +134,6 @@ triggersTargetDestroyed
 (
 {
 client
-tab
 }
 )
 {

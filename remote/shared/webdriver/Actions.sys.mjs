@@ -2882,8 +2882,6 @@ global
 /
 getOriginCoordinates
 (
-inputSource
-win
 )
 {
 throw
@@ -3184,8 +3182,6 @@ Origin
 {
 getOriginCoordinates
 (
-inputSource
-win
 )
 {
 return
@@ -3208,7 +3204,6 @@ Origin
 getOriginCoordinates
 (
 inputSource
-win
 )
 {
 return
@@ -3614,10 +3609,6 @@ complete
 /
 dispatch
 (
-state
-inputSource
-tickDuration
-win
 )
 {
 throw
@@ -4102,7 +4093,6 @@ dispatch
 state
 inputSource
 tickDuration
-win
 )
 {
 const
@@ -8302,10 +8292,6 @@ complete
 /
 dispatch
 (
-state
-inputSource
-tickDuration
-win
 )
 {
 throw
@@ -9459,7 +9445,6 @@ every
 (
 [
 inputSource
-action
 target
 ]
 )
@@ -10494,10 +10479,6 @@ global
 /
 pointerDown
 (
-state
-inputSource
-action
-win
 )
 {
 throw
@@ -10579,10 +10560,6 @@ global
 /
 pointerUp
 (
-state
-inputSource
-action
-win
 )
 {
 throw
@@ -10679,11 +10656,6 @@ global
 /
 pointerMove
 (
-state
-inputSource
-targetX
-targetY
-win
 )
 {
 throw
@@ -12604,8 +12576,6 @@ device
 /
 update
 (
-state
-inputSource
 )
 {
 }

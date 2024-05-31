@@ -465,7 +465,8 @@ install
 .
 catch
 (
-err
+(
+)
 =
 >
 {

@@ -670,10 +670,6 @@ runEntryAddedTest
 client
 eventCount
 callback
-options
-=
-{
-}
 )
 {
 const
@@ -716,7 +712,8 @@ eventName
 EVENT_ENTRY_ADDED
 messageFn
 :
-payload
+(
+)
 =
 >
 Received

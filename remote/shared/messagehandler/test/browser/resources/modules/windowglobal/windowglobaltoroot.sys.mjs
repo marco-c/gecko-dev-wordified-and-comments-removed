@@ -143,8 +143,6 @@ Commands
 /
 testHandleCommandToRoot
 (
-params
-destination
 )
 {
 return
@@ -180,8 +178,6 @@ type
 }
 testSendRootCommand
 (
-params
-destination
 )
 {
 return

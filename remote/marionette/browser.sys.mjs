@@ -2056,7 +2056,6 @@ message
 /
 register
 (
-target
 )
 {
 if

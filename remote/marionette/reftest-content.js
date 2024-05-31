@@ -111,9 +111,6 @@ createContentWindow
 aURI
 aOpenWindowInfo
 aWhere
-aFlags
-aTriggeringPrincipal
-aCsp
 )
 {
 return
@@ -134,9 +131,6 @@ openURI
 aURI
 aOpenWindowInfo
 aWhere
-aFlags
-aTriggeringPrincipal
-aCsp
 )
 {
 return
@@ -157,8 +151,6 @@ createContentWindowInFrame
 aURI
 aParams
 aWhere
-aFlags
-aName
 )
 {
 return
@@ -178,8 +170,6 @@ openURIInFrame
 aURI
 aParams
 aWhere
-aFlags
-aName
 )
 {
 return

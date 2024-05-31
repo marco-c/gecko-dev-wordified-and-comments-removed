@@ -1824,7 +1824,6 @@ MessageHandler
 async
 initialize
 (
-sessionDataItems
 )
 {
 }
@@ -1949,7 +1948,6 @@ class
 static
 getIdFromContext
 (
-context
 )
 {
 throw
@@ -1989,7 +1987,6 @@ class
 /
 forwardCommand
 (
-command
 )
 {
 throw
@@ -2035,7 +2032,6 @@ class
 /
 matchesContext
 (
-contextDescriptor
 )
 {
 throw

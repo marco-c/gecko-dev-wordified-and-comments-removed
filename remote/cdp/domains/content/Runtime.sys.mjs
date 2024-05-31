@@ -3684,8 +3684,6 @@ message
 observe
 (
 subject
-topic
-data
 )
 {
 if

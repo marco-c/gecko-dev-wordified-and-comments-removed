@@ -577,7 +577,6 @@ register
 /
 registerSession
 (
-session
 )
 {
 throw
@@ -818,7 +817,6 @@ closed
 /
 onConnectionClose
 (
-status
 )
 {
 lazy

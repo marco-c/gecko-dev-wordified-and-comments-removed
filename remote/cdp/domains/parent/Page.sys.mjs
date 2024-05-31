@@ -4534,10 +4534,6 @@ interception
 /
 setInterceptFileChooserDialog
 (
-options
-=
-{
-}
 )
 {
 }
