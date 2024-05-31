@@ -36,9 +36,7 @@ md
 )
 /
 [
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -298,9 +296,7 @@ android
 test
 awaitValue
 (
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -359,9 +355,7 @@ android
 test
 awaitValue
 (
-android
-.
-arch
+androidx
 .
 lifecycle
 .

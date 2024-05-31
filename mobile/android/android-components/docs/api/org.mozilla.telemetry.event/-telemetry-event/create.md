@@ -156,7 +156,6 @@ index
 .
 html
 )
-?
 )
 :
 [
@@ -217,7 +216,7 @@ TelemetryEvent
 .
 java
 #
-L45
+L43
 )
 Create
 a
@@ -396,7 +395,6 @@ index
 .
 html
 )
-?
 value
 :
 [
@@ -488,7 +486,7 @@ TelemetryEvent
 .
 java
 #
-L58
+L56
 )
 Create
 a

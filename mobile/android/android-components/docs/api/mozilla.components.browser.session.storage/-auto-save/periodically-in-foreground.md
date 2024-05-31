@@ -316,9 +316,7 @@ util
 concurrent
 .
 ScheduledExecutorService
-android
-.
-arch
+androidx
 .
 lifecycle
 .

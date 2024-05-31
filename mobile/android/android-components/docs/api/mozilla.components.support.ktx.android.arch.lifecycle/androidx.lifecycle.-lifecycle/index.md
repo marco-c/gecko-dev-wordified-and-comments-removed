@@ -40,9 +40,7 @@ md
 )
 /
 [
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -60,9 +58,7 @@ md
 #
 Extensions
 for
-android
-.
-arch
+androidx
 .
 lifecycle
 .

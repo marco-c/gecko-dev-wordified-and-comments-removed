@@ -95,9 +95,7 @@ index
 html
 )
 =
-getStorageNames
-(
-)
+sendInPings
 .
 first
 (
@@ -220,7 +218,7 @@ EventMetricType
 .
 kt
 #
-L126
+L124
 )
 Returns
 the
@@ -288,13 +286,7 @@ in
 defaultStorageDestinations
 ]
 (
-default
--
-storage
--
-destinations
-.
-md
+#
 )
 or
 the

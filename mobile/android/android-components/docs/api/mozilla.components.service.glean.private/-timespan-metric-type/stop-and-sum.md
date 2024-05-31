@@ -177,7 +177,7 @@ TimespanMetricType
 .
 kt
 #
-L61
+L59
 )
 Stop
 tracking

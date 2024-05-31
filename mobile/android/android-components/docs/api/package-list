@@ -677,9 +677,7 @@ android
 test
 awaitValue
 (
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -722,9 +720,7 @@ android
 .
 test
 /
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -1098,9 +1094,7 @@ arch
 lifecycle
 addObservers
 (
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -1110,9 +1104,7 @@ kotlin
 Array
 (
 (
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -1134,9 +1126,7 @@ arch
 .
 lifecycle
 /
-android
-.
-arch
+androidx
 .
 lifecycle
 .

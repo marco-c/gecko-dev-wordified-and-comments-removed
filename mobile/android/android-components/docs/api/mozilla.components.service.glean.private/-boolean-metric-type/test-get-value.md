@@ -95,9 +95,7 @@ index
 html
 )
 =
-getStorageNames
-(
-)
+sendInPings
 .
 first
 (
@@ -185,7 +183,7 @@ BooleanMetricType
 .
 kt
 #
-L81
+L79
 )
 Returns
 the
@@ -253,13 +251,7 @@ in
 defaultStorageDestinations
 ]
 (
-default
--
-storage
--
-destinations
-.
-md
+#
 )
 or
 the

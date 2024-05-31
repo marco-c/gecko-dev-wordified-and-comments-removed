@@ -95,9 +95,7 @@ index
 html
 )
 =
-getStorageNames
-(
-)
+sendInPings
 .
 first
 (
@@ -185,7 +183,7 @@ StringListMetricType
 .
 kt
 #
-L87
+L85
 )
 Tests
 whether
@@ -258,13 +256,7 @@ in
 defaultStorageDestinations
 ]
 (
-default
--
-storage
--
-destinations
-.
-md
+#
 )
 or
 the

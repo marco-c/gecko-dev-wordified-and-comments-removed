@@ -123,7 +123,6 @@ index
 .
 md
 )
-?
 [
 (
 source

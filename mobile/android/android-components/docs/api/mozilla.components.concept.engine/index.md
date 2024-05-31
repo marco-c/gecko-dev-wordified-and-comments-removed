@@ -438,7 +438,14 @@ br
 LifecycleObserver
 ]
 (
-#
+-
+lifecycle
+-
+observer
+/
+index
+.
+md
 )
 which
 dispatches

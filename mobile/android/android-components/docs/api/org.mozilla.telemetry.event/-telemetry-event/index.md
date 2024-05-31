@@ -98,7 +98,7 @@ TelemetryEvent
 .
 java
 #
-L26
+L24
 )
 TelemetryEvent
 specifies
@@ -244,7 +244,6 @@ index
 .
 html
 )
-?
 )
 :
 [
@@ -369,7 +368,6 @@ index
 .
 html
 )
-?
 value
 :
 [

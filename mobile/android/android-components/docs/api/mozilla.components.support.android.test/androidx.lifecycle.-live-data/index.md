@@ -36,9 +36,7 @@ md
 )
 /
 [
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -56,9 +54,7 @@ md
 #
 Extensions
 for
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -270,9 +266,7 @@ android
 test
 awaitValue
 (
-android
-.
-arch
+androidx
 .
 lifecycle
 .
@@ -331,9 +325,7 @@ android
 test
 awaitValue
 (
-android
-.
-arch
+androidx
 .
 lifecycle
 .
