@@ -702,6 +702,16 @@ project
 (
 '
 :
+feature
+-
+sitepermissions
+'
+)
+implementation
+project
+(
+'
+:
 ui
 -
 autocomplete
