@@ -1129,7 +1129,9 @@ repeat
 substring
 (
 0
-MAX_LENGTH_EVENT_VALUE
+EventMetricType
+.
+MAX_LENGTH_VALUE
 )
 secondEvent
 .
@@ -1593,6 +1595,8 @@ repeat
 substring
 (
 0
+EventMetricType
+.
 MAX_LENGTH_EXTRA_KEY_VALUE
 )
 )

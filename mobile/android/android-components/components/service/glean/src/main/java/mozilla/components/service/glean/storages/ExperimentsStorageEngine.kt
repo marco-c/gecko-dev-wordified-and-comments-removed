@@ -229,12 +229,8 @@ and
 branch
 names
 in
-UTF8
-byte
-/
-/
-sequence
-length
+characters
+.
 private
 const
 val

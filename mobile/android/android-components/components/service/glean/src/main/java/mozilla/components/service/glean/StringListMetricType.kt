@@ -256,10 +256,7 @@ passed
 value
 string
 in
-UTF8
-byte
-sequence
-length
+characters
 .
 const
 val
