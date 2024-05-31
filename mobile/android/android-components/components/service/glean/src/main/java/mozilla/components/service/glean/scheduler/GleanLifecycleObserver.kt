@@ -109,7 +109,7 @@ service
 .
 glean
 .
-metrics
+GleanMetrics
 .
 GleanBaseline
 /

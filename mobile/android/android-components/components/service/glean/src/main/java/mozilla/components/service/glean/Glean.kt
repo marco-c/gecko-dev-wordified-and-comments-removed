@@ -151,7 +151,7 @@ service
 .
 glean
 .
-metrics
+GleanMetrics
 .
 GleanInternalMetrics
 import

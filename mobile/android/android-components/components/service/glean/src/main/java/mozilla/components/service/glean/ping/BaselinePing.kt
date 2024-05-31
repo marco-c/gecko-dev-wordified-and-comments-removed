@@ -101,7 +101,7 @@ service
 .
 glean
 .
-metrics
+GleanMetrics
 .
 GleanBaseline
 import
