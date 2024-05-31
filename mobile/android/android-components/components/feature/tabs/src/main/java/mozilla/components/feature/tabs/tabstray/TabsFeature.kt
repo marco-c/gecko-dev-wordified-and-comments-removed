@@ -114,6 +114,18 @@ feature
 tabs
 .
 TabsUseCases
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+LifecycleAwareFeature
 /
 *
 *
@@ -153,6 +165,8 @@ closeTabsTray
 >
 Unit
 )
+:
+LifecycleAwareFeature
 {
 VisibleForTesting
 internal
@@ -181,6 +195,7 @@ tabsUseCases
 removeTab
 closeTabsTray
 )
+override
 fun
 start
 (
@@ -197,6 +212,7 @@ start
 (
 )
 }
+override
 fun
 stop
 (

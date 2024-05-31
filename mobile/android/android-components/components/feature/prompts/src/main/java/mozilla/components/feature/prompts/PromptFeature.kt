@@ -317,6 +317,18 @@ components
 .
 support
 .
+base
+.
+feature
+.
+LifecycleAwareFeature
+import
+mozilla
+.
+components
+.
+support
+.
 ktx
 .
 android
@@ -751,6 +763,8 @@ onNeedToRequestPermissions
 :
 OnNeedToRequestPermissions
 )
+:
+LifecycleAwareFeature
 {
 init
 {
@@ -842,6 +856,7 @@ dialogs
 .
 *
 /
+override
 fun
 start
 (
@@ -951,6 +966,7 @@ events
 .
 *
 /
+override
 fun
 stop
 (

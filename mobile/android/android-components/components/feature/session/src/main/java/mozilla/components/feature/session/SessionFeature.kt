@@ -84,6 +84,18 @@ concept
 engine
 .
 EngineView
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+LifecycleAwareFeature
 /
 *
 *
@@ -125,6 +137,8 @@ String
 =
 null
 )
+:
+LifecycleAwareFeature
 {
 internal
 val
@@ -151,6 +165,7 @@ foreground
 .
 *
 /
+override
 fun
 start
 (
@@ -245,6 +260,7 @@ background
 .
 *
 /
+override
 fun
 stop
 (

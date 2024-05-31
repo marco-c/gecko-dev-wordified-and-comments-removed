@@ -176,6 +176,18 @@ concept
 engine
 .
 EngineView
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+LifecycleAwareFeature
 /
 *
 *
@@ -249,6 +261,7 @@ SelectionAwareSessionObserver
 (
 sessionManager
 )
+LifecycleAwareFeature
 {
 /
 *
@@ -268,6 +281,7 @@ view
 .
 *
 /
+override
 fun
 start
 (

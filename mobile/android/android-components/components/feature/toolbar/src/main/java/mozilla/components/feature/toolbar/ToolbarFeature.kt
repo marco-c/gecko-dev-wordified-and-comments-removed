@@ -94,6 +94,18 @@ feature
 session
 .
 SessionUseCases
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+LifecycleAwareFeature
 /
 *
 *
@@ -170,6 +182,8 @@ String
 =
 null
 )
+:
+LifecycleAwareFeature
 {
 private
 val
@@ -206,6 +220,7 @@ foreground
 .
 *
 /
+override
 fun
 start
 (
@@ -281,6 +296,7 @@ background
 .
 *
 /
+override
 fun
 stop
 (

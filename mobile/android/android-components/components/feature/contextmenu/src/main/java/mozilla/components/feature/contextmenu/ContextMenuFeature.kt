@@ -122,6 +122,18 @@ concept
 engine
 .
 HitResult
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+LifecycleAwareFeature
 VisibleForTesting
 (
 otherwise
@@ -348,6 +360,8 @@ List
 ContextMenuCandidate
 >
 )
+:
+LifecycleAwareFeature
 {
 private
 val
@@ -379,6 +393,7 @@ menu
 .
 *
 /
+override
 fun
 start
 (
@@ -493,6 +508,7 @@ anymore
 .
 *
 /
+override
 fun
 stop
 (

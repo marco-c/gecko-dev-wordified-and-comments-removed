@@ -163,6 +163,18 @@ components
 .
 support
 .
+base
+.
+feature
+.
+LifecycleAwareFeature
+import
+mozilla
+.
+components
+.
+support
+.
 ktx
 .
 android
@@ -425,6 +437,7 @@ SelectionAwareSessionObserver
 (
 sessionManager
 )
+LifecycleAwareFeature
 {
 /
 *
@@ -453,6 +466,7 @@ processed
 .
 *
 /
+override
 fun
 start
 (

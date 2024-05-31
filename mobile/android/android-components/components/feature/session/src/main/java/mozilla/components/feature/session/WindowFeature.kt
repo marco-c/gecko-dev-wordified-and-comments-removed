@@ -116,6 +116,18 @@ engine
 window
 .
 WindowRequest
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+LifecycleAwareFeature
 /
 *
 *
@@ -143,6 +155,8 @@ sessionManager
 :
 SessionManager
 )
+:
+LifecycleAwareFeature
 {
 internal
 val
@@ -259,6 +273,7 @@ requests
 .
 *
 /
+override
 fun
 start
 (
@@ -285,6 +300,7 @@ observer
 .
 *
 /
+override
 fun
 stop
 (
