@@ -226,6 +226,13 @@ actors
 =
 [
 "
+FormHandlerChild
+.
+sys
+.
+mjs
+"
+"
 FormHistoryChild
 .
 sys
