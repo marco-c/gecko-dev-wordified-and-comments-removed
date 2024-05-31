@@ -2475,6 +2475,13 @@ html
 ]
 [
 "
+test_paste_paragraphs_ending_with_invisible_br
+.
+html
+"
+]
+[
+"
 test_paste_redirect_focus_in_paste_event_listener
 .
 html
