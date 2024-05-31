@@ -856,14 +856,6 @@ function
 getFilename
 (
 source
-rawSourceURL
-=
-getRawSourceURL
-(
-source
-.
-url
-)
 )
 {
 const
@@ -876,7 +868,9 @@ source
 if
 (
 !
-rawSourceURL
+source
+.
+url
 )
 {
 return
@@ -953,7 +947,6 @@ filename
 getFilename
 (
 mySource
-rawSourceURL
 )
 ;
 const
@@ -978,7 +971,6 @@ url
 )
 ;
 return
-(
 rawSourceURL
 !
 =
@@ -991,8 +983,6 @@ filename
 getFilename
 (
 source
-rawSource
-)
 )
 ;
 }
