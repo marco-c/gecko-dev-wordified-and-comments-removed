@@ -1467,6 +1467,7 @@ it
 .
 onPermissionsResult
 (
+permissions
 grantResults
 )
 }

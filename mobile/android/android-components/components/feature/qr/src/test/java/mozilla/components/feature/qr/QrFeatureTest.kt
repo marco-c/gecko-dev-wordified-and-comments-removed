@@ -129,6 +129,18 @@ components
 .
 support
 .
+base
+.
+feature
+.
+OnNeedToRequestPermissions
+import
+mozilla
+.
+components
+.
+support
+.
 test
 .
 any
@@ -421,6 +433,8 @@ verify
 (
 permissionsCallback
 )
+.
+invoke
 (
 arrayOf
 (
