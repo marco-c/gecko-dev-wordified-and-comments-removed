@@ -1271,6 +1271,13 @@ null
 totalNumberOfScreens
 :
 1
+setScreenMultiSelects
+:
+sandbox
+.
+stub
+(
+)
 setActiveMultiSelect
 :
 sandbox
@@ -4015,6 +4022,13 @@ actions
 }
 }
 navigate
+:
+sandbox
+.
+stub
+(
+)
+setScreenMultiSelects
 :
 sandbox
 .
