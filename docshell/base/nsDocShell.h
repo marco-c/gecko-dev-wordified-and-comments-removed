@@ -1508,6 +1508,10 @@ BrowsingContext
 aBrowsingContext
 uint32_t
 aLoadType
+bool
+aIsDocumentLoad
+=
+true
 )
 ;
 void
