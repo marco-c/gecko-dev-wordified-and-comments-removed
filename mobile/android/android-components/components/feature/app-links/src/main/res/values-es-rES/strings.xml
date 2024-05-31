@@ -48,6 +48,8 @@ name
 mozac_feature_applinks_open_in
 "
 >
+Abrir
+en
 <
 /
 string
@@ -78,6 +80,21 @@ name
 mozac_feature_applinks_confirm_dialog_title
 "
 >
+Abrir
+en
+aplicaci
+n
+?
+Es
+posible
+que
+tu
+actividad
+deje
+de
+ser
+privada
+.
 <
 /
 string
@@ -101,6 +118,7 @@ name
 mozac_feature_applinks_confirm_dialog_confirm
 "
 >
+Abrir
 <
 /
 string
@@ -123,6 +141,7 @@ name
 mozac_feature_applinks_confirm_dialog_deny
 "
 >
+Cancelar
 <
 /
 string
