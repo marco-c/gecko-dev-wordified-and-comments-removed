@@ -569,15 +569,6 @@ console
 "
 no
 -
-constant
--
-condition
-"
-:
-0
-"
-no
--
 continue
 "
 :

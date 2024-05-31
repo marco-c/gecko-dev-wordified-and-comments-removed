@@ -1149,17 +1149,6 @@ error
 "
 no
 -
-constant
--
-condition
-"
-:
-"
-off
-"
-"
-no
--
 else
 -
 return
