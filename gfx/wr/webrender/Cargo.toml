@@ -212,6 +212,9 @@ on
 glean
 "
 "
+glean
+"
+"
 glyph_rasterizer
 /
 gecko
@@ -600,6 +603,9 @@ etagere
 "
 glean
 =
+{
+version
+=
 "
 58
 .
@@ -607,6 +613,10 @@ glean
 .
 0
 "
+optional
+=
+true
+}
 firefox
 -
 on
