@@ -1852,13 +1852,6 @@ aError
 NS_ERROR_NET_TIMEOUT
 ;
 }
-bool
-SecurityErrorThatMayNeedRestart
-(
-nsresult
-aReason
-)
-;
 [
 [
 nodiscard
@@ -1961,6 +1954,13 @@ Http3ErrorToWebTransportError
 (
 uint64_t
 aErrorCode
+)
+;
+bool
+PossibleZeroRTTRetryError
+(
+nsresult
+aReason
 )
 ;
 }
