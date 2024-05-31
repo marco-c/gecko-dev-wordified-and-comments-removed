@@ -174,12 +174,6 @@ org
 json
 .
 JSONObject
-import
-java
-.
-util
-.
-Date
 internal
 class
 PingMaker
@@ -227,9 +221,6 @@ objectStartTime
 =
 getISOTimeString
 (
-Date
-(
-)
 )
 internal
 val
@@ -621,9 +612,6 @@ endTime
 =
 getISOTimeString
 (
-Date
-(
-)
 )
 pingInfo
 .
