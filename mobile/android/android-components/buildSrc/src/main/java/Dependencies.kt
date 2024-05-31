@@ -141,9 +141,9 @@ mockito
 "
 2
 .
-23
+24
 .
-0
+5
 "
 const
 val
@@ -189,7 +189,7 @@ workmanager
 .
 0
 -
-beta01
+rc02
 "
 const
 val
@@ -211,7 +211,7 @@ dokka
 .
 9
 .
-16
+17
 "
 const
 val
@@ -253,7 +253,7 @@ sentry
 .
 7
 .
-14
+21
 "
 const
 val
@@ -262,7 +262,7 @@ okhttp
 "
 3
 .
-12
+13
 .
 1
 "
