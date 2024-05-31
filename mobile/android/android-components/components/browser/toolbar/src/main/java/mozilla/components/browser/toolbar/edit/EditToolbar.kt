@@ -439,6 +439,10 @@ inputType
 InputType
 .
 TYPE_TEXT_VARIATION_URI
+or
+InputType
+.
+TYPE_CLASS_TEXT
 val
 padding
 =
