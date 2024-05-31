@@ -139,6 +139,7 @@ js
 FrontendContext
 ;
 struct
+JS_PUBLIC_API
 InstantiationStorage
 {
 private
