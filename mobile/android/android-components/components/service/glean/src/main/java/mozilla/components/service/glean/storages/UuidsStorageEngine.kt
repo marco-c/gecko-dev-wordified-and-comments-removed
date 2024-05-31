@@ -253,7 +253,7 @@ UUID
 {
 override
 fun
-singleMetricDeserializer
+deserializeSingleMetric
 (
 value
 :

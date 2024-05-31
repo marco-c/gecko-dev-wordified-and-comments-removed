@@ -247,7 +247,7 @@ String
 {
 override
 fun
-singleMetricDeserializer
+deserializeSingleMetric
 (
 value
 :
