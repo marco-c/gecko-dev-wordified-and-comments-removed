@@ -155,6 +155,13 @@ mac
 ]
 [
 "
+test_moz_button
+.
+html
+"
+]
+[
+"
 test_moz_button_group
 .
 html

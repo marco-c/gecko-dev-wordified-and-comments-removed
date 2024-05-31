@@ -116,6 +116,17 @@ radio
 parameters
 :
 {
+actions
+:
+{
+handles
+:
+[
+"
+click
+"
+]
+}
 status
 :
 "
