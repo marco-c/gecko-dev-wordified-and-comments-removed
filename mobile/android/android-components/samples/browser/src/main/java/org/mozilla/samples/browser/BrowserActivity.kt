@@ -141,9 +141,9 @@ components
 .
 feature
 .
-session
+intent
 .
-SessionIntentProcessor
+IntentProcessor
 import
 mozilla
 .
@@ -217,7 +217,7 @@ intent
 .
 getStringExtra
 (
-SessionIntentProcessor
+IntentProcessor
 .
 ACTIVE_SESSION_ID
 )
