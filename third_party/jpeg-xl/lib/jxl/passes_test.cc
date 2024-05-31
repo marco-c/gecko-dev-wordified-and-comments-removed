@@ -312,7 +312,7 @@ _
 )
 )
 ;
-EXPECT_THAT
+EXPECT_SLIGHTLY_BELOW
 (
 ButteraugliDistance
 (
@@ -331,12 +331,9 @@ JxlGetDefaultCms
 )
 nullptr
 )
-IsSlightlyBelow
-(
 0
 .
 8222
-)
 )
 ;
 }
@@ -455,7 +452,7 @@ _
 )
 )
 ;
-EXPECT_THAT
+EXPECT_SLIGHTLY_BELOW
 (
 ButteraugliDistance
 (
@@ -474,12 +471,9 @@ JxlGetDefaultCms
 )
 nullptr
 )
-IsSlightlyBelow
-(
 1
 .
 72
-)
 )
 ;
 }
@@ -614,7 +608,7 @@ pool
 )
 )
 ;
-EXPECT_THAT
+EXPECT_SLIGHTLY_BELOW
 (
 ButteraugliDistance
 (
@@ -635,12 +629,9 @@ nullptr
 &
 pool
 )
-IsSlightlyBelow
-(
 target_distance
 +
 threshold
-)
 )
 ;
 }
@@ -1891,7 +1882,7 @@ cparams
 .
 responsive
 =
-true
+JXL_TRUE
 ;
 cparams
 .
@@ -2197,7 +2188,7 @@ cparams
 .
 responsive
 =
-true
+JXL_TRUE
 ;
 cparams
 .
@@ -2634,7 +2625,7 @@ _
 )
 )
 ;
-EXPECT_THAT
+EXPECT_SLIGHTLY_BELOW
 (
 ButteraugliDistance
 (
@@ -2653,12 +2644,9 @@ JxlGetDefaultCms
 )
 nullptr
 )
-IsSlightlyBelow
-(
 1
 .
 2
-)
 )
 ;
 }

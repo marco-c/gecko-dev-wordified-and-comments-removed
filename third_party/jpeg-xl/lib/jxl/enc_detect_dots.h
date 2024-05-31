@@ -220,6 +220,10 @@ Image3F
 &
 opsin
 const
+Rect
+&
+rect
+const
 GaussianDetectParams
 &
 params

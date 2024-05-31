@@ -457,11 +457,8 @@ mutable
 bool
 all_default
 ;
-float
+Matrix3x3
 inverse_matrix
-[
-9
-]
 ;
 float
 opsin_biases

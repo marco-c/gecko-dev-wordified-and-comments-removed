@@ -1314,7 +1314,6 @@ Rect
 out_rect
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 Symmetric5
@@ -1353,7 +1352,6 @@ JXL_RESTRICT
 out
 )
 {
-return
 Symmetric5
 (
 in

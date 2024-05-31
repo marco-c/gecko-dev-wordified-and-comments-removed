@@ -222,8 +222,6 @@ encoded_image
 ThreadPool
 *
 pool
-=
-nullptr
 )
 const
 =

@@ -436,12 +436,15 @@ p
 x
 ]
 0
-(
+static_cast
+<
 pixel_type
-)
+>
+(
 palette
 .
 w
+)
 -
 1
 )

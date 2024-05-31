@@ -126,7 +126,6 @@ kGlobalScaleYCbCr
 .
 73966010f
 ;
-static
 constexpr
 float
 kBaseQuantMatrixXYB
@@ -712,7 +711,6 @@ kBaseQuantMatrixXYB
 6065597534f
 }
 ;
-static
 const
 float
 kBaseQuantMatrixYCbCr
@@ -1298,7 +1296,6 @@ kBaseQuantMatrixYCbCr
 89202448569779f
 }
 ;
-static
 const
 float
 k420GlobalScale
@@ -1307,7 +1304,6 @@ k420GlobalScale
 .
 22
 ;
-static
 const
 float
 k420Rescale
@@ -1510,7 +1506,6 @@ k420Rescale
 3368
 }
 ;
-static
 const
 float
 kBaseQuantMatrixStd
@@ -1904,7 +1899,6 @@ kBaseQuantMatrixStd
 0f
 }
 ;
-static
 const
 float
 kZeroBiasMulYCbCrLQ
@@ -2490,7 +2484,6 @@ kZeroBiasMulYCbCrLQ
 3060f
 }
 ;
-static
 const
 float
 kZeroBiasMulYCbCrHQ
@@ -3076,7 +3069,6 @@ kZeroBiasMulYCbCrHQ
 6644f
 }
 ;
-static
 const
 float
 kZeroBiasOffsetYCbCrDC
@@ -3095,7 +3087,6 @@ kZeroBiasOffsetYCbCrDC
 0f
 }
 ;
-static
 const
 float
 kZeroBiasOffsetYCbCrAC

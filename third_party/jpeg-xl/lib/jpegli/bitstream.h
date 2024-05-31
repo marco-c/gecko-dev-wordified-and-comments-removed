@@ -168,10 +168,8 @@ int32_t
 *
 JXL_RESTRICT
 extra_bits
-const
 int
 num_nonzeros
-const
 bool
 emit_eob
 const

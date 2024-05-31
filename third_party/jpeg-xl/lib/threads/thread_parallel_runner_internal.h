@@ -368,10 +368,8 @@ RunRange
 ThreadParallelRunner
 *
 self
-const
 WorkerCommand
 command
-const
 int
 thread
 )

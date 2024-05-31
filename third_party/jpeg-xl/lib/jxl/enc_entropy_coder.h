@@ -148,7 +148,9 @@ const
 AcStrategyImage
 &
 ac_strategy
+const
 YCbCrChromaSubsampling
+&
 cs
 Image3I
 *

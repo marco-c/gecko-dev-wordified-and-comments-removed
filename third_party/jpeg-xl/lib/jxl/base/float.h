@@ -77,7 +77,10 @@ namespace
 jxl
 {
 namespace
+detail
 {
+static
+JXL_INLINE
 float
 LoadFloat16
 (
@@ -478,6 +481,9 @@ i
 callback
 (
 i
+detail
+:
+:
 LoadFloat16
 (
 LoadLE16
@@ -514,6 +520,9 @@ i
 callback
 (
 i
+detail
+:
+:
 LoadFloat16
 (
 LoadBE16

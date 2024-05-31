@@ -422,9 +422,12 @@ const
 bool
 alpha_is_premultiplied
 =
+FROM_JXL_BOOL
+(
 info
 .
 alpha_premultiplied
+)
 ;
 if
 (
@@ -1102,8 +1105,6 @@ encoded_image
 ThreadPool
 *
 pool
-=
-nullptr
 )
 const
 override

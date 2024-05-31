@@ -220,6 +220,7 @@ cinfo
 )
 {
 auto
+*
 src
 =
 reinterpret_cast
@@ -545,6 +546,7 @@ cinfo
 ;
 }
 auto
+*
 src
 =
 reinterpret_cast

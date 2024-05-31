@@ -278,9 +278,9 @@ find_package
 HWY
 1
 .
-1
-.
 0
+.
+7
 )
 if
 (

@@ -260,7 +260,6 @@ icc
 .
 AppendTo
 (
-&
 data
 )
 ;
@@ -270,7 +269,6 @@ data
 )
 ;
 }
-static
 const
 unsigned
 char
@@ -1257,7 +1255,6 @@ kTestProfile
 .
 AppendTo
 (
-&
 profile
 )
 ;

@@ -307,7 +307,10 @@ nullptr
 }
 #
 elif
-__WIN32__
+defined
+(
+_WIN32
+)
 #
 include
 <

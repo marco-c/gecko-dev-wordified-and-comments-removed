@@ -242,7 +242,6 @@ extras
 PackedPixelFile
 &
 ppf
-const
 extras
 :
 :

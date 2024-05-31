@@ -352,11 +352,9 @@ explicit
 OpHlg
 (
 const
-float
+Vector3
+&
 luminances
-[
-3
-]
 const
 float
 intensity_target
@@ -824,9 +822,10 @@ xextra
 ;
 x
 <
-(
+static_cast
+<
 ssize_t
-)
+>
 (
 xsize
 +

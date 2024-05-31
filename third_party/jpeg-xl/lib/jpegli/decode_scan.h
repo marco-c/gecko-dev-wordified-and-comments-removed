@@ -33,9 +33,7 @@ cinfo
 const
 uint8_t
 *
-const
 data
-const
 size_t
 len
 size_t

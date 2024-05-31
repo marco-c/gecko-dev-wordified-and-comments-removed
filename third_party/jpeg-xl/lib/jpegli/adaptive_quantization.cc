@@ -12,6 +12,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 stddef
 .
 h
@@ -283,7 +292,6 @@ HWY_NAMESPACE
 :
 ZeroIfNegative
 ;
-static
 constexpr
 float
 kInputScaling
@@ -405,7 +413,7 @@ const
 {
 #
 if
-1
+JXL_TRUE
 return
 Div
 (
@@ -1613,7 +1621,6 @@ v3
 )
 ;
 }
-static
 const
 float
 kSGmul
@@ -1622,7 +1629,6 @@ kSGmul
 .
 0480446705883f
 ;
-static
 const
 float
 kSGmul2
@@ -1635,7 +1641,6 @@ kSGmul2
 .
 377132366608819f
 ;
-static
 const
 float
 kLog2
@@ -1644,7 +1649,6 @@ kLog2
 .
 693147181f
 ;
-static
 const
 float
 kSGRetMul
@@ -1657,7 +1661,6 @@ kSGmul2
 *
 kLog2
 ;
-static
 const
 float
 kSGVOffset
@@ -1850,7 +1853,6 @@ invert
 =
 false
 >
-static
 float
 RatioOfDerivativesOfCubicRootToSimpleGamma
 (
@@ -3970,7 +3972,6 @@ PerBlockModulations
 ;
 namespace
 {
-static
 constexpr
 int
 kPreErosionBorder

@@ -227,6 +227,10 @@ Image3F
 &
 opsin
 const
+Rect
+&
+rect
+const
 ColorCorrelationMap
 &
 cmap
@@ -335,12 +339,12 @@ percCC
 EllipseQuantParams
 qParams
 {
-opsin
+rect
 .
 xsize
 (
 )
-opsin
+rect
 .
 ysize
 (
@@ -375,6 +379,7 @@ return
 DetectGaussianEllipses
 (
 opsin
+rect
 ellipse_params
 qParams
 pool

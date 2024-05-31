@@ -448,7 +448,6 @@ int
 v_len
 )
 {
-return
 HWY_STATIC_DISPATCH
 (
 InverseMoveToFrontTransform

@@ -8206,7 +8206,10 @@ std
 :
 max
 (
+static_cast
+<
 size_t
+>
 (
 4
 )
@@ -8806,6 +8809,9 @@ row
 x
 ]
 =
+std
+:
+:
 sqrt
 (
 row
@@ -8865,6 +8871,9 @@ const
 float
 sqrt_bias
 =
+std
+:
+:
 sqrt
 (
 bias
@@ -8933,6 +8942,9 @@ row_out
 x
 ]
 =
+std
+:
+:
 sqrt
 (
 mul
@@ -10271,6 +10283,9 @@ row_out
 x
 ]
 =
+std
+:
+:
 sqrt
 (
 MaskColor

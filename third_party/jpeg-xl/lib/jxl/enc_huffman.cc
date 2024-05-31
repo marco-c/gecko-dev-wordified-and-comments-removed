@@ -338,6 +338,14 @@ ix
 ]
 )
 ;
+JXL_ASSERT
+(
+ix
+<
+=
+17
+)
+;
 switch
 (
 ix
@@ -375,6 +383,10 @@ i
 ]
 )
 ;
+break
+;
+default
+:
 break
 ;
 }

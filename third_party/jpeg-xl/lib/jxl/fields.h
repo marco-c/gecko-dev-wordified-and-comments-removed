@@ -901,8 +901,9 @@ explicit
 VisitorBase
 (
 )
-{
-}
+=
+default
+;
 ~
 VisitorBase
 (

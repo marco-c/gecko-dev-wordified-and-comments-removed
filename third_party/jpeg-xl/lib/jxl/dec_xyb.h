@@ -145,11 +145,8 @@ orig_color_encoding
 float
 orig_intensity_target
 ;
-float
+Matrix3x3
 orig_inverse_matrix
-[
-9
-]
 ;
 bool
 default_transform
@@ -175,11 +172,8 @@ all_default_opsin
 float
 inverse_gamma
 ;
-float
+Vector3
 luminances
-[
-3
-]
 ;
 float
 desired_intensity_target

@@ -128,6 +128,8 @@ size_t
 s
 =
 0
+;
+size_t
 j
 =
 0
@@ -260,7 +262,10 @@ i
 ret
 |
 =
+static_cast
+<
 uint64_t
+>
 (
 input
 [
@@ -274,7 +279,10 @@ i
 )
 <
 <
+static_cast
+<
 uint64_t
+>
 (
 7
 *

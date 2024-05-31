@@ -271,7 +271,7 @@ std
 :
 vector
 <
-uint8_t
+size_t
 >
 histogram_idx
 ;

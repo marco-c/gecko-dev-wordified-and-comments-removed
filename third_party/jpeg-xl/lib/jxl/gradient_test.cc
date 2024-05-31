@@ -274,6 +274,8 @@ x0
 xsize
 /
 2
+.
+0
 ;
 double
 y0
@@ -281,6 +283,8 @@ y0
 ysize
 /
 2
+.
+0
 ;
 double
 x1

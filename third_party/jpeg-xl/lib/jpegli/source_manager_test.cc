@@ -303,10 +303,6 @@ ReadTestData
 config
 .
 fn
-.
-c_str
-(
-)
 )
 ;
 if
@@ -480,10 +476,6 @@ ReadTestData
 config
 .
 fn
-.
-c_str
-(
-)
 )
 ;
 if

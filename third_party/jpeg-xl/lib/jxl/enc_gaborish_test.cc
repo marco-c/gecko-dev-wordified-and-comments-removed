@@ -12,6 +12,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 hwy
 /
 base
@@ -439,7 +448,7 @@ in
 }
 #
 if
-0
+JXL_FALSE
 TEST
 (
 GaborishTest

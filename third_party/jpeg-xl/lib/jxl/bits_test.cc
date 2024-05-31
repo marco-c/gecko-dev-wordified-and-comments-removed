@@ -249,7 +249,10 @@ i
 ]
 FloorLog2Nonzero
 (
+static_cast
+<
 uint64_t
+>
 (
 i
 )
@@ -444,7 +447,10 @@ i
 ]
 CeilLog2Nonzero
 (
+static_cast
+<
 uint64_t
+>
 (
 i
 )

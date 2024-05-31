@@ -909,6 +909,8 @@ k
 {
 size_t
 left
+;
+size_t
 right
 ;
 if
@@ -1083,11 +1085,11 @@ n
 -
 1
 ]
-&
 tree
-[
-0
-]
+.
+data
+(
+)
 depth
 0
 )

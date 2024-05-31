@@ -197,10 +197,10 @@ source
 =
 1
 ;
-size_t
+bool
 clamp
 =
-1
+true
 ;
 int
 alpha_channel

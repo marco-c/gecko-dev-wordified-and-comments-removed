@@ -29,6 +29,17 @@ tone_mapping
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+image
+.
+h
+"
 namespace
 jxl
 {

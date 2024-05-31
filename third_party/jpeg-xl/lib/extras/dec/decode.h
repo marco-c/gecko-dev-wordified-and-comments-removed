@@ -102,10 +102,12 @@ codec
 Codec
 CodecFromPath
 (
+const
 std
 :
 :
 string
+&
 path
 size_t
 *

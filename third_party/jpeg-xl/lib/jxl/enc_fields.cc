@@ -355,6 +355,8 @@ aux_out
 {
 size_t
 extension_bits
+;
+size_t
 total_bits
 ;
 JXL_RETURN_IF_ERROR
@@ -933,6 +935,8 @@ true
 }
 uint32_t
 biased_exp16
+;
+uint32_t
 mantissa16
 ;
 if

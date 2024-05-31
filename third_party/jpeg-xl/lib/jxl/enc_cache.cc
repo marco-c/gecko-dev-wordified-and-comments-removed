@@ -709,7 +709,10 @@ cparams
 .
 speed_tier
 =
+static_cast
+<
 SpeedTier
+>
 (
 std
 :

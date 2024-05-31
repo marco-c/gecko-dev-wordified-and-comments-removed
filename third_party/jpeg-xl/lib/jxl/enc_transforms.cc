@@ -102,7 +102,6 @@ float
 scratch_space
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 TransformFromPixels
@@ -140,7 +139,6 @@ size_t
 dc_stride
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 DCFromLowestFrequencies
@@ -172,7 +170,6 @@ JXL_RESTRICT
 coeffs
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 AFVDCT4x4

@@ -1,4 +1,3 @@
-static
 constexpr
 jpeg_scan_info
 kScript1
@@ -38,7 +37,6 @@ kScript1
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript2
@@ -69,7 +67,6 @@ kScript2
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript3
@@ -121,7 +118,6 @@ kScript3
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript4
@@ -191,7 +187,6 @@ kScript4
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript5
@@ -282,7 +277,6 @@ kScript5
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript6
@@ -358,7 +352,6 @@ kScript6
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript7
@@ -488,7 +481,6 @@ kScript7
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript8
@@ -591,7 +583,6 @@ kScript8
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript9
@@ -713,7 +704,6 @@ kScript9
 }
 }
 ;
-static
 constexpr
 jpeg_scan_info
 kScript10
@@ -928,7 +918,6 @@ scans
 ;
 }
 ;
-static
 constexpr
 ScanScript
 kTestScript
@@ -1008,7 +997,6 @@ kScript10
 }
 }
 ;
-static
 constexpr
 int
 kNumTestScripts
@@ -1092,13 +1080,16 @@ cinfo
 >
 dither_mode
 =
-(
+static_cast
+<
 J_DITHER_MODE
-)
+>
+(
 sparams
 -
 >
 dither_mode
+)
 ;
 if
 (
@@ -1251,15 +1242,23 @@ msan
 :
 UnpoisonMemory
 (
+reinterpret_cast
+<
+void
+*
+>
+(
 cinfo
 -
 >
 colormap
+)
 3
 *
 sizeof
 (
-JSAMPROW
+JSAMPLE
+*
 )
 )
 ;
@@ -1417,6 +1416,10 @@ do_block_smoothing
 dparams
 .
 do_block_smoothing
+?
+1
+:
+0
 ;
 cinfo
 -
@@ -1426,6 +1429,10 @@ do_fancy_upsampling
 dparams
 .
 do_fancy_upsampling
+?
+1
+:
+0
 ;
 if
 (
@@ -1457,12 +1464,15 @@ cinfo
 >
 out_color_space
 =
-(
+static_cast
+<
 J_COLOR_SPACE
-)
+>
+(
 dparams
 .
 out_color_space
+)
 ;
 if
 (
@@ -1509,6 +1519,10 @@ quantize_colors
 dparams
 .
 quantize_colors
+?
+1
+:
+0
 ;
 cinfo
 -
@@ -3460,7 +3474,7 @@ c
 ]
 by
 1
-true
+TRUE
 )
 ;
 size_t

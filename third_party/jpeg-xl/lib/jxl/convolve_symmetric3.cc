@@ -651,7 +651,11 @@ x
 ;
 V
 tr
+;
+V
 mr
+;
+V
 br
 ;
 #
@@ -1236,7 +1240,6 @@ MinWidth
 )
 )
 {
-return
 Conv
 :
 :
@@ -1249,8 +1252,9 @@ pool
 out
 )
 ;
-}
 return
+;
+}
 SlowSymmetric3
 (
 in
@@ -1301,7 +1305,6 @@ ImageF
 out
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 Symmetric3

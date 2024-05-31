@@ -1026,7 +1026,10 @@ size_t
 y
 :
 {
+static_cast
+<
 size_t
+>
 (
 0
 )
@@ -1233,7 +1236,10 @@ size_t
 x
 :
 {
+static_cast
+<
 size_t
+>
 (
 0
 )
@@ -2491,7 +2497,6 @@ BlockCtxMap
 bctx
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 DequantDC

@@ -369,6 +369,7 @@ PaddedBytes
 &
 other
 )
+noexcept
 {
 std
 :

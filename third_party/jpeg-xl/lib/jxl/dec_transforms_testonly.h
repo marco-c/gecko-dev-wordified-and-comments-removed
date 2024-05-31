@@ -72,7 +72,6 @@ scratch_space
 void
 LowestFrequenciesFromDC
 (
-const
 jxl
 :
 :

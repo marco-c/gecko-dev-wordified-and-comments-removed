@@ -433,7 +433,6 @@ target_link_libraries
 {
 TESTNAME
 }
-gmock
 GTest
 :
 :

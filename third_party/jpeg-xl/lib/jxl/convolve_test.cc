@@ -12,6 +12,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 time
 .
 h
@@ -680,9 +689,7 @@ br
 {
 out
 .
-push_back
-(
-Rect
+emplace_back
 (
 tl
 tl
@@ -696,7 +703,6 @@ ysize
 tl
 -
 br
-)
 )
 ;
 }
@@ -1834,7 +1840,7 @@ BenchmarkAll
 {
 #
 if
-0
+JXL_FALSE
 const
 hwy
 :

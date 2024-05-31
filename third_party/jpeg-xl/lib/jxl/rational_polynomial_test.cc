@@ -1290,7 +1290,10 @@ x
 )
 {
 return
+static_cast
+<
 T
+>
 (
 exp
 (
@@ -1442,7 +1445,10 @@ x
 )
 {
 return
+static_cast
+<
 T
+>
 (
 exp
 (
@@ -1651,7 +1657,10 @@ x
 )
 {
 return
+static_cast
+<
 T
+>
 (
 sin
 (

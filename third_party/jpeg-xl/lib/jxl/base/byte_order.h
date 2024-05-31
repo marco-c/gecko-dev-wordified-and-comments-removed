@@ -1481,7 +1481,6 @@ uint8_t
 p
 )
 {
-return
 StoreBE16
 (
 native
@@ -1503,7 +1502,6 @@ uint8_t
 p
 )
 {
-return
 StoreLE16
 (
 native
@@ -1525,7 +1523,6 @@ uint8_t
 p
 )
 {
-return
 StoreBE32
 (
 native
@@ -1547,7 +1544,6 @@ uint8_t
 p
 )
 {
-return
 StoreLE32
 (
 native

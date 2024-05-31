@@ -73,6 +73,7 @@ cinfo
 )
 {
 auto
+*
 dest
 =
 reinterpret_cast
@@ -118,6 +119,7 @@ cinfo
 )
 {
 auto
+*
 dest
 =
 reinterpret_cast
@@ -200,6 +202,7 @@ cinfo
 )
 {
 auto
+*
 dest
 =
 reinterpret_cast
@@ -344,6 +347,7 @@ cinfo
 )
 {
 auto
+*
 dest
 =
 reinterpret_cast
@@ -492,6 +496,7 @@ cinfo
 )
 {
 auto
+*
 dest
 =
 reinterpret_cast
@@ -638,6 +643,7 @@ cinfo
 ;
 }
 auto
+*
 dest
 =
 reinterpret_cast
@@ -846,6 +852,7 @@ dest
 )
 {
 auto
+*
 dest
 =
 jpegli
@@ -886,6 +893,7 @@ dest
 ;
 }
 auto
+*
 dest
 =
 reinterpret_cast

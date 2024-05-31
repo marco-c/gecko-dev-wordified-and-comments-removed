@@ -29,8 +29,9 @@ JxlBoxContentDecoder
 JxlBoxContentDecoder
 (
 )
-{
-}
+=
+default
+;
 JxlBoxContentDecoder
 :
 :

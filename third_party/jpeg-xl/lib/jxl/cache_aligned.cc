@@ -12,6 +12,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -554,7 +563,7 @@ kAlias
 endif
 #
 if
-0
+JXL_FALSE
 uintptr_t
 page_aligned
 =

@@ -507,6 +507,8 @@ ModularStreamId
 stream
 bool
 do_color
+bool
+groupwise
 )
 ;
 std

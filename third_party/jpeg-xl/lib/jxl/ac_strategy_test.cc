@@ -726,7 +726,10 @@ testing
 Range
 (
 0
+static_cast
+<
 int
+>
 (
 AcStrategy
 :
@@ -1251,7 +1254,10 @@ testing
 Range
 (
 0
+static_cast
+<
 int
+>
 (
 AcStrategy
 :
@@ -1764,7 +1770,10 @@ testing
 Range
 (
 0
+static_cast
+<
 int
+>
 (
 AcStrategy
 :

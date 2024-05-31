@@ -323,7 +323,9 @@ kRounding
 void
 ClusterHistograms
 (
+const
 HistogramParams
+&
 params
 const
 std

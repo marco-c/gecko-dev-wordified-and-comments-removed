@@ -980,16 +980,6 @@ inl
 h
 jxl
 /
-fast_dct
-.
-cc
-jxl
-/
-fast_dct
-.
-h
-jxl
-/
 fast_dct128
 -
 inl

@@ -490,7 +490,6 @@ j_decompress_ptr
 cinfo
 )
 {
-return
 jpegli_abort_decompress
 (
 cinfo
@@ -504,7 +503,6 @@ j_decompress_ptr
 cinfo
 )
 {
-return
 jpegli_destroy_decompress
 (
 cinfo

@@ -13,13 +13,6 @@ h
 >
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 lib
 /
@@ -48,7 +41,6 @@ jxl
 void
 TransformFromPixels
 (
-const
 AcStrategy
 :
 :

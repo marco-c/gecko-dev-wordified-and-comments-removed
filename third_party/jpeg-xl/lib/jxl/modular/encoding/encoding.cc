@@ -946,10 +946,13 @@ static_props
 {
 {
 chan
-(
+static_cast
+<
 int
-)
+>
+(
 group_id
+)
 }
 }
 ;

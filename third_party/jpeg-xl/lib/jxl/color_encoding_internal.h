@@ -1735,10 +1735,6 @@ size_t
 num_threads
 )
 {
-xsize_
-=
-xsize
-;
 JxlColorProfile
 input_profile
 ;
@@ -1961,9 +1957,13 @@ buf_src
 float
 *
 buf_dst
+size_t
+xsize
 )
 {
 return
+FROM_JXL_BOOL
+(
 cms_
 .
 run
@@ -1972,7 +1972,8 @@ cms_data_
 thread
 buf_src
 buf_dst
-xsize_
+xsize
+)
 )
 ;
 }
@@ -1992,9 +1993,6 @@ icc_src_
 ;
 IccBytes
 icc_dst_
-;
-size_t
-xsize_
 ;
 }
 ;

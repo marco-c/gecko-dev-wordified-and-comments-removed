@@ -87,7 +87,6 @@ pkg
 -
 config
 gtest
-gmock
 doxygen
 graphviz
 python3

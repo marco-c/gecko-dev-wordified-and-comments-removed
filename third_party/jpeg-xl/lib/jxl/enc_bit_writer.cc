@@ -12,6 +12,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 string
 .
 h
@@ -276,6 +285,8 @@ size_t
 used_bits
 =
 0
+;
+size_t
 unused_bits
 =
 0
@@ -291,7 +302,7 @@ unused_bits
 ;
 #
 if
-0
+JXL_FALSE
 printf
 (
 "
@@ -504,6 +515,7 @@ current_allotment_
 parent_
 ;
 auto
+*
 parent
 =
 parent_

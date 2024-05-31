@@ -2122,6 +2122,7 @@ spline
 {
 control_points
 {
+Dct32
 {
 0
 .
@@ -2133,6 +2134,7 @@ control_points
 .
 003125f
 }
+Dct32
 {
 1
 .
@@ -2141,6 +2143,7 @@ f
 .
 321875f
 }
+Dct32
 {
 1
 .
@@ -3591,11 +3594,13 @@ c
 )
 {
 return
-!
 isalnum
 (
 c
 )
+=
+=
+0
 ;
 }
 '

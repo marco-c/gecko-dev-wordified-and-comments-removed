@@ -2045,9 +2045,10 @@ std
 :
 min
 (
-(
+static_cast
+<
 size_t
-)
+>
 (
 task
 +

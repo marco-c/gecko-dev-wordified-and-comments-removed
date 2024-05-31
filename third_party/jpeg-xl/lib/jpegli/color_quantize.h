@@ -58,6 +58,7 @@ LookupColorIndex
 (
 j_decompress_ptr
 cinfo
+const
 JSAMPLE
 *
 pixel

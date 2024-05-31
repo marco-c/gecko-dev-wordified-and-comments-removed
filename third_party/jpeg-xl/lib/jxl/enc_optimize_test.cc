@@ -28,7 +28,6 @@ optimize
 {
 namespace
 {
-static
 const
 size_t
 kMaxTestIter

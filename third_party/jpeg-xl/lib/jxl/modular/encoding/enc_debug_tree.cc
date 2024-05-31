@@ -506,10 +506,13 @@ ToString
 (
 15
 -
-(
+static_cast
+<
 int
-)
+>
+(
 i
+)
 )
 +
 "

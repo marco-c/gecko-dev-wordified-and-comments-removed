@@ -264,7 +264,7 @@ final
 JXL_ASSERT
 (
 xsize
-=
+<
 =
 xsize_
 )
@@ -406,6 +406,7 @@ Run
 thread_id
 buf_src
 buf_dst
+xsize
 )
 )
 ;

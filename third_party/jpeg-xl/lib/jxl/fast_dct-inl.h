@@ -1523,10 +1523,13 @@ n
 max_error
 14
 -
-(
+static_cast
+<
 int
-)
+>
+(
 integer_bits
+)
 )
 ;
 #
