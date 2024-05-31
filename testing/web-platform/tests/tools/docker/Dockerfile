@@ -92,12 +92,6 @@ gstreamer1
 -
 gl
 \
-libegl1
--
-mesa
--
-dev
-\
 libosmesa6
 -
 dev
