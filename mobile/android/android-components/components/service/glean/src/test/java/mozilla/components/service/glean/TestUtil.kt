@@ -1578,7 +1578,7 @@ String
 =
 Configuration
 .
-DEFAULT_DEBUGVIEW_ENDPOINT
+DEFAULT_TELEMETRY_ENDPOINT
 private
 val
 responseStatus
