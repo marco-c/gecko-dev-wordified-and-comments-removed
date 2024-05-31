@@ -84,6 +84,13 @@ newtab
 docs
 /
 index
+components
+/
+aboutwelcome
+/
+docs
+/
+index
 installer
 /
 windows
