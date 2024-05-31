@@ -62,6 +62,13 @@ html
 ]
 [
 "
+browser_bouncetracking_oa_isolation
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_purge
 .
 js
