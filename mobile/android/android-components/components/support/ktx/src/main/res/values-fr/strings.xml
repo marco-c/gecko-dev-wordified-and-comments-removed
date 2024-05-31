@@ -28,8 +28,8 @@ name
 mozac_support_ktx_menu_share_with
 "
 >
-Condividi
-con
+Partager
+avec
 <
 /
 string
@@ -42,8 +42,10 @@ name
 mozac_support_ktx_share_dialog_title
 "
 >
-Condividi
-con
+Partager
+l
+aide
+de
 <
 /
 string
