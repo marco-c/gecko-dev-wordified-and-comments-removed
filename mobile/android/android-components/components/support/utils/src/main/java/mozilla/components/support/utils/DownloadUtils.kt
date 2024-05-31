@@ -1029,11 +1029,11 @@ lastDotIndex
 if
 (
 typeFromExt
-!
+=
 =
 null
-&
-&
+|
+|
 !
 typeFromExt
 .
@@ -1069,6 +1069,7 @@ null
 extension
 =
 "
+.
 "
 +
 extension
