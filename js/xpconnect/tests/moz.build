@@ -45,3 +45,15 @@ xpcshell
 toml
 "
 ]
+MARIONETTE_MANIFESTS
++
+=
+[
+"
+marionette
+/
+manifest
+.
+toml
+"
+]
