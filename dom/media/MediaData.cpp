@@ -1991,10 +1991,6 @@ AdoptData
 (
 data
 )
-?
-NS_OK
-:
-NS_ERROR_UNEXPECTED
 RESULT_DETAIL
 (
 "

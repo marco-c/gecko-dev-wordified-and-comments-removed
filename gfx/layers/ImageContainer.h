@@ -2485,7 +2485,7 @@ aData
 0
 ;
 virtual
-bool
+nsresult
 AdoptData
 (
 const

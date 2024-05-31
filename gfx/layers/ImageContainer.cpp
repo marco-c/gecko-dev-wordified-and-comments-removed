@@ -4879,7 +4879,7 @@ OffscreenFormat
 mOffscreenFormat
 ;
 }
-bool
+nsresult
 PlanarYCbCrImage
 :
 :
@@ -4916,7 +4916,7 @@ TopLeft
 )
 ;
 return
-true
+NS_OK
 ;
 }
 already_AddRefed
