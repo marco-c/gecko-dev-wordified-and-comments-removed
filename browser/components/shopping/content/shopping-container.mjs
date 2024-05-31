@@ -1334,7 +1334,7 @@ null
 ;
 }
 }
-getAnalysisDetailsTemplate
+analysisDetailsTemplate
 (
 )
 {
@@ -1506,7 +1506,7 @@ highlights
 >
 ;
 }
-getContentTemplate
+contentTemplate
 (
 )
 {
@@ -1608,7 +1608,7 @@ isReanalysis
 ?
 this
 .
-getAnalysisDetailsTemplate
+analysisDetailsTemplate
 (
 )
 :
@@ -1923,7 +1923,7 @@ bar
 {
 this
 .
-getAnalysisDetailsTemplate
+analysisDetailsTemplate
 (
 )
 }
@@ -1995,7 +1995,7 @@ bar
 return
 this
 .
-getAnalysisDetailsTemplate
+analysisDetailsTemplate
 (
 )
 ;
@@ -2115,7 +2115,7 @@ option
 .
 *
 /
-getLoadingTemplate
+loadingTemplate
 (
 {
 animate
@@ -2627,7 +2627,7 @@ hideFooter
 ?
 this
 .
-getFooterTemplate
+footerTemplate
 (
 )
 :
@@ -2643,7 +2643,7 @@ div
 >
 ;
 }
-getFooterTemplate
+footerTemplate
 (
 )
 {
@@ -2844,7 +2844,7 @@ content
 =
 this
 .
-getLoadingTemplate
+loadingTemplate
 (
 {
 animate
@@ -2916,7 +2916,7 @@ content
 =
 this
 .
-getLoadingTemplate
+loadingTemplate
 (
 )
 ;
@@ -2932,7 +2932,7 @@ content
 =
 this
 .
-getContentTemplate
+contentTemplate
 (
 )
 ;

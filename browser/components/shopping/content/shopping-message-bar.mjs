@@ -235,7 +235,7 @@ stale
 >
 this
 .
-getStaleWarningTemplate
+staleWarningTemplate
 (
 )
 ]
@@ -251,7 +251,7 @@ error
 >
 this
 .
-getGenericErrorTemplate
+genericErrorTemplate
 (
 )
 ]
@@ -269,7 +269,7 @@ reviews
 >
 this
 .
-getNotEnoughReviewsTemplate
+notEnoughReviewsTemplate
 (
 )
 ]
@@ -287,7 +287,7 @@ available
 >
 this
 .
-getProductNotAvailableTemplate
+productNotAvailableTemplate
 (
 )
 ]
@@ -305,7 +305,7 @@ reporting
 >
 this
 .
-getThanksForReportingTemplate
+thanksForReportingTemplate
 (
 )
 ]
@@ -325,7 +325,7 @@ reported
 >
 this
 .
-getProductNotAvailableReportedTemplate
+productNotAvailableReportedTemplate
 (
 )
 ]
@@ -680,7 +680,7 @@ record
 )
 ;
 }
-getStaleWarningTemplate
+staleWarningTemplate
 (
 )
 {
@@ -808,7 +808,7 @@ bar
 >
 ;
 }
-getGenericErrorTemplate
+genericErrorTemplate
 (
 )
 {
@@ -863,7 +863,7 @@ bar
 >
 ;
 }
-getNotEnoughReviewsTemplate
+notEnoughReviewsTemplate
 (
 )
 {
@@ -922,7 +922,7 @@ bar
 >
 ;
 }
-getProductNotAvailableTemplate
+productNotAvailableTemplate
 (
 )
 {
@@ -1048,7 +1048,7 @@ bar
 >
 ;
 }
-getThanksForReportingTemplate
+thanksForReportingTemplate
 (
 )
 {
@@ -1105,7 +1105,7 @@ bar
 >
 ;
 }
-getProductNotAvailableReportedTemplate
+productNotAvailableReportedTemplate
 (
 )
 {
