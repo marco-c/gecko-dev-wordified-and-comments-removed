@@ -1398,6 +1398,7 @@ macSubrole
 msaaRole
 ia2Role
 androidClass
+iosIsElement
 nameRule
 )
 \
@@ -1735,6 +1736,7 @@ macSubrole
 msaaRole
 ia2Role
 androidClass
+iosIsElement
 nameRule
 )
 \
