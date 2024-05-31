@@ -4297,10 +4297,13 @@ EnumeratedArray
 <
 nsLayoutPhase
 uint32_t
+size_t
+(
 nsLayoutPhase
 :
 :
 COUNT
+)
 >
 mLayoutPhaseCount
 ;

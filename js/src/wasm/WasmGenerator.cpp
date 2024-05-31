@@ -2032,10 +2032,13 @@ Maybe
 <
 uint32_t
 >
+size_t
+(
 Trap
 :
 :
 Limit
+)
 >
 ;
 bool

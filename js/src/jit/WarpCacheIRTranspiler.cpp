@@ -263,10 +263,13 @@ EnumeratedArray
 <
 ArgumentKind
 OperandId
+size_t
+(
 ArgumentKind
 :
 :
 NumKinds
+)
 >
 ;
 ArgumentKindArray

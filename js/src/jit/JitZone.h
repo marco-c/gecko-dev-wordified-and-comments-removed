@@ -559,10 +559,13 @@ WeakHeapPtr
 JitCode
 *
 >
+size_t
+(
 StubIndex
 :
 :
 Count
+)
 >
 stubs_
 ;

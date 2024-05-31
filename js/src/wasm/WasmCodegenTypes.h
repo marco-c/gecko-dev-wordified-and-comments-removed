@@ -924,10 +924,13 @@ EnumeratedArray
 <
 Trap
 TrapSiteVector
+size_t
+(
 Trap
 :
 :
 Limit
+)
 >
 {
 bool

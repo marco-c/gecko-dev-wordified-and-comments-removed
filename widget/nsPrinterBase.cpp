@@ -587,10 +587,13 @@ EnumeratedArray
 <
 AsyncAttribute
 nsLiteralCString
+size_t
+(
 AsyncAttribute
 :
 :
 Last
+)
 >
 attributeKeys
 {

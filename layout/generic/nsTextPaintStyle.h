@@ -485,10 +485,13 @@ Maybe
 <
 nsSelectionStyle
 >
+size_t
+(
 SelectionStyleIndex
 :
 :
 Count
+)
 >
 mSelectionStyle
 ;

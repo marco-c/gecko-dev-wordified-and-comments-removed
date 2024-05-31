@@ -4329,10 +4329,13 @@ js
 :
 StackRootedBase
 *
+size_t
+(
 RootKind
 :
 :
 Limit
+)
 >
 ;
 using
@@ -4346,10 +4349,13 @@ EnumeratedArray
 AutoGCRooterKind
 AutoGCRooter
 *
+size_t
+(
 AutoGCRooterKind
 :
 :
 Limit
+)
 >
 ;
 class

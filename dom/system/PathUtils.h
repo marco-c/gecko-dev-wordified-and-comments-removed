@@ -681,10 +681,13 @@ EnumeratedArray
 <
 Directory
 T
+size_t
+(
 Directory
 :
 :
 Count
+)
 >
 ;
 DirectoryArray

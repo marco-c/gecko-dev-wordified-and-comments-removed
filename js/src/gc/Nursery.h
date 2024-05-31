@@ -1691,10 +1691,13 @@ mozilla
 :
 :
 TimeStamp
+size_t
+(
 ProfileKey
 :
 :
 KeyCount
+)
 >
 ;
 using
@@ -1710,10 +1713,13 @@ mozilla
 :
 :
 TimeDuration
+size_t
+(
 ProfileKey
 :
 :
 KeyCount
+)
 >
 ;
 double

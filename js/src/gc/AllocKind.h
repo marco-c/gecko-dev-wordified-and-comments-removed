@@ -999,10 +999,13 @@ EnumeratedArray
 <
 AllocKind
 ValueType
+size_t
+(
 AllocKind
 :
 :
 LIMIT
+)
 >
 ;
 template
@@ -1020,10 +1023,13 @@ EnumeratedArray
 <
 AllocKind
 ValueType
+size_t
+(
 AllocKind
 :
 :
 OBJECT_LIMIT
+)
 >
 ;
 template

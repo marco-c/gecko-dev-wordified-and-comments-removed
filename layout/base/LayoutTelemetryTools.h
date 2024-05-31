@@ -133,10 +133,13 @@ EnumeratedArray
 <
 LayoutSubsystem
 double
+size_t
+(
 LayoutSubsystem
 :
 :
 Count
+)
 >
 ;
 using
@@ -146,10 +149,13 @@ EnumeratedArray
 <
 FlushKind
 SaturateUint8
+size_t
+(
 FlushKind
 :
 :
 Count
+)
 >
 ;
 struct
