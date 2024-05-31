@@ -83,9 +83,9 @@ assertNotRestoredFromBFCache
 rc1
 [
 '
-error
+navigation
 -
-document
+failure
 '
 ]
 )

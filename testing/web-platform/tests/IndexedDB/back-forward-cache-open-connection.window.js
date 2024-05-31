@@ -96,9 +96,7 @@ assertNotRestoredFromBFCache
 rc1
 [
 '
-internal
--
-error
+masked
 '
 ]
 )
