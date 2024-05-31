@@ -690,6 +690,13 @@ js
 ]
 [
 "
+browser_tab_list_keyboard_navigation
+.
+js
+"
+]
+[
+"
 browser_tab_on_close_warning
 .
 js
