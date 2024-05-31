@@ -759,7 +759,7 @@ wait_for_event
     
 subscribe_events
     
-top_context
+new_tab
     
 add_intercept
     
@@ -786,7 +786,7 @@ BEFORE_REQUEST_SENT_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -869,6 +869,9 @@ substitute_host
 (
 url_template
 )
+context
+=
+new_tab
 )
 )
     
@@ -1231,7 +1234,7 @@ wait_for_event
     
 subscribe_events
     
-top_context
+new_tab
     
 add_intercept
     
@@ -1258,7 +1261,7 @@ BEFORE_REQUEST_SENT_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -1335,6 +1338,9 @@ substitute_host
 (
 url_template
 )
+context
+=
+new_tab
 )
 )
     
@@ -1801,7 +1807,7 @@ wait_for_event
     
 subscribe_events
     
-top_context
+new_tab
     
 add_intercept
     
@@ -1828,7 +1834,7 @@ BEFORE_REQUEST_SENT_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -1892,6 +1898,9 @@ substitute_host
 (
 url_template
 )
+context
+=
+new_tab
 )
 )
     
@@ -2249,7 +2258,7 @@ wait_for_event
     
 subscribe_events
     
-top_context
+new_tab
     
 add_intercept
     
@@ -2276,7 +2285,7 @@ BEFORE_REQUEST_SENT_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -2338,6 +2347,9 @@ substitute_host
 (
 url_template
 )
+context
+=
+new_tab
 )
 )
     
