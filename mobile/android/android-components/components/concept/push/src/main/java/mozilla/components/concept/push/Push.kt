@@ -155,12 +155,7 @@ onMessageReceived
 (
 message
 :
-String
-/
-*
 PushMessage
-*
-/
 )
 {
 }
