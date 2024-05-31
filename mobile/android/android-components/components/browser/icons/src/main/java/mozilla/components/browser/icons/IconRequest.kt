@@ -174,5 +174,9 @@ DEFAULT
 (
 32
 )
+LAUNCHER
+(
+48
+)
 }
 }
