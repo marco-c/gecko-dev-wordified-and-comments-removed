@@ -1316,6 +1316,10 @@ is_staging
         
 )
     
+if
+is_snapshot
+:
+        
 for
 generate_function
 in
@@ -1325,7 +1329,7 @@ generate_ktlint_task
 generate_compare_locales_task
 )
 :
-        
+            
 generate_and_append_task_to_task_graph
 (
 queue
