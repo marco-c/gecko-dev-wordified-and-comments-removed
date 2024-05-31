@@ -8,7 +8,9 @@ modules
 /
 ToolbarBadgeHub
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

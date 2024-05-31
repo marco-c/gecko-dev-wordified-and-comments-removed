@@ -246,7 +246,9 @@ modules
 /
 ToolbarBadgeHub
 .
-jsm
+sys
+.
+mjs
 "
 "
 modules
