@@ -235,12 +235,6 @@ TabClose
 TabOpen
 "
 "
-TabPinned
-"
-"
-TabUnpinned
-"
-"
 TabSelect
 "
 "
