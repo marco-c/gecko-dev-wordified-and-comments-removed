@@ -624,6 +624,13 @@ doh
 .
 neterror
 "
+"
+security
+.
+ui
+.
+tlserror
+"
 ]
 RPMAddMessageListener
 :
