@@ -133,7 +133,9 @@ modules
 /
 CFRPageActions
 .
-jsm
+sys
+.
+mjs
 "
 "
 modules

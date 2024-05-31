@@ -78,7 +78,9 @@ modules
 /
 CFRPageActions
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
