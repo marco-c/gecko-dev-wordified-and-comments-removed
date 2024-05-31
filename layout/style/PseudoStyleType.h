@@ -7,6 +7,11 @@ mozilla_PseudoStyleType_h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
