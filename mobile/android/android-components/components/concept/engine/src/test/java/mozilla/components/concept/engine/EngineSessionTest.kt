@@ -6014,6 +6014,17 @@ exitFullScreenMode
 )
 {
 }
+override
+fun
+recoverFromCrash
+(
+)
+:
+Boolean
+{
+return
+false
+}
 /
 /
 Helper
