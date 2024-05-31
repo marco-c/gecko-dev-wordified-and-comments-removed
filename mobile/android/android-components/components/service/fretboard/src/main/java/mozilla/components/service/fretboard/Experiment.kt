@@ -121,9 +121,6 @@ val
 name
 :
 String
-?
-=
-null
 /
 *
 *

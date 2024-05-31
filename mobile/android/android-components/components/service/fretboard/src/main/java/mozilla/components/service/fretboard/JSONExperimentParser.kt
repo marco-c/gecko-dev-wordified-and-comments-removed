@@ -379,7 +379,7 @@ ID_KEY
 )
 jsonObject
 .
-tryGetString
+getString
 (
 NAME_KEY
 )

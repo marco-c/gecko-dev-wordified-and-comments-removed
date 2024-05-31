@@ -307,7 +307,7 @@ getBoolean
 eq
 (
 "
-testid
+testexperiment
 "
 )
 anyBoolean
@@ -425,7 +425,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -445,7 +445,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -465,7 +465,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -485,7 +485,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -505,7 +505,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -525,7 +525,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -648,7 +648,7 @@ getBoolean
 eq
 (
 "
-testid
+testexperiment
 "
 )
 anyBoolean
@@ -766,7 +766,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -799,7 +799,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -923,7 +923,7 @@ getBoolean
 eq
 (
 "
-testid
+testexperiment
 "
 )
 anyBoolean
@@ -1041,7 +1041,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -1119,7 +1119,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -1243,7 +1243,7 @@ getBoolean
 eq
 (
 "
-testid
+testexperiment
 "
 )
 anyBoolean
@@ -1361,7 +1361,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -1439,7 +1439,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -1563,7 +1563,7 @@ getBoolean
 eq
 (
 "
-testid
+testexperiment
 "
 )
 anyBoolean
@@ -1681,7 +1681,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -1710,7 +1710,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -1834,7 +1834,7 @@ getBoolean
 eq
 (
 "
-testid
+testexperiment
 "
 )
 anyBoolean
@@ -1952,7 +1952,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -2030,7 +2030,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -2154,7 +2154,7 @@ getBoolean
 eq
 (
 "
-testid
+testexperiment
 "
 )
 anyBoolean
@@ -2272,7 +2272,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -2350,7 +2350,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -2474,7 +2474,7 @@ getBoolean
 eq
 (
 "
-testid
+testexperiment
 "
 )
 anyBoolean
@@ -2616,7 +2616,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -2665,7 +2665,7 @@ context
 ExperimentDescriptor
 (
 "
-testid
+testexperiment
 "
 )
 listOf
@@ -2774,6 +2774,11 @@ Experiment
 "
 id
 "
+name
+=
+"
+name
+"
 bucket
 =
 Experiment
@@ -2794,7 +2799,7 @@ context
 ExperimentDescriptor
 (
 "
-id
+name
 "
 )
 listOf
@@ -2814,7 +2819,7 @@ getBoolean
 eq
 (
 "
-id
+name
 "
 )
 anyBoolean
@@ -2837,7 +2842,7 @@ context
 ExperimentDescriptor
 (
 "
-id
+name
 "
 )
 listOf
@@ -2888,7 +2893,7 @@ getBoolean
 eq
 (
 "
-id
+name
 "
 )
 anyBoolean
@@ -2947,6 +2952,11 @@ Experiment
 "
 id
 "
+name
+=
+"
+name
+"
 bucket
 =
 Experiment
@@ -2967,7 +2977,7 @@ context
 ExperimentDescriptor
 (
 "
-id
+name
 "
 )
 listOf
@@ -2986,7 +2996,7 @@ getBoolean
 eq
 (
 "
-id
+name
 "
 )
 anyBoolean
@@ -3009,7 +3019,7 @@ context
 ExperimentDescriptor
 (
 "
-id
+name
 "
 )
 listOf
@@ -3034,6 +3044,11 @@ Experiment
 "
 wrongid
 "
+name
+=
+"
+wrongname
+"
 )
 val
 descriptor
@@ -3041,7 +3056,7 @@ descriptor
 ExperimentDescriptor
 (
 "
-testid
+testname
 "
 )
 val
@@ -3188,7 +3203,7 @@ ExperimentDescriptor
 "
 exp
 -
-id
+name
 "
 )
 true
@@ -3203,7 +3218,7 @@ putBoolean
 "
 exp
 -
-id
+name
 "
 true
 )
@@ -3265,7 +3280,7 @@ exp
 -
 2
 -
-id
+name
 "
 )
 anyBoolean
@@ -3331,7 +3346,7 @@ exp
 -
 2
 -
-id
+name
 "
 )
 false
@@ -3348,7 +3363,7 @@ exp
 -
 2
 -
-id
+name
 "
 false
 )
@@ -3464,7 +3479,7 @@ ExperimentDescriptor
 "
 exp
 -
-id
+name
 "
 )
 )
@@ -3478,7 +3493,7 @@ remove
 "
 exp
 -
-id
+name
 "
 )
 }

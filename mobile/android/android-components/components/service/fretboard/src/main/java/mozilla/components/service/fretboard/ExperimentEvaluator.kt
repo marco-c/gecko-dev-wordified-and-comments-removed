@@ -175,7 +175,7 @@ getBoolean
 (
 experimentDescriptor
 .
-id
+name
 isEnabled
 )
 )
@@ -208,12 +208,12 @@ firstOrNull
 {
 it
 .
-id
+name
 =
 =
 descriptor
 .
-id
+name
 }
 }
 private
@@ -626,7 +626,7 @@ putBoolean
 (
 descriptor
 .
-id
+name
 active
 )
 .
@@ -663,7 +663,7 @@ remove
 (
 descriptor
 .
-id
+name
 )
 .
 apply

@@ -69,7 +69,7 @@ class
 ExperimentDescriptor
 (
 val
-id
+name
 :
 String
 )

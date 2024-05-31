@@ -547,7 +547,7 @@ of
 ExperimentDescriptor
 with
 the
-id
+name
 of
 the
 experiment
@@ -567,7 +567,7 @@ first
 -
 experiment
 -
-id
+name
 "
 )
 fretboard
@@ -615,7 +615,7 @@ be
 retrieved
 using
 the
-kotlin
+Kotlin
 -
 friendly
 withExperiment
@@ -642,7 +642,7 @@ first
 -
 experiment
 -
-id
+name
 "
 )
 fretboard
@@ -741,7 +741,7 @@ first
 -
 experiment
 -
-id
+name
 "
 )
 fretboard
@@ -776,7 +776,7 @@ first
 -
 experiment
 -
-id
+name
 "
 )
 fretboard
