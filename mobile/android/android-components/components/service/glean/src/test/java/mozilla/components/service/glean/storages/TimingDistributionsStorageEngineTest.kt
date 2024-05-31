@@ -407,9 +407,7 @@ values
 !
 !
 [
-"
 0
-"
 ]
 )
 }
@@ -1413,15 +1411,11 @@ snapshot
 .
 values
 [
-"
-{
 TimingDistributionData
 .
 DEFAULT_BUCKET_COUNT
 -
 1
-}
-"
 ]
 )
 }
@@ -1698,9 +1692,7 @@ snapshot
 .
 values
 [
-"
 0
-"
 ]
 )
 /
@@ -1958,9 +1950,7 @@ snapshot
 .
 values
 [
-"
 0
-"
 ]
 )
 assertEquals
@@ -1977,9 +1967,7 @@ snapshot
 .
 values
 [
-"
 9
-"
 ]
 )
 assertEquals
@@ -1996,9 +1984,7 @@ snapshot
 .
 values
 [
-"
 33
-"
 ]
 )
 assertEquals
@@ -2015,9 +2001,7 @@ snapshot
 .
 values
 [
-"
 57
-"
 ]
 )
 assertEquals
@@ -2034,9 +2018,7 @@ snapshot
 .
 values
 [
-"
 80
-"
 ]
 )
 }
@@ -2342,9 +2324,7 @@ tdd
 .
 values
 [
-"
 0
-"
 ]
 jsonValue
 .
@@ -2370,9 +2350,7 @@ tdd
 .
 values
 [
-"
 1
-"
 ]
 jsonValue
 .
@@ -2398,9 +2376,7 @@ tdd
 .
 values
 [
-"
 2
-"
 ]
 jsonValue
 .

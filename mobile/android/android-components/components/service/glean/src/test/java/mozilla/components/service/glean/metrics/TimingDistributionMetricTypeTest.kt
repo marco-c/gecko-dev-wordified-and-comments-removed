@@ -389,9 +389,7 @@ snapshot
 .
 values
 [
-"
 0
-"
 ]
 )
 /
@@ -412,9 +410,7 @@ snapshot
 .
 values
 [
-"
 1
-"
 ]
 )
 /
@@ -435,9 +431,7 @@ snapshot
 .
 values
 [
-"
 2
-"
 ]
 )
 }
@@ -804,9 +798,7 @@ snapshot
 .
 values
 [
-"
 0
-"
 ]
 )
 /
@@ -827,9 +819,7 @@ snapshot
 .
 values
 [
-"
 1
-"
 ]
 )
 /
@@ -850,9 +840,7 @@ snapshot
 .
 values
 [
-"
 2
-"
 ]
 )
 /
@@ -920,9 +908,7 @@ snapshot2
 .
 values
 [
-"
 0
-"
 ]
 )
 /
@@ -943,9 +929,7 @@ snapshot2
 .
 values
 [
-"
 1
-"
 ]
 )
 /
@@ -966,9 +950,7 @@ snapshot2
 .
 values
 [
-"
 2
-"
 ]
 )
 }
