@@ -220,11 +220,6 @@ feature
 tabs
 "
 "
-feature
--
-toolbar
-"
-"
 lib
 -
 fetch

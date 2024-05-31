@@ -76,6 +76,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 test
 .
 resetMain
@@ -209,6 +215,7 @@ class
 ToolbarPresenterTest
 {
 Before
+ExperimentalCoroutinesApi
 fun
 setUp
 (
@@ -236,6 +243,7 @@ Unconfined
 )
 }
 After
+ExperimentalCoroutinesApi
 fun
 tearDown
 (
