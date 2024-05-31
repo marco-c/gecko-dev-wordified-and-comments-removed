@@ -1225,7 +1225,7 @@ engine
 '
 publish
 :
-false
+true
 browser
 -
 storage
