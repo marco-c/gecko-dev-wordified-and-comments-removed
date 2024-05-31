@@ -1649,7 +1649,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2508,7 +2507,6 @@ load
 "
 function
 (
-e
 )
 {
 test

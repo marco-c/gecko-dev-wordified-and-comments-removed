@@ -24,10 +24,7 @@ onLoaded
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -45,8 +42,6 @@ listener
 observe
 (
 contentWindow
-topic
-data
 )
 {
 let

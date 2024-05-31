@@ -1962,7 +1962,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -2090,7 +2089,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -2152,7 +2150,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -2225,7 +2222,6 @@ wheel
 "
 function
 (
-e
 )
 {
 setTimeout
@@ -5776,7 +5772,6 @@ counterFunction
 =
 function
 (
-e
 )
 {
 eventCount
@@ -7047,7 +7042,6 @@ panRightToLeftEnd
 aElement
 aX
 aY
-aMultiplier
 )
 {
 await
@@ -7231,7 +7225,6 @@ panLeftToRightEnd
 aElement
 aX
 aY
-aMultiplier
 )
 {
 await

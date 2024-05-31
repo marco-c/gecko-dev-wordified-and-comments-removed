@@ -373,7 +373,8 @@ addEventListener
 "
 scroll
 "
-event
+(
+)
 =
 >
 {
