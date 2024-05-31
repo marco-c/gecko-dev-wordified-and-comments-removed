@@ -276,9 +276,9 @@ message
 getString
 (
 0
-"
-utf8
-"
+RustObject
+.
+RUST_STRING_ENCODING
 )
 }
 override

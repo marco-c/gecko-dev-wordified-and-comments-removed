@@ -266,6 +266,13 @@ consumePointer
 companion
 object
 {
+const
+val
+RUST_STRING_ENCODING
+=
+"
+utf8
+"
 fun
 getAndConsumeString
 (
@@ -297,9 +304,7 @@ stringPtr
 getString
 (
 0
-"
-utf8
-"
+RUST_STRING_ENCODING
 )
 }
 finally
