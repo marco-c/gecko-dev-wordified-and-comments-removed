@@ -42,16 +42,16 @@ include
 "
 api
 /
-rtc_error
+ref_count
 .
 h
 "
 #
 include
 "
-rtc_base
+api
 /
-ref_count
+rtc_error
 .
 h
 "
@@ -623,7 +623,7 @@ RTC_EXPORT
 CreateSessionDescriptionObserver
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
@@ -668,7 +668,7 @@ RTC_EXPORT
 SetSessionDescriptionObserver
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
