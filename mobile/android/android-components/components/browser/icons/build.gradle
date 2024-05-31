@@ -131,6 +131,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+concept
+-
+engine
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib

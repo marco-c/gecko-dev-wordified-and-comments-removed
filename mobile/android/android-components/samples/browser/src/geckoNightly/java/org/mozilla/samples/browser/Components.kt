@@ -219,6 +219,12 @@ id
 "
 )
 }
+icons
+.
+install
+(
+this
+)
 }
 }
 }
