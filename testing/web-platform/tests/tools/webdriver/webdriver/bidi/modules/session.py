@@ -273,15 +273,10 @@ self
                     
 events
 :
-Optional
-[
 List
 [
 str
 ]
-]
-=
-None
                     
 contexts
 :
@@ -318,14 +313,6 @@ events
 "
 :
 events
-if
-events
-is
-not
-None
-else
-[
-]
 }
         
 if
