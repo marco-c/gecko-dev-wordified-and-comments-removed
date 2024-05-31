@@ -701,7 +701,7 @@ drawable
 mozac_ic_globe
 )
 }
-private
+internal
 val
 urlView
 =
