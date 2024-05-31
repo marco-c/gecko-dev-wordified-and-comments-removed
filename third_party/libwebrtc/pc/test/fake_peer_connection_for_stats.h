@@ -37,6 +37,17 @@ vector
 #
 include
 "
+api
+/
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -964,6 +975,9 @@ ConnectionContext
 :
 Create
 (
+CreateEnvironment
+(
+)
 &
 dependencies_
 )
