@@ -30,15 +30,6 @@ return
 error
 "
 "
-constructor
--
-super
-"
-:
-"
-error
-"
-"
 default
 -
 case
