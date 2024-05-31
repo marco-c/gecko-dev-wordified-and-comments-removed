@@ -210,11 +210,6 @@ feature
 tabs
 "
 "
-samples
--
-toolbar
-"
-"
 service
 -
 glean

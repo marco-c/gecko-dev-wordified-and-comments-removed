@@ -184,6 +184,7 @@ MagicNumber
 class
 ConfigurationAdapter
 (
+private
 val
 configuration
 :
@@ -869,7 +870,6 @@ onDraw
 canvas
 :
 Canvas
-?
 )
 {
 backgroundDrawable
