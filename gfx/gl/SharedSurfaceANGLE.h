@@ -161,7 +161,7 @@ UnlockProdImpl
 override
 ;
 virtual
-bool
+void
 ProducerAcquireImpl
 (
 )
@@ -175,7 +175,7 @@ ProducerReleaseImpl
 override
 ;
 virtual
-bool
+void
 ProducerReadAcquireImpl
 (
 )

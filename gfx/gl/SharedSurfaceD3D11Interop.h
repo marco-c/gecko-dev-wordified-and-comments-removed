@@ -171,7 +171,7 @@ UnlockProdImpl
 override
 {
 }
-bool
+void
 ProducerAcquireImpl
 (
 )

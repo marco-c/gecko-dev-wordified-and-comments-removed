@@ -1716,7 +1716,7 @@ it
 ;
 }
 }
-bool
+void
 SharedSurface_D3D11Interop
 :
 :
@@ -1730,8 +1730,8 @@ MOZ_ASSERT
 mLockedForGL
 )
 ;
-mLockedForGL
-=
+MOZ_ALWAYS_TRUE
+(
 mData
 .
 interop
@@ -1743,9 +1743,11 @@ mData
 .
 lockHandle
 )
+)
 ;
-return
 mLockedForGL
+=
+true
 ;
 }
 void

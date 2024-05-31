@@ -114,15 +114,12 @@ override
 {
 }
 virtual
-bool
+void
 ProducerAcquireImpl
 (
 )
 override
 {
-return
-true
-;
 }
 virtual
 void
