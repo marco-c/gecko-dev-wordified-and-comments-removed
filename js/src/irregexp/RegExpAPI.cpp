@@ -3582,6 +3582,8 @@ bytecode
 -
 >
 length
+(
+)
 ;
 re
 -
