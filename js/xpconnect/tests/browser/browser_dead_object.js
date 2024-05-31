@@ -126,10 +126,7 @@ window
 -
 nuked
 "
-(
 subject
-data
-)
 =
 >
 {
