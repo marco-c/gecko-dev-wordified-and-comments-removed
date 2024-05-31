@@ -298,6 +298,13 @@ text
 "
 Item
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 /
 >
 <
