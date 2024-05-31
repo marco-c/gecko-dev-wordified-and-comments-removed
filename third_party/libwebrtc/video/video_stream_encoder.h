@@ -675,6 +675,10 @@ cwnd_reduce_ratio
 ;
 protected
 :
+friend
+class
+VideoStreamEncoderFrameCadenceRestrictionTest
+;
 TaskQueueBase
 *
 encoder_queue
