@@ -61,7 +61,6 @@ nsPresContext
 aPresContext
 )
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -75,7 +74,6 @@ aLists
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -85,7 +83,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -147,7 +144,6 @@ aFlags
 )
 override
 ;
-virtual
 nsresult
 HandleEvent
 (
@@ -184,7 +180,6 @@ BaselineExportContext
 const
 override
 ;
-virtual
 void
 Reflow
 (
@@ -204,7 +199,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 SetFocus
 (
@@ -219,7 +213,6 @@ false
 )
 override
 ;
-virtual
 nsresult
 SetFormProperty
 (
