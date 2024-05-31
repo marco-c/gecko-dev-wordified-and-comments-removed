@@ -247,7 +247,7 @@ nsIBounceTrackingProtection
 ;
 btp
 .
-reset
+clearAll
 (
 )
 ;
@@ -1389,7 +1389,7 @@ state
 ;
 btp
 .
-reset
+clearAll
 (
 )
 ;
