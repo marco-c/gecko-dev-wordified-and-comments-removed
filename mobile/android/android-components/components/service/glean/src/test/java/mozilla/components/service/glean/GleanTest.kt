@@ -1425,6 +1425,13 @@ baseline
 .
 architecture
 "
+"
+glean
+.
+baseline
+.
+locale
+"
 )
 val
 baselineMetricsObject
