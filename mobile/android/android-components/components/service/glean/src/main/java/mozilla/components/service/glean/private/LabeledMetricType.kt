@@ -492,7 +492,7 @@ const
 val
 MAX_LABEL_LENGTH
 =
-30
+61
 }
 private
 val
