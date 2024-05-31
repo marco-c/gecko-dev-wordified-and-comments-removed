@@ -2084,17 +2084,6 @@ running
 query
 .
 *
-*
-param
-{
-object
-}
-queryContext
-The
-query
-context
-object
-*
 /
 cancelQuery
 (

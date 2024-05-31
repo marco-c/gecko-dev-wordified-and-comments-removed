@@ -353,16 +353,6 @@ resources
 .
 *
 *
-param
-{
-UrlbarQueryContext
-}
-queryContext
-The
-query
-context
-object
-*
 returns
 {
 boolean

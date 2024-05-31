@@ -690,7 +690,7 @@ param
 {
 boolean
 }
-enabled
+_enabled
 *
 Whether
 the
@@ -755,7 +755,7 @@ param
 {
 string
 }
-searchString
+_searchString
 *
 The
 search
@@ -834,7 +834,7 @@ param
 {
 RemoteSettings
 }
-rs
+_rs
 *
 The
 RemoteSettings
@@ -924,7 +924,7 @@ param
 {
 object
 }
-suggestion
+_suggestion
 *
 A
 suggestion
@@ -1052,7 +1052,7 @@ param
 {
 string
 }
-type
+_type
 *
 A
 Rust
@@ -1143,7 +1143,7 @@ param
 {
 UrlbarQueryContext
 }
-queryContext
+_queryContext
 *
 The
 query
@@ -1154,7 +1154,7 @@ param
 {
 object
 }
-suggestion
+_suggestion
 *
 The
 suggestion
@@ -1170,7 +1170,7 @@ param
 {
 string
 }
-searchString
+_searchString
 *
 The
 search
