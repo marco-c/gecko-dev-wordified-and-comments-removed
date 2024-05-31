@@ -1424,7 +1424,6 @@ forEach
 (
 (
 {
-slug
 branch
 featureIds
 }

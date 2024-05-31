@@ -114,8 +114,6 @@ decorate_task
 async
 function
 (
-reportActionStub
-Stub
 )
 {
 let

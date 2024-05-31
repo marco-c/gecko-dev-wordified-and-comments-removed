@@ -1336,9 +1336,6 @@ test
 async
 function
 (
-{
-prefExperiments
-}
 )
 {
 ok
@@ -1848,10 +1845,8 @@ function
 testStart
 (
 {
-prefExperiments
 mockPreferences
 startObserverStub
-sendEventSpy
 }
 )
 {
@@ -5316,9 +5311,6 @@ test
 async
 function
 (
-{
-prefExperiments
-}
 )
 {
 const
@@ -5619,7 +5611,6 @@ prefExperiments
 :
 [
 activeExperiment
-inactiveExperiment
 ]
 }
 )
@@ -5836,7 +5827,6 @@ function
 testInit
 (
 {
-prefExperiments
 mockPreferences
 setExperimentActiveStub
 }
