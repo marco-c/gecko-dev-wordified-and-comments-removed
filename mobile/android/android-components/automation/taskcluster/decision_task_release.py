@@ -370,7 +370,7 @@ no
 daemon
 clean
 test
-detektCheck
+detekt
 ktlint
 '
                  
