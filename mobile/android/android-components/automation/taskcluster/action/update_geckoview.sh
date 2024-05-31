@@ -352,7 +352,7 @@ sample
 -
 browser
 :
-assembleGeckoNightlyArm
+assembleGeckoNightlyUniversal
 elif
 [
 "
