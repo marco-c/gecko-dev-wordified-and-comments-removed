@@ -2414,7 +2414,7 @@ FromNoResult
 NoContentAnalysisResult
 :
 :
-NO_PARENT_BROWSER
+CONTEXT_EXEMPT_FROM_CONTENT_ANALYSIS
 )
 )
 ;
@@ -2509,7 +2509,7 @@ FromNoResult
 NoContentAnalysisResult
 :
 :
-AGENT_NOT_PRESENT
+CONTENT_ANALYSIS_NOT_ACTIVE
 )
 )
 ;
