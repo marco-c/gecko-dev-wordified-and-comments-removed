@@ -198,6 +198,10 @@ testImplementation
 Dependencies
 .
 testing_maven_ant_tasks
+implementation
+Dependencies
+.
+androidx_test_core
 testImplementation
 Dependencies
 .
