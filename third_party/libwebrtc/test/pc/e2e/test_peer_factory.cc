@@ -927,7 +927,7 @@ audio_decoder_factory
 webrtc
 :
 :
-SetMediaEngineDefaults
+DeprecatedSetMediaEngineDefaults
 (
 &
 media_deps

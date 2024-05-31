@@ -15191,6 +15191,14 @@ enable_media
 /
 api
 :
+enable_media_with_defaults
+"
+"
+.
+.
+/
+api
+:
 fake_frame_decryptor
 "
 "

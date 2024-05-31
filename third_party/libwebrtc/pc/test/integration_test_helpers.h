@@ -4363,7 +4363,7 @@ fake_audio_capture_module_
 webrtc
 :
 :
-SetMediaEngineDefaults
+DeprecatedSetMediaEngineDefaults
 (
 &
 media_deps
