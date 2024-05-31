@@ -430,6 +430,18 @@ String
 ?
 =
 null
+appMinVersion
+:
+String
+?
+=
+null
+appMaxVersion
+:
+String
+?
+=
+null
 localeLanguage
 :
 String
@@ -485,6 +497,8 @@ Matcher
 (
 appId
 appDisplayVersion
+appMinVersion
+appMaxVersion
 localeLanguage
 localeCountry
 deviceManufacturer

@@ -1483,6 +1483,12 @@ null
 appDisplayVersion
 =
 null
+appMinVersion
+=
+null
+appMaxVersion
+=
+null
 debugTags
 =
 null
@@ -1584,6 +1590,12 @@ appId
 =
 null
 appDisplayVersion
+=
+null
+appMinVersion
+=
+null
+appMaxVersion
 =
 null
 debugTags
