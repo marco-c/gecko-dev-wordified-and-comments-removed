@@ -132,8 +132,6 @@ robolectric
 "
 4
 .
-0
-.
 2
 "
 const
