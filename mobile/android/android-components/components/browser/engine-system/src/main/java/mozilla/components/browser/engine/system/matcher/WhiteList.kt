@@ -315,6 +315,7 @@ Uri
 :
 Boolean
 {
+return
 if
 (
 TextUtils
@@ -346,9 +347,10 @@ scheme
 data
 "
 )
-return
+{
 false
-return
+}
+else
 if
 (
 resource
@@ -368,6 +370,7 @@ isSupportedProtocol
 (
 )
 )
+{
 contains
 (
 hostUri
@@ -386,8 +389,11 @@ reverse
 )
 rootNode
 )
+}
 else
+{
 false
+}
 }
 private
 fun
@@ -448,8 +454,10 @@ resource
 =
 null
 )
+{
 return
 true
+}
 return
 if
 (

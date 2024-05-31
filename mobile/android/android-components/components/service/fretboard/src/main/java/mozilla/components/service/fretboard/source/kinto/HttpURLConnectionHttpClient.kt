@@ -208,6 +208,7 @@ HTTP_OK_START
 .
 HTTP_OK_END
 )
+{
 throw
 ExperimentDownloadException
 (
@@ -218,6 +219,7 @@ code
 responseCode
 "
 )
+}
 return
 urlConnection
 .

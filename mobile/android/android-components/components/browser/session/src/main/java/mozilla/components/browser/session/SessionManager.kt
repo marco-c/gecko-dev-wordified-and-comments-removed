@@ -2424,11 +2424,13 @@ it
 =
 selectedSession
 )
+{
 it
 .
 thumbnail
 =
 null
+}
 }
 }
 companion

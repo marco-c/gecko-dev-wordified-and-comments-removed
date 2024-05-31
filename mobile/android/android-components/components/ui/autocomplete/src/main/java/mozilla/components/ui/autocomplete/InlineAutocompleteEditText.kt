@@ -3076,8 +3076,11 @@ removeAutocompleteOnComposing
 text
 )
 )
+{
 false
+}
 else
+{
 super
 .
 commitText
@@ -3085,6 +3088,7 @@ commitText
 text
 newCursorPosition
 )
+}
 }
 override
 fun
@@ -3108,8 +3112,11 @@ removeAutocompleteOnComposing
 text
 )
 )
+{
 false
+}
 else
+{
 super
 .
 setComposingText
@@ -3117,6 +3124,7 @@ setComposingText
 text
 newCursorPosition
 )
+}
 }
 }
 }

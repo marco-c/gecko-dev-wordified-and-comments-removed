@@ -947,10 +947,12 @@ thumbnail
 =
 null
 )
+{
 onThumbnailChange
 (
 thumbnail
 )
+}
 }
 }
 }
