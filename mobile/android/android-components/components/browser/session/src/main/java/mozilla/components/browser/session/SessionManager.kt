@@ -1488,10 +1488,6 @@ Unit
 :
 Boolean
 {
-var
-blockWasRun
-=
-false
 sessionId
 ?
 .
@@ -1512,8 +1508,7 @@ block
 (
 session
 )
-blockWasRun
-=
+return
 true
 }
 }
@@ -1526,10 +1521,9 @@ block
 (
 it
 )
-blockWasRun
-=
+return
 true
 }
 return
-blockWasRun
+false
 }
