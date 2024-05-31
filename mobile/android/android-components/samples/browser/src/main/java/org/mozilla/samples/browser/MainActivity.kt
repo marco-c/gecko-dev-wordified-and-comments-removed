@@ -204,7 +204,7 @@ SessionFeature
 (
 components
 .
-sessionManager
+sessionProvider
 components
 .
 sessionUseCases
@@ -212,15 +212,14 @@ components
 .
 engine
 engineView
-components
-.
-sessionMapping
 )
 toolbarFeature
 =
 ToolbarFeature
 (
 components
+.
+sessionProvider
 .
 sessionManager
 components
