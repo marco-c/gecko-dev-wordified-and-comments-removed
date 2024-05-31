@@ -559,6 +559,13 @@ whenGoingToBackground
 whenSessionsChange
 (
 )
+icons
+.
+install
+(
+engine
+this
+)
 }
 }
 val

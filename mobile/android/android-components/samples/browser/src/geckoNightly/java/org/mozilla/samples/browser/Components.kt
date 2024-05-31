@@ -198,12 +198,6 @@ ext
 "
 )
 }
-icons
-.
-install
-(
-this
-)
 }
 }
 }

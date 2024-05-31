@@ -66,4 +66,16 @@ document_end
 "
 }
 ]
+"
+permissions
+"
+:
+[
+"
+geckoViewAddons
+"
+"
+nativeMessaging
+"
+]
 }
