@@ -305,6 +305,9 @@ peer_node_name
 PortName
 peer_port_name
 ;
+bool
+pending_merge_peer
+;
 uint64_t
 next_sequence_num_to_send
 ;
