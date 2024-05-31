@@ -181,12 +181,6 @@ AttributeSet
 import
 android
 .
-util
-.
-Log
-import
-android
-.
 view
 .
 KeyEvent
