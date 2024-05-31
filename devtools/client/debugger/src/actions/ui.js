@@ -39,7 +39,7 @@ import
 {
 getEditor
 getLocationsInViewport
-updateLineWrappingForAllDocuments
+updateEditorLineWrapping
 }
 from
 "
@@ -363,7 +363,7 @@ getState
 =
 >
 {
-updateLineWrappingForAllDocuments
+updateEditorLineWrapping
 (
 toggleValue
 )
