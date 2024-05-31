@@ -373,6 +373,11 @@ test_
 test
 )
 {
+SetAuthenticationRequired
+(
+false
+)
+;
 }
 std
 :
