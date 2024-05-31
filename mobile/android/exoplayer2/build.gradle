@@ -665,6 +665,8 @@ maven
 }
 }
 }
+java
+{
 sourceCompatibility
 =
 JavaVersion
@@ -675,3 +677,4 @@ targetCompatibility
 JavaVersion
 .
 VERSION_1_8
+}

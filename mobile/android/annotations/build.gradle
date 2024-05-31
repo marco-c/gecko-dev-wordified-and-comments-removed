@@ -111,6 +111,8 @@ checks
 2
 '
 }
+java
+{
 sourceCompatibility
 =
 JavaVersion
@@ -121,3 +123,4 @@ targetCompatibility
 JavaVersion
 .
 VERSION_17
+}
