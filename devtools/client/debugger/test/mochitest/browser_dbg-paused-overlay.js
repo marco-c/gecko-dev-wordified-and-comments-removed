@@ -593,9 +593,9 @@ toolbox
 once
 (
 "
-pause
+new
 -
-overlay
+configuration
 -
 applied
 "
