@@ -303,11 +303,6 @@ glean
 "
 support
 -
-ktx
-"
-"
-support
--
 test
 "
 "

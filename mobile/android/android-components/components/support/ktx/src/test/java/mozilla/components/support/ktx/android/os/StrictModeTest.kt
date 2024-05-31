@@ -306,10 +306,10 @@ setThreadPolicy
 this
 )
 }
-var
+val
 exceptionCaught
-=
-false
+:
+Boolean
 assertEquals
 (
 policy
