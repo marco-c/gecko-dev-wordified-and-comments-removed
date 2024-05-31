@@ -4437,7 +4437,6 @@ PreprocessRegExp
 (
 &
 data
-flags
 isLatin1
 )
 ;
