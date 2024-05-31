@@ -152,6 +152,16 @@ implementation
 Dependencies
 .
 androidx_lifecycle_extensions
+implementation
+project
+(
+'
+:
+support
+-
+ktx
+'
+)
 testImplementation
 project
 (
