@@ -153,6 +153,12 @@ AndroidJUnit4
 :
 class
 )
+Suppress
+(
+"
+Deprecation
+"
+)
 class
 MapTest
 {

@@ -5578,9 +5578,6 @@ T
 Boolean
 =
 {
-_
--
->
 true
 }
 )
@@ -5625,10 +5622,6 @@ group
 ViewGroup
 )
 {
-var
-found
-=
-false
 group
 .
 forEach
@@ -5651,17 +5644,9 @@ this
 it
 "
 )
-found
-=
-true
+return
 }
 }
-if
-(
-!
-found
-)
-{
 throw
 AssertionError
 (
@@ -5673,7 +5658,6 @@ in
 ViewGroup
 "
 )
-}
 }
 infix
 fun
