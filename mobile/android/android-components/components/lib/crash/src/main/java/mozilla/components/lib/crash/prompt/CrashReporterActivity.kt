@@ -525,4 +525,17 @@ then
 }
 }
 }
+override
+fun
+onBackPressed
+(
+)
+{
+sendCrashReportIfNeeded
+{
+finish
+(
+)
+}
+}
 }
