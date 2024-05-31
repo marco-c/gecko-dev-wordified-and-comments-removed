@@ -230,16 +230,6 @@ Auto
 ;
 enum
 class
-StyleUserFind
-:
-uint8_t
-{
-Auto
-None
-}
-;
-enum
-class
 StyleUserModify
 :
 uint8_t

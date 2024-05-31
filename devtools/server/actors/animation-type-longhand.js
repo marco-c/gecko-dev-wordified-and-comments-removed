@@ -1028,11 +1028,6 @@ unicode
 bidi
 "
 "
-user
--
-find
-"
-"
 -
 moz
 -

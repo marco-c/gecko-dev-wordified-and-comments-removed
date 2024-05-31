@@ -850,15 +850,9 @@ StyleUI
 )
 -
 >
-UserFind
+IsInert
 (
 )
-=
-=
-StyleUserFind
-:
-:
-None
 |
 |
 frame
