@@ -943,7 +943,7 @@ metricsJson
 opt
 (
 "
-experiments
+ping_info
 "
 )
 )
@@ -951,10 +951,17 @@ assertNotNull
 (
 metricsJson
 .
-opt
+getJSONObject
 (
 "
 ping_info
+"
+)
+.
+opt
+(
+"
+experiments
 "
 )
 )
