@@ -124,7 +124,7 @@ md
 capabilities
 :
 [
-List
+Set
 ]
 (
 https
@@ -148,7 +148,7 @@ kotlin
 collections
 /
 -
-list
+set
 /
 index
 .

@@ -97,7 +97,7 @@ Sync
 .
 kt
 #
-L28
+L48
 )
 Describes
 a
@@ -147,12 +147,14 @@ sync
 authInfo
 :
 [
-AuthInfo
+SyncAuthInfo
 ]
 (
 .
 .
 /
+-
+sync
 -
 auth
 -

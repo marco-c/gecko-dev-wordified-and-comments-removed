@@ -795,7 +795,7 @@ md
 |
 fun
 [
-AuthInfo
+SyncAuthInfo
 ]
 (
 .
@@ -809,6 +809,8 @@ concept
 .
 sync
 /
+-
+sync
 -
 auth
 -

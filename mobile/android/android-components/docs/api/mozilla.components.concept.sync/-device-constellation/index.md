@@ -314,7 +314,7 @@ ensureCapabilitiesAsync
 capabilities
 :
 [
-List
+Set
 ]
 (
 https
@@ -338,7 +338,7 @@ kotlin
 collections
 /
 -
-list
+set
 /
 index
 .
@@ -431,7 +431,7 @@ kotlin
 .
 collections
 .
-List
+Set
 (
 (
 mozilla
@@ -626,7 +626,7 @@ MOBILE
 capabilities
 :
 [
-List
+Set
 ]
 (
 https
@@ -650,7 +650,7 @@ kotlin
 collections
 /
 -
-list
+set
 /
 index
 .

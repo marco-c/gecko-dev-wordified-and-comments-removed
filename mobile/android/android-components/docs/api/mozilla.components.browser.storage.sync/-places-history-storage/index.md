@@ -175,7 +175,7 @@ PlacesHistoryStorage
 .
 kt
 #
-L30
+L28
 )
 Implementation
 of
@@ -2376,7 +2376,7 @@ sync
 authInfo
 :
 [
-AuthInfo
+SyncAuthInfo
 ]
 (
 .
@@ -2393,6 +2393,8 @@ concept
 .
 sync
 /
+-
+sync
 -
 auth
 -

@@ -64,7 +64,7 @@ sync
 authInfo
 :
 [
-AuthInfo
+SyncAuthInfo
 ]
 (
 .
@@ -81,6 +81,8 @@ concept
 .
 sync
 /
+-
+sync
 -
 auth
 -
@@ -173,7 +175,7 @@ PlacesHistoryStorage
 .
 kt
 #
-L175
+L173
 )
 Overrides
 [

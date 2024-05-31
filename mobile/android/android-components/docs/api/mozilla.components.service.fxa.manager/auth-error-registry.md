@@ -145,7 +145,7 @@ FxaAccountManager
 .
 kt
 #
-L59
+L58
 )
 A
 global
@@ -192,7 +192,9 @@ mozilla
 .
 components
 .
-concept
+service
+.
+fxa
 .
 sync
 /

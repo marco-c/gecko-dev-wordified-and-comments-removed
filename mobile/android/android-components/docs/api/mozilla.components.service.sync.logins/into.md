@@ -43,7 +43,7 @@ md
 into
 fun
 [
-AuthInfo
+SyncAuthInfo
 ]
 (
 .
@@ -57,6 +57,8 @@ concept
 .
 sync
 /
+-
+sync
 -
 auth
 -

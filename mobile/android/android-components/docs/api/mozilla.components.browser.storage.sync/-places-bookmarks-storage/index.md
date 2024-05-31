@@ -1483,7 +1483,7 @@ sync
 authInfo
 :
 [
-AuthInfo
+SyncAuthInfo
 ]
 (
 .
@@ -1500,6 +1500,8 @@ concept
 .
 sync
 /
+-
+sync
 -
 auth
 -

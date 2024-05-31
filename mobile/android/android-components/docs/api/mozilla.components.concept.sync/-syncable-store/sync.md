@@ -62,12 +62,14 @@ sync
 authInfo
 :
 [
-AuthInfo
+SyncAuthInfo
 ]
 (
 .
 .
 /
+-
+sync
 -
 auth
 -
@@ -145,7 +147,7 @@ Sync
 .
 kt
 #
-L35
+L55
 )
 Performs
 a

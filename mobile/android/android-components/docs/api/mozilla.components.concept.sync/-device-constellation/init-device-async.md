@@ -118,7 +118,7 @@ MOBILE
 capabilities
 :
 [
-List
+Set
 ]
 (
 https
@@ -142,7 +142,7 @@ kotlin
 collections
 /
 -
-list
+set
 /
 index
 .

@@ -65,7 +65,7 @@ createAccount
 config
 :
 [
-Config
+ServerConfig
 ]
 (
 .
@@ -82,6 +82,8 @@ service
 .
 fxa
 /
+-
+server
 -
 config
 .
@@ -172,5 +174,5 @@ FxaAccountManager
 .
 kt
 #
-L566
+L685
 )
