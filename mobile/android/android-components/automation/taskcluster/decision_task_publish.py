@@ -441,6 +441,10 @@ no
 -
 daemon
 clean
+'
++
+            
+'
 &
 &
 .
@@ -453,13 +457,22 @@ no
 daemon
 '
 +
-            
 snapshot_flag
 +
 gradle_tasks_for_this_module_only
 +
             
 '
+&
+&
+.
+/
+gradlew
+-
+-
+no
+-
+daemon
 uploadArchives
 zipMavenArtifacts
 '
