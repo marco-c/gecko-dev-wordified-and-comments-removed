@@ -2284,7 +2284,7 @@ card
 container
 >
 <
-h2
+h3
 slot
 =
 "
@@ -2313,7 +2313,7 @@ dateArg
 >
 <
 /
-h2
+h3
 >
 <
 fxview
@@ -3203,9 +3203,6 @@ class
 page
 -
 header
-heading
--
-large
 "
 data
 -
