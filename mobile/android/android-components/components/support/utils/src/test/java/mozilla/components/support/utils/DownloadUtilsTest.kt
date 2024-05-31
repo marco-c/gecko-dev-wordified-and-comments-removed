@@ -92,16 +92,6 @@ framework
 Assert
 .
 assertEquals
-import
-mozilla
-.
-components
-.
-support
-.
-utils
-.
-DownloadUtils
 RunWith
 (
 RobolectricTestRunner

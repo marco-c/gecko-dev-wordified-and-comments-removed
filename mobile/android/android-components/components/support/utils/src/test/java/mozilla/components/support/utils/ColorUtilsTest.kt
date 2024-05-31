@@ -71,16 +71,6 @@ graphics
 .
 Color
 import
-mozilla
-.
-components
-.
-support
-.
-utils
-.
-ColorUtils
-import
 org
 .
 junit
