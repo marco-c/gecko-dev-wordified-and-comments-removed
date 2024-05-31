@@ -432,6 +432,8 @@ themeColor
 .
 let
 {
+window
+.
 setStatusBarTheme
 (
 it
@@ -445,6 +447,8 @@ backgroundColor
 .
 let
 {
+window
+.
 setNavigationBarTheme
 (
 it

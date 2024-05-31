@@ -214,6 +214,12 @@ sessionId
 components
 .
 menuBuilder
+window
+=
+activity
+?
+.
+window
 closeListener
 =
 {
