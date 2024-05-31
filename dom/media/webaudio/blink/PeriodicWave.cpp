@@ -1181,7 +1181,7 @@ Elements
 ;
 frame
 .
-GetInverse
+GetInverseWithoutScaling
 (
 data
 )
