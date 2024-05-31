@@ -785,4 +785,10 @@ return
 NS_OK
 ;
 }
+void
+DNSThreadShutdown
+(
+)
+{
+}
 }

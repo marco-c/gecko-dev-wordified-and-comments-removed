@@ -151,6 +151,11 @@ GetAddrInfoShutdown
 (
 )
 ;
+void
+DNSThreadShutdown
+(
+)
+;
 nsresult
 ResolveHTTPSRecord
 (
