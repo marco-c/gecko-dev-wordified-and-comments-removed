@@ -316,18 +316,6 @@ enabled
 "
 :
 False
-                
-"
-screenshots
-.
-browser
-.
-component
-.
-enabled
-"
-:
-False
             
 }
         
