@@ -1051,6 +1051,13 @@ xhtml
 ]
 [
 "
+test_menulist_initial_selection
+.
+xhtml
+"
+]
+[
+"
 test_menulist_keynav
 .
 xhtml
