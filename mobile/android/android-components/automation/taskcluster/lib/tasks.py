@@ -22,6 +22,11 @@ commit
 owner
 source
 scheduler_id
+tasks_priority
+=
+'
+lowest
+'
 )
 :
         
@@ -66,6 +71,12 @@ self
 scheduler_id
 =
 scheduler_id
+        
+self
+.
+tasks_priority
+=
+tasks_priority
     
 def
 raw_task
@@ -204,9 +215,9 @@ tags
 priority
 "
 :
-"
-lowest
-"
+self
+.
+tasks_priority
             
 "
 deadline
@@ -543,9 +554,9 @@ tags
 priority
 "
 :
-"
-highest
-"
+self
+.
+tasks_priority
             
 "
 deadline
@@ -857,9 +868,9 @@ tags
 priority
 "
 :
-"
-lowest
-"
+self
+.
+tasks_priority
             
 "
 deadline
