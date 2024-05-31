@@ -109,6 +109,12 @@ org
 .
 json
 .
+JSONException
+import
+org
+.
+json
+.
 JSONObject
 /
 *
@@ -284,6 +290,13 @@ of
 experiments
 *
 /
+Throws
+(
+JSONException
+:
+:
+class
+)
 fun
 fromJson
 (
