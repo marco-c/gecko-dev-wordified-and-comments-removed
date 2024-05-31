@@ -188,10 +188,7 @@ f32
 4
 ]
 =
-(
-*
 transform
-)
 .
 matrix
 .
@@ -241,10 +238,7 @@ igtbl_r
 const
 f32
 =
-(
-*
 transform
-)
 .
 input_gamma_table_r
 .
@@ -267,10 +261,7 @@ igtbl_g
 const
 f32
 =
-(
-*
 transform
-)
 .
 input_gamma_table_g
 .
@@ -293,10 +284,7 @@ igtbl_b
 const
 f32
 =
-(
-*
 transform
-)
 .
 input_gamma_table_b
 .
@@ -319,10 +307,7 @@ otdata_r
 const
 u8
 =
-(
-*
 transform
-)
 .
 output_table_r
 .
