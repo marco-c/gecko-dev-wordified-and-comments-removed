@@ -814,7 +814,6 @@ aac
 _ns
 ;
 }
-else
 if
 (
 mStreamType
@@ -989,10 +988,10 @@ RefPtr
 MediaData
 >
 &
-aOutData
+aOutput
 )
 {
-aOutData
+aOutput
 =
 nullptr
 ;
@@ -1310,7 +1309,7 @@ hr
 hr
 )
 ;
-int32_t
+uint32_t
 numSamples
 =
 currentLength
@@ -1320,7 +1319,7 @@ sizeof
 float
 )
 ;
-int32_t
+uint32_t
 numFrames
 =
 numSamples
@@ -1499,7 +1498,7 @@ return
 MF_E_TRANSFORM_NEED_MORE_INPUT
 ;
 }
-aOutData
+aOutput
 =
 new
 AudioData
@@ -1523,7 +1522,7 @@ MOZ_DIAGNOSTIC_ASSERT
 duration
 =
 =
-aOutData
+aOutput
 -
 >
 mDuration
@@ -1536,7 +1535,7 @@ equal
 ;
 mLastOutputDuration
 =
-aOutData
+aOutput
 -
 >
 mDuration
