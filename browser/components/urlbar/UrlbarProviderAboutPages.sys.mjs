@@ -446,7 +446,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-HISTORY
+OTHER_LOCAL
 .
 .
 .
