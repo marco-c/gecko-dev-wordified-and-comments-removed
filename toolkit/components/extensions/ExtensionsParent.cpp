@@ -128,7 +128,7 @@ mWebNavigation
 {
 mWebNavigation
 =
-do_ImportModule
+do_ImportESModule
 (
 "
 resource
@@ -141,7 +141,9 @@ modules
 /
 WebNavigation
 .
-jsm
+sys
+.
+mjs
 "
 "
 WebNavigationManager

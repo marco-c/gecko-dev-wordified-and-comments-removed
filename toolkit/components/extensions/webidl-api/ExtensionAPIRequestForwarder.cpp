@@ -519,7 +519,7 @@ sAPIRequestHandler
 {
 sAPIRequestHandler
 =
-do_ImportModule
+do_ImportESModule
 (
 "
 resource
@@ -532,7 +532,9 @@ modules
 /
 ExtensionProcessScript
 .
-jsm
+sys
+.
+mjs
 "
 "
 ExtensionAPIRequestHandler

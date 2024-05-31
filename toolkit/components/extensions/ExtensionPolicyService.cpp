@@ -555,7 +555,7 @@ sProcessScript
 {
 sProcessScript
 =
-do_ImportModule
+do_ImportESModule
 (
 "
 resource
@@ -568,7 +568,9 @@ modules
 /
 ExtensionProcessScript
 .
-jsm
+sys
+.
+mjs
 "
 "
 ExtensionProcessScript
