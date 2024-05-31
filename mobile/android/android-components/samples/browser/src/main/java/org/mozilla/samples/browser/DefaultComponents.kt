@@ -151,7 +151,7 @@ menu
 .
 item
 .
-SimpleBrowserMenuCheckbox
+BrowserMenuCheckbox
 import
 mozilla
 .
@@ -665,7 +665,7 @@ invoke
 (
 )
 }
-SimpleBrowserMenuCheckbox
+BrowserMenuCheckbox
 (
 "
 Request
