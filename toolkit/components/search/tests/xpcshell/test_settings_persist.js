@@ -477,6 +477,7 @@ _removeObservers
 (
 )
 ;
+await
 updateConfig
 (
 SearchUtils
@@ -532,6 +533,7 @@ _removeObservers
 (
 )
 ;
+await
 updateConfig
 (
 "
