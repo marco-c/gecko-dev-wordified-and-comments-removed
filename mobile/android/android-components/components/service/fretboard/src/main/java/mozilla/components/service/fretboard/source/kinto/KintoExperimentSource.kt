@@ -156,14 +156,17 @@ fetch
 class
 KintoExperimentSource
 (
+private
 val
 baseUrl
 :
 String
+private
 val
 bucketName
 :
 String
+private
 val
 collectionName
 :
