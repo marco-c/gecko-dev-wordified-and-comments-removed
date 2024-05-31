@@ -183,11 +183,6 @@ feature
 sitepermissions
 "
 "
-feature
--
-tabs
-"
-"
 service
 -
 glean
