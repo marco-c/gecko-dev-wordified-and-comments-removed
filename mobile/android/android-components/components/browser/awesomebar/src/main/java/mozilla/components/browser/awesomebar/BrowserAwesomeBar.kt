@@ -325,7 +325,7 @@ VisibleForTesting
 PRIVATE
 )
 internal
-val
+var
 jobDispatcher
 =
 Executors
@@ -904,6 +904,11 @@ scope
 .
 launch
 {
+suggestionsAdapter
+.
+optionallyClearSuggestions
+(
+)
 providers
 .
 forEach
@@ -954,11 +959,6 @@ processedSuggestions
 }
 }
 }
-suggestionsAdapter
-.
-optionallyClearSuggestions
-(
-)
 }
 internal
 fun
