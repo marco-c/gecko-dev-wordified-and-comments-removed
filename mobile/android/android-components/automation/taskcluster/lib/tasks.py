@@ -124,7 +124,7 @@ fromNow
 (
 '
 1
-week
+year
 '
 )
         
@@ -448,7 +448,7 @@ fromNow
 (
 '
 1
-week
+year
 '
 )
         
@@ -472,9 +472,11 @@ workerType
 "
 :
 "
-null
+mobile
 -
-worker
+beetmover
+-
+v1
 "
             
 "
@@ -645,9 +647,11 @@ provisionerId
 "
 :
 "
-null
+scriptworker
 -
-provisioner
+prov
+-
+v1
 "
             
 "
