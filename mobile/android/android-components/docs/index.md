@@ -68,7 +68,7 @@ together
 *
 *
 Reduce
-maintenace
+maintenance
 overhead
 *
 *
