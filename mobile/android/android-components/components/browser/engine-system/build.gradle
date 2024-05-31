@@ -194,6 +194,16 @@ kotlin
 }
 "
 testImplementation
+project
+(
+'
+:
+support
+-
+test
+'
+)
+testImplementation
 "
 junit
 :

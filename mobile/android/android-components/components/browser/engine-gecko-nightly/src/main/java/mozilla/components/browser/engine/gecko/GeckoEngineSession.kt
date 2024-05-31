@@ -1078,8 +1078,15 @@ title
 :
 String
 )
-=
-Unit
+{
+notifyObservers
+{
+onTitleChange
+(
+title
+)
+}
+}
 override
 fun
 onFocusRequest

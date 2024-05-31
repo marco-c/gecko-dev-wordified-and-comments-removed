@@ -183,6 +183,15 @@ String
 =
 Unit
 fun
+onTitleChange
+(
+title
+:
+String
+)
+=
+Unit
+fun
 onProgress
 (
 progress
