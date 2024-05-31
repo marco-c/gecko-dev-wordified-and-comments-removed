@@ -165,6 +165,9 @@ Mdn
 "
 Weather
 "
+"
+AmpMobile
+"
 }
 ;
 [
@@ -261,7 +264,13 @@ url
 string
 title
 boolean
-is_top_pick
+subject_exact_match
+sequence
+<
+u8
+>
+?
+icon
 )
 ;
 Mdn
