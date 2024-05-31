@@ -160,7 +160,6 @@ atomic
 :
 :
 {
-AtomicBool
 AtomicUsize
 Ordering
 }
@@ -4219,9 +4218,6 @@ SurfaceTexture
 parent_id
 :
 SurfaceId
-has_work
-:
-AtomicBool
 }
 }
 impl
