@@ -6,6 +6,12 @@ from
 tempfile
 import
 TemporaryDirectory
+import
+mozpack
+.
+path
+as
+mozpath
 from
 buildconfig
 import
@@ -632,9 +638,7 @@ expected
 "
 dummy
 "
-os
-.
-path
+mozpath
 .
 join
 (
@@ -652,9 +656,7 @@ in_path
 expected
 =
 [
-os
-.
-path
+mozpath
 .
 join
 (
