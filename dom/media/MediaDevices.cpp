@@ -3330,10 +3330,7 @@ AssignASCII
 dom
 :
 :
-MediaSourceEnumValues
-:
-:
-GetString
+GetEnumString
 (
 MediaSourceEnum
 :

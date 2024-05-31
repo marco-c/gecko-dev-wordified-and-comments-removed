@@ -11117,10 +11117,7 @@ mTimestamp
 dom
 :
 :
-VideoPixelFormatValues
-:
-:
-GetString
+GetEnumString
 (
 mResource
 -
@@ -11133,7 +11130,7 @@ PixelFormat
 )
 )
 .
-data
+get
 (
 )
 mCodedSize

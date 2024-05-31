@@ -11475,10 +11475,7 @@ aNames
 .
 AppendElement
 (
-WebIDLUtilityActorNameValues
-:
-:
-GetString
+GetEnumString
 (
 idlName
 )

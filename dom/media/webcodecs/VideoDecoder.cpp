@@ -1103,15 +1103,12 @@ accel
 %
 s
 "
-HardwareAccelerationValues
-:
-:
-GetString
+GetEnumString
 (
 mHardwareAcceleration
 )
 .
-data
+get
 (
 )
 )

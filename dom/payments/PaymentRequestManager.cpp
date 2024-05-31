@@ -1135,10 +1135,7 @@ aIPCOption
 NS_ConvertASCIItoUTF16
 shippingType
 (
-PaymentShippingTypeValues
-:
-:
-GetString
+GetEnumString
 (
 aOptions
 .
@@ -2968,10 +2965,7 @@ completeStatusString
 .
 AssignASCII
 (
-PaymentCompleteValues
-:
-:
-GetString
+GetEnumString
 (
 aComplete
 )
