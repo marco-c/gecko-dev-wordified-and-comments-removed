@@ -103,6 +103,14 @@ from
 utils
 import
 cached_property
+from
+metadata
+.
+webfeatures
+.
+schema
+import
+WEB_FEATURES_YML_FILENAME
 wd_pattern
 =
 "
@@ -451,6 +459,15 @@ any
 .
 html
 "
+}
+    
+"
+window
+-
+module
+"
+:
+{
 }
     
 "
@@ -2287,6 +2304,14 @@ META
 .
 yml
 "
+or
+                
+self
+.
+filename
+=
+=
+WEB_FEATURES_YML_FILENAME
 or
                 
 self
