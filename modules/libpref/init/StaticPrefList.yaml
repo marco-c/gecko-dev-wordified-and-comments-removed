@@ -59834,7 +59834,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_OR_DEV_EDITION
 mirror
 :
 always
