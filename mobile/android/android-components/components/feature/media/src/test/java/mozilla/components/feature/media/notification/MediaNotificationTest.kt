@@ -259,6 +259,9 @@ testContext
 create
 (
 state
+mock
+(
+)
 )
 assertEquals
 (
@@ -361,6 +364,9 @@ testContext
 create
 (
 state
+mock
+(
+)
 )
 assertEquals
 (
@@ -441,6 +447,9 @@ testContext
 create
 (
 state
+mock
+(
+)
 )
 }
 Test
@@ -501,6 +510,9 @@ testContext
 create
 (
 state
+mock
+(
+)
 )
 assertEquals
 (
