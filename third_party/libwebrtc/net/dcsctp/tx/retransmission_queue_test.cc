@@ -550,9 +550,11 @@ t3_rtx
 )
 {
 return
-DurationMs
+TimeDelta
+:
+:
+Zero
 (
-0
 )
 ;
 }
@@ -561,6 +563,10 @@ TimerOptions
 options_
 .
 rto_initial
+.
+ToTimeDelta
+(
+)
 )
 )
 )
