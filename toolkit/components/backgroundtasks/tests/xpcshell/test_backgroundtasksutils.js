@@ -846,7 +846,13 @@ ASRouterTargeting
 .
 getEnvironmentSnapshot
 (
+{
+targets
+:
+[
 target
+]
+}
 )
 ;
 let
