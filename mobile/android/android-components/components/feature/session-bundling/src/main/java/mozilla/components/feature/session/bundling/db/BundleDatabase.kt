@@ -221,10 +221,6 @@ bundle_database
 "
 )
 .
-allowMainThreadQueries
-(
-)
-.
 build
 (
 )

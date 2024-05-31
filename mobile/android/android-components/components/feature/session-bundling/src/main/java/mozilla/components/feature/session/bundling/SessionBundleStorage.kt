@@ -121,6 +121,14 @@ annotation
 .
 VisibleForTesting
 import
+android
+.
+support
+.
+annotation
+.
+WorkerThread
+import
 mozilla
 .
 components
@@ -361,6 +369,7 @@ lifetime
 *
 /
 Synchronized
+WorkerThread
 fun
 restore
 (
@@ -468,6 +477,7 @@ created
 *
 /
 Synchronized
+WorkerThread
 override
 fun
 save
@@ -550,6 +560,7 @@ saved
 *
 /
 Synchronized
+WorkerThread
 fun
 remove
 (
@@ -624,6 +635,7 @@ permanently
 *
 /
 Synchronized
+WorkerThread
 fun
 removeAll
 (
