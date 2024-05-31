@@ -409,14 +409,6 @@ String
 :
 SearchEngine
 {
-val
-fileName
-=
-"
-identifier
-.
-xml
-"
 return
 parser
 .
@@ -427,7 +419,9 @@ identifier
 "
 searchplugins
 /
-fileName
+identifier
+.
+xml
 "
 )
 }
