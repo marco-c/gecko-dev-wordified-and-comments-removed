@@ -2093,6 +2093,11 @@ Stop
 (
 )
 ;
+bool
+EnsureFallbackDriver
+(
+)
+;
 void
 FallbackToSystemClockDriver
 (
@@ -2255,6 +2260,7 @@ AudioStreamState
 None
 Pending
 Starting
+ChangingDevice
 Running
 Stopping
 }
@@ -2306,6 +2312,9 @@ mNextReInitBackoffStep
 ;
 TimeStamp
 mNextReInitAttempt
+;
+TimeStamp
+mChangingDeviceStartTime
 ;
 #
 ifdef
