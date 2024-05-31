@@ -503,8 +503,6 @@ session
 tabsUseCases
 .
 addTab
-.
-invoke
 (
 hitResult
 .
@@ -552,8 +550,6 @@ mozac_feature_contextmenu_snackbar_action_switch
 tabsUseCases
 .
 selectTab
-.
-invoke
 (
 session
 )
@@ -650,8 +646,6 @@ session
 tabsUseCases
 .
 addPrivateTab
-.
-invoke
 (
 hitResult
 .
@@ -691,8 +685,6 @@ mozac_feature_contextmenu_snackbar_action_switch
 tabsUseCases
 .
 selectTab
-.
-invoke
 (
 session
 )
@@ -796,8 +788,6 @@ private
 tabsUseCases
 .
 addPrivateTab
-.
-invoke
 (
 hitResult
 .
@@ -818,8 +808,6 @@ else
 tabsUseCases
 .
 addTab
-.
-invoke
 (
 hitResult
 .
@@ -866,8 +854,6 @@ mozac_feature_contextmenu_snackbar_action_switch
 tabsUseCases
 .
 selectTab
-.
-invoke
 (
 session
 )

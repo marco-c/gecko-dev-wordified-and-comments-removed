@@ -405,8 +405,6 @@ redirect
 subject
 .
 interceptedAppLinkRedirect
-.
-invoke
 (
 appUrl
 )
@@ -476,8 +474,6 @@ redirect
 subject
 .
 interceptedAppLinkRedirect
-.
-invoke
 (
 appUrl
 )
@@ -505,8 +501,6 @@ menuRedirect
 subject
 .
 appLinkRedirect
-.
-invoke
 (
 appUrl
 )
@@ -562,8 +556,6 @@ redirect
 subject
 .
 interceptedAppLinkRedirect
-.
-invoke
 (
 appUrl
 )
@@ -621,8 +613,6 @@ redirect
 subject
 .
 appLinkRedirect
-.
-invoke
 (
 appUrl
 )
@@ -771,8 +761,6 @@ redirect
 subject
 .
 interceptedAppLinkRedirect
-.
-invoke
 (
 uri
 )
@@ -879,8 +867,6 @@ redirect
 subject
 .
 interceptedAppLinkRedirect
-.
-invoke
 (
 uri
 )
@@ -995,8 +981,6 @@ redirect
 subject
 .
 interceptedAppLinkRedirect
-.
-invoke
 (
 uri
 )
@@ -1079,8 +1063,6 @@ browserPackage
 subject
 .
 openAppLink
-.
-invoke
 (
 redirect
 )

@@ -573,8 +573,6 @@ redirect
 useCases
 .
 interceptedAppLinkRedirect
-.
-invoke
 (
 url
 )
@@ -637,8 +635,6 @@ doOpenApp
 useCases
 .
 openAppLink
-.
-invoke
 (
 redirect
 )

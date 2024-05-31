@@ -796,8 +796,6 @@ Data
 sessionUseCases
 .
 clearData
-.
-invoke
 (
 )
 }
@@ -823,8 +821,6 @@ checked
 sessionUseCases
 .
 requestDesktopSite
-.
-invoke
 (
 checked
 )
@@ -887,8 +883,6 @@ true
 sessionUseCases
 .
 goForward
-.
-invoke
 (
 )
 }
@@ -942,8 +936,6 @@ true
 sessionUseCases
 .
 reload
-.
-invoke
 (
 )
 }
@@ -984,8 +976,6 @@ Stop
 sessionUseCases
 .
 stopLoading
-.
-invoke
 (
 )
 }

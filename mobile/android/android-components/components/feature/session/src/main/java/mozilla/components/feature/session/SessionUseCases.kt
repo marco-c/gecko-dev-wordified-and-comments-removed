@@ -328,8 +328,6 @@ url
 String
 )
 {
-this
-.
 invoke
 (
 url
@@ -413,6 +411,7 @@ loaded
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -508,6 +507,7 @@ provided
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -619,6 +619,7 @@ triggered
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -695,6 +696,7 @@ stopped
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -757,6 +759,7 @@ selected
 session
 *
 /
+operator
 fun
 invoke
 (
@@ -819,6 +822,7 @@ selected
 session
 *
 /
+operator
 fun
 invoke
 (
@@ -884,6 +888,7 @@ page
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -949,6 +954,7 @@ session
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -1008,6 +1014,7 @@ available
 .
 *
 /
+operator
 fun
 invoke
 (

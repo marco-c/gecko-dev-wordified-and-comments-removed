@@ -288,8 +288,6 @@ fullScreenMode
 sessionUseCases
 .
 exitFullscreen
-.
-invoke
 (
 it
 )

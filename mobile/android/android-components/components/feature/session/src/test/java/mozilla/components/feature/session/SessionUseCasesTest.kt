@@ -308,8 +308,6 @@ loadUrl
 useCases
 .
 loadUrl
-.
-invoke
 (
 "
 http
@@ -341,8 +339,6 @@ org
 useCases
 .
 loadUrl
-.
-invoke
 (
 "
 http
@@ -382,8 +378,6 @@ loadData
 useCases
 .
 loadData
-.
-invoke
 (
 "
 <
@@ -444,8 +438,6 @@ UTF
 useCases
 .
 loadData
-.
-invoke
 (
 "
 Should
@@ -489,8 +481,6 @@ UTF
 useCases
 .
 loadData
-.
-invoke
 (
 "
 ahr0cdovl21vemlsbgeub3jn
@@ -570,8 +560,6 @@ engineSession
 useCases
 .
 reload
-.
-invoke
 (
 session
 )
@@ -600,8 +588,6 @@ selectedEngineSession
 useCases
 .
 reload
-.
-invoke
 (
 )
 verify
@@ -654,8 +640,6 @@ engineSession
 useCases
 .
 stopLoading
-.
-invoke
 (
 session
 )
@@ -684,8 +668,6 @@ selectedEngineSession
 useCases
 .
 stopLoading
-.
-invoke
 (
 )
 verify
@@ -724,8 +706,6 @@ Session
 useCases
 .
 goBack
-.
-invoke
 (
 null
 )
@@ -768,8 +748,6 @@ engineSession
 useCases
 .
 goBack
-.
-invoke
 (
 session
 )
@@ -798,8 +776,6 @@ selectedEngineSession
 useCases
 .
 goBack
-.
-invoke
 (
 )
 verify
@@ -838,8 +814,6 @@ Session
 useCases
 .
 goForward
-.
-invoke
 (
 null
 )
@@ -882,8 +856,6 @@ engineSession
 useCases
 .
 goForward
-.
-invoke
 (
 session
 )
@@ -912,8 +884,6 @@ selectedEngineSession
 useCases
 .
 goForward
-.
-invoke
 (
 )
 verify
@@ -966,8 +936,6 @@ engineSession
 useCases
 .
 requestDesktopSite
-.
-invoke
 (
 true
 session
@@ -1001,8 +969,6 @@ selectedEngineSession
 useCases
 .
 requestDesktopSite
-.
-invoke
 (
 true
 )
@@ -1060,8 +1026,6 @@ engineSession
 useCases
 .
 exitFullscreen
-.
-invoke
 (
 session
 )
@@ -1090,8 +1054,6 @@ selectedEngineSession
 useCases
 .
 exitFullscreen
-.
-invoke
 (
 )
 verify
@@ -1164,8 +1126,6 @@ engineSession
 useCases
 .
 clearData
-.
-invoke
 (
 session
 )
@@ -1188,8 +1148,6 @@ clearData
 useCases
 .
 clearData
-.
-invoke
 (
 data
 =
@@ -1234,8 +1192,6 @@ any
 useCases
 .
 clearData
-.
-invoke
 (
 session
 data
@@ -1295,8 +1251,6 @@ selectedEngineSession
 useCases
 .
 clearData
-.
-invoke
 (
 )
 verify
@@ -1395,8 +1349,6 @@ it
 }
 }
 loadUseCase
-.
-invoke
 (
 "
 https
@@ -1534,8 +1486,6 @@ it
 }
 }
 loadUseCase
-.
-invoke
 (
 "
 Hello

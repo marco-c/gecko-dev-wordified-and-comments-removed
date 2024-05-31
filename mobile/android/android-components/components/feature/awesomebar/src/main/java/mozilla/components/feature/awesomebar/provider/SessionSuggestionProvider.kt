@@ -326,8 +326,6 @@ onSuggestionClicked
 =
 {
 selectTabUseCase
-.
-invoke
 (
 session
 )

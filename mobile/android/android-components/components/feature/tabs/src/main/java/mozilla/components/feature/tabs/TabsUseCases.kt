@@ -165,6 +165,7 @@ select
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -213,6 +214,7 @@ remove
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -368,6 +370,7 @@ session
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -580,6 +583,7 @@ session
 .
 *
 /
+operator
 fun
 invoke
 (
@@ -662,6 +666,7 @@ sessionManager
 SessionManager
 )
 {
+operator
 fun
 invoke
 (
@@ -709,6 +714,7 @@ be
 removed
 *
 /
+operator
 fun
 invoke
 (

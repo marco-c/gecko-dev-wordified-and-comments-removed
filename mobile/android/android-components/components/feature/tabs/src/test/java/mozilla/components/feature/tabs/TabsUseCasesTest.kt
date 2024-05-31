@@ -259,8 +259,6 @@ A
 useCases
 .
 selectTab
-.
-invoke
 (
 session
 )
@@ -315,8 +313,6 @@ A
 useCases
 .
 removeTab
-.
-invoke
 (
 session
 )
@@ -397,8 +393,6 @@ size
 useCases
 .
 addTab
-.
-invoke
 (
 "
 https
@@ -545,8 +539,6 @@ size
 useCases
 .
 addPrivateTab
-.
-invoke
 (
 "
 https
@@ -687,8 +679,6 @@ sessionManager
 useCases
 .
 addTab
-.
-invoke
 (
 "
 https
@@ -790,8 +780,6 @@ sessionManager
 useCases
 .
 addPrivateTab
-.
-invoke
 (
 "
 https
@@ -887,8 +875,6 @@ sessionManager
 useCases
 .
 addPrivateTab
-.
-invoke
 (
 "
 https
@@ -905,8 +891,6 @@ org
 useCases
 .
 addTab
-.
-invoke
 (
 "
 https
@@ -930,8 +914,6 @@ size
 useCases
 .
 removeAllTabs
-.
-invoke
 (
 )
 assertEquals
@@ -1043,8 +1025,6 @@ session1
 useCases
 .
 addPrivateTab
-.
-invoke
 (
 "
 https
@@ -1061,8 +1041,6 @@ org
 useCases
 .
 addTab
-.
-invoke
 (
 "
 https
@@ -1086,8 +1064,6 @@ size
 useCases
 .
 removeAllTabsOfType
-.
-invoke
 (
 private
 =
@@ -1105,8 +1081,6 @@ size
 useCases
 .
 addPrivateTab
-.
-invoke
 (
 "
 https
@@ -1123,8 +1097,6 @@ org
 useCases
 .
 addTab
-.
-invoke
 (
 "
 https
@@ -1141,8 +1113,6 @@ org
 useCases
 .
 addTab
-.
-invoke
 (
 "
 https
@@ -1166,8 +1136,6 @@ size
 useCases
 .
 removeAllTabsOfType
-.
-invoke
 (
 private
 =
@@ -1183,8 +1151,6 @@ size
 useCases
 .
 removeAllTabsOfType
-.
-invoke
 (
 private
 =

@@ -344,8 +344,6 @@ onRefresh
 )
 {
 reloadUrlUseCase
-.
-invoke
 (
 activeSession
 )

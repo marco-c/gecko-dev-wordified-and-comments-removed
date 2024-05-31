@@ -398,8 +398,6 @@ engineSession
 useCases
 .
 defaultSearch
-.
-invoke
 (
 searchTerms
 session
@@ -506,8 +504,6 @@ engineSession
 useCases
 .
 newTabSearch
-.
-invoke
 (
 searchTerms
 Session
@@ -642,8 +638,6 @@ it
 searchUseCases
 .
 defaultSearch
-.
-invoke
 (
 "
 test

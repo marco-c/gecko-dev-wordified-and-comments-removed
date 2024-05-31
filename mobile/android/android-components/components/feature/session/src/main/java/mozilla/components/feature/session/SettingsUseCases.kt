@@ -262,6 +262,7 @@ setting
 value
 *
 /
+operator
 fun
 invoke
 (

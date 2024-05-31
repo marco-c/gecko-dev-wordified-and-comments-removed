@@ -343,8 +343,6 @@ value
 }
 }
 autoplaySetting
-.
-invoke
 (
 true
 )
@@ -386,8 +384,6 @@ updateTrackingProtection
 useCases
 .
 updateTrackingProtection
-.
-invoke
 (
 TrackingProtectionPolicy
 .
@@ -436,8 +432,6 @@ none
 useCases
 .
 updateTrackingProtection
-.
-invoke
 (
 TrackingProtectionPolicy
 .

@@ -264,8 +264,6 @@ true
 sessionUseCases
 .
 goBack
-.
-invoke
 (
 session
 )

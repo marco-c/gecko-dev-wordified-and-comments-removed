@@ -430,8 +430,6 @@ session
 sessionUseCases
 .
 loadUrl
-.
-invoke
 (
 url
 session
@@ -469,8 +467,6 @@ ACTION_VIEW
 sessionUseCases
 .
 loadUrl
-.
-invoke
 (
 url
 session
@@ -548,8 +544,6 @@ url
 sessionUseCases
 .
 loadUrl
-.
-invoke
 (
 url
 createSession
@@ -573,8 +567,6 @@ run
 searchUseCases
 .
 newTabSearch
-.
-invoke
 (
 extraText
 Source

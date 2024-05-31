@@ -375,6 +375,7 @@ is
 provided
 *
 /
+operator
 fun
 invoke
 (
@@ -606,6 +607,7 @@ is
 provided
 *
 /
+operator
 fun
 invoke
 (
