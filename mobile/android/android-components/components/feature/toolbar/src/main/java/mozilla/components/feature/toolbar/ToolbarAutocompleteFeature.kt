@@ -73,6 +73,8 @@ browser
 .
 domains
 .
+autocomplete
+.
 DomainAutocompleteProvider
 import
 mozilla
@@ -82,6 +84,8 @@ components
 browser
 .
 domains
+.
+autocomplete
 .
 DomainAutocompleteResult
 import

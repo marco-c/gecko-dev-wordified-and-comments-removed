@@ -179,6 +179,8 @@ browser
 .
 domains
 .
+autocomplete
+.
 CustomDomainsProvider
 import
 mozilla
@@ -188,6 +190,8 @@ components
 browser
 .
 domains
+.
+autocomplete
 .
 ShippedDomainsProvider
 import

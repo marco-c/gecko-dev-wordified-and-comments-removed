@@ -123,6 +123,8 @@ browser
 .
 domains
 .
+autocomplete
+.
 BaseDomainAutocompleteProvider
 import
 mozilla
@@ -142,6 +144,8 @@ components
 browser
 .
 domains
+.
+autocomplete
 .
 DomainList
 import

@@ -103,6 +103,8 @@ browser
 .
 domains
 .
+autocomplete
+.
 ShippedDomainsProvider
 import
 mozilla
