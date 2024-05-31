@@ -777,6 +777,9 @@ context
 activeExperiments
 "
 {
+enumerable
+:
+true
 get
 :
 async
@@ -826,6 +829,9 @@ context
 activeRollouts
 "
 {
+enumerable
+:
+true
 get
 :
 async
@@ -875,6 +881,9 @@ context
 previousExperiments
 "
 {
+enumerable
+:
+true
 get
 :
 async
@@ -941,6 +950,9 @@ context
 previousRollouts
 "
 {
+enumerable
+:
+true
 get
 :
 async
@@ -1006,6 +1018,9 @@ context
 enrollments
 "
 {
+enumerable
+:
+true
 get
 :
 async
@@ -1055,6 +1070,9 @@ context
 enrollmentsMap
 "
 {
+enumerable
+:
+true
 get
 :
 async
