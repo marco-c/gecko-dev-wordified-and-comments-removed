@@ -155,11 +155,6 @@ servo
 "
 browser
 -
-errorpages
-"
-"
-browser
--
 menu
 "
 "
