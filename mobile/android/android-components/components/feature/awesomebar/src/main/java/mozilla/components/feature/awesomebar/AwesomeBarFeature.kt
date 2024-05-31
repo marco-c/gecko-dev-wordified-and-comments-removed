@@ -420,6 +420,17 @@ searchUseCase
 SearchUseCases
 .
 DefaultSearchUseCase
+mode
+:
+SearchSuggestionProvider
+.
+Mode
+=
+SearchSuggestionProvider
+.
+Mode
+.
+SINGLE_SUGGESTION
 )
 :
 AwesomeBarFeature
@@ -432,6 +443,7 @@ SearchSuggestionProvider
 (
 searchEngine
 searchUseCase
+mode
 )
 )
 return
