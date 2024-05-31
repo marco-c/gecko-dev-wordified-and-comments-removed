@@ -546,7 +546,7 @@ The
 first
 subtest
 tests
-animateColor
+animate
 with
 '
 to
@@ -997,7 +997,7 @@ values
 -
 >
 <
-animateColor
+animate
 attributeName
 =
 "
@@ -1080,7 +1080,7 @@ animations
 -
 >
 <
-animateColor
+animate
 attributeName
 =
 "
@@ -1169,7 +1169,7 @@ to
 -
 >
 <
-animateColor
+animate
 attributeName
 =
 "
@@ -1258,7 +1258,7 @@ from
 -
 >
 <
-animateColor
+animate
 attributeName
 =
 "
@@ -1342,7 +1342,7 @@ width
 "
 >
 <
-animateColor
+animate
 attributeName
 =
 "
@@ -1376,7 +1376,7 @@ freeze
 /
 >
 <
-animateColor
+animate
 attributeName
 =
 "
@@ -1448,7 +1448,7 @@ width
 "
 >
 <
-animateColor
+animate
 attributeName
 =
 "
@@ -1483,7 +1483,7 @@ freeze
 /
 >
 <
-animateColor
+animate
 attributeName
 =
 "

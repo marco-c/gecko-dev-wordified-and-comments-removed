@@ -1010,7 +1010,7 @@ yellow
 "
 >
 <
-animateColor
+animate
 id
 =
 "
@@ -1046,7 +1046,7 @@ freeze
 /
 >
 <
-animateColor
+animate
 id
 =
 "
@@ -1385,7 +1385,7 @@ blue
 "
 >
 <
-animateColor
+animate
 id
 =
 "
@@ -1578,7 +1578,7 @@ blue
 "
 >
 <
-animateColor
+animate
 id
 =
 "
@@ -1705,7 +1705,7 @@ blue
 "
 >
 <
-animateColor
+animate
 id
 =
 "
