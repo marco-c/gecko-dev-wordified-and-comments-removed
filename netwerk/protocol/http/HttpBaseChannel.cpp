@@ -19370,6 +19370,14 @@ StoreIsPending
 false
 )
 ;
+gHttpHandler
+-
+>
+OnBeforeStopRequest
+(
+this
+)
+;
 if
 (
 mListener

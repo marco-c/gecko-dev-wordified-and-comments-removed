@@ -39620,6 +39620,14 @@ mAuthRetryPending
 false
 ;
 }
+gHttpHandler
+-
+>
+OnBeforeStopRequest
+(
+this
+)
+;
 if
 (
 mListener
