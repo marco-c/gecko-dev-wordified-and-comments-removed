@@ -505,6 +505,7 @@ geckoSession
 .
 setMessageDelegate
 (
+nativeExtension
 messageDelegate
 name
 )
@@ -551,6 +552,7 @@ geckoSession
 .
 getMessageDelegate
 (
+nativeExtension
 name
 )
 !
