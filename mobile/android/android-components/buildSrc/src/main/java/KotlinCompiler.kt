@@ -138,10 +138,5 @@ browser
 -
 domains
 "
-"
-feature
--
-prompts
-"
 )
 }
