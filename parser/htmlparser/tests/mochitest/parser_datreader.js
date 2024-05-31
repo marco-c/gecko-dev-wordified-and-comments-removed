@@ -1,7 +1,6 @@
 function
 log
 (
-entry
 )
 {
 }
