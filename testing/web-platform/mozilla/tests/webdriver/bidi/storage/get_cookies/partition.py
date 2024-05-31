@@ -304,12 +304,14 @@ recursive_compare
 (
         
 {
+            
 "
 cookies
 "
 :
 [
 ]
+            
 "
 partitionKey
 "
@@ -320,8 +322,17 @@ sourceOrigin
 "
 :
 source_origin_2
+"
+userContext
+"
+:
+"
+default
+"
 }
+        
 }
+        
 cookies
     
 )
@@ -735,11 +746,21 @@ partitionKey
 "
 :
 {
+                    
 "
 sourceOrigin
 "
 :
 source_origin_for_page
+                    
+"
+userContext
+"
+:
+"
+default
+"
+                
 }
             
 }
