@@ -3284,7 +3284,6 @@ method
 }
 ]
 }
-}
 "
 skipCount
 "
@@ -3328,5 +3327,6 @@ type
 "
 boolean
 "
+}
 }
 }
