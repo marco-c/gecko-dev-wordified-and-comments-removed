@@ -1475,7 +1475,11 @@ false
 git
 checkout
 {
-tag
+event
+.
+release
+.
+tag_name
 }
 &
 &
@@ -1515,7 +1519,11 @@ Decision
 task
 (
 {
-tag
+event
+.
+release
+.
+tag_name
 }
 )
 description
