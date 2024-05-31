@@ -392,7 +392,7 @@ public
 nsISupports
 {
 class
-LoadingRequest
+WaitingRequests
 final
 :
 public
@@ -400,7 +400,7 @@ nsISupports
 {
 virtual
 ~
-LoadingRequest
+WaitingRequests
 (
 )
 =
@@ -411,14 +411,8 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-LoadingRequest
+WaitingRequests
 )
-RefPtr
-<
-ModuleLoadRequest
->
-mRequest
-;
 nsTArray
 <
 RefPtr
@@ -433,7 +427,7 @@ mWaiting
 nsRefPtrHashtable
 <
 nsURIHashKey
-LoadingRequest
+WaitingRequests
 >
 mFetchingModules
 ;
@@ -1401,9 +1395,9 @@ aResult
 void
 ResumeWaitingRequests
 (
-LoadingRequest
+WaitingRequests
 *
-aLoadingRequest
+aWaitingRequests
 bool
 aSuccess
 )
