@@ -1648,6 +1648,9 @@ class
 small
 -
 button
+shopping
+-
+button
 "
 data
 -
@@ -1700,6 +1703,9 @@ class
 "
 primary
 small
+-
+button
+shopping
 -
 button
 "
