@@ -573,6 +573,7 @@ var
 useWideViewPort
 :
 Boolean
+?
 by
 UnsupportedSetting
 (
@@ -1147,8 +1148,9 @@ var
 useWideViewPort
 :
 Boolean
+?
 =
-false
+null
 override
 var
 allowFileAccess

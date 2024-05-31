@@ -361,7 +361,7 @@ settings
 .
 useWideViewPort
 =
-false
+null
 }
 {
 settings
@@ -652,7 +652,7 @@ settings
 .
 loadWithOverviewMode
 )
-assertFalse
+assertNull
 (
 settings
 .
@@ -949,11 +949,12 @@ defaultSettings
 .
 loadWithOverviewMode
 )
-assertTrue
+assertEquals
 (
 defaultSettings
 .
 useWideViewPort
+true
 )
 assertFalse
 (
