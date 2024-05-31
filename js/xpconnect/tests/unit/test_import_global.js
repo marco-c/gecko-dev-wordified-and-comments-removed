@@ -114,11 +114,6 @@ sys
 .
 mjs
 "
-{
-loadInDevToolsLoader
-:
-true
-}
 )
 ;
 const
@@ -154,7 +149,7 @@ devtools
 ;
 Assert
 .
-equal
+notEqual
 (
 ns1
 ns2
@@ -162,7 +157,7 @@ ns2
 ;
 Assert
 .
-equal
+notEqual
 (
 ns1
 .

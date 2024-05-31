@@ -249,9 +249,11 @@ sys
 mjs
 "
 {
-loadInDevToolsLoader
+global
 :
-true
+"
+shared
+"
 }
 )
 ;

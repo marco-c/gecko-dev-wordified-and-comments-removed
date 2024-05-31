@@ -189,16 +189,6 @@ caught3
 true
 )
 ;
-Assert
-.
-equal
-(
-result
-.
-caught4
-true
-)
-;
 }
 )
 ;
