@@ -2228,7 +2228,7 @@ command
 /
 bin
 /
-sh
+bash
 "
                 
 "
