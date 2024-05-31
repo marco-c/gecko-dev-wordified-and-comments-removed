@@ -79,7 +79,7 @@ endif
 struct
 BidiParagraphData
 ;
-class
+struct
 BidiLineData
 ;
 class
@@ -987,10 +987,6 @@ aComputedStyle
 ;
 private
 :
-friend
-class
-BidiLineData
-;
 static
 nsresult
 ProcessTextForRenderingContext
@@ -1207,9 +1203,8 @@ static
 nscoord
 RepositionInlineFrames
 (
-const
 BidiLineData
-&
+*
 aBld
 mozilla
 :
