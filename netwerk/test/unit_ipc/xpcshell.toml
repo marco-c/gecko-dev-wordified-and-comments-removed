@@ -1440,6 +1440,16 @@ win
 &
 msix
 "
+"
+true
+"
+#
+Will
+be
+reenabled
+in
+bug
+1865394
 ]
 #
 https

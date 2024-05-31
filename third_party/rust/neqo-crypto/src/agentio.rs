@@ -7,13 +7,6 @@ cmp
 :
 :
 min
-convert
-:
-:
-{
-TryFrom
-TryInto
-}
 fmt
 mem
 ops
@@ -41,10 +34,6 @@ ptr
 null
 null_mut
 }
-vec
-:
-:
-Vec
 }
 ;
 use

@@ -26,7 +26,6 @@ qlog
 :
 :
 {
-self
 streamer
 :
 :

@@ -18,10 +18,6 @@ collections
 :
 :
 HashMap
-convert
-:
-:
-TryFrom
 mem
 ops
 :
@@ -430,7 +426,7 @@ tls
 agent
 streams
 :
-Default
+CryptoStreams
 :
 :
 default
@@ -443,7 +439,7 @@ CryptoStates
 fuzzing
 .
 .
-Default
+CryptoStates
 :
 :
 default
@@ -1182,7 +1178,6 @@ bool
 >
 {
 if
-!
 self
 .
 tls
@@ -1194,6 +1189,13 @@ state
 is_final
 (
 )
+{
+Ok
+(
+false
+)
+}
+else
 {
 let
 installed_hs
@@ -1228,13 +1230,6 @@ version
 Ok
 (
 installed_hs
-)
-}
-else
-{
-Ok
-(
-false
 )
 }
 }
@@ -1455,6 +1450,7 @@ states
 set_application_write_key
 (
 version
+&
 secret
 )
 ?
@@ -1552,6 +1548,7 @@ states
 set_application_read_key
 (
 version
+&
 read_secret
 expire_0rtt
 )
@@ -1694,13 +1691,6 @@ stats
 mut
 FrameStats
 )
--
->
-Res
-<
-(
-)
->
 {
 self
 .
@@ -1713,6 +1703,7 @@ builder
 tokens
 stats
 )
+;
 }
 pub
 fn
@@ -4109,6 +4100,7 @@ dir
 CryptoDxDirection
 secret
 :
+&
 SymKey
 cipher
 :
@@ -4138,7 +4130,6 @@ new
 version
 dir
 TLS_EPOCH_APPLICATION_DATA
-&
 secret
 cipher
 fuzzing
@@ -4152,7 +4143,6 @@ Self
 update_secret
 (
 cipher
-&
 secret
 )
 ?
@@ -6023,6 +6013,7 @@ version
 Version
 secret
 :
+&
 SymKey
 )
 -
@@ -6146,6 +6137,7 @@ version
 Version
 secret
 :
+&
 SymKey
 expire_0rtt
 :
@@ -8384,13 +8376,6 @@ stats
 mut
 FrameStats
 )
--
->
-Res
-<
-(
-)
->
 {
 let
 cs
@@ -8452,11 +8437,6 @@ header_len
 1
 {
 return
-Ok
-(
-(
-)
-)
 ;
 }
 let
@@ -8611,11 +8591,6 @@ crypto
 1
 ;
 }
-Ok
-(
-(
-)
-)
 }
 }
 impl

@@ -1,17 +1,6 @@
 #
 !
 [
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
-#
-!
-[
 allow
 (
 clippy

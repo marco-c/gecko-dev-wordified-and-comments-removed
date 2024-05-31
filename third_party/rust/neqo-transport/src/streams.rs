@@ -492,6 +492,10 @@ default
 )
 }
 }
+#
+[
+must_use
+]
 pub
 fn
 is_stream_id_allowed
@@ -631,6 +635,7 @@ mut
 self
 frame
 :
+&
 Frame
 stats
 :
@@ -682,6 +687,7 @@ self
 .
 obtain_stream
 (
+*
 stream_id
 )
 ?
@@ -690,7 +696,9 @@ rs
 .
 reset
 (
+*
 application_error_code
+*
 final_size
 )
 ?
@@ -721,7 +729,9 @@ events
 .
 send_stream_stop_sending
 (
+*
 stream_id
+*
 application_error_code
 )
 ;
@@ -739,6 +749,7 @@ self
 .
 obtain_stream
 (
+*
 stream_id
 )
 ?
@@ -747,6 +758,7 @@ ss
 .
 reset
 (
+*
 application_error_code
 )
 ;
@@ -788,6 +800,7 @@ self
 .
 obtain_stream
 (
+*
 stream_id
 )
 ?
@@ -796,7 +809,9 @@ rs
 .
 inbound_stream_frame
 (
+*
 fin
+*
 offset
 data
 )
@@ -825,6 +840,7 @@ self
 .
 handle_max_data
 (
+*
 maximum_data
 )
 ;
@@ -852,7 +868,9 @@ MaxStreamData
 {
 }
 "
+*
 stream_id
+*
 maximum_stream_data
 )
 ;
@@ -877,6 +895,7 @@ self
 .
 obtain_stream
 (
+*
 stream_id
 )
 ?
@@ -885,6 +904,7 @@ ss
 .
 set_max_stream_data
 (
+*
 maximum_stream_data
 )
 ;
@@ -912,7 +932,9 @@ self
 .
 handle_max_streams
 (
+*
 stream_type
+*
 maximum_streams
 )
 ;
@@ -1018,6 +1040,7 @@ self
 .
 obtain_stream
 (
+*
 stream_id
 )
 ?

@@ -2,16 +2,10 @@ use
 std
 :
 :
-{
-iter
-:
-:
-Iterator
 marker
 :
 :
 PhantomData
-}
 ;
 pub
 trait

@@ -39,10 +39,6 @@ cell
 :
 :
 RefCell
-convert
-:
-:
-TryFrom
 mem
 ops
 :
@@ -1792,7 +1788,7 @@ N
 {
 thread_local
 !
-{
+(
 static
 CACHE
 :
@@ -1813,7 +1809,7 @@ new
 (
 )
 )
-}
+)
 ;
 let
 buf

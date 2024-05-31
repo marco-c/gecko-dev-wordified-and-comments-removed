@@ -1271,10 +1271,13 @@ mod
 tests
 {
 use
-super
+neqo_common
 :
 :
-*
+event
+:
+:
+Provider
 ;
 use
 crate
@@ -1282,7 +1285,11 @@ crate
 :
 {
 ConnectionError
+ConnectionEvent
+ConnectionEvents
 Error
+State
+StreamId
 }
 ;
 #

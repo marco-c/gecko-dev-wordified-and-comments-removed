@@ -1064,6 +1064,10 @@ Ok
 )
 )
 }
+#
+[
+must_use
+]
 pub
 fn
 ech_config
@@ -1152,6 +1156,7 @@ mut
 self
 c
 :
+&
 StateRef
 dgram
 :
@@ -1243,7 +1248,6 @@ Rc
 :
 clone
 (
-&
 c
 )
 )
@@ -1300,7 +1304,6 @@ self
 .
 remove_timer
 (
-&
 c
 )
 ;
@@ -1326,7 +1329,6 @@ Rc
 :
 clone
 (
-&
 c
 )
 )
@@ -1344,7 +1346,6 @@ self
 .
 remove_timer
 (
-&
 c
 )
 ;
@@ -1394,7 +1395,6 @@ Rc
 :
 clone
 (
-&
 c
 )
 }
@@ -1508,7 +1508,6 @@ Rc
 ptr_eq
 (
 v
-&
 c
 )
 )
@@ -1554,12 +1553,8 @@ cid
 ]
 )
 .
-map
+cloned
 (
-Rc
-:
-:
-clone
 )
 }
 fn
@@ -2003,6 +1998,7 @@ self
 .
 process_connection
 (
+&
 c
 Some
 (
@@ -2060,7 +2056,7 @@ qlog_path
 =
 qlog_dir
 .
-to_path_buf
+clone
 (
 )
 ;
@@ -2073,11 +2069,11 @@ format
 (
 "
 {
+odcid
 }
 .
 qlog
 "
-odcid
 )
 )
 ;
@@ -2399,10 +2395,12 @@ c
 .
 set_retry_cids
 (
+&
 odcid
 initial
 .
 src_cid
+&
 initial
 .
 dst_cid
@@ -2413,16 +2411,10 @@ c
 .
 set_validation
 (
-Rc
-:
-:
-clone
-(
 &
 self
 .
 address_validation
-)
 )
 ;
 c
@@ -2726,14 +2718,8 @@ borrow_mut
 .
 set_connection
 (
-Rc
-:
-:
-clone
-(
 &
 c
-)
 )
 ;
 let
@@ -2770,6 +2756,7 @@ self
 .
 process_connection
 (
+&
 c
 Some
 (
@@ -2852,6 +2839,7 @@ wire_version
 (
 )
 )
+;
 }
 None
 }
@@ -2953,6 +2941,7 @@ self
 .
 process_connection
 (
+&
 c
 Some
 (
@@ -3108,6 +3097,7 @@ self
 .
 process_connection
 (
+&
 c
 Some
 (
@@ -3561,6 +3551,7 @@ self
 .
 process_connection
 (
+&
 c
 None
 now
@@ -3618,6 +3609,7 @@ self
 .
 process_connection
 (
+&
 c
 None
 now
@@ -3891,6 +3883,7 @@ mut
 self
 c
 :
+&
 ActiveConnectionRef
 )
 {
@@ -3928,6 +3921,10 @@ StateRef
 impl
 ActiveConnectionRef
 {
+#
+[
+must_use
+]
 pub
 fn
 borrow
@@ -4024,6 +4021,10 @@ c
 c
 )
 }
+#
+[
+must_use
+]
 pub
 fn
 connection
@@ -4190,6 +4191,7 @@ mut
 self
 c
 :
+&
 StateRef
 )
 {
@@ -4247,7 +4249,6 @@ Rc
 :
 clone
 (
-&
 c
 )
 )
@@ -4262,7 +4263,6 @@ Rc
 :
 downgrade
 (
-&
 c
 )
 ;

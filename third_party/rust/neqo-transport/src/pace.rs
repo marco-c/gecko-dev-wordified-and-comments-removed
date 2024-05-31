@@ -1,14 +1,3 @@
-#
-!
-[
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
 use
 std
 :
@@ -18,10 +7,6 @@ cmp
 :
 :
 min
-convert
-:
-:
-TryFrom
 fmt
 :
 :

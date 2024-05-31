@@ -11,10 +11,6 @@ collections
 :
 :
 HashMap
-convert
-:
-:
-TryFrom
 mem
 }
 ;

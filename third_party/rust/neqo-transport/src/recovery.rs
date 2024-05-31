@@ -1,14 +1,3 @@
-#
-!
-[
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
 use
 std
 :
@@ -25,10 +14,6 @@ collections
 :
 :
 BTreeMap
-convert
-:
-:
-TryFrom
 mem
 ops
 :
@@ -5005,10 +4990,6 @@ cell
 :
 :
 RefCell
-convert
-:
-:
-TryInto
 ops
 :
 :

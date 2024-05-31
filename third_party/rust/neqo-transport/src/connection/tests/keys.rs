@@ -17,10 +17,7 @@ use
 test_fixture
 :
 :
-{
-self
 now
-}
 ;
 use
 super

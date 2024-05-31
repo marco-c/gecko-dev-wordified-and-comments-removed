@@ -7,10 +7,6 @@ cell
 :
 :
 RefCell
-convert
-:
-:
-TryFrom
 mem
 net
 :
@@ -61,7 +57,6 @@ test_fixture
 :
 :
 {
-self
 assertions
 assertions
 :
@@ -2694,14 +2689,8 @@ server
 .
 set_validation
 (
-Rc
-:
-:
-clone
-(
 &
 validation
-)
 )
 ;
 let

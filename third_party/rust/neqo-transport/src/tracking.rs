@@ -1,14 +1,3 @@
-#
-!
-[
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
 use
 std
 :
@@ -22,10 +11,6 @@ collections
 :
 :
 VecDeque
-convert
-:
-:
-TryFrom
 ops
 :
 :
