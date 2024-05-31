@@ -267,7 +267,7 @@ id
 .
 mozac_browser_tabstray_thumbnail
 )
-private
+internal
 var
 session
 :

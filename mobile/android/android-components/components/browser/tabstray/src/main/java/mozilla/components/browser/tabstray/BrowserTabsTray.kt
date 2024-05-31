@@ -180,7 +180,6 @@ defStyleAttr
 Int
 =
 0
-private
 val
 tabsAdapter
 :
