@@ -195,7 +195,7 @@ implementation
 Dependencies
 .
 kotlin_coroutines
-implementation
+api
 Gecko
 .
 geckoview_nightly
