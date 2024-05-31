@@ -246,12 +246,12 @@ is
 in
 one
 of
-100
+1000
 buckets
 (
 0
 -
-99
+999
 )
 .
 *
@@ -296,7 +296,7 @@ start
 count
 >
 =
-99
+999
 )
 evaluation
 will

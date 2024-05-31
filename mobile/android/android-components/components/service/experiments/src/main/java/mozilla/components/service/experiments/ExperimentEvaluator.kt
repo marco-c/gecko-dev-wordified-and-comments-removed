@@ -1701,7 +1701,7 @@ const
 val
 MAX_USER_BUCKET
 =
-100
+1000
 /
 /
 This
