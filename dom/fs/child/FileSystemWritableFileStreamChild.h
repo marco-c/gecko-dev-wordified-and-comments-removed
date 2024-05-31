@@ -48,11 +48,6 @@ MutableWritableFileStreamPtr
 )
 const
 {
-MOZ_ASSERT
-(
-mStream
-)
-;
 return
 mStream
 ;
