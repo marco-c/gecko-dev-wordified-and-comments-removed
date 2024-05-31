@@ -265,6 +265,9 @@ const
 nsAString
 &
 aKeySystem
+const
+DecryptionInfo
+aDecryption
 nsTArray
 <
 KeySystemConfig
@@ -1410,6 +1413,13 @@ cdm
 >
 GetCapabilities
 (
+aDecryption
+=
+=
+DecryptionInfo
+:
+:
+Hardware
 aOutConfigs
 )
 ;
@@ -1557,6 +1567,13 @@ KeySystemConfig
 CreateKeySystemConfigs
 (
 name
+KeySystemConfig
+:
+:
+DecryptionInfo
+:
+:
+Software
 keySystemConfigs
 )
 )

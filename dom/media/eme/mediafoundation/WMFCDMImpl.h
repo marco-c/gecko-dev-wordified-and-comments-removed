@@ -107,6 +107,8 @@ aKeySystem
 bool
 GetCapabilities
 (
+bool
+aIsHardwareDecryption
 nsTArray
 <
 KeySystemConfig
