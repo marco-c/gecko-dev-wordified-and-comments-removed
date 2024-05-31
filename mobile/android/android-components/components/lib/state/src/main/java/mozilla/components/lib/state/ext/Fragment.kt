@@ -333,8 +333,6 @@ scope
 .
 launch
 {
-try
-{
 channel
 .
 consumeEach
@@ -345,15 +343,6 @@ state
 block
 (
 state
-)
-}
-}
-finally
-{
-channel
-.
-close
-(
 )
 }
 }
