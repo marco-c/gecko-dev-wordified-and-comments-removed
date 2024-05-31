@@ -100,12 +100,6 @@ broadcastchannel
 /
 dom
 /
-browser
--
-element
-/
-dom
-/
 cache
 /
 dom
