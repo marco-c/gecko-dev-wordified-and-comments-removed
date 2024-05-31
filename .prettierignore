@@ -14330,7 +14330,9 @@ utils
 /
 mozjexl
 .
-js
+sys
+.
+mjs
 toolkit
 /
 components
