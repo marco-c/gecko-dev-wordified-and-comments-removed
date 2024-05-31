@@ -129,6 +129,16 @@ no
 -
 daemon
 clean
+&
+&
+.
+/
+gradlew
+-
+-
+no
+-
+daemon
 %
 s
 "
