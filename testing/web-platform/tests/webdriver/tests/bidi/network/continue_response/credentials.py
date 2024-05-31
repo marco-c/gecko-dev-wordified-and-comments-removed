@@ -65,6 +65,7 @@ subscribe_events
 wait_for_event
 bidi_session
 navigate
+wait_for_future_safe
 )
 :
     
@@ -158,7 +159,10 @@ wrong_credentials
 )
     
 await
+wait_for_future_safe
+(
 on_auth_required
+)
 pytest
 .
 mark
