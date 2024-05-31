@@ -4197,13 +4197,7 @@ config
 get
 (
 "
--
--
-screenshot
--
-on
--
-failure
+screenshot_on_failure
 "
 False
 )
