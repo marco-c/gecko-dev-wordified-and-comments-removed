@@ -304,8 +304,6 @@ Glean
 (
 -
 glean
-/
-index
 .
 md
 )
