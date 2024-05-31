@@ -1147,7 +1147,7 @@ sortedList
 >
 convertToArenaList
 (
-segmentLastPointers
+bucketLastPointers
 )
 ;
 }
@@ -1170,7 +1170,7 @@ sortedList
 restoreFromArenaList
 (
 linked
-segmentLastPointers
+bucketLastPointers
 )
 ;
 }
