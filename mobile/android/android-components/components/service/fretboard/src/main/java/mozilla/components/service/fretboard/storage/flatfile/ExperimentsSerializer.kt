@@ -159,9 +159,11 @@ representation
 *
 param
 snapshot
-experiments
+experiment
+snapshot
 to
 serialize
+*
 *
 return
 json
@@ -270,7 +272,13 @@ json
 file
 contents
 *
+*
 return
+experiment
+snapshot
+with
+the
+parsed
 list
 of
 experiments
