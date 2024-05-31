@@ -7872,7 +7872,7 @@ manager
 =
 TestableFxaAccountManager
 (
-context
+testContext
 Config
 .
 release
@@ -8920,7 +8920,7 @@ manager
 =
 TestableFxaAccountManager
 (
-context
+testContext
 Config
 .
 release
