@@ -208,6 +208,17 @@ type
 ;
 [
 Throws
+Pref
+=
+"
+svg
+.
+SVGAElement
+.
+text
+.
+enabled
+"
 ]
 attribute
 DOMString
