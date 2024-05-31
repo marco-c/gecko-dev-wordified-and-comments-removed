@@ -388,7 +388,7 @@ index
 md
 )
 |
-open
+abstract
 class
 PlacesStorage
 :

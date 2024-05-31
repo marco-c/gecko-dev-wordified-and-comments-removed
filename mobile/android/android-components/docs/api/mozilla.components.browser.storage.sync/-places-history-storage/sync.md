@@ -36,7 +36,7 @@ md
 )
 /
 [
-PlacesStorage
+PlacesHistoryStorage
 ]
 (
 index
@@ -169,11 +169,11 @@ storage
 /
 sync
 /
-PlacesStorage
+PlacesHistoryStorage
 .
 kt
 #
-L61
+L165
 )
 Overrides
 [
@@ -206,7 +206,7 @@ sync
 md
 )
 Runs
-sync
+syncHistory
 (
 )
 method

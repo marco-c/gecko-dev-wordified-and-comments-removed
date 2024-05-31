@@ -206,7 +206,7 @@ HistoryStorage
 .
 kt
 #
-L78
+L101
 )
 Remove
 history
