@@ -266,7 +266,7 @@ components
 .
 tabsUseCases
 .
-addSession
+addTab
 .
 invoke
 (

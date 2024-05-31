@@ -175,10 +175,10 @@ TabsTrayInteractor
 tabsTray
 tabsUseCases
 .
-selectSession
+selectTab
 tabsUseCases
 .
-removeSession
+removeTab
 closeTabsTray
 )
 fun
