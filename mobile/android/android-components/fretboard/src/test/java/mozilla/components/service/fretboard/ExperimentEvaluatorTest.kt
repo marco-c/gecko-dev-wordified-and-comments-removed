@@ -93,7 +93,7 @@ junit
 .
 Assert
 .
-assertFalse
+assertNotNull
 import
 org
 .
@@ -101,7 +101,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertNull
 import
 org
 .
@@ -319,7 +319,7 @@ evaluator
 ExperimentEvaluator
 (
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -339,7 +339,7 @@ experiment
 20
 )
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -359,7 +359,7 @@ experiment
 21
 )
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -379,7 +379,7 @@ experiment
 69
 )
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -399,7 +399,7 @@ experiment
 19
 )
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -419,7 +419,7 @@ experiment
 70
 )
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -594,7 +594,7 @@ evaluator
 ExperimentEvaluator
 (
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -627,7 +627,7 @@ thenReturn
 test
 "
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -803,7 +803,7 @@ evaluator
 ExperimentEvaluator
 (
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -881,7 +881,7 @@ Bucket
 )
 1528916183
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -1057,7 +1057,7 @@ evaluator
 ExperimentEvaluator
 (
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -1135,7 +1135,7 @@ Bucket
 )
 1528916183
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -1311,7 +1311,7 @@ evaluator
 ExperimentEvaluator
 (
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -1340,7 +1340,7 @@ other
 .
 version
 "
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -1516,7 +1516,7 @@ evaluator
 ExperimentEvaluator
 (
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -1594,7 +1594,7 @@ Bucket
 )
 1528916183
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -1770,7 +1770,7 @@ evaluator
 ExperimentEvaluator
 (
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -1848,7 +1848,7 @@ Bucket
 )
 1528916183
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -2042,7 +2042,7 @@ USA
 }
 }
 )
-assertTrue
+assertNotNull
 (
 evaluator
 .
@@ -2085,7 +2085,7 @@ ESP
 }
 }
 )
-assertFalse
+assertNull
 (
 evaluator
 .
@@ -2142,7 +2142,7 @@ class
 .
 java
 )
-assertFalse
+assertNull
 (
 ExperimentEvaluator
 (
