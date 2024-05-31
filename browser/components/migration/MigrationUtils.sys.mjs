@@ -1169,6 +1169,11 @@ about
 preferences
 "
 "
+about
+:
+settings
+"
+"
 chrome
 :
 /
