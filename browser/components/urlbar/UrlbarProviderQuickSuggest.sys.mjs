@@ -1715,6 +1715,9 @@ result
 details
 .
 selType
+this
+.
+_trimmedSearchString
 )
 ;
 }
