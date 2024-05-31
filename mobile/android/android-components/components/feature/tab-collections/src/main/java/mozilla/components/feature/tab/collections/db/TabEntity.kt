@@ -300,7 +300,10 @@ stateFile
 )
 )
 }
-private
+companion
+object
+{
+internal
 fun
 getStateDirectory
 (
@@ -333,6 +336,7 @@ apply
 mkdirs
 (
 )
+}
 }
 }
 }
