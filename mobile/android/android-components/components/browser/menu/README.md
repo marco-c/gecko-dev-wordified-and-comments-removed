@@ -539,13 +539,6 @@ R
 drawable
 .
 mozac_ic_share
-contentDescription
-=
-"
-Sharing
-menu
-item
-"
 iconTintColorResource
 =
 R

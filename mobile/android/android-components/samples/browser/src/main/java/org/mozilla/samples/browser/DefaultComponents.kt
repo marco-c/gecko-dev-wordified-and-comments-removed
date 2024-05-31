@@ -668,10 +668,6 @@ R
 drawable
 .
 mozac_ic_share
-"
-share
-button
-"
 android
 .
 R

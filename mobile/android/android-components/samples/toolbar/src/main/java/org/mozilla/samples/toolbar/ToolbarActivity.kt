@@ -2115,13 +2115,6 @@ R
 drawable
 .
 mozac_ic_share
-contentDescription
-=
-"
-Sharing
-menu
-item
-"
 )
 {
 /
@@ -2144,13 +2137,6 @@ R
 drawable
 .
 mozac_ic_search
-contentDescription
-=
-"
-Sharing
-menu
-item
-"
 )
 {
 /

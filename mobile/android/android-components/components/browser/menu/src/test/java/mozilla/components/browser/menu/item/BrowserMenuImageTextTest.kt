@@ -245,9 +245,6 @@ R
 drawable
 .
 ic_menu_report_image
-"
-contentDescription
-"
 android
 .
 R
@@ -289,8 +286,6 @@ the
 right
 text
 image
-content
-description
 and
 iconTintColorResource
 (
@@ -311,9 +306,6 @@ R
 drawable
 .
 ic_menu_report_image
-"
-contentDescription
-"
 android
 .
 R
@@ -372,15 +364,6 @@ id
 .
 image
 )
-assertEquals
-(
-imageView
-.
-contentDescription
-"
-contentDescription
-"
-)
 assertNotNull
 (
 imageView
@@ -426,9 +409,6 @@ R
 drawable
 .
 ic_menu_report_image
-"
-contentDescription
-"
 )
 val
 view
