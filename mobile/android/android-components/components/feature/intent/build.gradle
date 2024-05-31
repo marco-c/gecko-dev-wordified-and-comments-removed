@@ -157,6 +157,16 @@ project
 :
 feature
 -
+customtabs
+'
+)
+implementation
+project
+(
+'
+:
+feature
+-
 search
 '
 )
@@ -234,6 +244,10 @@ testImplementation
 Dependencies
 .
 kotlin_coroutines
+testImplementation
+Dependencies
+.
+kotlin_coroutines_test
 }
 apply
 from

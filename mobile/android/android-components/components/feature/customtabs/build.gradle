@@ -165,6 +165,16 @@ project
 (
 '
 :
+feature
+-
+session
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 base
@@ -230,6 +240,10 @@ testImplementation
 Dependencies
 .
 androidx_test_junit
+testImplementation
+Dependencies
+.
+kotlin_coroutines_test
 testImplementation
 Dependencies
 .
