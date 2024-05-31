@@ -64,12 +64,4 @@ Microsoft
 VC142
 .
 CRT
-export
-WINSYSROOT
-=
-"
-{
-VSPATH
-}
-"
 fi
