@@ -71,14 +71,6 @@ ftl
 "
 ]
 true
-undefined
-this
-.
-window
-.
-getWebExposedLocales
-(
-)
 )
 ;
 }
