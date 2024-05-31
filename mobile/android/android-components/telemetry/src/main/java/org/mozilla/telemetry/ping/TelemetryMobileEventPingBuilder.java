@@ -106,10 +106,9 @@ measurement
 .
 TimezoneOffsetMeasurement
 ;
-Deprecated
 public
 class
-TelemetryEventPingBuilder
+TelemetryMobileEventPingBuilder
 extends
 TelemetryPingBuilder
 {
@@ -120,7 +119,7 @@ String
 TYPE
 =
 "
-focus
+mobile
 -
 event
 "
@@ -138,7 +137,7 @@ EventsMeasurement
 eventsMeasurement
 ;
 public
-TelemetryEventPingBuilder
+TelemetryMobileEventPingBuilder
 (
 TelemetryConfiguration
 configuration
