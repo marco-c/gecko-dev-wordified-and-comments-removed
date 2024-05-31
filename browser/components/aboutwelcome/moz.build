@@ -100,15 +100,6 @@ sys
 .
 mjs
 "
-"
-modules
-/
-AWToolbarUtils
-.
-sys
-.
-mjs
-"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
