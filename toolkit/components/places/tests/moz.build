@@ -402,6 +402,13 @@ title2
 .
 html
 "
+"
+browser
+/
+userpass
+.
+html
+"
 ]
 TEST_HARNESS_FILES
 .

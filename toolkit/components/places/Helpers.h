@@ -363,6 +363,17 @@ uint64_t
 _hash
 )
 ;
+already_AddRefed
+<
+nsIURI
+>
+GetExposableURI
+(
+nsIURI
+*
+aURI
+)
+;
 class
 QueryKeyValuePair
 final
