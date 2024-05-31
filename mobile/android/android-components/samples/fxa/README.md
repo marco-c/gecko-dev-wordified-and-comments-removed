@@ -17,7 +17,7 @@ md
 >
 Samples
 >
-Browser
+FxA
 !
 [
 ]
