@@ -592,6 +592,13 @@ overflow
 menu
 .
 *
+Added
+enter
+and
+exit
+animations
+.
+*
 *
 *
 browser
