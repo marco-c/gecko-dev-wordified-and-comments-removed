@@ -832,9 +832,6 @@ FakeClockForTest
 {
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1825,9 +1822,6 @@ ConnectFakeSignaling
 (
 )
 ;
-webrtc
-:
-:
 FakePeriodicVideoSource
 :
 :
@@ -2086,9 +2080,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 caller_track
@@ -2220,9 +2211,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 callee_track
@@ -2353,9 +2341,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 caller_track
@@ -2401,9 +2386,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 callee_track
@@ -2484,9 +2466,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 callee_track
@@ -2532,9 +2511,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 caller_track
@@ -2615,9 +2591,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 caller_track
@@ -2636,9 +2609,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 RtpSenderInterface
 >
 caller_sender
@@ -2658,9 +2628,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 callee_track
@@ -2679,9 +2646,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 RtpSenderInterface
 >
 callee_sender
@@ -2791,9 +2755,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 caller_track
@@ -2812,9 +2773,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 RtpSenderInterface
 >
 caller_sender
@@ -2834,9 +2792,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 callee_track
@@ -2855,9 +2810,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 RtpSenderInterface
 >
 callee_sender
@@ -3644,9 +3596,6 @@ caller
 >
 CreateLocalVideoTrackWithRotation
 (
-webrtc
-:
-:
 kVideoRotation_90
 )
 )
@@ -3665,9 +3614,6 @@ callee
 >
 CreateLocalVideoTrackWithRotation
 (
-webrtc
-:
-:
 kVideoRotation_270
 )
 )
@@ -3786,9 +3732,6 @@ rendered_aspect_ratio
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 kVideoRotation_270
 caller
 (
@@ -3802,9 +3745,6 @@ rendered_rotation
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 kVideoRotation_90
 callee
 (
@@ -3848,9 +3788,6 @@ caller
 >
 CreateLocalVideoTrackWithRotation
 (
-webrtc
-:
-:
 kVideoRotation_90
 )
 )
@@ -3869,9 +3806,6 @@ callee
 >
 CreateLocalVideoTrackWithRotation
 (
-webrtc
-:
-:
 kVideoRotation_270
 )
 )
@@ -4030,9 +3964,6 @@ rendered_aspect_ratio
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 kVideoRotation_0
 caller
 (
@@ -4046,9 +3977,6 @@ rendered_rotation
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 kVideoRotation_0
 callee
 (
@@ -5060,9 +4988,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 AudioTrackInterface
 >
 track
@@ -5081,9 +5006,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 RtpSenderInterface
 >
 sender
@@ -5463,9 +5385,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 track
@@ -5557,9 +5476,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 callee_track
@@ -7846,9 +7762,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 caller_report
@@ -7875,9 +7788,6 @@ caller_report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCOutboundRtpStreamStats
 >
 (
@@ -8069,9 +7979,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 callee_report
@@ -8098,9 +8005,6 @@ callee_report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCInboundRtpStreamStats
 >
 (
@@ -8322,9 +8226,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 report
@@ -8352,9 +8253,6 @@ report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCInboundRtpStreamStats
 >
 (
@@ -8557,9 +8455,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 report
@@ -8587,9 +8482,6 @@ report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCInboundRtpStreamStats
 >
 (
@@ -9555,9 +9447,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -9575,9 +9464,6 @@ kMaxWaitForFramesMs
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -9595,9 +9481,6 @@ kMaxWaitForFramesMs
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -9615,9 +9498,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -9669,9 +9549,6 @@ make_unique
 <
 NiceMock
 <
-webrtc
-:
-:
 MockAsyncDnsResolverFactory
 >
 >
@@ -9688,9 +9565,6 @@ make_unique
 <
 NiceMock
 <
-webrtc
-:
-:
 MockAsyncDnsResolverFactory
 >
 >
@@ -9775,9 +9649,6 @@ caller_async_resolver
 )
 )
 ;
-webrtc
-:
-:
 PeerConnectionDependencies
 caller_deps
 (
@@ -9822,9 +9693,6 @@ callee_async_resolver
 )
 )
 ;
-webrtc
-:
-:
 PeerConnectionDependencies
 callee_deps
 (
@@ -9942,9 +9810,6 @@ std
 :
 make_unique
 <
-webrtc
-:
-:
 FakeMdnsResponder
 >
 (
@@ -9966,9 +9831,6 @@ std
 :
 make_unique
 <
-webrtc
-:
-:
 FakeMdnsResponder
 >
 (
@@ -10025,9 +9887,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -10045,9 +9904,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -10077,9 +9933,6 @@ network_thread
 EXPECT_METRIC_EQ
 (
 1
-webrtc
-:
-:
 metrics
 :
 :
@@ -10092,9 +9945,6 @@ PeerConnection
 .
 CandidatePairType_UDP
 "
-webrtc
-:
-:
 kIceCandidatePairHostNameHostName
 )
 )
@@ -10712,9 +10562,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -10732,9 +10579,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -10765,9 +10609,6 @@ const
 int
 num_best_ipv4
 =
-webrtc
-:
-:
 metrics
 :
 :
@@ -10780,9 +10621,6 @@ PeerConnection
 .
 IPMetrics
 "
-webrtc
-:
-:
 kBestConnections_IPv4
 )
 ;
@@ -10790,9 +10628,6 @@ const
 int
 num_best_ipv6
 =
-webrtc
-:
-:
 metrics
 :
 :
@@ -10805,9 +10640,6 @@ PeerConnection
 .
 IPMetrics
 "
-webrtc
-:
-:
 kBestConnections_IPv6
 )
 ;
@@ -10849,9 +10681,6 @@ num_best_ipv6
 EXPECT_METRIC_EQ
 (
 0
-webrtc
-:
-:
 metrics
 :
 :
@@ -10864,9 +10693,6 @@ PeerConnection
 .
 CandidatePairType_UDP
 "
-webrtc
-:
-:
 kIceCandidatePairHostHost
 )
 )
@@ -10874,9 +10700,6 @@ kIceCandidatePairHostHost
 EXPECT_METRIC_EQ
 (
 1
-webrtc
-:
-:
 metrics
 :
 :
@@ -10889,9 +10712,6 @@ PeerConnection
 .
 CandidatePairType_UDP
 "
-webrtc
-:
-:
 kIceCandidatePairHostPublicHostPublic
 )
 )
@@ -11126,9 +10946,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -11146,9 +10963,6 @@ kMaxWaitForFramesMs
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -11165,9 +10979,6 @@ kMaxWaitForFramesMs
 )
 ;
 const
-webrtc
-:
-:
 IceCandidateCollection
 *
 audio_candidates_caller
@@ -11193,9 +11004,6 @@ candidates
 )
 ;
 const
-webrtc
-:
-:
 IceCandidateCollection
 *
 audio_candidates_callee
@@ -11426,9 +11234,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -11446,9 +11251,6 @@ kMaxWaitForFramesMs
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -12516,9 +12318,6 @@ kMaxWaitForActivationMs
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -12536,9 +12335,6 @@ kMaxWaitForFramesMs
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -12888,9 +12684,6 @@ kMaxWaitForActivationMs
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -12908,9 +12701,6 @@ kMaxWaitForFramesMs
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -13411,9 +13201,6 @@ PeerConnectionInterface
 RTCConfiguration
 client_1_config
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -13470,9 +13257,6 @@ client_1_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -13490,9 +13274,6 @@ PeerConnectionInterface
 RTCConfiguration
 client_2_config
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -13549,9 +13330,6 @@ client_2_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -13685,9 +13463,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 first_report
@@ -13714,9 +13489,6 @@ first_report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCLocalIceCandidateStats
 >
 (
@@ -13747,9 +13519,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 second_report
@@ -13776,9 +13545,6 @@ second_report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCLocalIceCandidateStats
 >
 (
@@ -13868,9 +13634,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 first_report
@@ -13897,9 +13660,6 @@ first_report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCRemoteIceCandidateStats
 >
 (
@@ -13941,9 +13701,6 @@ absl
 :
 WrapUnique
 (
-webrtc
-:
-:
 CreateIceCandidate
 (
 "
@@ -14015,9 +13772,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 second_report
@@ -14044,9 +13798,6 @@ second_report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCRemoteIceCandidateStats
 >
 (
@@ -14185,9 +13936,6 @@ PeerConnectionInterface
 RTCConfiguration
 client_1_config
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14244,9 +13992,6 @@ client_1_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14272,9 +14017,6 @@ PeerConnectionInterface
 RTCConfiguration
 client_2_config
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14331,9 +14073,6 @@ client_2_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14478,9 +14217,6 @@ cricket
 PROTO_TCP
 )
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14547,9 +14283,6 @@ client_1_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14574,9 +14307,6 @@ client_2_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14632,9 +14362,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14733,9 +14460,6 @@ PROTO_TLS
 "
 )
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14802,9 +14526,6 @@ client_1_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14829,9 +14550,6 @@ client_2_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -14881,9 +14599,6 @@ verify_certificate_
 =
 true
 ;
-webrtc
-:
-:
 PeerConnectionDependencies
 client_1_deps
 (
@@ -14908,9 +14623,6 @@ TestCertificateVerifier
 client_1_cert_verifier
 )
 ;
-webrtc
-:
-:
 PeerConnectionDependencies
 client_2_deps
 (
@@ -15635,9 +15347,6 @@ source_id
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 RtpSourceType
 :
 :
@@ -15834,9 +15543,6 @@ source_id
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 RtpSourceType
 :
 :
@@ -16004,9 +15710,6 @@ size
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 RtpSourceType
 :
 :
@@ -16174,9 +15877,6 @@ size
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 RtpSourceType
 :
 :
@@ -16333,9 +16033,6 @@ size
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 RtpSourceType
 :
 :
@@ -16787,9 +16484,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 AudioTrackInterface
 >
 track
@@ -16808,9 +16502,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 RtpSenderInterface
 >
 sender
@@ -17087,9 +16778,6 @@ move
 (
 output
 )
-webrtc
-:
-:
 RtcEventLog
 :
 :
@@ -17402,9 +17090,6 @@ report
 >
 GetStatsOfType
 <
-webrtc
-:
-:
 RTCInboundRtpStreamStats
 >
 (
@@ -17753,9 +17438,6 @@ event_log_factory
 )
 )
 ;
-webrtc
-:
-:
 FakeRtcEventLog
 *
 caller_event_log
@@ -17774,9 +17456,6 @@ last_log_created
 (
 )
 ;
-webrtc
-:
-:
 FakeRtcEventLog
 *
 callee_event_log
@@ -17815,9 +17494,6 @@ caller_event_log
 >
 GetEventCount
 (
-webrtc
-:
-:
 RtcEvent
 :
 :
@@ -17835,9 +17511,6 @@ caller_event_log
 >
 GetEventCount
 (
-webrtc
-:
-:
 RtcEvent
 :
 :
@@ -17855,9 +17528,6 @@ callee_event_log
 >
 GetEventCount
 (
-webrtc
-:
-:
 RtcEvent
 :
 :
@@ -17875,9 +17545,6 @@ callee_event_log
 >
 GetEventCount
 (
-webrtc
-:
-:
 RtcEvent
 :
 :
@@ -17964,9 +17631,6 @@ turn_server_internal_address
 turn_server_external_address
 )
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18029,9 +17693,6 @@ caller_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18071,9 +17732,6 @@ callee_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18144,9 +17802,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18164,9 +17819,6 @@ kDefaultTimeout
 ;
 EXPECT_EQ_WAIT
 (
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18242,9 +17894,6 @@ caller_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18306,9 +17955,6 @@ callee_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18492,9 +18138,6 @@ turn_server_internal_address
 turn_server_external_address
 )
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18557,9 +18200,6 @@ caller_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18593,9 +18233,6 @@ callee_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18745,9 +18382,6 @@ PeerConnectionIntegrationTest
 OnIceCandidateErrorWithEmptyAddress
 )
 {
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18814,9 +18448,6 @@ caller_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -18850,9 +18481,6 @@ callee_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -22655,9 +22283,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 caller_track
@@ -22823,9 +22448,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 report
@@ -22914,9 +22536,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 report

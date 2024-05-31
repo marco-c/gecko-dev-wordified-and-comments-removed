@@ -677,9 +677,6 @@ string
 content_name
 bool
 srtp_required
-webrtc
-:
-:
 CryptoOptions
 crypto_options
 rtc
@@ -824,9 +821,6 @@ string
 content_name
 bool
 srtp_required
-webrtc
-:
-:
 CryptoOptions
 crypto_options
 rtc
@@ -1430,9 +1424,6 @@ voice_media_receive_channel
 )
 mid
 kDefaultSrtpRequired
-webrtc
-:
-:
 CryptoOptions
 (
 )
@@ -1670,9 +1661,6 @@ video_media_receive_channel
 )
 mid
 kDefaultSrtpRequired
-webrtc
-:
-:
 CryptoOptions
 (
 )

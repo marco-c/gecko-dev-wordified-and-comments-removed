@@ -315,9 +315,6 @@ FakeClockForTest
 {
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -874,9 +871,6 @@ PROTO_TLS
 "
 )
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -943,9 +937,6 @@ client_1_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -970,9 +961,6 @@ client_2_config
 .
 type
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -1022,9 +1010,6 @@ verify_certificate_
 =
 false
 ;
-webrtc
-:
-:
 PeerConnectionDependencies
 client_1_deps
 (
@@ -1049,9 +1034,6 @@ TestCertificateVerifier
 client_1_cert_verifier
 )
 ;
-webrtc
-:
-:
 PeerConnectionDependencies
 client_2_deps
 (

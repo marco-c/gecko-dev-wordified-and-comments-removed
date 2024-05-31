@@ -634,9 +634,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 CallFactoryInterface
 >
 const

@@ -210,9 +210,6 @@ AudioSourceInterface
 audio_source_
 ;
 RTC_NO_UNIQUE_ADDRESS
-webrtc
-:
-:
 SequenceChecker
 signaling_thread_checker_
 ;

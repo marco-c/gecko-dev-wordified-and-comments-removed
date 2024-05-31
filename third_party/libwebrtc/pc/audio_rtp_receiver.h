@@ -646,9 +646,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 frame_transformer

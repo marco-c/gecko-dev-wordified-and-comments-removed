@@ -1089,9 +1089,6 @@ description
 connection_role
 ;
 }
-webrtc
-:
-:
 test
 :
 :

@@ -386,9 +386,6 @@ parameters
 )
 {
 return
-webrtc
-:
-:
 RTCError
 :
 :

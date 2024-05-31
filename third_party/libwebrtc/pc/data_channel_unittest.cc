@@ -409,9 +409,6 @@ init_
 ;
 channel_
 =
-webrtc
-:
-:
 SctpDataChannel
 :
 :
@@ -3007,9 +3004,6 @@ id
 auto
 dc
 =
-webrtc
-:
-:
 SctpDataChannel
 :
 :
@@ -3091,9 +3085,6 @@ init
 auto
 proxy
 =
-webrtc
-:
-:
 SctpDataChannel
 :
 :
@@ -3257,9 +3248,6 @@ init
 auto
 proxy
 =
-webrtc
-:
-:
 SctpDataChannel
 :
 :
@@ -3423,9 +3411,6 @@ init
 auto
 proxy
 =
-webrtc
-:
-:
 SctpDataChannel
 :
 :
@@ -3557,9 +3542,6 @@ init
 auto
 proxy
 =
-webrtc
-:
-:
 SctpDataChannel
 :
 :
@@ -4235,9 +4217,6 @@ config
 auto
 proxy
 =
-webrtc
-:
-:
 SctpDataChannel
 :
 :
@@ -4676,9 +4655,6 @@ config
 auto
 proxy
 =
-webrtc
-:
-:
 SctpDataChannel
 :
 :

@@ -586,9 +586,6 @@ rtc
 :
 SSL_PROTOCOL_DTLS_12
 ;
-webrtc
-:
-:
 CryptoOptions
 crypto_options
 ;
@@ -624,9 +621,6 @@ enable_external_auth
 =
 false
 ;
-webrtc
-:
-:
 IceTransportFactory
 *
 ice_transport_factory
@@ -718,9 +712,6 @@ SSLHandshakeError
 on_dtls_handshake_error_
 ;
 const
-webrtc
-:
-:
 FieldTrialsView
 *
 field_trials
@@ -854,9 +845,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 DtlsTransport
 >
 LookupDtlsTransportByMid
@@ -1937,9 +1925,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 IceTransportInterface
 >
 CreateIceTransport
@@ -1960,9 +1945,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 RtpTransport
 >
 CreateUnencryptedRtpTransport
@@ -1993,9 +1975,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 SrtpTransport
 >
 CreateSdesTransport
@@ -2026,9 +2005,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 DtlsSrtpTransport
 >
 CreateDtlsSrtpTransport
@@ -2271,9 +2247,6 @@ void
 OnUnDemuxableRtpPacketReceived_n
 (
 const
-webrtc
-:
-:
 RtpPacketReceived
 &
 packet

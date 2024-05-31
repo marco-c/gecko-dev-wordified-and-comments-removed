@@ -1335,9 +1335,6 @@ class
 MockCreateSessionDescriptionObserver
 :
 public
-webrtc
-:
-:
 CreateSessionDescriptionObserver
 {
 public
@@ -1403,9 +1400,6 @@ desc
 void
 OnFailure
 (
-webrtc
-:
-:
 RTCError
 error
 )
@@ -1561,9 +1555,6 @@ class
 MockSetSessionDescriptionObserver
 :
 public
-webrtc
-:
-:
 SetSessionDescriptionObserver
 {
 public
@@ -1643,9 +1634,6 @@ error_
 void
 OnFailure
 (
-webrtc
-:
-:
 RTCError
 error
 )
@@ -1900,9 +1888,6 @@ class
 MockDataChannelObserver
 :
 public
-webrtc
-:
-:
 DataChannelObserver
 {
 public
@@ -1924,9 +1909,6 @@ binary
 explicit
 MockDataChannelObserver
 (
-webrtc
-:
-:
 DataChannelInterface
 *
 channel
@@ -2196,9 +2178,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 DataChannelInterface
 >
 channel_
@@ -2230,9 +2209,6 @@ class
 MockStatsObserver
 :
 public
-webrtc
-:
-:
 StatsObserver
 {
 public
@@ -3029,9 +3005,6 @@ class
 MockRTCStatsCollectorCallback
 :
 public
-webrtc
-:
-:
 RTCStatsCollectorCallback
 {
 public

@@ -1276,9 +1276,6 @@ data_channels_opened
 uint32_t
 data_channels_closed
 ;
-webrtc
-:
-:
 flat_set
 <
 int

@@ -579,9 +579,6 @@ webrtc
 namespace
 {
 typedef
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -5203,15 +5200,9 @@ cname
 bool
 CanAddLocalMediaStream
 (
-webrtc
-:
-:
 StreamCollectionInterface
 *
 current_streams
-webrtc
-:
-:
 MediaStreamInterface
 *
 new_stream
@@ -5291,9 +5282,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 DtlsTransport
 >
 LookupDtlsTransportByMid

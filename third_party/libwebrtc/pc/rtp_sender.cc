@@ -574,9 +574,6 @@ error
 )
 mutable
 {
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -593,9 +590,6 @@ nullptr
 return
 ;
 }
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback_
@@ -1233,9 +1227,6 @@ type
 )
 "
 ;
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -1286,9 +1277,6 @@ init_parameters_
 parameters
 ;
 }
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -1386,9 +1374,6 @@ ok
 )
 )
 {
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -1415,9 +1400,6 @@ ok
 )
 )
 {
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -2066,9 +2048,6 @@ ok
 )
 )
 {
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -2108,9 +2087,6 @@ reset
 (
 )
 ;
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback

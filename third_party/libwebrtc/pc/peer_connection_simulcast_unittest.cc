@@ -1487,9 +1487,6 @@ PeerConnectionSimulcastMetricsTests
 (
 )
 {
-webrtc
-:
-:
 metrics
 :
 :

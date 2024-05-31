@@ -340,9 +340,6 @@ OnChanged
 override
 ;
 RTC_NO_UNIQUE_ADDRESS
-webrtc
-:
-:
 SequenceChecker
 signaling_thread_
 ;

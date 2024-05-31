@@ -1101,9 +1101,6 @@ GetStats
 StatsObserver
 *
 observer
-webrtc
-:
-:
 MediaStreamTrackInterface
 *
 track
@@ -2903,9 +2900,6 @@ int
 candidate_pool_size
 PortPrunePolicy
 turn_port_prune_policy
-webrtc
-:
-:
 TurnCustomizer
 *
 turn_customizer
@@ -3310,9 +3304,6 @@ ConnectionContext
 context_
 ;
 const
-webrtc
-:
-:
 AlwaysValidPointer
 <
 const
@@ -3463,9 +3454,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 IceTransportFactory
 >
 ice_transport_factory_

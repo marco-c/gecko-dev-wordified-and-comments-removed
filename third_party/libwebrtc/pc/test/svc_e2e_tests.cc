@@ -1035,15 +1035,9 @@ public
 using
 SpatialTemporalLayerCounts
 =
-webrtc
-:
-:
 flat_map
 <
 int
-webrtc
-:
-:
 flat_map
 <
 int
@@ -1054,9 +1048,6 @@ int
 explicit
 SvcVideoQualityAnalyzer
 (
-webrtc
-:
-:
 Clock
 *
 clock
@@ -1961,9 +1952,6 @@ Enabled
 "
 ;
 }
-webrtc
-:
-:
 test
 :
 :
@@ -1987,9 +1975,6 @@ network_emulation_manager
 =
 CreateNetworkEmulationManager
 (
-webrtc
-:
-:
 TimeMode
 :
 :

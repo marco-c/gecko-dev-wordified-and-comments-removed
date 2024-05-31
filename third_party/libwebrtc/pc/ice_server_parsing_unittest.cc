@@ -315,9 +315,6 @@ server
 )
 ;
 return
-webrtc
-:
-:
 ParseIceServersOrError
 (
 servers
@@ -1879,9 +1876,6 @@ server
 ;
 EXPECT_TRUE
 (
-webrtc
-:
-:
 ParseIceServersOrError
 (
 servers

@@ -544,9 +544,6 @@ class
 OnSuccessObserver
 :
 public
-webrtc
-:
-:
 SetRemoteDescriptionObserverInterface
 {
 public
@@ -573,9 +570,6 @@ on_success
 void
 OnSetRemoteDescriptionComplete
 (
-webrtc
-:
-:
 RTCError
 error
 )
@@ -704,9 +698,6 @@ nullptr
 )
 )
 {
-webrtc
-:
-:
 metrics
 :
 :
@@ -7126,9 +7117,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 MockSetSessionDescriptionObserver
 >
 observer
@@ -7138,9 +7126,6 @@ rtc
 :
 make_ref_counted
 <
-webrtc
-:
-:
 MockSetSessionDescriptionObserver
 >
 (

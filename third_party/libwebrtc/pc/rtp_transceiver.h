@@ -1372,9 +1372,6 @@ direction
 )
 PROXY_METHOD1
 (
-webrtc
-:
-:
 RTCError
 SetDirectionWithError
 RtpTransceiverDirection
@@ -1403,9 +1400,6 @@ fired_direction
 )
 PROXY_METHOD0
 (
-webrtc
-:
-:
 RTCError
 StopStandard
 )
@@ -1416,9 +1410,6 @@ StopInternal
 )
 PROXY_METHOD1
 (
-webrtc
-:
-:
 RTCError
 SetCodecPreferences
 rtc
@@ -1464,9 +1455,6 @@ GetNegotiatedHeaderExtensions
 )
 PROXY_METHOD1
 (
-webrtc
-:
-:
 RTCError
 SetHeaderExtensionsToNegotiate
 rtc

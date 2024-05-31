@@ -460,9 +460,6 @@ nullptr
 )
 )
 {
-webrtc
-:
-:
 metrics
 :
 :
@@ -1145,9 +1142,6 @@ ok
 EXPECT_METRIC_EQ
 (
 1
-webrtc
-:
-:
 metrics
 :
 :
@@ -1232,9 +1226,6 @@ ok
 EXPECT_METRIC_EQ
 (
 1
-webrtc
-:
-:
 metrics
 :
 :
@@ -1709,9 +1700,6 @@ ok
 EXPECT_METRIC_EQ
 (
 1
-webrtc
-:
-:
 metrics
 :
 :
@@ -2197,9 +2185,6 @@ ok
 EXPECT_METRIC_EQ
 (
 0
-webrtc
-:
-:
 metrics
 :
 :

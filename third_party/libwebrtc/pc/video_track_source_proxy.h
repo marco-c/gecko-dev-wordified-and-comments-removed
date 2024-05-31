@@ -221,9 +221,6 @@ PROXY_SECONDARY_METHOD1
 void
 ProcessConstraints
 const
-webrtc
-:
-:
 VideoTrackSourceConstraints
 &
 )

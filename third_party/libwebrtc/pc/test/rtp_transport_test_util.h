@@ -124,9 +124,6 @@ SetUnDemuxableRtpPacketReceivedHandler
 this
 ]
 (
-webrtc
-:
-:
 RtpPacketReceived
 &
 packet
