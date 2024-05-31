@@ -375,7 +375,7 @@ ViewGroup
 context
 )
 {
-private
+internal
 val
 urlView
 =
