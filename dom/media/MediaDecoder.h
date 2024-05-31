@@ -2098,6 +2098,16 @@ SeekTarget
 >
 mDelayedSeekTarget
 ;
+#
+ifdef
+MOZ_WMF_MEDIA_ENGINE
+bool
+mStateMachineRecreated
+=
+false
+;
+#
+endif
 public
 :
 Canonical

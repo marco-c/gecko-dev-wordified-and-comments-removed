@@ -2397,6 +2397,10 @@ normal
 "
 )
 ;
+mStateMachineRecreated
+=
+true
+;
 nsresult
 rv
 =
