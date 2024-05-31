@@ -1868,6 +1868,10 @@ EXACTLY
 return
 actions
 .
+asSequence
+(
+)
+.
 mapNotNull
 {
 it
@@ -2120,6 +2124,10 @@ val
 navigationActionsWidth
 =
 navigationActions
+.
+asSequence
+(
+)
 .
 mapNotNull
 {
