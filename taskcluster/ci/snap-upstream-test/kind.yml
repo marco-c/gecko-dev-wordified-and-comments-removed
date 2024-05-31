@@ -234,6 +234,9 @@ MOZ_FETCHES_DIR
 tests
 .
 sh
+-
+-
+basic
 fetches
 :
 snap
@@ -262,3 +265,11 @@ opt
 symbol
 :
 Sel
+(
+basic
+)
+attributes
+:
+snap_test_type
+:
+basic
