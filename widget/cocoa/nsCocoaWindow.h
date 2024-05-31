@@ -2023,6 +2023,11 @@ mAlwaysOnTop
 bool
 mAspectRatioLocked
 ;
+bool
+mIsAlert
+=
+false
+;
 int32_t
 mNumModalDescendents
 ;
