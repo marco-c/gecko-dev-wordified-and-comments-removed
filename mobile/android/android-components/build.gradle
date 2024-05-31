@@ -1671,7 +1671,7 @@ kt
 apply
 plugin
 :
-GVNightlyVersionVerifierPlugin
+GVVersionVerifierPlugin
 apply
 plugin
 :
