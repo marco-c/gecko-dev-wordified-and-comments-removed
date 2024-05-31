@@ -230,11 +230,6 @@ nsChildContentList
 h
 "
 "
-nsContentCID
-.
-h
-"
-"
 nsContentCreatorFunctions
 .
 h

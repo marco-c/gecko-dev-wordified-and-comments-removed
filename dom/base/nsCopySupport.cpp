@@ -223,13 +223,6 @@ nsContentUtils
 h
 "
 #
-include
-"
-nsContentCID
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

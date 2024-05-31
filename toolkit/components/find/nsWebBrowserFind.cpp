@@ -107,13 +107,6 @@ h
 #
 include
 "
-nsContentCID
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h

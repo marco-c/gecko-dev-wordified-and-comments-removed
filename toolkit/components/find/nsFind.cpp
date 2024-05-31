@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsContentCID
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h

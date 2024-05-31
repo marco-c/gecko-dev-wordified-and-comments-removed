@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsContentCID
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

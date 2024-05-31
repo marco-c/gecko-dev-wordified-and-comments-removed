@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsContentCID
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

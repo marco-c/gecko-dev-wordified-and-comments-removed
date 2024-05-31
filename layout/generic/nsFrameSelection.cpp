@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsContentCID
-.
-h
-"
-#
-include
-"
 nsDeviceContext
 .
 h
