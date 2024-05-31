@@ -58,6 +58,10 @@ This
 workflow
 triggers
 if
+android
+-
+components
+/
 .
 buildconfig
 .
@@ -174,6 +178,10 @@ paths
 :
 -
 '
+android
+-
+components
+/
 .
 buildconfig
 .
@@ -214,7 +222,7 @@ mozilla
 mobile
 /
 relbot
-1
+2
 .
 0
 .
@@ -231,9 +239,9 @@ mozilla
 -
 mobile
 /
-android
+firefox
 -
-components
+android
 '
 with
 :

@@ -424,6 +424,10 @@ paths
 reference
 =
 "
+android
+-
+components
+/
 components
 /
 *
@@ -444,6 +448,10 @@ xml
 l10n
 =
 "
+android
+-
+components
+/
 components
 /
 *
