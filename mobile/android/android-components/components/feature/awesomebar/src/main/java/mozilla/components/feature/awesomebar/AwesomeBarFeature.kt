@@ -401,6 +401,17 @@ onInputCancelled
 (
 )
 }
+override
+fun
+onCancelEditing
+(
+)
+:
+Boolean
+{
+return
+true
+}
 }
 )
 awesomeBar
