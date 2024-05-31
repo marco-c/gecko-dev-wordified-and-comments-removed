@@ -142,10 +142,6 @@ implementation
 Dependencies
 .
 firebase_messaging
-implementation
-Dependencies
-.
-mozilla_push
 testImplementation
 project
 (
