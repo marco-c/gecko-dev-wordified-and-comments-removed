@@ -362,6 +362,8 @@ the
 timespan
 directly
 :
+sumRawNanos
+and
 setRawNanos
 .
 *
