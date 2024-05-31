@@ -314,8 +314,6 @@ implementations
 46
 .
 0
--
-SNAPSHOT
 *
 [
 Commits
