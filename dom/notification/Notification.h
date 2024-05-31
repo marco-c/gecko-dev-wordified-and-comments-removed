@@ -803,7 +803,7 @@ aRv
 )
 ;
 nsresult
-Init
+MaybeObserveWindowFrozenOrDestroyed
 (
 )
 ;
