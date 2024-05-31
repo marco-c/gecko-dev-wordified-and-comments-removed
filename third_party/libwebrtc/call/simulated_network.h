@@ -121,6 +121,7 @@ namespace
 webrtc
 {
 class
+RTC_EXPORT
 SimulatedNetwork
 :
 public
