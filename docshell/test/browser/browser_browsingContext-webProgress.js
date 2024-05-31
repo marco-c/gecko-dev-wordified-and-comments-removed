@@ -1029,7 +1029,6 @@ onStateChange
 progress
 request
 flags
-status
 )
 {
 if

@@ -100,7 +100,6 @@ TEST_FILE_URI
 async
 function
 (
-aBrowser
 )
 {
 let

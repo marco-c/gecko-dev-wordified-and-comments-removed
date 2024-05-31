@@ -66,7 +66,6 @@ setInputStream
 function
 log
 (
-str
 )
 {
 /

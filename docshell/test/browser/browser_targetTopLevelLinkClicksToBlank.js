@@ -1147,7 +1147,8 @@ addEventListener
 "
 click
 "
-e
+(
+)
 =
 >
 {
@@ -1270,7 +1271,8 @@ addEventListener
 "
 click
 "
-e
+(
+)
 =
 >
 {

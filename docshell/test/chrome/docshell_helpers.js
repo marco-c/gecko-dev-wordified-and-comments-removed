@@ -1104,7 +1104,6 @@ windowClosed
 (
 subject
 topic
-data
 )
 {
 if
@@ -2402,7 +2401,6 @@ observer
 (
 subject
 topic
-data
 )
 {
 if

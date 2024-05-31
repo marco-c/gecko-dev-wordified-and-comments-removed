@@ -67,7 +67,6 @@ image
 function
 image
 (
-event
 )
 {
 ok
@@ -135,7 +134,6 @@ pdf
 function
 pdf
 (
-event
 )
 {
 ok

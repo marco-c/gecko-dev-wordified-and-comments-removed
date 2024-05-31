@@ -268,7 +268,6 @@ onStateChange
 aWebProgress
 request
 stateFlags
-status
 )
 {
 if

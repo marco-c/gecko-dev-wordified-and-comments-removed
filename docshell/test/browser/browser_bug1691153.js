@@ -136,10 +136,7 @@ blobPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

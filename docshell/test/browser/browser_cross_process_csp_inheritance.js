@@ -390,7 +390,6 @@ TEST_URI
 async
 function
 (
-browser
 )
 {
 let

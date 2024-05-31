@@ -16,7 +16,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 Assert

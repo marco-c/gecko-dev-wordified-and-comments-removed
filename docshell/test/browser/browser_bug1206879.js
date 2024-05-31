@@ -102,7 +102,6 @@ onLocationChange
 aWebProgress
 aRequest
 aLocation
-aFlags
 )
 {
 info
@@ -151,10 +150,7 @@ locationPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

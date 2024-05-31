@@ -1127,7 +1127,6 @@ initial
 }
 OnHistoryNewEntry
 (
-aNewURI
 )
 {
 this

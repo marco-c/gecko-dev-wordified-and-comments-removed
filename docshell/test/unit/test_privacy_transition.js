@@ -24,7 +24,6 @@ nsISupportsWeakReference
 )
 privateModeChanged
 (
-enabled
 )
 {
 gNotifications

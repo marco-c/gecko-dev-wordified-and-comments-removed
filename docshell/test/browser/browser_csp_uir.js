@@ -217,7 +217,6 @@ TEST_URI
 async
 function
 (
-browser
 )
 {
 let
@@ -313,7 +312,6 @@ TEST_URI
 async
 function
 (
-browser
 )
 {
 let

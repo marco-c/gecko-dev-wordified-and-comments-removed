@@ -112,7 +112,8 @@ listener
 {
 OnHistoryNewEntry
 :
-aNewURI
+(
+)
 =
 >
 {
@@ -291,7 +292,8 @@ listener
 {
 OnHistoryNewEntry
 :
-aNewURI
+(
+)
 =
 >
 {

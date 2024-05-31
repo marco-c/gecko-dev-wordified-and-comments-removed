@@ -57,7 +57,6 @@ setOutputStream
 function
 log
 (
-str
 )
 {
 /
