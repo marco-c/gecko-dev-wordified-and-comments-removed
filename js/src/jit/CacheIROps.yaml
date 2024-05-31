@@ -6416,6 +6416,9 @@ BoolImm
 forceDoubleForUint32
 :
 BoolImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
