@@ -899,6 +899,9 @@ CSS
 CSSRule
 "
 "
+CustomStateSet
+"
+"
 DOMParser
 "
 "

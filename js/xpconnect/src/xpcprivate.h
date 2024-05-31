@@ -8502,6 +8502,11 @@ CSSRule
 1
 ;
 bool
+CustomStateSet
+:
+1
+;
+bool
 Directory
 :
 1
