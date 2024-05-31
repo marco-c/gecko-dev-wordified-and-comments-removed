@@ -35717,7 +35717,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+IS_NOT_XP_WIN
 mirror
 :
 always
