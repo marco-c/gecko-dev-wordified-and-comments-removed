@@ -200,11 +200,6 @@ search
 "
 browser
 -
-session
-"
-"
-browser
--
 storage
 -
 sync
