@@ -85,6 +85,9 @@ name
 '
 midi
 '
+sysex
+:
+true
 }
 '
 granted
