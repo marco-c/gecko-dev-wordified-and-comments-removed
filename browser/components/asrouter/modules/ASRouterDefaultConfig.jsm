@@ -72,7 +72,7 @@ ASRouterParentProcessMessageHandler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -86,7 +86,9 @@ asrouter
 /
 ASRouterParentProcessMessageHandler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
