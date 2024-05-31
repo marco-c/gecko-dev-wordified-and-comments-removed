@@ -1327,6 +1327,11 @@ progress
 progressView
 .
 max
+&
+&
+progress
+>
+0
 )
 View
 .
