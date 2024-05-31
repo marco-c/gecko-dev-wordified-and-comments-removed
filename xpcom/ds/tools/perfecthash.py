@@ -172,35 +172,6 @@ from
 collections
 import
 namedtuple
-import
-six
-from
-mozbuild
-.
-util
-import
-ensure_bytes
-def
-_ord
-(
-c
-)
-:
-    
-if
-six
-.
-PY3
-:
-        
-return
-c
-    
-return
-ord
-(
-c
-)
 class
 PerfectHash
 (
@@ -550,15 +521,10 @@ buckets
 :
             
 if
-len
-(
+not
 bucket
 .
 entries
-)
-=
-=
-0
 :
                 
 break
@@ -641,11 +607,11 @@ idx
 =
 0
                     
-del
 slots
-[
-:
-]
+.
+clear
+(
+)
                     
 assert
 basis
@@ -819,24 +785,26 @@ table
 "
 "
         
+FNV_PRIME
+=
+cls
+.
+FNV_PRIME
+        
+U32_MAX
+=
+cls
+.
+U32_MAX
+        
 for
-byte
+obyte
 in
 memoryview
 (
-ensure_bytes
-(
 key
 )
-)
 :
-            
-obyte
-=
-_ord
-(
-byte
-)
             
 basis
 ^
@@ -846,15 +814,11 @@ obyte
 basis
 *
 =
-cls
-.
 FNV_PRIME
             
 basis
 &
 =
-cls
-.
 U32_MAX
         
 return
@@ -871,14 +835,11 @@ entry
 return
 memoryview
 (
-ensure_bytes
-(
 self
 .
 _key
 (
 entry
-)
 )
 )
     
@@ -980,10 +941,7 @@ key
 if
 memoryview
 (
-ensure_bytes
-(
 key
-)
 )
 !
 =
@@ -2343,10 +2301,7 @@ assert
 all
 (
             
-_ord
-(
 b
-)
 <
 =
 0x7F
