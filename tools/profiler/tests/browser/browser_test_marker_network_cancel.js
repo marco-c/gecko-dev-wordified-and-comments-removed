@@ -35,7 +35,7 @@ startProfilerForMarkerTests
 const
 url
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 simple

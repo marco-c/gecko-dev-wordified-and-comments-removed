@@ -92,7 +92,7 @@ html
 const
 url
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 redirect
@@ -109,7 +109,7 @@ targetFileNameWithCacheBust
 const
 targetUrl
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 targetFileNameWithCacheBust
 ;
@@ -690,7 +690,7 @@ startProfilerForMarkerTests
 const
 url
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 page_with_resources

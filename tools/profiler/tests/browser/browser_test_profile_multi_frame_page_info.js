@@ -111,7 +111,7 @@ it
 const
 url
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 multi_frame
@@ -375,7 +375,7 @@ page
 url
 =
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 single_frame
@@ -391,7 +391,7 @@ equal
 page
 .
 url
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 single_frame
