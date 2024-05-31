@@ -260,17 +260,6 @@ components
 /
 /
 /
-/
-/
-include
-'
-:
-components
-:
-browser
-:
-errorpages
-'
 include
 '
 :
