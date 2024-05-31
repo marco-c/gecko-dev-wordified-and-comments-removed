@@ -5787,6 +5787,8 @@ get
 )
 )
 ;
+return
+;
 }
 MOZ_RELEASE_ASSERT
 (
