@@ -336,6 +336,13 @@ StyleGeometryBox
 :
 :
 StrokeBox
+nsLayoutUtils
+:
+:
+MayHaveNonScalingStrokeCyclicDependency
+:
+:
+Yes
 )
 ;
 return

@@ -952,6 +952,12 @@ eDoNotClipToBBoxOfContentInsideClipPath
 <
 <
 10
+eAvoidCycleIfNonScalingStroke
+=
+1
+<
+<
+11
 }
 ;
 static
