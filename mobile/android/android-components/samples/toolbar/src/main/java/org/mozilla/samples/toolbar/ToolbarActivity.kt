@@ -852,9 +852,9 @@ page
 val
 reload
 =
-Toolbar
+BrowserToolbar
 .
-Action
+Button
 (
 mozilla
 .
@@ -876,7 +876,6 @@ Reload
 {
 simulateReload
 (
-toolbar
 )
 }
 toolbar
@@ -1848,7 +1847,6 @@ Forward
 {
 simulateReload
 (
-toolbar
 )
 }
 val
@@ -1878,7 +1876,6 @@ Reload
 {
 simulateReload
 (
-toolbar
 )
 }
 val
@@ -3375,9 +3372,9 @@ actions
 val
 grid
 =
-Toolbar
+BrowserToolbar
 .
-Action
+Button
 (
 mozilla
 .
@@ -3399,7 +3396,6 @@ Grid
 {
 simulateReload
 (
-toolbar
 )
 }
 toolbar
@@ -3411,9 +3407,9 @@ grid
 val
 back
 =
-Toolbar
+BrowserToolbar
 .
-Action
+Button
 (
 mozilla
 .
@@ -3435,7 +3431,6 @@ Back
 {
 simulateReload
 (
-toolbar
 )
 }
 toolbar
@@ -3447,9 +3442,9 @@ back
 val
 forward
 =
-Toolbar
+BrowserToolbar
 .
-Action
+Button
 (
 mozilla
 .
@@ -3471,7 +3466,6 @@ Forward
 {
 simulateReload
 (
-toolbar
 )
 }
 toolbar
@@ -3679,9 +3673,9 @@ actions
 val
 reload
 =
-Toolbar
+BrowserToolbar
 .
-Action
+Button
 (
 mozilla
 .
@@ -3703,7 +3697,6 @@ Reload
 {
 simulateReload
 (
-toolbar
 )
 }
 toolbar
@@ -3715,9 +3708,9 @@ reload
 val
 pin
 =
-Toolbar
+BrowserToolbar
 .
-Action
+Button
 (
 mozilla
 .
@@ -3739,7 +3732,6 @@ Pin
 {
 simulateReload
 (
-toolbar
 )
 }
 toolbar
@@ -3751,9 +3743,9 @@ pin
 val
 turbo
 =
-Toolbar
+BrowserToolbar
 .
-Action
+Button
 (
 mozilla
 .
@@ -3775,7 +3767,6 @@ Turbo
 {
 simulateReload
 (
-toolbar
 )
 }
 toolbar
@@ -3995,9 +3986,6 @@ private
 fun
 simulateReload
 (
-toolbar
-:
-BrowserToolbar
 )
 {
 launch
