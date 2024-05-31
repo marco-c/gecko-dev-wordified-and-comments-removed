@@ -710,10 +710,8 @@ a
 request
 body
 from
-an
 empty
 params
-map
 THEN
 the
 empty
@@ -733,9 +731,6 @@ Body
 .
 fromParamsForFormUrlEncoded
 (
-emptyMap
-(
-)
 )
 .
 readText
@@ -819,8 +814,6 @@ Body
 .
 fromParamsForFormUrlEncoded
 (
-mapOf
-(
 "
 "
 to
@@ -840,7 +833,6 @@ key
 to
 "
 "
-)
 )
 assertEquals
 (
@@ -940,8 +932,6 @@ Body
 .
 fromParamsForFormUrlEncoded
 (
-mapOf
-(
 "
 v
 "
@@ -954,7 +944,6 @@ url
 "
 to
 inputUrl
-)
 )
 assertEquals
 (

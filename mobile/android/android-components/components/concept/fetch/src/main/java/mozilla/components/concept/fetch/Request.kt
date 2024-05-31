@@ -683,9 +683,10 @@ CONTENT_TYPE_FORM_URLENCODED
 fun
 fromParamsForFormUrlEncoded
 (
+vararg
 unencodedParams
 :
-Map
+Pair
 <
 String
 String
