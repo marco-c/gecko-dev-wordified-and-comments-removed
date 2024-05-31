@@ -123,7 +123,7 @@ uaFullVersion
 wow64
 "
 "
-formFactor
+formFactors
 "
 ]
 )
@@ -186,11 +186,11 @@ wow64
 ;
 obj
 .
-formFactor
+formFactors
 =
 highEntropyValues
 .
-formFactor
+formFactors
 ;
 obj
 .
