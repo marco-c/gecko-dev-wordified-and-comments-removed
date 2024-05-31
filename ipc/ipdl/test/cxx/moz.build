@@ -35,11 +35,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestNestedLoops
-.
-h
-"
-"
 TestOffMainThreadPainting
 .
 h
@@ -134,11 +129,6 @@ SOURCES
 +
 =
 [
-"
-TestNestedLoops
-.
-cpp
-"
 "
 TestOffMainThreadPainting
 .
@@ -272,11 +262,6 @@ ipdl
 "
 "
 PTestIndirectProtocolParamSecond
-.
-ipdl
-"
-"
-PTestNestedLoops
 .
 ipdl
 "
