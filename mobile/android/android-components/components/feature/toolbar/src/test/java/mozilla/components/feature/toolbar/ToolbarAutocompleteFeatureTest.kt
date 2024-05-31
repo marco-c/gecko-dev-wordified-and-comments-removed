@@ -277,6 +277,14 @@ Toolbar
 {
 override
 var
+title
+:
+String
+=
+"
+"
+override
+var
 url
 :
 CharSequence

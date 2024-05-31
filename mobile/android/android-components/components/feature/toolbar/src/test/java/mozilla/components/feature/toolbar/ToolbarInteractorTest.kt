@@ -183,6 +183,14 @@ Boolean
 =
 false
 override
+var
+title
+:
+String
+=
+"
+"
+override
 fun
 setSearchTerms
 (
