@@ -525,6 +525,8 @@ alpn
 async
 OnGatheringStateChange
 (
+string
+transportId
 int
 state
 )
@@ -532,6 +534,8 @@ state
 async
 OnConnectionStateChange
 (
+string
+transportId
 int
 state
 )
