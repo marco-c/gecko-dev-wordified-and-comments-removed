@@ -68,6 +68,11 @@ BounceTrackingState
 h
 "
 "
+BounceTrackingStateGlobal
+.
+h
+"
+"
 BounceTrackingStorageObserver
 .
 h
@@ -89,6 +94,11 @@ cpp
 "
 "
 BounceTrackingState
+.
+cpp
+"
+"
+BounceTrackingStateGlobal
 .
 cpp
 "

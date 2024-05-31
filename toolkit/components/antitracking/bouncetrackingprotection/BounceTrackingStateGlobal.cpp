@@ -1,0 +1,16 @@
+#
+include
+"
+BounceTrackingStateGlobal
+.
+h
+"
+namespace
+mozilla
+{
+NS_IMPL_CYCLE_COLLECTION
+(
+BounceTrackingStateGlobal
+)
+;
+}
