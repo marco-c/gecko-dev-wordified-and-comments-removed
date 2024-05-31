@@ -138,7 +138,7 @@ View
 .
 kt
 #
-L34
+L35
 )
 Returns
 true
@@ -154,4 +154,14 @@ to
 View
 .
 VISIBLE
+.
+*
+*
+Deprecated
+*
+*
+Use
+Android
+KTX
+instead
 .
