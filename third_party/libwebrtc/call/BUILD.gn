@@ -3993,16 +3993,6 @@ api
 /
 task_queue
 :
-default_task_queue_factory
-"
-"
-.
-.
-/
-api
-/
-task_queue
-:
 pending_task_safety_flag
 "
 "
