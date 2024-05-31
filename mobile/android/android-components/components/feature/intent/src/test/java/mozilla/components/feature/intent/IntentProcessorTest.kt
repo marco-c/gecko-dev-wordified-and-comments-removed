@@ -1140,6 +1140,10 @@ eq
 (
 null
 )
+eq
+(
+null
+)
 )
 verify
 (
