@@ -85,6 +85,8 @@ from
 "
 storybook
 /
+manager
+-
 api
 "
 ;
@@ -591,7 +593,7 @@ flex
 "
 }
 }
-onVisibilityChange
+onVisibleChange
 =
 {
 onVisibilityChange

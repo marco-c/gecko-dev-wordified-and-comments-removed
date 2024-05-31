@@ -85,6 +85,8 @@ from
 "
 storybook
 /
+manager
+-
 api
 "
 ;
