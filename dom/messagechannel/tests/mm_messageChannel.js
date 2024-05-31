@@ -112,6 +112,9 @@ message
 )
 ;
 throw
+new
+Error
+(
 "
 failed
 check
@@ -119,6 +122,7 @@ check
 "
 +
 message
+)
 ;
 }
 }
