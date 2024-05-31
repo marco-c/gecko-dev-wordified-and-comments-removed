@@ -797,7 +797,7 @@ cmd_translate
 oncommand
 =
 "
-TranslationsPanel
+FullPageTranslationsPanel
 .
 open
 (

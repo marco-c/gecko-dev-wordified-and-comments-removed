@@ -2589,7 +2589,7 @@ corresponding
 *
 element
 in
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 both
@@ -2619,7 +2619,7 @@ of
 any
 subset
 of
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 *
@@ -2638,7 +2638,7 @@ SharedTranslationsTestUtils
 .
 _assertPanelElementVisibility
 (
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 {
@@ -2722,7 +2722,7 @@ expectations
 Asserts
 that
 the
-TranslationsPanel
+FullPageTranslationsPanel
 header
 has
 the
@@ -2762,7 +2762,7 @@ const
 header
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -2835,7 +2835,7 @@ SharedTranslationsTestUtils
 .
 _assertPanelMainViewId
 (
-TranslationsPanel
+FullPageTranslationsPanel
 expectedId
 )
 ;
@@ -3554,7 +3554,7 @@ const
 fromMenuList
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -3640,7 +3640,7 @@ const
 toMenuList
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -4161,7 +4161,7 @@ const
 cancelButton
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -4279,7 +4279,7 @@ const
 changeSourceLanguageButton
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -4364,7 +4364,7 @@ const
 dismissErrorButton
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -4644,7 +4644,7 @@ const
 restoreButton
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -4895,7 +4895,7 @@ const
 translateButton
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -5712,7 +5712,7 @@ const
 fromMenuList
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -5785,7 +5785,7 @@ const
 toMenuList
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
@@ -5925,7 +5925,7 @@ the
 panel
 elements
 .
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;

@@ -540,7 +540,7 @@ NO_CHANGE
 }
 }
 var
-TranslationsPanel
+FullPageTranslationsPanel
 =
 new
 (
@@ -3892,7 +3892,7 @@ onLearnMoreLink
 (
 )
 ;
-TranslationsPanel
+FullPageTranslationsPanel
 .
 close
 (
@@ -6093,7 +6093,7 @@ user
 switches
 tabs
 .
-TranslationsPanel
+FullPageTranslationsPanel
 .
 detectedLanguages
 =
@@ -6704,7 +6704,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-TranslationsPanel
+FullPageTranslationsPanel
 "
 _hasShownPanel
 "

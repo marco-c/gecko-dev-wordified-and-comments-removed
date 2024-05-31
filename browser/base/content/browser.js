@@ -1846,7 +1846,7 @@ defineLazyScriptGetter
 (
 this
 "
-TranslationsPanel
+FullPageTranslationsPanel
 "
 "
 chrome
@@ -8447,7 +8447,7 @@ TranslationsParent
 :
 LanguageState
 "
-TranslationsPanel
+FullPageTranslationsPanel
 )
 ;
 gBrowser
@@ -8459,14 +8459,14 @@ TranslationsParent
 :
 OfferTranslation
 "
-TranslationsPanel
+FullPageTranslationsPanel
 )
 ;
 gBrowser
 .
 addTabsProgressListener
 (
-TranslationsPanel
+FullPageTranslationsPanel
 )
 ;
 window
