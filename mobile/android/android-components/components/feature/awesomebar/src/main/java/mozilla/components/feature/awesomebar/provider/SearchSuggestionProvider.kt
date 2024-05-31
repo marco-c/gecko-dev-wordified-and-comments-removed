@@ -188,7 +188,7 @@ searchUseCase
 :
 SearchUseCases
 .
-DefaultSearchUseCase
+SearchUseCase
 private
 val
 mode

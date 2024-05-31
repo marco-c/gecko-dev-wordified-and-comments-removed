@@ -475,7 +475,7 @@ searchUseCase
 :
 SearchUseCases
 .
-DefaultSearchUseCase
+SearchUseCase
 mode
 :
 SearchSuggestionProvider

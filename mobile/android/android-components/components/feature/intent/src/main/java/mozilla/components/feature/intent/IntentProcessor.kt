@@ -562,7 +562,7 @@ else
 {
 searchUseCases
 .
-defaultSearch
+newTabSearch
 .
 invoke
 (

@@ -529,7 +529,7 @@ engineSession
 )
 useCases
 .
-defaultSearch
+newTabSearch
 .
 invoke
 (
