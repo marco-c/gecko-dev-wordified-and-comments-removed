@@ -63,7 +63,7 @@ components
 .
 engine
 .
-gecko
+system
 import
 mozilla
 .
@@ -71,8 +71,8 @@ components
 .
 engine
 .
-BrowserEngine
+EngineView
 class
-GeckoBrowserEngine
+GeckoEngineView
 :
-BrowserEngine
+EngineView
