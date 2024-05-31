@@ -35,11 +35,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestInterruptErrorCleanup
-.
-h
-"
-"
 TestInterruptRaces
 .
 h
@@ -169,11 +164,6 @@ SOURCES
 +
 =
 [
-"
-TestInterruptErrorCleanup
-.
-cpp
-"
 "
 TestInterruptRaces
 .
@@ -347,11 +337,6 @@ ipdl
 "
 "
 PTestIndirectProtocolParamSecond
-.
-ipdl
-"
-"
-PTestInterruptErrorCleanup
 .
 ipdl
 "
