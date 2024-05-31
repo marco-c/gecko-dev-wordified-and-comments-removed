@@ -153,15 +153,5 @@ service
 -
 glean
 "
-"
-support
--
-test
-"
-"
-ui
--
-tabcounter
-"
 )
 }
