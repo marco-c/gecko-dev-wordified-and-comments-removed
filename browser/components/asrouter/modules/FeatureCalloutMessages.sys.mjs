@@ -77,7 +77,9 @@ message
 into
 OnboardingMessageProvider
 .
-jsm
+sys
+.
+mjs
 const
 FIREFOX_VIEW_PREF
 =

@@ -36,7 +36,9 @@ modules
 /
 OnboardingMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

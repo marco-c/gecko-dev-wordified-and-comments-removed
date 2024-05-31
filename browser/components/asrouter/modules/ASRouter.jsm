@@ -632,7 +632,7 @@ OnboardingMessageProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource

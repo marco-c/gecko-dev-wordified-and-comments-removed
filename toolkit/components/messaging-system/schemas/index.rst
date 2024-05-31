@@ -1752,7 +1752,9 @@ modules
 /
 OnboardingMessageProvider
 .
-jsm
+sys
+.
+mjs
 .
 .
 _Test_CFRMessageProvider
