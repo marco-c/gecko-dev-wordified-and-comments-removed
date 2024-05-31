@@ -99,6 +99,9 @@ paddingBlock
 paddingInline
 "
 "
+textAlign
+"
+"
 whiteSpace
 "
 ]
