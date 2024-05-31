@@ -12,6 +12,13 @@ jobscheduler
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 app
 .
 job
@@ -222,6 +229,12 @@ return
 true
 ;
 }
+SuppressLint
+(
+"
+StaticFieldLeak
+"
+)
 private
 class
 UploadPingsTask
