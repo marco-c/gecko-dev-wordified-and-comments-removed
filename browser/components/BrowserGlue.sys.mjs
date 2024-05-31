@@ -16067,6 +16067,7 @@ firefoxBridgeNativeMessaging
 "
 condition
 :
+(
 AppConstants
 .
 platform
@@ -16075,6 +16076,17 @@ platform
 "
 macosx
 "
+|
+|
+AppConstants
+.
+platform
+=
+=
+"
+win
+"
+)
 &
 &
 Services
