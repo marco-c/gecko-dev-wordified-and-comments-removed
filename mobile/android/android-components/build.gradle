@@ -38,6 +38,16 @@ ext
 compileSdkVersion
 =
 27
+ext
+.
+targetSdkVersion
+=
+27
+ext
+.
+minSdkVersion
+=
+21
 repositories
 {
 google
