@@ -719,8 +719,6 @@ https
 mozilla
 -
 ohttp
--
-dev
 .
 fastly
 -
@@ -949,13 +947,13 @@ https
 :
 /
 /
-stage
+prod
 .
 ohttp
 -
 gateway
 .
-nonprod
+prod
 .
 webservices
 .
