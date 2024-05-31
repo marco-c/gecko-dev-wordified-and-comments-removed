@@ -5742,7 +5742,7 @@ TLDs
 /
 private
 val
-AUTOLINK_WEB_URL
+autolinkWebUrl
 =
 Pattern
 .
@@ -5959,7 +5959,7 @@ String
 val
 matcher
 =
-AUTOLINK_WEB_URL
+autolinkWebUrl
 .
 matcher
 (

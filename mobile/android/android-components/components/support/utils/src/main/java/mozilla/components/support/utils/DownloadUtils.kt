@@ -277,7 +277,7 @@ supported
 /
 private
 val
-CONTENT_DISPOSITION_PATTERN
+contentDispositionPattern
 =
 Pattern
 .
@@ -414,7 +414,7 @@ the
 capture
 groups
 inside
-CONTENT_DISPOSITION_PATTERN
+contentDispositionPattern
 *
 /
 private
@@ -466,7 +466,7 @@ chars
 /
 private
 val
-ENCODED_SYMBOL_PATTERN
+encodedSymbolPattern
 =
 Pattern
 .
@@ -1125,7 +1125,7 @@ try
 val
 m
 =
-CONTENT_DISPOSITION_PATTERN
+contentDispositionPattern
 .
 matcher
 (
@@ -1318,7 +1318,7 @@ String
 val
 m
 =
-ENCODED_SYMBOL_PATTERN
+encodedSymbolPattern
 .
 matcher
 (

@@ -856,7 +856,7 @@ default
 "
 private
 val
-IGNORED_CATEGORIES
+ignoredCategories
 =
 setOf
 (
@@ -871,7 +871,7 @@ Content
 )
 private
 val
-DISCONNECT_MOVED
+disconnectMoved
 =
 setOf
 (
@@ -884,7 +884,7 @@ Twitter
 )
 private
 val
-WEBFONT_EXTENSIONS
+webfontExceptions
 =
 arrayOf
 (
@@ -911,7 +911,7 @@ otf
 )
 private
 val
-SUPPORTED_CATEGORIES
+supportedCategories
 =
 setOf
 (
@@ -1002,7 +1002,7 @@ Set
 String
 >
 =
-SUPPORTED_CATEGORIES
+supportedCategories
 )
 :
 UrlMatcher
@@ -1143,7 +1143,7 @@ Set
 String
 >
 =
-SUPPORTED_CATEGORIES
+supportedCategories
 )
 :
 UrlMatcher
@@ -1227,7 +1227,7 @@ return
 UrlMatcher
 (
 enabledCategories
-SUPPORTED_CATEGORIES
+supportedCategories
 categoryMap
 whiteList
 )
@@ -1292,7 +1292,7 @@ path
 return
 false
 return
-WEBFONT_EXTENSIONS
+webfontExceptions
 .
 find
 {
@@ -1454,7 +1454,7 @@ nextName
 )
 when
 {
-IGNORED_CATEGORIES
+ignoredCategories
 .
 contains
 (
@@ -1485,7 +1485,7 @@ owner
 >
 if
 (
-DISCONNECT_MOVED
+disconnectMoved
 .
 contains
 (
