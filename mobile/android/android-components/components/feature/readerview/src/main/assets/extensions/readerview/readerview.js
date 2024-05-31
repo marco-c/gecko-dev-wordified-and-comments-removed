@@ -465,6 +465,13 @@ article
 return
 <
 body
+class
+=
+"
+readerview
+-
+body
+"
 >
 <
 div
