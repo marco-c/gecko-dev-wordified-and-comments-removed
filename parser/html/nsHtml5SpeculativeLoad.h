@@ -276,8 +276,6 @@ nsHtml5String
 aSizes
 bool
 aLinkPreload
-nsHtml5String
-aFetchPriority
 )
 {
 MOZ_ASSERT
@@ -368,13 +366,6 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mIsLinkPreload
 =
 aLinkPreload
-;
-aFetchPriority
-.
-ToString
-(
-mFetchPriority
-)
 ;
 }
 inline

@@ -695,8 +695,6 @@ Ci
 nsISupportsPriority
 .
 PRIORITY_LOW
-+
-1
 }
 {
 fileNameAndSuffix
@@ -717,8 +715,6 @@ Ci
 nsISupportsPriority
 .
 PRIORITY_HIGH
-+
-1
 }
 {
 fileNameAndSuffix
@@ -739,8 +735,6 @@ Ci
 nsISupportsPriority
 .
 PRIORITY_LOW
-+
-1
 }
 {
 fileNameAndSuffix
@@ -761,8 +755,6 @@ Ci
 nsISupportsPriority
 .
 PRIORITY_LOW
-+
-1
 }
 ]
 ;
