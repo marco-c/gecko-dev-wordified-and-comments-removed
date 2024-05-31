@@ -124,13 +124,6 @@ MiniTransceiver
 namespace
 IPC
 {
-bool
-IPCMessageTypeIsSync
-(
-uint32_t
-aMessageType
-)
-;
 const
 char
 *
