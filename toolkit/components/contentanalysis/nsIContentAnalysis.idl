@@ -501,5 +501,10 @@ bool
 aAllowContent
 )
 ;
+void
+cancelAllRequests
+(
+)
+;
 }
 ;
