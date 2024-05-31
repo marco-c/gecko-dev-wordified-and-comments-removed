@@ -137,8 +137,6 @@ true
 async
 dispatch
 (
-method
-payload
 )
 {
 this
@@ -242,8 +240,6 @@ setHeader
 async
 dispatch
 (
-method
-payload
 )
 {
 throw
@@ -1167,7 +1163,6 @@ _Request
 =
 function
 (
-requestUri
 )
 {
 return
@@ -1209,8 +1204,6 @@ lastToken
 async
 dispatch
 (
-method
-payload
 )
 {
 this
@@ -1511,7 +1504,6 @@ _Request
 =
 function
 (
-requestUri
 )
 {
 return
@@ -1553,8 +1545,6 @@ lastToken
 async
 dispatch
 (
-method
-payload
 )
 {
 this

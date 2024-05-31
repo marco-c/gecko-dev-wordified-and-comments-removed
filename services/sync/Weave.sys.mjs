@@ -1085,7 +1085,6 @@ nsISupportsWeakReference
 )
 getURIFlags
 (
-aURI
 )
 {
 return

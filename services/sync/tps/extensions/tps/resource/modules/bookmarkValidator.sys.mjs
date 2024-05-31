@@ -4414,10 +4414,7 @@ yieldingForEach
 this
 .
 liveRecords
-(
 record
-i
-)
 =
 >
 {

@@ -411,7 +411,6 @@ async
 applyIncomingBatch
 (
 records
-countTelemetry
 )
 {
 for

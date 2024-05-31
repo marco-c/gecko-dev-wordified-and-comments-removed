@@ -1118,9 +1118,6 @@ observer
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 Services
@@ -1432,9 +1429,6 @@ changesPolledObserver
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 Services
@@ -1578,9 +1572,6 @@ observer
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 Services
@@ -3579,9 +3570,6 @@ observer
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 Services
@@ -4271,7 +4259,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 Services
@@ -4883,9 +4870,6 @@ observer
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 notificationObserved

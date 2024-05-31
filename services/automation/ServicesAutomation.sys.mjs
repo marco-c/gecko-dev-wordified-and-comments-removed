@@ -953,7 +953,6 @@ load
 "
 function
 (
-e
 )
 {
 LOG
@@ -975,7 +974,6 @@ loadstart
 "
 function
 (
-e
 )
 {
 LOG
@@ -2089,7 +2087,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 LOG

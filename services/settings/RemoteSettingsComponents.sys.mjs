@@ -175,7 +175,6 @@ pref
 .
 notify
 (
-timer
 )
 {
 lazy

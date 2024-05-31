@@ -190,7 +190,6 @@ AddonValidator
 {
 _findDupe
 (
-item
 )
 {
 return

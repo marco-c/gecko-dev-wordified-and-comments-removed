@@ -506,7 +506,8 @@ request
 .
 onsuccess
 =
-event
+(
+)
 =
 >
 resolve
@@ -517,7 +518,8 @@ request
 .
 onblocked
 =
-event
+(
+)
 =
 >
 reject

@@ -1160,10 +1160,7 @@ submitPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

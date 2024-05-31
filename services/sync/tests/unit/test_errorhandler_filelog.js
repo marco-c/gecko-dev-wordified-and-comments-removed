@@ -554,7 +554,6 @@ function
 (
 inputStream
 statusCode
-request
 )
 {
 let

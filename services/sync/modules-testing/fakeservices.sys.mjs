@@ -372,7 +372,6 @@ function
 jsonLoad
 (
 filePath
-that
 )
 {
 let
@@ -427,7 +426,6 @@ jsonMove
 (
 aFrom
 aTo
-that
 )
 {
 const
@@ -494,7 +492,6 @@ function
 jsonRemove
 (
 filePath
-that
 )
 {
 delete
@@ -700,7 +697,6 @@ ciphertextHMAC
 function
 ciphertextHMAC
 (
-keyBundle
 )
 {
 return
@@ -723,8 +719,6 @@ async
 encrypt
 (
 clearText
-symmetricKey
-iv
 )
 {
 return
@@ -735,8 +729,6 @@ async
 decrypt
 (
 cipherText
-symmetricKey
-iv
 )
 {
 return
@@ -809,7 +801,6 @@ function
 expandData
 (
 data
-len
 )
 {
 return

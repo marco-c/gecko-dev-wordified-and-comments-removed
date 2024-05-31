@@ -375,7 +375,6 @@ export
 function
 getTestLogger
 (
-component
 )
 {
 return

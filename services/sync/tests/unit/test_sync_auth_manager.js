@@ -5388,7 +5388,6 @@ Trace
 function
 MockRESTRequest
 (
-url
 )
 {
 }

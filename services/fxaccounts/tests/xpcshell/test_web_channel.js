@@ -1169,10 +1169,7 @@ _channel
 .
 send
 =
-(
 message
-context
-)
 =
 >
 {
@@ -2056,7 +2053,6 @@ _channel
 send
 (
 response
-sendingContext
 )
 {
 Assert
@@ -2578,7 +2574,6 @@ _internal
 {
 setSignedInUser
 (
-accountData
 )
 {
 return
@@ -2719,7 +2714,6 @@ _internal
 {
 setSignedInUser
 (
-accountData
 )
 {
 return

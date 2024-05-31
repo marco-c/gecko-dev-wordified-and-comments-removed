@@ -1049,9 +1049,6 @@ this
 }
 observe
 (
-subject
-topic
-data
 )
 {
 this

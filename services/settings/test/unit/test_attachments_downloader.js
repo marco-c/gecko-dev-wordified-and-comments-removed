@@ -410,7 +410,8 @@ dummyCacheImpl
 get
 :
 async
-attachmentId
+(
+)
 =
 >
 {
@@ -419,8 +420,6 @@ set
 :
 async
 (
-attachmentId
-attachment
 )
 =
 >
@@ -429,7 +428,8 @@ attachment
 delete
 :
 async
-attachmentId
+(
+)
 =
 >
 {
@@ -2198,7 +2198,6 @@ write
 async
 delete
 (
-attachmentId
 )
 {
 }

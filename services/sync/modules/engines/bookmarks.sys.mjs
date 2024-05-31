@@ -3242,7 +3242,6 @@ _apply
 async
 _reconcile
 (
-item
 )
 {
 return
@@ -4730,7 +4729,6 @@ async
 applyIncomingBatch
 (
 records
-countTelemetry
 )
 {
 let
@@ -5842,7 +5840,6 @@ reconciliation
 .
 getModifiedTimestamp
 (
-id
 )
 {
 throw
@@ -5865,7 +5862,6 @@ conflicts
 }
 has
 (
-id
 )
 {
 throw

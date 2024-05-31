@@ -1487,7 +1487,6 @@ function
 observe
 (
 subject
-data
 )
 {
 Svc
@@ -1660,7 +1659,6 @@ function
 observe
 (
 subject
-data
 )
 {
 Svc

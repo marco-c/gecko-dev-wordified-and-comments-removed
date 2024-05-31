@@ -1721,7 +1721,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

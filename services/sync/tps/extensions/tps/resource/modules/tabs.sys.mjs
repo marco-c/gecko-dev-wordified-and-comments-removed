@@ -413,7 +413,6 @@ loadEvent
 function
 onLoad
 (
-msg
 )
 {
 mm

@@ -1351,9 +1351,6 @@ onItemDeleted
 =
 function
 (
-username
-collection
-wboID
 )
 {
 do_throw

@@ -807,8 +807,6 @@ unsupported
 async
 addChangedID
 (
-id
-when
 )
 {
 throw
@@ -836,10 +834,6 @@ Ditto
 async
 removeChangedID
 (
-.
-.
-.
-ids
 )
 {
 throw
@@ -1028,9 +1022,6 @@ onStop
 async
 observe
 (
-subject
-topic
-data
 )
 {
 }
@@ -2790,7 +2781,6 @@ from
 async
 create
 (
-record
 )
 {
 throw
@@ -2871,7 +2861,6 @@ from
 async
 remove
 (
-record
 )
 {
 throw
@@ -2950,7 +2939,6 @@ from
 async
 update
 (
-record
 )
 {
 throw
@@ -3020,7 +3008,6 @@ locally
 async
 itemExists
 (
-id
 )
 {
 throw
@@ -3133,8 +3120,6 @@ engine
 async
 createRecord
 (
-id
-collection
 )
 {
 throw
@@ -3186,8 +3171,6 @@ ID
 async
 changeItemID
 (
-oldID
-newID
 )
 {
 throw
@@ -6482,7 +6465,6 @@ cleared
 /
 shouldSkipSync
 (
-syncReason
 )
 {
 return
@@ -9948,7 +9930,6 @@ server
 .
 _shouldDeleteRemotely
 (
-remoteItem
 )
 {
 return
@@ -9997,7 +9978,6 @@ otherwise
 async
 _findDupe
 (
-item
 )
 {
 /
@@ -10046,9 +10026,6 @@ orders
 /
 beforeRecordDiscard
 (
-localRecord
-remoteRecord
-remoteIsNewer
 )
 {
 }
@@ -10152,7 +10129,6 @@ bookmarks
 async
 _shouldReviveRemotelyDeletedRecord
 (
-remoteItem
 )
 {
 return
@@ -12715,9 +12691,6 @@ name
 async
 _onRecordsWritten
 (
-succeeded
-failed
-serverModifiedTime
 )
 {
 /

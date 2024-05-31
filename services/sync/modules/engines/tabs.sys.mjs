@@ -3217,7 +3217,8 @@ spec
 .
 catch
 (
-ex
+(
+)
 =
 >
 {
@@ -3662,7 +3663,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

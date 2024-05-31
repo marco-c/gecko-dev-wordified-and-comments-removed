@@ -1441,7 +1441,6 @@ TPS__observe
 (
 subject
 topic
-data
 )
 {
 try

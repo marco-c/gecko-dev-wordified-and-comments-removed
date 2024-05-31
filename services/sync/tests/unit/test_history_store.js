@@ -142,7 +142,8 @@ listener
 new
 PlacesWeakCallbackWrapper
 (
-events
+(
+)
 =
 >
 {

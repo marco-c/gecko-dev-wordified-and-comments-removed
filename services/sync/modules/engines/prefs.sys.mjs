@@ -2867,8 +2867,6 @@ allprefs
 async
 changeItemID
 (
-oldID
-newID
 )
 {
 this
@@ -2957,7 +2955,6 @@ record
 async
 create
 (
-record
 )
 {
 this
@@ -2977,7 +2974,6 @@ request
 async
 remove
 (
-record
 )
 {
 this

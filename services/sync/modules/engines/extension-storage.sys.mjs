@@ -899,10 +899,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1953,7 +1950,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

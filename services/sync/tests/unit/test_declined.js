@@ -442,8 +442,6 @@ function
 onNotDeclined
 (
 subject
-topic
-data
 )
 {
 Observers
@@ -687,8 +685,6 @@ function
 onNotDeclined
 (
 subject
-topic
-data
 )
 {
 Observers

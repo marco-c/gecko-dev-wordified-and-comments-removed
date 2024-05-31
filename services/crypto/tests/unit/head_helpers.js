@@ -344,10 +344,6 @@ _
 =
 function
 (
-some
-debug
-text
-to
 )
 {
 print

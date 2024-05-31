@@ -1011,7 +1011,6 @@ onExpiration
 (
 aSubject
 aTopic
-aData
 )
 {
 Services

@@ -210,7 +210,6 @@ now
 function
 callback
 (
-timer
 )
 {
 Assert
@@ -308,7 +307,6 @@ namedTimer
 function
 callback
 (
-timer
 )
 {
 do_throw

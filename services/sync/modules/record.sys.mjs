@@ -1299,7 +1299,6 @@ cleartext
 /
 transformBeforeEncrypt
 (
-outgoingCleartext
 )
 {
 throw
@@ -1371,7 +1370,6 @@ cleartext
 /
 transformAfterDecrypt
 (
-incomingCleartext
 )
 {
 throw
@@ -3296,8 +3294,6 @@ keys
 /
 asWBO
 (
-collection
-id
 )
 {
 return

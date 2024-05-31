@@ -392,7 +392,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 /

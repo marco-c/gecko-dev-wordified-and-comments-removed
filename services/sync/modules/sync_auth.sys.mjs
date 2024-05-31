@@ -1160,7 +1160,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 this
@@ -1970,7 +1969,6 @@ info
 /
 prefetchMigrationSentinel
 (
-service
 )
 {
 /

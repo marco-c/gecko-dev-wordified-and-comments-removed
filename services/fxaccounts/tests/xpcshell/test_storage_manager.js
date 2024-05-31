@@ -235,8 +235,6 @@ function
 async
 get
 (
-uid
-email
 )
 {
 this

@@ -294,7 +294,6 @@ object
 function
 MockRESTRequest
 (
-url
 )
 {
 }

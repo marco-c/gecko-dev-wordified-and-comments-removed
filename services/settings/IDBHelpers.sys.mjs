@@ -824,7 +824,8 @@ transaction
 .
 oncomplete
 =
-event
+(
+)
 =
 >
 resolve
