@@ -613,6 +613,9 @@ move
 (
 uri
 )
+dedicated
+=
+true
 nsServerCertHashes
 =
 std
@@ -669,6 +672,7 @@ mWebTransport
 AsyncConnectWithClient
 (
 uri
+dedicated
 std
 :
 :
