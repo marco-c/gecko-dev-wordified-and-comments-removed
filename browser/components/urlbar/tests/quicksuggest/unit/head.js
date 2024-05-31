@@ -1801,11 +1801,6 @@ iconId
 "
 6
 "
-helpUrl
-:
-QuickSuggest
-.
-HELP_URL
 requestId
 :
 MerinoTestUtils
