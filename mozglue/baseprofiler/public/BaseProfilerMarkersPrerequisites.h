@@ -3060,6 +3060,7 @@ InputType
 {
 Uint64
 Uint32
+Uint8
 Boolean
 CString
 String
