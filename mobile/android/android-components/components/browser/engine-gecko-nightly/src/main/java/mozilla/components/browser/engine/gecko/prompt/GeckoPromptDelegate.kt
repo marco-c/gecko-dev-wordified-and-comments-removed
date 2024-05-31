@@ -468,7 +468,6 @@ onChoicePrompt
 session
 :
 GeckoSession
-?
 title
 :
 String
@@ -573,6 +572,8 @@ callback
 confirm
 (
 geckoChoice
+!
+!
 )
 }
 )
@@ -608,6 +609,8 @@ callback
 confirm
 (
 geckoChoice
+!
+!
 )
 }
 )
@@ -658,7 +661,6 @@ onAlert
 session
 :
 GeckoSession
-?
 title
 :
 String
@@ -742,7 +744,6 @@ onFilePrompt
 session
 :
 GeckoSession
-?
 title
 :
 String
@@ -757,6 +758,7 @@ Array
 out
 String
 >
+?
 callback
 :
 FileCallback
@@ -851,6 +853,11 @@ PromptRequest
 File
 (
 mimeTypes
+?
+:
+emptyArray
+(
+)
 isMultipleFilesSelection
 onSelectSingle
 onSelectMultiple
@@ -866,7 +873,6 @@ onDateTimePrompt
 session
 :
 GeckoSession
-?
 title
 :
 String
@@ -1015,7 +1021,6 @@ onButtonPrompt
 session
 :
 GeckoSession
-?
 title
 :
 String
@@ -1035,7 +1040,6 @@ String
 callback
 :
 ButtonCallback
-?
 )
 =
 Unit
@@ -1046,7 +1050,6 @@ onColorPrompt
 session
 :
 GeckoSession
-?
 title
 :
 String
@@ -1058,7 +1061,6 @@ String
 callback
 :
 TextCallback
-?
 )
 =
 Unit
@@ -1093,7 +1095,6 @@ onAuthPrompt
 session
 :
 GeckoSession
-?
 title
 :
 String
@@ -1105,11 +1106,9 @@ String
 options
 :
 AuthOptions
-?
 callback
 :
 AuthCallback
-?
 )
 =
 Unit
@@ -1144,7 +1143,6 @@ onTextPrompt
 session
 :
 GeckoSession
-?
 title
 :
 String
@@ -1160,7 +1158,6 @@ String
 callback
 :
 TextCallback
-?
 )
 =
 Unit
@@ -1195,7 +1192,6 @@ onPopupRequest
 session
 :
 GeckoSession
-?
 targetUri
 :
 String
