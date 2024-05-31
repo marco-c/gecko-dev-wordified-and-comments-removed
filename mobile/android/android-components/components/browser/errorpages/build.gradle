@@ -130,7 +130,7 @@ pro
 }
 dependencies
 {
-provided
+compileOnly
 '
 com
 .
@@ -148,7 +148,7 @@ annotations
 .
 0
 '
-provided
+compileOnly
 "
 org
 .

@@ -127,12 +127,10 @@ pro
 '
 }
 }
-publishNonDefault
-true
 }
 dependencies
 {
-provided
+compileOnly
 "
 org
 .
@@ -146,7 +144,7 @@ stdlib
 :
 kotlin_version
 "
-provided
+compileOnly
 "
 com
 .
@@ -164,7 +162,7 @@ compat
 .
 0
 "
-testCompile
+testImplementation
 "
 org
 .
@@ -178,7 +176,7 @@ stdlib
 :
 kotlin_version
 "
-testCompile
+testImplementation
 '
 junit
 :
@@ -188,7 +186,7 @@ junit
 .
 12
 '
-testCompile
+testImplementation
 "
 org
 .
@@ -202,7 +200,7 @@ robolectric
 .
 1
 "
-testCompile
+testImplementation
 '
 org
 .
