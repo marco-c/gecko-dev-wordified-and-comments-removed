@@ -842,7 +842,7 @@ Boolean
 return
 TimespansStorageEngine
 .
-getSnapshot
+getSnapshotWithTimeUnit
 (
 pingName
 false
@@ -869,6 +869,14 @@ for
 testing
 purposes
 only
+in
+the
+metric
+'
+s
+time
+unit
+.
 *
 *
 param
@@ -952,7 +960,7 @@ Long
 return
 TimespansStorageEngine
 .
-getSnapshot
+getSnapshotWithTimeUnit
 (
 pingName
 false
@@ -964,5 +972,7 @@ identifier
 ]
 !
 !
+.
+second
 }
 }

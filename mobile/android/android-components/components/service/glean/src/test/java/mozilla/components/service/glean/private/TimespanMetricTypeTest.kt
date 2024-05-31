@@ -983,7 +983,7 @@ timeUnit
 =
 TimeUnit
 .
-Second
+Nanosecond
 )
 metric
 .
@@ -1041,7 +1041,7 @@ timeUnit
 =
 TimeUnit
 .
-Second
+Nanosecond
 )
 metric
 .
@@ -1138,7 +1138,7 @@ timeUnit
 =
 TimeUnit
 .
-Second
+Nanosecond
 )
 metric
 .
@@ -1211,7 +1211,7 @@ timeUnit
 =
 TimeUnit
 .
-Second
+Nanosecond
 )
 TimingManager
 .
