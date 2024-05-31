@@ -628,12 +628,6 @@ webrtc
 AudioProcessing
 >
 audio_processing
-webrtc
-:
-:
-AudioFrameProcessor
-*
-audio_frame_processor
 std
 :
 :
@@ -1042,14 +1036,6 @@ AudioProcessing
 >
 apm_
 ;
-webrtc
-:
-:
-AudioFrameProcessor
-*
-const
-audio_frame_processor_
-;
 std
 :
 :
@@ -1060,7 +1046,7 @@ webrtc
 :
 AudioFrameProcessor
 >
-owned_audio_frame_processor_
+audio_frame_processor_
 ;
 rtc
 :

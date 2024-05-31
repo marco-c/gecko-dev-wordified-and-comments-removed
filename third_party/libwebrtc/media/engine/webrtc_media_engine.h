@@ -338,15 +338,6 @@ AudioProcessing
 >
 audio_processing
 ;
-webrtc
-:
-:
-AudioFrameProcessor
-*
-audio_frame_processor
-=
-nullptr
-;
 std
 :
 :

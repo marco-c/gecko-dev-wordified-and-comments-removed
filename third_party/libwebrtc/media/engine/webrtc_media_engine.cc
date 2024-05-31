@@ -256,9 +256,6 @@ dependencies
 .
 audio_processing
 )
-dependencies
-.
-audio_frame_processor
 std
 :
 :

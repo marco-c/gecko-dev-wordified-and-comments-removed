@@ -323,7 +323,6 @@ deps
 .
 audio_processing
 )
-nullptr
 std
 :
 :
