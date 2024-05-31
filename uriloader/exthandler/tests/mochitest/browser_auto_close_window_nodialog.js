@@ -159,8 +159,6 @@ prototype
 show
 (
 aLauncher
-aWindowContext
-aReason
 )
 {
 ok
@@ -203,7 +201,6 @@ promptForSaveToFileAsync
 (
 aLauncher
 aWindowContext
-aReason
 )
 {
 ok

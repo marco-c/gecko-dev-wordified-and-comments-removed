@@ -740,7 +740,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 resolve

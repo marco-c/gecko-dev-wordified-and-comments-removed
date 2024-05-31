@@ -267,8 +267,6 @@ prototype
 show
 (
 aLauncher
-aWindowContext
-aReason
 )
 {
 if
@@ -353,8 +351,6 @@ promptForSaveToFileAsync
 appLauncher
 parent
 filename
-extension
-forceSave
 )
 {
 if

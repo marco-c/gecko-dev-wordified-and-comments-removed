@@ -2182,7 +2182,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -4612,7 +4611,6 @@ nsILocalHandlerApp
 launchWithURI
 (
 uri
-context
 )
 {
 Services

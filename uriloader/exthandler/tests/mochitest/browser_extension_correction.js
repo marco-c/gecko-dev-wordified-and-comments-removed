@@ -834,7 +834,8 @@ text
 html
 "
 async
-browser
+(
+)
 =
 >
 {

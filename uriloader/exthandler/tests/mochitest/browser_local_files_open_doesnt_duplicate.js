@@ -288,10 +288,7 @@ downloaded
 -
 file
 "
-(
 subject
-data
-)
 =
 >
 {
@@ -582,10 +579,7 @@ downloaded
 -
 file
 "
-(
 subject
-data
-)
 =
 >
 {

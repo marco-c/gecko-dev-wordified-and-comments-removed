@@ -115,7 +115,6 @@ async
 function
 testPdfFilePicker
 (
-mimeInfo
 )
 {
 await
