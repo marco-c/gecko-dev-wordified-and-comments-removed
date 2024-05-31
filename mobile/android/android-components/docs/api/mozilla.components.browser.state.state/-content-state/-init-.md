@@ -294,6 +294,15 @@ md
 SecurityInfoState
 (
 )
+thumbnail
+:
+<
+ERROR
+CLASS
+>
+?
+=
+null
 )
 Value
 type

@@ -131,7 +131,7 @@ ContentState
 .
 kt
 #
-L27
+L31
 )
 the
 security
@@ -160,7 +160,7 @@ whether
 or
 not
 the
-current
+this
 session
 is
 for
@@ -210,7 +210,7 @@ whether
 or
 not
 the
-current
+this
 session
 is
 for
