@@ -274,12 +274,12 @@ string
 in
 characters
 .
-private
+internal
 const
 val
 MAX_LENGTH_VALUE
 =
-50
+100
 }
 override
 fun
