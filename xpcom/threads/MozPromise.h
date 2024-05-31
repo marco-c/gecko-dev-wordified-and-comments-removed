@@ -3422,7 +3422,6 @@ ThenValue
 using
 R1
 =
-typename
 RemoveSmartPointer
 <
 MethodReturnType
@@ -3430,14 +3429,10 @@ MethodReturnType
 ResolveMethodType
 >
 >
-:
-:
-Type
 ;
 using
 R2
 =
-typename
 RemoveSmartPointer
 <
 MethodReturnType
@@ -3445,9 +3440,6 @@ MethodReturnType
 RejectMethodType
 >
 >
-:
-:
-Type
 ;
 constexpr
 static
@@ -3690,7 +3682,6 @@ ThenValue
 using
 R1
 =
-typename
 RemoveSmartPointer
 <
 MethodReturnType
@@ -3698,9 +3689,6 @@ MethodReturnType
 ResolveRejectMethodType
 >
 >
-:
-:
-Type
 ;
 constexpr
 static
@@ -3878,7 +3866,6 @@ ThenValue
 using
 R1
 =
-typename
 RemoveSmartPointer
 <
 MethodReturnType
@@ -3886,14 +3873,10 @@ MethodReturnType
 ResolveFunction
 >
 >
-:
-:
-Type
 ;
 using
 R2
 =
-typename
 RemoveSmartPointer
 <
 MethodReturnType
@@ -3901,9 +3884,6 @@ MethodReturnType
 RejectFunction
 >
 >
-:
-:
-Type
 ;
 constexpr
 static
@@ -4185,7 +4165,6 @@ ThenValue
 using
 R1
 =
-typename
 RemoveSmartPointer
 <
 MethodReturnType
@@ -4193,9 +4172,6 @@ MethodReturnType
 ResolveRejectFunction
 >
 >
-:
-:
-Type
 ;
 constexpr
 static
@@ -8634,14 +8610,10 @@ aFunction
 )
 )
 >
-:
-:
-value
 &
 &
 IsMozPromise
 <
-typename
 RemoveSmartPointer
 <
 decltype
@@ -8651,9 +8623,6 @@ aFunction
 )
 )
 >
-:
-:
-Type
 >
 "
 Function
@@ -8673,7 +8642,6 @@ aTarget
 )
 ;
 typedef
-typename
 RemoveSmartPointer
 <
 decltype
@@ -8683,9 +8651,6 @@ aFunction
 )
 )
 >
-:
-:
-Type
 PromiseType
 ;
 typedef
