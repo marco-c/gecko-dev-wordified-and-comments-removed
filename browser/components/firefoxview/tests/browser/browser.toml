@@ -366,6 +366,14 @@ mac
 &
 verify
 "
+"
+os
+=
+=
+'
+linux
+'
+"
 ]
 #
 macos
@@ -380,6 +388,12 @@ windows
 see
 bug
 1858460
+skipped
+for
+linux
+see
+bug
+1875877
 [
 "
 browser_opentabs_tab_indicators
