@@ -1775,7 +1775,11 @@ w
 0
 ]
 =
-0x0
+aConfigLength
+?
+0
+:
+1
 ;
 w
 [
