@@ -3075,6 +3075,10 @@ stage1
 vs
 -
 toolchain
+-
+win64
+-
+libxml2
 win64
 -
 clang
@@ -3297,6 +3301,10 @@ rt
 vs
 -
 toolchain
+-
+win64
+-
+libxml2
 win64
 -
 clang
@@ -5714,6 +5722,10 @@ stage1
 vs
 -
 toolchain
+-
+win64
+-
+libxml2
 win64
 -
 clang
@@ -5936,6 +5948,10 @@ rt
 vs
 -
 toolchain
+-
+win64
+-
+libxml2
 win64
 -
 clang
@@ -8508,6 +8524,10 @@ stage1
 vs
 -
 toolchain
+-
+win64
+-
+libxml2
 win64
 -
 clang
@@ -8735,6 +8755,10 @@ trunk
 vs
 -
 toolchain
+-
+win64
+-
+libxml2
 win64
 -
 clang
