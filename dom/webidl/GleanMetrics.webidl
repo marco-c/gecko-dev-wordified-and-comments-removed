@@ -840,6 +840,12 @@ long
 sum
 ;
 required
+unsigned
+long
+long
+count
+;
+required
 record
 <
 UTF8String

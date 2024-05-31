@@ -299,6 +299,9 @@ counts
 uint64_t
 sum
 ;
+uint64_t
+count
+;
 fog_custom_distribution_test_get_value
 (
 mId
@@ -306,6 +309,8 @@ mId
 aPingName
 &
 sum
+&
+count
 &
 buckets
 &
@@ -320,6 +325,7 @@ DistributionData
 buckets
 counts
 sum
+count
 )
 )
 ;
@@ -485,6 +491,18 @@ ref
 )
 .
 sum
+;
+ret
+.
+mCount
+=
+optresult
+.
+ref
+(
+)
+.
+count
 ;
 auto
 &

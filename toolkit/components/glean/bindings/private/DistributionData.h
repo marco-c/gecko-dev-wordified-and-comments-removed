@@ -24,6 +24,9 @@ final
 uint64_t
 sum
 ;
+uint64_t
+count
+;
 nsTHashMap
 <
 nsUint64HashKey
@@ -49,11 +52,17 @@ uint64_t
 aCounts
 uint64_t
 aSum
+uint64_t
+aCount
 )
 :
 sum
 (
 aSum
+)
+count
+(
+aCount
 )
 {
 for
