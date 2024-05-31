@@ -13,7 +13,7 @@ UIA_DocumentControlTypeId
 =
 50030
 ;
-addUiaTask
+addAccessibleTask
 (
 <
 button
