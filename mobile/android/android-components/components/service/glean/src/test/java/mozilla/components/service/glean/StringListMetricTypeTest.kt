@@ -205,6 +205,11 @@ setUp
 (
 )
 {
+Glean
+.
+initialized
+=
+true
 StringListsStorageEngine
 .
 applicationContext
@@ -1080,7 +1085,7 @@ Application
 name
 =
 "
-string_metric
+string_list_metric
 "
 sendInPings
 =
@@ -1154,7 +1159,7 @@ containsKey
 "
 telemetry
 .
-string_metric
+string_list_metric
 "
 )
 )
@@ -1171,7 +1176,7 @@ snapshot
 "
 telemetry
 .
-string_metric
+string_list_metric
 "
 ]
 ?
@@ -1233,7 +1238,7 @@ containsKey
 "
 telemetry
 .
-string_metric
+string_list_metric
 "
 )
 )
@@ -1250,7 +1255,7 @@ snapshot
 "
 telemetry
 .
-string_metric
+string_list_metric
 "
 ]
 ?
