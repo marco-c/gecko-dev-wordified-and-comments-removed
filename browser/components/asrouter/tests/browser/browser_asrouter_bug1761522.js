@@ -11,7 +11,7 @@ MessageLoaderUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ asrouter
 /
 ASRouter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
