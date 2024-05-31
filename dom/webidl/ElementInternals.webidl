@@ -353,11 +353,7 @@ validationAnchor
 ;
 ElementInternals
 includes
-AccessibilityRole
-;
-ElementInternals
-includes
-AriaAttributes
+ARIAMixin
 ;
 dictionary
 ValidityStateFlags

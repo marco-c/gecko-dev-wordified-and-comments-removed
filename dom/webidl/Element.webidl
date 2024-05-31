@@ -2065,11 +2065,7 @@ GeometryUtils
 ;
 Element
 includes
-AccessibilityRole
-;
-Element
-includes
-AriaAttributes
+ARIAMixin
 ;
 /
 /
