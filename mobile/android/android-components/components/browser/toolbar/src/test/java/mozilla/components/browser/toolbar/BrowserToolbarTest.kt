@@ -93,12 +93,6 @@ Drawable
 import
 android
 .
-util
-.
-AttributeSet
-import
-android
-.
 view
 .
 View
@@ -151,11 +145,13 @@ androidx
 .
 test
 .
-core
+ext
 .
-app
+junit
 .
-ApplicationProvider
+runners
+.
+AndroidJUnit4
 import
 mozilla
 .
@@ -276,6 +272,18 @@ support
 test
 .
 mock
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+robolectric
+.
+testContext
 import
 org
 .
@@ -419,7 +427,9 @@ org
 .
 robolectric
 .
-RobolectricTestRunner
+Robolectric
+.
+buildAttributeSet
 import
 org
 .
@@ -428,7 +438,7 @@ robolectric
 Shadows
 RunWith
 (
-RobolectricTestRunner
+AndroidJUnit4
 :
 :
 class
@@ -436,20 +446,6 @@ class
 class
 BrowserToolbarTest
 {
-private
-val
-context
-:
-Context
-get
-(
-)
-=
-ApplicationProvider
-.
-getApplicationContext
-(
-)
 Test
 fun
 display
@@ -466,7 +462,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertTrue
 (
@@ -513,7 +509,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertTrue
 (
@@ -591,7 +587,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -675,7 +671,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -737,7 +733,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -823,7 +819,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -936,7 +932,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 ediToolbar
@@ -1034,7 +1030,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 root
@@ -1082,7 +1078,7 @@ Shadows
 .
 shadowOf
 (
-context
+testContext
 .
 getSystemService
 (
@@ -1166,7 +1162,7 @@ eventType
 )
 assertEquals
 (
-context
+testContext
 .
 getString
 (
@@ -1320,7 +1316,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -1422,7 +1418,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 mockedListener
@@ -1531,7 +1527,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 listener
@@ -1596,7 +1592,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 widthSpec
@@ -1671,7 +1667,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 widthSpec
@@ -1748,7 +1744,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertEquals
 (
@@ -1885,7 +1881,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -1984,7 +1980,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -2076,7 +2072,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -2169,7 +2165,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -2322,7 +2318,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertNull
 (
@@ -2384,7 +2380,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -2458,7 +2454,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -2532,7 +2528,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 editToolbar
@@ -2601,7 +2597,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 /
 /
@@ -2642,7 +2638,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -2825,7 +2821,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -2897,7 +2893,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -2965,7 +2961,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 ediToolbar
@@ -3104,7 +3100,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -3197,7 +3193,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 displayToolbar
@@ -3246,7 +3242,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 var
 hasBeenLongClicked
@@ -3314,7 +3310,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -3337,7 +3333,7 @@ spy
 (
 DisplayToolbar
 (
-context
+testContext
 toolbar
 )
 )
@@ -3357,7 +3353,7 @@ spy
 (
 EditToolbar
 (
-context
+testContext
 toolbar
 )
 )
@@ -3498,7 +3494,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertNull
 (
@@ -3551,7 +3547,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 listener
@@ -3620,7 +3616,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 listener
@@ -3745,7 +3741,7 @@ linearLayout
 =
 LinearLayout
 (
-context
+testContext
 )
 var
 view
@@ -4065,7 +4061,7 @@ linearLayout
 =
 LinearLayout
 (
-context
+testContext
 )
 var
 view
@@ -4234,7 +4230,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertNull
 (
@@ -4323,7 +4319,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertTrue
 (
@@ -4405,7 +4401,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertTrue
 (
@@ -4487,7 +4483,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertTrue
 (
@@ -4557,7 +4553,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertTrue
 (
@@ -4603,7 +4599,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -4647,7 +4643,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertEquals
 (
@@ -4717,7 +4713,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -4756,7 +4752,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 typeface
@@ -4844,14 +4840,16 @@ application
 =
 spy
 (
-context
+testContext
 )
 val
 attributeSet
-:
-AttributeSet
 =
-mock
+buildAttributeSet
+(
+)
+.
+build
 (
 )
 BrowserToolbar
@@ -4913,7 +4911,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertEquals
 (
@@ -4979,7 +4977,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertEquals
 (
@@ -5005,7 +5003,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertEquals
 (
@@ -5031,7 +5029,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertEquals
 (
@@ -5057,7 +5055,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 assertEquals
 (
@@ -5086,7 +5084,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -5454,7 +5452,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 toolbar
 .
@@ -5514,7 +5512,7 @@ toolbar
 =
 BrowserToolbar
 (
-context
+testContext
 )
 val
 editToolbar
