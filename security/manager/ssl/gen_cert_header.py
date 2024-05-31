@@ -131,6 +131,10 @@ addonsStageRoot
 "
     
 "
+addonsStageIntermediate
+"
+    
+"
 contentSignatureDevRoot
 "
     
