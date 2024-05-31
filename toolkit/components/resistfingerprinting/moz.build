@@ -44,6 +44,16 @@ RelativeTimeline
 cpp
 "
 ]
+SOURCES
++
+=
+[
+"
+nsUserCharacteristics
+.
+cpp
+"
+]
 SPHINX_TREES
 [
 "
