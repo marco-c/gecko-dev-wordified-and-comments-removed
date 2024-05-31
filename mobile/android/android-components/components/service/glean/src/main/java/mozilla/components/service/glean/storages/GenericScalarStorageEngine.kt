@@ -743,6 +743,12 @@ getAll
 might
 throw
 .
+Suppress
+(
+"
+TooGenericExceptionCaught
+"
+)
 try
 {
 userLifetimeStorage
