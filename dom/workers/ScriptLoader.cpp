@@ -2460,6 +2460,17 @@ forget
 )
 ;
 }
+if
+(
+!
+aWorkerPrivate
+-
+>
+IsServiceWorker
+(
+)
+)
+{
 self
 -
 >
@@ -2467,6 +2478,7 @@ InitModuleLoader
 (
 )
 ;
+}
 return
 self
 .
