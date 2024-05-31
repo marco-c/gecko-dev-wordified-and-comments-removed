@@ -1041,7 +1041,7 @@ a
 working
 SharedPreferences
 implementation
-var
+val
 applicationContext
 =
 ApplicationProvider

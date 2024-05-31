@@ -758,6 +758,13 @@ data
 "
 pingData
 )
+assertEquals
+(
+Glean
+.
+configuration
+config
+)
 return
 false
 }
