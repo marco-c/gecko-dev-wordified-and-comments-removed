@@ -121,8 +121,6 @@ prefix
 :
 "
 macOSPoliciesParser
-.
-jsm
 "
 /
 /

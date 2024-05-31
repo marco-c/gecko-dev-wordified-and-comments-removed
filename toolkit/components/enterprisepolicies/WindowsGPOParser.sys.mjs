@@ -120,9 +120,7 @@ ConsoleAPI
 prefix
 :
 "
-GPOParser
-.
-jsm
+WindowsGPOParser
 "
 /
 /

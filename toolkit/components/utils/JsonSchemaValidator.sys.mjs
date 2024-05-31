@@ -213,8 +213,6 @@ prefix
 :
 "
 JsonSchemaValidator
-.
-jsm
 "
 /
 /

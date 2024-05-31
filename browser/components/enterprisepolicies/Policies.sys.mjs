@@ -435,8 +435,6 @@ prefix
 :
 "
 Policies
-.
-jsm
 "
 /
 /
@@ -1694,7 +1692,9 @@ here
 .
 UpdateService
 .
-jsm
+sys
+.
+mjs
 will
 check
 /
@@ -1722,7 +1722,9 @@ here
 .
 UpdateService
 .
-jsm
+sys
+.
+mjs
 will
 check
 for
@@ -6106,7 +6108,9 @@ directly
 in
 EnterprisePoliciesParent
 .
-jsm
+sys
+.
+mjs
 /
 /
 and
