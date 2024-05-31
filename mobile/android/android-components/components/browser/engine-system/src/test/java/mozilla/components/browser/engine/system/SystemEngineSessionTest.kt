@@ -180,12 +180,6 @@ org
 junit
 .
 Assert
-import
-org
-.
-junit
-.
-Assert
 .
 assertEquals
 import
@@ -2274,10 +2268,18 @@ webViewSettings
 builtInZoomControls
 =
 true
+verify
+(
+webViewSettings
+)
+.
+displayZoomControls
+=
+false
 }
 Test
 fun
-defaultSettings
+withProvidedDefaultSettings
 (
 )
 {
@@ -2317,7 +2319,7 @@ javaScriptCanOpenWindowsAutomatically
 true
 displayZoomControls
 =
-false
+true
 loadWithOverviewMode
 =
 true
@@ -2363,11 +2365,6 @@ getApplicationContext
 (
 )
 )
-engineSession
-.
-webView
-=
-webView
 val
 webViewSettings
 =
@@ -2393,9 +2390,9 @@ webViewSettings
 )
 engineSession
 .
-initSettings
-(
-)
+webView
+=
+webView
 verify
 (
 webViewSettings
@@ -2445,7 +2442,7 @@ webViewSettings
 .
 displayZoomControls
 =
-false
+true
 verify
 (
 webViewSettings
@@ -3735,8 +3732,6 @@ webViewErrorMappingToErrorType
 (
 )
 {
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3751,8 +3746,6 @@ WebViewClient
 ERROR_HOST_LOOKUP
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3767,8 +3760,6 @@ WebViewClient
 ERROR_CONNECT
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3783,8 +3774,6 @@ WebViewClient
 ERROR_IO
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3799,8 +3788,6 @@ WebViewClient
 ERROR_TIMEOUT
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3815,8 +3802,6 @@ WebViewClient
 ERROR_REDIRECT_LOOP
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3831,8 +3816,6 @@ WebViewClient
 ERROR_UNSUPPORTED_SCHEME
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3847,8 +3830,6 @@ WebViewClient
 ERROR_FAILED_SSL_HANDSHAKE
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3863,8 +3844,6 @@ WebViewClient
 ERROR_BAD_URL
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3879,8 +3858,6 @@ WebViewClient
 ERROR_TOO_MANY_REQUESTS
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
@@ -3895,8 +3872,6 @@ WebViewClient
 ERROR_FILE_NOT_FOUND
 )
 )
-Assert
-.
 assertEquals
 (
 ErrorType
