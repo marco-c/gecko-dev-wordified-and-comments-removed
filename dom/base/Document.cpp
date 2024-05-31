@@ -81740,6 +81740,10 @@ FlushLayoutForWholeBrowsingContextTree
 this
 )
 ;
+UpdateLastRememberedSizes
+(
+)
+;
 if
 (
 PresShell
@@ -81811,10 +81815,6 @@ continue
 }
 }
 }
-UpdateLastRememberedSizes
-(
-)
-;
 GatherAllActiveResizeObservations
 (
 shallowestTargetDepth
