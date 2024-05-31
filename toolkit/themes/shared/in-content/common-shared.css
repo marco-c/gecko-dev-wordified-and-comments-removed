@@ -6491,6 +6491,16 @@ height
 }
 html
 |
+textarea
+{
+min
+-
+height
+:
+auto
+}
+html
+|
 input
 :
 where
