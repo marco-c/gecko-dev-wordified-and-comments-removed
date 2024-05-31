@@ -14017,6 +14017,15 @@ kind
 LabelKind
 :
 :
+TryTable
+&
+&
+kind
+!
+=
+LabelKind
+:
+:
 Body
 )
 {
