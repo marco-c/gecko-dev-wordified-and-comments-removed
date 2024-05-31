@@ -94,7 +94,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -239,7 +239,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -310,7 +310,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -428,7 +428,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -499,7 +499,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -617,7 +617,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -698,7 +698,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -845,7 +845,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -926,7 +926,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -1073,7 +1073,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -1154,7 +1154,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -1299,7 +1299,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
@@ -1420,7 +1420,7 @@ privacy
 .
 sanitize
 .
-sanitizeOnShutdown
+clearOnShutdown
 .
 hasMigratedToNewPrefs
 "
