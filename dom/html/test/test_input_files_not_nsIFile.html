@@ -218,7 +218,14 @@ MockFilePicker
 .
 init
 (
+SpecialPowers
+.
+wrap
+(
 window
+)
+.
+browsingContext
 )
 ;
 SimpleTest
