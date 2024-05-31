@@ -728,6 +728,9 @@ ScrollSnapType
 ScrollTimelineName
 "
 "
+TransitionBehavior
+"
+"
 ViewTimelineInset
 "
 "

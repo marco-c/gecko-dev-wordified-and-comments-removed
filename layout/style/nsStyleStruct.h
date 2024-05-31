@@ -5134,6 +5134,14 @@ eCSSProperty_all
 )
 }
 ;
+StyleTransitionBehavior
+mBehavior
+=
+StyleTransitionBehavior
+:
+:
+Normal
+;
 }
 ;
 struct
@@ -8079,6 +8087,9 @@ mTransitionDelayCount
 ;
 uint32_t
 mTransitionPropertyCount
+;
+uint32_t
+mTransitionBehaviorCount
 ;
 nsStyleAutoArray
 <
