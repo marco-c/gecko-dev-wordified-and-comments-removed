@@ -14483,6 +14483,8 @@ docShell
 chromeEventHandler
 .
 ownerGlobal
+.
+browsingContext
 title
 Ci
 .

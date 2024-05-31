@@ -900,6 +900,8 @@ fp
 init
 (
 window
+.
+browsingContext
 this
 .
 _incomingParams

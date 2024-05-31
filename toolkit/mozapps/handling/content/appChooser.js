@@ -1326,6 +1326,8 @@ fp
 init
 (
 window
+.
+browsingContext
 title
 Ci
 .
