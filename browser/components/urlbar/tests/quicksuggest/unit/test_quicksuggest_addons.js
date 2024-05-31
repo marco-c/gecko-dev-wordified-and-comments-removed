@@ -197,7 +197,7 @@ two
 words
 "
 "
-a
+aa
 b
 c
 "
@@ -1576,7 +1576,7 @@ settings
 input
 :
 "
-a
+aa
 "
 expected
 :
@@ -1608,7 +1608,7 @@ settings
 input
 :
 "
-a
+aa
 "
 expected
 :
@@ -1640,7 +1640,7 @@ settings
 input
 :
 "
-a
+aa
 b
 "
 expected
@@ -1673,7 +1673,7 @@ settings
 input
 :
 "
-a
+aa
 b
 "
 expected
@@ -1706,7 +1706,7 @@ settings
 input
 :
 "
-a
+aa
 b
 c
 "
