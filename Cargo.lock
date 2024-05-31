@@ -25484,6 +25484,9 @@ dependencies
 "
 libc
 "
+"
+version_check
+"
 ]
 [
 [
