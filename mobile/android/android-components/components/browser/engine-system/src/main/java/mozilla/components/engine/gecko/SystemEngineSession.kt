@@ -63,7 +63,7 @@ components
 .
 engine
 .
-system
+gecko
 import
 mozilla
 .
