@@ -40,11 +40,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestSyncHang
-.
-h
-"
-"
 TestSyncWakeup
 .
 h
@@ -71,11 +66,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestSyncHang
 .
 cpp
 "
@@ -152,11 +142,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestSyncHang
 .
 ipdl
 "
