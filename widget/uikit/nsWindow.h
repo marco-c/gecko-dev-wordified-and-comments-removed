@@ -61,7 +61,6 @@ Inherited
 nodiscard
 ]
 ]
-virtual
 nsresult
 Create
 (
@@ -74,6 +73,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
+mozilla
+:
+:
 widget
 :
 :
@@ -85,14 +87,12 @@ nullptr
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 void
 Show
 (
@@ -101,7 +101,6 @@ aState
 )
 override
 ;
-virtual
 void
 Enable
 (
@@ -111,7 +110,6 @@ aState
 override
 {
 }
-virtual
 bool
 IsEnabled
 (
@@ -123,7 +121,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsVisible
 (
@@ -135,7 +132,6 @@ return
 mVisible
 ;
 }
-virtual
 void
 SetFocus
 (
@@ -151,14 +147,12 @@ aCallerType
 )
 override
 ;
-virtual
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
 override
 ;
-virtual
 void
 SetBackgroundColor
 (
@@ -169,7 +163,6 @@ aColor
 )
 override
 ;
-virtual
 void
 *
 GetNativeData
@@ -179,7 +172,6 @@ aDataType
 )
 override
 ;
-virtual
 void
 Move
 (
@@ -190,7 +182,6 @@ aY
 )
 override
 ;
-virtual
 nsSizeMode
 SizeMode
 (
@@ -201,7 +192,6 @@ return
 mSizeMode
 ;
 }
-virtual
 void
 SetSizeMode
 (
@@ -217,7 +207,6 @@ bool
 aFullScreen
 )
 ;
-virtual
 void
 Resize
 (
@@ -230,7 +219,6 @@ aRepaint
 )
 override
 ;
-virtual
 void
 Resize
 (
@@ -247,7 +235,6 @@ aRepaint
 )
 override
 ;
-virtual
 LayoutDeviceIntRect
 GetScreenBounds
 (
@@ -281,7 +268,6 @@ BackingScaleFactorChanged
 (
 )
 ;
-virtual
 float
 GetDPI
 (
@@ -294,7 +280,6 @@ return
 0f
 ;
 }
-virtual
 double
 GetDefaultScaleInternal
 (
@@ -307,14 +292,12 @@ BackingScaleFactor
 )
 ;
 }
-virtual
 int32_t
 RoundsWidgetCoordinatesTo
 (
 )
 override
 ;
-virtual
 nsresult
 SetTitle
 (
@@ -329,7 +312,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 Invalidate
 (
@@ -340,7 +322,6 @@ aRect
 )
 override
 ;
-virtual
 nsresult
 DispatchEvent
 (
@@ -377,7 +358,6 @@ return
 false
 ;
 }
-virtual
 void
 SetInputContext
 (
@@ -390,12 +370,13 @@ InputContextAction
 &
 aAction
 )
+override
 ;
-virtual
 InputContext
 GetInputContext
 (
 )
+override
 ;
 protected
 :
