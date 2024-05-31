@@ -29,6 +29,13 @@ h
 #
 include
 "
+MsaaAccessible
+.
+h
+"
+#
+include
+"
 nsWinUtils
 .
 h

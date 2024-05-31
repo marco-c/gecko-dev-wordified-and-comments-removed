@@ -42,10 +42,6 @@ h
 #
 include
 "
-mozilla
-/
-a11y
-/
 MsaaIdGenerator
 .
 h

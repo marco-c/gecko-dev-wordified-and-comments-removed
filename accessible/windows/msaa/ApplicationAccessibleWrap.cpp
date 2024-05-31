@@ -35,6 +35,13 @@ Components
 .
 h
 "
+#
+include
+"
+MsaaAccessible
+.
+h
+"
 using
 namespace
 mozilla

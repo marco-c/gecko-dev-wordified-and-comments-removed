@@ -22,6 +22,13 @@ h
 #
 include
 "
+MsaaAccessible
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h

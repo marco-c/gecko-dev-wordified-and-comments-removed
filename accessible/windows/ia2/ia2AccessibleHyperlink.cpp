@@ -1,6 +1,13 @@
 #
 include
 "
+ia2AccessibleHyperlink
+.
+h
+"
+#
+include
+"
 AccessibleHyperlink
 .
 h
@@ -23,6 +30,13 @@ h
 include
 "
 IUnknownImpl
+.
+h
+"
+#
+include
+"
+MsaaAccessible
 .
 h
 "
