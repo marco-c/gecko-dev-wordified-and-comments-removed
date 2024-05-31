@@ -1,9 +1,6 @@
-await
-1
-;
 export
 function
-foo
+func2
 (
 )
 {
