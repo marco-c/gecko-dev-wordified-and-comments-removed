@@ -491,6 +491,16 @@ false
 }
 if
 (
+!
+remote_ssrc_set_
+.
+empty
+(
+)
+)
+{
+if
+(
 remote_ssrc_set_
 .
 count
@@ -563,6 +573,10 @@ size
 )
 )
 ;
+return
+false
+;
+}
 if
 (
 receive_payload_type_set_
