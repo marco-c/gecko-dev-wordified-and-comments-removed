@@ -453,10 +453,6 @@ Ok
 )
 )
 }
-pub
-(
-crate
-)
 fn
 discard
 (
@@ -699,10 +695,6 @@ A
 HalApi
 >
 {
-pub
-(
-crate
-)
 encoder
 :
 CommandEncoder

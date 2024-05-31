@@ -769,7 +769,7 @@ A
 :
 CommandEncoder
 pub
-is_recording
+is_active
 :
 bool
 pub
@@ -856,7 +856,7 @@ Self
 Self
 {
 command_encoder
-is_recording
+is_active
 :
 false
 temp_resources
@@ -913,7 +913,7 @@ unsafe
 if
 self
 .
-is_recording
+is_active
 {
 self
 .
@@ -1057,7 +1057,7 @@ clear
 if
 self
 .
-is_recording
+is_active
 {
 let
 cmd_buf
@@ -1076,7 +1076,7 @@ end_encoding
 ;
 self
 .
-is_recording
+is_active
 =
 false
 ;
@@ -1240,7 +1240,7 @@ if
 !
 self
 .
-is_recording
+is_active
 {
 unsafe
 {
@@ -1269,7 +1269,7 @@ unwrap
 }
 self
 .
-is_recording
+is_active
 =
 true
 ;
@@ -1292,7 +1292,7 @@ self
 if
 self
 .
-is_recording
+is_active
 {
 unsafe
 {
@@ -1307,7 +1307,7 @@ discard_encoding
 }
 self
 .
-is_recording
+is_active
 =
 false
 ;
@@ -6982,6 +6982,8 @@ TextureInner
 Surface
 {
 ref
+has_work
+ref
 raw
 .
 .
@@ -6990,6 +6992,17 @@ raw
 =
 >
 {
+has_work
+.
+store
+(
+true
+Ordering
+:
+:
+Relaxed
+)
+;
 if
 raw
 .
@@ -8031,6 +8044,8 @@ TextureInner
 Surface
 {
 ref
+has_work
+ref
 raw
 .
 .
@@ -8039,6 +8054,17 @@ raw
 =
 >
 {
+has_work
+.
+store
+(
+true
+Ordering
+:
+:
+Relaxed
+)
+;
 if
 raw
 .

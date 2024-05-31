@@ -2947,10 +2947,11 @@ buffer_map_async
 (
 buffer_id
 start
-Some
-(
+.
+.
+start
++
 size
-)
 operation
 )
 )
