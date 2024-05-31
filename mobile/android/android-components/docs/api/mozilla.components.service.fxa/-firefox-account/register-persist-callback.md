@@ -160,7 +160,7 @@ FirefoxAccount
 .
 kt
 #
-L72
+L62
 )
 Registers
 a

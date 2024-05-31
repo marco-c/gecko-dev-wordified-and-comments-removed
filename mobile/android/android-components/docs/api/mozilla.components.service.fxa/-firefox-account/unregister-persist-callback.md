@@ -144,7 +144,7 @@ FirefoxAccount
 .
 kt
 #
-L79
+L69
 )
 Unregisters
 any

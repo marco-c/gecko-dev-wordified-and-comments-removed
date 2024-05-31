@@ -171,5 +171,5 @@ PlacesHistoryStorage
 .
 kt
 #
-L29
+L27
 )

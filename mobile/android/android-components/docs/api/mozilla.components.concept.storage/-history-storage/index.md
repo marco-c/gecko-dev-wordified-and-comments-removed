@@ -1076,6 +1076,17 @@ SyncableStore
 .
 .
 /
+.
+.
+/
+mozilla
+.
+components
+.
+concept
+.
+sync
+/
 -
 syncable
 -
@@ -1085,9 +1096,6 @@ index
 .
 md
 )
-<
-SyncAuthInfo
->
 <
 br
 >

@@ -104,5 +104,5 @@ PlacesHistoryStorage
 .
 kt
 #
-L31
+L29
 )

@@ -204,7 +204,7 @@ components
 .
 concept
 .
-storage
+sync
 /
 -
 syncable
@@ -215,9 +215,6 @@ index
 .
 md
 )
-<
-SyncAuthInfo
->
 <
 br
 >

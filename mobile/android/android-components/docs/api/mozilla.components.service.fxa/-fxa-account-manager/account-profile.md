@@ -68,6 +68,17 @@ Profile
 .
 .
 /
+.
+.
+/
+mozilla
+.
+components
+.
+concept
+.
+sync
+/
 -
 profile
 /
@@ -128,5 +139,5 @@ FxaAccountManager
 .
 kt
 #
-L215
+L195
 )
