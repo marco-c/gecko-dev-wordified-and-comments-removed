@@ -440,7 +440,7 @@ history
 let
 maxLength
 =
-0
+30
 ;
 for
 (
