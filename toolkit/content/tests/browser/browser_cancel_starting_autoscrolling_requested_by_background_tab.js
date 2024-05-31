@@ -66,16 +66,6 @@ Mac
 "
 )
 ]
-[
-"
-browser
-.
-tabs
-.
-loadInBackground
-"
-false
-]
 ]
 }
 )
