@@ -158,7 +158,7 @@ override
 var
 url
 :
-String
+CharSequence
 =
 "
 "

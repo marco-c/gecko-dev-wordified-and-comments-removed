@@ -1281,7 +1281,7 @@ updateUrl
 (
 url
 :
-String
+CharSequence
 )
 {
 urlView

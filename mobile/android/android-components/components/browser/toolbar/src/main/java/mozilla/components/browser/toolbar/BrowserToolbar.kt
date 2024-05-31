@@ -1898,7 +1898,7 @@ override
 var
 url
 :
-String
+CharSequence
 =
 "
 "
@@ -2905,6 +2905,10 @@ editToolbar
 updateUrl
 (
 urlValue
+.
+toString
+(
+)
 )
 updateState
 (

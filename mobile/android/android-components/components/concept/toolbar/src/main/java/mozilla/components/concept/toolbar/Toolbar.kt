@@ -206,7 +206,7 @@ toolbar
 var
 url
 :
-String
+CharSequence
 /
 *
 *
