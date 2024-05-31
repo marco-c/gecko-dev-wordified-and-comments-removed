@@ -69,7 +69,11 @@ library
 android
 {
 compileSdkVersion
-26
+rootProject
+.
+ext
+.
+compileSdkVersion
 defaultConfig
 {
 minSdkVersion

@@ -33,6 +33,11 @@ kotlin_version
 .
 30
 '
+ext
+.
+compileSdkVersion
+=
+27
 repositories
 {
 google
