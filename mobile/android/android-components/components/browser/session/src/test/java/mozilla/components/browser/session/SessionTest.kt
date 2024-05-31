@@ -1170,12 +1170,6 @@ session
 searchTerms
 =
 "
-"
-session
-.
-searchTerms
-=
-"
 mozilla
 android
 "
