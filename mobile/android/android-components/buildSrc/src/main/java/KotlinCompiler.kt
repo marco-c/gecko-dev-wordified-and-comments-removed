@@ -232,11 +232,6 @@ fetch
 okhttp
 "
 "
-lib
--
-jexl
-"
-"
 samples
 -
 toolbar
