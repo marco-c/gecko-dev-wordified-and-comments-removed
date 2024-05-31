@@ -123,8 +123,7 @@ PackingInfo
 const
 TexUnpackBlobDesc
 &
-bool
-isRgb8Renderable
+OptionalRenderableFormatBits
 )
 ;
 class
