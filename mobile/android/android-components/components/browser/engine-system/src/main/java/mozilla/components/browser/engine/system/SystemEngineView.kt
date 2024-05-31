@@ -539,6 +539,9 @@ session
 EngineSession
 )
 {
+removeAllViews
+(
+)
 this
 .
 session
@@ -550,7 +553,6 @@ SystemEngineSession
 session
 .
 webView
-?
 .
 parent
 as
