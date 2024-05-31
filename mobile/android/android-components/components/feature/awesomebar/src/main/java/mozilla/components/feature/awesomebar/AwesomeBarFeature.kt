@@ -123,6 +123,16 @@ components
 .
 concept
 .
+fetch
+.
+Client
+import
+mozilla
+.
+components
+.
+concept
+.
 storage
 .
 HistoryStorage
@@ -476,6 +486,9 @@ searchUseCase
 SearchUseCases
 .
 SearchUseCase
+fetchClient
+:
+Client
 mode
 :
 SearchSuggestionProvider
@@ -499,6 +512,7 @@ SearchSuggestionProvider
 (
 searchEngine
 searchUseCase
+fetchClient
 mode
 )
 )
