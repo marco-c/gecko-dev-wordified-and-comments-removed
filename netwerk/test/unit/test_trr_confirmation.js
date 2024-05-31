@@ -1374,7 +1374,7 @@ await
 waitForConfirmationState
 (
 CONFIRM_OK
-4500
+6000
 )
 ;
 }
