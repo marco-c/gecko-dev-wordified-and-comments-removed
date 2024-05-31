@@ -326,13 +326,6 @@ Requests
 1
 "
 "
-Priority
-:
-u
-=
-1
-"
-"
 Pragma
 :
 no

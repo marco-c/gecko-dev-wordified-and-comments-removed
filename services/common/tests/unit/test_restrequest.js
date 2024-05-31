@@ -3634,9 +3634,6 @@ fetch
 -
 user
 "
-"
-priority
-"
 ]
 ;
 let

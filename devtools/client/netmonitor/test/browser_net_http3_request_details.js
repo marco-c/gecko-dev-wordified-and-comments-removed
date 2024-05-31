@@ -395,12 +395,12 @@ TE
 )
 .
 length
-26
+25
 "
 There
 should
 be
-26
+25
 header
 values
 displayed
