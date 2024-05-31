@@ -136,9 +136,7 @@ notification_emails
 CHANGE
 -
 ME
-test
--
-only
+example
 .
 com
 extra_keys
@@ -199,9 +197,7 @@ notification_emails
 CHANGE
 -
 ME
-test
--
-only
+example
 .
 com
 expires
@@ -242,9 +238,7 @@ notification_emails
 CHANGE
 -
 ME
-test
--
-only
+example
 .
 com
 expires
@@ -290,9 +284,7 @@ notification_emails
 CHANGE
 -
 ME
-test
--
-only
+example
 .
 com
 expires
@@ -335,9 +327,7 @@ notification_emails
 CHANGE
 -
 ME
-test
--
-only
+example
 .
 com
 expires
@@ -380,9 +370,7 @@ notification_emails
 CHANGE
 -
 ME
-test
--
-only
+example
 .
 com
 expires

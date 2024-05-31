@@ -284,9 +284,7 @@ notification_emails
 CHANGE
 -
 ME
-test
--
-only
+example
 .
 com
 bugs
@@ -300,9 +298,7 @@ http
 :
 /
 /
-test
--
-only
+example
 .
 com
 /
