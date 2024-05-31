@@ -73,6 +73,18 @@ android
 .
 Manifest
 import
+androidx
+.
+test
+.
+ext
+.
+junit
+.
+runners
+.
+AndroidJUnit4
+import
 mozilla
 .
 components
@@ -151,12 +163,6 @@ GeckoSession
 import
 org
 .
-robolectric
-.
-RobolectricTestRunner
-import
-org
-.
 mozilla
 .
 geckoview
@@ -192,7 +198,7 @@ PermissionDelegate
 PERMISSION_GEOLOCATION
 RunWith
 (
-RobolectricTestRunner
+AndroidJUnit4
 :
 :
 class
@@ -371,7 +377,7 @@ mozilla
 .
 org
 "
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -429,7 +435,7 @@ mozilla
 .
 org
 "
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -562,7 +568,7 @@ permission
 "
 )
 )
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -915,7 +921,7 @@ audioOther
 "
 )
 )
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -1040,7 +1046,7 @@ listOf
 (
 videoCamera
 )
-var
+val
 request
 =
 GeckoPermissionRequest
@@ -1154,7 +1160,7 @@ listOf
 (
 videoCamera
 )
-var
+val
 request
 =
 GeckoPermissionRequest
