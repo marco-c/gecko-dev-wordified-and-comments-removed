@@ -910,7 +910,7 @@ throwable
 >
 stateMap
 .
-completeExceptionally
+cancel
 (
 throwable
 )
