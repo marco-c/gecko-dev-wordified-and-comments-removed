@@ -32,7 +32,7 @@ component
 '
 publish
 :
-false
+true
 concept
 -
 fetch
@@ -61,7 +61,7 @@ resources
 '
 publish
 :
-false
+true
 concept
 -
 toolbar
@@ -87,7 +87,7 @@ component
 '
 publish
 :
-false
+true
 concept
 -
 tabstray
@@ -114,7 +114,7 @@ component
 '
 publish
 :
-false
+true
 concept
 -
 engine
@@ -142,7 +142,7 @@ implementation
 '
 publish
 :
-false
+true
 concept
 -
 storage
@@ -169,7 +169,7 @@ layer
 '
 publish
 :
-false
+true
 feature
 -
 awesomebar
@@ -199,7 +199,7 @@ awesomebar
 '
 publish
 :
-false
+true
 feature
 -
 contextmenu
@@ -226,7 +226,7 @@ content
 '
 publish
 :
-false
+true
 feature
 -
 customtabs
@@ -251,7 +251,7 @@ functionality
 '
 publish
 :
-false
+true
 feature
 -
 intent
@@ -277,7 +277,7 @@ processing
 '
 publish
 :
-false
+true
 feature
 -
 search
@@ -306,7 +306,7 @@ module
 '
 publish
 :
-false
+true
 feature
 -
 session
@@ -335,7 +335,7 @@ module
 '
 publish
 :
-false
+true
 feature
 -
 session
@@ -381,7 +381,7 @@ database
 '
 publish
 :
-false
+true
 feature
 -
 sync
@@ -408,7 +408,7 @@ components
 '
 publish
 :
-false
+true
 feature
 -
 tabs
@@ -440,7 +440,7 @@ modules
 '
 publish
 :
-false
+true
 feature
 -
 toolbar
@@ -469,7 +469,7 @@ module
 '
 publish
 :
-false
+true
 feature
 -
 downloads
@@ -499,7 +499,7 @@ manager
 '
 publish
 :
-false
+true
 feature
 -
 prompts
@@ -537,7 +537,7 @@ content
 '
 publish
 :
-false
+true
 browser
 -
 awesomebar
@@ -562,7 +562,7 @@ browsers
 '
 publish
 :
-false
+true
 browser
 -
 domains
@@ -592,7 +592,7 @@ browsers
 '
 publish
 :
-false
+true
 browser
 -
 engine
@@ -620,7 +620,7 @@ GeckoView
 '
 publish
 :
-false
+true
 browser
 -
 engine
@@ -656,7 +656,7 @@ channel
 '
 publish
 :
-false
+true
 browser
 -
 engine
@@ -691,7 +691,7 @@ Nightly
 '
 publish
 :
-false
+true
 browser
 -
 engine
@@ -721,7 +721,7 @@ WebView
 '
 publish
 :
-false
+true
 browser
 -
 engine
@@ -752,7 +752,7 @@ Engine
 '
 publish
 :
-false
+true
 browser
 -
 errorpages
@@ -778,7 +778,7 @@ apps
 '
 publish
 :
-false
+true
 browser
 -
 menu
@@ -802,7 +802,7 @@ browsers
 '
 publish
 :
-false
+true
 browser
 -
 search
@@ -832,7 +832,7 @@ them
 '
 publish
 :
-false
+true
 browser
 -
 session
@@ -860,7 +860,7 @@ implementation
 '
 publish
 :
-false
+true
 browser
 -
 storage
@@ -892,7 +892,7 @@ storage
 '
 publish
 :
-false
+true
 browser
 -
 storage
@@ -926,7 +926,7 @@ storage
 '
 publish
 :
-false
+true
 browser
 -
 tabstray
@@ -951,7 +951,7 @@ browsers
 '
 publish
 :
-false
+true
 browser
 -
 toolbar
@@ -975,7 +975,7 @@ browsers
 '
 publish
 :
-false
+true
 ui
 -
 autocomplete
@@ -1002,7 +1002,7 @@ functionality
 '
 publish
 :
-false
+true
 ui
 -
 colors
@@ -1027,7 +1027,7 @@ colors
 '
 publish
 :
-false
+true
 ui
 -
 fonts
@@ -1053,7 +1053,7 @@ Mozilla
 '
 publish
 :
-false
+true
 ui
 -
 icons
@@ -1079,7 +1079,7 @@ icons
 '
 publish
 :
-false
+true
 ui
 -
 progress
@@ -1107,7 +1107,7 @@ System
 '
 publish
 :
-false
+true
 ui
 -
 tabcounter
@@ -1131,7 +1131,7 @@ browsers
 '
 publish
 :
-false
+true
 service
 -
 firefox
@@ -1161,7 +1161,7 @@ Accounts
 '
 publish
 :
-false
+true
 service
 -
 sync
@@ -1193,7 +1193,7 @@ Logins
 '
 publish
 :
-false
+true
 service
 -
 fretboard
@@ -1230,7 +1230,7 @@ gradually
 '
 publish
 :
-false
+true
 service
 -
 glean
@@ -1265,7 +1265,7 @@ service
 '
 publish
 :
-false
+true
 service
 -
 telemetry
@@ -1301,7 +1301,7 @@ service
 '
 publish
 :
-false
+true
 support
 -
 base
@@ -1327,7 +1327,7 @@ components
 '
 publish
 :
-false
+true
 support
 -
 ktx
@@ -1351,7 +1351,7 @@ extensions
 '
 publish
 :
-false
+true
 support
 -
 test
@@ -1377,7 +1377,7 @@ components
 '
 publish
 :
-false
+true
 support
 -
 utils
@@ -1402,7 +1402,7 @@ classes
 '
 publish
 :
-false
+true
 lib
 -
 crash
@@ -1433,7 +1433,7 @@ services
 '
 publish
 :
-false
+true
 lib
 -
 dataprotect
@@ -1460,7 +1460,7 @@ data
 '
 publish
 :
-false
+true
 lib
 -
 fetch
@@ -1492,7 +1492,7 @@ HttpUrlConnection
 '
 publish
 :
-false
+true
 lib
 -
 fetch
@@ -1524,7 +1524,7 @@ OkHttp
 '
 publish
 :
-false
+true
 lib
 -
 jexl
@@ -1555,7 +1555,7 @@ evaluator
 '
 publish
 :
-false
+true
 tooling
 -
 lint
@@ -1582,7 +1582,7 @@ components
 '
 publish
 :
-true
+false
 tooling
 -
 fetch
@@ -1612,7 +1612,7 @@ implementations
 '
 publish
 :
-true
+false
 samples
 -
 browser
@@ -1636,7 +1636,7 @@ components
 '
 publish
 :
-true
+false
 samples
 -
 crash
@@ -1664,7 +1664,7 @@ component
 '
 publish
 :
-true
+false
 samples
 -
 firefox
@@ -1692,7 +1692,7 @@ integration
 '
 publish
 :
-true
+false
 samples
 -
 glean
@@ -1724,7 +1724,7 @@ data
 '
 publish
 :
-true
+false
 samples
 -
 sync
@@ -1755,7 +1755,7 @@ integration
 '
 publish
 :
-true
+false
 samples
 -
 sync
@@ -1786,7 +1786,7 @@ integration
 '
 publish
 :
-true
+false
 samples
 -
 toolbar
@@ -1815,7 +1815,7 @@ component
 '
 publish
 :
-true
+false
 samples
 -
 dataprotect
@@ -1849,4 +1849,4 @@ SharedPreferences
 '
 publish
 :
-true
+false

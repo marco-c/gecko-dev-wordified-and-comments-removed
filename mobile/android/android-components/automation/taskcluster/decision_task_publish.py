@@ -27,7 +27,7 @@ sys
 import
 lib
 .
-module_definitions
+build_config
 import
 lib
 .
@@ -1137,9 +1137,9 @@ version
 =
 lib
 .
-module_definitions
+build_config
 .
-get_version_from_gradle
+components_version
 (
 )
 if
@@ -1183,9 +1183,9 @@ info
 in
 lib
 .
-module_definitions
+build_config
 .
-from_gradle
+module_definitions
 (
 )
 if
