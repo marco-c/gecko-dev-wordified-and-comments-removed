@@ -1140,9 +1140,10 @@ AsPlanarYCbCrImage
 (
 )
 ;
-MOZ_ASSERT
+NS_ENSURE_TRUE
 (
 image
+nullptr
 )
 ;
 const
