@@ -1010,6 +1010,15 @@ type
 "
 https
 "
+&
+&
+type
+!
+=
+=
+"
+http
+"
 )
 {
 throw
@@ -1023,6 +1032,10 @@ requires
 type
 "
 https
+"
+or
+"
+http
 "
 )
 ;
