@@ -109,12 +109,9 @@ store
 fun
 save
 (
-experiments
+snapshot
 :
-List
-<
-Experiment
->
+ExperimentsSnapshot
 )
 /
 *
@@ -137,8 +134,5 @@ retrieve
 (
 )
 :
-List
-<
-Experiment
->
+ExperimentsSnapshot
 }

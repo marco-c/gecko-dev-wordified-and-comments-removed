@@ -83,7 +83,7 @@ service
 .
 fretboard
 .
-Experiment
+ExperimentStorage
 import
 mozilla
 .
@@ -93,7 +93,7 @@ service
 .
 fretboard
 .
-ExperimentStorage
+ExperimentsSnapshot
 import
 java
 .
@@ -132,10 +132,7 @@ retrieve
 (
 )
 :
-List
-<
-Experiment
->
+ExperimentsSnapshot
 {
 try
 {
@@ -168,8 +165,12 @@ FileNotFoundException
 )
 {
 return
+ExperimentsSnapshot
+(
 listOf
 (
+)
+null
 )
 }
 }
@@ -177,12 +178,9 @@ override
 fun
 save
 (
-experiments
+snapshot
 :
-List
-<
-Experiment
->
+ExperimentsSnapshot
 )
 {
 val
@@ -194,7 +192,7 @@ ExperimentsSerializer
 .
 toJson
 (
-experiments
+snapshot
 )
 atomicFile
 .
