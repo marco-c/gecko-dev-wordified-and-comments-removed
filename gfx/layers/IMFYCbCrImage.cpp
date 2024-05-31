@@ -645,6 +645,11 @@ CreateOrRecycle
 (
 helper
 )
+.
+unwrapOr
+(
+nullptr
+)
 ;
 }
 if

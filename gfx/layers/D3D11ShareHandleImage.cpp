@@ -1919,6 +1919,11 @@ CreateOrRecycle
 (
 helper
 )
+.
+unwrapOr
+(
+nullptr
+)
 ;
 return
 textureClient
