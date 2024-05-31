@@ -316,11 +316,6 @@ stop
 (
 )
 {
-interactor
-.
-stop
-(
-)
 presenter
 .
 stop

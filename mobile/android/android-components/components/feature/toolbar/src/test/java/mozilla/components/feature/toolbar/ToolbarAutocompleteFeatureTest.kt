@@ -370,7 +370,7 @@ String
 )
 -
 >
-Unit
+Boolean
 )
 {
 fail
