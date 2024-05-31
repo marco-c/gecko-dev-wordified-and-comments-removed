@@ -363,7 +363,7 @@ true
 }
 )
 ;
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 &

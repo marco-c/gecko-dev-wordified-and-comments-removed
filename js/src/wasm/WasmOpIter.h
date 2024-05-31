@@ -542,7 +542,7 @@ CallIndirect
 ReturnCallIndirect
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 CallRef
 ReturnCallRef
 #
@@ -2429,7 +2429,7 @@ results
 ;
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 inline
 bool
 checkIsSubtypeOf
@@ -3692,7 +3692,7 @@ argValues
 endif
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -5355,7 +5355,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 template
 <
 typename
@@ -13599,12 +13599,12 @@ section
 }
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 if
 (
 env_
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -15337,7 +15337,7 @@ true
 endif
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 template
 <
 typename
@@ -15502,7 +15502,7 @@ ENABLE_WASM_TAIL_CALLS
 &
 defined
 (
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 )
 template
 <

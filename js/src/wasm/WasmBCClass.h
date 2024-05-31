@@ -3027,7 +3027,7 @@ call
 ;
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 void
 callRef
 (
@@ -6299,7 +6299,7 @@ emitRefIsNull
 ;
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 [
 [
 nodiscard

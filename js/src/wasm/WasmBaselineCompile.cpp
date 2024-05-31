@@ -8619,7 +8619,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 void
 BaseCompiler
 :
@@ -19978,7 +19978,7 @@ b
 }
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 bool
 BaseCompiler
 :
@@ -26148,7 +26148,7 @@ true
 endif
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 bool
 BaseCompiler
 :
@@ -30851,7 +30851,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 bool
 BaseCompiler
 :
@@ -48882,7 +48882,7 @@ emitReturnCallIndirect
 endif
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 case
 uint16_t
 (
@@ -48897,7 +48897,7 @@ if
 !
 moduleEnv_
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -48936,7 +48936,7 @@ if
 !
 moduleEnv_
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 |
@@ -53224,7 +53224,7 @@ emitMemorySize
 ;
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 case
 uint16_t
 (
@@ -53239,7 +53239,7 @@ if
 !
 moduleEnv_
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -53275,7 +53275,7 @@ if
 !
 moduleEnv_
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -53311,7 +53311,7 @@ if
 !
 moduleEnv_
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )

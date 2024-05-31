@@ -2234,7 +2234,7 @@ NullAnyRef
 endif
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 case
 AbstractTypeRefCode
 :
@@ -2555,7 +2555,7 @@ NullAnyRef
 endif
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 case
 AbstractTypeRefCode
 :

@@ -11,7 +11,7 @@ also
 -
 setpref
 =
-wasm_function_references
+wasm_gc
 =
 true
 ;

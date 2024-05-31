@@ -649,7 +649,7 @@ directive
 -
 setpref
 =
-wasm_function_references
+wasm_gc
 =
 true
 ;
@@ -658,7 +658,7 @@ skip
 if
 :
 !
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 "

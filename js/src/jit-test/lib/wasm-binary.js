@@ -772,7 +772,7 @@ wasmTailCallsEnabled
 .
 .
 (
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 ?
@@ -792,7 +792,7 @@ wasmTailCallsEnabled
 )
 &
 &
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 ?
