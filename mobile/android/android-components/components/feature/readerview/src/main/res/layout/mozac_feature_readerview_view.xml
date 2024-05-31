@@ -290,7 +290,7 @@ text
 "
 string
 /
-mozac_feature_readerview_sans_serif
+mozac_feature_readerview_sans_serif_font
 "
 android
 :
@@ -393,7 +393,7 @@ text
 "
 string
 /
-mozac_feature_readerview_serif_desc
+mozac_feature_readerview_serif_font
 "
 android
 :
