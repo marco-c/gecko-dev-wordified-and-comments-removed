@@ -167,7 +167,7 @@ isWorker
 {
 threadActor
 .
-_parent
+targetActor
 .
 _consoleActor
 .
@@ -346,7 +346,7 @@ targetActor
 =
 threadActor
 .
-_parent
+targetActor
 ;
 const
 message

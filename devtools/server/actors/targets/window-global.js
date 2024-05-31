@@ -3532,9 +3532,6 @@ new
 ThreadActor
 (
 this
-this
-.
-window
 )
 ;
 this

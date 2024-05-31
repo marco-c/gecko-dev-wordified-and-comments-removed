@@ -537,7 +537,7 @@ this
 .
 threadActor
 .
-_parent
+targetActor
 )
 &
 &
@@ -641,7 +641,7 @@ this
 .
 threadActor
 .
-_parent
+targetActor
 )
 ;
 }
@@ -895,7 +895,7 @@ this
 .
 threadActor
 .
-_parent
+targetActor
 .
 window
 )
