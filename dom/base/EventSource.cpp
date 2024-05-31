@@ -3486,6 +3486,12 @@ aStatusCode
 !
 =
 NS_ERROR_DNS_LOOKUP_QUEUE_FULL
+&
+&
+aStatusCode
+!
+=
+NS_ERROR_INVALID_CONTENT_ENCODING
 )
 {
 DispatchFailConnection
