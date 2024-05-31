@@ -12,6 +12,14 @@ import
 ContextTarget
 SerializationOptions
 from
+webdriver
+.
+bidi
+.
+undefined
+import
+UNDEFINED
+from
 .
 .
 .
@@ -43,7 +51,7 @@ expected
         
 (
             
-None
+UNDEFINED
             
 "
 open
@@ -90,7 +98,7 @@ childNodeCount
         
 (
             
-None
+UNDEFINED
             
 "
 closed
@@ -1028,7 +1036,7 @@ expected
         
 (
             
-None
+UNDEFINED
             
 False
             
@@ -2518,6 +2526,7 @@ serialization_options
 =
 SerializationOptions
 (
+            
 max_dom_depth
 =
 max_dom_depth
@@ -2536,8 +2545,6 @@ test_max_dom_depth_null
 (
     
 bidi_session
-    
-send_blocking_command
     
 top_context
     
@@ -2577,21 +2584,15 @@ complete
 result
 =
 await
-send_blocking_command
-(
-        
-"
+bidi_session
+.
 script
 .
-callFunction
-"
+call_function
+(
         
-{
-            
-"
-functionDeclaration
-"
-:
+function_declaration
+=
 "
 "
 "
@@ -2614,11 +2615,9 @@ children
 "
 "
 "
-            
-"
+        
 target
-"
-:
+=
 ContextTarget
 (
 top_context
@@ -2628,26 +2627,19 @@ context
 "
 ]
 )
-            
-"
-awaitPromise
-"
-:
-True
-            
-"
-serializationOptions
-"
-:
-{
-"
-maxDomDepth
-"
-:
-None
-}
         
-}
+await_promise
+=
+True
+        
+serialization_options
+=
+SerializationOptions
+(
+max_dom_depth
+=
+None
+)
     
 )
     
@@ -3010,11 +3002,6 @@ None
 }
         
 result
-[
-"
-result
-"
-]
     
 )
 pytest
@@ -3033,7 +3020,7 @@ expected
         
 (
             
-None
+UNDEFINED
             
 {
                 

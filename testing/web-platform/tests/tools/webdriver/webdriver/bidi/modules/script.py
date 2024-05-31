@@ -24,6 +24,13 @@ _module
 import
 BidiModule
 command
+from
+.
+.
+undefined
+import
+UNDEFINED
+Undefined
 class
 ScriptEvaluateResultException
 (
@@ -571,30 +578,42 @@ self
             
 max_dom_depth
 :
+Union
+[
 Optional
 [
 int
 ]
+Undefined
+]
 =
-None
+UNDEFINED
             
 max_object_depth
 :
+Union
+[
 Optional
 [
 int
 ]
+Undefined
+]
 =
-None
+UNDEFINED
             
 include_shadow_tree
 :
+Union
+[
 Optional
 [
 str
 ]
+Undefined
+]
 =
-None
+UNDEFINED
     
 )
 :
@@ -603,7 +622,7 @@ if
 max_dom_depth
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -619,7 +638,7 @@ if
 max_object_depth
 is
 not
-None
+UNDEFINED
 :
             
 self
@@ -632,6 +651,11 @@ maxObjectDepth
 max_object_depth
         
 if
+include_shadow_tree
+is
+not
+UNDEFINED
+and
 include_shadow_tree
 is
 not
