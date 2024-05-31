@@ -97,9 +97,9 @@ util
 .
 SizeF
 import
-junit
+org
 .
-framework
+junit
 .
 Assert
 .
@@ -624,6 +624,9 @@ getDouble
 double
 "
 )
+Double
+.
+MIN_VALUE
 )
 assertEquals
 (
