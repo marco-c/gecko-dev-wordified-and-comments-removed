@@ -685,7 +685,7 @@ correct
 val
 inputArticleID
 =
-42
+42L
 val
 inputArticleURL
 =

@@ -193,7 +193,7 @@ mockito
 .
 ArgumentMatchers
 .
-anyInt
+anyLong
 import
 org
 .
@@ -376,7 +376,7 @@ raw
 .
 getArticleListenMetadata
 (
-anyInt
+anyLong
 (
 )
 anyString
@@ -491,7 +491,7 @@ raw
 .
 getArticleListenMetadata
 (
-anyInt
+anyLong
 (
 )
 anyString
@@ -554,7 +554,7 @@ raw
 .
 getArticleListenMetadata
 (
-anyInt
+anyLong
 (
 )
 anyString
@@ -634,7 +634,7 @@ raw
 .
 getArticleListenMetadata
 (
-anyInt
+anyLong
 (
 )
 anyString

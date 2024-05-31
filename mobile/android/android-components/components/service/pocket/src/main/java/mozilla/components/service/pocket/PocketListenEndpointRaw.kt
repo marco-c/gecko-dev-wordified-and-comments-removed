@@ -279,7 +279,7 @@ getArticleListenMetadata
 (
 articleID
 :
-Int
+Long
 articleUrl
 :
 String
