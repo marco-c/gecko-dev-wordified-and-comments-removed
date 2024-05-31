@@ -541,13 +541,7 @@ SystemUniversal
 [
                     
 "
-GeckoBetaAarch64
-"
-"
-GeckoBetaArm
-"
-"
-GeckoBetaX86
+GeckoBetaUniversal
 "
                     
 "
@@ -573,7 +567,7 @@ lintTask
 "
 :
 "
-lintGeckoBetaArmDebug
+lintGeckoNightlyUniversal
 "
         
 }

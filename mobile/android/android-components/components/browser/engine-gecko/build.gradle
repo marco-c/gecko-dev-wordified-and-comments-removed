@@ -310,7 +310,7 @@ androidx_test_rules
 androidTestImplementation
 Gecko
 .
-geckoview_beta_arm
+geckoview_release_arm
 androidTestImplementation
 project
 (
