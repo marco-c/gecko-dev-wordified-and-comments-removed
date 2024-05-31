@@ -48,7 +48,6 @@ function
 listenHandler
 (
 metadata
-response
 )
 {
 info

@@ -2354,7 +2354,6 @@ onObservePollEnd
 (
 subject
 topic
-data
 )
 {
 lazy
@@ -2426,9 +2425,6 @@ onSync
 data
 :
 {
-current
-created
-updated
 deleted
 }
 }
@@ -3387,9 +3383,6 @@ e
 async
 onObservePollEnd
 (
-subject
-topic
-data
 )
 {
 if

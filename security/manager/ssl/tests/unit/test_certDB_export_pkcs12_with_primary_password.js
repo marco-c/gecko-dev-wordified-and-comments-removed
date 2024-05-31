@@ -120,7 +120,6 @@ dialogTitle
 text
 password
 checkMsg
-checkValue
 )
 {
 equal
@@ -192,8 +191,6 @@ nsIPromptFactory
 getPrompt
 :
 (
-aWindow
-aIID
 )
 =
 >

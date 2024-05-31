@@ -19,7 +19,6 @@ dialogTitle
 text
 password
 checkMsg
-checkValue
 )
 {
 this

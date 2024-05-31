@@ -227,13 +227,6 @@ onCacheStorageInfo
 onCacheEntryInfo
 (
 aURI
-aIdEnhance
-aDataSize
-aFetchCount
-aLastModifiedTime
-aExpirationTime
-aPinned
-aInfo
 )
 {
 Assert

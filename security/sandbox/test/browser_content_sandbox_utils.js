@@ -975,7 +975,6 @@ fileIOSandboxMinLevel
 function
 minProfileReadSandboxLevel
 (
-level
 )
 {
 switch
@@ -1032,7 +1031,6 @@ return
 function
 minHomeReadSandboxLevel
 (
-level
 )
 {
 switch

@@ -40,8 +40,6 @@ TIMEOUT_READ_WRITE
 }
 onStopListening
 (
-serverSocket
-status
 )
 {
 }
