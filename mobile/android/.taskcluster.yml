@@ -1047,9 +1047,9 @@ mozilla
 -
 mobile
 /
-android
+firefox
 -
-components
+android
 "
 '
 then
@@ -1505,9 +1505,9 @@ releng
 /
 staging
 -
-android
+firefox
 -
-components
+android
 "
 '
 then
@@ -2030,9 +2030,9 @@ json
 mobile
 :
 "
-android
+firefox
 -
-components
+android
 "
 }
 }
