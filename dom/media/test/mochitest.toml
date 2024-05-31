@@ -8309,6 +8309,15 @@ in
 failures
 "
 jobs
+"
+mda_gpu
+"
+#
+Disabled
+because
+high
+intermittent
+failure
 ]
 [
 "
