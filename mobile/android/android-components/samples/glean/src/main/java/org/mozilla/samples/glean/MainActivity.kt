@@ -130,6 +130,15 @@ set
 Android
 "
 )
+GleanMetrics
+.
+Basic
+.
+clientId
+.
+generateAndSet
+(
+)
 /
 /
 Generate
