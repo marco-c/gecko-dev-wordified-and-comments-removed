@@ -17,11 +17,6 @@ memory
 #
 include
 <
-queue
->
-#
-include
-<
 utility
 >
 #
@@ -346,7 +341,7 @@ message_queue
 std
 :
 :
-queue
+vector
 <
 std
 :
