@@ -166,12 +166,6 @@ destroyed
 struct
 Data
 {
-GList
-*
-children
-=
-nullptr
-;
 gboolean
 force_default_visual
 =
