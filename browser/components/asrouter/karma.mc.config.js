@@ -515,6 +515,10 @@ extensions
 [
 "
 .
+mjs
+"
+"
+.
 js
 "
 "
@@ -789,7 +793,7 @@ test
 .
 js
 [
-mx
+x
 ]
 ?
 /
