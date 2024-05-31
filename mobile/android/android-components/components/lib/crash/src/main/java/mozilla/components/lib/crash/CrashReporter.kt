@@ -955,6 +955,14 @@ String
 "
 Mozilla
 "
+internal
+val
+message
+:
+String
+?
+=
+null
 )
 companion
 object
