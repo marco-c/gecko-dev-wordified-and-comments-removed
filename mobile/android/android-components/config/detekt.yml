@@ -1,6 +1,3 @@
-autoCorrect
-:
-true
 failFast
 :
 false
@@ -1156,6 +1153,14 @@ true
 ModifierOrder
 :
 active
+:
+true
+MultiLineIfElse
+:
+active
+:
+true
+autoCorrect
 :
 true
 NestedClassesVisibility

@@ -662,6 +662,12 @@ sendHistoryPing
 }
 }
 }
+Suppress
+(
+"
+EmptyFunctionBlock
+"
+)
 fun
 sendHistoryPing
 (
@@ -1027,6 +1033,12 @@ sendBookmarksPing
 }
 }
 }
+Suppress
+(
+"
+EmptyFunctionBlock
+"
+)
 fun
 sendBookmarksPing
 (

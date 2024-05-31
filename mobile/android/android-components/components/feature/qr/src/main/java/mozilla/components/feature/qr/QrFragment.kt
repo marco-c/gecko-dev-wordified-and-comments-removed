@@ -399,12 +399,6 @@ Serializable
 import
 java
 .
-lang
-.
-IllegalStateException
-import
-java
-.
 util
 .
 ArrayList
@@ -596,6 +590,12 @@ width
 height
 )
 }
+Suppress
+(
+"
+EmptyFunctionBlock
+"
+)
 override
 fun
 onSurfaceTextureUpdated
