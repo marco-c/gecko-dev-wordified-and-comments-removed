@@ -65,7 +65,7 @@ service
 .
 glean
 .
-metrics
+private
 import
 kotlinx
 .

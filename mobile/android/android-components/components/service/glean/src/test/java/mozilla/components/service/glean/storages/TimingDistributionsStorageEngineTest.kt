@@ -103,7 +103,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 Lifetime
 import
@@ -115,7 +115,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimeUnit
 import
@@ -127,7 +127,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimingDistributionMetricType
 import

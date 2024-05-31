@@ -163,7 +163,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 DatetimeMetricType
 import
@@ -175,7 +175,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 EventMetricType
 import
@@ -187,7 +187,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 Lifetime
 import
@@ -199,7 +199,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 NoExtraKeys
 import
@@ -211,7 +211,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 StringMetricType
 import
@@ -223,7 +223,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimeUnit
 as
@@ -237,7 +237,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 UuidMetricType
 import

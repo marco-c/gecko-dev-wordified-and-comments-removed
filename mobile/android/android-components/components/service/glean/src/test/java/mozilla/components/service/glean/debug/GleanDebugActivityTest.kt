@@ -149,7 +149,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 BooleanMetricType
 import
@@ -161,7 +161,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 Lifetime
 import

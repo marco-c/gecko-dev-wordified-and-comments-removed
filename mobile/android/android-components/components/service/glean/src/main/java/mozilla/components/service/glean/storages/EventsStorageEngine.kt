@@ -187,7 +187,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 EventMetricType
 import
@@ -199,7 +199,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 Lifetime
 import

@@ -81,7 +81,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 CommonMetricData
 import

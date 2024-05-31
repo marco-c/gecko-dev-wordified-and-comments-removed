@@ -107,7 +107,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 CommonMetricData
 import
@@ -119,7 +119,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 HistogramType
 import
@@ -131,7 +131,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimeUnit
 import

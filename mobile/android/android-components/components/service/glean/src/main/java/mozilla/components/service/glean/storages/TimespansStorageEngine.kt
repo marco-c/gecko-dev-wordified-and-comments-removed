@@ -129,7 +129,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 CommonMetricData
 import
@@ -141,7 +141,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimeUnit
 import

@@ -96,7 +96,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 Lifetime
 import
@@ -108,7 +108,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 StringMetricType
 import

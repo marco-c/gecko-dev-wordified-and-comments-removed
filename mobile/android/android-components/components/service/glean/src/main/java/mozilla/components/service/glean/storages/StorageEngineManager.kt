@@ -89,7 +89,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 BooleanMetricType
 import
@@ -101,7 +101,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 CounterMetricType
 import
@@ -113,7 +113,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 DatetimeMetricType
 import
@@ -125,7 +125,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 StringListMetricType
 import
@@ -137,7 +137,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 StringMetricType
 import
@@ -149,7 +149,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimespanMetricType
 import
@@ -161,7 +161,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimingDistributionMetricType
 import
@@ -173,7 +173,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 UuidMetricType
 import

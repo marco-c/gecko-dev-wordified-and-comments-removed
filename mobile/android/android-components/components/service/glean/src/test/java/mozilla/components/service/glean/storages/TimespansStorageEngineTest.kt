@@ -68,7 +68,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 CommonMetricData
 import
@@ -80,7 +80,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 Lifetime
 import
@@ -92,7 +92,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 TimeUnit
 import
