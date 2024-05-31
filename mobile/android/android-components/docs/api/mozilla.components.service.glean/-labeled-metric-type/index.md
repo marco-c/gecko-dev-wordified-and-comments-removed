@@ -120,7 +120,7 @@ LabeledMetricType
 .
 kt
 #
-L22
+L24
 )
 This
 implements

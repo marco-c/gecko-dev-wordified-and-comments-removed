@@ -43,12 +43,12 @@ md
 )
 /
 [
-cancelViewColor
+clearViewColor
 ]
 (
 .
 /
-cancel
+clear
 -
 view
 -
@@ -57,9 +57,9 @@ color
 md
 )
 #
-cancelViewColor
+clearViewColor
 var
-cancelViewColor
+clearViewColor
 :
 [
 Int

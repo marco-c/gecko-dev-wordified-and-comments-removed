@@ -763,10 +763,10 @@ actions
 |
 |
 [
-cancelViewColor
+clearViewColor
 ]
 (
-cancel
+clear
 -
 view
 -
@@ -776,7 +776,7 @@ md
 )
 |
 var
-cancelViewColor
+clearViewColor
 :
 [
 Int
