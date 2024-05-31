@@ -8465,10 +8465,7 @@ j
 downmixed
 +
 =
-ConvertAudioSample
-<
-float
->
+AudioSampleToFloat
 (
 aSamples
 [

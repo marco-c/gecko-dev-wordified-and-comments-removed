@@ -317,11 +317,6 @@ Length
 )
 ;
 }
-mIsADTS
-=
-!
-configLength
-;
 AACAudioSpecificConfigToUserData
 (
 aConfig
@@ -568,15 +563,6 @@ WMFStreamType
 AAC
 )
 {
-UINT32
-payloadType
-=
-mIsADTS
-?
-1
-:
-0
-;
 hr
 =
 inputType
@@ -585,7 +571,7 @@ inputType
 SetUINT32
 (
 MF_MT_AAC_PAYLOAD_TYPE
-payloadType
+0x0
 )
 ;
 NS_ENSURE_TRUE
@@ -828,6 +814,7 @@ aac
 _ns
 ;
 }
+else
 if
 (
 mStreamType
@@ -1002,10 +989,10 @@ RefPtr
 MediaData
 >
 &
-aOutput
+aOutData
 )
 {
-aOutput
+aOutData
 =
 nullptr
 ;
@@ -1323,7 +1310,7 @@ hr
 hr
 )
 ;
-uint32_t
+int32_t
 numSamples
 =
 currentLength
@@ -1333,7 +1320,7 @@ sizeof
 float
 )
 ;
-uint32_t
+int32_t
 numFrames
 =
 numSamples
@@ -1512,7 +1499,7 @@ return
 MF_E_TRANSFORM_NEED_MORE_INPUT
 ;
 }
-aOutput
+aOutData
 =
 new
 AudioData
@@ -1536,7 +1523,7 @@ MOZ_DIAGNOSTIC_ASSERT
 duration
 =
 =
-aOutput
+aOutData
 -
 >
 mDuration
@@ -1549,7 +1536,7 @@ equal
 ;
 mLastOutputDuration
 =
-aOutput
+aOutData
 -
 >
 mDuration

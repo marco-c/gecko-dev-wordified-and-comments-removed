@@ -148,6 +148,7 @@ GetCodecName
 const
 override
 ;
+const
 AudioInfo
 mConfig
 ;
@@ -251,6 +252,7 @@ aSample
 nsresult
 GetImplicitAACMagicCookie
 (
+const
 MediaRawData
 *
 aSample
@@ -273,11 +275,6 @@ uint64_t
 mTotalMediaFrames
 =
 0
-;
-bool
-mIsADTS
-=
-false
 ;
 bool
 mErrored
