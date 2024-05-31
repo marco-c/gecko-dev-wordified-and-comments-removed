@@ -25,11 +25,11 @@ true
 "
 places
 .
-previews
-.
-log
+loglevel
 =
-true
+'
+All
+'
 "
 ]
 [
