@@ -9032,6 +9032,14 @@ NthOf
 (
 _
 )
+|
+Component
+:
+:
+Has
+(
+_
+)
 =
 >
 true
