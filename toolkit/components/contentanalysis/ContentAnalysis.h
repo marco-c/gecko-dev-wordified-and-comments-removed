@@ -291,6 +291,10 @@ nsCString
 &
 &
 aPipePathName
+nsString
+&
+&
+aClientSignatureSetting
 bool
 aIsPerUser
 )
