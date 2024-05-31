@@ -808,6 +808,16 @@ s
 "
         
 "
+network
+.
+dns
+.
+native_https_query
+"
+:
+False
+        
+"
 privacy
 .
 trackingprotection
