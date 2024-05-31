@@ -14,17 +14,6 @@ include
 "
 api
 /
-call
-/
-call_factory_interface
-.
-h
-"
-#
-include
-"
-api
-/
 environment
 /
 environment
@@ -68,9 +57,6 @@ PeerConnectionFactoryDependencies
 ;
 class
 MediaFactory
-:
-public
-CallFactoryInterface
 {
 public
 :
@@ -82,6 +68,7 @@ MediaFactory
 =
 default
 ;
+virtual
 std
 :
 :
@@ -96,7 +83,6 @@ CallConfig
 &
 config
 )
-override
 =
 0
 ;
