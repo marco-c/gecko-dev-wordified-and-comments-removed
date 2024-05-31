@@ -151,6 +151,10 @@ Dependencies
 .
 kotlin_coroutines
 implementation
+Dependencies
+.
+arch_lifecycle
+implementation
 project
 (
 '
