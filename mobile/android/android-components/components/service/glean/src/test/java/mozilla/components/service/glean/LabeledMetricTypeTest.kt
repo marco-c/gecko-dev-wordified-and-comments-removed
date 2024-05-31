@@ -121,7 +121,7 @@ glean
 .
 storages
 .
-MockScalarStorageEngine
+MockGenericStorageEngine
 import
 mozilla
 .
@@ -2520,7 +2520,7 @@ getSharedPreferences
 (
 eq
 (
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -2552,7 +2552,7 @@ eq
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -2589,7 +2589,7 @@ getSharedPreferences
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -2609,7 +2609,7 @@ MODE_PRIVATE
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine

@@ -222,7 +222,7 @@ BooleansStorageEngine
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 Boolean
 >
@@ -325,7 +325,7 @@ Boolean
 {
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 value

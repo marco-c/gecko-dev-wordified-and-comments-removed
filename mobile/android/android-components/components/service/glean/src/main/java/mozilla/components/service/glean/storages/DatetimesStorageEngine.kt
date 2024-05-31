@@ -332,7 +332,7 @@ DatetimesStorageEngine
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 String
 >
@@ -513,7 +513,7 @@ Date
 {
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 as
@@ -586,7 +586,7 @@ Calendar
 {
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 as

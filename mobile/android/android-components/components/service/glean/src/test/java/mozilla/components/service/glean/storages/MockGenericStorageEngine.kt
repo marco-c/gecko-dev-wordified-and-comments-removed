@@ -98,7 +98,7 @@ logger
 Logger
 internal
 class
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 override
 val
@@ -114,7 +114,7 @@ test
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 Int
 >
@@ -202,7 +202,7 @@ Int
 {
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 value

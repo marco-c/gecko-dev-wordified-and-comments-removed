@@ -250,7 +250,7 @@ CountersStorageEngine
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 Int
 >
@@ -438,7 +438,7 @@ than
 overwriting
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 amount

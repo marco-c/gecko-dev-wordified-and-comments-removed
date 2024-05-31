@@ -200,7 +200,7 @@ RobolectricTestRunner
 class
 )
 class
-GenericScalarStorageEngineTest
+GenericStorageEngineTest
 {
 private
 data
@@ -283,7 +283,7 @@ dataPingLifetime
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -566,7 +566,7 @@ recorded
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -811,7 +811,7 @@ getSharedPreferences
 (
 eq
 (
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -860,7 +860,7 @@ snapshot
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -1039,7 +1039,7 @@ getSharedPreferences
 (
 eq
 (
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1071,7 +1071,7 @@ eq
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1108,7 +1108,7 @@ getSharedPreferences
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1152,7 +1152,7 @@ snapshot
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -1350,7 +1350,7 @@ getSharedPreferences
 (
 eq
 (
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1382,7 +1382,7 @@ eq
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1419,7 +1419,7 @@ getSharedPreferences
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1463,7 +1463,7 @@ snapshot
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -1583,7 +1583,7 @@ getSharedPreferences
 (
 eq
 (
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1615,7 +1615,7 @@ eq
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1652,7 +1652,7 @@ getSharedPreferences
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1696,7 +1696,7 @@ snapshot
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -1896,7 +1896,7 @@ getSharedPreferences
 (
 eq
 (
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1928,7 +1928,7 @@ eq
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -1965,7 +1965,7 @@ getSharedPreferences
 (
 "
 {
-MockScalarStorageEngine
+MockGenericStorageEngine
 :
 :
 class
@@ -2009,7 +2009,7 @@ snapshot
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -2120,7 +2120,7 @@ lifetime
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -2494,7 +2494,7 @@ run
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -2684,7 +2684,7 @@ run
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -2790,7 +2790,7 @@ run
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -3028,7 +3028,7 @@ run
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine
@@ -3163,7 +3163,7 @@ run
 val
 storageEngine
 =
-MockScalarStorageEngine
+MockGenericStorageEngine
 (
 )
 storageEngine

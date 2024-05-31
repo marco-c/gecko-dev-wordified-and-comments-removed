@@ -228,7 +228,7 @@ UuidsStorageEngine
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 UUID
 >
@@ -357,7 +357,7 @@ UUID
 {
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 value

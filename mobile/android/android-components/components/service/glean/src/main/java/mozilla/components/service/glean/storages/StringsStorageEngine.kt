@@ -250,7 +250,7 @@ StringsStorageEngine
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 String
 >
@@ -424,7 +424,7 @@ it
 }
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 truncatedValue

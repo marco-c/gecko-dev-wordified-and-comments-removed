@@ -274,7 +274,7 @@ StringsListsStorageEngine
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 List
 <
@@ -709,7 +709,7 @@ than
 overwriting
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 listOf
@@ -954,7 +954,7 @@ logger
 }
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 stringList

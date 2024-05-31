@@ -339,7 +339,7 @@ TimingDistributionsStorageEngine
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 TimingDistributionData
 >
@@ -584,7 +584,7 @@ timeUnit
 )
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 dummy

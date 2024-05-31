@@ -296,7 +296,7 @@ TimespansStorageEngine
 )
 )
 :
-GenericScalarStorageEngine
+GenericStorageEngine
 <
 Long
 >
@@ -1346,7 +1346,7 @@ accumulate
 .
 super
 .
-recordScalar
+recordMetric
 (
 metricData
 elapsedNanos
