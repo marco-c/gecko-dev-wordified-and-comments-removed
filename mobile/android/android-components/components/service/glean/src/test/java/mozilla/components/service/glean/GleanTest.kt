@@ -879,6 +879,9 @@ hostName
 server
 .
 port
+logPings
+=
+true
 )
 Glean
 .
@@ -1219,6 +1222,9 @@ hostName
 server
 .
 port
+logPings
+=
+true
 )
 Glean
 .
