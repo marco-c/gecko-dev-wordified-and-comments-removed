@@ -174,16 +174,6 @@ domains
 "
 )
 ;
-this
-.
-_btnAddException
-.
-disabled
-=
-this
-.
-_prefLocked
-;
 document
 .
 getElementById
