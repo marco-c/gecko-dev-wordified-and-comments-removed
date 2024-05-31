@@ -273,13 +273,6 @@ Millis
 40
 )
 ;
-const
-FieldTrialsView
-*
-field_trials
-=
-nullptr
-;
 }
 ;
 struct
