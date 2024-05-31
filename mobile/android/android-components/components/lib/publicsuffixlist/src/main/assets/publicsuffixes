@@ -1,3 +1,4 @@
+^
 *
 .
 0emm
@@ -4205,6 +4206,9 @@ net
 cloudapp
 .
 net
+cloudapps
+.
+digital
 cloudcontrolapp
 .
 com
@@ -5579,6 +5583,9 @@ museum
 direct
 directory
 discount
+discourse
+.
+group
 discover
 discovery
 .
@@ -15031,6 +15038,11 @@ lomza
 .
 pl
 london
+london
+.
+cloudapps
+.
+digital
 london
 .
 museum
@@ -26866,6 +26878,11 @@ pl
 uhren
 .
 museum
+ui
+.
+nabu
+.
+casa
 uji
 .
 kyoto
@@ -26893,6 +26910,11 @@ org
 uk
 .
 net
+uk0
+.
+bigv
+.
+io
 uki
 .
 kumamoto
