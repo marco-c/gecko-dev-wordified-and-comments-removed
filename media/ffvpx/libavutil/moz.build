@@ -378,6 +378,17 @@ USE_LIBS
 mozva
 '
 ]
+EXPORTS
+.
+ffvpx
+=
+[
+"
+tx
+.
+h
+"
+]
 SYMBOLS_FILE
 =
 '
