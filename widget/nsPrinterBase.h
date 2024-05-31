@@ -440,10 +440,13 @@ RefPtr
 <
 Promise
 >
+size_t
+(
 AsyncAttribute
 :
 :
 Last
+)
 >
 mAsyncAttributePromises
 ;

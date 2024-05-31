@@ -12671,10 +12671,13 @@ EnumeratedArray
 <
 FallbackKind
 Label
+size_t
+(
 FallbackKind
 :
 :
 Count
+)
 >
 fallbacks_
 joins_

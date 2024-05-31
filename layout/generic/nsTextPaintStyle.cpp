@@ -1928,6 +1928,8 @@ nsTextPaintStyle
 :
 SelectionStyleIndex
 StyleIDs
+size_t
+(
 nsTextPaintStyle
 :
 :
@@ -1935,6 +1937,7 @@ SelectionStyleIndex
 :
 :
 Count
+)
 >
 SelectionStyleIDs
 =

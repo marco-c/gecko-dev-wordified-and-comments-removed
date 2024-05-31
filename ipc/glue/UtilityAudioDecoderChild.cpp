@@ -240,10 +240,13 @@ StaticRefPtr
 <
 UtilityAudioDecoderChild
 >
+size_t
+(
 SandboxingKind
 :
 :
 COUNT
+)
 >
 sAudioDecoderChilds
 ;

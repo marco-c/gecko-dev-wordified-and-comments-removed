@@ -10127,10 +10127,13 @@ EnumeratedArray
 <
 SymbolicAddress
 uint32_t
+size_t
+(
 SymbolicAddress
 :
 :
 Limit
+)
 >
 ;
 struct

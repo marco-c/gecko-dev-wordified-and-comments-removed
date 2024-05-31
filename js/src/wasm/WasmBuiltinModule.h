@@ -378,10 +378,13 @@ EnumeratedArray
 <
 BuiltinModuleFuncId
 BuiltinModuleFunc
+size_t
+(
 BuiltinModuleFuncId
 :
 :
 Limit
+)
 >
 ;
 Storage

@@ -401,7 +401,10 @@ EnumeratedArray
 <
 IndexType
 ValueType
+size_t
+(
 SizeAsEnumValue
+)
 >
 ;
 using

@@ -3655,10 +3655,13 @@ EnumeratedArray
 <
 WindowButtonType
 LayoutDeviceIntRect
+size_t
+(
 WindowButtonType
 :
 :
 Count
+)
 >
 mWindowBtnRect
 ;

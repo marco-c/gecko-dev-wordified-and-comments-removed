@@ -880,10 +880,13 @@ RefPtr
 <
 ProcessFields
 >
+size_t
+(
 SandboxingKind
 :
 :
 COUNT
+)
 >
 mProcesses
 ;

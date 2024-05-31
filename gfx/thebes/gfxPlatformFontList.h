@@ -3806,10 +3806,13 @@ EnumeratedArray
 <
 FontVisibility
 gfxSparseBitSet
+size_t
+(
 FontVisibility
 :
 :
 Count
+)
 >
 mCodepointsWithNoFonts
 MOZ_GUARDED_BY
@@ -3824,10 +3827,13 @@ EnumeratedArray
 <
 FontVisibility
 FontFamily
+size_t
+(
 FontVisibility
 :
 :
 Count
+)
 >
 mReplacementCharFallbackFamily
 MOZ_GUARDED_BY

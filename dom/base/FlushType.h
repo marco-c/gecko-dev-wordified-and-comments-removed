@@ -56,10 +56,13 @@ FlushType
 const
 char
 *
+size_t
+(
 FlushType
 :
 :
 Count
+)
 >
 kFlushTypeNames
 =

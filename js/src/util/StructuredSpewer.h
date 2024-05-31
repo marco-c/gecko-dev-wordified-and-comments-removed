@@ -462,10 +462,13 @@ SpewChannel
 const
 char
 *
+size_t
+(
 SpewChannel
 :
 :
 Count
+)
 >
 ;
 static
