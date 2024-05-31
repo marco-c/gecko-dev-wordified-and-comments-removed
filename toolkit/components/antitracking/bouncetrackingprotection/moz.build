@@ -58,6 +58,11 @@ BounceTrackingProtection
 h
 "
 "
+BounceTrackingProtectionStorage
+.
+h
+"
+"
 BounceTrackingRecord
 .
 h
@@ -84,6 +89,11 @@ UNIFIED_SOURCES
 [
 "
 BounceTrackingProtection
+.
+cpp
+"
+"
+BounceTrackingProtectionStorage
 .
 cpp
 "
