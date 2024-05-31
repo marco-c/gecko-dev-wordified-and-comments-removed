@@ -57,8 +57,6 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
 components

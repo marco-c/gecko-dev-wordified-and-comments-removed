@@ -57,8 +57,6 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
 components
@@ -67,8 +65,6 @@ ui
 .
 tabcounter
 import
-org
-.
 mozilla
 .
 components
@@ -83,8 +79,6 @@ Companion
 .
 DEFAULT_TABS_COUNTER_TEXT
 import
-org
-.
 mozilla
 .
 components
@@ -99,8 +93,6 @@ Companion
 .
 ONE_DIGIT_SIZE_RATIO
 import
-org
-.
 mozilla
 .
 components
@@ -115,8 +107,6 @@ Companion
 .
 SO_MANY_TABS_OPEN
 import
-org
-.
 mozilla
 .
 components
