@@ -1055,6 +1055,7 @@ headless
 "
 ]
 and
+(
 "
 -
 -
@@ -1070,6 +1071,22 @@ chrome_options
 args
 "
 ]
+and
+                               
+"
+-
+-
+headless
+"
+not
+in
+chrome_options
+[
+"
+args
+"
+]
+)
 :
         
 chrome_options
