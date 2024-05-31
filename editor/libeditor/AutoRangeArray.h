@@ -225,6 +225,14 @@ aPoint
 explicit
 AutoRangeArray
 (
+nsRange
+&
+aRange
+)
+;
+explicit
+AutoRangeArray
+(
 const
 AutoRangeArray
 &
