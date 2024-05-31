@@ -269,7 +269,12 @@ Drawable
 ?
 =
 null
-private
+VisibleForTesting
+(
+otherwise
+=
+PRIVATE
+)
 val
 controlGroups
 :
