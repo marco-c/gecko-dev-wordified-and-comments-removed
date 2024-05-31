@@ -9707,6 +9707,8 @@ tabs
 tabsUseCases
 .
 removeAllTabs
+.
+invoke
 (
 )
 /
@@ -9718,6 +9720,8 @@ tabs
 tabsUseCases
 .
 removeAllTabsOfType
+.
+invoke
 (
 private
 =
@@ -9732,6 +9736,8 @@ tabs
 tabsUseCases
 .
 removeAllTabsOfType
+.
+invoke
 (
 private
 =
