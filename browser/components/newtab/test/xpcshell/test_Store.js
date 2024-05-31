@@ -290,7 +290,8 @@ middleware
 .
 returns
 (
-s
+(
+)
 =
 >
 next

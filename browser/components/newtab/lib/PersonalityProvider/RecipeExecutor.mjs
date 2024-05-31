@@ -1133,7 +1133,6 @@ configurable
 conditionallyNmfTag
 (
 item
-config
 )
 {
 let
@@ -7745,10 +7744,7 @@ count
 {
 op
 =
-(
 a
-b
-)
 =
 >
 a

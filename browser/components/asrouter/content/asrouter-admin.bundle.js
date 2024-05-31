@@ -2614,7 +2614,8 @@ className
 className
 onClick
 :
-e
+(
+)
 =
 >
 onClick
@@ -5744,8 +5745,6 @@ RESET_PROVIDER_PREF
 }
 resetGroups
 (
-id
-value
 )
 {
 _asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
@@ -6404,7 +6403,6 @@ value
 }
 onCopyTargetingParams
 (
-event
 )
 {
 const
@@ -7219,7 +7217,8 @@ restore
 "
 onClick
 :
-e
+(
+)
 =
 >
 this
@@ -7287,7 +7286,8 @@ modify
 "
 onClick
 :
-e
+(
+)
 =
 >
 this
@@ -7512,7 +7512,8 @@ disabled
 isBlocked
 onChange
 :
-e
+(
+)
 =
 >
 this
@@ -8063,7 +8064,8 @@ button
 "
 onClick
 :
-e
+(
+)
 =
 >
 this
@@ -8340,7 +8342,8 @@ slim
 "
 onClick
 :
-e
+(
+)
 =
 >
 this
@@ -10424,7 +10427,6 @@ updatedParameters
 }
 setAttribution
 (
-e
 )
 {
 _asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
@@ -12207,7 +12209,8 @@ button
 "
 onClick
 :
-e
+(
+)
 =
 >
 this
@@ -12585,7 +12588,6 @@ userPreferences
 [
 ]
 }
-index
 )
 =
 >

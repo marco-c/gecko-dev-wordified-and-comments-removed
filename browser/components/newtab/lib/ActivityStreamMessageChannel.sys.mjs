@@ -512,7 +512,6 @@ middleware
 /
 middleware
 (
-store
 )
 {
 return

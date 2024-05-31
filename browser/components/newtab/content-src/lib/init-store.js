@@ -113,7 +113,8 @@ action
 const
 messageMiddleware
 =
-store
+(
+)
 =
 >
 next

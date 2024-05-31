@@ -1619,8 +1619,6 @@ RESET_PROVIDER_PREF
 }
 resetGroups
 (
-id
-value
 )
 {
 ASRouterUtils
@@ -2274,7 +2272,6 @@ and
 values
 onCopyTargetingParams
 (
-event
 )
 {
 const
@@ -3084,7 +3081,8 @@ restore
 onClick
 =
 {
-e
+(
+)
 =
 >
 this
@@ -3148,7 +3146,8 @@ modify
 onClick
 =
 {
-e
+(
+)
 =
 >
 this
@@ -3355,7 +3354,8 @@ isBlocked
 onChange
 =
 {
-e
+(
+)
 =
 >
 this
@@ -3878,7 +3878,8 @@ button
 onClick
 =
 {
-e
+(
+)
 =
 >
 this
@@ -4146,7 +4147,8 @@ slim
 onClick
 =
 {
-e
+(
+)
 =
 >
 this
@@ -6063,7 +6065,6 @@ updatedParameters
 }
 setAttribution
 (
-e
 )
 {
 ASRouterUtils
@@ -7562,7 +7563,8 @@ button
 onClick
 =
 {
-e
+(
+)
 =
 >
 this
@@ -7871,7 +7873,6 @@ userPreferences
 [
 ]
 }
-index
 )
 =
 >
