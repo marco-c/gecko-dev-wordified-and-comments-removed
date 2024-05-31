@@ -2444,6 +2444,11 @@ declareTopLevelDotGeneratorName
 (
 )
 ;
+size_t
+numberOfArgumentsNames
+=
+0
+;
 private
 :
 [
