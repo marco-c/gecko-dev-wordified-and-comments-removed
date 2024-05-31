@@ -133,7 +133,7 @@ components
 .
 concept
 .
-storage
+sync
 .
 SyncError
 import
@@ -143,7 +143,7 @@ components
 .
 concept
 .
-storage
+sync
 .
 SyncOk
 import
@@ -153,7 +153,7 @@ components
 .
 concept
 .
-storage
+sync
 .
 SyncStatus
 import
@@ -163,7 +163,7 @@ components
 .
 concept
 .
-storage
+sync
 .
 SyncableStore
 /
