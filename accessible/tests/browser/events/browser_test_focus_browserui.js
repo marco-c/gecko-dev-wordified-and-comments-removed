@@ -36,7 +36,6 @@ function
 runTests
 (
 browser
-accDoc
 )
 {
 await

@@ -431,7 +431,6 @@ function
 getCellValue
 (
 aRow
-aCol
 )
 {
 var
@@ -455,7 +454,6 @@ getRowProperties
 function
 getRowProperties
 (
-aIndex
 )
 {
 return
@@ -511,7 +509,6 @@ getColumnProperties
 function
 getColumnProperties
 (
-aCol
 )
 {
 return
@@ -548,8 +545,6 @@ hasNextSibling
 function
 hasNextSibling
 (
-aRowIndex
-aAfterIndex
 )
 {
 }
@@ -582,8 +577,6 @@ getImageSrc
 function
 getImageSrc
 (
-aRow
-aCol
 )
 {
 }
@@ -670,7 +663,6 @@ isSeparator
 function
 isSeparator
 (
-aIndex
 )
 {
 }
@@ -771,7 +763,6 @@ cycleHeader
 function
 cycleHeader
 (
-aCol
 )
 {
 }
@@ -824,8 +815,6 @@ isEditable
 function
 isEditable
 (
-aRow
-aCol
 )
 {
 return

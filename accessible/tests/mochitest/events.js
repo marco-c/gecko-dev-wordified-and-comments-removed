@@ -3710,7 +3710,6 @@ function
 eventQueue_setInvokerStatus
 (
 aStatus
-aLogMsg
 )
 {
 this
@@ -9107,7 +9106,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

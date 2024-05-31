@@ -10,8 +10,6 @@ async
 function
 testParagraphBoundaryWithRemoteDescendants
 (
-browser
-accDoc
 )
 {
 const

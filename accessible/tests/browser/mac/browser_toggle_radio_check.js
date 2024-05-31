@@ -741,10 +741,7 @@ waitForMacEvent
 "
 AXValueChanged
 "
-(
 iface
-data
-)
 =
 >
 {

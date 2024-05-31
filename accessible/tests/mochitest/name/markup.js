@@ -1518,7 +1518,6 @@ function
 testNameForSubtreeRule
 (
 aElm
-aRule
 )
 {
 var

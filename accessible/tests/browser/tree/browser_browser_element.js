@@ -26,7 +26,6 @@ async
 function
 (
 browser
-docAcc
 )
 {
 testAccessibleTree

@@ -520,7 +520,8 @@ browser
 copy
 "
 false
-evt
+(
+)
 =
 >
 {

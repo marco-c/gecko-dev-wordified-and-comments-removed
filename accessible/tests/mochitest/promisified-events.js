@@ -584,7 +584,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -777,7 +776,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

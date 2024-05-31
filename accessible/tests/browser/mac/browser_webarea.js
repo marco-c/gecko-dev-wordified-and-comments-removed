@@ -22,10 +22,7 @@ MOCHITESTS_DIR
 addAccessibleTask
 (
 async
-(
 browser
-accDoc
-)
 =
 >
 {
@@ -37,10 +34,7 @@ waitForMacEvent
 "
 AXLoadComplete
 "
-(
 iface
-data
-)
 =
 >
 {
@@ -200,10 +194,7 @@ test
 title
 >
 async
-(
 browser
-accDoc
-)
 =
 >
 {
@@ -220,10 +211,7 @@ waitForMacEvent
 "
 AXLayoutComplete
 "
-(
 iface
-data
-)
 =
 >
 {
@@ -250,10 +238,7 @@ waitForMacEvent
 "
 AXLoadComplete
 "
-(
 iface
-data
-)
 =
 >
 {

@@ -351,7 +351,6 @@ PROFILE
 }
 isActive
 (
-context
 )
 {
 return
@@ -360,7 +359,6 @@ true
 }
 isRestricting
 (
-context
 )
 {
 return

@@ -117,7 +117,8 @@ withNewTab
 (
 kURL
 async
-browser
+(
+)
 =
 >
 {
@@ -267,7 +268,8 @@ withNewTab
 (
 kURL
 async
-browser
+(
+)
 =
 >
 {

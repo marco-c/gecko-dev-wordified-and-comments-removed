@@ -884,10 +884,7 @@ button
 div
 >
 async
-(
 browser
-accDoc
-)
 =
 >
 {

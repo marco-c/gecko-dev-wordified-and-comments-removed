@@ -36,8 +36,6 @@ p
 async
 function
 (
-browser
-docAcc
 )
 {
 let

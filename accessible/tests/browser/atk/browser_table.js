@@ -86,8 +86,6 @@ table
 async
 function
 (
-browser
-docAcc
 )
 {
 let

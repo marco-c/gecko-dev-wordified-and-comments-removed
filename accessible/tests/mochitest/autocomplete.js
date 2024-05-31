@@ -566,7 +566,6 @@ aIndex
 }
 getStyleAt
 (
-aIndex
 )
 {
 return
@@ -575,7 +574,6 @@ null
 }
 getImageAt
 (
-aIndex
 )
 {
 return
@@ -599,7 +597,6 @@ aIndex
 }
 isRemovableAt
 (
-aRowIndex
 )
 {
 return
@@ -608,7 +605,6 @@ true
 }
 removeValueAt
 (
-aRowIndex
 )
 {
 }

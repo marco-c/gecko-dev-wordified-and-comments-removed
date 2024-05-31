@@ -1101,8 +1101,6 @@ select
 async
 function
 (
-browser
-accDoc
 )
 {
 ok

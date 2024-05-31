@@ -240,7 +240,8 @@ a11yShutdownPromise
 .
 then
 (
-flag
+(
+)
 =
 >
 canShutdown

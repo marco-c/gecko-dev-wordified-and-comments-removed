@@ -39,8 +39,6 @@ a
 async
 function
 (
-browser
-docAcc
 )
 {
 ok
