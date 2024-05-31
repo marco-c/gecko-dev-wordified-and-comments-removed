@@ -7407,6 +7407,7 @@ BindingType
 :
 Texture
 {
+view_dimension
 .
 .
 }
@@ -7494,6 +7495,18 @@ inner
 .
 as_native
 (
+)
+;
+super
+:
+:
+Texture
+:
+:
+log_failing_target_heuristics
+(
+view_dimension
+target
 )
 ;
 super

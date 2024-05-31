@@ -1330,6 +1330,7 @@ new
 Adapter
 >
 "
+None
 )
 }
 }
@@ -1888,6 +1889,7 @@ new
 Queue
 >
 "
+None
 )
 }
 ;
@@ -3277,6 +3279,7 @@ new
 Surface
 >
 "
+None
 )
 raw
 :
@@ -3384,6 +3387,7 @@ new
 Surface
 >
 "
+None
 )
 raw
 :
@@ -3561,6 +3565,7 @@ new
 Surface
 >
 "
+None
 )
 raw
 :
@@ -3719,6 +3724,7 @@ new
 Surface
 >
 "
+None
 )
 raw
 :
@@ -3875,6 +3881,7 @@ new
 Surface
 >
 "
+None
 )
 raw
 :
@@ -6877,7 +6884,7 @@ clone
 let
 (
 queue_id
-_
+queue
 )
 =
 queue_fid
@@ -6903,15 +6910,9 @@ queue_id
 ;
 device
 .
-queue_id
-.
-write
+set_queue
 (
-)
-.
-replace
-(
-queue_id
+queue
 )
 ;
 return
@@ -7211,7 +7212,7 @@ clone
 let
 (
 queue_id
-_
+queue
 )
 =
 queues_fid
@@ -7237,15 +7238,9 @@ queue_id
 ;
 device
 .
-queue_id
-.
-write
+set_queue
 (
-)
-.
-replace
-(
-queue_id
+queue
 )
 ;
 return

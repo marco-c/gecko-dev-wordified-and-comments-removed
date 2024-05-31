@@ -576,6 +576,10 @@ default
 link
 "
 ]
+device_lost_panic
+=
+[
+]
 dx12
 =
 [
@@ -696,6 +700,10 @@ egl
 libloading
 "
 ]
+internal_error_panic
+=
+[
+]
 link
 =
 [
@@ -718,6 +726,10 @@ out
 "
 block
 "
+]
+oom_panic
+=
+[
 ]
 renderdoc
 =

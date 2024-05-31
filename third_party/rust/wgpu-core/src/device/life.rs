@@ -35,24 +35,6 @@ hal_api
 :
 HalApi
 id
-:
-:
-{
-self
-BindGroupId
-BindGroupLayoutId
-BufferId
-ComputePipelineId
-Id
-PipelineLayoutId
-QuerySetId
-RenderBundleId
-RenderPipelineId
-SamplerId
-StagingBufferId
-TextureId
-TextureViewId
-}
 pipeline
 :
 :
@@ -81,6 +63,7 @@ track
 {
 ResourceTracker
 Tracker
+TrackerIndex
 }
 FastHashMap
 SubmissionIndex
@@ -137,7 +120,7 @@ buffers
 :
 FastHashMap
 <
-BufferId
+TrackerIndex
 Arc
 <
 Buffer
@@ -151,7 +134,7 @@ staging_buffers
 :
 FastHashMap
 <
-StagingBufferId
+TrackerIndex
 Arc
 <
 StagingBuffer
@@ -165,7 +148,7 @@ textures
 :
 FastHashMap
 <
-TextureId
+TrackerIndex
 Arc
 <
 Texture
@@ -179,7 +162,7 @@ texture_views
 :
 FastHashMap
 <
-TextureViewId
+TrackerIndex
 Arc
 <
 TextureView
@@ -193,7 +176,7 @@ samplers
 :
 FastHashMap
 <
-SamplerId
+TrackerIndex
 Arc
 <
 Sampler
@@ -207,7 +190,7 @@ bind_groups
 :
 FastHashMap
 <
-BindGroupId
+TrackerIndex
 Arc
 <
 BindGroup
@@ -221,7 +204,7 @@ bind_group_layouts
 :
 FastHashMap
 <
-BindGroupLayoutId
+TrackerIndex
 Arc
 <
 BindGroupLayout
@@ -235,7 +218,7 @@ render_pipelines
 :
 FastHashMap
 <
-RenderPipelineId
+TrackerIndex
 Arc
 <
 RenderPipeline
@@ -249,7 +232,7 @@ compute_pipelines
 :
 FastHashMap
 <
-ComputePipelineId
+TrackerIndex
 Arc
 <
 ComputePipeline
@@ -263,7 +246,7 @@ pipeline_layouts
 :
 FastHashMap
 <
-PipelineLayoutId
+TrackerIndex
 Arc
 <
 PipelineLayout
@@ -277,7 +260,7 @@ render_bundles
 :
 FastHashMap
 <
-RenderBundleId
+TrackerIndex
 Arc
 <
 RenderBundle
@@ -291,7 +274,7 @@ query_sets
 :
 FastHashMap
 <
-QuerySetId
+TrackerIndex
 Arc
 <
 QuerySet
@@ -305,7 +288,7 @@ destroyed_buffers
 :
 FastHashMap
 <
-BufferId
+TrackerIndex
 Arc
 <
 DestroyedBuffer
@@ -319,7 +302,7 @@ destroyed_textures
 :
 FastHashMap
 <
-TextureId
+TrackerIndex
 Arc
 <
 DestroyedTexture
@@ -1227,7 +1210,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 raw
@@ -1256,7 +1239,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 raw
@@ -1281,7 +1264,7 @@ insert
 (
 destroyed
 .
-id
+tracker_index
 destroyed
 )
 ;
@@ -1308,7 +1291,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 raw
@@ -1333,7 +1316,7 @@ insert
 (
 destroyed
 .
-id
+tracker_index
 destroyed
 )
 ;
@@ -1412,7 +1395,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -1451,7 +1434,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -1771,7 +1754,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 raw
@@ -1800,7 +1783,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 raw
@@ -1825,7 +1808,7 @@ insert
 (
 destroyed
 .
-id
+tracker_index
 destroyed
 )
 ;
@@ -1852,7 +1835,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 raw
@@ -1877,7 +1860,7 @@ insert
 (
 destroyed
 .
-id
+tracker_index
 destroyed
 )
 ;
@@ -1963,13 +1946,7 @@ resources_map
 mut
 FastHashMap
 <
-Id
-<
-R
-:
-:
-Marker
->
+TrackerIndex
 Arc
 <
 R
@@ -1991,9 +1968,6 @@ trackers
 mut
 impl
 ResourceTracker
-<
-R
->
 get_resource_map
 :
 impl
@@ -2012,13 +1986,7 @@ A
 mut
 FastHashMap
 <
-Id
-<
-R
-:
-:
-Marker
->
+TrackerIndex
 Arc
 <
 R
@@ -2056,7 +2024,7 @@ retain
 (
 |
 &
-id
+index
 resource
 |
 {
@@ -2114,7 +2082,7 @@ trackers
 .
 remove_abandoned
 (
-id
+index
 )
 ;
 if
@@ -2147,7 +2115,7 @@ resources
 .
 insert
 (
-id
+index
 resource
 .
 clone
@@ -2285,7 +2253,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2323,7 +2291,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2361,7 +2329,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2399,7 +2367,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2437,7 +2405,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2566,7 +2534,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2600,7 +2568,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2634,7 +2602,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2668,7 +2636,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 v
@@ -2691,7 +2659,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 bind_group
@@ -3258,7 +3226,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 compute_pipeline
@@ -3381,7 +3349,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 render_pipeline
@@ -3486,7 +3454,7 @@ as_info
 (
 )
 .
-id
+tracker_index
 (
 )
 bgl
@@ -4004,13 +3972,13 @@ drain
 )
 {
 let
-buffer_id
+tracker_index
 =
 buffer
 .
 info
 .
-id
+tracker_index
 (
 )
 ;
@@ -4034,7 +4002,7 @@ buffers
 .
 remove_abandoned
 (
-buffer_id
+tracker_index
 )
 }
 ;
@@ -4070,6 +4038,7 @@ ready
 to
 map
 {
+tracker_index
 :
 ?
 }
@@ -4078,7 +4047,6 @@ not
 tracked
 anymore
 "
-buffer_id
 )
 ;
 }
@@ -4208,6 +4176,7 @@ debug
 "
 Buffer
 {
+tracker_index
 :
 ?
 }
@@ -4217,7 +4186,6 @@ state
 >
 Active
 "
-buffer_id
 )
 ;
 let
