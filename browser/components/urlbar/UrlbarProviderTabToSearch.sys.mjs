@@ -760,7 +760,6 @@ query
 /
 getPriority
 (
-queryContext
 )
 {
 return
@@ -873,7 +872,6 @@ update
 getViewUpdate
 (
 result
-idsByName
 )
 {
 return
@@ -1099,7 +1097,6 @@ selected
 onSelection
 (
 result
-element
 )
 {
 /
@@ -1278,7 +1275,6 @@ onEngagement
 state
 queryContext
 details
-controller
 )
 {
 let
@@ -2010,9 +2006,6 @@ enginesForDomainPrefix
 searchStr
 {
 matchAllDomainLevels
-:
-true
-onlyEnabled
 :
 true
 }

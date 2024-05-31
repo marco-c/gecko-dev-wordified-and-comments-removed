@@ -4745,7 +4745,6 @@ cacheL10nStrings
 }
 onQueryCancelled
 (
-queryContext
 )
 {
 this
@@ -9532,7 +9531,6 @@ item
 createRowContent
 (
 item
-result
 )
 {
 /
@@ -10856,7 +10854,6 @@ classes
 createRowContentForRichSuggestion
 (
 item
-result
 )
 {
 item
@@ -23250,7 +23247,6 @@ iconOverride
 }
 on_blur
 (
-event
 )
 {
 /

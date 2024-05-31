@@ -550,7 +550,6 @@ query
 /
 getPriority
 (
-queryContext
 )
 {
 return

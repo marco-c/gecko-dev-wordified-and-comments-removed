@@ -4030,7 +4030,6 @@ profileRefresh
 async
 _setCurrentTipFromAppUpdaterStatus
 (
-waitForCheck
 )
 {
 /
@@ -5076,7 +5075,6 @@ for
 /
 cancelQuery
 (
-queryContext
 )
 {
 /

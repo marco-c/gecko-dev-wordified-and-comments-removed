@@ -901,7 +901,6 @@ makeResult
 (
 queryContext
 suggestion
-searchString
 )
 {
 let

@@ -175,7 +175,8 @@ blank
 "
 }
 async
-browser
+(
+)
 =
 >
 {

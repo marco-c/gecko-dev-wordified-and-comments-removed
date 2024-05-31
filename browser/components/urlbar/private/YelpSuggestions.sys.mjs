@@ -391,7 +391,6 @@ cap
 }
 getSuggestionTelemetryType
 (
-suggestion
 )
 {
 return
@@ -789,7 +788,6 @@ resultProperties
 }
 getResultCommands
 (
-result
 )
 {
 let

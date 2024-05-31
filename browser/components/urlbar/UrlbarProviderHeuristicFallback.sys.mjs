@@ -381,7 +381,6 @@ search
 /
 isActive
 (
-queryContext
 )
 {
 return
@@ -429,7 +428,6 @@ query
 /
 getPriority
 (
-queryContext
 )
 {
 return

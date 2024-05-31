@@ -237,7 +237,8 @@ reload
 .
 catch
 (
-e
+(
+)
 =
 >
 {

@@ -695,7 +695,6 @@ query
 /
 getPriority
 (
-queryContext
 )
 {
 return
@@ -1903,8 +1902,6 @@ onEngagement
 (
 state
 queryContext
-details
-controller
 )
 {
 if

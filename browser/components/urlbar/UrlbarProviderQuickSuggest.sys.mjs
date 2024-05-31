@@ -4883,7 +4883,6 @@ recordNavSuggestionTelemetry
 {
 queryContext
 result
-resultSelType
 resultClicked
 details
 }
@@ -5127,7 +5126,6 @@ context
 /
 cancelQuery
 (
-queryContext
 )
 {
 /

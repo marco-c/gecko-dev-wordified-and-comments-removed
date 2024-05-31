@@ -1167,7 +1167,7 @@ TestProvider
 {
 getResultCommands
 (
-result
+_result
 )
 {
 return

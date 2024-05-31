@@ -1045,7 +1045,6 @@ update
 getViewUpdate
 (
 result
-idsByName
 )
 {
 return

@@ -638,7 +638,6 @@ topPosition
 }
 getPriority
 (
-queryContext
 )
 {
 return
@@ -754,8 +753,6 @@ update
 /
 getViewUpdate
 (
-result
-idsByName
 )
 {
 let

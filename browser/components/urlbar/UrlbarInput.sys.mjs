@@ -4287,6 +4287,7 @@ openParams
 |
 |
 {
+triggeringPrincipal
 }
 ;
 /
@@ -5411,7 +5412,8 @@ browser
 .
 catch
 (
-ex
+(
+)
 =
 >
 {
@@ -22974,7 +22976,6 @@ focus
 }
 _on_mouseover
 (
-event
 )
 {
 this
@@ -22986,7 +22987,6 @@ _updateUrlTooltip
 }
 _on_draggableregionleftmousedown
 (
-event
 )
 {
 if
@@ -24141,7 +24141,6 @@ event
 }
 _on_selectionchange
 (
-event
 )
 {
 /
@@ -24249,7 +24248,6 @@ value
 }
 _on_select
 (
-event
 )
 {
 /
@@ -25411,7 +25409,6 @@ options
 }
 _on_scrollend
 (
-event
 )
 {
 this
@@ -25423,7 +25420,6 @@ updateTextOverflow
 }
 _on_TabSelect
 (
-event
 )
 {
 this
@@ -25971,7 +25967,6 @@ null
 }
 _on_compositionstart
 (
-event
 )
 {
 if

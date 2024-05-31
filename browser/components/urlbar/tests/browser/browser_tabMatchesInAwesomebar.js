@@ -831,7 +831,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 if

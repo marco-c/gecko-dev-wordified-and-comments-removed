@@ -561,7 +561,6 @@ makeResult
 (
 queryContext
 suggestion
-searchString
 )
 {
 if
@@ -834,7 +833,6 @@ true
 }
 getResultCommands
 (
-result
 )
 {
 return

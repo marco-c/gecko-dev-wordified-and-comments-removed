@@ -527,7 +527,6 @@ url
 async
 function
 (
-browser
 )
 {
 gURLBar
@@ -779,7 +778,6 @@ validUrl
 async
 function
 (
-browser
 )
 {
 gURLBar

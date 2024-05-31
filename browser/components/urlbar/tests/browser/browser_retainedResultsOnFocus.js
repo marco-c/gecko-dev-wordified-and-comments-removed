@@ -622,7 +622,8 @@ waitForLoad
 false
 }
 async
-browser
+(
+)
 =
 >
 {

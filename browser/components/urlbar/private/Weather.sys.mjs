@@ -846,7 +846,6 @@ Weather
 }
 isRustSuggestionTypeEnabled
 (
-type
 )
 {
 /
@@ -902,7 +901,6 @@ weatherKeywords
 }
 getSuggestionTelemetryType
 (
-suggestion
 )
 {
 return
@@ -2540,7 +2538,6 @@ true
 }
 getResultCommands
 (
-result
 )
 {
 let

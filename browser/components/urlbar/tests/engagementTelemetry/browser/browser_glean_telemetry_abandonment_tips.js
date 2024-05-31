@@ -213,7 +213,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {

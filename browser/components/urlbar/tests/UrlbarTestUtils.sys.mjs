@@ -10438,7 +10438,7 @@ _type
 }
 getPriority
 (
-context
+_context
 )
 {
 return
@@ -10449,7 +10449,7 @@ priority
 }
 isActive
 (
-context
+_context
 )
 {
 return
@@ -10578,7 +10578,7 @@ addTimeout
 }
 cancelQuery
 (
-context
+_context
 )
 {
 this

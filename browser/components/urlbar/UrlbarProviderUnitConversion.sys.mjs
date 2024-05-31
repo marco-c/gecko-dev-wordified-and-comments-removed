@@ -907,7 +907,6 @@ onEngagement
 state
 queryContext
 details
-controller
 )
 {
 let

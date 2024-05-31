@@ -72,8 +72,8 @@ HEURISTIC
 async
 startQuery
 (
-context
-addCallback
+_context
+_addCallback
 )
 {
 await
@@ -370,7 +370,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -595,7 +596,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -706,7 +708,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {

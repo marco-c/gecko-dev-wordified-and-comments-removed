@@ -2098,7 +2098,6 @@ object
 /
 cancelQuery
 (
-queryContext
 )
 {
 if

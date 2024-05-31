@@ -13068,7 +13068,8 @@ length
 "
 prohibitRemoteResults
 "
-v
+(
+)
 =
 >
 true
@@ -13134,7 +13135,8 @@ length
 "
 view
 "
-v
+(
+)
 =
 >
 true
@@ -14065,7 +14067,7 @@ param
 {
 UrlbarQueryContext
 }
-queryContext
+_queryContext
 the
 context
 to
@@ -14079,7 +14081,7 @@ abstract
 /
 sort
 (
-queryContext
+_queryContext
 )
 {
 throw
@@ -14432,7 +14434,7 @@ param
 {
 UrlbarQueryContext
 }
-queryContext
+_queryContext
 The
 query
 context
@@ -14458,7 +14460,7 @@ abstract
 /
 isActive
 (
-queryContext
+_queryContext
 )
 {
 throw
@@ -14540,7 +14542,7 @@ param
 {
 UrlbarQueryContext
 }
-queryContext
+_queryContext
 The
 query
 context
@@ -14566,7 +14568,7 @@ abstract
 /
 getPriority
 (
-queryContext
+_queryContext
 )
 {
 /
@@ -14619,7 +14621,7 @@ param
 {
 UrlbarQueryContext
 }
-queryContext
+_queryContext
 The
 query
 context
@@ -14629,7 +14631,7 @@ param
 {
 Function
 }
-addCallback
+_addCallback
 Callback
 invoked
 by
@@ -14656,8 +14658,8 @@ abstract
 /
 startQuery
 (
-queryContext
-addCallback
+_queryContext
+_addCallback
 )
 {
 throw
@@ -14692,7 +14694,7 @@ param
 {
 UrlbarQueryContext
 }
-queryContext
+_queryContext
 the
 query
 context
@@ -14709,7 +14711,7 @@ abstract
 /
 cancelQuery
 (
-queryContext
+_queryContext
 )
 {
 /
@@ -14749,7 +14751,7 @@ param
 {
 string
 }
-state
+_state
 *
 The
 state
@@ -14851,7 +14853,7 @@ param
 {
 UrlbarQueryContext
 }
-queryContext
+_queryContext
 *
 The
 engagement
@@ -14897,7 +14899,7 @@ param
 {
 object
 }
-details
+_details
 *
 This
 object
@@ -15170,7 +15172,7 @@ param
 {
 UrlbarController
 }
-controller
+_controller
 *
 The
 associated
@@ -15180,10 +15182,10 @@ controller
 /
 onEngagement
 (
-state
-queryContext
-details
-controller
+_state
+_queryContext
+_details
+_controller
 )
 {
 }
@@ -15217,7 +15219,7 @@ param
 {
 UrlbarResult
 }
-result
+_result
 *
 The
 result
@@ -15230,7 +15232,7 @@ param
 {
 Element
 }
-element
+_element
 *
 The
 element
@@ -15250,8 +15252,8 @@ abstract
 /
 onBeforeSelection
 (
-result
-element
+_result
+_element
 )
 {
 }
@@ -15337,7 +15339,7 @@ param
 {
 UrlbarResult
 }
-result
+_result
 *
 The
 result
@@ -15350,7 +15352,7 @@ param
 {
 Element
 }
-element
+_element
 *
 The
 element
@@ -15370,8 +15372,8 @@ abstract
 /
 onSelection
 (
-result
-element
+_result
+_element
 )
 {
 }
@@ -15622,7 +15624,7 @@ param
 {
 UrlbarResult
 }
-result
+_result
 *
 The
 result
@@ -15637,7 +15639,7 @@ param
 {
 Map
 }
-idsByName
+_idsByName
 *
 A
 Map
@@ -15909,8 +15911,8 @@ textContent
 /
 getViewUpdate
 (
-result
-idsByName
+_result
+_idsByName
 )
 {
 return
@@ -15981,7 +15983,7 @@ param
 {
 UrlbarResult
 }
-result
+_result
 *
 The
 menu
@@ -16153,7 +16155,7 @@ object
 /
 getResultCommands
 (
-result
+_result
 )
 {
 return
@@ -18272,7 +18274,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

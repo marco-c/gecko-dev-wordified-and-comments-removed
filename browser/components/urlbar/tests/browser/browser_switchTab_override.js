@@ -267,7 +267,8 @@ withResolvers
 let
 onTabSelect
 =
-event
+(
+)
 =
 >
 {

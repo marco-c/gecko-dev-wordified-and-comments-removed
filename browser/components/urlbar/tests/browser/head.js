@@ -474,7 +474,6 @@ browser
 webprogress
 request
 flags
-status
 )
 {
 if

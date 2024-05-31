@@ -815,7 +815,6 @@ null
 }
 onQueryCancelled
 (
-queryContext
 )
 {
 this
@@ -831,7 +830,6 @@ COMPLETE
 }
 onQueryFinished
 (
-queryContext
 )
 {
 this

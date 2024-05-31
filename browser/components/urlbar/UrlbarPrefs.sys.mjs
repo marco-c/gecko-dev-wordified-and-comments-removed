@@ -10119,7 +10119,6 @@ true
 }
 _migrateFirefoxSuggestPrefsTo_2
 (
-scenario
 )
 {
 /

@@ -2008,7 +2008,8 @@ true
 ;
 setSuggestionsFn
 (
-searchStr
+(
+)
 =
 >
 {
@@ -7101,7 +7102,8 @@ maxCharsForSearchSuggestions
 ;
 setSuggestionsFn
 (
-searchStr
+(
+)
 =
 >
 {

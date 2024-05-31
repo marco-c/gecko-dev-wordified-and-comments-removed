@@ -265,7 +265,6 @@ observer
 (
 aSubject
 aTopicInner
-aData
 )
 =
 >
@@ -1142,7 +1141,8 @@ about
 blank
 "
 }
-browser
+(
+)
 =
 >
 runURLBarSearchTest
@@ -1209,7 +1209,8 @@ about
 blank
 "
 }
-browser
+(
+)
 =
 >
 runURLBarSearchTest
@@ -1281,7 +1282,8 @@ about
 blank
 "
 }
-browser
+(
+)
 =
 >
 runURLBarSearchTest
@@ -1440,7 +1442,8 @@ about
 blank
 "
 }
-browser
+(
+)
 =
 >
 runURLBarSearchTest

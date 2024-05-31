@@ -598,9 +598,6 @@ checkBestMatchRow
 (
 {
 result
-isSponsored
-=
-false
 hasHelpUrl
 =
 false

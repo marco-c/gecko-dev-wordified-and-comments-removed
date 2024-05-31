@@ -1577,7 +1577,6 @@ addObserver
 {
 onPrefChanged
 (
-pref
 )
 {
 throw
@@ -1593,7 +1592,6 @@ onPrefChanged
 }
 onNimbusChanged
 (
-pref
 )
 {
 throw
@@ -1775,7 +1773,6 @@ addObserver
 {
 onPrefChanged
 (
-pref
 )
 {
 throw
@@ -1791,7 +1788,6 @@ onPrefChanged
 }
 onNimbusChanged
 (
-pref
 )
 {
 throw

@@ -3787,7 +3787,6 @@ logResponse
 {
 request
 status
-statusText
 headers
 body
 }

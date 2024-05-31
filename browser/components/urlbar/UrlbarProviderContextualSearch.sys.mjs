@@ -829,9 +829,6 @@ host
 matchAllDomainLevels
 :
 true
-onlyEnabled
-:
-false
 }
 )
 )
@@ -1262,7 +1259,6 @@ update
 getViewUpdate
 (
 result
-idsByName
 )
 {
 return

@@ -271,7 +271,8 @@ home
 "
 }
 async
-browser
+(
+)
 =
 >
 {

@@ -705,7 +705,7 @@ not
 /
 enable
 (
-enabled
+_enabled
 )
 {
 }
@@ -783,7 +783,7 @@ implemented
 async
 queryRemoteSettings
 (
-searchString
+_searchString
 )
 {
 return
@@ -846,7 +846,7 @@ object
 async
 onRemoteSettingsSync
 (
-rs
+_rs
 )
 {
 }
@@ -952,7 +952,7 @@ type
 /
 getSuggestionTelemetryType
 (
-suggestion
+_suggestion
 )
 {
 return
@@ -1088,7 +1088,7 @@ enabled
 /
 isRustSuggestionTypeEnabled
 (
-type
+_type
 )
 {
 return
@@ -1232,9 +1232,9 @@ suggestion
 async
 makeResult
 (
-queryContext
-suggestion
-searchString
+_queryContext
+_suggestion
+_searchString
 )
 {
 return

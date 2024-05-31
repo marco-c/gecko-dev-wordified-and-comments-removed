@@ -565,7 +565,6 @@ null
 }
 getPriority
 (
-queryContext
 )
 {
 /

@@ -2609,7 +2609,6 @@ query
 /
 getPriority
 (
-queryContext
 )
 {
 return
@@ -2810,7 +2809,6 @@ object
 /
 cancelQuery
 (
-queryContext
 )
 {
 if

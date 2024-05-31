@@ -508,9 +508,6 @@ prefix
 matchAllDomainLevels
 =
 false
-onlyEnabled
-=
-false
 }
 =
 {

@@ -137,7 +137,6 @@ onLocationChange
 aWebProgress
 aRequest
 aLocation
-aFlags
 )
 {
 if

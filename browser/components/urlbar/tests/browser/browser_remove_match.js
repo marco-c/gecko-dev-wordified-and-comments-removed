@@ -1083,7 +1083,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await

@@ -1036,7 +1036,6 @@ true
 }
 getResultCommands
 (
-result
 )
 {
 const
