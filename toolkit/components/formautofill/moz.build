@@ -82,6 +82,15 @@ mjs
 "
 shared
 /
+AutofillTelemetry
+.
+sys
+.
+mjs
+"
+"
+shared
+/
 CreditCardRecord
 .
 sys

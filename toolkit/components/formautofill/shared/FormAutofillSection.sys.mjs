@@ -117,7 +117,11 @@ resource
 :
 /
 /
-autofill
+gre
+/
+modules
+/
+shared
 /
 AutofillTelemetry
 .
