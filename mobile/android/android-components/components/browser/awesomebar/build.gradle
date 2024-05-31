@@ -137,6 +137,16 @@ concept
 awesomebar
 '
 )
+implementation
+project
+(
+'
+:
+support
+-
+ktx
+'
+)
 api
 Dependencies
 .
@@ -163,6 +173,10 @@ support
 test
 '
 )
+testImplementation
+Dependencies
+.
+testing_androidx
 testImplementation
 Dependencies
 .
