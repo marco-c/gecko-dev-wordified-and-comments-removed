@@ -1732,6 +1732,14 @@ nsIContent
 aChild
 )
 ;
+void
+MaybeFireEventsForChangedPopover
+(
+LocalAccessible
+*
+aAcc
+)
+;
 PresShell
 *
 mPresShell

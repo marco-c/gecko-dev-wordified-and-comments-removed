@@ -6930,6 +6930,15 @@ nsGkAtoms
 :
 :
 contenteditable
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
+popovertarget
 ;
 }
 void
