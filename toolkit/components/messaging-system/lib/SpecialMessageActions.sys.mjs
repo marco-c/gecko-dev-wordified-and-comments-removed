@@ -1263,6 +1263,13 @@ allowedPrefs
 "
 browser
 .
+aboutwelcome
+.
+didSeeFinalScreen
+"
+"
+browser
+.
 dataFeatureRecommendations
 .
 enabled
