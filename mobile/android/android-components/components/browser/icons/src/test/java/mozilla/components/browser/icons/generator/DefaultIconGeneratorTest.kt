@@ -197,7 +197,6 @@ generator
 =
 DefaultIconGenerator
 (
-testContext
 )
 assertEquals
 (
@@ -757,8 +756,13 @@ generator
 =
 DefaultIconGenerator
 (
-testContext
 )
+val
+res
+=
+testContext
+.
+resources
 val
 color
 =
@@ -766,6 +770,7 @@ generator
 .
 pickColor
 (
+res
 "
 http
 :
@@ -801,6 +806,7 @@ generator
 .
 pickColor
 (
+res
 "
 http
 :
@@ -833,6 +839,7 @@ generator
 .
 pickColor
 (
+res
 "
 https
 :
@@ -853,6 +860,7 @@ generator
 .
 pickColor
 (
+res
 "
 http
 :
@@ -871,6 +879,7 @@ generator
 .
 pickColor
 (
+res
 "
 http
 :
@@ -891,6 +900,7 @@ generator
 .
 pickColor
 (
+res
 "
 http
 :
@@ -930,6 +940,7 @@ generator
 .
 pickColor
 (
+res
 "
 "
 )
@@ -948,7 +959,6 @@ generator
 =
 DefaultIconGenerator
 (
-testContext
 )
 val
 icon
