@@ -36858,7 +36858,7 @@ mirror
 always
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 #
 Create
 specialized
@@ -36928,7 +36928,7 @@ endif
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -37075,7 +37075,7 @@ always
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 -
 name
 :
@@ -40951,7 +40951,7 @@ always
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 #
 Files
 show

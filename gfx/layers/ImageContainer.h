@@ -299,7 +299,7 @@ D3D11YCbCrRecycleAllocator
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 class
 MacIOSurfaceRecycleAllocator
 ;
@@ -345,7 +345,7 @@ SurfaceTextureImage
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 class
 MacIOSurfaceImage
@@ -690,7 +690,7 @@ nullptr
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 virtual
 MacIOSurfaceImage
 *
@@ -1620,7 +1620,7 @@ aKnowsCompositor
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 already_AddRefed
 <
 MacIOSurfaceRecycleAllocator
@@ -1808,7 +1808,7 @@ mRecursiveMutex
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 RefPtr
 <
 MacIOSurfaceRecycleAllocator
