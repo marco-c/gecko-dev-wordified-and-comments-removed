@@ -12205,6 +12205,9 @@ MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
 (
 ServoPostTraversalFlags
 )
+#
+ifdef
+ACCESSIBILITY
 static
 bool
 IsVisibleForA11y
@@ -12268,6 +12271,8 @@ StyleContentVisibility
 Hidden
 ;
 }
+#
+endif
 static
 ServoPostTraversalFlags
 SendA11yNotifications
