@@ -2369,15 +2369,6 @@ Output
 =
 Color
 ;
-type
-Error
-=
-StyleParseErrorKind
-<
-'
-i
->
-;
 fn
 parse_angle_or_number
 <
