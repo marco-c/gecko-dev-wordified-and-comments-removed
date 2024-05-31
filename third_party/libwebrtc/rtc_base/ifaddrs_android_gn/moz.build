@@ -419,7 +419,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -448,7 +448,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -497,9 +497,6 @@ OS_LIBS
 =
 [
 "
-android_support
-"
-"
 unwind
 "
 ]
@@ -507,7 +504,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -533,19 +530,11 @@ WEBRTC_ENABLE_AVX2
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-android_support
-"
-]
 if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
