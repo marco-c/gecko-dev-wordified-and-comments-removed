@@ -14170,6 +14170,16 @@ waitForOutlineList
 true
 )
 {
+info
+(
+"
+Select
+the
+outline
+panel
+"
+)
+;
 const
 outlineTab
 =
