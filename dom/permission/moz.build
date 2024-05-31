@@ -45,6 +45,11 @@ PermissionStatus
 h
 "
 "
+PermissionUtils
+.
+h
+"
+"
 StorageAccessPermissionStatus
 .
 h

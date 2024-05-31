@@ -447,6 +447,11 @@ PathUtils
 webidl
 "
 "
+PermissionSetParameters
+.
+webidl
+"
+"
 PrecompiledScript
 .
 webidl
