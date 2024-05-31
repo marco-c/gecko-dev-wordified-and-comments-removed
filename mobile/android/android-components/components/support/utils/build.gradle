@@ -181,11 +181,11 @@ support_appcompat
 testImplementation
 Dependencies
 .
-testing_junit
+androidx_test_core
 testImplementation
 Dependencies
 .
-testing_robolectric
+testing_junit
 testImplementation
 Dependencies
 .

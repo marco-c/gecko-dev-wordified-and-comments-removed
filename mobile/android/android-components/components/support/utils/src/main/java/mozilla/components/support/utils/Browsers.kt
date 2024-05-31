@@ -1142,7 +1142,10 @@ browser
 that
 is
 not
-Focus
+*
+this
+app
+*
 or
 Firefox
 and
@@ -1418,6 +1421,13 @@ info
 activityInfo
 .
 packageName
+&
+&
+info
+.
+activityInfo
+.
+exported
 )
 {
 browsers
