@@ -1591,14 +1591,11 @@ GdkWindow
 *
 gdkWindow
 =
-gtk_widget_get_window
-(
 sourceWindow
 -
 >
-GetGtkWidget
+GetToplevelGdkWindow
 (
-)
 )
 ;
 if
