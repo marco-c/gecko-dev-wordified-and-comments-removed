@@ -22107,6 +22107,9 @@ RestoreWaylandDisplay
 }
 if
 (
+waylandEnabled
+&
+&
 PR_GetEnv
 (
 "
