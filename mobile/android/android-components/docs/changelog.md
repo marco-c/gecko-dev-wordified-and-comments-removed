@@ -713,6 +713,17 @@ facts
 *
 *
 *
+feature
+-
+awesomebar
+*
+*
+*
+Added
+BookmarksStorageSuggestionProvider
+*
+*
+*
 browser
 -
 toolbar
