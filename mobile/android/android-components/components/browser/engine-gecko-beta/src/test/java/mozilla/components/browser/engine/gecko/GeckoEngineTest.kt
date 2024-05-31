@@ -115,18 +115,6 @@ mozilla
 .
 components
 .
-concept
-.
-engine
-.
-webextension
-.
-WebExtension
-import
-mozilla
-.
-components
-.
 support
 .
 test
@@ -1212,8 +1200,6 @@ engine
 .
 installWebExtension
 (
-WebExtension
-(
 "
 test
 -
@@ -1232,7 +1218,6 @@ extensions
 /
 test
 "
-)
 onSuccess
 =
 {
@@ -1400,8 +1385,6 @@ engine
 .
 installWebExtension
 (
-WebExtension
-(
 "
 test
 -
@@ -1422,7 +1405,6 @@ extensions
 /
 error
 "
-)
 )
 {
 _

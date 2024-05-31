@@ -77,18 +77,6 @@ util
 .
 AttributeSet
 import
-mozilla
-.
-components
-.
-concept
-.
-engine
-.
-webextension
-.
-WebExtension
-import
 org
 .
 json
@@ -284,8 +272,6 @@ engine
 .
 installWebExtension
 (
-WebExtension
-(
 "
 my
 -
@@ -298,7 +284,6 @@ resource
 /
 path
 "
-)
 onError
 =
 {
