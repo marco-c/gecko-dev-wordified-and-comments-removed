@@ -158,6 +158,7 @@ java
 text
 .
 NumberFormat
+open
 class
 TabCounter
 JvmOverloads
