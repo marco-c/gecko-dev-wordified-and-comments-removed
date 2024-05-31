@@ -1976,6 +1976,11 @@ loadWithOverviewMode
 it
 .
 loadWithOverviewMode
+useWideViewPort
+=
+it
+.
+useWideViewPort
 trackingProtectionPolicy
 =
 it
