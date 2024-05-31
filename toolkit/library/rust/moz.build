@@ -54,9 +54,6 @@ RUST_TESTS
 =
 [
 "
-crashreporter
-"
-"
 firefox
 -
 on
@@ -79,16 +76,6 @@ qcms
 gkrust
 "
 ]
-RUST_TEST_FEATURES
-.
-append
-(
-"
-crashreporter
-/
-mock
-"
-)
 if
 not
 CONFIG
