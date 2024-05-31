@@ -906,8 +906,8 @@ self
 build_task_id
 wait_on_builds_task_id
 version
-artifact
-artifact_name
+artifacts
+component_name
 is_snapshot
 is_staging
     
@@ -1057,6 +1057,75 @@ payload
 {
             
 "
+artifactMap
+"
+:
+[
+{
+                
+"
+locale
+"
+:
+"
+en
+-
+US
+"
+                
+"
+paths
+"
+:
+{
+                    
+artifact
+[
+'
+taskcluster_path
+'
+]
+:
+{
+                        
+'
+checksums_path
+'
+:
+'
+'
+                        
+'
+destinations
+'
+:
+[
+artifact
+[
+'
+maven_destination
+'
+]
+]
+                    
+}
+for
+artifact
+in
+artifacts
+                
+}
+                
+"
+taskId
+"
+:
+build_task_id
+            
+}
+]
+            
+"
 maxRunTime
 "
 :
@@ -1075,6 +1144,15 @@ paths
 :
 [
 artifact
+[
+'
+taskcluster_path
+'
+]
+for
+artifact
+in
+artifacts
 ]
                 
 '
@@ -1090,12 +1168,6 @@ taskType
 '
 build
 '
-                
-'
-zipExtract
-'
-:
-True
             
 }
 ]
@@ -1141,12 +1213,6 @@ if
 is_snapshot
 else
 version
-            
-"
-artifact_id
-"
-:
-artifact_name
         
 }
         
@@ -1249,7 +1315,7 @@ beetmover
 .
 format
 (
-artifact_name
+component_name
 )
             
 description
@@ -1267,7 +1333,7 @@ to
 .
 format
 (
-artifact_name
+component_name
 bucket_public_url
 )
             
