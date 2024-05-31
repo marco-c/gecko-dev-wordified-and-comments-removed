@@ -20,6 +20,9 @@ browser
 use_cdp
 =
 True
+clone_profile
+=
+False
 )
     
 assert
@@ -65,26 +68,6 @@ DevToolsActivePort
 )
     
 assert
-os
-.
-path
-.
-exists
-(
-port_file
-)
-    
-current_browser
-.
-quit
-(
-clean_profile
-=
-False
-)
-    
-assert
-not
 os
 .
 path

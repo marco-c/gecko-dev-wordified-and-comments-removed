@@ -15,6 +15,11 @@ name
 "
 configuration
 "
+scope
+=
+"
+session
+"
 )
 def
 fixture_configuration

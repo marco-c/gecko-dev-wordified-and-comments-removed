@@ -1,10 +1,6 @@
 import
 pytest
 from
-mozprofile
-import
-Profile
-from
 .
 helpers
 import
@@ -13,6 +9,8 @@ import
 Browser
     
 Geckodriver
+    
+create_custom_profile
     
 get_pref
     
@@ -36,6 +34,7 @@ def
 browser
 (
 configuration
+firefox_options
 )
 :
     
@@ -129,18 +128,27 @@ None
 def
 _browser
 (
+        
 use_bidi
 =
 False
+        
 use_cdp
 =
 False
+        
 extra_args
 =
 None
+        
 extra_prefs
 =
 None
+        
+clone_profile
+=
+True
+    
 )
 :
         
@@ -230,21 +238,32 @@ env
 "
 ]
         
-firefox_options
+profile_path
 =
-configuration
-[
-"
-capabilities
-"
-]
-[
-"
-moz
-:
-firefoxOptions
-"
-]
+get_profile_folder
+(
+firefox_options
+)
+        
+default_prefs
+=
+read_user_preferences
+(
+profile_path
+)
+        
+profile
+=
+create_custom_profile
+(
+            
+profile_path
+default_prefs
+clone
+=
+clone_profile
+        
+)
         
 current_browser
 =
@@ -253,7 +272,7 @@ Browser
             
 binary
             
-firefox_options
+profile
             
 use_bidi
 =
@@ -308,25 +327,57 @@ None
 pytest
 .
 fixture
-def
-custom_profile
 (
+name
+=
+"
+create_custom_profile
+"
+)
+def
+fixture_create_custom_profile
+(
+default_preferences
 profile_folder
 )
 :
     
 profile
 =
-Profile
-.
-clone
-(
-profile_folder
-)
+None
     
-yield
+def
+_create_custom_profile
+(
+clone
+=
+True
+)
+:
+        
+profile
+=
+create_custom_profile
+(
+            
+profile_folder
+default_preferences
+clone
+=
+clone
+        
+)
+        
+return
 profile
     
+yield
+_create_custom_profile
+    
+if
+profile
+:
+        
 profile
 .
 cleanup
@@ -350,6 +401,13 @@ profile_folder
 pytest
 .
 fixture
+(
+scope
+=
+"
+session
+"
+)
 def
 firefox_options
 (

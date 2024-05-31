@@ -81,8 +81,8 @@ test_marionette_port_outdated_active_port_file
 (
     
 configuration
+create_custom_profile
 geckodriver
-custom_profile
 )
 :
     
@@ -91,6 +91,12 @@ config
 deepcopy
 (
 configuration
+)
+    
+custom_profile
+=
+create_custom_profile
+(
 )
     
 extra_args
