@@ -211,7 +211,7 @@ thirdparty_sentry
 compileOnly
 Gecko
 .
-geckoview_nightly_arm
+geckoview_nightly
 testImplementation
 Dependencies
 .

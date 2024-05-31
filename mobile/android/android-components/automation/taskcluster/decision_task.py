@@ -516,13 +516,7 @@ GeckoBetaX86
 "
                     
 "
-GeckoNightlyAarch64
-"
-"
-GeckoNightlyArm
-"
-"
-GeckoNightlyX86
+GeckoNightlyUniversal
 "
                     
 "
