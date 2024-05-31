@@ -14,14 +14,6 @@ allow
 deprecated
 )
 ]
-#
-[
-macro_use
-]
-extern
-crate
-smallvec
-;
 extern
 crate
 test
@@ -41,6 +33,7 @@ smallvec
 :
 {
 ExtendFromSlice
+smallvec
 SmallVec
 }
 ;

@@ -119,8 +119,6 @@ const
 bidi_class_table
 :
 &
-'
-static
 [
 (
 char
@@ -24720,8 +24718,6 @@ const
 bidi_pairs_table
 :
 &
-'
-static
 [
 (
 char
