@@ -190,6 +190,13 @@ val
 storage
 :
 ManifestStorage
+private
+val
+supportWebApps
+:
+Boolean
+=
+true
 )
 {
 /
@@ -244,6 +251,9 @@ shortcut
 =
 if
 (
+supportWebApps
+&
+&
 manifest
 !
 =

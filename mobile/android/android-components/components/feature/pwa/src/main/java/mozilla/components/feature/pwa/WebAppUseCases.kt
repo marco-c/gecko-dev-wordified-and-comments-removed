@@ -123,6 +123,11 @@ Context
 sessionManager
 :
 SessionManager
+supportWebApps
+:
+Boolean
+=
+true
 )
 {
 fun
@@ -216,6 +221,9 @@ val
 sessionManager
 :
 SessionManager
+supportWebApps
+:
+Boolean
 )
 {
 private
@@ -228,6 +236,7 @@ ManifestStorage
 (
 applicationContext
 )
+supportWebApps
 )
 suspend
 operator
@@ -263,6 +272,7 @@ AddToHomescreenUseCase
 (
 applicationContext
 sessionManager
+supportWebApps
 )
 }
 }
