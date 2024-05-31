@@ -348,7 +348,7 @@ declarations
 )
 {
 let
-cssText
+cssTextSerialization
 =
 div
 .
@@ -372,7 +372,7 @@ function
 {
 assert_true
 (
-cssText
+cssTextSerialization
 .
 indexOf
 (
@@ -384,14 +384,16 @@ decl
 -
 1
 cssText
+serialization
 (
 '
 {
-cssText
+cssTextSerialization
 }
 '
 )
 must
+contain
 contain
 '
 {
@@ -416,6 +418,9 @@ contain
 decl
 }
 '
+in
+its
+serialization
 )
 ;
 }
