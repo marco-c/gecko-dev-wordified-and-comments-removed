@@ -232,6 +232,17 @@ extensions
 [
 ]
 )
+                
+config
+.
+get
+(
+"
+exclude_extensions
+"
+[
+]
+)
             
 )
             
