@@ -6453,6 +6453,15 @@ accountNeedsReauth
 (
 )
 )
+assertEquals
+(
+mockAccount
+manager
+.
+authenticatedAccount
+(
+)
+)
 /
 /
 Able
@@ -6484,8 +6493,9 @@ await
 (
 )
 )
-assertNull
+assertEquals
 (
+mockAccount
 manager
 .
 authenticatedAccount
