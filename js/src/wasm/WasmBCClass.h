@@ -555,6 +555,9 @@ stk_
 bool
 deadCode_
 ;
+size_t
+mostRecentFinishedTryNoteIndex_
+;
 BCESet
 bceSafe_
 ;
