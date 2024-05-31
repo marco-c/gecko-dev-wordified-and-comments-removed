@@ -180,6 +180,9 @@ true
 enableScripting
 :
 true
+enableStampEditor
+:
+true
 externalLinkTarget
 :
 0
