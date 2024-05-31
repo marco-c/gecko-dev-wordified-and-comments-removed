@@ -333,4 +333,16 @@ TODO
 *
 /
 }
+override
+fun
+onNavigationStateChanged
+(
+)
+{
+/
+*
+TODO
+*
+/
+}
 }
