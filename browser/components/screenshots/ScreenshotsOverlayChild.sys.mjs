@@ -5627,8 +5627,13 @@ this
 .
 window
 .
-dispatchEvent
+windowUtils
+.
+dispatchEventToChromeOnly
 (
+this
+.
+window
 new
 CustomEvent
 (

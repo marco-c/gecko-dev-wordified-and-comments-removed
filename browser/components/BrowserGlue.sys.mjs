@@ -4717,9 +4717,6 @@ Close
 "
 :
 {
-wantUntrusted
-:
-true
 }
 "
 Screenshots
@@ -4728,9 +4725,6 @@ Copy
 "
 :
 {
-wantUntrusted
-:
-true
 }
 "
 Screenshots
@@ -4739,9 +4733,6 @@ Download
 "
 :
 {
-wantUntrusted
-:
-true
 }
 "
 Screenshots
@@ -4750,9 +4741,6 @@ HidePanel
 "
 :
 {
-wantUntrusted
-:
-true
 }
 "
 Screenshots
@@ -4761,9 +4749,6 @@ OverlaySelection
 "
 :
 {
-wantUntrusted
-:
-true
 }
 "
 Screenshots
@@ -4772,9 +4757,6 @@ RecordEvent
 "
 :
 {
-wantUntrusted
-:
-true
 }
 "
 Screenshots
@@ -4783,9 +4765,6 @@ ShowPanel
 "
 :
 {
-wantUntrusted
-:
-true
 }
 }
 }
