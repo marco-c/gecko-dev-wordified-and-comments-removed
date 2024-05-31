@@ -475,13 +475,8 @@ else
 throw
 IllegalStateException
 (
-context
-.
-toString
-(
-)
-+
 "
+context
 must
 implement
 OnLoginCompleteListener
