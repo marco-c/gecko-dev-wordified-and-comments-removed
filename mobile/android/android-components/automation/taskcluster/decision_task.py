@@ -1086,7 +1086,16 @@ return
 gradle_tasks
 +
 '
-uploadArchives
+'
++
+module_name
++
+'
+:
+publish
+'
++
+'
 zipMavenArtifacts
 '
 def
