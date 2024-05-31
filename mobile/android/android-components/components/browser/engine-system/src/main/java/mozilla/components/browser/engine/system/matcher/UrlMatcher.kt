@@ -394,8 +394,10 @@ categoryPrefMap
 .
 forEach
 {
+(
 k
 v
+)
 -
 >
 setCategoryEnabled
