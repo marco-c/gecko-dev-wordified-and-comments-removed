@@ -425,6 +425,7 @@ gradlew
 no
 -
 daemon
+cleanBuildCache
 clean
 assemble
 test
