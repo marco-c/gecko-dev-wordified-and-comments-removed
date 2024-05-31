@@ -68,6 +68,7 @@ re
 findall
 (
         
+r
 '
 __version__
 =

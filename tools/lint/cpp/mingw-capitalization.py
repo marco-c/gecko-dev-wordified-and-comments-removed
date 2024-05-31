@@ -114,6 +114,7 @@ re
 .
 compile
 (
+r
 "
 ^
 #

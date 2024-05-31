@@ -12546,6 +12546,7 @@ iterable
     
 nameSyntax
 =
+r
 "
 [
 \
@@ -13280,6 +13281,7 @@ maybeMultiComments
         
 lineEnd
 =
+r
 "
 %
 s
@@ -14899,6 +14901,7 @@ version
 =
 searchInFile
 (
+r
 "
 ^
 /
@@ -22974,6 +22977,7 @@ all_units_array
 )
         
 +
+r
 "
 "
 "

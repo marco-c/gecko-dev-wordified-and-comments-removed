@@ -77,6 +77,7 @@ assert_regexp_pretty
 "
 execAlloc
 "
+r
 "
 ExecutableAllocator
 \
@@ -87,6 +88,7 @@ ExecutableAllocator
 +
 reExecPool
 +
+r
 "
 \
 ]
@@ -108,6 +110,7 @@ assert_regexp_pretty
 "
 execAlloc
 "
+r
 "
 ExecutableAllocator
 \
@@ -123,6 +126,7 @@ reExecPool
 +
 reExecPool
 +
+r
 "
 \
 ]

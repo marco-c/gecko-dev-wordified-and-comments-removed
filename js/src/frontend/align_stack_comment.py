@@ -61,6 +61,7 @@ re
 .
 compile
 (
+r
 "
 ^
 (

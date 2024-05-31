@@ -1209,6 +1209,7 @@ re
 compile
 (
             
+r
 "
 Bug
 \

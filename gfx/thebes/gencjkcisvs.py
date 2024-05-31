@@ -45,6 +45,7 @@ re
 .
 compile
 (
+r
 "
 ^
 #

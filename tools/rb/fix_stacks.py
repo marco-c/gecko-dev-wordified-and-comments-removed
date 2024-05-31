@@ -19,6 +19,7 @@ re
 .
 compile
 (
+r
 "
 #
 \

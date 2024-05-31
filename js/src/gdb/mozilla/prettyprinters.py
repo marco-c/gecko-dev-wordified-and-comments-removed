@@ -757,6 +757,7 @@ re
 .
 compile
 (
+r
 "
 (
 [

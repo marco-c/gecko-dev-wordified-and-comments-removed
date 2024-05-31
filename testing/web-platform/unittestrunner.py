@@ -383,6 +383,7 @@ re
 .
 compile
 (
+r
 "
 (
 ?

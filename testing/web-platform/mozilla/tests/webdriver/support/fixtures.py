@@ -1249,7 +1249,7 @@ re
 .
 compile
 (
-b
+rb
 "
 .
 *

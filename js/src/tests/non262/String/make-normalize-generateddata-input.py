@@ -133,6 +133,7 @@ re
 .
 compile
 (
+r
 "
 NormalizationTest
 -

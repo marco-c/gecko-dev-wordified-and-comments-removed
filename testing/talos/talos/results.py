@@ -1775,6 +1775,7 @@ re
 compile
 (
         
+r
 "
 MOZ_EVENT_TRACE
 \

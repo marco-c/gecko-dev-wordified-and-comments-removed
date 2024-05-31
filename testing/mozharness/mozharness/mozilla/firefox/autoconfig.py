@@ -411,6 +411,7 @@ fx_install_dir
 )
 :
     
+r
 "
 "
 "

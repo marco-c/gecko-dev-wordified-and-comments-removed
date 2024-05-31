@@ -5054,6 +5054,7 @@ powershell
                 
 (
                     
+r
 "
 Get
 -
@@ -5235,6 +5236,7 @@ FriendlyName
 "
 '
                         
+r
 "
 -
 CertStoreLocation
@@ -5371,6 +5373,7 @@ friendly_name
 powershell
 (
             
+r
 '
 Export
 -
@@ -5440,6 +5443,7 @@ powershell
             
 (
                 
+r
 '
 Export
 -
@@ -5822,6 +5826,7 @@ in
 powershell
 (
                 
+r
 "
 Get
 -

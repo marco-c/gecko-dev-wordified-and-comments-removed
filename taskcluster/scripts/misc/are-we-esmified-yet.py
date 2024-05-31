@@ -953,6 +953,7 @@ hg
 "
 files
 "
+r
 "
 set
 :
@@ -1015,6 +1016,7 @@ git
 "
 grep
 "
+r
 "
 EXPORTED_SYMBOLS
 =

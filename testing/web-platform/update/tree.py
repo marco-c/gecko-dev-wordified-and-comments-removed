@@ -1213,6 +1213,7 @@ re
 compile
 (
         
+r
 "
 ^
 Bug
@@ -1276,6 +1277,7 @@ re
 compile
 (
         
+r
 "
 ^
 (
@@ -1323,6 +1325,7 @@ re
 .
 compile
 (
+r
 "
 (
 ?
