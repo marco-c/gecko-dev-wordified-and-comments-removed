@@ -8211,9 +8211,6 @@ onbeforetoggle
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
