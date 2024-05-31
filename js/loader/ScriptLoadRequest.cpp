@@ -564,12 +564,12 @@ mozilla
 loader
 :
 :
-ComponentLoadContext
+SyncLoadContext
 *
 ScriptLoadRequest
 :
 :
-GetComponentLoadContext
+GetSyncLoadContext
 (
 )
 {
@@ -582,7 +582,7 @@ return
 mLoadContext
 -
 >
-AsComponentContext
+AsSyncContext
 (
 )
 ;

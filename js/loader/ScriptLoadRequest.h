@@ -188,7 +188,7 @@ mozilla
 loader
 {
 class
-ComponentLoadContext
+SyncLoadContext
 ;
 }
 namespace
@@ -730,9 +730,9 @@ mozilla
 loader
 :
 :
-ComponentLoadContext
+SyncLoadContext
 *
-GetComponentLoadContext
+GetSyncLoadContext
 (
 )
 ;

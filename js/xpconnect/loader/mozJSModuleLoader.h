@@ -7,7 +7,7 @@ mozJSModuleLoader_h
 #
 include
 "
-ComponentModuleLoader
+SyncModuleLoader
 .
 h
 "
@@ -557,7 +557,7 @@ mozilla
 loader
 :
 :
-ComponentModuleLoader
+SyncModuleLoader
 *
 aModuleLoader
 JSContext
@@ -1218,7 +1218,7 @@ mozilla
 loader
 :
 :
-ComponentModuleLoader
+SyncModuleLoader
 >
 mModuleLoader
 ;

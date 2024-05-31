@@ -45,7 +45,7 @@ mozilla
 loader
 {
 class
-ComponentLoadContext
+SyncLoadContext
 ;
 }
 namespace
@@ -62,7 +62,7 @@ class
 ContextKind
 {
 Window
-Component
+Sync
 Worker
 Worklet
 }
@@ -154,7 +154,7 @@ AsWindowContext
 )
 ;
 bool
-IsComponentContext
+IsSyncContext
 (
 )
 const
@@ -166,7 +166,7 @@ mKind
 ContextKind
 :
 :
-Component
+Sync
 ;
 }
 mozilla
@@ -175,9 +175,9 @@ mozilla
 loader
 :
 :
-ComponentLoadContext
+SyncLoadContext
 *
-AsComponentContext
+AsSyncContext
 (
 )
 ;
