@@ -418,6 +418,9 @@ bool
 enable_regexp_unaligned_accesses
 ;
 bool
+js_regexp_modifiers
+;
+bool
 regexp_possessive_quantifier
 ;
 bool
