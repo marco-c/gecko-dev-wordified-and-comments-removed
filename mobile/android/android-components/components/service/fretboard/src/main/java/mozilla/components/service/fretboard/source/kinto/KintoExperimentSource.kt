@@ -461,8 +461,6 @@ throw
 ExperimentDownloadException
 (
 e
-.
-message
 )
 }
 return

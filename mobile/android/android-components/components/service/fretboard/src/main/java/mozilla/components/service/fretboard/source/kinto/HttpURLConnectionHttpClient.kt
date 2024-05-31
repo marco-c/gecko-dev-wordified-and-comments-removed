@@ -234,8 +234,6 @@ throw
 ExperimentDownloadException
 (
 e
-.
-message
 )
 }
 catch
@@ -249,8 +247,6 @@ throw
 ExperimentDownloadException
 (
 e
-.
-message
 )
 }
 finally
