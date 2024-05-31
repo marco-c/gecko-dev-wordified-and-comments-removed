@@ -191,6 +191,16 @@ when
 fragment
 .
 isSingleChoice
+and
+item
+.
+isGroupType
+-
+>
+TYPE_GROUP
+fragment
+.
+isSingleChoice
 -
 >
 TYPE_SINGLE
