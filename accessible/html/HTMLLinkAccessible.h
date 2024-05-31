@@ -159,6 +159,17 @@ aOldState
 )
 override
 ;
+virtual
+ENameValueFlag
+NativeName
+(
+nsString
+&
+aName
+)
+const
+override
+;
 enum
 {
 eAction_Jump
