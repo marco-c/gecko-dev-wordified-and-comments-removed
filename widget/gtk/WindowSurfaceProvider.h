@@ -120,8 +120,6 @@ WindowSurfaceProvider
 WindowSurfaceProvider
 (
 )
-=
-default
 ;
 #
 ifdef
