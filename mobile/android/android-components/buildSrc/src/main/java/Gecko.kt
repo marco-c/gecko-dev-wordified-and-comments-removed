@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-private
+internal
 object
 GeckoVersions
 {
