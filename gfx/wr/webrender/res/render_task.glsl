@@ -324,7 +324,7 @@ task
 #
 define
 CLIP_TASK_EMPTY
-0x7FFF
+0x7FFFFFFF
 struct
 ClipArea
 {

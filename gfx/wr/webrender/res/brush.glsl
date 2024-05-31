@@ -1858,7 +1858,7 @@ task
 =
 fetch_picture_task
 (
-instance
+ph
 .
 picture_task_address
 )

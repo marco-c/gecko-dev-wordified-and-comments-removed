@@ -399,7 +399,7 @@ struct
 RenderTaskAddress
 (
 pub
-u16
+i32
 )
 ;
 impl
@@ -425,7 +425,7 @@ self
 .
 index
 as
-u16
+i32
 )
 }
 }
