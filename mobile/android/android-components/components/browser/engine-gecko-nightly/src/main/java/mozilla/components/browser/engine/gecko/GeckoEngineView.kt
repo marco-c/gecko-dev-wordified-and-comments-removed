@@ -589,11 +589,6 @@ fun
 canScrollVerticallyUp
 (
 )
-:
-Boolean
-{
-val
-result
 =
 currentSession
 ?
@@ -609,9 +604,6 @@ scrollY
 !
 =
 false
-return
-result
-}
 override
 fun
 canScrollVerticallyDown
