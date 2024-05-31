@@ -3291,7 +3291,7 @@ const
 codecs
 }
 =
-RTCRtpSender
+RTCRtpReceiver
 .
 getCapabilities
 (

@@ -736,6 +736,14 @@ L3T3
 '
 )
 ;
+pc2
+.
+ontrack
+=
+e
+=
+>
+{
 /
 /
 Pick
@@ -747,10 +755,11 @@ not
 have
 L3T3
 support
+.
 const
 capabilities
 =
-RTCRtpSender
+RTCRtpReceiver
 .
 getCapabilities
 (
@@ -793,6 +802,8 @@ codec
 undefined
 )
 ;
+e
+.
 transceiver
 .
 setCodecPreferences
@@ -802,6 +813,7 @@ codec
 ]
 )
 ;
+}
 exchangeIceCandidates
 (
 pc1
