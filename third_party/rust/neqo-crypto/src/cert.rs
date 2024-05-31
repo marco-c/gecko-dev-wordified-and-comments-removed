@@ -14,7 +14,6 @@ ptr
 addr_of
 NonNull
 }
-slice
 }
 ;
 use
@@ -32,6 +31,7 @@ err
 :
 :
 secstatus_to_res
+null_safe_slice
 p11
 :
 :
@@ -326,10 +326,7 @@ item
 =
 unsafe
 {
-slice
-:
-:
-from_raw_parts
+null_safe_slice
 (
 (
 *
@@ -343,8 +340,6 @@ itemp
 )
 .
 len
-as
-usize
 )
 }
 ;
@@ -466,10 +461,7 @@ sct_slice
 =
 unsafe
 {
-slice
-:
-:
-from_raw_parts
+null_safe_slice
 (
 sct_ptr
 .
@@ -485,8 +477,6 @@ as_ref
 )
 .
 len
-as
-usize
 )
 }
 ;
@@ -733,13 +723,7 @@ Some
 (
 unsafe
 {
-std
-:
-:
-slice
-:
-:
-from_raw_parts
+null_safe_slice
 (
 item
 .
@@ -747,8 +731,6 @@ data
 item
 .
 len
-as
-usize
 )
 }
 )
