@@ -247,12 +247,7 @@ init
 (
 context
 .
-getDatabasePath
-(
-DB_NAME
-)
-.
-canonicalPath
+filesDir
 null
 )
 RustPlacesConnection
