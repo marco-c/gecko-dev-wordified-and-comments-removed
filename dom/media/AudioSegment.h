@@ -1627,7 +1627,6 @@ PRINCIPAL_HANDLE_NONE
 ;
 class
 AudioSegment
-final
 :
 public
 MediaSegmentBase
