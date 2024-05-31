@@ -189,7 +189,6 @@ IMESelectedConvertedTextUnderline
 SpellCheckerUnderlineStyle
 MenuBarDrag
 ScrollbarButtonAutoRepeatBehavior
-TooltipDelay
 SwipeAnimationEnabled
 ScrollbarDisplayOnMouseMove
 ScrollbarFadeBeginDelay
