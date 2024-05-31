@@ -3249,7 +3249,6 @@ not
 function
 isOtherInstanceRunning
 (
-callback
 )
 {
 const
@@ -3598,7 +3597,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 let
@@ -21579,7 +21577,7 @@ timer
 fires
 *
 param
-timer
+_timer
 *
 The
 timer
@@ -21592,7 +21590,7 @@ notify
 function
 AUS_notify
 (
-timer
+_timer
 )
 {
 this
@@ -30506,7 +30504,6 @@ async
 function
 UM_doInstallCleanup
 (
-isUninstall
 )
 {
 LOG
@@ -30788,7 +30785,6 @@ async
 function
 UM_doUninstallCleanup
 (
-isUninstall
 )
 {
 LOG
@@ -32872,7 +32868,7 @@ return
 let
 onLoad
 =
-event
+_event
 =
 >
 {
@@ -32923,7 +32919,7 @@ onLoad
 let
 onError
 =
-event
+_event
 =
 >
 {
@@ -35570,16 +35566,6 @@ a
 patch
 from
 *
-param
-updateDir
-*
-A
-nsIFile
-representing
-the
-update
-directory
-*
 return
 A
 nsIUpdatePatch
@@ -35594,7 +35580,6 @@ function
 Downloader__selectPatch
 (
 update
-updateDir
 )
 {
 /
@@ -36984,7 +36969,6 @@ this
 _selectPatch
 (
 update
-updateDir
 )
 ;
 if

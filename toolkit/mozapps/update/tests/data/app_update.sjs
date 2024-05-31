@@ -622,7 +622,7 @@ initWithCallback
 (
 function
 (
-aTimer
+_aTimer
 )
 {
 let
@@ -1305,7 +1305,7 @@ initWithCallback
 (
 function
 (
-aTimer
+_aTimer
 )
 {
 retries

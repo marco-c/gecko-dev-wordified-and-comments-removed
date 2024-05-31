@@ -53,7 +53,7 @@ nsIAppStartup
 )
 quit
 (
-mode
+_mode
 )
 {
 if
@@ -631,7 +631,7 @@ true
 }
 onCloseWindow
 :
-aXULWindow
+_aXULWindow
 =
 >
 {
