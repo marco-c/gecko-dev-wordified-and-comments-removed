@@ -2373,7 +2373,7 @@ NAME_MAX
 dumper_
 -
 >
-GetMappingEffectiveNamePathAndVersion
+GetMappingEffectiveNameAndPath
 (
 mapping
 file_path
@@ -2386,7 +2386,6 @@ sizeof
 (
 file_name
 )
-nullptr
 )
 ;
 LogAppend

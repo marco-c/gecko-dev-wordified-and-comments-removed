@@ -61,14 +61,6 @@ phc
 toml
 "
 ]
-TEST_DIRS
-+
-=
-[
-"
-gtest
-"
-]
 BROWSER_CHROME_MANIFESTS
 +
 =
