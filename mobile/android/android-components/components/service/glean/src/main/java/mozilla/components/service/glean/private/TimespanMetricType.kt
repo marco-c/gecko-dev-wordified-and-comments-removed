@@ -316,7 +316,7 @@ preserved
 *
 *
 param
-anyObject
+timerId
 The
 object
 to
@@ -349,7 +349,7 @@ metric
 fun
 start
 (
-anyObject
+timerId
 :
 Any
 )
@@ -370,7 +370,7 @@ TimingManager
 start
 (
 this
-anyObject
+timerId
 )
 }
 /
@@ -419,7 +419,7 @@ called
 *
 *
 param
-anyObject
+timerId
 The
 object
 to
@@ -452,7 +452,7 @@ metric
 fun
 stopAndSum
 (
-anyObject
+timerId
 :
 Any
 )
@@ -473,7 +473,7 @@ TimingManager
 stop
 (
 this
-anyObject
+timerId
 )
 ?
 .
@@ -533,7 +533,7 @@ called
 *
 *
 param
-anyObject
+timerId
 The
 object
 to
@@ -566,7 +566,7 @@ metric
 fun
 cancel
 (
-anyObject
+timerId
 :
 Any
 )
@@ -587,7 +587,7 @@ TimingManager
 cancel
 (
 this
-anyObject
+timerId
 )
 }
 /
