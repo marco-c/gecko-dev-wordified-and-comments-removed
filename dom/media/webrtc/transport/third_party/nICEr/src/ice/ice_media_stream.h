@@ -112,9 +112,6 @@ ice_state
 int
 obsolete
 ;
-int
-actually_started_checking
-;
 #
 define
 NR_ICE_MEDIA_STREAM_UNPAIRED
