@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-07c11578f5b85cc61c9638aa6d17b8ceb4fa8451
+74acb31550dec8c887e9502a4ba3435efa518a6e
 '
 #
 Fetch
@@ -433,7 +433,7 @@ chromium
 src
 /
 base
-db662aea206b515b13c4ec82cd4c3be55441718c
+341add321e75df8006f1d610b7df92f2854387a3
 '
 '
 src
@@ -457,7 +457,7 @@ chromium
 src
 /
 build
-6355ffc8d8a78ec90aa50be73ab4e19410cadecc
+8b922e8b997ee576660ca482418abfe332383a96
 '
 '
 src
@@ -481,7 +481,7 @@ chromium
 src
 /
 buildtools
-2a8d2c5eab77c3bda4dcd740c100044a58fe2a7d
+06a9897f2451c17a3f20dfc64f0ad6ee4a89b28c
 '
 #
 Gradle
@@ -577,7 +577,7 @@ chromium
 src
 /
 ios
-e08da60964914ea4f5e88c0816017e2eee93d042
+f6e22b9c75d1879c32d8ec48521f7c5ec610282c
 '
 '
 condition
@@ -609,7 +609,7 @@ chromium
 src
 /
 testing
-5417139dbea0350d2befb367f37ccd181ed0d501
+317c96423d7811ca0a6cd13e34d1790b299c0d13
 '
 '
 src
@@ -633,7 +633,7 @@ chromium
 src
 /
 third_party
-b2e6642fb9a2d17710f82a5d1dfaeb18132f0006
+a676e4c7f6e8063c3d0d16ce59d942de5668d89c
 '
 '
 src
@@ -997,7 +997,7 @@ project
 libcxx
 .
 git
-4b348d339bf7240f4fe173b0b78774661bc95bd9
+c03569abfcd5470305384047f69213004d5997bb
 '
 '
 src
@@ -1786,7 +1786,7 @@ third_party
 freetype2
 .
 git
-df39b017d9b25eb34b396484fc235544cedd0565
+63d3a37eb757924f6251accb20d0d0cd33e86e7c
 '
 '
 src
@@ -2347,9 +2347,13 @@ version
 '
 :
 '
-y9zd2
+WKNG
 -
-JF5FESwNZEVJnnejmk6J97g7fjlmwxNaMuJAoC
+_aQcnsBG
+-
+F7SS
+-
+yUGLlN9roxcWYt1K_8uw27zQC
 '
 }
 ]
@@ -2644,7 +2648,7 @@ external
 perfetto
 .
 git
-d8864cd18304436dbcc6e1283bff5d4d6cccc895
+eb9117dab71f73451f1f28f8871ed6d9a25ad7bb
 '
 '
 src
@@ -3100,7 +3104,7 @@ chromium
 src
 /
 tools
-12cdf7466554614d99791a693718500bba05d472
+b7510e8017f092c8a41db8ab0c38748b2d15d481
 '
 '
 src
