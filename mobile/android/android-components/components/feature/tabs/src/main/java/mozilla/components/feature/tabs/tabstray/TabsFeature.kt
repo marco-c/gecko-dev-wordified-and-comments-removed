@@ -134,18 +134,6 @@ closeTabsTray
 -
 >
 Unit
-onTabsTrayEmpty
-:
-(
-(
-)
--
->
-Unit
-)
-?
-=
-null
 )
 {
 private
@@ -157,7 +145,6 @@ TabsTrayPresenter
 tabsTray
 sessionManager
 closeTabsTray
-onTabsTrayEmpty
 )
 private
 val
