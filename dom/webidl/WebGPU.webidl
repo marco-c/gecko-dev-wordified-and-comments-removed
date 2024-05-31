@@ -2434,6 +2434,16 @@ write
 -
 only
 "
+"
+read
+-
+only
+"
+"
+read
+-
+write
+"
 }
 ;
 dictionary
