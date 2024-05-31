@@ -246,6 +246,13 @@ usesCleartextTraffic
 "
 true
 "
+tools
+:
+ignore
+=
+"
+UnusedAttribute
+"
 >
 <
 activity
