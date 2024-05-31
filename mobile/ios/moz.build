@@ -1,3 +1,13 @@
+CONFIGURE_SUBST_FILES
++
+=
+[
+"
+installer
+/
+Makefile
+"
+]
 with
 Files
 (
