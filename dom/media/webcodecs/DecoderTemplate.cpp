@@ -5970,6 +5970,13 @@ DecoderTemplate
 VideoDecoderTraits
 >
 ;
+template
+class
+DecoderTemplate
+<
+AudioDecoderTraits
+>
+;
 #
 undef
 LOG
