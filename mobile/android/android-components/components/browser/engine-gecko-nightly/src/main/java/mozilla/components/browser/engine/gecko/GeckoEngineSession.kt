@@ -789,6 +789,9 @@ reload
 (
 )
 {
+requestFromWebContent
+=
+false
 geckoSession
 .
 reload
@@ -813,6 +816,9 @@ goBack
 (
 )
 {
+requestFromWebContent
+=
+false
 geckoSession
 .
 goBack
@@ -837,6 +843,9 @@ goForward
 (
 )
 {
+requestFromWebContent
+=
+false
 geckoSession
 .
 goForward
@@ -1135,7 +1144,7 @@ if
 reload
 )
 {
-geckoSession
+this
 .
 reload
 (
