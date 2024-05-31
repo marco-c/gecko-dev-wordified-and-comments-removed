@@ -85,9 +85,9 @@ android
 package
 =
 "
-com
+org
 .
-example
+mozilla
 .
 colors
 "
