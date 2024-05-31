@@ -85,8 +85,9 @@ search
 <
 ShortName
 >
+Wikipedia
 (
-gu
+lij
 )
 <
 /
@@ -228,7 +229,7 @@ https
 :
 /
 /
-gu
+lij
 .
 wikipedia
 .
@@ -296,7 +297,7 @@ https
 :
 /
 /
-gu
+lij
 .
 wikipedia
 .
@@ -304,7 +305,11 @@ org
 /
 wiki
 /
+Spe
+iale
 :
+Ri
+erca
 "
 >
 <
@@ -350,7 +355,7 @@ https
 :
 /
 /
-gu
+lij
 .
 wikipedia
 .
@@ -358,7 +363,11 @@ org
 /
 wiki
 /
+Spe
+iale
 :
+Ri
+erca
 <
 /
 SearchForm

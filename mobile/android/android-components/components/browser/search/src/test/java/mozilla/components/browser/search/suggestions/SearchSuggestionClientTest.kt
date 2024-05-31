@@ -429,7 +429,9 @@ searchplugins
 /
 google
 -
-nocodes
+b
+-
+m
 .
 xml
 "
@@ -654,7 +656,9 @@ searchplugins
 /
 google
 -
-nocodes
+b
+-
+m
 .
 xml
 "
@@ -729,7 +733,9 @@ searchplugins
 /
 google
 -
-nocodes
+b
+-
+m
 .
 xml
 "

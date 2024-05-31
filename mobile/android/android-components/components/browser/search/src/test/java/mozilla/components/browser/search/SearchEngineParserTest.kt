@@ -163,7 +163,9 @@ searchplugins
 /
 google
 -
-nocodes
+b
+-
+m
 .
 xml
 "
@@ -233,6 +235,14 @@ oe
 utf
 -
 8
+&
+client
+=
+firefox
+-
+b
+-
+m
 "
 url
 )
