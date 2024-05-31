@@ -359,7 +359,7 @@ links
 ;
 bounceTrackingProtection
 .
-reset
+clearAll
 (
 )
 ;
