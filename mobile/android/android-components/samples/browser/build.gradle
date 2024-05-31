@@ -552,6 +552,16 @@ project
 :
 browser
 -
+icons
+'
+)
+implementation
+project
+(
+'
+:
+browser
+-
 search
 '
 )

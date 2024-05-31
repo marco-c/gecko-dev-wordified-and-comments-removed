@@ -195,6 +195,16 @@ project
 (
 '
 :
+browser
+-
+icons
+'
+)
+implementation
+project
+(
+'
+:
 feature
 -
 tabs

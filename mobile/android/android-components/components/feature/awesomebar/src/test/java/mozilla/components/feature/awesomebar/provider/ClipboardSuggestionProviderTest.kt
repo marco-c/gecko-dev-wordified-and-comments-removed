@@ -775,6 +775,8 @@ firstOrNull
 (
 )
 }
+runBlocking
+{
 assertEquals
 (
 bitmap
@@ -802,6 +804,7 @@ suggestion
 .
 title
 )
+}
 }
 Test
 fun

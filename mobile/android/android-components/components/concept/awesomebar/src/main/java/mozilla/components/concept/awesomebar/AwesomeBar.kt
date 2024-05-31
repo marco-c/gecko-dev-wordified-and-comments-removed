@@ -665,6 +665,7 @@ val
 icon
 :
 (
+suspend
 (
 width
 :
@@ -678,14 +679,9 @@ Int
 Bitmap
 ?
 )
+?
 =
-{
-_
-_
--
->
 null
-}
 val
 chips
 :

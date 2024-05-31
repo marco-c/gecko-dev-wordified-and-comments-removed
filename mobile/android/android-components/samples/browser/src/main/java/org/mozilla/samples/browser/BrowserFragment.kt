@@ -562,6 +562,9 @@ toolbar
 layout
 .
 engineView
+components
+.
+icons
 )
 .
 addHistoryProvider

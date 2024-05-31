@@ -83,6 +83,16 @@ components
 .
 browser
 .
+icons
+.
+BrowserIcons
+import
+mozilla
+.
+components
+.
+browser
+.
 search
 .
 SearchEngine
@@ -274,6 +284,14 @@ EngineView
 null
 private
 val
+icons
+:
+BrowserIcons
+?
+=
+null
+private
+val
 onEditStart
 :
 (
@@ -442,6 +460,7 @@ SessionSuggestionProvider
 (
 sessionManager
 selectTabUseCase
+icons
 )
 awesomeBar
 .
@@ -564,6 +583,7 @@ HistoryStorageSuggestionProvider
 (
 historyStorage
 loadUrlUseCase
+icons
 )
 )
 return
@@ -592,6 +612,9 @@ ClipboardSuggestionProvider
 (
 context
 loadUrlUseCase
+icons
+=
+icons
 )
 )
 return
