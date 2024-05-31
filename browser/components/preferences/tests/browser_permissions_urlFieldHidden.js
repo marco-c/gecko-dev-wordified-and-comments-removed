@@ -30,7 +30,6 @@ async
 function
 urlFieldVisibleForPopupPermissions
 (
-finish
 )
 {
 await

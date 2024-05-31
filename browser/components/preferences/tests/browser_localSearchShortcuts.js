@@ -159,10 +159,7 @@ await
 forEachLocalShortcutRow
 (
 async
-(
 row
-shortcut
-)
 =
 >
 {
@@ -743,10 +740,7 @@ await
 forEachLocalShortcutRow
 (
 async
-(
 row
-shortcut
-)
 =
 >
 {
