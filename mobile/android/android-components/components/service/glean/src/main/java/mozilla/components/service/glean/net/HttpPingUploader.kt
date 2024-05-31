@@ -123,7 +123,7 @@ concept
 .
 fetch
 .
-clientError
+isClientError
 import
 mozilla
 .
@@ -133,7 +133,7 @@ concept
 .
 fetch
 .
-success
+isSuccess
 import
 mozilla
 .
@@ -834,7 +834,7 @@ when
 {
 response
 .
-success
+isSuccess
 -
 >
 {
@@ -898,7 +898,7 @@ true
 }
 response
 .
-clientError
+isClientError
 -
 >
 {
