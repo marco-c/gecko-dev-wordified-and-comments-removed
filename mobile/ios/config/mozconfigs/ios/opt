@@ -22,16 +22,6 @@ enable
 clang
 -
 plugin
-ac_add_options
--
--
-disable
--
-warnings
--
-as
--
-errors
 .
 "
 topsrcdir
