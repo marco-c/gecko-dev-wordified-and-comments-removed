@@ -17,7 +17,7 @@ loc
 ;
 console
 .
-log
+warn
 (
 WARNING
 :

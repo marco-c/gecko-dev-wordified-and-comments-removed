@@ -61,15 +61,6 @@ error
 "
 no
 -
-console
-"
-:
-"
-error
-"
-"
-no
--
 constant
 -
 condition
