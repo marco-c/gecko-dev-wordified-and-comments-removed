@@ -2691,11 +2691,6 @@ LPWSTR
 aIconID
 )
 ;
-void
-ClearThemeRegion
-(
-)
-;
 static
 void
 ScheduleHookTimer

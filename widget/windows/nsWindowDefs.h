@@ -136,17 +136,6 @@ MozillaDropShadowWindowClass
 ;
 const
 wchar_t
-kClassNameTemp
-[
-]
-=
-L
-"
-MozillaTempWindowClass
-"
-;
-const
-wchar_t
 kClassNameTransition
 [
 ]
