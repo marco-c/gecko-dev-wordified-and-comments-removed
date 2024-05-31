@@ -151,7 +151,6 @@ blue
 }
 ;
 [
-SecureContext
 Pref
 =
 "

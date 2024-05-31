@@ -2428,7 +2428,7 @@ Gamepad
 "
 insecureContext
 :
-false
+true
 }
 {
 name
@@ -2438,7 +2438,7 @@ GamepadAxisMoveEvent
 "
 insecureContext
 :
-false
+true
 }
 {
 name
@@ -2448,7 +2448,7 @@ GamepadButtonEvent
 "
 insecureContext
 :
-false
+true
 }
 {
 name
@@ -2458,7 +2458,7 @@ GamepadButton
 "
 insecureContext
 :
-false
+true
 }
 {
 name
@@ -2468,7 +2468,7 @@ GamepadEvent
 "
 insecureContext
 :
-false
+true
 }
 {
 name
@@ -2478,7 +2478,7 @@ GamepadHapticActuator
 "
 insecureContext
 :
-false
+true
 }
 {
 name
@@ -2488,7 +2488,7 @@ GamepadLightIndicator
 "
 insecureContext
 :
-false
+true
 disabled
 :
 true
@@ -2501,7 +2501,7 @@ GamepadPose
 "
 insecureContext
 :
-false
+true
 }
 {
 name
@@ -2511,7 +2511,7 @@ GamepadTouch
 "
 insecureContext
 :
-false
+true
 disabled
 :
 true

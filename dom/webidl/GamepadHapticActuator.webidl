@@ -154,7 +154,6 @@ h
 Exposed
 =
 Window
-SecureContext
 ]
 interface
 GamepadHapticActuator
