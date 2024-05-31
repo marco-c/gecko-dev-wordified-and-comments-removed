@@ -189,7 +189,10 @@ UpdatePositionState
 uint64_t
 aBrowsingContextId
 const
+Maybe
+<
 PositionState
+>
 &
 aState
 )
