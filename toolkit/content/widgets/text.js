@@ -257,7 +257,6 @@ formatAccessKey
 }
 _onClick
 (
-event
 )
 {
 let

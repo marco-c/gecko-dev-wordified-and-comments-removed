@@ -562,7 +562,6 @@ false
 }
 onSlotchange
 (
-e
 )
 {
 let

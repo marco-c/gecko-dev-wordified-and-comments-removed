@@ -4922,7 +4922,6 @@ pause
 }
 onScrubberInput
 (
-e
 )
 {
 const
@@ -4988,7 +4987,6 @@ pauseVideoDuringDragging
 }
 onScrubberChange
 (
-e
 )
 {
 this
@@ -14894,7 +14892,6 @@ MozNoControlsVideoBindingAttached
 }
 elementStateMatches
 (
-element
 )
 {
 return
@@ -15188,7 +15185,6 @@ direction
 }
 elementStateMatches
 (
-element
 )
 {
 return
@@ -16123,7 +16119,6 @@ prefs
 }
 elementStateMatches
 (
-element
 )
 {
 return

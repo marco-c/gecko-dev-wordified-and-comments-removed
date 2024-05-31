@@ -1130,7 +1130,6 @@ break
 }
 on_mousedown
 (
-event
 )
 {
 if

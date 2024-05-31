@@ -58,7 +58,8 @@ addEventListener
 "
 mousedown
 "
-event
+(
+)
 =
 >
 {
@@ -2814,7 +2815,6 @@ __learnMoreString
 }
 _getSearchTokens
 (
-aSearch
 )
 {
 return

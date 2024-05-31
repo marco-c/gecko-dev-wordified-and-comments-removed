@@ -583,8 +583,6 @@ where
 attributeChangedCallback
 (
 attrName
-oldVal
-newVal
 )
 {
 if

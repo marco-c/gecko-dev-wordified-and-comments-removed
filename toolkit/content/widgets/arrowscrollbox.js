@@ -3793,7 +3793,6 @@ preventDefault
 }
 on_touchend
 (
-event
 )
 {
 this
@@ -3982,7 +3981,6 @@ _updateScrollButtonsDisabledState
 }
 on_scroll
 (
-event
 )
 {
 this
@@ -4000,7 +3998,6 @@ _updateScrollButtonsDisabledState
 }
 on_scrollend
 (
-event
 )
 {
 this

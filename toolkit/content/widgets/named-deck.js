@@ -690,8 +690,6 @@ this
 attributeChangedCallback
 (
 name
-oldVal
-newVal
 )
 {
 if

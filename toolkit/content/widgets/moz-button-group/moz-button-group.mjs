@@ -348,7 +348,6 @@ PLATFORM_WINDOWS
 }
 onSlotchange
 (
-e
 )
 {
 for

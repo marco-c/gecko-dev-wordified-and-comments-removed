@@ -1861,7 +1861,6 @@ onPageChange
 }
 _advanceFocusToPage
 (
-aPage
 )
 {
 if

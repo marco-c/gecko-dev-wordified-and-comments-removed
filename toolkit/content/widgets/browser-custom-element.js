@@ -3499,7 +3499,6 @@ aListener
 }
 onPageHide
 (
-aEvent
 )
 {
 lazy
@@ -7574,8 +7573,6 @@ prepareToChangeRemoteness
 }
 afterChangeRemoteness
 (
-browser
-redirectLoadSwitchId
 )
 {
 return
