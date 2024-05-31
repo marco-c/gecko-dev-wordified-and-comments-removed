@@ -1193,7 +1193,7 @@ WebView
 [
 *
 *
-Erropages
+Errorpages
 *
 *
 ]
@@ -1572,7 +1572,7 @@ component
 that
 connects
 a
-trabs
+tabs
 tray
 implementation
 with
@@ -1909,7 +1909,8 @@ A
 B
 tests
 and
-rollout
+roll
+out
 features
 gradually
 .
