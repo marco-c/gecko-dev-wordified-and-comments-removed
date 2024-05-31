@@ -435,6 +435,7 @@ daemon
 clean
 assemble
 test
+detektCheck
 metadata
 :
 name
