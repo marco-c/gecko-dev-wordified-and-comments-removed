@@ -2129,6 +2129,8 @@ type
 ValueVector
 *
 values
+bool
+rewriteStackTypes
 )
 ;
 [
@@ -8537,6 +8539,8 @@ type
 ValueVector
 *
 values
+bool
+rewriteStackTypes
 )
 {
 Control
@@ -8576,7 +8580,7 @@ checkTopTypeMatches
 *
 type
 values
-false
+rewriteStackTypes
 )
 ;
 }
@@ -8651,6 +8655,7 @@ checkBranchValueAndPush
 relativeDepth
 type
 values
+false
 )
 )
 {
@@ -8755,6 +8760,7 @@ checkBranchValueAndPush
 relativeDepth
 type
 values
+true
 )
 ;
 }
@@ -13967,6 +13973,7 @@ checkBranchValueAndPush
 relativeDepth
 type
 values
+true
 )
 )
 {
@@ -14197,7 +14204,7 @@ checkTopTypeMatches
 *
 type
 values
-false
+true
 )
 )
 {
@@ -22915,7 +22922,7 @@ Vector
 fallthroughTypes
 )
 values
-false
+true
 )
 ;
 }
