@@ -197,7 +197,7 @@ StringsStorageEngine
 .
 javaClass
 .
-simpleName
+canonicalName
 Context
 .
 MODE_PRIVATE
@@ -347,7 +347,7 @@ class
 .
 java
 .
-simpleName
+canonicalName
 )
 eq
 (

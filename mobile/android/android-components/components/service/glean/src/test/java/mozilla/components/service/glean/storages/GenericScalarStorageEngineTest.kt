@@ -937,7 +937,7 @@ class
 .
 java
 .
-simpleName
+canonicalName
 )
 eq
 (
@@ -1165,7 +1165,7 @@ class
 .
 java
 .
-simpleName
+canonicalName
 )
 eq
 (
@@ -1412,7 +1412,7 @@ class
 .
 java
 .
-simpleName
+canonicalName
 )
 eq
 (
@@ -1581,7 +1581,7 @@ class
 .
 java
 .
-simpleName
+canonicalName
 )
 eq
 (
@@ -1830,7 +1830,7 @@ class
 .
 java
 .
-simpleName
+canonicalName
 )
 eq
 (

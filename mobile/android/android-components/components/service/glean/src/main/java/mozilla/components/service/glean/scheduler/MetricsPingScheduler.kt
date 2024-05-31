@@ -537,7 +537,7 @@ this
 .
 javaClass
 .
-simpleName
+canonicalName
 Context
 .
 MODE_PRIVATE

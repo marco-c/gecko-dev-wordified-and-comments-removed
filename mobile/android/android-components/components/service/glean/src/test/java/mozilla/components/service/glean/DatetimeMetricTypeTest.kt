@@ -240,7 +240,7 @@ DatetimesStorageEngine
 .
 javaClass
 .
-simpleName
+canonicalName
 Context
 .
 MODE_PRIVATE
