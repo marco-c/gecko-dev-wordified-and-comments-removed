@@ -174,7 +174,7 @@ WebAppManifestParser
 .
 kt
 #
-L24
+L25
 )
 The
 parsed
