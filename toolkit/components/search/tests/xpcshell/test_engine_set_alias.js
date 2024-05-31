@@ -788,9 +788,6 @@ addObserver
 function
 observer
 (
-aSubject
-aTopic
-aData
 )
 {
 observed

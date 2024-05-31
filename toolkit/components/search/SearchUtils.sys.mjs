@@ -682,17 +682,11 @@ iid
 nsIProgressEventSink
 onProgress
 (
-request
-progress
-progressMax
 )
 {
 }
 onStatus
 (
-request
-status
-statusArg
 )
 {
 }

@@ -119,7 +119,6 @@ asyncVisitStorage
 onCacheStorageInfo
 (
 num
-consumption
 )
 {
 this

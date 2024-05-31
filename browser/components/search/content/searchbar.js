@@ -431,7 +431,6 @@ observe
 (
 aEngine
 aTopic
-aVerb
 )
 {
 if
@@ -748,7 +747,8 @@ init
 .
 then
 (
-aStatus
+(
+)
 =
 >
 {
@@ -2264,7 +2264,8 @@ addEventListener
 "
 click
 "
-event
+(
+)
 =
 >
 {
@@ -2324,7 +2325,8 @@ addEventListener
 "
 input
 "
-event
+(
+)
 =
 >
 {
@@ -2344,7 +2346,8 @@ addEventListener
 "
 drop
 "
-event
+(
+)
 =
 >
 {
@@ -2364,7 +2367,8 @@ addEventListener
 "
 blur
 "
-event
+(
+)
 =
 >
 {
@@ -2398,7 +2402,8 @@ addEventListener
 "
 focus
 "
-event
+(
+)
 =
 >
 {
@@ -2668,7 +2673,8 @@ addEventListener
 "
 input
 "
-event
+(
+)
 =
 >
 {
@@ -3964,7 +3970,8 @@ textbox
 .
 onkeyup
 =
-event
+(
+)
 =
 >
 {

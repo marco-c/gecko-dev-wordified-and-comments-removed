@@ -7448,7 +7448,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -12786,7 +12785,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

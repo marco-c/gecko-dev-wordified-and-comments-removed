@@ -218,7 +218,6 @@ browser
 async
 function
 (
-args
 )
 {
 return
@@ -824,7 +823,6 @@ linkedBrowser
 async
 function
 (
-args
 )
 {
 let

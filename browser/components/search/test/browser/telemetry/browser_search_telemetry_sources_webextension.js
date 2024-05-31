@@ -690,7 +690,6 @@ async
 function
 background
 (
-SEARCH_TERM
 )
 {
 browser
@@ -829,7 +828,6 @@ async
 function
 background
 (
-SEARCH_TERM
 )
 {
 browser

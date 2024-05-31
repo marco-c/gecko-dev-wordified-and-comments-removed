@@ -3239,7 +3239,8 @@ addEventListener
 "
 error
 "
-evt
+(
+)
 =
 >
 {
@@ -3305,7 +3306,8 @@ addEventListener
 "
 abort
 "
-evt
+(
+)
 =
 >
 {

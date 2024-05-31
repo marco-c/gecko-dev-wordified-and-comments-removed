@@ -459,7 +459,6 @@ engines
 update
 (
 {
-locale
 configuration
 }
 =

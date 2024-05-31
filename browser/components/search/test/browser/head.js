@@ -682,9 +682,6 @@ popup
 function
 clearSearchbarHistory
 (
-win
-=
-window
 )
 {
 info
