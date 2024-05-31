@@ -85,9 +85,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
 manifest
 .

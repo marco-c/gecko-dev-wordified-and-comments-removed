@@ -105,13 +105,11 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-session
+engine
 .
-manifest
-.
-WebAppManifest
+Engine
 import
 mozilla
 .
@@ -121,7 +119,9 @@ concept
 .
 engine
 .
-Engine
+manifest
+.
+WebAppManifest
 import
 mozilla
 .
