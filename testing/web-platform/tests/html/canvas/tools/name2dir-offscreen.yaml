@@ -236,3 +236,12 @@ canvas
 -
 context
 "
+2d
+.
+webgpuaccess
+:
+"
+webgpu
+-
+access
+"
