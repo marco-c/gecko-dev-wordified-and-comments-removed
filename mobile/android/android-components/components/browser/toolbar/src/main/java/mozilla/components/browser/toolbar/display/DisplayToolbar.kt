@@ -3815,7 +3815,6 @@ val
 URL_FADING_EDGE_SIZE_DP
 =
 24
-private
 const
 val
 BOTTOM_PROGRESS_BAR
