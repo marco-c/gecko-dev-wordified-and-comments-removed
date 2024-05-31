@@ -32193,13 +32193,6 @@ Codec
 >
 &
 codecs2
-const
-webrtc
-:
-:
-FieldTrialsView
-*
-field_trials
 )
 {
 if
@@ -32256,7 +32249,6 @@ codecs2
 [
 i
 ]
-field_trials
 )
 )
 {
@@ -32501,8 +32493,6 @@ acd
 codecs
 (
 )
-&
-field_trials
 )
 )
 ;
@@ -32535,8 +32525,6 @@ acd
 codecs
 (
 )
-&
-field_trials
 )
 )
 ;
@@ -32554,8 +32542,6 @@ acd
 codecs
 (
 )
-&
-field_trials
 )
 )
 ;

@@ -12363,8 +12363,6 @@ recv_codecs
 Matches
 (
 kVp8Codec
-&
-field_trials_
 )
 )
 ;
@@ -12406,8 +12404,6 @@ recv_codecs
 Matches
 (
 vp9_codec
-&
-field_trials_
 )
 )
 ;
@@ -12591,8 +12587,6 @@ send_codecs
 Matches
 (
 kVp8Codec
-&
-field_trials_
 )
 )
 ;
@@ -12634,8 +12628,6 @@ send_codecs
 Matches
 (
 vp9_codec
-&
-field_trials_
 )
 )
 ;
@@ -12827,8 +12819,6 @@ recv_codecs
 Matches
 (
 kVp8Codec
-&
-field_trials_
 )
 )
 ;
@@ -12870,8 +12860,6 @@ recv_codecs
 Matches
 (
 vp9_codec
-&
-field_trials_
 )
 )
 ;
@@ -12932,8 +12920,6 @@ send_codecs
 Matches
 (
 kVp8Codec
-&
-field_trials_
 )
 )
 ;
@@ -12975,8 +12961,6 @@ send_codecs
 Matches
 (
 vp9_codec
-&
-field_trials_
 )
 )
 ;

@@ -1058,13 +1058,6 @@ const
 AudioCodec
 &
 codec
-const
-webrtc
-:
-:
-FieldTrialsView
-*
-field_trials
 )
 {
 for
@@ -1084,7 +1077,6 @@ c
 Matches
 (
 codec
-field_trials
 )
 )
 {
@@ -12055,13 +12047,6 @@ FindCodec
 (
 recv_codecs_
 codec
-&
-call_
--
->
-trials
-(
-)
 )
 ;
 if
