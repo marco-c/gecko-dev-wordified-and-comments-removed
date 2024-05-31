@@ -217,6 +217,16 @@ glean
 '
 )
 implementation
+project
+(
+'
+:
+support
+-
+base
+'
+)
+implementation
 Deps
 .
 kotlin_stdlib
