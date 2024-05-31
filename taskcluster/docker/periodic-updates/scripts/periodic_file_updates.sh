@@ -2834,7 +2834,9 @@ _updateMLBF
 in
 Blocklist
 .
-jsm
+sys
+.
+mjs
 .
 #
 The
@@ -3302,7 +3304,9 @@ settings
 /
 Attachments
 .
-jsm
+sys
+.
+mjs
 .
 local
 path_to_attachment
