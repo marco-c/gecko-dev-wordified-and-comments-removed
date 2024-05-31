@@ -1087,6 +1087,16 @@ build
 (
 context
 )
+val
+endAlwaysVisible
+=
+menuBuilder
+?
+.
+endOfMenuAlwaysVisible
+?
+:
+false
 menu
 ?
 .
@@ -1103,6 +1113,9 @@ determineMenuOrientation
 (
 toolbar
 )
+endOfMenuAlwaysVisible
+=
+endAlwaysVisible
 )
 emitOpenMenuFact
 (
