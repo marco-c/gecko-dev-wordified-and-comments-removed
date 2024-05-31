@@ -3040,6 +3040,11 @@ create_peerconnection_factory
 "
 api
 :
+enable_media
+"
+"
+api
+:
 libjingle_peerconnection_api
 "
 "
