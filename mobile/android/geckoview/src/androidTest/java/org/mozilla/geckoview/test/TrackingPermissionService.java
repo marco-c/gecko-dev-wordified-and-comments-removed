@@ -231,10 +231,6 @@ List
 ContentPermission
 >
 perms
-final
-NonNull
-Boolean
-hasUserGesture
 )
 {
 for
