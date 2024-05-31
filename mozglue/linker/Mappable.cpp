@@ -85,6 +85,10 @@ offset
 MOZ_ASSERT
 (
 fd
+&
+&
+*
+fd
 !
 =
 -
@@ -123,6 +127,7 @@ addr
 length
 prot
 flags
+*
 fd
 offset
 )
@@ -137,9 +142,12 @@ finalize
 )
 {
 fd
-=
+.
+emplace
+(
 -
 1
+)
 ;
 }
 size_t
@@ -158,6 +166,7 @@ st
 return
 fstat
 (
+*
 fd
 &
 st

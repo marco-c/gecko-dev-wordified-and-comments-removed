@@ -6,6 +6,11 @@ define
 Mappable_h
 #
 include
+<
+optional
+>
+#
+include
 "
 mozilla
 /
@@ -131,7 +136,13 @@ fd
 }
 private
 :
+std
+:
+:
+optional
+<
 AutoCloseFD
+>
 fd
 ;
 }
