@@ -1011,7 +1011,7 @@ property
 purpose
 Defines
 the
-purpose
+purposes
 of
 the
 image
@@ -1076,11 +1076,17 @@ null
 val
 purpose
 :
+Set
+<
 Purpose
+>
 =
+setOf
+(
 Purpose
 .
 ANY
+)
 )
 {
 enum

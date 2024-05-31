@@ -809,6 +809,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -816,6 +818,7 @@ Icon
 Purpose
 .
 ANY
+)
 manifest
 .
 icons
@@ -827,6 +830,8 @@ purpose
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -834,6 +839,7 @@ Icon
 Purpose
 .
 ANY
+)
 manifest
 .
 icons
@@ -845,6 +851,8 @@ purpose
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -852,6 +860,7 @@ Icon
 Purpose
 .
 ANY
+)
 manifest
 .
 icons
@@ -863,6 +872,8 @@ purpose
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -870,6 +881,7 @@ Icon
 Purpose
 .
 ANY
+)
 manifest
 .
 icons
@@ -881,6 +893,8 @@ purpose
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -888,6 +902,7 @@ Icon
 Purpose
 .
 ANY
+)
 manifest
 .
 icons
@@ -899,6 +914,8 @@ purpose
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -906,6 +923,7 @@ Icon
 Purpose
 .
 ANY
+)
 manifest
 .
 icons
@@ -1150,6 +1168,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -1157,6 +1177,7 @@ Icon
 Purpose
 .
 ANY
+)
 purpose
 )
 }
@@ -1221,6 +1242,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -1228,6 +1251,7 @@ Icon
 Purpose
 .
 ANY
+)
 purpose
 )
 }
@@ -1499,6 +1523,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -1506,6 +1532,7 @@ Icon
 Purpose
 .
 ANY
+)
 purpose
 )
 }
@@ -1585,6 +1612,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -1592,6 +1621,7 @@ Icon
 Purpose
 .
 ANY
+)
 purpose
 )
 }
@@ -1997,6 +2027,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -2004,6 +2036,7 @@ Icon
 Purpose
 .
 ANY
+)
 purpose
 )
 }
@@ -2060,6 +2093,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -2067,6 +2102,7 @@ Icon
 Purpose
 .
 ANY
+)
 purpose
 )
 }
@@ -2121,6 +2157,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -2128,6 +2166,7 @@ Icon
 Purpose
 .
 ANY
+)
 purpose
 )
 }
@@ -2439,6 +2478,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -2446,6 +2487,7 @@ Icon
 Purpose
 .
 BADGE
+)
 purpose
 )
 }
@@ -2521,6 +2563,8 @@ height
 )
 assertEquals
 (
+setOf
+(
 WebAppManifest
 .
 Icon
@@ -2528,6 +2572,14 @@ Icon
 Purpose
 .
 MASKABLE
+WebAppManifest
+.
+Icon
+.
+Purpose
+.
+ANY
+)
 purpose
 )
 }
