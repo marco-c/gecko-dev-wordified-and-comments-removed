@@ -1018,10 +1018,7 @@ invalid_value
 :
 type
 :
-counter
-labeled
-:
-true
+labeled_counter
 description
 :
 Counts
@@ -1094,10 +1091,7 @@ invalid_label
 :
 type
 :
-counter
-labeled
-:
-true
+labeled_counter
 description
 :
 Counts
