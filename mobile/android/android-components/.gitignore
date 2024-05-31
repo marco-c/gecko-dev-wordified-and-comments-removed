@@ -122,3 +122,10 @@ OS
 X
 .
 DS_Store
+#
+jacoco
+.
+exec
+jacoco
+.
+exec
