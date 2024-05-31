@@ -1813,6 +1813,15 @@ emptyList
 )
 override
 fun
+isObserved
+(
+)
+:
+Boolean
+=
+false
+override
+fun
 pauseObserver
 (
 observer
