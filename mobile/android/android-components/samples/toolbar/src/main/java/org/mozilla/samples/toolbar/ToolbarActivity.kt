@@ -151,6 +151,14 @@ coroutines
 .
 experimental
 .
+isActive
+import
+kotlinx
+.
+coroutines
+.
+experimental
+.
 launch
 import
 mozilla
@@ -5652,7 +5660,7 @@ delay
 (
 progress
 *
-5
+5L
 )
 }
 }
