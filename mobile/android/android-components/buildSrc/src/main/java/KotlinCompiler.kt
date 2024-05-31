@@ -172,11 +172,6 @@ contextmenu
 "
 feature
 -
-customtabs
-"
-"
-feature
--
 downloads
 "
 "

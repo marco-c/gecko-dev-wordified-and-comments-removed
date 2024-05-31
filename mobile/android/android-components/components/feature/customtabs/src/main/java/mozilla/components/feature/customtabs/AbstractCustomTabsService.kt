@@ -503,8 +503,6 @@ Bundle
 Int
 {
 return
-CustomTabsService
-.
 RESULT_FAILURE_DISALLOWED
 }
 override
