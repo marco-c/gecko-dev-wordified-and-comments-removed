@@ -63,6 +63,9 @@ xpcom
 mod
 init
 ;
+mod
+ohttp_pings
+;
 pub
 use
 init
