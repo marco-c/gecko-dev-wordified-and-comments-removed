@@ -1329,17 +1329,6 @@ active
 )
 ;
 }
-panel
--
-list
-{
-overflow
--
-y
-:
-visible
-;
-}
 fxview
 -
 empty
