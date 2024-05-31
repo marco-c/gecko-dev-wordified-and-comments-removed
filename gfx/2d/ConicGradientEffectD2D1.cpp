@@ -1799,6 +1799,7 @@ i
 ]
 =
 (
+unsigned
 char
 )
 (
@@ -1821,6 +1822,7 @@ i
 ]
 =
 (
+unsigned
 char
 )
 (
@@ -1843,6 +1845,7 @@ i
 ]
 =
 (
+unsigned
 char
 )
 (
@@ -1865,6 +1868,7 @@ i
 ]
 =
 (
+unsigned
 char
 )
 (
