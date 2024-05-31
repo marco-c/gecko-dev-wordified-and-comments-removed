@@ -171,6 +171,9 @@ false
 enableHighlightEditor
 :
 false
+enableHighlightFloatingButton
+:
+false
 enableML
 :
 false
