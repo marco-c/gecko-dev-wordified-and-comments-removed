@@ -2505,8 +2505,6 @@ geckodriver
 linux64
 -
 node
--
-16
 "
 ]
                 
@@ -2529,8 +2527,6 @@ geckodriver
 linux64
 -
 node
--
-16
 "
 ]
                 
@@ -2556,8 +2552,6 @@ geckodriver
 macosx64
 -
 node
--
-16
 "
                 
 ]
@@ -2588,8 +2582,6 @@ macosx64
 aarch64
 -
 node
--
-16
 "
                 
 ]
@@ -2619,8 +2611,6 @@ geckodriver
 win32
 -
 node
--
-16
 "
                 
 ]
@@ -2648,8 +2638,6 @@ geckodriver
 win32
 -
 node
--
-16
 "
 ]
                 
@@ -2676,8 +2664,6 @@ geckodriver
 win64
 -
 node
--
-16
 "
 ]
             
