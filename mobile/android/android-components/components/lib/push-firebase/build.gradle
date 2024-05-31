@@ -125,6 +125,10 @@ Dependencies
 .
 kotlin_stdlib
 implementation
+Dependencies
+.
+kotlin_coroutines
+implementation
 project
 (
 '
@@ -132,6 +136,16 @@ project
 concept
 -
 push
+'
+)
+implementation
+project
+(
+'
+:
+support
+-
+base
 '
 )
 implementation
