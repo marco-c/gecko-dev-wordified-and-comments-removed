@@ -216,7 +216,6 @@ null
 return
 p
 }
-protected
 abstract
 fun
 destroyPointer

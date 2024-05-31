@@ -71,16 +71,12 @@ override
 var
 rawPointer
 :
-FxaClient
-.
 RawConfig
 ?
 )
 :
 RustObject
 <
-FxaClient
-.
 RawConfig
 >
 (
@@ -92,8 +88,6 @@ destroyPointer
 (
 p
 :
-FxaClient
-.
 RawConfig
 )
 {
