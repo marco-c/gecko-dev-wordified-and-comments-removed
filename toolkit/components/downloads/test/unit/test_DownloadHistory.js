@@ -190,7 +190,6 @@ checkForExpectedDownloads
 }
 onDownloadChanged
 (
-download
 )
 {
 this

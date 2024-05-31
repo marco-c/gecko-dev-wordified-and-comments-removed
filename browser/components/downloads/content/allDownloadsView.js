@@ -2888,7 +2888,6 @@ downloadsCmd_clearDownloads
 }
 onContextMenu
 (
-aEvent
 )
 {
 let
@@ -3762,7 +3761,6 @@ scroll
 "
 function
 (
-event
 )
 {
 return
@@ -3959,7 +3957,6 @@ select
 "
 function
 (
-event
 )
 {
 this

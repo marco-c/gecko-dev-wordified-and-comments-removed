@@ -167,10 +167,7 @@ promiseIframeWindowGone
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

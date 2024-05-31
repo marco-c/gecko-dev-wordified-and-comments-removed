@@ -3830,8 +3830,6 @@ type
 /
 shouldViewDownloadInternally
 (
-aMimeType
-aExtension
 )
 {
 /

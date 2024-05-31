@@ -88,7 +88,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 let
@@ -116,7 +115,6 @@ load
 function
 onLoad
 (
-event
 )
 {
 SimpleTest
@@ -189,10 +187,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

@@ -2338,7 +2338,8 @@ BLOCK_VERDICT_UNCOMMON
 let
 blockFn
 =
-base
+(
+)
 =
 >
 (
@@ -4434,10 +4435,6 @@ nsIHelperAppLauncherDialog
 promptForSaveToFileAsync
 (
 aLauncher
-aWindowContext
-aDefaultFileName
-aSuggestedFileExtension
-aForcePrompt
 )
 {
 let

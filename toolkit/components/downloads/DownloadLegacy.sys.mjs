@@ -1125,7 +1125,6 @@ DLT_onStatusChange
 aWebProgress
 aRequest
 aStatus
-aMessage
 )
 {
 /
@@ -1494,10 +1493,6 @@ onRefreshAttempted
 function
 DLT_onRefreshAttempted
 (
-aWebProgress
-aRefreshURI
-aMillis
-aSameURI
 )
 {
 /

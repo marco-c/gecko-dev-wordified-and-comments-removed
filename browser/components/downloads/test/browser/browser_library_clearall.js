@@ -105,7 +105,6 @@ waitForChildrenLength
 (
 element
 length
-callback
 )
 {
 if

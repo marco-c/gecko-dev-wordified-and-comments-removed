@@ -3433,7 +3433,6 @@ DownloadList
 callback
 onDownloadChanged
 (
-download
 )
 {
 this

@@ -13098,8 +13098,6 @@ failed
 async
 execute
 (
-aSetProgressBytesFn
-aSetPropertiesFn
 )
 {
 throw
@@ -13254,7 +13252,6 @@ Never
 async
 removeData
 (
-canRemoveFinalTarget
 )
 {
 }

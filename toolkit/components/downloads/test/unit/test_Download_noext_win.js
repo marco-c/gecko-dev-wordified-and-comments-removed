@@ -351,7 +351,8 @@ resolve
 let
 waitFn
 =
-base
+(
+)
 =
 >
 (

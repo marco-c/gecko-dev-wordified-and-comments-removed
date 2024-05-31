@@ -5327,7 +5327,6 @@ showDownloadsHistory
 }
 onClick
 (
-aEvent
 )
 {
 DownloadsPanel

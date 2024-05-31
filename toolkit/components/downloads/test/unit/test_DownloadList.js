@@ -1462,7 +1462,6 @@ downloadView
 {
 onDownloadRemoved
 (
-aDownload
 )
 {
 if
@@ -1684,7 +1683,6 @@ downloadView
 {
 onDownloadRemoved
 (
-aDownload
 )
 {
 if

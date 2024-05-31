@@ -185,7 +185,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 let
@@ -213,7 +212,6 @@ load
 function
 onLoad
 (
-event
 )
 {
 SimpleTest

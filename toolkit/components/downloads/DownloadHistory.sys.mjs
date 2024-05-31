@@ -4676,8 +4676,6 @@ nsINavHistoryResultObserver
 containerStateChanged
 (
 node
-oldState
-newState
 )
 {
 this
@@ -4912,7 +4910,6 @@ nodeRemoved
 (
 parent
 placesNode
-aOldIndex
 )
 {
 let
