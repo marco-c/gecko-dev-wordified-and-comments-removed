@@ -7444,15 +7444,6 @@ webauthn
 /
 tests
 /
-test_webauthn_isexternalctap2securitykeysupported
-.
-html
-dom
-/
-webauthn
-/
-tests
-/
 test_webauthn_isplatformauthenticatoravailable
 .
 html
