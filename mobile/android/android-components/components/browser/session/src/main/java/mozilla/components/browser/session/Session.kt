@@ -1535,7 +1535,7 @@ onTrackerBlockingEnabledChanged
 (
 this
 Session
-trackerBlockingEnabled
+new
 )
 }
 }
@@ -1597,12 +1597,12 @@ onTrackerBlocked
 (
 this
 Session
-trackersBlocked
+new
 .
 last
 (
 )
-trackersBlocked
+new
 )
 }
 }
@@ -1667,7 +1667,7 @@ onFindResult
 (
 this
 Session
-findResults
+new
 .
 last
 (
