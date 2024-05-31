@@ -11365,9 +11365,10 @@ case
 IceConnectionState
 "
 :
-let
-connState
-=
+this
+.
+handleIceConnectionStateChange
+(
 this
 .
 _dompc
@@ -11375,12 +11376,6 @@ _dompc
 _pc
 .
 iceConnectionState
-;
-this
-.
-handleIceConnectionStateChange
-(
-connState
 )
 ;
 break
