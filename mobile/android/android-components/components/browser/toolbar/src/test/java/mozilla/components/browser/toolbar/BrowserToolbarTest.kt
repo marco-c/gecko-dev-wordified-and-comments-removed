@@ -908,6 +908,11 @@ ArgumentMatchers
 anyString
 (
 )
+ArgumentMatchers
+.
+anyBoolean
+(
+)
 )
 }
 Test
@@ -986,6 +991,7 @@ mozilla
 .
 org
 "
+true
 )
 toolbar
 .
@@ -1010,6 +1016,7 @@ mozilla
 .
 org
 "
+true
 )
 }
 Test
@@ -2693,6 +2700,7 @@ updateUrl
 mozilla
 android
 "
+false
 )
 toolbar
 .
@@ -2758,6 +2766,7 @@ mozilla
 .
 org
 "
+true
 )
 }
 Test

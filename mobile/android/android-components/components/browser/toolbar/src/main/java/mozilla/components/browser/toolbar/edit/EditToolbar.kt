@@ -877,6 +877,11 @@ updateUrl
 url
 :
 String
+shouldAutoComplete
+:
+Boolean
+=
+false
 )
 {
 urlView
@@ -884,6 +889,7 @@ urlView
 setText
 (
 url
+shouldAutoComplete
 )
 }
 /
