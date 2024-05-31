@@ -245,7 +245,7 @@ events
 ;
 }
 public
-void
+EventsMeasurement
 add
 (
 final
@@ -257,6 +257,9 @@ saveEventToDisk
 (
 event
 )
+;
+return
+this
 ;
 }
 Override
