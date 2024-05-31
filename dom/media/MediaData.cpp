@@ -1118,7 +1118,7 @@ mHeight
 NS_ERROR
 (
 "
-C
+Chroma
 planes
 with
 different
