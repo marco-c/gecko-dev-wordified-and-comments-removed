@@ -2175,8 +2175,6 @@ components
 issues
 /
 1777
-/
-*
 assertEquals
 (
 "
@@ -2263,8 +2261,6 @@ await
 (
 )
 )
-*
-/
 assertEquals
 (
 "
@@ -2398,8 +2394,6 @@ components
 issues
 /
 1777
-/
-*
 assertEquals
 (
 "
@@ -2530,8 +2524,6 @@ await
 (
 )
 )
-*
-/
 assertEquals
 (
 "
