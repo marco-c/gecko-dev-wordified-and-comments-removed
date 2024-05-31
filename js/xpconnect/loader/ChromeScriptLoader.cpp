@@ -615,12 +615,6 @@ stackSize
 )
 )
 ;
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 mStencil
 =
 JS
@@ -631,7 +625,6 @@ CompileGlobalScriptToStencil
 mFrontendContext
 mOptions
 mSrcBuf
-compileStorage
 )
 ;
 }

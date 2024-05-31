@@ -9310,12 +9310,6 @@ stackSize
 )
 )
 ;
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 auto
 compile
 =
@@ -9349,7 +9343,6 @@ CompileGlobalScriptToStencil
 mFrontendContext
 mOptions
 source
-compileStorage
 )
 ;
 }
@@ -9362,7 +9355,6 @@ CompileModuleScriptToStencil
 mFrontendContext
 mOptions
 source
-compileStorage
 )
 ;
 }
@@ -9643,12 +9635,6 @@ Decode
 (
 )
 {
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 RefPtr
 <
 JS
