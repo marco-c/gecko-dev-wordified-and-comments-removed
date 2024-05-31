@@ -460,6 +460,7 @@ emptySet
 /
 We
 will
+not
 redirect
 to
 it
@@ -480,7 +481,7 @@ invoke
 (
 appUrl
 )
-assertTrue
+assertFalse
 (
 redirect
 .
