@@ -153,6 +153,12 @@ UtilityProcessSandboxing
 ParseEnvVar_DisableAppleAudioOnly
 )
 {
+#
+if
+defined
+(
+MOZ_APPLEMEDIA
+)
 EXPECT_FALSE
 (
 IsUtilitySandboxEnabled
@@ -169,6 +175,8 @@ UTILITY_AUDIO_DECODING_APPLE_MEDIA
 )
 )
 ;
+#
+endif
 EXPECT_TRUE
 (
 IsUtilitySandboxEnabled
@@ -267,7 +275,7 @@ GENERIC_UTILITY
 if
 defined
 (
-XP_DARWIN
+MOZ_APPLEMEDIA
 )
 EXPECT_FALSE
 (
