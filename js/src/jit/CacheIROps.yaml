@@ -6455,6 +6455,9 @@ ScalarTypeImm
 forceDoubleForUint32
 :
 BoolImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
@@ -6485,6 +6488,9 @@ BooleanId
 elementType
 :
 ScalarTypeImm
+viewKind
+:
+ArrayBufferViewKindImm
 -
 name
 :
