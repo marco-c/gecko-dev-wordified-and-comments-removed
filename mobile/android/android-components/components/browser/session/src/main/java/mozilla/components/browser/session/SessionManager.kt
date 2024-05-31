@@ -103,7 +103,7 @@ components
 .
 support
 .
-utils
+base
 .
 observer
 .
@@ -115,7 +115,7 @@ components
 .
 support
 .
-utils
+base
 .
 observer
 .

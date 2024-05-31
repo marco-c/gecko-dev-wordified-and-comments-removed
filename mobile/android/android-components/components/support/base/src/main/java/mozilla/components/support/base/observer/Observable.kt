@@ -5,7 +5,7 @@ components
 .
 support
 .
-utils
+base
 .
 observer
 import
