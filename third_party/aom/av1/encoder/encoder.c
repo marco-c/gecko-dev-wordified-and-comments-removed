@@ -16417,6 +16417,12 @@ GOLDEN_FRAME
 if
 (
 ref
+=
+=
+NULL
+|
+|
+ref
 -
 >
 y_crop_width
@@ -16439,6 +16445,7 @@ cm
 >
 height
 )
+{
 cpi
 -
 >
@@ -16447,6 +16454,7 @@ ref_frame_flags
 =
 AOM_GOLD_FLAG
 ;
+}
 }
 }
 if
@@ -16477,6 +16485,12 @@ ALTREF_FRAME
 if
 (
 ref
+=
+=
+NULL
+|
+|
+ref
 -
 >
 y_crop_width
@@ -16499,6 +16513,7 @@ cm
 >
 height
 )
+{
 cpi
 -
 >
@@ -16507,6 +16522,7 @@ ref_frame_flags
 =
 AOM_ALT_FLAG
 ;
+}
 }
 }
 int
@@ -17237,6 +17253,18 @@ cpi
 rc
 .
 rtc_external_ratectrl
+&
+&
+!
+cpi
+-
+>
+ppi
+-
+>
+rtc_ref
+.
+set_ref_frame_config
 &
 &
 sf

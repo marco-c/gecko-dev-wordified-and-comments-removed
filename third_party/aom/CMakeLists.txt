@@ -476,7 +476,7 @@ LT_CURRENT
 set
 (
 LT_REVISION
-0
+1
 )
 set
 (

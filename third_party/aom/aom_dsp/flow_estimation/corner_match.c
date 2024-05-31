@@ -1518,8 +1518,8 @@ if
 !
 av1_compute_corner_list
 (
-src_pyramid
-src_corners
+ref_pyramid
+ref_corners
 )
 )
 {

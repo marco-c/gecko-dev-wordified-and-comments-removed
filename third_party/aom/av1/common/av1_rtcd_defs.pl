@@ -6673,6 +6673,7 @@ av1_highbd_warp_affine
 sse4_1
 avx2
 neon
+sve
 /
 ;
 }
