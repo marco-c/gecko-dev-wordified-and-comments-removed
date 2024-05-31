@@ -6,6 +6,15 @@ subsuite
 "
 media
 "
+tags
+=
+"
+media
+-
+engine
+-
+compatible
+"
 run
 -
 if
