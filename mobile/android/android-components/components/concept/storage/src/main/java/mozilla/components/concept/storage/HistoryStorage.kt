@@ -367,6 +367,9 @@ getSuggestions
 query
 :
 String
+limit
+:
+Int
 )
 :
 List

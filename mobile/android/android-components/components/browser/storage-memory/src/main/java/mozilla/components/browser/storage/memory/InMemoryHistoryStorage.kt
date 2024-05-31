@@ -417,6 +417,9 @@ getSuggestions
 query
 :
 String
+limit
+:
+Int
 )
 :
 List
@@ -682,6 +685,11 @@ key
 title
 )
 }
+.
+take
+(
+limit
+)
 .
 toList
 (
