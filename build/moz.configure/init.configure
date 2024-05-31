@@ -4761,6 +4761,15 @@ raw_os
 set_config
 (
 "
+TARGET_KERNEL
+"
+target
+.
+kernel
+)
+set_config
+(
+"
 TARGET_ENDIANNESS
 "
 target
