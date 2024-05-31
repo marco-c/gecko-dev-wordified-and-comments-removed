@@ -1949,6 +1949,8 @@ virtual
 void
 NotifyBeforeText
 (
+bool
+aPaintingShadows
 nscolor
 aColor
 )
