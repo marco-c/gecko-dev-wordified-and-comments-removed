@@ -219,6 +219,7 @@ securityInfo
 toSecurityInfoState
 (
 )
+thumbnail
 )
 }
 /
