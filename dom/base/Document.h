@@ -14124,8 +14124,10 @@ mViewportType
 ViewportFitType
 mViewportFit
 ;
+UniquePtr
+<
 PLDHashTable
-*
+>
 mSubDocuments
 ;
 class

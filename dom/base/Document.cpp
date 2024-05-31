@@ -8482,10 +8482,6 @@ ViewportFitType
 :
 Auto
 )
-mSubDocuments
-(
-nullptr
-)
 mHeaderData
 (
 nullptr
@@ -13155,9 +13151,6 @@ mParentDocument
 =
 nullptr
 ;
-delete
-mSubDocuments
-;
 mSubDocuments
 =
 nullptr
@@ -14786,12 +14779,6 @@ mStyleSheetSetList
 nullptr
 ;
 }
-delete
-tmp
--
->
-mSubDocuments
-;
 tmp
 -
 >
@@ -15454,9 +15441,6 @@ DisconnectNodeTree
 (
 )
 {
-delete
-mSubDocuments
-;
 mSubDocuments
 =
 nullptr
@@ -34630,8 +34614,10 @@ SubDocInitEntry
 ;
 mSubDocuments
 =
-new
+MakeUnique
+<
 PLDHashTable
+>
 (
 &
 hash_table_ops
