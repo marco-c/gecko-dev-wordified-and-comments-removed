@@ -227,3 +227,6 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_PROF_D_DISK_SPACE
