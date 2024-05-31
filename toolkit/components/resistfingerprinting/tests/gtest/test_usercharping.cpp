@@ -171,6 +171,7 @@ nsUserCharacteristics
 :
 PopulateData
 (
+true
 )
 ;
 bool
@@ -504,6 +505,7 @@ nsUserCharacteristics
 :
 PopulateData
 (
+true
 )
 ;
 nsUserCharacteristics
@@ -714,6 +716,7 @@ nsUserCharacteristics
 :
 PopulateData
 (
+true
 )
 ;
 nsUserCharacteristics
