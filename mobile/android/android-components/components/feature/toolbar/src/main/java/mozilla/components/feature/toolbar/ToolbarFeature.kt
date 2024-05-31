@@ -69,11 +69,9 @@ mozilla
 .
 components
 .
-definition
-.
 toolbar
 .
-ToolbarConcept
+Toolbar
 import
 mozilla
 .
@@ -108,7 +106,7 @@ sessionManager
 SessionManager
 toolbar
 :
-ToolbarConcept
+Toolbar
 )
 {
 private

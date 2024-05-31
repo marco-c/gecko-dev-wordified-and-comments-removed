@@ -69,11 +69,9 @@ mozilla
 .
 components
 .
-definition
-.
 toolbar
 .
-ToolbarConcept
+Toolbar
 import
 mozilla
 .
@@ -130,7 +128,7 @@ private
 val
 toolbar
 :
-ToolbarConcept
+Toolbar
 )
 :
 SessionManager

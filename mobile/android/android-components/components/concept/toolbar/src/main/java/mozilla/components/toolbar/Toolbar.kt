@@ -61,8 +61,6 @@ mozilla
 .
 components
 .
-definition
-.
 toolbar
 /
 *
@@ -83,7 +81,7 @@ functionality
 *
 /
 interface
-ToolbarConcept
+Toolbar
 {
 /
 *

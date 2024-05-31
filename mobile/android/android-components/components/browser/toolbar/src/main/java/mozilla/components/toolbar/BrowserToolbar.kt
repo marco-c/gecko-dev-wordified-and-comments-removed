@@ -86,16 +86,6 @@ android
 widget
 .
 TextView
-import
-mozilla
-.
-components
-.
-definition
-.
-toolbar
-.
-ToolbarConcept
 /
 *
 *
@@ -135,7 +125,7 @@ context
 attrs
 defStyleAttr
 )
-ToolbarConcept
+Toolbar
 {
 private
 val
