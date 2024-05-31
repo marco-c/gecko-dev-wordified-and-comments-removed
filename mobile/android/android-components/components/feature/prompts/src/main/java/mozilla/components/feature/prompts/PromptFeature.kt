@@ -1428,6 +1428,14 @@ apply
 {
 if
 (
+intent
+.
+clipData
+!
+=
+null
+&
+&
 request
 .
 isMultipleFilesSelection
@@ -1506,7 +1514,7 @@ intent
 clipData
 ?
 .
-apply
+run
 {
 val
 uris

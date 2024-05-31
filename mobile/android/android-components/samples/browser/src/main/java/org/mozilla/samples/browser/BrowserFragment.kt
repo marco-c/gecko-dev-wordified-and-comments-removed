@@ -1288,6 +1288,8 @@ promptFeature
 .
 withFeature
 {
+it
+.
 onActivityResult
 (
 requestCode
