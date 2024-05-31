@@ -185,7 +185,6 @@ DownloadsManager
 {
 constructor
 (
-store
 )
 {
 this

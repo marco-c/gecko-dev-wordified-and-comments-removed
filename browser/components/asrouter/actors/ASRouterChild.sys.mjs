@@ -350,7 +350,6 @@ ASRouterRemoveParentListener
 }
 handleEvent
 (
-event
 )
 {
 /

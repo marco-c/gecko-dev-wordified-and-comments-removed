@@ -4767,7 +4767,6 @@ message
 async
 _cfrUrlbarButtonClick
 (
-event
 )
 {
 const

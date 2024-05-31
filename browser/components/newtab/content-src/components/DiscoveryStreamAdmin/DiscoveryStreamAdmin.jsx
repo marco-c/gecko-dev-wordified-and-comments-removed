@@ -868,7 +868,6 @@ value
 }
 restorePrefDefaults
 (
-event
 )
 {
 this

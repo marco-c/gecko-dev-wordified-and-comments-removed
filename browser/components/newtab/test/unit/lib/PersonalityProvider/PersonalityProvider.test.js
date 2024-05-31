@@ -125,7 +125,8 @@ returns
 ;
 RemoteSettingsStub
 =
-name
+(
+)
 =
 >
 (
@@ -998,7 +999,8 @@ getAttachment
 ;
 RemoteSettingsStub
 =
-name
+(
+)
 =
 >
 (

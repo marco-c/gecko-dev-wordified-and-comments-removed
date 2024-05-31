@@ -1086,7 +1086,6 @@ simulateMessagesForExistingTabs
 async
 _initIndexedDB
 (
-telemetryKey
 )
 {
 /

@@ -160,7 +160,6 @@ this
 }
 onLearnLinkClick
 (
-event
 )
 {
 this
@@ -191,7 +190,6 @@ DS_PRIVACY_MODAL
 }
 onManageLinkClick
 (
-event
 )
 {
 this
