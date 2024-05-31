@@ -239,6 +239,13 @@ name
 .
 SampleApplication
 "
+android
+:
+usesCleartextTraffic
+=
+"
+true
+"
 >
 <
 activity
