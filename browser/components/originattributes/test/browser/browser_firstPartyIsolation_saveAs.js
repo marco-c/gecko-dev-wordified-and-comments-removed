@@ -203,6 +203,14 @@ https_first
 "
 false
 ]
+[
+"
+dom
+.
+block_download_insecure
+"
+false
+]
 ]
 }
 )
