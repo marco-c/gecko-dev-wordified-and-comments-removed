@@ -6674,6 +6674,10 @@ true
 class
 MockContextElement
 (
+baseUri
+:
+String
+?
 linkUri
 :
 String
@@ -6701,6 +6705,7 @@ ContentDelegate
 .
 ContextElement
 (
+baseUri
 linkUri
 title
 altText
@@ -6716,6 +6721,7 @@ geckoSession
 0
 MockContextElement
 (
+null
 null
 "
 title
@@ -6750,6 +6756,7 @@ geckoSession
 MockContextElement
 (
 null
+null
 "
 title
 "
@@ -6778,6 +6785,7 @@ geckoSession
 0
 MockContextElement
 (
+null
 null
 "
 title

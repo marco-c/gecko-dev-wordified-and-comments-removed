@@ -1998,7 +1998,6 @@ initialLoad
 &
 &
 securityInfo
-?
 .
 origin
 ?
