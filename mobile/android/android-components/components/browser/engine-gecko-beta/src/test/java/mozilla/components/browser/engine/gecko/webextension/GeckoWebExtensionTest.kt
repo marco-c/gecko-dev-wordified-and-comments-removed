@@ -776,6 +776,10 @@ geckoSession
 .
 setMessageDelegate
 (
+eq
+(
+nativeGeckoWebExt
+)
 messageDelegateCaptor
 .
 capture
