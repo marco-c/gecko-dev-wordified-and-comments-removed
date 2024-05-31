@@ -303,6 +303,13 @@ third_party
 /
 python
 /
+Mako
+vendored
+:
+third_party
+/
+python
+/
 mohawk
 vendored
 :
