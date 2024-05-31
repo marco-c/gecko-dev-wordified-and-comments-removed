@@ -980,7 +980,7 @@ Firefox
 .
 *
 /
-SuppressWarnings
+Suppress
 (
 "
 MagicNumber

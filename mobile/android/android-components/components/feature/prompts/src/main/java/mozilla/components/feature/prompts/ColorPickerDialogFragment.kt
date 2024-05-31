@@ -150,6 +150,12 @@ KEY_SELECTED_COLOR
 "
 KEY_SELECTED_COLOR
 "
+private
+const
+val
+RGB_BIT_MASK
+=
+0xffffff
 /
 *
 *
@@ -816,12 +822,6 @@ Color
 BLACK
 }
 }
-Suppress
-(
-"
-MagicNumber
-"
-)
 internal
 fun
 Int
@@ -842,7 +842,7 @@ format
 %
 06x
 "
-0xffffff
+RGB_BIT_MASK
 and
 this
 )

@@ -93,12 +93,6 @@ val
 MAX_BITS_PER_PIXEL
 =
 32
-Suppress
-(
-"
-MagicNumber
-"
-)
 internal
 data
 class
@@ -353,6 +347,12 @@ else
 >
 0
 }
+Suppress
+(
+"
+MagicNumber
+"
+)
 fun
 toBitmap
 (

@@ -665,6 +665,12 @@ name
 }
 }
 private
+const
+val
+HEX_RADIX
+=
+16
+private
 val
 whitespace
 =

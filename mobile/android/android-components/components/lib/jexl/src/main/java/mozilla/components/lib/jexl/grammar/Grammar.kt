@@ -462,6 +462,8 @@ left
 right
 -
 >
+when
+(
 val
 result
 =
@@ -471,9 +473,6 @@ div
 (
 right
 )
-when
-(
-result
 )
 {
 is
