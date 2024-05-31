@@ -242,14 +242,6 @@ InlineAutocompleteEditText
 Companion
 .
 AUTOCOMPLETE_SPAN
-import
-org
-.
-mockito
-.
-ArgumentMatchers
-.
-any
 RunWith
 (
 RobolectricTestRunner
