@@ -241,9 +241,9 @@ mozilla_app_services
 "
 0
 .
-6
+7
 .
-0
+1
 "
 const
 val
@@ -789,9 +789,9 @@ org
 .
 mozilla
 .
-fxa_client
+fxaclient
 :
-fxa_client
+fxaclient
 :
 {
 Versions
