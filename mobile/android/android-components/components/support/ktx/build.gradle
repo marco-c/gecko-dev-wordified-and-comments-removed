@@ -139,6 +139,10 @@ Dependencies
 .
 androidx_core
 implementation
+Dependencies
+.
+androidx_core_ktx
+implementation
 project
 (
 '
