@@ -437,6 +437,7 @@ assemble
 test
 detektCheck
 ktlint
+lint
 metadata
 :
 name
