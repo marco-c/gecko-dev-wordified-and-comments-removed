@@ -82,6 +82,8 @@ org
 junit
 .
 Assert
+.
+assertTrue
 import
 org
 .
@@ -158,8 +160,6 @@ recognized
 as
 test
 class
-.
-Assert
 .
 assertTrue
 (

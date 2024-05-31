@@ -133,6 +133,10 @@ Dependencies
 .
 thirdparty_okhttp
 implementation
+Dependencies
+.
+thirdparty_okhttp_urlconnection
+implementation
 project
 (
 '
