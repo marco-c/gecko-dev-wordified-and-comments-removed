@@ -10962,12 +10962,7 @@ request
 "
 reportTelemetry
 "
-JSON
-.
-stringify
-(
 data
-)
 )
 ;
 }
