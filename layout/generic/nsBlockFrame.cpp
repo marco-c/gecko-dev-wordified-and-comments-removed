@@ -38242,6 +38242,7 @@ PseudoStyleType
 fieldsetContent
 |
 |
+(
 pseudo
 =
 =
@@ -38249,6 +38250,18 @@ PseudoStyleType
 :
 :
 buttonContent
+&
+&
+!
+GetParent
+(
+)
+-
+>
+IsComboboxControlFrame
+(
+)
+)
 |
 |
 pseudo
