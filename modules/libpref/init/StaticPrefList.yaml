@@ -46230,6 +46230,9 @@ always
 do_not_use_directly
 :
 true
+set_spidermonkey_pref
+:
+startup
 -
 name
 :
