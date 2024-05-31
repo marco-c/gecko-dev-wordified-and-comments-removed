@@ -452,11 +452,11 @@ x86_64
 return
 target
 .
-os
+kernel
 in
 (
 "
-OSX
+Darwin
 "
 "
 WINNT
