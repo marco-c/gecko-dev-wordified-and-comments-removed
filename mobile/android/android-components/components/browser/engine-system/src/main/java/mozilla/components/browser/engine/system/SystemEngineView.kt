@@ -2066,12 +2066,6 @@ view
 .
 let
 {
-fullScreenCallback
-?
-.
-onCustomViewHidden
-(
-)
 webView
 ?
 .
