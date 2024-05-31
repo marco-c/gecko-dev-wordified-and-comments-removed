@@ -40,9 +40,6 @@ functionality
 of
 ColorMatrix
 filters
-in
-CanvasFilter
-objects
 "
 )
 ;
@@ -113,6 +110,10 @@ function
 (
 )
 {
+ctx
+.
+filter
+=
 new
 CanvasFilter
 (
@@ -138,6 +139,10 @@ function
 (
 )
 {
+ctx
+.
+filter
+=
 new
 CanvasFilter
 (
@@ -165,6 +170,10 @@ function
 (
 )
 {
+ctx
+.
+filter
+=
 new
 CanvasFilter
 (
@@ -190,6 +199,10 @@ function
 (
 )
 {
+ctx
+.
+filter
+=
 new
 CanvasFilter
 (
@@ -219,6 +232,10 @@ function
 (
 )
 {
+ctx
+.
+filter
+=
 new
 CanvasFilter
 (
@@ -267,6 +284,10 @@ function
 (
 )
 {
+ctx
+.
+filter
+=
 new
 CanvasFilter
 (
