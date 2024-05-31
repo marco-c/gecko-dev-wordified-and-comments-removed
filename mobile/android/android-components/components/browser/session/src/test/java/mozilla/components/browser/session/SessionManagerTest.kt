@@ -2478,11 +2478,9 @@ https
 :
 /
 /
-www
+getpocket
 .
-mozilla
-.
-org
+com
 "
 manager
 .
@@ -2502,9 +2500,9 @@ https
 /
 www
 .
-firefox
+mozilla
 .
-com
+org
 "
 manager
 .
@@ -2522,7 +2520,9 @@ https
 :
 /
 /
-getpocket
+www
+.
+firefox
 .
 com
 "
