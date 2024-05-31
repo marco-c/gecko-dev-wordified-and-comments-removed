@@ -282,10 +282,6 @@ Dependencies
 .
 arch_lifecycle
 implementation
-Dependencies
-.
-arch_workmanager
-implementation
 project
 (
 '
@@ -325,10 +321,6 @@ testImplementation
 Dependencies
 .
 testing_mockwebserver
-testImplementation
-Dependencies
-.
-androidx_work_testing
 }
 apply
 from

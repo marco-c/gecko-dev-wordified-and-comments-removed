@@ -562,11 +562,12 @@ maxEvents
 {
 Glean
 .
-pingScheduler
-.
-assembleAndSerializePing
+sendPing
 (
 storeName
+"
+events
+"
 )
 }
 }
