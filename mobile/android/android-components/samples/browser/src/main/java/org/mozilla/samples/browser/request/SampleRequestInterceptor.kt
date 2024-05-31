@@ -212,6 +212,7 @@ createErrorPage
 (
 context
 errorType
+uri
 )
 )
 }

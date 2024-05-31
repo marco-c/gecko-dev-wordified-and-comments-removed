@@ -119,6 +119,12 @@ Context
 errorType
 :
 ErrorType
+uri
+:
+String
+?
+=
+null
 RawRes
 htmlResource
 :
@@ -259,6 +265,7 @@ getString
 errorType
 .
 messageRes
+uri
 )
 )
 .
