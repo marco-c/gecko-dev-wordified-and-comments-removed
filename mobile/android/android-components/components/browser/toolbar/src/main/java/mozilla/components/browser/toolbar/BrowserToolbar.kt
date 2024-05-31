@@ -1078,7 +1078,7 @@ button
 *
 /
 var
-cancelViewColor
+clearViewColor
 :
 Int
 get
@@ -1087,7 +1087,7 @@ get
 =
 editToolbar
 .
-cancelViewColor
+clearViewColor
 set
 (
 value
@@ -1095,7 +1095,7 @@ value
 {
 editToolbar
 .
-cancelViewColor
+clearViewColor
 =
 value
 }
@@ -2108,7 +2108,7 @@ displayToolbar
 .
 menuViewColor
 )
-cancelViewColor
+clearViewColor
 =
 getColor
 (
@@ -2116,10 +2116,10 @@ R
 .
 styleable
 .
-BrowserToolbar_browserToolbarCancelColor
+BrowserToolbar_browserToolbarClearColor
 editToolbar
 .
-cancelViewColor
+clearViewColor
 )
 if
 (
