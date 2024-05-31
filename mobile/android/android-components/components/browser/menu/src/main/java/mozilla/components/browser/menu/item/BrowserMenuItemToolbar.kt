@@ -183,7 +183,7 @@ Button
 BrowserMenuItem
 {
 override
-val
+var
 visible
 :
 (
