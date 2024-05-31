@@ -78716,14 +78716,6 @@ just
 wasted
 cycles
 .
-#
-Initial
-default
-0
-see
-bug
-1879814
-.
 -
 name
 :
@@ -78737,7 +78729,7 @@ type
 RelaxedAtomicUint32
 value
 :
-0
+32
 mirror
 :
 always
