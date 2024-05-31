@@ -390,7 +390,7 @@ if
 !
 browserSignals
 .
-renderUrl
+renderURL
 .
 endsWith
 (
@@ -413,7 +413,7 @@ uuid
 !
 browserSignals
 .
-renderUrl
+renderURL
 .
 includes
 (

@@ -2194,7 +2194,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2348,7 +2348,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2515,7 +2515,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (

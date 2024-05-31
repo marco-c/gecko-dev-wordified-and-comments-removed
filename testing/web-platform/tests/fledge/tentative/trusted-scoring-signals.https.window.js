@@ -286,7 +286,7 @@ uuid
 ;
 }
 function
-createScoringSignalsRenderUrlWithBody
+createScoringSignalsRenderURLWithBody
 (
 uuid
 responseBody
@@ -324,7 +324,7 @@ test
 )
 ;
 const
-decisionLogicScriptUrl
+decisionLogicScriptURL
 =
 createDecisionScriptURL
 (
@@ -363,7 +363,7 @@ auctionConfigOverrides
 {
 decisionLogicURL
 :
-decisionLogicScriptUrl
+decisionLogicScriptURL
 }
 }
 )
@@ -835,7 +835,7 @@ test
 const
 renderURL
 =
-createScoringSignalsRenderUrlWithBody
+createScoringSignalsRenderURLWithBody
 (
 uuid
 '
@@ -889,7 +889,7 @@ test
 const
 renderURL
 =
-createScoringSignalsRenderUrlWithBody
+createScoringSignalsRenderURLWithBody
 (
 uuid
 '
@@ -945,7 +945,7 @@ test
 const
 renderURL
 =
-createScoringSignalsRenderUrlWithBody
+createScoringSignalsRenderURLWithBody
 (
 uuid
 '
@@ -1002,7 +1002,7 @@ test
 const
 renderURL
 =
-createScoringSignalsRenderUrlWithBody
+createScoringSignalsRenderURLWithBody
 (
 uuid
 '
@@ -1062,7 +1062,7 @@ test
 const
 renderURL
 =
-createScoringSignalsRenderUrlWithBody
+createScoringSignalsRenderURLWithBody
 (
 uuid
 '
@@ -3197,7 +3197,7 @@ value
 const
 componentURL
 =
-createScoringSignalsRenderUrlWithBody
+createScoringSignalsRenderURLWithBody
 (
 uuid
 '
@@ -3298,7 +3298,7 @@ test
 const
 renderURL
 =
-createScoringSignalsRenderUrlWithBody
+createScoringSignalsRenderURLWithBody
 (
 uuid
 '

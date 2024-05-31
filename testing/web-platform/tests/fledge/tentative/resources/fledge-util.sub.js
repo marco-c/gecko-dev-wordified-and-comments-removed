@@ -2561,7 +2561,7 @@ test
 )
 ;
 const
-frameUrl
+frameURL
 =
 {
 origin
@@ -2692,7 +2692,7 @@ iframe
 .
 src
 =
-frameUrl
+frameURL
 ;
 document
 .
@@ -2759,7 +2759,7 @@ window
 .
 open
 (
-frameUrl
+frameURL
 )
 ;
 test

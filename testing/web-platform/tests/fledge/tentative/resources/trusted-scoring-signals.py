@@ -207,7 +207,7 @@ type
 "
 :
 "
-renderUrls
+renderURLs
 "
 "
 urls
