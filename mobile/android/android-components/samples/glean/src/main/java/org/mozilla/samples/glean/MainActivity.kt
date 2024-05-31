@@ -430,6 +430,7 @@ testTimespan
 .
 stopAndSum
 (
+applicationContext
 )
 /
 /
