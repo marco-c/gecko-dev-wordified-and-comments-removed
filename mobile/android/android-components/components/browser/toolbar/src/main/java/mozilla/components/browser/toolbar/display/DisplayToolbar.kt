@@ -657,9 +657,6 @@ Suppress
 "
 LargeClass
 "
-"
-TooManyFunctions
-"
 )
 internal
 class
