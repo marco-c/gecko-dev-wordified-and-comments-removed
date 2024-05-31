@@ -1605,7 +1605,7 @@ win64
 /
 mozconfig
 .
-vs2022
+vs2019
 '
 -
 '
