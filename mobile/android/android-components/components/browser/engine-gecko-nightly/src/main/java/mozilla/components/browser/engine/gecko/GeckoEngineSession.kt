@@ -443,13 +443,6 @@ response
 .
 *
 /
-Throws
-(
-GeckoEngineException
-:
-:
-class
-)
 override
 fun
 saveState
