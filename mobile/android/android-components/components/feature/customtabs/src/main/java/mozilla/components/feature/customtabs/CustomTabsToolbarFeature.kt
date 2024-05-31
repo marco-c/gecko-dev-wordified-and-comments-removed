@@ -210,6 +210,18 @@ base
 .
 feature
 .
+BackHandler
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
 LifecycleAwareFeature
 import
 mozilla
@@ -300,6 +312,7 @@ Unit
 )
 :
 LifecycleAwareFeature
+BackHandler
 {
 private
 val
@@ -814,6 +827,7 @@ pressed
 .
 *
 /
+override
 fun
 onBackPressed
 (

@@ -293,7 +293,7 @@ engineView
 )
 feature
 .
-handleBackPressed
+onBackPressed
 (
 )
 verify
@@ -314,7 +314,7 @@ canGoBack
 true
 feature
 .
-handleBackPressed
+onBackPressed
 (
 )
 verify

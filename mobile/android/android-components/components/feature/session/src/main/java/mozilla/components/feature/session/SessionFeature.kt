@@ -95,6 +95,18 @@ base
 .
 feature
 .
+BackHandler
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
 LifecycleAwareFeature
 /
 *
@@ -139,6 +151,7 @@ null
 )
 :
 LifecycleAwareFeature
+BackHandler
 {
 internal
 val
@@ -207,8 +220,9 @@ false
 .
 *
 /
+override
 fun
-handleBackPressed
+onBackPressed
 (
 )
 :

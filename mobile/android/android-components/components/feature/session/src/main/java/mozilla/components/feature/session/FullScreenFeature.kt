@@ -106,6 +106,18 @@ base
 .
 feature
 .
+BackHandler
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
 LifecycleAwareFeature
 /
 *
@@ -166,6 +178,7 @@ SelectionAwareSessionObserver
 sessionManager
 )
 LifecycleAwareFeature
+BackHandler
 {
 /
 *
@@ -280,6 +293,7 @@ taken
 .
 *
 /
+override
 fun
 onBackPressed
 (

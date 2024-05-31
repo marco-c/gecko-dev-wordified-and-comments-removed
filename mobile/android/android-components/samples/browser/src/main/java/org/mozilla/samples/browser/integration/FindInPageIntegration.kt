@@ -128,6 +128,18 @@ findinpage
 view
 .
 FindInPageView
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+BackHandler
 class
 FindInPageIntegration
 (
@@ -144,6 +156,7 @@ FindInPageView
 )
 :
 LifecycleObserver
+BackHandler
 {
 private
 val
@@ -208,6 +221,7 @@ launch
 =
 null
 }
+override
 fun
 onBackPressed
 (

@@ -323,6 +323,18 @@ components
 .
 support
 .
+base
+.
+feature
+.
+BackHandler
+import
+mozilla
+.
+components
+.
+support
+.
 ktx
 .
 android
@@ -946,7 +958,7 @@ onBackPressed
 true
 toolbarFeature
 .
-handleBackPressed
+onBackPressed
 (
 )
 -
@@ -954,7 +966,7 @@ handleBackPressed
 true
 sessionFeature
 .
-handleBackPressed
+onBackPressed
 (
 )
 -

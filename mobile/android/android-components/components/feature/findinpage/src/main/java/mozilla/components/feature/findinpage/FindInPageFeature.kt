@@ -139,6 +139,18 @@ base
 .
 feature
 .
+BackHandler
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
 LifecycleAwareFeature
 /
 *
@@ -190,6 +202,7 @@ null
 )
 :
 LifecycleAwareFeature
+BackHandler
 {
 VisibleForTesting
 internal
@@ -338,6 +351,7 @@ session
 .
 *
 /
+override
 fun
 onBackPressed
 (
