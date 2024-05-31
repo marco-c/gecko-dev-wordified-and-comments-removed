@@ -234,11 +234,6 @@ mFirstFrame
 =
 true
 ;
-bool
-mIsADTS
-=
-false
-;
 uint64_t
 mTotalMediaFrames
 =

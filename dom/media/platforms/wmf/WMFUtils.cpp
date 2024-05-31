@@ -908,31 +908,16 @@ aOffset
 )
 {
 return
-AssertedCast
-<
 int32_t
->
-(
-AssertedCast
-<
-float
->
 (
 aOffset
 .
 value
-)
 +
-(
-AssertedCast
-<
-float
->
 (
 aOffset
 .
 fract
-)
 /
 65536
 .
@@ -1084,8 +1069,6 @@ aOutPictureRegion
 BOOL
 panScan
 =
-!
-!
 MFGetAttributeUINT32
 (
 aMediaType
@@ -1540,6 +1523,7 @@ return
 MFAudioFormat_MP3
 ;
 }
+else
 if
 (
 MP4Decoder
@@ -1555,6 +1539,7 @@ return
 MFAudioFormat_AAC
 ;
 }
+else
 if
 (
 aMimeType
@@ -1573,6 +1558,7 @@ return
 MFAudioFormat_Vorbis
 ;
 }
+else
 if
 (
 aMimeType
@@ -1628,6 +1614,7 @@ return
 MFVideoFormat_H264
 ;
 }
+else
 if
 (
 VPXDecoder
@@ -1643,6 +1630,7 @@ return
 MFVideoFormat_VP80
 ;
 }
+else
 if
 (
 VPXDecoder
@@ -1661,6 +1649,7 @@ MFVideoFormat_VP90
 #
 ifdef
 MOZ_AV1
+else
 if
 (
 AOMDecoder
@@ -1678,6 +1667,7 @@ MFVideoFormat_AV1
 }
 #
 endif
+else
 if
 (
 MP4Decoder
@@ -1775,11 +1765,7 @@ w
 0
 ]
 =
-aConfigLength
-?
-0
-:
-1
+0x0
 ;
 w
 [
@@ -1809,7 +1795,7 @@ aConfigLength
 2
 )
 {
-uint8_t
+int8_t
 frequency
 =
 (
@@ -1836,7 +1822,7 @@ aAudioSpecConfig
 >
 7
 ;
-uint8_t
+int8_t
 channels
 =
 (
@@ -1851,7 +1837,7 @@ aAudioSpecConfig
 >
 3
 ;
-uint8_t
+int8_t
 gasc
 =
 aAudioSpecConfig
