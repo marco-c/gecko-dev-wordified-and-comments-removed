@@ -79,12 +79,6 @@ receives
 Fact
 ]
 instances
-from
-the
-[
-Facts
-]
-singleton
 to
 process
 them

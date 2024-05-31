@@ -231,7 +231,6 @@ a
 Fact
 ]
 with
-]
 [
 CLICK
 ]
@@ -263,6 +262,7 @@ with
 INTERACTION
 ]
 action
+.
 *
 /
 INTERACTION
