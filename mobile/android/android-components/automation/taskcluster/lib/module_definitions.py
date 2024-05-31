@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 json
 import
@@ -70,14 +74,22 @@ not
 :
         
 print
+(
 "
 Gradle
 command
 returned
 error
 :
+{
+}
 "
+.
+format
+(
 exit_code
+)
+)
     
 gradle_modules
 =
@@ -172,7 +184,7 @@ if
 module
 [
 '
-enableTaskcluster
+shouldPublish
 '
 ]
 ]

@@ -62,7 +62,7 @@ setupProject
 name
 path
 description
-enableTaskcluster
+shouldPublish
 =
 true
 )
@@ -232,9 +232,9 @@ project
 .
 ext
 .
-enableTaskcluster
+shouldPublish
 =
-enableTaskcluster
+shouldPublish
 }
 }
 }
