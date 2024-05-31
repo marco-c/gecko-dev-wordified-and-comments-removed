@@ -186,6 +186,17 @@ frame
 )
 const
 ;
+rtc
+:
+:
+scoped_refptr
+<
+FrameTransformerInterface
+>
+FrameTransformer
+(
+)
+;
 protected
 :
 ~

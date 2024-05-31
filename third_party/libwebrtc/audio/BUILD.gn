@@ -1806,6 +1806,14 @@ audio_codec_mocks
 /
 test
 :
+mock_frame_transformer
+"
+"
+.
+.
+/
+test
+:
 mock_transport
 "
 "
