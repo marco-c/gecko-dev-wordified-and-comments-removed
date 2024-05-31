@@ -6448,7 +6448,9 @@ barrier
 MembarStoreLoad
 )
 {
-storeLoadFence
+masm
+.
+mfence
 (
 )
 ;
