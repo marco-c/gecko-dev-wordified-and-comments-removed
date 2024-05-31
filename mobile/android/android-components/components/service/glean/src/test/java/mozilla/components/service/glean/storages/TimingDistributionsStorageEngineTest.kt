@@ -655,7 +655,7 @@ telemetry
 "
 \
 "
-bucketCount
+bucket_count
 \
 "
 :
@@ -673,7 +673,7 @@ range
 ]
 \
 "
-histogramType
+histogram_type
 \
 "
 :
@@ -695,7 +695,7 @@ sum
 0
 \
 "
-timeUnit
+time_unit
 \
 "
 :
@@ -707,7 +707,7 @@ store1
 #
 telemetry
 .
-invalid_td_bucketCount
+invalid_td_bucket_count
 "
 to
 "
@@ -736,7 +736,7 @@ test_timing_distribution
 "
 \
 "
-bucketCount
+bucket_count
 \
 "
 :
@@ -761,7 +761,7 @@ range
 ]
 \
 "
-histogramType
+histogram_type
 \
 "
 :
@@ -783,7 +783,7 @@ sum
 0
 \
 "
-timeUnit
+time_unit
 \
 "
 :
@@ -824,7 +824,7 @@ test_timing_distribution
 "
 \
 "
-bucketCount
+bucket_count
 \
 "
 :
@@ -842,7 +842,7 @@ range
 ]
 \
 "
-histogramType
+histogram_type
 \
 "
 :
@@ -864,7 +864,7 @@ sum
 0
 \
 "
-timeUnit
+time_unit
 \
 "
 :
@@ -905,7 +905,7 @@ test_timing_distribution
 "
 \
 "
-bucketCount
+bucket_count
 \
 "
 :
@@ -930,7 +930,7 @@ numeric
 ]
 \
 "
-histogramType
+histogram_type
 \
 "
 :
@@ -952,7 +952,7 @@ sum
 0
 \
 "
-timeUnit
+time_unit
 \
 "
 :
@@ -964,7 +964,7 @@ store1
 #
 telemetry
 .
-invalid_td_histogramType
+invalid_td_histogram_type
 "
 to
 "
@@ -993,7 +993,7 @@ test_timing_distribution
 "
 \
 "
-bucketCount
+bucket_count
 \
 "
 :
@@ -1011,7 +1011,7 @@ range
 ]
 \
 "
-histogramType
+histogram_type
 \
 "
 :
@@ -1034,7 +1034,7 @@ sum
 0
 \
 "
-timeUnit
+time_unit
 \
 "
 :
@@ -1075,7 +1075,7 @@ test_timing_distribution
 "
 \
 "
-bucketCount
+bucket_count
 \
 "
 :
@@ -1093,7 +1093,7 @@ range
 ]
 \
 "
-histogramType
+histogram_type
 \
 "
 :
@@ -1126,7 +1126,7 @@ sum
 0
 \
 "
-timeUnit
+time_unit
 \
 "
 :
@@ -1167,7 +1167,7 @@ test_timing_distribution
 "
 \
 "
-bucketCount
+bucket_count
 \
 "
 :
@@ -1185,7 +1185,7 @@ range
 ]
 \
 "
-histogramType
+histogram_type
 \
 "
 :
@@ -1211,7 +1211,7 @@ nope
 "
 \
 "
-timeUnit
+time_unit
 \
 "
 :
@@ -1223,7 +1223,7 @@ store1
 #
 telemetry
 .
-invalid_td_timeUnit
+invalid_td_time_unit
 "
 to
 "
@@ -1252,7 +1252,7 @@ test_timing_distribution
 "
 \
 "
-bucketCount
+bucket_count
 \
 "
 :
@@ -1270,7 +1270,7 @@ range
 ]
 \
 "
-histogramType
+histogram_type
 \
 "
 :
@@ -1292,7 +1292,7 @@ sum
 0
 \
 "
-timeUnit
+time_unit
 \
 "
 :
