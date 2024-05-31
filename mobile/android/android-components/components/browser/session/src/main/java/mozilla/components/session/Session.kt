@@ -187,6 +187,11 @@ observer
 :
 Observer
 )
+=
+synchronized
+(
+observers
+)
 {
 observers
 .
@@ -211,6 +216,11 @@ unregister
 observer
 :
 Observer
+)
+=
+synchronized
+(
+observers
 )
 {
 observers
@@ -245,6 +255,11 @@ Observer
 -
 >
 Unit
+)
+=
+synchronized
+(
+observers
 )
 {
 observers
