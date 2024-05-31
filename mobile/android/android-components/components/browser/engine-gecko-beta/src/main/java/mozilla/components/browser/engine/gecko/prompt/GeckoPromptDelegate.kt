@@ -1003,6 +1003,16 @@ PromptDelegate
 .
 FILE_TYPE_MULTIPLE
 val
+captureMode
+=
+PromptRequest
+.
+File
+.
+FacingMode
+.
+NONE
+val
 onSelectSingle
 :
 (
@@ -1064,6 +1074,7 @@ emptyArray
 (
 )
 isMultipleFilesSelection
+captureMode
 onSelectSingle
 onSelectMultiple
 onDismiss

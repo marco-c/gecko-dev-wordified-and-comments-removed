@@ -162,6 +162,8 @@ org
 mockito
 .
 Mockito
+.
+never
 import
 org
 .
@@ -568,8 +570,6 @@ engineSession
 verify
 (
 geckoView
-Mockito
-.
 never
 (
 )
@@ -581,8 +581,6 @@ releaseSession
 verify
 (
 engineSession
-Mockito
-.
 never
 (
 )
