@@ -100,7 +100,7 @@ in
 collaboration
 with
 [
-AppLinksFeature
+AppLinksInterceptor
 ]
 *
 to
@@ -242,11 +242,11 @@ fragment
 *
 /
 fun
-setAppLinkRedirect
+setAppLinkRedirectUrl
 (
-redirect
+url
 :
-AppLinkRedirect
+String
 )
 {
 val
@@ -266,12 +266,7 @@ args
 putString
 (
 KEY_INTENT_URL
-redirect
-.
-appIntent
-?
-.
-dataString
+url
 )
 }
 arguments

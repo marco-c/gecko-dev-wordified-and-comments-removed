@@ -1422,6 +1422,8 @@ subject
 openAppLink
 (
 redirect
+.
+appIntent
 )
 verify
 (

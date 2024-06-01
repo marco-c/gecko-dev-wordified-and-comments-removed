@@ -165,7 +165,7 @@ org
 "
 )
 val
-contentReponse
+contentResponse
 =
 InterceptionResponse
 .
@@ -195,13 +195,13 @@ String
 =
 Triple
 (
-contentReponse
+contentResponse
 .
 data
-contentReponse
+contentResponse
 .
 encoding
-contentReponse
+contentResponse
 .
 mimeType
 )
@@ -334,6 +334,8 @@ engineSession
 "
 url
 "
+false
+false
 )
 interceptor
 .

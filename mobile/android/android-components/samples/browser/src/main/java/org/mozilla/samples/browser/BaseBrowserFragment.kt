@@ -1065,9 +1065,6 @@ fragmentManager
 requireFragmentManager
 (
 )
-interceptLinkClicks
-=
-true
 launchInApp
 =
 {

@@ -930,6 +930,8 @@ right
 /
 url
 "
+false
+false
 )
 )
 verify
@@ -975,6 +977,8 @@ wikipedia
 .
 org
 "
+false
+false
 )
 )
 verify
@@ -1029,6 +1033,8 @@ success
 123
 /
 "
+false
+false
 )
 )
 verify
@@ -1084,6 +1090,8 @@ success
 /
 test
 "
+false
+false
 )
 )
 verify
@@ -1153,6 +1161,8 @@ state
 =
 testState1
 "
+false
+false
 )
 )
 verify
@@ -1242,6 +1252,8 @@ action
 =
 signin
 "
+false
+false
 )
 )
 verify
@@ -1328,6 +1340,8 @@ action
 =
 signup
 "
+false
+false
 )
 )
 verify
@@ -1414,6 +1428,8 @@ action
 =
 pairing
 "
+false
+false
 )
 )
 verify
@@ -1502,6 +1518,8 @@ action
 =
 someNewActionType
 "
+false
+false
 )
 )
 verify
