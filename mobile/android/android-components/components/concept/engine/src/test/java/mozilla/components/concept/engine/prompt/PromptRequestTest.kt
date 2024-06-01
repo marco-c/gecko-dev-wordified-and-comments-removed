@@ -1512,7 +1512,7 @@ CreditCard
 =
 null
 val
-selectCreditCardPrompt
+selectCreditCardRequest
 =
 SelectCreditCard
 (
@@ -1542,7 +1542,7 @@ true
 )
 assertEquals
 (
-selectCreditCardPrompt
+selectCreditCardRequest
 .
 creditCards
 listOf
@@ -1550,7 +1550,7 @@ listOf
 creditCard
 )
 )
-selectCreditCardPrompt
+selectCreditCardRequest
 .
 onConfirm
 (
@@ -1575,7 +1575,7 @@ false
 confirmedCreditCard
 =
 null
-selectCreditCardPrompt
+selectCreditCardRequest
 .
 onDismiss
 (
