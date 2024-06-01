@@ -630,7 +630,7 @@ android
 layout_height
 =
 "
-20dp
+wrap_content
 "
 android
 :
@@ -638,6 +638,13 @@ importantForAccessibility
 =
 "
 no
+"
+android
+:
+layout_gravity
+=
+"
+center_vertical
 "
 android
 :
@@ -722,6 +729,13 @@ textSize
 =
 "
 12sp
+"
+android
+:
+layout_gravity
+=
+"
+center_vertical
 "
 tools
 :
