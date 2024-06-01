@@ -275,14 +275,14 @@ android
 layout_width
 =
 "
-48dp
+32dp
 "
 android
 :
 layout_height
 =
 "
-48dp
+32dp
 "
 android
 :
