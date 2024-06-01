@@ -266,7 +266,7 @@ R
 .
 string
 .
-mozac_lib_send_crash_report_in_progress
+mozac_lib_collecting_telemetry_data_in_progress
 crashReporter
 .
 promptConfiguration
