@@ -239,7 +239,7 @@ DownloadUtils
 .
 kt
 #
-L63
+L61
 )
 Guess
 the
@@ -275,6 +275,6 @@ unfortunately
 does
 not
 implement
-RfC
+RFC
 5987
 .

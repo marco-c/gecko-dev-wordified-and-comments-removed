@@ -56,7 +56,7 @@ md
 )
 #
 start
-abstract
+open
 fun
 start
 (

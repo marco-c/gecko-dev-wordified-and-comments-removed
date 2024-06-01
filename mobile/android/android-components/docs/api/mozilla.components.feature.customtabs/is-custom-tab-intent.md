@@ -110,7 +110,7 @@ CustomTabConfigHelper
 .
 kt
 #
-L47
+L49
 )
 Checks
 if
@@ -261,7 +261,7 @@ CustomTabConfigHelper
 .
 kt
 #
-L55
+L57
 )
 Checks
 if
@@ -278,7 +278,7 @@ intent
 #
 #
 Parameters
-intent
+safeIntent
 -
 the
 intent

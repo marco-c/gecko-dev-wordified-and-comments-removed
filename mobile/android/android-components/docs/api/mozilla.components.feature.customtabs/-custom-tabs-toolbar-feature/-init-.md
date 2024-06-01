@@ -238,6 +238,15 @@ size
 ?
 :
 0
+window
+:
+<
+ERROR
+CLASS
+>
+?
+=
+null
 shareListener
 :
 (

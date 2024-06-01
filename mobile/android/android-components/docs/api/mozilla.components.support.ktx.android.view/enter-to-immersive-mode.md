@@ -142,7 +142,7 @@ Activity
 .
 kt
 #
-L20
+L16
 )
 Attempts
 to

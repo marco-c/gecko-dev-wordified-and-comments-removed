@@ -158,7 +158,7 @@ CustomTabsToolbarFeature
 .
 kt
 #
-L34
+L38
 )
 Initializes
 and
@@ -380,6 +380,15 @@ size
 ?
 :
 0
+window
+:
+<
+ERROR
+CLASS
+>
+?
+=
+null
 shareListener
 :
 (

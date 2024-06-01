@@ -183,7 +183,7 @@ TimespanMetricType
 .
 kt
 #
-L152
+L155
 )
 Tests
 whether
