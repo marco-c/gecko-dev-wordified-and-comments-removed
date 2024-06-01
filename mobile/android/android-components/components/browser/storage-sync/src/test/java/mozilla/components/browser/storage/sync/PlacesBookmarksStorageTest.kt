@@ -1490,12 +1490,13 @@ this
 assertEquals
 (
 "
-Database
+Can
+not
+import
+from
+database
 version
 0
-is
-not
-supported
 "
 e
 .

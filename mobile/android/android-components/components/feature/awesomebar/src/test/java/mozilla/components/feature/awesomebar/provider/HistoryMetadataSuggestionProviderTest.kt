@@ -266,6 +266,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 Test
 fun
