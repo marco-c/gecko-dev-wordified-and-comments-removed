@@ -132,7 +132,7 @@ invoked
 false
 DeliveryManager
 .
-with
+runWithInitialized
 (
 connection
 )
@@ -160,7 +160,7 @@ true
 )
 DeliveryManager
 .
-with
+runWithInitialized
 (
 connection
 )

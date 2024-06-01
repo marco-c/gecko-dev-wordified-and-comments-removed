@@ -927,7 +927,7 @@ shutdown
 {
 DeliveryManager
 .
-with
+runWithInitialized
 (
 connection
 )
@@ -1113,7 +1113,7 @@ EncryptedPushMessage
 {
 DeliveryManager
 .
-with
+runWithInitialized
 (
 connection
 )
@@ -1341,7 +1341,7 @@ Unit
 {
 DeliveryManager
 .
-with
+runWithInitialized
 (
 connection
 )
@@ -1478,7 +1478,7 @@ Unit
 {
 DeliveryManager
 .
-with
+runWithInitialized
 (
 connection
 )
@@ -1686,7 +1686,7 @@ verifyActiveSubscriptions
 {
 DeliveryManager
 .
-with
+runWithInitialized
 (
 connection
 )
@@ -2271,7 +2271,7 @@ initialized
 *
 /
 fun
-with
+runWithInitialized
 (
 connection
 :
