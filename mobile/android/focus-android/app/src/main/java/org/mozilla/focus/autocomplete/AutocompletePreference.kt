@@ -222,13 +222,13 @@ R
 .
 string
 .
-preference_state_enabled
+preference_state_on
 else
 R
 .
 string
 .
-preference_state_disabled
+preference_state_off
 )
 }
 }

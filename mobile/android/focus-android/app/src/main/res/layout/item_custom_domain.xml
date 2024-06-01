@@ -326,6 +326,13 @@ ic_reorder
 "
 android
 :
+importantForAccessibility
+=
+"
+no
+"
+android
+:
 paddingEnd
 =
 "
