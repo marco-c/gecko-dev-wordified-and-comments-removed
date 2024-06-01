@@ -550,6 +550,12 @@ crashed
 Boolean
 =
 false
+mediaSessionState
+:
+MediaSessionState
+?
+=
+null
 )
 :
 TabSessionState
@@ -605,5 +611,8 @@ crashed
 =
 crashed
 )
+mediaSessionState
+=
+mediaSessionState
 )
 }

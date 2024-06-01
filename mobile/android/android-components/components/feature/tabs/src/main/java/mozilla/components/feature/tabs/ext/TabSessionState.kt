@@ -174,4 +174,12 @@ else
 >
 null
 }
+mediaSessionState
+?
+.
+playbackState
+mediaSessionState
+?
+.
+controller
 )

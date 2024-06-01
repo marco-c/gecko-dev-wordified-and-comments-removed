@@ -402,6 +402,12 @@ EngineSession
 ?
 =
 null
+mediaSessionState
+:
+MediaSessionState
+?
+=
+null
 crashed
 :
 Boolean
@@ -426,6 +432,9 @@ url
 config
 =
 config
+mediaSessionState
+=
+mediaSessionState
 contextId
 =
 contextId
