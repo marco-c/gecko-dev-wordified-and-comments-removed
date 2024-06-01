@@ -604,7 +604,7 @@ isAlreadyADialogCreated
 {
 dialog
 .
-show
+showNow
 (
 fragmentManager
 FRAGMENT_TAG
