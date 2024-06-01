@@ -1631,7 +1631,7 @@ name
 mozac_feature_addons_learn_more
 "
 >
-Deprender
+Saber
 m
 s
 tocante
@@ -2038,8 +2038,8 @@ mozac_feature_addons_unsupported_section
 >
 Ent
 nun
-se
-sofita
+ye
+compatible
 <
 /
 string
@@ -2296,7 +2296,8 @@ name
 mozac_feature_addons_permissions_dialog_title
 "
 >
-Amestar
+Quies
+amestar
 %
 1
 s
@@ -2821,7 +2822,7 @@ name
 mozac_feature_addons_updater_notification_deny_button
 "
 >
-egar
+Negar
 <
 /
 string
@@ -3102,7 +3103,7 @@ mozac_feature_addons_supported_checker_notification_channel
 Comprobador
 de
 complementos
-sofitaos
+compatibles
 <
 /
 string
@@ -3415,7 +3416,8 @@ name
 mozac_feature_addons_supported_checker_notification_content_more_than_two
 "
 >
-Amestalos
+Ami
+stalos
 a
 %
 1
@@ -3723,8 +3725,7 @@ mozac_feature_addons_successfully_installed
 s
 instal
 se
-con
-situ
+correutamente
 <
 /
 string
@@ -3817,8 +3818,7 @@ mozac_feature_addons_successfully_enabled
 s
 activ
 se
-con
-situ
+correutamente
 <
 /
 string
@@ -3911,8 +3911,7 @@ mozac_feature_addons_successfully_disabled
 s
 desactiv
 se
-con
-situ
+correutamente
 <
 /
 string
@@ -4005,8 +4004,7 @@ mozac_feature_addons_successfully_uninstalled
 s
 desinstal
 se
-con
-situ
+correutamente
 <
 /
 string
@@ -4106,8 +4104,7 @@ UnusedResources
 s
 quit
 se
-con
-situ
+correutamante
 <
 /
 string
@@ -4353,7 +4350,7 @@ name
 mozac_feature_addons_unsupported_learn_more
 "
 >
-Deprender
+Saber
 m
 s
 <
@@ -4397,8 +4394,7 @@ mozac_feature_addons_updater_status_successfully_updated
 >
 Anov
 se
-con
-situ
+correutamente
 <
 /
 string
@@ -4764,8 +4760,7 @@ name
 mozac_feature_addons_installed_dialog_okay_button
 "
 >
-Val
-enti
+Enti
 ndolo
 <
 /
