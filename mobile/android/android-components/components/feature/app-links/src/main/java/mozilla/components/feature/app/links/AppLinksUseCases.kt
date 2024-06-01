@@ -458,9 +458,12 @@ internal
 val
 browserPackageNames
 :
+Lazy
+<
 Set
 <
 String
+>
 >
 init
 {
@@ -468,6 +471,8 @@ this
 .
 browserPackageNames
 =
+lazy
+{
 browserPackageNames
 ?
 :
@@ -475,6 +480,7 @@ findExcludedPackages
 (
 unguessableWebUrl
 )
+}
 }
 VisibleForTesting
 (
@@ -1110,6 +1116,8 @@ filter
 {
 !
 browserPackageNames
+.
+value
 .
 contains
 (
