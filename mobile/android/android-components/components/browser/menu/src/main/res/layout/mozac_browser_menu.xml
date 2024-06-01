@@ -171,6 +171,13 @@ dimen
 /
 mozac_browser_menu_elevation
 "
+app
+:
+cardUseCompatPadding
+=
+"
+true
+"
 >
 <
 androidx
