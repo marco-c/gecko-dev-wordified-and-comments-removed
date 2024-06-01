@@ -288,7 +288,7 @@ Tabs
 null
 private
 var
-tabScope
+scope
 :
 CoroutineScope
 ?
@@ -299,7 +299,7 @@ start
 (
 )
 {
-tabScope
+scope
 =
 store
 .
@@ -319,7 +319,7 @@ stop
 (
 )
 {
-tabScope
+scope
 ?
 .
 cancel
@@ -343,19 +343,12 @@ flow
 .
 map
 {
-state
--
->
-val
-tabs
-=
-state
+it
 .
 toTabs
 (
 tabsFilter
 )
-tabs
 }
 .
 ifChanged
