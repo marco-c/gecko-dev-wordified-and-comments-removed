@@ -2289,7 +2289,7 @@ if
 (
 config
 .
-syncableStores
+supportedEngines
 .
 isEmpty
 (
@@ -2302,7 +2302,8 @@ IllegalArgumentException
 "
 Set
 of
-stores
+supported
+engines
 can
 '
 t
