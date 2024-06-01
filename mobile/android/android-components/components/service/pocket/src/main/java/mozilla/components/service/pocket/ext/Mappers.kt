@@ -81,6 +81,8 @@ service
 .
 pocket
 .
+PocketStory
+.
 PocketRecommendedStory
 import
 mozilla
@@ -91,6 +93,8 @@ service
 .
 pocket
 .
+PocketStory
+.
 PocketSponsoredStory
 import
 mozilla
@@ -100,6 +104,8 @@ components
 service
 .
 pocket
+.
+PocketStory
 .
 PocketSponsoredStoryShim
 import
