@@ -93,9 +93,9 @@ engine
 .
 gecko
 .
-fetch
+glean
 .
-GeckoViewFetchClient
+GeckoAdapter
 import
 mozilla
 .
@@ -107,9 +107,9 @@ engine
 .
 gecko
 .
-glean
+fetch
 .
-GeckoAdapter
+GeckoViewFetchClient
 import
 mozilla
 .
@@ -215,6 +215,11 @@ GeckoRuntimeSettings
 .
 Builder
 (
+)
+.
+aboutConfigEnabled
+(
+true
 )
 builder
 .
