@@ -155,7 +155,7 @@ preference_drawable_padding
 "
 android
 :
-foreground
+background
 =
 "
 ?
@@ -164,6 +164,15 @@ android
 attr
 /
 selectableItemBackground
+"
+android
+:
+foreground
+=
+"
+drawable
+/
+preference_multiselect_search_engine_foreground
 "
 android
 :
