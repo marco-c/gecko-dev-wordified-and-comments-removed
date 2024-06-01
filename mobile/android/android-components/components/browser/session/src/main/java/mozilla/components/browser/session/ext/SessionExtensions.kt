@@ -266,7 +266,8 @@ private
 title
 progress
 loading
-searchTerms
+securityInfo
+=
 securityInfo
 .
 toSecurityInfoState

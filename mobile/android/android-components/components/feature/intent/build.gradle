@@ -199,6 +199,16 @@ project
 (
 '
 :
+feature
+-
+tabs
+'
+)
+testImplementation
+project
+(
+'
+:
 browser
 -
 search

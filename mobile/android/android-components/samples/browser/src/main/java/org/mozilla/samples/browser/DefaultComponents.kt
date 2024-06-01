@@ -1428,7 +1428,7 @@ store
 toDefaultSearchEngineProvider
 (
 )
-sessionManager
+tabsUseCases
 )
 }
 val
