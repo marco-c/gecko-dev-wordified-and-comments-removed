@@ -578,6 +578,13 @@ gcloud
 quiet
 components
 update
+#
+Flank
+v21
+.
+01
+.
+0
 RUN
 URL_FLANK_BIN
 =
