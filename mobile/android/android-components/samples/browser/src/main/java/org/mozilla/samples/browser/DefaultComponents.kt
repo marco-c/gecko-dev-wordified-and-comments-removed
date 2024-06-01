@@ -965,7 +965,6 @@ applicationContext
 engine
 )
 }
-private
 val
 thumbnailStorage
 by
