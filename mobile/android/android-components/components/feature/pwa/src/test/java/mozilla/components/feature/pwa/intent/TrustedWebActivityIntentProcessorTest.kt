@@ -133,14 +133,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -376,8 +368,6 @@ not
 valid
 (
 )
-=
-runBlockingTest
 {
 val
 processor
@@ -543,8 +533,6 @@ tab
 config
 (
 )
-=
-runBlockingTest
 {
 val
 intent

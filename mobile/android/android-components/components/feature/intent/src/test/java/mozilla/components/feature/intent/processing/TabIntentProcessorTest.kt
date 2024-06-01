@@ -105,14 +105,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -472,8 +464,6 @@ fun
 processViewIntent
 (
 )
-=
-runBlockingTest
 {
 val
 engine
@@ -763,8 +753,6 @@ fun
 processViewIntentUsingSelectedSession
 (
 )
-=
-runBlockingTest
 {
 val
 handler
@@ -859,8 +847,6 @@ fun
 processViewIntentHavingNoSelectedSession
 (
 )
-=
-runBlockingTest
 {
 whenever
 (
@@ -985,8 +971,6 @@ fun
 processNfcIntent
 (
 )
-=
-runBlockingTest
 {
 val
 engine
@@ -1198,8 +1182,6 @@ fun
 processNfcIntentUsingSelectedSession
 (
 )
-=
-runBlockingTest
 {
 val
 handler
@@ -1292,8 +1274,6 @@ fun
 processNfcIntentHavingNoSelectedSession
 (
 )
-=
-runBlockingTest
 {
 whenever
 (
@@ -1423,8 +1403,6 @@ contains
 URL
 (
 )
-=
-runBlockingTest
 {
 doReturn
 (
@@ -1792,8 +1770,6 @@ URL
 provided
 (
 )
-=
-runBlockingTest
 {
 val
 engine
@@ -2006,8 +1982,6 @@ empty
 text
 (
 )
-=
-runBlockingTest
 {
 val
 handler
@@ -2085,8 +2059,6 @@ empty
 text
 (
 )
-=
-runBlockingTest
 {
 val
 handler
@@ -2167,8 +2139,6 @@ an
 URL
 (
 )
-=
-runBlockingTest
 {
 doReturn
 (
@@ -2294,8 +2264,6 @@ URL
 provided
 (
 )
-=
-runBlockingTest
 {
 val
 engine
@@ -2508,8 +2476,6 @@ empty
 text
 (
 )
-=
-runBlockingTest
 {
 val
 handler
@@ -2590,8 +2556,6 @@ an
 URL
 (
 )
-=
-runBlockingTest
 {
 doReturn
 (
@@ -2717,8 +2681,6 @@ URL
 provided
 (
 )
-=
-runBlockingTest
 {
 val
 engine

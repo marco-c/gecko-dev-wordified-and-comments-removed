@@ -126,7 +126,6 @@ false
 .
 *
 /
-suspend
 fun
 process
 (

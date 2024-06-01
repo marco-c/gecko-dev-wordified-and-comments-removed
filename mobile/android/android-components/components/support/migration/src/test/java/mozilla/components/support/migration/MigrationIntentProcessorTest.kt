@@ -71,14 +71,6 @@ content
 .
 Intent
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -156,8 +148,6 @@ updates
 intent
 (
 )
-=
-runBlockingTest
 {
 val
 store

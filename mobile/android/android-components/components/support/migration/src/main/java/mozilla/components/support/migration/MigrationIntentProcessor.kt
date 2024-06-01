@@ -191,7 +191,6 @@ AbstractMigrationProgressActivity
 *
 /
 override
-suspend
 fun
 process
 (

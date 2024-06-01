@@ -109,14 +109,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -413,8 +405,6 @@ fun
 processCustomTabIntentWithDefaultHandlers
 (
 )
-=
-runBlockingTest
 {
 val
 engine
@@ -686,8 +676,6 @@ fun
 processCustomTabIntentWithAdditionalHeaders
 (
 )
-=
-runBlockingTest
 {
 val
 engine
@@ -1014,8 +1002,6 @@ fun
 processPrivateCustomTabIntentWithDefaultHandlers
 (
 )
-=
-runBlockingTest
 {
 val
 engine

@@ -81,6 +81,12 @@ Intent
 .
 FLAG_ACTIVITY_NEW_DOCUMENT
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -333,7 +339,6 @@ manifest
 *
 /
 override
-suspend
 fun
 process
 (
@@ -374,12 +379,15 @@ intent
 val
 webAppManifest
 =
+runBlocking
+{
 storage
 .
 loadManifest
 (
 url
 )
+}
 ?
 :
 return

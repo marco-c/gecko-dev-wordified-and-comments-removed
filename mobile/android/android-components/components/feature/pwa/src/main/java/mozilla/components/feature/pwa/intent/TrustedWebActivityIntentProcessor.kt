@@ -419,7 +419,6 @@ safeIntent
 )
 }
 override
-suspend
 fun
 process
 (
