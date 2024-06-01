@@ -797,7 +797,7 @@ syncNow
 SyncReason
 .
 User
-false
+true
 listOf
 (
 SyncEngine

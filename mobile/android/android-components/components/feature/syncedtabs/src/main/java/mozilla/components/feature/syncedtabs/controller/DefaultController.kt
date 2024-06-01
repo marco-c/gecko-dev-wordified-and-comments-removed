@@ -395,6 +395,9 @@ SyncEngine
 .
 Tabs
 )
+debounce
+=
+true
 )
 }
 }
