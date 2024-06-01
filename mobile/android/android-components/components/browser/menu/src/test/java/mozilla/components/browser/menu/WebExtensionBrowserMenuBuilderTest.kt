@@ -330,7 +330,7 @@ isAddonsManagerTapped
 =
 true
 }
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 =
 true
 )
@@ -526,7 +526,7 @@ isAddonsManagerTapped
 =
 true
 }
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 =
 true
 )
@@ -647,7 +647,7 @@ at
 the
 start
 when
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 is
 true
 (
@@ -749,7 +749,7 @@ mockMenuItem
 store
 =
 store
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 =
 true
 )
@@ -963,7 +963,7 @@ at
 the
 end
 when
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 is
 false
 (
@@ -1065,7 +1065,7 @@ mockMenuItem
 store
 =
 store
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 =
 false
 )
@@ -1182,7 +1182,9 @@ adapter
 .
 visibleItems
 [
-0
+subMenuItemSize
+-
+1
 ]
 as
 ?
@@ -1230,9 +1232,7 @@ adapter
 .
 visibleItems
 [
-subMenuItemSize
--
-1
+0
 ]
 as
 ?
