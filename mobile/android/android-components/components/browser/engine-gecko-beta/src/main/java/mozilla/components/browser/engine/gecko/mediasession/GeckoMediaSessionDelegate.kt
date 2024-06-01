@@ -131,6 +131,16 @@ mozilla
 .
 geckoview
 .
+Image
+.
+ImageProcessingException
+import
+org
+.
+mozilla
+.
+geckoview
+.
 MediaSession
 as
 GeckoViewMediaSession
@@ -269,7 +279,7 @@ catch
 (
 e
 :
-IllegalArgumentException
+ImageProcessingException
 )
 {
 null
