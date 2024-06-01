@@ -6067,7 +6067,7 @@ List
 SearchEngine
 >
 val
-defaultSearchEngineId
+userSelectedSearchEngineId
 :
 String
 ?
@@ -6163,14 +6163,14 @@ update
 [
 SearchState
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 ]
 .
 *
 /
 data
 class
-SetDefaultSearchEngineAction
+SelectSearchEngineAction
 (
 val
 searchEngineId

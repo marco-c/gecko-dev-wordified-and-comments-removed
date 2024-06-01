@@ -319,7 +319,7 @@ customSearchEngines
 emptyList
 (
 )
-defaultSearchEngineId
+userSelectedSearchEngineId
 =
 null
 hiddenSearchEngines
@@ -496,7 +496,7 @@ regionDefaultSearchEngineId
 "
 default
 "
-defaultSearchEngineId
+userSelectedSearchEngineId
 =
 null
 hiddenSearchEngines
@@ -988,7 +988,7 @@ isEmpty
 }
 Test
 fun
-SetDefaultSearchEngineAction
+SelectSearchEngineAction
 sets
 a
 default
@@ -1054,7 +1054,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 store
 .
@@ -1062,7 +1062,7 @@ dispatch
 (
 SearchAction
 .
-SetDefaultSearchEngineAction
+SelectSearchEngineAction
 (
 searchEngine
 .
@@ -1084,7 +1084,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 assertEquals
 (
@@ -1097,7 +1097,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 store
 .
@@ -1105,7 +1105,7 @@ dispatch
 (
 SearchAction
 .
-SetDefaultSearchEngineAction
+SelectSearchEngineAction
 (
 "
 unrecognized_id
@@ -1160,7 +1160,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 }
 Test

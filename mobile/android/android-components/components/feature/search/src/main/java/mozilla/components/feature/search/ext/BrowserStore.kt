@@ -121,7 +121,7 @@ state
 .
 state
 .
-defaultSearchEngine
+selectedOrDefaultSearchEngine
 import
 mozilla
 .
@@ -255,7 +255,7 @@ state
 .
 search
 .
-defaultSearchEngine
+selectedOrDefaultSearchEngine
 ?
 .
 legacy
@@ -333,7 +333,7 @@ loaded
 fun
 BrowserStore
 .
-waitForDefaultSearchEngine
+waitForSelectedOrDefaultSearchEngine
 (
 block
 :
@@ -390,7 +390,7 @@ state
 .
 search
 .
-defaultSearchEngine
+selectedOrDefaultSearchEngine
 )
 return
 }
@@ -446,7 +446,7 @@ state
 .
 search
 .
-defaultSearchEngine
+selectedOrDefaultSearchEngine
 )
 subscription
 !

@@ -633,7 +633,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 }
 Test
@@ -657,7 +657,7 @@ runBlocking
 {
 storage
 .
-setDefaultSearchEngineId
+setUserSelectedSearchEngineId
 (
 "
 test
@@ -733,7 +733,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 }
 Test
@@ -828,7 +828,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 store
 .
@@ -836,7 +836,7 @@ dispatch
 (
 SearchAction
 .
-SetDefaultSearchEngineAction
+SelectSearchEngineAction
 (
 id
 )
@@ -859,7 +859,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 }
 run
@@ -923,7 +923,7 @@ state
 .
 search
 .
-defaultSearchEngineId
+userSelectedSearchEngineId
 )
 }
 }

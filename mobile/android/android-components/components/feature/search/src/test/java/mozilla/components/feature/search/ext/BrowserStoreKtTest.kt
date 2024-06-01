@@ -245,7 +245,7 @@ Type
 BUNDLED
 )
 )
-defaultSearchEngineId
+userSelectedSearchEngineId
 =
 "
 google
@@ -265,7 +265,7 @@ CountDownLatch
 )
 store
 .
-waitForDefaultSearchEngine
+waitForSelectedOrDefaultSearchEngine
 {
 searchEngine
 -
@@ -330,7 +330,7 @@ CountDownLatch
 )
 store
 .
-waitForDefaultSearchEngine
+waitForSelectedOrDefaultSearchEngine
 {
 searchEngine
 -
@@ -394,7 +394,7 @@ Type
 BUNDLED
 )
 )
-defaultSearchEngineId
+userSelectedSearchEngineId
 =
 null
 regionDefaultSearchEngineId
@@ -453,7 +453,7 @@ CountDownLatch
 )
 store
 .
-waitForDefaultSearchEngine
+waitForSelectedOrDefaultSearchEngine
 {
 searchEngine
 -
@@ -481,7 +481,7 @@ regionSearchEngines
 listOf
 (
 )
-defaultSearchEngineId
+userSelectedSearchEngineId
 =
 null
 regionDefaultSearchEngineId

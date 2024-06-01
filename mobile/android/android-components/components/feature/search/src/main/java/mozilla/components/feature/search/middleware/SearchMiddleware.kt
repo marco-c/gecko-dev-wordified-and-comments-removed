@@ -385,10 +385,10 @@ action
 is
 SearchAction
 .
-SetDefaultSearchEngineAction
+SelectSearchEngineAction
 -
 >
-updateDefaultSearchEngine
+updateSearchEngineSelection
 (
 action
 )
@@ -463,7 +463,7 @@ ioDispatcher
 )
 }
 val
-defaultSearchEngineId
+userSelectedSearchEngineId
 =
 async
 (
@@ -472,7 +472,7 @@ ioDispatcher
 {
 metadataStorage
 .
-getDefaultSearchEngineId
+getUserSelectedSearchEngineId
 (
 )
 }
@@ -577,9 +577,9 @@ await
 )
 .
 defaultSearchEngineId
-defaultSearchEngineId
+userSelectedSearchEngineId
 =
-defaultSearchEngineId
+userSelectedSearchEngineId
 .
 await
 (
@@ -604,13 +604,13 @@ action
 }
 private
 fun
-updateDefaultSearchEngine
+updateSearchEngineSelection
 (
 action
 :
 SearchAction
 .
-SetDefaultSearchEngineAction
+SelectSearchEngineAction
 )
 =
 scope
@@ -619,7 +619,7 @@ launch
 {
 metadataStorage
 .
-setDefaultSearchEngineId
+setUserSelectedSearchEngineId
 (
 action
 .
@@ -980,7 +980,7 @@ choice
 /
 suspend
 fun
-getDefaultSearchEngineId
+getUserSelectedSearchEngineId
 (
 )
 :
@@ -1007,7 +1007,7 @@ picked
 /
 suspend
 fun
-setDefaultSearchEngineId
+setUserSelectedSearchEngineId
 (
 id
 :

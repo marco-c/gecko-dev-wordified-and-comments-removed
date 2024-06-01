@@ -107,10 +107,10 @@ mozac_feature_search_metadata
 private
 const
 val
-PREFERENCE_KEY_DEFAULT_SEARCH_ENGINE_ID
+PREFERENCE_KEY_USER_SELECTED_SEARCH_ENGINE_ID
 =
 "
-default_search_engine
+user_selected_search_engine
 "
 private
 const
@@ -203,7 +203,7 @@ choice
 override
 suspend
 fun
-getDefaultSearchEngineId
+getUserSelectedSearchEngineId
 (
 )
 :
@@ -217,7 +217,7 @@ value
 .
 getString
 (
-PREFERENCE_KEY_DEFAULT_SEARCH_ENGINE_ID
+PREFERENCE_KEY_USER_SELECTED_SEARCH_ENGINE_ID
 null
 )
 }
@@ -243,7 +243,7 @@ picked
 override
 suspend
 fun
-setDefaultSearchEngineId
+setUserSelectedSearchEngineId
 (
 id
 :
@@ -260,7 +260,7 @@ edit
 .
 putString
 (
-PREFERENCE_KEY_DEFAULT_SEARCH_ENGINE_ID
+PREFERENCE_KEY_USER_SELECTED_SEARCH_ENGINE_ID
 id
 )
 .
