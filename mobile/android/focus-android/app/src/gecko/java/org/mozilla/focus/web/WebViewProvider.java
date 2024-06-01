@@ -241,6 +241,17 @@ geckoView
 }
 public
 static
+void
+performCleanup
+(
+final
+Context
+context
+)
+{
+}
+public
+static
 class
 GeckoWebView
 extends
