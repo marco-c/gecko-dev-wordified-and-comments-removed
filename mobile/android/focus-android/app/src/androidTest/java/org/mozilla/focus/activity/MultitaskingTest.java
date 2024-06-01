@@ -117,17 +117,6 @@ mozilla
 .
 focus
 .
-utils
-.
-UrlUtils
-;
-import
-org
-.
-mozilla
-.
-focus
-.
 web
 .
 IWebView
