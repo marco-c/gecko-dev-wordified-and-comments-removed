@@ -335,6 +335,10 @@ accumulateSamples
 metric
 .
 value
+.
+toList
+(
+)
 )
 }
 }

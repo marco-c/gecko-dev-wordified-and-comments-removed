@@ -165,7 +165,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertNotNull
 import
 org
 .
@@ -312,9 +312,12 @@ GleanTestMetrics
 .
 counter
 .
-testHasValue
+testGetValue
 (
 )
+!
+=
+null
 )
 {
 GleanTestMetrics
@@ -324,6 +327,8 @@ counter
 testGetValue
 (
 )
+!
+!
 +
 1
 }
@@ -374,13 +379,13 @@ data
 was
 recorded
 .
-assertTrue
+assertNotNull
 (
 GleanTestMetrics
 .
 counter
 .
-testHasValue
+testGetValue
 (
 )
 )

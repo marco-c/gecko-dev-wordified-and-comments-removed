@@ -103,6 +103,18 @@ glean
 .
 private
 .
+CommonMetricData
+import
+mozilla
+.
+components
+.
+service
+.
+glean
+.
+private
+.
 Lifetime
 import
 mozilla
@@ -218,6 +230,8 @@ booleanMetric
 =
 BooleanMetricType
 (
+CommonMetricData
+(
 disabled
 =
 false
@@ -230,7 +244,7 @@ lifetime
 =
 Lifetime
 .
-Application
+APPLICATION
 name
 =
 "
@@ -243,6 +257,7 @@ listOf
 "
 store1
 "
+)
 )
 )
 booleanMetric
@@ -258,6 +273,8 @@ booleanMetric
 testGetValue
 (
 )
+!
+!
 )
 }
 }

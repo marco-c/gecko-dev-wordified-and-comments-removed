@@ -153,7 +153,7 @@ glean
 .
 net
 .
-HttpResponse
+HttpStatus
 import
 mozilla
 .
@@ -540,6 +540,9 @@ ping
 e
 )
 RecoverableFailure
+(
+0
+)
 }
 }
 VisibleForTesting
@@ -733,7 +736,7 @@ response
 -
 >
 return
-HttpResponse
+HttpStatus
 (
 response
 .
