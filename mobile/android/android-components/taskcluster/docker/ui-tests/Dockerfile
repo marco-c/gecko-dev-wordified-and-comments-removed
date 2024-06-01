@@ -585,6 +585,10 @@ v21
 08
 .
 1
+(
+pinned
+release
+)
 RUN
 URL_FLANK_BIN
 =
@@ -613,7 +617,7 @@ flank
 /
 releases
 /
-latest
+48276753
 '
 |
 jq
