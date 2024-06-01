@@ -302,7 +302,7 @@ testGetValue
 }
 Test
 fun
-quantitys
+quantities
 with
 no
 lifetime
@@ -393,7 +393,7 @@ recorded
 assertFalse
 (
 "
-Quantitys
+Quantities
 must
 not
 be
@@ -413,7 +413,7 @@ testHasValue
 Test
 fun
 disabled
-quantitys
+quantities
 must
 not
 record
@@ -509,7 +509,7 @@ recorded
 assertFalse
 (
 "
-Quantitys
+Quantities
 must
 not
 be
