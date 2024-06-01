@@ -865,7 +865,7 @@ gradlew
 clean
 app
 :
-assembleFocusWebkitDebug
+assembleFocusWebviewDebug
 3
 .
 Make
@@ -882,7 +882,7 @@ Studio
 :
 *
 *
-focusWebkitDebug
+focusWebviewDebug
 *
 *
 License

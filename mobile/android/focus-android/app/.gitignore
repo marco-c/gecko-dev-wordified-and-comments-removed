@@ -2,7 +2,7 @@
 build
 src
 /
-webkit
+webview
 /
 res
 /
@@ -13,7 +13,7 @@ blocklist
 json
 src
 /
-webkit
+webview
 /
 res
 /
@@ -24,7 +24,7 @@ entitylist
 json
 src
 /
-webkit
+webview
 /
 res
 /

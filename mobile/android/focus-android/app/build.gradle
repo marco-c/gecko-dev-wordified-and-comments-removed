@@ -168,7 +168,7 @@ X
 ENGINE
 FLAVOR
 (
-webkit
+webview
 gecko
 )
 buildTypes
@@ -384,10 +384,10 @@ with
 two
 engines
 :
-webkit
+webview
 or
 gecko
-webkit
+webview
 {
 dimension
 "
@@ -558,7 +558,7 @@ assets
 "
 }
 }
-focusWebkitRelease
+focusWebviewRelease
 {
 java
 .
@@ -593,7 +593,7 @@ focusRelease
 res
 '
 }
-klarWebkitRelease
+klarWebviewRelease
 {
 java
 .
@@ -616,7 +616,7 @@ klarRelease
 res
 '
 }
-focusWebkitBeta
+focusWebviewBeta
 {
 res
 .
@@ -629,7 +629,7 @@ focusBeta
 res
 '
 }
-klarWebkitBeta
+klarWebviewBeta
 {
 res
 .
@@ -642,7 +642,7 @@ klarBeta
 res
 '
 }
-focusWebkitDebug
+focusWebviewDebug
 {
 res
 .
@@ -655,7 +655,7 @@ focusDebug
 res
 '
 }
-klarWebkitDebug
+klarWebviewDebug
 {
 res
 .
@@ -1612,7 +1612,7 @@ blockListOutputDir
 '
 src
 /
-webkit
+webview
 /
 res
 /
@@ -1756,7 +1756,7 @@ name
 contains
 (
 "
-Webkit
+Webview
 "
 )
 )
