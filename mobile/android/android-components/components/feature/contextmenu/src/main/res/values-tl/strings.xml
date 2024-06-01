@@ -164,7 +164,10 @@ name
 mozac_feature_contextmenu_download_link
 "
 >
+i
+-
 Download
+ang
 link
 <
 /
@@ -199,7 +202,8 @@ name
 mozac_feature_contextmenu_share_link
 "
 >
-Share
+Ibahagi
+ang
 link
 <
 /
@@ -904,7 +908,9 @@ name
 mozac_selection_context_menu_email
 "
 >
-Email
+Mag
+-
+email
 <
 /
 string
@@ -944,7 +950,7 @@ name
 mozac_selection_context_menu_call
 "
 >
-Tumawag
+Tawagan
 <
 /
 string

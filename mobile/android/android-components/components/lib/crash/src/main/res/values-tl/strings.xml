@@ -195,9 +195,10 @@ name
 mozac_lib_crash_dialog_button_restart
 "
 >
-Mag
+i
 -
-restart
+Restart
+ang
 %
 1
 s
@@ -263,8 +264,7 @@ name
 mozac_lib_crash_channel
 "
 >
-Nag
--
+Mga
 crash
 <
 /
@@ -434,6 +434,8 @@ mozac_lib_crash_no_crashes
 "
 >
 Walang
+pang
+mga
 crash
 report
 na

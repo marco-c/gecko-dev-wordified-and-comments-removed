@@ -54,7 +54,7 @@ na
 magpadala
 ng
 mga
-notification
+abiso
 ?
 <
 /
@@ -295,10 +295,9 @@ name
 mozac_feature_sitepermissions_back_facing_camera2
 "
 >
-Nakaharap
+Kamera
 sa
-likurang
-kamera
+likuran
 <
 /
 string
@@ -337,8 +336,6 @@ mozac_feature_sitepermissions_selfie_camera2
 "
 >
 Kamera
-na
-nakaharap
 sa
 harapan
 <
@@ -637,11 +634,8 @@ imbak
 ng
 data
 sa
-patuloy
-na
-pag
--
-iimbak
+persistence
+storage
 ?
 <
 /
