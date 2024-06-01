@@ -700,6 +700,12 @@ openNotification
 (
 )
 ;
+TestHelper
+.
+waitForIdle
+(
+)
+;
 if
 (
 !
