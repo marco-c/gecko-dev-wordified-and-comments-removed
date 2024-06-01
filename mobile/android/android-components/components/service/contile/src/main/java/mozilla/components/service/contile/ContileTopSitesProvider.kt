@@ -264,7 +264,7 @@ MINUTE_IN_MS
 *
 *
 *
-Provide
+Provides
 access
 to
 the
@@ -355,8 +355,6 @@ default
 class
 ContileTopSitesProvider
 (
-private
-val
 context
 :
 Context
@@ -384,6 +382,13 @@ Long
 :
 TopSitesProvider
 {
+private
+val
+applicationContext
+=
+context
+.
+applicationContext
 private
 val
 logger
@@ -860,7 +865,7 @@ File
 =
 File
 (
-context
+applicationContext
 .
 filesDir
 CACHE_FILE_NAME

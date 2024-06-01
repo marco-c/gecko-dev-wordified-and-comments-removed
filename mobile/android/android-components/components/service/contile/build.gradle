@@ -129,6 +129,10 @@ Dependencies
 .
 kotlin_coroutines
 implementation
+Dependencies
+.
+androidx_work_runtime
+implementation
 project
 (
 '
@@ -178,6 +182,10 @@ testImplementation
 Dependencies
 .
 androidx_test_junit
+testImplementation
+Dependencies
+.
+androidx_work_testing
 testImplementation
 Dependencies
 .
