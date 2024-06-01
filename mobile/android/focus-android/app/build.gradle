@@ -59,6 +59,14 @@ android
 extensions
 '
 apply
+plugin
+:
+'
+kotlin
+-
+kapt
+'
+apply
 from
 :
 "
@@ -808,7 +816,7 @@ extensions
 :
 architecture_components_version
 "
-annotationProcessor
+kapt
 "
 android
 .
