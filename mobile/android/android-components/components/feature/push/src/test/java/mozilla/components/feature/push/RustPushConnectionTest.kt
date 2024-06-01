@@ -540,10 +540,8 @@ verify
 api
 )
 .
-unsubscribe
+unsubscribeAll
 (
-"
-"
 )
 }
 Test
