@@ -478,6 +478,16 @@ Int
 }
 override
 fun
+setDynamicToolbarMaxHeight
+(
+height
+:
+Int
+)
+{
+}
+override
+fun
 release
 (
 )

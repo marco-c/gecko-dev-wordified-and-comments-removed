@@ -613,6 +613,16 @@ Int
 }
 override
 fun
+setDynamicToolbarMaxHeight
+(
+height
+:
+Int
+)
+{
+}
+override
+fun
 captureThumbnail
 (
 onFinish
