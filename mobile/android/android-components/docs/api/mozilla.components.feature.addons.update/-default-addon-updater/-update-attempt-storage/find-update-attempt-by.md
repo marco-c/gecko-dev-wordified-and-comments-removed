@@ -194,7 +194,7 @@ AddonUpdater
 .
 kt
 #
-L525
+L526
 )
 Finds
 the
