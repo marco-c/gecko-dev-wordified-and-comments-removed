@@ -1,4 +1,4 @@
-U
+M
 *
 .
 0emm
@@ -19,6 +19,11 @@ network
 awdev
 .
 ca
+*
+.
+azurecontainer
+.
+io
 *
 .
 bd
@@ -2105,9 +2110,6 @@ azure
 mobile
 .
 net
-azurecontainer
-.
-io
 azurewebsites
 .
 net
@@ -12819,11 +12821,6 @@ us
 k12
 .
 pr
-.
-us
-k12
-.
-ri
 .
 us
 k12
