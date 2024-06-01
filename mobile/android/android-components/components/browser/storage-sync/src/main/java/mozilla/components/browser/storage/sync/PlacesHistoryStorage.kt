@@ -1753,6 +1753,13 @@ observation
 HistoryMetadataObservation
 )
 {
+withContext
+(
+writeScope
+.
+coroutineContext
+)
+{
 handlePlacesExceptions
 (
 "
@@ -1781,6 +1788,7 @@ into
 )
 }
 }
+}
 override
 suspend
 fun
@@ -1789,6 +1797,13 @@ deleteHistoryMetadataOlderThan
 olderThan
 :
 Long
+)
+{
+withContext
+(
+writeScope
+.
+coroutineContext
 )
 {
 handlePlacesExceptions
@@ -1808,6 +1823,7 @@ deleteHistoryMetadataOlderThan
 (
 olderThan
 )
+}
 }
 }
 }
