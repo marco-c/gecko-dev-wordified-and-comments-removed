@@ -106,7 +106,16 @@ be
 replaced
 by
 the
-realm
+hostname
+or
+a
+description
+of
+the
+protected
+area
+/
+site
 %
 2
 s
@@ -152,7 +161,7 @@ a
 vostra
 parolla
 d
-entrata
+intesa
 .
 U
 site
@@ -228,7 +237,7 @@ a
 vostra
 parolla
 d
-entrata
+intesa
 .
 <
 /

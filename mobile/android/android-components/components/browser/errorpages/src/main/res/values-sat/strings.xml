@@ -728,6 +728,7 @@ li
 <
 /
 ul
+>
 ]
 ]
 >
@@ -1510,6 +1511,7 @@ li
 <
 /
 ul
+>
 ]
 ]
 >
@@ -1843,14 +1845,14 @@ mozac_browser_errorpages_invalid_content_encoding_message
 CDATA
 [
 <
-ul
->
-<
-li
+p
 >
 <
 /
-li
+p
+>
+<
+ul
 >
 <
 li

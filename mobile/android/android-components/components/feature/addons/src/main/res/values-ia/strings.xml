@@ -1576,9 +1576,9 @@ mozac_feature_addons_learn_more
 >
 Saper
 plus
-re
+sur
 le
-permissos
+permissiones
 <
 /
 string
@@ -2139,7 +2139,7 @@ name
 mozac_feature_addons_permissions
 "
 >
-Permissos
+Permissiones
 <
 /
 string
@@ -2296,7 +2296,7 @@ mozac_feature_addons_permissions_dialog_subtitle
 Illo
 require
 tu
-permisso
+permission
 pro
 :
 <
@@ -2867,7 +2867,7 @@ PluralsCandidate
 1
 d
 nove
-permissos
+permissiones
 requirite
 <
 /
@@ -2905,7 +2905,7 @@ mozac_feature_addons_updater_notification_content_singular
 >
 Un
 nove
-permisso
+permission
 es
 requirite
 <
