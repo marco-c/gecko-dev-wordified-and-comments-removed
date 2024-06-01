@@ -366,7 +366,7 @@ version
 "
 )
 :
-str
+text_type
         
 Required
 (
