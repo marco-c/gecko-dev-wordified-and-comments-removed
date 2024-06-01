@@ -548,9 +548,7 @@ historyStorage
 .
 getTopFrecentSites
 (
-numSitesRequired
-*
-2
+totalSites
 )
 .
 map
