@@ -156,7 +156,7 @@ AwesomeBar
 .
 kt
 #
-L39
+L40
 )
 Returns
 whether

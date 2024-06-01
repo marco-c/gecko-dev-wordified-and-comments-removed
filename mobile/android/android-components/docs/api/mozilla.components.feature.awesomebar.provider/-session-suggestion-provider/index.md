@@ -134,7 +134,7 @@ SessionSuggestionProvider
 .
 kt
 #
-L24
+L26
 )
 A
 [
@@ -336,6 +336,15 @@ index
 .
 md
 )
+?
+=
+null
+indicatorIcon
+:
+<
+ERROR
+CLASS
+>
 ?
 =
 null

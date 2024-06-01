@@ -224,6 +224,15 @@ CLASS
 ?
 =
 null
+indicatorIcon
+:
+<
+ERROR
+CLASS
+>
+?
+=
+null
 chips
 :
 [

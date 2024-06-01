@@ -97,7 +97,7 @@ AwesomeBarFeature
 .
 kt
 #
-L34
+L36
 )
 Connects
 an
@@ -350,6 +350,15 @@ index
 .
 md
 )
+?
+=
+null
+indicatorIcon
+:
+<
+ERROR
+CLASS
+>
 ?
 =
 null

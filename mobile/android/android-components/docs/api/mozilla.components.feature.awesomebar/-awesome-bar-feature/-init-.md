@@ -190,6 +190,15 @@ md
 ?
 =
 null
+indicatorIcon
+:
+<
+ERROR
+CLASS
+>
+?
+=
+null
 onEditStart
 :
 (

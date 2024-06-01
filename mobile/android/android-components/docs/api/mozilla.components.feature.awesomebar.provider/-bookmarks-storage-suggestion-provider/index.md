@@ -134,7 +134,7 @@ BookmarksStorageSuggestionProvider
 .
 kt
 #
-L31
+L32
 )
 A
 [
@@ -346,6 +346,15 @@ index
 .
 md
 )
+?
+=
+null
+indicatorIcon
+:
+<
+ERROR
+CLASS
+>
 ?
 =
 null

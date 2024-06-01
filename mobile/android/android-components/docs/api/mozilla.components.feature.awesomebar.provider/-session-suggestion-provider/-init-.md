@@ -181,6 +181,15 @@ md
 ?
 =
 null
+indicatorIcon
+:
+<
+ERROR
+CLASS
+>
+?
+=
+null
 excludeSelectedSession
 :
 [

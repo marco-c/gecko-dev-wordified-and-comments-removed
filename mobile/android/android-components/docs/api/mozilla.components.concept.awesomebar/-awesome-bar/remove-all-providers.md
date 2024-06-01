@@ -143,7 +143,7 @@ AwesomeBar
 .
 kt
 #
-L34
+L35
 )
 Removes
 all

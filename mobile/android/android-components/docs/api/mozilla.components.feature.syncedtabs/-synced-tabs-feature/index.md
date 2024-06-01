@@ -129,7 +129,7 @@ SyncedTabsFeature
 .
 kt
 #
-L37
+L38
 )
 Feature
 implementation
@@ -472,6 +472,12 @@ md
 |
 SyncedTabsFeature
 (
+context
+:
+<
+ERROR
+CLASS
+>
 storage
 :
 [
@@ -752,6 +758,7 @@ md
 =
 DefaultPresenter
 (
+context
 controller
 accountManager
 view

@@ -70,6 +70,12 @@ gt
 ;
 SyncedTabsFeature
 (
+context
+:
+<
+ERROR
+CLASS
+>
 storage
 :
 [
@@ -350,6 +356,7 @@ md
 =
 DefaultPresenter
 (
+context
 controller
 accountManager
 view
