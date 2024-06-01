@@ -418,7 +418,13 @@ Experiment
 "
 )
 )
+val
+nimbus
+=
 Nimbus
+(
+)
+nimbus
 .
 recordExperimentTelemetry
 (
