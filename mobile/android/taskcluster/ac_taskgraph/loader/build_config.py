@@ -813,7 +813,12 @@ add
 component
 )
     
-if
+should_take_out_tasks
+=
+all
+(
+(
+        
 params
 [
 "
@@ -844,7 +849,7 @@ github
 push
 "
 )
-and
+        
 params
 [
 "
@@ -865,6 +870,24 @@ heads
 main
 "
 )
+        
+params
+[
+"
+target_tasks_method
+"
+]
+=
+=
+"
+default
+"
+    
+)
+)
+    
+if
+should_take_out_tasks
 :
         
 logger
