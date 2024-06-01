@@ -81,7 +81,7 @@ kotlin
 .
 3
 .
-61
+50
 "
 const
 val
@@ -273,9 +273,9 @@ mozilla_appservices
 "
 0
 .
-42
+44
 .
-2
+0
 "
 const
 val

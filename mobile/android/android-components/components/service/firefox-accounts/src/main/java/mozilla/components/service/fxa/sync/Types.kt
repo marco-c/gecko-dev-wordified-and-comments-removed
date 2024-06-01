@@ -244,6 +244,14 @@ passwords
 SyncEngine
 .
 Passwords
+"
+tabs
+"
+-
+>
+SyncEngine
+.
+Tabs
 /
 /
 This
