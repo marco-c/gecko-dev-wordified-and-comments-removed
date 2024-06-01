@@ -131,6 +131,12 @@ kotlinx
 .
 coroutines
 .
+launch
+import
+kotlinx
+.
+coroutines
+.
 runBlocking
 import
 kotlinx
@@ -8922,6 +8928,13 @@ pinnedSite
 >
 try
 {
+CoroutineScope
+(
+coroutineContext
+)
+.
+launch
+{
 pinnedSitesStorage
 .
 addPinnedSite
@@ -8939,6 +8952,7 @@ url
 !
 !
 )
+}
 }
 catch
 (
