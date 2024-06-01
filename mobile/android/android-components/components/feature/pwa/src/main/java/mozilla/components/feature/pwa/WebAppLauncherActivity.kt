@@ -345,7 +345,7 @@ SystemClock
 elapsedRealtimeNanos
 (
 )
-emitForegroundTimingFact
+emitBackgroundTimingFact
 (
 backgroundEndTime
 -

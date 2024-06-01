@@ -159,10 +159,10 @@ homescreen_icon_tap
 "
 const
 val
-DURATION_IN_BACKGROUND
+BACKGROUND_TIMING
 =
 "
-duration_in_background
+background_timing
 "
 }
 /
@@ -261,7 +261,7 @@ MagicNumber
 )
 internal
 fun
-emitForegroundTimingFact
+emitBackgroundTimingFact
 (
 timingNs
 :
@@ -277,7 +277,7 @@ ProgressiveWebAppFacts
 .
 Items
 .
-DURATION_IN_BACKGROUND
+BACKGROUND_TIMING
 metadata
 =
 mapOf
