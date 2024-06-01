@@ -191,6 +191,10 @@ throwable
 crashReporter
 .
 crashBreadcrumbs
+.
+toSortedArrayList
+(
+)
 )
 )
 defaultExceptionHandler
