@@ -425,11 +425,7 @@ theme
 "
 style
 /
-Theme
-.
-AppCompat
-.
-NoActionBar
+SettingsTheme
 "
 android
 :
