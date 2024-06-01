@@ -142,7 +142,10 @@ private
 val
 historyStorage
 :
+Lazy
+<
 HistoryStorage
+>
 )
 :
 HistoryTrackingDelegate
@@ -197,6 +200,8 @@ uri
 {
 historyStorage
 .
+value
+.
 recordVisit
 (
 uri
@@ -240,6 +245,8 @@ uri
 {
 historyStorage
 .
+value
+.
 recordObservation
 (
 uri
@@ -273,6 +280,8 @@ Boolean
 return
 historyStorage
 .
+value
+.
 getVisited
 (
 uris
@@ -292,6 +301,8 @@ String
 {
 return
 historyStorage
+.
+value
 .
 getVisited
 (

@@ -441,7 +441,7 @@ SecureAbove22Preferences
 private
 val
 loginsStorage
-by
+=
 lazy
 {
 SyncableLoginsStorage
@@ -1110,6 +1110,8 @@ val
 syncedLogins
 =
 loginsStorage
+.
+value
 .
 list
 (

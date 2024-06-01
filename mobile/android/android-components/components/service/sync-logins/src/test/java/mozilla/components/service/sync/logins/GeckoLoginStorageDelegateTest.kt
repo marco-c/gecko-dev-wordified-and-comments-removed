@@ -247,7 +247,10 @@ delegate
 =
 GeckoLoginStorageDelegate
 (
+lazy
+{
 loginsStorage
+}
 {
 false
 }
@@ -331,7 +334,10 @@ delegate
 =
 GeckoLoginStorageDelegate
 (
+lazy
+{
 loginsStorage
+}
 {
 true
 }

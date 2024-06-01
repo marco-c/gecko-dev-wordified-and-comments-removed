@@ -561,7 +561,7 @@ CoroutineScope
 private
 val
 historyStorage
-by
+=
 lazy
 {
 PlacesHistoryStorage
@@ -572,7 +572,7 @@ this
 private
 val
 bookmarksStorage
-by
+=
 lazy
 {
 PlacesBookmarksStorage
@@ -635,7 +635,7 @@ it
 private
 val
 passwordsStorage
-by
+=
 lazy
 {
 SyncableLoginsStorage
@@ -2463,6 +2463,8 @@ visitedCount
 =
 historyStorage
 .
+value
+.
 getVisited
 (
 )
@@ -2525,6 +2527,8 @@ val
 bookmarksRoot
 =
 bookmarksStorage
+.
+value
 .
 getTree
 (

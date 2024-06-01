@@ -515,7 +515,10 @@ private
 val
 loginStorage
 :
+Lazy
+<
 LoginsStorage
+>
 private
 val
 isAutofillEnabled
@@ -612,6 +615,8 @@ launch
 {
 loginStorage
 .
+value
+.
 touch
 (
 guid
@@ -656,6 +661,8 @@ async
 {
 loginStorage
 .
+value
+.
 getByBaseDomain
 (
 domain
@@ -688,6 +695,8 @@ let
 {
 loginStorage
 .
+value
+.
 get
 (
 it
@@ -714,6 +723,8 @@ existingLogin
 let
 {
 loginStorage
+.
+value
 .
 update
 (
@@ -754,6 +765,8 @@ updating
 its
 record
 loginStorage
+.
+value
 .
 add
 (

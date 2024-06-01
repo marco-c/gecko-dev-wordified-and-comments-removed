@@ -192,7 +192,10 @@ private
 val
 storage
 :
+Lazy
+<
 LoginsStorage
+>
 private
 val
 scope
@@ -311,6 +314,8 @@ throw
 DUPLICATE_LOGIN
 .
 storage
+.
+value
 .
 ensureValid
 (

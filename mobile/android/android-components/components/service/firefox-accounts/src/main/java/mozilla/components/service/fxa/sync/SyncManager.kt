@@ -518,7 +518,10 @@ stores
 MutableMap
 <
 String
+Lazy
+<
 SyncableStore
+>
 >
 =
 mutableMapOf
@@ -567,7 +570,10 @@ storePair
 Pair
 <
 SyncEngine
+Lazy
+<
 SyncableStore
+>
 >
 )
 {
@@ -601,6 +607,9 @@ stores
 [
 name
 ]
+?
+.
+value
 }
 }
 /
