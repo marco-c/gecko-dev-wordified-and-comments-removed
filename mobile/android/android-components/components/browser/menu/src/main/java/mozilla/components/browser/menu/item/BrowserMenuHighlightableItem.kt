@@ -1105,8 +1105,11 @@ endImageResource
 =
 NO_ID
 )
+{
 null
+}
 else
+{
 DrawableMenuIcon
 (
 context
@@ -1114,6 +1117,7 @@ highlight
 .
 endImageResource
 )
+}
 effect
 =
 HighPriorityHighlightEffect

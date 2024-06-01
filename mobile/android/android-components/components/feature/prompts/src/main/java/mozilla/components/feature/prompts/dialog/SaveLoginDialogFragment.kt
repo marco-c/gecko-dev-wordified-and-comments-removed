@@ -2048,6 +2048,7 @@ isEmpty
 (
 )
 )
+{
 context
 ?
 .
@@ -2059,7 +2060,9 @@ string
 .
 mozac_feature_prompt_login_add_username_headline
 )
+}
 else
+{
 context
 ?
 .
@@ -2071,6 +2074,7 @@ string
 .
 mozac_feature_prompt_login_update_headline
 )
+}
 negativeText
 =
 context

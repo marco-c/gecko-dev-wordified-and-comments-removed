@@ -604,6 +604,12 @@ implementation
 .
 *
 /
+Suppress
+(
+"
+LargeClass
+"
+)
 internal
 class
 GeckoPromptDelegate

@@ -651,8 +651,13 @@ the
 constellation
 .
 *
-*
-TODO
+/
+/
+/
+N
+.
+B
+.
 :
 currentDevice
 should
@@ -660,7 +665,8 @@ not
 be
 nullable
 .
-*
+/
+/
 See
 https
 :
@@ -681,8 +687,6 @@ components
 issues
 /
 8768
-*
-/
 data
 class
 ConstellationState

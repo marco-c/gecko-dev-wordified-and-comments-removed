@@ -188,7 +188,7 @@ active
 true
 threshold
 :
-10
+18
 ignoreSingleWhenExpression
 :
 true

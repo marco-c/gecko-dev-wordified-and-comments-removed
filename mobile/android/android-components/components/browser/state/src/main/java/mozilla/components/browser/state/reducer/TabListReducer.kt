@@ -163,6 +163,12 @@ tabs
 .
 *
 /
+Suppress
+(
+"
+LongMethod
+"
+)
 fun
 reduce
 (
