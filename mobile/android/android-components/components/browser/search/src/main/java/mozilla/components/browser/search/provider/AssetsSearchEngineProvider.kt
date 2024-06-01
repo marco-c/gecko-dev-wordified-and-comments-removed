@@ -488,7 +488,7 @@ name
 >
 searchEngines
 .
-find
+filter
 {
 it
 .
@@ -498,6 +498,10 @@ name
 name
 }
 }
+.
+flatten
+(
+)
 val
 unorderedRest
 =
