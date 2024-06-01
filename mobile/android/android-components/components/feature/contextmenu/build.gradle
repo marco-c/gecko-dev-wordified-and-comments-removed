@@ -248,6 +248,10 @@ implementation
 Dependencies
 .
 google_material
+implementation
+Dependencies
+.
+androidx_constraintlayout
 testImplementation
 Dependencies
 .
