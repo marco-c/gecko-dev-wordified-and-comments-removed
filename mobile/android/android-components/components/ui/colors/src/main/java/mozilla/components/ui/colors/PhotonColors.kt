@@ -1014,6 +1014,13 @@ Color
 0xFF42414D
 )
 val
+DarkGrey30A96
+=
+Color
+(
+0xF542414D
+)
+val
 DarkGrey40
 =
 Color
@@ -1061,6 +1068,13 @@ DarkGrey90A40
 Color
 (
 0x6615141A
+)
+val
+DarkGrey90A96
+=
+Color
+(
+0xF515141A
 )
 /
 /
