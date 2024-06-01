@@ -107,16 +107,6 @@ concept
 .
 storage
 .
-KeyRecoveryHandler
-import
-mozilla
-.
-components
-.
-concept
-.
-storage
-.
 ManagedKey
 import
 mozilla
@@ -298,7 +288,7 @@ key
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertEquals
@@ -325,7 +315,7 @@ key2
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertNull
@@ -380,7 +370,7 @@ key
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertEquals
@@ -417,7 +407,7 @@ key2
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertEquals
@@ -486,7 +476,7 @@ key
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertEquals
@@ -529,7 +519,7 @@ key2
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertEquals
@@ -599,7 +589,7 @@ key
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertEquals
@@ -697,7 +687,7 @@ key2
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertEquals
@@ -761,7 +751,7 @@ key
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 val
@@ -981,7 +971,7 @@ goodKey
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 val

@@ -254,6 +254,7 @@ false
 CreditCardsAddressesStorageDelegate
 {
 override
+suspend
 fun
 decrypt
 (
@@ -284,7 +285,7 @@ key
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 return

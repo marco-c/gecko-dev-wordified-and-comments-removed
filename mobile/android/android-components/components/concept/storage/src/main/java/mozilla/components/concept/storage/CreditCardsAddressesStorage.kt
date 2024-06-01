@@ -2084,6 +2084,7 @@ number
 .
 *
 /
+suspend
 fun
 decrypt
 (

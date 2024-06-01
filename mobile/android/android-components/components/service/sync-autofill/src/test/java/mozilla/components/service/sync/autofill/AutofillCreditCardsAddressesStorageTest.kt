@@ -405,7 +405,7 @@ storage
 .
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 creditCard
@@ -771,7 +771,7 @@ storage
 .
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 val
@@ -1002,7 +1002,7 @@ storage
 .
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 assertEquals
