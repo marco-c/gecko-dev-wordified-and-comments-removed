@@ -197,7 +197,7 @@ RecentAppsStorage
 .
 kt
 #
-L52
+L45
 )
 Get
 a
