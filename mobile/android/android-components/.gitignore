@@ -50,6 +50,11 @@ ci
 /
 build
 /
+.
+build
+-
+cache
+/
 #
 Local
 configuration
