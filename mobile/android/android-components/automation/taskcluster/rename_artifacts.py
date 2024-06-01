@@ -4,13 +4,15 @@
 Script
 to
 rename
-snapshots
 artifacts
 to
 a
 runtime
 centralized
 BUILDID
+-
+based
+version
 "
 "
 "
