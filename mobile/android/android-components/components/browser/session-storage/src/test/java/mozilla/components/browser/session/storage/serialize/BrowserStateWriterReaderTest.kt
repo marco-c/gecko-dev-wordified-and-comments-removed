@@ -707,6 +707,7 @@ fun
 Read
 tab
 with
+deprecated
 session
 source
 (
@@ -830,7 +831,7 @@ toString
 )
 )
 )
-writeTabWithSource
+writeTabWithDeprecatedSource
 (
 tab
 file
@@ -846,8 +847,7 @@ didn
 '
 t
 have
-an
-external
+a
 source
 persisted
 we
@@ -903,7 +903,7 @@ Source
 .
 Internal
 .
-Restored
+None
 restoredTab
 .
 source
@@ -2293,7 +2293,7 @@ engine
 }
 private
 fun
-writeTabWithSource
+writeTabWithDeprecatedSource
 (
 tab
 :
@@ -2307,7 +2307,7 @@ file
 .
 streamJSON
 {
-tabWithSource
+tabWithDeprecatedSource
 (
 tab
 )
@@ -2317,7 +2317,7 @@ private
 fun
 JsonWriter
 .
-tabWithSource
+tabWithDeprecatedSource
 (
 tab
 :
@@ -2383,7 +2383,7 @@ name
 (
 Keys
 .
-SESSION_SOURCE_KEY
+SESSION_DEPRECATED_SOURCE_KEY
 )
 value
 (

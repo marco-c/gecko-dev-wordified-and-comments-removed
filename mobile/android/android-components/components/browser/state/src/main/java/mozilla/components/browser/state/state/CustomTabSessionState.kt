@@ -309,6 +309,13 @@ Source
 Internal
 .
 CustomTab
+override
+val
+restored
+:
+Boolean
+=
+false
 )
 :
 SessionState

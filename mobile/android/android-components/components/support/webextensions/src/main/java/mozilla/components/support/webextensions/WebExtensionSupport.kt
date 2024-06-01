@@ -2590,16 +2590,7 @@ filter
 {
 it
 .
-source
-=
-=
-SessionState
-.
-Source
-.
-Internal
-.
-Restored
+restored
 }
 .
 size

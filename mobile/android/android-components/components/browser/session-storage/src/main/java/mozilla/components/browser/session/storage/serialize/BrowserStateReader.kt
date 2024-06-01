@@ -1209,7 +1209,7 @@ String
 =
 null
 var
-externalSourceId
+sourceId
 :
 Int
 ?
@@ -1415,10 +1415,10 @@ nextLong
 )
 Keys
 .
-SESSION_EXTERNAL_SOURCE_ID
+SESSION_SOURCE_ID
 -
 >
-externalSourceId
+sourceId
 =
 nextInt
 (
@@ -1445,7 +1445,7 @@ nextIntOrNull
 )
 Keys
 .
-SESSION_SOURCE_KEY
+SESSION_DEPRECATED_SOURCE_KEY
 -
 >
 nextString
@@ -1596,7 +1596,7 @@ Source
 .
 restore
 (
-externalSourceId
+sourceId
 externalSourcePackageId
 externalSourceCategory
 )

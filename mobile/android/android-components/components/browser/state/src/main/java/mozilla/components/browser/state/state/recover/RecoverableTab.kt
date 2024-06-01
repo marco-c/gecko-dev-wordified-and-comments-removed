@@ -478,7 +478,7 @@ Source
 .
 Internal
 .
-Restored
+None
 )
 /
 *
@@ -616,6 +616,9 @@ historyMetadata
 source
 =
 source
+restored
+=
+true
 )
 /
 *
@@ -634,7 +637,7 @@ a
 List
 of
 [
-TabSessionState
+RecoverableTab
 ]
 s
 .
