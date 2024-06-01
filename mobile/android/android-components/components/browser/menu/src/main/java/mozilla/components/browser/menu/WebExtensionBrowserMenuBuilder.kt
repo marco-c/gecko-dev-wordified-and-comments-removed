@@ -488,7 +488,7 @@ R
 .
 drawable
 .
-mozac_ic_addons_extensions
+mozac_ic_extensions
 iconTintColorResource
 =
 webExtIconTintColorResource
@@ -580,7 +580,7 @@ R
 .
 drawable
 .
-mozac_ic_addons_extensions
+mozac_ic_extensions
 iconTintColorResource
 =
 webExtIconTintColorResource
@@ -614,7 +614,7 @@ R
 .
 drawable
 .
-mozac_ic_addons_extensions
+mozac_ic_extensions
 iconTintColorResource
 =
 webExtIconTintColorResource
