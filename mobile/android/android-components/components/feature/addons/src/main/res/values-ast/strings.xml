@@ -2244,7 +2244,7 @@ name
 mozac_feature_addons_remove
 "
 >
-Desaniciar
+Quitar
 <
 /
 string
@@ -3593,7 +3593,9 @@ name
 mozac_feature_addons_failed_to_query_add_ons
 "
 >
-Fallu
+Hebo
+un
+fallu
 al
 solicitar
 los
@@ -3763,7 +3765,9 @@ name
 mozac_feature_addons_failed_to_install
 "
 >
-Fallu
+Hebo
+un
+fallu
 al
 instalar
 %
@@ -3855,7 +3859,9 @@ name
 mozac_feature_addons_failed_to_enable
 "
 >
-Fallu
+Hebo
+un
+fallu
 al
 activar
 %
@@ -3947,7 +3953,9 @@ name
 mozac_feature_addons_failed_to_disable
 "
 >
-Fallu
+Hebo
+un
+fallu
 al
 desactivar
 %
@@ -4039,7 +4047,9 @@ name
 mozac_feature_addons_failed_to_uninstall
 "
 >
-Fallu
+Hebo
+un
+fallu
 al
 desinstalar
 %
@@ -4094,7 +4104,7 @@ UnusedResources
 %
 1
 s
-desanici
+quit
 se
 con
 situ
@@ -4145,9 +4155,11 @@ ignore
 UnusedResources
 "
 >
-Fallu
+Hebo
+un
+fallu
 al
-desaniciar
+quitar
 %
 1
 s
