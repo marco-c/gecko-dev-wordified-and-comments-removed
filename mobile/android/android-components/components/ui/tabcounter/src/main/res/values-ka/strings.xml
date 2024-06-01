@@ -49,6 +49,8 @@ mozac_tab_counter_open_tab_tray_single
 "
 >
 1
+.
+.
 <
 /
 string
@@ -84,6 +86,8 @@ mozac_tab_counter_open_tab_tray_plural
 %
 1
 s
+.
+.
 <
 /
 string
@@ -198,6 +202,7 @@ name
 mozac_tab_counter_content_description
 "
 >
+.
 <
 /
 string
