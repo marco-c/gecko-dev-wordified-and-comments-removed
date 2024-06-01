@@ -483,6 +483,9 @@ SecureWindowFeature
 (
 window
 store
+clearFlagOnStop
+=
+true
 )
 feature
 .
