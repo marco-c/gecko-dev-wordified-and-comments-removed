@@ -454,6 +454,9 @@ action
 WebExtensionToolbarAction
 (
 browserAction
+iconJobDispatcher
+=
+testDispatcher
 )
 {
 }
@@ -614,6 +617,9 @@ Padding
 3
 4
 )
+iconJobDispatcher
+=
+testDispatcher
 )
 {
 listenerWasClicked
@@ -830,6 +836,9 @@ Padding
 3
 4
 )
+iconJobDispatcher
+=
+testDispatcher
 )
 {
 }
