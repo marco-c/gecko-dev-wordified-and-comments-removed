@@ -118,7 +118,7 @@ FennecMigrator
 .
 kt
 #
-L58
+L59
 )
 Migrates
 FxA
