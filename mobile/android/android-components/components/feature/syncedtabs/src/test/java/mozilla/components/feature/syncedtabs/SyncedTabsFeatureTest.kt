@@ -63,7 +63,7 @@ components
 .
 feature
 .
-remotetabs
+syncedtabs
 import
 androidx
 .
@@ -335,7 +335,7 @@ AndroidJUnit4
 class
 )
 class
-RemoteTabsFeatureTest
+SyncedTabsFeatureTest
 {
 private
 lateinit
@@ -476,7 +476,7 @@ runBlocking
 val
 feature
 =
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 store
@@ -624,7 +624,7 @@ runBlocking
 val
 feature
 =
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 store
@@ -784,7 +784,7 @@ garbage
 }
 Test
 fun
-getRemoteTabs
+getSyncedTabs
 matches
 tabs
 with
@@ -800,7 +800,7 @@ feature
 =
 spy
 (
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 store
@@ -1042,14 +1042,14 @@ tabsClient2
 )
 feature
 .
-getRemoteTabs
+getSyncedTabs
 (
 )
 )
 }
 Test
 fun
-getRemoteTabs
+getSyncedTabs
 returns
 empty
 list
@@ -1069,7 +1069,7 @@ feature
 =
 spy
 (
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 store
@@ -1103,7 +1103,7 @@ Tab
 )
 feature
 .
-getRemoteTabs
+getSyncedTabs
 (
 )
 )
@@ -1132,7 +1132,7 @@ feature
 =
 spy
 (
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 store
@@ -1288,7 +1288,7 @@ feature
 =
 spy
 (
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 store
@@ -1378,7 +1378,7 @@ feature
 =
 spy
 (
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 store

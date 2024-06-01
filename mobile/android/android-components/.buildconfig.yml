@@ -882,7 +882,7 @@ publish
 true
 feature
 -
-remotetabs
+syncedtabs
 :
 path
 :
@@ -890,7 +890,7 @@ components
 /
 feature
 /
-remotetabs
+syncedtabs
 description
 :
 '
@@ -900,10 +900,9 @@ provides
 access
 to
 other
-device
+devices
 '
 '
-s
 tabs
 in
 the
@@ -990,7 +989,10 @@ hotfixes
 for
 websites
 from
-Mozillas
+Mozilla
+'
+'
+s
 Web
 Compatibility
 team

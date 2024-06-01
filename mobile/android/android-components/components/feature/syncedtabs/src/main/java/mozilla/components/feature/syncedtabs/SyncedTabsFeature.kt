@@ -63,7 +63,7 @@ components
 .
 feature
 .
-remotetabs
+syncedtabs
 import
 androidx
 .
@@ -247,7 +247,7 @@ RemoteTabsStorage
 /
 ExperimentalCoroutinesApi
 class
-RemoteTabsFeature
+SyncedTabsFeature
 (
 private
 val
@@ -504,7 +504,7 @@ tabs
 /
 suspend
 fun
-getRemoteTabs
+getSyncedTabs
 (
 )
 :

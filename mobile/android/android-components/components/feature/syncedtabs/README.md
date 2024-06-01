@@ -20,7 +20,7 @@ md
 >
 Feature
 >
-Remote
+Synced
 Tabs
 Feature
 component
@@ -108,7 +108,7 @@ components
 :
 feature
 -
-remotetabs
+syncedtabs
 :
 {
 latest
@@ -126,7 +126,7 @@ make
 use
 of
 the
-remote
+synced
 tab
 feature
 here
@@ -194,9 +194,9 @@ tabs
 changes
 .
 val
-remoteTabsFeature
+syncedTabsFeature
 =
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 =
@@ -232,9 +232,9 @@ Tab
 >
 >
 =
-remoteTabsFeature
+syncedTabsFeature
 .
-getRemoteTabs
+getSyncedTabs
 (
 )
 #
