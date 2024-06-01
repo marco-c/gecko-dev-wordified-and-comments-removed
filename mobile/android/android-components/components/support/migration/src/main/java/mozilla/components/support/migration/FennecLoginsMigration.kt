@@ -1704,7 +1704,6 @@ Suppress
 LongMethod
 "
 )
-VisibleForTesting
 internal
 fun
 getLogins
