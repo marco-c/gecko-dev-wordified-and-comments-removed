@@ -250,6 +250,7 @@ readSnapshotItem
 (
 engine
 restoreSessionId
+false
 )
 ?
 .

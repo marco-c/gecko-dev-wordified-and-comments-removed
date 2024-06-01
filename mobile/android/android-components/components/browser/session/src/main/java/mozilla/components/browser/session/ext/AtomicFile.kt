@@ -307,6 +307,13 @@ Engine
 restoreSessionId
 :
 Boolean
+=
+true
+restoreParentId
+:
+Boolean
+=
+true
 serializer
 :
 SnapshotSerializer
@@ -314,6 +321,7 @@ SnapshotSerializer
 SnapshotSerializer
 (
 restoreSessionId
+restoreParentId
 )
 )
 :

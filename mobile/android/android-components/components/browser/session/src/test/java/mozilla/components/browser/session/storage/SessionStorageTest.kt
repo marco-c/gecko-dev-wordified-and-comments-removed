@@ -2685,6 +2685,9 @@ json
 restoreId
 =
 true
+restoreParentId
+=
+true
 )
 .
 source
@@ -2747,6 +2750,9 @@ deserializeSession
 (
 jsonInvalid
 restoreId
+=
+true
+restoreParentId
 =
 true
 )
