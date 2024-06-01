@@ -86,8 +86,9 @@ libLicenseUrl
 properties
 .
 libLicenseUrl
+static
 def
-getTimestamp
+getLocalPublicationTimestamp
 (
 )
 {
@@ -230,7 +231,7 @@ local
 local
 '
 +
-getTimestamp
+getLocalPublicationTimestamp
 (
 )
 :
