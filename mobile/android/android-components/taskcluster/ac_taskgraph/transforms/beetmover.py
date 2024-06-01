@@ -410,7 +410,6 @@ type
 ]
             
 nightly_version
-)
         
 )
         
