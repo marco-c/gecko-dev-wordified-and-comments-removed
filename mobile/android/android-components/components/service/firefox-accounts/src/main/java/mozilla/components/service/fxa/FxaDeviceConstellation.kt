@@ -75,6 +75,12 @@ androidx
 .
 annotation
 .
+MainThread
+import
+androidx
+.
+annotation
+.
 VisibleForTesting
 import
 androidx
@@ -787,6 +793,7 @@ into
 )
 }
 }
+MainThread
 override
 fun
 registerDeviceObserver

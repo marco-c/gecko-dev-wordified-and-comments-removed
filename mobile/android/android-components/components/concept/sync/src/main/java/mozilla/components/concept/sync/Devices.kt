@@ -73,6 +73,12 @@ Context
 import
 androidx
 .
+annotation
+.
+MainThread
+import
+androidx
+.
 lifecycle
 .
 LifecycleOwner
@@ -336,6 +342,7 @@ devices
 .
 *
 /
+MainThread
 fun
 registerDeviceObserver
 (
