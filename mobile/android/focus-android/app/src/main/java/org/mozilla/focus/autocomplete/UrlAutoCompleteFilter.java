@@ -48,17 +48,6 @@ focus
 .
 widget
 .
-AutocompleteHandler
-;
-import
-org
-.
-mozilla
-.
-focus
-.
-widget
-.
 InlineAutocompleteEditText
 ;
 import
@@ -131,8 +120,8 @@ onFilter
 (
 String
 searchText
-AutocompleteHandler
-handler
+InlineAutocompleteEditText
+view
 )
 {
 if
@@ -143,7 +132,7 @@ domains
 null
 |
 |
-handler
+view
 =
 =
 null
@@ -170,7 +159,7 @@ searchText
 )
 )
 {
-handler
+view
 .
 onAutocomplete
 (

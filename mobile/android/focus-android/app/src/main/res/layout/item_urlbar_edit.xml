@@ -256,8 +256,9 @@ android
 textColorHighlight
 =
 "
-#
-ffff0000
+color
+/
+colorAutocompleteHighlight
 "
 android
 :
