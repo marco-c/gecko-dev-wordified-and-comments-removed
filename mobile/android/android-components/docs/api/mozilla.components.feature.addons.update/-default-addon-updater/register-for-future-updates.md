@@ -179,7 +179,7 @@ AddonUpdater
 .
 kt
 #
-L135
+L148
 )
 Overrides
 [
@@ -231,3 +231,16 @@ updates
 .
 md
 )
+.
+If
+an
+add
+-
+on
+is
+already
+registered
+nothing
+will
+happen
+.
