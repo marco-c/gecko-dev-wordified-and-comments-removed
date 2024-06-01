@@ -132,7 +132,7 @@ BrowserAction
 .
 kt
 #
-L487
+L488
 )
 Clears
 the

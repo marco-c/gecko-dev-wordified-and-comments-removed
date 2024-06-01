@@ -5227,13 +5227,6 @@ components
 .
 feature
 .
-containers
-mozilla
-.
-components
-.
-feature
-.
 contextmenu
 mozilla
 .

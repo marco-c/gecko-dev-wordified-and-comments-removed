@@ -191,13 +191,13 @@ BrowserState
 .
 kt
 #
-L26
+L28
 )
 A
 map
 of
 extension
-ids
+IDs
 and
 web
 extensions
@@ -260,7 +260,7 @@ A
 map
 of
 extension
-ids
+IDs
 and
 web
 extensions
