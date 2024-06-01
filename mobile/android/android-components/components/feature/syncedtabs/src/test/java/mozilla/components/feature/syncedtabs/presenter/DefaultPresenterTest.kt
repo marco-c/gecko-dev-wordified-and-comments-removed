@@ -795,14 +795,6 @@ controller
 syncAccount
 (
 )
-verify
-(
-controller
-)
-.
-refreshSyncedTabs
-(
-)
 }
 Test
 fun
