@@ -52,7 +52,7 @@ md
 )
 /
 [
-MigrateGeckoException
+MigrateFxaException
 ]
 (
 .
@@ -62,9 +62,9 @@ index
 md
 )
 #
-MigrateGeckoException
+MigrateFxaException
 class
-MigrateGeckoException
+MigrateFxaException
 :
 [
 FennecMigratorException
@@ -127,14 +127,13 @@ FennecMigrator
 .
 kt
 #
-L172
+L190
 )
 Unexpected
 exception
 while
 migrating
-gecko
-profile
+FxA
 .
 #
 #
@@ -148,7 +147,6 @@ which
 caused
 the
 problem
-.
 #
 #
 #
@@ -185,7 +183,7 @@ init
 md
 )
 |
-MigrateGeckoException
+MigrateFxaException
 (
 cause
 :
@@ -226,7 +224,6 @@ Unexpected
 exception
 while
 migrating
-gecko
-profile
+FxA
 .
 |

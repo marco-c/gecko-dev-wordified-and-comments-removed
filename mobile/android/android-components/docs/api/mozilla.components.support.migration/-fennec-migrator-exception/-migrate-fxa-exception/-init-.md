@@ -52,7 +52,7 @@ md
 )
 /
 [
-MigrateHistoryException
+MigrateFxaException
 ]
 (
 index
@@ -86,7 +86,7 @@ init
 &
 gt
 ;
-MigrateHistoryException
+MigrateFxaException
 (
 cause
 :
@@ -124,7 +124,7 @@ Unexpected
 exception
 while
 migrating
-history
+FxA
 .
 #
 #
@@ -138,4 +138,3 @@ which
 caused
 the
 problem
-.

@@ -52,7 +52,7 @@ md
 )
 /
 [
-MigrateHistoryException
+HighLevel
 ]
 (
 index
@@ -86,7 +86,7 @@ init
 &
 gt
 ;
-MigrateHistoryException
+HighLevel
 (
 cause
 :
@@ -122,9 +122,11 @@ html
 )
 Unexpected
 exception
-while
-migrating
-history
+during
+high
+level
+migration
+processing
 .
 #
 #

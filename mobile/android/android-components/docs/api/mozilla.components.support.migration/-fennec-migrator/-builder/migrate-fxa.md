@@ -241,7 +241,7 @@ FennecMigrator
 .
 kt
 #
-L372
+L384
 )
 Enable
 FxA
