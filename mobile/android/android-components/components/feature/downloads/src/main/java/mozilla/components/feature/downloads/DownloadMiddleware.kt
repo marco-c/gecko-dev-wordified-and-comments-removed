@@ -797,7 +797,7 @@ debug
 (
 "
 Download
-restarted
+restored
 from
 the
 storage
