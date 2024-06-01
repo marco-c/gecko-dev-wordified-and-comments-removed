@@ -322,8 +322,6 @@ listOf
 AccountEvent
 .
 ProfileUpdated
-(
-)
 AccountEvent
 .
 DeviceCommandIncoming

@@ -453,13 +453,11 @@ DeviceCommandIncoming
 )
 .
 map
-(
 {
 it
 .
 command
 }
-)
 .
 filterIsInstance
 <

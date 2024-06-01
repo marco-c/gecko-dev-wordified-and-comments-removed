@@ -560,7 +560,7 @@ let
 return
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 device
 .
@@ -574,10 +574,6 @@ tab
 .
 url
 )
-)
-.
-await
-(
 )
 }
 }
@@ -857,7 +853,7 @@ tab
 !
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 device
 .
@@ -871,10 +867,6 @@ tab
 .
 url
 )
-)
-.
-await
-(
 )
 }
 .

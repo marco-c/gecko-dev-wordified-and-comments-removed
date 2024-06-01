@@ -519,6 +519,10 @@ testImplementation
 Dependencies
 .
 mozilla_full_megazord_forUnitTests
+testImplementation
+Dependencies
+.
+kotlin_reflect
 }
 apply
 from

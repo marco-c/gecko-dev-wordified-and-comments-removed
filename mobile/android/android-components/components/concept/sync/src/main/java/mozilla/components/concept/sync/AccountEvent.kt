@@ -138,6 +138,7 @@ another
 device
 *
 /
+data
 class
 DeviceCommandIncoming
 (
@@ -162,7 +163,7 @@ was
 updated
 *
 /
-class
+object
 ProfileUpdated
 :
 AccountEvent
@@ -185,7 +186,7 @@ password
 changed
 *
 /
-class
+object
 AccountAuthStateChanged
 :
 AccountEvent
@@ -201,7 +202,7 @@ was
 destroyed
 *
 /
-class
+object
 AccountDestroyed
 :
 AccountEvent
@@ -218,6 +219,7 @@ the
 account
 *
 /
+data
 class
 DeviceConnected
 (
@@ -246,6 +248,7 @@ the
 account
 *
 /
+data
 class
 DeviceDisconnected
 (

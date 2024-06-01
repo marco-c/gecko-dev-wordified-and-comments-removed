@@ -452,7 +452,7 @@ if
 (
 syncConfig
 .
-syncPeriodInMinutes
+periodicSyncConfig
 =
 =
 null
@@ -481,14 +481,12 @@ info
 Periodic
 syncing
 enabled
-at
-a
+:
 {
 syncConfig
 .
-syncPeriodInMinutes
+periodicSyncConfig
 }
-interval
 "
 )
 }
@@ -778,6 +776,7 @@ dispatcher
 dispatcher
 }
 }
+internal
 class
 WorkManagerSyncDispatcher
 (
@@ -1124,6 +1123,9 @@ close
 (
 )
 {
+unregisterObservers
+(
+)
 stopPeriodicSync
 (
 )
@@ -1159,6 +1161,9 @@ unit
 :
 TimeUnit
 period
+:
+Long
+initialDelay
 :
 Long
 )
@@ -1232,6 +1237,7 @@ periodicSyncWorkRequest
 (
 unit
 period
+initialDelay
 )
 )
 }
@@ -1313,6 +1319,9 @@ TimeUnit
 period
 :
 Long
+initialDelay
+:
+Long
 )
 :
 PeriodicWorkRequest
@@ -1357,6 +1366,8 @@ WorkManagerSyncWorker
 >
 (
 period
+unit
+initialDelay
 unit
 )
 .
@@ -1580,6 +1591,7 @@ build
 )
 }
 }
+internal
 class
 WorkManagerSyncWorker
 (
@@ -3575,14 +3587,14 @@ const
 val
 SYNC_STAGGER_BUFFER_MS
 =
-10
+5
 *
 60
 *
 1000L
 /
 /
-10
+5
 minutes
 .
 private

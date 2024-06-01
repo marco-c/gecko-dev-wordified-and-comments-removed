@@ -273,12 +273,6 @@ lang
 .
 IllegalStateException
 import
-kotlinx
-.
-coroutines
-.
-CompletableDeferred
-import
 mozilla
 .
 appservices
@@ -355,7 +349,7 @@ fxa
 .
 manager
 .
-SignInWithShareableAccountResult
+MigrationResult
 import
 mozilla
 .
@@ -4194,7 +4188,7 @@ when
 (
 accountManager
 .
-signInWithShareableAccountAsync
+migrateFromAccount
 (
 any
 (
@@ -4208,12 +4202,9 @@ true
 .
 thenReturn
 (
-CompletableDeferred
-(
-SignInWithShareableAccountResult
+MigrationResult
 .
 Success
-)
 )
 with
 (
@@ -4277,7 +4268,7 @@ verify
 accountManager
 )
 .
-signInWithShareableAccountAsync
+migrateFromAccount
 (
 captor
 .
@@ -4525,7 +4516,7 @@ when
 (
 accountManager
 .
-signInWithShareableAccountAsync
+migrateFromAccount
 (
 any
 (
@@ -4539,12 +4530,9 @@ true
 .
 thenReturn
 (
-CompletableDeferred
-(
-SignInWithShareableAccountResult
+MigrationResult
 .
 WillRetry
-)
 )
 with
 (
@@ -4608,7 +4596,7 @@ verify
 accountManager
 )
 .
-signInWithShareableAccountAsync
+migrateFromAccount
 (
 captor
 .
@@ -4886,7 +4874,7 @@ when
 (
 accountManager
 .
-signInWithShareableAccountAsync
+migrateFromAccount
 (
 any
 (
@@ -4900,12 +4888,9 @@ true
 .
 thenReturn
 (
-CompletableDeferred
-(
-SignInWithShareableAccountResult
+MigrationResult
 .
 Failure
-)
 )
 with
 (
@@ -4969,7 +4954,7 @@ verify
 accountManager
 )
 .
-signInWithShareableAccountAsync
+migrateFromAccount
 (
 captor
 .

@@ -139,6 +139,16 @@ mozilla
 .
 components
 .
+concept
+.
+sync
+.
+MigratingAccountInfo
+import
+mozilla
+.
+components
+.
 service
 .
 fxa
@@ -1376,7 +1386,7 @@ mozilla
 org
 "
 packageNameRelease
-ShareableAuthInfo
+MigratingAccountInfo
 (
 "
 sessionToken
@@ -1425,7 +1435,7 @@ mozilla
 org
 "
 packageNameBeta
-ShareableAuthInfo
+MigratingAccountInfo
 (
 "
 sessionToken

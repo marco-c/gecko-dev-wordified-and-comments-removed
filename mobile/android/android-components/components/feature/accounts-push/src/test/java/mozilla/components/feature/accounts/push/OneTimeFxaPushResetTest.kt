@@ -68,6 +68,12 @@ accounts
 .
 push
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -465,6 +471,8 @@ is
 updated
 (
 )
+=
+runBlocking
 {
 preference
 (
@@ -638,7 +646,7 @@ verify
 constellation
 )
 .
-setDevicePushSubscriptionAsync
+setDevicePushSubscription
 (
 any
 (

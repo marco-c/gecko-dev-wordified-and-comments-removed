@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-CompletableDeferred
-import
-kotlinx
-.
-coroutines
-.
 ExperimentalCoroutinesApi
 import
 kotlinx
@@ -395,7 +389,7 @@ when
 (
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -408,10 +402,7 @@ any
 .
 thenReturn
 (
-CompletableDeferred
-(
 true
-)
 )
 useCases
 .
@@ -441,7 +432,7 @@ verify
 constellation
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -518,7 +509,7 @@ when
 (
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -531,10 +522,7 @@ any
 .
 thenReturn
 (
-CompletableDeferred
-(
 true
-)
 )
 useCases
 .
@@ -558,7 +546,7 @@ times
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -639,7 +627,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -679,7 +667,7 @@ when
 (
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -692,10 +680,7 @@ any
 .
 thenReturn
 (
-CompletableDeferred
-(
 false
-)
 )
 useCases
 .
@@ -718,7 +703,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -800,7 +785,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -827,7 +812,7 @@ when
 (
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -840,10 +825,7 @@ any
 .
 thenReturn
 (
-CompletableDeferred
-(
 false
-)
 )
 useCases
 .
@@ -862,7 +844,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -885,7 +867,7 @@ verify
 constellation
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -969,7 +951,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -996,7 +978,7 @@ when
 (
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1009,10 +991,7 @@ any
 .
 thenReturn
 (
-CompletableDeferred
-(
 false
-)
 )
 useCases
 .
@@ -1034,7 +1013,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1060,7 +1039,7 @@ verify
 constellation
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1128,7 +1107,7 @@ when
 (
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1141,10 +1120,7 @@ any
 .
 thenReturn
 (
-CompletableDeferred
-(
 false
-)
 )
 val
 tab
@@ -1179,7 +1155,7 @@ times
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1247,7 +1223,7 @@ when
 (
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1260,10 +1236,7 @@ any
 .
 thenReturn
 (
-CompletableDeferred
-(
 false
-)
 )
 val
 tab
@@ -1320,7 +1293,7 @@ times
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1401,7 +1374,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1465,7 +1438,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1565,7 +1538,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1633,7 +1606,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 eq
 (
@@ -1653,7 +1626,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 eq
 (
@@ -1740,7 +1713,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1780,7 +1753,7 @@ when
 (
 constellation
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
@@ -1793,18 +1766,12 @@ any
 .
 thenReturn
 (
-CompletableDeferred
-(
 true
-)
 )
 .
 thenReturn
 (
-CompletableDeferred
-(
 true
-)
 )
 val
 result
@@ -1830,7 +1797,7 @@ never
 )
 )
 .
-sendCommandToDeviceAsync
+sendCommandToDevice
 (
 any
 (
