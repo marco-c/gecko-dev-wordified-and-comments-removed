@@ -1303,7 +1303,6 @@ DeviceCommandIncoming
 )
 .
 command
-;
 assertEquals
 (
 testDevice1
@@ -2065,7 +2064,6 @@ DeviceCommandIncoming
 )
 .
 command
-;
 assertEquals
 (
 null
@@ -2253,7 +2251,6 @@ DeviceCommandIncoming
 )
 .
 command
-;
 assertEquals
 (
 testDevice1
@@ -2347,7 +2344,6 @@ DeviceCommandIncoming
 )
 .
 command
-;
 assertEquals
 (
 testDevice2
@@ -2444,7 +2440,6 @@ DeviceCommandIncoming
 )
 .
 command
-;
 assertEquals
 (
 testDevice2
@@ -2556,7 +2551,6 @@ DeviceCommandIncoming
 )
 .
 command
-;
 assertEquals
 (
 testDevice2
@@ -2611,7 +2605,6 @@ DeviceCommandIncoming
 )
 .
 command
-;
 assertEquals
 (
 testDevice1

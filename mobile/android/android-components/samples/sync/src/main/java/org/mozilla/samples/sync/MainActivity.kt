@@ -67,12 +67,6 @@ sync
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 os
 .
 Bundle
@@ -1630,10 +1624,13 @@ show
 )
 }
 }
-SuppressLint
+Suppress
 (
 "
 SetTextI18n
+"
+"
+NestedBlockDepth
 "
 )
 private
