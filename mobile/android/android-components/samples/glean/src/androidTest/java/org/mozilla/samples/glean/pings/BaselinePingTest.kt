@@ -809,7 +809,7 @@ waitForPingContent
 baseline
 "
 "
-background
+inactive
 "
 )
 !
