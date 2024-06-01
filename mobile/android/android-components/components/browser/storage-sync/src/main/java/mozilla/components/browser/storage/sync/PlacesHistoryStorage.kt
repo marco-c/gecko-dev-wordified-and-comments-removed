@@ -1869,6 +1869,18 @@ HistoryHighlight
 >
 {
 return
+handlePlacesExceptions
+(
+"
+getHistoryHighlights
+"
+default
+=
+emptyList
+(
+)
+)
+{
 places
 .
 reader
@@ -1888,6 +1900,7 @@ limit
 intoHighlights
 (
 )
+}
 }
 override
 suspend
