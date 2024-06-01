@@ -1457,6 +1457,9 @@ invoke
 (
 item
 )
+emitSearchSuggestionClickedFact
+(
+)
 }
 )
 )
