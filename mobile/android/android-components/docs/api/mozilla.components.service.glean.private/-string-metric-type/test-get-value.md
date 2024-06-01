@@ -60,6 +60,7 @@ md
 )
 #
 testGetValue
+JvmOverloads
 fun
 testGetValue
 (
@@ -183,7 +184,7 @@ StringMetricType
 .
 kt
 #
-L81
+L83
 )
 Returns
 the

@@ -142,6 +142,15 @@ index
 .
 html
 )
+info
+:
+<
+ERROR
+CLASS
+>
+?
+=
+null
 )
 Data
 class

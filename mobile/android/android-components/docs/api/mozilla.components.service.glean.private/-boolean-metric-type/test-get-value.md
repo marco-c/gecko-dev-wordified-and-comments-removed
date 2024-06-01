@@ -60,6 +60,7 @@ md
 )
 #
 testGetValue
+JvmOverloads
 fun
 testGetValue
 (
@@ -183,7 +184,7 @@ BooleanMetricType
 .
 kt
 #
-L79
+L81
 )
 Returns
 the

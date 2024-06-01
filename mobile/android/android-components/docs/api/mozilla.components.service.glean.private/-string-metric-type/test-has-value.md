@@ -60,6 +60,7 @@ md
 )
 #
 testHasValue
+JvmOverloads
 fun
 testHasValue
 (
@@ -183,7 +184,7 @@ StringMetricType
 .
 kt
 #
-L63
+L64
 )
 Tests
 whether

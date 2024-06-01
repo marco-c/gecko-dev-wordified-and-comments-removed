@@ -60,6 +60,7 @@ md
 )
 #
 testGetValue
+JvmOverloads
 fun
 testGetValue
 (
@@ -178,7 +179,7 @@ DatetimeMetricType
 .
 kt
 #
-L129
+L133
 )
 Returns
 the

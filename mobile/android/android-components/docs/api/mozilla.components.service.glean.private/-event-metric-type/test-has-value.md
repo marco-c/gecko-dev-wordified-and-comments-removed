@@ -60,6 +60,7 @@ md
 )
 #
 testHasValue
+JvmOverloads
 fun
 testHasValue
 (
@@ -183,7 +184,7 @@ EventMetricType
 .
 kt
 #
-L99
+L101
 )
 Tests
 whether

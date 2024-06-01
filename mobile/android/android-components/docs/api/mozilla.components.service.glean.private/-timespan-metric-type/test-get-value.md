@@ -60,6 +60,7 @@ md
 )
 #
 testGetValue
+JvmOverloads
 fun
 testGetValue
 (
@@ -183,7 +184,7 @@ TimespanMetricType
 .
 kt
 #
-L168
+L170
 )
 Returns
 the

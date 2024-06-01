@@ -148,5 +148,15 @@ AppLinkRedirect
 .
 kt
 #
-L17
+L22
 )
+If
+there
+is
+a
+third
+-
+party
+app
+intent
+.
