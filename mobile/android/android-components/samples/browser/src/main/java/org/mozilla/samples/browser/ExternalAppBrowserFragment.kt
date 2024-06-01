@@ -378,11 +378,14 @@ CustomTabsToolbarFeature
 (
 components
 .
-sessionManager
+store
 layout
 .
 toolbar
 sessionId
+components
+.
+customTabsUseCases
 components
 .
 menuBuilder

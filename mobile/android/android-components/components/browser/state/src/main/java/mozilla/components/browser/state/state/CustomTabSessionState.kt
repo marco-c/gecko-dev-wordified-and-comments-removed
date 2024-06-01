@@ -390,6 +390,12 @@ CustomTabConfig
 CustomTabConfig
 (
 )
+title
+:
+String
+=
+"
+"
 contextId
 :
 String
@@ -428,6 +434,11 @@ content
 ContentState
 (
 url
+=
+url
+title
+=
+title
 )
 config
 =
