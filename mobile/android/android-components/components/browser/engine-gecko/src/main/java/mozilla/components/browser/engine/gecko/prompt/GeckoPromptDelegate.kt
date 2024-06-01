@@ -1594,7 +1594,7 @@ geckoPrompt
 .
 delegate
 =
-ChoicePromptUpdateDelegate
+ChoicePromptDelegate
 (
 geckoEngineSession
 promptRequest
