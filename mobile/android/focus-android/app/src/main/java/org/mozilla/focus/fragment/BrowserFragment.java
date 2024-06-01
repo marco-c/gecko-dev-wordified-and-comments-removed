@@ -379,6 +379,8 @@ focus
 .
 menu
 .
+browser
+.
 BrowserMenu
 ;
 import
@@ -389,6 +391,8 @@ mozilla
 focus
 .
 menu
+.
+context
 .
 WebContextMenu
 ;

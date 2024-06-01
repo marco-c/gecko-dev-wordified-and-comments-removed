@@ -6,6 +6,8 @@ mozilla
 focus
 .
 menu
+.
+browser
 ;
 import
 android
