@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-#
-%
 ARG
 DOCKER_IMAGE_PARENT
 FROM
