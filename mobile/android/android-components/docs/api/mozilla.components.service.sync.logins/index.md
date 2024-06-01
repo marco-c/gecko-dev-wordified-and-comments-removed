@@ -233,7 +233,7 @@ class
 SyncableLoginsStore
 :
 [
-SyncableStore
+LockableStore
 ]
 (
 .
@@ -248,7 +248,7 @@ concept
 sync
 /
 -
-syncable
+lockable
 -
 store
 /
