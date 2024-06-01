@@ -680,7 +680,7 @@ SwipeRefreshFeature
 (
 components
 .
-sessionManager
+store
 components
 .
 sessionUseCases
