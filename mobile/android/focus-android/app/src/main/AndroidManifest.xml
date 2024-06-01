@@ -457,7 +457,9 @@ android
 label
 =
 "
-Settings
+string
+/
+menu_settings
 "
 /
 >
