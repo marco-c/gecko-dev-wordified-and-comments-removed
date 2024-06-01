@@ -951,6 +951,11 @@ it
 report
 (
 throwable
+crashBreadcrumbs
+.
+toSortedArrayList
+(
+)
 )
 }
 }
