@@ -2044,7 +2044,6 @@ minDateString
 .
 toDate
 (
-format
 )
 val
 maxDate
@@ -2063,7 +2062,6 @@ maxDateString
 .
 toDate
 (
-format
 )
 val
 onSelect
@@ -2112,6 +2110,18 @@ TimeSelection
 Type
 .
 TIME
+"
+yyyy
+-
+MM
+"
+-
+>
+TimeSelection
+.
+Type
+.
+MONTH
 "
 yyyy
 -

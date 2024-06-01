@@ -2077,7 +2077,6 @@ minDateString
 .
 toDate
 (
-format
 )
 val
 maxDate
@@ -2096,7 +2095,6 @@ maxDateString
 .
 toDate
 (
-format
 )
 val
 onSelect
