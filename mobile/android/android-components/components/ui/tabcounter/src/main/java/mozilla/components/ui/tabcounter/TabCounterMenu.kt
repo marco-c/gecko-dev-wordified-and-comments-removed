@@ -358,7 +358,7 @@ R
 .
 drawable
 .
-mozac_ui_tabcounter_ic_new
+mozac_ic_new
 tint
 =
 iconColor
@@ -413,7 +413,7 @@ R
 .
 drawable
 .
-mozac_ui_tabcounter_ic_private_browsing
+mozac_ic_private_browsing
 tint
 =
 iconColor
@@ -468,7 +468,7 @@ R
 .
 drawable
 .
-mozac_ui_tabcounter_ic_close
+mozac_ic_close
 tint
 =
 iconColor
