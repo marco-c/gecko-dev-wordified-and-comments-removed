@@ -323,8 +323,6 @@ browser
 engine
 -
 gecko
--
-nightly
 '
 )
 androidTestImplementation

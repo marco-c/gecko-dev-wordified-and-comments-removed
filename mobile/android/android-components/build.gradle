@@ -2947,10 +2947,6 @@ kt
 apply
 plugin
 :
-GVVersionVerifierPlugin
-apply
-plugin
-:
 GitHubPlugin
 tasks
 .
