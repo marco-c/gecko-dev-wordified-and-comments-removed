@@ -466,7 +466,7 @@ url
 String
 data
 :
-String
+ByteArray
 headers
 :
 HeadersList
@@ -531,7 +531,7 @@ url
 String
 data
 :
-String
+ByteArray
 headers
 :
 HeadersList
@@ -642,10 +642,12 @@ body
 Request
 .
 Body
-.
-fromString
 (
 data
+.
+inputStream
+(
+)
 )
 )
 }
