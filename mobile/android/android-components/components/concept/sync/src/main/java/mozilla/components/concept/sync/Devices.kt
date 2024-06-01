@@ -965,6 +965,9 @@ DeviceType
 {
 DESKTOP
 MOBILE
+TABLET
+TV
+VR
 UNKNOWN
 }
 /
