@@ -110,7 +110,7 @@ kotlin
 .
 5
 .
-10
+20
 "
 const
 val
