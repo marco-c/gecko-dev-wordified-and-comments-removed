@@ -631,11 +631,6 @@ close
 (
 )
 {
-deviceConstellation
-.
-stopPeriodicRefresh
-(
-)
 job
 .
 cancel

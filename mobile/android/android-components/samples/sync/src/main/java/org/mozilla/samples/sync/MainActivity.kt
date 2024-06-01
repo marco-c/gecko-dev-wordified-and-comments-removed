@@ -772,7 +772,7 @@ deviceConstellation
 )
 ?
 .
-refreshDeviceStateAsync
+refreshDevicesAsync
 (
 )
 ?

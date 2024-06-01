@@ -660,6 +660,7 @@ devices
 Note
 that
 since
+the
 device
 is
 configured
