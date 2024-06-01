@@ -487,9 +487,6 @@ TimingDistributionMetricType
 sample
 =
 elapsedNanos
-timeUnit
-=
-timeUnit
 )
 }
 }
@@ -631,9 +628,6 @@ TimingDistributionMetricType
 samples
 =
 samples
-timeUnit
-=
-timeUnit
 )
 }
 }
