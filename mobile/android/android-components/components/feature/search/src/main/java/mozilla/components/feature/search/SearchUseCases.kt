@@ -662,7 +662,9 @@ SessionState
 .
 Source
 .
-NONE
+Internal
+.
+None
 selected
 =
 true

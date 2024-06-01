@@ -654,7 +654,9 @@ SessionState
 .
 Source
 .
-NEW_TAB
+Internal
+.
+NewTab
 )
 store
 .
@@ -681,7 +683,9 @@ SessionState
 .
 Source
 .
-NEW_TAB
+Internal
+.
+NewTab
 )
 val
 searchTermsAction
@@ -794,7 +798,9 @@ SessionState
 .
 Source
 .
-NEW_TAB
+Internal
+.
+NewTab
 )
 val
 searchTermsAction
@@ -865,7 +871,9 @@ SessionState
 .
 Source
 .
-NONE
+Internal
+.
+None
 private
 =
 true
@@ -914,7 +922,9 @@ SessionState
 .
 Source
 .
-NONE
+Internal
+.
+None
 )
 val
 searchTermsAction
@@ -985,7 +995,9 @@ SessionState
 .
 Source
 .
-NONE
+Internal
+.
+None
 parentId
 =
 "
@@ -1052,7 +1064,9 @@ SessionState
 .
 Source
 .
-NONE
+Internal
+.
+None
 )
 val
 searchTermsAction

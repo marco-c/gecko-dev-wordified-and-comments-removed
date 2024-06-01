@@ -424,7 +424,9 @@ SessionState
 .
 Source
 .
-NONE
+Internal
+.
+None
 val
 parentId
 :
@@ -657,7 +659,9 @@ SessionState
 .
 Source
 .
-NONE
+Internal
+.
+None
 engineSession
 :
 EngineSession

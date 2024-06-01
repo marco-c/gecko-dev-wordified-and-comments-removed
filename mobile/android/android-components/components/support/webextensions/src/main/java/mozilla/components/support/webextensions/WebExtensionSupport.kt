@@ -2597,7 +2597,9 @@ SessionState
 .
 Source
 .
-RESTORED
+Internal
+.
+Restored
 }
 .
 size

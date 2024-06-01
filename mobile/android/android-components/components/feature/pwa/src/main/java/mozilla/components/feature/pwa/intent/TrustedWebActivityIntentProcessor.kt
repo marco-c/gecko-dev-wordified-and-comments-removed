@@ -467,7 +467,9 @@ SessionState
 .
 Source
 .
-HOME_SCREEN
+Internal
+.
+HomeScreen
 customTabConfig
 =
 customTabConfig

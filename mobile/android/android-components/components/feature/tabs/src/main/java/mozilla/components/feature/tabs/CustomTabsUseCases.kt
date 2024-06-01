@@ -283,12 +283,6 @@ source
 SessionState
 .
 Source
-=
-SessionState
-.
-Source
-.
-CUSTOM_TAB
 )
 :
 String
@@ -412,12 +406,6 @@ source
 SessionState
 .
 Source
-=
-SessionState
-.
-Source
-.
-CUSTOM_TAB
 customTabConfig
 :
 CustomTabConfig

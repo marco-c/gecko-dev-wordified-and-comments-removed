@@ -620,7 +620,9 @@ source
 =
 Source
 .
-HOME_SCREEN
+Internal
+.
+HomeScreen
 webAppManifest
 =
 webAppManifest

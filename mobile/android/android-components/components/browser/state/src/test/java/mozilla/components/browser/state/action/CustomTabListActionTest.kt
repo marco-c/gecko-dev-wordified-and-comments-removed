@@ -238,6 +238,15 @@ org
 config
 =
 config
+source
+=
+SessionState
+.
+Source
+.
+Internal
+.
+CustomTab
 )
 store
 .
@@ -282,7 +291,9 @@ SessionState
 .
 Source
 .
-CUSTOM_TAB
+Internal
+.
+CustomTab
 store
 .
 state
