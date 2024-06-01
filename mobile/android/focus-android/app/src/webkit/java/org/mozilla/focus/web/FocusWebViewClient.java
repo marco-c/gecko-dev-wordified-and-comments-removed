@@ -288,6 +288,8 @@ currentPageURL
 length
 (
 )
++
+1
 =
 =
 requestURL
@@ -295,8 +297,6 @@ requestURL
 length
 (
 )
-+
-1
 )
 &
 &
