@@ -223,6 +223,8 @@ config
 "
 projectDir
 /
+quality
+/
 detekt
 .
 yml
