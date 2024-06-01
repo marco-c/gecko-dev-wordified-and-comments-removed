@@ -1095,7 +1095,7 @@ hashcode
 otherActivityClassHashcode
 "
 throw
-IllegalStateException
+IllegalArgumentException
 (
 msg
 e
