@@ -94,7 +94,7 @@ Internal
 entity
 representing
 a
-top
+pinned
 site
 .
 *

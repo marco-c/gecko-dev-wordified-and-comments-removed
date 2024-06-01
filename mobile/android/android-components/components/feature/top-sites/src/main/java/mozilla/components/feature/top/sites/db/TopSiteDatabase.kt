@@ -146,11 +146,11 @@ RoomDatabase
 {
 abstract
 fun
-topSiteDao
+pinnedSiteDao
 (
 )
 :
-TopSiteDao
+PinnedSiteDao
 companion
 object
 {

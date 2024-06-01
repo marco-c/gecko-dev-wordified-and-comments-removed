@@ -130,11 +130,11 @@ instances
 Dao
 internal
 interface
-TopSiteDao
+PinnedSiteDao
 {
 Insert
 fun
-insertTopSite
+insertPinnedSite
 (
 site
 :
@@ -144,7 +144,7 @@ PinnedSiteEntity
 Long
 Delete
 fun
-deleteTopSite
+deletePinnedSite
 (
 site
 :
@@ -161,7 +161,7 @@ top_sites
 "
 )
 fun
-getTopSites
+getPinnedSites
 (
 )
 :
@@ -183,7 +183,7 @@ top_sites
 "
 )
 fun
-getTopSitesPaged
+getPinnedSitesPaged
 (
 )
 :

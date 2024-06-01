@@ -79,7 +79,7 @@ top
 .
 sites
 .
-TopSite
+PinnedSite
 import
 mozilla
 .
@@ -96,7 +96,7 @@ db
 PinnedSiteEntity
 internal
 class
-TopSiteAdapter
+PinnedSiteAdapter
 (
 internal
 val
@@ -105,7 +105,7 @@ entity
 PinnedSiteEntity
 )
 :
-TopSite
+PinnedSite
 {
 override
 val
@@ -174,7 +174,7 @@ if
 other
 !
 is
-TopSiteAdapter
+PinnedSiteAdapter
 )
 {
 return

@@ -8924,7 +8924,7 @@ try
 {
 pinnedSitesStorage
 .
-addTopSite
+addPinnedSite
 (
 pinnedSite
 .

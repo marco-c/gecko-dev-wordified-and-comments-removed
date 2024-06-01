@@ -71,13 +71,13 @@ sites
 *
 *
 A
-top
+pinned
 site
 .
 *
 /
 interface
-TopSite
+PinnedSite
 {
 /
 *
@@ -87,7 +87,7 @@ Unique
 ID
 of
 this
-top
+pinned
 site
 .
 *
@@ -104,7 +104,7 @@ The
 title
 of
 the
-top
+pinned
 site
 .
 *
@@ -121,7 +121,7 @@ The
 URL
 of
 the
-top
+pinned
 site
 .
 *
@@ -138,12 +138,12 @@ Whether
 or
 not
 the
-top
+pinned
 site
 is
 a
 default
-top
+pinned
 site
 (
 added

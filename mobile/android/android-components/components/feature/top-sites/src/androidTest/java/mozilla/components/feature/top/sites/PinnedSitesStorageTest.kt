@@ -395,7 +395,7 @@ testAddingTopSite
 {
 storage
 .
-addTopSite
+addPinnedSite
 (
 "
 Mozilla
@@ -414,7 +414,7 @@ org
 )
 storage
 .
-addTopSite
+addPinnedSite
 (
 "
 Firefox
@@ -538,7 +538,7 @@ testRemovingTopSites
 {
 storage
 .
-addTopSite
+addPinnedSite
 (
 "
 Mozilla
@@ -557,7 +557,7 @@ org
 )
 storage
 .
-addTopSite
+addPinnedSite
 (
 "
 Firefox
@@ -592,7 +592,7 @@ size
 )
 storage
 .
-removeTopSite
+removePinnedSite
 (
 topSites
 [
@@ -660,7 +660,7 @@ runBlocking
 {
 storage
 .
-addTopSite
+addPinnedSite
 (
 "
 Mozilla
@@ -679,7 +679,7 @@ org
 )
 storage
 .
-addTopSite
+addPinnedSite
 (
 "
 Firefox
@@ -704,7 +704,7 @@ topSites
 =
 storage
 .
-getTopSites
+getPinnedSites
 (
 )
 .
@@ -1791,7 +1791,7 @@ getAllTopSites
 :
 List
 <
-TopSite
+PinnedSite
 >
 {
 val
@@ -1799,7 +1799,7 @@ dataSource
 =
 storage
 .
-getTopSitesPaged
+getPinnedSitesPaged
 (
 )
 .

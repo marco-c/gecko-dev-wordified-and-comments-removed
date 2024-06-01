@@ -1875,7 +1875,7 @@ never
 )
 )
 .
-addTopSite
+addPinnedSite
 (
 any
 (
@@ -2062,7 +2062,7 @@ times
 )
 )
 .
-addTopSite
+addPinnedSite
 (
 any
 (
@@ -2079,7 +2079,7 @@ verify
 topSiteStorage
 )
 .
-addTopSite
+addPinnedSite
 (
 "
 Featured
@@ -2137,7 +2137,7 @@ verify
 topSiteStorage
 )
 .
-addTopSite
+addPinnedSite
 (
 "
 Internet
