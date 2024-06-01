@@ -79,12 +79,6 @@ content
 .
 SharedPreferences
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 kotlinx
 .
 coroutines
@@ -358,7 +352,6 @@ val
 locationService
 :
 LocationService
-VisibleForTesting
 private
 val
 currentTime
@@ -376,7 +369,6 @@ currentTimeMillis
 (
 )
 }
-VisibleForTesting
 private
 val
 preferences
