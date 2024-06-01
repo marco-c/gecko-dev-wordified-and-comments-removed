@@ -4092,7 +4092,7 @@ view
 .
 setImageDrawable
 (
-stopImage
+reloadImage
 )
 verify
 (
@@ -4102,7 +4102,7 @@ view
 contentDescription
 =
 "
-stop
+reload
 "
 reloadPageAction
 =
@@ -4147,7 +4147,7 @@ view
 contentDescription
 =
 "
-reload
+stop
 "
 }
 Test
