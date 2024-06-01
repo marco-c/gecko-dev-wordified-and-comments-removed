@@ -251,6 +251,9 @@ Glean
 initialize
 (
 applicationContext
+uploadEnabled
+=
+true
 )
 /
 /

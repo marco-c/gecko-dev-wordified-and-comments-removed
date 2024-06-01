@@ -337,6 +337,9 @@ Glean
 initialize
 (
 context
+uploadEnabled
+=
+true
 )
 /
 /
