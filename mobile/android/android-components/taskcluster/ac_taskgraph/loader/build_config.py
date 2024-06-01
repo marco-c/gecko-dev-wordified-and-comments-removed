@@ -34,14 +34,6 @@ taskgraph
 .
 util
 .
-memoize
-import
-memoize
-from
-taskgraph
-.
-util
-.
 taskcluster
 import
 get_session
