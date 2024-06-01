@@ -1790,7 +1790,7 @@ gfx
 .
 webrender
 .
-render_time
+framebuild_time
 |
 [
 timing_distribution

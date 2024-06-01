@@ -11703,6 +11703,11 @@ triggeredByRedirect
 Boolean
 =
 false
+hasUserGesture
+:
+Boolean
+=
+false
 )
 :
 GeckoSession
@@ -11766,6 +11771,12 @@ Int
 class
 .
 java
+Boolean
+:
+:
+class
+.
+java
 )
 constructor
 .
@@ -11781,6 +11792,7 @@ uri
 uri
 target
 flags
+hasUserGesture
 )
 }
 }
