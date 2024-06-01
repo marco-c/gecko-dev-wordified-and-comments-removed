@@ -490,6 +490,9 @@ MigrationAction
 .
 Completed
 )
+emitCompletedFact
+(
+)
 stopForeground
 (
 true
