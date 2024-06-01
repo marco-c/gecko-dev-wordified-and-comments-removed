@@ -254,6 +254,10 @@ val
 addButton
 :
 ImageView
+val
+allowedInPrivateBrowsingLabel
+:
+ImageView
 )
 :
 CustomViewHolder
