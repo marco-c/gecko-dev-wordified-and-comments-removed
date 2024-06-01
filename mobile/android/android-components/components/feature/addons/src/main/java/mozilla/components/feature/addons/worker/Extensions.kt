@@ -116,3 +116,9 @@ cause
 !
 is
 CancellationException
+&
+&
+this
+!
+is
+CancellationException
