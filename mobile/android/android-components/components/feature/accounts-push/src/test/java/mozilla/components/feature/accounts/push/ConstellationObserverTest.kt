@@ -222,10 +222,6 @@ verifyZeroInteractions
 (
 push
 )
-verifyZeroInteractions
-(
-verifier
-)
 when
 (
 state
@@ -288,10 +284,6 @@ state
 verifyZeroInteractions
 (
 push
-)
-verifyZeroInteractions
-(
-verifier
 )
 when
 (
