@@ -584,7 +584,7 @@ getLong
 KEY_CONTENT_LENGTH
 )
 .
-toMegabyteString
+toMegabyteOrKilobyteString
 (
 )
 getString
