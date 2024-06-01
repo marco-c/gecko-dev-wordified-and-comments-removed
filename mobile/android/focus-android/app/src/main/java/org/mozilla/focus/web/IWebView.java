@@ -64,6 +64,13 @@ String
 url
 )
 ;
+void
+onDownloadStart
+(
+Download
+download
+)
+;
 }
 void
 setCallback
