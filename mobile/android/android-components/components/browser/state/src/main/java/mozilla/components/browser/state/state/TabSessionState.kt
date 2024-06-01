@@ -67,12 +67,6 @@ state
 .
 state
 import
-android
-.
-graphics
-.
-Bitmap
-import
 mozilla
 .
 components
@@ -637,12 +631,6 @@ String
 =
 "
 "
-thumbnail
-:
-Bitmap
-?
-=
-null
 contextId
 :
 String
@@ -767,9 +755,6 @@ private
 title
 =
 title
-thumbnail
-=
-thumbnail
 webAppManifest
 =
 webAppManifest
