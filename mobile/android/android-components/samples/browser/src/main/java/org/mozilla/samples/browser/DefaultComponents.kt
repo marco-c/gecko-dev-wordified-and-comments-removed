@@ -2165,6 +2165,7 @@ lazy
 {
 TabsUseCases
 (
+store
 sessionManager
 )
 }

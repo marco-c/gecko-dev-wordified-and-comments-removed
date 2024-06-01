@@ -518,6 +518,12 @@ cases
 )
 {
 val
+store
+=
+BrowserStore
+(
+)
+val
 sessionManager
 =
 spy
@@ -527,6 +533,7 @@ SessionManager
 mock
 (
 )
+store
 )
 )
 doReturn
@@ -558,6 +565,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -877,6 +885,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -1096,6 +1105,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -1296,6 +1306,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -1512,6 +1523,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -1705,6 +1717,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -2017,6 +2030,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -2217,6 +2231,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -2433,6 +2448,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -2616,6 +2632,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -3123,6 +3140,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
@@ -3339,6 +3357,7 @@ tabsUseCases
 =
 TabsUseCases
 (
+store
 sessionManager
 )
 val
