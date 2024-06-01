@@ -187,13 +187,16 @@ Delegate
 {
 override
 fun
-onTelemetryReceived
+onHistogram
 (
 metric
 :
 RuntimeTelemetry
 .
 Metric
+<
+LongArray
+>
 )
 {
 /
@@ -228,7 +231,7 @@ accumulateSamples
 (
 metric
 .
-values
+value
 )
 }
 }
