@@ -654,6 +654,16 @@ project
 (
 '
 :
+lib
+-
+crash
+'
+)
+implementation
+project
+(
+'
+:
 ui
 -
 autocomplete
