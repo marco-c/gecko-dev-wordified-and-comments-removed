@@ -149,7 +149,7 @@ AddonMigration
 .
 kt
 #
-L54
+L57
 )
 Successfully
 migrated
