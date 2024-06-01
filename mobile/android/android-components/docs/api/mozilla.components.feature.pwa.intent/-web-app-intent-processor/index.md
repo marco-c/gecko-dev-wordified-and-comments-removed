@@ -131,7 +131,7 @@ WebAppIntentProcessor
 .
 kt
 #
-L24
+L25
 )
 Processor
 for
@@ -326,7 +326,6 @@ process
 md
 )
 |
-suspend
 fun
 process
 (

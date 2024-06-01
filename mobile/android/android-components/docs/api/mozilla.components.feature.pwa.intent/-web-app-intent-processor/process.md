@@ -56,7 +56,6 @@ md
 )
 #
 process
-suspend
 fun
 process
 (
@@ -149,7 +148,7 @@ WebAppIntentProcessor
 .
 kt
 #
-L42
+L43
 )
 Overrides
 [

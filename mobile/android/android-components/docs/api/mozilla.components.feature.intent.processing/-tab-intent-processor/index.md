@@ -392,7 +392,6 @@ process
 md
 )
 |
-suspend
 fun
 process
 (

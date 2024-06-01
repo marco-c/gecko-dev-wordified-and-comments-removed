@@ -144,7 +144,6 @@ md
 )
 |
 abstract
-suspend
 fun
 process
 (

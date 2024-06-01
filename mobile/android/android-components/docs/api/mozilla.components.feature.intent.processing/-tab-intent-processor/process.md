@@ -56,7 +56,6 @@ md
 )
 #
 process
-suspend
 fun
 process
 (

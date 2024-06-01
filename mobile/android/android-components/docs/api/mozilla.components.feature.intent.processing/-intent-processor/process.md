@@ -57,7 +57,6 @@ md
 #
 process
 abstract
-suspend
 fun
 process
 (
