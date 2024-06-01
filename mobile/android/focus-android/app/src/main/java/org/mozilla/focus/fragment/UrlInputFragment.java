@@ -598,10 +598,6 @@ volatile
 boolean
 isAnimating
 ;
-private
-boolean
-isBackPressed
-;
 Override
 public
 View
@@ -781,7 +777,7 @@ hasFocus
 &
 &
 !
-isBackPressed
+isAnimating
 )
 {
 ViewUtils
@@ -935,10 +931,6 @@ onBackPressed
 (
 )
 {
-isBackPressed
-=
-true
-;
 animateAndDismiss
 (
 )
