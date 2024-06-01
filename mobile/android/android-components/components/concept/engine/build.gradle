@@ -162,6 +162,10 @@ implementation
 Dependencies
 .
 kotlin_coroutines
+implementation
+Dependencies
+.
+androidx_paging
 /
 /
 We

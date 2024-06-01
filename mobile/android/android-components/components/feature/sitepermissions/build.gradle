@@ -399,6 +399,10 @@ androidTestImplementation
 Dependencies
 .
 androidx_test_rules
+androidTestImplementation
+Dependencies
+.
+testing_coroutines
 }
 apply
 from

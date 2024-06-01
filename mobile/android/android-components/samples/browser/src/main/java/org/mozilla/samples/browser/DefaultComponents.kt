@@ -723,7 +723,7 @@ feature
 .
 sitepermissions
 .
-SitePermissionsStorage
+OnDiskSitePermissionsStorage
 import
 mozilla
 .
@@ -1180,7 +1180,7 @@ permissionStorage
 by
 lazy
 {
-SitePermissionsStorage
+OnDiskSitePermissionsStorage
 (
 applicationContext
 )

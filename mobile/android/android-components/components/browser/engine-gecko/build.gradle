@@ -321,6 +321,10 @@ api
 Dependencies
 .
 mozilla_geckoview
+implementation
+Dependencies
+.
+androidx_paging
 testImplementation
 Dependencies
 .

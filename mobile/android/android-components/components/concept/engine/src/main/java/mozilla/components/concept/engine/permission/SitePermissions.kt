@@ -61,9 +61,11 @@ mozilla
 .
 components
 .
-feature
+concept
 .
-sitepermissions
+engine
+.
+permission
 import
 android
 .
@@ -83,9 +85,11 @@ mozilla
 .
 components
 .
-feature
+concept
 .
-sitepermissions
+engine
+.
+permission
 .
 SitePermissions
 .
@@ -97,9 +101,11 @@ mozilla
 .
 components
 .
-feature
+concept
 .
-sitepermissions
+engine
+.
+permission
 .
 SitePermissionsStorage
 .
@@ -196,7 +202,6 @@ enum
 class
 Status
 (
-internal
 val
 id
 :
@@ -331,7 +336,6 @@ enum
 class
 AutoplayStatus
 (
-internal
 val
 id
 :
