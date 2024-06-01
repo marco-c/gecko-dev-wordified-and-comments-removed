@@ -852,11 +852,11 @@ testContext
 .
 resources
 )
-assertFalse
+assertTrue
 (
 customTabConfig
 .
-disableUrlbarHiding
+enableUrlbarHiding
 )
 }
 Test
