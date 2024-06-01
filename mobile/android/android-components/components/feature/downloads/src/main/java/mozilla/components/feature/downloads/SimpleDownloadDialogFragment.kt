@@ -420,7 +420,7 @@ sheetDialog
 .
 setCanceledOnTouchOutside
 (
-true
+false
 )
 val
 rootView
@@ -746,6 +746,9 @@ close_button
 .
 setOnClickListener
 {
+onCancelDownload
+(
+)
 dismiss
 (
 )
