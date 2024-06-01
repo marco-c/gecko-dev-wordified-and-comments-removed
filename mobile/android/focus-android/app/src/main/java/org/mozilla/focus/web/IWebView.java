@@ -10,6 +10,13 @@ web
 import
 android
 .
+graphics
+.
+Bitmap
+;
+import
+android
+.
 os
 .
 Bundle
@@ -332,6 +339,12 @@ onSaveInstanceState
 (
 Bundle
 outState
+)
+;
+Nullable
+Bitmap
+getIcon
+(
 )
 ;
 }
