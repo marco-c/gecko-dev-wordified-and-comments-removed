@@ -365,9 +365,6 @@ AwesomeBarOrientation
 onSuggestionClicked
 :
 (
-AwesomeBar
-.
-Suggestion
 )
 -
 >
@@ -375,9 +372,6 @@ Unit
 onAutoComplete
 :
 (
-AwesomeBar
-.
-Suggestion
 )
 -
 >
@@ -394,7 +388,6 @@ clickable
 {
 onSuggestionClicked
 (
-suggestion
 )
 }
 .
@@ -514,12 +507,7 @@ AutocompleteButton
 (
 onAutoComplete
 =
-{
 onAutoComplete
-(
-suggestion
-)
-}
 orientation
 =
 orientation

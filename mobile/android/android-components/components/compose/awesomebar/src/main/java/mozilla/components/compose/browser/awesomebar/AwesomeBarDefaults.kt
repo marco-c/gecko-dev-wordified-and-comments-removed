@@ -224,6 +224,15 @@ MaterialTheme
 colors
 .
 onSurface
+groupTitle
+:
+Color
+=
+MaterialTheme
+.
+colors
+.
+primary
 )
 =
 AwesomeBarColors
@@ -232,5 +241,6 @@ background
 title
 description
 autocompleteIcon
+groupTitle
 )
 }
