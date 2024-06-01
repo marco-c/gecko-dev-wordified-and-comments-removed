@@ -138,7 +138,7 @@ background
 =
 "
 #
-262626
+272727
 "
 android
 :
@@ -258,8 +258,9 @@ android
 textColor
 =
 "
-#
-808080
+color
+/
+inactive_text
 "
 android
 :

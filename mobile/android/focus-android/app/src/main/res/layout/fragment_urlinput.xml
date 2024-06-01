@@ -693,8 +693,9 @@ android
 textColorHint
 =
 "
-#
-40ffffff
+color
+/
+inactive_text
 "
 android
 :
