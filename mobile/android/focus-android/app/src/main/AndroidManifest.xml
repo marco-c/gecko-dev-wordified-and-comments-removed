@@ -110,6 +110,14 @@ style
 /
 AppTheme
 "
+android
+:
+name
+=
+"
+.
+FocusApplication
+"
 >
 <
 activity
