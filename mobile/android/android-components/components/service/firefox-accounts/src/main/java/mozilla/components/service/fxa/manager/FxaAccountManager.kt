@@ -2185,12 +2185,6 @@ SyncConfig
 .
 *
 /
-SuppressWarnings
-(
-"
-LongMethod
-"
-)
 fun
 setSyncConfigAsync
 (

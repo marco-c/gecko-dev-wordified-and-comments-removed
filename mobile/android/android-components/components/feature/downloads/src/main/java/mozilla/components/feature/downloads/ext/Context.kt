@@ -157,9 +157,6 @@ Deprecation
 "
 LongParameterList
 "
-"
-LongMethod
-"
 )
 internal
 fun

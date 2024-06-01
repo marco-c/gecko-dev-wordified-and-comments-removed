@@ -349,12 +349,6 @@ build
 )
 }
 }
-Suppress
-(
-"
-LongMethod
-"
-)
 private
 fun
 MediaState

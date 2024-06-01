@@ -1436,9 +1436,6 @@ Suppress
 "
 ComplexMethod
 "
-"
-LongMethod
-"
 )
 internal
 fun
@@ -2166,12 +2163,6 @@ of
 textureView
 *
 /
-Suppress
-(
-"
-LongMethod
-"
-)
 private
 fun
 configureTransform

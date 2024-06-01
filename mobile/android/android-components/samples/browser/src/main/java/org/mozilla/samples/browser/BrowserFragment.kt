@@ -249,12 +249,6 @@ ReaderViewIntegration
 >
 (
 )
-Suppress
-(
-"
-LongMethod
-"
-)
 override
 fun
 onCreateView

@@ -1411,9 +1411,6 @@ Suppress
 "
 ReturnCount
 "
-"
-LongMethod
-"
 )
 override
 suspend

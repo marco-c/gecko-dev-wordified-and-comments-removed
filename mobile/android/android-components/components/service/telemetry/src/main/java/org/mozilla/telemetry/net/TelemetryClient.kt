@@ -194,12 +194,6 @@ telemetry
 client
 "
 )
-Suppress
-(
-"
-LongMethod
-"
-)
 fun
 uploadPing
 (

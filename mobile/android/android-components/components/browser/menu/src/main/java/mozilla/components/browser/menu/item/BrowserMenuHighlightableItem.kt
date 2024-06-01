@@ -501,12 +501,6 @@ isNowHighlighted
 )
 }
 }
-Suppress
-(
-"
-LongMethod
-"
-)
 private
 fun
 updateHighlight

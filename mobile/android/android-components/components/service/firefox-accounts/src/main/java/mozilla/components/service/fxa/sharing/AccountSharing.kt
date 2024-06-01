@@ -71,12 +71,6 @@ android
 .
 annotation
 .
-SuppressLint
-import
-android
-.
-annotation
-.
 TargetApi
 import
 android
@@ -620,12 +614,6 @@ first
 }
 }
 Suppress
-(
-"
-LongMethod
-"
-)
-SuppressLint
 (
 "
 Recycle

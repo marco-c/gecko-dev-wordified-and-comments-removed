@@ -679,12 +679,6 @@ settings
 .
 *
 /
-Suppress
-(
-"
-LongMethod
-"
-)
 fun
 initialize
 (

@@ -281,12 +281,6 @@ mozac_browser_icons_photon_palette
 :
 IconGenerator
 {
-Suppress
-(
-"
-LongMethod
-"
-)
 override
 fun
 generate

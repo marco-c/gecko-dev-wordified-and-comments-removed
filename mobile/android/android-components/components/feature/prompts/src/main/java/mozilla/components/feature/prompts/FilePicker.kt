@@ -468,12 +468,6 @@ Uri
 ?
 =
 null
-Suppress
-(
-"
-LongMethod
-"
-)
 fun
 handleFileRequest
 (

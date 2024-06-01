@@ -640,12 +640,6 @@ are
 in
 *
 /
-Suppress
-(
-"
-LongMethod
-"
-)
 Synchronized
 fun
 accumulateSamples

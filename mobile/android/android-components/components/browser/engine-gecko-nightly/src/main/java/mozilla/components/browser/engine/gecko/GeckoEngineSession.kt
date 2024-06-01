@@ -3150,12 +3150,6 @@ toTracker
 }
 }
 }
-Suppress
-(
-"
-LongMethod
-"
-)
 private
 fun
 ContentBlocking
@@ -3789,12 +3783,6 @@ UNKNOWN
 )
 }
 }
-Suppress
-(
-"
-LongMethod
-"
-)
 private
 fun
 createGeckoSession

@@ -318,12 +318,6 @@ ARG_TRUSTED_SCOPES
 orEmpty
 (
 )
-Suppress
-(
-"
-LongMethod
-"
-)
 override
 fun
 onCreateView

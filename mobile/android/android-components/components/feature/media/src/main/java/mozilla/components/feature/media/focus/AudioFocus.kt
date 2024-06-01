@@ -412,12 +412,6 @@ result
 }
 }
 Synchronized
-Suppress
-(
-"
-LongMethod
-"
-)
 override
 fun
 onAudioFocusChange
@@ -570,12 +564,6 @@ issues
 }
 }
 }
-Suppress
-(
-"
-LongMethod
-"
-)
 private
 fun
 requestAudioFocusCompat

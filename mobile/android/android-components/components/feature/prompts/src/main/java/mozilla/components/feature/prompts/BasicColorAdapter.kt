@@ -618,12 +618,6 @@ setOnClickListener
 this
 )
 }
-Suppress
-(
-"
-LongMethod
-"
-)
 fun
 bind
 (

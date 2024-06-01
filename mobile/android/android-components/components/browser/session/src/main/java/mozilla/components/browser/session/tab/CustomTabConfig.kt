@@ -1041,9 +1041,6 @@ createCustomTabConfigFromIntent
 Suppress
 (
 "
-LongMethod
-"
-"
 ComplexMethod
 "
 )

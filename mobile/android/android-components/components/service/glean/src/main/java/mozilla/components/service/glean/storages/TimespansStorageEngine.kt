@@ -786,12 +786,6 @@ in
 nanoseconds
 *
 /
-Suppress
-(
-"
-LongMethod
-"
-)
 Synchronized
 fun
 set

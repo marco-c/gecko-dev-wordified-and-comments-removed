@@ -382,12 +382,6 @@ ErrorType
 .
 *
 /
-Suppress
-(
-"
-LongMethod
-"
-)
 internal
 fun
 recordError

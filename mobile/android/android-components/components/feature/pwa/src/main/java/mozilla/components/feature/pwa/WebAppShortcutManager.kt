@@ -1241,12 +1241,6 @@ icons
 .
 *
 /
-Suppress
-(
-"
-LongMethod
-"
-)
 private
 fun
 webAppIcons
