@@ -7330,6 +7330,16 @@ goForward
 }
 override
 fun
+goToHistoryIndex
+(
+index
+:
+Int
+)
+{
+}
+override
+fun
 enableTrackingProtection
 (
 policy
