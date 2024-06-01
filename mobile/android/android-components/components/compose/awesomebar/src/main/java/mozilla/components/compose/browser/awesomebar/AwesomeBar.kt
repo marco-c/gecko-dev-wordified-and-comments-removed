@@ -194,6 +194,16 @@ Suggestion
 -
 >
 Unit
+onAutoComplete
+:
+(
+AwesomeBar
+.
+Suggestion
+)
+-
+>
+Unit
 )
 {
 Column
@@ -244,6 +254,7 @@ state
 .
 value
 onSuggestionClicked
+onAutoComplete
 )
 }
 }

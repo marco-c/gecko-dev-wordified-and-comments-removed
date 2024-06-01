@@ -127,6 +127,16 @@ Suggestion
 -
 >
 Unit
+onAutoComplete
+:
+(
+AwesomeBar
+.
+Suggestion
+)
+-
+>
+Unit
 )
 {
 LazyColumn
@@ -143,6 +153,7 @@ Suggestion
 (
 suggestion
 onSuggestionClicked
+onAutoComplete
 )
 }
 }

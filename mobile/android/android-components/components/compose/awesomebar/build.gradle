@@ -164,6 +164,16 @@ base
 "
 )
 implementation
+project
+(
+"
+:
+ui
+-
+icons
+"
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
