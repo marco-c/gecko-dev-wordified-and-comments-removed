@@ -196,6 +196,14 @@ testImplementation
 Dependencies
 .
 tools_linttests
+testImplementation
+Dependencies
+.
+testing_junit
+testImplementation
+Dependencies
+.
+testing_mockito
 }
 jar
 {
