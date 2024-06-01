@@ -100,7 +100,7 @@ index
 .
 md
 )
-reuseAccount
+reuseSessionToken
 :
 [
 Boolean
@@ -365,7 +365,7 @@ valid
 #
 #
 Parameters
-reuseAccount
+reuseSessionToken
 -
 Whether
 or

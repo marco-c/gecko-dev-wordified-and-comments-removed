@@ -2206,7 +2206,7 @@ index
 .
 md
 )
-reuseAccount
+reuseSessionToken
 :
 [
 Boolean

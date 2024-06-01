@@ -120,6 +120,12 @@ ratingView
 ERROR
 CLASS
 >
+ratingAccessibleView
+:
+<
+ERROR
+CLASS
+>
 userCountView
 :
 <
