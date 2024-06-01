@@ -142,7 +142,10 @@ Configuration
 .
 kt
 #
-L23
+L25
+)
+(
+optional
 )
 the
 server
@@ -171,6 +174,9 @@ tests
 Property
 serverEndpoint
 -
+(
+optional
+)
 the
 server
 pings

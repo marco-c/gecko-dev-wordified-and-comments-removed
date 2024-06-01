@@ -54,7 +54,6 @@ md
 )
 #
 initialize
-JvmOverloads
 MainThread
 fun
 initialize
@@ -124,10 +123,6 @@ configuration
 index
 .
 md
-)
-=
-Configuration
-(
 )
 )
 :
@@ -210,7 +205,7 @@ Glean
 .
 kt
 #
-L38
+L37
 )
 Initialize
 Glean

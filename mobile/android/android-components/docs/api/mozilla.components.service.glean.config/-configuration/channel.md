@@ -141,7 +141,10 @@ Configuration
 .
 kt
 #
-L24
+L26
+)
+(
+optional
 )
 the
 release
@@ -173,6 +176,9 @@ section
 Property
 channel
 -
+(
+optional
+)
 the
 release
 channel

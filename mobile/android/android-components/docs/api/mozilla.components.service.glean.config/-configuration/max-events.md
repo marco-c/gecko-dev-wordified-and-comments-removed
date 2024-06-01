@@ -143,7 +143,10 @@ Configuration
 .
 kt
 #
-L25
+L27
+)
+(
+optional
 )
 the
 number
@@ -163,6 +166,9 @@ sent
 Property
 maxEvents
 -
+(
+optional
+)
 the
 number
 of
