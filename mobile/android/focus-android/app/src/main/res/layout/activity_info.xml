@@ -162,9 +162,10 @@ android
 background
 =
 "
-color
+?
+attr
 /
-colorTitleBar
+colorPrimary
 "
 android
 :
