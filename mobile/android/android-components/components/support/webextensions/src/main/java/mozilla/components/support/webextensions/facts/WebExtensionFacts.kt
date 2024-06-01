@@ -206,7 +206,7 @@ Fact
 (
 Component
 .
-FEATURE_ADDONS
+SUPPORT_WEBEXTENSIONS
 action
 item
 value
