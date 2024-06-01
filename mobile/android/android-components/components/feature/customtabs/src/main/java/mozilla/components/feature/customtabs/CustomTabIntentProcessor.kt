@@ -207,6 +207,13 @@ val
 resources
 :
 Resources
+private
+val
+isPrivate
+:
+Boolean
+=
+false
 )
 :
 IntentProcessor
@@ -294,7 +301,7 @@ Session
 url
 private
 =
-false
+isPrivate
 source
 =
 Session
