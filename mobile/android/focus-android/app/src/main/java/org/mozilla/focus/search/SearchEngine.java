@@ -898,6 +898,17 @@ apply
 (
 )
 ;
+SearchEngineManager
+.
+getInstance
+(
+)
+.
+init
+(
+context
+)
+;
 return
 true
 ;
