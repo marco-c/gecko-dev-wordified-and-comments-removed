@@ -222,6 +222,15 @@ padding
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+content_description_back
+"
+android
+:
 src
 =
 "
