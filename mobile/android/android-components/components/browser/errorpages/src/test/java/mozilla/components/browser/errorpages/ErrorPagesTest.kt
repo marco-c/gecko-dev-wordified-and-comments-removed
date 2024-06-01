@@ -461,6 +461,12 @@ ErrorType
 .
 ERROR_HTTPS_ONLY
 )
+assertUrlEncodingIsValid
+(
+ErrorType
+.
+ERROR_BAD_HSTS_CERT
+)
 }
 private
 fun

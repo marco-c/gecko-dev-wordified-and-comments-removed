@@ -6957,6 +6957,14 @@ ERROR_HTTPS_ONLY
 ErrorType
 .
 ERROR_HTTPS_ONLY
+WebRequestError
+.
+ERROR_BAD_HSTS_CERT
+-
+>
+ErrorType
+.
+ERROR_BAD_HSTS_CERT
 else
 -
 >
