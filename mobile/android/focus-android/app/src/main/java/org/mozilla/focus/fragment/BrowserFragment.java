@@ -758,6 +758,13 @@ toString
 )
 )
 .
+addToBackStack
+(
+"
+url_entry
+"
+)
+.
 commit
 (
 )
