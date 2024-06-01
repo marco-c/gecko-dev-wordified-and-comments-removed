@@ -240,6 +240,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+lib
+-
+dataprotect
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
