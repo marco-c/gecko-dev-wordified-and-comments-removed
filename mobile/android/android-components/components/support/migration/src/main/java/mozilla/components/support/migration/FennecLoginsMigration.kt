@@ -4140,8 +4140,16 @@ else
 -
 >
 throw
-NotImplementedError
+IllegalStateException
 (
+"
+Unsupported
+number
+of
+octets
+:
+numOctets
+"
 )
 }
 }
@@ -4243,7 +4251,7 @@ else
 -
 >
 throw
-NotImplementedError
+IllegalStateException
 (
 "
 Octet
