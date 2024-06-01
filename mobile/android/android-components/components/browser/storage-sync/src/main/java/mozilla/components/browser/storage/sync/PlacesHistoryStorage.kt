@@ -615,6 +615,11 @@ title
 observation
 .
 title
+previewImageUrl
+=
+observation
+.
+previewImageUrl
 )
 )
 }

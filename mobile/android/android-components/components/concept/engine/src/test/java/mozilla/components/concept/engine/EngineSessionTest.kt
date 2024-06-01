@@ -7810,6 +7810,13 @@ onLocationChange
 )
 defaultObserver
 .
+onPreviewImageChange
+(
+"
+"
+)
+defaultObserver
+.
 onLongPress
 (
 HitResult

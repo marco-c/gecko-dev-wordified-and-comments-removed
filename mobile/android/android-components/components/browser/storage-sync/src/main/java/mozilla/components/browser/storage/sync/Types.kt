@@ -784,6 +784,11 @@ visitType
 into
 (
 )
+previewImageUrl
+=
+this
+.
+previewImageUrl
 )
 }
 internal

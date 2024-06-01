@@ -742,6 +742,12 @@ LoadUrlFlags
 none
 (
 )
+previewImageUrl
+:
+String
+?
+=
+null
 )
 :
 TabSessionState
@@ -770,6 +776,9 @@ webAppManifest
 searchTerms
 =
 searchTerms
+previewImageUrl
+=
+previewImageUrl
 )
 parentId
 =
