@@ -607,7 +607,7 @@ key
 should
 trigger
 a
-CryptoException
+IncorrectKey
 but
 check
 this
@@ -627,7 +627,7 @@ catch
 (
 e
 :
-CryptoException
+IncorrectKey
 )
 {
 KeyGenerationReason
