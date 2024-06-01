@@ -184,8 +184,6 @@ android_gradle_plugin
 0
 .
 0
--
-rc01
 "
 const
 val
@@ -327,8 +325,6 @@ compose_version
 0
 .
 0
--
-rc02
 "
 object
 AndroidX
@@ -343,8 +339,6 @@ activityCompose
 3
 .
 0
--
-rc02
 "
 const
 val
