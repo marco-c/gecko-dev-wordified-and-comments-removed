@@ -1217,7 +1217,7 @@ when
 view
 )
 .
-getLocationInWindow
+getLocationOnScreen
 (
 any
 (
