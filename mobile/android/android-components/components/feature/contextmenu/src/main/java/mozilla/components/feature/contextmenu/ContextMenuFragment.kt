@@ -815,7 +815,7 @@ fragment
 RecyclerView
 adapter
 for
-displayig
+displaying
 the
 context
 menu
