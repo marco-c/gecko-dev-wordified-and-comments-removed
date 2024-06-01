@@ -172,7 +172,7 @@ this
 menu
 item
 .
-imageResource
+startImageResource
 -
 ID
 of
@@ -532,7 +532,7 @@ index
 .
 html
 )
-imageResource
+startImageResource
 :
 [
 Int

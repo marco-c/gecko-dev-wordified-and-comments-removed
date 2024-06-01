@@ -63,11 +63,13 @@ md
 )
 /
 [
-imageResource
+endImageResource
 ]
 (
 .
 /
+end
+-
 image
 -
 resource
@@ -75,9 +77,9 @@ resource
 md
 )
 #
-imageResource
+endImageResource
 val
-imageResource
+endImageResource
 :
 [
 Int
@@ -160,5 +162,5 @@ BrowserMenuHighlightableItem
 .
 kt
 #
-L121
+L131
 )

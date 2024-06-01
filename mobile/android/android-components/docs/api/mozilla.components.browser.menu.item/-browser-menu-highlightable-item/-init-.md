@@ -302,7 +302,7 @@ index
 html
 )
 DrawableRes
-imageResource
+startImageResource
 :
 [
 Int
@@ -541,7 +541,7 @@ this
 menu
 item
 .
-imageResource
+startImageResource
 -
 ID
 of
