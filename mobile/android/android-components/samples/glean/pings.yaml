@@ -69,6 +69,7 @@ by
 glean
 telemetry
 .
+#
 They
 are
 #
@@ -80,13 +81,16 @@ code
 at
 build
 time
+#
 using
 the
 glean_parser
-#
 PyPI
 package
 .
+-
+-
+-
 schema
 :
 moz
