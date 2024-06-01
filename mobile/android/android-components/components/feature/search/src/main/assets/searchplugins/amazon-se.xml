@@ -87,7 +87,7 @@ ShortName
 >
 Amazon
 .
-ca
+se
 <
 /
 ShortName
@@ -241,7 +241,7 @@ www
 .
 amazon
 .
-ca
+se
 /
 exec
 /
@@ -257,7 +257,7 @@ resultdomain
 "
 amazon
 .
-ca
+se
 "
 >
 <
@@ -304,11 +304,11 @@ value
 "
 moz
 -
-ca
+se
 -
 mbl
 -
-20
+21
 "
 /
 >
@@ -343,7 +343,7 @@ www
 .
 amazon
 .
-ca
+se
 /
 <
 /

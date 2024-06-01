@@ -95,11 +95,9 @@ ShortName
 <
 InputEncoding
 >
-ISO
+UTF
 -
-8859
--
-1
+8
 <
 /
 InputEncoding
@@ -304,9 +302,11 @@ tag
 value
 =
 "
-firefox
+moz
 -
 fr
+-
+mbl
 -
 21
 "
