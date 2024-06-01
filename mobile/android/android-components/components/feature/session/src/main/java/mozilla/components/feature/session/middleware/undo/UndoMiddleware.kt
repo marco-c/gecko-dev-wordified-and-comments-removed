@@ -498,6 +498,14 @@ TabListAction
 RemoveAllTabsAction
 -
 >
+{
+if
+(
+action
+.
+recoverable
+)
+{
 onTabsRemoved
 (
 context
@@ -508,6 +516,8 @@ state
 .
 selectedTabId
 )
+}
+}
 is
 TabListAction
 .

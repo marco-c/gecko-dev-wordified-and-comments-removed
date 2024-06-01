@@ -1427,6 +1427,8 @@ dispatch
 TabListAction
 .
 RemoveAllTabsAction
+(
+)
 )
 .
 joinBlocking

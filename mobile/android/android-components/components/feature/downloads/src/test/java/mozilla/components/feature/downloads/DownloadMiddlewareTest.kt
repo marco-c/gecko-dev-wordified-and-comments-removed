@@ -2261,6 +2261,8 @@ listOf
 TabListAction
 .
 RemoveAllTabsAction
+(
+)
 TabListAction
 .
 RemoveAllPrivateTabsAction

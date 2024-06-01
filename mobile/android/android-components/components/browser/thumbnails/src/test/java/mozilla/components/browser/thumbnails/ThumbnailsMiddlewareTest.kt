@@ -803,6 +803,8 @@ dispatch
 TabListAction
 .
 RemoveAllTabsAction
+(
+)
 )
 .
 joinBlocking
