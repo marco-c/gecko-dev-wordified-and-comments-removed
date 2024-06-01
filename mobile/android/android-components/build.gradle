@@ -211,9 +211,9 @@ version
 "
 1
 .
-0
+7
 .
-1
+4
 "
 )
 /
@@ -1587,6 +1587,9 @@ baseline
 xml
 "
 )
+failFast
+=
+false
 reports
 {
 html
@@ -1612,6 +1615,12 @@ html
 )
 }
 xml
+{
+enabled
+=
+false
+}
+txt
 {
 enabled
 =

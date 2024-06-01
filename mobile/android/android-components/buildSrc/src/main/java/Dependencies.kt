@@ -196,9 +196,9 @@ detekt
 "
 1
 .
-2
+7
 .
-2
+4
 "
 const
 val
@@ -286,7 +286,7 @@ mozilla_glean
 .
 1
 .
-1
+0
 "
 const
 val
