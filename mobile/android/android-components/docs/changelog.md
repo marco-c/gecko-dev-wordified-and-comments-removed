@@ -904,6 +904,7 @@ fixed
 [
 issue
 #
+10032
 ]
 (
 https
@@ -955,6 +956,7 @@ fixed
 [
 issue
 #
+10005
 ]
 (
 https
@@ -1000,6 +1002,7 @@ fixed
 [
 issue
 #
+9922
 ]
 (
 https
