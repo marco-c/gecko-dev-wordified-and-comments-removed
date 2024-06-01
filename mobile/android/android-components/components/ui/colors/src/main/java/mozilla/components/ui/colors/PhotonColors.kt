@@ -863,6 +863,13 @@ Color
 0xFF20123A
 )
 val
+Ink80A96
+=
+Color
+(
+0xF520123A
+)
+val
 Ink90
 =
 Color
