@@ -93,6 +93,10 @@ compileOnly
 "
 implementation
 "
+    
+"
+testImplementation
+"
 )
 ALL_COMPONENTS
 =
