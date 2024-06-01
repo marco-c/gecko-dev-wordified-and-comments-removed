@@ -196,6 +196,14 @@ url
 )
 ;
 void
+onRequest
+(
+final
+boolean
+isTriggeredByUserGesture
+)
+;
+void
 onDownloadStart
 (
 Download
