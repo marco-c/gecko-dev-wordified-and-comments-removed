@@ -162,16 +162,6 @@ lib
 crash
 .
 Crash
-private
-const
-val
-INFO_PREFIX
-=
-"
-[
-INFO
-]
-"
 /
 *
 *

@@ -76,6 +76,16 @@ lib
 crash
 .
 Crash
+internal
+const
+val
+INFO_PREFIX
+=
+"
+[
+INFO
+]
+"
 /
 *
 *
