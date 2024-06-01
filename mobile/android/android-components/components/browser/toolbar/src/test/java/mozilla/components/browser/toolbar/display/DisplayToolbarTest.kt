@@ -1271,6 +1271,9 @@ impl
 any
 (
 )
+any
+(
+)
 anyBoolean
 (
 )
