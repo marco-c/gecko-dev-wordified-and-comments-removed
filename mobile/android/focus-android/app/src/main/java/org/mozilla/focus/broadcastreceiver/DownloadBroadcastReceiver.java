@@ -426,7 +426,12 @@ URLUtil
 .
 guessFileName
 (
+Uri
+.
+decode
+(
 localUri
+)
 null
 mimeType
 )
@@ -438,7 +443,12 @@ file
 new
 File
 (
+Uri
+.
+decode
+(
 localUri
+)
 )
 ;
 final
