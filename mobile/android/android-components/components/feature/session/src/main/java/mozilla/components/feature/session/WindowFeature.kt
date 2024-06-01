@@ -65,6 +65,12 @@ feature
 .
 session
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 mozilla
 .
 components
@@ -143,6 +149,7 @@ SessionManager
 :
 LifecycleAwareFeature
 {
+VisibleForTesting
 internal
 val
 windowObserver
