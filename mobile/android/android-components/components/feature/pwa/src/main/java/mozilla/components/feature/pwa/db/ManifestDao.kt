@@ -209,7 +209,7 @@ scope
 '
 AND
 used_at
-<
+>
 :
 thresholdMs
 "
@@ -239,7 +239,7 @@ from
 manifests
 WHERE
 used_at
-<
+>
 :
 thresholdMs
 "
