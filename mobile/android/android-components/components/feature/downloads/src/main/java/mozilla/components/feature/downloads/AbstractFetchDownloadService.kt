@@ -1369,7 +1369,7 @@ R
 .
 string
 .
-mozac_feature_downloads_open_not_supported
+mozac_feature_downloads_open_not_supported1
 fileExt
 )
 Toast
