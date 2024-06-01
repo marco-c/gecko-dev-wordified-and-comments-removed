@@ -225,6 +225,7 @@ val
 sourceUrl
 :
 String
+?
 val
 iconUrl
 :

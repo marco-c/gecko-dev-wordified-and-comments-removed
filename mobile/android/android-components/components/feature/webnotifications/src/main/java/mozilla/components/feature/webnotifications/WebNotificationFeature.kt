@@ -553,10 +553,15 @@ origin
 webNotification
 .
 sourceUrl
+?
 .
 tryGetHostFromUrl
 (
 )
+?
+:
+return
+launch
 val
 permissions
 =
