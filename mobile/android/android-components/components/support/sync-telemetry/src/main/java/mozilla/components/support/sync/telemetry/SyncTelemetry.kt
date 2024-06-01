@@ -192,6 +192,12 @@ SyncTelemetryPing
 .
 *
 /
+Suppress
+(
+"
+LargeClass
+"
+)
 object
 SyncTelemetry
 {
