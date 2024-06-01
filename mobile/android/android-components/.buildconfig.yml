@@ -2633,11 +2633,6 @@ use
 publish
 :
 false
-artifact
--
-type
-:
-jar
 tooling
 -
 lint
@@ -3042,3 +3037,8 @@ metrics
 publish
 :
 true
+artifact
+-
+type
+:
+jar
