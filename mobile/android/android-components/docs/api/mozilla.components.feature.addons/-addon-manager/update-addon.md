@@ -238,7 +238,7 @@ AddonManager
 .
 kt
 #
-L291
+L289
 )
 Updates
 the

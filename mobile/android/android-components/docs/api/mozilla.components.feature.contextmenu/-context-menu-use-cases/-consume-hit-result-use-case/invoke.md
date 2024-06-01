@@ -188,7 +188,7 @@ ContextMenuUseCases
 .
 kt
 #
-L29
+L26
 )
 Consumes
 the
@@ -225,7 +225,7 @@ md
 from
 the
 [
-Session
+BrowserStore
 ]
 (
 .
@@ -243,10 +243,14 @@ components
 .
 browser
 .
-session
+state
+.
+store
 /
 -
-session
+browser
+-
+store
 /
 index
 .
