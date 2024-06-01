@@ -152,19 +152,6 @@ boolean
 isSecure
 )
 {
-if
-(
-session
-.
-getLoading
-(
-)
-.
-getValue
-(
-)
-)
-{
 session
 .
 setLoading
@@ -172,7 +159,6 @@ setLoading
 false
 )
 ;
-}
 session
 .
 setSecure
