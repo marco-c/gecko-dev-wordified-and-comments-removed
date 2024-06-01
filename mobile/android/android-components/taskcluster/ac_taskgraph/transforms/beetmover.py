@@ -32,7 +32,7 @@ from
 .
 build
 import
-_get_nightly_version
+get_nightly_version
 transforms
 =
 TransformSequence
@@ -184,7 +184,7 @@ section
 "
 "
         
-ret
+path_version
 =
 "
 {
@@ -224,15 +224,9 @@ nightly
 '
 :
             
-if
-version
-in
-ret
-:
-                
-ret
+path_version
 =
-ret
+path_version
 .
 replace
 (
@@ -241,7 +235,7 @@ nightly_version
 )
         
 return
-ret
+path_version
     
 version
 =
@@ -251,7 +245,7 @@ get_version
     
 nightly_version
 =
-_get_nightly_version
+get_nightly_version
 (
 config
 version

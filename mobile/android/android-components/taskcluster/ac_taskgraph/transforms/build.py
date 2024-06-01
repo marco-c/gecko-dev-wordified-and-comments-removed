@@ -331,7 +331,7 @@ get_version
     
 nightly_version
 =
-_get_nightly_version
+get_nightly_version
 (
 config
 version
@@ -494,7 +494,7 @@ S
 '
 )
 def
-_get_nightly_version
+get_nightly_version
 (
 config
 version
@@ -801,7 +801,7 @@ get_version
     
 nightly_version
 =
-_get_nightly_version
+get_nightly_version
 (
 config
 version
