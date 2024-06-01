@@ -101,7 +101,9 @@ bytes
 param
 memoryUnit
 the
-unit
+[
+MemoryUnit
+]
 the
 value
 is

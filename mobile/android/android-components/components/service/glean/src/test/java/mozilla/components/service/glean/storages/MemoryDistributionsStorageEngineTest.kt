@@ -456,7 +456,7 @@ distributions
 )
 {
 val
-td
+md
 =
 FunctionalHistogram
 (
@@ -545,7 +545,7 @@ store1
 #
 telemetry
 .
-invalid_td_values
+invalid_md_values
 "
 to
 "
@@ -583,7 +583,7 @@ store1
 #
 telemetry
 .
-invalid_td_sum
+invalid_md_sum
 "
 to
 "
@@ -617,7 +617,7 @@ telemetry
 test_memory_distribution
 "
 to
-td
+md
 .
 toJsonObject
 (
@@ -828,7 +828,7 @@ size
 )
 assertEquals
 (
-td
+md
 .
 toJsonObject
 (
@@ -1019,12 +1019,12 @@ comparison
 purposes
 .
 val
-td
+md
 =
 FunctionalHistogram
 (
 )
-td
+md
 .
 accumulate
 (
@@ -1091,7 +1091,7 @@ identifier
 "
 :
 {
-td
+md
 .
 toJsonPayloadObject
 (
@@ -1145,12 +1145,12 @@ getApplicationContext
 (
 )
 val
-td
+md
 =
 FunctionalHistogram
 (
 )
-td
+md
 .
 accumulate
 (
@@ -1196,7 +1196,7 @@ test_memory_distribution
 "
 :
 {
-td
+md
 .
 toJsonPayloadObject
 (
