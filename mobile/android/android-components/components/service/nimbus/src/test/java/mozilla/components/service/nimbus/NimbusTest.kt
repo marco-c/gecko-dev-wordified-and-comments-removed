@@ -417,6 +417,13 @@ listOf
 (
 EnrolledExperiment
 (
+enrollmentId
+=
+"
+enrollment
+-
+id
+"
 slug
 =
 "
@@ -569,7 +576,12 @@ NimbusDisabled
 )
 nimbus
 .
-updateExperiments
+fetchExperiments
+(
+)
+nimbus
+.
+applyPendingExperiments
 (
 )
 assertTrue

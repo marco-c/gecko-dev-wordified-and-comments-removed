@@ -298,9 +298,9 @@ val
 mozilla_appservices
 =
 "
-67
+69
 .
-2
+0
 .
 0
 "
