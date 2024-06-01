@@ -1001,7 +1001,7 @@ Lifecycle
 .
 Event
 .
-ON_RESUME
+ON_START
 )
 click
 .
