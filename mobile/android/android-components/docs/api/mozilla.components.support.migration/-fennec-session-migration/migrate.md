@@ -86,14 +86,12 @@ html
 )
 :
 [
-MigrationResult
+Result
 ]
 (
 .
 .
 /
--
-migration
 -
 result
 /
@@ -265,7 +263,7 @@ md
 wrapped
 in
 [
-MigrationResult
+Result
 .
 Success
 ]
@@ -273,8 +271,6 @@ Success
 .
 .
 /
--
-migration
 -
 result
 /
