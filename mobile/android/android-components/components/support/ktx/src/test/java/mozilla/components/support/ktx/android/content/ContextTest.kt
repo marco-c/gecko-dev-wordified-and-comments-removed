@@ -253,6 +253,8 @@ test
 .
 fakes
 .
+android
+.
 FakeContext
 import
 mozilla

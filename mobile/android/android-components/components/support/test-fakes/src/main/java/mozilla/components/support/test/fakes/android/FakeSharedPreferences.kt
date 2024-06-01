@@ -66,6 +66,8 @@ support
 test
 .
 fakes
+.
+android
 import
 android
 .

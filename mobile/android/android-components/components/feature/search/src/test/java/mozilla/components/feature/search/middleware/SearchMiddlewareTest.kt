@@ -247,6 +247,8 @@ test
 .
 fakes
 .
+android
+.
 FakeSharedPreferences
 import
 mozilla

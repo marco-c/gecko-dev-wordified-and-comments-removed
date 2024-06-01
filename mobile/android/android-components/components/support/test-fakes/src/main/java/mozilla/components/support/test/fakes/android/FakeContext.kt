@@ -66,6 +66,8 @@ support
 test
 .
 fakes
+.
+android
 import
 android
 .
@@ -303,6 +305,15 @@ access
 .
 *
 /
+Suppress
+(
+"
+LargeClass
+"
+"
+TooManyFunctions
+"
+)
 open
 class
 FakeContext

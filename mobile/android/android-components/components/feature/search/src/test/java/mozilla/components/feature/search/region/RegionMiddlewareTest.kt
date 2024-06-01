@@ -161,6 +161,8 @@ test
 .
 fakes
 .
+android
+.
 FakeContext
 import
 mozilla
@@ -172,6 +174,8 @@ support
 test
 .
 fakes
+.
+android
 .
 FakeSharedPreferences
 import
