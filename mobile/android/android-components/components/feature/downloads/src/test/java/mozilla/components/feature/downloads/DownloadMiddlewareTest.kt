@@ -372,6 +372,14 @@ mockito
 Mockito
 .
 never
+import
+org
+.
+mockito
+.
+Mockito
+.
+spy
 RunWith
 (
 AndroidJUnit4
@@ -465,6 +473,8 @@ mock
 val
 downloadMiddleware
 =
+spy
+(
 DownloadMiddleware
 (
 applicationContext
@@ -481,6 +491,7 @@ downloadStorage
 =
 mock
 (
+)
 )
 )
 val
@@ -547,10 +558,10 @@ Intent
 )
 verify
 (
-applicationContext
+downloadMiddleware
 )
 .
-startService
+startForegroundService
 (
 intentCaptor
 .
