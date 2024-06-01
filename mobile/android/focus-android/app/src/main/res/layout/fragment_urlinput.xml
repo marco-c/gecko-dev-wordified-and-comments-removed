@@ -685,7 +685,7 @@ textColorHint
 "
 color
 /
-inactive_text
+colorTextInactive
 "
 android
 :
@@ -969,7 +969,7 @@ background
 "
 color
 /
-colorUrlInputBackground
+colorOverlay
 "
 android
 :

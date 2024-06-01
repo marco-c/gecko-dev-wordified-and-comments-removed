@@ -147,7 +147,7 @@ R
 .
 color
 .
-inactive_text
+colorTextInactive
 )
 )
 ;
