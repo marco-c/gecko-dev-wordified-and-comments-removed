@@ -223,6 +223,14 @@ coroutines
 .
 test
 .
+runBlockingTest
+import
+kotlinx
+.
+coroutines
+.
+test
+.
 setMain
 import
 mozilla
@@ -9344,6 +9352,8 @@ system
 database
 (
 )
+=
+runBlockingTest
 {
 val
 download
@@ -9445,6 +9455,7 @@ Status
 .
 COMPLETED
 downloadJobState
+this
 )
 verify
 (
@@ -9521,6 +9532,8 @@ be
 called
 (
 )
+=
+runBlockingTest
 {
 val
 download
@@ -9693,6 +9706,7 @@ Status
 .
 COMPLETED
 downloadJobState
+this
 )
 verify
 (
@@ -10269,6 +10283,8 @@ to
 addCompletedDownload
 (
 )
+=
+runBlockingTest
 {
 val
 download
@@ -10382,6 +10398,7 @@ service
 addToDownloadSystemDatabaseCompat
 (
 download
+this
 )
 verify
 (
@@ -10449,6 +10466,8 @@ to
 addCompletedDownload
 (
 )
+=
+runBlockingTest
 {
 val
 download
@@ -10551,6 +10570,7 @@ service
 addToDownloadSystemDatabaseCompat
 (
 download
+this
 )
 verify
 (

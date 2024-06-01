@@ -2121,6 +2121,14 @@ Status
 download
 :
 DownloadJobState
+scope
+:
+CoroutineScope
+=
+CoroutineScope
+(
+IO
+)
 )
 {
 val
@@ -2179,6 +2187,7 @@ addToDownloadSystemDatabaseCompat
 download
 .
 state
+scope
 )
 DownloadNotification
 .
@@ -2533,6 +2542,14 @@ addToDownloadSystemDatabaseCompat
 download
 :
 DownloadState
+scope
+:
+CoroutineScope
+=
+CoroutineScope
+(
+IO
+)
 )
 {
 if
@@ -2617,6 +2634,10 @@ url
 toUri
 (
 )
+scope
+.
+launch
+{
 addCompletedDownload
 (
 title
@@ -2690,6 +2711,7 @@ toUri
 (
 )
 )
+}
 }
 }
 VisibleForTesting
