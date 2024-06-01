@@ -310,6 +310,7 @@ copy
 (
 tabIds
 =
+(
 it
 .
 tabIds
@@ -317,6 +318,11 @@ tabIds
 action
 .
 tabId
+)
+.
+distinct
+(
+)
 )
 }
 }
@@ -374,6 +380,10 @@ tabIds
 action
 .
 tabIds
+.
+distinct
+(
+)
 )
 )
 }
@@ -397,6 +407,7 @@ copy
 (
 tabIds
 =
+(
 it
 .
 tabIds
@@ -404,6 +415,11 @@ tabIds
 action
 .
 tabIds
+)
+.
+distinct
+(
+)
 )
 }
 }
