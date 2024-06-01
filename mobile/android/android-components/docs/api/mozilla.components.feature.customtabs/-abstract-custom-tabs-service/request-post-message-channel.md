@@ -74,7 +74,6 @@ postMessageOrigin
 ERROR
 CLASS
 >
-?
 )
 :
 [

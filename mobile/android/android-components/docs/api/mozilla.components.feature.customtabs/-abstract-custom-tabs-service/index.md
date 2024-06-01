@@ -437,7 +437,6 @@ index
 .
 html
 )
-?
 args
 :
 <
@@ -480,7 +479,6 @@ url
 ERROR
 CLASS
 >
-?
 extras
 :
 <
@@ -491,7 +489,7 @@ CLASS
 otherLikelyBundles
 :
 [
-MutableList
+List
 ]
 (
 https
@@ -514,8 +512,6 @@ kotlin
 .
 collections
 /
--
-mutable
 -
 list
 /
@@ -732,7 +728,6 @@ index
 .
 html
 )
-?
 extras
 :
 <
@@ -896,7 +891,6 @@ postMessageOrigin
 ERROR
 CLASS
 >
-?
 )
 :
 [

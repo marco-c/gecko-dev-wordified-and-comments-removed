@@ -72,7 +72,6 @@ url
 ERROR
 CLASS
 >
-?
 extras
 :
 <
@@ -83,7 +82,7 @@ CLASS
 otherLikelyBundles
 :
 [
-MutableList
+List
 ]
 (
 https
@@ -106,8 +105,6 @@ kotlin
 .
 collections
 /
--
-mutable
 -
 list
 /
@@ -203,5 +200,5 @@ AbstractCustomTabsService
 .
 kt
 #
-L91
+L89
 )
