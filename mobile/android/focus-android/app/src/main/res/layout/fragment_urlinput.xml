@@ -200,6 +200,16 @@ elevation
 LinearLayout
 android
 :
+id
+=
+"
++
+id
+/
+urlbar_background
+"
+android
+:
 layout_width
 =
 "
