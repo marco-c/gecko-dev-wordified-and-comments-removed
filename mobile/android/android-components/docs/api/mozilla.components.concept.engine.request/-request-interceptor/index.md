@@ -150,7 +150,7 @@ index
 md
 )
 |
-data
+sealed
 class
 ErrorResponse
 <
