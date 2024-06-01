@@ -61,7 +61,7 @@ updateRecentApp
 fun
 updateRecentApp
 (
-selectedPackageName
+selectedActivityName
 :
 [
 String

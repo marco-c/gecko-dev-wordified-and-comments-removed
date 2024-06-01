@@ -65,7 +65,7 @@ updateDatabaseWithNewApps
 fun
 updateDatabaseWithNewApps
 (
-packageNames
+activityNames
 :
 [
 List

@@ -127,10 +127,10 @@ Summary
 |
 |
 [
-packageName
+activityName
 ]
 (
-package
+activity
 -
 name
 .
@@ -139,7 +139,7 @@ md
 |
 abstract
 val
-packageName
+activityName
 :
 [
 String
@@ -174,7 +174,7 @@ html
 br
 >
 The
-packageName
+activityName
 of
 the
 recent

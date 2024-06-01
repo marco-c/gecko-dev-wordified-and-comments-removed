@@ -313,7 +313,7 @@ L191
 )
 Overrides
 [
-EngineSession
+DataCleanable
 .
 clearData
 ]
@@ -333,9 +333,9 @@ concept
 engine
 /
 -
-engine
+data
 -
-session
+cleanable
 /
 clear
 -
@@ -365,9 +365,9 @@ concept
 engine
 /
 -
-engine
+data
 -
-session
+cleanable
 /
 clear
 -
