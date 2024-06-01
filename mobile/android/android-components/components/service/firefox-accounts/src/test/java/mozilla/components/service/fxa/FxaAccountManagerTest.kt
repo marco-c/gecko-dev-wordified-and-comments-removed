@@ -713,6 +713,7 @@ over
 an
 interface
 .
+internal
 open
 class
 TestableFxaAccountManager
@@ -782,6 +783,7 @@ syncConfig
 emptySet
 (
 )
+null
 coroutineContext
 )
 {

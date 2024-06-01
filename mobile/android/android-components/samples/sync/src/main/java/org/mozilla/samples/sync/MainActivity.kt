@@ -579,6 +579,9 @@ DeviceCapability
 .
 SEND_TAB
 )
+secureStateAtRest
+=
+true
 )
 SyncConfig
 (
