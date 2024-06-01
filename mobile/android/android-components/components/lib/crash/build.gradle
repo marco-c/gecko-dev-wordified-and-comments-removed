@@ -359,10 +359,6 @@ compileOnly
 Dependencies
 .
 thirdparty_sentry
-compileOnly
-Gecko
-.
-geckoview_nightly
 testImplementation
 Dependencies
 .
