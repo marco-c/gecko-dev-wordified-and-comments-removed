@@ -160,8 +160,6 @@ class
 class
 HomeMenuAdapter
 (
-private
-val
 context
 :
 Context
@@ -193,19 +191,8 @@ List
 <
 MenuItem
 >
-init
-{
-items
 =
-mutableListOf
-(
-)
-with
-(
-items
-)
-{
-add
+listOf
 (
 MenuItem
 (
@@ -228,9 +215,6 @@ string
 menu_whats_new
 )
 )
-)
-add
-(
 MenuItem
 (
 R
@@ -252,9 +236,6 @@ string
 menu_help
 )
 )
-)
-add
-(
 MenuItem
 (
 R
@@ -277,8 +258,6 @@ menu_settings
 )
 )
 )
-}
-}
 override
 fun
 onCreateViewHolder
@@ -303,6 +282,10 @@ LayoutInflater
 .
 from
 (
+parent
+!
+!
+.
 context
 )
 .
@@ -439,6 +422,7 @@ position
 ]
 .
 viewType
+}
 /
 *
 *
@@ -617,7 +601,7 @@ updated
 =
 WhatsNew
 .
-wasUpdatedRecently
+shouldHighlightWhatsNew
 (
 itemView
 .
@@ -693,4 +677,3 @@ label
 :
 String
 )
-}

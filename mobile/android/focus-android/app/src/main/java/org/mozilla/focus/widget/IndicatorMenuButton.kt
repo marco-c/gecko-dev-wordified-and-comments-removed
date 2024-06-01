@@ -174,7 +174,7 @@ if
 (
 WhatsNew
 .
-wasUpdatedRecently
+shouldHighlightWhatsNew
 (
 context
 )
