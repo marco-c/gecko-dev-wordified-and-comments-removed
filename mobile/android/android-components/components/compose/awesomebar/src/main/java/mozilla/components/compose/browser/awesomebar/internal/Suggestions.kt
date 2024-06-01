@@ -113,6 +113,18 @@ mozilla
 .
 components
 .
+compose
+.
+browser
+.
+awesomebar
+.
+AwesomeBarOrientation
+import
+mozilla
+.
+components
+.
 concept
 .
 awesomebar
@@ -134,6 +146,9 @@ Suggestion
 colors
 :
 AwesomeBarColors
+orientation
+:
+AwesomeBarOrientation
 onSuggestionClicked
 :
 (
@@ -170,6 +185,7 @@ Suggestion
 (
 suggestion
 colors
+orientation
 onSuggestionClicked
 onAutoComplete
 )
