@@ -184,6 +184,10 @@ kotlin_coroutines
 implementation
 Dependencies
 .
+androidx_core_ktx
+implementation
+Dependencies
+.
 androidx_compose_ui
 implementation
 Dependencies
