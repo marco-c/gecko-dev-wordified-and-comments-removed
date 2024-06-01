@@ -139,7 +139,7 @@ gradlew
 clean
 '
 '
-assembleGeckoNightly
+assembleGecko
 '
 '
 assembleAndroidTest
