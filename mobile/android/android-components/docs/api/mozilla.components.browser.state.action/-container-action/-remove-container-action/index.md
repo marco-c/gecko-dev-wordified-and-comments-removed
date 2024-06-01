@@ -132,7 +132,7 @@ BrowserAction
 .
 kt
 #
-L605
+L615
 )
 Removes
 all

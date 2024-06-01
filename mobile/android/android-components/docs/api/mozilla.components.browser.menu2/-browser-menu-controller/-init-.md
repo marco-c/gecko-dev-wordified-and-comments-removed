@@ -34,7 +34,7 @@ md
 )
 /
 [
-MenuController
+BrowserMenuController
 ]
 (
 index
@@ -68,7 +68,7 @@ init
 &
 gt
 ;
-MenuController
+BrowserMenuController
 (
 visibleSide
 :
