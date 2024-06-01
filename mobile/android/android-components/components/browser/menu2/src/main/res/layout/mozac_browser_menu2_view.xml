@@ -151,7 +151,7 @@ android
 layout_width
 =
 "
-match_parent
+wrap_content
 "
 android
 :
@@ -185,7 +185,7 @@ android
 layout_width
 =
 "
-match_parent
+wrap_content
 "
 android
 :
@@ -261,7 +261,9 @@ android
 layout_width
 =
 "
-match_parent
+dimen
+/
+mozac_browser_menu2_width
 "
 android
 :
@@ -269,13 +271,6 @@ layout_height
 =
 "
 wrap_content
-"
-android
-:
-overScrollMode
-=
-"
-never
 "
 tools
 :
