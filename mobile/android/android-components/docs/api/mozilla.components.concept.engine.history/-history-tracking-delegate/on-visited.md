@@ -94,10 +94,10 @@ index
 .
 html
 )
-type
+visit
 :
 [
-VisitType
+PageVisit
 ]
 (
 .
@@ -115,9 +115,9 @@ concept
 storage
 /
 -
-visit
+page
 -
-type
+visit
 /
 index
 .

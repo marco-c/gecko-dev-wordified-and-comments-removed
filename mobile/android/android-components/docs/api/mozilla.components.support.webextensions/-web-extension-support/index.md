@@ -97,7 +97,7 @@ WebExtensionSupport
 .
 kt
 #
-L20
+L22
 )
 Provides
 functionality

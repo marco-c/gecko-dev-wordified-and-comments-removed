@@ -175,7 +175,7 @@ PlacesHistoryStorage
 .
 kt
 #
-L29
+L31
 )
 Implementation
 of
@@ -2362,10 +2362,10 @@ index
 .
 html
 )
-visitType
+visit
 :
 [
-VisitType
+PageVisit
 ]
 (
 .
@@ -2383,9 +2383,9 @@ concept
 storage
 /
 -
-visit
+page
 -
-type
+visit
 /
 index
 .

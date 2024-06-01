@@ -97,7 +97,7 @@ ToolbarPresenter
 .
 kt
 #
-L27
+L29
 )
 Presenter
 implementation
@@ -118,6 +118,9 @@ of
 the
 selected
 session
+or
+web
+extensions
 changes
 .
 #
@@ -301,6 +304,9 @@ of
 the
 selected
 session
+or
+web
+extensions
 changes
 .
 |

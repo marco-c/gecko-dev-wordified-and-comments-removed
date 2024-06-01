@@ -131,7 +131,7 @@ InMemoryHistoryStorage
 .
 kt
 #
-L25
+L27
 )
 An
 in
@@ -2346,10 +2346,10 @@ index
 .
 html
 )
-visitType
+visit
 :
 [
-VisitType
+PageVisit
 ]
 (
 .
@@ -2367,9 +2367,9 @@ concept
 storage
 /
 -
-visit
+page
 -
-type
+visit
 /
 index
 .
