@@ -258,6 +258,7 @@ functions
 .
 Function0
 ;
+Deprecated
 public
 class
 Telemetry

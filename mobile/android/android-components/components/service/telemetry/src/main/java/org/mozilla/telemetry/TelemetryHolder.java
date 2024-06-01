@@ -5,6 +5,7 @@ mozilla
 .
 telemetry
 ;
+Deprecated
 public
 class
 TelemetryHolder
