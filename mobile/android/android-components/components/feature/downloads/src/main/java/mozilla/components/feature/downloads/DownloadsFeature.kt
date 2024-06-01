@@ -1571,6 +1571,12 @@ fragmentManager
 !
 =
 null
+&
+&
+!
+fragmentManager
+.
+isDestroyed
 )
 {
 dialog
@@ -1759,6 +1765,12 @@ fragmentManager
 !
 =
 null
+&
+&
+!
+fragmentManager
+.
+isDestroyed
 )
 {
 appChooserDialog
