@@ -87,7 +87,7 @@ RecyclerView
 br
 >
 [
-RecylerView
+RecyclerView
 ]
 (
 #

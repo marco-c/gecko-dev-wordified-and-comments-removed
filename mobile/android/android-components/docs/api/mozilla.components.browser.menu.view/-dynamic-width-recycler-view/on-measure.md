@@ -207,5 +207,5 @@ DynamicWidthRecyclerView
 .
 kt
 #
-L34
+L27
 )

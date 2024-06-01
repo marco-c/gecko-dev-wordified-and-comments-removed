@@ -89,7 +89,7 @@ CLASS
 null
 )
 [
-RecylerView
+RecyclerView
 ]
 (
 #

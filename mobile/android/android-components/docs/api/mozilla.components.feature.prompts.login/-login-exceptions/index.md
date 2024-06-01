@@ -23,6 +23,8 @@ components
 feature
 .
 prompts
+.
+login
 ]
 (
 .
@@ -92,6 +94,8 @@ components
 feature
 /
 prompts
+/
+login
 /
 LoginExceptions
 .

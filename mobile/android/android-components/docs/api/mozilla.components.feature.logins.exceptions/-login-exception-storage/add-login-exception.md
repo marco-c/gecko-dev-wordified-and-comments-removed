@@ -199,6 +199,8 @@ components
 feature
 .
 prompts
+.
+login
 /
 -
 login
