@@ -123,9 +123,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -243,7 +247,7 @@ lateinit
 var
 download
 :
-Download
+DownloadState
 private
 lateinit
 var
@@ -258,7 +262,7 @@ setup
 {
 download
 =
-Download
+DownloadState
 (
 "
 http

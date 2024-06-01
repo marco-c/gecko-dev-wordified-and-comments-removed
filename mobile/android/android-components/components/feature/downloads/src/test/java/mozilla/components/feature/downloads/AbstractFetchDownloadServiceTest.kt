@@ -111,9 +111,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -376,7 +380,7 @@ runBlocking
 val
 download
 =
-Download
+DownloadState
 (
 "
 https
@@ -509,7 +513,7 @@ providedDownload
 =
 argumentCaptor
 <
-Download
+DownloadState
 >
 (
 )

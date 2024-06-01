@@ -394,7 +394,17 @@ _
 _
 -
 >
+onCancelDownload
+(
+)
 dismiss
+(
+)
+}
+.
+setOnCancelListener
+{
+onCancelDownload
 (
 )
 }

@@ -79,9 +79,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -100,7 +104,7 @@ typealias
 OnDownloadCompleted
 =
 (
-Download
+DownloadState
 Long
 )
 -
@@ -174,7 +178,7 @@ download
 (
 download
 :
-Download
+DownloadState
 cookie
 :
 String

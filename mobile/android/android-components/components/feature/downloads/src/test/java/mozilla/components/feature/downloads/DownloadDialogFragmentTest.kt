@@ -83,9 +83,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -157,7 +161,7 @@ lateinit
 var
 download
 :
-Download
+DownloadState
 Before
 fun
 setup
@@ -175,7 +179,7 @@ DownloadDialogFragment
 }
 download
 =
-Download
+DownloadState
 (
 "
 http

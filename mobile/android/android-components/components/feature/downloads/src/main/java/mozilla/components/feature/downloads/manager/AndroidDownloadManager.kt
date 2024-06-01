@@ -183,9 +183,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -323,7 +327,7 @@ queuedDownloads
 =
 LongSparseArray
 <
-Download
+DownloadState
 >
 (
 )
@@ -405,7 +409,7 @@ download
 (
 download
 :
-Download
+DownloadState
 cookie
 :
 String
@@ -705,7 +709,7 @@ unregisterListeners
 }
 private
 fun
-Download
+DownloadState
 .
 toAndroidRequest
 (

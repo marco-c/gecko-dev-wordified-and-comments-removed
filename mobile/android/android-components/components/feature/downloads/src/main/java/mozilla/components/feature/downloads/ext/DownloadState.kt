@@ -81,9 +81,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -158,8 +162,9 @@ java
 net
 .
 URLConnection
+internal
 fun
-Download
+DownloadState
 .
 isScheme
 (
@@ -241,8 +246,9 @@ body
 .
 *
 /
+internal
 fun
-Download
+DownloadState
 .
 withResponse
 (
@@ -255,7 +261,7 @@ InputStream
 ?
 )
 :
-Download
+DownloadState
 {
 val
 contentDisposition

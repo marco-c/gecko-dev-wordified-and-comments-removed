@@ -87,9 +87,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -217,7 +221,7 @@ putDownloadExtra
 (
 download
 :
-Download
+DownloadState
 )
 {
 download
@@ -261,7 +265,7 @@ getDownloadExtra
 (
 )
 :
-Download
+DownloadState
 ?
 =
 getBundleExtra
@@ -308,7 +312,7 @@ null
 )
 return
 null
-Download
+DownloadState
 (
 url
 =

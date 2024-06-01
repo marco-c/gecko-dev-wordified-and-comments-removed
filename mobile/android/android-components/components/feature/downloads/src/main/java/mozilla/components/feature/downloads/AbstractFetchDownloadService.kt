@@ -195,9 +195,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -589,7 +593,7 @@ performDownload
 (
 download
 :
-Download
+DownloadState
 )
 =
 withContext
@@ -813,7 +817,7 @@ useFileStream
 (
 download
 :
-Download
+DownloadState
 block
 :
 (
@@ -865,7 +869,7 @@ useFileStreamScopedStorage
 (
 download
 :
-Download
+DownloadState
 block
 :
 (
@@ -1035,7 +1039,7 @@ useFileStreamLegacy
 (
 download
 :
-Download
+DownloadState
 block
 :
 (
