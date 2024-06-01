@@ -1728,11 +1728,12 @@ String
 )
 :
 CrashReporterService
+?
 {
 return
 services
 .
-first
+firstOrNull
 {
 it
 .
