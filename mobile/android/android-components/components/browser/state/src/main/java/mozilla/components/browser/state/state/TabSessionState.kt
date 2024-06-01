@@ -589,6 +589,12 @@ MediaSessionState
 ?
 =
 null
+historyMetadata
+:
+HistoryMetadataKey
+?
+=
+null
 )
 :
 TabSessionState
@@ -650,5 +656,8 @@ crashed
 mediaSessionState
 =
 mediaSessionState
+historyMetadata
+=
+historyMetadata
 )
 }
