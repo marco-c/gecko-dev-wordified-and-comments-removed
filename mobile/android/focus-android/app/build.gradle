@@ -52,6 +52,13 @@ runner
 .
 AndroidJUnitRunner
 "
+multiDexEnabled
+true
+}
+dexOptions
+{
+preDexLibraries
+true
 }
 /
 /
