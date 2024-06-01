@@ -695,6 +695,11 @@ to
 readableColor
 toolbar
 .
+trackingProtectionColor
+=
+readableColor
+toolbar
+.
 menuViewColor
 =
 readableColor
