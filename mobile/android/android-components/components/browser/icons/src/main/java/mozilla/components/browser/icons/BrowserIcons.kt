@@ -1094,7 +1094,10 @@ installWebExtension
 id
 =
 "
-mozacBrowserIcons
+icons
+mozac
+.
+org
 "
 url
 =
@@ -1114,9 +1117,6 @@ browser
 icons
 /
 "
-allowContentMessaging
-=
-true
 onSuccess
 =
 {

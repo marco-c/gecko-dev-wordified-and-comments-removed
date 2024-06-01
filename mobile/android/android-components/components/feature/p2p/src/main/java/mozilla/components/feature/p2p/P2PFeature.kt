@@ -690,6 +690,7 @@ WebExtensionController
 (
 P2P_EXTENSION_ID
 P2P_EXTENSION_URL
+P2P_MESSAGING_ID
 )
 registerP2PContentMessageHandler
 (
@@ -957,6 +958,18 @@ internal
 const
 val
 P2P_EXTENSION_ID
+=
+"
+p2p
+mozac
+.
+org
+"
+VisibleForTesting
+internal
+const
+val
+P2P_MESSAGING_ID
 =
 "
 mozacP2P

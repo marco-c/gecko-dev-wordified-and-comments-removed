@@ -1528,12 +1528,6 @@ String
 url
 :
 String
-allowContentMessaging
-:
-Boolean
-supportActions
-:
-Boolean
 onSuccess
 :
 (
@@ -1567,8 +1561,8 @@ GeckoWebExtension
 id
 url
 runtime
-allowContentMessaging
-supportActions
+true
+true
 )
 return
 installWebExtension

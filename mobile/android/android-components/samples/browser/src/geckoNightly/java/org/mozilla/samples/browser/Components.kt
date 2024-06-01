@@ -275,7 +275,10 @@ it
 installWebExtension
 (
 "
-mozacBorderify
+borderify
+mozac
+.
+org
 "
 "
 resource
@@ -323,7 +326,10 @@ it
 installWebExtension
 (
 "
-mozacTest
+testext
+mozac
+.
+org
 "
 "
 resource
@@ -339,9 +345,6 @@ extensions
 test
 /
 "
-supportActions
-=
-true
 )
 {
 ext

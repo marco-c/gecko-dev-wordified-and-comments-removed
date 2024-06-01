@@ -195,9 +195,6 @@ installWebExtension
 (
 WEBCOMPAT_REPORTER_EXTENSION_ID
 WEBCOMPAT_REPORTER_EXTENSION_URL
-supportActions
-=
-true
 onSuccess
 =
 {

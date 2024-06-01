@@ -242,6 +242,17 @@ id
 "
 private
 val
+messagingId
+=
+"
+test
+-
+messaging
+-
+id
+"
+private
+val
 extensionUrl
 =
 "
@@ -285,6 +296,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 var
 onSuccessInvoked
@@ -366,14 +378,6 @@ eq
 (
 extensionUrl
 )
-eq
-(
-true
-)
-eq
-(
-false
-)
 onSuccess
 .
 capture
@@ -449,14 +453,6 @@ extensionId
 eq
 (
 extensionUrl
-)
-eq
-(
-true
-)
-eq
-(
-false
 )
 onSuccess
 .
@@ -513,6 +509,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 WebExtensionController
 .
@@ -553,7 +550,7 @@ extension
 registerContentMessageHandler
 (
 session
-extensionId
+messagingId
 messageHandler
 )
 }
@@ -585,6 +582,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 controller
 .
@@ -644,14 +642,6 @@ eq
 (
 extensionUrl
 )
-eq
-(
-true
-)
-eq
-(
-false
-)
 onSuccess
 .
 capture
@@ -710,7 +700,7 @@ extension
 registerContentMessageHandler
 (
 session
-extensionId
+messagingId
 messageHandler
 )
 }
@@ -729,6 +719,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 val
 message
@@ -768,7 +759,7 @@ extension
 .
 getConnectedPort
 (
-extensionId
+messagingId
 session
 )
 )
@@ -871,6 +862,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 WebExtensionController
 .
@@ -901,7 +893,7 @@ extension
 .
 registerBackgroundMessageHandler
 (
-extensionId
+messagingId
 messageHandler
 )
 }
@@ -933,6 +925,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 controller
 .
@@ -992,14 +985,6 @@ eq
 (
 extensionUrl
 )
-eq
-(
-true
-)
-eq
-(
-false
-)
 onSuccess
 .
 capture
@@ -1048,7 +1033,7 @@ extension
 .
 registerBackgroundMessageHandler
 (
-extensionId
+messagingId
 messageHandler
 )
 }
@@ -1067,6 +1052,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 val
 message
@@ -1098,7 +1084,7 @@ extension
 .
 getConnectedPort
 (
-extensionId
+messagingId
 )
 )
 .
@@ -1168,6 +1154,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 val
 extension
@@ -1191,7 +1178,7 @@ extension
 .
 getConnectedPort
 (
-extensionId
+messagingId
 session
 )
 )
@@ -1283,6 +1270,7 @@ WebExtensionController
 (
 extensionId
 extensionUrl
+messagingId
 )
 controller
 .
@@ -1302,7 +1290,7 @@ disconnectPort
 (
 eq
 (
-extensionId
+messagingId
 )
 any
 (
@@ -1334,7 +1322,7 @@ disconnectPort
 (
 eq
 (
-extensionId
+messagingId
 )
 eq
 (
@@ -1368,7 +1356,7 @@ disconnectPort
 (
 eq
 (
-extensionId
+messagingId
 )
 eq
 (

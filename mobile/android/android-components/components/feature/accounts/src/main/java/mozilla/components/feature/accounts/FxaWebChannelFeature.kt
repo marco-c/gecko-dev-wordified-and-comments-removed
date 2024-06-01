@@ -630,6 +630,7 @@ WebExtensionController
 (
 WEB_CHANNEL_EXTENSION_ID
 WEB_CHANNEL_EXTENSION_URL
+WEB_CHANNEL_MESSAGING_ID
 )
 override
 fun
@@ -1391,6 +1392,17 @@ internal
 const
 val
 WEB_CHANNEL_EXTENSION_ID
+=
+"
+fxa
+mozac
+.
+org
+"
+internal
+const
+val
+WEB_CHANNEL_MESSAGING_ID
 =
 "
 mozacWebchannel

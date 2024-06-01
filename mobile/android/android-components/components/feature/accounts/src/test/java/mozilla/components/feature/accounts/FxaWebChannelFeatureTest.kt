@@ -587,14 +587,6 @@ FxaWebChannelFeature
 .
 WEB_CHANNEL_EXTENSION_URL
 )
-eq
-(
-true
-)
-eq
-(
-false
-)
 onSuccess
 .
 capture
@@ -654,14 +646,6 @@ eq
 FxaWebChannelFeature
 .
 WEB_CHANNEL_EXTENSION_URL
-)
-eq
-(
-true
-)
-eq
-(
-false
 )
 any
 (
@@ -959,7 +943,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -1150,7 +1134,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -1360,7 +1344,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -1601,7 +1585,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -1961,7 +1945,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -2316,7 +2300,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -2629,7 +2613,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -2905,7 +2889,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -3169,7 +3153,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -3422,7 +3406,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -3695,7 +3679,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
@@ -3990,7 +3974,7 @@ eq
 (
 FxaWebChannelFeature
 .
-WEB_CHANNEL_EXTENSION_ID
+WEB_CHANNEL_MESSAGING_ID
 )
 messageHandler
 .
