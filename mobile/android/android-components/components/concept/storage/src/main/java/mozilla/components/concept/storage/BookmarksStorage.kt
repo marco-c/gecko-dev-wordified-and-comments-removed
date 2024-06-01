@@ -541,7 +541,7 @@ title
 String
 position
 :
-Int
+UInt
 ?
 )
 :
@@ -638,7 +638,7 @@ title
 String
 position
 :
-Int
+UInt
 ?
 =
 null
@@ -722,7 +722,7 @@ parentGuid
 String
 position
 :
-Int
+UInt
 ?
 )
 :
@@ -980,7 +980,7 @@ String
 val
 position
 :
-Int
+UInt
 ?
 val
 title
@@ -1031,7 +1031,7 @@ String
 val
 position
 :
-Int
+UInt
 ?
 val
 title

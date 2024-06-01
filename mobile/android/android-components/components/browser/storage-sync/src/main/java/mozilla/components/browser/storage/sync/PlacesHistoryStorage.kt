@@ -99,6 +99,8 @@ appservices
 .
 places
 .
+uniffi
+.
 PlacesException
 import
 mozilla
@@ -106,6 +108,8 @@ mozilla
 appservices
 .
 places
+.
+uniffi
 .
 VisitObservation
 import
@@ -488,7 +492,7 @@ visit
 .
 visitType
 .
-into
+intoTransitionType
 (
 )
 isRedirectSource
@@ -561,9 +565,8 @@ return
 NB
 :
 visitType
-'
-UPDATE_PLACE
-'
+being
+null
 means
 "
 record
@@ -633,15 +636,7 @@ url
 uri
 visitType
 =
-mozilla
-.
-appservices
-.
-places
-.
-VisitType
-.
-UPDATE_PLACE
+null
 title
 =
 observation

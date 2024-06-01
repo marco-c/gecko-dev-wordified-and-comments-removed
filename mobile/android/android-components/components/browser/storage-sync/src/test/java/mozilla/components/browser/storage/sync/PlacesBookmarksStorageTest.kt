@@ -99,6 +99,8 @@ appservices
 .
 places
 .
+uniffi
+.
 PlacesException
 import
 mozilla
@@ -693,7 +695,7 @@ url
 "
 Mozilla
 "
-5
+5u
 )
 with
 (
@@ -776,7 +778,7 @@ back
 .
 assertEquals
 (
-0
+0u
 this
 .
 position
@@ -834,8 +836,7 @@ title
 null
 position
 =
--
-3
+9999u
 url
 =
 null
@@ -900,7 +901,7 @@ parentGuid
 )
 assertEquals
 (
-0
+0u
 this
 .
 position
@@ -933,7 +934,7 @@ bookmarks
 addSeparator
 (
 folderGuid
-1
+1u
 )
 with
 (
@@ -1199,7 +1200,7 @@ url
 "
 Mozilla
 "
-6
+6u
 )
 with
 (
@@ -1490,6 +1491,9 @@ this
 assertEquals
 (
 "
+Unexpected
+error
+:
 Can
 not
 import

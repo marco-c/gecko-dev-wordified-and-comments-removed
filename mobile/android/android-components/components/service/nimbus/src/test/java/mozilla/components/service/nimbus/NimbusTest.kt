@@ -215,8 +215,9 @@ disabled
 NimbusApi
 =
 NimbusDisabled
-.
-instance
+(
+context
+)
 val
 observer
 =
@@ -255,6 +256,7 @@ NimbusApi
 =
 NimbusDisabled
 (
+context
 )
 nimbus
 .

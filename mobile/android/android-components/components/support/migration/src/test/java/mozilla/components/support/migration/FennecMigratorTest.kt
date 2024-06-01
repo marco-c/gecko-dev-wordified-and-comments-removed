@@ -103,6 +103,8 @@ appservices
 .
 places
 .
+uniffi
+.
 PlacesException
 import
 mozilla
@@ -2517,6 +2519,8 @@ any
 thenThrow
 (
 PlacesException
+.
+InvalidParent
 (
 "
 test
@@ -2739,6 +2743,8 @@ any
 thenThrow
 (
 PlacesException
+.
+InvalidParent
 (
 "
 test
@@ -3042,6 +3048,8 @@ any
 thenThrow
 (
 PlacesException
+.
+InvalidParent
 (
 "
 test
@@ -3064,6 +3072,8 @@ any
 thenThrow
 (
 PlacesException
+.
+BookmarksCorruption
 (
 "
 test
