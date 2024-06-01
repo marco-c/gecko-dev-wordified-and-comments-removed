@@ -1,10 +1,4 @@
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -71,7 +65,7 @@ gradlew
 :
 [
 [
-text_type
+str
 ]
 ]
         
@@ -83,7 +77,7 @@ gradlew
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -97,7 +91,7 @@ gradlew
 :
 [
 [
-text_type
+str
 ]
 ]
         
@@ -108,7 +102,7 @@ workdir
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -139,7 +133,7 @@ name
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -148,7 +142,7 @@ path
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -157,7 +151,7 @@ key
 "
 )
 :
-text_type
+str
                 
 Optional
 (

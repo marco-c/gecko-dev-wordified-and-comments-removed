@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 datetime
 import
@@ -506,20 +500,17 @@ AttributeError
 raise
 Exception
 (
+f
 '
 version
 {
+version
 }
 does
 not
 follow
 semver
 '
-.
-format
-(
-version
-)
 )
     
 version_dict
@@ -682,7 +673,7 @@ if
 isinstance
 (
 object
-text_type
+str
 )
 :
         
@@ -734,6 +725,7 @@ else
 raise
 ValueError
 (
+f
 '
 Unsupported
 type
@@ -741,13 +733,9 @@ for
 object
 :
 {
+object
 }
 '
-.
-format
-(
-object
-)
 )
 transforms
 .

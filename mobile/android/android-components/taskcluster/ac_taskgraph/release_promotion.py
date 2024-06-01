@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 from
@@ -1059,6 +1053,7 @@ version_in_file
 raise
 ValueError
 (
+f
 "
 Version
 given
@@ -1066,6 +1061,7 @@ in
 tag
 (
 {
+version_string
 }
 )
 does
@@ -1079,15 +1075,10 @@ version
 txt
 (
 {
+version_in_file
 }
 )
 "
-.
-format
-(
-version_string
-version_in_file
-)
 )
     
 parameters
@@ -1097,16 +1088,13 @@ head_tag
 '
 ]
 =
+f
 '
 v
 {
+version_string
 }
 '
-.
-format
-(
-version_string
-)
     
 parameters
 [

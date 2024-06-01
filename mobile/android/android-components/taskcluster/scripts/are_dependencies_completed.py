@@ -46,25 +46,22 @@ dependencies_task_ids
     
 print
 (
+f
 '
 Fetching
 status
 of
 {
+len
+(
+dependencies_task_ids
+)
 }
 dependencies
 .
 .
 .
 '
-.
-format
-(
-len
-(
-dependencies_task_ids
-)
-)
 )
     
 state_per_task_ids
@@ -141,6 +138,7 @@ non_completed_tasks
 raise
 ValueError
 (
+f
 '
 Some
 tasks
@@ -149,13 +147,9 @@ not
 completed
 :
 {
+non_completed_tasks
 }
 '
-.
-format
-(
-non_completed_tasks
-)
 )
 def
 main

@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 from
@@ -164,16 +158,13 @@ modules
         
 import_module
 (
+f
 "
 .
 {
+module
 }
 "
-.
-format
-(
-module
-)
 package
 =
 __name__
@@ -454,21 +445,18 @@ else
 raise
 ValueError
 (
+f
 "
 Unsupported
 version
 type
 :
 {
-}
-"
-.
-format
-(
 version
 .
 version_type
-)
+}
+"
 )
         
 parameters
