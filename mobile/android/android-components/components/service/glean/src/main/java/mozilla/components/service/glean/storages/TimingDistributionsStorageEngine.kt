@@ -563,6 +563,12 @@ to
 nanoseconds
 *
 /
+Suppress
+(
+"
+ComplexMethod
+"
+)
 Synchronized
 fun
 accumulateSamples
@@ -1540,6 +1546,9 @@ ReturnCount
 "
 "
 ComplexMethod
+"
+"
+NestedBlockDepth
 "
 )
 internal
