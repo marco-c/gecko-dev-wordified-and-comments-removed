@@ -137,6 +137,16 @@ storage
 .
 Login
 import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
+LoginEntry
+import
 java
 .
 util
@@ -881,7 +891,7 @@ logins
 :
 List
 <
-Login
+LoginEntry
 >
 override
 val
@@ -896,7 +906,7 @@ val
 onConfirm
 :
 (
-Login
+LoginEntry
 )
 -
 >
