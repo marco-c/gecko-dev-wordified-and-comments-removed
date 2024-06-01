@@ -74,7 +74,9 @@ pings
 0
 -
 0
-history_sync
+history
+-
+sync
 :
 description
 :
@@ -165,7 +167,9 @@ components
 pull
 /
 3092
-bookmarks_sync
+bookmarks
+-
+sync
 :
 description
 :
