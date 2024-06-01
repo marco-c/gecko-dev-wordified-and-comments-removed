@@ -255,7 +255,7 @@ feature
 .
 tabs
 .
-TabsUseCases
+CustomTabsUseCases
 import
 mozilla
 .
@@ -613,9 +613,9 @@ manifest
 val
 addTabUseCase
 :
-TabsUseCases
+CustomTabsUseCases
 .
-AddNewTabUseCase
+AddWebAppTabUseCase
 =
 mock
 (
@@ -637,9 +637,6 @@ mozilla
 .
 com
 "
-selectTab
-=
-false
 source
 =
 SessionState
@@ -842,9 +839,9 @@ manifest
 val
 addTabUseCase
 :
-TabsUseCases
+CustomTabsUseCases
 .
-AddNewTabUseCase
+AddWebAppTabUseCase
 =
 mock
 (
@@ -888,9 +885,6 @@ mozilla
 .
 com
 "
-selectTab
-=
-false
 source
 =
 SessionState

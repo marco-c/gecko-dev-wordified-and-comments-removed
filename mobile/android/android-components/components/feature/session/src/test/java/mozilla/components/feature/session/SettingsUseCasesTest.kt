@@ -296,7 +296,7 @@ EngineAction
 .
 LinkEngineSessionAction
 (
-sessionId
+tabId
 =
 "
 A
@@ -318,7 +318,7 @@ EngineAction
 .
 LinkEngineSessionAction
 (
-sessionId
+tabId
 =
 "
 B

@@ -285,16 +285,6 @@ project
 (
 '
 :
-browser
--
-session
-'
-)
-testImplementation
-project
-(
-'
-:
 feature
 -
 session
