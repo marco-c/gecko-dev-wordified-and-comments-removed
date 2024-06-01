@@ -251,7 +251,7 @@ file
 .
 Test
 .
-testStringList
+stringList
 .
 add
 (
@@ -295,7 +295,7 @@ file
 .
 Test
 .
-testCounter
+counter
 .
 add
 (
@@ -406,7 +406,7 @@ extra_value_2
 }
 Test
 .
-testTimespan
+timespan
 .
 stop
 (

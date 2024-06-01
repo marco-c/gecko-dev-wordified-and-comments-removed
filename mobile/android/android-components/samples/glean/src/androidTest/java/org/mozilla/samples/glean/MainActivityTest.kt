@@ -307,7 +307,7 @@ assertTrue
 (
 GleanTestMetrics
 .
-testCounter
+counter
 .
 testHasValue
 (
@@ -318,7 +318,7 @@ assertEquals
 1
 GleanTestMetrics
 .
-testCounter
+counter
 .
 testGetValue
 (

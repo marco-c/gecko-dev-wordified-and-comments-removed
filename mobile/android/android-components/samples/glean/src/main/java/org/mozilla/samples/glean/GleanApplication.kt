@@ -288,7 +288,7 @@ applicationContext
 )
 Test
 .
-testTimespan
+timespan
 .
 start
 (

@@ -105,10 +105,6 @@ metrics
 0
 -
 0
-no_lint
-:
--
-COMMON_PREFIX
 browser
 .
 engagement
@@ -254,7 +250,7 @@ expires
 01
 test
 :
-test_string_list
+string_list
 :
 type
 :
@@ -298,7 +294,7 @@ expires
 01
 -
 01
-test_counter
+counter
 :
 type
 :
@@ -341,7 +337,7 @@ expires
 01
 -
 01
-test_timespan
+timespan
 :
 type
 :
