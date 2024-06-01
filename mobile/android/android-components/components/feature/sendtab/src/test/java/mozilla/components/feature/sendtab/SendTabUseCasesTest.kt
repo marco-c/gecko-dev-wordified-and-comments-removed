@@ -1681,6 +1681,8 @@ action
 fails
 (
 )
+=
+runBlockingTest
 {
 val
 useCases
@@ -1688,6 +1690,7 @@ useCases
 SendTabUseCases
 (
 manager
+coroutineContext
 )
 val
 device
@@ -1715,8 +1718,6 @@ example
 com
 "
 )
-runBlocking
-{
 useCases
 .
 sendToDeviceAsync
@@ -1847,7 +1848,6 @@ await
 (
 )
 )
-}
 }
 Test
 fun
