@@ -1583,7 +1583,7 @@ R
 .
 string
 .
-mozac_feature_addons_installed_section
+mozac_feature_addons_enabled
 )
 )
 itemsWithSections
