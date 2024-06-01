@@ -554,7 +554,7 @@ hitResult
 >
 hitResult
 .
-isLink
+isHttpLink
 (
 )
 &
@@ -712,7 +712,7 @@ hitResult
 >
 hitResult
 .
-isLink
+isHttpLink
 (
 )
 }
@@ -1696,7 +1696,7 @@ hitResult
 >
 hitResult
 .
-isLink
+isUri
 (
 )
 }
@@ -1932,7 +1932,7 @@ hitResult
 >
 hitResult
 .
-isLink
+isUri
 (
 )
 }
@@ -2382,7 +2382,7 @@ private
 fun
 HitResult
 .
-isLink
+isUri
 (
 )
 :
@@ -2410,6 +2410,19 @@ is
 HitResult
 .
 IMAGE_SRC
+)
+private
+fun
+HitResult
+.
+isHttpLink
+(
+)
+:
+Boolean
+=
+isUri
+(
 )
 &
 &
@@ -2461,7 +2474,7 @@ htm
 "
 )
 return
-isLink
+isHttpLink
 (
 )
 &
@@ -2558,7 +2571,7 @@ Boolean
 {
 if
 (
-isLink
+isHttpLink
 (
 )
 |
