@@ -232,7 +232,7 @@ command
 :
 create
 -
-release
+releases
 env
 :
 GITHUB_TOKEN
