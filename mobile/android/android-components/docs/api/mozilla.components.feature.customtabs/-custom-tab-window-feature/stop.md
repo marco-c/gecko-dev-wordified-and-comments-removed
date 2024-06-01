@@ -138,7 +138,7 @@ CustomTabWindowFeature
 .
 kt
 #
-L69
+L82
 )
 Overrides
 [
@@ -175,11 +175,12 @@ stop
 md
 )
 Stops
+observing
 the
-feature
-and
-the
+configured
+session
+for
+incoming
 window
-request
-observer
+requests
 .

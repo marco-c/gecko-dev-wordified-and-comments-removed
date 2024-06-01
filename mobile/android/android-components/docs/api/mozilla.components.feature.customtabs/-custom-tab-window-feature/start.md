@@ -175,11 +175,10 @@ start
 md
 )
 Starts
+observing
 the
-feature
-and
-a
-observer
+configured
+session
 to
 listen
 for

@@ -198,12 +198,14 @@ EngineSession
 .
 kt
 #
-L48
+L49
 )
 Event
 to
-notifies
-when
+indicate
+whether
+or
+not
 this
 [
 EngineSession
@@ -256,7 +258,7 @@ Boolean
 /
 excluded
 )
-on
+from
 tracking
 protection
 .

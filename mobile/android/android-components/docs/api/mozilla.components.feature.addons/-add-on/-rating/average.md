@@ -76,7 +76,7 @@ val
 average
 :
 [
-Double
+Float
 ]
 (
 https
@@ -98,7 +98,7 @@ stdlib
 kotlin
 /
 -
-double
+float
 /
 index
 .

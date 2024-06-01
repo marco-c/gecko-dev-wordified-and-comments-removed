@@ -41161,7 +41161,7 @@ components
 .
 feature
 .
-session
+tabs
 .
 WindowFeature
 ]
@@ -41175,7 +41175,7 @@ components
 .
 feature
 .
-session
+tabs
 /
 -
 window
@@ -41193,6 +41193,11 @@ for
 handling
 window
 requests
+by
+opening
+and
+closing
+tabs
 .
 |
 |
