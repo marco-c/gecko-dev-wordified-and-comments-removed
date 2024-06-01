@@ -384,10 +384,10 @@ release
 -
 '
 -
-Pbuildid
+PnightlyVersion
 =
 {
-buildid
+nightlyVersion
 }
 '
 -

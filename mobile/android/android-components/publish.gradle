@@ -428,7 +428,9 @@ mavenBuildDir
 '
 -
 -
-buildid
+nightly
+-
+version
 '
 (
 project
@@ -436,11 +438,11 @@ project
 hasProperty
 (
 '
-buildid
+nightlyVersion
 '
 )
 ?
-buildid
+nightlyVersion
 :
 '
 '
