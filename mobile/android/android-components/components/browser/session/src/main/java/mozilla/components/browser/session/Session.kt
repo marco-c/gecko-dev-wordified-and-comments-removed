@@ -1434,6 +1434,17 @@ term
 *
 /
 USER_ENTERED
+/
+*
+*
+*
+This
+session
+was
+restored
+*
+/
+RESTORED
 }
 /
 *
