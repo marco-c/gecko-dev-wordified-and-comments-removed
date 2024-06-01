@@ -519,6 +519,13 @@ lib
 crash
 lib
 -
+auth
+:
+lib
+-
+auth
+lib
+-
 crash
 -
 sentry
