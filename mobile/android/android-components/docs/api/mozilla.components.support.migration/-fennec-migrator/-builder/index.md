@@ -180,7 +180,7 @@ CLASS
 crashReporter
 :
 [
-CrashReporter
+CrashReporting
 ]
 (
 .
@@ -196,14 +196,16 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 /
 -
 crash
 -
-reporter
+reporting
 /
 index
 .

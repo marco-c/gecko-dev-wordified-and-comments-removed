@@ -167,12 +167,9 @@ index
 .
 md
 )
+?
 =
-SimpleRedirectDialogFragment
-.
-newInstance
-(
-)
+null
 launchInApp
 :
 (

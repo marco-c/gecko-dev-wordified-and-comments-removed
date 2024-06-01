@@ -104,7 +104,7 @@ FetchTestCases
 .
 kt
 #
-L39
+L40
 )
 Generic
 test
