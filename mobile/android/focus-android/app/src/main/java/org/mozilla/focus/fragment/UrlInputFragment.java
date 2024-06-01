@@ -493,6 +493,15 @@ ARGUMENT_URL
 )
 )
 ;
+clearView
+.
+setVisibility
+(
+View
+.
+VISIBLE
+)
+;
 }
 return
 view
