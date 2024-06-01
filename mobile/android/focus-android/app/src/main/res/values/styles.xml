@@ -705,7 +705,9 @@ name
 listPreferredItemPaddingLeft
 "
 >
-24dp
+dimen
+/
+dialogHorizontalPadding
 <
 /
 item
@@ -718,7 +720,9 @@ name
 listPreferredItemPaddingRight
 "
 >
-24dp
+dimen
+/
+dialogHorizontalPadding
 <
 /
 item
