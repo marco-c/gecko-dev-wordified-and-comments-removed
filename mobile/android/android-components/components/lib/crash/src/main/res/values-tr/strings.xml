@@ -63,9 +63,6 @@ name
 mozac_lib_crash_dialog_title
 "
 >
-Kusura
-bakmay
-n
 %
 1
 s
@@ -307,7 +304,7 @@ name
 mozac_lib_crash_notification_action_report
 "
 >
-Bildir
+Raporla
 <
 /
 string
