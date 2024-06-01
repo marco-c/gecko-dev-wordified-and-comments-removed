@@ -401,7 +401,7 @@ padding
 "
 android
 :
-text
+hint
 =
 "
 string
@@ -410,7 +410,7 @@ urlbar_hint
 "
 android
 :
-textColor
+textColorHint
 =
 "
 #
