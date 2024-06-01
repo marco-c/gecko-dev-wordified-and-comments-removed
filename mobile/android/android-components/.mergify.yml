@@ -88,6 +88,14 @@ xml
 )
 actions
 :
+review
+:
+type
+:
+APPROVE
+message
+:
+LGTM
 merge
 :
 method
