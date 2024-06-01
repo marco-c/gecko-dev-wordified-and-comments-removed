@@ -324,7 +324,7 @@ compose_version
 .
 0
 .
-4
+5
 "
 object
 AndroidX
@@ -336,9 +336,9 @@ activityCompose
 "
 1
 .
-3
+4
 .
-1
+0
 "
 const
 val
