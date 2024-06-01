@@ -45,7 +45,7 @@ framework
 baseName
 =
 "
-shared
+dummy
 "
 }
 }
