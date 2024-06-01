@@ -278,6 +278,16 @@ project
 (
 '
 :
+support
+-
+utils
+'
+)
+implementation
+project
+(
+'
+:
 service
 -
 glean

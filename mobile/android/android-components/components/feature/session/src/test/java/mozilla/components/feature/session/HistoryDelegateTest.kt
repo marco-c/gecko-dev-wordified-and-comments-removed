@@ -623,6 +623,17 @@ false
 override
 suspend
 fun
+warmUp
+(
+)
+{
+fail
+(
+)
+}
+override
+suspend
+fun
 recordVisit
 (
 uri
