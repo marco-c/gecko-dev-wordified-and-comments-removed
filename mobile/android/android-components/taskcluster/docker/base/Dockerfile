@@ -922,8 +922,8 @@ show
 an
 interactive
 dialog
-that
 #
+which
 we
 cannot
 navigate
