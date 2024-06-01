@@ -514,7 +514,7 @@ requireContext
 )
 components
 .
-sessionManager
+store
 components
 .
 webAppShortcutManager
