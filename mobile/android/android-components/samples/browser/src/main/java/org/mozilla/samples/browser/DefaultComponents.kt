@@ -67,6 +67,12 @@ browser
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 Context
@@ -956,6 +962,12 @@ DAY_IN_MINUTES
 24
 *
 60L
+SuppressLint
+(
+"
+NewApi
+"
+)
 Suppress
 (
 "
