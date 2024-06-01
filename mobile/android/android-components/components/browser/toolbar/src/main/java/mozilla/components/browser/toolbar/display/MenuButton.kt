@@ -496,7 +496,7 @@ item
 .
 highlight
 .
-backgroundResource
+colorResource
 }
 }
 null

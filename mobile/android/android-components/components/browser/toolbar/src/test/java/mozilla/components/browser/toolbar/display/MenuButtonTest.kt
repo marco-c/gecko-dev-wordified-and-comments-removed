@@ -672,6 +672,7 @@ Highlight
 (
 0
 colorResource
+colorResource
 )
 isHighlighted
 =

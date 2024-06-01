@@ -141,6 +141,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+ui
+-
+colors
+'
+)
+implementation
 Dependencies
 .
 androidx_appcompat
