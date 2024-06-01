@@ -227,7 +227,7 @@ ktx
 .
 kotlin
 .
-tryGetHostFromUrl
+getOrigin
 import
 java
 .
@@ -602,7 +602,7 @@ webNotification
 sourceUrl
 ?
 .
-tryGetHostFromUrl
+getOrigin
 (
 )
 ?

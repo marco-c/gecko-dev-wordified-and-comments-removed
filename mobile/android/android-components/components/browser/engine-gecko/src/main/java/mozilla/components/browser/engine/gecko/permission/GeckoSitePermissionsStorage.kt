@@ -1940,13 +1940,7 @@ geckoStorage
 .
 getPermissions
 (
-"
-https
-:
-/
-/
 origin
-"
 )
 .
 await
