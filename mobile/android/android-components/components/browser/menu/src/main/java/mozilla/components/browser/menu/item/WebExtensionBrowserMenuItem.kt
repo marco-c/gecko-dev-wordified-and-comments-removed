@@ -480,7 +480,10 @@ let
 {
 badgeView
 .
-setBackgroundColor
+background
+?
+.
+setTint
 (
 it
 )
