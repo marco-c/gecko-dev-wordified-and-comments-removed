@@ -188,6 +188,9 @@ Boolean
 isSameDomain
 :
 Boolean
+isRedirect
+:
+Boolean
 )
 :
 InterceptionResponse
@@ -240,6 +243,7 @@ engineSession
 uri
 hasUserGesture
 isSameDomain
+isRedirect
 )
 }
 }

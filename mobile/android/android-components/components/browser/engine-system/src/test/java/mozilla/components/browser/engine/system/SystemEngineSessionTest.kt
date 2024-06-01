@@ -2864,6 +2864,9 @@ Boolean
 isSameDomain
 :
 Boolean
+isRedirect
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -3368,6 +3371,9 @@ Boolean
 isSameDomain
 :
 Boolean
+isRedirect
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -3520,6 +3526,9 @@ hasUserGesture
 :
 Boolean
 isSameDomain
+:
+Boolean
+isRedirect
 :
 Boolean
 )
@@ -3792,6 +3801,9 @@ hasUserGesture
 :
 Boolean
 isSameDomain
+:
+Boolean
+isRedirect
 :
 Boolean
 )

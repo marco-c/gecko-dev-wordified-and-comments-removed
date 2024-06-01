@@ -534,6 +534,9 @@ Boolean
 isSameDomain
 :
 Boolean
+isRedirect
+:
+Boolean
 )
 :
 RequestInterceptor

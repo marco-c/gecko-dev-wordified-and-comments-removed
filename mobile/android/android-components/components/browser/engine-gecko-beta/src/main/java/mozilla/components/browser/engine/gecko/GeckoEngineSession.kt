@@ -2600,6 +2600,9 @@ request
 .
 hasUserGesture
 isSameDomain
+request
+.
+isRedirect
 )
 ?
 .
