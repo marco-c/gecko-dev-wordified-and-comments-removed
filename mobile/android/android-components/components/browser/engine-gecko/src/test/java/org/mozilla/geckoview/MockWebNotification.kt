@@ -92,6 +92,19 @@ Boolean
 source
 :
 String
+silent
+:
+Boolean
+=
+false
+vibrate
+:
+IntArray
+=
+IntArray
+(
+0
+)
 )
 :
 WebNotification
@@ -105,4 +118,6 @@ textDirection
 lang
 requireInteraction
 source
+silent
+vibrate
 )
