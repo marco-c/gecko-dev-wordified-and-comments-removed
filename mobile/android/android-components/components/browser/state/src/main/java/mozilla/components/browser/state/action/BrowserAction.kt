@@ -1297,6 +1297,10 @@ sessionId
 :
 String
 val
+pageUrl
+:
+String
+val
 icon
 :
 Bitmap
