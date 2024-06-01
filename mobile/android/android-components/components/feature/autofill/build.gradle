@@ -190,6 +190,16 @@ base
 '
 )
 implementation
+project
+(
+"
+:
+support
+-
+utils
+"
+)
+implementation
 Dependencies
 .
 androidx_annotation
