@@ -832,6 +832,13 @@ val
 optionsPageUrl
 :
 String
+?
+val
+openOptionsPageInTab
+:
+Boolean
+=
+false
 val
 enabled
 :
