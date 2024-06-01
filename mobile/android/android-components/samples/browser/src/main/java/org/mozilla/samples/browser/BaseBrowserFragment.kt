@@ -840,9 +840,7 @@ requireContext
 )
 fragmentManager
 =
-requireFragmentManager
-(
-)
+parentFragmentManager
 browserStore
 =
 components
@@ -893,9 +891,7 @@ customTabId
 sessionId
 fragmentManager
 =
-requireFragmentManager
-(
-)
+parentFragmentManager
 onNeedToRequestPermissions
 =
 {
@@ -939,9 +935,7 @@ components
 permissionStorage
 fragmentManager
 =
-requireFragmentManager
-(
-)
+parentFragmentManager
 sitePermissionsRules
 =
 SitePermissionsRules

@@ -183,6 +183,10 @@ androidx_constraintlayout
 implementation
 Dependencies
 .
+androidx_coordinatorlayout
+implementation
+Dependencies
+.
 kotlin_stdlib
 implementation
 Dependencies
