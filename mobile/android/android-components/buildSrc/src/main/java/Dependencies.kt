@@ -326,9 +326,9 @@ mozilla_appservices
 "
 94
 .
-0
-.
 1
+.
+0
 "
 /
 /
