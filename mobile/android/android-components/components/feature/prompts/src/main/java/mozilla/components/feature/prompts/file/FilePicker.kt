@@ -531,7 +531,7 @@ needed
 val
 neededPermissions
 =
-mutableListOf
+mutableSetOf
 <
 String
 >
@@ -739,7 +739,7 @@ else
 {
 neededPermissions
 .
-add
+addAll
 (
 type
 .
@@ -1536,7 +1536,7 @@ askAndroidPermissionsForRequest
 (
 permissions
 :
-List
+Set
 <
 String
 >

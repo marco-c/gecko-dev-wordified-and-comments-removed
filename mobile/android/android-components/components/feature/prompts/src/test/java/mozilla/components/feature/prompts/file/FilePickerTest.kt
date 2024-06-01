@@ -1742,7 +1742,7 @@ permissions
 val
 permissions
 =
-listOf
+setOf
 (
 "
 PermissionA
