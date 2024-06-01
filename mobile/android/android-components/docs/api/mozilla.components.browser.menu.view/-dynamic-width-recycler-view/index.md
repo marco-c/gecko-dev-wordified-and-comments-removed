@@ -103,7 +103,7 @@ DynamicWidthRecyclerView
 .
 kt
 #
-L17
+L18
 )
 [
 RecylerView
