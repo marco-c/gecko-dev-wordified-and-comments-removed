@@ -220,7 +220,7 @@ project
 :
 browser
 -
-session
+state
 '
 )
 implementation
@@ -251,6 +251,16 @@ project
 feature
 -
 customtabs
+'
+)
+implementation
+project
+(
+'
+:
+feature
+-
+tabs
 '
 )
 implementation

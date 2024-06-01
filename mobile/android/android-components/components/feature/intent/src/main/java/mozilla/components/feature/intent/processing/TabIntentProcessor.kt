@@ -454,9 +454,9 @@ existingSession
 }
 else
 {
-loadUrlUseCase
-(
-url
+val
+session
+=
 createSession
 (
 url
@@ -469,6 +469,12 @@ Source
 .
 ACTION_VIEW
 )
+loadUrlUseCase
+(
+url
+session
+.
+id
 LoadUrlFlags
 .
 external
@@ -584,6 +590,8 @@ loadUrlUseCase
 (
 url
 session
+.
+id
 LoadUrlFlags
 .
 external
@@ -669,6 +677,8 @@ loadUrlUseCase
 (
 searchQuery
 session
+.
+id
 LoadUrlFlags
 .
 external

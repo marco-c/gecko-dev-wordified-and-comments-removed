@@ -218,9 +218,6 @@ config
 =
 CustomTabConfig
 (
-"
-test
-"
 )
 val
 customTab

@@ -553,6 +553,8 @@ invoke
 (
 url
 session
+.
+id
 EngineSession
 .
 LoadUrlFlags
@@ -573,6 +575,8 @@ invoke
 (
 url
 session
+.
+id
 EngineSession
 .
 LoadUrlFlags

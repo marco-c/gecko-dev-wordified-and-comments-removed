@@ -496,6 +496,8 @@ getpocket
 com
 "
 selectedSession
+.
+id
 )
 verify
 (
@@ -536,6 +538,8 @@ getpocket
 com
 "
 selectedSession
+.
+id
 LoadUrlFlags
 .
 select

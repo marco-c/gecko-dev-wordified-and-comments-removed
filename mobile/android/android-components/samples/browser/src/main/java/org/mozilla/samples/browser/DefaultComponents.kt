@@ -1607,7 +1607,10 @@ listOf
 (
 WebAppIntentProcessor
 (
-sessionManager
+store
+tabsUseCases
+.
+addTab
 sessionUseCases
 .
 loadUrl
@@ -1615,10 +1618,9 @@ webAppManifestStorage
 )
 TrustedWebActivityIntentProcessor
 (
-sessionManager
-sessionUseCases
+tabsUseCases
 .
-loadUrl
+addTab
 applicationContext
 .
 packageManager

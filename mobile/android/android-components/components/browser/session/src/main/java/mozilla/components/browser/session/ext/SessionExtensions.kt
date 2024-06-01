@@ -266,6 +266,9 @@ private
 title
 progress
 loading
+webAppManifest
+=
+webAppManifest
 securityInfo
 =
 securityInfo

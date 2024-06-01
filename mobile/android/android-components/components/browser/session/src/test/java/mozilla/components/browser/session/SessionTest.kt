@@ -1866,9 +1866,6 @@ customTabConfig
 =
 CustomTabConfig
 (
-"
-id
-"
 toolbarColor
 =
 null
@@ -1900,17 +1897,6 @@ customTabConfig
 assertNotNull
 (
 config
-)
-assertEquals
-(
-"
-id
-"
-config
-!
-!
-.
-id
 )
 }
 Test
