@@ -794,6 +794,14 @@ EngineSession
 flags
 :
 LoadUrlFlags
+additionalHeaders
+:
+Map
+<
+String
+String
+>
+?
 )
 {
 geckoSession
@@ -813,6 +821,7 @@ geckoSession
 flags
 .
 value
+additionalHeaders
 )
 }
 /
