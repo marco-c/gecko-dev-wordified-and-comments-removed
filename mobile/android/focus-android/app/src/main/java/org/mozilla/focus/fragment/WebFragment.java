@@ -282,7 +282,7 @@ else
 {
 webView
 .
-restoreWebviewState
+restoreWebViewState
 (
 savedInstanceState
 )
@@ -459,7 +459,7 @@ outState
 {
 webView
 .
-onSaveInstanceState
+saveWebViewState
 (
 outState
 )
