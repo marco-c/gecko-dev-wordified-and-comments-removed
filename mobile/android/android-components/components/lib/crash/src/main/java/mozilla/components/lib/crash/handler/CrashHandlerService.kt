@@ -366,12 +366,7 @@ R
 .
 string
 .
-mozac_lib_crash_dialog_title
-crashReporter
-.
-promptConfiguration
-.
-appName
+mozac_lib_gathering_crash_data_in_progress
 )
 )
 .
