@@ -3157,6 +3157,7 @@ pings
 .
 *
 /
+internal
 fun
 handleBackgroundEvent
 (
