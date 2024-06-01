@@ -5759,7 +5759,9 @@ assertEquals
 (
 GeckoResult
 .
-DENY
+deny
+(
+)
 geckoDelegateCaptor
 .
 value
@@ -5838,7 +5840,9 @@ assertEquals
 (
 GeckoResult
 .
-ALLOW
+allow
+(
+)
 geckoDelegateCaptor
 .
 value
@@ -6137,7 +6141,9 @@ assertEquals
 (
 GeckoResult
 .
-ALLOW
+allow
+(
+)
 result
 )
 }
@@ -6417,7 +6423,9 @@ assertEquals
 (
 GeckoResult
 .
-ALLOW
+allow
+(
+)
 result
 )
 }

@@ -7743,7 +7743,7 @@ ACCEPT_ALL
 Test
 fun
 WHEN
-updating
+updateing
 tracking
 protection
 with
@@ -7867,9 +7867,8 @@ trackerBlockingObserved
 Test
 fun
 WHEN
-updating
-tracking
-protection
+calling
+updateTrackingProtection
 with
 a
 none
@@ -7878,7 +7877,7 @@ THEN
 etpEnabled
 should
 be
-enabled
+disabled
 (
 )
 {
@@ -7991,9 +7990,9 @@ trackerBlockingObserved
 Test
 fun
 WHEN
-update
-content
-blocking
+updating
+the
+contentBlocking
 with
 a
 policy
@@ -8357,7 +8356,7 @@ Test
 fun
 changes
 to
-enableTrackingProtection
+updateTrackingProtection
 will
 be
 notified
