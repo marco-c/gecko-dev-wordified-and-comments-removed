@@ -189,6 +189,20 @@ components
 .
 support
 .
+ktx
+.
+android
+.
+content
+.
+runOnlyInMainProcess
+import
+mozilla
+.
+components
+.
+support
+.
 webextensions
 .
 WebExtensionSupport
@@ -504,6 +518,8 @@ onTrimMemory
 level
 "
 )
+runOnlyInMainProcess
+{
 components
 .
 sessionManager
@@ -520,5 +536,6 @@ onTrimMemory
 (
 level
 )
+}
 }
 }
