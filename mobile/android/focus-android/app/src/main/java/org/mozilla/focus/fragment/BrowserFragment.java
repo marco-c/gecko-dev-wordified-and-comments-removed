@@ -3405,16 +3405,8 @@ UrlInputFragment
 .
 createAsOverlay
 (
-UrlUtils
-.
-getSearchTermsOrUrl
-(
-getContext
-(
-)
 getUrl
 (
-)
 )
 urlView
 )
