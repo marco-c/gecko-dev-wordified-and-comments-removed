@@ -210,7 +210,7 @@ AndroidJUnit4
 class
 )
 class
-AddOnsCollectionsProviderTest
+AddOnCollectionProviderTest
 {
 Test
 fun
@@ -327,7 +327,7 @@ mockedResponse
 val
 provider
 =
-AddOnsCollectionsProvider
+AddOnCollectionProvider
 (
 client
 =
@@ -831,7 +831,7 @@ mockedResponse
 val
 provider
 =
-AddOnsCollectionsProvider
+AddOnCollectionProvider
 (
 client
 =
@@ -1120,7 +1120,7 @@ mockedResponse
 val
 provider
 =
-AddOnsCollectionsProvider
+AddOnCollectionProvider
 (
 client
 =

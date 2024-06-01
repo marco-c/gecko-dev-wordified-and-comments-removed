@@ -329,7 +329,7 @@ addons
 .
 amo
 .
-AddOnsCollectionsProvider
+AddOnCollectionProvider
 import
 mozilla
 .
@@ -838,11 +838,11 @@ java
 }
 }
 val
-addOnsProvider
+addOnProvider
 by
 lazy
 {
-AddOnsCollectionsProvider
+AddOnCollectionProvider
 (
 client
 =

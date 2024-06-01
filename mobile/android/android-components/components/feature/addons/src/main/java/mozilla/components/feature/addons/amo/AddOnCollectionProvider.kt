@@ -276,7 +276,7 @@ api
 *
 /
 class
-AddOnsCollectionsProvider
+AddOnCollectionProvider
 (
 private
 val

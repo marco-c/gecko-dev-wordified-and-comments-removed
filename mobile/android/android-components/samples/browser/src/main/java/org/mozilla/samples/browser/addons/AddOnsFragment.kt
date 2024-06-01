@@ -336,7 +336,7 @@ requireContext
 .
 components
 .
-addOnsProvider
+addOnProvider
 .
 getAvailableAddOns
 (
