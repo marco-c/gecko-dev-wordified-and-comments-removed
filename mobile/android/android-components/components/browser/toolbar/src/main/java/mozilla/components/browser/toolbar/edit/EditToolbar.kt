@@ -1576,6 +1576,17 @@ setText
 url
 shouldAutoComplete
 )
+views
+.
+clear
+.
+isVisible
+=
+url
+.
+isNotBlank
+(
+)
 }
 /
 *
