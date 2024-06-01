@@ -81,6 +81,15 @@ pro
 '
 }
 }
+productFlavors
+{
+webkit
+{
+}
+gecko
+{
+}
+}
 }
 dependencies
 {
@@ -204,7 +213,7 @@ project
 .
 afterEvaluate
 {
-prepareDebugDependencies
+prepareWebkitDebugDependencies
 .
 dependsOn
 (
