@@ -374,11 +374,7 @@ verify
 -
 quiet
 URL
-"
 BRANCH
-:
-master
-"
 &
 >
 /
