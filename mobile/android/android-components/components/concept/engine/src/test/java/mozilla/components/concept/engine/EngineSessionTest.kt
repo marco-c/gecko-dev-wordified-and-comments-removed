@@ -7311,6 +7311,9 @@ override
 fun
 reload
 (
+flags
+:
+LoadUrlFlags
 )
 {
 }

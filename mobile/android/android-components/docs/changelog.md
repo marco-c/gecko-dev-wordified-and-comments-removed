@@ -461,6 +461,13 @@ s
 history
 .
 *
+Added
+flags
+parameter
+to
+ReloadUrlUseCase
+.
+*
 *
 *
 support
@@ -507,6 +514,13 @@ session
 '
 s
 history
+.
+*
+Adds
+flags
+parameter
+to
+reload
 .
 *
 *
