@@ -730,9 +730,11 @@ nimbus
 getExperimentBranch
 (
 "
-test
+sample
 -
-color
+experiment
+-
+feature
 "
 )
 val
