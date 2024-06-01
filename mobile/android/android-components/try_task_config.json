@@ -16,13 +16,6 @@ target_tasks_method
 "
 nightly
 "
-"
-tasks_for
-"
-:
-"
-cron
-"
 }
 "
 version
