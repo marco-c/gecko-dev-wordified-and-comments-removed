@@ -125,5 +125,5 @@ BrowserTabsTray
 .
 kt
 #
-L27
+L24
 )

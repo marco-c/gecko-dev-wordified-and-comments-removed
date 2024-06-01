@@ -115,7 +115,7 @@ BrowserTabsTray
 .
 kt
 #
-L60
+L56
 )
 Overrides
 [

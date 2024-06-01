@@ -185,9 +185,9 @@ browser
 /
 tabstray
 /
-BrowserTabsTray
+TabsTrayStyling
 .
 kt
 #
-L16
+L8
 )

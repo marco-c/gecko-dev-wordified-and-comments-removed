@@ -2504,7 +2504,11 @@ md
 )
 |
 class
+~
+~
 BrowserTabsTray
+~
+~
 :
 RecyclerView
 [

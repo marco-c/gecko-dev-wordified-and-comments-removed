@@ -205,7 +205,7 @@ TabsAdapter
 .
 kt
 #
-L70
+L65
 )
 Overrides
 [
