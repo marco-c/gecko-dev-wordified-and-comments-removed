@@ -205,9 +205,6 @@ false
 ;
 progressView
 =
-(
-ProgressBar
-)
 view
 .
 findViewById
