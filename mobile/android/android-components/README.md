@@ -243,7 +243,8 @@ components
 *
 .
 A
-full
+fully
+-
 featured
 reference
 browser
