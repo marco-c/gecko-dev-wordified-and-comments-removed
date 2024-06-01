@@ -191,9 +191,7 @@ private
 val
 config
 :
-ReaderViewFeature
-.
-Config
+ReaderViewConfig
 )
 :
 ReaderViewControlsView

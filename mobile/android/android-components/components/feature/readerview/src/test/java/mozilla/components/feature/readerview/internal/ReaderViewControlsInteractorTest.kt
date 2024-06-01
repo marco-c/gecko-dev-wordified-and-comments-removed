@@ -241,9 +241,7 @@ change
 val
 config
 :
-ReaderViewFeature
-.
-Config
+ReaderViewConfig
 =
 mock
 (
@@ -317,9 +315,7 @@ increased
 val
 config
 :
-ReaderViewFeature
-.
-Config
+ReaderViewConfig
 =
 mock
 (
@@ -429,9 +425,7 @@ decreased
 val
 config
 :
-ReaderViewFeature
-.
-Config
+ReaderViewConfig
 =
 mock
 (

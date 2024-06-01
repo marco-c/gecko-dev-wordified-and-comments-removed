@@ -81,16 +81,6 @@ feature
 .
 readerview
 .
-ReaderViewFeature
-import
-mozilla
-.
-components
-.
-feature
-.
-readerview
-.
 view
 .
 ReaderViewControlsView
@@ -170,9 +160,7 @@ view
 val
 config
 :
-ReaderViewFeature
-.
-Config
+ReaderViewConfig
 =
 mock
 (

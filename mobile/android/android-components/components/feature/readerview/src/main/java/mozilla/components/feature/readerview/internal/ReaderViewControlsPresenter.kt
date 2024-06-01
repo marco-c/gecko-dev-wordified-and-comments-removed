@@ -83,16 +83,6 @@ feature
 .
 readerview
 .
-ReaderViewFeature
-import
-mozilla
-.
-components
-.
-feature
-.
-readerview
-.
 view
 .
 ReaderViewControlsView
@@ -128,9 +118,7 @@ private
 val
 config
 :
-ReaderViewFeature
-.
-Config
+ReaderViewConfig
 )
 {
 /
