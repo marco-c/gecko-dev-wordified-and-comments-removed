@@ -76,6 +76,14 @@ build
 :
 transforms
 -
+ac_taskgraph
+.
+transforms
+.
+gradle_optimization
+:
+transforms
+-
 taskgraph
 .
 transforms
