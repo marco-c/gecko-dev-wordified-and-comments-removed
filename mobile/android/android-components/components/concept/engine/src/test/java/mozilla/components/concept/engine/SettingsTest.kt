@@ -263,7 +263,7 @@ trackingProtectionPolicy
 =
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 }
@@ -785,7 +785,7 @@ trackingProtectionPolicy
 =
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 historyTrackingDelegate
@@ -895,7 +895,7 @@ assertEquals
 (
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 defaultSettings

@@ -4271,6 +4271,8 @@ ADVERTISING
 to
 TrackingProtectionPolicy
 .
+TrackingCategory
+.
 AD
 UrlMatcher
 .
@@ -4278,6 +4280,8 @@ ANALYTICS
 to
 TrackingProtectionPolicy
 .
+TrackingCategory
+.
 ANALYTICS
 UrlMatcher
 .
@@ -4285,12 +4289,16 @@ CONTENT
 to
 TrackingProtectionPolicy
 .
+TrackingCategory
+.
 CONTENT
 UrlMatcher
 .
 SOCIAL
 to
 TrackingProtectionPolicy
+.
+TrackingCategory
 .
 SOCIAL
 )
@@ -4317,6 +4325,8 @@ urlMatcherCategoryMap
 filterValues
 {
 policy
+.
+trackingCategories
 .
 contains
 (

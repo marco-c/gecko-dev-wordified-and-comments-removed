@@ -435,7 +435,7 @@ updateTrackingProtection
 (
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 )
@@ -448,7 +448,7 @@ trackingProtectionPolicy
 =
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 verify
@@ -460,7 +460,7 @@ enableTrackingProtection
 (
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 )
@@ -473,7 +473,7 @@ enableTrackingProtection
 (
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 )

@@ -342,7 +342,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 )
@@ -381,7 +381,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 )

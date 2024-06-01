@@ -1508,7 +1508,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 engineSession
@@ -1582,7 +1582,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 engineSession
@@ -2162,7 +2162,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 verify
@@ -2176,7 +2176,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 )
@@ -2280,7 +2280,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 userAgentString
@@ -2449,7 +2449,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 )
