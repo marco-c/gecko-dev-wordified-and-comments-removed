@@ -1326,6 +1326,7 @@ Addon
 localizePermissions
 (
 newPermissions
+applicationContext
 )
 .
 isEmpty
@@ -1803,6 +1804,7 @@ Addon
 localizePermissions
 (
 newPermissions
+applicationContext
 )
 val
 string
@@ -1869,14 +1871,7 @@ permissionIndex
 +
 }
 -
-{
-applicationContext
-.
-getString
-(
 it
-)
-}
 "
 }
 return
