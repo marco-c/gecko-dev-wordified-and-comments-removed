@@ -210,10 +210,9 @@ index
 .
 md
 )
+?
 =
-NoopLoginValidationDelegate
-(
-)
+null
 onNeedToRequestPermissions
 :
 [
@@ -389,10 +388,9 @@ index
 .
 md
 )
+?
 =
-NoopLoginValidationDelegate
-(
-)
+null
 onNeedToRequestPermissions
 :
 [
