@@ -22,6 +22,8 @@ components
 .
 support
 .
+android
+.
 test
 .
 rules

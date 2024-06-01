@@ -22,6 +22,8 @@ components
 .
 support
 .
+android
+.
 test
 .
 rules
@@ -81,6 +83,8 @@ components
 /
 support
 /
+android
+-
 test
 /
 src
@@ -94,6 +98,8 @@ mozilla
 components
 /
 support
+/
+android
 /
 test
 /
