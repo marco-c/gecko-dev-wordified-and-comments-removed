@@ -255,6 +255,19 @@ component
 '
 all
 '
+        
+and
+task
+.
+attributes
+.
+get
+(
+"
+is_final_chunked_task
+"
+True
+)
     
 ]
     
@@ -350,6 +363,23 @@ dependencies
 '
 [
 ]
+)
+:
+            
+continue
+        
+if
+not
+task
+.
+attributes
+.
+get
+(
+"
+is_final_chunked_task
+"
+True
 )
 :
             

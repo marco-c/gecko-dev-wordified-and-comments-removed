@@ -84,6 +84,14 @@ post_signing
 :
 transforms
 -
+ac_taskgraph
+.
+transforms
+.
+chunk
+:
+transforms
+-
 taskgraph
 .
 transforms

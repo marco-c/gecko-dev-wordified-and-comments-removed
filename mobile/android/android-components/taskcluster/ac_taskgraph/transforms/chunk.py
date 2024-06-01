@@ -135,6 +135,20 @@ count
 )
 )
     
+task
+[
+"
+attributes
+"
+]
+[
+"
+is_final_chunked_task
+"
+]
+=
+False
+    
 return
 task
 def
@@ -199,8 +213,6 @@ chunked_labels
         
 dep_labels
 =
-sorted
-(
 task
 .
 pop
@@ -213,6 +225,32 @@ dependencies
 [
 ]
 )
+        
+dep_labels
+.
+extend
+(
+task
+.
+get
+(
+'
+dependencies
+'
+{
+}
+)
+.
+keys
+(
+)
+)
+        
+dep_labels
+=
+sorted
+(
+dep_labels
 )
         
 for
@@ -319,6 +357,20 @@ dependencies
 ]
 =
 chunked_labels
+        
+task
+[
+"
+attributes
+"
+]
+[
+"
+is_final_chunked_task
+"
+]
+=
+True
         
 yield
 task
