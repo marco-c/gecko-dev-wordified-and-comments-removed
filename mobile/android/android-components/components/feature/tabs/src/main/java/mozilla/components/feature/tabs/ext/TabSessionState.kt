@@ -122,4 +122,5 @@ mediaSessionState
 ?
 .
 controller
+lastAccess
 )
