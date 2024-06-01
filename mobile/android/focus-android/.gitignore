@@ -118,6 +118,11 @@ code
 .
 pyc
 #
+OS
+X
+.
+DS_Store
+#
 Infer
 output
 infer
