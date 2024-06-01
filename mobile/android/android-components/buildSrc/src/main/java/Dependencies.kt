@@ -262,9 +262,9 @@ mozilla_appservices
 "
 0
 .
-38
+39
 .
-2
+1
 "
 const
 val
@@ -309,11 +309,9 @@ browser
 "
 1
 .
-2
+0
 .
 0
--
-alpha07
 "
 const
 val
