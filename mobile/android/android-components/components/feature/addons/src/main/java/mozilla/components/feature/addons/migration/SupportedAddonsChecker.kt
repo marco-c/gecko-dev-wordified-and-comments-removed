@@ -941,6 +941,13 @@ doWork
 )
 :
 Result
+=
+withContext
+(
+Dispatchers
+.
+IO
+)
 {
 try
 {
@@ -1130,7 +1137,6 @@ exception
 )
 }
 }
-return
 Result
 .
 success
