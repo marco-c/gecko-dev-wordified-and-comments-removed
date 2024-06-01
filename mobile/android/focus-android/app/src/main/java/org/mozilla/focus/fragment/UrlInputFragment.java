@@ -2134,6 +2134,17 @@ InlineAutocompleteEditText
 view
 )
 {
+if
+(
+!
+isVisible
+(
+)
+)
+{
+return
+;
+}
 urlAutoCompleteFilter
 .
 onFilter
