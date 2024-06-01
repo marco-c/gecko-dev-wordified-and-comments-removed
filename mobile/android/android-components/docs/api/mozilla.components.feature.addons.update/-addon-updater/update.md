@@ -174,7 +174,7 @@ AddonUpdater
 .
 kt
 #
-L59
+L60
 )
 Try
 to

@@ -144,7 +144,7 @@ Session
 .
 kt
 #
-L506
+L502
 )
 Returns
 whether
