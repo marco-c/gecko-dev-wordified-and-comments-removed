@@ -148,6 +148,16 @@ add_to_homescreen
 ;
 public
 static
+final
+String
+BLOCKING_ENABLED
+=
+"
+blocking_enabled
+"
+;
+public
+static
 void
 installShortCut
 (
@@ -159,6 +169,8 @@ String
 url
 String
 title
+boolean
+blockingEnabled
 )
 {
 if
@@ -205,6 +217,7 @@ context
 icon
 url
 title
+blockingEnabled
 )
 ;
 }
@@ -216,6 +229,7 @@ context
 icon
 url
 title
+blockingEnabled
 )
 ;
 }
@@ -233,6 +247,8 @@ String
 url
 String
 title
+boolean
+blockingEnabled
 )
 {
 final
@@ -243,6 +259,7 @@ createShortcutIntent
 (
 context
 url
+blockingEnabled
 )
 ;
 final
@@ -321,6 +338,8 @@ String
 url
 String
 title
+boolean
+blockingEnabled
 )
 {
 final
@@ -395,6 +414,7 @@ createShortcutIntent
 (
 context
 url
+blockingEnabled
 )
 )
 .
@@ -421,6 +441,8 @@ Context
 context
 String
 url
+boolean
+blockingEnabled
 )
 {
 final
@@ -455,6 +477,14 @@ parse
 (
 url
 )
+)
+;
+shortcutIntent
+.
+putExtra
+(
+BLOCKING_ENABLED
+blockingEnabled
 )
 ;
 shortcutIntent
