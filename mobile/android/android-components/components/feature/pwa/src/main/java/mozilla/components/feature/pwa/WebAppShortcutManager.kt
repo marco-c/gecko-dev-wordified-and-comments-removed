@@ -502,11 +502,6 @@ val
 storage
 :
 ManifestStorage
-=
-ManifestStorage
-(
-context
-)
 internal
 val
 supportWebApps

@@ -190,6 +190,12 @@ WebAppShortcutManager
 (
 applicationContext
 httpClient
+storage
+=
+ManifestStorage
+(
+applicationContext
+)
 supportWebApps
 =
 supportWebApps

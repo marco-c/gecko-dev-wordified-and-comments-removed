@@ -913,7 +913,6 @@ searchTerms
 )
 }
 }
-private
 val
 webAppManifestStorage
 by
@@ -924,7 +923,6 @@ ManifestStorage
 applicationContext
 )
 }
-private
 val
 webAppShortcutManager
 by
