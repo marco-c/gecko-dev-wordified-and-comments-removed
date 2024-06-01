@@ -830,6 +830,9 @@ eventCallback
 1
 )
 ;
+return
+true
+;
 }
 ;
 dl
