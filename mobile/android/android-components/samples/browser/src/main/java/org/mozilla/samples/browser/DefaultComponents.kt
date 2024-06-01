@@ -1534,7 +1534,7 @@ lazy
 {
 TabIntentProcessor
 (
-sessionManager
+tabsUseCases
 sessionUseCases
 .
 loadUrl
