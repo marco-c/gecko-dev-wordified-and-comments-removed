@@ -3746,6 +3746,14 @@ contentResolver
 .
 openInputStream
 (
+mozilla
+.
+components
+.
+support
+.
+test
+.
 any
 (
 )
