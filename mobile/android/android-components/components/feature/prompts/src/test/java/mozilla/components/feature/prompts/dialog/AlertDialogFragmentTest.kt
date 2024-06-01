@@ -159,6 +159,12 @@ mock
 import
 mozilla
 .
+components
+.
+support
+.
+test
+.
 ext
 .
 appCompatContext

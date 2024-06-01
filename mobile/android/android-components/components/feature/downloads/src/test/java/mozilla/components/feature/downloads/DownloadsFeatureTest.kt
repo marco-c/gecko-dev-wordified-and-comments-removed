@@ -2443,6 +2443,14 @@ test
 tab
 "
 )
+verify
+(
+feature
+)
+.
+showPermissionDeniedDialog
+(
+)
 }
 Test
 fun

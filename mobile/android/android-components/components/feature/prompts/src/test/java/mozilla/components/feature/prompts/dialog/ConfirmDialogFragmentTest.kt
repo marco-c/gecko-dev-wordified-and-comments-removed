@@ -101,6 +101,12 @@ AndroidJUnit4
 import
 mozilla
 .
+components
+.
+support
+.
+test
+.
 ext
 .
 appCompatContext

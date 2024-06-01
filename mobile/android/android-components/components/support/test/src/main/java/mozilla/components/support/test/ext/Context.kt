@@ -59,6 +59,12 @@ MPL
 package
 mozilla
 .
+components
+.
+support
+.
+test
+.
 ext
 import
 android
@@ -66,6 +72,12 @@ android
 content
 .
 Context
+import
+androidx
+.
+annotation
+.
+VisibleForTesting
 import
 androidx
 .
@@ -116,7 +128,7 @@ example
 .
 *
 /
-internal
+VisibleForTesting
 val
 appCompatContext
 :
