@@ -453,6 +453,15 @@ text
 METADATA_SUGGESTION_LIMIT
 )
 .
+filter
+{
+it
+.
+totalViewTime
+>
+0
+}
+.
 take
 (
 maxReturnedSuggestions

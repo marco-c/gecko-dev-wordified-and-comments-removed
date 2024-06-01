@@ -257,6 +257,17 @@ of
 5
 .
 *
+HistoryMetadataSuggestionProvider
+-
+only
+return
+pages
+user
+spent
+time
+on
+.
+*
 *
 *
 concept
