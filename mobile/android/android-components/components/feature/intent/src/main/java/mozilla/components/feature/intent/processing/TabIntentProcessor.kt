@@ -97,6 +97,14 @@ Intent
 .
 EXTRA_TEXT
 import
+android
+.
+nfc
+.
+NfcAdapter
+.
+ACTION_NDEF_DISCOVERED
+import
 mozilla
 .
 components
@@ -624,6 +632,14 @@ action
 =
 =
 ACTION_SEND
+|
+|
+safeIntent
+.
+action
+=
+=
+ACTION_NDEF_DISCOVERED
 }
 /
 *
@@ -688,6 +704,7 @@ action
 )
 {
 ACTION_VIEW
+ACTION_NDEF_DISCOVERED
 -
 >
 processViewIntent
