@@ -81,7 +81,7 @@ gecko
 .
 GleanMetrics
 .
-GleanGeckoHistogramMapping
+GleanGeckoMetricsMapping
 import
 org
 .
@@ -201,7 +201,7 @@ Metric
 Note
 that
 the
-GleanGeckoHistogramMapping
+GleanGeckoMetricsMapping
 is
 automatically
 generated
@@ -216,12 +216,14 @@ Glean
 SDK
 parsers
 .
-GleanGeckoHistogramMapping
-[
+GleanGeckoMetricsMapping
+.
+getHistogram
+(
 metric
 .
 name
-]
+)
 ?
 .
 accumulateSamples
