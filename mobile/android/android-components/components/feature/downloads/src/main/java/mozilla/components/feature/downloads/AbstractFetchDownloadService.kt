@@ -1609,11 +1609,11 @@ if
 download
 .
 status
-!
+=
 =
 DownloadJobStatus
 .
-PAUSED
+ACTIVE
 &
 &
 download
