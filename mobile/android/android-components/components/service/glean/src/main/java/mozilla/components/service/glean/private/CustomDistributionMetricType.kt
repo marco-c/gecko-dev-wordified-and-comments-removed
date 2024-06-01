@@ -91,9 +91,9 @@ service
 .
 glean
 .
-storages
+histogram
 .
-CustomDistributionData
+PrecomputedHistogram
 import
 mozilla
 .
@@ -308,7 +308,7 @@ HistogramType
 )
 :
 CommonMetricData
-HistogramBase
+HistogramMetricBase
 {
 private
 val
@@ -732,7 +732,7 @@ first
 )
 )
 :
-CustomDistributionData
+PrecomputedHistogram
 {
 Suppress
 (

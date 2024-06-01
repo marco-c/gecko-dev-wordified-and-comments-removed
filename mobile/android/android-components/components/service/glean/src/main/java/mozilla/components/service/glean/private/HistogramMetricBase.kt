@@ -94,7 +94,7 @@ SDK
 *
 /
 interface
-HistogramBase
+HistogramMetricBase
 {
 /
 *
