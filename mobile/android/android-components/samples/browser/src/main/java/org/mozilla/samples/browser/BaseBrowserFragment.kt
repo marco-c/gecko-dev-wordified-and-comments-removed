@@ -978,6 +978,9 @@ fragmentManager
 requireFragmentManager
 (
 )
+interceptLinkClicks
+=
+true
 )
 owner
 =
