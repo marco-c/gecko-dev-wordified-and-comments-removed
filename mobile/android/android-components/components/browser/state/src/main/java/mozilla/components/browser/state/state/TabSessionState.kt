@@ -320,13 +320,6 @@ SessionState
 Source
 .
 NONE
-override
-val
-crashed
-:
-Boolean
-=
-false
 val
 parentId
 :
@@ -379,9 +372,6 @@ contextId
 :
 String
 ?
-crashed
-:
-Boolean
 )
 :
 SessionState
@@ -406,9 +396,6 @@ extensionState
 contextId
 =
 contextId
-crashed
-=
-crashed
 )
 }
 /

@@ -253,13 +253,6 @@ SessionState
 Source
 .
 CUSTOM_TAB
-override
-val
-crashed
-:
-Boolean
-=
-false
 )
 :
 SessionState
@@ -291,9 +284,6 @@ contextId
 :
 String
 ?
-crashed
-:
-Boolean
 )
 =
 copy
@@ -316,9 +306,6 @@ extensionState
 contextId
 =
 contextId
-crashed
-=
-crashed
 )
 }
 /

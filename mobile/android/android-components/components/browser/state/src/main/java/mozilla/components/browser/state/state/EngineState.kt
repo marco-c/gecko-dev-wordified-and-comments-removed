@@ -223,4 +223,10 @@ Observer
 ?
 =
 null
+val
+crashed
+:
+Boolean
+=
+false
 )

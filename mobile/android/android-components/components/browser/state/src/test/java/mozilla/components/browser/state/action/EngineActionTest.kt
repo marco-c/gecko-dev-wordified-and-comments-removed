@@ -459,7 +459,7 @@ engineState
 .
 engineSession
 )
-assertNull
+assertNotNull
 (
 engineState
 (

@@ -344,10 +344,6 @@ val
 source
 :
 Source
-val
-crashed
-:
-Boolean
 /
 *
 *
@@ -418,13 +414,6 @@ String
 this
 .
 contextId
-crashed
-:
-Boolean
-=
-this
-.
-crashed
 )
 :
 SessionState
