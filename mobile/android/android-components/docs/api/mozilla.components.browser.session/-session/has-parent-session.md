@@ -140,7 +140,7 @@ Session
 .
 kt
 #
-L570
+L549
 )
 Returns
 true

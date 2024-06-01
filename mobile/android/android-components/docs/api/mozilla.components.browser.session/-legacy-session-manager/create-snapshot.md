@@ -130,7 +130,7 @@ LegacySessionManager
 .
 kt
 #
-L45
+L44
 )
 Produces
 a
