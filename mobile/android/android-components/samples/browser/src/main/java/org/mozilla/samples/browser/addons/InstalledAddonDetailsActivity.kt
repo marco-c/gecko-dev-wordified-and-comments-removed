@@ -780,7 +780,7 @@ R
 .
 string
 .
-addon_settings_on
+mozac_feature_addons_settings_on
 }
 else
 {
@@ -788,7 +788,7 @@ R
 .
 string
 .
-addon_settings_off
+mozac_feature_addons_settings_off
 }
 setText
 (

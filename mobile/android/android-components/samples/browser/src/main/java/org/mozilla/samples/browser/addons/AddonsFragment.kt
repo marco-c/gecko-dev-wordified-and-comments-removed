@@ -977,7 +977,7 @@ R
 .
 string
 .
-add_on_user_rating_count
+mozac_feature_addons_user_rating_count
 )
 val
 ratingContentDescription
@@ -990,7 +990,7 @@ R
 .
 string
 .
-add_on_rating_content_description
+mozac_feature_addons_rating_content_description
 )
 holder
 .
@@ -1242,7 +1242,7 @@ R
 .
 string
 .
-addon_settings_installed_section
+mozac_feature_addons_installed_section
 )
 )
 }
@@ -1277,7 +1277,7 @@ R
 .
 string
 .
-addon_settings_recommended_section
+mozac_feature_addons_recommended_section
 )
 )
 isRecommendedSectionAdded
