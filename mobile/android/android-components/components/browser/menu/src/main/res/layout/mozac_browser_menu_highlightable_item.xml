@@ -396,10 +396,12 @@ transparent
 "
 android
 :
-importantForAccessibility
+contentDescription
 =
 "
-no
+string
+/
+mozac_browser_menu_highlighted
 "
 android
 :
