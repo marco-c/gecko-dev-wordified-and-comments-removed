@@ -65,8 +65,6 @@ service
 .
 pocket
 .
-api
-.
 ext
 import
 mozilla

@@ -65,6 +65,8 @@ service
 .
 pocket
 .
+stories
+.
 api
 import
 org

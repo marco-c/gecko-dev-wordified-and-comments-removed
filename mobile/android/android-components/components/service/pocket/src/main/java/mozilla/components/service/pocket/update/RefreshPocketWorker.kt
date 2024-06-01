@@ -65,8 +65,6 @@ service
 .
 pocket
 .
-stories
-.
 update
 import
 android

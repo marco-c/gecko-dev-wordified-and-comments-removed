@@ -65,8 +65,6 @@ service
 .
 pocket
 .
-stories
-.
 ext
 import
 androidx
@@ -92,6 +90,8 @@ components
 service
 .
 pocket
+.
+stories
 .
 api
 .

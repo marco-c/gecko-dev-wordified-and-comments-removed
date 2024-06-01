@@ -65,8 +65,6 @@ service
 .
 pocket
 .
-stories
-.
 ext
 import
 mozilla

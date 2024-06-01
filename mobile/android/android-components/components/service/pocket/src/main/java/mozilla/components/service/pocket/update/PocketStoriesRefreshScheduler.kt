@@ -65,8 +65,6 @@ service
 .
 pocket
 .
-stories
-.
 update
 import
 android
@@ -144,8 +142,6 @@ components
 service
 .
 pocket
-.
-stories
 .
 update
 .

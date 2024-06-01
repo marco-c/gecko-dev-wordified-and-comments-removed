@@ -91,8 +91,6 @@ service
 .
 pocket
 .
-stories
-.
 update
 .
 PocketStoriesRefreshScheduler

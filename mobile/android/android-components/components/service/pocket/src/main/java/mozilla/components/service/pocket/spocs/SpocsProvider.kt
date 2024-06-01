@@ -75,6 +75,8 @@ service
 .
 pocket
 .
+stories
+.
 api
 .
 PocketResponse
