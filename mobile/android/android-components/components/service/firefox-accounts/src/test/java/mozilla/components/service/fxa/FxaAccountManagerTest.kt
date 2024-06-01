@@ -3823,7 +3823,7 @@ manager
 signInWithShareableAccountAsync
 (
 migratableAccount
-reuseAccount
+reuseSessionToken
 =
 true
 )
@@ -3945,7 +3945,7 @@ manager
 signInWithShareableAccountAsync
 (
 migratableAccount
-reuseAccount
+reuseSessionToken
 =
 true
 )
@@ -4304,7 +4304,7 @@ manager
 signInWithShareableAccountAsync
 (
 migratableAccount
-reuseAccount
+reuseSessionToken
 =
 true
 )
