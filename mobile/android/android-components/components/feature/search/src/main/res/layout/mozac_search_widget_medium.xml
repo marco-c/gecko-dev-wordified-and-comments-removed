@@ -123,7 +123,7 @@ android
 layout_width
 =
 "
-192dp
+match_parent
 "
 android
 :
