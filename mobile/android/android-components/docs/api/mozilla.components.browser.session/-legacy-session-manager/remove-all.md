@@ -140,7 +140,7 @@ LegacySessionManager
 .
 kt
 #
-L489
+L370
 )
 Removes
 all

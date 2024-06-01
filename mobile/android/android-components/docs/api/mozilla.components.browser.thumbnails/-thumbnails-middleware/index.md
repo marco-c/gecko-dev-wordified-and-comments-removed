@@ -432,10 +432,10 @@ md
 fun
 invoke
 (
-store
+context
 :
 [
-MiddlewareStore
+MiddlewareContext
 ]
 (
 .
@@ -455,7 +455,7 @@ state
 -
 middleware
 -
-store
+context
 /
 index
 .

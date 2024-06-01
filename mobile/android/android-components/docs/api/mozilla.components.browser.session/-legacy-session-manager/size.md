@@ -136,7 +136,7 @@ LegacySessionManager
 .
 kt
 #
-L35
+L32
 )
 Returns
 the

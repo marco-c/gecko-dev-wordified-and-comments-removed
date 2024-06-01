@@ -184,7 +184,7 @@ SessionManager
 .
 kt
 #
-L275
+L183
 )
 Restores
 sessions
@@ -314,11 +314,7 @@ by
 createSnapshot
 ]
 (
-create
--
-snapshot
-.
-md
+#
 )
 .
 updateSelection

@@ -63,6 +63,16 @@ whenSessionsChange
 fun
 whenSessionsChange
 (
+scope
+:
+CoroutineScope
+=
+CoroutineScope
+(
+Dispatchers
+.
+IO
+)
 )
 :
 [
@@ -125,7 +135,7 @@ AutoSave
 .
 kt
 #
-L76
+L89
 )
 Saves
 the

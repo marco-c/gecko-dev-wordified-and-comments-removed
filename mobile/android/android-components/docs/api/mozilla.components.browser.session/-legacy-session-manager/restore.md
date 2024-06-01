@@ -192,7 +192,7 @@ LegacySessionManager
 .
 kt
 #
-L236
+L169
 )
 Restores
 sessions
@@ -327,11 +327,7 @@ by
 createSnapshot
 ]
 (
-create
--
-snapshot
-.
-md
+#
 )
 .
 updateSelection
