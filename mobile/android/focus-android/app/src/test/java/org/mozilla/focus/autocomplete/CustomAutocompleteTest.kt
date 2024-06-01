@@ -126,7 +126,7 @@ RobolectricTestRunner
 class
 )
 class
-CustomAutoCompleteTest
+CustomAutocompleteTest
 {
 Before
 fun
@@ -171,7 +171,7 @@ domains
 =
 runBlocking
 {
-CustomAutoComplete
+CustomAutocomplete
 .
 loadCustomAutoCompleteDomains
 (
@@ -196,7 +196,7 @@ testSavingAndLoadingDomains
 =
 runBlocking
 {
-CustomAutoComplete
+CustomAutocomplete
 .
 saveDomains
 (
@@ -225,7 +225,7 @@ com
 val
 domains
 =
-CustomAutoComplete
+CustomAutocomplete
 .
 loadCustomAutoCompleteDomains
 (
