@@ -661,9 +661,7 @@ automatically
 .
 detachSelectionActionDelegate
 (
-currentGeckoView
-.
-session
+it
 )
 currentGeckoView
 .
