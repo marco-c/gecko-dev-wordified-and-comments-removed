@@ -597,7 +597,7 @@ outputs
 /
 apk
 /
-geckoNightlyUniversal
+geckoNightly
 /
 debug
 /
@@ -606,8 +606,6 @@ samples
 browser
 -
 geckoNightly
--
-universal
 -
 debug
 .
