@@ -1019,6 +1019,13 @@ build_fs_path
 '
 :
 '
+/
+build
+/
+android
+-
+components
+/
 {
 }
 /
@@ -1045,19 +1052,12 @@ components
 format
 (
             
-os
-.
-path
-.
-abspath
-(
 component
 [
 '
 path
 '
 ]
-)
             
 component
 [
@@ -1147,38 +1147,32 @@ components_version
 (
 )
     
-build_tasks
+tasks
+=
+[
+]
+    
+build_tasks_labels
 =
 {
 }
     
-wait_on_builds_tasks
+wait_on_builds_label
 =
-{
-}
-    
-sign_tasks
-=
-{
-}
-    
-beetmover_tasks
-=
-{
-}
-    
-other_tasks
-=
-{
-}
-    
-wait_on_builds_task_id
-=
-taskcluster
-.
-slugId
-(
-)
+'
+Android
+Components
+-
+Barrier
+task
+to
+wait
+on
+other
+tasks
+to
+complete
+'
     
 timestamp
 =
@@ -1200,14 +1194,6 @@ in
 components
 :
         
-build_task_id
-=
-taskcluster
-.
-slugId
-(
-)
-        
 module_name
 =
 _get_gradle_module_name
@@ -1215,10 +1201,7 @@ _get_gradle_module_name
 component
 )
         
-build_tasks
-[
-build_task_id
-]
+build_task
 =
 builder
 .
@@ -1307,26 +1290,44 @@ timestamp
         
 )
         
-sign_task_id
-=
-taskcluster
+tasks
 .
-slugId
+append
 (
+build_task
 )
         
-sign_tasks
+build_tasks_labels
 [
-sign_task_id
+build_task
+[
+'
+label
+'
 ]
+]
+=
+build_task
+[
+'
+label
+'
+]
+        
+sign_task
 =
 builder
 .
 craft_sign_task
 (
             
-build_task_id
-wait_on_builds_task_id
+build_task
+[
+'
+label
+'
+]
+wait_on_builds_label
 [
 _to_release_artifact
 (
@@ -1350,6 +1351,13 @@ name
 ]
 is_staging
         
+)
+        
+tasks
+.
+append
+(
+sign_task
 )
         
 beetmover_build_artifacts
@@ -1401,22 +1409,27 @@ in
 AAR_EXTENSIONS
 ]
         
-beetmover_tasks
-[
-taskcluster
+tasks
 .
-slugId
+append
 (
-)
-]
-=
 builder
 .
 craft_beetmover_task
 (
             
-build_task_id
-sign_task_id
+build_task
+[
+'
+label
+'
+]
+sign_task
+[
+'
+label
+'
+]
 beetmover_build_artifacts
 beetmover_sign_artifacts
             
@@ -1430,20 +1443,18 @@ is_snapshot
 is_staging
         
 )
+)
     
-wait_on_builds_tasks
-[
-wait_on_builds_task_id
-]
-=
+tasks
+.
+append
+(
 builder
 .
 craft_barrier_task
 (
-build_tasks
-.
-keys
-(
+wait_on_builds_label
+build_tasks_labels
 )
 )
     
@@ -1467,24 +1478,14 @@ craft_compare_locales_task
 )
 :
             
-other_tasks
-[
-taskcluster
+tasks
 .
-slugId
+append
 (
-)
-]
-=
 craft_function
 (
 )
+)
     
 return
-(
-build_tasks
-wait_on_builds_tasks
-sign_tasks
-beetmover_tasks
-other_tasks
-)
+tasks
