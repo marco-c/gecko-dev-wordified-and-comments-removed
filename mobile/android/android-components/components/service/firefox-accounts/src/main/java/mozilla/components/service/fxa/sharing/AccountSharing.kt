@@ -71,6 +71,12 @@ android
 .
 annotation
 .
+SuppressLint
+import
+android
+.
+annotation
+.
 TargetApi
 import
 android
@@ -1331,6 +1337,12 @@ obtained
 .
 *
 /
+SuppressLint
+(
+"
+PackageManagerGetSignatures
+"
+)
 fun
 getSignaturePreAPI28
 (

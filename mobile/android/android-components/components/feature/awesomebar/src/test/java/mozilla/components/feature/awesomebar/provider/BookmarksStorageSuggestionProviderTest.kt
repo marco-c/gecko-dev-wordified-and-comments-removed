@@ -1107,7 +1107,7 @@ score
 .
 urlMatches
 .
-maxBy
+maxByOrNull
 {
 it
 .

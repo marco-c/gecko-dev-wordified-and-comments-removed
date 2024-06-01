@@ -67,6 +67,12 @@ digitalassetlinks
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 pm
@@ -614,6 +620,12 @@ packageInfo
 signatures
 }
 }
+SuppressLint
+(
+"
+PackageManagerGetSignatures
+"
+)
 private
 fun
 PackageManager

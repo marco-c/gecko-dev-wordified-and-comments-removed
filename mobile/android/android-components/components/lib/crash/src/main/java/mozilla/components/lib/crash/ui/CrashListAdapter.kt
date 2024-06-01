@@ -515,7 +515,7 @@ uuid
 )
 text
 .
-appendln
+appendLine
 (
 )
 text
@@ -538,7 +538,7 @@ first
 )
 text
 .
-appendln
+appendLine
 (
 )
 crashWithReports
@@ -615,7 +615,7 @@ URL
 )
 text
 .
-appendln
+appendLine
 (
 )
 }
@@ -632,7 +632,7 @@ append
 )
 text
 .
-appendln
+appendLine
 (
 )
 text
@@ -647,7 +647,7 @@ stacktrace
 )
 text
 .
-appendln
+appendLine
 (
 )
 val

@@ -143,16 +143,6 @@ mozilla
 .
 components
 .
-concept
-.
-fetch
-.
-Client
-import
-mozilla
-.
-components
-.
 lib
 .
 crash
@@ -413,8 +403,6 @@ lazy
 HttpURLConnectionClient
 (
 )
-as
-Client
 }
 )
 val
