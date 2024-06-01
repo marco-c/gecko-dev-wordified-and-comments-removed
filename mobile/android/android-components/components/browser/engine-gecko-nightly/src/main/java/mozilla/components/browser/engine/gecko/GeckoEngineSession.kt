@@ -4945,7 +4945,12 @@ contentLength
 contentLength
 contentType
 =
+DownloadUtils
+.
+sanitizeMimeType
+(
 contentType
+)
 fileName
 =
 fileName

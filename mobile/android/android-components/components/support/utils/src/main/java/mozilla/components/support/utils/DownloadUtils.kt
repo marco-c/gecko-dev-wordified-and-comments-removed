@@ -83,12 +83,6 @@ webkit
 .
 MimeTypeMap
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 java
 .
 io
@@ -1511,8 +1505,6 @@ ignore
 the
 rest
 .
-VisibleForTesting
-internal
 fun
 sanitizeMimeType
 (
@@ -1526,6 +1518,7 @@ String
 ?
 {
 return
+(
 if
 (
 mimeType
@@ -1564,6 +1557,12 @@ else
 {
 null
 }
+)
+?
+.
+trim
+(
+)
 }
 /
 *
