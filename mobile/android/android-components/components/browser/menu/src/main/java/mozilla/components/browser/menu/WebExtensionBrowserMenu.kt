@@ -197,6 +197,16 @@ mozilla
 .
 components
 .
+concept
+.
+menu
+.
+MenuStyle
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -284,6 +294,10 @@ View
 orientation
 :
 Orientation
+style
+:
+MenuStyle
+?
 endOfMenuAlwaysVisible
 :
 Boolean
@@ -340,6 +354,7 @@ show
 (
 anchor
 orientation
+style
 endOfMenuAlwaysVisible
 onDismiss
 )

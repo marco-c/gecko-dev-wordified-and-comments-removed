@@ -527,6 +527,9 @@ menuButton
 any
 (
 )
+any
+(
+)
 anyBoolean
 (
 )
@@ -616,6 +619,9 @@ any
 any
 (
 )
+any
+(
+)
 anyBoolean
 (
 )
@@ -673,6 +679,9 @@ show
 eq
 (
 menuButton
+)
+any
+(
 )
 any
 (
@@ -790,6 +799,9 @@ show
 eq
 (
 menuButton
+)
+any
+(
 )
 any
 (
