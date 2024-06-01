@@ -339,7 +339,7 @@ AddonUpdater
 .
 kt
 #
-L76
+L82
 )
 Invoked
 when

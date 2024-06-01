@@ -86,6 +86,7 @@ md
 )
 #
 Error
+data
 class
 Error
 :
@@ -152,7 +153,7 @@ AddonUpdater
 .
 kt
 #
-L123
+L129
 )
 An
 error

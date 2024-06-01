@@ -180,7 +180,7 @@ AddonUpdater
 .
 kt
 #
-L51
+L57
 )
 Registers
 the
@@ -390,7 +390,7 @@ AddonUpdater
 .
 kt
 #
-L89
+L95
 )
 Registers
 the
