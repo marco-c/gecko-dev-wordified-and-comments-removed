@@ -149,7 +149,7 @@ toolbar
 #
 #
 Parameters
-browserAction
+action
 -
 Associated
 [
@@ -233,7 +233,7 @@ md
 |
 WebExtensionToolbarAction
 (
-browserAction
+action
 :
 [
 WebExtensionBrowserAction

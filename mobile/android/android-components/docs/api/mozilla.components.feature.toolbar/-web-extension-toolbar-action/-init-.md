@@ -70,7 +70,7 @@ gt
 ;
 WebExtensionToolbarAction
 (
-browserAction
+action
 :
 [
 WebExtensionBrowserAction
@@ -194,7 +194,7 @@ toolbar
 #
 #
 Parameters
-browserAction
+action
 -
 Associated
 [

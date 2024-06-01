@@ -114,7 +114,7 @@ WebExtensionBrowserMenu
 .
 kt
 #
-L23
+L25
 )
 A
 [

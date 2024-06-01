@@ -76,7 +76,7 @@ val
 cause
 :
 [
-Exception
+Throwable
 ]
 (
 https
@@ -98,12 +98,13 @@ stdlib
 kotlin
 /
 -
-exception
+throwable
 /
 index
 .
 html
 )
+?
 [
 (
 source
@@ -154,7 +155,7 @@ PushProcessor
 .
 kt
 #
-L104
+L105
 )
 Original
 exception

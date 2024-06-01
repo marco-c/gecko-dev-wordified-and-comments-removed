@@ -143,7 +143,7 @@ BrowserMenuItem
 .
 kt
 #
-L24
+L26
 )
 Lambda
 expression

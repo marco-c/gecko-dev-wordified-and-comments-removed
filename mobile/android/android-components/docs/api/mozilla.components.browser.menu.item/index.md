@@ -877,7 +877,9 @@ browser
 menu
 item
 displaying
+a
 web
 extension
+action
 .
 |

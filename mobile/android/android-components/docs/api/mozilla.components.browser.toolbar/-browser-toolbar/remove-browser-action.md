@@ -210,6 +210,7 @@ Removes
 a
 previously
 added
+browser
 action
 (
 see

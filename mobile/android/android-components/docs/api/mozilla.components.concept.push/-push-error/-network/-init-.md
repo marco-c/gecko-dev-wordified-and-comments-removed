@@ -88,7 +88,7 @@ gt
 ;
 Network
 (
-desc
+message
 :
 [
 String

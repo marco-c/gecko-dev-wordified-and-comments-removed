@@ -88,7 +88,7 @@ gt
 ;
 Registration
 (
-desc
+message
 :
 [
 String

@@ -88,7 +88,7 @@ gt
 ;
 MalformedMessage
 (
-desc
+message
 :
 [
 String
