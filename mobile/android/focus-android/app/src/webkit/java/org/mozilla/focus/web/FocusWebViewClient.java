@@ -435,9 +435,10 @@ true
 }
 if
 (
+!
 UrlUtils
 .
-focusSupportURLProtocol
+isSupportedProtocol
 (
 url
 )
