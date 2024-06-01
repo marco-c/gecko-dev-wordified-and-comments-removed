@@ -10,6 +10,13 @@ menu
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -126,6 +133,12 @@ BrowserFragment
 fragment
 )
 {
+SuppressLint
+(
+"
+InflateParams
+"
+)
 final
 View
 view

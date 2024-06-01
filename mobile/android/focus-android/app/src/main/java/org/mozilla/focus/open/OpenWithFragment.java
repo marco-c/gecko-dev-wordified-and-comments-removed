@@ -10,6 +10,13 @@ open
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 app
 .
 Dialog
@@ -286,6 +293,12 @@ style
 Theme_Material_Light
 )
 ;
+SuppressLint
+(
+"
+InflateParams
+"
+)
 final
 View
 view
