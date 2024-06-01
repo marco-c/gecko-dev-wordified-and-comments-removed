@@ -5,7 +5,7 @@ mozilla
 .
 focus
 .
-utils
+locale
 ;
 import
 org

@@ -88,9 +88,9 @@ mozilla
 .
 focus
 .
-utils
+locale
 .
-IOUtils
+Locales
 ;
 import
 org
@@ -101,7 +101,7 @@ focus
 .
 utils
 .
-Locales
+IOUtils
 ;
 import
 org
