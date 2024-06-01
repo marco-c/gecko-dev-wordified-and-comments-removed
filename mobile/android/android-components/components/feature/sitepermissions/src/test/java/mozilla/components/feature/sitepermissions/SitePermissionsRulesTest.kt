@@ -413,9 +413,6 @@ SitePermissionsFeature
 context
 =
 testContext
-sessionManager
-=
-mockSessionManager
 onNeedToRequestPermissions
 =
 mockOnNeedToRequestPermissions

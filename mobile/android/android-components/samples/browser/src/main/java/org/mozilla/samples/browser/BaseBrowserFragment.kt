@@ -929,11 +929,6 @@ context
 requireContext
 (
 )
-sessionManager
-=
-components
-.
-sessionManager
 sessionId
 =
 sessionId
