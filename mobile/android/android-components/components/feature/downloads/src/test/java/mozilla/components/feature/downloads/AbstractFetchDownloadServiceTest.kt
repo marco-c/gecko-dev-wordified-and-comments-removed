@@ -2264,6 +2264,8 @@ startDownloadJob
 providedDownload
 .
 value
+.
+id
 )
 }
 Test
@@ -2593,6 +2595,8 @@ startDownloadJob
 providedDownload
 .
 value
+.
+id
 )
 }
 Test
