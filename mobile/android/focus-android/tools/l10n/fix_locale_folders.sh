@@ -243,14 +243,6 @@ folder
 fixed_folder
 }
 "
-if
-[
--
-f
-fixed_folder
-]
-;
-then
 rm
 -
 rf
@@ -259,7 +251,6 @@ rf
 fixed_folder
 }
 "
-fi
 mv
 "
 folder
