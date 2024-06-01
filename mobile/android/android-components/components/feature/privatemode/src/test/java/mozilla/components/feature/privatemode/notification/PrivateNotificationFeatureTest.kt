@@ -45,14 +45,6 @@ coroutines
 .
 runBlocking
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components

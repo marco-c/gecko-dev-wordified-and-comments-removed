@@ -89,14 +89,6 @@ flow
 .
 collect
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components

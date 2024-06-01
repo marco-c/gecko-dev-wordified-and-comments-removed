@@ -65,14 +65,6 @@ feature
 .
 toolbar
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components

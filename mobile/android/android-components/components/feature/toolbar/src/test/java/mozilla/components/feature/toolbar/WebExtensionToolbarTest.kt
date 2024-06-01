@@ -127,14 +127,6 @@ coroutines
 .
 delay
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components

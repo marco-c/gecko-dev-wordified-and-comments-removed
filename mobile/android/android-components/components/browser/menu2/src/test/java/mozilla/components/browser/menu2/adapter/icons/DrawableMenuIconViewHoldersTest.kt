@@ -133,14 +133,6 @@ coroutines
 .
 test
 .
-TestCoroutineDispatcher
-import
-kotlinx
-.
-coroutines
-.
-test
-.
 runBlockingTest
 import
 mozilla

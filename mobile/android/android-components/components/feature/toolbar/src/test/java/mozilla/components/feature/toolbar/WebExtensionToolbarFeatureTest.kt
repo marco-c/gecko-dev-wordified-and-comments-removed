@@ -95,14 +95,6 @@ os
 .
 Looper
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components

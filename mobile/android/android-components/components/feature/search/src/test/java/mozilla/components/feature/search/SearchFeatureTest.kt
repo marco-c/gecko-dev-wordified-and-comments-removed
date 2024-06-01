@@ -7,14 +7,6 @@ feature
 .
 search
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components

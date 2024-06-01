@@ -103,14 +103,6 @@ coroutines
 .
 test
 .
-TestCoroutineDispatcher
-import
-kotlinx
-.
-coroutines
-.
-test
-.
 TestCoroutineScope
 import
 mozilla
