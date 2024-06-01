@@ -851,6 +851,9 @@ deleteProfile
 :
 Boolean
 {
+stopPeriodicSponsoredStoriesRefresh
+(
+)
 return
 spocsUseCases
 ?
