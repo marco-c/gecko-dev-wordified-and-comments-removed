@@ -123,14 +123,6 @@ content
 .
 Intent
 .
-EXTRA_TITLE
-import
-android
-.
-content
-.
-Intent
-.
 FLAG_ACTIVITY_NEW_TASK
 import
 android
@@ -655,11 +647,6 @@ text
 /
 plain
 "
-putExtra
-(
-EXTRA_TITLE
-subject
-)
 putExtra
 (
 EXTRA_SUBJECT
