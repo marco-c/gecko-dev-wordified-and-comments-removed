@@ -129,7 +129,7 @@ SyncedTabsFeature
 .
 kt
 #
-L36
+L37
 )
 Feature
 implementation
@@ -793,9 +793,8 @@ md
 =
 DefaultInteractor
 (
-accountManager
+controller
 view
-coroutineContext
 onTabClicked
 )
 )

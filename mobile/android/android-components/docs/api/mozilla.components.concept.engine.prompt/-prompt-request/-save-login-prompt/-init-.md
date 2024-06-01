@@ -54,7 +54,7 @@ md
 )
 /
 [
-LoginPrompt
+SaveLoginPrompt
 ]
 (
 index
@@ -88,7 +88,7 @@ init
 &
 gt
 ;
-LoginPrompt
+SaveLoginPrompt
 (
 hint
 :
@@ -290,7 +290,8 @@ represents
 a
 request
 for
-an
+a
+save
 login
 prompt
 .

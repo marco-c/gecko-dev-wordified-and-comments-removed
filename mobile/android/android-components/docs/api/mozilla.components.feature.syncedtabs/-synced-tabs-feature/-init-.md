@@ -391,9 +391,8 @@ md
 =
 DefaultInteractor
 (
-accountManager
+controller
 view
-coroutineContext
 onTabClicked
 )
 )
