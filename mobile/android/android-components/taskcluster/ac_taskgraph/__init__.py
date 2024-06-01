@@ -138,6 +138,9 @@ target_tasks
 "
 worker_types
 "
+"
+release_promotion
+"
 ]
 )
     
