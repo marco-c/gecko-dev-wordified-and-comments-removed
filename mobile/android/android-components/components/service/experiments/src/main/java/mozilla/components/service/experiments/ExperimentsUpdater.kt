@@ -262,7 +262,7 @@ Logger
 (
 LOG_TAG
 )
-private
+internal
 lateinit
 var
 config
@@ -653,10 +653,7 @@ try
 val
 serverExperiments
 =
-getExperimentSource
-(
-config
-)
+source
 .
 getExperiments
 (
