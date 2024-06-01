@@ -103,7 +103,9 @@ appservices
 .
 push
 .
-CommunicationError
+PushException
+.
+CommunicationException
 import
 mozilla
 .
@@ -111,7 +113,9 @@ appservices
 .
 push
 .
-CommunicationServerError
+PushException
+.
+CommunicationServerException
 import
 mozilla
 .
@@ -119,7 +123,9 @@ appservices
 .
 push
 .
-CryptoError
+PushException
+.
+CryptoException
 import
 mozilla
 .
@@ -127,7 +133,9 @@ appservices
 .
 push
 .
-GeneralError
+PushException
+.
+GeneralException
 import
 mozilla
 .
@@ -135,7 +143,9 @@ appservices
 .
 push
 .
-MissingRegistrationTokenError
+PushException
+.
+MissingRegistrationTokenException
 import
 mozilla
 .
@@ -371,7 +381,7 @@ scope
 launch
 {
 throw
-GeneralError
+GeneralException
 (
 "
 test
@@ -387,7 +397,7 @@ scope
 launch
 {
 throw
-CryptoError
+CryptoException
 (
 "
 test
@@ -403,7 +413,7 @@ scope
 launch
 {
 throw
-CommunicationError
+CommunicationException
 (
 "
 test
@@ -419,7 +429,7 @@ scope
 launch
 {
 throw
-CommunicationServerError
+CommunicationServerException
 (
 "
 test
@@ -446,8 +456,10 @@ scope
 launch
 {
 throw
-MissingRegistrationTokenError
+MissingRegistrationTokenException
 (
+"
+"
 )
 }
 assertTrue

@@ -105,7 +105,7 @@ appservices
 .
 push
 .
-PushAPI
+PushManager
 import
 mozilla
 .
@@ -364,7 +364,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (
@@ -474,7 +474,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (
@@ -484,7 +484,7 @@ response
 =
 SubscriptionResponse
 (
-channelID
+channelId
 =
 "
 1234
@@ -675,7 +675,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (
@@ -762,7 +762,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (
@@ -810,7 +810,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (
@@ -925,7 +925,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (
@@ -1013,7 +1013,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (
@@ -1223,7 +1223,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (
@@ -1432,7 +1432,7 @@ createConnection
 val
 api
 :
-PushAPI
+PushManager
 =
 mock
 (

@@ -94,7 +94,7 @@ appservices
 .
 push
 .
-AlreadyRegisteredError
+InternalException
 import
 mozilla
 .
@@ -102,7 +102,9 @@ appservices
 .
 push
 .
-CommunicationError
+PushException
+.
+AlreadyRegisteredException
 import
 mozilla
 .
@@ -110,7 +112,9 @@ appservices
 .
 push
 .
-CommunicationServerError
+PushException
+.
+CommunicationException
 import
 mozilla
 .
@@ -118,7 +122,9 @@ appservices
 .
 push
 .
-CryptoError
+PushException
+.
+CommunicationServerException
 import
 mozilla
 .
@@ -126,7 +132,9 @@ appservices
 .
 push
 .
-GeneralError
+PushException
+.
+CryptoException
 import
 mozilla
 .
@@ -134,7 +142,9 @@ appservices
 .
 push
 .
-InternalPanic
+PushException
+.
+GeneralException
 import
 mozilla
 .
@@ -142,7 +152,9 @@ appservices
 .
 push
 .
-MissingRegistrationTokenError
+PushException
+.
+MissingRegistrationTokenException
 import
 mozilla
 .
@@ -150,7 +162,9 @@ appservices
 .
 push
 .
-RecordNotFoundError
+PushException
+.
+RecordNotFoundException
 import
 mozilla
 .
@@ -158,7 +172,9 @@ appservices
 .
 push
 .
-StorageError
+PushException
+.
+StorageException
 import
 mozilla
 .
@@ -166,7 +182,9 @@ appservices
 .
 push
 .
-StorageSqlError
+PushException
+.
+StorageSqlException
 import
 mozilla
 .
@@ -174,7 +192,9 @@ appservices
 .
 push
 .
-TranscodingError
+PushException
+.
+TranscodingException
 import
 mozilla
 .
@@ -182,7 +202,9 @@ appservices
 .
 push
 .
-UrlParseError
+PushException
+.
+UrlParseException
 import
 mozilla
 .
@@ -207,7 +229,7 @@ Test
 (
 expected
 =
-InternalPanic
+InternalException
 :
 :
 class
@@ -235,7 +257,7 @@ errorBlock
 =
 {
 throw
-InternalPanic
+InternalException
 (
 "
 unit
@@ -247,8 +269,10 @@ block
 =
 {
 throw
-MissingRegistrationTokenError
+MissingRegistrationTokenException
 (
+"
+"
 )
 }
 )
@@ -283,7 +307,7 @@ errorBlock
 =
 {
 throw
-InternalPanic
+InternalException
 (
 "
 unit
@@ -325,7 +349,7 @@ launchAndTry
 (
 {
 throw
-CryptoError
+CryptoException
 (
 "
 should
@@ -355,7 +379,7 @@ launchAndTry
 (
 {
 throw
-CommunicationServerError
+CommunicationServerException
 (
 "
 should
@@ -381,7 +405,7 @@ launchAndTry
 (
 {
 throw
-CommunicationError
+CommunicationException
 (
 "
 should
@@ -407,8 +431,10 @@ launchAndTry
 (
 {
 throw
-AlreadyRegisteredError
+AlreadyRegisteredException
 (
+"
+"
 )
 }
 {
@@ -427,7 +453,7 @@ launchAndTry
 (
 {
 throw
-StorageError
+StorageException
 (
 "
 should
@@ -453,8 +479,10 @@ launchAndTry
 (
 {
 throw
-MissingRegistrationTokenError
+MissingRegistrationTokenException
 (
+"
+"
 )
 }
 {
@@ -473,7 +501,7 @@ launchAndTry
 (
 {
 throw
-StorageSqlError
+StorageSqlException
 (
 "
 should
@@ -499,7 +527,7 @@ launchAndTry
 (
 {
 throw
-TranscodingError
+TranscodingException
 (
 "
 should
@@ -525,7 +553,7 @@ launchAndTry
 (
 {
 throw
-RecordNotFoundError
+RecordNotFoundException
 (
 "
 should
@@ -551,7 +579,7 @@ launchAndTry
 (
 {
 throw
-UrlParseError
+UrlParseException
 (
 "
 should
@@ -577,7 +605,7 @@ launchAndTry
 (
 {
 throw
-GeneralError
+GeneralException
 (
 "
 should

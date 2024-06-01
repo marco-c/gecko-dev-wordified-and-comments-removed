@@ -121,7 +121,9 @@ appservices
 .
 push
 .
-GeneralError
+PushException
+.
+GeneralException
 import
 mozilla
 .
@@ -129,7 +131,9 @@ appservices
 .
 push
 .
-MissingRegistrationTokenError
+PushException
+.
+MissingRegistrationTokenException
 import
 mozilla
 .
@@ -1409,8 +1413,10 @@ nullable
 thenAnswer
 {
 throw
-MissingRegistrationTokenError
+MissingRegistrationTokenException
 (
+"
+"
 )
 }
 whenever
@@ -1697,8 +1703,10 @@ anyString
 thenAnswer
 {
 throw
-MissingRegistrationTokenError
+MissingRegistrationTokenException
 (
+"
+"
 )
 }
 feature
@@ -2613,7 +2621,7 @@ any
 thenAnswer
 {
 throw
-GeneralError
+GeneralException
 (
 "
 test
@@ -2713,8 +2721,10 @@ any
 thenAnswer
 {
 throw
-MissingRegistrationTokenError
+MissingRegistrationTokenException
 (
+"
+"
 )
 }
 feature

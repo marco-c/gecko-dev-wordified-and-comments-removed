@@ -97,15 +97,9 @@ appservices
 .
 push
 .
-GeneralError
-import
-mozilla
+PushException
 .
-appservices
-.
-push
-.
-PushAPI
+GeneralException
 import
 mozilla
 .
@@ -174,7 +168,7 @@ that
 wraps
 the
 [
-PushAPI
+PushManager
 ]
 .
 *
@@ -919,7 +913,7 @@ internal
 var
 api
 :
-PushAPI
+PushManager
 ?
 =
 null
@@ -1344,7 +1338,7 @@ catch
 (
 e
 :
-GeneralError
+GeneralException
 )
 {
 val
@@ -1695,7 +1689,7 @@ pushApi
 .
 decrypt
 (
-channelID
+channelId
 =
 channelId
 body
@@ -1716,6 +1710,10 @@ DecryptedMessage
 (
 scope
 data
+.
+toByteArray
+(
+)
 )
 }
 else
@@ -2044,7 +2042,7 @@ scope
 scope
 channelId
 =
-channelID
+channelId
 )
 /
 *

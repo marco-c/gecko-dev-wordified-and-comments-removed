@@ -414,7 +414,7 @@ assertEquals
 (
 response
 .
-channelID
+channelId
 sub
 .
 channelId

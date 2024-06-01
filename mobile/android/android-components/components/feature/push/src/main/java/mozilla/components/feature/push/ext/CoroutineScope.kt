@@ -91,7 +91,7 @@ appservices
 .
 push
 .
-PushError
+PushException
 /
 *
 *
@@ -156,7 +156,7 @@ catch
 (
 e
 :
-PushError
+PushException
 )
 {
 errorBlock
