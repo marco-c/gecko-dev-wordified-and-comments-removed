@@ -173,7 +173,7 @@ UrlAutoCompleteFilter
 )
 filter
 .
-initialize
+load
 (
 RuntimeEnvironment
 .
@@ -433,7 +433,7 @@ UrlAutoCompleteFilter
 )
 filter
 .
-initialize
+load
 (
 RuntimeEnvironment
 .
