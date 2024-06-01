@@ -1145,6 +1145,15 @@ constellationObserver
 lifecycleOwner
 autoPause
 )
+account
+.
+deviceConstellation
+(
+)
+.
+refreshDevices
+(
+)
 }
 }
 override
