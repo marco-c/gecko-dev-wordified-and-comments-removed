@@ -270,16 +270,6 @@ icons
 '
 )
 implementation
-project
-(
-'
-:
-lib
--
-crash
-'
-)
-implementation
 Dependencies
 .
 androidx_core_ktx
