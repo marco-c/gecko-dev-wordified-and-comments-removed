@@ -88,9 +88,11 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-menu
+engine
+.
+webextension
 /
 -
 web
@@ -168,9 +170,11 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-menu
+engine
+.
+webextension
 /
 -
 web

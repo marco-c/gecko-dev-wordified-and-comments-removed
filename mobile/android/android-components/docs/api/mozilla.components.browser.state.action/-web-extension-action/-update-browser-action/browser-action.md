@@ -89,6 +89,19 @@ WebExtensionBrowserAction
 .
 .
 /
+.
+.
+/
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
+webextension
+/
 -
 web
 -
@@ -152,5 +165,5 @@ BrowserAction
 .
 kt
 #
-L295
+L296
 )

@@ -152,7 +152,7 @@ Session
 .
 kt
 #
-L22
+L21
 )
 Checks
 if
@@ -201,6 +201,18 @@ a
 name
 or
 short_name
+*
+The
+manifest
+display
+mode
+is
+standalone
+fullscreen
+or
+minimal
+-
+ui
 *
 The
 icons

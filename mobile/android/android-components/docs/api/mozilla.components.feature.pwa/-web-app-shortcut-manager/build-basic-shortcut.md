@@ -58,6 +58,7 @@ md
 )
 #
 buildBasicShortcut
+suspend
 fun
 buildBasicShortcut
 (
@@ -181,7 +182,7 @@ WebAppShortcutManager
 .
 kt
 #
-L108
+L109
 )
 Create
 a

@@ -97,7 +97,7 @@ WebAppShortcutManager
 .
 kt
 #
-L52
+L53
 )
 Helper
 to
@@ -327,6 +327,7 @@ shortcut
 md
 )
 |
+suspend
 fun
 buildBasicShortcut
 (
