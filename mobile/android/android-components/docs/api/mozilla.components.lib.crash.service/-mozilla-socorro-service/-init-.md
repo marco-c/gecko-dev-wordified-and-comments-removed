@@ -141,7 +141,7 @@ index
 html
 )
 =
-defaultServerUrl
+DEFAULT_SERVER_URL
 )
 A
 [

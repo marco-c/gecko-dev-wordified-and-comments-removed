@@ -120,7 +120,7 @@ WebAppManifestParser
 .
 kt
 #
-L24
+L28
 )
 A
 parsing

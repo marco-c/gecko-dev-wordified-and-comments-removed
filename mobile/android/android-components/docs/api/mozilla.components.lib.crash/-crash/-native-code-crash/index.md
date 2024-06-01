@@ -207,6 +207,7 @@ index
 .
 html
 )
+?
 minidumpSuccess
 :
 [
@@ -269,6 +270,7 @@ index
 .
 html
 )
+?
 isFatal
 :
 [
@@ -495,6 +497,7 @@ index
 .
 html
 )
+?
 <
 br
 >
@@ -679,6 +682,7 @@ index
 .
 html
 )
+?
 <
 br
 >

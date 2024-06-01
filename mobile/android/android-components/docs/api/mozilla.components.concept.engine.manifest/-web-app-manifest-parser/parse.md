@@ -130,7 +130,7 @@ WebAppManifestParser
 .
 kt
 #
-L44
+L48
 )
 fun
 parse
@@ -234,7 +234,7 @@ WebAppManifestParser
 .
 kt
 #
-L75
+L80
 )
 Parses
 the
