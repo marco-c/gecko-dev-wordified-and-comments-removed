@@ -387,6 +387,7 @@ String
 ?
 =
 "
+ContentAudioCapture
 "
 override
 val
@@ -414,6 +415,7 @@ String
 ?
 =
 "
+ContentAudioMicrophone
 "
 override
 val
@@ -441,6 +443,7 @@ String
 ?
 =
 "
+ContentAudioOther
 "
 override
 val
@@ -468,6 +471,7 @@ String
 ?
 =
 "
+ContentGeoLocation
 "
 override
 val
@@ -495,6 +499,7 @@ String
 ?
 =
 "
+ContentNotification
 "
 override
 val
@@ -522,6 +527,7 @@ String
 ?
 =
 "
+ContentProtectedMediaId
 "
 override
 val
@@ -549,6 +555,7 @@ String
 ?
 =
 "
+ContentVideoCamera
 "
 override
 val
@@ -576,6 +583,7 @@ String
 ?
 =
 "
+ContentVideoCapture
 "
 override
 val
@@ -603,6 +611,7 @@ String
 ?
 =
 "
+ContentVideoScreen
 "
 override
 val
@@ -630,6 +639,7 @@ String
 ?
 =
 "
+ContentVideoOther
 "
 override
 val
@@ -657,6 +667,7 @@ String
 ?
 =
 "
+ContentAutoPlayAudible
 "
 override
 val
@@ -684,6 +695,7 @@ String
 ?
 =
 "
+ContentAutoPlayInaudible
 "
 override
 val
@@ -711,6 +723,7 @@ String
 ?
 =
 "
+ContentPersistentStorage
 "
 override
 val
@@ -738,6 +751,7 @@ String
 ?
 =
 "
+ContentMediaKeySystemAccess
 "
 override
 val
@@ -765,6 +779,7 @@ String
 ?
 =
 "
+ContentCrossOriginStorageAccess
 "
 override
 val
@@ -792,6 +807,7 @@ String
 ?
 =
 "
+AppCamera
 "
 override
 val
@@ -819,6 +835,7 @@ String
 ?
 =
 "
+AppAudio
 "
 override
 val
@@ -846,6 +863,7 @@ String
 ?
 =
 "
+AppLocationCoarse
 "
 override
 val
@@ -873,6 +891,7 @@ String
 ?
 =
 "
+AppLocationFine
 "
 override
 val
@@ -898,6 +917,10 @@ id
 :
 String
 ?
+=
+"
+Generic
+"
 override
 val
 desc

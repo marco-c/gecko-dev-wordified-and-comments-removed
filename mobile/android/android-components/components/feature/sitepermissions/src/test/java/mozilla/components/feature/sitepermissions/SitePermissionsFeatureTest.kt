@@ -6797,9 +6797,6 @@ ContentCrossOriginStorageAccess
 )
 Generic
 (
-id
-=
-null
 )
 )
 var
