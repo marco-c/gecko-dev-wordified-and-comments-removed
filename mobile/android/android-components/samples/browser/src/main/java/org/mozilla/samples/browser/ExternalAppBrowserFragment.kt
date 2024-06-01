@@ -491,7 +491,7 @@ windowFeature
 =
 CustomTabWindowFeature
 (
-requireContext
+requireActivity
 (
 )
 components
