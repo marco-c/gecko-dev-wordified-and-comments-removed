@@ -546,17 +546,6 @@ lib
 -
 push
 -
-amazon
-:
-lib
--
-push
--
-amazon
-lib
--
-push
--
 firebase
 :
 lib

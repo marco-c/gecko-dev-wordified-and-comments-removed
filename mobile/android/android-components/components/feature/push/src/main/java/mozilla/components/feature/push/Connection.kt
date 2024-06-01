@@ -1963,14 +1963,6 @@ FCM
 BridgeType
 .
 FCM
-ServiceType
-.
-ADM
--
->
-BridgeType
-.
-ADM
 }
 /
 *

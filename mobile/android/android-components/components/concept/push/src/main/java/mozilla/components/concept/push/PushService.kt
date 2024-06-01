@@ -82,10 +82,6 @@ like
 Firebase
 Cloud
 Messaging
-and
-Amazon
-Device
-Messaging
 SDKs
 to
 allow

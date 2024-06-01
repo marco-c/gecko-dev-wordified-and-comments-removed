@@ -2445,7 +2445,7 @@ Supported
 push
 services
 .
-These
+This
 are
 currently
 limited
@@ -2454,6 +2454,10 @@ Firebase
 Cloud
 Messaging
 and
+*
+(
+previously
+)
 Amazon
 Device
 Messaging
@@ -2465,7 +2469,6 @@ class
 ServiceType
 {
 FCM
-ADM
 }
 /
 *
