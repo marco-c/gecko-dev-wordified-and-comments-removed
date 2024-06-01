@@ -790,7 +790,7 @@ requested
 *
 feature
 -
-fullscreen
+session
 *
 *
 *
@@ -807,7 +807,9 @@ change
 Added
 viewportFitChanged
 to
-support
+FullScreenFeature
+for
+supporting
 Android
 display
 cutouts
