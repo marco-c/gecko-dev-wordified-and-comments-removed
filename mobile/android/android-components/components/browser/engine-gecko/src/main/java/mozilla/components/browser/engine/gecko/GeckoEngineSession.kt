@@ -1844,7 +1844,7 @@ throwable
 )
 notifyObservers
 {
-onSaveToPdfError
+onSaveToPdfException
 (
 throwable
 )

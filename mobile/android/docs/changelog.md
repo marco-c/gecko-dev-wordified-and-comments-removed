@@ -333,6 +333,16 @@ worldwide
 )
 .
 *
+Renamed
+EngineSession
+.
+onSaveToPdfError
+to
+EngineSession
+.
+onSaveToPdfException
+.
+*
 *
 *
 browser
