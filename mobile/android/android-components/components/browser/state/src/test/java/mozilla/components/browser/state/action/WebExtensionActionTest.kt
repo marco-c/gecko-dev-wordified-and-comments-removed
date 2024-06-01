@@ -1053,6 +1053,9 @@ extensionId
 "
 url
 "
+"
+name
+"
 true
 mockedBrowserAction1
 )
@@ -1484,6 +1487,9 @@ extensionId
 "
 "
 url
+"
+"
+name
 "
 true
 mockedPageAction1

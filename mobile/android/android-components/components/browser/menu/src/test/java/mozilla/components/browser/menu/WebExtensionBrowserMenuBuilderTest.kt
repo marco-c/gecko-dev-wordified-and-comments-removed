@@ -295,6 +295,9 @@ id
 "
 url
 "
+"
+name
+"
 true
 browserAction
 =
@@ -529,6 +532,9 @@ id
 "
 "
 url
+"
+"
+name
 "
 true
 browserAction

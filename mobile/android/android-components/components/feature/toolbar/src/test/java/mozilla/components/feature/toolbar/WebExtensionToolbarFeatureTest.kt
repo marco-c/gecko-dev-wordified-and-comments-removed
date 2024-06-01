@@ -481,6 +481,9 @@ id
 "
 url
 "
+"
+name
+"
 true
 browserAction
 =
@@ -512,6 +515,9 @@ id
 "
 "
 url
+"
+"
+name
 "
 true
 browserAction
@@ -791,6 +797,9 @@ enabled
 "
 url
 "
+"
+name
+"
 true
 browserAction
 =
@@ -810,6 +819,9 @@ disabled
 "
 "
 url
+"
+"
+name
 "
 false
 browserAction
