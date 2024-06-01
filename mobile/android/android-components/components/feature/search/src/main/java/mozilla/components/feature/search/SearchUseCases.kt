@@ -110,6 +110,18 @@ browser
 session
 .
 SessionManager
+import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
+SessionState
 /
 *
 *
@@ -525,7 +537,7 @@ invoke
 searchTerms
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -662,7 +674,7 @@ searchTerms
 String
 source
 :
-Session
+SessionState
 .
 Source
 selected

@@ -103,6 +103,18 @@ browser
 .
 state
 .
+state
+.
+SessionState
+import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
 store
 .
 BrowserStore
@@ -5111,7 +5123,7 @@ mozilla
 org
 "
 true
-Session
+SessionState
 .
 Source
 .

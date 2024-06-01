@@ -141,9 +141,11 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+state
+.
+SessionState
 .
 Source
 import

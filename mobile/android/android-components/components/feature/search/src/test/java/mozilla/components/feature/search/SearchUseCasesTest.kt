@@ -121,6 +121,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+state
+.
+SessionState
+import
+mozilla
+.
+components
+.
 concept
 .
 engine
@@ -517,7 +529,7 @@ useCases
 newTabSearch
 (
 searchTerms
-Session
+SessionState
 .
 Source
 .

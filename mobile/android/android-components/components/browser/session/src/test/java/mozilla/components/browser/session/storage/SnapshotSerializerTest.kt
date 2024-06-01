@@ -117,6 +117,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+state
+.
+SessionState
+import
+mozilla
+.
+components
+.
 concept
 .
 engine
@@ -269,7 +281,7 @@ org
 "
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -340,7 +352,7 @@ url
 )
 assertEquals
 (
-Session
+SessionState
 .
 Source
 .
@@ -505,7 +517,7 @@ org
 "
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -591,7 +603,7 @@ url
 )
 assertEquals
 (
-Session
+SessionState
 .
 Source
 .
@@ -706,7 +718,7 @@ org
 "
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -797,7 +809,7 @@ url
 )
 assertEquals
 (
-Session
+SessionState
 .
 Source
 .
@@ -1086,7 +1098,7 @@ url
 )
 assertEquals
 (
-Session
+SessionState
 .
 Source
 .
@@ -1222,7 +1234,7 @@ org
 "
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -1284,7 +1296,7 @@ url
 )
 assertEquals
 (
-Session
+SessionState
 .
 Source
 .
@@ -1397,7 +1409,7 @@ org
 "
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -1468,7 +1480,7 @@ url
 )
 assertEquals
 (
-Session
+SessionState
 .
 Source
 .
