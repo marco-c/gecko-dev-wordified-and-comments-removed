@@ -1043,7 +1043,7 @@ assertNull
 (
 redirect
 .
-webUrl
+fallbackUrl
 )
 assertFalse
 (
@@ -1180,7 +1180,7 @@ org
 "
 redirect
 .
-webUrl
+fallbackUrl
 )
 }
 Test
@@ -1214,7 +1214,6 @@ AppLinkRedirect
 (
 appIntent
 appUrl
-false
 )
 val
 subject
