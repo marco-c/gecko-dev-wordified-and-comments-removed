@@ -140,7 +140,7 @@ BasicColorAdapter
 .
 kt
 #
-L39
+L36
 )
 if
 true

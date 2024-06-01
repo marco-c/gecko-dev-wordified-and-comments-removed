@@ -192,7 +192,7 @@ events
 in
 the
 [
-Engine
+WebExtensionRuntime
 ]
 (
 .
@@ -205,9 +205,15 @@ components
 concept
 .
 engine
+.
+webextension
 /
 -
-engine
+web
+-
+extension
+-
+runtime
 /
 index
 .

@@ -72,6 +72,10 @@ gt
 ;
 Padding
 (
+Dimension
+(
+1
+)
 left
 :
 [
@@ -102,6 +106,10 @@ int
 index
 .
 html
+)
+Dimension
+(
+1
 )
 top
 :
@@ -134,6 +142,10 @@ index
 .
 html
 )
+Dimension
+(
+1
+)
 right
 :
 [
@@ -164,6 +176,10 @@ int
 index
 .
 html
+)
+Dimension
+(
+1
 )
 bottom
 :

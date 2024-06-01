@@ -102,7 +102,7 @@ BasicColorAdapter
 .
 kt
 #
-L36
+L33
 )
 Represents
 an

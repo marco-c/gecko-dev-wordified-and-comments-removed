@@ -97,7 +97,7 @@ WebAppShortcutManager
 .
 kt
 #
-L52
+L57
 )
 Helper
 to

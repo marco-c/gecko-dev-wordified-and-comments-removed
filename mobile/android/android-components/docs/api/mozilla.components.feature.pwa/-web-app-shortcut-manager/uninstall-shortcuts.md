@@ -245,7 +245,7 @@ WebAppShortcutManager
 .
 kt
 #
-L194
+L206
 )
 Uninstalls
 a

@@ -88,6 +88,10 @@ gt
 ;
 ActionSpace
 (
+Dimension
+(
+0
+)
 desiredWidth
 :
 [

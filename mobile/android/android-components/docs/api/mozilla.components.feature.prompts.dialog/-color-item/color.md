@@ -140,7 +140,7 @@ BasicColorAdapter
 .
 kt
 #
-L37
+L34
 )
 color
 int
