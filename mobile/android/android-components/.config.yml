@@ -24,10 +24,10 @@ all
 modules
 compileSdkVersion
 :
-31
+32
 minSdkVersion
 :
 21
 targetSdkVersion
 :
-31
+32
