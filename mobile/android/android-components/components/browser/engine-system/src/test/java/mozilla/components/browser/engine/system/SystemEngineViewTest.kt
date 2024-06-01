@@ -8616,7 +8616,7 @@ activity
 =
 Robolectric
 .
-setupActivity
+buildActivity
 (
 Activity
 :
@@ -8624,6 +8624,14 @@ Activity
 class
 .
 java
+)
+.
+setup
+(
+)
+.
+get
+(
 )
 val
 engineView
@@ -8764,7 +8772,7 @@ activity
 =
 Robolectric
 .
-setupActivity
+buildActivity
 (
 Activity
 :
@@ -8772,6 +8780,14 @@ Activity
 class
 .
 java
+)
+.
+setup
+(
+)
+.
+get
+(
 )
 val
 engineView
