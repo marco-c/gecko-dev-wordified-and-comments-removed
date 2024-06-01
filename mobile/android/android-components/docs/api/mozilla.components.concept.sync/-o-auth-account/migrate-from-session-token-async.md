@@ -243,7 +243,7 @@ OAuthAccount
 .
 kt
 #
-L162
+L163
 )
 Attempts
 to
@@ -256,6 +256,16 @@ token
 without
 user
 input
+.
+Passed
+-
+in
+session
+token
+will
+be
+reused
+.
 #
 #
 #

@@ -308,7 +308,7 @@ AddonManager
 .
 kt
 #
-L62
+L79
 )
 Installs
 the

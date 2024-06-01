@@ -127,7 +127,7 @@ FennecMigrator
 .
 kt
 #
-L100
+L106
 )
 Unexpected
 exception

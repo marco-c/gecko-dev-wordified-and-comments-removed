@@ -119,7 +119,7 @@ ReaderViewControlsView
 .
 kt
 #
-L48
+L57
 )
 #
 #

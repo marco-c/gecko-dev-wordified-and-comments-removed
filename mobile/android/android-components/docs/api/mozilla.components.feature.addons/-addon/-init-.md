@@ -147,6 +147,10 @@ index
 md
 )
 >
+=
+emptyList
+(
+)
 categories
 :
 [
@@ -211,6 +215,10 @@ index
 html
 )
 >
+=
+emptyList
+(
+)
 downloadUrl
 :
 [
@@ -242,6 +250,9 @@ index
 .
 html
 )
+=
+"
+"
 version
 :
 [
@@ -273,6 +284,9 @@ index
 .
 html
 )
+=
+"
+"
 permissions
 :
 [
@@ -747,6 +761,9 @@ index
 .
 html
 )
+=
+"
+"
 updatedAt
 :
 [
@@ -778,6 +795,9 @@ index
 .
 html
 )
+=
+"
+"
 installedState
 :
 [

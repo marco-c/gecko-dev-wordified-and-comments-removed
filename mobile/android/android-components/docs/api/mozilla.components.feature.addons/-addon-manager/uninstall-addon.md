@@ -294,7 +294,7 @@ AddonManager
 .
 kt
 #
-L86
+L103
 )
 Uninstalls
 the

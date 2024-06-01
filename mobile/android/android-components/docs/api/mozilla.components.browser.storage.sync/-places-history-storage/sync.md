@@ -174,7 +174,7 @@ PlacesHistoryStorage
 .
 kt
 #
-L187
+L188
 )
 Runs
 syncHistory
