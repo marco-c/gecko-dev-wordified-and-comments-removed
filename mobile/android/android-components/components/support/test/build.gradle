@@ -175,6 +175,10 @@ kotlin_coroutines
 implementation
 Dependencies
 .
+kotlin_reflect
+implementation
+Dependencies
+.
 androidx_test_junit
 implementation
 Dependencies
