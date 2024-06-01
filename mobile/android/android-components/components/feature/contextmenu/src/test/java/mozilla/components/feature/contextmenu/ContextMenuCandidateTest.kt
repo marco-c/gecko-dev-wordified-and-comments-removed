@@ -5549,7 +5549,7 @@ org
 )
 )
 )
-assertFalse
+assertTrue
 (
 shareLink
 .
@@ -5587,7 +5587,7 @@ org
 )
 )
 )
-assertFalse
+assertTrue
 (
 shareLink
 .
@@ -6161,7 +6161,7 @@ org
 )
 )
 )
-assertFalse
+assertTrue
 (
 copyLink
 .
@@ -6199,7 +6199,7 @@ org
 )
 )
 )
-assertFalse
+assertTrue
 (
 copyLink
 .
