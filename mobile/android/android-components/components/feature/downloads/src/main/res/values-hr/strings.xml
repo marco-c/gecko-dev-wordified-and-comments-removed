@@ -99,7 +99,8 @@ mozac_feature_downloads_paused_notification_text
 "
 >
 Preuzimanje
-pauzirano
+je
+zaustavljeno
 <
 /
 string
@@ -465,7 +466,7 @@ name
 mozac_feature_downloads_button_pause
 "
 >
-Pauza
+Zaustavi
 <
 /
 string
