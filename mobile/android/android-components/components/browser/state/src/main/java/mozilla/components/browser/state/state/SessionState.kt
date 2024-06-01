@@ -123,6 +123,17 @@ this
 session
 .
 *
+property
+engineState
+the
+[
+EngineState
+]
+of
+this
+session
+.
+*
 /
 interface
 SessionState
@@ -139,4 +150,8 @@ val
 trackingProtection
 :
 TrackingProtectionState
+val
+engineState
+:
+EngineState
 }

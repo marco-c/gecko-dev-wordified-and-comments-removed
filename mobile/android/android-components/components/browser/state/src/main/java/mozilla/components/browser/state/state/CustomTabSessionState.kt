@@ -177,6 +177,15 @@ val
 config
 :
 CustomTabConfig
+override
+val
+engineState
+:
+EngineState
+=
+EngineState
+(
+)
 )
 :
 SessionState
