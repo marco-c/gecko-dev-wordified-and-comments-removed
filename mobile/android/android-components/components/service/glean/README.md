@@ -39,9 +39,14 @@ Mozilla
 s
 telemetry
 service
-(
-eventually
-replacing
+.
+It
+is
+a
+replacment
+for
+the
+deprecated
 [
 service
 -
@@ -56,7 +61,6 @@ telemetry
 README
 .
 md
-)
 )
 .
 Visit
