@@ -628,7 +628,7 @@ loadUrlAction
 =
 middleware
 .
-findAction
+findFirstAction
 (
 EngineAction
 .
@@ -775,7 +775,7 @@ searchTermsAction
 =
 middleware
 .
-findAction
+findFirstAction
 (
 ContentAction
 .
@@ -934,7 +934,7 @@ searchTermsAction
 =
 middleware
 .
-findAction
+findFirstAction
 (
 ContentAction
 .
@@ -1094,7 +1094,7 @@ searchTermsAction
 =
 middleware
 .
-findAction
+findFirstAction
 (
 ContentAction
 .
@@ -1272,7 +1272,7 @@ searchTermsAction
 =
 middleware
 .
-findAction
+findFirstAction
 (
 ContentAction
 .

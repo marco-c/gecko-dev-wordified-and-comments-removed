@@ -846,13 +846,6 @@ emptyList
 )
 observer
 .
-onDesktopModeChanged
-(
-session
-true
-)
-observer
-.
 onSessionRemoved
 (
 session
