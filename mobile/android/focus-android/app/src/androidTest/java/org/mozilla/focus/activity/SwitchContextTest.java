@@ -947,8 +947,6 @@ click
 (
 )
 ;
-assertTrue
-(
 TestHelper
 .
 erasedMsg
@@ -956,6 +954,16 @@ erasedMsg
 waitForExists
 (
 waitingTime
+)
+;
+assertTrue
+(
+TestHelper
+.
+erasedMsg
+.
+exists
+(
 )
 )
 ;
