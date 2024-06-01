@@ -516,6 +516,16 @@ R
 string
 .
 contextmenu_image_warning
+context
+.
+getString
+(
+R
+.
+string
+.
+app_name
+)
 )
 )
 )
