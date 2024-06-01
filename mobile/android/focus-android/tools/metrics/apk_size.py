@@ -10,7 +10,7 @@ import
 exit
 SIZE_LIMIT
 =
-5242880
+5
 PATH
 =
 path
@@ -45,6 +45,14 @@ apk
 /
 '
 )
+BYTE_LIMIT
+=
+SIZE_LIMIT
+*
+1024
+*
+1024
+;
 files
 =
 [
@@ -176,7 +184,7 @@ st_size
 if
 file_size
 >
-SIZE_LIMIT
+BYTE_LIMIT
 :
         
 print
@@ -211,7 +219,7 @@ filesize
 file_size
 sizelimit
 =
-SIZE_LIMIT
+BYTE_LIMIT
         
 )
 )
@@ -254,7 +262,7 @@ filesize
 file_size
 sizelimit
 =
-SIZE_LIMIT
+BYTE_LIMIT
         
 )
 )
