@@ -756,8 +756,6 @@ profiler
 val
 suggestions
 =
-remember
-{
 derivedStateOf
 {
 fetcher
@@ -765,7 +763,6 @@ fetcher
 state
 .
 value
-}
 }
 .
 value
