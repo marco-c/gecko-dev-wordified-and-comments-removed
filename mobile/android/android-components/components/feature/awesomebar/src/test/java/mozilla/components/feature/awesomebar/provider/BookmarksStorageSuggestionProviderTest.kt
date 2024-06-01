@@ -281,6 +281,7 @@ mozilla
 .
 org
 "
+0
 null
 )
 Test
@@ -920,6 +921,13 @@ getRecentBookmarks
 limit
 :
 Int
+maxAge
+:
+Long
+?
+currentTime
+:
+Long
 )
 :
 List
@@ -1251,6 +1259,7 @@ parentGuid
 position
 title
 url
+0
 null
 )
 return

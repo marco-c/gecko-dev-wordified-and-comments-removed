@@ -838,6 +838,9 @@ title
 this
 .
 url
+this
+.
+dateAdded
 null
 )
 }
@@ -864,6 +867,9 @@ this
 .
 title
 null
+this
+.
+dateAdded
 this
 .
 children
@@ -899,6 +905,9 @@ this
 position
 null
 null
+this
+.
+dateAdded
 null
 )
 }
