@@ -2853,6 +2853,9 @@ type
 element
 .
 linkUri
+element
+.
+title
 )
 hitResult
 ?
