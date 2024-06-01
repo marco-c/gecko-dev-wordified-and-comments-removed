@@ -546,7 +546,7 @@ DiffCallback
 currentTabs
 updatedTabs
 )
-false
+true
 )
 this
 .
