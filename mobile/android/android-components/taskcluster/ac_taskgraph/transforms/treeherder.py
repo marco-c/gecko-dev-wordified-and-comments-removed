@@ -107,7 +107,7 @@ dep
 )
 )
         
-job_group
+task_group
 =
 dep
 .
@@ -155,7 +155,7 @@ full_symbol
 =
 join_symbol
 (
-job_group
+task_group
 job_symbol
 )
         

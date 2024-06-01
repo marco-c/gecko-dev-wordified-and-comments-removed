@@ -1329,7 +1329,7 @@ overridden_jobs
 config
 [
 '
-jobs
+tasks
 '
 ]
 =

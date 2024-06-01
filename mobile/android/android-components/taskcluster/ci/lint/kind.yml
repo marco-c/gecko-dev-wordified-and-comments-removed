@@ -89,7 +89,7 @@ dependencies
 :
 -
 toolchain
-job
+task
 -
 defaults
 :
@@ -183,7 +183,7 @@ run
 time
 :
 600
-jobs
+tasks
 :
 compare
 -
