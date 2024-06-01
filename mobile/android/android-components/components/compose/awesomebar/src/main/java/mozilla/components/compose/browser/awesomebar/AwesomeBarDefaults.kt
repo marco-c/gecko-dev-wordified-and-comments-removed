@@ -232,7 +232,7 @@ MaterialTheme
 .
 colors
 .
-primary
+onBackground
 )
 =
 AwesomeBarColors

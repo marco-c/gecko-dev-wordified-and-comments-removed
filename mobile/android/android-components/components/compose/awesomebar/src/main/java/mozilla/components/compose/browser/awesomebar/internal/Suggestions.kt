@@ -292,6 +292,15 @@ suggestions
 )
 -
 >
+if
+(
+suggestions
+.
+isNotEmpty
+(
+)
+)
+{
 group
 .
 title
@@ -314,6 +323,7 @@ SuggestionGroup
 title
 colors
 )
+}
 }
 }
 items
