@@ -839,8 +839,12 @@ params
 head_ref
 "
 ]
-!
-=
+not
+in
+(
+"
+main
+"
 "
 refs
 /
@@ -848,6 +852,7 @@ heads
 /
 main
 "
+)
 :
         
 logger
