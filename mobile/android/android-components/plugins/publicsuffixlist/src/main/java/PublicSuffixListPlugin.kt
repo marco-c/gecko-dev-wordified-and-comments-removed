@@ -56,8 +56,6 @@ MPL
 .
 *
 /
-package
-plugins
 import
 okhttp3
 .
