@@ -110,13 +110,9 @@ hasNext
 )
 )
 {
-final
-String
-siteName
-=
 reader
 .
-nextName
+skipValue
 (
 )
 ;
