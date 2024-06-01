@@ -205,6 +205,9 @@ Boolean
 isRedirect
 :
 Boolean
+isDirectNavigation
+:
+Boolean
 )
 :
 InterceptionResponse
@@ -258,6 +261,7 @@ uri
 hasUserGesture
 isSameDomain
 isRedirect
+isDirectNavigation
 )
 }
 }

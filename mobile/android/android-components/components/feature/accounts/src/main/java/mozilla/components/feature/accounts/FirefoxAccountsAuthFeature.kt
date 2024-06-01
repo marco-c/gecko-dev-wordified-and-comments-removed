@@ -537,6 +537,9 @@ Boolean
 isRedirect
 :
 Boolean
+isDirectNavigation
+:
+Boolean
 )
 :
 RequestInterceptor

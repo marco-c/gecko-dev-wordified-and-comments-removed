@@ -2867,6 +2867,9 @@ Boolean
 isRedirect
 :
 Boolean
+isDirectNavigation
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -3374,6 +3377,9 @@ Boolean
 isRedirect
 :
 Boolean
+isDirectNavigation
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -3529,6 +3535,9 @@ isSameDomain
 :
 Boolean
 isRedirect
+:
+Boolean
+isDirectNavigation
 :
 Boolean
 )
@@ -3804,6 +3813,9 @@ isSameDomain
 :
 Boolean
 isRedirect
+:
+Boolean
+isDirectNavigation
 :
 Boolean
 )

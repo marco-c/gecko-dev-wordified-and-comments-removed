@@ -2603,6 +2603,9 @@ isSameDomain
 request
 .
 isRedirect
+request
+.
+isDirectNavigation
 )
 ?
 .

@@ -569,6 +569,9 @@ Boolean
 isRedirect
 :
 Boolean
+isDirectNavigation
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -617,11 +620,10 @@ from
 an
 user
 gesture
-and
-not
-from
-a
 redirect
+and
+direct
+navigation
 /
 /
 or
@@ -652,6 +654,10 @@ hasUserGesture
 &
 !
 isRedirect
+&
+&
+!
+isDirectNavigation
 )
 |
 |
