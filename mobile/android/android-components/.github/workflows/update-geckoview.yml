@@ -205,7 +205,9 @@ on
 :
 ubuntu
 -
-latest
+20
+.
+04
 steps
 :
 -
