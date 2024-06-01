@@ -63,7 +63,7 @@ mozilla
 .
 focus
 .
-utils
+ext
 import
 org
 .
@@ -89,6 +89,16 @@ RunWith
 import
 org
 .
+mozilla
+.
+focus
+.
+ext
+.
+beautifyUrl
+import
+org
+.
 robolectric
 .
 RobolectricTestRunner
@@ -100,7 +110,7 @@ RobolectricTestRunner
 class
 )
 class
-StringExtensionsTest
+StringTest
 {
 Test
 fun

@@ -44,6 +44,13 @@ view
 ViewGroup
 ;
 import
+android
+.
+widget
+.
+TextView
+;
+import
 org
 .
 mozilla
@@ -196,6 +203,9 @@ new
 SessionViewHolder
 (
 fragment
+(
+TextView
+)
 inflater
 .
 inflate
