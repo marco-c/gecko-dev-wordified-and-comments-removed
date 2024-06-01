@@ -566,12 +566,6 @@ kotlin
 coroutines
 .
 CoroutineContext
-private
-const
-val
-PASSWORDS_ENCRYPTION_KEY_STRENGTH
-=
-256
 class
 MainActivity
 :

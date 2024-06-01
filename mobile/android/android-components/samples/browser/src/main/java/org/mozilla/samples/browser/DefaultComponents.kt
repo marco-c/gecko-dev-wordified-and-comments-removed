@@ -1539,9 +1539,6 @@ lazy
 TabIntentProcessor
 (
 tabsUseCases
-sessionUseCases
-.
-loadUrl
 searchUseCases
 .
 newTabSearch

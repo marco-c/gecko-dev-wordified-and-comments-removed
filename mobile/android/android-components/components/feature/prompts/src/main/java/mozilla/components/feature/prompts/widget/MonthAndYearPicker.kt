@@ -906,13 +906,6 @@ val
 SPEED_YEAR_SPINNER
 =
 100L
-private
-const
-val
-DEFAULT_VALUE
-=
--
-1
 VisibleForTesting
 internal
 const

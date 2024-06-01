@@ -313,18 +313,6 @@ support
 .
 test
 .
-robolectric
-.
-testContext
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 whenever
 import
 mozilla
@@ -509,7 +497,6 @@ webchannelFeature
 =
 FxaWebChannelFeature
 (
-testContext
 null
 engine
 store
@@ -701,7 +688,6 @@ webchannelFeature
 =
 FxaWebChannelFeature
 (
-testContext
 null
 engine
 store
@@ -786,7 +772,6 @@ webchannelFeature
 =
 FxaWebChannelFeature
 (
-testContext
 null
 engine
 store
@@ -1008,7 +993,6 @@ webchannelFeature
 =
 FxaWebChannelFeature
 (
-testContext
 null
 engine
 store
@@ -1206,7 +1190,6 @@ webchannelFeature
 =
 FxaWebChannelFeature
 (
-testContext
 null
 engine
 store
@@ -5592,7 +5575,6 @@ spy
 (
 FxaWebChannelFeature
 (
-testContext
 null
 mock
 (

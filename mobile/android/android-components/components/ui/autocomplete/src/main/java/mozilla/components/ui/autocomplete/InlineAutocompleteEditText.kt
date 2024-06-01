@@ -731,14 +731,6 @@ val
 totalItems
 :
 Int
-private
-val
-textFormatter
-:
-TextFormatter
-?
-=
-null
 )
 {
 fun
