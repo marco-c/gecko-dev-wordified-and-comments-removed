@@ -256,6 +256,10 @@ androidx_core_ktx
 implementation
 Dependencies
 .
+androidx_preferences
+implementation
+Dependencies
+.
 kotlin_stdlib
 implementation
 Dependencies
