@@ -307,7 +307,6 @@ settings
 .
 *
 /
-JvmOverloads
 MainThread
 fun
 initialize
@@ -321,10 +320,6 @@ Boolean
 configuration
 :
 Configuration
-=
-Configuration
-(
-)
 )
 {
 GleanCore
