@@ -61,11 +61,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
-.
-utils
+images
 import
 android
 .

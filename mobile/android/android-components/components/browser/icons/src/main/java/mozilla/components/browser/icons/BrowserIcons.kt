@@ -395,11 +395,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
-.
-utils
+images
 .
 CancelOnDetach
 import

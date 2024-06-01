@@ -316,6 +316,9 @@ val
 adapter
 =
 TabsAdapter
+(
+viewHolderProvider
+=
 {
 _
 _
@@ -329,6 +332,7 @@ testContext
 )
 )
 }
+)
 adapter
 .
 tabsTray

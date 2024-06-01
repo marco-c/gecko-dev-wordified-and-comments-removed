@@ -61,11 +61,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
-.
-utils
+images
 import
 android
 .
@@ -96,7 +94,6 @@ the
 window
 *
 /
-internal
 class
 CancelOnDetach
 (
