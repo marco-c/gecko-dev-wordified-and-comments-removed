@@ -189,7 +189,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -640,7 +640,7 @@ read
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -759,7 +759,7 @@ read
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -914,7 +914,7 @@ read
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -1065,7 +1065,7 @@ read
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )

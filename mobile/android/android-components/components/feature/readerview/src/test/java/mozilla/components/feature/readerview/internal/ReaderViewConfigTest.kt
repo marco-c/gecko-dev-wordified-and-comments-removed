@@ -321,7 +321,7 @@ setup
 {
 MockitoAnnotations
 .
-initMocks
+openMocks
 (
 this
 )

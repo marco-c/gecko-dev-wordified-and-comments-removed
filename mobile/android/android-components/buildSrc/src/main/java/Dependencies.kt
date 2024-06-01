@@ -146,11 +146,11 @@ val
 mockito
 =
 "
+3
+.
+11
+.
 2
-.
-24
-.
-5
 "
 const
 val

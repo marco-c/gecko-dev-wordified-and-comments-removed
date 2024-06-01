@@ -401,7 +401,7 @@ mockito
 .
 MockitoAnnotations
 .
-initMocks
+openMocks
 import
 org
 .
@@ -511,7 +511,7 @@ setSdkInt
 (
 0
 )
-initMocks
+openMocks
 (
 this
 )

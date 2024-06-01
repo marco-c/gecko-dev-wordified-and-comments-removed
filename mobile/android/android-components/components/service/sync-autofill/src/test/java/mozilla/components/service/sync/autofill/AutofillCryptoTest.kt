@@ -209,7 +209,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 RunWith
 (
 AndroidJUnit4
@@ -343,7 +343,7 @@ key2
 .
 key
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 handler
 )

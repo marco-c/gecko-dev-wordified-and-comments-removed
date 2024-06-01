@@ -270,7 +270,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 RunWith
 (
 AndroidJUnit4
@@ -385,7 +385,7 @@ onDevicesUpdate
 (
 state
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 push
 )
@@ -417,7 +417,7 @@ onDevicesUpdate
 (
 state
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 push
 )
@@ -453,7 +453,7 @@ onDevicesUpdate
 (
 state
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 push
 )
@@ -492,7 +492,7 @@ thenReturn
 (
 false
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 push
 )
@@ -513,7 +513,7 @@ onDevicesUpdate
 (
 state
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 push
 )

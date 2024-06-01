@@ -327,7 +327,7 @@ mockito
 .
 MockitoAnnotations
 .
-initMocks
+openMocks
 ExperimentalCoroutinesApi
 RunWith
 (
@@ -370,7 +370,7 @@ setUp
 (
 )
 {
-initMocks
+openMocks
 (
 this
 )

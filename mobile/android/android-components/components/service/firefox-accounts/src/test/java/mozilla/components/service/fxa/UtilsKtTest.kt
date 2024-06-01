@@ -237,7 +237,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 class
 UtilsKtTest
 {
@@ -403,7 +403,7 @@ pass
 }
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -522,7 +522,7 @@ pass
 }
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -704,7 +704,7 @@ dunno
 )
 }
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -768,7 +768,7 @@ dunno
 )
 }
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -832,7 +832,7 @@ state
 "
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -894,7 +894,7 @@ dunno
 "
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -970,7 +970,7 @@ dunno
 )
 }
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -1054,7 +1054,7 @@ dunno
 )
 }
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -1123,7 +1123,7 @@ state
 "
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -1190,7 +1190,7 @@ dunno
 "
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )

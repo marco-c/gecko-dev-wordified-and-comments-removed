@@ -245,7 +245,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 java
 .
@@ -327,7 +327,7 @@ Success
 NoAccount
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -452,7 +452,7 @@ toString
 )
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -577,7 +577,7 @@ toString
 )
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -2666,7 +2666,7 @@ JSONException
 )
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -2835,7 +2835,7 @@ toString
 )
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -2998,7 +2998,7 @@ toString
 )
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -3187,7 +3187,7 @@ toString
 )
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -3376,7 +3376,7 @@ toString
 )
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -3552,7 +3552,7 @@ toString
 )
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )

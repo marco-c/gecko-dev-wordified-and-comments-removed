@@ -279,7 +279,7 @@ mockito
 .
 Mockito
 .
-verifyNoMoreInteractions
+verifyNoInteractions
 import
 org
 .
@@ -287,7 +287,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoMoreInteractions
 RunWith
 (
 AndroidJUnit4
@@ -742,7 +742,7 @@ feature
 requestScreenshot
 (
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 store
 )

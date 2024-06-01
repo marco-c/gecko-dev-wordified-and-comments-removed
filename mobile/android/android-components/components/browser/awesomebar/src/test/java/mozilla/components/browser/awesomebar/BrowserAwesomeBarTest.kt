@@ -311,7 +311,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -452,11 +452,11 @@ World
 !
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 provider2
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 provider3
 )

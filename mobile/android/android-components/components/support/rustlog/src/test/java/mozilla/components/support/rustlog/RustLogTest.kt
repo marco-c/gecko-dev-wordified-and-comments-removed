@@ -189,7 +189,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 RunWith
 (
 AndroidJUnit4
@@ -427,7 +427,7 @@ Stuff
 broke
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -450,7 +450,7 @@ Stuff
 broke
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -473,7 +473,7 @@ Stuff
 broke
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -496,7 +496,7 @@ Stuff
 broke
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -515,7 +515,7 @@ Stuff
 broke
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )

@@ -323,7 +323,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 RunWith
 (
 AndroidJUnit4
@@ -1114,7 +1114,7 @@ any
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 launchUrlFallback
 )

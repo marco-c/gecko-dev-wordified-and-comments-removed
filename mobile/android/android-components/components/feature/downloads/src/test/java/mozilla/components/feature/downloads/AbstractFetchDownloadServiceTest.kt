@@ -859,7 +859,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -867,7 +867,7 @@ mockito
 .
 MockitoAnnotations
 .
-initMocks
+openMocks
 import
 org
 .
@@ -1007,7 +1007,7 @@ setMain
 (
 testDispatcher
 )
-initMocks
+openMocks
 (
 this
 )
@@ -8689,7 +8689,7 @@ atLeastOnce
 )
 .
 status
-verifyZeroInteractions
+verifyNoInteractions
 (
 client
 )
@@ -8925,7 +8925,7 @@ atLeastOnce
 )
 .
 status
-verifyZeroInteractions
+verifyNoInteractions
 (
 responseFromDownloadState
 )

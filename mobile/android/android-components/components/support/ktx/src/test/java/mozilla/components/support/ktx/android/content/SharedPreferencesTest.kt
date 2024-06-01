@@ -191,7 +191,7 @@ mockito
 .
 MockitoAnnotations
 .
-initMocks
+openMocks
 class
 SharedPreferencesTest
 {
@@ -217,7 +217,7 @@ setup
 (
 )
 {
-initMocks
+openMocks
 (
 this
 )

@@ -157,7 +157,7 @@ mockito
 .
 MockitoAnnotations
 .
-initMocks
+openMocks
 class
 PromptContainerTest
 {
@@ -181,7 +181,7 @@ setup
 (
 )
 {
-initMocks
+openMocks
 (
 this
 )

@@ -219,7 +219,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -716,7 +716,7 @@ any
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 pushFeature
 )

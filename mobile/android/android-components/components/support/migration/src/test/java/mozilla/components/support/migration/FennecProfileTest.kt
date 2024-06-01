@@ -177,7 +177,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 java
 .
@@ -281,7 +281,7 @@ default
 "
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -364,7 +364,7 @@ default
 "
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -449,7 +449,7 @@ profile
 .
 path
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -531,7 +531,7 @@ default
 "
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -576,7 +576,7 @@ assertNull
 (
 profile
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -656,7 +656,7 @@ default
 "
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -736,7 +736,7 @@ default
 "
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -818,7 +818,7 @@ default
 "
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )

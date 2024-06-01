@@ -251,7 +251,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -724,7 +724,7 @@ onMessageReceived
 (
 remoteMessage
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 processor
 )

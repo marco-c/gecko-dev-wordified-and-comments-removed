@@ -271,7 +271,7 @@ mockito
 .
 Mockito
 .
-verifyNoMoreInteractions
+verifyNoInteractions
 import
 org
 .
@@ -279,7 +279,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoMoreInteractions
 import
 java
 .
@@ -7920,7 +7920,7 @@ session
 clearData
 (
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 observer
 )

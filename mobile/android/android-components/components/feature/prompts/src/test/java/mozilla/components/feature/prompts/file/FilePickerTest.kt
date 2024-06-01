@@ -441,7 +441,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 java
 .
@@ -988,7 +988,7 @@ in
 any
 way
 .
-verifyZeroInteractions
+verifyNoInteractions
 (
 store
 )

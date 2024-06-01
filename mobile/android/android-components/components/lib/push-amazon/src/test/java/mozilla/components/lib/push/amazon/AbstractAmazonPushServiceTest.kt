@@ -321,7 +321,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -882,7 +882,7 @@ onMessage
 (
 messageIntent
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 processor
 )

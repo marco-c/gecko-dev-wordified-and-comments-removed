@@ -225,7 +225,7 @@ mockito
 .
 MockitoAnnotations
 .
-initMocks
+openMocks
 RunWith
 (
 AndroidJUnit4
@@ -270,7 +270,7 @@ setup
 (
 )
 {
-initMocks
+openMocks
 (
 this
 )

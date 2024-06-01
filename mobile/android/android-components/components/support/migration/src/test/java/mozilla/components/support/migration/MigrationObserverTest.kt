@@ -210,7 +210,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 RunWith
 (
 AndroidJUnit4
@@ -270,7 +270,7 @@ MigrationObserver
 store
 listener
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 listener
 )
@@ -358,7 +358,7 @@ MigrationObserver
 store
 listener
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 listener
 )

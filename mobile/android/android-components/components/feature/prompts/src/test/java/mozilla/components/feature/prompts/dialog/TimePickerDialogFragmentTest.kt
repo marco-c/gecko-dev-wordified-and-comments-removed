@@ -373,7 +373,7 @@ mockito
 .
 MockitoAnnotations
 .
-initMocks
+openMocks
 import
 org
 .
@@ -417,7 +417,7 @@ setup
 (
 )
 {
-initMocks
+openMocks
 (
 this
 )

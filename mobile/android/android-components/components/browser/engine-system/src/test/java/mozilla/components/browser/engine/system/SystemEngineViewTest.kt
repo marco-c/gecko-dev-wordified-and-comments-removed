@@ -655,7 +655,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -4441,7 +4441,7 @@ failed
 random
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 requestInterceptor
 )
@@ -4480,7 +4480,7 @@ failed
 random
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 requestInterceptor
 )
@@ -4891,7 +4891,7 @@ webView
 webRequest
 webError
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 requestInterceptor
 )
@@ -4911,7 +4911,7 @@ webView
 webRequest
 webError
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 requestInterceptor
 )
@@ -5341,7 +5341,7 @@ webView
 handler
 error
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 requestInterceptor
 )
@@ -5361,7 +5361,7 @@ webView
 handler
 error
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 requestInterceptor
 )

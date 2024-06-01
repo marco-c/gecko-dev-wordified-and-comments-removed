@@ -485,7 +485,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 java
 .
@@ -1318,7 +1318,7 @@ isEmpty
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 topSiteStorage
 )
@@ -1488,7 +1488,7 @@ mozilla
 .
 size
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 topSiteStorage
 )
@@ -3456,7 +3456,7 @@ FxA
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -3613,7 +3613,7 @@ FxA
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -3770,7 +3770,7 @@ FxA
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -3920,7 +3920,7 @@ FxA
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -3957,7 +3957,7 @@ this
 size
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -4127,7 +4127,7 @@ FxA
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -4164,7 +4164,7 @@ this
 size
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -4491,7 +4491,7 @@ this
 size
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -4819,7 +4819,7 @@ this
 size
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -5177,7 +5177,7 @@ this
 size
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 accountManager
 )
@@ -6922,7 +6922,7 @@ Settings
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -7326,7 +7326,7 @@ Addons
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -7592,7 +7592,7 @@ Addons
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -8406,7 +8406,7 @@ Gecko
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -8552,7 +8552,7 @@ Gecko
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -8697,7 +8697,7 @@ Gecko
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -8845,7 +8845,7 @@ Gecko
 success
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )

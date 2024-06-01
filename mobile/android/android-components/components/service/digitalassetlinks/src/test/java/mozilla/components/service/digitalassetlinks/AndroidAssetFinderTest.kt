@@ -288,7 +288,7 @@ AndroidAssetFinder
 )
 MockitoAnnotations
 .
-initMocks
+openMocks
 (
 this
 )

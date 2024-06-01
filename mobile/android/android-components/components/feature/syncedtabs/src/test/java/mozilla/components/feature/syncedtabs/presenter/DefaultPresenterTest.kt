@@ -223,7 +223,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 RunWith
 (
 AndroidJUnit4
@@ -912,7 +912,7 @@ eventObserver
 onIdle
 (
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 controller
 )

@@ -271,7 +271,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 RunWith
 (
 AndroidJUnit4
@@ -907,7 +907,7 @@ Agent
 "
 "
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 mockRequest
 )
@@ -922,7 +922,7 @@ Agent
 "
 null
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 mockRequest
 )

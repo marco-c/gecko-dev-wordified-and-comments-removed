@@ -155,7 +155,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 java
 .
@@ -568,7 +568,7 @@ this
 records
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -932,7 +932,7 @@ this
 records
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )
@@ -1186,7 +1186,7 @@ this
 records
 )
 }
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )

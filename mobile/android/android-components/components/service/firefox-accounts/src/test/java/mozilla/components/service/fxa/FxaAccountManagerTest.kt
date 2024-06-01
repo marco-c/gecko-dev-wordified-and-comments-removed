@@ -607,7 +607,7 @@ mockito
 .
 Mockito
 .
-verifyNoMoreInteractions
+verifyNoInteractions
 import
 org
 .
@@ -615,13 +615,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
-import
-java
-.
-lang
-.
-Exception
+verifyNoMoreInteractions
 import
 java
 .
@@ -10294,7 +10288,7 @@ accountNeedsReauth
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 crashReporter
 )

@@ -451,7 +451,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 mozilla
 .
@@ -926,7 +926,7 @@ None
 -
 >
 {
-verifyZeroInteractions
+verifyNoInteractions
 (
 account
 )

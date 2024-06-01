@@ -641,7 +641,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -12531,7 +12531,7 @@ engineSession
 clearData
 (
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 observer
 )

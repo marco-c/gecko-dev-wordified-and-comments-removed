@@ -159,7 +159,7 @@ mockito
 .
 MockitoAnnotations
 .
-initMocks
+openMocks
 import
 org
 .
@@ -220,7 +220,7 @@ SDK_INT
 javaField
 0
 )
-initMocks
+openMocks
 (
 this
 )

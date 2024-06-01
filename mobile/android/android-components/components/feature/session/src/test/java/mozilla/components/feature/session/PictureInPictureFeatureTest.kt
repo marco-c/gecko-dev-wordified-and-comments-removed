@@ -311,7 +311,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -467,11 +467,11 @@ onHomePressed
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 store
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 activity
 .
@@ -564,7 +564,7 @@ onHomePressed
 (
 )
 )
-verifyZeroInteractions
+verifyNoInteractions
 (
 store
 )
