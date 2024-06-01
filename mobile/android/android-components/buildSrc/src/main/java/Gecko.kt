@@ -112,7 +112,7 @@ channel
 =
 GeckoChannel
 .
-NIGHTLY
+BETA
 }
 /
 *
