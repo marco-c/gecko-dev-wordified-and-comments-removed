@@ -213,10 +213,6 @@ Callback
 callback
 ;
 private
-IconHolder
-iconHolder
-;
-private
 boolean
 errorReceived
 ;
@@ -229,8 +225,6 @@ FocusWebViewClient
 (
 Context
 context
-IconHolder
-iconHolder
 )
 {
 super
@@ -243,12 +237,6 @@ this
 context
 =
 context
-;
-this
-.
-iconHolder
-=
-iconHolder
 ;
 }
 public
@@ -770,12 +758,6 @@ Bitmap
 favicon
 )
 {
-iconHolder
-.
-clearIcon
-(
-)
-;
 if
 (
 errorReceived

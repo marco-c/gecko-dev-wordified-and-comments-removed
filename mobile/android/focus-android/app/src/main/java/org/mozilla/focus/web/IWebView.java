@@ -341,12 +341,6 @@ Bundle
 outState
 )
 ;
-Nullable
-Bitmap
-getIcon
-(
-)
-;
 String
 getTitle
 (

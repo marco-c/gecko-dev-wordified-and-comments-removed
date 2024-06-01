@@ -736,17 +736,6 @@ canGoBack
 }
 Override
 public
-Bitmap
-getIcon
-(
-)
-{
-return
-null
-;
-}
-Override
-public
 String
 getTitle
 (
