@@ -1189,6 +1189,9 @@ engineSession
 parent
 =
 parent
+initialLoadFlags
+=
+flags
 )
 /
 /
@@ -1596,6 +1599,9 @@ engineSession
 parent
 =
 parent
+initialLoadFlags
+=
+flags
 )
 /
 /
@@ -2402,6 +2408,9 @@ session
 selected
 =
 true
+initialLoadFlags
+=
+flags
 )
 store
 .
