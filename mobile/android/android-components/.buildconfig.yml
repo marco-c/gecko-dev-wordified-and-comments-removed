@@ -3008,8 +3008,6 @@ tooling
 glean
 -
 gradle
--
-plugin
 :
 path
 :
