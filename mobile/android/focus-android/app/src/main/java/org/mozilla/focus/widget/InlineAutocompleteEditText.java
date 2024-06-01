@@ -2452,6 +2452,7 @@ mOnKeyPreImeListener
 =
 null
 )
+{
 return
 mOnKeyPreImeListener
 .
@@ -2462,6 +2463,7 @@ keyCode
 event
 )
 ;
+}
 return
 false
 ;
@@ -2512,6 +2514,7 @@ mOnSelectionChangedListener
 =
 null
 )
+{
 mOnSelectionChangedListener
 .
 onSelectionChanged
@@ -2520,6 +2523,7 @@ selStart
 selEnd
 )
 ;
+}
 super
 .
 onSelectionChanged
@@ -2578,6 +2582,7 @@ mOnWindowFocusChangeListener
 =
 null
 )
+{
 mOnWindowFocusChangeListener
 .
 onWindowFocusChanged
@@ -2585,6 +2590,7 @@ onWindowFocusChanged
 hasFocus
 )
 ;
+}
 }
 Override
 public
