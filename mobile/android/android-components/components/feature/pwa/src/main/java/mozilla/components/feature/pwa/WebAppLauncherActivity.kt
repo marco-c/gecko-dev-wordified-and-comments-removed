@@ -268,7 +268,7 @@ storage
 =
 ManifestStorage
 (
-this
+applicationContext
 )
 val
 startUrl
