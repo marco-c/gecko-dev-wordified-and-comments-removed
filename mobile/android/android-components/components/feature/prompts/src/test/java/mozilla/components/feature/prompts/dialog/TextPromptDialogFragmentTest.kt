@@ -370,7 +370,7 @@ CheckBox
 (
 id
 .
-no_more_dialogs_check_box
+mozac_feature_prompts_no_more_dialogs_check_box
 )
 assertEquals
 (
@@ -571,7 +571,7 @@ CheckBox
 (
 id
 .
-no_more_dialogs_check_box
+mozac_feature_prompts_no_more_dialogs_check_box
 )
 assertFalse
 (
@@ -767,7 +767,7 @@ CheckBox
 (
 id
 .
-no_more_dialogs_check_box
+mozac_feature_prompts_no_more_dialogs_check_box
 )
 checkBox
 .
