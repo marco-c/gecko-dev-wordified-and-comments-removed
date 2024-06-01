@@ -1203,7 +1203,7 @@ elapsedRealtimeNanos
 emitProviderQueryTimingFact
 (
 provider
-timing
+timingNs
 =
 end
 -
