@@ -1052,6 +1052,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 notificationExpandSwitch
