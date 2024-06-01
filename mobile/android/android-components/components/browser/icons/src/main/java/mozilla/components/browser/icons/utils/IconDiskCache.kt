@@ -478,7 +478,7 @@ emptyList
 (
 )
 }
-internal
+override
 fun
 putResources
 (
@@ -593,14 +593,11 @@ resources
 }
 override
 fun
-put
+putIcon
 (
 context
 :
 Context
-request
-:
-IconRequest
 resource
 :
 IconRequest
@@ -611,11 +608,6 @@ icon
 Icon
 )
 {
-putResources
-(
-context
-request
-)
 putIconBitmap
 (
 context
