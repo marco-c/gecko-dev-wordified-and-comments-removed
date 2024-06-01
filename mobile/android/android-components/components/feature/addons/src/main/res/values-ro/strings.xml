@@ -1260,7 +1260,7 @@ name
 mozac_feature_addons_installed_section
 "
 >
-Instalat
+Instalate
 <
 /
 string
@@ -1310,7 +1310,7 @@ name
 mozac_feature_addons_recommended_section
 "
 >
-Recomandat
+Recomandate
 <
 /
 string
@@ -1362,10 +1362,8 @@ name
 mozac_feature_addons_unsupported_section
 "
 >
+Nesuportate
 nc
-nu
-are
-suport
 <
 /
 string
@@ -1417,7 +1415,7 @@ name
 mozac_feature_addons_unavailable_section
 "
 >
-Indisponibil
+Indisponibile
 nc
 <
 /
@@ -1468,7 +1466,7 @@ name
 mozac_feature_addons_disabled_section
 "
 >
-Dezactivat
+Dezactivate
 <
 /
 string
