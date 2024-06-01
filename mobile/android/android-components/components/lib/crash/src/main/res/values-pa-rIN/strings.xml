@@ -63,16 +63,9 @@ name
 mozac_lib_crash_dialog_title
 "
 >
-Maaf
-.
 %
 1
 s
-mengalami
-masalah
-dan
-mogok
-.
 <
 /
 string
@@ -126,10 +119,6 @@ name
 mozac_lib_crash_dialog_checkbox
 "
 >
-Kirim
-laporan
-mogok
-ke
 %
 1
 s
@@ -162,7 +151,6 @@ name
 mozac_lib_crash_dialog_button_close
 "
 >
-Tutup
 <
 /
 string
@@ -196,11 +184,10 @@ name
 mozac_lib_crash_dialog_button_restart
 "
 >
-Mulai
-Ulang
 %
 1
 s
+-
 <
 /
 string
@@ -263,7 +250,6 @@ name
 mozac_lib_crash_channel
 "
 >
-Mogok
 <
 /
 string
@@ -299,7 +285,6 @@ name
 mozac_lib_crash_notification_action_report
 "
 >
-Laporkan
 <
 /
 string
