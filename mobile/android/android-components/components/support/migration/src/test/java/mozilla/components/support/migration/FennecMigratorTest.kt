@@ -3983,10 +3983,12 @@ timePasswordChanged
 1574735368749
 usernameField
 =
-null
+"
+"
 passwordField
 =
-null
+"
+"
 )
 ServerPassword
 (
@@ -4018,7 +4020,8 @@ com
 "
 username
 =
-null
+"
+"
 password
 =
 "
@@ -4052,7 +4055,8 @@ timePasswordChanged
 1574735237274
 usernameField
 =
-null
+"
+"
 passwordField
 =
 "
