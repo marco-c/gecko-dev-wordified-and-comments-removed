@@ -139,6 +139,13 @@ getInitialUrl
 (
 )
 ;
+public
+abstract
+void
+onCreateViewCalled
+(
+)
+;
 Override
 public
 final
@@ -238,6 +245,10 @@ savedInstanceState
 )
 ;
 }
+onCreateViewCalled
+(
+)
+;
 return
 view
 ;
