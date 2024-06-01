@@ -118,7 +118,7 @@ name
 erase_animation_alpha_duration
 "
 >
-200
+250
 <
 /
 integer
@@ -157,7 +157,7 @@ name
 erase_animation_translate_offset
 "
 >
-100
+150
 <
 /
 integer
@@ -170,7 +170,7 @@ name
 erase_snackbar_delay
 "
 >
-100
+500
 <
 /
 integer
