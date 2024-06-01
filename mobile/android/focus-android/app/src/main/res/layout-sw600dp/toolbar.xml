@@ -205,15 +205,6 @@ padding
 "
 android
 :
-contentDescription
-=
-"
-string
-/
-menu_back
-"
-android
-:
 src
 =
 "
@@ -303,7 +294,7 @@ contentDescription
 "
 string
 /
-menu_forward
+content_description_forward
 "
 android
 :
@@ -618,7 +609,7 @@ contentDescription
 "
 string
 /
-menu_refresh
+content_description_reload
 "
 android
 :
