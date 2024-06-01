@@ -976,10 +976,6 @@ blob
 /
 main
 /
-android
--
-components
-/
 docs
 /
 changelog
@@ -1900,10 +1896,6 @@ android
 blob
 /
 main
-/
-android
--
-components
 /
 docs
 /

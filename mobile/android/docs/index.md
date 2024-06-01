@@ -143,9 +143,7 @@ content
 }
 {
 %
-include_relative
-_includes
-/
+include
 post_detail
 .
 html
