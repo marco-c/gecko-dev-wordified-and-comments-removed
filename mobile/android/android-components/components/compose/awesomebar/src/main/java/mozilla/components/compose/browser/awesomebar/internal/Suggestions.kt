@@ -347,6 +347,13 @@ items
 items
 =
 groupSuggestions
+.
+take
+(
+group
+.
+limit
+)
 key
 =
 {
