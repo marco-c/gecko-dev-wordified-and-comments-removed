@@ -2779,7 +2779,7 @@ assertEquals
 (
 Source
 .
-NEW_TAB
+RESTORED
 deserializeSession
 (
 json
@@ -2846,7 +2846,7 @@ assertEquals
 (
 Source
 .
-NONE
+RESTORED
 deserializeSession
 (
 jsonInvalid

@@ -316,7 +316,7 @@ Session
 .
 Source
 .
-ACTION_VIEW
+RESTORED
 restoredSession
 .
 source
@@ -507,7 +507,7 @@ Session
 .
 Source
 .
-ACTION_VIEW
+RESTORED
 restoredItem
 .
 session
@@ -670,7 +670,7 @@ Session
 .
 Source
 .
-ACTION_VIEW
+RESTORED
 restoredSession
 .
 source
@@ -868,7 +868,7 @@ Session
 .
 Source
 .
-ACTION_VIEW
+RESTORED
 restoredSession
 .
 source
@@ -1052,7 +1052,7 @@ Session
 .
 Source
 .
-ACTION_VIEW
+RESTORED
 restoredSession
 .
 source
