@@ -694,6 +694,15 @@ textSize
 "
 15sp
 "
+android
+:
+textCursorDrawable
+=
+"
+drawable
+/
+cursor
+"
 /
 >
 <
