@@ -860,9 +860,10 @@ one
 .
 options
 .
-enableUncaughtExceptionHandler
-=
+setEnableUncaughtExceptionHandler
+(
 false
+)
 /
 /
 Disable

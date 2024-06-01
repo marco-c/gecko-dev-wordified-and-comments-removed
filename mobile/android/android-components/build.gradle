@@ -166,10 +166,6 @@ classpath
 Dependencies
 .
 tools_kotlingradle
-classpath
-Dependencies
-.
-tools_androidmavenpublish
 }
 }
 plugins
