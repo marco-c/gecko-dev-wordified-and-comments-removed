@@ -312,6 +312,9 @@ Tab
 isSelected
 :
 Boolean
+styling
+:
+TabsTrayStyling
 observable
 :
 Observable
@@ -339,11 +342,6 @@ DefaultTabViewHolder
 itemView
 :
 View
-private
-val
-tabsTray
-:
-BrowserTabsTray
 private
 val
 thumbnailLoader
@@ -480,6 +478,9 @@ Tab
 isSelected
 :
 Boolean
+styling
+:
+TabsTrayStyling
 observable
 :
 Observable
@@ -573,8 +574,6 @@ titleView
 .
 setTextColor
 (
-tabsTray
-.
 styling
 .
 selectedItemTextColor
@@ -583,8 +582,6 @@ itemView
 .
 setBackgroundColor
 (
-tabsTray
-.
 styling
 .
 selectedItemBackgroundColor
@@ -597,8 +594,6 @@ ColorStateList
 .
 valueOf
 (
-tabsTray
-.
 styling
 .
 selectedItemTextColor
@@ -610,8 +605,6 @@ titleView
 .
 setTextColor
 (
-tabsTray
-.
 styling
 .
 itemTextColor
@@ -620,8 +613,6 @@ itemView
 .
 setBackgroundColor
 (
-tabsTray
-.
 styling
 .
 itemBackgroundColor
@@ -634,8 +625,6 @@ ColorStateList
 .
 valueOf
 (
-tabsTray
-.
 styling
 .
 itemTextColor

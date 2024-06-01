@@ -153,6 +153,12 @@ AndroidJUnit4
 :
 class
 )
+Suppress
+(
+"
+Deprecation
+"
+)
 class
 BrowserTabsTrayTest
 {
@@ -310,9 +316,9 @@ adapter
 assertEquals
 (
 tabsTray
-adapter
 .
-tabsTray
+adapter
+adapter
 )
 }
 Test
@@ -367,8 +373,6 @@ getItemDecorationAt
 assertEquals
 (
 decoration
-adapter
-.
 tabsTray
 .
 getItemDecorationAt
