@@ -935,6 +935,12 @@ openjdk
 -
 jdk
 \
+openjdk
+-
+11
+-
+jdk
+\
 expect
 \
 git

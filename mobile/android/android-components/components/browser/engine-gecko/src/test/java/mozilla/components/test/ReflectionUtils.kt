@@ -152,6 +152,11 @@ inv
 )
 originField
 .
+isAccessible
+=
+true
+originField
+.
 set
 (
 instance
