@@ -116,7 +116,7 @@ FennecMigrator
 .
 kt
 #
-L69
+L70
 )
 Migrates
 bookmarks

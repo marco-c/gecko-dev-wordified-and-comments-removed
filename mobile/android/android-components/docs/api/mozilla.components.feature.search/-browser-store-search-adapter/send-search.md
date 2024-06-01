@@ -202,7 +202,7 @@ BrowserStoreSearchAdapter
 .
 kt
 #
-L26
+L32
 )
 Overrides
 [

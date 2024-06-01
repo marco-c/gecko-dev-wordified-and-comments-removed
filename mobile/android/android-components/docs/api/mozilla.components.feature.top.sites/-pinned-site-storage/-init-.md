@@ -36,7 +36,7 @@ md
 )
 /
 [
-TopSiteStorage
+PinnedSiteStorage
 ]
 (
 index
@@ -70,7 +70,7 @@ init
 &
 gt
 ;
-TopSiteStorage
+PinnedSiteStorage
 (
 context
 :
@@ -84,6 +84,6 @@ storage
 implementation
 for
 organizing
-top
+pinned
 sites
 .

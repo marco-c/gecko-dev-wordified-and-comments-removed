@@ -115,7 +115,7 @@ FennecMigrator
 .
 kt
 #
-L246
+L247
 )
 Data
 migration
@@ -555,10 +555,10 @@ index
 md
 )
 >
-topSiteStorage
+pinnedSitesStorage
 :
 [
-TopSiteStorage
+PinnedSiteStorage
 ]
 (
 .
@@ -581,7 +581,7 @@ top
 sites
 /
 -
-top
+pinned
 -
 site
 -
@@ -672,7 +672,7 @@ sites
 migration
 if
 [
-topSiteStorage
+pinnedSitesStorage
 ]
 (
 migrate
@@ -722,13 +722,13 @@ top
 .
 sites
 .
-TopSiteStorage
+PinnedSiteStorage
 kotlin
 .
 Int
 )
 /
-topSiteStorage
+pinnedSitesStorage
 )
 is
 specified
