@@ -926,6 +926,8 @@ Logger
 mozac
 -
 menu2
+-
+AsyncDrawableMenuIconViewHolder
 "
 )
 )
