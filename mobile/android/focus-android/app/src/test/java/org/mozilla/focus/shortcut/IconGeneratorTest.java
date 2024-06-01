@@ -64,6 +64,8 @@ M
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -85,6 +87,8 @@ W
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -105,6 +109,8 @@ assertEquals
 P
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -128,6 +134,8 @@ assertEquals
 E
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -158,6 +166,8 @@ T
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -180,6 +190,8 @@ assertEquals
 F
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -204,6 +216,8 @@ T
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -227,6 +241,8 @@ assertEquals
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -245,6 +261,8 @@ assertEquals
 S
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -266,6 +284,8 @@ assertEquals
 P
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -292,6 +312,8 @@ assertEquals
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -306,6 +328,8 @@ assertEquals
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 null
@@ -318,6 +342,8 @@ assertEquals
 Z
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -332,6 +358,8 @@ assertEquals
 "
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -348,6 +376,8 @@ assertEquals
 ?
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -369,6 +399,8 @@ assertEquals
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -389,6 +421,8 @@ assertEquals
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -405,6 +439,8 @@ assertEquals
 "
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -428,6 +464,8 @@ assertEquals
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -448,6 +486,8 @@ C
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -467,6 +507,8 @@ assertEquals
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -485,6 +527,8 @@ assertEquals
 "
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -506,6 +550,8 @@ assertEquals
 X
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
@@ -533,6 +579,8 @@ X
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -557,6 +605,8 @@ assertEquals
 "
 IconGenerator
 .
+Companion
+.
 getRepresentativeCharacter
 (
 "
@@ -580,6 +630,8 @@ assertEquals
 1
 "
 IconGenerator
+.
+Companion
 .
 getRepresentativeCharacter
 (
