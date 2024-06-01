@@ -237,6 +237,12 @@ String
 =
 null
 val
+skipConfirmation
+:
+Boolean
+=
+false
+val
 id
 :
 String

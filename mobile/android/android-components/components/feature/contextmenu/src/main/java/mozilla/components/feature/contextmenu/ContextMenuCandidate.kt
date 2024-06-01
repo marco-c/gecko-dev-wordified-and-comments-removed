@@ -943,6 +943,9 @@ DownloadState
 hitResult
 .
 src
+skipConfirmation
+=
+true
 )
 )
 }
