@@ -2148,8 +2148,8 @@ error_sslhandshake_title
 "
 >
 Secure
-Connection
-Failed
+connection
+failed
 <
 /
 string
@@ -2248,7 +2248,6 @@ error_generic_title
 "
 >
 Oops
-.
 <
 /
 string
