@@ -589,6 +589,7 @@ otherwise
 =
 PRIVATE
 )
+internal
 fun
 isInitialized
 (
