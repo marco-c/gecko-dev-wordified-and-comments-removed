@@ -618,12 +618,15 @@ SessionFeature
 (
 components
 .
-sessionManager
+store
 components
 .
 sessionUseCases
 .
 goBack
+components
+.
+engineSessionUseCases
 layout
 .
 engineView
