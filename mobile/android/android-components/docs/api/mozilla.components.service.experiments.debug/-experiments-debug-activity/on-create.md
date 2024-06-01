@@ -151,5 +151,15 @@ ExperimentsDebugActivity
 .
 kt
 #
-L42
+L74
 )
+On
+creation
+of
+the
+debug
+activity
+process
+the
+command
+switches

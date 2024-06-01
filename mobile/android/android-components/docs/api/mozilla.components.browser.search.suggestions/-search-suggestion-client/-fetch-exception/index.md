@@ -149,7 +149,7 @@ SearchSuggestionClient
 .
 kt
 #
-L27
+L51
 )
 Exception
 types

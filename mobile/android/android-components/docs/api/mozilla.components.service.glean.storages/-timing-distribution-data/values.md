@@ -204,14 +204,15 @@ TimingDistributionsStorageEngine
 .
 kt
 #
-L178
+L196
 )
 a
 map
 containing
 the
+minimum
 bucket
-index
+value
 mapped
 to
 the
