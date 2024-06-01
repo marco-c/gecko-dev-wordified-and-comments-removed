@@ -598,7 +598,7 @@ false
 )
 }
 }
-private
+internal
 class
 Update
 (
