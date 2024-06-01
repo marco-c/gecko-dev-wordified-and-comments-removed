@@ -199,7 +199,7 @@ CANCEL
 )
 internal
 fun
-emitNotificationRetryFact
+emitNotificationTryAgainFact
 (
 )
 =
@@ -207,7 +207,7 @@ emitNotificationFact
 (
 Action
 .
-RETRY
+TRY_AGAIN
 )
 internal
 fun

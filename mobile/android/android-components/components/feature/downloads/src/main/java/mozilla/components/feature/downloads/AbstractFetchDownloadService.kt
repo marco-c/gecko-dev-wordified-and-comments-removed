@@ -389,7 +389,7 @@ downloads
 .
 facts
 .
-emitNotificationRetryFact
+emitNotificationTryAgainFact
 import
 mozilla
 .
@@ -821,7 +821,7 @@ currentDownloadJobState
 state
 )
 }
-emitNotificationRetryFact
+emitNotificationTryAgainFact
 (
 )
 }
