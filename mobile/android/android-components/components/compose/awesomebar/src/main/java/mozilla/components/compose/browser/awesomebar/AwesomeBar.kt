@@ -228,6 +228,9 @@ val
 fetcher
 =
 remember
+(
+providers
+)
 {
 SuggestionFetcher
 (
