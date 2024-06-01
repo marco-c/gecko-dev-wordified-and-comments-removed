@@ -129,7 +129,7 @@ state
 .
 selector
 .
-findTab
+findNormalOrPrivateTabByUrl
 import
 mozilla
 .
@@ -141,7 +141,7 @@ state
 .
 selector
 .
-findTabByUrl
+findTab
 import
 mozilla
 .
@@ -3232,7 +3232,7 @@ store
 .
 state
 .
-findTabByUrl
+findNormalOrPrivateTabByUrl
 (
 "
 https
@@ -3243,6 +3243,7 @@ firefox
 .
 com
 "
+false
 )
 )
 assertEquals
@@ -3404,7 +3405,7 @@ store
 .
 state
 .
-findTabByUrl
+findNormalOrPrivateTabByUrl
 (
 "
 https
@@ -3415,6 +3416,7 @@ firefox
 .
 com
 "
+false
 )
 )
 assertEquals

@@ -159,7 +159,7 @@ state
 .
 selector
 .
-findTab
+findNormalOrPrivateTabByUrl
 import
 mozilla
 .
@@ -171,7 +171,7 @@ state
 .
 selector
 .
-findTabByUrl
+findTab
 import
 mozilla
 .
@@ -2611,9 +2611,10 @@ store
 .
 state
 .
-findTabByUrl
+findNormalOrPrivateTabByUrl
 (
 url
+private
 )
 return
 if

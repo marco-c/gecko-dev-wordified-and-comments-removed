@@ -171,7 +171,7 @@ state
 .
 selector
 .
-findTabByUrl
+findNormalOrPrivateTabByUrl
 import
 mozilla
 .
@@ -806,7 +806,7 @@ store
 .
 state
 .
-findTabByUrl
+findNormalOrPrivateTabByUrl
 (
 "
 https
@@ -817,6 +817,9 @@ mozilla
 .
 org
 "
+private
+=
+false
 )
 assertNotNull
 (
@@ -1130,7 +1133,7 @@ store
 .
 state
 .
-findTabByUrl
+findNormalOrPrivateTabByUrl
 (
 "
 https
@@ -1141,6 +1144,7 @@ mozilla
 .
 org
 "
+false
 )
 assertNotNull
 (
@@ -1344,7 +1348,7 @@ store
 .
 state
 .
-findTabByUrl
+findNormalOrPrivateTabByUrl
 (
 "
 https
@@ -1355,6 +1359,7 @@ mozilla
 .
 org
 "
+false
 )
 assertNotNull
 (
