@@ -370,11 +370,6 @@ tabsUseCases
 .
 addPrivateTab
 (
-url
-=
-windowRequest
-.
-url
 selectTab
 =
 true
@@ -398,11 +393,6 @@ tabsUseCases
 .
 addTab
 (
-url
-=
-windowRequest
-.
-url
 selectTab
 =
 true

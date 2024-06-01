@@ -832,6 +832,12 @@ invoke
 url
 :
 String
+=
+"
+about
+:
+blank
+"
 selectTab
 :
 Boolean
@@ -1196,6 +1202,12 @@ invoke
 url
 :
 String
+=
+"
+about
+:
+blank
+"
 selectTab
 :
 Boolean
