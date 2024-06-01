@@ -436,7 +436,7 @@ R
 .
 drawable
 .
-ic_insert_drive_file_white_24px
+ic_download
 )
 ;
 downloadDialogMessage
