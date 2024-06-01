@@ -715,6 +715,10 @@ loadDomainsInBackground
 getContext
 (
 )
+.
+getApplicationContext
+(
+)
 )
 ;
 urlView
