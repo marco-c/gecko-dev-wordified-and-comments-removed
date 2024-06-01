@@ -196,9 +196,9 @@ detekt
 "
 1
 .
-0
+2
 .
-1
+2
 "
 const
 val
