@@ -303,6 +303,13 @@ attr
 /
 textColorPrimary
 "
+android
+:
+textSize
+=
+"
+16sp
+"
 tools
 :
 text
