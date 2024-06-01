@@ -107,12 +107,6 @@ annotation
 .
 RequiresApi
 import
-kotlinx
-.
-coroutines
-.
-Job
-import
 mozilla
 .
 components
@@ -580,7 +574,7 @@ Should
 be
 called
 when
-then
+the
 system
 informs
 you
@@ -621,8 +615,6 @@ enabled
 :
 Boolean
 )
-:
-Job
 {
 val
 sessionId
@@ -635,10 +627,8 @@ store
 state
 .
 selectedTabId
-.
-orEmpty
-(
-)
+?
+:
 return
 store
 .
