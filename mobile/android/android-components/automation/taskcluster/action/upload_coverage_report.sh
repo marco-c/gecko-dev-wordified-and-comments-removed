@@ -165,3 +165,9 @@ codecov
 t
 .
 cc_token
+-
+X
+gcov
+-
+X
+coveragepy
