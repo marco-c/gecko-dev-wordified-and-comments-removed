@@ -325,6 +325,9 @@ emptyList
 (
 )
 )
+:
+Long
+?
 {
 val
 entity
@@ -377,6 +380,10 @@ addTabsToCollection
 entity
 sessions
 )
+return
+entity
+.
+id
 }
 /
 *
