@@ -79,7 +79,7 @@ content
 .
 Intent
 .
-FLAG_ACTIVITY_NEW_DOCUMENT
+FLAG_ACTIVITY_CLEAR_TOP
 import
 kotlinx
 .
@@ -481,7 +481,7 @@ intent
 .
 flags
 =
-FLAG_ACTIVITY_NEW_DOCUMENT
+FLAG_ACTIVITY_CLEAR_TOP
 intent
 .
 putSessionId
