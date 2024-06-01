@@ -2653,6 +2653,7 @@ this
 synchronized
 (
 this
+FxaAccountManager
 )
 {
 checkNotNull
