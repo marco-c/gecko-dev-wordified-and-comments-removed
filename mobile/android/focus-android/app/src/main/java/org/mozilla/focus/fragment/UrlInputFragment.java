@@ -2355,12 +2355,13 @@ if
 (
 searchText
 .
-length
+trim
 (
 )
-=
-=
-0
+.
+isEmpty
+(
+)
 )
 {
 clearView
