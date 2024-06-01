@@ -49,6 +49,16 @@ plugin
 checkstyle
 '
 apply
+plugin
+:
+'
+kotlin
+-
+android
+-
+extensions
+'
+apply
 from
 :
 "
