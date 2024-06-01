@@ -593,6 +593,10 @@ private
 View
 toolbarBackgroundView
 ;
+private
+boolean
+isBackPressed
+;
 Override
 public
 View
@@ -769,6 +773,10 @@ hasFocus
 if
 (
 hasFocus
+&
+&
+!
+isBackPressed
 )
 {
 ViewUtils
@@ -922,6 +930,10 @@ onBackPressed
 (
 )
 {
+isBackPressed
+=
+true
+;
 animateAndDismiss
 (
 )
