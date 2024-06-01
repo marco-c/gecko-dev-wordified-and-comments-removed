@@ -310,7 +310,7 @@ R
 .
 attr
 .
-selectableItemBackground
+selectableItemBackgroundBorderless
 )
 )
 visibility
