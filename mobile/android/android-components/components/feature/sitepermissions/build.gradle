@@ -82,6 +82,16 @@ kotlin
 -
 kapt
 '
+apply
+plugin
+:
+'
+kotlin
+-
+android
+-
+extensions
+'
 android
 {
 compileSdkVersion
