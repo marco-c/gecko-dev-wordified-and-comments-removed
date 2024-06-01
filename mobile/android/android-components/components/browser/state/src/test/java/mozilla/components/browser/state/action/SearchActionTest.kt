@@ -322,6 +322,9 @@ emptyList
 userSelectedSearchEngineId
 =
 null
+userSelectedSearchEngineName
+=
+null
 hiddenSearchEngines
 =
 emptyList
@@ -507,6 +510,9 @@ regionDefaultSearchEngineId
 default
 "
 userSelectedSearchEngineId
+=
+null
+userSelectedSearchEngineName
 =
 null
 hiddenSearchEngines
@@ -1087,6 +1093,7 @@ SelectSearchEngineAction
 searchEngine
 .
 id
+null
 )
 )
 .
@@ -1130,6 +1137,7 @@ SelectSearchEngineAction
 "
 unrecognized_id
 "
+null
 )
 )
 .

@@ -292,6 +292,11 @@ userSelectedSearchEngineId
 action
 .
 userSelectedSearchEngineId
+userSelectedSearchEngineName
+=
+action
+.
+userSelectedSearchEngineName
 regionDefaultSearchEngineId
 =
 action
@@ -564,6 +569,11 @@ userSelectedSearchEngineId
 action
 .
 searchEngineId
+userSelectedSearchEngineName
+=
+action
+.
+searchEngineName
 )
 )
 }

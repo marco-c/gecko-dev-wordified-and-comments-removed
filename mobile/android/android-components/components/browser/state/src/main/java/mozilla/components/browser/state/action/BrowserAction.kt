@@ -6361,6 +6361,11 @@ userSelectedSearchEngineId
 String
 ?
 val
+userSelectedSearchEngineName
+:
+String
+?
+val
 regionDefaultSearchEngineId
 :
 String
@@ -6454,6 +6459,13 @@ SearchState
 .
 userSelectedSearchEngineId
 ]
+and
+*
+[
+SearchState
+.
+userSelectedSearchEngineName
+]
 .
 *
 /
@@ -6465,6 +6477,11 @@ val
 searchEngineId
 :
 String
+val
+searchEngineName
+:
+String
+?
 )
 :
 SearchAction

@@ -397,6 +397,9 @@ BUNDLED
 userSelectedSearchEngineId
 =
 null
+userSelectedSearchEngineName
+=
+null
 regionDefaultSearchEngineId
 =
 "
@@ -492,6 +495,9 @@ listOf
 (
 )
 userSelectedSearchEngineId
+=
+null
+userSelectedSearchEngineName
 =
 null
 regionDefaultSearchEngineId
