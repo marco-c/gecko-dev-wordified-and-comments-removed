@@ -1877,6 +1877,10 @@ private
 .
 apply
 {
+var
+restored
+=
+false
 session
 .
 engineSessionHolder
@@ -1889,6 +1893,8 @@ let
 state
 -
 >
+restored
+=
 restoreState
 (
 state
@@ -1905,9 +1911,11 @@ link
 (
 session
 this
+restored
 )
 }
 }
+private
 fun
 link
 (
@@ -1917,6 +1925,11 @@ Session
 engineSession
 :
 EngineSession
+restored
+:
+Boolean
+=
+false
 )
 {
 val
@@ -1953,6 +1966,7 @@ link
 session
 engineSession
 parent
+restored
 )
 if
 (

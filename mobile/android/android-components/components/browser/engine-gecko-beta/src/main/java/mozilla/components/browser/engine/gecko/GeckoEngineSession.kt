@@ -1010,6 +1010,8 @@ state
 :
 EngineSessionState
 )
+:
+Boolean
 {
 if
 (
@@ -1042,6 +1044,7 @@ null
 )
 {
 return
+false
 }
 geckoSession
 .
@@ -1051,6 +1054,8 @@ state
 .
 actualState
 )
+return
+true
 }
 /
 *

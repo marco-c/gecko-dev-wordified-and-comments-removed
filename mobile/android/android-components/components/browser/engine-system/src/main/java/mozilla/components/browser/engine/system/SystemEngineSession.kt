@@ -770,6 +770,8 @@ state
 :
 EngineSessionState
 )
+:
+Boolean
 {
 if
 (
@@ -791,6 +793,7 @@ SystemEngineSessionState
 "
 )
 }
+return
 webView
 .
 restoreState
@@ -799,6 +802,9 @@ state
 .
 bundle
 )
+!
+=
+null
 }
 /
 *

@@ -398,6 +398,11 @@ parentEngineSession
 :
 EngineSession
 ?
+sessionRestored
+:
+Boolean
+=
+false
 )
 {
 unlink
@@ -436,6 +441,12 @@ register
 (
 observer
 )
+if
+(
+!
+sessionRestored
+)
+{
 engineSession
 .
 loadUrl
@@ -445,6 +456,7 @@ session
 url
 parentEngineSession
 )
+}
 }
 }
 store

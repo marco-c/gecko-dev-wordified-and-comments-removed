@@ -457,7 +457,11 @@ state
 :
 EngineSessionState
 )
+:
+Boolean
 {
+return
+false
 }
 override
 fun
@@ -809,7 +813,11 @@ state
 :
 EngineSessionState
 )
+:
+Boolean
 {
+return
+false
 }
 override
 fun
@@ -1115,7 +1123,11 @@ state
 :
 EngineSessionState
 )
+:
+Boolean
 {
+return
+false
 }
 override
 fun
