@@ -205,6 +205,11 @@ guid
 guid
 )
 .
+name
+(
+fullName
+)
+.
 givenName
 (
 givenName
