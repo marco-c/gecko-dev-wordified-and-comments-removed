@@ -213,16 +213,6 @@ concept
 .
 storage
 .
-RedirectSource
-import
-mozilla
-.
-components
-.
-concept
-.
-storage
-.
 VisitType
 import
 mozilla
@@ -450,9 +440,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -477,9 +464,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -504,9 +488,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -531,9 +512,6 @@ PageVisit
 VisitType
 .
 REDIRECT_TEMPORARY
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -558,9 +536,6 @@ PageVisit
 VisitType
 .
 REDIRECT_PERMANENT
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -585,9 +560,6 @@ PageVisit
 VisitType
 .
 FRAMED_LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -612,9 +584,6 @@ PageVisit
 VisitType
 .
 EMBED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -639,9 +608,6 @@ PageVisit
 VisitType
 .
 BOOKMARK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -666,9 +632,6 @@ PageVisit
 VisitType
 .
 DOWNLOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 val
@@ -1785,9 +1748,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -2096,9 +2056,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 }
@@ -2764,9 +2721,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -2789,9 +2743,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -2851,9 +2802,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -2876,9 +2824,6 @@ PageVisit
 VisitType
 .
 REDIRECT_TEMPORARY
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 val
@@ -3143,9 +3088,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 assertEquals
@@ -3210,9 +3152,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 assertEquals
@@ -3280,9 +3219,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 assertEquals
@@ -3349,9 +3285,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -3374,9 +3307,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -3399,9 +3329,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 assertEquals
@@ -3513,9 +3440,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 assertEquals
@@ -3708,9 +3632,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -3733,9 +3654,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -3758,9 +3676,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 assertEquals
@@ -3876,9 +3791,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -4070,9 +3982,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -4117,9 +4026,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -4281,9 +4187,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 val
@@ -4325,9 +4228,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -4350,9 +4250,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -4375,9 +4272,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -4931,9 +4825,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 var
@@ -5013,9 +4904,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 res
@@ -5098,9 +4986,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 res
@@ -5303,9 +5188,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5356,9 +5238,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5381,9 +5260,6 @@ PageVisit
 VisitType
 .
 DOWNLOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5406,9 +5282,6 @@ PageVisit
 VisitType
 .
 BOOKMARK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5431,9 +5304,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5456,9 +5326,6 @@ PageVisit
 VisitType
 .
 EMBED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5481,9 +5348,6 @@ PageVisit
 VisitType
 .
 REDIRECT_PERMANENT
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5506,9 +5370,6 @@ PageVisit
 VisitType
 .
 REDIRECT_TEMPORARY
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5531,9 +5392,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5618,9 +5476,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5643,9 +5498,6 @@ PageVisit
 VisitType
 .
 DOWNLOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5668,9 +5520,6 @@ PageVisit
 VisitType
 .
 BOOKMARK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5693,9 +5542,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5718,9 +5564,6 @@ PageVisit
 VisitType
 .
 EMBED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5743,9 +5586,6 @@ PageVisit
 VisitType
 .
 REDIRECT_PERMANENT
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5768,9 +5608,6 @@ PageVisit
 VisitType
 .
 REDIRECT_TEMPORARY
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5793,9 +5630,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5943,9 +5777,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5968,9 +5799,6 @@ PageVisit
 VisitType
 .
 DOWNLOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -5993,9 +5821,6 @@ PageVisit
 VisitType
 .
 BOOKMARK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 history
@@ -6056,9 +5881,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 Thread
@@ -6089,9 +5911,6 @@ PageVisit
 VisitType
 .
 DOWNLOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 Thread
@@ -6122,9 +5941,6 @@ PageVisit
 VisitType
 .
 BOOKMARK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 }
@@ -6281,9 +6097,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 Thread
@@ -6314,9 +6127,6 @@ PageVisit
 VisitType
 .
 DOWNLOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 Thread
@@ -6347,9 +6157,6 @@ PageVisit
 VisitType
 .
 BOOKMARK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 }
@@ -6643,9 +6450,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 /

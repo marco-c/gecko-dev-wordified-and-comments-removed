@@ -141,16 +141,6 @@ concept
 .
 storage
 .
-RedirectSource
-import
-mozilla
-.
-components
-.
-concept
-.
-storage
-.
 SearchResult
 import
 mozilla
@@ -310,9 +300,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 verify
@@ -335,9 +322,6 @@ PageVisit
 VisitType
 .
 TYPED
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 delegate
@@ -360,9 +344,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 verify
@@ -388,9 +369,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 delegate
@@ -413,9 +391,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 verify
@@ -441,9 +416,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 delegate
@@ -466,9 +438,6 @@ PageVisit
 VisitType
 .
 BOOKMARK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 verify
@@ -494,9 +463,6 @@ PageVisit
 VisitType
 .
 BOOKMARK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 }

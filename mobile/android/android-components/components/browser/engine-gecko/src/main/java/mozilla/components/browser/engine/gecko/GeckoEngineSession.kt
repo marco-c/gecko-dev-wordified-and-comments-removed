@@ -4466,9 +4466,7 @@ TEMPORARY
 else
 -
 >
-RedirectSource
-.
-NOT_A_SOURCE
+null
 }
 val
 delegate

@@ -539,16 +539,6 @@ concept
 .
 storage
 .
-RedirectSource
-import
-mozilla
-.
-components
-.
-concept
-.
-storage
-.
 VisitType
 import
 mozilla
@@ -1201,9 +1191,6 @@ url
 PageVisit
 (
 visitType
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 }

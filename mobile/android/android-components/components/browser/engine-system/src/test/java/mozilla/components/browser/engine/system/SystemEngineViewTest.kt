@@ -421,16 +421,6 @@ concept
 .
 storage
 .
-RedirectSource
-import
-mozilla
-.
-components
-.
-concept
-.
-storage
-.
 VisitType
 import
 mozilla
@@ -2309,9 +2299,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 )
@@ -2365,9 +2352,6 @@ PageVisit
 VisitType
 .
 RELOAD
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 )
@@ -2523,9 +2507,6 @@ PageVisit
 VisitType
 .
 LINK
-RedirectSource
-.
-NOT_A_SOURCE
 )
 )
 )
