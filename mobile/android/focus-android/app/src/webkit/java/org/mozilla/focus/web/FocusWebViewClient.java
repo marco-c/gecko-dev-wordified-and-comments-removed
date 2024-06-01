@@ -556,6 +556,14 @@ run
 (
 )
 {
+if
+(
+callback
+!
+=
+null
+)
+{
 callback
 .
 onURLChanged
@@ -563,6 +571,7 @@ onURLChanged
 currentPageURL
 )
 ;
+}
 }
 }
 )
@@ -750,6 +759,12 @@ isSupportedProtocol
 (
 url
 )
+&
+&
+callback
+!
+=
+null
 &
 &
 callback
