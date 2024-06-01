@@ -715,6 +715,17 @@ take
 (
 numSitesRequired
 )
+.
+take
+(
+providerConfig
+.
+maxThreshold
+-
+pinnedSites
+.
+size
+)
 topSites
 .
 addAll
