@@ -658,6 +658,17 @@ Keys
 SESSION_KEY
 )
 val
+engineSessionJson
+=
+json
+.
+getJSONObject
+(
+Keys
+.
+ENGINE_SESSION_KEY
+)
+val
 session
 =
 deserializeSession
@@ -690,7 +701,7 @@ engine
 .
 createSessionState
 (
-sessionJson
+engineSessionJson
 )
 return
 SessionManager
