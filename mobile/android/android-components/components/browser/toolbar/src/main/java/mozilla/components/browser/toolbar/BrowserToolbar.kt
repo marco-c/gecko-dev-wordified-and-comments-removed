@@ -2511,6 +2511,18 @@ iconTintColorResource
 Int
 =
 NO_ID
+longClickListener
+:
+(
+(
+)
+-
+>
+Unit
+)
+?
+=
+null
 listener
 :
 (
@@ -2530,6 +2542,7 @@ visible
 background
 padding
 iconTintColorResource
+longClickListener
 listener
 )
 /
