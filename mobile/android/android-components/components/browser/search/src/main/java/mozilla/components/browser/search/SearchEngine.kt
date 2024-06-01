@@ -104,8 +104,6 @@ engine
 /
 class
 SearchEngine
-internal
-constructor
 (
 val
 identifier

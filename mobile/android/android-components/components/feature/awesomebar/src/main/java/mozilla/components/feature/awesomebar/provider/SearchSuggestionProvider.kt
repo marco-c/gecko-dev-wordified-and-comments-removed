@@ -93,6 +93,16 @@ browser
 .
 search
 .
+DefaultSearchEngineProvider
+import
+mozilla
+.
+components
+.
+browser
+.
+search
+.
 SearchEngine
 import
 mozilla
@@ -812,9 +822,9 @@ constructor
 context
 :
 Context
-searchEngineManager
+defaultSearchEngineProvider
 :
-SearchEngineManager
+DefaultSearchEngineProvider
 searchUseCase
 :
 SearchUseCases
@@ -864,7 +874,7 @@ this
 SearchSuggestionClient
 (
 context
-searchEngineManager
+defaultSearchEngineProvider
 )
 {
 url
