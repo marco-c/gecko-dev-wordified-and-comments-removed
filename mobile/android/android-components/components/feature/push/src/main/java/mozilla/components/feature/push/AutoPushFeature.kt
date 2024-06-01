@@ -153,6 +153,14 @@ appservices
 .
 push
 .
+RecordNotFoundError
+import
+mozilla
+.
+appservices
+.
+push
+.
 SubscriptionResponse
 import
 mozilla
@@ -2310,6 +2318,12 @@ e
 !
 is
 CommunicationError
+&
+&
+e
+!
+is
+RecordNotFoundError
 )
 {
 throw
