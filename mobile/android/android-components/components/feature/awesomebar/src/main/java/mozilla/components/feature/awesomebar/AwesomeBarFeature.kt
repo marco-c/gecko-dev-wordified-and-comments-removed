@@ -1211,6 +1211,12 @@ Engine
 ?
 =
 null
+maxNumberOfResults
+:
+Int
+=
+-
+1
 )
 :
 AwesomeBarFeature
@@ -1225,6 +1231,7 @@ historyStorage
 loadUrlUseCase
 icons
 engine
+maxNumberOfResults
 )
 )
 return
