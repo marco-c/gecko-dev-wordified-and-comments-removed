@@ -882,11 +882,11 @@ PromptFeature
 fragment
 =
 this
-sessionManager
+store
 =
 components
 .
-sessionManager
+store
 sessionId
 =
 sessionId
