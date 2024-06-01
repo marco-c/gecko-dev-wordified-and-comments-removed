@@ -704,6 +704,13 @@ Bitmap
 /
 class
 BrowserIcons
+Suppress
+(
+"
+LongParameterList
+"
+)
+constructor
 (
 private
 val
