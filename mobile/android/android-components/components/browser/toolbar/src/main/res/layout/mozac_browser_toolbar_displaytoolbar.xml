@@ -874,6 +874,15 @@ layout_marginTop
 "
 8dp
 "
+android
+:
+paddingEnd
+=
+"
+dimen
+/
+mozac_browser_toolbar_origin_padding_end
+"
 app
 :
 layout_constraintEnd_toStartOf
