@@ -1016,6 +1016,7 @@ response
 toPushSubscription
 (
 scope
+appServerKey
 )
 }
 GuardedBy
@@ -1887,6 +1888,12 @@ toPushSubscription
 scope
 :
 String
+appServerKey
+:
+AppServerKey
+?
+=
+null
 )
 :
 AutoPushSubscription
@@ -1916,5 +1923,8 @@ subscriptionInfo
 keys
 .
 p256dh
+appServerKey
+=
+appServerKey
 )
 }
