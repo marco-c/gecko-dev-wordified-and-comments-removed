@@ -677,7 +677,7 @@ R
 .
 string
 .
-addon_permissions_dialog_title
+mozac_feature_addons_permissions_dialog_title
 title
 )
 rootView
@@ -883,7 +883,7 @@ R
 .
 string
 .
-addon_permissions_dialog_subtitle
+mozac_feature_addons_permissions_dialog_subtitle
 )
 +
 "

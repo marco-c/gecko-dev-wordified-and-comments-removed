@@ -549,7 +549,7 @@ text
 "
 string
 /
-addon_permissions_dialog_cancel
+mozac_feature_addons_permissions_dialog_cancel
 "
 android
 :
@@ -637,7 +637,7 @@ text
 "
 string
 /
-addon_permissions_dialog_add
+mozac_feature_addons_permissions_dialog_add
 "
 android
 :

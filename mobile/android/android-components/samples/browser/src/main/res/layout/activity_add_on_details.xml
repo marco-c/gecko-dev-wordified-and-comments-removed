@@ -286,7 +286,7 @@ text
 "
 string
 /
-add_on_authors
+mozac_feature_addons_authors
 "
 /
 >
@@ -457,7 +457,7 @@ text
 "
 string
 /
-add_on_version
+mozac_feature_addons_version
 "
 /
 >
@@ -628,7 +628,7 @@ text
 "
 string
 /
-add_on_last_updated
+mozac_feature_addons_last_updated
 "
 /
 >
@@ -797,7 +797,7 @@ text
 "
 string
 /
-add_on_home_page
+mozac_feature_addons_home_page
 "
 /
 >
@@ -851,7 +851,7 @@ contentDescription
 "
 string
 /
-add_on_home_page
+mozac_feature_addons_home_page
 "
 android
 :
@@ -986,7 +986,7 @@ text
 "
 string
 /
-add_on_rating
+mozac_feature_addons_rating
 "
 /
 >

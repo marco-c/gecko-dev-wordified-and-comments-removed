@@ -274,7 +274,7 @@ text
 "
 string
 /
-addon_settings_on
+mozac_feature_addons_settings_off
 "
 android
 :
@@ -361,7 +361,7 @@ text
 "
 string
 /
-add_on_settings
+mozac_feature_addons_settings
 "
 android
 :
@@ -470,7 +470,7 @@ text
 "
 string
 /
-add_on_details
+mozac_feature_addons_details
 "
 android
 :
@@ -579,7 +579,7 @@ text
 "
 string
 /
-add_on_permissions
+mozac_feature_addons_permissions
 "
 android
 :
@@ -667,7 +667,7 @@ text
 "
 string
 /
-add_on_remove
+mozac_feature_addons_remove
 "
 /
 >

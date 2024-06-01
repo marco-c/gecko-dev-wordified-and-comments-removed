@@ -528,7 +528,7 @@ label
 "
 string
 /
-add_ons
+mozac_feature_addons_addons
 "
 android
 :
@@ -572,7 +572,7 @@ label
 "
 string
 /
-add_ons
+mozac_feature_addons_addons
 "
 /
 >
@@ -595,7 +595,7 @@ label
 "
 string
 /
-add_ons
+mozac_feature_addons_addons
 "
 android
 :
@@ -641,7 +641,7 @@ label
 "
 string
 /
-add_ons
+mozac_feature_addons_addons
 "
 android
 :
@@ -677,7 +677,7 @@ label
 "
 string
 /
-add_ons
+mozac_feature_addons_addons
 "
 android
 :
