@@ -800,11 +800,6 @@ appIntent
 joinBlocking
 (
 )
-testDispatcher
-.
-advanceUntilIdle
-(
-)
 val
 tabWithPendingAppIntent
 =
@@ -827,6 +822,11 @@ tabWithPendingAppIntent
 content
 .
 appIntent
+)
+testDispatcher
+.
+advanceUntilIdle
+(
 )
 verify
 (
