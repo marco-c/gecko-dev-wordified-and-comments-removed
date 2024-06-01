@@ -123,7 +123,7 @@ ReaderViewControlsBar
 .
 kt
 #
-L27
+L25
 )
 A
 customizable

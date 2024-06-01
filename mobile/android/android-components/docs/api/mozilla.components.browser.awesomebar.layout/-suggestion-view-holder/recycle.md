@@ -143,7 +143,7 @@ SuggestionViewHolder
 .
 kt
 #
-L25
+L29
 )
 Notifies
 this

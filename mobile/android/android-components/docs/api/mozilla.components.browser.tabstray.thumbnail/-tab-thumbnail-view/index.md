@@ -103,7 +103,7 @@ TabThumbnailView
 .
 kt
 #
-L14
+L12
 )
 #
 #

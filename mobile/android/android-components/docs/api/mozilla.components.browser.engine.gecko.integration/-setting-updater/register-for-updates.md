@@ -155,7 +155,7 @@ SettingUpdater
 .
 kt
 #
-L30
+L34
 )
 Register
 for

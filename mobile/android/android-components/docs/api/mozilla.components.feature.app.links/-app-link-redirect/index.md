@@ -104,7 +104,7 @@ AppLinkRedirect
 .
 kt
 #
-L14
+L12
 )
 Data
 class

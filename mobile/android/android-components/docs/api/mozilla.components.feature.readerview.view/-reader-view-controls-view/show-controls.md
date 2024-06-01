@@ -145,7 +145,7 @@ ReaderViewControlsView
 .
 kt
 #
-L38
+L36
 )
 Makes
 the

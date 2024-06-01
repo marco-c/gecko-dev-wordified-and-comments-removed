@@ -186,7 +186,7 @@ Bus
 .
 kt
 #
-L40
+L38
 )
 Registers
 an
@@ -378,7 +378,7 @@ Bus
 .
 kt
 #
-L50
+L48
 )
 Registers
 an

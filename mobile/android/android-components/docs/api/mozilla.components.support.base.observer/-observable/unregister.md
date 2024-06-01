@@ -155,7 +155,7 @@ Observable
 .
 kt
 #
-L55
+L59
 )
 Unregisters
 an

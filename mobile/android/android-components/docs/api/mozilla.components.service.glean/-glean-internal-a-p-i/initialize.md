@@ -55,6 +55,7 @@ md
 #
 initialize
 JvmOverloads
+MainThread
 fun
 initialize
 (
@@ -178,7 +179,7 @@ Glean
 .
 kt
 #
-L95
+L100
 )
 Initialize
 Glean
@@ -237,6 +238,16 @@ goes
 into
 the
 background
+.
+This
+method
+must
+be
+called
+from
+the
+main
+thread
 .
 #
 #

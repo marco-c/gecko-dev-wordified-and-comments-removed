@@ -153,5 +153,5 @@ AbstractAmazonPushService
 .
 kt
 #
-L58
+L56
 )

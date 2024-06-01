@@ -210,7 +210,7 @@ SuggestionViewHolder
 .
 kt
 #
-L19
+L23
 )
 Binds
 the

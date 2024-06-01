@@ -173,7 +173,7 @@ Window
 .
 kt
 #
-L20
+L18
 )
 Colors
 the

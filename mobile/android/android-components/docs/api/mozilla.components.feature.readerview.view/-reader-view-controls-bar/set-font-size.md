@@ -177,7 +177,7 @@ ReaderViewControlsBar
 .
 kt
 #
-L70
+L68
 )
 Overrides
 [

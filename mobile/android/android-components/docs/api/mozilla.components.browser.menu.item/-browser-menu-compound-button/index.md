@@ -132,7 +132,7 @@ BrowserMenuCompoundButton
 .
 kt
 #
-L24
+L22
 )
 A
 browser

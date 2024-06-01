@@ -140,7 +140,7 @@ BrowserMenuCompoundButton
 .
 kt
 #
-L26
+L24
 )
 The
 visible

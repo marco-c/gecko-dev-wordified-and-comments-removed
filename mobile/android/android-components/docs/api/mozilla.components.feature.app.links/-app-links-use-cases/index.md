@@ -103,7 +103,7 @@ AppLinksUseCases
 .
 kt
 #
-L32
+L30
 )
 These
 use

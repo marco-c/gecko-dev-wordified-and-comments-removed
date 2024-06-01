@@ -133,7 +133,7 @@ AbstractAmazonPushService
 .
 kt
 #
-L25
+L23
 )
 An
 Amazon

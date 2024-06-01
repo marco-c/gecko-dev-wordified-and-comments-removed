@@ -178,7 +178,7 @@ ReaderViewControlsView
 .
 kt
 #
-L28
+L26
 )
 Sets
 the

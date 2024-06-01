@@ -135,7 +135,7 @@ ReaderViewControlsBar
 .
 kt
 #
-L33
+L31
 )
 Overrides
 [
