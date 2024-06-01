@@ -4866,12 +4866,12 @@ R
 .
 raw
 .
-domain_blacklist
+domain_blocklist
 R
 .
 raw
 .
-domain_whitelist
+domain_safelist
 categories
 )
 }

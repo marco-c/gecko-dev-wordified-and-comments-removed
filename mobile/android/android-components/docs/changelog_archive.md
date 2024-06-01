@@ -5890,7 +5890,7 @@ HistoryDelegate
 now
 implements
 a
-blacklist
+blocklist
 of
 URI
 schemas

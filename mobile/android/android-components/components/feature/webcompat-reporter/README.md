@@ -241,7 +241,7 @@ name
 has
 to
 be
-whitelisted
+safelisted
 by
 the
 WebCompat

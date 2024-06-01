@@ -486,7 +486,7 @@ Purpose
 |
 |
 [
-domain_blacklist
+domain_blocklist
 .
 json
 ]
@@ -497,7 +497,7 @@ json
 [
 disconnect
 -
-blacklist
+blocklist
 .
 json
 ]
@@ -528,7 +528,7 @@ information
 |
 |
 [
-domain_whitelist
+domain_safelist
 .
 json
 ]
@@ -680,7 +680,7 @@ to
 update
 the
 [
-domain_blacklist
+domain_blocklist
 .
 json
 ]
@@ -689,7 +689,7 @@ json
 ]
 and
 [
-domain_whitelist
+domain_safelist
 .
 json
 ]
@@ -785,7 +785,7 @@ of
 [
 disconnect
 -
-blacklist
+blocklist
 .
 json
 ]
@@ -795,7 +795,7 @@ json
 -
 >
 [
-domain_blacklist
+domain_blocklist
 .
 json
 ]
@@ -854,7 +854,7 @@ json
 -
 >
 [
-domain_whitelist
+domain_safelist
 .
 json
 ]
@@ -971,14 +971,14 @@ Update
 tracking
 protection
 lists
-domain_blacklist
+domain_blocklist
 .
 json
 maps
 to
 disconnect
 -
-blacklist
+blocklist
 .
 json
 commit
@@ -990,7 +990,7 @@ prod
 lists
 )
 d5755856f4eeab4ce5e8fb7896600ed7768368e5
-domain_whitelist
+domain_safelist
 .
 json
 maps
@@ -1052,7 +1052,7 @@ res
 /
 raw
 /
-domain_blacklist
+domain_blocklist
 .
 json
 [
@@ -1083,7 +1083,7 @@ master
 /
 disconnect
 -
-blacklist
+blocklist
 .
 json
 [
@@ -1118,7 +1118,9 @@ md
 #
 disconnect
 -
-blacklistjson
+blocklist
+.
+json
 [
 4
 ]
@@ -1159,7 +1161,7 @@ res
 /
 raw
 /
-domain_whitelist
+domain_safelist
 .
 json
 [

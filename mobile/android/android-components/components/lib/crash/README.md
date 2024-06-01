@@ -694,7 +694,7 @@ names
 need
 to
 be
-whitelisted
+safelisted
 for
 the
 server
@@ -738,7 +738,7 @@ app
 added
 to
 the
-whitelist
+safelist
 .
 Add
 a

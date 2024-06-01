@@ -1569,7 +1569,7 @@ de
 "
 "
 val
-WHITE_LIST
+SAFE_LIST
 =
 "
 "
@@ -1628,7 +1628,7 @@ BLOCK_LIST
 )
 StringReader
 (
-WHITE_LIST
+SAFE_LIST
 )
 )
 /
@@ -1847,7 +1847,7 @@ ANALYTICS
 /
 Check
 that
-white
+safe
 list
 worked
 assertTrue
@@ -2138,7 +2138,7 @@ BLOCK_LIST
 )
 StringReader
 (
-WHITE_LIST
+SAFE_LIST
 )
 setOf
 (
@@ -2255,7 +2255,7 @@ BLOCK_LIST
 )
 StringReader
 (
-WHITE_LIST
+SAFE_LIST
 )
 setOf
 (

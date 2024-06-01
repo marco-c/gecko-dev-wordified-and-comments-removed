@@ -740,7 +740,7 @@ If
 scheme
 not
 in
-whitelist
+safelist
 then
 follow
 user
@@ -773,7 +773,7 @@ when
 scheme
 is
 in
-blacklist
+blocklist
 alwaysDeniedSchemes
 .
 contains
