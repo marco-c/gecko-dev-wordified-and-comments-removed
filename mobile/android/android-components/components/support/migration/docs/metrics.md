@@ -6871,10 +6871,6 @@ DO
 NOT
 EDIT
 .
-DO
-NOT
-COMMIT
-.
 -
 -
 >

@@ -5232,6 +5232,9 @@ extra_keys
 :
 flow_id
 :
+type
+:
+string
 description
 :
 >
@@ -5268,6 +5271,9 @@ tab
 .
 stream_id
 :
+type
+:
+string
 description
 :
 >
@@ -5433,6 +5439,9 @@ extra_keys
 :
 flow_id
 :
+type
+:
+string
 description
 :
 >
@@ -5453,6 +5462,9 @@ devices
 .
 stream_id
 :
+type
+:
+string
 description
 :
 >
@@ -5472,6 +5484,9 @@ device
 .
 reason
 :
+type
+:
+string
 description
 :
 >
