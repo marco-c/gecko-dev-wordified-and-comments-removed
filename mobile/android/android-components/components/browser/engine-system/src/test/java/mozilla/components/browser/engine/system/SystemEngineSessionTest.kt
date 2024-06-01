@@ -3072,6 +3072,7 @@ argumentCaptor
 <
 (
 Boolean
+String
 )
 -
 >
@@ -3380,6 +3381,7 @@ argumentCaptor
 <
 (
 Boolean
+String
 )
 -
 >

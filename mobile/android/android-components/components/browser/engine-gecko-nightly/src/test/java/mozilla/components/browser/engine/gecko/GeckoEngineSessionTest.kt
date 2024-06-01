@@ -10674,6 +10674,7 @@ shouldLoadUri
 :
 (
 Boolean
+String
 )
 -
 >
@@ -10850,6 +10851,7 @@ shouldLoadUri
 :
 (
 Boolean
+String
 )
 -
 >

@@ -2136,6 +2136,7 @@ allowOrDeny
 :
 (
 Boolean
+String
 )
 -
 >
@@ -2143,6 +2144,7 @@ Unit
 =
 {
 shouldAllow
+_
 -
 >
 val

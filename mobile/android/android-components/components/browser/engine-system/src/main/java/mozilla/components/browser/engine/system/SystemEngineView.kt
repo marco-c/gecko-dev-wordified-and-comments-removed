@@ -1788,6 +1788,14 @@ hasGesture
 )
 true
 {
+_
+:
+Boolean
+_
+:
+String
+-
+>
 }
 )
 }

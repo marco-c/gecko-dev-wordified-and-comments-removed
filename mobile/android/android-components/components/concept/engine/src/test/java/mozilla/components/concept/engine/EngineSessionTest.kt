@@ -293,12 +293,17 @@ allowOrDeny
 :
 (
 Boolean
+String
 )
 -
 >
 Unit
 =
 {
+_
+_
+-
+>
 }
 Test
 fun
