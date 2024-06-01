@@ -543,6 +543,10 @@ theme
 .
 apply
 {
+setCancelable
+(
+true
+)
 setOnShowListener
 {
 val
@@ -706,12 +710,11 @@ save_cancel
 .
 setOnClickListener
 {
-feature
+dialog
 ?
 .
-onCancel
+dismiss
 (
-sessionId
 )
 }
 update
@@ -739,9 +742,6 @@ feature
 onCancel
 (
 sessionId
-)
-dismiss
-(
 )
 }
 private
@@ -777,9 +777,6 @@ password
 =
 password
 )
-)
-dismiss
-(
 )
 }
 private
