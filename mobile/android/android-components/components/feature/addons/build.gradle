@@ -74,6 +74,16 @@ kotlin
 -
 android
 '
+apply
+plugin
+:
+'
+kotlin
+-
+android
+-
+extensions
+'
 android
 {
 compileSdkVersion

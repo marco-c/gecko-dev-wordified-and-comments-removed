@@ -64,6 +64,20 @@ components
 feature
 .
 addons
+import
+android
+.
+os
+.
+Parcelable
+import
+kotlinx
+.
+android
+.
+parcel
+.
+Parcelize
 /
 *
 *
@@ -355,6 +369,7 @@ s
 .
 *
 /
+Parcelize
 data
 class
 AddOn
@@ -462,6 +477,8 @@ updatedAt
 :
 String
 )
+:
+Parcelable
 {
 /
 *
@@ -526,6 +543,7 @@ author
 .
 *
 /
+Parcelize
 data
 class
 Author
@@ -547,6 +565,8 @@ username
 :
 String
 )
+:
+Parcelable
 /
 *
 *
@@ -598,6 +618,7 @@ on
 .
 *
 /
+Parcelize
 data
 class
 Rating
@@ -611,4 +632,6 @@ reviews
 :
 Int
 )
+:
+Parcelable
 }
