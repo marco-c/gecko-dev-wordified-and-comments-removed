@@ -220,7 +220,7 @@ Int
 companion
 object
 {
-private
+internal
 const
 val
 EXTRA_ON_CLICK
@@ -351,7 +351,9 @@ apply
 putExtra
 (
 EXTRA_ON_CLICK
-tag
+notification
+.
+engineNotification
 )
 }
 PendingIntent

@@ -409,6 +409,9 @@ rtl
 en
 "
 false
+mock
+(
+)
 )
 Before
 fun
@@ -971,6 +974,9 @@ rtl
 en
 "
 false
+mock
+(
+)
 triggeredByWebExtension
 =
 true
