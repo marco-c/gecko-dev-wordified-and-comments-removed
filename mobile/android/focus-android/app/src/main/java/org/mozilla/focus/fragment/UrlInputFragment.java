@@ -1112,6 +1112,14 @@ animateAndDismiss
 (
 )
 {
+if
+(
+isAnimating
+)
+{
+return
+;
+}
 dismissView
 .
 setClickable
