@@ -415,8 +415,7 @@ loadWebsiteTest
 Disable
 on
 API21
-due
-to
+-
 https
 :
 /
@@ -499,8 +498,7 @@ loadWebsitesInMultipleTabsTest
 Disable
 on
 API21
-due
-to
+-
 https
 :
 /
