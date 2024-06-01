@@ -149,6 +149,16 @@ mozilla
 fennec
 "
 )
+FIREFOX_ROCKET
+(
+"
+org
+.
+mozilla
+.
+rocket
+"
+)
 CHROME
 (
 "
