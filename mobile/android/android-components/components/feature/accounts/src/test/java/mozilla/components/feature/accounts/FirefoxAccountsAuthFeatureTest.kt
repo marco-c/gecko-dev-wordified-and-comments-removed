@@ -758,6 +758,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -942,6 +945,9 @@ mockAccount
 beginOAuthFlowAsync
 (
 any
+(
+)
+anyBoolean
 (
 )
 )

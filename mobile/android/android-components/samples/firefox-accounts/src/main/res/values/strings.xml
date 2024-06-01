@@ -204,9 +204,8 @@ name
 wants_keys
 "
 >
-Request
-sync
-scope
+Get
+keys
 ?
 <
 /

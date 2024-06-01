@@ -348,6 +348,13 @@ String
 =
 scopesWithoutKeys
 private
+var
+wantsKeys
+:
+Boolean
+=
+false
+private
 lateinit
 var
 qrFeature
@@ -608,6 +615,7 @@ account
 beginOAuthFlowAsync
 (
 scopes
+wantsKeys
 )
 .
 await
@@ -645,6 +653,7 @@ account
 beginOAuthFlowAsync
 (
 scopes
+wantsKeys
 )
 .
 await
@@ -761,6 +770,9 @@ _
 isChecked
 -
 >
+wantsKeys
+=
+isChecked
 scopes
 =
 if

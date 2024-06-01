@@ -195,6 +195,9 @@ Set
 <
 String
 >
+wantsKeys
+:
+Boolean
 )
 :
 Deferred

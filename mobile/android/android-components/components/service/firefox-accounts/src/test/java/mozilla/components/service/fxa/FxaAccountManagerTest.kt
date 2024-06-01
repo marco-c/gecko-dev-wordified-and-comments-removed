@@ -5965,6 +5965,9 @@ Set
 <
 String
 >
+wantsKeys
+:
+Boolean
 )
 :
 Deferred
@@ -8438,6 +8441,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -9987,6 +9993,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -10598,6 +10607,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -11084,6 +11096,9 @@ mockAccount
 beginOAuthFlowAsync
 (
 any
+(
+)
+anyBoolean
 (
 )
 )
@@ -11637,6 +11652,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -12158,6 +12176,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -12452,6 +12473,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -12644,6 +12668,9 @@ mockAccount
 beginOAuthFlowAsync
 (
 any
+(
+)
+anyBoolean
 (
 )
 )
