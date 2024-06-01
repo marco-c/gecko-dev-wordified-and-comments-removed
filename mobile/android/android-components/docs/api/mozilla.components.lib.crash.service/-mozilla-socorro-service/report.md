@@ -176,7 +176,7 @@ MozillaSocorroService
 .
 kt
 #
-L52
+L56
 )
 Overrides
 [
@@ -360,7 +360,7 @@ MozillaSocorroService
 .
 kt
 #
-L56
+L60
 )
 Overrides
 [
@@ -541,7 +541,7 @@ MozillaSocorroService
 .
 kt
 #
-L60
+L64
 )
 Overrides
 [
