@@ -81,13 +81,11 @@ mozilla
 .
 components
 .
-service
+concept
 .
-sync
+storage
 .
-logins
-.
-ServerPassword
+Login
 import
 mozilla
 .
@@ -464,7 +462,7 @@ A
 list
 of
 [
-ServerPassword
+Login
 ]
 records
 representing
@@ -494,7 +492,7 @@ CrashReporting
 :
 List
 <
-ServerPassword
+Login
 >
 {
 return

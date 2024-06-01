@@ -93,13 +93,11 @@ mozilla
 .
 components
 .
-service
+concept
 .
-sync
+storage
 .
-logins
-.
-ServerPassword
+Login
 import
 mozilla
 .
@@ -410,9 +408,9 @@ assertEquals
 (
 listOf
 (
-ServerPassword
+Login
 (
-id
+guid
 =
 "
 {
@@ -427,7 +425,7 @@ b077
 c6d97ffcd63a
 }
 "
-hostname
+origin
 =
 "
 https
@@ -450,7 +448,7 @@ testp
 httpRealm
 =
 null
-formSubmitUrl
+formActionOrigin
 =
 "
 https
@@ -483,9 +481,9 @@ passwordField
 password
 "
 )
-ServerPassword
+Login
 (
-id
+guid
 =
 "
 {
@@ -500,7 +498,7 @@ bc03
 4c8010543a36
 }
 "
-hostname
+origin
 =
 "
 https
@@ -530,7 +528,7 @@ pass
 httpRealm
 =
 null
-formSubmitUrl
+formActionOrigin
 =
 "
 https
@@ -667,9 +665,9 @@ assertEquals
 (
 listOf
 (
-ServerPassword
+Login
 (
-id
+guid
 =
 "
 {
@@ -684,7 +682,7 @@ a09f
 cf33c3b65498
 }
 "
-hostname
+origin
 =
 "
 https
@@ -791,7 +789,7 @@ IzLKPAKu6W3JX3wqi6WyIxJWeqckDkNiqrKLZAZ3MiWSTS3d5ELHLInrF97tsb86ygawBldjc8JMiWmk
 httpRealm
 =
 null
-formSubmitUrl
+formActionOrigin
 =
 "
 https
@@ -825,9 +823,9 @@ passwordField
 "
 "
 )
-ServerPassword
+Login
 (
-id
+guid
 =
 "
 {
@@ -842,7 +840,7 @@ dca9
 48686df67494
 }
 "
-hostname
+origin
 =
 "
 https
@@ -894,7 +892,7 @@ hello
 httpRealm
 =
 null
-formSubmitUrl
+formActionOrigin
 =
 "
 https
@@ -1028,9 +1026,9 @@ assertEquals
 (
 listOf
 (
-ServerPassword
+Login
 (
-id
+guid
 =
 "
 {
@@ -1045,7 +1043,7 @@ b077
 c6d97ffcd63a
 }
 "
-hostname
+origin
 =
 "
 https
@@ -1068,7 +1066,7 @@ testp
 httpRealm
 =
 null
-formSubmitUrl
+formActionOrigin
 =
 "
 https
@@ -1101,9 +1099,9 @@ passwordField
 password
 "
 )
-ServerPassword
+Login
 (
-id
+guid
 =
 "
 {
@@ -1118,7 +1116,7 @@ bc03
 4c8010543a36
 }
 "
-hostname
+origin
 =
 "
 https
@@ -1148,7 +1146,7 @@ pass
 httpRealm
 =
 null
-formSubmitUrl
+formActionOrigin
 =
 "
 https
