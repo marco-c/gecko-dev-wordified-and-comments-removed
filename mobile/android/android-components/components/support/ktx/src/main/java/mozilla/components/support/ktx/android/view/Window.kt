@@ -151,7 +151,7 @@ Window
 setStatusBarTheme
 (
 ColorInt
-color
+toolbarColor
 :
 Int
 )
@@ -162,13 +162,14 @@ getWindowInsetsController
 .
 isAppearanceLightStatusBars
 =
+!
 isDark
 (
-color
+toolbarColor
 )
 statusBarColor
 =
-color
+toolbarColor
 }
 /
 *
@@ -205,7 +206,7 @@ Window
 setNavigationBarTheme
 (
 ColorInt
-color
+toolbarColor
 :
 Int
 )
@@ -216,9 +217,10 @@ getWindowInsetsController
 .
 isAppearanceLightNavigationBars
 =
+!
 isDark
 (
-color
+toolbarColor
 )
 if
 (
@@ -238,7 +240,7 @@ navigationBarDividerColor
 }
 navigationBarColor
 =
-color
+toolbarColor
 }
 /
 *
