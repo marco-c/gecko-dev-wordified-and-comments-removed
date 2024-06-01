@@ -745,9 +745,7 @@ profiler
 }
 val
 suggestions
-by
-remember
-{
+=
 derivedStateOf
 {
 fetcher
@@ -756,7 +754,8 @@ state
 .
 value
 }
-}
+.
+value
 LaunchedEffect
 (
 text
