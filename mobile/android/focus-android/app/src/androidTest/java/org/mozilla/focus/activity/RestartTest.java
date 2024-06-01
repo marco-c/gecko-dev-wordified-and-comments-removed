@@ -881,9 +881,9 @@ getLaunchIntentForPackage
 FOCUS_DEBUG_APP
 )
 ;
-context
+mActivityTestRule
 .
-startActivity
+launchActivity
 (
 intent
 )
