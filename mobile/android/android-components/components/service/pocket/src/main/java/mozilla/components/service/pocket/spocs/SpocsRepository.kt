@@ -87,8 +87,6 @@ service
 .
 pocket
 .
-PocketStory
-.
 PocketSponsoredStory
 import
 mozilla

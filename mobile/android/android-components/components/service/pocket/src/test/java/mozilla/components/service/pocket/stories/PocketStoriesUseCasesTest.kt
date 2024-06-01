@@ -117,8 +117,6 @@ service
 .
 pocket
 .
-PocketStory
-.
 PocketRecommendedStory
 import
 mozilla
