@@ -285,6 +285,9 @@ mozilla
 .
 org
 "
+isDefault
+=
+false
 createdAt
 =
 200
@@ -386,6 +389,9 @@ mozilla
 .
 org
 "
+isDefault
+=
+false
 createdAt
 =
 200
@@ -427,6 +433,9 @@ firefox
 .
 com
 "
+isDefault
+=
+false
 createdAt
 =
 100
