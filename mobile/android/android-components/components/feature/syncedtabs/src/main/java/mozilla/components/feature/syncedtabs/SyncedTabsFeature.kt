@@ -65,6 +65,12 @@ feature
 .
 syncedtabs
 import
+android
+.
+content
+.
+Context
+import
 androidx
 .
 lifecycle
@@ -371,6 +377,9 @@ LongParameterList
 class
 SyncedTabsFeature
 (
+context
+:
+Context
 storage
 :
 SyncedTabsStorage
@@ -419,6 +428,7 @@ SyncedTabsPresenter
 =
 DefaultPresenter
 (
+context
 controller
 accountManager
 view

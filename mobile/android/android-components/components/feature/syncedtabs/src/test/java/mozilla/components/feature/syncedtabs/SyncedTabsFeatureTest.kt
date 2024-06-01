@@ -65,6 +65,12 @@ feature
 .
 syncedtabs
 import
+android
+.
+content
+.
+Context
+import
 androidx
 .
 lifecycle
@@ -159,6 +165,15 @@ SyncedTabsFeatureTest
 {
 private
 val
+context
+:
+Context
+=
+mock
+(
+)
+private
+val
 storage
 :
 SyncedTabsStorage
@@ -219,6 +234,7 @@ SyncedTabsFeature
 =
 SyncedTabsFeature
 (
+context
 storage
 accountManager
 view
