@@ -10878,6 +10878,9 @@ fakeUrl
 triggeredByRedirect
 =
 true
+hasUserGesture
+=
+expectedTriggeredByWebContent
 )
 )
 progressDelegate
