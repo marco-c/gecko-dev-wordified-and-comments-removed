@@ -163,6 +163,18 @@ down
 (
 )
 {
+val
+hist
+=
+FunctionalHistogram
+(
+2
+.
+0
+8
+.
+0
+)
 /
 /
 Check
@@ -209,7 +221,7 @@ toLong
 val
 bucketMinimum
 =
-FunctionalHistogram
+hist
 .
 sampleToBucketMinimum
 (
@@ -225,7 +237,7 @@ value
 assertEquals
 (
 bucketMinimum
-FunctionalHistogram
+hist
 .
 sampleToBucketMinimum
 (
@@ -275,7 +287,7 @@ toLong
 val
 bucketMinimum
 =
-FunctionalHistogram
+hist
 .
 sampleToBucketMinimum
 (
@@ -291,7 +303,7 @@ value
 assertEquals
 (
 bucketMinimum
-FunctionalHistogram
+hist
 .
 sampleToBucketMinimum
 (
@@ -322,6 +334,12 @@ tdd
 =
 FunctionalHistogram
 (
+2
+.
+0
+8
+.
+0
 )
 /
 /

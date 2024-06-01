@@ -1196,7 +1196,9 @@ buckets
 [
 0
 max
-)
++
+1
+]
 are
 inserted
 into
@@ -1232,7 +1234,9 @@ buckets
 [
 0
 max
-)
++
+1
+]
 where
 max
 is
