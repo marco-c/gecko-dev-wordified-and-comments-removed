@@ -102,6 +102,12 @@ titleView
 ERROR
 CLASS
 >
+descriptionView
+:
+<
+ERROR
+CLASS
+>
 )
 A
 view
