@@ -1019,6 +1019,10 @@ invalid_value
 type
 :
 labeled_counter
+send_in_pings
+:
+-
+all_pings
 description
 :
 Counts
@@ -1092,6 +1096,10 @@ invalid_label
 type
 :
 labeled_counter
+send_in_pings
+:
+-
+all_pings
 description
 :
 Counts
