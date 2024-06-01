@@ -339,13 +339,6 @@ ExperimentalCoroutinesApi
 class
 OriginVerifierFeatureTest
 {
-private
-val
-apiKey
-=
-"
-XXXXXXXXX
-"
 Test
 fun
 verify
@@ -371,7 +364,6 @@ mock
 mock
 (
 )
-apiKey
 mock
 (
 )
@@ -417,7 +409,6 @@ mock
 mock
 (
 )
-apiKey
 mock
 (
 )
@@ -560,7 +551,6 @@ mock
 mock
 (
 )
-apiKey
 )
 {
 store

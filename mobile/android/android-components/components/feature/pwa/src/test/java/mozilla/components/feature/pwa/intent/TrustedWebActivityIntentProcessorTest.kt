@@ -332,13 +332,6 @@ class
 TrustedWebActivityIntentProcessorTest
 {
 private
-val
-apiKey
-=
-"
-XXXXXXXXX
-"
-private
 lateinit
 var
 store
@@ -403,7 +396,6 @@ mock
 mock
 (
 )
-apiKey
 mock
 (
 )
@@ -622,7 +614,6 @@ mock
 mock
 (
 )
-apiKey
 customTabsStore
 )
 assertTrue
