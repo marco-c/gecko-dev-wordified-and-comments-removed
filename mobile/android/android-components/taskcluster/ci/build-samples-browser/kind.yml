@@ -148,6 +148,12 @@ android
 sdk
 -
 linux
+-
+android
+-
+gradle
+-
+dependencies
 include
 -
 coverage
