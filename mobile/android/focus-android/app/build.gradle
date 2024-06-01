@@ -98,7 +98,7 @@ buildTypes
 release
 {
 minifyEnabled
-true
+false
 proguardFiles
 getDefaultProguardFile
 (
@@ -123,7 +123,7 @@ beta
 initWith
 debug
 minifyEnabled
-true
+false
 applicationIdSuffix
 "
 .
