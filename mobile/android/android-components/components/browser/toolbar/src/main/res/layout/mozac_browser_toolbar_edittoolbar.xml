@@ -86,6 +86,16 @@ constraintlayout
 widget
 .
 ConstraintLayout
+android
+:
+id
+=
+"
++
+id
+/
+mozac_browser_toolbar_container
+"
 xmlns
 :
 android
