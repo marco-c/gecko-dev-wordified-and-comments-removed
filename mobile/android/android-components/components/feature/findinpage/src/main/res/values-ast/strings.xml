@@ -63,7 +63,7 @@ name
 mozac_feature_findindpage_input
 "
 >
-Alcontrar
+Atopar
 <
 /
 string
@@ -227,7 +227,7 @@ name
 mozac_feature_findindpage_next_result
 "
 >
-Alcontrar
+Atopar
 el
 result
 u
@@ -266,7 +266,7 @@ name
 mozac_feature_findindpage_previous_result
 "
 >
-Alcontrar
+Atopar
 el
 result
 u
@@ -316,7 +316,7 @@ Dexar
 d
 \
 '
-alcontrar
+atopar
 na
 p
 xina
