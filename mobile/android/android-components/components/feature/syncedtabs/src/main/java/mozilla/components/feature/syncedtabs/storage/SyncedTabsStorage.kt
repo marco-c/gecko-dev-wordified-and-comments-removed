@@ -64,6 +64,8 @@ components
 feature
 .
 syncedtabs
+.
+storage
 import
 androidx
 .
@@ -273,6 +275,8 @@ RemoteTabsStorage
 (
 )
 )
+:
+SyncedTabsProvider
 {
 private
 var
@@ -506,6 +510,7 @@ tabs
 .
 *
 /
+override
 suspend
 fun
 getSyncedTabs
