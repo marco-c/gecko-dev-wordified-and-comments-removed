@@ -1122,6 +1122,13 @@ Color
 0xFFCB9EFF
 )
 val
+Violet20A60
+=
+Color
+(
+0x99CB9EFF
+)
+val
 Violet30
 =
 Color
