@@ -2962,6 +2962,22 @@ begin
 target_po
 )
                 
+locale
+=
+language
+.
+code
+.
+replace
+(
+'
+-
+'
+'
+_
+'
+)
+                
 lang_catalog
 =
 read_catalog
@@ -2969,9 +2985,7 @@ read_catalog
 target_po
 locale
 =
-language
-.
-code
+locale
 )
                 
 catalog

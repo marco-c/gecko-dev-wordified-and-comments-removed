@@ -262,6 +262,11 @@ Locale
 parse
 (
 code
+sep
+=
+'
+-
+'
 )
 if
 code
