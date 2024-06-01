@@ -176,11 +176,9 @@ DefaultComponents
 applicationContext
 )
 {
-override
+private
 val
-engine
-:
-Engine
+runtime
 by
 lazy
 {
@@ -212,9 +210,6 @@ GeckoAdapter
 (
 )
 )
-val
-runtime
-=
 GeckoRuntime
 .
 create
@@ -226,6 +221,15 @@ build
 (
 )
 )
+}
+override
+val
+engine
+:
+Engine
+by
+lazy
+{
 GeckoEngine
 (
 applicationContext
@@ -252,6 +256,7 @@ lazy
 GeckoViewFetchClient
 (
 applicationContext
+runtime
 )
 }
 }
