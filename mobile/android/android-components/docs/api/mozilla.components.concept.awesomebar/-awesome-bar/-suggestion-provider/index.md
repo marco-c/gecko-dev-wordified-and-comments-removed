@@ -1283,7 +1283,7 @@ tabs
 based
 on
 [
-SyncedTabsFeature
+SyncedTabsStorage
 ]
 (
 .
@@ -1302,13 +1302,15 @@ components
 feature
 .
 syncedtabs
+.
+storage
 /
 -
 synced
 -
 tabs
 -
-feature
+storage
 /
 index
 .

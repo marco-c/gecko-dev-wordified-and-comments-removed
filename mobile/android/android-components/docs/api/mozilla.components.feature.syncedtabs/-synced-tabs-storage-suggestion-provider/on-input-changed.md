@@ -208,7 +208,7 @@ SyncedTabsStorageSuggestionProvider
 .
 kt
 #
-L28
+L27
 )
 Overrides
 [
