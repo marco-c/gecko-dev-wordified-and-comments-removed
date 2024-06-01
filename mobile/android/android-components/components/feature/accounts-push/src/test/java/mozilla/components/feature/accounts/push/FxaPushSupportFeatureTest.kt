@@ -65,6 +65,8 @@ components
 feature
 .
 accounts
+.
+push
 import
 mozilla
 .

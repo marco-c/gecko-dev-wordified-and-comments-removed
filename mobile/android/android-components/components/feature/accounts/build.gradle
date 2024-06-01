@@ -147,16 +147,6 @@ project
 (
 '
 :
-concept
--
-push
-'
-)
-implementation
-project
-(
-'
-:
 feature
 -
 tabs

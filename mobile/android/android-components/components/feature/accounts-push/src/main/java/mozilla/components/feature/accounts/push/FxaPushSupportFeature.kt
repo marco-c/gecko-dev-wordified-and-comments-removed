@@ -64,6 +64,8 @@ components
 feature
 .
 accounts
+.
+push
 import
 android
 .
@@ -387,7 +389,7 @@ push
 val
 accountObserver
 =
-AccountObserver
+FxaPushSupportAccountObserver
 (
 context
 accountManager
@@ -434,7 +436,7 @@ constellation
 /
 internal
 class
-AccountObserver
+FxaPushSupportAccountObserver
 (
 private
 val

@@ -65,6 +65,8 @@ components
 feature
 .
 accounts
+.
+push
 import
 android
 .
@@ -235,7 +237,7 @@ RobolectricTestRunner
 class
 )
 class
-AccountObserverTest
+FxaPushSupportAccountObserverTest
 {
 private
 val
@@ -311,7 +313,7 @@ mock
 val
 observer
 =
-AccountObserver
+FxaPushSupportAccountObserver
 (
 testContext
 accountManager
@@ -411,7 +413,7 @@ cache
 val
 observer
 =
-AccountObserver
+FxaPushSupportAccountObserver
 (
 testContext
 accountManager

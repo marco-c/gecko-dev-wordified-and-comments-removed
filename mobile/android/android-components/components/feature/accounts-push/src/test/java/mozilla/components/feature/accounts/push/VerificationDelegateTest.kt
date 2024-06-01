@@ -65,6 +65,8 @@ components
 feature
 .
 accounts
+.
+push
 import
 mozilla
 .
@@ -73,6 +75,8 @@ components
 feature
 .
 accounts
+.
+push
 .
 VerificationDelegate
 .
