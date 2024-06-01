@@ -103,7 +103,7 @@ RecentApp
 {
 override
 val
-packageName
+activityName
 :
 String
 get
@@ -112,7 +112,7 @@ get
 =
 entity
 .
-packageName
+activityName
 override
 val
 score

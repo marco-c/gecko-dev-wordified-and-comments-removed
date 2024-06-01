@@ -231,7 +231,7 @@ users
 fun
 updateRecentApp
 (
-selectedPackageName
+selectedActivityName
 :
 String
 )
@@ -249,7 +249,7 @@ recentAppsDao
 .
 getRecentApp
 (
-selectedPackageName
+selectedActivityName
 )
 recentAppEntity
 ?
@@ -278,7 +278,7 @@ applyDecayToRecentAppsExceptFor
 (
 it
 .
-packageName
+activityName
 )
 }
 }
@@ -388,7 +388,7 @@ app
 fun
 updateDatabaseWithNewApps
 (
-packageNames
+activityNames
 :
 List
 <
@@ -398,9 +398,9 @@ String
 {
 for
 (
-packageName
+activityName
 in
-packageNames
+activityNames
 )
 {
 if
@@ -415,7 +415,7 @@ recentAppsDao
 .
 getRecentApp
 (
-packageName
+activityName
 )
 =
 =
@@ -427,9 +427,9 @@ recentAppEntity
 =
 RecentAppEntity
 (
-packageName
+activityName
 =
-packageName
+activityName
 score
 =
 DEFAULT_COUNT
@@ -492,7 +492,7 @@ private
 fun
 applyDecayToRecentAppsExceptFor
 (
-selectedPackageName
+selectedActivityName
 :
 String
 )
@@ -522,10 +522,10 @@ if
 (
 app
 .
-packageName
+activityName
 !
 =
-selectedPackageName
+selectedActivityName
 &
 &
 app

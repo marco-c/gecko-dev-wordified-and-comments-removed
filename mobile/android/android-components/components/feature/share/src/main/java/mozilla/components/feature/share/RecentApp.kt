@@ -79,7 +79,7 @@ entities
 *
 *
 property
-packageName
+activityName
 -
 unique
 identifier
@@ -115,7 +115,7 @@ RecentApp
 *
 *
 The
-packageName
+activityName
 of
 the
 recent
@@ -124,7 +124,7 @@ app
 *
 /
 val
-packageName
+activityName
 :
 String
 /

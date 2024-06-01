@@ -113,10 +113,10 @@ SELECT
 FROM
 recent_apps_table
 WHERE
-packageName
+activityName
 =
 :
-packageName
+activityName
 "
 "
 "
@@ -124,7 +124,7 @@ packageName
 fun
 getRecentApp
 (
-packageName
+activityName
 :
 String
 )

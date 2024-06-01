@@ -117,11 +117,11 @@ ColumnInfo
 name
 =
 "
-packageName
+activityName
 "
 )
 var
-packageName
+activityName
 :
 String
 ColumnInfo
