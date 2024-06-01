@@ -570,6 +570,9 @@ originalSession
 engineSession
 =
 engineSession
+lastAccess
+=
+1
 )
 )
 val
@@ -653,6 +656,13 @@ restoredItem
 session
 .
 title
+)
+assertEquals
+(
+1
+restoredItem
+.
+lastAccess
 )
 assertSame
 (

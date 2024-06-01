@@ -354,7 +354,6 @@ SelectTabAction
 otherTab
 .
 id
-tabLastAccessTimeStamp
 )
 )
 .

@@ -375,6 +375,17 @@ readerState
 activeUrl
 )
 }
+sessionJson
+.
+put
+(
+Keys
+.
+SESSION_LAST_ACCESS
+tab
+.
+lastAccess
+)
 itemJson
 .
 put
