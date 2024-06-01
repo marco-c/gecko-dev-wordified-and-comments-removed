@@ -397,6 +397,17 @@ viewToHide
 null
 ;
 }
+void
+reset
+(
+)
+{
+updateBottomPadding
+(
+0
+)
+;
+}
 private
 void
 updateBottomPadding
