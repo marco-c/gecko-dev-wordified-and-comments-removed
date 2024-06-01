@@ -271,6 +271,13 @@ Text
 "
 android
 :
+textAlignment
+=
+"
+viewStart
+"
+android
+:
 layout_width
 =
 "
