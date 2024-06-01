@@ -435,7 +435,7 @@ R
 .
 string
 .
-mozac_browser_errorpages_security_bad_hsts_cert_techInfo
+mozac_browser_errorpages_security_bad_hsts_cert_techInfo2
 uri
 .
 toString
