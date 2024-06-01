@@ -62,6 +62,13 @@ java
 .
 util
 .
+Calendar
+;
+import
+java
+.
+util
+.
 HashMap
 ;
 import
@@ -186,6 +193,11 @@ test
 "
 test
 "
+Calendar
+.
+getInstance
+(
+)
 )
 ;
 Glean
@@ -266,6 +278,11 @@ test
 "
 test
 "
+Calendar
+.
+getInstance
+(
+)
 )
 ;
 Glean
