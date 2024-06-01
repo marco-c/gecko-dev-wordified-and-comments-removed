@@ -69,12 +69,6 @@ display
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 Context
@@ -556,12 +550,6 @@ drawableState
 return
 drawableStates
 }
-SuppressLint
-(
-"
-NewApi
-"
-)
 private
 fun
 updateIcon

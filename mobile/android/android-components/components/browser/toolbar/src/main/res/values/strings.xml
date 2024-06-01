@@ -232,9 +232,8 @@ mozac_browser_toolbar_content_description_tracking_protection_on_trackers_blocke
 >
 Tracking
 Protection
-is
-active
-blocking
+has
+blocked
 trackers
 <
 /
@@ -278,7 +277,7 @@ mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site
 Tracking
 Protection
 is
-disabled
+off
 for
 this
 site
