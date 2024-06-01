@@ -881,6 +881,8 @@ GeckoEngineSession
 geckoSession
 geckoSession
 .
+webExtensionController
+.
 setMessageDelegate
 (
 nativeExtension
@@ -927,6 +929,8 @@ GeckoEngineSession
 geckoSession
 return
 geckoSession
+.
+webExtensionController
 .
 getMessageDelegate
 (
@@ -1447,7 +1451,9 @@ GeckoEngineSession
 geckoSession
 geckoSession
 .
-setWebExtensionActionDelegate
+webExtensionController
+.
+setActionDelegate
 (
 nativeExtension
 actionDelegate
@@ -1490,7 +1496,9 @@ geckoSession
 return
 geckoSession
 .
-getWebExtensionActionDelegate
+webExtensionController
+.
+getActionDelegate
 (
 nativeExtension
 )

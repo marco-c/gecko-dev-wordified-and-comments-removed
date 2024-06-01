@@ -4056,6 +4056,12 @@ throwable
 )
 }
 Test
+Suppress
+(
+"
+Deprecation
+"
+)
 fun
 web
 extension
@@ -4389,6 +4395,12 @@ isOpen
 )
 }
 Test
+Suppress
+(
+"
+Deprecation
+"
+)
 fun
 web
 extension

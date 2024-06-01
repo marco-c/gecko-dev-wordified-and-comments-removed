@@ -1843,6 +1843,12 @@ registerWebExtensionDelegate
 .
 *
 /
+Suppress
+(
+"
+Deprecation
+"
+)
 override
 fun
 registerWebExtensionDelegate
