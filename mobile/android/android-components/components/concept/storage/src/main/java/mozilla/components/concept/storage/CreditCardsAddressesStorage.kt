@@ -1773,6 +1773,13 @@ used
 .
 *
 /
+SuppressLint
+(
+"
+ParcelCreator
+"
+)
+Parcelize
 data
 class
 Address
@@ -1847,6 +1854,8 @@ timesUsed
 :
 Long
 )
+:
+Parcelable
 /
 *
 *
