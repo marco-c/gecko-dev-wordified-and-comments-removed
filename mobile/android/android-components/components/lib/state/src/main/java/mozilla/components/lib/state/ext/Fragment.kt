@@ -97,12 +97,6 @@ kotlinx
 .
 coroutines
 .
-ObsoleteCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 channels
 .
 consumeEach
@@ -253,10 +247,6 @@ ExperimentalCoroutinesApi
 /
 /
 Channel
-ObsoleteCoroutinesApi
-/
-/
-consumeEach
 fun
 <
 S
