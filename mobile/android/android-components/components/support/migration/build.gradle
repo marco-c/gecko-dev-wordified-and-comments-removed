@@ -552,6 +552,16 @@ project
 :
 feature
 -
+addons
+'
+)
+implementation
+project
+(
+'
+:
+feature
+-
 intent
 '
 )
