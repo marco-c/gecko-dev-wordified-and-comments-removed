@@ -188,8 +188,7 @@ work
 ref
 :
 "
-releases
-/
+releases_v
 {
 {
 steps
@@ -213,8 +212,6 @@ ac
 version
 }
 }
-.
-0
 "
 -
 name
@@ -318,8 +315,7 @@ Strings
 from
 main
 to
-releases
-/
+releases_v
 {
 {
 steps
@@ -343,8 +339,6 @@ ac
 version
 }
 }
-.
-0
 "
 body
 :
@@ -359,8 +353,7 @@ strings
 from
 main
 to
-releases
-/
+releases_v
 {
 {
 steps
@@ -384,6 +377,4 @@ ac
 version
 }
 }
-.
-0
 "
