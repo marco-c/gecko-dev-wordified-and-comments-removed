@@ -414,15 +414,8 @@ txt
 .
 text
 .
-replaceAll
+stripTrailing
 (
-'
-\
-\
-n
-'
-'
-'
 )
 buildconfig
 .
