@@ -266,9 +266,6 @@ format
 Uri
 suggestUri
 ;
-String
-searchTermsParamName
-;
 SearchEngine
 (
 String
@@ -419,16 +416,6 @@ return
 null
 ;
 }
-}
-public
-String
-getSearchTermsParamName
-(
-)
-{
-return
-searchTermsParamName
-;
 }
 private
 String
