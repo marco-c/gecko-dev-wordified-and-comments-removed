@@ -687,12 +687,8 @@ key
 ?
 :
 throw
-IllegalStateException
+AccessTokenUnexpectedlyWithoutKey
 (
-"
-missing
-OAuthScopedKey
-"
 )
 return
 SyncAuthInfo
