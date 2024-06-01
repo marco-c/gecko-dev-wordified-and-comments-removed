@@ -269,7 +269,7 @@ popBackStack
 }
 override
 fun
-isRemoveMode
+isSelectionMode
 (
 )
 =
