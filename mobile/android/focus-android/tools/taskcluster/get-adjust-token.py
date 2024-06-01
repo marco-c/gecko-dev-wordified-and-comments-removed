@@ -31,6 +31,8 @@ directory
 "
 "
 import
+os
+import
 taskcluster
 secrets
 =
