@@ -178,6 +178,13 @@ fitsSystemWindows
 "
 true
 "
+android
+:
+elevation
+=
+"
+4dp
+"
 >
 <
 FrameLayout
