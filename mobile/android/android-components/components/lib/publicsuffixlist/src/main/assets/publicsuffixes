@@ -1,4 +1,3 @@
-]
 *
 .
 0emm
@@ -54,6 +53,13 @@ earth
 *
 .
 ck
+*
+.
+cloud
+.
+metacentrum
+.
+cz
 *
 .
 cns
@@ -4457,11 +4463,6 @@ org
 cloud
 .
 goog
-cloud
-.
-metacentrum
-.
-cz
 cloud66
 .
 ws
@@ -7720,10 +7721,16 @@ no
 fnd
 .
 br
+fnwk
+.
+site
 fo
 foggia
 .
 it
+folionetwork
+.
+site
 folkebibl
 .
 no
@@ -7813,6 +7820,9 @@ no
 fortal
 .
 br
+forte
+.
+id
 fortmissoula
 .
 museum
@@ -16243,6 +16253,9 @@ mcdir
 .
 ru
 mckinsey
+mcpe
+.
+me
 md
 md
 .
@@ -20326,6 +20339,9 @@ omiya
 saitama
 .
 jp
+omniwe
+.
+site
 omotego
 .
 fukushima
@@ -21687,6 +21703,9 @@ museum
 plants
 .
 museum
+platform0
+.
+app
 platter
 -
 app
