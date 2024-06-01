@@ -191,6 +191,16 @@ concept
 .
 engine
 .
+CancellableOperation
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
 Engine
 import
 mozilla
@@ -1485,6 +1495,8 @@ Throwable
 Unit
 )
 )
+:
+CancellableOperation
 {
 val
 ext
@@ -1497,6 +1509,7 @@ runtime
 allowContentMessaging
 supportActions
 )
+return
 installWebExtension
 (
 ext
@@ -1543,7 +1556,12 @@ _
 >
 }
 )
+:
+CancellableOperation
 {
+val
+geckoResult
+=
 if
 (
 ext
@@ -1734,6 +1752,8 @@ ext
 nativeExtension
 )
 .
+apply
+{
 then
 (
 {
@@ -1775,6 +1795,7 @@ Void
 }
 )
 }
+}
 else
 {
 runtime
@@ -1788,6 +1809,8 @@ ext
 url
 )
 .
+apply
+{
 then
 (
 {
@@ -1851,6 +1874,13 @@ Void
 }
 )
 }
+}
+return
+geckoResult
+.
+asCancellableOperation
+(
+)
 }
 /
 *
