@@ -1177,7 +1177,7 @@ R
 .
 string
 .
-cancel_active_downloads_warning_content_title
+mozac_feature_downloads_cancel_active_downloads_warning_content_title
 StringRes
 val
 bodyText
@@ -1188,7 +1188,7 @@ R
 .
 string
 .
-cancel_active_private_downloads_warning_content_body
+mozac_feature_downloads_cancel_active_private_downloads_warning_content_body
 StringRes
 val
 acceptText
@@ -1199,7 +1199,7 @@ R
 .
 string
 .
-cancel_active_downloads_accept
+mozac_feature_downloads_cancel_active_downloads_accept
 StringRes
 val
 denyText
@@ -1210,7 +1210,7 @@ R
 .
 string
 .
-cancel_active_private_downloads_deny
+mozac_feature_downloads_cancel_active_private_downloads_deny
 )
 :
 Parcelable

@@ -835,7 +835,7 @@ string
 name
 =
 "
-cancel_active_downloads_warning_content_title
+mozac_feature_downloads_cancel_active_downloads_warning_content_title
 "
 >
 Cancel
@@ -883,7 +883,7 @@ string
 name
 =
 "
-cancel_active_private_downloads_warning_content_body
+mozac_feature_downloads_cancel_active_private_downloads_warning_content_body
 "
 >
 If
@@ -939,7 +939,7 @@ string
 name
 =
 "
-cancel_active_downloads_accept
+mozac_feature_downloads_cancel_active_downloads_accept
 "
 >
 Cancel
@@ -977,7 +977,7 @@ string
 name
 =
 "
-cancel_active_private_downloads_deny
+mozac_feature_downloads_cancel_active_private_downloads_deny
 "
 >
 Stay

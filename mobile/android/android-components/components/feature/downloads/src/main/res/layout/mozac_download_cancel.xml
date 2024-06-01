@@ -344,7 +344,7 @@ text
 "
 string
 /
-cancel_active_downloads_warning_content_title
+mozac_feature_downloads_cancel_active_downloads_warning_content_title
 "
 tools
 :
@@ -440,7 +440,7 @@ text
 "
 string
 /
-cancel_active_private_downloads_warning_content_body
+mozac_feature_downloads_cancel_active_private_downloads_warning_content_body
 "
 /
 >
@@ -519,7 +519,7 @@ text
 "
 string
 /
-cancel_active_private_downloads_deny
+mozac_feature_downloads_cancel_active_private_downloads_deny
 "
 /
 >
@@ -621,7 +621,7 @@ text
 "
 string
 /
-cancel_active_downloads_accept
+mozac_feature_downloads_cancel_active_downloads_accept
 "
 /
 >
