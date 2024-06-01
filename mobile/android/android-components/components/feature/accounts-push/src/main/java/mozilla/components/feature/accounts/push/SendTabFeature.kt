@@ -87,7 +87,7 @@ concept
 .
 sync
 .
-AccountEventsObserver
+AccountEvent
 import
 mozilla
 .
@@ -97,7 +97,7 @@ concept
 .
 sync
 .
-AccountEvent
+AccountEventsObserver
 import
 mozilla
 .

@@ -189,9 +189,11 @@ ktx
 .
 android
 .
-view
+content
 .
-setPadding
+res
+.
+resolveAttribute
 import
 mozilla
 .
@@ -203,11 +205,9 @@ ktx
 .
 android
 .
-content
+view
 .
-res
-.
-resolveAttribute
+setPadding
 /
 *
 *

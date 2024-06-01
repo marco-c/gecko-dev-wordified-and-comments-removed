@@ -223,7 +223,7 @@ mockito
 .
 Mockito
 .
-spy
+doReturn
 import
 org
 .
@@ -231,7 +231,7 @@ mockito
 .
 Mockito
 .
-doReturn
+spy
 import
 org
 .

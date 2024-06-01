@@ -81,7 +81,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-TrackingCategory
+CookiePolicy
 import
 mozilla
 .
@@ -95,7 +95,7 @@ EngineSession
 .
 TrackingProtectionPolicy
 .
-CookiePolicy
+TrackingCategory
 /
 *
 *

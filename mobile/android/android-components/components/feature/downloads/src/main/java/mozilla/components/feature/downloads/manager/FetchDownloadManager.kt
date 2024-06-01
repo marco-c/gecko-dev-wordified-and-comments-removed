@@ -184,8 +184,6 @@ state
 content
 .
 DownloadState
-.
-Status
 import
 mozilla
 .
@@ -200,6 +198,8 @@ state
 content
 .
 DownloadState
+.
+Status
 import
 mozilla
 .

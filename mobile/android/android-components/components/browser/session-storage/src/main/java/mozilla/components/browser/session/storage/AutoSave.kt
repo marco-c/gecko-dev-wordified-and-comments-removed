@@ -237,9 +237,11 @@ support
 .
 base
 .
-utils
+log
 .
-NamedThreadFactory
+logger
+.
+Logger
 import
 mozilla
 .
@@ -249,11 +251,9 @@ support
 .
 base
 .
-log
+utils
 .
-logger
-.
-Logger
+NamedThreadFactory
 import
 mozilla
 .

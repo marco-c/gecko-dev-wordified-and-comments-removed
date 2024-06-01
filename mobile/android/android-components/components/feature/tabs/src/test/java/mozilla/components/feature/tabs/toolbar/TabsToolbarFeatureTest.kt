@@ -113,7 +113,7 @@ state
 .
 state
 .
-CustomTabSessionState
+BrowserState
 import
 mozilla
 .
@@ -137,7 +137,7 @@ state
 .
 state
 .
-BrowserState
+CustomTabSessionState
 import
 mozilla
 .

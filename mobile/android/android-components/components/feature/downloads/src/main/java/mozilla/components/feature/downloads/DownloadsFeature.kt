@@ -303,7 +303,7 @@ downloads
 .
 ui
 .
-DownloaderApp
+DownloadAppChooserDialog
 import
 mozilla
 .
@@ -315,7 +315,7 @@ downloads
 .
 ui
 .
-DownloadAppChooserDialog
+DownloaderApp
 import
 mozilla
 .

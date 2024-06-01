@@ -345,6 +345,9 @@ Suppress
 "
 MagicNumber
 "
+"
+LargeClass
+"
 )
 internal
 object

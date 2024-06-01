@@ -87,12 +87,6 @@ engine
 .
 EngineSession
 import
-org
-.
-junit
-.
-Test
-import
 mozilla
 .
 components
@@ -114,6 +108,12 @@ junit
 Assert
 .
 assertEquals
+import
+org
+.
+junit
+.
+Test
 import
 org
 .

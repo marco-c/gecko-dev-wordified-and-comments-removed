@@ -139,7 +139,11 @@ concept
 .
 fetch
 .
-isDataUri
+Response
+.
+Companion
+.
+SUCCESS
 import
 mozilla
 .
@@ -159,11 +163,7 @@ concept
 .
 fetch
 .
-Response
-.
-Companion
-.
-SUCCESS
+isDataUri
 import
 org
 .

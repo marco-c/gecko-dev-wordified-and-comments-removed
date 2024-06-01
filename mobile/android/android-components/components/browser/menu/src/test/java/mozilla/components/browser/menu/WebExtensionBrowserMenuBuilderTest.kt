@@ -137,7 +137,7 @@ menu
 .
 item
 .
-WebExtensionBrowserMenuItem
+ParentBrowserMenuItem
 import
 mozilla
 .
@@ -149,7 +149,7 @@ menu
 .
 item
 .
-ParentBrowserMenuItem
+WebExtensionBrowserMenuItem
 import
 mozilla
 .

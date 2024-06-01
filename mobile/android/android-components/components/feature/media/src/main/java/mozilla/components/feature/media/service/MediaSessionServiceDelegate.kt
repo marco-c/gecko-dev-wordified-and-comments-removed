@@ -313,9 +313,9 @@ feature
 .
 media
 .
-notification
+focus
 .
-MediaNotification
+AudioFocus
 import
 mozilla
 .
@@ -325,9 +325,9 @@ feature
 .
 media
 .
-focus
+notification
 .
-AudioFocus
+MediaNotification
 import
 mozilla
 .

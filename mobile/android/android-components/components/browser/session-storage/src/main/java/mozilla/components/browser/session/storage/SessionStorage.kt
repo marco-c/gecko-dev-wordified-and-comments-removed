@@ -193,9 +193,11 @@ components
 .
 concept
 .
-engine
+base
 .
-Engine
+crash
+.
+CrashReporting
 import
 mozilla
 .
@@ -203,11 +205,9 @@ components
 .
 concept
 .
-base
+engine
 .
-crash
-.
-CrashReporting
+Engine
 import
 mozilla
 .

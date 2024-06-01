@@ -81,9 +81,9 @@ browser
 .
 state
 .
-state
+search
 .
-selectedOrDefaultSearchEngine
+SearchEngine
 import
 mozilla
 .
@@ -93,9 +93,9 @@ browser
 .
 state
 .
-search
+state
 .
-SearchEngine
+selectedOrDefaultSearchEngine
 import
 mozilla
 .

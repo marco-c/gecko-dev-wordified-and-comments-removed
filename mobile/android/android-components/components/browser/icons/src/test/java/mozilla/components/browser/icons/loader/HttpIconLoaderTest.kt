@@ -297,13 +297,13 @@ java
 .
 io
 .
-InputStream
+IOException
 import
 java
 .
 io
 .
-IOException
+InputStream
 RunWith
 (
 AndroidJUnit4

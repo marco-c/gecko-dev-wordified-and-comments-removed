@@ -179,7 +179,7 @@ mockito
 .
 Mockito
 .
-verify
+any
 import
 org
 .
@@ -195,7 +195,7 @@ mockito
 .
 Mockito
 .
-any
+verify
 import
 java
 .

@@ -101,7 +101,7 @@ state
 .
 state
 .
-SessionState
+MediaSessionState
 import
 mozilla
 .
@@ -113,7 +113,7 @@ state
 .
 state
 .
-MediaSessionState
+SessionState
 import
 mozilla
 .

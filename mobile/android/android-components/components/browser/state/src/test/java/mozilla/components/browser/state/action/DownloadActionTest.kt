@@ -155,7 +155,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertSame
 import
 org
 .
@@ -163,7 +163,7 @@ junit
 .
 Assert
 .
-assertSame
+assertTrue
 import
 org
 .

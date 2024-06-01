@@ -75,7 +75,7 @@ engine
 .
 EngineSession
 .
-TrackingProtectionPolicy
+SafeBrowsingPolicy
 import
 mozilla
 .
@@ -87,7 +87,7 @@ engine
 .
 EngineSession
 .
-SafeBrowsingPolicy
+TrackingProtectionPolicy
 import
 mozilla
 .

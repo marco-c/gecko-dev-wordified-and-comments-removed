@@ -113,7 +113,7 @@ AddonUpdater
 .
 Status
 .
-NoUpdateAvailable
+Error
 import
 mozilla
 .
@@ -129,7 +129,7 @@ AddonUpdater
 .
 Status
 .
-Error
+NoUpdateAvailable
 import
 mozilla
 .

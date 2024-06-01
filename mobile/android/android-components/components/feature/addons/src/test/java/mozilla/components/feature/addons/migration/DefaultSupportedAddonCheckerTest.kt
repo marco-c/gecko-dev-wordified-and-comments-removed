@@ -181,7 +181,7 @@ DefaultSupportedAddonsChecker
 .
 Companion
 .
-WORK_TAG_PERIODIC
+CHECKER_UNIQUE_PERIODIC_WORK_NAME
 import
 mozilla
 .
@@ -197,7 +197,7 @@ DefaultSupportedAddonsChecker
 .
 Companion
 .
-CHECKER_UNIQUE_PERIODIC_WORK_NAME
+WORK_TAG_PERIODIC
 import
 mozilla
 .

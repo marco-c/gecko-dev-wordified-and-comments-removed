@@ -145,11 +145,11 @@ components
 .
 feature
 .
-intent
+contextmenu
 .
 ext
 .
-getSessionId
+DefaultSelectionActionDelegate
 import
 mozilla
 .
@@ -157,11 +157,11 @@ components
 .
 feature
 .
-contextmenu
+intent
 .
 ext
 .
-DefaultSelectionActionDelegate
+getSessionId
 import
 mozilla
 .

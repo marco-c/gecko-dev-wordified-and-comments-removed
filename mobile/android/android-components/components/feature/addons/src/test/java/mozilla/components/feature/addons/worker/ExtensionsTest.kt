@@ -95,12 +95,6 @@ TestCase
 .
 assertTrue
 import
-java
-.
-io
-.
-IOException
-import
 kotlinx
 .
 coroutines
@@ -132,6 +126,12 @@ junit
 runner
 .
 RunWith
+import
+java
+.
+io
+.
+IOException
 RunWith
 (
 AndroidJUnit4

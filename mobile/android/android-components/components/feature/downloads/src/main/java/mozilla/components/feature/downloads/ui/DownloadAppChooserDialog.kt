@@ -129,12 +129,6 @@ widget
 .
 LinearLayout
 import
-java
-.
-util
-.
-ArrayList
-import
 androidx
 .
 appcompat
@@ -168,6 +162,12 @@ feature
 downloads
 .
 R
+import
+java
+.
+util
+.
+ArrayList
 /
 *
 *

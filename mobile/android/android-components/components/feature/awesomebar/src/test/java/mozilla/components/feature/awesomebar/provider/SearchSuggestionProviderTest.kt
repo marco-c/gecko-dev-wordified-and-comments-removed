@@ -151,9 +151,11 @@ components
 .
 feature
 .
-search
+awesomebar
 .
-SearchUseCases
+facts
+.
+AwesomeBarFacts
 import
 mozilla
 .
@@ -161,11 +163,9 @@ components
 .
 feature
 .
-awesomebar
+search
 .
-facts
-.
-AwesomeBarFacts
+SearchUseCases
 import
 mozilla
 .

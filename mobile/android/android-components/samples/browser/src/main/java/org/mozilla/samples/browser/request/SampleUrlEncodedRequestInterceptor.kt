@@ -127,7 +127,7 @@ request
 .
 RequestInterceptor
 .
-InterceptionResponse
+ErrorResponse
 import
 mozilla
 .
@@ -141,7 +141,7 @@ request
 .
 RequestInterceptor
 .
-ErrorResponse
+InterceptionResponse
 import
 org
 .

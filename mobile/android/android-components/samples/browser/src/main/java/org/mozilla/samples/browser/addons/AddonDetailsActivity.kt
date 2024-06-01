@@ -183,7 +183,7 @@ addons
 .
 ui
 .
-translateName
+translateDescription
 import
 mozilla
 .
@@ -195,7 +195,7 @@ addons
 .
 ui
 .
-translateDescription
+translateName
 import
 mozilla
 .

@@ -101,7 +101,7 @@ state
 .
 action
 .
-TabListAction
+LastAccessAction
 import
 mozilla
 .
@@ -113,7 +113,7 @@ state
 .
 action
 .
-LastAccessAction
+TabListAction
 import
 mozilla
 .

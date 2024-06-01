@@ -135,12 +135,6 @@ log
 .
 Log
 import
-org
-.
-junit
-.
-Test
-import
 mozilla
 .
 components
@@ -174,6 +168,12 @@ junit
 Assert
 .
 fail
+import
+org
+.
+junit
+.
+Test
 import
 org
 .

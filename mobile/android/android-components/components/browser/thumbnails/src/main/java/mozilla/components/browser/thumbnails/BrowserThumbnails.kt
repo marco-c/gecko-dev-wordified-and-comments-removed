@@ -95,7 +95,7 @@ coroutines
 .
 flow
 .
-map
+collect
 import
 kotlinx
 .
@@ -103,7 +103,7 @@ coroutines
 .
 flow
 .
-collect
+map
 import
 mozilla
 .
@@ -137,9 +137,9 @@ browser
 .
 state
 .
-store
+state
 .
-BrowserStore
+ContentState
 import
 mozilla
 .
@@ -149,9 +149,9 @@ browser
 .
 state
 .
-state
+store
 .
-ContentState
+BrowserStore
 import
 mozilla
 .

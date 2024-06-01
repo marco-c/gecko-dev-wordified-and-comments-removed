@@ -125,12 +125,6 @@ annotation
 .
 VisibleForTesting
 import
-java
-.
-util
-.
-HashMap
-import
 androidx
 .
 core
@@ -138,6 +132,12 @@ core
 net
 .
 toUri
+import
+java
+.
+util
+.
+HashMap
 /
 *
 *

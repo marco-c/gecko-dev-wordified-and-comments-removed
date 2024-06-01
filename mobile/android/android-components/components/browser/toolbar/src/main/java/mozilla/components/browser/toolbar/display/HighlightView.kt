@@ -153,7 +153,7 @@ Toolbar
 .
 Highlight
 .
-PERMISSIONS_CHANGED
+NONE
 import
 mozilla
 .
@@ -167,7 +167,7 @@ Toolbar
 .
 Highlight
 .
-NONE
+PERMISSIONS_CHANGED
 /
 *
 *

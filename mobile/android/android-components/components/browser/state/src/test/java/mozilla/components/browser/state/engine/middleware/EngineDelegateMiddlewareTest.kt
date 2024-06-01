@@ -91,9 +91,9 @@ browser
 .
 state
 .
-engine
+action
 .
-EngineMiddleware
+EngineAction
 import
 mozilla
 .
@@ -103,9 +103,9 @@ browser
 .
 state
 .
-action
+engine
 .
-EngineAction
+EngineMiddleware
 import
 mozilla
 .

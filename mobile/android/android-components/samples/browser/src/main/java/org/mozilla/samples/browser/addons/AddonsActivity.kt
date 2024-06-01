@@ -67,6 +67,12 @@ browser
 .
 addons
 import
+android
+.
+os
+.
+Bundle
+import
 androidx
 .
 appcompat
@@ -74,12 +80,6 @@ appcompat
 app
 .
 AppCompatActivity
-import
-android
-.
-os
-.
-Bundle
 import
 org
 .

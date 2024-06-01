@@ -143,7 +143,9 @@ concept
 .
 sync
 .
-DeviceConstellation
+DeviceCommandOutgoing
+.
+SendTab
 import
 mozilla
 .
@@ -153,9 +155,7 @@ concept
 .
 sync
 .
-DeviceCommandOutgoing
-.
-SendTab
+DeviceConstellation
 import
 mozilla
 .

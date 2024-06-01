@@ -81,14 +81,6 @@ kotlinx
 .
 coroutines
 .
-test
-.
-TestCoroutineDispatcher
-import
-kotlinx
-.
-coroutines
-.
 CoroutineScope
 import
 kotlinx
@@ -108,6 +100,14 @@ kotlinx
 coroutines
 .
 cancel
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+TestCoroutineDispatcher
 import
 kotlinx
 .
@@ -261,7 +261,7 @@ mockito
 .
 Mockito
 .
-verify
+spy
 import
 org
 .
@@ -269,7 +269,7 @@ mockito
 .
 Mockito
 .
-spy
+verify
 import
 org
 .

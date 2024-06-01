@@ -75,7 +75,7 @@ concept
 .
 sync
 .
-Device
+AccountEvent
 import
 mozilla
 .
@@ -85,7 +85,7 @@ concept
 .
 sync
 .
-AccountEvent
+Device
 import
 mozilla
 .

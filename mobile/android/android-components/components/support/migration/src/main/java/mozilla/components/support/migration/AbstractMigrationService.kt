@@ -75,6 +75,12 @@ android
 .
 app
 .
+NotificationChannel
+import
+android
+.
+app
+.
 NotificationManager
 import
 android
@@ -88,12 +94,6 @@ android
 app
 .
 Service
-import
-android
-.
-app
-.
-NotificationChannel
 import
 android
 .
