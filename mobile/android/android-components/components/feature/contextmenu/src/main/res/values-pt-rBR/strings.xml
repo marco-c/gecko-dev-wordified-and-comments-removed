@@ -49,6 +49,11 @@ name
 mozac_feature_contextmenu_open_link_in_new_tab
 "
 >
+Abrir
+link
+em
+nova
+aba
 <
 /
 string
@@ -82,6 +87,10 @@ name
 mozac_feature_contextmenu_open_link_in_private_tab
 "
 >
+Abrir
+em
+aba
+privativa
 <
 /
 string
@@ -115,6 +124,11 @@ name
 mozac_feature_contextmenu_open_image_in_new_tab
 "
 >
+Abrir
+imagem
+em
+nova
+aba
 <
 /
 string
@@ -148,6 +162,8 @@ name
 mozac_feature_contextmenu_share_link
 "
 >
+Compartilhar
+link
 <
 /
 string
@@ -180,6 +196,8 @@ name
 mozac_feature_contextmenu_copy_link
 "
 >
+Copiar
+link
 <
 /
 string
@@ -216,6 +234,11 @@ name
 mozac_feature_contextmenu_copy_image_location
 "
 >
+Copiar
+endere
+o
+da
+imagem
 <
 /
 string
@@ -247,6 +270,8 @@ name
 mozac_feature_contextmenu_save_image
 "
 >
+Salvar
+imagem
 <
 /
 string
@@ -282,6 +307,9 @@ name
 mozac_feature_contextmenu_snackbar_new_tab_opened
 "
 >
+Nova
+aba
+aberta
 <
 /
 string
@@ -318,6 +346,10 @@ name
 mozac_feature_contextmenu_snackbar_new_private_tab_opened
 "
 >
+Nova
+aba
+privativa
+aberta
 <
 /
 string
@@ -355,6 +387,14 @@ name
 mozac_feature_contextmenu_snackbar_link_copied
 "
 >
+Link
+copiado
+para
+a
+rea
+de
+transfer
+ncia
 <
 /
 string
@@ -400,6 +440,7 @@ name
 mozac_feature_contextmenu_snackbar_action_switch
 "
 >
+Alternar
 <
 /
 string
