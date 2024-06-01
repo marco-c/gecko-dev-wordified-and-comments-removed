@@ -332,7 +332,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /
@@ -378,7 +378,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /
@@ -422,7 +422,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /

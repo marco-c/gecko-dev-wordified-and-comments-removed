@@ -130,7 +130,7 @@ docs
 /
 blob
 /
-master
+main
 /
 android
 /
@@ -168,7 +168,7 @@ docs
 /
 blob
 /
-master
+main
 /
 android
 /

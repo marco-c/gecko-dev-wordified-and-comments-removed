@@ -149,7 +149,7 @@ name
 :
 "
 Checkout
-Master
+Main
 Branch
 "
 uses
@@ -165,7 +165,7 @@ path
 main
 ref
 :
-master
+main
 -
 name
 :
@@ -316,7 +316,7 @@ title
 Uplift
 Strings
 from
-master
+main
 to
 releases
 /
@@ -357,7 +357,7 @@ PR
 sync
 strings
 from
-master
+main
 to
 releases
 /

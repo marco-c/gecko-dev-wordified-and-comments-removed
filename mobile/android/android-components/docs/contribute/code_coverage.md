@@ -121,7 +121,7 @@ For
 pull
 requests
 and
-master
+main
 pushes
 we
 generate

@@ -323,7 +323,7 @@ services
 /
 tree
 /
-master
+main
 /
 docs
 /
@@ -2014,7 +2014,7 @@ services
 /
 tree
 /
-master
+main
 /
 logins
 -
@@ -2022,7 +2022,7 @@ sql
 /
 tree
 /
-master
+main
 /
 logins
 -
@@ -2058,7 +2058,7 @@ services
 /
 tree
 /
-master
+main
 /
 logins
 -

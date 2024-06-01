@@ -297,7 +297,7 @@ components
 /
 blob
 /
-master
+main
 /
 buildSrc
 /

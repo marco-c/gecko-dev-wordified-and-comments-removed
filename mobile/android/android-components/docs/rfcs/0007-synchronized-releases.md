@@ -111,7 +111,7 @@ GeckoView
 *
 Having
 the
-master
+main
 branch
 track
 only
@@ -388,7 +388,7 @@ gecko
 )
 and
 on
-master
+main
 it
 will
 track
@@ -479,7 +479,7 @@ continue
 to
 have
 a
-master
+main
 branch
 which
 will
@@ -525,7 +525,7 @@ that
 we
 cut
 from
-master
+main
 the
 day
 the
@@ -594,7 +594,7 @@ the
 GeckoView
 version
 while
-master
+main
 will
 move
 on
@@ -674,7 +674,7 @@ GeckoView
 )
 .
 The
-master
+main
 branch
 of
 Android
@@ -727,7 +727,7 @@ too
 .
 *
 On
-master
+main
 a
 bot
 will
@@ -749,7 +749,7 @@ other
 version
 bumps
 on
-master
+main
 are
 needed
 .
@@ -919,7 +919,7 @@ Frequently
 import
 strings
 to
-master
+main
 through
 the
 mozilla
@@ -932,7 +932,7 @@ bot
 Sync
 strings
 from
-master
+main
 to
 releases_v89
 .
@@ -957,7 +957,7 @@ For
 the
 import
 to
-master
+main
 no
 changes
 are
@@ -968,7 +968,7 @@ the
 string
 sync
 between
-master
+main
 and
 the
 _Beta
@@ -1201,7 +1201,7 @@ trains
 png
 )
 *
-master
+main
 tracks
 GeckoView
 Nightly
@@ -1225,7 +1225,7 @@ x
 Nightly
 versions
 from
-master
+main
 every
 day
 *
@@ -1258,7 +1258,7 @@ Beta
 version
 .
 *
-master
+main
 continues
 with
 the

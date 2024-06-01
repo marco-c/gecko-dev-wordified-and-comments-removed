@@ -226,7 +226,7 @@ components
 /
 tree
 /
-master
+main
 /
 samples
 /
@@ -265,7 +265,7 @@ components
 /
 tree
 /
-master
+main
 /
 samples
 /
@@ -312,7 +312,7 @@ components
 /
 tree
 /
-master
+main
 /
 components
 /
@@ -365,7 +365,7 @@ components
 /
 tree
 /
-master
+main
 /
 components
 /

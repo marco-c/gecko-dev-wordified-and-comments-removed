@@ -358,7 +358,7 @@ for
 every
 successfull
 *
-master
+main
 *
 merge
 .
@@ -779,7 +779,7 @@ components
 /
 tree
 /
-master
+main
 /
 components
 /

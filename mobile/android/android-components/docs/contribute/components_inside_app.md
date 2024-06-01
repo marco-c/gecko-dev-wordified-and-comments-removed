@@ -1113,7 +1113,7 @@ components
 /
 blob
 /
-master
+main
 /
 .
 buildconfig
@@ -1580,7 +1580,7 @@ build
 daily
 from
 the
-master
+main
 branch
 and
 published

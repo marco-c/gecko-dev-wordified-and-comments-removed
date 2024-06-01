@@ -64,7 +64,7 @@ components
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -435,7 +435,7 @@ components
 /
 blob
 /
-master
+main
 /
 .
 buildconfig
@@ -471,7 +471,7 @@ components
 /
 blob
 /
-master
+main
 /
 version
 .

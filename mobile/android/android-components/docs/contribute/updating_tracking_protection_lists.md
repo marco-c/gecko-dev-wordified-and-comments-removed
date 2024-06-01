@@ -128,7 +128,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /
@@ -629,7 +629,7 @@ merge
 day
 )
 where
-master
+main
 contains
 nightly
 '
@@ -1034,7 +1034,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /
@@ -1143,7 +1143,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /

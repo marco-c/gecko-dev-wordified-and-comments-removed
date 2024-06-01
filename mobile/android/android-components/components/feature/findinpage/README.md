@@ -475,7 +475,7 @@ components
 /
 tree
 /
-master
+main
 /
 samples
 /

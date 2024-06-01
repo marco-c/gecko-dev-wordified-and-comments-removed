@@ -259,7 +259,7 @@ components
 /
 tree
 /
-master
+main
 /
 components
 /
@@ -1382,7 +1382,7 @@ components
 /
 tree
 /
-master
+main
 /
 components
 /

@@ -58,7 +58,7 @@ v91
 .
 .
 .
-master
+main
 )
 *
 [
@@ -112,7 +112,7 @@ components
 /
 blob
 /
-master
+main
 /
 buildSrc
 /
@@ -149,7 +149,7 @@ components
 /
 blob
 /
-master
+main
 /
 buildSrc
 /
@@ -186,7 +186,7 @@ components
 /
 blob
 /
-master
+main
 /
 .
 config
@@ -482,7 +482,7 @@ v91
 .
 .
 .
-master
+main
 )
 *
 [
@@ -1663,7 +1663,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /
@@ -2311,7 +2311,7 @@ geckoview
 )
 .
 On
-master
+main
 this
 will
 be
@@ -15182,7 +15182,7 @@ components
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -29080,7 +29080,7 @@ v37
 .
 0
 /
-master
+main
 /
 buildSrc
 /
@@ -38021,7 +38021,7 @@ v22
 .
 .
 .
-master
+main
 )
 *
 [
@@ -52733,7 +52733,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /

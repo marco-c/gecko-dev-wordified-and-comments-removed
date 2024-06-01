@@ -937,7 +937,7 @@ refs
 /
 heads
 /
-master
+main
 "
 :
             
@@ -952,7 +952,7 @@ refs
 /
 heads
 /
-master
+main
 .
 Building
 every

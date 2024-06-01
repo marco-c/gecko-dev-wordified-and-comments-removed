@@ -117,7 +117,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /

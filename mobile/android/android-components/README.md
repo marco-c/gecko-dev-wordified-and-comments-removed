@@ -40,7 +40,7 @@ android
 -
 components
 /
-master
+main
 /
 badge
 .
@@ -80,7 +80,7 @@ android
 -
 components
 /
-master
+main
 /
 latest
 )
@@ -705,7 +705,7 @@ browser
 /
 blob
 /
-master
+main
 /
 build
 .
@@ -799,7 +799,7 @@ every
 day
 from
 the
-master
+main
 branch
 and
 published
@@ -4806,7 +4806,7 @@ components
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -4943,7 +4943,7 @@ docs
 /
 blob
 /
-master
+main
 /
 android
 /

@@ -228,7 +228,7 @@ Update
 GV
 (
 On
-Master
+Main
 )
 "
 uses
@@ -266,7 +266,7 @@ command
 :
 update
 -
-master
+main
 env
 :
 GITHUB_TOKEN

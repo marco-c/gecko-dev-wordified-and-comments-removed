@@ -104,7 +104,7 @@ components
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -156,7 +156,7 @@ docs
 /
 blob
 /
-master
+main
 /
 android
 /

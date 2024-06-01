@@ -215,7 +215,7 @@ components
 /
 blob
 /
-master
+main
 /
 README
 .

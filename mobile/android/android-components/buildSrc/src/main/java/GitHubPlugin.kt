@@ -128,7 +128,7 @@ val
 BASE_BRANCH_NAME
 =
 "
-master
+main
 "
 private
 const
