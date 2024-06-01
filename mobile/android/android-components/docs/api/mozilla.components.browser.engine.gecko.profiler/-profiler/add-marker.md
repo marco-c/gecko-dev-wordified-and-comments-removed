@@ -255,7 +255,7 @@ engine
 -
 gecko
 -
-nightly
+beta
 /
 src
 /
@@ -476,7 +476,7 @@ engine
 -
 gecko
 -
-nightly
+beta
 /
 src
 /
@@ -665,7 +665,7 @@ engine
 -
 gecko
 -
-nightly
+beta
 /
 src
 /
@@ -854,7 +854,7 @@ engine
 -
 gecko
 -
-nightly
+beta
 /
 src
 /
@@ -1011,7 +1011,7 @@ engine
 -
 gecko
 -
-nightly
+beta
 /
 src
 /

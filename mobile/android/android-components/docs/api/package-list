@@ -4998,6 +4998,15 @@ browser
 .
 state
 .
+search
+mozilla
+.
+components
+.
+browser
+.
+state
+.
 selector
 mozilla
 .

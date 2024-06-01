@@ -128,7 +128,7 @@ FennecSettingsMigrator
 .
 kt
 #
-L104
+L108
 )
 Successful
 setting

@@ -172,7 +172,7 @@ QrFragment
 .
 kt
 #
-L494
+L524
 )
 Returns
 a

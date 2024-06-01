@@ -73,9 +73,11 @@ mozilla
 .
 components
 .
-concept
+browser
 .
 engine
+.
+gecko
 .
 profiler
 /
@@ -143,7 +145,7 @@ GeckoEngine
 .
 kt
 #
-L481
+L484
 )
 Overrides
 [

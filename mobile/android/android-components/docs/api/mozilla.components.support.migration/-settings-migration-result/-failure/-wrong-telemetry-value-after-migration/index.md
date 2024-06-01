@@ -149,7 +149,7 @@ FennecSettingsMigrator
 .
 kt
 #
-L143
+L147
 )
 Wrong
 telemetry
