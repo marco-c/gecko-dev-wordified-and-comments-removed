@@ -381,6 +381,17 @@ getContext
 )
 )
 ;
+final
+Uri
+pageUri
+=
+Uri
+.
+parse
+(
+currentPageURL
+)
+;
 if
 (
 (
@@ -398,7 +409,7 @@ matcher
 matches
 (
 resourceUri
-currentPageURL
+pageUri
 )
 )
 {

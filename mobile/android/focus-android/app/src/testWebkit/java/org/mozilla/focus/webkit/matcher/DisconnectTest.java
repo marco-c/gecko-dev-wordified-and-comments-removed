@@ -289,6 +289,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -298,6 +302,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -323,6 +328,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -332,6 +341,7 @@ google
 .
 com
 "
+)
 )
 )
 ;
@@ -359,6 +369,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -368,6 +382,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -395,6 +410,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -404,6 +423,7 @@ google
 .
 com
 "
+)
 )
 )
 ;
@@ -431,6 +451,10 @@ com
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -440,6 +464,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -467,6 +492,10 @@ com
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -476,6 +505,7 @@ google
 .
 com
 "
+)
 )
 )
 ;
@@ -499,6 +529,10 @@ facebook
 fr
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -508,6 +542,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -531,6 +566,10 @@ facebook
 fr
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -540,6 +579,7 @@ facebook
 .
 com
 "
+)
 )
 )
 ;
@@ -643,6 +683,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -652,6 +696,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -677,6 +722,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -686,6 +735,7 @@ google
 .
 com
 "
+)
 )
 )
 ;
@@ -713,6 +763,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -722,6 +776,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -749,6 +804,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -758,6 +817,7 @@ google
 .
 com
 "
+)
 )
 )
 ;
@@ -785,6 +845,10 @@ com
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -794,6 +858,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -821,6 +886,10 @@ com
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -832,6 +901,7 @@ com
 "
 )
 )
+)
 ;
 assertFalse
 (
@@ -853,6 +923,10 @@ facebook
 fr
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -864,6 +938,7 @@ org
 "
 )
 )
+)
 ;
 assertFalse
 (
@@ -885,6 +960,10 @@ facebook
 fr
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -894,6 +973,7 @@ facebook
 .
 com
 "
+)
 )
 )
 ;
@@ -997,6 +1077,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1006,6 +1090,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -1031,6 +1116,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1040,6 +1129,7 @@ google
 .
 com
 "
+)
 )
 )
 ;
@@ -1067,6 +1157,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1076,6 +1170,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -1103,6 +1198,10 @@ com
 foobar
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1112,6 +1211,7 @@ google
 .
 com
 "
+)
 )
 )
 ;
@@ -1139,6 +1239,10 @@ com
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1148,6 +1252,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -1175,6 +1280,10 @@ com
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1186,6 +1295,7 @@ com
 "
 )
 )
+)
 ;
 assertFalse
 (
@@ -1207,6 +1317,10 @@ facebook
 fr
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1218,6 +1332,7 @@ org
 "
 )
 )
+)
 ;
 assertFalse
 (
@@ -1239,6 +1354,10 @@ facebook
 fr
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1248,6 +1367,7 @@ facebook
 .
 com
 "
+)
 )
 )
 ;

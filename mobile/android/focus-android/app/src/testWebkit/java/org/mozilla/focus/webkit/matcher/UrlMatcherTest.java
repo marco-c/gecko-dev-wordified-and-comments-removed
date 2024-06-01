@@ -174,6 +174,10 @@ random
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -183,6 +187,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -206,6 +211,10 @@ bcd
 random
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -215,6 +224,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -240,6 +250,10 @@ bcd
 random
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -249,6 +263,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -276,6 +291,10 @@ random
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -285,6 +304,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -310,6 +330,10 @@ bcd
 random
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -319,6 +343,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -346,6 +371,10 @@ random
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -355,6 +384,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -379,6 +409,10 @@ other
 random
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -388,6 +422,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -414,6 +449,10 @@ random
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -423,6 +462,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -449,6 +489,10 @@ other
 random
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -458,6 +502,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -486,6 +531,10 @@ random
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -495,6 +544,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -519,6 +569,10 @@ bcd
 specific
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -528,6 +582,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -554,6 +609,10 @@ specific
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -563,6 +622,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -589,6 +649,10 @@ bcd
 specific
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -598,6 +662,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -626,6 +691,10 @@ specific
 something
 "
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -635,6 +704,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;
@@ -1132,6 +1202,10 @@ parse
 (
 url
 )
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1143,6 +1217,7 @@ mozilla
 .
 org
 "
+)
 )
 )
 ;

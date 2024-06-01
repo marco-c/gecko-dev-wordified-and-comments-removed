@@ -359,7 +359,6 @@ startsWith
 (
 "
 http
-:
 "
 )
 |
@@ -370,7 +369,6 @@ startsWith
 (
 "
 https
-:
 "
 )
 |
@@ -381,7 +379,6 @@ startsWith
 (
 "
 file
-:
 "
 )
 |
@@ -392,7 +389,6 @@ startsWith
 (
 "
 data
-:
 "
 )
 ;
@@ -420,7 +416,6 @@ startsWith
 (
 "
 error
-:
 "
 )
 ;
