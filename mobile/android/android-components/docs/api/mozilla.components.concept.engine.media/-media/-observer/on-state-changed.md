@@ -194,5 +194,13 @@ Media
 .
 kt
 #
-L49
+L55
 )
+Notify
+the
+observer
+that
+media
+state
+changed
+.

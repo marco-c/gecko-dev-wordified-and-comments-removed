@@ -194,5 +194,13 @@ Media
 .
 kt
 #
-L51
+L59
 )
+Notify
+the
+observer
+that
+media
+metadata
+changed
+.

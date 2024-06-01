@@ -198,5 +198,14 @@ Media
 .
 kt
 #
-L50
+L57
 )
+Notify
+the
+observer
+that
+media
+playback
+state
+changed
+.

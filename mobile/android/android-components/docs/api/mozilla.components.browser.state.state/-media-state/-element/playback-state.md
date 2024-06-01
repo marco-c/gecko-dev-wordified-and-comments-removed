@@ -166,11 +166,13 @@ MediaState
 .
 kt
 #
-L44
+L45
 )
 The
 current
 [
+Media
+.
 PlaybackState
 ]
 (
@@ -219,6 +221,8 @@ playbackState
 The
 current
 [
+Media
+.
 PlaybackState
 ]
 (
