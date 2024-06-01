@@ -172,6 +172,13 @@ raymondhill
 net
 "
 )
+VisibleForTesting
+internal
+const
+val
+AMO_READ_TIMEOUT_IN_SECONDS
+=
+5L
 /
 *
 *
@@ -672,6 +679,9 @@ addonCollectionProvider
 .
 getAvailableAddons
 (
+readTimeoutInSeconds
+=
+AMO_READ_TIMEOUT_IN_SECONDS
 )
 .
 mapNotNull
