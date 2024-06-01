@@ -97,7 +97,7 @@ version
 .
 0
 .
-20220502094329
+20220502145843
 "
 /
 *
@@ -112,7 +112,7 @@ channel
 =
 GeckoChannel
 .
-NIGHTLY
+BETA
 }
 /
 *
