@@ -14,7 +14,7 @@ target_tasks_method
 "
 :
 "
-nightly
+release
 "
 "
 tasks_for
