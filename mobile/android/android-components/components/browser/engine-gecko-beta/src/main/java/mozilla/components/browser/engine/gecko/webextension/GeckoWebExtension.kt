@@ -123,6 +123,16 @@ concept
 .
 engine
 .
+Settings
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
 webextension
 .
 Action
@@ -1463,6 +1473,10 @@ registerTabHandler
 tabHandler
 :
 TabHandler
+defaultSettings
+:
+Settings
+?
 )
 {
 val
@@ -1500,6 +1514,9 @@ geckoEngineSession
 GeckoEngineSession
 (
 runtime
+defaultSettings
+=
+defaultSettings
 openGeckoSession
 =
 false
@@ -1565,6 +1582,9 @@ GeckoWebExtension
 GeckoEngineSession
 (
 runtime
+defaultSettings
+=
+defaultSettings
 )
 false
 optionsPageUrl

@@ -4252,9 +4252,13 @@ never
 .
 registerTabHandler
 (
+session
+=
 any
 (
 )
+tabHandler
+=
 any
 (
 )

@@ -861,6 +861,9 @@ extension
 GeckoEngineSession
 (
 runtime
+defaultSettings
+=
+defaultSettings
 )
 action
 )
@@ -1611,6 +1614,7 @@ installedExtension
 registerTabHandler
 (
 webExtensionTabHandler
+defaultSettings
 )
 onSuccess
 (
@@ -1915,6 +1919,7 @@ it
 registerTabHandler
 (
 webExtensionTabHandler
+defaultSettings
 )
 }
 }
@@ -2285,6 +2290,7 @@ extension
 registerTabHandler
 (
 webExtensionTabHandler
+defaultSettings
 )
 }
 onSuccess
