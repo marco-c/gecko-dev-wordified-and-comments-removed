@@ -101,6 +101,16 @@ mozilla
 .
 components
 .
+browser
+.
+thumbnails
+.
+ThumbnailsUseCases
+import
+mozilla
+.
+components
+.
 concept
 .
 tabstray
@@ -191,6 +201,12 @@ well
 .
 *
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 TabsFeature
 (
@@ -205,6 +221,9 @@ BrowserStore
 tabsUseCases
 :
 TabsUseCases
+thumbnailsUseCases
+:
+ThumbnailsUseCases
 private
 val
 defaultTabsFilter
@@ -239,6 +258,7 @@ TabsTrayPresenter
 (
 tabsTray
 store
+thumbnailsUseCases
 defaultTabsFilter
 closeTabsTray
 )

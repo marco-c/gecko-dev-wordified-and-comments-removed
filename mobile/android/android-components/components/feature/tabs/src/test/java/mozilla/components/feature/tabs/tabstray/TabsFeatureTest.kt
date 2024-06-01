@@ -236,6 +236,9 @@ mock
 mock
 (
 )
+mock
+(
+)
 )
 )
 assertNotEquals
@@ -335,6 +338,9 @@ mock
 )
 store
 useCases
+mock
+(
+)
 mock
 (
 )
@@ -433,6 +439,9 @@ mock
 )
 store
 useCases
+mock
+(
+)
 mock
 (
 )
@@ -531,6 +540,9 @@ mock
 )
 store
 useCases
+mock
+(
+)
 mock
 (
 )
@@ -658,6 +670,9 @@ mock
 )
 store
 useCases
+mock
+(
+)
 filter
 mock
 (

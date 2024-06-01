@@ -191,6 +191,16 @@ browser
 session
 '
 )
+implementation
+project
+(
+'
+:
+browser
+-
+thumbnails
+'
+)
 api
 project
 (
