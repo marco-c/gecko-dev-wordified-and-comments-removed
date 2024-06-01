@@ -173,6 +173,12 @@ SessionState
 private
 const
 val
+EXPANDED_TITLE_MAX_LINES
+=
+15
+private
+const
+val
 KEY_TITLE
 =
 "
@@ -425,6 +431,12 @@ apply
 text
 =
 title
+setOnClickListener
+{
+maxLines
+=
+EXPANDED_TITLE_MAX_LINES
+}
 }
 }
 SuppressLint
