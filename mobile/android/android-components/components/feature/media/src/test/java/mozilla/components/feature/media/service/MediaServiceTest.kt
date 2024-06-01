@@ -129,9 +129,7 @@ feature
 .
 media
 .
-state
-.
-MediaStateMachine
+MockMedia
 import
 mozilla
 .
@@ -143,7 +141,7 @@ media
 .
 state
 .
-MockMedia
+MediaStateMachine
 import
 mozilla
 .
