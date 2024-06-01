@@ -114,6 +114,17 @@ lib
 fetch
 -
 httpurlconnection
+feature
+-
+webcompat
+-
+report
+:
+feature
+-
+webcompat
+-
+reporter
 task
 -
 priority
