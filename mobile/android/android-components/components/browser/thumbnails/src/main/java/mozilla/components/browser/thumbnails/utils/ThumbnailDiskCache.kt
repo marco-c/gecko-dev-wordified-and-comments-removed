@@ -109,7 +109,17 @@ support
 .
 images
 .
-ImageRequest
+ImageLoadRequest
+import
+mozilla
+.
+components
+.
+support
+.
+images
+.
+ImageSaveRequest
 import
 java
 .
@@ -251,7 +261,7 @@ Context
 param
 request
 [
-ImageRequest
+ImageLoadRequest
 ]
 providing
 the
@@ -297,7 +307,7 @@ context
 Context
 request
 :
-ImageRequest
+ImageLoadRequest
 )
 :
 ByteArray
@@ -405,7 +415,7 @@ Context
 param
 request
 [
-ImageRequest
+ImageSaveRequest
 ]
 providing
 the
@@ -441,7 +451,7 @@ context
 Context
 request
 :
-ImageRequest
+ImageSaveRequest
 bitmap
 :
 Bitmap
@@ -465,8 +475,6 @@ context
 edit
 (
 request
-.
-id
 )
 ?
 :

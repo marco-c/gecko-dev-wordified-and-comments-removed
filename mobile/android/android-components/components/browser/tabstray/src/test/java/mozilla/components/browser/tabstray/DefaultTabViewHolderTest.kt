@@ -147,7 +147,7 @@ support
 .
 images
 .
-ImageRequest
+ImageLoadRequest
 import
 mozilla
 .
@@ -1344,11 +1344,12 @@ any
 )
 eq
 (
-ImageRequest
+ImageLoadRequest
 (
 "
 123
 "
+100
 )
 )
 nullable
@@ -1380,11 +1381,12 @@ any
 )
 eq
 (
-ImageRequest
+ImageLoadRequest
 (
 "
 123
 "
+100
 )
 )
 nullable

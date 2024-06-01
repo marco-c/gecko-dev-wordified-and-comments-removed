@@ -157,7 +157,7 @@ support
 .
 images
 .
-ImageRequest
+ImageLoadRequest
 import
 mozilla
 .
@@ -220,7 +220,7 @@ view
 ImageView
 request
 :
-ImageRequest
+ImageLoadRequest
 placeholder
 :
 Drawable
@@ -266,7 +266,7 @@ ImageView
 >
 request
 :
-ImageRequest
+ImageLoadRequest
 placeholder
 :
 Drawable

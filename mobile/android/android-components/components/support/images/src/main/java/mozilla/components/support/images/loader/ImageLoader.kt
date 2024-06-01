@@ -95,7 +95,7 @@ support
 .
 images
 .
-ImageRequest
+ImageLoadRequest
 /
 *
 *
@@ -175,7 +175,7 @@ into
 param
 request
 [
-ImageRequest
+ImageLoadRequest
 ]
 Load
 image
@@ -220,7 +220,7 @@ view
 ImageView
 request
 :
-ImageRequest
+ImageLoadRequest
 placeholder
 :
 Drawable

@@ -93,7 +93,7 @@ support
 .
 images
 .
-ImageRequest
+ImageLoadRequest
 import
 mozilla
 .
@@ -209,11 +209,12 @@ ThumbnailDiskCache
 val
 request
 =
-ImageRequest
+ImageLoadRequest
 (
 "
 123
 "
+100
 )
 val
 bitmap
@@ -316,6 +317,8 @@ putThumbnailBitmap
 (
 testContext
 request
+.
+id
 bitmap
 )
 val
@@ -367,11 +370,12 @@ ThumbnailDiskCache
 val
 request
 =
-ImageRequest
+ImageLoadRequest
 (
 "
 123
 "
+100
 )
 val
 bitmap
@@ -387,6 +391,8 @@ putThumbnailBitmap
 (
 testContext
 request
+.
+id
 bitmap
 )
 var
@@ -447,11 +453,12 @@ ThumbnailDiskCache
 val
 request
 =
-ImageRequest
+ImageLoadRequest
 (
 "
 123
 "
+100
 )
 val
 bitmap
@@ -467,6 +474,8 @@ putThumbnailBitmap
 (
 testContext
 request
+.
+id
 bitmap
 )
 var
