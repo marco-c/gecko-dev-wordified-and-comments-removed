@@ -543,7 +543,7 @@ applicationContext
 !
 components
 .
-sessionManager
+store
 components
 .
 sessionUseCases
