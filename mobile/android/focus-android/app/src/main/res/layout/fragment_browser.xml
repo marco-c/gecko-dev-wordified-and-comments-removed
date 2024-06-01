@@ -622,8 +622,9 @@ app
 backgroundTint
 =
 "
-#
-FF00A4DC
+color
+/
+colorFloatingActionButtonTint
 "
 app
 :
