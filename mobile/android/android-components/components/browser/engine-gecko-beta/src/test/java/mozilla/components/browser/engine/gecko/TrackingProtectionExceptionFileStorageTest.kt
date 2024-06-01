@@ -976,7 +976,6 @@ activeSessions
 List
 <
 EngineSession
-?
 >
 =
 listOf

@@ -642,7 +642,6 @@ activeSessions
 List
 <
 EngineSession
-?
 >
 ?
 )
@@ -659,8 +658,10 @@ activeSessions
 .
 forEach
 {
-it
-?
+engineSession
+-
+>
+engineSession
 .
 notifyObservers
 {
