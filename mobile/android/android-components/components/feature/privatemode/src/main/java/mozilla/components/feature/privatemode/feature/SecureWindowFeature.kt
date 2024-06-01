@@ -379,5 +379,11 @@ scope
 cancel
 (
 )
+window
+.
+clearFlags
+(
+FLAG_SECURE
+)
 }
 }
