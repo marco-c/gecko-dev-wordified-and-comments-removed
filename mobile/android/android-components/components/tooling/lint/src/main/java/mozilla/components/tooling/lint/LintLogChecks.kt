@@ -471,17 +471,5 @@ JAVA_FILE
 )
 )
 )
-val
-issues
-:
-List
-<
-Issue
->
-=
-listOf
-(
-ISSUE_LOG_USAGE
-)
 }
 }

@@ -157,7 +157,16 @@ List
 Issue
 >
 =
+listOf
+(
 LintLogChecks
 .
-issues
+ISSUE_LOG_USAGE
+AndroidSrcXmlDetector
+.
+ISSUE_XML_SRC_USAGE
+TextViewAndroidSrcXmlDetector
+.
+ISSUE_XML_SRC_USAGE
+)
 }
