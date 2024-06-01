@@ -538,7 +538,7 @@ max
 (
 )
 =
-maxByOrNull
+maxBy
 {
 /
 /

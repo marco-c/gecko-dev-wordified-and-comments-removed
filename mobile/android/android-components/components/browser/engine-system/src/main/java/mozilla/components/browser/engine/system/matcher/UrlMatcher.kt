@@ -1270,6 +1270,8 @@ whiteList
 :
 WhiteList
 ?
+=
+null
 JsonReader
 (
 white

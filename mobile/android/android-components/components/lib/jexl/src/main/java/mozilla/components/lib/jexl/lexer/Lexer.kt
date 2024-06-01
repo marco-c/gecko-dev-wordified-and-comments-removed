@@ -722,7 +722,7 @@ it
 length
 }
 .
-maxOrNull
+max
 (
 )
 ?

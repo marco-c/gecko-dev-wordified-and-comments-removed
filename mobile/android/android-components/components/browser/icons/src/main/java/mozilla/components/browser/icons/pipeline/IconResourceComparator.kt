@@ -622,7 +622,7 @@ size
 minLength
 }
 .
-maxOrNull
+max
 (
 )
 ?

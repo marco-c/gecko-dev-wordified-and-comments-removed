@@ -213,7 +213,7 @@ x
 y
 }
 .
-minByOrNull
+minBy
 {
 (
 x
@@ -356,7 +356,7 @@ downScaledY
 maxSize
 }
 .
-minByOrNull
+minBy
 {
 (
 x
@@ -463,7 +463,7 @@ upscaledY
 maxSize
 }
 .
-maxByOrNull
+maxBy
 {
 (
 x

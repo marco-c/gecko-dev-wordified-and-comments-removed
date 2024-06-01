@@ -226,13 +226,6 @@ Widgets
 .
 Favicon
 "
-tools
-:
-ignore
-=
-"
-RequiredSize
-"
 android
 :
 layout_alignParentStart

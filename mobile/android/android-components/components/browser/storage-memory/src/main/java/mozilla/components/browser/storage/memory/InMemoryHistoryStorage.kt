@@ -879,7 +879,7 @@ maxScore
 =
 urlMatches
 .
-maxByOrNull
+maxBy
 {
 it
 .
@@ -985,7 +985,6 @@ synchronized
 pages
 )
 {
-return
 segmentAwareDomainMatch
 (
 query
@@ -1000,6 +999,7 @@ let
 urlMatch
 -
 >
+return
 HistoryAutocompleteResult
 (
 query

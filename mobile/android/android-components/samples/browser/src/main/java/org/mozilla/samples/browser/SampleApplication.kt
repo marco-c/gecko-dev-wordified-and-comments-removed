@@ -121,6 +121,16 @@ mozilla
 .
 components
 .
+concept
+.
+fetch
+.
+Client
+import
+mozilla
+.
+components
+.
 feature
 .
 addons
@@ -372,6 +382,8 @@ lazy
 HttpURLConnectionClient
 (
 )
+as
+Client
 }
 )
 val
