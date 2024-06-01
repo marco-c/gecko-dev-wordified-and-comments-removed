@@ -19,7 +19,7 @@ identityHash
 "
 :
 "
-a57788de8a7351e0bdaf5a2044489dcf
+4c6cae8272b2580de8cb444de31f27d5
 "
 "
 entities
@@ -61,7 +61,7 @@ url
 TEXT
 NOT
 NULL
-isDefault
+is_default
 INTEGER
 NOT
 NULL
@@ -173,7 +173,7 @@ columnName
 "
 :
 "
-isDefault
+is_default
 "
 "
 affinity
@@ -292,7 +292,7 @@ VALUES
 (
 42
 '
-a57788de8a7351e0bdaf5a2044489dcf
+4c6cae8272b2580de8cb444de31f27d5
 '
 )
 "
