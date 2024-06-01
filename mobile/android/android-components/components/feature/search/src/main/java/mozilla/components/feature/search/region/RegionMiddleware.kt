@@ -315,6 +315,13 @@ if
 action
 is
 InitAction
+|
+|
+action
+is
+SearchAction
+.
+RefreshSearchEnginesAction
 )
 {
 updateJob
