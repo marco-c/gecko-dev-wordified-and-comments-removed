@@ -103,7 +103,7 @@ first
 )
 :
 [
-TimingDistributionData
+FunctionalHistogram
 ]
 (
 .
@@ -120,14 +120,12 @@ service
 .
 glean
 .
-storages
+histogram
 /
 -
-timing
+functional
 -
-distribution
--
-data
+histogram
 /
 index
 .

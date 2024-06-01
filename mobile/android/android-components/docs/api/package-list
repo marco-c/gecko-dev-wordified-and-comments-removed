@@ -4075,6 +4075,15 @@ service
 .
 glean
 .
+histogram
+mozilla
+.
+components
+.
+service
+.
+glean
+.
 private
 mozilla
 .

@@ -70,7 +70,7 @@ index
 md
 )
 [
-HistogramBase
+HistogramMetricBase
 ]
 (
 .
@@ -78,6 +78,8 @@ HistogramBase
 /
 -
 histogram
+-
+metric
 -
 base
 /
@@ -1371,7 +1373,7 @@ first
 )
 :
 [
-TimingDistributionData
+FunctionalHistogram
 ]
 (
 .
@@ -1388,14 +1390,12 @@ service
 .
 glean
 .
-storages
+histogram
 /
 -
-timing
+functional
 -
-distribution
--
-data
+histogram
 /
 index
 .

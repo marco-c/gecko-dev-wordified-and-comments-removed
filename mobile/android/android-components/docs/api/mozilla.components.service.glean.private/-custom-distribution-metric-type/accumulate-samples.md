@@ -181,7 +181,7 @@ L53
 )
 Overrides
 [
-HistogramBase
+HistogramMetricBase
 .
 accumulateSamples
 ]
@@ -191,6 +191,8 @@ accumulateSamples
 /
 -
 histogram
+-
+metric
 -
 base
 /

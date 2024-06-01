@@ -103,7 +103,7 @@ first
 )
 :
 [
-CustomDistributionData
+PrecomputedHistogram
 ]
 (
 .
@@ -120,14 +120,12 @@ service
 .
 glean
 .
-storages
+histogram
 /
 -
-custom
+precomputed
 -
-distribution
--
-data
+histogram
 /
 index
 .
