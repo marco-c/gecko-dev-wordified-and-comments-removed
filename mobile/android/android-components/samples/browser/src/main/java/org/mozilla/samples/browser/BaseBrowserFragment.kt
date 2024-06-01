@@ -887,7 +887,7 @@ store
 components
 .
 store
-sessionId
+customTabId
 =
 sessionId
 fragmentManager
