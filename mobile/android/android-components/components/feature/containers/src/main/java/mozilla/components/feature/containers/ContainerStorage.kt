@@ -174,12 +174,6 @@ containers
 db
 .
 toContainerEntity
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -205,6 +199,10 @@ context
 :
 Context
 )
+:
+ContainerMiddleware
+.
+Storage
 {
 VisibleForTesting
 internal
@@ -252,6 +250,7 @@ Container
 .
 *
 /
+override
 suspend
 fun
 addContainer
@@ -259,16 +258,6 @@ addContainer
 contextId
 :
 String
-=
-UUID
-.
-randomUUID
-(
-)
-.
-toString
-(
-)
 name
 :
 String
@@ -321,6 +310,7 @@ instances
 .
 *
 /
+override
 fun
 getContainers
 (
@@ -425,6 +415,7 @@ Container
 .
 *
 /
+override
 suspend
 fun
 removeContainer

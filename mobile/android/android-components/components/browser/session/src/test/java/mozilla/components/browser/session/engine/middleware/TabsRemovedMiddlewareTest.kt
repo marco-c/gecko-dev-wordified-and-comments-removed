@@ -349,14 +349,6 @@ mockito
 .
 Mockito
 .
-spy
-import
-org
-.
-mockito
-.
-Mockito
-.
 verify
 RunWith
 (
@@ -443,8 +435,6 @@ id
 val
 store
 =
-spy
-(
 BrowserStore
 (
 initialState
@@ -465,7 +455,6 @@ listOf
 middleware
 ConsumeRemoveTabActionsMiddleware
 (
-)
 )
 )
 )
@@ -637,8 +626,6 @@ true
 val
 store
 =
-spy
-(
 BrowserStore
 (
 initialState
@@ -661,7 +648,6 @@ listOf
 middleware
 ConsumeRemoveTabActionsMiddleware
 (
-)
 )
 )
 )
@@ -905,8 +891,6 @@ false
 val
 store
 =
-spy
-(
 BrowserStore
 (
 initialState
@@ -929,7 +913,6 @@ listOf
 middleware
 ConsumeRemoveTabActionsMiddleware
 (
-)
 )
 )
 )
@@ -1169,8 +1152,6 @@ id
 val
 store
 =
-spy
-(
 BrowserStore
 (
 initialState
@@ -1198,7 +1179,6 @@ listOf
 middleware
 ConsumeRemoveTabActionsMiddleware
 (
-)
 )
 )
 )
@@ -1388,8 +1368,6 @@ id
 val
 store
 =
-spy
-(
 BrowserStore
 (
 initialState
@@ -1410,7 +1388,6 @@ listOf
 middleware
 ConsumeRemoveTabActionsMiddleware
 (
-)
 )
 )
 )
@@ -1573,8 +1550,6 @@ id
 val
 store
 =
-spy
-(
 BrowserStore
 (
 initialState
@@ -1602,7 +1577,6 @@ listOf
 middleware
 ConsumeRemoveTabActionsMiddleware
 (
-)
 )
 )
 )

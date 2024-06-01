@@ -274,12 +274,6 @@ org
 mockito
 .
 Mockito
-import
-org
-.
-mockito
-.
-Mockito
 .
 never
 import
@@ -388,10 +382,6 @@ mock
 )
 store
 =
-Mockito
-.
-spy
-(
 BrowserStore
 (
 middleware
@@ -608,7 +598,6 @@ selectedTabId
 "
 reddit
 "
-)
 )
 )
 }
