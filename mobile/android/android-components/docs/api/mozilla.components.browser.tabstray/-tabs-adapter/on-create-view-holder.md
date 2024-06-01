@@ -60,6 +60,7 @@ md
 )
 #
 onCreateViewHolder
+open
 fun
 onCreateViewHolder
 (

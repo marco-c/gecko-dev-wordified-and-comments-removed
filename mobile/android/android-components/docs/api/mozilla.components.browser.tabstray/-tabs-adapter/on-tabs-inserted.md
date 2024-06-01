@@ -58,6 +58,7 @@ md
 )
 #
 onTabsInserted
+open
 fun
 onTabsInserted
 (

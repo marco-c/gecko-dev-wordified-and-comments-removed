@@ -60,6 +60,7 @@ md
 )
 #
 onBindViewHolder
+open
 fun
 onBindViewHolder
 (

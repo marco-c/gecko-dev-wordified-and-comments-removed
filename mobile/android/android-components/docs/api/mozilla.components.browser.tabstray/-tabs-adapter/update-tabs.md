@@ -56,6 +56,7 @@ md
 )
 #
 updateTabs
+open
 fun
 updateTabs
 (

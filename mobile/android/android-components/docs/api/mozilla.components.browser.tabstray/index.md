@@ -253,6 +253,7 @@ index
 md
 )
 |
+open
 class
 TabsAdapter
 :

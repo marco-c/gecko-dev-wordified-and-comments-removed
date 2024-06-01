@@ -45,6 +45,7 @@ md
 )
 #
 TabsAdapter
+open
 class
 TabsAdapter
 :
@@ -451,6 +452,7 @@ count
 md
 )
 |
+open
 fun
 getItemCount
 (
@@ -502,6 +504,7 @@ holder
 md
 )
 |
+open
 fun
 onBindViewHolder
 (
@@ -604,6 +607,7 @@ holder
 md
 )
 |
+open
 fun
 onCreateViewHolder
 (
@@ -679,6 +683,7 @@ changed
 md
 )
 |
+open
 fun
 onTabsChanged
 (
@@ -810,6 +815,7 @@ inserted
 md
 )
 |
+open
 fun
 onTabsInserted
 (
@@ -941,6 +947,7 @@ moved
 md
 )
 |
+open
 fun
 onTabsMoved
 (
@@ -1067,6 +1074,7 @@ removed
 md
 )
 |
+open
 fun
 onTabsRemoved
 (
@@ -1196,6 +1204,7 @@ tabs
 md
 )
 |
+open
 fun
 updateTabs
 (
