@@ -1,8 +1,6 @@
 import
 logging
 import
-os
-import
 re
 import
 subprocess
@@ -10,10 +8,6 @@ from
 collections
 import
 defaultdict
-from
-copy
-import
-deepcopy
 from
 taskgraph
 .
@@ -30,14 +24,6 @@ import
 loader
 as
 base_loader
-from
-taskgraph
-.
-util
-.
-taskcluster
-import
-get_session
 from
 taskgraph
 .
@@ -235,10 +221,6 @@ android
 components
 "
 )
-}
-cached_deps
-=
-{
 }
 def
 get_upstream_deps_for_components
