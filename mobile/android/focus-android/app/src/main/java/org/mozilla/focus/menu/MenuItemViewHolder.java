@@ -30,17 +30,6 @@ focus
 .
 R
 ;
-import
-org
-.
-mozilla
-.
-focus
-.
-fragment
-.
-BrowserFragment
-;
 class
 MenuItemViewHolder
 extends

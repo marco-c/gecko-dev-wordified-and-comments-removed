@@ -24,13 +24,6 @@ pm
 PackageManager
 ;
 import
-android
-.
-os
-.
-Build
-;
-import
 org
 .
 mozilla

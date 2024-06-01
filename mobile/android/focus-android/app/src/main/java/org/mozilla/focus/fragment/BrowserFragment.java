@@ -210,13 +210,6 @@ TextUtils
 import
 android
 .
-util
-.
-Log
-;
-import
-android
-.
 view
 .
 LayoutInflater
@@ -255,13 +248,6 @@ android
 webkit
 .
 CookieManager
-;
-import
-android
-.
-webkit
-.
-URLUtil
 ;
 import
 android

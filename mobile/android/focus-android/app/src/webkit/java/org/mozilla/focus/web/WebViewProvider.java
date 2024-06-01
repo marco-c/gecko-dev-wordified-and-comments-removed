@@ -110,7 +110,7 @@ focus
 .
 webkit
 .
-TrackingProtectionWebViewClient
+SystemWebView
 ;
 import
 org
@@ -121,7 +121,7 @@ focus
 .
 webkit
 .
-SystemWebView
+TrackingProtectionWebViewClient
 ;
 public
 class

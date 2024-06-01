@@ -26,7 +26,7 @@ junit
 .
 Assert
 .
-*
+assertEquals
 ;
 public
 class

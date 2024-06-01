@@ -119,7 +119,7 @@ junit
 .
 Assert
 .
-*
+assertNull
 ;
 import
 static

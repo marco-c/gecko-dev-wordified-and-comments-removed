@@ -59,7 +59,7 @@ junit
 .
 Assert
 .
-*
+assertEquals
 ;
 import
 static
