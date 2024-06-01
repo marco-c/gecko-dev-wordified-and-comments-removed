@@ -103,14 +103,6 @@ core
 .
 view
 .
-ViewCompat
-import
-androidx
-.
-core
-.
-view
-.
 WindowInsetsControllerCompat
 import
 mozilla
@@ -167,7 +159,6 @@ Int
 getWindowInsetsController
 (
 )
-?
 .
 isAppearanceLightStatusBars
 =
@@ -222,7 +213,6 @@ Int
 getWindowInsetsController
 (
 )
-?
 .
 isAppearanceLightNavigationBars
 =
@@ -279,13 +269,11 @@ getWindowInsetsController
 )
 :
 WindowInsetsControllerCompat
-?
 {
 return
-ViewCompat
-.
-getWindowInsetsController
+WindowInsetsControllerCompat
 (
+this
 this
 .
 decorView
