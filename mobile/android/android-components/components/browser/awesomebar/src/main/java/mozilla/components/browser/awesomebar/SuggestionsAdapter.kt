@@ -183,6 +183,12 @@ internal
 class
 SuggestionsAdapter
 (
+Suppress
+(
+"
+DEPRECATION
+"
+)
 private
 val
 awesomeBar

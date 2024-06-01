@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+file
+:
+Suppress
+(
+"
+DEPRECATION
+"
+)
 package
 mozilla
 .
@@ -697,6 +705,12 @@ internal
 class
 Chips
 (
+Suppress
+(
+"
+DEPRECATION
+"
+)
 private
 val
 awesomeBar
