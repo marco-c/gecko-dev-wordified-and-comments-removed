@@ -1459,7 +1459,7 @@ searchTerms
 searchEngine
 =
 null
-parentSession
+parentSessionId
 =
 null
 )
