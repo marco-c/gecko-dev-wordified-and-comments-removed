@@ -689,12 +689,11 @@ titleColor
 readableColor
 toolbar
 .
-setSiteSecurityColor
-(
+siteSecurityColor
+=
 readableColor
 to
 readableColor
-)
 toolbar
 .
 menuViewColor
