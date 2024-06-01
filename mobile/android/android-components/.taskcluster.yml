@@ -767,11 +767,9 @@ then
 if
 :
 '
-{
 push
 .
 branch
-}
 [
 :
 11
@@ -802,13 +800,11 @@ branch
 }
 else
 :
-'
 {
 push
 .
 branch
 }
-'
 base_sha
 :
 if
