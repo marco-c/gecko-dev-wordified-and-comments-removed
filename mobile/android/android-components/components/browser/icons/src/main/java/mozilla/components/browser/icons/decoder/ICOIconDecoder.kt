@@ -222,6 +222,7 @@ Bitmap
 val
 (
 targetSize
+_
 maxSize
 maxScaleFactor
 )

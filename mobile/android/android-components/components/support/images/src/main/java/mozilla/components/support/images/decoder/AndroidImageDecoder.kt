@@ -285,7 +285,8 @@ Boolean
 {
 val
 (
-targetSize
+_
+minSize
 maxSize
 maxScaleFactor
 )
@@ -342,7 +343,7 @@ height
 *
 maxScaleFactor
 <
-targetSize
+minSize
 -
 >
 {

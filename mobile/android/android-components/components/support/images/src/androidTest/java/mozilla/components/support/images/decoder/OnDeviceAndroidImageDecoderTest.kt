@@ -135,6 +135,9 @@ DesiredSize
 targetSize
 =
 32
+minSize
+=
+32
 maxSize
 =
 256
@@ -198,6 +201,9 @@ gif
 DesiredSize
 (
 targetSize
+=
+64
+minSize
 =
 64
 maxSize
@@ -269,6 +275,9 @@ DesiredSize
 targetSize
 =
 64
+minSize
+=
+64
 maxSize
 =
 512
@@ -334,6 +343,9 @@ DesiredSize
 targetSize
 =
 64
+minSize
+=
+64
 maxSize
 =
 256
@@ -397,6 +409,9 @@ webp
 DesiredSize
 (
 targetSize
+=
+64
+minSize
 =
 64
 maxSize

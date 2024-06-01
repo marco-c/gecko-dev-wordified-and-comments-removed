@@ -599,6 +599,11 @@ targetSize
 request
 .
 size
+minSize
+=
+request
+.
+size
 maxSize
 =
 maximumSize

@@ -198,6 +198,7 @@ val
 (
 targetSize
 _
+_
 maxScaleFactor
 )
 =

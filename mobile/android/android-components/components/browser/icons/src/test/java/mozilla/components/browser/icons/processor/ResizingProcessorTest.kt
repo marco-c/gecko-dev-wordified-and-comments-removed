@@ -330,6 +330,7 @@ desiredSize
 DesiredSize
 (
 64
+64
 100
 3f
 )
@@ -429,6 +430,7 @@ desiredSize
 =
 DesiredSize
 (
+64
 64
 64
 3f
@@ -532,6 +534,7 @@ desiredSize
 =
 DesiredSize
 (
+64
 64
 70
 3f
@@ -830,6 +833,7 @@ DesiredSize
 =
 DesiredSize
 (
+96
 96
 1000
 3f

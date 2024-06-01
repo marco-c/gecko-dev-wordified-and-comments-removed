@@ -338,6 +338,7 @@ icon
 DesiredSize
 (
 192
+192
 256
 2
 .
@@ -398,6 +399,7 @@ decode
 icon
 DesiredSize
 (
+64
 64
 120
 2

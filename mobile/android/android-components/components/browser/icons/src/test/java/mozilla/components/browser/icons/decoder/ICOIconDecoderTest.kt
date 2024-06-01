@@ -192,6 +192,7 @@ icon
 DesiredSize
 (
 192
+192
 1024
 2
 .
@@ -239,6 +240,7 @@ icon
 DesiredSize
 (
 192
+192
 1024
 2
 .
@@ -285,6 +287,7 @@ decode
 icon
 DesiredSize
 (
+96
 96
 1024
 2
