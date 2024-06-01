@@ -113,9 +113,11 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+SessionState
 import
 mozilla
 .
@@ -127,7 +129,9 @@ state
 .
 state
 .
-SessionState
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -934,7 +938,7 @@ injectDownload
 tab
 .
 id
-Download
+DownloadState
 (
 hitResult
 .

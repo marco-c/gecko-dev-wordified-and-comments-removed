@@ -1342,6 +1342,10 @@ val
 sessionId
 :
 String
+val
+downloadId
+:
+String
 )
 :
 ContentAction

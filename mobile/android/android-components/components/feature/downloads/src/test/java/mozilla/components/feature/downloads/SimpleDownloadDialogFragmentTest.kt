@@ -113,9 +113,13 @@ components
 .
 browser
 .
-session
+state
 .
-Download
+state
+.
+content
+.
+DownloadState
 import
 mozilla
 .
@@ -204,7 +208,7 @@ lateinit
 var
 download
 :
-Download
+DownloadState
 private
 lateinit
 var
@@ -224,7 +228,7 @@ mock
 )
 download
 =
-Download
+DownloadState
 (
 "
 http

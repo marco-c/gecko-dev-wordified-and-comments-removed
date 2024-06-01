@@ -1376,7 +1376,7 @@ lazy
 {
 DownloadsUseCases
 (
-sessionManager
+store
 )
 }
 val
@@ -1389,6 +1389,7 @@ lazy
 ContextMenuUseCases
 (
 sessionManager
+store
 )
 }
 }

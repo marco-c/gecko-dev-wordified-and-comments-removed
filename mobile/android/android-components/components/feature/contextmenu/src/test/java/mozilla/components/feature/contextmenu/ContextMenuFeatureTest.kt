@@ -1412,6 +1412,9 @@ ContextMenuUseCases
 mock
 (
 )
+mock
+(
+)
 )
 )
 feature
@@ -1599,6 +1602,7 @@ engineView
 ContextMenuUseCases
 (
 sessionManager
+store
 )
 )
 assertNotNull
@@ -1820,6 +1824,7 @@ engineView
 ContextMenuUseCases
 (
 sessionManager
+store
 )
 )
 testDispatcher
@@ -2068,6 +2073,7 @@ engineView
 ContextMenuUseCases
 (
 sessionManager
+store
 )
 )
 CollectionProcessor
