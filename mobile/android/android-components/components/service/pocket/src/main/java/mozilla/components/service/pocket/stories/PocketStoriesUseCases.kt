@@ -149,7 +149,6 @@ stories
 .
 *
 /
-internal
 class
 PocketStoriesUseCases
 {
@@ -412,7 +411,6 @@ stories
 .
 *
 /
-internal
 inner
 class
 GetPocketStories

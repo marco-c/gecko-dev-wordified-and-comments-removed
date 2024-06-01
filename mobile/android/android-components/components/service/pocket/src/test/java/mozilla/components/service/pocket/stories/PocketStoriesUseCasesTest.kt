@@ -447,7 +447,7 @@ THEN
 its
 visibility
 is
-internal
+public
 (
 )
 {
@@ -459,7 +459,7 @@ PocketStoriesUseCases
 class
 KVisibility
 .
-INTERNAL
+PUBLIC
 )
 }
 Test
@@ -497,7 +497,7 @@ THEN
 its
 visibility
 is
-internal
+public
 (
 )
 {
@@ -511,7 +511,7 @@ GetPocketStories
 class
 KVisibility
 .
-INTERNAL
+PUBLIC
 )
 }
 Test
