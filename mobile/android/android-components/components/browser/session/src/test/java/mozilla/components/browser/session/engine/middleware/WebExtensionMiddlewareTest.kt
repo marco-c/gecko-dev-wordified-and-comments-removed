@@ -341,7 +341,9 @@ joinBlocking
 )
 assertNull
 (
-middleware
+store
+.
+state
 .
 activeWebExtensionTabId
 )
@@ -395,7 +397,9 @@ assertEquals
 "
 1
 "
-middleware
+store
+.
+state
 .
 activeWebExtensionTabId
 )
@@ -444,7 +448,9 @@ assertEquals
 "
 2
 "
-middleware
+store
+.
+state
 .
 activeWebExtensionTabId
 )
@@ -569,7 +575,9 @@ mock
 )
 assertNull
 (
-middleware
+store
+.
+state
 .
 activeWebExtensionTabId
 )
@@ -624,7 +632,9 @@ assertEquals
 "
 1
 "
-middleware
+store
+.
+state
 .
 activeWebExtensionTabId
 )
@@ -748,7 +758,9 @@ assertEquals
 "
 1
 "
-middleware
+store
+.
+state
 .
 activeWebExtensionTabId
 )
@@ -945,7 +957,9 @@ assertEquals
 "
 1
 "
-middleware
+store
+.
+state
 .
 activeWebExtensionTabId
 )
@@ -985,7 +999,9 @@ assertEquals
 "
 2
 "
-middleware
+store
+.
+state
 .
 activeWebExtensionTabId
 )
