@@ -171,6 +171,7 @@ Tab
 onTabRestored
 :
 (
+String
 )
 -
 >
@@ -247,6 +248,9 @@ id
 )
 onTabRestored
 (
+item
+.
+id
 )
 }
 }
