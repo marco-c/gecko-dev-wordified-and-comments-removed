@@ -380,8 +380,10 @@ mozac_feature_contextmenu_save_file_to_device
 "
 >
 Guardar
+el
 archivo
 en
+el
 dispositivo
 <
 /
@@ -626,6 +628,7 @@ mozac_feature_contextmenu_share_email_address
 "
 >
 Compartir
+la
 direcci
 n
 de
@@ -707,10 +710,13 @@ name
 mozac_feature_contextmenu_snackbar_email_address_copied
 "
 >
-Correo
+Direcci
+n
+de
+correo
 electr
 nico
-copiado
+copiada
 al
 portapapeles
 <
@@ -746,7 +752,8 @@ mozac_feature_contextmenu_add_to_contact
 A
 adir
 a
-contacto
+los
+contactos
 <
 /
 string
