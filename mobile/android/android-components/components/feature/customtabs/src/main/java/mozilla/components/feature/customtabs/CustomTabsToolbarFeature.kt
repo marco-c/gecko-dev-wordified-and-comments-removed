@@ -689,11 +689,10 @@ titleColor
 readableColor
 toolbar
 .
-siteSecurityColor
-=
-Pair
+setSiteSecurityColor
 (
 readableColor
+to
 readableColor
 )
 toolbar
