@@ -335,16 +335,6 @@ components
 .
 lib
 .
-dataprotect
-.
-generateEncryptionKey
-import
-mozilla
-.
-components
-.
-lib
-.
 fetch
 .
 httpurlconnection
