@@ -147,7 +147,7 @@ addons
 .
 ui
 .
-translate
+translatedName
 import
 org
 .
@@ -259,11 +259,7 @@ title
 =
 addon
 .
-translatableName
-.
-translate
-(
-)
+translatedName
 bindPermissions
 (
 addon

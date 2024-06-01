@@ -703,11 +703,7 @@ string
 mozac_feature_addons_permissions_dialog_title
 addon
 .
-translatableName
-.
-translate
-(
-)
+translatedName
 )
 rootView
 .

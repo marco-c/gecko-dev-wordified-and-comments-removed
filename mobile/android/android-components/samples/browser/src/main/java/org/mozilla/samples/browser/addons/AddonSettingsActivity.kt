@@ -171,7 +171,7 @@ addons
 .
 ui
 .
-translate
+translatedName
 import
 org
 .
@@ -264,11 +264,7 @@ title
 =
 addon
 .
-translatableName
-.
-translate
-(
-)
+translatedName
 supportFragmentManager
 .
 beginTransaction

@@ -318,11 +318,7 @@ isNotEmpty
 {
 addon
 .
-translatableName
-.
-translate
-(
-)
+translatedName
 }
 else
 {
