@@ -54,7 +54,7 @@ md
 )
 /
 [
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 ]
 (
 index
@@ -160,5 +160,5 @@ BrowserAction
 .
 kt
 #
-L159
+L160
 )

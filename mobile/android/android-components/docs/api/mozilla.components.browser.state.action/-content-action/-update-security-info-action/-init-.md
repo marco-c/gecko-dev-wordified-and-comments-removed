@@ -54,7 +54,7 @@ md
 )
 /
 [
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 ]
 (
 index
@@ -88,7 +88,7 @@ init
 &
 gt
 ;
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 (
 sessionId
 :
