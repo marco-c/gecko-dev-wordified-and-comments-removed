@@ -1065,7 +1065,7 @@ excludePackageStatements
 false
 excludeImportStatements
 :
-false
+true
 MayBeConst
 :
 active
