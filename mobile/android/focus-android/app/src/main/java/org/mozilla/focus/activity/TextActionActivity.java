@@ -159,6 +159,16 @@ ACTION_VIEW
 ;
 intent
 .
+putExtra
+(
+MainActivity
+.
+EXTRA_TEXT_SELECTION
+true
+)
+;
+intent
+.
 setData
 (
 Uri
