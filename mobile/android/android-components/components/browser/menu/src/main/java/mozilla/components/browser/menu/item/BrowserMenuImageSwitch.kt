@@ -310,7 +310,7 @@ SwitchCompat
 {
 switch
 .
-setCompoundDrawablesWithIntrinsicBounds
+setCompoundDrawablesRelativeWithIntrinsicBounds
 (
 imageResource
 0
