@@ -87,7 +87,9 @@ android
 -
 components
 /
-buildSrc
+plugins
+/
+dependencies
 /
 src
 /
@@ -95,7 +97,7 @@ main
 /
 java
 /
-Dependencies
+DependenciesPlugin
 .
 kt
 )
@@ -128,7 +130,9 @@ android
 -
 components
 /
-buildSrc
+plugins
+/
+dependencies
 /
 src
 /

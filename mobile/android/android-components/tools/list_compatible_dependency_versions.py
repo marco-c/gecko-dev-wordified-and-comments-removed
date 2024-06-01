@@ -443,7 +443,10 @@ path
 join
 (
 '
-buildSrc
+plugins
+'
+'
+dependencies
 '
 '
 src

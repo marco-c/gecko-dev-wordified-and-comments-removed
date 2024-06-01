@@ -318,7 +318,9 @@ NimbusGradlePlugin
 .
 groovy
 |
-buildSrc
+plugins
+/
+dependencies
 /
 src
 /
@@ -329,7 +331,7 @@ java
 (
 Gecko
 |
-Dependencies
+DependenciesPlugin
 )
 \
 .
@@ -364,7 +366,9 @@ NimbusGradlePlugin
 .
 groovy
 |
-buildSrc
+plugins
+/
+dependencies
 /
 src
 /
@@ -375,7 +379,7 @@ java
 (
 Gecko
 |
-Dependencies
+DependenciesPlugin
 )
 \
 .
