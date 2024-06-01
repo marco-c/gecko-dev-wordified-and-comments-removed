@@ -633,11 +633,7 @@ context
 getLong
 (
 LAST_VERIFIED
-System
-.
-currentTimeMillis
-(
-)
+0
 )
 set
 (
