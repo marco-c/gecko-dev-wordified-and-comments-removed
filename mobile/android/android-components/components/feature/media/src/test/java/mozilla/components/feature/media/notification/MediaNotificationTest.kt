@@ -113,6 +113,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -1320,6 +1326,8 @@ PLAYING
 val
 notification
 =
+runBlocking
+{
 MediaNotification
 (
 context
@@ -1343,6 +1351,7 @@ mock
 (
 )
 )
+}
 assertEquals
 (
 "
@@ -1447,6 +1456,8 @@ PAUSED
 val
 notification
 =
+runBlocking
+{
 MediaNotification
 (
 context
@@ -1470,6 +1481,7 @@ mock
 (
 )
 )
+}
 assertEquals
 (
 "
@@ -1574,6 +1586,8 @@ STOPPED
 val
 notification
 =
+runBlocking
+{
 MediaNotification
 (
 context
@@ -1597,6 +1611,7 @@ mock
 (
 )
 )
+}
 assertEquals
 (
 "
@@ -1686,6 +1701,8 @@ PLAYING
 val
 notification
 =
+runBlocking
+{
 MediaNotification
 (
 context
@@ -1709,6 +1726,7 @@ mock
 (
 )
 )
+}
 assertEquals
 (
 "
@@ -1814,6 +1832,8 @@ PAUSED
 val
 notification
 =
+runBlocking
+{
 MediaNotification
 (
 context
@@ -1837,6 +1857,7 @@ mock
 (
 )
 )
+}
 assertEquals
 (
 "

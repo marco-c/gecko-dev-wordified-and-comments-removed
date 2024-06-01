@@ -486,7 +486,7 @@ assertEquals
 observedMetadata
 ?
 .
-artwork
+getArtwork
 metadata
 .
 artwork
