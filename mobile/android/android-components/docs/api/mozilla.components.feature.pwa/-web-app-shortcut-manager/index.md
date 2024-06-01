@@ -97,7 +97,7 @@ WebAppShortcutManager
 .
 kt
 #
-L42
+L43
 )
 #
 #
@@ -349,6 +349,18 @@ from
 the
 session
 .
+Consuming
+SHORTCUT_CATEGORY
+in
+AndroidManifest
+is
+required
+for
+the
+package
+to
+be
+launched
 |
 |
 [

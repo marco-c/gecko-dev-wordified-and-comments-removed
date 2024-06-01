@@ -72,6 +72,12 @@ gt
 ;
 WorkManagerSyncDispatcher
 (
+context
+:
+<
+ERROR
+CLASS
+>
 supportedEngines
 :
 [

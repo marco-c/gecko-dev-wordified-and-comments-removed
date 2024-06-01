@@ -74,6 +74,12 @@ gt
 ;
 WorkManagerSyncScheduler
 (
+context
+:
+<
+ERROR
+CLASS
+>
 )
 Class
 used
