@@ -1310,7 +1310,7 @@ asCoroutineDispatcher
 )
 )
 private
-var
+val
 nimbus
 :
 NimbusClientInterface
