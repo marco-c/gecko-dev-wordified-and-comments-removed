@@ -185,7 +185,7 @@ android_gradle_plugin
 .
 0
 -
-beta05
+rc01
 "
 const
 val
