@@ -3444,6 +3444,12 @@ GeckoSession
 firstContentfulPaint
 =
 true
+notifyObservers
+{
+onFirstContentfulPaint
+(
+)
+}
 }
 override
 fun
