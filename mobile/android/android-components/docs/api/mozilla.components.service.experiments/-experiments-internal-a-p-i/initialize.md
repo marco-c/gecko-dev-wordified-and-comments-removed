@@ -79,10 +79,6 @@ index
 .
 md
 )
-=
-Configuration
-(
-)
 onExperimentsUpdated
 :
 (
@@ -201,7 +197,7 @@ Experiments
 .
 kt
 #
-L78
+L79
 )
 Initialize
 the
@@ -290,8 +286,13 @@ index
 md
 )
 containing
-information
-about
+a
+HTTP
+client
+for
+fetching
+experiments
+and
 the
 experiments
 endpoint

@@ -179,10 +179,6 @@ index
 .
 md
 )
-=
-Configuration
-(
-)
 onExperimentsUpdated
 :
 (
