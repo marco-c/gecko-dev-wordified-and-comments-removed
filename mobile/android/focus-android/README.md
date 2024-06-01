@@ -388,7 +388,7 @@ IRC
 :
 [
 #
-mobile
+focus
 (
 irc
 .
