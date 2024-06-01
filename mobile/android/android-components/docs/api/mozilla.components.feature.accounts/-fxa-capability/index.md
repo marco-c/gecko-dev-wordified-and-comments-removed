@@ -98,7 +98,7 @@ FxaWebChannelFeature
 .
 kt
 #
-L32
+L33
 )
 Configurable
 FxA

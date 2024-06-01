@@ -197,7 +197,7 @@ Devices
 .
 kt
 #
-L37
+L38
 )
 Ensure
 that

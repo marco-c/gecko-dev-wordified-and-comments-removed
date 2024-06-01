@@ -145,7 +145,7 @@ FxaAccountManager
 .
 kt
 #
-L65
+L69
 )
 A
 global
@@ -206,13 +206,6 @@ manager
 index
 .
 md
-)
-and
-[
-FxaDeviceRefreshManager
-]
-(
-#
 )
 may
 encounter
