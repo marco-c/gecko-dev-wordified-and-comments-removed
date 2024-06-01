@@ -132,7 +132,7 @@ it
 to
 the
 [
-Session
+ContentState
 .
 thumbnail
 ]
@@ -146,10 +146,14 @@ components
 .
 browser
 .
-session
+state
+.
+state
 /
 -
-session
+content
+-
+state
 /
 thumbnail
 .

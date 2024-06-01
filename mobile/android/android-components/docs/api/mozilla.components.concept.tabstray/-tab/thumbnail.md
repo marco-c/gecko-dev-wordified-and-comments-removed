@@ -112,7 +112,7 @@ Tab
 .
 kt
 #
-L23
+L25
 )
 Current
 thumbnail

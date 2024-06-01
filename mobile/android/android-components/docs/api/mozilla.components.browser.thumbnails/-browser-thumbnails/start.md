@@ -138,7 +138,7 @@ BrowserThumbnails
 .
 kt
 #
-L36
+L43
 )
 Overrides
 [
@@ -185,6 +185,6 @@ for
 when
 a
 session
-finish
+finishes
 loading
 .
