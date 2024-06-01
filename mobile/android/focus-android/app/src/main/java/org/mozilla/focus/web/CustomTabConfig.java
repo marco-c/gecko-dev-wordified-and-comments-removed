@@ -101,17 +101,6 @@ mozilla
 .
 focus
 .
-telemetry
-.
-TelemetryWrapper
-;
-import
-org
-.
-mozilla
-.
-focus
-.
 utils
 .
 SafeBundle
@@ -498,7 +487,7 @@ R
 .
 dimen
 .
-customtabs_close_button_max_size
+customtabs_toolbar_icon_size
 )
 ;
 if
