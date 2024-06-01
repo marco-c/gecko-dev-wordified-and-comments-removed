@@ -1807,9 +1807,9 @@ mozacTest
 "
 url
 "
-false
-false
 webExtensionController
+false
+false
 nativeGeckoWebExt
 )
 extensionWithActions

@@ -280,6 +280,9 @@ String
 url
 :
 String
+webExtensionController
+:
+WebExtensionController
 allowContentMessaging
 :
 Boolean
@@ -290,9 +293,6 @@ supportActions
 Boolean
 =
 false
-webExtensionController
-:
-WebExtensionController
 val
 nativeExtension
 :
@@ -358,9 +358,9 @@ id
 native
 .
 location
-true
-true
 webExtensionController
+true
+true
 native
 )
 /
