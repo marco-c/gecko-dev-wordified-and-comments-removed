@@ -121,7 +121,7 @@ index
 html
 )
 =
-extensionId
+messagingId
 )
 :
 [
@@ -203,7 +203,7 @@ WebExtensionController
 .
 kt
 #
-L161
+L164
 )
 Disconnects
 the
@@ -249,5 +249,10 @@ defaults
 to
 the
 provided
-extensionId
+[
+messagingId
+]
+(
+#
+)
 .

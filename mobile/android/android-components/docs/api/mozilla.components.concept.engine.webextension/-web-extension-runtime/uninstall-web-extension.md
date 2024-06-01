@@ -303,7 +303,7 @@ WebExtensionRuntime
 .
 kt
 #
-L75
+L69
 )
 Uninstalls
 the

@@ -99,7 +99,7 @@ index
 html
 )
 =
-extensionId
+messagingId
 )
 :
 [
@@ -181,7 +181,7 @@ WebExtensionController
 .
 kt
 #
-L132
+L135
 )
 Sends
 a
@@ -215,5 +215,10 @@ defaults
 to
 the
 provided
-extensionId
+[
+messagingId
+]
+(
+#
+)
 .

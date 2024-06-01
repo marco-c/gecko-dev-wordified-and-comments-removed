@@ -74,7 +74,7 @@ gt
 ;
 GeckoWebExtension
 (
-native
+nativeExtension
 :
 [
 WebExtension

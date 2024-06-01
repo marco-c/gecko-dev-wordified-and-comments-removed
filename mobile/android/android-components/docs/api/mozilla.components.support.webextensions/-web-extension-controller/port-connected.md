@@ -121,7 +121,7 @@ index
 html
 )
 =
-extensionId
+messagingId
 )
 :
 [
@@ -203,7 +203,7 @@ WebExtensionController
 .
 kt
 #
-L149
+L152
 )
 Checks
 whether
@@ -255,5 +255,10 @@ defaults
 to
 the
 provided
-extensionId
+[
+messagingId
+]
+(
+#
+)
 .

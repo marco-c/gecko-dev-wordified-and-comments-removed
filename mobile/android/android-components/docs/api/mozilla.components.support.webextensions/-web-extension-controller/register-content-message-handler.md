@@ -155,7 +155,7 @@ index
 html
 )
 =
-extensionId
+messagingId
 )
 :
 [
@@ -237,7 +237,7 @@ WebExtensionController
 .
 kt
 #
-L75
+L78
 )
 Registers
 a
@@ -311,5 +311,5 @@ defaults
 to
 the
 provided
-extensionId
+messagingId
 .

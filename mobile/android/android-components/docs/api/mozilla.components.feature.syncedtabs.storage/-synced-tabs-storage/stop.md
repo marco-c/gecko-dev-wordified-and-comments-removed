@@ -142,7 +142,7 @@ SyncedTabsStorage
 .
 kt
 #
-L58
+L56
 )
 Stop
 listening

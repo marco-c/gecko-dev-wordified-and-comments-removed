@@ -308,7 +308,7 @@ WebExtensionController
 .
 kt
 #
-L42
+L45
 )
 Makes
 sure
