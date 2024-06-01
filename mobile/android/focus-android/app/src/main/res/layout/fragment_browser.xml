@@ -515,7 +515,7 @@ android
 :
 attr
 /
-selectableItemBackground
+selectableItemBackgroundBorderless
 "
 android
 :
