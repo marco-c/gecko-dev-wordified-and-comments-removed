@@ -328,7 +328,7 @@ appservices
 .
 logins
 .
-LoginsStorageErrorException
+LoginsStorageException
 /
 *
 *
@@ -404,7 +404,7 @@ appservices
 .
 logins
 .
-LoginsStorageErrorException
+LoginsStorageException
 .
 SyncAuthInvalid
 /
@@ -440,7 +440,7 @@ appservices
 .
 logins
 .
-LoginsStorageErrorException
+LoginsStorageException
 .
 MismatchedLock
 /
@@ -477,7 +477,7 @@ appservices
 .
 logins
 .
-LoginsStorageErrorException
+LoginsStorageException
 .
 NoSuchRecord
 /
@@ -546,7 +546,7 @@ appservices
 .
 logins
 .
-LoginsStorageErrorException
+LoginsStorageException
 .
 IdCollision
 /
@@ -647,7 +647,7 @@ appservices
 .
 logins
 .
-LoginsStorageErrorException
+LoginsStorageException
 .
 InvalidRecord
 /
@@ -718,7 +718,7 @@ appservices
 .
 logins
 .
-LoginsStorageErrorException
+LoginsStorageException
 .
 InvalidKey
 /
@@ -749,7 +749,7 @@ appservices
 .
 logins
 .
-LoginsStorageErrorException
+LoginsStorageException
 .
 RequestFailed
 /

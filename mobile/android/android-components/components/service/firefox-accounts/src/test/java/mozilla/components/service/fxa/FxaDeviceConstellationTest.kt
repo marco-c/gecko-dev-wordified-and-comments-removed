@@ -499,8 +499,6 @@ appservices
 .
 fxaclient
 .
-FxaErrorException
-as
 FxaException
 import
 mozilla
