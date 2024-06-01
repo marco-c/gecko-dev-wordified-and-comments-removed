@@ -89,6 +89,12 @@ androidx
 .
 room
 .
+OnConflictStrategy
+import
+androidx
+.
+room
+.
 Query
 import
 androidx
@@ -125,6 +131,13 @@ interface
 RecentlyClosedTabDao
 {
 Insert
+(
+onConflict
+=
+OnConflictStrategy
+.
+REPLACE
+)
 fun
 insertTab
 (
