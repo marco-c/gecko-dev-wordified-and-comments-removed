@@ -224,6 +224,9 @@ toIconResource
 (
 )
 }
+color
+=
+backgroundColor
 )
 private
 fun

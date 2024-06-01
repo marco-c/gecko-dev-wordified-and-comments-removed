@@ -132,7 +132,7 @@ the
 icon
 .
 *
-param
+property
 maskable
 True
 if

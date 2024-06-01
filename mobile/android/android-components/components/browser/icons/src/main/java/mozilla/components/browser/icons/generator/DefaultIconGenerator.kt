@@ -345,6 +345,11 @@ bitmap
 val
 backgroundColor
 =
+request
+.
+color
+?
+:
 pickColor
 (
 context
