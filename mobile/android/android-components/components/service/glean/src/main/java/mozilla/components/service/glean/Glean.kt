@@ -422,6 +422,12 @@ support
 utils
 .
 ThreadUtils
+import
+kotlin
+.
+properties
+.
+Delegates
 Suppress
 (
 "
@@ -456,9 +462,12 @@ var
 applicationContext
 :
 Context
-?
-=
-null
+by
+Delegates
+.
+notNull
+(
+)
 /
 /
 Include
@@ -1692,7 +1701,6 @@ val
 migrationPrefs
 =
 applicationContext
-?
 .
 getSharedPreferences
 (
@@ -1816,8 +1824,6 @@ enabled
 initializeCoreMetrics
 (
 applicationContext
-!
-!
 )
 }
 else
@@ -1876,11 +1882,13 @@ MetricsPingScheduler
 .
 cancel
 (
+applicationContext
 )
 PingUploadWorker
 .
 cancel
 (
+applicationContext
 )
 }
 /
@@ -3858,6 +3866,7 @@ PingUploadWorker
 .
 enqueueWorker
 (
+applicationContext
 )
 }
 }

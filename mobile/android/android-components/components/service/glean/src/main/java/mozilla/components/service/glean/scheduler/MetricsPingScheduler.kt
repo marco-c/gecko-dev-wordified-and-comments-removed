@@ -457,12 +457,16 @@ internal
 fun
 cancel
 (
+context
+:
+Context
 )
 {
 WorkManager
 .
 getInstance
 (
+context
 )
 .
 cancelUniqueWork
@@ -892,6 +896,7 @@ WorkManager
 .
 getInstance
 (
+applicationContext
 )
 .
 enqueueUniqueWork

@@ -323,6 +323,20 @@ service
 .
 glean
 "
+private
+val
+context
+:
+Context
+get
+(
+)
+=
+ApplicationProvider
+.
+getApplicationContext
+(
+)
 get
 :
 Rule
@@ -331,11 +345,7 @@ gleanRule
 =
 GleanTestRule
 (
-ApplicationProvider
-.
-getApplicationContext
-(
-)
+context
 )
 Before
 fun
@@ -1132,6 +1142,7 @@ port
 )
 triggerWorkManager
 (
+context
 )
 val
 request
@@ -1461,6 +1472,7 @@ serverEndpoint
 )
 triggerWorkManager
 (
+context
 )
 val
 request
@@ -1828,6 +1840,7 @@ will
 occur
 triggerWorkManager
 (
+context
 )
 }
 }

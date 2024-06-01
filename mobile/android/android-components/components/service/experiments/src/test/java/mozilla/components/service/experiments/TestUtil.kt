@@ -65,6 +65,12 @@ service
 .
 experiments
 import
+android
+.
+content
+.
+Context
+import
 androidx
 .
 work
@@ -134,6 +140,9 @@ internal
 fun
 isWorkScheduled
 (
+context
+:
+Context
 tag
 :
 String
@@ -148,6 +157,7 @@ WorkManager
 .
 getInstance
 (
+context
 )
 val
 statuses
@@ -309,6 +319,9 @@ internal
 fun
 getWorkInfoByTag
 (
+context
+:
+Context
 tag
 :
 String
@@ -324,6 +337,7 @@ WorkManager
 .
 getInstance
 (
+context
 )
 val
 statuses

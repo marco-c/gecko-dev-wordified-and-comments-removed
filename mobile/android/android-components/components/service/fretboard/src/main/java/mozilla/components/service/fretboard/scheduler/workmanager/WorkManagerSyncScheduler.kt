@@ -69,6 +69,12 @@ scheduler
 .
 workmanager
 import
+android
+.
+content
+.
+Context
+import
 androidx
 .
 work
@@ -128,6 +134,13 @@ WorkManager
 /
 class
 WorkManagerSyncScheduler
+(
+private
+val
+context
+:
+Context
+)
 {
 /
 *
@@ -234,6 +247,7 @@ WorkManager
 .
 getInstance
 (
+context
 )
 .
 enqueueUniquePeriodicWork

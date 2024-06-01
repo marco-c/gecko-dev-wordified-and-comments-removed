@@ -206,6 +206,10 @@ androidx_work_runtime
 implementation
 Dependencies
 .
+androidx_lifecycle_extensions
+implementation
+Dependencies
+.
 kotlin_stdlib
 implementation
 Dependencies

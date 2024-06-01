@@ -554,6 +554,20 @@ class
 class
 GleanTest
 {
+private
+val
+context
+:
+Context
+get
+(
+)
+=
+ApplicationProvider
+.
+getApplicationContext
+(
+)
 get
 :
 Rule
@@ -562,11 +576,7 @@ gleanRule
 =
 GleanTestRule
 (
-ApplicationProvider
-.
-getApplicationContext
-(
-)
+context
 )
 Test
 fun
@@ -1069,6 +1079,7 @@ the
 background
 triggerWorkManager
 (
+context
 )
 val
 requests
@@ -1816,6 +1827,7 @@ assertFalse
 (
 getWorkerStatus
 (
+context
 PingUploadWorker
 .
 PING_WORKER_TAG
@@ -1855,6 +1867,7 @@ assertFalse
 (
 getWorkerStatus
 (
+context
 PingUploadWorker
 .
 PING_WORKER_TAG
@@ -3353,12 +3366,14 @@ asynchronously
 .
 waitForEnqueuedWorker
 (
+context
 PingUploadWorker
 .
 PING_WORKER_TAG
 )
 triggerWorkManager
 (
+context
 )
 /
 /
@@ -3791,6 +3806,7 @@ enqueued
 "
 getWorkerStatus
 (
+context
 PingUploadWorker
 .
 PING_WORKER_TAG
@@ -3807,6 +3823,7 @@ enqueued
 "
 getWorkerStatus
 (
+context
 MetricsPingWorker
 .
 TAG
@@ -3844,6 +3861,7 @@ enqueued
 "
 getWorkerStatus
 (
+context
 PingUploadWorker
 .
 PING_WORKER_TAG
@@ -3861,6 +3879,7 @@ enqueued
 "
 getWorkerStatus
 (
+context
 MetricsPingWorker
 .
 TAG

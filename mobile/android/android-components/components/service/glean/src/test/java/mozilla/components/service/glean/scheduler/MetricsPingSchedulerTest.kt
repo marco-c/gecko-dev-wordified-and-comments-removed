@@ -69,6 +69,12 @@ scheduler
 import
 android
 .
+content
+.
+Context
+import
+android
+.
 os
 .
 SystemClock
@@ -384,6 +390,20 @@ class
 class
 MetricsPingSchedulerTest
 {
+private
+val
+context
+:
+Context
+get
+(
+)
+=
+ApplicationProvider
+.
+getApplicationContext
+(
+)
 private
 fun
 <
@@ -1674,6 +1694,7 @@ the
 background
 triggerWorkManager
 (
+context
 )
 /
 /
@@ -3011,11 +3032,7 @@ metricsPingScheduler
 =
 MetricsPingScheduler
 (
-ApplicationProvider
-.
-getApplicationContext
-(
-)
+context
 )
 MetricsPingScheduler
 .
@@ -3040,6 +3057,7 @@ assertFalse
 (
 getWorkerStatus
 (
+context
 MetricsPingWorker
 .
 TAG
@@ -3086,6 +3104,7 @@ assertTrue
 (
 getWorkerStatus
 (
+context
 MetricsPingWorker
 .
 TAG
@@ -3140,6 +3159,7 @@ assertFalse
 (
 getWorkerStatus
 (
+context
 MetricsPingWorker
 .
 TAG
@@ -3179,6 +3199,7 @@ assertTrue
 (
 getWorkerStatus
 (
+context
 MetricsPingWorker
 .
 TAG
@@ -3203,11 +3224,7 @@ mps
 =
 MetricsPingScheduler
 (
-ApplicationProvider
-.
-getApplicationContext
-(
-)
+context
 )
 mps
 .
@@ -3237,6 +3254,7 @@ enqueued
 "
 getWorkerStatus
 (
+context
 MetricsPingWorker
 .
 TAG
@@ -3253,6 +3271,7 @@ MetricsPingScheduler
 .
 cancel
 (
+context
 )
 /
 /
@@ -3271,6 +3290,7 @@ enqueued
 "
 getWorkerStatus
 (
+context
 MetricsPingWorker
 .
 TAG
