@@ -406,6 +406,9 @@ value
 .
 onMessage
 (
+"
+mozacTest
+"
 message
 sender
 )
@@ -455,6 +458,9 @@ value
 .
 onMessage
 (
+"
+mozacTest
+"
 message
 sender
 )
@@ -896,6 +902,9 @@ value
 .
 onMessage
 (
+"
+mozacTest
+"
 message
 sender
 )
@@ -945,6 +954,9 @@ value
 .
 onMessage
 (
+"
+mozacTest
+"
 message
 sender
 )

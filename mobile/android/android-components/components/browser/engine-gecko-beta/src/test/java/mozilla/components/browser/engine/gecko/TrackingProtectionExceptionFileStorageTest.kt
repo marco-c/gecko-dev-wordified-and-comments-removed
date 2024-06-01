@@ -224,6 +224,8 @@ org
 mockito
 .
 Mockito
+.
+spy
 import
 org
 .
@@ -567,8 +569,6 @@ mock
 val
 session
 =
-Mockito
-.
 spy
 (
 GeckoEngineSession
@@ -1112,8 +1112,6 @@ mock
 val
 session
 =
-Mockito
-.
 spy
 (
 GeckoEngineSession

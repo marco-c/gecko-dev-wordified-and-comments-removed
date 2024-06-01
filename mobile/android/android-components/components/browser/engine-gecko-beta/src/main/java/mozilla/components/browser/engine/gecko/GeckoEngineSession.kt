@@ -1163,6 +1163,13 @@ TrackingCategory
 .
 SCRIPTS_AND_SUB_RESOURCES
 )
+geckoSession
+.
+settings
+.
+useTrackingProtection
+=
+shouldBlockContent
 if
 (
 !
@@ -1173,13 +1180,6 @@ disableTrackingProtectionOnGecko
 (
 )
 }
-geckoSession
-.
-settings
-.
-useTrackingProtection
-=
-shouldBlockContent
 notifyObservers
 {
 onTrackerBlockingEnabledChange
