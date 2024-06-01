@@ -319,6 +319,9 @@ guessFileName
 null
 download
 .
+destinationDirectory
+download
+.
 url
 download
 .

@@ -333,6 +333,7 @@ DownloadUtils
 guessFileName
 (
 contentDisposition
+destinationDirectory
 url
 contentType
 )
