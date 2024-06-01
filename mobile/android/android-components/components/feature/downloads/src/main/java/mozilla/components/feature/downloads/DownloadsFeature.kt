@@ -549,6 +549,9 @@ Suppress
 "
 TooManyFunctions
 "
+"
+LongParameterList
+"
 )
 class
 DownloadsFeature
@@ -590,6 +593,7 @@ DownloadManager
 AndroidDownloadManager
 (
 applicationContext
+store
 )
 private
 val

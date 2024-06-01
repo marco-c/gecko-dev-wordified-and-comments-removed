@@ -833,6 +833,9 @@ requireContext
 )
 .
 applicationContext
+components
+.
+store
 DownloadService
 :
 :
