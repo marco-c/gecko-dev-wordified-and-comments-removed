@@ -1066,11 +1066,6 @@ searchEngine
 name
 icon
 =
-{
-_
-_
--
->
 icon
 ?
 :
@@ -1080,7 +1075,6 @@ searchEngine
 ?
 .
 icon
-}
 score
 =
 Int
@@ -1252,11 +1246,6 @@ Int
 MAX_VALUE
 icon
 =
-{
-_
-_
--
->
 icon
 ?
 :
@@ -1266,7 +1255,6 @@ searchEngine
 ?
 .
 icon
-}
 onChipClicked
 =
 {
