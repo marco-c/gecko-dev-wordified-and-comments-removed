@@ -115,9 +115,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-menu2
+menu
 .
 candidate
 .
@@ -127,9 +127,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-menu2
+menu
 .
 candidate
 .
