@@ -5381,14 +5381,14 @@ AccountStorage
 val
 readException
 =
-FxaException
+FxaNetworkException
 (
 "
 pretend
 we
 failed
 to
-parse
+fetch
 the
 account
 "
