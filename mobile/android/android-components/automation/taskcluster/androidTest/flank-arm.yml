@@ -70,7 +70,7 @@ test
 -
 attempts
 :
-1
+2
 app
 :
 /
@@ -157,11 +157,6 @@ output
 style
 :
 compact
-repeat
--
-tests
-:
-1
 full
 -
 junit
