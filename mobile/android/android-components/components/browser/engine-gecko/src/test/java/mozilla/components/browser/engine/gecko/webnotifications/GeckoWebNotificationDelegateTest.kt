@@ -177,14 +177,6 @@ mozilla
 .
 geckoview
 .
-MockWebNotification
-import
-org
-.
-mozilla
-.
-geckoview
-.
 WebNotification
 as
 GeckoViewWebNotification
@@ -221,7 +213,7 @@ geckoViewWebNotification
 :
 GeckoViewWebNotification
 =
-MockWebNotification
+mockWebNotification
 (
 title
 =
@@ -232,11 +224,6 @@ tag
 =
 "
 tag
-"
-cookie
-=
-"
-cookie
 "
 text
 =
@@ -410,7 +397,7 @@ geckoViewWebNotification
 :
 GeckoViewWebNotification
 =
-MockWebNotification
+mockWebNotification
 (
 title
 =
@@ -421,11 +408,6 @@ tag
 =
 "
 tag
-"
-cookie
-=
-"
-cookie
 "
 text
 =
@@ -596,7 +578,7 @@ geckoViewWebNotification
 :
 GeckoViewWebNotification
 =
-MockWebNotification
+mockWebNotification
 (
 title
 =
@@ -607,11 +589,6 @@ tag
 =
 "
 tag
-"
-cookie
-=
-"
-cookie
 "
 text
 =
@@ -638,8 +615,7 @@ requireInteraction
 true
 source
 =
-"
-"
+null
 )
 val
 geckoWebNotificationDelegate
