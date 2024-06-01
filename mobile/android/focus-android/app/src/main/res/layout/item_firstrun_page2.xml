@@ -316,6 +316,16 @@ firstrun_defaultbrowser_title
 TextView
 android
 :
+id
+=
+"
++
+id
+/
+page2_text
+"
+android
+:
 padding
 =
 "
