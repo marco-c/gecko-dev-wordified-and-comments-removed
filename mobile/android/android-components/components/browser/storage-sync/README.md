@@ -151,6 +151,8 @@ documentation
 /
 support
 /
+sync
+-
 telemetry
 /
 docs
