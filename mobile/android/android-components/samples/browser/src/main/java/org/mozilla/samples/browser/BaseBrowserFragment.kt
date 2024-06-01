@@ -628,7 +628,7 @@ layout
 toolbar
 components
 .
-sessionManager
+store
 components
 .
 sessionUseCases

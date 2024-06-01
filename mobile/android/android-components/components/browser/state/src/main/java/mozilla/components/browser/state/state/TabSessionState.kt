@@ -238,7 +238,6 @@ null
 )
 :
 SessionState
-internal
 fun
 createTab
 (

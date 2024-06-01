@@ -180,7 +180,6 @@ CustomTabConfig
 )
 :
 SessionState
-internal
 fun
 createCustomTab
 (
