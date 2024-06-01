@@ -352,7 +352,7 @@ context
 .
 getSharedPreferences
 (
-LOGINS_PREFS
+PREFS_NAME
 Context
 .
 MODE_PRIVATE
@@ -1214,7 +1214,7 @@ object
 {
 const
 val
-LOGINS_PREFS
+PREFS_NAME
 =
 "
 loginsCrypto
