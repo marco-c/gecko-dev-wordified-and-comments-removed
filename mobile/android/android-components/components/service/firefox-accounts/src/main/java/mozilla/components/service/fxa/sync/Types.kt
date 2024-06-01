@@ -260,6 +260,14 @@ creditcards
 SyncEngine
 .
 CreditCards
+"
+addresses
+"
+-
+>
+SyncEngine
+.
+Addresses
 /
 /
 This
