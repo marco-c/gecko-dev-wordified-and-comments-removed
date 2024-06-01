@@ -95,7 +95,7 @@ content
 .
 blocking
 .
-TrackingProtectionExceptionStorage
+TrackerLog
 import
 mozilla
 .
@@ -109,7 +109,7 @@ content
 .
 blocking
 .
-TrackerLog
+TrackingProtectionExceptionStorage
 import
 mozilla
 .
@@ -176,12 +176,6 @@ org
 json
 .
 JSONObject
-import
-java
-.
-lang
-.
-UnsupportedOperationException
 /
 *
 *

@@ -351,9 +351,7 @@ feature
 .
 addons
 .
-amo
-.
-AddonCollectionProvider
+AddonManager
 import
 mozilla
 .
@@ -363,7 +361,9 @@ feature
 .
 addons
 .
-AddonManager
+amo
+.
+AddonCollectionProvider
 import
 mozilla
 .

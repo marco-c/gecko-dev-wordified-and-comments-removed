@@ -222,6 +222,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+feature
+-
+search
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
