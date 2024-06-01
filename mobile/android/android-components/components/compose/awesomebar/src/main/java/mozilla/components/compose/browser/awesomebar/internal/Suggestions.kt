@@ -184,6 +184,12 @@ concept
 awesomebar
 .
 AwesomeBar
+import
+java
+.
+util
+.
+SortedMap
 Composable
 Suppress
 (
@@ -197,7 +203,7 @@ Suggestions
 (
 suggestions
 :
-Map
+SortedMap
 <
 AwesomeBar
 .
