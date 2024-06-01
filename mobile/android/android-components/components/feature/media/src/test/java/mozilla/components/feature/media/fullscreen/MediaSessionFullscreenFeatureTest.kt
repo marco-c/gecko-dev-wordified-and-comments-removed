@@ -355,7 +355,7 @@ setRequestedOrientation
 (
 ActivityInfo
 .
-SCREEN_ORIENTATION_USER_LANDSCAPE
+SCREEN_ORIENTATION_SENSOR_LANDSCAPE
 )
 store
 .
