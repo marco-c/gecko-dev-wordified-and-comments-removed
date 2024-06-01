@@ -304,7 +304,7 @@ mozilla_appservices
 "
 93
 .
-6
+7
 .
 0
 "
