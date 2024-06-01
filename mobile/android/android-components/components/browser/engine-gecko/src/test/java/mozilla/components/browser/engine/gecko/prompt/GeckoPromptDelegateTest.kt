@@ -4542,16 +4542,6 @@ assertTrue
 (
 onLoginSelected
 )
-loginSelectRequest
-.
-onConfirm
-(
-login
-)
-assertTrue
-(
-onLoginSelected
-)
 onLoginSelected
 =
 false
