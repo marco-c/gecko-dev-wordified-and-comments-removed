@@ -95,6 +95,14 @@ androidx
 .
 core
 .
+content
+.
+ContextCompat
+import
+androidx
+.
+core
+.
 graphics
 .
 drawable
@@ -519,10 +527,11 @@ icon
 icon
 ?
 :
-context
+ContextCompat
 .
 getDrawable
 (
+context
 R
 .
 drawable

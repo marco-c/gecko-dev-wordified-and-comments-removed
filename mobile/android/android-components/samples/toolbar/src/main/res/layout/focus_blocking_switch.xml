@@ -446,7 +446,13 @@ LinearLayout
 LinearLayout
 >
 <
-Switch
+androidx
+.
+appcompat
+.
+widget
+.
+SwitchCompat
 android
 :
 id

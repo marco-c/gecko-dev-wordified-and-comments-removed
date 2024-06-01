@@ -243,10 +243,11 @@ ToggleButton
 (
 image
 =
-context
+ContextCompat
 .
 getDrawable
 (
+context
 R
 .
 drawable
@@ -257,10 +258,11 @@ mozac_ic_reader_mode
 !
 imageSelected
 =
-context
+ContextCompat
 .
 getDrawable
 (
+context
 R
 .
 drawable

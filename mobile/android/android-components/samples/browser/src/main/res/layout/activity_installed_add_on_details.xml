@@ -200,7 +200,7 @@ listPreferredItemPaddingEnd
 "
 >
 <
-Switch
+SwitchCompat
 android
 :
 id
@@ -609,7 +609,7 @@ mozac_ic_permissions
 /
 >
 <
-Switch
+SwitchCompat
 android
 :
 id

@@ -184,8 +184,7 @@ assertNotNull
 (
 fragment
 .
-fragmentManager
-?
+parentFragmentManager
 .
 findFragmentByTag
 (

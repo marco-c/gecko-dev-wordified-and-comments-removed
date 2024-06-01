@@ -921,9 +921,9 @@ return
 val
 addonCollectionProvider
 =
-context
-!
-!
+requireContext
+(
+)
 .
 components
 .

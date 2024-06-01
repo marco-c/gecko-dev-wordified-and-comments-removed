@@ -89,12 +89,6 @@ android
 .
 widget
 .
-Switch
-import
-android
-.
-widget
-.
 Toast
 import
 androidx
@@ -104,6 +98,14 @@ appcompat
 app
 .
 AppCompatActivity
+import
+androidx
+.
+appcompat
+.
+widget
+.
+SwitchCompat
 import
 kotlinx
 .
@@ -460,7 +462,7 @@ switch
 =
 findViewById
 <
-Switch
+SwitchCompat
 >
 (
 R
@@ -902,7 +904,7 @@ switch
 =
 findViewById
 <
-Switch
+SwitchCompat
 >
 (
 R
@@ -1056,7 +1058,7 @@ show
 }
 private
 fun
-Switch
+SwitchCompat
 .
 setState
 (

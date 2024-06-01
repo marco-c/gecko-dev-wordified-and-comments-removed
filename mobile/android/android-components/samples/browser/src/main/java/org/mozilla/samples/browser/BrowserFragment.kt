@@ -661,9 +661,9 @@ feature
 =
 MediaSessionFullscreenFeature
 (
-activity
-!
-!
+requireActivity
+(
+)
 components
 .
 store

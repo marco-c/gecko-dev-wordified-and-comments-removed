@@ -1871,10 +1871,11 @@ iconView
 .
 setImageDrawable
 (
-context
+ContextCompat
 .
 getDrawable
 (
+context
 R
 .
 drawable
