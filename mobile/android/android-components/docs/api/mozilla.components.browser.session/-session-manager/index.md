@@ -167,7 +167,7 @@ SessionManager
 .
 kt
 #
-L31
+L34
 )
 This
 class
@@ -3580,7 +3580,7 @@ md
 -
 >
 [
-Unit
+Boolean
 ]
 (
 https
@@ -3602,7 +3602,7 @@ stdlib
 kotlin
 /
 -
-unit
+boolean
 /
 index
 .

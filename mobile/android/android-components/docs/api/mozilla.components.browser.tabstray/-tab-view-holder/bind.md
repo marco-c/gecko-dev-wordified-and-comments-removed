@@ -257,7 +257,7 @@ TabViewHolder
 .
 kt
 #
-L40
+L36
 )
 Displays
 the

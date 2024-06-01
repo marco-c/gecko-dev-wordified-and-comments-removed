@@ -99,7 +99,7 @@ TabViewHolder
 .
 kt
 #
-L22
+L21
 )
 A
 RecyclerView

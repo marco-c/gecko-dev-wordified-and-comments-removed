@@ -184,7 +184,7 @@ SessionManager
 .
 kt
 #
-L231
+L259
 )
 Restores
 sessions
