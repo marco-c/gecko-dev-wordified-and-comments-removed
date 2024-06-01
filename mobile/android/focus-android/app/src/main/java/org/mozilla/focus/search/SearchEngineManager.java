@@ -536,6 +536,7 @@ SearchEngineParser
 load
 (
 assetManager
+engineName
 localePath
 +
 "
@@ -567,6 +568,7 @@ SearchEngineParser
 load
 (
 assetManager
+engineName
 languagePath
 +
 "
@@ -598,6 +600,7 @@ SearchEngineParser
 load
 (
 assetManager
+engineName
 defaultPath
 +
 "
