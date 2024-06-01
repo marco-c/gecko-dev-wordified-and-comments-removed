@@ -144,7 +144,7 @@ LoginsStorage
 .
 kt
 #
-L89
+L91
 )
 Checks
 whether
@@ -189,6 +189,15 @@ login
 can
 be
 persisted
+.
+Note
+that
+this
+method
+is
+not
+thread
+safe
 .
 *
 *

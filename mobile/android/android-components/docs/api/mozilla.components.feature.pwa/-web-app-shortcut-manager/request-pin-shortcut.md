@@ -210,7 +210,7 @@ WebAppShortcutManager
 .
 kt
 #
-L71
+L70
 )
 Request
 to

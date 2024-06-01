@@ -284,6 +284,15 @@ can
 be
 persisted
 .
+Note
+that
+this
+method
+is
+not
+thread
+safe
+.
 *
 *
 Returns
