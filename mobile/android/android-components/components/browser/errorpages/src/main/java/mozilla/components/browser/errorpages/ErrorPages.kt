@@ -1281,5 +1281,12 @@ R
 string
 .
 mozac_browser_errorpages_httpsonly_message
+imageNameRes
+=
+R
+.
+string
+.
+mozac_error_lock
 )
 }
