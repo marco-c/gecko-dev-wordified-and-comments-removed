@@ -409,7 +409,7 @@ pwa
 .
 ext
 .
-isInstallable
+hasLargeIcons
 private
 val
 pwaIconMemoryCache
@@ -932,7 +932,7 @@ null
 &
 manifest
 .
-isInstallable
+hasLargeIcons
 (
 )
 )

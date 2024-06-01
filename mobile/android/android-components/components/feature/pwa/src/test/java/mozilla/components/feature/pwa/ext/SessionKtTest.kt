@@ -167,6 +167,13 @@ mozilla
 .
 com
 "
+display
+=
+WebAppManifest
+.
+DisplayMode
+.
+STANDALONE
 )
 private
 val

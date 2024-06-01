@@ -316,6 +316,13 @@ example
 .
 com
 "
+display
+=
+WebAppManifest
+.
+DisplayMode
+.
+STANDALONE
 icons
 =
 listOf
@@ -484,6 +491,13 @@ example
 .
 com
 "
+display
+=
+WebAppManifest
+.
+DisplayMode
+.
+STANDALONE
 icons
 =
 listOf
