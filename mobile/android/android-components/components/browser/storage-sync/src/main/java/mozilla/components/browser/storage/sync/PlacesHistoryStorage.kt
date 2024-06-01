@@ -2667,6 +2667,8 @@ schemasToIgnore
 listOf
 (
 "
+"
+"
 about
 "
 "
