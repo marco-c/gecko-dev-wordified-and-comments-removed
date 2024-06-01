@@ -97,7 +97,7 @@ WebAppShortcutManager
 .
 kt
 #
-L47
+L42
 )
 #
 #
