@@ -105,7 +105,16 @@ be
 replaced
 by
 the
-realm
+hostname
+or
+a
+description
+of
+the
+protected
+area
+/
+site
 %
 2
 s
@@ -136,7 +145,6 @@ name
 mozac_browser_engine_system_auth_message
 "
 >
-Witryna
 %
 2
 s
@@ -208,7 +216,6 @@ name
 mozac_browser_engine_system_auth_no_realm_message
 "
 >
-Witryna
 %
 1
 s
