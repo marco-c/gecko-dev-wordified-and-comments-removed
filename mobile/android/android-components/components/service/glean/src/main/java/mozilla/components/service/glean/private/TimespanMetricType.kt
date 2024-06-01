@@ -514,6 +514,8 @@ TimespanMetricType
 timeUnit
 elapsedNanos
 )
+}
+}
 /
 /
 Reset
@@ -523,8 +525,6 @@ timerId
 timerId
 =
 null
-}
-}
 }
 }
 /
