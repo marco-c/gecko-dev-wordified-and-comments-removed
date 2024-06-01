@@ -706,6 +706,12 @@ urlAutoCompleteFilter
 new
 UrlAutoCompleteFilter
 (
+)
+;
+urlAutoCompleteFilter
+.
+loadDomainsInBackground
+(
 getContext
 (
 )
