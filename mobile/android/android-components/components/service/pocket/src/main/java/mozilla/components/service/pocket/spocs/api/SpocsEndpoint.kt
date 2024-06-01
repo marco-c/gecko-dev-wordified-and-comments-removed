@@ -66,6 +66,8 @@ service
 pocket
 .
 spocs
+.
+api
 import
 androidx
 .
@@ -98,6 +100,8 @@ service
 pocket
 .
 spocs
+.
+api
 .
 SpocsEndpoint
 .

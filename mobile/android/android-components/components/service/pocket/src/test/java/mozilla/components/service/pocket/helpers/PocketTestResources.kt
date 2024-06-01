@@ -87,6 +87,8 @@ pocket
 .
 spocs
 .
+api
+.
 ApiSpoc
 import
 mozilla
@@ -98,6 +100,8 @@ service
 pocket
 .
 spocs
+.
+api
 .
 ApiSpocShim
 import

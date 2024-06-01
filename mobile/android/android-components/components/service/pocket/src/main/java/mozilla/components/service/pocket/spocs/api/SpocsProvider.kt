@@ -66,6 +66,8 @@ service
 pocket
 .
 spocs
+.
+api
 import
 mozilla
 .
