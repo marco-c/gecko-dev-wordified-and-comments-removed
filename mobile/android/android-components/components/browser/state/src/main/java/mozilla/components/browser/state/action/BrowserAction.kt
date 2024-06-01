@@ -3999,7 +3999,7 @@ the
 [
 WebExtensionState
 .
-enabled
+allowedInPrivateBrowsing
 ]
 flag
 .
