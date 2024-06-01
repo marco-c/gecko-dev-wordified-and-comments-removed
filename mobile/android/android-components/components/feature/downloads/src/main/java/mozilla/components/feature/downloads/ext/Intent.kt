@@ -348,7 +348,7 @@ contentLength
 =
 get
 (
-CONTENT_TYPE
+CONTENT_LENGTH
 )
 as
 ?
