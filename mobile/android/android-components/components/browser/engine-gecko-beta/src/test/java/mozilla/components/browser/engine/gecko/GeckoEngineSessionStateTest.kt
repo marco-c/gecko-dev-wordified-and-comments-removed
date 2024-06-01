@@ -159,6 +159,12 @@ class
 GeckoEngineSessionStateTest
 {
 Test
+Suppress
+(
+"
+DEPRECATION
+"
+)
 fun
 toJSON
 (
