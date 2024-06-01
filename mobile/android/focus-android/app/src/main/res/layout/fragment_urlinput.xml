@@ -626,6 +626,15 @@ textSize
 "
 android
 :
+textColor
+=
+"
+color
+/
+searchHintTextColor
+"
+android
+:
 background
 =
 "
