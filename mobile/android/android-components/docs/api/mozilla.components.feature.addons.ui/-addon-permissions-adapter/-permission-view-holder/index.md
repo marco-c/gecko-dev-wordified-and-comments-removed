@@ -121,7 +121,7 @@ AddonPermissionsAdapter
 .
 kt
 #
-L44
+L51
 )
 A
 view

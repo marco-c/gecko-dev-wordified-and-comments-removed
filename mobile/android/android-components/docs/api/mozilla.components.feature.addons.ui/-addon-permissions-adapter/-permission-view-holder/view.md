@@ -133,5 +133,5 @@ AddonPermissionsAdapter
 .
 kt
 #
-L45
+L52
 )
