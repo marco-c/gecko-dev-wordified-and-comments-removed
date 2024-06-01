@@ -1,6 +1,5 @@
 /
 *
-*
 This
 Source
 Code
@@ -110,15 +109,15 @@ org
 .
 junit
 .
-Test
+Assert
+.
+assertEquals
 import
 org
 .
 junit
 .
-Assert
-.
-assertEquals
+Test
 import
 org
 .

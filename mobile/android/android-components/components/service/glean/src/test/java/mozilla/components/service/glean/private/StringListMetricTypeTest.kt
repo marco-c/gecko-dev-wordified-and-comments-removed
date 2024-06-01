@@ -115,7 +115,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertFalse
 import
 org
 .
@@ -123,7 +123,7 @@ junit
 .
 Assert
 .
-assertFalse
+assertTrue
 import
 org
 .
@@ -150,12 +150,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-java
-.
-lang
-.
-NullPointerException
 ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 RunWith

@@ -14,15 +14,6 @@ mozilla
 .
 telemetry
 .
-Telemetry
-;
-import
-org
-.
-mozilla
-.
-telemetry
-.
 config
 .
 TelemetryConfiguration

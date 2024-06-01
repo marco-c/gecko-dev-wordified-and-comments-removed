@@ -150,12 +150,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-java
-.
-lang
-.
-NullPointerException
 ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 RunWith

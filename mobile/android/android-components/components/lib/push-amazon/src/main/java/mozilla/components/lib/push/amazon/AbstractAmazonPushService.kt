@@ -1,6 +1,5 @@
 /
 *
-*
 This
 Source
 Code
@@ -86,6 +85,12 @@ os
 .
 Bundle
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 com
 .
 amazon
@@ -145,12 +150,6 @@ concept
 push
 .
 PushService
-import
-androidx
-.
-annotation
-.
-VisibleForTesting
 import
 mozilla
 .
