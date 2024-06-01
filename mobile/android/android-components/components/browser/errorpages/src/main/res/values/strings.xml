@@ -669,6 +669,16 @@ be
 replaced
 by
 the
+app
+name
+and
+%
+2
+s
+will
+be
+replaced
+by
 website
 URL
 .
@@ -739,7 +749,9 @@ identity
 via
 certificates
 .
-Firefox
+%
+1
+s
 does
 not
 trust
@@ -747,7 +759,7 @@ trust
 b
 >
 %
-1
+2
 s
 <
 /
@@ -892,7 +904,6 @@ Continue
 /
 string
 >
-0
 <
 !
 -
