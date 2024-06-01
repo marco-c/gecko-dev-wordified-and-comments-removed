@@ -441,6 +441,9 @@ List
 TabSessionState
 >
 )
+:
+Long
+?
 {
 val
 collectionEntity
@@ -454,6 +457,7 @@ TabCollectionAdapter
 entity
 .
 collection
+return
 addTabsToCollection
 (
 collectionEntity
@@ -474,6 +478,9 @@ List
 TabSessionState
 >
 )
+:
+Long
+?
 {
 sessions
 .
@@ -586,6 +593,10 @@ updateTabCollection
 (
 collection
 )
+return
+collection
+.
+id
 }
 /
 *

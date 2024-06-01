@@ -707,6 +707,11 @@ createCollection
 Articles
 "
 )
+var
+id
+:
+Long
+?
 getAllCollections
 (
 )
@@ -735,6 +740,8 @@ tabs
 .
 size
 )
+id
+=
 storage
 .
 addTabsToCollection
@@ -795,6 +802,11 @@ let
 collections
 -
 >
+assertEquals
+(
+1L
+id
+)
 assertEquals
 (
 1
