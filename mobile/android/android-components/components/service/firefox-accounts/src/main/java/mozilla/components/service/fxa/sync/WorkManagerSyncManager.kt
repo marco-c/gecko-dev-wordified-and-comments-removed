@@ -3485,6 +3485,11 @@ GlobalAccountManager
 .
 authError
 (
+"
+RustSyncManager
+.
+sync
+"
 )
 Result
 .
