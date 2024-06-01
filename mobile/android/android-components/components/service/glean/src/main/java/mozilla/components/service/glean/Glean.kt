@@ -458,16 +458,11 @@ Glean
 "
 )
 private
+lateinit
 var
 applicationContext
 :
 Context
-by
-Delegates
-.
-notNull
-(
-)
 /
 /
 Include
