@@ -851,6 +851,9 @@ mockStore
 .
 removeAll
 (
+any
+(
+)
 )
 }
 Test
