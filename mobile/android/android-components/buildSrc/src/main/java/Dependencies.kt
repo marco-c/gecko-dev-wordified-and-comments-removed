@@ -286,7 +286,7 @@ mozilla_glean
 .
 0
 .
-0
+1
 "
 const
 val
