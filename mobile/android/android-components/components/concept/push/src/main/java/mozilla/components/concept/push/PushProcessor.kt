@@ -472,6 +472,7 @@ String
 encoding
 :
 String
+?
 salt
 :
 String
@@ -491,6 +492,11 @@ EncryptedPushMessage
 channelId
 body
 encoding
+?
+:
+"
+aes128gcm
+"
 salt
 ?
 :
