@@ -65,12 +65,14 @@ minSdkVersion
 targetSdkVersion
 25
 versionCode
-8
+9
 versionName
 "
 1
 .
 2
+.
+1
 "
 testInstrumentationRunner
 "
