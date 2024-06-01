@@ -198,6 +198,12 @@ cookiePolicy
 .
 id
 )
+cookieBehaviorPrivateMode
+(
+cookiePolicyPrivateMode
+.
+id
+)
 cookiePurging
 (
 cookiePurging

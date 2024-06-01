@@ -209,6 +209,17 @@ cookieBehavior
 )
 assertEquals
 (
+policy
+.
+cookiePolicyPrivateMode
+.
+id
+setting
+.
+cookieBehavior
+)
+assertEquals
+(
 defaultSafeBrowsing
 .
 sumBy
