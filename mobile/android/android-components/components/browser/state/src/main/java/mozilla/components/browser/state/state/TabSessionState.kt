@@ -326,6 +326,14 @@ emptyMap
 )
 override
 val
+mediaSessionState
+:
+MediaSessionState
+?
+=
+null
+override
+val
 contextId
 :
 String
@@ -393,6 +401,10 @@ Map
 String
 WebExtensionState
 >
+mediaSessionState
+:
+MediaSessionState
+?
 contextId
 :
 String
@@ -418,6 +430,9 @@ engineState
 extensionState
 =
 extensionState
+mediaSessionState
+=
+mediaSessionState
 contextId
 =
 contextId
