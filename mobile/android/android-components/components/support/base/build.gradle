@@ -408,8 +408,14 @@ components
 .
 *
 /
-task
+tasks
+.
+register
+(
+"
 generateComponentEnum
+"
+)
 {
 doLast
 {
