@@ -119,7 +119,7 @@ mozilla
 .
 components
 .
-support
+concept
 .
 base
 .

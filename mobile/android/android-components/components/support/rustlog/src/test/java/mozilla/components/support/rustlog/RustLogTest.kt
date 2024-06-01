@@ -103,7 +103,7 @@ mozilla
 .
 components
 .
-support
+concept
 .
 base
 .
@@ -115,7 +115,7 @@ mozilla
 .
 components
 .
-support
+concept
 .
 base
 .

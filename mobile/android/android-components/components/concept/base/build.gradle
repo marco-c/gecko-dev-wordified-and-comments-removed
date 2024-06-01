@@ -74,6 +74,16 @@ kotlin
 -
 android
 '
+apply
+plugin
+:
+'
+kotlin
+-
+android
+-
+extensions
+'
 android
 {
 compileSdkVersion
@@ -146,7 +156,7 @@ implementation
 Dependencies
 .
 kotlin_stdlib
-testImplementation
+implementation
 Dependencies
 .
 kotlin_coroutines
