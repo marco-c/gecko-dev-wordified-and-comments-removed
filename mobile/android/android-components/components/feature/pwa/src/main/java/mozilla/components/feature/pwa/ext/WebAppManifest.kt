@@ -321,6 +321,9 @@ true
 actionButtonConfig
 =
 null
+showCloseButton
+=
+false
 showShareMenuItem
 =
 true

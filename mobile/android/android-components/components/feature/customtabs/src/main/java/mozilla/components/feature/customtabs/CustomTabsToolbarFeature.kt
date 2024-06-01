@@ -564,6 +564,13 @@ Add
 navigation
 close
 action
+if
+(
+config
+.
+showCloseButton
+)
+{
 addCloseButton
 (
 session
@@ -571,6 +578,7 @@ config
 .
 closeButtonIcon
 )
+}
 /
 /
 Add
