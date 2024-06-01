@@ -1064,6 +1064,13 @@ animateAndDismiss
 (
 )
 {
+dismissView
+.
+setClickable
+(
+false
+)
+;
 final
 String
 animation
