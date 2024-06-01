@@ -1105,6 +1105,9 @@ String
 allowContentMessaging
 :
 Boolean
+supportActions
+:
+Boolean
 onSuccess
 :
 (
@@ -1133,6 +1136,7 @@ GeckoWebExtension
 id
 url
 allowContentMessaging
+supportActions
 )
 .
 also

@@ -507,6 +507,10 @@ eq
 (
 true
 )
+eq
+(
+false
+)
 onSuccess
 .
 capture
@@ -570,6 +574,10 @@ READER_VIEW_EXTENSION_URL
 eq
 (
 true
+)
+eq
+(
+false
 )
 any
 (
