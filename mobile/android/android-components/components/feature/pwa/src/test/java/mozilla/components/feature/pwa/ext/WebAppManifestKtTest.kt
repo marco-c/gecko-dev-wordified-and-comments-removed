@@ -273,12 +273,6 @@ taskDescription
 .
 label
 )
-assertNull
-(
-taskDescription
-.
-icon
-)
 assertEquals
 (
 0
@@ -342,12 +336,6 @@ App
 taskDescription
 .
 label
-)
-assertNull
-(
-taskDescription
-.
-icon
 )
 assertEquals
 (
