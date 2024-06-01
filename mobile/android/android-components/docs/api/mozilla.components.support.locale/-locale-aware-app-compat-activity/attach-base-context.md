@@ -58,6 +58,7 @@ md
 )
 #
 attachBaseContext
+protected
 open
 fun
 attachBaseContext
