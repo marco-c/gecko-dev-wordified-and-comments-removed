@@ -183,6 +183,13 @@ prefs
 SecureAbove22Preferences
 (
 this
+"
+secret
+-
+data
+-
+storage
+"
 )
 prepareProtectedData
 (
