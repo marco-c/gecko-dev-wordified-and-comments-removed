@@ -881,7 +881,13 @@ intent
 Intent
 ?
 )
+:
+Boolean
 {
+var
+resultHandled
+=
+false
 val
 request
 =
@@ -891,6 +897,7 @@ getActivePromptRequest
 ?
 :
 return
+false
 if
 (
 requestCode
@@ -934,6 +941,9 @@ onDismiss
 )
 }
 }
+resultHandled
+=
+true
 }
 if
 (
@@ -959,6 +969,8 @@ provided
 "
 )
 }
+return
+resultHandled
 }
 private
 fun
