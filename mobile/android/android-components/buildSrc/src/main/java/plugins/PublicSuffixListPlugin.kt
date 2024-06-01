@@ -185,7 +185,9 @@ Project
 {
 project
 .
-task
+tasks
+.
+register
 (
 "
 updatePSL

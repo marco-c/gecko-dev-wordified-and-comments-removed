@@ -108,12 +108,6 @@ java
 io
 .
 File
-import
-java
-.
-lang
-.
-Exception
 open
 class
 GVVersionVerifierPlugin
@@ -268,7 +262,9 @@ Project
 {
 project
 .
-task
+tasks
+.
+register
 (
 "
 updateGVNightlyVersion
@@ -311,7 +307,9 @@ configuration
 }
 project
 .
-task
+tasks
+.
+register
 (
 "
 updateGVBetaVersion
@@ -354,7 +352,9 @@ configuration
 }
 project
 .
-task
+tasks
+.
+register
 (
 "
 updateGVStableVersion
