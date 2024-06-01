@@ -192,7 +192,7 @@ LegacySessionManager
 .
 kt
 #
-L240
+L242
 )
 Restores
 sessions
