@@ -142,7 +142,7 @@ ViewHolder
 itemView
 )
 {
-private
+protected
 var
 lastCandidate
 :

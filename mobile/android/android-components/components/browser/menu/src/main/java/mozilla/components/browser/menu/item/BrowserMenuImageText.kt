@@ -193,6 +193,18 @@ menu
 .
 candidate
 .
+MenuCandidate
+import
+mozilla
+.
+components
+.
+concept
+.
+menu
+.
+candidate
+.
 TextMenuCandidate
 import
 mozilla
@@ -551,6 +563,8 @@ context
 :
 Context
 )
+:
+MenuCandidate
 =
 TextMenuCandidate
 (

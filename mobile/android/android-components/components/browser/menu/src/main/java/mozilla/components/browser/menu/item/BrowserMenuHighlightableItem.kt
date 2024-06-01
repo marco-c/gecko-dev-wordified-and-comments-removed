@@ -980,6 +980,8 @@ asCandidate
 (
 context
 )
+as
+TextMenuCandidate
 if
 (
 !
