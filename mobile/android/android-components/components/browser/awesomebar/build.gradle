@@ -147,6 +147,16 @@ support
 ktx
 '
 )
+implementation
+project
+(
+'
+:
+support
+-
+base
+'
+)
 api
 Dependencies
 .

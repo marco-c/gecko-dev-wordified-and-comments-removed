@@ -115,16 +115,6 @@ concept
 .
 storage
 .
-BookmarksStorage
-import
-mozilla
-.
-components
-.
-concept
-.
-storage
-.
 HistoryStorage
 import
 mozilla
@@ -194,7 +184,7 @@ instance
 of
 the
 [
-BookmarksStorage
+HistoryStorage
 ]
 used
 *
