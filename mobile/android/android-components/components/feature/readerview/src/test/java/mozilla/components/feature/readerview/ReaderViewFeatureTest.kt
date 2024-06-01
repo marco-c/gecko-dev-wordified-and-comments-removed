@@ -1670,7 +1670,7 @@ tab
 (
 )
 {
-var
+val
 readerViewStatusChanges
 =
 mutableListOf
