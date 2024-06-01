@@ -1126,9 +1126,9 @@ Updated
 Glean
 to
 version
-34
+35
 .
-1
+0
 .
 0
 (
@@ -1152,9 +1152,9 @@ releases
 /
 tag
 /
-v34
+v35
 .
-1
+0
 .
 0
 )
