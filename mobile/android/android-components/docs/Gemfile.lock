@@ -2460,6 +2460,16 @@ minima
 .
 0
 )
+nokogiri
+(
+>
+=
+1
+.
+10
+.
+4
+)
 rubyzip
 (
 >
