@@ -888,13 +888,6 @@ exists
 )
 )
 ;
-Thread
-.
-sleep
-(
-5000
-)
-;
 TestHelper
 .
 floatingEraseButton
