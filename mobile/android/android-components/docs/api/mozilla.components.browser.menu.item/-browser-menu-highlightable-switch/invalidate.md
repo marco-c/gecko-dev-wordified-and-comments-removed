@@ -36,7 +36,7 @@ md
 )
 /
 [
-BrowserMenuHighlightableItem
+BrowserMenuHighlightableSwitch
 ]
 (
 index
@@ -144,11 +144,11 @@ menu
 /
 item
 /
-BrowserMenuHighlightableItem
+BrowserMenuHighlightableSwitch
 .
 kt
 #
-L88
+L52
 )
 Overrides
 [
