@@ -118,4 +118,14 @@ customtabs
 .
 1
 '
+testCompile
+'
+junit
+:
+junit
+:
+4
+.
+12
+'
 }
