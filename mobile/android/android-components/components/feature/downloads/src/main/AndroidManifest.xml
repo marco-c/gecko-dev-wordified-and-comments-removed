@@ -207,6 +207,13 @@ REQUEST_INSTALL_PACKAGES
 >
 <
 application
+android
+:
+supportsRtl
+=
+"
+true
+"
 >
 <
 provider
