@@ -101,14 +101,6 @@ View
 import
 android
 .
-view
-.
-inputmethod
-.
-InputMethodManager
-import
-android
-.
 widget
 .
 ImageView
@@ -1503,11 +1495,6 @@ run
 {
 showKeyboard
 (
-flags
-=
-InputMethodManager
-.
-SHOW_FORCED
 )
 requestFocus
 (
