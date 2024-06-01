@@ -223,6 +223,14 @@ mozilla
 .
 geckoview
 .
+WebExtensionController
+import
+org
+.
+mozilla
+.
+geckoview
+.
 WebExtension
 as
 GeckoNativeWebExtension
@@ -282,6 +290,9 @@ supportActions
 Boolean
 =
 false
+webExtensionController
+:
+WebExtensionController
 val
 nativeExtension
 :
@@ -295,6 +306,7 @@ createWebExtensionFlags
 (
 allowContentMessaging
 )
+webExtensionController
 )
 private
 val
@@ -333,6 +345,9 @@ constructor
 native
 :
 GeckoNativeWebExtension
+webExtensionController
+:
+WebExtensionController
 )
 :
 this
@@ -345,6 +360,7 @@ native
 location
 true
 true
+webExtensionController
 native
 )
 /

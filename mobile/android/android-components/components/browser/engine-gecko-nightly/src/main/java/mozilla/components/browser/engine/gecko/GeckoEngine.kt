@@ -1164,6 +1164,11 @@ id
 url
 allowContentMessaging
 supportActions
+webExtensionController
+=
+runtime
+.
+webExtensionController
 )
 installWebExtension
 (
@@ -1523,6 +1528,9 @@ GeckoWebExtension
 it
 !
 !
+runtime
+.
+webExtensionController
 )
 webExtensionDelegate
 ?
@@ -1910,6 +1918,11 @@ id
 it
 .
 location
+webExtensionController
+=
+runtime
+.
+webExtensionController
 )
 }
 webExtensionDelegate
@@ -2020,6 +2033,11 @@ id
 webExtension
 .
 location
+webExtensionController
+=
+runtime
+.
+webExtensionController
 )
 if
 (
@@ -2091,6 +2109,9 @@ onInstallPermissionRequest
 GeckoWebExtension
 (
 ext
+runtime
+.
+webExtensionController
 )
 )
 )
