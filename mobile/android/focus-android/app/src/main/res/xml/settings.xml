@@ -316,6 +316,15 @@ pref_key_performance_block_webfonts
 "
 android
 :
+summary
+=
+"
+string
+/
+preference_performance_block_webfonts_summary
+"
+android
+:
 defaultValue
 =
 "
