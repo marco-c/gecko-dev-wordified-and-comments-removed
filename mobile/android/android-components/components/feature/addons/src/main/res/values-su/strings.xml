@@ -1677,7 +1677,7 @@ name
 mozac_feature_addons_settings_on
 "
 >
-Hurung
+Aktip
 <
 /
 string
@@ -1803,7 +1803,7 @@ name
 mozac_feature_addons_enabled
 "
 >
-Dihurungkeun
+Diaktipkeun
 <
 /
 string
@@ -3745,7 +3745,7 @@ mozac_feature_addons_successfully_enabled
 "
 >
 Laksana
-ngahurungkeun
+ngaktipkeun
 %
 1
 s
@@ -3790,7 +3790,7 @@ mozac_feature_addons_failed_to_enable
 "
 >
 Gagal
-ngahurungkeun
+ngaktipkeun
 %
 1
 s
