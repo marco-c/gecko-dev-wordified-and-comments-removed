@@ -45,7 +45,7 @@ md
 )
 /
 [
-onHandleIntent
+onHandleWork
 ]
 (
 .
@@ -54,14 +54,14 @@ on
 -
 handle
 -
-intent
+work
 .
 md
 )
 #
-onHandleIntent
+onHandleWork
 fun
-onHandleIntent
+onHandleWork
 (
 intent
 :
@@ -69,7 +69,6 @@ intent
 ERROR
 CLASS
 >
-?
 )
 :
 [
@@ -153,5 +152,5 @@ CrashHandlerService
 .
 kt
 #
-L23
+L29
 )

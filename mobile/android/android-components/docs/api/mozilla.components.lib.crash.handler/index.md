@@ -79,6 +79,8 @@ md
 |
 class
 CrashHandlerService
+:
+JobIntentService
 <
 br
 >

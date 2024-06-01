@@ -140,7 +140,7 @@ AddonUpdater
 .
 kt
 #
-L87
+L88
 )
 The
 addon

@@ -180,7 +180,7 @@ AddonUpdater
 .
 kt
 #
-L54
+L55
 )
 Unregisters
 the
