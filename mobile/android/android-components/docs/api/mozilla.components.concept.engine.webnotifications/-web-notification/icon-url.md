@@ -143,10 +143,11 @@ WebNotification
 .
 kt
 #
-L30
+L24
 )
-Medium
-image
+Large
+icon
+url
 to
 display
 in
@@ -176,8 +177,9 @@ setLargeIcon
 Property
 iconUrl
 -
-Medium
-image
+Large
+icon
+url
 to
 display
 in

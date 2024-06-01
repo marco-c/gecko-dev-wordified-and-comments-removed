@@ -142,7 +142,7 @@ WebNotification
 .
 kt
 #
-L33
+L27
 )
 Preference
 flag
@@ -152,14 +152,6 @@ the
 notification
 should
 remain
-active
-until
-the
-user
-clicks
-or
-dismisses
-it
 .
 #
 #
@@ -175,12 +167,4 @@ the
 notification
 should
 remain
-active
-until
-the
-user
-clicks
-or
-dismisses
-it
 .
