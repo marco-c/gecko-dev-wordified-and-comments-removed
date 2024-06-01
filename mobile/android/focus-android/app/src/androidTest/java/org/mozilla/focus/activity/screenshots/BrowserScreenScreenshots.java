@@ -648,7 +648,7 @@ R
 .
 id
 .
-url_edit
+urlView
 )
 )
 .
@@ -714,7 +714,7 @@ R
 .
 id
 .
-url_edit
+urlView
 )
 )
 .

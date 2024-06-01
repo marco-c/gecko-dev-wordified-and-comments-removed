@@ -476,7 +476,7 @@ R
 .
 id
 .
-url_edit
+urlView
 )
 )
 .
@@ -546,7 +546,7 @@ R
 .
 id
 .
-menu
+menuView
 )
 )
 .
@@ -641,7 +641,7 @@ R
 .
 id
 .
-menu
+menuView
 )
 )
 .

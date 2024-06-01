@@ -317,7 +317,7 @@ R
 .
 id
 .
-menu
+menuView
 )
 )
 .
@@ -357,7 +357,7 @@ R
 .
 id
 .
-url_edit
+urlView
 )
 )
 .

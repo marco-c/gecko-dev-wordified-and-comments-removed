@@ -557,7 +557,7 @@ R
 .
 id
 .
-menu
+menuView
 )
 isDisplayed
 (
@@ -629,7 +629,7 @@ debug
 :
 id
 /
-url_edit
+urlView
 "
 )
 .
@@ -707,7 +707,7 @@ debug
 :
 id
 /
-search_hint
+searchView
 "
 )
 .

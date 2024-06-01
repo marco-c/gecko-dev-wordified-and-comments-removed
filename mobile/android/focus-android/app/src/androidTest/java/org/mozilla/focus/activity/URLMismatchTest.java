@@ -525,7 +525,7 @@ R
 .
 id
 .
-url_edit
+urlView
 )
 )
 .
@@ -570,7 +570,7 @@ R
 .
 id
 .
-search_hint
+searchView
 )
 )
 .
@@ -691,7 +691,7 @@ R
 .
 id
 .
-url_edit
+urlView
 )
 )
 .

@@ -1279,8 +1279,6 @@ return
 isAnimating
 =
 true
-run
-{
 val
 xyOffset
 =
@@ -1544,6 +1542,7 @@ dismiss
 else
 {
 clearView
+?
 .
 alpha
 =
@@ -1555,7 +1554,6 @@ false
 }
 }
 )
-}
 if
 (
 isOverlay
