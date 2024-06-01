@@ -205,8 +205,6 @@ features
 After
 merge
 -
-[
-]
 *
 *
 Milestone
@@ -255,8 +253,6 @@ in
 development
 .
 -
-[
-]
 *
 *
 Breaking
