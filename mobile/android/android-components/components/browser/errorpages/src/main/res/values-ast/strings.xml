@@ -177,7 +177,7 @@ a
 esti
 problema
 o
-fallu
+error
 nun
 ta
 disponible
@@ -475,8 +475,10 @@ conectesti
 correutamente
 al
 sirvidor
-el
-fallu
+l
+\
+'
+error
 quiciabes
 seya
 temporal
@@ -2939,7 +2941,7 @@ name
 mozac_browser_errorpages_corrupted_content_title
 "
 >
-Fallu
+Error
 de
 conten
 u
@@ -3006,7 +3008,7 @@ porque
 se
 detect
 un
-fallu
+error
 na
 tresmisi
 n
@@ -3121,7 +3123,7 @@ porque
 se
 detect
 un
-fallu
+error
 na
 tresmisi
 n
@@ -3195,7 +3197,7 @@ name
 mozac_browser_errorpages_invalid_content_encoding_title
 "
 >
-Fallu
+Error
 de
 la
 codificaci
@@ -4077,7 +4079,7 @@ dalguna
 falta
 u
 otru
-fallu
+error
 tipogr
 ficu
 ?
