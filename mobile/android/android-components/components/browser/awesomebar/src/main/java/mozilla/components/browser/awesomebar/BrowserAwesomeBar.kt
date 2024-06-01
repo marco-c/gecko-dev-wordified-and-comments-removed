@@ -964,11 +964,6 @@ scope
 .
 launch
 {
-suggestionsAdapter
-.
-optionallyClearSuggestions
-(
-)
 providers
 .
 forEach

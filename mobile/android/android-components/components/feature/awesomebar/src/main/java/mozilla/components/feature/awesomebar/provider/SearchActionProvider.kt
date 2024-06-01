@@ -386,11 +386,4 @@ emitSearchActionClickedFact
 )
 )
 }
-override
-val
-shouldClearSuggestions
-:
-Boolean
-=
-false
 }
