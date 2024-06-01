@@ -4552,11 +4552,13 @@ image
 )
 }
 else
+{
 title
 .
 toString
 (
 )
+}
 is
 HitResult
 .

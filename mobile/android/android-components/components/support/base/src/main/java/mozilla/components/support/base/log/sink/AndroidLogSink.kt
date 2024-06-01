@@ -236,6 +236,7 @@ getStacktraceAsString
 "
 }
 else
+{
 message
 ?
 :
@@ -254,6 +255,7 @@ empty
 )
 "
 )
+}
 android
 .
 util

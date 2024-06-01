@@ -3841,12 +3841,6 @@ view
 )
 }
 }
-Suppress
-(
-"
-DEPRECATION
-"
-)
 /
 /
 Deprecation
@@ -3873,6 +3867,12 @@ components
 issues
 /
 8514
+Suppress
+(
+"
+DEPRECATION
+"
+)
 class
 ImageHandler
 (

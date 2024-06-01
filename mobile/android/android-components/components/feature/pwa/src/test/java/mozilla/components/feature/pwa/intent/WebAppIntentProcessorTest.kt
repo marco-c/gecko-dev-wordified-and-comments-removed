@@ -349,7 +349,7 @@ mockito
 .
 Mockito
 .
-when
+verify
 import
 org
 .
@@ -357,7 +357,7 @@ mockito
 .
 Mockito
 .
-verify
+when
 RunWith
 (
 AndroidJUnit4

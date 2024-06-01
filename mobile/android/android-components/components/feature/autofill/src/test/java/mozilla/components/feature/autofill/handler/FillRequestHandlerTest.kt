@@ -341,7 +341,7 @@ mockito
 .
 Mockito
 .
-when
+doReturn
 import
 org
 .
@@ -349,7 +349,7 @@ mockito
 .
 Mockito
 .
-doReturn
+when
 import
 org
 .

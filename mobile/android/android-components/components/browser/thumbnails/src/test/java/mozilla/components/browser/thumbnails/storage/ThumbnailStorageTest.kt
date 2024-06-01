@@ -223,7 +223,7 @@ mockito
 .
 Mockito
 .
-when
+spy
 import
 org
 .
@@ -231,7 +231,7 @@ mockito
 .
 Mockito
 .
-spy
+when
 RunWith
 (
 AndroidJUnit4

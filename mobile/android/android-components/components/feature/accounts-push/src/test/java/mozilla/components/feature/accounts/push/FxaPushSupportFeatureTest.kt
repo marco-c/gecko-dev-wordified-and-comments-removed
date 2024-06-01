@@ -206,7 +206,7 @@ mockito
 .
 Mockito
 .
-when
+verify
 import
 org
 .
@@ -214,7 +214,7 @@ mockito
 .
 Mockito
 .
-verify
+when
 import
 org
 .

@@ -499,6 +499,7 @@ clearColorFilter
 )
 }
 else
+{
 trackingProtectionTint
 ?
 .
@@ -508,6 +509,7 @@ setColorFilter
 (
 it
 )
+}
 }
 }
 companion

@@ -2001,9 +2001,11 @@ it
 null
 }
 else
+{
 resolveInfo
 .
 activityInfo
+}
 }
 companion
 object
