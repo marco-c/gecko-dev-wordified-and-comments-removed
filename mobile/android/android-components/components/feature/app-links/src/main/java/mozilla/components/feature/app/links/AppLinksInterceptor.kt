@@ -471,6 +471,12 @@ available
 .
 *
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 AppLinksInterceptor
 (
@@ -529,6 +535,8 @@ AppLinksUseCases
 (
 context
 launchInApp
+alwaysDeniedSchemes
+=
 alwaysDeniedSchemes
 )
 private
