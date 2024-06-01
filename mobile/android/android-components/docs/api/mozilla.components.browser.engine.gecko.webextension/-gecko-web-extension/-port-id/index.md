@@ -128,7 +128,7 @@ GeckoWebExtension
 .
 kt
 #
-L39
+L47
 )
 Uniquely
 identifies
