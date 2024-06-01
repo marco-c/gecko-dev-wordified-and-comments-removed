@@ -760,6 +760,14 @@ R
 string
 .
 notification_browsing_session_channel_description
+getString
+(
+R
+.
+string
+.
+app_name
+)
 )
 ;
 final
