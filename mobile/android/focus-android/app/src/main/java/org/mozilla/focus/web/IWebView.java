@@ -35,6 +35,14 @@ int
 progress
 )
 ;
+void
+onURLChanged
+(
+final
+String
+url
+)
+;
 boolean
 handleExternalUrl
 (
