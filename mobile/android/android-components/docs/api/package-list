@@ -4820,6 +4820,15 @@ feature
 .
 addons
 .
+migration
+mozilla
+.
+components
+.
+feature
+.
+addons
+.
 ui
 mozilla
 .
