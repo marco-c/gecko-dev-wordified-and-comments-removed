@@ -1121,6 +1121,13 @@ originalUrl
 return
 if
 (
+strippedText
+.
+isNotBlank
+(
+)
+&
+&
 textDirectionHeuristic
 .
 isRtl
