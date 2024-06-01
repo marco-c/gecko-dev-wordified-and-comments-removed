@@ -688,6 +688,15 @@ mozac_browser_toolbar_separator
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+mozac_browser_toolbar_content_description_site_info
+"
+android
+:
 src
 =
 "
