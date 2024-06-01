@@ -228,6 +228,10 @@ kotlin_stdlib
 implementation
 Dependencies
 .
+androidx_core_ktx
+implementation
+Dependencies
+.
 google_material
 implementation
 Dependencies
