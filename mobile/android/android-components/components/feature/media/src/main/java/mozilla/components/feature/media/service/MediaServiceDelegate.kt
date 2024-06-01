@@ -827,6 +827,10 @@ request
 state
 .
 media
+.
+aggregate
+.
+activeTabId
 )
 }
 updateMediaSession
