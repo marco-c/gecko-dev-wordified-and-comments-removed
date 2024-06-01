@@ -591,7 +591,7 @@ contains
 PREF_LAST_VERIFIED
 )
 )
-assertFalse
+assertTrue
 (
 preference
 (

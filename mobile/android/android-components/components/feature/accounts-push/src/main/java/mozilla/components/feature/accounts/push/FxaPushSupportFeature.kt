@@ -929,11 +929,6 @@ remove
 PREF_LAST_VERIFIED
 )
 .
-remove
-(
-PREF_FXA_SCOPE
-)
-.
 apply
 (
 )
