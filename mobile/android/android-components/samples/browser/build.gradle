@@ -634,6 +634,16 @@ project
 (
 '
 :
+feature
+-
+webnotifications
+'
+)
+implementation
+project
+(
+'
+:
 ui
 -
 autocomplete
