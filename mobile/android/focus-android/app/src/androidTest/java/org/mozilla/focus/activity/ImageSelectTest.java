@@ -788,9 +788,6 @@ you
 erase
 Firefox
 Focus
-(
-Dev
-)
 history
 .
 "
