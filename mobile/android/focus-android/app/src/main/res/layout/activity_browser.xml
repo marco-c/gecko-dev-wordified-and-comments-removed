@@ -225,6 +225,13 @@ layout_weight
 "
 1
 "
+android
+:
+visibility
+=
+"
+invisible
+"
 /
 >
 <
