@@ -138,7 +138,7 @@ WebExtensionToolbarFeature
 .
 kt
 #
-L57
+L59
 )
 Overrides
 [
