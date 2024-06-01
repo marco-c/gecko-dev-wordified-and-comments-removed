@@ -22,6 +22,17 @@ modules
 .
 buildscript
 {
+ext
+.
+support_libraries_version
+=
+'
+26
+.
+0
+.
+2
+'
 repositories
 {
 jcenter
