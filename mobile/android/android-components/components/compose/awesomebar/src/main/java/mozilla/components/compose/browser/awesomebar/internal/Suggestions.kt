@@ -66,6 +66,8 @@ compose
 browser
 .
 awesomebar
+.
+internal
 import
 androidx
 .
@@ -99,6 +101,18 @@ mozilla
 .
 components
 .
+compose
+.
+browser
+.
+awesomebar
+.
+AwesomeBarColors
+import
+mozilla
+.
+components
+.
 concept
 .
 awesomebar
@@ -117,6 +131,9 @@ AwesomeBar
 .
 Suggestion
 >
+colors
+:
+AwesomeBarColors
 onSuggestionClicked
 :
 (
@@ -152,6 +169,7 @@ suggestion
 Suggestion
 (
 suggestion
+colors
 onSuggestionClicked
 onAutoComplete
 )

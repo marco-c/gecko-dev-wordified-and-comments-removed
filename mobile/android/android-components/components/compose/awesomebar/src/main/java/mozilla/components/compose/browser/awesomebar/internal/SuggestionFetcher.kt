@@ -66,6 +66,8 @@ compose
 browser
 .
 awesomebar
+.
+internal
 import
 androidx
 .
