@@ -245,7 +245,7 @@ android
 .
 view
 .
-exitImmersiveModeIfNeeded
+exitImmersiveMode
 import
 org
 .
@@ -626,7 +626,7 @@ else
 activity
 ?
 .
-exitImmersiveModeIfNeeded
+exitImmersiveMode
 (
 )
 }
