@@ -1185,7 +1185,6 @@ true
 ;
 }
 public
-final
 void
 onAutocomplete
 (
