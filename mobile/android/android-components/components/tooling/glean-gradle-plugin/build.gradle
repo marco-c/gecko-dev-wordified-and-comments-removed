@@ -201,7 +201,7 @@ plugin
 {
 Versions
 .
-mozilla_glean_plugin
+mozilla_glean
 }
 "
 implementation
