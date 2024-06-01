@@ -85,6 +85,14 @@ content
 .
 Intent
 .
+ACTION_MAIN
+import
+android
+.
+content
+.
+Intent
+.
 ACTION_SEND
 import
 android
@@ -699,6 +707,7 @@ action
 )
 {
 ACTION_VIEW
+ACTION_MAIN
 ACTION_NDEF_DISCOVERED
 -
 >
