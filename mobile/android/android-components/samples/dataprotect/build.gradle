@@ -47,7 +47,7 @@ dataprotect
 minSdkVersion
 config
 .
-minSdkVersion_dataprotect
+minSdkVersion
 targetSdkVersion
 config
 .
