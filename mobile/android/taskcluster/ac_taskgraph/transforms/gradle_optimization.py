@@ -90,6 +90,25 @@ component
 "
 ]
             
+if
+component
+=
+=
+"
+browser
+"
+:
+                
+component
+=
+"
+browser
+-
+engine
+-
+gecko
+"
+            
 dependencies
 =
 deps_per_component
