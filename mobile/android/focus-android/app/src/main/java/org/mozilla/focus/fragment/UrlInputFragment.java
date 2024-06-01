@@ -2068,7 +2068,7 @@ remove
 this
 )
 .
-commit
+commitAllowingStateLoss
 (
 )
 ;
