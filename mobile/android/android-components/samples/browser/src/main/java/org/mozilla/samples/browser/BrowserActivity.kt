@@ -288,12 +288,10 @@ getSessionId
 (
 )
 supportFragmentManager
-?
 .
 beginTransaction
 (
 )
-?
 .
 apply
 {

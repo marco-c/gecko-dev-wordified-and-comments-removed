@@ -418,7 +418,6 @@ onCancel
 dialog
 :
 DialogInterface
-?
 )
 {
 super

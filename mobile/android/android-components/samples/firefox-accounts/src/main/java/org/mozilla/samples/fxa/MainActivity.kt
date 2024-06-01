@@ -961,7 +961,6 @@ code
 state
 )
 supportFragmentManager
-?
 .
 popBackStack
 (
@@ -1085,12 +1084,10 @@ String
 )
 {
 supportFragmentManager
-?
 .
 beginTransaction
 (
 )
-?
 .
 apply
 {

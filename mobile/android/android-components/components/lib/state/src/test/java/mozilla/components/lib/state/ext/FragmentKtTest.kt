@@ -625,14 +625,13 @@ owner
 .
 lifecycleRegistry
 .
-markState
-(
+currentState
+=
 Lifecycle
 .
 State
 .
 STARTED
-)
 assertTrue
 (
 latch

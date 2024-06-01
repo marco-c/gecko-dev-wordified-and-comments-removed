@@ -785,7 +785,6 @@ onCancel
 dialog
 :
 DialogInterface
-?
 )
 {
 super

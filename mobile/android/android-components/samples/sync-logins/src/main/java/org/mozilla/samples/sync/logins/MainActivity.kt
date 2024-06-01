@@ -887,12 +887,10 @@ String
 )
 {
 supportFragmentManager
-?
 .
 beginTransaction
 (
 )
-?
 .
 apply
 {
@@ -964,7 +962,6 @@ await
 (
 )
 supportFragmentManager
-?
 .
 popBackStack
 (

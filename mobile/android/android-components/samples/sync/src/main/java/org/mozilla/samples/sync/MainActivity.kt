@@ -1150,7 +1150,6 @@ LoginFragment
 launch
 {
 supportFragmentManager
-?
 .
 popBackStack
 (
@@ -1243,12 +1242,10 @@ String
 )
 {
 supportFragmentManager
-?
 .
 beginTransaction
 (
 )
-?
 .
 apply
 {

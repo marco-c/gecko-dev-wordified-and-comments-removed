@@ -177,6 +177,10 @@ androidx_core_ktx
 implementation
 Dependencies
 .
+androidx_localbroadcastmanager
+implementation
+Dependencies
+.
 kotlin_coroutines
 implementation
 Dependencies

@@ -950,6 +950,12 @@ if
 isAlreadyADialogCreated
 (
 )
+&
+&
+fragmentManager
+!
+=
+null
 )
 {
 dialog
