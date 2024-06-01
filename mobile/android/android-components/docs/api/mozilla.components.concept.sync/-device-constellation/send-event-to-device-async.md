@@ -201,7 +201,7 @@ Devices
 .
 kt
 #
-L77
+L71
 )
 Send
 an
