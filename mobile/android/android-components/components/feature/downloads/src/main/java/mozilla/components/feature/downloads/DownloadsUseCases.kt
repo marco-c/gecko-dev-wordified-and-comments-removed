@@ -168,7 +168,7 @@ tabId
 String
 downloadId
 :
-String
+Long
 )
 {
 store

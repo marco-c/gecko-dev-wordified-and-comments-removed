@@ -220,6 +220,16 @@ utils
 '
 )
 implementation
+project
+(
+'
+:
+ui
+-
+icons
+'
+)
+implementation
 Dependencies
 .
 androidx_core_ktx

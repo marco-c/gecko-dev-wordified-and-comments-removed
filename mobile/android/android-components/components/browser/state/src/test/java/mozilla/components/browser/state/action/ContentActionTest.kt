@@ -1762,9 +1762,7 @@ mock
 )
 doReturn
 (
-"
-1337
-"
+1337L
 )
 .
 when
@@ -1813,9 +1811,7 @@ tab
 id
 downloadId
 =
-"
 1337
-"
 )
 )
 .
@@ -1854,9 +1850,7 @@ mock
 )
 doReturn
 (
-"
-1337
-"
+1337L
 )
 .
 when
@@ -1905,9 +1899,7 @@ tab
 id
 downloadId
 =
-"
 4223
-"
 )
 )
 .

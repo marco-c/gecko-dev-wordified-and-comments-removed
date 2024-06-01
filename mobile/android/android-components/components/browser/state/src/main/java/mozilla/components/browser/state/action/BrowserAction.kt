@@ -1371,7 +1371,7 @@ String
 val
 downloadId
 :
-String
+Long
 )
 :
 ContentAction

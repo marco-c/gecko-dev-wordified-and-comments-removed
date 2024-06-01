@@ -69,6 +69,14 @@ ext
 import
 android
 .
+app
+.
+DownloadManager
+.
+EXTRA_DOWNLOAD_ID
+import
+android
+.
 content
 .
 Intent
@@ -254,6 +262,9 @@ destinationDirectory
 REFERRER
 to
 referrerUrl
+EXTRA_DOWNLOAD_ID
+to
+id
 )
 )
 }
@@ -296,6 +307,13 @@ destination
 getString
 (
 INTENT_DESTINATION
+)
+val
+id
+=
+getLong
+(
+EXTRA_DOWNLOAD_ID
 )
 if
 (
@@ -351,5 +369,8 @@ getString
 (
 REFERRER
 )
+id
+=
+id
 )
 }
