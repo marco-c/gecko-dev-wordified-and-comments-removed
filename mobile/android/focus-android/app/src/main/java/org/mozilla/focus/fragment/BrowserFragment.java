@@ -3233,7 +3233,7 @@ goBack
 }
 public
 void
-loadURL
+loadUrl
 (
 final
 String

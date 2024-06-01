@@ -2187,7 +2187,7 @@ isVisible
 {
 browserFragment
 .
-loadURL
+loadUrl
 (
 url
 )
