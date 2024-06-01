@@ -291,7 +291,11 @@ decode
 filename
 Base64
 .
-DEFAULT
+NO_WRAP
+or
+Base64
+.
+URL_SAFE
 )
 )
 searchEngineList
@@ -424,7 +428,11 @@ toByteArray
 )
 Base64
 .
-DEFAULT
+NO_WRAP
+or
+Base64
+.
+URL_SAFE
 )
 return
 AtomicFile
