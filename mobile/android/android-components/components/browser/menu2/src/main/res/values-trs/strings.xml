@@ -58,7 +58,7 @@ name
 mozac_browser_menu2_button
 "
 >
-Meniu
+Men
 <
 /
 string
@@ -97,8 +97,11 @@ name
 mozac_browser_menu2_highlighted
 "
 >
-Eviden
-iat
+Sa
+a
+\
+'
+an
 <
 /
 string
