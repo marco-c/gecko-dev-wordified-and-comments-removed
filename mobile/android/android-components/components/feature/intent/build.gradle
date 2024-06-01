@@ -207,12 +207,12 @@ kotlin_stdlib
 testImplementation
 project
 (
-"
+'
 :
-browser
+support
 -
-session
-"
+test
+'
 )
 testImplementation
 project
@@ -222,6 +222,8 @@ project
 support
 -
 test
+-
+libstate
 '
 )
 testImplementation

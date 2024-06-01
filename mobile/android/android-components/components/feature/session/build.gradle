@@ -176,16 +176,6 @@ project
 (
 '
 :
-browser
--
-session
-'
-)
-implementation
-project
-(
-'
-:
 concept
 -
 storage

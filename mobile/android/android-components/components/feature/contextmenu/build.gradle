@@ -274,16 +274,6 @@ project
 (
 '
 :
-browser
--
-session
-'
-)
-testImplementation
-project
-(
-'
-:
 support
 -
 test

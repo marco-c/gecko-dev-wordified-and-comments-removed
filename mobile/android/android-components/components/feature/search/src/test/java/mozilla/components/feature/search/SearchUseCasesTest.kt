@@ -838,7 +838,7 @@ newTabUseCase
 :
 TabsUseCases
 .
-AddNewPrivateTabUseCase
+AddNewTabUseCase
 =
 mock
 (
@@ -847,7 +847,7 @@ whenever
 (
 tabsUseCases
 .
-addPrivateTab
+addTab
 )
 .
 thenReturn
@@ -866,6 +866,9 @@ SessionState
 Source
 .
 NONE
+private
+=
+true
 )
 )
 .
@@ -900,6 +903,9 @@ parentId
 =
 null
 selectTab
+=
+true
+private
 =
 true
 source
@@ -952,7 +958,7 @@ newTabUseCase
 :
 TabsUseCases
 .
-AddNewPrivateTabUseCase
+AddNewTabUseCase
 =
 mock
 (
@@ -961,7 +967,7 @@ whenever
 (
 tabsUseCases
 .
-addPrivateTab
+addTab
 )
 .
 thenReturn
@@ -987,6 +993,9 @@ test
 -
 parent
 "
+private
+=
+true
 )
 )
 .
@@ -1032,6 +1041,9 @@ test
 parent
 "
 selectTab
+=
+true
+private
 =
 true
 source
