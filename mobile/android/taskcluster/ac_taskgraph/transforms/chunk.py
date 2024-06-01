@@ -22,7 +22,7 @@ from
 taskgraph
 import
 MAX_DEPENDENCIES
-MAX_REGULAR_DEPS
+MAX_NUMBER_OF_DEPS
 =
 MAX_DEPENDENCIES
 -
@@ -37,6 +37,7 @@ build_task_definition
 (
 orig_task
 deps
+soft_deps
 count
 )
 :
@@ -55,7 +56,29 @@ dependencies
 '
 ]
 =
+{
+label
+:
+label
+for
+label
+in
 deps
+}
+    
+task
+[
+'
+soft
+-
+dependencies
+'
+]
+=
+list
+(
+soft_deps
+)
     
 task
 [
@@ -192,21 +215,31 @@ count
 =
 1
         
-deps
+soft_deps
 =
-{
-}
+set
+(
+)
+        
+regular_deps
+=
+set
+(
+)
         
 chunked_labels
 =
-{
-}
+set
+(
+)
         
-dep_labels
+soft_dep_labels
 =
+list
+(
 task
 .
-pop
+get
 (
 '
 soft
@@ -216,10 +249,11 @@ dependencies
 [
 ]
 )
+)
         
-dep_labels
-.
-extend
+regular_dep_labels
+=
+list
 (
 task
 .
@@ -237,34 +271,60 @@ keys
 )
 )
         
-dep_labels
+all_dep_labels
 =
 sorted
 (
-dep_labels
+set
+(
+soft_dep_labels
++
+regular_dep_labels
+)
 )
         
 for
 dep_label
 in
-dep_labels
+all_dep_labels
 :
             
-deps
-[
+if
 dep_label
-]
-=
+in
+regular_dep_labels
+:
+                
+regular_deps
+.
+add
+(
 dep_label
+)
+            
+else
+:
+                
+soft_deps
+.
+add
+(
+dep_label
+)
             
 if
 len
 (
-deps
+regular_deps
+)
++
+len
+(
+soft_deps
 )
 =
 =
-MAX_REGULAR_DEPS
+MAX_NUMBER_OF_DEPS
 :
                 
 chunked_task
@@ -272,7 +332,8 @@ chunked_task
 build_task_definition
 (
 task
-deps
+regular_deps
+soft_deps
 count
 )
                 
@@ -285,19 +346,26 @@ chunked_task
 )
                 
 chunked_labels
-[
+.
+add
+(
 chunked_label
-]
-=
-chunked_label
+)
                 
 yield
 chunked_task
                 
-deps
-=
-{
-}
+soft_deps
+.
+clear
+(
+)
+                
+regular_deps
+.
+clear
+(
+)
                 
 count
 +
@@ -305,7 +373,9 @@ count
 1
         
 if
-deps
+regular_deps
+or
+soft_deps
 :
             
 chunked_task
@@ -313,7 +383,8 @@ chunked_task
 build_task_definition
 (
 task
-deps
+regular_deps
+soft_deps
 count
 )
             
@@ -326,19 +397,14 @@ chunked_task
 )
             
 chunked_labels
-[
+.
+add
+(
 chunked_label
-]
-=
-chunked_label
+)
             
 yield
 chunked_task
-            
-count
-+
-=
-1
         
 task
 [
@@ -347,7 +413,15 @@ dependencies
 '
 ]
 =
+{
+label
+:
+label
+for
+label
+in
 chunked_labels
+}
         
 task
 [
