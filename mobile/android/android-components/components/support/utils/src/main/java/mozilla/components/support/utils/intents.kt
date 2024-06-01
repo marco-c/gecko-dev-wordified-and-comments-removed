@@ -197,6 +197,9 @@ asForegroundServicePendingIntent
 context
 :
 Context
+requestCode
+:
+Int
 )
 :
 PendingIntent
@@ -222,7 +225,7 @@ PendingIntent
 getForegroundService
 (
 context
-0
+requestCode
 this
 0
 )
@@ -234,7 +237,7 @@ PendingIntent
 getService
 (
 context
-0
+requestCode
 this
 0
 )

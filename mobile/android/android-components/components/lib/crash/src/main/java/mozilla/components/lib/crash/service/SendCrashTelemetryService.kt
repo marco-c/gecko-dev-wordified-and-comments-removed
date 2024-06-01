@@ -178,7 +178,7 @@ lib
 .
 crash
 .
-sendcrash
+sendtelemetry
 "
 private
 const
@@ -187,7 +187,7 @@ NOTIFICATION_ID
 =
 1
 class
-SendCrashReportService
+SendCrashTelemetryService
 :
 Service
 (
@@ -352,7 +352,7 @@ intent
 )
 crashReporter
 .
-submitReport
+submitCrashTelemetry
 (
 crash
 )
@@ -412,7 +412,7 @@ intent
 Intent
 (
 context
-SendCrashReportService
+SendCrashTelemetryService
 :
 :
 class
