@@ -3871,9 +3871,7 @@ Int
 {
 textLengthBeforeChange
 =
-s
-.
-length
+autoCompletePrefixLength
 }
 override
 fun
