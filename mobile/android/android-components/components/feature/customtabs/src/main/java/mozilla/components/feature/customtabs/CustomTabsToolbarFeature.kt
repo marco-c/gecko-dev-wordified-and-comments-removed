@@ -428,6 +428,18 @@ utils
 ColorUtils
 .
 getReadableTextColor
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -1233,7 +1245,7 @@ resources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -1492,7 +1504,7 @@ drawableIcon
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

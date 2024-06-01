@@ -306,6 +306,14 @@ mockito
 Mockito
 .
 verify
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 RunWith
 (
 AndroidJUnit4
@@ -2032,7 +2040,7 @@ mock
 val
 testIconTintColorResource
 =
-R
+appcompatR
 .
 color
 .

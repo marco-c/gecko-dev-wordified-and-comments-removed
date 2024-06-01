@@ -191,6 +191,16 @@ support
 base
 '
 )
+implementation
+project
+(
+'
+:
+ui
+-
+icons
+'
+)
 testImplementation
 project
 (

@@ -136,6 +136,18 @@ menu
 candidate
 .
 TextStyle
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -354,7 +366,7 @@ start
 DrawableMenuIcon
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -409,7 +421,7 @@ start
 DrawableMenuIcon
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -464,7 +476,7 @@ start
 DrawableMenuIcon
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -519,7 +531,7 @@ start
 DrawableMenuIcon
 (
 context
-R
+iconsR
 .
 drawable
 .

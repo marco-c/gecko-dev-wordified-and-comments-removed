@@ -398,6 +398,18 @@ concept
 awesomebar
 .
 AwesomeBar
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 /
 We
@@ -963,7 +975,7 @@ Image
 (
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

@@ -311,13 +311,11 @@ mozilla
 .
 components
 .
-compose
+ui
 .
-cfr
+icons
 .
 R
-.
-drawable
 /
 *
 *
@@ -845,6 +843,8 @@ painter
 =
 painterResource
 (
+R
+.
 drawable
 .
 mozac_ic_close_20

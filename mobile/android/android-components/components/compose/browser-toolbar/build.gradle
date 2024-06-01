@@ -164,6 +164,16 @@ session
 "
 )
 implementation
+project
+(
+"
+:
+ui
+-
+icons
+"
+)
+implementation
 Dependencies
 .
 androidx_compose_ui

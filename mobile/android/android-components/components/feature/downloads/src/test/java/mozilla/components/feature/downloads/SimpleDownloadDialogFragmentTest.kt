@@ -254,6 +254,14 @@ robolectric
 annotation
 .
 Config
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 RunWith
 (
 AndroidJUnit4
@@ -965,7 +973,7 @@ onCreate
 )
 setTheme
 (
-R
+appcompatR
 .
 style
 .

@@ -284,6 +284,18 @@ mockito
 Mockito
 .
 verify
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 RunWith
 (
 AndroidJUnit4
@@ -711,7 +723,7 @@ imageView
 .
 setImageResource
 (
-R
+iconsR
 .
 drawable
 .

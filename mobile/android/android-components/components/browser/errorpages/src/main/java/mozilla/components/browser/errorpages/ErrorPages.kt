@@ -108,6 +108,18 @@ ktx
 kotlin
 .
 urlEncode
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 object
 ErrorPages
 {
@@ -870,7 +882,7 @@ string
 mozac_browser_errorpages_security_ssl_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -890,7 +902,7 @@ string
 mozac_browser_errorpages_security_bad_cert_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -910,7 +922,7 @@ string
 mozac_browser_errorpages_net_interrupt_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -930,7 +942,7 @@ string
 mozac_browser_errorpages_net_timeout_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -950,7 +962,7 @@ string
 mozac_browser_errorpages_connection_failure_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -970,7 +982,7 @@ string
 mozac_browser_errorpages_unknown_socket_type_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -990,7 +1002,7 @@ string
 mozac_browser_errorpages_redirect_loop_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1010,7 +1022,7 @@ string
 mozac_browser_errorpages_offline_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1030,7 +1042,7 @@ string
 mozac_browser_errorpages_port_blocked_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1050,7 +1062,7 @@ string
 mozac_browser_errorpages_net_reset_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1070,7 +1082,7 @@ string
 mozac_browser_errorpages_unsafe_content_type_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1090,7 +1102,7 @@ string
 mozac_browser_errorpages_corrupted_content_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1110,7 +1122,7 @@ string
 mozac_browser_errorpages_content_crashed_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1130,7 +1142,7 @@ string
 mozac_browser_errorpages_invalid_content_encoding_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1150,7 +1162,7 @@ string
 mozac_browser_errorpages_unknown_host_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1175,7 +1187,7 @@ string
 mozac_browser_errorpages_no_internet_refresh_button
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1195,7 +1207,7 @@ string
 mozac_browser_errorpages_malformed_uri_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1215,7 +1227,7 @@ string
 mozac_browser_errorpages_unknown_protocol_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1235,7 +1247,7 @@ string
 mozac_browser_errorpages_file_not_found_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1255,7 +1267,7 @@ string
 mozac_browser_errorpages_file_access_denied_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1275,7 +1287,7 @@ string
 mozac_browser_errorpages_proxy_connection_refused_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1295,7 +1307,7 @@ string
 mozac_browser_errorpages_unknown_proxy_host_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1367,7 +1379,7 @@ string
 mozac_browser_errorpages_httpsonly_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .
@@ -1387,7 +1399,7 @@ string
 mozac_browser_errorpages_security_bad_hsts_cert_message
 imageNameRes
 =
-R
+iconsR
 .
 string
 .

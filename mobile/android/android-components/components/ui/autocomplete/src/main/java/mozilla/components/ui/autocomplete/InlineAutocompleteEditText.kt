@@ -316,6 +316,14 @@ support
 utils
 .
 SafeUrl
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 typealias
 OnCommitListener
 =
@@ -700,7 +708,7 @@ defStyleAttr
 :
 Int
 =
-R
+appcompatR
 .
 attr
 .

@@ -242,6 +242,18 @@ org
 robolectric
 .
 Shadows
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 RunWith
 (
 AndroidJUnit4
@@ -733,7 +745,7 @@ icon
 val
 defaultIconResource
 =
-R
+iconsR
 .
 drawable
 .

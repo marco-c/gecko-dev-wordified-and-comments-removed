@@ -420,6 +420,18 @@ robolectric
 util
 .
 ReflectionHelpers
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 RunWith
 (
 AndroidJUnit4
@@ -3004,7 +3016,7 @@ ContextCompat
 getDrawable
 (
 testContext
-R
+iconsR
 .
 drawable
 .

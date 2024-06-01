@@ -230,6 +230,18 @@ junit
 runner
 .
 RunWith
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 RunWith
 (
 AndroidJUnit4
@@ -605,7 +617,7 @@ back
 "
 imageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -800,7 +812,7 @@ back
 "
 imageResource
 =
-R
+iconsR
 .
 drawable
 .

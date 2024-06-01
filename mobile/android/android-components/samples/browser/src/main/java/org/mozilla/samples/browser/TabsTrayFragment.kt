@@ -230,6 +230,18 @@ browser
 ext
 .
 components
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -330,7 +342,7 @@ toolbar
 .
 setNavigationIcon
 (
-R
+iconsR
 .
 drawable
 .

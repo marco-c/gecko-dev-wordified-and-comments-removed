@@ -214,6 +214,14 @@ robolectric
 Shadows
 .
 shadowOf
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 RunWith
 (
 AndroidJUnit4
@@ -321,11 +329,7 @@ findViewById
 TextView
 >
 (
-androidx
-.
-appcompat
-.
-R
+appcompatR
 .
 id
 .

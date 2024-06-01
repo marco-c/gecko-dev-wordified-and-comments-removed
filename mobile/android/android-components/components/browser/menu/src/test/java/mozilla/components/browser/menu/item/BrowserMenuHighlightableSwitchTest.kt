@@ -230,6 +230,18 @@ org
 robolectric
 .
 Shadows
+import
+mozilla
+.
+components
+.
+ui
+.
+colors
+.
+R
+as
+colorsR
 RunWith
 (
 AndroidJUnit4
@@ -440,7 +452,7 @@ LowPriority
 (
 notificationTint
 =
-R
+colorsR
 .
 color
 .

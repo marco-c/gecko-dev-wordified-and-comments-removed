@@ -208,6 +208,18 @@ utils
 DrawableUtils
 .
 loadAndTintDrawable
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -464,7 +476,7 @@ FINGERPRINT
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -479,7 +491,7 @@ BRIEFCASE
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -494,7 +506,7 @@ DOLLAR
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -509,7 +521,7 @@ CART
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -524,7 +536,7 @@ CIRCLE
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -539,7 +551,7 @@ GIFT
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -554,7 +566,7 @@ VACATION
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -569,7 +581,7 @@ FOOD
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -584,7 +596,7 @@ FRUIT
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -599,7 +611,7 @@ PET
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -614,7 +626,7 @@ TREE
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -629,7 +641,7 @@ CHILL
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -644,7 +656,7 @@ FENCE
 loadAndTintDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

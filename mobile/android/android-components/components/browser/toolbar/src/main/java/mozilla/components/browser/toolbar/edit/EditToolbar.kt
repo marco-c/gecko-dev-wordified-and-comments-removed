@@ -318,6 +318,18 @@ util
 concurrent
 .
 Executors
+import
+mozilla
+.
+components
+.
+ui
+.
+colors
+.
+R
+as
+colorsR
 private
 const
 val
@@ -1111,7 +1123,7 @@ ContextCompat
 getColor
 (
 context
-R
+colorsR
 .
 color
 .

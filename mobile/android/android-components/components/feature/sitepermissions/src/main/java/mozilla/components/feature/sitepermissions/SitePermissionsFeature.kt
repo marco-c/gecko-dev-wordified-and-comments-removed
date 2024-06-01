@@ -836,6 +836,18 @@ java
 security
 .
 InvalidParameterException
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 internal
 const
 val
@@ -4097,7 +4109,7 @@ R
 string
 .
 mozac_feature_sitepermissions_camera_and_microphone
-R
+iconsR
 .
 drawable
 .
@@ -4174,7 +4186,7 @@ R
 string
 .
 mozac_feature_sitepermissions_location_title
-R
+iconsR
 .
 drawable
 .
@@ -4210,7 +4222,7 @@ R
 string
 .
 mozac_feature_sitepermissions_notification_title
-R
+iconsR
 .
 drawable
 .
@@ -4243,7 +4255,7 @@ R
 string
 .
 mozac_feature_sitepermissions_microfone_title
-R
+iconsR
 .
 drawable
 .
@@ -4281,7 +4293,7 @@ R
 string
 .
 mozac_feature_sitepermissions_camera_title
-R
+iconsR
 .
 drawable
 .
@@ -4317,7 +4329,7 @@ R
 string
 .
 mozac_feature_sitepermissions_persistent_storage_title
-R
+iconsR
 .
 drawable
 .
@@ -4345,7 +4357,7 @@ R
 string
 .
 mozac_feature_sitepermissions_media_key_system_access_title
-R
+iconsR
 .
 drawable
 .
@@ -4632,7 +4644,7 @@ title
 title
 titleIcon
 =
-R
+iconsR
 .
 drawable
 .

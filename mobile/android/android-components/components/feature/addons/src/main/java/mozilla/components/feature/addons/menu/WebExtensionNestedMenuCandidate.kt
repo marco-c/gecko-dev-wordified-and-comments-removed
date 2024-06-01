@@ -206,6 +206,18 @@ feature
 addons
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 fun
 createBackMenuItem
@@ -224,7 +236,7 @@ NestedMenuCandidate
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -246,7 +258,7 @@ start
 DrawableMenuIcon
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -299,7 +311,7 @@ start
 DrawableMenuIcon
 (
 context
-R
+iconsR
 .
 drawable
 .

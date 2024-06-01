@@ -340,6 +340,18 @@ java
 io
 .
 IOException
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 const
 val
@@ -1904,7 +1916,7 @@ ContextCompat
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

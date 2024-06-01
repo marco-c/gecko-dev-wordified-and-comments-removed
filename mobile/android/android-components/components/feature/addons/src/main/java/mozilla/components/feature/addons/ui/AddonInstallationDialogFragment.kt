@@ -348,6 +348,18 @@ java
 io
 .
 IOException
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 VisibleForTesting
 internal
 const
@@ -1265,7 +1277,7 @@ ContextCompat
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

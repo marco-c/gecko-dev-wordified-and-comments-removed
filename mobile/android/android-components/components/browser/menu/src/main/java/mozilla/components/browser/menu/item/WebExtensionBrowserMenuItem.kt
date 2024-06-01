@@ -252,6 +252,18 @@ base
 log
 .
 Log
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -887,7 +899,7 @@ default
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

@@ -248,6 +248,18 @@ java
 util
 .
 Locale
+import
+mozilla
+.
+components
+.
+feature
+.
+addons
+.
+R
+as
+addonsR
 /
 *
 *
@@ -430,7 +442,7 @@ ratingContentDescription
 =
 getString
 (
-R
+addonsR
 .
 string
 .

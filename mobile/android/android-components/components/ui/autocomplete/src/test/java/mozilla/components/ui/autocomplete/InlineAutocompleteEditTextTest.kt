@@ -537,11 +537,6 @@ InlineAutocompleteEditText
 (
 testContext
 attributes
-R
-.
-attr
-.
-editTextStyle
 )
 val
 searchStates

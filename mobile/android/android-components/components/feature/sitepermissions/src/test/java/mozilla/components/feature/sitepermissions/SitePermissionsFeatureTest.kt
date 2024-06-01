@@ -972,6 +972,18 @@ java
 util
 .
 UUID
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 RunWith
 (
 AndroidJUnit4
@@ -6959,7 +6971,7 @@ title
 )
 assertEquals
 (
-R
+iconsR
 .
 drawable
 .

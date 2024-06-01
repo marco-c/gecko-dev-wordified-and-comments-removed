@@ -228,6 +228,14 @@ autofill
 ui
 .
 AbstractAutofillUnlockActivity
+import
+androidx
+.
+biometric
+.
+R
+as
+biometricR
 internal
 data
 class
@@ -484,7 +492,7 @@ Icon
 createWithResource
 (
 context
-R
+biometricR
 .
 drawable
 .

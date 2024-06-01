@@ -305,11 +305,9 @@ mozilla
 .
 components
 .
-compose
+ui
 .
-browser
-.
-tabstray
+icons
 .
 R
 /

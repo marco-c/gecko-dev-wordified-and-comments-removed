@@ -171,9 +171,9 @@ mozilla
 .
 components
 .
-feature
+ui
 .
-addons
+icons
 .
 R
 /

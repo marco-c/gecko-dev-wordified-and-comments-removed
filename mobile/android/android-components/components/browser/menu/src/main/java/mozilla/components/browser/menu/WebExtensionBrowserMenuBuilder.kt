@@ -190,6 +190,18 @@ state
 store
 .
 BrowserStore
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -1026,7 +1038,7 @@ backPressMenuItemDrawableRes
 :
 Int
 =
-R
+iconsR
 .
 drawable
 .
@@ -1037,7 +1049,7 @@ addonsManagerMenuItemDrawableRes
 :
 Int
 =
-R
+iconsR
 .
 drawable
 .

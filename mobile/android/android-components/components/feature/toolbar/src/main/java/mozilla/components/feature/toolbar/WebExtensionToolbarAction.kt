@@ -208,6 +208,18 @@ android
 view
 .
 setPadding
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -544,7 +556,7 @@ imageView
 .
 setImageResource
 (
-R
+iconsR
 .
 drawable
 .

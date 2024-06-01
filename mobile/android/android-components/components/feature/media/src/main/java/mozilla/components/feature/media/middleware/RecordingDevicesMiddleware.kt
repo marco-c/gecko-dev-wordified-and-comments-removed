@@ -242,6 +242,18 @@ support
 utils
 .
 PendingIntentUtils
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 const
 val
@@ -809,7 +821,7 @@ override
 val
 iconResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -835,7 +847,7 @@ override
 val
 iconResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -861,7 +873,7 @@ override
 val
 iconResource
 =
-R
+iconsR
 .
 drawable
 .
