@@ -4727,6 +4727,13 @@ components
 .
 support
 .
+migration
+mozilla
+.
+components
+.
+support
+.
 rusthttp
 mozilla
 .
