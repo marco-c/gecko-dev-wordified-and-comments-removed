@@ -52,7 +52,7 @@ md
 )
 /
 [
-MigrateGeckoException
+MigrateLoginsException
 ]
 (
 .
@@ -62,9 +62,9 @@ index
 md
 )
 #
-MigrateGeckoException
+MigrateLoginsException
 class
-MigrateGeckoException
+MigrateLoginsException
 :
 [
 FennecMigratorException
@@ -127,14 +127,13 @@ FennecMigrator
 .
 kt
 #
-L113
+L102
 )
 Unexpected
 exception
 while
 migrating
-gecko
-profile
+logins
 .
 #
 #
@@ -185,7 +184,7 @@ init
 md
 )
 |
-MigrateGeckoException
+MigrateLoginsException
 (
 cause
 :
@@ -221,7 +220,6 @@ Unexpected
 exception
 while
 migrating
-gecko
-profile
+logins
 .
 |
