@@ -97,7 +97,7 @@ activity
 .
 helpers
 .
-MainActivityWithoutFirstrunTestRule
+MainActivityFirstrunTestRule
 ;
 import
 org
@@ -440,12 +440,13 @@ MultitaskingTest
 {
 Rule
 public
-MainActivityWithoutFirstrunTestRule
+MainActivityFirstrunTestRule
 mActivityTestRule
 =
 new
-MainActivityWithoutFirstrunTestRule
+MainActivityFirstrunTestRule
 (
+false
 )
 ;
 private
