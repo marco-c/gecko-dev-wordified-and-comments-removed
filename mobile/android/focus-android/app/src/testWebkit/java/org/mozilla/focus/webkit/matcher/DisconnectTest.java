@@ -303,7 +303,7 @@ pref_key_privacy_block_social
 true
 )
 .
-commit
+apply
 (
 )
 ;
@@ -697,7 +697,7 @@ pref_key_privacy_block_social
 false
 )
 .
-commit
+apply
 (
 )
 ;
@@ -1091,7 +1091,7 @@ pref_key_privacy_block_social
 false
 )
 .
-commit
+apply
 (
 )
 ;
