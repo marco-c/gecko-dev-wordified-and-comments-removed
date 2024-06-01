@@ -181,7 +181,7 @@ FirefoxAccount
 .
 kt
 #
-L237
+L189
 )
 Overrides
 [
@@ -252,12 +252,6 @@ perform
 a
 connectivity
 check
-.
-This
-will
-use
-the
-network
 .
 In
 time

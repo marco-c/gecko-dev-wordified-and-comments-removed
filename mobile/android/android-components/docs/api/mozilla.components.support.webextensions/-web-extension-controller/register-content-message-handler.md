@@ -237,7 +237,7 @@ WebExtensionController
 .
 kt
 #
-L64
+L66
 )
 Registers
 a

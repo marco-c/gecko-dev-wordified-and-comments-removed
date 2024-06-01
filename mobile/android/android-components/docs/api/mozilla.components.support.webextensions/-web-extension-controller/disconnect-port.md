@@ -203,7 +203,7 @@ WebExtensionController
 .
 kt
 #
-L114
+L152
 )
 Disconnects
 the
@@ -226,6 +226,15 @@ port
 is
 connected
 to
+or
+null
+for
+a
+port
+to
+a
+background
+script
 .
 name
 -

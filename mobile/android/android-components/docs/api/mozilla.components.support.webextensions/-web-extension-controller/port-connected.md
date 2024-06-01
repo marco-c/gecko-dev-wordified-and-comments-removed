@@ -203,7 +203,7 @@ WebExtensionController
 .
 kt
 #
-L100
+L140
 )
 Checks
 whether
@@ -232,6 +232,15 @@ should
 be
 connected
 to
+or
+null
+for
+a
+port
+to
+a
+background
+script
 .
 name
 -

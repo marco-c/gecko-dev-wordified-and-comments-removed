@@ -98,7 +98,7 @@ OAuthAccount
 .
 kt
 #
-L12
+L14
 )
 An
 auth
@@ -287,6 +287,16 @@ index
 .
 html
 )
+<
+br
+>
+string
+value
+of
+the
+auth
+exception
+type
 |
 #
 #
