@@ -152,6 +152,13 @@ ignore
 "
 ScopedStorage
 "
+android
+:
+maxSdkVersion
+=
+"
+28
+"
 /
 >
 <
