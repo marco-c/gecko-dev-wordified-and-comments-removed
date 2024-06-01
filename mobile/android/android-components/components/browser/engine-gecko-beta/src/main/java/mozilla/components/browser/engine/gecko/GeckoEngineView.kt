@@ -616,6 +616,12 @@ GeckoView
 .
 *
 /
+Suppress
+(
+"
+Deprecation
+"
+)
 VisibleForTesting
 internal
 var
@@ -1024,6 +1030,9 @@ Suppress
 (
 "
 MagicNumber
+"
+"
+Deprecation
 "
 )
 override

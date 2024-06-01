@@ -513,6 +513,12 @@ functionality
 .
 *
 /
+Suppress
+(
+"
+Deprecation
+"
+)
 override
 fun
 canChildScrollUp

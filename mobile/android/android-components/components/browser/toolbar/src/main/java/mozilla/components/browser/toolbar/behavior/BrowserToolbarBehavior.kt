@@ -583,6 +583,12 @@ listeners
 .
 *
 /
+Suppress
+(
+"
+Deprecation
+"
+)
 VisibleForTesting
 (
 otherwise
@@ -1415,6 +1421,12 @@ browserToolbar
 )
 }
 )
+)
+Suppress
+(
+"
+Deprecation
+"
 )
 VisibleForTesting
 internal

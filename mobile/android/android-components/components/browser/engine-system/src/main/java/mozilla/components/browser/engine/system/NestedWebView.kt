@@ -340,6 +340,12 @@ s
 .
 *
 /
+Suppress
+(
+"
+Deprecation
+"
+)
 internal
 val
 inputResult
@@ -827,6 +833,12 @@ velocityX
 velocityY
 )
 }
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 getInputResult

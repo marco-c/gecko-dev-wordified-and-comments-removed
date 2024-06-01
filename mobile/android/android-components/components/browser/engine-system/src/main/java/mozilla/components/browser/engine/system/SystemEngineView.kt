@@ -4031,6 +4031,12 @@ canScrollVertically
 ?
 :
 false
+Suppress
+(
+"
+Deprecation
+"
+)
 override
 fun
 getInputResult
