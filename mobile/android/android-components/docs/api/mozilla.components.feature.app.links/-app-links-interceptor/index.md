@@ -133,7 +133,7 @@ AppLinksInterceptor
 .
 kt
 #
-L43
+L44
 )
 This
 feature
@@ -673,15 +673,7 @@ html
 )
 >
 =
-setOf
-(
-"
-javascript
-"
-"
-about
-"
-)
+ALWAYS_DENY_SCHEMES
 launchInApp
 :
 (
@@ -748,6 +740,7 @@ AppLinksUseCases
 (
 context
 launchInApp
+alwaysDeniedSchemes
 )
 launchFromInterceptor
 :

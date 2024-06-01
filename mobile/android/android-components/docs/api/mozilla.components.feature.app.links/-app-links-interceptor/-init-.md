@@ -242,15 +242,7 @@ html
 )
 >
 =
-setOf
-(
-"
-javascript
-"
-"
-about
-"
-)
+ALWAYS_DENY_SCHEMES
 launchInApp
 :
 (
@@ -317,6 +309,7 @@ AppLinksUseCases
 (
 context
 launchInApp
+alwaysDeniedSchemes
 )
 launchFromInterceptor
 :

@@ -357,9 +357,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
+images
 /
 -
 desired
