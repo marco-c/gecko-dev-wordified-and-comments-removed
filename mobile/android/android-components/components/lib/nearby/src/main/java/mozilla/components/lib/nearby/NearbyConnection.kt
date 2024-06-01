@@ -477,6 +477,7 @@ NearbyConnection
 .
 PAYLOAD_ENCODING
 )
+return
 if
 (
 bytes
@@ -489,7 +490,6 @@ ConnectionsClient
 MAX_BYTES_DATA_SIZE
 )
 {
-return
 Payload
 .
 fromBytes
@@ -547,7 +547,6 @@ use
 the
 former
 .
-return
 Payload
 .
 fromStream

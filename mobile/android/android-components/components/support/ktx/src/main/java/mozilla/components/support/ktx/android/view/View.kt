@@ -151,7 +151,7 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
+MainScope
 import
 kotlinx
 .
@@ -630,11 +630,8 @@ CoroutineScope
 val
 scope
 =
-CoroutineScope
+MainScope
 (
-Dispatchers
-.
-Main
 )
 addOnAttachStateChangeListener
 (
