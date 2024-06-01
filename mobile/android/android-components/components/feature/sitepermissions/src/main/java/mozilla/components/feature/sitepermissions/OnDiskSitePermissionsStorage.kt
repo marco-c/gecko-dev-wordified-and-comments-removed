@@ -732,13 +732,7 @@ if
 private
 )
 return
-SitePermissions
-(
-origin
-savedAt
-=
-0
-)
+null
 return
 database
 .
