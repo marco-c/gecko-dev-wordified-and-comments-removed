@@ -247,7 +247,7 @@ UndocumentedPublicClass
 :
 active
 :
-false
+true
 searchInNestedClass
 :
 true
@@ -264,7 +264,7 @@ UndocumentedPublicFunction
 :
 active
 :
-false
+true
 complexity
 :
 active
