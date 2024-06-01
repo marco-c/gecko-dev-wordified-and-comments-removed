@@ -143,7 +143,7 @@ lib
 .
 state
 .
-MiddlewareStore
+MiddlewareContext
 /
 *
 *
@@ -191,9 +191,9 @@ override
 fun
 invoke
 (
-store
+context
 :
-MiddlewareStore
+MiddlewareContext
 <
 BrowserState
 BrowserAction
@@ -263,7 +263,7 @@ RemoveAllNormalTabsAction
 -
 >
 {
-store
+context
 .
 state
 .
@@ -300,7 +300,7 @@ RemoveAllPrivateTabsAction
 -
 >
 {
-store
+context
 .
 state
 .

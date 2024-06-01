@@ -272,7 +272,6 @@ securityInfo
 toSecurityInfoState
 (
 )
-thumbnail
 )
 }
 /

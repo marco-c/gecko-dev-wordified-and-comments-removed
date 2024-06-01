@@ -165,7 +165,7 @@ media
 .
 ext
 .
-findPlayingSession
+findFullscreenMediaOrientation
 import
 mozilla
 .
@@ -177,7 +177,7 @@ media
 .
 ext
 .
-findFullscreenMediaOrientation
+findPlayingSession
 import
 mozilla
 .
@@ -213,7 +213,7 @@ media
 .
 ext
 .
-hasMediaWithSufficientLongDuration
+hasMediaWithAudibleAudio
 import
 mozilla
 .
@@ -225,7 +225,7 @@ media
 .
 ext
 .
-hasMediaWithAudibleAudio
+hasMediaWithSufficientLongDuration
 import
 mozilla
 .
@@ -235,7 +235,7 @@ lib
 .
 state
 .
-MiddlewareStore
+Store
 import
 mozilla
 .
@@ -291,7 +291,7 @@ process
 (
 store
 :
-MiddlewareStore
+Store
 <
 BrowserState
 BrowserAction

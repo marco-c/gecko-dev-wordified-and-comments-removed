@@ -79,16 +79,6 @@ components
 .
 browser
 .
-session
-.
-SessionManager
-import
-mozilla
-.
-components
-.
-browser
-.
 state
 .
 store
@@ -201,6 +191,12 @@ application
 .
 *
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 P2PIntegration
 (
@@ -225,9 +221,6 @@ NearbyConnection
 tabsUseCases
 :
 TabsUseCases
-sessionManager
-:
-SessionManager
 sessionUseCases
 :
 SessionUseCases
@@ -249,7 +242,6 @@ engine
 thunk
 tabsUseCases
 sessionUseCases
-sessionManager
 onNeedToRequestPermissions
 :
 :

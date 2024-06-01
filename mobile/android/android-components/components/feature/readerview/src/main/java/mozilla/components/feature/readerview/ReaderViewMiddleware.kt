@@ -227,7 +227,7 @@ lib
 .
 state
 .
-MiddlewareStore
+MiddlewareContext
 import
 mozilla
 .
@@ -306,9 +306,9 @@ override
 fun
 invoke
 (
-store
+context
 :
-MiddlewareStore
+MiddlewareContext
 <
 BrowserState
 BrowserAction
@@ -330,7 +330,7 @@ if
 (
 preProcess
 (
-store
+context
 action
 )
 )
@@ -341,7 +341,7 @@ action
 )
 postProcess
 (
-store
+context
 action
 )
 }
@@ -400,9 +400,9 @@ private
 fun
 preProcess
 (
-store
+context
 :
-MiddlewareStore
+MiddlewareContext
 <
 BrowserState
 BrowserAction
@@ -495,7 +495,7 @@ UnlinkEngineSessionAction
 -
 >
 {
-store
+context
 .
 state
 .
@@ -665,7 +665,7 @@ issues
 val
 tab
 =
-store
+context
 .
 state
 .
@@ -703,7 +703,7 @@ let
 activeUrl
 -
 >
-store
+context
 .
 dispatch
 (
@@ -722,7 +722,7 @@ true
 ?
 :
 false
-store
+context
 .
 dispatch
 (
@@ -757,7 +757,7 @@ readerState
 activeUrl
 )
 {
-store
+context
 .
 dispatch
 (
@@ -771,7 +771,7 @@ sessionId
 false
 )
 )
-store
+context
 .
 dispatch
 (
@@ -785,7 +785,7 @@ sessionId
 false
 )
 )
-store
+context
 .
 dispatch
 (
@@ -799,7 +799,7 @@ sessionId
 true
 )
 )
-store
+context
 .
 dispatch
 (
@@ -826,9 +826,9 @@ private
 fun
 postProcess
 (
-store
+context
 :
-MiddlewareStore
+MiddlewareContext
 <
 BrowserState
 BrowserAction
@@ -850,7 +850,7 @@ SelectTabAction
 -
 >
 {
-store
+context
 .
 dispatch
 (
@@ -864,7 +864,7 @@ tabId
 true
 )
 )
-store
+context
 .
 dispatch
 (
@@ -878,7 +878,7 @@ tabId
 false
 )
 )
-store
+context
 .
 dispatch
 (
@@ -900,7 +900,7 @@ LinkEngineSessionAction
 -
 >
 {
-store
+context
 .
 dispatch
 (
@@ -977,7 +977,7 @@ UpdateUrlAction
 val
 tab
 =
-store
+context
 .
 state
 .
@@ -1012,7 +1012,7 @@ url
 )
 )
 {
-store
+context
 .
 dispatch
 (

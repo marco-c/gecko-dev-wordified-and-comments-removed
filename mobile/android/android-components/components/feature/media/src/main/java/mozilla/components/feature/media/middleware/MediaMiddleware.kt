@@ -243,7 +243,7 @@ lib
 .
 state
 .
-MiddlewareStore
+MiddlewareContext
 /
 *
 *
@@ -322,9 +322,9 @@ override
 fun
 invoke
 (
-store
+context
 :
-MiddlewareStore
+MiddlewareContext
 <
 BrowserState
 BrowserAction
@@ -344,7 +344,7 @@ BrowserAction
 {
 preProcess
 (
-store
+context
 action
 )
 next
@@ -353,7 +353,7 @@ action
 )
 postProcess
 (
-store
+context
 action
 )
 }
@@ -363,7 +363,7 @@ preProcess
 (
 store
 :
-MiddlewareStore
+MiddlewareContext
 <
 BrowserState
 BrowserAction
@@ -540,9 +540,9 @@ private
 fun
 postProcess
 (
-store
+context
 :
-MiddlewareStore
+MiddlewareContext
 <
 BrowserState
 BrowserAction
@@ -588,6 +588,8 @@ mediaAggregateUpdate
 .
 process
 (
+context
+.
 store
 )
 }
@@ -602,7 +604,7 @@ mediaServiceLauncher
 .
 process
 (
-store
+context
 .
 state
 )
@@ -610,7 +612,7 @@ mediaFactsEmitter
 .
 process
 (
-store
+context
 .
 state
 )

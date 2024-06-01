@@ -71,18 +71,6 @@ components
 .
 browser
 .
-session
-.
-usecases
-.
-EngineSessionUseCases
-import
-mozilla
-.
-components
-.
-browser
-.
 state
 .
 selector
@@ -179,9 +167,6 @@ goBackUseCase
 SessionUseCases
 .
 GoBackUseCase
-engineSessionUseCases
-:
-EngineSessionUseCases
 private
 val
 engineView
@@ -208,7 +193,6 @@ EngineViewPresenter
 (
 store
 engineView
-engineSessionUseCases
 tabId
 )
 /
