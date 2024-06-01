@@ -580,7 +580,7 @@ mozac_feature_addons_permissions_notifications_description
 "
 >
 Vise
-beskeder
+meddelelser
 <
 /
 string
@@ -1808,7 +1808,7 @@ replaced
 with
 number
 of
-users
+reviews
 -
 -
 >
@@ -1817,10 +1817,10 @@ string
 name
 =
 "
-mozac_feature_addons_user_rating_count
+mozac_feature_addons_user_rating_count_2
 "
 >
-Brugere
+Anmeldelser
 :
 %
 1

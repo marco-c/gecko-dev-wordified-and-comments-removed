@@ -1795,7 +1795,7 @@ replaced
 with
 number
 of
-users
+reviews
 -
 -
 >
@@ -1804,10 +1804,10 @@ string
 name
 =
 "
-mozac_feature_addons_user_rating_count
+mozac_feature_addons_user_rating_count_2
 "
 >
-Brukere
+Omtaler
 :
 %
 1
