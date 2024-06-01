@@ -528,7 +528,7 @@ mozac_feature_prompt_login_save_headline
 "
 >
 Simpan
-log
+info
 masuk
 ini
 ?
@@ -579,7 +579,7 @@ mozac_feature_prompt_login_update_headline
 "
 >
 Perbarui
-log
+info
 masuk
 ini
 ?
