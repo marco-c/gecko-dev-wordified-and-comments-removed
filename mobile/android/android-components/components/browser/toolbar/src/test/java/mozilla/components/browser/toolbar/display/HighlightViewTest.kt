@@ -123,7 +123,7 @@ Toolbar
 .
 Highlight
 .
-AUTOPLAY_BLOCKED
+PERMISSIONS_CHANGED
 import
 mozilla
 .
@@ -283,10 +283,10 @@ view
 .
 state
 =
-AUTOPLAY_BLOCKED
+PERMISSIONS_CHANGED
 assertEquals
 (
-AUTOPLAY_BLOCKED
+PERMISSIONS_CHANGED
 view
 .
 state

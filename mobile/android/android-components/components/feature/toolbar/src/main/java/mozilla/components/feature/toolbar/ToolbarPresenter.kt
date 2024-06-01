@@ -548,12 +548,12 @@ content
 .
 permissionHighlights
 .
-isAutoPlayBlocking
+permissionsChanged
 -
 >
 Highlight
 .
-AUTOPLAY_BLOCKED
+PERMISSIONS_CHANGED
 else
 -
 >

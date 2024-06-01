@@ -153,7 +153,7 @@ Toolbar
 .
 Highlight
 .
-AUTOPLAY_BLOCKED
+PERMISSIONS_CHANGED
 import
 mozilla
 .
@@ -392,7 +392,7 @@ when
 this
 )
 {
-AUTOPLAY_BLOCKED
+PERMISSIONS_CHANGED
 -
 >
 Update

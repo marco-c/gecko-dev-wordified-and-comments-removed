@@ -1215,7 +1215,7 @@ Toolbar
 .
 Highlight
 .
-AUTOPLAY_BLOCKED
+PERMISSIONS_CHANGED
 )
 assertNotEquals
 (
