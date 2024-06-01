@@ -187,7 +187,7 @@ support
 .
 utils
 .
-asPendingIntentForLaunchService
+asForegroundServicePendingIntent
 private
 const
 val
@@ -287,7 +287,7 @@ context
 crash
 )
 .
-asPendingIntentForLaunchService
+asForegroundServicePendingIntent
 (
 context
 )

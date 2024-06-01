@@ -875,7 +875,7 @@ utils
 *
 Intent
 .
-asPendingIntentForLaunchService
+asForegroundServicePendingIntent
 (
 Context
 )
@@ -886,6 +886,7 @@ create
 pending
 intent
 for
+the
 service
 that
 will
@@ -899,6 +900,14 @@ introduced
 in
 Android
 O
+(
+e
+.
+g
+.
+foreground
+service
+)
 .
 #
 11

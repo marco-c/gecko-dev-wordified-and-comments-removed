@@ -128,13 +128,13 @@ service
 JvmName
 (
 "
-createPendingIntentForLaunchService
+createForegroundServicePendingIntent
 "
 )
 fun
 Intent
 .
-asPendingIntentForLaunchService
+asForegroundServicePendingIntent
 (
 context
 :
