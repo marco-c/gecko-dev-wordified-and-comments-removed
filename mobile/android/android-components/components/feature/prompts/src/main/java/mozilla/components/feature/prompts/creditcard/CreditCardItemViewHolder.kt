@@ -233,7 +233,7 @@ text
 =
 creditCard
 .
-number
+obfuscatedCardNumber
 bindCreditCardExpiryDate
 (
 creditCard

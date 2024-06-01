@@ -334,7 +334,7 @@ assertEquals
 (
 creditCard
 .
-number
+obfuscatedCardNumber
 cardNumberView
 .
 text
