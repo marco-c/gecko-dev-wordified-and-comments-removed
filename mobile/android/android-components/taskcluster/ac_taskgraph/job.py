@@ -518,9 +518,6 @@ in
 google
 "
 "
-jcenter
-"
-"
 central
 "
 )

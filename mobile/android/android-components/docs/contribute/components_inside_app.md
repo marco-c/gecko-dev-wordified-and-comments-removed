@@ -1320,7 +1320,7 @@ mavenLocal
 google
 (
 )
-jcenter
+mavenCentral
 (
 )
 }

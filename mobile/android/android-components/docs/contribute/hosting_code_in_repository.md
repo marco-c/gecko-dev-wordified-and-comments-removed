@@ -330,7 +330,11 @@ are
 automatically
 published
 on
-jcenter
+maven
+.
+mozilla
+.
+org
 and
 are
 immediately
