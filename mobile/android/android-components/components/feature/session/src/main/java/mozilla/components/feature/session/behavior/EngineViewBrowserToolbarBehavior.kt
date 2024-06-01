@@ -93,6 +93,12 @@ View
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 coordinatorlayout
 .
 widget
@@ -122,6 +128,12 @@ android
 view
 .
 findViewInHierarchy
+import
+kotlin
+.
+math
+.
+roundToInt
 /
 *
 *
@@ -286,7 +298,8 @@ context
 attrs
 )
 {
-private
+VisibleForTesting
+internal
 val
 engineView
 =
@@ -301,7 +314,8 @@ EngineView
 as
 EngineView
 ?
-private
+VisibleForTesting
+internal
 var
 toolbarChangedAction
 :
@@ -330,7 +344,7 @@ setVerticalClipping
 -
 newToolbarTranslationY
 .
-toInt
+roundToInt
 (
 )
 )
@@ -375,7 +389,7 @@ setVerticalClipping
 (
 newToolbarTranslationY
 .
-toInt
+roundToInt
 (
 )
 )
