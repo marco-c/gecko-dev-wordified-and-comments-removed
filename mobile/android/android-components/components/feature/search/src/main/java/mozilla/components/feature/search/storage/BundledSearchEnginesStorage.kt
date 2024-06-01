@@ -91,12 +91,6 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-import
-kotlinx
-.
-coroutines
-.
 GlobalScope
 import
 kotlinx
@@ -212,6 +206,12 @@ java
 util
 .
 Locale
+import
+kotlin
+.
+coroutines
+.
+CoroutineContext
 /
 *
 *
@@ -287,6 +287,9 @@ RegionState
 locale
 :
 Locale
+coroutineContext
+:
+CoroutineContext
 )
 :
 SearchMiddleware
@@ -297,9 +300,7 @@ Bundle
 =
 withContext
 (
-Dispatchers
-.
-IO
+coroutineContext
 )
 {
 val
@@ -328,6 +329,7 @@ searchEngineIdentifiers
 distinct
 (
 )
+coroutineContext
 )
 /
 /
@@ -1188,6 +1190,9 @@ List
 <
 String
 >
+coroutineContext
+:
+CoroutineContext
 )
 :
 List
@@ -1234,9 +1239,7 @@ GlobalScope
 .
 async
 (
-Dispatchers
-.
-IO
+coroutineContext
 )
 {
 loadSearchEngine
