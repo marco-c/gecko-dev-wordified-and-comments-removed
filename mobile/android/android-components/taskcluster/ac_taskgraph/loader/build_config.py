@@ -901,7 +901,11 @@ ALL_COMPONENTS
 or
 k
 in
-affected_components
+jobs
+.
+keys
+(
+)
 }
     
 jobs
