@@ -67,6 +67,12 @@ locale
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 Context
@@ -712,6 +718,12 @@ locale
 )
 }
 }
+SuppressLint
+(
+"
+AppBundleLocaleChanges
+"
+)
 private
 fun
 updateConfiguration
