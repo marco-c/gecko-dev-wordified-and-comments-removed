@@ -117,16 +117,6 @@ match_parent
 "
 android
 :
-background
-=
-"
-?
-attr
-/
-colorPrimary
-"
-android
-:
 orientation
 =
 "
