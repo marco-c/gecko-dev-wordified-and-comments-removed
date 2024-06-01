@@ -327,6 +327,10 @@ lt
 "
 meh
 "
+	
+"
+bs
+"
 ]
 SCREENSHOT_LOCALES
 =
