@@ -72,6 +72,7 @@ md
 )
 #
 invoke
+abstract
 operator
 fun
 invoke
@@ -225,6 +226,7 @@ session
 to
 remove
 .
+abstract
 operator
 fun
 invoke
@@ -340,7 +342,7 @@ TabsUseCases
 .
 kt
 #
-L81
+L76
 )
 Removes
 the
