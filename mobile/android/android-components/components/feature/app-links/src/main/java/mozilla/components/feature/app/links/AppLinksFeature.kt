@@ -545,7 +545,6 @@ SimpleRedirectDialogFragment
 newInstance
 (
 )
-private
 val
 useCases
 :
