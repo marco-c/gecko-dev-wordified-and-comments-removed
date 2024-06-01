@@ -3267,7 +3267,11 @@ API
 and
 /
 /
-sendPings
+ping
+.
+send
+(
+)
 are
 async
 and
