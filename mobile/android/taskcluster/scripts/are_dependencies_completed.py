@@ -40,9 +40,44 @@ net
 def
 check_all_dependencies_are_completed
 (
-dependencies_task_ids
+current_task_id
 )
 :
+    
+print
+(
+f
+'
+Fetching
+task
+definition
+of
+{
+current_task_id
+}
+.
+.
+.
+'
+)
+    
+task
+=
+queue
+.
+task
+(
+current_task_id
+)
+    
+dependencies_task_ids
+=
+task
+[
+'
+dependencies
+'
+]
     
 print
 (
@@ -193,17 +228,12 @@ add_argument
 (
         
 '
-dependencies_task_ids
+current_task_id
 '
 metavar
 =
 '
-DEPENDENCY_TASK_ID
-'
-nargs
-=
-'
-+
+CURRENT_TASK_ID
 '
         
 help
@@ -213,8 +243,10 @@ The
 task
 ID
 of
-a
-dependency
+the
+current
+running
+task
 "
     
 )
@@ -231,7 +263,7 @@ check_all_dependencies_are_completed
 (
 result
 .
-dependencies_task_ids
+current_task_id
 )
     
 print

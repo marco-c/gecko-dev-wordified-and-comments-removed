@@ -188,9 +188,9 @@ scripts
 are_dependencies_completed
 .
 py
-{
-dependencies
-}
+<
+self
+>
 use
 -
 caches
