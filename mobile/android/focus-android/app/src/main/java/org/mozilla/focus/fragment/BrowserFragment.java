@@ -1734,7 +1734,7 @@ progressView
 .
 setProgress
 (
-0
+5
 )
 ;
 progressView
