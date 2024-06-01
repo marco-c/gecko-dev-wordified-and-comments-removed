@@ -353,7 +353,7 @@ onNotYetSupportedSectionClicked
 unsupportedAddons
 :
 [
-ArrayList
+List
 ]
 (
 https
@@ -376,8 +376,6 @@ kotlin
 .
 collections
 /
--
-array
 -
 list
 /
