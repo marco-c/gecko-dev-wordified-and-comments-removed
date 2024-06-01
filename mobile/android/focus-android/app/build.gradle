@@ -800,7 +800,7 @@ runtime
 .
 0
 -
-alpha9
+beta2
 "
 compile
 "
@@ -818,7 +818,7 @@ extensions
 .
 0
 -
-alpha9
+beta2
 "
 annotationProcessor
 "
@@ -836,7 +836,7 @@ compiler
 .
 0
 -
-alpha9
+beta2
 "
 compile
 (

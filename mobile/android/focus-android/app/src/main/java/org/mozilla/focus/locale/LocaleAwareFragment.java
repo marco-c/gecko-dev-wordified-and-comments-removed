@@ -10,11 +10,13 @@ locale
 import
 android
 .
-arch
+support
 .
-lifecycle
+v4
 .
-LifecycleFragment
+app
+.
+Fragment
 ;
 import
 java
@@ -28,7 +30,7 @@ abstract
 class
 LocaleAwareFragment
 extends
-LifecycleFragment
+Fragment
 {
 private
 Locale
