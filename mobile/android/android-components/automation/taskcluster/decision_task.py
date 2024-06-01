@@ -719,7 +719,7 @@ in
 artifacts_info
 ]
     
-build_tasks
+tasks
 =
 [
         
@@ -740,38 +740,6 @@ module
 )
     
 ]
-    
-other_tasks
-=
-[
-        
-craft_function
-(
-)
-        
-for
-craft_function
-in
-        
-(
-builder
-.
-craft_detekt_task
-builder
-.
-craft_ktlint_task
-builder
-.
-craft_compare_locales_task
-)
-    
-]
-    
-tasks
-=
-build_tasks
-+
-other_tasks
     
 for
 task
