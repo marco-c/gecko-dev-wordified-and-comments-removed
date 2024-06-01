@@ -216,11 +216,11 @@ availableHeight
 (
 this
 .
-totalPaddingBottom
+paddingBottom
 +
 this
 .
-totalPaddingTop
+paddingTop
 )
 *
 resources
