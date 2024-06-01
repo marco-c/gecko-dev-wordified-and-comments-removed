@@ -286,7 +286,16 @@ showConfirmationDialog
 (
 activity
 intent
-uri
+activity
+.
+getString
+(
+R
+.
+string
+.
+external_app_prompt_title
+)
 R
 .
 string
