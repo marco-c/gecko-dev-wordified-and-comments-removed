@@ -114,6 +114,12 @@ org
 junit
 .
 Assert
+import
+org
+.
+junit
+.
+Assert
 .
 assertNotNull
 import
@@ -124,14 +130,6 @@ junit
 Assert
 .
 assertNull
-import
-org
-.
-junit
-.
-Assert
-.
-assertTrue
 import
 org
 .
@@ -369,6 +367,8 @@ customActions
 .
 forEach
 {
+Assert
+.
 assertTrue
 (
 actualActions
