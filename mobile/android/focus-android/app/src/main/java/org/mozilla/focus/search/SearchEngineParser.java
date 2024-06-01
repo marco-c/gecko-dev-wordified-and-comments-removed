@@ -33,6 +33,15 @@ Uri
 import
 android
 .
+support
+.
+annotation
+.
+VisibleForTesting
+;
+import
+android
+.
 util
 .
 Base64
@@ -223,7 +232,7 @@ e
 ;
 }
 }
-public
+VisibleForTesting
 static
 SearchEngine
 load
