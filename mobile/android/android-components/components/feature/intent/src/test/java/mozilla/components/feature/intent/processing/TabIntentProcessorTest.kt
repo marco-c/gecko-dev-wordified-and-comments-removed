@@ -668,6 +668,7 @@ SearchUseCases
 (
 store
 tabsUseCases
+sessionUseCases
 )
 }
 Test
