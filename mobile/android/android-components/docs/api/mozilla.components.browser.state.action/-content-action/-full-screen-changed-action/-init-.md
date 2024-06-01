@@ -154,7 +154,6 @@ html
 )
 )
 Updates
-the
 [
 fullScreenEnabled
 ]

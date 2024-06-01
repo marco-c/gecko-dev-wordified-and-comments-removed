@@ -374,7 +374,7 @@ getTopSites
 (
 )
 :
-LiveData
+Flow
 <
 [
 List
@@ -432,7 +432,7 @@ br
 Returns
 a
 [
-LiveData
+Flow
 ]
 (
 #

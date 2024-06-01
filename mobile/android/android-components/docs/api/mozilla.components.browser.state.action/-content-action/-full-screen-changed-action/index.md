@@ -135,7 +135,6 @@ kt
 L255
 )
 Updates
-the
 [
 fullScreenEnabled
 ]
@@ -267,7 +266,6 @@ html
 br
 >
 Updates
-the
 [
 fullScreenEnabled
 ]

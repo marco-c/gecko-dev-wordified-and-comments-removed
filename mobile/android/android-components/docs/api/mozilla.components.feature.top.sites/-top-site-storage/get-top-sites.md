@@ -65,7 +65,7 @@ getTopSites
 (
 )
 :
-LiveData
+Flow
 <
 [
 List
@@ -176,7 +176,7 @@ L45
 Returns
 a
 [
-LiveData
+Flow
 ]
 (
 #
