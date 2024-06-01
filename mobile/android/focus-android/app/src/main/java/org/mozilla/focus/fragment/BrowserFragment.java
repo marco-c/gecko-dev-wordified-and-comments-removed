@@ -2564,6 +2564,8 @@ this
 300
 )
 ;
+try
+{
 downloadDialogFragment
 .
 show
@@ -2574,6 +2576,14 @@ DownloadDialogFragment
 FRAGMENT_TAG
 )
 ;
+}
+catch
+(
+IllegalStateException
+e
+)
+{
+}
 }
 Override
 public
