@@ -3326,7 +3326,7 @@ menuBuilder
 .
 items
 [
-2
+0
 ]
 is
 SimpleBrowserMenuItem
