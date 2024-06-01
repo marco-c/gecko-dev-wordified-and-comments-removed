@@ -165,7 +165,7 @@ android
 padding
 =
 "
-18dp
+24dp
 "
 android
 :
@@ -173,7 +173,7 @@ textColor
 =
 "
 #
-ff979797
+ffb2b2b2
 "
 tools
 :
@@ -189,6 +189,15 @@ www
 mozilla
 .
 org
+"
+android
+:
+fontFamily
+=
+"
+string
+/
+font_roboto_regular
 "
 /
 >
