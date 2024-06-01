@@ -11477,6 +11477,12 @@ MOZILLA_SOCIAL
 )
 assertTrue
 (
+trackerLog
+.
+unBlockedBySmartBlock
+)
+assertTrue
+(
 onSuccessCalled
 )
 assertFalse
@@ -12978,6 +12984,15 @@ Event
 LOADED_SOCIALTRACKING_CONTENT
 )
 val
+unBlockedBySmartBlock
+=
+createBlockingData
+(
+Event
+.
+ALLOWED_TRACKING_CONTENT
+)
+val
 contentBlockingList
 =
 listOf
@@ -12994,6 +13009,7 @@ blockedSocialContent
 loadedSocialContent
 loadedCookieSocialTracker
 blockedCookieSocialTracker
+unBlockedBySmartBlock
 )
 val
 addLogSecondEntry
