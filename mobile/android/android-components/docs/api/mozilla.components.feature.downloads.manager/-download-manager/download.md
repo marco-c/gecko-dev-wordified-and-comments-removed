@@ -130,7 +130,7 @@ html
 )
 :
 [
-Long
+String
 ]
 (
 https
@@ -152,7 +152,7 @@ stdlib
 kotlin
 /
 -
-long
+string
 /
 index
 .

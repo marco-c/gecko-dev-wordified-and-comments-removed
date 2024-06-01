@@ -65,7 +65,7 @@ tryAgain
 downloadId
 :
 [
-Long
+String
 ]
 (
 https
@@ -87,7 +87,7 @@ stdlib
 kotlin
 /
 -
-long
+string
 /
 index
 .

@@ -290,7 +290,7 @@ html
 downloadId
 :
 [
-Long
+String
 ]
 (
 https
@@ -312,7 +312,7 @@ stdlib
 kotlin
 /
 -
-long
+string
 /
 index
 .
@@ -441,7 +441,7 @@ val
 downloadId
 :
 [
-Long
+String
 ]
 (
 https
@@ -463,7 +463,7 @@ stdlib
 kotlin
 /
 -
-long
+string
 /
 index
 .

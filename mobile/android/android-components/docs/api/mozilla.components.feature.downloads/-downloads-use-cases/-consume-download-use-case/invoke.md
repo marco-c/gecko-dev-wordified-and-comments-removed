@@ -110,7 +110,7 @@ html
 downloadId
 :
 [
-Long
+String
 ]
 (
 https
@@ -132,7 +132,7 @@ stdlib
 kotlin
 /
 -
-long
+string
 /
 index
 .
@@ -219,7 +219,7 @@ DownloadsUseCases
 .
 kt
 #
-L25
+L26
 )
 Consumes
 the
@@ -253,7 +253,7 @@ kotlin
 String
 kotlin
 .
-Long
+String
 )
 /
 downloadId
@@ -290,7 +290,7 @@ kotlin
 String
 kotlin
 .
-Long
+String
 )
 /
 tabId

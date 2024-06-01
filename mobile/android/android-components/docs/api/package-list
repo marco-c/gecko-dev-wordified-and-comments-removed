@@ -7008,6 +7008,17 @@ ktx
 kotlinx
 .
 coroutines
+mozilla
+.
+components
+.
+support
+.
+ktx
+.
+kotlinx
+.
+coroutines
 .
 flow
 mozilla

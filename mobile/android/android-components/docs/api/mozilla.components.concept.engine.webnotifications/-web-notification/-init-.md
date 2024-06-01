@@ -198,6 +198,7 @@ index
 .
 html
 )
+?
 iconUrl
 :
 [
