@@ -61,9 +61,11 @@ mozilla
 .
 components
 .
-browser
+feature
 .
 session
+.
+middleware
 .
 undo
 import
