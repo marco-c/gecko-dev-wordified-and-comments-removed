@@ -177,9 +177,9 @@ android
 background
 =
 "
-color
+drawable
 /
-colorUrlInput
+background_inactive
 "
 android
 :

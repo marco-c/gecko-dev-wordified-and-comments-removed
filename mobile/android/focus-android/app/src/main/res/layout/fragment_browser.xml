@@ -217,9 +217,9 @@ android
 background
 =
 "
-color
+drawable
 /
-colorUrlInput
+animated_background
 "
 android
 :

@@ -118,7 +118,7 @@ centerColor
 "
 color
 /
-colorUrlBarGradientCenter
+colorActiveGradientCenter
 "
 android
 :
@@ -127,7 +127,7 @@ endColor
 "
 color
 /
-colorUrlBarGradientEnd
+colorActiveGradientEnd
 "
 android
 :
@@ -136,7 +136,7 @@ startColor
 "
 color
 /
-colorUrlBarGradientStart
+colorActiveGradientStart
 "
 /
 >
