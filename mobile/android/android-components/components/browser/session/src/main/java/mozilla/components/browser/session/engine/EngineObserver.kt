@@ -1132,13 +1132,6 @@ ContentAction
 .
 UpdateWindowRequestAction
 (
-store
-.
-state
-.
-selectedTabId
-?
-:
 session
 .
 id
