@@ -79,9 +79,9 @@ kotlin
 "
 1
 .
-3
+4
 .
-71
+10
 "
 const
 val
@@ -92,7 +92,7 @@ coroutines
 .
 3
 .
-5
+9
 "
 const
 val
@@ -183,11 +183,11 @@ val
 lint
 =
 "
-26
+27
 .
-3
+0
 .
-2
+1
 "
 const
 val

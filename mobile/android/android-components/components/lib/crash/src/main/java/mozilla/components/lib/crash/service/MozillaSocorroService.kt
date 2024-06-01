@@ -927,6 +927,9 @@ versionName
 packageInfo
 .
 versionName
+?
+:
+DEFAULT_VERSION_NAME
 }
 catch
 (
