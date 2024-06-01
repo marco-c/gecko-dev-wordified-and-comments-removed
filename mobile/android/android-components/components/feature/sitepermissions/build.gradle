@@ -80,7 +80,7 @@ plugin
 '
 kotlin
 -
-parcelize
+kapt
 '
 apply
 plugin
@@ -88,7 +88,9 @@ plugin
 '
 kotlin
 -
-kapt
+android
+-
+extensions
 '
 android
 {

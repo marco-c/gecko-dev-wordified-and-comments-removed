@@ -130,16 +130,6 @@ auto
 "
 android
 :
-id
-=
-"
-+
-id
-/
-addonProgressOverlay
-"
-android
-:
 layout_width
 =
 "

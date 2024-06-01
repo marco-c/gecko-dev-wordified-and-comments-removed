@@ -69,12 +69,6 @@ ui
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 pm
@@ -89,7 +83,9 @@ Parcelable
 import
 kotlinx
 .
-parcelize
+android
+.
+parcel
 .
 Parcelize
 /
@@ -176,12 +172,6 @@ download
 .
 *
 /
-SuppressLint
-(
-"
-ParcelCreator
-"
-)
 Parcelize
 data
 class

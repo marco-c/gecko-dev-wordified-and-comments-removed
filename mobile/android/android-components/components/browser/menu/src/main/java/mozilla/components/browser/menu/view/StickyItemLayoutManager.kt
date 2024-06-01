@@ -69,12 +69,6 @@ view
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 Context
@@ -127,7 +121,9 @@ RecyclerView
 import
 kotlinx
 .
-parcelize
+android
+.
+parcel
 .
 Parcelize
 /
@@ -2647,12 +2643,6 @@ offset
 .
 *
 /
-SuppressLint
-(
-"
-ParcelCreator
-"
-)
 Parcelize
 VisibleForTesting
 internal

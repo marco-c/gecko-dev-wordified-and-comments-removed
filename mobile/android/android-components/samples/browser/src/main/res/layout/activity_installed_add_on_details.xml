@@ -200,12 +200,6 @@ listPreferredItemPaddingEnd
 "
 >
 <
-androidx
-.
-appcompat
-.
-widget
-.
 SwitchCompat
 android
 :
@@ -615,12 +609,6 @@ mozac_ic_permissions
 /
 >
 <
-androidx
-.
-appcompat
-.
-widget
-.
 SwitchCompat
 android
 :
