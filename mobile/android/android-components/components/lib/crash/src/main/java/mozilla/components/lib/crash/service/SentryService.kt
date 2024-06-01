@@ -579,7 +579,7 @@ Event
 .
 Level
 .
-ERROR
+INFO
 )
 .
 withSentryInterface
