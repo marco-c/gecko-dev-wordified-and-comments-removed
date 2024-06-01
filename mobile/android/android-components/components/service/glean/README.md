@@ -43,7 +43,7 @@ service
 It
 is
 a
-replacment
+replacement
 for
 the
 deprecated
@@ -68,6 +68,7 @@ the
 [
 complete
 Glean
+SDK
 documentation
 ]
 (
