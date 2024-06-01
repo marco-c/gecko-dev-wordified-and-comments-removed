@@ -129,7 +129,7 @@ WebExtensionToolbarFeature
 .
 kt
 #
-L27
+L32
 )
 Web
 extension

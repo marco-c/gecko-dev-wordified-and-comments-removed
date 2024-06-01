@@ -202,6 +202,7 @@ index
 .
 html
 )
+?
 enabled
 :
 [
@@ -233,6 +234,7 @@ index
 .
 html
 )
+?
 loadIcon
 :
 suspend
@@ -305,6 +307,7 @@ index
 .
 html
 )
+?
 badgeTextColor
 :
 [
@@ -336,6 +339,7 @@ index
 .
 html
 )
+?
 badgeBackgroundColor
 :
 [
@@ -367,6 +371,7 @@ index
 .
 html
 )
+?
 onClick
 :
 (
@@ -500,6 +505,7 @@ index
 .
 html
 )
+?
 <
 br
 >
@@ -557,6 +563,7 @@ index
 .
 html
 )
+?
 <
 br
 >
@@ -615,6 +622,7 @@ index
 .
 html
 )
+?
 <
 br
 >
@@ -670,6 +678,7 @@ index
 .
 html
 )
+?
 <
 br
 >
@@ -860,6 +869,7 @@ index
 .
 html
 )
+?
 <
 br
 >

@@ -64,7 +64,7 @@ open
 fun
 onBrowserAction
 (
-webExtension
+extension
 :
 [
 WebExtension
@@ -229,7 +229,7 @@ updated
 #
 #
 Parameters
-webExtension
+extension
 -
 the
 extension

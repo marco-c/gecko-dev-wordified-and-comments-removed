@@ -98,7 +98,7 @@ FennecMigrator
 .
 kt
 #
-L29
+L32
 )
 Supported
 Fennec
