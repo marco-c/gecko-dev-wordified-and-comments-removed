@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
+images
 .
 decoder
 import
@@ -77,9 +77,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
+images
 .
 DesiredSize
 /
@@ -87,7 +87,7 @@ DesiredSize
 *
 *
 An
-icon
+image
 decoder
 that
 can
@@ -145,7 +145,7 @@ use
 *
 /
 interface
-IconDecoder
+ImageDecoder
 {
 /
 *

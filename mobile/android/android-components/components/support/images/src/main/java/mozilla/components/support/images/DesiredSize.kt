@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
+images
 import
 androidx
 .
@@ -80,12 +80,10 @@ desired
 size
 of
 an
-icon
+images
+to
+be
 loaded
-by
-[
-BrowserIcons
-]
 .
 *
 *

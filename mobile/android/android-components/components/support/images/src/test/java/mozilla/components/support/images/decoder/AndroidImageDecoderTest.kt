@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
+images
 .
 decoder
 import
@@ -95,9 +95,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
+images
 .
 DesiredSize
 import
@@ -198,7 +198,7 @@ AndroidJUnit4
 class
 )
 class
-AndroidIconDecoderTest
+AndroidImageDecoderTest
 {
 Test
 fun
@@ -217,7 +217,7 @@ bitmap
 val
 decoder
 =
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 val
@@ -276,7 +276,7 @@ decoder
 =
 spy
 (
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 )
@@ -350,7 +350,7 @@ decoder
 =
 spy
 (
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 )
@@ -423,7 +423,7 @@ decoder
 =
 spy
 (
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 )
@@ -495,7 +495,7 @@ decoder
 =
 spy
 (
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 )
@@ -597,7 +597,7 @@ decoder
 =
 spy
 (
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 )
@@ -699,7 +699,7 @@ decoder
 =
 spy
 (
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 )
@@ -801,7 +801,7 @@ decoder
 =
 spy
 (
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 )
@@ -903,7 +903,7 @@ decoder
 =
 spy
 (
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 )

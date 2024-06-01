@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
+images
 .
 decoder
 import
@@ -71,9 +71,9 @@ mozilla
 .
 components
 .
-browser
+support
 .
-icons
+images
 .
 DesiredSize
 import
@@ -99,7 +99,7 @@ junit
 .
 Test
 class
-OnDeviceAndroidIconDecoderTest
+OnDeviceAndroidImageDecoderTest
 {
 Test
 fun
@@ -110,7 +110,7 @@ decodingPNG
 val
 decoder
 =
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 val
@@ -175,7 +175,7 @@ decodingGIF
 val
 decoder
 =
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 val
@@ -244,7 +244,7 @@ decodingJPEG
 val
 decoder
 =
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 val
@@ -309,7 +309,7 @@ decodingBMP
 val
 decoder
 =
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 val
@@ -374,7 +374,7 @@ decodingWEBP
 val
 decoder
 =
-AndroidIconDecoder
+AndroidImageDecoder
 (
 )
 val
