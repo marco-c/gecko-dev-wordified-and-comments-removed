@@ -171,5 +171,8 @@ ISSUE_XML_SRC_USAGE
 ImageViewAndroidTintXmlDetector
 .
 ISSUE_XML_SRC_USAGE
+FactCollectDetector
+.
+ISSUE_FACT_COLLECT_CALLED
 )
 }

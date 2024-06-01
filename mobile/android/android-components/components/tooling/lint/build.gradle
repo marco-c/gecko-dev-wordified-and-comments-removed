@@ -86,6 +86,10 @@ compileOnly
 Dependencies
 .
 tools_lintapi
+compileOnly
+Dependencies
+.
+tools_lintchecks
 /
 /
 Force
