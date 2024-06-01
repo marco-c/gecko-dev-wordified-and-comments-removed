@@ -278,5 +278,9 @@ kotlin_reflect
 implementation
 Dependencies
 .
+androidx_fragment
+implementation
+Dependencies
+.
 androidx_recyclerview
 }
