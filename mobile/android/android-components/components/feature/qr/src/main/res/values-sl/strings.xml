@@ -53,6 +53,7 @@ name
 mozac_feature_qr_scanner
 "
 >
+Bralnik
 QR
 <
 /
@@ -91,6 +92,11 @@ name
 mozac_feature_qr_scanner_no_camera
 "
 >
+Naprava
+nima
+razpolo
+ljive
+kamere
 <
 /
 string
