@@ -231,6 +231,16 @@ mozilla
 .
 components
 .
+lib
+.
+state
+.
+Store
+import
+mozilla
+.
+components
+.
 support
 .
 base
@@ -405,6 +415,8 @@ action
 .
 downloadId
 context
+.
+store
 )
 is
 DownloadAction
@@ -437,6 +449,8 @@ RestoreDownloadsStateAction
 restoreDownloads
 (
 context
+.
+store
 )
 }
 next
@@ -517,9 +531,9 @@ removeDownload
 downloadId
 :
 String
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -530,7 +544,7 @@ scope
 .
 launch
 {
-context
+store
 .
 state
 .
@@ -692,9 +706,9 @@ private
 fun
 restoreDownloads
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -726,7 +740,7 @@ download
 if
 (
 !
-context
+store
 .
 state
 .
@@ -740,8 +754,6 @@ id
 )
 )
 {
-context
-.
 store
 .
 dispatch
