@@ -474,7 +474,7 @@ R
 .
 dimen
 .
-bottom_sheet_width
+tablet_bottom_sheet_width
 )
 ;
 getWindow
@@ -616,7 +616,7 @@ R
 .
 dimen
 .
-bottom_sheet_peekheight
+tablet_bottom_sheet_peekheight
 )
 ;
 BottomSheetBehavior

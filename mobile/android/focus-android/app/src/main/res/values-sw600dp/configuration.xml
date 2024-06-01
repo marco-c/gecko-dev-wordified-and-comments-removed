@@ -99,7 +99,7 @@ dimen
 name
 =
 "
-bottom_sheet_width
+tablet_bottom_sheet_width
 "
 >
 480dp
@@ -112,7 +112,7 @@ dimen
 name
 =
 "
-bottom_sheet_peekheight
+tablet_bottom_sheet_peekheight
 "
 >
 320dp
