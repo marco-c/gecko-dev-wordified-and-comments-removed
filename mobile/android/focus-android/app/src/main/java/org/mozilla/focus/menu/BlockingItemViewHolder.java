@@ -368,9 +368,11 @@ view
 .
 setText
 (
-"
--
-"
+R
+.
+string
+.
+content_blocking_disabled
 )
 ;
 }
