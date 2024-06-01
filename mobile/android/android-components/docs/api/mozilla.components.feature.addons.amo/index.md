@@ -62,15 +62,15 @@ Summary
 |
 |
 [
-AddOnsCollectionsProvider
+AddOnCollectionProvider
 ]
 (
 -
 add
 -
-ons
+on
 -
-collections
+collection
 -
 provider
 /
@@ -80,7 +80,7 @@ md
 )
 |
 class
-AddOnsCollectionsProvider
+AddOnCollectionProvider
 :
 [
 AddOnsProvider

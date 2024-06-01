@@ -125,6 +125,7 @@ in
 your
 application
 and
+add
 it
 to
 the

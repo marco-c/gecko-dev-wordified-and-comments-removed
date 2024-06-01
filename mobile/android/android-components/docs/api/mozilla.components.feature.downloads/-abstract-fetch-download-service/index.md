@@ -98,7 +98,7 @@ AbstractFetchDownloadService
 .
 kt
 #
-L55
+L62
 )
 Service
 that
@@ -154,6 +154,7 @@ in
 your
 application
 and
+add
 it
 to
 the
@@ -1107,7 +1108,7 @@ html
 )
 :
 [
-Unit
+Boolean
 ]
 (
 https
@@ -1129,7 +1130,7 @@ stdlib
 kotlin
 /
 -
-unit
+boolean
 /
 index
 .
@@ -1146,6 +1147,15 @@ open
 the
 given
 file
+returns
+whether
+or
+not
+the
+file
+could
+be
+opened
 |
 #
 #

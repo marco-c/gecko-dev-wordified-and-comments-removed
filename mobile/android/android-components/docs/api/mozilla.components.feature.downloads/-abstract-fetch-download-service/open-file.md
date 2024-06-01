@@ -131,7 +131,7 @@ html
 )
 :
 [
-Unit
+Boolean
 ]
 (
 https
@@ -153,7 +153,7 @@ stdlib
 kotlin
 /
 -
-unit
+boolean
 /
 index
 .
@@ -209,7 +209,7 @@ AbstractFetchDownloadService
 .
 kt
 #
-L361
+L391
 )
 Launches
 an
@@ -219,3 +219,12 @@ open
 the
 given
 file
+returns
+whether
+or
+not
+the
+file
+could
+be
+opened
