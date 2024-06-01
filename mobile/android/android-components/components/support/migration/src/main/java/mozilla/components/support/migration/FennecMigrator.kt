@@ -570,6 +570,10 @@ val
 currentVersion
 :
 Int
+val
+canonicalName
+:
+String
 )
 {
 /
@@ -599,6 +603,9 @@ Migration
 currentVersion
 =
 1
+"
+History
+"
 )
 /
 *
@@ -624,6 +631,9 @@ Migration
 currentVersion
 =
 1
+"
+Bookmarks
+"
 )
 /
 *
@@ -642,6 +652,9 @@ Migration
 currentVersion
 =
 1
+"
+Logins
+"
 )
 /
 *
@@ -661,6 +674,9 @@ Migration
 currentVersion
 =
 1
+"
+OpenTabs
+"
 )
 /
 *
@@ -680,6 +696,9 @@ Migration
 currentVersion
 =
 1
+"
+FxA
+"
 )
 /
 *
@@ -703,6 +722,9 @@ Migration
 currentVersion
 =
 1
+"
+Gecko
+"
 )
 /
 *
@@ -726,6 +748,9 @@ Migration
 currentVersion
 =
 2
+"
+Settings
+"
 )
 /
 *
@@ -751,6 +776,9 @@ Migration
 currentVersion
 =
 3
+"
+Addons
+"
 )
 /
 *
@@ -773,6 +801,9 @@ Migration
 currentVersion
 =
 1
+"
+TelemetryIdentifiers
+"
 )
 /
 *
@@ -796,6 +827,9 @@ Migration
 currentVersion
 =
 1
+"
+SearchEngine
+"
 )
 /
 *
@@ -818,6 +852,9 @@ Migration
 currentVersion
 =
 1
+"
+PinnedSites
+"
 )
 }
 /
