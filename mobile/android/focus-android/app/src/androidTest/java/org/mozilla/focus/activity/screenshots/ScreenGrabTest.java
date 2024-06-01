@@ -877,11 +877,6 @@ takeScreenshotOfSettings
 device
 )
 ;
-takeScreenshotOfGooglePlayDialog
-(
-device
-)
-;
 takeScreenshotOfErrorPages
 (
 device
