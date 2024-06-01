@@ -317,6 +317,8 @@ createReportIntent
 (
 context
 crash
+NOTIFICATION_TAG
+NOTIFICATION_ID
 )
 .
 asForegroundServicePendingIntent
