@@ -1756,7 +1756,6 @@ ConsumeDownloadAction
 tab
 .
 id
-download
 )
 )
 .
@@ -1915,7 +1914,6 @@ ConsumeHitResultAction
 tab
 .
 id
-hitResult
 )
 )
 .

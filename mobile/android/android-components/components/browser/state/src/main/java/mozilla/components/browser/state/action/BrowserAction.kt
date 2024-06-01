@@ -1284,13 +1284,6 @@ val
 sessionId
 :
 String
-val
-download
-:
-DownloadState
-?
-=
-null
 )
 :
 ContentAction
