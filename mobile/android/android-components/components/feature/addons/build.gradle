@@ -278,6 +278,10 @@ testImplementation
 Dependencies
 .
 androidx_work_testing
+testImplementation
+Dependencies
+.
+testing_coroutines
 }
 apply
 from
