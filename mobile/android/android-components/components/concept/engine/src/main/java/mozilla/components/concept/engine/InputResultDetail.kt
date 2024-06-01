@@ -760,8 +760,6 @@ inputResult
 hashCode
 (
 )
-*
-31
 hash
 +
 =
@@ -773,7 +771,7 @@ hashCode
 )
 )
 *
-31
+10
 hash
 +
 =
@@ -785,7 +783,7 @@ hashCode
 )
 )
 *
-31
+100
 return
 hash
 }
