@@ -63,7 +63,9 @@ components
 .
 feature
 .
-sendtab
+accounts
+.
+push
 import
 kotlinx
 .

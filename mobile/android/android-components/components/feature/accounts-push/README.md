@@ -107,7 +107,9 @@ components
 :
 feature
 -
-sendtab
+accounts
+-
+push
 :
 {
 latest
