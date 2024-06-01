@@ -245,9 +245,6 @@ toCustomTabConfig
 =
 CustomTabConfig
 (
-id
-=
-startUrl
 toolbarColor
 =
 themeColor
