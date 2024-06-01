@@ -393,8 +393,7 @@ yyyy
 -
 MM
 -
-dd
-HH
+ddHH
 .
 mm
 .
@@ -443,6 +442,10 @@ context
 .
 packageName
 }
+.
+feature
+.
+prompts
 .
 fileprovider
 "

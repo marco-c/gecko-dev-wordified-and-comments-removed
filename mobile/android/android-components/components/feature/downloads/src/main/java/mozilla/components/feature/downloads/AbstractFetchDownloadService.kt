@@ -2392,6 +2392,10 @@ FILE_PROVIDER_EXTENSION
 =
 "
 .
+feature
+.
+downloads
+.
 fileprovider
 "
 private
