@@ -45,7 +45,7 @@ md
 )
 /
 [
-getSyncedTabs
+getSyncedDeviceTabs
 ]
 (
 .
@@ -54,15 +54,17 @@ get
 -
 synced
 -
+device
+-
 tabs
 .
 md
 )
 #
-getSyncedTabs
+getSyncedDeviceTabs
 suspend
 fun
-getSyncedTabs
+getSyncedDeviceTabs
 (
 )
 :
@@ -188,7 +190,7 @@ Overrides
 [
 SyncedTabsProvider
 .
-getSyncedTabs
+getSyncedDeviceTabs
 ]
 (
 .
@@ -204,6 +206,8 @@ provider
 get
 -
 synced
+-
+device
 -
 tabs
 .
@@ -213,7 +217,7 @@ See
 [
 SyncedTabsProvider
 .
-getSyncedTabs
+getSyncedDeviceTabs
 ]
 (
 .
@@ -229,6 +233,8 @@ provider
 get
 -
 synced
+-
+device
 -
 tabs
 .

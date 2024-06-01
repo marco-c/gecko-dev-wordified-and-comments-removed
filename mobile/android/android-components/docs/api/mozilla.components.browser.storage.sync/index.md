@@ -543,7 +543,7 @@ A
 synced
 device
 and
-the
+its
 list
 of
 tabs

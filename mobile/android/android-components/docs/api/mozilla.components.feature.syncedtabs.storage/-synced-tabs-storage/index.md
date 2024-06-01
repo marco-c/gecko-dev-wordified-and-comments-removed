@@ -436,12 +436,14 @@ Summary
 |
 |
 [
-getSyncedTabs
+getSyncedDeviceTabs
 ]
 (
 get
 -
 synced
+-
+device
 -
 tabs
 .
@@ -450,7 +452,7 @@ md
 |
 suspend
 fun
-getSyncedTabs
+getSyncedDeviceTabs
 (
 )
 :
@@ -525,7 +527,7 @@ See
 [
 SyncedTabsProvider
 .
-getSyncedTabs
+getSyncedDeviceTabs
 ]
 (
 .
@@ -541,6 +543,8 @@ provider
 get
 -
 synced
+-
+device
 -
 tabs
 .
