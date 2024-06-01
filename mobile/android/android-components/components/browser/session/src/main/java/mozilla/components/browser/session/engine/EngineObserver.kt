@@ -432,6 +432,11 @@ reject
 )
 true
 }
+session
+.
+webAppManifest
+=
+null
 }
 private
 fun
