@@ -1292,15 +1292,11 @@ waitingTime
 ;
 assertTrue
 (
-"
-Website
-title
-loaded
-"
 titleMsg
 .
-exists
+waitForExists
 (
+waitingTime
 )
 )
 ;
@@ -1608,7 +1604,7 @@ savedNotification
 .
 swipeRight
 (
-600
+50
 )
 ;
 TestHelper
