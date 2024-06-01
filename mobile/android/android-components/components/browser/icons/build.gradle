@@ -371,6 +371,10 @@ testImplementation
 Dependencies
 .
 testing_robolectric
+testImplementation
+Dependencies
+.
+testing_coroutines
 androidTestImplementation
 Dependencies
 .

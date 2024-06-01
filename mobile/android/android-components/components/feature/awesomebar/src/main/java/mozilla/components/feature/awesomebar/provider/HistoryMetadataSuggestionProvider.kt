@@ -506,11 +506,16 @@ loadIcon
 (
 IconRequest
 (
+url
+=
 it
 .
 key
 .
 url
+waitOnNetworkLoad
+=
+false
 )
 )
 }
