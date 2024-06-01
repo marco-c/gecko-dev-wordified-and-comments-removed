@@ -526,12 +526,10 @@ numSitesRequired
 /
 /
 Get
-twice
-the
-required
-size
-to
-buffer
+'
+totalSites
+'
+sites
 for
 duplicate
 entries
