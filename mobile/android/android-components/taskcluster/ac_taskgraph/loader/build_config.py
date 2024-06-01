@@ -146,15 +146,13 @@ in
 regular
 '
 '
+nightly
+'
+'
 release
 '
 '
 snapshot
-'
-'
-nightly
--
-release
 '
 )
         

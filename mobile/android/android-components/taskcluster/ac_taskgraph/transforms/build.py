@@ -855,8 +855,6 @@ build_type
 =
 '
 nightly
--
-release
 '
 :
             
@@ -1089,8 +1087,6 @@ type
 =
 '
 nightly
--
-release
 '
 :
                 
