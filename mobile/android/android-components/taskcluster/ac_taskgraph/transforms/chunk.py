@@ -28,6 +28,11 @@ from
 taskgraph
 import
 MAX_DEPENDENCIES
+MAX_REGULAR_DEPS
+=
+MAX_DEPENDENCIES
+-
+1
 transforms
 =
 TransformSequence
@@ -230,7 +235,7 @@ deps
 )
 =
 =
-MAX_DEPENDENCIES
+MAX_REGULAR_DEPS
 :
                 
 chunked_task
