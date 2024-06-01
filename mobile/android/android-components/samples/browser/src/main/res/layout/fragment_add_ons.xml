@@ -185,6 +185,16 @@ BrowserActivity
 include
 android
 :
+id
+=
+"
++
+id
+/
+addonProgressOverlay
+"
+android
+:
 layout_width
 =
 "

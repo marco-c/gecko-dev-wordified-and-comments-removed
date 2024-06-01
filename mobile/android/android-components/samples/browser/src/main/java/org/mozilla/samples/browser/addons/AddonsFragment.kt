@@ -1041,7 +1041,9 @@ bind
 (
 binding
 .
-root
+addonProgressOverlay
+.
+addonProgressOverlay
 )
 includedBinding
 .
