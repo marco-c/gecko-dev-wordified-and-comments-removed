@@ -95,6 +95,17 @@ nimbus
 "
 >
 <
+application
+android
+:
+supportsRtl
+=
+"
+true
+"
+/
+>
+<
 /
 manifest
 >

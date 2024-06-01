@@ -237,6 +237,14 @@ mozilla_nimbus
 implementation
 Dependencies
 .
+androidx_core_ktx
+implementation
+Dependencies
+.
+androidx_constraintlayout
+implementation
+Dependencies
+.
 androidx_coordinatorlayout
 implementation
 Dependencies

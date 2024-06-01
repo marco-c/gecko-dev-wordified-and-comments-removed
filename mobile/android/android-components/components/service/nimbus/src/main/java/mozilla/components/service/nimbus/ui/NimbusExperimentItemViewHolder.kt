@@ -95,7 +95,7 @@ experiments
 .
 nimbus
 .
-EnrolledExperiment
+AvailableExperiment
 /
 *
 *
@@ -147,7 +147,7 @@ bind
 (
 experiment
 :
-EnrolledExperiment
+AvailableExperiment
 )
 {
 titleView
