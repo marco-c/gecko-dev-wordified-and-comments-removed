@@ -64,7 +64,6 @@ postMessage
 sessionToken
 :
 CustomTabsSessionToken
-?
 message
 :
 [
@@ -185,5 +184,5 @@ AbstractCustomTabsService
 .
 kt
 #
-L84
+L109
 )

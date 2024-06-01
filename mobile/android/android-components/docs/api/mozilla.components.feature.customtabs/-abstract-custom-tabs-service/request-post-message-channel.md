@@ -68,7 +68,6 @@ requestPostMessageChannel
 sessionToken
 :
 CustomTabsSessionToken
-?
 postMessageOrigin
 :
 <
@@ -157,5 +156,5 @@ AbstractCustomTabsService
 .
 kt
 #
-L51
+L65
 )

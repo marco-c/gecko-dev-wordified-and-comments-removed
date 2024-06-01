@@ -112,7 +112,7 @@ CustomTabConfigHelper
 .
 kt
 #
-L65
+L66
 )
 Checks
 if
@@ -265,7 +265,7 @@ CustomTabConfigHelper
 .
 kt
 #
-L73
+L74
 )
 Checks
 if

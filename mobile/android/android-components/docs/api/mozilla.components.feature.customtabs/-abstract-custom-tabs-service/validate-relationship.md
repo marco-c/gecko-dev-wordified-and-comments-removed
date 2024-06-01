@@ -64,7 +64,6 @@ validateRelationship
 sessionToken
 :
 CustomTabsSessionToken
-?
 relation
 :
 [
@@ -190,5 +189,5 @@ AbstractCustomTabsService
 .
 kt
 #
-L88
+L113
 )

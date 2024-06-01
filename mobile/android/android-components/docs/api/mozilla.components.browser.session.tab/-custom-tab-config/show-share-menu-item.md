@@ -146,7 +146,7 @@ CustomTabConfig
 .
 kt
 #
-L32
+L34
 )
 Specifies
 whether

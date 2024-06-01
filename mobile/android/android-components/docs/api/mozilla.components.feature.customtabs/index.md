@@ -306,6 +306,7 @@ resources
 ERROR
 CLASS
 >
+?
 )
 :
 [

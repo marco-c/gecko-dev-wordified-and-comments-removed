@@ -66,7 +66,6 @@ mayLaunchUrl
 sessionToken
 :
 CustomTabsSessionToken
-?
 url
 :
 <
@@ -204,5 +203,5 @@ AbstractCustomTabsService
 .
 kt
 #
-L63
+L88
 )

@@ -142,6 +142,8 @@ ERROR
 CLASS
 >
 ?
+=
+null
 enableUrlbarHiding
 :
 [
@@ -173,6 +175,8 @@ index
 .
 html
 )
+=
+false
 actionButtonConfig
 :
 [
@@ -198,6 +202,8 @@ index
 md
 )
 ?
+=
+null
 showShareMenuItem
 :
 [
@@ -229,6 +235,8 @@ index
 .
 html
 )
+=
+false
 menuItems
 :
 [
@@ -364,6 +372,12 @@ html
 )
 =
 false
+sessionToken
+:
+CustomTabsSessionToken
+?
+=
+null
 )
 Holds
 configuration
