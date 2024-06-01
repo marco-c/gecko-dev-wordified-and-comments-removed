@@ -85,6 +85,11 @@ reload
 (
 )
 ;
+void
+stopLoading
+(
+)
+;
 String
 getUrl
 (

@@ -342,6 +342,14 @@ reload
 }
 Override
 public
+void
+stopLoading
+(
+)
+{
+}
+Override
+public
 String
 getUrl
 (
