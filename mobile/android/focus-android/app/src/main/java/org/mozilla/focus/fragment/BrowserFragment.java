@@ -3285,8 +3285,16 @@ UrlInputFragment
 .
 createWithBrowserScreenAnimation
 (
+UrlUtils
+.
+getSearchTermsOrUrl
+(
+getContext
+(
+)
 getUrl
 (
+)
 )
 urlView
 )
