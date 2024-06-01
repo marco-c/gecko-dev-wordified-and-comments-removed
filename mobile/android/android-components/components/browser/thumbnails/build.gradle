@@ -232,6 +232,10 @@ implementation
 Dependencies
 .
 kotlin_stdlib
+implementation
+Dependencies
+.
+thirdparty_disklrucache
 testImplementation
 project
 (
