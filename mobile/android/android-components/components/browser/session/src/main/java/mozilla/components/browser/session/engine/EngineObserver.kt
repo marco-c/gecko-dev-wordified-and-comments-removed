@@ -2138,7 +2138,7 @@ dispatch
 (
 EngineAction
 .
-SuspendEngineSessionAction
+KillEngineSessionAction
 (
 session
 .

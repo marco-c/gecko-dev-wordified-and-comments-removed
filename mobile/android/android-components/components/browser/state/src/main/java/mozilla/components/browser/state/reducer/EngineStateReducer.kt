@@ -185,6 +185,11 @@ engineSession
 action
 .
 engineSession
+timestamp
+=
+action
+.
+timestamp
 )
 }
 is
@@ -352,6 +357,10 @@ is
 EngineAction
 .
 ExitFullScreenModeAction
+is
+EngineAction
+.
+KillEngineSessionAction
 is
 EngineAction
 .

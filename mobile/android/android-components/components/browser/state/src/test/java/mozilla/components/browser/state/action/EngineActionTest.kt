@@ -352,6 +352,9 @@ tab
 .
 id
 engineSession
+timestamp
+=
+1234
 )
 )
 .
@@ -374,6 +377,15 @@ engineState
 )
 .
 engineSession
+)
+assertEquals
+(
+1234L
+engineState
+(
+)
+.
+timestamp
 )
 }
 Test
