@@ -1,0 +1,14 @@
+"
+use
+strict
+"
+;
+window
+.
+shimPromiseResolve
+(
+"
+shimmed
+"
+)
+;

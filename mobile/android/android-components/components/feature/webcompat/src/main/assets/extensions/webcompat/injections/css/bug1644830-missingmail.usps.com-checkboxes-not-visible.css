@@ -112,12 +112,11 @@ checkbox
 container
 input
 {
-top
-:
-0
-;
+margin
+-
 left
 :
-0
+-
+3rem
 ;
 }
