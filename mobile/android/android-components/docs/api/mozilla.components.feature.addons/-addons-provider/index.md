@@ -521,8 +521,8 @@ Provide
 access
 to
 the
-collections
 AMO
+collections
 API
 .
 https
