@@ -278,7 +278,7 @@ run
 -
 time
 :
-7200
+2400
 jobs
 :
 unit

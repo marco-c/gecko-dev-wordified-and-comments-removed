@@ -212,7 +212,7 @@ run
 -
 time
 :
-1800
+600
 linux64
 -
 android
@@ -397,4 +397,4 @@ run
 -
 time
 :
-14400
+9600

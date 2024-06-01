@@ -235,7 +235,7 @@ run
 -
 time
 :
-7200
+1200
 jobs
 :
 nightly

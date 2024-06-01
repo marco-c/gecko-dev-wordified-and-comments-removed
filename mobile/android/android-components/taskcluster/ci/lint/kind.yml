@@ -182,7 +182,7 @@ run
 -
 time
 :
-7200
+600
 jobs
 :
 compare
