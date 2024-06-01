@@ -667,7 +667,7 @@ PackageManager
 NameNotFoundException
 )
 {
-Logger
+logger
 .
 error
 (
@@ -691,7 +691,7 @@ e
 IllegalStateException
 )
 {
-Logger
+logger
 .
 error
 (
@@ -1019,7 +1019,7 @@ id
 null
 )
 {
-Logger
+logger
 .
 info
 (
@@ -1035,7 +1035,7 @@ id
 }
 else
 {
-Logger
+logger
 .
 info
 (
@@ -1058,7 +1058,7 @@ e
 IOException
 )
 {
-Logger
+logger
 .
 error
 (
@@ -1894,7 +1894,7 @@ PackageManager
 NameNotFoundException
 )
 {
-Logger
+logger
 .
 error
 (
@@ -2291,7 +2291,7 @@ e
 IOException
 )
 {
-Logger
+logger
 .
 error
 (
@@ -2597,7 +2597,7 @@ e
 IOException
 )
 {
-Logger
+logger
 .
 error
 (
@@ -2761,7 +2761,7 @@ e
 FileNotFoundException
 )
 {
-Logger
+logger
 .
 error
 (
@@ -2782,7 +2782,7 @@ e
 IOException
 )
 {
-Logger
+logger
 .
 error
 (
@@ -2803,7 +2803,7 @@ e
 JSONException
 )
 {
-Logger
+logger
 .
 info
 (
