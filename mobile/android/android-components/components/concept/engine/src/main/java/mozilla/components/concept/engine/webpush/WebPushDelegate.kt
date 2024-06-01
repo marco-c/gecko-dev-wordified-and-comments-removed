@@ -116,6 +116,7 @@ onSubscription
 :
 (
 WebPushSubscription
+?
 )
 -
 >
@@ -154,6 +155,7 @@ onSubscribe
 :
 (
 WebPushSubscription
+?
 )
 -
 >
