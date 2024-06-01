@@ -257,7 +257,11 @@ BundleStorage
 Load
 the
 [
-SearchEngineBundle
+SearchMiddleware
+.
+BundleStorage
+.
+Bundle
 ]
 for
 the
@@ -915,13 +919,12 @@ of
 locale
 and
 region
-specific
 from
 most
 specific
 to
-*
 least
+*
 specific
 .
 *

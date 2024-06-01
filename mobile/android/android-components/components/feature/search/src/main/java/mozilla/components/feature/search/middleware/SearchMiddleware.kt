@@ -504,6 +504,15 @@ customStorage
 loadSearchEngineList
 (
 )
+if
+(
+searchEngines
+.
+isNotEmpty
+(
+)
+)
+{
 store
 .
 dispatch
@@ -515,6 +524,7 @@ SetCustomSearchEngines
 searchEngines
 )
 )
+}
 }
 private
 fun

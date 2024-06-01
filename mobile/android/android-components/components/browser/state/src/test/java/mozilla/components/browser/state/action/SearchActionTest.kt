@@ -514,7 +514,7 @@ searchEngines
 }
 Test
 fun
-SetCustomSearchEngineAction
+UpdateCustomSearchEngineAction
 sets
 a
 new
