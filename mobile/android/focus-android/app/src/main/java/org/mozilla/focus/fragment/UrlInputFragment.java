@@ -753,6 +753,13 @@ browserFragment
 !
 =
 null
+&
+&
+browserFragment
+.
+isVisible
+(
+)
 )
 {
 browserFragment
