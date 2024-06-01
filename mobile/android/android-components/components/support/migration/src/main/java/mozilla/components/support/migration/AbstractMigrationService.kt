@@ -562,6 +562,13 @@ NotificationCompat
 PRIORITY_LOW
 )
 .
+setCategory
+(
+NotificationCompat
+.
+CATEGORY_PROGRESS
+)
+.
 setVisibility
 (
 NotificationCompat
