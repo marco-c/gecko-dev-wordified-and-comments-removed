@@ -2226,12 +2226,6 @@ store
 it
 )
 }
-/
-/
-emitWebExtensionsInitializedFact
-(
-extensions
-)
 closeUnsupportedTabs
 (
 store
