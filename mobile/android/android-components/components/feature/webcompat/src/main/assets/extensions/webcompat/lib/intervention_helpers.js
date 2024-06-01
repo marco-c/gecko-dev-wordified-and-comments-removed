@@ -777,8 +777,6 @@ InterventionHelpers
 =
 {
 matchPatternsForTLDs
-:
-function
 (
 base
 suffix
@@ -802,8 +800,6 @@ suffix
 ;
 }
 matchPatternsForGoogle
-:
-function
 (
 base
 suffix

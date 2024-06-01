@@ -113,7 +113,7 @@ https
 :
 /
 /
-www
+*
 .
 udemy
 .
