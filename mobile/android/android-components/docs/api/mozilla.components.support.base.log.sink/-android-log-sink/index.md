@@ -122,7 +122,7 @@ AndroidLogSink
 .
 kt
 #
-L20
+L18
 )
 LogSink
 implementation
