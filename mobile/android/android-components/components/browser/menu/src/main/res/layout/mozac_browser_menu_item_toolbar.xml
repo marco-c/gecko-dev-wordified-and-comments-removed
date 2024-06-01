@@ -126,7 +126,9 @@ android
 layout_height
 =
 "
-48dp
+dimen
+/
+mozac_browser_menu_item_toolbar_height
 "
 android
 :
