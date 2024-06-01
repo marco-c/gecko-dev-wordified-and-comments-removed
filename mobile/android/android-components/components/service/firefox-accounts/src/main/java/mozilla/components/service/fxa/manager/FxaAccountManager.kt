@@ -3924,6 +3924,7 @@ notifyObservers
 onAuthenticated
 (
 account
+true
 )
 }
 Event
@@ -4130,6 +4131,7 @@ notifyObservers
 onAuthenticated
 (
 account
+false
 )
 }
 Event
@@ -4220,6 +4222,7 @@ notifyObservers
 onAuthenticated
 (
 account
+true
 )
 }
 Event
@@ -4365,6 +4368,7 @@ notifyObservers
 onAuthenticated
 (
 account
+false
 )
 }
 Event
@@ -5403,6 +5407,9 @@ onAuthenticated
 account
 :
 OAuthAccount
+newAccount
+:
+Boolean
 )
 {
 syncManager

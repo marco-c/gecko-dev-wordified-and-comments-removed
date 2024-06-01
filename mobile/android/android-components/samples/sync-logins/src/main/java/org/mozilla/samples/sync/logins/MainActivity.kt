@@ -760,6 +760,9 @@ onAuthenticated
 account
 :
 OAuthAccount
+newAccount
+:
+Boolean
 )
 {
 accountManager

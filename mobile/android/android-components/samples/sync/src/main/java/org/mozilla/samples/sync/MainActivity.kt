@@ -1740,6 +1740,9 @@ onAuthenticated
 account
 :
 OAuthAccount
+newAccount
+:
+Boolean
 )
 {
 launch
