@@ -397,6 +397,18 @@ concept
 .
 engine
 .
+webextension
+.
+WebExtensionRuntime
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
 webnotifications
 .
 WebNotificationDelegate
@@ -601,6 +613,7 @@ runtime
 )
 :
 Engine
+WebExtensionRuntime
 {
 private
 val

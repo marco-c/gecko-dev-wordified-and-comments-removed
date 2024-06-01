@@ -339,7 +339,7 @@ engine
 .
 webextension
 .
-ActionHandler
+Action
 import
 mozilla
 .
@@ -351,7 +351,7 @@ engine
 .
 webextension
 .
-Action
+ActionHandler
 import
 mozilla
 .
@@ -388,6 +388,18 @@ engine
 webextension
 .
 WebExtensionDelegate
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
+webextension
+.
+WebExtensionRuntime
 import
 mozilla
 .
@@ -601,6 +613,7 @@ runtime
 )
 :
 Engine
+WebExtensionRuntime
 {
 private
 val
