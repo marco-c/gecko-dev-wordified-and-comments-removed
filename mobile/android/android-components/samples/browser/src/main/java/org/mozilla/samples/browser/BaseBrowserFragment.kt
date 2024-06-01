@@ -903,6 +903,9 @@ useCases
 components
 .
 contextMenuUseCases
+tabId
+=
+sessionId
 )
 promptFeature
 .
