@@ -62,6 +62,8 @@ etc
 local
 .
 properties
+.
+lastAutoPublishContentsHash
 #
 Proguard
 folder

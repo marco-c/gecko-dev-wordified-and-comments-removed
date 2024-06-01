@@ -856,10 +856,11 @@ publishAppServicesCmd
 "
 .
 /
-gradlew
-"
-"
-autoPublishForLocalDevelopment
+automation
+/
+publish_to_maven_local_if_modified
+.
+py
 "
 ]
 runCmd
