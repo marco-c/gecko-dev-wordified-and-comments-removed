@@ -1470,6 +1470,11 @@ new
 URL
 (
 href
+window
+.
+location
+.
+href
 )
 ;
 if
