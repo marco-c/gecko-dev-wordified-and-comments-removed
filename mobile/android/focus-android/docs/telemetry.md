@@ -624,7 +624,7 @@ action
 click
 "
 "
-custom_tab_close_button
+custom_tab_close_but
 "
 )
 *
@@ -645,7 +645,7 @@ action
 click
 "
 "
-custom_tab_action_button
+custom_tab_action_bu
 "
 )
 *
