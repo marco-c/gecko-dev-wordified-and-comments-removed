@@ -418,15 +418,6 @@ component
 :
 publish
 '
--
-'
-:
-{
-component
-}
-:
-renameArtifacts
-'
 default
 :
 by
