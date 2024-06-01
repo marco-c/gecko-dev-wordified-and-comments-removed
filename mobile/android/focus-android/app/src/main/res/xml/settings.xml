@@ -42,7 +42,15 @@ android
 "
 >
 <
-ListPreference
+org
+.
+mozilla
+.
+focus
+.
+widget
+.
+LocaleListPreference
 android
 :
 layout
