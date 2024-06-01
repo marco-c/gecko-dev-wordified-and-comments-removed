@@ -187,6 +187,13 @@ true
 "
 android
 :
+clipToPadding
+=
+"
+false
+"
+android
+:
 paddingStart
 =
 "
