@@ -1933,6 +1933,9 @@ mock
 geckoSessionProvider
 =
 geckoSessionProvider
+privateMode
+=
+true
 )
 val
 observer
@@ -2041,6 +2044,9 @@ image
 /
 png
 "
+isPrivate
+=
+true
 userAgent
 =
 null

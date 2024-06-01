@@ -3377,6 +3377,9 @@ userAgent
 :
 String
 ?
+isPrivate
+:
+Boolean
 )
 {
 assertEquals

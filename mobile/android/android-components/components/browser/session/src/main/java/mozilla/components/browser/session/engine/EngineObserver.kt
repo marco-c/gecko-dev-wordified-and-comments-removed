@@ -1364,6 +1364,9 @@ userAgent
 :
 String
 ?
+isPrivate
+:
+Boolean
 )
 {
 /
@@ -1431,6 +1434,9 @@ userAgent
 Environment
 .
 DIRECTORY_DOWNLOADS
+private
+=
+isPrivate
 )
 store
 ?
