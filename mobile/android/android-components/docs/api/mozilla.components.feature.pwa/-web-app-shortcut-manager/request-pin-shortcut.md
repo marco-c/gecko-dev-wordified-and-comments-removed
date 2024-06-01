@@ -253,3 +253,8 @@ name
 of
 the
 shortcut
+.
+Ignored
+for
+PWAs
+.

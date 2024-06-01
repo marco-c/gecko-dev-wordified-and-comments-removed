@@ -140,7 +140,7 @@ Session
 .
 kt
 #
-L425
+L427
 )
 Exits
 fullscreen

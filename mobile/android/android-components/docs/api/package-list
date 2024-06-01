@@ -3991,13 +3991,6 @@ mozilla
 .
 components
 .
-feature
-.
-webnotifications
-mozilla
-.
-components
-.
 lib
 .
 crash

@@ -142,7 +142,7 @@ WebNotification
 .
 kt
 #
-L32
+L31
 )
 Vibration
 pattern

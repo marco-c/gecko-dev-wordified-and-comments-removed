@@ -142,5 +142,13 @@ WebAppUseCases
 .
 kt
 #
-L22
+L34
 )
+Checks
+if
+the
+launcher
+supports
+adding
+shortcuts
+.
