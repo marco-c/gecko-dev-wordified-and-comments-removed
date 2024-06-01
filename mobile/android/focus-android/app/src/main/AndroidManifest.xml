@@ -155,6 +155,15 @@ smallestScreenSize
 |
 screenLayout
 "
+android
+:
+label
+=
+"
+string
+/
+launcher_name
+"
 >
 <
 intent
