@@ -672,6 +672,16 @@ lastNotificationUpdate
 Long
 =
 0L
+var
+createdTime
+:
+Long
+=
+System
+.
+currentTimeMillis
+(
+)
 )
 {
 internal
@@ -1470,11 +1480,6 @@ createOngoingDownloadNotification
 (
 context
 download
-.
-state
-download
-.
-currentBytesCopied
 )
 }
 DownloadJobStatus
@@ -1489,8 +1494,6 @@ createPausedDownloadNotification
 (
 context
 download
-.
-state
 )
 }
 DownloadJobStatus
@@ -1505,8 +1508,6 @@ createDownloadCompletedNotification
 (
 context
 download
-.
-state
 )
 }
 DownloadJobStatus
@@ -1521,8 +1522,6 @@ createDownloadFailedNotification
 (
 context
 download
-.
-state
 )
 }
 DownloadJobStatus
