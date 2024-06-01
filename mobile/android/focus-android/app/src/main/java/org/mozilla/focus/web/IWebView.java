@@ -243,6 +243,13 @@ resetBlockedTrackers
 (
 )
 ;
+void
+onBlockingStateChanged
+(
+boolean
+isBlockingEnabled
+)
+;
 }
 interface
 FullscreenCallback
@@ -258,11 +265,6 @@ setBlockingEnabled
 (
 boolean
 enabled
-)
-;
-boolean
-isBlockingEnabled
-(
 )
 ;
 void

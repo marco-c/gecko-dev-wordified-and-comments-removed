@@ -466,17 +466,6 @@ enabled
 )
 {
 }
-Override
-public
-boolean
-isBlockingEnabled
-(
-)
-{
-return
-true
-;
-}
 private
 ContentListener
 createContentListener
