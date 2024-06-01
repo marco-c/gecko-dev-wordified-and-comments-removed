@@ -67,12 +67,6 @@ menu
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 graphics
 .
 Color
@@ -386,10 +380,13 @@ visible
 .
 *
 /
-SuppressLint
+Suppress
 (
 "
 InflateParams
+"
+"
+ComplexMethod
 "
 )
 open
