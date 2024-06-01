@@ -64,6 +64,18 @@ components
 service
 .
 experiments
+import
+mozilla
+.
+components
+.
+service
+.
+experiments
+.
+util
+.
+VersionString
 /
 *
 *
@@ -457,7 +469,7 @@ or
 val
 appMinVersion
 :
-String
+VersionString
 ?
 /
 *
@@ -490,7 +502,7 @@ or
 val
 appMaxVersion
 :
-String
+VersionString
 ?
 /
 *

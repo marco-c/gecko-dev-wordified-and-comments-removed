@@ -81,6 +81,18 @@ mozilla
 .
 components
 .
+service
+.
+experiments
+.
+util
+.
+VersionString
+import
+mozilla
+.
+components
+.
 support
 .
 ktx
@@ -224,6 +236,8 @@ appDisplayVersion
 "
 appMinVersion
 =
+VersionString
+(
 "
 0
 .
@@ -231,8 +245,11 @@ appMinVersion
 .
 0
 "
+)
 appMaxVersion
 =
+VersionString
+(
 "
 1
 .
@@ -240,6 +257,7 @@ appMaxVersion
 .
 0
 "
+)
 deviceManufacturer
 =
 "
@@ -1069,6 +1087,8 @@ US
 )
 appMinVersion
 =
+VersionString
+(
 "
 1
 .
@@ -1076,8 +1096,11 @@ appMinVersion
 .
 0
 "
+)
 appMaxVersion
 =
+VersionString
+(
 "
 1
 .
@@ -1085,6 +1108,7 @@ appMaxVersion
 .
 0
 "
+)
 )
 buckets
 =
