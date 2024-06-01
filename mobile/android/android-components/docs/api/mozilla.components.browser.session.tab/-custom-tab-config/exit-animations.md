@@ -118,7 +118,7 @@ CustomTabConfig
 .
 kt
 #
-L40
+L34
 )
 Bundle
 containing

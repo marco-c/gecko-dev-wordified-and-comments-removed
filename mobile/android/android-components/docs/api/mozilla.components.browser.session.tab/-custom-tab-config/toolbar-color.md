@@ -143,7 +143,7 @@ CustomTabConfig
 .
 kt
 #
-L34
+L28
 )
 Background
 color

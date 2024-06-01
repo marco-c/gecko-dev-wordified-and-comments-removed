@@ -120,7 +120,7 @@ CustomTabConfig
 .
 kt
 #
-L35
+L29
 )
 Custom
 icon

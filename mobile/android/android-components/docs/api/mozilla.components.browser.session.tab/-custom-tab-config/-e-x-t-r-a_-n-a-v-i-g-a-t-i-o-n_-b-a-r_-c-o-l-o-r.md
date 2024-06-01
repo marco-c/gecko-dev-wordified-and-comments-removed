@@ -186,5 +186,5 @@ CustomTabConfig
 .
 kt
 #
-L80
+L40
 )
