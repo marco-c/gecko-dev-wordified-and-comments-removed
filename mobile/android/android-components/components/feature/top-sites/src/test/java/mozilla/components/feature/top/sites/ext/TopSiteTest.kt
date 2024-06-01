@@ -103,7 +103,7 @@ junit
 .
 Test
 class
-TopSiteKtTest
+TopSiteTest
 {
 Test
 fun
@@ -117,6 +117,8 @@ topSites
 listOf
 (
 TopSite
+.
+Frecent
 (
 id
 =
@@ -140,13 +142,6 @@ com
 createdAt
 =
 1
-type
-=
-TopSite
-.
-Type
-.
-FRECENT
 )
 )
 assertTrue
