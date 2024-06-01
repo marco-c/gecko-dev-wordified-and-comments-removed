@@ -155,7 +155,7 @@ final
 int
 CONNECT_TIMEOUT
 =
-500
+1000
 ;
 private
 static
@@ -163,7 +163,7 @@ final
 int
 READ_TIMEOUT
 =
-2000
+5000
 ;
 private
 static
