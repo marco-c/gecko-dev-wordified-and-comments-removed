@@ -64,7 +64,7 @@ saveThumbnail
 request
 :
 [
-ImageRequest
+ImageSaveRequest
 ]
 (
 .
@@ -84,9 +84,9 @@ images
 -
 image
 -
+save
+-
 request
-/
-index
 .
 md
 )
@@ -151,7 +151,7 @@ ThumbnailStorage
 .
 kt
 #
-L102
+L103
 )
 Stores
 the
@@ -171,7 +171,7 @@ with
 the
 provided
 [
-ImageRequest
+ImageLoadRequest
 ]
 (
 .
@@ -190,6 +190,8 @@ images
 /
 -
 image
+-
+load
 -
 request
 /

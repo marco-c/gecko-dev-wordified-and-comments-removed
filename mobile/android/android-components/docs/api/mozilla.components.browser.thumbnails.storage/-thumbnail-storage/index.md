@@ -101,7 +101,7 @@ ThumbnailStorage
 .
 kt
 #
-L35
+L36
 )
 Thumbnail
 storage
@@ -342,7 +342,7 @@ loadThumbnail
 request
 :
 [
-ImageRequest
+ImageLoadRequest
 ]
 (
 .
@@ -361,6 +361,8 @@ images
 /
 -
 image
+-
+load
 -
 request
 /
@@ -395,7 +397,7 @@ for
 the
 given
 [
-ImageRequest
+ImageLoadRequest
 ]
 (
 .
@@ -414,6 +416,8 @@ images
 /
 -
 image
+-
+load
 -
 request
 /
@@ -441,7 +445,7 @@ saveThumbnail
 request
 :
 [
-ImageRequest
+ImageSaveRequest
 ]
 (
 .
@@ -461,9 +465,9 @@ images
 -
 image
 -
+save
+-
 request
-/
-index
 .
 md
 )
@@ -497,7 +501,7 @@ with
 the
 provided
 [
-ImageRequest
+ImageLoadRequest
 ]
 (
 .
@@ -516,6 +520,8 @@ images
 /
 -
 image
+-
+load
 -
 request
 /

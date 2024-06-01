@@ -372,7 +372,7 @@ use
 when
 loading
 the
-provider
+provided
 url
 .
 additionalHeaders

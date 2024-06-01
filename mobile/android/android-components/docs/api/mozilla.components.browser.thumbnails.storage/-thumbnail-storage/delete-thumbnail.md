@@ -147,7 +147,7 @@ ThumbnailStorage
 .
 kt
 #
-L59
+L60
 )
 Deletes
 the

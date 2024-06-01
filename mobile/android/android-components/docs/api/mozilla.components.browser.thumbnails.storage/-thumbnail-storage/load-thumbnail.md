@@ -64,7 +64,7 @@ loadThumbnail
 request
 :
 [
-ImageRequest
+ImageLoadRequest
 ]
 (
 .
@@ -83,6 +83,8 @@ images
 /
 -
 image
+-
+load
 -
 request
 /
@@ -152,7 +154,7 @@ ThumbnailStorage
 .
 kt
 #
-L68
+L69
 )
 Asynchronously
 loads
@@ -168,7 +170,7 @@ for
 the
 given
 [
-ImageRequest
+ImageLoadRequest
 ]
 (
 .
@@ -187,6 +189,8 @@ images
 /
 -
 image
+-
+load
 -
 request
 /

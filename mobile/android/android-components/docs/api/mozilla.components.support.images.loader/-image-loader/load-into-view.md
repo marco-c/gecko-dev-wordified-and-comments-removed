@@ -74,7 +74,7 @@ CLASS
 request
 :
 [
-ImageRequest
+ImageLoadRequest
 ]
 (
 .
@@ -93,6 +93,8 @@ images
 /
 -
 image
+-
+load
 -
 request
 /
@@ -258,7 +260,7 @@ into
 request
 -
 [
-ImageRequest
+ImageLoadRequest
 ]
 (
 .
@@ -277,6 +279,8 @@ images
 /
 -
 image
+-
+load
 -
 request
 /
