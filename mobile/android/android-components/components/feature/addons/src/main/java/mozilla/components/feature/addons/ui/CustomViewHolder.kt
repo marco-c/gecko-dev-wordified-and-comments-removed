@@ -182,6 +182,10 @@ val
 titleView
 :
 TextView
+val
+descriptionView
+:
+TextView
 )
 :
 CustomViewHolder
