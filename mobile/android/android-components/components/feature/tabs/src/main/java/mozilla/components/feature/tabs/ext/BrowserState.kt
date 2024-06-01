@@ -202,6 +202,11 @@ selectedIndex
 =
 tabs
 .
+filter
+(
+tabsFilter
+)
+.
 indexOfFirst
 {
 it
