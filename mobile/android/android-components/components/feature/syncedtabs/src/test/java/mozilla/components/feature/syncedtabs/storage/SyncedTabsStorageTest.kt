@@ -1100,7 +1100,7 @@ result
 =
 feature
 .
-getSyncedTabs
+getSyncedDeviceTabs
 (
 )
 assertEquals
@@ -1196,7 +1196,7 @@ SyncedDeviceTabs
 )
 feature
 .
-getSyncedTabs
+getSyncedDeviceTabs
 (
 )
 )

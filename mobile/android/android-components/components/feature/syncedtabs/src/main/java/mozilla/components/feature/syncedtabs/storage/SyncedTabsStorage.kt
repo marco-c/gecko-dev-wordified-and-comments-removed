@@ -505,7 +505,7 @@ See
 [
 SyncedTabsProvider
 .
-getSyncedTabs
+getSyncedDeviceTabs
 ]
 .
 *
@@ -513,7 +513,7 @@ getSyncedTabs
 override
 suspend
 fun
-getSyncedTabs
+getSyncedDeviceTabs
 (
 )
 :

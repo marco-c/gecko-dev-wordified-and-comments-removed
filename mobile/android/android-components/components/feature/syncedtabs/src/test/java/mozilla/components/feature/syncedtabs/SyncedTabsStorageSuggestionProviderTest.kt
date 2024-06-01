@@ -512,7 +512,7 @@ whenever
 (
 syncedTabs
 .
-getSyncedTabs
+getSyncedDeviceTabs
 (
 )
 )

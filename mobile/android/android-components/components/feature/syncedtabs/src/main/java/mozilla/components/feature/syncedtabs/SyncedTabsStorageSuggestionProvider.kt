@@ -253,7 +253,7 @@ tabs
 in
 syncedTabs
 .
-getSyncedTabs
+getSyncedDeviceTabs
 (
 )
 )
