@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+file
+:
+Suppress
+(
+"
+DEPRECATION
+"
+)
 package
 mozilla
 .
@@ -267,7 +275,7 @@ base
 .
 observer
 .
-Observable
+DeprecatedObservable
 /
 *
 *
@@ -323,7 +331,7 @@ engine
 )
 )
 :
-Observable
+DeprecatedObservable
 <
 SessionManager
 .

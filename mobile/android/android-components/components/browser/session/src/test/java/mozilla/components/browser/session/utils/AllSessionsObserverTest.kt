@@ -154,6 +154,17 @@ mockito
 Mockito
 .
 verify
+Suppress
+(
+"
+DEPRECATION
+"
+)
+/
+/
+AllSessionsObserver
+is
+deprecated
 class
 AllSessionsObserverTest
 {
