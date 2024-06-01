@@ -183,7 +183,7 @@ Addon
 .
 kt
 #
-L142
+L144
 )
 Returns
 a
@@ -214,6 +214,18 @@ locales
 All
 other
 translations
+except
+the
+[
+defaultLocale
+]
+(
+default
+-
+locale
+.
+md
+)
 will
 be
 removed
