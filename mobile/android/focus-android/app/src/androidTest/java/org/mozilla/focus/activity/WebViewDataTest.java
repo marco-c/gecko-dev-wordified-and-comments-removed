@@ -957,12 +957,6 @@ violet
 "
 "
 /
-favicon
-.
-ico
-"
-"
-/
 copper
 /
 truck
