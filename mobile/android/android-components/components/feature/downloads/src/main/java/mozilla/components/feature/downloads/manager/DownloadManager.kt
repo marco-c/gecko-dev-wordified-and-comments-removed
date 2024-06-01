@@ -91,6 +91,16 @@ mozilla
 .
 components
 .
+feature
+.
+downloads
+.
+AbstractFetchDownloadService
+import
+mozilla
+.
+components
+.
 support
 .
 ktx
@@ -106,6 +116,9 @@ OnDownloadCompleted
 (
 DownloadState
 Long
+AbstractFetchDownloadService
+.
+DownloadJobStatus
 )
 -
 >
@@ -247,6 +260,7 @@ noop
 OnDownloadCompleted
 =
 {
+_
 _
 _
 -

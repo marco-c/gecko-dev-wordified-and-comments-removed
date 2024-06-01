@@ -775,6 +775,7 @@ onDownloadCompleted
 {
 download
 id
+status
 -
 >
 Logger
@@ -789,6 +790,9 @@ ID
 #
 id
 download
+with
+status
+status
 "
 )
 }
