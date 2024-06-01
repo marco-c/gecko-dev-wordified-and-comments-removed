@@ -1752,7 +1752,7 @@ runBlocking
 {
 engineSession
 .
-enableTrackingProtection
+updateTrackingProtection
 (
 )
 }
@@ -2424,7 +2424,7 @@ verify
 engineSession
 )
 .
-enableTrackingProtection
+updateTrackingProtection
 (
 EngineSession
 .
@@ -2697,7 +2697,7 @@ verify
 engineSession
 )
 .
-enableTrackingProtection
+updateTrackingProtection
 (
 EngineSession
 .

@@ -280,7 +280,7 @@ engineSession
 >
 engineSession
 .
-enableTrackingProtection
+updateTrackingProtection
 (
 policy
 )

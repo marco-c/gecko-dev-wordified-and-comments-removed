@@ -394,7 +394,7 @@ verify
 engineSessionA
 )
 .
-enableTrackingProtection
+updateTrackingProtection
 (
 TrackingProtectionPolicy
 .
@@ -407,7 +407,7 @@ verify
 engineSessionB
 )
 .
-enableTrackingProtection
+updateTrackingProtection
 (
 TrackingProtectionPolicy
 .
@@ -465,7 +465,7 @@ verify
 engineSessionA
 )
 .
-enableTrackingProtection
+updateTrackingProtection
 (
 TrackingProtectionPolicy
 .
@@ -478,7 +478,7 @@ verify
 engineSessionB
 )
 .
-enableTrackingProtection
+updateTrackingProtection
 (
 TrackingProtectionPolicy
 .
