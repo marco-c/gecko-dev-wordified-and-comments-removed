@@ -2431,7 +2431,7 @@ DEFAULT_LOCALE
 "
 en
 -
-US
+us
 "
 }
 }

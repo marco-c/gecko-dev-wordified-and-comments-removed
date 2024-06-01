@@ -626,10 +626,8 @@ default
 locale
 .
 val
-locales
+userLanguage
 =
-listOf
-(
 Locale
 .
 getDefault
@@ -637,6 +635,12 @@ getDefault
 )
 .
 language
+val
+locales
+=
+listOf
+(
+userLanguage
 )
 val
 supportedAddons
@@ -646,6 +650,9 @@ addonsProvider
 getAvailableAddons
 (
 allowCache
+language
+=
+userLanguage
 )
 .
 map
