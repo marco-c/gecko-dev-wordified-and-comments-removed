@@ -490,9 +490,6 @@ MigrationAction
 .
 Completed
 )
-emitCompletedFact
-(
-)
 stopForeground
 (
 true
@@ -608,6 +605,14 @@ titleRes
 contentRes
 channel
 )
+.
+apply
+{
+setAutoCancel
+(
+true
+)
+}
 NotificationManagerCompat
 .
 from
