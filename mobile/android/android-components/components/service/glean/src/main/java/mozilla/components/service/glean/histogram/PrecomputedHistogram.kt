@@ -67,12 +67,6 @@ glean
 .
 histogram
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 mozilla
 .
 components
@@ -258,14 +252,6 @@ custom
 distribution
 *
 /
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-PRIVATE
-)
 data
 class
 PrecomputedHistogram

@@ -67,12 +67,6 @@ glean
 .
 histogram
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 mozilla
 .
 components
@@ -277,14 +271,6 @@ the
 histogram
 *
 /
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-PRIVATE
-)
 data
 class
 FunctionalHistogram
