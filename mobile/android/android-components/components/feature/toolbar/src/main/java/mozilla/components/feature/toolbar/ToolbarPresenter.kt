@@ -167,7 +167,7 @@ toolbar
 .
 Toolbar
 .
-PermissionHighlights
+Highlight
 import
 mozilla
 .
@@ -521,7 +521,7 @@ SiteTrackingProtection
 .
 OFF_GLOBALLY
 }
-updatePermissionIndicator
+updateHighlight
 (
 tab
 )
@@ -535,7 +535,7 @@ clear
 }
 private
 fun
-updatePermissionIndicator
+updateHighlight
 (
 tab
 :
@@ -544,7 +544,7 @@ SessionState
 {
 toolbar
 .
-permissionHighlights
+highlight
 =
 when
 {
@@ -557,13 +557,13 @@ permissionHighlights
 isAutoPlayBlocking
 -
 >
-PermissionHighlights
+Highlight
 .
 AUTOPLAY_BLOCKED
 else
 -
 >
-PermissionHighlights
+Highlight
 .
 NONE
 }
@@ -618,9 +618,9 @@ SiteTrackingProtection
 OFF_GLOBALLY
 toolbar
 .
-permissionHighlights
+highlight
 =
-PermissionHighlights
+Highlight
 .
 NONE
 }

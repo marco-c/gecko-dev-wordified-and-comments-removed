@@ -231,7 +231,7 @@ toolbar
 .
 Toolbar
 .
-PermissionHighlights
+Highlight
 import
 mozilla
 .
@@ -854,11 +854,11 @@ value
 }
 override
 var
-permissionHighlights
+highlight
 :
-PermissionHighlights
+Highlight
 =
-PermissionHighlights
+Highlight
 .
 NONE
 set
@@ -876,7 +876,7 @@ value
 {
 display
 .
-setPermissionIndicator
+setHighlight
 (
 value
 )
