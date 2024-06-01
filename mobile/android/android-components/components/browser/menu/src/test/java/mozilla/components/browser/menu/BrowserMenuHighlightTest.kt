@@ -289,10 +289,15 @@ assertEquals
 (
 HighPriorityHighlightEffect
 (
-0xffff0039L
+testContext
 .
-toInt
+getColor
 (
+R
+.
+color
+.
+photonRed50
 )
 )
 highlight
