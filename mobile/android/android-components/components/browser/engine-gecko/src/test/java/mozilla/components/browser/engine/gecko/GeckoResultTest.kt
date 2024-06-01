@@ -254,6 +254,9 @@ launchGeckoResult
 result
 .
 then
+<
+Int
+>
 {
 assertEquals
 (
@@ -293,6 +296,9 @@ IllegalStateException
 result
 .
 then
+<
+Unit
+>
 (
 {
 assertTrue

@@ -247,6 +247,13 @@ permission
 .
 WRITE_EXTERNAL_STORAGE
 "
+tools
+:
+ignore
+=
+"
+ScopedStorage
+"
 /
 >
 <

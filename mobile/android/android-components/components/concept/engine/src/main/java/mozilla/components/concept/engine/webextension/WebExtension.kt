@@ -3474,6 +3474,11 @@ WebExtension
 isUnsupported
 (
 )
+:
+Boolean
+{
+val
+flags
 =
 getMetadata
 (
@@ -3481,6 +3486,8 @@ getMetadata
 ?
 .
 disabledFlags
+return
+flags
 ?
 .
 contains
@@ -3492,6 +3499,7 @@ APP_SUPPORT
 =
 =
 true
+}
 /
 *
 *

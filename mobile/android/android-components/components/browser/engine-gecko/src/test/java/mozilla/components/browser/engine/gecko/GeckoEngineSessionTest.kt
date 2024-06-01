@@ -2172,13 +2172,13 @@ image
 png
 "
 )
-userAgent
+cookie
 =
 eq
 (
 null
 )
-cookie
+userAgent
 =
 eq
 (

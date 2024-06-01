@@ -7002,7 +7002,7 @@ recommendedPolicy
 .
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .
@@ -7054,7 +7054,7 @@ strictPolicy
 .
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .
@@ -7106,7 +7106,7 @@ nonePolicy
 .
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .
@@ -7184,7 +7184,7 @@ newPolicy
 .
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .
@@ -7215,7 +7215,7 @@ TrackingCategory
 TEST
 )
 .
-sumBy
+sumOf
 {
 it
 .

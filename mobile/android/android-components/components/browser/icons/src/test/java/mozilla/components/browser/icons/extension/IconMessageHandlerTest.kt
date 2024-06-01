@@ -89,6 +89,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 GlobalScope
 import
 kotlinx
@@ -304,6 +310,13 @@ class
 class
 IconMessageHandlerTest
 {
+OptIn
+(
+DelicateCoroutinesApi
+:
+:
+class
+)
 Test
 fun
 Complex

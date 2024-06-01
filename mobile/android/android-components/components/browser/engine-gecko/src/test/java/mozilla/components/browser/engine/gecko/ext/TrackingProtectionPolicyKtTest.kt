@@ -222,7 +222,7 @@ assertEquals
 (
 defaultSafeBrowsing
 .
-sumBy
+sumOf
 {
 it
 .

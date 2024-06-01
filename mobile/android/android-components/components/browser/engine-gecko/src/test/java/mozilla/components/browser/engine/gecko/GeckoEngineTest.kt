@@ -2255,7 +2255,7 @@ strict
 .
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .
@@ -2499,7 +2499,7 @@ strict
 .
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .
@@ -4152,7 +4152,7 @@ strict
 .
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .

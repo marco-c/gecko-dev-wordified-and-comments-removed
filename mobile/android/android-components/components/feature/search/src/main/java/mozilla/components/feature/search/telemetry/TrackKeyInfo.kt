@@ -246,7 +246,7 @@ return
 {
 provider
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -264,7 +264,7 @@ content
 {
 type
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -279,7 +279,7 @@ ROOT
 code
 ?
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -299,7 +299,7 @@ if
 channel
 ?
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -317,7 +317,7 @@ isNullOrBlank
 channel
 ?
 .
-toLowerCase
+lowercase
 (
 Locale
 .

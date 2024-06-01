@@ -181,9 +181,9 @@ android_gradle_plugin
 "
 4
 .
-0
+2
 .
-1
+2
 "
 const
 val
@@ -635,8 +635,6 @@ kotlin
 kotlin
 -
 stdlib
--
-jdk7
 :
 {
 Versions

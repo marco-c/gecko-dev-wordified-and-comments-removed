@@ -862,7 +862,13 @@ config
 .
 disableRateLimit
 )
+OptIn
+(
 DelicateCoroutinesApi
+:
+:
+class
+)
 /
 /
 GlobalScope
