@@ -1374,6 +1374,7 @@ SearchUseCases
 (
 store
 tabsUseCases
+sessionUseCases
 )
 }
 val
