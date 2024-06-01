@@ -69,7 +69,7 @@ android
 .
 app
 .
-NotificationChannel
+Activity
 import
 android
 .
@@ -88,6 +88,12 @@ android
 app
 .
 Service
+import
+android
+.
+app
+.
+NotificationChannel
 import
 android
 .
@@ -301,12 +307,12 @@ MigrationStore
 protected
 abstract
 val
-migrationActivity
+migrationDecisionActivity
 :
 Class
 <
 out
-AbstractMigrationProgressActivity
+Activity
 >
 private
 val
@@ -698,7 +704,7 @@ this
 Intent
 (
 this
-migrationActivity
+migrationDecisionActivity
 )
 0
 )
