@@ -4057,6 +4057,13 @@ Url
 loadUrl
 (
 url
+flags
+=
+LoadUrlFlags
+.
+external
+(
+)
 )
 is
 InterceptionResponse

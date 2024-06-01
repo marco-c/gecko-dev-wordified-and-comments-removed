@@ -10568,6 +10568,13 @@ mozilla
 org
 "
 )
+.
+flags
+(
+LoadUrlFlags
+.
+EXTERNAL
+)
 )
 }
 Test
