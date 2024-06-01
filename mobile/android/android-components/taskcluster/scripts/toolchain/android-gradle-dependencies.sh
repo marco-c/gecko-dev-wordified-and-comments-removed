@@ -368,6 +368,13 @@ NEXUS_PREFIX
 /
 jcenter
 /
+-
+PcentralRepo
+=
+NEXUS_PREFIX
+/
+central
+/
 "
 #
 First

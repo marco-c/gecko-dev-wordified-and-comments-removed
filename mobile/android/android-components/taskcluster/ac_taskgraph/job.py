@@ -520,6 +520,9 @@ google
 "
 jcenter
 "
+"
+central
+"
 )
     
 ]
