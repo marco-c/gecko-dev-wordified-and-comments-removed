@@ -165,8 +165,6 @@ browser
 engine
 -
 gecko
--
-beta
 /
 src
 /

@@ -87,7 +87,7 @@ class
 GeckoLoginDelegateWrapper
 :
 [
-Delegate
+LoginStorageDelegate
 ]
 (
 https
@@ -114,9 +114,9 @@ mozilla
 /
 geckoview
 /
-LoginStorage
+Autocomplete
 /
-Delegate
+LoginStorageDelegate
 .
 html
 )

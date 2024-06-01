@@ -53,7 +53,7 @@ class
 GeckoLoginDelegateWrapper
 :
 [
-Delegate
+LoginStorageDelegate
 ]
 (
 https
@@ -80,9 +80,9 @@ mozilla
 /
 geckoview
 /
-LoginStorage
+Autocomplete
 /
-Delegate
+LoginStorageDelegate
 .
 html
 )
@@ -577,7 +577,7 @@ mozilla
 /
 geckoview
 /
-LoginStorage
+Autocomplete
 /
 LoginEntry
 .
@@ -634,7 +634,7 @@ mozilla
 /
 geckoview
 /
-LoginStorage
+Autocomplete
 /
 LoginEntry
 .
@@ -707,7 +707,7 @@ mozilla
 /
 geckoview
 /
-Autocomplete
+LoginStorage
 /
 LoginEntry
 .

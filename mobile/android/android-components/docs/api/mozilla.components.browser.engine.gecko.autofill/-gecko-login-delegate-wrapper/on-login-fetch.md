@@ -189,7 +189,7 @@ mozilla
 /
 geckoview
 /
-LoginStorage
+Autocomplete
 /
 LoginEntry
 .

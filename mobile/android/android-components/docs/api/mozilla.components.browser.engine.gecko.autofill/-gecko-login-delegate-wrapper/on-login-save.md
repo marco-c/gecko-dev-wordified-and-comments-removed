@@ -95,7 +95,7 @@ mozilla
 /
 geckoview
 /
-LoginStorage
+Autocomplete
 /
 LoginEntry
 .
@@ -225,7 +225,7 @@ mozilla
 /
 geckoview
 /
-Autocomplete
+LoginStorage
 /
 LoginEntry
 .
@@ -295,8 +295,6 @@ browser
 engine
 -
 gecko
--
-nightly
 /
 src
 /
