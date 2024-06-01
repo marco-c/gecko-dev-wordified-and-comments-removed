@@ -59,7 +59,7 @@ action
 :
 (
 [
-Session
+SessionState
 ]
 (
 .
@@ -74,10 +74,14 @@ components
 .
 browser
 .
-session
+state
+.
+state
 /
 -
 session
+-
+state
 /
 index
 .
@@ -192,7 +196,7 @@ ContextMenuCandidate
 .
 kt
 #
-L32
+L31
 )
 The
 action

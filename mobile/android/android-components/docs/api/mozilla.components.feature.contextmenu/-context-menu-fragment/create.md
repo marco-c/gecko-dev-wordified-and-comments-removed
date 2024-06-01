@@ -57,10 +57,10 @@ create
 fun
 create
 (
-session
+tab
 :
 [
-Session
+SessionState
 ]
 (
 .
@@ -75,10 +75,14 @@ components
 .
 browser
 .
-session
+state
+.
+state
 /
 -
 session
+-
+state
 /
 index
 .
@@ -303,7 +307,7 @@ ContextMenuFragment
 .
 kt
 #
-L83
+L87
 )
 Create
 a
