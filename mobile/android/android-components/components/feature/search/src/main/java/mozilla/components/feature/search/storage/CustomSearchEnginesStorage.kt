@@ -218,6 +218,11 @@ reader
 =
 SearchEngineReader
 (
+SearchEngine
+.
+Type
+.
+CUSTOM
 )
 private
 val

@@ -1211,6 +1211,13 @@ reader
 =
 SearchEngineReader
 (
+type
+=
+SearchEngine
+.
+Type
+.
+BUNDLED
 )
 val
 deferredSearchEngines

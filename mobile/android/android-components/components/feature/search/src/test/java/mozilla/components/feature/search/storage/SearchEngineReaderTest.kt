@@ -235,6 +235,13 @@ reader
 =
 SearchEngineReader
 (
+type
+=
+SearchEngine
+.
+Type
+.
+CUSTOM
 )
 val
 file
@@ -382,6 +389,13 @@ reader
 =
 SearchEngineReader
 (
+type
+=
+SearchEngine
+.
+Type
+.
+CUSTOM
 )
 val
 invalidFile
