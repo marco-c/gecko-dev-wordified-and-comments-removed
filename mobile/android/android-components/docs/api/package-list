@@ -3828,6 +3828,15 @@ feature
 .
 media
 .
+ext
+mozilla
+.
+components
+.
+feature
+.
+media
+.
 state
 mozilla
 .

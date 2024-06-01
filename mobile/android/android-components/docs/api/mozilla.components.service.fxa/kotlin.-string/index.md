@@ -111,6 +111,7 @@ index
 .
 html
 )
+?
 .
 toAuthType
 (
