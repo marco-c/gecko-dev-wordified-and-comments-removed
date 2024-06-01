@@ -1126,6 +1126,11 @@ previewImageUrl
 this
 .
 previewImageUrl
+isRemote
+=
+this
+.
+isRemote
 )
 }
 internal
