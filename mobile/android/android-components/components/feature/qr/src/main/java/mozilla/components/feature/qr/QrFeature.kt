@@ -89,6 +89,12 @@ androidx
 .
 annotation
 .
+StringRes
+import
+androidx
+.
+annotation
+.
 VisibleForTesting
 import
 androidx
@@ -324,6 +330,15 @@ OnNeedToRequestPermissions
 =
 {
 }
+StringRes
+private
+var
+scanMessage
+:
+Int
+?
+=
+null
 )
 :
 LifecycleAwareFeature
@@ -549,6 +564,7 @@ QrFragment
 newInstance
 (
 scanCompleteListener
+scanMessage
 )
 QR_FRAGMENT_TAG
 )
