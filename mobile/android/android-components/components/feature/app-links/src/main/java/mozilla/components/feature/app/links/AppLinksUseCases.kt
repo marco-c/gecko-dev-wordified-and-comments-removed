@@ -1435,6 +1435,16 @@ Unit
 =
 {
 }
+loadUrlAction
+:
+(
+)
+-
+>
+Unit
+=
+{
+}
 )
 {
 appIntent
@@ -1516,6 +1526,9 @@ NullPointerException
 -
 >
 {
+loadUrlAction
+(
+)
 failedToLaunchAction
 (
 )
