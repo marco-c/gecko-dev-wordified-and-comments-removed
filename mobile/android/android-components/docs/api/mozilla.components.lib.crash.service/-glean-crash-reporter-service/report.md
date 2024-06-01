@@ -176,7 +176,7 @@ GleanCrashReporterService
 .
 kt
 #
-L160
+L166
 )
 Overrides
 [
@@ -360,7 +360,7 @@ GleanCrashReporterService
 .
 kt
 #
-L164
+L170
 )
 Overrides
 [
@@ -541,7 +541,7 @@ GleanCrashReporterService
 .
 kt
 #
-L168
+L174
 )
 Overrides
 [
