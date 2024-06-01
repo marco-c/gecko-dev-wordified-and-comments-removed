@@ -2005,7 +2005,7 @@ searchUrl
 ;
 TelemetryWrapper
 .
-searchEvent
+searchSelectEvent
 (
 )
 ;
