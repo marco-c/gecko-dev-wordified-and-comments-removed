@@ -77,7 +77,7 @@ automatik
 \
 nLayar
 .
-Padam
+Buang
 .
 Ulang
 .
@@ -97,7 +97,7 @@ Sejarah
 pelayaran
 anda
 telah
-dipadam
+dibuang
 .
 <
 /
@@ -269,7 +269,7 @@ name
 notification_erase_text
 "
 >
-Padam
+Buang
 sejarah
 pelayaran
 <
@@ -312,7 +312,7 @@ name
 shortcut_erase_short_label
 "
 >
-Padam
+Buang
 <
 /
 string
@@ -325,7 +325,7 @@ name
 shortcut_erase_long_label
 "
 >
-Padam
+Buang
 sejarah
 pelayaran
 <
@@ -942,7 +942,7 @@ name
 content_description_erase
 "
 >
-Padam
+Buang
 sejarah
 pelayaran
 <

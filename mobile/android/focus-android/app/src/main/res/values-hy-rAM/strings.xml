@@ -64,14 +64,12 @@ name
 teaser
 "
 >
-"
 :
 \
 n
 :
 :
 :
-"
 <
 /
 string
@@ -201,6 +199,7 @@ name
 menu_trackers_blocked_title
 "
 >
+.
 <
 /
 string
