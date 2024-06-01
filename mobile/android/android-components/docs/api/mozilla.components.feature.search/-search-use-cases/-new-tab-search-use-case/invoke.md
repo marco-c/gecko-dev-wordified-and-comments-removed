@@ -251,7 +251,7 @@ SearchUseCases
 .
 kt
 #
-L87
+L88
 )
 Overrides
 [
@@ -334,10 +334,14 @@ components
 .
 browser
 .
-session
+state
+.
+state
 /
 -
 session
+-
+state
 /
 -
 source
@@ -561,7 +565,7 @@ SearchUseCases
 .
 kt
 #
-L113
+L114
 )
 Triggers
 a

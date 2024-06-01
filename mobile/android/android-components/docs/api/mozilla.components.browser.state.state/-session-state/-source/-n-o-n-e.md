@@ -25,7 +25,9 @@ components
 .
 browser
 .
-session
+state
+.
+state
 ]
 (
 .
@@ -40,7 +42,7 @@ md
 )
 /
 [
-Session
+SessionState
 ]
 (
 .
@@ -110,7 +112,7 @@ components
 /
 browser
 /
-session
+state
 /
 src
 /
@@ -124,13 +126,15 @@ components
 /
 browser
 /
-session
+state
 /
-Session
+state
+/
+SessionState
 .
 kt
 #
-L156
+L85
 )
 Default
 value

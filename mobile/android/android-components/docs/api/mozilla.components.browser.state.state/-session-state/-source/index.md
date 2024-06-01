@@ -25,7 +25,9 @@ components
 .
 browser
 .
-session
+state
+.
+state
 ]
 (
 .
@@ -40,7 +42,7 @@ md
 )
 /
 [
-Session
+SessionState
 ]
 (
 .
@@ -96,7 +98,7 @@ components
 /
 browser
 /
-session
+state
 /
 src
 /
@@ -110,13 +112,15 @@ components
 /
 browser
 /
-session
+state
 /
-Session
+state
+/
+SessionState
 .
 kt
 #
-L117
+L46
 )
 Represents
 the
