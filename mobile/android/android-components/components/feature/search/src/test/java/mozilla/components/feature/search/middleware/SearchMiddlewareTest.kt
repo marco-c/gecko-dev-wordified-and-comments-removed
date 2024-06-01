@@ -83,12 +83,6 @@ kotlinx
 .
 coroutines
 .
-runBlocking
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestDispatcher
@@ -286,6 +280,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 org
 .
@@ -5521,6 +5527,8 @@ user
 choice
 (
 )
+=
+runTestOnMain
 {
 val
 metadataStorage
@@ -5535,8 +5543,6 @@ FakeSharedPreferences
 )
 }
 )
-runBlocking
-{
 metadataStorage
 .
 setAdditionalSearchEngines
@@ -5548,7 +5554,6 @@ reddit
 "
 )
 )
-}
 val
 searchMiddleware
 =
@@ -5873,6 +5878,8 @@ search
 engines
 (
 )
+=
+runTestOnMain
 {
 val
 searchEngine
@@ -5921,15 +5928,12 @@ CustomSearchEngineStorage
 testContext
 dispatcher
 )
-runBlocking
-{
 storage
 .
 saveSearchEngine
 (
 searchEngine
 )
-}
 val
 store
 =
@@ -6007,6 +6011,8 @@ engine
 ID
 (
 )
+=
+runTestOnMain
 {
 val
 storage
@@ -6015,8 +6021,6 @@ SearchMetadataStorage
 (
 testContext
 )
-runBlocking
-{
 storage
 .
 setUserSelectedSearchEngine
@@ -6028,7 +6032,6 @@ id
 "
 null
 )
-}
 val
 middleware
 =
@@ -7648,7 +7651,7 @@ Delete
 (
 )
 {
-runBlocking
+runTestOnMain
 {
 val
 storage

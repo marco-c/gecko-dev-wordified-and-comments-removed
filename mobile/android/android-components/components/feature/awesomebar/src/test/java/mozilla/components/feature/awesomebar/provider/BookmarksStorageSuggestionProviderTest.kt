@@ -83,7 +83,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -242,6 +250,11 @@ java
 util
 .
 UUID
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -305,7 +318,7 @@ empty
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -350,7 +363,7 @@ storage
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -471,7 +484,7 @@ suggestions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -544,7 +557,7 @@ suggestions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -625,7 +638,7 @@ suggestion
 (
 )
 =
-runBlocking
+runTest
 {
 val
 engine
@@ -794,7 +807,7 @@ null
 (
 )
 =
-runBlocking
+runTest
 {
 val
 engine

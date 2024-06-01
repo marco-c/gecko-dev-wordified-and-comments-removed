@@ -83,7 +83,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -185,7 +187,7 @@ states
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -206,8 +208,6 @@ existing
 tab
 assertNull
 (
-runBlocking
-{
 storage
 .
 read
@@ -218,7 +218,6 @@ test
 tab
 "
 )
-}
 )
 storage
 .
@@ -296,7 +295,7 @@ states
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -633,7 +632,7 @@ states
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage

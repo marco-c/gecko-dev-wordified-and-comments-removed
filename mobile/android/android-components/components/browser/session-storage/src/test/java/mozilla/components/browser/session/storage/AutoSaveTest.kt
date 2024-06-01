@@ -103,12 +103,6 @@ coroutines
 .
 Job
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -244,6 +238,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 org
 .
@@ -404,7 +410,7 @@ background
 (
 )
 {
-runBlocking
+runTestOnMain
 {
 /
 /
@@ -585,7 +591,7 @@ added
 (
 )
 {
-runBlocking
+runTestOnMain
 {
 val
 state
@@ -722,7 +728,7 @@ removed
 (
 )
 {
-runBlocking
+runTestOnMain
 {
 val
 sessionStorage
@@ -893,7 +899,7 @@ removed
 (
 )
 {
-runBlocking
+runTestOnMain
 {
 val
 store
@@ -1059,7 +1065,7 @@ left
 (
 )
 {
-runBlocking
+runTestOnMain
 {
 val
 store
@@ -1210,7 +1216,7 @@ selected
 (
 )
 {
-runBlocking
+runTestOnMain
 {
 val
 store
@@ -1381,7 +1387,7 @@ changes
 (
 )
 {
-runBlocking
+runTestOnMain
 {
 val
 sessionStorage

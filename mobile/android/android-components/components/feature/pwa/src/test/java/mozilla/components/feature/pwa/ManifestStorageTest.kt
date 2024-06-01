@@ -87,7 +87,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -395,7 +397,7 @@ exist
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -438,7 +440,7 @@ manifest
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -534,7 +536,7 @@ JSON
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -583,7 +585,7 @@ JSON
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -666,7 +668,7 @@ manifest
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -738,7 +740,7 @@ manifests
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -827,7 +829,7 @@ manifests
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1048,7 +1050,7 @@ manifests
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1217,7 +1219,7 @@ timestamp
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1352,7 +1354,7 @@ found
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1453,7 +1455,7 @@ found
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1588,7 +1590,7 @@ count
 (
 )
 =
-runBlocking
+runTest
 {
 val
 testThreshold
@@ -1732,7 +1734,7 @@ scopes
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1905,7 +1907,7 @@ url
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -2042,7 +2044,7 @@ scope
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage

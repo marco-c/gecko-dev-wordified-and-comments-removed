@@ -107,12 +107,6 @@ coroutines
 .
 launch
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -341,6 +335,18 @@ support
 .
 test
 .
+rule
+.
+runTestOnMain
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 whenever
 import
 mozilla
@@ -543,7 +549,7 @@ state
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 /
 /
@@ -1436,7 +1442,7 @@ supported
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 addonsProvider
@@ -1833,7 +1839,7 @@ them
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 store
@@ -1969,7 +1975,7 @@ locales
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 addon
@@ -2291,6 +2297,8 @@ are
 completed
 (
 )
+=
+runTestOnMain
 {
 val
 addon
@@ -2413,8 +2421,6 @@ AddonsProvider
 mock
 (
 )
-runBlocking
-{
 whenever
 (
 addonsProvider
@@ -2460,7 +2466,6 @@ id
 ]
 =
 extension
-}
 val
 addonManager
 =
@@ -2541,8 +2546,6 @@ waitForPendingActions
 false
 )
 }
-runBlocking
-{
 nonSuspendingJob
 .
 join
@@ -2552,7 +2555,6 @@ assertNotNull
 (
 getAddonsResult
 )
-}
 getAddonsResult
 =
 null
@@ -2592,8 +2594,6 @@ complete
 Unit
 )
 }
-runBlocking
-{
 suspendingJob
 .
 join
@@ -2603,7 +2603,6 @@ assertNotNull
 (
 getAddonsResult
 )
-}
 }
 Test
 fun
@@ -2616,7 +2615,7 @@ parameter
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 store

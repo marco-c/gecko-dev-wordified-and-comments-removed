@@ -85,12 +85,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -390,8 +384,6 @@ fun
 generate
 (
 )
-=
-runBlocking
 {
 val
 generator

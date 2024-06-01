@@ -73,7 +73,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -185,7 +185,7 @@ start
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 view
@@ -227,7 +227,7 @@ stop
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 view
@@ -282,7 +282,7 @@ callback
 (
 )
 =
-runBlockingTest
+runTest
 {
 var
 invoked
@@ -329,7 +329,7 @@ constellation
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 feature
@@ -368,7 +368,7 @@ constellation
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 feature

@@ -113,7 +113,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -208,6 +216,11 @@ junit
 runner
 .
 RunWith
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -272,7 +285,7 @@ queued
 (
 )
 =
-runBlocking
+runTest
 {
 val
 updater
@@ -411,7 +424,7 @@ queued
 (
 )
 =
-runBlocking
+runTest
 {
 val
 updater

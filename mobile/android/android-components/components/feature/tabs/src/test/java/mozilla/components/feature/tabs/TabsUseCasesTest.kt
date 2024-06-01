@@ -69,7 +69,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -2721,7 +2723,7 @@ timeout
 (
 )
 =
-runBlocking
+runTest
 {
 val
 useCases

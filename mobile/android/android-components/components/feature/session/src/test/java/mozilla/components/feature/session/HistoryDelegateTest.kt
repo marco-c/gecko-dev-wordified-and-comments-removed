@@ -81,7 +81,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -257,7 +259,7 @@ calls
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -431,7 +433,7 @@ calls
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -508,7 +510,7 @@ calls
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -601,7 +603,7 @@ calls
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -714,7 +716,7 @@ canAddUriCalled
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage

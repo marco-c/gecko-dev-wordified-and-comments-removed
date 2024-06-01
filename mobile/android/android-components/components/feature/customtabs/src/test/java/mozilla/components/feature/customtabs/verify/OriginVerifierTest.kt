@@ -125,7 +125,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -380,7 +382,7 @@ allowed
 (
 )
 =
-runBlocking
+runTest
 {
 val
 verifier
@@ -434,7 +436,7 @@ verifyOrigin
 (
 )
 =
-runBlocking
+runTest
 {
 val
 verifier

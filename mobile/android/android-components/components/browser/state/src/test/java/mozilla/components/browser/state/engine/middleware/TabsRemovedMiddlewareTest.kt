@@ -81,12 +81,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -297,6 +291,18 @@ rule
 .
 MainCoroutineRule
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
+import
 org
 .
 junit
@@ -395,7 +401,7 @@ removed
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 middleware
@@ -535,7 +541,7 @@ removed
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 middleware
@@ -813,7 +819,7 @@ removed
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 middleware
@@ -1080,7 +1086,7 @@ removed
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 middleware
@@ -1346,7 +1352,7 @@ removed
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 middleware
@@ -1616,7 +1622,7 @@ removed
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 middleware
@@ -1756,7 +1762,7 @@ removed
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 middleware

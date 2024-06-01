@@ -105,7 +105,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -318,7 +318,7 @@ profile
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -361,7 +361,7 @@ enabled
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -508,7 +508,7 @@ absent
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -606,7 +606,7 @@ present
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -701,7 +701,7 @@ logout
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -751,7 +751,7 @@ authenticated
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -805,7 +805,7 @@ problems
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -861,7 +861,7 @@ enabled
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -921,7 +921,7 @@ disabled
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -985,7 +985,7 @@ status
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter
@@ -1022,7 +1022,7 @@ error
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 presenter

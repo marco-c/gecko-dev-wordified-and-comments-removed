@@ -126,14 +126,6 @@ syncedtabs
 .
 storage
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -402,6 +394,18 @@ support
 .
 test
 .
+rule
+.
+runTestOnMain
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 whenever
 import
 org
@@ -634,7 +638,7 @@ onStoreComplete
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 feature
@@ -817,7 +821,7 @@ stop
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 feature
@@ -1006,7 +1010,7 @@ devices
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 feature
@@ -1306,7 +1310,7 @@ null
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 feature
@@ -1658,7 +1662,7 @@ loaded
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -1909,7 +1913,7 @@ load
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -2077,7 +2081,7 @@ changes
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -2288,7 +2292,7 @@ tab
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store

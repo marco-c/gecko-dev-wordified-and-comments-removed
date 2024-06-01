@@ -69,6 +69,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 asCoroutineDispatcher
 import
 kotlinx
@@ -93,7 +99,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -214,6 +222,11 @@ util
 concurrent
 .
 Executor
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 class
 AsyncFilterListenerTest
 {
@@ -228,7 +241,7 @@ executions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 urlView
@@ -327,7 +340,7 @@ view
 (
 )
 =
-runBlocking
+runTest
 {
 var
 filter
@@ -739,7 +752,7 @@ results
 (
 )
 =
-runBlocking
+runTest
 {
 val
 filter
@@ -890,7 +903,7 @@ results
 (
 )
 =
-runBlocking
+runTest
 {
 val
 filter
@@ -1011,7 +1024,7 @@ results
 (
 )
 =
-runBlocking
+runTest
 {
 val
 filter
@@ -1148,7 +1161,7 @@ cancelled
 (
 )
 =
-runBlocking
+runTest
 {
 var
 preservedDelegate
@@ -1430,7 +1443,7 @@ cancelled
 (
 )
 =
-runBlocking
+runTest
 {
 var
 preservedDelegate

@@ -81,12 +81,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -279,6 +273,18 @@ support
 .
 test
 .
+rule
+.
+runTestOnMain
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 whenever
 import
 org
@@ -407,7 +413,7 @@ needed
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 engine
@@ -652,7 +658,7 @@ available
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 engine
@@ -841,7 +847,7 @@ exist
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 engine
@@ -964,7 +970,7 @@ exist
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 engine
@@ -1113,7 +1119,7 @@ created
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 engine
@@ -1342,7 +1348,7 @@ action
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 engine

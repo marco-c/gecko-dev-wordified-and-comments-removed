@@ -141,7 +141,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -2010,7 +2012,7 @@ set
 (
 )
 =
-runBlocking
+runTest
 {
 val
 webExtMenuItem

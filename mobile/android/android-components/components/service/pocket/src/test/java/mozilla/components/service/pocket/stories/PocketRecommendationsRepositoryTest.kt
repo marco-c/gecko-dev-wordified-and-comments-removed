@@ -83,7 +83,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -224,6 +232,11 @@ mockito
 Mockito
 .
 verify
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -299,7 +312,7 @@ type
 (
 )
 {
-runBlocking
+runTest
 {
 val
 dbStory
@@ -378,7 +391,7 @@ db
 (
 )
 {
-runBlocking
+runTest
 {
 val
 apiStories
@@ -432,7 +445,7 @@ db
 (
 )
 {
-runBlocking
+runTest
 {
 val
 clientStories

@@ -79,7 +79,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -202,6 +210,11 @@ mockito
 Mockito
 .
 verify
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 class
 SessionSuggestionProviderTest
 {
@@ -218,7 +231,7 @@ empty
 (
 )
 =
-runBlocking
+runTest
 {
 val
 resources
@@ -291,7 +304,7 @@ URLs
 (
 )
 =
-runBlocking
+runTest
 {
 val
 store
@@ -615,7 +628,7 @@ titles
 (
 )
 =
-runBlocking
+runTest
 {
 val
 tab1
@@ -889,7 +902,7 @@ Sessions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 tab
@@ -1040,7 +1053,7 @@ SelectTabUseCase
 (
 )
 =
-runBlocking
+runTest
 {
 val
 resources
@@ -1197,7 +1210,7 @@ session
 (
 )
 =
-runBlocking
+runTest
 {
 val
 store
@@ -1370,7 +1383,7 @@ session
 (
 )
 =
-runBlocking
+runTest
 {
 val
 store
@@ -1545,7 +1558,7 @@ URL
 (
 )
 =
-runBlocking
+runTest
 {
 val
 store

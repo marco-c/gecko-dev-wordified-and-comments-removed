@@ -113,7 +113,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -462,7 +462,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 storage
@@ -549,7 +549,7 @@ intent
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 store
@@ -757,7 +757,7 @@ config
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 intent
@@ -933,7 +933,7 @@ present
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 store

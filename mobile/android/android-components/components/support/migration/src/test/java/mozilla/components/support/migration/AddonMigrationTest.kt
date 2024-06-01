@@ -81,7 +81,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -319,7 +321,7 @@ installed
 (
 )
 =
-runBlocking
+runTest
 {
 val
 engine
@@ -433,7 +435,7 @@ successfully
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addon1
@@ -800,7 +802,7 @@ addons
 (
 )
 =
-runBlocking
+runTest
 {
 val
 engine
@@ -952,7 +954,7 @@ addons
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addon1
@@ -1268,7 +1270,7 @@ migration
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addon1
@@ -1554,7 +1556,7 @@ migration
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addon1
@@ -2010,7 +2012,7 @@ supported
 (
 )
 =
-runBlocking
+runTest
 {
 val
 metadata
@@ -2408,7 +2410,7 @@ addons
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addon1

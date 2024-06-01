@@ -97,7 +97,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+UnconfinedTestDispatcher
 import
 kotlinx
 .
@@ -105,7 +107,7 @@ coroutines
 .
 test
 .
-UnconfinedTestDispatcher
+runTest
 import
 mozilla
 .
@@ -325,6 +327,8 @@ en_US_US
 list
 (
 )
+=
+runTest
 {
 val
 (
@@ -398,6 +402,8 @@ en_US_US
 list
 (
 )
+=
+runTest
 {
 val
 (
@@ -471,6 +477,8 @@ de_DE_DE
 list
 (
 )
+=
+runTest
 {
 val
 (
@@ -544,6 +552,8 @@ de_DE_DE
 list
 (
 )
+=
+runTest
 {
 val
 (
@@ -617,6 +627,8 @@ en_US_US
 list
 (
 )
+=
+runTest
 {
 val
 (
@@ -705,6 +717,8 @@ en_US_US
 list
 (
 )
+=
+runTest
 {
 val
 (
@@ -879,6 +893,7 @@ failure
 )
 }
 private
+suspend
 fun
 migrate
 (
@@ -905,9 +920,6 @@ Result
 SearchEngineMigrationResult
 >
 >
-{
-return
-runBlocking
 {
 val
 store
@@ -984,12 +996,12 @@ store
 waitUntilIdle
 (
 )
+return
 Pair
 (
 store
 result
 )
-}
 }
 private
 fun

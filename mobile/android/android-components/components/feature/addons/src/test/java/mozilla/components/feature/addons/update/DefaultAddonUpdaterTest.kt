@@ -175,12 +175,6 @@ coroutines
 .
 Dispatchers
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -333,6 +327,18 @@ support
 .
 test
 .
+rule
+.
+runTestOnMain
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 whenever
 import
 org
@@ -465,6 +471,8 @@ future
 update
 (
 )
+=
+runTestOnMain
 {
 val
 frequency
@@ -499,8 +507,6 @@ getUniquePeriodicWorkName
 (
 addonId
 )
-runBlocking
-{
 val
 workManger
 =
@@ -574,7 +580,6 @@ cancelUniqueWork
 workId
 )
 }
-}
 Test
 fun
 update
@@ -586,6 +591,8 @@ immediate
 update
 (
 )
+=
+runTestOnMain
 {
 val
 updater
@@ -609,8 +616,6 @@ getUniqueImmediateWorkName
 (
 addonId
 )
-runBlocking
-{
 val
 workManger
 =
@@ -719,7 +724,6 @@ cancelUniqueWork
 (
 workId
 )
-}
 }
 Test
 fun
@@ -1698,6 +1702,8 @@ future
 update
 (
 )
+=
+runTestOnMain
 {
 val
 frequency
@@ -1749,8 +1755,6 @@ getUniquePeriodicWorkName
 (
 addonId
 )
-runBlocking
-{
 val
 workManger
 =
@@ -1856,7 +1860,6 @@ remove
 (
 addonId
 )
-}
 }
 Test
 fun
@@ -1973,6 +1976,8 @@ unregistered
 extensions
 (
 )
+=
+runTestOnMain
 {
 val
 updater
@@ -2039,8 +2044,6 @@ listOf
 registeredExt
 notRegisteredExt
 )
-runBlocking
-{
 assertExtensionIsRegisteredFoUpdates
 (
 updater
@@ -2048,15 +2051,12 @@ updater
 registeredExt
 "
 )
-}
 updater
 .
 registerForFutureUpdates
 (
 extensions
 )
-runBlocking
-{
 extensions
 .
 forEach
@@ -2071,7 +2071,6 @@ ext
 .
 id
 )
-}
 }
 }
 Test
@@ -2089,6 +2088,8 @@ unsupported
 extensions
 (
 )
+=
+runTestOnMain
 {
 val
 updater
@@ -2227,8 +2228,6 @@ registerForFutureUpdates
 (
 extensions
 )
-runBlocking
-{
 assertExtensionIsRegisteredFoUpdates
 (
 updater
@@ -2236,9 +2235,6 @@ regularExt
 .
 id
 )
-}
-runBlocking
-{
 assertExtensionIsNotRegisteredFoUpdates
 (
 updater
@@ -2253,7 +2249,6 @@ unsupportedExt
 .
 id
 )
-}
 }
 private
 suspend

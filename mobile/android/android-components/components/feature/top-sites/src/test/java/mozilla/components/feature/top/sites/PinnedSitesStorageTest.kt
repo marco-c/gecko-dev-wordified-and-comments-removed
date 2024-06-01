@@ -71,7 +71,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -162,6 +170,11 @@ mockito
 Mockito
 .
 verify
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 class
 PinnedSitesStorageTest
 {
@@ -171,7 +184,7 @@ addAllDefaultSites
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -402,7 +415,7 @@ addPinnedSite
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -608,7 +621,7 @@ removePinnedSite
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -741,7 +754,7 @@ getPinnedSites
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -948,7 +961,7 @@ updatePinnedSite
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage

@@ -89,7 +89,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -329,7 +331,7 @@ ons
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -774,7 +776,7 @@ values
 (
 )
 =
-runBlocking
+runTest
 {
 val
 client
@@ -1041,7 +1043,7 @@ language
 (
 )
 =
-runBlocking
+runTest
 {
 val
 client
@@ -1575,7 +1577,7 @@ configured
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -1696,7 +1698,7 @@ exception
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -1739,7 +1741,7 @@ expired
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -1882,7 +1884,7 @@ failed
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -2242,7 +2244,7 @@ configured
 (
 )
 =
-runBlocking
+runTest
 {
 val
 jsonResponse
@@ -2337,7 +2339,7 @@ files
 (
 )
 =
-runBlocking
+runTest
 {
 val
 jsonResponse
@@ -3109,7 +3111,7 @@ bitmap
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -3302,7 +3304,7 @@ null
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -3409,7 +3411,7 @@ configured
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -3536,7 +3538,7 @@ specified
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -4120,7 +4122,7 @@ configured
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -4269,7 +4271,7 @@ configured
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient
@@ -4392,7 +4394,7 @@ sanitized
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockedClient

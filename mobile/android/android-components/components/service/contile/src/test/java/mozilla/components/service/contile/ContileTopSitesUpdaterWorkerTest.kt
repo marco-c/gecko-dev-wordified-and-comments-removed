@@ -101,7 +101,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -184,6 +192,11 @@ java
 io
 .
 IOException
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -221,7 +234,7 @@ result
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -311,7 +324,7 @@ result
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider

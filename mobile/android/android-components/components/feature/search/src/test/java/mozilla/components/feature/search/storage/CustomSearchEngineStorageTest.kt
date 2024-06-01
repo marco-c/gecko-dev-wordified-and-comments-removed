@@ -85,7 +85,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -174,7 +174,7 @@ saves
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 searchEngine
@@ -267,7 +267,7 @@ saving
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 searchEngine
@@ -414,7 +414,7 @@ saving
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 searchEngine
@@ -654,7 +654,7 @@ deletes
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 searchEngine

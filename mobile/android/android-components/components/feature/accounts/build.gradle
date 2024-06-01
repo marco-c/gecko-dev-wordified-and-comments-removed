@@ -270,6 +270,10 @@ Dependencies
 .
 testing_robolectric
 testImplementation
+Dependencies
+.
+testing_coroutines
+testImplementation
 project
 (
 '

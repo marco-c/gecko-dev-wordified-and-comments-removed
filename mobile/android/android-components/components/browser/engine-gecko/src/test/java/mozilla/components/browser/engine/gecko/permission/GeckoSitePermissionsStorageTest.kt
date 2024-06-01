@@ -93,7 +93,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -604,7 +604,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -747,7 +747,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -890,7 +890,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -1033,7 +1033,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -1176,7 +1176,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -1319,7 +1319,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -1466,7 +1466,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -1606,7 +1606,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -1724,7 +1724,7 @@ memory
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 geckoPermissions
@@ -1794,7 +1794,7 @@ memory
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 geckoRequest
@@ -1865,7 +1865,7 @@ cleared
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 geckoAutoPlayPermissions
@@ -2066,7 +2066,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -2178,7 +2178,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -2258,7 +2258,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -2520,7 +2520,7 @@ combined
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -2785,7 +2785,7 @@ one
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 onDiskPermissions
@@ -3014,7 +3014,7 @@ permissions
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 onDiskPermissions
@@ -3349,7 +3349,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 onDiskPermissions
@@ -3422,7 +3422,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 geckoPermissions
@@ -3569,7 +3569,7 @@ memory
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 geckoPermissions
@@ -3707,7 +3707,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 doReturn
 (
@@ -3766,7 +3766,7 @@ info
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 geckoPermissions
@@ -3904,7 +3904,7 @@ combined
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 onDiskPermissions
@@ -4150,7 +4150,7 @@ removed
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 temporary
@@ -4273,7 +4273,7 @@ same
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 location1
@@ -4363,7 +4363,7 @@ one
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertEquals
 (
@@ -4415,7 +4415,7 @@ one
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertEquals
 (
@@ -4472,7 +4472,7 @@ one
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertEquals
 (
@@ -4523,7 +4523,7 @@ one
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertEquals
 (

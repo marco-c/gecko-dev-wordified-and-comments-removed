@@ -71,7 +71,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -96,6 +104,11 @@ org
 junit
 .
 Test
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 class
 SearchActionProviderTest
 {
@@ -110,6 +123,8 @@ empty
 text
 (
 )
+=
+runTest
 {
 val
 provider
@@ -126,8 +141,6 @@ mock
 val
 suggestions
 =
-runBlocking
-{
 provider
 .
 onInputChanged
@@ -135,7 +148,6 @@ onInputChanged
 "
 "
 )
-}
 assertEquals
 (
 0
@@ -155,6 +167,8 @@ blank
 text
 (
 )
+=
+runTest
 {
 val
 provider
@@ -171,8 +185,6 @@ mock
 val
 suggestions
 =
-runBlocking
-{
 provider
 .
 onInputChanged
@@ -180,7 +192,6 @@ onInputChanged
 "
 "
 )
-}
 assertEquals
 (
 0
@@ -198,6 +209,8 @@ matching
 input
 (
 )
+=
+runTest
 {
 val
 provider
@@ -223,8 +236,6 @@ mock
 val
 suggestions
 =
-runBlocking
-{
 provider
 .
 onInputChanged
@@ -233,7 +244,6 @@ onInputChanged
 firefox
 "
 )
-}
 assertEquals
 (
 1

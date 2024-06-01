@@ -93,6 +93,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Job
 import
 kotlinx
@@ -105,7 +111,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -933,6 +941,11 @@ UNEXPECTED_AUTH_STATE
 "
 badAuthState
 "
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -1237,7 +1250,7 @@ token
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -1738,7 +1751,7 @@ token
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -2243,7 +2256,7 @@ scenario
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -2681,7 +2694,7 @@ fails
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -2955,7 +2968,7 @@ succeeds
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -3198,7 +3211,7 @@ persistence
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -3445,7 +3458,7 @@ error
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -3724,7 +3737,7 @@ error
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -3973,7 +3986,7 @@ thrown
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -4179,7 +4192,7 @@ persistence
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -4507,7 +4520,7 @@ authentication
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -5374,7 +5387,7 @@ account
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -5519,7 +5532,7 @@ account
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -5708,7 +5721,7 @@ profile
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -6253,7 +6266,7 @@ flow
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockAccount
@@ -6662,7 +6675,7 @@ flow
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockAccount
@@ -6918,7 +6931,7 @@ flow
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockAccount
@@ -7135,7 +7148,7 @@ flow
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockAccount
@@ -7480,7 +7493,7 @@ succeed
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockAccount
@@ -7895,7 +7908,7 @@ flow
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -8308,7 +8321,7 @@ flow
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -8744,7 +8757,7 @@ AccountObserver
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockAccount
@@ -9221,7 +9234,7 @@ checkAuthorizationState
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockAccount
@@ -9599,7 +9612,7 @@ breaker
 (
 )
 =
-runBlocking
+runTest
 {
 val
 mockAccount
@@ -10339,7 +10352,7 @@ flow
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -10884,7 +10897,7 @@ problem
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -11378,7 +11391,7 @@ state
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -11869,7 +11882,7 @@ problem
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -12563,7 +12576,7 @@ thrown
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountStorage
@@ -13837,17 +13850,11 @@ register
 (
 accountObserver
 )
-runBlocking
-(
-coroutineContext
-)
-{
 manager
 .
 start
 (
 )
-}
 return
 manager
 }

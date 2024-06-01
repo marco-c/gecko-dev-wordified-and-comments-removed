@@ -109,7 +109,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -4830,6 +4830,8 @@ fun
 engineSessionObserverWithContentPermissionRequests
 (
 )
+=
+runTest
 {
 val
 permissionRequest
@@ -4889,8 +4891,6 @@ dispatch
 (
 action
 )
-runBlockingTest
-{
 observer
 .
 onContentPermissionRequest
@@ -4907,12 +4907,13 @@ dispatch
 action
 )
 }
-}
 Test
 fun
 engineSessionObserverWithAppPermissionRequests
 (
 )
+=
+runTest
 {
 val
 permissionRequest
@@ -4956,8 +4957,6 @@ id
 "
 permissionRequest
 )
-runBlockingTest
-{
 observer
 .
 onAppPermissionRequest
@@ -4973,7 +4972,6 @@ dispatch
 (
 action
 )
-}
 }
 Test
 fun

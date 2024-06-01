@@ -91,12 +91,6 @@ flow
 .
 flow
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -297,6 +291,18 @@ support
 .
 test
 .
+rule
+.
+runTestOnMain
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 whenever
 import
 org
@@ -478,7 +484,7 @@ action
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -573,7 +579,7 @@ TabListAction
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -887,7 +893,7 @@ TabListAction
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -1119,7 +1125,7 @@ TabListAction
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -1245,7 +1251,7 @@ RemoveAllNormalTabsAction
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -1501,7 +1507,7 @@ RemoveAllTabsAction
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -1759,7 +1765,7 @@ between
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -2291,7 +2297,7 @@ action
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -2420,7 +2426,7 @@ action
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage
@@ -2534,7 +2540,7 @@ action
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 storage

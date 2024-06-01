@@ -81,7 +81,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -269,7 +271,7 @@ state
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -341,7 +343,7 @@ v4
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -466,7 +468,7 @@ v4
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -595,7 +597,7 @@ in
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -814,7 +816,7 @@ in
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -1034,7 +1036,7 @@ in
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -1253,7 +1255,7 @@ in
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -1481,7 +1483,7 @@ server
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -1593,7 +1595,7 @@ server
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -1707,7 +1709,7 @@ servers
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -1823,7 +1825,7 @@ servers
 (
 )
 =
-runBlocking
+runTest
 {
 customServerAssertAllowed
 (
@@ -2068,7 +2070,7 @@ in
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -2298,7 +2300,7 @@ in
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -2518,7 +2520,7 @@ v4
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -2682,7 +2684,7 @@ v4
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -2849,7 +2851,7 @@ state
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -3013,7 +3015,7 @@ version
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -3202,7 +3204,7 @@ version
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath
@@ -3391,7 +3393,7 @@ version
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fxaPath

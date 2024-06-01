@@ -71,7 +71,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -354,6 +362,11 @@ java
 util
 .
 UUID
+ExperimentalCoroutinesApi
+/
+/
+for
+createTestCase
 RunWith
 (
 RobolectricTestRunner
@@ -1205,6 +1218,7 @@ needsConfirmation
 )
 }
 }
+ExperimentalCoroutinesApi
 private
 fun
 <
@@ -1245,7 +1259,7 @@ Boolean
 true
 )
 =
-runBlocking
+runTest
 {
 val
 structure

@@ -149,7 +149,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -1039,6 +1041,8 @@ icon
 successfully
 (
 )
+=
+runTest
 {
 val
 addon
@@ -1085,8 +1089,6 @@ createAddonInstallationDialogFragment
 addon
 mockedCollectionProvider
 )
-runBlocking
-{
 whenever
 (
 mockedCollectionProvider
@@ -1157,7 +1159,6 @@ any
 )
 )
 }
-}
 Test
 fun
 handle
@@ -1171,6 +1172,8 @@ on
 icon
 (
 )
+=
+runTest
 {
 val
 addon
@@ -1208,8 +1211,6 @@ createAddonInstallationDialogFragment
 addon
 mockedCollectionProvider
 )
-runBlocking
-{
 whenever
 (
 mockedCollectionProvider
@@ -1279,7 +1280,6 @@ the
 adapter
 "
 )
-}
 }
 }
 Test

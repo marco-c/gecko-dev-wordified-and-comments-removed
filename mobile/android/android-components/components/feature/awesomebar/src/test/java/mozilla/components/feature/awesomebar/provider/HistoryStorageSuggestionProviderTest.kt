@@ -83,7 +83,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -294,6 +302,11 @@ mockito
 Mockito
 .
 verify
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -329,7 +342,7 @@ empty
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -374,7 +387,7 @@ storage
 (
 )
 =
-runBlocking
+runTest
 {
 val
 history
@@ -502,7 +515,7 @@ null
 (
 )
 =
-runBlocking
+runTest
 {
 val
 history
@@ -639,7 +652,7 @@ default
 (
 )
 =
-runBlocking
+runTest
 {
 val
 history
@@ -751,7 +764,7 @@ default
 (
 )
 =
-runBlocking
+runTest
 {
 val
 history
@@ -870,7 +883,7 @@ default
 (
 )
 =
-runBlocking
+runTest
 {
 val
 history
@@ -981,7 +994,7 @@ suggestions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1379,7 +1392,7 @@ suggestion
 (
 )
 =
-runBlocking
+runTest
 {
 val
 history
@@ -1560,7 +1573,7 @@ clicked
 (
 )
 =
-runBlocking
+runTest
 {
 val
 history

@@ -69,7 +69,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -1891,7 +1893,7 @@ stopLoading
 (
 )
 =
-runBlocking
+runTest
 {
 useCases
 .

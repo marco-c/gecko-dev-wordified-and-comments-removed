@@ -71,7 +71,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -296,6 +304,11 @@ mockito
 Mockito
 .
 verify
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 class
 HistoryMetadataSuggestionProviderTest
 {
@@ -379,7 +392,7 @@ empty
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -424,7 +437,7 @@ storage
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -524,7 +537,7 @@ default
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -606,7 +619,7 @@ default
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -695,7 +708,7 @@ default
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -785,7 +798,7 @@ time
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -884,7 +897,7 @@ suggestion
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1014,7 +1027,7 @@ clicked
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1212,7 +1225,7 @@ null
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage

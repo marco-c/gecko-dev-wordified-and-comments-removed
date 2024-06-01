@@ -157,14 +157,6 @@ test
 .
 advanceUntilIdle
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -262,6 +254,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 org
 .
@@ -394,7 +398,7 @@ report
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 CrashReporter
 (
@@ -504,7 +508,7 @@ report
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 CrashReporter
 (
@@ -615,7 +619,7 @@ CrashReporterActivity
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 CrashReporter
 (
@@ -734,7 +738,7 @@ state
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 CrashReporter
 (
@@ -850,7 +854,7 @@ crash
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 CrashReporter
 (
@@ -943,7 +947,7 @@ crash
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 CrashReporter
 (

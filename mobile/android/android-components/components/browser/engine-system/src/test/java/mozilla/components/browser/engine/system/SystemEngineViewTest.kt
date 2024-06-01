@@ -247,7 +247,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -676,6 +684,11 @@ java
 io
 .
 StringReader
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -2159,7 +2172,7 @@ visits
 (
 )
 =
-runBlocking
+runTest
 {
 val
 engineSession
@@ -2378,7 +2391,7 @@ recorded
 (
 )
 =
-runBlocking
+runTest
 {
 val
 engineSession
@@ -2648,6 +2661,8 @@ history
 delegate
 (
 )
+=
+runTest
 {
 val
 engineSession
@@ -2842,8 +2857,6 @@ String
 mock
 (
 )
-runBlocking
-{
 engineSession
 .
 webView
@@ -2856,7 +2869,6 @@ getVisitedHistory
 (
 historyValueCallback
 )
-}
 verify
 (
 historyValueCallback
@@ -2894,7 +2906,7 @@ changes
 (
 )
 =
-runBlocking
+runTest
 {
 val
 engineSession

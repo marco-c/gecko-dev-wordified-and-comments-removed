@@ -153,7 +153,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -615,7 +615,7 @@ unsupported
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 manifest
@@ -778,7 +778,7 @@ installable
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -893,7 +893,7 @@ shortcut
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -1035,7 +1035,7 @@ shortcut
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -1131,7 +1131,7 @@ default
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -1245,7 +1245,7 @@ default
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -1357,7 +1357,7 @@ manifest
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -1428,7 +1428,7 @@ name
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -1501,7 +1501,7 @@ op
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 manifests
@@ -1603,7 +1603,7 @@ shortcuts
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -1698,7 +1698,7 @@ manifest
 (
 )
 =
-runBlockingTest
+runTest
 {
 doReturn
 (
@@ -1817,7 +1817,7 @@ name
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 manifest
@@ -2085,7 +2085,7 @@ state
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (
@@ -2162,7 +2162,7 @@ state
 (
 )
 =
-runBlockingTest
+runTest
 {
 setSdkInt
 (

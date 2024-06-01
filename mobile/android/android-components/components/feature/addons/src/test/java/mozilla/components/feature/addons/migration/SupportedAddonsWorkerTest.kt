@@ -113,12 +113,6 @@ testing
 .
 TestListenableWorkerBuilder
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -309,6 +303,18 @@ support
 .
 test
 .
+rule
+.
+runTestOnMain
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 whenever
 import
 org
@@ -453,6 +459,8 @@ is
 found
 (
 )
+=
+runTestOnMain
 {
 val
 addonManager
@@ -583,8 +591,6 @@ Unit
 >
 (
 )
-runBlocking
-{
 whenever
 (
 addonManager
@@ -690,7 +696,6 @@ throwable
 !
 )
 }
-}
 Test
 fun
 doWork
@@ -705,6 +710,8 @@ the
 crashReporter
 (
 )
+=
+runTestOnMain
 {
 val
 addonManager
@@ -768,8 +775,6 @@ GlobalAddonDependencyProvider
 addonManager
 =
 null
-runBlocking
-{
 val
 result
 =
@@ -798,7 +803,6 @@ assertTrue
 crashWasReported
 )
 }
-}
 Test
 fun
 doWork
@@ -813,6 +817,8 @@ the
 crashReporter
 (
 )
+=
+runTestOnMain
 {
 val
 addonManager
@@ -871,8 +877,6 @@ mock
 )
 crashReporter
 )
-runBlocking
-{
 whenever
 (
 addonManager
@@ -918,7 +922,6 @@ assertFalse
 (
 crashWasReported
 )
-}
 }
 Test
 fun

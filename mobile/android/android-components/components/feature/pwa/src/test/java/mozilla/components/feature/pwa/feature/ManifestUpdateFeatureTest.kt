@@ -79,20 +79,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -242,6 +228,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 org
 .
@@ -424,7 +422,7 @@ session
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 feature
@@ -492,6 +490,8 @@ is
 started
 (
 )
+=
+runTestOnMain
 {
 val
 feature
@@ -540,8 +540,6 @@ updateUsageJob
 joinBlocking
 (
 )
-runBlocking
-{
 verify
 (
 storage
@@ -551,7 +549,6 @@ updateManifestUsedAt
 (
 baseManifest
 )
-}
 }
 Test
 fun
@@ -564,6 +561,8 @@ manifest
 changes
 (
 )
+=
+runTestOnMain
 {
 val
 feature
@@ -645,8 +644,6 @@ updateJob
 joinBlocking
 (
 )
-runBlocking
-{
 verify
 (
 storage
@@ -656,7 +653,6 @@ updateManifest
 (
 newManifest
 )
-}
 }
 Test
 fun
@@ -672,6 +668,8 @@ the
 same
 (
 )
+=
+runTestOnMain
 {
 val
 feature
@@ -718,8 +716,6 @@ updateJob
 joinBlocking
 (
 )
-runBlocking
-{
 verify
 (
 storage
@@ -735,7 +731,6 @@ any
 )
 )
 }
-}
 Test
 fun
 updateStoredManifest
@@ -749,6 +744,8 @@ is
 removed
 (
 )
+=
+runTestOnMain
 {
 val
 feature
@@ -815,8 +812,6 @@ updateJob
 joinBlocking
 (
 )
-runBlocking
-{
 verify
 (
 storage
@@ -831,7 +826,6 @@ any
 (
 )
 )
-}
 }
 Test
 fun
@@ -849,6 +843,8 @@ start
 URL
 (
 )
+=
+runTestOnMain
 {
 val
 feature
@@ -934,8 +930,6 @@ updateJob
 joinBlocking
 (
 )
-runBlocking
-{
 verify
 (
 storage
@@ -951,7 +945,6 @@ any
 )
 )
 }
-}
 Test
 fun
 updateStoredManifest
@@ -962,7 +955,7 @@ shortcut
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 feature
@@ -1029,7 +1022,7 @@ usage
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 feature

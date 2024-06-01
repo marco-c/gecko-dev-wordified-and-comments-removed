@@ -81,7 +81,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -140,6 +148,11 @@ junit
 runner
 .
 RunWith
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -171,7 +184,7 @@ domains
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (
@@ -419,7 +432,7 @@ domains
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (
@@ -650,7 +663,7 @@ domains
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (
@@ -913,7 +926,7 @@ data
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -2697,7 +2710,7 @@ prefetch
 (
 )
 =
-runBlocking
+runTest
 {
 run
 {
@@ -2783,7 +2796,7 @@ suffixes
 (
 )
 =
-runBlocking
+runTest
 {
 assertTrue
 (
@@ -3177,7 +3190,7 @@ input
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (

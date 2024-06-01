@@ -113,20 +113,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -766,6 +752,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 mozilla
 .
@@ -2398,7 +2396,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 /
 /
@@ -2577,7 +2575,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 /
 /
@@ -2727,7 +2725,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 /
 /
@@ -3135,7 +3133,7 @@ reject
 /
 /
 when
-runBlockingTest
+runTestOnMain
 {
 sitePermissionFeature
 .
@@ -3186,7 +3184,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 /
 /
@@ -3286,7 +3284,7 @@ URL
 /
 /
 when
-runBlockingTest
+runTestOnMain
 {
 sitePermissionFeature
 .
@@ -3340,7 +3338,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 /
 /
@@ -3441,7 +3439,7 @@ URL
 /
 /
 when
-runBlockingTest
+runTestOnMain
 {
 sitePermissionFeature
 .
@@ -3496,7 +3494,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 /
 /
@@ -3597,7 +3595,7 @@ URL
 /
 /
 when
-runBlockingTest
+runTestOnMain
 {
 sitePermissionFeature
 .
@@ -3648,7 +3646,7 @@ true
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 /
 /
@@ -6413,7 +6411,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 sitePermissionsList
@@ -6636,7 +6634,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 sitePermissionsList
@@ -7242,7 +7240,7 @@ object
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 rules
@@ -7424,9 +7422,7 @@ first
 (
 )
 =
-runBlocking
-(
-)
+runTestOnMain
 {
 val
 permissions
@@ -7554,8 +7550,6 @@ mockStorage
 mock
 (
 )
-runBlocking
-{
 val
 prompt
 =
@@ -7574,7 +7568,6 @@ assertFalse
 (
 grantWasCalled
 )
-}
 }
 Unit
 }

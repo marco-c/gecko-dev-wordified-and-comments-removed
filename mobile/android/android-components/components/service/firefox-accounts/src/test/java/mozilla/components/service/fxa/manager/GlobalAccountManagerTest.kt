@@ -71,7 +71,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -97,6 +105,7 @@ Mockito
 class
 GlobalAccountManagerTest
 {
+ExperimentalCoroutinesApi
 Test
 fun
 GlobalAccountManager
@@ -105,7 +114,7 @@ processing
 (
 )
 =
-runBlocking
+runTest
 {
 val
 manager

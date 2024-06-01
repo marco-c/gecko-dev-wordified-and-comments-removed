@@ -117,7 +117,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -411,6 +413,8 @@ playing
 state
 (
 )
+=
+runTest
 {
 val
 state
@@ -467,8 +471,6 @@ PLAYING
 val
 notification
 =
-runBlocking
-{
 MediaNotification
 (
 context
@@ -492,7 +494,6 @@ mock
 (
 )
 )
-}
 assertEquals
 (
 "
@@ -541,6 +542,8 @@ paused
 state
 (
 )
+=
+runTest
 {
 val
 state
@@ -597,8 +600,6 @@ PAUSED
 val
 notification
 =
-runBlocking
-{
 MediaNotification
 (
 context
@@ -622,7 +623,6 @@ mock
 (
 )
 )
-}
 assertEquals
 (
 "
@@ -671,6 +671,8 @@ stopped
 state
 (
 )
+=
+runTest
 {
 val
 state
@@ -727,8 +729,6 @@ STOPPED
 val
 notification
 =
-runBlocking
-{
 MediaNotification
 (
 context
@@ -752,7 +752,6 @@ mock
 (
 )
 )
-}
 assertEquals
 (
 "
@@ -783,6 +782,8 @@ private
 mode
 (
 )
+=
+runTest
 {
 val
 state
@@ -842,8 +843,6 @@ PLAYING
 val
 notification
 =
-runBlocking
-{
 MediaNotification
 (
 context
@@ -867,7 +866,6 @@ mock
 (
 )
 )
-}
 assertEquals
 (
 "
@@ -914,6 +912,8 @@ private
 mode
 (
 )
+=
+runTest
 {
 val
 state
@@ -973,8 +973,6 @@ PAUSED
 val
 notification
 =
-runBlocking
-{
 MediaNotification
 (
 context
@@ -998,7 +996,6 @@ mock
 (
 )
 )
-}
 assertEquals
 (
 "
@@ -1045,6 +1042,8 @@ private
 mode
 (
 )
+=
+runTest
 {
 val
 mediaSessionState
@@ -1150,8 +1149,6 @@ mediaSessionState
 val
 notification
 =
-runBlocking
-{
 MediaNotification
 (
 context
@@ -1175,7 +1172,6 @@ mock
 (
 )
 )
-}
 assertEquals
 (
 "
@@ -1227,6 +1223,8 @@ private
 mode
 (
 )
+=
+runTest
 {
 val
 mediaSessionState
@@ -1332,8 +1330,6 @@ mediaSessionState
 val
 notification
 =
-runBlocking
-{
 MediaNotification
 (
 context
@@ -1357,7 +1353,6 @@ mock
 (
 )
 )
-}
 assertEquals
 (
 "

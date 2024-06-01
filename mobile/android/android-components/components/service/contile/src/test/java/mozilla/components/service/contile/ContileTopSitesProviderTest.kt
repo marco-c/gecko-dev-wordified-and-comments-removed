@@ -81,7 +81,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -252,6 +260,11 @@ java
 util
 .
 Date
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -283,7 +296,7 @@ sites
 (
 )
 =
-runBlocking
+runTest
 {
 val
 client
@@ -521,7 +534,7 @@ exception
 (
 )
 =
-runBlocking
+runTest
 {
 val
 client
@@ -572,7 +585,7 @@ cache
 (
 )
 =
-runBlocking
+runTest
 {
 val
 client
@@ -694,7 +707,7 @@ cache
 (
 )
 =
-runBlocking
+runTest
 {
 val
 jsonResponse
@@ -1232,7 +1245,7 @@ nothing
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -1308,7 +1321,7 @@ cache
 (
 )
 =
-runBlocking
+runTest
 {
 val
 jsonResponse

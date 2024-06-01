@@ -89,7 +89,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -353,7 +353,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 localeManager
@@ -477,7 +477,7 @@ updated
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 localeManager

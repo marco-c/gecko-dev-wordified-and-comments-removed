@@ -83,7 +83,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -218,6 +226,11 @@ mockito
 Mockito
 .
 doReturn
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -304,7 +317,7 @@ list
 (
 )
 =
-runBlocking
+runTest
 {
 val
 metadata
@@ -453,7 +466,7 @@ suggestions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -639,7 +652,7 @@ items
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -803,7 +816,7 @@ items
 (
 )
 =
-runBlocking
+runTest
 {
 val
 metadata
@@ -968,7 +981,7 @@ suggestions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1126,7 +1139,7 @@ adjusted
 (
 )
 =
-runBlocking
+runTest
 {
 val
 metadataEntry1
@@ -1517,7 +1530,7 @@ null
 (
 )
 =
-runBlocking
+runTest
 {
 val
 metadata

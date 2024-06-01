@@ -279,6 +279,18 @@ support
 .
 test
 .
+rule
+.
+runTestOnMain
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 whenever
 import
 org
@@ -831,6 +843,8 @@ on
 icon
 (
 )
+=
+runTestOnMain
 {
 val
 addon
@@ -873,8 +887,6 @@ emptyList
 (
 )
 )
-runBlocking
-{
 whenever
 (
 mockedCollectionProvider
@@ -944,7 +956,6 @@ adapter
 )
 }
 }
-}
 Test
 fun
 fetching
@@ -960,6 +971,8 @@ NOT
 animate
 (
 )
+=
+runTestOnMain
 {
 val
 addon
@@ -1011,8 +1024,6 @@ emptyList
 (
 )
 )
-runBlocking
-{
 whenever
 (
 mockedCollectionProvider
@@ -1051,7 +1062,6 @@ any
 )
 )
 }
-}
 Test
 fun
 fetching
@@ -1065,6 +1075,8 @@ MUST
 animate
 (
 )
+=
+runTestOnMain
 {
 val
 addon
@@ -1119,8 +1131,6 @@ emptyList
 )
 )
 )
-runBlocking
-{
 whenever
 (
 mockedCollectionProvider
@@ -1165,7 +1175,6 @@ mockedImageView
 bitmap
 )
 }
-}
 Test
 fun
 fall
@@ -1177,6 +1186,8 @@ installed
 extension
 (
 )
+=
+runTestOnMain
 {
 val
 addon
@@ -1261,8 +1272,15 @@ emptyList
 (
 )
 )
-runBlocking
-{
+val
+captor
+=
+argumentCaptor
+<
+BitmapDrawable
+>
+(
+)
 whenever
 (
 mockedCollectionProvider
@@ -1289,15 +1307,6 @@ scope
 join
 (
 )
-val
-captor
-=
-argumentCaptor
-<
-BitmapDrawable
->
-(
-)
 verify
 (
 mockedImageView
@@ -1320,7 +1329,6 @@ value
 .
 bitmap
 )
-}
 }
 Test
 fun

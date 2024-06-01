@@ -83,7 +83,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -116,6 +124,11 @@ mockito
 Mockito
 .
 verify
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -132,7 +145,7 @@ AddPinnedSiteUseCase
 (
 )
 =
-runBlocking
+runTest
 {
 val
 topSitesStorage
@@ -203,7 +216,7 @@ RemoveTopSiteUseCase
 (
 )
 =
-runBlocking
+runTest
 {
 val
 topSitesStorage
@@ -250,7 +263,7 @@ UpdateTopSiteUseCase
 (
 )
 =
-runBlocking
+runTest
 {
 val
 topSitesStorage

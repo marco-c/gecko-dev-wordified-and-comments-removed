@@ -90,7 +90,7 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
 import
 mozilla
 .
@@ -226,6 +226,18 @@ rule
 .
 MainCoroutineRule
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
+import
 org
 .
 junit
@@ -291,6 +303,11 @@ mockito
 stubbing
 .
 OngoingStubbing
+ExperimentalCoroutinesApi
+/
+/
+for
+runTestOnMain
 RunWith
 (
 AndroidJUnit4
@@ -445,7 +462,7 @@ works
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer
@@ -543,7 +560,7 @@ endpoint
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer
@@ -646,7 +663,7 @@ expired
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer

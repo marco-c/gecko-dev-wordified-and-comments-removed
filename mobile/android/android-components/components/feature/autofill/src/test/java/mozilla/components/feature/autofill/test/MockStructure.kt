@@ -75,6 +75,12 @@ autofill
 .
 AutofillId
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
 mozilla
 .
 components
@@ -116,6 +122,7 @@ java
 io
 .
 File
+ExperimentalCoroutinesApi
 internal
 fun
 FillRequestHandlerTest

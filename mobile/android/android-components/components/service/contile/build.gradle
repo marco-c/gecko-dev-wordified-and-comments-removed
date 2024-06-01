@@ -195,6 +195,10 @@ Dependencies
 .
 testing_mockito
 testImplementation
+Dependencies
+.
+testing_coroutines
+testImplementation
 project
 (
 '

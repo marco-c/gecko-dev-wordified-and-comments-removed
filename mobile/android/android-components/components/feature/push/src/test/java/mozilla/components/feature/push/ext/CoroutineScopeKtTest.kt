@@ -86,7 +86,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -244,7 +244,7 @@ exceptions
 (
 )
 =
-runBlockingTest
+runTest
 {
 CoroutineScope
 (
@@ -294,7 +294,7 @@ exception
 (
 )
 =
-runBlockingTest
+runTest
 {
 CoroutineScope
 (
@@ -338,7 +338,7 @@ exceptions
 (
 )
 =
-runBlockingTest
+runTest
 {
 CoroutineScope
 (

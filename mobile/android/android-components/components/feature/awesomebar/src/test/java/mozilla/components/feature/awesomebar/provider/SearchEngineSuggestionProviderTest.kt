@@ -89,7 +89,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -158,6 +166,11 @@ junit
 runner
 .
 RunWith
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -327,7 +340,7 @@ empty
 (
 )
 =
-runBlocking
+runTest
 {
 val
 suggestions
@@ -361,7 +374,7 @@ blank
 (
 )
 =
-runBlocking
+runTest
 {
 val
 suggestions
@@ -397,7 +410,7 @@ charactersThreshold
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -458,7 +471,7 @@ text
 (
 )
 =
-runBlocking
+runTest
 {
 val
 suggestions
@@ -495,7 +508,7 @@ engine
 (
 )
 =
-runBlocking
+runTest
 {
 val
 suggestions
@@ -537,7 +550,7 @@ empty
 (
 )
 =
-runBlocking
+runTest
 {
 val
 providerEmpty
@@ -592,7 +605,7 @@ maxSuggestions
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /

@@ -167,6 +167,10 @@ Dependencies
 .
 testing_mockwebserver
 testImplementation
+Dependencies
+.
+testing_coroutines
+testImplementation
 project
 (
 '

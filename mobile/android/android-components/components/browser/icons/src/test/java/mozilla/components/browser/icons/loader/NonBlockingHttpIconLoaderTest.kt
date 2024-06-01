@@ -85,14 +85,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -230,6 +222,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 okhttp3
 .
@@ -414,7 +418,7 @@ callback
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 clients
@@ -712,7 +716,7 @@ uris
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 client
@@ -864,7 +868,7 @@ applied
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 client
@@ -1033,7 +1037,7 @@ requests
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 client
@@ -1254,7 +1258,7 @@ failed
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 client
@@ -1473,7 +1477,7 @@ fetch
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 client
@@ -1666,7 +1670,7 @@ toIconLoaderResult
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 client
@@ -1908,7 +1912,7 @@ URL
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 client

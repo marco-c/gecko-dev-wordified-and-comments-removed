@@ -83,7 +83,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -206,6 +214,11 @@ mockito
 Mockito
 .
 verifyNoInteractions
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -271,7 +284,7 @@ new
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -355,7 +368,7 @@ lost
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -458,7 +471,7 @@ corrupted
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -568,7 +581,7 @@ subtly
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -734,7 +747,7 @@ normal
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crypto
@@ -864,7 +877,7 @@ keys
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crypto

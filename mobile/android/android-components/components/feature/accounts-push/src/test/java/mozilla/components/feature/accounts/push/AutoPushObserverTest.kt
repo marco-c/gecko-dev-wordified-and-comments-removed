@@ -73,12 +73,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -193,6 +187,18 @@ rule
 .
 MainCoroutineRule
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
+import
 org
 .
 junit
@@ -244,6 +250,11 @@ mockito
 stubbing
 .
 OngoingStubbing
+ExperimentalCoroutinesApi
+/
+/
+for
+runTestOnMain
 class
 AutoPushObserverTest
 {
@@ -304,7 +315,7 @@ manager
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer
@@ -388,7 +399,7 @@ available
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer
@@ -467,7 +478,7 @@ scope
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer
@@ -526,7 +537,7 @@ manager
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer
@@ -653,7 +664,7 @@ manager
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer
@@ -713,7 +724,7 @@ scope
 (
 )
 =
-runBlocking
+runTestOnMain
 {
 val
 observer

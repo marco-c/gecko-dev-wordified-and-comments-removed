@@ -79,7 +79,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -197,7 +197,7 @@ observers
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 accountManager

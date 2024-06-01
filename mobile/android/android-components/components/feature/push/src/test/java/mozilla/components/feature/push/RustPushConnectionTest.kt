@@ -81,7 +81,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -272,6 +280,11 @@ mockito
 Mockito
 .
 verify
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -310,6 +323,8 @@ initializes
 API
 (
 )
+=
+runTest
 {
 val
 connection
@@ -323,8 +338,6 @@ connection
 .
 api
 )
-runBlocking
-{
 connection
 .
 updateToken
@@ -333,7 +346,6 @@ updateToken
 token
 "
 )
-}
 assertNotNull
 (
 connection
@@ -354,6 +366,8 @@ already
 initialized
 (
 )
+=
+runTest
 {
 val
 connection
@@ -374,8 +388,6 @@ connection
 api
 =
 api
-runBlocking
-{
 connection
 .
 updateToken
@@ -384,7 +396,6 @@ updateToken
 123
 "
 )
-}
 verify
 (
 api
@@ -437,6 +448,8 @@ initialized
 first
 (
 )
+=
+runTest
 {
 val
 connection
@@ -444,8 +457,6 @@ connection
 createConnection
 (
 )
-runBlocking
-{
 connection
 .
 subscribe
@@ -455,7 +466,6 @@ subscribe
 "
 )
 }
-}
 Test
 fun
 subscribe
@@ -464,6 +474,8 @@ Rust
 API
 (
 )
+=
+runTest
 {
 val
 connection
@@ -546,8 +558,6 @@ thenReturn
 (
 response
 )
-runBlocking
-{
 val
 sub
 =
@@ -599,7 +609,6 @@ sub
 .
 endpoint
 )
-}
 verify
 (
 api
@@ -638,6 +647,8 @@ initialized
 first
 (
 )
+=
+runTest
 {
 val
 connection
@@ -645,8 +656,6 @@ connection
 createConnection
 (
 )
-runBlocking
-{
 connection
 .
 unsubscribe
@@ -656,7 +665,6 @@ unsubscribe
 "
 )
 }
-}
 Test
 fun
 unsubscribe
@@ -665,6 +673,8 @@ Rust
 API
 (
 )
+=
+runTest
 {
 val
 connection
@@ -685,8 +695,6 @@ connection
 api
 =
 api
-runBlocking
-{
 connection
 .
 unsubscribe
@@ -695,7 +703,6 @@ unsubscribe
 123
 "
 )
-}
 verify
 (
 api
@@ -728,6 +735,8 @@ initialized
 first
 (
 )
+=
+runTest
 {
 val
 connection
@@ -735,14 +744,11 @@ connection
 createConnection
 (
 )
-runBlocking
-{
 connection
 .
 unsubscribeAll
 (
 )
-}
 }
 Test
 fun
@@ -752,6 +758,8 @@ Rust
 API
 (
 )
+=
+runTest
 {
 val
 connection
@@ -772,14 +780,11 @@ connection
 api
 =
 api
-runBlocking
-{
 connection
 .
 unsubscribeAll
 (
 )
-}
 verify
 (
 api
@@ -800,6 +805,8 @@ subscription
 exists
 (
 )
+=
+runTest
 {
 val
 connection
@@ -845,8 +852,6 @@ thenReturn
 (
 null
 )
-runBlocking
-{
 assertTrue
 (
 connection
@@ -870,7 +875,6 @@ invalidSubscription
 )
 )
 }
-}
 Test
 (
 expected
@@ -891,6 +895,8 @@ initialized
 first
 (
 )
+=
+runTest
 {
 val
 connection
@@ -898,14 +904,11 @@ connection
 createConnection
 (
 )
-runBlocking
-{
 connection
 .
 verifyConnection
 (
 )
-}
 }
 Test
 fun
@@ -915,6 +918,8 @@ Rust
 API
 (
 )
+=
+runTest
 {
 val
 connection
@@ -935,14 +940,11 @@ connection
 api
 =
 api
-runBlocking
-{
 connection
 .
 verifyConnection
 (
 )
-}
 verify
 (
 api
@@ -972,6 +974,8 @@ initialized
 first
 (
 )
+=
+runTest
 {
 val
 connection
@@ -979,8 +983,6 @@ connection
 createConnection
 (
 )
-runBlocking
-{
 connection
 .
 decryptMessage
@@ -994,7 +996,6 @@ text
 "
 )
 }
-}
 Test
 fun
 decrypt
@@ -1003,6 +1004,8 @@ Rust
 API
 (
 )
+=
+runTest
 {
 val
 connection
@@ -1031,8 +1034,6 @@ connection
 api
 =
 api
-runBlocking
-{
 connection
 .
 decryptMessage
@@ -1044,7 +1045,6 @@ decryptMessage
 body
 "
 )
-}
 verify
 (
 api
@@ -1106,8 +1106,6 @@ thenReturn
 test
 "
 )
-runBlocking
-{
 connection
 .
 decryptMessage
@@ -1119,7 +1117,6 @@ decryptMessage
 body
 "
 )
-}
 verify
 (
 api
@@ -1149,8 +1146,6 @@ eq
 "
 )
 )
-runBlocking
-{
 connection
 .
 decryptMessage
@@ -1171,7 +1166,6 @@ salt
 key
 "
 )
-}
 verify
 (
 api
@@ -1213,6 +1207,8 @@ decrypts
 nothing
 (
 )
+=
+runTest
 {
 val
 connection
@@ -1241,8 +1237,6 @@ connection
 api
 =
 api
-runBlocking
-{
 connection
 .
 decryptMessage
@@ -1252,7 +1246,6 @@ decryptMessage
 "
 null
 )
-}
 verify
 (
 api
@@ -1314,8 +1307,6 @@ thenReturn
 test
 "
 )
-runBlocking
-{
 val
 (
 scope
@@ -1344,7 +1335,6 @@ assertNull
 (
 message
 )
-}
 verify
 (
 api
@@ -1398,6 +1388,8 @@ initialized
 first
 (
 )
+=
+runTest
 {
 val
 connection
@@ -1405,14 +1397,11 @@ connection
 createConnection
 (
 )
-runBlocking
-{
 connection
 .
 close
 (
 )
-}
 }
 Test
 fun
@@ -1422,6 +1411,8 @@ Rust
 API
 (
 )
+=
+runTest
 {
 val
 connection
@@ -1442,14 +1433,11 @@ connection
 api
 =
 api
-runBlocking
-{
 connection
 .
 close
 (
 )
-}
 verify
 (
 api
@@ -1471,6 +1459,8 @@ not
 null
 (
 )
+=
+runTest
 {
 val
 connection

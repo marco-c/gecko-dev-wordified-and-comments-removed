@@ -273,6 +273,10 @@ testing_mockito
 testImplementation
 Dependencies
 .
+testing_coroutines
+testImplementation
+Dependencies
+.
 mozilla_places
 testImplementation
 Dependencies

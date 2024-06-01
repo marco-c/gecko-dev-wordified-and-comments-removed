@@ -81,7 +81,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -308,6 +316,7 @@ any
 )
 )
 }
+ExperimentalCoroutinesApi
 Test
 fun
 GIVEN
@@ -321,7 +330,7 @@ return
 (
 )
 =
-runBlocking
+runTest
 {
 val
 stories

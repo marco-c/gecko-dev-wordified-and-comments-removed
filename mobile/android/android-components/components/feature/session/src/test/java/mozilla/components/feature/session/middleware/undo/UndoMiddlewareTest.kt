@@ -81,14 +81,6 @@ kotlinx
 .
 coroutines
 .
-test
-.
-runBlockingTest
-import
-kotlinx
-.
-coroutines
-.
 withContext
 import
 mozilla
@@ -201,6 +193,18 @@ rule
 .
 MainCoroutineRule
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
+import
 org
 .
 junit
@@ -266,7 +270,7 @@ tab
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -490,7 +494,7 @@ tabs
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -724,7 +728,7 @@ tabs
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -934,7 +938,7 @@ tabs
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -1149,7 +1153,7 @@ recoverable
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -1344,7 +1348,7 @@ written
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store
@@ -1767,7 +1771,7 @@ time
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 store

@@ -89,7 +89,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -635,7 +635,7 @@ exists
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 httpClient

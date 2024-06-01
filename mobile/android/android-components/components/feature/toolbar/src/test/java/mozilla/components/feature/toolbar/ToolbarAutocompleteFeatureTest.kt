@@ -81,7 +81,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -708,6 +710,8 @@ without
 providers
 (
 )
+=
+runTest
 {
 val
 toolbar
@@ -733,8 +737,6 @@ AutocompleteDelegate
 mock
 (
 )
-runBlocking
-{
 toolbar
 .
 autocompleteFilter
@@ -746,7 +748,6 @@ moz
 "
 autocompleteDelegate
 )
-}
 verify
 (
 autocompleteDelegate
@@ -1405,6 +1406,8 @@ engine
 provided
 (
 )
+=
+runTest
 {
 val
 toolbar
@@ -1499,8 +1502,6 @@ addDomainProvider
 (
 domains
 )
-runBlocking
-{
 toolbar
 .
 autocompleteFilter
@@ -1514,7 +1515,6 @@ mo
 "
 autocompleteDelegate
 )
-}
 val
 callbackCaptor
 =
@@ -1617,8 +1617,8 @@ query
 :
 String
 )
-{
-runBlocking
+=
+runTest
 {
 toolbar
 .
@@ -1629,7 +1629,6 @@ autocompleteFilter
 query
 autocompleteDelegate
 )
-}
 verify
 (
 autocompleteDelegate
@@ -1682,8 +1681,8 @@ result
 :
 AutocompleteResult
 )
-{
-runBlocking
+=
+runTest
 {
 toolbar
 .
@@ -1696,7 +1695,6 @@ invoke
 query
 autocompleteDelegate
 )
-}
 verify
 (
 autocompleteDelegate

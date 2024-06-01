@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -431,7 +433,7 @@ tab
 (
 )
 =
-runBlocking
+runTest
 {
 val
 store

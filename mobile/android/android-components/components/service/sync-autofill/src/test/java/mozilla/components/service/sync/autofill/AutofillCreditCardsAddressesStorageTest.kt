@@ -83,7 +83,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -230,6 +238,11 @@ mockito
 Mockito
 .
 verify
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -257,8 +270,6 @@ fun
 setup
 (
 )
-=
-runBlocking
 {
 /
 /
@@ -309,8 +320,6 @@ fun
 cleanup
 (
 )
-=
-runBlocking
 {
 storage
 .
@@ -326,7 +335,7 @@ card
 (
 )
 =
-runBlocking
+runTest
 {
 val
 plaintextNumber
@@ -491,7 +500,7 @@ card
 (
 )
 =
-runBlocking
+runTest
 {
 val
 plaintextNumber
@@ -578,7 +587,7 @@ returned
 (
 )
 =
-runBlocking
+runTest
 {
 assertNull
 (
@@ -601,7 +610,7 @@ cards
 (
 )
 =
-runBlocking
+runTest
 {
 val
 plaintextNumber1
@@ -882,7 +891,7 @@ card
 (
 )
 =
-runBlocking
+runTest
 {
 val
 creditCardFields
@@ -1190,7 +1199,7 @@ card
 (
 )
 =
-runBlocking
+runTest
 {
 val
 creditCardFields
@@ -1284,7 +1293,7 @@ address
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addressFields
@@ -1487,7 +1496,7 @@ address
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addressFields
@@ -1603,7 +1612,7 @@ returned
 (
 )
 =
-runBlocking
+runTest
 {
 assertNull
 (
@@ -1625,7 +1634,7 @@ addresses
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addressFields1
@@ -1944,7 +1953,7 @@ address
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addressFields
@@ -2233,7 +2242,7 @@ address
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addressFields
@@ -2377,7 +2386,7 @@ established
 :
 Unit
 =
-runBlocking
+runTest
 {
 val
 storageSpy

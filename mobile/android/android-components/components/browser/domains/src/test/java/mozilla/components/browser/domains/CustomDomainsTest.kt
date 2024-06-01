@@ -87,7 +87,7 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
 import
 mozilla
 .
@@ -168,6 +168,7 @@ apply
 (
 )
 }
+ExperimentalCoroutinesApi
 Test
 fun
 customListIsEmptyByDefault
@@ -177,15 +178,12 @@ customListIsEmptyByDefault
 val
 domains
 =
-runBlocking
-{
 CustomDomains
 .
 load
 (
 testContext
 )
-}
 assertEquals
 (
 0

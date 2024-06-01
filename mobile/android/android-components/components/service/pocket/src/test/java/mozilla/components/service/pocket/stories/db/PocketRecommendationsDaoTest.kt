@@ -125,15 +125,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
-import
-kotlinx
-.
-coroutines
-.
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -350,7 +344,7 @@ story
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story
@@ -411,7 +405,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story
@@ -503,7 +497,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story
@@ -603,7 +597,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story
@@ -694,7 +688,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story
@@ -785,7 +779,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story
@@ -876,7 +870,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story
@@ -965,7 +959,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story
@@ -1043,7 +1037,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story1
@@ -1174,7 +1168,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story1
@@ -1299,7 +1293,7 @@ story
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story1
@@ -1489,7 +1483,7 @@ table
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 story1
@@ -1655,7 +1649,7 @@ list
 (
 )
 =
-runBlocking
+runTest
 {
 setupDatabseForTransactions
 (
@@ -1786,7 +1780,7 @@ urls
 (
 )
 =
-runBlocking
+runTest
 {
 setupDatabseForTransactions
 (
@@ -1912,7 +1906,7 @@ urls
 (
 )
 =
-runBlocking
+runTest
 {
 setupDatabseForTransactions
 (
@@ -2024,7 +2018,7 @@ changed
 (
 )
 =
-runBlocking
+runTest
 {
 setupDatabseForTransactions
 (
@@ -2136,7 +2130,7 @@ changed
 (
 )
 =
-runBlocking
+runTest
 {
 setupDatabseForTransactions
 (
@@ -2248,7 +2242,7 @@ changed
 (
 )
 =
-runBlocking
+runTest
 {
 setupDatabseForTransactions
 (
@@ -2360,7 +2354,7 @@ changed
 (
 )
 =
-runBlocking
+runTest
 {
 setupDatabseForTransactions
 (
@@ -2470,7 +2464,7 @@ changed
 (
 )
 =
-runBlocking
+runTest
 {
 setupDatabseForTransactions
 (
@@ -2575,7 +2569,7 @@ used
 along
 with
 "
-runBlockingTest
+runTest
 "
 to
 ensure

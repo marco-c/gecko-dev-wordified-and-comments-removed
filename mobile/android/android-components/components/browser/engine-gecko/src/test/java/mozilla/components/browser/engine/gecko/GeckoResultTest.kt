@@ -91,7 +91,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -215,7 +215,7 @@ awaitWithResult
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 result
@@ -250,7 +250,7 @@ awaitWithException
 (
 )
 =
-runBlockingTest
+runTest
 {
 GeckoResult
 .
@@ -274,7 +274,7 @@ fromResult
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 result
@@ -313,7 +313,7 @@ fromException
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 result
@@ -374,7 +374,7 @@ asCancellableOperation
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 geckoResult

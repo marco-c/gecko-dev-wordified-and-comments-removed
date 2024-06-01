@@ -127,7 +127,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -351,7 +351,7 @@ saved
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 feature
@@ -396,7 +396,7 @@ relationship
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 feature
@@ -520,7 +520,7 @@ relationships
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 store

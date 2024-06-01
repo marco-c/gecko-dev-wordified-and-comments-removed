@@ -155,12 +155,6 @@ TestCase
 .
 assertTrue
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -238,6 +232,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 org
 .
@@ -422,6 +428,8 @@ future
 checks
 (
 )
+=
+runTestOnMain
 {
 val
 frequency
@@ -452,8 +460,6 @@ val
 workId
 =
 CHECKER_UNIQUE_PERIODIC_WORK_NAME
-runBlocking
-{
 val
 workManger
 =
@@ -511,7 +517,6 @@ cancelUniqueWork
 workId
 )
 }
-}
 Test
 fun
 unregisterForChecks
@@ -525,6 +530,8 @@ future
 checks
 (
 )
+=
+runTestOnMain
 {
 val
 frequency
@@ -548,8 +555,6 @@ val
 workId
 =
 CHECKER_UNIQUE_PERIODIC_WORK_NAME
-runBlocking
-{
 val
 workManger
 =
@@ -620,7 +625,6 @@ first
 .
 state
 )
-}
 }
 private
 suspend

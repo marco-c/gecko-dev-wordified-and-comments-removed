@@ -115,12 +115,6 @@ TestCase
 .
 assertTrue
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -230,6 +224,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 mozilla
 .
@@ -481,6 +487,8 @@ when
 SuccessfullyUpdated
 (
 )
+=
+runTestOnMain
 {
 val
 updateAttemptStorage
@@ -609,8 +617,6 @@ Status
 SuccessfullyUpdated
 )
 }
-runBlocking
-{
 doReturn
 (
 this
@@ -660,7 +666,6 @@ Status
 SuccessfullyUpdated
 )
 }
-}
 Test
 fun
 doWork
@@ -672,6 +677,8 @@ when
 NoUpdateAvailable
 (
 )
+=
+runTestOnMain
 {
 val
 addonId
@@ -771,8 +778,6 @@ Status
 NoUpdateAvailable
 )
 }
-runBlocking
-{
 val
 result
 =
@@ -797,7 +802,6 @@ success
 result
 )
 }
-}
 Test
 fun
 doWork
@@ -809,6 +813,8 @@ when
 NotInstalled
 (
 )
+=
+runTestOnMain
 {
 val
 addonId
@@ -908,8 +914,6 @@ Status
 NotInstalled
 )
 }
-runBlocking
-{
 val
 result
 =
@@ -934,7 +938,6 @@ failure
 result
 )
 }
-}
 Test
 fun
 doWork
@@ -951,6 +954,8 @@ is
 recoverable
 (
 )
+=
+runTestOnMain
 {
 val
 updateAttemptStorage
@@ -1084,8 +1089,6 @@ recoverableException
 )
 )
 }
-runBlocking
-{
 val
 result
 =
@@ -1118,7 +1121,6 @@ any
 )
 )
 }
-}
 Test
 fun
 doWork
@@ -1135,6 +1137,8 @@ is
 unrecoverable
 (
 )
+=
+runTestOnMain
 {
 val
 updateAttemptStorage
@@ -1268,8 +1272,6 @@ unrecoverableException
 )
 )
 }
-runBlocking
-{
 val
 result
 =
@@ -1302,7 +1304,6 @@ any
 )
 )
 }
-}
 Test
 fun
 doWork
@@ -1317,6 +1318,8 @@ the
 crashReporter
 (
 )
+=
+runTestOnMain
 {
 val
 addonId
@@ -1454,8 +1457,6 @@ Exception
 )
 )
 }
-runBlocking
-{
 val
 result
 =
@@ -1483,7 +1484,6 @@ assertTrue
 (
 crashWasReported
 )
-}
 }
 Test
 fun

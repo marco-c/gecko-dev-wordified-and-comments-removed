@@ -113,7 +113,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -538,7 +540,7 @@ called
 (
 )
 =
-runBlocking
+runTest
 {
 val
 listener

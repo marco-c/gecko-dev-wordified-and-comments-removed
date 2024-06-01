@@ -89,7 +89,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -297,7 +299,7 @@ tabs
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider

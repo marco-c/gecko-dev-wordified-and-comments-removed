@@ -91,7 +91,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 org
 .
@@ -142,6 +144,8 @@ ifChanged
 operator
 (
 )
+=
+runTest
 {
 val
 originalFlow
@@ -179,8 +183,6 @@ A
 val
 items
 =
-runBlocking
-{
 originalFlow
 .
 ifChanged
@@ -190,7 +192,6 @@ ifChanged
 toList
 (
 )
-}
 assertEquals
 (
 listOf
@@ -225,6 +226,8 @@ with
 block
 (
 )
+=
+runTest
 {
 val
 originalFlow
@@ -256,8 +259,6 @@ home
 val
 items
 =
-runBlocking
-{
 originalFlow
 .
 ifChanged
@@ -274,7 +275,6 @@ item
 toList
 (
 )
-}
 assertEquals
 (
 listOf
@@ -307,6 +307,8 @@ structural
 equality
 (
 )
+=
+runTest
 {
 val
 originalFlow
@@ -371,8 +373,6 @@ A
 val
 items
 =
-runBlocking
-{
 originalFlow
 .
 ifChanged
@@ -382,7 +382,6 @@ ifChanged
 toList
 (
 )
-}
 assertEquals
 (
 listOf
@@ -435,6 +434,8 @@ with
 block
 (
 )
+=
+runTest
 {
 val
 originalFlow
@@ -469,8 +470,6 @@ home
 val
 items
 =
-runBlocking
-{
 originalFlow
 .
 ifAnyChanged
@@ -494,7 +493,6 @@ item
 toList
 (
 )
-}
 assertEquals
 (
 listOf
@@ -533,6 +531,8 @@ structural
 equality
 (
 )
+=
+runTest
 {
 val
 originalFlow
@@ -567,8 +567,6 @@ home
 val
 items
 =
-runBlocking
-{
 originalFlow
 .
 ifAnyChanged
@@ -598,7 +596,6 @@ item
 toList
 (
 )
-}
 assertEquals
 (
 listOf
@@ -634,6 +631,8 @@ filterChanged
 operator
 (
 )
+=
+runTest
 {
 val
 intFlow
@@ -671,8 +670,6 @@ listOf
 val
 identityItems
 =
-runBlocking
-{
 intFlow
 .
 filterChanged
@@ -686,7 +683,6 @@ item
 toList
 (
 )
-}
 assertEquals
 (
 listOf
@@ -732,8 +728,6 @@ listOf
 val
 moduloItems
 =
-runBlocking
-{
 moduloFlow
 .
 filterChanged
@@ -749,7 +743,6 @@ item
 toList
 (
 )
-}
 assertEquals
 (
 listOf
@@ -836,8 +829,6 @@ listOf
 val
 sideEffectItems
 =
-runBlocking
-{
 sideEffectFlow
 .
 filterChanged
@@ -855,7 +846,6 @@ counter
 toList
 (
 )
-}
 assertEquals
 (
 listOf
@@ -886,6 +876,8 @@ structural
 equality
 (
 )
+=
+runTest
 {
 val
 intFlow
@@ -959,8 +951,6 @@ IntState
 val
 identityItems
 =
-runBlocking
-{
 intFlow
 .
 filterChanged
@@ -974,7 +964,6 @@ item
 toList
 (
 )
-}
 assertEquals
 (
 listOf

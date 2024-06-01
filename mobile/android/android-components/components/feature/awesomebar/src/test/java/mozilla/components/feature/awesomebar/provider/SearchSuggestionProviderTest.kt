@@ -93,7 +93,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -521,6 +529,11 @@ cache
 ]
 ]
 "
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 RunWith
 (
 AndroidJUnit4
@@ -546,7 +559,7 @@ suggestion
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -970,7 +983,7 @@ mode
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -1363,7 +1376,7 @@ limit
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -1580,7 +1593,7 @@ limit
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -1814,7 +1827,7 @@ default
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -1981,7 +1994,7 @@ available
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -2171,7 +2184,7 @@ empty
 (
 )
 =
-runBlocking
+runTest
 {
 val
 provider
@@ -2224,7 +2237,7 @@ suggestion
 (
 )
 =
-runBlocking
+runTest
 {
 val
 searchEngine
@@ -2335,7 +2348,7 @@ error
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -2515,7 +2528,7 @@ exception
 (
 )
 {
-runBlocking
+runTest
 {
 val
 searchEngine
@@ -2702,7 +2715,7 @@ suggestions
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -2995,7 +3008,7 @@ description
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -3223,7 +3236,7 @@ mode
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -3426,7 +3439,7 @@ mode
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -3629,7 +3642,7 @@ suggestions
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server
@@ -3898,7 +3911,7 @@ match
 (
 )
 {
-runBlocking
+runTest
 {
 val
 server

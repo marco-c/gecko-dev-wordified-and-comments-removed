@@ -89,7 +89,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -3743,7 +3745,7 @@ request
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -4025,7 +4027,7 @@ request
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager

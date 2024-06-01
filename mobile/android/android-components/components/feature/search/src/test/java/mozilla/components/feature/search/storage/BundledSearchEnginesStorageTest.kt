@@ -83,7 +83,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -196,7 +198,7 @@ assets
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -259,7 +261,7 @@ region
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -342,7 +344,7 @@ override
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -502,7 +504,7 @@ override
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -666,7 +668,7 @@ override
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -842,7 +844,7 @@ searchOrder
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -975,7 +977,7 @@ default
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1145,7 +1147,7 @@ configuration
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage
@@ -1287,7 +1289,7 @@ engine
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage

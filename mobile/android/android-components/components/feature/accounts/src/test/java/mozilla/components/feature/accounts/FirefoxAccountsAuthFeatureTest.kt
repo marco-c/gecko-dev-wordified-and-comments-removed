@@ -101,7 +101,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -664,7 +666,7 @@ authentication
 (
 )
 =
-runBlocking
+runTest
 {
 val
 manager
@@ -752,7 +754,7 @@ authentication
 (
 )
 =
-runBlocking
+runTest
 {
 val
 manager
@@ -848,7 +850,7 @@ errors
 (
 )
 =
-runBlocking
+runTest
 {
 val
 manager
@@ -951,7 +953,7 @@ errors
 (
 )
 =
-runBlocking
+runTest
 {
 val
 manager
@@ -1050,7 +1052,7 @@ interceptor
 (
 )
 =
-runBlocking
+runTest
 {
 val
 manager

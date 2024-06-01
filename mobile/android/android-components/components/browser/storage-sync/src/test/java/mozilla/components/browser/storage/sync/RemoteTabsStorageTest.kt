@@ -89,7 +89,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -350,7 +352,7 @@ format
 (
 )
 =
-runBlocking
+runTest
 {
 remoteTabs
 .
@@ -653,7 +655,7 @@ format
 (
 )
 =
-runBlocking
+runTest
 {
 when
 (
@@ -976,7 +978,7 @@ reporter
 (
 )
 =
-runBlocking
+runTest
 {
 val
 throwable

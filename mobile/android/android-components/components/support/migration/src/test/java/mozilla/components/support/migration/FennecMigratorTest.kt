@@ -93,7 +93,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -609,7 +611,7 @@ migration
 (
 )
 =
-runBlocking
+runTest
 {
 val
 migrator
@@ -1036,7 +1038,7 @@ detected
 (
 )
 =
-runBlocking
+runTest
 {
 val
 historyStore
@@ -1231,7 +1233,7 @@ basics
 (
 )
 =
-runBlocking
+runTest
 {
 val
 historyStore
@@ -1886,7 +1888,7 @@ migration
 (
 )
 =
-runBlocking
+runTest
 {
 val
 historyStore
@@ -2339,7 +2341,7 @@ case
 (
 )
 =
-runBlocking
+runTest
 {
 val
 historyStorage
@@ -2509,7 +2511,7 @@ case
 (
 )
 =
-runBlocking
+runTest
 {
 val
 historyStorage
@@ -2725,7 +2727,7 @@ case
 (
 )
 =
-runBlocking
+runTest
 {
 val
 bookmarkStorage
@@ -3031,7 +3033,7 @@ case
 (
 )
 =
-runBlocking
+runTest
 {
 val
 bookmarkStorage
@@ -3288,7 +3290,7 @@ case
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -3417,7 +3419,7 @@ state
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -3570,7 +3572,7 @@ version
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -3727,7 +3729,7 @@ version
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -3879,7 +3881,7 @@ account
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -4066,7 +4068,7 @@ account
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -4277,7 +4279,7 @@ succeeded
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -4605,7 +4607,7 @@ retry
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -4932,7 +4934,7 @@ failed
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -5287,7 +5289,7 @@ password
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -5659,7 +5661,7 @@ password
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -5890,7 +5892,7 @@ key4db
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -6104,7 +6106,7 @@ key4db
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -6318,7 +6320,7 @@ profile
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -6518,7 +6520,7 @@ version
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -6722,7 +6724,7 @@ version
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -6903,7 +6905,7 @@ prefs
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -7032,7 +7034,7 @@ value
 (
 )
 =
-runBlocking
+runTest
 {
 val
 fennecAppPrefs
@@ -7239,7 +7241,7 @@ installed
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addonUpdater
@@ -7435,7 +7437,7 @@ migration
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addon1
@@ -7704,7 +7706,7 @@ addons
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addonUpdater
@@ -7959,7 +7961,7 @@ addons
 (
 )
 =
-runBlocking
+runTest
 {
 val
 addon1
@@ -8376,7 +8378,7 @@ prefs_js
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -8516,7 +8518,7 @@ removed
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -8661,7 +8663,7 @@ migrated
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -8809,7 +8811,7 @@ migrate
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter

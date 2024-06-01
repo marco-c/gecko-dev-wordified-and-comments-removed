@@ -97,7 +97,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -510,7 +510,7 @@ icon
 (
 )
 =
-runBlockingTest
+runTest
 {
 var
 calledWith

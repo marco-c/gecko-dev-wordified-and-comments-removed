@@ -97,14 +97,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-runBlockingTest
-import
 mozilla
 .
 components
@@ -349,6 +341,18 @@ support
 .
 test
 .
+rule
+.
+runTestOnMain
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 whenever
 import
 org
@@ -464,7 +468,7 @@ queued
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -705,7 +709,7 @@ downloads
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -820,7 +824,7 @@ downloadStorage
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -978,7 +982,7 @@ ignored
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -1098,7 +1102,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -1228,7 +1232,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -1353,7 +1357,7 @@ needed
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -1635,7 +1639,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -1785,7 +1789,7 @@ restored
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -1941,7 +1945,7 @@ FAILED
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -2116,7 +2120,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -2248,7 +2252,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -2450,7 +2454,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -2651,7 +2655,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -2841,7 +2845,7 @@ called
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -3029,7 +3033,7 @@ created
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -3153,7 +3157,7 @@ download
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -3301,7 +3305,7 @@ downloads
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 applicationContext
@@ -3500,7 +3504,7 @@ canceled
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 response

@@ -117,7 +117,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -544,7 +544,7 @@ SitePermission
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -578,7 +578,7 @@ SitePermission
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -643,7 +643,7 @@ origin
 (
 )
 =
-runBlockingTest
+runTest
 {
 storage
 .
@@ -680,7 +680,7 @@ permission
 (
 )
 =
-runBlockingTest
+runTest
 {
 doReturn
 (
@@ -785,7 +785,7 @@ SitePermissions
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 sitePermissions
@@ -848,7 +848,7 @@ SitePermissions
 (
 )
 =
-runBlockingTest
+runTest
 {
 storage
 .
@@ -899,7 +899,7 @@ paged
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 mockDataSource

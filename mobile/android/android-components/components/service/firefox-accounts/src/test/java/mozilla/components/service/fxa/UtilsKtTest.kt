@@ -69,7 +69,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -238,6 +246,11 @@ mockito
 Mockito
 .
 verifyNoInteractions
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 class
 UtilsKtTest
 {
@@ -253,7 +266,7 @@ back
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (
@@ -328,7 +341,7 @@ panics
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -550,7 +563,7 @@ exceptions
 (
 )
 =
-runBlocking
+runTest
 {
 handleFxaExceptions
 (
@@ -605,7 +618,7 @@ exceptions
 (
 )
 =
-runBlocking
+runTest
 {
 handleFxaExceptions
 (
@@ -650,7 +663,7 @@ works
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -796,7 +809,7 @@ exceptions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -859,7 +872,7 @@ exceptions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -908,7 +921,7 @@ works
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -1082,7 +1095,7 @@ exceptions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -1150,7 +1163,7 @@ exceptions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 accountManager
@@ -1203,7 +1216,7 @@ success
 (
 )
 =
-runBlocking
+runTest
 {
 when
 (
@@ -1351,7 +1364,7 @@ failure
 (
 )
 =
-runBlocking
+runTest
 {
 when
 (
@@ -1426,7 +1439,7 @@ success
 (
 )
 =
-runBlocking
+runTest
 {
 val
 eventual
@@ -1566,7 +1579,7 @@ failure
 (
 )
 =
-runBlocking
+runTest
 {
 val
 eventual
@@ -1682,7 +1695,7 @@ success
 (
 )
 =
-runBlocking
+runTest
 {
 when
 (
@@ -1727,7 +1740,7 @@ retrying
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -1800,7 +1813,7 @@ circuit
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -1871,7 +1884,7 @@ success
 (
 )
 =
-runBlocking
+runTest
 {
 val
 eventual
@@ -1936,7 +1949,7 @@ pairing
 (
 )
 =
-runBlocking
+runTest
 {
 val
 account
@@ -2039,7 +2052,7 @@ regular
 (
 )
 =
-runBlocking
+runTest
 {
 val
 account

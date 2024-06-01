@@ -95,6 +95,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 GlobalScope
 import
 kotlinx
@@ -107,7 +113,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -310,6 +318,7 @@ class
 class
 IconMessageHandlerTest
 {
+ExperimentalCoroutinesApi
 OptIn
 (
 DelicateCoroutinesApi
@@ -333,7 +342,7 @@ loaded
 (
 )
 {
-runBlocking
+runTest
 {
 val
 bitmap
