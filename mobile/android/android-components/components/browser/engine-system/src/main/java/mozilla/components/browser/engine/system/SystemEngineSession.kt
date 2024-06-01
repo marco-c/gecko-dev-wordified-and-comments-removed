@@ -115,6 +115,12 @@ webkit
 .
 WebViewDatabase
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 kotlinx
 .
 coroutines
@@ -1459,7 +1465,8 @@ set
 value
 )
 }
-private
+VisibleForTesting
+internal
 fun
 initSettings
 (
