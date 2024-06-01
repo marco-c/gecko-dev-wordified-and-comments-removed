@@ -707,7 +707,7 @@ MotionEvent
 {
 super
 .
-onTouchEventForResult
+onTouchEventForDetailResult
 (
 event
 )
@@ -742,6 +742,11 @@ this
 inputResult
 =
 it
+?
+.
+handledResult
+(
+)
 !
 !
 startNestedScroll
