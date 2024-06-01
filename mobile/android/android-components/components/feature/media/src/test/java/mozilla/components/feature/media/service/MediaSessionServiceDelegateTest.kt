@@ -325,13 +325,6 @@ coroutinesTestRule
 MainCoroutineRule
 (
 )
-private
-val
-dispatcher
-=
-coroutinesTestRule
-.
-testDispatcher
 Test
 fun
 media
@@ -765,11 +758,6 @@ id
 store
 .
 waitUntilIdle
-(
-)
-dispatcher
-.
-advanceUntilIdle
 (
 )
 verify

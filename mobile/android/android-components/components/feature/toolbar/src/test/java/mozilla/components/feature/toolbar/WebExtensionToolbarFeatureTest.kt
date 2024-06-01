@@ -374,7 +374,7 @@ MainCoroutineRule
 )
 private
 val
-testDispatcher
+dispatcher
 =
 coroutinesTestRule
 .
@@ -600,7 +600,9 @@ getWebExtensionToolbarFeature
 toolbar
 store
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -872,7 +874,9 @@ getWebExtensionToolbarFeature
 toolbar
 store
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -2687,7 +2691,9 @@ getWebExtensionToolbarFeature
 toolbar
 store
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (

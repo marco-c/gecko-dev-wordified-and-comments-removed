@@ -232,7 +232,7 @@ MainCoroutineRule
 )
 private
 val
-testDispatcher
+dispatcher
 =
 coroutinesTestRule
 .
@@ -302,7 +302,9 @@ Started
 joinBlocking
 (
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -384,7 +386,9 @@ Started
 joinBlocking
 (
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (

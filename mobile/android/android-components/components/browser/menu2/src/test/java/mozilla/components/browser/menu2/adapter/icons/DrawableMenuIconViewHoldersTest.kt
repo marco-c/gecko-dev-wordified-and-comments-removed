@@ -343,13 +343,6 @@ MainCoroutineRule
 (
 )
 private
-val
-testDispatcher
-=
-coroutinesTestRule
-.
-testDispatcher
-private
 lateinit
 var
 parent
@@ -663,8 +656,6 @@ view
 (
 )
 =
-testDispatcher
-.
 runBlockingTest
 {
 val
@@ -738,8 +729,6 @@ icon
 (
 )
 =
-testDispatcher
-.
 runBlockingTest
 {
 val

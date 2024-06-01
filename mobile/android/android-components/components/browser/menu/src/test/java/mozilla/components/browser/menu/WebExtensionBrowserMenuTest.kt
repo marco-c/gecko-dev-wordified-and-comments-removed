@@ -444,13 +444,6 @@ coroutinesTestRule
 MainCoroutineRule
 (
 )
-private
-val
-testDispatcher
-=
-coroutinesTestRule
-.
-testDispatcher
 Before
 fun
 setup
@@ -603,11 +596,6 @@ WebExtensionBrowserMenu
 (
 adapter
 store
-)
-testDispatcher
-.
-advanceUntilIdle
-(
 )
 val
 anchor
@@ -2475,11 +2463,6 @@ bind
 (
 menu
 view
-)
-testDispatcher
-.
-advanceUntilIdle
-(
 )
 CollectionProcessor
 .

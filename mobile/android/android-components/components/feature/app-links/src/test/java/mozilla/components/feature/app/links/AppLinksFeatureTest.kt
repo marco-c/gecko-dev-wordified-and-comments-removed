@@ -404,13 +404,6 @@ MainCoroutineRule
 (
 )
 private
-val
-testDispatcher
-=
-coroutinesTestRule
-.
-testDispatcher
-private
 lateinit
 var
 store
@@ -851,11 +844,6 @@ content
 .
 appIntent
 )
-testDispatcher
-.
-advanceUntilIdle
-(
-)
 verify
 (
 feature
@@ -989,11 +977,6 @@ appIntent
 )
 .
 joinBlocking
-(
-)
-testDispatcher
-.
-advanceUntilIdle
 (
 )
 verify

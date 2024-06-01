@@ -149,12 +149,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 isActive
 import
 kotlinx
@@ -366,7 +360,6 @@ class
 class
 ViewTest
 {
-ExperimentalCoroutinesApi
 get
 :
 Rule

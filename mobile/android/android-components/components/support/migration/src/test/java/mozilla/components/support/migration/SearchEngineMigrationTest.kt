@@ -105,7 +105,7 @@ coroutines
 .
 test
 .
-TestCoroutineDispatcher
+UnconfinedTestDispatcher
 import
 mozilla
 .
@@ -1011,7 +1011,7 @@ BrowserStore
 val
 dispatcher
 =
-TestCoroutineDispatcher
+UnconfinedTestDispatcher
 (
 )
 Locale
@@ -1102,6 +1102,8 @@ the
 test
 dispatched
 dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (

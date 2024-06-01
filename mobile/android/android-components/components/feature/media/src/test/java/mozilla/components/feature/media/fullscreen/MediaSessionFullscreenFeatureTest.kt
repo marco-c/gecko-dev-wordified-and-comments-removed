@@ -247,13 +247,6 @@ coroutinesTestRule
 MainCoroutineRule
 (
 )
-private
-val
-dispatcher
-=
-coroutinesTestRule
-.
-testDispatcher
 Test
 fun
 screen
@@ -389,11 +382,6 @@ height
 store
 .
 waitUntilIdle
-(
-)
-dispatcher
-.
-advanceUntilIdle
 (
 )
 verify

@@ -81,14 +81,6 @@ flow
 .
 Flow
 import
-kotlinx
-.
-coroutines
-.
-flow
-.
-collect
-import
 mozilla
 .
 components

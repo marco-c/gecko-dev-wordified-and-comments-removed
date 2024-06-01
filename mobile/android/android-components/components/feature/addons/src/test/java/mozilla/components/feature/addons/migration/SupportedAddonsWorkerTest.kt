@@ -117,12 +117,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 runBlocking
 import
 mozilla
@@ -394,12 +388,6 @@ java
 io
 .
 IOException
-import
-java
-.
-lang
-.
-Exception
 RunWith
 (
 AndroidJUnit4
@@ -410,7 +398,6 @@ class
 class
 SupportedAddonsWorkerTest
 {
-ExperimentalCoroutinesApi
 get
 :
 Rule

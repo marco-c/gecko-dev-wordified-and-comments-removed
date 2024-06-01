@@ -467,6 +467,8 @@ joinBlocking
 )
 testDispatcher
 .
+scheduler
+.
 advanceUntilIdle
 (
 )
@@ -696,6 +698,8 @@ joinBlocking
 (
 )
 testDispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -1074,6 +1078,8 @@ onViewDetachedFromWindow
 parent
 )
 testDispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (

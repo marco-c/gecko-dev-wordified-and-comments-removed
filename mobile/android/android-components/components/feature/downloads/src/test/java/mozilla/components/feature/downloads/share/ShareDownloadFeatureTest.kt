@@ -109,7 +109,7 @@ coroutines
 .
 test
 .
-TestCoroutineScope
+TestScope
 import
 mozilla
 .
@@ -548,7 +548,7 @@ MainCoroutineRule
 )
 private
 val
-testDispatcher
+dispatcher
 =
 coroutinesTestRule
 .
@@ -826,7 +826,9 @@ action
 joinBlocking
 (
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -1061,8 +1063,9 @@ shareFeature
 .
 scope
 =
-TestCoroutineScope
+TestScope
 (
+coroutineContext
 )
 shareFeature
 .
@@ -1198,7 +1201,7 @@ shareFeature
 .
 scope
 =
-TestCoroutineScope
+TestScope
 (
 )
 shareFeature
@@ -1323,7 +1326,7 @@ shareFeature
 .
 scope
 =
-TestCoroutineScope
+TestScope
 (
 )
 shareFeature

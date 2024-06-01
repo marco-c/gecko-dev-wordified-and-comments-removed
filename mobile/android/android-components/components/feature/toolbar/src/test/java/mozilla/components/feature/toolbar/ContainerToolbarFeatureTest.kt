@@ -279,13 +279,6 @@ coroutinesTestRule
 MainCoroutineRule
 (
 )
-private
-val
-testDispatcher
-=
-coroutinesTestRule
-.
-testDispatcher
 Test
 fun
 render
@@ -549,7 +542,11 @@ tab2
 joinBlocking
 (
 )
+coroutinesTestRule
+.
 testDispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (

@@ -179,12 +179,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 runBlocking
 import
 mozilla
@@ -414,7 +408,6 @@ class
 class
 DefaultAddonUpdaterTest
 {
-ExperimentalCoroutinesApi
 get
 :
 Rule

@@ -332,7 +332,7 @@ MainCoroutineRule
 )
 private
 val
-testDispatcher
+dispatcher
 =
 coroutinesTestRule
 .
@@ -628,7 +628,9 @@ mock
 )
 view
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -861,7 +863,9 @@ mock
 )
 view
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -1169,7 +1173,9 @@ mock
 )
 view
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -1390,7 +1396,9 @@ mock
 )
 view
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -1630,7 +1638,9 @@ bind
 menu
 view
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
@@ -1870,7 +1880,9 @@ bind
 menu
 view
 )
-testDispatcher
+dispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (

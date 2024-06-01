@@ -103,7 +103,7 @@ coroutines
 .
 test
 .
-TestCoroutineDispatcher
+UnconfinedTestDispatcher
 import
 mozilla
 .
@@ -230,7 +230,7 @@ private
 val
 testDispatcher
 =
-TestCoroutineDispatcher
+UnconfinedTestDispatcher
 (
 )
 Before
