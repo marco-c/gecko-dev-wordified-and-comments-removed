@@ -372,7 +372,6 @@ tree
                 
 "
 {
-version
 }
 from
 buildconfig
