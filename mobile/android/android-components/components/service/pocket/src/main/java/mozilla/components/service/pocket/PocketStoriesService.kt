@@ -269,9 +269,6 @@ initialize
 (
 pocketStoriesConfig
 .
-pocketApiKey
-pocketStoriesConfig
-.
 client
 )
 scheduler

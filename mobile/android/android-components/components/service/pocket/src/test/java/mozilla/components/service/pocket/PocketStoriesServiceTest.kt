@@ -191,8 +191,6 @@ PocketStoriesService
 testContext
 PocketStoriesConfig
 (
-"
-"
 mock
 (
 )

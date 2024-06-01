@@ -237,9 +237,9 @@ KVisibility
 {
 assertEquals
 (
+visibility
 assertedClass
 .
-visibility
 visibility
 )
 }
@@ -447,8 +447,6 @@ Client
 makeRequest
 :
 (
-Int
-String
 )
 -
 >
@@ -545,8 +543,6 @@ assertEquals
 expectedBody
 makeRequest
 (
-TEST_STORIES_COUNT
-TEST_STORIES_LOCALE
 )
 )
 }

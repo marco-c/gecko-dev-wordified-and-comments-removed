@@ -210,6 +210,7 @@ thenReturn
 body
 )
 }
+private
 fun
 getMockResponse
 (
