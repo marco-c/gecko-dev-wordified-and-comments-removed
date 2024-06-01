@@ -836,6 +836,9 @@ anyString
 any
 (
 )
+any
+(
+)
 )
 suggestion
 .
@@ -865,6 +868,9 @@ eq
 firefox
 focus
 "
+)
+any
+(
 )
 any
 (
@@ -1216,6 +1222,9 @@ anyString
 any
 (
 )
+any
+(
+)
 )
 suggestions
 [
@@ -1242,6 +1251,9 @@ eq
 firefox
 focus
 "
+)
+any
+(
 )
 any
 (
