@@ -1783,7 +1783,7 @@ index
 md
 )
 |
-class
+object
 MediaStateMachine
 :
 [

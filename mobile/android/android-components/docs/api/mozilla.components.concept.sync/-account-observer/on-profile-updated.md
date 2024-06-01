@@ -58,7 +58,7 @@ md
 )
 #
 onProfileUpdated
-abstract
+open
 fun
 onProfileUpdated
 (
@@ -159,7 +159,7 @@ OAuthAccount
 .
 kt
 #
-L71
+L72
 )
 Account
 '

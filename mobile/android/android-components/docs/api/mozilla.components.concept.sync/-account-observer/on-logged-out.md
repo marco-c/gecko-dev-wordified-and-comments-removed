@@ -58,7 +58,7 @@ md
 )
 #
 onLoggedOut
-abstract
+open
 fun
 onLoggedOut
 (
