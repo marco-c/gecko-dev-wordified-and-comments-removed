@@ -134,7 +134,7 @@ WEBCOMPAT_EXTENSION_ID
 webcompat
 mozilla
 .
-com
+org
 "
 internal
 const
