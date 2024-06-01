@@ -1578,8 +1578,8 @@ com
 v1
 /
 assetlinks
-%
-3Acheck
+:
+check
 ?
 "
 +
@@ -1724,8 +1724,8 @@ com
 v1
 /
 assetlinks
-%
-3Acheck
+:
+check
 ?
 "
 +
@@ -1846,8 +1846,8 @@ com
 v1
 /
 statements
-%
-3Alist
+:
+list
 ?
 "
 +

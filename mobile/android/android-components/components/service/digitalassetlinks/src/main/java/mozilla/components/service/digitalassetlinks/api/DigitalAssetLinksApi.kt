@@ -424,7 +424,7 @@ buildUpon
 (
 )
 .
-path
+encodedPath
 (
 path
 )
