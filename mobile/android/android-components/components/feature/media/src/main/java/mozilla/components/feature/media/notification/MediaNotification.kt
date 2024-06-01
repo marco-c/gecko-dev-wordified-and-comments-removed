@@ -688,7 +688,9 @@ mediaTab
 id
 )
 }
-0
+PendingIntent
+.
+FLAG_UPDATE_CURRENT
 )
 )
 MediaState
@@ -800,7 +802,9 @@ mediaTab
 id
 )
 }
-0
+PendingIntent
+.
+FLAG_UPDATE_CURRENT
 )
 )
 /
