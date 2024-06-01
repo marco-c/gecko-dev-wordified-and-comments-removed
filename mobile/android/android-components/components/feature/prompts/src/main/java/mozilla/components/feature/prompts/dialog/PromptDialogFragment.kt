@@ -74,6 +74,16 @@ fragment
 app
 .
 DialogFragment
+import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
+LoginValidationDelegate
 internal
 const
 val
@@ -208,6 +218,10 @@ internal
 interface
 Prompter
 {
+val
+loginValidationDelegate
+:
+LoginValidationDelegate
 /
 *
 *
