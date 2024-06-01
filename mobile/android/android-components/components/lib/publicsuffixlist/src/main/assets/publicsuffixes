@@ -1522,6 +1522,9 @@ banzaicloud
 io
 app
 .
+br
+app
+.
 gp
 app
 .
@@ -2615,6 +2618,9 @@ pl
 bialystok
 .
 pl
+bib
+.
+br
 bibai
 .
 hokkaido
@@ -5410,6 +5416,9 @@ museum
 coupon
 coupons
 courses
+coz
+.
+br
 cpa
 cpa
 .
@@ -5832,6 +5841,9 @@ bo
 depot
 .
 museum
+des
+.
+br
 desa
 .
 id
@@ -5843,6 +5855,9 @@ aero
 design
 .
 museum
+det
+.
+br
 detroit
 .
 museum
@@ -5852,6 +5867,9 @@ dev
 myqnapcloud
 .
 com
+dev
+.
+br
 dev
 .
 static
@@ -6961,6 +6979,9 @@ enebakk
 .
 no
 energy
+enf
+.
+br
 eng
 .
 br
@@ -8664,6 +8685,9 @@ genting
 gentlentapis
 .
 com
+geo
+.
+br
 geology
 .
 museum
@@ -15538,6 +15562,9 @@ lodingen
 .
 no
 loft
+log
+.
+br
 loginline
 .
 app
@@ -22313,6 +22340,9 @@ rent
 rentals
 rep
 .
+br
+rep
+.
 kp
 repair
 repbody
@@ -24060,6 +24090,9 @@ securitytactics
 .
 com
 seek
+seg
+.
+br
 seidat
 .
 net
@@ -25709,7 +25742,6 @@ museum
 sykkylven
 .
 no
-symantec
 syncloud
 .
 it
@@ -26323,6 +26355,9 @@ yoga
 .
 com
 team
+tec
+.
+br
 tec
 .
 mi
