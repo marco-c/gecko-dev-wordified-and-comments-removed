@@ -544,7 +544,7 @@ iconSize
 ;
 radioButton
 .
-setCompoundDrawablesWithIntrinsicBounds
+setCompoundDrawables
 (
 engineIcon
 null
