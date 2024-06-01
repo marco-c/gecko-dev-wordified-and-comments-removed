@@ -2083,6 +2083,16 @@ isStartedFromExternalApp
 )
 )
 {
+BrowsingSession
+.
+getInstance
+(
+)
+.
+stop
+(
+)
+;
 getActivity
 (
 )
