@@ -58,7 +58,6 @@ name
 mozac_browser_menu_button
 "
 >
-Valmynd
 <
 /
 string
@@ -97,7 +96,6 @@ name
 mozac_browser_menu_highlighted
 "
 >
-Undirstrika
 <
 /
 string
@@ -124,9 +122,6 @@ name
 mozac_browser_menu_addons
 "
 >
-Vi
-b
-tur
 <
 /
 string
@@ -159,10 +154,6 @@ name
 mozac_browser_menu_addons_manager
 "
 >
-Vi
-b
-tastj
-ri
 <
 /
 string
