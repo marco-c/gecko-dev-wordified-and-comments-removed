@@ -2413,7 +2413,7 @@ SQL_CIPHER_MIGRATION
 1
 )
 .
-commit
+apply
 (
 )
 }
