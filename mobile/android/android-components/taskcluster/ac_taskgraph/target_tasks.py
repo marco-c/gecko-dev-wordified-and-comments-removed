@@ -1,10 +1,4 @@
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 target_tasks
@@ -66,7 +60,7 @@ full_task_graph
 .
 tasks
 .
-iteritems
+items
 (
 )
 if
@@ -163,7 +157,7 @@ full_task_graph
 .
 tasks
 .
-iteritems
+items
 (
 )
 if

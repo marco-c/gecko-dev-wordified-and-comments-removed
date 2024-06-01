@@ -71,7 +71,7 @@ combinations
 in
 groups
 .
-itervalues
+values
 (
 )
 :
@@ -280,7 +280,7 @@ tasks
 in
 groups
 .
-iteritems
+items
 (
 )
 :

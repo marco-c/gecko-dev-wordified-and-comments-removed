@@ -70,7 +70,7 @@ base_rev
 :
 Any
 (
-basestring
+str
 None
 )
     
@@ -83,7 +83,7 @@ next_version
 :
 Any
 (
-basestring
+str
 None
 )
     
@@ -94,7 +94,7 @@ version
 "
 )
 :
-basestring
+str
 }
 )
 def

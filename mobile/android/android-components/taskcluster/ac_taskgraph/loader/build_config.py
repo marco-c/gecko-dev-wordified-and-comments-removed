@@ -361,6 +361,9 @@ subprocess
 check_output
 (
 cmd
+universal_newlines
+=
+True
 )
 .
 splitlines

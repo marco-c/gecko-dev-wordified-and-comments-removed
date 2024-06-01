@@ -2415,7 +2415,7 @@ then
 PIP_IGNORE_INSTALLED
 =
 0
-pip
+pip3
 install
 -
 -
@@ -2433,7 +2433,7 @@ taskgraph
 PIP_IGNORE_INSTALLED
 =
 0
-pip
+pip3
 install
 -
 -
@@ -2496,7 +2496,7 @@ else
 PIP_IGNORE_INSTALLED
 =
 0
-pip
+pip3
 install
 -
 -
@@ -2514,7 +2514,7 @@ taskgraph
 PIP_IGNORE_INSTALLED
 =
 0
-pip
+pip3
 install
 -
 -

@@ -44,6 +44,8 @@ tasks
         
 all_dependent_tasks
 =
+list
+(
 task
 .
 pop
@@ -57,6 +59,7 @@ tasks
 .
 values
 (
+)
 )
         
 task

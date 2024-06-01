@@ -194,15 +194,6 @@ params
 head_tag
 "
 ]
-.
-decode
-(
-"
-utf
--
-8
-"
-)
             
 "
 git
@@ -218,15 +209,6 @@ params
 head_rev
 "
 ]
-.
-decode
-(
-"
-utf
--
-8
-"
-)
             
 "
 release

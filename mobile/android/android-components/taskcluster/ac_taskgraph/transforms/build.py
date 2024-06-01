@@ -1090,7 +1090,7 @@ artifact_file_name
 in
 artifact_file_names_per_extension
 .
-iteritems
+items
 (
 )
 :

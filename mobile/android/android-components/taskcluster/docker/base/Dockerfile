@@ -949,6 +949,10 @@ pip
 \
 python3
 \
+python3
+-
+pip
+\
 locales
 \
 unzip
@@ -962,14 +966,14 @@ apt
 get
 clean
 RUN
-pip
+pip3
 install
 -
 -
 upgrade
 pip
 RUN
-pip
+pip3
 install
 taskcluster
 RUN
