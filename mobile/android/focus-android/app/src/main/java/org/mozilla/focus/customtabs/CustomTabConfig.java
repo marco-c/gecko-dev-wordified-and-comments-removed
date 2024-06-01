@@ -5,7 +5,7 @@ mozilla
 .
 focus
 .
-web
+customtabs
 ;
 import
 android
@@ -389,6 +389,7 @@ unsupportedFeatureList
 unsupportedFeatureList
 ;
 }
+public
 static
 boolean
 isCustomTabIntent
@@ -737,6 +738,7 @@ pendingIntent
 )
 ;
 }
+public
 static
 CustomTabConfig
 parseCustomTabIntent

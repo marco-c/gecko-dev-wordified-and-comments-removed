@@ -79,6 +79,17 @@ focus
 .
 activity
 .
+LifecycleAppCompatActivity
+;
+import
+org
+.
+mozilla
+.
+focus
+.
+activity
+.
 SettingsActivity
 ;
 import
@@ -93,7 +104,7 @@ abstract
 class
 LocaleAwareAppCompatActivity
 extends
-AppCompatActivity
+LifecycleAppCompatActivity
 {
 private
 volatile

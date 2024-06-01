@@ -5,7 +5,7 @@ mozilla
 .
 focus
 .
-web
+customtabs
 ;
 import
 android
@@ -112,6 +112,17 @@ mozilla
 focus
 .
 R
+;
+import
+org
+.
+mozilla
+.
+focus
+.
+customtabs
+.
+CustomTabConfig
 ;
 import
 org
