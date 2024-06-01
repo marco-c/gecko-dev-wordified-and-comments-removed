@@ -763,8 +763,7 @@ copy
 (
 guid
 =
-"
-"
+null
 )
 )
 }
@@ -783,10 +782,7 @@ login
 record
 should
 be
-[
-UPDATE
-]
-d
+UPDATED
 or
 a
 new
@@ -801,7 +797,7 @@ on
 the
 saved
 [
-ServerPassword
+Login
 ]
 and
 new
@@ -1175,8 +1171,16 @@ generate
 a
 new
 GUID
+if
+guid
+is
+missing
+.
 id
 =
+guid
+?
+:
 "
 "
 username
