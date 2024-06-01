@@ -979,10 +979,8 @@ lifecycle
 observer
 .
 val
-lifecycleRegistry
+lifecycleOwner
 =
-LifecycleRegistry
-(
 mock
 (
 LifecycleOwner
@@ -992,6 +990,12 @@ class
 .
 java
 )
+val
+lifecycleRegistry
+=
+LifecycleRegistry
+(
+lifecycleOwner
 )
 val
 gleanLifecycleObserver
