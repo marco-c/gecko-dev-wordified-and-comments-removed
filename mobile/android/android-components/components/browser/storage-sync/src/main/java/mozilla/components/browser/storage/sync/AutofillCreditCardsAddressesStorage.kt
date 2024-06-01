@@ -153,8 +153,6 @@ io
 .
 Closeable
 import
-org
-.
 mozilla
 .
 appservices

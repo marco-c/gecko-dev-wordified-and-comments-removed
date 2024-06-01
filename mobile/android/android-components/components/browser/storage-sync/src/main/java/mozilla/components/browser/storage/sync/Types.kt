@@ -198,8 +198,6 @@ storage
 .
 VisitType
 import
-org
-.
 mozilla
 .
 appservices
@@ -208,8 +206,6 @@ autofill
 .
 UpdatableAddressFields
 import
-org
-.
 mozilla
 .
 appservices
@@ -1113,8 +1109,6 @@ comrade
 /
 internal
 fun
-org
-.
 mozilla
 .
 appservices
@@ -1242,8 +1236,6 @@ comrade
 /
 internal
 fun
-org
-.
 mozilla
 .
 appservices
