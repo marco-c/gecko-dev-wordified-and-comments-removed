@@ -959,7 +959,7 @@ nestedWebView
 .
 inputResultDetail
 .
-isTouchUnhandled
+isTouchHandlingUnknown
 (
 )
 )
@@ -1032,7 +1032,7 @@ nestedWebView
 .
 inputResultDetail
 .
-isTouchUnhandled
+isTouchHandlingUnknown
 (
 )
 )

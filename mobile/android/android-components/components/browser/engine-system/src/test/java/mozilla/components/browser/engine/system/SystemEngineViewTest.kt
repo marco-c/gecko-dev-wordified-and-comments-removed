@@ -10059,7 +10059,7 @@ assertTrue
 (
 result
 .
-isTouchUnhandled
+isTouchHandlingUnknown
 (
 )
 )
