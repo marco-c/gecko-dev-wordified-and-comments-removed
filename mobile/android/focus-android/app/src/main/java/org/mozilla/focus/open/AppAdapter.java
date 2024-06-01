@@ -112,6 +112,7 @@ Adapter
 AppViewHolder
 >
 {
+static
 class
 App
 {
