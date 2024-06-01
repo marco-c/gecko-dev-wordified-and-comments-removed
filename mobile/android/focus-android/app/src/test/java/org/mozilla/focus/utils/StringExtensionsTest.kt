@@ -674,7 +674,7 @@ issues
 "
 )
 }
-internal
+private
 fun
 assertEqualsBeautified
 (
