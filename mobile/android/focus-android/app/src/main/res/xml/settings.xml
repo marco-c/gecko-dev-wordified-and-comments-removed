@@ -577,7 +577,7 @@ title
 "
 string
 /
-preference_mozilla_telemetry
+preference_mozilla_telemetry2
 "
 android
 :
@@ -593,7 +593,7 @@ summary
 "
 string
 /
-preference_mozilla_telemetry_summary
+preference_mozilla_telemetry_summary2
 "
 /
 >
