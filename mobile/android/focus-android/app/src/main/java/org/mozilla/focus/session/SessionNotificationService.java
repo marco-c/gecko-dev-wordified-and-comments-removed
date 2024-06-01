@@ -499,7 +499,7 @@ R
 .
 color
 .
-colorFloatingActionButtonTint
+colorErase
 )
 )
 .

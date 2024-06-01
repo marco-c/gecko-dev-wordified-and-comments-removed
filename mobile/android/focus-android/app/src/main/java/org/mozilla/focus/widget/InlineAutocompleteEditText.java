@@ -770,7 +770,7 @@ R
 .
 color
 .
-colorAutocompleteHighlight
+colorAccent
 )
 )
 }
