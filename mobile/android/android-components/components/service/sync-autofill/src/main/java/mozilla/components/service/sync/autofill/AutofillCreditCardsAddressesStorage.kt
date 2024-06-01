@@ -61,11 +61,11 @@ mozilla
 .
 components
 .
-browser
-.
-storage
+service
 .
 sync
+.
+autofill
 import
 android
 .

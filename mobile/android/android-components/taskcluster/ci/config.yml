@@ -769,6 +769,17 @@ service
 -
 sync
 -
+autofill
+:
+service
+-
+sync
+-
+autofill
+service
+-
+sync
+-
 logins
 :
 service
