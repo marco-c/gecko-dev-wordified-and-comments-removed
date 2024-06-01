@@ -863,6 +863,9 @@ accountManager
 signInWithShareableAccountAsync
 (
 shareableAccount
+reuseAccount
+=
+true
 )
 .
 await

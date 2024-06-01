@@ -316,6 +316,10 @@ val
 account
 :
 ShareableAccount
+val
+reuseAccount
+:
+Boolean
 )
 :
 Event
@@ -338,8 +342,15 @@ javaClass
 simpleName
 }
 }
-object
+data
+class
 SignedInShareableAccount
+(
+val
+reuseAccount
+:
+Boolean
+)
 :
 Event
 (
