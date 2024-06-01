@@ -76,6 +76,10 @@ android
 os
 .
 Build
+.
+VERSION_CODES
+.
+M
 import
 android
 .
@@ -156,6 +160,10 @@ val
 ENCRYPTED_VERSION
 =
 0x02
+TargetApi
+(
+M
+)
 internal
 const
 val
@@ -164,6 +172,10 @@ CIPHER_ALG
 KeyProperties
 .
 KEY_ALGORITHM_AES
+TargetApi
+(
+M
+)
 internal
 const
 val
@@ -172,6 +184,10 @@ CIPHER_MOD
 KeyProperties
 .
 BLOCK_MODE_GCM
+TargetApi
+(
+M
+)
 internal
 const
 val
@@ -235,10 +251,6 @@ instrumenting
 /
 TargetApi
 (
-Build
-.
-VERSION_CODES
-.
 M
 )
 open
@@ -879,10 +891,6 @@ storage
 /
 TargetApi
 (
-Build
-.
-VERSION_CODES
-.
 M
 )
 open

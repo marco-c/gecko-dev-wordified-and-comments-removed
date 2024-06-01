@@ -149,16 +149,6 @@ SyncStatus
 import
 mozilla
 .
-components
-.
-concept
-.
-sync
-.
-SyncableStore
-import
-mozilla
-.
 appservices
 .
 sync15

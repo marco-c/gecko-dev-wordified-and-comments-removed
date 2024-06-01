@@ -145,6 +145,16 @@ Dependencies
 .
 kotlin_stdlib
 testImplementation
+project
+(
+'
+:
+support
+-
+test
+'
+)
+testImplementation
 Dependencies
 .
 androidx_test_junit
