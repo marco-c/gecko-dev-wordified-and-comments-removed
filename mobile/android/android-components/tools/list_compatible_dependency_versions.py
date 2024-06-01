@@ -1210,21 +1210,13 @@ pom
 debug_pom_url
 )
 def
-ac_checkout_to_gv_versions
+ac_checkout_to_gv_version
 (
 ac_root
 )
 :
     
-release_version
-=
-None
-    
-beta_version
-=
-None
-    
-nightly_version
+version
 =
 None
     
@@ -1271,58 +1263,14 @@ startswith
 '
 const
 val
-nightly_version
+version
 =
 "
 '
 )
 :
                 
-nightly_version
-=
-extract_str_inside_quotes
-(
-line
-)
-            
-elif
-stripped
-.
-startswith
-(
-'
-const
-val
-beta_version
-=
-"
-'
-)
-:
-                
-beta_version
-=
-extract_str_inside_quotes
-(
-line
-)
-            
-elif
-stripped
-.
-startswith
-(
-'
-const
-val
-release_version
-=
-"
-'
-)
-:
-                
-release_version
+version
 =
 extract_str_inside_quotes
 (
@@ -1331,13 +1279,7 @@ line
         
 if
 not
-nightly_version
-or
-not
-beta_version
-or
-not
-release_version
+version
 :
             
 raise
@@ -1381,9 +1323,7 @@ gv_version_path
 )
     
 return
-release_version
-beta_version
-nightly_version
+version
 def
 ac_checkout_to_mc_hash
 (
@@ -1391,32 +1331,28 @@ ac_root
 )
 :
     
-releasev
-betav
-nightlyv
+version
 =
-ac_checkout_to_gv_versions
+ac_checkout_to_gv_version
 (
 ac_root
 )
     
 validate_gv_nightly_version
 (
-nightlyv
+version
 )
     
 mc_hash
 =
 gv_nightly_version_to_mc_hash
 (
-nightlyv
+version
 )
     
 return
 mc_hash
-releasev
-betav
-nightlyv
+version
 def
 main_repo_to_hash
 (

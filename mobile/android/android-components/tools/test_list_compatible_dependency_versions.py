@@ -86,7 +86,7 @@ self
         
 module
 .
-ac_checkout_to_gv_versions
+ac_checkout_to_gv_version
 (
 AC_ROOT
 )
