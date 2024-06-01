@@ -2164,12 +2164,12 @@ UseRequire
 :
 active
 :
-false
+true
 UseRequireNotNull
 :
 active
 :
-false
+true
 UselessCallOnNotNull
 :
 active
