@@ -1739,7 +1739,7 @@ zero
 .
 maker
 .
-sharedPreferencesSeq
+sharedPreferences
 ?
 .
 let

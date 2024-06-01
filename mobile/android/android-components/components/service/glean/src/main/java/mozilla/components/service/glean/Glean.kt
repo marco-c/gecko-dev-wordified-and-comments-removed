@@ -2010,7 +2010,7 @@ clearAllStores
 )
 pingMaker
 .
-resetPingSequenceNumbers
+resetPingMakerStorage
 (
 )
 /
