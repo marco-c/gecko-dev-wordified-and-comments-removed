@@ -148,7 +148,7 @@ a
 previously
 bound
 [
-Session
+SessionState
 ]
 (
 .
@@ -163,10 +163,14 @@ components
 .
 browser
 .
-session
+state
+.
+state
 /
 -
 session
+-
+state
 /
 index
 .
