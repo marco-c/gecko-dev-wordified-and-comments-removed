@@ -116,7 +116,7 @@ focus
 .
 activity
 .
-AboutActivity
+HelpActivity
 ;
 import
 org
@@ -127,7 +127,7 @@ focus
 .
 activity
 .
-HelpActivity
+InfoActivity
 ;
 import
 org
@@ -456,15 +456,13 @@ about
 Intent
 aboutIntent
 =
-new
-Intent
+InfoActivity
+.
+getAboutIntent
 (
 getActivity
 (
 )
-AboutActivity
-.
-class
 )
 ;
 startActivity
