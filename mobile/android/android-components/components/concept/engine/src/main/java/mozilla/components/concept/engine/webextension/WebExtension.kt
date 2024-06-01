@@ -2390,7 +2390,6 @@ val
 openOptionsPageInTab
 :
 Boolean
-?
 /
 *
 *
