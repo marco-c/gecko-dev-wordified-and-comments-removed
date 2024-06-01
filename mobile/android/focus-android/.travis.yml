@@ -63,11 +63,8 @@ script
 .
 /
 gradlew
--
--
-info
 clean
-assembleFocusWebkitDebug
+assemble
 -
 export
 ADJUST_TOKEN_FOCUS
