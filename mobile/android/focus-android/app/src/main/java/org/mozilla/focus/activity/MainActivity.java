@@ -571,6 +571,17 @@ false
 )
 )
 ;
+setIntent
+(
+new
+Intent
+(
+Intent
+.
+ACTION_MAIN
+)
+)
+;
 }
 if
 (
