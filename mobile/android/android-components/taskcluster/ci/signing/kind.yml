@@ -209,13 +209,3 @@ Bs
 kind
 :
 build
-platform
-:
-android
--
-all
-/
-opt
-tier
-:
-2
