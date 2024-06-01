@@ -276,11 +276,9 @@ false
 clientFactory
 :
 SentryClientFactory
+?
 =
-AndroidSentryClientFactory
-(
-context
-)
+null
 )
 A
 [

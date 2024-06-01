@@ -120,7 +120,7 @@ SentryService
 .
 kt
 #
-L32
+L33
 )
 A
 [
@@ -472,11 +472,9 @@ false
 clientFactory
 :
 SentryClientFactory
+?
 =
-AndroidSentryClientFactory
-(
-context
-)
+null
 )
 <
 br
