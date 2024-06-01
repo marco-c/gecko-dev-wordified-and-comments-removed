@@ -125,6 +125,8 @@ release
 {
 minifyEnabled
 true
+shrinkResources
+true
 proguardFiles
 getDefaultProguardFile
 (
@@ -149,6 +151,8 @@ beta
 initWith
 debug
 minifyEnabled
+true
+shrinkResources
 true
 proguardFiles
 getDefaultProguardFile
