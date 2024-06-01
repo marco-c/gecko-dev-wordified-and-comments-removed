@@ -963,6 +963,13 @@ artifact
 -
 template
 "
+"
+jacoco
+-
+coverage
+-
+template
+"
 ]
 :
             
