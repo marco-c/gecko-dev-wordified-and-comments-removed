@@ -603,12 +603,7 @@ accountManager
 .
 withConstellation
 {
-constellation
--
->
 return
-constellation
-.
 state
 (
 )

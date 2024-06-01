@@ -132,8 +132,9 @@ withConstellation
 (
 block
 :
-(
 DeviceConstellation
+.
+(
 )
 -
 >

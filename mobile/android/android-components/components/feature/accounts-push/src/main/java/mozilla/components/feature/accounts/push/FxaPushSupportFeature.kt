@@ -1241,8 +1241,6 @@ accountManager
 .
 withConstellation
 {
-it
-.
 processRawEventAsync
 (
 String
