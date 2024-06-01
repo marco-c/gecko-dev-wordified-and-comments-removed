@@ -258,6 +258,17 @@ Text
 "
 android
 :
+background
+=
+"
+android
+:
+color
+/
+transparent
+"
+android
+:
 layout_width
 =
 "
