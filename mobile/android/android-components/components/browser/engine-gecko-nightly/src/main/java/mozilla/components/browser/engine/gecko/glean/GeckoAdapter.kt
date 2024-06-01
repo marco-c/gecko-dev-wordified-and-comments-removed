@@ -193,10 +193,7 @@ metric
 :
 RuntimeTelemetry
 .
-Metric
-<
-LongArray
->
+Histogram
 )
 {
 /
@@ -204,7 +201,7 @@ LongArray
 Note
 that
 the
-GleanGeckoHistogramMapping
+GleanGeckoMetricsMapping
 is
 automatically
 generated
