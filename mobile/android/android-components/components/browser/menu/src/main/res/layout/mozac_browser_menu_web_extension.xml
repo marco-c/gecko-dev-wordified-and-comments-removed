@@ -141,6 +141,16 @@ dimen
 /
 mozac_browser_menu_item_toolbar_height
 "
+android
+:
+id
+=
+"
++
+id
+/
+container
+"
 style
 =
 "

@@ -231,7 +231,7 @@ toolbar
 *
 *
 param
-browserAction
+action
 Associated
 [
 WebExtensionBrowserAction
@@ -257,7 +257,7 @@ WebExtensionToolbarAction
 (
 internal
 var
-browserAction
+action
 :
 WebExtensionBrowserAction
 internal
@@ -333,7 +333,7 @@ rootView
 .
 isEnabled
 =
-browserAction
+action
 .
 enabled
 ?
@@ -490,7 +490,7 @@ try
 val
 icon
 =
-browserAction
+action
 .
 loadIcon
 ?
@@ -584,7 +584,7 @@ default
 )
 }
 }
-browserAction
+action
 .
 title
 ?
@@ -597,7 +597,7 @@ contentDescription
 =
 it
 }
-browserAction
+action
 .
 badgeText
 ?
@@ -610,7 +610,7 @@ text
 =
 it
 }
-browserAction
+action
 .
 badgeTextColor
 ?
@@ -624,7 +624,7 @@ setTextColor
 it
 )
 }
-browserAction
+action
 .
 badgeBackgroundColor
 ?
