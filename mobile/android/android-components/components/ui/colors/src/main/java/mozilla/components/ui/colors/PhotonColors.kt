@@ -754,7 +754,7 @@ Pink60
 =
 Color
 (
-0xFFE31587
+0xFFE21587
 )
 val
 Pink70
