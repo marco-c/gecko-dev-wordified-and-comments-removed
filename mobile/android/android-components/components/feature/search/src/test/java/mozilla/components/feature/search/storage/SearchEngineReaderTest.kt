@@ -220,7 +220,7 @@ search
 val
 storage
 =
-SearchEngineStorage
+CustomSearchEngineStorage
 (
 testContext
 )

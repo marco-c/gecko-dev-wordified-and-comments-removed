@@ -164,7 +164,7 @@ AndroidJUnit4
 class
 )
 class
-SearchEngineStorageTest
+CustomSearchEngineStorageTest
 {
 Test
 fun
@@ -225,7 +225,7 @@ search
 val
 storage
 =
-SearchEngineStorage
+CustomSearchEngineStorage
 (
 testContext
 coroutineContext
@@ -318,7 +318,7 @@ search
 val
 storage
 =
-SearchEngineStorage
+CustomSearchEngineStorage
 (
 testContext
 coroutineContext
@@ -511,7 +511,7 @@ search
 val
 storage
 =
-SearchEngineStorage
+CustomSearchEngineStorage
 (
 testContext
 coroutineContext
@@ -705,7 +705,7 @@ search
 val
 storage
 =
-SearchEngineStorage
+CustomSearchEngineStorage
 (
 testContext
 coroutineContext
