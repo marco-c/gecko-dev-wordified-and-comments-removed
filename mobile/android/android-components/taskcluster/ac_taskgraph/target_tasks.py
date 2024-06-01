@@ -137,23 +137,9 @@ builds
 "
     
 return
-[
-l
-for
-l
-t
-in
+target_tasks_default
+(
 full_task_graph
-.
-tasks
-.
-iteritems
-(
-)
-if
-filter_for_tasks_for
-(
-t
 parameters
+graph_config
 )
-]
