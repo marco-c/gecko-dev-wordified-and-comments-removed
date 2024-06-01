@@ -181,6 +181,13 @@ lastAccess
 "
 const
 val
+SESSION_CREATED_AT
+=
+"
+createdAt
+"
+const
+val
 SESSION_LAST_MEDIA_URL
 =
 "
