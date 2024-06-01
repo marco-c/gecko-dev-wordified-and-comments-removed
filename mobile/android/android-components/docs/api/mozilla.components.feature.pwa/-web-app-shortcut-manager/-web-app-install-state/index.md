@@ -116,7 +116,7 @@ WebAppShortcutManager
 .
 kt
 #
-L242
+L241
 )
 Possible
 install

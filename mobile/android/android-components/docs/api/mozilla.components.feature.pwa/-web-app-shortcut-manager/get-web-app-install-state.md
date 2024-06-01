@@ -203,7 +203,7 @@ WebAppShortcutManager
 .
 kt
 #
-L206
+L205
 )
 Checks
 if

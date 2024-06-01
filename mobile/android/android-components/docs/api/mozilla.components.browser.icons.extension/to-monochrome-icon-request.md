@@ -30,12 +30,14 @@ md
 )
 /
 [
-toIconRequest
+toMonochromeIconRequest
 ]
 (
 .
 /
 to
+-
+monochrome
 -
 icon
 -
@@ -44,7 +46,7 @@ request
 md
 )
 #
-toIconRequest
+toMonochromeIconRequest
 fun
 [
 WebAppManifest
@@ -75,7 +77,7 @@ index
 md
 )
 .
-toIconRequest
+toMonochromeIconRequest
 (
 )
 :
@@ -155,7 +157,7 @@ WebAppManifest
 .
 kt
 #
-L20
+L32
 )
 Creates
 an
@@ -185,7 +187,8 @@ md
 )
 for
 retrieving
-the
+a
+monochrome
 icon
 specified
 in

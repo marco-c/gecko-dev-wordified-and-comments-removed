@@ -144,5 +144,16 @@ WebAppSiteControlsFeature
 .
 kt
 #
-L66
+L110
 )
+Cancels
+the
+site
+controls
+notification
+and
+unregisters
+the
+broadcast
+receiver
+.
