@@ -137,6 +137,8 @@ annotation
 .
 VisibleForTesting
 .
+Companion
+.
 PRIVATE
 import
 androidx

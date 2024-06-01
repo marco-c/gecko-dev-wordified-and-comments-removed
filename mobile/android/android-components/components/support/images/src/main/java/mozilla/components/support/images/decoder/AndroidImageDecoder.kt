@@ -97,6 +97,8 @@ annotation
 .
 VisibleForTesting
 .
+Companion
+.
 PRIVATE
 import
 mozilla

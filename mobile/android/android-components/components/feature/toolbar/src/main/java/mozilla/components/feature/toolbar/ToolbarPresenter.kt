@@ -77,6 +77,8 @@ annotation
 .
 VisibleForTesting
 .
+Companion
+.
 PRIVATE
 import
 kotlinx

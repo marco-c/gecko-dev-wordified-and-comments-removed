@@ -89,6 +89,8 @@ annotation
 .
 VisibleForTesting
 .
+Companion
+.
 NONE
 import
 kotlinx

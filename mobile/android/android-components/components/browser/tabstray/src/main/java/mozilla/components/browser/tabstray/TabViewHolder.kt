@@ -103,6 +103,8 @@ annotation
 .
 Dimension
 .
+Companion
+.
 DP
 import
 androidx

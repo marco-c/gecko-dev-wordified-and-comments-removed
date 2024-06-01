@@ -79,6 +79,8 @@ annotation
 .
 Dimension
 .
+Companion
+.
 PX
 /
 *
