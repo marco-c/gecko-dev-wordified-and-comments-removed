@@ -859,13 +859,6 @@ true
 )
 observer
 .
-onFullScreenChanged
-(
-session
-true
-)
-observer
-.
 onThumbnailChanged
 (
 session
