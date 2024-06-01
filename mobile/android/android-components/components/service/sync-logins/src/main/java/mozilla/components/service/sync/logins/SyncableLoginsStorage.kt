@@ -2050,6 +2050,7 @@ LoginsStorageException
 class
 )
 override
+suspend
 fun
 findLoginToUpdate
 (
@@ -2060,8 +2061,12 @@ LoginEntry
 :
 Login
 ?
+=
+withContext
+(
+coroutineContext
+)
 {
-return
 conn
 .
 getStorage
