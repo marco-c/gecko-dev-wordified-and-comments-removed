@@ -44,8 +44,6 @@ name
 mozac_feature_pwa_default_shortcut_label
 "
 >
-Spletno
-mesto
 <
 /
 string
@@ -72,8 +70,6 @@ name
 mozac_feature_pwa_site_controls_refresh
 "
 >
-Osve
-i
 <
 /
 string
@@ -102,9 +98,6 @@ name
 mozac_feature_pwa_copy_success
 "
 >
-Spletni
-naslov
-kopiran
 .
 <
 /
