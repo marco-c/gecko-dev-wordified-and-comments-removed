@@ -571,12 +571,13 @@ layout
 .
 toolbar
 .
-setMenuBuilder
-(
+display
+.
+menuBuilder
+=
 components
 .
 menuBuilder
-)
 sessionFeature
 .
 set
