@@ -1132,6 +1132,11 @@ activateStrictSocialTracking
 =
 policy
 .
+strictSocialTrackingProtection
+?
+:
+policy
+.
 trackingCategories
 .
 contains
