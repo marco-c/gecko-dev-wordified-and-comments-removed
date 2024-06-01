@@ -385,8 +385,6 @@ label
 :
 String
 ColorRes
-internal
-val
 iconTintColorResource
 :
 Int

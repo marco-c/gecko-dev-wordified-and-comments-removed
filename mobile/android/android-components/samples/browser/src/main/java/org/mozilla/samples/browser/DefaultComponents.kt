@@ -1722,6 +1722,12 @@ menuItems
 store
 =
 store
+style
+=
+WebExtensionBrowserMenuBuilder
+.
+Style
+(
 webExtIconTintColorResource
 =
 R
@@ -1729,6 +1735,7 @@ R
 color
 .
 photonGrey90
+)
 onAddonsManagerTapped
 =
 {

@@ -417,8 +417,6 @@ startImageResource
 :
 Int
 ColorRes
-private
-val
 iconTintColorResource
 :
 Int
