@@ -441,6 +441,13 @@ it
 enabled
 }
 .
+sortedBy
+{
+it
+.
+name
+}
+.
 forEach
 {
 extension
