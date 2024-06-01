@@ -177,6 +177,8 @@ path
 throws
 IOException
 {
+try
+(
 final
 InputStream
 stream
@@ -187,8 +189,7 @@ open
 (
 path
 )
-;
-try
+)
 {
 return
 load
@@ -217,16 +218,6 @@ reading
 +
 path
 e
-)
-;
-}
-finally
-{
-IOUtils
-.
-safeClose
-(
-stream
 )
 ;
 }

@@ -307,6 +307,8 @@ Resources
 resources
 )
 {
+try
+(
 final
 BufferedReader
 reader
@@ -332,8 +334,7 @@ topdomains
 )
 )
 )
-;
-try
+)
 {
 final
 List
@@ -345,7 +346,6 @@ domains
 new
 ArrayList
 <
-String
 >
 (
 460
@@ -390,16 +390,6 @@ e
 {
 return
 null
-;
-}
-finally
-{
-IOUtils
-.
-safeClose
-(
-reader
-)
 ;
 }
 }
