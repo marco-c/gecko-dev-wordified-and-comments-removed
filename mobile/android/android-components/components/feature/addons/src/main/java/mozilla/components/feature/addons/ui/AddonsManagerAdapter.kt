@@ -1853,7 +1853,7 @@ R
 .
 string
 .
-mozac_feature_addons_unsupported_section
+mozac_feature_addons_unavailable_section
 )
 )
 }
