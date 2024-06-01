@@ -203,6 +203,7 @@ val
 iconView
 :
 ImageView
+?
 =
 itemView
 .
@@ -487,6 +488,7 @@ tab
 thumbnail
 )
 iconView
+?
 .
 setImageBitmap
 (
