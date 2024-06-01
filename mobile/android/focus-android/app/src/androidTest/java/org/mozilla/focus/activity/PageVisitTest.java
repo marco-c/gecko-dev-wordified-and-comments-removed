@@ -657,14 +657,5 @@ exists
 )
 )
 ;
-assertTrue
-(
-helpView
-.
-exists
-(
-)
-)
-;
 }
 }

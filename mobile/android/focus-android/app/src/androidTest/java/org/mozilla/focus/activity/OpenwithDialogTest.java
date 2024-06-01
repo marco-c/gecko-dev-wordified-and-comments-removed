@@ -497,5 +497,11 @@ exists
 )
 )
 ;
+TestHelper
+.
+pressBackKey
+(
+)
+;
 }
 }

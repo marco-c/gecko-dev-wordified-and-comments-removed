@@ -315,7 +315,7 @@ text
 (
 "
 Share
-with
+via
 "
 )
 .
