@@ -71,12 +71,6 @@ db
 import
 androidx
 .
-lifecycle
-.
-LiveData
-import
-androidx
-.
 paging
 .
 DataSource
@@ -110,6 +104,14 @@ androidx
 room
 .
 Transaction
+import
+kotlinx
+.
+coroutines
+.
+flow
+.
+Flow
 /
 *
 *
@@ -163,7 +165,7 @@ getTopSites
 (
 )
 :
-LiveData
+Flow
 <
 List
 <

@@ -71,12 +71,6 @@ db
 import
 androidx
 .
-lifecycle
-.
-LiveData
-import
-androidx
-.
 paging
 .
 DataSource
@@ -116,6 +110,14 @@ androidx
 room
 .
 Update
+import
+kotlinx
+.
+coroutines
+.
+flow
+.
+Flow
 /
 *
 *
@@ -248,7 +250,7 @@ limit
 Int
 )
 :
-LiveData
+Flow
 <
 List
 <
