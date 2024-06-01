@@ -3937,13 +3937,13 @@ provided
 download
 ]
 as
-queued
+added
 .
 *
 /
 data
 class
-QueueDownloadAction
+AddDownloadAction
 (
 val
 download
@@ -3966,7 +3966,6 @@ BrowserState
 to
 remove
 the
-queued
 download
 with
 the
@@ -3979,7 +3978,7 @@ downloadId
 /
 data
 class
-RemoveQueuedDownloadAction
+RemoveDownloadAction
 (
 val
 downloadId
@@ -4002,13 +4001,12 @@ BrowserState
 to
 remove
 all
-queued
 downloads
 .
 *
 /
 object
-RemoveAllQueuedDownloadsAction
+RemoveAllDownloadsAction
 :
 DownloadAction
 (
@@ -4033,7 +4031,7 @@ BrowserState
 /
 data
 class
-UpdateQueuedDownloadAction
+UpdateDownloadAction
 (
 val
 download
