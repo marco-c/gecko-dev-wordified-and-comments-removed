@@ -1482,10 +1482,8 @@ getKey
 (
 )
 )
-)
-{
-if
-(
+&
+&
 category
 .
 getValue
@@ -1511,7 +1509,6 @@ resourceURLString
 return
 true
 ;
-}
 }
 }
 previouslyUnmatched

@@ -1136,10 +1136,8 @@ urlInputFragment
 isVisible
 (
 )
-)
-{
-if
-(
+&
+&
 urlInputFragment
 .
 onBackPressed
@@ -1149,7 +1147,6 @@ onBackPressed
 {
 return
 ;
-}
 }
 final
 BrowserFragment
@@ -1180,10 +1177,8 @@ browserFragment
 isVisible
 (
 )
-)
-{
-if
-(
+&
+&
 browserFragment
 .
 onBackPressed
@@ -1193,7 +1188,6 @@ onBackPressed
 {
 return
 ;
-}
 }
 super
 .
