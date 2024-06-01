@@ -105,7 +105,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -175,7 +175,7 @@ SelectionAwareSessionObserver
 sessionManager
 )
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 /
 *

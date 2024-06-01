@@ -109,7 +109,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -327,7 +327,7 @@ OnNeedToRequestPermissions
 )
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 PermissionsFeature
 {
 private

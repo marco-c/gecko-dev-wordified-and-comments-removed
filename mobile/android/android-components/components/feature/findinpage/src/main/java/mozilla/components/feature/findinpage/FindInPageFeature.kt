@@ -151,7 +151,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -217,7 +217,7 @@ null
 )
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 VisibleForTesting
 internal

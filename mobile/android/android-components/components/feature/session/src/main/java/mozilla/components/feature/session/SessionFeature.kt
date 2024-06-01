@@ -95,7 +95,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -155,7 +155,7 @@ null
 )
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 internal
 val

@@ -139,7 +139,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -152,6 +152,12 @@ base
 feature
 .
 LifecycleAwareFeature
+Suppress
+(
+"
+UndocumentedPublicClass
+"
+)
 class
 FindInPageIntegration
 (
@@ -171,7 +177,7 @@ EngineView
 )
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 private
 val

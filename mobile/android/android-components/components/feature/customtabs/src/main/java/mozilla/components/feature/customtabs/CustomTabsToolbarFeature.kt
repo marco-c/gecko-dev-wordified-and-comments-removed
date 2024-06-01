@@ -239,7 +239,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -326,6 +326,12 @@ CustomTabConfig
 .
 *
 /
+Suppress
+(
+"
+LargeClass
+"
+)
 class
 CustomTabsToolbarFeature
 (
@@ -405,7 +411,7 @@ Unit
 )
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 private
 val

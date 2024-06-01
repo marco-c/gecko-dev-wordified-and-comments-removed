@@ -272,7 +272,7 @@ feature
 val
 feature
 =
-MockFeatureWithBackHandler
+MockFeatureWithUserInteractionHandler
 (
 onBackPressed
 =
@@ -325,7 +325,7 @@ ViewBoundFeatureWrapper
 (
 feature
 =
-MockFeatureWithBackHandler
+MockFeatureWithUserInteractionHandler
 (
 onBackPressed
 =
@@ -1805,7 +1805,7 @@ false
 }
 private
 class
-MockFeatureWithBackHandler
+MockFeatureWithUserInteractionHandler
 (
 private
 val
@@ -1819,7 +1819,7 @@ false
 MockFeature
 (
 )
-BackHandler
+UserInteractionHandler
 {
 var
 onBackPressedInvoked

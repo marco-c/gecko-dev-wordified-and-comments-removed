@@ -163,7 +163,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -348,7 +348,7 @@ if
 (
 it
 is
-BackHandler
+UserInteractionHandler
 &
 &
 it

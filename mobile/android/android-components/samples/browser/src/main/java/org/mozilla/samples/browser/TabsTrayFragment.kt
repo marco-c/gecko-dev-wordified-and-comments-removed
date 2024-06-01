@@ -131,7 +131,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 org
 .
@@ -164,7 +164,7 @@ TabsTrayFragment
 Fragment
 (
 )
-BackHandler
+UserInteractionHandler
 {
 private
 var

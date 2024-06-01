@@ -155,7 +155,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -178,6 +178,12 @@ samples
 browser
 .
 R
+Suppress
+(
+"
+UndocumentedPublicClass
+"
+)
 class
 ReaderViewIntegration
 (
@@ -202,7 +208,7 @@ FloatingActionButton
 )
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 private
 var

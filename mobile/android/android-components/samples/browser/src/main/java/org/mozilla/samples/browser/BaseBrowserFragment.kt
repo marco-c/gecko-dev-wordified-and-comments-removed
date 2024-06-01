@@ -279,7 +279,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -439,7 +439,7 @@ BaseBrowserFragment
 Fragment
 (
 )
-BackHandler
+UserInteractionHandler
 {
 private
 val
