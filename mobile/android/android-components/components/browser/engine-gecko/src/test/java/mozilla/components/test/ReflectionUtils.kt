@@ -56,6 +56,17 @@ MPL
 .
 *
 /
+file
+:
+Suppress
+(
+"
+UNUSED_PARAMETER
+"
+"
+UNUSED_VARIABLE
+"
+)
 package
 mozilla
 .
