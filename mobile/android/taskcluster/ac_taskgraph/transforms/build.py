@@ -1,7 +1,5 @@
 import
 datetime
-import
-re
 from
 taskgraph
 .
@@ -77,6 +75,10 @@ artifacts
 include
 -
 coverage
+'
+            
+'
+optimization
 '
             
 '
