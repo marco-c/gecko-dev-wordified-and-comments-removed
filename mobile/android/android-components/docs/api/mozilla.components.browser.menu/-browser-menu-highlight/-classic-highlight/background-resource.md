@@ -26,8 +26,6 @@ components
 browser
 .
 menu
-.
-item
 ]
 (
 .
@@ -42,7 +40,7 @@ md
 )
 /
 [
-BrowserMenuHighlightableItem
+BrowserMenuHighlight
 ]
 (
 .
@@ -54,7 +52,7 @@ md
 )
 /
 [
-Highlight
+ClassicHighlight
 ]
 (
 index
@@ -154,11 +152,9 @@ browser
 /
 menu
 /
-item
-/
-BrowserMenuHighlightableItem
+BrowserMenuHighlight
 .
 kt
 #
-L129
+L56
 )
