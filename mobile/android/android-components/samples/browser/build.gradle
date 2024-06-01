@@ -420,6 +420,16 @@ project
 :
 browser
 -
+thumbnails
+'
+)
+implementation
+project
+(
+'
+:
+browser
+-
 toolbar
 '
 )
