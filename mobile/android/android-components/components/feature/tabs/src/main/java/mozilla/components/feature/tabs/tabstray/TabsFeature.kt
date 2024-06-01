@@ -200,6 +200,8 @@ LongParameterList
 class
 TabsFeature
 (
+private
+val
 tabsTray
 :
 TabsTray
@@ -375,7 +377,7 @@ state
 store
 .
 state
-presenter
+tabsTray
 .
 updateTabs
 (
