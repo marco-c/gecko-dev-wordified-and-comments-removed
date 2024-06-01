@@ -179,6 +179,10 @@ androidx_test_junit
 implementation
 Dependencies
 .
+testing_mockwebserver
+implementation
+Dependencies
+.
 testing_mockito
 implementation
 (

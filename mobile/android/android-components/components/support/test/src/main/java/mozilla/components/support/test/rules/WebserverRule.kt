@@ -57,13 +57,13 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
-samples
+components
 .
-browser
+support
+.
+test
 .
 rules
 import
