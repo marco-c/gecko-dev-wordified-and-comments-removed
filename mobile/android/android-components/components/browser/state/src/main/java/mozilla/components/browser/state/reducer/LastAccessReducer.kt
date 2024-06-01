@@ -193,7 +193,7 @@ UpdateLastAccessAction
 {
 state
 .
-updateTabOrCustomTabState
+updateTabState
 (
 action
 .
@@ -203,13 +203,7 @@ tabId
 sessionState
 -
 >
-val
-tabSessionState
-=
 sessionState
-as
-TabSessionState
-tabSessionState
 .
 copy
 (
