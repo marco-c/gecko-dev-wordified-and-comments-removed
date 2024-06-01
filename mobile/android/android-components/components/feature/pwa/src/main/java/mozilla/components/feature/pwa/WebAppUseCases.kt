@@ -499,7 +499,7 @@ WebAppShortcutManager
 *
 *
 param
-currentTime
+currentTimeMs
 the
 current
 time
@@ -518,7 +518,7 @@ operator
 fun
 invoke
 (
-currentTime
+currentTimeMs
 :
 Long
 =
@@ -552,7 +552,7 @@ getWebAppInstallState
 session
 .
 url
-currentTime
+currentTimeMs
 )
 }
 }
