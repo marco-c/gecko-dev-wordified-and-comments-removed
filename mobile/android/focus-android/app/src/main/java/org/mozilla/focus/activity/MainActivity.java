@@ -212,17 +212,6 @@ View
 SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
 )
 ;
-getWindow
-(
-)
-.
-setStatusBarColor
-(
-Color
-.
-TRANSPARENT
-)
-;
 setContentView
 (
 R
