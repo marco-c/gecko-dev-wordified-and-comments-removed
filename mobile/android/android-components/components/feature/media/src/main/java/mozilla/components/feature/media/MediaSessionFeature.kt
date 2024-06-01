@@ -311,13 +311,13 @@ mediaSessionState
 !
 .
 playbackState
-!
+=
 =
 MediaSession
 .
 PlaybackState
 .
-UNKNOWN
+PLAYING
 }
 }
 .
