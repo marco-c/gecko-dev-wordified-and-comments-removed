@@ -74,6 +74,14 @@ kotlin
 -
 android
 '
+apply
+plugin
+:
+'
+kotlin
+-
+parcelize
+'
 android
 {
 compileSdkVersion

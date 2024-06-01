@@ -81,6 +81,12 @@ Build
 import
 android
 .
+os
+.
+Parcelable
+import
+android
+.
 view
 .
 autofill
@@ -92,6 +98,12 @@ androidx
 annotation
 .
 RequiresApi
+import
+kotlinx
+.
+parcelize
+.
+Parcelize
 import
 mozilla
 .
@@ -180,6 +192,7 @@ VERSION_CODES
 .
 O
 )
+Parcelize
 internal
 data
 class
@@ -211,6 +224,8 @@ packageName
 :
 String
 )
+:
+Parcelable
 /
 *
 *
