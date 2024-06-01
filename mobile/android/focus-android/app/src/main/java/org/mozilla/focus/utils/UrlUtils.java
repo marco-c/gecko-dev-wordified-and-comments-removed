@@ -267,11 +267,15 @@ getUserInfo
 if
 (
 userInfo
-!
+=
 =
 null
 )
 {
+return
+url
+;
+}
 uri
 =
 new
@@ -310,7 +314,6 @@ getFragment
 )
 )
 ;
-}
 return
 uri
 .
