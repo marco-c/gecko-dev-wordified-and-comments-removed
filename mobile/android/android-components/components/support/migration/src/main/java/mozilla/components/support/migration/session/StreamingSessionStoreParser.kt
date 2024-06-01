@@ -225,6 +225,11 @@ it
 )
 reader
 .
+isLenient
+=
+true
+reader
+.
 beginObject
 (
 )
