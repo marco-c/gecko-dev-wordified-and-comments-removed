@@ -162,6 +162,9 @@ view
 .
 apply
 {
+tryInflate
+(
+)
 setColorScheme
 (
 config

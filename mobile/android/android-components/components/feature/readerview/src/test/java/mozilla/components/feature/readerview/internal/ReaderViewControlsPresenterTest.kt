@@ -241,6 +241,14 @@ verify
 view
 )
 .
+tryInflate
+(
+)
+verify
+(
+view
+)
+.
 setColorScheme
 (
 any
