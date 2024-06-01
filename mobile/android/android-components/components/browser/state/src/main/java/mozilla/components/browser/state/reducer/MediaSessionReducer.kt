@@ -330,7 +330,7 @@ Controller
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )
@@ -367,7 +367,7 @@ String
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )
@@ -404,7 +404,7 @@ Metadata
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )
@@ -451,7 +451,7 @@ PlaybackState
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )
@@ -498,7 +498,7 @@ Feature
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )
@@ -545,7 +545,7 @@ PositionState
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )
@@ -590,7 +590,7 @@ Boolean
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )
@@ -641,7 +641,7 @@ ElementMetadata
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )

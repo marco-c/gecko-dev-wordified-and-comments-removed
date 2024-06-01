@@ -468,7 +468,7 @@ EngineState
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )

@@ -330,7 +330,7 @@ TrackingProtectionState
 BrowserState
 {
 return
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )

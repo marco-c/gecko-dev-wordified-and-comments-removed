@@ -137,7 +137,7 @@ SessionCrashedAction
 >
 state
 .
-updateTabState
+updateTabOrCustomTabState
 (
 action
 .
@@ -173,7 +173,7 @@ RestoreCrashedSessionAction
 >
 state
 .
-updateTabState
+updateTabOrCustomTabState
 (
 action
 .

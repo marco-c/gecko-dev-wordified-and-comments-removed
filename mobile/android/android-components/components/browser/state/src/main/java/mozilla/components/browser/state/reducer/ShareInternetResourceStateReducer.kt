@@ -210,7 +210,7 @@ BrowserState
 return
 state
 .
-updateTabState
+updateTabOrCustomTabState
 (
 tabId
 )
