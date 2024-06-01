@@ -1192,7 +1192,7 @@ settings
 useTrackingProtection
 =
 shouldBlockContent
-notifyObservers
+notifyAtLeastOneObserver
 {
 onTrackerBlockingEnabledChange
 (

@@ -1192,7 +1192,7 @@ disableTrackingProtectionOnGecko
 (
 )
 }
-notifyObservers
+notifyAtLeastOneObserver
 {
 onTrackerBlockingEnabledChange
 (

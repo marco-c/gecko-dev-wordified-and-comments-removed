@@ -697,6 +697,11 @@ var
 initialLoad
 =
 true
+private
+var
+requestFromWebContent
+=
+false
 override
 val
 coroutineContext
@@ -746,6 +751,9 @@ flags
 LoadUrlFlags
 )
 {
+requestFromWebContent
+=
+false
 geckoSession
 .
 loadUri
@@ -792,6 +800,9 @@ encoding
 String
 )
 {
+requestFromWebContent
+=
+false
 when
 (
 encoding
@@ -867,6 +878,9 @@ reload
 (
 )
 {
+requestFromWebContent
+=
+false
 geckoSession
 .
 reload
@@ -891,6 +905,9 @@ goBack
 (
 )
 {
+requestFromWebContent
+=
+false
 geckoSession
 .
 goBack
@@ -915,6 +932,9 @@ goForward
 (
 )
 {
+requestFromWebContent
+=
+false
 geckoSession
 .
 goForward
@@ -1172,7 +1192,7 @@ disableTrackingProtectionOnGecko
 (
 )
 }
-notifyObservers
+notifyAtLeastOneObserver
 {
 onTrackerBlockingEnabledChange
 (
@@ -2178,9 +2198,7 @@ request
 isRedirect
 triggeredByWebContent
 =
-request
-.
-hasUserGesture
+requestFromWebContent
 )
 }
 GeckoResult
@@ -2572,6 +2590,9 @@ to
 /
 false
 .
+requestFromWebContent
+=
+true
 notifyObservers
 {
 onProgress
