@@ -1040,7 +1040,7 @@ name
 mozac_feature_addons_settings_on
 "
 >
-Ativada
+Ativado
 <
 /
 string
@@ -1068,7 +1068,7 @@ name
 mozac_feature_addons_settings_off
 "
 >
-Desativada
+Desativado
 <
 /
 string
@@ -1096,7 +1096,7 @@ name
 mozac_feature_addons_enabled
 "
 >
-Ativada
+Ativado
 <
 /
 string
@@ -1124,7 +1124,7 @@ name
 mozac_feature_addons_disabled
 "
 >
-Desativada
+Desativado
 <
 /
 string
