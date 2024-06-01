@@ -295,6 +295,10 @@ PackageManager
 httpClient
 :
 Client
+apiKey
+:
+String
+?
 )
 {
 VisibleForTesting
@@ -305,6 +309,7 @@ handler
 DigitalAssetLinksHandler
 (
 httpClient
+apiKey
 )
 VisibleForTesting
 internal

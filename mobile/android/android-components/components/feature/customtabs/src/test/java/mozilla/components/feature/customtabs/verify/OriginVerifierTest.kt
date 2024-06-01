@@ -279,6 +279,13 @@ ExperimentalCoroutinesApi
 class
 OriginVerifierTest
 {
+private
+val
+apiKey
+=
+"
+XXXXXXXXX
+"
 Mock
 private
 lateinit
@@ -349,6 +356,7 @@ packageName
 RELATION_HANDLE_ALL_URLS
 packageManager
 client
+apiKey
 )
 )
 useAsOriginVerifier
@@ -363,6 +371,7 @@ packageName
 RELATION_USE_AS_ORIGIN
 packageManager
 client
+apiKey
 )
 )
 doReturn
@@ -667,6 +676,7 @@ common
 .
 use_as_origin
 "
+apiKey
 )
 connectTimeout
 =

@@ -304,6 +304,14 @@ Client
 ?
 =
 null
+open
+val
+apiKey
+:
+String
+?
+=
+null
 private
 val
 verifier
@@ -336,6 +344,7 @@ OriginVerifierFeature
 (
 client
 packageManager
+apiKey
 )
 {
 store

@@ -283,6 +283,13 @@ ExperimentalCoroutinesApi
 class
 TrustedWebActivityIntentProcessorTest
 {
+private
+val
+apiKey
+=
+"
+XXXXXXXXX
+"
 Test
 fun
 matches
@@ -315,6 +322,7 @@ mock
 mock
 (
 )
+apiKey
 mock
 (
 )
@@ -455,6 +463,7 @@ mock
 mock
 (
 )
+apiKey
 mock
 (
 )
@@ -677,6 +686,7 @@ mock
 mock
 (
 )
+apiKey
 store
 )
 )

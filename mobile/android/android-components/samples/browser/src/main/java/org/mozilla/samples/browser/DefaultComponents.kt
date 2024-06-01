@@ -865,6 +865,7 @@ client
 applicationContext
 .
 packageManager
+null
 customTabsStore
 )
 CustomTabIntentProcessor

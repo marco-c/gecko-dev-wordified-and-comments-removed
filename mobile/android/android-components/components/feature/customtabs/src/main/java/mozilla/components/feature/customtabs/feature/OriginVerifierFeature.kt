@@ -231,6 +231,12 @@ packageManager
 PackageManager
 private
 val
+apiKey
+:
+String
+?
+private
+val
 dispatch
 :
 (
@@ -387,5 +393,6 @@ packageName
 relation
 packageManager
 httpClient
+apiKey
 )
 }

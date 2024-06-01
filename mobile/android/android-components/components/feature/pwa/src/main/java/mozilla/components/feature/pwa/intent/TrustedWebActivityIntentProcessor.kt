@@ -195,9 +195,9 @@ components
 .
 browser
 .
-state
+session
 .
-state
+tab
 .
 CustomTabConfig
 .
@@ -346,6 +346,10 @@ Client
 packageManager
 :
 PackageManager
+apiKey
+:
+String
+?
 private
 val
 store
@@ -363,6 +367,7 @@ OriginVerifierFeature
 (
 httpClient
 packageManager
+apiKey
 )
 {
 store
