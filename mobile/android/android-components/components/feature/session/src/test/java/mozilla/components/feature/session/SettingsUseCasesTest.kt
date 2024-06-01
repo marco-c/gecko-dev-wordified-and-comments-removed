@@ -368,7 +368,7 @@ sessions
 )
 {
 val
-autoplaySetting
+allowFileAccessSetting
 =
 object
 :
@@ -395,12 +395,12 @@ Boolean
 {
 settings
 .
-allowAutoplayMedia
+allowFileAccess
 =
 value
 }
 }
-autoplaySetting
+allowFileAccessSetting
 (
 true
 )
@@ -409,7 +409,7 @@ verify
 settings
 )
 .
-allowAutoplayMedia
+allowFileAccess
 =
 true
 verify
@@ -419,7 +419,7 @@ engineSessionA
 settings
 )
 .
-allowAutoplayMedia
+allowFileAccess
 =
 true
 verify
@@ -429,7 +429,7 @@ engineSessionB
 settings
 )
 .
-allowAutoplayMedia
+allowFileAccess
 =
 true
 }
