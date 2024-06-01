@@ -176,6 +176,8 @@ Room
 databaseBuilder
 (
 context
+.
+applicationContext
 CrashDatabase
 :
 :
