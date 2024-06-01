@@ -684,9 +684,11 @@ BottomSheetDialog
 requireContext
 (
 )
-this
+R
 .
-theme
+style
+.
+MozDialogStyle
 )
 .
 apply
