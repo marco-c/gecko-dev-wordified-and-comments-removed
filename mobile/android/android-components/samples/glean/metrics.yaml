@@ -294,7 +294,11 @@ ping
 send_in_pings
 :
 -
-test_string_list
+test
+-
+string
+-
+list
 lifetime
 :
 user
@@ -347,7 +351,11 @@ counter
 send_in_pings
 :
 -
-test_string_list
+test
+-
+string
+-
+list
 lifetime
 :
 user
