@@ -806,7 +806,7 @@ ACTION_LAUNCH
 -
 >
 {
-startForegroundNotificationIfNeeded
+startForegroundNotification
 (
 )
 }
