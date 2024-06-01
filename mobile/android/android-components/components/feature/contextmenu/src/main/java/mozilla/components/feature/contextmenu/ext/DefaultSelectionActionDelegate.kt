@@ -139,6 +139,19 @@ Context
 appName
 :
 String
+shareTextClicked
+:
+(
+(
+String
+)
+-
+>
+Unit
+)
+?
+=
+null
 )
 =
 DefaultSelectionActionDelegate
@@ -151,4 +164,5 @@ context
 .
 resources
 appName
+shareTextClicked
 )
