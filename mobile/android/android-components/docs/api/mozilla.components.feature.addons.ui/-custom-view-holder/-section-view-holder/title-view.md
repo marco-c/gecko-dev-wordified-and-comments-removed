@@ -135,5 +135,5 @@ CustomViewHolder
 .
 kt
 #
-L23
+L22
 )

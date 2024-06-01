@@ -122,7 +122,7 @@ BrowserMenuImageSwitch
 .
 kt
 #
-L27
+L26
 )
 A
 simple

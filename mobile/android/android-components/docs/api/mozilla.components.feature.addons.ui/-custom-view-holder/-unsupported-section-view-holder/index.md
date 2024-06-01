@@ -131,7 +131,7 @@ CustomViewHolder
 .
 kt
 #
-L29
+L28
 )
 A
 view

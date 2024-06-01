@@ -96,9 +96,6 @@ view
 ERROR
 CLASS
 >
-iconContainer
-:
-CardView
 iconView
 :
 <

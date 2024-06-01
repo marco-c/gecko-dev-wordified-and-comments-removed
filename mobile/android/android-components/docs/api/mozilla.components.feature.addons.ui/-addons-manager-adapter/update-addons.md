@@ -204,7 +204,7 @@ AddonsManagerAdapter
 .
 kt
 #
-L391
+L382
 )
 Updates
 only
