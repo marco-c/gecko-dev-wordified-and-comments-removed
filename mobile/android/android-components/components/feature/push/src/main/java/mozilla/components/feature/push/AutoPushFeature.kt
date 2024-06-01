@@ -169,14 +169,6 @@ RequestError
 import
 mozilla
 .
-appservices
-.
-push
-.
-UAIDNotRecognizedError
-import
-mozilla
-.
 components
 .
 concept
