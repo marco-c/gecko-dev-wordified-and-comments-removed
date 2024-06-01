@@ -243,13 +243,6 @@ wrap_content
 "
 android
 :
-fitsSystemWindows
-=
-"
-true
-"
-android
-:
 elevation
 =
 "
