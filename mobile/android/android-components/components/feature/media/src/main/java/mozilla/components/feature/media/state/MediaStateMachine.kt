@@ -209,7 +209,7 @@ const
 val
 DELAY_STATE_UPDATE_MS
 =
-250L
+100L
 /
 *
 *
