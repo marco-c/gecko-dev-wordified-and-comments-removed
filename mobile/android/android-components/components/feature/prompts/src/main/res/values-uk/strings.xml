@@ -44,7 +44,6 @@ name
 mozac_feature_prompts_ok
 "
 >
-Aceptar
 <
 /
 string
@@ -74,7 +73,6 @@ name
 mozac_feature_prompts_cancel
 "
 >
-Cancelar
 <
 /
 string
@@ -115,15 +113,6 @@ name
 mozac_feature_prompts_no_more_dialogs
 "
 >
-Impedir
-que
-esta
-p
-gina
-cree
-di
-logos
-adicionales
 <
 /
 string
@@ -160,7 +149,6 @@ name
 mozac_feature_prompts_set_date
 "
 >
-Establecer
 <
 /
 string
@@ -196,7 +184,6 @@ name
 mozac_feature_prompts_clear
 "
 >
-Eliminar
 <
 /
 string
@@ -225,9 +212,6 @@ name
 mozac_feature_prompt_sign_in
 "
 >
-Iniciar
-sesi
-n
 <
 /
 string
@@ -256,9 +240,6 @@ name
 mozac_feature_prompt_username_hint
 "
 >
-Nombre
-de
-usuario
 <
 /
 string
@@ -287,8 +268,6 @@ name
 mozac_feature_prompt_password_hint
 "
 >
-Contrase
-a
 <
 /
 string
@@ -320,8 +299,6 @@ name
 mozac_feature_prompt_dont_save
 "
 >
-No
-guardar
 <
 /
 string
@@ -352,7 +329,6 @@ name
 mozac_feature_prompt_save_confirmation
 "
 >
-Guardar
 <
 /
 string
@@ -381,7 +357,6 @@ name
 mozac_feature_prompt_update_confirmation
 "
 >
-Actualizar
 <
 /
 string
@@ -415,16 +390,6 @@ name
 mozac_feature_prompt_error_empty_password
 "
 >
-El
-campo
-de
-contrase
-a
-no
-puede
-estar
-vac
-o
 <
 /
 string
@@ -458,15 +423,6 @@ name
 mozac_feature_prompt_error_unknown_cause
 "
 >
-No
-se
-puede
-guardar
-el
-inicio
-de
-sesi
-n
 <
 /
 string
@@ -522,17 +478,8 @@ name
 mozac_feature_prompt_logins_save_message
 "
 >
-Quer
-s
-que
 %
 s
-guarde
-este
-inicio
-de
-sesi
-n
 ?
 <
 /
@@ -605,15 +552,6 @@ name
 mozac_feature_prompts_content_description_input_label
 "
 >
-Etiqueta
-para
-ingresar
-un
-campo
-de
-entrada
-de
-texto
 <
 /
 string
@@ -648,9 +586,6 @@ name
 mozac_feature_prompts_choose_a_color
 "
 >
-Elija
-un
-color
 <
 /
 string
@@ -684,7 +619,6 @@ name
 mozac_feature_prompts_allow
 "
 >
-Permitir
 <
 /
 string
@@ -718,7 +652,6 @@ name
 mozac_feature_prompts_deny
 "
 >
-Denegar
 <
 /
 string
@@ -745,9 +678,6 @@ name
 mozac_feature_prompts_set_month
 "
 >
-Eleg
-un
-mes
 <
 /
 string
@@ -779,7 +709,6 @@ name
 mozac_feature_prompts_jan
 "
 >
-En
 <
 /
 string
@@ -815,7 +744,6 @@ name
 mozac_feature_prompts_feb
 "
 >
-Feb
 <
 /
 string
@@ -851,7 +779,6 @@ name
 mozac_feature_prompts_mar
 "
 >
-Mar
 <
 /
 string
@@ -887,7 +814,6 @@ name
 mozac_feature_prompts_apr
 "
 >
-Abr
 <
 /
 string
@@ -923,7 +849,6 @@ name
 mozac_feature_prompts_may
 "
 >
-Mayo
 <
 /
 string
@@ -959,7 +884,6 @@ name
 mozac_feature_prompts_jun
 "
 >
-Jun
 <
 /
 string
@@ -995,7 +919,6 @@ name
 mozac_feature_prompts_jul
 "
 >
-Jul
 <
 /
 string
@@ -1031,7 +954,6 @@ name
 mozac_feature_prompts_aug
 "
 >
-Ago
 <
 /
 string
@@ -1067,7 +989,6 @@ name
 mozac_feature_prompts_sep
 "
 >
-Sep
 <
 /
 string
@@ -1103,7 +1024,6 @@ name
 mozac_feature_prompts_oct
 "
 >
-Oct
 <
 /
 string
@@ -1139,7 +1059,6 @@ name
 mozac_feature_prompts_nov
 "
 >
-Nov
 <
 /
 string
@@ -1175,7 +1094,6 @@ name
 mozac_feature_prompts_dec
 "
 >
-Dic
 <
 /
 string
