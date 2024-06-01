@@ -654,6 +654,9 @@ UrlUtils
 .
 createSearchUrl
 (
+getContext
+(
+)
 rawUrl
 )
 ;
@@ -677,6 +680,9 @@ UrlUtils
 .
 createSearchUrl
 (
+getContext
+(
+)
 urlView
 .
 getOriginalText
