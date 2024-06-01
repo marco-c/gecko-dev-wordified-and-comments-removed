@@ -776,7 +776,7 @@ the
 "
 good
 first
-bug
+issue
 "
 label
 ]
@@ -817,7 +817,7 @@ label
 +
 first
 +
-bug
+issue
 %
 22
 )
