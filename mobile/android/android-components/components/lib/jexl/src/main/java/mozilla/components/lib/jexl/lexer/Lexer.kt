@@ -77,7 +77,7 @@ jexl
 .
 grammar
 .
-GrammarElement
+Grammar
 import
 mozilla
 .
@@ -89,7 +89,7 @@ jexl
 .
 grammar
 .
-Grammar
+GrammarElement
 internal
 class
 LexerException
@@ -200,6 +200,12 @@ handle
 .
 *
 /
+Suppress
+(
+"
+LargeClass
+"
+)
 internal
 class
 Lexer
@@ -269,6 +275,9 @@ Suppress
 (
 "
 ComplexMethod
+"
+"
+LongMethod
 "
 )
 Throws
