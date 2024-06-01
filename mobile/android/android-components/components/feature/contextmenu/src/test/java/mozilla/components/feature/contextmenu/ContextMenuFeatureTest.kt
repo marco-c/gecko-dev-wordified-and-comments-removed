@@ -1849,6 +1849,11 @@ ContextMenuUseCases
 store
 )
 )
+store
+.
+waitUntilIdle
+(
+)
 testDispatcher
 .
 advanceUntilIdle
@@ -1893,6 +1898,11 @@ test
 -
 id
 "
+)
+store
+.
+waitUntilIdle
+(
 )
 testDispatcher
 .
