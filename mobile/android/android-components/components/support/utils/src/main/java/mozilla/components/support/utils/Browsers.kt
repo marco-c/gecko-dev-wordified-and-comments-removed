@@ -296,7 +296,7 @@ mozilla
 fennec_aurora
 "
 )
-FIREFOX_NIGHTLY
+FIREFOX_FENNEC_NIGHTLY
 (
 "
 org
@@ -326,7 +326,7 @@ mozilla
 rocket
 "
 )
-FENIX_PREVIEW
+FIREFOX_NIGHTLY
 (
 "
 org
@@ -1003,6 +1003,18 @@ packageName
 KnownBrowser
 .
 FIREFOX_AURORA
+.
+packageName
+|
+|
+defaultBrowser
+.
+packageName
+=
+=
+KnownBrowser
+.
+FIREFOX_FENNEC_NIGHTLY
 .
 packageName
 |
