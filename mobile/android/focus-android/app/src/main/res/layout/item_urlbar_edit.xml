@@ -184,10 +184,9 @@ android
 hint
 =
 "
-Search
-or
-enter
-address
+string
+/
+urlbar_hint
 "
 android
 :
@@ -284,7 +283,9 @@ android
 text
 =
 "
-Cancel
+string
+/
+action_cancel
 "
 /
 >

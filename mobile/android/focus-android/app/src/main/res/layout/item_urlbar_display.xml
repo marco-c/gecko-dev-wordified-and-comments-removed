@@ -314,7 +314,9 @@ android
 text
 =
 "
-Erase
+string
+/
+action_erase
 "
 /
 >
