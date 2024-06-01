@@ -114,7 +114,7 @@ observer
 )
 {
 const
-element
+_element
 =
 document
 .
@@ -125,10 +125,10 @@ elementId
 ;
 if
 (
-element
+_element
 )
 {
-element
+_element
 .
 remove
 (
