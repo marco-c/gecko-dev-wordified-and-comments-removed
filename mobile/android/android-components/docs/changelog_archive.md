@@ -6058,7 +6058,7 @@ Port
 Called
 when
 a
-messsage
+message
 was
 received
 on
@@ -6103,7 +6103,7 @@ when
 a
 message
 was
-recieved
+received
 as
 a
 result
@@ -15413,7 +15413,7 @@ a
 custom
 SuggestionLayout
 for
-controling
+controlling
 view
 inflation
 class
