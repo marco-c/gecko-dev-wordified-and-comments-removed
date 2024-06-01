@@ -519,6 +519,7 @@ foobar
 *
 /
 VisibleForTesting
+internal
 fun
 getRepresentativeCharacter
 (
