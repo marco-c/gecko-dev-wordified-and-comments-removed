@@ -98,7 +98,7 @@ HistoryStorage
 .
 kt
 #
-L192
+L212
 )
 Encapsulates
 a
