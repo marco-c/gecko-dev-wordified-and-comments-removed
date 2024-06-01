@@ -907,6 +907,13 @@ Color
 0x66FBFBFE
 )
 val
+LightGrey05A60
+=
+Color
+(
+0x99FBFBFE
+)
+val
 LightGrey10
 =
 Color
@@ -1075,6 +1082,13 @@ DarkGrey90A40
 Color
 (
 0x6615141A
+)
+val
+DarkGrey90A60
+=
+Color
+(
+0x9915141A
 )
 val
 DarkGrey90A96
