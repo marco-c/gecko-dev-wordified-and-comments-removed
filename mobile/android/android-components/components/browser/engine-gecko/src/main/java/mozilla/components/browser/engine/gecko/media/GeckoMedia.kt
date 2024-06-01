@@ -331,12 +331,6 @@ MediaElement
 .
 Delegate
 {
-Suppress
-(
-"
-ComplexMethod
-"
-)
 override
 fun
 onPlaybackStateChange
