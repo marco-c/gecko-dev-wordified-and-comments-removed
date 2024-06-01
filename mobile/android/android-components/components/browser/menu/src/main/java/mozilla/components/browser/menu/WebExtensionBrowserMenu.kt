@@ -435,7 +435,7 @@ null
 :
 List
 <
-BrowserMenuItem
+WebExtensionBrowserMenuItem
 >
 {
 val
@@ -443,7 +443,7 @@ menuItems
 =
 ArrayList
 <
-BrowserMenuItem
+WebExtensionBrowserMenuItem
 >
 (
 )
@@ -608,7 +608,7 @@ menuItems
 :
 ArrayList
 <
-BrowserMenuItem
+WebExtensionBrowserMenuItem
 >
 isPageAction
 :
@@ -683,6 +683,11 @@ globalAction
 listener
 =
 listener
+id
+=
+extension
+.
+id
 )
 browserMenuItem
 }

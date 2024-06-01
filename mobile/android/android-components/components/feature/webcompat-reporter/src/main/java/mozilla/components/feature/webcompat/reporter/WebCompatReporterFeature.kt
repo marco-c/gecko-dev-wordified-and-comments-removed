@@ -182,7 +182,6 @@ webcompat
 reporter
 "
 )
-internal
 const
 val
 WEBCOMPAT_REPORTER_EXTENSION_ID
