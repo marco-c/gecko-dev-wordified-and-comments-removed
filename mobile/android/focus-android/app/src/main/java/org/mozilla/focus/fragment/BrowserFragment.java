@@ -575,7 +575,7 @@ focus
 .
 widget
 .
-FloatingTabsButton
+FloatingSessionsButton
 ;
 import
 java
@@ -1209,7 +1209,7 @@ url
 initialiseTabsButton
 (
 (
-FloatingTabsButton
+FloatingSessionsButton
 )
 view
 .
@@ -1852,7 +1852,7 @@ void
 initialiseTabsButton
 (
 final
-FloatingTabsButton
+FloatingSessionsButton
 tabsButton
 )
 {
