@@ -877,6 +877,11 @@ takeScreenshotOfSettings
 device
 )
 ;
+takeScreenshotOfContextMenu
+(
+device
+)
+;
 takeScreenshotOfErrorPages
 (
 device
@@ -1618,6 +1623,15 @@ UiDevice
 device
 )
 {
+TestHelper
+.
+webView
+.
+waitForExists
+(
+waitingTime
+)
+;
 TestHelper
 .
 floatingEraseButton
