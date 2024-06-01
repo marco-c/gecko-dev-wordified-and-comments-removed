@@ -141,7 +141,7 @@ components
 .
 feature
 .
-session
+tabs
 .
 WindowFeature
 import
@@ -468,7 +468,10 @@ WindowFeature
 (
 components
 .
-sessionManager
+store
+components
+.
+tabsUseCases
 )
 lifecycle
 .

@@ -468,7 +468,7 @@ requireContext
 )
 components
 .
-sessionManager
+store
 sessionId
 !
 !
