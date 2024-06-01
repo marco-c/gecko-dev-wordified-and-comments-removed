@@ -180,7 +180,7 @@ AddonUpdater
 .
 kt
 #
-L31
+L47
 )
 Registers
 the

@@ -22,7 +22,7 @@ components
 .
 feature
 .
-remotetabs
+syncedtabs
 ]
 (
 .
@@ -34,7 +34,7 @@ md
 )
 /
 [
-RemoteTabsStorageSuggestionProvider
+SyncedTabsStorageSuggestionProvider
 ]
 (
 index
@@ -188,7 +188,7 @@ components
 /
 feature
 /
-remotetabs
+syncedtabs
 /
 src
 /
@@ -202,9 +202,9 @@ components
 /
 feature
 /
-remotetabs
+syncedtabs
 /
-RemoteTabsStorageSuggestionProvider
+SyncedTabsStorageSuggestionProvider
 .
 kt
 #

@@ -19,7 +19,7 @@ components
 .
 feature
 .
-remotetabs
+syncedtabs
 ]
 (
 .
@@ -37,7 +37,7 @@ components
 .
 feature
 .
-remotetabs
+syncedtabs
 #
 #
 #
@@ -58,11 +58,11 @@ Summary
 |
 |
 [
-RemoteTabsFeature
+SyncedTabsFeature
 ]
 (
 -
-remote
+synced
 -
 tabs
 -
@@ -74,7 +74,7 @@ md
 )
 |
 class
-RemoteTabsFeature
+SyncedTabsFeature
 <
 br
 >
@@ -151,11 +151,11 @@ md
 |
 |
 [
-RemoteTabsStorageSuggestionProvider
+SyncedTabsStorageSuggestionProvider
 ]
 (
 -
-remote
+synced
 -
 tabs
 -
@@ -171,7 +171,7 @@ md
 )
 |
 class
-RemoteTabsStorageSuggestionProvider
+SyncedTabsStorageSuggestionProvider
 :
 [
 SuggestionProvider
@@ -247,11 +247,11 @@ tabs
 based
 on
 [
-RemoteTabsFeature
+SyncedTabsFeature
 ]
 (
 -
-remote
+synced
 -
 tabs
 -

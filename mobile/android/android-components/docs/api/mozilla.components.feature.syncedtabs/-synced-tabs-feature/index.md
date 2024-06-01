@@ -22,7 +22,7 @@ components
 .
 feature
 .
-remotetabs
+syncedtabs
 ]
 (
 .
@@ -34,7 +34,7 @@ md
 )
 /
 [
-RemoteTabsFeature
+SyncedTabsFeature
 ]
 (
 .
@@ -44,10 +44,10 @@ index
 md
 )
 #
-RemoteTabsFeature
+SyncedTabsFeature
 ExperimentalCoroutinesApi
 class
-RemoteTabsFeature
+SyncedTabsFeature
 [
 (
 source
@@ -78,7 +78,7 @@ components
 /
 feature
 /
-remotetabs
+syncedtabs
 /
 src
 /
@@ -92,9 +92,9 @@ components
 /
 feature
 /
-remotetabs
+syncedtabs
 /
-RemoteTabsFeature
+SyncedTabsFeature
 .
 kt
 #
@@ -212,7 +212,7 @@ init
 md
 )
 |
-RemoteTabsFeature
+SyncedTabsFeature
 (
 accountManager
 :
@@ -416,12 +416,12 @@ Summary
 |
 |
 [
-getRemoteTabs
+getSyncedTabs
 ]
 (
 get
 -
-remote
+synced
 -
 tabs
 .
@@ -430,7 +430,7 @@ md
 |
 suspend
 fun
-getRemoteTabs
+getSyncedTabs
 (
 )
 :

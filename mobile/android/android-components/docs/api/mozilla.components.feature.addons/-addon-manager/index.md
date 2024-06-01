@@ -97,7 +97,7 @@ AddonManager
 .
 kt
 #
-L26
+L25
 )
 Provides
 access

@@ -187,12 +187,12 @@ item
 on
 the
 [
-AddOn
-.
 permissions
 ]
 (
-#
+permissions
+.
+md
 )
 list
 .

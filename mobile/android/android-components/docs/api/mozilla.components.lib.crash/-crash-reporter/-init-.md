@@ -214,6 +214,16 @@ CLASS
 ?
 =
 null
+scope
+:
+CoroutineScope
+=
+CoroutineScope
+(
+Dispatchers
+.
+IO
+)
 )
 A
 generic

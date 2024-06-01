@@ -103,7 +103,7 @@ CrashReporterActivity
 .
 kt
 #
-L32
+L28
 )
 Activity
 showing
