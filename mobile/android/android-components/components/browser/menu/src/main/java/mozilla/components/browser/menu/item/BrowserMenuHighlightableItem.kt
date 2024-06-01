@@ -135,6 +135,16 @@ browser
 .
 menu
 .
+HighlightableMenuItem
+import
+mozilla
+.
+components
+.
+browser
+.
+menu
+.
 R
 Suppress
 (
@@ -321,10 +331,12 @@ textColorResource
 Int
 =
 NO_ID
+override
 val
 highlight
 :
 BrowserMenuHighlight
+override
 val
 isHighlighted
 :
@@ -359,6 +371,7 @@ iconTintColorResource
 textColorResource
 listener
 )
+HighlightableMenuItem
 {
 Deprecated
 (
