@@ -6906,7 +6906,7 @@ name
 deviceConfig
 .
 name
-type
+kind
 =
 deviceConfig
 .

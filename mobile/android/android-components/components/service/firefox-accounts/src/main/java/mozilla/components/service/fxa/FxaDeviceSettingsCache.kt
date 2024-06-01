@@ -293,9 +293,11 @@ put
 KEY_DEVICE_TYPE
 this
 .
-type
+kind
 .
-name
+toString
+(
+)
 )
 }
 }
@@ -329,7 +331,7 @@ getString
 (
 KEY_DEVICE_NAME
 )
-type
+kind
 =
 obj
 .
