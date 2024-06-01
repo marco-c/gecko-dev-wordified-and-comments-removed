@@ -1077,6 +1077,11 @@ shutdown
 (
 )
 {
+audioFocus
+.
+abandon
+(
+)
 mediaSession
 .
 release
