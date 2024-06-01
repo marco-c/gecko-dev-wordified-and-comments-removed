@@ -3822,6 +3822,7 @@ feature
 onConfirm
 (
 tabId
+null
 )
 processActions
 (

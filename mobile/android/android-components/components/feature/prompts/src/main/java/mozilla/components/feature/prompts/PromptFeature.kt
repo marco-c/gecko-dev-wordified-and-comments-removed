@@ -771,6 +771,9 @@ Suppress
 "
 TooManyFunctions
 "
+"
+LargeClass
+"
 )
 class
 PromptFeature
@@ -807,6 +810,7 @@ OnNeedToRequestPermissions
 :
 LifecycleAwareFeature
 PermissionsFeature
+Prompter
 {
 private
 var
@@ -1550,7 +1554,7 @@ prompt
 .
 *
 /
-internal
+override
 fun
 onCancel
 (
@@ -1670,7 +1674,7 @@ UNCHECKED_CAST
 ComplexMethod
 "
 )
-internal
+override
 fun
 onConfirm
 (
@@ -1681,8 +1685,6 @@ value
 :
 Any
 ?
-=
-null
 )
 {
 store
@@ -1989,7 +1991,7 @@ dialog
 .
 *
 /
-internal
+override
 fun
 onClear
 (

@@ -300,6 +300,7 @@ feature
 onConfirm
 (
 sessionId
+null
 )
 }
 companion
