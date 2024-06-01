@@ -9045,6 +9045,14 @@ id
 =
 downloadState
 val
+notificationStyle
+=
+AbstractFetchDownloadService
+.
+Style
+(
+)
+val
 notification
 =
 DownloadNotification
@@ -9053,6 +9061,9 @@ createOngoingDownloadNotification
 (
 testContext
 downloadState
+notificationStyle
+.
+notificationAccentColor
 )
 NotificationManagerCompat
 .
