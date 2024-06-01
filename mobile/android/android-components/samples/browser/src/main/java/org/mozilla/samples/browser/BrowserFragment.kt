@@ -374,6 +374,7 @@ loadUrl
 .
 addSessionProvider
 (
+resources
 components
 .
 sessionManager

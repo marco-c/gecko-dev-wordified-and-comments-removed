@@ -73,6 +73,14 @@ Context
 import
 android
 .
+content
+.
+res
+.
+Resources
+import
+android
+.
 view
 .
 View
@@ -383,6 +391,9 @@ AwesomeBar
 fun
 addSessionProvider
 (
+resources
+:
+Resources
 sessionManager
 :
 SessionManager
@@ -400,6 +411,7 @@ provider
 =
 SessionSuggestionProvider
 (
+resources
 sessionManager
 selectTabUseCase
 icons
