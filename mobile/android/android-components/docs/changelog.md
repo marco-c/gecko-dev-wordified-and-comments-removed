@@ -468,13 +468,9 @@ notifications
 to
 the
 user
-*
-*
 Kotlin
-*
 WebNotificationFeature
 (
-*
 applicationContext
 engine
 icons
@@ -489,9 +485,7 @@ BrowserActivity
 class
 .
 java
-*
 )
-*
 *
 *
 *
