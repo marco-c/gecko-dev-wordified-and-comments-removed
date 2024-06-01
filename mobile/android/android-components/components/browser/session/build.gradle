@@ -179,7 +179,11 @@ androidx_browser
 implementation
 Dependencies
 .
-androidx_lifecycle_extensions
+androidx_lifecycle_runtime
+implementation
+Dependencies
+.
+androidx_lifecycle_process
 /
 /
 We

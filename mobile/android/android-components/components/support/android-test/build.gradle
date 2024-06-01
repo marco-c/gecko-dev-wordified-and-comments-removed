@@ -171,7 +171,7 @@ kotlin_stdlib
 implementation
 Dependencies
 .
-androidx_lifecycle_extensions
+androidx_lifecycle_livedata
 implementation
 Dependencies
 .

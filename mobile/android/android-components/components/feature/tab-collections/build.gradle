@@ -255,11 +255,7 @@ androidx_paging
 implementation
 Dependencies
 .
-androidx_lifecycle_extensions
-kapt
-Dependencies
-.
-androidx_lifecycle_compiler
+androidx_lifecycle_livedata
 implementation
 Dependencies
 .

@@ -151,7 +151,11 @@ kotlin_coroutines
 implementation
 Dependencies
 .
-androidx_lifecycle_extensions
+androidx_fragment
+implementation
+Dependencies
+.
+androidx_lifecycle_process
 implementation
 project
 (

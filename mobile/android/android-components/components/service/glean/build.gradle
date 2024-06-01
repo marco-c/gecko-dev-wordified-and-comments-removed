@@ -381,10 +381,6 @@ kotlin_coroutines
 implementation
 Dependencies
 .
-androidx_lifecycle_extensions
-implementation
-Dependencies
-.
 androidx_work_runtime
 api
 GLEAN_LIBRARY

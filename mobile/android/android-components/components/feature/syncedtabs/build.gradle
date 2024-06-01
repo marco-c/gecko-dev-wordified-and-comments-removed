@@ -287,7 +287,7 @@ androidx_work_runtime
 implementation
 Dependencies
 .
-androidx_lifecycle_extensions
+androidx_lifecycle_runtime
 implementation
 Dependencies
 .
