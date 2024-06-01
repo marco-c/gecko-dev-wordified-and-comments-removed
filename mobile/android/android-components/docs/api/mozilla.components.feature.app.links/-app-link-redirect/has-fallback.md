@@ -146,7 +146,7 @@ AppLinkRedirect
 .
 kt
 #
-L27
+L26
 )
 If
 there
