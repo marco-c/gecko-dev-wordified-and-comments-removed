@@ -339,27 +339,19 @@ for
 sealed
 class
 Permission
-(
-open
+{
+abstract
 val
 id
 :
 String
 ?
-=
-"
-"
-open
+abstract
 val
 desc
 :
 String
 ?
-=
-"
-"
-)
-{
 data
 class
 ContentAudioCapture
@@ -386,7 +378,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -414,7 +405,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -442,7 +432,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -470,7 +459,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -498,7 +486,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -526,7 +513,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -554,7 +540,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -582,7 +567,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -610,7 +594,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -638,7 +621,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -666,7 +648,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -694,7 +675,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -722,7 +702,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -750,7 +729,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -775,7 +753,6 @@ String
 :
 Permission
 (
-id
 )
 /
 /
@@ -812,7 +789,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -840,7 +816,6 @@ String
 :
 Permission
 (
-id
 )
 data
 class
@@ -868,6 +843,5 @@ String
 :
 Permission
 (
-id
 )
 }
