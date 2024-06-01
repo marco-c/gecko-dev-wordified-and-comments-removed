@@ -157,6 +157,14 @@ appservices
 .
 push
 .
+GeneralError
+import
+mozilla
+.
+appservices
+.
+push
+.
 MissingRegistrationTokenError
 import
 mozilla
@@ -2240,6 +2248,8 @@ when
 e
 )
 {
+is
+GeneralError
 is
 CryptoError
 is
