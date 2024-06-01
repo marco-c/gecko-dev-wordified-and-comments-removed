@@ -1058,6 +1058,14 @@ intent
 selector
 =
 null
+intent
+.
+addFlags
+(
+Intent
+.
+FLAG_ACTIVITY_NEW_TASK
+)
 }
 val
 fallbackIntent
