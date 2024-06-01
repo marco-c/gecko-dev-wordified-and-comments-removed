@@ -2135,7 +2135,7 @@ valid
 .
 *
 param
-reuseAccount
+reuseSessionToken
 Whether
 or
 not
@@ -2181,7 +2181,7 @@ signInWithShareableAccountAsync
 fromAccount
 :
 ShareableAccount
-reuseAccount
+reuseSessionToken
 :
 Boolean
 =
@@ -2203,7 +2203,7 @@ Event
 SignInShareableAccount
 (
 fromAccount
-reuseAccount
+reuseSessionToken
 )
 )
 val
