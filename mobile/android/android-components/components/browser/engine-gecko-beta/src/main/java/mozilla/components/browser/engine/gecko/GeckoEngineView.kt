@@ -331,6 +331,16 @@ rebind
 }
 override
 fun
+onProcessKilled
+(
+)
+{
+rebind
+(
+)
+}
+override
+fun
 onAppPermissionRequest
 (
 permissionRequest
