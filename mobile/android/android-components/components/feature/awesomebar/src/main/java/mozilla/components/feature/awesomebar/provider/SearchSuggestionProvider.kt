@@ -79,12 +79,6 @@ graphics
 .
 Bitmap
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 mozilla
 .
 components
@@ -295,7 +289,6 @@ SearchSuggestionProvider
 private
 constructor
 (
-VisibleForTesting
 internal
 val
 client
@@ -324,7 +317,6 @@ Mode
 Mode
 .
 SINGLE_SUGGESTION
-VisibleForTesting
 internal
 val
 engine

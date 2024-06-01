@@ -85,12 +85,6 @@ annotation
 .
 StringRes
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 mozilla
 .
 components
@@ -312,7 +306,6 @@ searchIcon
 :
 Bitmap
 ?
-VisibleForTesting
 internal
 val
 maxSuggestions
@@ -320,7 +313,6 @@ maxSuggestions
 Int
 =
 DEFAULT_MAX_SUGGESTIONS
-VisibleForTesting
 internal
 val
 charactersThreshold

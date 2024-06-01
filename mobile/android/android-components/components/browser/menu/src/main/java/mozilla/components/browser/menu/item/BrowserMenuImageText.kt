@@ -105,12 +105,6 @@ DrawableRes
 import
 androidx
 .
-annotation
-.
-VisibleForTesting
-import
-androidx
-.
 appcompat
 .
 widget
@@ -434,14 +428,12 @@ label
 :
 String
 DrawableRes
-VisibleForTesting
 internal
 val
 imageResource
 :
 Int
 ColorRes
-VisibleForTesting
 internal
 val
 iconTintColorResource

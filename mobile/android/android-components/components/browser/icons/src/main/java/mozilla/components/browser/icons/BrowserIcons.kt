@@ -780,7 +780,6 @@ DiskIconPreparer
 sharedDiskCache
 )
 )
-VisibleForTesting
 internal
 var
 loaders

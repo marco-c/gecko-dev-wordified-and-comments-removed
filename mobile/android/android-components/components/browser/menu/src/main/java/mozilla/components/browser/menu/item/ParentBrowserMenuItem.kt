@@ -99,12 +99,6 @@ DrawableRes
 import
 androidx
 .
-annotation
-.
-VisibleForTesting
-import
-androidx
-.
 appcompat
 .
 widget
@@ -383,7 +377,6 @@ LongParameterList
 class
 ParentBrowserMenuItem
 (
-VisibleForTesting
 internal
 val
 label

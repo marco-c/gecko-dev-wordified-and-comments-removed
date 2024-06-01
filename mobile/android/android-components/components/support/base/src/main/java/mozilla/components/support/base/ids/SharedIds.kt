@@ -78,12 +78,6 @@ android
 content
 .
 SharedPreferences
-import
-androidx
-.
-annotation
-.
-VisibleForTesting
 private
 const
 val
@@ -714,14 +708,6 @@ apply
 (
 )
 }
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-PRIVATE
-)
 internal
 var
 now

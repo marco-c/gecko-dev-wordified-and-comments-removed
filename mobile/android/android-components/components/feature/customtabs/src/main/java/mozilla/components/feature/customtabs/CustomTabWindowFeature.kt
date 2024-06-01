@@ -298,7 +298,6 @@ val
 sessionId
 :
 String
-VisibleForTesting
 internal
 val
 onLaunchUrlFallback

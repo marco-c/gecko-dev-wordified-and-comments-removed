@@ -341,7 +341,6 @@ see
 InputResultDetail
 *
 /
-VisibleForTesting
 internal
 var
 inputResultDetail

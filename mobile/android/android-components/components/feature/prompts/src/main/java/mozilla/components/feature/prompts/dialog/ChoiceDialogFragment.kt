@@ -226,7 +226,6 @@ PromptDialogFragment
 (
 )
 {
-VisibleForTesting
 internal
 val
 choices

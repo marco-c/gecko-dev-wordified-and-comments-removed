@@ -139,12 +139,6 @@ ColorInt
 import
 androidx
 .
-annotation
-.
-VisibleForTesting
-import
-androidx
-.
 appcompat
 .
 content
@@ -1232,14 +1226,6 @@ Gravity
 TOP
 BOTTOM
 }
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-PRIVATE
-)
 internal
 val
 views

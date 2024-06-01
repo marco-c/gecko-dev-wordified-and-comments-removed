@@ -67,12 +67,6 @@ awesomebar
 .
 provider
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 kotlinx
 .
 coroutines
@@ -422,7 +416,6 @@ Engine
 ?
 =
 null
-VisibleForTesting
 internal
 var
 maxNumberOfSuggestions

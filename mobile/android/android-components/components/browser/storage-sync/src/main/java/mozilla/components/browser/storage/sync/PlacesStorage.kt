@@ -306,7 +306,6 @@ val
 logger
 :
 Logger
-VisibleForTesting
 internal
 open
 val

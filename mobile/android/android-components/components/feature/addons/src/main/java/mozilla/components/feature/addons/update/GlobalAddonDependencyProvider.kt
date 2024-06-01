@@ -128,7 +128,6 @@ AddonUpdater
 ?
 =
 null
-VisibleForTesting
 internal
 var
 onCrash

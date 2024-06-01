@@ -79,12 +79,6 @@ content
 .
 SharedPreferences
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 mozilla
 .
 components
