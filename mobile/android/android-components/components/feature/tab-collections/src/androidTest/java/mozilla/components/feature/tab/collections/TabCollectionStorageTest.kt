@@ -1310,6 +1310,8 @@ sessions
 0
 ]
 .
+state
+.
 id
 )
 assertEquals
@@ -1321,6 +1323,8 @@ sessions
 [
 1
 ]
+.
+state
 .
 id
 )
@@ -1409,6 +1413,8 @@ sessions
 0
 ]
 .
+state
+.
 id
 )
 assertNotEquals
@@ -1421,6 +1427,8 @@ sessions
 1
 ]
 .
+state
+.
 id
 )
 assertEquals
@@ -1435,6 +1443,8 @@ sessions
 0
 ]
 .
+state
+.
 url
 )
 assertEquals
@@ -1448,6 +1458,8 @@ sessions
 [
 1
 ]
+.
+state
 .
 url
 )
@@ -1463,6 +1475,8 @@ sessions
 0
 ]
 .
+state
+.
 title
 )
 assertEquals
@@ -1476,6 +1490,8 @@ sessions
 [
 1
 ]
+.
+state
 .
 title
 )
@@ -3112,6 +3128,8 @@ content
 url
 tab
 .
+state
+.
 url
 )
 assertEquals
@@ -3123,6 +3141,8 @@ content
 title
 tab
 .
+state
+.
 title
 )
 assertEquals
@@ -3132,6 +3152,8 @@ state
 id
 tab
 .
+state
+.
 id
 )
 assertEquals
@@ -3141,6 +3163,8 @@ state
 parentId
 tab
 .
+state
+.
 parentId
 )
 assertEquals
@@ -3150,6 +3174,8 @@ state
 contextId
 tab
 .
+state
+.
 contextId
 )
 assertEquals
@@ -3159,6 +3185,8 @@ state
 lastAccess
 tab
 .
+state
+.
 lastAccess
 )
 assertEquals
@@ -3167,6 +3195,8 @@ state
 .
 readerState
 tab
+.
+state
 .
 readerState
 )

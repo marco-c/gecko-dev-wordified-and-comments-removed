@@ -1950,6 +1950,8 @@ tabs
 0
 ]
 .
+state
+.
 url
 )
 assertEquals
@@ -2025,6 +2027,8 @@ tabs
 0
 ]
 .
+state
+.
 url
 )
 assertEquals
@@ -2048,6 +2052,8 @@ tabs
 [
 1
 ]
+.
+state
 .
 url
 )
@@ -2500,6 +2506,8 @@ tabs
 0
 ]
 .
+state
+.
 url
 )
 assertEquals
@@ -2523,6 +2531,8 @@ tabs
 [
 1
 ]
+.
+state
 .
 url
 )

@@ -1297,6 +1297,8 @@ tabs
 index
 ]
 .
+state
+.
 index
 val
 restoreIndex

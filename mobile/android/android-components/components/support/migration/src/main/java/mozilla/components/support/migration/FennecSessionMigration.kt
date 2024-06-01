@@ -570,6 +570,8 @@ tab
 >
 tab
 .
+state
+.
 id
 =
 =
@@ -638,6 +640,8 @@ URLs
 .
 item
 .
+state
+.
 url
 =
 =
@@ -704,6 +708,8 @@ URL
 .
 item
 .
+state
+.
 url
 .
 startsWith
@@ -723,6 +729,8 @@ Uri
 decode
 (
 item
+.
+state
 .
 url
 .
@@ -748,6 +756,8 @@ URL
 {
 item
 .
+state
+.
 url
 }
 )
@@ -759,9 +769,18 @@ item
 .
 copy
 (
+state
+=
+item
+.
+state
+.
+copy
+(
 url
 =
 url
+)
 )
 }
 catch
@@ -836,6 +855,9 @@ getOrNull
 (
 selectedIndex
 )
+?
+.
+state
 ?
 .
 id

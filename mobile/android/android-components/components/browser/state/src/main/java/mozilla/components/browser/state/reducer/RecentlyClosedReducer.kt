@@ -133,6 +133,13 @@ closedTabs
 action
 .
 tabs
+.
+map
+{
+it
+.
+state
+}
 )
 }
 is

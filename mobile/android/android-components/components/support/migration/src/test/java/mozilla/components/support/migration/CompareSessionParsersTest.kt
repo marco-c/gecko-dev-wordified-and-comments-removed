@@ -333,8 +333,12 @@ assertEquals
 (
 item1
 .
+state
+.
 url
 item2
+.
+state
 .
 url
 )
@@ -342,8 +346,12 @@ assertEquals
 (
 item1
 .
+state
+.
 title
 item2
+.
+state
 .
 title
 )
@@ -613,6 +621,8 @@ tab
 -
 >
 tab
+.
+state
 .
 id
 =

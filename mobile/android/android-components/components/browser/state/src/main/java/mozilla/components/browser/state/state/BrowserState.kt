@@ -93,7 +93,7 @@ state
 .
 recover
 .
-RecoverableTab
+TabState
 import
 mozilla
 .
@@ -454,7 +454,7 @@ closedTabs
 :
 List
 <
-RecoverableTab
+TabState
 >
 =
 emptyList

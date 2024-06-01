@@ -488,6 +488,8 @@ org
 "
 restoredTab
 .
+state
+.
 url
 )
 assertEquals
@@ -496,6 +498,8 @@ assertEquals
 Mozilla
 "
 restoredTab
+.
+state
 .
 title
 )
@@ -506,6 +510,8 @@ work
 "
 restoredTab
 .
+state
+.
 contextId
 )
 assertEquals
@@ -513,11 +519,13 @@ assertEquals
 engineState
 restoredTab
 .
-state
+engineSessionState
 )
 assertFalse
 (
 restoredTab
+.
+state
 .
 readerState
 .
@@ -526,6 +534,8 @@ active
 assertNull
 (
 restoredTab
+.
+state
 .
 readerState
 .
@@ -678,6 +688,8 @@ assertTrue
 (
 restoredTab
 .
+state
+.
 readerState
 .
 active
@@ -696,6 +708,8 @@ example
 org
 "
 restoredTab
+.
+state
 .
 readerState
 .
@@ -906,6 +920,8 @@ Internal
 None
 restoredTab
 .
+state
+.
 source
 )
 assertEquals
@@ -923,6 +939,8 @@ org
 "
 restoredTab
 .
+state
+.
 url
 )
 assertEquals
@@ -931,6 +949,8 @@ assertEquals
 Mozilla
 "
 restoredTab
+.
+state
 .
 title
 )
@@ -1092,6 +1112,8 @@ assertNotNull
 (
 restoredTab
 .
+state
+.
 historyMetadata
 )
 assertEquals
@@ -1102,6 +1124,8 @@ content
 .
 url
 restoredTab
+.
+state
 .
 historyMetadata
 !
@@ -1266,11 +1290,15 @@ assertNotNull
 (
 restoredTab
 .
+state
+.
 source
 )
 assertTrue
 (
 restoredTab
+.
+state
 .
 source
 is
@@ -1285,6 +1313,8 @@ CustomTab
 with
 (
 restoredTab
+.
+state
 .
 source
 as
@@ -1487,11 +1517,15 @@ assertNotNull
 (
 restoredTab
 .
+state
+.
 source
 )
 assertTrue
 (
 restoredTab
+.
+state
 .
 source
 is
@@ -1506,6 +1540,8 @@ ActionView
 with
 (
 restoredTab
+.
+state
 .
 source
 as
@@ -1694,11 +1730,15 @@ assertNotNull
 (
 restoredTab
 .
+state
+.
 source
 )
 assertTrue
 (
 restoredTab
+.
+state
 .
 source
 is
@@ -1713,6 +1753,8 @@ ActionSend
 with
 (
 restoredTab
+.
+state
 .
 source
 as
@@ -1888,6 +1930,8 @@ org
 "
 restoredTab
 .
+state
+.
 lastMediaAccessState
 .
 lastMediaUrl
@@ -1897,6 +1941,8 @@ assertEquals
 333L
 restoredTab
 .
+state
+.
 lastMediaAccessState
 .
 lastMediaAccess
@@ -1904,6 +1950,8 @@ lastMediaAccess
 assertTrue
 (
 restoredTab
+.
+state
 .
 lastMediaAccessState
 .
@@ -2046,6 +2094,8 @@ assertEquals
 currentTime
 restoredTab
 .
+state
+.
 createdAt
 )
 }
@@ -2172,6 +2222,8 @@ restoredTab
 assertNotNull
 (
 restoredTab
+.
+state
 .
 createdAt
 )
@@ -2311,6 +2363,8 @@ search
 "
 restoredTab
 .
+state
+.
 searchTerm
 )
 }
@@ -2440,6 +2494,8 @@ assertEquals
 "
 "
 restoredTab
+.
+state
 .
 searchTerm
 )

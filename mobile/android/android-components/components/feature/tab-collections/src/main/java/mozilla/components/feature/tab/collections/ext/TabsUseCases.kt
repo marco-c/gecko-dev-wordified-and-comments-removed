@@ -279,6 +279,8 @@ item
 )
 item
 .
+state
+.
 id
 )
 if
@@ -296,6 +298,8 @@ UpdateLastAccessAction
 (
 item
 .
+state
+.
 id
 )
 )
@@ -303,6 +307,8 @@ id
 onTabRestored
 (
 item
+.
+state
 .
 id
 )
@@ -493,6 +499,9 @@ firstOrNull
 )
 ?
 .
+state
+?
+.
 id
 )
 if
@@ -511,6 +520,8 @@ tabs
 map
 {
 it
+.
+state
 .
 id
 }

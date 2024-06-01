@@ -222,6 +222,8 @@ tabs
 5
 ]
 .
+state
+.
 id
 snapshot
 .
@@ -257,6 +259,8 @@ James_Park_Woods
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -269,6 +273,8 @@ Woods
 Wikipedia
 "
 it
+.
+state
 .
 title
 )
@@ -303,6 +309,8 @@ fBbKagy1dD8
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -322,6 +330,8 @@ NOW
 YouTube
 "
 it
+.
+state
 .
 title
 )
@@ -344,6 +354,8 @@ addons
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -354,6 +366,8 @@ Add
 ons
 "
 it
+.
+state
 .
 title
 )
@@ -376,6 +390,8 @@ firefox
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -385,6 +401,8 @@ About
 Fennec
 "
 it
+.
+state
 .
 title
 )
@@ -453,6 +471,8 @@ os
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -469,6 +489,8 @@ in
 full
 "
 it
+.
+state
 .
 title
 )
@@ -517,6 +539,8 @@ pivot
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -535,6 +559,8 @@ Microsoft
 Surface
 "
 it
+.
+state
 .
 title
 )
@@ -698,6 +724,8 @@ tabs
 0
 ]
 .
+state
+.
 id
 snapshot
 .
@@ -733,6 +761,8 @@ Main_Page
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -744,6 +774,8 @@ free
 encyclopedia
 "
 it
+.
+state
 .
 title
 )
@@ -904,6 +936,8 @@ tabs
 1
 ]
 .
+state
+.
 id
 snapshot
 .
@@ -939,6 +973,8 @@ Climbing
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -949,6 +985,8 @@ Climbing
 Wikipedia
 "
 it
+.
+state
 .
 title
 )
@@ -986,6 +1024,8 @@ accounts
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -1005,6 +1045,8 @@ Firefox
 .
 "
 it
+.
+state
 .
 title
 )
@@ -1082,6 +1124,8 @@ tabs
 [
 12
 ]
+.
+state
 .
 id
 snapshot
@@ -1220,6 +1264,8 @@ tabs
 1
 ]
 .
+state
+.
 id
 snapshot
 .
@@ -1250,6 +1296,8 @@ de
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -1263,6 +1311,8 @@ Online
 Nachrichten
 "
 it
+.
+state
 .
 title
 )
@@ -1325,6 +1375,8 @@ b6dc
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -1344,6 +1396,8 @@ SPIEGEL
 Politik
 "
 it
+.
+state
 .
 title
 )
@@ -1536,6 +1590,8 @@ tabs
 0
 ]
 .
+state
+.
 id
 snapshot
 .
@@ -1566,6 +1622,8 @@ org
 "
 it
 .
+state
+.
 url
 )
 assertEquals
@@ -1583,6 +1641,8 @@ org
 /
 "
 it
+.
+state
 .
 title
 )
