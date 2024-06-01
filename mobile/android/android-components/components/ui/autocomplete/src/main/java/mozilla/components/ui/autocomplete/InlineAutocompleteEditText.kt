@@ -3677,11 +3677,8 @@ smaller
 )
 (
 textLength
-=
-=
+<
 textLengthBeforeChange
--
-1
 |
 |
 textLength
