@@ -503,7 +503,7 @@ verify
 loginSelectBar
 )
 .
-showPicker
+showPrompt
 (
 request
 .
@@ -548,7 +548,7 @@ verify
 loginSelectBar
 )
 .
-showPicker
+showPrompt
 (
 request
 .
@@ -590,7 +590,7 @@ request
 )
 loginPicker
 .
-onLoginSelected
+onOptionSelect
 (
 login
 )
@@ -604,7 +604,7 @@ verify
 loginSelectBar
 )
 .
-hidePicker
+hidePrompt
 (
 )
 }
@@ -646,7 +646,7 @@ request
 )
 loginPicker
 .
-onManageLogins
+onManageOptions
 (
 )
 assertTrue
@@ -662,7 +662,7 @@ verify
 loginSelectBar
 )
 .
-hidePicker
+hidePrompt
 (
 )
 }
