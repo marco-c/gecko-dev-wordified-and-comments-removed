@@ -1138,6 +1138,15 @@ icon
 contentDescription
 =
 contentDescription
+views
+.
+icon
+.
+visibility
+=
+View
+.
+VISIBLE
 }
 /
 *
