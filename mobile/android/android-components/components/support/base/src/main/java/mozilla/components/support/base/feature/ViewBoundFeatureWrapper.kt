@@ -1092,13 +1092,13 @@ onActivityResult
 requestCode
 :
 Int
-resultCode
-:
-Int
 data
 :
 Intent
 ?
+resultCode
+:
+Int
 )
 :
 Boolean
@@ -1147,8 +1147,8 @@ feature
 onActivityResult
 (
 requestCode
-resultCode
 data
+resultCode
 )
 }
 Synchronized

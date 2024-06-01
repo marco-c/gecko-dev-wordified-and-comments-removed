@@ -3804,8 +3804,8 @@ feature
 onActivityResult
 (
 FILE_PICKER_ACTIVITY_REQUEST_CODE
-RESULT_OK
 intent
+RESULT_OK
 )
 store
 .
@@ -4008,8 +4008,8 @@ feature
 onActivityResult
 (
 FILE_PICKER_ACTIVITY_REQUEST_CODE
-RESULT_OK
 intent
+RESULT_OK
 )
 store
 .
@@ -4125,8 +4125,8 @@ feature
 onActivityResult
 (
 FILE_PICKER_ACTIVITY_REQUEST_CODE
-RESULT_CANCELED
 intent
+RESULT_CANCELED
 )
 store
 .

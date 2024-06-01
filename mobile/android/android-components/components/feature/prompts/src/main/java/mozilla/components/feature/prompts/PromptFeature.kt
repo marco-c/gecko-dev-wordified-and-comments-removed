@@ -2328,7 +2328,7 @@ intent
 .
 *
 param
-intent
+data
 The
 result
 of
@@ -2344,13 +2344,13 @@ onActivityResult
 requestCode
 :
 Int
-resultCode
-:
-Int
 data
 :
 Intent
 ?
+resultCode
+:
+Int
 )
 :
 Boolean
