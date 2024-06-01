@@ -1269,6 +1269,12 @@ reload
 (
 )
 ;
+TelemetryWrapper
+.
+swipeReloadEvent
+(
+)
+;
 }
 }
 )
@@ -3939,6 +3945,12 @@ refresh
 :
 {
 reload
+(
+)
+;
+TelemetryWrapper
+.
+menuReloadEvent
 (
 )
 ;
