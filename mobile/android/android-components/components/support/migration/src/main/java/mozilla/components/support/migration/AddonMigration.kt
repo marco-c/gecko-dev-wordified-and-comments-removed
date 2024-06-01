@@ -604,6 +604,16 @@ Exception
 )
 installedAddons
 .
+filter
+{
+!
+it
+.
+isBuiltIn
+(
+)
+}
+.
 forEach
 {
 addon
