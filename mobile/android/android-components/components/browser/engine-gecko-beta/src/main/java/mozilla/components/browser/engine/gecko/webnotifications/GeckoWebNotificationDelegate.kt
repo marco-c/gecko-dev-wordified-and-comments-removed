@@ -181,8 +181,7 @@ WebNotification
 title
 tag
 text
-"
-"
+source
 imageUrl
 textDirection
 lang
