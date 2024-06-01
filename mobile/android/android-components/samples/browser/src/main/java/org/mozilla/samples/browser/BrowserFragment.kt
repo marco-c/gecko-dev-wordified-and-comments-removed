@@ -479,7 +479,7 @@ components
 engine
 components
 .
-sessionManager
+store
 layout
 .
 toolbar
