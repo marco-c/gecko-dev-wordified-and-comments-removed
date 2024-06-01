@@ -481,7 +481,7 @@ compose_version
 "
 1
 .
-2
+3
 .
 1
 "
