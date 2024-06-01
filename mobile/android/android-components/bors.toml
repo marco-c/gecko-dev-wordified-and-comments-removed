@@ -42,3 +42,10 @@ required_approvals
 delete_merged_branches
 =
 true
+cut_body_after
+=
+"
+-
+-
+-
+"
