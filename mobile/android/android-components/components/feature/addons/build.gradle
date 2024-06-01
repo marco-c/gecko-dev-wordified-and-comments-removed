@@ -281,6 +281,16 @@ project
 (
 '
 :
+ui
+-
+widgets
+'
+)
+implementation
+project
+(
+'
+:
 browser
 -
 state
