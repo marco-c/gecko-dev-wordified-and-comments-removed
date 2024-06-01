@@ -201,7 +201,7 @@ ORDER
 BY
 tab_collections
 .
-updated_at
+created_at
 DESC
 "
 "
@@ -231,7 +231,7 @@ FROM
 tab_collections
 ORDER
 BY
-updated_at
+created_at
 DESC
 LIMIT
 :
