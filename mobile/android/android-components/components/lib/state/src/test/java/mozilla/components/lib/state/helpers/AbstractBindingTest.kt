@@ -208,9 +208,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-TestCoroutineDispatcher
-(
-)
 )
 Test
 fun

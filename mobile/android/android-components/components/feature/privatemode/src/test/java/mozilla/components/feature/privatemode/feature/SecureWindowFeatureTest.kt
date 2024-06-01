@@ -227,9 +227,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-TestCoroutineDispatcher
-(
-)
 )
 private
 lateinit
