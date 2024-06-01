@@ -2024,7 +2024,7 @@ httpRealm
 )
 )
 val
-formSubmitURL
+formSubmitUrl
 =
 it
 .
@@ -2191,12 +2191,16 @@ encodedPassword
 httpRealm
 =
 httpRealm
-formSubmitURL
+formSubmitUrl
 =
-formSubmitURL
+formSubmitUrl
 timesUsed
 =
 timesUsed
+.
+toLong
+(
+)
 timeCreated
 =
 timeCreated

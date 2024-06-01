@@ -450,7 +450,7 @@ testp
 httpRealm
 =
 null
-formSubmitURL
+formSubmitUrl
 =
 "
 https
@@ -530,7 +530,7 @@ pass
 httpRealm
 =
 null
-formSubmitURL
+formSubmitUrl
 =
 "
 https
@@ -791,7 +791,7 @@ IzLKPAKu6W3JX3wqi6WyIxJWeqckDkNiqrKLZAZ3MiWSTS3d5ELHLInrF97tsb86ygawBldjc8JMiWmk
 httpRealm
 =
 null
-formSubmitURL
+formSubmitUrl
 =
 "
 https
@@ -894,7 +894,7 @@ hello
 httpRealm
 =
 null
-formSubmitURL
+formSubmitUrl
 =
 "
 https
@@ -1068,7 +1068,7 @@ testp
 httpRealm
 =
 null
-formSubmitURL
+formSubmitUrl
 =
 "
 https
@@ -1148,7 +1148,7 @@ pass
 httpRealm
 =
 null
-formSubmitURL
+formSubmitUrl
 =
 "
 https
