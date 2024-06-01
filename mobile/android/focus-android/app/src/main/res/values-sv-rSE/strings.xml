@@ -671,6 +671,7 @@ preference_privacy_block_ads
 >
 Blockera
 annons
+-
 trackers
 <
 /
@@ -685,7 +686,7 @@ preference_privacy_block_analytics
 "
 >
 Blockera
-analys
+analytiska
 trackers
 <
 /

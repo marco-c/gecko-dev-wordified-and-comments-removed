@@ -730,9 +730,6 @@ preference_privacy_block_social
 >
 Bloquear
 rastreadores
-de
-m
-dias
 sociais
 <
 /
@@ -749,9 +746,6 @@ preference_privacy_block_content
 Bloquear
 outros
 rastreadores
-de
-conte
-do
 <
 /
 string
@@ -2460,7 +2454,7 @@ firstrun_tracking_text
 Bloqueie
 automaticamente
 o
-acompanhamento
+rastreamento
 online
 enquanto
 navega
