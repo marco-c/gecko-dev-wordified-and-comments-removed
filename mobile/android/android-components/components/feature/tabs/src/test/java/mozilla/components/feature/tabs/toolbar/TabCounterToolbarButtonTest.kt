@@ -395,13 +395,6 @@ var
 lifecycleOwner
 :
 MockedLifecycleOwner
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -410,7 +403,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 internal
 class

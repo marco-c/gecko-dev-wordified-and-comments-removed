@@ -225,13 +225,6 @@ SELECTED_TAB_ID
 class
 SearchFeatureTest
 {
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -240,7 +233,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 private
 lateinit

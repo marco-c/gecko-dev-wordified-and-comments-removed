@@ -407,13 +407,6 @@ custom
 id
 "
 private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
-private
 var
 toolbarVisible
 =
@@ -426,7 +419,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 Before
 fun

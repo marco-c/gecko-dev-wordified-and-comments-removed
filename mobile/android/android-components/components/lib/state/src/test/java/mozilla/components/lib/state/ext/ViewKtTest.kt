@@ -267,13 +267,6 @@ ExperimentalCoroutinesApi
 class
 ViewKtTest
 {
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -282,7 +275,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 Test
 Synchronized

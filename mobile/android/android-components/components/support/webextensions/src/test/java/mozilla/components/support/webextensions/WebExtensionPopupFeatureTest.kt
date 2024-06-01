@@ -230,13 +230,6 @@ class
 class
 WebExtensionPopupFeatureTest
 {
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -245,7 +238,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 Test
 fun
