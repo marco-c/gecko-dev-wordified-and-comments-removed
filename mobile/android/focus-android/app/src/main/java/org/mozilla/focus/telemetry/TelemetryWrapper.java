@@ -765,7 +765,7 @@ threadPolicy
 =
 StrictMode
 .
-allowThreadDiskReads
+allowThreadDiskWrites
 (
 )
 ;
