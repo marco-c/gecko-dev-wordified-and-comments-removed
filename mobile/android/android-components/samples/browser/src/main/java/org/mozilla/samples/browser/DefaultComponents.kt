@@ -333,6 +333,8 @@ feature
 .
 intent
 .
+processing
+.
 TabIntentProcessor
 import
 mozilla

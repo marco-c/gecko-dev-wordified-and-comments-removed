@@ -115,11 +115,11 @@ mozilla
 .
 components
 .
-browser
-.
-session
+feature
 .
 intent
+.
+ext
 .
 getSessionId
 import

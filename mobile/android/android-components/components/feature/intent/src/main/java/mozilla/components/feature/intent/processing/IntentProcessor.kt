@@ -61,11 +61,11 @@ mozilla
 .
 components
 .
-browser
-.
-session
+feature
 .
 intent
+.
+processing
 import
 android
 .

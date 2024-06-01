@@ -157,16 +157,6 @@ project
 :
 feature
 -
-customtabs
-'
-)
-implementation
-project
-(
-'
-:
-feature
--
 search
 '
 )

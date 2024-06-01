@@ -64,6 +64,8 @@ components
 feature
 .
 intent
+.
+processing
 import
 android
 .
@@ -126,18 +128,6 @@ browser
 session
 .
 SessionManager
-import
-mozilla
-.
-components
-.
-browser
-.
-session
-.
-intent
-.
-IntentProcessor
 import
 mozilla
 .
