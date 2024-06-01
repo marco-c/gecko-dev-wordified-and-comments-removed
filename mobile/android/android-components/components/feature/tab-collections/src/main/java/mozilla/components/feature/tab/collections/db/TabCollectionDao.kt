@@ -251,6 +251,7 @@ List
 TabCollectionWithTabs
 >
 >
+Transaction
 Query
 (
 "
