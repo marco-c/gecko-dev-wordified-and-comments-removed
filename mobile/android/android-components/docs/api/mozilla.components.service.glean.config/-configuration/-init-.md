@@ -104,8 +104,6 @@ index
 html
 )
 =
-GleanCoreConfiguration
-.
 DEFAULT_TELEMETRY_ENDPOINT
 channel
 :

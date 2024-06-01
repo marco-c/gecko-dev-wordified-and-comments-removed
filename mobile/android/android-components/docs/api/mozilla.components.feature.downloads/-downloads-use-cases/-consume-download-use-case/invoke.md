@@ -110,7 +110,7 @@ html
 downloadId
 :
 [
-String
+Long
 ]
 (
 https
@@ -132,7 +132,7 @@ stdlib
 kotlin
 /
 -
-string
+long
 /
 index
 .
@@ -253,7 +253,7 @@ kotlin
 String
 kotlin
 .
-String
+Long
 )
 /
 downloadId
@@ -290,7 +290,7 @@ kotlin
 String
 kotlin
 .
-String
+Long
 )
 /
 tabId
