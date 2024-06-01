@@ -364,7 +364,7 @@ android
 layout_width
 =
 "
-300dp
+match_parent
 "
 android
 :
@@ -372,6 +372,13 @@ layout_height
 =
 "
 wrap_content
+"
+android
+:
+lineSpacingExtra
+=
+"
+5sp
 "
 android
 :
