@@ -223,6 +223,9 @@ adapter
 new
 SearchEngineAdapter
 (
+getContext
+(
+)
 )
 ;
 builder
