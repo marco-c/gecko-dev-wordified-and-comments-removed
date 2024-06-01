@@ -329,6 +329,9 @@ autocomplete
 AutocompleteSource
 .
 CUSTOM_LIST
+customDomains
+.
+size
 )
 )
 return
@@ -370,6 +373,9 @@ autocomplete
 AutocompleteSource
 .
 DEFAULT_LIST
+preInstalledDomains
+.
+size
 )
 )
 return
@@ -885,6 +891,9 @@ String
 source
 :
 String
+totalCount
+:
+Int
 )
 =
 AutocompleteResult
@@ -900,5 +909,6 @@ rawSearchText
 length
 )
 source
+totalCount
 )
 }

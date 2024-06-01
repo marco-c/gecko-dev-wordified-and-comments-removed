@@ -1904,6 +1904,9 @@ TelemetryWrapper
 urlBarEvent
 (
 isUrl
+urlView
+.
+lastAutocompleteResult
 )
 }
 }
