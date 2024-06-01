@@ -140,13 +140,6 @@ mozac_browser_menu_item_container_layout_height
 "
 android
 :
-orientation
-=
-"
-vertical
-"
-android
-:
 paddingStart
 =
 "
