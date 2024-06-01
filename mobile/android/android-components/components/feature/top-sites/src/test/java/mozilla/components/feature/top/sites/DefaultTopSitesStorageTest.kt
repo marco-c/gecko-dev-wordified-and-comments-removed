@@ -1610,9 +1610,6 @@ getTopSites
 totalSites
 =
 5
-frecencyConfig
-=
-null
 providerConfig
 =
 TopSitesProviderConfig

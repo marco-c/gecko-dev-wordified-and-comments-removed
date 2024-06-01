@@ -197,11 +197,15 @@ frecencyConfig
 :
 FrecencyThresholdOption
 ?
+=
+null
 val
 providerConfig
 :
 TopSitesProviderConfig
 ?
+=
+null
 )
 /
 *
