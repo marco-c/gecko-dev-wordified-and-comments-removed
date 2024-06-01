@@ -404,6 +404,16 @@ awesomebar
 *
 *
 *
+*
+*
+This
+is
+a
+breaking
+change
+*
+*
+:
 Added
 resources
 parameter
