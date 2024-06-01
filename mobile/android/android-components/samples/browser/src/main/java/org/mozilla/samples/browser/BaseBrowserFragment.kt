@@ -1037,6 +1037,13 @@ SitePermissionsRules
 Action
 .
 ASK_TO_ALLOW
+persistentStorage
+=
+SitePermissionsRules
+.
+Action
+.
+ASK_TO_ALLOW
 )
 onNeedToRequestPermissions
 =
