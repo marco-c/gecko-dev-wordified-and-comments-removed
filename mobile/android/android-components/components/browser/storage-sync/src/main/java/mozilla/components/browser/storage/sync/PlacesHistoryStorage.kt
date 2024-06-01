@@ -350,7 +350,7 @@ PageVisit
 {
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -470,7 +470,7 @@ URL
 .
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -567,7 +567,7 @@ Boolean
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -599,7 +599,7 @@ String
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -655,7 +655,7 @@ VisitInfo
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -719,7 +719,7 @@ VisitInfo
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -774,7 +774,7 @@ TopFrecentSiteInfo
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -978,7 +978,7 @@ deleteEverything
 {
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1034,7 +1034,7 @@ Long
 {
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1094,7 +1094,7 @@ Long
 {
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1140,7 +1140,7 @@ String
 {
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1206,7 +1206,7 @@ Long
 {
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1276,7 +1276,7 @@ prune
 {
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1340,7 +1340,7 @@ SyncStatus
 return
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )

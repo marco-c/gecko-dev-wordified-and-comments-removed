@@ -307,7 +307,7 @@ BookmarkNode
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -389,7 +389,7 @@ BookmarkNode
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -460,7 +460,7 @@ BookmarkNode
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -553,7 +553,7 @@ BookmarkNode
 return
 withContext
 (
-scope
+readScope
 .
 coroutineContext
 )
@@ -694,7 +694,7 @@ String
 return
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -812,7 +812,7 @@ String
 return
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -914,7 +914,7 @@ String
 return
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1007,7 +1007,7 @@ BookmarkInfo
 return
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1089,7 +1089,7 @@ Boolean
 =
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
@@ -1149,7 +1149,7 @@ SyncStatus
 return
 withContext
 (
-scope
+writeScope
 .
 coroutineContext
 )
