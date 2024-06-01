@@ -263,6 +263,10 @@ changed
 :
 -
 '
+android
+-
+components
+/
 buildSrc
 /
 src
@@ -305,9 +309,9 @@ mozilla
 -
 mobile
 -
-android
+firefox
 -
-components
+android
 /
 nightly
 '
@@ -335,9 +339,9 @@ releng
 -
 staging
 -
-android
+firefox
 -
-components
+android
 /
 nightly
 '
@@ -360,9 +364,9 @@ mozilla
 -
 mobile
 -
-android
+firefox
 -
-components
+android
 '
 default
 :
@@ -373,7 +377,7 @@ releng
 -
 staging
 -
-android
+firefox
 -
-components
+android
 '
