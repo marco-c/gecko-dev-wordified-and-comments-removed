@@ -381,6 +381,9 @@ feature
 .
 onPause
 (
+mock
+(
+)
 )
 verify
 (
@@ -723,6 +726,9 @@ feature
 .
 onCreate
 (
+mock
+(
+)
 )
 verify
 (

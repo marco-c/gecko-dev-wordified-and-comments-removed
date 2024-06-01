@@ -373,6 +373,9 @@ basicManifest
 .
 onResume
 (
+mock
+(
+)
 )
 verify
 (
@@ -414,6 +417,9 @@ fullscreenManifest
 .
 onResume
 (
+mock
+(
+)
 )
 verify
 (
@@ -469,6 +475,9 @@ manifest
 .
 onResume
 (
+mock
+(
+)
 )
 verify
 (
@@ -556,6 +565,9 @@ manifest
 .
 onResume
 (
+mock
+(
+)
 )
 verify
 (
