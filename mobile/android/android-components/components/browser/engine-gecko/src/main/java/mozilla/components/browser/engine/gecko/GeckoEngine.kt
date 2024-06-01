@@ -339,7 +339,7 @@ engine
 .
 webextension
 .
-ActionHandler
+Action
 import
 mozilla
 .
@@ -351,7 +351,7 @@ engine
 .
 webextension
 .
-BrowserAction
+ActionHandler
 import
 mozilla
 .
@@ -1344,7 +1344,7 @@ EngineSession
 ?
 action
 :
-BrowserAction
+Action
 )
 {
 webExtensionDelegate
@@ -1358,14 +1358,14 @@ action
 }
 override
 fun
-onToggleBrowserActionPopup
+onToggleActionPopup
 (
 extension
 :
 WebExtension
 action
 :
-BrowserAction
+Action
 )
 :
 EngineSession
@@ -1382,7 +1382,7 @@ return
 webExtensionDelegate
 ?
 .
-onToggleBrowserActionPopup
+onToggleActionPopup
 (
 extension
 session

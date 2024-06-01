@@ -139,9 +139,11 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-menu
+engine
+.
+webextension
 .
 WebExtensionBrowserAction
 import

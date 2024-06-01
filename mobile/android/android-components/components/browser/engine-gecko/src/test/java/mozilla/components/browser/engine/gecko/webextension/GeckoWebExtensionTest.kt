@@ -103,7 +103,7 @@ engine
 .
 webextension
 .
-ActionHandler
+Action
 import
 mozilla
 .
@@ -115,7 +115,7 @@ engine
 .
 webextension
 .
-BrowserAction
+ActionHandler
 import
 mozilla
 .
@@ -1684,7 +1684,7 @@ actionCaptor
 =
 argumentCaptor
 <
-BrowserAction
+Action
 >
 (
 )
@@ -1868,7 +1868,7 @@ verify
 actionHandler
 )
 .
-onToggleBrowserActionPopup
+onToggleActionPopup
 (
 eq
 (
@@ -2008,7 +2008,7 @@ actionCaptor
 =
 argumentCaptor
 <
-BrowserAction
+Action
 >
 (
 )

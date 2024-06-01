@@ -1550,7 +1550,7 @@ argumentCaptor
 <
 WebExtensionAction
 .
-UpdateWebExtension
+UpdateWebExtensionAction
 >
 (
 )

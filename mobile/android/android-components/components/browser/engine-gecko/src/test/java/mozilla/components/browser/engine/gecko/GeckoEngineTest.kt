@@ -237,7 +237,7 @@ engine
 .
 webextension
 .
-ActionHandler
+Action
 import
 mozilla
 .
@@ -249,7 +249,7 @@ engine
 .
 webextension
 .
-BrowserAction
+ActionHandler
 import
 mozilla
 .
@@ -4166,7 +4166,7 @@ capture
 val
 browserAction
 :
-BrowserAction
+Action
 =
 mock
 (
@@ -4203,7 +4203,7 @@ actionHandlerCaptor
 .
 value
 .
-onToggleBrowserActionPopup
+onToggleActionPopup
 (
 extension
 browserAction
@@ -4214,7 +4214,7 @@ verify
 webExtensionsDelegate
 )
 .
-onToggleBrowserActionPopup
+onToggleActionPopup
 (
 eq
 (
@@ -4232,7 +4232,7 @@ whenever
 (
 webExtensionsDelegate
 .
-onToggleBrowserActionPopup
+onToggleActionPopup
 (
 any
 (
@@ -4258,7 +4258,7 @@ actionHandlerCaptor
 .
 value
 .
-onToggleBrowserActionPopup
+onToggleActionPopup
 (
 extension
 browserAction

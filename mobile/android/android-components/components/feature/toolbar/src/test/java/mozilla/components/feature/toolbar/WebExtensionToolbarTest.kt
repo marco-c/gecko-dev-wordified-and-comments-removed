@@ -145,7 +145,7 @@ engine
 .
 webextension
 .
-BrowserAction
+Action
 import
 mozilla
 .
@@ -415,7 +415,7 @@ mock
 val
 browserAction
 =
-BrowserAction
+Action
 (
 title
 =
@@ -642,7 +642,7 @@ mock
 val
 browserAction
 =
-BrowserAction
+Action
 (
 title
 =
@@ -736,7 +736,7 @@ false
 val
 browserAction
 =
-BrowserAction
+Action
 (
 title
 =
@@ -939,7 +939,7 @@ mock
 val
 browserAction
 =
-BrowserAction
+Action
 (
 title
 =
