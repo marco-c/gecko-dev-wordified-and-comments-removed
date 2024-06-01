@@ -669,6 +669,14 @@ target
 }
 }
 )
+if
+(
+!
+isSelectionMode
+(
+)
+)
+{
 itemTouchHelper
 ?
 .
@@ -676,6 +684,7 @@ attachToRecyclerView
 (
 domainList
 )
+}
 }
 override
 fun
