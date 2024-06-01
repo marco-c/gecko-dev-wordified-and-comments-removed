@@ -208,7 +208,7 @@ WebExtensionController
 .
 kt
 #
-L87
+L96
 )
 Registers
 a

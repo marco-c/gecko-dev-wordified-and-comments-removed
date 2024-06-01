@@ -20,7 +20,9 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 ]
@@ -118,9 +120,9 @@ master
 /
 components
 /
-lib
+support
 /
-crash
+base
 /
 src
 /
@@ -132,7 +134,9 @@ mozilla
 /
 components
 /
-lib
+support
+/
+base
 /
 crash
 /

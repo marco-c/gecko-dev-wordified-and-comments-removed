@@ -141,6 +141,12 @@ addButton
 ERROR
 CLASS
 >
+allowedInPrivateBrowsingLabel
+:
+<
+ERROR
+CLASS
+>
 )
 A
 view

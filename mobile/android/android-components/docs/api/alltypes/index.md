@@ -4923,7 +4923,9 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 .
@@ -4937,7 +4939,9 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 /

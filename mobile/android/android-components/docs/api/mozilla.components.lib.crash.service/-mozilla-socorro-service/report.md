@@ -574,7 +574,9 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 /
