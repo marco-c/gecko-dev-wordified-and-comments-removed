@@ -341,6 +341,9 @@ customTabId
 if
 (
 session
+?
+.
+customTabConfig
 !
 =
 null
