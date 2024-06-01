@@ -247,6 +247,13 @@ windowSoftInputMode
 "
 adjustResize
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 intent

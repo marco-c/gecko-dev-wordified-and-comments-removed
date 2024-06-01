@@ -206,6 +206,13 @@ name
 .
 ToolbarActivity
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 intent

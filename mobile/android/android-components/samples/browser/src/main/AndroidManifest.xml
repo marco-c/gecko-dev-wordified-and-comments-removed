@@ -433,6 +433,13 @@ singleTask
 "
 android
 :
+exported
+=
+"
+true
+"
+android
+:
 configChanges
 =
 "
@@ -1297,6 +1304,13 @@ label
 string
 /
 app_name
+"
+android
+:
+exported
+=
+"
+true
 "
 android
 :

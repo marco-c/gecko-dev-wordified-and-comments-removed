@@ -67,6 +67,12 @@ errorpages
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 Context
@@ -133,6 +139,12 @@ displaying
 images
 *
 /
+SuppressLint
+(
+"
+StringFormatInvalid
+"
+)
 fun
 createUrlEncodedErrorPage
 (

@@ -219,6 +219,13 @@ override
 "
 true
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 name
 =
 "

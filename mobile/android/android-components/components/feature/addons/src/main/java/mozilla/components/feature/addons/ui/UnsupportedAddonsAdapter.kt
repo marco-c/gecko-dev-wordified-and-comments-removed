@@ -69,6 +69,12 @@ ui
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 view
 .
 LayoutInflater
@@ -221,6 +227,12 @@ store
 .
 *
 /
+SuppressLint
+(
+"
+NotifyDataSetChanged
+"
+)
 class
 UnsupportedAddonsAdapter
 (

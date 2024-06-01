@@ -346,6 +346,15 @@ Observer
 S
 >
 )
+:
+Store
+.
+Subscription
+<
+S
+A
+>
+?
 {
 if
 (
@@ -377,6 +386,7 @@ to
 register
 .
 return
+null
 }
 val
 subscription
@@ -406,6 +416,8 @@ addObserver
 this
 )
 }
+return
+subscription
 }
 /
 *

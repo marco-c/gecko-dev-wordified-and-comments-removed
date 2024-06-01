@@ -69,6 +69,12 @@ ui
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 Context
@@ -467,6 +473,12 @@ onSelection
 }
 }
 }
+SuppressLint
+(
+"
+NotifyDataSetChanged
+"
+)
 fun
 updateList
 (

@@ -282,6 +282,13 @@ launchMode
 "
 singleTask
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 intent
