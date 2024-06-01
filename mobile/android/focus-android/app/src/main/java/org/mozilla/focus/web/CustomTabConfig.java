@@ -414,7 +414,6 @@ EXTRA_SESSION
 )
 ;
 }
-private
 static
 Nullable
 Bitmap
@@ -541,7 +540,6 @@ null
 ;
 }
 }
-private
 static
 Nullable
 ActionButtonConfig
