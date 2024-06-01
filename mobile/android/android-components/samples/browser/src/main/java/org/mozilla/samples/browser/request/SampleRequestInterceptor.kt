@@ -167,6 +167,13 @@ RequestInterceptor
 {
 override
 fun
+interceptsAppInitiatedRequests
+(
+)
+=
+true
+override
+fun
 onLoadRequest
 (
 engineSession
