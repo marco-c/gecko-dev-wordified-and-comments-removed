@@ -93,9 +93,9 @@ mozilla
 .
 components
 .
-lib
+concept
 .
-dataprotect
+storage
 .
 KeyGenerationReason
 import
@@ -103,9 +103,9 @@ mozilla
 .
 components
 .
-lib
+concept
 .
-dataprotect
+storage
 .
 KeyRecoveryHandler
 import
@@ -113,9 +113,9 @@ mozilla
 .
 components
 .
-lib
+concept
 .
-dataprotect
+storage
 .
 ManagedKey
 import

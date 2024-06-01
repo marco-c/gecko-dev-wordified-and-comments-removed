@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-lib
+concept
 .
-dataprotect
+storage
 /
 *
 *
