@@ -88,10 +88,9 @@ lib
 crash
 .
 Crash
-internal
 const
 val
-INFO_PREFIX
+LIB_CRASH_INFO_PREFIX
 =
 "
 [

@@ -65,7 +65,9 @@ lib
 .
 crash
 .
-service
+sentry
+.
+legacy
 import
 androidx
 .
@@ -2558,7 +2560,9 @@ addAll
 (
 reporter
 .
-crashBreadcrumbs
+crashBreadcrumbsCopy
+(
+)
 )
 val
 nativeCrash
@@ -2813,7 +2817,9 @@ addAll
 (
 reporter
 .
-crashBreadcrumbs
+crashBreadcrumbsCopy
+(
+)
 )
 service
 .

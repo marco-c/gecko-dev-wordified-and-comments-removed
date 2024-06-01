@@ -3631,7 +3631,7 @@ true
 -
 >
 "
-INFO_PREFIX
+LIB_CRASH_INFO_PREFIX
 {
 throwable
 .

@@ -793,7 +793,6 @@ the
 crashBreadCrumbs
 *
 /
-internal
 fun
 crashBreadcrumbsCopy
 (
