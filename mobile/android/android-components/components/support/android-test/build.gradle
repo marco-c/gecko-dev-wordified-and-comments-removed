@@ -171,6 +171,10 @@ kotlin_stdlib
 implementation
 Dependencies
 .
+androidx_arch_core_common
+implementation
+Dependencies
+.
 androidx_espresso_core
 implementation
 Dependencies

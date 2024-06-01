@@ -714,8 +714,6 @@ first
 assertNotNull
 (
 topSites
-!
-!
 )
 assertEquals
 (
