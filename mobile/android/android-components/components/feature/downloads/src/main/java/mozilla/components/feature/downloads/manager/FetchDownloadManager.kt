@@ -437,7 +437,7 @@ cookie
 String
 )
 :
-Long
+String
 ?
 {
 if
@@ -517,7 +517,7 @@ tryAgain
 (
 downloadId
 :
-Long
+String
 )
 {
 val
@@ -673,12 +673,14 @@ downloadID
 =
 intent
 .
-getLongExtra
+getStringExtra
 (
 EXTRA_DOWNLOAD_ID
--
-1
 )
+?
+:
+"
+"
 val
 download
 =

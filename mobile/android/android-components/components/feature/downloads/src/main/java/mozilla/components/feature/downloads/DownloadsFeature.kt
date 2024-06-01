@@ -1066,7 +1066,7 @@ tryAgain
 (
 id
 :
-Long
+String
 )
 {
 downloadManager

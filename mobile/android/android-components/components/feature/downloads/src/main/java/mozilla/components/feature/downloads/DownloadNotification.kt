@@ -1583,7 +1583,7 @@ context
 Context
 downloadStateId
 :
-Long
+String
 )
 :
 NotificationCompat
@@ -1633,7 +1633,7 @@ context
 Context
 downloadStateId
 :
-Long
+String
 )
 :
 NotificationCompat
@@ -1683,7 +1683,7 @@ context
 Context
 downloadStateId
 :
-Long
+String
 )
 :
 NotificationCompat
@@ -1733,7 +1733,7 @@ context
 Context
 downloadStateId
 :
-Long
+String
 )
 :
 NotificationCompat
@@ -1783,7 +1783,7 @@ context
 Context
 downloadStateId
 :
-Long
+String
 )
 :
 PendingIntent
@@ -1808,7 +1808,7 @@ action
 String
 downloadStateId
 :
-Long
+String
 )
 :
 PendingIntent

@@ -121,7 +121,7 @@ onDownloadStopped
 =
 (
 DownloadState
-Long
+String
 Status
 )
 -
@@ -204,7 +204,7 @@ String
 "
 )
 :
-Long
+String
 ?
 /
 *
@@ -236,7 +236,7 @@ tryAgain
 (
 downloadId
 :
-Long
+String
 )
 fun
 unregisterListeners

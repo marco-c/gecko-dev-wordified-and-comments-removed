@@ -2215,7 +2215,9 @@ DownloadState
 (
 id
 =
-1337L
+"
+1337
+"
 url
 =
 "
@@ -2275,7 +2277,9 @@ tab
 id
 downloadId
 =
+"
 1337
+"
 )
 )
 .
@@ -2311,7 +2315,9 @@ DownloadState
 (
 id
 =
-1337L
+"
+1337
+"
 url
 =
 "
@@ -2371,7 +2377,9 @@ tab
 id
 downloadId
 =
+"
 4223
+"
 )
 )
 .

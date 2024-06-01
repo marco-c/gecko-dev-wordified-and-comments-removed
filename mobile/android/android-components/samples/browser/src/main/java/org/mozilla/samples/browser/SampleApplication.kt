@@ -476,6 +476,13 @@ currentTimeMillis
 )
 )
 }
+components
+.
+downloadsUseCases
+.
+restoreDownloads
+(
+)
 try
 {
 GlobalAddonDependencyProvider

@@ -326,7 +326,7 @@ downloads
 :
 Map
 <
-Long
+String
 DownloadState
 >
 =

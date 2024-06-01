@@ -993,7 +993,7 @@ notifyDownloadFailed
 (
 id
 :
-Long
+String
 )
 {
 val
@@ -1040,7 +1040,7 @@ notifyDownloadCompleted
 (
 id
 :
-Long
+String
 )
 {
 val
