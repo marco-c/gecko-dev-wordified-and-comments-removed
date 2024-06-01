@@ -3,10 +3,6 @@ datetime
 import
 re
 from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms

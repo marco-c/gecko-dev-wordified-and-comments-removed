@@ -27,10 +27,6 @@ import
 Required
 Optional
 from
-six
-import
-text_type
-from
 pipes
 import
 quote

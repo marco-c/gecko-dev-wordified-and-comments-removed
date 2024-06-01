@@ -169,7 +169,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 taskcluster
 /

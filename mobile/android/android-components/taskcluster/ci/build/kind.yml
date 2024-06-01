@@ -267,7 +267,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 {
 component_path
@@ -321,7 +321,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 {
 component_path
@@ -365,7 +365,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 {
 component_path
@@ -441,7 +441,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 {
 component_path

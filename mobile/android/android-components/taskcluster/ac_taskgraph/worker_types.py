@@ -1,8 +1,4 @@
 from
-six
-import
-text_type
-from
 voluptuous
 import
 Any

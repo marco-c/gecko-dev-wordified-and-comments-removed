@@ -311,7 +311,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 build
 /
