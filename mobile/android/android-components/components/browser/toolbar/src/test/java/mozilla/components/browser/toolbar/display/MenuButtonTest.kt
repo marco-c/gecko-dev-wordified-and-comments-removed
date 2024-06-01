@@ -673,7 +673,7 @@ label
 "
 Test
 "
-imageResource
+startImageResource
 =
 0
 highlight
@@ -682,6 +682,7 @@ BrowserMenuHighlightableItem
 .
 Highlight
 (
+0
 0
 colorResource
 colorResource

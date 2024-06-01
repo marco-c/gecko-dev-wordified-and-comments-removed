@@ -3832,7 +3832,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 visible
 =
@@ -3906,7 +3906,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 padding
 =
@@ -3946,7 +3946,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 padding
 =
@@ -3986,7 +3986,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 padding
 =
@@ -4026,7 +4026,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 padding
 =
@@ -4066,7 +4066,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 padding
 =
@@ -4144,7 +4144,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 "
 "
@@ -4219,7 +4219,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 "
 "
@@ -4298,7 +4298,7 @@ mock
 (
 )
 "
-imageResource
+endImageResource
 "
 "
 "

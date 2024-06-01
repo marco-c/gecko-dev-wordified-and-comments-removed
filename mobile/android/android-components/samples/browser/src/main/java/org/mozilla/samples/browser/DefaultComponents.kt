@@ -889,6 +889,11 @@ R
 .
 drawable
 .
+mozac_ic_search
+R
+.
+drawable
+.
 mozac_ic_stop
 R
 .
