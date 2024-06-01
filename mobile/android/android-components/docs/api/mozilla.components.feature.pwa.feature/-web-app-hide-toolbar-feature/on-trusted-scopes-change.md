@@ -187,7 +187,7 @@ WebAppHideToolbarFeature
 .
 kt
 #
-L50
+L57
 )
 Hides
 or
