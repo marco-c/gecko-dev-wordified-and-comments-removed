@@ -243,7 +243,7 @@ LargeClass
 "
 )
 class
-PinnedSitesStorageTest
+OnDevicePinnedSitesStorageTest
 {
 private
 lateinit
@@ -810,7 +810,7 @@ topSites
 is
 TopSite
 .
-Pinned
+Default
 )
 }
 Test
