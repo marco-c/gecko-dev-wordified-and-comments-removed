@@ -155,11 +155,11 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+action
 .
-CustomTabConfig
+ContentAction
 import
 mozilla
 .
@@ -169,9 +169,9 @@ browser
 .
 state
 .
-action
+state
 .
-ContentAction
+CustomTabConfig
 import
 mozilla
 .

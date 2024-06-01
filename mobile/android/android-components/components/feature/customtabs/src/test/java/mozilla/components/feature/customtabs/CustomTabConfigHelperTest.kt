@@ -143,9 +143,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 .
 CustomTabConfig
 .

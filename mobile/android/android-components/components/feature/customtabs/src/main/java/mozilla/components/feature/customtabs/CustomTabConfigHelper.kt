@@ -313,9 +313,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 .
 CustomTabActionButtonConfig
 import
@@ -325,9 +325,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 .
 CustomTabConfig
 import
@@ -337,9 +337,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 .
 CustomTabConfig
 .
@@ -353,9 +353,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 .
 CustomTabMenuItem
 import
