@@ -10259,7 +10259,7 @@ name
 assertEquals
 (
 "
-Wikipedia
+eBay
 "
 store
 .
@@ -10277,7 +10277,7 @@ name
 assertEquals
 (
 "
-eBay
+Wikipedia
 "
 store
 .
@@ -10596,7 +10596,7 @@ name
 assertEquals
 (
 "
-Wikipedia
+eBay
 "
 store
 .
@@ -10614,7 +10614,7 @@ name
 assertEquals
 (
 "
-eBay
+Wikipedia
 "
 store
 .
@@ -10981,7 +10981,7 @@ name
 assertEquals
 (
 "
-Wikipedia
+eBay
 "
 store
 .
@@ -10999,7 +10999,7 @@ name
 assertEquals
 (
 "
-eBay
+Wikipedia
 "
 store
 .
