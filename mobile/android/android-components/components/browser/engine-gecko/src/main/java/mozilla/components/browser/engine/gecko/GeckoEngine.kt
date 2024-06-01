@@ -3290,7 +3290,7 @@ policy
 =
 value
 .
-sumBy
+sumOf
 {
 it
 .

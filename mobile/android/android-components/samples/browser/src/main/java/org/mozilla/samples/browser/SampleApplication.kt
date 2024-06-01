@@ -75,6 +75,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Dispatchers
 import
 kotlinx
@@ -313,6 +319,12 @@ Components
 this
 )
 }
+DelicateCoroutinesApi
+/
+/
+Usage
+of
+GlobalScope
 override
 fun
 onCreate
@@ -624,6 +636,7 @@ e
 )
 }
 }
+DelicateCoroutinesApi
 private
 fun
 restoreBrowserState

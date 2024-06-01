@@ -539,7 +539,7 @@ Build
 .
 MANUFACTURER
 .
-toLowerCase
+lowercase
 (
 Locale
 .

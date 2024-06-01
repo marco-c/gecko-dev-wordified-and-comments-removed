@@ -1913,7 +1913,7 @@ asString
 =
 name
 .
-toLowerCase
+lowercase
 (
 Locale
 .

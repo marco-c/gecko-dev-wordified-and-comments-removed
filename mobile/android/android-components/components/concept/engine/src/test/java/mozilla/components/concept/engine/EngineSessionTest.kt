@@ -8215,7 +8215,7 @@ method
 .
 name
 .
-toLowerCase
+lowercase
 (
 )
 .
@@ -8223,7 +8223,7 @@ contains
 (
 it
 .
-toLowerCase
+lowercase
 (
 )
 )

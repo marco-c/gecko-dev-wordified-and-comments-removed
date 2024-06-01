@@ -877,11 +877,7 @@ isLetterOrDigit
 return
 character
 .
-toUpperCase
-(
-)
-.
-toString
+uppercase
 (
 )
 }

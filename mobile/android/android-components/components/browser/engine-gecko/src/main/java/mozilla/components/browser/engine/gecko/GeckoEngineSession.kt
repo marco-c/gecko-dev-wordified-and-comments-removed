@@ -2391,7 +2391,7 @@ uri
 authority
 ?
 .
-toLowerCase
+lowercase
 (
 Locale
 .

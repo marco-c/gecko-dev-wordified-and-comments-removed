@@ -2193,7 +2193,7 @@ safeLanguage
 language
 ?
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -2368,7 +2368,7 @@ DEFAULT_LOCALE
 }
 )
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -2964,7 +2964,7 @@ Addon
 DEFAULT_LOCALE
 )
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -3052,7 +3052,7 @@ map
 [
 key
 .
-toLowerCase
+lowercase
 (
 Locale
 .

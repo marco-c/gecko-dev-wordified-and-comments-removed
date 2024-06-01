@@ -73,6 +73,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Dispatchers
 .
 IO
@@ -306,6 +312,13 @@ LoginEntry
 >
 >
 (
+)
+OptIn
+(
+DelicateCoroutinesApi
+:
+:
+class
 )
 GlobalScope
 .

@@ -91,6 +91,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 GlobalScope
 import
 kotlinx
@@ -1269,6 +1275,13 @@ identifier
 return
 searchEngineIdentifiers
 }
+OptIn
+(
+DelicateCoroutinesApi
+:
+:
+class
+)
 private
 suspend
 fun

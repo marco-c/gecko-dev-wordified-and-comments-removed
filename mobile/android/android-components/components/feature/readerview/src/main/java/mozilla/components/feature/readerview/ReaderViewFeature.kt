@@ -2129,7 +2129,7 @@ fontType
 .
 value
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -2144,7 +2144,7 @@ colorScheme
 .
 name
 .
-toLowerCase
+lowercase
 (
 Locale
 .

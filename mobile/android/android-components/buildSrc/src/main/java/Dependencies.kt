@@ -108,9 +108,9 @@ kotlin
 "
 1
 .
-4
+5
 .
-32
+10
 "
 const
 val
@@ -119,9 +119,9 @@ coroutines
 "
 1
 .
-4
+5
 .
-2
+0
 "
 const
 val
@@ -468,9 +468,9 @@ room
 "
 2
 .
-2
+3
 .
-5
+0
 "
 const
 val

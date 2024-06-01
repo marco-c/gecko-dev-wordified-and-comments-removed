@@ -841,7 +841,7 @@ isFileUrl
 (
 string
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -856,7 +856,7 @@ isJavaScriptUrl
 (
 string
 .
-toLowerCase
+lowercase
 (
 Locale
 .

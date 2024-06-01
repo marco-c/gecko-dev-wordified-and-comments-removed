@@ -127,6 +127,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Dispatchers
 import
 kotlinx
@@ -277,6 +283,13 @@ than
 the
 service
 .
+OptIn
+(
+DelicateCoroutinesApi
+:
+:
+class
+)
 GlobalScope
 .
 launch

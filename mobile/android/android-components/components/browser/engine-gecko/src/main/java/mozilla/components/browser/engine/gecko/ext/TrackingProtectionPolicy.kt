@@ -212,7 +212,7 @@ safeBrowsing
 (
 safeBrowsingPolicy
 .
-sumBy
+sumOf
 {
 it
 .
@@ -433,7 +433,7 @@ total
 =
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .

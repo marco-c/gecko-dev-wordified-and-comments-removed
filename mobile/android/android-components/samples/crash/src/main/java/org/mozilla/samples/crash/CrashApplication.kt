@@ -99,6 +99,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Dispatchers
 import
 kotlinx
@@ -447,6 +453,13 @@ CRASH
 "
 }
 }
+OptIn
+(
+DelicateCoroutinesApi
+:
+:
+class
+)
 private
 fun
 createDummyCrashService

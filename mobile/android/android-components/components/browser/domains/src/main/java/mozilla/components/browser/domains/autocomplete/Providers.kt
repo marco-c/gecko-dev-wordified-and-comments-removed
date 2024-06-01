@@ -513,7 +513,7 @@ searchText
 =
 query
 .
-toLowerCase
+lowercase
 (
 Locale
 .

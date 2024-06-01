@@ -182,7 +182,7 @@ it
 canPropagate
 }
 .
-maxBy
+maxByOrNull
 {
 /
 /

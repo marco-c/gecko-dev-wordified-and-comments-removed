@@ -130,9 +130,7 @@ put
 (
 character
 .
-toInt
-(
-)
+code
 this
 )
 }
@@ -374,9 +372,7 @@ charAt
 0
 )
 .
-toInt
-(
-)
+code
 )
 match
 =
@@ -627,9 +623,7 @@ get
 (
 character
 .
-toInt
-(
-)
+code
 )
 if
 (
@@ -656,9 +650,7 @@ put
 (
 character
 .
-toInt
-(
-)
+code
 newChild
 )
 return

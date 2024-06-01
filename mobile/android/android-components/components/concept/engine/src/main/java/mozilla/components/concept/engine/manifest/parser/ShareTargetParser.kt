@@ -564,7 +564,7 @@ valueOf
 (
 method
 .
-toUpperCase
+uppercase
 (
 Locale
 .
@@ -626,7 +626,7 @@ typeString
 encType
 ?
 .
-toLowerCase
+lowercase
 (
 Locale
 .

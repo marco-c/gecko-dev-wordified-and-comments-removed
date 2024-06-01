@@ -1016,7 +1016,7 @@ htmlInfo
 tag
 ?
 .
-toLowerCase
+lowercase
 (
 Locale
 .

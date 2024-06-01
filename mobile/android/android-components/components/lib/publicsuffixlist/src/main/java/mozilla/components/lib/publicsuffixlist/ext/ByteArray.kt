@@ -277,6 +277,8 @@ false
 .
 '
 .
+code
+.
 toByte
 (
 )
@@ -670,6 +672,8 @@ index
 n
 '
 .
+code
+.
 toByte
 (
 )
@@ -737,6 +741,8 @@ end
 \
 n
 '
+.
+code
 .
 toByte
 (

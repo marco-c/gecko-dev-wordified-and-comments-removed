@@ -486,7 +486,7 @@ add
 (
 c
 .
-toLowerCase
+lowercase
 (
 Locale
 .

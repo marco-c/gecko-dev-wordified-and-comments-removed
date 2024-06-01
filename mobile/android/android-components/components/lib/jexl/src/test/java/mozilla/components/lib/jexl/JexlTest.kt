@@ -284,7 +284,7 @@ toString
 (
 )
 .
-toLowerCase
+lowercase
 (
 )
 .

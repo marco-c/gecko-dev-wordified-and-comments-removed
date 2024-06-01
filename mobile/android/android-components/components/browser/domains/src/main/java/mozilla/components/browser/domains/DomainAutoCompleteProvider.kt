@@ -811,7 +811,7 @@ searchText
 =
 rawText
 .
-toLowerCase
+lowercase
 (
 Locale
 .

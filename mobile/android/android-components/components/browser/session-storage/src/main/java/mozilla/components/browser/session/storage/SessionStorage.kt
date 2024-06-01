@@ -764,7 +764,7 @@ name
 )
 )
 .
-toLowerCase
+lowercase
 (
 Locale
 .

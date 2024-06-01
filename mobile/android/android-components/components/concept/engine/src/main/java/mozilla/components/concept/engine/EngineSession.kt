@@ -2835,7 +2835,7 @@ hashCode
 =
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .
@@ -2856,7 +2856,7 @@ TrackingCategory
 (
 trackingCategories
 .
-sumBy
+sumOf
 {
 it
 .

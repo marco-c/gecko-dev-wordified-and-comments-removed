@@ -187,7 +187,7 @@ interactiveCount
 =
 visibleItems
 .
-sumBy
+sumOf
 {
 it
 .

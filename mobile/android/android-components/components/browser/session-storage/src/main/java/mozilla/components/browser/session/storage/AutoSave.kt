@@ -113,6 +113,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Dispatchers
 import
 kotlinx
@@ -752,6 +758,13 @@ now
 lastSaveTimestamp
 =
 now
+OptIn
+(
+DelicateCoroutinesApi
+:
+:
+class
+)
 GlobalScope
 .
 launch

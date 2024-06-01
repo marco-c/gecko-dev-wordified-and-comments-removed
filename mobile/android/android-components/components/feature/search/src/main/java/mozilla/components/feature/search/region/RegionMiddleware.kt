@@ -89,6 +89,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Dispatchers
 import
 kotlinx
@@ -325,6 +331,13 @@ next
 action
 )
 }
+OptIn
+(
+DelicateCoroutinesApi
+:
+:
+class
+)
 private
 fun
 determineRegion

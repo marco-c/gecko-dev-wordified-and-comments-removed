@@ -496,7 +496,7 @@ when
 (
 it
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -562,7 +562,7 @@ String
 =
 name
 .
-toLowerCase
+lowercase
 (
 Locale
 .

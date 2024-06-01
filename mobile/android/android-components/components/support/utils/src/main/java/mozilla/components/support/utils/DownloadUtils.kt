@@ -2227,9 +2227,7 @@ symbol
 0
 ]
 .
-toInt
-(
-)
+code
 )
 }
 }

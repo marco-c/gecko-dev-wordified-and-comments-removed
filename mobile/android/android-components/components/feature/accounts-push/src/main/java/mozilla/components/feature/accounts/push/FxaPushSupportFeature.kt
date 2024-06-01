@@ -109,6 +109,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Dispatchers
 import
 kotlinx
@@ -856,6 +862,11 @@ config
 .
 disableRateLimit
 )
+DelicateCoroutinesApi
+/
+/
+GlobalScope
+usage
 override
 fun
 onAuthenticated

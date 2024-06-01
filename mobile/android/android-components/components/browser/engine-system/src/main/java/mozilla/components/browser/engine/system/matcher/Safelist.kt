@@ -440,9 +440,7 @@ charAt
 0
 )
 .
-toInt
-(
-)
+code
 )
 as
 ?

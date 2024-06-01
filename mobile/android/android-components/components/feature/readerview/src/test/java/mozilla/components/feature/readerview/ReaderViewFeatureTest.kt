@@ -2038,7 +2038,7 @@ SERIF
 .
 value
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -2061,7 +2061,7 @@ LIGHT
 .
 name
 .
-toLowerCase
+lowercase
 (
 Locale
 .

@@ -163,7 +163,7 @@ caseInsensitiveQuery
 =
 query
 .
-toLowerCase
+lowercase
 (
 locale
 )
@@ -213,7 +213,7 @@ map
 {
 it
 .
-toLowerCase
+lowercase
 (
 locale
 )

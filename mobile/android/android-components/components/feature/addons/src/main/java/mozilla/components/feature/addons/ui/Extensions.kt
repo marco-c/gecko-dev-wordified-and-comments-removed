@@ -543,7 +543,7 @@ isNullOrEmpty
 )
 lang
 .
-toLowerCase
+lowercase
 (
 Locale
 .
