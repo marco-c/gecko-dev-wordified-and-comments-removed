@@ -126,6 +126,8 @@ types
 -
 release
 -
+nightly
+-
 snapshot
 job
 -
@@ -203,6 +205,9 @@ BRs
 snapshot
 :
 BSnaps
+nightly
+:
+BNs
 default
 :
 Bs

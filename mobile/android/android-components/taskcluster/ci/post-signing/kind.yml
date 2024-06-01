@@ -159,6 +159,13 @@ post
 signing
 -
 snapshot
+nightly
+:
+post
+-
+signing
+-
+nightly
 default
 :
 post
