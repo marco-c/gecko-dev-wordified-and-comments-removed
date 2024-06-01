@@ -2072,11 +2072,13 @@ bucketMin
 =
 values
 .
-getOrDefault
+getOrElse
 (
 bucketMin
-0
 )
+{
+0L
+}
 if
 (
 bucketMin
