@@ -94,9 +94,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAboutModule
+"
 ]
 )
 getURIFlags
