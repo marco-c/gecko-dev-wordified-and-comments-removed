@@ -1775,15 +1775,11 @@ writer
 .
 noteHistoryMetadataObservation
 (
-key
-.
-into
-(
-)
 observation
 .
 into
 (
+key
 )
 )
 }

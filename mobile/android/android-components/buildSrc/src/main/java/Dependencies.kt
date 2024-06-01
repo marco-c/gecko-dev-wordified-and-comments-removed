@@ -289,7 +289,7 @@ mozilla_appservices
 "
 82
 .
-1
+3
 .
 0
 "
