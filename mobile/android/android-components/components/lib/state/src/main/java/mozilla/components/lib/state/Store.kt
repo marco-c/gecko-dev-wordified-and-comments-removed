@@ -83,6 +83,12 @@ annotation
 .
 CheckResult
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 kotlinx
 .
 coroutines
@@ -357,7 +363,8 @@ CoroutineScope
 (
 dispatcher
 )
-private
+VisibleForTesting
+internal
 val
 subscriptions
 =
