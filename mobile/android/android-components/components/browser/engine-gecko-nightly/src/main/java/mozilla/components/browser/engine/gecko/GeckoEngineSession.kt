@@ -1166,6 +1166,11 @@ flags
 .
 value
 additionalHeaders
+?
+:
+emptyMap
+(
+)
 )
 }
 /
