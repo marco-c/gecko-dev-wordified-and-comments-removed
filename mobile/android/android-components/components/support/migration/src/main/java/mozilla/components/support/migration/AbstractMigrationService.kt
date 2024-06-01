@@ -706,6 +706,13 @@ Intent
 this
 migrationDecisionActivity
 )
+.
+setFlags
+(
+Intent
+.
+FLAG_ACTIVITY_CLEAR_TOP
+)
 0
 )
 )
