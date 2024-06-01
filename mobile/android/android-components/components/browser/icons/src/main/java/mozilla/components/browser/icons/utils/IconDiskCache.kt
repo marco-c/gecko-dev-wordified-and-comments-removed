@@ -79,12 +79,6 @@ graphics
 .
 Bitmap
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 com
 .
 jakewharton
@@ -807,14 +801,6 @@ e
 )
 }
 }
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-NONE
-)
 internal
 fun
 clear
