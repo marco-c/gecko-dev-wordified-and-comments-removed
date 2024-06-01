@@ -223,6 +223,13 @@ floating_action_button_margin
 "
 android
 :
+layout_marginTop
+=
+"
+96dp
+"
+android
+:
 clickable
 =
 "
