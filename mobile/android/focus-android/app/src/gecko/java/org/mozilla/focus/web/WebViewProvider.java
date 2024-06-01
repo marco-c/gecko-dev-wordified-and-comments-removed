@@ -167,6 +167,14 @@ context
 }
 public
 static
+void
+performNewBrowserSessionCleanup
+(
+)
+{
+}
+public
+static
 class
 GeckoWebView
 extends
