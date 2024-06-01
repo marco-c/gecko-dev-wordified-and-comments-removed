@@ -169,6 +169,13 @@ it
 highlight
 }
 .
+filter
+{
+it
+.
+canPropagate
+}
+.
 maxBy
 {
 /
