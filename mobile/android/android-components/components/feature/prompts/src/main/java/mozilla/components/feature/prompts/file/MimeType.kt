@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+file
 import
 android
 .

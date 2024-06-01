@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+dialog
 import
 android
 .
@@ -142,6 +144,16 @@ recyclerview
 widget
 .
 RecyclerView
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+R
 private
 const
 val

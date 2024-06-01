@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+dialog
 import
 android
 .
@@ -192,6 +194,16 @@ annotation
 VisibleForTesting
 .
 PRIVATE
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+R
 import
 mozilla
 .

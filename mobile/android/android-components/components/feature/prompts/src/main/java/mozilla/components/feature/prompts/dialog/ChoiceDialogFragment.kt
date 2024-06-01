@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+dialog
 import
 android
 .
@@ -150,6 +152,16 @@ engine
 prompt
 .
 Choice
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+R
 private
 const
 val

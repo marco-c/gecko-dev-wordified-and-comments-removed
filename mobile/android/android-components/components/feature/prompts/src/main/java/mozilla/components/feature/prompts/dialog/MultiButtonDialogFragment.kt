@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+dialog
 import
 android
 .
@@ -108,6 +110,16 @@ appcompat
 app
 .
 AlertDialog
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+R
 private
 const
 val

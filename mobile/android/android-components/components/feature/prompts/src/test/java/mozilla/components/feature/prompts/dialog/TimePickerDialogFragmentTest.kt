@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+dialog
 import
 android
 .
@@ -147,6 +149,18 @@ feature
 .
 prompts
 .
+R
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+dialog
+.
 TimePickerDialogFragment
 .
 Companion
@@ -161,6 +175,8 @@ feature
 .
 prompts
 .
+dialog
+.
 TimePickerDialogFragment
 .
 Companion
@@ -174,6 +190,8 @@ components
 feature
 .
 prompts
+.
+dialog
 .
 TimePickerDialogFragment
 .

@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+dialog
 import
 android
 .
@@ -153,6 +155,18 @@ feature
 .
 prompts
 .
+R
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+dialog
+.
 ChoiceAdapter
 .
 Companion
@@ -166,6 +180,8 @@ components
 feature
 .
 prompts
+.
+dialog
 .
 ChoiceAdapter
 .
@@ -181,6 +197,8 @@ feature
 .
 prompts
 .
+dialog
+.
 ChoiceAdapter
 .
 Companion
@@ -194,6 +212,8 @@ components
 feature
 .
 prompts
+.
+dialog
 .
 ChoiceAdapter
 .
@@ -209,6 +229,8 @@ feature
 .
 prompts
 .
+dialog
+.
 ChoiceAdapter
 .
 Companion
@@ -223,6 +245,8 @@ feature
 .
 prompts
 .
+dialog
+.
 ChoiceAdapter
 .
 GroupViewHolder
@@ -234,6 +258,8 @@ components
 feature
 .
 prompts
+.
+dialog
 .
 ChoiceAdapter
 .
@@ -247,6 +273,8 @@ feature
 .
 prompts
 .
+dialog
+.
 ChoiceAdapter
 .
 MultipleViewHolder
@@ -259,6 +287,8 @@ feature
 .
 prompts
 .
+dialog
+.
 ChoiceAdapter
 .
 SingleViewHolder
@@ -270,6 +300,8 @@ components
 feature
 .
 prompts
+.
+dialog
 .
 ChoiceDialogFragment
 .
@@ -285,6 +317,8 @@ feature
 .
 prompts
 .
+dialog
+.
 ChoiceDialogFragment
 .
 Companion
@@ -299,6 +333,8 @@ feature
 .
 prompts
 .
+dialog
+.
 ChoiceDialogFragment
 .
 Companion
@@ -312,6 +348,8 @@ components
 feature
 .
 prompts
+.
+dialog
 .
 ChoiceDialogFragment
 .

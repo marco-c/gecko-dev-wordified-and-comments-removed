@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+file
 import
 android
 .
@@ -242,6 +244,18 @@ components
 feature
 .
 prompts
+.
+PromptContainer
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+file
 .
 FilePicker
 .
