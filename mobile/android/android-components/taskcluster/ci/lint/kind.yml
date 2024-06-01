@@ -285,6 +285,7 @@ gradlew
 [
 detekt
 ktlint
+writeGithubLintDetails
 ]
 treeherder
 :
