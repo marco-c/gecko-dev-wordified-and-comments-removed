@@ -179,6 +179,13 @@ val
 src
 :
 String
+val
+title
+:
+String
+?
+=
+null
 )
 :
 HitResult
