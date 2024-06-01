@@ -70,15 +70,6 @@ gt
 ;
 SitePermissions
 (
-parcel
-:
-<
-ERROR
-CLASS
->
-)
-SitePermissions
-(
 origin
 :
 [
