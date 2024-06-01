@@ -134,7 +134,7 @@ Store
 .
 kt
 #
-L24
+L26
 )
 Reducers
 specify
