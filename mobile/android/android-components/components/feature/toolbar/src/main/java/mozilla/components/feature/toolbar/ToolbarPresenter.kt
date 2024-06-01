@@ -549,6 +549,13 @@ content
 permissionHighlights
 .
 permissionsChanged
+|
+|
+tab
+.
+trackingProtection
+.
+ignoredOnTrackingProtection
 -
 >
 Highlight
