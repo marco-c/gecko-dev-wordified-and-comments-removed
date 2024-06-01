@@ -151,7 +151,7 @@ DownloadActionTest
 {
 Test
 fun
-QueueDownloadAction
+AddDownloadAction
 adds
 download
 (
@@ -193,7 +193,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download1
 )
@@ -209,7 +209,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 [
 download1
 .
@@ -223,7 +223,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 size
 )
@@ -254,7 +254,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download2
 )
@@ -270,7 +270,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 [
 download2
 .
@@ -284,14 +284,14 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 size
 )
 }
 Test
 fun
-RemoveQueuedDownloadAction
+RemoveDownloadAction
 removes
 download
 (
@@ -333,7 +333,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -349,7 +349,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 [
 download
 .
@@ -362,7 +362,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 isEmpty
 (
@@ -374,7 +374,7 @@ dispatch
 (
 DownloadAction
 .
-RemoveQueuedDownloadAction
+RemoveDownloadAction
 (
 download
 .
@@ -391,7 +391,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 isEmpty
 (
@@ -400,7 +400,7 @@ isEmpty
 }
 Test
 fun
-RemoveAllQueuedDownloadsAction
+RemoveAllDownloadsAction
 removes
 all
 downloads
@@ -464,7 +464,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -479,7 +479,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download2
 )
@@ -494,7 +494,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 isEmpty
 (
@@ -507,7 +507,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 size
 )
@@ -517,7 +517,7 @@ dispatch
 (
 DownloadAction
 .
-RemoveAllQueuedDownloadsAction
+RemoveAllDownloadsAction
 )
 .
 joinBlocking
@@ -529,7 +529,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 isEmpty
 (
@@ -538,7 +538,7 @@ isEmpty
 }
 Test
 fun
-UpdateQueuedDownloadAction
+UpdateDownloadAction
 updates
 the
 provided
@@ -603,7 +603,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -618,7 +618,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download2
 )
@@ -648,7 +648,7 @@ dispatch
 (
 DownloadAction
 .
-UpdateQueuedDownloadAction
+UpdateDownloadAction
 (
 updatedDownload
 )
@@ -663,7 +663,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 isEmpty
 (
@@ -676,7 +676,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 size
 )
@@ -687,7 +687,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 [
 updatedDownload
 .

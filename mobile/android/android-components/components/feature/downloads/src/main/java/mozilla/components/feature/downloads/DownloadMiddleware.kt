@@ -175,7 +175,7 @@ of
 [
 BrowserState
 .
-queuedDownloads
+downloads
 ]
 )
 *
@@ -249,7 +249,7 @@ action
 is
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 -
 >
 {

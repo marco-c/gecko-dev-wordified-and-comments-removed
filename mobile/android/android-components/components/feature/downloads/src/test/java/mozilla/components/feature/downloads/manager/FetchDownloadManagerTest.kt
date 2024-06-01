@@ -576,7 +576,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 .
 isEmpty
 (
@@ -605,7 +605,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 [
 download
 .
@@ -1035,11 +1035,6 @@ sendBroadcast
 with
 completed
 download
-removes
-queued
-download
-from
-store
 (
 )
 {
@@ -1114,7 +1109,7 @@ store
 .
 state
 .
-queuedDownloads
+downloads
 [
 downloadWithFileName
 .
@@ -1138,18 +1133,6 @@ Status
 .
 COMPLETED
 downloadStatus
-)
-assertTrue
-(
-store
-.
-state
-.
-queuedDownloads
-.
-isEmpty
-(
-)
 )
 }
 Test

@@ -1034,7 +1034,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -1825,7 +1825,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 downloadState
 )
@@ -1892,7 +1892,7 @@ browserStore
 .
 state
 .
-queuedDownloads
+downloads
 .
 values
 .
@@ -2021,7 +2021,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -2319,7 +2319,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -2673,7 +2673,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -2783,7 +2783,7 @@ dispatch
 (
 DownloadAction
 .
-UpdateQueuedDownloadAction
+UpdateDownloadAction
 (
 newState
 )
@@ -3093,7 +3093,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -3500,7 +3500,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -3865,7 +3865,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -4081,7 +4081,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -4679,7 +4679,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -5642,7 +5642,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -5916,7 +5916,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -6173,7 +6173,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -6448,7 +6448,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -6683,7 +6683,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -6964,7 +6964,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -7271,7 +7271,7 @@ dispatch
 (
 DownloadAction
 .
-UpdateQueuedDownloadAction
+UpdateDownloadAction
 (
 download
 )
@@ -7401,7 +7401,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
@@ -8504,7 +8504,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 cancelledDownload
 )
@@ -8711,7 +8711,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )

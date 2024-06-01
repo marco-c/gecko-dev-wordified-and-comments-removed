@@ -291,7 +291,7 @@ dispatch
 (
 DownloadAction
 .
-QueueDownloadAction
+AddDownloadAction
 (
 download
 )
