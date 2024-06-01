@@ -252,6 +252,14 @@ tabs
 SyncEngine
 .
 Tabs
+"
+creditcards
+"
+-
+>
+SyncEngine
+.
+CreditCards
 /
 /
 This
