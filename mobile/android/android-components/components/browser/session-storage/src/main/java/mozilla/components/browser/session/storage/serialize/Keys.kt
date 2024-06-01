@@ -195,6 +195,13 @@ lastMediaAccess
 "
 const
 val
+SESSION_LAST_MEDIA_SESSION_ACTIVE
+=
+"
+mediaSessionActive
+"
+const
+val
 SESSION_SOURCE_KEY
 =
 "

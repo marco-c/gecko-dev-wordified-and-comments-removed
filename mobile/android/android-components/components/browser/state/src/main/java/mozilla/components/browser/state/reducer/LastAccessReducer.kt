@@ -91,7 +91,7 @@ action
 .
 LastAccessAction
 .
-ResetLastMediaAccessAction
+ResetLastMediaSessionAction
 import
 mozilla
 .
@@ -262,12 +262,15 @@ lastMediaAccess
 action
 .
 lastMediaAccess
+mediaSessionActive
+=
+true
 )
 )
 }
 }
 is
-ResetLastMediaAccessAction
+ResetLastMediaSessionAction
 -
 >
 {
@@ -295,9 +298,9 @@ lastMediaAccessState
 .
 copy
 (
-lastMediaAccess
+mediaSessionActive
 =
-0
+false
 )
 )
 }

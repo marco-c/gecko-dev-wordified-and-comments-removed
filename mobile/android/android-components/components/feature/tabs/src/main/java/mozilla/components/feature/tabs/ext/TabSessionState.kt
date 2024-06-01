@@ -174,7 +174,6 @@ hasMediaPlayed
 Boolean
 {
 return
-(
 lastMediaAccessState
 .
 lastMediaUrl
@@ -183,12 +182,9 @@ lastMediaUrl
 content
 .
 url
-)
 |
 |
 lastMediaAccessState
 .
-lastMediaAccess
->
-0
+mediaSessionActive
 }

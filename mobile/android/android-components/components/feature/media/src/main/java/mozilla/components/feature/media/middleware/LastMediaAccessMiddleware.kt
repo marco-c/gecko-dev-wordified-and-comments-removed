@@ -299,7 +299,7 @@ dispatch
 (
 LastAccessAction
 .
-ResetLastMediaAccessAction
+ResetLastMediaSessionAction
 (
 action
 .

@@ -1109,6 +1109,7 @@ org
 lastMediaAccess
 =
 333L
+true
 )
 )
 val
@@ -1205,6 +1206,14 @@ restoredTab
 lastMediaAccessState
 .
 lastMediaAccess
+)
+assertTrue
+(
+restoredTab
+.
+lastMediaAccessState
+.
+mediaSessionActive
 )
 }
 }

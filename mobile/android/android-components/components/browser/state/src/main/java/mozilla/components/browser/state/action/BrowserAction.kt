@@ -1932,7 +1932,7 @@ update
 /
 data
 class
-ResetLastMediaAccessAction
+ResetLastMediaSessionAction
 (
 val
 tabId
