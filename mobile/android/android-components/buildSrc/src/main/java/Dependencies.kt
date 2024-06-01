@@ -585,6 +585,9 @@ modules
 Suppress
 (
 "
+Unused
+"
+"
 MaxLineLength
 "
 )
