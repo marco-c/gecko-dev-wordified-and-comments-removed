@@ -319,6 +319,7 @@ SESSIONS_PER_UPDATE
 =
 3
 VisibleForTesting
+internal
 var
 wasUpdatedRecently
 :
@@ -373,6 +374,7 @@ recently
 .
 *
 /
+JvmStatic
 fun
 wasUpdatedRecently
 (
