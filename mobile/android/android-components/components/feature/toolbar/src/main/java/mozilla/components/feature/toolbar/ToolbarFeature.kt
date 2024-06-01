@@ -342,6 +342,11 @@ presenter
 stop
 (
 )
+toolbar
+.
+onStop
+(
+)
 }
 /
 *

@@ -4668,6 +4668,17 @@ measuredHeight
 )
 }
 }
+fun
+onStop
+(
+)
+{
+menuView
+.
+dismissMenu
+(
+)
+}
 /
 *
 *
