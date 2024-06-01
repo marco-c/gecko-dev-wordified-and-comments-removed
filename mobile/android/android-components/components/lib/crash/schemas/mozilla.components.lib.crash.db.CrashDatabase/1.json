@@ -19,7 +19,7 @@ identityHash
 "
 :
 "
-c82f6a8cf8fbd6509f73a7d7d5ff97cd
+212dfa0b59d6a78d81e65cead34d40e0
 "
 "
 entities
@@ -217,7 +217,7 @@ INTEGER
 PRIMARY
 KEY
 AUTOINCREMENT
-crashUuid
+crash_uuid
 TEXT
 NOT
 NULL
@@ -277,7 +277,7 @@ columnName
 "
 :
 "
-crashUuid
+crash_uuid
 "
 "
 affinity
@@ -424,7 +424,7 @@ VALUES
 (
 42
 '
-c82f6a8cf8fbd6509f73a7d7d5ff97cd
+212dfa0b59d6a78d81e65cead34d40e0
 '
 )
 "
