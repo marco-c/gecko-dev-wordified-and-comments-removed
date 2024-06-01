@@ -89,7 +89,7 @@ in
 collaboration
 with
 [
-AppLinksFeature
+AppLinksInterceptor
 ]
 (
 .
@@ -100,7 +100,7 @@ app
 -
 links
 -
-feature
+interceptor
 /
 index
 .
