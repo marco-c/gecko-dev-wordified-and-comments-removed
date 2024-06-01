@@ -273,7 +273,7 @@ mozilla_appservices
 .
 0
 .
-12
+13
 "
 const
 val
@@ -284,7 +284,7 @@ mozilla_glean
 .
 1
 .
-1
+0
 "
 const
 val
