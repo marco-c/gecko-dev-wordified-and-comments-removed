@@ -2634,6 +2634,8 @@ views
 .
 origin
 .
+urlView
+.
 performLongClick
 (
 )
@@ -2680,6 +2682,8 @@ views
 .
 origin
 .
+urlView
+.
 performLongClick
 (
 )
@@ -2701,6 +2705,8 @@ displayToolbar
 views
 .
 origin
+.
+urlView
 .
 performLongClick
 (
