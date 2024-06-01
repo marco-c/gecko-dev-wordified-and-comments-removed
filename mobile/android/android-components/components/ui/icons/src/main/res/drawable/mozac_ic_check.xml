@@ -133,13 +133,6 @@ viewportHeight
 .
 0
 "
-android
-:
-autoMirrored
-=
-"
-true
-"
 >
 <
 path
