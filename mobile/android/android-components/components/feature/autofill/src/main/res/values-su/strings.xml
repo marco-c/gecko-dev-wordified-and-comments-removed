@@ -88,7 +88,8 @@ name
 mozac_feature_autofill_popup_unlock_application
 "
 >
-Odkleni
+Buka
+konci
 %
 1
 s
@@ -161,10 +162,8 @@ mozac_feature_autofill_popup_no_username
 "
 >
 (
-brez
-uporabni
-kega
-imena
+Taya
+sandiasma
 )
 <
 /
@@ -219,8 +218,9 @@ name
 mozac_feature_autofill_popup_password
 "
 >
-Geslo
-za
+Kecap
+sandi
+pikeun
 %
 1
 s
