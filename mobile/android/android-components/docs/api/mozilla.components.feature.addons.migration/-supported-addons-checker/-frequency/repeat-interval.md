@@ -160,7 +160,7 @@ SupportedAddonsChecker
 .
 kt
 #
-L54
+L55
 )
 Integer
 indicating

@@ -147,7 +147,7 @@ SupportedAddonsChecker
 .
 kt
 #
-L42
+L43
 )
 Registers
 for

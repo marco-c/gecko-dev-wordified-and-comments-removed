@@ -120,7 +120,7 @@ SupportedAddonsChecker
 .
 kt
 #
-L54
+L55
 )
 Indicates
 how

@@ -147,7 +147,7 @@ SupportedAddonsChecker
 .
 kt
 #
-L47
+L48
 )
 Unregisters
 for
