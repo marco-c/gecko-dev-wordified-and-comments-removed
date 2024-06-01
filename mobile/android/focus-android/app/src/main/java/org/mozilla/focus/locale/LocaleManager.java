@@ -1086,7 +1086,7 @@ toString
 )
 ;
 }
-private
+public
 boolean
 isMirroringSystemLocale
 (
