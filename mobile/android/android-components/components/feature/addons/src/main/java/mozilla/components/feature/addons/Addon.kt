@@ -1547,7 +1547,7 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_top_sites_description
+mozac_feature_addons_permissions_devtools_description
 )
 /
 *
