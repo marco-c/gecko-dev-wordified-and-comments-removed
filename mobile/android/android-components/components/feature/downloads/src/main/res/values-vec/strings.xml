@@ -142,7 +142,7 @@ mozac_feature_downloads_completed_notification_text2
 "
 >
 Download
-complet
+conplet
 <
 /
 string
@@ -566,6 +566,7 @@ mozac_feature_downloads_button_close
 "
 >
 Sara
+su
 <
 /
 string

@@ -90,9 +90,10 @@ a
 s
 de
 uxare
-la
+a
 to
-telecamera
+te
+ecamera
 ?
 <
 /
@@ -170,7 +171,7 @@ a
 s
 de
 uxare
-la
+a
 to
 poxision
 ?
@@ -212,7 +213,7 @@ a
 s
 de
 uxare
-la
+a
 to
 camera
 e
@@ -296,7 +297,8 @@ name
 mozac_feature_sitepermissions_back_facing_camera2
 "
 >
-Telecamera
+Te
+ecamera
 de
 drio
 <
@@ -336,7 +338,8 @@ name
 mozac_feature_sitepermissions_selfie_camera2
 "
 >
-Telecamera
+Te
+ecamera
 de
 davanti
 <
@@ -456,7 +459,7 @@ mozac_feature_sitepermissions_do_not_ask_again_on_this_site2
 "
 >
 Ricordate
-la
+a
 decixion
 par
 sto
@@ -517,7 +520,7 @@ name
 mozac_feature_sitepermissions_always_allow
 "
 >
-Sempre
+Senpre
 <
 /
 string
