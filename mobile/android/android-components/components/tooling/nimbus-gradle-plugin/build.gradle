@@ -578,8 +578,13 @@ local
 local
 '
 +
-getLocalPublicationTimestamp
+project
+.
+property
 (
+'
+local
+'
 )
 :
 '
