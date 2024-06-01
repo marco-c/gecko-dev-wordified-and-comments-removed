@@ -1264,7 +1264,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -1309,7 +1309,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -1387,7 +1387,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -1446,7 +1446,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -1471,7 +1471,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -1563,7 +1563,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -1583,7 +1583,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -2348,7 +2348,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -2381,7 +2381,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 marked
 as
@@ -3567,7 +3567,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 "
 )
@@ -3688,7 +3688,7 @@ currentDownloadJobState
 .
 state
 .
-url
+id
 }
 status
 FAILED
@@ -3816,7 +3816,7 @@ download
 .
 state
 .
-url
+id
 }
 FAILED
 "
@@ -3928,7 +3928,7 @@ download
 .
 state
 .
-url
+id
 }
 {
 download
@@ -3974,7 +3974,7 @@ downloadJobState
 .
 state
 .
-url
+id
 }
 "
 +
@@ -4133,7 +4133,7 @@ downloadJobState
 .
 state
 .
-url
+id
 }
 "
 +
