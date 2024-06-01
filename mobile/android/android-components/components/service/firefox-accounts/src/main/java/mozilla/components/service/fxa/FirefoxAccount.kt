@@ -1779,6 +1779,16 @@ toJSONString
 *
 *
 param
+crashReporter
+object
+used
+for
+logging
+caught
+exceptions
+*
+*
+param
 persistCallback
 This
 callback
@@ -1865,6 +1875,10 @@ fromJSONString
 json
 :
 String
+crashReporter
+:
+CrashReporting
+?
 persistCallback
 :
 PersistCallback
@@ -1885,6 +1899,7 @@ fromJSONString
 json
 persistCallback
 )
+crashReporter
 )
 }
 }

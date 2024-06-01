@@ -800,6 +800,8 @@ val
 context
 :
 Context
+private
+val
 crashReporter
 :
 CrashReporting
@@ -1039,6 +1041,7 @@ FirefoxAccount
 fromJSONString
 (
 savedJSON
+crashReporter
 )
 }
 override
@@ -1548,6 +1551,7 @@ FirefoxAccount
 fromJSONString
 (
 it
+crashReporter
 )
 }
 }

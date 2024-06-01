@@ -1004,6 +1004,7 @@ FirefoxAccount
 fromJSONString
 (
 it
+null
 )
 }
 catch
