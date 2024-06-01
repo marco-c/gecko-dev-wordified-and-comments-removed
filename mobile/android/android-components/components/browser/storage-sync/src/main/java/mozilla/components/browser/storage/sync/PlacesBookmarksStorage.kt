@@ -101,7 +101,7 @@ places
 .
 uniffi
 .
-PlacesException
+PlacesApiException
 import
 mozilla
 .
@@ -921,7 +921,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UrlParseFailed
 )
@@ -948,7 +948,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UnexpectedPlacesException
 )
@@ -971,7 +971,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 )
 {
 crashReporter
@@ -987,7 +987,7 @@ warn
 (
 "
 Ignoring
-PlacesException
+PlacesApiException
 while
 running
 addItem
@@ -1376,9 +1376,9 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
-CannotUpdateRoot
+InvalidBookmarkOperation
 )
 {
 /
@@ -1403,7 +1403,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UnexpectedPlacesException
 )
@@ -1426,7 +1426,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 )
 {
 crashReporter
@@ -1442,7 +1442,7 @@ warn
 (
 "
 Ignoring
-PlacesException
+PlacesApiException
 while
 running
 updateNode
@@ -1524,9 +1524,9 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
-CannotUpdateRoot
+InvalidBookmarkOperation
 )
 {
 /
@@ -1551,7 +1551,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UnexpectedPlacesException
 )
@@ -1574,7 +1574,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 )
 {
 crashReporter
@@ -1590,7 +1590,7 @@ warn
 (
 "
 Ignoring
-PlacesException
+PlacesApiException
 while
 running
 deleteNode
@@ -1733,7 +1733,7 @@ details
 /
 Throws
 (
-PlacesException
+PlacesApiException
 :
 :
 class

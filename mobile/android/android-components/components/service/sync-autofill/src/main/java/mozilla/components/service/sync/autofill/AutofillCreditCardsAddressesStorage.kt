@@ -109,7 +109,7 @@ appservices
 .
 autofill
 .
-AutofillException
+AutofillApiException
 .
 NoSuchRecord
 import

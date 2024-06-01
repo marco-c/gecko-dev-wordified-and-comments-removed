@@ -330,7 +330,7 @@ catch
 (
 e
 :
-LoginsStorageException
+LoginsApiException
 )
 {
 logger

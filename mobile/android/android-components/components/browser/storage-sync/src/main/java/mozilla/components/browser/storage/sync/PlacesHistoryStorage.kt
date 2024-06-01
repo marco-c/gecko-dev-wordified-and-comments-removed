@@ -133,7 +133,7 @@ places
 .
 uniffi
 .
-PlacesException
+PlacesApiException
 import
 mozilla
 .
@@ -1847,7 +1847,7 @@ details
 /
 Throws
 (
-PlacesException
+PlacesApiException
 :
 :
 class

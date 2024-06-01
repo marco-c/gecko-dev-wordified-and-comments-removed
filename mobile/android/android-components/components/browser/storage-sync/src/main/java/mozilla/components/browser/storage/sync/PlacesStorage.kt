@@ -133,7 +133,7 @@ places
 .
 uniffi
 .
-PlacesException
+PlacesApiException
 import
 mozilla
 .
@@ -739,7 +739,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UnexpectedPlacesException
 )
@@ -751,7 +751,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 OperationInterrupted
 )
@@ -776,7 +776,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UrlParseFailed
 )
@@ -819,7 +819,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 )
 {
 crashReporter
@@ -835,7 +835,7 @@ warn
 (
 "
 Ignoring
-PlacesException
+PlacesApiException
 while
 running
 operation
@@ -963,7 +963,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UnexpectedPlacesException
 )
@@ -975,7 +975,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 OperationInterrupted
 )
@@ -1001,7 +1001,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UrlParseFailed
 )
@@ -1045,7 +1045,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 )
 {
 crashReporter
@@ -1061,7 +1061,7 @@ warn
 (
 "
 Ignoring
-PlacesException
+PlacesApiException
 while
 running
 operation
@@ -1110,7 +1110,7 @@ non
 -
 panic
 [
-PlacesException
+PlacesApiException
 ]
 .
 *
@@ -1177,7 +1177,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UnexpectedPlacesException
 )
@@ -1201,7 +1201,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 )
 {
 logger

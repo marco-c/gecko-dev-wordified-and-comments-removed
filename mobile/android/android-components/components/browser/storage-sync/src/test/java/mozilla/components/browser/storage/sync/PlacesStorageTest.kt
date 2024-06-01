@@ -103,7 +103,7 @@ places
 .
 uniffi
 .
-PlacesException
+PlacesApiException
 import
 mozilla
 .
@@ -192,7 +192,7 @@ thrown
 doAnswer
 {
 throw
-PlacesException
+PlacesApiException
 .
 OperationInterrupted
 (
@@ -249,7 +249,7 @@ thrown
 doAnswer
 {
 throw
-PlacesException
+PlacesApiException
 .
 OperationInterrupted
 (
