@@ -582,6 +582,9 @@ join
 tokens
 )
 +
+"
+"
++
 focusToken
 ;
 }
