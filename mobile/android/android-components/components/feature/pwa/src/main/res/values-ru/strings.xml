@@ -44,7 +44,6 @@ name
 mozac_feature_pwa_default_shortcut_label
 "
 >
--
 <
 /
 string
@@ -181,7 +180,6 @@ name
 mozac_feature_pwa_copy_success
 "
 >
-URL
 .
 <
 /

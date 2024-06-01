@@ -87,7 +87,6 @@ name
 mozac_feature_addons_permissions_all_urls_description
 "
 >
--
 <
 /
 string
@@ -3619,6 +3618,7 @@ name
 mozac_feature_addons_failed_to_uninstall
 "
 >
+:
 %
 1
 s
