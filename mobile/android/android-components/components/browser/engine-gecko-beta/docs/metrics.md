@@ -151,6 +151,30 @@ Extras
 |
 Expiration
 |
+[
+Data
+Sensitivity
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefox
+/
+Data_Collection
+)
+|
+|
+-
+-
+-
 |
 -
 -
@@ -251,6 +275,7 @@ c2
 01
 |
 |
+|
 geckoview
 .
 content_process_lifetime
@@ -317,6 +342,7 @@ c2
 |
 |
 never
+|
 |
 |
 geckoview
@@ -438,6 +464,7 @@ c5
 never
 |
 |
+|
 geckoview
 .
 page_load_progress_time
@@ -512,6 +539,7 @@ c10
 |
 |
 never
+|
 |
 |
 geckoview
@@ -601,6 +629,7 @@ c1
 never
 |
 |
+|
 geckoview
 .
 page_reload_time
@@ -685,6 +714,7 @@ c10
 |
 |
 never
+|
 |
 |
 geckoview
@@ -793,6 +823,7 @@ c13
 never
 |
 |
+|
 geckoview
 .
 startup_runtime
@@ -859,6 +890,7 @@ c1
 |
 |
 never
+|
 |
 |
 geckoview
@@ -937,6 +969,7 @@ c2
 01
 |
 |
+|
 gfx
 .
 adapter
@@ -1013,6 +1046,7 @@ c4
 01
 |
 |
+|
 gfx
 .
 adapter
@@ -1086,6 +1120,7 @@ c4
 01
 |
 |
+|
 gfx
 .
 adapter
@@ -1157,6 +1192,7 @@ c4
 02
 -
 01
+|
 |
 |
 gfx
@@ -1234,6 +1270,7 @@ c4
 01
 |
 |
+|
 gfx
 .
 adapter
@@ -1306,6 +1343,7 @@ c4
 02
 -
 01
+|
 |
 |
 gfx
@@ -1381,6 +1419,7 @@ c4
 01
 |
 |
+|
 gfx
 .
 adapter
@@ -1452,6 +1491,7 @@ c4
 02
 -
 01
+|
 |
 |
 gfx
@@ -1527,6 +1567,7 @@ c4
 01
 |
 |
+|
 gfx
 .
 adapter
@@ -1598,6 +1639,7 @@ c4
 02
 -
 01
+|
 |
 |
 gfx
@@ -1709,6 +1751,7 @@ c1
 never
 |
 |
+|
 gfx
 .
 checkerboard
@@ -1803,6 +1846,7 @@ c1
 |
 |
 never
+|
 |
 |
 gfx
@@ -1962,6 +2006,7 @@ c1
 never
 |
 |
+|
 gfx
 .
 checkerboard
@@ -2076,6 +2121,7 @@ c1
 |
 |
 never
+|
 |
 |
 gfx
@@ -2199,6 +2245,7 @@ c7
 never
 |
 |
+|
 gfx
 .
 content
@@ -2288,6 +2335,7 @@ c1
 |
 |
 never
+|
 |
 |
 gfx
@@ -2382,6 +2430,7 @@ c1
 |
 |
 never
+|
 |
 |
 gfx
@@ -2541,6 +2590,7 @@ ul
 never
 |
 |
+|
 gfx
 .
 content
@@ -2643,6 +2693,7 @@ c1
 never
 |
 |
+|
 gfx
 .
 content
@@ -2739,6 +2790,7 @@ c1
 |
 |
 never
+|
 |
 |
 gfx
@@ -2838,6 +2890,7 @@ c1
 |
 |
 never
+|
 |
 |
 gfx
@@ -2942,6 +2995,7 @@ c1
 |
 |
 never
+|
 |
 |
 gfx
@@ -3050,6 +3104,7 @@ c1
 never
 |
 |
+|
 gfx
 .
 display
@@ -3122,6 +3177,7 @@ c4
 02
 -
 01
+|
 |
 |
 gfx
@@ -3202,6 +3258,7 @@ c4
 01
 |
 |
+|
 gfx
 .
 display
@@ -3278,6 +3335,7 @@ c4
 02
 -
 01
+|
 |
 |
 gfx
@@ -3360,6 +3418,7 @@ c4
 |
 |
 never
+|
 |
 |
 gfx
@@ -3446,6 +3505,7 @@ c4
 02
 -
 01
+|
 |
 |
 gfx
@@ -3543,6 +3603,7 @@ c1
 never
 |
 |
+|
 gfx
 .
 status
@@ -3621,6 +3682,7 @@ c4
 02
 -
 01
+|
 |
 |
 gfx
@@ -3713,6 +3775,7 @@ c1
 never
 |
 |
+|
 gfx
 .
 webrender
@@ -3803,6 +3866,7 @@ c1
 never
 |
 |
+|
 javascript
 .
 gc
@@ -3872,6 +3936,7 @@ c17
 |
 |
 never
+|
 |
 |
 javascript
@@ -3944,6 +4009,7 @@ c17
 never
 |
 |
+|
 javascript
 .
 gc
@@ -4013,6 +4079,7 @@ c17
 |
 |
 never
+|
 |
 |
 javascript
@@ -4089,6 +4156,7 @@ c17
 never
 |
 |
+|
 javascript
 .
 gc
@@ -4158,6 +4226,7 @@ c17
 |
 |
 never
+|
 |
 |
 javascript
@@ -4231,6 +4300,7 @@ c17
 never
 |
 |
+|
 javascript
 .
 gc
@@ -4300,6 +4370,7 @@ c17
 |
 |
 never
+|
 |
 |
 javascript
@@ -4374,6 +4445,7 @@ c8
 never
 |
 |
+|
 network
 .
 cache_hit_time
@@ -4441,6 +4513,7 @@ c10
 |
 |
 never
+|
 |
 |
 network
@@ -4520,6 +4593,7 @@ c10
 never
 |
 |
+|
 network
 .
 dns_start
@@ -4597,6 +4671,7 @@ c10
 never
 |
 |
+|
 network
 .
 first_from_cache
@@ -4672,6 +4747,7 @@ c10
 never
 |
 |
+|
 network
 .
 font_download_end
@@ -4741,6 +4817,7 @@ c10
 |
 |
 never
+|
 |
 |
 network
@@ -4825,6 +4902,7 @@ c10
 |
 |
 never
+|
 |
 |
 network
@@ -4913,6 +4991,7 @@ c10
 never
 |
 |
+|
 performance
 .
 interaction
@@ -4994,6 +5073,7 @@ c10
 never
 |
 |
+|
 performance
 .
 interaction
@@ -5070,6 +5150,7 @@ c10
 |
 |
 never
+|
 |
 |
 performance
@@ -5201,6 +5282,7 @@ c10
 never
 |
 |
+|
 performance
 .
 page
@@ -5275,6 +5357,7 @@ c10
 |
 |
 never
+|
 |
 |
 performance
@@ -5353,6 +5436,7 @@ c10
 never
 |
 |
+|
 performance
 .
 time
@@ -5427,6 +5511,7 @@ c10
 |
 |
 never
+|
 |
 |
 performance
@@ -5505,6 +5590,7 @@ c10
 never
 |
 |
+|
 performance
 .
 time
@@ -5579,6 +5665,7 @@ c10
 |
 |
 never
+|
 |
 |
 performance
@@ -5657,6 +5744,7 @@ c10
 never
 |
 |
+|
 performance
 .
 time
@@ -5733,6 +5821,7 @@ c10
 never
 |
 |
+|
 performance
 .
 time
@@ -5807,6 +5896,7 @@ c10
 |
 |
 never
+|
 |
 |
 test
@@ -5917,6 +6007,30 @@ org
 |
 never
 |
+|
+Data
+categories
+are
+[
+defined
+here
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefox
+/
+Data_Collection
+)
+.
 <
 !
 -

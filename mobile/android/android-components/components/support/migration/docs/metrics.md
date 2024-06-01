@@ -214,6 +214,30 @@ Extras
 |
 Expiration
 |
+[
+Data
+Sensitivity
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefox
+/
+Data_Collection
+)
+|
+|
+-
+-
+-
 |
 -
 -
@@ -321,6 +345,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 addons
@@ -397,6 +422,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -481,6 +507,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 addons
@@ -556,6 +583,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -640,6 +668,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 addons
@@ -715,6 +744,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -798,6 +828,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 bookmarks
@@ -877,6 +908,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -960,6 +992,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 bookmarks
@@ -1040,6 +1073,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -1156,6 +1190,7 @@ ul
 01
 |
 |
+|
 migration
 .
 bookmarks
@@ -1238,6 +1273,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 bookmarks
@@ -1313,6 +1349,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -1394,6 +1431,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -1483,6 +1521,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 fxa
@@ -1565,6 +1604,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 fxa
@@ -1642,6 +1682,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 fxa
@@ -1717,6 +1758,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -1801,6 +1843,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 fxa
@@ -1876,6 +1919,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -1957,6 +2001,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 fxa
@@ -2034,6 +2079,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -2115,6 +2161,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 gecko
@@ -2194,6 +2241,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -2278,6 +2326,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 gecko
@@ -2360,6 +2409,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 gecko
@@ -2435,6 +2485,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -2516,6 +2567,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -2600,6 +2652,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 history
@@ -2679,6 +2732,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -2761,6 +2815,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -2877,6 +2932,7 @@ ul
 01
 |
 |
+|
 migration
 .
 history
@@ -2959,6 +3015,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 history
@@ -3034,6 +3091,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -3117,6 +3175,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 logins
@@ -3192,6 +3251,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -3300,6 +3360,7 @@ ul
 01
 |
 |
+|
 migration
 .
 logins
@@ -3380,6 +3441,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -3464,6 +3526,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 logins
@@ -3539,6 +3602,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -3626,6 +3690,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -3800,6 +3865,7 @@ ul
 01
 |
 |
+|
 migration
 .
 open_tabs
@@ -3881,6 +3947,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 open_tabs
@@ -3956,6 +4023,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -4040,6 +4108,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 open_tabs
@@ -4115,6 +4184,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -4199,6 +4269,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 open_tabs
@@ -4274,6 +4345,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -4355,6 +4427,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -4435,6 +4508,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 pinned_sites
@@ -4515,6 +4589,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -4595,6 +4670,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 pinned_sites
@@ -4677,6 +4753,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 pinned_sites
@@ -4752,6 +4829,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -4833,6 +4911,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -4917,6 +4996,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 search
@@ -4999,6 +5079,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 search
@@ -5074,6 +5155,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -5155,6 +5237,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -5239,6 +5322,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 settings
@@ -5319,6 +5403,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -5399,6 +5484,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 settings
@@ -5474,6 +5560,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 migration
@@ -5555,6 +5642,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -5639,6 +5727,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 telemetry_identifiers
@@ -5716,6 +5805,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 migration
@@ -5798,6 +5888,7 @@ issuecomment
 01
 |
 |
+|
 migration
 .
 telemetry_identifiers
@@ -5880,6 +5971,7 @@ pullrequestreview
 01
 |
 |
+|
 migration
 .
 telemetry_identifiers
@@ -5956,6 +6048,30 @@ pullrequestreview
 -
 01
 |
+|
+Data
+categories
+are
+[
+defined
+here
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefox
+/
+Data_Collection
+)
+.
 <
 !
 -
