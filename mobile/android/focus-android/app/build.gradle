@@ -377,6 +377,8 @@ need
 a
 gecko
 debug
+and
+beta
 build
 for
 now
@@ -394,6 +396,7 @@ gecko
 &
 &
 (
+(
 variant
 .
 buildType
@@ -404,6 +407,19 @@ name
 "
 debug
 "
+&
+&
+variant
+.
+buildType
+.
+name
+!
+=
+"
+beta
+"
+)
 |
 |
 flavors
