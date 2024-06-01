@@ -147,7 +147,7 @@ id
 +
 id
 /
-background
+backgroundView
 "
 android
 :
@@ -182,7 +182,7 @@ id
 +
 id
 /
-brand_background
+keyboardLinearLayout
 "
 android
 :
@@ -407,7 +407,7 @@ id
 +
 id
 /
-toolbar_background
+toolbarBackgroundView
 "
 android
 :
@@ -444,7 +444,7 @@ id
 +
 id
 /
-url_input_container
+urlInputContainerView
 "
 android
 :
@@ -492,7 +492,7 @@ id
 +
 id
 /
-url_input_background
+urlInputBackgroundView
 "
 android
 :
@@ -561,7 +561,7 @@ id
 +
 id
 /
-url_edit
+urlView
 "
 android
 :
@@ -761,7 +761,7 @@ id
 +
 id
 /
-clear
+clearView
 "
 android
 :
@@ -855,7 +855,7 @@ id
 +
 id
 /
-menu
+menuView
 "
 android
 :
@@ -923,7 +923,7 @@ id
 +
 id
 /
-dismiss
+dismissView
 "
 android
 :
@@ -969,7 +969,7 @@ id
 +
 id
 /
-search_hint_container
+searchViewContainer
 "
 android
 :
@@ -1010,7 +1010,7 @@ id
 +
 id
 /
-search_hint
+searchView
 "
 android
 :
