@@ -3213,7 +3213,7 @@ metaDataBundle
 putStringArray
 (
 "
-permissions
+promptPermissions
 "
 arrayOf
 (
@@ -3717,7 +3717,7 @@ metaDataBundle
 putStringArray
 (
 "
-permissions
+promptPermissions
 "
 arrayOf
 (
