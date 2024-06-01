@@ -83,16 +83,6 @@ components
 .
 service
 .
-experiments
-.
-Configuration
-import
-mozilla
-.
-components
-.
-service
-.
 glean
 .
 Glean
