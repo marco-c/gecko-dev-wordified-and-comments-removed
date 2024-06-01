@@ -218,4 +218,15 @@ not
 visible
 .
 }
+companion
+object
+{
+const
+val
+MAIN_EXTENSIONS_MENU_ID
+=
+"
+mainExtensionsMenu
+"
+}
 }
