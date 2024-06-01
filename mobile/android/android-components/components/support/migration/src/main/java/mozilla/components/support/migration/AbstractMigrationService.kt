@@ -143,7 +143,7 @@ base
 .
 ids
 .
-NotificationIds
+SharedIdsHelper
 import
 mozilla
 .
@@ -523,7 +523,7 @@ VISIBILITY_PUBLIC
 val
 id
 =
-NotificationIds
+SharedIdsHelper
 .
 getIdForTag
 (
