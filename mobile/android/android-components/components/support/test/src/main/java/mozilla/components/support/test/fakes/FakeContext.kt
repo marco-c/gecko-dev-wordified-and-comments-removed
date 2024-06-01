@@ -303,6 +303,7 @@ access
 .
 *
 /
+open
 class
 FakeContext
 (
