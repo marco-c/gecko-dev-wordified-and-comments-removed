@@ -5362,6 +5362,15 @@ components
 .
 support
 .
+test
+.
+rule
+mozilla
+.
+components
+.
+support
+.
 utils
 mozilla
 .

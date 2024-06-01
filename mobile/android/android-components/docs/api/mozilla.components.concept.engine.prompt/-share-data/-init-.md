@@ -104,6 +104,8 @@ index
 html
 )
 ?
+=
+null
 text
 :
 [
@@ -136,6 +138,8 @@ index
 html
 )
 ?
+=
+null
 url
 :
 [
@@ -168,6 +172,8 @@ index
 html
 )
 ?
+=
+null
 )
 Represents
 data

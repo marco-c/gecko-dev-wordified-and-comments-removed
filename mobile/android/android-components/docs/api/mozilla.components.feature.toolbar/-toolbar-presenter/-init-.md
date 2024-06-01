@@ -210,8 +210,4 @@ of
 the
 selected
 session
-or
-web
-extensions
-changes
 .

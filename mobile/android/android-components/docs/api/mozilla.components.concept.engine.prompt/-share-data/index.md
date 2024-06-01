@@ -102,7 +102,7 @@ ShareData
 .
 kt
 #
-L14
+L18
 )
 Represents
 data
@@ -202,6 +202,8 @@ index
 html
 )
 ?
+=
+null
 text
 :
 [
@@ -234,6 +236,8 @@ index
 html
 )
 ?
+=
+null
 url
 :
 [
@@ -266,6 +270,8 @@ index
 html
 )
 ?
+=
+null
 )
 <
 br

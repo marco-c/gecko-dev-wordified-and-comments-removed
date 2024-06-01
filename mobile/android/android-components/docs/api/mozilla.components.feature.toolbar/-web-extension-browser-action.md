@@ -121,9 +121,9 @@ feature
 /
 toolbar
 /
-ToolbarPresenter
+WebExtensionToolbarFeature
 .
 kt
 #
-L22
+L21
 )
