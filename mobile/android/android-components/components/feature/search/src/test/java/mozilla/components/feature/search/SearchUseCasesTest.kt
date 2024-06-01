@@ -748,6 +748,11 @@ Source
 .
 NEW_TAB
 )
+store
+.
+waitUntilIdle
+(
+)
 verify
 (
 newTabUseCase
@@ -906,6 +911,11 @@ useCases
 defaultSearch
 (
 searchTerms
+)
+store
+.
+waitUntilIdle
+(
 )
 verify
 (
@@ -1066,6 +1076,11 @@ newPrivateTabSearch
 invoke
 (
 searchTerms
+)
+store
+.
+waitUntilIdle
+(
 )
 verify
 (
@@ -1240,6 +1255,11 @@ test
 -
 parent
 "
+)
+store
+.
+waitUntilIdle
+(
 )
 verify
 (
