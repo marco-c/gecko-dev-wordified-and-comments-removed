@@ -115,7 +115,7 @@ mozilla
 .
 geckoview
 .
-GeckoResult
+Autocomplete
 import
 org
 .
@@ -123,7 +123,7 @@ mozilla
 .
 geckoview
 .
-Autocomplete
+GeckoResult
 /
 *
 *

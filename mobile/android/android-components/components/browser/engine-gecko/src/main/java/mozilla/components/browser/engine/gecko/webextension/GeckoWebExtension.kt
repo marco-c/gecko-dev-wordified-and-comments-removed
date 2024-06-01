@@ -2185,7 +2185,7 @@ size
 icon
 ?
 .
-get
+getBitmap
 (
 size
 )
