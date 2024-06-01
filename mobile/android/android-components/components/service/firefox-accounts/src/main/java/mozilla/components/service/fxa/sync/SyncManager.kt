@@ -410,6 +410,11 @@ startup
 Boolean
 =
 false
+debounce
+:
+Boolean
+=
+false
 )
 fun
 startPeriodicSync
@@ -950,6 +955,11 @@ startup
 Boolean
 =
 false
+debounce
+:
+Boolean
+=
+false
 )
 =
 synchronized
@@ -1005,6 +1015,7 @@ it
 syncNow
 (
 startup
+debounce
 )
 }
 }
