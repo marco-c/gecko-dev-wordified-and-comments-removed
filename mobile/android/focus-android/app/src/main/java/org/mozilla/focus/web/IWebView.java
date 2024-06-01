@@ -42,7 +42,7 @@ int
 progress
 )
 ;
-void
+boolean
 handleExternalUrl
 (
 String
