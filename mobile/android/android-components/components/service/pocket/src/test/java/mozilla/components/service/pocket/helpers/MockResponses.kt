@@ -87,13 +87,15 @@ test
 .
 mock
 import
-org
+mozilla
 .
-mockito
+components
 .
-Mockito
+support
 .
-when
+test
+.
+whenever
 import
 org
 .
@@ -179,7 +181,7 @@ also
 body
 -
 >
-when
+whenever
 (
 body
 .
@@ -196,7 +198,7 @@ thenReturn
 "
 )
 }
-when
+whenever
 (
 it
 .
@@ -227,7 +229,7 @@ Response
 .
 also
 {
-when
+whenever
 (
 it
 .
