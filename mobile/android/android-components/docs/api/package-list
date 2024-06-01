@@ -4692,6 +4692,15 @@ browser
 .
 session
 .
+usecases
+mozilla
+.
+components
+.
+browser
+.
+session
+.
 utils
 mozilla
 .
