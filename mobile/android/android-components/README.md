@@ -838,12 +838,14 @@ base
 }
 #
 #
-Snapshot
+Nightly
 builds
-Snapshots
+Nightly
+builds
 are
-build
-daily
+created
+every
+day
 from
 the
 master
@@ -852,7 +854,7 @@ and
 published
 on
 [
-snapshots
+nightly
 .
 maven
 .
@@ -865,7 +867,7 @@ https
 :
 /
 /
-snapshots
+nightly
 .
 maven
 .
