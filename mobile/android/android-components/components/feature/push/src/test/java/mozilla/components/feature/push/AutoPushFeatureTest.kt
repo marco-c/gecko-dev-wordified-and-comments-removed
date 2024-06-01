@@ -205,11 +205,13 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 .
-CrashReporter
+CrashReporting
 import
 mozilla
 .
@@ -1947,7 +1949,7 @@ true
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (

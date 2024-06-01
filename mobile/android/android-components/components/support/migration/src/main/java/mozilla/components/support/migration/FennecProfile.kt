@@ -75,11 +75,13 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 .
-CrashReporter
+CrashReporting
 import
 mozilla
 .
@@ -323,7 +325,7 @@ context
 Context
 crashReporter
 :
-CrashReporter
+CrashReporting
 mozillaDirectory
 :
 File
@@ -390,7 +392,7 @@ findDefaultProfile
 (
 crashReporter
 :
-CrashReporter
+CrashReporting
 mozillaDirectory
 :
 File

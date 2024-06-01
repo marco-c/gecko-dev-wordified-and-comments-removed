@@ -85,11 +85,13 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 .
-CrashReporter
+CrashReporting
 import
 mozilla
 .
@@ -221,7 +223,7 @@ profilePath
 File
 crashReporter
 :
-CrashReporter
+CrashReporting
 )
 :
 Result
@@ -536,7 +538,7 @@ logger
 Logger
 crashReporter
 :
-CrashReporter
+CrashReporting
 )
 :
 Result

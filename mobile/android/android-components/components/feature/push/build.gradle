@@ -144,16 +144,6 @@ implementation
 Dependencies
 .
 mozilla_push
-implementation
-project
-(
-'
-:
-lib
--
-crash
-'
-)
 /
 /
 Remove

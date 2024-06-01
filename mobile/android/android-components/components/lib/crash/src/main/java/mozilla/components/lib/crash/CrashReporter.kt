@@ -213,6 +213,18 @@ support
 .
 base
 .
+crash
+.
+CrashReporting
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
 log
 .
 logger
@@ -532,6 +544,8 @@ Dispatchers
 IO
 )
 )
+:
+CrashReporting
 {
 internal
 val
@@ -882,6 +896,7 @@ services
 .
 *
 /
+override
 fun
 submitCaughtException
 (

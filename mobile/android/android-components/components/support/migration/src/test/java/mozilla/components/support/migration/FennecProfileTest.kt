@@ -87,11 +87,13 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 .
-CrashReporter
+CrashReporting
 import
 mozilla
 .
@@ -203,7 +205,7 @@ profile
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -295,7 +297,7 @@ profile
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -378,7 +380,7 @@ profiles
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -462,7 +464,7 @@ profiles
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -549,7 +551,7 @@ path
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -589,7 +591,7 @@ comments
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -669,7 +671,7 @@ broken
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -751,7 +753,7 @@ default
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (

@@ -349,16 +349,6 @@ mozilla
 .
 components
 .
-lib
-.
-crash
-.
-CrashReporter
-import
-mozilla
-.
-components
-.
 service
 .
 fxa
@@ -390,6 +380,18 @@ sync
 logins
 .
 SyncableLoginsStorage
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+crash
+.
+CrashReporting
 import
 mozilla
 .
@@ -5059,7 +5061,7 @@ runBlocking
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -5431,7 +5433,7 @@ runBlocking
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -5662,7 +5664,7 @@ runBlocking
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -5876,7 +5878,7 @@ runBlocking
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -6090,7 +6092,7 @@ runBlocking
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -6290,7 +6292,7 @@ runBlocking
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -6494,7 +6496,7 @@ runBlocking
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -6683,7 +6685,7 @@ empty
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -6845,7 +6847,7 @@ apply
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -7084,7 +7086,7 @@ emptyList
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -7350,7 +7352,7 @@ mock
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -7546,7 +7548,7 @@ IllegalArgumentException
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (
@@ -7949,7 +7951,7 @@ mock
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 =
 mock
 (

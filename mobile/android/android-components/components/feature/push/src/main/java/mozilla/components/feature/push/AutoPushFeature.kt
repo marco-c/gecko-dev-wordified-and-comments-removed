@@ -251,11 +251,13 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 .
-CrashReporter
+CrashReporting
 import
 mozilla
 .
@@ -598,7 +600,7 @@ private
 val
 crashReporter
 :
-CrashReporter
+CrashReporting
 ?
 =
 null
