@@ -481,7 +481,7 @@ android
 layout_width
 =
 "
-0dp
+wrap_content
 "
 android
 :
