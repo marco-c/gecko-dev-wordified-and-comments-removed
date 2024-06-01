@@ -118,7 +118,7 @@ AddonUpdater
 .
 kt
 #
-L136
+L141
 )
 An
 implementation
@@ -1023,7 +1023,6 @@ br
 >
 Registers
 the
-given
 [
 extensions
 ]
@@ -1086,6 +1085,19 @@ extensions
 for
 periodic
 updates
+if
+applicable
+.
+Built
+-
+in
+and
+unsupported
+extensions
+will
+not
+update
+automatically
 .
 |
 #
