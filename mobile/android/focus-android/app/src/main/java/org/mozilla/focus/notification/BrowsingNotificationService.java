@@ -477,6 +477,15 @@ FLAG_ACTIVITY_NO_ANIMATION
 )
 ;
 }
+activityIntent
+.
+setFlags
+(
+Intent
+.
+FLAG_ACTIVITY_NEW_TASK
+)
+;
 startActivity
 (
 activityIntent
