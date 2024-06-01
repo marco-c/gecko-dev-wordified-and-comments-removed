@@ -742,6 +742,17 @@ SyncStatus
 LoggedOut
 )
 )
+store
+.
+dispatch
+(
+SyncAction
+.
+UpdateAccount
+(
+null
+)
+)
 }
 }
 /
