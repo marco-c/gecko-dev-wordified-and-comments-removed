@@ -315,6 +315,9 @@ mock
 image
 "
 visibilityListener
+{
+false
+}
 0
 null
 )
