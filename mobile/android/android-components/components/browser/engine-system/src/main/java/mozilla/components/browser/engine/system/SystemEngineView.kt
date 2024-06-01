@@ -1800,6 +1800,9 @@ url
 host
 isRedirect
 false
+request
+.
+isForMainFrame
 )
 ?
 .

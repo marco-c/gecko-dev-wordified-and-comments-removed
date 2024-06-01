@@ -216,6 +216,9 @@ Boolean
 isDirectNavigation
 :
 Boolean
+isSubframeRequest
+:
+Boolean
 )
 :
 RequestInterceptor

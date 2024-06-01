@@ -515,16 +515,6 @@ true
 useCases
 =
 mockUseCases
-allowRedirectUrls
-=
-setOf
-(
-"
-soundcloud
-.
-com
-"
-)
 )
 }
 Test
@@ -554,6 +544,7 @@ true
 false
 false
 false
+false
 )
 assert
 (
@@ -572,8 +563,6 @@ request
 is
 intercepted
 by
-an
-allowed
 redirect
 (
 )
@@ -590,6 +579,7 @@ webUrlWithAppLink
 false
 false
 true
+false
 false
 )
 assert
@@ -611,8 +601,7 @@ not
 intercepted
 by
 a
-not
-allowed
+subframe
 redirect
 (
 )
@@ -630,6 +619,7 @@ false
 false
 true
 false
+true
 )
 assertEquals
 (
@@ -661,6 +651,7 @@ false
 false
 false
 true
+false
 )
 assert
 (
@@ -715,6 +706,7 @@ onLoadRequest
 mockEngineSession
 webUrlWithAppLink
 true
+false
 false
 false
 false
@@ -771,6 +763,7 @@ true
 false
 false
 false
+false
 )
 assertEquals
 (
@@ -803,6 +796,7 @@ onLoadRequest
 (
 mockEngineSession
 webUrlWithAppLink
+false
 false
 false
 false
@@ -846,6 +840,7 @@ true
 true
 false
 false
+false
 )
 assertEquals
 (
@@ -880,6 +875,7 @@ webUrlWithAppLink
 false
 true
 true
+false
 false
 )
 assertEquals
@@ -916,6 +912,7 @@ onLoadRequest
 (
 mockEngineSession
 webUrlWithAppLink
+false
 false
 false
 false
@@ -1040,6 +1037,7 @@ true
 false
 false
 false
+false
 )
 assertEquals
 (
@@ -1155,6 +1153,7 @@ true
 false
 false
 false
+false
 )
 assertEquals
 (
@@ -1267,6 +1266,7 @@ onLoadRequest
 engineSession
 supportedUrl
 true
+false
 false
 false
 false
@@ -1382,6 +1382,7 @@ onLoadRequest
 (
 engineSession
 supportedUrl
+false
 false
 false
 false
@@ -1522,6 +1523,7 @@ false
 false
 false
 false
+false
 )
 assert
 (
@@ -1654,6 +1656,7 @@ onLoadRequest
 (
 engineSession
 notSupportedUrl
+false
 false
 false
 false
@@ -1797,6 +1800,7 @@ false
 false
 false
 false
+false
 )
 assert
 (
@@ -1953,6 +1957,7 @@ true
 false
 false
 false
+false
 )
 assert
 (
@@ -2064,6 +2069,7 @@ onLoadRequest
 engineSession
 intentUrl
 true
+false
 false
 false
 false
@@ -2191,6 +2197,7 @@ true
 false
 false
 false
+false
 )
 assert
 (
@@ -2267,6 +2274,7 @@ true
 true
 false
 false
+false
 )
 assertEquals
 (
@@ -2301,6 +2309,7 @@ onLoadRequest
 mockEngineSession
 fallbackUrl
 true
+false
 false
 false
 false
@@ -2341,6 +2350,7 @@ onLoadRequest
 mockEngineSession
 marketplaceUrl
 true
+false
 false
 false
 false
@@ -2410,6 +2420,7 @@ onLoadRequest
 mockEngineSession
 webUrlWithAppLink
 true
+false
 false
 false
 false
@@ -2572,6 +2583,7 @@ mockEngineSession
 intentUrl
 false
 true
+false
 false
 false
 )

@@ -2949,6 +2949,9 @@ Boolean
 isDirectNavigation
 :
 Boolean
+isSubframeRequest
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -3459,6 +3462,9 @@ Boolean
 isDirectNavigation
 :
 Boolean
+isSubframeRequest
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -3617,6 +3623,9 @@ isRedirect
 :
 Boolean
 isDirectNavigation
+:
+Boolean
+isSubframeRequest
 :
 Boolean
 )
@@ -3895,6 +3904,9 @@ isRedirect
 :
 Boolean
 isDirectNavigation
+:
+Boolean
+isSubframeRequest
 :
 Boolean
 )

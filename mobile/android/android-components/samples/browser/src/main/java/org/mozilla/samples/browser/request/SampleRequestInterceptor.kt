@@ -167,13 +167,6 @@ RequestInterceptor
 {
 override
 fun
-interceptsAppInitiatedRequests
-(
-)
-=
-true
-override
-fun
 onLoadRequest
 (
 engineSession
@@ -192,6 +185,9 @@ isRedirect
 :
 Boolean
 isDirectNavigation
+:
+Boolean
+isSubframeRequest
 :
 Boolean
 )
@@ -252,6 +248,7 @@ hasUserGesture
 isSameDomain
 isRedirect
 isDirectNavigation
+isSubframeRequest
 )
 if
 (
@@ -281,6 +278,7 @@ hasUserGesture
 isSameDomain
 isRedirect
 isDirectNavigation
+isSubframeRequest
 )
 }
 response

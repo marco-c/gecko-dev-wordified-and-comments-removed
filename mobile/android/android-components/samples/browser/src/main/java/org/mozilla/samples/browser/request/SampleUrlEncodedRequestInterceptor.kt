@@ -208,6 +208,9 @@ Boolean
 isDirectNavigation
 :
 Boolean
+isSubframeRequest
+:
+Boolean
 )
 :
 InterceptionResponse
@@ -262,6 +265,7 @@ hasUserGesture
 isSameDomain
 isRedirect
 isDirectNavigation
+isSubframeRequest
 )
 }
 }

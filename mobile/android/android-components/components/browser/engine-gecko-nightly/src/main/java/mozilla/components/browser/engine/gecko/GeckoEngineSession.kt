@@ -2197,6 +2197,7 @@ when
 maybeInterceptRequest
 (
 request
+false
 )
 !
 =
@@ -2312,6 +2313,7 @@ if
 maybeInterceptRequest
 (
 request
+true
 )
 !
 =
@@ -2560,6 +2562,9 @@ request
 NavigationDelegate
 .
 LoadRequest
+isSubframeRequest
+:
+Boolean
 )
 :
 InterceptionResponse
@@ -2638,6 +2643,7 @@ isRedirect
 request
 .
 isDirectNavigation
+isSubframeRequest
 )
 ?
 .

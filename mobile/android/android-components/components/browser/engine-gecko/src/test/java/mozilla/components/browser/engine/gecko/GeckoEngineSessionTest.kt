@@ -3957,7 +3957,7 @@ geckoSessionProvider
 =
 geckoSessionProvider
 )
-var
+val
 geckoResult
 =
 GeckoResult
@@ -4126,7 +4126,7 @@ HistoryTrackingDelegate
 mock
 (
 )
-var
+val
 geckoResult
 =
 GeckoResult
@@ -7925,6 +7925,9 @@ Boolean
 isDirectNavigation
 :
 Boolean
+isSubframeRequest
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -8077,6 +8080,9 @@ isRedirect
 :
 Boolean
 isDirectNavigation
+:
+Boolean
+isSubframeRequest
 :
 Boolean
 )
@@ -8239,6 +8245,9 @@ isRedirect
 :
 Boolean
 isDirectNavigation
+:
+Boolean
+isSubframeRequest
 :
 Boolean
 )
@@ -8449,6 +8458,9 @@ isRedirect
 :
 Boolean
 isDirectNavigation
+:
+Boolean
+isSubframeRequest
 :
 Boolean
 )
@@ -11618,6 +11630,9 @@ Boolean
 isDirectNavigation
 :
 Boolean
+isSubframeRequest
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -11801,6 +11816,10 @@ Intent
 ?
 =
 null
+var
+observedIsSubframe
+=
+false
 engineSession
 .
 settings
@@ -11840,6 +11859,9 @@ Boolean
 isDirectNavigation
 :
 Boolean
+isSubframeRequest
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -11847,6 +11869,9 @@ RequestInterceptor
 InterceptionResponse
 ?
 {
+observedIsSubframe
+=
+isSubframeRequest
 return
 when
 (
@@ -11944,6 +11969,11 @@ result
 "
 observedUrl
 )
+assertEquals
+(
+true
+observedIsSubframe
+)
 navigationDelegate
 .
 value
@@ -11975,6 +12005,11 @@ assertEquals
 result
 "
 observedUrl
+)
+assertEquals
+(
+true
+observedIsSubframe
 )
 }
 Test
@@ -12080,6 +12115,9 @@ isRedirect
 :
 Boolean
 isDirectNavigation
+:
+Boolean
+isSubframeRequest
 :
 Boolean
 )
@@ -12592,6 +12630,9 @@ isRedirect
 :
 Boolean
 isDirectNavigation
+:
+Boolean
+isSubframeRequest
 :
 Boolean
 )
