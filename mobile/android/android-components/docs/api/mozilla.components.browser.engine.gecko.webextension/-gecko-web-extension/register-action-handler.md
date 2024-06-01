@@ -185,7 +185,7 @@ GeckoWebExtension
 .
 kt
 #
-L159
+L160
 )
 Overrides
 [
@@ -375,7 +375,7 @@ GeckoWebExtension
 .
 kt
 #
-L192
+L193
 )
 Overrides
 [
