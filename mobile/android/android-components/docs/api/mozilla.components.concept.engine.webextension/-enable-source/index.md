@@ -102,7 +102,7 @@ WebExtension
 .
 kt
 #
-L311
+L316
 )
 Provides
 additional
@@ -111,7 +111,8 @@ about
 why
 an
 extension
-was
+is
+being
 enabled
 or
 disabled
