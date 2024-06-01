@@ -541,10 +541,6 @@ components
 .
 store
 context
-"
-Sample
-Browser
-"
 )
 {
 share

@@ -106,14 +106,6 @@ mockito
 Mockito
 .
 verify
-private
-const
-val
-APP_NAME
-=
-"
-appName
-"
 class
 DefaultSelectionActionDelegateTest
 {
@@ -179,7 +171,6 @@ searchAdapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 assertTrue
@@ -253,7 +244,6 @@ searchAdapter
 getTestResources
 (
 )
-APP_NAME
 )
 assertTrue
 (
@@ -321,7 +311,6 @@ searchAdapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 assertTrue
@@ -388,7 +377,6 @@ adapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 delegate
@@ -448,7 +436,6 @@ adapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 delegate
@@ -519,7 +506,6 @@ adapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 val
@@ -579,7 +565,6 @@ adapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 delegate
@@ -647,7 +632,6 @@ adapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 val
@@ -707,7 +691,6 @@ adapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 delegate
@@ -776,7 +759,6 @@ adapter
 getTestResources
 (
 )
-APP_NAME
 shareClicked
 )
 val
@@ -817,15 +799,14 @@ R
 .
 string
 .
-mozac_selection_context_menu_search
-APP_NAME
+mozac_selection_context_menu_search_2
 )
 )
 .
 thenReturn
 (
 "
-search
+Search
 "
 )
 whenever
@@ -836,8 +817,7 @@ R
 .
 string
 .
-mozac_selection_context_menu_search_privately
-APP_NAME
+mozac_selection_context_menu_search_privately_2
 )
 )
 .

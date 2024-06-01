@@ -187,9 +187,6 @@ SearchAdapter
 resources
 :
 Resources
-appName
-:
-String
 private
 val
 shareTextClicked
@@ -221,8 +218,7 @@ R
 .
 string
 .
-mozac_selection_context_menu_search
-appName
+mozac_selection_context_menu_search_2
 )
 private
 val
@@ -236,8 +232,7 @@ R
 .
 string
 .
-mozac_selection_context_menu_search_privately
-appName
+mozac_selection_context_menu_search_privately_2
 )
 private
 val

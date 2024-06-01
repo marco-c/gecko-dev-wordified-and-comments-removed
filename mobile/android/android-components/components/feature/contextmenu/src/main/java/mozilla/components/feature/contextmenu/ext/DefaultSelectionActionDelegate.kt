@@ -136,9 +136,6 @@ BrowserStore
 context
 :
 Context
-appName
-:
-String
 shareTextClicked
 :
 (
@@ -163,6 +160,5 @@ store
 context
 .
 resources
-appName
 shareTextClicked
 )
