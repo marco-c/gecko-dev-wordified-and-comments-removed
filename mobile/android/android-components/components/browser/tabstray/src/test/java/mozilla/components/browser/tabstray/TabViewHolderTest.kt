@@ -282,7 +282,7 @@ mozac_browser_tabstray_url
 val
 holder
 =
-TabViewHolder
+DefaultTabViewHolder
 (
 view
 mockTabsTrayWithStyles
@@ -416,7 +416,7 @@ mozac_browser_tabstray_url
 val
 holder
 =
-TabViewHolder
+DefaultTabViewHolder
 (
 view
 mockTabsTrayWithStyles
@@ -528,7 +528,7 @@ null
 val
 holder
 =
-TabViewHolder
+DefaultTabViewHolder
 (
 view
 mockTabsTrayWithStyles
@@ -647,7 +647,7 @@ null
 val
 holder
 =
-TabViewHolder
+DefaultTabViewHolder
 (
 view
 mockTabsTrayWithStyles
@@ -778,7 +778,7 @@ null
 val
 holder
 =
-TabViewHolder
+DefaultTabViewHolder
 (
 view
 mockTabsTrayWithStyles
@@ -939,7 +939,7 @@ null
 val
 holder
 =
-TabViewHolder
+DefaultTabViewHolder
 (
 view
 mockTabsTrayWithStyles
@@ -1094,7 +1094,7 @@ mozac_browser_tabstray_thumbnail
 val
 holder
 =
-TabViewHolder
+DefaultTabViewHolder
 (
 view
 mockTabsTrayWithStyles

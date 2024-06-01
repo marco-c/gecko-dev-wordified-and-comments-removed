@@ -367,7 +367,7 @@ null
 val
 holder
 =
-TabViewHolder
+DefaultTabViewHolder
 (
 view
 TabViewHolderTest
