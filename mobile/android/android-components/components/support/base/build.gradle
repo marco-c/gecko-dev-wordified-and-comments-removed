@@ -332,6 +332,16 @@ implementation
 Dependencies
 .
 kotlin_coroutines
+api
+project
+(
+"
+:
+concept
+-
+base
+"
+)
 /
 /
 We
