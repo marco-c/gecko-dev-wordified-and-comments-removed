@@ -574,6 +574,12 @@ Metadata
 metaData
 .
 duration
+metaData
+.
+height
+metaData
+.
+width
 )
 }
 override
