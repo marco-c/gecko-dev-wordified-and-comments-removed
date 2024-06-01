@@ -1417,6 +1417,8 @@ catch
 e
 :
 PlacesException
+.
+CannotUpdateRoot
 )
 {
 }
