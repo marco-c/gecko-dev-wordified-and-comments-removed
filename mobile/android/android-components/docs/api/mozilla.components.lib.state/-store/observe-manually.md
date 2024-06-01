@@ -177,7 +177,7 @@ Store
 .
 kt
 #
-L84
+L75
 )
 Registers
 an
