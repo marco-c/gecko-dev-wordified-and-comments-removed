@@ -1530,7 +1530,6 @@ invoke
 (
 )
 }
-DrawableRes
 val
 backgroundResource
 =
@@ -1876,7 +1875,6 @@ selected
 updateViewState
 (
 )
-DrawableRes
 val
 backgroundResource
 =
