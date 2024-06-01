@@ -2683,6 +2683,11 @@ length
 (
 )
 )
+EventsStorageEngine
+.
+clearAllStores
+(
+)
 }
 kotlinx
 .
@@ -3237,6 +3242,11 @@ getString
 someExtra
 "
 )
+)
+EventsStorageEngine
+.
+clearAllStores
+(
 )
 }
 Test
