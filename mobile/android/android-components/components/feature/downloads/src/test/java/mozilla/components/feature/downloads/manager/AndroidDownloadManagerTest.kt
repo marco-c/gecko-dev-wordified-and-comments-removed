@@ -612,6 +612,11 @@ download
 )
 !
 !
+store
+.
+waitUntilIdle
+(
+)
 notifyDownloadFailed
 (
 id
