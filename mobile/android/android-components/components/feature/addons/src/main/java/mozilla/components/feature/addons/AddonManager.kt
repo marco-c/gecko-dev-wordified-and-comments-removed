@@ -756,7 +756,7 @@ there
 was
 an
 error
-installing
+uninstalling
 the
 addon
 .
