@@ -118,6 +118,8 @@ code
 print
 (
 "
+Error
+:
 *
 [
 {
@@ -163,6 +165,8 @@ code
 print
 (
 "
+Error
+:
 *
 [
 {
@@ -208,6 +212,8 @@ code
 print
 (
 "
+Warning
+:
 *
 [
 {
