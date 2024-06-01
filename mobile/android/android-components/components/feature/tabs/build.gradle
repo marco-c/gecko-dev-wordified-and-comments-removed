@@ -203,6 +203,16 @@ browser
 thumbnails
 '
 )
+implementation
+project
+(
+'
+:
+browser
+-
+tabstray
+'
+)
 api
 project
 (

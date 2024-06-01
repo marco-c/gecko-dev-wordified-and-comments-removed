@@ -83,7 +83,9 @@ mozilla
 .
 components
 .
-concept
+feature
+.
+tabs
 .
 tabstray
 .
