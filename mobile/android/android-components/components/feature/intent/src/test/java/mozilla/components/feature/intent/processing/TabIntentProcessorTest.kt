@@ -458,7 +458,6 @@ searchUseCases
 =
 SearchUseCases
 (
-testContext
 store
 searchEngineManager
 .
@@ -2159,7 +2158,6 @@ searchUseCases
 =
 SearchUseCases
 (
-testContext
 store
 searchEngineManager
 .
@@ -2721,7 +2719,6 @@ searchUseCases
 =
 SearchUseCases
 (
-testContext
 store
 searchEngineManager
 .
@@ -3206,7 +3203,6 @@ searchUseCases
 =
 SearchUseCases
 (
-testContext
 store
 searchEngineManager
 .

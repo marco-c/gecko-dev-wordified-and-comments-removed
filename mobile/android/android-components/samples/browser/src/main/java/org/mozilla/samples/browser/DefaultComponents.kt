@@ -1424,7 +1424,6 @@ lazy
 {
 SearchUseCases
 (
-applicationContext
 store
 store
 .

@@ -355,8 +355,9 @@ search
 ?
 q
 =
-%
-s
+{
+searchTerms
+}
 '
 "
 )
