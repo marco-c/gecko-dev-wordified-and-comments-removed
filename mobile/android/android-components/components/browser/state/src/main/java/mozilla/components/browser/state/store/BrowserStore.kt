@@ -245,6 +245,9 @@ BrowserStateReducer
 :
 reduce
 middleware
+"
+BrowserStore
+"
 )
 {
 init

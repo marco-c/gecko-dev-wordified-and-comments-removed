@@ -99,4 +99,9 @@ CustomTabsServiceStateReducer
 :
 :
 reduce
+threadNamePrefix
+=
+"
+CustomTabsService
+"
 )
