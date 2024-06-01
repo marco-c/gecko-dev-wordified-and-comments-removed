@@ -199,6 +199,10 @@ Dependencies
 .
 mozilla_remote_tabs
 api
+Dependencies
+.
+mozilla_sync_autofill
+api
 project
 (
 '
