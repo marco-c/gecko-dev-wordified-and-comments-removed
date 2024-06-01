@@ -1247,7 +1247,7 @@ tag
 val
 id
 =
-NotificationIds
+SharedIdsHelper
 .
 getIdForTag
 (
@@ -1274,7 +1274,7 @@ tag
 val
 id
 =
-NotificationIds
+SharedIdsHelper
 .
 getNextIdForTag
 (
