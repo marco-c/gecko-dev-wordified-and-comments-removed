@@ -111,9 +111,9 @@ google
 .
 firebase
 .
-iid
+messaging
 .
-FirebaseInstanceId
+FirebaseMessaging
 import
 com
 .
@@ -742,13 +742,13 @@ launch
 {
 try
 {
-FirebaseInstanceId
+FirebaseMessaging
 .
 getInstance
 (
 )
 .
-deleteInstanceId
+deleteToken
 (
 )
 }
