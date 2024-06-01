@@ -125,5 +125,12 @@ importantForAccessibility
 "
 no
 "
+android
+:
+clickable
+=
+"
+false
+"
 /
 >
