@@ -712,14 +712,6 @@ shutdown
 }
 verify
 (
-service
-)
-.
-stop
-(
-)
-verify
-(
 connection
 )
 .
