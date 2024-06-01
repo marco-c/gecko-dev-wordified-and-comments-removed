@@ -407,6 +407,17 @@ true
 ;
 settings
 .
+setLayoutAlgorithm
+(
+WebSettings
+.
+LayoutAlgorithm
+.
+TEXT_AUTOSIZING
+)
+;
+settings
+.
 setAllowFileAccess
 (
 false
