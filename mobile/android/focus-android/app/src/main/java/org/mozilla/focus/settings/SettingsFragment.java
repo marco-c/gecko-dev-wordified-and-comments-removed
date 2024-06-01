@@ -40,13 +40,6 @@ android
 .
 preference
 .
-PreferenceGroup
-;
-import
-android
-.
-preference
-.
 PreferenceScreen
 ;
 import
@@ -88,17 +81,6 @@ focus
 activity
 .
 InfoActivity
-;
-import
-org
-.
-mozilla
-.
-focus
-.
-widget
-.
-DefaultBrowserPreference
 ;
 public
 class
@@ -148,7 +130,7 @@ if
 (
 preference
 .
-getTitle
+getKey
 (
 )
 .
@@ -164,7 +146,7 @@ R
 .
 string
 .
-menu_about
+pref_key_about
 )
 )
 )
@@ -193,7 +175,7 @@ if
 (
 preference
 .
-getTitle
+getKey
 (
 )
 .
@@ -209,7 +191,7 @@ R
 .
 string
 .
-menu_help
+pref_key_help
 )
 )
 )
@@ -240,7 +222,7 @@ if
 (
 preference
 .
-getTitle
+getKey
 (
 )
 .
@@ -256,7 +238,7 @@ R
 .
 string
 .
-menu_rights
+pref_key_rights
 )
 )
 )
