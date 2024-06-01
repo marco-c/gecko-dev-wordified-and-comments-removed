@@ -168,6 +168,16 @@ base
 '
 )
 implementation
+project
+(
+'
+:
+support
+-
+ktx
+'
+)
+implementation
 Dependencies
 .
 androidx_appcompat
