@@ -196,9 +196,9 @@ detekt
 "
 1
 .
-0
+2
 .
-1
+2
 "
 const
 val
@@ -282,9 +282,9 @@ val
 mozilla_glean
 =
 "
-21
+22
 .
-3
+1
 .
 0
 "
@@ -345,8 +345,6 @@ browser
 2
 .
 0
--
-alpha07
 "
 const
 val
