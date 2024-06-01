@@ -406,7 +406,7 @@ canvas
 )
 ;
 final
-int
+float
 x
 =
 canvas
@@ -415,16 +415,12 @@ getWidth
 (
 )
 /
-2
+2f
 ;
 final
-int
+float
 y
 =
-(
-int
-)
-(
 (
 canvas
 .
@@ -432,7 +428,7 @@ getHeight
 (
 )
 /
-2
+2f
 )
 -
 (
@@ -450,8 +446,7 @@ ascent
 )
 )
 /
-2
-)
+2f
 )
 ;
 final

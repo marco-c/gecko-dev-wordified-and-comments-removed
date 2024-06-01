@@ -829,6 +829,12 @@ bundle
 if
 (
 bundle
+!
+=
+null
+&
+&
+bundle
 .
 containsKey
 (
