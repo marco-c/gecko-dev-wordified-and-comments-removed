@@ -2238,9 +2238,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 /
 -
 custom
@@ -2274,9 +2274,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 /
 -
 custom

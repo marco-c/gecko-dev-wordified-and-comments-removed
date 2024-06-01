@@ -66,7 +66,6 @@ md
 consumeFrom
 MainThread
 ExperimentalCoroutinesApi
-ObsoleteCoroutinesApi
 fun
 <
 S
@@ -307,7 +306,7 @@ Fragment
 .
 kt
 #
-L30
+L28
 )
 Helper
 extension

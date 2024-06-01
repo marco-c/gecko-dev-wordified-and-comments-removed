@@ -1372,9 +1372,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 /
 -
 custom
@@ -3868,6 +3868,8 @@ md
 )
 from
 a
+custom
+tab
 [
 Session
 ]
@@ -3878,6 +3880,7 @@ index
 .
 md
 )
+.
 |
 |
 [

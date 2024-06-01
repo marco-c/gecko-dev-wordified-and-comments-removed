@@ -118,9 +118,9 @@ components
 .
 browser
 .
-session
+state
 .
-tab
+state
 /
 -
 custom
