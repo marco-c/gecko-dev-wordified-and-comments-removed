@@ -646,7 +646,7 @@ outputs
 /
 apk
 /
-geckoNightly
+gecko
 /
 debug
 /
@@ -654,7 +654,7 @@ samples
 -
 browser
 -
-geckoNightly
+gecko
 -
 debug
 .
@@ -761,8 +761,6 @@ component
 engine
 -
 gecko
--
-nightly
 /
 build
 /
@@ -779,8 +777,6 @@ browser
 engine
 -
 gecko
--
-nightly
 -
 debug
 -
@@ -816,7 +812,7 @@ for
 browser
 sample
 (
-geckoNightly
+gecko
 sample
 only
 )
@@ -837,7 +833,7 @@ outputs
 /
 apk
 /
-geckoNightly
+gecko
 /
 debug
 /
@@ -847,7 +843,7 @@ samples
 samples
 }
 -
-geckoNightly
+gecko
 -
 debug
 .
@@ -872,7 +868,7 @@ apk
 /
 androidTest
 /
-geckoNightly
+gecko
 /
 debug
 /
@@ -882,7 +878,7 @@ samples
 samples
 }
 -
-geckoNightly
+gecko
 -
 debug
 -
