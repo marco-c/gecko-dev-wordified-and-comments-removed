@@ -142,6 +142,8 @@ NIGHTLY
 geckoview
 -
 nightly
+-
+omni
 "
 )
 BETA
@@ -150,12 +152,16 @@ BETA
 geckoview
 -
 beta
+-
+omni
 "
 )
 RELEASE
 (
 "
 geckoview
+-
+omni
 "
 )
 }

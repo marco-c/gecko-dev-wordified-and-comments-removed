@@ -360,6 +360,8 @@ telemetry
 :
 glean
 -
+native
+-
 forUnitTests
 :
 {

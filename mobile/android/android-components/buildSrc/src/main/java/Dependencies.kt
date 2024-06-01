@@ -298,11 +298,11 @@ val
 mozilla_glean
 =
 "
-39
+40
+.
+1
 .
 0
-.
-3
 "
 const
 val
@@ -2098,6 +2098,8 @@ mozilla
 telemetry
 :
 glean
+-
+native
 -
 forUnitTests
 :
