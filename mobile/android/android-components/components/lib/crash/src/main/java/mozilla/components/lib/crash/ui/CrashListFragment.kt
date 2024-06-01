@@ -384,9 +384,9 @@ String
 )
 {
 (
-activity
-!
-!
+requireActivity
+(
+)
 as
 AbstractCrashListActivity
 )
