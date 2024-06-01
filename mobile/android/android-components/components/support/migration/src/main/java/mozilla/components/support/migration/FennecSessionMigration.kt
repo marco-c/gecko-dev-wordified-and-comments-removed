@@ -198,7 +198,7 @@ Snapshot
 wrapped
 in
 [
-MigrationResult
+Result
 .
 Success
 ]
@@ -214,7 +214,7 @@ profilePath
 File
 )
 :
-MigrationResult
+Result
 <
 SessionManager
 .
@@ -238,7 +238,7 @@ isEmpty
 )
 {
 return
-MigrationResult
+Result
 .
 Failure
 (
@@ -339,7 +339,7 @@ e
 }
 }
 return
-MigrationResult
+Result
 .
 Failure
 (
@@ -448,7 +448,9 @@ json
 String
 )
 :
-MigrationResult
+Result
+.
+Success
 <
 SessionManager
 .
@@ -496,7 +498,7 @@ length
 )
 {
 return
-MigrationResult
+Result
 .
 Success
 (
@@ -703,7 +705,7 @@ size
 }
 }
 return
-MigrationResult
+Result
 .
 Success
 (

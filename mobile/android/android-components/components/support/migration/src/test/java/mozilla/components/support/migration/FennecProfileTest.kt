@@ -182,6 +182,9 @@ findDefault
 testContext
 getTestPath
 (
+"
+profiles
+"
 )
 "
 fennec_default
@@ -258,6 +261,9 @@ findDefault
 testContext
 getTestPath
 (
+"
+profiles
+"
 )
 "
 mozillazine_default
@@ -325,6 +331,9 @@ findDefault
 testContext
 getTestPath
 (
+"
+profiles
+"
 )
 "
 mozillazine_multiple
@@ -393,6 +402,9 @@ findDefault
 testContext
 getTestPath
 (
+"
+profiles
+"
 )
 "
 desktop
@@ -464,6 +476,9 @@ findDefault
 testContext
 getTestPath
 (
+"
+profiles
+"
 )
 )
 assertNull
@@ -488,6 +503,9 @@ findDefault
 testContext
 getTestPath
 (
+"
+profiles
+"
 )
 "
 with_comments
@@ -552,6 +570,9 @@ findDefault
 testContext
 getTestPath
 (
+"
+profiles
+"
 )
 "
 broken
@@ -618,6 +639,9 @@ findDefault
 testContext
 getTestPath
 (
+"
+profiles
+"
 )
 "
 no_default
@@ -666,10 +690,12 @@ default
 )
 }
 }
-private
 fun
 getTestPath
 (
+dir
+:
+String
 )
 :
 File
@@ -688,9 +714,7 @@ classLoader
 .
 getResource
 (
-"
-profiles
-"
+dir
 )
 .
 file

@@ -84,7 +84,7 @@ action
 /
 sealed
 class
-MigrationResult
+Result
 <
 T
 >
@@ -95,6 +95,14 @@ T
 *
 Successful
 migration
+that
+produced
+data
+of
+type
+[
+T
+]
 .
 *
 *
@@ -121,7 +129,7 @@ value
 T
 )
 :
-MigrationResult
+Result
 <
 T
 >
@@ -167,7 +175,7 @@ Throwable
 >
 )
 :
-MigrationResult
+Result
 <
 T
 >
