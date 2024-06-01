@@ -1209,7 +1209,7 @@ R
 .
 string
 .
-mozac_feature_contextmenu_snackbar_text_copied
+mozac_feature_contextmenu_snackbar_link_copied
 duration
 =
 Snackbar
@@ -1345,7 +1345,7 @@ R
 .
 string
 .
-mozac_feature_contextmenu_snackbar_text_copied
+mozac_feature_contextmenu_snackbar_link_copied
 duration
 =
 Snackbar
