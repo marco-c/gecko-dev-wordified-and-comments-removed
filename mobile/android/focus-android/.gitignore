@@ -110,3 +110,9 @@ l10n
 -
 repo
 /
+#
+Compiled
+python
+code
+.
+pyc
