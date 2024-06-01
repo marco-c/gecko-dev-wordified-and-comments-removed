@@ -217,6 +217,11 @@ String
 ?
 =
 null
+isGeneral
+:
+Boolean
+=
+false
 )
 :
 SearchEngine
@@ -282,6 +287,9 @@ url
 suggestUrl
 =
 suggestUrl
+isGeneral
+=
+isGeneral
 )
 }
 /
