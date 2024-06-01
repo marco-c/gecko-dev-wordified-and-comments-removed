@@ -1287,10 +1287,6 @@ breadcrumb
 Breadcrumb
 )
 {
-scope
-.
-launch
-{
 if
 (
 crashBreadcrumbs
@@ -1314,7 +1310,6 @@ add
 (
 breadcrumb
 )
-}
 }
 internal
 fun

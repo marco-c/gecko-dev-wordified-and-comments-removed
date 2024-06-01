@@ -1244,9 +1244,6 @@ breadcrumb
 =
 Breadcrumb
 (
-this
-.
-date
 )
 .
 apply
