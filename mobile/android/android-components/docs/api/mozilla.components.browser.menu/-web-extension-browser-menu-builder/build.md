@@ -131,7 +131,7 @@ WebExtensionBrowserMenuBuilder
 .
 kt
 #
-L30
+L42
 )
 Overrides
 [

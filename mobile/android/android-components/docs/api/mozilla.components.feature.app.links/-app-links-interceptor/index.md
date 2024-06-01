@@ -133,7 +133,7 @@ AppLinksInterceptor
 .
 kt
 #
-L44
+L45
 )
 This
 feature
@@ -740,6 +740,8 @@ AppLinksUseCases
 (
 context
 launchInApp
+alwaysDeniedSchemes
+=
 alwaysDeniedSchemes
 )
 launchFromInterceptor
