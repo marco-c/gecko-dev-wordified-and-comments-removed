@@ -122,7 +122,7 @@ root
 "
 "
     
-cur_dir
+automation_dir
 =
 Path
 (
@@ -131,33 +131,10 @@ __file__
 .
 parent
     
-while
-not
-Path
-(
-cur_dir
-"
-LICENSE
-"
-)
-.
-exists
-(
-)
-:
-        
-cur_dir
-=
-cur_dir
+return
+automation_dir
 .
 parent
-    
-return
-cur_dir
-.
-absolute
-(
-)
 LAST_CONTENTS_HASH_FILE
 =
 "
