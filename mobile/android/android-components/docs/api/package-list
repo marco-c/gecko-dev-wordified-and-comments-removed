@@ -4073,15 +4073,6 @@ service
 .
 glean
 .
-scheduler
-mozilla
-.
-components
-.
-service
-.
-glean
-.
 storages
 mozilla
 .
