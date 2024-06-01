@@ -40,7 +40,7 @@ md
 )
 /
 [
-MozillaLocationService
+LocationService
 ]
 (
 .
@@ -112,11 +112,11 @@ service
 /
 location
 /
-MozillaLocationService
+LocationService
 .
 kt
 #
-L83
+L26
 )
 A
 [

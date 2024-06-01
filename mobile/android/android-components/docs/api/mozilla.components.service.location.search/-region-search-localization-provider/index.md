@@ -135,7 +135,7 @@ RegionSearchLocalizationProvider
 .
 kt
 #
-L20
+L21
 )
 [
 SearchLocalizationProvider
@@ -288,7 +288,7 @@ RegionSearchLocalizationProvider
 service
 :
 [
-MozillaLocationService
+LocationService
 ]
 (
 .
@@ -305,8 +305,6 @@ service
 .
 location
 /
--
-mozilla
 -
 location
 -

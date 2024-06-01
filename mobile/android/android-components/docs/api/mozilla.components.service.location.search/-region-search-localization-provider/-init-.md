@@ -75,7 +75,7 @@ RegionSearchLocalizationProvider
 service
 :
 [
-MozillaLocationService
+LocationService
 ]
 (
 .
@@ -92,8 +92,6 @@ service
 .
 location
 /
--
-mozilla
 -
 location
 -

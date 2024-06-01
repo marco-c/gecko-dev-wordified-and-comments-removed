@@ -40,7 +40,7 @@ md
 )
 /
 [
-MozillaLocationService
+LocationService
 ]
 (
 .
