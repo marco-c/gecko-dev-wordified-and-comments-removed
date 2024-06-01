@@ -184,6 +184,10 @@ implementation
 Dependencies
 .
 testing_leakcanary
+implementation
+Dependencies
+.
+testing_mockwebserver
 }
 apply
 from

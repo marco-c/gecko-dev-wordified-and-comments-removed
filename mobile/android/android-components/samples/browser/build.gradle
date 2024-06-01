@@ -1031,16 +1031,6 @@ implementation
 Dependencies
 .
 androidx_constraintlayout
-testImplementation
-project
-(
-'
-:
-support
--
-test
-'
-)
 androidTestImplementation
 project
 (
