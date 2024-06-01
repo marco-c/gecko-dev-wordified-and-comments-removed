@@ -679,7 +679,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -697,7 +697,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -715,7 +715,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -816,7 +816,7 @@ pressBackKey
 ;
 TestHelper
 .
-urlBar
+browserURLbar
 .
 click
 (
@@ -900,7 +900,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -918,7 +918,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -936,7 +936,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
