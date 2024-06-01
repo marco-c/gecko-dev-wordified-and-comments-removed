@@ -117,7 +117,6 @@ val
 icon
 :
 Bitmap
-private
 val
 resultsUris
 :
@@ -125,7 +124,6 @@ List
 <
 Uri
 >
-private
 val
 suggestUri
 :
