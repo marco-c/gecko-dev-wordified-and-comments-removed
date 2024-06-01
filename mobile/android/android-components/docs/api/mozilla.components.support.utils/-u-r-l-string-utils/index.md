@@ -325,7 +325,11 @@ md
 )
 |
 fun
+~
+~
 isURLLikeStrict
+~
+~
 (
 string
 :

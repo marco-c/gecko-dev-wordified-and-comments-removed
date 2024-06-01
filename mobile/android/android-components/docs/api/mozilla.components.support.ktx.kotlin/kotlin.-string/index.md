@@ -572,7 +572,11 @@ index
 html
 )
 .
+~
+~
 isUrlStrict
+~
+~
 (
 )
 :
