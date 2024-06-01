@@ -475,6 +475,12 @@ data
 .
 *
 /
+Suppress
+(
+"
+DEPRECATION
+"
+)
 fun
 getUploadEnabled
 (
