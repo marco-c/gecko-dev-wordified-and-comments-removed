@@ -75,6 +75,12 @@ androidx
 .
 annotation
 .
+MainThread
+import
+androidx
+.
+annotation
+.
 VisibleForTesting
 import
 mozilla
@@ -286,6 +292,8 @@ settings
 .
 *
 /
+JvmOverloads
+MainThread
 fun
 initialize
 (
@@ -541,6 +549,7 @@ the
 ping
 *
 /
+JvmOverloads
 fun
 setExperimentActive
 (
