@@ -229,7 +229,8 @@ val
 packageManager
 :
 PackageManager
-private
+VisibleForTesting
+internal
 val
 apiKey
 :

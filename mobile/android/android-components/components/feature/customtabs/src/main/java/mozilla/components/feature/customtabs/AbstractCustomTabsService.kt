@@ -91,6 +91,12 @@ Bundle
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 browser
 .
 customtabs
@@ -312,7 +318,8 @@ String
 ?
 =
 null
-private
+VisibleForTesting
+internal
 val
 verifier
 by
