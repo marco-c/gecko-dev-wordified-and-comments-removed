@@ -467,6 +467,16 @@ tab
 .
 trackingProtection
 .
+ignoredOnTrackingProtection
+-
+>
+SiteTrackingProtection
+.
+OFF_FOR_A_SITE
+tab
+.
+trackingProtection
+.
 enabled
 &
 &
