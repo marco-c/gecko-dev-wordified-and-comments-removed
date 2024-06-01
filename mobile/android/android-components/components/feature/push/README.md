@@ -22,7 +22,7 @@ Feature
 >
 Push
 A
-compoennt
+component
 that
 implements
 push
