@@ -744,6 +744,18 @@ String
 url
 )
 {
+if
+(
+!
+client
+.
+shouldOverrideUrlLoading
+(
+this
+url
+)
+)
+{
 super
 .
 loadUrl
@@ -751,6 +763,7 @@ loadUrl
 url
 )
 ;
+}
 client
 .
 notifyCurrentURL
