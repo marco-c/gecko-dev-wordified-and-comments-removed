@@ -1063,6 +1063,17 @@ shouldShowRequestPermissionRationale
 values
 .
 *
+property
+shouldShowDoNotAskAgainCheckBox
+optional
+Visibility
+for
+Do
+not
+ask
+again
+Checkbox
+*
 *
 /
 Suppress
@@ -1151,6 +1162,13 @@ val
 store
 :
 BrowserStore
+private
+val
+shouldShowDoNotAskAgainCheckBox
+:
+Boolean
+=
+true
 )
 :
 LifecycleAwareFeature
@@ -3971,7 +3989,7 @@ drawable
 mozac_ic_microphone
 showDoNotAskAgainCheckBox
 =
-true
+shouldShowDoNotAskAgainCheckBox
 shouldSelectRememberChoice
 =
 dialogConfig
@@ -4038,7 +4056,7 @@ drawable
 mozac_ic_location
 showDoNotAskAgainCheckBox
 =
-true
+shouldShowDoNotAskAgainCheckBox
 shouldSelectRememberChoice
 =
 dialogConfig
@@ -4107,7 +4125,7 @@ drawable
 mozac_ic_microphone
 showDoNotAskAgainCheckBox
 =
-true
+shouldShowDoNotAskAgainCheckBox
 shouldSelectRememberChoice
 =
 dialogConfig
@@ -4145,7 +4163,7 @@ drawable
 mozac_ic_video
 showDoNotAskAgainCheckBox
 =
-true
+shouldShowDoNotAskAgainCheckBox
 shouldSelectRememberChoice
 =
 dialogConfig
