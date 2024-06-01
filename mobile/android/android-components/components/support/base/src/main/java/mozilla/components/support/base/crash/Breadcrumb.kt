@@ -61,7 +61,9 @@ mozilla
 .
 components
 .
-lib
+support
+.
+base
 .
 crash
 import

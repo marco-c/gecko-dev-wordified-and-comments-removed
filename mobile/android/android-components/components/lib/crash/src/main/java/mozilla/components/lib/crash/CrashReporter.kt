@@ -227,6 +227,18 @@ base
 .
 crash
 .
+Breadcrumb
+import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+crash
+.
 CrashReporting
 import
 mozilla
@@ -1008,6 +1020,7 @@ USER
 *
 *
 /
+override
 fun
 recordCrashBreadcrumb
 (
