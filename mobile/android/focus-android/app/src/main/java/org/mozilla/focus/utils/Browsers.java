@@ -401,18 +401,6 @@ packageManager
 url
 )
 ;
-if
-(
-browsers
-.
-size
-(
-)
-<
-=
-1
-)
-{
 findKnownBrowsers
 (
 packageManager
@@ -420,7 +408,6 @@ browsers
 url
 )
 ;
-}
 this
 .
 browsers
