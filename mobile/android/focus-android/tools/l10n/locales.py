@@ -49,7 +49,7 @@ IN
 "
 ca
 "
-        
+    
 "
 cak
 "
@@ -113,7 +113,7 @@ eu
 "
 fa
 "
-        
+    
 "
 fi
 "
@@ -155,6 +155,10 @@ AM
 "
 	
 "
+ia
+"
+	
+"
 in
 "
 	
@@ -189,7 +193,7 @@ ko
 "
 lo
 "
-        
+    
 "
 mix
 "
@@ -207,7 +211,7 @@ nb
 -
 NO
 "
-        
+    
 "
 ne
 -
@@ -279,7 +283,7 @@ th
 "
 tr
 "
-        
+    
 "
 trs
 "
@@ -307,6 +311,10 @@ zh
 -
 TW
 "
+	
+"
+zam
+"
 ]
 ADDITIONAL_SCREENSHOT_LOCALES
 =
@@ -318,10 +326,6 @@ lt
 	
 "
 meh
-"
-	
-"
-zam
 "
 ]
 SCREENSHOT_LOCALES
