@@ -473,7 +473,7 @@ LargeClass
 )
 internal
 class
-LoginDialogFragment
+SaveLoginDialogFragment
 :
 PromptDialogFragment
 (
@@ -497,7 +497,7 @@ getValue
 (
 frag
 :
-LoginDialogFragment
+SaveLoginDialogFragment
 prop
 :
 KProperty
@@ -522,7 +522,7 @@ setValue
 (
 frag
 :
-LoginDialogFragment
+SaveLoginDialogFragment
 prop
 :
 KProperty
@@ -1209,7 +1209,7 @@ R
 .
 layout
 .
-mozac_feature_prompt_login_prompt
+mozac_feature_prompt_save_login_prompt
 container
 false
 )
@@ -1700,7 +1700,7 @@ null
 )
 {
 this
-LoginDialogFragment
+SaveLoginDialogFragment
 .
 potentialDupesList
 =
@@ -2125,7 +2125,7 @@ for
 creating
 a
 [
-LoginDialogFragment
+SaveLoginDialogFragment
 ]
 *
 param
@@ -2185,12 +2185,12 @@ login
 Login
 )
 :
-LoginDialogFragment
+SaveLoginDialogFragment
 {
 val
 fragment
 =
-LoginDialogFragment
+SaveLoginDialogFragment
 (
 )
 val

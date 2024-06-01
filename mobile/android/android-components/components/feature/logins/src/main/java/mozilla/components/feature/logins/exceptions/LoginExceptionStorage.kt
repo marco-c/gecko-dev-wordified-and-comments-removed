@@ -145,6 +145,8 @@ feature
 .
 prompts
 .
+login
+.
 LoginExceptions
 /
 *

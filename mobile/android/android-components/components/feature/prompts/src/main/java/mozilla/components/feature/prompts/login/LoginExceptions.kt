@@ -64,6 +64,8 @@ components
 feature
 .
 prompts
+.
+login
 /
 *
 *

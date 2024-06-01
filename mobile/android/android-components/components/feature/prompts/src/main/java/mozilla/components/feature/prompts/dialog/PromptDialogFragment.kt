@@ -93,6 +93,8 @@ feature
 .
 prompts
 .
+login
+.
 LoginExceptions
 internal
 const
