@@ -7349,7 +7349,7 @@ item
 assertEquals
 (
 "
-permission
+ContentGeoLocation
 "
 facts
 [
