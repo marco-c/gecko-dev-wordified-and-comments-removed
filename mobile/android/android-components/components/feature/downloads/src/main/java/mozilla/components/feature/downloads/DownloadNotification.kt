@@ -564,6 +564,8 @@ setContentTitle
 (
 context
 .
+applicationContext
+.
 getString
 (
 R
@@ -894,6 +896,8 @@ setContentText
 (
 context
 .
+applicationContext
+.
 getString
 (
 R
@@ -1068,6 +1072,8 @@ setContentText
 (
 context
 .
+applicationContext
+.
 getString
 (
 R
@@ -1204,6 +1210,8 @@ fileName
 setContentText
 (
 context
+.
+applicationContext
 .
 getString
 (
@@ -1537,6 +1545,8 @@ NotificationChannel
 NOTIFICATION_CHANNEL_ID
 context
 .
+applicationContext
+.
 getString
 (
 R
@@ -1600,6 +1610,8 @@ Builder
 0
 context
 .
+applicationContext
+.
 getString
 (
 R
@@ -1649,6 +1661,8 @@ Builder
 (
 0
 context
+.
+applicationContext
 .
 getString
 (
@@ -1700,6 +1714,8 @@ Builder
 0
 context
 .
+applicationContext
+.
 getString
 (
 R
@@ -1749,6 +1765,8 @@ Builder
 (
 0
 context
+.
+applicationContext
 .
 getString
 (
@@ -2039,6 +2057,8 @@ PAUSED
 {
 context
 .
+applicationContext
+.
 getString
 (
 R
@@ -2054,6 +2074,8 @@ COMPLETED
 {
 context
 .
+applicationContext
+.
 getString
 (
 R
@@ -2068,6 +2090,8 @@ FAILED
 >
 {
 context
+.
+applicationContext
 .
 getString
 (
