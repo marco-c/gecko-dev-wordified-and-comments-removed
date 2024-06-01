@@ -1104,12 +1104,6 @@ isCustomTab
 )
 )
 {
-TelemetryWrapper
-.
-customTabIntentEvent
-(
-)
-;
 }
 else
 {
