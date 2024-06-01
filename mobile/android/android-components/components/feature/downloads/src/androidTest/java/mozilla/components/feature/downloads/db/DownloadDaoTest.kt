@@ -111,7 +111,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -298,7 +300,7 @@ testInsertingAndReadingDownloads
 (
 )
 =
-runBlocking
+runTest
 {
 val
 download
@@ -363,7 +365,7 @@ testRemoveAllDownloads
 (
 )
 =
-runBlocking
+runTest
 {
 for
 (
@@ -437,7 +439,7 @@ testRemovingDownloads
 (
 )
 =
-runBlocking
+runTest
 {
 for
 (
@@ -517,7 +519,7 @@ testUpdateDownload
 (
 )
 =
-runBlocking
+runTest
 {
 insertMockDownload
 (

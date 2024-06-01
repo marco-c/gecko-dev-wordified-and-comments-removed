@@ -125,7 +125,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -343,7 +343,7 @@ testAddingContainer
 (
 )
 =
-runBlockingTest
+runTest
 {
 storage
 .
@@ -495,7 +495,7 @@ testRemovingContainers
 (
 )
 =
-runBlockingTest
+runTest
 {
 storage
 .
@@ -629,7 +629,7 @@ testGettingContainers
 (
 )
 =
-runBlockingTest
+runTest
 {
 storage
 .

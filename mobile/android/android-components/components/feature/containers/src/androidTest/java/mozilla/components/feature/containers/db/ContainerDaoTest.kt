@@ -119,7 +119,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -309,7 +309,7 @@ testAddingContainer
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 container
@@ -409,7 +409,7 @@ testRemovingContainer
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 container1

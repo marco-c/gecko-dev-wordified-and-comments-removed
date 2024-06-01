@@ -131,7 +131,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -366,7 +366,7 @@ testStorageInteraction
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 origin

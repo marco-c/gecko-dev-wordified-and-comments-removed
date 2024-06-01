@@ -111,6 +111,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 flow
 .
 first
@@ -119,7 +125,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -270,6 +278,11 @@ util
 concurrent
 .
 Executors
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 Suppress
 (
 "
@@ -1509,7 +1522,7 @@ testGettingCollections
 (
 )
 =
-runBlocking
+runTest
 {
 storage
 .
@@ -2070,7 +2083,7 @@ testGettingCollectionsList
 (
 )
 =
-runBlocking
+runTest
 {
 storage
 .
@@ -2621,7 +2634,7 @@ testGettingTabCollectionCount
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (

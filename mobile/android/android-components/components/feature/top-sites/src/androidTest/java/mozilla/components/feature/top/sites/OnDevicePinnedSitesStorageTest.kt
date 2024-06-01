@@ -133,7 +133,15 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -236,6 +244,11 @@ migration
 -
 test
 "
+ExperimentalCoroutinesApi
+/
+/
+for
+runTest
 Suppress
 (
 "
@@ -377,7 +390,7 @@ testAddingAllDefaultSites
 (
 )
 =
-runBlocking
+runTest
 {
 val
 defaultTopSites
@@ -665,7 +678,7 @@ testAddingPinnedSite
 (
 )
 =
-runBlocking
+runTest
 {
 storage
 .
@@ -825,7 +838,7 @@ testRemovingPinnedSites
 (
 )
 =
-runBlocking
+runTest
 {
 storage
 .
@@ -969,7 +982,7 @@ testGettingPinnedSites
 (
 )
 =
-runBlocking
+runTest
 {
 storage
 .
@@ -1125,7 +1138,7 @@ testUpdatingPinnedSites
 (
 )
 =
-runBlocking
+runTest
 {
 storage
 .
