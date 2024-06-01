@@ -228,6 +228,16 @@ fetch
 '
 )
 testImplementation
+project
+(
+'
+:
+support
+-
+utils
+'
+)
+testImplementation
 Dependencies
 .
 androidx_test_core

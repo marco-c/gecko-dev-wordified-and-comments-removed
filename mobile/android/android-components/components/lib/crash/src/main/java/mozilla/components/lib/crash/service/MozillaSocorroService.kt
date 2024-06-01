@@ -175,6 +175,18 @@ logger
 .
 Logger
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
+import
 org
 .
 json
@@ -940,7 +952,7 @@ applicationContext
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 applicationContext
 .
@@ -2518,7 +2530,7 @@ packageInfo
 =
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 applicationContext
 .

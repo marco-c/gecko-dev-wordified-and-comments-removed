@@ -715,8 +715,6 @@ val
 event
 =
 AccessibilityEvent
-.
-obtain
 (
 )
 event

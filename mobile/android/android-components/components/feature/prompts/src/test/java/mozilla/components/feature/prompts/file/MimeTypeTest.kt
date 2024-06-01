@@ -461,6 +461,12 @@ mozilla
 browser
 "
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 when
 (
 packageManager
@@ -1701,6 +1707,12 @@ _
 >
 uri
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 when
 (
 packageManager
@@ -1765,6 +1777,12 @@ extras
 size
 (
 )
+)
+Suppress
+(
+"
+DEPRECATION
+"
 )
 val
 photoUri
@@ -1869,7 +1887,7 @@ extras
 !
 !
 .
-get
+getInt
 (
 MimeType
 .
@@ -1883,7 +1901,7 @@ extras
 !
 !
 .
-get
+getInt
 (
 MimeType
 .
@@ -1897,7 +1915,7 @@ extras
 !
 !
 .
-get
+getBoolean
 (
 MimeType
 .
@@ -1945,7 +1963,7 @@ extras
 !
 !
 .
-get
+getInt
 (
 MimeType
 .
@@ -1959,7 +1977,7 @@ extras
 !
 !
 .
-get
+getInt
 (
 MimeType
 .
@@ -1973,7 +1991,7 @@ extras
 !
 !
 .
-get
+getBoolean
 (
 MimeType
 .
@@ -2109,7 +2127,7 @@ extras
 !
 !
 .
-get
+getInt
 (
 MimeType
 .
@@ -2123,7 +2141,7 @@ extras
 !
 !
 .
-get
+getInt
 (
 MimeType
 .
@@ -2137,7 +2155,7 @@ extras
 !
 !
 .
-get
+getBoolean
 (
 MimeType
 .
@@ -2187,7 +2205,7 @@ extras
 !
 !
 .
-get
+getInt
 (
 MimeType
 .
@@ -2201,7 +2219,7 @@ extras
 !
 !
 .
-get
+getInt
 (
 MimeType
 .
@@ -2215,7 +2233,7 @@ extras
 !
 !
 .
-get
+getBoolean
 (
 MimeType
 .
@@ -2333,7 +2351,7 @@ extras
 !
 !
 .
-get
+getStringArray
 (
 EXTRA_MIME_TYPES
 )
@@ -2439,7 +2457,7 @@ extras
 !
 !
 .
-get
+getStringArray
 (
 EXTRA_MIME_TYPES
 )
@@ -2585,7 +2603,7 @@ extras
 !
 !
 .
-get
+getStringArray
 (
 EXTRA_MIME_TYPES
 )
@@ -2704,6 +2722,12 @@ name
 "
 SomeActivity
 "
+Suppress
+(
+"
+DEPRECATION
+"
+)
 when
 (
 packageManager

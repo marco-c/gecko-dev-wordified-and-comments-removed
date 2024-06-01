@@ -97,12 +97,6 @@ android
 .
 content
 .
-Intent
-import
-android
-.
-content
-.
 pm
 .
 ActivityInfo
@@ -3925,6 +3919,12 @@ listOf
 (
 app
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 whenever
 (
 packageManager
@@ -3932,9 +3932,6 @@ packageManager
 queryIntentActivities
 (
 any
-<
-Intent
->
 (
 )
 anyInt

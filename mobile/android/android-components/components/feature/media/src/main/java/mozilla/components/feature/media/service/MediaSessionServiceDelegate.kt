@@ -350,6 +350,18 @@ log
 logger
 .
 Logger
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+stopForegroundCompat
 VisibleForTesting
 internal
 class
@@ -1084,7 +1096,7 @@ stopForeground
 {
 service
 .
-stopForeground
+stopForegroundCompat
 (
 false
 )

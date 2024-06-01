@@ -323,6 +323,18 @@ utils
 .
 PendingIntentUtils
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+stopForegroundCompat
+import
 java
 .
 util
@@ -1174,7 +1186,7 @@ stopService
 (
 )
 {
-stopForeground
+stopForegroundCompat
 (
 true
 )

@@ -138,6 +138,18 @@ ktx
 kotlin
 .
 toSha256Digest
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
 /
 *
 *
@@ -1475,7 +1487,7 @@ try
 {
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 packageName
 PackageManager

@@ -723,6 +723,18 @@ utils
 .
 DownloadUtils
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+stopForegroundCompat
+import
 java
 .
 io
@@ -2430,7 +2442,7 @@ from
 (
 context
 )
-stopForeground
+stopForegroundCompat
 (
 true
 )
@@ -3695,7 +3707,7 @@ to
 dismiss
 it
 .
-stopForeground
+stopForegroundCompat
 (
 false
 )
@@ -3823,7 +3835,7 @@ if
 finishedDownloading
 )
 {
-stopForeground
+stopForegroundCompat
 (
 false
 )

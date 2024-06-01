@@ -282,6 +282,18 @@ ktx
 kotlin
 .
 takeOrReplace
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+queryIntentActivitiesCompat
 /
 *
 *
@@ -3025,7 +3037,7 @@ context
 .
 packageManager
 .
-queryIntentActivities
+queryIntentActivitiesCompat
 (
 intent
 0

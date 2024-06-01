@@ -117,6 +117,18 @@ annotation
 .
 VisibleForTesting
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
+import
 java
 .
 io
@@ -655,7 +667,7 @@ VERSION_CODES
 P
 )
 {
-getPackageInfo
+getPackageInfoCompat
 (
 packageName
 PackageManager

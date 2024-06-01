@@ -261,6 +261,18 @@ test
 .
 whenever
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+stopForegroundCompat
+import
 org
 .
 junit
@@ -653,7 +665,7 @@ verify
 service
 )
 .
-stopForeground
+stopForegroundCompat
 (
 true
 )

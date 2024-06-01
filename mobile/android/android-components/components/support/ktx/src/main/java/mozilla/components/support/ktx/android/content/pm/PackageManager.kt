@@ -78,6 +78,18 @@ content
 pm
 .
 PackageManager
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
 /
 *
 *
@@ -134,7 +146,7 @@ need
 the
 return
 value
-getPackageInfo
+getPackageInfoCompat
 (
 packageName
 0

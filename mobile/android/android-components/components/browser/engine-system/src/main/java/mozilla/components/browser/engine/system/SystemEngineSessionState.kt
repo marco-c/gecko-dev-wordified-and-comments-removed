@@ -148,6 +148,12 @@ key
 >
 when
 (
+Suppress
+(
+"
+DEPRECATION
+"
+)
 val
 value
 =

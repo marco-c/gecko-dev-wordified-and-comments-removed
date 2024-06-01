@@ -674,6 +674,12 @@ buildInstallableSession
 (
 manifest
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 when
 (
 packageManager

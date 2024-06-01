@@ -303,6 +303,12 @@ OutOfMemoryError
 (
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 doThrow
 (
 OutOfMemoryError
@@ -338,6 +344,12 @@ getParcelable
 (
 "
 "
+Parcelable
+:
+:
+class
+.
+java
 )
 )
 }

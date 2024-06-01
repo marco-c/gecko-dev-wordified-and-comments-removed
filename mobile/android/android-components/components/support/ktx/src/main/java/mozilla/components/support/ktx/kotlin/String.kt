@@ -93,7 +93,9 @@ components
 .
 support
 .
-utils
+ktx
+.
+util
 .
 URLStringUtils
 import

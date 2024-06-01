@@ -403,7 +403,6 @@ onViewDetachedFromWindow
 view
 :
 View
-?
 )
 {
 iconJob
@@ -420,7 +419,6 @@ onViewAttachedToWindow
 view
 :
 View
-?
 )
 =
 Unit

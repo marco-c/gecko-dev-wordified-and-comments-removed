@@ -63,7 +63,9 @@ components
 .
 support
 .
-utils
+ktx
+.
+util
 import
 android
 .
@@ -98,8 +100,6 @@ core
 text
 .
 TextDirectionHeuristicsCompat
-.
-FIRSTSTRONG_LTR
 import
 java
 .
@@ -1113,6 +1113,8 @@ textDirectionHeuristic
 :
 TextDirectionHeuristicCompat
 =
+TextDirectionHeuristicsCompat
+.
 FIRSTSTRONG_LTR
 )
 :

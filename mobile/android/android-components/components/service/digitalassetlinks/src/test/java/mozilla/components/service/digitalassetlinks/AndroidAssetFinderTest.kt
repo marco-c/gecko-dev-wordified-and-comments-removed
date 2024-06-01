@@ -297,6 +297,12 @@ packageInfo
 PackageInfo
 (
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 when
 (
 packageManager
@@ -331,6 +337,12 @@ found
 (
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 when
 (
 packageManager

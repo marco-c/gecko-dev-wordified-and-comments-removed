@@ -1810,7 +1810,6 @@ onViewAttachedToWindow
 v
 :
 View
-?
 )
 {
 subscription
