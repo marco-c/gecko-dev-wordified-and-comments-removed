@@ -1137,7 +1137,7 @@ name
 mozac_feature_addons_enabled
 "
 >
-Attivo
+Attivi
 <
 /
 string
@@ -1265,7 +1265,7 @@ name
 mozac_feature_addons_recommended_section
 "
 >
-Consigliate
+Consigliati
 <
 /
 string
@@ -1423,7 +1423,7 @@ name
 mozac_feature_addons_disabled_section
 "
 >
-Disattivato
+Disattivati
 <
 /
 string
