@@ -169,6 +169,10 @@ androidx_cardview
 implementation
 Dependencies
 .
+androidx_constraintlayout
+implementation
+Dependencies
+.
 kotlin_stdlib
 testImplementation
 project
