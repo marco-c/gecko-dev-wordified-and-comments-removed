@@ -291,6 +291,14 @@ mockito
 .
 Mockito
 .
+doReturn
+import
+org
+.
+mockito
+.
+Mockito
+.
 spy
 import
 org
@@ -298,6 +306,8 @@ org
 mockito
 .
 Mockito
+.
+verify
 import
 org
 .
@@ -305,7 +315,7 @@ mockito
 .
 Mockito
 .
-doReturn
+never
 import
 org
 .
@@ -6242,8 +6252,6 @@ dismissSafely
 (
 geckoResult
 )
-Mockito
-.
 verify
 (
 geckoResult
@@ -6312,13 +6320,9 @@ dismissSafely
 (
 geckoResult
 )
-Mockito
-.
 verify
 (
 geckoResult
-Mockito
-.
 never
 (
 )

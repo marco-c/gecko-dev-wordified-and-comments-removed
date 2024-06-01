@@ -1350,6 +1350,11 @@ String
 ?
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
 speculativeConnectionFactory
 .
 create
