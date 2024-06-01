@@ -279,6 +279,13 @@ pager
 "
 android
 :
+layout_marginTop
+=
+"
+24dp
+"
+android
+:
 layout_width
 =
 "
