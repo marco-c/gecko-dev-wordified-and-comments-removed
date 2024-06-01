@@ -65,6 +65,12 @@ support
 .
 utils
 import
+android
+.
+os
+.
+SystemClock
+import
 mozilla
 .
 components
@@ -207,9 +213,9 @@ op
 val
 start
 =
-System
+SystemClock
 .
-nanoTime
+elapsedRealtimeNanos
 (
 )
 val
@@ -229,9 +235,9 @@ op
 took
 {
 (
-System
+SystemClock
 .
-nanoTime
+elapsedRealtimeNanos
 (
 )
 -
