@@ -140,10 +140,6 @@ testInstrumentationRunnerArgument
 listener
 "
 "
-com
-.
-squareup
-.
 leakcanary
 .
 FailTestOnLeakRunListener
@@ -946,6 +942,10 @@ implementation
 Dependencies
 .
 androidx_localbroadcastmanager
+debugImplementation
+Dependencies
+.
+leakcanary
 androidTestImplementation
 project
 (
@@ -982,6 +982,10 @@ androidTestImplementation
 Dependencies
 .
 androidx_espresso_core
+androidTestImplementation
+Dependencies
+.
+testing_leakcanary
 androidTestImplementation
 Dependencies
 .
