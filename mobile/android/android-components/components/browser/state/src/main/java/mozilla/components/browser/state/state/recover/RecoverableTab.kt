@@ -317,12 +317,13 @@ selected
 .
 *
 property
-lastMediaAccess
-The
+lastMediaAccessState
+Details
+about
+the
 last
 time
-media
-started
+was
 playing
 in
 this

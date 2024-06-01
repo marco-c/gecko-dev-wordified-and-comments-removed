@@ -181,6 +181,13 @@ lastAccess
 "
 const
 val
+SESSION_LAST_MEDIA_URL
+=
+"
+lastMediaUrl
+"
+const
+val
 SESSION_LAST_MEDIA_ACCESS
 =
 "
