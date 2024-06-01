@@ -1663,7 +1663,9 @@ packageManager
 resolveActivity
 (
 intent
-0
+PackageManager
+.
+MATCH_DEFAULT_ONLY
 )
 ?
 :
@@ -1738,7 +1740,9 @@ packageManager
 resolveActivity
 (
 intent
-0
+PackageManager
+.
+MATCH_DEFAULT_ONLY
 )
 ?
 :
