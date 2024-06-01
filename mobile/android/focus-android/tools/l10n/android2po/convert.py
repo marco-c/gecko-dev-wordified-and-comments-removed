@@ -233,14 +233,17 @@ document
 xliff
 '
 }
+def
 dummy_warn
-=
-lambda
+(
 message
 severity
 =
 None
+)
 :
+    
+return
 None
 class
 ResourceTree
@@ -281,6 +284,7 @@ StringArray
 list
 )
 :
+    
 pass
 class
 Plurals
@@ -288,6 +292,7 @@ Plurals
 dict
 )
 :
+    
 pass
 Translation
 =
@@ -1949,7 +1954,7 @@ incomplete
 '
 )
 %
-                                    
+                             
 (
 name
 e
@@ -2800,7 +2805,7 @@ translation
 '
 )
 %
-                                    
+                             
 name
 '
 warning
@@ -2982,7 +2987,7 @@ translation
 '
 )
 %
-                                    
+                             
 name
 '
 warning
@@ -3275,7 +3280,7 @@ ignored
 '
 )
 %
-                                    
+                            
 (
 name
 quantity

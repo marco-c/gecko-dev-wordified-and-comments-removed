@@ -108,6 +108,7 @@ OPTIONS
 (
         
 {
+            
 '
 name
 '
@@ -115,7 +116,7 @@ name
 '
 android
 '
-         
+            
 '
 help
 '
@@ -132,7 +133,7 @@ by
 default
 )
 '
-         
+            
 '
 dest
 '
@@ -140,7 +141,7 @@ dest
 '
 resource_dir
 '
-         
+            
 '
 kwargs
 '
@@ -158,6 +159,7 @@ DIR
 }
         
 {
+            
 '
 name
 '
@@ -165,7 +167,7 @@ name
 '
 gettext
 '
-         
+            
 '
 help
 '
@@ -185,7 +187,7 @@ by
 default
 )
 '
-         
+            
 '
 dest
 '
@@ -193,7 +195,7 @@ dest
 '
 gettext_dir
 '
-         
+            
 '
 kwargs
 '
@@ -207,10 +209,11 @@ metavar
 DIR
 '
 }
-        
+         
 }
         
 {
+            
 '
 name
 '
@@ -218,7 +221,7 @@ name
 '
 groups
 '
-         
+            
 '
 help
 '
@@ -235,7 +238,7 @@ for
 example
 '
 +
-                 
+                    
 '
 "
 strings
@@ -251,7 +254,7 @@ which
 contain
 '
 +
-                 
+                    
 '
 string
 resources
@@ -259,7 +262,7 @@ will
 be
 used
 '
-         
+            
 '
 dest
 '
@@ -267,14 +270,14 @@ dest
 '
 groups
 '
-         
+            
 '
 default
 '
 :
 [
 ]
-         
+            
 '
 kwargs
 '
@@ -299,6 +302,7 @@ GROUP
 }
         
 {
+            
 '
 name
 '
@@ -308,7 +312,7 @@ no
 -
 template
 '
-         
+            
 '
 help
 '
@@ -325,7 +329,7 @@ file
 on
 export
 '
-         
+            
 '
 dest
 '
@@ -333,13 +337,13 @@ dest
 '
 no_template
 '
-         
+            
 '
 default
 '
 :
 False
-         
+            
 '
 kwargs
 '
@@ -357,6 +361,7 @@ store_true
 }
         
 {
+            
 '
 name
 '
@@ -364,7 +369,7 @@ name
 '
 template
 '
-         
+            
 '
 help
 '
@@ -387,7 +392,7 @@ contain
 the
 '
 +
-                 
+                    
 '
 %
 %
@@ -404,7 +409,7 @@ group
 s
 variables
 '
-         
+            
 '
 dest
 '
@@ -412,14 +417,14 @@ dest
 '
 template_name
 '
-         
+            
 '
 default
 '
 :
 '
 '
-         
+            
 '
 kwargs
 '
@@ -437,6 +442,7 @@ NAME
 }
         
 {
+            
 '
 name
 '
@@ -444,7 +450,7 @@ name
 '
 ignore
 '
-         
+            
 '
 help
 '
@@ -463,7 +469,7 @@ times
 ;
 '
 +
-                 
+                    
 '
 regular
 expressions
@@ -476,7 +482,7 @@ the
 value
 '
 +
-                 
+                    
 '
 inside
 slashes
@@ -486,7 +492,7 @@ match
 /
 )
 '
-         
+            
 '
 dest
 '
@@ -494,14 +500,14 @@ dest
 '
 ignores
 '
-         
+            
 '
 default
 '
 :
 [
 ]
-         
+            
 '
 kwargs
 '
@@ -533,6 +539,7 @@ nargs
 }
         
 {
+            
 '
 name
 '
@@ -542,7 +549,7 @@ ignore
 -
 fuzzy
 '
-         
+            
 '
 help
 '
@@ -560,7 +567,7 @@ in
 po
 files
 '
-         
+            
 '
 dest
 '
@@ -568,13 +575,13 @@ dest
 '
 ignore_fuzzy
 '
-         
+            
 '
 default
 '
 :
 False
-         
+            
 '
 kwargs
 '
@@ -592,6 +599,7 @@ store_true
 }
         
 {
+            
 '
 name
 '
@@ -603,7 +611,7 @@ min
 -
 complete
 '
-         
+            
 '
 help
 '
@@ -626,7 +634,7 @@ if
 there
 '
 +
-                 
+                    
 '
 aren
 \
@@ -640,7 +648,7 @@ percentage
 of
 translations
 '
-         
+            
 '
 dest
 '
@@ -648,13 +656,13 @@ dest
 '
 min_completion
 '
-         
+            
 '
 default
 '
 :
 0
-         
+            
 '
 kwargs
 '
@@ -677,6 +685,7 @@ percentage
 }
         
 {
+            
 '
 name
 '
@@ -684,7 +693,7 @@ name
 '
 domain
 '
-         
+            
 '
 help
 '
@@ -701,7 +710,7 @@ the
 po
 filenames
 '
-         
+            
 '
 dest
 '
@@ -709,7 +718,7 @@ dest
 '
 domain
 '
-         
+            
 '
 default
 '
@@ -719,6 +728,7 @@ None
 }
         
 {
+            
 '
 name
 '
@@ -726,7 +736,7 @@ name
 '
 layout
 '
-         
+            
 '
 help
 '
@@ -748,7 +758,7 @@ default
 "
 '
 +
-                  
+                    
 '
 "
 gnu
@@ -768,7 +778,7 @@ locale
 s
 '
 +
-                  
+                    
 '
 %
 %
@@ -791,7 +801,7 @@ g
 .
 '
 +
-                  
+                    
 '
 "
 %
@@ -822,7 +832,7 @@ po
 "
 '
 +
-                  
+                    
 '
 for
 Spanish
@@ -832,7 +842,7 @@ strings
 xml
 .
 '
-         
+            
 '
 dest
 '
@@ -840,7 +850,7 @@ dest
 '
 layout
 '
-         
+            
 '
 default
 '

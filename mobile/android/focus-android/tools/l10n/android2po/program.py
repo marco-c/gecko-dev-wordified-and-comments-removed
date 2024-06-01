@@ -26,6 +26,27 @@ import
 path
 import
 argparse
+from
+commands
+import
+InitCommand
+ExportCommand
+ImportCommand
+CommandError
+from
+env
+import
+IncompleteEnvironment
+EnvironmentError
+Environment
+from
+config
+import
+Config
+from
+utils
+import
+Writer
 if
 hasattr
 (
@@ -61,10 +82,6 @@ to
 function
 you
 are
-'
-+
-                       
-'
 using
 :
 %
@@ -75,27 +92,6 @@ argparse
 .
 __version__
 )
-from
-commands
-import
-InitCommand
-ExportCommand
-ImportCommand
-CommandError
-from
-env
-import
-IncompleteEnvironment
-EnvironmentError
-Environment
-from
-config
-import
-Config
-from
-utils
-import
-Writer
 __all__
 =
 (
@@ -165,6 +161,7 @@ argparse
 .
 ArgumentParser
 (
+        
 add_help
 =
 True
@@ -180,10 +177,6 @@ to
 gettext
 .
 po
-'
-+
-                    
-'
 files
 an
 import
@@ -207,6 +200,7 @@ elsdoerfer
 com
 >
 '
+    
 )
     
 parser
@@ -267,7 +261,6 @@ action
 '
 store_true
 '
-                       
 help
 =
 '
@@ -295,7 +288,6 @@ action
 '
 store_true
 '
-                       
 help
 =
 '
@@ -323,7 +315,6 @@ metavar
 '
 FILE
 '
-                             
 help
 =
 '
@@ -340,6 +331,7 @@ base_parser
 .
 add_argument_group
 (
+        
 '
 configuration
 '
@@ -371,6 +363,7 @@ be
 overwritten
 .
 '
+    
 )
     
 Config
@@ -386,6 +379,7 @@ parser
 .
 add_subparsers
 (
+        
 dest
 =
 "
@@ -396,20 +390,19 @@ title
 '
 commands
 '
-                                       
 description
 =
 '
 valid
 commands
 '
-                                       
 help
 =
 '
 additional
 help
 '
+    
 )
     
 for
@@ -476,7 +469,7 @@ argv
 def
 read_config
 (
-file
+in_file
 )
 :
     
@@ -611,7 +604,7 @@ need
 if
 hasattr
 (
-file
+in_file
 '
 read
 '
@@ -620,7 +613,7 @@ read
         
 lines
 =
-file
+in_file
 .
 readlines
 (
@@ -629,7 +622,7 @@ readlines
 if
 hasattr
 (
-file
+in_file
 '
 name
 '
@@ -638,7 +631,7 @@ name
             
 filename
 =
-file
+in_file
 .
 name
         
@@ -654,13 +647,13 @@ else
         
 filename
 =
-file
+in_file
         
 f
 =
 open
 (
-file
+in_file
 '
 rb
 '
@@ -707,7 +700,7 @@ strip
 for
 i
 in
-                      
+                   
 "
 "
 .
@@ -731,10 +724,10 @@ startswith
 #
 '
 )
-                                      
+                                   
 lines
 )
-                              
+                            
 )
 .
 split
@@ -1089,7 +1082,7 @@ from
 inside
 an
 '
-                    
+                                   
 '
 Android
 project
@@ -1100,7 +1093,7 @@ the
 source
 and
 '
-                    
+                                   
 '
 target
 directories
@@ -1110,7 +1103,7 @@ as
 command
 line
 '
-                    
+                                   
 '
 options
 or
@@ -1135,7 +1128,7 @@ does
 not
 specify
 '
-                    
+                                   
 '
 the
 source
@@ -1148,7 +1141,7 @@ are
 not
 running
 '
-                    
+                                   
 '
 the
 script
@@ -1278,8 +1271,6 @@ env
 writer
 )
             
-command_result
-=
 cmd
 .
 execute
@@ -1295,13 +1286,16 @@ finish
 (
 )
         
-return
-1
 if
 writer
 .
 erroneous
-else
+:
+            
+return
+1
+        
+return
 0
     
 except
