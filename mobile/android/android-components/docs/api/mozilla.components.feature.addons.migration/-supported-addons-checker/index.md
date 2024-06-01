@@ -101,7 +101,7 @@ SupportedAddonsChecker
 .
 kt
 #
-L39
+L42
 )
 Contract
 to

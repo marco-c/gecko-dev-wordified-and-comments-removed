@@ -127,7 +127,7 @@ AddonManager
 .
 kt
 #
-L292
+L299
 )
 Wraps
 exceptions
