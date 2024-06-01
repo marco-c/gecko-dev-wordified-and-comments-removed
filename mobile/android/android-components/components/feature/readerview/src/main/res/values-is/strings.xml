@@ -243,8 +243,8 @@ mozac_feature_readerview_dark_color_scheme_desc
 "
 >
 D
-kk
-litasamsetning
+kkt
+litastef
 <
 /
 string
@@ -298,7 +298,7 @@ mozac_feature_readerview_sepia_color_scheme_desc
 >
 Sep
 a
-litasamsetning
+litastef
 <
 /
 string
@@ -350,9 +350,9 @@ name
 mozac_feature_readerview_light_color_scheme_desc
 "
 >
-L
-tt
-litasamsetning
+Lj
+st
+litastef
 <
 /
 string
