@@ -1753,6 +1753,13 @@ observation
 HistoryMetadataObservation
 )
 {
+handlePlacesExceptions
+(
+"
+noteHistoryMetadataObservation
+"
+)
+{
 places
 .
 writer
@@ -1773,6 +1780,7 @@ into
 )
 )
 }
+}
 override
 suspend
 fun
@@ -1781,6 +1789,13 @@ deleteHistoryMetadataOlderThan
 olderThan
 :
 Long
+)
+{
+handlePlacesExceptions
+(
+"
+deleteHistoryMetadataOlderThan
+"
 )
 {
 places
@@ -1793,5 +1808,6 @@ deleteHistoryMetadataOlderThan
 (
 olderThan
 )
+}
 }
 }
