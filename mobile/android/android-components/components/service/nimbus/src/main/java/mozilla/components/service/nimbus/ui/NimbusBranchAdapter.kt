@@ -320,7 +320,6 @@ nimbusBranchesDelegate
 selectedIconView
 titleView
 summaryView
-selectedBranch
 )
 }
 override
@@ -348,6 +347,7 @@ branches
 [
 position
 ]
+selectedBranch
 )
 }
 override

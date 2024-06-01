@@ -160,11 +160,6 @@ val
 summaryView
 :
 TextView
-private
-val
-selectedBranch
-:
-String
 )
 :
 RecyclerView
@@ -181,6 +176,9 @@ bind
 branch
 :
 Branch
+selectedBranch
+:
+String
 )
 {
 selectedIconView
