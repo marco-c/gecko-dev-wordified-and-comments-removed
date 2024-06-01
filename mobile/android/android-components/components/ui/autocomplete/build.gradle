@@ -138,6 +138,16 @@ implementation
 Dependencies
 .
 androidx_appcompat
+implementation
+project
+(
+"
+:
+support
+-
+utils
+"
+)
 testImplementation
 project
 (
