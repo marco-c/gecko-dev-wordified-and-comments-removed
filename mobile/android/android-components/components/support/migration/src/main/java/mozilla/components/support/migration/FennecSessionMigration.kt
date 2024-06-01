@@ -152,6 +152,7 @@ Fennec
 .
 *
 /
+internal
 object
 FennecSessionMigration
 {
