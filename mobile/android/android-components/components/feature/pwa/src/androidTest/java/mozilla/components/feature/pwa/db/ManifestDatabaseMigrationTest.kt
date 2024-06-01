@@ -100,12 +100,6 @@ test
 "
 Rule
 JvmField
-Suppress
-(
-"
-DEPRECATION
-"
-)
 val
 helper
 :

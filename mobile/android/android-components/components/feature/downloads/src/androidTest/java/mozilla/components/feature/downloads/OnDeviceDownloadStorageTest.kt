@@ -295,12 +295,6 @@ DownloadsDatabase
 get
 :
 Rule
-Suppress
-(
-"
-DEPRECATION
-"
-)
 val
 helper
 :

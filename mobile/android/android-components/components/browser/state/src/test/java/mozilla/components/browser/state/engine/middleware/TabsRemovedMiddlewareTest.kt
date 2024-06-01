@@ -2165,14 +2165,11 @@ RemoveCustomTabAction
 -
 >
 return
-else
--
->
+}
 next
 (
 action
 )
-}
 }
 }
 }

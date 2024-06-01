@@ -108,9 +108,9 @@ kotlin
 "
 1
 .
-6
+5
 .
-10
+31
 "
 const
 val
@@ -324,9 +324,9 @@ compose_version
 "
 1
 .
-1
-.
 0
+.
+5
 "
 object
 AndroidX
@@ -508,9 +508,9 @@ room
 "
 2
 .
-4
+3
 .
-1
+0
 "
 const
 val

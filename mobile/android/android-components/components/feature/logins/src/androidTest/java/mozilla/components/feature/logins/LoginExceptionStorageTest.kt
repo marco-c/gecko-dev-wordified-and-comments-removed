@@ -287,12 +287,6 @@ InstantTaskExecutorRule
 get
 :
 Rule
-Suppress
-(
-"
-DEPRECATION
-"
-)
 val
 helper
 :
