@@ -106,16 +106,6 @@ appservices
 remotetabs
 .
 RemoteTab
-/
-/
-import
-mozilla
-.
-appservices
-.
-remotetabs
-.
-RemoteTabProviderException
 import
 mozilla
 .
@@ -126,6 +116,16 @@ remotetabs
 TabsStore
 as
 RemoteTabsProvider
+import
+mozilla
+.
+appservices
+.
+remotetabs
+.
+InternalException
+as
+RemoteTabProviderException
 import
 mozilla
 .
@@ -365,7 +365,7 @@ null
 )
 )
 0
-1574458165555u
+1574458165555
 )
 Tab
 (
@@ -430,7 +430,7 @@ null
 )
 )
 2
-0u
+0
 )
 Tab
 (
@@ -513,7 +513,7 @@ icon3
 )
 )
 1
-1574457405635u
+1574457405635
 )
 )
 )
@@ -542,7 +542,7 @@ bar
 "
 )
 null
-1574458165555u
+1574458165555
 )
 RemoteTab
 (
@@ -586,7 +586,7 @@ bar
 "
 )
 null
-0u
+0
 )
 RemoteTab
 (
@@ -622,7 +622,7 @@ foo
 /
 icon2
 "
-1574457405635u
+1574457405635
 )
 )
 )
@@ -711,7 +711,7 @@ foo
 /
 icon
 "
-1574457405635u
+1574457405635
 )
 )
 )
@@ -743,7 +743,7 @@ bar
 "
 )
 null
-1574458165555u
+1574458165555
 )
 RemoteTab
 (
@@ -774,7 +774,7 @@ bar
 /
 icon
 "
-0u
+0
 )
 )
 )
@@ -871,7 +871,7 @@ icon
 )
 )
 2
-1574457405635u
+1574457405635
 )
 )
 SyncClient
@@ -903,7 +903,7 @@ null
 )
 )
 0
-1574458165555u
+1574458165555
 )
 Tab
 (
@@ -938,7 +938,7 @@ icon
 )
 )
 0
-0u
+0
 )
 )
 )
@@ -968,7 +968,7 @@ runBlocking
 val
 throwable
 =
-Exception
+RemoteTabProviderException
 (
 "
 test

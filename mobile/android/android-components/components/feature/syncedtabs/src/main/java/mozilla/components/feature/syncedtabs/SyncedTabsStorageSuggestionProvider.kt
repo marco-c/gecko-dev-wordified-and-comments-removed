@@ -391,10 +391,6 @@ lastUsed
 tab
 .
 lastUsed
-.
-toLong
-(
-)
 deviceType
 =
 client
