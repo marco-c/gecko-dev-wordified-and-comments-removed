@@ -80,9 +80,7 @@ plugin
 '
 kotlin
 -
-android
--
-extensions
+parcelize
 '
 apply
 plugin
@@ -176,6 +174,11 @@ lintOptions
 warningsAsErrors
 true
 abortOnError
+true
+}
+buildFeatures
+{
+viewBinding
 true
 }
 }

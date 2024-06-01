@@ -80,9 +80,7 @@ plugin
 '
 kotlin
 -
-android
--
-extensions
+parcelize
 '
 android
 {
