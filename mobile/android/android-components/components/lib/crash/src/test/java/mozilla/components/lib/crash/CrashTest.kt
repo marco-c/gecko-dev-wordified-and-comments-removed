@@ -159,6 +159,7 @@ Crash
 .
 NativeCodeCrash
 (
+123
 "
 /
 data
@@ -271,6 +272,13 @@ Expected
 NativeCodeCrash
 instance
 "
+)
+assertEquals
+(
+recoveredCrash
+.
+timestamp
+123
 )
 assertEquals
 (
@@ -396,6 +404,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 exception
 arrayListOf
 (
@@ -530,6 +539,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 RuntimeException
 (
 )
@@ -564,6 +574,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 "
 true

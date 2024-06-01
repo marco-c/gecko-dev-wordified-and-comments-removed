@@ -957,6 +957,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 dump
 .
@@ -1948,6 +1949,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 RuntimeException
 (
 )
@@ -2111,6 +2113,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 "
 true
@@ -2789,6 +2792,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 "
 true
@@ -2962,6 +2966,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 dump
 .
@@ -3178,6 +3183,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 dump
 .
@@ -3334,6 +3340,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 dump
 .
@@ -4177,6 +4184,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 RuntimeException
 (
 )

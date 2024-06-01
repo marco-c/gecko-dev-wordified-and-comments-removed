@@ -553,6 +553,7 @@ Crash
 .
 NativeCodeCrash
 (
+123
 "
 /
 data
@@ -834,6 +835,13 @@ Expected
 NativeCodeCrash
 instance
 "
+)
+assertEquals
+(
+123
+nativeCrash
+.
+timestamp
 )
 assertEquals
 (

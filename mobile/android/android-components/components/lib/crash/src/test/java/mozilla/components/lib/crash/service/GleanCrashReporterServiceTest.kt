@@ -349,6 +349,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 "
 true
@@ -600,6 +601,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 "
 true
@@ -838,6 +840,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 RuntimeException
 (
 "
@@ -1327,6 +1330,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 RuntimeException
 (
 "
@@ -1344,6 +1348,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 "
 true
@@ -1361,6 +1366,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 "
 true
@@ -1727,6 +1733,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 RuntimeException
 (
 "
@@ -1904,6 +1911,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 "
 true

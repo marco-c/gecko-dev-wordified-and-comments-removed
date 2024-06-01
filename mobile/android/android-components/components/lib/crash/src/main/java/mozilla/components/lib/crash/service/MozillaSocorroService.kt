@@ -896,6 +896,9 @@ sendReport
 (
 crash
 .
+timestamp
+crash
+.
 throwable
 miniDumpFilePath
 =
@@ -933,6 +936,9 @@ String
 return
 sendReport
 (
+crash
+.
+timestamp
 throwable
 =
 null
@@ -1010,6 +1016,9 @@ internal
 fun
 sendReport
 (
+timestamp
+:
+Long
 throwable
 :
 Throwable
@@ -1146,6 +1155,7 @@ conn
 .
 outputStream
 boundary
+timestamp
 throwable
 miniDumpFilePath
 extrasFilePath
@@ -1405,6 +1415,9 @@ OutputStream
 boundary
 :
 String
+timestamp
+:
+Long
 throwable
 :
 Throwable
@@ -1787,11 +1800,7 @@ MILLISECONDS
 .
 toSeconds
 (
-System
-.
-currentTimeMillis
-(
-)
+timestamp
 )
 .
 toString

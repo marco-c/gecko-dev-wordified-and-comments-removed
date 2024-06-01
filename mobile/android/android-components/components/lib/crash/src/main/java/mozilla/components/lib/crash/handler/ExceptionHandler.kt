@@ -241,6 +241,13 @@ Crash
 .
 UncaughtExceptionCrash
 (
+timestamp
+=
+System
+.
+currentTimeMillis
+(
+)
 throwable
 =
 throwable

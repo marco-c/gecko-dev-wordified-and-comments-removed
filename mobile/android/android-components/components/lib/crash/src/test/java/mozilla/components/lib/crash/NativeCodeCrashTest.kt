@@ -444,6 +444,7 @@ Crash
 .
 NativeCodeCrash
 (
+0
 "
 minidumpPath
 "

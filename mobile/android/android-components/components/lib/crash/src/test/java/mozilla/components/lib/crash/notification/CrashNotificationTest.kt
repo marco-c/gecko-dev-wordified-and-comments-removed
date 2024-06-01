@@ -197,6 +197,9 @@ Crash
 .
 NativeCodeCrash
 (
+timestamp
+=
+0
 minidumpPath
 =
 "
@@ -356,6 +359,9 @@ Crash
 .
 NativeCodeCrash
 (
+timestamp
+=
+0
 minidumpPath
 =
 "
@@ -515,6 +521,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 RuntimeException
 (
 "
@@ -710,6 +717,7 @@ Crash
 .
 UncaughtExceptionCrash
 (
+0
 RuntimeException
 (
 "
