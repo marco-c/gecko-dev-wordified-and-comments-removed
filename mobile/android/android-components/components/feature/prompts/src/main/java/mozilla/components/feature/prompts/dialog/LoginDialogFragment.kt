@@ -1987,7 +1987,7 @@ const
 val
 KEYBOARD_HIDING_DELAY
 =
-50L
+100L
 /
 *
 *
