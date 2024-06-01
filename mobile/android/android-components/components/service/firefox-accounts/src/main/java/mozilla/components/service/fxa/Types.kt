@@ -246,6 +246,7 @@ URL
 /
 fun
 String
+?
 .
 toAuthType
 (
@@ -290,8 +291,9 @@ want
 to
 gracefully
 handle
+an
 '
-actions
+action
 '
 we
 don
@@ -299,6 +301,15 @@ don
 t
 know
 about
+.
+/
+/
+This
+also
+covers
+the
+null
+case
 .
 else
 -
