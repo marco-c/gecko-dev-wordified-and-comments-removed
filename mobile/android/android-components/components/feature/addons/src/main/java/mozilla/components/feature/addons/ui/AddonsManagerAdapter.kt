@@ -1302,7 +1302,7 @@ R
 .
 string
 .
-mozac_feature_addons_user_rating_count
+mozac_feature_addons_user_rating_count_2
 )
 val
 ratingContentDescription
