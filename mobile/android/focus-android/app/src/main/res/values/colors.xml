@@ -417,8 +417,9 @@ name
 download_dialog_text
 "
 >
-#
-FF00A4DC
+color
+/
+photonBlue50
 <
 /
 color
@@ -445,8 +446,9 @@ name
 colorAction
 "
 >
-#
-FF0A84FF
+color
+/
+photonBlue50
 <
 /
 color
@@ -459,8 +461,9 @@ name
 add_to_homescreen_button_text
 "
 >
-#
-FF00A4DC
+color
+/
+photonBlue50
 <
 /
 color
