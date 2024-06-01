@@ -225,7 +225,7 @@ com
 \
 |
 |
-(
+{
 echo
 "
 No
@@ -233,11 +233,11 @@ new
 translations
 available
 "
-&
-&
+;
 exit
 0
-)
+;
+}
 #
 Create
 a
