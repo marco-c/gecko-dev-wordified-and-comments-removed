@@ -77,6 +77,16 @@ menu
 ;
 }
 public
+BrowserMenu
+getMenu
+(
+)
+{
+return
+menu
+;
+}
+public
 void
 setOnClickListener
 (
