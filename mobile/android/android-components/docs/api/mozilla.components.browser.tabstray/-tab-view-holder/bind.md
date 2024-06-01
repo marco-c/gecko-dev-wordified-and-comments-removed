@@ -258,7 +258,7 @@ TabViewHolder
 .
 kt
 #
-L31
+L32
 )
 Binds
 the
