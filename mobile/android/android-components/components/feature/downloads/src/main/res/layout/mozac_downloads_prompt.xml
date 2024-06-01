@@ -179,7 +179,13 @@ Overdraw
 "
 >
 <
-ImageView
+androidx
+.
+appcompat
+.
+widget
+.
+AppCompatImageView
 android
 :
 id
@@ -248,7 +254,7 @@ drawable
 /
 mozac_feature_download_ic_download
 "
-android
+app
 :
 tint
 =
@@ -400,7 +406,13 @@ textColor
 /
 >
 <
-ImageButton
+androidx
+.
+appcompat
+.
+widget
+.
+AppCompatImageButton
 android
 :
 id
@@ -494,7 +506,7 @@ drawable
 /
 mozac_ic_close
 "
-android
+app
 :
 tint
 =
