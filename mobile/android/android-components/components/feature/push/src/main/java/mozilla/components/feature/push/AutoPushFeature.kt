@@ -167,7 +167,7 @@ push
 .
 PushException
 .
-JSONDeserializeException
+JsonDeserializeException
 import
 mozilla
 .
@@ -2382,7 +2382,7 @@ CryptoException
 is
 CommunicationException
 is
-JSONDeserializeException
+JsonDeserializeException
 is
 RequestException
 is
