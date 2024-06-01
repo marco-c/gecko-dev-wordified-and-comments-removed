@@ -3901,7 +3901,8 @@ status
 )
 }
 }
-private
+VisibleForTesting
+internal
 fun
 copyInChunks
 (
@@ -4021,6 +4022,12 @@ bytesRead
 {
 break
 }
+downloadJobState
+.
+currentBytesCopied
++
+=
+bytesRead
 val
 newState
 =
@@ -4035,8 +4042,6 @@ currentBytesCopied
 downloadJobState
 .
 currentBytesCopied
-+
-bytesRead
 )
 updateDownloadState
 (
