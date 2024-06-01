@@ -121,12 +121,6 @@ kotlinx
 .
 coroutines
 .
-CompletionHandler
-import
-kotlinx
-.
-coroutines
-.
 Dispatchers
 .
 IO
@@ -273,6 +267,12 @@ requests
 .
 *
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 OriginVerifier
 (
@@ -318,6 +318,8 @@ by
 lazy
 {
 AndroidAssetFinder
+(
+)
 .
 getAndroidAppAsset
 (
@@ -479,7 +481,7 @@ originVerified
 =
 relationChecker
 .
-checkDigitalAssetLinkRelationship
+checkRelationship
 (
 source
 =

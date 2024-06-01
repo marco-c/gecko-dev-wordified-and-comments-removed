@@ -64,8 +64,6 @@ components
 service
 .
 digitalassetlinks
-.
-ext
 import
 java
 .

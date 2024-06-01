@@ -174,6 +174,7 @@ debug
 :
 String
 )
+internal
 fun
 parseCheckAssetLinksJson
 (

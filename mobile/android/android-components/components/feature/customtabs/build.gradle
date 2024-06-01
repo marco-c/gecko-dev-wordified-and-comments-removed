@@ -236,11 +236,7 @@ project
 :
 service
 -
-digital
--
-asset
--
-links
+digitalassetlinks
 '
 )
 implementation

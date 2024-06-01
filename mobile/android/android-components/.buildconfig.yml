@@ -1979,11 +1979,7 @@ publish
 true
 service
 -
-digital
--
-asset
--
-links
+digitalassetlinks
 :
 path
 :
@@ -1991,11 +1987,7 @@ components
 /
 service
 /
-digital
--
-asset
--
-links
+digitalassetlinks
 description
 :
 '
