@@ -1962,7 +1962,7 @@ also
 {
 SyncTelemetry
 .
-processPasswordsPing
+processLoginsPing
 (
 it
 )
