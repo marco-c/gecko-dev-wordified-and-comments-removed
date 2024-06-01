@@ -470,8 +470,6 @@ all
 {
 it
 .
-state
-.
 status
 !
 =
@@ -675,8 +673,6 @@ val
 bytesCopied
 =
 downloadJobState
-.
-state
 .
 currentBytesCopied
 val
@@ -1948,8 +1944,6 @@ String
 val
 bytesCopied
 =
-state
-.
 currentBytesCopied
 val
 isIndeterminate
@@ -2013,8 +2007,6 @@ return
 when
 (
 this
-.
-state
 .
 status
 )

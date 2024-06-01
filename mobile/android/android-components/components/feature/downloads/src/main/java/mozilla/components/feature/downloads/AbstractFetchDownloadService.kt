@@ -217,6 +217,12 @@ androidx
 .
 annotation
 .
+GuardedBy
+import
+androidx
+.
+annotation
+.
 RequiresApi
 import
 androidx
@@ -894,6 +900,22 @@ state
 :
 DownloadState
 var
+currentBytesCopied
+:
+Long
+=
+0
+GuardedBy
+(
+"
+context
+"
+)
+var
+status
+:
+Status
+var
 foregroundServiceId
 :
 Int
@@ -1088,6 +1110,11 @@ notifiedStopped
 =
 false
 }
+downloadJobState
+.
+status
+=
+status
 updateDownloadState
 (
 downloadJobState
@@ -1121,8 +1148,6 @@ context
 {
 return
 downloadJobState
-.
-state
 .
 status
 }
@@ -1703,6 +1728,9 @@ DOWNLOADING
 foregroundServiceId
 =
 foregroundServiceId
+status
+=
+DOWNLOADING
 )
 store
 .
@@ -3135,8 +3163,6 @@ updateDownloadNotification
 (
 previousDownload
 .
-state
-.
 status
 it
 )
@@ -3272,8 +3298,6 @@ status
 =
 download
 .
-state
-.
 status
 val
 foregroundId
@@ -3371,8 +3395,6 @@ firstOrNull
 {
 it
 .
-state
-.
 status
 =
 =
@@ -3438,8 +3460,6 @@ isResumingDownload
 =
 currentDownloadJobState
 .
-state
-.
 currentBytesCopied
 >
 0L
@@ -3464,8 +3484,6 @@ bytes
 =
 {
 currentDownloadJobState
-.
-state
 .
 currentBytesCopied
 }
@@ -3593,6 +3611,11 @@ send
 a
 failure
 notification
+currentDownloadJobState
+.
+currentBytesCopied
+=
+0
 currentDownloadJobState
 .
 state
@@ -3726,8 +3749,6 @@ DOWNLOADING
 &
 download
 .
-state
-.
 currentBytesCopied
 <
 download
@@ -3850,8 +3871,6 @@ contentLength
 =
 download
 .
-state
-.
 currentBytesCopied
 )
 updateDownloadState
@@ -3875,8 +3894,6 @@ url
 }
 {
 download
-.
-state
 .
 status
 }
@@ -3926,8 +3943,6 @@ url
 currentBytesCopied
 {
 downloadJobState
-.
-state
 .
 currentBytesCopied
 }
@@ -4019,8 +4034,6 @@ currentBytesCopied
 =
 downloadJobState
 .
-state
-.
 currentBytesCopied
 +
 bytesRead
@@ -4058,8 +4071,6 @@ url
 currentBytesCopied
 {
 downloadJobState
-.
-state
 .
 currentBytesCopied
 }
