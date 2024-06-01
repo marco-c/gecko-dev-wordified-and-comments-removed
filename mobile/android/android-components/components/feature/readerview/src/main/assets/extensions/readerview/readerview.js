@@ -1934,7 +1934,7 @@ runtime
 connectNative
 (
 "
-mozacReaderview
+mozacReaderviewActive
 "
 )
 ;

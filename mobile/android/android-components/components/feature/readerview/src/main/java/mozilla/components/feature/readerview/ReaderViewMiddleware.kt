@@ -207,7 +207,7 @@ ReaderViewFeature
 .
 Companion
 .
-READER_VIEW_MESSAGING_ID
+READER_VIEW_CONTENT_PORT
 import
 mozilla
 .
@@ -300,7 +300,7 @@ WebExtensionController
 (
 READER_VIEW_EXTENSION_ID
 READER_VIEW_EXTENSION_URL
-READER_VIEW_MESSAGING_ID
+READER_VIEW_CONTENT_PORT
 )
 override
 fun
@@ -364,13 +364,13 @@ store
 *
 *
 param
-store
+context
 a
 reference
 to
 the
 [
-MiddlewareStore
+MiddlewareContext
 ]
 .
 *
