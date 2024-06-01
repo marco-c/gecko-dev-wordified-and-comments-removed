@@ -439,7 +439,7 @@ WebExtensionBrowserAction
 "
 browser_action
 "
-false
+true
 mock
 (
 )
@@ -458,7 +458,7 @@ WebExtensionBrowserAction
 "
 page_action
 "
-false
+true
 mock
 (
 )
@@ -673,7 +673,7 @@ WebExtensionBrowserAction
 "
 browser_action
 "
-false
+true
 mock
 (
 )
@@ -692,7 +692,7 @@ WebExtensionBrowserAction
 "
 page_action
 "
-false
+true
 mock
 (
 )
@@ -989,7 +989,7 @@ WebExtensionBrowserAction
 "
 browser_action
 "
-false
+true
 mock
 (
 )
@@ -1008,7 +1008,7 @@ WebExtensionBrowserAction
 "
 page_action
 "
-false
+true
 mock
 (
 )
@@ -1327,7 +1327,7 @@ WebExtensionBrowserAction
 "
 page_action
 "
-false
+true
 mock
 (
 )
@@ -1344,7 +1344,7 @@ pageActionPromotableWebExtension
 WebExtensionBrowserAction
 (
 promotableWebExtensionTitle
-false
+true
 mock
 (
 )
