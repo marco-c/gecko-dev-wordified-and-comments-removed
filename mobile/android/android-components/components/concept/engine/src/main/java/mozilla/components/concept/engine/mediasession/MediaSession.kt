@@ -307,7 +307,6 @@ getArtwork
 (
 suspend
 (
-Int
 )
 -
 >
