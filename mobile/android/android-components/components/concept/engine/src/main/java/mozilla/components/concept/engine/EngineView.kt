@@ -710,6 +710,8 @@ getInputResultDetail
 InputResultDetail
 =
 InputResultDetail
+.
+newInstance
 (
 )
 /

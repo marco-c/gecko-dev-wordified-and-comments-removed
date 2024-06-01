@@ -119,8 +119,6 @@ isTouchUnhandled
 ]
 *
 /
-VisibleForTesting
-internal
 const
 val
 INPUT_UNHANDLED
@@ -150,8 +148,6 @@ isTouchHandledByBrowser
 ]
 *
 /
-VisibleForTesting
-internal
 const
 val
 INPUT_HANDLED
@@ -187,8 +183,6 @@ isTouchHandledByWebsite
 ]
 *
 /
-VisibleForTesting
-internal
 const
 val
 INPUT_HANDLED_CONTENT
