@@ -554,7 +554,6 @@ sha
 else
 :
 '
-UNDEFINED
 '
 head_sha
 :
