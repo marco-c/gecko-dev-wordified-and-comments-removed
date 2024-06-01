@@ -1263,6 +1263,17 @@ onPermissionsResult
 permissions
 grantResults
 )
+else
+-
+>
+super
+.
+onRequestPermissionsResult
+(
+requestCode
+permissions
+grantResults
+)
 }
 }
 override
