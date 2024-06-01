@@ -239,7 +239,7 @@ isCustomTabIntent
 (
 final
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
