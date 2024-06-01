@@ -111,7 +111,7 @@ drawable
 "
 color
 /
-colorMenuBackground
+preference_row_selected
 "
 android
 :

@@ -501,7 +501,7 @@ getName
 ;
 radioButton
 .
-setButtonDrawable
+setCompoundDrawablesWithIntrinsicBounds
 (
 new
 BitmapDrawable
@@ -513,6 +513,9 @@ getIcon
 (
 )
 )
+null
+null
+null
 )
 ;
 return
