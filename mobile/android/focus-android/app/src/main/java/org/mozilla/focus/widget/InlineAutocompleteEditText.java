@@ -341,6 +341,7 @@ mContext
 context
 ;
 }
+public
 void
 setOnCommitListener
 (
@@ -353,6 +354,7 @@ mCommitListener
 listener
 ;
 }
+public
 void
 setOnDismissListener
 (
@@ -365,6 +367,7 @@ mDismissListener
 listener
 ;
 }
+public
 void
 setOnFilterListener
 (
@@ -2173,12 +2176,15 @@ KeyEvent
 KEYCODE_BACK
 )
 {
-clearFocus
+removeAutocomplete
 (
+getText
+(
+)
 )
 ;
 return
-true
+false
 ;
 }
 return
