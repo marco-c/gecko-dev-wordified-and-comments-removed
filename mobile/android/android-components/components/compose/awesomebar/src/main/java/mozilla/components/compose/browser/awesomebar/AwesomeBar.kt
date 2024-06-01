@@ -135,16 +135,6 @@ ui
 .
 Modifier
 import
-androidx
-.
-compose
-.
-ui
-.
-graphics
-.
-Color
-import
 mozilla
 .
 components

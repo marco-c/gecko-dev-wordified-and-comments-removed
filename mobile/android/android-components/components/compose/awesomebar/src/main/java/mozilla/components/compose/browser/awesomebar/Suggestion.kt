@@ -328,6 +328,13 @@ suggestion
 )
 }
 .
+height
+(
+56
+.
+dp
+)
+.
 padding
 (
 start
@@ -403,6 +410,13 @@ Modifier
 weight
 (
 1f
+)
+.
+align
+(
+Alignment
+.
+CenterVertically
 )
 )
 if
