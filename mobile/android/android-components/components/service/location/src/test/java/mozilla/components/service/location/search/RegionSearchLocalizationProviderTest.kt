@@ -81,6 +81,16 @@ service
 .
 location
 .
+LocationService
+import
+mozilla
+.
+components
+.
+service
+.
+location
+.
 MozillaLocationService
 import
 mozilla
@@ -233,7 +243,7 @@ mock
 )
 doReturn
 (
-MozillaLocationService
+LocationService
 .
 Region
 (
@@ -340,7 +350,7 @@ mock
 )
 doReturn
 (
-MozillaLocationService
+LocationService
 .
 Region
 (

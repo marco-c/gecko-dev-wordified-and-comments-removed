@@ -103,6 +103,16 @@ service
 .
 location
 .
+LocationService
+import
+mozilla
+.
+components
+.
+service
+.
+location
+.
 MozillaLocationService
 import
 java
@@ -182,7 +192,7 @@ private
 val
 service
 :
-MozillaLocationService
+LocationService
 )
 :
 SearchLocalizationProvider
