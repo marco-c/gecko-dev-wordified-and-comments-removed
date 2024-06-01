@@ -201,7 +201,7 @@ android
 drawablePadding
 =
 "
-8dp
+16dp
 "
 android
 :

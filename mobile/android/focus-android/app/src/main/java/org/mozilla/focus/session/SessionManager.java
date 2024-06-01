@@ -1069,13 +1069,7 @@ final
 Session
 currentSession
 =
-this
-.
 sessions
-.
-getValue
-(
-)
 .
 get
 (

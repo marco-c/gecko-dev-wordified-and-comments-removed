@@ -631,14 +631,18 @@ android
 layout_marginBottom
 =
 "
-84dp
+dimen
+/
+floating_action_button_margin
 "
 android
 :
 layout_marginEnd
 =
 "
-24dp
+dimen
+/
+floating_action_button_margin
 "
 android
 :
@@ -669,7 +673,7 @@ rippleColor
 =
 "
 #
-50FFFFFF
+7FFFFFFF
 "
 app
 :
@@ -691,7 +695,7 @@ app
 fabSize
 =
 "
-mini
+normal
 "
 /
 >
@@ -787,7 +791,7 @@ rippleColor
 =
 "
 #
-50FFFFFF
+7FFFFFFF
 "
 app
 :
