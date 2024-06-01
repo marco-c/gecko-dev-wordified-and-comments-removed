@@ -93,11 +93,11 @@ val
 version
 =
 "
-101
+102
 .
 0
 .
-20220502145843
+20220502144301
 "
 /
 *
@@ -112,7 +112,7 @@ channel
 =
 GeckoChannel
 .
-BETA
+NIGHTLY
 }
 /
 *
