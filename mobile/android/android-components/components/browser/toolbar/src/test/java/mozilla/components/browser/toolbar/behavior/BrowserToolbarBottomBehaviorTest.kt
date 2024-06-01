@@ -1109,7 +1109,7 @@ is
 more
 than
 50
-%
+percent
 visible
 (
 )
@@ -1280,7 +1280,7 @@ is
 less
 than
 50
-%
+percent
 visible
 (
 )

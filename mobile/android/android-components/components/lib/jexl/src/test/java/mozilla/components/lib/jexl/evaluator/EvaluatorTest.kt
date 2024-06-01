@@ -1357,9 +1357,9 @@ fun
 Should
 apply
 the
-"
+'
 in
-"
+'
 operator
 to
 strings
@@ -1406,9 +1406,9 @@ fun
 Should
 apply
 the
-"
+'
 in
-"
+'
 operator
 to
 arrays

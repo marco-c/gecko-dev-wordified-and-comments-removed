@@ -110,7 +110,7 @@ kotlin
 .
 4
 .
-10
+21
 "
 const
 val
@@ -119,9 +119,9 @@ coroutines
 "
 1
 .
-3
+4
 .
-9
+2
 "
 const
 val

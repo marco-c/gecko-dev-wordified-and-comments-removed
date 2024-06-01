@@ -149,9 +149,9 @@ onlyIfChanged
 observer
 only
 invokes
-"
+'
 then
-"
+'
 lambda
 if
 value
@@ -344,9 +344,9 @@ observer
 will
 not
 invoke
-"
+'
 then
-"
+'
 lambda
 if
 mapped
