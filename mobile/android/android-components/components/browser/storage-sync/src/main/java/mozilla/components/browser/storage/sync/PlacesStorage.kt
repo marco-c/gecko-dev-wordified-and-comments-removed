@@ -606,13 +606,6 @@ e
 PlacesException
 )
 {
-crashReporter
-?
-.
-submitCaughtException
-(
-e
-)
 logger
 .
 warn
@@ -704,13 +697,6 @@ e
 PlacesException
 )
 {
-crashReporter
-?
-.
-submitCaughtException
-(
-e
-)
 logger
 .
 warn
