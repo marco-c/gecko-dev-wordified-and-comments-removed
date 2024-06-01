@@ -147,6 +147,16 @@ name
 Create
 Release
 "
+permissions
+:
+contents
+:
+write
+pull
+-
+requests
+:
+write
 on
 :
 push
