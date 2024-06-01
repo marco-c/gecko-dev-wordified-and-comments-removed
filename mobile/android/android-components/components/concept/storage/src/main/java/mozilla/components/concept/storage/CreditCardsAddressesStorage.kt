@@ -65,6 +65,20 @@ concept
 .
 storage
 import
+android
+.
+os
+.
+Parcelable
+import
+kotlinx
+.
+android
+.
+parcel
+.
+Parcelize
+import
 kotlinx
 .
 coroutines
@@ -745,6 +759,7 @@ used
 .
 *
 /
+Parcelize
 data
 class
 CreditCard
@@ -791,6 +806,8 @@ timesUsed
 :
 Long
 )
+:
+Parcelable
 /
 *
 *
