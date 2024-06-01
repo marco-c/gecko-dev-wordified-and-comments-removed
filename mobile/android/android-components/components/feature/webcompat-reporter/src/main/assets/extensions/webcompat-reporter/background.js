@@ -484,13 +484,6 @@ browser
 .
 browserInfo
 .
-getGPUInfo
-(
-)
-browser
-.
-browserInfo
-.
 getGraphicsPrefs
 (
 )
@@ -521,7 +514,6 @@ then
 [
 blockList
 buildID
-GPUs
 graphicsPrefs
 channel
 hasTouchScreen
@@ -580,7 +572,6 @@ graphicsPrefs
 buildID
 channel
 frameworks
-GPUs
 hasTouchScreen
 }
 )
