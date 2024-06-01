@@ -378,6 +378,7 @@ providers
 LaunchedEffect
 (
 text
+fetcher
 )
 {
 fetcher
