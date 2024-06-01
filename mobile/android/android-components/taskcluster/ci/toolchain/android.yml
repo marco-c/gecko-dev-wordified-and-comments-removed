@@ -390,4 +390,13 @@ run
 -
 time
 :
-9600
+4000
+retry
+-
+exit
+-
+status
+:
+[
+1
+]
