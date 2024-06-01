@@ -863,7 +863,7 @@ CoordinateScrollingFeature
 (
 components
 .
-sessionManager
+store
 layout
 .
 engineView
