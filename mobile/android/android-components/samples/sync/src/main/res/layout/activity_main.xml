@@ -920,7 +920,7 @@ devices
 /
 >
 <
-fragment
+FragmentContainerView
 android
 :
 name
