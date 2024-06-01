@@ -235,9 +235,6 @@ ORDER
 BY
 created_at
 DESC
-LIMIT
-:
-limit
 "
 "
 "
@@ -245,9 +242,6 @@ limit
 fun
 getTabCollections
 (
-limit
-:
-Int
 )
 :
 Flow

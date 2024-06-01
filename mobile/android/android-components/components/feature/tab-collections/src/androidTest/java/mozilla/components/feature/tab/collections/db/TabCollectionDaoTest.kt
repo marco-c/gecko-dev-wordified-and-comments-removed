@@ -716,7 +716,7 @@ title
 }
 Test
 fun
-testGettingCollectionsWithLimit
+testGettingCollections
 (
 )
 =
@@ -779,7 +779,6 @@ tabCollectionDao
 .
 getTabCollections
 (
-4
 )
 val
 collections

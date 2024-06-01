@@ -1606,7 +1606,7 @@ ComplexMethod
 "
 )
 fun
-testGettingCollectionsWithLimit
+testGettingCollections
 (
 )
 =
@@ -1835,9 +1835,6 @@ storage
 .
 getCollections
 (
-limit
-=
-4
 )
 .
 first
@@ -2236,9 +2233,6 @@ storage
 .
 getCollections
 (
-limit
-=
-2
 )
 .
 first
