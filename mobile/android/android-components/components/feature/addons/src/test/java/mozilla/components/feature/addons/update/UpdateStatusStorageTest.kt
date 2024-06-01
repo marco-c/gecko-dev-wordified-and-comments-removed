@@ -65,16 +65,6 @@ feature
 .
 addons
 .
-amo
-.
-mozilla
-.
-components
-.
-feature
-.
-addons
-.
 update
 import
 androidx
