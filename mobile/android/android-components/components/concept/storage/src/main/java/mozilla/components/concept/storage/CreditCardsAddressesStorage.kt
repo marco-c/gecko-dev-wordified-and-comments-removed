@@ -256,6 +256,12 @@ return
 CreditCard
 ]
 record
+if
+it
+exists
+or
+null
+otherwise
 .
 *
 /
@@ -269,6 +275,7 @@ String
 )
 :
 CreditCard
+?
 /
 *
 *
@@ -474,6 +481,12 @@ return
 Address
 ]
 record
+if
+it
+exists
+or
+null
+otherwise
 .
 *
 /
@@ -487,6 +500,7 @@ String
 )
 :
 Address
+?
 /
 *
 *
