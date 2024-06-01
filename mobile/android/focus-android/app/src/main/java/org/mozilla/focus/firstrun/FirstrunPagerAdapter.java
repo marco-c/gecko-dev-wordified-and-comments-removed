@@ -74,6 +74,7 @@ PagerAdapter
 {
 private
 static
+final
 int
 [
 ]
