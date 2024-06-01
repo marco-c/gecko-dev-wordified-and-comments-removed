@@ -511,6 +511,11 @@ ext
 .
 description
 )
+ext
+.
+gleanGenerateMarkdownDocs
+=
+true
 apply
 from
 :

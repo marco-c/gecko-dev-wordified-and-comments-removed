@@ -303,6 +303,11 @@ Dependencies
 .
 testing_coroutines
 }
+ext
+.
+gleanGenerateMarkdownDocs
+=
+true
 apply
 from
 :
