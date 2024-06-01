@@ -905,6 +905,9 @@ Unit
 :
 PromptRequest
 (
+shouldDismissOnLoad
+=
+false
 )
 Dismissible
 /
