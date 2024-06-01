@@ -362,9 +362,6 @@ ManagedKey
 keyMutex
 .
 withLock
-(
-this
-)
 {
 val
 managedKey
