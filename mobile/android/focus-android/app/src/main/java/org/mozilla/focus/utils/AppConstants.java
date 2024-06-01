@@ -147,9 +147,7 @@ supportsDownloadingFiles
 )
 {
 return
-isDevBuild
-(
-)
+true
 ;
 }
 }
