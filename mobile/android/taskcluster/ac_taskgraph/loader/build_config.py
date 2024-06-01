@@ -820,6 +820,15 @@ request
 "
 github
 -
+pull
+-
+request
+-
+untrusted
+"
+"
+github
+-
 push
 "
 )
