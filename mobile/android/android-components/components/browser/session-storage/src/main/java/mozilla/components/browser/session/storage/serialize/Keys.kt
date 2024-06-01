@@ -174,6 +174,13 @@ title
 "
 const
 val
+SESSION_SEARCH_TERM
+=
+"
+searchTerm
+"
+const
+val
 SESSION_LAST_ACCESS
 =
 "
