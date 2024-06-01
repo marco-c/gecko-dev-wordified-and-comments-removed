@@ -10824,8 +10824,9 @@ assertEquals
 profile
 manager
 .
-fetchProfile
+refreshProfile
 (
+true
 )
 )
 verify
