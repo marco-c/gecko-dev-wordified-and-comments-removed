@@ -137,11 +137,11 @@ whats
 -
 new
 -
-firefox
--
 focus
 -
 android
+-
+24
 "
 )
 ;
