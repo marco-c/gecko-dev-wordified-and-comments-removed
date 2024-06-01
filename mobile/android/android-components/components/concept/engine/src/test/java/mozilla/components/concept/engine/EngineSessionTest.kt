@@ -7150,7 +7150,7 @@ cookiePolicy
 id
 CookiePolicy
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 .
 id
 )
@@ -7202,7 +7202,7 @@ cookiePolicy
 id
 CookiePolicy
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 .
 id
 )

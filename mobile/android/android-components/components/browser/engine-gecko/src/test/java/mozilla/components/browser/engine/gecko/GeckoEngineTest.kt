@@ -2396,7 +2396,7 @@ contentBlockingSettings
 cookieBehavior
 CookiePolicy
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 .
 id
 )
@@ -2407,7 +2407,7 @@ contentBlockingSettings
 cookieBehaviorPrivateMode
 CookiePolicy
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 .
 id
 )
@@ -4747,7 +4747,7 @@ assertEquals
 (
 CookiePolicy
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 .
 id
 contentBlockingSettings
@@ -4758,7 +4758,7 @@ assertEquals
 (
 CookiePolicy
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 .
 id
 contentBlockingSettings

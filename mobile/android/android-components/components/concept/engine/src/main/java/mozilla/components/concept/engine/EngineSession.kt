@@ -113,7 +113,7 @@ TrackingProtectionPolicy
 .
 CookiePolicy
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 import
 mozilla
 .
@@ -1954,7 +1954,7 @@ cookiePolicy
 :
 CookiePolicy
 =
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 val
 cookiePolicyPrivateMode
 :
@@ -2550,8 +2550,9 @@ a
 cookiePolicy
 of
 [
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 ]
+.
 *
 This
 is
@@ -2586,7 +2587,7 @@ STRICT
 )
 cookiePolicy
 =
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 strictSocialTrackingProtection
 =
 true
@@ -2614,9 +2615,10 @@ a
 [
 CookiePolicy
 ]
+*
 of
 [
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 ]
 .
 *
@@ -2645,7 +2647,7 @@ RECOMMENDED
 )
 cookiePolicy
 =
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 strictSocialTrackingProtection
 =
 false
@@ -2817,7 +2819,7 @@ cookiePolicy
 :
 CookiePolicy
 =
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 cookiePolicyPrivateMode
 :
 CookiePolicy
@@ -3264,7 +3266,7 @@ cookiePolicy
 :
 CookiePolicy
 =
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 cookiePolicyPrivateMode
 :
 CookiePolicy
