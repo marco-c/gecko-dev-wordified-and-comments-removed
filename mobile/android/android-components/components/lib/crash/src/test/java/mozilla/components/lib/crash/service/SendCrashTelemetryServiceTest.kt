@@ -383,6 +383,9 @@ spy
 (
 CrashReporter
 (
+context
+=
+testContext
 shouldPrompt
 =
 CrashReporter

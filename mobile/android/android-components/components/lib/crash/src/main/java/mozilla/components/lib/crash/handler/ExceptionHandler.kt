@@ -188,6 +188,10 @@ Crash
 UncaughtExceptionCrash
 (
 throwable
+=
+throwable
+breadcrumbs
+=
 crashReporter
 .
 crashBreadcrumbs

@@ -413,6 +413,9 @@ runBlockingTest
 {
 CrashReporter
 (
+context
+=
+testContext
 shouldPrompt
 =
 CrashReporter
@@ -517,6 +520,9 @@ runBlockingTest
 {
 CrashReporter
 (
+context
+=
+testContext
 shouldPrompt
 =
 CrashReporter
@@ -622,6 +628,9 @@ runBlockingTest
 {
 CrashReporter
 (
+context
+=
+testContext
 shouldPrompt
 =
 CrashReporter
@@ -735,6 +744,9 @@ runBlockingTest
 {
 CrashReporter
 (
+context
+=
+testContext
 shouldPrompt
 =
 CrashReporter

@@ -1670,6 +1670,9 @@ spy
 (
 CrashReporter
 (
+context
+=
+testContext
 services
 =
 listOf
@@ -1914,6 +1917,7 @@ spy
 (
 CrashReporter
 (
+testContext
 services
 =
 listOf
