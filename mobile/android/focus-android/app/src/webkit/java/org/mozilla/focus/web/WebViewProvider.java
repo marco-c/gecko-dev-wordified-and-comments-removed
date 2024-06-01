@@ -266,6 +266,13 @@ true
 ;
 settings
 .
+setDomStorageEnabled
+(
+true
+)
+;
+settings
+.
 setBuiltInZoomControls
 (
 true
@@ -365,13 +372,6 @@ false
 settings
 .
 setDatabaseEnabled
-(
-false
-)
-;
-settings
-.
-setDomStorageEnabled
 (
 false
 )
