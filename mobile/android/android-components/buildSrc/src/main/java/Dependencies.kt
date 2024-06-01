@@ -287,11 +287,11 @@ val
 mozilla_appservices
 =
 "
-85
+86
 .
-4
+0
 .
-1
+0
 "
 const
 val
