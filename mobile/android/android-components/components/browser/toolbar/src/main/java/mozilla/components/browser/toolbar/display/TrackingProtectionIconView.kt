@@ -531,7 +531,7 @@ R
 .
 drawable
 .
-mozac_ic_tracking_protection_on_trackers_blocked
+mozac_ic_tracking_protection_off_for_a_site
 }
 private
 fun
