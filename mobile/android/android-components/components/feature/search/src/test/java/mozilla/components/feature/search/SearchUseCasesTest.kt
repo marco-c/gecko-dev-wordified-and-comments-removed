@@ -797,6 +797,10 @@ eq
 (
 null
 )
+eq
+(
+null
+)
 )
 assertTrue
 (

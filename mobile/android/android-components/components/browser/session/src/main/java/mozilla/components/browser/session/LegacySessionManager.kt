@@ -1006,6 +1006,12 @@ EngineSession
 ?
 =
 null
+engineSessionState
+:
+EngineSessionState
+?
+=
+null
 parent
 :
 Session
@@ -1024,6 +1030,7 @@ addInternal
 session
 selected
 engineSession
+engineSessionState
 parent
 =
 parent

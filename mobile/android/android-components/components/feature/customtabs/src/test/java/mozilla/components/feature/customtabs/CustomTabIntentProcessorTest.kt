@@ -551,6 +551,10 @@ eq
 (
 null
 )
+eq
+(
+null
+)
 )
 verify
 (
@@ -809,6 +813,10 @@ anySession
 eq
 (
 false
+)
+eq
+(
+null
 )
 eq
 (

@@ -83,7 +83,7 @@ browser
 .
 session
 .
-Session
+SessionManager
 import
 mozilla
 .
@@ -248,7 +248,11 @@ Boolean
 :
 List
 <
-Session
+SessionManager
+.
+Snapshot
+.
+Item
 >
 {
 return
@@ -285,7 +289,11 @@ Boolean
 :
 List
 <
-Session
+SessionManager
+.
+Snapshot
+.
+Item
 >
 {
 val
@@ -352,7 +360,11 @@ Boolean
 :
 List
 <
-Session
+SessionManager
+.
+Snapshot
+.
+Item
 >
 {
 return
@@ -377,9 +389,6 @@ readSnapshotItem
 engine
 restoreSessionId
 )
-?
-.
-session
 }
 }
 override

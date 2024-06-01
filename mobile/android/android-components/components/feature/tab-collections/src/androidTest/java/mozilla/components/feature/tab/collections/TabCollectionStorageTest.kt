@@ -1407,6 +1407,8 @@ sessions
 0
 ]
 .
+session
+.
 id
 )
 assertEquals
@@ -1418,6 +1420,8 @@ sessions
 [
 1
 ]
+.
+session
 .
 id
 )
@@ -1506,6 +1510,8 @@ sessions
 0
 ]
 .
+session
+.
 id
 )
 assertNotEquals
@@ -1518,6 +1524,8 @@ sessions
 1
 ]
 .
+session
+.
 id
 )
 assertEquals
@@ -1530,6 +1538,8 @@ sessions
 0
 ]
 .
+session
+.
 url
 )
 assertEquals
@@ -1541,6 +1551,8 @@ sessions
 [
 1
 ]
+.
+session
 .
 url
 )
@@ -1554,6 +1566,8 @@ sessions
 0
 ]
 .
+session
+.
 title
 )
 assertEquals
@@ -1565,6 +1579,8 @@ sessions
 [
 1
 ]
+.
+session
 .
 title
 )
