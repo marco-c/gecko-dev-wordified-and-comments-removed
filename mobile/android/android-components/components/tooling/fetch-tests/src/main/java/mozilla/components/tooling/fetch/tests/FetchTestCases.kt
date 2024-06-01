@@ -225,6 +225,12 @@ java
 .
 util
 .
+Locale
+import
+java
+.
+util
+.
 UUID
 import
 java
@@ -803,6 +809,9 @@ Connection
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 }

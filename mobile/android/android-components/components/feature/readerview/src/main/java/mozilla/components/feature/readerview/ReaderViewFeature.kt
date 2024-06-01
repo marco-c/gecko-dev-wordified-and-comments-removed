@@ -259,6 +259,12 @@ ref
 .
 WeakReference
 import
+java
+.
+util
+.
+Locale
+import
 kotlin
 .
 properties
@@ -1845,6 +1851,9 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 .
@@ -1859,6 +1868,9 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 return

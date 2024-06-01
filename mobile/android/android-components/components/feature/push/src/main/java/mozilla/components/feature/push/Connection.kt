@@ -114,6 +114,12 @@ java
 io
 .
 Closeable
+import
+java
+.
+util
+.
+Locale
 /
 *
 *
@@ -811,4 +817,7 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )

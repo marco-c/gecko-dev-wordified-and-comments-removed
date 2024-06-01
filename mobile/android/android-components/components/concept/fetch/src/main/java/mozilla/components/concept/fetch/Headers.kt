@@ -64,6 +64,12 @@ components
 concept
 .
 fetch
+import
+java
+.
+util
+.
+Locale
 /
 *
 *
@@ -705,6 +711,9 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 =
 =
@@ -712,6 +721,9 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 }
 ?
