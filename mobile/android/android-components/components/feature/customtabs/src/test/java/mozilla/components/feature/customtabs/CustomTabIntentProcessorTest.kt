@@ -893,6 +893,11 @@ process
 (
 intent
 )
+store
+.
+waitUntilIdle
+(
+)
 var
 customTabId
 :
@@ -923,11 +928,6 @@ tab
 .
 id
 }
-store
-.
-waitUntilIdle
-(
-)
 middleware
 .
 assertFirstAction
@@ -1208,6 +1208,11 @@ process
 (
 intent
 )
+store
+.
+waitUntilIdle
+(
+)
 var
 customTabId
 :
@@ -1238,11 +1243,6 @@ tab
 .
 id
 }
-store
-.
-waitUntilIdle
-(
-)
 middleware
 .
 assertFirstAction
