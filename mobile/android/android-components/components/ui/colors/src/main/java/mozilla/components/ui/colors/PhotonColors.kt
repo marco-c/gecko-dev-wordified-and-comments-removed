@@ -1178,6 +1178,13 @@ Color
 0x1F592ACB
 )
 val
+Violet70A80
+=
+Color
+(
+0xCC592ACB
+)
+val
 Violet80
 =
 Color
