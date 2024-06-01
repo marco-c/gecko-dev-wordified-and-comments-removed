@@ -551,5 +551,13 @@ isRedirect
 (
 )
 )
+assertTrue
+(
+appLink
+.
+hasMarketplaceIntent
+(
+)
+)
 }
 }
