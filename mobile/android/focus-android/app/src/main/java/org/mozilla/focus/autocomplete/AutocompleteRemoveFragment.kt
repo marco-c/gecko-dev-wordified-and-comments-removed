@@ -135,9 +135,9 @@ settings
 .
 SettingsFragment
 class
-AutocompleteCustomDomainsRemoveFragment
+AutocompleteRemoveFragment
 :
-AutocompleteCustomDomainsFragment
+AutocompleteListFragment
 (
 )
 {

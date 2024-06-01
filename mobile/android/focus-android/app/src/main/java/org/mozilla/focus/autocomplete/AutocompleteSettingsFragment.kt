@@ -106,6 +106,18 @@ focus
 settings
 .
 SettingsFragment
+/
+*
+*
+*
+Settings
+UI
+for
+configuring
+autocomplete
+.
+*
+/
 class
 AutocompleteSettingsFragment
 :
@@ -229,7 +241,7 @@ R
 id
 .
 container
-AutocompleteCustomDomainsFragment
+AutocompleteListFragment
 (
 )
 )

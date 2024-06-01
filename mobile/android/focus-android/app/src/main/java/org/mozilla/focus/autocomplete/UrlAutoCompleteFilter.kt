@@ -157,12 +157,6 @@ kotlin
 .
 collections
 .
-HashSet
-import
-kotlin
-.
-collections
-.
 LinkedHashSet
 class
 UrlAutoCompleteFilter

@@ -144,7 +144,7 @@ focus
 .
 autocomplete
 .
-AutocompleteDefaultPreference
+AutocompleteDefaultDomainsPreference
 android
 :
 key
@@ -197,7 +197,7 @@ focus
 .
 autocomplete
 .
-AutocompleteCustomPreference
+AutocompleteCustomDomainsPreference
 android
 :
 key
