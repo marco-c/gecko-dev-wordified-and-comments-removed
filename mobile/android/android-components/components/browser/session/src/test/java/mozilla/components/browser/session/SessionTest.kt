@@ -1753,6 +1753,10 @@ session
 .
 loadRequestMetadata
 =
+Consumable
+.
+from
+(
 LoadRequestMetadata
 (
 "
@@ -1773,11 +1777,17 @@ LoadRequestOption
 REDIRECT
 )
 )
+)
 assertTrue
 (
 session
 .
 loadRequestMetadata
+.
+peek
+(
+)
+?
 .
 isSet
 (
@@ -1785,6 +1795,8 @@ LoadRequestOption
 .
 REDIRECT
 )
+!
+!
 )
 verify
 (

@@ -589,6 +589,14 @@ Boolean
 triggeredByWebContent
 :
 Boolean
+shouldLoadUri
+:
+(
+Boolean
+)
+-
+>
+Unit
 )
 {
 if
@@ -610,6 +618,10 @@ session
 .
 loadRequestMetadata
 =
+Consumable
+.
+from
+(
 LoadRequestMetadata
 (
 url
@@ -637,6 +649,8 @@ else
 LoadRequestOption
 .
 NONE
+)
+shouldLoadUri
 )
 )
 }

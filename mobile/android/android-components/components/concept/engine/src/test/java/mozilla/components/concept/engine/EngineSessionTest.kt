@@ -299,6 +299,19 @@ file
 foobar
 "
 )
+private
+val
+allowOrDeny
+:
+(
+Boolean
+)
+-
+>
+Unit
+=
+{
+}
 Test
 fun
 registered
@@ -659,6 +672,7 @@ org
 "
 true
 true
+allowOrDeny
 )
 }
 session
@@ -930,6 +944,7 @@ org
 "
 true
 true
+allowOrDeny
 )
 verify
 (
@@ -1275,6 +1290,7 @@ org
 "
 true
 true
+allowOrDeny
 )
 }
 session
@@ -1506,6 +1522,7 @@ org
 "
 false
 true
+allowOrDeny
 )
 }
 verify
@@ -1702,6 +1719,7 @@ org
 "
 true
 true
+allowOrDeny
 )
 verify
 (
@@ -1965,6 +1983,7 @@ org
 "
 false
 true
+allowOrDeny
 )
 verifyNoMoreInteractions
 (
