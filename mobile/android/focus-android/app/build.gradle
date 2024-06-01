@@ -4040,6 +4040,8 @@ java
 task
 generateLocaleList
 {
+doLast
+{
 def
 dir
 =
@@ -4271,6 +4273,7 @@ localeList
 \
 n
 "
+}
 }
 tasks
 .
