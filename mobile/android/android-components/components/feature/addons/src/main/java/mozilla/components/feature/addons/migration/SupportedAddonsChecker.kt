@@ -245,7 +245,7 @@ addons
 .
 ui
 .
-translatedName
+translateName
 import
 mozilla
 .
@@ -1233,6 +1233,7 @@ setContentText
 getNotificationBody
 (
 newSupportedAddons
+context
 )
 )
 .
@@ -1330,6 +1331,9 @@ List
 <
 Addon
 >
+context
+:
+Context
 )
 :
 String
@@ -1360,7 +1364,10 @@ first
 (
 )
 .
-translatedName
+translateName
+(
+context
+)
 applicationContext
 .
 getString
@@ -1389,7 +1396,10 @@ first
 (
 )
 .
-translatedName
+translateName
+(
+context
+)
 val
 secondAddonName
 =
@@ -1398,7 +1408,10 @@ newSupportedAddons
 1
 ]
 .
-translatedName
+translateName
+(
+context
+)
 applicationContext
 .
 getString

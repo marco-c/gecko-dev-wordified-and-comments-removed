@@ -255,7 +255,7 @@ addons
 .
 ui
 .
-translatedName
+translateName
 import
 org
 .
@@ -1114,7 +1114,12 @@ string
 mozac_feature_addons_failed_to_install
 addon
 .
-translatedName
+translateName
+(
+requireContext
+(
+)
+)
 )
 Toast
 .

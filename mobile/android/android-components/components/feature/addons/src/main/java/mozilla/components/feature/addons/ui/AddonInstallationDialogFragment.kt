@@ -875,7 +875,12 @@ string
 mozac_feature_addons_installed_dialog_title
 addon
 .
-translatedName
+translateName
+(
+requireContext
+(
+)
+)
 requireContext
 (
 )

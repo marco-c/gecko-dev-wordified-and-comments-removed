@@ -318,7 +318,14 @@ isNotEmpty
 {
 addon
 .
-translatedName
+translateName
+(
+holder
+.
+titleView
+.
+context
+)
 }
 else
 {

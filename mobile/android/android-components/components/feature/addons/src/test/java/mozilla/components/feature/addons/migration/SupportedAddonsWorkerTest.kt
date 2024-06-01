@@ -215,7 +215,7 @@ addons
 .
 ui
 .
-translatedName
+translateName
 import
 mozilla
 .
@@ -1137,6 +1137,7 @@ listOf
 (
 firstAddon
 )
+testContext
 )
 var
 expectedString
@@ -1155,7 +1156,10 @@ string
 mozac_feature_addons_supported_checker_notification_content_one
 firstAddon
 .
-translatedName
+translateName
+(
+testContext
+)
 appName
 )
 assertEquals
@@ -1180,6 +1184,7 @@ listOf
 firstAddon
 secondAddon
 )
+testContext
 )
 expectedString
 =
@@ -1194,10 +1199,16 @@ string
 mozac_feature_addons_supported_checker_notification_content_two
 firstAddon
 .
-translatedName
+translateName
+(
+testContext
+)
 secondAddon
 .
-translatedName
+translateName
+(
+testContext
+)
 appName
 )
 assertEquals
@@ -1225,6 +1236,7 @@ firstAddon
 secondAddon
 thirdAddon
 )
+testContext
 )
 expectedString
 =
@@ -1261,6 +1273,7 @@ getNotificationBody
 emptyList
 (
 )
+testContext
 )
 expectedString
 =

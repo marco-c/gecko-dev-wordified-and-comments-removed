@@ -183,7 +183,7 @@ addons
 .
 ui
 .
-translatedDescription
+translateName
 import
 mozilla
 .
@@ -195,7 +195,7 @@ addons
 .
 ui
 .
-translatedName
+translateDescription
 import
 mozilla
 .
@@ -337,7 +337,10 @@ title
 =
 addon
 .
-translatedName
+translateName
+(
+this
+)
 bindDetails
 (
 addon
@@ -739,7 +742,10 @@ detailsText
 =
 addon
 .
-translatedDescription
+translateDescription
+(
+this
+)
 val
 parsedText
 =

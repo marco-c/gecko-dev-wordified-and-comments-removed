@@ -307,7 +307,10 @@ name
 =
 addon
 .
-translatedName
+translateName
+(
+testContext
+)
 val
 titleTextView
 =

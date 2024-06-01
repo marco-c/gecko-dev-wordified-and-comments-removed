@@ -1410,7 +1410,10 @@ isNotEmpty
 {
 addon
 .
-translatedName
+translateName
+(
+context
+)
 }
 else
 {
@@ -1437,7 +1440,10 @@ text
 =
 addon
 .
-translatedSummary
+translateSummary
+(
+context
+)
 }
 else
 {
