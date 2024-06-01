@@ -149,6 +149,10 @@ val
 titleView
 :
 TextView
+val
+divider
+:
+View
 )
 :
 CustomViewHolder
