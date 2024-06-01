@@ -1,3 +1,4 @@
+.
 *
 .
 0emm
@@ -130,9 +131,6 @@ ex
 ortsinfo
 .
 at
-*
-.
-fj
 *
 .
 fk
@@ -611,6 +609,9 @@ cr
 ac
 .
 cy
+ac
+.
+fj
 ac
 .
 gn
@@ -2660,6 +2661,9 @@ dk
 biz
 .
 et
+biz
+.
+fj
 biz
 .
 gl
@@ -4872,6 +4876,9 @@ es
 com
 .
 et
+com
+.
+fj
 com
 .
 fr
@@ -7426,6 +7433,7 @@ fitjar
 no
 fitness
 fj
+fj
 .
 cn
 fjaler
@@ -9029,6 +9037,9 @@ eg
 gov
 .
 et
+gov
+.
+fj
 gov
 .
 ge
@@ -11337,6 +11348,9 @@ ec
 info
 .
 et
+info
+.
+fj
 info
 .
 gu
@@ -16288,6 +16302,9 @@ mil
 eg
 mil
 .
+fj
+mil
+.
 ge
 mil
 .
@@ -17796,6 +17813,9 @@ name
 et
 name
 .
+fj
+name
+.
 hr
 name
 .
@@ -18259,6 +18279,9 @@ net
 eu
 .
 org
+net
+.
+fj
 net
 .
 ge
@@ -20270,6 +20293,9 @@ org
 et
 org
 .
+fj
+org
+.
 ge
 org
 .
@@ -21550,6 +21576,9 @@ cy
 pro
 .
 ec
+pro
+.
+fj
 pro
 .
 ht
