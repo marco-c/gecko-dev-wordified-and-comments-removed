@@ -390,6 +390,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 select
@@ -476,6 +478,8 @@ getpocket
 .
 com
 "
+flags
+=
 LoadUrlFlags
 .
 select

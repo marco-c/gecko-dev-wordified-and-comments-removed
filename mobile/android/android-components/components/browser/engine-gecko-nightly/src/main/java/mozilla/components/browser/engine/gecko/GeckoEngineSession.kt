@@ -730,6 +730,10 @@ loadUrl
 url
 :
 String
+parent
+:
+EngineSession
+?
 flags
 :
 LoadUrlFlags
@@ -743,6 +747,15 @@ geckoSession
 loadUri
 (
 url
+(
+parent
+as
+?
+GeckoEngineSession
+)
+?
+.
+geckoSession
 flags
 .
 value

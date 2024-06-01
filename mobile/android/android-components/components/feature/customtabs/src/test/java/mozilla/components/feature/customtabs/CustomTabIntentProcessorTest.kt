@@ -568,6 +568,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -833,6 +835,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external

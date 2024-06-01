@@ -595,6 +595,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -726,6 +728,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -847,6 +851,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -1018,6 +1024,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -1147,6 +1155,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -1266,6 +1276,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -1385,6 +1397,8 @@ mozilla
 .
 org
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -1438,6 +1452,8 @@ getpocket
 .
 com
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -1499,6 +1515,8 @@ mozilla
 .
 com
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -1559,6 +1577,8 @@ mozilla
 .
 com
 "
+flags
+=
 LoadUrlFlags
 .
 external
@@ -1619,6 +1639,8 @@ mozilla
 .
 com
 "
+flags
+=
 LoadUrlFlags
 .
 external

@@ -636,6 +636,10 @@ loadUrl
 url
 :
 String
+parent
+:
+EngineSession
+?
 flags
 :
 LoadUrlFlags
@@ -948,6 +952,10 @@ loadUrl
 url
 :
 String
+parent
+:
+EngineSession
+?
 flags
 :
 LoadUrlFlags
@@ -1203,6 +1211,10 @@ loadUrl
 url
 :
 String
+parent
+:
+EngineSession
+?
 flags
 :
 LoadUrlFlags

@@ -518,6 +518,8 @@ loadUrl
 (
 url
 flags
+=
+flags
 )
 }
 }

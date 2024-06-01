@@ -541,6 +541,10 @@ loadUrl
 url
 :
 String
+parent
+:
+EngineSession
+?
 flags
 :
 LoadUrlFlags
