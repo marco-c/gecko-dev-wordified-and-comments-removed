@@ -244,6 +244,10 @@ implementation
 Dependencies
 .
 kotlin_stdlib
+implementation
+Dependencies
+.
+androidx_work_runtime
 testImplementation
 project
 (
@@ -274,6 +278,14 @@ testImplementation
 Dependencies
 .
 testing_coroutines
+testImplementation
+Dependencies
+.
+androidx_work_testing
+testImplementation
+Dependencies
+.
+kotlin_reflect
 testImplementation
 Dependencies
 .

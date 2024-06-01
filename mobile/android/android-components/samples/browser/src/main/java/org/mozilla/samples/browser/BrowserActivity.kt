@@ -366,6 +366,13 @@ addObserver
 (
 webExtensionPopupFeature
 )
+components
+.
+historyStorage
+.
+registerStorageMaintenanceWorker
+(
+)
 }
 override
 fun

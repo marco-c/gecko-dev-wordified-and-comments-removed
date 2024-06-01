@@ -1730,6 +1730,9 @@ suspend
 fun
 runMaintenance
 (
+dbSizeLimit
+:
+UInt
 )
 {
 /

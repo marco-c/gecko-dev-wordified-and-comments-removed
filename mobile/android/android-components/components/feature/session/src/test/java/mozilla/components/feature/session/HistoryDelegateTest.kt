@@ -1126,6 +1126,9 @@ suspend
 fun
 runMaintenance
 (
+dbSizeLimit
+:
+UInt
 )
 {
 fail
