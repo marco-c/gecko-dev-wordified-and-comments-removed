@@ -222,6 +222,16 @@ utils
 '
 )
 implementation
+project
+(
+'
+:
+service
+-
+location
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
