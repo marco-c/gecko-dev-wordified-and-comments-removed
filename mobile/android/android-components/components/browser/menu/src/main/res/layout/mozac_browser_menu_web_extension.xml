@@ -300,6 +300,13 @@ paddingStart
 "
 16dp
 "
+android
+:
+clickable
+=
+"
+false
+"
 tools
 :
 ignore
