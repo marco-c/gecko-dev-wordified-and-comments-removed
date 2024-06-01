@@ -1605,7 +1605,6 @@ so
 is
 synchronized
 .
-private
 var
 connectionState
 :
@@ -1614,6 +1613,8 @@ ConnectionState
 ConnectionState
 .
 Isolated
+private
+set
 /
 /
 Override
