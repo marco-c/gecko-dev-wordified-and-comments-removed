@@ -372,8 +372,7 @@ showAsDropDown
 (
 anchor
 0
--
-10
+0
 )
 }
 Test
@@ -439,8 +438,7 @@ showAsDropDown
 (
 anchor
 0
--
-10
+0
 )
 }
 Test
@@ -507,10 +505,8 @@ popupWindow
 showAsDropDown
 (
 anchor
--
-10
--
-10
+0
+0
 )
 }
 Test
@@ -576,8 +572,7 @@ showAsDropDown
 (
 anchor
 0
--
-10
+0
 )
 }
 Test
@@ -778,8 +773,7 @@ popupWindow
 showAsDropDown
 (
 anchor
--
-10
+0
 -
 90
 )
@@ -911,7 +905,7 @@ showAsDropDown
 anchor
 0
 -
-110
+90
 )
 }
 Test
@@ -969,7 +963,7 @@ menuContentView
 anchor
 Orientation
 .
-DOWN
+UP
 )
 assertEquals
 (
@@ -977,7 +971,7 @@ R
 .
 style
 .
-Mozac_Browser_Menu2_Animation_OverflowMenuLeftTop
+Mozac_Browser_Menu2_Animation_OverflowMenuLeft
 popupWindow
 .
 animationStyle
