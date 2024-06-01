@@ -438,9 +438,6 @@ engineView
 .
 setVerticalClipping
 (
-dependency
-.
-height
 -
 dependency
 .

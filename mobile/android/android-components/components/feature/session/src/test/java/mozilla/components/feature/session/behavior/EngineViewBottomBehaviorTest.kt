@@ -307,7 +307,8 @@ engineView
 .
 setVerticalClipping
 (
-58
+-
+42
 )
 }
 Test
@@ -471,16 +472,6 @@ fun
 setVerticalClipping
 (
 clippingHeight
-:
-Int
-)
-{
-}
-override
-fun
-setDynamicToolbarMaxHeight
-(
-height
 :
 Int
 )

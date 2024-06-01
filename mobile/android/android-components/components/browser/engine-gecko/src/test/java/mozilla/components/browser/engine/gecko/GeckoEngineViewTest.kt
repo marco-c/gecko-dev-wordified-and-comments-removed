@@ -494,6 +494,7 @@ engineView
 .
 setVerticalClipping
 (
+-
 42
 )
 verify
@@ -505,6 +506,7 @@ currentGeckoView
 .
 setVerticalClipping
 (
+-
 42
 )
 }
