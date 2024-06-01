@@ -151,6 +151,18 @@ json
 .
 tryGetString
 import
+mozilla
+.
+components
+.
+support
+.
+ktx
+.
+kotlin
+.
+sanitizeURL
+import
 org
 .
 json
@@ -752,7 +764,7 @@ url
 =
 url
 .
-trim
+sanitizeURL
 (
 )
 type
