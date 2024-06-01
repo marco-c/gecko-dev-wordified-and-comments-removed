@@ -71,7 +71,7 @@ CLASS
 )
 :
 [
-TextMenuCandidate
+MenuCandidate
 ]
 (
 .
@@ -90,8 +90,6 @@ menu
 .
 candidate
 /
--
-text
 -
 menu
 -
@@ -153,7 +151,7 @@ BrowserMenuImageText
 .
 kt
 #
-L87
+L88
 )
 Overrides
 [

@@ -70,7 +70,7 @@ CLASS
 )
 :
 [
-TextMenuCandidate
+NestedMenuCandidate
 ]
 (
 .
@@ -90,7 +90,7 @@ menu
 candidate
 /
 -
-text
+nested
 -
 menu
 -
@@ -152,7 +152,7 @@ ParentBrowserMenuItem
 .
 kt
 #
-L84
+L85
 )
 Overrides
 [

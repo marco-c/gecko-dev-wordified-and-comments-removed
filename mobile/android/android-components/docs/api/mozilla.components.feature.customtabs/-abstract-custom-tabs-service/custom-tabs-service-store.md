@@ -60,7 +60,7 @@ md
 )
 #
 customTabsServiceStore
-open
+abstract
 val
 customTabsServiceStore
 :
@@ -97,7 +97,6 @@ index
 .
 md
 )
-?
 [
 (
 source

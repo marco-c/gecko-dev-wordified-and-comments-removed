@@ -98,7 +98,7 @@ TabCounter
 .
 kt
 #
-L23
+L22
 )
 #
 #
@@ -254,6 +254,18 @@ index
 .
 html
 )
+<
+br
+>
+Returns
+current
+tab
+count
+from
+tab
+counter
+view
+.
 |
 |
 [

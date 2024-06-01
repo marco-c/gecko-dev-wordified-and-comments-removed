@@ -154,7 +154,7 @@ ThumbnailStorage
 .
 kt
 #
-L48
+L67
 )
 Asynchronously
 loads

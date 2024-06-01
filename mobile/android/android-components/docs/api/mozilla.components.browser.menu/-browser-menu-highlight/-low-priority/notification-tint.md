@@ -156,7 +156,7 @@ BrowserMenuHighlight
 .
 kt
 #
-L30
+L40
 )
 Tint
 for

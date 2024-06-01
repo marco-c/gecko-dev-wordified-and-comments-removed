@@ -124,7 +124,7 @@ ParentBrowserMenuItem
 .
 kt
 #
-L32
+L33
 )
 A
 parent
@@ -817,7 +817,7 @@ CLASS
 )
 :
 [
-TextMenuCandidate
+NestedMenuCandidate
 ]
 (
 .
@@ -837,7 +837,7 @@ menu
 candidate
 /
 -
-text
+nested
 -
 menu
 -

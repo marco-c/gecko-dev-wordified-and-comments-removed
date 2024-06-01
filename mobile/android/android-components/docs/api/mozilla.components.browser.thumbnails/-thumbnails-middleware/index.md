@@ -179,7 +179,7 @@ ThumbnailsMiddleware
 .
 kt
 #
-L18
+L19
 )
 [
 Middleware

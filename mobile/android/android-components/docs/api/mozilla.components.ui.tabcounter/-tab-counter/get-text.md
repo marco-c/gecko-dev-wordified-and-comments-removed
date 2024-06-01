@@ -142,5 +142,14 @@ TabCounter
 .
 kt
 #
-L63
+L62
 )
+Returns
+current
+tab
+count
+from
+tab
+counter
+view
+.

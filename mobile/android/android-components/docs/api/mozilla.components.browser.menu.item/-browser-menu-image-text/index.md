@@ -132,7 +132,7 @@ BrowserMenuImageText
 .
 kt
 #
-L47
+L48
 )
 A
 menu
@@ -696,7 +696,7 @@ CLASS
 )
 :
 [
-TextMenuCandidate
+MenuCandidate
 ]
 (
 .
@@ -715,8 +715,6 @@ menu
 .
 candidate
 /
--
-text
 -
 menu
 -

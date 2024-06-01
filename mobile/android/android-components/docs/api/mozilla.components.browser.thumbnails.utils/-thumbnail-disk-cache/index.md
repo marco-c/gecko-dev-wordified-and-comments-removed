@@ -101,7 +101,7 @@ ThumbnailDiskCache
 .
 kt
 #
-L22
+L21
 )
 Caching
 thumbnail
