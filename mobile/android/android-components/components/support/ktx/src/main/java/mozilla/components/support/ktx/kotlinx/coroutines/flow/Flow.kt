@@ -362,7 +362,6 @@ observedValueOnce
 mapped
 !
 =
-=
 lastMappedValue
 )
 {
@@ -841,7 +840,6 @@ it
 ]
 !
 =
-=
 transform
 (
 it
@@ -1108,7 +1106,6 @@ mapped
 i
 ]
 !
-=
 =
 r
 }
