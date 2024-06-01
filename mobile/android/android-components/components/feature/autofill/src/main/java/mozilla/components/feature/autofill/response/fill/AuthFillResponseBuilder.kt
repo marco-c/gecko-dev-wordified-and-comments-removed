@@ -387,7 +387,7 @@ FLAG_CANCEL_CURRENT
 or
 PendingIntent
 .
-FLAG_IMMUTABLE
+FLAG_MUTABLE
 )
 val
 intentSender

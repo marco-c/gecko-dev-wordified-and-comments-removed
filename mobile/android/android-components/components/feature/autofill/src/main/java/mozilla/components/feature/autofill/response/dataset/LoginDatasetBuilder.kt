@@ -501,9 +501,9 @@ activityRequestCode
 +
 requestOffset
 confirmIntent
-PendingIntentUtils
+PendingIntent
 .
-defaultFlags
+FLAG_MUTABLE
 or
 PendingIntent
 .
