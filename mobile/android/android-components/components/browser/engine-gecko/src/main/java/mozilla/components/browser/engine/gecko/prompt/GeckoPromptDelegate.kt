@@ -683,7 +683,7 @@ onPromptRequest
 (
 PromptRequest
 .
-LoginPrompt
+SaveLoginPrompt
 (
 hint
 =
