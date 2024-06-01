@@ -102,7 +102,7 @@ PingType
 .
 kt
 #
-L17
+L18
 )
 This
 implements
