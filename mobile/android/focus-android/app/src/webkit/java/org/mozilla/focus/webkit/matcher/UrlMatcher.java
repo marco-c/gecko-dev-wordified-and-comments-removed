@@ -1395,6 +1395,12 @@ getHost
 if
 (
 pageHost
+!
+=
+null
+&
+&
+pageHost
 .
 equals
 (
