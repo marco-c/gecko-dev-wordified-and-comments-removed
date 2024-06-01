@@ -92,6 +92,7 @@ Suppress
 MagicNumber
 "
 )
+internal
 fun
 generateEncryptionKey
 (
