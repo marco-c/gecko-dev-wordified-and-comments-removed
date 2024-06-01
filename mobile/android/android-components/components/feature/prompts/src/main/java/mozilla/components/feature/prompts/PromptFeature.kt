@@ -1303,9 +1303,6 @@ invoked
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 "

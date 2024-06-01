@@ -1239,9 +1239,6 @@ SDK
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

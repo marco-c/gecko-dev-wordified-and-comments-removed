@@ -92,12 +92,6 @@ characters
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 class
 LexerInput

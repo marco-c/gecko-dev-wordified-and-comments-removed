@@ -380,9 +380,6 @@ Suppress
 "
 ComplexMethod
 "
-"
-TooManyFunctions
-"
 )
 class
 DownloadMiddleware

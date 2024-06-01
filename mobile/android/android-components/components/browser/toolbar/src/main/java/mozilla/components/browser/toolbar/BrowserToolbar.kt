@@ -584,12 +584,6 @@ EditToolbar
 *
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 BrowserToolbar
 JvmOverloads

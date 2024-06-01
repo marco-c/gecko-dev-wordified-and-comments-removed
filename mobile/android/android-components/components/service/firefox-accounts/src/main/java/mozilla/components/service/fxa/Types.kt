@@ -61,9 +61,6 @@ file
 SuppressWarnings
 (
 "
-TooManyFunctions
-"
-"
 MatchingDeclarationName
 "
 )

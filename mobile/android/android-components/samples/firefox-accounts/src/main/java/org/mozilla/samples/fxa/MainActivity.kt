@@ -268,12 +268,6 @@ kotlin
 coroutines
 .
 CoroutineContext
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 open
 class
 MainActivity

@@ -484,9 +484,6 @@ component
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

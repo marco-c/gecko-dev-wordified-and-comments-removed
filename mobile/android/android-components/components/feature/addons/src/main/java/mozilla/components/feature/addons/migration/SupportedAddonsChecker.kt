@@ -547,9 +547,6 @@ available
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

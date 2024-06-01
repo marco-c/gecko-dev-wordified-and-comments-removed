@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-file
-:
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 package
 mozilla
 .

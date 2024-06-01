@@ -300,12 +300,6 @@ ons
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 AddonsFragment
 :

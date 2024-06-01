@@ -562,12 +562,6 @@ projects
 31
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 object
 WebExtensionSupport
 {

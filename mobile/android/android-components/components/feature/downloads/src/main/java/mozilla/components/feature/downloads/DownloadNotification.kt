@@ -379,9 +379,6 @@ Suppress
 "
 LargeClass
 "
-"
-TooManyFunctions
-"
 )
 internal
 object

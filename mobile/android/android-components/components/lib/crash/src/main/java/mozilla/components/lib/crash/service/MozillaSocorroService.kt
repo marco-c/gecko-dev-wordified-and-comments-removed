@@ -724,9 +724,6 @@ application
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 "

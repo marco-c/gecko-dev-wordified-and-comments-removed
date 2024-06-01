@@ -189,12 +189,6 @@ ACTIVE_THRESHOLD_MS
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 ManifestStorage
 (

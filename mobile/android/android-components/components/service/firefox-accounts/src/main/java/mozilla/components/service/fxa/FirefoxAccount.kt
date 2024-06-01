@@ -213,12 +213,6 @@ client
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 FirefoxAccount
 internal

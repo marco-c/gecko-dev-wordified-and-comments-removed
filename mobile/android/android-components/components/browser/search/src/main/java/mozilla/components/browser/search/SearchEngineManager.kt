@@ -204,12 +204,6 @@ engines
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 SearchEngineManager
 (

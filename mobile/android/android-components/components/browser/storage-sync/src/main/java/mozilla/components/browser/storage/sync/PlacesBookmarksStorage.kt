@@ -207,12 +207,6 @@ PlacesApi
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 open
 class
 PlacesBookmarksStorage

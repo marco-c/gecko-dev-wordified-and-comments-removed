@@ -194,12 +194,6 @@ library
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 class
 AutofillCreditCardsAddressesStorage
 (

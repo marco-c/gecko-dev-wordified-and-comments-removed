@@ -233,12 +233,6 @@ Observer
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 open
 class
 TabsAdapter

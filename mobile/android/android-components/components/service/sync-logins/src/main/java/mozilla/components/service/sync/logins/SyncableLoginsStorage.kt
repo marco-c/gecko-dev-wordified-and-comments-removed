@@ -855,12 +855,6 @@ FxaAccountManager
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 class
 SyncableLoginsStorage
 (

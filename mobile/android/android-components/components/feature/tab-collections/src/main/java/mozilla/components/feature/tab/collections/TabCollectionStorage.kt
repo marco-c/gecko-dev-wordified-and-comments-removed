@@ -250,12 +250,6 @@ collections
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 TabCollectionStorage
 (

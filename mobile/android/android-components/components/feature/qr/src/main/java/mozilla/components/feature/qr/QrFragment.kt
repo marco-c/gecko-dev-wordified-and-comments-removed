@@ -622,9 +622,6 @@ camera2basic
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

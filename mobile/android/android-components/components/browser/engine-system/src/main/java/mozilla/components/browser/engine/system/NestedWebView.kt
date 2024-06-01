@@ -244,12 +244,6 @@ in
 coordinatorlayout
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 NestedWebView
 (

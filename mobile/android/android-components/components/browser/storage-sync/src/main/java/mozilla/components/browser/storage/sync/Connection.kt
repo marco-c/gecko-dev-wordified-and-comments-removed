@@ -484,12 +484,6 @@ library
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 object
 RustPlacesConnection

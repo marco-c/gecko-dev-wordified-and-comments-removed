@@ -553,9 +553,6 @@ details
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LongParameterList
 "
 )

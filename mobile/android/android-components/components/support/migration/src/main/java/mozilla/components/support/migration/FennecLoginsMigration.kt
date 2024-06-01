@@ -1106,9 +1106,6 @@ Int
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

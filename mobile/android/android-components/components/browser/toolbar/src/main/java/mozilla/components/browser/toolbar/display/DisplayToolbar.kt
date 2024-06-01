@@ -752,9 +752,6 @@ Suppress
 "
 LargeClass
 "
-"
-TooManyFunctions
-"
 )
 class
 DisplayToolbar

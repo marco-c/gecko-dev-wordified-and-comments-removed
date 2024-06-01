@@ -198,12 +198,6 @@ kt
 L13
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 interface
 AutofillNodeNavigator
@@ -609,12 +603,6 @@ Build
 VERSION_CODES
 .
 O
-)
-Suppress
-(
-"
-TooManyFunctions
-"
 )
 internal
 class

@@ -92,12 +92,6 @@ VERSION_CODES
 .
 O
 )
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 class
 ParsedStructureBuilder

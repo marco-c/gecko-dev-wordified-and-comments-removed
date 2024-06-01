@@ -327,12 +327,6 @@ Evaluator
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 internal
 object
 EvaluatorHandlers

@@ -207,12 +207,6 @@ safe
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 open
 class
 ObserverRegistry

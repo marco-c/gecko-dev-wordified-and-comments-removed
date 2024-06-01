@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-file
-:
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 package
 mozilla
 .
@@ -1195,12 +1187,6 @@ otherwise
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 fun
 Context
 .

@@ -113,12 +113,6 @@ content
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 interface
 EngineView
 {

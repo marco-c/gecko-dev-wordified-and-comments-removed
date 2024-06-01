@@ -1491,9 +1491,6 @@ Suppress
 LargeClass
 "
 "
-TooManyFunctions
-"
-"
 LongParameterList
 "
 )
@@ -1654,12 +1651,6 @@ order
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 Builder
 (

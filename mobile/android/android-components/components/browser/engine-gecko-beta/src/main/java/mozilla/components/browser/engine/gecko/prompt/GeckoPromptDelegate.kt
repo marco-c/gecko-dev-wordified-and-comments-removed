@@ -524,12 +524,6 @@ implementation
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 class
 GeckoPromptDelegate

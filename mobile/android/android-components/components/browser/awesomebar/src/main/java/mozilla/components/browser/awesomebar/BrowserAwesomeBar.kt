@@ -254,9 +254,6 @@ implementation
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

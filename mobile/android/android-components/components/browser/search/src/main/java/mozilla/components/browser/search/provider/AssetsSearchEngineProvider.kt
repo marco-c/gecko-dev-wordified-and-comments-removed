@@ -334,9 +334,6 @@ xml
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

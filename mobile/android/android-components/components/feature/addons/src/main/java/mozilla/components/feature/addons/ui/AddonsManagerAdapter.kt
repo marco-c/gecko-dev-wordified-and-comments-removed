@@ -481,9 +481,6 @@ section
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

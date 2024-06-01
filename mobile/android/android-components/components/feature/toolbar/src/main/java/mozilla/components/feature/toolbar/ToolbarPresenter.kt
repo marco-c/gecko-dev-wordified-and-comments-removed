@@ -247,12 +247,6 @@ session
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 ToolbarPresenter
 (

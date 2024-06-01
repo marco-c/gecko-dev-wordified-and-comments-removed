@@ -670,12 +670,6 @@ IO
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 ShareDownloadFeature
 (

@@ -270,9 +270,6 @@ Suppress
 "
 LargeClass
 "
-"
-TooManyFunctions
-"
 )
 class
 CustomViewFinder

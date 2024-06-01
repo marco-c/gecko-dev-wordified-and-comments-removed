@@ -231,12 +231,6 @@ sessions
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 class
 RecentlyClosedTabsStorage

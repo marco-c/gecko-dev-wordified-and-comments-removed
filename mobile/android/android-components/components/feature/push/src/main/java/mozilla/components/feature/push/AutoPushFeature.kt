@@ -552,9 +552,6 @@ CrashReporting
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 "

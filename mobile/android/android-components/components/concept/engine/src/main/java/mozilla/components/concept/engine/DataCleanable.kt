@@ -84,12 +84,6 @@ behave
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 interface
 DataCleanable
 {

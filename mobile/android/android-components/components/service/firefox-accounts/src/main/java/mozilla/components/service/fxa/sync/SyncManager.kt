@@ -708,12 +708,6 @@ behave
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 internal
 abstract
 class

@@ -341,12 +341,6 @@ item
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 data
 class
 ContextMenuCandidate

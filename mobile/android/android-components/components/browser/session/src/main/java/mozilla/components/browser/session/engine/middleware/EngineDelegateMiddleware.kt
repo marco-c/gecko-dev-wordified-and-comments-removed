@@ -268,12 +268,6 @@ LoadUrlAction
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 class
 EngineDelegateMiddleware

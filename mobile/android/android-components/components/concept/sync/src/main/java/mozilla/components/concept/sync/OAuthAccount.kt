@@ -314,12 +314,6 @@ FirefoxAccount
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 interface
 OAuthAccount
 :

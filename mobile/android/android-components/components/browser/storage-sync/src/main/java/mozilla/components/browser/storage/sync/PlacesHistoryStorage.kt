@@ -306,12 +306,6 @@ PlacesApi
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 open
 class
 PlacesHistoryStorage

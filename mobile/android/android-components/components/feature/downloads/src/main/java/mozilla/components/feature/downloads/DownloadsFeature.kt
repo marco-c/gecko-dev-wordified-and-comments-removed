@@ -642,9 +642,6 @@ shown
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LongParameterList
 "
 "

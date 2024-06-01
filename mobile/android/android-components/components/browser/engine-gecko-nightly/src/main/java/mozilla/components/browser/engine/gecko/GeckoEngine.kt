@@ -713,9 +713,6 @@ interface
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

@@ -310,12 +310,6 @@ scrolling
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 BrowserToolbarBehavior
 (

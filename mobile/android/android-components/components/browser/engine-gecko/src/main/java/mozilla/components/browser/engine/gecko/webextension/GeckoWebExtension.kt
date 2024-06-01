@@ -319,12 +319,6 @@ GeckoView
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 GeckoWebExtension
 (

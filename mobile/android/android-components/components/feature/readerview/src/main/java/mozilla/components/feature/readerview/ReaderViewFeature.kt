@@ -476,12 +476,6 @@ changes
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 ReaderViewFeature
 (

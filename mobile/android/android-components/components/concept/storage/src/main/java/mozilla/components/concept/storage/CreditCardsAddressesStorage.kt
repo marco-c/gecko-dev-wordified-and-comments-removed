@@ -91,12 +91,6 @@ data
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 interface
 CreditCardsAddressesStorage
 {

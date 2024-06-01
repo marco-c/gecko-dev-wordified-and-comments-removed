@@ -368,12 +368,6 @@ dialog
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 class
 TimePickerDialogFragment

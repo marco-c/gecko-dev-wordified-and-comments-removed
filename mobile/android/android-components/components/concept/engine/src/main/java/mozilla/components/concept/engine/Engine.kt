@@ -221,12 +221,6 @@ implementation
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 interface
 Engine
 :

@@ -212,12 +212,6 @@ implementation
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 GeckoEngineView
 JvmOverloads

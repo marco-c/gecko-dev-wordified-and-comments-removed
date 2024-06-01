@@ -93,12 +93,6 @@ passwords
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 interface
 LoginsStorage
 :

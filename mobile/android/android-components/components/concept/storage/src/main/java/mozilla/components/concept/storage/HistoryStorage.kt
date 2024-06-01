@@ -82,12 +82,6 @@ data
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 interface
 HistoryStorage
 :

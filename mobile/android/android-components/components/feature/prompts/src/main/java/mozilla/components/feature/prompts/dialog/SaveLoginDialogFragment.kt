@@ -534,9 +534,6 @@ domain
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

@@ -238,12 +238,6 @@ HistoryStorage
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 class
 InMemoryHistoryStorage
 :

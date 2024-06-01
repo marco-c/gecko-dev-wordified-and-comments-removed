@@ -209,12 +209,6 @@ web
 extension
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 abstract
 class
 WebExtension

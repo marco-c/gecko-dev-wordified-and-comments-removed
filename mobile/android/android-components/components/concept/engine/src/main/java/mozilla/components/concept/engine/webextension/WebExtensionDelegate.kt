@@ -114,12 +114,6 @@ tab
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 interface
 WebExtensionDelegate
 {

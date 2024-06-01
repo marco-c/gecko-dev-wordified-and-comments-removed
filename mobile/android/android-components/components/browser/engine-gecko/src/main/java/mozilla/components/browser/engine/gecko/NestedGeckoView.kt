@@ -223,9 +223,6 @@ coordinatorlayout
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 ClickableViewAccessibility
 "
 )

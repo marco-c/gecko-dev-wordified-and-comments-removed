@@ -426,12 +426,6 @@ testability
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 internal
 class
 MediaSessionServiceDelegate

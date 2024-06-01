@@ -1050,9 +1050,6 @@ day
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

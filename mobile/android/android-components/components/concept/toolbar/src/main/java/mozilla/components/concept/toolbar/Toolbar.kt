@@ -200,12 +200,6 @@ functionality
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 interface
 Toolbar
 {

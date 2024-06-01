@@ -334,12 +334,6 @@ FirefoxAccount
 .
 *
 /
-SuppressWarnings
-(
-"
-TooManyFunctions
-"
-)
 class
 FxaDeviceConstellation
 (

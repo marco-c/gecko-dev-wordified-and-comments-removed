@@ -131,12 +131,6 @@ backend
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 DummyLoginsStorage
 :

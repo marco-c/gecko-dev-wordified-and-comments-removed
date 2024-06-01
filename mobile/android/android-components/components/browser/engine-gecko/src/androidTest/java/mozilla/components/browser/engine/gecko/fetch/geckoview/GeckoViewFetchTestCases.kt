@@ -135,12 +135,6 @@ junit
 .
 Test
 MediumTest
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 GeckoViewFetchTestCases
 :

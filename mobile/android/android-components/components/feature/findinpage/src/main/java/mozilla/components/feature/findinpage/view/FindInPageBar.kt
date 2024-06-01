@@ -227,12 +227,6 @@ FindInPageView
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 FindInPageBar
 JvmOverloads

@@ -362,9 +362,6 @@ sessions
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

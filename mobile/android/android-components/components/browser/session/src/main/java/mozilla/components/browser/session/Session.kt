@@ -383,9 +383,6 @@ observed
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LongParameterList
 "
 )

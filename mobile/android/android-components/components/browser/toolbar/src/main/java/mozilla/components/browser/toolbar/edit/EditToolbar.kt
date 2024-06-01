@@ -550,9 +550,6 @@ callback
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

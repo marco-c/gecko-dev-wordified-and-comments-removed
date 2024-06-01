@@ -148,12 +148,6 @@ code
 >
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 interface
 Observable
 <
@@ -715,12 +709,6 @@ separately
 Deprecated
 (
 OBSERVER_DEPRECATION_MESSAGE
-)
-Suppress
-(
-"
-TooManyFunctions
-"
 )
 interface
 DeprecatedObservable
