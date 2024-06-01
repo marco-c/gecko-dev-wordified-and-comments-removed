@@ -33,6 +33,7 @@ html
 mozilla
 -
 version
+redo
 taskcluster
 -
 taskgraph
