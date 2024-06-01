@@ -302,17 +302,6 @@ mozac_ic_extensions
 "
 android
 :
-tint
-=
-"
-android
-:
-color
-/
-black
-"
-android
-:
 importantForAccessibility
 =
 "
