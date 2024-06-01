@@ -155,7 +155,7 @@ freeCompilerArgs
 [
 "
 -
-Xopt
+opt
 -
 in
 =
@@ -167,7 +167,7 @@ FlowPreview
 "
 "
 -
-Xopt
+opt
 -
 in
 =

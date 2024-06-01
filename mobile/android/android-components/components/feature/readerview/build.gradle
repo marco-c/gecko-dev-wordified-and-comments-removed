@@ -173,7 +173,7 @@ freeCompilerArgs
 =
 "
 -
-Xopt
+opt
 -
 in
 =
