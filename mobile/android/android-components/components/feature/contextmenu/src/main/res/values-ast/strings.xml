@@ -324,10 +324,9 @@ mozac_feature_contextmenu_copy_image_location
 "
 >
 Copiar
-l
-\
-'
-allugamientu
+la
+llocalizaci
+n
 de
 la
 imaxe
@@ -615,7 +614,7 @@ l
 \
 '
 enllaz
-nun
+nuna
 aplicaci
 n
 esterna
@@ -658,6 +657,8 @@ n
 de
 corr
 u
+electr
+nicu
 <
 /
 string
