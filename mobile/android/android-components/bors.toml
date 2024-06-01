@@ -2,10 +2,9 @@ status
 =
 [
 "
-Taskcluster
-(
+complete
+-
 push
-)
 "
 ]
 block_labels
