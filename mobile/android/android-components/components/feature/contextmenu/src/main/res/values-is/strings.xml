@@ -159,12 +159,8 @@ name
 mozac_feature_contextmenu_download_link
 "
 >
-Tengill
-til
-a
-hala
-ni
-ur
+Ni
+urhalstengill
 <
 /
 string
@@ -495,9 +491,10 @@ name
 mozac_feature_contextmenu_snackbar_link_copied
 "
 >
-Afrita
-tengil
-klemmuspjald
+Tengill
+afrita
+ur
+klippispjald
 <
 /
 string
@@ -693,7 +690,7 @@ mozac_feature_contextmenu_snackbar_email_address_copied
 >
 T
 lvup
-sfang
+stfang
 afrita
 klippispjald
 <
