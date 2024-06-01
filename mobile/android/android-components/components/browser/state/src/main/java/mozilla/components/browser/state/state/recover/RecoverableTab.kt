@@ -282,6 +282,14 @@ was
 selected
 .
 *
+param
+private
+If
+tab
+was
+private
+.
+*
 /
 data
 class
@@ -322,6 +330,10 @@ val
 lastAccess
 :
 Long
+val
+private
+:
+Boolean
 )
 /
 *
@@ -379,4 +391,9 @@ readerState
 lastAccess
 =
 lastAccess
+private
+=
+content
+.
+private
 )

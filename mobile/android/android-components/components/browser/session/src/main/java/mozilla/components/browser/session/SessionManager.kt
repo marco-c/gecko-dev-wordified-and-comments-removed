@@ -1208,6 +1208,11 @@ contextId
 it
 .
 contextId
+private
+=
+it
+.
+private
 )
 .
 apply
