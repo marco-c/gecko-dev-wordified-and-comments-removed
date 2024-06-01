@@ -94,7 +94,7 @@ service
 /
 fxa
 /
-FxaException
+Exceptions
 .
 kt
 #
