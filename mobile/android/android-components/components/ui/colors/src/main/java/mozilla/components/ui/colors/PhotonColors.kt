@@ -270,6 +270,13 @@ Color
 0xff003706
 )
 val
+Red30
+=
+Color
+(
+0xffff848b
+)
+val
 Red50
 =
 Color
@@ -443,6 +450,13 @@ Orange90
 Color
 (
 0xff3e1300
+)
+val
+Ink10
+=
+Color
+(
+0xff342f6d
 )
 val
 Ink20
