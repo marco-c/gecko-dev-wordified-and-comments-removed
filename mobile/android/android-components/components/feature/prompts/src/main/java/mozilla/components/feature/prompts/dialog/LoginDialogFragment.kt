@@ -800,9 +800,13 @@ save_cancel
 .
 setOnClickListener
 {
-dialog
+feature
 ?
 .
+onCancel
+(
+sessionId
+)
 dismiss
 (
 )
