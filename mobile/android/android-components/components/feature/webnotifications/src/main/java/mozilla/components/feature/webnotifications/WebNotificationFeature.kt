@@ -214,6 +214,22 @@ generic
 .
 channel
 "
+private
+const
+val
+NOTIFICATION_TAG_ID
+=
+"
+mozac
+.
+feature
+.
+webnotifications
+.
+generic
+.
+tag
+"
 /
 *
 *
@@ -472,6 +488,7 @@ notificationManager
 .
 cancel
 (
+NOTIFICATION_TAG_ID
 it
 )
 }
@@ -516,6 +533,7 @@ notificationManager
 .
 notify
 (
+NOTIFICATION_TAG_ID
 notificationId
 notification
 )
@@ -545,6 +563,7 @@ notificationManager
 .
 cancel
 (
+NOTIFICATION_TAG_ID
 it
 )
 }
