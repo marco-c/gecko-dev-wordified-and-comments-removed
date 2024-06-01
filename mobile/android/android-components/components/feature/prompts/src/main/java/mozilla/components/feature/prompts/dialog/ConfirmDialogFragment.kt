@@ -87,6 +87,12 @@ Bundle
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 appcompat
 .
 app
@@ -185,7 +191,8 @@ PromptDialogFragment
 (
 )
 {
-private
+VisibleForTesting
+internal
 val
 positiveButtonText
 :
@@ -202,7 +209,8 @@ KEY_POSITIVE_BUTTON
 !
 !
 }
-private
+VisibleForTesting
+internal
 val
 negativeButtonText
 :
