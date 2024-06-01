@@ -619,6 +619,12 @@ java
 .
 lang
 .
+Exception
+import
+java
+.
+lang
+.
 IllegalStateException
 import
 kotlin
@@ -2057,6 +2063,12 @@ cancel
 )
 }
 }
+Suppress
+(
+"
+TooGenericExceptionCaught
+"
+)
 internal
 fun
 startDownloadJob
@@ -2077,7 +2089,7 @@ catch
 (
 e
 :
-IOException
+Exception
 )
 {
 setDownloadJobStatus

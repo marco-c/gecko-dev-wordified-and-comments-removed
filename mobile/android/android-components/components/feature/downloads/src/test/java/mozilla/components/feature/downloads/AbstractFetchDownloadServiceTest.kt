@@ -6242,7 +6242,8 @@ set
 to
 failed
 when
-IOException
+an
+Exception
 is
 thrown
 while
