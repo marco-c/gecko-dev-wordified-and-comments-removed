@@ -431,6 +431,8 @@ fun
 onLoggedOut
 (
 )
+=
+Unit
 /
 *
 *
@@ -461,6 +463,8 @@ account
 :
 OAuthAccount
 )
+=
+Unit
 /
 *
 *
@@ -496,6 +500,8 @@ profile
 :
 Profile
 )
+=
+Unit
 /
 *
 *
@@ -525,6 +531,8 @@ fun
 onAuthenticationProblems
 (
 )
+=
+Unit
 }
 data
 class
