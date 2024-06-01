@@ -140,7 +140,7 @@ Int
 Boolean
 {
 val
-changed
+result
 =
 super
 .
@@ -151,11 +151,6 @@ t
 r
 b
 )
-if
-(
-changed
-)
-{
 val
 matrix
 =
@@ -163,6 +158,14 @@ imageMatrix
 val
 scaleFactor
 =
+if
+(
+drawable
+!
+=
+null
+)
+{
 width
 /
 drawable
@@ -172,6 +175,11 @@ intrinsicWidth
 toFloat
 (
 )
+}
+else
+{
+1F
+}
 matrix
 .
 setScale
@@ -184,8 +192,7 @@ scaleFactor
 imageMatrix
 =
 matrix
-}
 return
-changed
+result
 }
 }
