@@ -513,7 +513,7 @@ ROOT
 )
 {
 "
-badge
+monochrome
 "
 -
 >
@@ -523,7 +523,7 @@ Icon
 .
 Purpose
 .
-BADGE
+MONOCHROME
 "
 maskable
 "

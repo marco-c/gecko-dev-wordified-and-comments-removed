@@ -668,7 +668,7 @@ decoders
 List
 of
 [
-IconDecoder
+ImageDecoder
 ]
 instances
 to

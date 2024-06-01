@@ -547,7 +547,6 @@ Boolean
 true
 )
 {
-VisibleForTesting
 internal
 val
 icons

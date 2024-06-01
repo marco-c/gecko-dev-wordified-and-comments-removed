@@ -553,6 +553,11 @@ sessionId
 !
 !
 manifest
+icons
+=
+components
+.
+icons
 )
 )
 }

@@ -511,7 +511,7 @@ Icon
 .
 Purpose
 .
-BADGE
+MONOCHROME
 )
 )
 )
@@ -998,7 +998,7 @@ Icon
 .
 Purpose
 .
-BADGE
+MONOCHROME
 )
 )
 )
@@ -1069,7 +1069,7 @@ Icon
 .
 Purpose
 .
-BADGE
+MONOCHROME
 )
 )
 )

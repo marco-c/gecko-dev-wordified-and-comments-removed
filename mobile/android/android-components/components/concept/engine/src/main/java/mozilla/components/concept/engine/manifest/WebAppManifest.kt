@@ -1199,7 +1199,7 @@ icon
 .
 *
 /
-BADGE
+MONOCHROME
 /
 *
 *
