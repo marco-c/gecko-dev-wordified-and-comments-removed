@@ -132,7 +132,7 @@ BrowserAction
 .
 kt
 #
-L300
+L306
 )
 Updates
 the

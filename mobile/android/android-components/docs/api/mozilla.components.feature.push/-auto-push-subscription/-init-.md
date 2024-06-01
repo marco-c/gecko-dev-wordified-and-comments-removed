@@ -70,10 +70,10 @@ gt
 ;
 AutoPushSubscription
 (
-type
+scope
 :
 [
-PushType
+PushScope
 ]
 (
 .
@@ -82,9 +82,7 @@ PushType
 -
 push
 -
-type
-/
-index
+scope
 .
 md
 )

@@ -141,5 +141,16 @@ Connection
 .
 kt
 #
-L37
+L83
 )
+Checks
+if
+the
+native
+Push
+API
+has
+already
+been
+initialized
+.
