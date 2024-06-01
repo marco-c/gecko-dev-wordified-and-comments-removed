@@ -1955,6 +1955,16 @@ mozac_feature_prompt_update_confirmation
 )
 )
 }
+else
+-
+>
+{
+/
+/
+no
+-
+op
+}
 }
 }
 validateStateUpdate
