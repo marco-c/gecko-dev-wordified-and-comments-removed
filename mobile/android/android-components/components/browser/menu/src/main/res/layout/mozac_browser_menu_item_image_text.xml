@@ -413,6 +413,13 @@ false
 "
 android
 :
+visibility
+=
+"
+gone
+"
+android
+:
 background
 =
 "

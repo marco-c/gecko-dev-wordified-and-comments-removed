@@ -494,6 +494,11 @@ with
 overflowView
 )
 {
+visibility
+=
+View
+.
+VISIBLE
 setTintResource
 (
 iconTintColorResource
