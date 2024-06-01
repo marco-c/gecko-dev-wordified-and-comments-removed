@@ -354,6 +354,14 @@ AndroidLogSink
 (
 )
 )
+components
+.
+crashReporter
+.
+install
+(
+this
+)
 if
 (
 !

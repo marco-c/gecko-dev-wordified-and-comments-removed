@@ -534,6 +534,16 @@ nearby
 implementation
 project
 (
+"
+:
+lib
+-
+crash
+"
+)
+implementation
+project
+(
 '
 :
 feature
