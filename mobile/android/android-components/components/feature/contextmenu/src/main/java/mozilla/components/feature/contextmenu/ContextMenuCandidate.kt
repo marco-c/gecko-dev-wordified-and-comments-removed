@@ -2052,6 +2052,11 @@ isLink
 isIntent
 (
 )
+|
+|
+isVideoAudio
+(
+)
 )
 {
 val
