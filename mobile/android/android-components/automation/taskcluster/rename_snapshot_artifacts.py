@@ -30,7 +30,7 @@ import
 re
 import
 sys
-AAR_EXTENSIONS
+ARTIFACT_EXTENSIONS
 =
 (
 '
@@ -44,6 +44,10 @@ pom
 '
 -
 sources
+.
+jar
+'
+'
 .
 jar
 '
@@ -450,7 +454,7 @@ part
 of
 the
 snapshot
-releae
+release
 but
     
 they
@@ -470,7 +474,7 @@ itertools
 .
 product
 (
-AAR_EXTENSIONS
+ARTIFACT_EXTENSIONS
 HASH_EXTENSIONS
 )
 :
