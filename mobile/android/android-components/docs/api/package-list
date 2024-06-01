@@ -5619,6 +5619,15 @@ components
 .
 feature
 .
+webcompat
+.
+reporter
+mozilla
+.
+components
+.
+feature
+.
 webnotifications
 mozilla
 .
