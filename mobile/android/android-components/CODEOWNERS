@@ -286,11 +286,6 @@ mozilla
 -
 mobile
 /
-releng
-mozilla
--
-mobile
-/
 act
 /
 taskcluster
