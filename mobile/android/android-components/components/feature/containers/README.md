@@ -18,7 +18,7 @@ README
 md
 )
 >
-Feaature
+Feature
 >
 Containers
 Feature
