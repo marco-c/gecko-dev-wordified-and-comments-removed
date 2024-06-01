@@ -87,7 +87,7 @@ focus
 .
 webkit
 .
-WebkitView
+SystemWebView
 ;
 public
 class
@@ -191,11 +191,11 @@ view
 )
 {
 final
-WebkitView
+SystemWebView
 webView
 =
 (
-WebkitView
+SystemWebView
 )
 view
 ;
