@@ -155,6 +155,10 @@ md
 LegacySessionManager
 (
 engine
+EngineSessionLinker
+(
+store
+)
 )
 )
 This

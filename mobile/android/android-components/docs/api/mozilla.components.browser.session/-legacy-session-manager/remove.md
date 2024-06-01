@@ -189,7 +189,7 @@ LegacySessionManager
 .
 kt
 #
-L319
+L322
 )
 Removes
 the

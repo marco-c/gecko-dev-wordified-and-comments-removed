@@ -124,7 +124,7 @@ LegacySessionManager
 .
 kt
 #
-L97
+L98
 )
 Gets
 the
