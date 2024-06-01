@@ -107,7 +107,7 @@ Pings
 .
 bookmarksSync
 .
-send
+submit
 (
 )
 }
@@ -196,7 +196,7 @@ SyncTelemetry
 .
 kt
 #
-L132
+L139
 )
 Processes
 a

@@ -107,7 +107,7 @@ Pings
 .
 loginsSync
 .
-send
+submit
 (
 )
 }
@@ -196,7 +196,7 @@ SyncTelemetry
 .
 kt
 #
-L80
+L84
 )
 Processes
 a

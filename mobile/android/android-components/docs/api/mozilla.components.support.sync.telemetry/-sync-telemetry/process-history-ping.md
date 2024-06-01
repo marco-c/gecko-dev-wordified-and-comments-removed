@@ -107,7 +107,7 @@ Pings
 .
 historySync
 .
-send
+submit
 (
 )
 }
@@ -196,7 +196,7 @@ SyncTelemetry
 .
 kt
 #
-L28
+L29
 )
 Processes
 a

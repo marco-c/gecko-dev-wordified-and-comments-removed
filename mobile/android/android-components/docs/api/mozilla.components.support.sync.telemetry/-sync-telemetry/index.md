@@ -103,7 +103,7 @@ SyncTelemetry
 .
 kt
 #
-L22
+L23
 )
 Contains
 functionality
@@ -198,7 +198,7 @@ Pings
 .
 bookmarksSync
 .
-send
+submit
 (
 )
 }
@@ -354,7 +354,7 @@ Pings
 .
 historySync
 .
-send
+submit
 (
 )
 }
@@ -510,7 +510,7 @@ Pings
 .
 loginsSync
 .
-send
+submit
 (
 )
 }
