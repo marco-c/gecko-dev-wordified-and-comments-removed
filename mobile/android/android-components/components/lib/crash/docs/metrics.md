@@ -295,6 +295,14 @@ li
 <
 li
 >
+caught_exception
+<
+/
+li
+>
+<
+li
+>
 native_code_crash
 <
 /
