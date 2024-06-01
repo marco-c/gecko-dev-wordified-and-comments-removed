@@ -2008,6 +2008,11 @@ openOptionsPageInTab
 it
 .
 openOptionsPageInTab
+baseUrl
+=
+it
+.
+baseUrl
 )
 }
 }
