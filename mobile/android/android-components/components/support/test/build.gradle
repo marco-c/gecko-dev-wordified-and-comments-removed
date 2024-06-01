@@ -210,6 +210,16 @@ apache
 maven
 '
 }
+implementation
+project
+(
+'
+:
+support
+-
+base
+'
+)
 testImplementation
 Dependencies
 .
