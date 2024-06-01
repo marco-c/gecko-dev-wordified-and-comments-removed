@@ -417,6 +417,16 @@ kotlin_coroutines
 testImplementation
 project
 (
+"
+:
+browser
+-
+session
+"
+)
+testImplementation
+project
+(
 '
 :
 support

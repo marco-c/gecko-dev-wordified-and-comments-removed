@@ -114,6 +114,13 @@ menu2
 browser
 -
 session
+:
+browser
+-
+session
+browser
+-
+session
 -
 storage
 :

@@ -267,7 +267,7 @@ feature
 .
 tabs
 .
-CustomTabsUseCases
+TabsUseCases
 import
 mozilla
 .
@@ -320,9 +320,9 @@ private
 val
 addNewTabUseCase
 :
-CustomTabsUseCases
+TabsUseCases
 .
-AddCustomTabUseCase
+AddNewTabUseCase
 packageManager
 :
 PackageManager

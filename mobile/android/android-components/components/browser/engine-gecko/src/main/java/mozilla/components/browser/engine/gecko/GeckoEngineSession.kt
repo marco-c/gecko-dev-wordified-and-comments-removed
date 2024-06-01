@@ -3355,6 +3355,12 @@ false
 )
 notifyObservers
 {
+MainScope
+(
+)
+.
+launch
+{
 onWindowRequest
 (
 GeckoWindowRequest
@@ -3363,6 +3369,7 @@ uri
 newEngineSession
 )
 )
+}
 }
 return
 GeckoResult

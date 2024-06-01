@@ -121,7 +121,7 @@ components
 .
 browser
 .
-state
+session
 .
 engine
 .
@@ -2308,6 +2308,11 @@ engine
 mock
 (
 )
+sessionLookup
+=
+{
+null
+}
 scope
 =
 scope

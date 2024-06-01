@@ -235,7 +235,7 @@ feature
 .
 tabs
 .
-CustomTabsUseCases
+TabsUseCases
 import
 mozilla
 .
@@ -275,9 +275,9 @@ private
 val
 addTabUseCase
 :
-CustomTabsUseCases
+TabsUseCases
 .
-AddWebAppTabUseCase
+AddNewTabUseCase
 private
 val
 loadUrlUseCase
@@ -616,6 +616,9 @@ invoke
 url
 =
 url
+selectTab
+=
+false
 source
 =
 Source

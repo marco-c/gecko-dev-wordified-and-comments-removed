@@ -503,7 +503,7 @@ findTab
 (
 action
 .
-tabId
+sessionId
 )
 ?
 .
@@ -910,7 +910,7 @@ UpdateReaderConnectRequiredAction
 (
 action
 .
-tabId
+sessionId
 true
 )
 )

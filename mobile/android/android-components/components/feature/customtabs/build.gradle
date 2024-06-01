@@ -338,6 +338,16 @@ libstate
 '
 )
 testImplementation
+project
+(
+'
+:
+browser
+-
+session
+'
+)
+testImplementation
 Dependencies
 .
 androidx_test_core

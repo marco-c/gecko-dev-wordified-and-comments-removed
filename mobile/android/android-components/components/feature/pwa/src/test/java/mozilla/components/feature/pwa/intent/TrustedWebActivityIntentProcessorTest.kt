@@ -217,7 +217,7 @@ feature
 .
 tabs
 .
-CustomTabsUseCases
+TabsUseCases
 import
 mozilla
 .
@@ -524,9 +524,9 @@ mock
 val
 addTabUseCase
 :
-CustomTabsUseCases
+TabsUseCases
 .
-AddCustomTabUseCase
+AddNewTabUseCase
 =
 mock
 (
