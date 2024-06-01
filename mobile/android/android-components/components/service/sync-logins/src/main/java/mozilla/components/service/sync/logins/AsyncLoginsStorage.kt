@@ -168,6 +168,12 @@ sync
 telemetry
 .
 SyncTelemetry
+import
+org
+.
+json
+.
+JSONObject
 /
 *
 *
@@ -2124,7 +2130,7 @@ ServerPassword
 :
 Deferred
 <
-Long
+JSONObject
 >
 }
 /
@@ -2636,7 +2642,7 @@ ServerPassword
 :
 Deferred
 <
-Long
+JSONObject
 >
 {
 return

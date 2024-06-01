@@ -4763,7 +4763,7 @@ migrationResult
 =
 account
 .
-migrateFromSessionTokenAsync
+copyFromSessionTokenAsync
 (
 via
 .
