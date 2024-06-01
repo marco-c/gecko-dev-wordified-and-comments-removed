@@ -170,6 +170,10 @@ implementation
 Dependencies
 .
 google_material
+implementation
+Dependencies
+.
+androidx_swiperefreshlayout
 testImplementation
 project
 (
