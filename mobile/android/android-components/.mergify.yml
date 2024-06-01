@@ -49,7 +49,7 @@ method
 rebase
 strict
 :
-true
+smart
 -
 name
 :
@@ -103,7 +103,7 @@ method
 rebase
 strict
 :
-true
+smart
 -
 name
 :
@@ -147,4 +147,4 @@ method
 rebase
 strict
 :
-true
+smart
