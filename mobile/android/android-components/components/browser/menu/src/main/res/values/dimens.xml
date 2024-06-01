@@ -330,7 +330,7 @@ name
 mozac_browser_menu_category_padding_start
 "
 >
-24dp
+16dp
 <
 /
 dimen
@@ -343,7 +343,7 @@ name
 mozac_browser_menu_category_padding_end
 "
 >
-24dp
+16dp
 <
 /
 dimen
