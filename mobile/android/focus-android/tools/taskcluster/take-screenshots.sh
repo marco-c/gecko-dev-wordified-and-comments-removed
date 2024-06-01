@@ -162,7 +162,13 @@ python
 /
 opt
 /
+focus
+-
+android
+/
 tools
+/
+taskcluster
 /
 screencap
 -
@@ -180,7 +186,13 @@ booting
 /
 opt
 /
+focus
+-
+android
+/
 tools
+/
+taskcluster
 /
 android
 -
