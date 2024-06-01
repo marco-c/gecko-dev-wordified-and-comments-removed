@@ -297,6 +297,18 @@ fxa
 .
 sync
 .
+SyncReason
+import
+mozilla
+.
+components
+.
+service
+.
+fxa
+.
+sync
+.
 SyncStatusObserver
 import
 mozilla
@@ -502,7 +514,7 @@ setOf
 (
 SyncEngine
 .
-PASSWORDS
+Passwords
 )
 )
 )
@@ -677,7 +689,7 @@ configureStore
 (
 SyncEngine
 .
-PASSWORDS
+Passwords
 to
 loginsStorage
 )
@@ -807,6 +819,9 @@ accountManager
 .
 syncNowAsync
 (
+SyncReason
+.
+User
 )
 }
 Suppress

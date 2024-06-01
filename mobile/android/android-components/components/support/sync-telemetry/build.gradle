@@ -180,6 +180,10 @@ Dependencies
 .
 mozilla_sync15
 testImplementation
+Dependencies
+.
+testing_robolectric
+testImplementation
 project
 (
 "
@@ -197,6 +201,10 @@ testImplementation
 Dependencies
 .
 androidx_test_junit
+testImplementation
+Dependencies
+.
+androidx_work_testing
 testImplementation
 Dependencies
 .

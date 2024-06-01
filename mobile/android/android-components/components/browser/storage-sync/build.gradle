@@ -451,10 +451,6 @@ testing_mockwebserver
 testImplementation
 Dependencies
 .
-androidx_work_testing
-testImplementation
-Dependencies
-.
 mozilla_full_megazord_forUnitTests
 }
 apply

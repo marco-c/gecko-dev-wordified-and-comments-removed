@@ -251,10 +251,6 @@ Date
 info
 .
 at
-.
-toLong
-(
-)
 *
 MILLIS_PER_SEC
 )
@@ -332,10 +328,6 @@ Date
 info
 .
 at
-.
-toLong
-(
-)
 *
 MILLIS_PER_SEC
 +
