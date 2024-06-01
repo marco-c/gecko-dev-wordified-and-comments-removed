@@ -37,7 +37,7 @@ version
 "
 :
 "
-101
+102
 .
 0
 .
@@ -474,6 +474,9 @@ permissions
 "
 :
 [
+"
+mozillaAddons
+"
 "
 tabs
 "
@@ -989,6 +992,13 @@ shims
 vmad
 .
 xml
+"
+"
+shims
+/
+webtrends
+.
+js
 "
 ]
 }
