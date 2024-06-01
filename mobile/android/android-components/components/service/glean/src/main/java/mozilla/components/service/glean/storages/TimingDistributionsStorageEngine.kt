@@ -191,14 +191,6 @@ lang
 .
 Math
 .
-log
-import
-java
-.
-lang
-.
-Math
-.
 pow
 import
 kotlin
@@ -762,7 +754,6 @@ truncated
 but
 otherwise
 we
-deal
 record
 and
 handle
