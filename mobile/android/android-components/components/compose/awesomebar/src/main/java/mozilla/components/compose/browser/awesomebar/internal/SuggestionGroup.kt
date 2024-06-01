@@ -188,7 +188,7 @@ padding
 (
 vertical
 =
-24
+12
 .
 dp
 horizontal
