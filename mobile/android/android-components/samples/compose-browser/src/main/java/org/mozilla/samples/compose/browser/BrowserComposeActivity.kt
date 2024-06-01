@@ -91,6 +91,14 @@ AppCompatActivity
 import
 androidx
 .
+compose
+.
+material
+.
+MaterialTheme
+import
+androidx
+.
 navigation
 .
 compose
@@ -207,6 +215,8 @@ navController
 rememberNavController
 (
 )
+MaterialTheme
+{
 NavHost
 (
 navController
@@ -233,6 +243,7 @@ ROUTE_SETTINGS
 SettingsScreen
 (
 )
+}
 }
 }
 }
