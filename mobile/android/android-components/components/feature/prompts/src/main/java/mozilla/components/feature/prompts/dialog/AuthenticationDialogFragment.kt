@@ -187,7 +187,7 @@ KEY_ONLY_SHOW_PASSWORD
 private
 const
 val
-KEY_SESSION_URL
+KEY_URL
 =
 "
 KEY_SESSION_URL
@@ -278,9 +278,10 @@ KEY_ONLY_SHOW_PASSWORD
 }
 private
 var
-sessionUrl
+url
 :
 String
+?
 get
 (
 )
@@ -289,9 +290,8 @@ safeArguments
 .
 getString
 (
-KEY_SESSION_URL
-"
-"
+KEY_URL
+null
 )
 set
 (
@@ -302,7 +302,7 @@ safeArguments
 .
 putString
 (
-KEY_SESSION_URL
+KEY_URL
 value
 )
 }
@@ -616,9 +616,9 @@ username
 )
 usernameEditText
 .
-sessionUrl
+url
 =
-sessionUrl
+url
 if
 (
 onlyShowPassword
@@ -766,9 +766,9 @@ password
 )
 passwordEditText
 .
-sessionUrl
+url
 =
-sessionUrl
+url
 passwordEditText
 .
 setText
@@ -965,6 +965,7 @@ Boolean
 url
 :
 String
+?
 )
 :
 AuthenticationDialogFragment
@@ -1023,7 +1024,7 @@ password
 )
 putString
 (
-KEY_SESSION_URL
+KEY_URL
 url
 )
 }

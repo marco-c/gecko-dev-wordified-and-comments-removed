@@ -141,12 +141,12 @@ AppCompatEditText
 {
 internal
 var
-sessionUrl
+url
 :
 String
+?
 =
-"
-"
+null
 constructor
 (
 context
@@ -221,6 +221,12 @@ Build
 VERSION_CODES
 .
 O
+&
+&
+url
+!
+=
+null
 )
 {
 structure
@@ -228,7 +234,7 @@ structure
 .
 setWebDomain
 (
-sessionUrl
+url
 )
 }
 super

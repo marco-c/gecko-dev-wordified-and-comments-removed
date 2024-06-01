@@ -503,7 +503,7 @@ assertEquals
 (
 usernameEditText
 .
-sessionUrl
+url
 "
 https
 :
@@ -531,7 +531,7 @@ assertEquals
 (
 passwordEditText
 .
-sessionUrl
+url
 "
 https
 :

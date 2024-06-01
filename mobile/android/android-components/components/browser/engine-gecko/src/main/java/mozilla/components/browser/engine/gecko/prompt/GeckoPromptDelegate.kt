@@ -1895,6 +1895,14 @@ message
 "
 "
 val
+uri
+=
+geckoPrompt
+.
+authOptions
+.
+uri
+val
 flags
 =
 geckoPrompt
@@ -2063,6 +2071,7 @@ PromptRequest
 .
 Authentication
 (
+uri
 title
 message
 userName

@@ -2343,6 +2343,7 @@ PromptRequest
 .
 Authentication
 (
+formattedUrl
 "
 "
 message
