@@ -427,7 +427,7 @@ recommendations
 .
 getpocket
 .
-dev
+com
 /
 "
 assertRequestParams
