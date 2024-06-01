@@ -384,7 +384,7 @@ android
 layout_marginTop
 =
 "
-16dp
+2dp
 "
 android
 :
@@ -405,7 +405,14 @@ android
 paddingTop
 =
 "
-4dp
+18dp
+"
+android
+:
+paddingBottom
+=
+"
+14dp
 "
 android
 :
@@ -501,7 +508,7 @@ android
 layout_marginTop
 =
 "
-16dp
+2dp
 "
 android
 :
@@ -584,7 +591,7 @@ android
 layout_marginTop
 =
 "
-16dp
+2dp
 "
 android
 :
