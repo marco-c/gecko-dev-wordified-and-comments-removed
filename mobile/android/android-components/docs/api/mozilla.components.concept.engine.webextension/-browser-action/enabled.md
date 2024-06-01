@@ -140,7 +140,7 @@ BrowserAction
 .
 kt
 #
-L23
+L22
 )
 Indicates
 if

@@ -180,7 +180,11 @@ md
 )
 |
 class
+~
+~
 StorageSync
+~
+~
 :
 [
 Observable

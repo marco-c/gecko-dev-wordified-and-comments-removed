@@ -415,7 +415,7 @@ WebExtensionSupport
 .
 kt
 #
-L42
+L65
 )
 Registers
 a

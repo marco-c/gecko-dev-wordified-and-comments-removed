@@ -2652,7 +2652,11 @@ md
 )
 |
 class
+~
+~
 StorageSync
+~
+~
 :
 [
 Observable

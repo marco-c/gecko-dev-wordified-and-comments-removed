@@ -165,10 +165,10 @@ md
 =
 {
 }
-onDownloadCompleted
+onDownloadStopped
 :
 [
-OnDownloadCompleted
+onDownloadStopped
 ]
 (
 .
@@ -187,12 +187,11 @@ downloads
 .
 manager
 /
--
 on
 -
 download
 -
-completed
+stopped
 .
 md
 )

@@ -142,7 +142,7 @@ BrowserAction
 .
 kt
 #
-L26
+L24
 )
 The
 browser
