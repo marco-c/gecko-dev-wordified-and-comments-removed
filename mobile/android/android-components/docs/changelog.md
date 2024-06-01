@@ -206,12 +206,6 @@ kt
 0
 .
 0
--
-SNAPSHOT
-(
-In
-Development
-)
 *
 [
 Commits
