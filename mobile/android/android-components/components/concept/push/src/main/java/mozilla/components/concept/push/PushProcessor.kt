@@ -320,7 +320,9 @@ You
 need
 to
 call
-initialize
+PushProcessor
+.
+install
 (
 )
 on
