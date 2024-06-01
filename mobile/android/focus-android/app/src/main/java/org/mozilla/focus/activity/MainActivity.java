@@ -263,6 +263,14 @@ layout
 activity_main
 )
 ;
+if
+(
+savedInstanceState
+=
+=
+null
+)
+{
 WebViewProvider
 .
 performCleanup
@@ -349,6 +357,7 @@ showHomeScreen
 (
 )
 ;
+}
 }
 }
 WebViewProvider
