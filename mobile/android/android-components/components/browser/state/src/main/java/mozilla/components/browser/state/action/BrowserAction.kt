@@ -6219,6 +6219,12 @@ val
 tabId
 :
 String
+val
+userInteraction
+:
+Boolean
+=
+true
 )
 :
 EngineAction
@@ -6252,6 +6258,12 @@ val
 tabId
 :
 String
+val
+userInteraction
+:
+Boolean
+=
+true
 )
 :
 EngineAction

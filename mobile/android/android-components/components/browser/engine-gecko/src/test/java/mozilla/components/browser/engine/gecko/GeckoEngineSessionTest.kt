@@ -3813,6 +3813,7 @@ geckoSession
 .
 goBack
 (
+true
 )
 }
 Test
@@ -3845,6 +3846,7 @@ geckoSession
 .
 goForward
 (
+true
 )
 }
 Test
@@ -15945,6 +15947,7 @@ geckoSession
 .
 goBack
 (
+true
 )
 fakePageLoad
 (
@@ -15971,6 +15974,7 @@ geckoSession
 .
 goForward
 (
+true
 )
 fakePageLoad
 (

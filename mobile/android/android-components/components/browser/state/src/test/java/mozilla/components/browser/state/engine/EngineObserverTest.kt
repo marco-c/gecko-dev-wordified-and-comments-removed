@@ -590,6 +590,9 @@ override
 fun
 goBack
 (
+userInteraction
+:
+Boolean
 )
 {
 }
@@ -597,6 +600,9 @@ override
 fun
 goForward
 (
+userInteraction
+:
+Boolean
 )
 {
 }
@@ -1001,6 +1007,9 @@ override
 fun
 goBack
 (
+userInteraction
+:
+Boolean
 )
 {
 }
@@ -1008,6 +1017,9 @@ override
 fun
 goForward
 (
+userInteraction
+:
+Boolean
 )
 {
 }
@@ -1359,6 +1371,9 @@ override
 fun
 goBack
 (
+userInteraction
+:
+Boolean
 )
 {
 }
@@ -1366,6 +1381,9 @@ override
 fun
 goForward
 (
+userInteraction
+:
+Boolean
 )
 {
 }

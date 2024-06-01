@@ -758,6 +758,9 @@ action
 .
 goBack
 (
+action
+.
+userInteraction
 )
 }
 private
@@ -791,6 +794,9 @@ action
 .
 goForward
 (
+action
+.
+userInteraction
 )
 }
 private

@@ -696,6 +696,9 @@ override
 fun
 goBack
 (
+userInteraction
+:
+Boolean
 )
 {
 webView
@@ -736,6 +739,9 @@ override
 fun
 goForward
 (
+userInteraction
+:
+Boolean
 )
 {
 webView
