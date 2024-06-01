@@ -1015,7 +1015,7 @@ testingMode
 {
 metricsPingScheduler
 .
-startupCheck
+schedule
 (
 )
 }
