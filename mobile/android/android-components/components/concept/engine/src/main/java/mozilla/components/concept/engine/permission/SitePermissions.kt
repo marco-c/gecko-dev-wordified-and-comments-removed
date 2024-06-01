@@ -201,6 +201,12 @@ Status
 =
 NO_DECISION
 val
+crossOriginStorageAccess
+:
+Status
+=
+NO_DECISION
+val
 savedAt
 :
 Long
@@ -527,6 +533,12 @@ MEDIA_KEY_SYSTEM_ACCESS
 -
 >
 mediaKeySystemAccess
+Permission
+.
+STORAGE_ACCESS
+-
+>
+crossOriginStorageAccess
 }
 }
 }

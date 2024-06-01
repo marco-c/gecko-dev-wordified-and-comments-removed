@@ -184,6 +184,9 @@ dev
 localStorage
 =
 ALLOWED
+crossOriginStorageAccess
+=
+BLOCKED
 location
 =
 BLOCKED
@@ -242,6 +245,13 @@ localStorage
 domainClass
 .
 localStorage
+)
+assertEquals
+(
+crossOriginStorageAccess
+domainClass
+.
+crossOriginStorageAccess
 )
 assertEquals
 (
@@ -335,6 +345,9 @@ dev
 localStorage
 =
 ALLOWED
+crossOriginStorageAccess
+=
+BLOCKED
 location
 =
 BLOCKED
@@ -393,6 +406,13 @@ localStorage
 domainClass
 .
 localStorage
+)
+assertEquals
+(
+crossOriginStorageAccess
+domainClass
+.
+crossOriginStorageAccess
 )
 assertEquals
 (

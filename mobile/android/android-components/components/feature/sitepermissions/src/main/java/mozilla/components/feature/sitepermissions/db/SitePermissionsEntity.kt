@@ -273,6 +273,20 @@ ColumnInfo
 name
 =
 "
+cross_origin_storage_access
+"
+)
+var
+crossOriginStorageAccess
+:
+SitePermissions
+.
+Status
+ColumnInfo
+(
+name
+=
+"
 saved_at
 "
 )
@@ -303,6 +317,7 @@ localStorage
 autoplayAudible
 autoplayInaudible
 mediaKeySystemAccess
+crossOriginStorageAccess
 savedAt
 )
 }
@@ -330,6 +345,7 @@ localStorage
 autoplayAudible
 autoplayInaudible
 mediaKeySystemAccess
+crossOriginStorageAccess
 savedAt
 )
 }

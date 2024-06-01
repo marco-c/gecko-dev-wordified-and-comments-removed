@@ -988,6 +988,9 @@ dev
 localStorage
 =
 ALLOWED
+crossOriginStorageAccess
+=
+ALLOWED
 location
 =
 BLOCKED
@@ -1030,6 +1033,9 @@ mozilla
 dev
 "
 localStorage
+=
+ALLOWED
+crossOriginStorageAccess
 =
 ALLOWED
 location

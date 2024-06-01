@@ -1201,6 +1201,13 @@ SitePermissionsRules
 Action
 .
 ASK_TO_ALLOW
+crossOriginStorageAccess
+=
+SitePermissionsRules
+.
+Action
+.
+ASK_TO_ALLOW
 )
 onNeedToRequestPermissions
 =

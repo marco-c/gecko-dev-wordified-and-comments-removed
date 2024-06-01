@@ -307,6 +307,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+feature
+-
+tabs
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
