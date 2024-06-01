@@ -2458,11 +2458,14 @@ description
 Custom
 Detekt
 rules
+for
+internal
+use
 .
 '
 publish
 :
-false
+true
 tooling
 -
 lint
