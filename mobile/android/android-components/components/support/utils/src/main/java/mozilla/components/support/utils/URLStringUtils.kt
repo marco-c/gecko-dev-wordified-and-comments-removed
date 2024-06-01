@@ -305,6 +305,16 @@ trimmedInput
 "
 )
 }
+else
+{
+uri
+=
+uri
+.
+normalizeScheme
+(
+)
+}
 return
 uri
 .

@@ -241,7 +241,7 @@ toNormalizedUrl
 assertEquals
 (
 "
-htTPs
+https
 :
 /
 /
@@ -270,7 +270,7 @@ toNormalizedUrl
 assertEquals
 (
 "
-HTTP
+http
 :
 /
 /
@@ -433,7 +433,7 @@ toNormalizedUrl
 assertEquals
 (
 "
-FTP
+ftp
 :
 /
 /

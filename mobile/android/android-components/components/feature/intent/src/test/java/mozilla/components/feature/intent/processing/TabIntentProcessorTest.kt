@@ -2228,7 +2228,7 @@ size
 assertEquals
 (
 "
-HTTPS
+https
 :
 /
 /

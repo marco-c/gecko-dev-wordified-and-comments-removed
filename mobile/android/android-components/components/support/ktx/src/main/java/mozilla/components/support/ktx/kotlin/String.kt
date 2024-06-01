@@ -462,9 +462,6 @@ http
 /
 /
 "
-ignoreCase
-=
-true
 )
 &
 &
@@ -479,9 +476,6 @@ https
 /
 /
 "
-ignoreCase
-=
-true
 )
 )
 {
