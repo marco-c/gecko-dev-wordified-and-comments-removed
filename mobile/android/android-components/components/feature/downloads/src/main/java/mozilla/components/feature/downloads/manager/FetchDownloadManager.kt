@@ -313,9 +313,9 @@ applicationContext
 )
 override
 var
-onDownloadCompleted
+onDownloadStopped
 :
-OnDownloadCompleted
+onDownloadStopped
 =
 noop
 )
@@ -678,7 +678,7 @@ complete
 .
 Calls
 [
-onDownloadCompleted
+onDownloadStopped
 ]
 and
 unregisters
@@ -747,7 +747,7 @@ download
 null
 )
 {
-onDownloadCompleted
+onDownloadStopped
 (
 download
 downloadID

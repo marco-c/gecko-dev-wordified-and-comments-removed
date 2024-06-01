@@ -518,7 +518,7 @@ downloadCompleted
 false
 downloadManager
 .
-onDownloadCompleted
+onDownloadStopped
 =
 {
 _
@@ -600,7 +600,7 @@ downloadCompleted
 false
 downloadManager
 .
-onDownloadCompleted
+onDownloadStopped
 =
 {
 _
@@ -748,7 +748,7 @@ valid
 downloadID
 must
 call
-onDownloadCompleted
+onDownloadStopped
 after
 download
 (
@@ -785,7 +785,7 @@ grantPermissions
 )
 downloadManager
 .
-onDownloadCompleted
+onDownloadStopped
 =
 {
 _

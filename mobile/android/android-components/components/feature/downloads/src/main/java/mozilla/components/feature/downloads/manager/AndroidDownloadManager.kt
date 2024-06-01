@@ -311,9 +311,9 @@ applicationContext
 Context
 override
 var
-onDownloadCompleted
+onDownloadStopped
 :
-OnDownloadCompleted
+onDownloadStopped
 =
 noop
 )
@@ -691,7 +691,7 @@ complete
 .
 Calls
 [
-onDownloadCompleted
+onDownloadStopped
 ]
 and
 unregisters
@@ -762,7 +762,7 @@ download
 null
 )
 {
-onDownloadCompleted
+onDownloadStopped
 (
 download
 .
@@ -857,7 +857,6 @@ DownloadUtils
 guessFileName
 (
 null
-destinationDirectory
 url
 contentType
 )

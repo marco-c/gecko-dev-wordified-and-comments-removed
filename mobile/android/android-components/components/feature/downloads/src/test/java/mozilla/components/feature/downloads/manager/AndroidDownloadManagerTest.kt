@@ -422,7 +422,7 @@ downloadCompleted
 false
 downloadManager
 .
-onDownloadCompleted
+onDownloadStopped
 =
 {
 _
@@ -474,7 +474,7 @@ downloadCompleted
 false
 downloadManager
 .
-onDownloadCompleted
+onDownloadStopped
 =
 {
 _
@@ -596,7 +596,7 @@ valid
 downloadID
 must
 call
-onDownloadCompleted
+onDownloadStopped
 after
 download
 (
@@ -651,7 +651,7 @@ choco
 !
 downloadManager
 .
-onDownloadCompleted
+onDownloadStopped
 =
 {
 _

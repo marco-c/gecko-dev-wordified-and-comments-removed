@@ -111,7 +111,7 @@ content
 .
 isPermissionGranted
 typealias
-OnDownloadCompleted
+onDownloadStopped
 =
 (
 DownloadState
@@ -134,9 +134,9 @@ Array
 String
 >
 var
-onDownloadCompleted
+onDownloadStopped
 :
-OnDownloadCompleted
+onDownloadStopped
 /
 *
 *
@@ -289,7 +289,7 @@ internal
 val
 noop
 :
-OnDownloadCompleted
+onDownloadStopped
 =
 {
 _

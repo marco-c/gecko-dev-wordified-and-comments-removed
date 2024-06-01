@@ -770,7 +770,7 @@ downloadsUseCases
 fragmentManager
 =
 childFragmentManager
-onDownloadCompleted
+onDownloadStopped
 =
 {
 download
