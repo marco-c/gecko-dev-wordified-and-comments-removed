@@ -1056,7 +1056,7 @@ R
 .
 drawable
 .
-background_home
+background_gradient
 )
 ;
 dismissView
