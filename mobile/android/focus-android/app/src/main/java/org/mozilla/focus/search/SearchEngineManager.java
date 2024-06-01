@@ -1109,6 +1109,10 @@ Context
 context
 )
 {
+invalidateSearchEngines
+(
+)
+;
 new
 Thread
 (
@@ -1126,10 +1130,6 @@ run
 (
 )
 {
-invalidateSearchEngines
-(
-)
-;
 loadFromDisk
 (
 context
@@ -2233,6 +2233,7 @@ commit
 ;
 }
 private
+synchronized
 void
 invalidateSearchEngines
 (
