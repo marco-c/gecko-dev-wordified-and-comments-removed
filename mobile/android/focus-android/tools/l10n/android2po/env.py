@@ -303,6 +303,22 @@ plural_rule
 '
 az
 '
+        
+'
+team
+'
+:
+'
+cak
+<
+LL
+li
+.
+org
+>
+\
+n
+'
     
 }
     
@@ -338,6 +354,22 @@ plural_rule
 '
 az
 '
+        
+'
+team
+'
+:
+'
+zam
+<
+LL
+li
+.
+org
+>
+\
+n
+'
     
 }
     
@@ -370,6 +402,22 @@ plural_rule
 :
 '
 az
+'
+        
+'
+team
+'
+:
+'
+trs
+<
+LL
+li
+.
+org
+>
+\
+n
 '
     
 }
@@ -411,6 +459,22 @@ plural_rule
 '
 id
 '
+        
+'
+team
+'
+:
+'
+meh
+<
+LL
+li
+.
+org
+>
+\
+n
+'
     
 }
     
@@ -446,6 +510,22 @@ plural_rule
 :
 '
 id
+'
+        
+'
+team
+'
+:
+'
+mix
+<
+LL
+li
+.
+org
+>
+\
+n
 '
     
 }
