@@ -193,6 +193,8 @@ fun
 testSavingAndLoadingDomains
 (
 )
+=
+runBlocking
 {
 CustomAutoComplete
 .
@@ -223,8 +225,6 @@ com
 val
 domains
 =
-runBlocking
-{
 CustomAutoComplete
 .
 loadCustomAutoCompleteDomains
@@ -233,7 +233,6 @@ RuntimeEnvironment
 .
 application
 )
-}
 assertEquals
 (
 3
