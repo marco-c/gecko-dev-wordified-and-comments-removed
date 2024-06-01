@@ -151,6 +151,11 @@ release
 '
 snapshot
 '
+'
+nightly
+-
+release
+'
 )
         
 if
