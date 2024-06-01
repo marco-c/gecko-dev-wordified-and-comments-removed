@@ -643,6 +643,16 @@ trackingProtectionIndicator
 .
 colorFilter
 )
+assertNotNull
+(
+displayToolbar
+.
+views
+.
+trackingProtectionIndicator
+.
+trackingProtectionTint
+)
 }
 Test
 fun

@@ -1604,6 +1604,16 @@ views
 .
 trackingProtectionIndicator
 .
+setTint
+(
+value
+.
+trackingProtection
+)
+views
+.
+trackingProtectionIndicator
+.
 setColorFilter
 (
 value
