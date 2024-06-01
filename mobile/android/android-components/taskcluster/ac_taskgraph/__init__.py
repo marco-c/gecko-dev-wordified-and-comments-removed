@@ -236,6 +236,24 @@ MOBILE_BASE_REV
 "
 )
     
+parameters
+[
+"
+head_ref
+"
+]
+=
+os
+.
+environ
+.
+get
+(
+"
+MOBILE_HEAD_REF
+"
+)
+    
 version
 =
 get_version
