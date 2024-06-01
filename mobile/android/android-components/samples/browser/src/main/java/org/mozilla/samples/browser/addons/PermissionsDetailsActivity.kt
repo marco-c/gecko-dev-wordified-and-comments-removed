@@ -141,7 +141,7 @@ feature
 .
 addons
 .
-AddOn
+Addon
 import
 org
 .
@@ -233,7 +233,7 @@ layout
 activity_add_on_permissions
 )
 val
-addOn
+addon
 =
 requireNotNull
 (
@@ -241,7 +241,7 @@ intent
 .
 getParcelableExtra
 <
-AddOn
+Addon
 >
 (
 "
@@ -251,7 +251,7 @@ add_on
 )
 title
 =
-addOn
+addon
 .
 translatableName
 .
@@ -260,7 +260,7 @@ translate
 )
 bindPermissions
 (
-addOn
+addon
 )
 bindLearnMore
 (
@@ -270,9 +270,9 @@ private
 fun
 bindPermissions
 (
-addOn
+addon
 :
-AddOn
+Addon
 )
 {
 val
@@ -300,7 +300,7 @@ this
 val
 sortedPermissions
 =
-addOn
+addon
 .
 translatePermissions
 (

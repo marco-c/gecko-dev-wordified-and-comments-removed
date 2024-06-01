@@ -143,7 +143,7 @@ Indicates
 if
 this
 [
-AddOn
+Addon
 ]
 is
 installed
@@ -160,7 +160,7 @@ Indicates
 if
 this
 [
-AddOn
+Addon
 ]
 is
 enabled
@@ -412,7 +412,7 @@ s
 Parcelize
 data
 class
-AddOn
+Addon
 (
 val
 id
@@ -702,7 +702,7 @@ item
 on
 the
 [
-AddOn
+Addon
 .
 permissions
 ]

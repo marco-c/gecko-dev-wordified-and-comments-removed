@@ -353,7 +353,7 @@ addons
 .
 amo
 .
-AddOnCollectionProvider
+AddonCollectionProvider
 import
 mozilla
 .
@@ -579,7 +579,7 @@ browser
 .
 addons
 .
-AddOnsActivity
+AddonsActivity
 import
 org
 .
@@ -914,11 +914,11 @@ java
 }
 }
 val
-addOnProvider
+addonProvider
 by
 lazy
 {
-AddOnCollectionProvider
+AddonCollectionProvider
 (
 applicationContext
 client
@@ -1271,7 +1271,7 @@ intent
 Intent
 (
 applicationContext
-AddOnsActivity
+AddonsActivity
 :
 :
 class

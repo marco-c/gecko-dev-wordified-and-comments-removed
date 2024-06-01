@@ -87,7 +87,7 @@ feature
 .
 addons
 .
-AddOn
+Addon
 import
 mozilla
 .
@@ -128,7 +128,7 @@ AndroidJUnit4
 class
 )
 class
-AddOnTest
+AddonTest
 {
 Test
 fun
@@ -147,9 +147,9 @@ category
 )
 {
 val
-addOn
+addon
 =
-AddOn
+Addon
 (
 id
 =
@@ -264,7 +264,7 @@ updatedAt
 val
 translatedPermissions
 =
-addOn
+addon
 .
 translatePermissions
 (

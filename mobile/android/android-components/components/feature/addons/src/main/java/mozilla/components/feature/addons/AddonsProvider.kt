@@ -84,7 +84,7 @@ behave
 *
 /
 interface
-AddOnsProvider
+AddonsProvider
 {
 /
 *
@@ -126,7 +126,7 @@ true
 /
 suspend
 fun
-getAvailableAddOns
+getAvailableAddons
 (
 allowCache
 :
@@ -137,6 +137,6 @@ true
 :
 List
 <
-AddOn
+Addon
 >
 }

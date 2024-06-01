@@ -519,7 +519,7 @@ name
 .
 addons
 .
-AddOnsActivity
+AddonsActivity
 "
 android
 :
@@ -563,7 +563,7 @@ name
 .
 addons
 .
-AddOnDetailsActivity
+AddonDetailsActivity
 "
 android
 :
@@ -586,7 +586,7 @@ name
 .
 addons
 .
-InstalledAddOnDetailsActivity
+InstalledAddonDetailsActivity
 "
 android
 :
@@ -605,7 +605,7 @@ parentActivityName
 .
 addons
 .
-AddOnsActivity
+AddonsActivity
 "
 android
 :
@@ -668,7 +668,7 @@ name
 .
 addons
 .
-AddOnSettingsActivity
+AddonSettingsActivity
 "
 android
 :

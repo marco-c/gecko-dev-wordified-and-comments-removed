@@ -159,7 +159,7 @@ feature
 .
 addons
 .
-AddOn
+Addon
 import
 org
 .
@@ -201,7 +201,7 @@ on
 *
 /
 class
-AddOnSettingsActivity
+AddonSettingsActivity
 :
 AppCompatActivity
 (
@@ -232,7 +232,7 @@ layout
 activity_add_on_settings
 )
 val
-addOn
+addon
 =
 requireNotNull
 (
@@ -240,7 +240,7 @@ intent
 .
 getParcelableExtra
 <
-AddOn
+Addon
 >
 (
 "
@@ -250,7 +250,7 @@ add_on
 )
 title
 =
-addOn
+addon
 .
 translatableName
 .
@@ -269,12 +269,12 @@ R
 .
 id
 .
-addOnSettingsContainer
-AddOnSettingsFragment
+addonSettingsContainer
+AddonSettingsFragment
 .
 create
 (
-addOn
+addon
 )
 )
 .
@@ -368,7 +368,7 @@ EngineView
 *
 /
 class
-AddOnSettingsFragment
+AddonSettingsFragment
 :
 Fragment
 (
@@ -377,9 +377,9 @@ Fragment
 private
 lateinit
 var
-addOn
+addon
 :
-AddOn
+Addon
 private
 lateinit
 var
@@ -414,7 +414,7 @@ Bundle
 View
 ?
 {
-addOn
+addon
 =
 requireNotNull
 (
@@ -517,7 +517,7 @@ onViewCreated
 view
 savedInstanceState
 )
-addOnSettingsEngineView
+addonSettingsEngineView
 .
 render
 (
@@ -537,7 +537,7 @@ engineSession
 .
 loadUrl
 (
-addOn
+addon
 .
 siteUrl
 )
@@ -575,7 +575,7 @@ object
 Create
 an
 [
-AddOnSettingsFragment
+AddonSettingsFragment
 ]
 with
 add_on
@@ -589,12 +589,12 @@ parameter
 fun
 create
 (
-addOn
+addon
 :
-AddOn
+Addon
 )
 =
-AddOnSettingsFragment
+AddonSettingsFragment
 (
 )
 .
@@ -613,7 +613,7 @@ putParcelable
 "
 add_on
 "
-addOn
+addon
 )
 }
 }

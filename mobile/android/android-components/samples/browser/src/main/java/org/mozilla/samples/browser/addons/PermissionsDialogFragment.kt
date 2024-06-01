@@ -310,7 +310,7 @@ arguments
 )
 internal
 val
-addOnId
+addonId
 get
 (
 )
@@ -740,7 +740,7 @@ onPositiveButtonClicked
 .
 invoke
 (
-addOnId
+addonId
 )
 dismiss
 (
@@ -957,7 +957,7 @@ object
 fun
 newInstance
 (
-addOnId
+addonId
 :
 String
 title
@@ -1028,7 +1028,7 @@ apply
 putString
 (
 KEY_ADD_ON_ID
-addOnId
+addonId
 )
 putString
 (

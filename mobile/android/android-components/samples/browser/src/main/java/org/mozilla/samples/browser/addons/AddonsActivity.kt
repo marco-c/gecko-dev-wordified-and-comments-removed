@@ -105,7 +105,7 @@ ons
 *
 /
 class
-AddOnsActivity
+AddonsActivity
 :
 AppCompatActivity
 (
@@ -158,7 +158,7 @@ R
 id
 .
 container
-AddOnsFragment
+AddonsFragment
 (
 )
 )
