@@ -117,3 +117,10 @@ code
 *
 .
 pyc
+#
+Infer
+output
+infer
+-
+out
+/
