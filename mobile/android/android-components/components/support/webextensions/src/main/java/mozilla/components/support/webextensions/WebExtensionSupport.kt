@@ -2298,5 +2298,8 @@ getMetadata
 ?
 .
 name
+isEnabled
+(
+)
 )
 }
