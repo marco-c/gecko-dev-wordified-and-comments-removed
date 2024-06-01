@@ -2310,6 +2310,16 @@ exists
 .
 *
 /
+Deprecated
+(
+"
+Read
+EngineSession
+from
+BrowserStore
+instead
+"
+)
 fun
 getEngineSession
 (
