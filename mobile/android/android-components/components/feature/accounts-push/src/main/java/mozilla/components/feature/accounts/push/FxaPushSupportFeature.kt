@@ -115,6 +115,12 @@ kotlinx
 .
 coroutines
 .
+GlobalScope
+import
+kotlinx
+.
+coroutines
+.
 launch
 import
 mozilla
@@ -1101,6 +1107,15 @@ components
 issues
 /
 8766
+GlobalScope
+.
+launch
+(
+Dispatchers
+.
+Main
+)
+{
 account
 .
 deviceConstellation
@@ -1113,6 +1128,7 @@ constellationObserver
 lifecycleOwner
 autoPause
 )
+}
 }
 override
 fun
