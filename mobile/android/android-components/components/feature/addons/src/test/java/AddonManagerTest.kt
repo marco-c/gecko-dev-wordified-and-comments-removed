@@ -479,6 +479,14 @@ org
 .
 mockito
 .
+ArgumentMatchers
+.
+anyLong
+import
+org
+.
+mockito
+.
 Mockito
 .
 never
@@ -625,6 +633,10 @@ getAvailableAddons
 (
 anyBoolean
 (
+)
+eq
+(
+null
 )
 )
 )
@@ -1471,6 +1483,9 @@ getAvailableAddons
 anyBoolean
 (
 )
+anyLong
+(
+)
 )
 )
 .
@@ -1688,6 +1703,10 @@ getAvailableAddons
 (
 anyBoolean
 (
+)
+eq
+(
+null
 )
 )
 )
@@ -1962,6 +1981,10 @@ getAvailableAddons
 (
 anyBoolean
 (
+)
+eq
+(
+null
 )
 )
 )
