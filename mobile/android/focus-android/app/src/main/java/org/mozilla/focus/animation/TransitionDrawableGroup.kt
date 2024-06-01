@@ -105,8 +105,8 @@ AnimatorSet
 class
 TransitionDrawableGroup
 (
-private
 vararg
+private
 val
 transitionDrawables
 :
