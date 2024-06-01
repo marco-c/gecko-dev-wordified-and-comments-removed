@@ -576,6 +576,14 @@ util
 concurrent
 .
 TimeUnit
+private
+const
+val
+DAY_IN_MINUTES
+=
+24
+*
+60L
 Suppress
 (
 "
@@ -844,9 +852,11 @@ lazy
 {
 AddOnCollectionProvider
 (
+applicationContext
 client
+maxCacheAgeInMinutes
 =
-client
+DAY_IN_MINUTES
 )
 }
 val
