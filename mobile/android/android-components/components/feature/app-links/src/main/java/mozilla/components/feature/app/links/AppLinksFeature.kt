@@ -390,6 +390,18 @@ AppLinksUseCases
 context
 launchInApp
 )
+private
+val
+failedToLaunchAction
+:
+(
+)
+-
+>
+Unit
+=
+{
+}
 )
 :
 LifecycleAwareFeature
@@ -450,6 +462,7 @@ useCases
 openAppLink
 (
 appIntent
+failedToLaunchAction
 )
 }
 if

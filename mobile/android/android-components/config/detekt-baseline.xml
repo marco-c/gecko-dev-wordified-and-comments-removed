@@ -4125,6 +4125,16 @@ appIntent
 :
 Intent
 ?
+failedToLaunchAction
+:
+(
+)
+-
+>
+Unit
+=
+{
+}
 )
 <
 /
