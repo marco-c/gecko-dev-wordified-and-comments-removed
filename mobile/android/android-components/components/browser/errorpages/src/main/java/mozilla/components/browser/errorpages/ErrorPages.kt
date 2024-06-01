@@ -291,9 +291,6 @@ errorType
 {
 ErrorType
 .
-ERROR_SECURITY_SSL
-ErrorType
-.
 ERROR_SECURITY_BAD_CERT
 -
 >
