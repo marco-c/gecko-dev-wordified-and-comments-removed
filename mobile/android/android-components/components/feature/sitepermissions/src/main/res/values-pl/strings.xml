@@ -88,7 +88,7 @@ udost
 pni
 obraz
 z
-kamery
+aparatu
 witrynie
 %
 1
@@ -214,7 +214,7 @@ udost
 pni
 obraz
 z
-kamery
+aparatu
 i
 d
 wi
@@ -303,8 +303,8 @@ name
 mozac_feature_sitepermissions_back_facing_camera2
 "
 >
-Tylna
-kamera
+Tylny
+aparat
 <
 /
 string
@@ -342,8 +342,8 @@ name
 mozac_feature_sitepermissions_selfie_camera2
 "
 >
-Przednia
-kamera
+Przedni
+aparat
 <
 /
 string
