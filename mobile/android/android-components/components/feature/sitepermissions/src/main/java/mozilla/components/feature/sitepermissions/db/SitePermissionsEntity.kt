@@ -257,6 +257,20 @@ ColumnInfo
 name
 =
 "
+media_key_system_access
+"
+)
+var
+mediaKeySystemAccess
+:
+SitePermissions
+.
+Status
+ColumnInfo
+(
+name
+=
+"
 saved_at
 "
 )
@@ -286,6 +300,7 @@ bluetooth
 localStorage
 autoplayAudible
 autoplayInaudible
+mediaKeySystemAccess
 savedAt
 )
 }
@@ -312,6 +327,7 @@ bluetooth
 localStorage
 autoplayAudible
 autoplayInaudible
+mediaKeySystemAccess
 savedAt
 )
 }

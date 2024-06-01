@@ -989,6 +989,13 @@ SitePermissionsRules
 Action
 .
 ASK_TO_ALLOW
+mediaKeySystemAccess
+=
+SitePermissionsRules
+.
+Action
+.
+ASK_TO_ALLOW
 )
 onNeedToRequestPermissions
 =

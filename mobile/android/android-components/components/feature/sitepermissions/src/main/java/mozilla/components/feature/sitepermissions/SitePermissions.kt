@@ -175,6 +175,12 @@ Status
 =
 NO_DECISION
 val
+mediaKeySystemAccess
+:
+Status
+=
+NO_DECISION
+val
 savedAt
 :
 Long
@@ -335,6 +341,12 @@ AUTOPLAY_INAUDIBLE
 -
 >
 autoplayInaudible
+Permission
+.
+MEDIA_KEY_SYSTEM_ACCESS
+-
+>
+mediaKeySystemAccess
 }
 }
 }

@@ -4499,6 +4499,13 @@ SitePermissionsRules
 Action
 .
 BLOCKED
+mediaKeySystemAccess
+=
+SitePermissionsRules
+.
+Action
+.
+ASK_TO_ALLOW
 )
 sitePermissionFeature
 .
@@ -4569,6 +4576,13 @@ BLOCKED
 sitePermissions
 .
 localStorage
+)
+assertEquals
+(
+NO_DECISION
+sitePermissions
+.
+mediaKeySystemAccess
 )
 }
 Test

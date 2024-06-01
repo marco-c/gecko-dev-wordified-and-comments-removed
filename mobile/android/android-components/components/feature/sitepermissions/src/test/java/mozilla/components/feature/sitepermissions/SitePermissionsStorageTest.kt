@@ -954,6 +954,9 @@ BLOCKED
 autoplayInaudible
 =
 NO_DECISION
+mediaKeySystemAccess
+=
+NO_DECISION
 savedAt
 =
 0
@@ -989,6 +992,9 @@ autoplayAudible
 =
 BLOCKED
 autoplayInaudible
+=
+NO_DECISION
+mediaKeySystemAccess
 =
 NO_DECISION
 savedAt
