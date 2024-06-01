@@ -723,6 +723,9 @@ Date
 Date
 (
 )
+"
+1
+"
 Type
 .
 DATE
@@ -753,6 +756,15 @@ type
 Type
 .
 DATE
+)
+assertEquals
+(
+"
+1
+"
+dateRequest
+.
+stepValue
 )
 assertNotNull
 (

@@ -4643,6 +4643,7 @@ initialDate
 minimumDate
 maximumDate
 selectionType
+stepValue
 )
 }
 }
