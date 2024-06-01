@@ -206,6 +206,17 @@ id
 webview
 )
 ;
+webView
+.
+getSettings
+(
+)
+.
+setJavaScriptEnabled
+(
+true
+)
+;
 final
 TrackingProtectionWebViewClient
 webViewClient
