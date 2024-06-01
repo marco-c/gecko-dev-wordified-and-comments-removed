@@ -196,6 +196,12 @@ Int
 ?
 =
 null
+val
+isPrivate
+:
+Boolean
+=
+false
 )
 {
 /

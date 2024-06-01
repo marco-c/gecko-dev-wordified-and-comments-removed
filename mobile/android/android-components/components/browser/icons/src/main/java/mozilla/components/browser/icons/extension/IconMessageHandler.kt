@@ -260,6 +260,9 @@ message
 .
 toIconRequest
 (
+session
+.
+private
 )
 ?
 .

@@ -203,6 +203,12 @@ null
 icon
 .
 shouldCacheOnDisk
+&
+&
+!
+request
+.
+isPrivate
 )
 {
 cache

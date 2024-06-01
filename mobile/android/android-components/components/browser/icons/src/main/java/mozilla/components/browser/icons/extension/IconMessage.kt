@@ -566,6 +566,9 @@ JSONObject
 .
 toIconRequest
 (
+isPrivate
+:
+Boolean
 )
 :
 IconRequest
@@ -586,6 +589,9 @@ url
 IconRequest
 (
 url
+isPrivate
+=
+isPrivate
 resources
 =
 getJSONArray
