@@ -7,9 +7,9 @@ BY
 glean_parser
 v6
 .
-1
-.
 2
+.
+1
 .
 DO
 NOT
@@ -8074,9 +8074,9 @@ BY
 glean_parser
 v6
 .
-1
-.
 2
+.
+1
 .
 DO
 NOT
