@@ -7707,6 +7707,8 @@ return
 FirefoxAccount
 (
 config
+null
+crashReporter
 )
 }
 VisibleForTesting

@@ -224,6 +224,10 @@ kotlin_stdlib
 implementation
 Dependencies
 .
+kotlin_coroutines
+implementation
+Dependencies
+.
 mozilla_sync15
 testImplementation
 Dependencies
