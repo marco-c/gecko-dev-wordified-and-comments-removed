@@ -1470,6 +1470,13 @@ resetTransition
 ;
 progressView
 .
+setProgress
+(
+0
+)
+;
+progressView
+.
 setVisibility
 (
 View
