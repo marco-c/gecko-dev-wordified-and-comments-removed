@@ -588,6 +588,15 @@ N
 /
 A
 "
+private
+val
+releaseChannel
+:
+String
+=
+BuildConfig
+.
+MOZ_UPDATE_CHANNEL
 )
 :
 CrashReporterService
@@ -1370,9 +1379,7 @@ boundary
 "
 ReleaseChannel
 "
-BuildConfig
-.
-MOZ_UPDATE_CHANNEL
+releaseChannel
 nameSet
 )
 sendPart
