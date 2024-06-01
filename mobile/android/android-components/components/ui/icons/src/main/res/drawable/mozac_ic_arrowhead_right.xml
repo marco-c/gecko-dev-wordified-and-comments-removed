@@ -129,6 +129,13 @@ viewportHeight
 "
 24
 "
+android
+:
+autoMirrored
+=
+"
+true
+"
 >
 <
 path
