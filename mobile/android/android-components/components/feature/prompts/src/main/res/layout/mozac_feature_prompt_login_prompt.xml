@@ -1030,10 +1030,9 @@ android
 backgroundTint
 =
 "
-?
-android
-:
-colorEdgeEffect
+color
+/
+button_state_list
 "
 android
 :
