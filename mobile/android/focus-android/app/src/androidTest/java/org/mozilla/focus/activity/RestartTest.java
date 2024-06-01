@@ -754,6 +754,13 @@ click
 (
 )
 ;
+dismissFocusBtn
+.
+waitUntilGone
+(
+waitingTime
+)
+;
 assertTrue
 (
 !
