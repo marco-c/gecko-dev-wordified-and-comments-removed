@@ -425,6 +425,15 @@ displayMode
 (
 )
 }
+awesomeBar
+.
+setOnEditSuggestionListener
+(
+toolbar
+:
+:
+setSearchTerms
+)
 }
 /
 *

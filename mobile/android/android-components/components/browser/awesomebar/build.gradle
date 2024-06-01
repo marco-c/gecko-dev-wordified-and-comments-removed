@@ -152,6 +152,16 @@ project
 (
 '
 :
+ui
+-
+icons
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 base
