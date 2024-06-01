@@ -234,7 +234,7 @@ mozac_browser_tabstray_icon
 )
 private
 val
-tabView
+titleView
 :
 TextView
 =
@@ -246,7 +246,7 @@ R
 .
 id
 .
-mozac_browser_tabstray_url
+mozac_browser_tabstray_title
 )
 private
 val
@@ -357,7 +357,7 @@ tab
 .
 url
 }
-tabView
+titleView
 .
 text
 =
@@ -395,7 +395,7 @@ if
 isSelected
 )
 {
-tabView
+titleView
 .
 setTextColor
 (
@@ -432,7 +432,7 @@ selectedItemTextColor
 }
 else
 {
-tabView
+titleView
 .
 setTextColor
 (

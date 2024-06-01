@@ -248,7 +248,7 @@ mozac_browser_tabstray_item
 null
 )
 val
-urlView
+titleView
 =
 view
 .
@@ -261,7 +261,7 @@ R
 .
 id
 .
-mozac_browser_tabstray_url
+mozac_browser_tabstray_title
 )
 val
 holder
@@ -277,7 +277,7 @@ assertEquals
 (
 "
 "
-urlView
+titleView
 .
 text
 )
@@ -328,7 +328,7 @@ mozilla
 .
 org
 "
-urlView
+titleView
 .
 text
 )
@@ -691,7 +691,7 @@ R
 .
 id
 .
-mozac_browser_tabstray_url
+mozac_browser_tabstray_title
 )
 holder
 .
@@ -829,7 +829,7 @@ R
 .
 id
 .
-mozac_browser_tabstray_url
+mozac_browser_tabstray_title
 )
 holder
 .
