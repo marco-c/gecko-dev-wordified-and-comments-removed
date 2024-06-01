@@ -585,6 +585,7 @@ SyncDispatcher
 .
 *
 /
+internal
 interface
 SyncDispatcher
 :

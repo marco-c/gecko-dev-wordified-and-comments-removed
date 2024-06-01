@@ -593,6 +593,7 @@ instance
 .
 *
 /
+internal
 object
 WorkersLiveDataObserver
 {
@@ -3574,6 +3575,7 @@ SYNC_LAST_SYNCED_KEY
 0
 )
 }
+internal
 fun
 setLastSynced
 (
@@ -3609,6 +3611,7 @@ apply
 (
 )
 }
+internal
 fun
 getSyncState
 (
@@ -3637,6 +3640,7 @@ SYNC_STATE_KEY
 null
 )
 }
+internal
 fun
 setSyncState
 (

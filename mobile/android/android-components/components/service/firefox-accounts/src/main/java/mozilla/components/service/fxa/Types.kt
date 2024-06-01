@@ -762,6 +762,7 @@ this
 displayName
 )
 }
+internal
 fun
 Device
 .

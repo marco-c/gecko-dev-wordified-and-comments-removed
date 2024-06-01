@@ -1925,6 +1925,7 @@ SignedInShareableAccount
 )
 )
 }
+internal
 class
 TestSyncDispatcher
 (
@@ -2048,6 +2049,7 @@ close
 )
 }
 }
+internal
 class
 TestSyncManager
 (
