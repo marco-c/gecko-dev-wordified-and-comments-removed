@@ -3266,7 +3266,7 @@ compositor
 in
 use
 .
-possible
+Possible
 values
 are
 "
@@ -3350,7 +3350,7 @@ seen
 in
 use
 .
-possible
+Possible
 values
 are
 "
