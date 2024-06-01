@@ -800,6 +800,9 @@ DownloadService
 :
 class
 )
+tabId
+=
+sessionId
 onNeedToRequestPermissions
 =
 {
