@@ -3059,6 +3059,14 @@ telemetry_identifiers
 li
 >
 <
+li
+>
+addons
+<
+/
+li
+>
+<
 /
 ul
 >
