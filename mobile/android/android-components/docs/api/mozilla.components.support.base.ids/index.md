@@ -62,13 +62,15 @@ Summary
 |
 |
 [
-NotificationIds
+SharedIdsHelper
 ]
 (
 -
-notification
+shared
 -
 ids
+-
+helper
 /
 index
 .
@@ -76,7 +78,7 @@ md
 )
 |
 object
-NotificationIds
+SharedIdsHelper
 <
 br
 >
