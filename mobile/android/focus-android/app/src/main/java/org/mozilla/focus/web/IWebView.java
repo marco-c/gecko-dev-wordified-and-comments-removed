@@ -42,6 +42,13 @@ String
 url
 )
 ;
+void
+onLinkLongPress
+(
+String
+url
+)
+;
 }
 void
 setCallback
