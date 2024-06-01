@@ -107,6 +107,9 @@ content
 title
 content
 .
+private
+content
+.
 icon
 content
 .
