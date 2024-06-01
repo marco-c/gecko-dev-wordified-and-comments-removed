@@ -3396,6 +3396,15 @@ Int
 1
 shl
 6
+const
+val
+ALLOW_JAVASCRIPT_URL
+:
+Int
+=
+1
+shl
+16
 internal
 const
 val
@@ -3414,6 +3423,8 @@ BYPASS_CLASSIFIER
 LOAD_FLAGS_FORCE_ALLOW_DATA_URI
 +
 LOAD_FLAGS_REPLACE_HISTORY
++
+ALLOW_JAVASCRIPT_URL
 fun
 all
 (
