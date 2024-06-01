@@ -628,6 +628,8 @@ sessionManager
 sessionUseCases
 sessionId
 fullScreenChanged
+=
+fullScreenChanged
 )
 {
 public
