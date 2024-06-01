@@ -672,6 +672,9 @@ manifest
 null
 )
 {
+emitPwaInstallFact
+(
+)
 buildWebAppShortcut
 (
 context
