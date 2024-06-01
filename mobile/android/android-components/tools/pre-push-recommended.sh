@@ -138,3 +138,5 @@ q
 ktlint
 \
 detekt
+\
+testToolsDir
