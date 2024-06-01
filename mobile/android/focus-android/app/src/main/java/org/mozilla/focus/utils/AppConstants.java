@@ -150,4 +150,14 @@ return
 true
 ;
 }
+public
+static
+final
+boolean
+FLAG_MANUAL_SEARCH_ENGINE
+=
+isDevBuild
+(
+)
+;
 }
