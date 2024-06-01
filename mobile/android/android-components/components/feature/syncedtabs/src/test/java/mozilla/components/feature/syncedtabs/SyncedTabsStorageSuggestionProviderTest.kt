@@ -99,6 +99,18 @@ storage
 .
 sync
 .
+SyncedDeviceTabs
+import
+mozilla
+.
+components
+.
+browser
+.
+storage
+.
+sync
+.
 Tab
 import
 mozilla
@@ -180,7 +192,6 @@ junit
 runner
 .
 RunWith
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4
@@ -196,7 +207,7 @@ lateinit
 var
 syncedTabs
 :
-SyncedTabsFeature
+SyncedTabsStorage
 Before
 fun
 setup
@@ -232,6 +243,8 @@ mock
 val
 deviceTabs1
 =
+SyncedDeviceTabs
+(
 Device
 (
 id
@@ -268,7 +281,6 @@ subscription
 =
 null
 )
-to
 listOf
 (
 Tab
@@ -396,9 +408,12 @@ tab
 2
 )
 )
+)
 val
 deviceTabs2
 =
+SyncedDeviceTabs
+(
 Device
 (
 id
@@ -435,7 +450,6 @@ subscription
 =
 null
 )
-to
 listOf
 (
 Tab
@@ -487,6 +501,7 @@ tab
 1
 )
 )
+)
 whenever
 (
 syncedTabs
@@ -498,7 +513,7 @@ getSyncedTabs
 .
 thenReturn
 (
-mapOf
+listOf
 (
 deviceTabs1
 deviceTabs2

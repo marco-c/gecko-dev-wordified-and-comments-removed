@@ -149,12 +149,11 @@ tabs
 based
 on
 [
-SyncedTabsFeature
+SyncedTabsStorage
 ]
 .
 *
 /
-ExperimentalCoroutinesApi
 class
 SyncedTabsStorageSuggestionProvider
 (
@@ -162,7 +161,7 @@ private
 val
 syncedTabs
 :
-SyncedTabsFeature
+SyncedTabsStorage
 private
 val
 loadUrlUseCase
