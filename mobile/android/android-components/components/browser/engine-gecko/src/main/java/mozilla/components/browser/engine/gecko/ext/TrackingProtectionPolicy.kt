@@ -198,6 +198,10 @@ cookiePolicy
 .
 id
 )
+cookiePurging
+(
+cookiePurging
+)
 safeBrowsing
 (
 safeBrowsingPolicy

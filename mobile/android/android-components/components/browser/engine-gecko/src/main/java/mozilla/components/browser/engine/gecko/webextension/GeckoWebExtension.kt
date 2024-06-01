@@ -1591,7 +1591,6 @@ GeckoNativeWebExtension
 ext
 .
 metaData
-?
 .
 optionsPageUrl
 ?
@@ -1863,7 +1862,6 @@ return
 nativeExtension
 .
 metaData
-?
 .
 let
 {
@@ -2003,12 +2001,8 @@ return
 nativeExtension
 .
 metaData
-?
 .
 enabled
-?
-:
-true
 }
 override
 fun
@@ -2027,12 +2021,8 @@ isBuiltIn
 nativeExtension
 .
 metaData
-?
 .
 allowedInPrivateBrowsing
-?
-:
-false
 }
 }
 /
