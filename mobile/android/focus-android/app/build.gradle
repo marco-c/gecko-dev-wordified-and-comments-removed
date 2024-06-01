@@ -99,7 +99,7 @@ configuration
 /
 /
 BUILD
-TYPES
+TYPE
 (
 debug
 beta
@@ -118,7 +118,7 @@ FLAVOR
 (
 webkit
 gecko
-(
+)
 buildTypes
 {
 release
