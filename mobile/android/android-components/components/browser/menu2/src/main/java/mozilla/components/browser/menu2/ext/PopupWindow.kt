@@ -136,6 +136,11 @@ Orientation
 ?
 =
 null
+forceOrientation
+:
+Boolean
+=
+false
 )
 {
 /
@@ -265,7 +270,12 @@ Orientation
 DOWN
 &
 &
+(
 fitsDown
+|
+|
+forceOrientation
+)
 -
 >
 showPopupWithDownOrientation
@@ -281,7 +291,12 @@ Orientation
 UP
 &
 &
+(
 fitsUp
+|
+|
+forceOrientation
+)
 -
 >
 showPopupWithUpOrientation

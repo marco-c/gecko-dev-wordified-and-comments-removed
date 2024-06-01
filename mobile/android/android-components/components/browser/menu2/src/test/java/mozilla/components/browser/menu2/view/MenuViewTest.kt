@@ -173,16 +173,6 @@ support
 .
 test
 .
-any
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 robolectric
 .
 testContext
@@ -457,9 +447,6 @@ menuView
 .
 scrollOnceToTheBottom
 (
-any
-(
-)
 )
 menuView
 .
@@ -490,9 +477,6 @@ menuView
 .
 scrollOnceToTheBottom
 (
-any
-(
-)
 )
 }
 Test
@@ -533,9 +517,6 @@ menuView
 .
 scrollOnceToTheBottom
 (
-any
-(
-)
 )
 menuView
 .
@@ -569,9 +550,6 @@ never
 .
 scrollOnceToTheBottom
 (
-any
-(
-)
 )
 }
 Test
