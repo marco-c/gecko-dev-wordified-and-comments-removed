@@ -4842,17 +4842,6 @@ webResponse
 .
 toResponse
 (
-isBlobUri
-=
-url
-.
-startsWith
-(
-"
-blob
-:
-"
-)
 )
 notifyObservers
 {
