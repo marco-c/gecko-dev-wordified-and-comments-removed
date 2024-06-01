@@ -5243,6 +5243,7 @@ profile
 .
 path
 )
+crashReporter
 )
 }
 catch
