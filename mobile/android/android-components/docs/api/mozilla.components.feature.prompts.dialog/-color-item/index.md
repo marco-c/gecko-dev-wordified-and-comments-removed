@@ -23,6 +23,8 @@ components
 feature
 .
 prompts
+.
+dialog
 ]
 (
 .
@@ -94,11 +96,13 @@ feature
 /
 prompts
 /
+dialog
+/
 BasicColorAdapter
 .
 kt
 #
-L35
+L36
 )
 Represents
 an

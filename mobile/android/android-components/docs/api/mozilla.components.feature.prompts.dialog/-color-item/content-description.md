@@ -23,6 +23,8 @@ components
 feature
 .
 prompts
+.
+dialog
 ]
 (
 .
@@ -134,11 +136,13 @@ feature
 /
 prompts
 /
+dialog
+/
 BasicColorAdapter
 .
 kt
 #
-L37
+L38
 )
 accessibility
 description

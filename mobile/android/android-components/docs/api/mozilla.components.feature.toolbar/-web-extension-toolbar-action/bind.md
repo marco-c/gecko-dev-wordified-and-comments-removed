@@ -145,7 +145,7 @@ WebExtensionToolbarAction
 .
 kt
 #
-L56
+L44
 )
 Overrides
 [

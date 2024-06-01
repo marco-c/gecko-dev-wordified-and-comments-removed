@@ -696,6 +696,9 @@ setOf
 "
 javascript
 "
+"
+about
+"
 )
 fragmentManager
 :

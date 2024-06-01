@@ -23,6 +23,8 @@ components
 feature
 .
 prompts
+.
+dialog
 ]
 (
 .
@@ -132,11 +134,13 @@ feature
 /
 prompts
 /
+dialog
+/
 BasicColorAdapter
 .
 kt
 #
-L38
+L39
 )
 if
 true
