@@ -135,7 +135,7 @@ sites
 .
 db
 .
-TopSiteEntity
+PinnedSiteEntity
 /
 *
 *
@@ -252,7 +252,7 @@ Boolean
 false
 )
 {
-TopSiteEntity
+PinnedSiteEntity
 (
 title
 =

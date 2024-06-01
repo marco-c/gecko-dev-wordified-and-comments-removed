@@ -93,7 +93,7 @@ sites
 .
 db
 .
-TopSiteEntity
+PinnedSiteEntity
 internal
 class
 TopSiteAdapter
@@ -102,7 +102,7 @@ internal
 val
 entity
 :
-TopSiteEntity
+PinnedSiteEntity
 )
 :
 TopSite

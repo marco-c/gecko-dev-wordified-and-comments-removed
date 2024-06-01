@@ -126,7 +126,7 @@ Database
 entities
 =
 [
-TopSiteEntity
+PinnedSiteEntity
 :
 :
 class

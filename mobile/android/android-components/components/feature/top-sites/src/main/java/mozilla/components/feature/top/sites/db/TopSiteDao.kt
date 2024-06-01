@@ -121,7 +121,7 @@ DAO
 for
 accessing
 [
-TopSiteEntity
+PinnedSiteEntity
 ]
 instances
 .
@@ -138,7 +138,7 @@ insertTopSite
 (
 site
 :
-TopSiteEntity
+PinnedSiteEntity
 )
 :
 Long
@@ -148,7 +148,7 @@ deleteTopSite
 (
 site
 :
-TopSiteEntity
+PinnedSiteEntity
 )
 Transaction
 Query
@@ -169,7 +169,7 @@ Flow
 <
 List
 <
-TopSiteEntity
+PinnedSiteEntity
 >
 >
 Transaction
@@ -192,6 +192,6 @@ DataSource
 Factory
 <
 Int
-TopSiteEntity
+PinnedSiteEntity
 >
 }

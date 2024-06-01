@@ -110,7 +110,7 @@ top_sites
 internal
 data
 class
-TopSiteEntity
+PinnedSiteEntity
 (
 PrimaryKey
 (

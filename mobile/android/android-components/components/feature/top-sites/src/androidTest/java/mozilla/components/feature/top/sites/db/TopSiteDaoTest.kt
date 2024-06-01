@@ -265,7 +265,7 @@ testAddingTopSite
 val
 topSite
 =
-TopSiteEntity
+PinnedSiteEntity
 (
 title
 =
@@ -369,7 +369,7 @@ testRemovingTopSite
 val
 topSite1
 =
-TopSiteEntity
+PinnedSiteEntity
 (
 title
 =
@@ -413,7 +413,7 @@ it
 val
 topSite2
 =
-TopSiteEntity
+PinnedSiteEntity
 (
 title
 =
