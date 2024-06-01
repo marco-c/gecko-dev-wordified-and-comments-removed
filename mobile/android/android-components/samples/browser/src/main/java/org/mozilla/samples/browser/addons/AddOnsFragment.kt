@@ -876,7 +876,7 @@ intent
 Intent
 (
 context
-AddOnDetailsActivity
+InstalledAddOnDetailsActivity
 :
 :
 class
