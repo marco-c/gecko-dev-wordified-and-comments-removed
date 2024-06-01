@@ -6997,6 +6997,9 @@ Set
 <
 String
 >
+entryPoint
+:
+String
 )
 :
 Deferred
@@ -7034,6 +7037,9 @@ Set
 <
 String
 >
+entryPoint
+:
+String
 )
 :
 Deferred
@@ -9204,6 +9210,9 @@ any
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -9894,6 +9903,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -10333,6 +10345,9 @@ anyString
 (
 )
 any
+(
+)
+anyString
 (
 )
 )
@@ -12290,6 +12305,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -12888,6 +12906,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -13401,6 +13422,9 @@ mockAccount
 beginOAuthFlowAsync
 (
 any
+(
+)
+anyString
 (
 )
 )
@@ -13927,6 +13951,9 @@ mockAccount
 beginOAuthFlowAsync
 (
 any
+(
+)
+anyString
 (
 )
 )
@@ -14583,6 +14610,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -15195,6 +15225,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -15225,6 +15258,9 @@ anyString
 (
 )
 any
+(
+)
+anyString
 (
 )
 )
@@ -15418,6 +15454,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -15440,6 +15479,9 @@ anyString
 (
 )
 any
+(
+)
+anyString
 (
 )
 )

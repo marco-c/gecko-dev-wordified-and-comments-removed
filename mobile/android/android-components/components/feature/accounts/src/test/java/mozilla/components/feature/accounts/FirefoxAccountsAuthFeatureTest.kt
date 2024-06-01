@@ -1680,6 +1680,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -1712,6 +1715,9 @@ anyString
 (
 )
 any
+(
+)
+anyString
 (
 )
 )
@@ -1887,6 +1893,9 @@ beginOAuthFlowAsync
 any
 (
 )
+anyString
+(
+)
 )
 )
 .
@@ -1909,6 +1918,9 @@ anyString
 (
 )
 any
+(
+)
+anyString
 (
 )
 )
