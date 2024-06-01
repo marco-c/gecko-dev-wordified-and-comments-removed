@@ -407,6 +407,11 @@ customSearchEngines
 emptyList
 (
 )
+hiddenSearchEngines
+=
+emptyList
+(
+)
 )
 )
 assertTrue
@@ -485,6 +490,11 @@ regionDefaultSearchEngineId
 default
 "
 customSearchEngines
+=
+emptyList
+(
+)
+hiddenSearchEngines
 =
 emptyList
 (
