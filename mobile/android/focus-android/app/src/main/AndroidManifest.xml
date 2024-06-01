@@ -493,6 +493,15 @@ activity
 .
 RightsActivity
 "
+android
+:
+label
+=
+"
+string
+/
+your_rights
+"
 /
 >
 <
