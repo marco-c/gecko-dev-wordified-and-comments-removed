@@ -230,13 +230,11 @@ public
 path
 :
 /
-build
+builds
 /
-android
--
-components
+worker
 /
-results
+artifacts
 type
 :
 directory
