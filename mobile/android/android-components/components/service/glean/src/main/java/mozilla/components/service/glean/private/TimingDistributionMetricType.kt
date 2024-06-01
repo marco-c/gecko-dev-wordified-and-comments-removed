@@ -628,6 +628,9 @@ TimingDistributionMetricType
 samples
 =
 samples
+timeUnit
+=
+timeUnit
 )
 }
 }
