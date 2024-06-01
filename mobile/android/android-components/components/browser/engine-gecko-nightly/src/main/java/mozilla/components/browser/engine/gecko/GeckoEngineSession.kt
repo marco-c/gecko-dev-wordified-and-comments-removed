@@ -4503,6 +4503,7 @@ HitResult
 AUDIO
 (
 it
+title
 )
 }
 GeckoSession
@@ -4524,6 +4525,7 @@ HitResult
 VIDEO
 (
 it
+title
 )
 }
 GeckoSession

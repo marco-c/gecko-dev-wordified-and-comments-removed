@@ -218,6 +218,13 @@ val
 src
 :
 String
+val
+title
+:
+String
+?
+=
+null
 )
 :
 HitResult
@@ -250,6 +257,13 @@ val
 src
 :
 String
+val
+title
+:
+String
+?
+=
+null
 )
 :
 HitResult
