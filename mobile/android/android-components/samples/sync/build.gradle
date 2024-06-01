@@ -252,5 +252,9 @@ httpurlconnection
 implementation
 Dependencies
 .
+kotlin_reflect
+implementation
+Dependencies
+.
 androidx_recyclerview
 }

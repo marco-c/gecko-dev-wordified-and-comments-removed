@@ -2617,7 +2617,7 @@ setOf
 (
 SyncEngine
 .
-History
+HISTORY
 )
 )
 )
@@ -2631,7 +2631,7 @@ setOf
 (
 SyncEngine
 .
-History
+HISTORY
 )
 manager
 .
@@ -2740,10 +2740,10 @@ setOf
 (
 SyncEngine
 .
-History
+HISTORY
 SyncEngine
 .
-Passwords
+PASSWORDS
 )
 60
 *
@@ -2760,10 +2760,10 @@ setOf
 (
 SyncEngine
 .
-History
+HISTORY
 SyncEngine
 .
-Passwords
+PASSWORDS
 )
 manager
 .
@@ -3183,7 +3183,7 @@ setOf
 (
 SyncEngine
 .
-History
+HISTORY
 )
 syncPeriodInMinutes
 =
@@ -3841,7 +3841,7 @@ setOf
 (
 SyncEngine
 .
-History
+HISTORY
 )
 )
 )

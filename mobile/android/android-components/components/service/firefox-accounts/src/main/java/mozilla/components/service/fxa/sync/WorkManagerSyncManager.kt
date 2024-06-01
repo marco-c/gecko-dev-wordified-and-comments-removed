@@ -223,16 +223,6 @@ mozilla
 .
 components
 .
-service
-.
-fxa
-.
-toNativeString
-import
-mozilla
-.
-components
-.
 support
 .
 base
@@ -1396,9 +1386,7 @@ map
 {
 it
 .
-toNativeString
-(
-)
+nativeName
 }
 .
 toTypedArray

@@ -346,7 +346,7 @@ storePair
 :
 Pair
 <
-String
+SyncEngine
 SyncableStore
 >
 )
@@ -356,12 +356,15 @@ stores
 storePair
 .
 first
+.
+nativeName
 ]
 =
 storePair
 .
 second
 }
+internal
 fun
 getStore
 (

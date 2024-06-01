@@ -577,6 +577,8 @@ launch
 openWebView
 (
 url
+.
+url
 )
 }
 }
@@ -620,6 +622,8 @@ let
 openTab
 (
 it
+.
+url
 )
 }
 }
@@ -657,6 +661,8 @@ let
 openWebView
 (
 it
+.
+url
 )
 }
 }
