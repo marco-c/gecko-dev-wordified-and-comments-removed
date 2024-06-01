@@ -12,13 +12,10 @@ TelemetryEnvironment
 :
 "
 {
-\
 "
 EscapedField
-\
 "
 :
-\
 "
 EscapedData
 \
@@ -27,7 +24,6 @@ n
 \
 \
 nfoo
-\
 "
 }
 "
