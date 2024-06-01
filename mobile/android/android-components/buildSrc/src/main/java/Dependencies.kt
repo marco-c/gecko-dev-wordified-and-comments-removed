@@ -271,9 +271,9 @@ val
 mozilla_appservices
 =
 "
-60
-.
 0
+.
+59
 .
 0
 "
@@ -282,11 +282,11 @@ val
 mozilla_glean
 =
 "
-29
+31
 .
-1
+0
 .
-1
+2
 "
 const
 val
