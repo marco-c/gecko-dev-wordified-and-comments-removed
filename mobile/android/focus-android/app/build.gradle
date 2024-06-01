@@ -3367,8 +3367,10 @@ project
 rootDir
 }
 /
-findbugs
+quality
 /
+findbugs
+-
 exclude
 .
 xml
