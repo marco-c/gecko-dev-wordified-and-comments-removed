@@ -140,6 +140,15 @@ md
 TabsAdapter
 (
 )
+layout
+:
+LayoutManager
+=
+GridLayoutManager
+(
+context
+2
+)
 )
 A
 customizable
