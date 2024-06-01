@@ -238,6 +238,7 @@ Suppress
 MagicNumber
 "
 )
+internal
 fun
 ByteArray
 .
