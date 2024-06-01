@@ -309,9 +309,9 @@ browser
 .
 storage
 .
-memory
+sync
 .
-InMemoryHistoryStorage
+PlacesHistoryStorage
 import
 mozilla
 .
@@ -907,8 +907,9 @@ lazyHistoryStorage
 =
 lazy
 {
-InMemoryHistoryStorage
+PlacesHistoryStorage
 (
+applicationContext
 )
 }
 val
