@@ -288,6 +288,8 @@ org
 mockito
 .
 ArgumentMatchers
+.
+anyBoolean
 import
 org
 .
@@ -4364,8 +4366,6 @@ setAllowedInPrivateBrowsing
 any
 (
 )
-ArgumentMatchers
-.
 anyBoolean
 (
 )
@@ -4451,8 +4451,6 @@ setAllowedInPrivateBrowsing
 any
 (
 )
-ArgumentMatchers
-.
 anyBoolean
 (
 )
