@@ -659,6 +659,16 @@ support
 ktx
 '
 )
+implementation
+project
+(
+'
+:
+support
+-
+webextensions
+'
+)
 geckoNightlyImplementation
 project
 (
