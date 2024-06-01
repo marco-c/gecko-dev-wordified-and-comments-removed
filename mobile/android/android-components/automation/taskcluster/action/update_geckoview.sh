@@ -385,7 +385,7 @@ sample
 -
 browser
 :
-assembleGeckoNightlyUniversal
+assembleGeckoNightly
 elif
 [
 "
@@ -433,7 +433,7 @@ sample
 -
 browser
 :
-assembleGeckoBetaUniversal
+assembleGeckoBeta
 elif
 [
 "
@@ -475,7 +475,7 @@ sample
 -
 browser
 :
-assembleGeckoReleaseArm
+assembleGeckoRelease
 else
 echo
 "
