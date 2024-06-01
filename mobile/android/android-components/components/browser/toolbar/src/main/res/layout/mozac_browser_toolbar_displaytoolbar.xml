@@ -944,7 +944,6 @@ app
 layout_constraintEnd_toStartOf
 =
 "
-+
 id
 /
 mozac_browser_toolbar_menu
@@ -987,9 +986,9 @@ components
 .
 browser
 .
-toolbar
+menu
 .
-display
+view
 .
 MenuButton
 android
