@@ -488,11 +488,6 @@ PackageManager
 .
 GET_RESOLVED_FILTER
 )
-?
-:
-emptyList
-(
-)
 }
 private
 fun

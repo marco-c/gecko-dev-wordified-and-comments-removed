@@ -2797,6 +2797,7 @@ we
 want
 .
 texture
+?
 .
 setDefaultBufferSize
 (

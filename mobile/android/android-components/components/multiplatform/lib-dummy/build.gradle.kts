@@ -219,7 +219,7 @@ android
 {
 compileSdkVersion
 (
-29
+30
 )
 sourceSets
 [
@@ -250,7 +250,7 @@ minSdkVersion
 )
 targetSdkVersion
 (
-29
+30
 )
 }
 }
