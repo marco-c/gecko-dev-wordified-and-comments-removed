@@ -113,6 +113,13 @@ android
 layout_height
 =
 "
+wrap_content
+"
+android
+:
+minHeight
+=
+"
 ?
 android
 :
@@ -155,6 +162,13 @@ match_parent
 android
 :
 layout_height
+=
+"
+wrap_content
+"
+android
+:
+minHeight
 =
 "
 ?
