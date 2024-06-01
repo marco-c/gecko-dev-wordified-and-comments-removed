@@ -208,7 +208,6 @@ observer
 =
 ConstellationObserver
 (
-context
 push
 verifier
 )
@@ -271,7 +270,6 @@ observer
 =
 ConstellationObserver
 (
-context
 push
 verifier
 )
@@ -359,7 +357,6 @@ observer
 =
 ConstellationObserver
 (
-context
 push
 verifier
 )
