@@ -275,14 +275,14 @@ android
 layout_width
 =
 "
-32dp
+48dp
 "
 android
 :
 layout_height
 =
 "
-32dp
+48dp
 "
 android
 :
@@ -704,7 +704,7 @@ contentDescription
 "
 string
 /
-mozac_feature_addons_install_addon_content_description
+install_add_on_content_description
 "
 android
 :

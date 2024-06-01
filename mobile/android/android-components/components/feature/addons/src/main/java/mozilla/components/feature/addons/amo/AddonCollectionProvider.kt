@@ -1090,7 +1090,7 @@ id
 getSafeString
 (
 "
-id
+guid
 "
 )
 authors

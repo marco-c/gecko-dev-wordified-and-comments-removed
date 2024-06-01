@@ -439,7 +439,10 @@ details
 assertEquals
 (
 "
-607454
+uBlock0
+raymondhill
+.
+net
 "
 addon
 .
