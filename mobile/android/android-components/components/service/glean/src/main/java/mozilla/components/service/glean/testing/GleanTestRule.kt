@@ -75,6 +75,12 @@ Context
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 work
 .
 testing
@@ -194,6 +200,14 @@ getApplicationContext
 *
 *
 /
+VisibleForTesting
+(
+otherwise
+=
+VisibleForTesting
+.
+NONE
+)
 class
 GleanTestRule
 (
