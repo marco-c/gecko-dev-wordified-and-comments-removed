@@ -318,6 +318,10 @@ implementation
 Dependencies
 .
 kotlin_stdlib
+implementation
+Dependencies
+.
+kotlin_coroutines
 /
 /
 We
