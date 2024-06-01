@@ -315,7 +315,7 @@ TabsFeature
 tabsTray
 components
 .
-sessionManager
+store
 components
 .
 tabsUseCases

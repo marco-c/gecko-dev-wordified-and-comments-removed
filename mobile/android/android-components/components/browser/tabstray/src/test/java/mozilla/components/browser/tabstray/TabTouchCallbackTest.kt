@@ -304,7 +304,7 @@ when
 (
 viewHolder
 .
-session
+tab
 )
 .
 thenReturn

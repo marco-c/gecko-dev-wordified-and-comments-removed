@@ -125,16 +125,6 @@ project
 (
 '
 :
-browser
--
-session
-'
-)
-implementation
-project
-(
-'
-:
 support
 -
 base
