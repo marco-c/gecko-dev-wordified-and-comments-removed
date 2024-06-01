@@ -229,9 +229,6 @@ mock
 mock
 (
 )
-mock
-(
-)
 )
 )
 assertNotEquals
@@ -334,9 +331,6 @@ mock
 store
 selectTabUseCase
 removeTabUseCase
-mock
-(
-)
 mock
 (
 )
@@ -438,9 +432,6 @@ mock
 store
 selectTabUseCase
 removeTabUseCase
-mock
-(
-)
 mock
 (
 )
@@ -542,9 +533,6 @@ mock
 store
 selectTabUseCase
 removeTabUseCase
-mock
-(
-)
 mock
 (
 )
@@ -675,9 +663,6 @@ mock
 store
 selectTabUseCase
 removeTabUseCase
-mock
-(
-)
 defaultTabsFilter
 =
 filter

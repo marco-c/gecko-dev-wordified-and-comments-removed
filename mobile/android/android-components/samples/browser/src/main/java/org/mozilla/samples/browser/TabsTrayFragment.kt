@@ -326,9 +326,6 @@ components
 tabsUseCases
 .
 removeTab
-components
-.
-thumbnailsUseCases
 closeTabsTray
 =
 :

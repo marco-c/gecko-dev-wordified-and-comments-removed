@@ -101,16 +101,6 @@ mozilla
 .
 components
 .
-browser
-.
-thumbnails
-.
-ThumbnailsUseCases
-import
-mozilla
-.
-components
-.
 concept
 .
 tabstray
@@ -228,12 +218,6 @@ removeTabUseCase
 TabsUseCases
 .
 RemoveTabUseCase
-thumbnailsUseCases
-:
-ThumbnailsUseCases
-?
-=
-null
 private
 val
 defaultTabsFilter
@@ -268,7 +252,6 @@ TabsTrayPresenter
 (
 tabsTray
 store
-thumbnailsUseCases
 defaultTabsFilter
 closeTabsTray
 )
