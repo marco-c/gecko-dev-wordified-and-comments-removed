@@ -106,7 +106,7 @@ UnsupportedAddonsAdapter
 .
 kt
 #
-L26
+L27
 )
 An
 adapter
@@ -263,7 +263,7 @@ index
 .
 md
 )
-unsupportedAddons
+addons
 :
 [
 List

@@ -275,7 +275,7 @@ AddonManager
 .
 kt
 #
-L146
+L173
 )
 Enables
 the

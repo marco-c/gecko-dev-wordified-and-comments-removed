@@ -123,7 +123,7 @@ index
 .
 md
 )
-unsupportedAddons
+addons
 :
 [
 List
