@@ -151,7 +151,7 @@ sites
 *
 /
 class
-TopSiteStorage
+PinnedSiteStorage
 (
 context
 :

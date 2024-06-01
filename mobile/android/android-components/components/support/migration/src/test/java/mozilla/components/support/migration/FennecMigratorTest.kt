@@ -343,7 +343,7 @@ top
 .
 sites
 .
-TopSiteStorage
+PinnedSiteStorage
 import
 mozilla
 .
@@ -1112,7 +1112,7 @@ topSiteStorage
 =
 mock
 <
-TopSiteStorage
+PinnedSiteStorage
 >
 (
 )
@@ -1745,7 +1745,7 @@ topSiteStorage
 =
 mock
 <
-TopSiteStorage
+PinnedSiteStorage
 >
 (
 )

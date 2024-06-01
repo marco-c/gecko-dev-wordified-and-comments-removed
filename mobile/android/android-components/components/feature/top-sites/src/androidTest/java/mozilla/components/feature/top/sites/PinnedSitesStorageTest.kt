@@ -265,7 +265,7 @@ LargeClass
 "
 )
 class
-TopSiteStorageTest
+PinnedSitesStorageTest
 {
 private
 lateinit
@@ -278,7 +278,7 @@ lateinit
 var
 storage
 :
-TopSiteStorage
+PinnedSiteStorage
 private
 lateinit
 var
@@ -362,7 +362,7 @@ build
 )
 storage
 =
-TopSiteStorage
+PinnedSiteStorage
 (
 context
 )
