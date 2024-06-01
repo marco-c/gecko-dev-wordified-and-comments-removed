@@ -981,6 +981,11 @@ sessionManager
 sessionId
 =
 sessionId
+storage
+=
+components
+.
+permissionStorage
 fragmentManager
 =
 requireFragmentManager

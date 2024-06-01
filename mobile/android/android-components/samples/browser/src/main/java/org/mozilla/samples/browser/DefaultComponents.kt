@@ -989,7 +989,6 @@ applicationContext
 engine
 )
 }
-private
 val
 permissionStorage
 by
