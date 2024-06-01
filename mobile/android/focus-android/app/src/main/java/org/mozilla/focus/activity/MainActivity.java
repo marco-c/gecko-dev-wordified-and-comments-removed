@@ -437,6 +437,7 @@ getInstance
 .
 loadCustomTabConfig
 (
+this
 intent
 )
 ;
@@ -700,6 +701,7 @@ getInstance
 .
 loadCustomTabConfig
 (
+this
 intent
 )
 ;
