@@ -88,7 +88,6 @@ name
 mozac_feature_autofill_popup_unlock_application
 "
 >
-Desbloquear
 %
 1
 s
@@ -161,10 +160,6 @@ mozac_feature_autofill_popup_no_username
 "
 >
 (
-Sem
-nome
-de
-utilizador
 )
 <
 /
@@ -219,10 +214,6 @@ name
 mozac_feature_autofill_popup_password
 "
 >
-Palavra
--
-passe
-para
 %
 1
 s
