@@ -443,6 +443,9 @@ false
 mock
 (
 )
+privateBrowsing
+=
+false
 )
 Before
 fun
@@ -742,6 +745,9 @@ any
 anyBoolean
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -912,6 +918,9 @@ any
 anyBoolean
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -1009,6 +1018,9 @@ mock
 (
 )
 triggeredByWebExtension
+=
+true
+privateBrowsing
 =
 true
 )

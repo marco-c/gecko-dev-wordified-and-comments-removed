@@ -388,6 +388,9 @@ mock
 (
 )
 0
+privateBrowsing
+=
+false
 )
 private
 lateinit

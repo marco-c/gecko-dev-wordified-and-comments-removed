@@ -617,6 +617,11 @@ sitePermissionsStorage
 findSitePermissionsBy
 (
 origin
+private
+=
+webNotification
+.
+privateBrowsing
 )
 ?
 :
