@@ -237,9 +237,6 @@ context
 mock
 (
 )
-mock
-(
-)
 "
 session
 -
@@ -307,9 +304,6 @@ feature
 WebAppSiteControlsFeature
 (
 context
-mock
-(
-)
 mock
 (
 )
