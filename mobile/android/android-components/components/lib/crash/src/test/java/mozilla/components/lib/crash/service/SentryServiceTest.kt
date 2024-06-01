@@ -717,7 +717,7 @@ Test
 fun
 SentryService
 sends
-message
+event
 for
 native
 code
@@ -807,9 +807,12 @@ verify
 client
 )
 .
-sendMessage
+sendEvent
 (
 any
+<
+EventBuilder
+>
 (
 )
 )
@@ -820,7 +823,7 @@ SentryService
 does
 not
 send
-message
+event
 for
 native
 code
@@ -912,9 +915,12 @@ never
 )
 )
 .
-sendMessage
+sendEvent
 (
 any
+<
+EventBuilder
+>
 (
 )
 )

@@ -408,6 +408,9 @@ Crash
 .
 UncaughtExceptionCrash
 )
+:
+String
+?
 {
 fail
 (
@@ -421,6 +424,8 @@ exception
 crash
 "
 )
+return
+null
 }
 override
 fun
@@ -432,10 +437,15 @@ Crash
 .
 NativeCodeCrash
 )
+:
+String
+?
 {
 caughtCrash
 =
 crash
+return
+null
 }
 override
 fun
@@ -445,6 +455,9 @@ throwable
 :
 Throwable
 )
+:
+String
+?
 {
 fail
 (
@@ -457,6 +470,8 @@ caught
 exception
 "
 )
+return
+null
 }
 }
 )

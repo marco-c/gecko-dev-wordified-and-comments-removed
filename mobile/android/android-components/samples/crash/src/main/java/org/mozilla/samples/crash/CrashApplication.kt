@@ -414,6 +414,9 @@ Crash
 .
 UncaughtExceptionCrash
 )
+:
+String
+?
 {
 GlobalScope
 .
@@ -447,6 +450,8 @@ show
 (
 )
 }
+return
+null
 }
 override
 fun
@@ -458,6 +463,9 @@ Crash
 .
 NativeCodeCrash
 )
+:
+String
+?
 {
 GlobalScope
 .
@@ -490,6 +498,8 @@ show
 (
 )
 }
+return
+null
 }
 override
 fun
@@ -499,6 +509,9 @@ throwable
 :
 Throwable
 )
+:
+String
+?
 {
 GlobalScope
 .
@@ -531,6 +544,8 @@ show
 (
 )
 }
+return
+null
 }
 }
 }
