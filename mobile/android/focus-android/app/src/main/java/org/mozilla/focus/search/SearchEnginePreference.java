@@ -291,11 +291,7 @@ builder
 .
 setNegativeButton
 (
-R
-.
-string
-.
-action_cancel
+null
 this
 )
 ;
