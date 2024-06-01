@@ -237,7 +237,7 @@ autoplayAudible
 :
 SitePermissions
 .
-Status
+AutoplayStatus
 ColumnInfo
 (
 name
@@ -251,7 +251,7 @@ autoplayInaudible
 :
 SitePermissions
 .
-Status
+AutoplayStatus
 ColumnInfo
 (
 name

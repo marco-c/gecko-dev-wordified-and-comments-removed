@@ -831,6 +831,10 @@ putIfAllowed
 (
 AUTOPLAY_AUDIBLE
 autoplayAudible
+.
+toStatus
+(
+)
 permission
 )
 map
@@ -839,6 +843,10 @@ putIfAllowed
 (
 AUTOPLAY_INAUDIBLE
 autoplayInaudible
+.
+toStatus
+(
+)
 permission
 )
 map

@@ -68,6 +68,20 @@ state
 state
 .
 content
+import
+android
+.
+os
+.
+Parcelable
+import
+kotlinx
+.
+android
+.
+parcel
+.
+Parcelize
 /
 *
 *
@@ -110,6 +124,7 @@ playing
 .
 *
 /
+Parcelize
 data
 class
 PermissionHighlightsState
@@ -121,3 +136,5 @@ Boolean
 =
 false
 )
+:
+Parcelable
