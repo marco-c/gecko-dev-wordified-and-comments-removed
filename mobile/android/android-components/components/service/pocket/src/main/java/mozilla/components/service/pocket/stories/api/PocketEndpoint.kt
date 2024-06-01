@@ -143,6 +143,8 @@ PocketEndpoint
 internal
 constructor
 (
+get
+:
 VisibleForTesting
 internal
 val

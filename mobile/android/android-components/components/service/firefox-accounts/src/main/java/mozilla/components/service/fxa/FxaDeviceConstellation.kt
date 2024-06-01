@@ -351,6 +351,8 @@ val
 scope
 :
 CoroutineScope
+get
+:
 VisibleForTesting
 internal
 val

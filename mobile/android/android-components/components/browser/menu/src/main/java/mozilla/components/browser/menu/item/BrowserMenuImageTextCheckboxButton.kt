@@ -398,6 +398,8 @@ textColorResource
 Int
 =
 NO_ID
+get
+:
 VisibleForTesting
 internal
 val

@@ -153,6 +153,8 @@ GeckoSelectionActionDelegate
 activity
 :
 Activity
+get
+:
 VisibleForTesting
 (
 otherwise

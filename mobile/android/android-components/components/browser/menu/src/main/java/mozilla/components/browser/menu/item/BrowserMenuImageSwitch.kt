@@ -263,6 +263,8 @@ LongParameterList
 class
 BrowserMenuImageSwitch
 (
+get
+:
 VisibleForTesting
 (
 otherwise

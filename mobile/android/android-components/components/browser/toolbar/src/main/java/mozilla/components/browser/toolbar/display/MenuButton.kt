@@ -146,6 +146,8 @@ internal
 class
 MenuButton
 (
+get
+:
 VisibleForTesting
 internal
 val

@@ -463,12 +463,16 @@ class
 SpeculativeEngineSession
 constructor
 (
+get
+:
 VisibleForTesting
 internal
 val
 engineSession
 :
 GeckoEngineSession
+get
+:
 VisibleForTesting
 internal
 val

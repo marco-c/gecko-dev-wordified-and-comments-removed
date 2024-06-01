@@ -661,6 +661,8 @@ val
 store
 :
 BrowserStore
+get
+:
 VisibleForTesting
 (
 otherwise

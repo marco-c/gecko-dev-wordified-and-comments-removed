@@ -791,6 +791,8 @@ vendor
 String
 =
 DEFAULT_VENDOR
+get
+:
 VisibleForTesting
 (
 otherwise

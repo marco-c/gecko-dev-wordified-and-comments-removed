@@ -180,6 +180,8 @@ PocketEndpointRaw
 internal
 constructor
 (
+get
+:
 VisibleForTesting
 internal
 val
