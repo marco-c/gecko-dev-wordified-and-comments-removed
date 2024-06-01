@@ -188,11 +188,6 @@ openHomescreenShortcutEvent
 break
 ;
 case
-USER_ENTERED
-:
-break
-;
-case
 CUSTOM_TAB
 :
 TelemetryWrapper
@@ -210,6 +205,14 @@ getOptionsList
 )
 )
 ;
+break
+;
+case
+USER_ENTERED
+:
+case
+MENU
+:
 break
 ;
 default
