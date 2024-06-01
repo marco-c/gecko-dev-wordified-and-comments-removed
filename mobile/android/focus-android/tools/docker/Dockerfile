@@ -1096,6 +1096,10 @@ git
 #
 Build
 project
+and
+run
+gradle
+tasks
 once
 to
 pull
@@ -1113,6 +1117,11 @@ RUN
 /
 gradlew
 assemble
+testFocusWebviewDebugUnitTest
+lint
+pmd
+checkstyle
+findbugs
 #
 -
 -
