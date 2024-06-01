@@ -345,8 +345,6 @@ browser
 2
 .
 0
--
-alpha07
 "
 const
 val
