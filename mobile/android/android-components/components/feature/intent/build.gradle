@@ -219,16 +219,6 @@ project
 (
 '
 :
-browser
--
-search
-'
-)
-testImplementation
-project
-(
-'
-:
 support
 -
 test

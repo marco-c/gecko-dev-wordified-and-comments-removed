@@ -61,7 +61,7 @@ mozilla
 .
 components
 .
-browser
+feature
 .
 search
 .
@@ -72,6 +72,8 @@ mozilla
 components
 .
 browser
+.
+state
 .
 search
 .

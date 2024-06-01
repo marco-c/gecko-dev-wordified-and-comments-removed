@@ -233,10 +233,6 @@ Hello
 "
 searchEngine
 .
-legacy
-(
-)
-.
 buildSearchUrl
 (
 "
@@ -315,10 +311,6 @@ Hello
 20World
 "
 searchEngine
-.
-legacy
-(
-)
 .
 buildSearchUrl
 (
