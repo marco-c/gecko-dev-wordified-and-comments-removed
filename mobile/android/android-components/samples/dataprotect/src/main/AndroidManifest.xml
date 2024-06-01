@@ -176,6 +176,13 @@ name
 .
 MainActivity
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 intent
