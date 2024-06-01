@@ -249,7 +249,7 @@ dispatch
 (
 WebExtensionAction
 .
-InstallWebExtension
+InstallWebExtensionAction
 (
 extension
 )
@@ -308,7 +308,7 @@ dispatch
 (
 WebExtensionAction
 .
-InstallWebExtension
+InstallWebExtensionAction
 (
 extension
 )
@@ -388,7 +388,7 @@ dispatch
 (
 WebExtensionAction
 .
-InstallWebExtension
+InstallWebExtensionAction
 (
 extension
 )
@@ -749,7 +749,7 @@ dispatch
 (
 WebExtensionAction
 .
-InstallWebExtension
+InstallWebExtensionAction
 (
 extension
 )

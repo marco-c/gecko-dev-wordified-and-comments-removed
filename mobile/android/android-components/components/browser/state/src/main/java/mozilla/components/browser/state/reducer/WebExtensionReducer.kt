@@ -185,7 +185,7 @@ action
 is
 WebExtensionAction
 .
-InstallWebExtension
+InstallWebExtensionAction
 -
 >
 {
