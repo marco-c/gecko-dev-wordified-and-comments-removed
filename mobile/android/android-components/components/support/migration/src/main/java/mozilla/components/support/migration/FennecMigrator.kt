@@ -7448,12 +7448,6 @@ default
 failure
 "
 )
-crashReporter
-.
-submitCaughtException
-(
-migrationFailureWrapper
-)
 MigrationSearch
 .
 failureReason
@@ -7491,12 +7485,6 @@ engine
 :
 failure
 "
-)
-crashReporter
-.
-submitCaughtException
-(
-migrationFailureWrapper
 )
 MigrationSearch
 .
