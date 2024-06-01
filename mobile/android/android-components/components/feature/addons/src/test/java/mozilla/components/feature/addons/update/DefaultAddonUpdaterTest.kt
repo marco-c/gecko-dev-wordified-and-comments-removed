@@ -1237,7 +1237,7 @@ assertEquals
 "
 A
 new
-permissions
+permission
 is
 required
 :

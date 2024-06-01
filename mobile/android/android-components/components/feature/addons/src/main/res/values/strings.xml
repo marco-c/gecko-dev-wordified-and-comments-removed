@@ -2082,10 +2082,7 @@ content
 of
 the
 notification
-this
-will
-be
-shown
+displayed
 when
 an
 add
@@ -2108,7 +2105,7 @@ mozac_feature_addons_updater_notification_content_singular
 >
 A
 new
-permissions
+permission
 is
 required
 <
