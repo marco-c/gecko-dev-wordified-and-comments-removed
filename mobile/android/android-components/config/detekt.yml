@@ -244,7 +244,10 @@ LongParameterList
 active
 :
 true
-threshold
+constructorThreshold
+:
+6
+functionThreshold
 :
 6
 ignoreDefaultParameters
