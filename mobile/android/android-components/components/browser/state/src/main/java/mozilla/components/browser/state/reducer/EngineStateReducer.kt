@@ -395,6 +395,10 @@ ExitFullScreenModeAction
 is
 EngineAction
 .
+SaveToPdfAction
+is
+EngineAction
+.
 KillEngineSessionAction
 is
 EngineAction
