@@ -147,7 +147,7 @@ L37
 )
 Overrides
 [
-BackHandler
+UserInteractionHandler
 .
 onBackPressed
 ]
@@ -169,7 +169,9 @@ base
 feature
 /
 -
-back
+user
+-
+interaction
 -
 handler
 /

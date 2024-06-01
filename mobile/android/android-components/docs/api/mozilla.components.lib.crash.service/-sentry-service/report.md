@@ -176,7 +176,7 @@ SentryService
 .
 kt
 #
-L59
+L61
 )
 Overrides
 [
@@ -360,7 +360,7 @@ SentryService
 .
 kt
 #
-L70
+L72
 )
 Overrides
 [
@@ -541,7 +541,7 @@ SentryService
 .
 kt
 #
-L79
+L81
 )
 Overrides
 [

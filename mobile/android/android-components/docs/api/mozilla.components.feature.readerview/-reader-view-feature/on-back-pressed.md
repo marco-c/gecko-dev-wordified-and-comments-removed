@@ -146,7 +146,7 @@ L118
 )
 Overrides
 [
-BackHandler
+UserInteractionHandler
 .
 onBackPressed
 ]
@@ -168,7 +168,9 @@ base
 feature
 /
 -
-back
+user
+-
+interaction
 -
 handler
 /
@@ -184,7 +186,7 @@ Called
 when
 this
 [
-BackHandler
+UserInteractionHandler
 ]
 (
 .
@@ -204,7 +206,9 @@ base
 feature
 /
 -
-back
+user
+-
+interaction
 -
 handler
 /
@@ -229,7 +233,7 @@ true
 if
 this
 [
-BackHandler
+UserInteractionHandler
 ]
 (
 .
@@ -249,7 +253,9 @@ base
 feature
 /
 -
-back
+user
+-
+interaction
 -
 handler
 /

@@ -142,11 +142,11 @@ CustomTabsToolbarFeature
 .
 kt
 #
-L249
+L250
 )
 Overrides
 [
-BackHandler
+UserInteractionHandler
 .
 onBackPressed
 ]
@@ -168,7 +168,9 @@ base
 feature
 /
 -
-back
+user
+-
+interaction
 -
 handler
 /
