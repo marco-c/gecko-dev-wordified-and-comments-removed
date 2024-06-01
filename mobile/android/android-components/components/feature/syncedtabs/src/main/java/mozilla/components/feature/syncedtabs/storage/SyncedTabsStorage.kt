@@ -564,9 +564,8 @@ it
 .
 tabs
 .
-getOrNull
+firstOrNull
 (
-0
 )
 ?
 .
