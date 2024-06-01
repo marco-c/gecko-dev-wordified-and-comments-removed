@@ -84,7 +84,7 @@ the
 resources
 folder
 and
-return
+returns
 its
 content
 as
