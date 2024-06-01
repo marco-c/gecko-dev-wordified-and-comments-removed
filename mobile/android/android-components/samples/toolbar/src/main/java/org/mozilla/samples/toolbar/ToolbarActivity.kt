@@ -4217,7 +4217,7 @@ text
 toInt
 (
 )
-cancel
+clear
 =
 0xFF0c0c0d
 .

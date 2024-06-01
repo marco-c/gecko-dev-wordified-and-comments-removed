@@ -407,6 +407,7 @@ determineMenuOrientation
 parent
 as
 View
+?
 )
 endOfMenuAlwaysVisible
 =

@@ -541,7 +541,7 @@ layout_constraintEnd_toStartOf
 "
 id
 /
-mozac_browser_toolbar_cancel_view
+mozac_browser_toolbar_clear_view
 "
 mozac
 :
@@ -569,7 +569,7 @@ id
 +
 id
 /
-mozac_browser_toolbar_cancel_view
+mozac_browser_toolbar_clear_view
 "
 android
 :
