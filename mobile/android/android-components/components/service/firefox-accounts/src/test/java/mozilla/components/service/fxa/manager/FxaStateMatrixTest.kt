@@ -832,8 +832,11 @@ Event
 FailedToFetchProfile
 )
 )
-assertNull
+assertEquals
 (
+AccountState
+.
+NotAuthenticated
 FxaStateMatrix
 .
 nextState

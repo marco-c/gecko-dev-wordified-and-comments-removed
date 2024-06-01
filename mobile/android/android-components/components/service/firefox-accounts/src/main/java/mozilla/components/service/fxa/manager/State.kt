@@ -944,6 +944,14 @@ AccountState
 AuthenticatedNoProfile
 Event
 .
+FailedToAuthenticate
+-
+>
+AccountState
+.
+NotAuthenticated
+Event
+.
 Logout
 -
 >
