@@ -266,12 +266,7 @@ R
 .
 string
 .
-mozac_lib_send_crash_report_in_progress
-crashReporter
-.
-promptConfiguration
-.
-organizationName
+mozac_lib_gathering_crash_telemetry_in_progress
 )
 )
 .
