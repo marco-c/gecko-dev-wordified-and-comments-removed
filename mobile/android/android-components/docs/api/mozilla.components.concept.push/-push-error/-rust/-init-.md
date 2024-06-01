@@ -88,10 +88,10 @@ gt
 ;
 Rust
 (
-desc
+cause
 :
 [
-String
+Exception
 ]
 (
 https
@@ -113,7 +113,7 @@ stdlib
 kotlin
 /
 -
-string
+exception
 /
 index
 .
