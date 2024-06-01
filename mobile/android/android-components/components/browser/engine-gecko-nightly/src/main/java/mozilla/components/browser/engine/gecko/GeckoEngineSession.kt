@@ -2100,6 +2100,9 @@ ABOUT_BLANK
 {
 return
 }
+currentUrl
+=
+url
 initialLoad
 =
 false
@@ -2711,9 +2714,6 @@ url
 String
 )
 {
-currentUrl
-=
-url
 notifyObservers
 {
 onProgress
