@@ -165,7 +165,7 @@ android_gradle_plugin
 .
 5
 .
-2
+3
 "
 const
 val
@@ -196,9 +196,9 @@ detekt
 "
 1
 .
-2
+0
 .
-2
+1
 "
 const
 val
@@ -282,9 +282,9 @@ val
 mozilla_glean
 =
 "
-22
+21
 .
-1
+3
 .
 0
 "
@@ -345,6 +345,8 @@ browser
 2
 .
 0
+-
+alpha07
 "
 const
 val
