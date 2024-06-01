@@ -1599,14 +1599,6 @@ the
 following
 properties
 :
-<
-<
-<
-<
-<
-<
-<
-HEAD
 |
 Name
 |
@@ -1813,6 +1805,7 @@ Example
 -
 -
 |
+-
 -
 -
 -
@@ -2173,6 +2166,7 @@ firefox_beta
 '
 '
 }
+\
 |
 ^
 org
@@ -2267,6 +2261,7 @@ country
 |
 "
 USA
+\
 |
 DEU
 "
@@ -2286,8 +2281,10 @@ language
 |
 "
 eng
+\
 |
 zho
+\
 |
 deu
 "
