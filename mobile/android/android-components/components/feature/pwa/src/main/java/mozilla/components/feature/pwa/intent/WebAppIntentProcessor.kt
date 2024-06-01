@@ -73,6 +73,14 @@ content
 .
 Intent
 import
+android
+.
+content
+.
+Intent
+.
+FLAG_ACTIVITY_NEW_DOCUMENT
+import
 mozilla
 .
 components
@@ -423,6 +431,11 @@ external
 (
 )
 )
+intent
+.
+flags
+=
+FLAG_ACTIVITY_NEW_DOCUMENT
 intent
 .
 putSessionId

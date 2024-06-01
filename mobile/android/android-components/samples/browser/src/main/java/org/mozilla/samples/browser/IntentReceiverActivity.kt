@@ -178,12 +178,12 @@ setBrowserActivity
 (
 intent
 )
+finish
+(
+)
 startActivity
 (
 intent
-)
-finish
-(
 )
 }
 }
