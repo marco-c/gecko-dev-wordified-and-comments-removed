@@ -420,7 +420,7 @@ title
 ;
 TestHelper
 .
-urlBar
+inlineAutocompleteEditText
 .
 waitForExists
 (
