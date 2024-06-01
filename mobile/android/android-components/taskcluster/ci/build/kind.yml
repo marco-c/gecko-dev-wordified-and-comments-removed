@@ -621,7 +621,7 @@ release
 component
 }
 (
-BnR
+BN
 )
 '
 default
@@ -795,7 +795,7 @@ gecko
 -
 nigh
 (
-BnR
+BN
 )
 '
 lib
@@ -883,6 +883,6 @@ fetch
 -
 httpurlconnect
 (
-BnR
+BN
 )
 '
