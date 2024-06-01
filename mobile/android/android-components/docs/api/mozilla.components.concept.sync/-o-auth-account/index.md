@@ -150,7 +150,7 @@ Summary
 |
 |
 [
-authorizeOAuthCode
+authorizeOAuthCodeAsync
 ]
 (
 authorize
@@ -160,13 +160,15 @@ o
 auth
 -
 code
+-
+async
 .
 md
 )
 |
 abstract
 fun
-authorizeOAuthCode
+authorizeOAuthCodeAsync
 (
 clientId
 :
@@ -316,6 +318,8 @@ AccessType
 ONLINE
 )
 :
+Deferred
+<
 [
 String
 ]
@@ -346,6 +350,7 @@ index
 html
 )
 ?
+>
 <
 br
 >
@@ -368,6 +373,8 @@ o
 auth
 -
 code
+-
+async
 .
 md
 #
@@ -380,7 +387,7 @@ concept
 sync
 .
 OAuthAccount
-authorizeOAuthCode
+authorizeOAuthCodeAsync
 (
 kotlin
 .
@@ -425,6 +432,8 @@ o
 auth
 -
 code
+-
+async
 .
 md
 #
@@ -437,7 +446,7 @@ concept
 sync
 .
 OAuthAccount
-authorizeOAuthCode
+authorizeOAuthCodeAsync
 (
 kotlin
 .

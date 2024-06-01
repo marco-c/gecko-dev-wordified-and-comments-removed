@@ -43,6 +43,7 @@ md
 )
 #
 handleFxaExceptions
+suspend
 fun
 <
 T
@@ -110,6 +111,7 @@ html
 )
 block
 :
+suspend
 (
 )
 -
@@ -260,7 +262,7 @@ Utils
 .
 kt
 #
-L21
+L19
 )
 Runs
 a
@@ -318,7 +320,7 @@ kotlin
 String
 kotlin
 .
-Function0
+SuspendFunction0
 (
 (
 mozilla
@@ -404,26 +406,7 @@ notifies
 authErrorRegistry
 ]
 (
-.
-.
-/
-mozilla
-.
-components
-.
-service
-.
-fxa
-.
-manager
-/
-auth
--
-error
--
-registry
-.
-md
+#
 )
 and
 runs
@@ -466,7 +449,7 @@ kotlin
 String
 kotlin
 .
-Function0
+SuspendFunction0
 (
 (
 mozilla
@@ -612,7 +595,7 @@ kotlin
 String
 kotlin
 .
-Function0
+SuspendFunction0
 (
 (
 mozilla
@@ -746,7 +729,7 @@ kotlin
 String
 kotlin
 .
-Function0
+SuspendFunction0
 (
 (
 mozilla
@@ -890,7 +873,7 @@ kotlin
 String
 kotlin
 .
-Function0
+SuspendFunction0
 (
 (
 mozilla
@@ -963,6 +946,7 @@ T
 block
 )
 .
+suspend
 fun
 <
 T
@@ -1061,6 +1045,7 @@ T
 )
 block
 :
+suspend
 (
 )
 -
@@ -1147,7 +1132,7 @@ Utils
 .
 kt
 #
-L56
+L54
 )
 Helper
 method
@@ -1236,7 +1221,7 @@ T
 )
 kotlin
 .
-Function0
+SuspendFunction0
 (
 (
 mozilla
@@ -1271,6 +1256,7 @@ in
 log
 statements
 .
+suspend
 fun
 handleFxaExceptions
 (
@@ -1451,7 +1437,7 @@ Utils
 .
 kt
 #
-L63
+L66
 )
 Helper
 method

@@ -215,6 +215,7 @@ html
 )
 block
 :
+suspend
 (
 store
 :
@@ -282,7 +283,7 @@ kotlin
 String
 kotlin
 .
-Function1
+SuspendFunction1
 (
 (
 mozilla
@@ -350,7 +351,7 @@ kotlin
 String
 kotlin
 .
-Function1
+SuspendFunction1
 (
 (
 mozilla

@@ -70,7 +70,7 @@ gt
 ;
 CustomTabWindowFeature
 (
-context
+activity
 :
 <
 ERROR

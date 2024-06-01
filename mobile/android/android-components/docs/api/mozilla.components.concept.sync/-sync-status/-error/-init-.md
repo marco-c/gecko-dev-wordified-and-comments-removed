@@ -91,7 +91,7 @@ Error
 exception
 :
 [
-Throwable
+Exception
 ]
 (
 https
@@ -113,7 +113,7 @@ stdlib
 kotlin
 /
 -
-throwable
+exception
 /
 index
 .

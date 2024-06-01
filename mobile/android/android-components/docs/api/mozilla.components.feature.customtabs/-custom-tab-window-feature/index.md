@@ -129,7 +129,7 @@ CustomTabWindowFeature
 .
 kt
 #
-L27
+L29
 )
 Feature
 implementation
@@ -180,7 +180,7 @@ md
 |
 CustomTabWindowFeature
 (
-context
+activity
 :
 <
 ERROR
