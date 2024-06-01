@@ -3649,6 +3649,11 @@ cookiePolicy
 val
 response
 =
+download
+.
+response
+?
+:
 httpClient
 .
 fetch

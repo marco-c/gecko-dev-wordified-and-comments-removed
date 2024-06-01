@@ -425,6 +425,16 @@ mozilla
 .
 components
 .
+concept
+.
+fetch
+.
+Response
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -1367,6 +1377,10 @@ String
 isPrivate
 :
 Boolean
+response
+:
+Response
+?
 )
 {
 /
@@ -1437,6 +1451,9 @@ DIRECTORY_DOWNLOADS
 private
 =
 isPrivate
+response
+=
+response
 )
 store
 ?

@@ -629,6 +629,16 @@ blocking
 .
 Tracker
 import
+mozilla
+.
+components
+.
+concept
+.
+fetch
+.
+Response
+import
 java
 .
 io
@@ -3380,6 +3390,10 @@ String
 isPrivate
 :
 Boolean
+response
+:
+Response
+?
 )
 {
 assertEquals
