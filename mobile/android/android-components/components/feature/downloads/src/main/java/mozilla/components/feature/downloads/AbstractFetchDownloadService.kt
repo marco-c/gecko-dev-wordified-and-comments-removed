@@ -5811,7 +5811,7 @@ const
 val
 CHUNK_SIZE
 =
-4
+32
 *
 1024
 private
