@@ -387,10 +387,8 @@ requests
 param
 profileId
 Unique
+profile
 identifier
-of
-the
-user
 which
 will
 be

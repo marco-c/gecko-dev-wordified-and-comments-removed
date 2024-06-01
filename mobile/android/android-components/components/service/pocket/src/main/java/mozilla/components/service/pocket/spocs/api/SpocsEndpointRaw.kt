@@ -282,7 +282,7 @@ SPOCS_PROXY_VERSION_VALUE
 private
 const
 val
-SPOCS_PROXY_USER_KEY
+SPOCS_PROXY_PROFILE_KEY
 =
 "
 pocket_id
@@ -610,7 +610,7 @@ mapOf
 SPOCS_PROXY_VERSION_KEY
 to
 SPOCS_PROXY_VERSION_VALUE
-SPOCS_PROXY_USER_KEY
+SPOCS_PROXY_PROFILE_KEY
 to
 profileId
 .
@@ -651,7 +651,7 @@ params
 =
 mapOf
 (
-SPOCS_PROXY_USER_KEY
+SPOCS_PROXY_PROFILE_KEY
 to
 profileId
 .
@@ -708,10 +708,8 @@ requests
 param
 profileId
 Unique
+profile
 identifier
-of
-the
-user
 which
 will
 be
