@@ -208,6 +208,7 @@ Suppress
 TooManyFunctions
 "
 )
+open
 class
 TabsAdapter
 (
