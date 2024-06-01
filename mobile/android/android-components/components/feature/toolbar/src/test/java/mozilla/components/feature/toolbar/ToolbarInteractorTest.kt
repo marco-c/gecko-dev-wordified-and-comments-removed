@@ -489,6 +489,14 @@ flags
 EngineSession
 .
 LoadUrlFlags
+additionalHeaders
+:
+Map
+<
+String
+String
+>
+?
 )
 {
 useCaseInvokedWithUrl
