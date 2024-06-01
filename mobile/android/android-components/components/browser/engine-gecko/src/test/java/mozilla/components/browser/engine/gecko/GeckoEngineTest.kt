@@ -2433,7 +2433,7 @@ EngineSession
 .
 CookieBannerHandlingMode
 .
-REJECT_ALL
+DISABLED
 .
 mode
 )
@@ -4915,7 +4915,7 @@ EngineSession
 .
 CookieBannerHandlingMode
 .
-REJECT_ALL
+DISABLED
 .
 mode
 contentBlockingSettings

@@ -824,7 +824,7 @@ EngineSession
 .
 CookieBannerHandlingMode
 .
-REJECT_ALL
+DISABLED
 settings
 .
 cookieBannerHandlingModePrivateBrowsing

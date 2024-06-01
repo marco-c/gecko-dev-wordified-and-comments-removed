@@ -1500,7 +1500,7 @@ CookieBannerHandlingMode
 =
 CookieBannerHandlingMode
 .
-REJECT_ALL
+DISABLED
 )
 :
 Settings
