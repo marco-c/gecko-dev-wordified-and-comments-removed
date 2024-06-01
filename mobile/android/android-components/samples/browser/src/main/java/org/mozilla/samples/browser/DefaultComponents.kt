@@ -587,6 +587,16 @@ components
 .
 feature
 .
+prompts
+.
+PromptMiddleware
+import
+mozilla
+.
+components
+.
+feature
+.
 pwa
 .
 ManifestStorage
@@ -1301,6 +1311,9 @@ RecordingDevicesMiddleware
 applicationContext
 )
 LastAccessMiddleware
+(
+)
+PromptMiddleware
 (
 )
 )
