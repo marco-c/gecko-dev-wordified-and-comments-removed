@@ -146,8 +146,6 @@ core
 graphics
 .
 BlendModeCompat
-.
-MULTIPLY
 import
 androidx
 .
@@ -672,7 +670,9 @@ createBlendModeColorFilterCompat
 colorItem
 .
 color
-MULTIPLY
+BlendModeCompat
+.
+MODULATE
 )
 }
 itemView
