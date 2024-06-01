@@ -679,34 +679,7 @@ section
     
 path_version
 =
-"
-{
-}
-{
-}
-"
-.
-format
-(
-        
 version
-        
-"
--
-SNAPSHOT
-"
-if
-build_type
-=
-=
-"
-snapshot
-"
-else
-'
-'
-    
-)
     
 if
 build_type
@@ -1022,31 +995,6 @@ version
 timestamp
 =
 '
--
-'
-+
-timestamp
-if
-task
-[
-"
-attributes
-"
-]
-[
-"
-build
--
-type
-"
-]
-=
-=
-"
-snapshot
-"
-else
-'
 '
                     
 extension
@@ -1190,7 +1138,7 @@ component
 =
 component
                         
-version_with_snapshot
+version
 =
 craft_path_version
 (

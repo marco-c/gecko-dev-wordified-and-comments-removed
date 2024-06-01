@@ -127,8 +127,6 @@ types
 release
 -
 nightly
--
-snapshot
 job
 -
 template
@@ -183,9 +181,6 @@ type
 release
 :
 BRs
-snapshot
-:
-BSnaps
 nightly
 :
 BNs

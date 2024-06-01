@@ -151,9 +151,6 @@ nightly
 '
 release
 '
-'
-snapshot
-'
 )
         
 if

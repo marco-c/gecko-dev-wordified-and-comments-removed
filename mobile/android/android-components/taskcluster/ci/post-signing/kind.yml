@@ -152,13 +152,6 @@ post
 signing
 -
 release
-snapshot
-:
-post
--
-signing
--
-snapshot
 nightly
 :
 post
