@@ -478,6 +478,13 @@ toList
 )
 extensions
 .
+filter
+{
+it
+.
+enabled
+}
+.
 forEach
 {
 extension
