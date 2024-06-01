@@ -1065,7 +1065,8 @@ Action
 .
 ASK_TO_ALLOW
 )
-)
+onNeedToRequestPermissions
+=
 {
 permissions
 -
@@ -1076,6 +1077,15 @@ permissions
 REQUEST_CODE_APP_PERMISSIONS
 )
 }
+onShouldShowRequestPermissionRationale
+=
+{
+shouldShowRequestPermissionRationale
+(
+it
+)
+}
+)
 owner
 =
 this

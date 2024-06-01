@@ -415,6 +415,11 @@ fragmentManager
 mock
 (
 )
+onShouldShowRequestPermissionRationale
+=
+mock
+(
+)
 )
 }
 Test
