@@ -392,6 +392,7 @@ id
 "
 url
 "
+true
 defaultBrowserAction
 )
 )
@@ -418,6 +419,7 @@ id
 "
 url
 "
+true
 overriddenBrowserAction
 )
 )
