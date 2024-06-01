@@ -228,6 +228,13 @@ setDisplayZoomControls
 false
 )
 ;
+settings
+.
+setAllowFileAccess
+(
+false
+)
+;
 }
 private
 static
