@@ -112,9 +112,10 @@ pro
 }
 dependencies
 {
-/
-/
-None
+implementation
+Dependencies
+.
+androidx_compose_ui_graphics
 }
 apply
 from
