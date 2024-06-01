@@ -89,6 +89,14 @@ autofill
 .
 FillResponse
 import
+android
+.
+widget
+.
+inline
+.
+InlinePresentationSpec
+import
 androidx
 .
 annotation
@@ -226,6 +234,10 @@ Context
 configuration
 :
 AutofillConfiguration
+imeSpec
+:
+InlinePresentationSpec
+?
 )
 :
 FillResponse
@@ -267,6 +279,7 @@ build
 (
 context
 configuration
+imeSpec
 )
 builder
 .
@@ -285,6 +298,7 @@ build
 (
 context
 configuration
+imeSpec
 )
 )
 return

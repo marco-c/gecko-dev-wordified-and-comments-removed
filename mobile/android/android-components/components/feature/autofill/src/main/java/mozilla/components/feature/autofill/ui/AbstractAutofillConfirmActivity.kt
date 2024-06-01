@@ -388,6 +388,14 @@ cancel
 )
 return
 }
+val
+imeSpec
+=
+intent
+.
+getImeSpec
+(
+)
 /
 /
 While
@@ -453,6 +461,7 @@ build
 this
 AbstractAutofillConfirmActivity
 configuration
+imeSpec
 )
 }
 }

@@ -83,6 +83,14 @@ autofill
 .
 Dataset
 import
+android
+.
+widget
+.
+inline
+.
+InlinePresentationSpec
+import
 mozilla
 .
 components
@@ -105,6 +113,12 @@ Context
 configuration
 :
 AutofillConfiguration
+imeSpec
+:
+InlinePresentationSpec
+?
+=
+null
 )
 :
 Dataset

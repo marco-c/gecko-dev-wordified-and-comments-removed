@@ -244,6 +244,10 @@ androidx_annotation
 implementation
 Dependencies
 .
+androidx_autofill
+implementation
+Dependencies
+.
 androidx_biometric
 implementation
 Dependencies

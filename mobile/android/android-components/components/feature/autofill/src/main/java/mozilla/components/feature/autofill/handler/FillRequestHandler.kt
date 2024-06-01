@@ -254,6 +254,12 @@ autofill
 structure
 .
 parseStructure
+import
+kotlin
+.
+math
+.
+min
 internal
 const
 val
@@ -397,6 +403,11 @@ forceUnlock
 Boolean
 =
 false
+maxSuggestionCount
+:
+Int
+=
+MAX_LOGINS
 )
 :
 FillResponseBuilder
@@ -430,6 +441,7 @@ handle
 (
 parsedStructure
 forceUnlock
+maxSuggestionCount
 )
 }
 suspend
@@ -444,6 +456,11 @@ forceUnlock
 Boolean
 =
 false
+maxSuggestionCount
+:
+Int
+=
+MAX_LOGINS
 )
 :
 FillResponseBuilder
@@ -489,7 +506,11 @@ lookupDomain
 .
 take
 (
+min
+(
 MAX_LOGINS
+maxSuggestionCount
+)
 )
 return
 if
@@ -511,6 +532,7 @@ forceUnlock
 AuthFillResponseBuilder
 (
 parsedStructure
+maxSuggestionCount
 )
 }
 else
