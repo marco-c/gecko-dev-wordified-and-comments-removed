@@ -257,7 +257,7 @@ Pings
 .
 historySync
 .
-send
+submit
 (
 )
 }
@@ -612,7 +612,7 @@ Pings
 .
 loginsSync
 .
-send
+submit
 (
 )
 }
@@ -967,7 +967,7 @@ Pings
 .
 bookmarksSync
 .
-send
+submit
 (
 )
 }

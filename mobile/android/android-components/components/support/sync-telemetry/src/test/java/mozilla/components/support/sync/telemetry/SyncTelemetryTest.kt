@@ -819,7 +819,7 @@ Pings
 .
 historySync
 .
-send
+submit
 (
 )
 pingCount
@@ -1613,7 +1613,7 @@ Pings
 .
 historySync
 .
-send
+submit
 (
 )
 pingCount
@@ -1790,7 +1790,7 @@ Pings
 .
 historySync
 .
-send
+submit
 (
 )
 pingCount
@@ -2282,7 +2282,7 @@ Pings
 .
 loginsSync
 .
-send
+submit
 (
 )
 pingCount
@@ -3076,7 +3076,7 @@ Pings
 .
 loginsSync
 .
-send
+submit
 (
 )
 pingCount
@@ -3253,7 +3253,7 @@ Pings
 .
 loginsSync
 .
-send
+submit
 (
 )
 pingCount
@@ -3547,7 +3547,7 @@ Pings
 .
 bookmarksSync
 .
-send
+submit
 (
 )
 pingCount
@@ -4259,7 +4259,7 @@ Pings
 .
 bookmarksSync
 .
-send
+submit
 (
 )
 pingCount
@@ -4436,7 +4436,7 @@ Pings
 .
 bookmarksSync
 .
-send
+submit
 (
 )
 pingCount
