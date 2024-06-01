@@ -575,7 +575,7 @@ verify
 controller
 )
 .
-syncTabs
+syncAccount
 (
 )
 }
@@ -656,7 +656,7 @@ verify
 controller
 )
 .
-syncTabs
+refreshSyncedTabs
 (
 )
 }
@@ -734,7 +734,7 @@ verify
 controller
 )
 .
-syncTabs
+refreshSyncedTabs
 (
 )
 }

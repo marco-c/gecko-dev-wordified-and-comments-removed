@@ -362,6 +362,12 @@ SyncedTabsInteractor
 .
 *
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 SyncedTabsFeature
 (
@@ -392,6 +398,8 @@ Tab
 -
 >
 Unit
+private
+val
 controller
 :
 SyncedTabsController
@@ -424,9 +432,8 @@ SyncedTabsInteractor
 =
 DefaultInteractor
 (
-accountManager
+controller
 view
-coroutineContext
 onTabClicked
 )
 )

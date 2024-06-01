@@ -482,7 +482,7 @@ return
 }
 controller
 .
-syncTabs
+syncAccount
 (
 )
 }
@@ -545,7 +545,7 @@ AuthType
 {
 controller
 .
-syncTabs
+refreshSyncedTabs
 (
 )
 }
@@ -591,7 +591,7 @@ onIdle
 {
 controller
 .
-syncTabs
+refreshSyncedTabs
 (
 )
 }
