@@ -65,6 +65,7 @@ md
 )
 #
 OpenAppLinkRedirect
+inner
 class
 OpenAppLinkRedirect
 [
@@ -121,7 +122,7 @@ AppLinksUseCases
 .
 kt
 #
-L192
+L194
 )
 Open
 an
