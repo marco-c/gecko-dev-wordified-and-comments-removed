@@ -165,6 +165,13 @@ layout_height
 "
 android
 :
+importantForAccessibility
+=
+"
+no
+"
+android
+:
 layout_gravity
 =
 "

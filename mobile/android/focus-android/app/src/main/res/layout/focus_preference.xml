@@ -368,6 +368,13 @@ wrap_content
 "
 android
 :
+importantForAccessibility
+=
+"
+no
+"
+android
+:
 layout_marginEnd
 =
 "
