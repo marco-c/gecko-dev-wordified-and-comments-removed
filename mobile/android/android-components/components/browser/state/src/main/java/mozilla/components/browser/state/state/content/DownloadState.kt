@@ -75,6 +75,20 @@ os
 .
 Environment
 import
+android
+.
+os
+.
+Parcelable
+import
+kotlinx
+.
+android
+.
+parcel
+.
+Parcelize
+import
 kotlin
 .
 random
@@ -230,6 +244,7 @@ Suppress
 Deprecation
 "
 )
+Parcelize
 data
 class
 DownloadState
@@ -298,6 +313,8 @@ nextLong
 (
 )
 )
+:
+Parcelable
 {
 val
 filePath
