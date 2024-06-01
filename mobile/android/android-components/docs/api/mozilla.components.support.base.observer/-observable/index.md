@@ -1555,7 +1555,7 @@ md
 )
 <
 [
-DeviceEventsObserver
+AccountEventsObserver
 ]
 (
 .
@@ -1573,7 +1573,7 @@ concept
 sync
 /
 -
-device
+account
 -
 events
 -
@@ -1957,7 +1957,7 @@ md
 )
 <
 [
-DeviceEventsObserver
+AccountEventsObserver
 ]
 (
 .
@@ -1975,7 +1975,7 @@ concept
 sync
 /
 -
-device
+account
 -
 events
 -

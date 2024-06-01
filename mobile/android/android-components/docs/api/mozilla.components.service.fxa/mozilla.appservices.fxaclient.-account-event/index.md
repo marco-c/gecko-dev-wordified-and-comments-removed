@@ -93,7 +93,7 @@ into
 )
 :
 [
-DeviceEvent
+AccountEvent
 ]
 (
 .
@@ -111,7 +111,7 @@ concept
 sync
 /
 -
-device
+account
 -
 event
 /
