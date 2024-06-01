@@ -105,6 +105,14 @@ VisitObservation
 import
 mozilla
 .
+appservices
+.
+places
+.
+FrecencyThresholdOption
+import
+mozilla
+.
 components
 .
 concept
@@ -788,6 +796,11 @@ reader
 getTopFrecentSiteInfos
 (
 numItems
+frecencyThreshold
+=
+FrecencyThresholdOption
+.
+NONE
 )
 .
 map

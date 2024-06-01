@@ -103,7 +103,8 @@ API
 Integration
 of
 the
-Experiments
+Nimbus
+experimentation
 library
 .
 #
