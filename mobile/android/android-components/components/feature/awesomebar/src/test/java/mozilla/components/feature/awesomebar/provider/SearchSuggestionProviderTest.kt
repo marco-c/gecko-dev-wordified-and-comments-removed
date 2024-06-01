@@ -599,7 +599,7 @@ when
 searchEngineManager
 )
 .
-getDefaultSearchEngine
+getDefaultSearchEngineAsync
 (
 any
 (
@@ -1081,7 +1081,7 @@ when
 searchEngineManager
 )
 .
-getDefaultSearchEngine
+getDefaultSearchEngineAsync
 (
 any
 (
@@ -1532,7 +1532,7 @@ when
 searchEngineManager
 )
 .
-getDefaultSearchEngine
+getDefaultSearchEngineAsync
 (
 any
 (
@@ -1841,7 +1841,7 @@ when
 searchEngineManager
 )
 .
-getDefaultSearchEngine
+getDefaultSearchEngineAsync
 (
 any
 (
@@ -2752,7 +2752,7 @@ when
 searchEngineManager
 )
 .
-getDefaultSearchEngine
+getDefaultSearchEngineAsync
 (
 any
 (
@@ -2984,7 +2984,7 @@ when
 searchEngineManager
 )
 .
-getDefaultSearchEngine
+getDefaultSearchEngineAsync
 (
 any
 (
@@ -3271,7 +3271,7 @@ when
 searchEngineManager
 )
 .
-getDefaultSearchEngine
+getDefaultSearchEngineAsync
 (
 any
 (
