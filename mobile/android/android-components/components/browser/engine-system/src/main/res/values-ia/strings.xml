@@ -70,7 +70,7 @@ mozac_browser_engine_system_alert_title
 >
 Le
 pagina
-a
+sur
 %
 1
 s
@@ -149,7 +149,7 @@ mozac_browser_engine_system_auth_message
 %
 2
 s
-require
+requesta
 tu
 nomine
 de
@@ -219,13 +219,12 @@ mozac_browser_engine_system_auth_no_realm_message
 %
 1
 s
-demanda
+requesta
 tu
 nomine
 de
 usator
 e
-tu
 contrasigno
 .
 <
