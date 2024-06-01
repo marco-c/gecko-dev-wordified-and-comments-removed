@@ -764,7 +764,7 @@ url
 )
 assertEquals
 (
-DEFAULT
+PINNED
 type
 )
 }
