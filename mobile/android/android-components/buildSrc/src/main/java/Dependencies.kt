@@ -275,7 +275,7 @@ mozilla_appservices
 .
 0
 .
-6
+7
 "
 const
 val
@@ -584,9 +584,6 @@ some
 modules
 Suppress
 (
-"
-Unused
-"
 "
 MaxLineLength
 "
