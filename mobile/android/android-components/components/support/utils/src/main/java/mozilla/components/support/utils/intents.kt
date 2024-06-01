@@ -200,6 +200,13 @@ Context
 requestCode
 :
 Int
+flags
+:
+Int
+=
+PendingIntent
+.
+FLAG_UPDATE_CURRENT
 )
 :
 PendingIntent
@@ -227,7 +234,7 @@ getForegroundService
 context
 requestCode
 this
-0
+flags
 )
 }
 else
@@ -239,6 +246,6 @@ getService
 context
 requestCode
 this
-0
+flags
 )
 }
