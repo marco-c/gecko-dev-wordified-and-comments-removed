@@ -221,6 +221,14 @@ mockito
 .
 ArgumentMatchers
 .
+anyBoolean
+import
+org
+.
+mockito
+.
+ArgumentMatchers
+.
 anyInt
 import
 org
@@ -1366,6 +1374,9 @@ eq
 (
 suggestion
 )
+anyBoolean
+(
+)
 any
 (
 )
@@ -1506,6 +1517,9 @@ suggestion
 AwesomeBar
 .
 Suggestion
+customizeForBottomToolbar
+:
+Boolean
 selectionListener
 :
 (

@@ -833,6 +833,9 @@ actual
 bind
 (
 suggestion
+awesomeBar
+.
+customizeForBottomToolbar
 )
 {
 awesomeBar

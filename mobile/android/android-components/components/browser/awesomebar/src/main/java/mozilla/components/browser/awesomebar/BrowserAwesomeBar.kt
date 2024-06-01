@@ -400,6 +400,12 @@ val
 styling
 :
 BrowserAwesomeBarStyling
+var
+customizeForBottomToolbar
+:
+Boolean
+=
+false
 /
 *
 *
