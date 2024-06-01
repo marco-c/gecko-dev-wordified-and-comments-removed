@@ -147,18 +147,6 @@ test
 .
 mock
 import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-robolectric
-.
-testContext
-import
 org
 .
 junit
@@ -298,7 +286,6 @@ spy
 (
 RemoteTabsStorage
 (
-testContext
 crashReporter
 )
 )

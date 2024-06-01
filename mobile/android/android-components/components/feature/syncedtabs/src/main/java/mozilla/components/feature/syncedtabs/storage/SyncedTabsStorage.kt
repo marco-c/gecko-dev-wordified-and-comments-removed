@@ -383,6 +383,10 @@ val
 tabsStorage
 :
 RemoteTabsStorage
+=
+RemoteTabsStorage
+(
+)
 private
 val
 debounceMillis
