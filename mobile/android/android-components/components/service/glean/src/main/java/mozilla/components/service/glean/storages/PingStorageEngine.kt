@@ -715,9 +715,9 @@ Typically
 this
 will
 be
-the
+a
 [
-HttpPingUploader
+PingUploader
 .
 upload
 ]
