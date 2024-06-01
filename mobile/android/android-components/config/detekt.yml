@@ -252,7 +252,7 @@ functionThreshold
 6
 ignoreDefaultParameters
 :
-false
+true
 MethodOverloading
 :
 active
