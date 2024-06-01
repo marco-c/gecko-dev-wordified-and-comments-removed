@@ -1727,7 +1727,6 @@ account
 beginOAuthFlow
 (
 scopes
-wantsKeys
 )
 .
 await
