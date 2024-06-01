@@ -1032,6 +1032,12 @@ eraseAndShowHomeScreen
 (
 )
 ;
+TelemetryWrapper
+.
+eraseBackEvent
+(
+)
+;
 }
 return
 true

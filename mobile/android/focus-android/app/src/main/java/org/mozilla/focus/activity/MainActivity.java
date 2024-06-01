@@ -673,6 +673,12 @@ commit
 (
 )
 ;
+TelemetryWrapper
+.
+browseIntentEvent
+(
+)
+;
 }
 Override
 public
