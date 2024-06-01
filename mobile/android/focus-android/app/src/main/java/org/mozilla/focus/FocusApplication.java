@@ -89,10 +89,6 @@ onCreate
 (
 )
 ;
-enableStrictMode
-(
-)
-;
 PreferenceManager
 .
 setDefaultValues
@@ -104,6 +100,10 @@ xml
 .
 settings
 false
+)
+;
+enableStrictMode
+(
 )
 ;
 SearchEngineManager
