@@ -119,6 +119,16 @@ support
 .
 test
 .
+any
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 eq
 import
 mozilla
@@ -594,6 +604,9 @@ submitReport
 eq
 (
 originalCrash
+)
+any
+(
 )
 )
 }
