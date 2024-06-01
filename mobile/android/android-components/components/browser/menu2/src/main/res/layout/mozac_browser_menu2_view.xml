@@ -270,6 +270,13 @@ layout_height
 "
 wrap_content
 "
+android
+:
+overScrollMode
+=
+"
+never
+"
 tools
 :
 listitem
