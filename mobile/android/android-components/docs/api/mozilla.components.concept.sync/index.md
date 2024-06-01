@@ -1015,14 +1015,7 @@ SyncableStore
 sync
 ]
 (
--
-syncable
--
-store
-/
-sync
-.
-md
+#
 )
 .
 |
