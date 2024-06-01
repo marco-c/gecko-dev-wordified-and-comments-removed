@@ -558,11 +558,6 @@ initialized
 =
 runBlocking
 {
-cleanupCacheCoroutineDispatcher
-=
-Dispatchers
-.
-Main
 val
 cacheDir
 =
@@ -628,6 +623,9 @@ mock
 (
 )
 null
+Dispatchers
+.
+Main
 )
 assertTrue
 (
@@ -831,6 +829,9 @@ mock
 (
 )
 null
+Dispatchers
+.
+Main
 )
 )
 val
@@ -1664,6 +1665,9 @@ mock
 (
 )
 null
+Dispatchers
+.
+Main
 )
 val
 shareState
