@@ -111,4 +111,17 @@ BUILD_TYPE
 )
 ;
 }
+public
+static
+boolean
+supportsDownloadingFiles
+(
+)
+{
+return
+isDevBuild
+(
+)
+;
+}
 }
