@@ -2628,13 +2628,7 @@ isStartedFromExternalApp
 )
 )
 {
-BrowsingSession
-.
-getInstance
-(
-)
-.
-stop
+erase
 (
 )
 ;
@@ -2642,7 +2636,7 @@ getActivity
 (
 )
 .
-finish
+finishAndRemoveTask
 (
 )
 ;
