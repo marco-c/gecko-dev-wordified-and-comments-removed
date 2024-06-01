@@ -127,6 +127,8 @@ index
 .
 html
 )
+=
+defaultTabsFilter
 )
 :
 [
@@ -210,7 +212,7 @@ TabsFeature
 .
 kt
 #
-L54
+L59
 )
 Filter
 the
@@ -289,4 +291,17 @@ in
 the
 tabs
 tray
+.
+Uses
+the
+[
+defaultTabsFilter
+]
+(
+#
+)
+if
+none
+is
+provided
 .
