@@ -113,6 +113,16 @@ support
 .
 test
 .
+mock
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 robolectric
 .
 testContext
@@ -170,6 +180,9 @@ storage
 AutofillCreditCardsAddressesStorage
 (
 testContext
+mock
+(
+)
 )
 private
 lateinit
