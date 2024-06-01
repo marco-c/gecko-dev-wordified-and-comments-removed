@@ -371,7 +371,7 @@ crashReporter
 .
 promptConfiguration
 .
-organizationName
+appName
 )
 )
 .
