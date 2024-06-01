@@ -8,7 +8,7 @@ from
 sys
 import
 exit
-SIZE_LIMIT
+SIZE_LIMIT_MB
 =
 5
 PATH
@@ -45,7 +45,7 @@ apk
 /
 '
 )
-BYTE_LIMIT
+SIZE_LIMIT_BYTES
 =
 SIZE_LIMIT
 *
@@ -184,7 +184,7 @@ st_size
 if
 file_size
 >
-BYTE_LIMIT
+SIZE_LIMIT_BYTES
 :
         
 print
@@ -219,7 +219,7 @@ filesize
 file_size
 sizelimit
 =
-BYTE_LIMIT
+SIZE_LIMIT_BYTES
         
 )
 )
@@ -262,7 +262,7 @@ filesize
 file_size
 sizelimit
 =
-BYTE_LIMIT
+SIZE_LIMIT_BYTES
         
 )
 )
