@@ -96,7 +96,7 @@ plugin
 {
 Versions
 .
-mozilla_glean
+mozilla_glean_plugin
 }
 "
 }
