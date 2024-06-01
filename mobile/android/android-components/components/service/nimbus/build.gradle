@@ -237,6 +237,14 @@ mozilla_nimbus
 implementation
 Dependencies
 .
+androidx_coordinatorlayout
+implementation
+Dependencies
+.
+androidx_recyclerview
+implementation
+Dependencies
+.
 kotlin_stdlib
 implementation
 Dependencies
