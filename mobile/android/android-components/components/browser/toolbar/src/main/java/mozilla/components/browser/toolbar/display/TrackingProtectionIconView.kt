@@ -271,8 +271,9 @@ var
 siteTrackingProtection
 :
 SiteTrackingProtection
+?
 =
-ON_NO_TRACKERS_BLOCKED
+null
 set
 (
 value
@@ -407,10 +408,14 @@ val
 update
 =
 siteTrackingProtection
+?
 .
 toUpdate
 (
 )
+?
+:
+return
 isVisible
 =
 update
