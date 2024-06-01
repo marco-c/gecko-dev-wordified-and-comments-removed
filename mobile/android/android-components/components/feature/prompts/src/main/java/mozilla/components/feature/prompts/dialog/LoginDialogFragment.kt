@@ -1069,6 +1069,9 @@ mozac_feature_prompt_never_save
 )
 )
 {
+emitNeverSaveFact
+(
+)
 CoroutineScope
 (
 IO
@@ -1088,9 +1091,6 @@ origin
 )
 }
 }
-emitNeverSaveFact
-(
-)
 feature
 ?
 .
