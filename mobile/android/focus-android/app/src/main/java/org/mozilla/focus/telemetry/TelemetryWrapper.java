@@ -1046,6 +1046,16 @@ string
 .
 pref_key_performance_block_webfonts
 )
+resources
+.
+getString
+(
+R
+.
+string
+.
+pref_key_locale
+)
 )
 .
 setCollectionEnabled
