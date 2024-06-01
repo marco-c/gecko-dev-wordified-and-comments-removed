@@ -594,15 +594,6 @@ autoRemoveFromRecents
 "
 false
 "
-android
-:
-label
-=
-"
-string
-/
-app_name
-"
 /
 >
 <
