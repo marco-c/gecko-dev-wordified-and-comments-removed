@@ -273,7 +273,7 @@ mozilla_appservices
 "
 0
 .
-40
+41
 .
 0
 "
@@ -476,9 +476,9 @@ work
 "
 2
 .
-2
-.
 0
+.
+1
 "
 const
 val
