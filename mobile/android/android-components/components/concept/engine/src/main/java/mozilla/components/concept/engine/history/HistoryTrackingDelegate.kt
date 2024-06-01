@@ -75,7 +75,7 @@ concept
 .
 storage
 .
-VisitType
+PageVisit
 /
 *
 *
@@ -189,9 +189,9 @@ onVisited
 uri
 :
 String
-type
+visit
 :
-VisitType
+PageVisit
 )
 /
 *

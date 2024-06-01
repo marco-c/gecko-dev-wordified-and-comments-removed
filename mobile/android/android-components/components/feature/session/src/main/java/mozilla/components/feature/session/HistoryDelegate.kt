@@ -111,7 +111,7 @@ concept
 .
 storage
 .
-VisitType
+PageVisit
 /
 *
 *
@@ -155,9 +155,9 @@ onVisited
 uri
 :
 String
-type
+visit
 :
-VisitType
+PageVisit
 )
 {
 /
@@ -200,7 +200,7 @@ historyStorage
 recordVisit
 (
 uri
-type
+visit
 )
 }
 }
