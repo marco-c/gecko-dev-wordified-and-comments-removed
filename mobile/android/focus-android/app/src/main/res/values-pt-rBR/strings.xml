@@ -2631,7 +2631,9 @@ Bloqueie
 automaticamente
 o
 rastreamento
-online
+on
+-
+line
 enquanto
 navega
 .
@@ -2706,9 +2708,9 @@ da
 navega
 o
 privativa
-quando
+ao
 se
-conecta
+conectar
 Web
 a
 partir
@@ -2737,7 +2739,6 @@ pida
 quando
 \
 nbloqueio
-=
 quebra
 <
 /
