@@ -625,9 +625,9 @@ false
 }
 catch
 (
-e
+_
 :
-Exception
+Throwable
 )
 {
 false
