@@ -346,6 +346,8 @@ IOException
 if
 the
 request
+failed
+or
 could
 not
 be

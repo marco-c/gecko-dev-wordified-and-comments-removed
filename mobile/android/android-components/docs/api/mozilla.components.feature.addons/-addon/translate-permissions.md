@@ -173,7 +173,7 @@ Addon
 .
 kt
 #
-L84
+L102
 )
 Returns
 a
@@ -187,14 +187,12 @@ item
 on
 the
 [
-Addon
+AddOn
 .
 permissions
 ]
 (
-permissions
-.
-md
+#
 )
 list
 .

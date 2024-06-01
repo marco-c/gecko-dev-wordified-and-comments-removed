@@ -119,7 +119,7 @@ Addon
 .
 kt
 #
-L50
+L47
 )
 The
 rating

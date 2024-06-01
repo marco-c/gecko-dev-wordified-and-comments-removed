@@ -511,7 +511,7 @@ WebExtensionSupport
 .
 kt
 #
-L71
+L82
 )
 Registers
 a
