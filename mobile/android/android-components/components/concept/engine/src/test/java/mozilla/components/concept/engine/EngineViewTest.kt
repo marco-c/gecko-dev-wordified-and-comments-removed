@@ -115,6 +115,16 @@ support
 .
 test
 .
+mock
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 robolectric
 .
 testContext
@@ -260,6 +270,9 @@ observer
 .
 onCreate
 (
+mock
+(
+)
 )
 verify
 (
@@ -273,6 +286,9 @@ observer
 .
 onDestroy
 (
+mock
+(
+)
 )
 verify
 (
@@ -286,6 +302,9 @@ observer
 .
 onStart
 (
+mock
+(
+)
 )
 verify
 (
@@ -299,6 +318,9 @@ observer
 .
 onStop
 (
+mock
+(
+)
 )
 verify
 (
@@ -312,6 +334,9 @@ observer
 .
 onPause
 (
+mock
+(
+)
 )
 verify
 (
@@ -325,6 +350,9 @@ observer
 .
 onResume
 (
+mock
+(
+)
 )
 verify
 (
