@@ -167,7 +167,7 @@ detectAll
 (
 )
 .
-penaltyLog
+penaltyDeath
 (
 )
 .
@@ -193,7 +193,7 @@ detectAll
 (
 )
 .
-penaltyLog
+penaltyDeath
 (
 )
 .
