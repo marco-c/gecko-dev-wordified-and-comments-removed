@@ -4100,6 +4100,7 @@ components
 .
 /
 gradlew
+assemble
 #
 #
 Android
