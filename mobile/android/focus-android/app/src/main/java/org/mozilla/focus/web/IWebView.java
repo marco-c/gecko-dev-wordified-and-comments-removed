@@ -347,4 +347,9 @@ getIcon
 (
 )
 ;
+String
+getTitle
+(
+)
+;
 }
