@@ -889,6 +889,9 @@ additionalSearchEngines
 additionalAvailableSearchEngines
 =
 additionalAvailableSearchEngines
+regionSearchEnginesOrder
+=
+regionSearchEngineIds
 )
 store
 .
