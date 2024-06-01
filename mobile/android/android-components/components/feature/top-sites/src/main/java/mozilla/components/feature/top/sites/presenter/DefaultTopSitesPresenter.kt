@@ -332,6 +332,9 @@ innerConfig
 totalSites
 innerConfig
 .
+fetchProvidedTopSites
+innerConfig
+.
 frecencyConfig
 )
 scope
