@@ -299,6 +299,12 @@ SearchFeature
 >
 (
 )
+Suppress
+(
+"
+LongMethod
+"
+)
 override
 fun
 onCreateView
@@ -334,6 +340,9 @@ ToolbarAutocompleteFeature
 layout
 .
 toolbar
+components
+.
+engine
 )
 .
 apply
@@ -390,6 +399,9 @@ components
 sessionUseCases
 .
 loadUrl
+components
+.
+engine
 )
 .
 addSessionProvider
@@ -430,6 +442,11 @@ SearchSuggestionProvider
 Mode
 .
 MULTIPLE_SUGGESTIONS
+engine
+=
+components
+.
+engine
 )
 .
 addClipboardProvider
@@ -442,6 +459,9 @@ components
 sessionUseCases
 .
 loadUrl
+components
+.
+engine
 )
 readerViewFeature
 .

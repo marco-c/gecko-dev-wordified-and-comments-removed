@@ -3021,6 +3021,13 @@ applyAutocompleteResult
 result
 :
 AutocompleteResult
+onApplied
+:
+(
+)
+-
+>
+Unit
 )
 {
 /
@@ -3120,6 +3127,9 @@ result
 .
 totalItems
 )
+)
+onApplied
+(
 )
 }
 else
