@@ -187,6 +187,10 @@ onLongPress
 final
 ClickTarget
 clickTarget
+float
+x
+float
+y
 )
 ;
 }

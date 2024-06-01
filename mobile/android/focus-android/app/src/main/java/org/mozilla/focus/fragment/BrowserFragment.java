@@ -1171,6 +1171,12 @@ IWebView
 .
 ClickTarget
 clickTarget
+final
+float
+x
+final
+float
+y
 )
 {
 if
