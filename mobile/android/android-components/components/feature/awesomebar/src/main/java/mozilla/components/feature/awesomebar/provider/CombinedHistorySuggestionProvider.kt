@@ -550,6 +550,13 @@ await
 )
 )
 .
+distinctBy
+{
+it
+.
+description
+}
+.
 take
 (
 maxNumberOfSuggestions
