@@ -553,6 +553,13 @@ toSentryBreadcrumbType
 )
 )
 .
+setTimestamp
+(
+this
+.
+date
+)
+.
 build
 (
 )
