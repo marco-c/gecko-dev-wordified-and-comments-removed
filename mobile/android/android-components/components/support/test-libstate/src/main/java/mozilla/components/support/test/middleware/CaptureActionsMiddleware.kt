@@ -434,6 +434,7 @@ dispatched
 .
 *
 /
+Synchronized
 fun
 <
 X
@@ -513,6 +514,7 @@ dispatched
 .
 *
 /
+Synchronized
 fun
 <
 X
@@ -579,6 +581,7 @@ found
 .
 *
 /
+Synchronized
 fun
 <
 X

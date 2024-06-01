@@ -7481,6 +7481,11 @@ triggeredByWebContent
 =
 false
 )
+store
+.
+waitUntilIdle
+(
+)
 middleware
 .
 assertNotDispatched
@@ -7658,11 +7663,6 @@ store
 observer
 .
 onNavigateBack
-(
-)
-store
-.
-waitUntilIdle
 (
 )
 store
