@@ -1132,6 +1132,13 @@ preferredColorScheme
 PreferredColorScheme
 .
 Dark
+httpsOnlyMode
+=
+Engine
+.
+HttpsOnlyMode
+.
+ENABLED
 }
 }
 val

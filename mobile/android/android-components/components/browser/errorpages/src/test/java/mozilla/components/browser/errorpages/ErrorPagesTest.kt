@@ -321,6 +321,12 @@ ErrorType
 .
 ERROR_SAFEBROWSING_PHISHING_URI
 )
+assertUrlEncodingIsValid
+(
+ErrorType
+.
+ERROR_HTTPS_ONLY
+)
 }
 private
 fun
