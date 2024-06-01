@@ -398,7 +398,7 @@ R
 .
 id
 .
-urlbar
+background
 )
 .
 getBackground
