@@ -286,8 +286,6 @@ set
 override
 var
 fullscreen
-:
-Boolean
 by
 Delegates
 .
