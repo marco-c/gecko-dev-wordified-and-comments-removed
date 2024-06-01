@@ -847,13 +847,6 @@ suggestion
 ?
 .
 icon
-?
-.
-invoke
-(
-2
-2
-)
 )
 assertEquals
 (

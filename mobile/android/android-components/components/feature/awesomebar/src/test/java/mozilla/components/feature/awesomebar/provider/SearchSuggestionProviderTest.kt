@@ -2213,13 +2213,6 @@ suggestions
 icon
 ?
 .
-invoke
-(
-20
-20
-)
-?
-.
 sameAs
 (
 engineIcon
@@ -2419,13 +2412,6 @@ suggestions
 ]
 .
 icon
-?
-.
-invoke
-(
-20
-20
-)
 ?
 .
 sameAs

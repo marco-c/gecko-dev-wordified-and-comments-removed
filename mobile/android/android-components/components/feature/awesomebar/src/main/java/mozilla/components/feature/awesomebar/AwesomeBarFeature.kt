@@ -685,9 +685,6 @@ ClipboardSuggestionProvider
 (
 context
 loadUrlUseCase
-icons
-=
-icons
 )
 )
 return
