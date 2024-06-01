@@ -26,6 +26,13 @@ SharedPreferences
 import
 android
 .
+net
+.
+Uri
+;
+import
+android
+.
 preference
 .
 PreferenceManager
@@ -151,6 +158,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -162,6 +173,7 @@ random
 /
 something
 "
+)
 "
 http
 :
@@ -179,6 +191,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -189,6 +205,7 @@ bcd
 .
 random
 "
+)
 "
 http
 :
@@ -206,6 +223,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -218,6 +239,7 @@ bcd
 .
 random
 "
+)
 "
 http
 :
@@ -235,6 +257,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -249,6 +275,7 @@ random
 /
 something
 "
+)
 "
 http
 :
@@ -266,6 +293,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -278,6 +309,7 @@ bcd
 .
 random
 "
+)
 "
 http
 :
@@ -295,6 +327,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -309,6 +345,7 @@ random
 /
 something
 "
+)
 "
 http
 :
@@ -327,6 +364,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -337,6 +378,7 @@ other
 .
 random
 "
+)
 "
 http
 :
@@ -355,6 +397,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -367,6 +413,7 @@ random
 /
 something
 "
+)
 "
 http
 :
@@ -385,6 +432,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -397,6 +448,7 @@ other
 .
 random
 "
+)
 "
 http
 :
@@ -415,6 +467,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -429,6 +485,7 @@ random
 /
 something
 "
+)
 "
 http
 :
@@ -447,6 +504,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -457,6 +518,7 @@ bcd
 .
 specific
 "
+)
 "
 http
 :
@@ -475,6 +537,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -487,6 +553,7 @@ specific
 /
 something
 "
+)
 "
 http
 :
@@ -505,6 +572,10 @@ assertTrue
 matcher
 .
 matches
+(
+Uri
+.
+parse
 (
 "
 http
@@ -517,6 +588,7 @@ bcd
 .
 specific
 "
+)
 "
 http
 :
@@ -536,6 +608,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -549,6 +625,7 @@ specific
 /
 something
 "
+)
 "
 http
 :
@@ -1049,7 +1126,12 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 url
+)
 "
 http
 :
