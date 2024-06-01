@@ -2457,7 +2457,7 @@ commandLine
 python3
 "
 "
-test_get_cross_repo_hashes
+test_list_compatible_dependency_versions
 .
 py
 "
