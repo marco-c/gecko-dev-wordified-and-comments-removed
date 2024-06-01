@@ -461,6 +461,10 @@ EMAIL_ADDRESS
 matcher
 (
 selectedText
+.
+trim
+(
+)
 )
 .
 matches
@@ -489,6 +493,10 @@ PHONE
 matcher
 (
 selectedText
+.
+trim
+(
+)
 )
 .
 matches
@@ -629,6 +637,10 @@ emailTextClicked
 invoke
 (
 selectedText
+.
+trim
+(
+)
 )
 true
 }
@@ -642,6 +654,10 @@ callTextClicked
 invoke
 (
 selectedText
+.
+trim
+(
+)
 )
 true
 }
