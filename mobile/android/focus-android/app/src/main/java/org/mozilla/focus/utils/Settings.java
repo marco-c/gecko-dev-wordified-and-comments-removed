@@ -128,6 +128,7 @@ shouldShowFirstrun
 )
 {
 return
+!
 preferences
 .
 getBoolean
