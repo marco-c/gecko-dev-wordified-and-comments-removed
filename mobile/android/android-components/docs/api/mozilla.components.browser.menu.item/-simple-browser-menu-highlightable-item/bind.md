@@ -177,7 +177,7 @@ SimpleBrowserMenuHighlightableItem
 .
 kt
 #
-L50
+L48
 )
 Overrides
 [
