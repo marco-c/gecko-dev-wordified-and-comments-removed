@@ -1473,14 +1473,5 @@ endObject
 (
 )
 }
-override
-fun
-toJSON
-(
-)
-=
-JSONObject
-(
-)
 }
 }
