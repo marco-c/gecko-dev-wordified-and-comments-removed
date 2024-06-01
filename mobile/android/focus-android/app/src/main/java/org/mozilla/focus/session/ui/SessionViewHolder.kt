@@ -183,6 +183,16 @@ utils
 .
 UrlUtils
 import
+org
+.
+mozilla
+.
+focus
+.
+utils
+.
+beautifyUrl
+import
 java
 .
 lang
@@ -471,6 +481,10 @@ textView
 text
 =
 shortUrl
+.
+beautifyUrl
+(
+)
 }
 override
 fun
