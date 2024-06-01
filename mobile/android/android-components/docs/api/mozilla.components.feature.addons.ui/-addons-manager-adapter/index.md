@@ -123,7 +123,7 @@ AddonsManagerAdapter
 .
 kt
 #
-L42
+L47
 )
 An
 adapter
