@@ -248,7 +248,9 @@ breadcrumbs
 =
 crashReporter
 .
-crashBreadcrumbs
+crashBreadcrumbsCopy
+(
+)
 )
 )
 defaultExceptionHandler
