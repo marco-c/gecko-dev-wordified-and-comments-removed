@@ -181,6 +181,8 @@ WebNotification
 title
 tag
 text
+"
+"
 imageUrl
 textDirection
 lang
