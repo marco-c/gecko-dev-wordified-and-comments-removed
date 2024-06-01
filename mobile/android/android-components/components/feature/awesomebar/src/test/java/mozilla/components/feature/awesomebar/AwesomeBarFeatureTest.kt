@@ -1247,7 +1247,7 @@ provider
 .
 value
 .
-maxNumberOfResults
+maxNumberOfSuggestions
 )
 }
 Test
