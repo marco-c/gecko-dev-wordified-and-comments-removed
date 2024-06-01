@@ -102,7 +102,7 @@ PermissionRequest
 .
 kt
 #
-L61
+L60
 )
 Represents
 all
@@ -726,7 +726,7 @@ desc
 md
 )
 |
-open
+abstract
 val
 desc
 :
@@ -785,7 +785,7 @@ id
 md
 )
 |
-open
+abstract
 val
 id
 :

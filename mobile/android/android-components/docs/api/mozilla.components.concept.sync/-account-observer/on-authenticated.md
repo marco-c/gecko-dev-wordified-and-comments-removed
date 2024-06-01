@@ -233,12 +233,10 @@ newAccount
 -
 True
 if
-this
-is
-a
-new
+an
 account
-that
 was
-authenticated
+just
+signed
+in
 .

@@ -56,7 +56,7 @@ md
 )
 #
 desc
-open
+abstract
 val
 desc
 :
@@ -142,7 +142,7 @@ PermissionRequest
 .
 kt
 #
-L61
+L62
 )
 an
 optional

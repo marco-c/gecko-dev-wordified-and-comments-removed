@@ -82,7 +82,7 @@ md
 =
 TrackingProtectionPolicy
 .
-all
+strict
 (
 )
 )
@@ -166,7 +166,7 @@ EngineSession
 .
 kt
 #
-L356
+L412
 )
 Enables
 tracking

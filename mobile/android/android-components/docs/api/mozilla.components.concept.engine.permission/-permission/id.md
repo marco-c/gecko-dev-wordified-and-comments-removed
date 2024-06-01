@@ -56,7 +56,7 @@ md
 )
 #
 id
-open
+abstract
 val
 id
 :
