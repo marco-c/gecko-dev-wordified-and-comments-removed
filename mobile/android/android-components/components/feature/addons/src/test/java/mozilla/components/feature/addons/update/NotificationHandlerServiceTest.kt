@@ -211,6 +211,12 @@ action
 )
 {
 val
+addonId
+=
+"
+addon_id
+"
+val
 allowIntent
 =
 Intent
@@ -236,9 +242,7 @@ putExtra
 DefaultAddonUpdater
 .
 NOTIFICATION_EXTRA_ADDON_ID
-"
-addon_id
-"
+addonId
 )
 }
 val
@@ -292,7 +296,7 @@ handler
 .
 handleAllowAction
 (
-allowIntent
+addonId
 )
 verify
 (
@@ -301,6 +305,7 @@ handler
 .
 removeNotification
 (
+addonId
 )
 verify
 (
@@ -309,9 +314,7 @@ updater
 .
 update
 (
-"
-addon_id
-"
+addonId
 )
 assertTrue
 (
@@ -320,9 +323,7 @@ storage
 isPreviouslyAllowed
 (
 testContext
-"
-addon_id
-"
+addonId
 )
 )
 storage
@@ -345,6 +346,12 @@ action
 )
 {
 val
+addonId
+=
+"
+addon_id
+"
+val
 allowIntent
 =
 Intent
@@ -365,6 +372,13 @@ action
 DefaultAddonUpdater
 .
 NOTIFICATION_ACTION_DENY
+putExtra
+(
+DefaultAddonUpdater
+.
+NOTIFICATION_EXTRA_ADDON_ID
+addonId
+)
 }
 val
 handler
@@ -417,6 +431,7 @@ handler
 .
 removeNotification
 (
+addonId
 )
 verify
 (
@@ -429,7 +444,7 @@ times
 .
 handleAllowAction
 (
-allowIntent
+addonId
 )
 verify
 (
