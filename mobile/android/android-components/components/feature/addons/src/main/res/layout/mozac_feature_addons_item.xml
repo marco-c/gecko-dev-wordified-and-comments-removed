@@ -711,11 +711,12 @@ android
 tint
 =
 "
+?
 android
 :
-color
+attr
 /
-black
+textColorPrimary
 "
 android
 :

@@ -173,9 +173,7 @@ tools
 text
 =
 "
-string
-/
-addon_settings_recommended_header
+Recommended
 "
 android
 :
