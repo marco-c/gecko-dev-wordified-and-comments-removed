@@ -200,7 +200,7 @@ entity
 .
 tabs
 .
-sortedBy
+sortedByDescending
 {
 it
 .
