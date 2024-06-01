@@ -615,6 +615,7 @@ registerFxaContentMessageHandler
 (
 session
 )
+true
 }
 extensionController
 .
