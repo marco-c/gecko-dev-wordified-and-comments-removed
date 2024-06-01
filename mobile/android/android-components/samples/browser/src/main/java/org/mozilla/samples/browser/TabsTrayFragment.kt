@@ -319,6 +319,8 @@ store
 components
 .
 tabsUseCases
+closeTabsTray
+=
 :
 :
 closeTabsTray
