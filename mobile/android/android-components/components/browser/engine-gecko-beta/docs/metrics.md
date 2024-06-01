@@ -61,10 +61,6 @@ by
 this
 project
 .
-Sorry
-about
-that
-.
 #
 Pings
 -
