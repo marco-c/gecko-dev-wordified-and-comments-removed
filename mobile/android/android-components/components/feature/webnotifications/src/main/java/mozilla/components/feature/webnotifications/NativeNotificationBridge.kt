@@ -450,6 +450,7 @@ toUri
 Size
 .
 DEFAULT
+true
 )
 ?
 .
@@ -498,6 +499,9 @@ Uri
 size
 :
 Size
+isPrivate
+:
+Boolean
 )
 :
 Bitmap
@@ -553,6 +557,9 @@ Type
 MANIFEST_ICON
 )
 )
+isPrivate
+=
+isPrivate
 )
 )
 .
