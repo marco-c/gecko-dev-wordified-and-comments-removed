@@ -967,6 +967,13 @@ List
 EngineSession
 >
 ?
+onRemove
+:
+(
+)
+-
+>
+Unit
 )
 {
 val
@@ -1022,6 +1029,11 @@ it
 VALUE_DENY
 )
 }
+onRemove
+.
+invoke
+(
+)
 }
 }
 VisibleForTesting

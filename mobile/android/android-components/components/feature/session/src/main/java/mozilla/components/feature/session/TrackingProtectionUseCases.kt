@@ -706,6 +706,16 @@ operator
 fun
 invoke
 (
+onRemove
+:
+(
+)
+-
+>
+Unit
+=
+{
+}
 )
 {
 val
@@ -743,6 +753,7 @@ trackingProtectionExceptionStore
 removeAll
 (
 engineSessions
+onRemove
 )
 }
 }
