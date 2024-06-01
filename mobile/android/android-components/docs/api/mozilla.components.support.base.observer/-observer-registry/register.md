@@ -155,7 +155,7 @@ ObserverRegistry
 .
 kt
 #
-L40
+L42
 )
 Overrides
 [
@@ -379,7 +379,7 @@ ObserverRegistry
 .
 kt
 #
-L45
+L51
 )
 Overrides
 [
@@ -568,7 +568,7 @@ ObserverRegistry
 .
 kt
 #
-L65
+L71
 )
 Overrides
 [
