@@ -170,7 +170,7 @@ Devices
 .
 kt
 #
-L78
+L69
 )
 Set
 a

@@ -167,7 +167,7 @@ Devices
 .
 kt
 #
-L64
+L55
 )
 Get
 all
