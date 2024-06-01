@@ -209,6 +209,14 @@ org
 .
 mockito
 .
+ArgumentMatchers
+.
+anyBoolean
+import
+org
+.
+mockito
+.
 Mockito
 .
 doReturn
@@ -1436,6 +1444,9 @@ getOrCreateEngineSession
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -1573,6 +1584,9 @@ sessionManager
 getOrCreateEngineSession
 (
 any
+(
+)
+anyBoolean
 (
 )
 )

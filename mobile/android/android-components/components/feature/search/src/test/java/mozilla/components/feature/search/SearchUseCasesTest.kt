@@ -237,6 +237,14 @@ org
 .
 mockito
 .
+ArgumentMatchers
+.
+anyBoolean
+import
+org
+.
+mockito
+.
 Mockito
 .
 verify
@@ -494,6 +502,9 @@ getOrCreateEngineSession
 any
 (
 )
+anyBoolean
+(
+)
 )
 )
 .
@@ -589,6 +600,9 @@ sessionManager
 getOrCreateEngineSession
 (
 any
+(
+)
+anyBoolean
 (
 )
 )
@@ -747,6 +761,9 @@ sessionManager
 getOrCreateEngineSession
 (
 any
+(
+)
+anyBoolean
 (
 )
 )

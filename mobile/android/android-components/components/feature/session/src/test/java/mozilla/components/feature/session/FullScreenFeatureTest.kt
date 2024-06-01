@@ -534,6 +534,7 @@ sessionManager
 getOrCreateEngineSession
 (
 activeSession
+false
 )
 )
 .

@@ -813,6 +813,7 @@ sessionManager
 getOrCreateEngineSession
 (
 session
+true
 )
 .
 loadUrl
@@ -1176,6 +1177,7 @@ sessionManager
 getOrCreateEngineSession
 (
 session
+true
 )
 .
 loadUrl

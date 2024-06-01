@@ -492,6 +492,11 @@ sessionRestored
 Boolean
 =
 false
+skipLoading
+:
+Boolean
+=
+false
 )
 {
 unlink
@@ -534,6 +539,10 @@ if
 (
 !
 sessionRestored
+&
+&
+!
+skipLoading
 )
 {
 engineSession
@@ -2130,6 +2139,11 @@ session
 Session
 =
 selectedSessionOrThrow
+skipLoading
+:
+Boolean
+=
+false
 )
 :
 EngineSession
@@ -2140,6 +2154,7 @@ delegate
 getOrCreateEngineSession
 (
 session
+skipLoading
 )
 }
 /

@@ -313,6 +313,14 @@ mockito
 .
 ArgumentMatchers
 .
+anyBoolean
+import
+org
+.
+mockito
+.
+ArgumentMatchers
+.
 eq
 import
 org
@@ -440,6 +448,9 @@ sessionManager
 getOrCreateEngineSession
 (
 anySession
+(
+)
+anyBoolean
 (
 )
 )
@@ -710,6 +721,9 @@ sessionManager
 getOrCreateEngineSession
 (
 anySession
+(
+)
+anyBoolean
 (
 )
 )
@@ -1035,6 +1049,9 @@ sessionManager
 getOrCreateEngineSession
 (
 anySession
+(
+)
+anyBoolean
 (
 )
 )

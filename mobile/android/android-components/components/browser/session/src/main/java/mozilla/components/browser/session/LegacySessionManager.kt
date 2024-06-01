@@ -1857,6 +1857,11 @@ session
 Session
 =
 selectedSessionOrThrow
+skipLoading
+:
+Boolean
+=
+false
 )
 :
 EngineSession
@@ -1922,6 +1927,7 @@ link
 session
 this
 restored
+skipLoading
 )
 }
 }
@@ -1936,6 +1942,11 @@ engineSession
 :
 EngineSession
 restored
+:
+Boolean
+=
+false
+skipLoading
 :
 Boolean
 =
@@ -1977,6 +1988,7 @@ session
 engineSession
 parent
 restored
+skipLoading
 )
 if
 (
