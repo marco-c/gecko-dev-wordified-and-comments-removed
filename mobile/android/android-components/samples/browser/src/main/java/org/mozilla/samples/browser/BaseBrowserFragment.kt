@@ -861,9 +861,6 @@ WindowFeature
 (
 components
 .
-engine
-components
-.
 sessionManager
 )
 sitePermissionsFeature

@@ -210,7 +210,6 @@ feature
 =
 WindowFeature
 (
-engine
 sessionManager
 )
 feature
@@ -286,7 +285,6 @@ feature
 =
 WindowFeature
 (
-engine
 sessionManager
 )
 feature
@@ -305,9 +303,6 @@ request
 .
 prepare
 (
-any
-(
-)
 )
 verify
 (
@@ -375,7 +370,6 @@ feature
 =
 WindowFeature
 (
-engine
 sessionManager
 )
 feature
@@ -413,7 +407,6 @@ feature
 =
 WindowFeature
 (
-engine
 sessionManager
 )
 feature
