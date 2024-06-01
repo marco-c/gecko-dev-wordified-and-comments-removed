@@ -656,9 +656,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-menu2
+menu
 .
 candidate
 /
