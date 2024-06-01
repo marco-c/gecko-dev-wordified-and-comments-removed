@@ -1534,6 +1534,8 @@ workerType
 :
 "
 decision
+-
+gcp
 "
 tags
 :

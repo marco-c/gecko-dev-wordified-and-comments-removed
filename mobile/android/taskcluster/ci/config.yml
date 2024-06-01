@@ -1213,6 +1213,8 @@ b
 linux
 -
 large
+-
+gcp
 beetmover
 :
 provisioner
@@ -1319,6 +1321,8 @@ worker
 type
 :
 images
+-
+gcp
 ship
 -
 it
