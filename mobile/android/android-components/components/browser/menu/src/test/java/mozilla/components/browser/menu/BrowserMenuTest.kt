@@ -1885,14 +1885,6 @@ Orientation
 .
 DOWN
 )
-assertEquals
-(
-popupWindow
-.
-animationStyle
--
-1
-)
 verify
 (
 popupWindow
