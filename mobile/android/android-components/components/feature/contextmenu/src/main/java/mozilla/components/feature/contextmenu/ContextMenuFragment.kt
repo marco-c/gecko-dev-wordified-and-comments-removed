@@ -398,6 +398,12 @@ Bundle
 :
 Dialog
 {
+SuppressLint
+(
+"
+UseGetLayoutInflater
+"
+)
 val
 inflater
 =
