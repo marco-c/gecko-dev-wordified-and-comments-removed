@@ -878,9 +878,10 @@ type
 of
 crash
 (
-native_code_crash
-and
-unhandled_exception
+fatal_native_code_crash
+nonfatal_native_code_crash
+caught_exception
+uncaught_exception
 currently
 )
 .
