@@ -87,7 +87,7 @@ jekyll
 .
 9
 .
-0
+2
 "
 #
 This
@@ -136,7 +136,7 @@ kramdown
 .
 3
 .
-0
+2
 "
 #
 If
@@ -177,7 +177,7 @@ github
 -
 pages
 "
-207
+227
 group
 :
 :
@@ -201,14 +201,5 @@ gem
 jekyll
 -
 feed
-"
-"
-~
->
-0
-.
-13
-.
-0
 "
 end
