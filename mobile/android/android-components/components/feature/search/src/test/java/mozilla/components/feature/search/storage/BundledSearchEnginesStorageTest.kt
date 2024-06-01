@@ -718,9 +718,6 @@ baidu
 ddg
 "
 "
-taobao
-"
-"
 wikipedia
 -
 zh
@@ -762,9 +759,6 @@ baidu
 "
 "
 ddg
-"
-"
-taobao
 "
 "
 wikipedia
