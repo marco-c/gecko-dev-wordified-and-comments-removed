@@ -643,8 +643,7 @@ run
 when
 fragment
 is
-not
-added
+detached
 (
 )
 {
@@ -729,7 +728,7 @@ fragment
 lifecycle
 doReturn
 (
-true
+false
 )
 .
 when
@@ -737,7 +736,7 @@ when
 fragment
 )
 .
-isAdded
+isDetached
 fragment
 .
 consumeFrom
@@ -848,7 +847,7 @@ receivedValue
 )
 doReturn
 (
-false
+true
 )
 .
 when
@@ -856,7 +855,7 @@ when
 fragment
 )
 .
-isAdded
+isDetached
 latch
 =
 CountDownLatch
@@ -929,7 +928,7 @@ receivedValue
 )
 doReturn
 (
-true
+false
 )
 .
 when
@@ -937,7 +936,7 @@ when
 fragment
 )
 .
-isAdded
+isDetached
 latch
 =
 CountDownLatch
