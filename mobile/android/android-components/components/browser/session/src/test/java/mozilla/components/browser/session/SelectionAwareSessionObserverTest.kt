@@ -116,6 +116,12 @@ org
 junit
 .
 Test
+Suppress
+(
+"
+DEPRECATION
+"
+)
 class
 SelectionAwareSessionObserverTest
 {
