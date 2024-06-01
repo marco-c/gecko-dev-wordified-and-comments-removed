@@ -153,6 +153,11 @@ Media
 Volume
 (
 )
+fullscreenInfo
+:
+Boolean
+=
+false
 )
 :
 MediaState
@@ -188,5 +193,8 @@ metadata
 volume
 =
 volume
+fullscreen
+=
+fullscreenInfo
 )
 }

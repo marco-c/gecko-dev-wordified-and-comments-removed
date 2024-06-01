@@ -577,6 +577,10 @@ is
 MediaAction
 .
 UpdateMediaStateAction
+is
+MediaAction
+.
+UpdateMediaFullscreenAction
 -
 >
 {

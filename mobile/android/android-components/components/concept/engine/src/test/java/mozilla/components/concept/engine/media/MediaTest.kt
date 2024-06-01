@@ -599,6 +599,13 @@ mock
 )
 override
 val
+fullscreen
+:
+Boolean
+=
+false
+override
+val
 volume
 :
 Volume

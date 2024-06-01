@@ -117,4 +117,7 @@ metadata
 volume
 =
 volume
+fullscreen
+=
+fullscreen
 )
