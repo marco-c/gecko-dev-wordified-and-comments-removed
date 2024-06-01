@@ -422,6 +422,15 @@ paddingStart
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+content_description_blocking_switch
+"
+android
+:
 textSize
 =
 "
