@@ -79,7 +79,7 @@ MPL
 -
 >
 <
-LinearLayout
+RelativeLayout
 xmlns
 :
 android
@@ -239,6 +239,15 @@ wrap_content
 "
 android
 :
+layout_below
+=
+"
+id
+/
+mozac_lib_crash_id
+"
+android
+:
 padding
 =
 "
@@ -291,7 +300,7 @@ android
 layout_width
 =
 "
-match_parent
+wrap_content
 "
 android
 :
@@ -299,6 +308,15 @@ layout_height
 =
 "
 wrap_content
+"
+android
+:
+layout_below
+=
+"
+id
+/
+mozac_lib_crash_title
 "
 android
 :
@@ -330,5 +348,5 @@ Socorro
 >
 <
 /
-LinearLayout
+RelativeLayout
 >
