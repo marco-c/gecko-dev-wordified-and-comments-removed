@@ -380,6 +380,10 @@ implementation
 Dependencies
 .
 kotlin_coroutines
+implementation
+Dependencies
+.
+androidx_lifecycle_viewmodel
 api
 project
 (
