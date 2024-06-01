@@ -175,6 +175,16 @@ Dependencies
 .
 mozilla_rustlog
 testImplementation
+project
+(
+'
+:
+support
+-
+test
+'
+)
+testImplementation
 Dependencies
 .
 testing_junit
