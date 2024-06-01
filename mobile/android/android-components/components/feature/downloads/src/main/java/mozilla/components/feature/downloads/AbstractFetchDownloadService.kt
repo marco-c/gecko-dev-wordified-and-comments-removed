@@ -4235,6 +4235,14 @@ Build
 VERSION_CODES
 .
 Q
+&
+&
+!
+Environment
+.
+isExternalStorageLegacy
+(
+)
 )
 {
 useFileStreamScopedStorage
