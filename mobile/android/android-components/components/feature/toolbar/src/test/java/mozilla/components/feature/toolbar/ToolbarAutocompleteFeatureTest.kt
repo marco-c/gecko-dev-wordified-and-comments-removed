@@ -626,6 +626,16 @@ fail
 (
 )
 }
+override
+fun
+dismissMenu
+(
+)
+{
+fail
+(
+)
+}
 }
 Test
 fun
