@@ -422,6 +422,12 @@ this
 tabs
 =
 tabs
+notifyObservers
+{
+onTabsUpdated
+(
+)
+}
 }
 override
 fun
