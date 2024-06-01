@@ -66,7 +66,7 @@ name
 mozac_feature_downloads_notification_channel
 "
 >
-Prevzat
+Stiahnut
 s
 bory
 <
@@ -100,7 +100,8 @@ name
 mozac_feature_downloads_paused_notification_text
 "
 >
-Preberanie
+S
+ahovanie
 je
 pozastaven
 <
@@ -143,7 +144,8 @@ name
 mozac_feature_downloads_completed_notification_text2
 "
 >
-Preberanie
+S
+ahovanie
 je
 dokon
 en
@@ -187,7 +189,8 @@ name
 mozac_feature_downloads_failed_notification_text2
 "
 >
-Preberanie
+S
+ahovanie
 zlyhalo
 <
 /
@@ -233,7 +236,7 @@ name
 mozac_feature_downloads_dialog_title2
 "
 >
-Prevzia
+Stiahnu
 (
 %
 1
@@ -271,7 +274,7 @@ name
 mozac_feature_downloads_dialog_download
 "
 >
-Prevzia
+Stiahnu
 <
 /
 string
@@ -358,7 +361,7 @@ cia
 s
 nedok
 e
-prevzia
+stiahnu
 tento
 typ
 s
