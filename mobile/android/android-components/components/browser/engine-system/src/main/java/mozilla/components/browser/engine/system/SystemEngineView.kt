@@ -1779,6 +1779,9 @@ url
 toString
 (
 )
+session
+.
+currentUrl
 request
 .
 hasGesture

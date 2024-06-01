@@ -2937,6 +2937,10 @@ EngineSession
 uri
 :
 String
+lastUri
+:
+String
+?
 hasUserGesture
 :
 Boolean
@@ -3450,6 +3454,10 @@ EngineSession
 uri
 :
 String
+lastUri
+:
+String
+?
 hasUserGesture
 :
 Boolean
@@ -3613,6 +3621,10 @@ EngineSession
 uri
 :
 String
+lastUri
+:
+String
+?
 hasUserGesture
 :
 Boolean
@@ -3894,6 +3906,10 @@ EngineSession
 uri
 :
 String
+lastUri
+:
+String
+?
 hasUserGesture
 :
 Boolean

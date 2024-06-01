@@ -615,6 +615,14 @@ String
 null
 internal
 var
+lastLoadRequestUri
+:
+String
+?
+=
+null
+internal
+var
 scrollY
 :
 Int
@@ -2578,7 +2586,9 @@ interceptor
 settings
 .
 requestInterceptor
-return
+val
+interceptionResponse
+=
 if
 (
 interceptor
@@ -2635,6 +2645,7 @@ engineSession
 request
 .
 uri
+lastLoadRequestUri
 request
 .
 hasUserGesture
@@ -2705,6 +2716,13 @@ else
 {
 null
 }
+lastLoadRequestUri
+=
+request
+.
+uri
+return
+interceptionResponse
 }
 }
 /

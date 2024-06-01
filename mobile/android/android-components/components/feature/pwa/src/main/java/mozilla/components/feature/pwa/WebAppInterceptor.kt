@@ -204,6 +204,10 @@ EngineSession
 uri
 :
 String
+lastUri
+:
+String
+?
 hasUserGesture
 :
 Boolean
