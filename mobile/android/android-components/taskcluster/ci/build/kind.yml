@@ -389,7 +389,7 @@ nightlyVersion
 component
 }
 :
-assemble
+assembleRelease
 '
 -
 '
@@ -398,7 +398,7 @@ assemble
 component
 }
 :
-test
+testRelease
 '
 -
 '
@@ -407,7 +407,7 @@ test
 component
 }
 :
-lint
+lintRelease
 '
 -
 '
