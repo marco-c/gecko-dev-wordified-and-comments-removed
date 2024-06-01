@@ -399,6 +399,15 @@ Horizontal
 "
 android
 :
+progressDrawable
+=
+"
+drawable
+/
+progress
+"
+android
+:
 layout_width
 =
 "
@@ -409,7 +418,7 @@ android
 layout_height
 =
 "
-2dp
+3dp
 "
 android
 :
