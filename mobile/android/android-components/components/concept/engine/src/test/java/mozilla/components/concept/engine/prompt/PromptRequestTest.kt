@@ -993,7 +993,7 @@ onConfirmNeutralButton
 true
 )
 val
-onConfirmLogin
+onLoginDismiss
 :
 (
 )
@@ -1004,7 +1004,7 @@ Unit
 {
 }
 val
-onDismissLogin
+onLoginConfirm
 :
 (
 Login
@@ -1047,8 +1047,8 @@ listOf
 (
 login
 )
-onConfirmLogin
-onDismissLogin
+onLoginDismiss
+onLoginConfirm
 )
 assertEquals
 (
@@ -1089,8 +1089,8 @@ listOf
 (
 login
 )
-onConfirmLogin
-onDismissLogin
+onLoginDismiss
+onLoginConfirm
 )
 assertEquals
 (
