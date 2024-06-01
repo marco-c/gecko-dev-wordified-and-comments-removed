@@ -444,6 +444,11 @@ store
 components
 .
 store
+onCloseTray
+=
+:
+:
+closeTabsTray
 )
 owner
 =
@@ -600,13 +605,6 @@ tab
 id
 )
 }
-}
-onCloseTray
-=
-{
-closeTabsTray
-(
-)
 }
 )
 }
