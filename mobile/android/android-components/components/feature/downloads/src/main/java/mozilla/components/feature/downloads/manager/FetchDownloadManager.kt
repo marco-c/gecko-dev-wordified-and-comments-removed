@@ -590,6 +590,9 @@ queuedDownloads
 [
 downloadId
 ]
+?
+:
+return
 val
 intent
 =
