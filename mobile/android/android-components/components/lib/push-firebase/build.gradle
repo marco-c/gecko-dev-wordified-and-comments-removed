@@ -148,10 +148,6 @@ support
 base
 '
 )
-implementation
-Dependencies
-.
-firebase_core
 api
 Dependencies
 .
