@@ -2353,6 +2353,14 @@ AllowOrDeny
 DENY
 )
 )
+geckoEngineSession
+.
+notifyObservers
+{
+onBeforeUnloadPromptDenied
+(
+)
+}
 }
 }
 geckoEngineSession
