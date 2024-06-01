@@ -462,7 +462,7 @@ android
 layout_marginBottom
 =
 "
-6dp
+2dp
 "
 android
 :
@@ -480,10 +480,10 @@ maxLines
 "
 android
 :
-textStyle
+textSize
 =
 "
-bold
+16sp
 "
 tools
 :
@@ -526,7 +526,7 @@ android
 textSize
 =
 "
-12sp
+14sp
 "
 tools
 :
