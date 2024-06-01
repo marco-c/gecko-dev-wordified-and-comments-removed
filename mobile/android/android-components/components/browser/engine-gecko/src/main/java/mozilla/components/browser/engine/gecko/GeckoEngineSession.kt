@@ -1842,6 +1842,13 @@ failed
 "
 throwable
 )
+notifyObservers
+{
+onSaveToPdfError
+(
+throwable
+)
+}
 GeckoResult
 (
 )
