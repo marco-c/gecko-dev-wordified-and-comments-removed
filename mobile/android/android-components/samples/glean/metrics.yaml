@@ -156,9 +156,6 @@ extra_keys
 :
 key1
 :
-type
-:
-string
 description
 :
 "
@@ -169,9 +166,6 @@ one
 "
 key2
 :
-type
-:
-string
 description
 :
 "

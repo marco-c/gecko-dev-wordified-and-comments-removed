@@ -298,7 +298,7 @@ val
 mozilla_glean
 =
 "
-39
+38
 .
 0
 .
