@@ -162,7 +162,9 @@ android
 drawablePadding
 =
 "
-12dp
+dimen
+/
+mozac_browser_menu_checkbox_padding
 "
 android
 :
