@@ -255,6 +255,10 @@ Dependencies
 .
 androidx_constraintlayout
 implementation
+Dependencies
+.
+androidx_recyclerview
+implementation
 project
 (
 '
