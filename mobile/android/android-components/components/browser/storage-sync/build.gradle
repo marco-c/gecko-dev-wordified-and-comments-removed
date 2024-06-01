@@ -352,6 +352,10 @@ Dependencies
 .
 mozilla_places
 api
+Dependencies
+.
+mozilla_remote_tabs
+api
 project
 (
 '
@@ -444,6 +448,10 @@ testImplementation
 Dependencies
 .
 mozilla_places
+testImplementation
+Dependencies
+.
+mozilla_remote_tabs
 testImplementation
 Dependencies
 .
