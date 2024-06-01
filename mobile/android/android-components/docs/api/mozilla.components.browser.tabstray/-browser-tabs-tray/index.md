@@ -126,7 +126,7 @@ BrowserTabsTray
 .
 kt
 #
-L22
+L23
 )
 A
 customizable
@@ -252,6 +252,12 @@ GridLayoutManager
 context
 2
 )
+itemDecoration
+:
+DividerItemDecoration
+?
+=
+null
 )
 <
 br

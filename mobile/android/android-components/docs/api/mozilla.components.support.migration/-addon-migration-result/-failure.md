@@ -117,7 +117,7 @@ AddonMigration
 .
 kt
 #
-L59
+L66
 )
 Failure
 variants

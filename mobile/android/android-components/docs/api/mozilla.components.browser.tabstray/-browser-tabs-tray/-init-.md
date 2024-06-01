@@ -149,6 +149,12 @@ GridLayoutManager
 context
 2
 )
+itemDecoration
+:
+DividerItemDecoration
+?
+=
+null
 )
 A
 customizable
