@@ -1743,6 +1743,9 @@ ws
 "
 wss
 "
+"
+blob
+"
 )
 internal
 val
