@@ -97,7 +97,7 @@ index
 .
 html
 )
-currentTime
+currentTimeMs
 :
 [
 Long
@@ -203,7 +203,7 @@ WebAppShortcutManager
 .
 kt
 #
-L219
+L205
 )
 Checks
 if
@@ -241,10 +241,13 @@ installed
 by
 the
 user
-currentTime
+currentTimeMs
 -
 the
-curent
+current
 time
 in
 milliseconds
+exposed
+for
+testing

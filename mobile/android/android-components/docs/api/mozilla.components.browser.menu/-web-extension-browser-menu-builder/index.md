@@ -262,12 +262,14 @@ item
 is
 selected
 .
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 -
 true
 if
 web
-extensions
+extension
+sub
+menu
 appear
 at
 the
@@ -620,7 +622,7 @@ html
 =
 {
 }
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 :
 [
 Boolean

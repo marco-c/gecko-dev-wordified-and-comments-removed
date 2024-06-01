@@ -93,7 +93,7 @@ index
 .
 html
 )
-currentTime
+currentTimeMs
 :
 [
 Long
@@ -123,6 +123,12 @@ long
 index
 .
 html
+)
+=
+System
+.
+currentTimeMillis
+(
 )
 )
 :
@@ -205,7 +211,7 @@ ManifestStorage
 .
 kt
 #
-L54
+L53
 )
 Checks
 whether
@@ -237,7 +243,7 @@ with
 manifest
 scopes
 .
-currentTime
+currentTimeMs
 -
 the
 current

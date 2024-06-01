@@ -77,7 +77,7 @@ suspend
 fun
 invoke
 (
-currentTime
+currentTimeMs
 :
 [
 Long
@@ -205,7 +205,7 @@ L95
 #
 #
 Parameters
-currentTime
+currentTimeMs
 -
 the
 current
