@@ -140,12 +140,6 @@ class
 ConnectionKtTest
 {
 Test
-Suppress
-(
-"
-Deprecation
-"
-)
 fun
 transform
 response

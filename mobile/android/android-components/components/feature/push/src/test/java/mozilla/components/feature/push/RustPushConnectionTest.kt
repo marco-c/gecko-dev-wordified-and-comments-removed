@@ -234,12 +234,6 @@ mockito
 Mockito
 .
 verify
-Suppress
-(
-"
-Deprecation
-"
-)
 class
 RustPushConnectionTest
 {
