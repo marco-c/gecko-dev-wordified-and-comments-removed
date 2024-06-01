@@ -163,11 +163,11 @@ mozilla
 .
 components
 .
-browser
-.
-session
+feature
 .
 intent
+.
+processing
 /
 -
 intent

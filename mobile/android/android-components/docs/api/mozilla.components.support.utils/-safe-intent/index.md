@@ -1430,11 +1430,11 @@ mozilla
 .
 components
 .
-browser
-.
-session
+feature
 .
 intent
+.
+ext
 /
 get
 -

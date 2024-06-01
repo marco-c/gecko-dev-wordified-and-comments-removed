@@ -127,7 +127,7 @@ engine
 -
 gecko
 -
-nightly
+beta
 /
 src
 /

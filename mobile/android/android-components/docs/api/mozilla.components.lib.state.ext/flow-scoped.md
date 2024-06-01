@@ -146,12 +146,9 @@ flowScoped
 owner
 :
 LifecycleOwner
+?
 =
-ProcessLifecycleOwner
-.
-get
-(
-)
+null
 block
 :
 suspend
@@ -258,7 +255,7 @@ StoreExtensions
 .
 kt
 #
-L174
+L178
 )
 Launches
 a

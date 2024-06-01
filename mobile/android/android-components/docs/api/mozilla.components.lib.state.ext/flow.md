@@ -140,12 +140,9 @@ flow
 owner
 :
 LifecycleOwner
+?
 =
-ProcessLifecycleOwner
-.
-get
-(
-)
+null
 )
 :
 Flow
