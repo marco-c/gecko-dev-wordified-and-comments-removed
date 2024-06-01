@@ -217,6 +217,10 @@ Dependencies
 .
 androidx_espresso_core
 testImplementation
+Dependencies
+.
+mozilla_glean_forUnitTests
+testImplementation
 project
 (
 '

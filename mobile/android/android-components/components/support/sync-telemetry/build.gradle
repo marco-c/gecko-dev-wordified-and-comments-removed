@@ -209,6 +209,10 @@ testImplementation
 Dependencies
 .
 testing_mockito
+testImplementation
+Dependencies
+.
+mozilla_glean_forUnitTests
 }
 apply
 from

@@ -316,6 +316,10 @@ testImplementation
 Dependencies
 .
 testing_mockwebserver
+testImplementation
+Dependencies
+.
+mozilla_glean_forUnitTests
 }
 ext
 .
