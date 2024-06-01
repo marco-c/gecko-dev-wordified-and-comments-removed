@@ -389,9 +389,6 @@ crash
 .
 extrasPath
 )
-crash
-.
-minidumpSuccess
 appName
 )
 }
