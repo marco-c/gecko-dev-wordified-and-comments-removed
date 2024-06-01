@@ -56,6 +56,7 @@ md
 )
 #
 start
+Synchronized
 fun
 start
 (
@@ -171,7 +172,7 @@ MediaStateMachine
 .
 kt
 #
-L37
+L49
 )
 Start
 observing

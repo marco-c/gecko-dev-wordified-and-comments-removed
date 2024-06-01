@@ -56,6 +56,7 @@ md
 )
 #
 stop
+Synchronized
 fun
 stop
 (
@@ -142,7 +143,7 @@ MediaStateMachine
 .
 kt
 #
-L49
+L64
 )
 Stop
 observing
