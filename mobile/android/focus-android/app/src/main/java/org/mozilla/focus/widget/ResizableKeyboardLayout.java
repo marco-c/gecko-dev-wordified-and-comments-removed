@@ -243,8 +243,7 @@ calculateDifferenceBetweenHeightAndUsableArea
 if
 (
 difference
-!
-=
+>
 0
 )
 {
