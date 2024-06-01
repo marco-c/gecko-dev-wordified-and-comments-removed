@@ -162,7 +162,7 @@ false
 {
 storage
 .
-addPinnedSite
+addTopSite
 (
 title
 url

@@ -114,7 +114,7 @@ Observer
 Adds
 a
 new
-pinned
+top
 site
 .
 *
@@ -167,7 +167,7 @@ application
 *
 /
 fun
-addPinnedSite
+addTopSite
 (
 title
 :

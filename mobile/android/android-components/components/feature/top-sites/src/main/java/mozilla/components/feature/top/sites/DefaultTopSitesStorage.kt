@@ -344,7 +344,7 @@ url
 )
 -
 >
-addPinnedSite
+addTopSite
 (
 title
 url
@@ -358,7 +358,7 @@ true
 }
 override
 fun
-addPinnedSite
+addTopSite
 (
 title
 :

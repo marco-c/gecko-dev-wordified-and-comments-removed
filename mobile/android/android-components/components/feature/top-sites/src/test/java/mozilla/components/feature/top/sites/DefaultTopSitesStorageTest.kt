@@ -353,7 +353,7 @@ coroutineContext
 )
 defaultTopSitesStorage
 .
-addPinnedSite
+addTopSite
 (
 "
 Mozilla

@@ -176,7 +176,7 @@ verify
 topSitesStorage
 )
 .
-addPinnedSite
+addTopSite
 (
 "
 Mozilla
