@@ -1039,7 +1039,11 @@ isRecoverable
 =
 true
 )
+(
 worker
+as
+AddonUpdaterWorker
+)
 .
 updateAttemptStorage
 =
@@ -1223,7 +1227,11 @@ isRecoverable
 =
 false
 )
+(
 worker
+as
+AddonUpdaterWorker
+)
 .
 updateAttemptStorage
 =
