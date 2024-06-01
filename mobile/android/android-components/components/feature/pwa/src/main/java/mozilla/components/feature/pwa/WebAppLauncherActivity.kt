@@ -388,9 +388,6 @@ onDestroy
 resetBackgroundTimer
 (
 )
-emitCloseFact
-(
-)
 scope
 .
 cancel
