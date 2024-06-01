@@ -340,6 +340,23 @@ groups
 {
 }
     
+only_build_types
+=
+config
+.
+get
+(
+"
+only
+-
+for
+-
+build
+-
+types
+"
+)
+    
 for
 task
 in
@@ -399,6 +416,22 @@ build
 type
 '
 )
+        
+if
+only_build_types
+:
+            
+if
+not
+build_type
+or
+build_type
+not
+in
+only_build_types
+:
+                
+continue
         
 groups
 .
