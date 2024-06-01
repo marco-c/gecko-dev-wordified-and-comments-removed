@@ -1308,13 +1308,6 @@ selectedTabId
 if
 (
 selectionAffected
-&
-&
-updatedTabs
-.
-isNotEmpty
-(
-)
 )
 {
 /
@@ -1334,9 +1327,10 @@ available
 .
 updatedTabs
 .
-last
+lastOrNull
 (
 )
+?
 .
 id
 }
