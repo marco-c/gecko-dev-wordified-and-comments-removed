@@ -879,7 +879,9 @@ getName
 )
 )
 {
-return
+View
+v
+=
 WebViewProvider
 .
 create
@@ -887,6 +889,9 @@ create
 this
 attrs
 )
+;
+return
+v
 ;
 }
 return
