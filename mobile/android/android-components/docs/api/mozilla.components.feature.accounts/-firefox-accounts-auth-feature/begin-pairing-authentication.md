@@ -61,6 +61,12 @@ beginPairingAuthentication
 fun
 beginPairingAuthentication
 (
+context
+:
+<
+ERROR
+CLASS
+>
 pairingUrl
 :
 [
@@ -173,5 +179,5 @@ FirefoxAccountsAuthFeature
 .
 kt
 #
-L33
+L39
 )

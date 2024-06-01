@@ -59,6 +59,12 @@ beginAuthentication
 fun
 beginAuthentication
 (
+context
+:
+<
+ERROR
+CLASS
+>
 )
 :
 [
@@ -140,5 +146,5 @@ FirefoxAccountsAuthFeature
 .
 kt
 #
-L27
+L33
 )
