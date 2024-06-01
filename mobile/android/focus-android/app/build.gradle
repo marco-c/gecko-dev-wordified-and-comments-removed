@@ -2750,6 +2750,11 @@ US
 "
 return
 langs
+.
+sort
+{
+it
+}
 }
 def
 generatedLocaleListDir
