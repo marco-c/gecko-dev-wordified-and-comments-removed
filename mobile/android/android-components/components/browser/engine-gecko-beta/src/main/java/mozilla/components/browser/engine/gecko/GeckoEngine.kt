@@ -4004,6 +4004,13 @@ it
 }
 override
 var
+loginAutofillEnabled
+:
+Boolean
+=
+false
+override
+var
 forceUserScalableContent
 :
 Boolean
@@ -4132,6 +4139,13 @@ forceUserScalableContent
 it
 .
 forceUserScalableContent
+this
+.
+loginAutofillEnabled
+=
+it
+.
+loginAutofillEnabled
 }
 }
 Suppress

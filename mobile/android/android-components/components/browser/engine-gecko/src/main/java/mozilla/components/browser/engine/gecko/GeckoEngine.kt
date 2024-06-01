@@ -3221,6 +3221,13 @@ value
 }
 override
 var
+loginAutofillEnabled
+:
+Boolean
+=
+false
+override
+var
 webFontsEnabled
 :
 Boolean
@@ -4105,6 +4112,13 @@ forceUserScalableContent
 it
 .
 forceUserScalableContent
+this
+.
+loginAutofillEnabled
+=
+it
+.
+loginAutofillEnabled
 }
 }
 Suppress
