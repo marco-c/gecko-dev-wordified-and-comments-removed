@@ -278,6 +278,7 @@ time
 .
 *
 /
+JvmOverloads
 fun
 set
 (
@@ -580,6 +581,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testHasValue
 (
@@ -737,6 +739,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testGetValueAsString
 (
@@ -929,6 +932,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testGetValue
 (

@@ -389,6 +389,7 @@ MAX_LENGTH_EXTRA_KEY_VALUE
 ]
 *
 /
+JvmOverloads
 fun
 record
 (
@@ -750,6 +751,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testHasValue
 (
@@ -914,6 +916,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testGetValue
 (

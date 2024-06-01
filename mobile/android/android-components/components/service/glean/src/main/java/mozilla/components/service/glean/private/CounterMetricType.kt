@@ -268,6 +268,7 @@ parameters
 .
 *
 /
+JvmOverloads
 fun
 add
 (
@@ -429,6 +430,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testHasValue
 (
@@ -581,6 +583,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testGetValue
 (

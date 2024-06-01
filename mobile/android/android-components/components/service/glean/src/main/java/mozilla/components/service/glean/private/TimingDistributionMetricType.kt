@@ -895,6 +895,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testHasValue
 (
@@ -1047,6 +1048,7 @@ VisibleForTesting
 .
 NONE
 )
+JvmOverloads
 fun
 testGetValue
 (
