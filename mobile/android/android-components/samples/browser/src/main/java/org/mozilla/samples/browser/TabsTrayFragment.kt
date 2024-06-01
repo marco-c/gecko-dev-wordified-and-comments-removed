@@ -319,6 +319,13 @@ store
 components
 .
 tabsUseCases
+.
+selectTab
+components
+.
+tabsUseCases
+.
+removeTab
 components
 .
 thumbnailsUseCases
