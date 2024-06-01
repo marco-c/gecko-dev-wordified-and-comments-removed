@@ -1120,6 +1120,7 @@ PictureInPictureFeature
 (
 sessionManager
 activity
+null
 pipChangedCallback
 )
 pipFeature
