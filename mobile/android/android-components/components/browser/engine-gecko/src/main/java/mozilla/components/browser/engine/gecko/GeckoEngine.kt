@@ -764,9 +764,8 @@ trackingProtectionExceptionStore
 :
 TrackingProtectionExceptionStorage
 =
-TrackingProtectionExceptionFileStorage
+GeckoTrackingProtectionExceptionStorage
 (
-context
 runtime
 )
 )
@@ -1053,11 +1052,6 @@ down
 "
 )
 }
-trackingProtectionExceptionStore
-.
-restore
-(
-)
 }
 /
 *
