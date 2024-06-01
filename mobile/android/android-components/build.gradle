@@ -756,7 +756,9 @@ instanceof
 Test
 }
 .
-all
+configureEach
+(
+)
 {
 systemProperty
 "
