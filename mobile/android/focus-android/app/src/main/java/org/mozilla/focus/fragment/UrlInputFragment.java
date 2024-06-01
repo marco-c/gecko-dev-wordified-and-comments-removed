@@ -725,6 +725,13 @@ BrowserFragment
 FRAGMENT_TAG
 )
 .
+addToBackStack
+(
+"
+browser
+"
+)
+.
 commit
 (
 )
