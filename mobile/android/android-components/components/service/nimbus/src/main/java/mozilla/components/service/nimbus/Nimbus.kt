@@ -291,7 +291,7 @@ experiments
 .
 nimbus
 .
-ErrorException
+NimbusErrorException
 import
 org
 .
@@ -1865,7 +1865,7 @@ catch
 (
 e
 :
-ErrorException
+NimbusErrorException
 .
 RequestError
 )
@@ -1889,7 +1889,7 @@ catch
 (
 e
 :
-ErrorException
+NimbusErrorException
 .
 ResponseError
 )
@@ -1973,7 +1973,7 @@ catch
 (
 e
 :
-ErrorException
+NimbusErrorException
 .
 InvalidExperimentFormat
 )

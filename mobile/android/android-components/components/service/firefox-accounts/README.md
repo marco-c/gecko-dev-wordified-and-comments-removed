@@ -1505,7 +1505,7 @@ it
 is
 AccountEvent
 .
-IncomingDeviceCommand
+CommandReceived
 }
 .
 map

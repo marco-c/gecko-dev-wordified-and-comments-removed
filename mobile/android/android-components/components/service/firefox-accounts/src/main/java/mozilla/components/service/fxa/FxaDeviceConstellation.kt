@@ -101,6 +101,8 @@ appservices
 .
 fxaclient
 .
+PersistedFirefoxAccount
+as
 FirefoxAccount
 import
 mozilla
@@ -109,6 +111,8 @@ appservices
 .
 fxaclient
 .
+FxaErrorException
+as
 FxaException
 import
 mozilla

@@ -93,7 +93,7 @@ appservices
 .
 fxaclient
 .
-FxaException
+FxaErrorException
 /
 *
 *
@@ -115,7 +115,7 @@ appservices
 .
 fxaclient
 .
-FxaException
+FxaErrorException
 .
 Network
 /
@@ -151,7 +151,7 @@ appservices
 .
 fxaclient
 .
-FxaException
+FxaErrorException
 .
 Panic
 /
@@ -177,9 +177,9 @@ appservices
 .
 fxaclient
 .
-FxaException
+FxaErrorException
 .
-Unauthorized
+Authentication
 /
 *
 *
@@ -221,9 +221,9 @@ appservices
 .
 fxaclient
 .
-FxaException
+FxaErrorException
 .
-Unspecified
+Other
 /
 *
 *
