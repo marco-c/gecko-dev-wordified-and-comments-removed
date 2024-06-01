@@ -1110,6 +1110,13 @@ writeScope
 coroutineContext
 )
 {
+handlePlacesExceptions
+(
+"
+deleteEverything
+"
+)
+{
 places
 .
 writer
@@ -1119,6 +1126,7 @@ writer
 deleteEverything
 (
 )
+}
 }
 }
 /
