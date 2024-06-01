@@ -112,6 +112,15 @@ focus
 search
 .
 MultiselectSearchEngineListPreference
+android
+:
+key
+=
+"
+string
+/
+pref_key_multiselect_search_engine_list
+"
 /
 >
 <

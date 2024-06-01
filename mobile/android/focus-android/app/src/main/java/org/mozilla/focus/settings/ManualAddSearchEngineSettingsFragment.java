@@ -108,17 +108,6 @@ focus
 .
 search
 .
-SearchEngine
-;
-import
-org
-.
-mozilla
-.
-focus
-.
-search
-.
 SearchEngineManager
 ;
 import
@@ -323,7 +312,7 @@ getActivity
 .
 getSharedPreferences
 (
-SearchEngine
+SearchEngineManager
 .
 PREF_FILE_SEARCH_ENGINES
 Context
