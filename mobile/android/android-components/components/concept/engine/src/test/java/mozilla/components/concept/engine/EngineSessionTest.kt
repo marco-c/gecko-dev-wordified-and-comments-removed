@@ -8866,6 +8866,13 @@ exitFullScreenMode
 )
 {
 }
+override
+fun
+purgeHistory
+(
+)
+{
+}
 /
 /
 Helper
