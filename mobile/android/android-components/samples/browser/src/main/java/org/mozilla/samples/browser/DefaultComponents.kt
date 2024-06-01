@@ -331,7 +331,7 @@ feature
 .
 media
 .
-RecordingDevicesNotificationFeature
+MediaFeature
 import
 mozilla
 .
@@ -341,9 +341,7 @@ feature
 .
 media
 .
-notification
-.
-MediaNotificationFeature
+RecordingDevicesNotificationFeature
 import
 mozilla
 .
@@ -682,7 +680,7 @@ this
 enable
 (
 )
-MediaNotificationFeature
+MediaFeature
 (
 applicationContext
 )

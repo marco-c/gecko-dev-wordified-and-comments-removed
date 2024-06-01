@@ -119,9 +119,7 @@ feature
 .
 media
 .
-notification
-.
-MediaNotificationFeature
+MediaFeature
 import
 mozilla
 .
@@ -346,7 +344,7 @@ sessionManager
 val
 feature
 =
-MediaNotificationFeature
+MediaFeature
 (
 mock
 (
@@ -497,7 +495,7 @@ sessionManager
 val
 feature
 =
-MediaNotificationFeature
+MediaFeature
 (
 mock
 (
@@ -678,7 +676,7 @@ sessionManager
 val
 feature
 =
-MediaNotificationFeature
+MediaFeature
 (
 mock
 (

@@ -64,8 +64,6 @@ components
 feature
 .
 media
-.
-notification
 import
 android
 .
@@ -218,7 +216,7 @@ AndroidJUnit4
 class
 )
 class
-MediaNotificationFeatureTest
+MediaFeatureTest
 {
 Before
 After
@@ -272,7 +270,7 @@ sessionManager
 val
 feature
 =
-MediaNotificationFeature
+MediaFeature
 (
 context
 )
@@ -484,7 +482,7 @@ sessionManager
 val
 feature
 =
-MediaNotificationFeature
+MediaFeature
 (
 context
 )
@@ -616,7 +614,7 @@ sessionManager
 val
 feature
 =
-MediaNotificationFeature
+MediaFeature
 (
 context
 )
