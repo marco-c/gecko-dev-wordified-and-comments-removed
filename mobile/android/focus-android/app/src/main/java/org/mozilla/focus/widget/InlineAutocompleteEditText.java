@@ -1442,6 +1442,15 @@ endSettingAutocomplete
 )
 ;
 }
+announceForAccessibility
+(
+text
+.
+toString
+(
+)
+)
+;
 }
 private
 static
