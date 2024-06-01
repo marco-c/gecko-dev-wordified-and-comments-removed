@@ -312,6 +312,16 @@ kt
 build
 .
 gradle
+-
+gradle
+/
+wrapper
+/
+gradle
+-
+wrapper
+.
+properties
 toolchain
 -
 artifact
