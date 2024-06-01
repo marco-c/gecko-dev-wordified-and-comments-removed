@@ -433,10 +433,9 @@ override
 fun
 onMessageReceived
 (
-remoteMessage
+message
 :
 RemoteMessage
-?
 )
 {
 logger
@@ -447,11 +446,6 @@ info
 onMessageReceived
 "
 )
-remoteMessage
-?
-.
-let
-{
 /
 /
 This
@@ -467,7 +461,7 @@ handle
 val
 chId
 =
-it
+message
 .
 data
 .
@@ -518,7 +512,7 @@ chId
 )
 }
 val
-message
+encryptedMessage
 =
 EncryptedPushMessage
 (
@@ -527,7 +521,7 @@ channelId
 chId
 encoding
 =
-it
+message
 .
 data
 [
@@ -535,7 +529,7 @@ MESSAGE_KEY_ENCODING
 ]
 body
 =
-it
+message
 .
 data
 [
@@ -543,7 +537,7 @@ MESSAGE_KEY_BODY
 ]
 salt
 =
-it
+message
 .
 data
 [
@@ -551,7 +545,7 @@ MESSAGE_KEY_SALT
 ]
 cryptoKey
 =
-it
+message
 .
 data
 [
@@ -629,7 +623,7 @@ requireInstance
 .
 onMessageReceived
 (
-message
+encryptedMessage
 )
 }
 catch
@@ -674,7 +668,6 @@ Rust
 e
 )
 )
-}
 }
 }
 /
