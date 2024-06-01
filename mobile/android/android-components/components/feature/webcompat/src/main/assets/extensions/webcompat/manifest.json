@@ -37,7 +37,7 @@ version
 "
 :
 "
-30
+31
 .
 0
 .
@@ -855,6 +855,15 @@ live
 test
 -
 shim
+.
+js
+"
+"
+shims
+/
+maxmind
+-
+geoip
 .
 js
 "
