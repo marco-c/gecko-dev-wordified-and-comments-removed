@@ -424,11 +424,12 @@ adjust_token
 gradlew
 clean
 assemble
-test
+detektCheck
 lint
 pmd
 checkstyle
 findbugs
+test
 artifacts
 :
 '
@@ -863,11 +864,12 @@ adjust_token
 gradlew
 clean
 assemble
-test
+detektCheck
 lint
 pmd
 checkstyle
 findbugs
+test
 artifacts
 :
 '
