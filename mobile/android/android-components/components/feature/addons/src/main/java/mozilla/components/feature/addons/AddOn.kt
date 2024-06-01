@@ -605,7 +605,7 @@ Rating
 val
 average
 :
-Double
+Float
 val
 reviews
 :

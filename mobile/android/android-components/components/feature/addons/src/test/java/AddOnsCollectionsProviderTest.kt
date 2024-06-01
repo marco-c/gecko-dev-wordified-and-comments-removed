@@ -692,7 +692,7 @@ assertEquals
 (
 4
 .
-7003
+7003F
 addOn
 .
 rating
@@ -702,7 +702,7 @@ rating
 average
 0
 .
-7003
+7003F
 )
 assertEquals
 (

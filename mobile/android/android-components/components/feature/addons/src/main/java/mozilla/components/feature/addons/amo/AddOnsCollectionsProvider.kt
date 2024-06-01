@@ -655,6 +655,10 @@ optDouble
 average
 "
 )
+.
+toFloat
+(
+)
 )
 }
 else

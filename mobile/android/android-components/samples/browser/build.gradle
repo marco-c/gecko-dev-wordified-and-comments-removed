@@ -644,6 +644,16 @@ project
 (
 '
 :
+feature
+-
+addons
+'
+)
+implementation
+project
+(
+'
+:
 ui
 -
 autocomplete
