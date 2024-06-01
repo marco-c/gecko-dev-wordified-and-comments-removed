@@ -4782,6 +4782,13 @@ mozilla
 .
 components
 .
+support
+.
+webextensions
+mozilla
+.
+components
+.
 tooling
 .
 fetch

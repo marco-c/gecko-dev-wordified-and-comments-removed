@@ -54,6 +54,7 @@ md
 )
 #
 initialize
+JvmOverloads
 fun
 initialize
 (
@@ -177,7 +178,7 @@ Glean
 .
 kt
 #
-L94
+L95
 )
 Initialize
 Glean
