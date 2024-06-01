@@ -121,7 +121,7 @@ Error
 val
 exception
 :
-Throwable
+Exception
 )
 :
 SyncStatus
@@ -421,6 +421,7 @@ encryptionKey
 String
 block
 :
+suspend
 (
 store
 :
