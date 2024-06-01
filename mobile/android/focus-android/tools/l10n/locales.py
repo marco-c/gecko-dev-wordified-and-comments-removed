@@ -49,6 +49,10 @@ IN
 "
 ca
 "
+        
+"
+cak
+"
 	
 "
 cs
@@ -108,6 +112,10 @@ eu
 	
 "
 fa
+"
+        
+"
+fi
 "
 	
 "
@@ -181,6 +189,10 @@ ko
 "
 lo
 "
+        
+"
+mix
+"
 	
 "
 ms
@@ -194,6 +206,12 @@ my
 nb
 -
 NO
+"
+        
+"
+ne
+-
+NP
 "
 	
 "
@@ -261,6 +279,10 @@ th
 "
 tr
 "
+        
+"
+trs
+"
 	
 "
 uk
@@ -291,33 +313,11 @@ ADDITIONAL_SCREENSHOT_LOCALES
 [
 	
 "
-cak
-"
-	
-"
-fi
-"
-	
-"
 lt
 "
 	
 "
 meh
-"
-	
-"
-mix
-"
-	
-"
-ne
--
-NP
-"
-	
-"
-trs
 "
 	
 "
