@@ -744,10 +744,6 @@ Suggestions
 (
 groups
 fetcher
-.
-state
-.
-value
 colors
 orientation
 onSuggestionClicked
