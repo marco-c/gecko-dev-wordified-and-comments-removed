@@ -4127,6 +4127,15 @@ components
 .
 feature
 .
+privatemode
+.
+feature
+mozilla
+.
+components
+.
+feature
+.
 prompts
 mozilla
 .
