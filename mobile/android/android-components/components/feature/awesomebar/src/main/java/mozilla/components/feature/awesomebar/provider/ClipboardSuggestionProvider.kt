@@ -499,6 +499,9 @@ url
 description
 =
 url
+editSuggestion
+=
+url
 flags
 =
 setOf

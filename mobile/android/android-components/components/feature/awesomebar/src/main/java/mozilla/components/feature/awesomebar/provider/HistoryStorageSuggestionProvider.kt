@@ -547,6 +547,11 @@ description
 result
 .
 url
+editSuggestion
+=
+result
+.
+url
 score
 =
 result

@@ -546,6 +546,11 @@ description
 result
 .
 url
+editSuggestion
+=
+result
+.
+url
 onSuggestionClicked
 =
 {
