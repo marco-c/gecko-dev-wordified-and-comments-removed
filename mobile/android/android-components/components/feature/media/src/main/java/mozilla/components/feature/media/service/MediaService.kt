@@ -133,6 +133,14 @@ app
 .
 NotificationManagerCompat
 import
+androidx
+.
+core
+.
+content
+.
+ContextCompat
+import
 mozilla
 .
 components
@@ -273,7 +281,7 @@ service
 private
 const
 val
-ACTION_UODATE_STATE
+ACTION_UPDATE_STATE
 =
 "
 mozac
@@ -487,7 +495,7 @@ intent
 action
 )
 {
-ACTION_UODATE_STATE
+ACTION_UPDATE_STATE
 -
 >
 processCurrentState
@@ -748,10 +756,11 @@ context
 Context
 )
 {
-context
+ContextCompat
 .
-startService
+startForegroundService
 (
+context
 updateStateIntent
 (
 context
@@ -768,7 +777,7 @@ Context
 =
 Intent
 (
-ACTION_UODATE_STATE
+ACTION_UPDATE_STATE
 )
 .
 apply

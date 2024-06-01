@@ -373,7 +373,7 @@ never
 )
 )
 .
-startService
+startForegroundService
 (
 any
 (
@@ -399,7 +399,7 @@ verify
 context
 )
 .
-startService
+startForegroundService
 (
 any
 (
@@ -554,7 +554,7 @@ never
 )
 )
 .
-startService
+startForegroundService
 (
 any
 (
@@ -594,7 +594,7 @@ never
 )
 )
 .
-startService
+startForegroundService
 (
 any
 (
@@ -724,7 +724,7 @@ never
 )
 )
 .
-startService
+startForegroundService
 (
 any
 (
@@ -744,7 +744,7 @@ verify
 context
 )
 .
-startService
+startForegroundService
 (
 any
 (
@@ -873,7 +873,7 @@ verify
 context
 )
 .
-startService
+startForegroundService
 (
 any
 (
@@ -891,7 +891,7 @@ never
 )
 )
 .
-startService
+startForegroundService
 (
 any
 (
@@ -911,7 +911,7 @@ verify
 context
 )
 .
-startService
+startForegroundService
 (
 any
 (
