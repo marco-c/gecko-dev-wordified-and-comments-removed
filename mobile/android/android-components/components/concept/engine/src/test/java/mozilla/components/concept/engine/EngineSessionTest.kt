@@ -6321,7 +6321,7 @@ TrackingCategory
 TEST
 )
 )
-assertFalse
+assertTrue
 (
 recommendedPolicy
 .
@@ -6332,7 +6332,7 @@ TrackingCategory
 FINGERPRINTING
 )
 )
-assertFalse
+assertTrue
 (
 recommendedPolicy
 .
@@ -6439,7 +6439,7 @@ TrackingCategory
 CRYPTOMINING
 )
 )
-assertTrue
+assertFalse
 (
 strictPolicy
 .
