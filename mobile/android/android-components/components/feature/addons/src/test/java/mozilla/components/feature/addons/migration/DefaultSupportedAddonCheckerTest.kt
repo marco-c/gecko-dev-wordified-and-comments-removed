@@ -203,13 +203,11 @@ mozilla
 .
 components
 .
-feature
+support
 .
-addons
+base
 .
-migration
-.
-SupportedAddonsChecker
+worker
 .
 Frequency
 import
