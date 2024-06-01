@@ -972,7 +972,7 @@ top_sites
 (
 title
 url
-isDefault
+is_default
 created_at
 )
 "
@@ -1046,7 +1046,7 @@ columnCount
 /
 /
 Check
-isDefault
+is_default
 for
 Mozilla
 cursor
@@ -1066,7 +1066,7 @@ cursor
 getColumnIndexOrThrow
 (
 "
-isDefault
+is_default
 "
 )
 )
@@ -1074,7 +1074,7 @@ isDefault
 /
 /
 Check
-isDefault
+is_default
 for
 Top
 Articles
@@ -1095,7 +1095,7 @@ cursor
 getColumnIndexOrThrow
 (
 "
-isDefault
+is_default
 "
 )
 )
@@ -1103,7 +1103,7 @@ isDefault
 /
 /
 Check
-isDefault
+is_default
 for
 Wikipedia
 cursor
@@ -1123,7 +1123,7 @@ cursor
 getColumnIndexOrThrow
 (
 "
-isDefault
+is_default
 "
 )
 )
@@ -1131,7 +1131,7 @@ isDefault
 /
 /
 Check
-isDefault
+is_default
 for
 YouTube
 cursor
@@ -1151,7 +1151,7 @@ cursor
 getColumnIndexOrThrow
 (
 "
-isDefault
+is_default
 "
 )
 )
@@ -1159,7 +1159,7 @@ isDefault
 /
 /
 Check
-isDefault
+is_default
 for
 Firefox
 cursor
@@ -1179,7 +1179,7 @@ cursor
 getColumnIndexOrThrow
 (
 "
-isDefault
+is_default
 "
 )
 )
@@ -1187,7 +1187,7 @@ isDefault
 /
 /
 Check
-isDefault
+is_default
 for
 Monitor
 cursor
@@ -1207,7 +1207,7 @@ cursor
 getColumnIndexOrThrow
 (
 "
-isDefault
+is_default
 "
 )
 )

@@ -255,11 +255,11 @@ SupportSQLiteDatabase
 Add
 the
 new
-isDefault
+is_default
 column
 and
 set
-isDefault
+is_default
 to
 0
 (
@@ -279,7 +279,7 @@ TABLE
 top_sites
 ADD
 COLUMN
-isDefault
+is_default
 INTEGER
 NOT
 NULL
@@ -315,7 +315,7 @@ these
 entries
 and
 set
-isDefault
+is_default
 to
 1
 (
@@ -333,7 +333,7 @@ top_sites
 +
 "
 SET
-isDefault
+is_default
 =
 1
 "
