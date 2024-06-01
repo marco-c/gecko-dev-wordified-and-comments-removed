@@ -484,8 +484,14 @@ configuration
 Configuration
 ]
 containing
-information
-about
+a
+HTTP
+client
+for
+fetching
+experiments
+and
+*
 the
 experiments
 endpoint
@@ -523,10 +529,6 @@ Context
 configuration
 :
 Configuration
-=
-Configuration
-(
-)
 onExperimentsUpdated
 :
 (

@@ -598,8 +598,6 @@ EXPERIMENTS_COLLECTION_NAME
 configuration
 .
 httpClient
-.
-value
 )
 }
 /
