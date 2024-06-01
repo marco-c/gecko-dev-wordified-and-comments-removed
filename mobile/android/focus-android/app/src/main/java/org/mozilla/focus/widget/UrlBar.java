@@ -211,7 +211,7 @@ init
 {
 setBackgroundColor
 (
-0xFF444444
+0xFF363B40
 )
 ;
 int
@@ -585,7 +585,7 @@ onEnteredEditMode
 }
 setBackgroundColor
 (
-0xFF444444
+0xFF363B40
 )
 ;
 showPrevious
