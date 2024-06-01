@@ -80,9 +80,7 @@ plugin
 '
 kotlin
 -
-android
--
-extensions
+parcelize
 '
 android
 {
@@ -126,6 +124,11 @@ rules
 pro
 '
 }
+}
+buildFeatures
+{
+viewBinding
+true
 }
 }
 tasks

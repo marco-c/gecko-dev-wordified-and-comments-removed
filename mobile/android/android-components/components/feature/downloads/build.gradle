@@ -80,9 +80,7 @@ plugin
 '
 kotlin
 -
-android
--
-extensions
+parcelize
 '
 apply
 plugin
@@ -189,6 +187,11 @@ toString
 (
 )
 )
+}
+buildFeatures
+{
+viewBinding
+true
 }
 }
 tasks
