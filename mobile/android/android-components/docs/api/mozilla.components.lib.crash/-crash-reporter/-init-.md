@@ -175,7 +175,7 @@ html
 )
 <
 [
-CrashReporterService
+CrashTelemetryService
 ]
 (
 .
@@ -197,7 +197,7 @@ service
 -
 crash
 -
-reporter
+telemetry
 -
 service
 /

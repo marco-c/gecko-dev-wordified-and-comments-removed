@@ -127,7 +127,7 @@ CrashReporter
 .
 kt
 #
-L55
+L56
 )
 A
 generic
@@ -424,7 +424,7 @@ html
 )
 <
 [
-CrashReporterService
+CrashTelemetryService
 ]
 (
 .
@@ -446,7 +446,7 @@ service
 -
 crash
 -
-reporter
+telemetry
 -
 service
 /
