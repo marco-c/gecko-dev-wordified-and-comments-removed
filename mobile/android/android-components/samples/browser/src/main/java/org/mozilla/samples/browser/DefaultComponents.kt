@@ -1094,6 +1094,11 @@ AddonCollectionProvider
 (
 applicationContext
 client
+collectionName
+=
+"
+16f6e5d9a40448b8955db57ced6d75
+"
 maxCacheAgeInMinutes
 =
 DAY_IN_MINUTES
