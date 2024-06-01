@@ -243,6 +243,10 @@ newInstance
 sessionId
 "
 "
+uid
+"
+true
+"
 title
 "
 "
@@ -334,6 +338,15 @@ fragment
 sessionId
 "
 sessionId
+"
+)
+assertEquals
+(
+fragment
+.
+promptRequestUID
+"
+uid
 "
 )
 assertEquals
@@ -486,6 +499,9 @@ onConfirm
 "
 sessionId
 "
+"
+uid
+"
 false
 )
 }
@@ -562,6 +578,9 @@ onCancel
 (
 "
 sessionId
+"
+"
+uid
 "
 false
 )
@@ -657,6 +676,9 @@ onCancel
 (
 "
 sessionId
+"
+"
+uid
 "
 false
 )

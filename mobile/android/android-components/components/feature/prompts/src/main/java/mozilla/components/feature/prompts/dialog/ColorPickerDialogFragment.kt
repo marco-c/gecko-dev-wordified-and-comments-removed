@@ -371,6 +371,7 @@ feature
 onConfirm
 (
 sessionId
+promptRequestUID
 selectedColor
 .
 toHexColor
@@ -388,6 +389,7 @@ feature
 onCancel
 (
 sessionId
+promptRequestUID
 )
 }
 }
@@ -728,6 +730,12 @@ newInstance
 sessionId
 :
 String
+promptRequestUID
+:
+String
+shouldDismissOnLoad
+:
+Boolean
 defaultColor
 :
 String
@@ -756,6 +764,16 @@ putString
 (
 KEY_SESSION_ID
 sessionId
+)
+putString
+(
+KEY_PROMPT_UID
+promptRequestUID
+)
+putBoolean
+(
+KEY_SHOULD_DISMISS_ON_LOAD
+shouldDismissOnLoad
 )
 putInt
 (

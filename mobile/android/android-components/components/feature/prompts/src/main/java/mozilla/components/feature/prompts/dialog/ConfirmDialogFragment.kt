@@ -276,6 +276,7 @@ feature
 onCancel
 (
 sessionId
+promptRequestUID
 userSelectionNoMoreDialogs
 )
 }
@@ -324,6 +325,7 @@ feature
 onCancel
 (
 sessionId
+promptRequestUID
 userSelectionNoMoreDialogs
 )
 }
@@ -339,6 +341,7 @@ feature
 onConfirm
 (
 sessionId
+promptRequestUID
 userSelectionNoMoreDialogs
 )
 }
@@ -360,6 +363,12 @@ String
 ?
 =
 null
+promptRequestUID
+:
+String
+shouldDismissOnLoad
+:
+Boolean
 title
 :
 String
@@ -407,6 +416,16 @@ putString
 (
 KEY_SESSION_ID
 sessionId
+)
+putString
+(
+KEY_PROMPT_UID
+promptRequestUID
+)
+putBoolean
+(
+KEY_SHOULD_DISMISS_ON_LOAD
+shouldDismissOnLoad
 )
 putString
 (

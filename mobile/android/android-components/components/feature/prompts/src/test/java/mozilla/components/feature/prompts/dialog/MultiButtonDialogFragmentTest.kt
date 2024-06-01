@@ -151,7 +151,9 @@ support
 .
 test
 .
-mock
+ext
+.
+appCompatContext
 import
 mozilla
 .
@@ -161,9 +163,7 @@ support
 .
 test
 .
-ext
-.
-appCompatContext
+mock
 import
 org
 .
@@ -292,6 +292,9 @@ newInstance
 (
 "
 sessionId
+"
+"
+uid
 "
 "
 title
@@ -441,6 +444,15 @@ assertEquals
 (
 fragment
 .
+promptRequestUID
+"
+uid
+"
+)
+assertEquals
+(
+fragment
+.
 message
 "
 message
@@ -546,6 +558,9 @@ newInstance
 sessionId
 "
 "
+uid
+"
+"
 title
 "
 "
@@ -638,6 +653,9 @@ newInstance
 sessionId
 "
 "
+uid
+"
+"
 title
 "
 "
@@ -710,6 +728,9 @@ onConfirm
 "
 sessionId
 "
+"
+uid
+"
 false
 to
 MultiButtonDialogFragment
@@ -743,6 +764,9 @@ newInstance
 (
 "
 sessionId
+"
+"
+uid
 "
 "
 title
@@ -821,6 +845,9 @@ onConfirm
 "
 sessionId
 "
+"
+uid
+"
 false
 to
 MultiButtonDialogFragment
@@ -854,6 +881,9 @@ newInstance
 (
 "
 sessionId
+"
+"
+uid
 "
 "
 title
@@ -932,6 +962,9 @@ onConfirm
 "
 sessionId
 "
+"
+uid
+"
 false
 to
 MultiButtonDialogFragment
@@ -971,6 +1004,9 @@ newInstance
 (
 "
 sessionId
+"
+"
+uid
 "
 "
 title
@@ -1066,6 +1102,9 @@ onConfirm
 "
 sessionId
 "
+"
+uid
+"
 true
 to
 MultiButtonDialogFragment
@@ -1101,6 +1140,9 @@ newInstance
 (
 "
 sessionId
+"
+"
+uid
 "
 "
 title
@@ -1152,6 +1194,9 @@ onCancel
 (
 "
 sessionId
+"
+"
+uid
 "
 )
 }

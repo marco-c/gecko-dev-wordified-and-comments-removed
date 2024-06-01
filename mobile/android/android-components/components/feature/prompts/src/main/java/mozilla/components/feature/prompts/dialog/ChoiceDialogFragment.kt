@@ -373,6 +373,12 @@ Choice
 sessionId
 :
 String
+promptRequestUID
+:
+String
+shouldDismissOnLoad
+:
+Boolean
 dialogType
 :
 Int
@@ -411,6 +417,16 @@ putString
 (
 KEY_SESSION_ID
 sessionId
+)
+putString
+(
+KEY_PROMPT_UID
+promptRequestUID
+)
+putBoolean
+(
+KEY_SHOULD_DISMISS_ON_LOAD
+shouldDismissOnLoad
 )
 putInt
 (
@@ -546,6 +562,7 @@ feature
 onConfirm
 (
 sessionId
+promptRequestUID
 selectedChoice
 )
 dismiss
@@ -573,6 +590,7 @@ feature
 onCancel
 (
 sessionId
+promptRequestUID
 )
 }
 private
@@ -628,6 +646,7 @@ feature
 onCancel
 (
 sessionId
+promptRequestUID
 )
 }
 .
@@ -699,6 +718,7 @@ feature
 onCancel
 (
 sessionId
+promptRequestUID
 )
 }
 .
@@ -721,6 +741,7 @@ feature
 onConfirm
 (
 sessionId
+promptRequestUID
 mapSelectChoice
 .
 keys
@@ -739,6 +760,7 @@ feature
 onCancel
 (
 sessionId
+promptRequestUID
 )
 }
 .

@@ -2737,6 +2737,10 @@ val
 sessionId
 :
 String
+val
+promptRequest
+:
+PromptRequest
 )
 :
 ContentAction

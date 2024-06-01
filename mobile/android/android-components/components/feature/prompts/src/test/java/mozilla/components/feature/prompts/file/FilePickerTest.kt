@@ -618,12 +618,15 @@ whenever
 (
 customTabContent
 .
-promptRequest
+promptRequests
 )
 .
 thenReturn
 (
+listOf
+(
 request
+)
 )
 val
 customTab
@@ -691,6 +694,7 @@ ConsumePromptRequestAction
 customTab
 .
 id
+request
 )
 )
 val
@@ -731,6 +735,7 @@ ConsumePromptRequestAction
 selected
 .
 id
+request
 )
 )
 }
@@ -1089,6 +1094,7 @@ ConsumePromptRequestAction
 selected
 .
 id
+filePickerRequest
 )
 )
 }
@@ -1194,6 +1200,7 @@ ConsumePromptRequestAction
 selected
 .
 id
+filePickerRequest
 )
 )
 }
@@ -1365,6 +1372,7 @@ ConsumePromptRequestAction
 selected
 .
 id
+filePickerRequest
 )
 )
 }
@@ -1446,6 +1454,7 @@ ConsumePromptRequestAction
 selected
 .
 id
+filePickerRequest
 )
 )
 }
@@ -1565,6 +1574,7 @@ ConsumePromptRequestAction
 selected
 .
 id
+request
 )
 )
 verify
@@ -2293,12 +2303,15 @@ whenever
 (
 content
 .
-promptRequest
+promptRequests
 )
 .
 thenReturn
 (
+listOf
+(
 promptRequest
+)
 )
 val
 selected
