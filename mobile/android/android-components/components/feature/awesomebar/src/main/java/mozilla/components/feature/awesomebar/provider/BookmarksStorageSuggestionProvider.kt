@@ -75,6 +75,12 @@ drawable
 .
 Drawable
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 mozilla
 .
 components
@@ -319,7 +325,10 @@ header
 class
 BookmarksStorageSuggestionProvider
 (
-private
+get
+:
+VisibleForTesting
+internal
 val
 bookmarksStorage
 :
@@ -420,6 +429,11 @@ AwesomeBar
 Suggestion
 >
 {
+bookmarksStorage
+.
+cancelReads
+(
+)
 if
 (
 text

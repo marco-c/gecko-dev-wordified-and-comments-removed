@@ -758,6 +758,8 @@ HistoryMetadata
 /
 interface
 HistoryMetadataStorage
+:
+Cancellable
 {
 /
 *

@@ -445,6 +445,12 @@ deleteEverything
 )
 }
 After
+Suppress
+(
+"
+DEPRECATION
+"
+)
 fun
 cleanup
 (

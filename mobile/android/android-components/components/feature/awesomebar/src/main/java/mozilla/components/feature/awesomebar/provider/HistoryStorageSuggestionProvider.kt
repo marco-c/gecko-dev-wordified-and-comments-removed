@@ -338,7 +338,10 @@ header
 class
 HistoryStorageSuggestionProvider
 (
-private
+get
+:
+VisibleForTesting
+internal
 val
 historyStorage
 :
@@ -366,6 +369,8 @@ Engine
 ?
 =
 null
+get
+:
 VisibleForTesting
 internal
 var
@@ -439,6 +444,11 @@ AwesomeBar
 Suggestion
 >
 {
+historyStorage
+.
+cancelReads
+(
+)
 if
 (
 text
