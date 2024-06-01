@@ -133,17 +133,6 @@ browser
 -
 storage
 -
-memory
-:
-browser
--
-storage
--
-memory
-browser
--
-storage
--
 sync
 :
 browser

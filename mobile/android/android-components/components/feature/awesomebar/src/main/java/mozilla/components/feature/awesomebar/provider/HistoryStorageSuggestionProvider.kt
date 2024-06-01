@@ -459,6 +459,11 @@ it
 .
 id
 }
+.
+take
+(
+maxNumberOfSuggestions
+)
 suggestions
 .
 firstOrNull
