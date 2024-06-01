@@ -313,11 +313,7 @@ index
 html
 )
 =
-"
-N
-/
-A
-"
+DEFAULT_VERSION_NAME
 releaseChannel
 :
 [

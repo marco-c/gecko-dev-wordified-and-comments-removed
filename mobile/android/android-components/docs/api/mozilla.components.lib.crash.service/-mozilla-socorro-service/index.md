@@ -120,7 +120,7 @@ MozillaSocorroService
 .
 kt
 #
-L61
+L62
 )
 A
 [
@@ -572,11 +572,7 @@ index
 html
 )
 =
-"
-N
-/
-A
-"
+DEFAULT_VERSION_NAME
 releaseChannel
 :
 [
