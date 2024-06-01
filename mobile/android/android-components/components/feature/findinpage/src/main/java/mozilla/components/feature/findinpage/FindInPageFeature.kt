@@ -77,9 +77,11 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+state
+.
+SessionState
 import
 mozilla
 .
@@ -87,9 +89,11 @@ components
 .
 browser
 .
-session
+state
 .
-SessionManager
+store
+.
+BrowserStore
 import
 mozilla
 .
@@ -179,7 +183,7 @@ with
 a
 bound
 [
-Session
+SessionState
 ]
 .
 *
@@ -187,9 +191,9 @@ Session
 class
 FindInPageFeature
 (
-sessionManager
+store
 :
-SessionManager
+BrowserStore
 view
 :
 FindInPageView
@@ -222,6 +226,7 @@ presenter
 =
 FindInPagePresenter
 (
+store
 view
 )
 VisibleForTesting
@@ -232,7 +237,6 @@ interactor
 FindInPageInteractor
 (
 this
-sessionManager
 view
 engineView
 )
@@ -240,7 +244,7 @@ private
 var
 session
 :
-Session
+SessionState
 ?
 =
 null
@@ -289,7 +293,7 @@ to
 the
 given
 [
-Session
+SessionState
 ]
 .
 Until
@@ -300,10 +304,10 @@ FindInPageView
 ]
 will
 be
+*
 updated
 presenting
 the
-*
 current
 "
 Find
@@ -319,7 +323,7 @@ bind
 (
 session
 :
-Session
+SessionState
 )
 {
 this
@@ -402,7 +406,7 @@ a
 previously
 bound
 [
-Session
+SessionState
 ]
 .
 The
@@ -411,12 +415,12 @@ FindInPageView
 ]
 will
 be
+*
 cleared
 and
 not
 be
 updated
-*
 to
 present
 the

@@ -71,9 +71,11 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+state
+.
+SessionState
 import
 mozilla
 .
@@ -363,7 +365,7 @@ interactor
 val
 session
 :
-Session
+SessionState
 =
 mock
 (
@@ -451,7 +453,7 @@ interactor
 val
 session
 :
-Session
+SessionState
 =
 mock
 (

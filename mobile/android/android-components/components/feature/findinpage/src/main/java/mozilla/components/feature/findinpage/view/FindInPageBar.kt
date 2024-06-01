@@ -147,9 +147,13 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+state
+.
+content
+.
+FindResultState
 import
 mozilla
 .
@@ -457,9 +461,7 @@ displayResult
 (
 result
 :
-Session
-.
-FindResult
+FindResultState
 )
 {
 with

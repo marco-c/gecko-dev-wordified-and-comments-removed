@@ -79,9 +79,13 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+state
+.
+content
+.
+FindResultState
 /
 *
 *
@@ -150,9 +154,7 @@ Displays
 the
 given
 [
-Session
-.
-FindResult
+FindResultState
 ]
 state
 in
@@ -166,9 +168,7 @@ displayResult
 (
 result
 :
-Session
-.
-FindResult
+FindResultState
 )
 /
 *

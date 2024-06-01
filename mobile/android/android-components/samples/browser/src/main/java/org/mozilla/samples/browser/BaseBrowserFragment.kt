@@ -988,7 +988,7 @@ FindInPageIntegration
 (
 components
 .
-sessionManager
+store
 layout
 .
 findInPage
