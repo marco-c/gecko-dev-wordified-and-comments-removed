@@ -181,6 +181,10 @@ Dependencies
 .
 testing_mockito
 implementation
+Dependencies
+.
+androidx_fragment
+implementation
 (
 Dependencies
 .
