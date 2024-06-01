@@ -138,7 +138,7 @@ AutoPushFeature
 .
 kt
 #
-L109
+L119
 )
 Overrides
 [
@@ -178,11 +178,14 @@ all
 push
 message
 channels
-and
 stops
 the
 push
 service
+and
+stops
+periodic
+verifications
 .
 This
 should
