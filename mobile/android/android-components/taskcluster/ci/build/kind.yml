@@ -657,7 +657,7 @@ lint
 '
 -
 '
-writeGithubBuildDetails
+githubBuildDetails
 '
 #
 No
@@ -713,7 +713,7 @@ lintRelease
 '
 -
 '
-writeGithubBuildDetails
+githubBuildDetails
 '
 default
 :
@@ -755,7 +755,7 @@ lintRelease
 '
 -
 '
-writeGithubBuildDetails
+githubBuildDetails
 '
 using
 :
