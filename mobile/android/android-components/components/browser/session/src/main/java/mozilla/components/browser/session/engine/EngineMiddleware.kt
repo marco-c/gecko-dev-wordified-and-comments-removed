@@ -768,7 +768,6 @@ restoreState
 (
 engineSessionState
 )
-true
 }
 else
 {
