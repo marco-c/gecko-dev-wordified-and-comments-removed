@@ -1668,6 +1668,10 @@ id
 CRYPTOMINING
 .
 id
++
+FINGERPRINTING
+.
+id
 )
 /
 *
@@ -1683,11 +1687,6 @@ plus
 [
 SCRIPTS_AND_SUB_RESOURCES
 ]
-*
-and
-[
-FINGERPRINTING
-]
 .
 *
 /
@@ -1698,10 +1697,6 @@ RECOMMENDED
 id
 +
 SCRIPTS_AND_SUB_RESOURCES
-.
-id
-+
-FINGERPRINTING
 .
 id
 )

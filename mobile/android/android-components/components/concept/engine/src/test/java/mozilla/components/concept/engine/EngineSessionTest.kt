@@ -6484,6 +6484,17 @@ contains
 (
 TrackingCategory
 .
+FINGERPRINTING
+)
+)
+assertTrue
+(
+recommendedPolicy
+.
+contains
+(
+TrackingCategory
+.
 CRYPTOMINING
 )
 )

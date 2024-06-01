@@ -7160,6 +7160,9 @@ UrlMatcher
 SOCIAL
 UrlMatcher
 .
+FINGERPRINTING
+UrlMatcher
+.
 CRYPTOMINING
 )
 val
