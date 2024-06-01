@@ -133,6 +133,10 @@ dependencies
 implementation
 Dependencies
 .
+androidx_appcompat
+implementation
+Dependencies
+.
 kotlin_stdlib
 implementation
 Dependencies
