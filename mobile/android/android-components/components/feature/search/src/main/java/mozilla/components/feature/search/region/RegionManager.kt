@@ -193,13 +193,13 @@ const
 val
 UPDATE_INTERVAL_MS
 =
-60
-*
-60
+14
 *
 24
 *
-14
+60
+*
+60
 *
 1000
 /
