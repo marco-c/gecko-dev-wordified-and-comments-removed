@@ -7,6 +7,13 @@ focus
 .
 web
 ;
+import
+android
+.
+net
+.
+Uri
+;
 public
 interface
 IWebView
@@ -33,6 +40,13 @@ onProgress
 (
 int
 progress
+)
+;
+void
+handleExternalUrl
+(
+String
+url
 )
 ;
 }
