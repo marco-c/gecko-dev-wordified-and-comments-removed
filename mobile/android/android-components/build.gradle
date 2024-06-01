@@ -1416,11 +1416,13 @@ true
 evaluationDependsOnChildren
 (
 )
-task
-docs
+tasks
+.
+register
 (
-type
-:
+"
+docs
+"
 org
 .
 jetbrains
@@ -1430,9 +1432,6 @@ dokka
 gradle
 .
 DokkaAndroidTask
-overwrite
-:
-true
 )
 {
 moduleName
