@@ -425,14 +425,14 @@ internal
 class
 WorkManagerSyncManager
 (
-syncConfig
-:
-SyncConfig
 private
 val
 context
 :
 Context
+syncConfig
+:
+SyncConfig
 )
 :
 SyncManager
