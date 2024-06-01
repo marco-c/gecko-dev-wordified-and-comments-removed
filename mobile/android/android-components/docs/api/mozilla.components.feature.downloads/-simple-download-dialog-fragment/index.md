@@ -167,7 +167,7 @@ is
 the
 default
 dialog
-use
+used
 by
 DownloadsFeature
 if
@@ -200,7 +200,7 @@ is
 clicked
 the
 download
-it
+is
 triggered
 .
 #

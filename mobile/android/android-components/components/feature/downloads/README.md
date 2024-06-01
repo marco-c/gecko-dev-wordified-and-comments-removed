@@ -752,7 +752,7 @@ before
 a
 download
 is
-trigger
+triggered
 .
 SimpleDownloadDialogFragment
 is
@@ -791,7 +791,7 @@ is
 clicked
 the
 download
-it
+is
 triggered
 .
 kotlin
