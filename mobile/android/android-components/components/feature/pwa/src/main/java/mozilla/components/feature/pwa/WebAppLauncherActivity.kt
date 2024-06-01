@@ -429,6 +429,10 @@ startUrl
 .
 apply
 {
+addCategory
+(
+SHORTCUT_CATEGORY
+)
 package
 =
 packageName
