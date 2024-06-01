@@ -121,18 +121,6 @@ state
 .
 selector
 .
-findTab
-import
-mozilla
-.
-components
-.
-browser
-.
-state
-.
-selector
-.
 findTabOrCustomTab
 import
 mozilla
@@ -321,7 +309,7 @@ context
 .
 state
 .
-findTab
+findTabOrCustomTab
 (
 action
 .
