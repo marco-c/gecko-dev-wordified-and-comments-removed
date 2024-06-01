@@ -74,6 +74,18 @@ SecureRandom
 *
 *
 *
+Generates
+a
+random
+key
+of
+specified
+[
+keyStrength
+]
+.
+*
+*
 param
 keyStrength
 The
@@ -92,7 +104,6 @@ Suppress
 MagicNumber
 "
 )
-internal
 fun
 generateEncryptionKey
 (
