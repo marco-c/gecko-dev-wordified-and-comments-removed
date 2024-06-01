@@ -793,6 +793,13 @@ parent
 "
 app
 :
+layout_goneMarginStart
+=
+"
+8dp
+"
+app
+:
 srcCompat
 =
 "
@@ -881,13 +888,6 @@ layout_constraintTop_toTopOf
 =
 "
 parent
-"
-app
-:
-layout_goneMarginStart
-=
-"
-8dp
 "
 app
 :
