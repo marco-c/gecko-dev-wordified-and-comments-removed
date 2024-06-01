@@ -378,8 +378,6 @@ startsWith
 "
 http
 :
-/
-/
 "
 )
 )
@@ -394,8 +392,6 @@ startsWith
 "
 https
 :
-/
-/
 "
 )
 )
@@ -410,8 +406,6 @@ startsWith
 "
 file
 :
-/
-/
 "
 )
 )
