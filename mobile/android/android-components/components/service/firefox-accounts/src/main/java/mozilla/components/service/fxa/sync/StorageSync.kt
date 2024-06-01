@@ -207,6 +207,15 @@ s
 .
 *
 /
+Deprecated
+(
+"
+Use
+SyncManager
+instead
+.
+"
+)
 class
 StorageSync
 (
