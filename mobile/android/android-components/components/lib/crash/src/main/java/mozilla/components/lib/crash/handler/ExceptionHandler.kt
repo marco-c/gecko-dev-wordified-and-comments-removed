@@ -249,10 +249,6 @@ breadcrumbs
 crashReporter
 .
 crashBreadcrumbs
-.
-toSortedArrayList
-(
-)
 )
 )
 defaultExceptionHandler
