@@ -176,7 +176,7 @@ project
 :
 browser
 -
-session
+state
 '
 )
 implementation
@@ -197,6 +197,16 @@ project
 support
 -
 ktx
+'
+)
+implementation
+project
+(
+'
+:
+support
+-
+base
 '
 )
 implementation
