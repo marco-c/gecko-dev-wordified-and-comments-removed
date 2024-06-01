@@ -217,6 +217,7 @@ index
 .
 html
 )
+?
 encoding
 :
 [
@@ -398,6 +399,7 @@ index
 .
 html
 )
+?
 |
 |
 [
@@ -671,6 +673,7 @@ index
 .
 html
 )
+?
 encoding
 :
 [

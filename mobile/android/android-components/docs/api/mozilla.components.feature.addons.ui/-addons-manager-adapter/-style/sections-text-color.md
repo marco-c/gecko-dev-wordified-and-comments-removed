@@ -163,5 +163,5 @@ AddonsManagerAdapter
 .
 kt
 #
-L297
+L306
 )
