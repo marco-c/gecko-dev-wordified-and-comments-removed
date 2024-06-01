@@ -1671,10 +1671,12 @@ AccessibilityManager
 >
 (
 )
-!
-!
+?
 .
 isTouchExplorationEnabled
+?
+:
+false
 VisibleForTesting
 internal
 var
