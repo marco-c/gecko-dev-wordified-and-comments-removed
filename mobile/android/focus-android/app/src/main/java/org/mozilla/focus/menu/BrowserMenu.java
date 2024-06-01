@@ -180,6 +180,7 @@ setAdapter
 new
 BrowserMenuAdapter
 (
+context
 this
 fragment
 )
