@@ -301,7 +301,15 @@ preference_default_browser
 /
 >
 <
-SwitchPreference
+org
+.
+mozilla
+.
+focus
+.
+widget
+.
+LinkedSwitchPreference
 android
 :
 title
