@@ -163,7 +163,7 @@ browser
 .
 menu
 .
-BrowserMenuBuilder
+BrowserMenuHighlight
 import
 mozilla
 .
@@ -173,7 +173,7 @@ browser
 .
 menu
 .
-BrowserMenuHighlight
+WebExtensionBrowserMenuBuilder
 import
 mozilla
 .
@@ -1236,9 +1236,12 @@ menuBuilder
 by
 lazy
 {
-BrowserMenuBuilder
+WebExtensionBrowserMenuBuilder
 (
 menuItems
+store
+=
+store
 )
 }
 private
