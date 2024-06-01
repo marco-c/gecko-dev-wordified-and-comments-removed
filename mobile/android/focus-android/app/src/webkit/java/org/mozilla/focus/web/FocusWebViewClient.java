@@ -379,6 +379,17 @@ getCertificate
 null
 )
 ;
+callback
+.
+onURLChanged
+(
+view
+.
+getUrl
+(
+)
+)
+;
 }
 super
 .
