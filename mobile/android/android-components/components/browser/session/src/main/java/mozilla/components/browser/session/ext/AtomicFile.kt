@@ -249,9 +249,7 @@ Saves
 the
 given
 [
-SessionManager
-.
-Snapshot
+BrowserState
 ]
 to
 this
