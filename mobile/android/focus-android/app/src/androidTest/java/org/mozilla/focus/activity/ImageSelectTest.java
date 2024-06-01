@@ -956,6 +956,8 @@ pressEnterKey
 (
 )
 ;
+assertTrue
+(
 TestHelper
 .
 webView
@@ -963,6 +965,17 @@ webView
 waitForExists
 (
 waitingTime
+)
+)
+;
+assertTrue
+(
+titleMsg
+.
+waitForExists
+(
+waitingTime
+)
 )
 ;
 assertTrue
@@ -1265,6 +1278,8 @@ pressEnterKey
 (
 )
 ;
+assertTrue
+(
 TestHelper
 .
 webView
@@ -1272,6 +1287,7 @@ webView
 waitForExists
 (
 waitingTime
+)
 )
 ;
 assertTrue
@@ -1474,6 +1490,8 @@ pressEnterKey
 (
 )
 ;
+assertTrue
+(
 TestHelper
 .
 webView
@@ -1481,6 +1499,7 @@ webView
 waitForExists
 (
 waitingTime
+)
 )
 ;
 rabbitImage

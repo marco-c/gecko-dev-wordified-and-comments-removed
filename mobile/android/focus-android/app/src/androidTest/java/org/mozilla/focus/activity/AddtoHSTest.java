@@ -175,6 +175,16 @@ click
 ;
 import
 static
+junit
+.
+framework
+.
+Assert
+.
+assertTrue
+;
+import
+static
 org
 .
 mozilla
@@ -1559,6 +1569,8 @@ waitForIdle
 (
 )
 ;
+assertTrue
+(
 TestHelper
 .
 webView
@@ -1566,6 +1578,7 @@ webView
 waitForExists
 (
 waitingTime
+)
 )
 ;
 TestHelper

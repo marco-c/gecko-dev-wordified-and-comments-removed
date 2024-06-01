@@ -362,6 +362,8 @@ pressEnterKey
 (
 )
 ;
+assertTrue
+(
 TestHelper
 .
 webView
@@ -369,6 +371,7 @@ webView
 waitForExists
 (
 waitingTime
+)
 )
 ;
 TestHelper

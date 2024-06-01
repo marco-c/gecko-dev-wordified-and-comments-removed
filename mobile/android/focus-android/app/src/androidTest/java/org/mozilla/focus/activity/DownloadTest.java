@@ -145,6 +145,16 @@ MockWebServer
 ;
 import
 static
+junit
+.
+framework
+.
+Assert
+.
+assertTrue
+;
+import
+static
 org
 .
 mozilla
@@ -871,6 +881,8 @@ pressEnterKey
 (
 )
 ;
+assertTrue
+(
 TestHelper
 .
 webView
@@ -878,6 +890,7 @@ webView
 waitForExists
 (
 waitingTime
+)
 )
 ;
 Assert
