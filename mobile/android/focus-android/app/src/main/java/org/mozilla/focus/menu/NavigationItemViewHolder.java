@@ -46,6 +46,7 @@ LoadStateListener
 {
 public
 static
+final
 int
 LAYOUT_ID
 =
