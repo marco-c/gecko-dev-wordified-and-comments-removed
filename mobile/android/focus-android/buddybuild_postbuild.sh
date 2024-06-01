@@ -65,6 +65,7 @@ directly
 in
 buddybuild
 .
+#
 .
 /
 gradlew
