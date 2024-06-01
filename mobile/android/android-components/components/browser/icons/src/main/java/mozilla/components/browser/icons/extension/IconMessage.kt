@@ -751,6 +751,10 @@ Resource
 url
 =
 url
+.
+trim
+(
+)
 type
 =
 type
