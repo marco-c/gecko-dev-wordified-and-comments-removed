@@ -292,6 +292,16 @@ base
 '
 )
 implementation
+project
+(
+'
+:
+support
+-
+utils
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
