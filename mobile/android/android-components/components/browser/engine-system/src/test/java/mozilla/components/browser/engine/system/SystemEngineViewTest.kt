@@ -7119,6 +7119,9 @@ ANALYTICS
 UrlMatcher
 .
 SOCIAL
+UrlMatcher
+.
+CRYPTOMINING
 )
 val
 strictCategories
@@ -7134,6 +7137,12 @@ ANALYTICS
 UrlMatcher
 .
 SOCIAL
+UrlMatcher
+.
+FINGERPRINTING
+UrlMatcher
+.
+CRYPTOMINING
 )
 var
 urlMatcher
