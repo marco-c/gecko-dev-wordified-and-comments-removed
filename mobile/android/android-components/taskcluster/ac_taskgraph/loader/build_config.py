@@ -387,6 +387,13 @@ split
 [
 1
 ]
+.
+strip
+(
+"
+'
+"
+)
             
 if
 line
