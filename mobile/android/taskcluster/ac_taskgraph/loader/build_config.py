@@ -922,6 +922,11 @@ downstream_component_dependencies
 )
         
 if
+affected_components
+is
+not
+ALL_COMPONENTS
+and
 "
 dependencies
 -
