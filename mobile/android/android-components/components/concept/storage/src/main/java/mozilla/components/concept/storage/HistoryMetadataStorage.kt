@@ -64,6 +64,18 @@ components
 concept
 .
 storage
+import
+android
+.
+os
+.
+Parcelable
+import
+kotlinx
+.
+parcelize
+.
+Parcelize
 /
 *
 *
@@ -304,6 +316,7 @@ tab
 .
 *
 /
+Parcelize
 data
 class
 HistoryMetadataKey
@@ -327,6 +340,8 @@ String
 =
 null
 )
+:
+Parcelable
 /
 *
 *
