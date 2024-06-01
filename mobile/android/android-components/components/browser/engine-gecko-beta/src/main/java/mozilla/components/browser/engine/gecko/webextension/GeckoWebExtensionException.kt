@@ -137,6 +137,7 @@ removing
 or
 updating
 .
+.
 *
 /
 class
