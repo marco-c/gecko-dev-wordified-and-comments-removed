@@ -1851,7 +1851,7 @@ ignoreHashCodeFunction
 true
 ignorePropertyDeclaration
 :
-false
+true
 ignoreLocalVariableDeclaration
 :
 false
