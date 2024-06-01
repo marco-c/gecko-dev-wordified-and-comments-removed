@@ -3265,6 +3265,13 @@ depends
 on
 native
 state
+and
+defaults
+to
+true
+if
+state
+unknown
 (
 )
 {
@@ -3319,7 +3326,7 @@ GeckoWebExtension
 nativeExtensionWithoutMetadata
 webExtensionController
 )
-assertFalse
+assertTrue
 (
 webExtension
 .
