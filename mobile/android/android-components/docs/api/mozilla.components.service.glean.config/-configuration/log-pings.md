@@ -142,7 +142,7 @@ Configuration
 .
 kt
 #
-L35
+L30
 )
 whether
 to

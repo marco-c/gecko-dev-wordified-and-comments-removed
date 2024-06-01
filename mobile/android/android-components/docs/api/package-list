@@ -4318,6 +4318,15 @@ service
 .
 glean
 .
+net
+mozilla
+.
+components
+.
+service
+.
+glean
+.
 private
 mozilla
 .

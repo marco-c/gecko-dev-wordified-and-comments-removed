@@ -142,7 +142,7 @@ Configuration
 .
 kt
 #
-L30
+L27
 )
 the
 server

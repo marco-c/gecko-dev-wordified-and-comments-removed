@@ -143,7 +143,7 @@ Configuration
 .
 kt
 #
-L40
+L35
 )
 String
 tag

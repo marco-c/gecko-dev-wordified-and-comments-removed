@@ -51,7 +51,7 @@ OnDownloadCompleted
 =
 (
 [
-Download
+DownloadState
 ]
 (
 .
@@ -63,10 +63,16 @@ components
 .
 browser
 .
-session
+state
+.
+state
+.
+content
 /
 -
 download
+-
+state
 /
 index
 .

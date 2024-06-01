@@ -62,7 +62,7 @@ setDownload
 download
 :
 [
-Download
+DownloadState
 ]
 (
 .
@@ -77,10 +77,16 @@ components
 .
 browser
 .
-session
+state
+.
+state
+.
+content
 /
 -
 download
+-
+state
 /
 index
 .
@@ -167,7 +173,7 @@ DownloadDialogFragment
 .
 kt
 #
-L30
+L32
 )
 add
 the
