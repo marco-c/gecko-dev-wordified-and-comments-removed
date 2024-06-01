@@ -792,6 +792,14 @@ verify
 controller
 )
 .
+syncAccount
+(
+)
+verify
+(
+controller
+)
+.
 refreshSyncedTabs
 (
 )

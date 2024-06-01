@@ -632,6 +632,11 @@ launch
 {
 controller
 .
+syncAccount
+(
+)
+controller
+.
 refreshSyncedTabs
 (
 )
