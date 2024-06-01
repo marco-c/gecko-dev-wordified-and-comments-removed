@@ -1157,6 +1157,7 @@ snapshot
 .
 *
 /
+internal
 fun
 restore
 (
