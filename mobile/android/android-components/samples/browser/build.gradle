@@ -828,6 +828,14 @@ implementation
 Dependencies
 .
 androidx_constraintlayout
+implementation
+Dependencies
+.
+androidx_swiperefreshlayout
+implementation
+Dependencies
+.
+androidx_localbroadcastmanager
 androidTestImplementation
 project
 (
