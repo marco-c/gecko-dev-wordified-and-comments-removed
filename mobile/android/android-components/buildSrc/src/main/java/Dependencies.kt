@@ -282,9 +282,9 @@ mozilla_glean
 "
 32
 .
-1
+3
 .
-1
+2
 "
 const
 val
