@@ -453,7 +453,7 @@ name
 mozac_feature_autofill_confirmation_yes
 "
 >
-I
+S
 <
 /
 string
@@ -501,7 +501,7 @@ name
 mozac_feature_autofill_confirmation_no
 "
 >
-Inn
+N
 <
 /
 string
