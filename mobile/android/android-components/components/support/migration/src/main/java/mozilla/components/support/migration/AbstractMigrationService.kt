@@ -202,6 +202,16 @@ migration
 state
 .
 MigrationStore
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
 private
 const
 val
@@ -713,7 +723,9 @@ Intent
 .
 FLAG_ACTIVITY_CLEAR_TOP
 )
-0
+PendingIntentUtils
+.
+defaultFlags
 )
 )
 .

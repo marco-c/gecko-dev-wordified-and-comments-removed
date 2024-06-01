@@ -178,6 +178,16 @@ feature
 session
 .
 SessionUseCases
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
 /
 *
 *
@@ -541,7 +551,9 @@ getBroadcast
 context
 requestCode
 intent
-0
+PendingIntentUtils
+.
+defaultFlags
 )
 }
 companion

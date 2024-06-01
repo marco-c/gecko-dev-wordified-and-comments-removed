@@ -204,6 +204,10 @@ flags
 :
 Int
 =
+PendingIntentUtils
+.
+defaultFlags
+or
 PendingIntent
 .
 FLAG_UPDATE_CURRENT

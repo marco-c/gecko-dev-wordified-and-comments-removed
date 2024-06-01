@@ -170,6 +170,16 @@ autofill
 structure
 .
 ParsedStructure
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
 RequiresApi
 (
 Build
@@ -247,6 +257,10 @@ activityRequestCode
 +
 MAX_LOGINS
 searchIntent
+PendingIntentUtils
+.
+defaultFlags
+or
 PendingIntent
 .
 FLAG_CANCEL_CURRENT

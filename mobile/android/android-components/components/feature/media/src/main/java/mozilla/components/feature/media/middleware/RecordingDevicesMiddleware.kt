@@ -232,6 +232,16 @@ base
 ids
 .
 SharedIdsHelper
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
 private
 const
 val
@@ -664,6 +674,10 @@ context
 PENDING_INTENT_TAG
 )
 intent
+PendingIntentUtils
+.
+defaultFlags
+or
 PendingIntent
 .
 FLAG_UPDATE_CURRENT

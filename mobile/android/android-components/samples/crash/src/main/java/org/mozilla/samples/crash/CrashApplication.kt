@@ -257,6 +257,16 @@ sink
 .
 AndroidLogSink
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
+import
 java
 .
 util
@@ -911,7 +921,9 @@ CrashApplication
 .
 NON_FATAL_CRASH_BROADCAST
 )
-0
+PendingIntentUtils
+.
+defaultFlags
 )
 }
 val

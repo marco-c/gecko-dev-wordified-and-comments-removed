@@ -369,6 +369,16 @@ AbstractFetchDownloadService
 .
 DownloadJobState
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
+import
 kotlin
 .
 random
@@ -1896,7 +1906,9 @@ nextInt
 (
 )
 intent
-0
+PendingIntentUtils
+.
+defaultFlags
 )
 }
 }

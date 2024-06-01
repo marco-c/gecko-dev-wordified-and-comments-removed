@@ -190,6 +190,16 @@ ktx
 kotlin
 .
 tryGetHostFromUrl
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
 internal
 class
 NativeNotificationBridge
@@ -351,7 +361,9 @@ getActivity
 context
 requestId
 intent
-0
+PendingIntentUtils
+.
+defaultFlags
 )
 .
 apply

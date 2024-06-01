@@ -339,6 +339,16 @@ notification
 .
 ensureNotificationChannelExists
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
+import
 java
 .
 util
@@ -1514,6 +1524,10 @@ getActivity
 context
 0
 onNotificationClickIntent
+PendingIntentUtils
+.
+defaultFlags
+or
 PendingIntent
 .
 FLAG_UPDATE_CURRENT

@@ -313,6 +313,16 @@ flow
 .
 ifChanged
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
+import
 java
 .
 util
@@ -909,6 +919,10 @@ getService
 this
 0
 it
+PendingIntentUtils
+.
+defaultFlags
+or
 FLAG_ONE_SHOT
 )
 }

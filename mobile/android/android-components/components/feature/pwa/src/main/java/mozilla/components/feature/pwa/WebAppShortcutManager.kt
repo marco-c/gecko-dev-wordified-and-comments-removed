@@ -438,6 +438,16 @@ images
 decoder
 .
 AndroidImageDecoder
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+PendingIntentUtils
 private
 val
 pwaIconMemoryCache
@@ -727,6 +737,10 @@ getActivity
 context
 0
 intent
+PendingIntentUtils
+.
+defaultFlags
+or
 FLAG_UPDATE_CURRENT
 )
 val
