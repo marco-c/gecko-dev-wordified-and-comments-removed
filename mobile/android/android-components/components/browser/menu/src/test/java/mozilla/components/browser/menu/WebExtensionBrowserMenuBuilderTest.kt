@@ -2034,7 +2034,9 @@ WebExtensionBrowserMenuItem
 assertEquals
 (
 "
-Extensions
+Add
+-
+ons
 "
 parentMenuItem
 .

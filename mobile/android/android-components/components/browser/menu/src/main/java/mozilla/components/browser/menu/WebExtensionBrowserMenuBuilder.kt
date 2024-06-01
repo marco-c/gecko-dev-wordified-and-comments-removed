@@ -602,7 +602,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons2
+mozac_browser_menu_addons
 )
 imageResource
 =
@@ -630,7 +630,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons_manager2
+mozac_browser_menu_addons_manager
 )
 imageResource
 =
@@ -722,7 +722,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons2
+mozac_browser_menu_addons
 )
 imageResource
 =
@@ -756,7 +756,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons2
+mozac_browser_menu_addons
 )
 imageResource
 =

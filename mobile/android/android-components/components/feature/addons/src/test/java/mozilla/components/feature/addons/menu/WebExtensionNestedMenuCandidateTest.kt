@@ -439,7 +439,9 @@ size
 assertEquals
 (
 "
-Extensions
+Add
+-
+ons
 Manager
 "
 (
@@ -596,7 +598,9 @@ subMenuItems
 assertEquals
 (
 "
-Extensions
+Add
+-
+ons
 "
 (
 candidate
@@ -809,7 +813,9 @@ size
 assertEquals
 (
 "
-Extensions
+Add
+-
+ons
 "
 (
 candidate
@@ -964,7 +970,9 @@ subMenuItems
 assertEquals
 (
 "
-Extensions
+Add
+-
+ons
 Manager
 "
 (

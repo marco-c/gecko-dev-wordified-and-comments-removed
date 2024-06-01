@@ -239,7 +239,7 @@ R
 .
 string
 .
-mozac_feature_addons_addons2
+mozac_feature_addons_addons
 )
 start
 =
@@ -292,7 +292,7 @@ R
 .
 string
 .
-mozac_feature_addons_addons_manager2
+mozac_feature_addons_addons_manager
 )
 start
 =
@@ -790,7 +790,7 @@ R
 .
 string
 .
-mozac_feature_addons_addons2
+mozac_feature_addons_addons
 text
 =
 context
@@ -801,7 +801,7 @@ R
 .
 string
 .
-mozac_feature_addons_addons2
+mozac_feature_addons_addons
 )
 start
 =
@@ -845,7 +845,7 @@ R
 .
 string
 .
-mozac_feature_addons_addons2
+mozac_feature_addons_addons
 )
 )
 }
