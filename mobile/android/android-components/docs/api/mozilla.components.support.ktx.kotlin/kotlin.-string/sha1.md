@@ -174,7 +174,7 @@ String
 .
 kt
 #
-L80
+L66
 )
 Calculates
 a
