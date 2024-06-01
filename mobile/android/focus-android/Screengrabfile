@@ -373,5 +373,7 @@ new
 ones
 clear_previous_screenshots
 false
+exit_on_test_failure
+false
 skip_open_summary
 true
