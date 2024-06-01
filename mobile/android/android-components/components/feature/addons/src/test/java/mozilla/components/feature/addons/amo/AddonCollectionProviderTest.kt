@@ -968,6 +968,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -992,6 +994,7 @@ collections
 7e8d6dc651b54ab385fb8791bf9dac
 /
 addons
+/
 ?
 page_size
 =
@@ -1085,6 +1088,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -1109,6 +1114,7 @@ collections
 7e8d6dc651b54ab385fb8791bf9dac
 /
 addons
+/
 ?
 page_size
 =
@@ -2417,6 +2423,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -2441,6 +2449,7 @@ collections
 collectionName
 /
 addons
+/
 ?
 page_size
 =
@@ -2547,6 +2556,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -2571,6 +2582,7 @@ collections
 collectionName
 /
 addons
+/
 ?
 page_size
 =
@@ -2637,6 +2649,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -2661,6 +2675,7 @@ collections
 collectionName
 /
 addons
+/
 ?
 page_size
 =
@@ -2727,6 +2742,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -2751,6 +2768,7 @@ collections
 collectionName
 /
 addons
+/
 ?
 page_size
 =
@@ -2817,6 +2835,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -2841,6 +2861,7 @@ collections
 collectionName
 /
 addons
+/
 ?
 page_size
 =
@@ -2907,6 +2928,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -2931,6 +2954,7 @@ collections
 collectionName
 /
 addons
+/
 ?
 page_size
 =
@@ -2997,6 +3021,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -3021,6 +3047,7 @@ collections
 collectionName
 /
 addons
+/
 ?
 page_size
 =
@@ -3116,6 +3143,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -3140,6 +3169,7 @@ collections
 collectionName
 /
 addons
+/
 "
 +
 "
@@ -3244,6 +3274,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
@@ -3268,6 +3300,7 @@ collections
 DEFAULT_COLLECTION_NAME
 /
 addons
+/
 "
 +
 "
