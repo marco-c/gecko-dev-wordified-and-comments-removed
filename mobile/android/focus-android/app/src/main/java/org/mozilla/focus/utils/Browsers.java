@@ -56,6 +56,15 @@ net
 Uri
 ;
 import
+android
+.
+support
+.
+annotation
+.
+Nullable
+;
+import
 java
 .
 util
@@ -365,6 +374,7 @@ ActivityInfo
 browsers
 ;
 private
+final
 ActivityInfo
 defaultBrowser
 ;
@@ -934,6 +944,7 @@ getPackageName
 ;
 }
 public
+Nullable
 ActivityInfo
 getDefaultBrowser
 (
