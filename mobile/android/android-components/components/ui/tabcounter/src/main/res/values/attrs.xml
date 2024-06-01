@@ -96,11 +96,13 @@ attr
 name
 =
 "
-drawableColor
+tabCounterTintColor
 "
 format
 =
 "
+reference
+|
 color
 "
 /
