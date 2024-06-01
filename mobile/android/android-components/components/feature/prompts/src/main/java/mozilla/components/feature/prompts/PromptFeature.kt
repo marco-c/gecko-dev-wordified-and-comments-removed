@@ -173,7 +173,7 @@ state
 .
 selector
 .
-findCustomTabOrSelectedTab
+findTabOrCustomTab
 import
 mozilla
 .
@@ -185,7 +185,7 @@ state
 .
 selector
 .
-findTabOrCustomTab
+findTabOrCustomTabOrSelectedTab
 import
 mozilla
 .
@@ -1686,7 +1686,7 @@ state
 >
 state
 .
-findCustomTabOrSelectedTab
+findTabOrCustomTabOrSelectedTab
 (
 customTabId
 )
@@ -1811,7 +1811,7 @@ state
 >
 state
 .
-findCustomTabOrSelectedTab
+findTabOrCustomTabOrSelectedTab
 (
 customTabId
 )
@@ -3793,7 +3793,7 @@ else
 {
 state
 .
-findTabOrCustomTab
+findTabOrCustomTabOrSelectedTab
 (
 sessionId
 )
