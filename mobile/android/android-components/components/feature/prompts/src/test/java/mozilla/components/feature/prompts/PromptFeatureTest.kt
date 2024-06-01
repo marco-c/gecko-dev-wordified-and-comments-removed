@@ -12000,6 +12000,16 @@ store
 fragmentManager
 =
 fragmentManager
+isCreditCardAutofillEnabled
+=
+{
+true
+}
+creditCardValidationDelegate
+=
+mock
+(
+)
 )
 {
 }
