@@ -186,7 +186,7 @@ The
 subscription
 information
 from
-Autopush
+AutoPush
 that
 can
 be

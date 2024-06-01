@@ -121,5 +121,16 @@ AutoPushFeature
 .
 kt
 #
-L357
+L362
 )
+The
+socket
+protocol
+to
+use
+when
+communicating
+with
+the
+server
+.
