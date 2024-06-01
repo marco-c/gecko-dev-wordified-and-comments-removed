@@ -319,7 +319,7 @@ junit
 .
 Assert
 .
-assertNull
+assertNotNull
 import
 org
 .
@@ -327,7 +327,7 @@ junit
 .
 Assert
 .
-assertNotNull
+assertNull
 import
 org
 .
