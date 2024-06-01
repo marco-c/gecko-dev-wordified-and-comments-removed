@@ -84,6 +84,12 @@ val
 STACK_TRACE_INITIAL_BUFFER_SIZE
 =
 256
+private
+const
+val
+STACK_TRACE_MAX_LENGTH
+=
+100000
 /
 *
 *
@@ -107,6 +113,11 @@ Throwable
 .
 getStacktraceAsString
 (
+stackTraceMaxLength
+:
+Int
+=
+STACK_TRACE_MAX_LENGTH
 )
 :
 String
@@ -140,5 +151,10 @@ sw
 .
 toString
 (
+)
+.
+take
+(
+stackTraceMaxLength
 )
 }
