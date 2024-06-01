@@ -707,7 +707,7 @@ Migration
 (
 currentVersion
 =
-1
+2
 )
 /
 *
@@ -7448,6 +7448,12 @@ default
 failure
 "
 )
+crashReporter
+.
+submitCaughtException
+(
+migrationFailureWrapper
+)
 MigrationSearch
 .
 failureReason
@@ -7485,6 +7491,12 @@ engine
 :
 failure
 "
+)
+crashReporter
+.
+submitCaughtException
+(
+migrationFailureWrapper
 )
 MigrationSearch
 .
