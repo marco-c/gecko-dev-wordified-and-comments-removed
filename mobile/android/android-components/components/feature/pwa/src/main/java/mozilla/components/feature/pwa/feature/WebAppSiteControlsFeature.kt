@@ -913,7 +913,7 @@ apply
 {
 setPriority
 (
-NotificationCompat
+Notification
 .
 PRIORITY_MIN
 )
