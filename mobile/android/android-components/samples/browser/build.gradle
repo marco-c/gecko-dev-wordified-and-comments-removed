@@ -935,6 +935,16 @@ support
 rustlog
 '
 )
+implementation
+project
+(
+'
+:
+ui
+-
+tabcounter
+'
+)
 geckoNightlyImplementation
 project
 (
