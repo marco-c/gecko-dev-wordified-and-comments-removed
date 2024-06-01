@@ -1381,12 +1381,7 @@ runtime
 .
 storageController
 .
-getPermissions
-(
-anyString
-(
-)
-)
+allPermissions
 )
 .
 thenReturn
@@ -1851,12 +1846,7 @@ runtime
 .
 storageController
 .
-getPermissions
-(
-anyString
-(
-)
-)
+allPermissions
 )
 .
 thenReturn
