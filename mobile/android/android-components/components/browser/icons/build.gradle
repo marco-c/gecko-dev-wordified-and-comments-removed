@@ -185,7 +185,7 @@ kotlinCompilerExtensionVersion
 =
 Versions
 .
-compose_version
+compose_compiler
 }
 }
 tasks
