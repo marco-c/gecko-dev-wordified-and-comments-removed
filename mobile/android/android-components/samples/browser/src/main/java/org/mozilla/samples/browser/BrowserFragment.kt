@@ -513,7 +513,7 @@ layout
 engineView
 components
 .
-sessionManager
+store
 )
 owner
 =
