@@ -624,6 +624,13 @@ drawable
 /
 mozac_ic_clear
 "
+android
+:
+visibility
+=
+"
+gone
+"
 app
 :
 layout_constraintBottom_toBottomOf
