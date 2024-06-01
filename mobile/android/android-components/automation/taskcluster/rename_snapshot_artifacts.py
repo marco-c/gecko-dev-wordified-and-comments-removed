@@ -490,6 +490,18 @@ hash_extension
 )
 :
             
+if
+"
+-
+unspecified
+"
+in
+filename
+:
+                
+return
+False
+            
 return
 True
     
