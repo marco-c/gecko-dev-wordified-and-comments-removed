@@ -73,7 +73,7 @@ string
 URL
 patterns
 to
-safelist
+match
 "
 "
 type
