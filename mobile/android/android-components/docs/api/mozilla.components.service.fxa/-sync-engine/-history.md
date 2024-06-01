@@ -118,7 +118,7 @@ Config
 .
 kt
 #
-L72
+L71
 )
 A
 history

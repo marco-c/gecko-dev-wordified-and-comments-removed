@@ -169,7 +169,7 @@ Config
 .
 kt
 #
-L40
+L39
 )
 A
 set

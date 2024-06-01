@@ -102,11 +102,11 @@ sync
 /
 logins
 /
-AsyncLoginsStorage
+SyncableLoginsStorage
 .
 kt
 #
-L68
+L69
 )
 This
 is

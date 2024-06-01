@@ -100,11 +100,11 @@ sync
 /
 logins
 /
-AsyncLoginsStorage
+SyncableLoginsStorage
 .
 kt
 #
-L37
+L38
 )
 The
 telemetry

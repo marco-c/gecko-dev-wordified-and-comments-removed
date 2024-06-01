@@ -100,11 +100,11 @@ sync
 /
 logins
 /
-AsyncLoginsStorage
+SyncableLoginsStorage
 .
 kt
 #
-L27
+L28
 )
 This
 type

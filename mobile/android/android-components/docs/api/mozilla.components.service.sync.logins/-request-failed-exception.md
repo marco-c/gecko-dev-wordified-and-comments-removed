@@ -100,11 +100,11 @@ sync
 /
 logins
 /
-AsyncLoginsStorage
+SyncableLoginsStorage
 .
 kt
 #
-L103
+L104
 )
 This
 error

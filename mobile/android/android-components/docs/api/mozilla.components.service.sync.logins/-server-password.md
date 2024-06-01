@@ -98,11 +98,11 @@ sync
 /
 logins
 /
-AsyncLoginsStorage
+SyncableLoginsStorage
 .
 kt
 #
-L32
+L33
 )
 Raw
 password
