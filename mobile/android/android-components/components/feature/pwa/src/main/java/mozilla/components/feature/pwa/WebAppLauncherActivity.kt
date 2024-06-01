@@ -368,10 +368,15 @@ DisplayMode
 MINIMAL_UI
 -
 >
+{
+emitHomescreenIconTapFact
+(
+)
 launchWebAppShell
 (
 startUrl
 )
+}
 /
 /
 If
