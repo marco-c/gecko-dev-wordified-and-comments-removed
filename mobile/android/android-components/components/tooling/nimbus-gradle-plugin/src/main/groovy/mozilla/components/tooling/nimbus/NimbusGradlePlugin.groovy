@@ -2288,7 +2288,7 @@ appPackageName
 =
 extension
 .
-getAppPackage
+getAppPackageName
 (
 variant
 )
@@ -2522,7 +2522,7 @@ package
 "
 extension
 .
-getAppPackage
+getAppPackageName
 (
 variant
 )
