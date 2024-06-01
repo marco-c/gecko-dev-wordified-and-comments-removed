@@ -1179,7 +1179,7 @@ websteder
 ?
 Kontroll
 r
-computerens
+enhedens
 netv
 rksforbindelse
 .
@@ -1192,7 +1192,7 @@ li
 >
 Er
 din
-computer
+enhed
 eller
 dit
 netv
@@ -1671,7 +1671,7 @@ webserveren
 og
 ikke
 din
-computer
+enhed
 .
 <
 /
@@ -1801,7 +1801,7 @@ ul
 li
 >
 Er
-computeren
+enheden
 forbundet
 til
 et
@@ -3727,7 +3727,7 @@ li
 li
 >
 Er
-computeren
+enheden
 forbundet
 til
 et
