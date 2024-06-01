@@ -221,6 +221,16 @@ mozilla
 .
 components
 .
+concept
+.
+sync
+.
+AuthFlowUrl
+import
+mozilla
+.
+components
+.
 service
 .
 fxa
@@ -765,6 +775,11 @@ thenReturn
 (
 CompletableDeferred
 (
+AuthFlowUrl
+(
+"
+authState
+"
 "
 auth
 :
@@ -772,6 +787,7 @@ auth
 /
 url
 "
+)
 )
 )
 when
@@ -793,6 +809,11 @@ thenReturn
 (
 CompletableDeferred
 (
+AuthFlowUrl
+(
+"
+authState
+"
 "
 auth
 :
@@ -800,6 +821,7 @@ auth
 /
 url
 "
+)
 )
 )
 when
