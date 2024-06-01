@@ -7708,6 +7708,10 @@ IllegalArgumentException
 :
 :
 class
+.
+java
+.
+name
 }
 "
 captor
