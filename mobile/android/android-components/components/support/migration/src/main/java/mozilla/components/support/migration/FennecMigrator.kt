@@ -271,7 +271,7 @@ sync
 .
 logins
 .
-AsyncLoginsStorage
+SyncableLoginsStorage
 import
 mozilla
 .
@@ -1446,13 +1446,7 @@ private
 val
 loginsStorage
 :
-AsyncLoginsStorage
-?
-private
-val
-loginsStorageKey
-:
-String
+SyncableLoginsStorage
 ?
 private
 val
@@ -1594,7 +1588,7 @@ private
 var
 loginsStorage
 :
-AsyncLoginsStorage
+SyncableLoginsStorage
 ?
 =
 null
@@ -2174,10 +2168,7 @@ migrateLogins
 (
 storage
 :
-AsyncLoginsStorage
-storageKey
-:
-String
+SyncableLoginsStorage
 version
 :
 Int
@@ -2224,9 +2215,6 @@ logins
 loginsStorage
 =
 storage
-loginsStorageKey
-=
-storageKey
 migrations
 .
 add
@@ -2776,7 +2764,6 @@ migrations
 historyStorage
 bookmarksStorage
 loginsStorage
-loginsStorageKey
 sessionManager
 searchEngineManager
 accountManager
@@ -5062,11 +5049,6 @@ key4DbName
 loginsStorage
 =
 loginsStorage
-!
-!
-loginsStorageKey
-=
-loginsStorageKey
 !
 !
 )
