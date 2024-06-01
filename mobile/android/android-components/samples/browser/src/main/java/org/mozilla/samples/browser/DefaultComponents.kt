@@ -911,7 +911,7 @@ browser
 .
 request
 .
-SampleRequestInterceptor
+SampleUrlEncodedRequestInterceptor
 import
 java
 .
@@ -1000,7 +1000,7 @@ lazyHistoryStorage
 )
 requestInterceptor
 =
-SampleRequestInterceptor
+SampleUrlEncodedRequestInterceptor
 (
 applicationContext
 )
