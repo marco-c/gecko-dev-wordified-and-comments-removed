@@ -469,6 +469,13 @@ Unit
 }
 override
 fun
+clearSelection
+(
+)
+{
+}
+override
+fun
 setVerticalClipping
 (
 clippingHeight
