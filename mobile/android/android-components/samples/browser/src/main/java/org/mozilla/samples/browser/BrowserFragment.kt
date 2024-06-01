@@ -409,7 +409,7 @@ addSessionProvider
 resources
 components
 .
-sessionManager
+store
 components
 .
 tabsUseCases

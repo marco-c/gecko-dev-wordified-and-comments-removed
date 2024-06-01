@@ -181,7 +181,7 @@ FlowPreview
 }
 dependencies
 {
-api
+implementation
 project
 (
 '

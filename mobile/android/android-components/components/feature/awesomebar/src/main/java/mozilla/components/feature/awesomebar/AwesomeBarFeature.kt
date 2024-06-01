@@ -121,9 +121,11 @@ components
 .
 browser
 .
-session
+state
 .
-SessionManager
+store
+.
+BrowserStore
 import
 mozilla
 .
@@ -414,9 +416,9 @@ addSessionProvider
 resources
 :
 Resources
-sessionManager
+store
 :
-SessionManager
+BrowserStore
 selectTabUseCase
 :
 TabsUseCases
@@ -432,7 +434,7 @@ provider
 SessionSuggestionProvider
 (
 resources
-sessionManager
+store
 selectTabUseCase
 icons
 )
