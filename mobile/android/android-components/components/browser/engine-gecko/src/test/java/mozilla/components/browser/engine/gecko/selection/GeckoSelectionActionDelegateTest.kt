@@ -312,6 +312,9 @@ isActionAvailable
 id
 :
 String
+selectedText
+:
+String
 )
 :
 Boolean

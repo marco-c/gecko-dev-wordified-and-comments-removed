@@ -188,6 +188,15 @@ id
 is
 currently
 available
+*
+which
+may
+be
+informed
+by
+[
+selectedText
+]
 .
 *
 /
@@ -195,6 +204,9 @@ fun
 isActionAvailable
 (
 id
+:
+String
+selectedText
 :
 String
 )
