@@ -375,11 +375,16 @@ it
 .
 copy
 (
-browserActionPopupSession
+popupSessionId
 =
 action
 .
 popupSessionId
+popupSession
+=
+action
+.
+popupSession
 )
 }
 }

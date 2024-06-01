@@ -2201,6 +2201,16 @@ val
 popupSessionId
 :
 String
+?
+=
+null
+val
+popupSession
+:
+EngineSession
+?
+=
+null
 )
 :
 WebExtensionAction
