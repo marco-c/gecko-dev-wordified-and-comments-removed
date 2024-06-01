@@ -257,6 +257,16 @@ urlbar
 Button
 android
 :
+id
+=
+"
++
+id
+/
+cancel
+"
+android
+:
 layout_width
 =
 "
