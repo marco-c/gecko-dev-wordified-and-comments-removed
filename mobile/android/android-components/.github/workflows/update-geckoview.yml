@@ -233,7 +233,7 @@ github
 repository
 =
 =
-"
+'
 mozilla
 -
 mobile
@@ -241,7 +241,7 @@ mobile
 android
 -
 components
-"
+'
 with
 :
 project
