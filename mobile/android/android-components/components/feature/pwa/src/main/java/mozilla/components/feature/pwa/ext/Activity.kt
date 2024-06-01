@@ -173,6 +173,7 @@ NATURAL
 Orientation
 .
 ANY
+null
 -
 >
 ActivityInfo
@@ -226,11 +227,5 @@ PORTRAIT_SECONDARY
 ActivityInfo
 .
 SCREEN_ORIENTATION_REVERSE_PORTRAIT
-else
--
->
-ActivityInfo
-.
-SCREEN_ORIENTATION_USER
 }
 }

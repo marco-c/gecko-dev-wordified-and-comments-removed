@@ -196,6 +196,16 @@ project
 (
 '
 :
+feature
+-
+session
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 base
@@ -221,6 +231,10 @@ support
 utils
 '
 )
+implementation
+Dependencies
+.
+androidx_browser
 implementation
 Dependencies
 .
