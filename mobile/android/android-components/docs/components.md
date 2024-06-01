@@ -37,7 +37,7 @@ components
 [
 browser
 -
-session
+state
 ]
 (
 https
@@ -64,7 +64,7 @@ components
 /
 browser
 /
-session
+state
 )
 *
 *
