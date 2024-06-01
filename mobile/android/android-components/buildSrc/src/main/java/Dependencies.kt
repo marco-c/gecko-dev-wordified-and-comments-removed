@@ -309,11 +309,11 @@ val
 mozilla_glean
 =
 "
-33
+34
 .
 1
 .
-2
+0
 "
 const
 val
