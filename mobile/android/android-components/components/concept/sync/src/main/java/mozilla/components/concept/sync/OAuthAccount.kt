@@ -326,6 +326,15 @@ deviceConstellation
 :
 DeviceConstellation
 fun
+disconnectAsync
+(
+)
+:
+Deferred
+<
+Boolean
+>
+fun
 toJSONString
 (
 )
