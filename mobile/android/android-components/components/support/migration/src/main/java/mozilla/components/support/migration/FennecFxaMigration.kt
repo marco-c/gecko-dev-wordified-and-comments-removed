@@ -997,7 +997,7 @@ signInWithShareableAccountAsync
 shareableAccount
 reuseSessionToken
 =
-false
+true
 )
 .
 await
