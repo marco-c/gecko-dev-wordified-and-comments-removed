@@ -572,6 +572,10 @@ RemoveTabMediaAction
 is
 MediaAction
 .
+UpdateMediaVolumeAction
+is
+MediaAction
+.
 UpdateMediaStateAction
 -
 >

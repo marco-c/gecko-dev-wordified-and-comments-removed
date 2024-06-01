@@ -142,6 +142,17 @@ Media
 Metadata
 (
 )
+volume
+:
+Media
+.
+Volume
+=
+Media
+.
+Volume
+(
+)
 )
 :
 MediaState
@@ -174,5 +185,8 @@ mock
 metadata
 =
 metadata
+volume
+=
+volume
 )
 }
