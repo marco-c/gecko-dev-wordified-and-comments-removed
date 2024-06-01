@@ -1068,6 +1068,17 @@ null
 {
 callback
 .
+onURLChanged
+(
+view
+.
+getUrl
+(
+)
+)
+;
+callback
+.
 onProgress
 (
 newProgress
