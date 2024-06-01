@@ -404,6 +404,7 @@ newext
 "
 1000969a
 "
+null
 )
 /
 *
@@ -571,7 +572,9 @@ code
 {
 code
 =
-null
+"
+other
+"
 }
 /
 /

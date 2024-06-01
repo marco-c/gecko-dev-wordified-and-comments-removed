@@ -1046,7 +1046,8 @@ value
 Test
 fun
 GIVEN
-a
+an
+invalid
 Bing
 search
 WHEN
@@ -1184,7 +1185,7 @@ content
 .
 sap
 .
-none
+other
 "
 facts
 [
@@ -1368,7 +1369,7 @@ value
 Test
 fun
 GIVEN
-a
+an
 invalid
 Google
 sap
@@ -1523,7 +1524,7 @@ follow
 -
 on
 .
-none
+other
 "
 facts
 [
