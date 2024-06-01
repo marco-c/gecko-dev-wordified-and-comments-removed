@@ -698,6 +698,9 @@ topSitesProvider
 .
 getTopSites
 (
+allowCache
+=
+true
 )
 .
 take
