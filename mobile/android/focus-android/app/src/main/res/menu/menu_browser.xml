@@ -58,7 +58,9 @@ android
 title
 =
 "
-Back
+string
+/
+menu_back
 "
 /
 >
@@ -79,7 +81,9 @@ android
 title
 =
 "
-Forward
+string
+/
+menu_forward
 "
 /
 >
@@ -100,7 +104,9 @@ android
 title
 =
 "
-Refresh
+string
+/
+menu_refresh
 "
 /
 >
@@ -121,7 +127,9 @@ android
 title
 =
 "
-Share
+string
+/
+menu_share
 "
 /
 >
@@ -142,8 +150,9 @@ android
 title
 =
 "
-Open
-with
+string
+/
+menu_open_with
 "
 /
 >
@@ -164,7 +173,9 @@ android
 title
 =
 "
-Settings
+string
+/
+menu_settings
 "
 /
 >

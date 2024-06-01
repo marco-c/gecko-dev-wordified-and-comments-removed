@@ -58,7 +58,9 @@ android
 title
 =
 "
-About
+string
+/
+menu_about
 "
 /
 >
@@ -79,7 +81,9 @@ android
 title
 =
 "
-Help
+string
+/
+menu_help
 "
 /
 >
@@ -100,8 +104,9 @@ android
 title
 =
 "
-Your
-Rights
+string
+/
+menu_rights
 "
 /
 >
