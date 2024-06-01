@@ -1,6 +1,5 @@
 /
 *
-*
 This
 Source
 Code
@@ -178,7 +177,7 @@ edit
 .
 remove
 (
-LAST_VERIFIED
+PREF_LAST_VERIFIED
 )
 .
 apply
@@ -567,7 +566,7 @@ testContext
 .
 getString
 (
-LAST_VERIFIED
+PREF_LAST_VERIFIED
 "
 {
 \
@@ -638,7 +637,7 @@ edit
 .
 putString
 (
-LAST_VERIFIED
+PREF_LAST_VERIFIED
 "
 {
 \
