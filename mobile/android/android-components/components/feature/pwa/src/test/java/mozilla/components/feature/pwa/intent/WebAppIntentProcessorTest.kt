@@ -637,6 +637,9 @@ mozilla
 .
 com
 "
+selectTab
+=
+false
 source
 =
 SessionState
@@ -885,6 +888,9 @@ mozilla
 .
 com
 "
+selectTab
+=
+false
 source
 =
 SessionState

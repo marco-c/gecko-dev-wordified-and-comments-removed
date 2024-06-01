@@ -616,6 +616,9 @@ invoke
 url
 =
 url
+selectTab
+=
+false
 source
 =
 Source
