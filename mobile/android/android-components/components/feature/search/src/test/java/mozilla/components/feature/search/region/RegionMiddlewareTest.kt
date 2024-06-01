@@ -290,9 +290,12 @@ clock
 time
 preferences
 =
+lazy
+{
 FakeSharedPreferences
 (
 )
+}
 )
 }
 After

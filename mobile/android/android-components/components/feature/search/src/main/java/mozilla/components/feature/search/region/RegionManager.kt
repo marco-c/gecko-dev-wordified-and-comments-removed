@@ -381,8 +381,13 @@ private
 val
 preferences
 :
+Lazy
+<
 SharedPreferences
+>
 =
+lazy
+{
 context
 .
 getSharedPreferences
@@ -392,6 +397,7 @@ Context
 .
 MODE_PRIVATE
 )
+}
 private
 val
 dispatcher
@@ -415,6 +421,8 @@ get
 =
 preferences
 .
+value
+.
 getString
 (
 PREFERENCE_KEY_HOME_REGION
@@ -426,6 +434,8 @@ value
 )
 =
 preferences
+.
+value
 .
 edit
 (
@@ -452,6 +462,8 @@ get
 =
 preferences
 .
+value
+.
 getString
 (
 PREFERENCE_KEY_CURRENT_REGION
@@ -463,6 +475,8 @@ value
 )
 =
 preferences
+.
+value
 .
 edit
 (
@@ -489,6 +503,8 @@ get
 =
 preferences
 .
+value
+.
 getLong
 (
 PREFERENCE_KEY_REGION_FIRST_SEEN
@@ -509,6 +525,8 @@ null
 {
 preferences
 .
+value
+.
 edit
 (
 )
@@ -525,6 +543,8 @@ apply
 else
 {
 preferences
+.
+value
 .
 edit
 (
