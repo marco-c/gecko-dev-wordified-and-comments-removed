@@ -13,10 +13,13 @@ AboutCompat
 ]
 ;
 const
-{
 Services
-}
 =
+globalThis
+.
+Services
+|
+|
 ChromeUtils
 .
 import
@@ -35,6 +38,8 @@ Services
 jsm
 "
 )
+.
+Services
 ;
 const
 addonID

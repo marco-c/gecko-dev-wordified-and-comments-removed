@@ -890,6 +890,8 @@ c
 )
 {
 CheckCanAutoplay
+(
+)
 .
 then
 (
