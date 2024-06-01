@@ -135,7 +135,7 @@ PromptFeature
 .
 kt
 #
-L128
+L146
 )
 Overrides
 [
@@ -177,7 +177,7 @@ permissions
 .
 md
 )
-a
+A
 callback
 invoked
 when
@@ -230,7 +230,7 @@ invoked
 Property
 onNeedToRequestPermissions
 -
-a
+A
 callback
 invoked
 when
