@@ -113,7 +113,9 @@ conditions
 :
 -
 author
+~
 =
+(
 mozilla
 -
 l10n
@@ -121,6 +123,16 @@ l10n
 automation
 -
 bot
+|
+github
+-
+actions
+\
+[
+bot
+\
+]
+)
 -
 status
 -
