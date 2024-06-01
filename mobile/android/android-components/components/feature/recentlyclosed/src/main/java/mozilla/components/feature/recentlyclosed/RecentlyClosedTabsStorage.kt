@@ -131,7 +131,7 @@ state
 .
 state
 .
-ClosedTab
+TabSessionState
 import
 mozilla
 .
@@ -143,7 +143,9 @@ state
 .
 state
 .
-TabSessionState
+recover
+.
+RecoverableTab
 import
 mozilla
 .
@@ -302,7 +304,7 @@ observable
 list
 of
 [
-ClosedTab
+RecoverableTab
 ]
 s
 .
@@ -318,7 +320,7 @@ Flow
 <
 List
 <
-ClosedTab
+RecoverableTab
 >
 >
 {
@@ -346,7 +348,7 @@ map
 {
 it
 .
-toClosedTab
+toRecoverableTab
 (
 filesDir
 engine
@@ -362,7 +364,7 @@ Removes
 the
 given
 [
-ClosedTab
+RecoverableTab
 ]
 .
 *
@@ -373,7 +375,7 @@ removeTab
 (
 recentlyClosedTab
 :
-ClosedTab
+RecoverableTab
 )
 {
 val
@@ -414,7 +416,7 @@ entity
 Removes
 all
 [
-ClosedTab
+RecoverableTab
 ]
 s
 .
@@ -516,7 +518,7 @@ tab
 :
 List
 <
-ClosedTab
+RecoverableTab
 >
 maxTabs
 :
@@ -632,7 +634,7 @@ addTabState
 (
 tab
 :
-ClosedTab
+RecoverableTab
 )
 {
 val
@@ -660,7 +662,7 @@ state
 =
 tab
 .
-engineSessionState
+state
 if
 (
 state
