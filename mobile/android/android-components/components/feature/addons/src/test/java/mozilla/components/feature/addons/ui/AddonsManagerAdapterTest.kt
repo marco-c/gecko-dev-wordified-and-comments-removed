@@ -1175,6 +1175,13 @@ View
 testContext
 )
 val
+allowedInPrivateBrowsingLabel
+=
+ImageView
+(
+testContext
+)
+val
 addonsManagerAdapterDelegate
 :
 AddonsManagerAdapterDelegate
@@ -1220,6 +1227,9 @@ userCountView
 addButton
 =
 addButton
+allowedInPrivateBrowsingLabel
+=
+allowedInPrivateBrowsingLabel
 )
 val
 addon
@@ -1766,6 +1776,13 @@ View
 testContext
 )
 val
+allowedInPrivateBrowsingLabel
+=
+ImageView
+(
+testContext
+)
+val
 addonsManagerAdapterDelegate
 :
 AddonsManagerAdapterDelegate
@@ -1820,6 +1837,9 @@ addButton
 mock
 (
 )
+allowedInPrivateBrowsingLabel
+=
+allowedInPrivateBrowsingLabel
 )
 val
 addon
