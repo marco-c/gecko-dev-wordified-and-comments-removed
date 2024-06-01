@@ -715,7 +715,7 @@ if
 finishActivity
 )
 {
-finish
+finishAndRemoveTask
 (
 )
 ;
