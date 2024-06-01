@@ -322,13 +322,6 @@ topSite
 .
 impressionUrl
 )
-assertEquals
-(
-1
-topSite
-.
-position
-)
 topSite
 =
 topSites
@@ -417,13 +410,6 @@ com
 topSite
 .
 impressionUrl
-)
-assertEquals
-(
-2
-topSite
-.
-position
 )
 }
 Test

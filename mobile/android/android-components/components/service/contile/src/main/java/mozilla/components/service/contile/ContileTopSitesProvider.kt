@@ -519,14 +519,6 @@ getString
 impression_url
 "
 )
-position
-=
-getInt
-(
-"
-position
-"
-)
 createdAt
 =
 null

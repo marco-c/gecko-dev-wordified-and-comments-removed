@@ -1304,9 +1304,6 @@ example
 .
 com
 "
-position
-=
-1
 createdAt
 =
 3
@@ -1692,9 +1689,6 @@ example
 .
 com
 "
-position
-=
-1
 createdAt
 =
 3

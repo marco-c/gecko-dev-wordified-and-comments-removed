@@ -472,16 +472,6 @@ displayed
 .
 *
 property
-position
-The
-position
-of
-the
-top
-site
-.
-*
-property
 createdAt
 The
 optional
@@ -527,10 +517,6 @@ val
 impressionUrl
 :
 String
-val
-position
-:
-Int
 override
 val
 createdAt
