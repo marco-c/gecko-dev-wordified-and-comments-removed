@@ -188,6 +188,9 @@ Crash
 UncaughtExceptionCrash
 (
 throwable
+crashReporter
+.
+crashBreadcrumbs
 )
 )
 defaultExceptionHandler

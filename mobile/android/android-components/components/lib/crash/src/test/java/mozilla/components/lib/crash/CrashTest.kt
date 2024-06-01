@@ -231,6 +231,9 @@ fc65c081d304
 extra
 "
 false
+arrayListOf
+(
+)
 )
 val
 intent
@@ -394,6 +397,9 @@ Crash
 UncaughtExceptionCrash
 (
 exception
+arrayListOf
+(
+)
 )
 val
 intent
@@ -527,6 +533,9 @@ UncaughtExceptionCrash
 RuntimeException
 (
 )
+arrayListOf
+(
+)
 )
 .
 fillIn
@@ -561,6 +570,9 @@ true
 "
 "
 false
+arrayListOf
+(
+)
 )
 crash
 .

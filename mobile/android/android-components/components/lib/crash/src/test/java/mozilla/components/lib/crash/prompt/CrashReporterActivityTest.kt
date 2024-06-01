@@ -395,6 +395,9 @@ Hello
 World
 "
 )
+arrayListOf
+(
+)
 )
 val
 scenario
@@ -492,6 +495,9 @@ RuntimeException
 Hello
 World
 "
+)
+arrayListOf
+(
 )
 )
 val
@@ -621,6 +627,9 @@ Hello
 World
 "
 )
+arrayListOf
+(
+)
 )
 val
 scenario
@@ -701,6 +710,9 @@ RuntimeException
 Hello
 World
 "
+)
+arrayListOf
+(
 )
 )
 val

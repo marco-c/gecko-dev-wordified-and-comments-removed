@@ -211,6 +211,11 @@ extrasPath
 isFatal
 =
 false
+breadcrumbs
+=
+arrayListOf
+(
+)
 )
 assertFalse
 (
@@ -365,6 +370,11 @@ extrasPath
 isFatal
 =
 true
+breadcrumbs
+=
+arrayListOf
+(
+)
 )
 assertFalse
 (
@@ -510,6 +520,9 @@ RuntimeException
 "
 Boom
 "
+)
+arrayListOf
+(
 )
 )
 assertFalse
@@ -702,6 +715,9 @@ RuntimeException
 "
 Boom
 "
+)
+arrayListOf
+(
 )
 )
 val

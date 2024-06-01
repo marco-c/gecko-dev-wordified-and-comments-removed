@@ -133,6 +133,9 @@ Crash
 UncaughtExceptionCrash
 (
 exception
+arrayListOf
+(
+)
 )
 assertEquals
 (

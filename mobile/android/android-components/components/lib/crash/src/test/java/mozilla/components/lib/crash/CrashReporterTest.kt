@@ -1070,6 +1070,9 @@ UncaughtExceptionCrash
 RuntimeException
 (
 )
+arrayListOf
+(
+)
 )
 )
 assertTrue
@@ -1097,6 +1100,9 @@ true
 "
 "
 false
+arrayListOf
+(
+)
 )
 )
 assertFalse
@@ -1269,6 +1275,11 @@ path
 isFatal
 =
 false
+breadcrumbs
+=
+arrayListOf
+(
+)
 )
 reporter
 .

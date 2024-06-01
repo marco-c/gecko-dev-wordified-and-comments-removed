@@ -354,6 +354,9 @@ true
 "
 "
 false
+arrayListOf
+(
+)
 )
 service
 .
@@ -598,6 +601,9 @@ RuntimeException
 Test
 "
 )
+arrayListOf
+(
+)
 )
 service
 .
@@ -837,6 +843,9 @@ RuntimeException
 Test
 "
 )
+arrayListOf
+(
+)
 )
 val
 nativeCodeCrash
@@ -851,6 +860,9 @@ true
 "
 "
 false
+arrayListOf
+(
+)
 )
 /
 /
@@ -1189,6 +1201,9 @@ RuntimeException
 Test
 "
 )
+arrayListOf
+(
+)
 )
 service
 .
@@ -1372,6 +1387,9 @@ true
 "
 "
 false
+arrayListOf
+(
+)
 )
 service
 .
