@@ -435,6 +435,13 @@ registerForFutureUpdates
 (
 extensions
 )
+components
+.
+supportedAddonsChecker
+.
+registerForChecks
+(
+)
 }
 )
 }
