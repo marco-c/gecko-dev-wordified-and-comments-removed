@@ -488,9 +488,6 @@ mozac_browser_errorpages_security_bad_cert_advanced
 >
 Edasij
 udnuile
-.
-.
-.
 <
 /
 string
@@ -1213,6 +1210,9 @@ mozac_browser_errorpages_net_interrupt_message
 [
 CDATA
 [
+<
+p
+>
 Veebilehitsejal
 nnestus
 edukalt
