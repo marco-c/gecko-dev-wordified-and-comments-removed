@@ -789,9 +789,9 @@ let
 tint
 -
 >
-it
+imageView
 .
-setTint
+setTintResource
 (
 tint
 )
