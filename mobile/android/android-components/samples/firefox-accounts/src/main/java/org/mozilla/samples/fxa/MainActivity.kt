@@ -450,6 +450,11 @@ savedInstanceState
 )
 RustLog
 .
+disable
+(
+)
+RustLog
+.
 enable
 (
 )
@@ -582,6 +587,13 @@ url
 )
 }
 }
+scanMessage
+=
+R
+.
+string
+.
+pair_instructions_message
 )
 lifecycle
 .
