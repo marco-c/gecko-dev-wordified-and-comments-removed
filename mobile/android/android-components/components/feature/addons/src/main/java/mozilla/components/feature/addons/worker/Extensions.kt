@@ -107,10 +107,12 @@ shouldReport
 Boolean
 =
 cause
+!
 is
 IOException
-|
-|
-this
+&
+&
+cause
+!
 is
 CancellationException

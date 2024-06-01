@@ -1051,7 +1051,6 @@ exception
 )
 if
 (
-!
 exception
 .
 shouldReport
