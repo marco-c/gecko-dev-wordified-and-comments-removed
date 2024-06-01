@@ -213,6 +213,7 @@ Suppress
 TooManyFunctions
 "
 )
+open
 class
 ObserverRegistry
 <
@@ -337,6 +338,7 @@ register
 *
 /
 Synchronized
+open
 override
 fun
 register
