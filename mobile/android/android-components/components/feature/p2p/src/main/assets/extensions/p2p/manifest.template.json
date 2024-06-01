@@ -42,9 +42,9 @@ version
 "
 :
 "
-1
-.
-0
+{
+version
+}
 "
 "
 content_scripts
