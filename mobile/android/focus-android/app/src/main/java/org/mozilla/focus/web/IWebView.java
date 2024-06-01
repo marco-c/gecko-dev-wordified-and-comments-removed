@@ -18,9 +18,8 @@ public
 interface
 IWebView
 {
-public
 class
-ClickTarget
+HitTarget
 {
 public
 final
@@ -43,7 +42,7 @@ String
 imageURL
 ;
 public
-ClickTarget
+HitTarget
 (
 final
 boolean
@@ -76,7 +75,7 @@ IllegalStateException
 (
 "
 link
-clicktarget
+hittarget
 must
 contain
 URL
@@ -101,7 +100,7 @@ IllegalStateException
 (
 "
 image
-clicktarget
+hittarget
 must
 contain
 URL
@@ -185,12 +184,8 @@ void
 onLongPress
 (
 final
-ClickTarget
-clickTarget
-float
-x
-float
-y
+HitTarget
+hitTarget
 )
 ;
 }

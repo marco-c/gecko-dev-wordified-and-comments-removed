@@ -429,14 +429,8 @@ onLongPress
 (
 IWebView
 .
-ClickTarget
-clickTarget
-final
-float
-x
-final
-float
-y
+HitTarget
+hitTarget
 )
 {
 }
