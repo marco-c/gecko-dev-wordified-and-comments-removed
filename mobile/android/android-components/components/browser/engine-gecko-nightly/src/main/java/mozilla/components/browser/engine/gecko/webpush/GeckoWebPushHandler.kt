@@ -151,9 +151,9 @@ override
 fun
 onPushMessage
 (
-subscription
+scope
 :
-WebPushSubscription
+String
 message
 :
 ByteArray
@@ -166,11 +166,7 @@ webPushController
 .
 onPushEvent
 (
-subscription
-.
-toGeckoSubscription
-(
-)
+scope
 message
 )
 }
