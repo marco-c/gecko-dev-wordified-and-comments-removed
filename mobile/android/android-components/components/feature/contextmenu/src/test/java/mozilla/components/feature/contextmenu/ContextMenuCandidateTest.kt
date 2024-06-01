@@ -333,6 +333,14 @@ org
 .
 mockito
 .
+ArgumentMatchers
+.
+anyBoolean
+import
+org
+.
+mockito
+.
 Mockito
 .
 doReturn
@@ -5734,6 +5742,9 @@ times
 invoke
 (
 any
+(
+)
+anyBoolean
 (
 )
 any

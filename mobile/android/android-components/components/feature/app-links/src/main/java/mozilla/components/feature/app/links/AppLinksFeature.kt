@@ -463,6 +463,8 @@ openAppLink
 (
 appIntent
 failedToLaunchAction
+=
+failedToLaunchAction
 )
 }
 if

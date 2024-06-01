@@ -175,6 +175,14 @@ org
 .
 mockito
 .
+ArgumentMatchers
+.
+anyBoolean
+import
+org
+.
+mockito
+.
 Mockito
 .
 verify
@@ -1911,6 +1919,9 @@ mockOpenRedirect
 invoke
 (
 any
+(
+)
+anyBoolean
 (
 )
 any

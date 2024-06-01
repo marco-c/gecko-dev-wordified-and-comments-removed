@@ -4095,6 +4095,11 @@ appIntent
 :
 Intent
 ?
+launchInNewTask
+:
+Boolean
+=
+true
 failedToLaunchAction
 :
 (
