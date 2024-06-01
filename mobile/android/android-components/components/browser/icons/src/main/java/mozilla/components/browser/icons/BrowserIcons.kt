@@ -1485,6 +1485,17 @@ null
 )
 }
 }
+fun
+onLowMemory
+(
+)
+{
+sharedMemoryCache
+.
+clear
+(
+)
+}
 }
 private
 fun

@@ -463,5 +463,12 @@ sessionManager
 onLowMemory
 (
 )
+components
+.
+icons
+.
+onLowMemory
+(
+)
 }
 }

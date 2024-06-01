@@ -79,12 +79,6 @@ util
 .
 LruCache
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 mozilla
 .
 components
@@ -374,14 +368,6 @@ resources
 )
 }
 }
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-NONE
-)
 internal
 fun
 clear
