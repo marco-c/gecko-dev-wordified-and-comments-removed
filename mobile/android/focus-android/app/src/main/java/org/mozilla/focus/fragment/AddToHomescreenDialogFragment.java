@@ -427,7 +427,12 @@ generateLauncherIconPreOreo
 getContext
 (
 )
+IconGenerator
+.
+getRepresentativeCharacter
+(
 url
+)
 )
 ;
 final

@@ -508,10 +508,15 @@ iconBitmap
 =
 IconGenerator
 .
-generateLauncherIcon
+generateCharacterIcon
 (
 context
-searchQuery
+engineName
+.
+charAt
+(
+0
+)
 )
 ;
 final
