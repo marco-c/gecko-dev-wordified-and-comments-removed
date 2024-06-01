@@ -177,15 +177,10 @@ shouldUseSecureMode
 {
 if
 (
-BuildConfig
+AppConstants
 .
-BUILD_TYPE
-.
-equals
+isDevBuild
 (
-"
-debug
-"
 )
 )
 {
