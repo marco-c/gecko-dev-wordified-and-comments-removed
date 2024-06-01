@@ -322,6 +322,12 @@ String
 ?
 =
 null
+val
+lastAccess
+:
+Long
+=
+0L
 )
 :
 SessionState
@@ -354,6 +360,8 @@ contextId
 String
 ?
 )
+:
+SessionState
 =
 copy
 (
@@ -462,6 +470,11 @@ String
 ?
 =
 null
+lastAccess
+:
+Long
+=
+0L
 )
 :
 TabSessionState
@@ -500,5 +513,8 @@ readerState
 contextId
 =
 contextId
+lastAccess
+=
+lastAccess
 )
 }

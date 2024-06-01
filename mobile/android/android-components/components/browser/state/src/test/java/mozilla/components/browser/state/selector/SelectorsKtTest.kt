@@ -209,6 +209,10 @@ store
 BrowserStore
 (
 )
+val
+tabLastAccessTimeStamp
+=
+123L
 assertNull
 (
 store
@@ -311,6 +315,9 @@ getpocket
 .
 com
 "
+lastAccess
+=
+tabLastAccessTimeStamp
 )
 store
 .
@@ -347,6 +354,7 @@ SelectTabAction
 otherTab
 .
 id
+tabLastAccessTimeStamp
 )
 )
 .

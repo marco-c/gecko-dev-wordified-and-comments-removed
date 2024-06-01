@@ -459,6 +459,9 @@ mozilla
 .
 org
 "
+lastAccess
+=
+123L
 )
 createTab
 (
@@ -480,6 +483,9 @@ foo
 .
 bar
 "
+lastAccess
+=
+124L
 )
 createTab
 (
@@ -502,6 +508,9 @@ tab
 private
 =
 true
+lastAccess
+=
+125L
 )
 )
 selectedTabId
@@ -557,12 +566,14 @@ start
 /
 This
 action
-won
-'
-t
+will
 change
 the
 state
+due
+to
+lastUsed
+timestamp
 but
 will
 run
@@ -621,7 +632,7 @@ active
 0
 lastUsed
 =
-0
+123L
 )
 Tab
 (
@@ -658,7 +669,7 @@ active
 0
 lastUsed
 =
-0
+124L
 )
 /
 /
@@ -759,7 +770,7 @@ active
 0
 lastUsed
 =
-0
+123L
 )
 Tab
 (
@@ -796,7 +807,7 @@ active
 0
 lastUsed
 =
-0
+124L
 )
 )
 )
@@ -1100,7 +1111,7 @@ result
 =
 feature
 .
-getSyncedDeviceTabs
+getSyncedTabs
 (
 )
 assertEquals
@@ -1196,7 +1207,7 @@ SyncedDeviceTabs
 )
 feature
 .
-getSyncedDeviceTabs
+getSyncedTabs
 (
 )
 )

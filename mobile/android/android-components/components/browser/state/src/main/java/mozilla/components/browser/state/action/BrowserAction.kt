@@ -668,6 +668,16 @@ val
 tabId
 :
 String
+val
+timeSelected
+:
+Long
+=
+System
+.
+currentTimeMillis
+(
+)
 )
 :
 TabListAction
