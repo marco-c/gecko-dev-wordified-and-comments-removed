@@ -1724,9 +1724,8 @@ mozac_feature_addons_settings_allow_in_private_browsing
 >
 Permitter
 in
-Navigation
-anonyme
-.
+navigation
+private
 <
 /
 string
@@ -1761,8 +1760,7 @@ mozac_feature_addons_settings_run_in_private_browsing
 Exequer
 in
 navigation
-anonyme
-.
+private
 <
 /
 string
