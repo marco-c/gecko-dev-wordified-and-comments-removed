@@ -451,10 +451,6 @@ Dependencies
 .
 thirdparty_jna
 testImplementation
-Dependencies
-.
-mozilla_support
-testImplementation
 files
 (
 configurations
@@ -470,7 +466,7 @@ files
 testImplementation
 Dependencies
 .
-mozilla_places_forUnitTests
+mozilla_places
 testImplementation
 Dependencies
 .
@@ -479,6 +475,10 @@ testImplementation
 Dependencies
 .
 androidx_work_testing
+testImplementation
+Dependencies
+.
+mozilla_full_megazord_forUnitTests
 }
 apply
 from
