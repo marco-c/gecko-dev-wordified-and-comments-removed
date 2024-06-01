@@ -203,7 +203,7 @@ saveDomains
 RuntimeEnvironment
 .
 application
-setOf
+listOf
 (
 "
 mozilla
