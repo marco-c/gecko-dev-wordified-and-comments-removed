@@ -221,9 +221,9 @@ override
 fun
 onSubscriptionChanged
 (
-subscription
+scope
 :
-AutoPushSubscription
+PushScope
 )
 {
 /
