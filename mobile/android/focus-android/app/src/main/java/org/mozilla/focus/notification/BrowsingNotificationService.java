@@ -624,7 +624,7 @@ R
 .
 drawable
 .
-ic_delete
+ic_notification
 )
 .
 setContentTitle
