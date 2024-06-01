@@ -36,13 +36,14 @@ than
 they
 should
 be
+python
 tools
 /
 metrics
 /
 apk_size
 .
-sh
+py
 #
 buddybuild
 modifies
