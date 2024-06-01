@@ -1041,6 +1041,13 @@ updateIsLoading
 false
 )
 ;
+if
+(
+isBlockingEnabled
+(
+)
+)
+{
 backgroundTransition
 .
 startTransition
@@ -1048,6 +1055,7 @@ startTransition
 ANIMATION_DURATION
 )
 ;
+}
 progressView
 .
 announceForAccessibility
