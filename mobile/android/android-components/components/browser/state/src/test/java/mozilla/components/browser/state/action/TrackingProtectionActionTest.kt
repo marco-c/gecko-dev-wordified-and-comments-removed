@@ -873,7 +873,7 @@ dispatch
 (
 TrackingProtectionAction
 .
-ClearTrackers
+ClearTrackersAction
 (
 tab
 .

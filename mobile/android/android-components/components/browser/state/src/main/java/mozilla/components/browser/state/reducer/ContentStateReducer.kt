@@ -335,7 +335,7 @@ searchTerms
 is
 ContentAction
 .
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 -
 >
 updateContentState

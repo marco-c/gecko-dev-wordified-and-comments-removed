@@ -940,7 +940,7 @@ dispatch
 (
 ContentAction
 .
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 (
 tab
 .

@@ -250,7 +250,7 @@ tracker
 is
 TrackingProtectionAction
 .
-ClearTrackers
+ClearTrackersAction
 -
 >
 state

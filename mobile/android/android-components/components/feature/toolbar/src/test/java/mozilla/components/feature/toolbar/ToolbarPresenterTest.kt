@@ -902,7 +902,7 @@ dispatch
 (
 ContentAction
 .
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 (
 "
 tab1

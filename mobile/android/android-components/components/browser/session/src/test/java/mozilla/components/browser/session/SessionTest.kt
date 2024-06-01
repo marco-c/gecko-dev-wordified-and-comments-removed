@@ -2042,7 +2042,7 @@ dispatch
 (
 ContentAction
 .
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 (
 session
 .

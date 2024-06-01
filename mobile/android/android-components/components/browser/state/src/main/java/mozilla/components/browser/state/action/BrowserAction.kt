@@ -1122,7 +1122,7 @@ sessionId
 /
 data
 class
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 (
 val
 sessionId
@@ -1532,7 +1532,7 @@ lists
 /
 data
 class
-ClearTrackers
+ClearTrackersAction
 (
 val
 tabId

@@ -287,7 +287,7 @@ action
 .
 ContentAction
 .
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 import
 mozilla
 .
@@ -2028,7 +2028,7 @@ store
 .
 syncDispatch
 (
-UpdateSecurityInfo
+UpdateSecurityInfoAction
 (
 id
 new
@@ -2590,8 +2590,7 @@ cleared
 /
 /
 The
-ClearTrackers
-action
+ClearTrackersAction
 will
 also
 clear
@@ -2644,7 +2643,7 @@ syncDispatch
 (
 TrackingProtectionAction
 .
-ClearTrackers
+ClearTrackersAction
 (
 id
 )
