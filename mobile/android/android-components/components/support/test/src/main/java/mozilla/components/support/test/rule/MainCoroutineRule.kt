@@ -243,7 +243,13 @@ coroutines
 .
 *
 /
+OptIn
+(
 ExperimentalCoroutinesApi
+:
+:
+class
+)
 class
 MainCoroutineRule
 (

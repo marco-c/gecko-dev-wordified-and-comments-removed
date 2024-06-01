@@ -119,12 +119,6 @@ app
 .
 Fragment
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -494,7 +488,6 @@ container
 false
 )
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

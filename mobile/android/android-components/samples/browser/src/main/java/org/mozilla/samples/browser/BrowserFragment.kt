@@ -89,12 +89,6 @@ view
 .
 ViewGroup
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -307,7 +301,6 @@ app
 .
 *
 /
-ExperimentalCoroutinesApi
 class
 BrowserFragment
 :

@@ -87,12 +87,6 @@ kotlinx
 .
 coroutines
 .
-InternalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -254,7 +248,6 @@ CoroutineScope
 (
 coroutineContext
 )
-InternalCoroutinesApi
 override
 fun
 invoke

@@ -89,12 +89,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 runBlocking
 import
 kotlinx
@@ -308,7 +302,6 @@ mockito
 Mockito
 .
 verify
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

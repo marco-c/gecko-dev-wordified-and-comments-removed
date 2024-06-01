@@ -103,12 +103,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 channels
 .
 consumeEach
@@ -271,10 +265,6 @@ Store
 *
 /
 MainThread
-ExperimentalCoroutinesApi
-/
-/
-Channel
 fun
 <
 S
@@ -875,10 +865,6 @@ LifecycleOwner
 *
 /
 MainThread
-ExperimentalCoroutinesApi
-/
-/
-Flow
 fun
 <
 S

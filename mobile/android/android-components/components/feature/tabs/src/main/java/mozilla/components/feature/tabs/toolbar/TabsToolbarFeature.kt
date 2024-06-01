@@ -73,12 +73,6 @@ lifecycle
 .
 LifecycleOwner
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -212,7 +206,6 @@ components
 issues
 /
 9129
-ExperimentalCoroutinesApi
 Suppress
 (
 "

@@ -135,6 +135,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 runBlocking
 import
 mozilla
@@ -301,6 +307,13 @@ verify
 RunWith
 (
 AndroidJUnit4
+:
+:
+class
+)
+OptIn
+(
+ExperimentalCoroutinesApi
 :
 :
 class

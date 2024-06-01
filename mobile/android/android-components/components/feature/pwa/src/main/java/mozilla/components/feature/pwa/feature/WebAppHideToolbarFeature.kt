@@ -85,12 +85,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 MainScope
 import
 kotlinx
@@ -593,7 +587,6 @@ customTabState
 )
 )
 }
-ExperimentalCoroutinesApi
 override
 fun
 start

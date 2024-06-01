@@ -410,11 +410,11 @@ CACHE_MAX_SIZE
 :
 Long
 =
-10
+10L
 *
-1024
+1024L
 *
-1024
+1024L
 fun
 getOrCreateCookieManager
 (

@@ -494,7 +494,7 @@ PLAY
 :
 Long
 =
-1
+1L
 shl
 0
 const
@@ -503,7 +503,7 @@ PAUSE
 :
 Long
 =
-1
+1L
 shl
 1
 const
@@ -512,7 +512,7 @@ STOP
 :
 Long
 =
-1
+1L
 shl
 2
 const
@@ -521,7 +521,7 @@ SEEK_TO
 :
 Long
 =
-1
+1L
 shl
 3
 const
@@ -530,7 +530,7 @@ SEEK_FORWARD
 :
 Long
 =
-1
+1L
 shl
 4
 const
@@ -539,7 +539,7 @@ SEEK_BACKWARD
 :
 Long
 =
-1
+1L
 shl
 5
 const
@@ -548,7 +548,7 @@ SKIP_AD
 :
 Long
 =
-1
+1L
 shl
 6
 const
@@ -557,7 +557,7 @@ NEXT_TRACK
 :
 Long
 =
-1
+1L
 shl
 7
 const
@@ -566,7 +566,7 @@ PREVIOUS_TRACK
 :
 Long
 =
-1
+1L
 shl
 8
 const
@@ -575,7 +575,7 @@ FOCUS
 :
 Long
 =
-1
+1L
 shl
 9
 }

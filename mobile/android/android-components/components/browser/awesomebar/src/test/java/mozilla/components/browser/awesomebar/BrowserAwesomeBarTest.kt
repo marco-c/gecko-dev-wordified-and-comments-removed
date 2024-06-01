@@ -89,12 +89,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 delay
 import
 kotlinx
@@ -334,7 +328,6 @@ java
 util
 .
 UUID
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

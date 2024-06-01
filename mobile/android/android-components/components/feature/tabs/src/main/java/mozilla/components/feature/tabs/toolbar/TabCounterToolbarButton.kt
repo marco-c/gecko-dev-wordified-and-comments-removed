@@ -95,12 +95,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 collect
@@ -272,7 +266,6 @@ TabCounter
 .
 *
 /
-ExperimentalCoroutinesApi
 Suppress
 (
 "

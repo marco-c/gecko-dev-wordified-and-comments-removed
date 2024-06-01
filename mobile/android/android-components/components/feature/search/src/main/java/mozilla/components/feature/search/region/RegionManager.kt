@@ -271,11 +271,11 @@ RETRY_TIMEOUT_MS
 :
 Long
 =
-10
+10L
 *
-60
+60L
 *
-1000
+1000L
 private
 const
 val

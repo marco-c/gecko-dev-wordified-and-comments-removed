@@ -89,12 +89,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 Job
 import
 kotlinx
@@ -300,7 +294,6 @@ app
 .
 *
 /
-ExperimentalCoroutinesApi
 Suppress
 (
 "
