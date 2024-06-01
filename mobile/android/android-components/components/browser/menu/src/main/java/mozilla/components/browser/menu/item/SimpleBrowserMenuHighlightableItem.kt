@@ -327,6 +327,13 @@ val
 backgroundTint
 :
 Int
+override
+val
+isCollapsingMenuLimit
+:
+Boolean
+=
+false
 var
 isHighlighted
 :

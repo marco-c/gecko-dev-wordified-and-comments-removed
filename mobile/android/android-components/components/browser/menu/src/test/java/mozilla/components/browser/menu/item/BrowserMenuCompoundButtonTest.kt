@@ -613,6 +613,7 @@ Unit
 BrowserMenuCompoundButton
 (
 label
+false
 initialState
 listener
 )

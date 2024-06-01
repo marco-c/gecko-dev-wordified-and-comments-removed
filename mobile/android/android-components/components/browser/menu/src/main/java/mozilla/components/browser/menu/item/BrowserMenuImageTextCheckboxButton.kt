@@ -383,6 +383,13 @@ val
 secondaryLabel
 :
 String
+override
+val
+isCollapsingMenuLimit
+:
+Boolean
+=
+false
 val
 isInPrimaryState
 :
@@ -413,6 +420,7 @@ label
 imageResource
 iconTintColorResource
 textColorResource
+isCollapsingMenuLimit
 labelListener
 )
 {

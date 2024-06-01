@@ -346,6 +346,13 @@ val
 subMenu
 :
 BrowserMenu
+override
+val
+isCollapsingMenuLimit
+:
+Boolean
+=
+false
 endOfMenuAlwaysVisible
 :
 Boolean
@@ -356,6 +363,7 @@ false
 AbstractParentBrowserMenuItem
 (
 subMenu
+isCollapsingMenuLimit
 endOfMenuAlwaysVisible
 )
 {
