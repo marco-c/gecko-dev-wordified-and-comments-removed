@@ -3964,6 +3964,9 @@ mock
 maxBreadCrumbs
 =
 5
+scope
+=
+scope
 )
 repeat
 (
