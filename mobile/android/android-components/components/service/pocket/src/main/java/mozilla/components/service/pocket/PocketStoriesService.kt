@@ -253,6 +253,9 @@ spocsUseCases
 .
 GetSponsoredStories
 (
+context
+=
+context
 profileId
 =
 pocketStoriesConfig
@@ -305,6 +308,9 @@ spocsUseCases
 .
 DeleteProfile
 (
+context
+=
+context
 profileId
 =
 pocketStoriesConfig
