@@ -10,7 +10,7 @@ coverage
 :
 precision
 :
-0
+2
 round
 :
 down
@@ -32,6 +32,8 @@ enabled
 yes
 threshold
 :
+0
+.
 1
 if_not_found
 :
