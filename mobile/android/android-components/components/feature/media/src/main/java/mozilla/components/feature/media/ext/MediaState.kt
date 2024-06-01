@@ -69,14 +69,6 @@ ext
 import
 android
 .
-media
-.
-session
-.
-PlaybackState
-import
-android
-.
 support
 .
 v4
@@ -245,7 +237,7 @@ MediaState
 Paused
 -
 >
-PlaybackState
+PlaybackStateCompat
 .
 STATE_PAUSED
 is
@@ -254,7 +246,7 @@ MediaState
 None
 -
 >
-PlaybackState
+PlaybackStateCompat
 .
 STATE_NONE
 }
