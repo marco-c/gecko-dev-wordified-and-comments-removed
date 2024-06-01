@@ -381,6 +381,16 @@ state
 .
 tabs
 .
+filter
+{
+!
+it
+.
+content
+.
+private
+}
+.
 map
 {
 tab
