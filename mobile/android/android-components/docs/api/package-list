@@ -3991,6 +3991,13 @@ mozilla
 .
 components
 .
+feature
+.
+webcompat
+mozilla
+.
+components
+.
 lib
 .
 crash

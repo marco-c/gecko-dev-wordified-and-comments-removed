@@ -97,7 +97,6 @@ class
 WebAppLauncherActivity
 :
 AppCompatActivity
-CoroutineScope
 <
 br
 >
