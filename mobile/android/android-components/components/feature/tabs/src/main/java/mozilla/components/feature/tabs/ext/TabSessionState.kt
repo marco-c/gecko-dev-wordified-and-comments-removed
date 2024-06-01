@@ -113,6 +113,9 @@ private
 content
 .
 icon
+content
+.
+thumbnail
 mediaSessionState
 ?
 .
