@@ -127,7 +127,7 @@ CrashReporter
 .
 kt
 #
-L57
+L62
 )
 A
 generic
@@ -319,6 +319,12 @@ md
 |
 CrashReporter
 (
+context
+:
+<
+ERROR
+CLASS
+>
 services
 :
 [

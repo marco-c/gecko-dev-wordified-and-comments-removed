@@ -177,7 +177,7 @@ SentryService
 .
 kt
 #
-L68
+L76
 )
 Overrides
 [
@@ -247,6 +247,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -262,6 +264,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or
@@ -394,7 +397,7 @@ SentryService
 .
 kt
 #
-L82
+L91
 )
 Overrides
 [
@@ -464,6 +467,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -479,6 +484,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or
@@ -672,7 +678,7 @@ SentryService
 .
 kt
 #
-L101
+L110
 )
 Overrides
 [
@@ -738,6 +744,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -753,6 +761,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or

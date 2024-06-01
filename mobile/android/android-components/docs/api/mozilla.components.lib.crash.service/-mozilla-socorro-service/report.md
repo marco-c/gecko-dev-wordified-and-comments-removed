@@ -177,7 +177,7 @@ MozillaSocorroService
 .
 kt
 #
-L98
+L106
 )
 Overrides
 [
@@ -247,6 +247,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -262,6 +264,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or
@@ -394,7 +397,7 @@ MozillaSocorroService
 .
 kt
 #
-L109
+L117
 )
 Overrides
 [
@@ -464,6 +467,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -479,6 +484,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or
@@ -672,7 +678,7 @@ MozillaSocorroService
 .
 kt
 #
-L120
+L128
 )
 Overrides
 [
@@ -738,6 +744,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -753,6 +761,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or

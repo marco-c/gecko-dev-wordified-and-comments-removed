@@ -70,6 +70,12 @@ gt
 ;
 CrashReporter
 (
+context
+:
+<
+ERROR
+CLASS
+>
 services
 :
 [

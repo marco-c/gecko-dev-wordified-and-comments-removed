@@ -178,7 +178,7 @@ CrashReporterService
 .
 kt
 #
-L22
+L37
 )
 Submits
 a
@@ -227,6 +227,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -242,6 +244,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or
@@ -375,7 +378,7 @@ CrashReporterService
 .
 kt
 #
-L30
+L45
 )
 Submits
 a
@@ -424,6 +427,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -439,6 +444,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or
@@ -633,7 +639,7 @@ CrashReporterService
 .
 kt
 #
-L38
+L53
 )
 Submits
 a
@@ -678,6 +684,8 @@ Return
 *
 *
 Unique
+crash
+report
 identifier
 that
 can
@@ -693,6 +701,7 @@ service
 to
 find
 this
+reported
 crash
 -
 or
