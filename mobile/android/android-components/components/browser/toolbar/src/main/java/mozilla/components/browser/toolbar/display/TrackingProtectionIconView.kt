@@ -588,7 +588,7 @@ R
 .
 string
 .
-mozac_browser_toolbar_content_description_tracking_protection_on_trackers_blocked
+mozac_browser_toolbar_content_description_tracking_protection_on_trackers_blocked1
 }
 OFF_FOR_A_SITE
 -
@@ -601,7 +601,7 @@ R
 .
 string
 .
-mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site
+mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site1
 }
 OFF_GLOBALLY
 -
