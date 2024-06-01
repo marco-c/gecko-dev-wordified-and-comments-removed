@@ -3585,7 +3585,6 @@ createSaveImageCandidate
 testContext
 ContextMenuUseCases
 (
-sessionManager
 store
 )
 )
@@ -4048,7 +4047,6 @@ createSaveVideoAudioCandidate
 testContext
 ContextMenuUseCases
 (
-sessionManager
 store
 )
 )
@@ -4530,7 +4528,6 @@ createDownloadLinkCandidate
 testContext
 ContextMenuUseCases
 (
-sessionManager
 store
 )
 )
