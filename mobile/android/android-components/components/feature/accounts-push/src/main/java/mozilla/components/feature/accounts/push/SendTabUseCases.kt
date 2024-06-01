@@ -153,7 +153,7 @@ concept
 .
 sync
 .
-DeviceEventOutgoing
+DeviceCommandOutgoing
 .
 SendTab
 import
@@ -560,7 +560,7 @@ let
 return
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 device
 .
@@ -857,7 +857,7 @@ tab
 !
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 device
 .

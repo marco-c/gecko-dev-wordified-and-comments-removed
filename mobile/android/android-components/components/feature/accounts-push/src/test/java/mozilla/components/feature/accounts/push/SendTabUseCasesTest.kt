@@ -395,7 +395,7 @@ when
 (
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -441,7 +441,7 @@ verify
 constellation
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -518,7 +518,7 @@ when
 (
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -558,7 +558,7 @@ times
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -639,7 +639,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -679,7 +679,7 @@ when
 (
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -718,7 +718,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -800,7 +800,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -827,7 +827,7 @@ when
 (
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -862,7 +862,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -885,7 +885,7 @@ verify
 constellation
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -969,7 +969,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -996,7 +996,7 @@ when
 (
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1034,7 +1034,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1060,7 +1060,7 @@ verify
 constellation
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1128,7 +1128,7 @@ when
 (
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1179,7 +1179,7 @@ times
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1247,7 +1247,7 @@ when
 (
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1320,7 +1320,7 @@ times
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1401,7 +1401,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1465,7 +1465,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1565,7 +1565,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1633,7 +1633,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 eq
 (
@@ -1653,7 +1653,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 eq
 (
@@ -1740,7 +1740,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1780,7 +1780,7 @@ when
 (
 constellation
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (
@@ -1830,7 +1830,7 @@ never
 )
 )
 .
-sendEventToDeviceAsync
+sendCommandToDeviceAsync
 (
 any
 (

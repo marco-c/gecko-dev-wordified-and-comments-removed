@@ -223,7 +223,7 @@ verify
 accountManager
 )
 .
-registerForDeviceEvents
+registerForAccountEvents
 (
 any
 (
@@ -271,7 +271,7 @@ verify
 accountManager
 )
 .
-registerForDeviceEvents
+registerForAccountEvents
 (
 any
 (
