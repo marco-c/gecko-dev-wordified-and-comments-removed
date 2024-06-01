@@ -346,6 +346,15 @@ initializing
 is
 EngineAction
 .
+OptimizedLoadUrlTriggeredAction
+-
+>
+{
+state
+}
+is
+EngineAction
+.
 SuspendEngineSessionAction
 is
 EngineAction
