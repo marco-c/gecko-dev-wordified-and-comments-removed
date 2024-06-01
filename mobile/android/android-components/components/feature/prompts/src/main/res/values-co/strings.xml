@@ -759,10 +759,7 @@ name
 mozac_feature_prompt_before_unload_dialog_title
 "
 >
-Cuntinu
-a
-suppressione
-?
+Cunfirmazione
 <
 /
 string
@@ -805,7 +802,7 @@ mozac_feature_prompt_before_unload_dialog_body
 "
 >
 Vulete
-lasci
+abbandun
 stu
 situ
 ?
