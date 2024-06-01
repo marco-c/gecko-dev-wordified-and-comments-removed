@@ -160,6 +160,10 @@ implementation
 Dependencies
 .
 kotlin_coroutines
+implementation
+Dependencies
+.
+androidx_annotation
 testImplementation
 Dependencies
 .

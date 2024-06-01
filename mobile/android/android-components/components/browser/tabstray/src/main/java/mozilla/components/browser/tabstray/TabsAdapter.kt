@@ -133,11 +133,11 @@ mozilla
 .
 components
 .
-support
+concept
+.
+base
 .
 images
-.
-loader
 .
 ImageLoader
 /

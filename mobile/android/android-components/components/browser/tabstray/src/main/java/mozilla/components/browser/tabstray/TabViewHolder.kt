@@ -169,7 +169,9 @@ mozilla
 .
 components
 .
-support
+concept
+.
+base
 .
 images
 .
@@ -179,11 +181,11 @@ mozilla
 .
 components
 .
-support
+concept
+.
+base
 .
 images
-.
-loader
 .
 ImageLoader
 import
