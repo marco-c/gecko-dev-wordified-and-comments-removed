@@ -146,7 +146,7 @@ Theme
 .
 AppCompat
 .
-NoActionBar
+Translucent
 "
 android
 :
