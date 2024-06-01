@@ -398,6 +398,8 @@ stopNestedScroll
 ;
 break
 ;
+default
+:
 }
 return
 eventHandled

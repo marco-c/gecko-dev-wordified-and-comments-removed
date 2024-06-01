@@ -845,6 +845,8 @@ depth
 ;
 break
 ;
+default
+:
 }
 }
 }
