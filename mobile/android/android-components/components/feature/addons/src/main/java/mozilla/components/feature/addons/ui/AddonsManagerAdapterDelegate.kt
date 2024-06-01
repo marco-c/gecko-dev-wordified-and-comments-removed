@@ -211,7 +211,7 @@ onNotYetSupportedSectionClicked
 (
 unsupportedAddons
 :
-ArrayList
+List
 <
 Addon
 >
