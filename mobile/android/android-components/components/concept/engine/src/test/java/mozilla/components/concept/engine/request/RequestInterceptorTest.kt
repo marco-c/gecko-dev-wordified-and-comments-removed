@@ -253,6 +253,8 @@ val
 errorResponse
 =
 ErrorResponse
+.
+Content
 (
 "
 data

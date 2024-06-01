@@ -4502,6 +4502,8 @@ errorResponse
 RequestInterceptor
 .
 ErrorResponse
+.
+Content
 (
 "
 foo
@@ -4645,6 +4647,8 @@ errorResponse2
 RequestInterceptor
 .
 ErrorResponse
+.
+Content
 (
 "
 foo
@@ -5038,6 +5042,8 @@ errorResponse
 RequestInterceptor
 .
 ErrorResponse
+.
+Content
 (
 "
 foo
@@ -5159,6 +5165,8 @@ errorResponse2
 RequestInterceptor
 .
 ErrorResponse
+.
+Content
 (
 "
 foo
@@ -5474,6 +5482,8 @@ errorResponse
 RequestInterceptor
 .
 ErrorResponse
+.
+Content
 (
 "
 foo
@@ -5595,6 +5605,8 @@ errorResponse2
 RequestInterceptor
 .
 ErrorResponse
+.
+Content
 (
 "
 foo
@@ -5730,6 +5742,8 @@ thenReturn
 RequestInterceptor
 .
 ErrorResponse
+.
+Content
 (
 "
 foo

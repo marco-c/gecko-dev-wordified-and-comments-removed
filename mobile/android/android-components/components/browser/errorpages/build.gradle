@@ -211,6 +211,16 @@ implementation
 Dependencies
 .
 kotlin_stdlib
+implementation
+project
+(
+'
+:
+ui
+-
+icons
+'
+)
 testImplementation
 project
 (
