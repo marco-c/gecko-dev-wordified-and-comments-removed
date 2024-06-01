@@ -151,7 +151,6 @@ SearchMetadataStorage
 context
 :
 Context
-VisibleForTesting
 private
 val
 preferences
