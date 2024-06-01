@@ -239,7 +239,7 @@ engines
 list
 assertEquals
 (
-5
+6
 searchEngines
 .
 size
@@ -553,7 +553,7 @@ searchEngines
 )
 assertEquals
 (
-5
+6
 searchEngines
 .
 size
@@ -1368,7 +1368,7 @@ engines
 list
 assertEquals
 (
-5
+6
 searchEngines
 .
 size
