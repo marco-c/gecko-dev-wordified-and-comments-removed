@@ -91,6 +91,16 @@ concept
 .
 storage
 .
+FrecencyThresholdOption
+import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
 HistoryAutocompleteResult
 import
 mozilla
@@ -822,6 +832,9 @@ getTopFrecentSites
 numItems
 :
 Int
+frecencyThreshold
+:
+FrecencyThresholdOption
 )
 :
 List

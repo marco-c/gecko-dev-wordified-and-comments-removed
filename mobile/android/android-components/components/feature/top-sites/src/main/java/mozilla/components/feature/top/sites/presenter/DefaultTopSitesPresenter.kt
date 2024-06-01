@@ -332,7 +332,7 @@ innerConfig
 totalSites
 innerConfig
 .
-includeFrecent
+frecencyConfig
 )
 scope
 .
