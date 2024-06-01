@@ -306,7 +306,7 @@ mozilla_appservices
 .
 1
 .
-0
+1
 "
 const
 val
