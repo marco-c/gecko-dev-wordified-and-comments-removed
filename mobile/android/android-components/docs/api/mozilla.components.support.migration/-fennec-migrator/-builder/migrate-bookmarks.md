@@ -210,7 +210,7 @@ FennecMigrator
 .
 kt
 #
-L250
+L266
 )
 Enable
 bookmarks

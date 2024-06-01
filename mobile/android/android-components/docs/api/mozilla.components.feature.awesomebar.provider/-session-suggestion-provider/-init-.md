@@ -72,6 +72,12 @@ gt
 ;
 SessionSuggestionProvider
 (
+resources
+:
+<
+ERROR
+CLASS
+>
 sessionManager
 :
 [

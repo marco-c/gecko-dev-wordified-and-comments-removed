@@ -97,7 +97,7 @@ AwesomeBarFeature
 .
 kt
 #
-L29
+L30
 )
 Connects
 an
@@ -1421,6 +1421,12 @@ md
 fun
 addSessionProvider
 (
+resources
+:
+<
+ERROR
+CLASS
+>
 sessionManager
 :
 [

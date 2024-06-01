@@ -134,7 +134,7 @@ SessionSuggestionProvider
 .
 kt
 #
-L21
+L23
 )
 A
 [
@@ -251,6 +251,12 @@ md
 |
 SessionSuggestionProvider
 (
+resources
+:
+<
+ERROR
+CLASS
+>
 sessionManager
 :
 [

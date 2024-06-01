@@ -182,7 +182,7 @@ FxaAccountManager
 .
 kt
 #
-L486
+L497
 )
 Finalize
 authentication

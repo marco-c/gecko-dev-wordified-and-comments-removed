@@ -61,6 +61,12 @@ addSessionProvider
 fun
 addSessionProvider
 (
+resources
+:
+<
+ERROR
+CLASS
+>
 sessionManager
 :
 [
@@ -190,7 +196,7 @@ AwesomeBarFeature
 .
 kt
 #
-L52
+L53
 )
 Add
 a
