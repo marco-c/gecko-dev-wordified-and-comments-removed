@@ -265,6 +265,10 @@ String
 >
 {
 return
+customDelegate
+.
+sortedActions
+(
 super
 .
 getAllActions
@@ -275,6 +279,7 @@ customDelegate
 .
 getAllActions
 (
+)
 )
 }
 override
