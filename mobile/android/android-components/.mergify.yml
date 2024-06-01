@@ -145,14 +145,6 @@ automation
 conditions
 :
 -
-base
-~
-=
-releases
-/
-.
-*
--
 author
 =
 github
