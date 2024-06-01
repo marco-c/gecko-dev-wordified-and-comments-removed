@@ -2791,6 +2791,9 @@ contextmenu_image_warning
 [
 CDATA
 [
+%
+1
+s
 <
 b
 xmlns
@@ -2839,10 +2842,6 @@ document
 /
 b
 >
-&
-#
-12290
-;
 ]
 ]
 >

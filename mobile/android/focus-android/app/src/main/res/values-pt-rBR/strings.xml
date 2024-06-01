@@ -2355,6 +2355,13 @@ contextmenu_image_warning
 [
 CDATA
 [
+"
+As
+imagens
+salvas
+e
+compartilhadas
+"
 <
 b
 xmlns
@@ -2406,10 +2413,6 @@ ao
 apagar
 o
 hist
-&
-#
-243
-;
 rico
 do
 %

@@ -2230,6 +2230,12 @@ contextmenu_image_warning
 [
 CDATA
 [
+"
+Lagrede
+og
+delte
+bilder
+"
 <
 b
 xmlns
@@ -2264,10 +2270,6 @@ b
 >
 "
 n
-&
-#
-229
-;
 r
 du
 sletter

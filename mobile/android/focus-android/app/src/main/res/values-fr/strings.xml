@@ -2170,6 +2170,8 @@ error_sslhandshake_message
 [
 CDATA
 [
+"
+"
 <
 ul
 xmlns
@@ -2465,6 +2467,15 @@ contextmenu_image_warning
 [
 CDATA
 [
+"
+Les
+images
+partag
+es
+ou
+enregistr
+es
+"
 <
 b
 xmlns
@@ -2507,10 +2518,6 @@ lorsque
 vous
 effacez
 l
-&
-#
-8217
-;
 historique
 de
 %

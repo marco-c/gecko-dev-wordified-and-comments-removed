@@ -2259,6 +2259,12 @@ contextmenu_image_warning
 [
 CDATA
 [
+"
+Gespeicherte
+und
+geteilte
+Grafiken
+"
 <
 b
 xmlns
@@ -2304,10 +2310,6 @@ von
 1
 s
 l
-&
-#
-246
-;
 schen
 .
 ]
