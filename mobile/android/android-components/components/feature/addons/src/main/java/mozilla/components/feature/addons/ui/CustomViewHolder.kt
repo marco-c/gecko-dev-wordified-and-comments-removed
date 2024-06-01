@@ -231,6 +231,10 @@ ratingView
 :
 RatingBar
 val
+ratingAccessibleView
+:
+TextView
+val
 userCountView
 :
 TextView
