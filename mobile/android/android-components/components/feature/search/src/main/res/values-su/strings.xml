@@ -62,9 +62,13 @@ name
 search_widget_content_description
 "
 >
+Buka
+dina
+tab
 %
 1
 s
+anyar
 <
 /
 string
@@ -90,6 +94,7 @@ name
 search_widget_text_short
 "
 >
+Paluruh
 <
 /
 string
@@ -115,6 +120,8 @@ name
 search_widget_text_long
 "
 >
+Paluruh
+raramat
 <
 /
 string
@@ -148,6 +155,8 @@ name
 search_widget_voice
 "
 >
+Paluruh
+sora
 <
 /
 string
