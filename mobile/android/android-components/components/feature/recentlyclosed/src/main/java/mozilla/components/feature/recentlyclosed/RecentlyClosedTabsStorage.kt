@@ -235,6 +235,7 @@ Suppress
 TooManyFunctions
 "
 )
+internal
 class
 RecentlyClosedTabsStorage
 (
@@ -257,6 +258,10 @@ CoroutineScope
 IO
 )
 )
+:
+RecentlyClosedMiddleware
+.
+Storage
 {
 private
 val
@@ -303,6 +308,7 @@ s
 .
 *
 /
+override
 fun
 getTabs
 (
@@ -361,6 +367,7 @@ ClosedTab
 .
 *
 /
+override
 fun
 removeTab
 (
@@ -413,6 +420,7 @@ s
 .
 *
 /
+override
 fun
 removeAllTabs
 (
@@ -500,7 +508,7 @@ maxTabs
 .
 *
 /
-internal
+override
 fun
 addTabsToCollectionWithMax
 (

@@ -186,13 +186,6 @@ tabs
 is
 RecentlyClosedAction
 .
-InitializeRecentlyClosedState
--
->
-state
-is
-RecentlyClosedAction
-.
 RemoveClosedTabAction
 -
 >
