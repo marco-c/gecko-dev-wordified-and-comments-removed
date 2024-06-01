@@ -141,8 +141,6 @@ task
 -
 prefix
 :
-project
-.
 mobile
 .
 android
