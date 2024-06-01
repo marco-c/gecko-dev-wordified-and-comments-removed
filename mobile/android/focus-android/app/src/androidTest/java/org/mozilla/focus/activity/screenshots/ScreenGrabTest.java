@@ -355,7 +355,7 @@ DateUtils
 .
 SECOND_IN_MILLIS
 *
-2
+10
 ;
 private
 static
