@@ -361,6 +361,17 @@ SelectLoginPrompt
 again
 .
 *
+PromptFeature
+now
+implements
+UserInteractionHandler
+.
+onBackPressed
+to
+dismiss
+loginPicker
+.
+*
 *
 *
 feature
