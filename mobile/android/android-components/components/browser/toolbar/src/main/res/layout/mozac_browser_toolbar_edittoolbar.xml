@@ -324,9 +324,9 @@ id
 /
 mozac_browser_toolbar_background
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -625,9 +625,9 @@ scaleType
 "
 center
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

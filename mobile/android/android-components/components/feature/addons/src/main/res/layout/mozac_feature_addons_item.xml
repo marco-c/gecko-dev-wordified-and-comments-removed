@@ -298,9 +298,9 @@ importantForAccessibility
 "
 no
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 android
@@ -821,9 +821,9 @@ attr
 /
 textColorPrimary
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

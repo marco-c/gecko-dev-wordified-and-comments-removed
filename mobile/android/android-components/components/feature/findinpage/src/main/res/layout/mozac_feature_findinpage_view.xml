@@ -454,9 +454,9 @@ string
 /
 mozac_feature_findindpage_previous_result
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -538,9 +538,9 @@ string
 /
 mozac_feature_findindpage_next_result
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -622,9 +622,9 @@ string
 /
 mozac_feature_findindpage_dismiss
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

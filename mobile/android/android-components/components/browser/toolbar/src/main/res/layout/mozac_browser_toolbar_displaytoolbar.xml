@@ -433,9 +433,9 @@ id
 /
 mozac_browser_toolbar_background
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -508,9 +508,9 @@ visibility
 "
 gone
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -584,9 +584,9 @@ importantForAccessibility
 "
 no
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -695,9 +695,9 @@ string
 /
 mozac_browser_toolbar_content_description_site_info
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
