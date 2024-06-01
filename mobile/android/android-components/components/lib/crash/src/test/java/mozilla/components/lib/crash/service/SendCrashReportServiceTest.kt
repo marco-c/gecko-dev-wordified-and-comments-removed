@@ -310,6 +310,16 @@ NativeCodeCrash
 )
 {
 }
+override
+fun
+report
+(
+throwable
+:
+Throwable
+)
+{
+}
 }
 )
 )

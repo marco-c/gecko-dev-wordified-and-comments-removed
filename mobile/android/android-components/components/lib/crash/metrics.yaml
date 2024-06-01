@@ -163,6 +163,8 @@ labels
 -
 uncaught_exception
 -
+caught_exception
+-
 native_code_crash
 bugs
 :

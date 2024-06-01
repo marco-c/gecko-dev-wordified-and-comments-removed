@@ -478,6 +478,7 @@ val
 minidumpPath
 :
 String
+?
 val
 minidumpSuccess
 :
@@ -486,6 +487,7 @@ val
 extrasPath
 :
 String
+?
 val
 isFatal
 :
@@ -560,8 +562,7 @@ bundle
 getString
 (
 INTENT_MINIDUMP_PATH
-"
-"
+null
 )
 bundle
 .
@@ -575,8 +576,7 @@ bundle
 getString
 (
 INTENT_EXTRAS_PATH
-"
-"
+null
 )
 bundle
 .
