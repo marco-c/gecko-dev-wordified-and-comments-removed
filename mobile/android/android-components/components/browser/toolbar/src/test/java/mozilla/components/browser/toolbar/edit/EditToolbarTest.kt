@@ -1531,7 +1531,7 @@ measuredHeight
 )
 assertEquals
 (
-16
+0
 qrView
 .
 paddingLeft

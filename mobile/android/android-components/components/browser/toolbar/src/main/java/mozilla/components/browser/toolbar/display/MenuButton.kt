@@ -231,7 +231,7 @@ BrowserMenu
 ?
 =
 null
-private
+internal
 val
 menuIcon
 =
