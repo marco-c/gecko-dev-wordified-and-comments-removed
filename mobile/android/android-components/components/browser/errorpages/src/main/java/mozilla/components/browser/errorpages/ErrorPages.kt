@@ -558,6 +558,7 @@ getString
 errorType
 .
 messageRes
+uri
 )
 val
 imageName
