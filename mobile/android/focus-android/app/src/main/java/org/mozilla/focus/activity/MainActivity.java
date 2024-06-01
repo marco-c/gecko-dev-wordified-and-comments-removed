@@ -473,6 +473,11 @@ getDataString
 (
 )
 ;
+setIntent
+(
+intent
+)
+;
 }
 }
 Override
