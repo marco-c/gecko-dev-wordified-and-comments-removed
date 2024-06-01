@@ -182,6 +182,16 @@ Menu2
 "
 android
 :
+id
+=
+"
++
+id
+/
+mozac_browser_menu_cardView
+"
+android
+:
 layout_width
 =
 "
