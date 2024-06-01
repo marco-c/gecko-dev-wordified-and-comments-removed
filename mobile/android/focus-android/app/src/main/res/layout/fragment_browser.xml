@@ -227,7 +227,7 @@ focus
 .
 widget
 .
-ResizableKeyboardLayout
+ResizableKeyboardCoordinatorLayout
 app
 :
 viewToHideWhenActivated
@@ -696,7 +696,7 @@ focus
 .
 widget
 .
-ResizableKeyboardLayout
+ResizableKeyboardCoordinatorLayout
 >
 <
 /

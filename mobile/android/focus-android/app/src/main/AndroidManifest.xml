@@ -354,6 +354,13 @@ screenLayout
 "
 android
 :
+windowSoftInputMode
+=
+"
+adjustResize
+"
+android
+:
 label
 =
 "
