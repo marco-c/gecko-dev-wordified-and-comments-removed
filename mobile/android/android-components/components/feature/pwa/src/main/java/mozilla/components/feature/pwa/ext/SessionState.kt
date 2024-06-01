@@ -73,9 +73,11 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+state
+.
+SessionState
 import
 mozilla
 .
@@ -191,7 +193,7 @@ least
 *
 /
 fun
-Session
+SessionState
 .
 installableManifest
 (
@@ -203,6 +205,8 @@ WebAppManifest
 val
 manifest
 =
+content
+.
 webAppManifest
 ?
 :
@@ -211,6 +215,8 @@ null
 return
 if
 (
+content
+.
 securityInfo
 .
 secure

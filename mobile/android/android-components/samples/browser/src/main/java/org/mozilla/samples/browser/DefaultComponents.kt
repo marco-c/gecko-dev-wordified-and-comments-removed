@@ -1542,7 +1542,7 @@ lazy
 WebAppUseCases
 (
 applicationContext
-sessionManager
+store
 webAppShortcutManager
 )
 }
