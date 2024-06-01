@@ -1241,6 +1241,12 @@ toString
 (
 )
 val
+processType
+=
+crash
+.
+processType
+val
 minidumpSuccess
 =
 crash
@@ -1253,6 +1259,9 @@ NativeCodeCrash
 fatal
 =
 fatal
+processType
+=
+processType
 minidumpSuccess
 =
 minidumpSuccess
