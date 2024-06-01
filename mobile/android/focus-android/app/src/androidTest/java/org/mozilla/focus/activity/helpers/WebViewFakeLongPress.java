@@ -85,7 +85,7 @@ mozilla
 .
 focus
 .
-webkit
+webview
 .
 SystemWebView
 ;

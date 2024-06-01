@@ -108,7 +108,7 @@ mozilla
 .
 focus
 .
-webkit
+webview
 .
 SystemWebView
 ;
@@ -119,7 +119,7 @@ mozilla
 .
 focus
 .
-webkit
+webview
 .
 TrackingProtectionWebViewClient
 ;

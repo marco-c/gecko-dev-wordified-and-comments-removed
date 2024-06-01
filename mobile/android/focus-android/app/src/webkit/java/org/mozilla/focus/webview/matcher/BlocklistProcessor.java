@@ -5,7 +5,7 @@ mozilla
 .
 focus
 .
-webkit
+webview
 .
 matcher
 ;
@@ -30,7 +30,7 @@ mozilla
 .
 focus
 .
-webkit
+webview
 .
 matcher
 .
