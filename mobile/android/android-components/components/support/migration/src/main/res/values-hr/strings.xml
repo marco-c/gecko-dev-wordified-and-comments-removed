@@ -47,8 +47,7 @@ name
 mozac_support_migration_ongoing_notification_title
 "
 >
-A
-uriranje
+Aktualiziranje
 u
 tijeku
 <
@@ -87,6 +86,7 @@ e
 biti
 spreman
 za
+koji
 trenutak
 <
 /
@@ -121,8 +121,7 @@ name
 mozac_support_migration_complete_notification_title
 "
 >
-A
-uriranje
+Aktualiziranje
 je
 dovr
 eno
@@ -161,8 +160,7 @@ mozac_support_migration_complete_notification_text
 >
 Firefox
 je
-a
-uriran
+aktualiziran
 i
 pobolj
 an

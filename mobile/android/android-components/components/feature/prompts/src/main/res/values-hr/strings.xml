@@ -414,9 +414,8 @@ name
 mozac_feature_prompt_dont_update
 "
 >
-Ne
-a
-uriraj
+Nemoj
+aktualizirati
 <
 /
 string
@@ -618,8 +617,7 @@ name
 mozac_feature_prompt_login_update_headline
 "
 >
-A
-urirati
+Aktualizirati
 ovu
 prijavu
 ?
