@@ -254,6 +254,17 @@ an
 error
 .
 *
+Becomes
+[
+LoggedOut
+]
+when
+Sync
+is
+logged
+out
+.
+*
 *
 See
 [
@@ -273,6 +284,7 @@ Started
 Idle
 Error
 NotInitialized
+LoggedOut
 }
 /
 *

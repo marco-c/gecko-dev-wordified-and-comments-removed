@@ -281,6 +281,10 @@ implementation
 Dependencies
 .
 androidx_work_runtime
+implementation
+Dependencies
+.
+androidx_lifecycle_process
 testImplementation
 project
 (
