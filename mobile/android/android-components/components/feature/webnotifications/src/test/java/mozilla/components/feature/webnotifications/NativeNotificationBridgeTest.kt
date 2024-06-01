@@ -616,6 +616,9 @@ Type
 MANIFEST_ICON
 )
 )
+isPrivate
+=
+true
 )
 )
 }
