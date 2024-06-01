@@ -748,6 +748,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 progressBar

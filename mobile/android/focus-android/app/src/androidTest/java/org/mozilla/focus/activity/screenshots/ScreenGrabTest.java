@@ -1769,7 +1769,7 @@ R
 .
 string
 .
-your_rights
+menu_rights
 )
 ;
 onData
@@ -3739,6 +3739,18 @@ TestHelper
 webView
 .
 waitForExists
+(
+waitingTime
+)
+)
+;
+assertTrue
+(
+TestHelper
+.
+progressBar
+.
+waitUntilGone
 (
 waitingTime
 )
