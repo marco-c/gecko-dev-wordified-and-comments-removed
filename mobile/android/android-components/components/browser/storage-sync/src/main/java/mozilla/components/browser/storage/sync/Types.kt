@@ -1235,6 +1235,11 @@ documentType
 into
 (
 )
+previewImageUrl
+=
+this
+.
+previewImageUrl
 )
 }
 internal
@@ -1408,6 +1413,11 @@ documentType
 into
 (
 )
+previewImageUrl
+=
+this
+.
+previewImageUrl
 )
 }
 internal
