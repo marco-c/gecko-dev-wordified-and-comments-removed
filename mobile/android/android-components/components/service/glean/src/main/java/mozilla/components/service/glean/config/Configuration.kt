@@ -485,6 +485,11 @@ below
 .
 constructor
 (
+serverEndpoint
+:
+String
+=
+DEFAULT_TELEMETRY_ENDPOINT
 connectionTimeout
 :
 Long
@@ -525,7 +530,7 @@ this
 (
 serverEndpoint
 =
-DEFAULT_TELEMETRY_ENDPOINT
+serverEndpoint
 userAgent
 =
 DEFAULT_USER_AGENT
