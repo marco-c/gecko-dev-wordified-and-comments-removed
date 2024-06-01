@@ -1309,3 +1309,12 @@ synthetic
 .
 *
 '
+mozilla
+-
+rules
+:
+AbsentOrWrongFileLicense
+:
+active
+:
+true
