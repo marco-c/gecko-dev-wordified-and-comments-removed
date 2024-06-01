@@ -400,13 +400,6 @@ true
 ;
 settings
 .
-setUseWideViewPort
-(
-true
-)
-;
-settings
-.
 setLayoutAlgorithm
 (
 WebSettings
