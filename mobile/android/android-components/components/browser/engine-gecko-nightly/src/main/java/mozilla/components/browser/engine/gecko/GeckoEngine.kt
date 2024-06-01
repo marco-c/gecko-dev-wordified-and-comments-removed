@@ -1256,6 +1256,16 @@ GeckoEngineView
 context
 attrs
 )
+.
+apply
+{
+setColorScheme
+(
+settings
+.
+preferredColorScheme
+)
+}
 }
 /
 *
