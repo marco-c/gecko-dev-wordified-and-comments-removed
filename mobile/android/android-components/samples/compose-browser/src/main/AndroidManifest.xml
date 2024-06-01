@@ -404,7 +404,17 @@ tools
 ignore
 =
 "
+DataExtractionRules
 UnusedAttribute
+"
+android
+:
+dataExtractionRules
+=
+"
+xml
+/
+data_extraction_rules
 "
 >
 <

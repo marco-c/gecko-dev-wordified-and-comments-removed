@@ -309,6 +309,7 @@ tools
 ignore
 =
 "
+DataExtractionRules
 UnusedAttribute
 "
 android
@@ -318,6 +319,15 @@ name
 "
 .
 GleanApplication
+"
+android
+:
+dataExtractionRules
+=
+"
+xml
+/
+data_extraction_rules
 "
 >
 <
