@@ -638,7 +638,9 @@ mozac_feature_contextmenu_share_email_address
 Partager
 l
 adresse
-lectronique
+e
+-
+mail
 <
 /
 string
@@ -675,7 +677,9 @@ mozac_feature_contextmenu_copy_email_address
 Copier
 l
 adresse
-lectronique
+e
+-
+mail
 <
 /
 string
@@ -713,7 +717,9 @@ mozac_feature_contextmenu_snackbar_email_address_copied
 >
 L
 adresse
-lectronique
+e
+-
+mail
 a
 t
 copi
@@ -919,7 +925,9 @@ mozac_selection_context_menu_email
 >
 Envoyer
 un
-courriel
+e
+-
+mail
 <
 /
 string
