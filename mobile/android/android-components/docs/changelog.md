@@ -645,7 +645,7 @@ dataprotect
 *
 Added
 new
-KeySharedPreferences
+SecureAbove22Preferences
 helper
 class
 which

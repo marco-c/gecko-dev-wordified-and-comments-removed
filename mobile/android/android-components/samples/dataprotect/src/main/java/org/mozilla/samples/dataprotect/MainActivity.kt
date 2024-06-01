@@ -109,7 +109,7 @@ lib
 .
 dataprotect
 .
-KeySharedPreferences
+SecureAbove22Preferences
 import
 mozilla
 .
@@ -208,7 +208,7 @@ activity_main
 val
 prefs
 =
-KeySharedPreferences
+SecureAbove22Preferences
 (
 this
 if
@@ -284,7 +284,7 @@ prepareProtectedData
 (
 prefs
 :
-KeySharedPreferences
+SecureAbove22Preferences
 )
 {
 for

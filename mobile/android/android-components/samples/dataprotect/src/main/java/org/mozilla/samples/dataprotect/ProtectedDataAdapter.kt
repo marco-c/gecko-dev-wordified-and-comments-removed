@@ -105,7 +105,7 @@ lib
 .
 dataprotect
 .
-KeySharedPreferences
+SecureAbove22Preferences
 class
 ProtectedDataAdapter
 (
@@ -113,7 +113,7 @@ private
 val
 prefs
 :
-KeySharedPreferences
+SecureAbove22Preferences
 private
 val
 itemKeys

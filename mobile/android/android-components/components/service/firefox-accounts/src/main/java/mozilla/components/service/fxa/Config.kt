@@ -117,7 +117,7 @@ lib
 .
 dataprotect
 .
-KeySharedPreferences
+SecureAbove22Preferences
 typealias
 ServerConfig
 =
@@ -574,7 +574,7 @@ passwords_key
 '
 via
 [
-KeySharedPreferences
+SecureAbove22Preferences
 ]
 .
 *
