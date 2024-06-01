@@ -107,7 +107,7 @@ session
 .
 storage
 .
-BrowsingSession
+RecoverableBrowserState
 import
 mozilla
 .
@@ -1803,7 +1803,7 @@ Restores
 the
 given
 [
-BrowsingSession
+RecoverableBrowserState
 ]
 .
 *
@@ -1814,7 +1814,7 @@ invoke
 (
 browsingSession
 :
-BrowsingSession
+RecoverableBrowserState
 )
 {
 invoke

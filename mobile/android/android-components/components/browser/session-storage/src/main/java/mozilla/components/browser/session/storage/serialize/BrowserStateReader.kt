@@ -97,7 +97,7 @@ session
 .
 storage
 .
-BrowsingSession
+RecoverableBrowserState
 import
 mozilla
 .
@@ -221,7 +221,7 @@ UUID
 Reads
 a
 [
-BrowsingSession
+RecoverableBrowserState
 ]
 (
 partial
@@ -260,7 +260,7 @@ Reads
 a
 serialized
 [
-BrowsingSession
+RecoverableBrowserState
 ]
 from
 the
@@ -282,7 +282,7 @@ file
 AtomicFile
 )
 :
-BrowsingSession
+RecoverableBrowserState
 ?
 {
 return
@@ -447,7 +447,7 @@ Boolean
 true
 )
 :
-BrowsingSession
+RecoverableBrowserState
 ?
 {
 beginObject
@@ -669,7 +669,7 @@ isNotEmpty
 )
 )
 {
-BrowsingSession
+RecoverableBrowserState
 (
 tabs
 selectedTabId

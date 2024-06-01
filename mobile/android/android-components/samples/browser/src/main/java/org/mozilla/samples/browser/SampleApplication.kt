@@ -458,7 +458,7 @@ engine
 warmUp
 (
 )
-restoreBrowsingSession
+restoreBrowserState
 (
 )
 GlobalScope
@@ -659,7 +659,7 @@ e
 }
 private
 fun
-restoreBrowsingSession
+restoreBrowserState
 (
 )
 =

@@ -355,7 +355,7 @@ restore
 (
 )
 :
-BrowsingSession
+RecoverableBrowserState
 ?
 {
 synchronized

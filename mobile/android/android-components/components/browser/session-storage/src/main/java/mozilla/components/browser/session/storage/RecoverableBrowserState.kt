@@ -96,7 +96,7 @@ disk
 /
 data
 class
-BrowsingSession
+RecoverableBrowserState
 (
 val
 tabs
