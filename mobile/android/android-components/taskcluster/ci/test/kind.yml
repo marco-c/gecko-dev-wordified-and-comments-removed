@@ -261,8 +261,6 @@ jobs
 :
 unit
 -
-test
--
 browser
 -
 engine
