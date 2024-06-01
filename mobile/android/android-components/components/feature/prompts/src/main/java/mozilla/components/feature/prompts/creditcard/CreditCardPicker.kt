@@ -95,7 +95,7 @@ engine
 .
 prompt
 .
-CreditCard
+PromptRequest
 import
 mozilla
 .
@@ -103,11 +103,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-PromptRequest
+CreditCardEntry
 import
 mozilla
 .
@@ -301,7 +299,7 @@ creditCardSelectBar
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 private
 val
@@ -341,7 +339,7 @@ SelectablePromptView
 .
 Listener
 <
-CreditCard
+CreditCardEntry
 >
 {
 init
@@ -374,7 +372,7 @@ internal
 var
 selectedCreditCard
 :
-CreditCard
+CreditCardEntry
 ?
 =
 null
@@ -399,7 +397,7 @@ onOptionSelect
 (
 option
 :
-CreditCard
+CreditCardEntry
 )
 {
 selectedCreditCard

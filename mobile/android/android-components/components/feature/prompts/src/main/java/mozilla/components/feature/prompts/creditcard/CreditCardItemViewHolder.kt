@@ -99,11 +99,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-CreditCard
+CreditCardEntry
 import
 mozilla
 .
@@ -182,7 +180,7 @@ val
 onCreditCardSelected
 :
 (
-CreditCard
+CreditCardEntry
 )
 -
 >
@@ -207,7 +205,7 @@ with
 the
 provided
 [
-CreditCard
+CreditCardEntry
 ]
 .
 *
@@ -216,7 +214,7 @@ param
 creditCard
 The
 [
-CreditCard
+CreditCardEntry
 ]
 to
 display
@@ -228,7 +226,7 @@ bind
 (
 creditCard
 :
-CreditCard
+CreditCardEntry
 )
 {
 itemView
@@ -314,7 +312,7 @@ bindCreditCardExpiryDate
 (
 creditCard
 :
-CreditCard
+CreditCardEntry
 )
 {
 val

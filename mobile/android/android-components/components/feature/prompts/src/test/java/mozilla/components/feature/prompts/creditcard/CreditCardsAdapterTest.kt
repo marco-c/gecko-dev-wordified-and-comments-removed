@@ -15,11 +15,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-CreditCard
+CreditCardEntry
 import
 org
 .
@@ -54,7 +52,7 @@ testDiffCallback
 val
 creditCard1
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =
@@ -123,7 +121,7 @@ creditCard2
 val
 creditCard3
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =

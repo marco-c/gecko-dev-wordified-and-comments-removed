@@ -301,6 +301,16 @@ concept
 .
 storage
 .
+CreditCardEntry
+import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
 Login
 import
 mozilla
@@ -1495,7 +1505,7 @@ invoked
 val
 creditCard
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =
@@ -1540,7 +1550,7 @@ false
 var
 confirmedCreditCard
 :
-CreditCard
+CreditCardEntry
 ?
 =
 null

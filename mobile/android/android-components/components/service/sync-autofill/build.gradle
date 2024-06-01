@@ -185,6 +185,16 @@ utils
 '
 )
 implementation
+project
+(
+'
+:
+support
+-
+ktx
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib

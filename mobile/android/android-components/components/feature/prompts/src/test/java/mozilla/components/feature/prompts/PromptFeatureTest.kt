@@ -313,18 +313,6 @@ engine
 .
 prompt
 .
-CreditCard
-import
-mozilla
-.
-components
-.
-concept
-.
-engine
-.
-prompt
-.
 PromptRequest
 import
 mozilla
@@ -472,6 +460,16 @@ engine
 prompt
 .
 ShareData
+import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
+CreditCardEntry
 import
 mozilla
 .
@@ -2655,7 +2653,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -2788,7 +2786,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -2910,7 +2908,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -3038,7 +3036,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -5033,7 +5031,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -5118,7 +5116,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -5206,7 +5204,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -5288,7 +5286,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -5547,7 +5545,7 @@ card
 val
 creditCard
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =
@@ -5592,7 +5590,7 @@ false
 var
 confirmedCreditCard
 :
-CreditCard
+CreditCardEntry
 ?
 =
 null
@@ -8245,7 +8243,7 @@ creditCardPickerView
 :
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -8298,7 +8296,7 @@ val
 onConfirm
 :
 (
-CreditCard
+CreditCardEntry
 )
 -
 >
@@ -8309,7 +8307,7 @@ Unit
 val
 creditCard
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =

@@ -121,11 +121,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-CreditCard
+CreditCardEntry
 import
 mozilla
 .
@@ -332,7 +330,7 @@ private
 val
 creditCard
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =
@@ -470,7 +468,7 @@ SelectablePromptView
 .
 Listener
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock
@@ -549,7 +547,7 @@ SelectablePromptView
 .
 Listener
 <
-CreditCard
+CreditCardEntry
 >
 =
 mock

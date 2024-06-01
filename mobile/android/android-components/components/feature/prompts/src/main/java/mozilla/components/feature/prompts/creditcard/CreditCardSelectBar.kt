@@ -171,11 +171,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-CreditCard
+CreditCardEntry
 import
 mozilla
 .
@@ -284,7 +282,7 @@ defStyleAttr
 )
 SelectablePromptView
 <
-CreditCard
+CreditCardEntry
 >
 {
 private
@@ -366,7 +364,7 @@ SelectablePromptView
 .
 Listener
 <
-CreditCard
+CreditCardEntry
 >
 ?
 =
@@ -456,7 +454,7 @@ options
 :
 List
 <
-CreditCard
+CreditCardEntry
 >
 )
 {

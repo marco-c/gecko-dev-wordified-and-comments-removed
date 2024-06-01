@@ -109,11 +109,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-CreditCard
+CreditCardEntry
 import
 mozilla
 .
@@ -232,7 +230,7 @@ var
 onCreditCardSelected
 :
 (
-CreditCard
+CreditCardEntry
 )
 -
 >
@@ -241,7 +239,7 @@ private
 val
 creditCard
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =
@@ -439,7 +437,7 @@ item
 var
 onCreditCardSelectedCalled
 :
-CreditCard
+CreditCardEntry
 ?
 =
 null
@@ -449,7 +447,7 @@ onCreditCardSelected
 {
 creditCard
 :
-CreditCard
+CreditCardEntry
 -
 >
 onCreditCardSelectedCalled

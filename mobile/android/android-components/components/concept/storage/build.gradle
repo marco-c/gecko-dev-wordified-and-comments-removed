@@ -178,6 +178,16 @@ api
 Dependencies
 .
 kotlin_coroutines
+implementation
+project
+(
+'
+:
+support
+-
+ktx
+'
+)
 }
 apply
 from

@@ -75,11 +75,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-CreditCard
+CreditCardEntry
 import
 mozilla
 .
@@ -115,7 +113,7 @@ an
 Android
 Components
 [
-CreditCard
+CreditCardEntry
 ]
 .
 *
@@ -125,11 +123,11 @@ Autocomplete
 .
 CreditCard
 .
-toCreditCard
+toCreditCardEntry
 (
 )
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =
@@ -173,7 +171,7 @@ an
 Android
 Components
 [
-CreditCard
+CreditCardEntry
 ]
 to
 a
@@ -187,7 +185,7 @@ CreditCard
 *
 /
 fun
-CreditCard
+CreditCardEntry
 .
 toAutocompleteCreditCard
 (

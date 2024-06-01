@@ -101,11 +101,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-CreditCard
+CreditCardEntry
 /
 *
 *
@@ -145,7 +143,7 @@ val
 onCreditCardSelected
 :
 (
-CreditCard
+CreditCardEntry
 )
 -
 >
@@ -154,7 +152,7 @@ Unit
 :
 ListAdapter
 <
-CreditCard
+CreditCardEntry
 CreditCardItemViewHolder
 >
 (
@@ -232,7 +230,7 @@ DiffUtil
 .
 ItemCallback
 <
-CreditCard
+CreditCardEntry
 >
 (
 )
@@ -243,10 +241,10 @@ areItemsTheSame
 (
 oldItem
 :
-CreditCard
+CreditCardEntry
 newItem
 :
-CreditCard
+CreditCardEntry
 )
 =
 oldItem
@@ -263,10 +261,10 @@ areContentsTheSame
 (
 oldItem
 :
-CreditCard
+CreditCardEntry
 newItem
 :
-CreditCard
+CreditCardEntry
 )
 =
 oldItem

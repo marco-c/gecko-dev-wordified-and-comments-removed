@@ -292,7 +292,6 @@ Autocomplete
 CreditCard
 >
 >
-?
 {
 val
 result
@@ -323,15 +322,19 @@ IO
 )
 {
 val
+key
+=
+creditCardsAddressesStorageDelegate
+.
+getOrGenerateKey
+(
+)
+val
 creditCards
 =
 creditCardsAddressesStorageDelegate
 .
 onCreditCardsFetch
-(
-)
-.
-await
 (
 )
 .
@@ -344,6 +347,7 @@ creditCardsAddressesStorageDelegate
 .
 decrypt
 (
+key
 it
 .
 encryptedCardNumber
@@ -471,7 +475,6 @@ Autocomplete
 LoginEntry
 >
 >
-?
 {
 val
 result

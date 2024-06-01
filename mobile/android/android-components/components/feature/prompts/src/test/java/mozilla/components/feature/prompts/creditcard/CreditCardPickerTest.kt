@@ -149,7 +149,7 @@ engine
 .
 prompt
 .
-CreditCard
+PromptRequest
 import
 mozilla
 .
@@ -157,11 +157,9 @@ components
 .
 concept
 .
-engine
+storage
 .
-prompt
-.
-PromptRequest
+CreditCardEntry
 import
 mozilla
 .
@@ -272,7 +270,7 @@ private
 val
 creditCard
 =
-CreditCard
+CreditCardEntry
 (
 guid
 =
@@ -312,7 +310,7 @@ false
 var
 confirmedCreditCard
 :
-CreditCard
+CreditCardEntry
 ?
 =
 null
