@@ -111,15 +111,13 @@ index
 html
 )
 ?
-info
+marketplaceIntent
 :
 <
 ERROR
 CLASS
 >
 ?
-=
-null
 )
 Data
 class
