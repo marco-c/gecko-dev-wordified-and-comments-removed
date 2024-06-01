@@ -191,6 +191,18 @@ crash
 .
 service
 .
+CrashTelemetryService
+import
+mozilla
+.
+components
+.
+lib
+.
+crash
+.
+service
+.
 SendCrashReportService
 import
 mozilla
@@ -493,7 +505,7 @@ telemetryServices
 :
 List
 <
-CrashReporterService
+CrashTelemetryService
 >
 =
 emptyList
@@ -831,7 +843,7 @@ NativeCodeCrash
 >
 telemetryService
 .
-report
+record
 (
 crash
 )
@@ -843,7 +855,7 @@ UncaughtExceptionCrash
 >
 telemetryService
 .
-report
+record
 (
 crash
 )

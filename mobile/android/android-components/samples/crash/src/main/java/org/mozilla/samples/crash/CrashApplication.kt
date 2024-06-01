@@ -251,6 +251,11 @@ createDummyCrashService
 (
 this
 )
+)
+telemetryServices
+=
+listOf
+(
 GleanCrashReporterService
 (
 applicationContext
