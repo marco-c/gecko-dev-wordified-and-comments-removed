@@ -226,7 +226,7 @@ WebExtensionDelegate
 .
 kt
 #
-L39
+L53
 )
 Invoked
 when
