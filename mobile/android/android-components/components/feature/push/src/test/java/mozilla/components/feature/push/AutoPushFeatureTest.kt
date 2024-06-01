@@ -1414,7 +1414,7 @@ mock
 )
 feature
 .
-forceRegistrationRenewal
+renewRegistration
 (
 )
 verify
@@ -1424,6 +1424,15 @@ service
 .
 deleteToken
 (
+)
+verify
+(
+service
+)
+.
+start
+(
+testContext
 )
 val
 pref

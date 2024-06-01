@@ -234,5 +234,12 @@ PushError
 )
 {
 }
+override
+fun
+renewRegistration
+(
+)
+{
+}
 }
 }
