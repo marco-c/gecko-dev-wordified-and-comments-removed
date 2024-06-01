@@ -1088,6 +1088,9 @@ origin
 )
 }
 }
+emitNeverSaveFact
+(
+)
 feature
 ?
 .
@@ -1100,6 +1103,9 @@ dismiss
 )
 }
 }
+emitDisplayFact
+(
+)
 update
 (
 )
@@ -1125,6 +1131,9 @@ feature
 onCancel
 (
 sessionId
+)
+emitCancelFact
+(
 )
 }
 private
@@ -1160,6 +1169,9 @@ password
 =
 password
 )
+)
+emitSaveFact
+(
 )
 dismiss
 (
