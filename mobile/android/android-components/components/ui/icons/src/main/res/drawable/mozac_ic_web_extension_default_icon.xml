@@ -141,8 +141,9 @@ android
 fillColor
 =
 "
-#
-FF000000
+color
+/
+mozac_ui_icons_fill
 "
 android
 :
