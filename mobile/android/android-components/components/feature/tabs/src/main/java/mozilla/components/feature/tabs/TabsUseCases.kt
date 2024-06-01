@@ -2043,7 +2043,6 @@ tabs
 class
 RestoreUseCase
 (
-private
 val
 store
 :
