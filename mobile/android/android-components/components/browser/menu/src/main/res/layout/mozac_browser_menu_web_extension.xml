@@ -388,6 +388,13 @@ wrap_content
 "
 android
 :
+visibility
+=
+"
+invisible
+"
+android
+:
 padding
 =
 "
