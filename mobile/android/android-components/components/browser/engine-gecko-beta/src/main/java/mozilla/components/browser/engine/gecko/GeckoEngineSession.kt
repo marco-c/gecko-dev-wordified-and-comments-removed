@@ -498,6 +498,12 @@ Settings
 ?
 =
 null
+contextId
+:
+String
+?
+=
+null
 private
 val
 geckoSessionProvider
@@ -521,6 +527,11 @@ Builder
 usePrivateMode
 (
 privateMode
+)
+.
+contextId
+(
+contextId
 )
 .
 build

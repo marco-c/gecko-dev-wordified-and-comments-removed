@@ -1880,6 +1880,9 @@ createSession
 session
 .
 private
+session
+.
+contextId
 )
 .
 apply

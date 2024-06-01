@@ -213,6 +213,10 @@ createSession
 private
 :
 Boolean
+contextId
+:
+String
+?
 )
 :
 EngineSession
