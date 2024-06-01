@@ -348,7 +348,7 @@ _
 _
 -
 >
-dismiss
+onCancelRedirect
 (
 )
 }
@@ -482,6 +482,11 @@ fragment
 arguments
 =
 arguments
+fragment
+.
+isCancelable
+=
+false
 return
 fragment
 }

@@ -196,6 +196,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+feature
+-
+session
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
