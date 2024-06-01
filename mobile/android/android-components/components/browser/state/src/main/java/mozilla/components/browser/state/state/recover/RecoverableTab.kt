@@ -610,6 +610,9 @@ createdAt
 lastMediaAccessState
 =
 lastMediaAccessState
+private
+=
+private
 historyMetadata
 =
 historyMetadata

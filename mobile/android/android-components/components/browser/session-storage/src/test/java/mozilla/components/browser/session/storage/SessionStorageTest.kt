@@ -6685,6 +6685,15 @@ readerState
 )
 assertEquals
 (
+content
+.
+private
+tab
+.
+private
+)
+assertEquals
+(
 (
 engineState
 .
