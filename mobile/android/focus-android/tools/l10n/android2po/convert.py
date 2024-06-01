@@ -5187,24 +5187,36 @@ len
 (
 string_el
 )
-=
-=
-1
+>
+0
 :
                 
-text
+elements_text
 =
+[
 etree
 .
 tostring
 (
-string_el
-[
-0
-]
+child
 xml_declaration
 =
 False
+)
+for
+child
+in
+string_el
+]
+                
+text
+=
+'
+'
+.
+join
+(
+elements_text
 )
                 
 if
@@ -5245,12 +5257,10 @@ li
 :
                     
 del
-(
 string_el
 [
-0
+:
 ]
-)
                     
 string_el
 .
