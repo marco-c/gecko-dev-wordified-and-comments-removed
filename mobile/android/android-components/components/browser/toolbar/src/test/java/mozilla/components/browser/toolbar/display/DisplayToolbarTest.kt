@@ -760,6 +760,11 @@ displayTrackingProtectionIcon
 true
 displayToolbar
 .
+displaySeparatorView
+=
+true
+displayToolbar
+.
 setTrackingProtectionState
 (
 SiteTrackingProtection
@@ -778,7 +783,7 @@ iconView
 =
 displayToolbar
 .
-trackingProtectionAndSecurityIndicatorSeparatorView
+separatorView
 assertEquals
 (
 1
@@ -846,7 +851,7 @@ separatorView
 =
 displayToolbar
 .
-trackingProtectionAndSecurityIndicatorSeparatorView
+separatorView
 assertTrue
 (
 trackingView
@@ -872,6 +877,11 @@ GONE
 displayToolbar
 .
 displayTrackingProtectionIcon
+=
+true
+displayToolbar
+.
+displaySeparatorView
 =
 true
 displayToolbar
@@ -1114,7 +1124,7 @@ separatorWidth
 =
 displayToolbar
 .
-trackingProtectionAndSecurityIndicatorSeparatorView
+separatorView
 .
 measuredWidth
 /
@@ -1348,6 +1358,11 @@ displayTrackingProtectionIcon
 true
 displayToolbar
 .
+displaySeparatorView
+=
+true
+displayToolbar
+.
 setTrackingProtectionState
 (
 SiteTrackingProtection
@@ -1366,7 +1381,7 @@ separatorWidth
 =
 displayToolbar
 .
-trackingProtectionAndSecurityIndicatorSeparatorView
+separatorView
 .
 measuredWidth
 val
@@ -1398,6 +1413,8 @@ securityIconWidth
 val
 LEFT_WITH_TP_VIEWS
 =
+navigationActionsWidth
++
 separatorWidth
 +
 trackingProtectionWidth
