@@ -509,6 +509,16 @@ concept
 .
 storage
 .
+LoginEntry
+import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
 LoginValidationDelegate
 import
 mozilla
@@ -3673,7 +3683,7 @@ onConfirm
 (
 value
 as
-Login
+LoginEntry
 )
 is
 Confirm
@@ -4180,7 +4190,7 @@ others
 on
 the
 floor
-login
+entry
 =
 promptRequest
 .

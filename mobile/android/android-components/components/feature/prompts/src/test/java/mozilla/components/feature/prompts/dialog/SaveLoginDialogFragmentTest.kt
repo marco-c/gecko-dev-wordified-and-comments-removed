@@ -131,7 +131,7 @@ concept
 .
 storage
 .
-Login
+LoginEntry
 import
 mozilla
 .
@@ -305,9 +305,9 @@ loginPassword
 password
 "
 val
-login
+entry
 :
-Login
+LoginEntry
 =
 mock
 (
@@ -323,7 +323,7 @@ as
 favicon
 when
 (
-login
+entry
 .
 username
 )
@@ -334,7 +334,7 @@ loginUsername
 )
 when
 (
-login
+entry
 .
 password
 )
@@ -364,7 +364,7 @@ sessionId
 requestUID
 shouldDismissOnLoad
 hint
-login
+entry
 icon
 )
 )
@@ -673,16 +673,16 @@ loginPassword
 password
 "
 val
-login
+entry
 :
-Login
+LoginEntry
 =
 mock
 (
 )
 when
 (
-login
+entry
 .
 username
 )
@@ -693,7 +693,7 @@ loginUsername
 )
 when
 (
-login
+entry
 .
 password
 )
@@ -726,7 +726,7 @@ sessionId
 requestUID
 shouldDismissOnLoad
 hint
-login
+entry
 icon
 )
 )

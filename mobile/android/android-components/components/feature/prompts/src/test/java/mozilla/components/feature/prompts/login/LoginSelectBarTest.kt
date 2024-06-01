@@ -249,6 +249,11 @@ login
 =
 Login
 (
+guid
+=
+"
+A
+"
 origin
 =
 "
@@ -278,6 +283,11 @@ login2
 =
 Login
 (
+guid
+=
+"
+B
+"
 origin
 =
 "
