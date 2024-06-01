@@ -385,6 +385,7 @@ class
 class
 AutoPushFeatureTest
 {
+private
 var
 lastVerified
 :
