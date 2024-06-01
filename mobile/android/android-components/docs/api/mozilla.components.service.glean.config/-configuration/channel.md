@@ -141,7 +141,7 @@ Configuration
 .
 kt
 #
-L29
+L24
 )
 the
 release

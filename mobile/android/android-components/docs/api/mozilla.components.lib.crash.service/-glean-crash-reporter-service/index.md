@@ -302,8 +302,6 @@ counter
 metric
 -
 type
-/
-index
 .
 md
 )
@@ -572,8 +570,6 @@ counter
 metric
 -
 type
-/
-index
 .
 md
 )

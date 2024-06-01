@@ -704,8 +704,6 @@ counter
 metric
 -
 type
-/
-index
 .
 md
 )
