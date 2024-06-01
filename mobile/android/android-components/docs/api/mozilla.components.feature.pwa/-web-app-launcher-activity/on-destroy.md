@@ -141,5 +141,5 @@ WebAppLauncherActivity
 .
 kt
 #
-L60
+L47
 )
