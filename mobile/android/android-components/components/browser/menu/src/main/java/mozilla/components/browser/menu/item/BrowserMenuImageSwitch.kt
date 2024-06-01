@@ -79,12 +79,6 @@ view
 .
 View
 import
-android
-.
-widget
-.
-Switch
-import
 androidx
 .
 annotation
@@ -104,6 +98,14 @@ appcompat
 widget
 .
 AppCompatImageView
+import
+androidx
+.
+appcompat
+.
+widget
+.
+SwitchCompat
 import
 mozilla
 .
@@ -300,7 +302,7 @@ view
 .
 findViewById
 <
-Switch
+SwitchCompat
 >
 (
 R

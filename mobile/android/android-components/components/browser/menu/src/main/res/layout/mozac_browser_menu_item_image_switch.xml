@@ -243,7 +243,13 @@ screen_background_dark
 /
 >
 <
-Switch
+androidx
+.
+appcompat
+.
+widget
+.
+SwitchCompat
 android
 :
 id
