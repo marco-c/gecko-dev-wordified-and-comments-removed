@@ -61,13 +61,11 @@ mozilla
 .
 components
 .
-support
+feature
 .
-base
+qr
 .
-android
-.
-view
+views
 import
 android
 .

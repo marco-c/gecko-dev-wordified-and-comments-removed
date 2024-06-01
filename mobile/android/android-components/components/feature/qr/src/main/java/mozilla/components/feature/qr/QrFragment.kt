@@ -359,13 +359,11 @@ mozilla
 .
 components
 .
-support
+feature
 .
-base
+qr
 .
-android
-.
-view
+views
 .
 AutoFitTextureView
 import
