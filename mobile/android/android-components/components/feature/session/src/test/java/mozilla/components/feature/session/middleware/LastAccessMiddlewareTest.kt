@@ -61,11 +61,9 @@ mozilla
 .
 components
 .
-browser
+feature
 .
 session
-.
-engine
 .
 middleware
 import
