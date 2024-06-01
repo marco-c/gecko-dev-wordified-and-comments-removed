@@ -1343,6 +1343,15 @@ Metadata
 ?
 =
 null
+override
+fun
+isEnabled
+(
+)
+:
+Boolean
+=
+true
 }
 /
 *
