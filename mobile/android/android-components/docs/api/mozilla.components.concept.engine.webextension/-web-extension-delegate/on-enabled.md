@@ -62,7 +62,7 @@ open
 fun
 onEnabled
 (
-webExtension
+extension
 :
 [
 WebExtension
@@ -178,7 +178,7 @@ successfully
 #
 #
 Parameters
-webExtension
+extension
 -
 The
 enabled

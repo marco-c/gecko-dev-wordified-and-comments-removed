@@ -66,7 +66,7 @@ open
 fun
 onBrowserActionDefined
 (
-webExtension
+extension
 :
 [
 WebExtension
@@ -183,7 +183,7 @@ WebExtensionDelegate
 .
 kt
 #
-L74
+L66
 )
 Invoked
 when
@@ -261,7 +261,7 @@ md
 #
 #
 Parameters
-webExtension
+extension
 -
 The
 [

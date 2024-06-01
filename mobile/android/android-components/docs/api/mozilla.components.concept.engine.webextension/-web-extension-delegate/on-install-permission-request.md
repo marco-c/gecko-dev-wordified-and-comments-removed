@@ -66,7 +66,7 @@ open
 fun
 onInstallPermissionRequest
 (
-webExtension
+extension
 :
 [
 WebExtension
@@ -167,7 +167,7 @@ WebExtensionDelegate
 .
 kt
 #
-L109
+L101
 )
 Invoked
 during
@@ -200,7 +200,7 @@ permissions
 #
 #
 Parameters
-webExtension
+extension
 -
 the
 extension

@@ -62,7 +62,7 @@ open
 fun
 onUninstalled
 (
-webExtension
+extension
 :
 [
 WebExtension
@@ -178,7 +178,7 @@ successfully
 #
 #
 Parameters
-webExtension
+extension
 -
 The
 uninstalled

@@ -66,7 +66,7 @@ open
 fun
 onToggleActionPopup
 (
-webExtension
+extension
 :
 [
 WebExtension
@@ -211,7 +211,7 @@ WebExtensionDelegate
 .
 kt
 #
-L95
+L87
 )
 Invoked
 when
@@ -231,7 +231,7 @@ view
 #
 #
 Parameters
-webExtension
+extension
 -
 The
 [
