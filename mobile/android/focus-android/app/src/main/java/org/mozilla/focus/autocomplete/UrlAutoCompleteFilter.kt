@@ -635,12 +635,10 @@ context
 assets
 try
 {
-Collections
+availableDomains
 .
 addAll
 (
-availableDomains
-*
 assetManager
 .
 list
