@@ -272,6 +272,9 @@ val
 thumbnailsUseCases
 :
 ThumbnailsUseCases
+?
+=
+null
 internal
 var
 tabsFilter
@@ -371,6 +374,14 @@ map
 tabs
 -
 >
+if
+(
+thumbnailsUseCases
+!
+=
+null
+)
+{
 /
 /
 Load
@@ -416,6 +427,11 @@ id
 )
 }
 )
+}
+else
+{
+tabs
+}
 }
 .
 ifChanged

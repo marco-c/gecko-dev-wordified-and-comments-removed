@@ -673,7 +673,11 @@ useCases
 mock
 (
 )
+defaultTabsFilter
+=
 filter
+closeTabsTray
+=
 mock
 (
 )

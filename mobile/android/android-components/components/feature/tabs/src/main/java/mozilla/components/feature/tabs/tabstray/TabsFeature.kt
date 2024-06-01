@@ -224,6 +224,9 @@ TabsUseCases
 thumbnailsUseCases
 :
 ThumbnailsUseCases
+?
+=
+null
 private
 val
 defaultTabsFilter
