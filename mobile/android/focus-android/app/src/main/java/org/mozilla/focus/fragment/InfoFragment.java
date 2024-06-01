@@ -281,6 +281,10 @@ INVISIBLE
 )
 ;
 }
+applyLocale
+(
+)
+;
 return
 view
 ;
