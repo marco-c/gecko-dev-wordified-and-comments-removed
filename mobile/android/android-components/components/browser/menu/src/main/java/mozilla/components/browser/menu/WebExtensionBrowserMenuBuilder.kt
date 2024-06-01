@@ -71,6 +71,12 @@ content
 .
 Context
 import
+androidx
+.
+annotation
+.
+ColorRes
+import
 mozilla
 .
 components
@@ -351,6 +357,7 @@ val
 store
 :
 BrowserStore
+ColorRes
 private
 val
 webExtIconTintColorResource
