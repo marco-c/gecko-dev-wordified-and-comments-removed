@@ -131,6 +131,18 @@ robolectric
 .
 testContext
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+createTestCoroutinesDispatcher
+import
 org
 .
 junit
@@ -206,6 +218,12 @@ class
 class
 ThumbnailStorageTest
 {
+val
+testDispatcher
+=
+createTestCoroutinesDispatcher
+(
+)
 Before
 After
 fun
@@ -244,6 +262,7 @@ spy
 ThumbnailStorage
 (
 testContext
+testDispatcher
 )
 )
 thumbnailStorage
@@ -396,6 +415,7 @@ spy
 ThumbnailStorage
 (
 testContext
+testDispatcher
 )
 )
 thumbnailStorage
@@ -485,6 +505,7 @@ spy
 ThumbnailStorage
 (
 testContext
+testDispatcher
 )
 )
 var
@@ -564,6 +585,7 @@ spy
 ThumbnailStorage
 (
 testContext
+testDispatcher
 )
 )
 thumbnailStorage
