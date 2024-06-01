@@ -459,8 +459,7 @@ replace
 return
 "
 it
-/
-?
+&
 query
 =
 id
