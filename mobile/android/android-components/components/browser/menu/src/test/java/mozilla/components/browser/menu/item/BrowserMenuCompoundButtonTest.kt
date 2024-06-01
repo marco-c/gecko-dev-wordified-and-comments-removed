@@ -614,6 +614,7 @@ BrowserMenuCompoundButton
 (
 label
 false
+false
 initialState
 listener
 )
