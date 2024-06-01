@@ -968,9 +968,9 @@ robolectric
 :
 3
 .
-4
+5
 .
-2
+1
 "
 testCompile
 '
@@ -984,9 +984,9 @@ core
 :
 2
 .
-7
+12
 .
-22
+0
 '
 androidTestCompile
 '
