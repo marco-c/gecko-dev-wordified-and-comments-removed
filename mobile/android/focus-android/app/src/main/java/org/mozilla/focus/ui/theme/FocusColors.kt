@@ -167,6 +167,10 @@ val
 toolbarColor
 :
 Color
+val
+privacySecuritySettingsToolTip
+:
+Color
 )
 {
 val

@@ -316,6 +316,11 @@ toolbarColor
 PhotonColors
 .
 White
+privacySecuritySettingsToolTip
+=
+PhotonColors
+.
+White
 )
 private
 fun
@@ -382,6 +387,11 @@ toolbarColor
 PhotonColors
 .
 Black
+privacySecuritySettingsToolTip
+=
+PhotonColors
+.
+White
 )
 /
 *
