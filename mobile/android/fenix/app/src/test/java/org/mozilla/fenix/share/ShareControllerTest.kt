@@ -297,7 +297,7 @@ fenix
 .
 components
 .
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 import
 org
 .
@@ -547,7 +547,7 @@ snackbarPresenter
 =
 mockk
 <
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 >
 (
 relaxed

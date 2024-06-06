@@ -339,7 +339,7 @@ fenix
 .
 components
 .
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 import
 org
 .
@@ -680,7 +680,7 @@ findNavController
 )
 snackbarPresenter
 =
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 (
 view
 )

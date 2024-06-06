@@ -251,7 +251,7 @@ fenix
 .
 components
 .
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 import
 org
 .
@@ -330,7 +330,7 @@ private
 val
 snackbarPresenter
 :
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 =
 mockk
 (

@@ -215,7 +215,7 @@ fenix
 .
 components
 .
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 import
 org
 .
@@ -406,7 +406,7 @@ snackbarPresenter
 instance
 of
 [
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 ]
 for
 displaying
@@ -467,7 +467,7 @@ private
 val
 snackbarPresenter
 :
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 private
 val
 navController

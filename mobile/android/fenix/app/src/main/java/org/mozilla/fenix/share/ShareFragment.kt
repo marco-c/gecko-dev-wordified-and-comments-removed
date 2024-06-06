@@ -219,7 +219,7 @@ fenix
 .
 components
 .
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 import
 org
 .
@@ -432,11 +432,11 @@ shareData
 shareData
 snackbarPresenter
 =
-FenixSnackbarPresenter
+BrowserSnackbarPresenter
 (
-activity
-!
-!
+requireActivity
+(
+)
 .
 getRootView
 (
