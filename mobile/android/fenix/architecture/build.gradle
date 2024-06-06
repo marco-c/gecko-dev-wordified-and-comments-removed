@@ -165,10 +165,6 @@ androidx_lifecycle_extensions
 implementation
 Deps
 .
-androidx_lifecycle_viewmodel_ss
-implementation
-Deps
-.
 mozilla_support_base
 implementation
 Deps
