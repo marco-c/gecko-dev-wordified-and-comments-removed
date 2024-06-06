@@ -3821,8 +3821,8 @@ mozac_feature_addons_successfully_installed
 %
 1
 s
-s
-tli
+tab
+sl
 ornat
 ld
 <
@@ -3914,8 +3914,8 @@ mozac_feature_addons_successfully_enabled
 %
 1
 s
-s
-tli
+tab
+sl
 qos
 ld
 <
@@ -4007,8 +4007,8 @@ mozac_feature_addons_successfully_disabled
 %
 1
 s
-s
-tli
+tab
+sl
 shirildi
 <
 /
@@ -4098,8 +4098,8 @@ mozac_feature_addons_successfully_uninstalled
 %
 1
 s
-s
-tli
+tab
+sl
 shirildi
 <
 /
@@ -4196,8 +4196,8 @@ UnusedResources
 %
 1
 s
-s
-tli
+tab
+sl
 al
 p
 tasland

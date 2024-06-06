@@ -488,8 +488,8 @@ ald
 n
 bul
 serverge
-s
-tli
+tab
+sl
 jal
 an
 an
@@ -1524,8 +1524,8 @@ CDATA
 p
 >
 Brauzer
-s
-tli
+tab
+sl
 jal
 and
 biraq
@@ -3567,9 +3567,10 @@ mozac_browser_errorpages_no_internet_title
 "
 >
 Internet
-jal
-anba
-an
+penen
+baylan
+s
+joq
 <
 /
 string
