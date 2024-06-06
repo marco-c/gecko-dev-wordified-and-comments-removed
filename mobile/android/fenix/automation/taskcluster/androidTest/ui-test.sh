@@ -1088,15 +1088,7 @@ client
 -
 details
 =
-commit
-=
-{
-MOBILE_HEAD_REV
-:
--
-None
-}
-pullRequest
+matrixLabel
 =
 {
 PULL_REQUEST_NUMBER
