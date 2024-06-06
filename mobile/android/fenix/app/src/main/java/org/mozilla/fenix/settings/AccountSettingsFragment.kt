@@ -1340,8 +1340,10 @@ forEach
 (
 it
 as
+?
 CheckBoxPreference
 )
+?
 .
 let
 {
