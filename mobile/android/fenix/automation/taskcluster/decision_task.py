@@ -1028,7 +1028,7 @@ nightly
 '
 :
         
-formatted_date
+nightly_version
 =
 datetime
 .
@@ -1041,10 +1041,18 @@ now
 strftime
 (
 '
+Nightly
 %
 y
 %
-V
+m
+%
+d
+%
+H
+:
+%
+M
 '
 )
         
@@ -1058,19 +1066,7 @@ nightly
 result
 .
 staging
-'
-1
-.
-0
-.
-{
-}
-'
-.
-format
-(
-formatted_date
-)
+nightly_version
 )
     
 elif
