@@ -423,6 +423,9 @@ selectionHolder
 bind
 (
 item
+isPendingDeletion
+=
+false
 )
 assertEquals
 (
