@@ -1052,6 +1052,12 @@ Content
 )
 )
 }
+if
+(
+!
+multiSelectionEnabled
+)
+{
 Icon
 (
 painter
@@ -1111,6 +1117,7 @@ Alignment
 CenterVertically
 )
 )
+}
 }
 Divider
 (
