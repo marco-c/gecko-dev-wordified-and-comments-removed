@@ -378,7 +378,7 @@ androidx_fragment
 .
 5
 .
-1
+7
 "
 const
 val
@@ -389,7 +389,7 @@ androidx_navigation
 .
 5
 .
-1
+3
 "
 const
 val
@@ -433,7 +433,7 @@ androidx_transition
 .
 4
 .
-0
+1
 "
 const
 val
