@@ -42426,6 +42426,9 @@ in
 the
 toolbar
 menu
+type
+:
+string
 bugs
 :
 -
@@ -42626,6 +42629,9 @@ that
 was
 interacted
 with
+type
+:
+string
 bugs
 :
 -
