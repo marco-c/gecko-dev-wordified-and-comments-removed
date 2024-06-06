@@ -269,7 +269,7 @@ layer3
 =
 PhotonColors
 .
-DarkGrey30
+DarkGrey80
 layerAccent
 =
 PhotonColors
