@@ -75,6 +75,11 @@ val
 browserToolbarController
 :
 BrowserToolbarController
+private
+val
+menuController
+:
+BrowserToolbarMenuController
 )
 :
 BrowserToolbarViewInteractor
@@ -162,7 +167,7 @@ ToolbarMenu
 Item
 )
 {
-browserToolbarController
+menuController
 .
 handleToolbarItemInteraction
 (
