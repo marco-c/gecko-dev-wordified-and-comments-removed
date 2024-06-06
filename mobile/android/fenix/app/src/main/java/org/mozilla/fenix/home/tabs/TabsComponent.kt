@@ -67,6 +67,12 @@ tabs
 import
 android
 .
+graphics
+.
+Bitmap
+import
+android
+.
 view
 .
 ViewGroup
@@ -319,6 +325,13 @@ val
 selected
 :
 Boolean
+val
+thumbnail
+:
+Bitmap
+?
+=
+null
 )
 fun
 Session
@@ -342,6 +355,9 @@ this
 .
 url
 selected
+this
+.
+thumbnail
 )
 }
 sealed
