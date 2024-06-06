@@ -187,6 +187,14 @@ org
 .
 mozilla
 .
+fenix
+.
+AppRequestInterceptor
+import
+org
+.
+mozilla
+.
 geckoview
 .
 GeckoRuntime
@@ -266,6 +274,12 @@ defaultSettings
 =
 DefaultSettings
 (
+requestInterceptor
+=
+AppRequestInterceptor
+(
+context
+)
 remoteDebuggingEnabled
 =
 false
