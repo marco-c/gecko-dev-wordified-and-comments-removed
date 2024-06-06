@@ -1179,7 +1179,7 @@ from
 =
 BrowserDirection
 .
-FromTabTray
+FromTabsTray
 )
 }
 }

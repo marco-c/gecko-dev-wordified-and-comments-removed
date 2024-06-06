@@ -2393,7 +2393,7 @@ directions
 =
 HomeFragmentDirections
 .
-actionGlobalTabTrayDialogFragment
+actionGlobalTabsTrayFragment
 (
 enterMultiselect
 =

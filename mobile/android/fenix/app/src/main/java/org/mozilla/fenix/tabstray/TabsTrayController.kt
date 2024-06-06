@@ -226,16 +226,6 @@ fenix
 home
 .
 HomeFragment
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabtray
-.
-TabTrayDialogFragmentDirections
 interface
 TabsTrayController
 {
@@ -536,7 +526,7 @@ navController
 .
 navigateBlockingForAsyncNavGraph
 (
-TabTrayDialogFragmentDirections
+TabsTrayFragmentDirections
 .
 actionGlobalHome
 (

@@ -267,15 +267,7 @@ id
 .
 loginDetailFragment
 )
-FromTabTrayDialog
-(
-R
-.
-id
-.
-tabTrayDialogFragment
-)
-FromTabTray
+FromTabsTray
 (
 R
 .

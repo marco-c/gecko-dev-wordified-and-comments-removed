@@ -330,16 +330,6 @@ fenix
 home
 .
 HomeFragment
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabtray
-.
-TabTrayDialogFragmentDirections
 RunWith
 (
 FenixRobolectricTestRunner
@@ -633,7 +623,7 @@ navController
 .
 navigateBlockingForAsyncNavGraph
 (
-TabTrayDialogFragmentDirections
+TabsTrayFragmentDirections
 .
 actionGlobalHome
 (
@@ -736,7 +726,7 @@ navController
 .
 navigateBlockingForAsyncNavGraph
 (
-TabTrayDialogFragmentDirections
+TabsTrayFragmentDirections
 .
 actionGlobalHome
 (

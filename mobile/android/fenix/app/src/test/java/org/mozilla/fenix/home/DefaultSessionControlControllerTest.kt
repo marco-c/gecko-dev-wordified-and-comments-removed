@@ -3721,7 +3721,7 @@ R
 .
 id
 .
-action_global_tabTrayDialogFragment
+action_global_tabsTrayFragment
 }
 null
 )
