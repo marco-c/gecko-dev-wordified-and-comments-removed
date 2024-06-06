@@ -754,7 +754,7 @@ R
 .
 color
 .
-fx_mobile_layer_color_accent_nonopaque
+fx_mobile_layer_color_accent_opaque
 }
 else
 {
