@@ -363,6 +363,11 @@ historyStorage
 :
 HistoryStorage
 ?
+private
+val
+isPrivate
+:
+Boolean
 )
 :
 LayoutContainer
@@ -514,6 +519,9 @@ color
 .
 suggestion_highlight_color
 )
+private
+=
+isPrivate
 setOnEditListener
 (
 object
