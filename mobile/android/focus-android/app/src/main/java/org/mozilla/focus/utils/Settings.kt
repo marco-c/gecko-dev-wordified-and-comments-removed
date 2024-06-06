@@ -1087,7 +1087,7 @@ string
 .
 pref_key_privacy_block_other
 )
-false
+true
 )
 fun
 userHasToggledSearchSuggestions
