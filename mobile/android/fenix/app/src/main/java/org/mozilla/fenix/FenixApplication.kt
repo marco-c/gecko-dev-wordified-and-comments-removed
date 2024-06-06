@@ -2031,6 +2031,11 @@ RustLog
 .
 enable
 (
+components
+.
+analytics
+.
+crashReporter
 )
 }
 }
