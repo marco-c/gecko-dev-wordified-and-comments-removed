@@ -15604,8 +15604,8 @@ sync_add_new_device_message
 "
 >
 Nulle
-apparatos
-connexe
+apparato
+connectite
 <
 /
 string
@@ -17384,9 +17384,11 @@ preferences_delete_browsing_data_cookies_subtitle
 "
 >
 Tu
+session
 essera
-disconnexe
-del
+claudite
+in
+le
 major
 parte
 del
@@ -18914,8 +18916,9 @@ name
 onboarding_firefox_account_stay_signed_out
 "
 >
-Restar
-disconnexe
+Mantener
+session
+claudite
 <
 /
 string
