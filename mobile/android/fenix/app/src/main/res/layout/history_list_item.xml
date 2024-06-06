@@ -185,6 +185,13 @@ layout_marginHorizontal
 "
 android
 :
+layout_marginTop
+=
+"
+8dp
+"
+android
+:
 text
 =
 "
@@ -198,6 +205,13 @@ visibility
 =
 "
 gone
+"
+tools
+:
+visibility
+=
+"
+visible
 "
 /
 >
