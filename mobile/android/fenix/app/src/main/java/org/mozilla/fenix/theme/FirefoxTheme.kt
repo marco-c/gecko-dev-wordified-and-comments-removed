@@ -267,7 +267,7 @@ layerAccent
 PhotonColors
 .
 Violet40
-layerNonOpaque
+layerAccentNonOpaque
 =
 PhotonColors
 .
@@ -554,7 +554,7 @@ layerAccent
 PhotonColors
 .
 Ink20
-layerNonOpaque
+layerAccentNonOpaque
 =
 PhotonColors
 .
@@ -859,7 +859,7 @@ Color
 layerAccent
 :
 Color
-layerNonOpaque
+layerAccentNonOpaque
 :
 Color
 scrim
@@ -1100,11 +1100,11 @@ set
 Selected
 tab
 var
-layerNonOpaque
+layerAccentNonOpaque
 by
 mutableStateOf
 (
-layerNonOpaque
+layerAccentNonOpaque
 )
 private
 set
@@ -1834,11 +1834,11 @@ layerAccent
 other
 .
 layerAccent
-layerNonOpaque
+layerAccentNonOpaque
 =
 other
 .
-layerNonOpaque
+layerAccentNonOpaque
 scrim
 =
 other
@@ -2116,9 +2116,9 @@ layer3
 layerAccent
 =
 layerAccent
-layerNonOpaque
+layerAccentNonOpaque
 =
-layerNonOpaque
+layerAccentNonOpaque
 scrim
 =
 scrim
