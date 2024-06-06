@@ -287,7 +287,7 @@ helpers
 .
 TestHelper
 .
-appContext
+getStringResource
 import
 org
 .
@@ -299,7 +299,7 @@ helpers
 .
 TestHelper
 .
-getStringResource
+getTargetContext
 import
 org
 .
@@ -1410,7 +1410,7 @@ removeException
 {
 openActionBarOverflowOrOptionsMenu
 (
-appContext
+getTargetContext
 )
 onView
 (

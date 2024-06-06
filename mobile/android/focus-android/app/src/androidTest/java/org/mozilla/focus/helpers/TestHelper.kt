@@ -447,7 +447,7 @@ SECOND_IN_MILLIS
 5
 JvmStatic
 val
-appContext
+getTargetContext
 :
 Context
 =
@@ -464,7 +464,7 @@ packageName
 :
 String
 =
-appContext
+getTargetContext
 .
 packageName
 JvmStatic
@@ -473,7 +473,7 @@ appName
 :
 String
 =
-appContext
+getTargetContext
 .
 getString
 (
@@ -491,7 +491,7 @@ id
 Int
 )
 =
-appContext
+getTargetContext
 .
 resources
 .

@@ -215,7 +215,7 @@ helpers
 .
 TestHelper
 .
-appContext
+getStringResource
 import
 org
 .
@@ -227,7 +227,7 @@ helpers
 .
 TestHelper
 .
-getStringResource
+getTargetContext
 import
 org
 .
@@ -569,7 +569,7 @@ Espresso
 .
 openActionBarOverflowOrOptionsMenu
 (
-appContext
+getTargetContext
 )
 onView
 (

@@ -367,7 +367,7 @@ e
 }
 TestHelper
 .
-appContext
+getTargetContext
 .
 settings
 .
