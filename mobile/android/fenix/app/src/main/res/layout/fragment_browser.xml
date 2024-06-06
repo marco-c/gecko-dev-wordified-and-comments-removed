@@ -286,7 +286,7 @@ app
 behavior_peekHeight
 =
 "
-20dp
+10dp
 "
 app
 :
@@ -314,6 +314,16 @@ fenix
 quickactionsheet
 .
 QuickActionSheet
+android
+:
+id
+=
+"
++
+id
+/
+quick_action_sheet
+"
 android
 :
 layout_width
