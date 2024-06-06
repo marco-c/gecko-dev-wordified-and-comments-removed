@@ -3136,7 +3136,7 @@ sum
 )
 }
 }
-private
+internal
 class
 FakeClock
 :
