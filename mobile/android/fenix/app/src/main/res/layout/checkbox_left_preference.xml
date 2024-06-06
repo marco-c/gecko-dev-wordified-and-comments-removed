@@ -157,7 +157,7 @@ android
 layout_height
 =
 "
-wrap_content
+48dp
 "
 android
 :
@@ -195,14 +195,7 @@ android
 paddingStart
 =
 "
-8dp
-"
-android
-:
-paddingBottom
-=
-"
-8dp
+16dp
 "
 android
 :

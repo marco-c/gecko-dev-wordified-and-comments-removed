@@ -311,6 +311,15 @@ onPreferenceChangeListener
 SharedPreferenceUpdater
 (
 )
+isChecked
+=
+context
+.
+settings
+(
+)
+.
+openLinksInAPrivateTab
 }
 findPreference
 <

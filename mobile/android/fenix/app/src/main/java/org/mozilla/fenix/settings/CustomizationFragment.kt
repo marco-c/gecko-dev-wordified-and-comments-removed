@@ -189,6 +189,12 @@ UI
 .
 *
 /
+Suppress
+(
+"
+TooManyFunctions
+"
+)
 class
 CustomizationFragment
 :
