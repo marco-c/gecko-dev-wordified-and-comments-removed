@@ -128,6 +128,10 @@ material
 :
 Colors
 val
+dialogActiveControls
+:
+Color
+val
 topSiteBackground
 :
 Color

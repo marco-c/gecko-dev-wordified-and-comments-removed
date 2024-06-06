@@ -266,6 +266,11 @@ material
 darkColorsMaterial
 (
 )
+dialogActiveControls
+=
+PhotonColors
+.
+Pink40
 topSiteBackground
 =
 PhotonColors
@@ -317,6 +322,11 @@ material
 lightColorsMaterial
 (
 )
+dialogActiveControls
+=
+PhotonColors
+.
+Pink70
 topSiteBackground
 =
 PhotonColors
