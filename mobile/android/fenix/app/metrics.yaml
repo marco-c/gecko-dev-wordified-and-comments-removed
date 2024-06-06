@@ -13986,6 +13986,8 @@ name
 send_in_pings
 :
 -
+baseline
+-
 metrics
 bugs
 :
@@ -14024,9 +14026,9 @@ mobile
 /
 fenix
 /
-issues
+pull
 /
-6558
+10112
 notification_emails
 :
 -
@@ -14074,6 +14076,8 @@ name
 send_in_pings
 :
 -
+baseline
+-
 metrics
 bugs
 :
@@ -14112,9 +14116,9 @@ mobile
 /
 fenix
 /
-issues
+pull
 /
-6558
+10112
 notification_emails
 :
 -

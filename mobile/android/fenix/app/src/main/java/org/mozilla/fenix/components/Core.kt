@@ -429,6 +429,10 @@ mozilla
 .
 fenix
 .
+search
+.
+telemetry
+.
 ads
 .
 AdsTelemetry
