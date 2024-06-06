@@ -299,6 +299,12 @@ content
 private
 )
 }
+?
+:
+return
+CookieBannerUIMode
+.
+HIDE
 if
 (
 hasException
@@ -306,7 +312,7 @@ hasException
 {
 CookieBannerUIMode
 .
-SITE_NOT_SUPPORTED
+DISABLE
 }
 else
 {

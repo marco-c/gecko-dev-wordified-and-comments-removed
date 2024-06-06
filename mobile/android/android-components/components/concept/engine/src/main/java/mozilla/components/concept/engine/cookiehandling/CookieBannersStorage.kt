@@ -377,6 +377,15 @@ uri
 and
 browsing
 mode
+*
+if
+an
+error
+occurs
+null
+will
+be
+returned
 .
 *
 /
@@ -393,6 +402,7 @@ Boolean
 )
 :
 CookieBannerHandlingMode
+?
 /
 *
 *
@@ -469,6 +479,14 @@ the
 *
 default
 value
+if
+an
+error
+occurs
+null
+will
+be
+returned
 .
 *
 /
@@ -485,6 +503,7 @@ Boolean
 )
 :
 Boolean
+?
 /
 *
 *

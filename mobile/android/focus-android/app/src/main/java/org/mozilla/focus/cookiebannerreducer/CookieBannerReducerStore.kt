@@ -320,6 +320,7 @@ val
 cookieBannerReducerStatus
 :
 CookieBannerReducerStatus
+?
 =
 CookieBannerReducerStatus
 .
@@ -416,6 +417,7 @@ val
 cookieBannerReducerStatus
 :
 CookieBannerReducerStatus
+?
 )
 :
 CookieBannerReducerAction
