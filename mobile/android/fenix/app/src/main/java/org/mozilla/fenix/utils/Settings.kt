@@ -1311,7 +1311,7 @@ default
 =
 true
 )
-val
+var
 isExperimentationEnabled
 by
 booleanPreference
