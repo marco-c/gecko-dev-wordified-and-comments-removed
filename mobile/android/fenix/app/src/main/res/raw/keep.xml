@@ -43,15 +43,6 @@ keep
 "
 drawable
 /
-onboarding_default_browser
-drawable
-/
-onboarding_sync
-drawable
-/
-onboarding_notification
-drawable
-/
 onboarding_ctd_default_browser
 drawable
 -
