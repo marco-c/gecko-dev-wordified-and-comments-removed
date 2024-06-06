@@ -80,14 +80,6 @@ clear
 desc
 -
 >
-set_msid_supported
-(
-false
-)
-;
-desc
--
->
 set_msid_signaling
 (
 0
