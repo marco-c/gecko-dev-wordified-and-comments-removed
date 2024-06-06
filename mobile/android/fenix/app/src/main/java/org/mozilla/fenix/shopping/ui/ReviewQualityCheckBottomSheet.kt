@@ -963,11 +963,9 @@ onNoAnalysisPresent
 }
 NoAnalysis
 (
-isAnalyzing
+noAnalysisPresent
 =
 productReviewState
-.
-isReanalyzing
 onAnalyzeClick
 =
 onAnalyzeClick
