@@ -294,6 +294,13 @@ state
 .
 copy
 (
+mode
+=
+HistoryState
+.
+Mode
+.
+Normal
 items
 =
 change
