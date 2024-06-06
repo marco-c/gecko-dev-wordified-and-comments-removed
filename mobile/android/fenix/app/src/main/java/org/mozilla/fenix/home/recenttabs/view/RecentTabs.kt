@@ -937,12 +937,6 @@ title
 =
 title
 )
-RecentTabSubtitle
-(
-subtitle
-=
-url
-)
 Row
 {
 RecentTabImage
