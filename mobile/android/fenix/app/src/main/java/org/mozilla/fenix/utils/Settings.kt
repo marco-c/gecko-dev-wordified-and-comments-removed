@@ -1387,7 +1387,7 @@ shown
 .
 *
 /
-val
+var
 showWallpaperOnboarding
 by
 lazyFeatureFlagPreference
