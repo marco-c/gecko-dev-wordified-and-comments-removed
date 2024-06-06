@@ -104,13 +104,13 @@ loaded_tasks
 "
 Loader
 that
-yield
+yields
 one
 task
 per
 android
 -
-componend
+component
 and
 per
 apk

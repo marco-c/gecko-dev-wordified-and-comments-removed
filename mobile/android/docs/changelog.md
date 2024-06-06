@@ -788,7 +788,7 @@ GeckoView
 to
 send
 and
-recieve
+receive
 Nimbus
 experiment
 information
