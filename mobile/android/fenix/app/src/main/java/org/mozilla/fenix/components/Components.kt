@@ -920,9 +920,6 @@ context
 core
 .
 client
-analytics
-.
-crashReporter
 )
 WallpaperFileManager
 (
