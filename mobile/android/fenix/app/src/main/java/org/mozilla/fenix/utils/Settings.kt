@@ -3172,9 +3172,6 @@ return
 reEngagementNotificationShown
 &
 &
-reEngagementNotificationEnabled
-&
-&
 !
 isDefaultBrowserBlocking
 (
