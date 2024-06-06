@@ -4055,7 +4055,7 @@ string
 name
 =
 "
-tab_crash_title
+tab_crash_title_2
 "
 >
 Sorry
@@ -4065,10 +4065,10 @@ Sorry
 s
 can
 t
-get
+load
 that
-tab
-back
+page
+.
 <
 /
 string
