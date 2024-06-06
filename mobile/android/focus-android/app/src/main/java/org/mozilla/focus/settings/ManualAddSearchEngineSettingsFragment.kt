@@ -1411,9 +1411,9 @@ await
 bitmap
 )
 )
-Snackbar
+ViewUtils
 .
-make
+showBrandedSnackbar
 (
 requireView
 (
@@ -1426,10 +1426,6 @@ search_add_confirmation
 Snackbar
 .
 LENGTH_SHORT
-)
-.
-show
-(
 )
 requireActivity
 (
