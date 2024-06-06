@@ -227,6 +227,15 @@ setAsFullyUnused
 (
 )
 ;
+#
+ifdef
+DEBUG
+checkNoMarkedCells
+(
+)
+;
+#
+endif
 }
 inline
 void
