@@ -976,6 +976,11 @@ requireComponents
 backgroundServices
 .
 accountManager
+ioDispatcher
+=
+Dispatchers
+.
+IO
 )
 tabsTrayController
 =
