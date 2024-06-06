@@ -846,8 +846,6 @@ args
             
 except
 Exception
-as
-e
 :
                 
 if
