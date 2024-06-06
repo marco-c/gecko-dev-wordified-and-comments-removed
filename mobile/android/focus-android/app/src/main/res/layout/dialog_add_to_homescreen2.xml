@@ -410,6 +410,13 @@ layout_marginEnd
 "
 24dp
 "
+android
+:
+importantForAutofill
+=
+"
+no
+"
 app
 :
 layout_constraintBottom_toBottomOf
