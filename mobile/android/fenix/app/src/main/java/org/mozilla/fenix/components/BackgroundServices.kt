@@ -461,9 +461,15 @@ success
 CLIENT_ID
 "
 }
-private
-val
+fun
 defaultDeviceName
+(
+context
+:
+Context
+)
+:
+String
 =
 context
 .
@@ -511,6 +517,9 @@ DeviceConfig
 name
 =
 defaultDeviceName
+(
+context
+)
 type
 =
 DeviceType

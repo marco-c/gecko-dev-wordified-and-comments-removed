@@ -194,10 +194,17 @@ val
 lastSyncedDate
 :
 LastSyncTime
+=
+LastSyncTime
+.
+Never
 val
 deviceName
 :
 String
+=
+"
+"
 )
 :
 State
