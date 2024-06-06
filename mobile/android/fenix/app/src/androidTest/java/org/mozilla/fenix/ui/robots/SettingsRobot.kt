@@ -421,7 +421,7 @@ verifyAddPrivateBrowsingShortcutButton
 (
 )
 =
-assertAddPrivateBrowsingShortcutButton
+assertPrivateBrowsingButton
 (
 )
 fun
@@ -679,7 +679,7 @@ Transition
 )
 }
 fun
-openThemeSubMenu
+openCustomizeSubMenu
 (
 interact
 :
@@ -697,7 +697,7 @@ SettingsSubMenuThemeRobot
 Transition
 {
 fun
-themeButton
+customizeButton
 (
 )
 =
@@ -708,11 +708,11 @@ ViewMatchers
 withText
 (
 "
-Theme
+Customize
 "
 )
 )
-themeButton
+customizeButton
 (
 )
 .
@@ -1441,7 +1441,7 @@ VISIBLE
 }
 private
 fun
-assertAddPrivateBrowsingShortcutButton
+assertPrivateBrowsingButton
 (
 )
 {
@@ -1450,10 +1450,8 @@ TestHelper
 scrollToElementByText
 (
 "
-Add
-private
+Private
 browsing
-shortcut
 "
 )
 mDevice
@@ -1469,10 +1467,8 @@ By
 text
 (
 "
-Add
-private
+Private
 browsing
-shortcut
 "
 )
 )
@@ -1485,10 +1481,8 @@ ViewMatchers
 withText
 (
 "
-Add
-private
+Private
 browsing
-shortcut
 "
 )
 )

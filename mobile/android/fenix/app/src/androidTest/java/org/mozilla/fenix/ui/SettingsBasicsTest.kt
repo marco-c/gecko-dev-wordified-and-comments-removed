@@ -474,7 +474,7 @@ goBack
 {
 }
 .
-openThemeSubMenu
+openCustomizeSubMenu
 {
 verifyThemes
 (
@@ -875,7 +875,7 @@ openSettings
 {
 }
 .
-openThemeSubMenu
+openCustomizeSubMenu
 {
 verifyThemes
 (
