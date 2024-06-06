@@ -681,7 +681,7 @@ R
 .
 attr
 .
-toolbarDivider
+borderPrimary
 context
 )
 )

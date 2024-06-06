@@ -311,7 +311,7 @@ browserToolbarTrackingProtectionAndSecurityIndicatorSeparatorColor
 =
 "
 ?
-toolbarDivider
+borderPrimary
 "
 app
 :
