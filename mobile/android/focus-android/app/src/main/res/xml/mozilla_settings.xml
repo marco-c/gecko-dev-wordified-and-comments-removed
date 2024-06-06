@@ -209,15 +209,6 @@ widget
 AboutPreference
 android
 :
-icon
-=
-"
-drawable
-/
-ic_tab_new
-"
-android
-:
 key
 =
 "

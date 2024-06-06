@@ -422,6 +422,7 @@ Privacy
 Search
 Advanced
 Mozilla
+About
 PrivacyExceptions
 PrivacyExceptionsRemove
 SearchList
