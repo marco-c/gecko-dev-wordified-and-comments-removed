@@ -194,6 +194,12 @@ size_t
 page_cache
 ;
 size_t
+pages_fresh
+;
+size_t
+pages_madvised
+;
+size_t
 bookkeeping
 ;
 size_t
