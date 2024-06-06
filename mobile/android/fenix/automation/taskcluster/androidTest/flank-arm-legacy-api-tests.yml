@@ -263,7 +263,7 @@ ui
 .
 TopSitesTest
 #
-verifyOpenTopSiteNormalTab
+openTopSiteInANewTabTest
 -
 class
 org

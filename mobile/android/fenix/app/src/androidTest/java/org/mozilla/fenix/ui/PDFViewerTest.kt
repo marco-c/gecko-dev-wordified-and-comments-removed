@@ -516,11 +516,9 @@ php
 /
 cases
 /
-edit
+view
 /
 2159718
-/
-1
 Test
 fun
 verifyPDFViewerOpenInAppButtonTest
