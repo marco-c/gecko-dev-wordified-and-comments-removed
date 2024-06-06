@@ -41,12 +41,6 @@ fenix_taskgraph
 gradle
 import
 get_variant
-from
-fenix_taskgraph
-.
-util
-import
-upper_case_first_letter
 transforms
 =
 TransformSequence
@@ -522,14 +516,15 @@ assemble
 .
 format
 (
-upper_case_first_letter
-(
 variant_config
 [
 "
 name
 "
 ]
+.
+capitalize
+(
 )
 )
         
