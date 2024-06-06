@@ -306,12 +306,6 @@ message
 )
 }
 }
-interactor
-.
-onMessageDisplayed
-(
-message
-)
 }
 companion
 object
