@@ -198,7 +198,7 @@ const
 val
 EXPECTED_SUPPRESSION_COUNT
 =
-20
+19
 Suppress
 (
 "
