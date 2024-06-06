@@ -141,4 +141,4 @@ detekt
 \
 app
 :
-assembleX86Debug
+assembleDebug
