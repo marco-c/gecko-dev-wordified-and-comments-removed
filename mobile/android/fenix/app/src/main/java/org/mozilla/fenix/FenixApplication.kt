@@ -223,6 +223,16 @@ mozilla
 .
 fenix
 .
+LeanplumHelper
+.
+setupLeanplumIfNeeded
+import
+org
+.
+mozilla
+.
+fenix
+.
 components
 .
 Components
@@ -387,6 +397,10 @@ loadExperiments
 (
 )
 setupAdjustIfNeeded
+(
+this
+)
+setupLeanplumIfNeeded
 (
 this
 )
