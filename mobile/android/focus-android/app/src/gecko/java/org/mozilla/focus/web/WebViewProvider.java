@@ -268,6 +268,16 @@ USE_MULTIPROCESS
 false
 )
 ;
+settings
+.
+setBoolean
+(
+GeckoSessionSettings
+.
+USE_PRIVATE_MODE
+true
+)
+;
 geckoSession
 =
 new
