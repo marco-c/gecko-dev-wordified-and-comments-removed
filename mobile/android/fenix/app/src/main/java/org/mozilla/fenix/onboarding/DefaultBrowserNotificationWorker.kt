@@ -732,7 +732,7 @@ beginUniqueWork
 NOTIFICATION_WORK_NAME
 ExistingWorkPolicy
 .
-REPLACE
+KEEP
 notificationWork
 )
 .
