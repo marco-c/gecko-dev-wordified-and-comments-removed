@@ -118,8 +118,8 @@ android
 fillColor
 =
 "
-#
-FF000000
+?
+primaryText
 "
 android
 :

@@ -118,8 +118,8 @@ android
 fillColor
 =
 "
-#
-FF000000
+?
+primaryText
 "
 android
 :
@@ -198,8 +198,8 @@ android
 fillColor
 =
 "
-#
-FF000000
+?
+primaryText
 "
 android
 :
@@ -280,8 +280,8 @@ android
 fillColor
 =
 "
-#
-FF000000
+?
+primaryText
 "
 android
 :
@@ -325,8 +325,8 @@ android
 fillColor
 =
 "
-#
-FF000000
+?
+primaryText
 "
 android
 :
@@ -370,8 +370,8 @@ android
 fillColor
 =
 "
-#
-FF000000
+?
+primaryText
 "
 android
 :
