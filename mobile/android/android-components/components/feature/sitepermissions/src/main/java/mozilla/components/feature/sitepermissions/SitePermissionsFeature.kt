@@ -4182,7 +4182,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_location
+mozac_ic_location_24
 showDoNotAskAgainCheckBox
 =
 shouldShowDoNotAskAgainCheckBox
