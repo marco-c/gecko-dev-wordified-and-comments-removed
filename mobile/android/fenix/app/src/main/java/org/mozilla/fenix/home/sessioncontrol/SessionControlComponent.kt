@@ -1059,6 +1059,11 @@ mode
 change
 .
 mode
+tabs
+=
+emptyList
+(
+)
 )
 is
 SessionControlChange
