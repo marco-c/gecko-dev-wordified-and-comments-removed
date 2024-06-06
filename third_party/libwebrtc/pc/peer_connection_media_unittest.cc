@@ -1110,13 +1110,6 @@ make_unique
 RtcEventLogFactory
 >
 (
-factory_dependencies
-.
-task_queue_factory
-.
-get
-(
-)
 )
 ;
 auto

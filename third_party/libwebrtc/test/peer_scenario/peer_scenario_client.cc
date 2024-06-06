@@ -1569,7 +1569,6 @@ make_unique
 RtcEventLogFactory
 >
 (
-task_queue_factory_
 )
 ;
 pcf_deps

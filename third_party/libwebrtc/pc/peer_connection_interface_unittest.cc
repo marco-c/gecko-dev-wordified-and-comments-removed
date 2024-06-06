@@ -7003,13 +7003,6 @@ make_unique
 RtcEventLogFactory
 >
 (
-dependencies
-.
-task_queue_factory
-.
-get
-(
-)
 )
 ;
 return
