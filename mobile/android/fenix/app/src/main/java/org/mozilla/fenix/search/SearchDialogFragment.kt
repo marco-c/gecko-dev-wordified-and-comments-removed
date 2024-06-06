@@ -1734,6 +1734,12 @@ id
 .
 mozac_browser_toolbar_edit_url_view
 )
+inlineAutocompleteEditText
+.
+increaseTapArea
+(
+TAP_INCREASE_DPS_4
+)
 }
 val
 awesomeBar
@@ -5961,6 +5967,12 @@ val
 TAP_INCREASE_DPS
 =
 8
+private
+const
+val
+TAP_INCREASE_DPS_4
+=
+4
 private
 const
 val
