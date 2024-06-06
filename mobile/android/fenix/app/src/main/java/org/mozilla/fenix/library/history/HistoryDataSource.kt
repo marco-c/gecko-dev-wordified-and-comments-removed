@@ -103,7 +103,7 @@ fenix
 .
 ext
 .
-getHostFromUrl
+tryGetHostFromUrl
 class
 HistoryDataSource
 (
@@ -379,14 +379,9 @@ visit
 .
 url
 .
-getHostFromUrl
+tryGetHostFromUrl
 (
 )
-?
-:
-visit
-.
-url
 HistoryItem
 (
 offset
