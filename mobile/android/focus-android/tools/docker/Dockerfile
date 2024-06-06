@@ -304,8 +304,6 @@ openjdk
 -
 jdk
 \
-expect
-\
 git
 \
 curl
