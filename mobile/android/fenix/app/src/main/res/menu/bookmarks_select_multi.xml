@@ -133,7 +133,7 @@ id
 +
 id
 /
-edit_bookmark_multi_select
+share_bookmark_multi_select
 "
 android
 :
@@ -142,7 +142,7 @@ icon
 "
 drawable
 /
-ic_edit
+ic_hollow_share
 "
 app
 :
@@ -160,7 +160,7 @@ title
 "
 string
 /
-bookmark_edit
+browser_menu_share
 "
 app
 :
