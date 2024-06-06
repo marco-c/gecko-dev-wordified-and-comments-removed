@@ -1895,15 +1895,6 @@ bookmarks
 .
 BookmarkFragment
 "
-android
-:
-label
-=
-"
-string
-/
-library_bookmarks
-"
 tools
 :
 layout
