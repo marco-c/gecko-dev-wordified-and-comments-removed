@@ -1741,6 +1741,13 @@ MigrationProgressActivity
 "
 android
 :
+noHistory
+=
+"
+true
+"
+android
+:
 launchMode
 =
 "
