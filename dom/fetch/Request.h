@@ -281,6 +281,16 @@ GetIntegrity
 ;
 }
 bool
+Keepalive
+(
+)
+const
+{
+return
+false
+;
+}
+bool
 MozErrors
 (
 )
