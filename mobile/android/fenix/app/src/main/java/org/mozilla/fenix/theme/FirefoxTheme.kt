@@ -371,7 +371,7 @@ textAccent
 =
 PhotonColors
 .
-Violet40
+Violet20
 textInverted
 =
 PhotonColors
