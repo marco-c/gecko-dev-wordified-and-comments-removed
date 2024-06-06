@@ -200,11 +200,6 @@ toString
 )
 )
 }
-buildFeatures
-{
-buildConfig
-true
-}
 namespace
 '
 mozilla

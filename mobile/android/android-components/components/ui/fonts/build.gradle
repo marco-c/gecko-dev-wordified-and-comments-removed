@@ -66,14 +66,6 @@ android
 .
 library
 '
-apply
-plugin
-:
-'
-kotlin
--
-android
-'
 android
 {
 defaultConfig

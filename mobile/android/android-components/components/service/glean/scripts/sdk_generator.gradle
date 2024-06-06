@@ -2484,7 +2484,7 @@ doLast
 {
 if
 (
-executionResult
+execResult
 .
 exitValue
 !
@@ -2511,7 +2511,7 @@ zero
 exit
 value
 {
-executionResult
+execResult
 .
 exitValue
 }
@@ -2972,7 +2972,7 @@ doLast
 {
 if
 (
-executionResult
+execResult
 .
 exitValue
 !
@@ -2999,7 +2999,7 @@ zero
 exit
 value
 {
-executionResult
+execResult
 .
 exitValue
 }
