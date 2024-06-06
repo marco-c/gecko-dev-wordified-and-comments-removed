@@ -1438,16 +1438,6 @@ true
 )
 ;
 }
-this
-.
-_optionButton
-.
-textContent
-=
-value
-.
-manageLabel
-;
 }
 }
 customElements
