@@ -1182,7 +1182,8 @@ continue
 assertTrue
 (
 "
-Check
+Expected
+file
 '
 "
 +
@@ -1190,8 +1191,15 @@ name
 +
 "
 '
-is
+to
+be
 in
+the
+app
+'
+s
+data
+dir
 whitelist
 "
 WHITELIST_DATA_DIR_CONTENTS
