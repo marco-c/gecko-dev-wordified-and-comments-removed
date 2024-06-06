@@ -289,6 +289,18 @@ fenix
 .
 helpers
 .
+TestAssetHelper
+.
+waitingTimeLong
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 TestHelper
 import
 org
@@ -936,7 +948,7 @@ download_button
 .
 waitForExists
 (
-waitingTime
+waitingTimeLong
 )
 )
 assertTrue
@@ -965,7 +977,7 @@ fileName
 .
 waitForExists
 (
-waitingTime
+waitingTimeLong
 )
 )
 break
