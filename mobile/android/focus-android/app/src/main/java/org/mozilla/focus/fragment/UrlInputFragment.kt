@@ -1135,7 +1135,7 @@ tip
 =
 TipManager
 .
-getNextTip
+getNextTipIfAvailable
 (
 context
 )
@@ -1199,6 +1199,14 @@ homeViewTipsLabel
 alpha
 =
 1f
+keyboardLinearLayout
+.
+homeViewTipsLabel
+.
+setOnClickListener
+(
+null
+)
 }
 private
 fun
