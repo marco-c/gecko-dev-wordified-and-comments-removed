@@ -743,10 +743,17 @@ shouldUseBottomToolbar
 store
 =
 store
+style
+=
+WebExtensionBrowserMenuBuilder
+.
+Style
+(
 webExtIconTintColorResource
 =
 primaryTextColor
 (
+)
 )
 onAddonsManagerTapped
 =
