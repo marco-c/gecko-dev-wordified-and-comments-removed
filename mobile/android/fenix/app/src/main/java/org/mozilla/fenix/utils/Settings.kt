@@ -4367,7 +4367,7 @@ pref_key_should_show_inactive_tabs_turn_off_survey
 )
 default
 =
-true
+false
 )
 fun
 getSitePermissionsPhoneFeatureAction
