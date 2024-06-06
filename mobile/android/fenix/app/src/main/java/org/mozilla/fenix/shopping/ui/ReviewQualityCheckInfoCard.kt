@@ -558,16 +558,6 @@ R
 drawable
 .
 mozac_ic_information_fill_24
-modifier
-=
-Modifier
-.
-size
-(
-24
-.
-dp
-)
 )
 }
 ReviewQualityCheckInfoType
