@@ -144,6 +144,15 @@ val
 context
 :
 Context
+private
+val
+notificationService
+:
+SessionNotificationService
+.
+Companion
+=
+SessionNotificationService
 )
 :
 SessionManager
@@ -185,7 +194,7 @@ if
 privateTabsEmpty
 )
 {
-SessionNotificationService
+notificationService
 .
 stop
 (
@@ -199,7 +208,7 @@ onAllSessionsRemoved
 (
 )
 {
-SessionNotificationService
+notificationService
 .
 stop
 (
@@ -266,7 +275,7 @@ isCustomTabSession
 )
 )
 {
-SessionNotificationService
+notificationService
 .
 start
 (
