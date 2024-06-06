@@ -89,8 +89,9 @@ name
 snackbarBackground
 "
 >
-#
-2E255D
+color
+/
+photonInk05
 <
 /
 color
@@ -535,8 +536,9 @@ name
 colorSecondary
 "
 >
-#
-342F6D
+color
+/
+photonInk05
 <
 /
 color
