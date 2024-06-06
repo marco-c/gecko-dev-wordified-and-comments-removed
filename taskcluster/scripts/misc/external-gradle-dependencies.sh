@@ -132,6 +132,10 @@ ANDROID_COMPONENTS_DIR
 "
 REPO_ROOT_DIR
 /
+mobile
+/
+android
+/
 android
 -
 components
@@ -289,7 +293,7 @@ taskcluster
 /
 scripts
 /
-toolchain
+misc
 /
 external
 -
@@ -461,7 +465,7 @@ taskcluster
 /
 scripts
 /
-toolchain
+misc
 /
 external
 -
