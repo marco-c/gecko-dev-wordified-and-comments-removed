@@ -38505,7 +38505,7 @@ features
 .
 lifetime
 :
-ping
+application
 send_in_pings
 :
 -
