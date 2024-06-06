@@ -1558,9 +1558,6 @@ showBookmarksSnackbar
 showBookmarksSnackbar
 )
 )
-store
-=
-tabTrayDialogStore
 isPrivate
 =
 isPrivate

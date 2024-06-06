@@ -1200,14 +1200,6 @@ settingsItem
 BrowserMenuDivider
 (
 )
-if
-(
-settings
-.
-syncedTabsInTabsTray
-)
-null
-else
 syncedTabsItem
 bookmarksItem
 historyItem
