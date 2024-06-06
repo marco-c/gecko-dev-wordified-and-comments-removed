@@ -14365,14 +14365,6 @@ security
 .
 <
 a
-style
-=
-"
-color
-:
-white
-;
-"
 href
 =
 "
@@ -14433,7 +14425,6 @@ shown
 when
 a
 website
-sends
 has
 an
 invalid
@@ -14471,7 +14462,6 @@ shown
 when
 a
 website
-sends
 has
 an
 invalid
@@ -14561,7 +14551,6 @@ shown
 when
 a
 website
-sends
 has
 an
 invalid
