@@ -715,11 +715,8 @@ verifyExistingOpenTabs
 Test_Page_1
 "
 )
-closeTabViaXButton
+closeTab
 (
-"
-Test_Page_1
-"
 )
 verifySnackBarText
 (
@@ -882,11 +879,8 @@ verifyCloseTabsButton
 Test_Page_1
 "
 )
-closeTabViaXButton
+closeTab
 (
-"
-Test_Page_1
-"
 )
 verifySnackBarText
 (
