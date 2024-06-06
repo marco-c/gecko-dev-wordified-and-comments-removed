@@ -505,6 +505,9 @@ verifyClipboardSuggestionsAreDisplayed
 link
 :
 String
+=
+"
+"
 shouldBeDisplayed
 :
 Boolean

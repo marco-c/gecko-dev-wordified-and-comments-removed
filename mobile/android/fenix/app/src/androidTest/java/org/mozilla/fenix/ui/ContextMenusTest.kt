@@ -747,11 +747,6 @@ pageLinks
 url
 )
 {
-mDevice
-.
-waitForIdle
-(
-)
 longClickMatchingText
 (
 "
@@ -803,8 +798,14 @@ openTabDrawer
 .
 openNewTab
 {
-verifyFillLinkButton
+}
+navigationToolbar
+{
+verifyClipboardSuggestionsAreDisplayed
 (
+shouldBeDisplayed
+=
+false
 )
 }
 }
