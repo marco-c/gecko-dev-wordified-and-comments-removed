@@ -698,6 +698,15 @@ attr
 /
 selectableItemBackgroundBorderless
 "
+android
+:
+contentDescription
+=
+"
+string
+/
+close_tab
+"
 app
 :
 layout_constraintEnd_toEndOf
