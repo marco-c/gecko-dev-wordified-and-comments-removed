@@ -14361,9 +14361,9 @@ pull
 /
 9788
 #
-issuecomment
+pullrequestreview
 -
-610648980
+394228626
 )
 |
 |
@@ -14514,9 +14514,9 @@ pull
 /
 9788
 #
-issuecomment
+pullrequestreview
 -
-610648980
+394228626
 )
 |
 |
@@ -14611,9 +14611,9 @@ pull
 /
 9788
 #
-issuecomment
+pullrequestreview
 -
-610648980
+394228626
 )
 |
 |
