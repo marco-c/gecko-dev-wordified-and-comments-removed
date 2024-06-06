@@ -72,16 +72,6 @@ recyclerview
 widget
 .
 DiffUtil
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-Tab
 /
 *
 *

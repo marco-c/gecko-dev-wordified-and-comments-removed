@@ -212,16 +212,6 @@ fenix
 helpers
 .
 FenixRobolectricTestRunner
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-Tab
 RunWith
 (
 FenixRobolectricTestRunner

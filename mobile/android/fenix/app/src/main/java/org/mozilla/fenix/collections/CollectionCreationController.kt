@@ -194,16 +194,6 @@ fenix
 ext
 .
 getDefaultCollectionNumber
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-Tab
 interface
 CollectionCreationController
 {

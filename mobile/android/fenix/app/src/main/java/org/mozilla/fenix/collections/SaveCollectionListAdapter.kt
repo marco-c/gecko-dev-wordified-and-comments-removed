@@ -161,16 +161,6 @@ mozilla
 .
 fenix
 .
-home
-.
-Tab
-import
-org
-.
-mozilla
-.
-fenix
-.
 utils
 .
 view

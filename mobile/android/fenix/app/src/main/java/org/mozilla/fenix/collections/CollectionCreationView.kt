@@ -240,16 +240,6 @@ fenix
 ext
 .
 toShortUrl
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-Tab
 class
 CollectionCreationView
 (

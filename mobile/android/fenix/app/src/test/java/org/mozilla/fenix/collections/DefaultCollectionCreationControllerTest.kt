@@ -268,16 +268,6 @@ components
 metrics
 .
 MetricController
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-Tab
 class
 DefaultCollectionCreationControllerTest
 {

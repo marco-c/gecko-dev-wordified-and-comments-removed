@@ -106,16 +106,6 @@ org
 junit
 .
 Test
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-Tab
 class
 TabDiffUtilTest
 {

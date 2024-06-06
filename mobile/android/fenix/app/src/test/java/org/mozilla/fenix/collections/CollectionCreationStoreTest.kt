@@ -204,16 +204,6 @@ fenix
 helpers
 .
 FenixRobolectricTestRunner
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-Tab
 private
 const
 val
