@@ -861,7 +861,7 @@ Boolean
 )
 {
 val
-shiftThreeDp
+shiftTwoDp
 =
 TypedValue
 .
@@ -870,7 +870,7 @@ applyDimension
 TypedValue
 .
 COMPLEX_UNIT_DIP
-TWO_DIGIT_PADDING
+TWO_DIGIT_MARGIN
 containerView
 !
 !
@@ -901,7 +901,7 @@ params
 .
 topMargin
 =
-shiftThreeDp
+shiftTwoDp
 bookmark_title
 .
 setLayoutParams
@@ -1506,7 +1506,7 @@ object
 internal
 const
 val
-TWO_DIGIT_PADDING
+TWO_DIGIT_MARGIN
 =
 2F
 val
