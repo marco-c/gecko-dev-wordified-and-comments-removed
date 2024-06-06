@@ -296,6 +296,13 @@ layout_marginStart
 "
 android
 :
+layout_marginBottom
+=
+"
+32dp
+"
+android
+:
 alpha
 =
 "
