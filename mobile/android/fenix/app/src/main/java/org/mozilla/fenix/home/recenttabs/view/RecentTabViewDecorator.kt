@@ -499,7 +499,7 @@ R
 .
 drawable
 .
-home_list_row_background
+card_list_row_background
 )
 return
 itemView
