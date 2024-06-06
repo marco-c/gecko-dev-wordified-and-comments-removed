@@ -348,6 +348,11 @@ nextWebPage
 url
 )
 {
+mDevice
+.
+waitForIdle
+(
+)
 verifyUrl
 (
 nextWebPage
@@ -361,6 +366,11 @@ toString
 mDevice
 .
 pressBack
+(
+)
+mDevice
+.
+waitForIdle
 (
 )
 verifyUrl

@@ -698,7 +698,7 @@ fenix
 /
 issues
 /
-12764
+12645
 "
 )
 Test
@@ -789,10 +789,6 @@ openTabDrawer
 closeTab
 (
 )
-}
-.
-openHomeScreen
-{
 }
 mDevice
 .
