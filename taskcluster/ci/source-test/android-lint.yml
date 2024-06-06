@@ -277,6 +277,17 @@ android
 components
 "
 ]
+gradlew
+:
+[
+"
+-
+-
+no
+-
+parallel
+"
+]
 treeherder
 :
 symbol
