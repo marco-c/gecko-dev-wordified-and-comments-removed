@@ -224,11 +224,15 @@ files
 projectDir
 /
 app
+/
+src
 "
 "
 projectDir
 /
 architecture
+/
+src
 "
 )
 config

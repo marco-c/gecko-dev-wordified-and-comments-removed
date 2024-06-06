@@ -1558,7 +1558,6 @@ core
 .
 sessionManager
 )
-}
 it
 .
 archivedSession
@@ -1589,6 +1588,7 @@ smoothScrollTo
 0
 0
 )
+}
 }
 }
 is
