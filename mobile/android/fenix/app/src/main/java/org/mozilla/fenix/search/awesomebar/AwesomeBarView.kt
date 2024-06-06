@@ -555,9 +555,9 @@ search
 .
 SearchEngine
 ?
-parentSession
+parentSessionId
 :
-Session
+String
 ?
 )
 {
@@ -598,9 +598,9 @@ search
 .
 SearchEngine
 ?
-parentSession
+parentSessionId
 :
-Session
+String
 ?
 )
 {

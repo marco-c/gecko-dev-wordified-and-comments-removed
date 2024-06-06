@@ -4606,6 +4606,10 @@ mozilla_ui_widgets
 implementation
 Deps
 .
+mozilla_ui_tabcounter
+implementation
+Deps
+.
 mozilla_lib_crash
 implementation
 Deps

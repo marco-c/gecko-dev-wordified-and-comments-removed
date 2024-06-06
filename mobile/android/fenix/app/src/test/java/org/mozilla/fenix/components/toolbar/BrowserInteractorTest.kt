@@ -37,6 +37,16 @@ mockk
 .
 verify
 import
+mozilla
+.
+components
+.
+ui
+.
+tabcounter
+.
+TabCounterMenu
+import
 org
 .
 junit

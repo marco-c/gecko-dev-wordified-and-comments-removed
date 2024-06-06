@@ -135,7 +135,7 @@ synthetic
 .
 main
 .
-mozac_ui_tabcounter_layout
+tab_preview
 .
 view
 .
@@ -149,7 +149,7 @@ synthetic
 .
 main
 .
-tab_preview
+tabs_tray_tab_counter
 .
 view
 .

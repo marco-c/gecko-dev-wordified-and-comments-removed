@@ -3337,9 +3337,12 @@ invoke
 request
 .
 query
-parentSession
+parentSessionId
 =
 parentSession
+?
+.
+id
 )
 }
 }

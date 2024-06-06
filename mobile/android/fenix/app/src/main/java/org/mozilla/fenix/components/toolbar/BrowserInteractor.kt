@@ -66,6 +66,16 @@ fenix
 components
 .
 toolbar
+import
+mozilla
+.
+components
+.
+ui
+.
+tabcounter
+.
+TabCounterMenu
 open
 class
 BrowserInteractor
