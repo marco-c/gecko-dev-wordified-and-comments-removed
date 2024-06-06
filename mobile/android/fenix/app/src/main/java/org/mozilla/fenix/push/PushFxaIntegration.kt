@@ -81,6 +81,12 @@ kotlinx
 .
 coroutines
 .
+MainScope
+import
+kotlinx
+.
+coroutines
+.
 launch
 import
 mozilla
@@ -819,6 +825,12 @@ fxaObserver
 )
 }
 }
+MainScope
+(
+)
+.
+launch
+{
 /
 /
 Remove
@@ -834,7 +846,9 @@ pushFeature
 unregister
 (
 this
+OneTimePushMessageObserver
 )
+}
 }
 }
 }
@@ -917,6 +931,12 @@ message
 )
 )
 }
+MainScope
+(
+)
+.
+launch
+{
 lazyAccount
 .
 value
@@ -924,6 +944,8 @@ value
 unregister
 (
 this
+OneTimeMessageDeliveryObserver
 )
+}
 }
 }
