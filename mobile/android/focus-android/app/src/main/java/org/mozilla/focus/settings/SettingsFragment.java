@@ -127,17 +127,6 @@ mozilla
 .
 focus
 .
-utils
-.
-AppConstants
-;
-import
-org
-.
-mozilla
-.
-focus
-.
 widget
 .
 DefaultBrowserPreference
