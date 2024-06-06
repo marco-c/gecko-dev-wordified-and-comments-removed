@@ -2586,6 +2586,10 @@ session
 Session
 )
 {
+fullScreenChanged
+(
+false
+)
 browserToolbarView
 .
 expand
@@ -3092,6 +3096,10 @@ if
 enteredPip
 )
 {
+fullScreenChanged
+(
+false
+)
 fullScreenFeature
 .
 onBackPressed
