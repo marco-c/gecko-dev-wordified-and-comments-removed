@@ -388,6 +388,7 @@ appBarConfiguration
 )
 handleOpenedFromExternalSourceIfNecessary
 (
+intent
 )
 }
 override
@@ -408,6 +409,7 @@ intent
 )
 handleOpenedFromExternalSourceIfNecessary
 (
+intent
 )
 }
 override
@@ -572,6 +574,10 @@ private
 fun
 handleOpenedFromExternalSourceIfNecessary
 (
+intent
+:
+Intent
+?
 )
 {
 if
