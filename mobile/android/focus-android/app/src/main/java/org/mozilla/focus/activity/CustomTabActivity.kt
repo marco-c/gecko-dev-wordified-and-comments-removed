@@ -165,10 +165,8 @@ customTabId
 )
 }
 override
-fun
+val
 isCustomTabMode
-(
-)
 :
 Boolean
 =
@@ -275,10 +273,8 @@ uuid
 }
 }
 override
-fun
-getCurrentSessionForActivity
-(
-)
+val
+currentSessionForActivity
 =
 customTabSession
 }

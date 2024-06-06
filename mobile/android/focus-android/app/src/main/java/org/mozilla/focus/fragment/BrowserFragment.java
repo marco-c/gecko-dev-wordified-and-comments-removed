@@ -6300,6 +6300,8 @@ null
 :
 InstallFirefoxActivity
 .
+Companion
+.
 resolveAppStore
 (
 getContext
