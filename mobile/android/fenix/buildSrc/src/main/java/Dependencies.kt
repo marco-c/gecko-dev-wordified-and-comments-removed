@@ -354,7 +354,7 @@ androidx_paging
 "
 2
 .
-0
+1
 .
 0
 "
@@ -2364,6 +2364,8 @@ paging
 paging
 -
 runtime
+-
+ktx
 :
 {
 Versions
