@@ -173,7 +173,7 @@ library
 .
 history
 .
-HistoryState
+HistoryFragmentState
 class
 HistoryListItemViewHolder
 (
@@ -268,7 +268,7 @@ showDeleteButton
 Boolean
 mode
 :
-HistoryState
+HistoryFragmentState
 .
 Mode
 )
@@ -307,7 +307,7 @@ mode
 =
 =
 =
-HistoryState
+HistoryFragmentState
 .
 Mode
 .

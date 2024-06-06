@@ -125,7 +125,7 @@ private
 val
 store
 :
-HistoryStore
+HistoryFragmentStore
 private
 val
 openToBrowser
@@ -200,7 +200,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 AddItemForRemoval
 (
@@ -221,7 +221,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 RemoveItemForRemoval
 (
@@ -246,7 +246,7 @@ state
 .
 mode
 is
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -257,7 +257,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 ExitEditMode
 )

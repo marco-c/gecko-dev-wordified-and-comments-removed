@@ -144,7 +144,7 @@ private
 val
 store
 :
-HistoryStore
+HistoryFragmentStore
 =
 mockk
 (
@@ -156,7 +156,7 @@ private
 val
 state
 :
-HistoryState
+HistoryFragmentState
 =
 mockk
 (
@@ -199,7 +199,7 @@ state
 mode
 }
 returns
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -250,7 +250,7 @@ state
 mode
 }
 returns
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -290,7 +290,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 AddItemForRemoval
 (
@@ -312,7 +312,7 @@ state
 mode
 }
 returns
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -353,7 +353,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 RemoveItemForRemoval
 (
@@ -375,7 +375,7 @@ state
 mode
 }
 returns
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -421,7 +421,7 @@ state
 mode
 }
 returns
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -464,7 +464,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 ExitEditMode
 )

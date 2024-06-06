@@ -255,11 +255,11 @@ private
 var
 mode
 :
-HistoryState
+HistoryFragmentState
 .
 Mode
 =
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -333,7 +333,7 @@ updateMode
 (
 mode
 :
-HistoryState
+HistoryFragmentState
 .
 Mode
 )

@@ -385,7 +385,7 @@ lateinit
 var
 historyStore
 :
-HistoryStore
+HistoryFragmentStore
 private
 lateinit
 var
@@ -448,9 +448,9 @@ get
 this
 )
 {
-HistoryStore
+HistoryFragmentStore
 (
-HistoryState
+HistoryFragmentState
 (
 items
 =
@@ -459,7 +459,7 @@ listOf
 )
 mode
 =
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -662,7 +662,7 @@ historyStore
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 ExitDeletionMode
 )
@@ -784,7 +784,7 @@ when
 mode
 )
 {
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -797,7 +797,7 @@ menu
 .
 library_menu
 is
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -830,7 +830,7 @@ if
 (
 mode
 is
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -1028,7 +1028,7 @@ historyStore
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 ExitDeletionMode
 )
@@ -1288,7 +1288,7 @@ historyStore
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 EnterDeletionMode
 )
@@ -1331,7 +1331,7 @@ historyStore
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 ExitDeletionMode
 )

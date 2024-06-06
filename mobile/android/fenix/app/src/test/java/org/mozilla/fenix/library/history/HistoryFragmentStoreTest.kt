@@ -95,7 +95,7 @@ junit
 .
 Test
 class
-HistoryStoreTest
+HistoryFragmentStoreTest
 {
 private
 val
@@ -152,7 +152,7 @@ oneItemEditState
 val
 store
 =
-HistoryStore
+HistoryFragmentStore
 (
 initialState
 )
@@ -160,7 +160,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 ExitEditMode
 )
@@ -182,7 +182,7 @@ store
 state
 .
 mode
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -206,7 +206,7 @@ emptyDefaultState
 val
 store
 =
-HistoryStore
+HistoryFragmentStore
 (
 initialState
 )
@@ -214,7 +214,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 AddItemForRemoval
 (
@@ -239,7 +239,7 @@ store
 state
 .
 mode
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -269,7 +269,7 @@ twoItemEditState
 val
 store
 =
-HistoryStore
+HistoryFragmentStore
 (
 initialState
 )
@@ -277,7 +277,7 @@ store
 .
 dispatch
 (
-HistoryAction
+HistoryFragmentAction
 .
 RemoveItemForRemoval
 (
@@ -302,7 +302,7 @@ store
 state
 .
 mode
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -321,9 +321,9 @@ emptyDefaultState
 (
 )
 :
-HistoryState
+HistoryFragmentState
 =
-HistoryState
+HistoryFragmentState
 (
 items
 =
@@ -332,7 +332,7 @@ listOf
 )
 mode
 =
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -344,9 +344,9 @@ oneItemEditState
 (
 )
 :
-HistoryState
+HistoryFragmentState
 =
-HistoryState
+HistoryFragmentState
 (
 items
 =
@@ -355,7 +355,7 @@ listOf
 )
 mode
 =
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -373,9 +373,9 @@ twoItemEditState
 (
 )
 :
-HistoryState
+HistoryFragmentState
 =
-HistoryState
+HistoryFragmentState
 (
 items
 =
@@ -384,7 +384,7 @@ listOf
 )
 mode
 =
-HistoryState
+HistoryFragmentState
 .
 Mode
 .

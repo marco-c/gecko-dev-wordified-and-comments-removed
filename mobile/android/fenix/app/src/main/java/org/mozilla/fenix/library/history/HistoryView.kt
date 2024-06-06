@@ -370,11 +370,11 @@ listOf
 var
 mode
 :
-HistoryState
+HistoryFragmentState
 .
 Mode
 =
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -431,7 +431,7 @@ update
 (
 state
 :
-HistoryState
+HistoryFragmentState
 )
 {
 val
@@ -450,7 +450,7 @@ mode
 =
 =
 =
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -518,7 +518,7 @@ state
 .
 mode
 is
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -574,7 +574,7 @@ mode
 )
 {
 is
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
@@ -595,7 +595,7 @@ library_history
 )
 )
 is
-HistoryState
+HistoryFragmentState
 .
 Mode
 .
