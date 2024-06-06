@@ -3873,6 +3873,11 @@ loadRequest
 .
 collect
 {
+findInPageIntegration
+.
+onBackPressed
+(
+)
 browserToolbarView
 .
 expand
