@@ -1219,6 +1219,9 @@ forward
 share
 refresh
 )
+isSticky
+=
+true
 )
 }
 else
