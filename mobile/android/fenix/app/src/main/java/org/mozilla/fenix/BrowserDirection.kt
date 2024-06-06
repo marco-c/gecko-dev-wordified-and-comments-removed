@@ -179,6 +179,14 @@ id
 .
 historyFragment
 )
+FromHistoryMetadataGroup
+(
+R
+.
+id
+.
+historyMetadataGroupFragment
+)
 FromTrackingProtectionExceptions
 (
 R

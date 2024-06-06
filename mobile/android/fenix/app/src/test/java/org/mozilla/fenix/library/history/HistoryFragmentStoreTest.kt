@@ -101,7 +101,9 @@ private
 val
 historyItem
 =
-HistoryItem
+History
+.
+Regular
 (
 0
 "
@@ -120,7 +122,9 @@ private
 val
 newHistoryItem
 =
-HistoryItem
+History
+.
+Regular
 (
 1
 "

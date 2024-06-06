@@ -127,7 +127,7 @@ LiveData
 <
 PagedList
 <
-HistoryItem
+History
 >
 >
 var
@@ -175,7 +175,7 @@ PagedList
 .
 BoundaryCallback
 <
-HistoryItem
+History
 >
 (
 )

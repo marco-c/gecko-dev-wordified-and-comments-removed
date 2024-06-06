@@ -105,7 +105,7 @@ DataSource
 Factory
 <
 Int
-HistoryItem
+History
 >
 (
 )
@@ -128,7 +128,7 @@ create
 DataSource
 <
 Int
-HistoryItem
+History
 >
 {
 val

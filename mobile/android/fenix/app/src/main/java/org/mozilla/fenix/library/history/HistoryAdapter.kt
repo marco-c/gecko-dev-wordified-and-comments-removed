@@ -254,7 +254,7 @@ HistoryInteractor
 :
 PagedListAdapter
 <
-HistoryItem
+History
 HistoryListItemViewHolder
 >
 (
@@ -262,7 +262,7 @@ historyDiffCallback
 )
 SelectionHolder
 <
-HistoryItem
+History
 >
 {
 private
@@ -728,7 +728,7 @@ timeGroupForHistoryItem
 (
 item
 :
-HistoryItem
+History
 )
 :
 HistoryItemTimeGroup
@@ -806,7 +806,7 @@ DiffUtil
 .
 ItemCallback
 <
-HistoryItem
+History
 >
 (
 )
@@ -817,10 +817,10 @@ areItemsTheSame
 (
 oldItem
 :
-HistoryItem
+History
 newItem
 :
-HistoryItem
+History
 )
 :
 Boolean
@@ -837,10 +837,10 @@ areContentsTheSame
 (
 oldItem
 :
-HistoryItem
+History
 newItem
 :
-HistoryItem
+History
 )
 :
 Boolean
@@ -857,10 +857,10 @@ getChangePayload
 (
 oldItem
 :
-HistoryItem
+History
 newItem
 :
-HistoryItem
+History
 )
 :
 Any
