@@ -591,10 +591,6 @@ urlToTrimmedHost
 (
 context
 )
-.
-capitalize
-(
-)
 }
 .
 map
