@@ -95,6 +95,14 @@ true
 "
 android
 :
+name
+=
+"
+.
+FenixApplication
+"
+android
+:
 theme
 =
 "

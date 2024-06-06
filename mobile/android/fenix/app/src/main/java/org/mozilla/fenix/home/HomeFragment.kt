@@ -333,7 +333,7 @@ R
 .
 id
 .
-action_homeFragment_to_browserFragment
+action_homeFragment_to_searchFragment
 null
 null
 extras
