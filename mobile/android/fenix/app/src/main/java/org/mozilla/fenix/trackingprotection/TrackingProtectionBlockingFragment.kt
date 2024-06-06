@@ -169,6 +169,13 @@ onViewCreated
 view
 savedInstanceState
 )
+category_fingerprinters
+.
+isVisible
+=
+args
+.
+strictMode
 category_tracking_content
 .
 isVisible
