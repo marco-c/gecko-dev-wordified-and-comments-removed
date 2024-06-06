@@ -1801,6 +1801,11 @@ url
 toString
 (
 )
+searchTerm
+=
+firstWebPage
+.
+title
 )
 verifyNoSuggestionsAreDisplayed
 (
@@ -2027,6 +2032,11 @@ url
 toString
 (
 )
+searchTerm
+=
+"
+generic
+"
 )
 pressBack
 (

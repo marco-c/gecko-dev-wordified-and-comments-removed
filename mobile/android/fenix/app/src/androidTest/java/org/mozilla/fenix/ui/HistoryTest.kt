@@ -1802,6 +1802,11 @@ url
 toString
 (
 )
+searchTerm
+=
+"
+generic
+"
 )
 verifyNoSuggestionsAreDisplayed
 (
@@ -2032,6 +2037,11 @@ url
 toString
 (
 )
+searchTerm
+=
+"
+generic
+"
 )
 pressBack
 (
