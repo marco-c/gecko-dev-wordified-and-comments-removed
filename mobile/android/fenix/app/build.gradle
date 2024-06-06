@@ -4958,10 +4958,6 @@ mozilla_feature_webcompat_reporter
 implementation
 Deps
 .
-mozilla_feature_serviceworker
-implementation
-Deps
-.
 mozilla_service_pocket
 implementation
 Deps
