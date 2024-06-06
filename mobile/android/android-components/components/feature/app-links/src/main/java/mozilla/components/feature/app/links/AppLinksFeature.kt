@@ -584,6 +584,10 @@ val
 failedToLaunchAction
 :
 (
+fallbackUrl
+:
+String
+?
 )
 -
 >
