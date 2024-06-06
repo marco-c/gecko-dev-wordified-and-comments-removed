@@ -371,6 +371,9 @@ Home
 or
 Browser
 )
+type
+:
+string
 bugs
 :
 -
