@@ -620,7 +620,7 @@ R
 .
 string
 .
-review_quality_check
+review_quality_check_feature_name
 )
 color
 =
