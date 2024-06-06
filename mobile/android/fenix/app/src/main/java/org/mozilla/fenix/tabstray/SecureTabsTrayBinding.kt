@@ -259,6 +259,12 @@ selectedPage
 Page
 .
 PrivateTabs
+&
+&
+!
+settings
+.
+allowScreenshotsInPrivateMode
 )
 {
 fragment
