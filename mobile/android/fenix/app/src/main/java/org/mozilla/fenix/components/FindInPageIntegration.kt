@@ -291,6 +291,15 @@ bind
 (
 session
 )
+view
+.
+layoutParams
+.
+height
+=
+toolbar
+.
+height
 }
 }
 }
