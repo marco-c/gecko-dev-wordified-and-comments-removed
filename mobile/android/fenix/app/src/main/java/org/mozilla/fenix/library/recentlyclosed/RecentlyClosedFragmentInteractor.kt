@@ -77,7 +77,9 @@ state
 .
 state
 .
-ClosedTab
+recover
+.
+RecoverableTab
 import
 org
 .
@@ -126,7 +128,7 @@ restore
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 {
 recentlyClosedController
@@ -142,7 +144,7 @@ onCopyPressed
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 {
 recentlyClosedController
@@ -158,7 +160,7 @@ onSharePressed
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 {
 recentlyClosedController
@@ -174,7 +176,7 @@ onOpenInNormalTab
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 {
 recentlyClosedController
@@ -193,7 +195,7 @@ onOpenInPrivateTab
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 {
 recentlyClosedController
@@ -212,7 +214,7 @@ onDeleteOne
 (
 tab
 :
-ClosedTab
+RecoverableTab
 )
 {
 recentlyClosedController

@@ -105,7 +105,9 @@ state
 .
 state
 .
-ClosedTab
+recover
+.
+RecoverableTab
 import
 org
 .
@@ -160,7 +162,7 @@ private
 var
 item
 :
-ClosedTab
+RecoverableTab
 ?
 =
 null
@@ -175,7 +177,7 @@ bind
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 {
 itemView

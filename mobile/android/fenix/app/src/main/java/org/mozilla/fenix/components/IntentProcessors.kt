@@ -361,7 +361,7 @@ lazyMonitored
 {
 TabIntentProcessor
 (
-sessionManager
+tabsUseCases
 sessionUseCases
 .
 loadUrl
@@ -399,7 +399,7 @@ lazyMonitored
 {
 TabIntentProcessor
 (
-sessionManager
+tabsUseCases
 sessionUseCases
 .
 loadUrl

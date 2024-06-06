@@ -89,7 +89,9 @@ state
 .
 state
 .
-ClosedTab
+recover
+.
+RecoverableTab
 import
 org
 .
@@ -158,7 +160,7 @@ open
 val
 tab
 =
-ClosedTab
+RecoverableTab
 (
 id
 =
@@ -179,7 +181,7 @@ mozilla
 .
 org
 "
-createdAt
+lastAccess
 =
 1L
 )
@@ -208,7 +210,7 @@ onCopyPressed
 val
 tab
 =
-ClosedTab
+RecoverableTab
 (
 id
 =
@@ -229,7 +231,7 @@ mozilla
 .
 org
 "
-createdAt
+lastAccess
 =
 1L
 )
@@ -258,7 +260,7 @@ onSharePressed
 val
 tab
 =
-ClosedTab
+RecoverableTab
 (
 id
 =
@@ -279,7 +281,7 @@ mozilla
 .
 org
 "
-createdAt
+lastAccess
 =
 1L
 )
@@ -308,7 +310,7 @@ onOpenInNormalTab
 val
 tab
 =
-ClosedTab
+RecoverableTab
 (
 id
 =
@@ -329,7 +331,7 @@ mozilla
 .
 org
 "
-createdAt
+lastAccess
 =
 1L
 )
@@ -363,7 +365,7 @@ onOpenInPrivateTab
 val
 tab
 =
-ClosedTab
+RecoverableTab
 (
 id
 =
@@ -384,7 +386,7 @@ mozilla
 .
 org
 "
-createdAt
+lastAccess
 =
 1L
 )
@@ -418,7 +420,7 @@ onDeleteOne
 val
 tab
 =
-ClosedTab
+RecoverableTab
 (
 id
 =
@@ -439,7 +441,7 @@ mozilla
 .
 org
 "
-createdAt
+lastAccess
 =
 1L
 )

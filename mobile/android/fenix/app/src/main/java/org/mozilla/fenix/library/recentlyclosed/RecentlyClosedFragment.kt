@@ -175,7 +175,9 @@ state
 .
 state
 .
-ClosedTab
+recover
+.
+RecoverableTab
 import
 mozilla
 .
@@ -323,7 +325,7 @@ RecentlyClosedFragment
 :
 LibraryPageFragment
 <
-ClosedTab
+RecoverableTab
 >
 (
 )
@@ -550,6 +552,13 @@ activity
 activity
 as
 HomeActivity
+tabsUseCases
+=
+requireComponents
+.
+useCases
+.
+tabsUseCases
 sessionManager
 =
 requireComponents
@@ -638,7 +647,7 @@ openItem
 (
 tab
 :
-ClosedTab
+RecoverableTab
 mode
 :
 BrowsingMode
@@ -770,7 +779,7 @@ selectedItems
 :
 Set
 <
-ClosedTab
+RecoverableTab
 >
 =
 setOf

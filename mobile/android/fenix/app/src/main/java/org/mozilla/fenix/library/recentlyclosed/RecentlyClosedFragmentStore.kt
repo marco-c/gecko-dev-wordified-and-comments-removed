@@ -77,7 +77,9 @@ state
 .
 state
 .
-ClosedTab
+recover
+.
+RecoverableTab
 import
 mozilla
 .
@@ -185,7 +187,7 @@ list
 :
 List
 <
-ClosedTab
+RecoverableTab
 >
 )
 :
@@ -225,7 +227,7 @@ items
 :
 List
 <
-ClosedTab
+RecoverableTab
 >
 =
 emptyList

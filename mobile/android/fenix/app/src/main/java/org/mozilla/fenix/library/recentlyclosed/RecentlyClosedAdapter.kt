@@ -105,7 +105,9 @@ state
 .
 state
 .
-ClosedTab
+recover
+.
+RecoverableTab
 class
 RecentlyClosedAdapter
 (
@@ -118,7 +120,7 @@ RecentlyClosedFragmentInteractor
 :
 ListAdapter
 <
-ClosedTab
+RecoverableTab
 RecentlyClosedItemViewHolder
 >
 (
@@ -196,7 +198,7 @@ DiffUtil
 .
 ItemCallback
 <
-ClosedTab
+RecoverableTab
 >
 (
 )
@@ -207,10 +209,10 @@ areItemsTheSame
 (
 oldItem
 :
-ClosedTab
+RecoverableTab
 newItem
 :
-ClosedTab
+RecoverableTab
 )
 =
 oldItem
@@ -227,10 +229,10 @@ areContentsTheSame
 (
 oldItem
 :
-ClosedTab
+RecoverableTab
 newItem
 :
-ClosedTab
+RecoverableTab
 )
 =
 oldItem

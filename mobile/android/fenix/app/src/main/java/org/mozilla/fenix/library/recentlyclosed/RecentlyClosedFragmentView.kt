@@ -143,7 +143,9 @@ state
 .
 state
 .
-ClosedTab
+recover
+.
+RecoverableTab
 import
 org
 .
@@ -186,7 +188,7 @@ restore
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 /
 *
@@ -249,7 +251,7 @@ onCopyPressed
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 /
 *
@@ -284,7 +286,7 @@ onSharePressed
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 /
 *
@@ -323,7 +325,7 @@ onOpenInNormalTab
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 /
 *
@@ -362,7 +364,7 @@ onOpenInPrivateTab
 (
 item
 :
-ClosedTab
+RecoverableTab
 )
 /
 *
@@ -378,7 +380,7 @@ item
 *
 *
 param
-item
+tab
 the
 recently
 closed
@@ -394,7 +396,7 @@ onDeleteOne
 (
 tab
 :
-ClosedTab
+RecoverableTab
 )
 }
 /
@@ -559,7 +561,7 @@ items
 :
 List
 <
-ClosedTab
+RecoverableTab
 >
 )
 {
