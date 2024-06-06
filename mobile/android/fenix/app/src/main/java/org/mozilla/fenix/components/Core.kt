@@ -553,6 +553,9 @@ context
 )
 .
 shouldUseAutoSize
+suspendMediaWhenInactive
+=
+true
 )
 GeckoEngine
 (
