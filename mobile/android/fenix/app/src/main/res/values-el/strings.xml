@@ -19540,7 +19540,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_2
 "
 >
-Cookie
+Cookies
 <
 /
 string
@@ -19572,7 +19572,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_3
 "
 >
-cookie
+cookies
 (
 )
 <
@@ -19606,7 +19606,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_4
 "
 >
-cookie
+cookies
 (
 )
 <
@@ -19998,7 +19998,7 @@ name
 etp_cookies_title
 "
 >
-Cookie
+Cookies
 <
 /
 string
@@ -20033,7 +20033,7 @@ name
 etp_cookies_description
 "
 >
-cookie
+cookies
 .
 <
 /
@@ -20620,7 +20620,7 @@ name
 etp_redirect_trackers_description
 "
 >
-cookie
+cookies
 .
 <
 /
