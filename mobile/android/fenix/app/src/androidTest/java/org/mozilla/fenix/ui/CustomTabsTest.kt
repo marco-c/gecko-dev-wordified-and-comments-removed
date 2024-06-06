@@ -579,7 +579,7 @@ verifySecurityPromptForLogins
 tapSetupLater
 (
 )
-verifySavedLoginFromPrompt
+verifySavedLoginsSectionUsername
 (
 "
 mozilla
