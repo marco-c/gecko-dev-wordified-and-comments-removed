@@ -1600,8 +1600,6 @@ movidas
 para
 c
 .
-Voc
-pode
 <
 /
 string
@@ -10193,7 +10191,8 @@ name
 preferences_inactive_tabs_title
 "
 >
-Abas
+Mover
+abas
 que
 voc
 n
@@ -10202,16 +10201,12 @@ usa
 h
 duas
 semanas
-s
-o
-movidas
 para
 a
 se
 o
 de
 inativas
-.
 <
 /
 string
@@ -22871,9 +22866,7 @@ name
 preferences_passwords_sync_logins
 "
 >
-Sincroniza
-o
-de
+Sincronizar
 contas
 <
 /
@@ -23943,8 +23936,7 @@ name
 logins_biometric_prompt_message_pin
 "
 >
-Desbloqueie
-seu
+Desbloquear
 dispositivo
 <
 /
@@ -24003,8 +23995,7 @@ name
 preference_accessibility_force_enable_zoom_summary
 "
 >
-Ativar
-permite
+Permitir
 zoom
 com
 movimento
@@ -24020,7 +24011,7 @@ sites
 que
 tentam
 impedir
-esse
+este
 gesto
 .
 <
@@ -25268,8 +25259,7 @@ name
 credit_cards_biometric_prompt_message_pin
 "
 >
-Desbloqueie
-seu
+Desbloquear
 dispositivo
 <
 /
