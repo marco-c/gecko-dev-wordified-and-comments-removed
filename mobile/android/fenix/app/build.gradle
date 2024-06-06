@@ -1310,7 +1310,7 @@ buildFeatures
 viewBinding
 true
 }
-aaptOptions
+androidResources
 {
 /
 /

@@ -1568,7 +1568,7 @@ attach_hotspot_windows
 dll
 "
 }
-aaptOptions
+androidResources
 {
 ignoreAssetsPattern
 "
