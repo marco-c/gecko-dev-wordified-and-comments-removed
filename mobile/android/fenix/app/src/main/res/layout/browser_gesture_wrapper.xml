@@ -135,6 +135,17 @@ match_parent
 "
 >
 <
+include
+layout
+=
+"
+layout
+/
+fragment_browser
+"
+/
+>
+<
 org
 .
 mozilla
