@@ -8115,11 +8115,6 @@ sources
 "
 gunit
 .
-cc
-"
-"
-gunit
-.
 h
 "
 ]
