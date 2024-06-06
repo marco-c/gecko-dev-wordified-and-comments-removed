@@ -93,15 +93,8 @@ event
 .
 pusher
 .
-name
+email
 }
-users
-.
-noreply
-.
-github
-.
-com
 '
 else
 :
