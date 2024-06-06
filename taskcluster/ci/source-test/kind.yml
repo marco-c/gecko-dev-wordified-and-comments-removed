@@ -148,6 +148,12 @@ detekt
 .
 yml
 -
+android
+-
+lint
+.
+yml
+-
 buildconfig
 .
 yml
