@@ -2707,7 +2707,7 @@ const
 val
 HISTORY_METADATA_MAX_AGE_IN_MS
 =
-7
+14
 *
 24
 *
@@ -2718,7 +2718,7 @@ HISTORY_METADATA_MAX_AGE_IN_MS
 1000
 /
 /
-7
+14
 days
 }
 }
