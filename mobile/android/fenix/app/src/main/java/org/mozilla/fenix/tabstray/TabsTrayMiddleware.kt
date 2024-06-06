@@ -369,16 +369,6 @@ tabGroupSizeMapping
 }
 }
 }
-else
--
->
-{
-/
-/
-no
--
-op
-}
 }
 }
 Suppress
