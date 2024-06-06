@@ -203,16 +203,6 @@ mozilla
 .
 fenix
 .
-AdjustHelper
-.
-setupAdjustIfNeeded
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 Components
@@ -371,10 +361,6 @@ setupLeakCanary
 )
 loadExperiments
 (
-)
-setupAdjustIfNeeded
-(
-this
 )
 components
 .
