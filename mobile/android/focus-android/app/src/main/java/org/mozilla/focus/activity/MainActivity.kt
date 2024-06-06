@@ -291,6 +291,16 @@ mozilla
 .
 focus
 .
+ext
+.
+updateSecureWindowFlags
+import
+org
+.
+mozilla
+.
+focus
+.
 fragment
 .
 BrowserFragment
@@ -801,6 +811,9 @@ startSession
 (
 )
 checkBiometricStillValid
+(
+)
+updateSecureWindowFlags
 (
 )
 }
