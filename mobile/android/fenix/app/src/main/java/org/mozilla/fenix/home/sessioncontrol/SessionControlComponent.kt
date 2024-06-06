@@ -75,6 +75,12 @@ Context
 import
 android
 .
+graphics
+.
+Bitmap
+import
+android
+.
 view
 .
 View
@@ -353,6 +359,13 @@ var
 mediaState
 :
 MediaState
+?
+=
+null
+val
+icon
+:
+Bitmap
 ?
 =
 null
