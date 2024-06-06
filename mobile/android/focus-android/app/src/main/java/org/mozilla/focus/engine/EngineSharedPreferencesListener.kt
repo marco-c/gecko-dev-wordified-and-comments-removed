@@ -271,7 +271,7 @@ updateWebFontsBlocking
 )
 }
 }
-private
+internal
 fun
 updateTrackingProtectionPolicy
 (

@@ -64,6 +64,8 @@ mozilla
 focus
 .
 settings
+.
+privacy
 import
 android
 .
@@ -122,6 +124,16 @@ focus
 ext
 .
 requireComponents
+import
+org
+.
+mozilla
+.
+focus
+.
+settings
+.
+BaseSettingsFragment
 import
 org
 .

@@ -198,7 +198,7 @@ android
 layout_marginStart
 =
 "
-48dp
+44dp
 "
 android
 :
@@ -413,6 +413,15 @@ id
 id
 /
 switch_widget
+"
+android
+:
+theme
+=
+"
+style
+/
+SwitchTheme
 "
 android
 :

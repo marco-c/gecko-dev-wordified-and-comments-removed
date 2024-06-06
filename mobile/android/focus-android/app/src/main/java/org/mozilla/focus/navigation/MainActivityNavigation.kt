@@ -253,6 +253,8 @@ focus
 .
 settings
 .
+privacy
+.
 PrivacySecuritySettingsFragment
 import
 org
