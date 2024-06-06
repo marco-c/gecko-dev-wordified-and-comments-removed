@@ -3153,7 +3153,7 @@ navURLBar
 .
 swipeRight
 (
-3
+2
 )
 assertTrue
 (
@@ -3190,7 +3190,7 @@ navURLBar
 .
 swipeRight
 (
-3
+2
 )
 assertTrue
 (
@@ -3241,9 +3241,9 @@ navURLBar
 (
 )
 .
-swipeRight
+swipeLeft
 (
-3
+2
 )
 assertTrue
 (
@@ -3278,9 +3278,9 @@ navURLBar
 (
 )
 .
-swipeRight
+swipeLeft
 (
-3
+2
 )
 assertTrue
 (
