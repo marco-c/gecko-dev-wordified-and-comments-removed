@@ -2583,6 +2583,10 @@ testing_coroutines
 testImplementation
 Dependencies
 .
+androidx_work_testing
+testImplementation
+Dependencies
+.
 androidx_arch_core_testing
 testImplementation
 "
