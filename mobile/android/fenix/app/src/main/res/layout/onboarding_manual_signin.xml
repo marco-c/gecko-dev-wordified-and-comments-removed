@@ -213,15 +213,6 @@ layout_marginBottom
 "
 android
 :
-drawableStart
-=
-"
-drawable
-/
-ic_onboarding_firefox_accounts
-"
-android
-:
 drawablePadding
 =
 "

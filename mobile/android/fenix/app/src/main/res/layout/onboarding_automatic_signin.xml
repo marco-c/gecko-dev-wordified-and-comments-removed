@@ -213,15 +213,6 @@ layout_marginBottom
 "
 android
 :
-drawableStart
-=
-"
-drawable
-/
-ic_onboarding_avatar_anonymous
-"
-android
-:
 drawablePadding
 =
 "
