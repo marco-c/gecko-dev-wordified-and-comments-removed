@@ -664,6 +664,10 @@ loadPage
 insecurePageUrl
 )
 {
+verifyPageURL
+(
+insecurePageUrl
+)
 verifySiteSecurityIconShown
 (
 )
