@@ -589,17 +589,6 @@ context
 )
 )
 }
-/
-/
-Disabled
-until
-data
--
-review
-r
-+
-/
-/
 activationPing
 .
 checkAndSend
