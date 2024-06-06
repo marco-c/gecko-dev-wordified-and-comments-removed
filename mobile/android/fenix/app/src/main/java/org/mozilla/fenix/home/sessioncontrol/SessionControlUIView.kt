@@ -472,6 +472,9 @@ onboarding_fxa_section_header
 }
 AdapterItem
 .
+OnboardingFirefoxAccount
+AdapterItem
+.
 OnboardingSectionHeader
 (
 )
@@ -504,6 +507,15 @@ appName
 AdapterItem
 .
 OnboardingThemePicker
+AdapterItem
+.
+OnboardingTrackingProtection
+AdapterItem
+.
+OnboardingPrivateBrowsing
+AdapterItem
+.
+OnboardingPrivacyNotice
 )
 private
 fun

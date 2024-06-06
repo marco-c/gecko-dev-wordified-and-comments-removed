@@ -180,7 +180,7 @@ text
 "
 string
 /
-onboarding_theme_picker_header
+onboarding_tracking_protection_header
 "
 android
 :
@@ -226,7 +226,7 @@ text
 "
 string
 /
-onboarding_theme_picker_description
+onboarding_tracking_protection_description
 "
 android
 :

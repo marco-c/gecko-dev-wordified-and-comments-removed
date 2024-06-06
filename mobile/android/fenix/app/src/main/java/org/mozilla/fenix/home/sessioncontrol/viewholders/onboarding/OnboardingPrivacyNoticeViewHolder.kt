@@ -91,7 +91,7 @@ synthetic
 .
 main
 .
-onboarding_header
+onboarding_theme_picker
 .
 view
 .
@@ -105,7 +105,7 @@ fenix
 .
 R
 class
-OnboardingHeaderViewHolder
+OnboardingPrivacyNoticeViewHolder
 (
 view
 :
@@ -138,7 +138,7 @@ app_name
 )
 view
 .
-header_text
+description_text
 .
 text
 =
@@ -152,7 +152,7 @@ R
 .
 string
 .
-onboarding_header
+onboarding_privacy_notice_description
 appName
 )
 }
@@ -167,6 +167,6 @@ R
 .
 layout
 .
-onboarding_header
+onboarding_privacy_notice
 }
 }

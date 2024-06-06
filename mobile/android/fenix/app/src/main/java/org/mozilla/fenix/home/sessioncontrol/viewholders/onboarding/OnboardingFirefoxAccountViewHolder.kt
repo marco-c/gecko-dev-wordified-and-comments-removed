@@ -91,7 +91,7 @@ synthetic
 .
 main
 .
-onboarding_header
+onboarding_firefox_account
 .
 view
 .
@@ -105,7 +105,7 @@ fenix
 .
 R
 class
-OnboardingHeaderViewHolder
+OnboardingFirefoxAccountViewHolder
 (
 view
 :
@@ -152,7 +152,7 @@ R
 .
 string
 .
-onboarding_header
+onboarding_firefox_account_header
 appName
 )
 }
@@ -167,6 +167,6 @@ R
 .
 layout
 .
-onboarding_header
+onboarding_firefox_account
 }
 }
