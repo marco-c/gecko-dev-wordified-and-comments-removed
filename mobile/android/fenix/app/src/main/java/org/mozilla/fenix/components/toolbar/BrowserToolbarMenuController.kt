@@ -1148,7 +1148,7 @@ ToolbarMenu
 .
 Item
 .
-ReaderModeAppearance
+CustomizeReaderView
 -
 >
 {
@@ -2285,7 +2285,7 @@ ToolbarMenu
 .
 Item
 .
-ReaderModeAppearance
+CustomizeReaderView
 -
 >
 Event

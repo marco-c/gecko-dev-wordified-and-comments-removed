@@ -1703,7 +1703,7 @@ ToolbarMenu
 .
 Item
 .
-ReaderModeAppearance
+CustomizeReaderView
 val
 controller
 =

@@ -232,7 +232,7 @@ Item
 (
 )
 object
-ReaderModeAppearance
+CustomizeReaderView
 :
 Item
 (
