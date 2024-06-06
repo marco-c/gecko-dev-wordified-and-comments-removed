@@ -930,7 +930,9 @@ name
 browser_menu_bookmark
 "
 >
-Favorito
+Adicionar
+aos
+favoritos
 <
 /
 string
@@ -11520,12 +11522,6 @@ um
 texto
 de
 exemplo
-com
-todas
-as
-letras
-do
-alfabeto
 .
 Est
 aqui
@@ -11537,6 +11533,7 @@ texto
 ser
 exibido
 quando
+voc
 usar
 esta
 configura
