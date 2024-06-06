@@ -224,6 +224,9 @@ xml
 home_preferences
 rootKey
 )
+setupPreferences
+(
+)
 }
 override
 fun
@@ -246,9 +249,6 @@ string
 .
 preferences_home_2
 )
-)
-setupPreferences
-(
 )
 }
 private

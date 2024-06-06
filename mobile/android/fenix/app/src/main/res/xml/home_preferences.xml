@@ -308,13 +308,6 @@ string
 /
 customize_toggle_pocket_summary
 "
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 /
 >
 <
