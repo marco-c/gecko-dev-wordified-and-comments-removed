@@ -112,6 +112,7 @@ focus
 utils
 .
 Settings
+open
 class
 SearchSuggestionsPreferences
 (
