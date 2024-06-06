@@ -574,7 +574,7 @@ false
 }
 Test
 fun
-deleteTabsDataWithNoOpenTabsTest
+deleteOpenTabsBrowsingDataWithNoOpenTabsTest
 (
 )
 {
@@ -618,7 +618,7 @@ verifyGeneralHeading
 SmokeTest
 Test
 fun
-deleteTabsDataTest
+deleteOpenTabsBrowsingDataTest
 (
 )
 {
