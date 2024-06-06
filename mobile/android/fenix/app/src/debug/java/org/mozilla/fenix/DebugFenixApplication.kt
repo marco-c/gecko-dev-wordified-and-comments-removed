@@ -237,7 +237,6 @@ var
 prefs
 :
 SharedPreferences
-?
 =
 PreferenceManager
 .
@@ -249,7 +248,6 @@ var
 enabled
 =
 prefs
-?
 .
 getBoolean
 (
@@ -259,11 +257,8 @@ getPreferenceKey
 (
 pref_key_leakcanary
 )
-true
+false
 )
-?
-:
-true
 override
 fun
 dumpHeap

@@ -604,6 +604,13 @@ string
 /
 preference_leakcanary
 "
+android
+:
+defaultValue
+=
+"
+false
+"
 /
 >
 <
