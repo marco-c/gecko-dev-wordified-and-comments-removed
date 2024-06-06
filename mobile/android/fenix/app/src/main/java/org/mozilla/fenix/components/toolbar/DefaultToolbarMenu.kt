@@ -756,7 +756,7 @@ BrowserMenuHighlightableItem
 .
 Highlight
 (
-imageResource
+endImageResource
 =
 R
 .
