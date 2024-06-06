@@ -743,6 +743,8 @@ sessionStorage
 .
 bundles
 (
+limit
+=
 temporaryNumberOfSessions
 )
 bundles
