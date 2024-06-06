@@ -2113,7 +2113,7 @@ mozilla_android_components
 "
 const
 val
-mozilla_ui_publicsuffixlist
+mozilla_lib_publicsuffixlist
 =
 "
 org
