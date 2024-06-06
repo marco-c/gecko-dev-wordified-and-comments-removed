@@ -165,3 +165,9 @@ token
 file
 .
 sentry_token
+#
+Nimbus
+endpoint
+file
+.
+nimbus
