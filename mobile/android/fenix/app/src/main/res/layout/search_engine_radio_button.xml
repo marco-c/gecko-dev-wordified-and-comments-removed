@@ -201,13 +201,6 @@ search_engine_radio_button_height
 "
 android
 :
-button
-=
-"
-null
-"
-android
-:
 textAlignment
 =
 "
