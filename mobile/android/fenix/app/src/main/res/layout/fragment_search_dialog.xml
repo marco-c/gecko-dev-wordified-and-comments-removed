@@ -489,7 +489,7 @@ id
 +
 id
 /
-search_suggestions_onboarding
+search_suggestions_hint
 "
 android
 :
@@ -512,7 +512,7 @@ inflatedId
 "
 id
 /
-search_suggestions_onboarding
+search_suggestions_hint
 "
 android
 :
@@ -521,7 +521,7 @@ layout
 "
 layout
 /
-search_suggestions_onboarding
+search_suggestions_hint
 "
 app
 :
@@ -556,7 +556,7 @@ id
 +
 id
 /
-search_suggestions_onboarding_divider
+search_suggestions_hint_divider
 "
 android
 :
@@ -594,7 +594,7 @@ layout_constraintBottom_toBottomOf
 "
 id
 /
-search_suggestions_onboarding
+search_suggestions_hint
 "
 app
 :

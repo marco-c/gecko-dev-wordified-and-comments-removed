@@ -253,7 +253,7 @@ synthetic
 .
 main
 .
-search_suggestions_onboarding
+search_suggestions_hint
 .
 view
 .
