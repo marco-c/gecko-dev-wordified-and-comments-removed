@@ -990,6 +990,17 @@ onBackPressed
 (
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
+super
+.
+onBackPressed
+(
+)
 this
 TrackingProtectionPanelDialogFragment
 .
