@@ -1336,6 +1336,12 @@ isDynamicToolbarEnabled
 &
 !
 isPwaTabOrTwaTab
+&
+&
+!
+settings
+.
+shouldUseFixedTopToolbar
 )
 {
 setDynamicToolbarBehavior
