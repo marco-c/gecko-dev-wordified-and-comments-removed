@@ -549,7 +549,7 @@ also
 {
 settings
 (
-it
+this
 )
 applyFlagUpdates
 (
