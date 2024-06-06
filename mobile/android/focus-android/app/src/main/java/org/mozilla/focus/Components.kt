@@ -319,6 +319,16 @@ mozilla
 .
 focus
 .
+engine
+.
+SanityCheckMiddleware
+import
+org
+.
+mozilla
+.
+focus
+.
 notification
 .
 PrivateNotificationMiddleware
@@ -562,6 +572,9 @@ DownloadService
 class
 .
 java
+)
+SanityCheckMiddleware
+(
 )
 )
 +
