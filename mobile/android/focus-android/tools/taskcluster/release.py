@@ -874,17 +874,20 @@ Queue
 (
 {
 '
-rootUrl
+baseUrl
 '
 :
-os
-.
-environ
-[
 '
-TASKCLUSTER_PROXY_URL
+http
+:
+/
+/
+taskcluster
+/
+queue
+/
+v1
 '
-]
 }
 )
     
