@@ -589,6 +589,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 debounceMillis
 =
 0
@@ -677,6 +678,7 @@ active
 lastUsed
 =
 123L
+true
 )
 Tab
 (
@@ -714,6 +716,7 @@ active
 lastUsed
 =
 124L
+true
 )
 /
 /
@@ -772,6 +775,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 debounceMillis
 =
 0
@@ -848,6 +852,7 @@ active
 lastUsed
 =
 123L
+true
 )
 Tab
 (
@@ -885,6 +890,7 @@ active
 lastUsed
 =
 124L
+true
 )
 )
 )
@@ -961,6 +967,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 )
 )
 val
@@ -1086,6 +1093,7 @@ null
 )
 0
 0
+true
 )
 )
 val
@@ -1116,6 +1124,7 @@ null
 )
 0
 0
+true
 )
 )
 whenever
@@ -1181,6 +1190,7 @@ null
 )
 0
 0
+true
 )
 )
 )
@@ -1261,6 +1271,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 )
 )
 doReturn
@@ -1320,6 +1331,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 )
 )
 val
@@ -1476,6 +1488,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 )
 )
 val
@@ -1566,6 +1579,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 )
 )
 whenever
@@ -1680,6 +1694,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 debounceMillis
 =
 0
@@ -1755,6 +1770,7 @@ active
 lastUsed
 =
 123L
+true
 )
 Tab
 (
@@ -1792,6 +1808,7 @@ active
 lastUsed
 =
 124L
+true
 )
 )
 )
@@ -1931,6 +1948,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 debounceMillis
 =
 0
@@ -2004,6 +2022,7 @@ active
 lastUsed
 =
 123L
+true
 )
 )
 )
@@ -2099,6 +2118,13 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+System
+.
+currentTimeMillis
+(
+)
+*
+2
 debounceMillis
 =
 0
@@ -2175,6 +2201,7 @@ active
 lastUsed
 =
 123L
+false
 )
 Tab
 (
@@ -2212,6 +2239,7 @@ active
 lastUsed
 =
 124L
+false
 )
 )
 )
@@ -2310,6 +2338,7 @@ SyncedTabsStorage
 accountManager
 store
 tabsStorage
+0
 debounceMillis
 =
 0
@@ -2387,6 +2416,7 @@ active
 lastUsed
 =
 123L
+true
 )
 Tab
 (
@@ -2424,6 +2454,7 @@ active
 lastUsed
 =
 124L
+true
 )
 )
 )
@@ -2476,6 +2507,7 @@ active
 lastUsed
 =
 300L
+true
 )
 Tab
 (
@@ -2513,6 +2545,7 @@ active
 lastUsed
 =
 124L
+true
 )
 )
 )

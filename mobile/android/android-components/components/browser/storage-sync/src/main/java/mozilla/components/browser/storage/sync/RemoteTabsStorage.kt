@@ -416,6 +416,9 @@ iconUrl
 it
 .
 lastUsed
+it
+.
+inactive
 )
 }
 )
@@ -563,6 +566,9 @@ urlHistory
 .
 lastIndex
 lastUsed
+tab
+.
+inactive
 )
 }
 /
@@ -742,6 +748,10 @@ val
 lastUsed
 :
 Long
+val
+inactive
+:
+Boolean
 )
 {
 /

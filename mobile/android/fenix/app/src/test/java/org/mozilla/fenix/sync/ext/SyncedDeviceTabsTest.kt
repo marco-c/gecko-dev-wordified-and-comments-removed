@@ -288,6 +288,9 @@ active
 lastUsed
 =
 0L
+inactive
+=
+false
 )
 )
 )
@@ -365,6 +368,9 @@ active
 lastUsed
 =
 0L
+inactive
+=
+false
 )
 Tab
 (
@@ -401,6 +407,9 @@ active
 lastUsed
 =
 0L
+inactive
+=
+false
 )
 )
 )

@@ -467,6 +467,16 @@ fenix
 .
 ext
 .
+maxActiveTime
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 settings
 import
 org
@@ -1053,6 +1063,7 @@ store
 remoteTabsStorage
 .
 value
+maxActiveTime
 )
 }
 val
