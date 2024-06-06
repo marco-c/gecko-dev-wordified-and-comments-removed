@@ -405,6 +405,13 @@ section
 =
 =
 pocket
+&
+&
+Config
+.
+channel
+.
+isNightlyOrDebug
 )
 {
 FeatureFlags
