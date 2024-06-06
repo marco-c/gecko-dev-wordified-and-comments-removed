@@ -1486,6 +1486,11 @@ isHuawei
 ManufacturerCodes
 .
 isOnePlus
+|
+|
+ManufacturerCodes
+.
+isOppo
 private
 fun
 StrictMode
