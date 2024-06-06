@@ -1071,7 +1071,7 @@ dispatch
 (
 TabsTrayAction
 .
-ConsumeFocusGroupTabIdAction
+ConsumeFocusGroupTabId
 )
 }
 return

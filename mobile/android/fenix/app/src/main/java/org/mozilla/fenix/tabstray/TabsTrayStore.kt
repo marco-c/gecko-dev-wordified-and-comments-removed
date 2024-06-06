@@ -821,7 +821,7 @@ TabsTrayState
 *
 /
 object
-ConsumeFocusGroupTabIdAction
+ConsumeFocusGroupTabId
 :
 TabsTrayAction
 (
@@ -1169,7 +1169,7 @@ false
 is
 TabsTrayAction
 .
-ConsumeFocusGroupTabIdAction
+ConsumeFocusGroupTabId
 -
 >
 state

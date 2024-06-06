@@ -139,7 +139,7 @@ reduce
 initialState
 TabsTrayAction
 .
-ConsumeFocusGroupTabIdAction
+ConsumeFocusGroupTabId
 )
 assertEquals
 (
