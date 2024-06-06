@@ -648,4 +648,15 @@ isBlockingEnabled
 blockingEnabled
 ;
 }
+public
+void
+stripCustomTabConfiguration
+(
+)
+{
+customTabConfig
+=
+null
+;
+}
 }
