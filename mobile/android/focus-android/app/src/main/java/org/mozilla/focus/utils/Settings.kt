@@ -673,7 +673,7 @@ string
 .
 pref_key_autocomplete_custom
 )
-false
+true
 )
 fun
 shouldBlockAdTrackers
