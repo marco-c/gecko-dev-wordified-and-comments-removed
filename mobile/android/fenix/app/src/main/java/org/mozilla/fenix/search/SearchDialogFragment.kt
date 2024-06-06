@@ -4513,6 +4513,11 @@ string
 .
 search_scan_button
 )
+autoHide
+=
+{
+true
+}
 listener
 =
 :
