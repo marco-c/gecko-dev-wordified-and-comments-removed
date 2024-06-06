@@ -405,6 +405,7 @@ if
 (
 slideOffset
 >
+=
 SLIDE_OFFSET
 )
 {
@@ -768,13 +769,11 @@ val
 SLIDE_OFFSET
 =
 0
-.
-4
 private
 const
 val
 ELEVATION
 =
-41f
+90f
 }
 }
