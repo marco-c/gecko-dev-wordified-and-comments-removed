@@ -3180,7 +3180,6 @@ json
 function
 (
 request
-response
 )
 {
 let
@@ -3963,7 +3962,6 @@ org
 }
 onDownloadFailed
 (
-aInstall
 )
 {
 ok
@@ -3982,7 +3980,6 @@ event
 }
 onDownloadCancelled
 (
-aInstall
 )
 {
 ok
@@ -4051,7 +4048,6 @@ resolve
 }
 onInstallFailed
 (
-aInstall
 )
 {
 ok
@@ -4070,7 +4066,6 @@ event
 }
 onInstallCancelled
 (
-aInstall
 )
 {
 ok

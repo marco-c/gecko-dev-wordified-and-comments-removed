@@ -357,7 +357,6 @@ resolve
 }
 unblockResponses
 (
-responseText
 )
 {
 throw

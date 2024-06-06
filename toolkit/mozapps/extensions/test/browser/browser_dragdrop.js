@@ -64,8 +64,6 @@ observer
 observe
 (
 aSubject
-aTopic
-aData
 )
 {
 let

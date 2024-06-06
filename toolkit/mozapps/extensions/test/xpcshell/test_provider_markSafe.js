@@ -74,7 +74,6 @@ mimetype
 }
 supportsMimetype
 (
-mimetype
 )
 {
 this

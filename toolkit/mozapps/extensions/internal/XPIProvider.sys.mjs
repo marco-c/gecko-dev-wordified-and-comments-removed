@@ -9550,7 +9550,8 @@ findAddon
 aId
 aFilter
 =
-location
+(
+)
 =
 >
 true
@@ -15874,7 +15875,6 @@ observer
 (
 subject
 topic
-data
 )
 =
 >

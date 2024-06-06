@@ -281,7 +281,8 @@ document
 let
 getInputs
 =
-updateRow
+(
+)
 =
 >
 (

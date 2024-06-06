@@ -790,7 +790,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -877,7 +876,8 @@ resolve
 let
 listener
 =
-args
+(
+)
 =
 >
 {

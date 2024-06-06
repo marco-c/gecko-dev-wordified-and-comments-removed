@@ -152,7 +152,6 @@ triggers
 function
 confirm_install
 (
-panel
 )
 {
 ok

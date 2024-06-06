@@ -155,7 +155,6 @@ inner_url
 function
 install_blocked
 (
-installInfo
 )
 {
 wasOriginBlocked

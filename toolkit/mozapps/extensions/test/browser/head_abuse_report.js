@@ -364,10 +364,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -997,7 +994,6 @@ promiseReportOpened
 {
 addonId
 reportEntryPoint
-managerWindow
 }
 )
 {

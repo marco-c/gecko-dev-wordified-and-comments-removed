@@ -1763,8 +1763,6 @@ plugin
 }
 isCompatibleWith
 (
-aAppVersion
-aPlatformVersion
 )
 {
 return
@@ -2008,8 +2006,6 @@ findUpdates
 (
 aListener
 aReason
-aAppVersion
-aPlatformVersion
 )
 {
 this
@@ -4969,7 +4965,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

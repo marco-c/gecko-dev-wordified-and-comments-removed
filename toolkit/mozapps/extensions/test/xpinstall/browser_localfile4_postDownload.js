@@ -176,7 +176,6 @@ triggers
 function
 allow_blocked
 (
-installInfo
 )
 {
 ok

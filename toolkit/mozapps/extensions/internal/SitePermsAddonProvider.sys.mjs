@@ -1148,10 +1148,6 @@ return
 async
 updateBlocklistState
 (
-options
-=
-{
-}
 )
 {
 }
@@ -1516,8 +1512,6 @@ install
 }
 isCompatibleWith
 (
-aAppVersion
-aPlatformVersion
 )
 {
 return

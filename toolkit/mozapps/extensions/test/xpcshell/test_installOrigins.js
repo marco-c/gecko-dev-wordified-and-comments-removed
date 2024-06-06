@@ -799,11 +799,8 @@ filter
 (
 (
 [
-timestamp
 category
 method
-object
-value
 extra
 ]
 )
@@ -1099,10 +1096,7 @@ confirmation
 .
 then
 (
-(
 subject
-data
-)
 =
 >
 {

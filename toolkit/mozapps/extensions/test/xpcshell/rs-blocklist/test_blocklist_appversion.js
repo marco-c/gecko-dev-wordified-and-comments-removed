@@ -929,8 +929,6 @@ function
 checkState
 (
 test
-lastTest
-callback
 )
 {
 let

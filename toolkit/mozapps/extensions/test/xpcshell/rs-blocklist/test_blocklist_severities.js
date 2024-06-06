@@ -1911,7 +1911,8 @@ loadBlocklist
 "
 empty
 "
-args
+(
+)
 =
 >
 {

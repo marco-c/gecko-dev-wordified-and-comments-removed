@@ -1358,7 +1358,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -2299,8 +2298,6 @@ these
 observe
 (
 subject
-topic
-data
 )
 {
 if
@@ -2347,9 +2344,6 @@ cancelInstall
 }
 onLocationChange
 (
-webProgress
-request
-location
 )
 {
 if
@@ -2401,7 +2395,6 @@ cancelInstall
 }
 onDownloadCancelled
 (
-install
 )
 {
 this
@@ -2413,7 +2406,6 @@ unregister
 }
 onDownloadFailed
 (
-install
 )
 {
 this
@@ -2425,7 +2417,6 @@ unregister
 }
 onInstallFailed
 (
-install
 )
 {
 this
@@ -2437,7 +2428,6 @@ unregister
 }
 onInstallEnded
 (
-install
 )
 {
 this
@@ -3297,10 +3287,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -7220,10 +7207,7 @@ push
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -20186,9 +20170,6 @@ callNoUpdateListeners
 (
 addon
 listener
-reason
-appVersion
-platformVersion
 )
 {
 if
@@ -25035,7 +25016,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

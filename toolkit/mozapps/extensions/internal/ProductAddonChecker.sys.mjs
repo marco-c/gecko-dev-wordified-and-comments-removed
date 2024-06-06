@@ -2914,7 +2914,6 @@ onload
 =
 function
 (
-response
 )
 {
 logger

@@ -426,7 +426,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -740,7 +739,6 @@ addListener
 {
 onDownloadCancelled
 (
-aInstall
 )
 {
 callCallback
@@ -783,7 +781,6 @@ DOWNLOAD_ERROR
 }
 onInstallFailed
 (
-aInstall
 )
 {
 callCallback
@@ -794,8 +791,6 @@ EXECUTION_ERROR
 }
 onInstallEnded
 (
-aInstall
-aStatus
 )
 {
 callCallback
@@ -834,7 +829,6 @@ retval
 }
 notify
 (
-aTimer
 )
 {
 AddonManagerPrivate

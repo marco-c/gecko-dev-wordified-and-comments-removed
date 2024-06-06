@@ -96,8 +96,6 @@ addon
 }
 loadScope
 (
-addon
-file
 )
 {
 return

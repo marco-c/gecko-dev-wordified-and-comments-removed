@@ -110,9 +110,6 @@ triggers
 function
 download_progress
 (
-addon
-value
-maxValue
 )
 {
 try

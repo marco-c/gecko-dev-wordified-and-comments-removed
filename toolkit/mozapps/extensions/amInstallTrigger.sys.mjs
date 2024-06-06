@@ -412,7 +412,6 @@ status
 }
 enabled
 (
-url
 )
 {
 let
@@ -1535,7 +1534,6 @@ _window
 startSoftwareUpdate
 (
 url
-flags
 )
 {
 let
@@ -1589,7 +1587,6 @@ installChrome
 (
 type
 url
-skin
 )
 {
 return

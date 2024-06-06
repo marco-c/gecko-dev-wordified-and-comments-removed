@@ -3119,7 +3119,6 @@ message
 }
 (
 [
-submittingDetails
 submittedDetails
 ]
 )
@@ -3353,7 +3352,6 @@ assertMessageBarDetails
 async
 (
 [
-submittingDetails
 submittedDetails
 ]
 )
@@ -3467,7 +3465,6 @@ message
 }
 (
 [
-submittingDetails
 submittedDetails
 ]
 )

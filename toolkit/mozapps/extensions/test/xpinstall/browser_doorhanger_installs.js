@@ -306,7 +306,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -1101,7 +1100,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -1562,7 +1560,6 @@ async
 function
 waitForSingleNotification
 (
-aCallback
 )
 {
 while
@@ -7538,7 +7535,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 var

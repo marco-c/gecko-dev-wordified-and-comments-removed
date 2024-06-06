@@ -255,7 +255,8 @@ Harness
 .
 installDisabledCallback
 =
-installInfo
+(
+)
 =
 >
 {
@@ -279,7 +280,8 @@ Harness
 .
 installBlockedCallback
 =
-installInfo
+(
+)
 =
 >
 {
@@ -306,7 +308,8 @@ Harness
 .
 installConfirmCallback
 =
-panel
+(
+)
 =
 >
 {

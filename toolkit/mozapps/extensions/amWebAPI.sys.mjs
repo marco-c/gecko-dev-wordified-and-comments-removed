@@ -1274,7 +1274,8 @@ addEventListener
 "
 unload
 "
-event
+(
+)
 =
 >
 {
@@ -1582,7 +1583,6 @@ AMO_ABUSEREPORT
 }
 eventListenerAdded
 (
-type
 )
 {
 if
@@ -1643,7 +1643,6 @@ listenerCount
 }
 eventListenerRemoved
 (
-type
 )
 {
 this

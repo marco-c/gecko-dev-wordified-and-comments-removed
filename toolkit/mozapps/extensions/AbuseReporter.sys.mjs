@@ -643,7 +643,8 @@ text
 .
 catch
 (
-err
+(
+)
 =
 >
 "
@@ -1516,7 +1517,8 @@ response
 .
 catch
 (
-err
+(
+)
 =
 >
 undefined
@@ -3474,7 +3476,6 @@ constructor
 (
 {
 addon
-createErrorType
 reportData
 reportEntryPoint
 }
@@ -3717,7 +3718,8 @@ response
 .
 catch
 (
-err
+(
+)
 =
 >
 undefined

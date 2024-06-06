@@ -56,7 +56,6 @@ addTestListener
 {
 onInstallEnded
 (
-aInstall
 )
 {
 gInstall

@@ -58,10 +58,7 @@ get
 const
 spyClientGet
 =
-(
 tag
-returnValue
-)
 =
 >
 {

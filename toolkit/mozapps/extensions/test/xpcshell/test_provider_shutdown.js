@@ -111,10 +111,7 @@ shutdownPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

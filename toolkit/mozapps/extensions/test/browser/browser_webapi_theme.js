@@ -87,8 +87,6 @@ function
 observer
 (
 subject
-topic
-data
 )
 {
 updates

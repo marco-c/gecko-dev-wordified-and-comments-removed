@@ -264,9 +264,6 @@ addObserver
 (
 function
 (
-aSubject
-aTopic
-aData
 )
 {
 executeSoon

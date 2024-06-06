@@ -228,7 +228,6 @@ filter
 (
 (
 [
-timestamp
 category
 method
 ]
@@ -370,9 +369,8 @@ filter
 (
 (
 [
-timestamp
+_timestamp
 category
-method
 ]
 )
 =

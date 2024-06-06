@@ -3746,11 +3746,6 @@ assertReportOnAMODetails
 (
 {
 addonId
-addonType
-=
-"
-extension
-"
 expectedReport
 }
 =

@@ -1985,8 +1985,6 @@ path
 async
 verifySignedStateForRoot
 (
-addonId
-root
 )
 {
 return
@@ -14398,9 +14396,6 @@ cancel
 }
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 /
@@ -15908,7 +15903,8 @@ addon
 {
 onUpdateFinished
 :
-aAddon
+(
+)
 =
 >
 this
@@ -22845,7 +22841,6 @@ automatically
 removed
 uninstallAddon
 (
-aAddon
 )
 {
 }

@@ -253,9 +253,6 @@ promiseStartupManager
 function
 blacklistAdded
 (
-aSubject
-aTopic
-aData
 )
 {
 executeSoon
@@ -492,9 +489,6 @@ LESS_THAN
 function
 blacklistRemoved
 (
-aSubject
-aTopic
-aData
 )
 {
 executeSoon

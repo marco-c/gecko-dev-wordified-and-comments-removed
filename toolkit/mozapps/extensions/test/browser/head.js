@@ -1324,7 +1324,6 @@ async
 function
 (
 addonEl
-managerWindow
 )
 {
 const
@@ -1850,10 +1849,7 @@ p
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1998,7 +1994,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 Services
@@ -2392,7 +2387,6 @@ true
 }
 onCloseWindow
 (
-aWindow
 )
 {
 }
@@ -2667,10 +2661,7 @@ p
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -4397,9 +4388,6 @@ addonChanged
 function
 MP_addonChanged
 (
-aId
-aType
-aPendingRestart
 )
 {
 }
@@ -4416,8 +4404,6 @@ getInstallForURL
 function
 MP_getInstallForURL
 (
-aUrl
-aOptions
 )
 {
 }
@@ -4426,7 +4412,6 @@ getInstallForFile
 function
 MP_getInstallForFile
 (
-aFile
 )
 {
 }
@@ -4446,7 +4431,6 @@ supportsMimetype
 function
 MP_supportsMimetype
 (
-aMimetype
 )
 {
 return
@@ -4458,7 +4442,6 @@ isInstallAllowed
 function
 MP_isInstallAllowed
 (
-aUri
 )
 {
 return
@@ -5069,8 +5052,6 @@ applyBackgroundUpdates
 }
 isCompatibleWith
 (
-aAppVersion
-aPlatformVersion
 )
 {
 return
@@ -5079,10 +5060,6 @@ true
 }
 findUpdates
 (
-aListener
-aReason
-aAppVersion
-aPlatformVersion
 )
 {
 }

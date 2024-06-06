@@ -153,7 +153,6 @@ xpipath
 function
 allow_blocked
 (
-installInfo
 )
 {
 ok

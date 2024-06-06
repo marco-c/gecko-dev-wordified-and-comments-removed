@@ -2626,10 +2626,7 @@ push
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

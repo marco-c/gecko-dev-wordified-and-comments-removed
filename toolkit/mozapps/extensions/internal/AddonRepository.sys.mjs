@@ -2654,7 +2654,8 @@ addEventListener
 "
 error
 "
-aEvent
+(
+)
 =
 >
 {
@@ -2681,7 +2682,8 @@ addEventListener
 "
 timeout
 "
-aEvent
+(
+)
 =
 >
 {
@@ -2709,7 +2711,8 @@ addEventListener
 "
 load
 "
-aEvent
+(
+)
 =
 >
 {

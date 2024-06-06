@@ -191,9 +191,6 @@ observeActivity
 aChannel
 aType
 aSubtype
-aTimestamp
-aSizeData
-aStringData
 )
 {
 aChannel

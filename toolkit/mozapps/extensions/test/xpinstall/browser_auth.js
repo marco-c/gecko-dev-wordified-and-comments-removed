@@ -196,7 +196,6 @@ testpass
 function
 download_failed
 (
-install
 )
 {
 ok
