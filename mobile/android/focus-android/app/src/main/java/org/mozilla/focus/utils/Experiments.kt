@@ -197,7 +197,7 @@ descriptor
 val
 Context
 .
-activeExperimentIds
+activeExperimentNames
 :
 List
 <
@@ -220,5 +220,5 @@ map
 {
 it
 .
-id
+name
 }

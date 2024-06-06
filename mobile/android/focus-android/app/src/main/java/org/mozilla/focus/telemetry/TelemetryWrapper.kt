@@ -153,7 +153,7 @@ focus
 .
 utils
 .
-activeExperimentIds
+activeExperimentNames
 import
 org
 .
@@ -4350,7 +4350,7 @@ recordActiveExperiments
 (
 context
 .
-activeExperimentIds
+activeExperimentNames
 )
 }
 JvmStatic
