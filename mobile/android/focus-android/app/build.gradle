@@ -555,6 +555,13 @@ coroutines
 .
 ExperimentalCoroutinesApi
 "
+jvmTarget
+=
+'
+1
+.
+8
+'
 }
 }
 /
