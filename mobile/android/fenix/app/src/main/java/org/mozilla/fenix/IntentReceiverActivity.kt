@@ -367,6 +367,21 @@ intent
 Intent
 (
 )
+processIntent
+(
+intent
+)
+}
+}
+suspend
+fun
+processIntent
+(
+intent
+:
+Intent
+)
+{
 val
 tabIntentProcessor
 =
@@ -446,7 +461,6 @@ intent
 finish
 (
 )
-}
 }
 }
 /
@@ -966,7 +980,6 @@ finish
 companion
 object
 {
-private
 const
 val
 SPEECH_REQUEST_CODE
