@@ -103,16 +103,6 @@ components
 .
 browser
 .
-session
-.
-SessionManager
-import
-mozilla
-.
-components
-.
-browser
-.
 state
 .
 store

@@ -85,16 +85,6 @@ tabs
 .
 TabLayout
 import
-mozilla
-.
-components
-.
-browser
-.
-session
-.
-Session
-import
 org
 .
 mozilla
