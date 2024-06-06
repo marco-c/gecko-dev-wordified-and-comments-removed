@@ -445,6 +445,15 @@ Added
 QR
 code
 scanner
+-
+#
+975
+-
+Added
+telemetry
+for
+preference
+switches
 #
 #
 #
