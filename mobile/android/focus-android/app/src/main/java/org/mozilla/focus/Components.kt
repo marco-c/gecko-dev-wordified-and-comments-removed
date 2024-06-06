@@ -880,6 +880,8 @@ install
 this
 "
 focus
+-
+geckoview
 "
 )
 }
