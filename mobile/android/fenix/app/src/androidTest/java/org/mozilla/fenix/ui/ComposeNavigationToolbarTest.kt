@@ -1199,6 +1199,7 @@ false
 )
 }
 }
+SmokeTest
 Test
 fun
 verifySecurePageSecuritySubMenuTest
@@ -1265,6 +1266,7 @@ true
 )
 }
 }
+SmokeTest
 Test
 fun
 verifyInsecurePageSecuritySubMenuTest

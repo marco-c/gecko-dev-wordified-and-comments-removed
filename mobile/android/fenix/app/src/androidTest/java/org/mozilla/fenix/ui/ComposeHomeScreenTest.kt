@@ -137,6 +137,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 helpers
 .
 AndroidAssetDispatcher
@@ -562,6 +572,7 @@ cases
 view
 /
 1364362
+SmokeTest
 Test
 fun
 verifyJumpBackInSectionTest
