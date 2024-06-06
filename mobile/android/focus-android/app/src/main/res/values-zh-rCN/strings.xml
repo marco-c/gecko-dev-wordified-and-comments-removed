@@ -8550,6 +8550,8 @@ name
 tip_disable_tracking_protection3
 "
 >
+\
+n
 <
 /
 string
@@ -8917,6 +8919,8 @@ name
 tip_explain_allowlist3
 "
 >
+\
+n
 <
 /
 string
