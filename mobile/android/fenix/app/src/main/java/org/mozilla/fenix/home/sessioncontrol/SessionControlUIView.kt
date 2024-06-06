@@ -182,7 +182,7 @@ R
 .
 string
 .
-no_open_tabs_header
+no_open_tabs_header_2
 R
 .
 string

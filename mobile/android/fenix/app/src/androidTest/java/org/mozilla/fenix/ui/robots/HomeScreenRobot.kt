@@ -1600,8 +1600,8 @@ withText
 (
 "
 No
+open
 tabs
-opened
 "
 )
 )
