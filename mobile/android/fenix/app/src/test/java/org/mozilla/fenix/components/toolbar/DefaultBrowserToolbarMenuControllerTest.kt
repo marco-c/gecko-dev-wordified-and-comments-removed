@@ -1039,6 +1039,7 @@ BrowserFragmentDirections
 .
 actionGlobalTabHistoryDialogFragment
 (
+null
 )
 verify
 {
@@ -1175,6 +1176,7 @@ BrowserFragmentDirections
 .
 actionGlobalTabHistoryDialogFragment
 (
+null
 )
 verify
 {

@@ -695,6 +695,12 @@ BrowserFragmentDirections
 .
 actionGlobalTabHistoryDialogFragment
 (
+activeSessionId
+=
+customTabSession
+?
+.
+id
 )
 )
 }
@@ -734,6 +740,12 @@ BrowserFragmentDirections
 .
 actionGlobalTabHistoryDialogFragment
 (
+activeSessionId
+=
+customTabSession
+?
+.
+id
 )
 )
 }
