@@ -5594,6 +5594,13 @@ MaterialComponents
 .
 Button
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 <
 item

@@ -306,7 +306,7 @@ RecentTabsHeaderViewHolder
 return
 viewHolder
 .
-containerView
+composeView
 }
 }
 return
