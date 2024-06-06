@@ -2992,7 +2992,7 @@ R
 .
 string
 .
-add_label
+add
 )
 secondaryLabel
 =
@@ -3004,7 +3004,7 @@ R
 .
 string
 .
-edit_label
+edit
 )
 isInPrimaryState
 =
