@@ -639,7 +639,7 @@ R
 .
 drawable
 .
-mozac_ic_device_desktop
+mozac_ic_device_desktop_24
 R
 .
 color
