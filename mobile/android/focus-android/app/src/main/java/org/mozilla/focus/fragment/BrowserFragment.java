@@ -5844,6 +5844,13 @@ showFindInPage
 (
 )
 ;
+ViewUtils
+.
+showKeyboard
+(
+findInPageQuery
+)
+;
 TelemetryWrapper
 .
 findInPageMenuEvent
