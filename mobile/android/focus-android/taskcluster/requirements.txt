@@ -12,7 +12,7 @@ with
 python
 3
 .
-6
+8
 #
 To
 update
@@ -138,9 +138,9 @@ normalizer
 =
 2
 .
-0
+1
 .
-12
+1
 \
 -
 -
@@ -148,7 +148,7 @@ hash
 =
 sha256
 :
-2857e29ff0d34db842cd7ca3230549d1a697f96ee6d3fb071cfa6c7393832597
+5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845
 \
 -
 -
@@ -156,7 +156,7 @@ hash
 =
 sha256
 :
-6881edbebdb17b39b4eaaa821b438bf6eddffb4468cf344f09f89def34a8b1df
+83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f
 #
 via
 requests
@@ -578,7 +578,7 @@ requests
 =
 2
 .
-27
+28
 .
 1
 \
@@ -588,7 +588,7 @@ hash
 =
 sha256
 :
-68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61
+7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983
 \
 -
 -
@@ -596,7 +596,7 @@ hash
 =
 sha256
 :
-f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d
+8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349
 #
 via
 #
@@ -672,7 +672,7 @@ taskcluster
 taskgraph
 =
 =
-2
+3
 .
 0
 .
@@ -684,7 +684,7 @@ hash
 =
 sha256
 :
-3d22ab488071ddc82997b33fc6c1c524a44bdc7e14b30a274d99dbbdd7389502
+566e46ba9beeb42e6884f7594ceb5b512b82bb93097ae4abc395e4d513dbe556
 \
 -
 -
@@ -692,7 +692,7 @@ hash
 =
 sha256
 :
-93eff40ba39a29cd290fc25a2124ed9bf5806d87891edd7e8de35df568708141
+fba61e84ba3624056dd84c79d9c1796d4f50d1d25715f3217681c737f7ed3f03
 #
 via
 -
@@ -746,7 +746,7 @@ urllib3
 .
 26
 .
-11
+12
 \
 -
 -
@@ -754,7 +754,7 @@ hash
 =
 sha256
 :
-c33ccba33c819596124764c23a97d25f32b28433ba0dedeb77d873a38722c9bc
+3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e
 \
 -
 -
@@ -762,7 +762,7 @@ hash
 =
 sha256
 :
-ea6e8fb210b19d950fab93b60c9009226c63a28808bc8386e05301e25883ac0a
+b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997
 #
 via
 requests
