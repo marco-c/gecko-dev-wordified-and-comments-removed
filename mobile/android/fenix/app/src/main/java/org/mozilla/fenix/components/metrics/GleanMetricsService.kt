@@ -3771,6 +3771,14 @@ ActivationPing
 (
 context
 )
+private
+val
+installationPing
+=
+InstallationPing
+(
+context
+)
 override
 fun
 start
@@ -4146,10 +4154,7 @@ activationPing
 checkAndSend
 (
 )
-InstallationPing
-(
-context
-)
+installationPing
 .
 checkAndSend
 (
