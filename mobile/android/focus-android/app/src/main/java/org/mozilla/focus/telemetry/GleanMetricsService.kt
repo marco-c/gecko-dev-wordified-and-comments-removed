@@ -838,7 +838,7 @@ set
 (
 settings
 .
-hasContentBlocked
+shouldBlockOtherTrackers
 (
 )
 )
