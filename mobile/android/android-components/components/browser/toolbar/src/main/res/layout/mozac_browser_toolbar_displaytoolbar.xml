@@ -317,13 +317,6 @@ layout_marginTop
 "
 android
 :
-layout_marginHorizontal
-=
-"
-8dp
-"
-android
-:
 importantForAccessibility
 =
 "
@@ -355,13 +348,6 @@ layout_constraintTop_toTopOf
 =
 "
 parent
-"
-app
-:
-layout_goneMarginStart
-=
-"
-8dp
 "
 /
 >
