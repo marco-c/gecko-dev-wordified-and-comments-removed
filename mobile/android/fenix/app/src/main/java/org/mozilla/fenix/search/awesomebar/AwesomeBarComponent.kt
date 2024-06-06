@@ -138,6 +138,12 @@ val
 query
 :
 String
+val
+useNewTab
+:
+Boolean
+=
+false
 )
 :
 ViewState
@@ -275,6 +281,9 @@ initView
 =
 AwesomeBarUIView
 (
+initialState
+.
+useNewTab
 container
 actionEmitter
 changesObservable

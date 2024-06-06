@@ -41,6 +41,10 @@ classpath
 Deps
 .
 tools_kotlingradle
+classpath
+Deps
+.
+androidx_safeargs
 /
 /
 NOTE

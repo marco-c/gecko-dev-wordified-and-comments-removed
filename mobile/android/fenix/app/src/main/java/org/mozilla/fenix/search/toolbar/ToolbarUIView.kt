@@ -173,6 +173,10 @@ UIView
 class
 ToolbarUIView
 (
+sessionId
+:
+String
+?
 container
 :
 ViewGroup
@@ -373,6 +377,9 @@ text
 String
 )
 {
+url
+=
+text
 actionEmitter
 .
 onNext
@@ -399,9 +406,7 @@ SearchAction
 .
 UrlCommitted
 (
-"
-foo
-"
+url
 )
 )
 }
@@ -476,6 +481,9 @@ components
 core
 .
 sessionManager
+sessionId
+?
+:
 components
 .
 core

@@ -187,6 +187,12 @@ ViewGroup
 bus
 :
 ActionBusFactory
+private
+val
+sessionId
+:
+String
+?
 override
 var
 initialState
@@ -278,6 +284,7 @@ initView
 =
 ToolbarUIView
 (
+sessionId
 container
 actionEmitter
 changesObservable

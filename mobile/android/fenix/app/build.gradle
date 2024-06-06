@@ -63,6 +63,16 @@ versionCode
 .
 gradle
 "
+apply
+plugin
+:
+'
+androidx
+.
+navigation
+.
+safeargs
+'
 android
 {
 compileSdkVersion
