@@ -4855,14 +4855,11 @@ check
 (
 matches
 (
-hasItem
-(
 hasDescendant
 (
 withText
 (
 title
-)
 )
 )
 )
