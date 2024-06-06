@@ -909,6 +909,16 @@ SettingsSubMenuLoginsAndPasswordRobot
 .
 Transition
 {
+TestHelper
+.
+scrollToElementByText
+(
+"
+Logins
+and
+passwords
+"
+)
 fun
 loginsAndPasswordsButton
 (
