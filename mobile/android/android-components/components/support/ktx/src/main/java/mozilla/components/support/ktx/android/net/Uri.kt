@@ -140,7 +140,7 @@ java
 util
 .
 UUID
-private
+internal
 val
 commonPrefixes
 =
