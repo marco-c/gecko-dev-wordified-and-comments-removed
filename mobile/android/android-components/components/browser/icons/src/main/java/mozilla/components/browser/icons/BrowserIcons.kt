@@ -1429,7 +1429,7 @@ BrowserStore
 {
 engine
 .
-installWebExtension
+installBuiltInWebExtension
 (
 id
 =
@@ -1493,7 +1493,6 @@ extension
 onError
 =
 {
-_
 throwable
 -
 >

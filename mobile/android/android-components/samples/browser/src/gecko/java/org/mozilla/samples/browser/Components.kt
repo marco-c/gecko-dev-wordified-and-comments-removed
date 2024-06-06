@@ -311,7 +311,7 @@ also
 {
 it
 .
-installWebExtension
+installBuiltInWebExtension
 (
 "
 borderify
@@ -335,7 +335,6 @@ borderify
 "
 )
 {
-ext
 throwable
 -
 >
@@ -356,13 +355,13 @@ throwable
 Failed
 to
 install
-ext
+borderify
 "
 )
 }
 it
 .
-installWebExtension
+installBuiltInWebExtension
 (
 "
 testext
@@ -386,7 +385,6 @@ test
 "
 )
 {
-ext
 throwable
 -
 >
@@ -407,7 +405,7 @@ throwable
 Failed
 to
 install
-ext
+testext
 "
 )
 }

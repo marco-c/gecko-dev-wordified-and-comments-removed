@@ -183,7 +183,7 @@ WebExtensionRuntime
 {
 runtime
 .
-installWebExtension
+installBuiltInWebExtension
 (
 WEBCOMPAT_EXTENSION_ID
 WEBCOMPAT_EXTENSION_URL
@@ -210,7 +210,6 @@ id
 onError
 =
 {
-ext
 throwable
 -
 >
@@ -224,8 +223,6 @@ to
 install
 WebCompat
 webextension
-:
-ext
 "
 throwable
 )

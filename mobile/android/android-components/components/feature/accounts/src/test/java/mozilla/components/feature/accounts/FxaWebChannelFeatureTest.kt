@@ -531,7 +531,6 @@ argumentCaptor
 <
 (
 (
-String
 Throwable
 )
 -
@@ -550,7 +549,7 @@ times
 )
 )
 .
-installWebExtension
+installBuiltInWebExtension
 (
 eq
 (
@@ -610,7 +609,7 @@ times
 )
 )
 .
-installWebExtension
+installBuiltInWebExtension
 (
 eq
 (

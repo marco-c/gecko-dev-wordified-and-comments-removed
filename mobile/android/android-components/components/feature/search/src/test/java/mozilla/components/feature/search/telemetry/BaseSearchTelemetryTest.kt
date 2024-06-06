@@ -312,7 +312,7 @@ verify
 engine
 )
 .
-installWebExtension
+installBuiltInWebExtension
 (
 id
 =

@@ -471,7 +471,7 @@ null
 {
 runtime
 .
-installWebExtension
+installBuiltInWebExtension
 (
 extensionId
 extensionUrl
@@ -522,7 +522,6 @@ it
 onError
 =
 {
-ext
 throwable
 -
 >
@@ -536,7 +535,7 @@ to
 install
 extension
 :
-ext
+extensionId
 "
 throwable
 )

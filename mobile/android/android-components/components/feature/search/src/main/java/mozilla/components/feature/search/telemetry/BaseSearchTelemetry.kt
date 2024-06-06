@@ -370,7 +370,7 @@ ExtensionInfo
 {
 engine
 .
-installWebExtension
+installBuiltInWebExtension
 (
 id
 =
@@ -406,7 +406,6 @@ extensionInfo
 onError
 =
 {
-_
 throwable
 -
 >
