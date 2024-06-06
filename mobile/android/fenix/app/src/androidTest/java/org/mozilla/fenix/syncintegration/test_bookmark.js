@@ -21,7 +21,7 @@ profile1
 }
 ;
 var
-bookmarksExpected
+bookmarksCreated
 =
 {
 "
@@ -66,8 +66,11 @@ Sync
 [
 Bookmarks
 .
-verify
-bookmarksExpected
+add
+bookmarksCreated
+]
+[
+Sync
 ]
 ]
 )
