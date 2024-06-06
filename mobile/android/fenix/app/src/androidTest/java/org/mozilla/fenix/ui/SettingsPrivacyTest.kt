@@ -1495,6 +1495,9 @@ openSettings
 .
 openPrivateBrowsingSubMenu
 {
+cancelPrivateShortcutAddition
+(
+)
 addPrivateShortcutToHomescreen
 (
 )
