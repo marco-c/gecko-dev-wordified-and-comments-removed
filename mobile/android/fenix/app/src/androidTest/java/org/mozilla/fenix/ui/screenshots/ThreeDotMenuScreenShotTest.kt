@@ -638,6 +638,6 @@ R
 .
 string
 .
-preferences_data_choices
+preferences_data_collection
 )
 }
