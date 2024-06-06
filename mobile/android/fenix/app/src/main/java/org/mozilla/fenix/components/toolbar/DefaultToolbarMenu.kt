@@ -1461,6 +1461,16 @@ R
 string
 .
 browser_menu_add_to_firefox_home
+context
+.
+getString
+(
+R
+.
+string
+.
+app_name
+)
 )
 imageResource
 =
