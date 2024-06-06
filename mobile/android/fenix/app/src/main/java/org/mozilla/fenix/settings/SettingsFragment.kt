@@ -1978,7 +1978,7 @@ R
 .
 string
 .
-pref_key_make_default_browser
+pref_key_external_download_manager
 )
 val
 preferenceLeakCanary
