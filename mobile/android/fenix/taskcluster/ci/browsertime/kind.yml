@@ -470,13 +470,6 @@ True
 chimera
 :
 True
-web
--
-render
--
-only
-:
-True
 run
 :
 using
@@ -808,13 +801,6 @@ tp6m
 -
 hv
 :
-web
--
-render
--
-only
-:
-False
 page
 -
 load
