@@ -939,6 +939,8 @@ the
 Add
 -
 ons
+sub
+-
 menu
 "
 mDevice
@@ -949,7 +951,7 @@ UiSelector
 (
 )
 .
-text
+textContains
 (
 addonName
 )
