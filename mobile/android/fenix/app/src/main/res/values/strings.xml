@@ -18029,6 +18029,16 @@ sign
 in
 card
 header
+.
+The
+word
+"
+Firefox
+"
+should
+not
+be
+translated
 -
 -
 >
@@ -20254,7 +20264,7 @@ some
 on
 -
 page
-functionally
+functionality
 may
 break
 .
