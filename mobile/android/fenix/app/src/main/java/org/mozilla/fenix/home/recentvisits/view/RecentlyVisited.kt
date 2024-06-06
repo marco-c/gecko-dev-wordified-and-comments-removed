@@ -1873,7 +1873,7 @@ FirefoxTheme
 .
 colors
 .
-borderDivider
+borderDefault
 thickness
 =
 0
