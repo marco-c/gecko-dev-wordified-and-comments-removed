@@ -3916,10 +3916,6 @@ mozilla_service_firefox_accounts
 implementation
 Deps
 .
-mozilla_service_fretboard
-implementation
-Deps
-.
 mozilla_service_glean
 implementation
 Deps

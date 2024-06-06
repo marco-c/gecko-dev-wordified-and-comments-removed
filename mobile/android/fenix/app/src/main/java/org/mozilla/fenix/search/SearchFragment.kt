@@ -951,12 +951,6 @@ else
 View
 .
 GONE
-layoutComponents
-(
-view
-.
-search_layout
-)
 qrFeature
 .
 set

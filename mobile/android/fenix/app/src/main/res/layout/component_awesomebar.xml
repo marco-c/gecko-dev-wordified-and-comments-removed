@@ -203,7 +203,7 @@ layout_constraintBottom_toTopOf
 "
 id
 /
-search_divider
+pill_wrapper
 "
 app
 :
@@ -226,7 +226,7 @@ layout_constraintTop_toBottomOf
 "
 id
 /
-awesomeBar_barrier
+search_with_shortcuts
 "
 mozac
 :
