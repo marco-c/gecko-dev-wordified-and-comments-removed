@@ -80,8 +80,6 @@ ui
 autocomplete
 .
 InlineAutocompleteEditText
-.
-AutocompleteResult
 import
 org
 .
@@ -324,6 +322,12 @@ java
 util
 .
 Locale
+import
+kotlin
+.
+collections
+.
+HashSet
 Suppress
 (
 "
@@ -1451,6 +1455,16 @@ string
 .
 pref_key_show_search_suggestions
 )
+resources
+.
+getString
+(
+R
+.
+string
+.
+pref_key_fretboard_bucket_number
+)
 )
 .
 setSettingsProvider
@@ -1490,9 +1504,8 @@ isGeckoBuild
 (
 "
 -
-"
-+
 TELEMETRY_APP_ENGINE_GECKOVIEW
+"
 )
 else
 "
@@ -2072,6 +2085,8 @@ isUrl
 Boolean
 autocompleteResult
 :
+InlineAutocompleteEditText
+.
 AutocompleteResult
 )
 {
@@ -2102,6 +2117,8 @@ browseEvent
 (
 autocompleteResult
 :
+InlineAutocompleteEditText
+.
 AutocompleteResult
 )
 {
