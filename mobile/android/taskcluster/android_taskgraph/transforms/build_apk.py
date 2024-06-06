@@ -612,6 +612,10 @@ project
 /
 mobile
 /
+firefox
+-
+android
+/
 {
 secret_project_name
 }
