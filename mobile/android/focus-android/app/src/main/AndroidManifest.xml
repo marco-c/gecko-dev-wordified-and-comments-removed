@@ -1052,6 +1052,17 @@ false
 "
 android
 :
+configChanges
+=
+"
+orientation
+|
+screenSize
+|
+screenLayout
+"
+android
+:
 label
 =
 "
