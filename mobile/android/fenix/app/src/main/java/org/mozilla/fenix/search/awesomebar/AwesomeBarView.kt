@@ -115,16 +115,6 @@ components
 .
 browser
 .
-awesomebar
-.
-BrowserAwesomeBar
-import
-mozilla
-.
-components
-.
-browser
-.
 state
 .
 search
@@ -412,7 +402,7 @@ AwesomeBarInteractor
 val
 view
 :
-BrowserAwesomeBar
+AwesomeBarWrapper
 private
 val
 fromHomeFragment
@@ -630,11 +620,6 @@ tabId
 }
 init
 {
-view
-.
-itemAnimator
-=
-null
 val
 components
 =
