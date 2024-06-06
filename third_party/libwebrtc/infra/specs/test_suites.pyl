@@ -1094,7 +1094,7 @@ mixins
 :
 [
 '
-xcode_parallelization
+xcodebuild_sim_runner
 '
 ]
 }
@@ -1207,7 +1207,7 @@ mixins
 :
 [
 '
-xcode_parallelization
+xcodebuild_sim_runner
 '
 ]
 }
@@ -1222,7 +1222,7 @@ mixins
 :
 [
 '
-xcode_parallelization
+xcodebuild_sim_runner
 '
 ]
 }
