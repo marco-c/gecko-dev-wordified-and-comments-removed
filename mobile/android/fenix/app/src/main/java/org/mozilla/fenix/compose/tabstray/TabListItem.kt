@@ -950,6 +950,13 @@ bottom
 .
 dp
 )
+.
+testTag
+(
+TabsTrayTestTag
+.
+tabItemRoot
+)
 verticalAlignment
 =
 Alignment

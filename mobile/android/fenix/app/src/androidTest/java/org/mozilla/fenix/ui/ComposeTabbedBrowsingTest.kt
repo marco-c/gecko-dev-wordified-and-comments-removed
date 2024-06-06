@@ -1559,9 +1559,6 @@ title
 )
 verifyTabCloseButton
 (
-defaultWebPage
-.
-title
 )
 }
 .

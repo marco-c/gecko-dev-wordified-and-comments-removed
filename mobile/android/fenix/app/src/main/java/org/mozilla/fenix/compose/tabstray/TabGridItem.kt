@@ -1043,6 +1043,13 @@ Modifier
 wrapContentSize
 (
 )
+.
+testTag
+(
+TabsTrayTestTag
+.
+tabItemRoot
+)
 )
 {
 Card
