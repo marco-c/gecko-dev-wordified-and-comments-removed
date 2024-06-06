@@ -65,11 +65,11 @@ fenix
 .
 components
 import
-org
-.
 mozilla
 .
-fenix
+components
+.
+support
 .
 utils
 .
