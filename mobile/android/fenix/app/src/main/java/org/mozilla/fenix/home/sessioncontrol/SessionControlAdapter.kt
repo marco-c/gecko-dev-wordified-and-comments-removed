@@ -1586,6 +1586,7 @@ LAYOUT_ID
 OnboardingPrivacyNoticeViewHolder
 (
 view
+interactor
 )
 OnboardingFinishViewHolder
 .
@@ -1605,6 +1606,7 @@ LAYOUT_ID
 OnboardingWhatsNewViewHolder
 (
 view
+interactor
 )
 OnboardingToolbarPositionPickerViewHolder
 .
