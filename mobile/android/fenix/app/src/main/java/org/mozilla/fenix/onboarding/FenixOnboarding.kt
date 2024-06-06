@@ -209,6 +209,10 @@ DEBUG
 |
 |
 tempFinish
+|
+|
+!
+ENABLED
 )
 return
 true
@@ -259,5 +263,11 @@ val
 CURRENT_ONBOARDING_VERSION
 =
 1
+private
+const
+val
+ENABLED
+=
+false
 }
 }
