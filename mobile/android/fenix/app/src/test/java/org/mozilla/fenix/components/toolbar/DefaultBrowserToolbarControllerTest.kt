@@ -644,7 +644,13 @@ settings
 deletebrowsingdata
 .
 deleteAndQuit
+OptIn
+(
 ExperimentalCoroutinesApi
+:
+:
+class
+)
 RunWith
 (
 FenixRobolectricTestRunner

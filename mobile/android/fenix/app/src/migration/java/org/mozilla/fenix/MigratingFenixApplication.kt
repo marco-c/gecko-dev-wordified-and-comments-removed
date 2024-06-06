@@ -94,6 +94,16 @@ fenix
 session
 .
 PerformanceActivityLifecycleCallbacks
+import
+org
+.
+mozilla
+.
+fenix
+.
+migration
+.
+MigrationTelemetryListener
 /
 *
 *

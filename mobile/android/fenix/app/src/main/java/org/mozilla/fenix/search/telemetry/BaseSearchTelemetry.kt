@@ -77,6 +77,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 flow
 .
 Flow
@@ -814,6 +820,13 @@ containsMatchIn
 url
 )
 }
+OptIn
+(
+ExperimentalCoroutinesApi
+:
+:
+class
+)
 internal
 fun
 installWebExtension

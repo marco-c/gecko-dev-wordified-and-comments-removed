@@ -197,6 +197,12 @@ view
 .
 *
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
 mozilla
 .
 components
@@ -806,6 +812,13 @@ expand
 )
 }
 }
+OptIn
+(
+ExperimentalCoroutinesApi
+:
+:
+class
+)
 override
 fun
 onViewCreated

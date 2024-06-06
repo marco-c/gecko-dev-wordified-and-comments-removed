@@ -129,12 +129,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 GlobalScope
 import
 kotlinx
@@ -599,7 +593,6 @@ VisibilityLifecycleCallback
 null
 private
 set
-ExperimentalCoroutinesApi
 override
 fun
 onCreate
@@ -888,7 +881,6 @@ AndroidLogSink
 )
 )
 }
-ExperimentalCoroutinesApi
 CallSuper
 open
 fun

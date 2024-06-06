@@ -67,6 +67,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 flow
 .
 collect
@@ -162,6 +168,13 @@ store
 MigrationStore
 )
 {
+OptIn
+(
+ExperimentalCoroutinesApi
+:
+:
+class
+)
 fun
 start
 (

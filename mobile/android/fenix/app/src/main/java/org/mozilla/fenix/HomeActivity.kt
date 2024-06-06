@@ -241,6 +241,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 launch
 import
 mozilla
@@ -1031,6 +1037,13 @@ browser
 screen
 *
 /
+OptIn
+(
+ExperimentalCoroutinesApi
+:
+:
+class
+)
 SuppressWarnings
 (
 "
