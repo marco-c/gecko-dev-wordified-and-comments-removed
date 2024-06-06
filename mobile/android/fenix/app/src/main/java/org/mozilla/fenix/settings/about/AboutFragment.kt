@@ -617,13 +617,13 @@ toString
 (
 )
 val
-maybeFenixGitHash
+maybeFenixVcsHash
 =
 if
 (
 BuildConfig
 .
-GIT_HASH
+VCS_HASH
 .
 isNotBlank
 (
@@ -633,7 +633,7 @@ isNotBlank
 {
 BuildConfig
 .
-GIT_HASH
+VCS_HASH
 }
 "
 else
@@ -719,7 +719,7 @@ packageInfo
 .
 versionName
 versionCode
-maybeFenixGitHash
+maybeFenixVcsHash
 maybeGecko
 geckoVersion
 appServicesAbbreviation

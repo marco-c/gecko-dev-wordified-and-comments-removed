@@ -219,6 +219,8 @@ GLEAN_SDK_VERSION
 *
 *
 Git
+or
+hg
 hash
 of
 the
@@ -246,5 +248,5 @@ String
 =
 BuildConfig
 .
-GIT_HASH
+VCS_HASH
 }

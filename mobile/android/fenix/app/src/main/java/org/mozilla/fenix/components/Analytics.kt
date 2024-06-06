@@ -557,7 +557,7 @@ git
 to
 BuildConfig
 .
-GIT_HASH
+VCS_HASH
 )
 environment
 =

@@ -325,7 +325,7 @@ buildConfigField
 String
 "
 "
-GIT_HASH
+VCS_HASH
 "
 "
 \
@@ -856,7 +856,7 @@ we
 only
 set
 the
-git
+vcs
 hash
 in
 release
@@ -874,7 +874,7 @@ buildConfigField
 String
 "
 "
-GIT_HASH
+VCS_HASH
 "
 "
 \
@@ -882,7 +882,7 @@ GIT_HASH
 {
 Config
 .
-getGitHash
+getVcsHash
 (
 )
 }

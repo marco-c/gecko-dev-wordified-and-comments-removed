@@ -862,13 +862,13 @@ toString
 (
 )
 val
-gitHash
+vcsHash
 =
 if
 (
 BuildConfig
 .
-GIT_HASH
+VCS_HASH
 .
 isNotBlank
 (
@@ -878,7 +878,7 @@ isNotBlank
 {
 BuildConfig
 .
-GIT_HASH
+VCS_HASH
 }
 "
 else
@@ -935,7 +935,7 @@ versionName
 versionCode
 +
 engineIndicator
-gitHash
+vcsHash
 servicesAbbreviation
 servicesIndicator
 )

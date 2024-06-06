@@ -285,7 +285,7 @@ buildConfigField
 String
 "
 "
-GIT_HASH
+VCS_HASH
 "
 "
 \
@@ -462,7 +462,7 @@ buildConfigField
 String
 "
 "
-GIT_HASH
+VCS_HASH
 "
 "
 \
@@ -470,7 +470,7 @@ GIT_HASH
 {
 Config
 .
-getGitHash
+getVcsHash
 (
 )
 }
