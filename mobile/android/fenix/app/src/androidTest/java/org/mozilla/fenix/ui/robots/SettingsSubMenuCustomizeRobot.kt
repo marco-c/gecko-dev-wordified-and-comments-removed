@@ -394,6 +394,8 @@ clickSwipeToolbarToSwitchTabToggle
 )
 =
 swipeToolbarToggle
+(
+)
 .
 click
 (
@@ -404,6 +406,8 @@ clickPullToRefreshToggle
 )
 =
 pullToRefreshToggle
+(
+)
 .
 click
 (
@@ -417,6 +421,8 @@ Boolean
 )
 {
 swipeToolbarToggle
+(
+)
 .
 check
 (
@@ -464,6 +470,8 @@ Boolean
 )
 {
 pullToRefreshToggle
+(
+)
 .
 check
 (
@@ -731,8 +739,10 @@ followDeviceThemeText
 )
 }
 private
-val
+fun
 swipeToolbarToggle
+(
+)
 =
 onView
 (
@@ -749,8 +759,10 @@ preference_gestures_swipe_toolbar_switch_tabs
 )
 )
 private
-val
+fun
 pullToRefreshToggle
+(
+)
 =
 onView
 (
