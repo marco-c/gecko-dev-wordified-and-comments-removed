@@ -494,7 +494,6 @@ props
 }
 componentDidUpdate
 (
-prevProps
 )
 {
 const

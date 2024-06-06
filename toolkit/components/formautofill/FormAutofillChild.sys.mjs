@@ -848,7 +848,7 @@ this
 popupStateChanged
 (
 messageName
-data
+_data
 _target
 )
 {
@@ -882,9 +882,6 @@ this
 .
 onPopupClosed
 (
-data
-.
-selectedRowStyle
 )
 ;
 break
@@ -3568,7 +3565,6 @@ selectedIndex
 }
 onPopupClosed
 (
-selectedRowStyle
 )
 {
 this
