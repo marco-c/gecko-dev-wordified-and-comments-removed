@@ -117,7 +117,7 @@ const
 val
 compileSdkVersion
 =
-29
+30
 const
 val
 minSdkVersion
@@ -127,7 +127,7 @@ const
 val
 targetSdkVersion
 =
-29
+30
 JvmStatic
 private
 fun

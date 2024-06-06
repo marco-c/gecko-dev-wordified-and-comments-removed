@@ -315,7 +315,6 @@ onActivityStarted
 activity
 :
 Activity
-?
 )
 {
 activitiesInStartedState
@@ -329,7 +328,6 @@ onActivityStopped
 activity
 :
 Activity
-?
 )
 {
 activitiesInStartedState
@@ -343,7 +341,6 @@ onActivityResumed
 activity
 :
 Activity
-?
 )
 {
 }
@@ -354,7 +351,6 @@ onActivityPaused
 activity
 :
 Activity
-?
 )
 {
 }
@@ -365,7 +361,6 @@ onActivityCreated
 activity
 :
 Activity
-?
 bundle
 :
 Bundle
@@ -380,11 +375,9 @@ onActivitySaveInstanceState
 activity
 :
 Activity
-?
 bundle
 :
 Bundle
-?
 )
 {
 }
@@ -395,7 +388,6 @@ onActivityDestroyed
 activity
 :
 Activity
-?
 )
 {
 }

@@ -749,7 +749,7 @@ R
 .
 string
 .
-yes
+ok
 )
 {
 dialog
@@ -775,7 +775,7 @@ R
 .
 string
 .
-no
+cancel
 )
 {
 dialog

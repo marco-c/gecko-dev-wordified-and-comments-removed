@@ -426,7 +426,6 @@ onActivityStarted
 activity
 :
 Activity
-?
 )
 {
 }
@@ -437,7 +436,6 @@ onActivityStopped
 activity
 :
 Activity
-?
 )
 {
 }
@@ -448,7 +446,6 @@ onActivityResumed
 activity
 :
 Activity
-?
 )
 {
 }
@@ -459,7 +456,6 @@ onActivityPaused
 activity
 :
 Activity
-?
 )
 {
 }
@@ -470,11 +466,9 @@ onActivitySaveInstanceState
 activity
 :
 Activity
-?
 bundle
 :
 Bundle
-?
 )
 {
 }
@@ -485,7 +479,6 @@ onActivityDestroyed
 activity
 :
 Activity
-?
 )
 {
 }

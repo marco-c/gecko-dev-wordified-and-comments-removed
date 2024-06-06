@@ -336,15 +336,6 @@ app_name
 "
 android
 :
-requestLegacyExternalStorage
-=
-"
-{
-requestLegacyExternalStorage
-}
-"
-android
-:
 roundIcon
 =
 "

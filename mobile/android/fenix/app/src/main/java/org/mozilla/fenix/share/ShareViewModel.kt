@@ -376,7 +376,6 @@ onLost
 network
 :
 Network
-?
 )
 =
 reloadDevices
@@ -390,7 +389,6 @@ onAvailable
 network
 :
 Network
-?
 )
 =
 reloadDevices

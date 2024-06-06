@@ -245,7 +245,6 @@ onLost
 network
 :
 Network
-?
 )
 {
 notifyListeners
@@ -263,7 +262,6 @@ onAvailable
 network
 :
 Network
-?
 )
 {
 notifyListeners
