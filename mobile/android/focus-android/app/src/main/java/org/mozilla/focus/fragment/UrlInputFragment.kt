@@ -4571,7 +4571,7 @@ String
 onFilter
 (
 searchText
-null
+urlView
 )
 }
 Suppress
@@ -4718,6 +4718,14 @@ else
 {
 null
 }
+if
+(
+result
+!
+=
+null
+)
+{
 view
 .
 applyAutocompleteResult
@@ -4725,8 +4733,6 @@ applyAutocompleteResult
 AutocompleteResult
 (
 result
-!
-!
 .
 text
 result
@@ -4742,6 +4748,7 @@ url
 }
 )
 )
+}
 }
 searchSuggestionsViewModel
 .
