@@ -272,7 +272,7 @@ passwordsStorage
 SyncableLoginsStorage
 private
 val
-viewLifecycleScope
+lifecycleScope
 :
 CoroutineScope
 private
@@ -336,7 +336,7 @@ null
 val
 deleteJob
 =
-viewLifecycleScope
+lifecycleScope
 .
 launch
 (
@@ -424,7 +424,7 @@ Unit
 ?
 =
 null
-viewLifecycleScope
+lifecycleScope
 .
 launch
 (
@@ -712,7 +712,7 @@ null
 val
 fetchLoginJob
 =
-viewLifecycleScope
+lifecycleScope
 .
 launch
 (
@@ -834,7 +834,7 @@ null
 val
 fetchLoginJob
 =
-viewLifecycleScope
+lifecycleScope
 .
 launch
 (
@@ -949,7 +949,7 @@ null
 val
 fetchLoginsJob
 =
-viewLifecycleScope
+lifecycleScope
 .
 launch
 (

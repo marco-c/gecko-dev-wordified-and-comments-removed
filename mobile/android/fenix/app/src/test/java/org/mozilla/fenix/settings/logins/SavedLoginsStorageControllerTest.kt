@@ -419,7 +419,7 @@ SavedLoginsStorageController
 passwordsStorage
 =
 passwordsStorage
-viewLifecycleScope
+lifecycleScope
 =
 scope
 navController

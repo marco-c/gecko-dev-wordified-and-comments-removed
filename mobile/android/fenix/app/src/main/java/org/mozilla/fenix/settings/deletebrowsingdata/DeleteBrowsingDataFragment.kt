@@ -862,8 +862,6 @@ deleteSelected
 startDeletion
 (
 )
-viewLifecycleOwner
-.
 lifecycleScope
 .
 launch

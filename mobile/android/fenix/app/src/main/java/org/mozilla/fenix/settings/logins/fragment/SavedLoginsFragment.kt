@@ -653,7 +653,7 @@ components
 core
 .
 passwordsStorage
-viewLifecycleScope
+lifecycleScope
 =
 viewLifecycleOwner
 .

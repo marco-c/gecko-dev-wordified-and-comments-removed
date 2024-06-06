@@ -632,10 +632,8 @@ components
 core
 .
 passwordsStorage
-viewLifecycleScope
+lifecycleScope
 =
-viewLifecycleOwner
-.
 lifecycleScope
 navController
 =
