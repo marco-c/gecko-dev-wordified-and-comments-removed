@@ -5670,6 +5670,8 @@ tabsUseCases
 removeTab
 (
 session
+.
+id
 )
 true
 }
