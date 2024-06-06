@@ -1875,7 +1875,7 @@ app
 -
 focus
 -
-arm64
+aarch64
 -
 release
 -
@@ -1913,7 +1913,7 @@ app
 -
 klar
 -
-arm64
+aarch64
 -
 release
 -
@@ -2583,7 +2583,7 @@ app
 -
 focus
 -
-arm64
+aarch64
 -
 nightly
 -
@@ -2621,7 +2621,7 @@ app
 -
 klar
 -
-arm64
+aarch64
 -
 nightly
 -
