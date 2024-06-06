@@ -161,8 +161,6 @@ resources
 =
 view
 .
-context
-.
 resources
 val
 appName

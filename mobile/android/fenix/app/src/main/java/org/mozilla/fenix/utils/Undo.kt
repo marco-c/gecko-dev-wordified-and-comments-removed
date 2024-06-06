@@ -475,8 +475,6 @@ toolbarHeight
 =
 view
 .
-context
-.
 resources
 .
 getDimensionPixelSize

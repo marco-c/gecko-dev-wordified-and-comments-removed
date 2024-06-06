@@ -540,8 +540,6 @@ dpToPx
 (
 recyclerView
 .
-context
-.
 resources
 .
 displayMetrics
