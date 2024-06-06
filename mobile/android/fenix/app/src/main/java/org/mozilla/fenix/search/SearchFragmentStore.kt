@@ -1604,6 +1604,14 @@ action
 settings
 .
 shouldShowSearchShortcuts
+&
+&
+!
+action
+.
+settings
+.
+showUnifiedSearchFeature
 showClipboardSuggestions
 =
 action
