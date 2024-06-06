@@ -251,7 +251,7 @@ viewholders
 .
 pocket
 .
-PocketRecommendedStoryCategory
+PocketRecommendedStoriesCategory
 import
 org
 .
@@ -1991,7 +1991,7 @@ onCategoryClick
 (
 categoryClicked
 :
-PocketRecommendedStoryCategory
+PocketRecommendedStoriesCategory
 )
 {
 pocketStoriesController

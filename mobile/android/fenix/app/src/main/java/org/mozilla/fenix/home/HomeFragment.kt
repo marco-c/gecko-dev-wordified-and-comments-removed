@@ -1173,7 +1173,7 @@ viewholders
 .
 pocket
 .
-PocketRecommendedStoryCategory
+PocketRecommendedStoriesCategory
 import
 org
 .
@@ -1971,7 +1971,7 @@ stories
 )
 -
 >
-PocketRecommendedStoryCategory
+PocketRecommendedStoriesCategory
 (
 category
 stories

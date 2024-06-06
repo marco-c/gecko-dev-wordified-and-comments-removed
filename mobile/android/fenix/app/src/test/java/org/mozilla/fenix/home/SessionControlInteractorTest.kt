@@ -223,7 +223,7 @@ viewholders
 .
 pocket
 .
-PocketRecommendedStoryCategory
+PocketRecommendedStoriesCategory
 import
 org
 .
@@ -1101,7 +1101,7 @@ PocketStoriesController
 val
 clickedCategory
 :
-PocketRecommendedStoryCategory
+PocketRecommendedStoriesCategory
 =
 mockk
 (

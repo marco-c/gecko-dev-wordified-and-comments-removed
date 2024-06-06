@@ -124,7 +124,7 @@ the
 just
 clicked
 [
-PocketRecommendedStoryCategory
+PocketRecommendedStoriesCategory
 ]
 .
 *
@@ -134,7 +134,7 @@ onCategoryClick
 (
 categoryClicked
 :
-PocketRecommendedStoryCategory
+PocketRecommendedStoriesCategory
 )
 /
 *
