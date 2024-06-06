@@ -609,6 +609,13 @@ icon
 "
 android
 :
+maxHeight
+=
+"
+160dp
+"
+android
+:
 paddingStart
 =
 "
@@ -627,6 +634,13 @@ paddingEnd
 =
 "
 5dp
+"
+android
+:
+scrollbars
+=
+"
+vertical
 "
 android
 :
