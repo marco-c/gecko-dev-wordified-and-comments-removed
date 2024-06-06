@@ -2898,15 +2898,7 @@ Boolean
 SEND_TAB_ENABLED
 '
 (
-buildType
-=
-=
-"
-nightly
-"
-|
-|
-isDebug
+true
 )
 .
 toString
