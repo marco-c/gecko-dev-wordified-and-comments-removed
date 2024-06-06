@@ -1319,12 +1319,6 @@ setupMenu
 (
 item
 )
-view
-.
-setOnLongClickListener
-(
-null
-)
 }
 else
 {
