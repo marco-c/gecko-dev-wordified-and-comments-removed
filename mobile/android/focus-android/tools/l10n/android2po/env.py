@@ -1044,7 +1044,7 @@ plural_rule
 '
 :
 '
-gn
+de
 '
         
 '
@@ -1102,7 +1102,7 @@ plural_rule
 '
 :
 '
-gn
+de
 '
         
 '
