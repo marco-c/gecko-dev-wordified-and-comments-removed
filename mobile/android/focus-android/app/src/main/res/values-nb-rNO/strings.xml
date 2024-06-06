@@ -1520,7 +1520,7 @@ name
 preference_security_biometric
 "
 >
-Brug
+Bruk
 fingeravtrykk
 til
 l
@@ -1596,7 +1596,14 @@ n
 r
 du
 bytter
-appar
+apper
+og
+unng
+at
+det
+tas
+skjermbilder
+.
 <
 /
 string
@@ -4992,7 +4999,7 @@ no_suggestions_message
 >
 Noen
 s
-kmotorer
+kemotorer
 kan
 ikke
 vise
