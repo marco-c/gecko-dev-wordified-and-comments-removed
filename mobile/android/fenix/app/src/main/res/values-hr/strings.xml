@@ -5469,7 +5469,7 @@ name
 preference_light_theme
 "
 >
-Svjetli
+Svijetli
 <
 /
 string
@@ -5557,7 +5557,7 @@ name
 preference_follow_device_theme
 "
 >
-Prati
+Slijedi
 motiv
 ure
 aja
@@ -13907,12 +13907,14 @@ onboarding_theme_picker_description1
 tedi
 energiju
 i
+za
+titi
 o
 i
 pomo
 u
 tamnog
-modusa
+motiva
 .
 <
 /
@@ -14004,7 +14006,7 @@ onboarding_theme_dark_title
 "
 >
 Tamni
-modus
+motiv
 <
 /
 string
@@ -14029,8 +14031,8 @@ name
 onboarding_theme_light_title
 "
 >
-Svjetli
-modus
+Svijetli
+motiv
 <
 /
 string
