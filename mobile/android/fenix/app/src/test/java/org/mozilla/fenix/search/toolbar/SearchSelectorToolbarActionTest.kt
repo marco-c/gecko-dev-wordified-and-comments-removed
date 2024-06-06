@@ -1508,6 +1508,9 @@ None
 defaultEngine
 =
 null
+showSearchTermHistory
+=
+true
 showSearchSuggestions
 =
 false

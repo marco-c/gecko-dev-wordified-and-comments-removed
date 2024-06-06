@@ -443,6 +443,9 @@ true
 defaultEngine
 =
 null
+showSearchTermHistory
+=
+true
 showSearchShortcutsSetting
 =
 false
