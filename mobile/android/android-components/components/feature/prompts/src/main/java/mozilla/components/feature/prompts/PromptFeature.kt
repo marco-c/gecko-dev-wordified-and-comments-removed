@@ -5352,7 +5352,7 @@ negativeButton
 =
 if
 (
-positiveButtonTitle
+negativeButtonTitle
 .
 isEmpty
 (
@@ -5372,7 +5372,7 @@ mozac_feature_prompts_cancel
 }
 else
 {
-positiveButtonTitle
+negativeButtonTitle
 }
 MultiButtonDialogFragment
 .
