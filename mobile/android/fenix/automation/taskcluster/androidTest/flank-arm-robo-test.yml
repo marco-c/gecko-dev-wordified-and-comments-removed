@@ -90,12 +90,10 @@ device
 -
 model
 :
-Pixel2
-.
-arm
+java
 version
 :
-26
+30
 locale
 :
 en_US
