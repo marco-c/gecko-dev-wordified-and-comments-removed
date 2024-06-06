@@ -225,7 +225,7 @@ accent_normal_theme
 >
 color
 /
-accent_dark_theme
+photonViolet50
 <
 /
 color
@@ -285,7 +285,7 @@ tab_ring_normal_theme
 >
 color
 /
-accent_dark_theme
+accent_normal_theme
 <
 /
 color
@@ -623,7 +623,7 @@ onboarding_illustration_selected_normal_theme
 >
 color
 /
-accent_dark_theme
+accent_normal_theme
 <
 /
 color
@@ -652,7 +652,7 @@ add_on_private_browsing_exterior_circle_background_normal_theme
 >
 color
 /
-accent_dark_theme
+accent_normal_theme
 <
 /
 color
