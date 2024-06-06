@@ -501,7 +501,7 @@ exitToTop
 }
 homeScreen
 {
-verifyHomeScreenTipIsDisplayed
+verifyTipsCarouselIsDisplayed
 (
 false
 )
