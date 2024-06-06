@@ -1531,6 +1531,10 @@ state
 false
 )
 }
+.
+closeEnhancedTrackingProtectionSheet
+{
+}
 openAppFromExternalLink
 (
 customTabPage
