@@ -1210,7 +1210,8 @@ HomeFragmentArgs
 >
 (
 )
-private
+VisibleForTesting
+internal
 lateinit
 var
 bundleArgs
@@ -1431,11 +1432,13 @@ currentMode
 CurrentMode
 VisibleForTesting
 internal
-lateinit
 var
 wallpapersObserver
 :
 WallpapersObserver
+?
+=
+null
 private
 val
 topSitesFeature
@@ -2681,6 +2684,7 @@ issues
 runBlockingIncrement
 {
 wallpapersObserver
+?
 .
 applyCurrentWallpaper
 (
@@ -4119,6 +4123,9 @@ sessionControlView
 =
 null
 appBarLayout
+=
+null
+wallpapersObserver
 =
 null
 _binding
