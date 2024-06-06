@@ -1154,6 +1154,13 @@ runStorageMaintenance
 initVisualCompletenessQueueAndQueueTasks
 (
 )
+components
+.
+appStartupTelemetry
+.
+onFenixApplicationOnCreate
+(
+)
 }
 private
 fun

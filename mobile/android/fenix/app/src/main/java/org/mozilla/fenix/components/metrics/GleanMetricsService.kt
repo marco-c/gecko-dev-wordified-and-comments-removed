@@ -899,7 +899,7 @@ it
 is
 Event
 .
-AppOpenedAllSourceStartup
+AppAllStartup
 -
 >
 EventWrapper
