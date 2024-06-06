@@ -887,6 +887,12 @@ Event
 (
 )
 object
+TopSiteOpenBaidu
+:
+Event
+(
+)
+object
 TopSiteOpenFrecent
 :
 Event
