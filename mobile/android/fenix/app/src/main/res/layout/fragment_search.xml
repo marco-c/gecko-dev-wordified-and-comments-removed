@@ -175,7 +175,7 @@ background
 =
 "
 ?
-above
+foundation
 "
 tools
 :
@@ -218,7 +218,7 @@ android
 layout_height
 =
 "
-wrap_content
+40dp
 "
 android
 :
@@ -353,13 +353,6 @@ layout_height
 =
 "
 0dp
-"
-android
-:
-layout_marginStart
-=
-"
-12dp
 "
 app
 :
