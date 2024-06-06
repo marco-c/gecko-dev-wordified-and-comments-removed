@@ -792,6 +792,9 @@ EditBookmarkFragmentDirections
 .
 actionBookmarkEditFragmentToBookmarkSelectFolderFragment
 (
+allowCreatingNewFolder
+=
+false
 )
 )
 }

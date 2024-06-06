@@ -481,6 +481,8 @@ AddBookmarkFolderFragmentDirections
 .
 actionBookmarkAddFolderFragmentToBookmarkSelectFolderFragment
 (
+allowCreatingNewFolder
+=
 true
 )
 )

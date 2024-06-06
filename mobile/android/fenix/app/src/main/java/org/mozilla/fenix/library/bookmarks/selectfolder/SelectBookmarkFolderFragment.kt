@@ -485,7 +485,7 @@ if
 !
 args
 .
-visitedAddBookmark
+allowCreatingNewFolder
 )
 {
 inflater
