@@ -452,6 +452,12 @@ SwitchMode
 BookmarkAction
 (
 )
+object
+DeselectAll
+:
+BookmarkAction
+(
+)
 }
 sealed
 class
