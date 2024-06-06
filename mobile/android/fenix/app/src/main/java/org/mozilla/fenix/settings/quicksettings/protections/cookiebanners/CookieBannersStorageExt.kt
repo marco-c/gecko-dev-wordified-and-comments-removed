@@ -306,7 +306,7 @@ hasException
 {
 CookieBannerUIMode
 .
-DISABLE
+SITE_NOT_SUPPORTED
 }
 else
 {
