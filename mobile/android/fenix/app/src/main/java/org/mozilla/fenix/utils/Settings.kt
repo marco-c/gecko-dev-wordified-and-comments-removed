@@ -854,7 +854,7 @@ string
 .
 pref_key_tracking_protection_strict
 )
-false
+true
 )
 val
 themeSettingString
