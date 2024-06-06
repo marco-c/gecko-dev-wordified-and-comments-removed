@@ -260,12 +260,10 @@ layout_height
 "
 android
 :
-contentDescription
+importantForAccessibility
 =
 "
-string
-/
-firefox_logo_description
+no
 "
 app
 :
