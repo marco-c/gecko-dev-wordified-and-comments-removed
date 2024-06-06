@@ -1054,11 +1054,6 @@ onLoggedOut
 (
 )
 {
-pushService
-.
-stop
-(
-)
 push
 .
 unsubscribeForType
@@ -1104,12 +1099,6 @@ newAccount
 Boolean
 )
 {
-pushService
-.
-start
-(
-context
-)
 if
 (
 newAccount
