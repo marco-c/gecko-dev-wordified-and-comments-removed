@@ -534,7 +534,7 @@ toRegex
 (
 )
 .
-matchEntire
+find
 (
 uri
 )
