@@ -472,12 +472,6 @@ nsCString
 >
 mCoalescingKeys
 ;
-nsTArray
-<
-NetAddr
->
-mAddresses
-;
 bool
 mUsingSpdy
 :
