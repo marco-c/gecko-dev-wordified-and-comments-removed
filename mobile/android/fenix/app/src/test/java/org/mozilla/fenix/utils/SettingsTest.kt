@@ -574,6 +574,8 @@ assertEquals
 settings
 .
 loginsSecureWarningSyncCount
+.
+value
 )
 /
 /
@@ -592,6 +594,8 @@ assertEquals
 settings
 .
 loginsSecureWarningSyncCount
+.
+value
 )
 }
 Test
@@ -652,6 +656,8 @@ assertEquals
 settings
 .
 loginsSecureWarningCount
+.
+value
 )
 /
 /
@@ -670,6 +676,8 @@ assertEquals
 settings
 .
 loginsSecureWarningCount
+.
+value
 )
 }
 Test
