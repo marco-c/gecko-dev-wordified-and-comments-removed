@@ -3416,6 +3416,10 @@ mozilla_browser_session
 implementation
 Deps
 .
+mozilla_browser_state
+implementation
+Deps
+.
 mozilla_browser_storage_sync
 implementation
 Deps
