@@ -631,7 +631,7 @@ R
 .
 drawable
 .
-ic_lock
+mozac_ic_lock
 )
 securityInfoIcon
 .
@@ -735,7 +735,7 @@ R
 .
 drawable
 .
-ic_warning
+mozac_ic_warning
 )
 securityInfoIcon
 .
@@ -754,7 +754,7 @@ R
 .
 drawable
 .
-ic_warning
+mozac_ic_warning
 photonYellow
 )
 identityState

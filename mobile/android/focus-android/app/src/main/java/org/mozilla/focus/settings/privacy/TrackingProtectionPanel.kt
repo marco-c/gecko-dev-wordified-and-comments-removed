@@ -461,7 +461,7 @@ R
 .
 drawable
 .
-ic_lock
+mozac_ic_lock
 )
 }
 else
@@ -475,7 +475,7 @@ R
 .
 drawable
 .
-ic_warning
+mozac_ic_warning
 )
 }
 binding
