@@ -131,6 +131,15 @@ const
 =
 0
 ;
+virtual
+bool
+isDrainingStopped
+(
+)
+const
+=
+0
+;
 protected
 :
 friend

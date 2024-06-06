@@ -430,6 +430,17 @@ empty
 const
 override
 ;
+bool
+isDrainingStopped
+(
+)
+const
+override
+{
+return
+interrupted_
+;
+}
 void
 interrupt
 (
