@@ -1452,6 +1452,14 @@ registerInAppOnCreate
 (
 this
 )
+components
+.
+startupActivityLog
+.
+registerInAppOnCreate
+(
+this
+)
 initVisualCompletenessQueueAndQueueTasks
 (
 )
