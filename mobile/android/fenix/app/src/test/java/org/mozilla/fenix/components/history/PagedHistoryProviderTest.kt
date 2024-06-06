@@ -203,9 +203,8 @@ DefaultPagedHistoryProvider
 historyStorage
 =
 storage
-showHistorySearchGroups
+historyImprovementFeatures
 =
-true
 false
 )
 val
@@ -777,9 +776,8 @@ DefaultPagedHistoryProvider
 historyStorage
 =
 storage
-showHistorySearchGroups
+historyImprovementFeatures
 =
-true
 false
 )
 /
@@ -1115,9 +1113,8 @@ DefaultPagedHistoryProvider
 historyStorage
 =
 storage
-showHistorySearchGroups
+historyImprovementFeatures
 =
-true
 false
 )
 /
@@ -1456,9 +1453,8 @@ DefaultPagedHistoryProvider
 historyStorage
 =
 storage
-showHistorySearchGroups
+historyImprovementFeatures
 =
-true
 false
 )
 val
