@@ -531,6 +531,15 @@ localeUpdated
 =
 true
 ;
+InstalledSearchEnginesSettingsFragment
+.
+Companion
+.
+setLanguageChanged
+(
+true
+)
+;
 final
 ListPreference
 languagePreference
