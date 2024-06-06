@@ -113,14 +113,6 @@ mockk
 .
 unmockkStatic
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components
@@ -297,13 +289,6 @@ var
 pinnedSiteStorage
 :
 PinnedSiteStorage
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -312,7 +297,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 Before
 fun

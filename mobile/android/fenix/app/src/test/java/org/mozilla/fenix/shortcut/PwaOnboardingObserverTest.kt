@@ -107,14 +107,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components
@@ -294,13 +286,6 @@ var
 webAppUseCases
 :
 WebAppUseCases
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -309,7 +294,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 Before
 fun

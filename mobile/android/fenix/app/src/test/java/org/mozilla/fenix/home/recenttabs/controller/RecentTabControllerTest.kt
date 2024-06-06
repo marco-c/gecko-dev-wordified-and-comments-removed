@@ -111,14 +111,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components
@@ -260,13 +252,6 @@ class
 class
 RecentTabControllerTest
 {
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -275,7 +260,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 private
 val

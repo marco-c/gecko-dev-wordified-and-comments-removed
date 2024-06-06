@@ -65,14 +65,6 @@ fenix
 .
 utils
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components
@@ -216,13 +208,6 @@ class
 class
 ToolbarPopupWindowTest
 {
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -231,7 +216,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 Test
 fun

@@ -87,14 +87,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components
@@ -408,13 +400,6 @@ var
 metrics
 :
 MetricController
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -423,7 +408,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 get
 :

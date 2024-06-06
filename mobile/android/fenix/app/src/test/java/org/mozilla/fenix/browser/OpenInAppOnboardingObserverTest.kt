@@ -131,14 +131,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-test
-.
-TestCoroutineDispatcher
-import
 mozilla
 .
 components
@@ -378,13 +370,6 @@ var
 infoBanner
 :
 DynamicInfoBanner
-private
-val
-testDispatcher
-=
-TestCoroutineDispatcher
-(
-)
 get
 :
 Rule
@@ -393,7 +378,6 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-testDispatcher
 )
 Before
 fun
