@@ -110,16 +110,7 @@ TASK_ID
     
 repo_url
 =
-os
-.
-environ
-.
-get
-(
-'
-MOBILE_HEAD_REPOSITORY
-'
-)
+REPO_URL
     
 branch
 =
@@ -202,6 +193,19 @@ get
 (
 '
 TASKS_PRIORITY
+'
+)
+    
+date_string
+=
+os
+.
+environ
+.
+get
+(
+'
+BUILD_DATE
 '
 )
 )
@@ -407,7 +411,6 @@ nightly
 apks
 track
 commit
-date_string
 )
 :
     
@@ -508,10 +511,6 @@ build_task_id
 apks
 =
 artifacts
-        
-date_string
-=
-date_string
         
 is_staging
 =
@@ -786,30 +785,6 @@ True
     
 )
     
-release_parser
-.
-add_argument
-(
-'
--
--
-date
-'
-action
-=
-"
-store
-"
-help
-=
-"
-ISO8601
-timestamp
-for
-build
-"
-)
-    
 result
 =
 parser
@@ -882,7 +857,6 @@ ordered_groups_of_tasks
 =
 nightly
 (
-            
 apks
 result
 .
@@ -890,10 +864,6 @@ track
 result
 .
 commit
-result
-.
-date
-        
 )
     
 else
