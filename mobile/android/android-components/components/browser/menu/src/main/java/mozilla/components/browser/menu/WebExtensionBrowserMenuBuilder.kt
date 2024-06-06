@@ -741,7 +741,7 @@ R
 .
 string
 .
-action_bar_up_description
+mozac_browser_menu_addons_description
 )
 label
 =
