@@ -1044,6 +1044,7 @@ GeckoProvider
 getOrCreateRuntime
 (
 context
+lazyAutofillStorage
 lazyPasswordsStorage
 trackingProtectionPolicyFactory
 .
@@ -1237,6 +1238,7 @@ GeckoProvider
 getOrCreateRuntime
 (
 context
+lazyAutofillStorage
 lazyPasswordsStorage
 trackingProtectionPolicyFactory
 .
