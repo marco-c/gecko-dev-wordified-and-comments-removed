@@ -230,9 +230,9 @@ mockk
 {
 true
 }
-mockk
-(
-)
+{
+false
+}
 )
 assertEquals
 (
@@ -340,9 +340,9 @@ mockk
 {
 false
 }
-mockk
-(
-)
+{
+false
+}
 )
 assertEquals
 (
