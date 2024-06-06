@@ -241,7 +241,7 @@ state
 .
 *
 param
-onBylineLinkClick
+onFooterLinkClick
 Invoked
 when
 the
@@ -249,7 +249,7 @@ user
 clicks
 on
 the
-byline
+footer
 link
 .
 *
@@ -295,7 +295,7 @@ Boolean
 -
 >
 Unit
-onBylineLinkClick
+onFooterLinkClick
 :
 (
 String
@@ -366,7 +366,7 @@ ReviewQualityCheckFooter
 (
 onLinkClick
 =
-onBylineLinkClick
+onFooterLinkClick
 )
 }
 }
@@ -428,7 +428,7 @@ onProductRecommendationsEnabledStateChange
 =
 {
 }
-onBylineLinkClick
+onFooterLinkClick
 =
 {
 }

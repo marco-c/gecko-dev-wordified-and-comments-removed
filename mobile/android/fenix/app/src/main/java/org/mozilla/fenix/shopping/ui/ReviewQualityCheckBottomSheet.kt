@@ -427,7 +427,7 @@ url
 )
 )
 }
-onBylineLinkClick
+onFooterLinkClick
 =
 {
 url
@@ -531,7 +531,7 @@ String
 -
 >
 Unit
-onBylineLinkClick
+onFooterLinkClick
 :
 (
 String
@@ -592,9 +592,9 @@ onProductRecommendationsEnabledStateChange
 onReviewGradeLearnMoreClick
 =
 onReviewGradeLearnMoreClick
-onBylineLinkClick
+onFooterLinkClick
 =
-onBylineLinkClick
+onFooterLinkClick
 )
 }
 is
@@ -624,9 +624,9 @@ onOptOutClick
 onProductRecommendationsEnabledStateChange
 =
 onProductRecommendationsEnabledStateChange
-onBylineLinkClick
+onFooterLinkClick
 =
-onBylineLinkClick
+onFooterLinkClick
 modifier
 =
 Modifier

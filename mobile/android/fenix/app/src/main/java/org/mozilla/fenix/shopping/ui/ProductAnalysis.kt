@@ -544,7 +544,7 @@ grades
 .
 *
 param
-onBylineLinkClick
+onFooterLinkClick
 Invoked
 when
 the
@@ -552,7 +552,7 @@ user
 clicks
 on
 the
-byline
+footer
 link
 .
 *
@@ -616,7 +616,7 @@ String
 -
 >
 Unit
-onBylineLinkClick
+onFooterLinkClick
 :
 (
 String
@@ -825,7 +825,7 @@ ReviewQualityCheckFooter
 (
 onLinkClick
 =
-onBylineLinkClick
+onFooterLinkClick
 )
 }
 }
@@ -2034,7 +2034,7 @@ onReviewGradeLearnMoreClick
 =
 {
 }
-onBylineLinkClick
+onFooterLinkClick
 =
 {
 }
