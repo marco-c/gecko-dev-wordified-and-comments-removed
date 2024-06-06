@@ -683,7 +683,9 @@ Until
 .
 findObject
 (
-text
+By
+.
+textContains
 (
 expectedText
 )
