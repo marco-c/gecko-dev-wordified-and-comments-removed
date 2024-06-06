@@ -250,9 +250,13 @@ BC
 %
 "
 PRIu64
-ToMediaControlKeyStr
+GetEnumString
 (
 aKey
+)
+.
+get
+(
 )
 mBC
 -
