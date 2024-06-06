@@ -476,9 +476,15 @@ context
 core
 .
 sessionManager
+core
+.
+store
 useCases
 .
 sessionUseCases
+useCases
+.
+tabsUseCases
 useCases
 .
 searchUseCases
