@@ -561,6 +561,7 @@ LoginsAction
 UpdateLoginsList
 -
 >
+{
 state
 .
 copy
@@ -575,10 +576,16 @@ action
 list
 filteredItems
 =
+state
+.
+sortingStrategy
+(
 action
 .
 list
 )
+)
+}
 is
 LoginsAction
 .
