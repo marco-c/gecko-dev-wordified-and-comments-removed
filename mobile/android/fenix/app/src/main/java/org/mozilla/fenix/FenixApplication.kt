@@ -850,6 +850,8 @@ currentTimeMillis
 this
 .
 settings
+(
+)
 .
 lastPlacesStorageMaintenance
 )
@@ -920,6 +922,8 @@ runMaintenance
 this
 .
 settings
+(
+)
 .
 lastPlacesStorageMaintenance
 =

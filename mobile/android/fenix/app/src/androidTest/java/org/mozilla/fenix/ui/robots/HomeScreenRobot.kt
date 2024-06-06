@@ -2356,14 +2356,6 @@ uses
 this
 device
 .
-\
-n
-\
-nCommon
-myths
-about
-private
-browsing
 "
 private
 fun
