@@ -391,7 +391,7 @@ urlRequestInterceptor
 getUrlRequestInterceptor
 (
 )
-assertTrue
+assertFalse
 (
 urlRequestInterceptor
 .
@@ -689,6 +689,7 @@ fun
 WHEN
 a
 Google
+preferences
 request
 is
 loaded
@@ -712,6 +713,8 @@ www
 google
 .
 com
+/
+preferences
 "
 assertEquals
 (
