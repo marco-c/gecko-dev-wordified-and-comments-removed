@@ -6389,8 +6389,7 @@ name
 preferences_home_2
 "
 >
-P
-gina
+Tela
 inicial
 <
 /
@@ -11758,7 +11757,7 @@ que
 voc
 n
 o
-v
+usa
 h
 duas
 semanas
@@ -23928,11 +23927,9 @@ name
 preference_enhanced_tracking_protection_explanation
 "
 >
-Mantenha
+Defenda
 seus
 dados
-com
-voc
 .
 O
 %
@@ -26834,9 +26831,9 @@ name
 preferences_passwords_autofill_description
 "
 >
-Preencha
+Preencher
 e
-salve
+salvar
 nomes
 de
 usu
@@ -26937,7 +26934,7 @@ name
 preferences_android_autofill_description
 "
 >
-Preencha
+Preencher
 nomes
 de
 usu
@@ -26948,7 +26945,6 @@ em
 outros
 aplicativos
 no
-seu
 dispositivo
 .
 <
