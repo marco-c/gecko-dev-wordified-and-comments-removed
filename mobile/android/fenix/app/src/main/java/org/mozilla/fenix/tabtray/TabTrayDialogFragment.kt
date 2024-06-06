@@ -231,13 +231,6 @@ private
 :
 Boolean
 )
-fun
-onTabClosed
-(
-tab
-:
-Tab
-)
 }
 private
 lateinit
