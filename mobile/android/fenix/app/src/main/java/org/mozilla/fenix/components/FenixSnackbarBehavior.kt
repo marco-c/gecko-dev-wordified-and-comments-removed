@@ -474,6 +474,10 @@ as
 CoordinatorLayout
 .
 LayoutParams
+snackbar
+.
+post
+{
 if
 (
 dependency
@@ -541,6 +545,11 @@ or
 Gravity
 .
 CENTER_HORIZONTAL
+snackbar
+.
+layoutParams
+=
+params
 }
 else
 {
@@ -583,11 +592,12 @@ or
 Gravity
 .
 CENTER_HORIZONTAL
-}
 snackbar
 .
 layoutParams
 =
 params
+}
+}
 }
 }
