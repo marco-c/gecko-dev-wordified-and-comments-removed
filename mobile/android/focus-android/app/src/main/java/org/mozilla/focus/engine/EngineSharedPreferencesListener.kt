@@ -154,7 +154,6 @@ onPreferenceChange
 preference
 :
 Preference
-?
 newValue
 :
 Any
@@ -166,7 +165,6 @@ Boolean
 when
 (
 preference
-?
 .
 key
 )
