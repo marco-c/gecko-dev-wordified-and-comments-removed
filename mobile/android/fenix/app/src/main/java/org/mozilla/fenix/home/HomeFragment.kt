@@ -2569,13 +2569,6 @@ components
 core
 .
 store
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 )
 pocketStoriesController
 =
