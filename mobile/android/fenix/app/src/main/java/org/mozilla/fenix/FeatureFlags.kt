@@ -322,13 +322,6 @@ isPocketRecommendationsFeatureEnabled
 (
 context
 )
-&
-&
-Config
-.
-channel
-.
-isDebug
 }
 /
 *
