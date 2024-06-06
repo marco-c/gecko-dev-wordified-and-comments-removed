@@ -432,7 +432,7 @@ protection
 -
 firefox
 -
-preview
+android
 "
 )
 WHATS_NEW
@@ -504,7 +504,7 @@ sync
 -
 firefox
 -
-preview
+android
 "
 )
 QR_CAMERA_ACCESS
