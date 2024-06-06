@@ -724,7 +724,7 @@ name
 cfr_message
 "
 >
-Adiciona
+Adicione
 um
 atalho
 na
@@ -3434,9 +3434,8 @@ preferences_open_links_in_a_private_tab
 Abrir
 links
 em
-uma
-aba
-privativa
+abas
+privativas
 <
 /
 string
@@ -10608,7 +10607,7 @@ name
 no_collections_header1
 "
 >
-Colete
+Colecione
 o
 que
 importante
