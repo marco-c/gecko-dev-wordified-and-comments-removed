@@ -372,6 +372,14 @@ for
 Firefox
 Accounts
 login
+-
+#
+1079
+-
+Managing
+site
+permissions
+exceptions
 #
 #
 #

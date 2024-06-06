@@ -412,6 +412,17 @@ layout
 "
 layout
 /
+layout_clear_permission_button
+"
+/
+>
+<
+include
+layout
+=
+"
+layout
+/
 component_permissions_blocked_by_android
 "
 /

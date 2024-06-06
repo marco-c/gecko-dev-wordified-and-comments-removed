@@ -585,9 +585,9 @@ addSitePermissionException
 (
 origin
 location
-camera
-microphone
 notification
+microphone
+camera
 )
 }
 else
