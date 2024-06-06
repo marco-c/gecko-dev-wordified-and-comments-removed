@@ -389,6 +389,14 @@ mozilla
 .
 fenix
 .
+StrictModeManager
+import
+org
+.
+mozilla
+.
+fenix
+.
 components
 .
 metrics
@@ -531,6 +539,9 @@ Lazy
 <
 RemoteTabsStorage
 >
+strictMode
+:
+StrictModeManager
 )
 {
 /
@@ -880,6 +891,7 @@ AccountAbnormalities
 (
 context
 crashReporter
+strictMode
 )
 val
 accountManager

@@ -195,6 +195,9 @@ Core
 (
 context
 crashReporter
+mockk
+(
+)
 )
 {
 override

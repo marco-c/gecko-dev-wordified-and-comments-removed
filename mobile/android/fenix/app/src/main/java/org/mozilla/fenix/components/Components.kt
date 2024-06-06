@@ -339,6 +339,7 @@ lazyPasswordsStorage
 core
 .
 lazyRemoteTabsStorage
+strictMode
 )
 }
 val
@@ -365,6 +366,7 @@ context
 analytics
 .
 crashReporter
+strictMode
 )
 }
 val
@@ -689,6 +691,7 @@ lazy
 Analytics
 (
 context
+strictMode
 )
 }
 val
