@@ -52,10 +52,7 @@ windowOpenedPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -437,7 +434,6 @@ domwindow
 }
 onCloseWindow
 (
-aXULWindow
 )
 {
 }

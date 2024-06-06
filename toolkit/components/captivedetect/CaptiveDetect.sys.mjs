@@ -568,7 +568,6 @@ onreadystatechange
 =
 function
 (
-oEvent
 )
 {
 if
@@ -1259,9 +1258,6 @@ observeActivity
 aHttpChannel
 aActivityType
 aActivitySubtype
-aTimestamp
-aExtraSizeData
-aExtraStringData
 )
 {
 if
@@ -3130,7 +3126,6 @@ debug
 =
 function
 (
-s
 )
 {
 }

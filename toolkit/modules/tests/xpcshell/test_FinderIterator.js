@@ -45,9 +45,6 @@ _iterateDocument
 function
 *
 (
-word
-window
-finder
 )
 {
 for
@@ -555,7 +552,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -654,7 +650,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -719,7 +714,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -778,7 +772,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -843,7 +836,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -966,7 +958,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -1077,7 +1068,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -1182,7 +1172,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -1385,7 +1374,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -1463,7 +1451,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -1684,7 +1671,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -1729,7 +1715,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +
@@ -1779,7 +1764,6 @@ listener
 {
 onIteratorRangeFound
 (
-range
 )
 {
 +

@@ -109,7 +109,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_PERMISSIONS
-value
+(
+)
 =
 >
 resolve

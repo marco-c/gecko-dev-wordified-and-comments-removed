@@ -314,7 +314,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -1277,7 +1276,8 @@ addEventListener
 "
 error
 "
-event
+(
+)
 =
 >
 {

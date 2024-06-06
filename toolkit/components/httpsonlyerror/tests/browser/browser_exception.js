@@ -565,7 +565,6 @@ onload
 =
 function
 (
-e
 )
 {
 var

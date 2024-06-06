@@ -1073,7 +1073,6 @@ addObserver
 (
 subject
 topic
-data
 )
 =
 >

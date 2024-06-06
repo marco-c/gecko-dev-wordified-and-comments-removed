@@ -1407,11 +1407,7 @@ iconClass
 .
 forEach
 (
-(
 el
-idx
-arr
-)
 =
 >
 icon

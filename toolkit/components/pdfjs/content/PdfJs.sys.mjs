@@ -1484,9 +1484,6 @@ _cachedIsDefault
 nsIObserver
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 this

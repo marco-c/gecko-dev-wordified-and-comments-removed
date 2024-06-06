@@ -235,7 +235,6 @@ async
 function
 runBackgroundTask
 (
-commandLine
 )
 {
 let

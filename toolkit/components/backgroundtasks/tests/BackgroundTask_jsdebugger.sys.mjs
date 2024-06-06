@@ -135,7 +135,6 @@ export
 function
 runBackgroundTask
 (
-commandLine
 )
 {
 /

@@ -1787,9 +1787,6 @@ addObserver
 prefName
 async
 (
-subject
-topic
-data
 )
 =
 >

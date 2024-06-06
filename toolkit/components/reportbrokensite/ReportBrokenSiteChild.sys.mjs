@@ -1141,7 +1141,6 @@ async
 #
 getConsoleLogs
 (
-docShell
 )
 {
 return

@@ -1736,7 +1736,8 @@ xhr
 .
 onload
 =
-evt
+(
+)
 =
 >
 {
@@ -2097,7 +2098,9 @@ lifting
 happens
 *
 in
-readerWorker
+Reader
+.
+worker
 .
 js
 .

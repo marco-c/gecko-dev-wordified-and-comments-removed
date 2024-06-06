@@ -394,7 +394,8 @@ url
 URL
 }
 async
-browser
+(
+)
 =
 >
 {

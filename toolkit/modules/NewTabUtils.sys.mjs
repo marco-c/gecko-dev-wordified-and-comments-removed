@@ -3579,7 +3579,6 @@ history
 }
 handleError
 (
-aError
 )
 {
 /
@@ -3600,7 +3599,6 @@ aCallback
 }
 handleCompletion
 (
-aReason
 )
 {
 /
@@ -12698,9 +12696,6 @@ observe
 function
 Links_observe
 (
-aSubject
-aTopic
-aData
 )
 {
 /
@@ -13113,9 +13108,6 @@ observe
 function
 Telemetry_observe
 (
-aSubject
-aTopic
-aData
 )
 {
 this

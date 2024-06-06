@@ -5468,7 +5468,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 log

@@ -180,8 +180,6 @@ function
 observer
 (
 subject
-topic
-data
 )
 {
 info

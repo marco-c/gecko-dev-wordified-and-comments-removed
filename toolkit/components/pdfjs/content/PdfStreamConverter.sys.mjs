@@ -1564,7 +1564,6 @@ return
 download
 (
 data
-sendResponse
 )
 {
 const
@@ -1954,7 +1953,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -4076,10 +4074,6 @@ nsIStreamConverter
 convert
 convert
 (
-aFromStream
-aFromType
-aToType
-aCtxt
 )
 {
 throw
@@ -6054,7 +6048,6 @@ proxy
 {
 onStartRequest
 (
-request
 )
 {
 listener

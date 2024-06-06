@@ -1606,7 +1606,8 @@ CheckState
 .
 catch
 (
-err
+(
+)
 =
 >
 {
@@ -5149,7 +5150,6 @@ notify
 function
 Expiration_notify
 (
-aTimer
 )
 {
 let
@@ -5358,7 +5358,9 @@ gre
 /
 modules
 /
-PageThumbsWorker
+PageThumbs
+.
+worker
 .
 js
 "

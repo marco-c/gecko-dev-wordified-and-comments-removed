@@ -1414,7 +1414,8 @@ modules
 .
 oninput
 =
-e
+(
+)
 =
 >
 {
@@ -3139,7 +3140,6 @@ onclick
 =
 function
 (
-e
 )
 {
 file

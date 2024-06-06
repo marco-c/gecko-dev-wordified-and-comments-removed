@@ -135,7 +135,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 let
@@ -168,7 +167,6 @@ function
 (
 id
 message
-target
 )
 {
 is
@@ -260,7 +258,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 let
@@ -290,7 +287,6 @@ function
 (
 id
 message
-target
 )
 {
 is
@@ -400,7 +396,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 let
@@ -631,9 +626,6 @@ listen
 (
 function
 (
-id
-message
-sender
 )
 {
 reject
@@ -1092,7 +1084,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 let
@@ -1124,8 +1115,6 @@ listen
 function
 (
 id
-message
-sender
 )
 {
 is
@@ -1216,7 +1205,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 channel
@@ -1227,7 +1215,6 @@ function
 (
 id
 message
-sender
 )
 {
 is
@@ -1377,7 +1364,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 channel
@@ -1388,7 +1374,6 @@ function
 (
 id
 message
-sender
 )
 {
 is
@@ -1549,7 +1534,6 @@ function
 (
 id
 message
-sender
 )
 {
 is
@@ -1937,10 +1921,7 @@ testDonePromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1951,7 +1932,6 @@ listen
 (
 id
 message
-sender
 )
 =
 >
@@ -2092,7 +2072,6 @@ listen
 (
 id
 message
-sender
 )
 =
 >
@@ -2352,10 +2331,7 @@ testDonePromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -2366,7 +2342,6 @@ listen
 (
 id
 message
-sender
 )
 =
 >
@@ -2412,7 +2387,6 @@ listen
 (
 id
 message
-sender
 )
 =
 >
@@ -2546,10 +2520,7 @@ testDonePromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -2560,7 +2531,6 @@ listen
 (
 id
 message
-sender
 )
 =
 >

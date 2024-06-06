@@ -22,7 +22,8 @@ about
 blank
 "
 async
-browser
+(
+)
 =
 >
 {

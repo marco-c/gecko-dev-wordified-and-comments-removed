@@ -842,7 +842,6 @@ load
 "
 function
 (
-e
 )
 {
 resolve
@@ -1710,7 +1709,6 @@ get
 (
 target
 prop
-receiver
 )
 {
 return

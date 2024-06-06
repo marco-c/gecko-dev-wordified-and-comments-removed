@@ -164,7 +164,6 @@ false
 }
 start
 (
-event
 )
 {
 this
@@ -558,7 +557,6 @@ fakeEvent
 }
 onMouseup
 (
-event
 )
 {
 if

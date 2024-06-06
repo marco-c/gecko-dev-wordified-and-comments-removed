@@ -1070,9 +1070,6 @@ isPrivate
 }
 onContentPrefRemoved
 (
-group
-name
-isPrivate
 )
 {
 reject
@@ -1275,7 +1272,6 @@ pref
 }
 handleCompletion
 (
-reason
 )
 {
 resolve

@@ -142,7 +142,6 @@ function
 (
 maskNode
 outlineNode
-rects
 )
 {
 Assert

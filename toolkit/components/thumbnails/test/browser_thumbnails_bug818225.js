@@ -87,7 +87,8 @@ url
 URL
 }
 async
-browser
+(
+)
 =
 >
 {

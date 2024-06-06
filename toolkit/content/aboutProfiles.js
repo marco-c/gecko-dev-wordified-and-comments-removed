@@ -744,7 +744,6 @@ click
 "
 function
 (
-e
 )
 {
 value

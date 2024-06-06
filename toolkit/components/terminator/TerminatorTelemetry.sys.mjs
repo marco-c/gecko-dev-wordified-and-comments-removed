@@ -379,9 +379,6 @@ observe
 function
 DS_observe
 (
-aSubject
-aTopic
-aData
 )
 {
 this

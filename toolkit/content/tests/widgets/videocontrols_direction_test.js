@@ -183,7 +183,6 @@ suspend
 "
 function
 (
-aEvent
 )
 {
 setTimeout

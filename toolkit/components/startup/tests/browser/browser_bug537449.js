@@ -229,10 +229,7 @@ close
 waitForOnBeforeUnloadDialog
 (
 browser
-(
 btnLeave
-btnStay
-)
 =
 >
 {

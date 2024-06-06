@@ -588,7 +588,6 @@ get
 (
 target
 prop
-receiver
 )
 {
 if

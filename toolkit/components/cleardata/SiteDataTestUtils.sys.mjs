@@ -1649,7 +1649,6 @@ onupgradeneeded
 =
 function
 (
-e
 )
 {
 data
@@ -1664,7 +1663,6 @@ onsuccess
 =
 function
 (
-e
 )
 {
 resolve
@@ -1827,7 +1825,6 @@ nsICacheEntryOpenCallback
 )
 onCacheEntryCheck
 (
-entry
 )
 {
 return
@@ -1840,9 +1837,6 @@ ENTRY_WANTED
 }
 onCacheEntryAvailable
 (
-entry
-isnew
-status
 )
 {
 resolve

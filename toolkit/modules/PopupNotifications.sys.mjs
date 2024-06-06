@@ -4778,7 +4778,8 @@ addEventListener
 "
 popuphidden
 "
-aEvent
+(
+)
 =
 >
 {
@@ -8848,7 +8849,6 @@ _popupshownListener
 =
 function
 (
-e
 )
 {
 target

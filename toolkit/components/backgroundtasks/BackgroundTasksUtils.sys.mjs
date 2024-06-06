@@ -1303,8 +1303,6 @@ addPref
 kind
 name
 value
-sticky
-locked
 )
 =
 >

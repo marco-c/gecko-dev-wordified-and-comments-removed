@@ -85,7 +85,6 @@ JSWindowActorParent
 {
 receiveMessage
 (
-aMessage
 )
 {
 let

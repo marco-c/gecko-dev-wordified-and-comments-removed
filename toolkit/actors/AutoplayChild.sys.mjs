@@ -85,7 +85,6 @@ JSWindowActorChild
 {
 handleEvent
 (
-event
 )
 {
 this

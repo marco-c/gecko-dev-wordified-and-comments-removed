@@ -790,7 +790,8 @@ result
 =
 >
 result
-r
+(
+)
 =
 >
 {

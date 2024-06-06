@@ -411,7 +411,6 @@ TM_observe
 (
 aSubject
 aTopic
-aData
 )
 {
 /

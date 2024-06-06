@@ -962,7 +962,6 @@ pagerendered
 "
 function
 (
-e
 )
 {
 document

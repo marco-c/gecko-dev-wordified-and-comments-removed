@@ -325,10 +325,6 @@ value
 maxColor
 =
 (
-{
-time
-value
-}
 )
 =
 >
@@ -349,10 +345,6 @@ value
 minColor
 =
 (
-{
-time
-value
-}
 )
 =
 >
@@ -366,7 +358,8 @@ Title
 color
 titleColor
 =
-title
+(
+)
 =
 >
 compStyle
@@ -414,12 +407,6 @@ provided
 datumColor
 =
 (
-{
-time
-value
-x
-width
-}
 )
 =
 >

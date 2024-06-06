@@ -85,7 +85,6 @@ forEach
 (
 [
 name
-value
 ]
 )
 =

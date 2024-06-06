@@ -711,7 +711,6 @@ handled
 /
 onPageShow
 (
-event
 )
 {
 /

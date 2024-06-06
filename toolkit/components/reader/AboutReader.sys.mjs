@@ -6698,7 +6698,6 @@ it
 _openDropdown
 (
 dropdown
-window
 )
 {
 if

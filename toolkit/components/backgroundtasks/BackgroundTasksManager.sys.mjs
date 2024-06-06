@@ -1139,7 +1139,6 @@ onDevtoolsThreadReady
 (
 subject
 topic
-data
 )
 {
 lazy

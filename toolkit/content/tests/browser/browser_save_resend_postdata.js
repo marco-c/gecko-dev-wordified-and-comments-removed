@@ -256,7 +256,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 MockFilePicker

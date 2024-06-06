@@ -925,16 +925,6 @@ function
 monkeyPatchRemoteSettingsClient
 (
 {
-last_modified
-=
-new
-Date
-(
-)
-.
-getTime
-(
-)
 data
 =
 [

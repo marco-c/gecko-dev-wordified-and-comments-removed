@@ -270,7 +270,6 @@ get
 (
 target
 property
-receiver
 )
 {
 /

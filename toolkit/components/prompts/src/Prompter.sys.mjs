@@ -12113,13 +12113,6 @@ result
 }
 asyncPromptAuth
 (
-channel
-callback
-context
-level
-authInfo
-checkLabel
-checkValue
 )
 {
 /
@@ -12473,8 +12466,6 @@ promptAuth
 channel
 level
 authInfo
-checkLabel
-checkValue
 )
 {
 let
@@ -12635,13 +12626,6 @@ ok
 }
 asyncPromptAuth
 (
-channel
-callback
-context
-level
-authInfo
-checkLabel
-checkValue
 )
 {
 throw

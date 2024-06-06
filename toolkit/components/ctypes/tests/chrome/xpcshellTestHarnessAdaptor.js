@@ -406,7 +406,6 @@ function
 do_get_file
 (
 path
-allowNonexistent
 )
 {
 if

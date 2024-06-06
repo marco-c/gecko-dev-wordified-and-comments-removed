@@ -262,7 +262,6 @@ accentcolor
 processColor
 (
 rgbaChannels
-element
 )
 {
 if
@@ -336,7 +335,6 @@ textcolor
 processColor
 (
 rgbaChannels
-element
 )
 {
 if
@@ -774,7 +772,6 @@ toolbar_field_highlight
 processColor
 (
 rgbaChannels
-element
 )
 {
 if
@@ -1145,7 +1142,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

@@ -341,7 +341,6 @@ complete
 function
 complete
 (
-success
 )
 {
 do_throw

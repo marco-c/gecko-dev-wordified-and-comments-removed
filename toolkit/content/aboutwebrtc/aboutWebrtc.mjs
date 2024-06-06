@@ -448,7 +448,6 @@ get
 (
 target
 prop
-receiver
 )
 {
 /
@@ -3353,7 +3352,8 @@ disclosure
 updateFn
 :
 async
-section
+(
+)
 =
 >
 {
@@ -11703,7 +11703,8 @@ disclosure
 updateFn
 =
 async
-section
+(
+)
 =
 >
 {
@@ -12437,7 +12438,8 @@ const
 updateFn
 =
 async
-section
+(
+)
 =
 >
 {

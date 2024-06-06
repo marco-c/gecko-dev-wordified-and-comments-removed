@@ -3911,7 +3911,6 @@ category
 function
 check_pin_repeat_is_correct
 (
-button
 )
 {
 let
@@ -5909,7 +5908,8 @@ addEventListener
 "
 beforeunload
 "
-event
+(
+)
 =
 >
 {

@@ -88,7 +88,6 @@ function
 (
 mdump
 extra
-extraFile
 )
 {
 Assert

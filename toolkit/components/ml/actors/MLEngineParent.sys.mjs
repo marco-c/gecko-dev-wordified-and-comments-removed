@@ -738,7 +738,6 @@ receiveMessage
 (
 {
 name
-data
 }
 )
 {

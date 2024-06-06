@@ -651,7 +651,6 @@ aListener
 _setResults
 (
 options
-mode
 )
 {
 if

@@ -193,7 +193,6 @@ checkWakelockWhenChangeTabVisibility
 description
 additionalParams
 needLock
-elementIdForEnteringPIPMode
 }
 )
 {

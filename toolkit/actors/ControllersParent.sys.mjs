@@ -287,8 +287,6 @@ aCommand
 }
 getCommandStateWithParams
 (
-aCommand
-aCommandParams
 )
 {
 throw

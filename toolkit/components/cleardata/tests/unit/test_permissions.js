@@ -404,7 +404,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_PERMISSIONS
-value
+(
+)
 =
 >
 aResolve
@@ -2084,7 +2085,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_PERMISSIONS
-value
+(
+)
 =
 >
 aResolve

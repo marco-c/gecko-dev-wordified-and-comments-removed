@@ -1155,8 +1155,6 @@ duration
 }
 setCutoutRectsForElement
 (
-id
-rects
 )
 {
 /
@@ -1619,9 +1617,6 @@ Object
 getForWindow
 (
 window
-propName
-=
-null
 )
 {
 if
@@ -4455,7 +4450,8 @@ this
 .
 _marksListener
 =
-event
+(
+)
 =
 >
 {
@@ -13057,7 +13053,6 @@ WillDeleteText
 (
 textNode
 offset
-length
 )
 {
 let
@@ -14107,7 +14102,6 @@ this
 Unimplemented
 notifyDocumentStateChanged
 (
-aDirty
 )
 {
 }

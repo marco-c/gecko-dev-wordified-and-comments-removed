@@ -311,7 +311,6 @@ aIndex
 }
 getImageAt
 (
-aIndex
 )
 {
 return
@@ -343,7 +342,6 @@ aIndex
 }
 isRemovableAt
 (
-aRowIndex
 )
 {
 return
@@ -352,7 +350,6 @@ true
 }
 removeValueAt
 (
-aRowIndex
 )
 {
 }
@@ -500,7 +497,6 @@ invalidate
 selectBy
 (
 reverse
-page
 )
 {
 let

@@ -2035,9 +2035,6 @@ nsISupportsWeakReference
 )
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 let

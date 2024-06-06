@@ -507,7 +507,6 @@ length
 (
 subject
 topic
-data
 )
 =
 >
@@ -1278,7 +1277,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

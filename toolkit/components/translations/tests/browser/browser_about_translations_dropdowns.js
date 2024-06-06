@@ -66,9 +66,6 @@ runInPage
 async
 (
 {
-dataForContent
-:
-languagePairs
 selectors
 }
 )

@@ -2030,7 +2030,6 @@ doc
 _formatLabelForThisApp
 (
 id
-options
 )
 {
 let
@@ -2063,7 +2062,6 @@ id
 _labelMatchesThisApp
 (
 label
-options
 )
 {
 let

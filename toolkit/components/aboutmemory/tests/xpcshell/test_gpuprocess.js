@@ -109,11 +109,6 @@ onHandleReport
 function
 (
 aProcess
-aPath
-aKind
-aUnits
-aAmount
-aDescription
 )
 {
 if

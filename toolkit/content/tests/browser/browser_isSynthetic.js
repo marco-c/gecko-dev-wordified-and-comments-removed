@@ -50,10 +50,6 @@ this
 }
 onLocationChange
 (
-webProgress
-request
-location
-flags
 )
 {
 this

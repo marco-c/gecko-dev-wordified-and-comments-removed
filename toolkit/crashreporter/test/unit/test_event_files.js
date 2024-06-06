@@ -126,10 +126,7 @@ test
 )
 ;
 }
-(
 minidump
-extra
-)
 =
 >
 {

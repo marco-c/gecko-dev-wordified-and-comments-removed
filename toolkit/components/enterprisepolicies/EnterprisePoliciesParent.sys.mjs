@@ -1952,7 +1952,6 @@ BG_observe
 (
 subject
 topic
-data
 )
 {
 switch

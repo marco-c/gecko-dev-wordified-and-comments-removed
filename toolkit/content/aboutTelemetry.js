@@ -1310,7 +1310,8 @@ addEventListener
 "
 click
 "
-ev
+(
+)
 =
 >
 {
@@ -5228,7 +5229,8 @@ addEventListener
 "
 click
 "
-e
+(
+)
 =
 >
 {
@@ -6057,7 +6059,6 @@ outerDiv
 processHistogram
 (
 aHgram
-aName
 )
 {
 const

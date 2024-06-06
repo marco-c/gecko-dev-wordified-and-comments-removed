@@ -83,7 +83,6 @@ async
 function
 runBackgroundTask
 (
-commandLine
 )
 {
 const

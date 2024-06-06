@@ -460,7 +460,6 @@ BLANK_PAGE
 async
 function
 (
-browser
 )
 {
 const
@@ -617,7 +616,6 @@ BLANK_PAGE
 async
 function
 (
-browser
 )
 {
 const

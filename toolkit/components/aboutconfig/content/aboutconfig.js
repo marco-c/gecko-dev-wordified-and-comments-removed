@@ -2896,7 +2896,8 @@ addEventListener
 "
 click
 "
-event
+(
+)
 =
 >
 {

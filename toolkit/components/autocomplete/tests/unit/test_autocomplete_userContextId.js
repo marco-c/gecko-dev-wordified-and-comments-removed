@@ -144,8 +144,6 @@ function
 (
 aSearchString
 aSearchParam
-aPreviousResult
-aListener
 )
 {
 unregisterAutoCompleteSearch

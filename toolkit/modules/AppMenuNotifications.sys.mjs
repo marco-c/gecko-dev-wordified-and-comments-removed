@@ -217,7 +217,6 @@ observe
 (
 subject
 topic
-status
 )
 {
 switch

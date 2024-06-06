@@ -187,7 +187,6 @@ obs
 (
 aSubject
 aTopic
-aData
 )
 =
 >

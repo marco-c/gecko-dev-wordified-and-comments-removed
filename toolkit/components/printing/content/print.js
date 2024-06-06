@@ -305,7 +305,6 @@ function
 serializeSettings
 (
 settings
-logPrefix
 )
 {
 let
@@ -511,7 +510,8 @@ addEventListener
 "
 DOMContentLoaded
 "
-e
+(
+)
 =
 >
 {
@@ -627,7 +627,8 @@ addEventListener
 "
 unload
 "
-e
+(
+)
 =
 >
 {
@@ -7649,7 +7650,6 @@ render
 }
 update
 (
-settings
 )
 {
 }
@@ -7717,7 +7717,6 @@ changedSettings
 }
 handleEvent
 (
-event
 )
 {
 }
@@ -8992,7 +8991,6 @@ settingName
 }
 handleEvent
 (
-e
 )
 {
 this
@@ -9094,7 +9092,6 @@ value
 }
 handleEvent
 (
-e
 )
 {
 this
@@ -9842,7 +9839,6 @@ true
 }
 handleEvent
 (
-e
 )
 {
 this
@@ -13728,7 +13724,6 @@ shouldOpen
 }
 handleEvent
 (
-e
 )
 {
 let

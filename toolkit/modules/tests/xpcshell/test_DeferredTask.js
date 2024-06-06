@@ -1556,10 +1556,7 @@ false
 ;
 replaceIdleDispatch
 (
-(
 callback
-timeout
-)
 =
 >
 {

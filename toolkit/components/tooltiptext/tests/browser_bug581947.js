@@ -344,7 +344,6 @@ function
 (
 [
 aElementName
-aBarred
 ]
 )
 {

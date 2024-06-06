@@ -1305,7 +1305,6 @@ originAttributes
 deleteByRange
 (
 aFrom
-aTo
 )
 {
 return
@@ -3243,7 +3242,6 @@ PasswordsCleaner
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 /
@@ -3489,7 +3487,6 @@ async
 deleteByRange
 (
 aFrom
-aTo
 )
 {
 let
@@ -4566,7 +4563,6 @@ async
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 /
@@ -5029,7 +5025,8 @@ true
 .
 then
 (
-exceptionThrown
+(
+)
 =
 >
 {
@@ -5734,7 +5731,6 @@ aResolve
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 /
@@ -6200,7 +6196,6 @@ async
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 /
@@ -6290,7 +6285,6 @@ async
 deleteByRange
 (
 aFrom
-aTo
 )
 {
 Services
@@ -6334,7 +6328,6 @@ HistoryCleaner
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 if
@@ -6526,7 +6519,6 @@ async
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 /
@@ -6621,7 +6613,6 @@ async
 deleteByRange
 (
 aFrom
-aTo
 )
 {
 Services
@@ -7176,7 +7167,6 @@ entry
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 return
@@ -7233,7 +7223,6 @@ async
 deleteByRange
 (
 aFrom
-aTo
 )
 {
 Services
@@ -7287,7 +7276,6 @@ PreferencesCleaner
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 /
@@ -7424,7 +7412,6 @@ async
 deleteByRange
 (
 aFrom
-aTo
 )
 {
 let
@@ -8280,7 +8267,6 @@ ReportsCleaner
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 /
@@ -8466,7 +8452,6 @@ deleteAll
 deleteByRange
 (
 aFrom
-aTo
 )
 {
 return
@@ -8936,7 +8921,6 @@ async
 deleteByPrincipal
 (
 aPrincipal
-aIsUserRequest
 )
 {
 if
@@ -9266,7 +9250,6 @@ async
 deleteByPrincipal
 (
 aPrincipal
-aIsUserRequest
 )
 {
 if
@@ -9304,7 +9287,6 @@ async
 deleteByBaseDomain
 (
 aBaseDomain
-aIsUserRequest
 )
 {
 if
@@ -9363,7 +9345,6 @@ async
 deleteByHost
 (
 aHost
-aOriginAttributes
 )
 {
 if

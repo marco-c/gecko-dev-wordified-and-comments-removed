@@ -320,8 +320,6 @@ nsIObserver
 observe
 (
 subject
-topic
-data
 )
 {
 let

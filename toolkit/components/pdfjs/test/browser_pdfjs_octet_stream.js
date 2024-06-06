@@ -379,7 +379,6 @@ PDF_URL
 async
 function
 (
-newTabBrowser
 )
 {
 info

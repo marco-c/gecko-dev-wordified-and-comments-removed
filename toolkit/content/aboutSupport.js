@@ -151,7 +151,6 @@ load
 function
 onload
 (
-event
 )
 {
 try
@@ -6641,7 +6640,6 @@ click
 "
 function
 (
-event
 )
 {
 let
@@ -6823,7 +6821,8 @@ n
 .
 catch
 (
-err
+(
+)
 =
 >
 {
@@ -7064,7 +7063,8 @@ latencyString
 .
 catch
 (
-e
+(
+)
 =
 >
 {
@@ -10360,11 +10360,9 @@ sort
 (
 [
 prop1
-v1
 ]
 [
 prop2
-v2
 ]
 )
 =
@@ -11182,7 +11180,6 @@ _startNewLine
 }
 _startNewLine
 (
-lines
 )
 {
 let
@@ -11239,7 +11236,6 @@ push
 _appendText
 (
 text
-lines
 )
 {
 this
@@ -12167,7 +12163,6 @@ click
 "
 function
 (
-event
 )
 {
 ResetProfile
@@ -12210,7 +12205,6 @@ click
 async
 function
 (
-event
 )
 {
 const
@@ -12401,7 +12395,6 @@ click
 "
 function
 (
-event
 )
 {
 if
@@ -12497,7 +12490,6 @@ click
 "
 function
 (
-event
 )
 {
 let
@@ -12615,7 +12607,6 @@ click
 "
 function
 (
-event
 )
 {
 window
@@ -12689,7 +12680,6 @@ click
 "
 function
 (
-event
 )
 {
 PlacesDBUtils
@@ -12862,7 +12852,6 @@ click
 "
 function
 (
-event
 )
 {
 copyRawDataToClipboard
@@ -12890,7 +12879,6 @@ click
 "
 function
 (
-event
 )
 {
 copyContentsToClipboard
@@ -12917,7 +12905,6 @@ click
 "
 function
 (
-event
 )
 {
 openProfileDirectory

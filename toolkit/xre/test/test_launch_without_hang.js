@@ -661,7 +661,6 @@ PO_observe
 (
 aSubject
 aTopic
-aData
 )
 {
 info
@@ -812,7 +811,6 @@ PO_observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -959,7 +957,6 @@ notify
 function
 TC_notify
 (
-aTimer
 )
 {
 state

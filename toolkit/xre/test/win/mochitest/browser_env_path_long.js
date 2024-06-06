@@ -23,7 +23,6 @@ blank
 }
 function
 (
-browser
 )
 {
 ok

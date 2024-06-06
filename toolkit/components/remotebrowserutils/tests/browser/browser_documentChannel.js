@@ -203,7 +203,8 @@ onAuthRequired
 addListener
 (
 async
-details
+(
+)
 =
 >
 {
@@ -223,10 +224,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

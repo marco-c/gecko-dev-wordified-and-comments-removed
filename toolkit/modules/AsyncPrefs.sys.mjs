@@ -653,7 +653,6 @@ value
 reset
 (
 pref
-value
 )
 {
 if

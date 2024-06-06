@@ -260,7 +260,8 @@ source
 gBrowser
 }
 async
-browser
+(
+)
 =
 >
 {
@@ -323,7 +324,6 @@ selectedBrowser
 async
 function
 (
-arg
 )
 {
 let

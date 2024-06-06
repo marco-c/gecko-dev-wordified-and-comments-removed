@@ -113,7 +113,8 @@ addEventListener
 DOMContentLoaded
 "
 async
-e
+(
+)
 =
 >
 {
@@ -2622,7 +2623,8 @@ false
 .
 catch
 (
-err
+(
+)
 =
 >
 {

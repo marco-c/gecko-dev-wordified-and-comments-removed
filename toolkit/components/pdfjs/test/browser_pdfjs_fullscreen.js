@@ -54,9 +54,6 @@ let
 observe
 =
 (
-subject
-topic
-data
 )
 =
 >

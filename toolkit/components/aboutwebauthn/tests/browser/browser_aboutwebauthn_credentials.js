@@ -100,7 +100,8 @@ credentials
 .
 forEach
 (
-c
+(
+)
 =
 >
 {

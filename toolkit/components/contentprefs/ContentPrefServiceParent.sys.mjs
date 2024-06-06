@@ -566,7 +566,8 @@ return
 new
 Promise
 (
-resolve
+(
+)
 =
 >
 {

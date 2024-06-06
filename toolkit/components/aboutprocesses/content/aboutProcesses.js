@@ -3933,7 +3933,6 @@ isOpen
 displayDOMWindowRow
 (
 data
-parent
 )
 {
 const
@@ -5687,7 +5686,8 @@ addEventListener
 "
 visibilitychange
 "
-event
+(
+)
 =
 >
 {

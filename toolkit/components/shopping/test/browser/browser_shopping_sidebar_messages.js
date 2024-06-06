@@ -218,7 +218,8 @@ browser
 [
 ]
 async
-prodInfo
+(
+)
 =
 >
 {
@@ -450,7 +451,8 @@ browser
 [
 ]
 async
-prodInfo
+(
+)
 =
 >
 {
@@ -682,7 +684,8 @@ browser
 [
 ]
 async
-prodInfo
+(
+)
 =
 >
 {
@@ -912,7 +915,8 @@ browser
 [
 ]
 async
-prodInfo
+(
+)
 =
 >
 {

@@ -128,7 +128,6 @@ forEach
 (
 [
 name
-value
 ]
 )
 =

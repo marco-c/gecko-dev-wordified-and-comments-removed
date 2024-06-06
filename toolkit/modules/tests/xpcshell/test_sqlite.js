@@ -2141,7 +2141,6 @@ do_throw
 function
 onError
 (
-error
 )
 {
 resolve
@@ -2360,7 +2359,6 @@ null
 function
 onRow
 (
-row
 )
 {
 i
@@ -2594,7 +2592,6 @@ null
 function
 onRow
 (
-row
 )
 {
 i
@@ -2937,7 +2934,6 @@ do_throw
 function
 onError
 (
-error
 )
 {
 deferred
@@ -3041,7 +3037,6 @@ async
 function
 transaction
 (
-conn
 )
 {
 await
@@ -4714,7 +4709,6 @@ null
 function
 onRow
 (
-row
 )
 {
 if
@@ -6021,7 +6015,6 @@ executeAsync
 {
 handleCompletion
 (
-reason
 )
 {
 deferred
@@ -6070,7 +6063,6 @@ executeAsync
 {
 handleResult
 (
-resultSet
 )
 {
 }
@@ -6125,7 +6117,6 @@ reject
 }
 handleCompletion
 (
-reason
 )
 {
 print
@@ -6166,7 +6157,6 @@ executeAsync
 {
 handleCompletion
 (
-reason
 )
 {
 deferred

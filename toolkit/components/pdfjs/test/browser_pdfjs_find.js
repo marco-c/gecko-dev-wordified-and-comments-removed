@@ -74,7 +74,8 @@ withNewTab
 (
 OS_PDF_URL
 async
-browser
+(
+)
 =
 >
 {

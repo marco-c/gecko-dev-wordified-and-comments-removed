@@ -276,9 +276,6 @@ set
 function
 CPS_cache_set
 (
-group
-name
-val
 )
 {
 Object
@@ -1490,7 +1487,6 @@ onDone
 (
 reason
 ok
-gotRow
 )
 =
 >
@@ -6085,15 +6081,6 @@ method
 name
 .
 *
-param
-data
-This
-value
-depends
-on
-topic
-.
-*
 /
 observe
 :
@@ -6102,7 +6089,6 @@ CPS2_observe
 (
 subj
 topic
-data
 )
 {
 switch

@@ -546,7 +546,6 @@ onerror
 =
 function
 (
-evt
 )
 {
 args
@@ -688,7 +687,6 @@ evt
 onStateChange
 (
 xhrId
-evt
 )
 {
 var
