@@ -499,6 +499,8 @@ dismiss
 requireComponents
 .
 analytics
+.
+metrics
 requireComponents
 .
 core
@@ -509,8 +511,8 @@ requireComponents
 core
 .
 sessionManager
-viewLifecycleOwner
-.
+scope
+=
 lifecycleScope
 )
 )
