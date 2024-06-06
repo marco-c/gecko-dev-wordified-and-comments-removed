@@ -397,16 +397,6 @@ contentDescription
 =
 contentDescription
 }
-horizontalArrangement
-=
-Arrangement
-.
-spacedBy
-(
-4
-.
-dp
-)
 )
 {
 repeat
