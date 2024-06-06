@@ -457,8 +457,10 @@ telemetry
 trackPartnerUrlTypeMetric
 (
 url
-any
+listOf
 (
+first
+second
 )
 )
 }
