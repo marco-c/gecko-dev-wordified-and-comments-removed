@@ -2324,11 +2324,12 @@ navController
 .
 nav
 (
-R
+navController
+.
+currentDestination
+?
 .
 id
-.
-homeFragment
 directions
 )
 metrics
