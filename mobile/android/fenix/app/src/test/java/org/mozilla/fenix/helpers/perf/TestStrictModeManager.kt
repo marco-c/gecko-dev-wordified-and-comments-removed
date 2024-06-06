@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 helpers
+.
+perf
 import
 android
 .

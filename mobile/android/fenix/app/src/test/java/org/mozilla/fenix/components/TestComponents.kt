@@ -85,6 +85,8 @@ fenix
 .
 helpers
 .
+perf
+.
 TestStrictModeManager
 import
 org

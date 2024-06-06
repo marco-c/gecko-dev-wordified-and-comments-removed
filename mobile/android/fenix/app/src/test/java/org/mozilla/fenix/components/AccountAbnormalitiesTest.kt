@@ -187,6 +187,8 @@ fenix
 .
 helpers
 .
+perf
+.
 TestStrictModeManager
 import
 kotlin
