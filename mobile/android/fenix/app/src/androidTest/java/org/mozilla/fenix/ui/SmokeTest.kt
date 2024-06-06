@@ -1908,14 +1908,12 @@ true
 toggleReaderView
 (
 )
-mDevice
-.
-waitForIdle
-(
-)
 }
 browserScreen
 {
+waitForPageToLoad
+(
+)
 verifyPageContent
 (
 estimatedReadingTime
