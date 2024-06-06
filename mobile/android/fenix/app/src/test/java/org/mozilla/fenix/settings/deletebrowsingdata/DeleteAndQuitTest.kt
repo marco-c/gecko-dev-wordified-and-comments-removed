@@ -556,7 +556,7 @@ invoke
 )
 activity
 .
-finish
+finishAndRemoveTask
 (
 )
 }

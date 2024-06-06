@@ -327,7 +327,7 @@ dismiss
 )
 activity
 .
-finish
+finishAndRemoveTask
 (
 )
 }
