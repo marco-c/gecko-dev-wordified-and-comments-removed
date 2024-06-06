@@ -969,14 +969,14 @@ android
 layout_height
 =
 "
-40dp
+48dp
 "
 android
 :
 layout_marginTop
 =
 "
-8dp
+4dp
 "
 app
 :
@@ -1000,7 +1000,7 @@ mozac
 actionContainerItemSize
 =
 "
-40dp
+48dp
 "
 tools
 :
