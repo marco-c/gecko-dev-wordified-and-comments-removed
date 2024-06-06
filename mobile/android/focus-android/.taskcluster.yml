@@ -454,7 +454,8 @@ assembleKlarX86Nightly
 assembleRelease
 detektCheck
 ktlint
-lint
+lintFocusX86Debug
+lintKlarX86Nightly
 pmd
 checkstyle
 spotbugs
