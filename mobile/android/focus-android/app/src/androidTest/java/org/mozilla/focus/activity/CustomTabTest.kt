@@ -523,7 +523,7 @@ openCustomTabInFocusTest
 )
 {
 val
-customTabPage
+browserPage
 =
 webServer
 .
@@ -540,7 +540,7 @@ toString
 (
 )
 val
-browserPage
+customTabPage
 =
 webServer
 .
@@ -577,6 +577,10 @@ loadPage
 browserPage
 )
 {
+verifyPageURL
+(
+browserPage
+)
 }
 activityTestRule
 .
@@ -594,6 +598,10 @@ progressBar
 waitUntilGone
 (
 webPageLoadwaitingTime
+)
+verifyPageURL
+(
+customTabPage
 )
 openCustomTabMenu
 (
