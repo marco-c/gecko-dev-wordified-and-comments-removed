@@ -237,6 +237,12 @@ view
 .
 *
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
 mozilla
 .
 components
@@ -458,6 +464,7 @@ enabled
 Boolean
 )
 }
+ExperimentalCoroutinesApi
 SuppressWarnings
 (
 "

@@ -105,6 +105,12 @@ appbar
 .
 AppBarLayout
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
 mozilla
 .
 components
@@ -155,6 +161,7 @@ touch
 handling
 *
 /
+ExperimentalCoroutinesApi
 class
 SwipeRefreshScrollingViewBehavior
 (

@@ -97,6 +97,12 @@ lifecycle
 .
 LifecycleOwner
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
 mozilla
 .
 components
@@ -254,6 +260,7 @@ fenix
 theme
 .
 ThemeManager
+ExperimentalCoroutinesApi
 abstract
 class
 ToolbarIntegration
@@ -337,7 +344,7 @@ components
 .
 core
 .
-sessionManager
+store
 sessionId
 )
 init
@@ -403,6 +410,7 @@ invalidateActions
 )
 }
 }
+ExperimentalCoroutinesApi
 class
 DefaultToolbarIntegration
 (

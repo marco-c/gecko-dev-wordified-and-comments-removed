@@ -71,6 +71,12 @@ content
 .
 Context
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
 mozilla
 .
 components
@@ -114,6 +120,7 @@ components
 toolbar
 .
 ToolbarMenu
+ExperimentalCoroutinesApi
 class
 CustomTabToolbarIntegration
 (

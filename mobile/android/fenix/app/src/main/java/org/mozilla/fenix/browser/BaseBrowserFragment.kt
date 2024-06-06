@@ -6384,12 +6384,6 @@ val
 REQUEST_CODE_APP_PERMISSIONS
 =
 3
-private
-const
-val
-LOADING_PROGRESS_COMPLETE
-=
-100
 }
 override
 fun
