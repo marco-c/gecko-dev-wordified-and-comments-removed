@@ -728,7 +728,7 @@ channel
 .
 setShowBadge
 (
-true
+false
 )
 notificationManager
 .
