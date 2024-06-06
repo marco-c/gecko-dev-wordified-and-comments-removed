@@ -620,6 +620,13 @@ context
 settings
 .
 shouldUseNimbusPreview
+sharedPreferences
+=
+context
+.
+settings
+.
+preferences
 isFirstRun
 =
 isAppFirstRun

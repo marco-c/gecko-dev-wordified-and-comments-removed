@@ -603,6 +603,15 @@ settings
 )
 .
 nimbusUsePreview
+sharedPreferences
+=
+context
+.
+settings
+(
+)
+.
+preferences
 isFirstRun
 =
 isAppFirstRun
