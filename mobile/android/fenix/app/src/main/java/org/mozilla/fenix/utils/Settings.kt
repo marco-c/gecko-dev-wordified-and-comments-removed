@@ -3227,6 +3227,17 @@ true
 default
 =
 {
+shouldUseCookieBannerPrivateModeDefaultValue
+}
+)
+val
+shouldUseCookieBannerPrivateModeDefaultValue
+:
+Boolean
+get
+(
+)
+=
 cookieBannersSection
 [
 CookieBannersSection
@@ -3236,8 +3247,6 @@ FEATURE_SETTING_VALUE_PBM
 =
 =
 1
-}
-)
 val
 shouldUseCookieBanner
 :
