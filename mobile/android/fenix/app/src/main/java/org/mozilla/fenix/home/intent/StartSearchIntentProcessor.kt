@@ -284,9 +284,6 @@ actionGlobalSearch
 sessionId
 =
 null
-showShortcutEnginePicker
-=
-true
 )
 navController
 .

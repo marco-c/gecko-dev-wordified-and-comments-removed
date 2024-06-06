@@ -244,17 +244,6 @@ handleClickSearchEngineSettings
 (
 )
 }
-fun
-turnOnStartedTyping
-(
-)
-{
-searchController
-.
-handleTurnOnStartedTyping
-(
-)
-}
 override
 fun
 onExistingSessionSelected

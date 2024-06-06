@@ -198,9 +198,6 @@ verifyBrowserToolbar
 verifyScanButton
 (
 )
-verifyShortcutsButton
-(
-)
 }
 }
 Ignore

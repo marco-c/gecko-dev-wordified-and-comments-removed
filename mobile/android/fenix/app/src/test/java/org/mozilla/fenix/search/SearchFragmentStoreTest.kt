@@ -236,6 +236,15 @@ state
 .
 searchEngineSource
 )
+assertEquals
+(
+false
+store
+.
+state
+.
+showSearchShortcuts
+)
 }
 Test
 fun
@@ -287,7 +296,7 @@ store
 .
 state
 .
-showShortcutEnginePicker
+showSearchShortcuts
 )
 }
 private
@@ -314,10 +323,10 @@ defaultEngineSource
 mockk
 (
 )
-showShortcutEnginePicker
+showSearchSuggestions
 =
 false
-showSearchSuggestions
+showSearchShortcuts
 =
 false
 showClipboardSuggestions

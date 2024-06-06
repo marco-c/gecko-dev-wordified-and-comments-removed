@@ -1689,9 +1689,6 @@ actionHomeFragmentToSearchFragment
 sessionId
 =
 null
-showShortcutEnginePicker
-=
-true
 )
 val
 extras
@@ -1766,9 +1763,6 @@ actionHomeFragmentToSearchFragment
 sessionId
 =
 null
-showShortcutEnginePicker
-=
-true
 )
 nav
 (

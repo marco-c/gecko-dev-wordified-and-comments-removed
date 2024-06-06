@@ -884,7 +884,7 @@ if
 (
 state
 .
-showShortcutEnginePicker
+showSearchShortcuts
 )
 {
 view

@@ -442,9 +442,6 @@ actionGlobalSearch
 sessionId
 =
 null
-showShortcutEnginePicker
-=
-true
 )
 )
 }
