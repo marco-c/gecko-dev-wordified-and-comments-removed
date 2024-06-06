@@ -627,6 +627,15 @@ id
 /
 signInInstructions
 "
+app
+:
+fontFamily
+=
+"
+font
+/
+metropolis_semibold
+"
 /
 >
 <

@@ -216,6 +216,15 @@ isPreferenceVisible
 "
 false
 "
+android
+:
+layout
+=
+"
+layout
+/
+preference_cat_style
+"
 >
 <
 org
