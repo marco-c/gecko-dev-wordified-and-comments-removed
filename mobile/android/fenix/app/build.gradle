@@ -3088,7 +3088,7 @@ testImplementation
 Deps
 .
 robolectric
-debugImplementation
+implementation
 Deps
 .
 fragment_testing

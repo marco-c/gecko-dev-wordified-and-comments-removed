@@ -121,12 +121,6 @@ mockk
 .
 mockk
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 appservices
@@ -200,7 +194,6 @@ robolectric
 annotation
 .
 Config
-ObsoleteCoroutinesApi
 RunWith
 (
 RobolectricTestRunner
