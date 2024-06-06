@@ -512,7 +512,7 @@ textColor
 "
 color
 /
-button_text_color
+fx_mobile_text_color_action_secondary
 "
 android
 :
