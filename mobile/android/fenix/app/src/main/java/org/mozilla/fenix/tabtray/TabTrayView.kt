@@ -645,6 +645,15 @@ components
 useCases
 .
 tabsUseCases
+view
+.
+context
+.
+components
+.
+useCases
+.
+thumbnailUseCases
 {
 it
 .

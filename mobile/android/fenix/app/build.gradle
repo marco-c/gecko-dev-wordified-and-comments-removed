@@ -4627,10 +4627,6 @@ mozilla_browser_domains
 implementation
 Deps
 .
-mozilla_browser_tabstray
-implementation
-Deps
-.
 mozilla_browser_icons
 implementation
 Deps
@@ -4652,6 +4648,14 @@ implementation
 Deps
 .
 mozilla_browser_storage_sync
+implementation
+Deps
+.
+mozilla_browser_tabstray
+implementation
+Deps
+.
+mozilla_browser_thumbnails
 implementation
 Deps
 .
