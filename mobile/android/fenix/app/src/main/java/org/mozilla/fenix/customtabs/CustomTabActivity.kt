@@ -76,3 +76,10 @@ CustomTabActivity
 HomeActivity
 (
 )
+{
+override
+val
+isCustomTab
+=
+true
+}
