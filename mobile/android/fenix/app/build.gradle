@@ -3519,6 +3519,10 @@ mozilla_feature_webcompat
 implementation
 Deps
 .
+mozilla_service_sync_logins
+implementation
+Deps
+.
 mozilla_service_firefox_accounts
 implementation
 Deps
