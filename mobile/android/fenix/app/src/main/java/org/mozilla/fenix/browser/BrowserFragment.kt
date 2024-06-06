@@ -1568,6 +1568,9 @@ sessionManager
 sessionId
 =
 customTabSessionId
+interceptLinkClicks
+=
+false
 fragmentManager
 =
 requireFragmentManager
