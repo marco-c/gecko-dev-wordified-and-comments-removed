@@ -287,7 +287,9 @@ initializeMenu
 (
 fragment
 .
-session
+tab
+.
+content
 .
 url
 customTabConfig

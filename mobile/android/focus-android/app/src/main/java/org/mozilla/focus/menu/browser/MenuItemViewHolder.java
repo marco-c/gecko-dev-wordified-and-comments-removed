@@ -195,7 +195,11 @@ isLoading
 =
 browserFragment
 .
-getSession
+getTab
+(
+)
+.
+getContent
 (
 )
 .

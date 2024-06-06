@@ -221,7 +221,7 @@ findTabOrCustomTabOrSelectedTab
 (
 fragment
 .
-session
+tab
 .
 id
 )
@@ -296,9 +296,11 @@ updateTrackers
 (
 fragment
 .
-session
+tab
 .
-trackersBlocked
+trackingProtection
+.
+blockedTrackers
 .
 size
 )
@@ -315,9 +317,11 @@ if
 (
 fragment
 .
-session
+tab
 .
-trackerBlockingEnabled
+trackingProtection
+.
+enabled
 )
 {
 updateTrackingCount
@@ -467,7 +471,7 @@ removeException
 (
 fragment
 .
-session
+tab
 .
 id
 )
@@ -480,7 +484,7 @@ addException
 (
 fragment
 .
-session
+tab
 .
 id
 )
@@ -491,7 +495,9 @@ reload
 (
 fragment
 .
-session
+tab
+.
+id
 )
 }
 }

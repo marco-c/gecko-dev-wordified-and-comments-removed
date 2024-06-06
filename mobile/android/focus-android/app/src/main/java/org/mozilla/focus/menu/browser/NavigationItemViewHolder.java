@@ -120,7 +120,11 @@ updateLoading
 (
 fragment
 .
-getSession
+getTab
+(
+)
+.
+getContent
 (
 )
 .

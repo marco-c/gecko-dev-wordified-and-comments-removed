@@ -276,7 +276,9 @@ stripSchemeAndSubDomain
 (
 fragment
 .
-session
+tab
+.
+content
 .
 url
 )
