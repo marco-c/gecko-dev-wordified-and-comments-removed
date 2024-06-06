@@ -1760,8 +1760,8 @@ preferences_site_permissions
 "
 >
 Permessi
-del
-sito
+dei
+siti
 <
 /
 string
@@ -4908,7 +4908,7 @@ name
 history_delete_all
 "
 >
-Elimina
+Cancella
 cronologia
 <
 /
@@ -6870,7 +6870,7 @@ name
 tracking_protection_on
 "
 >
-Attivo
+Attiva
 <
 /
 string
@@ -6902,7 +6902,7 @@ name
 tracking_protection_off
 "
 >
-Disattivato
+Disattivata
 <
 /
 string
@@ -8472,7 +8472,7 @@ preference_accessibility_font_size_title
 "
 >
 Dimensione
-carattere
+caratteri
 <
 /
 string
@@ -8548,7 +8548,7 @@ la
 dimensione
 dei
 caratteri
-qui
+separatamente
 .
 <
 /
