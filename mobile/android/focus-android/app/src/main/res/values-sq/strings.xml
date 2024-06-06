@@ -4931,7 +4931,7 @@ je
 1
 s
 -
-in
+un
 shfletuesin
 parazgjedhje
 <
@@ -5073,7 +5073,7 @@ suar
 1
 s
 -
-in
+un
 p
 r
 k
@@ -5271,7 +5271,7 @@ Mbi
 1
 s
 -
-in
+un
 <
 /
 string
@@ -6698,7 +6698,7 @@ lini
 1
 s
 -
-in
+un
 ta
 hap
 k
@@ -6859,7 +6859,7 @@ lini
 1
 s
 -
-in
+un
 t
 k
 rkoj
@@ -7387,7 +7387,7 @@ jeni
 1
 s
 -
-in
+un
 parazgjedhjen
 tuaj
 q
@@ -7551,9 +7551,9 @@ t
 ju
 gjurmoj
 nga
-sajti
+sajte
 n
-sajt
+sajte
 dhe
 t
 ul
@@ -7745,19 +7745,11 @@ s
 Thjesht
 p
 rzgjidhni
-\
-&
-quot
-;
 Shtoje
 te
 skena
 e
 Kreut
-\
-&
-quot
-;
 q
 nga
 menuja
@@ -7766,7 +7758,7 @@ e
 1
 s
 -
-it
+ut
 .
 <
 /
@@ -7854,7 +7846,7 @@ reni
 1
 s
 -
-in
+un
 si
 shfletuesin
 tuaj
@@ -13795,11 +13787,9 @@ name
 preference_category_block_cookies
 "
 >
-Do
+Doni
 t
-donit
-t
-bllokoni
+bllokohen
 cookie
 -
 t
@@ -14636,7 +14626,7 @@ e
 1
 s
 -
-it
+ut
 <
 /
 string

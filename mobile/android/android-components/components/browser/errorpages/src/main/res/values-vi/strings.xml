@@ -3164,6 +3164,7 @@ Lo
 i
 t
 p
+tin
 kh
 ng
 an
@@ -3742,14 +3743,14 @@ name
 mozac_browser_errorpages_unknown_host_title
 "
 >
-a
-ch
-kh
+Kh
 ng
 t
 m
 th
 y
+a
+ch
 <
 /
 string
@@ -4587,6 +4588,7 @@ th
 y
 t
 p
+tin
 <
 /
 string
@@ -4727,7 +4729,9 @@ name
 mozac_browser_errorpages_file_access_denied_title
 "
 >
-Truy
+Quy
+n
+truy
 c
 p
 t
@@ -5242,6 +5246,7 @@ S
 c
 trang
 web
+c
 ph
 n
 m
