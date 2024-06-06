@@ -83,6 +83,7 @@ adapter
 .
 itemCount
 >
+=
 minItemCount
 )
 {
