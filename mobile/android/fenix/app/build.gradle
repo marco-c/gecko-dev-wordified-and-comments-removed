@@ -3896,6 +3896,10 @@ mozilla_feature_tab_collections
 implementation
 Deps
 .
+mozilla_feature_top_sites
+implementation
+Deps
+.
 mozilla_feature_accounts_push
 implementation
 Deps
