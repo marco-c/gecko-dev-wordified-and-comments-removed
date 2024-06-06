@@ -413,11 +413,6 @@ preferences
 enableSearchSuggestions
 (
 )
-fetcher
-.
-restartJob
-(
-)
 updateState
 (
 )
@@ -437,11 +432,6 @@ disableSearchSuggestions
 (
 )
 {
-fetcher
-.
-cancelJobs
-(
-)
 preferences
 .
 disableSearchSuggestions
