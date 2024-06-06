@@ -332,7 +332,7 @@ Mode
 verifyHTTPSOnlyModeButton
 (
 )
-verifyHTTPSOnlyModeState
+verifyHTTPSOnlyModeSummary
 (
 "
 Off
