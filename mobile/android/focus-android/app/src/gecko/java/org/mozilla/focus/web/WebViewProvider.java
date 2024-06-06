@@ -371,13 +371,6 @@ true
 ;
 runtimeSettingsBuilder
 .
-javaCrashReportingEnabled
-(
-true
-)
-;
-runtimeSettingsBuilder
-.
 nativeCrashReportingEnabled
 (
 true

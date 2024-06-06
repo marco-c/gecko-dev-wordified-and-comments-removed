@@ -75,14 +75,14 @@ geckoview_nightly_date
 .
 06
 .
-22
+25
 '
 ext
 .
 geckoview_revision
 =
 '
-6b6f3f6ecf142908b3e437d3bc3fac75540a9bcb
+4f6e597104dabedfecfafa2ab63dc79fd7f8bc7a
 '
 ext
 .
@@ -93,7 +93,7 @@ geckoview_nightly_version
 .
 0
 .
-20180622100434
+20180625100038
 '
 ext
 .
