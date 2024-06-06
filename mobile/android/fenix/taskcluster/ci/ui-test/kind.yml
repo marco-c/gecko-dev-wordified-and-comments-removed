@@ -91,7 +91,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -705,7 +705,7 @@ type
 b
 -
 android
-jobs
+tasks
 :
 x86
 -

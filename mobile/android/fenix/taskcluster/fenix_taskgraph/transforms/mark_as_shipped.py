@@ -105,14 +105,14 @@ def
 make_task_description
 (
 config
-jobs
+tasks
 )
 :
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 product
@@ -138,7 +138,7 @@ ver
 }
 "
         
-job
+task
 [
 "
 worker
@@ -197,4 +197,4 @@ build_number
 )
         
 yield
-job
+task

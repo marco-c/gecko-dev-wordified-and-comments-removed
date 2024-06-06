@@ -97,7 +97,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -235,7 +235,7 @@ of
 trust
 :
 true
-jobs
+tasks
 :
 android
 -

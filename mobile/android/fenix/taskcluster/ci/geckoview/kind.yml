@@ -28,7 +28,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -46,7 +46,7 @@ using
 index
 -
 search
-jobs
+tasks
 :
 nightly
 :

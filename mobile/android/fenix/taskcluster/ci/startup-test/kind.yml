@@ -83,7 +83,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -293,7 +293,7 @@ android
 test
 -
 nightly
-jobs
+tasks
 :
 nightly
 -
