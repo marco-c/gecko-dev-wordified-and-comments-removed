@@ -4865,7 +4865,11 @@ path
 endsWith
 (
 "
-/
+{
+File
+.
+separator
+}
 strings
 .
 xml
@@ -4884,9 +4888,9 @@ parent
 .
 tokenize
 (
-'
-/
-'
+File
+.
+separator
 )
 .
 last
