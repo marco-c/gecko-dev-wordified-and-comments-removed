@@ -1149,9 +1149,7 @@ PrivateShortcutCreateManager
 .
 doesPrivateBrowsingPinnedShortcutExist
 (
-requireContext
-(
-)
+context
 )
 }
 setupPreferences

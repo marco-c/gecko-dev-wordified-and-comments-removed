@@ -227,6 +227,15 @@ java
 )
 .
 pinnedShortcuts
+if
+(
+pinnedShortcuts
+.
+any
+(
+)
+)
+{
 for
 (
 s
@@ -259,6 +268,7 @@ PRIVATE_BROWSING_PINNED_SHORTCUT
 {
 return
 true
+}
 }
 }
 false
