@@ -594,9 +594,8 @@ polling
 -
 interval
 :
-180
+15
 #
-3
 minutes
 objects
 :

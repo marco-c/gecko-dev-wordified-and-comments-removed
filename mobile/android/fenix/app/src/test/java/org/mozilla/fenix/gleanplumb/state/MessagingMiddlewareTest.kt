@@ -529,12 +529,10 @@ messagingController
 NimbusMessagingController
 (
 messagingStorage
-clock
-=
+)
 {
 0L
 }
-)
 middlewareContext
 =
 mockk
@@ -1180,7 +1178,7 @@ coVerify
 {
 messagingController
 .
-onMessageDisplayed
+processDisplayedMessage
 (
 message
 )
@@ -2022,7 +2020,7 @@ coVerify
 {
 messagingController
 .
-onMessageDisplayed
+processDisplayedMessage
 (
 oldMessage
 )
@@ -2226,7 +2224,7 @@ coVerify
 {
 messagingController
 .
-onMessageDisplayed
+processDisplayedMessage
 (
 oldMessage
 )

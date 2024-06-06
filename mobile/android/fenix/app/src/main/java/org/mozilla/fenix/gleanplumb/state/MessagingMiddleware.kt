@@ -498,7 +498,7 @@ newMessage
 =
 controller
 .
-onMessageDisplayed
+processDisplayedMessage
 (
 oldMessage
 )
