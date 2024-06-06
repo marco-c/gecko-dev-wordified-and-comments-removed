@@ -279,6 +279,10 @@ signing
 :
 signing
 -
+apk
+-
+fenix
+-
 nightly
 signing
 -
@@ -287,6 +291,10 @@ android
 test
 :
 signing
+-
+apk
+-
+fenix
 -
 android
 -
@@ -318,6 +326,8 @@ signing
 public
 /
 build
+/
+fenix
 /
 arm64
 -
@@ -356,6 +366,8 @@ test
 public
 /
 build
+/
+fenix
 /
 noarch
 /
@@ -409,6 +421,8 @@ treeherder
 :
 symbol
 :
+fenix
+-
 nightly
 (
 startup
