@@ -12,11 +12,7 @@ envs
 "
 version
 "
-0
-.
-0
-.
-26
+python_envs_plugin
 "
 }
 apply
