@@ -464,6 +464,16 @@ itemToInteract
 Unit
 )
 {
+browserScreen
+{
+}
+.
+openTabDrawer
+{
+closeTab
+(
+)
+}
 homeScreen
 {
 }
