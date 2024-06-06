@@ -1874,6 +1874,9 @@ SuppressWarnings
 "
 ComplexMethod
 "
+"
+LongMethod
+"
 )
 private
 fun
@@ -2475,6 +2478,12 @@ show
 )
 }
 }
+SuppressWarnings
+(
+"
+LongMethod
+"
+)
 private
 fun
 handleCollectionAction
@@ -4435,6 +4444,11 @@ Animator
 ?
 )
 {
+/
+*
+noop
+*
+/
 }
 override
 fun
@@ -4446,6 +4460,11 @@ Animator
 ?
 )
 {
+/
+*
+noop
+*
+/
 }
 override
 fun

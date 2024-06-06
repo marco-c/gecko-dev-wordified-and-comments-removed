@@ -353,6 +353,12 @@ html
 "
 )
 }
+xml
+{
+enabled
+=
+false
+}
 }
 }
 configurations

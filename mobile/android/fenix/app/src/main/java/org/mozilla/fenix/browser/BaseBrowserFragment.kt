@@ -1137,6 +1137,9 @@ Suppress
 "
 ComplexMethod
 "
+"
+LongMethod
+"
 )
 CallSuper
 protected

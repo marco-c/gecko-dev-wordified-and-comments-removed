@@ -509,6 +509,9 @@ Suppress
 "
 TooManyFunctions
 "
+"
+LargeClass
+"
 )
 class
 BrowserFragment
