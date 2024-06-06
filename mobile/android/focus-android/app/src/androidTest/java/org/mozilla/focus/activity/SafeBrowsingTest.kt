@@ -221,7 +221,7 @@ R
 .
 string
 .
-errorpage_refresh
+mozac_browser_errorpages_page_refresh
 )
 get
 :
