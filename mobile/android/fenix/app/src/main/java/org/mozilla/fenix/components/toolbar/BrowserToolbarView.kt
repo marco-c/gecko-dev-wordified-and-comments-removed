@@ -507,6 +507,13 @@ offset
 :
 Int
 )
+fun
+onReaderModePressed
+(
+enabled
+:
+Boolean
+)
 }
 SuppressWarnings
 (
