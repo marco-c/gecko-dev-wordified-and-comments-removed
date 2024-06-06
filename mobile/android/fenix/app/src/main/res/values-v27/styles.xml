@@ -379,7 +379,9 @@ navigationBarColor
 "
 >
 ?
-foundation
+attr
+/
+layer1
 <
 /
 item
@@ -395,7 +397,9 @@ colorBackground
 "
 >
 ?
-foundation
+attr
+/
+layer1
 <
 /
 item
@@ -507,7 +511,9 @@ navigationBarColor
 "
 >
 ?
-foundation
+attr
+/
+layer1
 <
 /
 item
@@ -523,7 +529,9 @@ colorBackground
 "
 >
 ?
-foundation
+attr
+/
+layer1
 <
 /
 item
