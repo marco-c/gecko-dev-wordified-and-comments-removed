@@ -217,6 +217,16 @@ visible
 >
 <
 include
+android
+:
+id
+=
+"
++
+id
+/
+recently_closed_nav_empty
+"
 layout
 =
 "
