@@ -424,7 +424,7 @@ fenixLogo
 >
 drawable
 /
-ic_logo_wordmark
+ic_logo_wordmark_normal
 <
 /
 item
@@ -818,7 +818,7 @@ fenixLogo
 >
 drawable
 /
-ic_logo_wordmark_white
+ic_logo_wordmark_private
 <
 /
 item

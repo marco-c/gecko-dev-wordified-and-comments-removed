@@ -252,7 +252,7 @@ android
 layout_height
 =
 "
-wrap_content
+80dp
 "
 android
 :
@@ -268,7 +268,7 @@ layout_constraintWidth_percent
 "
 0
 .
-5
+75
 "
 app
 :
