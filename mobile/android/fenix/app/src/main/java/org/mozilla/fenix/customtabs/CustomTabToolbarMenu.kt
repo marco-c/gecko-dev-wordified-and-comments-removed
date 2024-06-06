@@ -175,9 +175,11 @@ mozilla
 .
 fenix
 .
-theme
+components
 .
-ThemeManager
+toolbar
+.
+ToolbarMenu
 import
 org
 .
@@ -185,11 +187,9 @@ mozilla
 .
 fenix
 .
-components
+theme
 .
-toolbar
-.
-ToolbarMenu
+ThemeManager
 class
 CustomTabToolbarMenu
 (
@@ -826,7 +826,7 @@ R
 .
 string
 .
-browser_menu_powered_by
+browser_menu_powered_by2
 appName
 )
 .
