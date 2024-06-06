@@ -127,7 +127,7 @@ onAttached
 (
 )
 {
-title
+summary
 =
 defaultSearchEngineName
 preferenceManager
@@ -195,7 +195,7 @@ pref_key_search_engine
 )
 )
 {
-title
+summary
 =
 defaultSearchEngineName
 }

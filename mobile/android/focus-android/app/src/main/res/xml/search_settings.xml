@@ -140,12 +140,12 @@ focus_preference_no_icon
 "
 android
 :
-summary
+title
 =
 "
 string
 /
-preference_search_engine_default
+preference_search_engine_label
 "
 /
 >

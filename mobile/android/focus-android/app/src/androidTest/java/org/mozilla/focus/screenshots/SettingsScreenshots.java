@@ -750,7 +750,7 @@ R
 .
 string
 .
-preference_search_engine_default
+preference_search_engine_label
 )
 )
 .
@@ -1050,7 +1050,7 @@ R
 .
 string
 .
-preference_search_engine_default
+preference_search_engine_label
 )
 )
 .
