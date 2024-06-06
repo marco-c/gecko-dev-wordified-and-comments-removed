@@ -1925,6 +1925,15 @@ safeInvalidateBrowserToolbarView
 (
 )
 }
+onShowTranslationsDialog
+=
+{
+browserToolbarInteractor
+.
+onTranslationsButtonClicked
+(
+)
+}
 )
 owner
 =
