@@ -129,7 +129,7 @@ java
 .
 util
 .
-*
+UUID
 private
 val
 Event
