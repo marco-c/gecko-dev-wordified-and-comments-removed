@@ -1982,12 +1982,6 @@ session
 Session
 )
 {
-super
-.
-onSessionSelected
-(
-session
-)
 if
 (
 !
