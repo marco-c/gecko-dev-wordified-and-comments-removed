@@ -813,6 +813,13 @@ IsPseudoDisplay
 :
 :
 No
+Screen
+:
+:
+IsHDR
+:
+:
+No
 hal
 :
 :
@@ -1258,6 +1265,13 @@ Screen
 :
 :
 IsPseudoDisplay
+:
+:
+No
+Screen
+:
+:
+IsHDR
 :
 :
 No
