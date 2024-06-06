@@ -1298,7 +1298,7 @@ Settings
 .
 Page
 .
-Search
+SearchAutocomplete
 )
 Screen
 .
