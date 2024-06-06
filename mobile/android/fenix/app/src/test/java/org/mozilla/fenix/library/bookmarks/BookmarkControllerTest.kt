@@ -717,6 +717,7 @@ tree
 .
 guid
 )
+null
 )
 }
 }
@@ -781,6 +782,7 @@ item
 .
 guid
 )
+null
 )
 }
 }
@@ -984,6 +986,7 @@ capture
 (
 navDirectionsSlot
 )
+null
 )
 }
 just
@@ -1003,6 +1006,7 @@ navigate
 navDirectionsSlot
 .
 captured
+null
 )
 }
 }

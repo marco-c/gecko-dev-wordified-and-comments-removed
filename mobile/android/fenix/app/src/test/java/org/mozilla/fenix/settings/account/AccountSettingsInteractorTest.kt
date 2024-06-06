@@ -294,6 +294,7 @@ AccountSettingsFragmentDirections
 actionAccountSettingsFragmentToSignOutFragment
 (
 )
+null
 )
 }
 }

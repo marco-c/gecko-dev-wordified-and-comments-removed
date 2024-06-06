@@ -176,6 +176,11 @@ sessionManager
 SessionManager
 private
 val
+isPrivate
+:
+Boolean
+private
+val
 showTabs
 :
 (
@@ -183,11 +188,6 @@ showTabs
 -
 >
 Unit
-private
-val
-isPrivate
-:
-Boolean
 )
 :
 Toolbar

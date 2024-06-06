@@ -257,6 +257,7 @@ navController
 navigate
 (
 navDirections
+null
 )
 )
 }

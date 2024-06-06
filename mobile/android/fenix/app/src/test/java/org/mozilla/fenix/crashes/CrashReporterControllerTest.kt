@@ -475,6 +475,7 @@ CrashReporterFragmentDirections
 actionCrashReporterFragmentToHomeFragment
 (
 )
+null
 )
 }
 }
