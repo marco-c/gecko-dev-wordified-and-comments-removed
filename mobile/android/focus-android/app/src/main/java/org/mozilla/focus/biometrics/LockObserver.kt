@@ -282,7 +282,7 @@ appBackgrounded
 .
 accumulateSamples
 (
-longArrayOf
+listOf
 (
 tabCount
 )
