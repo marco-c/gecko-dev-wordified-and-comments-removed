@@ -780,12 +780,11 @@ restored
 =
 false
 private
-val
+lateinit
+var
 job
-=
+:
 Job
-(
-)
 override
 val
 coroutineContext
@@ -1013,6 +1012,11 @@ onResume
 (
 )
 {
+job
+=
+Job
+(
+)
 storeTelemetrySnapshots
 (
 )

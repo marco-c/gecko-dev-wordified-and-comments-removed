@@ -253,12 +253,11 @@ Fragment
 CoroutineScope
 {
 private
-val
+lateinit
+var
 job
-=
+:
 Job
-(
-)
 override
 val
 coroutineContext
@@ -303,6 +302,11 @@ onResume
 super
 .
 onResume
+(
+)
+job
+=
+Job
 (
 )
 val
