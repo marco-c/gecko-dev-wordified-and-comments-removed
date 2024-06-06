@@ -1313,11 +1313,7 @@ toInt
 }
 view
 .
-engineView
-.
-asView
-(
-)
+swipeRefresh
 .
 apply
 {
@@ -4002,7 +3998,7 @@ remove
 the
 engineView
 here
-browserLayout
+swipeRefresh
 ?
 .
 removeView
