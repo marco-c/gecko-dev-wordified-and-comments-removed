@@ -325,7 +325,9 @@ CoroutineScope
 (
 Dispatchers
 .
-IO
+Main
+.
+immediate
 )
 init
 {
@@ -357,7 +359,6 @@ landscape
 .
 *
 /
-suspend
 fun
 applyCurrentWallpaper
 (
@@ -476,15 +477,10 @@ name
 lastObservedValue
 =
 currentValue
-wallpapersScope
-.
-launch
-{
 showWallpaper
 (
 currentValue
 )
-}
 }
 }
 .
@@ -499,7 +495,6 @@ resume
 }
 VisibleForTesting
 internal
-suspend
 fun
 showWallpaper
 (
@@ -515,6 +510,10 @@ wallpaperState
 .
 currentWallpaper
 )
+{
+wallpapersScope
+.
+launch
 {
 when
 (
@@ -593,6 +592,7 @@ wallpaperImageView
 isVisible
 =
 true
+}
 }
 }
 }
