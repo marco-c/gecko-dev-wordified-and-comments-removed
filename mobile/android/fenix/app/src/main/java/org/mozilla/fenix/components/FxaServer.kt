@@ -126,10 +126,9 @@ CLIENT_ID
 "
 a2270f727f45f648
 "
-fun
-redirectUrl
-(
-)
+const
+val
+REDIRECT_URL
 =
 "
 urn
