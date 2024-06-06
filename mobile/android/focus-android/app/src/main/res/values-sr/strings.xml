@@ -1565,7 +1565,7 @@ preference_subitem_autocomplete
 "
 >
 URL
--
+a
 <
 /
 string
@@ -1578,7 +1578,6 @@ name
 preference_switch_autocomplete
 "
 >
--
 <
 /
 string
@@ -1635,7 +1634,7 @@ name
 preference_autocomplete_subitem_customlist
 "
 >
-URLs
+URL
 <
 /
 string
@@ -1675,7 +1674,7 @@ name
 preference_autocomplete_title_remove
 "
 >
-URLs
+URL
 <
 /
 string
@@ -1700,7 +1699,7 @@ name
 preference_autocomplete_custom_summary
 "
 >
-URLs
+URL
 .
 <
 /
@@ -2481,6 +2480,19 @@ name
 search_add_error_empty_name
 "
 >
+<
+/
+string
+>
+<
+string
+name
+=
+"
+search_add_error_duplicate_name
+"
+>
+.
 <
 /
 string
