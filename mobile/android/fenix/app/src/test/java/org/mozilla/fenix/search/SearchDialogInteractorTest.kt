@@ -392,6 +392,8 @@ interactor
 onExistingSessionSelected
 (
 session
+.
+id
 )
 verify
 {
@@ -400,6 +402,8 @@ searchController
 handleExistingSessionSelected
 (
 session
+.
+id
 )
 }
 }

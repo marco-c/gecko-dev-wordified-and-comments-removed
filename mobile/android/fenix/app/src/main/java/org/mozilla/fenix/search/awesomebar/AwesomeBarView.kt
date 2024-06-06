@@ -636,6 +636,8 @@ interactor
 onExistingSessionSelected
 (
 session
+.
+id
 )
 }
 override

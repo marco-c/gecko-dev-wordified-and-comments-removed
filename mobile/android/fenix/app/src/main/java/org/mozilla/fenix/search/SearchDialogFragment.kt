@@ -1079,13 +1079,6 @@ SearchDialogController
 activity
 =
 activity
-sessionManager
-=
-requireComponents
-.
-core
-.
-sessionManager
 store
 =
 requireComponents
@@ -1093,6 +1086,13 @@ requireComponents
 core
 .
 store
+tabsUseCases
+=
+requireComponents
+.
+useCases
+.
+tabsUseCases
 fragmentStore
 =
 store
