@@ -216,6 +216,10 @@ tasks
 from
 :
 -
+buildconfig
+.
+yml
+-
 compare
 -
 locales
