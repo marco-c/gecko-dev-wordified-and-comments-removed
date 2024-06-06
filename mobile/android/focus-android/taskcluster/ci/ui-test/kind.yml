@@ -534,6 +534,10 @@ sh
 '
 '
 x86
+-
+start
+-
+test
 '
 '
 app
@@ -649,6 +653,10 @@ sh
 '
 '
 x86
+-
+beta
+-
+tests
 '
 '
 app
