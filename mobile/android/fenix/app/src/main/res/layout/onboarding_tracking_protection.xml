@@ -338,17 +338,6 @@ layout_constraintEnd_toEndOf
 "
 parent
 "
-android
-:
-theme
-=
-"
-style
-/
-Checkable
-.
-Colored
-"
 app
 :
 layout_constraintTop_toTopOf
