@@ -154,7 +154,7 @@ ANDROID
 |
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 )
 #
@@ -251,7 +251,7 @@ JS_ION_PERF
 &
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -705,7 +705,7 @@ value
 ;
 #
 elif
-XP_MACOSX
+XP_DARWIN
 return
 TimeStamp
 :
