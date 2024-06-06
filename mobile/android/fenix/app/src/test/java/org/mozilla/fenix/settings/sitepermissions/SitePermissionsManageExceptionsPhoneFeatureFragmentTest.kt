@@ -201,16 +201,6 @@ support
 .
 test
 .
-mock
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 robolectric
 .
 testContext
@@ -2500,7 +2490,7 @@ label
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission
@@ -2657,7 +2647,7 @@ label
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission
@@ -2815,7 +2805,7 @@ label
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission

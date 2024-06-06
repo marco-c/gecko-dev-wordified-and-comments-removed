@@ -65,6 +65,12 @@ fenix
 .
 ext
 import
+io
+.
+mockk
+.
+mockk
+import
 mozilla
 .
 components
@@ -76,16 +82,6 @@ state
 search
 .
 SearchEngine
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-mock
 import
 org
 .
@@ -152,7 +148,7 @@ custom
 "
 icon
 =
-mock
+mockk
 (
 )
 type
@@ -212,7 +208,7 @@ Custom
 "
 icon
 =
-mock
+mockk
 (
 )
 type
@@ -303,7 +299,7 @@ known
 "
 icon
 =
-mock
+mockk
 (
 )
 type
@@ -364,7 +360,7 @@ known
 "
 icon
 =
-mock
+mockk
 (
 )
 type

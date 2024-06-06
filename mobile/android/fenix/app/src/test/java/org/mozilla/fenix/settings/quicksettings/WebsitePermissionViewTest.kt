@@ -129,6 +129,12 @@ annotations
 .
 MockK
 import
+io
+.
+mockk
+.
+mockk
+import
 junit
 .
 framework
@@ -152,16 +158,6 @@ framework
 TestCase
 .
 assertEquals
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-mock
 import
 mozilla
 .
@@ -917,7 +913,7 @@ BlockAll
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission
@@ -935,7 +931,7 @@ AllowAll
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission
@@ -953,7 +949,7 @@ BlockAudible
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission
@@ -1061,7 +1057,7 @@ onItemSelectedListener
 .
 onItemSelected
 (
-mock
+mockk
 (
 )
 permissionView
@@ -1121,7 +1117,7 @@ onItemSelectedListener
 .
 onItemSelected
 (
-mock
+mockk
 (
 )
 permissionView

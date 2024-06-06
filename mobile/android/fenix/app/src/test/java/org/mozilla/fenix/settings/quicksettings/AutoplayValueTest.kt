@@ -89,6 +89,12 @@ annotations
 .
 MockK
 import
+io
+.
+mockk
+.
+mockk
+import
 mozilla
 .
 components
@@ -148,16 +154,6 @@ sitepermissions
 SitePermissionsRules
 .
 Action
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-mock
 import
 mozilla
 .
@@ -1420,7 +1416,7 @@ label
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission
@@ -1555,7 +1551,7 @@ label
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission
@@ -1690,7 +1686,7 @@ label
 "
 rules
 =
-mock
+mockk
 (
 )
 sitePermission

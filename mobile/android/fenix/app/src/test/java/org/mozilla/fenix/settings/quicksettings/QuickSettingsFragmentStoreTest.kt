@@ -225,16 +225,6 @@ support
 .
 test
 .
-mock
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 robolectric
 .
 testContext
@@ -1718,7 +1708,7 @@ websitePermissionsState
 initialWebsitePermissionsState
 trackingProtectionState
 =
-mock
+mockk
 (
 )
 )

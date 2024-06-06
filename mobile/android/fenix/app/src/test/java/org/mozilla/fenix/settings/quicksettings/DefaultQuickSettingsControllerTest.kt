@@ -279,16 +279,6 @@ support
 .
 test
 .
-mock
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 robolectric
 .
 testContext
@@ -1326,7 +1316,7 @@ any
 )
 }
 returns
-mock
+mockk
 (
 )
 controller

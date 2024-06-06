@@ -103,16 +103,6 @@ support
 .
 test
 .
-mock
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 robolectric
 .
 testContext
@@ -702,7 +692,7 @@ frameworkListener
 .
 onLost
 (
-mock
+mockk
 (
 )
 )
@@ -762,7 +752,7 @@ frameworkListener
 .
 onAvailable
 (
-mock
+mockk
 (
 )
 )
