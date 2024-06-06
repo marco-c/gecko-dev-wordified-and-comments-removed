@@ -180,8 +180,9 @@ android
 text
 =
 "
-Delete
-History
+string
+/
+delete_history
 "
 android
 :
