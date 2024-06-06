@@ -168,6 +168,13 @@ layout_marginStart
 "
 android
 :
+minHeight
+=
+"
+48dp
+"
+android
+:
 background
 =
 "
@@ -204,7 +211,7 @@ paddingTop
 "
 dimen
 /
-radio_button_preference_vertical
+checkbox_preference_padding_vertical
 "
 android
 :
@@ -213,7 +220,7 @@ paddingBottom
 "
 dimen
 /
-radio_button_preference_vertical
+checkbox_preference_padding_vertical
 "
 >
 <
