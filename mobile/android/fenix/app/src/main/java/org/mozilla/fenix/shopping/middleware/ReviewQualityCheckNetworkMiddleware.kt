@@ -536,6 +536,9 @@ ReanalyzeProduct
 ReviewQualityCheckAction
 .
 AnalyzeProduct
+ReviewQualityCheckAction
+.
+RestoreReanalysis
 -
 >
 {
@@ -934,7 +937,7 @@ dispatch
 (
 ReviewQualityCheckAction
 .
-ReanalyzeProduct
+RestoreReanalysis
 )
 }
 }

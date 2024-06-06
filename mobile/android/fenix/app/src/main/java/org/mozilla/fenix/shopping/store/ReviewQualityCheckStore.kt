@@ -574,6 +574,9 @@ ReanalyzeProduct
 ReviewQualityCheckAction
 .
 AnalyzeProduct
+ReviewQualityCheckAction
+.
+RestoreReanalysis
 -
 >
 {
