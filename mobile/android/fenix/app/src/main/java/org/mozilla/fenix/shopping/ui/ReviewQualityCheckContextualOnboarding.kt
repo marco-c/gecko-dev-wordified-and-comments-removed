@@ -573,7 +573,7 @@ R
 .
 string
 .
-review_quality_check_contextual_onboarding_privacy_policy
+review_quality_check_contextual_onboarding_privacy_policy_3
 )
 val
 termsOfUseText
@@ -795,7 +795,18 @@ R
 .
 string
 .
-review_quality_check_contextual_onboarding_caption
+review_quality_check_contextual_onboarding_caption_3
+stringResource
+(
+id
+=
+R
+.
+string
+.
+firefox
+)
+privacyPolicyText
 stringResource
 (
 id
@@ -806,7 +817,6 @@ string
 .
 shopping_product_name
 )
-privacyPolicyText
 termsOfUseText
 )
 linkTextStates
