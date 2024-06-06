@@ -396,6 +396,9 @@ SafeBrowsingNotificationBox
 TabDialogBox
 "
 "
+TabModalPromptBox
+"
+"
 gDialogBox
 "
 "
@@ -586,6 +589,9 @@ SubDialogManager
 "
 "
 TabCrashHandler
+"
+"
+TabModalPrompt
 "
 "
 TabsSetupFlowManager

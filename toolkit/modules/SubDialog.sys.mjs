@@ -1512,7 +1512,6 @@ this
 _frame
 .
 contentWindow
-?
 .
 close
 (
