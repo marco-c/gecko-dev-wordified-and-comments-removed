@@ -425,6 +425,7 @@ Mozilla
 About
 PrivacyExceptions
 PrivacyExceptionsRemove
+Studies
 SearchList
 SearchRemove
 SearchAdd

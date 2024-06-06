@@ -202,7 +202,7 @@ focus
 .
 autocomplete
 .
-AutocompletePreference
+StatePreference
 android
 :
 key
