@@ -1338,6 +1338,9 @@ showAddNewCollectionDialog
 showAddNewCollectionDialog
 )
 )
+store
+=
+tabTrayDialogStore
 isPrivate
 =
 isPrivate
