@@ -71,12 +71,6 @@ graphics
 .
 Bitmap
 import
-android
-.
-os
-.
-Parcelable
-import
 androidx
 .
 compose
@@ -141,7 +135,7 @@ compose
 .
 runtime
 .
-rememberCoroutineScope
+remember
 import
 androidx
 .
@@ -149,9 +143,7 @@ compose
 .
 runtime
 .
-saveable
-.
-rememberSaveable
+rememberCoroutineScope
 import
 androidx
 .
@@ -256,12 +248,6 @@ kotlinx
 coroutines
 .
 launch
-import
-kotlinx
-.
-parcelize
-.
-Parcelize
 import
 mozilla
 .
@@ -476,7 +462,7 @@ thumbnailStorage
 var
 state
 by
-rememberSaveable
+remember
 {
 mutableStateOf
 (
@@ -690,7 +676,6 @@ ThumbnailImage
 .
 *
 /
-Parcelize
 private
 data
 class
@@ -706,8 +691,6 @@ hasLoaded
 :
 Boolean
 )
-:
-Parcelable
 /
 *
 *
