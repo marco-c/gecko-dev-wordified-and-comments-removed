@@ -69,6 +69,12 @@ bookmarks
 .
 viewholders
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 mozilla
 .
 components
@@ -410,7 +416,8 @@ item
 selectionHolder
 )
 }
-private
+VisibleForTesting
+internal
 fun
 setColorsAndIcons
 (

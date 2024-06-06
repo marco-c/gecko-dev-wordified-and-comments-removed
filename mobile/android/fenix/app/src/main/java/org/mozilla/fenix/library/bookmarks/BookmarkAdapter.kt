@@ -87,6 +87,12 @@ ViewGroup
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 core
 .
 view
@@ -379,7 +385,8 @@ dispatchUpdatesTo
 this
 )
 }
-private
+VisibleForTesting
+internal
 class
 BookmarkDiffUtil
 (
