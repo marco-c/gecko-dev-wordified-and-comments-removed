@@ -809,6 +809,9 @@ action
 shortcut
 .
 suggestion
+type
+:
+string
 bugs
 :
 -

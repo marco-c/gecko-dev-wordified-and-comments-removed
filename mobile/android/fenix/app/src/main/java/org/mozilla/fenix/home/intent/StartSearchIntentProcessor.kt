@@ -141,7 +141,7 @@ components
 .
 metrics
 .
-Event
+MetricController
 import
 org
 .
@@ -153,7 +153,7 @@ components
 .
 metrics
 .
-MetricController
+MetricsUtils
 import
 org
 .
@@ -274,11 +274,9 @@ NoExtras
 (
 )
 )
-Event
+MetricsUtils
 .
-PerformedSearch
-.
-SearchAccessPoint
+Source
 .
 WIDGET
 }
@@ -288,11 +286,9 @@ PRIVATE_BROWSING_PINNED_SHORTCUT
 -
 >
 {
-Event
+MetricsUtils
 .
-PerformedSearch
-.
-SearchAccessPoint
+Source
 .
 SHORTCUT
 }

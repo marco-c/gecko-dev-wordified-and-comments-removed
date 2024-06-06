@@ -237,7 +237,7 @@ components
 .
 metrics
 .
-Event
+MetricsUtils
 import
 org
 .
@@ -414,11 +414,9 @@ showSyncedTabsSuggestions
 false
 searchAccessPoint
 =
-Event
+MetricsUtils
 .
-PerformedSearch
-.
-SearchAccessPoint
+Source
 .
 NONE
 )

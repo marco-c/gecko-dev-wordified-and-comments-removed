@@ -1565,9 +1565,8 @@ components
 .
 metrics
 .
-Event
-PerformedSearch
-SearchAccessPoint
+MetricsUtils
+Source
 "
 /
 >

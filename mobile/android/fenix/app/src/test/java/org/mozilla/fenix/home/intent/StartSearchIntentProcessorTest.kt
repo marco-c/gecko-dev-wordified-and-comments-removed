@@ -207,7 +207,7 @@ components
 .
 metrics
 .
-Event
+MetricController
 import
 org
 .
@@ -219,7 +219,7 @@ components
 .
 metrics
 .
-MetricController
+MetricsUtils
 import
 org
 .
@@ -502,11 +502,9 @@ sessionId
 null
 searchAccessPoint
 =
-Event
+MetricsUtils
 .
-PerformedSearch
-.
-SearchAccessPoint
+Source
 .
 WIDGET
 )
