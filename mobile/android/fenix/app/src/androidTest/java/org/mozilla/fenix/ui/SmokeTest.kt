@@ -3190,8 +3190,9 @@ openThreeDotMenu
 .
 openSettings
 {
-verifyDefaultBrowserIsDisabled
+verifyDefaultBrowserToggle
 (
+false
 )
 clickDefaultBrowserSwitch
 (
