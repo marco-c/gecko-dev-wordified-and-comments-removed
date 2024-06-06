@@ -215,7 +215,7 @@ Event
 .
 CollectionSaveButtonPressed
 (
-TELEMETRY_HOME_IDENITIFIER
+TELEMETRY_HOME_IDENTIFIER
 )
 )
 actionEmitter
@@ -238,7 +238,7 @@ object
 {
 const
 val
-TELEMETRY_HOME_IDENITIFIER
+TELEMETRY_HOME_IDENTIFIER
 =
 "
 home

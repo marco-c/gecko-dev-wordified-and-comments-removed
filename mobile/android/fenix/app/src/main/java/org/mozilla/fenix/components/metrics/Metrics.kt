@@ -741,6 +741,12 @@ CollectionAddTabPressed
 Event
 (
 )
+object
+CollectionRenamePressed
+:
+Event
+(
+)
 data
 class
 PreferenceToggled

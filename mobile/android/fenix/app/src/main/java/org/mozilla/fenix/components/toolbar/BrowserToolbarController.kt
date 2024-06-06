@@ -832,7 +832,7 @@ Event
 .
 CollectionSaveButtonPressed
 (
-TELEMETRY_BROWSER_IDENITIFIER
+TELEMETRY_BROWSER_IDENTIFIER
 )
 )
 currentSession
@@ -1349,10 +1349,10 @@ object
 private
 const
 val
-TELEMETRY_BROWSER_IDENITIFIER
+TELEMETRY_BROWSER_IDENTIFIER
 =
 "
-browser
+browserMenu
 "
 }
 }
