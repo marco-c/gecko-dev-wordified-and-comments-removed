@@ -2479,6 +2479,15 @@ IO
 {
 try
 {
+if
+(
+settings
+(
+)
+.
+showContileFeature
+)
+{
 components
 .
 core
@@ -2488,6 +2497,7 @@ contileTopSitesProvider
 refreshTopSitesIfCacheExpired
 (
 )
+}
 }
 catch
 (
