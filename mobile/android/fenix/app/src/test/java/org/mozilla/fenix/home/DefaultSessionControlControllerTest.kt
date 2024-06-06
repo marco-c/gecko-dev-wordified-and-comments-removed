@@ -491,6 +491,13 @@ showDeleteCollectionPrompt
 tabCollection
 :
 TabCollection
+title
+:
+String
+?
+message
+:
+String
 )
 -
 >
@@ -990,6 +997,10 @@ verify
 showDeleteCollectionPrompt
 (
 collection
+null
+any
+(
+)
 )
 }
 }
