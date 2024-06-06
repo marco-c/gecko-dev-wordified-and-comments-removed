@@ -374,6 +374,11 @@ modifier
 =
 Modifier
 .
+size
+(
+size
+)
+.
 background
 (
 color
