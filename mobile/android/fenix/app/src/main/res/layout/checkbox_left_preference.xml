@@ -209,12 +209,7 @@ android
 paddingEnd
 =
 "
-?
-android
-:
-attr
-/
-scrollbarSize
+16dp
 "
 >
 <
