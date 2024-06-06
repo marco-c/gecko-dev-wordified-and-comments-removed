@@ -135,6 +135,11 @@ rtc_stats
 cc
 "
 "
+rtc_stats_member
+.
+cc
+"
+"
 rtc_stats_report
 .
 cc
