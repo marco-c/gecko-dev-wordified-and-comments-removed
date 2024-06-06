@@ -55,7 +55,7 @@ __init__
 self
 task_id
 repo_url
-branch
+git_ref
 commit
 owner
 source
@@ -88,9 +88,9 @@ repo_url
         
 self
 .
-branch
+git_ref
 =
-branch
+git_ref
         
 self
 .
@@ -817,7 +817,7 @@ _OFFICIAL_REPO_URL
 and
 self
 .
-branch
+git_ref
 =
 =
 '
@@ -901,7 +901,7 @@ format
                     
 self
 .
-branch
+git_ref
 self
 .
 commit
@@ -938,7 +938,7 @@ format
                     
 self
 .
-branch
+git_ref
 product
 postfix
                 
@@ -986,7 +986,7 @@ format
                     
 self
 .
-branch
+git_ref
 self
 .
 date
@@ -1050,7 +1050,7 @@ format
                     
 self
 .
-branch
+git_ref
 .
 self
 .
@@ -1639,7 +1639,7 @@ self
 repo_url
 self
 .
-branch
+git_ref
 self
 .
 commit
