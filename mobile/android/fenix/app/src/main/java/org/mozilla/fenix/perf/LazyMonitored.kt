@@ -166,6 +166,11 @@ initializer
 >
 T
 )
+:
+Lazy
+<
+T
+>
 =
 LazyMonitored
 (
@@ -221,6 +226,7 @@ time
 .
 *
 /
+private
 class
 LazyMonitored
 <
