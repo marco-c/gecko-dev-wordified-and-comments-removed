@@ -625,7 +625,7 @@ defaultValue
 "
 string
 /
-preference_privacy_should_block_cookies_third_party_tracker_cookies_option
+preference_privacy_should_block_cookies_cross_site_option
 "
 android
 :
