@@ -1056,7 +1056,7 @@ name
 search_shortcuts_button
 "
 >
-Tastenkombinationen
+Shortcuts
 <
 /
 string
@@ -1232,7 +1232,7 @@ name
 preferences_category_basics
 "
 >
-Grundlagen
+Grundeinstellungen
 <
 /
 string
@@ -2161,6 +2161,7 @@ Letzte
 Synchronisation
 :
 %
+s
 <
 /
 string
@@ -2274,9 +2275,7 @@ preferences_mozilla_location_service
 >
 Mozilla
 -
-Location
--
-Service
+Standortdienst
 <
 /
 string
@@ -2318,10 +2317,10 @@ name
 preferences_fenix_health_report
 "
 >
-Gesundheitsbericht
-zu
 %
 s
+-
+Statusbericht
 <
 /
 string
