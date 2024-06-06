@@ -1558,10 +1558,6 @@ androidx_data_store_preferences
 implementation
 FocusDependencies
 .
-google_accompanist_insets_ui
-implementation
-FocusDependencies
-.
 google_play
 implementation
 FocusDependencies
