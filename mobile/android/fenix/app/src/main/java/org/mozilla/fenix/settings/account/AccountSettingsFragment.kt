@@ -631,6 +631,12 @@ syncDeviceName
 accountSettingsStore
 )
 }
+Suppress
+(
+"
+ComplexMethod
+"
+)
 override
 fun
 onCreatePreferences

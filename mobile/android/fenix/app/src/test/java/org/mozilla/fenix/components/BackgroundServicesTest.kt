@@ -509,10 +509,10 @@ setOf
 (
 SyncEngine
 .
-HISTORY
+History
 SyncEngine
 .
-BOOKMARKS
+Bookmarks
 )
 syncPeriodInMinutes
 =
