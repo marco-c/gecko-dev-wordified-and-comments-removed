@@ -3146,10 +3146,13 @@ open_tab_tray_single
 }
 else
 {
+String
+.
+format
+(
 view
 .
 context
-?
 .
 getString
 (
@@ -3158,6 +3161,7 @@ R
 string
 .
 open_tab_tray_plural
+)
 count
 .
 toString

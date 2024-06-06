@@ -358,6 +358,10 @@ sign_out_message
 .
 text
 =
+String
+.
+format
+(
 view
 .
 context
@@ -369,6 +373,7 @@ R
 string
 .
 sign_out_confirmation_message_2
+)
 view
 .
 context

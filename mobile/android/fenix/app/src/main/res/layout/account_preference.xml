@@ -196,6 +196,13 @@ icon
 "
 android
 :
+importantForAccessibility
+=
+"
+no
+"
+android
+:
 layout_width
 =
 "

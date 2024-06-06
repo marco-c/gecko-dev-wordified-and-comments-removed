@@ -467,6 +467,10 @@ app_name
 )
 summary
 =
+String
+.
+format
+(
 context
 .
 getString
@@ -476,6 +480,7 @@ R
 string
 .
 preferences_marketing_data_description
+)
 appName
 )
 onPreferenceChangeListener

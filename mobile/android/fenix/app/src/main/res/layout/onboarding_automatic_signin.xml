@@ -259,6 +259,13 @@ id
 /
 fxa_sign_in_button
 "
+style
+=
+"
+style
+/
+NeutralButton
+"
 android
 :
 layout_width

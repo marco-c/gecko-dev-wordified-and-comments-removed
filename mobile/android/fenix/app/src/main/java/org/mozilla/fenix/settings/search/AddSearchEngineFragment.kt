@@ -921,6 +921,10 @@ custom_search_engine_name_field
 .
 error
 =
+String
+.
+format
+(
 resources
 .
 getString
@@ -930,6 +934,7 @@ R
 string
 .
 search_add_custom_engine_error_existing_name
+)
 name
 )
 hasError

@@ -2433,6 +2433,10 @@ LastSyncTime
 Success
 -
 >
+String
+.
+format
+(
 getString
 (
 R
@@ -2440,6 +2444,7 @@ R
 string
 .
 sync_last_synced_summary
+)
 DateUtils
 .
 getRelativeTimeSpanString

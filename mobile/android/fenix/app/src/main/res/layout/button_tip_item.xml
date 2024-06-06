@@ -357,7 +357,7 @@ string
 /
 create_collection_close
 "
-android
+app
 :
 tint
 =

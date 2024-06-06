@@ -276,6 +276,12 @@ fenix
 theme
 .
 ThemeManager
+import
+java
+.
+util
+.
+Locale
 /
 *
 *
@@ -1148,6 +1154,11 @@ appName
 .
 toUpperCase
 (
+Locale
+.
+getDefault
+(
+)
 )
 textSize
 =
