@@ -101,7 +101,7 @@ requires
 python_version
 =
 "
-2
+3
 .
-7
+9
 "

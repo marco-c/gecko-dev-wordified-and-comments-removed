@@ -30,10 +30,12 @@ pytest
 import
 requests
 from
+.
 tps
 import
 TPS
 from
+.
 gradlewbuild
 import
 GradlewBuild
