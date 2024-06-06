@@ -57,6 +57,9 @@ that
 .
 repositories
 {
+mavenLocal
+(
+)
 maven
 {
 name
@@ -437,6 +440,9 @@ that
 .
 repositories
 {
+mavenLocal
+(
+)
 maven
 {
 name

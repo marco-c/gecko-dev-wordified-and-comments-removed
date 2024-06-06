@@ -41,9 +41,8 @@ appContext
 object
 Experimentation
 {
-private
 val
-nimbus
+experiments
 =
 appContext
 .
@@ -69,7 +68,7 @@ Unit
 val
 helper
 =
-nimbus
+experiments
 .
 createMessageHelper
 (
