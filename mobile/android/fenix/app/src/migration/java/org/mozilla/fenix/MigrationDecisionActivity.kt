@@ -216,6 +216,9 @@ progress
 MigrationProgress
 .
 NONE
+MigrationProgress
+.
+COMPLETED
 -
 >
 HomeActivity
@@ -227,9 +230,6 @@ java
 MigrationProgress
 .
 MIGRATING
-MigrationProgress
-.
-COMPLETED
 -
 >
 MigrationProgressActivity

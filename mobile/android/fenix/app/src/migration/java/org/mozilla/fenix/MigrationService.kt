@@ -94,16 +94,6 @@ fenix
 ext
 .
 components
-import
-org
-.
-mozilla
-.
-fenix
-.
-migration
-.
-MigrationProgressActivity
 /
 *
 *
@@ -158,7 +148,7 @@ override
 val
 migrationActivity
 =
-MigrationProgressActivity
+MigrationDecisionActivity
 :
 :
 class
