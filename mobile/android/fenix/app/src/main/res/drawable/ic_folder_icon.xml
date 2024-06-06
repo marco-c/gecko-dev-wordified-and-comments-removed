@@ -144,9 +144,8 @@ android
 fillColor
 =
 "
-color
-/
-primary_text_light_theme
+?
+primaryText
 "
 android
 :
