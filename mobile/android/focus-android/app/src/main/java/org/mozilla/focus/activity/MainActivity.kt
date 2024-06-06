@@ -406,6 +406,17 @@ savedInstanceState
 )
 if
 (
+!
+isTaskRoot
+)
+{
+finish
+(
+)
+return
+}
+if
+(
 Build
 .
 VERSION
