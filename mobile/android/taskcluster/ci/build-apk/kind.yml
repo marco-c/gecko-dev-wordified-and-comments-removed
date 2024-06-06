@@ -3836,13 +3836,6 @@ shippable
 secrets
 :
 true
-filter
--
-incomplete
--
-translations
-:
-true
 run
 :
 gradle
@@ -3981,13 +3974,6 @@ include
 shippable
 -
 secrets
-:
-true
-filter
--
-incomplete
--
-translations
 :
 true
 run
