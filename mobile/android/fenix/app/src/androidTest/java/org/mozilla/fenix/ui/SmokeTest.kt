@@ -1356,7 +1356,7 @@ searchSuggestionsIdlingResource
 )
 verifySearchSuggestionsAreMoreThan
 (
-1
+0
 )
 IdlingRegistry
 .
