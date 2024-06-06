@@ -1163,6 +1163,11 @@ deepLinkSchemeValue
 ]
 }
 }
+buildFeatures
+{
+viewBinding
+true
+}
 aaptOptions
 {
 /
