@@ -2971,6 +2971,9 @@ bing
 ddg
 "
 "
+rakuten
+"
+"
 wikipedia
 -
 ja
@@ -2979,6 +2982,13 @@ ja
 yahoo
 -
 jp
+"
+"
+yahoo
+-
+jp
+-
+auctions
 "
 ]
 }
