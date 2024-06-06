@@ -176,15 +176,6 @@ include
 "
 rtc_base
 /
-task_queue
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 task_utils
 /
 repeating_task
@@ -318,6 +309,10 @@ Stop
 (
 )
 ;
+task_queue_
+=
+nullptr
+;
 }
 void
 FrameGeneratorCapturer
@@ -400,7 +395,7 @@ DelayedStart
 (
 task_queue_
 .
-Get
+get
 (
 )
 TimeDelta
@@ -712,7 +707,7 @@ Start
 (
 task_queue_
 .
-Get
+get
 (
 )
 [
@@ -1207,7 +1202,8 @@ ForceFrame
 )
 {
 task_queue_
-.
+-
+>
 PostTask
 (
 [
