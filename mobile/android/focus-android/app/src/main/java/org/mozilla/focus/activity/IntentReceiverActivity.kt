@@ -167,6 +167,7 @@ lazy
 {
 IntentProcessor
 (
+this
 components
 .
 sessionManager
