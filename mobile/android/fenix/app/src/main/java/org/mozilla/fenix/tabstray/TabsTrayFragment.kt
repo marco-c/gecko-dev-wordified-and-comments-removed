@@ -1350,7 +1350,7 @@ settings
 requireComponents
 .
 settings
-newTabButton
+actionButton
 =
 tab_tray_new_tab
 browserTrayInteractor
