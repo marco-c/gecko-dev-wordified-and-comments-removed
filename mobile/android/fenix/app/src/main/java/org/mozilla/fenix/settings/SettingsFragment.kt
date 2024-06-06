@@ -1983,6 +1983,15 @@ pref_key_cookie_banner_settings
 -
 >
 {
+FxNimbus
+.
+features
+.
+cookieBanners
+.
+recordExposure
+(
+)
 CookieBanners
 .
 visitedSetting

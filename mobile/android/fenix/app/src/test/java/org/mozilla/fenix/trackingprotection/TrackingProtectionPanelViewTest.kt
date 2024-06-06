@@ -308,7 +308,7 @@ private
 val
 baseState
 =
-TrackingProtectionState
+ProtectionsState
 (
 tab
 =
@@ -320,6 +320,9 @@ url
 isTrackingProtectionEnabled
 =
 false
+isCookieBannerHandlingEnabled
+=
+false
 listTrackers
 =
 emptyList
@@ -327,7 +330,7 @@ emptyList
 )
 mode
 =
-TrackingProtectionState
+ProtectionsState
 .
 Mode
 .
@@ -426,7 +429,7 @@ copy
 (
 mode
 =
-TrackingProtectionState
+ProtectionsState
 .
 Mode
 .
@@ -552,7 +555,7 @@ copy
 (
 mode
 =
-TrackingProtectionState
+ProtectionsState
 .
 Mode
 .
@@ -650,7 +653,7 @@ copy
 (
 mode
 =
-TrackingProtectionState
+ProtectionsState
 .
 Mode
 .
@@ -697,7 +700,7 @@ copy
 (
 mode
 =
-TrackingProtectionState
+ProtectionsState
 .
 Mode
 .
@@ -875,7 +878,7 @@ copy
 (
 mode
 =
-TrackingProtectionState
+ProtectionsState
 .
 Mode
 .
@@ -994,7 +997,7 @@ copy
 (
 mode
 =
-TrackingProtectionState
+ProtectionsState
 .
 Mode
 .

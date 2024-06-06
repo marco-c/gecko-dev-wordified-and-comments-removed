@@ -169,7 +169,7 @@ fenix
 .
 trackingprotection
 .
-TrackingProtectionState
+ProtectionsState
 import
 org
 .
@@ -204,7 +204,7 @@ Partitioned
 further
 to
 contain
-mutiple
+multiple
 states
 for
 each
@@ -229,9 +229,9 @@ websitePermissionsState
 :
 WebsitePermissionsState
 val
-trackingProtectionState
+protectionsState
 :
-TrackingProtectionState
+ProtectionsState
 )
 :
 State

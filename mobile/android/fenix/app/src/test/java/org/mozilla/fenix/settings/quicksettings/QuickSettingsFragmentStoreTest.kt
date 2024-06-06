@@ -417,7 +417,7 @@ fenix
 .
 trackingprotection
 .
-TrackingProtectionState
+ProtectionsState
 import
 org
 .
@@ -616,6 +616,9 @@ id
 isTrackingProtectionEnabled
 =
 true
+isCookieHandlingEnabled
+=
+true
 )
 assertNotNull
 (
@@ -649,7 +652,7 @@ store
 .
 state
 .
-trackingProtectionState
+protectionsState
 )
 }
 Test
@@ -1708,7 +1711,7 @@ websiteInfoState
 websitePermissionsState
 =
 initialWebsitePermissionsState
-trackingProtectionState
+protectionsState
 =
 mockk
 (
@@ -2253,6 +2256,10 @@ val
 isTrackingProtectionEnabled
 =
 true
+val
+isCookieHandlingEnabled
+=
+true
 every
 {
 context
@@ -2290,6 +2297,9 @@ id
 isTrackingProtectionEnabled
 =
 isTrackingProtectionEnabled
+isCookieHandlingEnabled
+=
+isCookieHandlingEnabled
 )
 assertNotNull
 (
@@ -2322,6 +2332,13 @@ isTrackingProtectionEnabled
 )
 assertEquals
 (
+isCookieHandlingEnabled
+state
+.
+isCookieBannerHandlingEnabled
+)
+assertEquals
+(
 0
 state
 .
@@ -2331,7 +2348,7 @@ size
 )
 assertEquals
 (
-TrackingProtectionState
+ProtectionsState
 .
 Mode
 .
