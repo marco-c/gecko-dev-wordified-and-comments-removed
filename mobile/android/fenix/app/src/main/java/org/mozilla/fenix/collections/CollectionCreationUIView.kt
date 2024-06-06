@@ -1174,9 +1174,16 @@ view
 bottom_bar_icon_button
 .
 setOnClickListener
+{
+actionEmitter
+.
+onNext
 (
-null
+CollectionCreationAction
+.
+AddNewCollection
 )
+}
 view
 .
 bottom_button_bar_layout
