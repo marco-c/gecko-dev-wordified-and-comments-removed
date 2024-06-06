@@ -335,6 +335,16 @@ mozilla
 .
 fenix
 .
+exceptions
+.
+ExceptionsFragmentDirections
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -2170,4 +2180,5 @@ FromSettings
 FromBookmarks
 FromBookmarksFolderSelect
 FromHistory
+FromExceptions
 }
