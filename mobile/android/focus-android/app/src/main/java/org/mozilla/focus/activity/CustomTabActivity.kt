@@ -490,6 +490,10 @@ override
 fun
 onCreateView
 (
+parent
+:
+View
+?
 name
 :
 String
@@ -543,6 +547,7 @@ super
 .
 onCreateView
 (
+parent
 name
 context
 attrs
