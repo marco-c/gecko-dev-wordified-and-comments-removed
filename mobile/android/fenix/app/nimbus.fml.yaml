@@ -39,8 +39,6 @@ beta
 nightly
 -
 developer
--
-withGeckoBinariesFenixDebug
 includes
 :
 -
