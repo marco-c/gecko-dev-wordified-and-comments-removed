@@ -412,6 +412,12 @@ destroy
 (
 )
 {
+geckoSession
+.
+closeWindow
+(
+)
+;
 }
 Override
 public
