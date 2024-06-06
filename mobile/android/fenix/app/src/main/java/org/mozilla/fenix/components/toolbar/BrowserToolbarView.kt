@@ -1131,10 +1131,12 @@ view
 .
 layoutParams
 as
+?
 CoordinatorLayout
 .
 LayoutParams
 )
+?
 .
 apply
 {
