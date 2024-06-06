@@ -1172,6 +1172,16 @@ handleEraseButtonClick
 (
 )
 {
+Events
+.
+browserToolbarEraseTapped
+.
+record
+(
+NoExtras
+(
+)
+)
 homeViewModel
 .
 sessionToDelete
