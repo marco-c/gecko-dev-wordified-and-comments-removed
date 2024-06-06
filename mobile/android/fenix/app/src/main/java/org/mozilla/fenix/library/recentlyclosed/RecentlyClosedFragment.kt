@@ -559,13 +559,6 @@ requireComponents
 useCases
 .
 tabsUseCases
-sessionManager
-=
-requireComponents
-.
-core
-.
-sessionManager
 resources
 =
 requireContext
