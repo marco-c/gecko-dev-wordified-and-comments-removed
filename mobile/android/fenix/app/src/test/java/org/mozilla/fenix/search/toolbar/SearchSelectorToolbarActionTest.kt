@@ -1526,7 +1526,10 @@ false
 showClipboardSuggestions
 =
 false
-showHistorySuggestions
+showHistorySuggestionsForCurrentEngine
+=
+true
+showAllHistorySuggestions
 =
 false
 showBookmarkSuggestions
