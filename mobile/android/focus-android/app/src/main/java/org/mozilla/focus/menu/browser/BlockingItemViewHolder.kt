@@ -315,13 +315,14 @@ Int
 {
 if
 (
+!
 fragment
 .
 tab
 .
 trackingProtection
 .
-enabled
+ignoredOnTrackingProtection
 )
 {
 updateTrackingCount
