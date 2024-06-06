@@ -1951,9 +1951,7 @@ visibility
 View
 .
 VISIBLE
-addToAutocompelte
-?
-.
+val
 text
 =
 context
@@ -1974,6 +1972,12 @@ urlView
 .
 text
 )
+addToAutocompelte
+?
+.
+text
+=
+text
 }
 addToAutocompelte
 .
