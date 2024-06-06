@@ -1456,12 +1456,6 @@ top
 showKeyboard
 (
 )
-Suppress
-(
-"
-MaxLineLength
-"
-)
 toolbarBackgroundView
 .
 background
