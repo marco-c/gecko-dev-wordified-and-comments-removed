@@ -486,7 +486,7 @@ class
 )
 public
 class
-URLCompletionTest
+URLAutocompleteTest
 {
 private
 String

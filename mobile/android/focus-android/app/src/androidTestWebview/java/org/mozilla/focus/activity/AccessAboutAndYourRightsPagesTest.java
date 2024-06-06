@@ -313,7 +313,7 @@ class
 )
 public
 class
-PageVisitTest
+AccessAboutAndYourRightsPagesTest
 {
 Rule
 public
@@ -450,7 +450,7 @@ finishAndRemoveTask
 Test
 public
 void
-visitPagesTest
+AccessAboutAndYourRightsPagesTest
 (
 )
 {

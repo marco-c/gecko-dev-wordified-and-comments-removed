@@ -233,7 +233,7 @@ class
 )
 public
 class
-SearchEngineSelectionTest
+ChangeSearchEngineTest
 {
 Parameterized
 .

@@ -238,7 +238,7 @@ class
 )
 public
 class
-AddtoHSTest
+AddToHomescreenTest
 {
 private
 static
