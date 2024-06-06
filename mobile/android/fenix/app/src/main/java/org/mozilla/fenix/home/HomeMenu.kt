@@ -1061,7 +1061,7 @@ R
 .
 drawable
 .
-mozac_ic_help
+mozac_ic_help_circle_24
 primaryTextColor
 )
 {
