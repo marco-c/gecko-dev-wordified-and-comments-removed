@@ -271,7 +271,7 @@ CAMERA
 sitePermissions
 ?
 .
-cameraBack
+camera
 ?
 .
 toString

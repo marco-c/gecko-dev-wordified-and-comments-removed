@@ -91,7 +91,7 @@ service
 .
 glean
 .
-metrics
+private
 .
 NoExtraKeys
 import
