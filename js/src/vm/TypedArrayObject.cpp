@@ -692,6 +692,9 @@ TypedArrayObject
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 static
 bool
 IsUint8ArrayObject
@@ -731,6 +734,8 @@ Scalar
 Uint8
 ;
 }
+#
+endif
 bool
 TypedArrayObject
 :
@@ -10160,6 +10165,9 @@ args
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 using
 ByteVector
 =
@@ -14821,6 +14829,8 @@ args
 )
 ;
 }
+#
+endif
 const
 JSFunctionSpec
 TypedArrayObject
@@ -16332,6 +16342,9 @@ undef
 IMPL_TYPED_ARRAY_PROPERTIES
 }
 ;
+#
+ifdef
+NIGHTLY_BUILD
 static
 const
 JSFunctionSpec
@@ -16408,6 +16421,8 @@ uint8array_toHex
 JS_FS_END
 }
 ;
+#
+endif
 static
 constexpr
 const
@@ -16422,6 +16437,9 @@ Type
 type
 )
 {
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 type
@@ -16437,6 +16455,8 @@ return
 uint8array_static_methods
 ;
 }
+#
+endif
 return
 nullptr
 ;
@@ -16455,6 +16475,9 @@ Type
 type
 )
 {
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 type
@@ -16470,6 +16493,8 @@ return
 uint8array_methods
 ;
 }
+#
+endif
 return
 nullptr
 ;
