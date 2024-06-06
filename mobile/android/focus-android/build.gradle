@@ -64,7 +64,7 @@ kotlin_version
 .
 2
 .
-30
+50
 '
 ext
 .
@@ -347,7 +347,7 @@ version
 .
 2
 .
-30
+50
 "
 }
 detekt
