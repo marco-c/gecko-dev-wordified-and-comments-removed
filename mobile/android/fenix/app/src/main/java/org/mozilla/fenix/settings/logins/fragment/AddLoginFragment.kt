@@ -1857,6 +1857,11 @@ R
 .
 id
 .
+loginDetailFragment
+R
+.
+id
+.
 savedLoginsFragment
 )
 findNavController
