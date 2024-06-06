@@ -72,6 +72,9 @@ namespace
 gc
 {
 class
+AllocSite
+;
+class
 ArenaCellSet
 ;
 class
@@ -540,6 +543,12 @@ gc
 :
 AllocKind
 allocKind
+gc
+:
+:
+AllocSite
+*
+site
 gc
 :
 :
