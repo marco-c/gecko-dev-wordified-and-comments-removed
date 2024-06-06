@@ -207,7 +207,7 @@ BrowserToolbar
 ]
 at
 the
-bottom
+top
 of
 the
 screen
@@ -269,7 +269,7 @@ scrolling
 *
 /
 class
-BrowserToolbarBottomBehavior
+BrowserToolbarTopBehavior
 (
 context
 :
@@ -380,7 +380,7 @@ animateSnap
 view
 SnapDirection
 .
-UP
+DOWN
 )
 }
 override
@@ -479,6 +479,7 @@ translationY
 >
 =
 (
+-
 child
 .
 height
@@ -554,9 +555,7 @@ translationY
 =
 max
 (
-0f
-min
-(
+-
 child
 .
 height
@@ -564,10 +563,13 @@ height
 toFloat
 (
 )
+min
+(
+0f
 child
 .
 translationY
-+
+-
 dy
 )
 )
@@ -654,10 +656,11 @@ direction
 =
 SnapDirection
 .
-UP
+DOWN
 )
 0f
 else
+-
 child
 .
 height
@@ -700,7 +703,7 @@ LayoutParams
 Position
 the
 snackbar
-above
+below
 the
 toolbar
 so
@@ -728,7 +731,7 @@ anchorGravity
 =
 Gravity
 .
-TOP
+BOTTOM
 or
 Gravity
 .
@@ -739,7 +742,7 @@ gravity
 =
 Gravity
 .
-TOP
+BOTTOM
 or
 Gravity
 .
@@ -750,11 +753,4 @@ layoutParams
 =
 params
 }
-}
-enum
-class
-SnapDirection
-{
-UP
-DOWN
 }
