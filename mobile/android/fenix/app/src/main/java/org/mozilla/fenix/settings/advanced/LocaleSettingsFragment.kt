@@ -380,6 +380,9 @@ requireActivity
 localeSettingsStore
 =
 localeSettingsStore
+browserStore
+=
+browserStore
 localeUseCase
 =
 localeUseCase
