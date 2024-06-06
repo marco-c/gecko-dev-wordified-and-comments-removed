@@ -880,6 +880,15 @@ string
 tab_tray_multi_select_title
 tabCount
 )
+containerView
+.
+multiselect_title
+.
+importantForAccessibility
+=
+View
+.
+IMPORTANT_FOR_ACCESSIBILITY_YES
 }
 }
 }
