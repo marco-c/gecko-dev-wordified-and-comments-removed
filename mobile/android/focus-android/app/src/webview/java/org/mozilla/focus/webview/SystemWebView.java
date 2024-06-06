@@ -312,15 +312,6 @@ util
 Map
 ;
 import
-java
-.
-util
-.
-concurrent
-.
-CountDownLatch
-;
-import
 mozilla
 .
 components
@@ -774,8 +765,6 @@ saveWebViewState
 NonNull
 Session
 session
-CountDownLatch
-latch
 )
 {
 final
