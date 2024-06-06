@@ -378,11 +378,7 @@ GOOGLE_SDK_VERSION
 233
 ENV
 FLANK_VERSION
-v8
-.
-0
-.
-1
+flank_snapshot
 ENV
 TEST_TOOLS
 /
