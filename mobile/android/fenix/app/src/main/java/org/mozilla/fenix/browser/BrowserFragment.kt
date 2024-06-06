@@ -4179,6 +4179,17 @@ getSessionById
 Session
 ?
 {
+val
+components
+=
+context
+?
+.
+components
+?
+:
+return
+null
 return
 if
 (
@@ -4188,10 +4199,6 @@ customTabSessionId
 null
 )
 {
-requireContext
-(
-)
-.
 components
 .
 core
@@ -4207,7 +4214,7 @@ customTabSessionId
 }
 else
 {
-requireComponents
+components
 .
 core
 .
