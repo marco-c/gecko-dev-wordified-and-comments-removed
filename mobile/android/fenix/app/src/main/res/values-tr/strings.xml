@@ -23459,7 +23459,7 @@ in
 daha
 fazla
 takip
-iyi
+kodunu
 engeller
 ancak
 baz
@@ -24712,7 +24712,9 @@ renmeye
 al
 an
 takip
-ilerin
+kodlar
+n
+n
 o
 undan
 sizi
@@ -24769,7 +24771,9 @@ renmeye
 al
 an
 takip
-ilerin
+kodlar
+n
+n
 o
 undan
 sizi
@@ -24936,7 +24940,7 @@ ama
 daha
 az
 takip
-i
+kodu
 engellenecek
 .
 <
@@ -25060,7 +25064,7 @@ in
 daha
 fazla
 takip
-iyi
+kodunu
 engeller
 ancak
 baz
@@ -25215,7 +25219,9 @@ preference_enhanced_tracking_protection_custom_description_2
 >
 Hangi
 takip
-ilerin
+kodlar
+n
+n
 ve
 betiklerin
 engellenece
@@ -25343,12 +25349,12 @@ preference_enhanced_tracking_protection_custom_cookies_1
 Siteler
 aras
 takip
-iler
+kodlr
 ve
 sosyal
 medya
 takip
-ileri
+kodlar
 <
 /
 string
@@ -25819,7 +25825,7 @@ etp_social_media_trackers_title
 Sosyal
 medya
 takip
-ileri
+kodlar
 <
 /
 string
@@ -26599,7 +26605,7 @@ etp_redirect_trackers_title
 Y
 nlendirme
 takip
-ileri
+kodlar
 <
 /
 string
@@ -26701,7 +26707,8 @@ i
 aretlenen
 baz
 takip
-ilerle
+kodlar
+yla
 etkile
 imde
 bulundu
@@ -26710,7 +26717,7 @@ i
 in
 bu
 sayfadaki
-engellemeleri
+engellemeler
 k
 smen
 kald
