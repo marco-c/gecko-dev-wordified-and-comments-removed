@@ -178,6 +178,15 @@ string
 /
 bookmark_menu_delete_button
 "
+android
+:
+contentDescription
+=
+"
+string
+/
+bookmark_menu_delete_button
+"
 app
 :
 showAsAction

@@ -11,14 +11,6 @@ java
 .
 lang
 .
-Math
-.
-pow
-import
-java
-.
-lang
-.
 RuntimeException
 import
 java
