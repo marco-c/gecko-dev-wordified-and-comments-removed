@@ -705,6 +705,7 @@ fragment_browser
 container
 false
 )
+0
 toolbarComponent
 =
 ToolbarComponent
