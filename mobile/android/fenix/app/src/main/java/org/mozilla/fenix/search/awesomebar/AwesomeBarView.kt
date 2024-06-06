@@ -1022,9 +1022,16 @@ RecyclerView
 SCROLL_STATE_IDLE
 -
 >
+{
 isKeyboardDismissedProgrammatically
 =
 false
+view
+.
+requestFocus
+(
+)
+}
 }
 }
 }
