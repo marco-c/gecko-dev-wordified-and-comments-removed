@@ -287,7 +287,7 @@ buttonText
 {
 view
 .
-add_tab_button
+add_new_tab_button
 .
 apply
 {
