@@ -492,6 +492,13 @@ color
 /
 foundation_normal_theme
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 app
 :
 layout_constraintTop_toBottomOf
@@ -659,6 +666,13 @@ textSize
 =
 "
 18sp
+"
+android
+:
+focusableInTouchMode
+=
+"
+true
 "
 app
 :
