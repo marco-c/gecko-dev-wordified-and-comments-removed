@@ -1808,6 +1808,8 @@ launch
 val
 iconSize
 =
+context
+.
 resources
 .
 getDimensionPixelSize
@@ -1821,7 +1823,9 @@ preference_icon_drawable_size
 val
 searchEngine
 =
-requireComponents
+context
+.
+components
 .
 search
 .
@@ -1836,6 +1840,8 @@ searchIcon
 =
 BitmapDrawable
 (
+context
+.
 resources
 searchEngine
 .
