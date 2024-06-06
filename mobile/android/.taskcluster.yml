@@ -1365,16 +1365,8 @@ ownerEmail
 source
 :
 '
-https
-:
-/
-/
-github
-.
-com
-/
 {
-repoFullName
+repoUrl
 }
 /
 raw
