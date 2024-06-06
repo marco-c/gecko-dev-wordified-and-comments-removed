@@ -231,10 +231,6 @@ val
 shoppingExperienceFeature
 :
 ShoppingExperienceFeature
-=
-ShoppingExperienceFeature
-(
-)
 private
 val
 onAvailabilityChange
