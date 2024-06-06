@@ -2688,6 +2688,10 @@ nsString
 &
 trackList
 const
+nsAutoString
+&
+appIdOrName
+const
 nsAString
 &
 appFilesystemCommand
@@ -2780,6 +2784,27 @@ aApp
 )
 )
 return
+;
+(
+static_cast
+<
+nsLocalHandlerAppWin
+*
+>
+(
+aApp
+.
+get
+(
+)
+)
+)
+-
+>
+SetAppIdOrName
+(
+appIdOrName
+)
 ;
 appList
 -
@@ -3255,6 +3280,7 @@ ProcessPath
 (
 appList
 trackList
+appProgId
 appFilesystemCommand
 )
 ;
@@ -3396,6 +3422,7 @@ ProcessPath
 (
 appList
 trackList
+appName
 appFilesystemCommand
 )
 ;
@@ -3536,6 +3563,7 @@ ProcessPath
 (
 appList
 trackList
+appProgId
 appFilesystemCommand
 )
 ;
@@ -3734,6 +3762,7 @@ ProcessPath
 (
 appList
 trackList
+appValue
 appFilesystemCommand
 )
 ;
@@ -3894,6 +3923,7 @@ ProcessPath
 (
 appList
 trackList
+appProgId
 appFilesystemCommand
 )
 ;
@@ -4104,6 +4134,7 @@ ProcessPath
 (
 appList
 trackList
+appName
 appFilesystemCommand
 )
 ;
@@ -4236,6 +4267,7 @@ ProcessPath
 (
 appList
 trackList
+appName
 appFilesystemCommand
 )
 ;
@@ -4374,6 +4406,7 @@ ProcessPath
 (
 appList
 trackList
+appName
 appFilesystemCommand
 )
 ;
