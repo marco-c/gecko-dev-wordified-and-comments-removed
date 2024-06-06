@@ -79,13 +79,13 @@ android
 compileSdkVersion
 27
 buildToolsVersion
-"
-26
+'
+27
 .
 0
 .
-2
-"
+1
+'
 defaultConfig
 {
 applicationId
