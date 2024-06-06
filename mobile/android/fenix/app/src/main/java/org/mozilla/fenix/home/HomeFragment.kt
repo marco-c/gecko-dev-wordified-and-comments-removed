@@ -1665,6 +1665,13 @@ onRestoreInstanceState
 parcelable
 )
 }
+val
+progress
+=
+homeViewModel
+?
+.
+motionLayoutProgress
 homeLayout
 ?
 .
@@ -1672,10 +1679,7 @@ progress
 =
 if
 (
-homeViewModel
-?
-.
-motionLayoutProgress
+progress
 ?
 :
 0F

@@ -570,6 +570,12 @@ navHost
 navController
 appBarConfiguration
 )
+supportActionBar
+?
+.
+hide
+(
+)
 intent
 ?
 .
