@@ -93,7 +93,7 @@ state
 .
 recover
 .
-RecoverableTab
+TabState
 import
 org
 .
@@ -159,7 +159,7 @@ selectionHolder
 :
 SelectionHolder
 <
-RecoverableTab
+TabState
 >
 )
 :
@@ -184,7 +184,7 @@ private
 var
 item
 :
-RecoverableTab
+TabState
 ?
 =
 null
@@ -244,7 +244,7 @@ bind
 (
 item
 :
-RecoverableTab
+TabState
 )
 {
 binding

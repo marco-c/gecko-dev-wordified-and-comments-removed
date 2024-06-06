@@ -79,7 +79,7 @@ state
 .
 recover
 .
-RecoverableTab
+TabState
 /
 *
 *
@@ -116,7 +116,7 @@ onDelete
 (
 tab
 :
-RecoverableTab
+TabState
 )
 {
 recentlyClosedController
@@ -144,7 +144,7 @@ open
 (
 item
 :
-RecoverableTab
+TabState
 )
 {
 recentlyClosedController
@@ -160,7 +160,7 @@ select
 (
 item
 :
-RecoverableTab
+TabState
 )
 {
 recentlyClosedController
@@ -176,7 +176,7 @@ deselect
 (
 item
 :
-RecoverableTab
+TabState
 )
 {
 recentlyClosedController

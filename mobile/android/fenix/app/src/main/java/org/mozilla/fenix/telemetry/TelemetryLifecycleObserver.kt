@@ -483,7 +483,6 @@ crashedTabs
 crashedTabs
 )
 }
-}
 private
 data
 class
@@ -512,3 +511,4 @@ activeEngineTabs
 :
 Int
 )
+}

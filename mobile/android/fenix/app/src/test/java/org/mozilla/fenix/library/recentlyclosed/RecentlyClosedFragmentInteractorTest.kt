@@ -91,7 +91,7 @@ state
 .
 recover
 .
-RecoverableTab
+TabState
 import
 org
 .
@@ -148,7 +148,7 @@ onDelete
 val
 tab
 =
-RecoverableTab
+TabState
 (
 id
 =

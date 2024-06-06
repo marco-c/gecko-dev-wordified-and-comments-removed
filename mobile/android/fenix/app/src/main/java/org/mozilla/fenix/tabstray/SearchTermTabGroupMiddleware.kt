@@ -328,6 +328,8 @@ tab
 >
 tab
 .
+state
+.
 historyMetadata
 ?
 .
@@ -350,6 +352,8 @@ AddTabAction
 SEARCH_TERM_TAB_GROUPS
 searchTerm
 tab
+.
+state
 .
 id
 )

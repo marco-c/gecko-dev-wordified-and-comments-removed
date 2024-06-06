@@ -125,7 +125,7 @@ state
 .
 recover
 .
-RecoverableTab
+TabState
 import
 org
 .
@@ -169,7 +169,7 @@ RecentlyClosedInteractor
 :
 SelectionInteractor
 <
-RecoverableTab
+TabState
 >
 {
 /
@@ -224,7 +224,7 @@ onDelete
 (
 tab
 :
-RecoverableTab
+TabState
 )
 }
 /

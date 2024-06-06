@@ -107,7 +107,7 @@ state
 .
 recover
 .
-RecoverableTab
+TabState
 import
 org
 .
@@ -130,7 +130,7 @@ RecentlyClosedFragmentInteractor
 :
 ListAdapter
 <
-RecoverableTab
+TabState
 RecentlyClosedItemViewHolder
 >
 (
@@ -138,7 +138,7 @@ DiffCallback
 )
 SelectionHolder
 <
-RecoverableTab
+TabState
 >
 {
 private
@@ -147,7 +147,7 @@ selectedTabs
 :
 Set
 <
-RecoverableTab
+TabState
 >
 =
 emptySet
@@ -223,7 +223,7 @@ selectedItems
 :
 Set
 <
-RecoverableTab
+TabState
 >
 get
 (
@@ -237,13 +237,13 @@ tabs
 :
 List
 <
-RecoverableTab
+TabState
 >
 selectedTabs
 :
 Set
 <
-RecoverableTab
+TabState
 >
 )
 {
@@ -272,7 +272,7 @@ DiffUtil
 .
 ItemCallback
 <
-RecoverableTab
+TabState
 >
 (
 )
@@ -283,10 +283,10 @@ areItemsTheSame
 (
 oldItem
 :
-RecoverableTab
+TabState
 newItem
 :
-RecoverableTab
+TabState
 )
 =
 oldItem
@@ -303,10 +303,10 @@ areContentsTheSame
 (
 oldItem
 :
-RecoverableTab
+TabState
 newItem
 :
-RecoverableTab
+TabState
 )
 =
 oldItem

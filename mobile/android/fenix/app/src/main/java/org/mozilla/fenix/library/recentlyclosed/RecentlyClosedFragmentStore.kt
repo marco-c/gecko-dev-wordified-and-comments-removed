@@ -79,7 +79,7 @@ state
 .
 recover
 .
-RecoverableTab
+TabState
 import
 mozilla
 .
@@ -187,7 +187,7 @@ list
 :
 List
 <
-RecoverableTab
+TabState
 >
 )
 :
@@ -201,7 +201,7 @@ Select
 val
 tab
 :
-RecoverableTab
+TabState
 )
 :
 RecentlyClosedFragmentAction
@@ -214,7 +214,7 @@ Deselect
 val
 tab
 :
-RecoverableTab
+TabState
 )
 :
 RecentlyClosedFragmentAction
@@ -259,7 +259,7 @@ items
 :
 List
 <
-RecoverableTab
+TabState
 >
 =
 emptyList
@@ -270,7 +270,7 @@ selectedTabs
 :
 Set
 <
-RecoverableTab
+TabState
 >
 )
 :
