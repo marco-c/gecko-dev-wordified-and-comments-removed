@@ -475,6 +475,10 @@ registerActivityLifecycleCallbacks
 (
 visibilityLifeCycleCallback
 )
+registerComponentCallbacks
+(
+visibilityLifeCycleCallback
+)
 storeLink
 .
 start
