@@ -617,6 +617,17 @@ setCallback
 callback
 )
 }
+internal
+fun
+getAuthState
+(
+)
+=
+inner
+.
+getAuthState
+(
+)
 override
 suspend
 fun
