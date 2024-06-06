@@ -301,7 +301,7 @@ actionPrimary
 =
 PhotonColors
 .
-Violet60
+Violet70
 actionSecondary
 =
 PhotonColors
@@ -533,7 +533,7 @@ actionPrimary
 =
 PhotonColors
 .
-Violet90
+Ink20
 actionSecondary
 =
 PhotonColors
