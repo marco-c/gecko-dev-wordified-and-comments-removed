@@ -431,15 +431,6 @@ elevation
 "
 android
 :
-background
-=
-"
-color
-/
-photonGreen50
-"
-android
-:
 visibility
 =
 "
