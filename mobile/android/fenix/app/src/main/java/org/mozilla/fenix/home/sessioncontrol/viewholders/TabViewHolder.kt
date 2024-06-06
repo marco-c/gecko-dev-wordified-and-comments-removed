@@ -346,7 +346,6 @@ Tab
 =
 null
 private
-lateinit
 var
 tabMenu
 :
