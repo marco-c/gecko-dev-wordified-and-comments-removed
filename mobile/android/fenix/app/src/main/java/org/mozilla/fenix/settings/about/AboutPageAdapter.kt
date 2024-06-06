@@ -81,6 +81,12 @@ ViewGroup
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -119,7 +125,7 @@ AboutItemViewHolder
 (
 )
 {
-private
+VisibleForTesting
 var
 aboutList
 :
