@@ -2755,9 +2755,6 @@ searchEngine
 ?
 .
 resultsUrl
-?
-.
-host
 false
 -
 >
@@ -2812,7 +2809,7 @@ string
 .
 firefox_suggest_header
 )
-resultsHostFilter
+resultsUriFilter
 =
 searchEngineHostFilter
 )
