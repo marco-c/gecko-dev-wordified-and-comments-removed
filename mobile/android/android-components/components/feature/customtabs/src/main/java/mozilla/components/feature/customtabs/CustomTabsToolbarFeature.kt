@@ -1909,7 +1909,7 @@ const
 val
 ACTION_BUTTON_DRAWABLE_WIDTH_DP
 =
-48
+24
 private
 const
 val

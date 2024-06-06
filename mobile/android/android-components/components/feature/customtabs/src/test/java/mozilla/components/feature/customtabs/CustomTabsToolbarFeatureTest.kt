@@ -2244,7 +2244,7 @@ button
 is
 scaled
 to
-48
+24
 width
 and
 24
@@ -2264,11 +2264,7 @@ ActionButton
 (
 )
 val
-originalWidth
-=
-86
-val
-originalHeight
+size
 =
 48
 val
@@ -2321,12 +2317,12 @@ createBitmap
 (
 IntArray
 (
-originalWidth
+size
 *
-originalHeight
+size
 )
-originalWidth
-originalHeight
+size
+size
 Bitmap
 .
 Config
@@ -2460,7 +2456,7 @@ intrinsicHeight
 )
 assertEquals
 (
-48
+24
 button
 .
 drawable
