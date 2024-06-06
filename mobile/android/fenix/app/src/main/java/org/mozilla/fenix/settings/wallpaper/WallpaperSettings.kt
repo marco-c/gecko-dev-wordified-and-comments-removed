@@ -1052,7 +1052,7 @@ FirefoxTheme
 .
 colors
 .
-textSecondary
+textAccent
 linkTextDecoration
 =
 TextDecoration
