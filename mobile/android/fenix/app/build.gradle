@@ -3305,6 +3305,10 @@ implementation
 Deps
 .
 kotlin_coroutines
+testImplementation
+Deps
+.
+kotlin_coroutines_test
 implementation
 Deps
 .
