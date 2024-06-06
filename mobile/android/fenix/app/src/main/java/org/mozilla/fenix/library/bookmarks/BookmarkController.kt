@@ -376,6 +376,9 @@ SuppressWarnings
 "
 TooManyFunctions
 "
+"
+LongParameterList
+"
 )
 class
 DefaultBookmarkController

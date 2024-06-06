@@ -98,6 +98,12 @@ state
 .
 *
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 internal
 class
 TabDiffUtil

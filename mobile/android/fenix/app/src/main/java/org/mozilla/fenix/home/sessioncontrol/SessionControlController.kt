@@ -722,6 +722,9 @@ TooManyFunctions
 "
 LargeClass
 "
+"
+LongParameterList
+"
 )
 class
 DefaultSessionControlController
