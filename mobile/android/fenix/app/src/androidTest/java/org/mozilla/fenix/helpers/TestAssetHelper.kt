@@ -135,6 +135,17 @@ toMillis
 15
 )
 val
+waitingTimeLong
+=
+TimeUnit
+.
+SECONDS
+.
+toMillis
+(
+25
+)
+val
 waitingTimeShort
 :
 Long
