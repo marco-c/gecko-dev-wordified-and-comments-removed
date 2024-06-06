@@ -1020,6 +1020,17 @@ borrow
 None
 =
 >
+{
+#
+[
+cfg
+(
+not
+(
+test
+)
+)
+]
 panic
 !
 (
@@ -1031,6 +1042,7 @@ by
 renderer
 "
 )
+}
 Some
 (
 f
