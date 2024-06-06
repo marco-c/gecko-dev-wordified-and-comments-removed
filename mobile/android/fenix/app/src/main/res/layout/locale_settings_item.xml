@@ -157,7 +157,9 @@ android
 layout_height
 =
 "
-48dp
+dimen
+/
+locale_item_height
 "
 >
 <

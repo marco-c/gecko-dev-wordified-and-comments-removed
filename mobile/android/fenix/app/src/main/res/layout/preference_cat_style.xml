@@ -162,7 +162,9 @@ android
 layout_marginStart
 =
 "
-72dp
+dimen
+/
+top_bar_alignment_margin_start
 "
 android
 :

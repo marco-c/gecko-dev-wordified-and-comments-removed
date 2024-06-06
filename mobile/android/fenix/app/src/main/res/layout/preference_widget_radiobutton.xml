@@ -314,7 +314,9 @@ android
 layout_marginStart
 =
 "
-8dp
+dimen
+/
+radiobutton_preference_margin_start
 "
 android
 :
