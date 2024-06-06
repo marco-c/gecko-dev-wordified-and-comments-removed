@@ -121,6 +121,17 @@ include
 "
 rtc_base
 /
+system
+/
+rtc_export
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 third_party
 /
 sigslot
@@ -322,6 +333,7 @@ EINPROGRESS
 ;
 }
 class
+RTC_EXPORT
 Socket
 {
 public
