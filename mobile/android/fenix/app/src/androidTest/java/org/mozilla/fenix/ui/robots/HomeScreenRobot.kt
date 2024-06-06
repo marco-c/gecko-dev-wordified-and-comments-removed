@@ -1055,7 +1055,7 @@ R
 .
 id
 .
-home_component
+sessionControlRecyclerView
 )
 )
 .
@@ -1080,7 +1080,7 @@ R
 .
 id
 .
-home_component
+sessionControlRecyclerView
 )
 )
 .
@@ -2078,7 +2078,7 @@ ViewMatchers
 withResourceName
 (
 "
-home_component
+sessionControlRecyclerView
 "
 )
 )
@@ -3190,7 +3190,7 @@ R
 .
 id
 .
-home_component
+sessionControlRecyclerView
 )
 )
 .
