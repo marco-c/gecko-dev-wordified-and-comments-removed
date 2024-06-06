@@ -249,15 +249,6 @@ layout_margin
 "
 10dp
 "
-android
-:
-contentDescription
-=
-"
-string
-/
-favicon_content_description
-"
 app
 :
 layout_constraintStart_toStartOf
