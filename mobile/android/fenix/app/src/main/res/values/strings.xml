@@ -9423,6 +9423,13 @@ re
 -
 engagement
 CFR
+the
+placeholder
+is
+replaced
+with
+app
+name
 -
 -
 >
@@ -9434,7 +9441,9 @@ name
 cookie_banner_cfr_title
 "
 >
-Firefox
+%
+1
+s
 just
 refused
 cookies

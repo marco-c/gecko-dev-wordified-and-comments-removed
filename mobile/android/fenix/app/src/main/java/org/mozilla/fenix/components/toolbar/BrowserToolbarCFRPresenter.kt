@@ -2315,6 +2315,16 @@ R
 string
 .
 cookie_banner_cfr_title
+context
+.
+getString
+(
+R
+.
+string
+.
+firefox
+)
 )
 color
 =
