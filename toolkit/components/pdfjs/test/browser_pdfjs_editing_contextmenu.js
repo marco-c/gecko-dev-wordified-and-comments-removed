@@ -526,8 +526,7 @@ hidden
 &
 &
 [
-"
-"
+null
 "
 false
 "

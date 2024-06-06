@@ -594,6 +594,10 @@ getAttribute
 label
 "
 )
+|
+|
+"
+"
 ;
 searchText
 =
@@ -1117,6 +1121,10 @@ getAttribute
 seltype
 "
 )
+|
+|
+"
+"
 ;
 }
 set
@@ -4533,6 +4541,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 set

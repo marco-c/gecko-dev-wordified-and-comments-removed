@@ -809,6 +809,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 set
@@ -842,6 +846,10 @@ getAttribute
 image
 "
 )
+|
+|
+"
+"
 ;
 }
 get
@@ -858,6 +866,10 @@ getAttribute
 label
 "
 )
+|
+|
+"
+"
 ;
 }
 set
@@ -891,6 +903,10 @@ getAttribute
 description
 "
 )
+|
+|
+"
+"
 ;
 }
 set

@@ -1184,6 +1184,10 @@ getAttribute
 mixedcontent
 "
 )
+|
+|
+"
+"
 ;
 let
 bodyAttr
@@ -1211,6 +1215,10 @@ getAttribute
 mixedcontent
 "
 )
+|
+|
+"
+"
 ;
 is
 (

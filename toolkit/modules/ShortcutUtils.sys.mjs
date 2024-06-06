@@ -344,6 +344,17 @@ getModifierString
 elemMod
 )
 {
+if
+(
+!
+elemMod
+)
+{
+return
+"
+"
+;
+}
 let
 elemString
 =

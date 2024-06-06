@@ -2240,8 +2240,7 @@ getAttribute
 itemtype
 "
 )
-"
-"
+null
 "
 node
 is

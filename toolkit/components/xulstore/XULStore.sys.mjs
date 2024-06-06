@@ -1033,6 +1033,10 @@ getAttribute
 (
 attr
 )
+|
+|
+"
+"
 ;
 if
 (

@@ -373,6 +373,7 @@ if
 this
 .
 accessKey
+?
 .
 toLowerCase
 (
@@ -957,6 +958,7 @@ if
 test
 .
 accessKey
+?
 .
 toLowerCase
 (

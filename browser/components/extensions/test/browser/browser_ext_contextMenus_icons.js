@@ -1438,8 +1438,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 Root
 menu
@@ -1535,8 +1534,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 Auto
 -
@@ -2624,8 +2622,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 Second
 child

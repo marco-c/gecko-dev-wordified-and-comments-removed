@@ -815,8 +815,7 @@ getAttribute
 remotetype
 "
 )
-"
-"
+null
 "
 Should
 not
@@ -941,8 +940,7 @@ getAttribute
 type
 "
 )
-"
-"
+null
 "
 Should
 be
@@ -964,8 +962,7 @@ getAttribute
 remotetype
 "
 )
-"
-"
+null
 "
 Should
 not

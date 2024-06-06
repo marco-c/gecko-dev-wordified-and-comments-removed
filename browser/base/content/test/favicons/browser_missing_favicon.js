@@ -188,8 +188,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 Should
 have

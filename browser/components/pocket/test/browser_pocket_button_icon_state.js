@@ -320,8 +320,7 @@ getAttribute
 pocketed
 "
 )
-"
-"
+null
 "
 Pocket
 item

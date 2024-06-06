@@ -226,8 +226,7 @@ getAttribute
 readeractive
 "
 )
-"
-"
+null
 "
 reader
 mode
@@ -374,8 +373,7 @@ getAttribute
 readeractive
 "
 )
-"
-"
+null
 "
 reader
 mode

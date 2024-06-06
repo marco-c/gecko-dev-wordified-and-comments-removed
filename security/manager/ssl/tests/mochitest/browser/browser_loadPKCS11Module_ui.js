@@ -1306,8 +1306,7 @@ acceptButtonShouldBeDisabled
 true
 "
 :
-"
-"
+null
 dialog
 accept
 button

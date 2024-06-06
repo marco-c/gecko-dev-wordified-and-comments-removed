@@ -656,8 +656,7 @@ getAttribute
 disabled
 "
 )
-"
-"
+null
 "
 cmdUndo
 is
@@ -675,8 +674,7 @@ getAttribute
 disabled
 "
 )
-"
-"
+null
 "
 cmdDelete
 is
@@ -694,8 +692,7 @@ getAttribute
 disabled
 "
 )
-"
-"
+null
 "
 cmdSelectAll
 is
@@ -713,8 +710,7 @@ getAttribute
 disabled
 "
 )
-"
-"
+null
 "
 cmdCut
 is
@@ -732,8 +728,7 @@ getAttribute
 disabled
 "
 )
-"
-"
+null
 "
 cmdCopy
 is
@@ -751,8 +746,7 @@ getAttribute
 disabled
 "
 )
-"
-"
+null
 "
 cmdPaste
 is

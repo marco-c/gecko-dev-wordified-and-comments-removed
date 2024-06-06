@@ -5226,16 +5226,12 @@ if
 (
 column
 .
-getAttribute
+hasAttribute
 (
 "
 sortDirection
 "
 )
-!
-=
-"
-"
 )
 {
 menuitem

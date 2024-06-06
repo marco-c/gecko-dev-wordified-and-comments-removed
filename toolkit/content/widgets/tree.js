@@ -5604,6 +5604,10 @@ getAttribute
 seltype
 "
 )
+|
+|
+"
+"
 ;
 }
 set

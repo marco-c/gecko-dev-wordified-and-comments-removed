@@ -2140,6 +2140,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 get
@@ -2691,6 +2695,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 get

@@ -311,8 +311,7 @@ getAttribute
 position
 "
 )
-"
-"
+null
 "
 tooltip
 position

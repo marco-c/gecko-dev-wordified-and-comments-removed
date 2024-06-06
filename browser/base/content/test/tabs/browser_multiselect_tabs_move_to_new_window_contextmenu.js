@@ -435,8 +435,7 @@ oldTabs
 ]
 .
 linkedPanel
-"
-"
+null
 Old
 tab
 0
@@ -471,8 +470,7 @@ i
 ]
 .
 linkedPanel
-"
-"
+null
 Old
 tab
 {
@@ -591,8 +589,7 @@ isnot
 oldTab
 .
 linkedPanel
-"
-"
+null
 Old
 tab
 {
@@ -619,8 +616,7 @@ is
 oldTab
 .
 linkedPanel
-"
-"
+null
 Old
 tab
 {
@@ -753,8 +749,7 @@ newTabs
 ]
 .
 linkedPanel
-"
-"
+null
 New
 tab
 0
@@ -789,8 +784,7 @@ i
 ]
 .
 linkedPanel
-"
-"
+null
 New
 tab
 {

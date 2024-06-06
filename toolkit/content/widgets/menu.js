@@ -84,6 +84,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 get

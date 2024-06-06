@@ -865,6 +865,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 set
@@ -2557,6 +2561,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 get

@@ -5,8 +5,7 @@ testVal
 aExpected
 overflowSide
 =
-"
-"
+null
 )
 {
 info

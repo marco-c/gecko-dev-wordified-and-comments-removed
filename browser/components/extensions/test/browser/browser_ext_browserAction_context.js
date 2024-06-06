@@ -1103,6 +1103,10 @@ getAttribute
 badge
 "
 )
+|
+|
+"
+"
 details
 .
 badge

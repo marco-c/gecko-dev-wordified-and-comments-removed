@@ -597,8 +597,7 @@ getAttribute
 hideContent
 "
 )
-"
-"
+null
 "
 Dialog
 overlay
@@ -685,8 +684,7 @@ getAttribute
 hideContent
 "
 )
-"
-"
+null
 "
 Dialog
 overlay

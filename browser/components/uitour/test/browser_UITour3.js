@@ -543,8 +543,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 Text
 should
@@ -641,8 +640,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 Link
 should
@@ -743,8 +741,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 First
 button
@@ -1193,8 +1190,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 Link
 should
@@ -1278,8 +1274,7 @@ getAttribute
 image
 "
 )
-"
-"
+null
 "
 First
 button

@@ -256,8 +256,7 @@ badge
 status
 "
 )
-"
-"
+null
 "
 Should
 not

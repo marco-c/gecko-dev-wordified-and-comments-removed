@@ -360,8 +360,7 @@ is
 getBadgeStatus
 (
 )
-"
-"
+null
 "
 Should
 not
