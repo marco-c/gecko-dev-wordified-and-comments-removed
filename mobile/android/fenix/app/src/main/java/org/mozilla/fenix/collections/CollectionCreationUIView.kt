@@ -1188,9 +1188,14 @@ NameCollection
 )
 }
 }
-}
 return
 true
+}
+else
+{
+return
+false
+}
 }
 companion
 object
