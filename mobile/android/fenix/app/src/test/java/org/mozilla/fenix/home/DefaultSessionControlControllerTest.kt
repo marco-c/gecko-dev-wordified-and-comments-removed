@@ -1236,6 +1236,17 @@ null
 }
 }
 Test
+Ignore
+(
+"
+Until
+the
+feature
+is
+enabled
+again
+"
+)
 fun
 handleShowOnboardingDialog
 (
