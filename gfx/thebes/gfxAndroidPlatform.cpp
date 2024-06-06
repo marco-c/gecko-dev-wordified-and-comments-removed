@@ -469,11 +469,14 @@ FreetypeReporter
 )
 )
 ;
+int32_t
+screenDepth
+=
+0
+;
 mOffscreenFormat
 =
-GetScreenDepth
-(
-)
+screenDepth
 =
 =
 16
