@@ -169,11 +169,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-SupportUtils
-.
-openDefaultBrowserSumoPage
+tryAsActivity
 import
 org
 .
@@ -183,7 +181,9 @@ focus
 .
 utils
 .
-asActivity
+SupportUtils
+.
+openDefaultBrowserSumoPage
 class
 DefaultBrowserPreference
 JvmOverloads
@@ -394,7 +394,7 @@ ROLE_BROWSER
 {
 context
 .
-asActivity
+tryAsActivity
 (
 )
 ?

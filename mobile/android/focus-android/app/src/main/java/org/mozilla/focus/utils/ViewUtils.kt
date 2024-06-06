@@ -127,6 +127,16 @@ snackbar
 .
 Snackbar
 import
+org
+.
+mozilla
+.
+focus
+.
+ext
+.
+tryAsActivity
+import
 java
 .
 lang
@@ -261,7 +271,7 @@ myView
 context
 ?
 .
-asActivity
+tryAsActivity
 (
 )
 ?

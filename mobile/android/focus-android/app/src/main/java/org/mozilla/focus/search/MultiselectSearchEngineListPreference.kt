@@ -103,15 +103,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-asActivity
-import
-java
-.
-util
-.
-HashSet
+tryAsActivity
 class
 MultiselectSearchEngineListPreference
 (
@@ -351,7 +345,7 @@ context
 context
 ?
 .
-asActivity
+tryAsActivity
 (
 )
 ?
