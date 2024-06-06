@@ -6975,6 +6975,9 @@ session
 content
 .
 fullScreen
+&
+&
+isAdded
 )
 {
 onBackPressed
