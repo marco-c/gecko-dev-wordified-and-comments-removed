@@ -322,11 +322,9 @@ inflater
 .
 inflate
 (
-R
+CreditCardsManagementView
 .
-layout
-.
-fragment_saved_cards
+LAYOUT_ID
 container
 false
 )
