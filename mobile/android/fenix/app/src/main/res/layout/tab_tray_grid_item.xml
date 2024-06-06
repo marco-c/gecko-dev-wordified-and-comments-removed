@@ -293,7 +293,7 @@ cardBackgroundColor
 "
 color
 /
-photonWhite
+fx_mobile_layer_color_2
 "
 app
 :
@@ -318,7 +318,7 @@ strokeColor
 "
 color
 /
-photonLightGrey30
+tab_tray_item_divider_normal_theme
 "
 app
 :
@@ -529,7 +529,7 @@ textColor
 "
 color
 /
-photonInk80
+tab_tray_item_text_normal_theme
 "
 android
 :
@@ -673,7 +673,7 @@ tint
 "
 color
 /
-photonInk80
+tab_tray_item_text_normal_theme
 "
 /
 >

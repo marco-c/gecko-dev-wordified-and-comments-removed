@@ -1376,13 +1376,6 @@ name
 "
 fx_mobile_border_color_accent
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 color
 /
@@ -2124,7 +2117,7 @@ tab_tray_item_text_normal_theme
 >
 color
 /
-photonLightGrey05
+primary_text_normal_theme
 <
 /
 color
