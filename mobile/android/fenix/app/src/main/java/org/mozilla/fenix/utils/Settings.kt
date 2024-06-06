@@ -4407,7 +4407,7 @@ true
 var
 shouldUseBottomToolbar
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 appContext
 .
@@ -4419,11 +4419,16 @@ string
 .
 pref_key_toolbar_bottom
 )
+featureFlag
+=
+true
 default
 =
+{
 shouldDefaultToBottomToolbar
 (
 )
+}
 )
 val
 toolbarPosition
