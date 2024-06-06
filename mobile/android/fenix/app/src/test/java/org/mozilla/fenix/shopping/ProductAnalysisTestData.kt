@@ -178,6 +178,11 @@ needsAnalysis
 Boolean
 =
 false
+pageNotSupported
+:
+Boolean
+=
+false
 lastAnalysisTime
 :
 Long
@@ -220,6 +225,9 @@ adjustedRating
 needsAnalysis
 =
 needsAnalysis
+pageNotSupported
+=
+pageNotSupported
 lastAnalysisTime
 =
 lastAnalysisTime
