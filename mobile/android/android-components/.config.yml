@@ -24,7 +24,7 @@ all
 modules
 compileSdkVersion
 :
-33
+34
 minSdkVersion
 :
 21
