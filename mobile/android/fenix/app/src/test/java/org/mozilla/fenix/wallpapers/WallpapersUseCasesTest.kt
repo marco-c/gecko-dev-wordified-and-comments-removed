@@ -269,7 +269,7 @@ mockDownloader
 =
 mockk
 <
-WallpaperDownloader
+LegacyWallpaperDownloader
 >
 (
 relaxed
@@ -282,7 +282,7 @@ mockFileManager
 =
 mockk
 <
-WallpaperFileManager
+LegacyWallpaperFileManager
 >
 {
 every
@@ -369,7 +369,7 @@ returns
 null
 WallpapersUseCases
 .
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 appStore
 mockDownloader
@@ -487,7 +487,7 @@ returns
 null
 WallpapersUseCases
 .
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 appStore
 mockDownloader
@@ -643,7 +643,7 @@ returns
 null
 WallpapersUseCases
 .
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 appStore
 mockDownloader
@@ -797,7 +797,7 @@ returns
 null
 WallpapersUseCases
 .
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 appStore
 mockDownloader
@@ -941,7 +941,7 @@ returns
 null
 WallpapersUseCases
 .
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 appStore
 mockDownloader
@@ -1048,7 +1048,7 @@ returns
 null
 WallpapersUseCases
 .
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 appStore
 mockDownloader
@@ -1161,7 +1161,7 @@ returns
 null
 WallpapersUseCases
 .
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 appStore
 mockDownloader
@@ -1305,7 +1305,7 @@ returns
 null
 WallpapersUseCases
 .
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 appStore
 mockDownloader

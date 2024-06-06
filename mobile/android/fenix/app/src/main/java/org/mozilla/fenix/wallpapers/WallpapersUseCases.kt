@@ -398,7 +398,7 @@ allowThreadDiskReads
 val
 fileManager
 =
-WallpaperFileManager
+LegacyWallpaperFileManager
 (
 context
 .
@@ -436,12 +436,12 @@ currentLocale
 val
 downloader
 =
-WallpaperDownloader
+LegacyWallpaperDownloader
 (
 context
 client
 )
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 store
 =
@@ -471,7 +471,7 @@ LoadBitmapUseCase
 by
 lazy
 {
-DefaultLoadBitmapUseCase
+LegacyLoadBitmapUseCase
 (
 context
 )
@@ -554,7 +554,7 @@ PRIVATE
 )
 internal
 class
-DefaultInitializeWallpaperUseCase
+LegacyInitializeWallpaperUseCase
 (
 private
 val
@@ -565,12 +565,12 @@ private
 val
 downloader
 :
-WallpaperDownloader
+LegacyWallpaperDownloader
 private
 val
 fileManager
 :
-WallpaperFileManager
+LegacyWallpaperFileManager
 private
 val
 settings
@@ -1180,7 +1180,7 @@ PRIVATE
 )
 internal
 class
-DefaultLoadBitmapUseCase
+LegacyLoadBitmapUseCase
 (
 private
 val
@@ -1510,7 +1510,7 @@ light
 return
 Wallpaper
 .
-getBaseLocalPath
+legacyGetLocalPath
 (
 orientation
 theme
