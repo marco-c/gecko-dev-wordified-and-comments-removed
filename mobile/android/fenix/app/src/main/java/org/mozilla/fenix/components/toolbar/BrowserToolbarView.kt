@@ -981,6 +981,10 @@ customTabSession
 ?
 .
 id
+shouldReverseItems
+=
+!
+shouldUseBottomToolbar
 onItemTapped
 =
 {

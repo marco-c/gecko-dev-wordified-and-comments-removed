@@ -221,6 +221,9 @@ Unit
 =
 {
 }
+shouldReverseItems
+:
+Boolean
 isPrivate
 :
 Boolean
@@ -485,6 +488,7 @@ CustomTabToolbarMenu
 activity
 sessionManager
 sessionId
+shouldReverseItems
 onItemTapped
 =
 onItemTapped
