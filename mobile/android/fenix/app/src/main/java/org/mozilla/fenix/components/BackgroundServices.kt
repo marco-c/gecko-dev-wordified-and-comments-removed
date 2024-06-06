@@ -1337,6 +1337,11 @@ authType
 AuthType
 )
 {
+settings
+.
+signedInFxaAccount
+=
+true
 when
 (
 authType
@@ -1568,5 +1573,10 @@ Event
 .
 SyncAuthSignOut
 )
+settings
+.
+signedInFxaAccount
+=
+false
 }
 }

@@ -1053,6 +1053,14 @@ shouldUseLightTheme
 }
 returns
 true
+every
+{
+settings
+.
+signedInFxaAccount
+}
+returns
+true
 application
 .
 setStartupMetrics
