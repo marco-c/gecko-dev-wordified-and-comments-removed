@@ -153,6 +153,10 @@ pro
 }
 debug
 {
+shrinkResources
+false
+minifyEnabled
+false
 applicationIdSuffix
 "
 .
