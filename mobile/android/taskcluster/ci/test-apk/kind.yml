@@ -693,7 +693,9 @@ text
 "
 :
 "
-Fenix
+firefox
+-
+android
 :
 firefox
 :
@@ -933,10 +935,6 @@ taskId
 public
 /
 reports
-/
-test
-/
-testFenixDebugUnitTest
 /
 index
 .
