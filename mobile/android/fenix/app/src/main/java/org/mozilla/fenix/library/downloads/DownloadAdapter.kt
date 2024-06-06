@@ -326,10 +326,6 @@ downloads
 [
 position
 ]
-position
-=
-=
-0
 mode
 isPendingDeletion
 )
