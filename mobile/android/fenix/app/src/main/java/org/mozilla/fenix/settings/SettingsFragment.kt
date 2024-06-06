@@ -559,6 +559,12 @@ job
 Job
 (
 )
+setupAccountUI
+(
+)
+updateSignInVisibility
+(
+)
 preferenceManager
 .
 sharedPreferences
