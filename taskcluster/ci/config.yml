@@ -3497,6 +3497,14 @@ compare
 locales
 '
 '
+detekt
+'
+:
+'
+detekt
+linter
+'
+'
 focus
 '
 :
@@ -5188,11 +5196,6 @@ browser
 -
 system
 '
-#
-detekt
-:
-detekt
-linter
 #
 ktlint
 :
