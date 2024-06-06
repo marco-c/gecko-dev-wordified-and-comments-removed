@@ -299,6 +299,9 @@ activityIntentTestRule
 =
 HomeActivityIntentTestRule
 (
+skipOnboarding
+=
+true
 )
 Before
 fun
