@@ -2480,6 +2480,16 @@ intent
 }
 }
 }
+SyncAccount
+.
+manageAccount
+.
+record
+(
+NoExtras
+(
+)
+)
 true
 }
 }
