@@ -2994,7 +2994,7 @@ navigate
 (
 HomeFragmentDirections
 .
-actionHomeFragmentToBrowserFragment
+actionGlobalBrowser
 (
 null
 )

@@ -1014,7 +1014,6 @@ InstalledAddonDetailsFragmentDirections
 actionGlobalBrowser
 (
 null
-false
 )
 }
 else

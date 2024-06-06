@@ -3675,10 +3675,9 @@ FromHome
 >
 HomeFragmentDirections
 .
-actionHomeFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
-true
 )
 BrowserDirection
 .
