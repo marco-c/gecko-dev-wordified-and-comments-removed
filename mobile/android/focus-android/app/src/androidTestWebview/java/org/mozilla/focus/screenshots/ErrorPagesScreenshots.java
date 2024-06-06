@@ -132,7 +132,7 @@ focus
 .
 helpers
 .
-TestHelper
+MainActivityFirstrunTestRule
 ;
 import
 org
@@ -143,7 +143,7 @@ focus
 .
 helpers
 .
-MainActivityFirstrunTestRule
+TestHelper
 ;
 import
 tools
