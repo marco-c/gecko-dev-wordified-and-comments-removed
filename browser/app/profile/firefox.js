@@ -12472,9 +12472,9 @@ pref
 "
 sidebar
 .
-companion
+position_start
 "
-false
+true
 )
 ;
 pref
@@ -12482,9 +12482,9 @@ pref
 "
 sidebar
 .
-position_start
+revamp
 "
-true
+false
 )
 ;
 pref
