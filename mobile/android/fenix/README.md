@@ -575,8 +575,6 @@ privileges
 :
 sh
 mklink
-/
-d
 .
 git
 \
