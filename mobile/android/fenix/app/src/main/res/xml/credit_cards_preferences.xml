@@ -162,7 +162,15 @@ preferences_credit_cards_save_and_autofill_cards
 /
 >
 <
-Preference
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
+SyncPreference
 android
 :
 key

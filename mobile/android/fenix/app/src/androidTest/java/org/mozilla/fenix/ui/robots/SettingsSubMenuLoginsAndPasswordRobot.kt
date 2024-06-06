@@ -243,6 +243,8 @@ text
 "
 Sync
 logins
+across
+devices
 "
 )
 )
@@ -322,14 +324,6 @@ verifyDefaultValueAutofillLogins
 )
 =
 assertDefaultValueAutofillLogins
-(
-)
-fun
-verifyDefaultValueSyncLogins
-(
-)
-=
-assertDefaultValueSyncLogins
 (
 )
 class
@@ -535,6 +529,8 @@ withText
 "
 Sync
 logins
+across
+devices
 "
 )
 )
@@ -689,6 +685,8 @@ withText
 "
 Sync
 logins
+across
+devices
 "
 )
 )

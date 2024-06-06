@@ -603,9 +603,6 @@ openSettingsLogins
 verifyDefaultView
 (
 )
-verifyDefaultValueSyncLogins
-(
-)
 verifyDefaultValueAutofillLogins
 (
 )

@@ -805,9 +805,6 @@ openLoginsAndPasswordSubMenu
 verifyDefaultView
 (
 )
-verifyDefaultValueSyncLogins
-(
-)
 verifyDefaultValueAutofillLogins
 (
 )
@@ -936,9 +933,6 @@ openLoginsAndPasswordSubMenu
 verifyDefaultView
 (
 )
-verifyDefaultValueSyncLogins
-(
-)
 }
 .
 openSavedLogins
@@ -1034,9 +1028,6 @@ openSettings
 openLoginsAndPasswordSubMenu
 {
 verifyDefaultView
-(
-)
-verifyDefaultValueSyncLogins
 (
 )
 }
