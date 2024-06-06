@@ -1587,7 +1587,8 @@ by
 activityViewModels
 (
 )
-private
+VisibleForTesting
+internal
 val
 onboarding
 by
