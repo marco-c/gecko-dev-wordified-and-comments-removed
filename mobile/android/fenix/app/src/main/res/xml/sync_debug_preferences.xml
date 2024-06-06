@@ -145,7 +145,7 @@ title
 "
 string
 /
-preferences_override_fxa_server
+preferences_override_account_server
 "
 android
 :

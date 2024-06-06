@@ -3900,7 +3900,7 @@ R
 .
 string
 .
-toast_override_fxa_sync_server_done
+toast_override_account_sync_server_done
 )
 Toast
 .
