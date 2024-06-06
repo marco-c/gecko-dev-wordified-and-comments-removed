@@ -491,9 +491,6 @@ crashReporter
 enabled
 =
 isEnabled
-|
-|
-true
 }
 fun
 submitCrash
