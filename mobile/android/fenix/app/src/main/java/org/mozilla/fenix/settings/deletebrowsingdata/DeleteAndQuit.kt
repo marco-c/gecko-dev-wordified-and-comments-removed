@@ -339,7 +339,7 @@ DeleteBrowsingDataOnQuitType
 HISTORY
 -
 >
-deleteHistoryAndDOMStorages
+deleteBrowsingData
 (
 )
 DeleteBrowsingDataOnQuitType
