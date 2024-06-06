@@ -32,15 +32,15 @@ entries
 "
 "
 import
-os
-import
 csv
-import
-yaml
 import
 json
 import
+os
+import
 sys
+import
+yaml
 from
 yaml
 .
@@ -189,6 +189,7 @@ value
 )
 and
 (
+            
 (
 value
 [
@@ -215,20 +216,19 @@ expires
 =
 expire_version
 )
+        
 )
 :
             
 continue
         
 if
-(
 key
 =
 =
 "
 type
 "
-)
 :
             
 remove_keys
@@ -247,12 +247,10 @@ keys
 :
                 
 if
-(
 key
 not
 in
 _KEY_FILTER
-)
 :
                     
 remove_keys
@@ -296,9 +294,9 @@ last_key
 .
 lstrip
 (
-'
+"
 .
-'
+"
 )
 }
             
@@ -361,9 +359,7 @@ extend
 )
             
 if
-(
 write_header
-)
 :
                 
 header
@@ -463,9 +459,9 @@ last_key
 .
 lstrip
 (
-'
+"
 .
-'
+"
 )
 +
 "
@@ -479,6 +475,7 @@ renewal
 .
 write
 (
+                
 "
 1
 )
@@ -499,6 +496,7 @@ collection
 \
 n
 "
+            
 )
             
 renewal
@@ -658,9 +656,9 @@ with
 open
 (
 METRICS_FILENAME
-'
+"
 r
-'
+"
 )
 as
 f
@@ -856,9 +854,9 @@ data_file
 open
 (
 csv_filename
-'
+"
 w
-'
+"
 )
     
 csv_writer
@@ -875,9 +873,9 @@ renewal_file
 open
 (
 renewal_filename
-'
+"
 w
-'
+"
 )
     
 response
@@ -941,9 +939,9 @@ with
 open
 (
 NEW_METRICS_FILENAME
-'
+"
 w
-'
+"
 )
 as
 f2
@@ -956,13 +954,12 @@ data
 :
             
 if
-(
 line
 .
 lstrip
 (
-'
-'
+"
+"
 )
 .
 startswith
@@ -975,12 +972,13 @@ expires
 and
 not
 (
+                
 line
 .
 lstrip
 (
-'
-'
+"
+"
 )
 .
 startswith
@@ -991,10 +989,10 @@ expires
 never
 "
 )
-)
+            
 )
 :
-               
+                
 start_pos
 =
 len
@@ -1004,7 +1002,7 @@ expires
 :
 "
 )
-               
+                
 version
 =
 int
@@ -1013,42 +1011,42 @@ line
 .
 lstrip
 (
-'
-'
+"
+"
 )
 [
 start_pos
 :
 ]
 )
-               
+                
 if
-(
 version
 <
 =
 current_version
-)
 :
-                   
+                    
 verify_count
 +
 =
 1
-                   
+                    
 f2
 .
 writelines
 (
+                        
 line
 .
 rstrip
 (
-'
+"
 \
 n
-'
+"
 )
+                        
 +
 "
 /
@@ -1056,11 +1054,13 @@ n
 TODO
 <
 "
+                        
 +
 str
 (
 verify_count
 )
+                        
 +
 "
 >
@@ -1071,11 +1071,12 @@ renewal
 \
 n
 "
+                    
 )
-               
+                
 else
 :
-                   
+                    
 f2
 .
 writelines
@@ -1138,12 +1139,10 @@ n
 )
         
 if
-(
 total_count
 !
 =
 verify_count
-)
 :
             
 print

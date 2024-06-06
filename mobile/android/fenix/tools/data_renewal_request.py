@@ -112,9 +112,9 @@ DictReader
 open
 (
 expiry_filename
-'
+"
 r
-'
+"
 )
 )
 output_string
@@ -152,9 +152,9 @@ N
 ]
 =
 =
-'
+"
 n
-'
+"
 :
         
 continue
@@ -275,14 +275,14 @@ output_string
 +
 =
 f
-'
+"
 -
 {
 updated_version
 }
 \
 n
-'
+"
     
 else
 :
@@ -399,7 +399,7 @@ header
 +
 =
 f
-'
+"
 Total
 :
 {
@@ -407,7 +407,7 @@ total_count
 }
 \
 n
-'
+"
 header
 +
 =
@@ -421,10 +421,10 @@ with
 open
 (
 filled_renewal_filename
-'
+"
 w
 +
-'
+"
 )
 as
 out

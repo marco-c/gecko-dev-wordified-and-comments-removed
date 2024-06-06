@@ -1,4 +1,12 @@
 from
+android_taskgraph
+.
+util
+.
+scriptworker
+import
+generate_beetmover_upstream_artifacts
+from
 taskgraph
 .
 transforms
@@ -23,14 +31,6 @@ treeherder
 import
 inherit_treeherder_from_dep
 join_symbol
-from
-android_taskgraph
-.
-util
-.
-scriptworker
-import
-generate_beetmover_upstream_artifacts
 transforms
 =
 TransformSequence
@@ -61,7 +61,6 @@ dependencies
 ]
 =
 {
-            
 dep
 .
 kind
@@ -69,7 +68,6 @@ kind
 dep
 .
 label
-            
 for
 dep
 in
@@ -77,7 +75,6 @@ _get_all_deps
 (
 task
 )
-        
 }
         
 primary_dep
@@ -141,9 +138,9 @@ for
 "
 attributes
 [
-'
+"
 run_on_tasks_for
-'
+"
 ]
 )
         
@@ -311,11 +308,11 @@ name
 *
 {
                 
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -331,9 +328,9 @@ type
 "
 ]
                 
-'
+"
 level
-'
+"
 :
 config
 .
@@ -484,15 +481,16 @@ paths
 .
 extend
 (
-[
                     
+[
+                        
 apk_metadata
 [
 "
 name
 "
 ]
-                    
+                        
 for
 apk_metadata
 in
@@ -512,8 +510,9 @@ apks
 values
 (
 )
-                
+                    
 ]
+                
 )
                 
 if
@@ -531,8 +530,9 @@ artifacts
 .
 append
 (
-{
                         
+{
+                            
 "
 taskId
 "
@@ -555,7 +555,7 @@ kind
 >
 "
 }
-                        
+                            
 "
 taskType
 "
@@ -566,7 +566,7 @@ dep
 .
 kind
 )
-                        
+                            
 "
 paths
 "
@@ -575,8 +575,9 @@ sorted
 (
 paths
 )
-                    
+                        
 }
+                    
 )
         
 task

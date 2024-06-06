@@ -44,11 +44,11 @@ GROUP_BY_MAP
 [
 config
 [
-'
+"
 group
 -
 by
-'
+"
 ]
 ]
     
@@ -89,9 +89,9 @@ yield
 dependencies
 group_by
 (
-'
+"
 component
-'
+"
 )
 def
 component_grouping
@@ -228,6 +228,7 @@ tasks_for_all_components
 [
         
 task
+        
 for
 task
 in
@@ -240,15 +241,15 @@ attributes
 .
 get
 (
-'
+"
 component
-'
+"
 )
 =
 =
-'
+"
 all
-'
+"
         
 and
 task
@@ -283,14 +284,16 @@ tasks
 .
 extend
 (
-[
             
+[
+                
 task
+                
 for
 task
 in
 tasks_for_all_components
-            
+                
 if
 task
 .
@@ -298,28 +301,29 @@ attributes
 .
 get
 (
-'
+"
 build
 -
 type
-'
+"
 )
 =
 =
 build_type
-        
+            
 ]
+        
 )
     
 return
 groups
 group_by
 (
-'
+"
 build
 -
 type
-'
+"
 )
 def
 build_type_grouping
@@ -367,11 +371,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 [
 ]
 )
@@ -404,11 +408,11 @@ attributes
 .
 get
 (
-'
+"
 build
 -
 type
-'
+"
 )
         
 if

@@ -86,6 +86,7 @@ else
 raise
 NotImplementedError
 (
+                    
 f
 "
 Cannot
@@ -98,6 +99,7 @@ task
 task_name
 }
 "
+                
 )
         
 attributes
@@ -175,7 +177,8 @@ append
 (
             
 [
-'
+                
+"
 automation
 /
 taskcluster
@@ -187,7 +190,8 @@ ui
 test
 .
 sh
-'
+"
+                
 task
 [
 "
@@ -199,12 +203,15 @@ attributes
 component
 "
 ]
-'
+                
+"
 arm
-'
-'
+"
+                
+"
 1
-'
+"
+            
 ]
         
 )
@@ -290,9 +297,11 @@ task
 .
 setdefault
 (
+            
 "
 description
 "
+            
 f
 "
 Run
@@ -317,6 +326,7 @@ component
 ]
 }
 "
+        
 )
         
 yield

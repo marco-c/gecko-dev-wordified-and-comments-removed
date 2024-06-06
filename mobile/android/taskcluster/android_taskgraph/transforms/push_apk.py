@@ -67,16 +67,19 @@ for
 key
 in
 (
+            
 "
 worker
 .
 channel
 "
+            
 "
 worker
 .
 dep
 "
+            
 "
 worker
 .
@@ -84,14 +87,17 @@ certificate
 -
 alias
 "
+            
 "
 worker
 .
 product
 "
+            
 "
 routes
 "
+        
 )
 :
             
@@ -115,11 +121,11 @@ name
 *
 {
                     
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -135,9 +141,9 @@ type
 "
 ]
                     
-'
+"
 level
-'
+"
 :
 config
 .

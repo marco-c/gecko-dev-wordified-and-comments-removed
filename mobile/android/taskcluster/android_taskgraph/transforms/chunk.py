@@ -4,6 +4,10 @@ import
 deepcopy
 from
 taskgraph
+import
+MAX_DEPENDENCIES
+from
+taskgraph
 .
 transforms
 .
@@ -18,10 +22,6 @@ util
 treeherder
 import
 add_suffix
-from
-taskgraph
-import
-MAX_DEPENDENCIES
 MAX_NUMBER_OF_DEPS
 =
 MAX_DEPENDENCIES
@@ -51,9 +51,9 @@ orig_task
     
 task
 [
-'
+"
 dependencies
-'
+"
 ]
 =
 {
@@ -68,11 +68,11 @@ deps
     
 task
 [
-'
+"
 soft
 -
 dependencies
-'
+"
 ]
 =
 list
@@ -82,9 +82,9 @@ soft_deps
     
 task
 [
-'
+"
 name
-'
+"
 ]
 =
 "
@@ -99,31 +99,31 @@ format
 (
 orig_task
 [
-'
+"
 name
-'
+"
 ]
 count
 )
     
 if
-'
+"
 treeherder
-'
+"
 in
 task
 :
         
 task
 [
-'
+"
 treeherder
-'
+"
 ]
 [
-'
+"
 symbol
-'
+"
 ]
 =
 add_suffix
@@ -131,14 +131,14 @@ add_suffix
             
 task
 [
-'
+"
 treeherder
-'
+"
 ]
 [
-'
+"
 symbol
-'
+"
 ]
 f
 "
@@ -147,6 +147,7 @@ f
 count
 }
 "
+        
 )
     
 task
@@ -174,13 +175,13 @@ chunked_task
 :
     
 return
-'
+"
 {
 }
 -
 {
 }
-'
+"
 .
 format
 (
@@ -189,9 +190,9 @@ config
 kind
 chunked_task
 [
-'
+"
 name
-'
+"
 ]
 )
 transforms
@@ -241,11 +242,11 @@ task
 .
 pop
 (
-'
+"
 soft
 -
 dependencies
-'
+"
 [
 ]
 )
@@ -259,9 +260,9 @@ task
 .
 get
 (
-'
+"
 dependencies
-'
+"
 {
 }
 )
@@ -331,10 +332,12 @@ chunked_task
 =
 build_task_definition
 (
+                    
 task
 regular_deps
 soft_deps
 count
+                
 )
                 
 chunked_label
@@ -408,9 +411,9 @@ chunked_task
         
 task
 [
-'
+"
 dependencies
-'
+"
 ]
 =
 {

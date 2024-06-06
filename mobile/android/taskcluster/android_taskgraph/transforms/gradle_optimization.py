@@ -87,6 +87,7 @@ type
 if
 all
 (
+            
 type_
 not
 in
@@ -101,6 +102,7 @@ beta
 release
 "
 )
+            
 for
 type_
 in
@@ -108,6 +110,7 @@ in
 build_type
 release_type
 )
+        
 )
 :
             
@@ -145,8 +148,9 @@ skip_unless_changed
 .
 extend
 (
-[
                 
+[
+                    
 "
 android
 -
@@ -156,7 +160,7 @@ build
 .
 gradle
 "
-                
+                    
 "
 android
 -
@@ -166,7 +170,7 @@ settings
 .
 gradle
 "
-                
+                    
 "
 android
 -
@@ -176,7 +180,7 @@ buildSrc
 .
 *
 "
-                
+                    
 "
 android
 -
@@ -186,7 +190,7 @@ gradle
 .
 properties
 "
-                
+                    
 "
 android
 -
@@ -202,7 +206,7 @@ wrapper
 .
 properties
 "
-                
+                    
 "
 android
 -
@@ -215,8 +219,9 @@ dependencies
 *
 *
 "
-            
+                
 ]
+            
 )
         
 yield
@@ -321,22 +326,26 @@ skip_unless_changed
 .
 extend
 (
+                    
 sorted
 (
+                        
 [
-                    
+                            
 _get_path
 (
 gradle_project
 )
-                    
+                            
 for
 gradle_project
 in
 gradle_project_and_deps
-                
+                        
 ]
+                    
 )
+                
 )
         
 yield

@@ -1,12 +1,18 @@
 from
+pipes
+import
+quote
+as
+shell_quote
+from
 taskgraph
 .
 transforms
 .
 job
 import
-run_job_using
 configure_taskdesc_for_run
+run_job_using
 from
 taskgraph
 .
@@ -25,14 +31,8 @@ taskref_or_string
 from
 voluptuous
 import
-Required
 Optional
-from
-pipes
-import
-quote
-as
-shell_quote
+Required
 secret_schema
 =
 {
@@ -117,8 +117,9 @@ gradlew_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -129,7 +130,7 @@ using
 "
 gradlew
 "
-    
+        
 Optional
 (
 "
@@ -144,7 +145,7 @@ gradlew
 str
 ]
 ]
-    
+        
 Required
 (
 "
@@ -155,7 +156,7 @@ gradlew
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -170,7 +171,7 @@ gradlew
 str
 ]
 ]
-    
+        
 Required
 (
 "
@@ -179,7 +180,7 @@ workdir
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -190,7 +191,7 @@ caches
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -201,7 +202,7 @@ secrets
 [
 secret_schema
 ]
-    
+        
 Optional
 (
 "
@@ -214,14 +215,16 @@ secrets
 [
 dummy_secret_schema
 ]
+    
 }
 )
 run_commands_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -234,7 +237,7 @@ run
 -
 commands
 "
-    
+        
 Optional
 (
 "
@@ -249,7 +252,7 @@ commands
 str
 ]
 ]
-    
+        
 Required
 (
 "
@@ -262,7 +265,7 @@ commands
 taskref_or_string
 ]
 ]
-    
+        
 Required
 (
 "
@@ -271,7 +274,7 @@ workdir
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -282,7 +285,7 @@ caches
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -293,7 +296,7 @@ secrets
 [
 secret_schema
 ]
-    
+        
 Optional
 (
 "
@@ -306,6 +309,7 @@ secrets
 [
 dummy_secret_schema
 ]
+    
 }
 )
 run_job_using
@@ -366,6 +370,7 @@ _generate_dummy_secret_command
 (
 secret
 )
+        
 for
 secret
 in
@@ -550,8 +555,8 @@ env
 .
 update
 (
-{
         
+{
 "
 ANDROID_SDK_ROOT
 "
@@ -569,8 +574,8 @@ sdk
 linux
 "
 )
-    
 }
+    
 )
     
 run
@@ -646,6 +651,7 @@ _generate_dummy_secret_command
 (
 secret
 )
+        
 for
 secret
 in
@@ -758,6 +764,8 @@ central
     
 gradle_command
 =
+(
+        
 [
 "
 .
@@ -781,6 +789,8 @@ pop
 "
 gradlew
 "
+)
+    
 )
     
 post_gradle_commands
@@ -843,6 +853,7 @@ py
 -
 s
 "
+        
 secret
 [
 "
@@ -854,6 +865,7 @@ name
 -
 k
 "
+        
 secret
 [
 "
@@ -865,6 +877,7 @@ key
 -
 f
 "
+        
 secret
 [
 "
@@ -952,6 +965,7 @@ py
 -
 f
 "
+        
 secret
 [
 "
@@ -963,6 +977,7 @@ path
 -
 c
 "
+        
 secret
 [
 "
@@ -1098,14 +1113,14 @@ raise
 ValueError
 (
 f
-'
+"
 Unsupported
 dict
 :
 {
 part
 }
-'
+"
 )
             
 else
@@ -1132,6 +1147,7 @@ sanitized_parts
 shell_quoted_commands
 =
 [
+        
 "
 "
 .
@@ -1147,6 +1163,7 @@ for
 command
 in
 sanitized_commands
+    
 ]
     
 full_string_command
@@ -1170,6 +1187,7 @@ should_task_reference
 raise
 NotImplementedError
 (
+            
 '
 "
 arifact
@@ -1187,6 +1205,7 @@ be
 both
 used
 '
+        
 )
     
 elif
@@ -1289,10 +1308,12 @@ new_secret_scopes
 =
 list
 (
+        
 set
 (
 new_secret_scopes
 )
+    
 )
     
 scopes

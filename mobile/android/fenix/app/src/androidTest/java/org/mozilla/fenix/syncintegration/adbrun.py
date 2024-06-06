@@ -1,8 +1,6 @@
 import
 logging
 import
-subprocess
-import
 os
 logging
 .
@@ -28,9 +26,9 @@ object
     
 binary
 =
-'
+"
 adbrun
-'
+"
     
 logger
 =
@@ -51,7 +49,8 @@ os
 .
 system
 (
-'
+            
+"
 ~
 /
 Library
@@ -99,7 +98,8 @@ emu
 kill
 ;
 done
-'
+"
+        
 )
         
 os

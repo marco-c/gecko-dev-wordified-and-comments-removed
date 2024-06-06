@@ -1,21 +1,19 @@
+import
+argparse
+import
+hashlib
+import
+os
+import
+subprocess
+import
+sys
+import
+time
 from
 pathlib
 import
 Path
-import
-sys
-import
-os
-import
-time
-import
-hashlib
-import
-argparse
-import
-re
-import
-subprocess
 def
 fatal_err
 (
@@ -156,6 +154,7 @@ argparse
 .
 ArgumentParser
 (
+    
 description
 =
 "
@@ -206,6 +205,7 @@ curdir
     
 fatal_err
 (
+        
 f
 "
 This
@@ -241,6 +241,7 @@ r
 }
 )
 "
+    
 )
 contents_hash
 =
@@ -334,6 +335,7 @@ changes_others
 =
 run_cmd_checked
 (
+    
 [
 "
 git
@@ -572,6 +574,7 @@ win
         
 run_cmd_checked
 (
+            
 [
 "
 gradlew
@@ -595,9 +598,11 @@ time_ns
 }
 "
 ]
+            
 shell
 =
 True
+        
 )
     
 else
@@ -605,6 +610,7 @@ else
         
 run_cmd_checked
 (
+            
 [
 "
 .
@@ -628,6 +634,7 @@ time_ns
 }
 "
 ]
+        
 )
     
 with

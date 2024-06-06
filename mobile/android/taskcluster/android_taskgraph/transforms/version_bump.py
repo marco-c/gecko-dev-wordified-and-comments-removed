@@ -96,11 +96,11 @@ name
 *
 {
                     
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -116,9 +116,9 @@ type
 "
 ]
                     
-'
+"
 level
-'
+"
 :
 config
 .

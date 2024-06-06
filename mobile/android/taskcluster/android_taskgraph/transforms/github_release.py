@@ -61,6 +61,7 @@ for
 key
 in
 (
+            
 "
 worker
 .
@@ -68,6 +69,7 @@ github
 -
 project
 "
+            
 "
 worker
 .
@@ -75,6 +77,7 @@ is
 -
 prerelease
 "
+            
 "
 worker
 .
@@ -82,6 +85,7 @@ release
 -
 name
 "
+        
 )
 :
             
@@ -105,11 +109,11 @@ name
 *
 {
                     
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -125,9 +129,9 @@ type
 "
 ]
                     
-'
+"
 level
-'
+"
 :
 config
 .
@@ -138,11 +142,11 @@ level
 "
 ]
                     
-'
+"
 release
 -
 type
-'
+"
 :
 config
 .
@@ -306,6 +310,7 @@ name
 .
 format
 (
+            
 version
 =
 config
@@ -316,6 +321,7 @@ params
 version
 "
 ]
+        
 )
         
 yield
@@ -454,7 +460,6 @@ path
 ]
 =
 {
-                
 "
 destinations
 "
@@ -465,7 +470,6 @@ github_names_per_path
 path
 ]
 ]
-            
 }
         
 artifact_map

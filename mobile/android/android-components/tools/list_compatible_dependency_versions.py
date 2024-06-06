@@ -485,6 +485,7 @@ stderr
 if
 exit
 :
+        
 sys
 .
 exit
@@ -765,6 +766,7 @@ tag
 '
 )
 :
+            
 continue
         
 close_tag_index
@@ -1005,6 +1007,7 @@ VERSION
 '
 )
 :
+                
 continue
             
 return

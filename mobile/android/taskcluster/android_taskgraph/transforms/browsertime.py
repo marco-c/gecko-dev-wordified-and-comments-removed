@@ -40,17 +40,17 @@ taskgraph
 .
 util
 .
-treeherder
+schema
 import
-inherit_treeherder_from_dep
+resolve_keyed_by
 from
 taskgraph
 .
 util
 .
-schema
+treeherder
 import
-resolve_keyed_by
+inherit_treeherder_from_dep
 transforms
 =
 TransformSequence
@@ -1279,8 +1279,6 @@ symbol
 "
 ]
 =
-(
-            
 task
 [
 "
@@ -1295,6 +1293,7 @@ symbol
 .
 replace
 (
+            
 "
 Btime
 "
@@ -1303,7 +1302,6 @@ Btime
 -
 nofis
 "
-)
         
 )
         
