@@ -324,14 +324,8 @@ id
 container
 )
 .
-popBackStack
+navigateUp
 (
-R
-.
-id
-.
-browserFragment
-false
 )
 true
 }
