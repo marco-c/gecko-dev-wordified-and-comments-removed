@@ -281,6 +281,11 @@ newFact
 Action
 .
 IMPLEMENTATION_DETAIL
+value
+=
+"
+testValue
+"
 )
 processor
 .
@@ -297,6 +302,9 @@ addMarker
 fact
 .
 item
+fact
+.
+value
 )
 }
 }
@@ -372,6 +380,11 @@ newFact
 Action
 .
 IMPLEMENTATION_DETAIL
+value
+=
+"
+testValue
+"
 )
 processor
 .
@@ -428,7 +441,9 @@ item
 100
 .
 0
-null
+fact
+.
+value
 )
 }
 }
@@ -574,6 +589,12 @@ String
 "
 itemName
 "
+value
+:
+String
+?
+=
+null
 )
 =
 Fact
@@ -583,4 +604,5 @@ Component
 BROWSER_STATE
 action
 item
+value
 )
