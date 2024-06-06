@@ -63,6 +63,12 @@ fenix
 .
 trackingprotection
 import
+androidx
+.
+annotation
+.
+StringRes
+import
 mozilla
 .
 components
@@ -446,10 +452,12 @@ enum
 class
 TrackingProtectionCategory
 (
+StringRes
 val
 title
 :
 Int
+StringRes
 val
 description
 :

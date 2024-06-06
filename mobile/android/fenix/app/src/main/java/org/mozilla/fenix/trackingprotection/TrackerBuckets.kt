@@ -387,7 +387,6 @@ category
 .
 *
 /
-operator
 fun
 get
 (
