@@ -3200,6 +3200,12 @@ remove
 (
 session
 )
+activity
+?
+.
+onBackPressed
+(
+)
 }
 else
 {
