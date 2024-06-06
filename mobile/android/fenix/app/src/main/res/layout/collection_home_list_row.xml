@@ -177,7 +177,7 @@ background
 "
 drawable
 /
-rounded_all_corners
+collection_home_list_row_background
 "
 android
 :
@@ -517,7 +517,7 @@ background
 "
 drawable
 /
-ic_chevron_down
+ic_chevron
 "
 android
 :

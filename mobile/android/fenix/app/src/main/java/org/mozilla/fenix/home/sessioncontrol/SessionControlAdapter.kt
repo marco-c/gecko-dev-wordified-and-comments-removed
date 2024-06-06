@@ -978,7 +978,6 @@ CollectionViewHolder
 (
 view
 actionEmitter
-adapterJob
 )
 TabInCollectionViewHolder
 .
