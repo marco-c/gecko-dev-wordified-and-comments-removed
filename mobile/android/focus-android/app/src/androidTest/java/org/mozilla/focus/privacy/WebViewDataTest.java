@@ -5,7 +5,7 @@ mozilla
 .
 focus
 .
-activity
+privacy
 ;
 import
 android
@@ -214,6 +214,17 @@ okhttp3
 mockwebserver
 .
 RecordedRequest
+;
+import
+org
+.
+mozilla
+.
+focus
+.
+activity
+.
+MainActivity
 ;
 import
 org
