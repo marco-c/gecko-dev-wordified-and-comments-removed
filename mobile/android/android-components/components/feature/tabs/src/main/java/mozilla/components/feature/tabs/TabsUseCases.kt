@@ -1136,6 +1136,14 @@ a
 search
 .
 *
+param
+searchEngineName
+The
+search
+engine
+name
+.
+*
 return
 The
 ID
@@ -1237,6 +1245,12 @@ isSearch
 Boolean
 =
 false
+searchEngineName
+:
+String
+?
+=
+null
 )
 :
 String
@@ -1313,6 +1327,7 @@ tab
 .
 id
 isSearch
+searchEngineName
 )
 )
 /
