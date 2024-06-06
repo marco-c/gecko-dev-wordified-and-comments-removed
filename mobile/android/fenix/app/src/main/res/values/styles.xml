@@ -3766,9 +3766,8 @@ android
 textColor
 "
 >
-color
-/
-photonGrey60
+?
+secondaryText
 <
 /
 item
