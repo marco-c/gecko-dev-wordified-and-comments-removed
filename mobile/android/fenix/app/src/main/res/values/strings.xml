@@ -5453,6 +5453,13 @@ name
 "
 juno_onboarding_privacy_notice_text_2
 "
+moz
+:
+removedIn
+=
+"
+125
+"
 tools
 :
 ignore
