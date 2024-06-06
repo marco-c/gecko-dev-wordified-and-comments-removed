@@ -1924,7 +1924,7 @@ que
 voc
 n
 o
-v
+abre
 h
 duas
 semanas
@@ -1934,6 +1934,8 @@ movidas
 para
 c
 .
+Voc
+pode
 <
 /
 string
@@ -1973,7 +1975,7 @@ ignore
 UnusedResources
 "
 >
-Desativar
+desativar
 nas
 configura
 es
