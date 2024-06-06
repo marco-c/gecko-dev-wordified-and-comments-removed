@@ -1446,7 +1446,7 @@ R
 .
 string
 .
-delete_history_prompt_body
+delete_history_prompt_body_2
 )
 )
 .
