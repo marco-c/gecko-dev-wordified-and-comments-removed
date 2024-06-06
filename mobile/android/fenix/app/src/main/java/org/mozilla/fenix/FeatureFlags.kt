@@ -334,11 +334,14 @@ items
 .
 *
 /
-const
 val
 composeTabsTray
 =
-false
+Config
+.
+channel
+.
+isNightlyOrDebug
 /
 *
 *
