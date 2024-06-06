@@ -438,14 +438,6 @@ ActivationPing
 (
 context
 )
-private
-val
-installationPing
-=
-FirstSessionPing
-(
-context
-)
 override
 fun
 start
@@ -620,11 +612,6 @@ registerPings
 Pings
 )
 activationPing
-.
-checkAndSend
-(
-)
-installationPing
 .
 checkAndSend
 (
