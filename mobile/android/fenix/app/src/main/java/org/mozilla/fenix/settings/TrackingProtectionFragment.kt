@@ -478,7 +478,6 @@ trackingProtectionPolicyFactory
 .
 createTrackingProtectionPolicy
 (
-trackingProtectionOn
 )
 useCases
 .

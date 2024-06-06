@@ -207,7 +207,9 @@ privateMode
 :
 Boolean
 =
-true
+settings
+.
+shouldUseTrackingProtection
 )
 :
 TrackingProtectionPolicy
