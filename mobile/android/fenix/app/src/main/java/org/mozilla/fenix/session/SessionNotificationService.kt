@@ -848,6 +848,11 @@ ACTION_ERASE
 erase
 "
 internal
+var
+started
+=
+false
+internal
 fun
 start
 (
@@ -966,6 +971,9 @@ intent
 )
 }
 )
+started
+=
+true
 }
 internal
 fun
@@ -1033,6 +1041,9 @@ intent
 )
 }
 )
+started
+=
+false
 }
 }
 }
