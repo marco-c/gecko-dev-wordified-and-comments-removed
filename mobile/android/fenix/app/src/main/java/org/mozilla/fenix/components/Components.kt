@@ -318,6 +318,9 @@ core
 .
 customTabsStore
 migrationStore
+core
+.
+webAppManifestStorage
 )
 }
 val
