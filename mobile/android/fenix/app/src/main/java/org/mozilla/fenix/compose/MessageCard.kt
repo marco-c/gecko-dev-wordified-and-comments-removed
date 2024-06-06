@@ -623,6 +623,13 @@ fontSize
 14
 .
 sp
+color
+=
+FirefoxTheme
+.
+colors
+.
+textSecondary
 )
 }
 else
@@ -660,6 +667,13 @@ fontSize
 14
 .
 sp
+color
+=
+FirefoxTheme
+.
+colors
+.
+textPrimary
 )
 IconButton
 (
