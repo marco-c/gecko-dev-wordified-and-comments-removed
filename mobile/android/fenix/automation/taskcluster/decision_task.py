@@ -567,13 +567,26 @@ abi
 in
 (
 '
-aarch64
+armeabi
+-
+v7a
 '
 '
-arm
+arm64
+-
+v8a
 '
 )
 :
+        
+variant_apk
+=
+variant
+.
+get_apk
+(
+abi
+)
         
 all_raptor_craft_functions
 =
@@ -618,8 +631,9 @@ args
 (
 signing_task_id
 mozharness_task_id
-abi
+variant_apk
 gecko_revision
+is_staging
 )
             
 other_tasks
