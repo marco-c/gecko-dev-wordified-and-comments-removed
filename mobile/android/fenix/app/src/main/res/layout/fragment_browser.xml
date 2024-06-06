@@ -342,6 +342,13 @@ match_parent
 "
 android
 :
+accessibilityLiveRegion
+=
+"
+polite
+"
+android
+:
 visibility
 =
 "
