@@ -342,6 +342,13 @@ Config
 channel
 .
 isNightlyOrDebug
+|
+|
+Config
+.
+channel
+.
+isBeta
 /
 *
 *
