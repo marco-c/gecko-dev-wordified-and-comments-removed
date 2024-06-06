@@ -468,13 +468,6 @@ divider_line_apps_share_and_pdf_section
 "
 android
 :
-visibility
-=
-"
-gone
-"
-android
-:
 layout_width
 =
 "
@@ -523,13 +516,6 @@ ui
 platform
 .
 ComposeView
-android
-:
-visibility
-=
-"
-gone
-"
 android
 :
 id
