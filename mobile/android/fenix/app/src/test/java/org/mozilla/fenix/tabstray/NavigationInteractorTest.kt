@@ -119,6 +119,12 @@ mockk
 .
 unmockkStatic
 import
+io
+.
+mockk
+.
+verifyOrder
+import
 kotlinx
 .
 coroutines
@@ -1436,7 +1442,7 @@ onSyncedTabClicked
 (
 tab
 )
-verify
+verifyOrder
 {
 metrics
 .
@@ -1446,9 +1452,9 @@ Event
 .
 SyncedTabOpened
 )
-}
-verify
-{
+dismissTabTray
+(
+)
 activity
 .
 openToBrowserAndLoad

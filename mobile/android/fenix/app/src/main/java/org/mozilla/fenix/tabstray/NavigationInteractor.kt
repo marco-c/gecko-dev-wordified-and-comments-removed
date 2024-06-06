@@ -1127,7 +1127,7 @@ here
 regardless
 of
 operation
-succes
+success
 )
 .
 }
@@ -1147,6 +1147,9 @@ track
 Event
 .
 SyncedTabOpened
+)
+dismissTabTray
+(
 )
 activity
 .
