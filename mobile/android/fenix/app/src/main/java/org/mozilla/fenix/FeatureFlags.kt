@@ -49,7 +49,7 @@ BUILD_TYPE
 =
 =
 "
-production
+fenixProduction
 "
 }
 /
@@ -73,7 +73,7 @@ BUILD_TYPE
 =
 =
 "
-beta
+fenixBeta
 "
 }
 /
@@ -107,7 +107,7 @@ BUILD_TYPE
 =
 =
 "
-nightly
+fenixNightly
 "
 |
 |
@@ -117,7 +117,7 @@ BUILD_TYPE
 =
 =
 "
-nightlyLegacy
+fenixNightlyLegacy
 "
 }
 /
