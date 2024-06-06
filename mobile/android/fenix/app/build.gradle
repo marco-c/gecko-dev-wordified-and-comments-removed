@@ -3373,10 +3373,6 @@ sentry
 implementation
 Deps
 .
-osslicenses_library
-implementation
-Deps
-.
 leanplum_core
 implementation
 Deps
