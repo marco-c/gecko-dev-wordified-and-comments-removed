@@ -548,9 +548,8 @@ name
 sync_disconnected_icon_fill_normal_theme
 "
 >
-color
-/
-sync_disconnected_icon_fill_dark_theme
+#
+FFF36E
 <
 /
 color
