@@ -472,7 +472,7 @@ src
 /
 focusDebug
 '
-focusX86Debug
+focusArmDebug
 .
 root
 =
@@ -481,7 +481,7 @@ src
 /
 focusDebug
 '
-focusX86Debug
+focusAarch64Debug
 .
 root
 =
@@ -499,7 +499,7 @@ src
 /
 klarDebug
 '
-klarX86Debug
+klarArmDebug
 .
 root
 =
@@ -508,7 +508,7 @@ src
 /
 klarDebug
 '
-klarX86Debug
+klarAarch64Debug
 .
 root
 =
