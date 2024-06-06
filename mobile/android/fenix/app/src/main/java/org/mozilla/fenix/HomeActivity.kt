@@ -1990,16 +1990,6 @@ resources
 context
 .
 resources
-appName
-=
-getString
-(
-R
-.
-string
-.
-app_name
-)
 )
 {
 share
