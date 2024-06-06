@@ -218,6 +218,9 @@ Value
 >
 &
 aArguments
+ErrorResult
+&
+aErrorResult
 )
 const
 ;
@@ -244,6 +247,9 @@ Value
 >
 &
 aArguments
+ErrorResult
+&
+aErrorResult
 )
 const
 ;
@@ -270,6 +276,9 @@ Value
 >
 &
 aArguments
+ErrorResult
+&
+aErrorResult
 )
 const
 ;

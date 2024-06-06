@@ -121,6 +121,16 @@ spec
 >
 .
 *
+It
+is
+augmented
+with
+Gecko
+-
+specific
+annotations
+.
+*
 /
 [
 Exposed
@@ -244,6 +254,7 @@ name
 ;
 [
 NewObject
+Throws
 ]
 TrustedHTML
 createHTML
@@ -259,6 +270,7 @@ arguments
 ;
 [
 NewObject
+Throws
 ]
 TrustedScript
 createScript
@@ -274,6 +286,7 @@ arguments
 ;
 [
 NewObject
+Throws
 ]
 TrustedScriptURL
 createScriptURL
