@@ -177,6 +177,8 @@ build
 type
 :
 (
+focus
+-
 nightly
 |
 focus
@@ -187,6 +189,8 @@ klar
 -
 release
 |
+focus
+-
 beta
 )
 :

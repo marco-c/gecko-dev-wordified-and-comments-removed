@@ -145,7 +145,8 @@ parameters
 )
 :
         
-return
+build_type
+=
 task
 .
 attributes
@@ -160,9 +161,21 @@ type
 "
 "
 )
+        
+return
+build_type
 =
 =
 "
+nightly
+"
+or
+build_type
+=
+=
+"
+focus
+-
 nightly
 "
     
