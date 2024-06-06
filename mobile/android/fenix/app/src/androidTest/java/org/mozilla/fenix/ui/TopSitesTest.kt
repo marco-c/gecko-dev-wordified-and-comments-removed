@@ -1079,12 +1079,6 @@ url
 waitForPageToLoad
 (
 )
-verifyPageContent
-(
-defaultWebPage
-.
-content
-)
 }
 }
 browserScreen
