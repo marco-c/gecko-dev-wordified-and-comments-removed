@@ -484,6 +484,14 @@ drawable
 /
 ic_delete
 "
+android
+:
+tint
+=
+"
+?
+primaryText
+"
 app
 :
 layout_constraintBottom_toBottomOf
