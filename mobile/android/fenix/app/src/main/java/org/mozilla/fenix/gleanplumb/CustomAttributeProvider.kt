@@ -198,7 +198,7 @@ JSONObject
 mapOf
 (
 "
-is_default_browser
+is_default_browser_string
 "
 to
 BrowsersCache
@@ -209,6 +209,10 @@ context
 )
 .
 isDefaultBrowser
+.
+toString
+(
+)
 "
 date_string
 "
