@@ -81,6 +81,16 @@ Unreleased
 Added
 -
 #
+4137
+-
+Adds
+pagination
+to
+the
+history
+view
+-
+#
 3695
 -
 Made
