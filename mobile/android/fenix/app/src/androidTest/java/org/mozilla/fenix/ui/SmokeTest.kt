@@ -5945,6 +5945,9 @@ Pause
 )
 clickTabMediaControlButton
 (
+"
+Pause
+"
 )
 verifyTabMediaControlButtonState
 (
