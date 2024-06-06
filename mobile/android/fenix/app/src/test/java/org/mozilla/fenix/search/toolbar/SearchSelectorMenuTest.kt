@@ -236,7 +236,7 @@ R
 .
 string
 .
-search_header_menu_item
+search_header_menu_item_2
 )
 (
 items
