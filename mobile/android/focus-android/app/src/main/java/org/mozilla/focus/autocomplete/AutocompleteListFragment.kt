@@ -1521,14 +1521,9 @@ fragment
 activity
 ?
 .
-let
-{
-it
-.
 invalidateOptionsMenu
 (
 )
-}
 }
 )
 handleView
