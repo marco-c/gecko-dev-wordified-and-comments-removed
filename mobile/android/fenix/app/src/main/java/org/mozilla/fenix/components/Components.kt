@@ -219,14 +219,6 @@ mozilla
 .
 fenix
 .
-BrowsingModePersistenceMiddleware
-import
-org
-.
-mozilla
-.
-fenix
-.
 BuildConfig
 import
 org
@@ -1346,12 +1338,6 @@ metrics
 analytics
 .
 metrics
-)
-BrowsingModePersistenceMiddleware
-(
-settings
-=
-settings
 )
 )
 )

@@ -211,14 +211,3 @@ AppStoreReducer
 reduce
 middlewares
 )
-{
-init
-{
-dispatch
-(
-AppAction
-.
-Init
-)
-}
-}
