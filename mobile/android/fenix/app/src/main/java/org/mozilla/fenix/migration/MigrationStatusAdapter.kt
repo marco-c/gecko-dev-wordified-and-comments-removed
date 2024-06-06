@@ -635,7 +635,7 @@ getChildViewHolder
 view
 )
 .
-adapterPosition
+bindingAdapterPosition
 val
 itemCount
 =
