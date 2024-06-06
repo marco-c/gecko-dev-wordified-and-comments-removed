@@ -210,7 +210,9 @@ project
 :
 mobile
 :
-fenix
+firefox
+-
+android
 :
 releng
 :
@@ -235,7 +237,9 @@ project
 :
 mobile
 :
-fenix
+firefox
+-
+android
 :
 releng
 :
@@ -252,7 +256,9 @@ project
 :
 mobile
 :
-fenix
+firefox
+-
+android
 :
 releng
 :
@@ -269,7 +275,9 @@ project
 :
 mobile
 :
-fenix
+firefox
+-
+android
 :
 releng
 :

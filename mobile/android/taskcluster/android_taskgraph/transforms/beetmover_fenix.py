@@ -419,7 +419,9 @@ project
 :
 mobile
 :
-fenix
+firefox
+-
+android
 :
 releng
 :
