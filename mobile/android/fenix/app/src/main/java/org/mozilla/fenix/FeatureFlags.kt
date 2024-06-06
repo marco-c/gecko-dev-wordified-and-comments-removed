@@ -506,14 +506,11 @@ enhancements
 .
 *
 /
+const
 val
 taskContinuityFeature
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
