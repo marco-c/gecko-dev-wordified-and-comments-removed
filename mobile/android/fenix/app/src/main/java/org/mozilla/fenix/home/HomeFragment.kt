@@ -1743,9 +1743,7 @@ setOnClickListener
 invokePendingDeleteJobs
 (
 )
-onboarding
-.
-finish
+hideOnboardingIfNeeded
 (
 )
 val
@@ -1822,9 +1820,7 @@ setOnClickListener
 invokePendingDeleteJobs
 (
 )
-onboarding
-.
-finish
+hideOnboardingIfNeeded
 (
 )
 val
