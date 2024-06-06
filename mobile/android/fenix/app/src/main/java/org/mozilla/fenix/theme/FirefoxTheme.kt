@@ -890,8 +890,6 @@ Top
 App
 Bar
 Bottom
-Toolbar
-background
 Frontlayer
 header
 var
