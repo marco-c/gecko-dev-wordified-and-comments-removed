@@ -440,7 +440,7 @@ verifySearchEngineButton
 verifyDefaultBrowserItem
 (
 )
-verifyCloseTabsItem
+verifyTabsItem
 (
 )
 /
@@ -891,7 +891,7 @@ openSettings
 {
 }
 .
-openCloseTabsSubMenu
+openTabsSubMenu
 {
 verifyOptions
 (

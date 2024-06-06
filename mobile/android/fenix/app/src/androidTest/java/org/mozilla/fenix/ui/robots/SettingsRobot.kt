@@ -471,11 +471,11 @@ assertDefaultBrowserItem
 (
 )
 fun
-verifyCloseTabsItem
+verifyTabsItem
 (
 )
 =
-assertCloseTabsItem
+assertTabsItem
 (
 )
 fun
@@ -935,7 +935,7 @@ Transition
 )
 }
 fun
-openCloseTabsSubMenu
+openTabsSubMenu
 (
 interact
 :
@@ -953,7 +953,7 @@ SettingsSubMenuTabsRobot
 Transition
 {
 fun
-closeTabsButton
+tabsButton
 (
 )
 =
@@ -962,12 +962,11 @@ onView
 withText
 (
 "
-Close
-tabs
+Tabs
 "
 )
 )
-closeTabsButton
+tabsButton
 (
 )
 .
@@ -1986,7 +1985,7 @@ VISIBLE
 }
 private
 fun
-assertCloseTabsItem
+assertTabsItem
 (
 )
 {
@@ -2003,8 +2002,7 @@ By
 text
 (
 "
-Close
-tabs
+Tabs
 "
 )
 )
@@ -2015,8 +2013,7 @@ onView
 withText
 (
 "
-Close
-tabs
+Tabs
 "
 )
 )
