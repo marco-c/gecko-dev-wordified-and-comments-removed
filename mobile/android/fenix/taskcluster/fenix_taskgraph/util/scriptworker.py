@@ -1676,6 +1676,20 @@ S
 -
 "
 )
+            
+version
+=
+version
+.
+split
+(
+'
+-
+'
+)
+[
+0
+]
         
 else
 :
