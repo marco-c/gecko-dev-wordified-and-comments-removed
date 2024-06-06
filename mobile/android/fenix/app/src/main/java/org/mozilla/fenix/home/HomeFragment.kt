@@ -1615,17 +1615,6 @@ searchIcon
 }
 view
 .
-wordmark
-.
-setOnClickListener
-{
-showSavedSnackbar
-(
-2
-)
-}
-view
-.
 menuButton
 .
 setOnClickListener
