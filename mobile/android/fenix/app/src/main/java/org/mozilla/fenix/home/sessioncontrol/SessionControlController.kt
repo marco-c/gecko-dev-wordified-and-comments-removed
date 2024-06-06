@@ -1606,6 +1606,16 @@ removeCollectionWithUndo
 (
 collection
 )
+Collections
+.
+removed
+.
+record
+(
+NoExtras
+(
+)
+)
 }
 override
 fun
