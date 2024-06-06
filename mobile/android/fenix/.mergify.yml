@@ -120,6 +120,10 @@ files
 strings
 .
 xml
+|
+l10n
+.
+toml
 )
 actions
 :
