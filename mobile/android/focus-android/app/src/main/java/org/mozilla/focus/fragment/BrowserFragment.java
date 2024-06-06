@@ -1558,6 +1558,15 @@ isBlockingEnabled
 )
 )
 ;
+setShouldRequestDesktop
+(
+session
+.
+shouldRequestDesktopSite
+(
+)
+)
+;
 session
 .
 getLoading
@@ -3691,6 +3700,11 @@ title
 session
 .
 isBlockingEnabled
+(
+)
+session
+.
+shouldRequestDesktopSite
 (
 )
 )

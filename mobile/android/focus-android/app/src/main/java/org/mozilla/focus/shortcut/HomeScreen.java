@@ -152,6 +152,16 @@ blocking_enabled
 ;
 public
 static
+final
+String
+REQUEST_DESKTOP
+=
+"
+request_desktop
+"
+;
+public
+static
 void
 installShortCut
 (
@@ -165,6 +175,8 @@ String
 title
 boolean
 blockingEnabled
+boolean
+requestDesktop
 )
 {
 if
@@ -196,6 +208,7 @@ icon
 url
 title
 blockingEnabled
+requestDesktop
 )
 ;
 if
@@ -236,6 +249,8 @@ String
 title
 boolean
 blockingEnabled
+boolean
+requestDesktop
 )
 {
 if
@@ -324,6 +339,7 @@ createShortcutIntent
 context
 url
 blockingEnabled
+requestDesktop
 )
 )
 .
@@ -353,6 +369,8 @@ String
 url
 boolean
 blockingEnabled
+boolean
+requestDesktop
 )
 {
 final
@@ -395,6 +413,14 @@ putExtra
 (
 BLOCKING_ENABLED
 blockingEnabled
+)
+;
+shortcutIntent
+.
+putExtra
+(
+REQUEST_DESKTOP
+requestDesktop
 )
 ;
 shortcutIntent
