@@ -447,7 +447,15 @@ textAppearanceListItemSmall
 /
 >
 <
-TextView
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+LinkTextView
 android
 :
 id
