@@ -533,7 +533,8 @@ WebExtensionBrowserMenuBuilder
 menuItems
 endOfMenuAlwaysVisible
 =
-true
+!
+shouldReverseItems
 store
 =
 context
