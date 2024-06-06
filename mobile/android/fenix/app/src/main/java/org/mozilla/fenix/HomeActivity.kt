@@ -933,6 +933,12 @@ FromGlobal
 customTabSessionId
 )
 }
+Suppress
+(
+"
+LongParameterList
+"
+)
 fun
 openToBrowserAndLoad
 (
@@ -957,6 +963,11 @@ SearchEngine
 ?
 =
 null
+forceSearch
+:
+Boolean
+=
+false
 )
 {
 openToBrowser
@@ -969,6 +980,7 @@ load
 searchTermOrURL
 newTab
 engine
+forceSearch
 )
 }
 fun
@@ -1106,6 +1118,9 @@ engine
 :
 SearchEngine
 ?
+forceSearch
+:
+Boolean
 )
 {
 val
@@ -1215,6 +1230,10 @@ engine
 }
 if
 (
+!
+forceSearch
+&
+&
 searchTermOrURL
 .
 isUrl

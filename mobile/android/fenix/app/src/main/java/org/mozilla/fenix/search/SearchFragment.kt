@@ -1389,6 +1389,9 @@ engine
 it
 .
 engine
+forceSearch
+=
+true
 )
 val
 engine
