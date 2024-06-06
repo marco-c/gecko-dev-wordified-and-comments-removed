@@ -301,7 +301,7 @@ androidx_activity
 .
 7
 .
-1
+2
 "
 const
 val
@@ -477,7 +477,7 @@ androidx_core
 .
 10
 .
-0
+1
 "
 const
 val
