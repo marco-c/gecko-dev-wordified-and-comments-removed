@@ -202,6 +202,7 @@ sessionsAdapter
 =
 SessionsAdapter
 (
+actionEmitter
 )
 init
 {
