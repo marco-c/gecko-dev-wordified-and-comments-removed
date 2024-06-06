@@ -497,7 +497,7 @@ R
 .
 drawable
 .
-ic_lock
+mozac_ic_lock
 )
 INSECURE
 (
