@@ -315,6 +315,13 @@ LENGTH_SHORT
 Snackbar
 .
 LENGTH_SHORT
+const
+val
+LENGTH_INDEFINITE
+=
+Snackbar
+.
+LENGTH_INDEFINITE
 private
 const
 val
