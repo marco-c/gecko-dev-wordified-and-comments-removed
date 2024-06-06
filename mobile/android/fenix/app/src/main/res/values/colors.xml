@@ -1172,8 +1172,9 @@ name
 inset_dark_theme
 "
 >
-#
-32313C
+color
+/
+photonDarkGrey50
 <
 /
 color
@@ -1186,8 +1187,9 @@ name
 above_dark_theme
 "
 >
-#
-32313C
+color
+/
+photonDarkGrey50
 <
 /
 color
