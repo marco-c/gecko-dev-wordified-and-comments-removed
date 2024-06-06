@@ -62,7 +62,7 @@ fenix_taskgraph
 .
 loader
 .
-single_dep
+multi_dep
 :
 loader
 transforms
@@ -72,7 +72,7 @@ fenix_taskgraph
 .
 transforms
 .
-single_dep
+multi_dep
 :
 transforms
 -
@@ -97,6 +97,18 @@ dependencies
 :
 -
 build
+primary
+-
+dependency
+:
+build
+group
+-
+by
+:
+build
+-
+type
 job
 -
 template
