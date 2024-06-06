@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -92,7 +92,7 @@ transforms
 .
 push_android_app
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -106,10 +106,12 @@ signing
 -
 bundle
 -
+android
+-
 startup
 -
 test
-tasks
+jobs
 :
 push
 -
@@ -183,16 +185,6 @@ type
 push
 -
 apk
-run
--
-on
--
-tasks
--
-for
-:
-[
-]
 worker
 :
 certificate
@@ -338,8 +330,6 @@ phase
 push
 treeherder
 :
-job
--
 symbol
 :
 by
