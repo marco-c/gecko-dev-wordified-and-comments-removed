@@ -65,12 +65,6 @@ focus
 .
 ext
 import
-android
-.
-net
-.
-Uri
-import
 androidx
 .
 compose
@@ -207,11 +201,10 @@ StringBuilder
 val
 uri
 =
-Uri
-.
-parse
-(
 this
+.
+toUri
+(
 )
 /
 /
