@@ -1455,6 +1455,17 @@ cron
 '
 then
 :
+#
+cron
+context
+provides
+{
+head_branch
+}
+as
+a
+short
+one
 -
 index
 .
@@ -1471,7 +1482,7 @@ v2
 branch
 .
 {
-short_head_branch
+head_branch
 }
 .
 latest
@@ -1501,7 +1512,7 @@ v2
 branch
 .
 {
-short_head_branch
+head_branch
 }
 .
 revision
@@ -1535,7 +1546,7 @@ v2
 branch
 .
 {
-short_head_branch
+head_branch
 }
 .
 revision
