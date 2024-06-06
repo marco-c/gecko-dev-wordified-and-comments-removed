@@ -319,6 +319,16 @@ locale
 .
 LocaleManager
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+BrowsersCache
+import
 org
 .
 mozilla
