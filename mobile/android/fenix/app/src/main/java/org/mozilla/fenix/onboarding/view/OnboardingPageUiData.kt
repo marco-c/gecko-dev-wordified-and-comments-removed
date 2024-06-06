@@ -194,6 +194,14 @@ telemetryId
 sync
 "
 )
+ADD_SEARCH_WIDGET
+(
+telemetryId
+=
+"
+search_widget
+"
+)
 NOTIFICATION_PERMISSION
 (
 telemetryId
