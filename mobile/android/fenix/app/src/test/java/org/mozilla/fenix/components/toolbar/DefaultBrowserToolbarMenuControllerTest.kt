@@ -4208,6 +4208,13 @@ NavGraphDirections
 .
 actionGlobalShareFragment
 (
+sessionId
+=
+browserStore
+.
+state
+.
+selectedTabId
 data
 =
 arrayOf
@@ -4429,6 +4436,13 @@ NavGraphDirections
 .
 actionGlobalShareFragment
 (
+sessionId
+=
+browserStore
+.
+state
+.
+selectedTabId
 data
 =
 arrayOf

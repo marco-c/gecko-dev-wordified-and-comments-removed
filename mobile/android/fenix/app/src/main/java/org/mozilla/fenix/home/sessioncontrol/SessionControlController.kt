@@ -3084,6 +3084,13 @@ HomeFragmentDirections
 .
 actionGlobalShareFragment
 (
+sessionId
+=
+store
+.
+state
+.
+selectedTabId
 shareSubject
 =
 shareSubject

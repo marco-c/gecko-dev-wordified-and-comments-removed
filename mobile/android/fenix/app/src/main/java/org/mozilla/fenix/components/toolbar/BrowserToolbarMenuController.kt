@@ -1508,6 +1508,12 @@ NavGraphDirections
 .
 actionGlobalShareFragment
 (
+sessionId
+=
+currentSession
+?
+.
+id
 data
 =
 arrayOf
