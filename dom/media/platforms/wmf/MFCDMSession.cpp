@@ -1391,7 +1391,10 @@ keyIdString
 get
 (
 )
-ToMediaKeyStatusStr
+dom
+:
+:
+GetEnumString
 (
 ToMediaKeyStatus
 (
@@ -1399,6 +1402,10 @@ keyStatus
 .
 eMediaKeyStatus
 )
+)
+.
+get
+(
 )
 )
 ;
