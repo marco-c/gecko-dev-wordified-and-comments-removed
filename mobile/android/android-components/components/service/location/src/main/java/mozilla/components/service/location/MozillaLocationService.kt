@@ -1211,6 +1211,9 @@ if
 isSuccess
 )
 {
+close
+(
+)
 return
 null
 }

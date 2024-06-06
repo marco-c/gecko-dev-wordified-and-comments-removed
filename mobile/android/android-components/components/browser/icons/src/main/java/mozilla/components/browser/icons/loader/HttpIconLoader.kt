@@ -502,6 +502,11 @@ toIconLoaderResult
 }
 else
 {
+response
+.
+close
+(
+)
 failureCache
 .
 rememberFailure

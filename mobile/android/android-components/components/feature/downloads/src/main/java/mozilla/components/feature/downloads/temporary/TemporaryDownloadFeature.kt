@@ -578,6 +578,11 @@ Response
 SUCCESS
 )
 {
+response
+.
+close
+(
+)
 /
 /
 We

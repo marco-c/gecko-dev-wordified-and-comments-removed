@@ -235,8 +235,6 @@ id
 1603114
 response
 .
-body
-.
 close
 (
 )
