@@ -1892,6 +1892,9 @@ default_browser
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 >
@@ -2094,6 +2097,9 @@ mozilla_products
 type
 :
 string_list
+lifetime
+:
+application
 description
 :
 >
@@ -2186,6 +2192,9 @@ default_moz_browser
 type
 :
 string
+lifetime
+:
+application
 description
 :
 >
@@ -2208,9 +2217,6 @@ a
 Mozilla
 owned
 product
-otherwise
-empty
-string
 send_in_pings
 :
 -
@@ -2267,6 +2273,9 @@ code
 type
 :
 string
+lifetime
+:
+application
 description
 :
 >
@@ -2376,6 +2385,9 @@ name
 type
 :
 string
+lifetime
+:
+application
 description
 :
 >
@@ -2485,6 +2497,9 @@ submission_url
 type
 :
 string
+lifetime
+:
+application
 description
 :
 >
