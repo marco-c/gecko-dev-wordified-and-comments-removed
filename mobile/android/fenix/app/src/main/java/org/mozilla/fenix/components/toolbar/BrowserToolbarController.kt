@@ -1892,9 +1892,7 @@ getRedirect
 appLinksUseCases
 .
 appLinkRedirect
-sessionManager
-.
-selectedSession
+currentSession
 ?
 .
 let
