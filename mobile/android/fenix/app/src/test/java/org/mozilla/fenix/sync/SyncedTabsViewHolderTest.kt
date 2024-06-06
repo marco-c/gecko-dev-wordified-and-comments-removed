@@ -669,7 +669,7 @@ verify
 {
 deviceViewGroupName
 .
-setCompoundDrawablesWithIntrinsicBounds
+setCompoundDrawablesRelativeWithIntrinsicBounds
 (
 R
 .
@@ -746,7 +746,7 @@ verify
 {
 deviceViewGroupName
 .
-setCompoundDrawablesWithIntrinsicBounds
+setCompoundDrawablesRelativeWithIntrinsicBounds
 (
 R
 .

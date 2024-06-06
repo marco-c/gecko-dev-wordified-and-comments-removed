@@ -265,6 +265,13 @@ textSize
 "
 12sp
 "
+android
+:
+textDirection
+=
+"
+locale
+"
 app
 :
 drawableStartCompat

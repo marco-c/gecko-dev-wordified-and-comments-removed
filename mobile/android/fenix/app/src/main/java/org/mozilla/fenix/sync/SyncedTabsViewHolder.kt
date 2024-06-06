@@ -626,7 +626,7 @@ itemView
 .
 synced_tabs_group_name
 .
-setCompoundDrawablesWithIntrinsicBounds
+setCompoundDrawablesRelativeWithIntrinsicBounds
 (
 deviceLogoDrawable
 0
