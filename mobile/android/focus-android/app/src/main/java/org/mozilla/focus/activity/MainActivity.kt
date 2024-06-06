@@ -1119,9 +1119,9 @@ false
 )
 components
 .
-sessionManager
+tabsUseCases
 .
-removeSessions
+removeAllTabs
 (
 )
 if
