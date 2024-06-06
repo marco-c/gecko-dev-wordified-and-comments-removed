@@ -237,6 +237,11 @@ build
 type
 :
 nightly
+shipping
+-
+product
+:
+fenix
 #
 cannot
 safely
@@ -288,6 +293,8 @@ apk
 fenix
 -
 nightly
+-
+firebase
 signing
 -
 android
