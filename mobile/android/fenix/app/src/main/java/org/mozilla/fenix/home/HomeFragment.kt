@@ -2613,9 +2613,6 @@ sessionControlView
 =
 SessionControlView
 (
-components
-.
-appStore
 binding
 .
 sessionControlRecyclerView

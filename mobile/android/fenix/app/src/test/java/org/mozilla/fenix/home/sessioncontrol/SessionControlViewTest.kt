@@ -667,12 +667,6 @@ controller
 =
 SessionControlView
 (
-mockk
-(
-relaxed
-=
-true
-)
 view
 mockk
 (
@@ -783,12 +777,6 @@ controller
 =
 SessionControlView
 (
-mockk
-(
-relaxed
-=
-true
-)
 view
 mockk
 (

@@ -151,16 +151,6 @@ fenix
 .
 components
 .
-AppStore
-import
-org
-.
-mozilla
-.
-fenix
-.
-components
-.
 appstate
 .
 AppState
@@ -1044,9 +1034,6 @@ lastIndex
 class
 SessionControlView
 (
-store
-:
-AppStore
 val
 containerView
 :
@@ -1075,7 +1062,6 @@ sessionControlAdapter
 =
 SessionControlAdapter
 (
-store
 interactor
 viewLifecycleOwner
 containerView
