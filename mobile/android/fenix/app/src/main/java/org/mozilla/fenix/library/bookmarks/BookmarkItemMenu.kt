@@ -223,7 +223,7 @@ menuItems
 by
 lazy
 {
-listOf
+listOfNotNull
 (
 if
 (
@@ -468,10 +468,6 @@ Item
 Delete
 )
 }
-)
-.
-filterNotNull
-(
 )
 }
 }
