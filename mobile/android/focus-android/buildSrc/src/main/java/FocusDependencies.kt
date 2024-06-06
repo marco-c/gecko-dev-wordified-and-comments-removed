@@ -404,7 +404,7 @@ androidx_espresso
 .
 5
 .
-0
+1
 "
 const
 val
@@ -415,7 +415,7 @@ androidx_ext_junit
 .
 1
 .
-4
+5
 "
 const
 val
@@ -425,6 +425,17 @@ androidx_orchestrator
 1
 .
 4
+.
+2
+"
+const
+val
+androidx_runner
+=
+"
+1
+.
+5
 .
 2
 "
@@ -1569,7 +1580,7 @@ FocusVersions
 .
 Testing
 .
-androidx_core
+androidx_runner
 }
 "
 const
