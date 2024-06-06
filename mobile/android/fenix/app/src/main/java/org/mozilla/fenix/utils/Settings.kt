@@ -3185,7 +3185,7 @@ shown
 var
 shouldShowTotalCookieProtectionCFR
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 appContext
 .
@@ -3197,8 +3197,12 @@ string
 .
 pref_key_should_show_total_cookie_protection_popup
 )
+featureFlag
+=
+true
 default
 =
+{
 mr2022Sections
 [
 Mr2022Section
@@ -3208,6 +3212,7 @@ TCP_CFR
 =
 =
 true
+}
 )
 val
 blockCookiesSelectionInCustomTrackingProtection
