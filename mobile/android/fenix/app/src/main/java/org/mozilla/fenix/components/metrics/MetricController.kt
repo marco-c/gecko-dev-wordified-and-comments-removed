@@ -1980,6 +1980,14 @@ value
 add
 (
 )
+track
+(
+Event
+.
+GrowthData
+.
+SerpAdClicked
+)
 }
 Component
 .
