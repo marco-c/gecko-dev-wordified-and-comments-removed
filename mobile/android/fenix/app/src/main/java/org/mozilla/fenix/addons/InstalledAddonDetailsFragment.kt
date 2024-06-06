@@ -400,6 +400,8 @@ addon
 onSuccess
 =
 {
+runIfFragmentIsAttached
+{
 switch
 .
 setState
@@ -427,8 +429,11 @@ translatedName
 )
 )
 }
+}
 onError
 =
+{
+runIfFragmentIsAttached
 {
 showSnackBar
 (
@@ -445,6 +450,7 @@ addon
 translatedName
 )
 )
+}
 }
 )
 }
@@ -463,6 +469,8 @@ disableAddon
 addon
 onSuccess
 =
+{
+runIfFragmentIsAttached
 {
 switch
 .
@@ -491,8 +499,11 @@ translatedName
 )
 )
 }
+}
 onError
 =
+{
+runIfFragmentIsAttached
 {
 showSnackBar
 (
@@ -509,6 +520,7 @@ addon
 translatedName
 )
 )
+}
 }
 )
 }
@@ -668,6 +680,8 @@ addon
 onSuccess
 =
 {
+runIfFragmentIsAttached
+{
 showSnackBar
 (
 view
@@ -693,6 +707,7 @@ popBackStack
 (
 )
 }
+}
 onError
 =
 {
@@ -700,6 +715,8 @@ _
 _
 -
 >
+runIfFragmentIsAttached
+{
 showSnackBar
 (
 view
@@ -715,6 +732,7 @@ addon
 translatedName
 )
 )
+}
 }
 )
 }
