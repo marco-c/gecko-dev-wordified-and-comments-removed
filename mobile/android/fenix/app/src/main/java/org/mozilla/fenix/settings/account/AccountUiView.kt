@@ -687,10 +687,11 @@ context
 Context
 )
 =
+httpClient
+.
 bitmapForUrl
 (
 url
-httpClient
 )
 ?
 .
