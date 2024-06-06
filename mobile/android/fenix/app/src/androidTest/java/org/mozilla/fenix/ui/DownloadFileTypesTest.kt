@@ -295,9 +295,9 @@ downloadList
 listOf
 (
 "
-washington
+smallZip
 .
-pdf
+zip
 "
 "
 MyDocument
