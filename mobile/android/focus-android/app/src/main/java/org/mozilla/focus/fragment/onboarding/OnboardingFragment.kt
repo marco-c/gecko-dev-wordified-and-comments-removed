@@ -805,7 +805,7 @@ R
 .
 string
 .
-onboarding_history_description
+onboarding_history_description2
 )
 KeyFeatureCard
 (
