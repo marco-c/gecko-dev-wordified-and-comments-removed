@@ -411,6 +411,16 @@ fenix
 .
 ext
 .
+runIfFragmentIsAttached
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 settings
 import
 org
@@ -2290,6 +2300,8 @@ Long
 ?
 )
 {
+runIfFragmentIsAttached
+{
 FenixSnackbar
 .
 make
@@ -2342,6 +2354,7 @@ dismissTabsTray
 show
 (
 )
+}
 }
 VisibleForTesting
 internal
