@@ -1396,7 +1396,7 @@ R
 .
 id
 .
-menuView
+mozac_browser_toolbar_menu
 )
 )
 private
