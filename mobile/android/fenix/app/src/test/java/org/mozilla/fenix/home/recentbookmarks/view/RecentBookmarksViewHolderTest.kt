@@ -307,6 +307,12 @@ binding
 .
 root
 interactor
+mockk
+(
+relaxed
+=
+true
+)
 )
 .
 bind

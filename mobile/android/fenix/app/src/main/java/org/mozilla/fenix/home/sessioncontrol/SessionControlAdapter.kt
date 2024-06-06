@@ -2147,6 +2147,11 @@ RecentBookmarksViewHolder
 (
 view
 interactor
+components
+.
+analytics
+.
+metrics
 )
 }
 HistoryMetadataHeaderViewHolder
