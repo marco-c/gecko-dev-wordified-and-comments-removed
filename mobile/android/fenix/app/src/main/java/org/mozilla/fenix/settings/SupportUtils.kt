@@ -318,13 +318,7 @@ send
 -
 tab
 -
-firefox
--
 preview
--
-another
--
-device
 "
 )
 }
