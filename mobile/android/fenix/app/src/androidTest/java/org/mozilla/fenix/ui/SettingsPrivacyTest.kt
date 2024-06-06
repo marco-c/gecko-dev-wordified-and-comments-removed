@@ -818,7 +818,7 @@ verifyDefaultValueExceptions
 .
 openSavedLogins
 {
-verifySavedLoginsView
+verifySecurityPromptForLogins
 (
 )
 tapSetupLater
@@ -943,7 +943,7 @@ verifyDefaultValueSyncLogins
 .
 openSavedLogins
 {
-verifySavedLoginsView
+verifySecurityPromptForLogins
 (
 )
 tapSetupLater
@@ -1043,7 +1043,7 @@ verifyDefaultValueSyncLogins
 .
 openSavedLogins
 {
-verifySavedLoginsView
+verifySecurityPromptForLogins
 (
 )
 tapSetupLater
