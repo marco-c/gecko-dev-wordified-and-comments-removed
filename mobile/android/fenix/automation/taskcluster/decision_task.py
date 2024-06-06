@@ -313,14 +313,6 @@ capitalize
 engine
 )
     
-taskcluster_apk_paths
-=
-variant
-.
-upstream_artifacts
-(
-)
-    
 build_task
 =
 builder
@@ -347,56 +339,11 @@ label
 '
 ]
         
-taskcluster_apk_paths
-        
-channel
-=
-channel
-        
-is_staging
-=
-is_staging
-    
-)
-    
-push_task
-=
-builder
-.
-craft_push_task
-(
-        
-signing_task
-[
-'
-label
-'
-]
-        
-taskcluster_apk_paths
-        
-channel
-=
-channel
-        
-variant
-=
 variant
         
-override_google_play_track
-=
-None
-if
 channel
-!
 =
-"
-nightly
-"
-else
-"
-internal
-"
+channel
         
 is_staging
 =
@@ -408,7 +355,6 @@ return
 [
 build_task
 signing_task
-push_task
 ]
 def
 release_as_fennec
@@ -466,10 +412,6 @@ label
 ]
         
 variant
-.
-upstream_artifacts
-(
-)
         
 channel
         
@@ -544,7 +486,7 @@ label
 '
 ]
         
-taskcluster_apk_paths
+variant
         
 channel
 =
@@ -562,50 +504,11 @@ False
     
 )
     
-push_task
-=
-builder
-.
-craft_push_task
-(
-        
-signing_task
-[
-'
-label
-'
-]
-        
-taskcluster_apk_paths
-        
-channel
-=
-'
-production
-'
-        
-variant
-=
-variant
-        
-override_google_play_track
-=
-'
-nightly
-'
-        
-is_staging
-=
-is_staging
-    
-)
-    
 tasks
 =
 [
 build_task
 signing_task
-push_task
 ]
     
 if

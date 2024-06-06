@@ -53,9 +53,6 @@ worker_types
 routes
 "
 "
-target
-"
-"
 target_tasks
 "
 ]

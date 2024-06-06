@@ -25,6 +25,7 @@ self
 .
 taskcluster_path
 =
+u
 '
 public
 /
