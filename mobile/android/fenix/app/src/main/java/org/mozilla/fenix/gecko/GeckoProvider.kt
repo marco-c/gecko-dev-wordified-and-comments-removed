@@ -446,6 +446,15 @@ Config
 channel
 .
 isDebug
+|
+|
+context
+.
+components
+.
+settings
+.
+enableGeckoLogs
 )
 .
 aboutConfigEnabled
