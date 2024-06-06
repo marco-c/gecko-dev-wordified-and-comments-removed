@@ -858,7 +858,7 @@ assertItemWithResIdExists
 homeScreen
 )
 fun
-verifyPrivateBrowsingHomeScreen
+verifyPrivateBrowsingHomeScreenItems
 (
 )
 {
@@ -873,9 +873,6 @@ privateSessionMessage
 )
 )
 verifyCommonMythsLink
-(
-)
-verifyNavigationToolbarItems
 (
 )
 }

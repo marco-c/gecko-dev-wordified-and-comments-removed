@@ -502,7 +502,7 @@ togglePrivateBrowsingMode
 )
 homeScreen
 {
-verifyPrivateBrowsingHomeScreen
+verifyPrivateBrowsingHomeScreenItems
 (
 )
 }
