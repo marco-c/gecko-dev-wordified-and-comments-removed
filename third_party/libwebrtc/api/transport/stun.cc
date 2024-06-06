@@ -3173,10 +3173,10 @@ return
 false
 ;
 }
-std
+absl
 :
 :
-string
+string_view
 magic_cookie
 ;
 if
@@ -3185,7 +3185,7 @@ if
 buf
 -
 >
-ReadString
+ReadStringView
 (
 &
 magic_cookie
