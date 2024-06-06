@@ -6238,9 +6238,10 @@ Map
 HomeScreenSection
 Boolean
 >
-by
-lazy
-{
+get
+(
+)
+=
 FxNimbus
 .
 features
@@ -6252,7 +6253,6 @@ value
 )
 .
 sectionsEnabled
-}
 var
 historyMetadataUIFeature
 by
