@@ -1055,10 +1055,6 @@ name
 menu_trackers_blocked_title
 "
 >
-\
-\
-\
-'
 <
 /
 string
@@ -3709,8 +3705,6 @@ name
 preference_privacy_block_social
 "
 >
-\
-'
 <
 /
 string
@@ -4395,6 +4389,7 @@ name
 preference_category_mozilla
 "
 >
+Mozilla
 <
 /
 string
