@@ -221,13 +221,6 @@ string
 /
 customize_toggle_jump_back_in
 "
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 /
 >
 <
@@ -253,13 +246,6 @@ title
 string
 /
 customize_toggle_recent_bookmarks
-"
-app
-:
-isPreferenceVisible
-=
-"
-false
 "
 /
 >

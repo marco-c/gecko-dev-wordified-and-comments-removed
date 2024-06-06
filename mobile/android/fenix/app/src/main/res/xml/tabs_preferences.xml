@@ -490,13 +490,6 @@ iconSpaceReserved
 "
 false
 "
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 >
 <
 SwitchPreference

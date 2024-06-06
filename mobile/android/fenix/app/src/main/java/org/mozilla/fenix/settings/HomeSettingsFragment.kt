@@ -421,11 +421,6 @@ pref_key_recent_tabs
 .
 apply
 {
-isVisible
-=
-FeatureFlags
-.
-showRecentTabsFeature
 isChecked
 =
 context
@@ -501,11 +496,6 @@ pref_key_recent_bookmarks
 .
 apply
 {
-isVisible
-=
-FeatureFlags
-.
-recentBookmarksFeature
 isChecked
 =
 context

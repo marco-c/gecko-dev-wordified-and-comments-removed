@@ -3480,11 +3480,6 @@ settings
 )
 if
 (
-FeatureFlags
-.
-messagingFeature
-&
-&
 settings
 .
 isExperimentationEnabled

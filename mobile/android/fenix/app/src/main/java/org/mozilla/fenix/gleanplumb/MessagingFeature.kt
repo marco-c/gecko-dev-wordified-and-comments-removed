@@ -83,14 +83,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 AppStore
@@ -139,13 +131,6 @@ start
 (
 )
 {
-if
-(
-FeatureFlags
-.
-messagingFeature
-)
-{
 appStore
 .
 dispatch
@@ -154,7 +139,6 @@ MessagingAction
 .
 Evaluate
 )
-}
 }
 override
 fun
