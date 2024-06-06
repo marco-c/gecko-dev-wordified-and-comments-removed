@@ -744,7 +744,7 @@ put
 "
 alertThreshold
 "
-100
+1024
 *
 1024
 )
