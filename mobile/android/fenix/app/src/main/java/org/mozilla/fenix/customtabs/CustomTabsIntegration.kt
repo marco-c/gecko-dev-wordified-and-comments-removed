@@ -206,6 +206,7 @@ sessionId
 customTabToolbarMenu
 .
 menuBuilder
+START_OF_MENU_ITEMS_INDEX
 closeListener
 =
 {
@@ -255,5 +256,14 @@ feature
 onBackPressed
 (
 )
+}
+companion
+object
+{
+const
+val
+START_OF_MENU_ITEMS_INDEX
+=
+2
 }
 }
