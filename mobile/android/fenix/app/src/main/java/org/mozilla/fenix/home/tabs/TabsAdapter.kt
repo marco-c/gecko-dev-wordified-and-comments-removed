@@ -187,16 +187,6 @@ browser
 .
 icons
 .
-BrowserIcons
-import
-mozilla
-.
-components
-.
-browser
-.
-icons
-.
 IconRequest
 import
 org

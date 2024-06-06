@@ -484,6 +484,11 @@ useCases
 tabsUseCases
 .
 selectTab
+components
+.
+utils
+.
+icons
 )
 HistoryStorageSuggestionProvider
 (
@@ -493,6 +498,11 @@ core
 .
 historyStorage
 loadUrlUseCase
+components
+.
+utils
+.
+icons
 )
 )
 }
