@@ -442,10 +442,6 @@ applicationIdSuffix
 .
 nightly
 "
-signingConfig
-signingConfigs
-.
-debug
 }
 }
 testOptions
