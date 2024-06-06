@@ -492,8 +492,9 @@ android
 textColor
 =
 "
-?
-tabTrayItemText
+color
+/
+tab_tray_item_text_normal_theme
 "
 app
 :
@@ -597,8 +598,9 @@ android
 textColor
 =
 "
-?
-tabTrayItemUrl
+color
+/
+tab_tray_item_url_normal_theme
 "
 app
 :
@@ -698,8 +700,9 @@ android
 tint
 =
 "
-?
-tabTrayItemText
+color
+/
+tab_tray_item_text_normal_theme
 "
 android
 :
