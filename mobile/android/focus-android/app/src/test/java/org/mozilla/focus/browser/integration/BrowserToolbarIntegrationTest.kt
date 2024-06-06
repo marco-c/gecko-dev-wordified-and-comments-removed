@@ -528,6 +528,10 @@ tabCounterListener
 inTesting
 =
 true
+onTrackingProtectionShown
+=
+{
+}
 )
 )
 }

@@ -1113,7 +1113,7 @@ commit
 )
 }
 var
-isCfrForForShieldToolbarIconVisible
+shouldShowCfrForShieldToolbarIcon
 :
 Boolean
 get

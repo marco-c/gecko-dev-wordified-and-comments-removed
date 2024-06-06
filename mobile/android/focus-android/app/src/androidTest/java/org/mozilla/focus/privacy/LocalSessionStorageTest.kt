@@ -371,7 +371,7 @@ appContext
 .
 settings
 .
-isCfrForForShieldToolbarIconVisible
+shouldShowCfrForShieldToolbarIcon
 =
 false
 }

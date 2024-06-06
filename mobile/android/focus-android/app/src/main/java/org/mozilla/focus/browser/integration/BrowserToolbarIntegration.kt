@@ -440,6 +440,15 @@ tabCounterListener
 Unit
 private
 val
+onTrackingProtectionShown
+:
+(
+)
+-
+>
+Unit
+private
+val
 customTabId
 :
 String
@@ -1194,6 +1203,9 @@ indicators
 )
 {
 addTrackingProtectionIndicator
+(
+)
+onTrackingProtectionShown
 (
 )
 }

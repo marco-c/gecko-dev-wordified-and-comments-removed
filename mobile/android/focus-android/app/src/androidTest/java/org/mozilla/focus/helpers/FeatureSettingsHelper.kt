@@ -122,13 +122,13 @@ feature
 flags
 private
 var
-isShieldIconCFREnabled
+shouldShowCfrForShieldToolbarIcon
 :
 Boolean
 =
 settings
 .
-isCfrForForShieldToolbarIconVisible
+shouldShowCfrForShieldToolbarIcon
 fun
 setShieldIconCFREnabled
 (
@@ -139,7 +139,7 @@ Boolean
 {
 settings
 .
-isCfrForForShieldToolbarIconVisible
+shouldShowCfrForShieldToolbarIcon
 =
 enabled
 }
@@ -181,8 +181,8 @@ resetAllFeatureFlags
 {
 settings
 .
-isCfrForForShieldToolbarIconVisible
+shouldShowCfrForShieldToolbarIcon
 =
-isShieldIconCFREnabled
+shouldShowCfrForShieldToolbarIcon
 }
 }
