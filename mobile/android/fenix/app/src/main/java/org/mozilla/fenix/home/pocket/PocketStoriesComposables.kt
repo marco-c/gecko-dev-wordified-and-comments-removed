@@ -2194,6 +2194,8 @@ placeholderStory
 {
 ListItemTabLargePlaceholder
 (
+text
+=
 stringResource
 (
 R
@@ -2202,6 +2204,9 @@ string
 .
 pocket_stories_placeholder_text
 )
+backgroundColor
+=
+backgroundColor
 )
 {
 onDiscoverMoreClicked
