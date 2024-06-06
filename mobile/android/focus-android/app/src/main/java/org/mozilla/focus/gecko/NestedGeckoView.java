@@ -222,6 +222,15 @@ MotionEvent
 .
 ACTION_MOVE
 :
+final
+boolean
+allowScroll
+=
+!
+shouldPinOnScreen
+(
+)
+;
 int
 deltaY
 =
@@ -231,6 +240,9 @@ eventY
 ;
 if
 (
+allowScroll
+&
+&
 dispatchNestedPreScroll
 (
 0
@@ -280,6 +292,9 @@ mScrollOffset
 ;
 if
 (
+allowScroll
+&
+&
 dispatchNestedScroll
 (
 0
