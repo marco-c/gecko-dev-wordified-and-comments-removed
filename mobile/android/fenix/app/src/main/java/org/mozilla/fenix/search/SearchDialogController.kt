@@ -598,13 +598,10 @@ openSearchOrUrl
 url
 )
 }
-else
-{
+}
 dismissDialog
 (
 )
-}
-}
 }
 private
 fun
