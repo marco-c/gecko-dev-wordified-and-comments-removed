@@ -829,14 +829,14 @@ progressGravity
 =
 if
 (
-isCustomTabSession
+shouldUseBottomToolbar
 )
 {
 DisplayToolbar
 .
 Gravity
 .
-BOTTOM
+TOP
 }
 else
 {
@@ -844,7 +844,7 @@ DisplayToolbar
 .
 Gravity
 .
-TOP
+BOTTOM
 }
 val
 primaryTextColor

@@ -207,7 +207,7 @@ background
 "
 drawable
 /
-toolbar_background
+toolbar_background_top
 "
 android
 :
@@ -272,7 +272,7 @@ app
 browserToolbarProgressBarGravity
 =
 "
-top
+bottom
 "
 app
 :
