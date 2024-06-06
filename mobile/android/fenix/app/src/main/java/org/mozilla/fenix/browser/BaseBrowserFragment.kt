@@ -2976,15 +2976,7 @@ REQUEST_CODE_PROMPT_PERMISSIONS
 }
 loginPickerView
 =
-if
-(
-FeatureFlags
-.
-loginSelect
-)
 loginSelectBar
-else
-null
 onManageLogins
 =
 {
