@@ -505,6 +505,9 @@ Bundle
 ?
 )
 {
+updateSecureWindowFlags
+(
+)
 super
 .
 onCreate
@@ -878,9 +881,6 @@ startSession
 (
 )
 checkBiometricStillValid
-(
-)
-updateSecureWindowFlags
 (
 )
 }
