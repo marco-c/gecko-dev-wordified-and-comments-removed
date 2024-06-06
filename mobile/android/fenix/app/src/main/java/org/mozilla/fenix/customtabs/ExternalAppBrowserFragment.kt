@@ -672,7 +672,7 @@ store
 customTabSessionId
 )
 {
-exception
+uri
 -
 >
 components
@@ -683,7 +683,15 @@ crashReporter
 .
 submitCaughtException
 (
-exception
+Exception
+(
+"
+Unknown
+scheme
+error
+uri
+"
+)
 )
 FenixSnackbar
 .
