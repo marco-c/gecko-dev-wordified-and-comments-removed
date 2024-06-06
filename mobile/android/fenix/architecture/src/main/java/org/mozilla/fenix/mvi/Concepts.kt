@@ -90,14 +90,6 @@ log
 logger
 .
 Logger
-import
-org
-.
-mozilla
-.
-fenix
-.
-BuildConfig
 /
 *
 *
