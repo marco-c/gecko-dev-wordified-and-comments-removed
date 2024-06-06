@@ -89,14 +89,6 @@ LinearLayout
 import
 androidx
 .
-appcompat
-.
-widget
-.
-AppCompatImageButton
-import
-androidx
-.
 coordinatorlayout
 .
 widget
@@ -168,6 +160,12 @@ view
 accessibility
 .
 AccessibilityNodeInfo
+import
+android
+.
+widget
+.
+ImageButton
 import
 androidx
 .
@@ -263,7 +261,7 @@ handle
 =
 findViewById
 <
-AppCompatImageButton
+ImageButton
 >
 (
 R
