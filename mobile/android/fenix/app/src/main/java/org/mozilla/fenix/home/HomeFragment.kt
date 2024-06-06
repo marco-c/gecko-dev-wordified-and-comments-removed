@@ -1825,7 +1825,7 @@ dispatch
 (
 HomeFragmentAction
 .
-PocketArticlesChange
+PocketStoriesChange
 (
 stories
 )

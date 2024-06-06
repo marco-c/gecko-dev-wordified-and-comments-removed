@@ -360,7 +360,7 @@ List
 <
 HistoryMetadataGroup
 >
-pocketArticles
+pocketStories
 :
 List
 <
@@ -564,7 +564,7 @@ settings
 pocketRecommendations
 &
 &
-pocketArticles
+pocketStories
 .
 isNotEmpty
 (
@@ -878,7 +878,7 @@ showCollectionPlaceholder
 showSetAsDefaultBrowserCard
 recentTabs
 historyMetadata
-pocketArticles
+pocketStories
 )
 is
 Mode

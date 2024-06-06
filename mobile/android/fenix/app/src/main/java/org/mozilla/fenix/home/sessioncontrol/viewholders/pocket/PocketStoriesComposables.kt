@@ -1460,6 +1460,11 @@ Composable
 fun
 ExpandableCard
 (
+modifier
+:
+Modifier
+=
+Modifier
 content
 :
 Composable
@@ -1501,11 +1506,7 @@ Card
 (
 modifier
 =
-Modifier
-.
-fillMaxWidth
-(
-)
+modifier
 shape
 =
 RoundedCornerShape
