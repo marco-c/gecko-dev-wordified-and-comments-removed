@@ -322,9 +322,9 @@ scaleType
 "
 centerInside
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
