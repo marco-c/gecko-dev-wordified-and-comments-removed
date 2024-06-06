@@ -367,6 +367,9 @@ LargeClass
 "
 TooManyFunctions
 "
+"
+LongParameterList
+"
 )
 class
 ToolbarGestureHandler
@@ -403,6 +406,15 @@ selectTabUseCase
 TabsUseCases
 .
 SelectTabUseCase
+private
+val
+onSwipeStarted
+:
+(
+)
+-
+>
+Unit
 )
 :
 SwipeGestureListener
@@ -608,6 +620,11 @@ preparePreview
 getDestination
 (
 )
+)
+onSwipeStarted
+.
+invoke
+(
 )
 true
 }
