@@ -980,6 +980,14 @@ SettingsSubMenuEnhancedTrackingProtectionRobot
 .
 Transition
 {
+scrollToElementByText
+(
+"
+Enhanced
+Tracking
+Protection
+"
+)
 fun
 enhancedTrackingProtectionButton
 (
