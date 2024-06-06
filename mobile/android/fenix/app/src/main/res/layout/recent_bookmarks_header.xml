@@ -310,13 +310,6 @@ recently_saved_show_all_content_description
 "
 android
 :
-paddingVertical
-=
-"
-16dp
-"
-android
-:
 paddingStart
 =
 "
