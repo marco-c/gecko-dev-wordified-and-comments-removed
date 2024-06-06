@@ -205,12 +205,12 @@ vertical
 "
 app
 :
-layout_constraintTop_toTopOf
+layout_constraintTop_toBottomOf
 =
 "
 id
 /
-awesomeBar_barrier
+search_with_shortcuts
 "
 app
 :
