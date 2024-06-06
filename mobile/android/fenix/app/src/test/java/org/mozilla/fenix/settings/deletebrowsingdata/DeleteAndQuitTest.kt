@@ -127,12 +127,6 @@ kotlinx
 .
 coroutines
 .
-ObsoleteCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 newSingleThreadContext
 import
 kotlinx
@@ -309,13 +303,6 @@ annotation
 .
 Config
 ExperimentalCoroutinesApi
-UseExperimental
-(
-ObsoleteCoroutinesApi
-:
-:
-class
-)
 RunWith
 (
 AndroidJUnit4

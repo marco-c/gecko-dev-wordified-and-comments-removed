@@ -345,17 +345,6 @@ RobolectricTestRunner
 :
 class
 )
-UseExperimental
-(
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-:
-:
-class
-)
 Config
 (
 application

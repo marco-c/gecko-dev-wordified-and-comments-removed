@@ -169,12 +169,6 @@ kotlinx
 .
 coroutines
 .
-ObsoleteCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 runBlocking
 import
 kotlinx
@@ -347,13 +341,6 @@ annotation
 .
 Config
 ExperimentalCoroutinesApi
-UseExperimental
-(
-ObsoleteCoroutinesApi
-:
-:
-class
-)
 RunWith
 (
 RobolectricTestRunner

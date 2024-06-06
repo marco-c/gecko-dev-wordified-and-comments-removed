@@ -123,12 +123,6 @@ kotlinx
 .
 coroutines
 .
-ObsoleteCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 newSingleThreadContext
 import
 kotlinx
@@ -315,13 +309,6 @@ Tab
 as
 ComponentTab
 ExperimentalCoroutinesApi
-UseExperimental
-(
-ObsoleteCoroutinesApi
-:
-:
-class
-)
 class
 DefaultSessionControlControllerTest
 {
