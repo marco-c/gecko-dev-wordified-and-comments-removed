@@ -1567,6 +1567,9 @@ onAvailabilityChange
 reviewQualityCheckAvailable
 =
 it
+safeInvalidateBrowserToolbarView
+(
+)
 }
 onBottomSheetCollapsed
 =
