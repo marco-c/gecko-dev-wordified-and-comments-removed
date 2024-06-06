@@ -2430,7 +2430,7 @@ Events
 .
 appOpenedAllStartupKeys
 .
-launchTimeNanoSeconds
+firstFramePreDrawNanos
 ]
 =
 launchTime

@@ -466,7 +466,7 @@ HOT
 false
 ]
 .
-launch_time_nano_seconds
+first_frame_pre_draw_nanos
 :
 description
 :
@@ -474,8 +474,8 @@ description
 the
 number
 of
-nano
-seconds
+nanoseconds
+the
 application
 took
 to
