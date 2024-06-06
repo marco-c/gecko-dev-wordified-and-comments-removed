@@ -28,6 +28,7 @@ import
 {
 resizeBreakpointGutter
 resizeToggleButton
+getLineNumberWidth
 }
 from
 "
@@ -194,7 +195,10 @@ cm
 ;
 resizeToggleButton
 (
+getLineNumberWidth
+(
 cm
+)
 )
 ;
 }
@@ -254,7 +258,10 @@ cm
 ;
 resizeToggleButton
 (
+getLineNumberWidth
+(
 cm
+)
 )
 ;
 }
