@@ -69,6 +69,12 @@ wallpaper
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 graphics
 .
 Bitmap
@@ -585,6 +591,12 @@ snackbar
 .
 *
 /
+SuppressLint
+(
+"
+UnusedMaterialScaffoldPaddingParameter
+"
+)
 Composable
 Suppress
 (
