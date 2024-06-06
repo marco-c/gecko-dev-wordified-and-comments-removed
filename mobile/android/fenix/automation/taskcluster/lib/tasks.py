@@ -2846,16 +2846,18 @@ build_task_id
 apk_paths
 channel
 is_staging
+index_channel
+=
+None
     
 )
 :
         
-capitalized_channel
+index_channel
 =
-upper_case_first_letter
-(
+index_channel
+or
 channel
-)
         
 staging_prefix
 =
@@ -2905,7 +2907,7 @@ format
 (
                 
 staging_prefix
-channel
+index_channel
 self
 .
 date
@@ -2959,7 +2961,7 @@ format
 (
                 
 staging_prefix
-channel
+index_channel
 self
 .
 date
@@ -3003,10 +3005,17 @@ latest
 format
 (
 staging_prefix
-channel
+index_channel
 )
         
 ]
+        
+capitalized_channel
+=
+upper_case_first_letter
+(
+channel
+)
         
 return
 self
@@ -3133,6 +3142,9 @@ channel
 is_staging
 =
 False
+override_google_play_track
+=
+None
     
 )
 :
@@ -3208,6 +3220,19 @@ signing
 ]
         
 }
+        
+if
+override_google_play_track
+:
+            
+payload
+[
+'
+google_play_track
+'
+]
+=
+override_google_play_track
         
 return
 self
