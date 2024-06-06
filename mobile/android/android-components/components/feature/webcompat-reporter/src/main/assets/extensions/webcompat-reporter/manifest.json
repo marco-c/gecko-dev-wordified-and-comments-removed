@@ -75,7 +75,7 @@ webcompat
 reporter
 "
 "
-applications
+browser_specific_settings
 "
 :
 {
