@@ -475,6 +475,13 @@ colors
 .
 textPrimary
 )
+linkTextColor
+=
+FirefoxTheme
+.
+colors
+.
+textPrimary
 linkTextDecoration
 =
 TextDecoration
