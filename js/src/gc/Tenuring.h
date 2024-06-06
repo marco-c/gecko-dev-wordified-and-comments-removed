@@ -130,12 +130,12 @@ Nursery
 nursery_
 ;
 size_t
-tenuredSize
+promotedSize
 =
 0
 ;
 size_t
-tenuredCells
+promotedCells
 =
 0
 ;
@@ -261,13 +261,13 @@ collectToStringFixedPoint
 )
 ;
 size_t
-getTenuredSize
+getPromotedSize
 (
 )
 const
 ;
 size_t
-getTenuredCells
+getPromotedCells
 (
 )
 const
@@ -584,7 +584,7 @@ cell
 inline
 JSObject
 *
-movePlainObjectToTenured
+promotePlainObject
 (
 PlainObject
 *
@@ -593,7 +593,7 @@ src
 ;
 JSObject
 *
-moveToTenuredSlow
+promoteObjectSlow
 (
 JSObject
 *
@@ -602,7 +602,7 @@ src
 ;
 JSString
 *
-moveToTenured
+promoteString
 (
 JSString
 *
@@ -614,7 +614,7 @@ JS
 :
 BigInt
 *
-moveToTenured
+promoteBigInt
 (
 JS
 :
@@ -625,7 +625,7 @@ src
 )
 ;
 size_t
-moveElementsToTenured
+moveElements
 (
 NativeObject
 *
@@ -641,7 +641,7 @@ dstKind
 )
 ;
 size_t
-moveSlotsToTenured
+moveSlots
 (
 NativeObject
 *
@@ -652,7 +652,7 @@ src
 )
 ;
 size_t
-moveStringToTenured
+moveString
 (
 JSString
 *
@@ -668,7 +668,7 @@ dstKind
 )
 ;
 size_t
-moveBigIntToTenured
+moveBigInt
 (
 JS
 :

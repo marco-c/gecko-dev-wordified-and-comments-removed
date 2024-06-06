@@ -8179,12 +8179,12 @@ return
 {
 mover
 .
-getTenuredSize
+getPromotedSize
 (
 )
 mover
 .
-getTenuredCells
+getPromotedCells
 (
 )
 }
