@@ -453,7 +453,7 @@ background
 =
 "
 ?
-neutralFaded
+borderPrimary
 "
 android
 :
@@ -767,7 +767,7 @@ background
 =
 "
 ?
-neutralFaded
+borderPrimary
 "
 app
 :

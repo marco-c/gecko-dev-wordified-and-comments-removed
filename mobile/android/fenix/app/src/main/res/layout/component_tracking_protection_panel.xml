@@ -1392,7 +1392,7 @@ background
 =
 "
 ?
-neutralFaded
+borderPrimary
 "
 app
 :
@@ -2052,7 +2052,7 @@ background
 =
 "
 ?
-neutralFaded
+borderPrimary
 "
 app
 :
