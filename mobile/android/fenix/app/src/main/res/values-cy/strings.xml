@@ -683,7 +683,7 @@ r
 tabiau
 hyn
 i
-gasgliad
+Gasgliad
 <
 /
 string
@@ -861,7 +861,7 @@ i
 w
 cadw
 i
-gasgliad
+Gasgliad
 <
 /
 string
@@ -2950,7 +2950,7 @@ browser_menu_save_to_collection_2
 >
 Cadw
 i
-gasgliad
+Gasgliad
 <
 /
 string
@@ -5745,6 +5745,8 @@ preferences_show_clipboard_suggestions
 >
 Dangos
 awgrymiadau
+o
+r
 clipfwrdd
 <
 /
@@ -9646,7 +9648,6 @@ close_tabs_after_one_day
 >
 Ar
 l
-un
 diwrnod
 <
 /
@@ -9682,7 +9683,6 @@ close_tabs_after_one_week
 >
 Ar
 l
-un
 wythnos
 <
 /
@@ -9718,7 +9718,6 @@ close_tabs_after_one_month
 >
 Ar
 l
-un
 mis
 <
 /
@@ -9945,7 +9944,6 @@ close_tabs_after_one_day_summary
 Cau
 ar
 l
-un
 diwrnod
 <
 /
@@ -9987,7 +9985,6 @@ close_tabs_after_one_week_summary
 Cau
 ar
 l
-un
 wythnos
 <
 /
@@ -10029,7 +10026,6 @@ close_tabs_after_one_month_summary
 Cau
 ar
 l
-un
 mis
 <
 /
@@ -10667,7 +10663,7 @@ tab_tray_menu_item_save
 >
 Cadw
 i
-gasgliad
+Gasgliad
 <
 /
 string
@@ -11393,7 +11389,7 @@ tabs_menu_save_to_collection1
 Cadw
 tabiau
 i
-gasgliad
+Gasgliad
 <
 /
 string
@@ -11630,7 +11626,7 @@ save_to_collection
 >
 Cadw
 i
-gasgliad
+Gasgliad
 <
 /
 string
@@ -14809,7 +14805,7 @@ name
 preference_option_phone_feature_blocked
 "
 >
-Rhwystrwyd
+Rhwystro
 <
 /
 string
@@ -14838,7 +14834,8 @@ name
 preference_option_phone_feature_allowed
 "
 >
-Caniatawyd
+Caniat
+u
 <
 /
 string
@@ -17603,11 +17600,10 @@ name
 snackbar_added_to_top_sites
 "
 >
-Ychwanegwyd
-at
-fy
-hoff
-wefannau
+Cadw
+fel
+Hoff
+wefan
 !
 <
 /
@@ -18456,14 +18452,16 @@ yn
 cyd
 -
 fynd
-h
+ch
 gosodiadau
 Android
 .
 Analluogwch
+nhw
 i
 reoli
 maint
+y
 ffont
 yma
 .
@@ -18524,8 +18522,8 @@ name
 preferences_delete_browsing_data_tabs_title_2
 "
 >
-Agor
-tabiau
+Tabiau
+agored
 <
 /
 string
@@ -23057,7 +23055,7 @@ name
 enhanced_tracking_protection_blocked
 "
 >
-Rhwystrwyd
+Rhwystro
 <
 /
 string
@@ -25090,7 +25088,7 @@ name
 preferences_passwords_autofill_description
 "
 >
-Llenwch
+Llenwi
 ac
 chadw
 enwau
@@ -25189,7 +25187,7 @@ name
 preferences_android_autofill_description
 "
 >
-Llenwch
+Llenwi
 enwau
 defnyddwyr
 a
@@ -27106,7 +27104,7 @@ preferences_credit_cards_save_and_autofill_cards
 "
 >
 Cadw
-a
+ac
 awtolanw
 cardiau
 <
@@ -29195,9 +29193,9 @@ phone_feature_blocked_intro
 "
 >
 I
+w
 ganiat
 u
-iddo
 :
 <
 /
@@ -29788,10 +29786,10 @@ name
 browser_menu_add_to_top_sites
 "
 >
-I
-m
-hoff
-wefannau
+Cadw
+fel
+Hoff
+wefan
 <
 /
 string
@@ -31042,7 +31040,7 @@ cyrraedd
 terfyn
 nifer
 eich
-hoff
+Hoff
 wefannau
 <
 /
@@ -31158,7 +31156,7 @@ top_sites_toggle_top_frecent_sites_2
 >
 Dangos
 yr
-hoff
+Hoff
 wefannau
 yr
 ymwelwyd
