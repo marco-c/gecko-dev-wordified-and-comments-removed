@@ -90,7 +90,7 @@ android_taskgraph
 .
 transforms
 .
-beetmover_apk
+beetmover_android_app
 -
 taskgraph
 .
@@ -105,11 +105,13 @@ dependencies
 signing
 -
 apk
+-
+signing
+-
+bundle
 tasks
 :
 beetmover
--
-fenix
 :
 from
 -
