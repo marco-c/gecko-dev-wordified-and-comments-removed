@@ -675,6 +675,7 @@ remove
 ;
 registerCleanupFunction
 (
+async
 function
 (
 )
@@ -720,6 +721,14 @@ isOverflowOpen
 )
 )
 {
+let
+panelHiddenPromise
+=
+promiseOverflowHidden
+(
+window
+)
+;
 PanelUI
 .
 overflowPanel
@@ -727,6 +736,9 @@ overflowPanel
 hidePopup
 (
 )
+;
+await
+panelHiddenPromise
 ;
 }
 CustomizableUI

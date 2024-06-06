@@ -186,7 +186,9 @@ Policies
 "
 Policies
 .
-jsm
+sys
+.
+mjs
 is
 alphabetically
 sorted
