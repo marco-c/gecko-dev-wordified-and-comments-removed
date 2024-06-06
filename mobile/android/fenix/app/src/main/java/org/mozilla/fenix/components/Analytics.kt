@@ -193,7 +193,7 @@ components
 .
 metrics
 .
-Metrics
+MetricController
 import
 org
 .
@@ -423,11 +423,13 @@ pendingIntent
 val
 metrics
 :
-Metrics
+MetricController
 by
 lazy
 {
-Metrics
+MetricController
+.
+create
 (
 listOf
 (
