@@ -391,6 +391,18 @@ helpers
 .
 TestAssetHelper
 .
+waitingTimeLong
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestAssetHelper
+.
 waitingTimeShort
 import
 org
@@ -708,7 +720,7 @@ searchSuggestion
 .
 waitForExists
 (
-waitingTime
+waitingTimeLong
 )
 )
 break
@@ -906,7 +918,7 @@ searchSuggestion
 .
 waitUntilGone
 (
-waitingTimeShort
+waitingTimeLong
 )
 )
 }
