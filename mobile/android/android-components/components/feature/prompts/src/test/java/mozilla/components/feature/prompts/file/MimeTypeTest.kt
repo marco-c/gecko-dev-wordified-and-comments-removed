@@ -2517,7 +2517,7 @@ getSingleton
 .
 apply
 {
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 .
@@ -2529,7 +2529,7 @@ image
 gif
 "
 )
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 docx

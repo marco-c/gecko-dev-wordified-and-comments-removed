@@ -215,7 +215,7 @@ getSingleton
 .
 apply
 {
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 .

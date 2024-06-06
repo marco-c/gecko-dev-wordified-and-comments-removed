@@ -1439,7 +1439,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 txt
@@ -1542,7 +1542,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 txt
@@ -1711,7 +1711,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 txt
@@ -1877,7 +1877,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 txt
@@ -2112,7 +2112,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 txt
@@ -2287,7 +2287,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 txt

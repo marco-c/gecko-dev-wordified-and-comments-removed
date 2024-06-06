@@ -2197,7 +2197,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 gif
@@ -2300,7 +2300,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 gif

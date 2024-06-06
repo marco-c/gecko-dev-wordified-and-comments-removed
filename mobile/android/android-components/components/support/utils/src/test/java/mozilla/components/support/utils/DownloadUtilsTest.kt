@@ -1060,7 +1060,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 jpg
@@ -1082,7 +1082,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 zip
@@ -1104,7 +1104,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 tar
@@ -1128,7 +1128,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 bin
@@ -1161,7 +1161,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 com
@@ -1187,7 +1187,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 exe
@@ -1213,7 +1213,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 bat
@@ -1239,7 +1239,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 dll
@@ -1907,7 +1907,7 @@ getSingleton
 )
 )
 .
-addExtensionMimeTypMapping
+addExtensionMimeTypeMapping
 (
 "
 exe
