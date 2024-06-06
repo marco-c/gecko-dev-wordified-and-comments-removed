@@ -289,7 +289,7 @@ BrowsingMode
 .
 *
 param
-itemTapped
+onBrowsingModeChanged
 Callback
 to
 update
@@ -325,7 +325,7 @@ mode
 BrowsingMode
 private
 val
-itemTapped
+onBrowsingModeChanged
 :
 (
 BrowsingMode
@@ -618,7 +618,7 @@ Item
 NewTab
 )
 {
-itemTapped
+onBrowsingModeChanged
 (
 BrowsingMode
 .
@@ -637,7 +637,7 @@ Item
 NewPrivateTab
 )
 {
-itemTapped
+onBrowsingModeChanged
 (
 BrowsingMode
 .
