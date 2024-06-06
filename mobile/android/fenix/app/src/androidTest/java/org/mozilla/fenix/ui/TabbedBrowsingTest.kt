@@ -1653,7 +1653,7 @@ homeScreen
 pressBack
 (
 )
-verifyPrivateSessionMessage
+verifyCommonMythsLink
 (
 )
 verifyNavigationToolbar

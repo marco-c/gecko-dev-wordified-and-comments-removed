@@ -442,7 +442,7 @@ verifySearchView
 .
 dismissSearchBar
 {
-verifyPrivateSessionMessage
+verifyCommonMythsLink
 (
 )
 }

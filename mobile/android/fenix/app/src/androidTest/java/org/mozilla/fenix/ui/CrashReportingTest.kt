@@ -616,7 +616,7 @@ closeTabDrawer
 .
 goToHomescreen
 {
-verifyPrivateSessionMessage
+verifyCommonMythsLink
 (
 )
 }
