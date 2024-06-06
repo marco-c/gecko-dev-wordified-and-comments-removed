@@ -714,7 +714,7 @@ R
 .
 drawable
 .
-button_background
+migration_button_background
 )
 migration_button_progress_bar
 .
