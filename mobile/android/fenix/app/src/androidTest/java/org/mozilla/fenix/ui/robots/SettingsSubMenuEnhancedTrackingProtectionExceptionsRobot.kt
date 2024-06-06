@@ -341,6 +341,8 @@ sites
 )
 )
 learnMoreLink
+(
+)
 .
 check
 (
@@ -358,6 +360,8 @@ openExceptionsLearnMoreLink
 )
 =
 learnMoreLink
+(
+)
 .
 click
 (
@@ -371,6 +375,8 @@ String
 )
 {
 exceptionsList
+(
+)
 .
 waitForExists
 (
@@ -397,6 +403,8 @@ Boolean
 )
 {
 exceptionsList
+(
+)
 .
 waitForExists
 (
@@ -545,8 +553,10 @@ VISIBLE
 )
 }
 private
-val
+fun
 learnMoreLink
+(
+)
 =
 onView
 (
@@ -611,8 +621,10 @@ siteHost
 )
 )
 private
-val
+fun
 exceptionsList
+(
+)
 =
 mDevice
 .
