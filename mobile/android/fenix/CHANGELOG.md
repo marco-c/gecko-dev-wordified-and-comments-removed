@@ -79,6 +79,16 @@ Unreleased
 #
 #
 Added
+-
+#
+356
+-
+Adds
+the
+ability
+to
+delete
+history
 #
 #
 #
