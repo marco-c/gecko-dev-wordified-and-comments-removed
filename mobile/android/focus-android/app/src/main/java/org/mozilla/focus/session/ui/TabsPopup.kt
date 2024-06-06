@@ -339,6 +339,16 @@ R
 style
 .
 Animation_Dialog
+binding
+.
+root
+.
+setOnClickListener
+{
+dismiss
+(
+)
+}
 }
 override
 fun
