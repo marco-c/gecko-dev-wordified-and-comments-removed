@@ -80,7 +80,7 @@ kind
 )
 :
 {
-basestring
+str
 :
 Task
 }
@@ -473,7 +473,7 @@ if
 isinstance
 (
 primary_dependencies
-basestring
+str
 )
 :
         

@@ -71,7 +71,7 @@ combinations
 in
 groups
 .
-itervalues
+values
 (
 )
 :

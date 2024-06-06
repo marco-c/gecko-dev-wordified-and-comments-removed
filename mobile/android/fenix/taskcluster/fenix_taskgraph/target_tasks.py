@@ -100,7 +100,7 @@ full_task_graph
 .
 tasks
 .
-iteritems
+items
 (
 )
 if
@@ -186,7 +186,7 @@ full_task_graph
 .
 tasks
 .
-iteritems
+items
 (
 )
 if
@@ -296,7 +296,7 @@ full_task_graph
 .
 tasks
 .
-iteritems
+items
 (
 )
 if
@@ -394,7 +394,7 @@ full_task_graph
 .
 tasks
 .
-iteritems
+items
 (
 )
 if
@@ -482,7 +482,7 @@ full_task_graph
 .
 tasks
 .
-iteritems
+items
 (
 )
 if
@@ -560,7 +560,7 @@ full_task_graph
 .
 tasks
 .
-iteritems
+items
 (
 )
 if

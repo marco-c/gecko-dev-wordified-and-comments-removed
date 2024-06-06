@@ -45,7 +45,7 @@ branch
 taskgraph
 revision
 :
-a458418ef7cdd6778f1283926c6116966255bc24
+9daff451cfbe82c5c70237a7b3dbcf4fd3238299
 trustDomain
 :
 mobile
@@ -2278,10 +2278,10 @@ decision
 -
 mobile
 -
-682fbaa1ef17e70ddfe3457da3eaf8e776c4a20fe5bfbdbeba0641fd5bceae2a
+44b6b7b4c370220eff56efa8b508aa5157ef9c6e74847c7ecc19d640946ba49e
 sha256
 :
-bbb2613aaab79d17e590fbd78c072d0643be40fd1237195703f84280ecc3b302
+4107cbc5e154502529e4d38efa4dc89c05ee54e2cbc6e2e66023e68407502894
 maxRunTime
 :
 1800
@@ -2407,7 +2407,7 @@ then
 PIP_IGNORE_INSTALLED
 =
 0
-pip
+pip3
 install
 -
 -
@@ -2425,7 +2425,7 @@ taskgraph
 PIP_IGNORE_INSTALLED
 =
 0
-pip
+pip3
 install
 -
 -
@@ -2477,7 +2477,7 @@ else
 PIP_IGNORE_INSTALLED
 =
 0
-pip
+pip3
 install
 -
 -
@@ -2495,7 +2495,7 @@ taskgraph
 PIP_IGNORE_INSTALLED
 =
 0
-pip
+pip3
 install
 -
 -
