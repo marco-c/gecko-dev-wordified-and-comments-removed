@@ -214,14 +214,11 @@ design
 .
 *
 /
+const
 val
 toolbarMenuFeature
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
