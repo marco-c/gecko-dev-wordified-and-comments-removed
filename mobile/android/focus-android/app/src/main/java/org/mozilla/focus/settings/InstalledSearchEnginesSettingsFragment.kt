@@ -287,7 +287,7 @@ CustomSearchEngineStore
 .
 hasAllDefaultSearchEngines
 (
-context
+activity
 )
 }
 }
@@ -343,7 +343,7 @@ CustomSearchEngineStore
 .
 restoreDefaultSearchEngines
 (
-context
+activity
 )
 refetchSearchEngines
 (
