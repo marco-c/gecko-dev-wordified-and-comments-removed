@@ -107,12 +107,6 @@ Bundle
 import
 android
 .
-preference
-.
-PreferenceManager
-import
-android
-.
 text
 .
 InputType
@@ -194,6 +188,12 @@ androidx
 lifecycle
 .
 ViewModelProviders
+import
+androidx
+.
+preference
+.
+PreferenceManager
 import
 kotlinx
 .

@@ -71,7 +71,7 @@ app
 .
 Application
 import
-android
+androidx
 .
 preference
 .

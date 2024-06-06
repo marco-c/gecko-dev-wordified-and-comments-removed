@@ -33,7 +33,7 @@ res
 Resources
 ;
 import
-android
+androidx
 .
 preference
 .

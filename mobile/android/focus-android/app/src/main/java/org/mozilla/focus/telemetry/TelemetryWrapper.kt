@@ -41,12 +41,6 @@ os
 .
 StrictMode
 import
-android
-.
-preference
-.
-PreferenceManager
-import
 androidx
 .
 annotation
@@ -58,6 +52,12 @@ androidx
 annotation
 .
 VisibleForTesting
+import
+androidx
+.
+preference
+.
+PreferenceManager
 import
 kotlinx
 .

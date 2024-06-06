@@ -101,12 +101,6 @@ os
 .
 Environment
 import
-android
-.
-preference
-.
-PreferenceManager
-import
 androidx
 .
 annotation
@@ -196,6 +190,12 @@ android
 webkit
 .
 WebViewDatabase
+import
+androidx
+.
+preference
+.
+PreferenceManager
 import
 mozilla
 .

@@ -63,7 +63,7 @@ gradle
 android
 {
 compileSdkVersion
-28
+29
 buildToolsVersion
 '
 28
@@ -83,7 +83,7 @@ mozilla
 minSdkVersion
 21
 targetSdkVersion
-28
+29
 versionCode
 11
 /

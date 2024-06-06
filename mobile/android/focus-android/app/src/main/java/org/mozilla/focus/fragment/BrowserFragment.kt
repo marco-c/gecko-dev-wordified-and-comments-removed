@@ -183,12 +183,6 @@ os
 .
 Environment
 import
-android
-.
-preference
-.
-PreferenceManager
-import
 androidx
 .
 annotation
@@ -358,6 +352,12 @@ android
 widget
 .
 Toast
+import
+androidx
+.
+preference
+.
+PreferenceManager
 import
 kotlinx
 .
@@ -5904,6 +5904,12 @@ directory
 )
 return
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 request
 .
 allowScanningByMediaScanner
@@ -8092,8 +8098,8 @@ url
 )
 clipBoard
 .
-primaryClip
-=
+setPrimaryClip
+(
 ClipData
 .
 newRawUri
@@ -8102,6 +8108,7 @@ newRawUri
 Uri
 "
 uri
+)
 )
 Toast
 .

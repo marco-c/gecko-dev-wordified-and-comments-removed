@@ -13,12 +13,6 @@ os
 .
 Bundle
 import
-android
-.
-preference
-.
-PreferenceManager
-import
 androidx
 .
 fragment
@@ -76,6 +70,12 @@ android
 widget
 .
 LinearLayout
+import
+androidx
+.
+preference
+.
+PreferenceManager
 import
 org
 .

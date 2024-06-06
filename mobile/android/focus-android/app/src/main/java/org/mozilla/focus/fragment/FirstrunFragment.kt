@@ -27,12 +27,6 @@ os
 .
 Bundle
 import
-android
-.
-preference
-.
-PreferenceManager
-import
 com
 .
 google
@@ -84,6 +78,12 @@ android
 view
 .
 ViewGroup
+import
+androidx
+.
+preference
+.
+PreferenceManager
 import
 mozilla
 .

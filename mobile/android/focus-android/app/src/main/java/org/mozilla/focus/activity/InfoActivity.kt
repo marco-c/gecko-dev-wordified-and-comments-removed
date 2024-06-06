@@ -130,11 +130,13 @@ LocaleAwareAppCompatActivity
 )
 {
 private
-lateinit
 var
 url
 :
 String
+?
+=
+null
 override
 fun
 onCreate

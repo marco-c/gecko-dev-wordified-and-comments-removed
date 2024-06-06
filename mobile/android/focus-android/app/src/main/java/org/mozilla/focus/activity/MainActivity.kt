@@ -85,12 +85,6 @@ Bundle
 import
 android
 .
-preference
-.
-PreferenceManager
-import
-android
-.
 util
 .
 AttributeSet
@@ -100,6 +94,12 @@ android
 view
 .
 View
+import
+androidx
+.
+preference
+.
+PreferenceManager
 import
 mozilla
 .

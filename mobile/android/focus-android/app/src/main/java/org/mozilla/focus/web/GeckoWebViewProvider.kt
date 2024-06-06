@@ -51,12 +51,6 @@ Parcelable
 import
 android
 .
-preference
-.
-PreferenceManager
-import
-android
-.
 text
 .
 TextUtils
@@ -84,6 +78,12 @@ android
 webkit
 .
 WebSettings
+import
+androidx
+.
+preference
+.
+PreferenceManager
 import
 kotlinx
 .
