@@ -171,7 +171,7 @@ fenix
 .
 crashes
 .
-CrashReporterFragment
+CrashContentView
 .
 Companion
 .
@@ -204,7 +204,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-CrashReporterFragmentTest
+CrashContentViewTest
 {
 Test
 fun
@@ -229,7 +229,7 @@ view
 =
 spyk
 (
-CrashReporterFragment
+CrashContentView
 (
 testContext
 )
@@ -292,7 +292,7 @@ view
 =
 spyk
 (
-CrashReporterFragment
+CrashContentView
 (
 testContext
 )
@@ -349,7 +349,7 @@ true
 val
 view
 =
-CrashReporterFragment
+CrashContentView
 (
 testContext
 )
@@ -527,7 +527,7 @@ view
 =
 spyk
 (
-CrashReporterFragment
+CrashContentView
 (
 testContext
 )
@@ -583,7 +583,7 @@ view
 =
 spyk
 (
-CrashReporterFragment
+CrashContentView
 (
 testContext
 )

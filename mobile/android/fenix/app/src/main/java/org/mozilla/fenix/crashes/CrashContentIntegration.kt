@@ -364,7 +364,7 @@ toolbar
 param
 crashReporterView
 [
-CrashReporterFragment
+CrashContentView
 ]
 which
 will
@@ -490,7 +490,7 @@ private
 val
 crashReporterView
 :
-CrashReporterFragment
+CrashContentView
 private
 val
 components

@@ -344,7 +344,7 @@ true
 val
 crashReporterView
 :
-CrashReporterFragment
+CrashContentView
 =
 mockk
 (
@@ -555,7 +555,7 @@ reporter
 val
 crashReporterView
 :
-CrashReporterFragment
+CrashContentView
 =
 mockk
 (

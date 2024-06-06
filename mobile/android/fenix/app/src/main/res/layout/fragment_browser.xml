@@ -540,7 +540,7 @@ fenix
 .
 crashes
 .
-CrashReporterFragment
+CrashContentView
 android
 :
 id
