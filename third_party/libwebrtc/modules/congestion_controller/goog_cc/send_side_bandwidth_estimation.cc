@@ -1792,6 +1792,11 @@ MinusInfinity
 ;
 if
 (
+LossBasedBandwidthEstimatorV2Enabled
+(
+)
+&
+&
 loss_based_bandwidth_estimator_v2_
 -
 >
