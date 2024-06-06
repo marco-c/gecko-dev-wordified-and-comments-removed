@@ -871,7 +871,7 @@ android
 .
 view
 .
-exitImmersiveModeIfNeeded
+exitImmersiveMode
 import
 mozilla
 .
@@ -7331,7 +7331,7 @@ else
 activity
 ?
 .
-exitImmersiveModeIfNeeded
+exitImmersiveMode
 (
 )
 (
