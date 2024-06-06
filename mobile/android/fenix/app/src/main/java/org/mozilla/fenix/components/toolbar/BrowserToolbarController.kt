@@ -1277,6 +1277,12 @@ BrowserFragmentDirections
 .
 actionBrowserFragmentToTranslationsDialogFragment
 (
+sessionId
+=
+currentSession
+?
+.
+id
 )
 navController
 .
