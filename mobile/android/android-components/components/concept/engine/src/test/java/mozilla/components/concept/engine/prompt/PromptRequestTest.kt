@@ -1415,6 +1415,13 @@ password
 "
 )
 val
+generatedPassword
+=
+"
+generatedPassword123
+#
+"
+val
 loginSelectRequest
 =
 SelectLoginPrompt
@@ -1423,6 +1430,7 @@ listOf
 (
 login
 )
+generatedPassword
 onLoginConfirm
 onLoginDismiss
 )
@@ -1435,6 +1443,13 @@ listOf
 (
 login
 )
+)
+assertEquals
+(
+loginSelectRequest
+.
+generatedPassword
+generatedPassword
 )
 loginSelectRequest
 .

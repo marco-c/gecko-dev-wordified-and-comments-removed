@@ -6768,11 +6768,16 @@ PromptRequest
 .
 SelectLoginPrompt
 (
+logins
+=
 listOf
 (
 login
 login2
 )
+generatedPassword
+=
+null
 onConfirm
 =
 {
@@ -9602,6 +9607,7 @@ listOf
 (
 login
 )
+null
 onLoginConfirm
 onLoginDismiss
 )
