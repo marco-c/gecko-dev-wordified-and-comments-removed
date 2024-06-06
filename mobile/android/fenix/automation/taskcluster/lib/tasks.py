@@ -421,6 +421,10 @@ daemon
 PcrashReports
 =
 true
+-
+Ptelemetry
+=
+true
 clean
 test
 assembleRelease
