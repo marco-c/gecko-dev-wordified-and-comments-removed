@@ -318,12 +318,30 @@ transforms
 .
 add
 def
-set_signing_type
+add_signing_cert_scope
 (
 config
 tasks
 )
 :
+    
+scope_prefix
+=
+config
+.
+graph_config
+[
+"
+scriptworker
+"
+]
+[
+"
+scope
+-
+prefix
+"
+]
     
 for
 task
@@ -331,7 +349,7 @@ in
 tasks
 :
         
-signing_type
+cert
 =
 "
 dep
@@ -387,7 +405,7 @@ release
 )
 :
                 
-signing_type
+cert
 =
 "
 fennec
@@ -415,7 +433,7 @@ in
 PRODUCTION_SIGNING_BUILD_TYPES
 :
                 
-signing_type
+cert
 =
 "
 production
@@ -428,20 +446,29 @@ task
 setdefault
 (
 "
-worker
+scopes
+"
+[
+]
+)
+.
+append
+(
+f
 "
 {
+scope_prefix
 }
-)
-[
-"
+:
 signing
--
-type
+:
+cert
+:
+{
+cert
+}
 "
-]
-=
-signing_type
+)
         
 yield
 task
