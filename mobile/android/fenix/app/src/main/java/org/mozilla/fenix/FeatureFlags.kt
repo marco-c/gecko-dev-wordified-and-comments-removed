@@ -602,12 +602,9 @@ enhancements
 .
 *
 /
+const
 val
 wallpaperV2Enabled
 =
-Config
-.
-channel
-.
-isDebug
+true
 }
