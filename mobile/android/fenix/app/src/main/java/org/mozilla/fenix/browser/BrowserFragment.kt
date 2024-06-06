@@ -1705,6 +1705,10 @@ super
 onStart
 (
 )
+setToolbarBehavior
+(
+false
+)
 sessionObserver
 =
 subscribeToSession
