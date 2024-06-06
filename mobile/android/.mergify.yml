@@ -153,9 +153,6 @@ rebase
 name
 :
 default
-rebase_fallback
-:
-none
 -
 name
 :
@@ -278,9 +275,6 @@ rebase
 name
 :
 default
-rebase_fallback
-:
-none
 -
 name
 :
@@ -443,9 +437,6 @@ rebase
 name
 :
 default
-rebase_fallback
-:
-none
 delete_head_branch
 :
 force
@@ -512,9 +503,6 @@ rebase
 name
 :
 default
-rebase_fallback
-:
-none
 -
 name
 :
@@ -579,6 +567,3 @@ squash
 name
 :
 default
-rebase_fallback
-:
-none
