@@ -372,9 +372,7 @@ mozilla_android_components
 .
 56
 .
-0
--
-SNAPSHOT
+2
 "
 /
 /
@@ -455,9 +453,9 @@ mozilla_appservices
 "
 0
 .
-30
+31
 .
-0
+2
 "
 const
 val
