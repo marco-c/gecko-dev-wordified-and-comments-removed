@@ -401,6 +401,13 @@ id
 /
 toolbar
 "
+android
+:
+scrollbars
+=
+"
+vertical
+"
 >
 <
 androidx
