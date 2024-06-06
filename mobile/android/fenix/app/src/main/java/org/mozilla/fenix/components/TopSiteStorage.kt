@@ -77,6 +77,12 @@ lifecycle
 .
 LiveData
 import
+androidx
+.
+lifecycle
+.
+asLiveData
+import
 kotlinx
 .
 coroutines
@@ -289,6 +295,10 @@ return
 storage
 .
 getTopSites
+(
+)
+.
+asLiveData
 (
 )
 }

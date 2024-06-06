@@ -85,6 +85,12 @@ LiveData
 import
 androidx
 .
+lifecycle
+.
+asLiveData
+import
+androidx
+.
 paging
 .
 DataSource
@@ -499,6 +505,10 @@ collectionStorage
 getCollections
 (
 limit
+)
+.
+asLiveData
+(
 )
 }
 fun
