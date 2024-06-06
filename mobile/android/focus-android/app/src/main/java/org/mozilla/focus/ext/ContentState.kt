@@ -79,7 +79,7 @@ ContentState
 val
 ContentState
 .
-isSearch
+hasSearchTerms
 :
 Boolean
 get
