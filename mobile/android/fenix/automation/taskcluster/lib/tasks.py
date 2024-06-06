@@ -1152,9 +1152,9 @@ description
 '
 Running
 detekt
-over
-all
-modules
+code
+quality
+checks
 '
             
 gradle_task
@@ -1233,9 +1233,9 @@ description
 '
 Running
 ktlint
-over
-all
-modules
+code
+quality
+checks
 '
             
 gradle_task
@@ -1313,10 +1313,11 @@ description
 =
 '
 Running
-ktlint
-over
-all
-modules
+lint
+for
+arm64
+release
+variant
 '
             
 gradle_task
