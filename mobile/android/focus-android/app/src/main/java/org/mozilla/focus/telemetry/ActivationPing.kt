@@ -411,16 +411,8 @@ Activation
 .
 activationId
 .
-set
+generateAndSet
 (
-UUID
-.
-fromString
-(
-TelemetryWrapper
-.
-clientId
-)
 )
 CoroutineScope
 (
