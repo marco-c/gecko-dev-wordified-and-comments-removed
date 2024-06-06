@@ -1060,7 +1060,7 @@ R
 .
 string
 .
-wallpaper_limited_edition_title
+wallpaper_artist_series_title
 )
 color
 =
@@ -1110,7 +1110,7 @@ R
 .
 string
 .
-wallpaper_limited_edition_description
+wallpaper_artist_series_description
 )
 Text
 (
@@ -1155,7 +1155,7 @@ R
 .
 string
 .
-wallpaper_limited_edition_description_with_learn_more
+wallpaper_artist_series_description_with_learn_more
 link
 )
 val
