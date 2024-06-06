@@ -909,6 +909,11 @@ cleanup
 (
 )
 {
+geckoSession
+.
+close
+(
+)
 }
 override
 fun
