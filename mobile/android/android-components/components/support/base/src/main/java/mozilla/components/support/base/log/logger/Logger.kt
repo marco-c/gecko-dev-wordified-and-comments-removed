@@ -161,9 +161,6 @@ debug
 message
 :
 String
-?
-=
-null
 throwable
 :
 Throwable
@@ -210,9 +207,6 @@ info
 message
 :
 String
-?
-=
-null
 throwable
 :
 Throwable
@@ -259,9 +253,6 @@ warn
 message
 :
 String
-?
-=
-null
 throwable
 :
 Throwable
@@ -308,9 +299,6 @@ error
 message
 :
 String
-?
-=
-null
 throwable
 :
 Throwable
@@ -479,9 +467,6 @@ debug
 message
 :
 String
-?
-=
-null
 throwable
 :
 Throwable
@@ -515,9 +500,6 @@ info
 message
 :
 String
-?
-=
-null
 throwable
 :
 Throwable
@@ -551,9 +533,6 @@ warn
 message
 :
 String
-?
-=
-null
 throwable
 :
 Throwable
@@ -587,9 +566,6 @@ error
 message
 :
 String
-?
-=
-null
 throwable
 :
 Throwable

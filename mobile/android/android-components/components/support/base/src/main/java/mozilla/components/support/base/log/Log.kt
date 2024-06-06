@@ -385,9 +385,6 @@ null
 message
 :
 String
-?
-=
-null
 )
 {
 if
