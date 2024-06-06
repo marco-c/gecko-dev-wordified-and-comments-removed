@@ -1545,7 +1545,6 @@ view
 nestedScrollQuickAction
 browserInteractor
 )
-}
 browserToolbarView
 .
 view
@@ -1555,6 +1554,7 @@ setOnSiteSecurityClickedListener
 showQuickSettingsDialog
 (
 )
+}
 }
 contextMenuFeature
 .
@@ -2290,16 +2290,6 @@ this
 view
 =
 view
-)
-}
-browserToolbarView
-.
-view
-.
-setOnSiteSecurityClickedListener
-{
-showQuickSettingsDialog
-(
 )
 }
 consumeFrom
