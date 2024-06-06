@@ -178,13 +178,6 @@ iconSpaceReserved
 "
 false
 "
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 android
 :
 defaultValue
