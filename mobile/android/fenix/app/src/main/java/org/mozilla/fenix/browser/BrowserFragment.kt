@@ -2269,10 +2269,6 @@ view
 }
 toolbarComponent
 .
-getView
-(
-)
-.
 setOnSiteSecurityClickedListener
 {
 showQuickSettingsDialog
