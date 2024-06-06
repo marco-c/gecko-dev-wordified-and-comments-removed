@@ -334,6 +334,15 @@ DateUtils
 SECOND_IN_MILLIS
 *
 15
+const
+val
+waitingTimeShort
+=
+DateUtils
+.
+SECOND_IN_MILLIS
+*
+5
 JvmStatic
 val
 appContext
