@@ -99,6 +99,12 @@ content
 .
 ContextCompat
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -444,7 +450,6 @@ manifest
 *
 /
 override
-suspend
 fun
 process
 (
@@ -485,6 +490,8 @@ matches
 intent
 )
 )
+{
+runBlocking
 {
 val
 webAppManifest
@@ -576,6 +583,7 @@ webAppManifest
 )
 }
 true
+}
 }
 else
 {

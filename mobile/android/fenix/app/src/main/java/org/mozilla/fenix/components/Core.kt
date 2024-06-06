@@ -1315,6 +1315,9 @@ R
 drawable
 .
 ic_status_logo
+permissionStorage
+.
+permissionsStorage
 HomeActivity
 :
 :

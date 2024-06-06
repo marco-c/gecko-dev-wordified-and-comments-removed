@@ -292,7 +292,6 @@ tab
 *
 /
 override
-suspend
 fun
 process
 (

@@ -294,6 +294,10 @@ def
 releaseTemplate
 =
 {
+signingConfig
+signingConfigs
+.
+debug
 shrinkResources
 true
 minifyEnabled

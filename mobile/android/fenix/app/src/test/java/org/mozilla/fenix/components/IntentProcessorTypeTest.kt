@@ -684,7 +684,6 @@ object
 IntentProcessor
 {
 override
-suspend
 fun
 process
 (
