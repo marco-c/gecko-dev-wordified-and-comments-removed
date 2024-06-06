@@ -239,14 +239,11 @@ Tabs
 .
 *
 /
+const
 val
 tabsTrayRewrite
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
