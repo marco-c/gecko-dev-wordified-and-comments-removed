@@ -437,6 +437,9 @@ release
 type
 :
 release
+shipping_phase
+:
+promote
 run
 -
 on
@@ -513,6 +516,9 @@ release
 type
 :
 release
+shipping_phase
+:
+promote
 run
 -
 on
@@ -668,6 +674,9 @@ release
 type
 :
 beta
+shipping_phase
+:
+promote
 run
 -
 on
