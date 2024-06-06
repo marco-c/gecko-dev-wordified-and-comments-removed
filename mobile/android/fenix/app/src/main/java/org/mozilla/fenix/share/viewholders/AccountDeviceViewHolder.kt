@@ -551,7 +551,7 @@ R
 .
 drawable
 .
-mozac_ic_new
+mozac_ic_plus_24
 R
 .
 color
