@@ -236,6 +236,16 @@ fenix
 ext
 .
 showToolbar
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
+runIfFragmentIsAttached
 /
 *
 *

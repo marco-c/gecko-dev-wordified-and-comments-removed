@@ -373,6 +373,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+runIfFragmentIsAttached
+import
+org
+.
+mozilla
+.
+fenix
+.
 theme
 .
 ThemeManager
