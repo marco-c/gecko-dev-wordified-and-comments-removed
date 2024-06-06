@@ -378,7 +378,7 @@ settings
 (
 )
 .
-shouldEnabledCookieBannerDetectOnlyMode
+shouldShowCookieBannerReEngagementDialog
 (
 )
 CookieBanners

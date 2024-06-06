@@ -1342,7 +1342,7 @@ settings
 (
 )
 .
-shouldEnabledCookieBannerDetectOnlyMode
+shouldShowCookieBannerReEngagementDialog
 (
 )
 )
