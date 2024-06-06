@@ -1041,6 +1041,9 @@ openThreeDotMenu
 {
 verifyPageThreeDotMainMenuItems
 (
+isRequestDesktopSiteEnabled
+=
+false
 )
 }
 }

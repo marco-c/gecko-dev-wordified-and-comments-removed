@@ -427,7 +427,7 @@ openThreeDotMenu
 expandMenu
 (
 )
-verifyAddToTopSitesButton
+verifyAddToShortcutsButton
 (
 )
 }
@@ -492,7 +492,7 @@ openThreeDotMenu
 expandMenu
 (
 )
-verifyAddToTopSitesButton
+verifyAddToShortcutsButton
 (
 )
 }
@@ -626,7 +626,7 @@ openThreeDotMenu
 expandMenu
 (
 )
-verifyAddToTopSitesButton
+verifyAddToShortcutsButton
 (
 )
 }
@@ -725,7 +725,7 @@ openThreeDotMenu
 expandMenu
 (
 )
-verifyAddToTopSitesButton
+verifyAddToShortcutsButton
 (
 )
 }
@@ -816,7 +816,7 @@ openThreeDotMenu
 expandMenu
 (
 )
-verifyAddToTopSitesButton
+verifyAddToShortcutsButton
 (
 )
 }
@@ -903,7 +903,7 @@ openThreeDotMenu
 expandMenu
 (
 )
-verifyAddToTopSitesButton
+verifyAddToShortcutsButton
 (
 )
 }

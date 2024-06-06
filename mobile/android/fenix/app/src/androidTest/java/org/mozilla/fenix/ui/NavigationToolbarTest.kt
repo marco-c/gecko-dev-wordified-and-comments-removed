@@ -411,7 +411,7 @@ openThreeDotMenu
 {
 }
 .
-goBack
+goToPreviousPage
 {
 mDevice
 .
@@ -506,7 +506,7 @@ openThreeDotMenu
 {
 }
 .
-goBack
+goToPreviousPage
 {
 mDevice
 .
