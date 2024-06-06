@@ -33244,6 +33244,9 @@ strict
 standard
 custom
 "
+type
+:
+string
 bugs
 :
 -
