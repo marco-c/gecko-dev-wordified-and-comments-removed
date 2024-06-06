@@ -2812,10 +2812,9 @@ MakeUndefined
 chunk
 -
 >
-initBase
+initBaseForTenuredChunk
 (
 rt
-nullptr
 )
 ;
 MOZ_ASSERT
