@@ -1600,6 +1600,10 @@ build_date
 )
         
 if
+"
+nightly
+"
+in
 job
 [
 "
@@ -1610,9 +1614,11 @@ attributes
 get
 (
 "
-nightly
+build
 -
-task
+type
+"
+"
 "
 )
 :

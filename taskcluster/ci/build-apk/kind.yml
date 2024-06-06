@@ -931,11 +931,6 @@ via
 the
 multi_dep
 loader
-nightly
--
-task
-:
-true
 shipping
 -
 product
@@ -1071,11 +1066,6 @@ via
 the
 multi_dep
 loader
-nightly
--
-task
-:
-true
 shipping
 -
 product

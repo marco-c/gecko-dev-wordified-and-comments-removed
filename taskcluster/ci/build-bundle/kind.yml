@@ -891,11 +891,6 @@ nightly
 :
 attributes
 :
-nightly
--
-task
-:
-true
 shipping
 -
 product
@@ -1008,11 +1003,6 @@ nightly
 :
 attributes
 :
-nightly
--
-task
-:
-true
 shipping
 -
 product
