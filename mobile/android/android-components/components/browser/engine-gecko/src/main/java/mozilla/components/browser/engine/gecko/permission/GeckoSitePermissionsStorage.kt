@@ -853,6 +853,9 @@ mergePermissions
 onDiskPermission
 geckoPermissions
 )
+?
+:
+onDiskPermission
 }
 }
 override
