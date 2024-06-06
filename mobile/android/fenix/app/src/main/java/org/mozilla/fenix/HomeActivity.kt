@@ -2057,6 +2057,7 @@ HomeFragmentDirections
 actionHomeFragmentToBrowserFragment
 (
 customTabSessionId
+true
 )
 BrowserDirection
 .

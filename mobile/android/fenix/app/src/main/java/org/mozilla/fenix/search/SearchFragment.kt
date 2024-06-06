@@ -1978,7 +1978,7 @@ const
 val
 SHARED_TRANSITION_MS
 =
-200L
+250L
 private
 const
 val

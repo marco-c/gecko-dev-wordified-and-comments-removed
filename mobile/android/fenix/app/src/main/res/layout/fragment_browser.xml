@@ -211,6 +211,13 @@ layout_height
 "
 match_parent
 "
+android
+:
+alpha
+=
+"
+0
+"
 app
 :
 layout_behavior
@@ -240,6 +247,13 @@ id
 id
 /
 engineView
+"
+android
+:
+visibility
+=
+"
+gone
 "
 android
 :
