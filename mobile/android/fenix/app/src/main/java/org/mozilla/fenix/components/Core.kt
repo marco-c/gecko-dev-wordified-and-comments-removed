@@ -955,6 +955,9 @@ WebCompatReporterFeature
 install
 (
 it
+"
+fenix
+"
 )
 }
 }
