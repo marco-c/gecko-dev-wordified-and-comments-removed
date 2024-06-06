@@ -336,11 +336,6 @@ beginPairingAuthentication
 (
 pairingUrl
 )
-view
-?
-.
-let
-{
 (
 activity
 as
@@ -351,9 +346,8 @@ openToBrowser
 (
 BrowserDirection
 .
-FromSettings
+FromPair
 )
-}
 }
 )
 owner

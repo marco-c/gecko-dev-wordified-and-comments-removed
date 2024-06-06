@@ -406,7 +406,7 @@ openToBrowser
 (
 BrowserDirection
 .
-FromSettings
+FromTurnOnSync
 )
 }
 true

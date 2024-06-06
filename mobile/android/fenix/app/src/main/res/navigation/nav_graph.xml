@@ -2339,6 +2339,13 @@ id
 /
 settingsFragment
 "
+app
+:
+popUpToInclusive
+=
+"
+true
+"
 /
 >
 <
@@ -2495,6 +2502,13 @@ popUpTo
 id
 /
 settingsFragment
+"
+app
+:
+popUpToInclusive
+=
+"
+true
 "
 /
 >
