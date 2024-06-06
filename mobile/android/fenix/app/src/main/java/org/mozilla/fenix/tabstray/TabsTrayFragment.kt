@@ -1541,6 +1541,12 @@ tabsTrayInteractor
 :
 :
 onInactiveTabClosed
+onSyncedTabClick
+=
+tabsTrayInteractor
+:
+:
+onSyncedTabClicked
 )
 }
 }
