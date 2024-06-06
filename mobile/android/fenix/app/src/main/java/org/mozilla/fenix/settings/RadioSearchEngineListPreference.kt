@@ -81,12 +81,6 @@ widget
 .
 CompoundButton
 import
-androidx
-.
-preference
-.
-PreferenceViewHolder
-import
 mozilla
 .
 components
