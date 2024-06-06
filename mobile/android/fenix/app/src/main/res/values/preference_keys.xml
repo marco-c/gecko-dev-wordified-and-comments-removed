@@ -752,7 +752,7 @@ string
 name
 =
 "
-pref_key_theme
+pref_key_customize
 "
 translatable
 =
@@ -760,7 +760,7 @@ translatable
 false
 "
 >
-pref_key_theme
+pref_key_customize
 <
 /
 string
