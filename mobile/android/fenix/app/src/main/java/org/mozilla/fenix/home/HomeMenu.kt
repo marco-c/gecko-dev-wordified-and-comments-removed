@@ -229,6 +229,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
