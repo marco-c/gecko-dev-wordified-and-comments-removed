@@ -239,11 +239,9 @@ e
     
 release_version
 =
-"
-125
-.
-0b6
-"
+get_release_version
+(
+)
     
 release_type
 =
@@ -392,7 +390,7 @@ testrail_product_type
 send_success_notification
 (
 success_values
-ERROR_CHANNEL_ID
+SUCCESS_CHANNEL_ID
 options
 )
     
