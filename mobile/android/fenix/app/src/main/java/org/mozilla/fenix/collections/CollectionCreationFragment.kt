@@ -157,6 +157,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+store
+.
+BrowserStore
+import
+mozilla
+.
+components
+.
 lib
 .
 publicsuffixlist
@@ -329,6 +341,14 @@ core
 .
 sessionManager
 val
+store
+=
+requireComponents
+.
+core
+.
+store
+val
 publicSuffixList
 =
 requireComponents
@@ -344,6 +364,7 @@ getTabs
 args
 .
 tabIds
+store
 publicSuffixList
 )
 val
@@ -366,6 +387,7 @@ getTabs
 args
 .
 selectedTabIds
+store
 publicSuffixList
 )
 .
@@ -629,6 +651,9 @@ Array
 String
 >
 ?
+store
+:
+BrowserStore
 publicSuffixList
 :
 PublicSuffixList
@@ -660,6 +685,7 @@ it
 .
 toTab
 (
+store
 publicSuffixList
 )
 }
