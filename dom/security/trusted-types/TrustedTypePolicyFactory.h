@@ -227,11 +227,7 @@ Value
 aValue
 )
 const
-{
-return
-false
 ;
-}
 bool
 IsScript
 (
@@ -253,11 +249,7 @@ Value
 aValue
 )
 const
-{
-return
-false
 ;
-}
 bool
 IsScriptURL
 (
@@ -279,11 +271,7 @@ Value
 aValue
 )
 const
-{
-return
-false
 ;
-}
 UniquePtr
 <
 TrustedHTML
