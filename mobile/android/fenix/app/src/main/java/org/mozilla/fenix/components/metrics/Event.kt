@@ -605,12 +605,6 @@ Event
 (
 )
 object
-VoiceSearchTapped
-:
-Event
-(
-)
-object
 SearchWidgetInstalled
 :
 Event
