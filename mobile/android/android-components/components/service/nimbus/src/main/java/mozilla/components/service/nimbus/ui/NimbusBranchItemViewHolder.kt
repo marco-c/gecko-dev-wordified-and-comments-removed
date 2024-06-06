@@ -128,12 +128,6 @@ experiment
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 NimbusBranchItemViewHolder
 (

@@ -1456,9 +1456,6 @@ TooManyFunctions
 LargeClass
 "
 "
-LongParameterList
-"
-"
 LongMethod
 "
 )
@@ -6336,12 +6333,6 @@ URL
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 openToBrowserAndLoad
 (

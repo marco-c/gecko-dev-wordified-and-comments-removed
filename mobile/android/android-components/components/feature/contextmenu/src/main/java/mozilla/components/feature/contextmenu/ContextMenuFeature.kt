@@ -519,12 +519,6 @@ HitResult
 ]
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 ContextMenuFeature
 (

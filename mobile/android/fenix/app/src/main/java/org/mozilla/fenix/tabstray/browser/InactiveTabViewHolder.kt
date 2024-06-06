@@ -347,12 +347,6 @@ dialog
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 InactiveTabViewHolder
 (

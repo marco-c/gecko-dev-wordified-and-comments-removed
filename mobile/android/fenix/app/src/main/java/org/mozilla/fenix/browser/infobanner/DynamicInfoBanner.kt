@@ -236,12 +236,6 @@ press
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 DynamicInfoBanner
 (

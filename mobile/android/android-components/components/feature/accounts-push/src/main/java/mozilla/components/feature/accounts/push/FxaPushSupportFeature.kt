@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-file
-:
-Suppress
-(
-"
-LongParameterList
-"
-)
 package
 mozilla
 .

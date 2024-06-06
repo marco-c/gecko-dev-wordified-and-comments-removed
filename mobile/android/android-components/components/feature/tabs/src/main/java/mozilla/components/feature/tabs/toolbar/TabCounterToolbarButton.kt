@@ -250,12 +250,6 @@ TabCounter
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 open
 class
 TabCounterToolbarButton

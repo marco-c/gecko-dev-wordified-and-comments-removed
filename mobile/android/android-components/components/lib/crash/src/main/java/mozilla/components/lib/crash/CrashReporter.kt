@@ -691,12 +691,6 @@ details
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 CrashReporter
 (

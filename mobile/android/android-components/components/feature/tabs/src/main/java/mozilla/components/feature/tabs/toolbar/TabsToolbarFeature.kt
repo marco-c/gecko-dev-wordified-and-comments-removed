@@ -206,12 +206,6 @@ components
 issues
 /
 9129
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 TabsToolbarFeature
 (

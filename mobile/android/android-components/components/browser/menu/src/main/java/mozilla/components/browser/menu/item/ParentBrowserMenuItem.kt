@@ -368,12 +368,6 @@ visible
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 ParentBrowserMenuItem
 (

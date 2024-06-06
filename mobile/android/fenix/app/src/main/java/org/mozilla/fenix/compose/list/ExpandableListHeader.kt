@@ -371,12 +371,6 @@ header
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 Composable
 fun
 ExpandableListHeader

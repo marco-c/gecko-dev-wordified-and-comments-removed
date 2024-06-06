@@ -609,12 +609,6 @@ button
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 Composable
 fun
 SearchEngineShortcuts
@@ -877,9 +871,6 @@ headline8
 }
 Suppress
 (
-"
-LongParameterList
-"
 "
 LongMethod
 "

@@ -1177,12 +1177,6 @@ brakeLine
 return
 permissionsText
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 companion
 object
 {

@@ -3179,12 +3179,6 @@ getSnackbarAnchor
 )
 }
 VisibleForTesting
-Suppress
-(
-"
-LongParameterList
-"
-)
 internal
 fun
 setupPager

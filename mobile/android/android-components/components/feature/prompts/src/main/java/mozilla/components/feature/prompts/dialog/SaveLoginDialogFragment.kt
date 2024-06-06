@@ -2279,12 +2279,6 @@ domain
 *
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 newInstance
 (

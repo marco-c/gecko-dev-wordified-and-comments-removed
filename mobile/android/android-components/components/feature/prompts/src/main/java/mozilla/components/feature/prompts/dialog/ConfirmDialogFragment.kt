@@ -362,12 +362,6 @@ userSelectionNoMoreDialogs
 companion
 object
 {
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 newInstance
 (

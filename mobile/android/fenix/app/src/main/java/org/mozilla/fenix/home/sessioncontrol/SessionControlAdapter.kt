@@ -1505,12 +1505,6 @@ newItem
 )
 }
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SessionControlAdapter
 (

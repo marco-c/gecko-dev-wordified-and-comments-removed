@@ -543,9 +543,6 @@ Composable
 Suppress
 (
 "
-LongParameterList
-"
-"
 LongMethod
 "
 )

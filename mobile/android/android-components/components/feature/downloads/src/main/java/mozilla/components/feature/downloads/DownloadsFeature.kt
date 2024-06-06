@@ -907,9 +907,6 @@ one
 Suppress
 (
 "
-LongParameterList
-"
-"
 LargeClass
 "
 )

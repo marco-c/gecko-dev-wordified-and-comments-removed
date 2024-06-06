@@ -434,12 +434,6 @@ URL
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 CombinedHistorySuggestionProvider
 (

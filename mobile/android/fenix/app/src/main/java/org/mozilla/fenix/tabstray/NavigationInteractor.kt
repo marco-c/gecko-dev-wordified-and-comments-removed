@@ -371,9 +371,6 @@ NavigationInteractor
 Suppress
 (
 "
-LongParameterList
-"
-"
 TooManyFunctions
 "
 )

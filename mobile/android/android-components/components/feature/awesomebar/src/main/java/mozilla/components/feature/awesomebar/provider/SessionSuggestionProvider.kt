@@ -253,12 +253,6 @@ tabs
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SessionSuggestionProvider
 (

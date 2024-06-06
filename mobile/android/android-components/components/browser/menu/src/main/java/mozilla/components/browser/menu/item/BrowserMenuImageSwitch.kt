@@ -254,12 +254,6 @@ checked
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 BrowserMenuImageSwitch
 (

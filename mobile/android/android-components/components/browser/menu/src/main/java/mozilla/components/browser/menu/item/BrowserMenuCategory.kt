@@ -322,12 +322,6 @@ position
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 BrowserMenuCategory
 (

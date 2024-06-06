@@ -1397,9 +1397,6 @@ Suppress
 "
 LongMethod
 "
-"
-LongParameterList
-"
 )
 Composable
 private
@@ -2351,9 +2348,6 @@ Suppress
 (
 "
 LongMethod
-"
-"
-LongParameterList
 "
 )
 Composable

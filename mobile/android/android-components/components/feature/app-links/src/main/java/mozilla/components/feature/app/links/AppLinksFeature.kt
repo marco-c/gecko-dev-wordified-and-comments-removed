@@ -504,12 +504,6 @@ app
 *
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 AppLinksFeature
 (

@@ -278,12 +278,6 @@ app
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 ManifestUpdateFeature
 (

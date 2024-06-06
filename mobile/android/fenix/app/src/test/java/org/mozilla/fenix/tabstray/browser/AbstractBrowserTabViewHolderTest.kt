@@ -1057,12 +1057,6 @@ pause
 )
 }
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 TestTabTrayViewHolder
 (

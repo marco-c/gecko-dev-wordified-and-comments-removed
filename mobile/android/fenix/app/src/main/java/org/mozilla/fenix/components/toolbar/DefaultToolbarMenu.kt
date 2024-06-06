@@ -586,9 +586,6 @@ Suppress
 LargeClass
 "
 "
-LongParameterList
-"
-"
 TooManyFunctions
 "
 )

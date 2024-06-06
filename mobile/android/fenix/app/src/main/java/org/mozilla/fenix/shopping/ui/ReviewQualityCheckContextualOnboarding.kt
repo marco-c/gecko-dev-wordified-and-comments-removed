@@ -499,9 +499,6 @@ button
 Suppress
 (
 "
-LongParameterList
-"
-"
 LongMethod
 "
 )

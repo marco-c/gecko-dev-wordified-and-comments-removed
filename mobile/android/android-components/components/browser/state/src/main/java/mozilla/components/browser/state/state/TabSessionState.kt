@@ -629,12 +629,6 @@ tab
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 createTab
 (

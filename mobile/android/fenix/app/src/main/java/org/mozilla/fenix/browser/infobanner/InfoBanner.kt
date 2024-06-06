@@ -260,12 +260,6 @@ press
 .
 *
 /
-SuppressWarnings
-(
-"
-LongParameterList
-"
-)
 open
 class
 InfoBanner

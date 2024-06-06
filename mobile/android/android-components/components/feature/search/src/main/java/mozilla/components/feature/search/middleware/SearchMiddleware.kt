@@ -454,12 +454,6 @@ loading
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SearchMiddleware
 (

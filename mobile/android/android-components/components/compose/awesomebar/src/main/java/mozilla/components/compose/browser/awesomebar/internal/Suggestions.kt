@@ -245,12 +245,6 @@ awesomebar
 .
 AwesomeBar
 Composable
-Suppress
-(
-"
-LongParameterList
-"
-)
 internal
 fun
 Suggestions

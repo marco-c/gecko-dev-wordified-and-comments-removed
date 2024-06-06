@@ -275,12 +275,6 @@ support
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 installBuiltInWebExtension
 (
@@ -476,12 +470,6 @@ support
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 installWebExtension
 (

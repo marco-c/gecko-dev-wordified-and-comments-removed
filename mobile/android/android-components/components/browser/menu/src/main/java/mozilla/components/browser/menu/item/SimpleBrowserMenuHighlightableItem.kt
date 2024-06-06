@@ -330,12 +330,6 @@ clicked
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SimpleBrowserMenuHighlightableItem
 (

@@ -2789,12 +2789,6 @@ is
 pressed
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 open
 class
 Button
@@ -3343,12 +3337,6 @@ pressed
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 open
 class
 TwoStateButton

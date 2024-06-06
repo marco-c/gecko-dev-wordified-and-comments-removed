@@ -555,9 +555,6 @@ Suppress
 "
 LargeClass
 "
-"
-LongParameterList
-"
 )
 class
 AutoPushFeature

@@ -208,12 +208,6 @@ tabstray
 viewholders
 .
 SyncedTabsPageViewHolder
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 TrayPagerAdapter
 (

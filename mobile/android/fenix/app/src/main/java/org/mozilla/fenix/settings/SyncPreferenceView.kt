@@ -335,12 +335,6 @@ Reconnect
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SyncPreferenceView
 (

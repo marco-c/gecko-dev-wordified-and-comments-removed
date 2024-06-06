@@ -254,12 +254,6 @@ engine
 name
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SearchEngineSuggestionProvider
 (

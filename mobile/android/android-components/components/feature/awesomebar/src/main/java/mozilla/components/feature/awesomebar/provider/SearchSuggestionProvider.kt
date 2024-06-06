@@ -278,12 +278,6 @@ SearchEngine
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SearchSuggestionProvider
 private

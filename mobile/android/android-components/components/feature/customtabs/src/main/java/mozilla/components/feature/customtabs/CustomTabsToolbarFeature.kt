@@ -649,9 +649,6 @@ Suppress
 "
 LargeClass
 "
-"
-LongParameterList
-"
 )
 class
 CustomTabsToolbarFeature

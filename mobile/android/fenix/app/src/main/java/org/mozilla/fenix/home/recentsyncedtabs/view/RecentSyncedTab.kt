@@ -689,9 +689,6 @@ Suppress
 "
 LongMethod
 "
-"
-LongParameterList
-"
 )
 Composable
 fun

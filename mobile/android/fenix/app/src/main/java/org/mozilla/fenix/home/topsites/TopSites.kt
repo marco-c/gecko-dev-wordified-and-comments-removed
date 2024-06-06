@@ -1555,9 +1555,6 @@ item
 Suppress
 (
 "
-LongParameterList
-"
-"
 LongMethod
 "
 )
@@ -2305,12 +2302,6 @@ imageUrl
 }
 }
 Composable
-Suppress
-(
-"
-LongParameterList
-"
-)
 private
 fun
 getMenuItems

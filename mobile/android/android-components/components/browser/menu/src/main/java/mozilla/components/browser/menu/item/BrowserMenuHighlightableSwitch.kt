@@ -293,12 +293,6 @@ checked
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 BrowserMenuHighlightableSwitch
 (

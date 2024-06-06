@@ -372,12 +372,6 @@ notification
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 WebAppSiteControlsFeature
 (

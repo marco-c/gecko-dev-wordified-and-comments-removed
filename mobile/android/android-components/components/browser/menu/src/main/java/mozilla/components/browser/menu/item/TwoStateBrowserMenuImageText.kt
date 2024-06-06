@@ -410,12 +410,6 @@ state
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 TwoStateBrowserMenuImageText
 (

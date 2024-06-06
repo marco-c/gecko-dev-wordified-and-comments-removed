@@ -209,12 +209,6 @@ closed
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 TabsFeature
 (

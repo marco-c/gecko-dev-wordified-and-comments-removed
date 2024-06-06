@@ -415,12 +415,6 @@ Browser_action
 *
 /
 Composable
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 BrowserToolbar
 (

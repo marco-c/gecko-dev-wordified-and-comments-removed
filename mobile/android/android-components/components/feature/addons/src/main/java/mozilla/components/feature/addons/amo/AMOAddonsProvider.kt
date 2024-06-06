@@ -600,12 +600,6 @@ by
 default
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 AMOAddonsProvider
 (

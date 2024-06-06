@@ -643,12 +643,6 @@ selected
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 BrowserState
 .

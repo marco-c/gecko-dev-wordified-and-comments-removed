@@ -539,12 +539,6 @@ available
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 AppLinksInterceptor
 (

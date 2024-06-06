@@ -1168,12 +1168,6 @@ tab
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 operator
 fun
 invoke

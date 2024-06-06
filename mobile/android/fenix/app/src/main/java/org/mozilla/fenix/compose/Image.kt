@@ -485,12 +485,6 @@ DefaultImagePlaceholder
 *
 /
 Composable
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 Image
 (

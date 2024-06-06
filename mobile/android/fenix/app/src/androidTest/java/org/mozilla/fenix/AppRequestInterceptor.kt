@@ -456,12 +456,6 @@ should
 be
 kept
 identical
-Suppress
-(
-"
-LongParameterList
-"
-)
 private
 fun
 interceptFxaRequest

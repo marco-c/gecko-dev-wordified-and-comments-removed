@@ -768,12 +768,6 @@ currentTimeMillis
 )
 }
 Composable
-Suppress
-(
-"
-LongParameterList
-"
-)
 private
 fun
 TabToolsContent

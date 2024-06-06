@@ -1102,9 +1102,6 @@ TooManyFunctions
 "
 LargeClass
 "
-"
-LongParameterList
-"
 )
 class
 SitePermissionsFeature
@@ -4495,12 +4492,6 @@ permission
 )
 }
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 VisibleForTesting
 internal
 fun

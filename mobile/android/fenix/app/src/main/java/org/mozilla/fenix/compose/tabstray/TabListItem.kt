@@ -742,9 +742,6 @@ MagicNumber
 "
 LongMethod
 "
-"
-LongParameterList
-"
 )
 fun
 TabListItem
@@ -1329,12 +1326,6 @@ PhotonColors
 Black
 }
 Composable
-Suppress
-(
-"
-LongParameterList
-"
-)
 private
 fun
 Thumbnail

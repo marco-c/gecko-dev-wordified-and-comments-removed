@@ -980,9 +980,6 @@ TooManyFunctions
 "
 LargeClass
 "
-"
-LongParameterList
-"
 )
 open
 class

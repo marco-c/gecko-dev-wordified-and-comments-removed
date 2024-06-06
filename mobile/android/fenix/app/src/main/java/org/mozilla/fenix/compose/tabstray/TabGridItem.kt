@@ -892,9 +892,6 @@ Suppress
 MagicNumber
 "
 "
-LongParameterList
-"
-"
 LongMethod
 "
 )

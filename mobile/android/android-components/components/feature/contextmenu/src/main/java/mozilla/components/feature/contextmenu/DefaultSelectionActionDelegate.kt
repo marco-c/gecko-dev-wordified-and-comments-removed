@@ -241,12 +241,6 @@ displayed
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 DefaultSelectionActionDelegate
 (

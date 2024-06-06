@@ -443,12 +443,6 @@ tab
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 createCustomTab
 (

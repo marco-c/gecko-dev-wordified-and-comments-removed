@@ -477,12 +477,6 @@ a
 header
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SearchTermSuggestionsProvider
 (

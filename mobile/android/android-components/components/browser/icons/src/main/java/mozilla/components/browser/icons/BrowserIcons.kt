@@ -813,12 +813,6 @@ Bitmap
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 BrowserIcons
 constructor
@@ -3177,12 +3171,6 @@ bitmap
 return
 null
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 private
 fun
 process

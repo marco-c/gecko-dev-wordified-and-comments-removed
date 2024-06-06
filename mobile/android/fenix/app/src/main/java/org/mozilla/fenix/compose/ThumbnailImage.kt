@@ -365,12 +365,6 @@ loaded
 *
 /
 Composable
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 ThumbnailImage
 (

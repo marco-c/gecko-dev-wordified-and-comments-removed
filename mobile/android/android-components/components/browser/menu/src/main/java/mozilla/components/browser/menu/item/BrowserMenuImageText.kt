@@ -412,12 +412,6 @@ clicked
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 open
 class
 BrowserMenuImageText

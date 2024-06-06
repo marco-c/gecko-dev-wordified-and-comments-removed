@@ -758,9 +758,6 @@ Suppress
 "
 LargeClass
 "
-"
-LongParameterList
-"
 )
 class
 MozillaSocorroService
@@ -1276,12 +1273,6 @@ otherwise
 VisibleForTesting
 .
 PRIVATE
-)
-Suppress
-(
-"
-LongParameterList
-"
 )
 internal
 fun

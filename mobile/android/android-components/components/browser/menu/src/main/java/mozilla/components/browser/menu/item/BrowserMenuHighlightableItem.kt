@@ -396,12 +396,6 @@ clicked
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 BrowserMenuHighlightableItem
 (

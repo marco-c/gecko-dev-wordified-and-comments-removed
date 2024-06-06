@@ -407,12 +407,6 @@ content
 *
 /
 Composable
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 TabThumbnail
 (

@@ -401,12 +401,6 @@ in
 menu
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 WebExtensionBrowserMenuBuilder
 (

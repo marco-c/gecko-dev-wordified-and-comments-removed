@@ -546,12 +546,6 @@ that
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 abstract
 class
 AbstractBrowserTabViewHolder

@@ -352,12 +352,6 @@ content
 }
 }
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 internal
 class
 InternalImageLoaderScope

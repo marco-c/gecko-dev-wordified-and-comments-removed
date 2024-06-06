@@ -190,12 +190,6 @@ module
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 ToolbarFeature
 (

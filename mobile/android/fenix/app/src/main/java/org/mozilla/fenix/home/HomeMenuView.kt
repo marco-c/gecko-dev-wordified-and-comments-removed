@@ -441,12 +441,6 @@ FxA
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 HomeMenuView
 (

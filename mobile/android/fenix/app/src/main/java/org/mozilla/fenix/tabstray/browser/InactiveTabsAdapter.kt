@@ -207,12 +207,6 @@ reporting
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 InactiveTabsAdapter
 (

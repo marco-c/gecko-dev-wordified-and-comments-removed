@@ -1429,12 +1429,6 @@ along
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 initialize
 (
@@ -3256,12 +3250,6 @@ tabHandler
 )
 }
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 private
 fun
 openTab

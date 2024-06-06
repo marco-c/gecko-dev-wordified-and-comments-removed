@@ -1721,9 +1721,6 @@ class
 Suppress
 (
 "
-LongParameterList
-"
-"
 LongMethod
 "
 )
@@ -2465,12 +2462,6 @@ ExperimentalComposeUiApi
 :
 :
 class
-)
-Suppress
-(
-"
-LongParameterList
-"
 )
 Composable
 fun

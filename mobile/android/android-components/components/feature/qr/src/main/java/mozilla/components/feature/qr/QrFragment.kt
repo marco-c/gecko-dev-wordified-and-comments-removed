@@ -3848,9 +3848,6 @@ enough
 Suppress
 (
 "
-LongParameterList
-"
-"
 ComplexMethod
 "
 )
