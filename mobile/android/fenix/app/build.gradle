@@ -1750,7 +1750,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 variant
 -
@@ -6742,7 +6742,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 variant
 -
@@ -8019,7 +8019,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 variant
 -

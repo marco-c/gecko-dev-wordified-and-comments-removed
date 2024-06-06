@@ -170,7 +170,7 @@ withType
 KotlinCompile
 )
 .
-all
+configureEach
 {
 kotlinOptions
 .

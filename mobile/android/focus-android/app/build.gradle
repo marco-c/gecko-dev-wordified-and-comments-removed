@@ -1019,7 +1019,7 @@ withType
 KotlinCompile
 )
 .
-all
+configureEach
 {
 kotlinOptions
 .
@@ -2592,7 +2592,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 variant
 -
@@ -3263,7 +3263,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 print
 (
@@ -3567,7 +3567,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 variant
 -
@@ -3965,7 +3965,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 print
 (
@@ -4840,7 +4840,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 variant
 -
@@ -5408,7 +5408,7 @@ android
 .
 applicationVariants
 .
-all
+configureEach
 {
 variant
 -

@@ -271,7 +271,7 @@ here
 /
 configurations
 .
-all
+configureEach
 {
 resolutionStrategy
 .
