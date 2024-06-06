@@ -226,6 +226,16 @@ config
 .
 setOnAttributionChangedListener
 {
+it
+.
+campaign
+?
+.
+let
+{
+campaign
+-
+>
 application
 .
 applicationContext
@@ -236,9 +246,8 @@ settings
 .
 adjustCampaignId
 =
-it
-.
 campaign
+}
 }
 config
 .
