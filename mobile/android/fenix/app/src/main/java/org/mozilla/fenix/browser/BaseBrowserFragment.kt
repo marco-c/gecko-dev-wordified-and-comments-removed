@@ -1627,6 +1627,8 @@ activity
 requireActivity
 (
 )
+as
+HomeActivity
 navController
 =
 findNavController
@@ -1760,9 +1762,6 @@ requireComponents
 core
 .
 topSiteStorage
-sharedViewModel
-=
-sharedViewModel
 onTabCounterClicked
 =
 {
