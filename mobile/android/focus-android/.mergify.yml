@@ -205,6 +205,9 @@ rebase
 name
 :
 default
+rebase_fallback
+:
+none
 -
 name
 :
@@ -248,6 +251,9 @@ rebase
 name
 :
 default
+rebase_fallback
+:
+none
 -
 name
 :
@@ -298,3 +304,6 @@ rebase
 name
 :
 default
+rebase_fallback
+:
+none
