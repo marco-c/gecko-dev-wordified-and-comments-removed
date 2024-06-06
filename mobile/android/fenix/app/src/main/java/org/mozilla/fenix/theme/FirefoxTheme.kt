@@ -1115,7 +1115,7 @@ layer3
 =
 PhotonColors
 .
-Ink50
+Ink90
 )
 /
 *
