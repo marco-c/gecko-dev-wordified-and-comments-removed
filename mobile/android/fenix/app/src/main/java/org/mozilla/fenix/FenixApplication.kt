@@ -263,7 +263,7 @@ context
 )
 Glean
 .
-setMetricsEnabled
+setUploadEnabled
 (
 BuildConfig
 .

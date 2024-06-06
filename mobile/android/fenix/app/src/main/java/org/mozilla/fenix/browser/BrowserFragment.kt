@@ -907,7 +907,7 @@ if
 (
 sessionFeature
 .
-handleBackPressed
+onBackPressed
 (
 )
 )
