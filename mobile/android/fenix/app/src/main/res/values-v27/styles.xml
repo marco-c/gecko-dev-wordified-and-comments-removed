@@ -221,12 +221,12 @@ style
 name
 =
 "
-LightTheme
+NormalTheme
 "
 parent
 =
 "
-LightThemeBase
+NormalThemeBase
 "
 >
 <
@@ -299,7 +299,9 @@ android
 windowLightStatusBar
 "
 >
-true
+bool
+/
+theme_is_light
 <
 /
 item
@@ -344,7 +346,9 @@ android
 windowLightNavigationBar
 "
 >
-true
+bool
+/
+theme_is_light
 <
 /
 item

@@ -140,7 +140,7 @@ background
 ?
 attr
 /
-toolbarColor
+quickActionBackgroundColor
 "
 >
 <
@@ -250,7 +250,7 @@ background
 ?
 attr
 /
-toolbarColor
+quickActionBackgroundColor
 "
 >
 <

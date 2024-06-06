@@ -293,9 +293,10 @@ android
 textColor
 =
 "
-color
+?
+attr
 /
-photonRed60
+deleteColor
 "
 android
 :

@@ -652,6 +652,15 @@ false
 "
 android
 :
+drawableTint
+=
+"
+color
+/
+save_session_button_text_color
+"
+android
+:
 drawableStart
 =
 "
@@ -703,7 +712,7 @@ textColor
 "
 color
 /
-photonWhite
+save_session_button_text_color
 "
 /
 >

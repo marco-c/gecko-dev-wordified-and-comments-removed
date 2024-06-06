@@ -129,7 +129,7 @@ R
 .
 drawable
 .
-home_search_background_light
+home_search_background_normal
 context
 .
 theme

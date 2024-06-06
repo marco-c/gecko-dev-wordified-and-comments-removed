@@ -159,6 +159,16 @@ layout_marginBottom
 "
 8dp
 "
+app
+:
+cardBackgroundColor
+=
+"
+?
+attr
+/
+sessionBackgroundColor
+"
 android
 :
 clipToPadding
@@ -334,7 +344,7 @@ textColor
 ?
 attr
 /
-toolbarTextColor
+primaryTextColor
 "
 android
 :

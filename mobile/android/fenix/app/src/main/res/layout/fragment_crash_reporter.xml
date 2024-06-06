@@ -280,7 +280,7 @@ textColor
 "
 color
 /
-light_mode_text_color
+text_color_normal_theme
 "
 android
 :
@@ -386,7 +386,7 @@ textColor
 "
 color
 /
-light_mode_text_color
+text_color_normal_theme
 "
 android
 :
@@ -658,7 +658,7 @@ textColor
 "
 color
 /
-light_mode_text_color
+text_color_normal_theme
 "
 android
 :

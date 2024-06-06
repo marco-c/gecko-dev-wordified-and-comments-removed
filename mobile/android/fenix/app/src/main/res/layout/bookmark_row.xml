@@ -410,6 +410,16 @@ drawable
 /
 ic_menu
 "
+android
+:
+tint
+=
+"
+?
+attr
+/
+iconColor
+"
 app
 :
 layout_constraintBottom_toBottomOf

@@ -179,7 +179,7 @@ ThemeManager
 .
 Theme
 .
-Light
+Normal
 BrowsingModeManager
 .
 Mode

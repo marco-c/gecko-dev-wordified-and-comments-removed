@@ -86,12 +86,12 @@ style
 name
 =
 "
-LightTheme
+NormalTheme
 "
 parent
 =
 "
-LightThemeBase
+NormalThemeBase
 "
 >
 <
@@ -164,7 +164,9 @@ android
 windowLightStatusBar
 "
 >
-true
+bool
+/
+theme_is_light
 <
 /
 item
