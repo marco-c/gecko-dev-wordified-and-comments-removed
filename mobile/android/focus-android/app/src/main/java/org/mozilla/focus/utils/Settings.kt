@@ -2072,6 +2072,13 @@ SitePermissionsRules
 Action
 .
 BLOCKED
+crossOriginStorageAccess
+=
+SitePermissionsRules
+.
+Action
+.
+BLOCKED
 )
 private
 fun
