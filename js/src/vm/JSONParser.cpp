@@ -5154,7 +5154,7 @@ str
 )
 ;
 return
-createJSONParseRecord
+finishPrimitiveParseRecord
 (
 v
 source
@@ -5259,7 +5259,7 @@ str
 )
 ;
 return
-createJSONParseRecord
+finishPrimitiveParseRecord
 (
 v
 source
@@ -5307,7 +5307,7 @@ d
 )
 ;
 return
-createJSONParseRecord
+finishPrimitiveParseRecord
 (
 v
 source
@@ -5345,7 +5345,7 @@ source
 )
 {
 return
-createJSONParseRecord
+finishPrimitiveParseRecord
 (
 JS
 :
@@ -5387,7 +5387,7 @@ source
 )
 {
 return
-createJSONParseRecord
+finishPrimitiveParseRecord
 (
 JS
 :
@@ -5491,7 +5491,7 @@ CharT
 >
 :
 :
-createJSONParseRecord
+finishPrimitiveParseRecord
 (
 const
 Value
