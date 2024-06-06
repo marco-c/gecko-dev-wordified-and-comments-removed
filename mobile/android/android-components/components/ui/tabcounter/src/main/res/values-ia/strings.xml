@@ -54,8 +54,9 @@ aperte
 .
 Tocca
 pro
-mutar
-schedas
+cambiar
+le
+scheda
 .
 <
 /
@@ -97,8 +98,9 @@ aperte
 .
 Tocca
 pro
-mutar
-schedas
+cambiar
+le
+scheda
 .
 <
 /
@@ -193,6 +195,7 @@ mozac_close_tab
 "
 >
 Clauder
+le
 scheda
 <
 /
@@ -221,6 +224,7 @@ mozac_ui_tabcounter_duplicate_tab
 "
 >
 Duplicar
+le
 scheda
 <
 /
@@ -256,7 +260,7 @@ de
 schedas
 del
 barra
-del
+de
 instrumentos
 .
 <
