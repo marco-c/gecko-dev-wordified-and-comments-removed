@@ -753,6 +753,16 @@ fenix
 .
 ext
 .
+measureNoInline
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 metrics
 import
 org
@@ -1435,7 +1445,7 @@ PerfStartup
 .
 homeActivityOnCreate
 .
-measure
+measureNoInline
 {
 /
 /
