@@ -237,14 +237,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 toolbar
@@ -561,13 +553,6 @@ navigation
 (
 )
 {
-if
-(
-FeatureFlags
-.
-toolbarMenuFeature
-)
-{
 every
 {
 context
@@ -588,7 +573,7 @@ menuItems
 =
 toolbarMenu
 .
-newCoreMenuItems
+coreMenuItems
 assertNotNull
 (
 menuItems
@@ -611,7 +596,6 @@ assertEquals
 newTabItem
 firstItem
 )
-}
 }
 Test
 Ignore
@@ -659,13 +643,6 @@ navigation
 (
 )
 {
-if
-(
-FeatureFlags
-.
-toolbarMenuFeature
-)
-{
 every
 {
 context
@@ -686,7 +663,7 @@ menuItems
 =
 toolbarMenu
 .
-newCoreMenuItems
+coreMenuItems
 assertNotNull
 (
 menuItems
@@ -709,7 +686,6 @@ assertEquals
 navToolbar
 firstItem
 )
-}
 }
 Test
 Ignore
@@ -756,13 +732,6 @@ item
 (
 )
 {
-if
-(
-FeatureFlags
-.
-toolbarMenuFeature
-)
-{
 every
 {
 context
@@ -783,7 +752,7 @@ menuItems
 =
 toolbarMenu
 .
-newCoreMenuItems
+coreMenuItems
 assertNotNull
 (
 menuItems
@@ -810,7 +779,6 @@ assertEquals
 navToolbar
 lastItem
 )
-}
 }
 Test
 Ignore
@@ -855,13 +823,6 @@ item
 (
 )
 {
-if
-(
-FeatureFlags
-.
-toolbarMenuFeature
-)
-{
 every
 {
 context
@@ -882,7 +843,7 @@ menuItems
 =
 toolbarMenu
 .
-newCoreMenuItems
+coreMenuItems
 assertNotNull
 (
 menuItems
@@ -909,6 +870,5 @@ assertEquals
 settingsItem
 lastItem
 )
-}
 }
 }
