@@ -654,7 +654,7 @@ deviceConstellation
 (
 )
 .
-refreshDeviceStateAsync
+pollForEventsAsync
 (
 )
 .
