@@ -696,6 +696,14 @@ Int
 return
 if
 (
+recyclerView
+.
+hasWindowFocus
+(
+)
+&
+&
+(
 viewHolder
 is
 TabViewHolder
@@ -704,6 +712,7 @@ TabViewHolder
 viewHolder
 is
 TabInCollectionViewHolder
+)
 )
 {
 super
