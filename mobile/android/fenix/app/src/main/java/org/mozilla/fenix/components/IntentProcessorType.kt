@@ -290,6 +290,12 @@ fennecPageShortcutIntentProcessor
 =
 =
 processor
+|
+|
+webNotificationsIntentProcessor
+=
+=
+processor
 -
 >
 IntentProcessorType

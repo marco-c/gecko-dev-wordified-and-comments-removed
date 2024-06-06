@@ -783,7 +783,7 @@ mozilla
 .
 fenix
 .
-HomeActivity
+IntentReceiverActivity
 import
 org
 .
@@ -1785,7 +1785,7 @@ ic_status_logo
 permissionStorage
 .
 permissionsStorage
-HomeActivity
+IntentReceiverActivity
 :
 :
 class

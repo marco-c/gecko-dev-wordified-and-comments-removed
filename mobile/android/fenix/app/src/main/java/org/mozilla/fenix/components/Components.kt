@@ -724,6 +724,9 @@ customTabsStore
 core
 .
 webAppManifestStorage
+core
+.
+engine
 )
 }
 val

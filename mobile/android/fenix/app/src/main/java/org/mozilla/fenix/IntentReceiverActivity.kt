@@ -553,7 +553,8 @@ intent
 intentProcessorType
 )
 }
-private
+VisibleForTesting
+internal
 fun
 launch
 (
@@ -730,6 +731,12 @@ components
 intentProcessors
 .
 externalDeepLinkIntentProcessor
++
+components
+.
+intentProcessors
+.
+webNotificationsIntentProcessor
 +
 modeDependentProcessors
 +
