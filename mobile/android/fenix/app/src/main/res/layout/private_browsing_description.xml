@@ -261,7 +261,15 @@ private_browsing_placeholder_description_2
 /
 >
 <
-TextView
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+LinkTextView
 android
 :
 id
