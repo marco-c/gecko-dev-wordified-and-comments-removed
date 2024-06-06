@@ -899,7 +899,7 @@ M
 {
 findPreference
 <
-DefaultBrowserPreference
+Preference
 >
 (
 getPreferenceKey
@@ -909,12 +909,9 @@ pref_key_make_default_browser
 )
 ?
 .
-apply
-{
 isVisible
 =
 false
-}
 }
 }
 override
