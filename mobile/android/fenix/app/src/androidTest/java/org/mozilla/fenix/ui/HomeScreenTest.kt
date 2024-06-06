@@ -829,6 +829,12 @@ setJumpBackCFREnabled
 (
 false
 )
+featureSettingsHelper
+.
+setShowWallpaperOnboarding
+(
+false
+)
 navigationToolbar
 {
 }
