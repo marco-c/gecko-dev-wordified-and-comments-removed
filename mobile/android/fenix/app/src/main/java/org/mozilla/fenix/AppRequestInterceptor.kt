@@ -190,6 +190,9 @@ Boolean
 isDirectNavigation
 :
 Boolean
+isSubframeRequest
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -214,6 +217,7 @@ hasUserGesture
 isSameDomain
 isRedirect
 isDirectNavigation
+isSubframeRequest
 )
 }
 override
