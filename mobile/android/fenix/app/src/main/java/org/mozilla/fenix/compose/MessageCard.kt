@@ -1166,7 +1166,7 @@ R
 .
 string
 .
-bookmark_empty_title_error
+default_browser_experiment_card_title
 )
 onClick
 =
@@ -1300,7 +1300,7 @@ R
 .
 string
 .
-bookmark_empty_title_error
+default_browser_experiment_card_title
 )
 buttonText
 =
