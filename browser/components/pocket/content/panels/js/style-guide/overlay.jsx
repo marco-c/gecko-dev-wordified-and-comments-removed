@@ -99,7 +99,6 @@ StyleGuideOverlay
 =
 function
 (
-options
 )
 {
 }

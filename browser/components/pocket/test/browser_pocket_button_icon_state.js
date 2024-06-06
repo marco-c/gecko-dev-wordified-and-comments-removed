@@ -337,9 +337,6 @@ async
 function
 test_pocketButtonState_changeTabs
 (
-{
-sandbox
-}
 )
 {
 let
@@ -462,9 +459,6 @@ async
 function
 test_pocketButtonState_changeLocation
 (
-{
-sandbox
-}
 )
 {
 let

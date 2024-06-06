@@ -2056,7 +2056,6 @@ onreadystatechange
 =
 function
 (
-e
 )
 {
 if
@@ -3080,7 +3079,6 @@ url
 }
 success
 (
-data
 )
 {
 if
@@ -3196,7 +3194,6 @@ getAccessToken
 }
 success
 (
-data
 )
 {
 if

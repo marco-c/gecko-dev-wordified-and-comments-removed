@@ -73,7 +73,6 @@ HomeOverlay
 =
 function
 (
-options
 )
 {
 this

@@ -368,9 +368,6 @@ async
 function
 test_AboutPocketParent_receiveMessage_PKT_show_signup
 (
-{
-sandbox
-}
 )
 {
 await
@@ -426,9 +423,6 @@ async
 function
 test_AboutPocketParent_receiveMessage_PKT_show_saved
 (
-{
-sandbox
-}
 )
 {
 await
@@ -484,9 +478,6 @@ async
 function
 test_AboutPocketParent_receiveMessage_PKT_close
 (
-{
-sandbox
-}
 )
 {
 await
@@ -542,9 +533,6 @@ async
 function
 test_AboutPocketParent_receiveMessage_PKT_openTabWithUrl
 (
-{
-sandbox
-}
 )
 {
 await
@@ -646,9 +634,6 @@ async
 function
 test_AboutPocketParent_receiveMessage_PKT_openTabWithPocketUrl
 (
-{
-sandbox
-}
 )
 {
 await

@@ -566,10 +566,7 @@ observed
 const
 callback
 =
-(
 mutationList
-observer
-)
 =
 >
 {

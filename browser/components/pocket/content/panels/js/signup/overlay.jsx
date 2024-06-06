@@ -85,7 +85,6 @@ SignupOverlay
 =
 function
 (
-options
 )
 {
 this

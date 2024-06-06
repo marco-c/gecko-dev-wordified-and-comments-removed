@@ -73,7 +73,6 @@ SavedOverlay
 =
 function
 (
-options
 )
 {
 this

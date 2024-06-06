@@ -1322,7 +1322,8 @@ react
 useCallback
 )
 (
-resp
+(
+)
 =
 >
 {
@@ -2112,7 +2113,6 @@ HomeOverlay
 =
 function
 (
-options
 )
 {
 this
@@ -2892,7 +2892,6 @@ SignupOverlay
 =
 function
 (
-options
 )
 {
 this
@@ -4632,7 +4631,6 @@ PKT_getArticleInfoAttempted
 "
 function
 (
-resp
 )
 {
 setArticleInfoAttempted
@@ -5245,7 +5243,6 @@ SavedOverlay
 =
 function
 (
-options
 )
 {
 this
@@ -5434,7 +5431,6 @@ StyleGuideOverlay
 =
 function
 (
-options
 )
 {
 }
@@ -6595,10 +6591,7 @@ true
 const
 callback
 =
-(
 mutationList
-observer
-)
 =
 >
 {

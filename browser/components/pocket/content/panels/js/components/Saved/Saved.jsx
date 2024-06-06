@@ -592,7 +592,6 @@ PKT_getArticleInfoAttempted
 "
 function
 (
-resp
 )
 {
 setArticleInfoAttempted
