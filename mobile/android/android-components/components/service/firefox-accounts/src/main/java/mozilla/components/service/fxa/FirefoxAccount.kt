@@ -103,6 +103,14 @@ withContext
 import
 mozilla
 .
+appservices
+.
+fxaclient
+.
+FxaClient
+import
+mozilla
+.
 components
 .
 concept
@@ -176,16 +184,6 @@ log
 logger
 .
 Logger
-import
-mozilla
-.
-appservices
-.
-fxaclient
-.
-PersistedFirefoxAccount
-as
-InternalFxAcct
 typealias
 PersistCallback
 =
@@ -195,7 +193,7 @@ appservices
 .
 fxaclient
 .
-PersistedFirefoxAccount
+FxaClient
 .
 PersistCallback
 /
@@ -222,7 +220,7 @@ private
 val
 inner
 :
-InternalFxAcct
+FxaClient
 crashReporter
 :
 CrashReporting
@@ -305,7 +303,7 @@ callback
 registered
 with
 [
-InternalFxAcct
+FxaClient
 ]
 .
 However
@@ -436,7 +434,7 @@ logger
 warn
 (
 "
-InternalFxAcct
+FxaClient
 tried
 persist
 state
@@ -570,7 +568,7 @@ null
 :
 this
 (
-InternalFxAcct
+FxaClient
 (
 config
 )
@@ -1718,7 +1716,7 @@ FirefoxAccount
 return
 FirefoxAccount
 (
-InternalFxAcct
+FxaClient
 .
 fromJSONString
 (

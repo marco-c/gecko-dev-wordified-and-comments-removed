@@ -85,7 +85,7 @@ appservices
 .
 fxaclient
 .
-Config
+FxaConfig
 typealias
 Server
 =
@@ -95,9 +95,7 @@ appservices
 .
 fxaclient
 .
-Config
-.
-Server
+FxaServer
 /
 *
 *

@@ -503,7 +503,7 @@ appservices
 .
 fxaclient
 .
-PersistedFirefoxAccount
+FxaClient
 as
 NativeFirefoxAccount
 import
