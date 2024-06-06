@@ -2988,8 +2988,9 @@ verifyToolbarText
 (
 "
 Manage
+alternative
 search
-shortcuts
+engines
 "
 )
 verifyEnginesShortcutsListHeader

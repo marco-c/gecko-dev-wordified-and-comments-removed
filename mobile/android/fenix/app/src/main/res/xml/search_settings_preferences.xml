@@ -212,7 +212,7 @@ title
 "
 string
 /
-preferences_manage_search_shortcuts
+preferences_manage_search_shortcuts2
 "
 android
 :
@@ -704,7 +704,7 @@ key
 "
 string
 /
-pref_key_enable_autocomplete_urls
+pref_key_show_voice_search
 "
 android
 :
@@ -713,7 +713,7 @@ title
 "
 string
 /
-preferences_enable_autocomplete_urls
+preferences_show_voice_search
 "
 /
 >
@@ -740,7 +740,7 @@ key
 "
 string
 /
-pref_key_show_voice_search
+pref_key_enable_autocomplete_urls
 "
 android
 :
@@ -749,7 +749,7 @@ title
 "
 string
 /
-preferences_show_voice_search
+preferences_enable_autocomplete_urls
 "
 /
 >

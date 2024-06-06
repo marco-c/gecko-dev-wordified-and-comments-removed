@@ -6833,12 +6833,13 @@ string
 name
 =
 "
-preferences_manage_search_shortcuts
+preferences_manage_search_shortcuts2
 "
 >
 Manage
+alternative
 search
-shortcuts
+engines
 <
 /
 string

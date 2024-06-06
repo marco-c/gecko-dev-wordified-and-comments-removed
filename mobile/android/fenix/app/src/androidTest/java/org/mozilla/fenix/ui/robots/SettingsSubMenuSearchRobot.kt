@@ -2727,8 +2727,9 @@ withText
 (
 "
 Manage
+alternative
 search
-shortcuts
+engines
 "
 )
 )
