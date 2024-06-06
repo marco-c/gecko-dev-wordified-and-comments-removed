@@ -1200,6 +1200,16 @@ engineSessionState
 =
 state
 )
+tabTrayView
+.
+scrollToTab
+(
+snapshot
+.
+session
+.
+id
+)
 }
 operation
 =
