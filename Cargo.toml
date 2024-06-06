@@ -140,6 +140,17 @@ toolkit
 /
 crashreporter
 /
+client
+-
+rust
+/
+app
+"
+"
+toolkit
+/
+crashreporter
+/
 mozwer
 -
 rust
