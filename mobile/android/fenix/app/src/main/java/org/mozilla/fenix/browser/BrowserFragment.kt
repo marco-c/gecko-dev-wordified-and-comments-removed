@@ -3673,6 +3673,7 @@ it
 .
 onPermissionsResult
 (
+permissions
 grantResults
 )
 }
