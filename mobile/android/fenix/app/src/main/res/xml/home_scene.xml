@@ -162,7 +162,7 @@ touchAnchorId
 "
 id
 /
-homeScrollView
+home_component
 "
 motion
 :
