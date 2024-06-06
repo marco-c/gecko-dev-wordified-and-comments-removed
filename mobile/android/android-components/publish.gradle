@@ -219,11 +219,13 @@ maven
 -
 publish
 '
-task
-sourcesJar
+tasks
+.
+register
 (
-type
-:
+'
+sourcesJar
+'
 Jar
 )
 {
