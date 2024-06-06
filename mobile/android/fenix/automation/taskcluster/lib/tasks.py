@@ -961,21 +961,24 @@ variant
 )
 :
         
-command
+test_gradle_command
 =
+\
+            
 '
-test
-{
-}
-UnitTest
+-
+Pcoverage
+jacocoGeckoNightlyDebugTestReport
+&
+&
+automation
+/
+taskcluster
+/
+upload_coverage_report
+.
+sh
 '
-.
-format
-(
-variant
-.
-name
-)
         
 return
 self
@@ -1019,7 +1022,7 @@ name
             
 gradle_task
 =
-command
+test_gradle_command
             
 treeherder
 =
