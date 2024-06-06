@@ -145,7 +145,7 @@ ui
 .
 SettingsSearchTest
 #
-toggleSearchSuggestionsTest
+verifyShowSearchSuggestionsToggleTest
 -
 class
 org
