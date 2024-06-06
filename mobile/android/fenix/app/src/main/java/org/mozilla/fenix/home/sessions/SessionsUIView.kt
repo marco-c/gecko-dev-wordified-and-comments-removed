@@ -236,7 +236,7 @@ SessionsState
 {
 sessionsAdapter
 .
-reloadDatat
+reloadData
 (
 it
 .
