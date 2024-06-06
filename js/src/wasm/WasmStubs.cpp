@@ -9039,6 +9039,11 @@ sizeof
 (
 FrameWithInstances
 )
+-
+jit
+:
+:
+ShadowStackSpace
 ;
 GenPrintf
 (
@@ -9704,6 +9709,11 @@ sizeof
 (
 FrameWithInstances
 )
+-
+jit
+:
+:
+ShadowStackSpace
 ;
 GenPrintf
 (
@@ -13637,6 +13647,11 @@ sizeof
 (
 FrameWithInstances
 )
+-
+jit
+:
+:
+ShadowStackSpace
 ;
 Register
 scratch

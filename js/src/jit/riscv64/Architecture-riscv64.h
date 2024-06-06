@@ -2562,7 +2562,7 @@ false
 ;
 }
 static
-const
+constexpr
 uint32_t
 ShadowStackSpace
 =

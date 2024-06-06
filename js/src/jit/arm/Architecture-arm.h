@@ -92,7 +92,7 @@ NUNBOX32_PAYLOAD_OFFSET
 0
 ;
 static
-const
+constexpr
 uint32_t
 ShadowStackSpace
 =
