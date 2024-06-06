@@ -1878,13 +1878,6 @@ setOnInflateListener
 stubListener
 )
 )
-view
-.
-toolbar_wrapper
-.
-clipToOutline
-=
-false
 fill_link_from_clipboard
 .
 setOnClickListener
