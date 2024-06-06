@@ -270,8 +270,11 @@ EmulatedNetworkStatsGatheringMode
 kDefault
 }
 true
-&
 task_queue_
+.
+Get
+(
+)
 &
 clock
 }
