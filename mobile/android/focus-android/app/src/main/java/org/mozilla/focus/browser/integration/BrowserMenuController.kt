@@ -446,11 +446,6 @@ reload
 (
 currentTabId
 )
-TelemetryWrapper
-.
-menuReloadEvent
-(
-)
 }
 is
 ToolbarMenu
@@ -704,7 +699,8 @@ Suppress
 LongMethod
 "
 )
-private
+VisibleForTesting
+internal
 fun
 recordBrowserMenuTelemetry
 (
@@ -774,6 +770,7 @@ Item
 Reload
 -
 >
+{
 BrowserMenu
 .
 navigationToolbarAction
@@ -789,6 +786,12 @@ reload
 "
 )
 )
+TelemetryWrapper
+.
+menuReloadEvent
+(
+)
+}
 is
 ToolbarMenu
 .
@@ -1098,6 +1101,7 @@ CustomTabItem
 Reload
 -
 >
+{
 CustomTabsToolbar
 .
 navigationToolbarAction
@@ -1113,6 +1117,12 @@ reload
 "
 )
 )
+TelemetryWrapper
+.
+menuReloadEvent
+(
+)
+}
 ToolbarMenu
 .
 CustomTabItem
