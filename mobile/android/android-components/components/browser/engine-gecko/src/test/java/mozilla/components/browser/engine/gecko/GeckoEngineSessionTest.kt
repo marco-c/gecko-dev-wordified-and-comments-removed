@@ -15922,9 +15922,9 @@ onTranslateException
 operation
 :
 TranslationOperation
-throwable
+translationError
 :
-Throwable
+TranslationError
 )
 {
 assert
@@ -16093,9 +16093,9 @@ onTranslateException
 operation
 :
 TranslationOperation
-throwable
+translationError
 :
-Throwable
+TranslationError
 )
 {
 assert
@@ -16277,9 +16277,9 @@ onTranslateException
 operation
 :
 TranslationOperation
-throwable
+translationError
 :
-Throwable
+TranslationError
 )
 {
 assert
@@ -16450,9 +16450,9 @@ onTranslateException
 operation
 :
 TranslationOperation
-throwable
+translationError
 :
-Throwable
+TranslationError
 )
 {
 assert
