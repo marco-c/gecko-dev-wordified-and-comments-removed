@@ -927,6 +927,11 @@ add
 )
 fragment
 .
+initCookieBanner
+(
+)
+fragment
+.
 showTrackingProtectionPanel
 (
 )
@@ -1019,6 +1024,11 @@ TrackingProtection
 toolbarShieldClicked
 .
 add
+(
+)
+fragment
+.
+initCookieBanner
 (
 )
 fragment

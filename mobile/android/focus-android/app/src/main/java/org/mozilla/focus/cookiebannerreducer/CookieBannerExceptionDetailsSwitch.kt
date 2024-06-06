@@ -63,7 +63,7 @@ mozilla
 .
 focus
 .
-cookiebannerexception
+cookiebannerreducer
 import
 android
 .
