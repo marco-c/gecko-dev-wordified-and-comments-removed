@@ -2669,7 +2669,7 @@ pgo
 :
 win64
 -
-shippable
+nightlyasrelease
 /
 opt
 attributes
