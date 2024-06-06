@@ -441,7 +441,8 @@ true
 }
 onCloseWindow
 :
-aXULWindow
+(
+)
 =
 >
 {

@@ -63,7 +63,6 @@ Toolbars
 {
 init
 (
-libDir
 )
 {
 }

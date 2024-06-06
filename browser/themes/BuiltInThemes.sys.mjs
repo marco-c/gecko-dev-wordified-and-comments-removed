@@ -1697,7 +1697,6 @@ find
 (
 [
 postfix
-l10nId
 ]
 )
 =

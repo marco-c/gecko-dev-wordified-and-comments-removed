@@ -1211,8 +1211,6 @@ function
 handlePCRequest
 (
 aSubject
-aTopic
-aData
 )
 {
 let
@@ -1310,8 +1308,6 @@ function
 handleGUMStop
 (
 aSubject
-aTopic
-aData
 )
 {
 let
@@ -1380,8 +1376,6 @@ function
 handleGUMRequest
 (
 aSubject
-aTopic
-aData
 )
 {
 /
@@ -2674,8 +2668,6 @@ function
 updateIndicators
 (
 aSubject
-aTopic
-aData
 )
 {
 if

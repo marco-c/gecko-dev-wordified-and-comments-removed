@@ -392,7 +392,6 @@ true
 }
 getDelegatePrincipal
 (
-aType
 )
 {
 return

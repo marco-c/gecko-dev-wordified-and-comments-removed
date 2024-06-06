@@ -84,7 +84,6 @@ AppMenu
 {
 init
 (
-libDir
 )
 {
 }

@@ -2615,7 +2615,8 @@ addEventListener
 click
 "
 async
-event
+(
+)
 =
 >
 {
@@ -2893,7 +2894,8 @@ addEventListener
 click
 "
 async
-event
+(
+)
 =
 >
 {
@@ -3220,7 +3222,8 @@ addEventListener
 click
 "
 async
-event
+(
+)
 =
 >
 {
@@ -3297,7 +3300,8 @@ addEventListener
 click
 "
 async
-event
+(
+)
 =
 >
 {
@@ -3424,7 +3428,8 @@ addEventListener
 "
 unload
 "
-event
+(
+)
 =
 >
 {
@@ -3634,7 +3639,8 @@ addEventListener
 DOMContentLoaded
 "
 async
-domEvent
+(
+)
 =
 >
 {

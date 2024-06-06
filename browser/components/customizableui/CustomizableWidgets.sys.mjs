@@ -1008,7 +1008,6 @@ this
 }
 onViewHiding
 (
-event
 )
 {
 lazy
@@ -1121,7 +1120,6 @@ this
 }
 onWindowUnload
 (
-event
 )
 {
 if

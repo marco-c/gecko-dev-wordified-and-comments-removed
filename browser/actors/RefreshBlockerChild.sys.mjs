@@ -485,7 +485,6 @@ onStateChange
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 if
@@ -561,9 +560,6 @@ parent
 onLocationChange
 (
 aWebProgress
-aRequest
-aLocation
-aFlags
 )
 {
 let
@@ -1231,7 +1227,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

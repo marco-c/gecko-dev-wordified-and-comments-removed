@@ -143,7 +143,6 @@ async
 function
 runBackgroundTask
 (
-commandLine
 )
 {
 console

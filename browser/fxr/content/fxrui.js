@@ -476,10 +476,6 @@ nsISupportsWeakReference
 )
 onLocationChange
 (
-aWebProgress
-aRequest
-aLocation
-aFlags
 )
 {
 urlInput
@@ -516,7 +512,6 @@ onStateChange
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 if
@@ -678,7 +673,6 @@ ePrefs
 function
 navButtonHandler
 (
-e
 )
 {
 if

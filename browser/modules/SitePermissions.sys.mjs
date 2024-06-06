@@ -4044,9 +4044,6 @@ preference
 /
 invalidatePermissionList
 (
-data
-previous
-latest
 )
 {
 /

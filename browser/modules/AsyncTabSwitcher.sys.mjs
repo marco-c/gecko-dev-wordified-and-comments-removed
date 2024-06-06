@@ -5895,7 +5895,6 @@ DOM
 .
 onTabRemovedImpl
 (
-tab
 )
 {
 this

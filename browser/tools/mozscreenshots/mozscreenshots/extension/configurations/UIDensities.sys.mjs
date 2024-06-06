@@ -63,7 +63,6 @@ UIDensities
 {
 init
 (
-libDir
 )
 {
 }

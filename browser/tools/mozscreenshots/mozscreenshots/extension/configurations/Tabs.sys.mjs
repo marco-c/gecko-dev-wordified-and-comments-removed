@@ -171,7 +171,6 @@ Tabs
 {
 init
 (
-libDir
 )
 {
 }
@@ -232,10 +231,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -476,10 +472,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -731,10 +724,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

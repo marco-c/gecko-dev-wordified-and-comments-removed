@@ -2910,7 +2910,6 @@ function
 openPreferences
 (
 cmdLine
-extraArgs
 )
 {
 openBrowserWindow

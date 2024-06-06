@@ -190,8 +190,6 @@ weight
 }
 isLoading
 (
-tab
-weight
 )
 {
 return

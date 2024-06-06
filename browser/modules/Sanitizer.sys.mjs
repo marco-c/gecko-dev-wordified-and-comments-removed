@@ -4981,8 +4981,6 @@ onWindowOpened
 function
 (
 subject
-topic
-data
 )
 {
 if
@@ -5239,7 +5237,6 @@ pluginData
 async
 clear
 (
-range
 )
 {
 }

@@ -797,7 +797,6 @@ function
 checkNoLoginsContentIsDisplayed
 (
 tab
-expectedLinkContent
 )
 {
 await

@@ -21,7 +21,8 @@ logo
 "
 }
 async
-browser
+(
+)
 =
 >
 {

@@ -2165,7 +2165,6 @@ handleEvent
 (
 {
 detail
-target
 type
 }
 )

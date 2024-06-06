@@ -1275,7 +1275,6 @@ PRODUCT_PAGE
 async
 function
 (
-browser
 )
 {
 let

@@ -4286,7 +4286,6 @@ toggleVisibilityInCardContainer
 }
 sendTabTelemetry
 (
-numTabs
 )
 {
 /

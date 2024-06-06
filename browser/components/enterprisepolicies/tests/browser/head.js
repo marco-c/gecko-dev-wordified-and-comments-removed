@@ -1127,7 +1127,6 @@ page
 async
 function
 (
-innerPage
 )
 {
 ok

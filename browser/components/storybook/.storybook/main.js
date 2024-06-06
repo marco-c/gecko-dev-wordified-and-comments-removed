@@ -341,12 +341,7 @@ customIndexer
 webpackFinal
 :
 async
-(
 config
-{
-configType
-}
-)
 =
 >
 {

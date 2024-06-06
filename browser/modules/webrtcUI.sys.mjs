@@ -704,7 +704,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -7039,7 +7038,6 @@ menuitem
 function
 onTabSharingMenuPopupHiding
 (
-e
 )
 {
 while

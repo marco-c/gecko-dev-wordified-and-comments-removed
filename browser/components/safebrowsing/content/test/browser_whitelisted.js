@@ -80,7 +80,6 @@ removeCurrentTab
 function
 testBlockedPage
 (
-window
 )
 {
 info

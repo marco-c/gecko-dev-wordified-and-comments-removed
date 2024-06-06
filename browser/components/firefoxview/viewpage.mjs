@@ -919,7 +919,6 @@ arm
 }
 onVisibilityChange
 (
-event
 )
 {
 if

@@ -6484,7 +6484,6 @@ loadedTabCount
 }
 _onTabPinned
 (
-target
 )
 {
 const

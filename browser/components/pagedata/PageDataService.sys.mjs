@@ -3292,7 +3292,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

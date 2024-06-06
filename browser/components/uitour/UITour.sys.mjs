@@ -2087,7 +2087,8 @@ buttonData
 label
 callback
 :
-event
+(
+)
 =
 >
 {
@@ -3930,7 +3931,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 lazy
@@ -5336,9 +5336,6 @@ getTarget
 (
 aWindow
 aTargetName
-aSticky
-=
-false
 )
 {
 lazy
@@ -7858,7 +7855,8 @@ UITourTooltipClose
 let
 closeButtonCallback
 =
-event
+(
+)
 =
 >
 {
@@ -7962,7 +7960,6 @@ popuphiding
 "
 function
 (
-event
 )
 {
 tooltipClose

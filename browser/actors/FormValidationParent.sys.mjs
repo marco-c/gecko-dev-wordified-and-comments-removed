@@ -128,7 +128,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 let

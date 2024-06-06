@@ -375,7 +375,6 @@ async
 function
 doInit
 (
-aMode
 )
 {
 await

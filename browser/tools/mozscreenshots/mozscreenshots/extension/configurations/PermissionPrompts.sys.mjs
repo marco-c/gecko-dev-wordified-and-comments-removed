@@ -146,7 +146,6 @@ PermissionPrompts
 {
 init
 (
-libDir
 )
 {
 Services

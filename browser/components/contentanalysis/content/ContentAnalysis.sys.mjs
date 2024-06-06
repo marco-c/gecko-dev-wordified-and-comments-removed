@@ -1468,7 +1468,6 @@ observe
 (
 aSubj
 aTopic
-aData
 )
 {
 switch

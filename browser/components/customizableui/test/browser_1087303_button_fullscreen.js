@@ -234,7 +234,6 @@ ms
 function
 onFullscreenChange
 (
-event
 )
 {
 clearTimeout

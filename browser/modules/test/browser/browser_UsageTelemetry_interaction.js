@@ -1418,7 +1418,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {
@@ -1573,7 +1574,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {
@@ -2927,7 +2929,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {
@@ -3116,7 +3119,8 @@ about
 preferences
 "
 async
-browser
+(
+)
 =
 >
 {
@@ -3410,7 +3414,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {
@@ -3633,7 +3638,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {
@@ -3875,7 +3881,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {
@@ -4123,7 +4130,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {

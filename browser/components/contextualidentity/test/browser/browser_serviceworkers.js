@@ -473,7 +473,6 @@ resolve
 }
 unregisterFailed
 (
-aState
 )
 {
 ok

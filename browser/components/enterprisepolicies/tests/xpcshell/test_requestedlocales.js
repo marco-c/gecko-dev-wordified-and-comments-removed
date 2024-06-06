@@ -64,7 +64,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -128,7 +127,6 @@ REQ_LOC_CHANGE_EVENT
 function
 promiseLocaleNotChanged
 (
-requestedLocale
 )
 {
 return
@@ -147,7 +145,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch

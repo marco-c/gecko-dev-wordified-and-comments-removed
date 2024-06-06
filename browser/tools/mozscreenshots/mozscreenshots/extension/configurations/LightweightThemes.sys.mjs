@@ -84,7 +84,6 @@ LightweightThemes
 {
 init
 (
-libDir
 )
 {
 }

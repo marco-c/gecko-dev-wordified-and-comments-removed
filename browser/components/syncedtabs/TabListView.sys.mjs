@@ -769,7 +769,6 @@ filtered
 _renderFilteredClient
 (
 client
-filter
 )
 {
 client

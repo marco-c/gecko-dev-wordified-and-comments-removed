@@ -849,7 +849,8 @@ windowList
 .
 filter
 (
-win
+(
+)
 =
 >
 this
@@ -2295,8 +2296,6 @@ domwindowclosed
 observe
 (
 subject
-topic
-data
 )
 {
 let

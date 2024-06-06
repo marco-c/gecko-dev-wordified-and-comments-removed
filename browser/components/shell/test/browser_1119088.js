@@ -433,7 +433,8 @@ logo
 "
 }
 async
-browser
+(
+)
 =
 >
 {

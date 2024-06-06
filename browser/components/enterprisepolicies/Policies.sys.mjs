@@ -748,7 +748,6 @@ _cleanup
 {
 onBeforeAddons
 (
-manager
 )
 {
 if
@@ -780,7 +779,6 @@ clearBlockedAboutPages
 }
 onProfileAfterChange
 (
-manager
 )
 {
 if
@@ -808,7 +806,6 @@ onProfileAfterChange
 }
 onBeforeUIStartup
 (
-manager
 )
 {
 if
@@ -836,7 +833,6 @@ onBeforeUIStartup
 }
 onAllWindowsRestored
 (
-manager
 )
 {
 if
@@ -903,8 +899,6 @@ addObserver
 function
 (
 subject
-topic
-data
 )
 {
 let
@@ -14955,9 +14949,6 @@ blockAboutPage
 (
 manager
 feature
-neededOnContentProcess
-=
-false
 )
 {
 addChromeURLBlocker
@@ -15175,8 +15166,6 @@ ACCEPT
 }
 shouldProcess
 (
-contentLocation
-loadInfo
 )
 {
 return

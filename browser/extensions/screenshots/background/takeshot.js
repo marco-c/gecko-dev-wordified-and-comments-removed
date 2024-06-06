@@ -57,7 +57,8 @@ register
 "
 getZoomFactor
 "
-sender
+(
+)
 =
 >
 {
@@ -262,10 +263,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

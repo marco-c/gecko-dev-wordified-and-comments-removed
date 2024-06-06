@@ -2804,8 +2804,6 @@ wantsIframe
 true
 onCommand
 (
-event
-buttonNode
 )
 {
 onCommandCallCount
@@ -5876,7 +5874,6 @@ _transient
 true
 onPlacedInPanel
 (
-buttonNode
 )
 {
 onPlacedInPanelCount
@@ -5886,7 +5883,6 @@ onPlacedInPanelCount
 }
 onBeforePlacedInWindow
 (
-win
 )
 {
 onBeforePlacedInWindowCount

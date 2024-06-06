@@ -1006,9 +1006,6 @@ updateTimeMs
 "
 NOW_THRESHOLD_MS
 (
-prefName
-oldVal
-newVal
 )
 =
 >

@@ -642,7 +642,8 @@ originalEvent
 let
 primaryAction
 =
-e
+(
+)
 =
 >
 {

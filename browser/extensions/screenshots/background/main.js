@@ -299,10 +299,7 @@ shortcut
 const
 _startShotFlow
 =
-(
 tab
-inputType
-)
 =
 >
 {
@@ -717,7 +714,6 @@ async
 (
 sender
 {
-url
 copied
 }
 )

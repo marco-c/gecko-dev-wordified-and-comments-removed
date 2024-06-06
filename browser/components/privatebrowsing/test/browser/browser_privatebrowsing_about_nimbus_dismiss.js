@@ -227,7 +227,6 @@ LOCALE
 async
 function
 (
-locale
 )
 {
 content

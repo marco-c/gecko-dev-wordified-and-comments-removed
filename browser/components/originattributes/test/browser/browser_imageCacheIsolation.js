@@ -502,7 +502,6 @@ clear
 function
 doTest
 (
-aBrowser
 )
 {
 return
@@ -513,8 +512,6 @@ function
 doCheck
 (
 shouldIsolate
-a
-b
 )
 {
 info

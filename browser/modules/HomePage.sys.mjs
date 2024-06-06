@@ -1916,7 +1916,6 @@ saved_reset
 onWidgetRemoved
 (
 widgetId
-area
 )
 {
 if

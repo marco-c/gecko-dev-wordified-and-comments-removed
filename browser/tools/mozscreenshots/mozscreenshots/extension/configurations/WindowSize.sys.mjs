@@ -105,7 +105,6 @@ WindowSize
 {
 init
 (
-libDir
 )
 {
 Services
@@ -206,10 +205,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -288,10 +284,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -359,10 +352,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

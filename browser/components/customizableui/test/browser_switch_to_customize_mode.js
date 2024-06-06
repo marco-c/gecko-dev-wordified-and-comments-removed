@@ -103,7 +103,8 @@ startedCount
 let
 handler
 =
-e
+(
+)
 =
 >
 startedCount

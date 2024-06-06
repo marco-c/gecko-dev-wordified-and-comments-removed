@@ -749,7 +749,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch
@@ -926,7 +925,8 @@ subject
 let
 listener
 =
-ev
+(
+)
 =
 >
 {

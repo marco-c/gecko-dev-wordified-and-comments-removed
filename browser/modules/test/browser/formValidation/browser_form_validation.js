@@ -836,10 +836,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1412,10 +1409,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -2268,10 +2262,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

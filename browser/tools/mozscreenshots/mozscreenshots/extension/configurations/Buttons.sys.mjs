@@ -83,7 +83,6 @@ Buttons
 {
 init
 (
-libDir
 )
 {
 createWidget

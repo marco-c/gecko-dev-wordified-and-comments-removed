@@ -90,7 +90,6 @@ TEST_URL
 async
 function
 (
-browser
 )
 {
 await

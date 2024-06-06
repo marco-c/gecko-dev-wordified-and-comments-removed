@@ -63,7 +63,6 @@ withNewTab
 options
 function
 (
-browser
 )
 {
 is
@@ -333,7 +332,6 @@ options
 async
 function
 (
-browser
 )
 {
 is
@@ -772,7 +770,6 @@ options
 async
 function
 (
-browser
 )
 {
 let
@@ -1073,7 +1070,6 @@ blank
 async
 function
 (
-browser
 )
 {
 let
@@ -1630,7 +1626,6 @@ blank
 "
 function
 (
-browser
 )
 {
 is
@@ -2377,7 +2372,6 @@ blank
 async
 function
 (
-browser
 )
 {
 is

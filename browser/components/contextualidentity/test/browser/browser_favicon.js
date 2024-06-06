@@ -112,7 +112,6 @@ TYPE_INTERNAL_IMAGE_FAVICON
 function
 (
 inputStream
-status
 )
 {
 let

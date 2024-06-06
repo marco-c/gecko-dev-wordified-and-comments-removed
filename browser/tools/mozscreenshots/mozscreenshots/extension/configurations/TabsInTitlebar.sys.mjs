@@ -74,7 +74,6 @@ TabsInTitlebar
 {
 init
 (
-libDir
 )
 {
 }

@@ -84,7 +84,6 @@ CustomizeMode
 {
 init
 (
-libDir
 )
 {
 }

@@ -450,7 +450,6 @@ value
 }
 handleCompletion
 (
-reason
 )
 {
 resolve
@@ -485,7 +484,6 @@ function
 fullZoomLocationChangeObserver
 (
 aSubject
-aTopic
 )
 {
 /

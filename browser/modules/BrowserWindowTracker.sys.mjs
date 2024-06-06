@@ -1433,11 +1433,7 @@ discarded
 const
 observer
 =
-(
 aSubject
-aTopic
-aData
-)
 =
 >
 {

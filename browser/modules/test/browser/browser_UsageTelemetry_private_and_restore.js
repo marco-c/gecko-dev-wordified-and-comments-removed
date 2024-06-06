@@ -146,8 +146,6 @@ addObserver
 function
 observer
 (
-aSubject
-aTopic
 )
 {
 Services

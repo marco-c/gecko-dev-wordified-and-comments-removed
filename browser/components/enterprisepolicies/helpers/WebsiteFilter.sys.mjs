@@ -917,8 +917,6 @@ ACCEPT
 }
 shouldProcess
 (
-contentLocation
-loadInfo
 )
 {
 return
@@ -932,8 +930,6 @@ ACCEPT
 observe
 (
 subject
-topic
-data
 )
 {
 try

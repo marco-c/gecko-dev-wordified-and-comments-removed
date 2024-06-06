@@ -398,7 +398,6 @@ ControlCenter
 {
 init
 (
-libDir
 )
 {
 }

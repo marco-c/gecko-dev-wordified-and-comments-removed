@@ -3661,7 +3661,6 @@ browser
 webProgress
 request
 uri
-flags
 )
 {
 if

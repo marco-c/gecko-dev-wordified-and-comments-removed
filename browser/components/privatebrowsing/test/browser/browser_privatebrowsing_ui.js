@@ -246,8 +246,6 @@ function
 observer
 (
 aSubject
-aTopic
-aData
 )
 {
 aSubject

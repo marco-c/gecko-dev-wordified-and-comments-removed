@@ -1538,7 +1538,6 @@ observer
 (
 subject
 topic
-data
 )
 =
 >

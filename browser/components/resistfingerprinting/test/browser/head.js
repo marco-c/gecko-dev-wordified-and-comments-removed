@@ -1461,8 +1461,6 @@ aTargetWidth
 aTargetHeight
 aMaxAvailWidth
 aMaxAvailHeight
-aPopupChromeUIWidth
-aPopupChromeUIHeight
 )
 {
 if
@@ -2692,7 +2690,6 @@ filter
 (
 [
 k
-v
 ]
 )
 =

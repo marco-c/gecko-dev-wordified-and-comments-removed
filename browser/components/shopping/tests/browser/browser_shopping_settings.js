@@ -41,7 +41,8 @@ browser
 MOCK_ANALYZED_PRODUCT_RESPONSE
 ]
 async
-mockData
+(
+)
 =
 >
 {
@@ -263,7 +264,8 @@ browser
 MOCK_ANALYZED_PRODUCT_RESPONSE
 ]
 async
-mockData
+(
+)
 =
 >
 {
@@ -1827,7 +1829,8 @@ browser
 MOCK_ANALYZED_PRODUCT_RESPONSE
 ]
 async
-mockData
+(
+)
 =
 >
 {
@@ -2188,7 +2191,8 @@ browser
 MOCK_ANALYZED_PRODUCT_RESPONSE
 ]
 async
-mockData
+(
+)
 =
 >
 {

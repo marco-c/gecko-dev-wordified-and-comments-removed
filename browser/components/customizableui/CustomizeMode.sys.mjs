@@ -574,7 +574,6 @@ aBrowser
 aWebProgress
 aRequest
 aLocation
-aFlags
 )
 {
 /
@@ -4182,7 +4181,6 @@ async
 addToToolbar
 (
 aNode
-aReason
 )
 {
 aNode
@@ -8133,10 +8131,6 @@ _onUIChange
 }
 onWidgetMoved
 (
-aWidgetId
-aArea
-aOldPosition
-aNewPosition
 )
 {
 this
@@ -8148,9 +8142,6 @@ _onUIChange
 }
 onWidgetAdded
 (
-aWidgetId
-aArea
-aPosition
 )
 {
 this
@@ -8162,8 +8153,6 @@ _onUIChange
 }
 onWidgetRemoved
 (
-aWidgetId
-aArea
 )
 {
 this
@@ -10264,7 +10253,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -14425,7 +14413,6 @@ _setGridDragActive
 (
 aDragOverNode
 aDraggedItem
-aValue
 )
 {
 let
@@ -15064,7 +15051,6 @@ _getDragOverNode
 aEvent
 aAreaElement
 aAreaType
-aDraggedItemId
 )
 {
 let

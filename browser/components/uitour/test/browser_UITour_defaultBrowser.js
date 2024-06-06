@@ -65,8 +65,6 @@ nsIShellService
 )
 isDefaultBrowser
 (
-aStartupCheck
-aForAllTypes
 )
 {
 return
@@ -75,7 +73,6 @@ false
 }
 setDefaultBrowser
 (
-aForAllUsers
 )
 {
 setDefaultBrowserCalled
@@ -109,8 +106,6 @@ BACKGROUND_SPAN
 6
 setDesktopBackground
 (
-aElement
-aPosition
 )
 {
 }

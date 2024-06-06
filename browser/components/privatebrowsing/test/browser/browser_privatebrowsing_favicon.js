@@ -217,7 +217,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -340,7 +339,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -583,7 +581,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

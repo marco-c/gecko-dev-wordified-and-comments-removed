@@ -746,7 +746,8 @@ withFirefoxView
 {
 }
 async
-browser
+(
+)
 =
 >
 {
@@ -1709,7 +1710,8 @@ withFirefoxView
 {
 }
 async
-browser
+(
+)
 =
 >
 {

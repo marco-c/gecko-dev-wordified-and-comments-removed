@@ -102,9 +102,6 @@ observerExited
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 ok

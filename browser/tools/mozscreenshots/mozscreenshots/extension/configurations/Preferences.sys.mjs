@@ -102,7 +102,6 @@ Preferences
 {
 init
 (
-libDir
 )
 {
 let

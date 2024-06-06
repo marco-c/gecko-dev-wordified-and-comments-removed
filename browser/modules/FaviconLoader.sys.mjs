@@ -1108,7 +1108,6 @@ NS_BINDING_ABORTED
 }
 onStartRequest
 (
-request
 )
 {
 }
@@ -3141,6 +3140,11 @@ canStoreIcon
 iconInfo
 .
 beforePageShow
+beforePageShow
+:
+iconInfo
+.
+beforePageShow
 }
 )
 ;
@@ -3254,6 +3258,11 @@ iconURL
 :
 dataURL
 canStoreIcon
+beforePageShow
+:
+iconInfo
+.
+beforePageShow
 }
 )
 ;

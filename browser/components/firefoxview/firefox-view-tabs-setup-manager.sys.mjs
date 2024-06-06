@@ -3757,7 +3757,6 @@ toString
 }
 syncOpenTabs
 (
-containerElem
 )
 {
 /

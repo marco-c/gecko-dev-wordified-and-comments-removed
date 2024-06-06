@@ -294,7 +294,8 @@ addEventListener
 "
 DOMContentLoaded
 "
-e
+(
+)
 =
 >
 {

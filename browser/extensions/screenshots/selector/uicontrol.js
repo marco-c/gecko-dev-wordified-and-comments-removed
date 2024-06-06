@@ -1977,7 +1977,6 @@ rect
 evenBetterElement
 (
 node
-origRect
 )
 {
 let
@@ -2424,7 +2423,6 @@ dragging
 }
 mouseup
 (
-event
 )
 {
 if

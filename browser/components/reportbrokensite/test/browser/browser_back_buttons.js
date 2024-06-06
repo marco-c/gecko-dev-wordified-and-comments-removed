@@ -28,7 +28,6 @@ REPORTABLE_PAGE_URL
 async
 function
 (
-browser
 )
 {
 let

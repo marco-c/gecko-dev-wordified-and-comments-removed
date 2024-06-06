@@ -101,7 +101,6 @@ REPORTABLE_PAGE_URL
 async
 function
 (
-browser
 )
 {
 ensureReasonDisabled
@@ -492,7 +491,6 @@ REPORTABLE_PAGE_URL
 async
 function
 (
-browser
 )
 {
 Services

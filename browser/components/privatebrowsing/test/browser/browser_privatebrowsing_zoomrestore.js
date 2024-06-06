@@ -42,7 +42,6 @@ onLocationChange
 (
 subj
 topic
-data
 )
 {
 Services
@@ -222,7 +221,6 @@ function
 testOnWindow
 (
 options
-callback
 )
 {
 return

@@ -898,7 +898,6 @@ decodeCallback
 onImageReady
 (
 image
-status
 )
 {
 if
@@ -3738,7 +3737,6 @@ progress
 listener
 onLocationChange
 (
-aBrowser
 )
 {
 /
@@ -3781,7 +3779,6 @@ aBrowser
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 if

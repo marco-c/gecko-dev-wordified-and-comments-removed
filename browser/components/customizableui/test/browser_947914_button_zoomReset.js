@@ -67,7 +67,6 @@ true
 async
 function
 (
-browser
 )
 {
 CustomizableUI

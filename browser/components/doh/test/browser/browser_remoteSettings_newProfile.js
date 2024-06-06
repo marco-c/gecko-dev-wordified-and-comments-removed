@@ -47,7 +47,6 @@ function
 clearPrefAndWaitForConfigFlush
 (
 pref
-value
 )
 {
 let

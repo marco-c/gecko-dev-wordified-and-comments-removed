@@ -9445,7 +9445,6 @@ _clearPreviousUIState
 }
 onCustomizeEnd
 (
-aWindow
 )
 {
 this
@@ -41573,7 +41572,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 /

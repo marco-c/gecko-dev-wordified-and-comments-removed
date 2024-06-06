@@ -3147,7 +3147,6 @@ message
 }
 handleCompletion
 (
-aReason
 )
 {
 aCallback
@@ -4656,7 +4655,6 @@ notify
 function
 WTBJL_notify
 (
-aTimer
 )
 {
 /
@@ -4710,7 +4708,6 @@ WTBJL_observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch

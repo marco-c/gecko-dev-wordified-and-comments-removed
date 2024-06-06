@@ -3200,7 +3200,8 @@ promptAction
 accessKey
 callback
 :
-state
+(
+)
 =
 >
 {
@@ -4383,7 +4384,6 @@ message
 /
 getInstallErrorMessage
 (
-err
 )
 {
 return
@@ -7603,7 +7603,6 @@ nsIPermissionManager
 ALLOW_ACTION
 callback
 (
-state
 )
 {
 self
@@ -7667,7 +7666,6 @@ nsIPermissionManager
 DENY_ACTION
 callback
 (
-state
 )
 {
 self

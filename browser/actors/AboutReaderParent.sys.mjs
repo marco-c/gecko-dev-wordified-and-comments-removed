@@ -1704,7 +1704,6 @@ async
 _getArticle
 (
 url
-browser
 )
 {
 return

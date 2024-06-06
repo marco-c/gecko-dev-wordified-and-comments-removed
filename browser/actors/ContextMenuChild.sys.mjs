@@ -1957,7 +1957,6 @@ null
 }
 _isLinkSaveable
 (
-aLink
 )
 {
 return
@@ -3283,7 +3282,6 @@ data
 }
 _cleanContext
 (
-aEvent
 )
 {
 const

@@ -174,8 +174,6 @@ entryCount
 0
 onCacheStorageInfo
 (
-aEntryCount
-aConsumption
 )
 {
 }

@@ -637,9 +637,6 @@ let
 screencapture
 =
 (
-windowID
-=
-null
 )
 =
 >
@@ -1159,7 +1156,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch

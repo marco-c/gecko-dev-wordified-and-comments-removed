@@ -1129,9 +1129,6 @@ addObserver
 function
 obs
 (
-sub
-top
-data
 )
 {
 Services

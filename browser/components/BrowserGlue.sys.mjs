@@ -14463,7 +14463,8 @@ on
 sync
 "
 async
-event
+(
+)
 =
 >
 {
@@ -14958,7 +14959,6 @@ _lateTasksIdleObserver
 (
 idleService
 topic
-data
 )
 =
 >
@@ -22450,7 +22450,6 @@ clickCallback
 (
 subject
 topic
-data
 )
 =
 >
@@ -29311,7 +29310,6 @@ clickCallback
 (
 obsSubject
 obsTopic
-obsData
 )
 =
 >
@@ -29549,7 +29547,6 @@ clickCallback
 (
 subject
 topic
-data
 )
 =
 >
@@ -29693,7 +29690,6 @@ async
 (
 subject
 topic
-data
 )
 =
 >
@@ -29857,7 +29853,6 @@ clickCallback
 (
 subject
 topic
-data
 )
 =
 >
@@ -30199,7 +30194,6 @@ observe
 (
 subject
 topic
-data
 )
 =
 >
@@ -40254,7 +40248,6 @@ nsICacheEntryOpenCallback
 /
 onCacheEntryCheck
 (
-aEntry
 )
 {
 return
@@ -40268,8 +40261,6 @@ ENTRY_WANTED
 onCacheEntryAvailable
 (
 aEntry
-aNew
-aResult
 )
 {
 this

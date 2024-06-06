@@ -695,7 +695,6 @@ message
 "
 function
 (
-event
 )
 {
 session

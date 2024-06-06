@@ -102,7 +102,8 @@ about
 logo
 "
 }
-browser
+(
+)
 =
 >
 {
