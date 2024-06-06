@@ -143,16 +143,6 @@ push
 .
 PushApiException
 .
-RecordNotFoundException
-import
-mozilla
-.
-appservices
-.
-push
-.
-PushApiException
-.
 UaidNotRecognizedException
 import
 mozilla
@@ -2086,8 +2076,6 @@ when
 e
 )
 {
-is
-RecordNotFoundException
 is
 UaidNotRecognizedException
 -
