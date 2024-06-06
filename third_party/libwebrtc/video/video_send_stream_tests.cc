@@ -704,7 +704,7 @@ include
 "
 video
 /
-video_send_stream
+video_send_stream_impl
 .
 h
 "
@@ -737,7 +737,7 @@ static_cast
 internal
 :
 :
-VideoSendStream
+VideoSendStreamImpl
 *
 >
 (
@@ -772,7 +772,7 @@ private
 internal
 :
 :
-VideoSendStream
+VideoSendStreamImpl
 const
 *
 const
