@@ -148,6 +148,14 @@ string
 .
 pref_key_delete_permissions_on_quit
 )
+DOWNLOADS
+(
+R
+.
+string
+.
+pref_key_delete_downloads_on_quit
+)
 ;
 fun
 getPreferenceKey
