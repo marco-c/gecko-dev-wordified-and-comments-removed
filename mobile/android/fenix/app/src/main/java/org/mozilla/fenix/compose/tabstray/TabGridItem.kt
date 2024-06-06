@@ -1042,12 +1042,8 @@ onCloseClick
 (
 tab
 )
-true
 }
-else
-{
 false
-}
 }
 )
 /
