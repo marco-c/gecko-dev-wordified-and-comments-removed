@@ -694,15 +694,6 @@ adapter
 =
 AddonsManagerAdapter
 (
-addonsProvider
-=
-requireContext
-(
-)
-.
-components
-.
-addonsProvider
 addonsManagerDelegate
 =
 managementView

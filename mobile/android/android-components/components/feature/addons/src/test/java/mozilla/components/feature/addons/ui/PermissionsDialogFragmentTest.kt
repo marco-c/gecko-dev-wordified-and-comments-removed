@@ -151,7 +151,7 @@ addons
 .
 ui
 .
-PermissionsDialogFragment
+AddonDialogFragment
 .
 PromptsStyling
 import
