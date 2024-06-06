@@ -1742,6 +1742,8 @@ dp
 )
 PocketStoriesCategories
 (
+categories
+=
 "
 Lorem
 ipsum
@@ -1770,9 +1772,13 @@ PocketRecommendedStoriesCategory
 it
 )
 }
+selections
+=
 emptyList
 (
 )
+onCategoryClick
+=
 {
 }
 )
@@ -1823,7 +1829,7 @@ count
 =
 8
 }
-private
+internal
 fun
 getFakePocketStories
 (
