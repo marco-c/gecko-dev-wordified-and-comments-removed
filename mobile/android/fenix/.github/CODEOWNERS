@@ -281,8 +281,7 @@ CODEOWNERS
 By
 default
 the
-Android
-Components
+fenix
 team
 will
 be
@@ -303,11 +302,6 @@ takes
 precedence
 .
 *
-mozilla
--
-mobile
-/
-ACT
 mozilla
 -
 mobile
