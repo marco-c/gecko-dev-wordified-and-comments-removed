@@ -437,6 +437,14 @@ Added
 telemetry
 for
 bookmarks
+-
+#
+113
+-
+Added
+QR
+code
+scanner
 #
 #
 #

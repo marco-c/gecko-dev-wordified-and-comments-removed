@@ -2644,6 +2644,10 @@ mozilla_feature_prompts
 implementation
 Deps
 .
+mozilla_feature_qr
+implementation
+Deps
+.
 mozilla_feature_session
 implementation
 Deps
