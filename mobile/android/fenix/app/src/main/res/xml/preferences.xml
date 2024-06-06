@@ -597,6 +597,13 @@ string
 /
 preferences_credit_cards
 "
+app
+:
+isPreferenceVisible
+=
+"
+false
+"
 /
 >
 <
