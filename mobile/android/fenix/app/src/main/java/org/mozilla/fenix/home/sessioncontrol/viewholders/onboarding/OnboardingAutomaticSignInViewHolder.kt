@@ -313,7 +313,7 @@ R
 .
 string
 .
-onboarding_firefox_account_auto_signin_header_2
+onboarding_firefox_account_auto_signin_header_3
 account
 .
 email

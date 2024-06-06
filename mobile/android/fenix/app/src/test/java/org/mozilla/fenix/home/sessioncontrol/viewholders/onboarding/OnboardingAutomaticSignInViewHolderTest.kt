@@ -439,7 +439,7 @@ Firefox
 browser
 on
 this
-phone
+device
 .
 Would
 you
