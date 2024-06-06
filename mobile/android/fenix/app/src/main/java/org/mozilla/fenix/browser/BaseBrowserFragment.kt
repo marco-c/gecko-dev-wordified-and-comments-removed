@@ -2935,6 +2935,13 @@ browserLayout
 downloadState
 =
 downloadState
+metrics
+=
+requireComponents
+.
+analytics
+.
+metrics
 didFail
 =
 downloadJobStatus
@@ -4226,6 +4233,13 @@ downloadState
 savedDownloadState
 .
 first
+metrics
+=
+requireComponents
+.
+analytics
+.
+metrics
 didFail
 =
 savedDownloadState
