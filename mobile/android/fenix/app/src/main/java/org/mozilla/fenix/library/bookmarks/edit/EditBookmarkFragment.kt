@@ -732,6 +732,13 @@ string
 .
 edit_bookmark_folder_fragment_title
 )
+inputLayoutBookmarkUrl
+.
+visibility
+=
+View
+.
+GONE
 bookmarkUrlEdit
 .
 visibility

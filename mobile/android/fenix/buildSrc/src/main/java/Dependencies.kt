@@ -229,8 +229,6 @@ androidx_appcompat
 2
 .
 0
--
-rc01
 "
 const
 val
@@ -255,8 +253,6 @@ androidx_coordinator_layout
 1
 .
 0
--
-rc01
 "
 const
 val
@@ -267,7 +263,7 @@ androidx_constraint_layout
 .
 0
 .
-0
+4
 "
 const
 val
@@ -278,7 +274,7 @@ androidx_preference
 .
 1
 .
-0
+1
 "
 const
 val
@@ -333,7 +329,7 @@ androidx_navigation
 .
 3
 .
-0
+1
 "
 const
 val
@@ -399,9 +395,9 @@ google_material
 "
 1
 .
-1
+2
 .
-0
+1
 "
 const
 val

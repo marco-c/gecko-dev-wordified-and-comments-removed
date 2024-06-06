@@ -381,6 +381,11 @@ bookmarkUrlEdit
 visibility
 =
 GONE
+inputLayoutBookmarkUrl
+.
+visibility
+=
+GONE
 bookmarkNameEdit
 .
 showKeyboard

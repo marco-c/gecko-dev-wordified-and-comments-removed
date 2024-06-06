@@ -103,13 +103,13 @@ FrameLayout
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
 res
 .
-ResourcesCompat
+AppCompatResources
 import
 androidx
 .
@@ -316,11 +316,11 @@ fakeToolbar
 .
 background
 =
-ResourcesCompat
+AppCompatResources
 .
 getDrawable
 (
-resources
+context
 ThemeManager
 .
 resolveAttribute
@@ -332,7 +332,6 @@ attr
 bottomBarBackgroundTop
 context
 )
-null
 )
 }
 /
