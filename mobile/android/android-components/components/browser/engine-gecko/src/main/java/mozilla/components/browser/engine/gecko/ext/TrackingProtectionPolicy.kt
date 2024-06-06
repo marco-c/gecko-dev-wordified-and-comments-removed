@@ -204,6 +204,11 @@ EngineSession
 CookieBannerHandlingMode
 .
 REJECT_ALL
+cookieBannerHandlingDetectOnlyMode
+:
+Boolean
+=
+false
 )
 =
 ContentBlocking
@@ -272,6 +277,10 @@ cookieBannerHandlingModePrivateBrowsing
 cookieBannerHandlingModePrivateBrowsing
 .
 mode
+)
+cookieBannerHandlingDetectOnlyMode
+(
+cookieBannerHandlingDetectOnlyMode
 )
 }
 .

@@ -969,6 +969,9 @@ EngineSession
 CookieBannerHandlingMode
 .
 REJECT_ALL
+cookieBannerHandlingDetectOnlyMode
+=
+true
 )
 assertFalse
 (
@@ -1157,12 +1160,6 @@ defaultSettings
 .
 forceUserScalableContent
 )
-assertTrue
-(
-defaultSettings
-.
-loginAutofillEnabled
-)
 assertEquals
 (
 Color
@@ -1199,6 +1196,12 @@ REJECT_ALL
 defaultSettings
 .
 cookieBannerHandlingModePrivateBrowsing
+)
+assertTrue
+(
+defaultSettings
+.
+cookieBannerHandlingDetectOnlyMode
 )
 }
 }
