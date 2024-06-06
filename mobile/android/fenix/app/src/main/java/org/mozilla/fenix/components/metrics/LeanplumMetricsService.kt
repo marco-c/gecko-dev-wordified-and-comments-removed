@@ -312,6 +312,15 @@ E_Collection_Tab_Opened
 is
 Event
 .
+SyncAuthSignUp
+-
+>
+"
+E_FxA_New_Signup
+"
+is
+Event
+.
 SyncAuthSignIn
 -
 >
