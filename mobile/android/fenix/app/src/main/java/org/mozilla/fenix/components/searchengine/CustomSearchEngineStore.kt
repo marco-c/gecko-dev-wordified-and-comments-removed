@@ -79,6 +79,12 @@ content
 .
 SharedPreferences
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 mozilla
 .
 components
@@ -894,7 +900,7 @@ PREF_KEY_CUSTOM_SEARCH_ENGINES
 "
 pref_custom_search_engines
 "
-private
+VisibleForTesting
 const
 val
 PREF_FILE_SEARCH_ENGINES
