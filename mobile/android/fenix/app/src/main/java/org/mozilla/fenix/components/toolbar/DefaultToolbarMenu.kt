@@ -1156,7 +1156,7 @@ R
 .
 drawable
 .
-ic_share
+mozac_ic_share
 contentDescription
 =
 context
