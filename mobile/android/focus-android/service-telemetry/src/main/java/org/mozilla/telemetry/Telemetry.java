@@ -258,6 +258,12 @@ functions
 .
 Function0
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 class
 Telemetry

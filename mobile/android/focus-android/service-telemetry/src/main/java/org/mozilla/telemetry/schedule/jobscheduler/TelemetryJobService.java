@@ -146,6 +146,12 @@ logger
 .
 Logger
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 class
 TelemetryJobService

@@ -5,6 +5,12 @@ mozilla
 .
 telemetry
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 class
 TelemetryHolder
