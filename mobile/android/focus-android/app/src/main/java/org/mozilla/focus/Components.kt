@@ -976,6 +976,13 @@ settings
 getHttpsOnlyMode
 (
 )
+preferredColorScheme
+=
+settings
+.
+getPreferredColorScheme
+(
+)
 )
 }
 val
