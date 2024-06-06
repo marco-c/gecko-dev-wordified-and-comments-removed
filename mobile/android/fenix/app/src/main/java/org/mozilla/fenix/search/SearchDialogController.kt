@@ -1061,6 +1061,11 @@ mode
 isPrivate
 &
 &
+settings
+.
+shouldShowSearchSuggestions
+&
+&
 !
 settings
 .
