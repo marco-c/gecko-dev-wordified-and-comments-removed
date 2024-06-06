@@ -152,7 +152,7 @@ android
 maxSdkVersion
 =
 "
-28
+30
 "
 tools
 :
@@ -160,6 +160,15 @@ ignore
 =
 "
 ScopedStorage
+"
+tools
+:
+replace
+=
+"
+android
+:
+maxSdkVersion
 "
 /
 >
