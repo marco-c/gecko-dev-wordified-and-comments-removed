@@ -259,6 +259,12 @@ dismiss
 }
 }
 }
+Suppress
+(
+"
+ComplexCondition
+"
+)
 override
 fun
 onLoadingStateChanged
@@ -281,6 +287,12 @@ if
 (
 !
 loading
+&
+&
+!
+settings
+.
+openLinksInExternalApp
 &
 &
 settings
