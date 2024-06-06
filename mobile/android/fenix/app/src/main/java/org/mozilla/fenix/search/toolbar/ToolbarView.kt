@@ -702,10 +702,10 @@ session
 ?
 .
 searchTerms
-?
-:
-"
-"
+.
+orEmpty
+(
+)
 )
 }
 view

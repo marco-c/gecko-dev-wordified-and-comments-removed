@@ -781,10 +781,10 @@ url
 args
 .
 title
-?
-:
-"
-"
+.
+orEmpty
+(
+)
 )
 )
 val
@@ -1007,9 +1007,8 @@ activityInfo
 name
 )
 }
-?
-:
-emptyList
+.
+orEmpty
 (
 )
 }
