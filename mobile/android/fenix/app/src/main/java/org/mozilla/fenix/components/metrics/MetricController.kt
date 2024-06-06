@@ -974,6 +974,9 @@ Suppress
 "
 LongMethod
 "
+"
+MaxLineLength
+"
 )
 private
 fun
