@@ -130,8 +130,6 @@ browser
 engine
 -
 gecko
--
-nightly
 '
 MAVEN_URL
 =
