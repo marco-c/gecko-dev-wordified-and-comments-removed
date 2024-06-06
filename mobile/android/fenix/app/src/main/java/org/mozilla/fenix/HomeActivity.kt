@@ -2115,15 +2115,6 @@ inflate
 (
 layoutInflater
 )
-if
-(
-Config
-.
-channel
-.
-isNightlyOrDebug
-)
-{
 lifecycleScope
 .
 launch
@@ -2202,7 +2193,6 @@ visibility
 View
 .
 GONE
-}
 }
 }
 }
