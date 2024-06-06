@@ -1603,5 +1603,13 @@ navigate
 (
 directions
 )
+metrics
+.
+track
+(
+Event
+.
+TabsTrayCfrTapped
+)
 }
 }
