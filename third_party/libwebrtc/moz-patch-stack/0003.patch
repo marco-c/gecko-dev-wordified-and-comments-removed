@@ -346,10 +346,10 @@ rtp_format_vp9
 .
 cc
 index
-15e059e85c
+66b784705b
 .
 .
-9ad4aa97c3
+5e037859ce
 100644
 -
 -
@@ -942,10 +942,10 @@ first_packet_reduction_len
 first_packet_extra_header_size_
 ;
 -
-357
+358
 8
 +
-359
+360
 8
 bool
 RtpPacketizerVp9
