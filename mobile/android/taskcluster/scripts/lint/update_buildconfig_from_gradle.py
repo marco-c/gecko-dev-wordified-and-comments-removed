@@ -347,6 +347,24 @@ app
 "
 ]
     
+elif
+gradle_root
+.
+endswith
+(
+"
+fenix
+"
+)
+:
+        
+return
+[
+"
+app
+"
+]
+    
 raise
 NotImplementedError
 (
@@ -673,6 +691,15 @@ gradle_root
 :
     
 return
+gradle_root
+.
+endswith
+(
+"
+fenix
+"
+)
+or
 gradle_root
 .
 endswith
