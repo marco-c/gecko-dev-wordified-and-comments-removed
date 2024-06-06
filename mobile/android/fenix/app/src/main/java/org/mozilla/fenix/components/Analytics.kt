@@ -421,6 +421,15 @@ MOZ_APP_VERSION
 -
 MOZ_APP_BUILDID
 "
+"
+fenix
+.
+git
+"
+to
+BuildConfig
+.
+GIT_HASH
 )
 environment
 =
