@@ -602,7 +602,7 @@ textColor
 =
 "
 ?
-contrastText
+textActionPrimary
 "
 android
 :
