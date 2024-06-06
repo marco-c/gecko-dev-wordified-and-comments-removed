@@ -2340,7 +2340,7 @@ view
 =
 binding
 .
-browserLayout
+dynamicSnackbarContainer
 duration
 =
 Snackbar

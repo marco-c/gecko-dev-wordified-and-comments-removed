@@ -2669,7 +2669,7 @@ allowUndo
 (
 binding
 .
-browserLayout
+dynamicSnackbarContainer
 snackbarMessage
 requireContext
 (
@@ -2982,7 +2982,7 @@ getContextMenuCandidates
 context
 binding
 .
-browserLayout
+dynamicSnackbarContainer
 )
 engineView
 =
@@ -3331,7 +3331,7 @@ showCannotOpenFileError
 (
 binding
 .
-browserLayout
+dynamicSnackbarContainer
 context
 it
 )
@@ -5214,7 +5214,7 @@ showCannotOpenFileError
 (
 binding
 .
-browserLayout
+dynamicSnackbarContainer
 context
 it
 )
@@ -6863,7 +6863,7 @@ view
 =
 binding
 .
-browserLayout
+dynamicSnackbarContainer
 duration
 =
 FenixSnackbar
@@ -6948,7 +6948,7 @@ view
 =
 binding
 .
-browserLayout
+dynamicSnackbarContainer
 duration
 =
 FenixSnackbar
@@ -7166,7 +7166,7 @@ view
 =
 binding
 .
-browserLayout
+dynamicSnackbarContainer
 duration
 =
 Snackbar
@@ -7604,9 +7604,9 @@ private
 fun
 showCannotOpenFileError
 (
-view
+container
 :
-View
+ViewGroup
 context
 :
 Context
@@ -7621,7 +7621,7 @@ make
 (
 view
 =
-view
+container
 duration
 =
 Snackbar
