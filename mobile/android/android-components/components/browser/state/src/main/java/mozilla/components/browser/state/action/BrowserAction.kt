@@ -6359,7 +6359,7 @@ translation
 /
 data
 class
-TranslateSetLanguagesAction
+SetSupportedLanguagesAction
 (
 override
 val
