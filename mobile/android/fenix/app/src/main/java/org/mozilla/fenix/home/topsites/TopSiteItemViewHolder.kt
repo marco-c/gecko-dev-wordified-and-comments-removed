@@ -321,9 +321,7 @@ view
 )
 init
 {
-binding
-.
-topSiteItem
+itemView
 .
 setOnLongClickListener
 {
@@ -497,9 +495,7 @@ position
 Int
 )
 {
-binding
-.
-topSiteItem
+itemView
 .
 setOnClickListener
 {

@@ -413,7 +413,7 @@ position
 )
 binding
 .
-topSiteItem
+root
 .
 performClick
 (
@@ -474,7 +474,7 @@ position
 )
 binding
 .
-topSiteItem
+root
 .
 performLongClick
 (
