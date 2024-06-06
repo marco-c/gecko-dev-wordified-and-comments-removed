@@ -3288,6 +3288,16 @@ url
 Override
 public
 void
+onTitleChanged
+(
+String
+title
+)
+{
+}
+Override
+public
+void
 onRequest
 (
 boolean

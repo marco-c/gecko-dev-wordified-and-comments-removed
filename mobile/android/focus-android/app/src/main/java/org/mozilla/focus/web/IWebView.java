@@ -207,6 +207,14 @@ url
 )
 ;
 void
+onTitleChanged
+(
+final
+String
+title
+)
+;
+void
 onRequest
 (
 final

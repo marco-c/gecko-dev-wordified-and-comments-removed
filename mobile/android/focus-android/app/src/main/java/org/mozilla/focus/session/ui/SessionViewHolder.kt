@@ -238,7 +238,7 @@ WeakReference
 (
 session
 )
-updateUrl
+updateTitle
 (
 session
 )
@@ -300,7 +300,7 @@ drawable
 }
 private
 fun
-updateUrl
+updateTitle
 (
 session
 :
@@ -311,6 +311,13 @@ textView
 .
 text
 =
+session
+.
+pageTitle
+.
+value
+?
+:
 session
 .
 url
