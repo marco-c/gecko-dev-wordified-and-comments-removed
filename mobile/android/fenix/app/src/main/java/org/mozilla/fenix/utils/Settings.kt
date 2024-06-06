@@ -577,7 +577,7 @@ default
 false
 )
 var
-alwaysOpenInPrivateMode
+launchLinksInPrivateTab
 by
 booleanPreference
 (
@@ -589,7 +589,7 @@ R
 .
 string
 .
-pref_key_launch_links_in_private_mode
+pref_key_launch_links_in_private_tab
 )
 default
 =

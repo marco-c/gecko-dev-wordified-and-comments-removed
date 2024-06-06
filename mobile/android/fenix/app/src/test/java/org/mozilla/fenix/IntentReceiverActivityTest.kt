@@ -204,7 +204,7 @@ fun
 process
 intent
 with
-alwaysOpenInPrivateMode
+launchLinksInPrivateTab
 set
 to
 true
@@ -219,7 +219,7 @@ settings
 (
 )
 .
-alwaysOpenInPrivateMode
+launchLinksInPrivateTab
 =
 true
 val
@@ -335,7 +335,7 @@ fun
 process
 intent
 with
-alwaysOpenInPrivateMode
+launchLinksInPrivateTab
 set
 to
 false
@@ -350,7 +350,7 @@ settings
 (
 )
 .
-alwaysOpenInPrivateMode
+launchLinksInPrivateTab
 =
 false
 val

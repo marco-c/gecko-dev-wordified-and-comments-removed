@@ -1627,7 +1627,7 @@ string
 name
 =
 "
-pref_key_launch_links_in_private_mode
+pref_key_launch_links_in_private_tab
 "
 translatable
 =
@@ -1635,7 +1635,7 @@ translatable
 false
 "
 >
-pref_key_launch_links_in_private_mode
+pref_key_launch_links_in_private_tab
 <
 /
 string
