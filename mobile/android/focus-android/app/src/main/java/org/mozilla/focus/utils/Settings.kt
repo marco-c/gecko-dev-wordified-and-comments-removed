@@ -2415,7 +2415,7 @@ getString
 (
 CookieBannerOption
 .
-CookieBannerRejectAll
+CookieBannerDisabled
 (
 )
 .
