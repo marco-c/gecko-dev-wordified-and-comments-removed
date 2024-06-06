@@ -407,6 +407,14 @@ items
 .
 add
 (
+AdapterItem
+.
+CollectionHeader
+)
+items
+.
+add
+(
 noCollectionMessage
 )
 }
