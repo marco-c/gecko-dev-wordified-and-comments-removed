@@ -1522,6 +1522,10 @@ Piilota
 verkkosivut
 vaihdettaessa
 sovellusta
+ja
+est
+kuvakaappaukset
+.
 <
 /
 string
@@ -3531,10 +3535,9 @@ name
 firstrun_search_title
 "
 >
-Sinun
-haut
-sinun
-ehdoilla
+Hakusi
+haluamallasi
+tavalla
 <
 /
 string
