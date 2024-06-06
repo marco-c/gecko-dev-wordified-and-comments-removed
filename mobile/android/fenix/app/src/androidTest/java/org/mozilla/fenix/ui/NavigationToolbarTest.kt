@@ -377,9 +377,6 @@ openThreeDotMenu
 verifyThreeDotMenuExists
 (
 )
-verifyBackButton
-(
-)
 }
 .
 goBack

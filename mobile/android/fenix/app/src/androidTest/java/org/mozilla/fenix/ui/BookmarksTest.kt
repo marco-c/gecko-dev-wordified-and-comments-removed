@@ -184,18 +184,6 @@ ui
 robots
 .
 navigationToolbar
-import
-org
-.
-mozilla
-.
-fenix
-.
-ui
-.
-robots
-.
-quickActionBar
 /
 *
 *
@@ -401,12 +389,12 @@ url
 {
 }
 .
-openQuickActionBar
+openThreeDotMenu
 {
 verifyAddBookmarkButton
 (
 )
-clickBookmarkButton
+clickAddBookmarkButton
 (
 )
 }
@@ -414,7 +402,7 @@ browserScreen
 {
 }
 .
-openQuickActionBar
+openThreeDotMenu
 {
 verifyEditBookmarkButton
 (
@@ -437,7 +425,7 @@ getGenericAsset
 mockWebServer
 1
 )
-quickActionBar
+browserScreen
 {
 createBookmark
 (
@@ -445,9 +433,6 @@ defaultWebPage
 .
 url
 )
-}
-navigationToolbar
-{
 }
 .
 openThreeDotMenu
@@ -519,7 +504,7 @@ getGenericAsset
 mockWebServer
 1
 )
-quickActionBar
+browserScreen
 {
 createBookmark
 (
@@ -527,9 +512,6 @@ defaultWebPage
 .
 url
 )
-}
-navigationToolbar
-{
 }
 .
 openThreeDotMenu
@@ -586,7 +568,7 @@ getGenericAsset
 mockWebServer
 1
 )
-quickActionBar
+browserScreen
 {
 createBookmark
 (
@@ -594,9 +576,6 @@ defaultWebPage
 .
 url
 )
-}
-navigationToolbar
-{
 }
 .
 openThreeDotMenu
@@ -638,7 +617,7 @@ getGenericAsset
 mockWebServer
 1
 )
-quickActionBar
+browserScreen
 {
 createBookmark
 (
@@ -646,9 +625,6 @@ defaultWebPage
 .
 url
 )
-}
-navigationToolbar
-{
 }
 .
 openThreeDotMenu
@@ -700,7 +676,7 @@ getGenericAsset
 mockWebServer
 1
 )
-quickActionBar
+browserScreen
 {
 createBookmark
 (
@@ -708,9 +684,6 @@ defaultWebPage
 .
 url
 )
-}
-navigationToolbar
-{
 }
 .
 openThreeDotMenu
@@ -762,7 +735,7 @@ getGenericAsset
 mockWebServer
 1
 )
-quickActionBar
+browserScreen
 {
 createBookmark
 (
@@ -770,9 +743,6 @@ defaultWebPage
 .
 url
 )
-}
-navigationToolbar
-{
 }
 .
 openThreeDotMenu
