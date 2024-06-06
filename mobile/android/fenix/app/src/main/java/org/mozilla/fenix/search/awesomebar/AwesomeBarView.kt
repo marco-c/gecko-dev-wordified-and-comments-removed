@@ -942,7 +942,7 @@ components
 .
 search
 .
-searchEngineManager
+provider
 this
 interactor
 :
@@ -1687,14 +1687,11 @@ components
 .
 search
 .
-searchEngineManager
+provider
 .
-getDefaultSearchEngine
+getDefaultEngine
 (
 this
-engine
-.
-name
 )
 shortcutSearchUseCase
 components
