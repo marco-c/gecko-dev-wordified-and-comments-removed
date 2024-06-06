@@ -103,7 +103,7 @@ dependency
 "
 ]
         
-copy_of_attributes
+attributes
 =
 primary_dep
 .
@@ -113,15 +113,30 @@ copy
 (
 )
         
+attributes
+.
+update
+(
 task
 .
-setdefault
+get
 (
 "
 attributes
 "
-copy_of_attributes
+{
+}
 )
+)
+        
+task
+[
+"
+attributes
+"
+]
+=
+attributes
         
 task
 .
@@ -136,11 +151,11 @@ tasks
 -
 for
 "
-copy_of_attributes
+attributes
 [
-'
+"
 run_on_tasks_for
-'
+"
 ]
 )
         
