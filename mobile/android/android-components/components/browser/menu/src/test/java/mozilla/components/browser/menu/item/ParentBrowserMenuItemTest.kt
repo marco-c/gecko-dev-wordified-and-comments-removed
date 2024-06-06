@@ -610,6 +610,12 @@ backPressMenuItem
 =
 BackPressMenuItem
 (
+contentDescription
+=
+"
+Navigate
+up
+"
 label
 =
 "
@@ -805,6 +811,12 @@ backPressMenuItem
 =
 BackPressMenuItem
 (
+contentDescription
+=
+"
+Navigate
+up
+"
 label
 =
 "
