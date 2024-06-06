@@ -512,6 +512,15 @@ show
 anchor
 =
 it
+.
+findViewById
+(
+R
+.
+id
+.
+search_selector
+)
 orientation
 =
 orientation

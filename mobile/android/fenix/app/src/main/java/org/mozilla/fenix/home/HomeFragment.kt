@@ -2400,7 +2400,7 @@ let
 {
 binding
 .
-searchSelector
+searchSelectorButton
 .
 isVisible
 =
@@ -2415,7 +2415,7 @@ it
 }
 binding
 .
-searchSelector
+searchSelectorButton
 .
 apply
 {
@@ -2464,6 +2464,15 @@ show
 anchor
 =
 it
+.
+findViewById
+(
+R
+.
+id
+.
+search_selector
+)
 orientation
 =
 orientation
@@ -4089,7 +4098,7 @@ showUnifiedSearchFeature
 {
 binding
 .
-searchSelector
+searchSelectorButton
 .
 setIcon
 (
