@@ -145,7 +145,9 @@ core
 passwordsStorage
 core
 .
-secureAbove22Preferences
+getSecureAbove22Preferences
+(
+)
 )
 }
 val
