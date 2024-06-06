@@ -171,6 +171,12 @@ ISSUE_XML_SRC_USAGE
 ImageViewAndroidTintXmlDetector
 .
 ISSUE_XML_SRC_USAGE
+LicenseDetector
+.
+ISSUE_MISSING_LICENSE
+LicenseDetector
+.
+ISSUE_INVALID_LICENSE_FORMAT
 )
 +
 ConstraintLayoutPerfDetector
