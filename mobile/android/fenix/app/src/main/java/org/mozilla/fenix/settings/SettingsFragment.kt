@@ -1473,7 +1473,9 @@ createCustomTabIntent
 context
 SupportUtils
 .
-PRIVACY_NOTICE_URL
+getPrivacyNoticeUrl
+(
+)
 )
 startActivity
 (

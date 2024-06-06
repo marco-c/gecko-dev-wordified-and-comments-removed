@@ -197,7 +197,9 @@ view
 context
 SupportUtils
 .
-PRIVACY_NOTICE_URL
+getPrivacyNoticeUrl
+(
+)
 )
 view
 .
