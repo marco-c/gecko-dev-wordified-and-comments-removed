@@ -159,7 +159,7 @@ inset_light_theme
 "
 >
 #
-E6E8E8
+E0E0E6
 <
 /
 color
@@ -502,7 +502,7 @@ toolbar_divider_color_light_theme
 "
 >
 #
-CDCCCF
+BFBFC9
 <
 /
 color
@@ -627,7 +627,7 @@ inset_dark_theme
 "
 >
 #
-3F3E46
+32313C
 <
 /
 color
@@ -939,9 +939,8 @@ name
 toolbar_divider_color_dark_theme
 "
 >
-color
-/
-neutral_faded_dark_theme
+#
+52525E
 <
 /
 color
@@ -1066,7 +1065,7 @@ inset_private_theme
 "
 >
 #
-362A5C
+291D4F
 <
 /
 color
@@ -1335,7 +1334,7 @@ toolbar_divider_color_private_theme
 "
 >
 #
-403760
+52525E
 <
 /
 color
