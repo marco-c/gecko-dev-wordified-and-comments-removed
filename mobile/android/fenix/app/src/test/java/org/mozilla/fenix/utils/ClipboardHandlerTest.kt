@@ -313,7 +313,9 @@ assertEquals
 null
 clipboardHandler
 .
-url
+extractURL
+(
+)
 )
 clipboard
 .
@@ -334,7 +336,9 @@ assertEquals
 clipboardUrl
 clipboardHandler
 .
-url
+extractURL
+(
+)
 )
 }
 Test
@@ -348,7 +352,9 @@ assertEquals
 null
 clipboardHandler
 .
-url
+extractURL
+(
+)
 )
 clipboard
 .
@@ -370,7 +376,9 @@ assertEquals
 clipboardUrl
 clipboardHandler
 .
-url
+extractURL
+(
+)
 )
 }
 Test
