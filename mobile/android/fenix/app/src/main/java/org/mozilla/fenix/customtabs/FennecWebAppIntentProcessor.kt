@@ -491,16 +491,17 @@ intent
 )
 )
 {
-runBlocking
-{
 val
 webAppManifest
 =
+runBlocking
+{
 loadManifest
 (
 safeIntent
 url
 )
+}
 val
 session
 =
@@ -583,7 +584,6 @@ webAppManifest
 )
 }
 true
-}
 }
 else
 {
