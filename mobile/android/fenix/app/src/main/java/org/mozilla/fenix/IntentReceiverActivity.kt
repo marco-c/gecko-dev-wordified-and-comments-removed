@@ -365,6 +365,15 @@ intentProcessor
 val
 intentProcessors
 =
+listOf
+(
+components
+.
+intentProcessors
+.
+migrationIntentProcessor
+)
++
 components
 .
 intentProcessors
