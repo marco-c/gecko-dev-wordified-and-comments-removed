@@ -693,6 +693,11 @@ step
 it
 .
 saveCollectionStep
+selectedTabs
+=
+it
+.
+selectedTabs
 when
 (
 it
@@ -746,13 +751,6 @@ view
 .
 collection_constraint_layout
 )
-this
-.
-selectedTabs
-=
-it
-.
-selectedTabs
 collectionCreationTabListAdapter
 .
 updateData

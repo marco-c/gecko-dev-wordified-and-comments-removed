@@ -733,9 +733,9 @@ context
 val
 sessionBundle
 =
-viewModel
+it
 .
-selectedTabs
+tabs
 .
 toList
 (
