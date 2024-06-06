@@ -509,7 +509,7 @@ R
 .
 drawable
 .
-ic_login
+mozac_ic_login
 )
 )
 private
