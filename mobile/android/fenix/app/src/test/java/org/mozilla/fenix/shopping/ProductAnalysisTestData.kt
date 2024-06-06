@@ -168,6 +168,7 @@ A
 adjustedRating
 :
 Double
+?
 =
 4
 .

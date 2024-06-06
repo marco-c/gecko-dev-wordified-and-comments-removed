@@ -275,6 +275,7 @@ val
 mappedRating
 =
 adjustedRating
+?
 .
 toFloatOrNull
 (

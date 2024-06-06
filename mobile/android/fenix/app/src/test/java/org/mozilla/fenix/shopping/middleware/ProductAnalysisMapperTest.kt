@@ -880,9 +880,7 @@ grade
 null
 adjustedRating
 =
-0
-.
-0
+null
 highlights
 =
 null

@@ -210,6 +210,7 @@ val
 adjustedRating
 :
 Double
+?
 val
 needsAnalysis
 :
