@@ -4825,6 +4825,11 @@ tabCrashedCloseButton
 click
 (
 )
+mDevice
+.
+waitForIdle
+(
+)
 HomeScreenRobot
 (
 )
