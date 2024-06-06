@@ -387,6 +387,8 @@ fileName
 :
 app
 -
+fenix
+-
 arm64
 -
 v8a
@@ -404,6 +406,8 @@ fileName
 :
 app
 -
+fenix
+-
 armeabi
 -
 v7a
@@ -419,6 +423,8 @@ fileName
 :
 app
 -
+fenix
+-
 x86
 -
 debug
@@ -432,6 +438,8 @@ fileName
 :
 app
 -
+fenix
+-
 x86_64
 -
 debug
@@ -442,7 +450,7 @@ build_type
 debug
 name
 :
-debug
+fenixDebug
 -
 apks
 :
@@ -456,6 +464,8 @@ fileName
 :
 app
 -
+fenix
+-
 arm64
 -
 v8a
@@ -475,6 +485,8 @@ fileName
 :
 app
 -
+fenix
+-
 armeabi
 -
 v7a
@@ -492,6 +504,8 @@ fileName
 :
 app
 -
+fenix
+-
 x86
 -
 release
@@ -507,6 +521,8 @@ fileName
 :
 app
 -
+fenix
+-
 x86_64
 -
 release
@@ -519,7 +535,7 @@ build_type
 release
 name
 :
-release
+fenixRelease
 -
 apks
 :
@@ -533,6 +549,8 @@ fileName
 :
 app
 -
+fenix
+-
 arm64
 -
 v8a
@@ -552,6 +570,8 @@ fileName
 :
 app
 -
+fenix
+-
 armeabi
 -
 v7a
@@ -569,6 +589,8 @@ fileName
 :
 app
 -
+fenix
+-
 x86
 -
 nightly
@@ -584,6 +606,8 @@ fileName
 :
 app
 -
+fenix
+-
 x86_64
 -
 nightly
@@ -596,7 +620,7 @@ build_type
 nightly
 name
 :
-nightly
+fenixNightly
 -
 apks
 :
@@ -610,6 +634,8 @@ fileName
 :
 app
 -
+fenix
+-
 arm64
 -
 v8a
@@ -629,6 +655,8 @@ fileName
 :
 app
 -
+fenix
+-
 armeabi
 -
 v7a
@@ -646,6 +674,8 @@ fileName
 :
 app
 -
+fenix
+-
 x86
 -
 beta
@@ -661,6 +691,8 @@ fileName
 :
 app
 -
+fenix
+-
 x86_64
 -
 beta
@@ -673,7 +705,7 @@ build_type
 beta
 name
 :
-beta
+fenixBeta
 -
 apks
 :
