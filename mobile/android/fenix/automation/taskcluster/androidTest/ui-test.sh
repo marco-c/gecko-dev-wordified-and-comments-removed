@@ -946,6 +946,12 @@ have
 the
 results
 .
+set
+-
+o
+pipefail
+&
+&
 JAVA_BIN
 -
 jar
