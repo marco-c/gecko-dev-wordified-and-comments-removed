@@ -1225,7 +1225,7 @@ issues
 SmokeTest
 Test
 fun
-searchGroupShowsInRecentlyVisitedTest
+searchResultsOpenedInNewTabsGenerateSearchGroupsTest
 (
 )
 {
@@ -1407,7 +1407,7 @@ issues
 )
 Test
 fun
-verifySearchGroupHistoryWithNoDuplicatesTest
+verifyAPageIsAddedToASearchGroupOnlyOnceTest
 (
 )
 {
@@ -1741,7 +1741,7 @@ issues
 )
 Test
 fun
-searchGroupGeneratedInTheSameTabTest
+searchGroupIsGeneratedWhenNavigatingInTheSameTabTest
 (
 )
 {
@@ -1861,7 +1861,7 @@ groupSize
 SmokeTest
 Test
 fun
-noSearchGroupFromPrivateBrowsingTest
+searchGroupIsNotGeneratedForLinksOpenedInPrivateTabsTest
 (
 )
 {
@@ -2072,7 +2072,7 @@ issues
 SmokeTest
 Test
 fun
-deleteItemsFromSearchGroupHistoryTest
+deleteIndividualHistoryItemsFromSearchGroupTest
 (
 )
 {
@@ -2349,7 +2349,7 @@ issues
 )
 Test
 fun
-deleteSearchGroupFromHistoryTest
+deleteSearchGroupFromHomeScreenTest
 (
 )
 {
@@ -2614,7 +2614,7 @@ issues
 )
 Test
 fun
-reopenTabsFromSearchGroupTest
+openAPageFromHomeScreenSearchGroupTest
 (
 )
 {
@@ -2910,7 +2910,7 @@ issues
 )
 Test
 fun
-sharePageFromASearchGroupTest
+shareAPageFromHomeScreenSearchGroupTest
 (
 )
 {
