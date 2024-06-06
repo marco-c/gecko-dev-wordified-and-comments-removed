@@ -517,11 +517,7 @@ contains
 (
 item
 )
-HistoryState
-.
-Mode
-.
-Normal
+else
 -
 >
 false
