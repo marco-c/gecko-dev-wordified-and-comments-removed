@@ -719,7 +719,7 @@ R
 .
 drawable
 .
-mozac_ic_delete
+mozac_ic_delete_24
 getString
 (
 R
