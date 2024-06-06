@@ -493,7 +493,7 @@ onHeaderClick
 {
 interactor
 .
-onHeaderClicked
+onInactiveTabsHeaderClicked
 (
 !
 expanded
@@ -539,13 +539,13 @@ onTabClick
 interactor
 :
 :
-onTabClicked
+onInactiveTabClicked
 onTabCloseClick
 =
 interactor
 :
 :
-onTabClosed
+onInactiveTabClosed
 )
 }
 }

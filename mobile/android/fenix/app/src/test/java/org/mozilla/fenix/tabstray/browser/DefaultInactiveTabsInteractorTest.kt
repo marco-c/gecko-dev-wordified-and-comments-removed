@@ -171,7 +171,7 @@ createInteractor
 (
 )
 .
-onHeaderClicked
+onInactiveTabsHeaderClicked
 (
 true
 )
@@ -305,7 +305,7 @@ createInteractor
 (
 )
 .
-onTabClicked
+onInactiveTabClicked
 (
 tab
 )
@@ -378,7 +378,7 @@ createInteractor
 (
 )
 .
-onTabClosed
+onInactiveTabClosed
 (
 tab
 )
