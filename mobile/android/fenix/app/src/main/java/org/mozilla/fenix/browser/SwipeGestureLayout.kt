@@ -474,6 +474,7 @@ onScroll
 e1
 :
 MotionEvent
+?
 e2
 :
 MotionEvent
@@ -491,6 +492,7 @@ val
 start
 =
 e1
+?
 .
 let
 {
@@ -507,6 +509,10 @@ event
 rawY
 )
 }
+?
+:
+return
+false
 val
 next
 =
@@ -581,6 +587,7 @@ onFling
 e1
 :
 MotionEvent
+?
 e2
 :
 MotionEvent
