@@ -2860,6 +2860,9 @@ content
 .
 private
 }
+clearFlagOnStop
+=
+false
 )
 owner
 =
