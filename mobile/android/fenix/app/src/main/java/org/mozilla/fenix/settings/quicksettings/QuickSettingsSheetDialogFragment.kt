@@ -1102,9 +1102,9 @@ requireComponents
 .
 useCases
 .
-sessionUseCases
+tabsUseCases
 .
-loadUrl
+addTab
 .
 invoke
 (

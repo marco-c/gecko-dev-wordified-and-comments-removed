@@ -3643,9 +3643,13 @@ format
 REPORT_SITE_ISSUE_URL
 this
 )
-sessionUseCases
+requireComponents
 .
-loadUrl
+useCases
+.
+tabsUseCases
+.
+addTab
 .
 invoke
 (
