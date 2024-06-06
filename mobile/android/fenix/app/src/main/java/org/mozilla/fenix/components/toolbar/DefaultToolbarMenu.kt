@@ -2750,6 +2750,17 @@ OpenInApp
 )
 }
 val
+reportSiteIssuePlaceholder
+=
+WebExtensionPlaceholderMenuItem
+(
+id
+=
+WebCompatReporterFeature
+.
+WEBCOMPAT_REPORTER_EXTENSION_ID
+)
+val
 addToHomeScreenItem
 =
 BrowserMenuImageText
@@ -3018,6 +3029,7 @@ visible
 :
 shouldShowOpenInApp
 }
+reportSiteIssuePlaceholder
 BrowserMenuDivider
 (
 )
