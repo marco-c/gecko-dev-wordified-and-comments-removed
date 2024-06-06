@@ -182,7 +182,7 @@ paddingTop
 "
 dimen
 /
-radio_button_preference_vertical
+preference_seek_bar_padding
 "
 android
 :
@@ -200,7 +200,7 @@ paddingBottom
 "
 dimen
 /
-radio_button_preference_vertical
+preference_seek_bar_padding
 "
 >
 <
