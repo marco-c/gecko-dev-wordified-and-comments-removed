@@ -747,8 +747,6 @@ title
 }
 .
 closeTabDrawer
-(
-)
 {
 }
 homeScreen
@@ -778,6 +776,12 @@ clickLinkMatchingText
 Link
 1
 "
+)
+verifyPageContent
+(
+secondWebPage
+.
+content
 )
 }
 .
