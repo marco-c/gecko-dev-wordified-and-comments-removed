@@ -451,11 +451,6 @@ runtimeSettings
 automaticFontSizeAdjustment
 =
 false
-runtimeSettings
-.
-fontInflationEnabled
-=
-true
 val
 fontSize
 =

@@ -380,17 +380,6 @@ engine
 .
 settings
 .
-fontInflationEnabled
-=
-true
-requireComponents
-.
-core
-.
-engine
-.
-settings
-.
 fontSizeFactor
 =
 Settings
