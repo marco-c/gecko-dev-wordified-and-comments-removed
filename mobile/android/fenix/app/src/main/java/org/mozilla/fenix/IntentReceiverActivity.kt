@@ -777,12 +777,6 @@ intentProcessors
 .
 webNotificationsIntentProcessor
 +
-components
-.
-intentProcessors
-.
-passwordManagerIntentProcessor
-+
 modeDependentProcessors
 +
 NewTabShortcutIntentProcessor
