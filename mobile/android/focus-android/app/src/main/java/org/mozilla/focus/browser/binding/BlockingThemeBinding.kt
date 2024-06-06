@@ -396,6 +396,7 @@ We
 start
 a
 transition
+animation
 only
 if
 a
@@ -404,9 +405,7 @@ was
 just
 loading
 before
-allowing
-to
-avoid
+avoiding
 issue
 #
 1179
@@ -421,6 +420,15 @@ backgroundTransitionGroup
 startTransition
 (
 ANIMATION_DURATION
+)
+}
+else
+{
+backgroundTransitionGroup
+?
+.
+transitionImmediately
+(
 )
 }
 hasLoadedOnce
