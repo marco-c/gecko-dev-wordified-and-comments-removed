@@ -118,8 +118,10 @@ android
 fillColor
 =
 "
-#
-000000
+?
+attr
+/
+iconColor
 "
 android
 :

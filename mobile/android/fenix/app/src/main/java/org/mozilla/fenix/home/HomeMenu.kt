@@ -217,7 +217,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+iconColor
 context
 )
 )
@@ -268,7 +268,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+iconColor
 context
 )
 )
@@ -322,7 +322,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+iconColor
 context
 )
 )

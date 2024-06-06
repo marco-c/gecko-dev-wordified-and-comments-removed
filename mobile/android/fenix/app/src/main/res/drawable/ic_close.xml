@@ -141,9 +141,10 @@ android
 fillColor
 =
 "
-color
+?
+attr
 /
-icons
+iconColor
 "
 android
 :

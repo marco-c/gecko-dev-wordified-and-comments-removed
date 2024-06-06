@@ -175,8 +175,10 @@ android
 color
 =
 "
-#
-FFFFFF
+?
+attr
+/
+pillWrapperBackground
 "
 /
 >

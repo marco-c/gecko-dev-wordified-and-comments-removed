@@ -516,8 +516,10 @@ android
 fillColor
 =
 "
-#
-202340
+?
+attr
+/
+iconColor
 "
 android
 :
@@ -525,14 +527,6 @@ fillType
 =
 "
 evenOdd
-"
-android
-:
-strokeColor
-=
-"
-#
-00000000
 "
 /
 >
