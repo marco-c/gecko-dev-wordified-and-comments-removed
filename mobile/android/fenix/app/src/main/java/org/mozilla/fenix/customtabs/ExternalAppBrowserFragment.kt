@@ -358,7 +358,6 @@ apps
 .
 *
 /
-ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 class
 ExternalAppBrowserFragment

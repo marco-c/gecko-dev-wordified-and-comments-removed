@@ -198,7 +198,6 @@ robolectric
 annotation
 .
 Config
-ObsoleteCoroutinesApi
 RunWith
 (
 RobolectricTestRunner

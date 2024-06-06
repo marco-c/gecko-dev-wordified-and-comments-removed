@@ -461,7 +461,6 @@ deletebrowsingdata
 .
 deleteAndQuit
 ExperimentalCoroutinesApi
-ObsoleteCoroutinesApi
 class
 DefaultBrowserToolbarControllerTest
 {

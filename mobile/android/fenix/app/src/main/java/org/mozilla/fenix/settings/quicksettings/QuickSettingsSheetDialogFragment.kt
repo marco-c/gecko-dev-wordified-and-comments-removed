@@ -408,7 +408,6 @@ val
 REQUEST_CODE_QUICK_SETTINGS_PERMISSIONS
 =
 4
-ObsoleteCoroutinesApi
 SuppressWarnings
 (
 "
@@ -979,7 +978,6 @@ host
 }
 }
 ExperimentalCoroutinesApi
-ObsoleteCoroutinesApi
 override
 fun
 onResume

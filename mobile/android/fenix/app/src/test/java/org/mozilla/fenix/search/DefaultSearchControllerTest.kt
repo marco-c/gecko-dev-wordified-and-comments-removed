@@ -316,7 +316,6 @@ robolectric
 annotation
 .
 Config
-ObsoleteCoroutinesApi
 RunWith
 (
 AndroidJUnit4

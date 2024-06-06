@@ -154,7 +154,6 @@ java
 util
 .
 Locale
-ObsoleteCoroutinesApi
 RunWith
 (
 RobolectricTestRunner

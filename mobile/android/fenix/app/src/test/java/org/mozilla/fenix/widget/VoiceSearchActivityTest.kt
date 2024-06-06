@@ -308,7 +308,6 @@ robolectric
 shadows
 .
 ShadowActivity
-ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 RunWith
 (

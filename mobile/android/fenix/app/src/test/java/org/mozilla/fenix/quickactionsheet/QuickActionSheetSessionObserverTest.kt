@@ -193,7 +193,6 @@ toolbar
 .
 QuickActionSheetAction
 ExperimentalCoroutinesApi
-ObsoleteCoroutinesApi
 class
 QuickActionSheetSessionObserverTest
 {

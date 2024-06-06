@@ -801,7 +801,6 @@ startPostponedEnterTransition
 return
 view
 }
-ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 SuppressWarnings
 (

@@ -589,7 +589,6 @@ app
 .
 *
 /
-ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 Suppress
 (

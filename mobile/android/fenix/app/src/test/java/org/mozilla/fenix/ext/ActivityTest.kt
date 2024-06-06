@@ -96,7 +96,6 @@ robolectric
 Shadows
 .
 shadowOf
-ObsoleteCoroutinesApi
 RunWith
 (
 RobolectricTestRunner

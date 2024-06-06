@@ -741,7 +741,6 @@ bookmarkInteractor
 return
 view
 }
-ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 override
 fun

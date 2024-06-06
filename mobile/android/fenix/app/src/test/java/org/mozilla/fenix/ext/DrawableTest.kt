@@ -90,7 +90,6 @@ android
 graphics
 .
 ColorFilter
-ObsoleteCoroutinesApi
 RunWith
 (
 RobolectricTestRunner

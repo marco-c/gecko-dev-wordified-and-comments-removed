@@ -579,7 +579,6 @@ Event
 SyncAccountClosed
 )
 }
-ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 override
 fun

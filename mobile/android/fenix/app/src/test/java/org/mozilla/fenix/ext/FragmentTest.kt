@@ -166,7 +166,6 @@ navigation
 Navigator
 .
 Extras
-ObsoleteCoroutinesApi
 RunWith
 (
 RobolectricTestRunner

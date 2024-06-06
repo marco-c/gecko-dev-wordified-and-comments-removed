@@ -292,7 +292,6 @@ robolectric
 annotation
 .
 Config
-ObsoleteCoroutinesApi
 ExperimentalCoroutinesApi
 RunWith
 (

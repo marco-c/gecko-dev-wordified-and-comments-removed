@@ -702,7 +702,6 @@ animateTabAndNavigateHome
 )
 }
 ExperimentalCoroutinesApi
-ObsoleteCoroutinesApi
 SuppressWarnings
 (
 "

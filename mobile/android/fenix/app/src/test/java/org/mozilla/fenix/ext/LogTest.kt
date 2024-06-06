@@ -80,7 +80,6 @@ mozilla
 fenix
 .
 BuildConfig
-ObsoleteCoroutinesApi
 RunWith
 (
 RobolectricTestRunner
