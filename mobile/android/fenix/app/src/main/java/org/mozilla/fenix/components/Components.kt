@@ -717,7 +717,11 @@ FLAG_ACTIVITY_CLEAR_TASK
 data
 =
 "
-fenix
+{
+BuildConfig
+.
+DEEP_LINK_SCHEME
+}
 :
 /
 /
