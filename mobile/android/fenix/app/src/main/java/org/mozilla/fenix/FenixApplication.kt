@@ -127,7 +127,7 @@ work
 .
 Configuration
 .
-Provider
+Builder
 import
 androidx
 .
@@ -135,7 +135,7 @@ work
 .
 Configuration
 .
-Builder
+Provider
 import
 kotlinx
 .
@@ -796,6 +796,7 @@ setupInMainProcessOnly
 )
 }
 protected
+open
 fun
 initializeGlean
 (
