@@ -538,6 +538,13 @@ feature
 findinpage
 feature
 -
+fxsuggest
+:
+feature
+-
+fxsuggest
+feature
+-
 intent
 :
 feature
