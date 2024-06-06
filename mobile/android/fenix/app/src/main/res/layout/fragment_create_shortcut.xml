@@ -441,7 +441,7 @@ hint
 "
 string
 /
-add_to_homescreen_text_description
+add_to_homescreen_text_placeholder
 "
 android
 :
