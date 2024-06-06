@@ -373,9 +373,8 @@ visual
 completeness
 activity
 .
-postVisualCompletenessQueue
+setVisualCompletenessQueueReady
 (
-visualCompletenessQueue
 )
 }
 else

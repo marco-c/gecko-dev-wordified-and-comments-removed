@@ -1143,13 +1143,15 @@ initVisualCompletenessQueueAndQueueTasks
 )
 {
 val
-taskQueue
+queue
 =
 components
 .
 performance
 .
 visualCompletenessQueue
+.
+queue
 fun
 initQueue
 (
@@ -1159,7 +1161,7 @@ registerActivityLifecycleCallbacks
 (
 PerformanceActivityLifecycleCallbacks
 (
-taskQueue
+queue
 )
 )
 }
@@ -1177,7 +1179,7 @@ settings
 isExperimentationEnabled
 )
 {
-taskQueue
+queue
 .
 runIfReadyOrQueue
 {
@@ -1287,6 +1289,8 @@ components
 performance
 .
 visualCompletenessQueue
+.
+queue
 .
 runIfReadyOrQueue
 {
@@ -1419,7 +1423,7 @@ required
 by
 StorageStatsMetrics
 .
-taskQueue
+queue
 .
 runIfReadyOrQueue
 {

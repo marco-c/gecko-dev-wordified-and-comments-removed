@@ -5315,6 +5315,8 @@ performance
 .
 visualCompletenessQueue
 .
+queue
+.
 runIfReadyOrQueue
 {
 /
