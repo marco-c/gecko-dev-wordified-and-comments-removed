@@ -472,7 +472,7 @@ textOff
 "
 string
 /
-etp_switch_off
+etp_panel_off
 "
 android
 :
@@ -481,7 +481,7 @@ textOn
 "
 string
 /
-etp_switch_on
+etp_panel_on
 "
 app
 :
