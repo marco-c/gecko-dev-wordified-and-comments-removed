@@ -250,16 +250,6 @@ library
 bookmarks
 .
 inRoots
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Do
 /
 *
 *
@@ -332,8 +322,6 @@ item
 :
 return
 BookmarkItemMenu
-Do
-exhaustive
 when
 (
 menuItem

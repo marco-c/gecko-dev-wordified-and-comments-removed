@@ -517,16 +517,6 @@ fenix
 .
 utils
 .
-Do
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
 Settings
 /
 *
@@ -800,8 +790,6 @@ trackToolbarItemInteraction
 (
 item
 )
-Do
-exhaustive
 when
 (
 item

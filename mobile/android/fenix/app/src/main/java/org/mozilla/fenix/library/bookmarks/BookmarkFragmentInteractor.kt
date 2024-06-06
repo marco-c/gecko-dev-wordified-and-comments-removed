@@ -118,16 +118,6 @@ browser
 browsingmode
 .
 BrowsingMode
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Do
 /
 *
 *
@@ -662,8 +652,6 @@ item
 BookmarkNode
 )
 {
-Do
-exhaustive
 when
 (
 item

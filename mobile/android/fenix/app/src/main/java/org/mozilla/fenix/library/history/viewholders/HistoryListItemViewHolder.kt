@@ -196,16 +196,6 @@ fenix
 selection
 .
 SelectionHolder
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Do
 class
 HistoryListItemViewHolder
 (
@@ -478,8 +468,6 @@ urlView
 .
 text
 =
-Do
-exhaustive
 when
 (
 item

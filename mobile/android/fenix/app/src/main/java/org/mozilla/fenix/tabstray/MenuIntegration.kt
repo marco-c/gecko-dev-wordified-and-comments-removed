@@ -110,16 +110,6 @@ state
 store
 .
 BrowserStore
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Do
 /
 *
 *
@@ -273,8 +263,6 @@ TabsTrayMenu
 Item
 )
 {
-Do
-exhaustive
 when
 (
 item

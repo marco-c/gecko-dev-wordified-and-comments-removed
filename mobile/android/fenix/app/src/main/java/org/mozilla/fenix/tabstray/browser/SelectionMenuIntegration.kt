@@ -98,16 +98,6 @@ fenix
 tabstray
 .
 TabsTrayInteractor
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Do
 class
 SelectionMenuIntegration
 (
@@ -182,8 +172,6 @@ SelectionMenu
 Item
 )
 {
-Do
-exhaustive
 when
 (
 item

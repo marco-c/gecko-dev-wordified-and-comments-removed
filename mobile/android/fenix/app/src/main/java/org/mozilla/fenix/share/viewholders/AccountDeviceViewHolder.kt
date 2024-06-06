@@ -152,16 +152,6 @@ share
 listadapters
 .
 SyncShareOption
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Do
 class
 AccountDeviceViewHolder
 (
@@ -230,8 +220,6 @@ itemView
 .
 setOnClickListener
 {
-Do
-exhaustive
 when
 (
 option

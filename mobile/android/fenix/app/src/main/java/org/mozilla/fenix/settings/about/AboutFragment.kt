@@ -331,16 +331,6 @@ mozilla
 .
 fenix
 .
-utils
-.
-Do
-import
-org
-.
-mozilla
-.
-fenix
-.
 whatsnew
 .
 WhatsNew
@@ -1029,8 +1019,6 @@ item
 AboutItem
 )
 {
-Do
-exhaustive
 when
 (
 item
