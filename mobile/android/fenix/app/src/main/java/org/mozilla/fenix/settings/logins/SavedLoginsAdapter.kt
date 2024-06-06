@@ -63,6 +63,8 @@ mozilla
 .
 fenix
 .
+settings
+.
 logins
 import
 android

@@ -142,7 +142,7 @@ core
 bookmarksStorage
 core
 .
-passwordsStorage
+syncablePasswordsStorage
 core
 .
 getSecureAbove22Preferences

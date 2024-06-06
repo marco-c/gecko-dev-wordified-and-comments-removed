@@ -63,6 +63,8 @@ mozilla
 .
 fenix
 .
+settings
+.
 logins
 import
 android
@@ -567,7 +569,7 @@ components
 .
 core
 .
-passwordsStorage
+syncablePasswordsStorage
 .
 withUnlocked
 {

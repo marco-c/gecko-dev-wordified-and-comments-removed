@@ -61,6 +61,8 @@ mozilla
 .
 fenix
 .
+settings
+.
 logins
 /
 *
