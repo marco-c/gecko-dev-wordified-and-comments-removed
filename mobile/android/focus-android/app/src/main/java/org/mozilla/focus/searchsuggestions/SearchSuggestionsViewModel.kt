@@ -209,6 +209,7 @@ _selectedSearchSuggestion
 MutableLiveData
 <
 String
+?
 >
 (
 )
@@ -218,6 +219,7 @@ selectedSearchSuggestion
 LiveData
 <
 String
+?
 >
 =
 _selectedSearchSuggestion
@@ -266,6 +268,7 @@ _autocompleteSuggestion
 MutableLiveData
 <
 String
+?
 >
 (
 )
@@ -275,6 +278,7 @@ autocompleteSuggestion
 LiveData
 <
 String
+?
 >
 =
 _autocompleteSuggestion
