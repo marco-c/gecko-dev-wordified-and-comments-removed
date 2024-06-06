@@ -126,7 +126,13 @@ attributeSetId
 :
 Int
 =
-0
+android
+.
+R
+.
+attr
+.
+preferenceStyle
 )
 :
 Preference

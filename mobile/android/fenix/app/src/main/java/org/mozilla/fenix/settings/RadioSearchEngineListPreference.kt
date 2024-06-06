@@ -136,7 +136,13 @@ defStyleAttr
 :
 Int
 =
-0
+android
+.
+R
+.
+attr
+.
+preferenceStyle
 )
 :
 SearchEngineListPreference

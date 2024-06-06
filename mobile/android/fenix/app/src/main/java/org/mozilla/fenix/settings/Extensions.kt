@@ -633,6 +633,8 @@ pref_key_phone_feature_notification
 }
 /
 *
+*
+*
 In
 devices
 with
@@ -726,12 +728,10 @@ context
 attr
 )
 buttonDrawable
+?
 .
 apply
 {
-this
-?
-.
 setBounds
 (
 0
@@ -744,9 +744,7 @@ this
 intrinsicHeight
 )
 }
-this
-.
-setCompoundDrawables
+setCompoundDrawablesRelative
 (
 buttonDrawable
 null
