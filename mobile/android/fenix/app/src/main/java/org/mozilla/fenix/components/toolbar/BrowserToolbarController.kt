@@ -783,7 +783,7 @@ webAppUseCases
 {
 if
 (
-isPWA
+isInstallable
 (
 )
 )
