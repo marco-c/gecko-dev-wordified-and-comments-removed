@@ -115,6 +115,7 @@ class
 Source
 {
 APP_ICON
+LINK
 CUSTOM_TAB
 }
 override
