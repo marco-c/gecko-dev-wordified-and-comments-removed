@@ -84,7 +84,7 @@ JsonOutput
 android
 {
 compileSdkVersion
-31
+32
 if
 (
 project
@@ -159,7 +159,7 @@ mozilla
 minSdkVersion
 21
 targetSdkVersion
-31
+32
 versionCode
 11
 /
