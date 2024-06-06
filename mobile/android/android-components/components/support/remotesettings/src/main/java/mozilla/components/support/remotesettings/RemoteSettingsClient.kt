@@ -482,12 +482,6 @@ modified
 .
 *
 /
-Suppress
-(
-"
-TooGenericExceptionCaught
-"
-)
 suspend
 fun
 fetch
