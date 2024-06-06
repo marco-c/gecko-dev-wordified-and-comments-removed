@@ -866,11 +866,11 @@ addShortcutsTip
 (
 context
 )
-addAllowlistTip
+addTrackingProtectionTip
 (
 context
 )
-addTrackingProtectionTip
+addAllowlistTip
 (
 context
 )

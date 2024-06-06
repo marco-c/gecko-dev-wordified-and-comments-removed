@@ -272,7 +272,7 @@ R
 .
 string
 .
-tip_explain_allowlist3
+tip_disable_tracking_protection3
 )
 private
 val
@@ -284,7 +284,7 @@ R
 .
 string
 .
-tip_disable_tracking_protection3
+tip_explain_allowlist3
 )
 private
 val
