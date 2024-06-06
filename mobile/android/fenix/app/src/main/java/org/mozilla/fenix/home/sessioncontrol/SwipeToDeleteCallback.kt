@@ -370,7 +370,7 @@ TabInCollectionViewHolder
 &
 viewHolder
 .
-isLastTab
+isLastItem
 -
 >
 {
