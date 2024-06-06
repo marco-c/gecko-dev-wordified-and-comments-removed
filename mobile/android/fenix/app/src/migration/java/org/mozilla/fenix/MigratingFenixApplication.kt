@@ -354,6 +354,9 @@ migrator
 .
 migrateAsync
 (
+components
+.
+migrationStore
 )
 .
 await
