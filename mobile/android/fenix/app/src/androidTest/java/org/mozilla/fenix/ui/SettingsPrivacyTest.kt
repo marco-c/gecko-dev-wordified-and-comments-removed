@@ -512,6 +512,12 @@ false
 )
 featureSettingsHelper
 .
+setShowWallpaperOnboarding
+(
+false
+)
+featureSettingsHelper
+.
 disablePwaCFR
 (
 true

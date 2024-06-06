@@ -485,6 +485,12 @@ setPocketEnabled
 (
 false
 )
+featureSettingsHelper
+.
+setShowWallpaperOnboarding
+(
+false
+)
 }
 After
 fun

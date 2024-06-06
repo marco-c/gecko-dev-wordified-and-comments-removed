@@ -689,6 +689,12 @@ setJumpBackCFREnabled
 (
 false
 )
+featureSettingsHelper
+.
+setShowWallpaperOnboarding
+(
+false
+)
 homeScreen
 {
 verifyWelcomeHeader
@@ -851,6 +857,12 @@ mockWebServer
 featureSettingsHelper
 .
 setJumpBackCFREnabled
+(
+false
+)
+featureSettingsHelper
+.
+setShowWallpaperOnboarding
 (
 false
 )

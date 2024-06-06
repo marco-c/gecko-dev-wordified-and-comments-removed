@@ -396,6 +396,12 @@ setTCPCFREnabled
 (
 false
 )
+featureSettingsHelper
+.
+setShowWallpaperOnboarding
+(
+false
+)
 }
 After
 fun
