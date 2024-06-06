@@ -1281,6 +1281,54 @@ cmd
         
 )
         
+treeherder
+=
+{
+            
+'
+jobKind
+'
+:
+'
+test
+'
+            
+'
+machine
+'
+:
+{
+                
+'
+platform
+'
+:
+'
+ui
+-
+test
+'
+            
+}
+            
+'
+symbol
+'
+:
+'
+ui
+-
+test
+'
+            
+'
+tier
+'
+:
+2
+        
+}
+        
 return
 self
 .
@@ -1338,6 +1386,10 @@ artifacts
 env_vars
 =
 env_vars
+            
+treeherder
+=
+treeherder
         
 )
     
