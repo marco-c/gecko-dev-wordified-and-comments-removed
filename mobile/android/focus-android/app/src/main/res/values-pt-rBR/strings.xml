@@ -693,8 +693,7 @@ name
 preference_search_engine_default
 "
 >
-Padr
-o
+Predefinido
 <
 /
 string
@@ -768,8 +767,7 @@ preference_category_autocomplete_preinstalled
 Lista
 de
 URL
-padr
-o
+predefinida
 <
 /
 string
@@ -944,7 +942,7 @@ preference_autocomplete_add_hint
 Cole
 ou
 digite
-a
+o
 URL
 <
 /
@@ -988,10 +986,10 @@ name
 preference_autocomplete_add_confirmation
 "
 >
-Nova
+Novo
 URL
-personalizada
-adicionada
+personalizado
+adicionado
 .
 <
 /
@@ -1033,9 +1031,9 @@ preference_autocomplete_add_error
 >
 Verifique
 novamente
-a
+o
 URL
-digitada
+digitado
 .
 <
 /
@@ -1079,8 +1077,7 @@ preference_dialog_title_search_engine
 "
 >
 Pesquisa
-padr
-o
+predefinida
 <
 /
 string
@@ -1367,8 +1364,7 @@ o
 s
 como
 navegador
-padr
-o
+predefinido
 <
 /
 string
@@ -1510,8 +1506,7 @@ Restaurar
 mecanismos
 de
 pesquisa
-padr
-o
+predefinido
 <
 /
 string
@@ -3847,8 +3842,7 @@ outro
 mecanismo
 de
 pesquisa
-padr
-o
+predefinido
 em
 Configura
 es
@@ -3949,8 +3943,7 @@ s
 como
 seu
 navegador
-padr
-o
+predefinido
 e
 obtenha
 os
@@ -3967,7 +3960,6 @@ ginas
 de
 outros
 aplicativos
-Android
 .
 <
 /
