@@ -684,7 +684,7 @@ on
 :
 macos
 -
-latest
+11
 if
 :
 github
@@ -791,11 +791,6 @@ target
 arch
 :
 x86_64
-emulator
--
-build
-:
-6110076
 profile
 :
 pixel_3a
