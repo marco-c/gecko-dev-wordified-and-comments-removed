@@ -276,7 +276,9 @@ include
 "
 rtc_base
 /
-task_queue
+system
+/
+no_unique_address
 .
 h
 "
@@ -844,7 +846,7 @@ csrcs
 )
 RTC_RUN_ON
 (
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 void
@@ -870,6 +872,7 @@ FrameTransformerInterface
 frame_transformer
 )
 ;
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_thread_checker_
 ;
@@ -955,7 +958,7 @@ RmsLevel
 rms_level_
 RTC_GUARDED_BY
 (
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 bool
@@ -971,7 +974,7 @@ bool
 previous_frame_muted_
 RTC_GUARDED_BY
 (
-encoder_queue_
+encoder_queue_checker_
 )
 =
 false
@@ -1017,6 +1020,7 @@ RateLimiter
 >
 retransmission_rate_limiter_
 ;
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 construction_thread_
 ;
@@ -1063,7 +1067,7 @@ FrameEncryptorInterface
 frame_encryptor_
 RTC_GUARDED_BY
 (
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 const
@@ -1083,7 +1087,7 @@ ChannelSendFrameTransformerDelegate
 frame_transformer_delegate_
 RTC_GUARDED_BY
 (
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 mutable
@@ -1097,11 +1101,19 @@ RTC_GUARDED_BY
 rtcp_counter_mutex_
 )
 ;
-rtc
+std
 :
 :
-TaskQueue
+unique_ptr
+<
+TaskQueueBase
+TaskQueueDeleter
+>
 encoder_queue_
+;
+RTC_NO_UNIQUE_ADDRESS
+SequenceChecker
+encoder_queue_checker_
 ;
 SdpAudioFormat
 encoder_format_
@@ -1241,6 +1253,7 @@ ssrc
 }
 private
 :
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 thread_checker_
 ;
@@ -1283,7 +1296,7 @@ absolute_capture_timestamp_ms
 RTC_DCHECK_RUN_ON
 (
 &
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 rtc
@@ -1854,6 +1867,14 @@ Priority
 NORMAL
 )
 )
+encoder_queue_checker_
+(
+encoder_queue_
+.
+get
+(
+)
+)
 encoder_format_
 (
 "
@@ -2124,6 +2145,10 @@ RTC_DCHECK_EQ
 error
 )
 ;
+encoder_queue_
+=
+nullptr
+;
 }
 void
 ChannelSend
@@ -2248,7 +2273,8 @@ Event
 flush
 ;
 encoder_queue_
-.
+-
+>
 PostTask
 (
 [
@@ -2262,7 +2288,7 @@ flush
 RTC_DCHECK_RUN_ON
 (
 &
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 CallEncoder
@@ -3718,7 +3744,8 @@ UpdateProfileTimeStamp
 )
 ;
 encoder_queue_
-.
+-
+>
 PostTask
 (
 [
@@ -3740,7 +3767,7 @@ mutable
 RTC_DCHECK_RUN_ON
 (
 &
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 if
@@ -4029,7 +4056,8 @@ worker_thread_checker_
 )
 ;
 encoder_queue_
-.
+-
+>
 PostTask
 (
 [
@@ -4043,7 +4071,7 @@ mutable
 RTC_DCHECK_RUN_ON
 (
 &
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 frame_encryptor_
@@ -4093,7 +4121,8 @@ frame_transformer
 return
 ;
 encoder_queue_
-.
+-
+>
 PostTask
 (
 [
@@ -4115,7 +4144,7 @@ mutable
 RTC_DCHECK_RUN_ON
 (
 &
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 InitFrameTransformerDelegate
@@ -4188,7 +4217,7 @@ frame_transformer
 RTC_DCHECK_RUN_ON
 (
 &
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 RTC_DCHECK
@@ -4243,7 +4272,7 @@ csrcs
 RTC_DCHECK_RUN_ON
 (
 &
-encoder_queue_
+encoder_queue_checker_
 )
 ;
 return
@@ -4292,7 +4321,7 @@ frame_transformer
 )
 encoder_queue_
 .
-Get
+get
 (
 )
 )

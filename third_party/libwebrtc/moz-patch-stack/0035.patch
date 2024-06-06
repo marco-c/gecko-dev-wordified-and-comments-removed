@@ -294,10 +294,10 @@ channel_send
 .
 cc
 index
-cfc203ca9b
+ab1b72a2f3
 .
 .
-8e9a97441f
+db632b3aa8
 100644
 -
 -
@@ -489,7 +489,7 @@ bool
 previous_frame_muted_
 RTC_GUARDED_BY
 (
-encoder_queue_
+encoder_queue_checker_
 )
 =
 false
@@ -528,10 +528,10 @@ RtpPacketSenderProxy
 rtp_packet_pacer_proxy_
 ;
 -
-398
+397
 6
 +
-425
+424
 7
 ChannelSend
 :
@@ -637,10 +637,10 @@ get
 )
 ;
 -
-687
+691
 6
 +
-717
+721
 7
 CallSendStatistics
 ChannelSend
