@@ -319,7 +319,6 @@ text
 =
 if
 (
-!
 autoSignedIn
 )
 view
