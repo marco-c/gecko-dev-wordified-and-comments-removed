@@ -602,9 +602,7 @@ app
 layout_constraintTop_toTopOf
 =
 "
-id
-/
-history_favicon
+parent
 "
 /
 >
