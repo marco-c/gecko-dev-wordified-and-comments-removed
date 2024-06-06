@@ -953,6 +953,9 @@ searchDrawable
 toBitmap
 (
 )
+showDescription
+=
+false
 )
 shortcutsEnginePickerProvider
 =
