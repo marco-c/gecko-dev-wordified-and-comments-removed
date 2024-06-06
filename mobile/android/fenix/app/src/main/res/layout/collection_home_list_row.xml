@@ -735,7 +735,7 @@ contentDescription
 "
 string
 /
-share_header
+share_button_content_description
 "
 android
 :
@@ -827,7 +827,7 @@ contentDescription
 "
 string
 /
-tab_menu
+collection_menu_button_content_description
 "
 android
 :
