@@ -234,6 +234,13 @@ string
 /
 app_name
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 app
 :
 srcCompat
