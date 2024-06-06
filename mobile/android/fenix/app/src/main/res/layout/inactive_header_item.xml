@@ -205,15 +205,6 @@ false
 "
 android
 :
-elevation
-=
-"
-dimen
-/
-home_item_elevation
-"
-android
-:
 focusable
 =
 "

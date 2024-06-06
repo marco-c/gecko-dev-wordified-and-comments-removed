@@ -191,15 +191,6 @@ rounded_bottom_corners
 "
 android
 :
-elevation
-=
-"
-dimen
-/
-home_item_elevation
-"
-android
-:
 paddingBottom
 =
 "
