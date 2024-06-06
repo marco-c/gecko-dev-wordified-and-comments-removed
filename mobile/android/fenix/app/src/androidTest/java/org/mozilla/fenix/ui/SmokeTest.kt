@@ -1845,15 +1845,7 @@ sites
 )
 }
 .
-openTabDrawer
-{
-}
-.
-openNewTab
-{
-}
-.
-dismissSearchBar
+goToHomescreen
 {
 verifyExistingTopSitesTabs
 (
