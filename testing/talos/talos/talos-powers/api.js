@@ -1325,7 +1325,7 @@ if
 !
 startupInfo
 .
-firstPaint
+firstPaint2
 )
 {
 let
