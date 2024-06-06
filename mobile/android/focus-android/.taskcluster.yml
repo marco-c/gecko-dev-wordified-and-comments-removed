@@ -399,6 +399,7 @@ lintKlarX86Nightly
 pmd
 checkstyle
 spotbugs
+assembleFocusX86DebugAndroidTest
 testFocusX86DebugUnitTest
 testKlarX86NightlyUnitTest
 artifacts
