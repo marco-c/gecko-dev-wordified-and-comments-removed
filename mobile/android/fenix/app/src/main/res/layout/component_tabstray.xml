@@ -923,6 +923,13 @@ clipToPadding
 "
 false
 "
+android
+:
+scrollbars
+=
+"
+vertical
+"
 app
 :
 layout_constraintBottom_toBottomOf
