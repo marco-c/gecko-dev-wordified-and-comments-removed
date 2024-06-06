@@ -7787,12 +7787,11 @@ name
 cookie_banner_blocker
 "
 >
-Blocker
-f
-r
 Cookie
 -
 Banner
+-
+Blocker
 <
 /
 string
