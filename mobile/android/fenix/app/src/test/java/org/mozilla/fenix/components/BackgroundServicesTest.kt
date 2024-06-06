@@ -406,6 +406,8 @@ asFeatureWebChannelsDisabled
 }
 returns
 false
+/
+/
 assertEquals
 (
 "
@@ -452,6 +454,8 @@ asFeatureWebChannelsDisabled
 }
 returns
 true
+/
+/
 assertEquals
 (
 "
