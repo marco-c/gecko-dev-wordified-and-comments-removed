@@ -1606,6 +1606,7 @@ HomeFragmentDirections
 actionHomeFragmentToSearchFragment
 (
 null
+true
 )
 val
 extras
@@ -2361,6 +2362,7 @@ HomeFragmentDirections
 actionHomeFragmentToSearchFragment
 (
 null
+true
 )
 nav
 (
