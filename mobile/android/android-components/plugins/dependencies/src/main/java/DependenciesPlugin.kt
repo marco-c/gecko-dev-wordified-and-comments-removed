@@ -2447,8 +2447,6 @@ geckoview
 Gecko
 .
 channel
-(
-)
 .
 artifactName
 }
@@ -2457,8 +2455,6 @@ artifactName
 Gecko
 .
 version
-(
-)
 }
 "
 val
