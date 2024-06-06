@@ -215,6 +215,16 @@ fenix
 .
 utils
 .
+IntentUtils
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
 Settings
 class
 DefaultBrowserNotificationWorker
@@ -346,7 +356,9 @@ applicationContext
 NOTIFICATION_PENDING_INTENT_TAG
 )
 intent
-0
+IntentUtils
+.
+defaultIntentPendingFlags
 )
 with
 (

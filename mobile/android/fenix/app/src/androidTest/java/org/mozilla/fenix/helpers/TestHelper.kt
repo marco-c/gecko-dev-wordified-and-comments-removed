@@ -475,6 +475,16 @@ robots
 .
 mDevice
 import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+IntentUtils
+import
 java
 .
 io
@@ -1126,7 +1136,9 @@ appContext
 Intent
 (
 )
-0
+IntentUtils
+.
+defaultIntentPendingFlags
 )
 val
 customTabsIntent

@@ -216,6 +216,16 @@ home
 intent
 .
 StartSearchIntentProcessor
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+IntentUtils
 RunWith
 (
 FenixRobolectricTestRunner
@@ -403,6 +413,10 @@ capture
 (
 intent
 )
+IntentUtils
+.
+defaultIntentPendingFlags
+or
 PendingIntent
 .
 FLAG_UPDATE_CURRENT
