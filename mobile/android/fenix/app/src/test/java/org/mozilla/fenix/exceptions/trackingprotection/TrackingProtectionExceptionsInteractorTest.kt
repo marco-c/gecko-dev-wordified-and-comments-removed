@@ -539,6 +539,9 @@ add
 session
 :
 EngineSession
+persistInPrivateMode
+:
+Boolean
 )
 =
 Unit
