@@ -3291,14 +3291,6 @@ testImplementation
 Deps
 .
 mockk
-implementation
-Deps
-.
-glide
-annotationProcessor
-Deps
-.
-glideAnnotationProcessor
 debugImplementation
 Deps
 .
