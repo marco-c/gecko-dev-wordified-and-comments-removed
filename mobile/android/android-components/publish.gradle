@@ -239,7 +239,7 @@ main
 java
 .
 srcDirs
-classifier
+archiveClassifier
 =
 '
 sources
