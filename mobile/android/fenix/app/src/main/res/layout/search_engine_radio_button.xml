@@ -201,6 +201,13 @@ search_engine_radio_button_height
 "
 android
 :
+importantForAccessibility
+=
+"
+no
+"
+android
+:
 textAlignment
 =
 "
