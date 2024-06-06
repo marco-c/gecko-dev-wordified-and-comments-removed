@@ -72,7 +72,7 @@ android_taskgraph
 .
 transforms
 .
-build
+build_components
 :
 transforms
 -

@@ -24,7 +24,7 @@ import
 get_version
 from
 .
-build
+build_components
 import
 get_nightly_version
 craft_path_version
