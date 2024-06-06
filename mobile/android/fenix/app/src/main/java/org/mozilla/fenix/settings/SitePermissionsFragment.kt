@@ -123,7 +123,7 @@ settings
 .
 PhoneFeature
 .
-NOTIFICATION
+CAMERA
 import
 org
 .
@@ -147,7 +147,7 @@ settings
 .
 PhoneFeature
 .
-CAMERA
+MICROPHONE
 import
 org
 .
@@ -159,7 +159,7 @@ settings
 .
 PhoneFeature
 .
-MICROPHONE
+NOTIFICATION
 import
 org
 .
@@ -362,9 +362,7 @@ cameraAction
 =
 settings
 .
-getSitePermissionsPhoneFeatureCameraAction
-(
-)
+sitePermissionsPhoneFeatureCameraAction
 .
 toString
 (
@@ -377,9 +375,7 @@ locationAction
 =
 settings
 .
-getSitePermissionsPhoneFeatureLocation
-(
-)
+sitePermissionsPhoneFeatureLocation
 .
 toString
 (
@@ -392,9 +388,7 @@ microPhoneAction
 =
 settings
 .
-getSitePermissionsPhoneFeatureMicrophoneAction
-(
-)
+sitePermissionsPhoneFeatureMicrophoneAction
 .
 toString
 (
@@ -407,9 +401,7 @@ notificationAction
 =
 settings
 .
-getSitePermissionsPhoneFeatureNotificationAction
-(
-)
+sitePermissionsPhoneFeatureNotificationAction
 .
 toString
 (

@@ -274,14 +274,11 @@ requireContext
 )
 )
 .
-setTrackingProtection
-(
-newValue
+shouldUseTrackingProtection
 =
 newValue
 as
 Boolean
-)
 with
 (
 requireComponents

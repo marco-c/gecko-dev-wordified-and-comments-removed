@@ -210,11 +210,10 @@ getInstance
 context
 )
 .
-setDefaultSearchEngineByName
-(
+defaultSearchEngineName
+=
 searchEngine
 .
 name
-)
 }
 }

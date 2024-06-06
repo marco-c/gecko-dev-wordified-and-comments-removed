@@ -227,12 +227,11 @@ value
 {
 settings
 .
-setPrivateMode
-(
+usePrivateMode
+=
 value
 .
 isPrivate
-)
 modeDidChange
 (
 value

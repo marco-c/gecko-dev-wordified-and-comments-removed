@@ -269,10 +269,9 @@ context
 !
 )
 .
-setFontSizeFactor
-(
+fontSizeFactor
+=
 newTextScale
-)
 requireComponents
 .
 core
@@ -349,12 +348,11 @@ context
 !
 )
 .
-setAutoSize
-(
+shouldUseAutoSize
+=
 newValue
 as
 Boolean
-)
 requireComponents
 .
 core

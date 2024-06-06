@@ -238,10 +238,9 @@ itemView
 context
 )
 .
-setTrackingProtection
-(
+shouldUseTrackingProtection
+=
 enabled
-)
 with
 (
 itemView

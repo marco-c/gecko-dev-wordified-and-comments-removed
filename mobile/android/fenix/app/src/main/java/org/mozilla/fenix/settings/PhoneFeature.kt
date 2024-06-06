@@ -294,9 +294,7 @@ context
 settings
 ?
 .
-getSitePermissionsPhoneFeatureCameraAction
-(
-)
+sitePermissionsPhoneFeatureCameraAction
 ?
 .
 toString
@@ -323,9 +321,7 @@ context
 settings
 ?
 .
-getSitePermissionsPhoneFeatureLocation
-(
-)
+sitePermissionsPhoneFeatureLocation
 ?
 .
 toString
@@ -352,9 +348,7 @@ context
 settings
 ?
 .
-getSitePermissionsPhoneFeatureMicrophoneAction
-(
-)
+sitePermissionsPhoneFeatureMicrophoneAction
 ?
 .
 toString
@@ -381,9 +375,7 @@ context
 settings
 ?
 .
-getSitePermissionsPhoneFeatureNotificationAction
-(
-)
+sitePermissionsPhoneFeatureNotificationAction
 ?
 .
 toString
@@ -440,9 +432,7 @@ camera
 settings
 ?
 .
-getSitePermissionsPhoneFeatureCameraAction
-(
-)
+sitePermissionsPhoneFeatureCameraAction
 ?
 .
 toStatus
@@ -462,9 +452,7 @@ location
 settings
 ?
 .
-getSitePermissionsPhoneFeatureLocation
-(
-)
+sitePermissionsPhoneFeatureLocation
 ?
 .
 toStatus
@@ -484,9 +472,7 @@ microphone
 settings
 ?
 .
-getSitePermissionsPhoneFeatureMicrophoneAction
-(
-)
+sitePermissionsPhoneFeatureMicrophoneAction
 ?
 .
 toStatus
@@ -506,9 +492,7 @@ notification
 settings
 ?
 .
-getSitePermissionsPhoneFeatureNotificationAction
-(
-)
+sitePermissionsPhoneFeatureNotificationAction
 ?
 .
 toStatus
