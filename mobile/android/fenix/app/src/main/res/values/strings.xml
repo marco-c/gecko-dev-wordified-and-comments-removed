@@ -542,7 +542,9 @@ etc
 )
 :
 Navigate
-home
+to
+open
+tabs
 -
 -
 >
@@ -551,10 +553,11 @@ string
 name
 =
 "
-browser_home_button
+browser_tabs_button
 "
 >
-Home
+Open
+Tabs
 <
 /
 string

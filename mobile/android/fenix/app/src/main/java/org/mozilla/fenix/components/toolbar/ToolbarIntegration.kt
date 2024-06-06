@@ -321,7 +321,7 @@ R
 .
 string
 .
-browser_home_button
+browser_tabs_button
 )
 visible
 =
