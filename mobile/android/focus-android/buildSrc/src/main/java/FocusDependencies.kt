@@ -57,7 +57,7 @@ MPL
 *
 /
 object
-Versions
+FocusVersions
 {
 object
 Adjust
@@ -603,7 +603,7 @@ const
 val
 google_compose_compiler
 =
-Versions
+FocusVersions
 .
 Google
 .
@@ -612,7 +612,7 @@ const
 val
 ktlint_version
 =
-Versions
+FocusVersions
 .
 Testing
 .
@@ -633,7 +633,7 @@ annotation
 annotation
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -656,7 +656,7 @@ core
 testing
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -675,7 +675,7 @@ appcompat
 appcompat
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -694,7 +694,7 @@ browser
 browser
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -713,7 +713,7 @@ cardview
 cardview
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -734,7 +734,7 @@ ui
 ui
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -759,7 +759,7 @@ test
 junit4
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -784,7 +784,7 @@ test
 manifest
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -807,7 +807,7 @@ ui
 tooling
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -828,7 +828,7 @@ foundation
 foundation
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -849,7 +849,7 @@ material
 material
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -872,7 +872,7 @@ runtime
 livedata
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -893,7 +893,7 @@ constraintlayout
 compose
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -912,7 +912,7 @@ constraintlayout
 constraintlayout
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -933,7 +933,7 @@ core
 ktx
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -952,7 +952,7 @@ fragment
 fragment
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -973,7 +973,7 @@ palette
 ktx
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -994,7 +994,7 @@ preference
 ktx
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1013,7 +1013,7 @@ recyclerview
 recyclerview
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1034,7 +1034,7 @@ lifecycle
 process
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1057,7 +1057,7 @@ viewmodel
 ktx
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1078,7 +1078,7 @@ core
 splashscreen
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1099,7 +1099,7 @@ savedstate
 ktx
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1118,7 +1118,7 @@ transition
 transition
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1141,7 +1141,7 @@ runtime
 ktx
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1162,7 +1162,7 @@ work
 testing
 :
 {
-Versions
+FocusVersions
 .
 AndroidX
 .
@@ -1185,7 +1185,7 @@ material
 material
 :
 {
-Versions
+FocusVersions
 .
 Google
 .
@@ -1210,7 +1210,7 @@ insets
 ui
 :
 {
-Versions
+FocusVersions
 .
 Google
 .
@@ -1233,7 +1233,7 @@ play
 core
 :
 {
-Versions
+FocusVersions
 .
 Google
 .
@@ -1258,7 +1258,7 @@ gradle
 plugin
 :
 {
-Versions
+FocusVersions
 .
 Gradle
 .
@@ -1281,7 +1281,7 @@ build
 gradle
 :
 {
-Versions
+FocusVersions
 .
 Gradle
 .
@@ -1304,7 +1304,7 @@ jna
 jna
 :
 {
-Versions
+FocusVersions
 .
 ThirdParty
 .
@@ -1330,7 +1330,7 @@ android
 core
 :
 {
-Versions
+FocusVersions
 .
 ThirdParty
 .
@@ -1351,7 +1351,7 @@ sentry
 android
 :
 {
-Versions
+FocusVersions
 .
 ThirdParty
 .
@@ -1376,7 +1376,7 @@ coroutines
 core
 :
 {
-Versions
+FocusVersions
 .
 Kotlin
 .
@@ -1401,7 +1401,7 @@ coroutines
 android
 :
 {
-Versions
+FocusVersions
 .
 Kotlin
 .
@@ -1424,7 +1424,7 @@ adjust
 android
 :
 {
-Versions
+FocusVersions
 .
 Adjust
 .
@@ -1445,7 +1445,7 @@ installreferrer
 installreferrer
 :
 {
-Versions
+FocusVersions
 .
 Adjust
 .
@@ -1468,7 +1468,7 @@ junit
 ktx
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1487,7 +1487,7 @@ test
 orchestrator
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1506,7 +1506,7 @@ test
 core
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1527,7 +1527,7 @@ core
 ktx
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1546,7 +1546,7 @@ test
 rules
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1565,7 +1565,7 @@ test
 runner
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1586,7 +1586,7 @@ uiautomator
 uiautomator
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1609,7 +1609,7 @@ espresso
 contrib
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1632,7 +1632,7 @@ espresso
 core
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1657,7 +1657,7 @@ idling
 resource
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1680,7 +1680,7 @@ espresso
 intents
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1703,7 +1703,7 @@ espresso
 web
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1722,7 +1722,7 @@ jraska
 falcon
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1741,7 +1741,7 @@ fastlane
 screengrab
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1760,7 +1760,7 @@ robolectric
 robolectric
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1781,7 +1781,7 @@ mockito
 core
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1802,7 +1802,7 @@ okhttp3
 mockwebserver
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1827,7 +1827,7 @@ coroutines
 test
 :
 {
-Versions
+FocusVersions
 .
 Kotlin
 .
@@ -1852,7 +1852,7 @@ jupiter
 api
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1877,7 +1877,7 @@ jupiter
 engine
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
@@ -1902,7 +1902,7 @@ jupiter
 params
 :
 {
-Versions
+FocusVersions
 .
 Testing
 .
