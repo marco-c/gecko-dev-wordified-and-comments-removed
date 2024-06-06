@@ -468,6 +468,12 @@ crashReporter
 strictMode
 )
 }
+Suppress
+(
+"
+Deprecation
+"
+)
 val
 useCases
 by
@@ -493,6 +499,12 @@ core
 topSitesStorage
 )
 }
+Suppress
+(
+"
+Deprecation
+"
+)
 val
 intentProcessors
 by

@@ -167,6 +167,12 @@ analytics
 crashReporter
 )
 }
+Suppress
+(
+"
+Deprecation
+"
+)
 override
 val
 useCases
