@@ -74,6 +74,10 @@ metrics
 0
 -
 0
+no_lint
+:
+-
+CATEGORY_GENERIC
 events
 :
 app_opened
@@ -10006,6 +10010,10 @@ expires
 -
 01
 "
+no_lint
+:
+-
+COMMON_PREFIX
 media_pause
 :
 type
