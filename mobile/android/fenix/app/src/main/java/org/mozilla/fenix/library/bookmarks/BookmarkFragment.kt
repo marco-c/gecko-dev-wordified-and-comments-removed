@@ -1027,7 +1027,9 @@ when
 val
 mode
 =
-bookmarkView
+bookmarkStore
+.
+state
 .
 mode
 )

@@ -786,7 +786,7 @@ bookmarks
 {
 interactor
 .
-expand
+open
 (
 tree
 )
@@ -1219,7 +1219,10 @@ interactor
 .
 delete
 (
+setOf
+(
 item
+)
 )
 verify
 {
@@ -1248,7 +1251,10 @@ interactor
 .
 delete
 (
+setOf
+(
 subfolder
+)
 )
 verify
 {
@@ -1274,7 +1280,7 @@ bookmarks
 {
 interactor
 .
-deleteMulti
+delete
 (
 setOf
 (

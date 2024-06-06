@@ -130,6 +130,16 @@ mozilla
 fenix
 .
 ThemeManager
+import
+org
+.
+mozilla
+.
+fenix
+.
+library
+.
+LibraryItemMenu
 class
 BookmarkItemMenu
 (
@@ -159,6 +169,8 @@ Unit
 {
 }
 )
+:
+LibraryItemMenu
 {
 sealed
 class
@@ -207,6 +219,7 @@ Item
 (
 )
 }
+override
 val
 menuBuilder
 by
