@@ -437,6 +437,10 @@ dialogBinding
 filename
 .
 text
+.
+toString
+(
+)
 )
 assertFalse
 (
@@ -653,6 +657,10 @@ dialogBinding
 filename
 .
 text
+.
+toString
+(
+)
 )
 assertFalse
 (
