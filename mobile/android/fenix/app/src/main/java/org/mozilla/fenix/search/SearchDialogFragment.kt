@@ -1992,6 +1992,7 @@ SearchFragmentAction
 UpdateSearchState
 (
 search
+showUnifiedSearchFeature
 )
 )
 updateSearchSelectorMenu

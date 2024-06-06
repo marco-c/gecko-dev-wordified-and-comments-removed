@@ -1003,6 +1003,12 @@ SearchFragmentAction
 .
 ShowSearchShortcutEnginePicker
 (
+!
+settings
+.
+showUnifiedSearchFeature
+&
+&
 (
 textMatchesCurrentUrl
 |

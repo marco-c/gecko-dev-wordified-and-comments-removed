@@ -366,6 +366,16 @@ settings
 )
 .
 shouldShowSearchShortcuts
+isVisible
+=
+!
+context
+.
+settings
+(
+)
+.
+showUnifiedSearchFeature
 }
 val
 showHistorySuggestions
