@@ -65,6 +65,12 @@ fenix
 .
 browser
 import
+android
+.
+content
+.
+Context
+import
 androidx
 .
 lifecycle
@@ -150,6 +156,12 @@ UriOpenedObserverTest
 private
 lateinit
 var
+context
+:
+Context
+private
+lateinit
+var
 owner
 :
 LifecycleOwner
@@ -171,6 +183,14 @@ setup
 (
 )
 {
+context
+=
+mockk
+(
+relaxed
+=
+true
+)
 owner
 =
 mockk
@@ -210,6 +230,7 @@ observer
 =
 UriOpenedObserver
 (
+context
 owner
 sessionManager
 metrics
@@ -239,6 +260,7 @@ observer
 =
 UriOpenedObserver
 (
+context
 owner
 sessionManager
 metrics
@@ -306,6 +328,7 @@ observer
 =
 UriOpenedObserver
 (
+context
 owner
 sessionManager
 metrics

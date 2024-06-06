@@ -456,6 +456,15 @@ registerRxExceptionHandling
 enableStrictMode
 (
 )
+applicationContext
+.
+settings
+(
+)
+.
+totalUriCount
+=
+0
 if
 (
 !
