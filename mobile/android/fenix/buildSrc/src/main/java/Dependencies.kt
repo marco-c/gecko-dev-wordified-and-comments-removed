@@ -278,7 +278,7 @@ androidx_lifecycle
 .
 0
 -
-alpha02
+alpha03
 "
 const
 val
@@ -291,7 +291,7 @@ androidx_fragment
 .
 0
 -
-alpha01
+alpha02
 "
 const
 val
@@ -300,11 +300,11 @@ androidx_navigation
 "
 2
 .
-1
+2
 .
 0
 -
-alpha06
+alpha01
 "
 const
 val
@@ -317,7 +317,7 @@ androidx_recyclerview
 .
 0
 -
-beta01
+beta02
 "
 const
 val
@@ -363,11 +363,11 @@ androidx_core
 "
 1
 .
-1
+2
 .
 0
 -
-rc02
+alpha03
 "
 const
 val
