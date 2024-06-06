@@ -275,6 +275,12 @@ class
 class
 SavedLoginsStorageControllerTest
 {
+val
+testDispatcher
+=
+TestCoroutineDispatcher
+(
+)
 get
 :
 Rule
@@ -283,9 +289,7 @@ coroutinesTestRule
 =
 MainCoroutineRule
 (
-TestCoroutineDispatcher
-(
-)
+testDispatcher
 )
 private
 val
@@ -445,6 +449,11 @@ cleanupTestCoroutines
 (
 )
 ioDispatcher
+.
+cleanupTestCoroutines
+(
+)
+testDispatcher
 .
 cleanupTestCoroutines
 (
