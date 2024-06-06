@@ -279,4 +279,17 @@ id
 .
 trackingProtectionFragment
 )
+WallpaperSettings
+(
+NavGraphDirections
+.
+actionGlobalWallpaperSettingsFragment
+(
+)
+R
+.
+id
+.
+wallpaperSettingsFragment
+)
 }

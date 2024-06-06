@@ -738,6 +738,12 @@ intentProcessors
 .
 fennecPageShortcutIntentProcessor
 +
+components
+.
+intentProcessors
+.
+externalDeepLinkIntentProcessor
++
 modeDependentProcessors
 +
 NewTabShortcutIntentProcessor

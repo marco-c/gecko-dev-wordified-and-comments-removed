@@ -117,6 +117,7 @@ IntentProcessorType
 EXTERNAL_APP
 NEW_TAB
 MIGRATION
+EXTERNAL_DEEPLINK
 OTHER
 ;
 /
@@ -157,6 +158,7 @@ java
 .
 name
 NEW_TAB
+EXTERNAL_DEEPLINK
 OTHER
 -
 >
@@ -228,6 +230,7 @@ FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY
 =
 0
 MIGRATION
+EXTERNAL_DEEPLINK
 OTHER
 -
 >
@@ -324,6 +327,15 @@ processor
 IntentProcessorType
 .
 NEW_TAB
+externalDeepLinkIntentProcessor
+=
+=
+processor
+-
+>
+IntentProcessorType
+.
+EXTERNAL_DEEPLINK
 else
 -
 >
