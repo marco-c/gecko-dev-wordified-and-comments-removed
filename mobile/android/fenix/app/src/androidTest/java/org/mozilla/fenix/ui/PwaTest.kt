@@ -97,16 +97,6 @@ mozilla
 .
 fenix
 .
-customannotations
-.
-SmokeTest
-import
-org
-.
-mozilla
-.
-fenix
-.
 helpers
 .
 Constants
@@ -668,7 +658,6 @@ phoneLink
 )
 }
 }
-SmokeTest
 Test
 fun
 appLikeExperiencePWATest

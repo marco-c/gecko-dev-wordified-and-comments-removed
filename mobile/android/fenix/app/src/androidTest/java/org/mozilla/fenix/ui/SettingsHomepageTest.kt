@@ -903,8 +903,6 @@ content
 )
 }
 }
-SmokeTest
-Test
 Ignore
 (
 "
@@ -930,6 +928,7 @@ issues
 26559
 "
 )
+Test
 fun
 setWallpaperTest
 (

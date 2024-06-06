@@ -467,6 +467,7 @@ is
 installed
 and
 enabled
+SmokeTest
 Test
 fun
 neverOpenLinkInAppTest
@@ -963,7 +964,6 @@ is
 installed
 and
 enabled
-SmokeTest
 Test
 fun
 privateBrowsingAskBeforeOpeningLinkInAppCancelTest
@@ -1125,7 +1125,6 @@ is
 installed
 and
 enabled
-SmokeTest
 Test
 fun
 privateBrowsingAskBeforeOpeningLinkInAppOpenTest

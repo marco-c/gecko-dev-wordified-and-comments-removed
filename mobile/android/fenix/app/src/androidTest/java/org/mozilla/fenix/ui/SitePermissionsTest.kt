@@ -1382,6 +1382,7 @@ allowed
 )
 }
 }
+SmokeTest
 Test
 fun
 allowLocationPermissionsTest
@@ -1443,6 +1444,7 @@ longitude
 )
 }
 }
+SmokeTest
 Test
 fun
 blockLocationPermissionsTest

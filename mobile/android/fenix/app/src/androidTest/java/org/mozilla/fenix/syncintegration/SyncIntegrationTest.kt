@@ -219,6 +219,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 helpers
 .
 AndroidAssetDispatcher
@@ -509,6 +519,7 @@ bookmarkAfterSyncIsShown
 (
 )
 }
+SmokeTest
 Test
 fun
 checkAccountSettings

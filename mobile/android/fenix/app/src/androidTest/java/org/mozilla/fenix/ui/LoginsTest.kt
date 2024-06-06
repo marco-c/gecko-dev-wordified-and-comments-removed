@@ -839,7 +839,6 @@ com
 )
 }
 }
-SmokeTest
 Test
 fun
 openWebsiteForSavedLoginTest
@@ -2433,6 +2432,7 @@ verifyNotSavedLoginFromPrompt
 )
 }
 }
+SmokeTest
 Test
 fun
 verifyNeverSaveLoginOptionTest

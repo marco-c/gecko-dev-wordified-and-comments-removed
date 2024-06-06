@@ -109,16 +109,6 @@ mozilla
 .
 fenix
 .
-customannotations
-.
-SmokeTest
-import
-org
-.
-mozilla
-.
-fenix
-.
 helpers
 .
 AndroidAssetDispatcher
@@ -309,7 +299,6 @@ shutdown
 (
 )
 }
-SmokeTest
 Test
 fun
 openTotalCookieProtectionLearnMoreLinkTest
@@ -381,7 +370,6 @@ android
 )
 }
 }
-SmokeTest
 Test
 fun
 dismissTotalCookieProtectionHintTest
