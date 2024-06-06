@@ -704,6 +704,19 @@ string
 enable_search_suggestion_subtitle
 )
 val
+appName
+=
+resources
+.
+getString
+(
+R
+.
+string
+.
+app_name
+)
+val
 learnMore
 =
 resources
@@ -726,6 +739,7 @@ String
 format
 (
 subtitle
+appName
 learnMore
 )
 )
