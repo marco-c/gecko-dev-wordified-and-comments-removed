@@ -536,6 +536,8 @@ tracking
 -
 protection
 -
+firefox
+-
 android
 "
 )
