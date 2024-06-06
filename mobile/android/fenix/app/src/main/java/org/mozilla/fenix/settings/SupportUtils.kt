@@ -683,6 +683,14 @@ tracking
 protection
 "
 )
+SPONSOR_PRIVACY
+(
+"
+sponsor
+-
+privacy
+"
+)
 }
 enum
 class
