@@ -125,6 +125,14 @@ test
 .
 advanceUntilIdle
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 appservices
@@ -5649,6 +5657,8 @@ autocomplete
 suggestions
 (
 )
+=
+runTest
 {
 val
 connection

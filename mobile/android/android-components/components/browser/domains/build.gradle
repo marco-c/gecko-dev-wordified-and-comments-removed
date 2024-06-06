@@ -131,6 +131,16 @@ pro
 dependencies
 {
 implementation
+project
+(
+'
+:
+concept
+-
+toolbar
+'
+)
+implementation
 Dependencies
 .
 kotlin_stdlib
