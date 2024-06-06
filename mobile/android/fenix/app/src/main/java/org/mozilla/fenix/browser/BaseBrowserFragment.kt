@@ -1424,6 +1424,11 @@ WeakReference
 (
 swipeRefresh
 )
+viewLifecycleScope
+=
+viewLifecycleOwner
+.
+lifecycleScope
 arguments
 =
 requireArguments
