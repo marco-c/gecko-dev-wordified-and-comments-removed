@@ -172,13 +172,6 @@ IsPseudoDisplay
 :
 :
 No
-Screen
-:
-:
-IsHDR
-:
-:
-No
 )
 ;
 screenList

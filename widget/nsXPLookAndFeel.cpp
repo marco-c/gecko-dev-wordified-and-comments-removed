@@ -1024,6 +1024,11 @@ dynamicRange
 "
 ui
 .
+videoDynamicRange
+"
+"
+ui
+.
 panelAnimations
 "
 "

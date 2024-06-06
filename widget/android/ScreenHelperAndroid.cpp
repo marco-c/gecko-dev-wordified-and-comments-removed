@@ -262,11 +262,6 @@ GetDpi
 (
 )
 ;
-bool
-isHDR
-=
-false
-;
 auto
 orientation
 =
@@ -341,13 +336,6 @@ IsPseudoDisplay
 :
 :
 No
-Screen
-:
-:
-IsHDR
-(
-isHDR
-)
 orientation
 angle
 )
