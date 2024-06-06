@@ -2257,6 +2257,17 @@ UiSelector
 (
 )
 .
+resourceId
+(
+"
+packageName
+:
+id
+/
+title
+"
+)
+.
 textContains
 (
 expectedTitle
