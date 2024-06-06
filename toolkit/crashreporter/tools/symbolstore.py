@@ -2118,7 +2118,7 @@ in
 install_manifests
 :
         
-destination
+absolute_destination
 =
 os
 .
@@ -2169,7 +2169,7 @@ path
 .
 join
 (
-destination
+absolute_destination
 dst
 )
 )
@@ -5970,10 +5970,7 @@ print
 rel_path
 )
         
-else
-:
-            
-if
+elif
 os
 .
 path
@@ -5983,7 +5980,7 @@ isfile
 file_dbg
 )
 :
-                
+            
 os
 .
 unlink
@@ -7575,6 +7572,8 @@ arguments
 "
 )
         
+sys
+.
 exit
 (
 1
@@ -7611,6 +7610,8 @@ e
 )
 )
         
+sys
+.
 exit
 (
 1
