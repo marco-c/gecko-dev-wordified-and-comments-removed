@@ -391,7 +391,7 @@ androidx_core
 "
 1
 .
-4
+5
 .
 0
 "
@@ -402,7 +402,7 @@ androidx_espresso
 "
 3
 .
-4
+5
 .
 0
 "
@@ -415,7 +415,7 @@ androidx_ext_junit
 .
 1
 .
-3
+4
 "
 const
 val
@@ -426,7 +426,7 @@ androidx_orchestrator
 .
 4
 .
-1
+2
 "
 const
 val
