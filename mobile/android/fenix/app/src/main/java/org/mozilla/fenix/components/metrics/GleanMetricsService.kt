@@ -127,8 +127,6 @@ mozilla
 .
 fenix
 .
-debug
-.
 GleanMetrics
 .
 Metrics
@@ -138,8 +136,6 @@ org
 mozilla
 .
 fenix
-.
-debug
 .
 GleanMetrics
 .
