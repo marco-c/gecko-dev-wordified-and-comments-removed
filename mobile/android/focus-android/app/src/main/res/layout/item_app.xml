@@ -222,12 +222,9 @@ android
 background
 =
 "
-?
-android
-:
-attr
+drawable
 /
-selectableItemBackground
+background_open_in_item
 "
 android
 :
