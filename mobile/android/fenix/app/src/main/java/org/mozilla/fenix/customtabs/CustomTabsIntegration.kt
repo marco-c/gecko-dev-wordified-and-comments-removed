@@ -80,6 +80,8 @@ content
 res
 .
 AppCompatResources
+.
+getDrawable
 import
 mozilla
 .
@@ -230,8 +232,6 @@ elevation
 val
 uncoloredEtpShield
 =
-AppCompatResources
-.
 getDrawable
 (
 activity
@@ -278,8 +278,6 @@ trackingProtectionNothingBlocked
 uncoloredEtpShield
 trackingProtectionException
 =
-AppCompatResources
-.
 getDrawable
 (
 activity
@@ -429,8 +427,6 @@ toolbar
 .
 background
 =
-AppCompatResources
-.
 getDrawable
 (
 activity
@@ -438,7 +434,7 @@ R
 .
 drawable
 .
-toolbar_background
+toolbar_background_private
 )
 }
 }
