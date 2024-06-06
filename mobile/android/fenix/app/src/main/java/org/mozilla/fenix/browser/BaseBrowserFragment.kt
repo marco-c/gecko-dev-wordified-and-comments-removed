@@ -1582,6 +1582,8 @@ browserToolbarView
 .
 view
 .
+display
+.
 setOnSiteSecurityClickedListener
 {
 showQuickSettingsDialog
@@ -1591,6 +1593,8 @@ showQuickSettingsDialog
 browserToolbarView
 .
 view
+.
+display
 .
 setOnTrackingProtectionClickedListener
 {

@@ -2083,7 +2083,7 @@ R
 .
 id
 .
-mozac_browser_toolbar_tracking_protection_icon_view
+mozac_browser_toolbar_tracking_protection_indicator
 )
 /
 /
