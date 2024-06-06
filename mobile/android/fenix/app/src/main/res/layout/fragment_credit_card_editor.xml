@@ -1031,7 +1031,9 @@ android
 layout_weight
 =
 "
-1
+0
+.
+8
 "
 android
 :
