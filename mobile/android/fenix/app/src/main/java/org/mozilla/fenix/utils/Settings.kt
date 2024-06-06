@@ -2866,7 +2866,7 @@ default
 false
 )
 var
-lastInteractionWithReEngageCookieBannerDialogInMS
+lastInteractionWithReEngageCookieBannerDialogInMs
 by
 longPreference
 (
@@ -2878,7 +2878,7 @@ R
 .
 string
 .
-pref_key_cookie_banner_re_engage_dialog_last_interaction_with_dialog_in_ms
+pref_key_cookie_banner_re_engage_dialog_last_interaction_in_ms
 )
 default
 =
@@ -3031,7 +3031,7 @@ timeNowInMillis
 (
 )
 -
-lastInteractionWithReEngageCookieBannerDialogInMS
+lastInteractionWithReEngageCookieBannerDialogInMs
 >
 =
 timerForCookieBannerDialog

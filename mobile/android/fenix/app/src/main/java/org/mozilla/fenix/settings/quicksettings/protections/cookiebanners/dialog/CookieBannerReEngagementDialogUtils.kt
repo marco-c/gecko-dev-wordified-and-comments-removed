@@ -506,7 +506,7 @@ shouldCookieBannerReEngagementDialog
 {
 settings
 .
-lastInteractionWithReEngageCookieBannerDialogInMS
+lastInteractionWithReEngageCookieBannerDialogInMs
 =
 System
 .
