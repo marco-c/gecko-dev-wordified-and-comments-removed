@@ -217,6 +217,11 @@ Services
 (
 private
 val
+context
+:
+Context
+private
+val
 accountManager
 :
 FxaAccountManager
@@ -234,7 +239,10 @@ redirectUrl
 =
 BackgroundServices
 .
-REDIRECT_URL
+redirectUrl
+(
+context
+)
 )
 {
 context
