@@ -2152,6 +2152,13 @@ IntentReceiverActivity
 class
 .
 java
+notificationsDelegate
+=
+context
+.
+components
+.
+notificationsDelegate
 )
 MediaSessionFeature
 (
