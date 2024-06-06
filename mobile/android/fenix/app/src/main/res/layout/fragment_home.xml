@@ -554,6 +554,13 @@ home_search_background_normal
 "
 android
 :
+clickable
+=
+"
+true
+"
+android
+:
 contentDescription
 =
 "
@@ -572,7 +579,7 @@ toolbar_elevation
 "
 android
 :
-focusableInTouchMode
+focusable
 =
 "
 true
