@@ -290,6 +290,17 @@ AppCompatActivity
 title
 =
 title
+activity
+?
+.
+setNavigationIcon
+(
+R
+.
+drawable
+.
+ic_back_button
+)
 (
 activity
 as
