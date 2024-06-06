@@ -412,6 +412,13 @@ exitFullscreen
 (
 )
 ;
+int
+findAll
+(
+String
+find
+)
+;
 void
 loadData
 (

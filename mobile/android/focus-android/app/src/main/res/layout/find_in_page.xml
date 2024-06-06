@@ -110,6 +110,15 @@ wrap_content
 "
 android
 :
+background
+=
+"
+color
+/
+photonGrey80
+"
+android
+:
 orientation
 =
 "
