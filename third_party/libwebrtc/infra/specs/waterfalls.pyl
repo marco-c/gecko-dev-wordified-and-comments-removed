@@ -1610,7 +1610,7 @@ mixins
 :
 [
 '
-mac_12_x64
+mac_13_x64
 '
 '
 chromium
@@ -2769,7 +2769,7 @@ mixins
 :
 [
 '
-mac_12_x64
+mac_13_x64
 '
 '
 chromium
