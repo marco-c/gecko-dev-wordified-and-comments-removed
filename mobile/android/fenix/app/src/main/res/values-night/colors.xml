@@ -407,7 +407,8 @@ Snackbar
 Floating
 action
 button
-Controls
+Chip
+selected
 -
 -
 >
@@ -428,7 +429,7 @@ UnusedResources
 >
 color
 /
-photonViolet70
+photonViolet60
 <
 /
 color

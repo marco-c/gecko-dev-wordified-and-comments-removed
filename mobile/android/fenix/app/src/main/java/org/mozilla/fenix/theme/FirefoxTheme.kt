@@ -301,7 +301,7 @@ actionPrimary
 =
 PhotonColors
 .
-Violet70
+Violet60
 actionSecondary
 =
 PhotonColors
@@ -1023,7 +1023,8 @@ Snackbar
 Floating
 action
 button
-Controls
+Chip
+selected
 var
 actionPrimary
 by
