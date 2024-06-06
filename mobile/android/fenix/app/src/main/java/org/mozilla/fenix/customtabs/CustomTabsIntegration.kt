@@ -226,6 +226,9 @@ Boolean
 isPrivate
 :
 Boolean
+isNavBarEnabled
+:
+Boolean
 )
 :
 LifecycleAwareFeature
@@ -373,6 +376,9 @@ isPrivate
 forceActionButtonTinting
 =
 isPrivate
+isNavBarEnabled
+=
+isNavBarEnabled
 )
 override
 fun

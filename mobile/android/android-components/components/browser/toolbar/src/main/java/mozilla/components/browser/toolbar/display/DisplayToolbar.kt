@@ -4350,7 +4350,6 @@ mode
 .
 *
 /
-internal
 fun
 hideMenuButton
 (
