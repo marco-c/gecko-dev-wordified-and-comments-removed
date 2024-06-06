@@ -12,6 +12,15 @@ detekt
 -
 rules
 '
+include
+'
+:
+mozilla
+-
+lint
+-
+rules
+'
 def
 log
 (
