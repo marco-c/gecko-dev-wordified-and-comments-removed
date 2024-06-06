@@ -2045,13 +2045,6 @@ view
 =
 view
 )
-if
-(
-FeatureFlags
-.
-pictureInPicture
-)
-{
 pipFeature
 =
 PictureInPictureFeature
@@ -2069,7 +2062,6 @@ customTabSessionId
 :
 pipModeChanged
 )
-}
 appLinksFeature
 .
 set
