@@ -401,6 +401,13 @@ inactiveTabsFilter
 concatAdapter
 .
 inactiveTabsAdapter
+context
+.
+components
+.
+analytics
+.
+metrics
 )
 )
 }
