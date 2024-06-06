@@ -256,6 +256,15 @@ artifacts
 type
 :
 directory
+retry
+-
+exit
+-
+status
+:
+[
+20
+]
 treeherder
 :
 kind
