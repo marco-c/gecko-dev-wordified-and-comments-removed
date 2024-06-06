@@ -383,12 +383,6 @@ TAB_GROUP_FEATURE_NAME
 )
 TitleHeaderAdapter
 (
-browserStore
-context
-.
-settings
-(
-)
 )
 BrowserTabsAdapter
 (
