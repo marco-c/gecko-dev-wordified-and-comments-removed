@@ -358,7 +358,9 @@ AccountObserver
 private
 val
 accountManager
-=
+by
+lazy
+{
 context
 .
 components
@@ -366,6 +368,7 @@ components
 backgroundServices
 .
 accountManager
+}
 fun
 getCurrentMode
 (
