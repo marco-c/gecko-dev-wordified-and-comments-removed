@@ -2107,7 +2107,7 @@ telemetry
 '
 )
 implementation
-FocusDependencies
+ComponentsDependencies
 .
 kotlin_coroutines
 debugImplementation
