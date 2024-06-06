@@ -397,17 +397,6 @@ slideOffset
 Float
 )
 {
-Log
-.
-e
-(
-"
-slideOffset
-"
-"
-slideOffset
-"
-)
 if
 (
 slideOffset

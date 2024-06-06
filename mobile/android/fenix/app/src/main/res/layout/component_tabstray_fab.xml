@@ -208,12 +208,5 @@ color
 /
 photonWhite
 "
-android
-:
-fitsSystemWindows
-=
-"
-true
-"
 /
 >
