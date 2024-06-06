@@ -125,7 +125,7 @@ settings
 .
 account
 .
-AccountSettingsAction
+AccountSettingsFragmentAction
 import
 org
 .
@@ -161,7 +161,7 @@ settings
 .
 account
 .
-AccountSettingsStore
+AccountSettingsFragmentStore
 class
 AccountSettingsInteractorTest
 {
@@ -215,7 +215,7 @@ onChangeDeviceName
 val
 store
 :
-AccountSettingsStore
+AccountSettingsFragmentStore
 =
 mockk
 (
@@ -256,7 +256,7 @@ store
 .
 dispatch
 (
-AccountSettingsAction
+AccountSettingsFragmentAction
 .
 UpdateDeviceName
 (

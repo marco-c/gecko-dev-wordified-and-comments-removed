@@ -216,7 +216,7 @@ private
 val
 store
 :
-AccountSettingsStore
+AccountSettingsFragmentStore
 )
 :
 AccountSettingsUserActions
@@ -385,7 +385,7 @@ store
 .
 dispatch
 (
-AccountSettingsAction
+AccountSettingsFragmentAction
 .
 UpdateDeviceName
 (

@@ -320,7 +320,7 @@ lateinit
 var
 accountSettingsStore
 :
-AccountSettingsStore
+AccountSettingsFragmentStore
 private
 lateinit
 var
@@ -613,9 +613,9 @@ get
 this
 )
 {
-AccountSettingsStore
+AccountSettingsFragmentStore
 (
-AccountSettingsState
+AccountSettingsFragmentState
 (
 lastSyncedDate
 =
@@ -865,7 +865,7 @@ accountSettingsStore
 .
 dispatch
 (
-AccountSettingsAction
+AccountSettingsFragmentAction
 .
 UpdateDeviceName
 (
@@ -1354,7 +1354,7 @@ accountSettingsStore
 .
 dispatch
 (
-AccountSettingsAction
+AccountSettingsFragmentAction
 .
 SyncEnded
 (
@@ -1439,7 +1439,7 @@ accountSettingsStore
 .
 dispatch
 (
-AccountSettingsAction
+AccountSettingsFragmentAction
 .
 SyncFailed
 (
@@ -1481,7 +1481,7 @@ accountSettingsStore
 .
 dispatch
 (
-AccountSettingsAction
+AccountSettingsFragmentAction
 .
 UpdateDeviceName
 (
@@ -1497,7 +1497,7 @@ updateDeviceName
 (
 state
 :
-AccountSettingsState
+AccountSettingsFragmentState
 )
 {
 val
@@ -1536,7 +1536,7 @@ updateLastSyncTimePref
 (
 state
 :
-AccountSettingsState
+AccountSettingsFragmentState
 )
 {
 val
