@@ -1214,6 +1214,13 @@ onUrlClicked
 {
 false
 }
+toolbar
+.
+display
+.
+hidePageActionSeparator
+(
+)
 /
 /
 Use
