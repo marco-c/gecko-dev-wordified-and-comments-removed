@@ -3424,7 +3424,7 @@ id
 homeFragment
 HomeFragmentDirections
 .
-actionGlobalTurnOnSync
+actionHomeFragmentToAccountProblemFragment
 (
 )
 )
