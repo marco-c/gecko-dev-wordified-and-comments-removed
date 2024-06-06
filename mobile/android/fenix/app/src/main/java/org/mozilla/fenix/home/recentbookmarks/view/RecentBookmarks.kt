@@ -1005,7 +1005,7 @@ contentScale
 =
 ContentScale
 .
-Fit
+Crop
 )
 }
 }

@@ -472,7 +472,7 @@ contentScale
 =
 ContentScale
 .
-Fit
+Crop
 )
 }
 }

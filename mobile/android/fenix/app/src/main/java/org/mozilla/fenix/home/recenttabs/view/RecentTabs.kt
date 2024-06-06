@@ -1080,6 +1080,11 @@ RoundedCornerShape
 dp
 )
 )
+contentScale
+=
+ContentScale
+.
+Crop
 icon
 =
 tab
