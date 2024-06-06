@@ -257,6 +257,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Mockable
@@ -357,7 +367,7 @@ session
 val
 sessionUseCases
 by
-lazy
+lazyMonitored
 {
 SessionUseCases
 (
@@ -383,7 +393,7 @@ tabsUseCases
 :
 TabsUseCases
 by
-lazy
+lazyMonitored
 {
 TabsUseCases
 (
@@ -408,7 +418,7 @@ integration
 val
 searchUseCases
 by
-lazy
+lazyMonitored
 {
 SearchUseCases
 (
@@ -439,7 +449,7 @@ management
 val
 settingsUseCases
 by
-lazy
+lazyMonitored
 {
 SettingsUseCases
 (
@@ -450,7 +460,7 @@ store
 val
 appLinksUseCases
 by
-lazy
+lazyMonitored
 {
 AppLinksUseCases
 (
@@ -462,7 +472,7 @@ applicationContext
 val
 webAppUseCases
 by
-lazy
+lazyMonitored
 {
 WebAppUseCases
 (
@@ -474,7 +484,7 @@ shortcutManager
 val
 downloadUseCases
 by
-lazy
+lazyMonitored
 {
 DownloadsUseCases
 (
@@ -484,7 +494,7 @@ store
 val
 contextMenuUseCases
 by
-lazy
+lazyMonitored
 {
 ContextMenuUseCases
 (
@@ -494,7 +504,7 @@ store
 val
 trackingProtectionUseCases
 by
-lazy
+lazyMonitored
 {
 TrackingProtectionUseCases
 (
@@ -519,7 +529,7 @@ management
 val
 topSitesUseCase
 by
-lazy
+lazyMonitored
 {
 TopSitesUseCases
 (

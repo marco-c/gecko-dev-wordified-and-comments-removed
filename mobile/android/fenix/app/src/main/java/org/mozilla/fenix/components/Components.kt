@@ -243,6 +243,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 ClipboardHandler
@@ -377,7 +387,7 @@ Context
 val
 backgroundServices
 by
-lazy
+lazyMonitored
 {
 BackgroundServices
 (
@@ -404,7 +414,7 @@ strictMode
 val
 services
 by
-lazy
+lazyMonitored
 {
 Services
 (
@@ -417,7 +427,7 @@ accountManager
 val
 core
 by
-lazy
+lazyMonitored
 {
 Core
 (
@@ -431,7 +441,7 @@ strictMode
 val
 search
 by
-lazy
+lazyMonitored
 {
 Search
 (
@@ -441,7 +451,7 @@ context
 val
 useCases
 by
-lazy
+lazyMonitored
 {
 UseCases
 (
@@ -469,7 +479,7 @@ topSitesStorage
 val
 intentProcessors
 by
-lazy
+lazyMonitored
 {
 IntentProcessors
 (
@@ -498,7 +508,7 @@ webAppManifestStorage
 val
 addonCollectionProvider
 by
-lazy
+lazyMonitored
 {
 /
 /
@@ -623,7 +633,7 @@ DAY_IN_MINUTES
 val
 appStartupTelemetry
 by
-lazy
+lazyMonitored
 {
 AppStartupTelemetry
 (
@@ -641,7 +651,7 @@ MagicNumber
 val
 addonUpdater
 by
-lazy
+lazyMonitored
 {
 DefaultAddonUpdater
 (
@@ -666,7 +676,7 @@ MagicNumber
 val
 supportedAddonsChecker
 by
-lazy
+lazyMonitored
 {
 DefaultSupportedAddonsChecker
 (
@@ -728,7 +738,7 @@ toUri
 val
 addonManager
 by
-lazy
+lazyMonitored
 {
 AddonManager
 (
@@ -745,7 +755,7 @@ addonUpdater
 val
 analytics
 by
-lazy
+lazyMonitored
 {
 Analytics
 (
@@ -755,7 +765,7 @@ context
 val
 publicSuffixList
 by
-lazy
+lazyMonitored
 {
 PublicSuffixList
 (
@@ -765,7 +775,7 @@ context
 val
 clipboardHandler
 by
-lazy
+lazyMonitored
 {
 ClipboardHandler
 (
@@ -775,7 +785,7 @@ context
 val
 migrationStore
 by
-lazy
+lazyMonitored
 {
 MigrationStore
 (
@@ -784,7 +794,7 @@ MigrationStore
 val
 performance
 by
-lazy
+lazyMonitored
 {
 PerformanceComponent
 (
@@ -793,7 +803,7 @@ PerformanceComponent
 val
 push
 by
-lazy
+lazyMonitored
 {
 Push
 (
@@ -806,7 +816,7 @@ crashReporter
 val
 wifiConnectionMonitor
 by
-lazy
+lazyMonitored
 {
 WifiConnectionMonitor
 (
@@ -818,7 +828,7 @@ Application
 val
 strictMode
 by
-lazy
+lazyMonitored
 {
 StrictModeManager
 (
@@ -829,7 +839,7 @@ this
 val
 settings
 by
-lazy
+lazyMonitored
 {
 Settings
 (
@@ -839,7 +849,7 @@ context
 val
 reviewPromptController
 by
-lazy
+lazyMonitored
 {
 ReviewPromptController
 (

@@ -229,6 +229,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Mockable
@@ -315,7 +325,7 @@ intents
 val
 intentProcessor
 by
-lazy
+lazyMonitored
 {
 TabIntentProcessor
 (
@@ -353,7 +363,7 @@ tabs
 val
 privateIntentProcessor
 by
-lazy
+lazyMonitored
 {
 TabIntentProcessor
 (
@@ -372,7 +382,7 @@ true
 val
 customTabIntentProcessor
 by
-lazy
+lazyMonitored
 {
 CustomTabIntentProcessor
 (
@@ -391,7 +401,7 @@ false
 val
 privateCustomTabIntentProcessor
 by
-lazy
+lazyMonitored
 {
 CustomTabIntentProcessor
 (
@@ -410,7 +420,7 @@ true
 val
 externalAppIntentProcessors
 by
-lazy
+lazyMonitored
 {
 listOf
 (
@@ -458,7 +468,7 @@ manifestStorage
 val
 fennecPageShortcutIntentProcessor
 by
-lazy
+lazyMonitored
 {
 FennecBookmarkShortcutsIntentProcessor
 (
@@ -471,7 +481,7 @@ loadUrl
 val
 migrationIntentProcessor
 by
-lazy
+lazyMonitored
 {
 MigrationIntentProcessor
 (

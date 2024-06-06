@@ -119,6 +119,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Mockable
@@ -177,7 +187,7 @@ engines
 val
 searchEngineManager
 by
-lazy
+lazyMonitored
 {
 SearchEngineManager
 (

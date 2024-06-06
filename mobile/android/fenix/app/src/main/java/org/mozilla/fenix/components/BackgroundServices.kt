@@ -441,6 +441,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 sync
 .
 SyncedTabsIntegration
@@ -896,7 +906,7 @@ strictMode
 val
 accountManager
 by
-lazy
+lazyMonitored
 {
 makeAccountManager
 (
@@ -910,7 +920,7 @@ crashReporter
 val
 syncedTabsStorage
 by
-lazy
+lazyMonitored
 {
 SyncedTabsStorage
 (
@@ -1281,7 +1291,7 @@ private
 val
 notificationManager
 by
-lazy
+lazyMonitored
 {
 NotificationManager
 (

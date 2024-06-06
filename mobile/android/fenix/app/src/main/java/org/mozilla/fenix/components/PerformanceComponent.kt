@@ -84,6 +84,16 @@ fenix
 perf
 .
 VisualCompletenessQueue
+import
+org
+.
+mozilla
+.
+fenix
+.
+perf
+.
+lazyMonitored
 /
 *
 *
@@ -105,7 +115,7 @@ PerformanceComponent
 val
 visualCompletenessQueue
 by
-lazy
+lazyMonitored
 {
 VisualCompletenessQueue
 (

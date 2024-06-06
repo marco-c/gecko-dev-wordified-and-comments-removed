@@ -705,6 +705,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 media
 .
 MediaService
@@ -853,7 +863,7 @@ engine
 :
 Engine
 by
-lazy
+lazyMonitored
 {
 val
 defaultSettings
@@ -1099,7 +1109,7 @@ client
 :
 Client
 by
-lazy
+lazyMonitored
 {
 GeckoViewFetchClient
 (
@@ -1124,7 +1134,7 @@ sessionStorage
 :
 SessionStorage
 by
-lazy
+lazyMonitored
 {
 SessionStorage
 (
@@ -1154,7 +1164,7 @@ BrowserState
 val
 store
 by
-lazy
+lazyMonitored
 {
 BrowserStore
 (
@@ -1292,7 +1302,7 @@ data
 val
 customTabsStore
 by
-lazy
+lazyMonitored
 {
 CustomTabsServiceStore
 (
@@ -1323,7 +1333,7 @@ relationChecker
 :
 RelationChecker
 by
-lazy
+lazyMonitored
 {
 StatementRelationChecker
 (
@@ -1400,7 +1410,7 @@ closed
 val
 sessionManager
 by
-lazy
+lazyMonitored
 {
 SessionManager
 (
@@ -1767,7 +1777,7 @@ icons
 val
 icons
 by
-lazy
+lazyMonitored
 {
 BrowserIcons
 (
@@ -1778,7 +1788,7 @@ client
 val
 metrics
 by
-lazy
+lazyMonitored
 {
 context
 .
@@ -1791,7 +1801,7 @@ metrics
 val
 adsTelemetry
 by
-lazy
+lazyMonitored
 {
 AdsTelemetry
 (
@@ -1801,7 +1811,7 @@ metrics
 val
 searchTelemetry
 by
-lazy
+lazyMonitored
 {
 InContentTelemetry
 (
@@ -1828,7 +1838,7 @@ screen
 val
 webAppShortcutManager
 by
-lazy
+lazyMonitored
 {
 WebAppShortcutManager
 (
@@ -2003,7 +2013,7 @@ ergonomic
 val
 historyStorage
 by
-lazy
+lazyMonitored
 {
 lazyHistoryStorage
 .
@@ -2012,7 +2022,7 @@ value
 val
 bookmarksStorage
 by
-lazy
+lazyMonitored
 {
 lazyBookmarksStorage
 .
@@ -2021,7 +2031,7 @@ value
 val
 passwordsStorage
 by
-lazy
+lazyMonitored
 {
 lazyPasswordsStorage
 .
@@ -2030,7 +2040,7 @@ value
 val
 tabCollectionStorage
 by
-lazy
+lazyMonitored
 {
 TabCollectionStorage
 (
@@ -2058,7 +2068,7 @@ tabs
 val
 thumbnailStorage
 by
-lazy
+lazyMonitored
 {
 ThumbnailStorage
 (
@@ -2068,7 +2078,7 @@ context
 val
 pinnedSiteStorage
 by
-lazy
+lazyMonitored
 {
 PinnedSiteStorage
 (
@@ -2078,7 +2088,7 @@ context
 val
 topSitesStorage
 by
-lazy
+lazyMonitored
 {
 val
 defaultTopSites
@@ -2218,7 +2228,7 @@ defaultTopSites
 val
 permissionStorage
 by
-lazy
+lazyMonitored
 {
 PermissionStorage
 (
@@ -2228,7 +2238,7 @@ context
 val
 webAppManifestStorage
 by
-lazy
+lazyMonitored
 {
 ManifestStorage
 (
@@ -2238,7 +2248,7 @@ context
 val
 loginExceptionStorage
 by
-lazy
+lazyMonitored
 {
 LoginExceptionStorage
 (
@@ -2325,7 +2335,7 @@ private
 val
 passwordsEncryptionKey
 by
-lazy
+lazyMonitored
 {
 getSecureAbove22Preferences
 (

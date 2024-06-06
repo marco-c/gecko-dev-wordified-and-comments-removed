@@ -129,6 +129,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 push
 .
 FirebasePushService
@@ -178,7 +188,7 @@ CrashReporter
 val
 feature
 by
-lazy
+lazyMonitored
 {
 pushConfig
 ?
@@ -212,7 +222,7 @@ pushConfig
 PushConfig
 ?
 by
-lazy
+lazyMonitored
 {
 val
 logger
@@ -279,7 +289,7 @@ service
 "
 )
 return
-lazy
+lazyMonitored
 null
 }
 logger
@@ -315,7 +325,7 @@ private
 val
 pushService
 by
-lazy
+lazyMonitored
 {
 FirebasePushService
 (

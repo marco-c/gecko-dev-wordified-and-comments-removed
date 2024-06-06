@@ -153,6 +153,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 settings
 .
 SupportUtils
@@ -200,7 +210,7 @@ FxaAccountManager
 val
 accountsAuthFeature
 by
-lazy
+lazyMonitored
 {
 FirefoxAccountsAuthFeature
 (
@@ -245,7 +255,7 @@ intent
 val
 appLinksInterceptor
 by
-lazy
+lazyMonitored
 {
 AppLinksInterceptor
 (

@@ -251,6 +251,16 @@ mozilla
 .
 fenix
 .
+perf
+.
+lazyMonitored
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Mockable
@@ -333,7 +343,7 @@ crashReporter
 :
 CrashReporter
 by
-lazy
+lazyMonitored
 {
 val
 services
@@ -573,7 +583,7 @@ pendingIntent
 val
 leanplumMetricsService
 by
-lazy
+lazyMonitored
 {
 LeanplumMetricsService
 (
@@ -587,7 +597,7 @@ metrics
 :
 MetricController
 by
-lazy
+lazyMonitored
 {
 MetricController
 .
