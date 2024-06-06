@@ -242,6 +242,14 @@ ThemeManager
 Theme
 )
 {
+if
+(
+temporaryThemeManagerStorage
+!
+=
+theme
+)
+{
 temporaryThemeManagerStorage
 =
 theme
@@ -252,6 +260,7 @@ invoke
 (
 currentTheme
 )
+}
 }
 companion
 object
