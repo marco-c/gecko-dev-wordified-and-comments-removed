@@ -1280,6 +1280,16 @@ parent
 "
 app
 :
+layout_constraintEnd_toStartOf
+=
+"
++
+id
+/
+save_button
+"
+app
+:
 layout_constraintStart_toEndOf
 =
 "
