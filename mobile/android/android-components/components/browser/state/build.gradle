@@ -363,10 +363,6 @@ testing_junit
 testImplementation
 ComponentsDependencies
 .
-testing_mockito
-testImplementation
-ComponentsDependencies
-.
 testing_robolectric
 testImplementation
 ComponentsDependencies

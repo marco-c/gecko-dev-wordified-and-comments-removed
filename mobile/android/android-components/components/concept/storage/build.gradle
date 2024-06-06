@@ -216,10 +216,6 @@ testImplementation
 ComponentsDependencies
 .
 testing_junit
-testImplementation
-ComponentsDependencies
-.
-testing_mockito
 }
 apply
 from

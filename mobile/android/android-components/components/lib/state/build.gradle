@@ -258,10 +258,6 @@ testImplementation
 ComponentsDependencies
 .
 testing_coroutines
-testImplementation
-ComponentsDependencies
-.
-testing_mockito
 androidTestImplementation
 ComponentsDependencies
 .

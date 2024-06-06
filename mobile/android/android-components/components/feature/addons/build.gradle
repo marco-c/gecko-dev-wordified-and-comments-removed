@@ -399,10 +399,6 @@ testing_robolectric
 testImplementation
 ComponentsDependencies
 .
-testing_mockito
-testImplementation
-ComponentsDependencies
-.
 androidx_work_testing
 testImplementation
 ComponentsDependencies

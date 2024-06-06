@@ -369,10 +369,6 @@ ComponentsDependencies
 .
 testing_robolectric
 testImplementation
-ComponentsDependencies
-.
-testing_mockito
-testImplementation
 project
 (
 "

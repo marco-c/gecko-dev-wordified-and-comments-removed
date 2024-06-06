@@ -158,10 +158,6 @@ testImplementation
 ComponentsDependencies
 .
 androidx_test_junit
-testImplementation
-ComponentsDependencies
-.
-testing_mockito
 }
 apply
 from

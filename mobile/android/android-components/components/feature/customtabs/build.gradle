@@ -358,10 +358,6 @@ testImplementation
 ComponentsDependencies
 .
 testing_robolectric
-testImplementation
-ComponentsDependencies
-.
-testing_mockito
 }
 apply
 from

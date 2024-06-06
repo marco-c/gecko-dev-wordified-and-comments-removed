@@ -186,7 +186,7 @@ implementation
 ComponentsDependencies
 .
 androidx_test_junit
-implementation
+api
 ComponentsDependencies
 .
 testing_mockito

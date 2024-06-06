@@ -237,10 +237,6 @@ testing_robolectric
 testImplementation
 ComponentsDependencies
 .
-testing_mockito
-testImplementation
-ComponentsDependencies
-.
 kotlin_coroutines
 testImplementation
 ComponentsDependencies
