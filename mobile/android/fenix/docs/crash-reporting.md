@@ -2,7 +2,8 @@
 Crash
 Reporting
 Firefox
-Preview
+for
+Android
 uses
 a
 few
@@ -25,7 +26,8 @@ as
 to
 why
 Firefox
-Preview
+for
+Android
 crashes
 or
 incorrectly
@@ -158,7 +160,8 @@ telemetry
 library
 which
 Firefox
-Preview
+for
+Android
 uses
 to
 collect
@@ -437,7 +440,8 @@ org
 )
 .
 Firefox
-Preview
+for
+Android
 uses
 Socorro
 to
@@ -567,7 +571,8 @@ follow
 A
 sample
 Firefox
-Preview
+for
+Android
 crash
 report
 can
@@ -775,7 +780,8 @@ sent
 directly
 from
 Firefox
-Preview
+for
+Android
 to
 the
 Sentry
@@ -824,7 +830,8 @@ dashboard
 that
 the
 Firefox
-Preview
+for
+Android
 team
 uses
 to
@@ -1249,7 +1256,8 @@ information
 about
 the
 Firefox
-Preview
+for
+Android
 app
 .
 "
@@ -1370,7 +1378,8 @@ functions
 in
 the
 Firefox
-Preview
+for
+Android
 code
 led
 to
@@ -1386,7 +1395,8 @@ framework
 functions
 and
 Firefox
-Preview
+for
+Android
 functions
 .
 Here
@@ -1638,7 +1648,8 @@ developers
 include
 the
 Firefox
-Preview
+for
+Android
 team
 at
 Mozilla
@@ -1657,7 +1668,8 @@ bundles
 to
 develop
 Firefox
-Preview
+for
+Android
 .
 Java
 the
@@ -1745,7 +1757,8 @@ Example
 of
 a
 Firefox
-Preview
+for
+Android
 generated
 message
 :
