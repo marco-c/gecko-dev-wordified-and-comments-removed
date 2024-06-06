@@ -153,6 +153,15 @@ logic
 object
 ProfilerMarkers
 {
+const
+val
+MEASURE_LAYOUT_DRAW_MARKER_NAME
+=
+"
+Measure
+Layout
+Draw
+"
 fun
 addListenerForOnGlobalLayout
 (
