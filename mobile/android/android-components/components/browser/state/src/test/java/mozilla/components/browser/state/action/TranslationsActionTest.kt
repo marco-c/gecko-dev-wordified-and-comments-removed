@@ -2092,6 +2092,16 @@ translationsState
 .
 pageSettings
 )
+assertNull
+(
+tabState
+(
+)
+.
+translationsState
+.
+settingsError
+)
 /
 /
 Action

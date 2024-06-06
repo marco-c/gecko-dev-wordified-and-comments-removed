@@ -374,7 +374,7 @@ scope
 .
 launch
 {
-requestTranslationPageSettings
+requestPageSettings
 (
 context
 action
@@ -837,7 +837,7 @@ request
 private
 suspend
 fun
-requestTranslationPageSettings
+requestPageSettings
 (
 context
 :
@@ -990,6 +990,12 @@ neverTranslateSite
 null
 )
 {
+context
+.
+store
+.
+dispatch
+(
 TranslationsAction
 .
 SetPageSettingsAction
@@ -1015,6 +1021,7 @@ neverTranslateSite
 neverTranslateSite
 )
 )
+)
 }
 else
 {
@@ -1031,6 +1038,12 @@ alert
 an
 error
 occurred
+context
+.
+store
+.
+dispatch
+(
 TranslationsAction
 .
 TranslateExceptionAction
@@ -1050,6 +1063,7 @@ TranslationError
 CouldNotLoadPageSettingsError
 (
 null
+)
 )
 )
 }

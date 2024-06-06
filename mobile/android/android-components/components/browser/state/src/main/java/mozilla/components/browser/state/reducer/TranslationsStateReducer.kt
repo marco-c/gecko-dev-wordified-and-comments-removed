@@ -794,6 +794,9 @@ pageSettings
 action
 .
 pageSettings
+settingsError
+=
+null
 )
 }
 is
