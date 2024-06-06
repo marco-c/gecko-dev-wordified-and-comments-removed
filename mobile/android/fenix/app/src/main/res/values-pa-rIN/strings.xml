@@ -11382,6 +11382,7 @@ name
 fxa_received_tab_channel_description
 "
 >
+Firefox
 <
 /
 string
@@ -19188,6 +19189,7 @@ sync_connect_device_dialog
 "
 >
 -
+Firefox
 <
 /
 string
@@ -22003,6 +22005,7 @@ sign_in_instructions
 [
 CDATA
 [
+Firefox
 <
 b
 >
@@ -30017,6 +30020,7 @@ name
 synced_tabs_no_tabs
 "
 >
+Firefox
 <
 /
 string
