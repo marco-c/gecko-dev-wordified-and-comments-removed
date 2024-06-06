@@ -454,8 +454,11 @@ threadFront
 await
 addonTarget
 .
-attachThread
+getFront
 (
+"
+thread
+"
 )
 ;
 ok
