@@ -1347,11 +1347,9 @@ null
 fragment
 .
 session
-.
-isSameAs
-(
+=
+=
 currentSession
-)
 )
 {
 /
