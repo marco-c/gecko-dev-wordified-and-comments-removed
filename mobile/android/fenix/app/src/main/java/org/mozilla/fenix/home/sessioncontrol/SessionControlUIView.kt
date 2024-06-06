@@ -184,7 +184,7 @@ R
 .
 string
 .
-no_collections_description
+collections_description
 )
 private
 fun
