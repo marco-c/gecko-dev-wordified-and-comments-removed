@@ -243,7 +243,6 @@ Tus
 pesta
 as
 abiertas
-te
 aparecer
 n
 aqu
@@ -882,7 +881,6 @@ browser_menu_save_to_collection
 >
 Guardar
 en
-la
 colecci
 n
 <
@@ -1178,8 +1176,6 @@ search_shortcuts_button
 "
 >
 Atajos
-de
-teclado
 <
 /
 string
@@ -3488,8 +3484,8 @@ content_description_history_menu
 "
 >
 Men
-de
-elementos
+del
+elemento
 del
 historial
 <
@@ -3864,7 +3860,6 @@ tab_menu
 >
 Men
 de
-la
 pesta
 a
 <
