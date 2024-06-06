@@ -429,6 +429,14 @@ action
 for
 bookmark
 selections
+-
+#
+974
+-
+Added
+telemetry
+for
+bookmarks
 #
 #
 #
