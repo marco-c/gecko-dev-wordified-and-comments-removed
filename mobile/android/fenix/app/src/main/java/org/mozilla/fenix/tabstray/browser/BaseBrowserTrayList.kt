@@ -333,7 +333,7 @@ TabsFeature
 (
 adapter
 as
-TabsAdapter
+BrowserTabsAdapter
 context
 .
 components

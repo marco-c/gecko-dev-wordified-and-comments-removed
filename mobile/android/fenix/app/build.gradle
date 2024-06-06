@@ -5154,6 +5154,10 @@ androidx_recyclerview
 implementation
 Deps
 .
+androidx_recyclerview_selection
+implementation
+Deps
+.
 androidx_lifecycle_livedata
 implementation
 Deps
