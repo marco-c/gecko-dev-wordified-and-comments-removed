@@ -138,14 +138,6 @@ notify
 "
             
 "
-run
--
-on
--
-projects
-"
-            
-"
 treeherder
 .
 platform
@@ -204,21 +196,6 @@ params
 [
 "
 level
-"
-]
-                    
-"
-tasks
--
-for
-"
-:
-config
-.
-params
-[
-"
-tasks_for
 "
 ]
                 

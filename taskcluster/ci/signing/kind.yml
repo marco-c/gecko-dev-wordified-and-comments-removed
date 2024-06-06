@@ -166,6 +166,14 @@ default
 :
 {
 }
+run
+-
+on
+-
+projects
+:
+[
+]
 treeherder
 :
 symbol

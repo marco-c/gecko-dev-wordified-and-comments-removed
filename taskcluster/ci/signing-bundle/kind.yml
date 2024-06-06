@@ -172,6 +172,14 @@ autograph_focus
 default
 :
 autograph_apk
+run
+-
+on
+-
+projects
+:
+[
+]
 treeherder
 :
 symbol
