@@ -293,6 +293,7 @@ ManualAddSearchEngine
 ;
 private
 static
+final
 int
 SEARCH_QUERY_VALIDATION_TIMEOUT_MILLIS
 =
