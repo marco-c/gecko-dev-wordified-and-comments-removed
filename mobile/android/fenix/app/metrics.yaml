@@ -581,6 +581,9 @@ by
 an
 Autocomplete
 suggestion
+type
+:
+boolean
 bugs
 :
 -
