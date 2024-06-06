@@ -1163,6 +1163,16 @@ int
 public
 static
 int
+v
+(
+.
+.
+.
+)
+;
+public
+static
+int
 d
 (
 .
