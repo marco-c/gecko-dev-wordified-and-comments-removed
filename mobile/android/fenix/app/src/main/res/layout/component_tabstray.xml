@@ -947,6 +947,13 @@ layout_height
 "
 80dp
 "
+app
+:
+tabMaxWidth
+=
+"
+0dp
+"
 android
 :
 background
