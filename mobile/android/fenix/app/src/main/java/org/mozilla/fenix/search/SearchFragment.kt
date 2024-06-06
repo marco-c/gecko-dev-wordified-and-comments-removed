@@ -594,6 +594,11 @@ transition
 .
 move
 )
+.
+setDuration
+(
+SHARED_TRANSITION_MS
+)
 }
 override
 fun
@@ -1895,6 +1900,12 @@ grantResults
 companion
 object
 {
+private
+const
+val
+SHARED_TRANSITION_MS
+=
+150L
 private
 const
 val
