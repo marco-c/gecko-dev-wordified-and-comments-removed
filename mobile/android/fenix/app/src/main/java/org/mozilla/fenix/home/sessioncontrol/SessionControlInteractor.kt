@@ -369,6 +369,18 @@ home
 .
 toolbar
 .
+ToolbarController
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+toolbar
+.
 ToolbarInteractor
 import
 org
@@ -1590,6 +1602,11 @@ val
 onboardingController
 :
 OnboardingController
+private
+val
+toolbarController
+:
+ToolbarController
 )
 :
 CollectionInteractor
@@ -1935,7 +1952,7 @@ clipboardText
 String
 )
 {
-controller
+toolbarController
 .
 handlePasteAndGo
 (
@@ -1951,7 +1968,7 @@ clipboardText
 String
 )
 {
-controller
+toolbarController
 .
 handlePaste
 (
@@ -1964,7 +1981,7 @@ onNavigateSearch
 (
 )
 {
-controller
+toolbarController
 .
 handleNavigateSearch
 (
