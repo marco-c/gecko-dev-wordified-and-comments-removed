@@ -175,8 +175,6 @@ mozilla
 .
 focus
 .
-activity
-.
 helpers
 .
 MainActivityFirstrunTestRule

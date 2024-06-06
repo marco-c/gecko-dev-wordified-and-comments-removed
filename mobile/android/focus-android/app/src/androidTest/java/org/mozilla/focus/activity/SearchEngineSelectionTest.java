@@ -191,8 +191,6 @@ mozilla
 .
 focus
 .
-activity
-.
 helpers
 .
 EspressoHelper

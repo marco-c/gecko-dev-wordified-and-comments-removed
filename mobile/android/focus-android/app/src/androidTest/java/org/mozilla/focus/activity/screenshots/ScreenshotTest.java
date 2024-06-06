@@ -127,8 +127,6 @@ mozilla
 .
 focus
 .
-activity
-.
 helpers
 .
 HostScreencapScreenshotStrategy
@@ -139,8 +137,6 @@ org
 mozilla
 .
 focus
-.
-activity
 .
 helpers
 .

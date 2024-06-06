@@ -5,8 +5,6 @@ mozilla
 .
 focus
 .
-activity
-.
 helpers
 ;
 import
