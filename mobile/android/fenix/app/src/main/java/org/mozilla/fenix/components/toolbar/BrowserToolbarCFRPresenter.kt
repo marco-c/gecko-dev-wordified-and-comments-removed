@@ -1565,11 +1565,6 @@ Underline
 .
 run
 {
-settings
-.
-shouldShowTotalCookieProtectionCFR
-=
-false
 popup
 =
 this

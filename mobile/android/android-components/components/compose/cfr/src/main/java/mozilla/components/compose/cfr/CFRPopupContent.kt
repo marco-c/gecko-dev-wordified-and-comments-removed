@@ -783,7 +783,15 @@ padding
 (
 end
 =
+if
+(
+showDismissButton
+)
 24
+.
+dp
+else
+16
 .
 dp
 /
