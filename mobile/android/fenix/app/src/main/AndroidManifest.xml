@@ -256,13 +256,6 @@ permission
 .
 USE_BIOMETRIC
 "
-android
-:
-requiredFeature
-=
-"
-false
-"
 /
 >
 <
