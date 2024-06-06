@@ -227,10 +227,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 pocket
 .
 PocketRecommendedStoriesCategory
@@ -242,10 +238,6 @@ mozilla
 fenix
 .
 home
-.
-sessioncontrol
-.
-viewholders
 .
 pocket
 .

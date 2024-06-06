@@ -65,10 +65,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 pocket
 import
 androidx

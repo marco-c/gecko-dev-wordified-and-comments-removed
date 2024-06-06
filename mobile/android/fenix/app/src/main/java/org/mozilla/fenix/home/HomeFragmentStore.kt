@@ -207,10 +207,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 pocket
 .
 POCKET_STORIES_TO_SHOW_COUNT
@@ -223,10 +219,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 pocket
 .
 PocketRecommendedStoriesCategory
@@ -238,10 +230,6 @@ mozilla
 fenix
 .
 home
-.
-sessioncontrol
-.
-viewholders
 .
 pocket
 .

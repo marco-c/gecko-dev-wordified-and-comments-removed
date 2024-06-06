@@ -261,10 +261,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 pocket
 .
 PocketStoriesController

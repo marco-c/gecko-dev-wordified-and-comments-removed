@@ -99,10 +99,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 pocket
 .
 POCKET_STORIES_DEFAULT_CATEGORY_NAME
@@ -114,10 +110,6 @@ mozilla
 fenix
 .
 home
-.
-sessioncontrol
-.
-viewholders
 .
 pocket
 .

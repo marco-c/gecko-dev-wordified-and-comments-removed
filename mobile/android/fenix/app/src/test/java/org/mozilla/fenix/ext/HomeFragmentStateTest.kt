@@ -131,10 +131,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 pocket
 .
 POCKET_STORIES_DEFAULT_CATEGORY_NAME
@@ -147,10 +143,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 pocket
 .
 PocketRecommendedStoriesCategory
@@ -162,10 +154,6 @@ mozilla
 fenix
 .
 home
-.
-sessioncontrol
-.
-viewholders
 .
 pocket
 .
