@@ -287,8 +287,6 @@ beautifulUrl
 append
 (
 query
-!
-!
 .
 split
 (

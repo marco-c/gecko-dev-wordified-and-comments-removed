@@ -422,6 +422,11 @@ disableSearchSuggestions
 (
 )
 {
+fetcher
+.
+cancelJobs
+(
+)
 preferences
 .
 disableSearchSuggestions

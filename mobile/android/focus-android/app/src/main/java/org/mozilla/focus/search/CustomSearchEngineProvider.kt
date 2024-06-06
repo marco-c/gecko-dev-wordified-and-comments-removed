@@ -71,6 +71,12 @@ content
 .
 Context
 import
+kotlinx
+.
+coroutines
+.
+coroutineScope
+import
 mozilla
 .
 components
@@ -159,10 +165,13 @@ List
 SearchEngine
 >
 =
+coroutineScope
+{
 CustomSearchEngineStore
 .
 loadCustomSearchEngines
 (
 context
 )
+}
 }
