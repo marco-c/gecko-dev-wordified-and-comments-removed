@@ -240,6 +240,12 @@ setShieldIconCFREnabled
 (
 false
 )
+featureSettingsHelper
+.
+setNumberOfTabsOpened
+(
+4
+)
 }
 After
 fun
