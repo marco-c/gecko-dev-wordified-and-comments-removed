@@ -1818,13 +1818,6 @@ warmBrowsersCache
 initializeWebExtensionSupport
 (
 )
-if
-(
-FeatureFlags
-.
-storageMaintenanceFeature
-)
-{
 /
 /
 Make
@@ -1902,7 +1895,6 @@ core
 .
 historyStorage
 )
-}
 restoreBrowserState
 (
 )
@@ -2734,13 +2726,6 @@ queueStorageMaintenance
 (
 )
 {
-if
-(
-FeatureFlags
-.
-storageMaintenanceFeature
-)
-{
 queue
 .
 runIfReadyOrQueue
@@ -2809,7 +2794,6 @@ historyStorage
 registerStorageMaintenanceWorker
 (
 )
-}
 }
 }
 OptIn
