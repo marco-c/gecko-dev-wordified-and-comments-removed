@@ -1861,6 +1861,9 @@ customTabSessionId
 readerModeController
 =
 readerModeController
+browserAnimator
+=
+browserAnimator
 onTabCounterClicked
 =
 {

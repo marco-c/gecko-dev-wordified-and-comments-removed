@@ -2428,6 +2428,9 @@ homeViewModel
 customTabSessionId
 =
 customTabSessionId
+browserAnimator
+=
+browserAnimator
 onTabCounterClicked
 =
 {
