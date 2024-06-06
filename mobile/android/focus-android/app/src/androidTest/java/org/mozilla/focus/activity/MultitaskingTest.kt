@@ -746,7 +746,7 @@ verifyNumberOfTabsOpened
 .
 openTabsTray
 {
-verifyTabsOrderAndCorespondingCloseButton
+verifyTabsOrder
 (
 tab1Title
 tab3Title
@@ -923,7 +923,7 @@ verifyNumberOfTabsOpened
 .
 openTabsTray
 {
-verifyTabsOrderAndCorespondingCloseButton
+verifyTabsOrder
 (
 tab1Title
 tab3Title
@@ -940,7 +940,7 @@ tab1Title
 .
 openTabsTray
 {
-verifyTabsOrderAndCorespondingCloseButton
+verifyTabsOrder
 (
 tab3Title
 tab2Title
