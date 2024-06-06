@@ -1666,17 +1666,6 @@ components
 core
 .
 store
-defaultTabPartitionsFilter
-=
-{
-tabPartitions
--
->
-tabPartitions
-[
-SEARCH_TERM_TAB_GROUPS
-]
-}
 )
 owner
 =
