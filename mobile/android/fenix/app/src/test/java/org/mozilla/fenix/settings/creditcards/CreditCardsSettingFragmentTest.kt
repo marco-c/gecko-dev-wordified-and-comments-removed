@@ -203,16 +203,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
 helpers
 .
 FenixRobolectricTestRunner
@@ -572,7 +562,7 @@ verify
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

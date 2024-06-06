@@ -383,16 +383,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
 utils
 .
 allowUndo
@@ -974,7 +964,7 @@ findNavController
 view
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

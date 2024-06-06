@@ -111,16 +111,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
 home
 .
 HomeFragmentDirections
@@ -269,7 +259,7 @@ tabId
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 R
 .

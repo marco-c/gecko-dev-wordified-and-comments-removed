@@ -307,16 +307,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 nav
 import
 org
@@ -821,7 +811,7 @@ it
 id
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 BrowserFragmentDirections
 .
@@ -889,7 +879,7 @@ BrowsingMode
 Normal
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 BrowserFragmentDirections
 .
@@ -938,7 +928,7 @@ BrowsingMode
 Private
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 BrowserFragmentDirections
 .
@@ -996,7 +986,7 @@ BrowserToolbarHomeButtonClicked
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 BrowserFragmentDirections
 .

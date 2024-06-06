@@ -101,16 +101,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
 nimbus
 .
 NimbusExperimentsFragmentDirections
@@ -168,7 +158,7 @@ userFacingName
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

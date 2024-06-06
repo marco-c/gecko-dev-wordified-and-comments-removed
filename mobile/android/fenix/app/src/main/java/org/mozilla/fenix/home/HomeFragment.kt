@@ -1071,16 +1071,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 measureNoInline
 import
 org
@@ -3473,7 +3463,7 @@ findNavController
 (
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 HomeFragmentDirections
 .
@@ -3905,7 +3895,7 @@ findNavController
 (
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 HomeFragmentDirections
 .

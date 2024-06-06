@@ -223,16 +223,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 toShortUrl
 import
 org
@@ -530,7 +520,7 @@ setOnClickListener
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 NavGraphDirections
 .

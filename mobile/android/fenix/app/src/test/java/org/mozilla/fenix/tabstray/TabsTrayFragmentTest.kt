@@ -431,16 +431,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 settings
 import
 org
@@ -2330,7 +2320,7 @@ verify
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 NavGraphDirections
 .

@@ -137,16 +137,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 requireComponents
 import
 org
@@ -317,7 +307,7 @@ requireView
 )
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )
@@ -490,7 +480,7 @@ requireView
 )
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

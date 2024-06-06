@@ -305,16 +305,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 redirectToReAuth
 import
 org
@@ -1147,7 +1137,7 @@ findNavController
 (
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

@@ -293,16 +293,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 metrics
 import
 org
@@ -813,7 +803,7 @@ actionShareFragmentToAddNewDeviceFragment
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

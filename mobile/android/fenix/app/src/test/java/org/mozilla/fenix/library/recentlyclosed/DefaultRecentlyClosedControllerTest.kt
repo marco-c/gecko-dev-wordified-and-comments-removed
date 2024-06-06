@@ -299,16 +299,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 optionsEq
 import
 org
@@ -847,7 +837,7 @@ verify
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directionsEq
 (
@@ -1041,7 +1031,7 @@ verify
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directionsEq
 (
@@ -1145,7 +1135,7 @@ url
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directionsEq
 (

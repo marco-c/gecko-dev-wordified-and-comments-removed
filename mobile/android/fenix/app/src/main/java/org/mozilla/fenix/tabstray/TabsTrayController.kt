@@ -213,16 +213,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
 home
 .
 HomeFragment
@@ -524,7 +514,7 @@ isPrivate
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 TabsTrayFragmentDirections
 .
@@ -654,7 +644,7 @@ false
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 R
 .

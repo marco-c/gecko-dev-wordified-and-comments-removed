@@ -201,16 +201,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
 settings
 .
 logins
@@ -558,7 +548,7 @@ loginId
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

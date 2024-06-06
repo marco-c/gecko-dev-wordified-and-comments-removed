@@ -385,16 +385,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 navigateSafe
 import
 org
@@ -1659,7 +1649,7 @@ findNavController
 (
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 BrowserFragmentDirections
 .

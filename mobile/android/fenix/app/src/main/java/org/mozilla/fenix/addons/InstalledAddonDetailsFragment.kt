@@ -247,16 +247,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 showToolbar
 import
 org
@@ -1095,7 +1085,7 @@ findNavController
 this
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )
@@ -1133,7 +1123,7 @@ findNavController
 view
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )
@@ -1170,7 +1160,7 @@ findNavController
 view
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

@@ -425,16 +425,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 nav
 import
 org
@@ -1296,7 +1286,7 @@ viewHistory
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 BrowserFragmentDirections
 .
@@ -1346,7 +1336,7 @@ viewHistory
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 BrowserFragmentDirections
 .
@@ -1505,7 +1495,7 @@ true
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )
@@ -2168,7 +2158,7 @@ NewTab
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 BrowserFragmentDirections
 .

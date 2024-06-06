@@ -267,16 +267,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
 home
 .
 HomeFragment
@@ -718,7 +708,7 @@ actionGlobalTurnOnSync
 }
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 direction
 )
@@ -731,7 +721,7 @@ onTabSettingsClicked
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 TabsTrayFragmentDirections
 .
@@ -748,7 +738,7 @@ onOpenRecentlyClosedClicked
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 TabsTrayFragmentDirections
 .
@@ -815,7 +805,7 @@ toTypedArray
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )
@@ -882,7 +872,7 @@ toTypedArray
 )
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

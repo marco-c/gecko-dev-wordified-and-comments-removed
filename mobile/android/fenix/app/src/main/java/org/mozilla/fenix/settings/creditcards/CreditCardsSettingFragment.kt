@@ -247,16 +247,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 requireComponents
 import
 org
@@ -809,7 +799,7 @@ findNavController
 (
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 NavGraphDirections
 .
@@ -825,7 +815,7 @@ findNavController
 (
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 CreditCardsSettingFragmentDirections
 .
@@ -956,7 +946,7 @@ else
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 CreditCardsSettingFragmentDirections
 .
@@ -1332,7 +1322,7 @@ findNavController
 (
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

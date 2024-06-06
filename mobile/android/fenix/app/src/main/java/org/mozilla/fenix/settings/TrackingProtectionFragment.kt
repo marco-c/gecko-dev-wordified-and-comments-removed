@@ -161,16 +161,6 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 nav
 import
 org
@@ -295,7 +285,7 @@ findNavController
 (
 )
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 directions
 )

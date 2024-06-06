@@ -215,7 +215,7 @@ androidx_appcompat
 "
 1
 .
-2
+3
 .
 0
 "
@@ -303,9 +303,9 @@ androidx_fragment
 "
 1
 .
-2
+3
 .
-5
+4
 "
 const
 val

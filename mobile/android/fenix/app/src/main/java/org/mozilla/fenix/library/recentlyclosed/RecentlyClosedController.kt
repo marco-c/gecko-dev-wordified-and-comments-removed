@@ -204,16 +204,6 @@ fenix
 components
 .
 FenixSnackbar
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
-navigateBlockingForAsyncNavGraph
 Suppress
 (
 "
@@ -555,7 +545,7 @@ handleNavigateToHistory
 {
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 RecentlyClosedFragmentDirections
 .
@@ -686,7 +676,7 @@ title
 }
 navController
 .
-navigateBlockingForAsyncNavGraph
+navigate
 (
 RecentlyClosedFragmentDirections
 .
