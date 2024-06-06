@@ -85,7 +85,7 @@ share
 .
 listadapters
 .
-AppShareOption
+AndroidShareOption
 /
 *
 *
@@ -201,7 +201,9 @@ onShareToApp
 (
 appToShareTo
 :
-AppShareOption
+AndroidShareOption
+.
+App
 )
 {
 controller

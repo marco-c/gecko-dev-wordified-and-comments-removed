@@ -231,7 +231,7 @@ ShareTab
 {
 adapter
 .
-setTabs
+submitList
 (
 tabs
 )

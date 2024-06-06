@@ -121,7 +121,7 @@ share
 .
 listadapters
 .
-AppShareAdapter
+AndroidShareOption
 import
 org
 .
@@ -133,7 +133,7 @@ share
 .
 listadapters
 .
-AppShareOption
+AppShareAdapter
 /
 *
 *
@@ -158,7 +158,9 @@ onShareToApp
 (
 appToShareTo
 :
-AppShareOption
+AndroidShareOption
+.
+App
 )
 }
 class
@@ -218,7 +220,7 @@ targets
 :
 List
 <
-AppShareOption
+AndroidShareOption
 >
 )
 {
