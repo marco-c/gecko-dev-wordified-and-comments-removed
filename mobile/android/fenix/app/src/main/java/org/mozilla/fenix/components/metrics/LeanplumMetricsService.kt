@@ -703,6 +703,11 @@ settings
 )
 .
 searchWidgetInstalled
+"
+fenix
+"
+to
+true
 )
 )
 }
