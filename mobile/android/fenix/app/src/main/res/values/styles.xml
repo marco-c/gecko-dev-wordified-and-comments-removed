@@ -111,8 +111,6 @@ parent
 Theme
 .
 SplashScreen
-.
-IconBackground
 "
 >
 <
@@ -123,11 +121,9 @@ name
 windowSplashScreenBackground
 "
 >
-android
-:
 color
 /
-transparent
+fx_mobile_layer_color_1
 <
 /
 item
@@ -140,11 +136,9 @@ name
 windowSplashScreenIconBackgroundColor
 "
 >
-android
-:
 color
 /
-transparent
+fx_mobile_layer_color_1
 <
 /
 item
