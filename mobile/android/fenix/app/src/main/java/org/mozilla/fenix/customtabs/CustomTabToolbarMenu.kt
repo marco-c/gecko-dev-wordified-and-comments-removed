@@ -1091,7 +1091,7 @@ R
 .
 drawable
 .
-mozac_ic_search
+mozac_ic_search_24
 iconTintColorResource
 =
 primaryTextColor
