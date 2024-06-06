@@ -211,6 +211,16 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+.
+progressiveWebApps
+import
+org
+.
+mozilla
+.
+fenix
+.
 test
 .
 Mockable
@@ -406,7 +416,7 @@ sessionManager
 httpClient
 supportWebApps
 =
-false
+progressiveWebApps
 )
 }
 val

@@ -274,13 +274,12 @@ sessionId
 .
 let
 {
-session
+tab
 -
 >
 if
 (
-session
-!
+tab
 is
 CustomTabSessionState
 )
@@ -308,7 +307,7 @@ FindInPageFeature
 .
 bind
 (
-session
+tab
 )
 view
 .
