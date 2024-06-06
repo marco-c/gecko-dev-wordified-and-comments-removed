@@ -619,6 +619,12 @@ INVISIBLE
 }
 else
 {
+thumbnailView
+.
+setImageBitmap
+(
+null
+)
 iconView
 ?
 .
