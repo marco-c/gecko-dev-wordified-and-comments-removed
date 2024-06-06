@@ -2271,7 +2271,7 @@ directions
 =
 HomeFragmentDirections
 .
-actionGlobalCustomizationFragment
+actionGlobalHomeSettingsFragment
 (
 )
 navController

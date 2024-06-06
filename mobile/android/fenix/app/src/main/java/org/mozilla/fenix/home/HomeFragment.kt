@@ -4981,7 +4981,7 @@ id
 homeFragment
 HomeFragmentDirections
 .
-actionGlobalCustomizationFragment
+actionGlobalHomeSettingsFragment
 (
 )
 )

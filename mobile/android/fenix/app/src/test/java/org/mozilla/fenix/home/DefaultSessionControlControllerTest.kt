@@ -1229,7 +1229,7 @@ R
 .
 id
 .
-action_global_customizationFragment
+action_global_homeSettingsFragment
 }
 null
 )
