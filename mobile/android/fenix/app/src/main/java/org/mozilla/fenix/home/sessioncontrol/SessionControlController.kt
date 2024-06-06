@@ -1627,7 +1627,7 @@ useCases
 topSitesUseCase
 )
 {
-renameTopSites
+updateTopSites
 (
 topSite
 topSiteLabelEditText
@@ -1637,6 +1637,9 @@ text
 toString
 (
 )
+topSite
+.
+url
 )
 }
 }
