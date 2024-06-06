@@ -4679,6 +4679,14 @@ creditCardValidationDelegate
 =
 =
 null
+|
+|
+!
+promptRequest
+.
+creditCard
+.
+isValid
 )
 {
 dismissDialogRequest
