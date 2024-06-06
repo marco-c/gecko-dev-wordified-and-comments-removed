@@ -1261,7 +1261,7 @@ firstDownloadedFile
 )
 }
 .
-closeCompletedDownloadPrompt
+closeDownloadPrompt
 {
 }
 .

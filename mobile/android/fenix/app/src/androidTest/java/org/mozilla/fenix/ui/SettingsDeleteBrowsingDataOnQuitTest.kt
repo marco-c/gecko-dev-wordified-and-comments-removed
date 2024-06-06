@@ -1056,7 +1056,7 @@ verifyDownloadCompleteNotificationPopup
 )
 }
 .
-closeCompletedDownloadPrompt
+closeDownloadPrompt
 {
 }
 .
