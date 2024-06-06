@@ -914,7 +914,6 @@ R
 string
 .
 migration_icon_description
-migrationText
 )
 }
 }
