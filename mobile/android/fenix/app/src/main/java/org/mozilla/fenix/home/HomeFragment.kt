@@ -4501,7 +4501,7 @@ HomeMenu
 .
 Item
 .
-SyncedTabs
+SyncTabs
 -
 >
 {
@@ -4781,7 +4781,7 @@ HomeMenu
 .
 Item
 .
-Sync
+ReconnectSync
 -
 >
 {
@@ -4806,7 +4806,7 @@ HomeMenu
 .
 Item
 .
-AddonsManager
+Extensions
 -
 >
 {

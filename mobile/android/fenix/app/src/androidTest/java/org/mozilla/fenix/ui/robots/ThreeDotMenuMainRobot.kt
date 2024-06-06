@@ -473,6 +473,12 @@ menu
 .
 *
 /
+Suppress
+(
+"
+ForbiddenComment
+"
+)
 class
 ThreeDotMenuMainRobot
 {
@@ -1165,8 +1171,6 @@ mozac_browser_menu_recyclerView
 .
 perform
 (
-ViewActions
-.
 swipeDown
 (
 )
@@ -1326,8 +1330,6 @@ mozac_browser_menu_recyclerView
 .
 perform
 (
-ViewActions
-.
 swipeDown
 (
 )
@@ -1514,8 +1516,6 @@ mozac_browser_menu_recyclerView
 .
 perform
 (
-ViewActions
-.
 swipeDown
 (
 )
@@ -1951,6 +1951,17 @@ BrowserRobot
 .
 Transition
 {
+/
+/
+TODO
+:
+this
+is
+not
+finding
+the
+button
+correctly
 mDevice
 .
 waitNotNull
@@ -2159,8 +2170,6 @@ mozac_browser_menu_recyclerView
 .
 perform
 (
-ViewActions
-.
 swipeDown
 (
 )
@@ -3428,8 +3437,6 @@ matches
 (
 withEffectiveVisibility
 (
-ViewMatchers
-.
 Visibility
 .
 VISIBLE
@@ -3456,8 +3463,6 @@ collection
 )
 withEffectiveVisibility
 (
-ViewMatchers
-.
 Visibility
 .
 VISIBLE
