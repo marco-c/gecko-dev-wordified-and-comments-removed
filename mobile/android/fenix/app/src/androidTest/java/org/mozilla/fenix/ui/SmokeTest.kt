@@ -1620,6 +1620,11 @@ defaultWebPage
 url
 )
 {
+mDevice
+.
+waitForIdle
+(
+)
 }
 .
 openThreeDotMenu
@@ -1628,7 +1633,7 @@ openThreeDotMenu
 .
 openSyncSignIn
 {
-verifySyncSignInMenuHeader
+verifyTurnOnSyncMenu
 (
 )
 }
