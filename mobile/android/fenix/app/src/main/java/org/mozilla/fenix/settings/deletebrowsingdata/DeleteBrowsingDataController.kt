@@ -285,6 +285,7 @@ removeAllTabs
 .
 invoke
 (
+false
 )
 }
 }

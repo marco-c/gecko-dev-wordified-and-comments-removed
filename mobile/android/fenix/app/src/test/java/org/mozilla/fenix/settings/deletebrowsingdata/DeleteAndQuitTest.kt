@@ -553,6 +553,7 @@ removeAllTabsUseCases
 .
 invoke
 (
+false
 )
 activity
 .

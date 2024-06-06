@@ -579,6 +579,8 @@ dispatch
 TabListAction
 .
 RemoveAllTabsAction
+(
+)
 )
 browserStore
 .
