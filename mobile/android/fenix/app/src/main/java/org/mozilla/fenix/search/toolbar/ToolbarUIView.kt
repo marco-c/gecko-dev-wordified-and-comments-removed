@@ -318,7 +318,7 @@ R
 .
 color
 .
-searchText
+search_text
 )
 textSize
 =
@@ -346,7 +346,7 @@ R
 .
 color
 .
-searchText
+search_text
 )
 setOnEditListener
 (

@@ -86,7 +86,7 @@ color
 name
 =
 "
-colorPrimary
+color_primary
 "
 >
 #
@@ -100,7 +100,7 @@ color
 name
 =
 "
-colorPrimaryDark
+color_primary_dark
 "
 >
 #
@@ -114,7 +114,7 @@ color
 name
 =
 "
-colorAccent
+color_accent
 "
 >
 #
@@ -128,7 +128,7 @@ color
 name
 =
 "
-awesomeBarTitleColor
+awesome_bar_title_color
 "
 >
 #
@@ -142,7 +142,7 @@ color
 name
 =
 "
-awesomeBarDescriptionColor
+awesome_bar_description_color
 "
 >
 #
@@ -156,7 +156,7 @@ color
 name
 =
 "
-searchDarkBackground
+search_dark_background
 "
 >
 #
@@ -170,7 +170,7 @@ color
 name
 =
 "
-searchDarkBackgroundAlternative
+search_dark_background_alternative
 "
 >
 #
@@ -184,7 +184,7 @@ color
 name
 =
 "
-searchPrivateBackground
+search_private_background
 "
 >
 #
@@ -198,7 +198,7 @@ color
 name
 =
 "
-searchDarkPrivateBackground
+search_dark_private_background
 "
 >
 #
@@ -212,7 +212,7 @@ color
 name
 =
 "
-searchDarkPrivateBackgroundAlternative
+search_dark_private_background_alternative
 "
 >
 #
@@ -226,7 +226,7 @@ color
 name
 =
 "
-searchStroke
+search_stroke
 "
 >
 #
@@ -240,7 +240,7 @@ color
 name
 =
 "
-searchStrokeAlternative
+search_stroke_alternative
 "
 >
 #
@@ -254,7 +254,7 @@ color
 name
 =
 "
-searchStrokePrivate
+search_stroke_private
 "
 >
 #
@@ -268,7 +268,7 @@ color
 name
 =
 "
-searchText
+search_text
 "
 >
 #
@@ -282,7 +282,7 @@ color
 name
 =
 "
-offwhite
+off_white
 "
 >
 #

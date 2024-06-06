@@ -165,7 +165,7 @@ colorPrimary
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -220,7 +220,7 @@ homeBackgroundTopGradient
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -235,7 +235,7 @@ homeBackgroundBottomGradient
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -280,7 +280,7 @@ privateBrowsingButtonTint
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -342,7 +342,7 @@ toolbarTextColor
 >
 color
 /
-searchText
+search_text
 <
 /
 item
@@ -367,7 +367,7 @@ searchBackground
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -382,7 +382,7 @@ searchShortcutsTextColor
 >
 color
 /
-awesomeBarTitleColor
+awesome_bar_title_color
 <
 /
 item
@@ -397,7 +397,7 @@ pillWrapperBackground
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -412,7 +412,7 @@ awesomeBarTitleTextColor
 >
 color
 /
-awesomeBarTitleColor
+awesome_bar_title_color
 <
 /
 item
@@ -427,7 +427,7 @@ awesomeBarDescriptionTextColor
 >
 color
 /
-awesomeBarDescriptionColor
+awesome_bar_description_color
 <
 /
 item
@@ -452,7 +452,7 @@ browserToolbarBackground
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -701,7 +701,7 @@ privateBrowsingButtonTint
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -731,7 +731,7 @@ menuButtonTint
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -761,7 +761,7 @@ toolbarTextColor
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -801,7 +801,7 @@ searchShortcutsTextColor
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -831,7 +831,7 @@ awesomeBarTitleTextColor
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -886,7 +886,7 @@ browserToolbarIcons
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -1016,7 +1016,7 @@ colorPrimary
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
@@ -1031,7 +1031,7 @@ colorPrimaryDark
 >
 color
 /
-offwhite
+off_white
 <
 /
 item
