@@ -183,7 +183,7 @@ addons
 .
 amo
 .
-AddonCollectionProvider
+AMOAddonsProvider
 import
 mozilla
 .
@@ -866,11 +866,11 @@ testContext
 )
 )
 val
-mockedCollectionProvider
+mockedAddonsProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -879,7 +879,7 @@ adapter
 =
 AddonsManagerAdapter
 (
-mockedCollectionProvider
+mockedAddonsProvider
 mock
 (
 )
@@ -889,7 +889,7 @@ emptyList
 )
 whenever
 (
-mockedCollectionProvider
+mockedAddonsProvider
 .
 getAddonIconBitmap
 (
@@ -1003,11 +1003,11 @@ testContext
 )
 )
 val
-mockedCollectionProvider
+mockedAddonsProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -1016,7 +1016,7 @@ adapter
 =
 AddonsManagerAdapter
 (
-mockedCollectionProvider
+mockedAddonsProvider
 mock
 (
 )
@@ -1026,7 +1026,7 @@ emptyList
 )
 whenever
 (
-mockedCollectionProvider
+mockedAddonsProvider
 .
 getAddonIconBitmap
 (
@@ -1107,11 +1107,11 @@ testContext
 )
 )
 val
-mockedCollectionProvider
+mockedAddonsProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -1122,7 +1122,7 @@ spy
 (
 AddonsManagerAdapter
 (
-mockedCollectionProvider
+mockedAddonsProvider
 mock
 (
 )
@@ -1133,7 +1133,7 @@ emptyList
 )
 whenever
 (
-mockedCollectionProvider
+mockedAddonsProvider
 .
 getAddonIconBitmap
 (
@@ -1251,11 +1251,11 @@ testContext
 )
 )
 val
-mockedCollectionProvider
+mockedAddonsProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -1264,7 +1264,7 @@ adapter
 =
 AddonsManagerAdapter
 (
-mockedCollectionProvider
+mockedAddonsProvider
 mock
 (
 )
@@ -1283,7 +1283,7 @@ BitmapDrawable
 )
 whenever
 (
-mockedCollectionProvider
+mockedAddonsProvider
 .
 getAddonIconBitmap
 (

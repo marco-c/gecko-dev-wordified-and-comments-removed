@@ -312,11 +312,11 @@ AndroidJUnit4
 class
 )
 class
-AddonCollectionProviderTest
+AMOAddonsProviderTest
 {
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 with
 a
@@ -351,7 +351,7 @@ json
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -363,7 +363,7 @@ addons
 =
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 val
@@ -762,7 +762,7 @@ reviews
 }
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 with
 a
@@ -787,7 +787,7 @@ prepareClient
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -799,7 +799,7 @@ addons
 =
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 val
@@ -1035,7 +1035,7 @@ rating
 }
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 with
 a
@@ -1063,7 +1063,7 @@ json
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -1075,7 +1075,7 @@ addons
 =
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 language
 =
@@ -1567,7 +1567,7 @@ Unit
 }
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 read
 timeout
@@ -1590,7 +1590,7 @@ provider
 =
 spy
 (
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -1600,7 +1600,7 @@ mockedClient
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 readTimeoutInSeconds
 =
@@ -1687,7 +1687,7 @@ IOException
 class
 )
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 with
 unexpected
@@ -1712,7 +1712,7 @@ status
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -1721,14 +1721,14 @@ mockedClient
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 Unit
 }
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 returns
 cached
@@ -1763,7 +1763,7 @@ provider
 =
 spy
 (
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -1773,7 +1773,7 @@ mockedClient
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 false
 )
@@ -1812,7 +1812,7 @@ true
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 true
 )
@@ -1851,7 +1851,7 @@ false
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 true
 )
@@ -1871,7 +1871,7 @@ Unit
 }
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 returns
 cached
@@ -1935,7 +1935,7 @@ provider
 =
 spy
 (
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -1952,7 +1952,7 @@ allowCache
 false
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 allowCache
 =
@@ -1992,7 +1992,7 @@ cache
 present
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 allowCache
 =
@@ -2057,7 +2057,7 @@ time
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 allowCache
 =
@@ -2144,7 +2144,7 @@ assertSame
 cachedAddons
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 allowCache
 =
@@ -2223,7 +2223,7 @@ assertSame
 cachedAddons
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 allowCache
 =
@@ -2233,7 +2233,7 @@ true
 }
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 writes
 response
@@ -2270,7 +2270,7 @@ provider
 =
 spy
 (
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -2283,7 +2283,7 @@ cachingProvider
 =
 spy
 (
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -2296,7 +2296,7 @@ maxCacheAgeInMinutes
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 verify
@@ -2314,7 +2314,7 @@ null
 )
 cachingProvider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 verify
@@ -2330,7 +2330,7 @@ null
 }
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 deletes
 unused
@@ -2365,7 +2365,7 @@ provider
 =
 spy
 (
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -2378,7 +2378,7 @@ maxCacheAgeInMinutes
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 verify
@@ -2488,7 +2488,7 @@ exists
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -2600,7 +2600,7 @@ exists
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -2768,7 +2768,7 @@ available
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -2874,7 +2874,7 @@ exists
 }
 Test
 fun
-getAvailableAddons
+getFeaturedAddons
 -
 cache
 expiration
@@ -2887,7 +2887,7 @@ provider
 =
 spy
 (
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -2972,7 +2972,7 @@ provider
 =
 spy
 (
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3205,7 +3205,7 @@ mockedResponse
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3318,7 +3318,7 @@ status
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3428,7 +3428,7 @@ collection123
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3440,7 +3440,7 @@ collectionName
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 verify
@@ -3552,7 +3552,7 @@ collectionName
 "
 collection123
 "
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3572,7 +3572,7 @@ also
 {
 it
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 }
@@ -3645,7 +3645,7 @@ SECONDS
 )
 )
 )
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3665,7 +3665,7 @@ also
 {
 it
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 }
@@ -3738,7 +3738,7 @@ SECONDS
 )
 )
 )
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3758,7 +3758,7 @@ also
 {
 it
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 }
@@ -3831,7 +3831,7 @@ SECONDS
 )
 )
 )
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3851,7 +3851,7 @@ also
 {
 it
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 }
@@ -3924,7 +3924,7 @@ SECONDS
 )
 )
 )
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -3944,7 +3944,7 @@ also
 {
 it
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 }
@@ -4017,7 +4017,7 @@ SECONDS
 )
 )
 )
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -4037,7 +4037,7 @@ also
 {
 it
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 }
@@ -4145,7 +4145,7 @@ collection123
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -4160,7 +4160,7 @@ collectionName
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 verify
@@ -4282,7 +4282,7 @@ prepareClient
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client
@@ -4291,7 +4291,7 @@ mockedClient
 )
 provider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 )
 verify
@@ -4426,7 +4426,7 @@ collection
 val
 provider
 =
-AddonCollectionProvider
+AMOAddonsProvider
 (
 testContext
 client

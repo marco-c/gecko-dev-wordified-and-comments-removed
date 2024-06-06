@@ -1128,13 +1128,13 @@ hasExistingAddonPostInstallationDialogFragment
 )
 {
 val
-addonCollectionProvider
+addonsProvider
 =
 context
 .
 components
 .
-addonCollectionProvider
+addonsProvider
 /
 /
 Fragment
@@ -1249,9 +1249,9 @@ newInstance
 addon
 =
 addon
-addonCollectionProvider
+addonsProvider
 =
-addonCollectionProvider
+addonsProvider
 promptsStyling
 =
 AddonInstallationDialogFragment

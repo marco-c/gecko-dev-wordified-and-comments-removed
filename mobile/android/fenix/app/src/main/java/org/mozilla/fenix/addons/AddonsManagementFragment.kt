@@ -859,7 +859,7 @@ requireContext
 .
 components
 .
-addonCollectionProvider
+addonsProvider
 managementView
 addons
 style

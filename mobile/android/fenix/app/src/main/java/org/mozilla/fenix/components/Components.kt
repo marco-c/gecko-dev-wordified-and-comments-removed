@@ -143,7 +143,7 @@ addons
 .
 amo
 .
-AddonCollectionProvider
+AMOAddonsProvider
 import
 mozilla
 .
@@ -749,7 +749,7 @@ engine
 )
 }
 val
-addonCollectionProvider
+addonsProvider
 by
 lazyMonitored
 {
@@ -791,7 +791,7 @@ amoCollectionOverrideConfigured
 )
 )
 {
-AddonCollectionProvider
+AMOAddonsProvider
 (
 context
 core
@@ -846,7 +846,7 @@ isNullOrEmpty
 )
 )
 {
-AddonCollectionProvider
+AMOAddonsProvider
 (
 context
 core
@@ -880,7 +880,7 @@ to
 defaults
 else
 {
-AddonCollectionProvider
+AMOAddonsProvider
 (
 context
 core
@@ -952,7 +952,7 @@ store
 core
 .
 engine
-addonCollectionProvider
+addonsProvider
 addonUpdater
 )
 }

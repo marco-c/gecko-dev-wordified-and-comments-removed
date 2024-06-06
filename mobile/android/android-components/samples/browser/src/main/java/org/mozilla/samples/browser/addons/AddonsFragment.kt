@@ -499,7 +499,7 @@ onConfirmButtonClicked
 onConfirmInstallationButtonClicked
 dialog
 .
-addonCollectionProvider
+addonsProvider
 =
 requireContext
 (
@@ -507,7 +507,7 @@ requireContext
 .
 components
 .
-addonCollectionProvider
+addonsProvider
 }
 }
 private
@@ -554,13 +554,13 @@ requireContext
 (
 )
 val
-addonCollectionProvider
+addonsProvider
 =
 context
 .
 components
 .
-addonCollectionProvider
+addonsProvider
 val
 addons
 =
@@ -616,9 +616,9 @@ adapter
 =
 AddonsManagerAdapter
 (
-addonCollectionProvider
+addonsProvider
 =
-addonCollectionProvider
+addonsProvider
 addonsManagerDelegate
 =
 this
@@ -962,7 +962,7 @@ isInstallationInProgress
 return
 }
 val
-addonCollectionProvider
+addonsProvider
 =
 requireContext
 (
@@ -970,7 +970,7 @@ requireContext
 .
 components
 .
-addonCollectionProvider
+addonsProvider
 val
 dialog
 =
@@ -981,9 +981,9 @@ newInstance
 addon
 =
 addon
-addonCollectionProvider
+addonsProvider
 =
-addonCollectionProvider
+addonsProvider
 onConfirmButtonClicked
 =
 onConfirmInstallationButtonClicked

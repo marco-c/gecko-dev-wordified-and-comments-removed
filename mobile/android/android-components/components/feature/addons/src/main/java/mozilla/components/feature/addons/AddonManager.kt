@@ -647,7 +647,7 @@ supportedAddons
 =
 addonsProvider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 allowCache
 language

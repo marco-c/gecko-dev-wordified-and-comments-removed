@@ -279,7 +279,7 @@ addons
 .
 amo
 .
-AddonCollectionProvider
+AMOAddonsProvider
 import
 mozilla
 .
@@ -554,7 +554,7 @@ application
 '
 s
 [
-AddonCollectionProvider
+AMOAddonsProvider
 ]
 to
 fetch
@@ -566,9 +566,9 @@ icons
 *
 /
 var
-addonCollectionProvider
+addonsProvider
 :
-AddonCollectionProvider
+AMOAddonsProvider
 ?
 =
 null
@@ -1230,7 +1230,7 @@ try
 val
 iconBitmap
 =
-addonCollectionProvider
+addonsProvider
 ?
 .
 getAddonIconBitmap
@@ -1584,9 +1584,9 @@ newInstance
 addon
 :
 Addon
-addonCollectionProvider
+addonsProvider
 :
-AddonCollectionProvider
+AMOAddonsProvider
 promptsStyling
 :
 PromptsStyling
@@ -1733,9 +1733,9 @@ arguments
 arguments
 fragment
 .
-addonCollectionProvider
+addonsProvider
 =
-addonCollectionProvider
+addonsProvider
 return
 fragment
 }

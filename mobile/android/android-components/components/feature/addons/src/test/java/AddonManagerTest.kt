@@ -601,7 +601,7 @@ whenever
 (
 addonsProvider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 anyBoolean
 (
@@ -1456,7 +1456,7 @@ whenever
 (
 addonsProvider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 anyBoolean
 (
@@ -1916,7 +1916,7 @@ whenever
 (
 addonsProvider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 anyBoolean
 (
@@ -2142,7 +2142,7 @@ whenever
 (
 addonsProvider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 anyBoolean
 (
@@ -2425,7 +2425,7 @@ whenever
 (
 addonsProvider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 anyBoolean
 (
@@ -2699,7 +2699,7 @@ whenever
 (
 addonsProvider
 .
-getAvailableAddons
+getFeaturedAddons
 (
 anyBoolean
 (
@@ -2746,7 +2746,7 @@ verify
 addonsProvider
 )
 .
-getAvailableAddons
+getFeaturedAddons
 (
 eq
 (
@@ -2775,7 +2775,7 @@ verify
 addonsProvider
 )
 .
-getAvailableAddons
+getFeaturedAddons
 (
 eq
 (

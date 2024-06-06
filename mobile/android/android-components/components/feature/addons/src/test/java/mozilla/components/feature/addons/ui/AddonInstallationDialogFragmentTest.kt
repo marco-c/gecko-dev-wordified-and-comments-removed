@@ -183,7 +183,7 @@ addons
 .
 amo
 .
-AddonCollectionProvider
+AMOAddonsProvider
 import
 mozilla
 .
@@ -435,7 +435,7 @@ mockedCollectionProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -452,7 +452,7 @@ assertSame
 mockedCollectionProvider
 fragment
 .
-addonCollectionProvider
+addonsProvider
 )
 assertSame
 (
@@ -1159,7 +1159,7 @@ mockedCollectionProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -1287,7 +1287,7 @@ mockedCollectionProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -1394,7 +1394,7 @@ mockedCollectionProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -1479,7 +1479,7 @@ mockedCollectionProvider
 =
 mock
 <
-AddonCollectionProvider
+AMOAddonsProvider
 >
 (
 )
@@ -1526,9 +1526,9 @@ createAddonInstallationDialogFragment
 addon
 :
 Addon
-addonCollectionProvider
+addonsProvider
 :
-AddonCollectionProvider
+AMOAddonsProvider
 promptsStyling
 :
 AddonInstallationDialogFragment
@@ -1549,7 +1549,7 @@ AddonInstallationDialogFragment
 newInstance
 (
 addon
-addonCollectionProvider
+addonsProvider
 promptsStyling
 =
 promptsStyling

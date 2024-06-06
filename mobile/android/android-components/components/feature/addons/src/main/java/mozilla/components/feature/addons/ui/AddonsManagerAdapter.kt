@@ -261,7 +261,7 @@ addons
 .
 amo
 .
-AddonCollectionProvider
+AMOAddonsProvider
 import
 mozilla
 .
@@ -422,7 +422,7 @@ on
 *
 *
 property
-addonCollectionProvider
+addonsProvider
 Provider
 of
 AMO
@@ -501,9 +501,9 @@ AddonsManagerAdapter
 (
 private
 val
-addonCollectionProvider
+addonsProvider
 :
-AddonCollectionProvider
+AMOAddonsProvider
 private
 val
 addonsManagerDelegate
@@ -1745,7 +1745,7 @@ currentTimeMillis
 val
 iconBitmap
 =
-addonCollectionProvider
+addonsProvider
 .
 getAddonIconBitmap
 (
