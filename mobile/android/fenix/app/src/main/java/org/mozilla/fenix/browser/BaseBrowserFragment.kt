@@ -1851,7 +1851,7 @@ this
 store
 =
 store
-sessionId
+customTabId
 =
 customTabSessionId
 fragmentManager
