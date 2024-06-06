@@ -391,6 +391,14 @@ setEnabled
 (
 false
 )
+Adjust
+.
+gdprForgetMe
+(
+application
+.
+applicationContext
+)
 }
 /
 /
