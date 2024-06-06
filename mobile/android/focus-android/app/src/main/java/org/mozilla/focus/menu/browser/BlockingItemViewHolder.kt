@@ -99,13 +99,13 @@ java
 .
 net
 .
-URI
+MalformedURLException
 import
 java
 .
 net
 .
-URISyntaxException
+URL
 internal
 class
 BlockingItemViewHolder
@@ -346,7 +346,7 @@ host
 =
 try
 {
-URI
+URL
 (
 url
 )
@@ -357,7 +357,7 @@ catch
 (
 e
 :
-URISyntaxException
+MalformedURLException
 )
 {
 url

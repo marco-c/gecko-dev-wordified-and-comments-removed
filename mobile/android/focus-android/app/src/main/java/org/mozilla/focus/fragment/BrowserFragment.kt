@@ -881,13 +881,13 @@ java
 .
 net
 .
-URI
+MalformedURLException
 import
 java
 .
 net
 .
-URISyntaxException
+URL
 import
 kotlin
 .
@@ -8850,7 +8850,7 @@ host
 =
 try
 {
-URI
+URL
 (
 url
 )
@@ -8859,9 +8859,9 @@ host
 }
 catch
 (
-e
+_
 :
-URISyntaxException
+MalformedURLException
 )
 {
 url
