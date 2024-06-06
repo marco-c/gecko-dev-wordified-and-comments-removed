@@ -762,7 +762,7 @@ R
 .
 color
 .
-tab_tray_item_background_normal_theme
+fx_mobile_layer_color_1
 }
 itemView
 .
