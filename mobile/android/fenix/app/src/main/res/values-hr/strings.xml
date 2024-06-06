@@ -416,9 +416,6 @@ private_browsing_placeholder_description
 %
 1
 s
-%
-1
-s
 uklanja
 tvoju
 povijest
@@ -479,9 +476,9 @@ ostalih
 osoba
 koje
 koriste
-ovo
-ra
-unalo
+ovaj
+ure
+aj
 .
 <
 /
@@ -19390,14 +19387,8 @@ ka
 prilikom
 povezivanja
 s
-&
-quot
-;
 %
 s
-&
-quot
-;
 <
 /
 string

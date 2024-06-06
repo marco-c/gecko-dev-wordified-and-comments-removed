@@ -52,6 +52,7 @@ app_name_private_2
 "
 >
 Firefox
+-
 <
 /
 string
@@ -88,6 +89,7 @@ app_name_private_3
 "
 >
 Firefox
+-
 (
 )
 <
@@ -137,6 +139,7 @@ name
 content_description_menu
 "
 >
+.
 <
 /
 string
@@ -292,7 +295,7 @@ name
 no_open_tabs_description
 "
 >
-.
+:
 <
 /
 string
@@ -382,8 +385,9 @@ private_browsing_placeholder_description
 %
 1
 s
-.
-.
+-
+:
+:
 <
 /
 string
@@ -468,7 +472,7 @@ name
 cfr_message
 "
 >
-.
+:
 <
 /
 string
@@ -517,7 +521,6 @@ name
 cfr_neg_button_text
 "
 >
-!
 <
 /
 string
@@ -1381,6 +1384,7 @@ browser_menu_open_in_fenix
 %
 1
 s
+-
 <
 /
 string
@@ -1435,6 +1439,7 @@ browser_menu_powered_by
 %
 1
 s
+-
 <
 /
 string
@@ -1489,6 +1494,7 @@ browser_menu_powered_by2
 %
 1
 s
+-
 <
 /
 string
@@ -1846,7 +1852,6 @@ name
 search_shortcuts_search_with
 "
 >
-:
 <
 /
 string
@@ -1874,7 +1879,6 @@ name
 search_shortcuts_search_with_2
 "
 >
-:
 <
 /
 string
@@ -2001,6 +2005,7 @@ name
 search_suggestions_onboarding_title
 "
 >
+:
 <
 /
 string
@@ -2045,7 +2050,8 @@ search_suggestions_onboarding_text
 >
 %
 s
-.
+-
+:
 <
 /
 string
@@ -2374,6 +2380,7 @@ preferences_rate
 >
 Google
 Play
+-
 <
 /
 string
@@ -2446,6 +2453,7 @@ preferences_about
 %
 1
 s
+-
 <
 /
 string
@@ -2911,7 +2919,7 @@ name
 preferences_sign_in_description
 "
 >
-.
+Firefox
 <
 /
 string
@@ -2948,6 +2956,8 @@ name
 preferences_account_default_name
 "
 >
+Firefox
+-
 <
 /
 string
@@ -3119,6 +3129,7 @@ preferences_remote_debugging
 "
 >
 USB
+-
 <
 /
 string
@@ -3571,7 +3582,7 @@ name
 empty_device_name_error
 "
 >
-.
+:
 <
 /
 string
@@ -3636,7 +3647,6 @@ name
 sync_failed_summary
 "
 >
-.
 :
 %
 s
@@ -3664,7 +3674,6 @@ name
 sync_failed_never_synced_summary
 "
 >
-.
 :
 <
 /
@@ -3703,7 +3712,7 @@ name
 sync_last_synced_summary
 "
 >
-:
+.
 %
 s
 <
@@ -3730,7 +3739,7 @@ name
 sync_never_synced_summary
 "
 >
-:
+.
 <
 /
 string
@@ -3782,10 +3791,12 @@ default_device_name
 >
 %
 s
+-
 %
 s
 %
 s
+-
 <
 /
 string
@@ -3878,7 +3889,8 @@ fxa_received_tab_channel_description
 "
 >
 Firefox
-.
+-
+:
 <
 /
 string
@@ -3961,6 +3973,7 @@ fxa_tab_received_from_notification_name
 >
 %
 s
+-
 <
 /
 string
@@ -4154,7 +4167,7 @@ name
 exceptions_empty_message_description
 "
 >
-.
+:
 <
 /
 string
@@ -4236,7 +4249,7 @@ name
 preferences_tracking_protection_turned_off_globally
 "
 >
-.
+:
 <
 /
 string
@@ -4260,6 +4273,7 @@ name
 preferences_telemetry
 "
 >
+Telemetry
 <
 /
 string
@@ -4314,9 +4328,12 @@ name
 preferences_usage_data_description
 "
 >
+Mozilla
+-
 %
 1
 s
+-
 <
 /
 string
@@ -4382,8 +4399,10 @@ preferences_marketing_data_description
 %
 1
 s
+-
 Leanplum
-.
+-
+:
 <
 /
 string
@@ -4430,6 +4449,8 @@ name
 preference_experiments_summary
 "
 >
+Mozilla
+-
 <
 /
 string
@@ -4479,6 +4500,7 @@ name
 preferences_mozilla_location_service
 "
 >
+Mozilla
 <
 /
 string
@@ -4522,6 +4544,7 @@ preferences_fenix_health_report
 >
 %
 s
+-
 <
 /
 string
@@ -4582,6 +4605,8 @@ name
 preferences_sync_pair
 "
 >
+Firefox
+-
 <
 /
 string
@@ -4694,7 +4719,6 @@ pair_instructions
 [
 CDATA
 [
-QR
 <
 b
 >
@@ -4708,7 +4732,9 @@ pair
 b
 >
 Firefox
-.
+-
+QR
+:
 ]
 ]
 >
@@ -6103,6 +6129,7 @@ name
 history_delete_all_dialog
 "
 >
+:
 <
 /
 string
@@ -6200,6 +6227,7 @@ history_multi_select_title
 %
 1
 d
+-
 <
 /
 string
@@ -6454,7 +6482,8 @@ tab_crash_title_2
 %
 1
 s
-.
+-
+:
 <
 /
 string
@@ -6482,7 +6511,7 @@ name
 tab_crash_description
 "
 >
-.
+:
 <
 /
 string
@@ -6512,6 +6541,8 @@ name
 tab_crash_send_report
 "
 >
+Mozilla
+-
 <
 /
 string
@@ -6760,7 +6791,7 @@ name
 bookmark_created_snackbar
 "
 >
-.
+:
 <
 /
 string
@@ -6790,7 +6821,7 @@ name
 bookmark_saved_snackbar
 "
 >
-!
+:
 <
 /
 string
@@ -7057,6 +7088,7 @@ bookmarks_multi_select_title
 %
 1
 d
+-
 <
 /
 string
@@ -7152,6 +7184,7 @@ name
 bookmark_url_label
 "
 >
+URL
 <
 /
 string
@@ -7298,6 +7331,7 @@ name
 bookmark_invalid_url_error
 "
 >
+URL
 <
 /
 string
@@ -7367,6 +7401,7 @@ bookmark_deletion_snackbar_message
 %
 1
 s
+-
 <
 /
 string
@@ -7933,6 +7968,8 @@ name
 phone_feature_blocked_by_android
 "
 >
+Android
+-
 <
 /
 string
@@ -8000,6 +8037,7 @@ name
 tracking_protection_on
 "
 >
+.
 <
 /
 string
@@ -8031,6 +8069,7 @@ name
 tracking_protection_off
 "
 >
+.
 <
 /
 string
@@ -8120,6 +8159,7 @@ name
 delete_browsing_data_quit_on
 "
 >
+.
 <
 /
 string
@@ -8153,6 +8193,7 @@ name
 delete_browsing_data_quit_off
 "
 >
+.
 <
 /
 string
@@ -8193,8 +8234,8 @@ name
 collections_description
 "
 >
-.
-.
+:
+:
 <
 /
 string
@@ -8304,7 +8345,7 @@ name
 no_collections_description
 "
 >
-.
+:
 <
 /
 string
@@ -8684,7 +8725,7 @@ name
 create_collection_tabs_saved
 "
 >
-!
+:
 <
 /
 string
@@ -8717,7 +8758,7 @@ name
 create_collection_tab_saved
 "
 >
-!
+:
 <
 /
 string
@@ -9250,7 +9291,7 @@ sync_connect_device_dialog
 "
 >
 Firefox
-.
+:
 <
 /
 string
@@ -9377,6 +9418,9 @@ name
 sync_add_new_device_learn_button
 "
 >
+.
+.
+.
 <
 /
 string
@@ -9404,6 +9448,9 @@ name
 sync_add_new_device_connect_button
 "
 >
+.
+.
+.
 <
 /
 string
@@ -9848,7 +9895,7 @@ name
 snackbar_added_to_top_sites
 "
 >
-!
+:
 <
 /
 string
@@ -10116,9 +10163,11 @@ qr_scanner_confirmation_dialog_message
 %
 1
 s
+-
 %
 2
 s
+-
 <
 /
 string
@@ -10220,6 +10269,7 @@ tab_collection_dialog_message
 %
 1
 s
+-
 <
 /
 string
@@ -10340,6 +10390,8 @@ name
 url_copied
 "
 >
+URL
+-
 <
 /
 string
@@ -10365,8 +10417,8 @@ name
 accessibility_text_size_sample_text_1
 "
 >
-.
-.
+:
+:
 <
 /
 string
@@ -10474,8 +10526,9 @@ preference_accessibility_auto_size_summary
 "
 >
 Android
-.
-.
+-
+:
+:
 <
 /
 string
@@ -10743,6 +10796,8 @@ name
 preferences_delete_browsing_data_cookies
 "
 >
+Cookie
+-
 <
 /
 string
@@ -10955,12 +11010,7 @@ name
 preference_summary_delete_browsing_data_on_quit
 "
 >
-&
-quot
-;
-&
-quot
-;
+:
 <
 /
 string
@@ -11000,13 +11050,8 @@ preference_summary_delete_browsing_data_on_quit_2
 "
 >
 \
-&
-quot
-;
 \
-&
-quot
-;
+:
 <
 /
 string
@@ -11101,7 +11146,7 @@ name
 delete_browsing_data_prompt_message
 "
 >
-.
+:
 <
 /
 string
@@ -11142,7 +11187,8 @@ delete_browsing_data_prompt_message_3
 >
 %
 s
-.
+-
+:
 <
 /
 string
@@ -11317,7 +11363,7 @@ onboarding_header
 >
 %
 s
-!
+:
 <
 /
 string
@@ -11390,6 +11436,7 @@ onboarding_feature_section_header
 >
 %
 s
+-
 <
 /
 string
@@ -11471,6 +11518,9 @@ onboarding_whats_new_description
 >
 %
 s
+-
+:
+:
 <
 /
 string
@@ -11559,7 +11609,8 @@ onboarding_firefox_account_header
 >
 %
 s
-.
+-
+:
 <
 /
 string
@@ -11626,7 +11677,8 @@ onboarding_firefox_account_auto_signin_header_2
 %
 s
 Firefox
-.
+:
+:
 <
 /
 string
@@ -11689,6 +11741,9 @@ name
 onboarding_firefox_account_signing_in
 "
 >
+.
+.
+.
 <
 /
 string
@@ -11728,6 +11783,7 @@ name
 onboarding_firefox_account_sign_in
 "
 >
+Firefox
 <
 /
 string
@@ -11905,7 +11961,8 @@ onboarding_tracking_protection_description1
 >
 %
 s
-.
+-
+:
 <
 /
 string
@@ -12110,7 +12167,7 @@ name
 onboarding_toolbar_position_description
 "
 >
-.
+:
 <
 /
 string
@@ -12175,10 +12232,10 @@ name
 onboarding_private_browsing_description1
 "
 >
-:
+.
 %
 s
-.
+:
 <
 /
 string
@@ -12213,8 +12270,8 @@ name
 onboarding_private_browsing_always_description
 "
 >
-:
 .
+:
 <
 /
 string
@@ -12318,7 +12375,8 @@ onboarding_privacy_notice_description
 >
 %
 s
-.
+-
+:
 <
 /
 string
@@ -12436,7 +12494,7 @@ name
 onboarding_theme_picker_description1
 "
 >
-.
+:
 <
 /
 string
@@ -12574,7 +12632,7 @@ name
 sync_sent_tabs_snackbar
 "
 >
-!
+:
 <
 /
 string
@@ -12606,7 +12664,7 @@ name
 sync_sent_tab_snackbar
 "
 >
-!
+:
 <
 /
 string
@@ -12726,6 +12784,7 @@ sign_in_instructions
 CDATA
 [
 Firefox
+-
 <
 b
 >
@@ -12828,6 +12887,7 @@ name
 sign_in_with_email
 "
 >
+.
 <
 /
 string
@@ -12857,7 +12917,8 @@ name
 sign_out_confirmation_message
 "
 >
-.
+Firefox
+-
 <
 /
 string
@@ -13096,10 +13157,11 @@ name
 preference_enhanced_tracking_protection_explanation
 "
 >
-.
+:
 %
 s
-.
+-
+:
 <
 /
 string
@@ -13219,7 +13281,7 @@ name
 preference_enhanced_tracking_protection_standard_description
 "
 >
-.
+:
 <
 /
 string
@@ -13250,7 +13312,7 @@ name
 preference_enhanced_tracking_protection_standard_description_2
 "
 >
-.
+:
 <
 /
 string
@@ -13370,7 +13432,7 @@ name
 preference_enhanced_tracking_protection_strict_default_description
 "
 >
-.
+:
 <
 /
 string
@@ -13432,7 +13494,7 @@ name
 preference_enhanced_tracking_protection_strict_description
 "
 >
-.
+:
 <
 /
 string
@@ -13597,6 +13659,8 @@ name
 preference_enhanced_tracking_protection_custom_cookies
 "
 >
+Cookie
+-
 <
 /
 string
@@ -13659,6 +13723,8 @@ name
 preference_enhanced_tracking_protection_custom_cookies_2
 "
 >
+Cookie
+-
 <
 /
 string
@@ -13690,6 +13756,8 @@ name
 preference_enhanced_tracking_protection_custom_cookies_3
 "
 >
+cookie
+-
 (
 )
 <
@@ -13723,6 +13791,8 @@ name
 preference_enhanced_tracking_protection_custom_cookies_4
 "
 >
+cookie
+-
 (
 )
 <
@@ -14024,7 +14094,7 @@ name
 etp_social_media_trackers_description
 "
 >
-.
+:
 <
 /
 string
@@ -14062,6 +14132,7 @@ name
 etp_cookies_title
 "
 >
+Cookie
 -
 <
 /
@@ -14097,7 +14168,9 @@ name
 etp_cookies_description
 "
 >
-.
+cookie
+-
+:
 <
 /
 string
@@ -14161,7 +14234,7 @@ name
 etp_cryptominers_description
 "
 >
-.
+:
 <
 /
 string
@@ -14225,7 +14298,7 @@ name
 etp_fingerprinters_description
 "
 >
-.
+:
 <
 /
 string
@@ -14291,8 +14364,8 @@ name
 etp_tracking_content_description
 "
 >
-.
-.
+:
+:
 <
 /
 string
@@ -14342,8 +14415,9 @@ etp_onboarding_message_2
 >
 %
 s
-.
-.
+-
+:
+:
 <
 /
 string
@@ -14524,6 +14598,7 @@ about_whats_new
 >
 %
 s
+-
 <
 /
 string
@@ -14919,6 +14994,8 @@ name
 browser_toolbar_url_copied_to_clipboard_snackbar
 "
 >
+URL
+-
 <
 /
 string
@@ -15225,6 +15302,7 @@ name
 preferences_passwords_sync_logins_on
 "
 >
+.
 <
 /
 string
@@ -15251,6 +15329,7 @@ name
 preferences_passwords_sync_logins_off
 "
 >
+.
 <
 /
 string
@@ -15365,9 +15444,7 @@ name
 preferences_passwords_saved_logins_description_empty_text
 "
 >
-%
-s
-.
+:
 <
 /
 string
@@ -15394,7 +15471,7 @@ name
 preferences_passwords_saved_logins_description_empty_learn_more_link
 "
 >
-.
+:
 <
 /
 string
@@ -15459,7 +15536,7 @@ name
 preferences_passwords_exceptions_description_empty
 "
 >
-.
+:
 <
 /
 string
@@ -15491,7 +15568,7 @@ name
 preferences_passwords_exceptions_description
 "
 >
-.
+:
 <
 /
 string
@@ -15690,6 +15767,8 @@ name
 preferences_passwords_saved_logins_enter_pin
 "
 >
+PIN
+-
 <
 /
 string
@@ -15753,8 +15832,7 @@ name
 logins_insecure_connection_warning
 "
 >
-.
-.
+:
 <
 /
 string
@@ -15858,6 +15936,8 @@ logins_doorhanger_save
 >
 %
 s
+-
+:
 <
 /
 string
@@ -16289,7 +16369,7 @@ logins_warning_dialog_message
 "
 >
 PIN
-.
+:
 <
 /
 string
@@ -16453,7 +16533,7 @@ name
 preference_accessibility_force_enable_zoom_summary
 "
 >
-.
+:
 <
 /
 string
@@ -16789,7 +16869,7 @@ search_add_custom_engine_search_string_example
 >
 %
 s
-.
+-
 :
 \
 nhttps
@@ -16966,7 +17046,7 @@ search_add_custom_engine_error_existing_name
 >
 %
 s
-.
+:
 <
 /
 string
@@ -17074,6 +17154,7 @@ search_add_custom_engine_error_cannot_reach
 >
 %
 s
+-
 <
 /
 string
@@ -17105,6 +17186,7 @@ search_add_custom_engine_success_message
 >
 %
 s
+-
 <
 /
 string
@@ -17137,6 +17219,7 @@ search_edit_custom_engine_success_message
 >
 %
 s
+-
 <
 /
 string
@@ -17169,6 +17252,7 @@ search_delete_search_engine_success_message
 >
 %
 s
+-
 <
 /
 string
@@ -17249,13 +17333,14 @@ name
 migration_description
 "
 >
-.
+:
 \
 n
 \
 n
 %
 s
+-
 <
 /
 string
@@ -17291,6 +17376,7 @@ migration_updating_app_button_text
 >
 %
 s
+-
 <
 /
 string
@@ -17323,6 +17409,7 @@ migration_update_app_button
 >
 %
 s
+-
 <
 /
 string
@@ -17412,7 +17499,6 @@ name
 phone_feature_blocked_intro
 "
 >
-:
 <
 /
 string
@@ -17442,6 +17528,7 @@ phone_feature_blocked_step_settings
 1
 .
 Android
+-
 <
 /
 string
@@ -17534,7 +17621,8 @@ s
 /
 b
 >
-ON
+-
+.
 ]
 ]
 >
@@ -17633,6 +17721,7 @@ name
 confirm_clear_permissions_on_all_sites
 "
 >
+:
 <
 /
 string
@@ -17670,6 +17759,7 @@ name
 confirm_clear_permissions_site
 "
 >
+:
 <
 /
 string
@@ -17708,6 +17798,7 @@ name
 confirm_clear_permission_site
 "
 >
+:
 <
 /
 string
@@ -17790,6 +17881,7 @@ name
 bookmark_deletion_confirmation
 "
 >
+:
 <
 /
 string
@@ -17864,10 +17956,10 @@ name
 certificate_info_verified_by
 "
 >
-:
 %
 1
 s
+-
 <
 /
 string
