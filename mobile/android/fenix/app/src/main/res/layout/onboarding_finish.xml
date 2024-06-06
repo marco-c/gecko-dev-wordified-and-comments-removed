@@ -146,8 +146,9 @@ android
 backgroundTint
 =
 "
-?
-accent
+color
+/
+onboarding_card_icon
 "
 android
 :
