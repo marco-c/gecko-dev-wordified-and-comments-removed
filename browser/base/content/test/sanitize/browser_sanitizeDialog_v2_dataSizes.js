@@ -1201,7 +1201,8 @@ await
 new
 Promise
 (
-resolve
+(
+)
 =
 >
 {

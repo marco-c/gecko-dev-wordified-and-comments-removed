@@ -387,7 +387,6 @@ filter
 (
 [
 prefix
-hostPort
 ]
 )
 =
