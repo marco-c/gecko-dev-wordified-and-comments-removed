@@ -315,7 +315,6 @@ dispatchDraw
 canvas
 :
 Canvas
-?
 )
 {
 /
