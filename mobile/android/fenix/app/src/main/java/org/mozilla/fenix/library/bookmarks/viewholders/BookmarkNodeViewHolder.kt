@@ -242,7 +242,7 @@ Edit
 >
 interactor
 .
-edit
+onEditPressed
 (
 item
 )
@@ -268,7 +268,7 @@ Copy
 >
 interactor
 .
-copy
+onCopyPressed
 (
 item
 )
@@ -281,7 +281,7 @@ Share
 >
 interactor
 .
-share
+onSharePressed
 (
 item
 )
@@ -294,7 +294,7 @@ OpenInNewTab
 >
 interactor
 .
-openInNewTab
+onOpenInNormalTab
 (
 item
 )
@@ -307,7 +307,7 @@ OpenInPrivateTab
 >
 interactor
 .
-openInPrivateTab
+onOpenInPrivateTab
 (
 item
 )
@@ -320,7 +320,7 @@ Delete
 >
 interactor
 .
-delete
+onDelete
 (
 setOf
 (

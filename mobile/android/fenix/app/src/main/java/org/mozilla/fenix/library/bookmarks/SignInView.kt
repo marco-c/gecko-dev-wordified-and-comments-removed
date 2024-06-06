@@ -116,15 +116,15 @@ interface
 SignInInteractor
 {
 fun
-clickedSignIn
+onSignInPressed
 (
 )
 fun
-signedIn
+onSignedIn
 (
 )
 fun
-signedOut
+onSignedOut
 (
 )
 }
@@ -197,7 +197,7 @@ setOnClickListener
 {
 interactor
 .
-clickedSignIn
+onSignInPressed
 (
 )
 }

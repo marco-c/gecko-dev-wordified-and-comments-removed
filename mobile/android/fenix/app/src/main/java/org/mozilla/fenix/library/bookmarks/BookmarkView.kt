@@ -237,7 +237,7 @@ tree
 *
 /
 fun
-change
+onBookmarksChanged
 (
 node
 :
@@ -271,7 +271,7 @@ to
 *
 /
 fun
-switchMode
+onSelectionModeSwitch
 (
 mode
 :
@@ -305,7 +305,7 @@ edit
 *
 /
 fun
-edit
+onEditPressed
 (
 node
 :
@@ -332,7 +332,7 @@ mode
 *
 /
 fun
-deselectAll
+onAllBookmarksDeselected
 (
 )
 /
@@ -368,7 +368,7 @@ from
 *
 /
 fun
-copy
+onCopyPressed
 (
 item
 :
@@ -399,7 +399,7 @@ share
 *
 /
 fun
-share
+onSharePressed
 (
 item
 :
@@ -434,7 +434,7 @@ tab
 *
 /
 fun
-openInNewTab
+onOpenInNormalTab
 (
 item
 :
@@ -469,7 +469,7 @@ tab
 *
 /
 fun
-openInPrivateTab
+onOpenInPrivateTab
 (
 item
 :
@@ -484,7 +484,7 @@ a
 set
 of
 bookmark
-node
+nodes
 .
 *
 *
@@ -498,7 +498,7 @@ delete
 *
 /
 fun
-delete
+onDelete
 (
 nodes
 :
@@ -530,7 +530,7 @@ possible
 *
 /
 fun
-backPressed
+onBackPressed
 (
 )
 }
@@ -671,7 +671,7 @@ state
 mode
 interactor
 .
-switchMode
+onSelectionModeSwitch
 (
 mode
 )
@@ -755,7 +755,7 @@ Selecting
 {
 interactor
 .
-deselectAll
+onAllBookmarksDeselected
 (
 )
 true
@@ -766,7 +766,7 @@ canGoBack
 {
 interactor
 .
-backPressed
+onBackPressed
 (
 )
 true

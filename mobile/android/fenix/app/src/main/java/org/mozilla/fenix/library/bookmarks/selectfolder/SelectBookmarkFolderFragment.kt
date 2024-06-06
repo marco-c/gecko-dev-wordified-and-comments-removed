@@ -701,7 +701,7 @@ let
 {
 bookmarkInteractor
 .
-signedIn
+onSignedIn
 (
 )
 }
@@ -709,7 +709,7 @@ signedIn
 :
 bookmarkInteractor
 .
-signedOut
+onSignedOut
 (
 )
 }
@@ -863,7 +863,7 @@ Boolean
 {
 bookmarkInteractor
 .
-signedIn
+onSignedIn
 (
 )
 }
@@ -875,7 +875,7 @@ onLoggedOut
 {
 bookmarkInteractor
 .
-signedOut
+onSignedOut
 (
 )
 }

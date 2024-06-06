@@ -138,7 +138,7 @@ SignInInteractor
 {
 override
 fun
-clickedSignIn
+onSignInPressed
 (
 )
 {
@@ -156,7 +156,7 @@ navController
 }
 override
 fun
-signedIn
+onSignedIn
 (
 )
 {
@@ -171,7 +171,7 @@ true
 }
 override
 fun
-signedOut
+onSignedOut
 (
 )
 {
