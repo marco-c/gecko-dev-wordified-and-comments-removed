@@ -1356,11 +1356,6 @@ first
 .
 if
 (
-FeatureFlags
-.
-sendTabEnabled
-&
-&
 components
 .
 backgroundServices
