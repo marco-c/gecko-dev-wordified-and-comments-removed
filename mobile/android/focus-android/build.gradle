@@ -99,11 +99,11 @@ maven2
 dependencies
 {
 classpath
-Dependencies
+FocusDependencies
 .
 android_gradle_plugin
 classpath
-Dependencies
+FocusDependencies
 .
 kotlin_gradle_plugin
 classpath

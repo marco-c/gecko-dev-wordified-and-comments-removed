@@ -619,7 +619,7 @@ Testing
 ktlint
 }
 object
-Dependencies
+FocusDependencies
 {
 const
 val
