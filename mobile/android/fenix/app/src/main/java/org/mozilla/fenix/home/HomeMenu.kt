@@ -496,6 +496,9 @@ HighPriority
 backgroundTint
 =
 syncDisconnectedBackgroundColor
+canPropagate
+=
+false
 )
 isHighlighted
 =

@@ -1483,6 +1483,9 @@ attr
 .
 syncDisconnectedBackground
 )
+canPropagate
+=
+false
 )
 isHighlighted
 =
