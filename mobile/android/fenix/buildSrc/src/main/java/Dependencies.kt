@@ -294,7 +294,7 @@ androidx_lifecycle
 .
 0
 -
-beta01
+rc02
 "
 const
 val
