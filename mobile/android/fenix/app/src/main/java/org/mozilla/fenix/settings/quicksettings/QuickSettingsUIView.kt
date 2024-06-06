@@ -868,12 +868,6 @@ resolvedColor
 )
 trackingProtectionSwitch
 .
-setTextColor
-(
-resolvedColor
-)
-trackingProtectionSwitch
-.
 setCompoundDrawablesWithIntrinsicBounds
 (
 icon
