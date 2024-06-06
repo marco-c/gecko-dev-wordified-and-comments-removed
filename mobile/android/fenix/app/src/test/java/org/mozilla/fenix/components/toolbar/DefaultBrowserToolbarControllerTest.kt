@@ -171,6 +171,12 @@ kotlinx
 .
 coroutines
 .
+ObsoleteCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 newSingleThreadContext
 import
 kotlinx
@@ -455,6 +461,13 @@ deletebrowsingdata
 .
 deleteAndQuit
 ExperimentalCoroutinesApi
+UseExperimental
+(
+ObsoleteCoroutinesApi
+:
+:
+class
+)
 class
 DefaultBrowserToolbarControllerTest
 {
