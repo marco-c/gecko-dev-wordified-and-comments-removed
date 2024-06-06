@@ -591,7 +591,7 @@ ReviewQualityCheckAction
 NoAnalysisDisplayed
 )
 }
-onShowMoreRecentReviewsClicked
+onHighlightsExpandToggleClick
 =
 {
 store
@@ -600,7 +600,7 @@ dispatch
 (
 ReviewQualityCheckAction
 .
-ShowMoreRecentReviewsClicked
+ExpandCollapseHighlights
 )
 }
 onRecommendedProductClick
@@ -727,7 +727,7 @@ Boolean
 -
 >
 Unit
-onShowMoreRecentReviewsClicked
+onHighlightsExpandToggleClick
 :
 (
 )
@@ -848,6 +848,11 @@ isInfoExpanded
 state
 .
 isInfoExpanded
+isHighlightsExpanded
+=
+state
+.
+isHighlightsExpanded
 onOptOutClick
 =
 onOptOutClick
@@ -857,9 +862,9 @@ onReanalyzeClick
 onProductRecommendationsEnabledStateChange
 =
 onProductRecommendationsEnabledStateChange
-onShowMoreRecentReviewsClicked
+onHighlightsExpandToggleClick
 =
-onShowMoreRecentReviewsClicked
+onHighlightsExpandToggleClick
 onSettingsExpandToggleClick
 =
 onSettingsExpandToggleClick

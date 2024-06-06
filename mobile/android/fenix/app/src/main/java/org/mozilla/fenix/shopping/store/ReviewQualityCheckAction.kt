@@ -930,9 +930,10 @@ card
 *
 /
 object
-ShowMoreRecentReviewsClicked
+ExpandCollapseHighlights
 :
 TelemetryAction
+UpdateAction
 /
 *
 *
