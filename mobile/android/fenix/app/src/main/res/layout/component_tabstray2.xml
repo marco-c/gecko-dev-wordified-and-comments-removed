@@ -461,7 +461,7 @@ layout_constraintTop_toBottomOf
 "
 id
 /
-infoBanner
+info_banner
 "
 /
 >
@@ -1335,7 +1335,7 @@ layout_constraintTop_toBottomOf
 +
 id
 /
-infoBanner
+info_banner
 "
 /
 >
