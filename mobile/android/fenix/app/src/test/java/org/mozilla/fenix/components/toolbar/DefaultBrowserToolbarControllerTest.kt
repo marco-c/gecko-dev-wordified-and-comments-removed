@@ -3235,6 +3235,12 @@ DefaultBrowsingModeManager
 BrowsingMode
 .
 Private
+mockk
+(
+relaxed
+=
+true
+)
 )
 {
 }
@@ -3314,6 +3320,12 @@ DefaultBrowsingModeManager
 BrowsingMode
 .
 Normal
+mockk
+(
+relaxed
+=
+true
+)
 )
 {
 }

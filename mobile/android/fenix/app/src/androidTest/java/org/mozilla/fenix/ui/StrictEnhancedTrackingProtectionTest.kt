@@ -316,13 +316,9 @@ start
 (
 )
 }
-InstrumentationRegistry
+activityTestRule
 .
-getInstrumentation
-(
-)
-.
-context
+activity
 .
 settings
 (

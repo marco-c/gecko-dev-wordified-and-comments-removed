@@ -217,6 +217,11 @@ _mode
 BrowsingMode
 private
 val
+settings
+:
+Settings
+private
+val
 modeDidChange
 :
 (
@@ -251,10 +256,7 @@ modeDidChange
 (
 value
 )
-Settings
-.
-instance
-?
+settings
 .
 lastKnownMode
 =
