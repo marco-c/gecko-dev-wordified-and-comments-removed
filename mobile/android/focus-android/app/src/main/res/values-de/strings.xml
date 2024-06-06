@@ -2333,6 +2333,7 @@ for
 ad
 blocking
 and
+enhanced
 tracking
 protection
 settings
@@ -2344,13 +2345,13 @@ string
 name
 =
 "
-preference_category_tracking_protection
+preference_category_tracking_protection3
 "
 >
+Verbesserter
+Tracking
+-
 Schutz
-vor
-Aktivit
-tenverfolgung
 <
 /
 string
@@ -7234,6 +7235,7 @@ string
 -
 -
 When
+enhanced
 tracking
 protection
 is
@@ -7270,6 +7272,7 @@ always
 be
 opened
 with
+enhanced
 tracking
 protection
 disabled
@@ -7282,7 +7285,7 @@ string
 name
 =
 "
-dialog_addtohomescreen_tracking_protection
+dialog_addtohomescreen_tracking_protection2
 "
 >
 Verkn
@@ -7290,6 +7293,7 @@ pfung
 wird
 mit
 deaktiviertem
+verbesserten
 Schutz
 vor
 Aktivit
@@ -9811,6 +9815,7 @@ explaining
 how
 to
 disable
+enhanced
 tracking
 protection
 The
@@ -9841,7 +9846,7 @@ string
 name
 =
 "
-tip_disable_tracking_protection2
+tip_disable_tracking_protection3
 "
 >
 Verh
@@ -9856,6 +9861,7 @@ n
 Deaktivieren
 Sie
 den
+verbesserten
 Schutz
 vor
 Aktivit
@@ -10304,16 +10310,18 @@ string
 name
 =
 "
-tip_explain_allowlist2
+tip_explain_allowlist3
 "
 >
 M
 chten
 Sie
 den
-Tracking
--
+verbesserten
 Schutz
+vor
+Aktivit
+tenverfolgung
 f
 r
 eine

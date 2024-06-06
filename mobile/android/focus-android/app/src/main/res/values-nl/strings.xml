@@ -2184,6 +2184,7 @@ for
 ad
 blocking
 and
+enhanced
 tracking
 protection
 settings
@@ -2195,10 +2196,11 @@ string
 name
 =
 "
-preference_category_tracking_protection
+preference_category_tracking_protection3
 "
 >
-Bescherming
+Verbeterde
+bescherming
 tegen
 volgen
 <
@@ -7034,6 +7036,7 @@ string
 -
 -
 When
+enhanced
 tracking
 protection
 is
@@ -7070,6 +7073,7 @@ always
 be
 opened
 with
+enhanced
 tracking
 protection
 disabled
@@ -7082,13 +7086,14 @@ string
 name
 =
 "
-dialog_addtohomescreen_tracking_protection
+dialog_addtohomescreen_tracking_protection2
 "
 >
 Snelkoppeling
 opent
 met
-Bescherming
+Verbeterde
+bescherming
 tegen
 volgen
 uitgeschakeld
@@ -9520,6 +9525,7 @@ explaining
 how
 to
 disable
+enhanced
 tracking
 protection
 The
@@ -9550,7 +9556,7 @@ string
 name
 =
 "
-tip_disable_tracking_protection2
+tip_disable_tracking_protection3
 "
 >
 Mist
@@ -9566,7 +9572,8 @@ vreemd
 \
 n
 Probeer
-Bescherming
+Verbeterde
+bescherming
 tegen
 volgen
 uit
@@ -10012,12 +10019,13 @@ string
 name
 =
 "
-tip_explain_allowlist2
+tip_explain_allowlist3
 "
 >
 Wilt
 u
-Bescherming
+Verbeterde
+bescherming
 tegen
 volgen
 uitschakelen
