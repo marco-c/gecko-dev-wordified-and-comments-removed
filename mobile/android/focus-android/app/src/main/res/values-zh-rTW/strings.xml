@@ -8511,6 +8511,8 @@ name
 tip_disable_tracking_protection
 "
 >
+\
+n
 <
 /
 string
@@ -8562,6 +8564,8 @@ name
 tip_disable_tracking_protection3
 "
 >
+\
+n
 <
 /
 string
@@ -8848,6 +8852,8 @@ name
 tip_request_desktop2
 "
 >
+\
+n
 %
 1
 s
@@ -8927,6 +8933,8 @@ name
 tip_explain_allowlist3
 "
 >
+\
+n
 <
 /
 string
@@ -8970,6 +8978,8 @@ name
 tip_fresh_look
 "
 >
+\
+n
 %
 1
 s
