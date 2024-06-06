@@ -256,7 +256,7 @@ drawablePadding
 "
 dimen
 /
-preference_seek_bar_padding
+radio_button_preference_drawable_padding
 "
 android
 :
@@ -381,7 +381,7 @@ drawablePadding
 "
 dimen
 /
-preference_seek_bar_padding
+radio_button_preference_drawable_padding
 "
 android
 :
@@ -506,7 +506,7 @@ drawablePadding
 "
 dimen
 /
-preference_seek_bar_padding
+radio_button_preference_drawable_padding
 "
 android
 :
@@ -622,7 +622,7 @@ drawablePadding
 "
 dimen
 /
-preference_seek_bar_padding
+radio_button_preference_drawable_padding
 "
 android
 :

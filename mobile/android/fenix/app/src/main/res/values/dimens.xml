@@ -445,7 +445,7 @@ name
 radio_button_preference_drawable_padding
 "
 >
-16dp
+24dp
 <
 /
 dimen
