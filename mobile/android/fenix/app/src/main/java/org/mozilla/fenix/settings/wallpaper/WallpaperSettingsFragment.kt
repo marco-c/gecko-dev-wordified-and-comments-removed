@@ -283,7 +283,7 @@ track
 (
 Event
 .
-WallpaperFeatureDiscovered
+WallpaperSettingsOpened
 )
 return
 ComposeView

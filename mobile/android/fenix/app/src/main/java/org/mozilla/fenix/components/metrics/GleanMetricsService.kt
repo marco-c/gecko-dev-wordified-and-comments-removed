@@ -6594,7 +6594,7 @@ it
 is
 Event
 .
-WallpaperFeatureDiscovered
+WallpaperSettingsOpened
 -
 >
 EventWrapper
@@ -6605,11 +6605,10 @@ NoExtraKeys
 {
 Wallpapers
 .
-discoveredWallpaperFeature
+wallpaperSettingsOpened
 .
-set
+record
 (
-true
 )
 }
 )

@@ -4567,7 +4567,7 @@ sealed
 class
 Search
 object
-WallpaperFeatureDiscovered
+WallpaperSettingsOpened
 :
 Event
 (
