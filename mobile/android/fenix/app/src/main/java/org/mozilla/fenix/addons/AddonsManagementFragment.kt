@@ -1063,7 +1063,11 @@ provideAddonManger
 .
 installAddon
 (
+url
+=
 addon
+.
+downloadUrl
 onSuccess
 =
 {
@@ -1095,7 +1099,6 @@ GONE
 onError
 =
 {
-_
 _
 -
 >
