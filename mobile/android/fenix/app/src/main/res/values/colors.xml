@@ -542,7 +542,7 @@ top_site_title_text_light_theme
 >
 color
 /
-photonLightGrey80
+photonDarkGrey10
 <
 /
 color
@@ -1452,7 +1452,7 @@ top_site_title_text_dark_theme
 >
 color
 /
-photonLightGrey90
+photonLightGrey60
 <
 /
 color
