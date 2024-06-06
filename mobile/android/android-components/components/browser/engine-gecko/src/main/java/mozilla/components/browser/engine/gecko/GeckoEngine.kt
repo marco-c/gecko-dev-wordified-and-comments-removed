@@ -3313,6 +3313,15 @@ geckoview
 BuildConfig
 .
 MOZILLA_VERSION
+org
+.
+mozilla
+.
+geckoview
+.
+BuildConfig
+.
+MOZ_UPDATE_CHANNEL
 )
 ?
 :
