@@ -121,14 +121,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 tabstray
 .
 browser
@@ -358,6 +350,9 @@ BrowserState
 .
 getNormalTrayTabs
 (
+searchTermTabGroupsAreEnabled
+:
+Boolean
 inactiveTabsEnabled
 :
 Boolean
@@ -375,9 +370,7 @@ run
 {
 if
 (
-FeatureFlags
-.
-tabGroupFeature
+searchTermTabGroupsAreEnabled
 &
 &
 inactiveTabsEnabled
@@ -412,9 +405,7 @@ maxActiveTime
 else
 if
 (
-FeatureFlags
-.
-tabGroupFeature
+searchTermTabGroupsAreEnabled
 )
 {
 filter

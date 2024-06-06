@@ -257,6 +257,9 @@ getNormalTrayTabs
 (
 settings
 .
+searchTermTabGroupsAreEnabled
+settings
+.
 inactiveTabsAreEnabled
 )
 }
