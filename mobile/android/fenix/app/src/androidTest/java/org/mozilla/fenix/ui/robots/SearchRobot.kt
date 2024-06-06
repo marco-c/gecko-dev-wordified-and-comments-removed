@@ -1435,10 +1435,13 @@ sessionLoadedIdlingResource
 SessionLoadedIdlingResource
 (
 )
-mDevice
-.
-waitForIdle
+searchWrapper
 (
+)
+.
+waitForExists
+(
+waitingTime
 )
 browserToolbarEditView
 (
