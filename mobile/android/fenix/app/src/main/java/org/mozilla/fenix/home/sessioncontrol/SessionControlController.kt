@@ -1198,6 +1198,9 @@ showShareFragment
 (
 collection
 .
+title
+collection
+.
 tabs
 .
 map
@@ -1815,6 +1818,9 @@ private
 fun
 showShareFragment
 (
+shareSubject
+:
+String
 data
 :
 List
@@ -1830,6 +1836,9 @@ HomeFragmentDirections
 .
 actionGlobalShareFragment
 (
+shareSubject
+=
+shareSubject
 data
 =
 data

@@ -1330,6 +1330,13 @@ returns
 emptyList
 (
 )
+every
+{
+title
+}
+returns
+"
+"
 }
 controller
 .
