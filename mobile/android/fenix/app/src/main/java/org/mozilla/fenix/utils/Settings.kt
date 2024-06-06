@@ -917,7 +917,7 @@ pref_key_allow_screenshots_in_private_mode
 )
 default
 =
-true
+false
 )
 /
 /
