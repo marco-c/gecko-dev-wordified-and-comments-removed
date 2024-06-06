@@ -228,6 +228,8 @@ f
 project
 /
 focus
+-
+android
 /
 {
 build_type
