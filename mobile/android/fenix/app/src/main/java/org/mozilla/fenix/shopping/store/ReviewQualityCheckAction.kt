@@ -644,6 +644,7 @@ object
 OpenPoweredByLink
 :
 NavigationMiddlewareAction
+TelemetryAction
 /
 *
 *
