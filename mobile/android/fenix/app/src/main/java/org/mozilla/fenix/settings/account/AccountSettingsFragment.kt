@@ -1877,11 +1877,6 @@ pref_key_sync_credit_cards
 .
 apply
 {
-isVisible
-=
-FeatureFlags
-.
-creditCardsFeature
 isEnabled
 =
 syncEnginesStatus
