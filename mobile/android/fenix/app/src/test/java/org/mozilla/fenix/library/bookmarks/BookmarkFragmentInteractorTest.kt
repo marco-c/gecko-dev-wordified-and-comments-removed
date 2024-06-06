@@ -209,7 +209,7 @@ ITEM
 "
 123
 "
-0
+0u
 "
 Mozilla
 "
@@ -240,7 +240,7 @@ SEPARATOR
 "
 123
 "
-1
+1u
 null
 null
 0
@@ -261,7 +261,7 @@ FOLDER
 "
 123
 "
-0
+0u
 "
 Subfolder
 "
@@ -286,7 +286,7 @@ FOLDER
 123
 "
 null
-0
+0u
 "
 Mobile
 "

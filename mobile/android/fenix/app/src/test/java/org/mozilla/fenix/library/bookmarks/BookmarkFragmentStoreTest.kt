@@ -1451,7 +1451,7 @@ ITEM
 "
 123
 "
-0
+0u
 "
 Mozilla
 "
@@ -1482,7 +1482,7 @@ SEPARATOR
 "
 123
 "
-1
+1u
 null
 null
 0
@@ -1503,7 +1503,7 @@ FOLDER
 "
 123
 "
-0
+0u
 "
 Subfolder
 "
@@ -1528,7 +1528,7 @@ ITEM
 "
 123
 "
-2
+2u
 "
 Firefox
 "
@@ -1566,7 +1566,7 @@ FOLDER
 123
 "
 null
-0
+0u
 "
 Mobile
 "
@@ -1593,7 +1593,7 @@ FOLDER
 123
 "
 null
-0
+0u
 "
 Mobile
 "
@@ -1618,7 +1618,7 @@ FOLDER
 root________
 "
 null
-0
+0u
 "
 Desktop
 Bookmarks

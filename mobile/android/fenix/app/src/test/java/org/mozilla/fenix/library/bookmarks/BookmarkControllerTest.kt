@@ -476,7 +476,7 @@ ITEM
 "
 123
 "
-0
+0u
 "
 Mozilla
 "
@@ -507,7 +507,7 @@ FOLDER
 "
 123
 "
-0
+0u
 "
 Subfolder
 "
@@ -532,7 +532,7 @@ ITEM
 "
 123
 "
-2
+2u
 "
 Firefox
 "
@@ -570,7 +570,7 @@ FOLDER
 123
 "
 null
-0
+0u
 "
 Mobile
 "
@@ -599,7 +599,7 @@ Root
 .
 id
 null
-0
+0u
 BookmarkRoot
 .
 Root

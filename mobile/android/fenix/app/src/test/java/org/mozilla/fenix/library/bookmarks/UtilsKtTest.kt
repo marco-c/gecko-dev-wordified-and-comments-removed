@@ -771,7 +771,7 @@ random
 }
 "
 parentGuid
-0
+0u
 title
 url
 0
@@ -813,7 +813,7 @@ BookmarkNodeType
 FOLDER
 guid
 parentGuid
-0
+0u
 title
 null
 0
