@@ -382,7 +382,7 @@ R
 .
 string
 .
-tab_tray_header_title
+tab_tray_header_title_1
 )
 }
 companion
