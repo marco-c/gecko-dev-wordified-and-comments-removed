@@ -447,10 +447,12 @@ typeInSearchBar
 pressEnterKey
 (
 )
-homeScreen
+searchScreen
 {
-verifyNavBarIsDisplayed
+verifySearchEditBarContainsText
 (
+"
+"
 )
 }
 }
