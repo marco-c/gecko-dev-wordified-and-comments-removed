@@ -357,6 +357,11 @@ View
 )
 as
 QuickActionSheetBehavior
+quickActionSheetBehavior
+.
+isHideable
+=
+false
 setupHandle
 (
 )
