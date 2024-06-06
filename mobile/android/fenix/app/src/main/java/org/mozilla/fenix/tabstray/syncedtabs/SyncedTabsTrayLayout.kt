@@ -285,16 +285,6 @@ mozilla
 .
 fenix
 .
-tabstray
-.
-TrayItem
-import
-org
-.
-mozilla
-.
-fenix
-.
 utils
 .
 view
@@ -328,7 +318,6 @@ attrs
 defStyleAttr
 )
 SyncedTabsView
-TrayItem
 Observable
 <
 SyncedTabsView

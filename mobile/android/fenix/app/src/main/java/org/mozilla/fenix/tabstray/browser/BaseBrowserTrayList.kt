@@ -143,16 +143,6 @@ fenix
 .
 tabstray
 .
-TrayItem
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
 ext
 .
 filterFromConfig
@@ -184,7 +174,6 @@ context
 attrs
 defStyleAttr
 )
-TrayItem
 {
 /
 *
