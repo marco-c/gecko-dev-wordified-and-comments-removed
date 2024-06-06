@@ -557,11 +557,6 @@ customTabSessionId
 activity
 =
 activity
-engineLayout
-=
-view
-.
-swipeRefresh
 onItemTapped
 =
 {
