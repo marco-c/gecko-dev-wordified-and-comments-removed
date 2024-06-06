@@ -988,6 +988,7 @@ state
 mode
 )
 {
+is
 BookmarkFragmentState
 .
 Mode
@@ -995,6 +996,13 @@ Mode
 Normal
 -
 >
+{
+if
+(
+mode
+.
+showMenu
+)
 {
 inflater
 .
@@ -1007,6 +1015,7 @@ menu
 bookmarks_menu
 menu
 )
+}
 }
 is
 BookmarkFragmentState

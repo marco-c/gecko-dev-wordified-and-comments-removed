@@ -321,6 +321,8 @@ BookmarkFragmentState
 Mode
 .
 Normal
+(
+)
 )
 bookmarkAdapter
 .
@@ -332,6 +334,8 @@ BookmarkFragmentState
 Mode
 .
 Normal
+(
+)
 )
 verifyOrder
 {
@@ -345,6 +349,8 @@ BookmarkFragmentState
 Mode
 .
 Normal
+(
+)
 )
 bookmarkAdapter
 .
@@ -363,6 +369,8 @@ BookmarkFragmentState
 Mode
 .
 Normal
+(
+)
 )
 bookmarkAdapter
 .

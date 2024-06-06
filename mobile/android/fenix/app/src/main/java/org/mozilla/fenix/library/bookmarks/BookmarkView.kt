@@ -597,6 +597,8 @@ BookmarkFragmentState
 Mode
 .
 Normal
+(
+)
 private
 var
 tree

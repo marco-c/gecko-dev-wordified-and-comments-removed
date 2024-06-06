@@ -550,6 +550,8 @@ BookmarkFragmentState
 Mode
 .
 Normal
+(
+)
 )
 verify
 {

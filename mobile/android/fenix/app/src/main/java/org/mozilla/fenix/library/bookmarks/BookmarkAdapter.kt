@@ -277,6 +277,8 @@ BookmarkFragmentState
 Mode
 .
 Normal
+(
+)
 override
 val
 selectedItems
