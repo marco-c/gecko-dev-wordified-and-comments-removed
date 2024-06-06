@@ -921,7 +921,7 @@ gradlew
 clean
 app
 :
-assembleFocusWebviewArmDebug
+assembleFocusArmDebug
 3
 .
 Make
