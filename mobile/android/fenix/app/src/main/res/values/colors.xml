@@ -1320,8 +1320,9 @@ name
 destructive_dark_theme
 "
 >
-#
-FF6A75
+color
+/
+photonRed40
 <
 /
 color
@@ -2205,8 +2206,9 @@ name
 destructive_private_theme
 "
 >
-#
-FF6A75
+color
+/
+photonRed40
 <
 /
 color
