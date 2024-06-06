@@ -220,6 +220,15 @@ drawablePadding
 "
 android
 :
+drawableTint
+=
+"
+color
+/
+white_color
+"
+android
+:
 textAppearance
 =
 "
@@ -234,7 +243,7 @@ textColor
 "
 color
 /
-onboarding_card_primary_text_dark
+neutral_text
 "
 tools
 :
@@ -338,8 +347,9 @@ android
 textColor
 =
 "
-?
-neutral
+color
+/
+button_text_color
 "
 android
 :
@@ -362,7 +372,7 @@ backgroundTint
 "
 color
 /
-onboarding_card_button_background_dark
+foundation_light_theme
 "
 /
 >
