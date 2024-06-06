@@ -805,6 +805,10 @@ var
 trackingProtectionOnboardingShownThisSession
 =
 false
+var
+isOverrideTPPopupsForPerformanceTest
+=
+false
 val
 shouldShowTrackingProtectionOnboarding
 :
@@ -813,6 +817,11 @@ get
 (
 )
 =
+!
+isOverrideTPPopupsForPerformanceTest
+&
+&
+(
 trackingProtectionOnboardingCount
 <
 trackingProtectionOnboardingMaximumCount
@@ -820,6 +829,7 @@ trackingProtectionOnboardingMaximumCount
 &
 !
 trackingProtectionOnboardingShownThisSession
+)
 val
 shouldShowSecurityPinWarningSync
 :
