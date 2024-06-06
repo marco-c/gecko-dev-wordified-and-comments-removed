@@ -334,16 +334,6 @@ en_US
 -
 model
 :
-dreamlte
-version
-:
-28
-locale
-:
-en_US
--
-model
-:
 HWCOR
 version
 :
