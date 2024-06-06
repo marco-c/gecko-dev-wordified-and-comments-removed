@@ -653,6 +653,7 @@ Search
 Advanced
 Mozilla
 About
+Licenses
 Locale
 PrivacyExceptions
 PrivacyExceptionsRemove

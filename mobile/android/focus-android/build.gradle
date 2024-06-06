@@ -107,6 +107,10 @@ FocusDependencies
 .
 kotlin_gradle_plugin
 classpath
+FocusDependencies
+.
+osslicenses_plugin
+classpath
 "
 org
 .
