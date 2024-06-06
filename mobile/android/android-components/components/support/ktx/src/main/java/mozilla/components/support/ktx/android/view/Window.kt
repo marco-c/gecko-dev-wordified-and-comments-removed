@@ -156,7 +156,7 @@ toolbarColor
 Int
 )
 {
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -211,7 +211,7 @@ toolbarColor
 Int
 )
 {
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -246,7 +246,7 @@ toolbarColor
 *
 *
 *
-Retrieves
+Creates
 a
 {
 link
@@ -266,7 +266,7 @@ view
 fun
 Window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 :

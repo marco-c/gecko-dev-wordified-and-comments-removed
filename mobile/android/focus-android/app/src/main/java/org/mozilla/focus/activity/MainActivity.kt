@@ -299,7 +299,7 @@ android
 .
 view
 .
-getWindowInsetsController
+createWindowInsetsController
 import
 mozilla
 .
@@ -2452,7 +2452,7 @@ statusBarColor
 )
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -2499,7 +2499,7 @@ bar
 color
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -2583,7 +2583,7 @@ M
 {
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -2620,7 +2620,7 @@ bar
 color
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .

@@ -231,7 +231,7 @@ android
 .
 view
 .
-enterToImmersiveMode
+enterImmersiveMode
 import
 mozilla
 .
@@ -622,7 +622,7 @@ inFullScreen
 activity
 ?
 .
-enterToImmersiveMode
+enterImmersiveMode
 (
 )
 }

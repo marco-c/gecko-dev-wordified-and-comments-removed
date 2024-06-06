@@ -190,7 +190,7 @@ it
 .
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -226,7 +226,7 @@ it
 .
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -268,7 +268,7 @@ it
 .
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -304,7 +304,7 @@ it
 .
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .

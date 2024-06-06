@@ -999,7 +999,7 @@ android
 .
 view
 .
-enterToImmersiveMode
+enterImmersiveMode
 import
 mozilla
 .
@@ -8049,7 +8049,7 @@ show
 activity
 ?
 .
-enterToImmersiveMode
+enterImmersiveMode
 (
 )
 (

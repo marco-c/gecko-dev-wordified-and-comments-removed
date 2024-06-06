@@ -185,7 +185,7 @@ android
 .
 view
 .
-getWindowInsetsController
+createWindowInsetsController
 import
 org
 .
@@ -564,7 +564,7 @@ statusBarColor
 )
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -607,7 +607,7 @@ bar
 color
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -644,7 +644,7 @@ M
 {
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .
@@ -677,7 +677,7 @@ bar
 color
 window
 .
-getWindowInsetsController
+createWindowInsetsController
 (
 )
 .

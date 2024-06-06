@@ -193,7 +193,7 @@ android
 .
 view
 .
-enterToImmersiveMode
+enterImmersiveMode
 import
 mozilla
 .
@@ -584,7 +584,7 @@ switchToImmersiveMode
 {
 activity
 .
-enterToImmersiveMode
+enterImmersiveMode
 (
 )
 }

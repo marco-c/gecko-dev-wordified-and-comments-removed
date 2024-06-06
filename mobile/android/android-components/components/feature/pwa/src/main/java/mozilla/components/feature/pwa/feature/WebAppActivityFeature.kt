@@ -179,7 +179,7 @@ android
 .
 view
 .
-enterToImmersiveMode
+enterImmersiveMode
 /
 *
 *
@@ -257,7 +257,7 @@ FULLSCREEN
 {
 activity
 .
-enterToImmersiveMode
+enterImmersiveMode
 (
 )
 }
