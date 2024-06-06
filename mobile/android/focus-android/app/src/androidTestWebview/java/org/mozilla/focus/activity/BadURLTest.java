@@ -451,17 +451,6 @@ click
 ;
 TestHelper
 .
-floatingEraseButton
-.
-perform
-(
-click
-(
-)
-)
-;
-TestHelper
-.
 inlineAutocompleteEditText
 .
 waitForExists
