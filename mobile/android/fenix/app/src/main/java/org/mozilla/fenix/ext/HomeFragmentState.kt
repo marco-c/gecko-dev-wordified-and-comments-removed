@@ -293,7 +293,7 @@ oldestSortedCategories
 =
 currentlySelectedCategories
 .
-sortedBy
+sortedByDescending
 {
 it
 .

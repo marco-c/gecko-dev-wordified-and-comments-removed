@@ -892,7 +892,7 @@ one
 stories
 from
 the
-oldest
+newest
 category
 (
 )
@@ -957,7 +957,7 @@ size
 )
 assertEquals
 (
-3
+2
 result
 .
 filter
@@ -976,7 +976,7 @@ size
 )
 assertEquals
 (
-2
+3
 result
 .
 filter
@@ -1782,7 +1782,7 @@ first
 "
 )
 true
-222
+0
 )
 .
 run
@@ -1884,7 +1884,7 @@ second
 "
 )
 true
-0
+222
 )
 .
 run

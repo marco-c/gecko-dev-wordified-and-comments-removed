@@ -495,12 +495,15 @@ HistoryMetadataGroup
 *
 property
 pocketStories
-Currently
+The
+list
+of
+currently
 shown
 [
 PocketRecommendedStory
 ]
-ies
+s
 .
 *
 property

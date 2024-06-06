@@ -2324,6 +2324,9 @@ pocketStoriesController
 =
 DefaultPocketStoriesController
 (
+homeActivity
+=
+activity
 homeStore
 =
 homeFragmentStore
