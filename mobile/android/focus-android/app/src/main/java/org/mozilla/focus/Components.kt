@@ -203,6 +203,16 @@ components
 .
 feature
 .
+prompts
+.
+PromptMiddleware
+import
+mozilla
+.
+components
+.
+feature
+.
 search
 .
 SearchUseCases
@@ -711,6 +721,9 @@ context
 )
 )
 SearchFilterMiddleware
+(
+)
+PromptMiddleware
 (
 )
 )
