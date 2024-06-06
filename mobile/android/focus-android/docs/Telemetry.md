@@ -77,6 +77,7 @@ by
 default
 .
 #
+#
 Core
 ping
 Focus
@@ -159,6 +160,7 @@ html
 )
 .
 #
+#
 Event
 ping
 In
@@ -188,6 +190,7 @@ to
 the
 background
 .
+#
 #
 #
 Settings
@@ -561,6 +564,7 @@ selected
 .
 #
 #
+#
 Events
 The
 event
@@ -615,6 +619,7 @@ the
 following
 actions
 :
+#
 #
 #
 #
@@ -752,6 +757,7 @@ background
 app
 |
 |
+#
 #
 #
 #
@@ -1034,6 +1040,7 @@ true
 false
 |
 |
+#
 #
 #
 #
@@ -1322,6 +1329,7 @@ tabs
 #
 #
 #
+#
 Context
 Menu
 |
@@ -1587,6 +1595,7 @@ browser_contextmenu
 |
 full_browser
 |
+#
 #
 #
 #
@@ -1930,6 +1939,7 @@ of
 open
 tabs
 }
+#
 #
 #
 #
@@ -2303,6 +2313,7 @@ not
 #
 #
 #
+#
 Notification
 |
 Event
@@ -2547,6 +2558,7 @@ tabs
 #
 #
 #
+#
 Page
 Load
 Time
@@ -2723,6 +2735,7 @@ example
 4
 "
 }
+#
 #
 #
 #
@@ -2989,6 +3002,7 @@ num
 #
 #
 #
+#
 Downloads
 |
 Event
@@ -3138,6 +3152,7 @@ download_dialog
 |
 cancel
 |
+#
 #
 #
 #
@@ -3293,6 +3308,7 @@ app_icon
 |
 resume
 |
+#
 #
 #
 #
@@ -3477,6 +3493,7 @@ open
 #
 #
 #
+#
 Share
 to
 Focus
@@ -3630,6 +3647,7 @@ app
 |
 search
 |
+#
 #
 #
 #
@@ -4101,6 +4119,7 @@ error
 #
 #
 #
+#
 Firstrun
 |
 Event
@@ -4289,6 +4308,7 @@ page
 is
 fired
 .
+#
 #
 #
 #
@@ -4575,6 +4595,7 @@ of
 open
 tabs
 }
+#
 #
 #
 #
@@ -4970,6 +4991,7 @@ survey_tip_fr
 #
 #
 #
+#
 SSL
 Errors
 |
@@ -5183,6 +5205,7 @@ Error
 |
 #
 #
+#
 Limits
 *
 An
@@ -5231,6 +5254,7 @@ are
 sent
 per
 day
+#
 #
 Implementation
 notes

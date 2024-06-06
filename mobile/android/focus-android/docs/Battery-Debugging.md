@@ -1,3 +1,6 @@
+#
+Battery
+Debugging
 Android
 Performance
 Profiling

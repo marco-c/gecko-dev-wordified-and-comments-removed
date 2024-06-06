@@ -1,3 +1,6 @@
+#
+Architecture
+Decisions
 This
 is
 a
@@ -42,6 +45,7 @@ decisions
 -
 -
 #
+#
 Observing
 state
 (
@@ -67,6 +71,7 @@ version
 .
 0
 +
+#
 #
 #
 Context
@@ -215,6 +220,7 @@ others
 .
 #
 #
+#
 Decision
 LiveData
 objects
@@ -340,6 +346,7 @@ errors
 .
 #
 #
+#
 Consequences
 *
 LiveData
@@ -394,6 +401,7 @@ unlikely
 -
 -
 #
+#
 Browser
 engine
 :
@@ -422,6 +430,7 @@ versions
 .
 0
 +
+#
 #
 #
 Context
@@ -576,6 +585,7 @@ fork
 of
 Chromium
 .
+#
 #
 #
 Decision
@@ -807,6 +817,7 @@ stage
 .
 #
 #
+#
 Consequences
 WebView
 has
@@ -880,6 +891,7 @@ Android
 -
 -
 #
+#
 Minimum
 supported
 Android
@@ -915,6 +927,7 @@ versions
 .
 0
 +
+#
 #
 #
 Context
@@ -1014,6 +1027,7 @@ ApiLevels
 )
 )
 .
+#
 #
 #
 Decision
@@ -1136,6 +1150,7 @@ to
 backport
 functionality
 .
+#
 #
 #
 Consequences

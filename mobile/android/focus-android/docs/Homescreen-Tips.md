@@ -1,4 +1,7 @@
 #
+Homescreen
+Tips
+#
 #
 Homescreen
 Tips

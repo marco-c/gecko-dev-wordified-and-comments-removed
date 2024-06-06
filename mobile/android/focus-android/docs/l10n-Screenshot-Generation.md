@@ -1,3 +1,7 @@
+#
+l10n
+Screenshot
+Generation
 This
 wiki
 describes

@@ -1,3 +1,6 @@
+#
+Release
+tracks
 !
 [
 ]
@@ -212,6 +215,7 @@ defect
 features
 .
 #
+#
 Nightly
 !
 [
@@ -275,6 +279,7 @@ defect
 features
 #
 #
+#
 How
 to
 sign
@@ -411,6 +416,7 @@ for
 both
 steps
 .
+#
 #
 Beta
 !
@@ -470,6 +476,7 @@ weekly
 .
 #
 #
+#
 How
 to
 sign
@@ -606,6 +613,7 @@ for
 both
 steps
 .
+#
 #
 #
 Manual
