@@ -6,6 +6,7 @@ strict
 import
 {
 routerRules
+cacheName
 }
 from
 '
@@ -71,9 +72,7 @@ caches
 .
 open
 (
-'
-v1
-'
+cacheName
 )
 .
 then
