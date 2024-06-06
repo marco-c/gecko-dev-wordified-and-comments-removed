@@ -430,13 +430,13 @@ from
 =
 viewHolder
 .
-adapterPosition
+bindingAdapterPosition
 val
 to
 =
 target
 .
-adapterPosition
+bindingAdapterPosition
 (
 recyclerView
 .
