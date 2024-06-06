@@ -220,6 +220,13 @@ Float
 :
 Float
 {
+if
+(
+lazyRowState
+.
+canScrollForward
+)
+{
 val
 firstItemIndex
 =
@@ -258,6 +265,7 @@ animateScrollToItem
 (
 itemIndexToScrollTo
 )
+}
 }
 return
 0f
