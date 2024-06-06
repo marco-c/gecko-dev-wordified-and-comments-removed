@@ -193,7 +193,7 @@ fenix
 .
 home
 .
-sessioncontrol
+recenttabs
 .
 RecentTabsListFeature
 class

@@ -65,7 +65,7 @@ fenix
 .
 home
 .
-sessioncontrol
+recenttabs
 import
 kotlinx
 .

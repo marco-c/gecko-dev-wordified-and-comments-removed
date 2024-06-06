@@ -1167,7 +1167,7 @@ fenix
 .
 home
 .
-sessioncontrol
+recenttabs
 .
 RecentTabsListFeature
 import
