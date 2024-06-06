@@ -515,6 +515,15 @@ HomeActivity
 store
 =
 historyMetadataGroupStore
+selectOrAddUseCase
+=
+requireComponents
+.
+useCases
+.
+tabsUseCases
+.
+selectOrAddTab
 metrics
 =
 requireComponents
