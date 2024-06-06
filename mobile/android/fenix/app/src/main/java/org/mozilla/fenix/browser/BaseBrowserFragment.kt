@@ -5954,7 +5954,7 @@ sessionManager
 selectedSession
 }
 }
-protected
+private
 fun
 getCurrentTab
 (
