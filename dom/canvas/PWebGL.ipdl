@@ -893,7 +893,6 @@ cap
 returns
 (
 bool
-?
 ret
 )
 ;

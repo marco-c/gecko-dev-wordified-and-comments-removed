@@ -1197,10 +1197,7 @@ val
 )
 ;
 }
-Maybe
-<
 bool
->
 IsEnabled
 (
 GLenum

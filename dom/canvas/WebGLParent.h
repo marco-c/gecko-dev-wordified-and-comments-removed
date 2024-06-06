@@ -616,10 +616,7 @@ RecvIsEnabled
 (
 GLenum
 cap
-Maybe
-<
 bool
->
 *
 ret
 )

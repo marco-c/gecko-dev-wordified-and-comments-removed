@@ -2682,10 +2682,7 @@ RecvIsEnabled
 (
 GLenum
 cap
-Maybe
-<
 bool
->
 *
 const
 ret

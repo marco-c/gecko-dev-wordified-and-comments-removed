@@ -878,17 +878,6 @@ ProvokingVertex
 :
 LastVertex
 ;
-mutable
-std
-:
-:
-unordered_map
-<
-GLenum
-bool
->
-mIsEnabledCache
-;
 ObjectId
 NextId
 (
