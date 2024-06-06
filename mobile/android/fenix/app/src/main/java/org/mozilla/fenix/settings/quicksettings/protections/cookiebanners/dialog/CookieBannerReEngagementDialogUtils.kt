@@ -552,6 +552,13 @@ shouldShowCookieBannerReEngagementDialog
 {
 settings
 .
+cookieBannerReEngagementDialogShowsCount
+.
+increment
+(
+)
+settings
+.
 lastInteractionWithReEngageCookieBannerDialogInMs
 =
 System
