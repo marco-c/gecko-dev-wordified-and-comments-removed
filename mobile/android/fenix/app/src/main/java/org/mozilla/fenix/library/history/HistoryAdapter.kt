@@ -175,7 +175,7 @@ R
 .
 string
 .
-history_today
+history_24_hours
 )
 ThisWeek
 -
@@ -188,7 +188,7 @@ R
 .
 string
 .
-history_this_week
+history_7_days
 )
 ThisMonth
 -
@@ -201,7 +201,7 @@ R
 .
 string
 .
-history_this_month
+history_30_days
 )
 Older
 -
