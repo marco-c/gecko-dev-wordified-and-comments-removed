@@ -1857,7 +1857,15 @@ R
 .
 string
 .
-synced_tabs_no_tabs
+synced_tabs_no_tabs_2
+stringResource
+(
+R
+.
+string
+.
+app_name
+)
 )
 errorButton
 =
