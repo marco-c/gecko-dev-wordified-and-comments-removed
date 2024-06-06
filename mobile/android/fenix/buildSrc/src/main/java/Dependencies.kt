@@ -292,7 +292,7 @@ android_arch_navigation
 .
 0
 -
-beta02
+rc01
 "
 const
 val
