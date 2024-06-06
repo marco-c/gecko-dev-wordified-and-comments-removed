@@ -2509,7 +2509,7 @@ version
 }
 "
 val
-mozilla_fxa
+mozilla_appservices_fxaclient
 =
 "
 {
@@ -2527,7 +2527,7 @@ version
 }
 "
 val
-mozilla_nimbus
+mozilla_appservices_nimbus
 =
 "
 {
@@ -2568,7 +2568,7 @@ mozilla_glean
 }
 "
 val
-mozilla_sync_autofill
+mozilla_appservices_autofill
 =
 "
 {
@@ -2586,7 +2586,7 @@ version
 }
 "
 val
-mozilla_sync_logins
+mozilla_appservices_logins
 =
 "
 {
@@ -2604,7 +2604,7 @@ version
 }
 "
 val
-mozilla_places
+mozilla_appservices_places
 =
 "
 {
@@ -2622,7 +2622,7 @@ version
 }
 "
 val
-mozilla_sync_manager
+mozilla_appservices_syncmanager
 =
 "
 {
@@ -2640,7 +2640,7 @@ version
 }
 "
 val
-mozilla_push
+mozilla_appservices_push
 =
 "
 {
@@ -2658,7 +2658,7 @@ version
 }
 "
 val
-mozilla_remote_tabs
+mozilla_appservices_tabs
 =
 "
 {
@@ -2676,7 +2676,7 @@ version
 }
 "
 val
-mozilla_suggest
+mozilla_appservices_suggest
 =
 "
 {
@@ -2694,7 +2694,7 @@ version
 }
 "
 val
-mozilla_httpconfig
+mozilla_appservices_httpconfig
 =
 "
 {
@@ -2712,7 +2712,7 @@ version
 }
 "
 val
-mozilla_full_megazord
+mozilla_appservices_full_megazord
 =
 "
 {
@@ -2732,7 +2732,7 @@ version
 }
 "
 val
-mozilla_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_forUnitTests
 =
 "
 {
@@ -2754,7 +2754,7 @@ version
 }
 "
 val
-mozilla_errorsupport
+mozilla_appservices_errorsupport
 =
 "
 {
@@ -2772,7 +2772,7 @@ version
 }
 "
 val
-mozilla_rust_log_forwarder
+mozilla_appservices_rust_log_forwarder
 =
 "
 {
@@ -2794,7 +2794,7 @@ version
 }
 "
 val
-mozilla_sync15
+mozilla_appservices_sync15
 =
 "
 {

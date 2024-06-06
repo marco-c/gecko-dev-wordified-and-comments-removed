@@ -147,7 +147,7 @@ dependencies
 api
 ComponentsDependencies
 .
-mozilla_sync_autofill
+mozilla_appservices_autofill
 api
 project
 (
@@ -237,7 +237,7 @@ testing_coroutines
 testImplementation
 ComponentsDependencies
 .
-mozilla_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_forUnitTests
 }
 apply
 from

@@ -143,7 +143,7 @@ push
 implementation
 ComponentsDependencies
 .
-mozilla_push
+mozilla_appservices_push
 /
 /
 Remove

@@ -135,7 +135,7 @@ dependencies
 api
 ComponentsDependencies
 .
-mozilla_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_forUnitTests
 }
 apply
 from

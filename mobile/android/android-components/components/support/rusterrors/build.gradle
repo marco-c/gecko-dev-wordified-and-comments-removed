@@ -150,7 +150,7 @@ dependencies
 implementation
 ComponentsDependencies
 .
-mozilla_errorsupport
+mozilla_appservices_errorsupport
 implementation
 ComponentsDependencies
 .

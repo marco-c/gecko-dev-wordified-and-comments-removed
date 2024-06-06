@@ -160,7 +160,7 @@ api
 (
 ComponentsDependencies
 .
-mozilla_places
+mozilla_appservices_places
 )
 {
 /
@@ -209,7 +209,7 @@ glean
 api
 ComponentsDependencies
 .
-mozilla_remote_tabs
+mozilla_appservices_tabs
 api
 project
 (
@@ -257,7 +257,7 @@ androidx_work_runtime
 implementation
 ComponentsDependencies
 .
-mozilla_sync_manager
+mozilla_appservices_syncmanager
 testImplementation
 project
 (
@@ -295,11 +295,11 @@ kotlin_reflect
 testImplementation
 ComponentsDependencies
 .
-mozilla_places
+mozilla_appservices_places
 testImplementation
 ComponentsDependencies
 .
-mozilla_remote_tabs
+mozilla_appservices_tabs
 testImplementation
 ComponentsDependencies
 .
@@ -307,7 +307,7 @@ testing_mockwebserver
 testImplementation
 ComponentsDependencies
 .
-mozilla_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_forUnitTests
 testImplementation
 ComponentsDependencies
 .

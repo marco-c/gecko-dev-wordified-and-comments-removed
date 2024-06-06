@@ -177,7 +177,7 @@ api
 (
 ComponentsDependencies
 .
-mozilla_sync_logins
+mozilla_appservices_logins
 )
 {
 /
@@ -226,7 +226,7 @@ glean
 api
 ComponentsDependencies
 .
-mozilla_sync15
+mozilla_appservices_sync15
 /
 /
 Types

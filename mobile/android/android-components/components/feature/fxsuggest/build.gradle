@@ -179,7 +179,7 @@ dependencies
 api
 ComponentsDependencies
 .
-mozilla_suggest
+mozilla_appservices_suggest
 implementation
 project
 (
@@ -263,7 +263,7 @@ androidx_work_testing
 testImplementation
 ComponentsDependencies
 .
-mozilla_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_forUnitTests
 testImplementation
 ComponentsDependencies
 .

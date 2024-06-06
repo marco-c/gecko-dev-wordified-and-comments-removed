@@ -212,11 +212,11 @@ API
 api
 ComponentsDependencies
 .
-mozilla_fxa
+mozilla_appservices_fxaclient
 implementation
 ComponentsDependencies
 .
-mozilla_sync_manager
+mozilla_appservices_syncmanager
 /
 /
 Observable
@@ -336,7 +336,7 @@ testing_coroutines
 testImplementation
 ComponentsDependencies
 .
-mozilla_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_forUnitTests
 testImplementation
 ComponentsDependencies
 .

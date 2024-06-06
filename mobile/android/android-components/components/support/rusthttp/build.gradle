@@ -151,7 +151,7 @@ implementation
 (
 ComponentsDependencies
 .
-mozilla_httpconfig
+mozilla_appservices_httpconfig
 )
 {
 /

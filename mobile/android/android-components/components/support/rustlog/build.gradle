@@ -150,7 +150,7 @@ dependencies
 implementation
 ComponentsDependencies
 .
-mozilla_rust_log_forwarder
+mozilla_appservices_rust_log_forwarder
 implementation
 ComponentsDependencies
 .
@@ -179,7 +179,7 @@ base
 testImplementation
 ComponentsDependencies
 .
-mozilla_rust_log_forwarder
+mozilla_appservices_rust_log_forwarder
 testImplementation
 project
 (
@@ -193,7 +193,7 @@ test
 testImplementation
 ComponentsDependencies
 .
-mozilla_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_forUnitTests
 testImplementation
 ComponentsDependencies
 .

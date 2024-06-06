@@ -308,7 +308,7 @@ api
 (
 ComponentsDependencies
 .
-mozilla_nimbus
+mozilla_appservices_nimbus
 )
 {
 /
@@ -381,7 +381,7 @@ kotlin_coroutines
 implementation
 ComponentsDependencies
 .
-mozilla_nimbus
+mozilla_appservices_nimbus
 implementation
 project
 (
@@ -471,7 +471,7 @@ glean
 testImplementation
 ComponentsDependencies
 .
-mozilla_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_forUnitTests
 testImplementation
 ComponentsDependencies
 .
