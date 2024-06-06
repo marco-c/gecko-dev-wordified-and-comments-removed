@@ -446,11 +446,6 @@ beta
 :
 attributes
 :
-build
--
-type
-:
-production
 release
 -
 type
