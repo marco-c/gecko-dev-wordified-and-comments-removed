@@ -713,7 +713,14 @@ mozac_ic_close
 )
 contentDescription
 =
-null
+stringResource
+(
+R
+.
+string
+.
+onboarding_home_content_description_close_button
+)
 tint
 =
 FirefoxTheme
