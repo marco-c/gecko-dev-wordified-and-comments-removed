@@ -187,6 +187,9 @@ Win32_System_Diagnostics_Debug
 Win32_System_ErrorReporting
 "
 "
+Win32_System_Memory
+"
+"
 Win32_System_ProcessStatus
 "
 "

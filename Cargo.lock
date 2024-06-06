@@ -25020,6 +25020,12 @@ goblin
 1
 "
 "
+libc
+"
+"
+mach2
+"
+"
 memoffset
 0
 .
