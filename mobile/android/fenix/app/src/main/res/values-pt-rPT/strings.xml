@@ -1204,7 +1204,7 @@ browser_menu_desktop_site
 >
 Site
 para
-computador
+PC
 <
 /
 string
@@ -20601,11 +20601,10 @@ name
 browser_menu_add_to_top_sites
 "
 >
-Adicionado
+Adicionar
 aos
-principais
 sites
-!
+principais
 <
 /
 string
