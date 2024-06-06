@@ -231,7 +231,7 @@ text
 "
 string
 /
-onboarding_tracking_protection_header
+onboarding_tracking_protection_header_2
 "
 android
 :
@@ -432,7 +432,7 @@ text
 "
 string
 /
-onboarding_tracking_protection_description1
+onboarding_tracking_protection_description_2
 "
 /
 >
@@ -652,7 +652,7 @@ text
 "
 string
 /
-onboarding_tracking_protection_standard_button
+onboarding_tracking_protection_standard_button_2
 "
 android
 :
@@ -725,7 +725,7 @@ text
 "
 string
 /
-onboarding_tracking_protection_standard_button_description
+onboarding_tracking_protection_standard_button_description_2
 "
 android
 :
@@ -1067,7 +1067,7 @@ text
 "
 string
 /
-onboarding_tracking_protection_strict_button_description
+onboarding_tracking_protection_strict_button_description_2
 "
 android
 :
