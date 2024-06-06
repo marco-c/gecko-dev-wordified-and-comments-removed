@@ -577,6 +577,18 @@ service
 -
 experiments
 component
+if
+(
+Settings
+.
+getInstance
+(
+this
+)
+.
+isExperimentationEnabled
+)
+{
 Experiments
 .
 initialize
@@ -609,6 +621,7 @@ client
 }
 )
 )
+}
 /
 /
 When
