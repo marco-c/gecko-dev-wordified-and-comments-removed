@@ -368,7 +368,7 @@ R
 .
 drawable
 .
-mozac_ic_shield_disabled
+mozac_ic_shield_slash_24
 )
 val
 warning
