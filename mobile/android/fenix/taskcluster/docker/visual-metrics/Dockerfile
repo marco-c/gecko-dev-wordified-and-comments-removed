@@ -48,12 +48,6 @@ python
 python
 -
 pil
-\
-python3
-\
-python3
--
-pip
 WORKDIR
 /
 builds
