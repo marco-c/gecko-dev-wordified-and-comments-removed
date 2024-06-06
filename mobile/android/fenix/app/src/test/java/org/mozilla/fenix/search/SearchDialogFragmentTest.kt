@@ -150,12 +150,6 @@ org
 junit
 .
 Test
-import
-java
-.
-util
-.
-ArrayDeque
 internal
 class
 SearchDialogFragmentTest
@@ -254,7 +248,7 @@ every
 {
 navController
 .
-backStack
+backQueue
 }
 returns
 ArrayDeque
@@ -304,7 +298,7 @@ every
 {
 navController
 .
-backStack
+backQueue
 }
 returns
 ArrayDeque
@@ -366,7 +360,7 @@ every
 {
 navController
 .
-backStack
+backQueue
 }
 returns
 ArrayDeque
@@ -433,7 +427,7 @@ every
 {
 navController
 .
-backStack
+backQueue
 }
 returns
 ArrayDeque

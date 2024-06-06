@@ -5457,9 +5457,13 @@ findNavController
 (
 )
 .
-backStack
+backQueue
 .
-descendingIterator
+reversed
+(
+)
+.
+iterator
 (
 )
 /
