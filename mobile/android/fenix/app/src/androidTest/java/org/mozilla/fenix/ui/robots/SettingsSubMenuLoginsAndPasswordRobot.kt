@@ -367,6 +367,8 @@ TestAssetHelper
 waitingTime
 )
 saveLoginsAndPasswordButton
+(
+)
 .
 check
 (
@@ -378,6 +380,8 @@ isDisplayed
 )
 )
 autofillInFirefoxOption
+(
+)
 .
 check
 (
@@ -389,6 +393,8 @@ isDisplayed
 )
 )
 autofillInOtherAppsOption
+(
+)
 .
 check
 (
@@ -400,6 +406,8 @@ isDisplayed
 )
 )
 syncLoginsButton
+(
+)
 .
 check
 (
@@ -411,6 +419,8 @@ isDisplayed
 )
 )
 savedLoginsButton
+(
+)
 .
 check
 (
@@ -422,6 +432,8 @@ isDisplayed
 )
 )
 loginExceptionsButton
+(
+)
 .
 check
 (
@@ -505,6 +517,8 @@ clickAutofillInFirefoxOption
 )
 =
 autofillInFirefoxOption
+(
+)
 .
 click
 (
@@ -518,6 +532,8 @@ Boolean
 )
 {
 autofillInFirefoxOption
+(
+)
 .
 check
 (
@@ -565,6 +581,8 @@ Boolean
 )
 {
 autofillInOtherAppsOption
+(
+)
 .
 check
 (
@@ -668,6 +686,8 @@ SettingsSubMenuLoginsAndPasswordsSavedLoginsRobot
 Transition
 {
 savedLoginsButton
+(
+)
 .
 click
 (
@@ -705,6 +725,8 @@ SettingsSubMenuLoginsAndPasswordsSavedLoginsRobot
 Transition
 {
 loginExceptionsButton
+(
+)
 .
 click
 (
@@ -742,6 +764,8 @@ SettingsTurnOnSyncRobot
 Transition
 {
 syncLoginsButton
+(
+)
 .
 click
 (
@@ -779,6 +803,8 @@ SettingsSubMenuLoginsAndPasswordOptionsToSaveRobot
 Transition
 {
 saveLoginsAndPasswordButton
+(
+)
 .
 click
 (
@@ -832,8 +858,10 @@ Transition
 )
 }
 private
-val
+fun
 saveLoginsAndPasswordButton
+(
+)
 =
 onView
 (
@@ -848,8 +876,10 @@ passwords
 )
 )
 private
-val
+fun
 savedLoginsButton
+(
+)
 =
 onView
 (
@@ -862,8 +892,10 @@ logins
 )
 )
 private
-val
+fun
 syncLoginsButton
+(
+)
 =
 onView
 (
@@ -878,8 +910,10 @@ devices
 )
 )
 private
-val
+fun
 loginExceptionsButton
+(
+)
 =
 onView
 (
@@ -964,8 +998,10 @@ VISIBLE
 )
 )
 private
-val
+fun
 autofillInFirefoxOption
+(
+)
 =
 onView
 (
@@ -979,8 +1015,10 @@ appName
 )
 )
 private
-val
+fun
 autofillInOtherAppsOption
+(
+)
 =
 onView
 (
