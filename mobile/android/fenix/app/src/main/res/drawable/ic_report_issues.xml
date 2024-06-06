@@ -118,9 +118,8 @@ android
 fillColor
 =
 "
-context
--
-fill
+#
+000000
 "
 android
 :
