@@ -117,7 +117,7 @@ fenix
 .
 experiments
 .
-Experiments
+FeatureId
 import
 org
 .
@@ -234,7 +234,7 @@ experiments
 .
 withExperiment
 (
-Experiments
+FeatureId
 .
 ANDROID_KEYSTORE
 )

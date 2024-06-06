@@ -369,7 +369,7 @@ fenix
 .
 experiments
 .
-Experiments
+FeatureId
 import
 org
 .
@@ -1697,7 +1697,7 @@ experiments
 .
 withExperiment
 (
-Experiments
+FeatureId
 .
 DEFAULT_BROWSER
 )
@@ -1716,6 +1716,9 @@ DEFAULT_BROWSER_NEW_TAB_BANNER
 }
 return
 isExperimentBranch
+=
+=
+true
 &
 &
 !
