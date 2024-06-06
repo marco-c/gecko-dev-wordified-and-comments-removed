@@ -199,6 +199,13 @@ paddingStart
 "
 android
 :
+paddingBottom
+=
+"
+8dp
+"
+android
+:
 paddingEnd
 =
 "
