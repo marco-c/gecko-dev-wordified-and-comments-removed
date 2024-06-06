@@ -234,6 +234,13 @@ textColor
 ?
 primaryText
 "
+android
+:
+textAlignment
+=
+"
+viewStart
+"
 app
 :
 layout_goneMarginStart
@@ -355,6 +362,13 @@ textColor
 "
 ?
 secondaryText
+"
+android
+:
+textAlignment
+=
+"
+viewStart
 "
 android
 :
