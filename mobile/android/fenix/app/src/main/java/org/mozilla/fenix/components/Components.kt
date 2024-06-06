@@ -213,6 +213,8 @@ mozilla
 .
 fenix
 .
+perf
+.
 StrictModeManager
 import
 org

@@ -111,6 +111,8 @@ org
 mozilla
 .
 fenix
+.
+perf
 import
 android
 .
@@ -180,9 +182,7 @@ mozilla
 .
 fenix
 .
-components
-.
-Components
+Config
 import
 org
 .
@@ -190,9 +190,9 @@ mozilla
 .
 fenix
 .
-perf
+components
 .
-Performance
+Components
 import
 org
 .

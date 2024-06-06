@@ -83,6 +83,8 @@ mozilla
 .
 fenix
 .
+perf
+.
 StrictModeManager
 /
 *

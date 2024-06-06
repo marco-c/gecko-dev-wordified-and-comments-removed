@@ -173,6 +173,8 @@ mozilla
 .
 fenix
 .
+perf
+.
 StrictModeManager
 import
 kotlin
