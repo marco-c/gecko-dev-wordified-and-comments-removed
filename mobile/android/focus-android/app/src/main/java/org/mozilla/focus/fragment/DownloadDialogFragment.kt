@@ -429,7 +429,7 @@ Boolean
 val
 listener
 =
-targetFragment
+parentFragment
 as
 DownloadDialogListener
 ?

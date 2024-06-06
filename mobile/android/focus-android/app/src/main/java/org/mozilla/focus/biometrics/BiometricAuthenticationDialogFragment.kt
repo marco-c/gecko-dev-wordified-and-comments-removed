@@ -491,7 +491,7 @@ biometricNewSessionButtonClicked
 val
 listener
 =
-targetFragment
+parentFragment
 as
 BiometricAuthenticationListener
 ?
@@ -566,7 +566,7 @@ onAuthenticated
 val
 listener
 =
-targetFragment
+parentFragment
 as
 BiometricAuthenticationListener
 ?
