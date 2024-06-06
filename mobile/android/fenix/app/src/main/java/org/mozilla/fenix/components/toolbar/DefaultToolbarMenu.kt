@@ -707,9 +707,6 @@ Item
 Library
 )
 }
-BrowserMenuDivider
-(
-)
 BrowserMenuSwitch
 (
 context
