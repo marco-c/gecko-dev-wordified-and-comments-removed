@@ -368,6 +368,10 @@ ReviewQualityCheckAction
 OptOut
 )
 }
+onReanalyzeClick
+=
+{
+}
 onProductRecommendationsEnabledStateChange
 =
 {
@@ -455,6 +459,13 @@ onOptOutClick
 -
 >
 Unit
+onReanalyzeClick
+:
+(
+)
+-
+>
+Unit
 onProductRecommendationsEnabledStateChange
 :
 (
@@ -515,6 +526,9 @@ productReviewState
 onOptOutClick
 =
 onOptOutClick
+onReanalyzeClick
+=
+onReanalyzeClick
 onProductRecommendationsEnabledStateChange
 =
 onProductRecommendationsEnabledStateChange
