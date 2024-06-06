@@ -879,7 +879,16 @@ tab
 .
 content
 .
-promptRequest
+promptRequests
+.
+lastOrNull
+{
+it
+is
+PromptRequest
+.
+Share
+}
 if
 (
 promptRequest
@@ -904,6 +913,7 @@ ConsumePromptRequestAction
 tab
 .
 id
+promptRequest
 )
 )
 }
