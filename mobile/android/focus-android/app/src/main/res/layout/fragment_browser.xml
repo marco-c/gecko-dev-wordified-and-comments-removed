@@ -773,6 +773,15 @@ colorPrimary
 "
 app
 :
+findInPageQueryHintTextColor
+=
+"
+color
+/
+secondaryText
+"
+app
+:
 findInPageNoMatchesTextColor
 =
 "
