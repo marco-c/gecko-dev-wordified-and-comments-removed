@@ -1101,6 +1101,11 @@ setOnClickListener
 invokePendingDeleteSessionJob
 (
 )
+onboarding
+.
+finish
+(
+)
 val
 directions
 =
@@ -2281,6 +2286,11 @@ Settings
 invokePendingDeleteSessionJob
 (
 )
+onboarding
+.
+finish
+(
+)
 Navigation
 .
 findNavController
@@ -2306,6 +2316,11 @@ Library
 >
 {
 invokePendingDeleteSessionJob
+(
+)
+onboarding
+.
+finish
 (
 )
 Navigation
