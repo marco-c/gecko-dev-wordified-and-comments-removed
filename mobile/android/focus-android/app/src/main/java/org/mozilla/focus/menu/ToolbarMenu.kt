@@ -143,6 +143,12 @@ Item
 (
 )
 object
+OpenInBrowser
+:
+Item
+(
+)
+object
 OpenInApp
 :
 Item
