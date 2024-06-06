@@ -646,6 +646,12 @@ source
 )
 }
 object
+HistorySearchTermGroupTapped
+:
+Event
+(
+)
+object
 ReaderModeAvailable
 :
 Event

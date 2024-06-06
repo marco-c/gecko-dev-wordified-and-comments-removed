@@ -304,6 +304,14 @@ Group
 -
 >
 {
+metrics
+.
+track
+(
+Event
+.
+HistorySearchTermGroupTapped
+)
 navController
 .
 navigate
