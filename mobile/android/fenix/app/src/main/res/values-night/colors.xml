@@ -313,9 +313,8 @@ name
 neutral_faded_normal_theme
 "
 >
-color
-/
-neutral_faded_dark_theme
+#
+1FFBFBFE
 <
 /
 color
