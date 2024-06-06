@@ -5041,7 +5041,7 @@ clickPrivacyNoticeButton
 (
 interact
 :
-BrowserRobot
+CustomTabRobot
 .
 (
 )
@@ -5050,7 +5050,7 @@ BrowserRobot
 Unit
 )
 :
-BrowserRobot
+CustomTabRobot
 .
 Transition
 {
@@ -5060,7 +5060,7 @@ clickAndWaitForNewWindow
 (
 waitingTimeShort
 )
-BrowserRobot
+CustomTabRobot
 (
 )
 .
@@ -5068,7 +5068,7 @@ interact
 (
 )
 return
-BrowserRobot
+CustomTabRobot
 .
 Transition
 (
