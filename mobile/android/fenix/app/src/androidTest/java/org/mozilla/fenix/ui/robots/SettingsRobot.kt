@@ -1424,7 +1424,18 @@ fun
 assertRemoteDebug
 (
 )
-=
+{
+TestHelper
+.
+scrollToElementByText
+(
+"
+Remote
+debugging
+via
+USB
+"
+)
 onView
 (
 ViewMatchers
@@ -1452,6 +1463,7 @@ VISIBLE
 )
 )
 )
+}
 /
 /
 ABOUT
