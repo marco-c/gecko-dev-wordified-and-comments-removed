@@ -134,7 +134,7 @@ android
 layout_height
 =
 "
-match_parent
+wrap_content
 "
 >
 <
