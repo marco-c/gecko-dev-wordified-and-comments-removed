@@ -135,6 +135,16 @@ mozilla
 .
 fenix
 .
+helpers
+.
+TestSetup
+import
+org
+.
+mozilla
+.
+fenix
+.
 ui
 .
 robots
@@ -166,6 +176,10 @@ robots
 navigationToolbar
 class
 SettingsHTTPSOnlyModeTest
+:
+TestSetup
+(
+)
 {
 private
 val
