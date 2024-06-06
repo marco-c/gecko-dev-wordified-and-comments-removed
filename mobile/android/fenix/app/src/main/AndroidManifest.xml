@@ -990,6 +990,15 @@ HomeActivity
 "
 android
 :
+theme
+=
+"
+style
+/
+SplashScreen
+"
+android
+:
 exported
 =
 "

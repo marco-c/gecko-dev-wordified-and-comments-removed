@@ -6231,6 +6231,10 @@ androidx_core_ktx
 implementation
 FenixDependencies
 .
+androidx_core_splashscreen
+implementation
+FenixDependencies
+.
 androidx_transition
 implementation
 ComponentsDependencies
