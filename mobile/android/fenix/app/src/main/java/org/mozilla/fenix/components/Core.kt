@@ -1368,6 +1368,15 @@ settings
 getHttpsOnlyMode
 (
 )
+globalPrivacyControlEnabled
+=
+context
+.
+settings
+(
+)
+.
+shouldEnableGlobalPrivacyControl
 cookieBannerHandlingMode
 =
 context
