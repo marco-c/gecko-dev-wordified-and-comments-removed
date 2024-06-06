@@ -3448,11 +3448,15 @@ null
 menuButton
 =
 menuButton
-browsingModeManager
+isPrivateMode
 =
 activity
 .
 browsingModeManager
+.
+mode
+.
+isPrivate
 )
 .
 also
