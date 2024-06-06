@@ -1146,6 +1146,11 @@ PlacesEvent
 h
 "
 "
+PlacesEventCounts
+.
+h
+"
+"
 PlacesFavicon
 .
 h
@@ -2357,6 +2362,11 @@ UNIFIED_SOURCES
 [
 "
 PlacesEvent
+.
+cpp
+"
+"
+PlacesEventCounts
 .
 cpp
 "
