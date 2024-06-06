@@ -121,8 +121,6 @@ main
 .
 collections_list_item
 .
-view
-.
 *
 import
 mozilla
@@ -174,6 +172,18 @@ fenix
 home
 .
 Tab
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+view
+.
+ViewHolder
 class
 SaveCollectionListAdapter
 (
@@ -350,8 +360,6 @@ view
 View
 )
 :
-RecyclerView
-.
 ViewHolder
 (
 view
@@ -365,8 +373,6 @@ collection
 TabCollection
 )
 {
-itemView
-.
 collection_item
 .
 text
@@ -374,8 +380,6 @@ text
 collection
 .
 title
-itemView
-.
 collection_description
 .
 text
@@ -388,8 +392,6 @@ itemView
 .
 context
 )
-itemView
-.
 collection_icon
 .
 colorFilter
