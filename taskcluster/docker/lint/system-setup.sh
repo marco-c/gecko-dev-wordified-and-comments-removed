@@ -62,6 +62,14 @@ apt_packages
 =
 (
 '
+m4
+'
+)
+apt_packages
++
+=
+(
+'
 graphviz
 '
 )
