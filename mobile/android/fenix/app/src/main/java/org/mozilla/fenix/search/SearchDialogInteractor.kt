@@ -77,6 +77,18 @@ search
 .
 SearchEngine
 import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
+EngineSession
+.
+LoadUrlFlags
+import
 org
 .
 mozilla
@@ -193,6 +205,9 @@ onUrlTapped
 url
 :
 String
+flags
+:
+LoadUrlFlags
 )
 {
 searchController
@@ -200,6 +215,7 @@ searchController
 handleUrlTapped
 (
 url
+flags
 )
 }
 override

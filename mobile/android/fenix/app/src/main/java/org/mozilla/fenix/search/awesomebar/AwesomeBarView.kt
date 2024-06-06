@@ -516,6 +516,7 @@ interactor
 onUrlTapped
 (
 url
+flags
 )
 }
 }
