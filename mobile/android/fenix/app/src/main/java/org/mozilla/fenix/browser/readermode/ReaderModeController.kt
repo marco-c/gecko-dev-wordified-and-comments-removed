@@ -200,6 +200,11 @@ it
 hideReaderView
 (
 )
+it
+.
+hideControls
+(
+)
 }
 }
 override
