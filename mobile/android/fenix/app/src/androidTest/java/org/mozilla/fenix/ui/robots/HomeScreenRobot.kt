@@ -4467,7 +4467,18 @@ fun
 assertAccountsSignInButton
 (
 )
-=
+{
+scrollToElementByText
+(
+getStringResource
+(
+R
+.
+string
+.
+onboarding_firefox_account_sign_in
+)
+)
 onView
 (
 ViewMatchers
@@ -4492,6 +4503,7 @@ VISIBLE
 )
 )
 )
+}
 private
 fun
 assertChooseThemeHeader

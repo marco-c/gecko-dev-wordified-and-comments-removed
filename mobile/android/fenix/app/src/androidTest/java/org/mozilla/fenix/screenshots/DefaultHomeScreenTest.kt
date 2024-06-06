@@ -264,9 +264,6 @@ showDefaultHomeScreen
 {
 homeScreen
 {
-swipeToBottom
-(
-)
 verifyAccountsSignInButton
 (
 )
