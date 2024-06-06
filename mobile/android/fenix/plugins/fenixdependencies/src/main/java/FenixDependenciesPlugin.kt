@@ -386,7 +386,7 @@ protobuf_plugin
 .
 9
 .
-3
+4
 "
 }
 Suppress
