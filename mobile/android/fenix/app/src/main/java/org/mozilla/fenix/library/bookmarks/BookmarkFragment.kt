@@ -457,16 +457,6 @@ fenix
 .
 ext
 .
-minus
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 nav
 import
 org
