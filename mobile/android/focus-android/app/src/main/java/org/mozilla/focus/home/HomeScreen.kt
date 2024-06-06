@@ -161,9 +161,9 @@ mozilla
 .
 focus
 .
-theme
+topsites
 .
-FocusTheme
+TopSites
 import
 org
 .
@@ -171,9 +171,11 @@ mozilla
 .
 focus
 .
-topsites
+ui
 .
-TopSites
+theme
+.
+FocusTheme
 /
 *
 *

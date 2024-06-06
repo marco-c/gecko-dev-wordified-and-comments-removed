@@ -63,6 +63,8 @@ mozilla
 .
 focus
 .
+ui
+.
 theme
 import
 androidx
@@ -225,6 +227,11 @@ colors
 colors
 .
 material
+typography
+=
+focusTypography
+.
+materialTypography
 content
 =
 content

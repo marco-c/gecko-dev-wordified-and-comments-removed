@@ -389,6 +389,8 @@ mozilla
 .
 focus
 .
+ui
+.
 theme
 .
 focusColors
