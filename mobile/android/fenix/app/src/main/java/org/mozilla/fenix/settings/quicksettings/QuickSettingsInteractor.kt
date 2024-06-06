@@ -169,9 +169,6 @@ override
 fun
 onProtectionToggled
 (
-websiteUrl
-:
-String
 trackingEnabled
 :
 Boolean
@@ -181,7 +178,6 @@ controller
 .
 handleTrackingProtectionToggled
 (
-websiteUrl
 trackingEnabled
 )
 }

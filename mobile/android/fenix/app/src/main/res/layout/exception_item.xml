@@ -447,6 +447,13 @@ org
 ImageButton
 android
 :
+visibility
+=
+"
+gone
+"
+android
+:
 id
 =
 "

@@ -211,9 +211,6 @@ off
 fun
 onProtectionToggled
 (
-websiteUrl
-:
-String
 trackingEnabled
 :
 Boolean
@@ -517,9 +514,6 @@ interactor
 .
 onProtectionToggled
 (
-state
-.
-websiteUrl
 isChecked
 )
 }
