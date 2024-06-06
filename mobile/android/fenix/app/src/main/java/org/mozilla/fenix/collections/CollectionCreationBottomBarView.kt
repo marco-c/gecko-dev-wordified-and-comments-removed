@@ -503,6 +503,14 @@ importantForAccessibility
 View
 .
 IMPORTANT_FOR_ACCESSIBILITY_NO
+setOnClickListener
+{
+interactor
+.
+addNewCollection
+(
+)
+}
 }
 layout
 .
