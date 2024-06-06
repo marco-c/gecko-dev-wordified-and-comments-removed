@@ -9,7 +9,7 @@ re
 OPEN_LOCALES
 =
 "
-release_locales
+locales
 =
 [
 "
@@ -102,6 +102,8 @@ open
 r
 "
 l10n
+-
+release
 .
 toml
 "
@@ -157,11 +159,6 @@ line
 =
 =
 CLOSE_LOCALES
-and
-locales_opened
-=
-=
-True
 :
             
 locales_closed
