@@ -314,7 +314,7 @@ FirefoxTheme
 .
 colors
 .
-textPrimary
+textSecondary
 )
 linkTextColor
 =
