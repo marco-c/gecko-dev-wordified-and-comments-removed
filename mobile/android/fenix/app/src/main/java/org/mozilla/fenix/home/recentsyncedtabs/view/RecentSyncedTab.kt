@@ -491,7 +491,7 @@ compose
 .
 button
 .
-Button
+SecondaryButton
 import
 org
 .
@@ -1179,7 +1179,7 @@ height
 dp
 )
 )
-Button
+SecondaryButton
 (
 text
 =
@@ -1211,13 +1211,6 @@ buttonTextColor
 backgroundColor
 =
 buttonBackgroundColor
-tint
-=
-FirefoxTheme
-.
-colors
-.
-iconActionSecondary
 onClick
 =
 onSeeAllSyncedTabsButtonClick
