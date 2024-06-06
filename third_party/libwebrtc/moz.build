@@ -489,16 +489,6 @@ libwebrtc
 /
 api
 /
-callfactory_api_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-api
-/
 crypto
 /
 frame_decryptor_interface_gn
