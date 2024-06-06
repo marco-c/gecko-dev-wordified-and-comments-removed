@@ -97,7 +97,7 @@ nimbus
 .
 internal
 .
-NimbusErrorException
+NimbusException
 class
 NimbusSetupKtTest
 {
@@ -116,9 +116,9 @@ true
 val
 error
 =
-NimbusErrorException
+NimbusException
 .
-IOError
+IOException
 (
 "
 bad
@@ -151,9 +151,9 @@ false
 val
 error1
 =
-NimbusErrorException
+NimbusException
 .
-ResponseError
+ResponseException
 (
 "
 oops
@@ -162,9 +162,9 @@ oops
 val
 error2
 =
-NimbusErrorException
+NimbusException
 .
-RequestError
+RequestException
 (
 "
 oops

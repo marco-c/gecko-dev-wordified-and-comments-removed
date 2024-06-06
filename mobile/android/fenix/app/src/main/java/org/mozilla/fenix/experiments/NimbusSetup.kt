@@ -157,7 +157,7 @@ nimbus
 .
 internal
 .
-NimbusErrorException
+NimbusException
 import
 org
 .
@@ -249,7 +249,7 @@ if
 (
 e
 is
-NimbusErrorException
+NimbusException
 &
 &
 !
@@ -979,7 +979,7 @@ issues
 *
 /
 fun
-NimbusErrorException
+NimbusException
 .
 isReportableError
 (
@@ -994,13 +994,13 @@ this
 )
 {
 is
-NimbusErrorException
+NimbusException
 .
-RequestError
+RequestException
 is
-NimbusErrorException
+NimbusException
 .
-ResponseError
+ResponseException
 -
 >
 false
