@@ -334,7 +334,11 @@ that
 overridePendingTransition
 (
 0
-0
+R
+.
+anim
+.
+placeholder_animation
 )
 }
 }
