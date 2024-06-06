@@ -383,6 +383,10 @@ en
 -
 CA
 "
+	
+"
+af
+"
 ]
 SCREENSHOT_LOCALES
 =
