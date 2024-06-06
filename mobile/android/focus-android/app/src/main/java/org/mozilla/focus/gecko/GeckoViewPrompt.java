@@ -283,6 +283,15 @@ mozilla
 .
 geckoview
 .
+AllowOrDeny
+;
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoSession
 .
 PermissionDelegate
@@ -4999,7 +5008,7 @@ Override
 public
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 onPopupRequest
 (
@@ -5014,7 +5023,9 @@ GeckoResult
 .
 fromValue
 (
-true
+AllowOrDeny
+.
+ALLOW
 )
 ;
 }
