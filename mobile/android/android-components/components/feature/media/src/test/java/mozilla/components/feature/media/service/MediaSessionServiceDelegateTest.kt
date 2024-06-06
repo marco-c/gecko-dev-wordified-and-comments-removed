@@ -89,6 +89,12 @@ android
 .
 content
 .
+Context
+import
+android
+.
+content
+.
 Intent
 import
 android
@@ -3209,6 +3215,12 @@ any
 any
 (
 )
+eq
+(
+Context
+.
+RECEIVER_NOT_EXPORTED
+)
 )
 }
 Test
@@ -3366,6 +3378,9 @@ noisyAudioStreamReceiver
 delegate
 .
 intentFilter
+Context
+.
+RECEIVER_NOT_EXPORTED
 )
 val
 receiverCaptor
