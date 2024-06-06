@@ -268,7 +268,7 @@ nestedScrollingEnabled
 "
 false
 "
-app
+tools
 :
 layoutManager
 =
@@ -281,7 +281,7 @@ widget
 .
 GridLayoutManager
 "
-app
+tools
 :
 spanCount
 =
