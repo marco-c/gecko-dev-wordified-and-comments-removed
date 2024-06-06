@@ -960,14 +960,14 @@ isNotChecked
 fun
 verifyBlockOtherTrackersEnabled
 (
-enabled
+shouldBeEnabled
 :
 Boolean
 )
 {
 if
 (
-enabled
+shouldBeEnabled
 )
 {
 otherContentTrackersBlockSwitch
