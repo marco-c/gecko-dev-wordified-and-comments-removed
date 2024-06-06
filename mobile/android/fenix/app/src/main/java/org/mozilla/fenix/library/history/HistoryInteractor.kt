@@ -287,4 +287,16 @@ handleDeleteSome
 items
 )
 }
+override
+fun
+onRequestSync
+(
+)
+{
+historyController
+.
+handleRequestSync
+(
+)
+}
 }
