@@ -10648,7 +10648,6 @@ name
 preference_light_theme
 "
 >
-Light
 <
 /
 string
@@ -10673,7 +10672,6 @@ name
 preference_dark_theme
 "
 >
-Dark
 <
 /
 string
