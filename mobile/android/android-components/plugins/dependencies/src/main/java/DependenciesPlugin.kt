@@ -102,7 +102,7 @@ REBUILD
 -
 03
 -
-01
+06
 class
 DependenciesPlugin
 :
