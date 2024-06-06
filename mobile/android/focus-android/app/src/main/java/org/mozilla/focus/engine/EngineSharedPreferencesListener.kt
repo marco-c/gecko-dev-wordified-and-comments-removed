@@ -194,6 +194,16 @@ string
 .
 pref_key_privacy_block_other
 )
+context
+.
+getString
+(
+R
+.
+string
+.
+pref_key_performance_enable_cookies
+)
 -
 >
 updateTrackingProtectionPolicy
