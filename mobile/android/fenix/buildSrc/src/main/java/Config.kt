@@ -125,7 +125,7 @@ const
 val
 targetSdkVersion
 =
-30
+31
 JvmStatic
 private
 fun

@@ -63,6 +63,13 @@ customtabs
 .
 CustomTabsService
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 !
