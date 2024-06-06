@@ -1848,7 +1848,7 @@ apk
 -
 -
 apk
-focus
+focusArm
 /
 release
 /
@@ -1867,7 +1867,7 @@ apk
 -
 -
 apk
-focus
+focusAarch64
 /
 release
 /
@@ -1886,7 +1886,7 @@ apk
 -
 -
 apk
-klar
+klarArm
 /
 release
 /
@@ -1905,7 +1905,7 @@ apk
 -
 -
 apk
-klar
+klarAarch64
 /
 release
 /
@@ -2556,7 +2556,7 @@ apk
 -
 -
 apk
-focus
+focusArm
 /
 nightly
 /
@@ -2575,7 +2575,7 @@ apk
 -
 -
 apk
-focus
+focusAarch64
 /
 nightly
 /
@@ -2594,7 +2594,7 @@ apk
 -
 -
 apk
-klar
+klarArm
 /
 nightly
 /
@@ -2613,7 +2613,7 @@ apk
 -
 -
 apk
-klar
+klarAarch64
 /
 nightly
 /
