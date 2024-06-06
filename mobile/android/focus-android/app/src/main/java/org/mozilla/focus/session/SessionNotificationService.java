@@ -473,7 +473,7 @@ createNotificationIntent
 .
 setVisibility
 (
-Notification
+NotificationCompat
 .
 VISIBILITY_SECRET
 )
