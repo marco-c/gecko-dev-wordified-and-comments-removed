@@ -11189,7 +11189,7 @@ create_collection_select_all
 "
 >
 Select
-All
+all
 <
 /
 string
@@ -11226,7 +11226,7 @@ create_collection_deselect_all
 "
 >
 Deselect
-All
+all
 <
 /
 string
