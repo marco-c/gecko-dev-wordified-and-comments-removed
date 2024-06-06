@@ -603,11 +603,6 @@ tryToRequestPermissions
 =
 true
 }
-reportSiteIssue
-=
-:
-:
-launchIntentReceiver
 displayPermissions
 =
 :

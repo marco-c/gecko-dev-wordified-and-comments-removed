@@ -151,12 +151,6 @@ Item
 (
 )
 object
-ReportIssue
-:
-Item
-(
-)
-object
 OpenInFenix
 :
 Item
