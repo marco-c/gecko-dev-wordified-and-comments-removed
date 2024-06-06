@@ -1250,11 +1250,18 @@ PocketStory
 mockk
 (
 )
+val
+storyGridLocation
+=
+1
+to
+2
 interactor
 .
 onStoryShown
 (
 shownStory
+storyGridLocation
 )
 verify
 {
@@ -1263,6 +1270,7 @@ pocketStoriesController
 handleStoryShown
 (
 shownStory
+storyGridLocation
 )
 }
 }
