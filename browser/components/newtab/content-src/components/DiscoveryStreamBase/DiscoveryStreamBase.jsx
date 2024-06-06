@@ -2684,7 +2684,7 @@ state
 Sections
 document
 :
-global
+globalThis
 .
 document
 App

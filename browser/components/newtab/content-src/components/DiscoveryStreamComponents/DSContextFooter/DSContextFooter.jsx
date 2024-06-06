@@ -72,7 +72,7 @@ Card
 /
 types
 .
-js
+mjs
 "
 ;
 import

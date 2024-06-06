@@ -843,6 +843,10 @@ js
 .
 jsx
 "
+"
+.
+mjs
+"
 ]
 modules
 :
@@ -1075,7 +1079,7 @@ test
 .
 js
 [
-mx
+x
 ]
 ?
 /

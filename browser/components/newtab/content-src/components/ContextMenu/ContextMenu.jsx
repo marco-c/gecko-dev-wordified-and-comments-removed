@@ -186,7 +186,7 @@ setTimeout
 =
 >
 {
-global
+globalThis
 .
 addEventListener
 (
@@ -207,7 +207,7 @@ componentWillUnmount
 (
 )
 {
-global
+globalThis
 .
 removeEventListener
 (

@@ -303,7 +303,7 @@ OnboardingExperience
 dispatch
 windowObj
 =
-global
+globalThis
 }
 )
 {

@@ -313,7 +313,7 @@ props
 compactCards
 &
 &
-global
+globalThis
 .
 matchMedia
 (
@@ -2024,7 +2024,7 @@ defaultProps
 {
 document
 :
-global
+globalThis
 .
 document
 rows

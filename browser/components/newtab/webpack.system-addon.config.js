@@ -268,6 +268,10 @@ js
 .
 jsx
 "
+"
+.
+mjs
+"
 ]
 modules
 :

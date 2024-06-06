@@ -617,7 +617,7 @@ scss
 if
 (
 !
-global
+globalThis
 .
 matchMedia
 (

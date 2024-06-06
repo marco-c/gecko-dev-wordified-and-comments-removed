@@ -526,7 +526,7 @@ join
 "
 )
 ;
-global
+globalThis
 .
 document
 .

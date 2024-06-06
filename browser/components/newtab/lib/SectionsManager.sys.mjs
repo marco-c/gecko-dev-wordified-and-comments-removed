@@ -2275,7 +2275,7 @@ type
 See
 types
 .
-js
+mjs
 for
 a
 list

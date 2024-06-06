@@ -715,12 +715,12 @@ defaultProps
 {
 IntersectionObserver
 :
-global
+globalThis
 .
 IntersectionObserver
 document
 :
-global
+globalThis
 .
 document
 actionType

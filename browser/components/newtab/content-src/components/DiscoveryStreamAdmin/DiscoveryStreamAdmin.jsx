@@ -2613,7 +2613,7 @@ state
 collapsed
 )
 {
-global
+globalThis
 .
 document
 .
@@ -2633,7 +2633,7 @@ scroll
 }
 else
 {
-global
+globalThis
 .
 document
 .
@@ -2678,7 +2678,7 @@ componentWillUnmount
 (
 )
 {
-global
+globalThis
 .
 document
 .

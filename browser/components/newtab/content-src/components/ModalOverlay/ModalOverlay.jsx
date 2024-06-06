@@ -346,7 +346,7 @@ defaultProps
 {
 document
 :
-global
+globalThis
 .
 document
 }

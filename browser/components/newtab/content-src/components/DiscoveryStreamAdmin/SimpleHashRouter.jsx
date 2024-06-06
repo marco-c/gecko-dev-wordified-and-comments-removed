@@ -101,7 +101,7 @@ state
 {
 hash
 :
-global
+globalThis
 .
 location
 .
@@ -120,7 +120,7 @@ setState
 {
 hash
 :
-global
+globalThis
 .
 location
 .
@@ -133,7 +133,7 @@ componentWillMount
 (
 )
 {
-global
+globalThis
 .
 addEventListener
 (
@@ -150,7 +150,7 @@ componentWillUnmount
 (
 )
 {
-global
+globalThis
 .
 removeEventListener
 (
