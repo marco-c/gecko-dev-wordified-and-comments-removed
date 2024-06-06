@@ -106,7 +106,9 @@ mobile
 /
 fenix
 /
-pr
+public
+-
+tokens
 \
 -
 k
