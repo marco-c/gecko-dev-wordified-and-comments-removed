@@ -411,7 +411,7 @@ android
 layout_marginEnd
 =
 "
-16dp
+4dp
 "
 android
 :
@@ -550,7 +550,7 @@ android
 layout_marginEnd
 =
 "
-16dp
+4dp
 "
 android
 :
@@ -697,6 +697,13 @@ string
 /
 content_description_menu
 "
+android
+:
+padding
+=
+"
+12dp
+"
 app
 :
 srcCompat
@@ -732,7 +739,7 @@ android
 layout_marginEnd
 =
 "
-16dp
+4dp
 "
 /
 >
