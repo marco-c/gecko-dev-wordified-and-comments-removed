@@ -71,7 +71,9 @@ mozilla
 .
 fenix
 .
-utils
+settings
+.
+deletebrowsingdata
 import
 androidx
 .
@@ -273,9 +275,9 @@ mozilla
 .
 fenix
 .
-settings
+utils
 .
-DeleteBrowsingDataOnQuitType
+Settings
 import
 org
 .

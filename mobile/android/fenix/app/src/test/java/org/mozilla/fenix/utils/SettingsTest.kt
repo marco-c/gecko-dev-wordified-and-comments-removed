@@ -213,6 +213,8 @@ fenix
 .
 settings
 .
+deletebrowsingdata
+.
 DeleteBrowsingDataOnQuitType
 import
 org

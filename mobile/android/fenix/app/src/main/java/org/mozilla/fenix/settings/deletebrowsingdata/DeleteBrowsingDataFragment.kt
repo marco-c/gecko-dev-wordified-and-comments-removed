@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 settings
+.
+deletebrowsingdata
 import
 android
 .
@@ -351,9 +353,9 @@ controller
 =
 DefaultDeleteBrowsingDataController
 (
-context
-!
-!
+requireContext
+(
+)
 )
 sessionObserver
 =

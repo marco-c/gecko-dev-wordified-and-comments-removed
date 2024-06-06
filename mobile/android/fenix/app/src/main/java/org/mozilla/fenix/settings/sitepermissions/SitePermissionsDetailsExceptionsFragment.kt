@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 settings
+.
+sitepermissions
 import
 android
 .
@@ -186,6 +188,16 @@ fenix
 ext
 .
 getPreferenceKey
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
+PhoneFeature
 import
 org
 .

@@ -226,6 +226,8 @@ fenix
 .
 settings
 .
+account
+.
 AccountPreference
 android
 :
@@ -255,6 +257,8 @@ mozilla
 fenix
 .
 settings
+.
+account
 .
 AccountAuthErrorPreference
 android

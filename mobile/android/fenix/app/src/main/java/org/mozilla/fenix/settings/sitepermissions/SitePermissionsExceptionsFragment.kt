@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 settings
+.
+sitepermissions
 import
 android
 .

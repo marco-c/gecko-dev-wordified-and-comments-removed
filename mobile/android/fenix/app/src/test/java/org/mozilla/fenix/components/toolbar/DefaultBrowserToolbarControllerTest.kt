@@ -435,7 +435,9 @@ mozilla
 .
 fenix
 .
-utils
+settings
+.
+deletebrowsingdata
 .
 deleteAndQuit
 ExperimentalCoroutinesApi
@@ -759,7 +761,9 @@ mozilla
 .
 fenix
 .
-utils
+settings
+.
+deletebrowsingdata
 .
 DeleteAndQuitKt
 "

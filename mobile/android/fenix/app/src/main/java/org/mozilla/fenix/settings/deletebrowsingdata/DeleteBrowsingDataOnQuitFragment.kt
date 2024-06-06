@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 settings
+.
+deletebrowsingdata
 import
 android
 .
@@ -130,6 +132,16 @@ fenix
 ext
 .
 settings
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
+SharedPreferenceUpdater
 class
 DeleteBrowsingDataOnQuitFragment
 :

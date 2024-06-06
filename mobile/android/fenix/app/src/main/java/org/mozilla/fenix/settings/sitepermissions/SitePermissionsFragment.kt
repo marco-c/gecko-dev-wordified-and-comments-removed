@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 settings
+.
+sitepermissions
 import
 android
 .
@@ -132,6 +134,16 @@ fenix
 ext
 .
 settings
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
+PhoneFeature
 SuppressWarnings
 (
 "

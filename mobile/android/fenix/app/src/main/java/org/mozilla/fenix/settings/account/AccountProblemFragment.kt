@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 settings
+.
+account
 import
 android
 .

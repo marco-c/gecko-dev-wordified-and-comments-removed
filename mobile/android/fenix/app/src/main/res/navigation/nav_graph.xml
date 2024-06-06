@@ -860,6 +860,8 @@ fenix
 .
 settings
 .
+sitepermissions
+.
 SitePermissionsManagePhoneFeatureFragment
 "
 tools
@@ -918,6 +920,8 @@ mozilla
 fenix
 .
 settings
+.
+sitepermissions
 .
 SitePermissionsExceptionsFragment
 "
@@ -1001,6 +1005,8 @@ mozilla
 fenix
 .
 settings
+.
+sitepermissions
 .
 SitePermissionsDetailsExceptionsFragment
 "
@@ -1101,6 +1107,8 @@ mozilla
 fenix
 .
 settings
+.
+sitepermissions
 .
 SitePermissionsManageExceptionsPhoneFeatureFragment
 "
@@ -2777,6 +2785,8 @@ fenix
 .
 settings
 .
+sitepermissions
+.
 SitePermissionsFragment
 "
 android
@@ -2986,6 +2996,8 @@ fenix
 .
 settings
 .
+search
+.
 SearchEngineFragment
 "
 android
@@ -3023,6 +3035,8 @@ mozilla
 fenix
 .
 settings
+.
+account
 .
 TurnOnSyncFragment
 "
@@ -3426,6 +3440,8 @@ mozilla
 fenix
 .
 settings
+.
+deletebrowsingdata
 .
 DeleteBrowsingDataFragment
 "
@@ -4078,6 +4094,8 @@ fenix
 .
 settings
 .
+account
+.
 AccountProblemFragment
 "
 >
@@ -4132,6 +4150,8 @@ mozilla
 fenix
 .
 settings
+.
+account
 .
 SignOutFragment
 "
@@ -4382,6 +4402,8 @@ mozilla
 fenix
 .
 settings
+.
+deletebrowsingdata
 .
 DeleteBrowsingDataOnQuitFragment
 "

@@ -158,6 +158,8 @@ fenix
 .
 settings
 .
+search
+.
 RadioSearchEngineListPreference
 android
 :

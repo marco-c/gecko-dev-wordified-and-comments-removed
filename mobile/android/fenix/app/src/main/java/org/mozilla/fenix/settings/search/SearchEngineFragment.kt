@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 settings
+.
+search
 import
 android
 .
@@ -118,6 +120,16 @@ fenix
 ext
 .
 settings
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
+SharedPreferenceUpdater
 class
 SearchEngineFragment
 :

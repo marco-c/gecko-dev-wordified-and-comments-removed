@@ -308,6 +308,8 @@ fenix
 .
 settings
 .
+deletebrowsingdata
+.
 DeleteBrowsingDataItem
 android
 :
@@ -401,6 +403,8 @@ mozilla
 fenix
 .
 settings
+.
+deletebrowsingdata
 .
 DeleteBrowsingDataItem
 android
@@ -496,6 +500,8 @@ fenix
 .
 settings
 .
+deletebrowsingdata
+.
 DeleteBrowsingDataItem
 android
 :
@@ -589,6 +595,8 @@ mozilla
 fenix
 .
 settings
+.
+deletebrowsingdata
 .
 DeleteBrowsingDataItem
 android
@@ -691,6 +699,8 @@ fenix
 .
 settings
 .
+deletebrowsingdata
+.
 DeleteBrowsingDataItem
 android
 :
@@ -791,6 +801,8 @@ mozilla
 fenix
 .
 settings
+.
+deletebrowsingdata
 .
 DeleteBrowsingDataItem
 android

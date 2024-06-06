@@ -305,7 +305,9 @@ mozilla
 .
 fenix
 .
-utils
+settings
+.
+deletebrowsingdata
 .
 deleteAndQuit
 /
