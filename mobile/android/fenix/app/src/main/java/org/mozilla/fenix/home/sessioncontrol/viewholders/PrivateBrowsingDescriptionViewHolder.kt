@@ -293,9 +293,11 @@ fenix
 .
 home
 .
-sessioncontrol
+privatebrowsing
 .
-TabSessionInteractor
+interactor
+.
+PrivateBrowsingInteractor
 import
 org
 .
@@ -352,7 +354,7 @@ view
 param
 interactor
 [
-TabSessionInteractor
+PrivateBrowsingInteractor
 ]
 which
 will
@@ -377,7 +379,7 @@ LifecycleOwner
 val
 interactor
 :
-TabSessionInteractor
+PrivateBrowsingInteractor
 )
 :
 ComposeViewHolder
@@ -427,7 +429,7 @@ onLearnMoreClick
 interactor
 :
 :
-onPrivateBrowsingLearnMoreClicked
+onLearnMoreClicked
 )
 }
 companion
