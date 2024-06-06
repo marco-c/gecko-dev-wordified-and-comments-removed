@@ -18,9 +18,6 @@ __init__
 (
 self
 task_id
-repo_url
-branch
-commit
 owner
 source
 scheduler_id
@@ -32,24 +29,6 @@ self
 task_id
 =
 task_id
-        
-self
-.
-repo_url
-=
-repo_url
-        
-self
-.
-branch
-=
-branch
-        
-self
-.
-commit
-=
-commit
         
 self
 .
@@ -146,9 +125,9 @@ workerType
 "
 :
 '
-github
+gecko
 -
-worker
+focus
 '
             
 "

@@ -321,7 +321,7 @@ signing
 :
 format
 :
-autograph_fenix
+autograph_apk
 -
 if
 :
@@ -626,13 +626,8 @@ cd
 repository
 &
 &
-pip
-install
-arrow
-&
-&
 python
-tools
+automation
 /
 taskcluster
 /
