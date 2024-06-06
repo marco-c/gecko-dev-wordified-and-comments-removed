@@ -57,7 +57,7 @@ Product
 Manager
 /
 Data
-Scienties
+Scientist
 User
 Story
 -
