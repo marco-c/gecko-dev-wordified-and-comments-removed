@@ -149,7 +149,7 @@ layout
 "
 layout
 /
-focus_preference_category
+preference_section_header_layout
 "
 android
 :
@@ -386,7 +386,7 @@ layout
 "
 layout
 /
-focus_preference_category
+preference_section_header_layout
 "
 android
 :
@@ -569,7 +569,7 @@ layout
 "
 layout
 /
-focus_preference_category
+preference_section_header_layout
 "
 android
 :
@@ -727,7 +727,7 @@ layout
 "
 layout
 /
-focus_preference_category
+preference_section_header_layout
 "
 android
 :
@@ -871,7 +871,7 @@ layout
 "
 layout
 /
-focus_preference_category
+preference_section_header_layout
 "
 android
 :
@@ -959,7 +959,7 @@ layout
 "
 layout
 /
-focus_preference_category
+preference_section_header_layout
 "
 android
 :
