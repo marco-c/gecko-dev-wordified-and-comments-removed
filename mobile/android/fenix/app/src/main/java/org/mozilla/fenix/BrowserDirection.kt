@@ -203,6 +203,14 @@ id
 .
 trackingProtectionFragment
 )
+FromTrackingProtectionDialog
+(
+R
+.
+id
+.
+trackingProtectionPanelDialogFragment
+)
 FromSavedLoginsFragment
 (
 R

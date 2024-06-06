@@ -107,18 +107,6 @@ blocking
 .
 TrackerLog
 import
-mozilla
-.
-components
-.
-support
-.
-ktx
-.
-kotlin
-.
-tryGetHostFromUrl
-import
 org
 .
 mozilla
@@ -192,7 +180,7 @@ Map
 TrackingProtectionCategory
 List
 <
-String
+TrackerLog
 >
 >
 /
@@ -553,7 +541,7 @@ EnumMap
 TrackingProtectionCategory
 MutableList
 <
-String
+TrackerLog
 >
 >
 (
@@ -624,7 +612,7 @@ MutableMap
 TrackingProtectionCategory
 MutableList
 <
-String
+TrackerLog
 >
 >
 .
@@ -692,8 +680,6 @@ of
 the
 [
 TrackerLog
-.
-url
 ]
 into
 the
@@ -714,7 +700,7 @@ MutableMap
 TrackingProtectionCategory
 MutableList
 <
-String
+TrackerLog
 >
 >
 .
@@ -741,12 +727,6 @@ mutableListOf
 add
 (
 tracker
-.
-url
-.
-tryGetHostFromUrl
-(
-)
 )
 }
 }
