@@ -342,6 +342,13 @@ layout_constraintTop_toTopOf
 "
 parent
 "
+android
+:
+textAlignment
+=
+"
+viewStart
+"
 /
 >
 <
