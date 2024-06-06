@@ -231,6 +231,17 @@ ALLOW_MEMMOVE
 true
 }
 ;
+static_assert
+(
+std
+:
+:
+is_trivially_copyable_v
+<
+ScalarID
+>
+)
+;
 private
 :
 const
