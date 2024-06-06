@@ -127,7 +127,7 @@ addons
 .
 ui
 .
-translate
+translatedName
 import
 org
 .
@@ -236,11 +236,7 @@ args
 .
 addon
 .
-translatableName
-.
-translate
-(
-)
+translatedName
 )
 }
 override
