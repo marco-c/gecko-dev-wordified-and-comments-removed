@@ -134,10 +134,17 @@ FenixSnackbar
 .
 make
 (
+view
+=
 it
+duration
+=
 FenixSnackbar
 .
 LENGTH_SHORT
+isDisplayedOnBrowserFragment
+=
+false
 )
 .
 setText

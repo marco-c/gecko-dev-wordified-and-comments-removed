@@ -450,8 +450,10 @@ snackbar
 =
 FenixSnackbar
 .
-makeWithToolbarPadding
+make
 (
+view
+=
 requireActivity
 (
 )
@@ -461,6 +463,9 @@ getRootView
 )
 !
 !
+isDisplayedOnBrowserFragment
+=
+true
 )
 navController
 =

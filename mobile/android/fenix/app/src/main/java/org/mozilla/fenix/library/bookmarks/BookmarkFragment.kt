@@ -685,9 +685,16 @@ FenixSnackbar
 make
 (
 view
+=
+view
+duration
+=
 FenixSnackbar
 .
 LENGTH_LONG
+isDisplayedOnBrowserFragment
+=
+false
 )
 deleteBookmarkNodes
 =

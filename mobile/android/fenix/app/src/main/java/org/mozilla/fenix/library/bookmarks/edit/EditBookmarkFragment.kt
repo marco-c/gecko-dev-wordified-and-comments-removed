@@ -1069,8 +1069,10 @@ bookmark
 >
 FenixSnackbar
 .
-makeWithToolbarPadding
+make
 (
+view
+=
 activity
 .
 getRootView
@@ -1078,6 +1080,9 @@ getRootView
 )
 !
 !
+isDisplayedOnBrowserFragment
+=
+true
 )
 .
 setText
