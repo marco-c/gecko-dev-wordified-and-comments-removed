@@ -119,7 +119,21 @@ colorAccent
 >
 color
 /
-photonMagenta70
+focusContrastPink
+<
+/
+color
+>
+<
+color
+name
+=
+"
+focusContrastPink
+"
+>
+#
+e452B9
 <
 /
 color
@@ -635,7 +649,7 @@ searchSuggestionPromptButtonTextColor
 >
 color
 /
-photonMagenta70
+focusContrastPink
 <
 /
 color
@@ -721,7 +735,7 @@ dialogAccent
 >
 color
 /
-photonMagenta70
+focusContrastPink
 <
 /
 color
@@ -808,7 +822,7 @@ firefoxInstallHint
 >
 color
 /
-photonMagenta70
+focusContrastPink
 <
 /
 color
@@ -1051,7 +1065,7 @@ home_screen_dialog_button_text
 >
 color
 /
-photonMagenta70
+focusContrastPink
 <
 /
 color
@@ -1066,7 +1080,7 @@ home_screen_dialog_bg_tint
 >
 color
 /
-photonMagenta70
+focusContrastPink
 <
 /
 color
