@@ -992,6 +992,17 @@ contains
 s
 "
 )
+|
+|
+!
+searchString
+.
+contains
+(
+"
+http
+"
+)
 -
 >
 resources
