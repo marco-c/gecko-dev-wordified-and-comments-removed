@@ -269,6 +269,14 @@ mozilla
 .
 fenix
 .
+BrowserDirection
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -1776,6 +1784,9 @@ selectedSession
 ?
 .
 id
+BrowserDirection
+.
+FromHome
 )
 }
 }
