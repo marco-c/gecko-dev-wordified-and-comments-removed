@@ -464,6 +464,7 @@ sessionManager
 add
 (
 session
+true
 )
 activity
 .
@@ -553,6 +554,7 @@ sessionManager
 add
 (
 session
+true
 )
 activity
 .
