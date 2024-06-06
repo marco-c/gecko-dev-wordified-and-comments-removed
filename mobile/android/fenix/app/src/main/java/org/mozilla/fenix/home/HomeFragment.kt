@@ -1410,6 +1410,15 @@ Mode
 .
 Normal
 }
+if
+(
+onboarding
+.
+userHasBeenOnboarded
+(
+)
+)
+{
 val
 mode
 =
@@ -1447,6 +1456,7 @@ ModeChange
 mode
 )
 )
+}
 browsingModeManager
 .
 mode
