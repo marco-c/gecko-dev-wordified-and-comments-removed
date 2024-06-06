@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 lintrules
+.
+perf
 import
 com
 .
