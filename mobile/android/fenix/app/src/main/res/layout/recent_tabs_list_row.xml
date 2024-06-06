@@ -161,15 +161,6 @@ layout_height
 "
 android
 :
-background
-=
-"
-drawable
-/
-home_list_row_background
-"
-android
-:
 clipToPadding
 =
 "

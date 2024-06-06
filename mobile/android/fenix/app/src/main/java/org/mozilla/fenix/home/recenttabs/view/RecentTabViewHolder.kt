@@ -272,6 +272,8 @@ tab
 :
 TabSessionState
 )
+:
+View
 {
 /
 /
@@ -388,6 +390,8 @@ tab
 id
 )
 }
+return
+itemView
 }
 companion
 object
