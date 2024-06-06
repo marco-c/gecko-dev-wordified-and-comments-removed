@@ -77,6 +77,18 @@ navigation
 .
 NavDirections
 import
+kotlinx
+.
+android
+.
+synthetic
+.
+main
+.
+activity_home
+.
+*
+import
 mozilla
 .
 components
@@ -325,6 +337,8 @@ onExternalAppBrowserOnCreate
 (
 safeIntent
 hasSavedInstanceState
+homeActivityInitTimeStampNanoSeconds
+rootContainer
 )
 }
 override
