@@ -974,6 +974,20 @@ name
 "
 menu_whats_new
 "
+moz
+:
+RemovedIn
+=
+"
+116
+"
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 Novedades
 <
@@ -9890,7 +9904,7 @@ preferences_cookie_banner
 Reducci
 n
 de
-pancarta
+mensajes
 de
 cookies
 <
@@ -10007,7 +10021,7 @@ cookie_banner_reject_all_option_title
 Reducci
 n
 de
-pancarta
+mensajes
 de
 cookies
 <
@@ -11090,7 +11104,7 @@ de
 cookies
 para
 descartar
-pancartas
+mensajes
 de
 cookies
 molestos
