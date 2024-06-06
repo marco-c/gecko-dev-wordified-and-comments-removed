@@ -127,6 +127,8 @@ release
 klar
 -
 release
+-
+beta
 job
 -
 template
@@ -187,6 +189,9 @@ release
 klar
 -
 release
+beta
+:
+beta
 dep
 :
 by
@@ -218,7 +223,7 @@ build
 -
 type
 :
-nightly
+default
 :
 gp
 focus

@@ -604,6 +604,13 @@ Beta
 focus
 build
 '
+attributes
+:
+release
+-
+type
+:
+beta
 run
 -
 on
