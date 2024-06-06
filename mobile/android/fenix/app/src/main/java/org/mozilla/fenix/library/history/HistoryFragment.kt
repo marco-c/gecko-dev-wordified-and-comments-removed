@@ -464,9 +464,12 @@ Normal
 )
 )
 }
-historyInteractor
+val
+historyController
+:
+HistoryController
 =
-HistoryInteractor
+DefaultHistoryController
 (
 historyStore
 :
@@ -481,6 +484,12 @@ invalidateOptionsMenu
 :
 :
 deleteHistoryItems
+)
+historyInteractor
+=
+HistoryInteractor
+(
+historyController
 )
 historyView
 =
