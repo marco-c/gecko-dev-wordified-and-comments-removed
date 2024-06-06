@@ -788,10 +788,6 @@ tabBorderModifier
 if
 (
 isSelected
-&
-&
-!
-multiSelectionEnabled
 )
 {
 Modifier
