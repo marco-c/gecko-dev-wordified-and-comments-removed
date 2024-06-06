@@ -271,7 +271,7 @@ webrender
 -
 performance
 -
-comparisson
+comparison
 -
 experiment
 "
