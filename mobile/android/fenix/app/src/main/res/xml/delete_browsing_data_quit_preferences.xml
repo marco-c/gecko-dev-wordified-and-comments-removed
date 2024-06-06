@@ -129,13 +129,6 @@ auto
 >
 <
 SwitchPreference
-app
-:
-iconSpaceReserved
-=
-"
-false
-"
 android
 :
 defaultValue
@@ -213,7 +206,7 @@ layout
 "
 layout
 /
-preference_cat_style
+preference_category_empty
 "
 >
 <
@@ -234,7 +227,7 @@ layout
 "
 layout
 /
-delete_browsing_category_checkbox
+checkbox_left_preference
 "
 android
 :
@@ -265,7 +258,7 @@ layout
 "
 layout
 /
-delete_browsing_category_checkbox
+checkbox_left_preference
 "
 android
 :
@@ -274,7 +267,7 @@ title
 "
 string
 /
-preferences_delete_browsing_data_on_quit_browsing_history
+preferences_delete_browsing_data_browsing_data_title
 "
 /
 >
@@ -296,7 +289,7 @@ layout
 "
 layout
 /
-delete_browsing_category_checkbox
+checkbox_left_preference
 "
 android
 :
@@ -336,7 +329,7 @@ layout
 "
 layout
 /
-delete_browsing_category_checkbox
+checkbox_left_preference
 "
 android
 :
@@ -376,7 +369,7 @@ layout
 "
 layout
 /
-delete_browsing_category_checkbox
+checkbox_left_preference
 "
 android
 :
