@@ -213,7 +213,7 @@ popup
 *
 /
 class
-WebExtensionPopupFeature
+WebExtensionPopupObserver
 (
 private
 val

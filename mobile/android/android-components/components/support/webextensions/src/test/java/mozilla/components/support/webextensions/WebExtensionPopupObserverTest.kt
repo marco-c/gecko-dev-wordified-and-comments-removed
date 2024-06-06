@@ -193,7 +193,7 @@ junit
 .
 Test
 class
-WebExtensionPopupFeatureTest
+WebExtensionPopupObserverTest
 {
 get
 :
@@ -258,9 +258,9 @@ WebExtensionState
 =
 null
 val
-feature
+observer
 =
-WebExtensionPopupFeature
+WebExtensionPopupObserver
 (
 store
 )
@@ -269,7 +269,7 @@ extensionOpeningPopup
 =
 it
 }
-feature
+observer
 .
 start
 (
@@ -336,7 +336,7 @@ popup
 extensionOpeningPopup
 =
 null
-feature
+observer
 .
 stop
 (

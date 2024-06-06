@@ -751,7 +751,7 @@ support
 .
 webextensions
 .
-WebExtensionPopupFeature
+WebExtensionPopupObserver
 import
 mozilla
 .
@@ -1821,11 +1821,11 @@ isToolbarInflated
 false
 private
 val
-webExtensionPopupFeature
+webExtensionPopupObserver
 by
 lazy
 {
-WebExtensionPopupFeature
+WebExtensionPopupObserver
 (
 components
 .
@@ -1839,7 +1839,7 @@ openPopup
 }
 private
 val
-extensionProcessDisabledPopupFeature
+extensionProcessDisabledPopupObserver
 by
 lazy
 {
@@ -2721,8 +2721,8 @@ lifecycle
 .
 addObservers
 (
-webExtensionPopupFeature
-extensionProcessDisabledPopupFeature
+webExtensionPopupObserver
+extensionProcessDisabledPopupObserver
 serviceWorkerSupport
 )
 if

@@ -195,7 +195,7 @@ support
 .
 webextensions
 .
-WebExtensionPopupFeature
+WebExtensionPopupObserver
 import
 org
 .
@@ -245,11 +245,11 @@ ComponentCallbacks2
 {
 private
 val
-webExtensionPopupFeature
+webExtensionPopupObserver
 by
 lazy
 {
-WebExtensionPopupFeature
+WebExtensionPopupObserver
 (
 components
 .
@@ -366,7 +366,7 @@ lifecycle
 .
 addObserver
 (
-webExtensionPopupFeature
+webExtensionPopupObserver
 )
 components
 .

@@ -141,7 +141,7 @@ support
 .
 webextensions
 .
-ExtensionProcessDisabledPopupFeature
+ExtensionProcessDisabledPopupObserver
 import
 org
 .
@@ -570,7 +570,7 @@ context
 appName
 )
 :
-ExtensionProcessDisabledPopupFeature
+ExtensionProcessDisabledPopupObserver
 (
 store
 {

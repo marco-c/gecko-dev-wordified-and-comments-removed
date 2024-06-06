@@ -178,7 +178,7 @@ popup
 /
 open
 class
-ExtensionProcessDisabledPopupFeature
+ExtensionProcessDisabledPopupObserver
 (
 private
 val
