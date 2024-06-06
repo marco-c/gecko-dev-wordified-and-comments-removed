@@ -205,7 +205,7 @@ R
 .
 string
 .
-onboarding_privacy_notice_description
+onboarding_privacy_notice_description2
 appName
 )
 view
