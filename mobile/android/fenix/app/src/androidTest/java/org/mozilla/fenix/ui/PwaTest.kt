@@ -362,6 +362,9 @@ toUri
 )
 )
 {
+waitForPageToLoad
+(
+)
 }
 .
 openThreeDotMenu
@@ -414,6 +417,9 @@ toUri
 )
 )
 {
+waitForPageToLoad
+(
+)
 }
 .
 openThreeDotMenu

@@ -442,6 +442,18 @@ fenix
 .
 helpers
 .
+TestAssetHelper
+.
+waitingTimeLong
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 TestHelper
 .
 packageName
@@ -2045,7 +2057,7 @@ expectedText
 .
 waitForExists
 (
-waitingTime
+waitingTimeLong
 )
 val
 element
