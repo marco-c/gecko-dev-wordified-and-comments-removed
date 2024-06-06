@@ -563,6 +563,16 @@ mozilla
 .
 focus
 .
+engine
+.
+TabsFeatureMiddleware
+import
+org
+.
+mozilla
+.
+focus
+.
 exceptions
 .
 ExceptionMigrationMiddleware
@@ -1049,6 +1059,9 @@ adsTelemetry
 BlockedTrackersMiddleware
 (
 context
+)
+TabsFeatureMiddleware
+(
 )
 )
 +
