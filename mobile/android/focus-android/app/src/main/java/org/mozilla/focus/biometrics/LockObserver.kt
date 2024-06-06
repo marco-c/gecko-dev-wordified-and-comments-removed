@@ -343,7 +343,7 @@ tabCount
 &
 topSitesList
 .
-isNullOrEmpty
+isEmpty
 (
 )
 )
@@ -390,6 +390,8 @@ dispatch
 AppAction
 .
 Lock
+(
+)
 )
 }
 }

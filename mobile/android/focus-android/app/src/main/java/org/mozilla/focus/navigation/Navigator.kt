@@ -381,6 +381,9 @@ navigation
 .
 lock
 (
+screen
+.
+bundle
 )
 is
 Screen

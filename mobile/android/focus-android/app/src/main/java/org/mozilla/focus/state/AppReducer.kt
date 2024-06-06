@@ -232,6 +232,7 @@ Lock
 lock
 (
 state
+action
 )
 is
 AppAction
@@ -865,6 +866,11 @@ lock
 state
 :
 AppState
+action
+:
+AppAction
+.
+Lock
 )
 :
 AppState
@@ -879,6 +885,11 @@ screen
 Screen
 .
 Locked
+(
+action
+.
+bundle
+)
 )
 }
 /
