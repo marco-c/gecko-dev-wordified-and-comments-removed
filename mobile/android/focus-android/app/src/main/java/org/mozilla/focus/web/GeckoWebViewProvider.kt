@@ -229,16 +229,6 @@ focus
 .
 telemetry
 .
-CrashReporterWrapper
-import
-org
-.
-mozilla
-.
-focus
-.
-telemetry
-.
 TelemetryWrapper
 import
 org
