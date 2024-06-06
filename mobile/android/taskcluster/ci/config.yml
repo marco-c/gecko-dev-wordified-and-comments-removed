@@ -1090,7 +1090,7 @@ lib
 -
 fetch
 -
-httpurlconnect
+httpurlconnecti
 :
 lib
 -
@@ -1101,7 +1101,7 @@ feature
 -
 webcompat
 -
-report
+reporte
 :
 feature
 -

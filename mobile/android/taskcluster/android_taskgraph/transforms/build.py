@@ -298,16 +298,36 @@ _deep_format
 (
                 
 task
+                
 field
+                
 component
 =
 component
-timestamp
-=
-timestamp
+                
 nightlyVersion
 =
 nightly_version
+                
+timestamp
+=
+timestamp
+                
+treeherder_group
+=
+task
+[
+"
+attributes
+"
+]
+[
+"
+treeherder
+-
+group
+"
+]
             
 )
         
