@@ -1826,6 +1826,8 @@ no_lint
 :
 -
 BASELINE_PING
+-
+METRIC_ON_EVENTS_LIFETIME
 browser
 .
 search
