@@ -99,9 +99,7 @@ mode
 only
 the
 "
-(
 Private
-)
 "
 portion
 should
@@ -116,7 +114,7 @@ string
 name
 =
 "
-app_name_private
+app_name_private_2
 "
 >
 Private
@@ -2609,7 +2607,7 @@ preference
 to
 show
 search
-suggestions
+shortcuts
 -
 -
 >
@@ -13850,8 +13848,6 @@ it
 to
 see
 what
-\
-'
 s
 blocked
 .
