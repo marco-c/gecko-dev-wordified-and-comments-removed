@@ -171,6 +171,13 @@ touchAnchorSide
 "
 top
 "
+motion
+:
+onTouchUp
+=
+"
+stop
+"
 /
 >
 <
