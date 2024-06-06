@@ -797,6 +797,9 @@ verifyDefaultView
 verifyDefaultValueSyncLogins
 (
 )
+verifyDefaultValueAutofillLogins
+(
+)
 }
 .
 openSavedLogins

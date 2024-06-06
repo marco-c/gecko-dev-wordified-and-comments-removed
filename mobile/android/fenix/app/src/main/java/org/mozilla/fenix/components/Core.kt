@@ -692,6 +692,15 @@ settings
 )
 .
 forceEnableZoom
+loginAutofillEnabled
+=
+context
+.
+settings
+(
+)
+.
+shouldAutofillLogins
 )
 GeckoEngine
 (
