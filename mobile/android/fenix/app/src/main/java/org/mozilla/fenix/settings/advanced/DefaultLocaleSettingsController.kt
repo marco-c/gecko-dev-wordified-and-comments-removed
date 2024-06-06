@@ -211,6 +211,13 @@ activity
 recreate
 (
 )
+activity
+.
+overridePendingTransition
+(
+0
+0
+)
 }
 override
 fun
@@ -273,6 +280,13 @@ activity
 .
 recreate
 (
+)
+activity
+.
+overridePendingTransition
+(
+0
+0
 )
 }
 override
