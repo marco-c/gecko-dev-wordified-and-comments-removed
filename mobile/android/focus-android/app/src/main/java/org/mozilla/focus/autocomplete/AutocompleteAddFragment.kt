@@ -137,14 +137,6 @@ coroutines
 .
 experimental
 .
-CommonPool
-import
-kotlinx
-.
-coroutines
-.
-experimental
-.
 android
 .
 UI
@@ -166,6 +158,14 @@ browser
 domains
 .
 CustomDomains
+import
+org
+.
+mozilla
+.
+focus
+.
+IO
 import
 org
 .
@@ -437,7 +437,7 @@ toLowerCase
 )
 launch
 (
-CommonPool
+IO
 )
 {
 val
@@ -546,7 +546,7 @@ String
 {
 launch
 (
-CommonPool
+IO
 )
 {
 CustomDomains

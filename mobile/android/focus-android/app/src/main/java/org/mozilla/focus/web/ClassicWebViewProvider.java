@@ -639,6 +639,7 @@ public
 void
 requestDesktopSite
 (
+NonNull
 WebSettings
 settings
 )
@@ -666,8 +667,10 @@ public
 void
 requestMobileSite
 (
+NonNull
 Context
 context
+NonNull
 WebSettings
 settings
 )
@@ -691,13 +694,16 @@ false
 )
 ;
 }
+NonNull
 public
 String
 getUABrowserString
 (
+NonNull
 final
 String
 existingUAString
+NonNull
 final
 String
 focusToken

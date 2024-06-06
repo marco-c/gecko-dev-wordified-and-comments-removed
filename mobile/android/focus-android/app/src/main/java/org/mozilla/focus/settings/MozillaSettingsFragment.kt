@@ -476,8 +476,6 @@ if
 AppConstants
 .
 isKlarBuild
-(
-)
 )
 SupportUtils
 .

@@ -1439,6 +1439,8 @@ if
 !
 AppConstants
 .
+INSTANCE
+.
 supportsDownloadingFiles
 (
 )

@@ -544,6 +544,8 @@ if
 (
 AppConstants
 .
+INSTANCE
+.
 isKlarBuild
 (
 )
@@ -552,9 +554,10 @@ isKlarBuild
 !
 AppConstants
 .
+INSTANCE
+.
 isGeckoBuild
 (
-appContext
 )
 )
 {
@@ -643,9 +646,10 @@ if
 !
 AppConstants
 .
+INSTANCE
+.
 isGeckoBuild
 (
-appContext
 )
 )
 {

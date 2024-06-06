@@ -383,13 +383,10 @@ if
 !
 AppConstants
 .
+INSTANCE
+.
 isGeckoBuild
 (
-InstrumentationRegistry
-.
-getContext
-(
-)
 )
 )
 {
