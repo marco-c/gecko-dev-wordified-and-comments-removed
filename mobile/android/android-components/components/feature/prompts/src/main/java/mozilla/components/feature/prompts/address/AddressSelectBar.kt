@@ -750,7 +750,7 @@ R
 .
 string
 .
-mozac_feature_prompts_collapse_address_content_description
+mozac_feature_prompts_collapse_address_content_description_2
 )
 }
 else
@@ -774,7 +774,7 @@ R
 .
 string
 .
-mozac_feature_prompts_expand_address_content_description
+mozac_feature_prompts_expand_address_content_description_2
 )
 }
 }

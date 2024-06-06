@@ -276,7 +276,7 @@ contentDescription
 "
 string
 /
-mozac_feature_prompts_expand_logins_content_description
+mozac_feature_prompts_expand_logins_content_description_2
 "
 android
 :
@@ -313,7 +313,7 @@ text
 "
 string
 /
-mozac_feature_prompts_saved_logins
+mozac_feature_prompts_saved_logins_2
 "
 android
 :
@@ -639,7 +639,7 @@ text
 "
 string
 /
-mozac_feature_prompts_manage_logins
+mozac_feature_prompts_manage_logins_2
 "
 android
 :

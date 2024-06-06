@@ -1032,7 +1032,7 @@ R
 .
 string
 .
-mozac_feature_prompt_login_save_headline
+mozac_feature_prompt_login_save_headline_2
 )
 view
 .
@@ -1862,7 +1862,7 @@ R
 .
 string
 .
-mozac_feature_prompt_login_save_headline
+mozac_feature_prompt_login_save_headline_2
 )
 negativeText
 =
@@ -1939,7 +1939,7 @@ R
 .
 string
 .
-mozac_feature_prompt_login_update_headline
+mozac_feature_prompt_login_update_headline_2
 )
 }
 negativeText

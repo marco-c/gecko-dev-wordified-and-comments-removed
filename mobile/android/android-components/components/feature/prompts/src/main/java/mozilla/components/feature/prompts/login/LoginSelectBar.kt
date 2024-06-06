@@ -753,7 +753,7 @@ R
 .
 string
 .
-mozac_feature_prompts_expand_logins_content_description
+mozac_feature_prompts_expand_logins_content_description_2
 )
 }
 }

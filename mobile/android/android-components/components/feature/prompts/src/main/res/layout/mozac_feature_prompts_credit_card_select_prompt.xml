@@ -276,7 +276,7 @@ contentDescription
 "
 string
 /
-mozac_feature_prompts_expand_credit_cards_content_description
+mozac_feature_prompts_expand_credit_cards_content_description_2
 "
 android
 :
@@ -313,7 +313,7 @@ text
 "
 string
 /
-mozac_feature_prompts_select_credit_card
+mozac_feature_prompts_select_credit_card_2
 "
 android
 :
@@ -620,7 +620,7 @@ text
 "
 string
 /
-mozac_feature_prompts_manage_credit_cards
+mozac_feature_prompts_manage_credit_cards_2
 "
 android
 :

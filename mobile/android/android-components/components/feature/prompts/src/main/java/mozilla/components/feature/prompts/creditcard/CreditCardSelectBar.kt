@@ -743,7 +743,7 @@ R
 .
 string
 .
-mozac_feature_prompts_collapse_credit_cards_content_description
+mozac_feature_prompts_collapse_credit_cards_content_description_2
 )
 emitCreditCardAutofillExpandedFact
 (
@@ -770,7 +770,7 @@ R
 .
 string
 .
-mozac_feature_prompts_expand_credit_cards_content_description
+mozac_feature_prompts_expand_credit_cards_content_description_2
 )
 }
 }
