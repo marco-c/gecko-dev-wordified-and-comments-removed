@@ -263,10 +263,26 @@ local_dependency_name
 )
             
 if
+(
+                
 local_dependency_name
 !
 =
 current_project_name
+                
+and
+local_dependency_name
+!
+=
+"
+mozilla
+-
+lint
+-
+rules
+"
+            
+)
 :
                 
 project_dependencies
