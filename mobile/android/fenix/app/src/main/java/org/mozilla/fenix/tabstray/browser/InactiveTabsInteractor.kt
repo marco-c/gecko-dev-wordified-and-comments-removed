@@ -381,7 +381,7 @@ Boolean
 {
 controller
 .
-updateCardExpansion
+handleInactiveTabsHeaderClicked
 (
 expanded
 )
@@ -407,7 +407,7 @@ onAutoCloseDialogCloseButtonClicked
 {
 controller
 .
-dismissAutoCloseDialog
+handleInactiveTabsAutoCloseDialogDismiss
 (
 )
 }
@@ -432,7 +432,7 @@ onEnableAutoCloseClicked
 {
 controller
 .
-enableInactiveTabsAutoClose
+handleEnableInactiveTabsAutoCloseClicked
 (
 )
 }
@@ -460,7 +460,7 @@ TabSessionState
 {
 controller
 .
-openInactiveTab
+handleInactiveTabClicked
 (
 tab
 )
@@ -498,7 +498,7 @@ TabSessionState
 {
 controller
 .
-closeInactiveTab
+handleCloseInactiveTabClicked
 (
 tab
 )
@@ -533,7 +533,7 @@ onDeleteAllInactiveTabsClicked
 {
 controller
 .
-deleteAllInactiveTabs
+handleDeleteAllInactiveTabsClicked
 (
 )
 }

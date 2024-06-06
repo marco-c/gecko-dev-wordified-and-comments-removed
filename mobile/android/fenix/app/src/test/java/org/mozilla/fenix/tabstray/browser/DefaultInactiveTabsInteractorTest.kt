@@ -179,7 +179,7 @@ verify
 {
 controller
 .
-updateCardExpansion
+handleInactiveTabsHeaderClicked
 (
 true
 )
@@ -218,7 +218,7 @@ verify
 {
 controller
 .
-dismissAutoCloseDialog
+handleInactiveTabsAutoCloseDialogDismiss
 (
 )
 }
@@ -256,7 +256,7 @@ verify
 {
 controller
 .
-enableInactiveTabsAutoClose
+handleEnableInactiveTabsAutoCloseClicked
 (
 )
 }
@@ -313,7 +313,7 @@ verify
 {
 controller
 .
-openInactiveTab
+handleInactiveTabClicked
 (
 tab
 )
@@ -386,7 +386,7 @@ verify
 {
 controller
 .
-closeInactiveTab
+handleCloseInactiveTabClicked
 (
 tab
 )
@@ -434,7 +434,7 @@ verify
 {
 controller
 .
-deleteAllInactiveTabs
+handleDeleteAllInactiveTabsClicked
 (
 )
 }

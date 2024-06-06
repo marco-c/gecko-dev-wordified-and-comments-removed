@@ -394,9 +394,9 @@ testGetValue
 )
 controller
 .
-updateCardExpansion
+handleInactiveTabsHeaderClicked
 (
-isExpanded
+expanded
 =
 true
 )
@@ -469,9 +469,9 @@ testGetValue
 )
 controller
 .
-updateCardExpansion
+handleInactiveTabsHeaderClicked
 (
-isExpanded
+expanded
 =
 false
 )
@@ -541,7 +541,7 @@ testGetValue
 )
 controller
 .
-dismissAutoCloseDialog
+handleInactiveTabsAutoCloseDialogDismiss
 (
 )
 assertNotNull
@@ -608,7 +608,7 @@ testGetValue
 )
 controller
 .
-enableInactiveTabsAutoClose
+handleEnableInactiveTabsAutoCloseClicked
 (
 )
 assertNotNull
@@ -721,7 +721,7 @@ testGetValue
 )
 controller
 .
-openInactiveTab
+handleInactiveTabClicked
 (
 tab
 )
@@ -795,7 +795,7 @@ testGetValue
 )
 controller
 .
-closeInactiveTab
+handleCloseInactiveTabClicked
 (
 tab
 )
@@ -946,7 +946,7 @@ testGetValue
 )
 controller
 .
-deleteAllInactiveTabs
+handleDeleteAllInactiveTabsClicked
 (
 )
 verify
