@@ -578,6 +578,10 @@ horizontalPadding
 interactor
 :
 :
+onStoryShown
+interactor
+:
+:
 onStoryClicked
 interactor
 :
@@ -678,6 +682,10 @@ contentPadding
 0
 .
 dp
+onStoryShown
+=
+{
+}
 onStoryClicked
 =
 {
