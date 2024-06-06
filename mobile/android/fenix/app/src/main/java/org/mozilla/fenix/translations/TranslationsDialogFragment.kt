@@ -645,6 +645,13 @@ onTranslateButtonClick
 =
 {
 }
+onNotNowButtonClick
+=
+{
+dismiss
+(
+)
+}
 )
 }
 }
