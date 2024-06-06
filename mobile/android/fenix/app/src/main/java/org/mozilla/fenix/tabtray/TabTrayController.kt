@@ -766,6 +766,9 @@ showUndoSnackbar
 snackbarMessage
 snapshot
 )
+dismissTabTray
+(
+)
 }
 VisibleForTesting
 (
