@@ -144,6 +144,12 @@ fenix
 home
 .
 HomeFragmentStore
+private
+const
+val
+STORIES_TO_SHOW_COUNT
+=
+7
 /
 *
 *
@@ -287,6 +293,14 @@ state
 .
 pocketArticles
 }
+.
+value
+?
+.
+take
+(
+STORIES_TO_SHOW_COUNT
+)
 ExpandableCard
 {
 PocketRecommendations
@@ -294,8 +308,6 @@ PocketRecommendations
 PocketStories
 (
 stories
-.
-value
 ?
 :
 emptyList

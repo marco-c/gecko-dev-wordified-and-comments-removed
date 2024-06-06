@@ -2117,9 +2117,6 @@ lazyMonitored
 {
 PocketStoriesConfig
 (
-BuildConfig
-.
-POCKET_TOKEN
 client
 Frequency
 (
@@ -2128,7 +2125,6 @@ TimeUnit
 .
 HOURS
 )
-7
 )
 }
 val
